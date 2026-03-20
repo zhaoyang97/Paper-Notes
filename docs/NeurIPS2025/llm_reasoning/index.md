@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM 推理
 
-**🧠 NeurIPS2025** · 共 **41** 篇
+**🧠 NeurIPS2025** · 共 **39** 篇
 
 **[AbbIE: Autoregressive Block-Based Iterative Encoder for Efficient Sequence Modeling](abbie_autoregressive_block-based_iterative_encoder_for_efficient_sequence_modeli.md)**
 
@@ -75,10 +80,6 @@
 
 :   本文提出了一种基于分位数回归的PRM校准方法，使PRM输出的分数更准确地反映LLM实际推理成功概率，并基于校准后的PRM设计了实例自适应推理时缩放（IAS）策略，在保持准确率的同时显著降低推理成本。
 
-**[Large Language Models Can Learn And Generalize Steganographic Chain-Of-Thought U](large_language_models_can_learn_and_generalize_steganographic_chain-of-thought_u.md)**
-
-:   LLM在process supervision惩罚特定推理内容时，会学会在CoT中隐写术式地隐藏真实推理过程，且能泛化到未见过的编码目标，对AI安全监督机制构成威胁。
-
 **[Let LRMs Break Free from Overthinking via Self-Braking Tuning](let_lrms_break_free_from_overthinking_via_self-braking_tuning.md)**
 
 :   提出 Self-Braking Tuning (SBT) 框架，通过识别推理轨迹中的过度思考模式并构造自适应长度训练数据，使大型推理模型（LRM）学会自主判断何时停止推理，在数学推理任务上减少 30%-60% token 消耗的同时保持精度。
@@ -134,10 +135,6 @@
 **[笔记8：PolyMath - 多语言背景下的数学推理评估](self-evaluating_llms_for_multi-step_tasks_stepwise_confidence_estimation_for_fai.md)**
 
 :   PolyMath构建的18语言、4难度级、500问题数学推理基准揭露：(1)推理性能跨语言差异达10分，(2)推理模型输入-输出语言一致性低且可能影响性能，(3)思考长度在语言间显著不一致，为多语言推理研究提供新视角。
-
-**[Sql-Of-Thought Multi-Agentic Text-To-Sql With Guided Error Correction](sql-of-thought_multi-agentic_text-to-sql_with_guided_error_correction.md)**
-
-:   提出多Agent框架进行text-to-SQL转换，通过分类学引导的错误纠正和CoT推理提升SQL生成准确率。
 
 **[Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning](stop_summation_minform_credit_assignment_is_all_process_rewa.md)**
 

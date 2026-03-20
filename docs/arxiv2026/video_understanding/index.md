@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频理解
 
-**📄 arxiv2026** · 共 **16** 篇
+**📄 arxiv2026** · 共 **14** 篇
 
 **[4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video](4dequine_disentangling_motion_appearance.md)**
 
@@ -18,10 +23,6 @@
 **[FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance](flashmotion_fewstep_controllable_video.md)**
 
 :   轨迹可控视频生成的最新进展取得了显着的进展。
-
-**[Geometry-Guided Camera Motion Understanding in VideoLLMs](geometryguided_camera_motion_understanding.md)**
-
-:   相机运动是塑造视觉感知和电影风格的基本几何信号，但当前支持视频的视觉语言模型 (VideoLLM) 很少明确地表示它，并且经常无法处理细粒度的运动基元。
 
 **[L2GTX: From Local to Global Time Series Explanations](l2gtx_local_global_time.md)**
 
@@ -58,10 +59,6 @@
 **[Team RAS in 10th ABAW Competition: Multimodal Valence and Arousal Estimation Approach](team_ras_10th_abaw.md)**
 
 :   我们提出了一种用于价唤醒估计 ITW 的多模态方法。
-
-**[Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos](towards_spatiotemporal_world_scene.md)**
-
-:   时空场景图为建模不断演变的对象交互提供了原则性的表示，但现有方法基本上仍然以帧为中心：它们仅推理当前可见的对象，在遮挡时丢弃实体，并在 2D 中操作。
 
 **[Weakly Supervised Temporal Action Localization via Dual-Prior Collaborative Learning Guided by Multimodal Large Language Models](weakly_supervised_teacherstudent_framework.md)**
 

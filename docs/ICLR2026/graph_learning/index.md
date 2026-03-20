@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🔬 ICLR2026** · 共 **8** 篇
+**🔬 ICLR2026** · 共 **7** 篇
 
 **[A Geometric Perspective on the Difficulties of Learning GNN-based SAT Solvers](a_geometric_perspective_on_the_difficulties_of_learning_gnn-based_sat_solvers.md)**
 
@@ -30,7 +35,3 @@
 **[Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding](pairwise_is_not_enough_hypergraph_neural_networks_for_multi-agent_pathfinding.md)**
 
 :   提出 HMAGAT，用有向超图注意力网络替代 GNN 的成对消息传递来建模多智能体路径规划中的群体交互，仅用 1M 参数和 1% 训练数据即超越 85M 参数的 SOTA 模型。
-
-**[Structurally Human, Semantically Biased: Detecting LLM-Generated References with Embeddings and GNNs](structurally_human_semantically_biased_detecting_llm-generated_references_with_e.md)**
-
-:   发现 LLM 生成的参考文献在图拓扑结构上与人类引用高度相似（图结构分类器仅 0.61 准确率），但在语义嵌入上可被检测（GNN+嵌入达 93% 准确率），揭示了 LLM 的"结构模仿、语义偏向"特性。

@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**💬 ACL2025** · 共 **17** 篇
+**💬 ACL2025** · 共 **16** 篇
 
 **[CENTAUR: Bridging the Impossible Trinity of Privacy, Efficiency, and Performance in Privacy-Preserving Transformer Inference](centaur_bridging_the_impossible_trinity_of.md)**
 
@@ -26,10 +31,6 @@
 **[Gender Inclusivity Fairness Index (GIFI): A Multilevel Framework](gifi_gender_fairness.md)**
 
 :   提出 GIFI（Gender Inclusivity Fairness Index），一个多层次综合评估框架，涵盖代词识别、情感中立性、毒性、反事实公平性、刻板印象关联、职业公平性和推理性能一致性七个维度，在 22 个 LLM 上系统评估二元与非二元性别的公平性。
-
-**[Improved Unbiased Watermark for Large Language Models](improved_unbiased_watermark_for_large_language.md)**
-
-:   提出 MCmark，一族基于多通道（Multi-Channel）的无偏水印算法，通过将词表分割为 $l$ 个段并在选中段内提升 token 概率来嵌入统计信号，在保持 LLM 原始输出分布的同时，可检测性比现有无偏水印提升超 10%。
 
 **[Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?](llm_watermark_distillation_robustness.md)**
 

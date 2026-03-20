@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📷 CVPR2026** · 共 **26** 篇
+**📷 CVPR2026** · 共 **25** 篇
 
 **[Agentic Retoucher for Text-To-Image Generation](agentic_retoucher_for_texttoimage_generation.md)**
 
@@ -90,10 +95,6 @@
 **[PROMO: Promptable Outfitting for Efficient High-Fidelity Virtual Try-On](promo_promptable_virtual_tryon_efficient.md)**
 
 :   PROMO基于FLUX Flow Matching DiT骨干，通过潜空间多模态条件拼接、时序自参考KV缓存、3D-RoPE分组条件、以及fine-tuned VLM风格提示系统，在去除传统参考网络的前提下实现了高保真且高效的多件服装虚拟试穿，推理速度比无加速版快2.4倍，在VITON-HD和DressCode上超越现有VTON和通用图像编辑方法。
-
-**[RAZOR: Ratio-Aware Layer Editing for Targeted Unlearning in Vision Transformers and Diffusion Models](razor_ratio_aware_unlearning_vit_diffusion.md)**
-
-:   提出 RAZOR，一个轻量级、模型无关的 Transformer 定向遗忘框架——通过比率感知策略识别对遗忘目标贡献最大的层和注意力头，用正则化更新规则精确编辑这些组件，逐步扩展编辑范围避免过度编辑；在 CLIP、Stable Diffusion 和 VLM 的身份/风格/物体擦除任务上实现高精度稳定遗忘，甚至在量化后仍有效，速度远快于传统方法。
 
 **[SegQuant: A Semantics-Aware and Generalizable Quantization Framework for Diffusion Models](segquant_diffusion_model_quantization.md)**
 

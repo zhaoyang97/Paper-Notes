@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**📄 arxiv2026** · 共 **5** 篇
+**📄 arxiv2026** · 共 **4** 篇
 
 **[BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](boss_bestofstrategies_selector_as.md)**
 
@@ -14,10 +19,6 @@
 **[Representation Learning for Spatiotemporal Physical Systems](representation_learning_spatiotemporal_physical.md)**
 
 :   时空物理系统的机器学习方法主要集中在下一帧预测，其目标是学习系统及时演化的准确模拟器。
-
-**[Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval](textphase_synergy_network_dual.md)**
-
-:   本文研究无监督跨域图像检索（UCDIR），其目的是在不依赖标记数据的情况下跨不同域检索同一类别的图像。
 
 **[V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration](vbridge_bridging_video_generative.md)**
 

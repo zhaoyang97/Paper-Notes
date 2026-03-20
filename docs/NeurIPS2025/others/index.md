@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧠 NeurIPS2025** · 共 **36** 篇
+**🧠 NeurIPS2025** · 共 **28** 篇
 
 **[4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)**
 
@@ -83,25 +88,9 @@
 
 :   通过多次生成(k=50)建立层级模型，证明能显著降低基准估计方差，量化个体prompt难度，检测标签错误。
 
-**[Depth-Supervised Fusion Network For Seamless-Free Image Stitching](depth-supervised_fusion_network_for_seamless-free_image_stitching.md)**
-
-:   利用深度监督进行多视角对齐和软缝合融合，解决大视差场景下的图像拼接问题，在大视差对齐和无缝融合上超越现有SOTA。
-
 **[FlowMoE: 分布式MoE训练的可扩展流水线调度框架](flowmoe_a_scalable_pipeline_scheduling_framework_for_distributed_mixture-of-expe.md)**
 
 :   通过统一的流水线调度和优先级驱动的all-reduce张量分块，实现MHA、门控、专家计算和A2A/all-reduce通信的完全重叠，训练时间减少13-57%。
-
-**[Generalized Linear Mode Connectivity For Transformers](generalized_linear_mode_connectivity_for_transformers.md)**
-
-:   提出统一框架捕捉Transformer中的置换、半置换、正交和可逆对称性，首次在ViT和GPT-2上实现线性模式连接性(LMC)，支持多模型融合。
-
-**[Gradient-Weight Alignment As A Train-Time Proxy For Generalization In Classifica](gradient-weight_alignment_as_a_train-time_proxy_for_generalization_in_classifica.md)**
-
-:   提出梯度-权重对齐(GWA)作为训练时的泛化代理指标，无需验证集即可准确确定早停时机和模型比较。
-
-**[Graph Alignment Via Birkhoff Relaxation](graph_alignment_via_birkhoff_relaxation.md)**
-
-:   分析图对齐的二次分配问题的凸松弛（Birkhoff松弛），证明在 $\sigma = o(n^{-1})$ 时可恢复~100%的对齐，超越了先前的simplex松弛结果。
 
 **[笔记2：PRM必要吗？RL隐式诱导PRM能力](is_prm_necessary_problem-solving_rl_implicitly_induces_prm_capability_in_llms.md)**
 
@@ -111,21 +100,9 @@
 
 :   L-MTP通过跳跃式预测非相邻token，相比MTP在3B-12B模型上实现22%推理加速，同时保持或提升任务性能。
 
-**[Learning Generalizable Shape Completion With Sim3 Equivariance](learning_generalizable_shape_completion_with_sim3_equivariance.md)**
-
-:   首个SIM(3)等变网络用于3D形状补全，通过规范化特征、几何推理和变换恢复三阶段，KITTI提升17%、OmniObject3D提升14%。
-
-**[Look-Ahead Reasoning On Learning Platforms](look-ahead_reasoning_on_learning_platforms.md)**
-
-:   在多领导Stackelberg博弈中形式化level-k前瞻性推理和协调战略行为，识别了对齐的关键优化视野，并证明基于努力的信号可减轻用户的对齐负担。
-
 **[MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](maszero_designing_multiagent_systems_with_zero_supervision.md)**
 
 :   MAS-ZERO 是首个推理时自动 MAS 设计框架，通过 meta-agent 迭代设计、批评和改进 MAS 配置（包括任务分解和 sub-MAS 分配），无需验证集和训练，在推理（+16.69%）、编程（+16.66%）和搜索代理（+5.45%）任务上均超越手动和自动 MAS baseline，同时保持 Pareto 最优的准确率-成本权衡。
-
-**[Model Context Protocol for Vision Systems: Audit, Security, and Protocol Extensions](model_context_protocol_for_vision_systems_audit_security_and_protocol_extensions.md)**
-
-:   首次大规模审计 MCP 在 91 个视觉系统中的部署，揭示 78% 存在 schema 偏差、89% 缺乏运行时验证等协议级脆弱性，提出扩展方案增强编排可靠性。
 
 **[MoESD: 揭示稀疏MoE推理中投机解码的潜力](moesd_unveil_speculative_decodings_potential_for_accelerating_sparse_moe.md)**
 
@@ -138,10 +115,6 @@
 **[笔记5：ReSearch - 学习通过搜索推理](research_learning_to_reason_with_search_for_llms_via_reinforcement_learning.md)**
 
 :   ReSearch框架将搜索操作嵌入推理链中作为第一类原语，通过GRPO强化学习自动学习何时何如搜索，无需任何推理步骤的监督标注，在多跳QA任务上相对基线平均提升15.81%。
-
-**[Training The Untrainable Introducing Inductive Bias Via Representational Alignme](training_the_untrainable_introducing_inductive_bias_via_representational_alignme.md)**
-
-:   通过层级CKA对齐将架构先验从引导模型转移到目标模型，使FCN停止过拟合、RNN-Transformer差距缩小、ResNet匹配基线性能。
 
 **[笔记4：WebThinker - 赋予推理模型深度研究能力](webthinker_empowering_large_reasoning_models_with_deep_research_capability.md)**
 

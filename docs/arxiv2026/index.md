@@ -1,26 +1,29 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📄 arxiv2026 论文笔记
 
-共 **175** 篇笔记，覆盖 **15** 个领域。
+共 **159** 篇笔记，覆盖 **13** 个领域。
 
 ## 领域概览
 
 | 领域 | 篇数 |
 |:-----|-----:|
-| 🏥 [医学图像](#medical_imaging) | 27 |
-| 👁️ [多模态 VLM](#multimodal_vlm) | 22 |
+| 🏥 [医学图像](#medical_imaging) | 25 |
 | 🎯 [目标检测](#object_detection) | 22 |
 | ✂️ [语义分割](#segmentation) | 22 |
-| 🧊 [3D 视觉](#3d_vision) | 19 |
+| 🧊 [3D 视觉](#3d_vision) | 18 |
 | 📦 [模型压缩](#model_compression) | 17 |
-| 🎬 [视频理解](#video_understanding) | 16 |
-| 🎨 [图像生成](#image_generation) | 13 |
-| 🔄 [自监督/表示学习](#self_supervised) | 5 |
+| 👁️ [多模态 VLM](#multimodal_vlm) | 17 |
+| 🎬 [视频理解](#video_understanding) | 14 |
+| 🎨 [图像生成](#image_generation) | 11 |
 | 💬 [LLM / NLP](#llm_nlp) | 4 |
+| 🔄 [自监督/表示学习](#self_supervised) | 4 |
 | 🛡️ [AI 安全](#ai_safety) | 3 |
-| 🧑 [人体理解](#human_understanding) | 2 |
 | 🚗 [自动驾驶](#autonomous_driving) | 1 |
-| 🖼️ [图像恢复](#image_restoration) | 1 |
 | 📂 [其他](#others) | 1 |
 
 ---
@@ -54,10 +57,6 @@
 **[Comparative Evaluation of Traditional Methods and Deep Learning for Brain Glioma Imaging. Review Paper](medical_imaging/comparative_evaluation_traditional_methods.md)**
 
 :   分割对于脑胶质瘤至关重要，因为它描绘了胶质瘤的范围和位置，有助于精确的治疗计划和监测，从而改善患者的治疗效果。
-
-**[Deep Learning Based Estimation of Blood Glucose Levels from Multidirectional Scleral Blood Vessel Imaging](medical_imaging/deep_learning_based_estimation.md)**
-
-:   定期监测血糖状态对于糖尿病管理至关重要，但传统的血液检测对于频繁评估来说可能很麻烦。
 
 **[Diffusion-Based Feature Denoising and Using NNMF for Robust Brain Tumor Classification](medical_imaging/diffusionbased_feature_denoising_using.md)**
 
@@ -107,10 +106,6 @@
 
 :   在这项工作中，我们开发了一个三步协议来评估 CPath 模型中 H&E 染色变异的稳健性。
 
-**[Prototype-Based Knowledge Guidance for Fine-Grained Structured Radiology Reporting](medical_imaging/prototypebased_knowledge_guidance_finegrained.md)**
-
-:   结构化放射学报告有望比自由文本进行更快、更一致的通信，但自动化仍然很困难，因为模型必须针对有限的结构化监督中的罕见发现和属性做出许多细粒度、离散的决策。
-
 **[A Semi-Supervised Framework for Breast Ultrasound Segmentation with Training-Free Pseudo-Label Generation and Label Refinement](medical_imaging/semisupervised_framework_breast_ultrasound.md)**
 
 :   为了解决这个问题，我们提出了一个半监督框架，具有免训练的伪标签生成和标签细化。
@@ -134,98 +129,6 @@
 **[Unsupervised Domain Adaptation with Target-Only Margin Disparity Discrepancy](medical_imaging/unsupervised_domain_adaptation_targetonly.md)**
 
 :   我们提出了一种基于边缘差异差异（MDD）形式的新型无监督域适应（UDA）框架，它通过重新制定原始MDD优化框架来提高目标域性能。
-
----
-
-## 👁️ 多模态 VLM { #multimodal_vlm }
-
-**[Adaptive Vision-Language Model Routing for Computer Use Agents](multimodal_vlm/adaptive_visionlanguage_model_routing.md)**
-
-:   我们提出了自适应 VLM 路由（AVR），这是一个在 CUA 协调器和 VLM 池之间插入轻量级语义路由层的框架。
-
-**[Beyond Single-Sample: Reliable Multi-Sample Distillation for Video Understanding](multimodal_vlm/beyond_singlesample_reliable_multisample.md)**
-
-:   大型视觉语言模型 (LVLM) 的传统黑盒蒸馏通常依赖于每个输入的单个教师响应，这通常会在多模式或时间场景中产生高方差响应和格式不一致。
-
-**[BiCLIP: Bidirectional and Consistent Language-Image Processing for Robust Medical Image Segmentation](multimodal_vlm/biclip_bidirectional_consistent_languageimage.md)**
-
-:   医学图像分割是计算机辅助诊断和治疗计划的基石。
-
-**[A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks](multimodal_vlm/closedform_solution_debiasing_visionlanguage.md)**
-
-:   在本文中，我们引入了一种去偏方法，该方法在跨模态空间中产生 \textbf{闭合形式} 解决方案，从而在 \textbf{有界效用损失} 的情况下实现帕累托最优公平性。
-
-**[CodePercept: Code-Grounded Visual STEM Perception for MLLMs](multimodal_vlm/codepercept_codegrounded_visual_stem.md)**
-
-:   当 MLLM 在科学、技术、工程和数学 (STEM) 视觉推理方面失败时，就会出现一个基本问题：这是由于感知缺陷还是推理限制造成的？
-
-**[Evolving Prompt Adaptation for Vision-Language Models](multimodal_vlm/evolving_prompt_adaptation_visionlanguage.md)**
-
-:   为此，我们提出了 EvoPrompt，这是一种新颖的框架，旨在明确引导提示轨迹，以实现稳定、保留知识的微调。
-
-**[HIFICL: High-Fidelity In-Context Learning for Multimodal Tasks](multimodal_vlm/hificl_highfidelity_incontext_learning.md)**
-
-:   上下文学习 (ICL) 是大型多模态模型 (LMM) 的重要范例，它使用一些上下文演示 (ICD) 来适应新任务。
-
-**[Human Knowledge Integrated Multi-modal Learning for Single Source Domain Generalization](multimodal_vlm/human_knowledge_integrated_multimodal.md)**
-
-:   在基于眼底图像的糖尿病视网膜病变 (DR) 分级和静息态 fMRI 癫痫发作区 (SOZ) 检测等关键任务中，跨领域推广图像分类仍然具有挑战性。
-
-**[Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning](multimodal_vlm/mastering_negation_boosting_grounding.md)**
-
-:   当前的视觉语言检测和基础模型主要关注具有积极语义的提示，并且常常难以准确解释和基础包含消极语义的复杂表达。
-
-**[Multiscale Structure-Guided Latent Diffusion for Multimodal MRI Translation](multimodal_vlm/multiscale_structureguided_latent_diffusion.md)**
-
-:   尽管扩散模型在多模态磁共振成像（MRI）翻译任务中取得了显着进展，但现有方法在处理任意模态缺失场景时仍然容易出现解剖学不一致或纹理细节退化的问题。
-
-**[NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval](multimodal_vlm/nanovdr_distilling_2b_visionlanguage.md)**
-
-:   基于视觉语言模型 (VLM) 的检索器具有先进的视觉文档检索 (VDR)，质量令人印象深刻。
-
-**[Noise-aware few-shot learning through bi-directional multi-view prompt alignment](multimodal_vlm/noiseaware_fewshot_learning_through.md)**
-
-:   为了应对这些挑战，我们提出了 NA-MVP，这是一种通过双向多视图提示对齐进行噪声感知小样本学习的框架。
-
-**[RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset](multimodal_vlm/radar_closedloop_robotic_data.md)**
-
-:   为了打破这一障碍，我们引入了机器人的鲁棒自主数据采集（RADAR），这是一种完全自主的闭环数据生成引擎，可以完全消除收集周期中的人为干预。
-
-**[ReHARK: Refined Hybrid Adaptive RBF Kernels for Robust One-Shot Vision-Language Adaptation](multimodal_vlm/rehark_refined_hybrid_adaptive.md)**
-
-:   在本文中，ReHARK（精炼混合自适应 RBF 核）被提出作为一种协同免训练框架，通过再生核希尔伯特空间（RKHS）中的全局近端正则化重新解释少样本自适应。
-
-**[Revisiting Model Stitching In the Foundation Model Era](multimodal_vlm/revisiting_model_stitching_foundation.md)**
-
-:   模型拼接，通过轻缝合层将一个模型（源）的早期层连接到另一个模型（目标）的后期层，已成为表征兼容性的探针。
-
-**[SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation](multimodal_vlm/sceneassistant_visual_feedback_agent.md)**
-
-:   在本文中，我们介绍了 SceneAssistant，这是一种视觉反馈驱动的代理，专为开放词汇 3D 场景生成而设计。
-
-**[SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](multimodal_vlm/sldprtnet_largescale_multimodal_dataset.md)**
-
-:   我们推出了 SldprtNet，这是一个包含超过 242,000 个工业零件的大型数据集，专为语义驱动的 CAD 建模、几何深度学习以及用于 3D 设计的多模态模型的训练和微调而设计。
-
-**[SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs](multimodal_vlm/sparrow_learning_spatial_precision.md)**
-
-:   多模态大语言模型 (MLLM) 已从图像级推理发展到像素级基础，但将这些功能扩展到视频仍然具有挑战性，因为模型必须实现空间精度和时间一致的参考跟踪。
-
-**[Test-Time Attention Purification for Backdoored Large Vision Language Models](multimodal_vlm/testtime_attention_purification_backdoored.md)**
-
-:   尽管具有强大的多模态性能，但大型视觉语言模型（LVLM）在微调后门攻击期间很容易受到攻击，其中对手将嵌入触发器的样本插入训练数据中，以植入可在测试时恶意激活的行为。
-
-**[Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](multimodal_vlm/thinking_dynamics_how_multimodal.md)**
-
-:   虽然当前的多模态大语言模型（MLLM）在静态视觉理解方面表现出色，但它们是否也擅长“动态思考”，即感知、跟踪和推理不断变化的场景中的时空动态？为了系统地评估他们的时空推理和局部动态感知能力，我们引入了 Dyn-Bench，这是一个根据不同的现实世界和合成视频数据集构建的大规模基准，可以对时空理解进行稳健且可扩展的评估。
-
-**[Towards Faithful Multimodal Concept Bottleneck Models](multimodal_vlm/towards_faithful_multimodal_concept.md)**
-
-:   概念瓶颈模型 (CBM) 是可解释的模型，通过人类可解释的概念层进行预测。
-
-**[Why Does It Look There? Structured Explanations for Image Classification](multimodal_vlm/why_does_it_look.md)**
-
-:   深度学习模型实现了卓越的预测性能，但其黑盒性质限制了透明度和可信度。
 
 ---
 
@@ -471,10 +374,6 @@
 
 :   通过全方位感知来理解和重构3D世界是自主智能体和具身智能发展的必然趋势。
 
-**[Pano360: Perspective to Panoramic Vision with Geometric Consistency](3d_vision/pano360_perspective_panoramic_vision.md)**
-
-:   先前的全景拼接方法严重依赖于成对特征对应，并且无法利用多个视图之间的几何一致性。
-
 **[POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction with Application to Strong Lens Discovery](3d_vision/polishing_sky_widefield_highdynamic.md)**
 
 :   在这项工作中，我们建立并扩展了 POLISH 框架，这是一种最新的无线电干涉成像深度学习模型。
@@ -565,6 +464,78 @@
 
 ---
 
+## 👁️ 多模态 VLM { #multimodal_vlm }
+
+**[Adaptive Vision-Language Model Routing for Computer Use Agents](multimodal_vlm/adaptive_visionlanguage_model_routing.md)**
+
+:   我们提出了自适应 VLM 路由（AVR），这是一个在 CUA 协调器和 VLM 池之间插入轻量级语义路由层的框架。
+
+**[Beyond Single-Sample: Reliable Multi-Sample Distillation for Video Understanding](multimodal_vlm/beyond_singlesample_reliable_multisample.md)**
+
+:   大型视觉语言模型 (LVLM) 的传统黑盒蒸馏通常依赖于每个输入的单个教师响应，这通常会在多模式或时间场景中产生高方差响应和格式不一致。
+
+**[BiCLIP: Bidirectional and Consistent Language-Image Processing for Robust Medical Image Segmentation](multimodal_vlm/biclip_bidirectional_consistent_languageimage.md)**
+
+:   医学图像分割是计算机辅助诊断和治疗计划的基石。
+
+**[A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks](multimodal_vlm/closedform_solution_debiasing_visionlanguage.md)**
+
+:   在本文中，我们引入了一种去偏方法，该方法在跨模态空间中产生 \textbf{闭合形式} 解决方案，从而在 \textbf{有界效用损失} 的情况下实现帕累托最优公平性。
+
+**[Evolving Prompt Adaptation for Vision-Language Models](multimodal_vlm/evolving_prompt_adaptation_visionlanguage.md)**
+
+:   为此，我们提出了 EvoPrompt，这是一种新颖的框架，旨在明确引导提示轨迹，以实现稳定、保留知识的微调。
+
+**[Human Knowledge Integrated Multi-modal Learning for Single Source Domain Generalization](multimodal_vlm/human_knowledge_integrated_multimodal.md)**
+
+:   在基于眼底图像的糖尿病视网膜病变 (DR) 分级和静息态 fMRI 癫痫发作区 (SOZ) 检测等关键任务中，跨领域推广图像分类仍然具有挑战性。
+
+**[Multiscale Structure-Guided Latent Diffusion for Multimodal MRI Translation](multimodal_vlm/multiscale_structureguided_latent_diffusion.md)**
+
+:   尽管扩散模型在多模态磁共振成像（MRI）翻译任务中取得了显着进展，但现有方法在处理任意模态缺失场景时仍然容易出现解剖学不一致或纹理细节退化的问题。
+
+**[NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval](multimodal_vlm/nanovdr_distilling_2b_visionlanguage.md)**
+
+:   基于视觉语言模型 (VLM) 的检索器具有先进的视觉文档检索 (VDR)，质量令人印象深刻。
+
+**[Noise-aware few-shot learning through bi-directional multi-view prompt alignment](multimodal_vlm/noiseaware_fewshot_learning_through.md)**
+
+:   为了应对这些挑战，我们提出了 NA-MVP，这是一种通过双向多视图提示对齐进行噪声感知小样本学习的框架。
+
+**[RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset](multimodal_vlm/radar_closedloop_robotic_data.md)**
+
+:   为了打破这一障碍，我们引入了机器人的鲁棒自主数据采集（RADAR），这是一种完全自主的闭环数据生成引擎，可以完全消除收集周期中的人为干预。
+
+**[ReHARK: Refined Hybrid Adaptive RBF Kernels for Robust One-Shot Vision-Language Adaptation](multimodal_vlm/rehark_refined_hybrid_adaptive.md)**
+
+:   在本文中，ReHARK（精炼混合自适应 RBF 核）被提出作为一种协同免训练框架，通过再生核希尔伯特空间（RKHS）中的全局近端正则化重新解释少样本自适应。
+
+**[Revisiting Model Stitching In the Foundation Model Era](multimodal_vlm/revisiting_model_stitching_foundation.md)**
+
+:   模型拼接，通过轻缝合层将一个模型（源）的早期层连接到另一个模型（目标）的后期层，已成为表征兼容性的探针。
+
+**[SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation](multimodal_vlm/sceneassistant_visual_feedback_agent.md)**
+
+:   在本文中，我们介绍了 SceneAssistant，这是一种视觉反馈驱动的代理，专为开放词汇 3D 场景生成而设计。
+
+**[SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](multimodal_vlm/sldprtnet_largescale_multimodal_dataset.md)**
+
+:   我们推出了 SldprtNet，这是一个包含超过 242,000 个工业零件的大型数据集，专为语义驱动的 CAD 建模、几何深度学习以及用于 3D 设计的多模态模型的训练和微调而设计。
+
+**[Test-Time Attention Purification for Backdoored Large Vision Language Models](multimodal_vlm/testtime_attention_purification_backdoored.md)**
+
+:   尽管具有强大的多模态性能，但大型视觉语言模型（LVLM）在微调后门攻击期间很容易受到攻击，其中对手将嵌入触发器的样本插入训练数据中，以植入可在测试时恶意激活的行为。
+
+**[Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](multimodal_vlm/thinking_dynamics_how_multimodal.md)**
+
+:   虽然当前的多模态大语言模型（MLLM）在静态视觉理解方面表现出色，但它们是否也擅长“动态思考”，即感知、跟踪和推理不断变化的场景中的时空动态？为了系统地评估他们的时空推理和局部动态感知能力，我们引入了 Dyn-Bench，这是一个根据不同的现实世界和合成视频数据集构建的大规模基准，可以对时空理解进行稳健且可扩展的评估。
+
+**[Towards Faithful Multimodal Concept Bottleneck Models](multimodal_vlm/towards_faithful_multimodal_concept.md)**
+
+:   概念瓶颈模型 (CBM) 是可解释的模型，通过人类可解释的概念层进行预测。
+
+---
+
 ## 🎬 视频理解 { #video_understanding }
 
 **[4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video](video_understanding/4dequine_disentangling_motion_appearance.md)**
@@ -582,10 +553,6 @@
 **[FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance](video_understanding/flashmotion_fewstep_controllable_video.md)**
 
 :   轨迹可控视频生成的最新进展取得了显着的进展。
-
-**[Geometry-Guided Camera Motion Understanding in VideoLLMs](video_understanding/geometryguided_camera_motion_understanding.md)**
-
-:   相机运动是塑造视觉感知和电影风格的基本几何信号，但当前支持视频的视觉语言模型 (VideoLLM) 很少明确地表示它，并且经常无法处理细粒度的运动基元。
 
 **[L2GTX: From Local to Global Time Series Explanations](video_understanding/l2gtx_local_global_time.md)**
 
@@ -623,10 +590,6 @@
 
 :   我们提出了一种用于价唤醒估计 ITW 的多模态方法。
 
-**[Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos](video_understanding/towards_spatiotemporal_world_scene.md)**
-
-:   时空场景图为建模不断演变的对象交互提供了原则性的表示，但现有方法基本上仍然以帧为中心：它们仅推理当前可见的对象，在遮挡时丢弃实体，并在 2D 中操作。
-
 **[Weakly Supervised Temporal Action Localization via Dual-Prior Collaborative Learning Guided by Multimodal Large Language Models](video_understanding/weakly_supervised_teacherstudent_framework.md)**
 
 :   多模态大语言模型 (MLLM) 的最新突破在深度学习社区中获得了显着认可，其中视频基础模型 (VFM) 和大语言模型 (LLM) 的融合已被证明有助于构建强大的视频理解系统，有效克服与预定义视觉任务相关的约束。
@@ -663,10 +626,6 @@
 
 :   当扩散模型将噪声转化为照片时，它实际上在做什么？
 
-**[Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](image_generation/mitigating_memorization_texttoimage_diffusion.md)**
-
-:   最先进的文本到图像扩散模型可以产生令人印象深刻的视觉效果，但可能会记住和复制训练图像，从而产生版权和隐私风险。
-
 **[One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers](image_generation/one_model_many_budgets.md)**
 
 :   扩散变换器 (DiT) 实现了高生成质量，但将 FLOP 锁定到图像分辨率，限制了原则上的延迟质量权衡，并在输入空间令牌之间统一分配计算，浪费了对不重要区域的资源分配。
@@ -675,10 +634,6 @@
 
 :   文本条件人体运动生成的最新进展很大程度上是由大规模人体运动数据训练的扩散模型驱动的。
 
-**[Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback](image_generation/referencefree_image_quality_assessment.md)**
-
-:   给定人物图像和服装图像，基于图像的虚拟试穿（VTON）会合成穿着目标服装的人的试穿图像。
-
 **[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](image_generation/slice_semantic_latent_injection.md)**
 
 :   为了解决这个限制并提供值得信赖的语义感知水印，我们提出通过 $\underline{\textbf{C}}$ompartmentalized $\underline{\textbf{E}}$mbedding $\underline{\textbf{S}}$emantic $\underline{\textbf{L}}$atent $\underline{\textbf{I}}$njection ($\textbf{切片}$)。
@@ -686,30 +641,6 @@
 **[Taming Score-Based Denoisers in ADMM: A Convergent Plug-and-Play Framework](image_generation/taming_scorebased_denoisers_admm.md)**
 
 :   虽然基于分数的生成模型已成为解决逆问题的强大先验，但将它们直接集成到 ADMM 等优化算法中仍然很重要。
-
----
-
-## 🔄 自监督/表示学习 { #self_supervised }
-
-**[BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](self_supervised/boss_bestofstrategies_selector_as.md)**
-
-:   为了解决这些限制，我们引入了最佳策略选择器（BoSS），这是一种专为大规模 AL 场景设计的可扩展预言机策略。
-
-**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](self_supervised/geochemad_benchmarking_unsupervised_geochemical.md)**
-
-:   地球化学异常检测在矿产勘探中起着至关重要的作用，因为与区域地球化学基线的偏差可能表明有矿化。
-
-**[Representation Learning for Spatiotemporal Physical Systems](self_supervised/representation_learning_spatiotemporal_physical.md)**
-
-:   时空物理系统的机器学习方法主要集中在下一帧预测，其目标是学习系统及时演化的准确模拟器。
-
-**[Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval](self_supervised/textphase_synergy_network_dual.md)**
-
-:   本文研究无监督跨域图像检索（UCDIR），其目的是在不依赖标记数据的情况下跨不同域检索同一类别的图像。
-
-**[V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration](self_supervised/vbridge_bridging_video_generative.md)**
-
-:   大规模视频生成模型接受海量且多样化的视觉数据的训练，使它们能够内化视觉世界丰富的结构、语义和动态先验。
 
 ---
 
@@ -733,6 +664,26 @@
 
 ---
 
+## 🔄 自监督/表示学习 { #self_supervised }
+
+**[BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](self_supervised/boss_bestofstrategies_selector_as.md)**
+
+:   为了解决这些限制，我们引入了最佳策略选择器（BoSS），这是一种专为大规模 AL 场景设计的可扩展预言机策略。
+
+**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](self_supervised/geochemad_benchmarking_unsupervised_geochemical.md)**
+
+:   地球化学异常检测在矿产勘探中起着至关重要的作用，因为与区域地球化学基线的偏差可能表明有矿化。
+
+**[Representation Learning for Spatiotemporal Physical Systems](self_supervised/representation_learning_spatiotemporal_physical.md)**
+
+:   时空物理系统的机器学习方法主要集中在下一帧预测，其目标是学习系统及时演化的准确模拟器。
+
+**[V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration](self_supervised/vbridge_bridging_video_generative.md)**
+
+:   大规模视频生成模型接受海量且多样化的视觉数据的训练，使它们能够内化视觉世界丰富的结构、语义和动态先验。
+
+---
+
 ## 🛡️ AI 安全 { #ai_safety }
 
 **[Deep Learning-based Assessment of the Relation Between the Third Molar and Mandibular Canal on Panoramic Radiographs using Local, Centralized, and Federated Learning](ai_safety/deep_learningbased_assessment_relation.md)**
@@ -749,31 +700,11 @@
 
 ---
 
-## 🧑 人体理解 { #human_understanding }
-
-**[InterEdit: Navigating Text-Guided Multi-Human 3D Motion Editing](human_understanding/interedit_navigating_textguided_multihuman.md)**
-
-:   文本引导的 3D 动作编辑在单人场景中取得了成功，但由于配对数据有限和人际交互的复杂性，其扩展到多人设置的探索较少。
-
-**[VIRD: View-Invariant Representation through Dual-Axis Transformation for Cross-View Pose Estimation](human_understanding/vird_viewinvariant_representation_through.md)**
-
-:   准确的全球定位对于自动驾驶和机器人技术至关重要，但基于 GNSS 的方法通常会因遮挡和多路径效应而性能下降。
-
----
-
 ## 🚗 自动驾驶 { #autonomous_driving }
 
 **[Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots](autonomous_driving/panoramic_multimodal_semantic_occupancy.md)**
 
 :   全景图像为四足机器人的感知提供整体 360° 视觉覆盖。
-
----
-
-## 🖼️ 图像恢复 { #image_restoration }
-
-**[Towards Universal Computational Aberration Correction in Photographic Cameras: A Comprehensive Benchmark Analysis](image_restoration/towards_universal_computational_aberration.md)**
-
-:   流行的计算像差校正 (CAC) 方法通常是针对特定光学系统量身定制的，导致新镜头的通用性较差且需要耗费大量人力进行重新培训。
 
 ---
 

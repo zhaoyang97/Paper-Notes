@@ -26,6 +26,8 @@ jobs:
       - run: mkdocs build --strict
         continue-on-error: true
       - run: mkdocs build
+      - name: Optimize search index for mobile
+        run: python scripts/trim_search_index.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

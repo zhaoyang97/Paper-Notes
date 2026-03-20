@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**🔬 ICLR2026** · 共 **19** 篇
+**🔬 ICLR2026** · 共 **16** 篇
 
 **[A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models](a2d_any-order_any-step_safety_alignment_for_diffusion_language_models.md)**
 
@@ -26,10 +31,6 @@
 **[Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework](beyond_rlhf_and_nlhf_population-proportional_alignment_under_an_axiomatic_framew.md)**
 
 :   提出基于社会选择理论公理的偏好学习框架，从成对比较数据中推断评估者人群分布的可行集，构造满足人群比例对齐(PPA)和人群有界可操纵性(PBM)公理的策略。
-
-**[CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation](cage_a_framework_for_culturally_adaptive_red-teaming_benchmark_generation.md)**
-
-:   提出 CAGE 框架，通过 Semantic Mold（语义模具）将红队攻击 prompt 的对抗结构与文化内容解耦，能系统性地将英语红队基准适配到不同文化语境中，生成的文化扎根 prompt 比直接翻译的 ASR 显著更高。
 
 **[Displacement-Resistant Extensions of DPO with Nonconvex $f$-Divergences](displacement-resistant_extensions_of_dpo_with_nonconvex_f-divergences.md)**
 
@@ -59,10 +60,6 @@
 
 :   揭示 DPO 的"悲观 reference 偏差"问题——当 reference 策略对 chosen response 的概率低于 rejected 时（~45% pairs），DPO 会"过早满足"停止学习；提出 HyPO（一行代码修改：将 $\Delta_{ref}$ 裁剪为 $\max(0, \Delta_{ref})$），在 AlpacaEval 上相对 DPO 提升 41.2%。
 
-**[Reasoned Safety Alignment: Ensuring Jailbreak Defense via Answer-Then-Check](reasoned_safety_alignment_ensuring_jailbreak_defense_via_answer-then-check.md)**
-
-:   提出 ReSA（Reasoned Safety Alignment），通过"先回答后检查"范式——模型先总结意图答案，再进行策略驱动的安全分析，最后输出最终回复——在 13 种防御方法中安全性最优，同时维持 MMLU/MATH500/HumanEval 性能，仅 500 样本即达全数据集效果。
-
 **[PURGE: Reinforcement Unlearning via Group Relative Policy Optimization](reinforcement_unlearning_via_group_relative_policy_optimization.md)**
 
 :   PURGE 将 LLM 遗忘（unlearning）重新定义为可验证的 RL 任务，使用 GRPO 框架 + 内在奖励信号（惩罚提及禁止概念）来实现安全一致的知识删除，token 消耗比 SOTA 低 46 倍，同时提升流畅度 +5.48% 和对抗鲁棒性 +12.02%。
@@ -70,10 +67,6 @@
 **[SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety](safedpo_preference_optimization_safety.md)**
 
 :   重新审视安全约束 RLHF 目标并证明其存在闭式最优策略，据此推导出等价的可处理目标 SafeDPO，仅需在标准 DPO 上加入安全感知数据变换和安全 margin 项（1 个额外超参数），无需奖励/代价模型，在 PKU-SafeRLHF-30K 上实现 96.87% 无害率且保持竞争力的有用性，训练速度比 SafeRLHF 快 25×。
-
-**[Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs](uni-dpo_a_unified_paradigm_for_dynamic_preference_optimization_of_llms.md)**
-
-:   提出 Uni-DPO，通过质量感知加权（高间距优先）和性能感知加权（focal loss 聚焦欠拟合样本）双视角动态调整 DPO 偏好对权重，Gemma-2-9B 在 Arena-Hard 上超 Claude 3 Opus 6.7 分。
 
 **[Why DPO is a Misspecified Estimator and How to Fix It](why_dpo_is_misspecified_estimator.md)**
 

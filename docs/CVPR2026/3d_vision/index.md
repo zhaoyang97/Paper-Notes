@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**📷 CVPR2026** · 共 **29** 篇
+**📷 CVPR2026** · 共 **27** 篇
 
 **[4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video](4dequine_disentangling_motion_and_appearance_for_4.md)**
 
@@ -10,10 +15,6 @@
 **[Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](ada3drift_adaptive_trainingtime_drifting_for_onest.md)**
 
 :   利用计算预算不对称性，将扩散策略的迭代细化从推理时移至训练时——通过自适应漂移场将预测动作吸引向专家模式并排斥其他生成样本，从3D点云实现单步（1 NFE）高保真多模态动作生成，比扩散策略快10倍以上。
-
-**[AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models](ava_bench_atomic_visual_ability_vfm.md)**
-
-:   提出 AVA-Bench，首个显式解耦 14 种原子视觉能力（Atomic Visual Abilities）的视觉基础模型（VFM）基准——每种 AVA（如定位、深度估计、空间理解）独立测评且训练/测试分布对齐，能精确定位 VFM 的强项和弱项形成"能力指纹"，将 VFM 选型从经验猜测变为原则性工程决策；同时发现 0.5B LLM 与 7B LLM 给出相似的 VFM 排名但节省 8× GPU 算力。
 
 **[Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation](catalyst4d_highfidelity_3dto4d_scene_editing_via_d.md)**
 
@@ -114,7 +115,3 @@
 **[WMGStereo: What Makes Good Synthetic Training Data for Zero-Shot Stereo Matching?](what_makes_good_synthetic_training_data_for_zerosh.md)**
 
 :   系统研究合成立体数据集的设计空间——变换Infinigen过程化生成参数(浮动物体密度/背景/材质/相机baseline/光照等)分析其对零样本立体匹配的影响，发现"真实室内场景+浮动物体"的组合最有效；据此构建WMGStereo-150k数据集，仅用此单一数据集训练超越SceneFlow+CREStereo+TartanAir+IRS四合一(Middlebury降28%，Booster降25%)，与FoundationStereo竞争力相当。
-
-**[Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos](wsgg_spatiotemporal_world_scene_graph.md)**
-
-:   提出世界场景图生成（WSGG）任务——在单目视频的每个时间戳构建包含所有交互物体（包括被遮挡/不可见的）的世界场景图，引入 ActionGenome4D 数据集（将 Action Genome 视频升级为 4D 场景+世界坐标 bbox+密集关系标注），并提出三种互补方法：PWG（持久世界图，零阶特征缓冲实现物体持久性）、MWAE（掩码世界自编码器，将不可见物体推理转化为掩码补全）和 4DST（4D 场景 Transformer，可微分的逐物体时序注意力+3D 运动和相机位姿特征）。

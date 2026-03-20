@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**📷 CVPR2026** · 共 **25** 篇
+**📷 CVPR2026** · 共 **24** 篇
 
 **[A4VL: A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](a4vl_multiagent_long_video_reasoning.md)**
 
@@ -94,10 +99,6 @@
 **[TrajTok: 学习轨迹Token实现更好的视频理解](trajtok_trajectory_token_video_understanding.md)**
 
 :   提出TrajTok——首个端到端可微的轨迹视频tokenizer，通过隐式时空聚类将视频编码为物体轨迹token，无需外部分割/跟踪管线，在分类、检索和长视频QA上全面超越patch-based方法。
-
-**[Watch and Learn: Learning to Use Computers from Online Videos](watch_and_learn_computer_use_from_videos.md)**
-
-:   提出 Watch & Learn (W&L)，将互联网上人类使用计算机的演示视频转化为大规模可执行 UI 操作轨迹——将轨迹标注转化为逆动力学问题（从连续屏幕状态预测用户操作），通过任务感知检索和标注流水线生成 53K+ 高质量轨迹，在 OSWorld 和 WindowsAgentArena 上一致提升通用和专用 CUA 的性能，7B 模型在 WAA 15步限制下达到 SOTA。
 
 **[EB-JDAT: Energy-based Joint Distribution Adversarial Training](your_classifier_can_do_more_towards_balancing_the.md)**
 

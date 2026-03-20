@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**📷 CVPR2026** · 共 **41** 篇
+**📷 CVPR2026** · 共 **39** 篇
 
 **[A protocol for evaluating robustness to H&E staining variation in computational pathology models](a_protocol_for_evaluating_robustness_to_he_stainin.md)**
 
@@ -42,10 +47,6 @@
 **[Bridging the Skill Gap in Clinical CBCT Interpretation with CBCTRepD](bridging_the_skill_gap_in_clinical_cbct_interpreta.md)**
 
 :   构建了覆盖55种口腔疾病的7,408例大规模配对CBCT-报告数据集，开发双语报告生成系统CBCTRepD，并通过多层级临床评估证明其可帮助不同经验水平的放射科医生提升报告质量。
-
-**[CHIPS: Efficient CLIP Adaptation via Curvature-aware Hybrid Influence-based Data Selection](chips_clip_adaptation_curvature_data_selection.md)**
-
-:   从数据中心视角重新审视 CLIP 领域适配，提出 CHIPS——为每个图文对计算融合忠实性（曲率感知牛顿式对齐）、可扩展性（InfoNCE 感知曲率+JL sketching）和保留性（选择感知相关性权重）三因素的效用分数，用 30% 的数据匹配全数据集持续预训练效果，10% 的数据超越 50% 数据量的 CPT，在 17 个医学和 31 个通用基准上达到数据选择 SOTA。
 
 **[CLoE: Expert Consistency Learning for Missing Modality Segmentation](cloe_expert_consistency_learning_for_missing_modal.md)**
 
@@ -134,10 +135,6 @@
 **[One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers](one_model_many_budgets_elastic_latent_interfaces_f.md)**
 
 :   提出ELIT（Elastic Latent Interface Transformer），通过在DiT中插入可变长度的潜在token接口和轻量级Read/Write交叉注意力层，将计算量与输入分辨率解耦，使单一模型支持多种推理预算，在ImageNet-1K 512px上FID和FDD分别提升35.3%和39.6%。
-
-**[OraPO: Oracle-educated Reinforcement Learning for Data-efficient and Factual Radiology Report Generation](orapo_oracle_rl_radiology_report_generation.md)**
-
-:   提出 OraPO，将 GRPO 失败的困难样本探索转化为直接偏好监督（通过轻量级 oracle 步骤），配合 FactScore 奖励（提取原子临床事实+蕴含检查）提供密集可解释的句子级奖励信号，用小型 VLM 在 2-3 个数量级更少的训练数据上在 CheXpert Plus 上达到 SOTA（F1 0.341），实现单阶段纯 RL 训练的放射报告生成。
 
 **[PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization](physmodpo_physicallyplausible_humanoid_motion_with.md)**
 

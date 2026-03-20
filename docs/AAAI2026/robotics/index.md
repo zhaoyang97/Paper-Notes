@@ -1,23 +1,16 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🤖 AAAI2026** · 共 **12** 篇
-
-**[A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind](a_computable_game-theoretic_framework_for_multi-agent_theory_of_mind.md)**
-
-:   提出基于认知层次(cognitive hierarchy)的博弈论框架实现可计算的多智能体Theory of Mind，通过Poisson-Gamma共轭实现高效信念更新，避免求解不可判定的POMDP同时保持有限理性决策。
-
-**[Adaptive Theory of Mind for LLM-based Multi-Agent Coordination](adaptive_theory_of_mind_for_llm-based_multi-agent_coordination.md)**
-
-:   实时估计合作伙伴的ToM阶数并与之对齐，使用FTL(O(logT)悬悔)或Hedge(O(√T logN)悬悔)算法实现零样本多智能体协作，在4个任务上鲁棒地与不同类型的伙伴协作。
+**🤖 AAAI2026** · 共 **7** 篇
 
 **[Affordance-Guided Coarse-to-Fine Exploration for Base Placement in Open-Vocabulary Mobile Manipulation](affordance-guided_coarse-to-fine_exploration_for_base_placem.md)**
 
 :   针对开放词汇移动操控中机器人基座选位问题，提出一种零样本框架，通过构建跨模态表征（Affordance RGB + Obstacle Map+）将语义affordance线索投射到障碍物地图上，再用粗到细迭代优化平衡语义和几何约束，在5个操控任务上达到85%成功率，大幅超越几何规划器和纯VLM方法。
-
-**[Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning](attention_as_binding_a_vector-symbolic_perspective_on_transformer_reasoning.md)**
-
-:   从Vector Symbolic Architecture(VSA)视角解释Transformer的注意力和残差流作为近似的符号绑定/解绑定操作，解释了逻辑推理中的脆弱性（如变量混淆），并提出显式绑定头和超维记忆层作为改进方向。
 
 **[Causal Inference Under Threshold Manipulation: Bayesian Mixture Modeling and Heterogeneous Treatment Effects](causal_inference_under_threshold_manipulation_bayesian_mixtu.md)**
 
@@ -27,17 +20,9 @@
 
 :   提出 EvoEmpirBench（EEB），包含两个动态交互式 benchmark（局部可观测迷宫导航 + 消消乐），以及 Agent-ExpVer 三智能体在线学习框架（GeoLink 交互 + InsightForce 经验抽象 + TruthWeaver 知识管理），通过"经验→验证→真理归纳"的认知循环实现无参数更新的持续策略进化，使 GPT-4.1 成功率提升 5.6%、Qwen-32B 提升 29%。
 
-**[ISEAL: Encrypted Fingerprinting for Reliable LLM Ownership Verification](iseal_encrypted_fingerprinting_for_reliable_llm_ownership_verification.md)**
-
-:   提出ISEAL加密指纹方案用于可靠的LLM所有权验证，通过加密指纹嵌入和验证协议实现不可伪造、不可否认的模型所有权证明。
-
 **[Neural Graph Navigation for Intelligent Subgraph Matching](neural_graph_navigation_for_intelligent_subgraph_matching.md)**
 
 :   提出 NeuGN（Neural Graph Navigation）框架，首次将生成式神经导航集成到子图匹配的核心枚举阶段，通过 QSExtractor 提取查询图结构信号 + GGNavigator 将暴力枚举转为结构感知的候选节点优先排序，在保证完备性的同时将 First Match Steps 最高减少 98.2%。
-
-**[Robust Out-of-Order Retrieval for Grid-Based Storage at Maximum Capacity](robust_out-of-order_retrieval_for_grid-based_storage_at_maximum_capacity.md)**
-
-:   解决最大容量网格存储系统中的鲁棒乱序检索问题，提出高效算法在系统满载时仍能保证目标物品的可达性和检索效率。
 
 **[Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems](shadows_in_the_code_exploring_the_risks_and_defenses_of_llm-.md)**
 

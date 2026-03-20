@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧠 NeurIPS2025** · 共 **11** 篇
+**🧠 NeurIPS2025** · 共 **7** 篇
 
 **[A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization](a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md)**
 
@@ -23,18 +28,6 @@
 
 :   首次为随机层次化优化（极小极大和双层优化）提供自适应且sharp的收敛保证，通过动量归一化技术和新型自适应参数选择，在无需事先知道噪声大小的情况下实现最优收敛率Õ(1/√T + √σ̄/T^{1/4})。
 
-**[Asymptotically Stable Quaternion-Valued Hopfield-Structured Neural Network With ](asymptotically_stable_quaternion-valued_hopfield-structured_neural_network_with_.md)**
-
-:   提出四元数值Hopfield结构神经网络，结合监督投影流形学习和渐近稳定性保证，应用于机器人路径规划和轨迹生成。
-
-**[Gradient Descent As Loss Landscape Navigation A Normative Framework For Deriving](gradient_descent_as_loss_landscape_navigation_a_normative_framework_for_deriving.md)**
-
-:   提出统一框架将各种学习规则（momentum、Adam、自然梯度等）推导为损失景观上的最优导航策略，不同度量和目标自然导出不同的优化器。
-
-**[Memory-Augmented Potential Field Theory A Framework For Adaptive Control In Non-](memory-augmented_potential_field_theory_a_framework_for_adaptive_control_in_non-.md)**
-
-:   将历史轨迹记忆融入随机最优控制的动态势场中，使机器人在非凸环境中能够逃离局部最小值实现自适应控制。
-
 **[MESS+: Dynamically Learned Inference-Time LLM Routing in Model Zoos with Service Level Guarantees](mess_dynamically_learned_inference-time_llm_routing_in_model_zoos_with_service_l.md)**
 
 :   MESS+是首个成本最优的LLM路由框架，通过在线学习请求满足度预测和虚拟队列约束，动态选择模型同时保证SLA合规，相比现有方法实现平均2倍成本节省。
@@ -42,7 +35,3 @@
 **[Online Two-Stage Submodular Maximization](online_two-stage_submodular_maximization.md)**
 
 :   首次提出在线两阶段子模最大化（O2SSM）问题，针对加权阈值势函数（WTP）设计了 RAOCO 算法，通过分数松弛+随机管道舍入实现多项式时间运行下的次线性 $(1-1/e)^2$-regret 保证，同时改进了离线问题的近似比。
-
-**[VERA: Variational Inference Framework for Jailbreaking Large Language Models](vera_variational_inference_framework_for_jailbreaking_large_language_models.md)**
-
-:   将越狱建模为后验推断问题，通过变分推断训练小型攻击 LLM 生成多样化黑盒越狱提示，固定时间内比 GPTFuzzer/AutoDAN 多 5× 成功越狱，且提示多样性显著更高。

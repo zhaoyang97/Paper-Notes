@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**📄 arxiv2026** · 共 **19** 篇
+**📄 arxiv2026** · 共 **18** 篇
 
 **[Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](ada3drift_adaptive_trainingtime_drifting.md)**
 
@@ -58,10 +63,6 @@
 **[O3N: Omnidirectional Open-Vocabulary Occupancy Prediction](o3n_omnidirectional_openvocabulary_occupancy.md)**
 
 :   通过全方位感知来理解和重构3D世界是自主智能体和具身智能发展的必然趋势。
-
-**[Pano360: Perspective to Panoramic Vision with Geometric Consistency](pano360_perspective_panoramic_vision.md)**
-
-:   先前的全景拼接方法严重依赖于成对特征对应，并且无法利用多个视图之间的几何一致性。
 
 **[POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction with Application to Strong Lens Discovery](polishing_sky_widefield_highdynamic.md)**
 

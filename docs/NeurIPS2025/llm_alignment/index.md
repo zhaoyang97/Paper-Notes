@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**🧠 NeurIPS2025** · 共 **14** 篇
+**🧠 NeurIPS2025** · 共 **9** 篇
 
 **[A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs](a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md)**
 
@@ -27,17 +32,9 @@
 
 :   提出 LRM（Latent Reward Model）和 LPO（Latent Preference Optimization），利用预训练扩散模型本身作为噪声感知的潜空间奖励模型进行步级偏好优化，避免了将噪声潜在图像转换为像素空间的复杂性，在对齐人类偏好的同时实现 2.5–28× 训练加速。
 
-**[G-Dpo Scalable Preference Optimization For Protein Language Models](g-dpo_scalable_preference_optimization_for_protein_language_models.md)**
-
-:   通过序列空间聚类和组级似然摊销将DPO扩展到蛋白质语言模型，实现1.7-5.4倍训练加速且保持与标准DPO的统计等价性。
-
 **[LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](laser_learning_to_adaptively_select_reward_models_with_multi-armed_bandits.md)**
 
 :   将多个奖励模型（RM）的选择建模为上下文多臂老虎机（LinUCB）问题，在迭代 LLM 训练中自适应地为每个 batch 选择最合适的 RM，在推理、指令跟随和长上下文任务上以 2-3 倍效率优势全面超越 RM 集成和单 RM 基线。
-
-**[LLM Safety Alignment is Divergence Estimation in Disguise](llm_safety_alignment_is_divergence_estimation_in_disguise.md)**
-
-:   统一理论框架证明 RLHF/DPO/KTO 等对齐方法本质上是估计安全与不安全分布的散度，揭示对齐后 LLM 隐空间中安全/危险提示的分离现象是对齐的本质，并提出基于 KL 散度的 KLDO 方法。
 
 **[LongVPO: From Anchored Cues to Self-Reasoning for Long-Form Video Preference Optimization](longvpo_from_anchored_cues_to_selfreasoning_for_longform_vid.md)**
 
@@ -46,15 +43,3 @@
 **[On Extending Direct Preference Optimization to Accommodate Ties](on_extending_direct_preference_optimization_to_accommodate_ties.md)**
 
 :   将 DPO 中的 Bradley-Terry 偏好模型替换为 Rao-Kupper 和 Davidson 扩展，使偏好优化能够显式建模"平局"数据，避免丢弃模糊偏好对，在翻译和数学推理上获得更好的正则化和性能。
-
-**[Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks](short-length_adversarial_training_helps_llms_defend_long-length_jailbreak_attack.md)**
-
-:   理论证明对抗训练序列长度为 $\Theta(\sqrt{M})$ 就足以防御长度 $\Theta(M)$ 的越狱攻击——短对抗训练防长越狱，在 Llama/Mistral/Qwen 上 20 token 对抗训练可将 120 token 越狱成功率降低 30%。
-
-**[Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning](simplicity_prevails_rethinking_negative_preference_optimization_for_llm_unlearni.md)**
-
-:   提出 SimNPO，通过移除参考模型依赖并采用长度归一化奖励替代 NPO 的参考模型比较，简化设计但更有效适配数据难度差异，TOFU FQ 从 0.79 提升至 0.91+。
-
-**[Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning](trajectory_bellman_residual_minimization_a_simple_value-based_method_for_llm_rea.md)**
-
-:   TBRM 通过最小化轨迹级贝尔曼残差，将 LLM 输出 logits 视为隐式 Q 值，仅需每个 prompt 一次前向采样即可训练，复杂度远低于 PPO/GRPO 但数学推理性能相当或更优。

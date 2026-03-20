@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📖 NLP 理解
 

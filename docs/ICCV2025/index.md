@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 ICCV2025 论文笔记
 
-共 **133** 篇笔记，覆盖 **21** 个领域。
+共 **126** 篇笔记，覆盖 **20** 个领域。
 
 ## 领域概览
 
@@ -10,19 +15,18 @@
 | 🧊 [3D 视觉](#3d_vision) | 49 |
 | 👁️ [多模态 VLM](#multimodal_vlm) | 22 |
 | 🚗 [自动驾驶](#autonomous_driving) | 9 |
-| 📂 [其他](#others) | 9 |
 | 🎨 [图像生成](#image_generation) | 6 |
-| ✂️ [语义分割](#segmentation) | 6 |
-| 🏥 [医学图像](#medical_imaging) | 5 |
-| 🧑 [人体理解](#human_understanding) | 3 |
+| 📂 [其他](#others) | 6 |
+| ✂️ [语义分割](#segmentation) | 5 |
+| 🏥 [医学图像](#medical_imaging) | 4 |
 | 🖼️ [图像恢复](#image_restoration) | 3 |
 | 🎯 [目标检测](#object_detection) | 3 |
 | 🔄 [自监督/表示学习](#self_supervised) | 3 |
 | 🎬 [视频理解](#video_understanding) | 3 |
 | 🛡️ [AI 安全](#ai_safety) | 2 |
 | 🎵 [音频/语音](#audio_speech) | 2 |
+| 🧑 [人体理解](#human_understanding) | 2 |
 | 📦 [模型压缩](#model_compression) | 2 |
-| 🔗 [因果推理](#causal_inference) | 1 |
 | 🦾 [LLM Agent](#llm_agent) | 1 |
 | 💬 [LLM / NLP](#llm_nlp) | 1 |
 | 💡 [LLM 推理](#llm_reasoning) | 1 |
@@ -363,46 +367,6 @@
 
 ---
 
-## 📂 其他 { #others }
-
-**[3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark](others/3dsrbench_a_comprehensive_3d_spatial_reasoning_benchmark.md)**
-
-:   提出首个全面的3D空间推理基准3DSRBench，包含2,772个人工标注的VQA对（12种问题类型），通过平衡数据分布和新型FlipEval策略实现鲁棒评估，揭示SOTA LMM（包括GPT-4o、Gemini）在3D空间推理上远落后于人类水平（≈52% vs 95.7%），且在非常规视角下性能显著退化。
-
-**[A Hidden Stumbling Block in Generalized Category Discovery: Distracted Attention](others/a_hidden_stumbling_block_in_generalized_category_discovery_d.md)**
-
-:   本文发现GCD任务中ViT模型在处理无标签数据时存在注意力分散（关注背景而非前景目标）的隐患，提出Attention Focusing (AF)机制，通过Token重要性评估 (TIME) + Token自适应剪枝 (TAP) 级联去除无关token，在SimGCD上取得最高15.4%的提升，且计算开销极小。
-
-**[A Real-world Display Inverse Rendering Dataset](others/a_realworld_display_inverse_rendering_dataset.md)**
-
-:   构建了首个基于LCD显示器-相机系统的真实世界逆渲染数据集，包含16个物体的OLAT（逐像素点亮）采集图像、偏振信息和GT几何，并提出简单有效的基线方法（基于Cook-Torrance BRDF的可微渲染优化），在150秒内超越现有逆渲染方法。
-
-**[ACE-G: Improving Generalization of Scene Coordinate Regression Through Query Pre-Training](others/aceg_improving_generalization_of_scene_coordinate_regression.md)**
-
-:   将场景坐标回归器拆分为「场景无关的Transformer」和「场景特定的map code」，通过在数万场景上进行交替的mapping/query预训练，显著提升SCR方法在光照、视角变化下的泛化能力，同时保持轻量化的计算开销。
-
-**[AdaptiveAE: An Adaptive Exposure Strategy for HDR Capturing in Dynamic Scenes](others/adaptiveae_an_adaptive_exposure_strategy_for_hdr_capturing_i.md)**
-
-:   本文提出AdaptiveAE，利用深度强化学习将HDR曝光包围拍摄建模为马尔可夫决策过程（MDP），同时优化ISO和快门速度的组合，在用户定义的时间预算内自适应地为动态场景选择最优曝光参数，在HDRV数据集上达到PSNR 39.70，比之前最好的方法Hasinoff et al. (37.59) 高出2.1 dB。
-
-**[AFUNet: Cross-Iterative Alignment-Fusion Synergy for HDR Reconstruction via Deep Unfolding Paradigm](others/afunet_crossiterative_alignmentfusion_synergy_for_hdr_recons.md)**
-
-:   将多曝光HDR重建从MAP估计视角建模，通过空间对应先验将问题分解为对齐和融合两个交替子问题，再展开为端到端可训练的AFUNet（含SAM空间对齐+CFM通道融合+DCM数据一致性模块），在三个HDR基准上取得SOTA，PSNR-μ达44.91dB（Kalantari数据集）。
-
-**[Auto-Regressively Generating Multi-View Consistent Images (MV-AR)](others/autoregressively_generating_multiview_consistent_images.md)**
-
-:   首次将自回归（AR）模型引入多视角图像生成任务，通过逐视角生成利用所有前序视角信息来增强远距离视角间的一致性，同时设计了统一的多模态条件注入架构和Shuffle Views数据增强策略，使单一模型可同时处理文本/图像/几何形状条件。
-
-**[C4D: 4D Made from 3D through Dual Correspondences](others/c4d_4d_made_from_3d_through_dual_correspondences.md)**
-
-:   提出C4D框架，通过在DUSt3R的3D pointmap预测基础上联合捕获双重时序对应(短时光流+动态感知长时点跟踪DynPT)，生成运动掩码分离动静区域，并引入相机运动对齐/相机轨迹平滑/点轨迹平滑三个优化目标，将现有3D重建范式升级为完整4D重建(逐帧点云+相机参数+2D/3D轨迹)，在深度/位姿/跟踪多个下游任务上达competitive性能。
-
-**[Despite Exploring Contrastive Deep Skeletonpointcloudimutext](others/despite_exploring_contrastive_deep_skeletonpointcloudimutext.md)**
-
-:   提出 DeSPITE，一个将 LiDAR 点云、骨架姿态、IMU 信号和文本四种模态对齐到联合嵌入空间的对比学习框架，首次以 LiDAR（而非 RGB）作为核心视觉模态，实现了跨模态匹配/检索等此前不可能的任务，同时作为有效的 HAR 预训练策略在 MSR-Action3D 和 HMPEAR 上取得 SOTA。
-
----
-
 ## 🎨 图像生成 { #image_generation }
 
 **[Aether: Geometric-Aware Unified World Modeling](image_generation/aether_geometricaware_unified_world_modeling.md)**
@@ -431,11 +395,35 @@
 
 ---
 
+## 📂 其他 { #others }
+
+**[3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark](others/3dsrbench_a_comprehensive_3d_spatial_reasoning_benchmark.md)**
+
+:   提出首个全面的3D空间推理基准3DSRBench，包含2,772个人工标注的VQA对（12种问题类型），通过平衡数据分布和新型FlipEval策略实现鲁棒评估，揭示SOTA LMM（包括GPT-4o、Gemini）在3D空间推理上远落后于人类水平（≈52% vs 95.7%），且在非常规视角下性能显著退化。
+
+**[A Real-world Display Inverse Rendering Dataset](others/a_realworld_display_inverse_rendering_dataset.md)**
+
+:   构建了首个基于LCD显示器-相机系统的真实世界逆渲染数据集，包含16个物体的OLAT（逐像素点亮）采集图像、偏振信息和GT几何，并提出简单有效的基线方法（基于Cook-Torrance BRDF的可微渲染优化），在150秒内超越现有逆渲染方法。
+
+**[AFUNet: Cross-Iterative Alignment-Fusion Synergy for HDR Reconstruction via Deep Unfolding Paradigm](others/afunet_crossiterative_alignmentfusion_synergy_for_hdr_recons.md)**
+
+:   将多曝光HDR重建从MAP估计视角建模，通过空间对应先验将问题分解为对齐和融合两个交替子问题，再展开为端到端可训练的AFUNet（含SAM空间对齐+CFM通道融合+DCM数据一致性模块），在三个HDR基准上取得SOTA，PSNR-μ达44.91dB（Kalantari数据集）。
+
+**[Auto-Regressively Generating Multi-View Consistent Images (MV-AR)](others/autoregressively_generating_multiview_consistent_images.md)**
+
+:   首次将自回归（AR）模型引入多视角图像生成任务，通过逐视角生成利用所有前序视角信息来增强远距离视角间的一致性，同时设计了统一的多模态条件注入架构和Shuffle Views数据增强策略，使单一模型可同时处理文本/图像/几何形状条件。
+
+**[C4D: 4D Made from 3D through Dual Correspondences](others/c4d_4d_made_from_3d_through_dual_correspondences.md)**
+
+:   提出C4D框架，通过在DUSt3R的3D pointmap预测基础上联合捕获双重时序对应(短时光流+动态感知长时点跟踪DynPT)，生成运动掩码分离动静区域，并引入相机运动对齐/相机轨迹平滑/点轨迹平滑三个优化目标，将现有3D重建范式升级为完整4D重建(逐帧点云+相机参数+2D/3D轨迹)，在深度/位姿/跟踪多个下游任务上达competitive性能。
+
+**[Despite Exploring Contrastive Deep Skeletonpointcloudimutext](others/despite_exploring_contrastive_deep_skeletonpointcloudimutext.md)**
+
+:   提出 DeSPITE，一个将 LiDAR 点云、骨架姿态、IMU 信号和文本四种模态对齐到联合嵌入空间的对比学习框架，首次以 LiDAR（而非 RGB）作为核心视觉模态，实现了跨模态匹配/检索等此前不可能的任务，同时作为有效的 HAR 预训练策略在 MSR-Action3D 和 HMPEAR 上取得 SOTA。
+
+---
+
 ## ✂️ 语义分割 { #segmentation }
-
-**[A Plug-and-Play Physical Motion Restoration Approach for In-the-Wild High-Difficulty Motions](segmentation/a_plugandplay_physical_motion_restoration_approach_for_inthe.md)**
-
-:   提出即插即用的两阶段物理运动修复方法：先用掩码条件扩散模型修正视频运动捕获中的缺陷帧（MCM），再用预训练+测试时自适应的强化学习控制器进行物理仿真修复（PTM），首次实现对野外高难度动作（体操/武术/舞蹈）的物理合理性增强。
 
 **[CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation](segmentation/corrclip_reconstructing_patch_correlations_in_clip_for_openv.md)**
 
@@ -461,10 +449,6 @@
 
 ## 🏥 医学图像 { #medical_imaging }
 
-**[AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images](medical_imaging/aczerots_active_learning_for_zeroshot_tissue_segmentation_in.md)**
-
-:   提出AcZeroTS框架，将主动学习与基于VLM的原型引导零样本分割模型ProZS结合，通过同时考虑不确定性、多样性和原型覆盖unseen类的能力来选择最有价值的标注样本，以最少标注实现seen和unseen组织类型的高质量分割。
-
 **[An OpenMind for 3D Medical Vision Self-supervised Learning](medical_imaging/an_openmind_for_3d_medical_vision_selfsupervised_learning.md)**
 
 :   发布了最大的公开3D医学影像预训练数据集OpenMind（114k脑MRI体积），并在该数据集上系统性benchmark了现有3D SSL方法在最先进CNN（ResEnc-L）和Transformer（Primus-M）架构上的表现，明确了3D医学图像SSL的当前SOTA。
@@ -480,22 +464,6 @@
 **[CryoFastAR: Fast Cryo-EM Ab initio Reconstruction Made Easy](medical_imaging/cryofastar_fast_cryoem_ab_initio_reconstruction_made_easy.md)**
 
 :   首个将DUSt3R式的几何基础模型范式引入冷冻电镜(cryo-EM)领域的工作，通过ViT编码器+跨视图注意力解码器直接从大量含噪粒子图像前馈预测姿态（无需迭代优化），实现了比传统方法快10-33倍的ab initio蛋白质三维重建。
-
----
-
-## 🧑 人体理解 { #human_understanding }
-
-**[A Quality-Guided Mixture of Score-Fusion Experts Framework for Human Recognition](human_understanding/a_qualityguided_mixture_of_scorefusion_experts_framework_for.md)**
-
-:   提出 Quality-guided Mixture of score-fusion Experts (QME) 框架，通过质量引导的 MoE 策略对来自不同生物特征模态（人脸、步态、身体）的相似度分数进行可学习融合，配合伪质量损失和分数三元组损失，在多个全身生物特征识别基准上达到 SOTA。
-
-**[Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars](human_understanding/avat3r_large_animatable_gaussian_reconstruction_model_for_hi.md)**
-
-:   提出Avat3r——首个可动画的大型3D重建模型(LRM)，仅需4张输入图像即可在前馈方式下回归出高质量可驱动的3D高斯头部头像，通过整合DUSt3R位置图和Sapiens语义特征作为先验、并用简单的cross-attention建模表情动画，在Ava256和NeRSemble数据集上大幅超越现有方法。
-
-**[CarGait: Cross-Attention based Re-ranking for Gait Recognition](human_understanding/cargait_crossattention_based_reranking_for_gait_recognition.md)**
-
-:   提出CarGait——步态识别的cross-attention重排序方法：对initial retrieval的top-K候选，利用步态条带(gait strip)间的cross-attention计算细粒度相关性进行重排序，可作为任意单阶段步态识别模型的即插即用后处理模块，在Gait3D/GREW/OU-MVLP上7种模型中一致提升Rank-1/5准确率。
 
 ---
 
@@ -587,6 +555,18 @@
 
 ---
 
+## 🧑 人体理解 { #human_understanding }
+
+**[A Quality-Guided Mixture of Score-Fusion Experts Framework for Human Recognition](human_understanding/a_qualityguided_mixture_of_scorefusion_experts_framework_for.md)**
+
+:   提出 Quality-guided Mixture of score-fusion Experts (QME) 框架，通过质量引导的 MoE 策略对来自不同生物特征模态（人脸、步态、身体）的相似度分数进行可学习融合，配合伪质量损失和分数三元组损失，在多个全身生物特征识别基准上达到 SOTA。
+
+**[Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars](human_understanding/avat3r_large_animatable_gaussian_reconstruction_model_for_hi.md)**
+
+:   提出Avat3r——首个可动画的大型3D重建模型(LRM)，仅需4张输入图像即可在前馈方式下回归出高质量可驱动的3D高斯头部头像，通过整合DUSt3R位置图和Sapiens语义特征作为先验、并用简单的cross-attention建模表情动画，在Ava256和NeRSemble数据集上大幅超越现有方法。
+
+---
+
 ## 📦 模型压缩 { #model_compression }
 
 **[A Good Teacher Adapts Their Knowledge for Distillation](model_compression/a_good_teacher_adapts_their_knowledge_for_distillation.md)**
@@ -596,14 +576,6 @@
 **[TokenBridge: Bridging Continuous and Discrete Tokens for Autoregressive Visual Generation](model_compression/bridging_continuous_and_discrete_tokens_for_autoregressive_v.md)**
 
 :   TokenBridge提出对预训练VAE连续特征进行后训练维度级量化，将连续token无损转化为离散token，再通过轻量级维度级自回归头高效建模指数级大词表空间，在ImageNet 256×256上用标准交叉熵损失达到了与连续token方法（如MAR）相当的生成质量（FID=1.55），且推理快5.94倍。
-
----
-
-## 🔗 因果推理 { #causal_inference }
-
-**[A Visual Leap in CLIP Compositionality Reasoning through Generation of Counterfactual Sets](causal_inference/a_visual_leap_in_clip_compositionality_reasoning_through_gen.md)**
-
-:   提出基于block-based diffusion的反事实图文对自动生成方法，将图像实体视为"拼图块"进行独立生成与组装，配合集合内/集合间双层损失函数微调CLIP（LoRA），在ARO、Winoground、sDCI等多个组合推理benchmark上以10K-300K合成数据超越使用3M手标数据的SOTA方法。
 
 ---
 

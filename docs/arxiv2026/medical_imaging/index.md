@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**📄 arxiv2026** · 共 **27** 篇
+**📄 arxiv2026** · 共 **25** 篇
 
 **[Accelerating Stroke MRI with Diffusion Probabilistic Models through Large-Scale Pre-training and Target-Specific Fine-Tuning](accelerating_stroke_mri_diffusion.md)**
 
@@ -30,10 +35,6 @@
 **[Comparative Evaluation of Traditional Methods and Deep Learning for Brain Glioma Imaging. Review Paper](comparative_evaluation_traditional_methods.md)**
 
 :   分割对于脑胶质瘤至关重要，因为它描绘了胶质瘤的范围和位置，有助于精确的治疗计划和监测，从而改善患者的治疗效果。
-
-**[Deep Learning Based Estimation of Blood Glucose Levels from Multidirectional Scleral Blood Vessel Imaging](deep_learning_based_estimation.md)**
-
-:   定期监测血糖状态对于糖尿病管理至关重要，但传统的血液检测对于频繁评估来说可能很麻烦。
 
 **[Diffusion-Based Feature Denoising and Using NNMF for Robust Brain Tumor Classification](diffusionbased_feature_denoising_using.md)**
 
@@ -82,10 +83,6 @@
 **[A protocol for evaluating robustness to H&E staining variation in computational pathology models](protocol_evaluating_robustness_he.md)**
 
 :   在这项工作中，我们开发了一个三步协议来评估 CPath 模型中 H&E 染色变异的稳健性。
-
-**[Prototype-Based Knowledge Guidance for Fine-Grained Structured Radiology Reporting](prototypebased_knowledge_guidance_finegrained.md)**
-
-:   结构化放射学报告有望比自由文本进行更快、更一致的通信，但自动化仍然很困难，因为模型必须针对有限的结构化监督中的罕见发现和属性做出许多细粒度、离散的决策。
 
 **[A Semi-Supervised Framework for Breast Ultrasound Segmentation with Training-Free Pseudo-Label Generation and Label Refinement](semisupervised_framework_breast_ultrasound.md)**
 

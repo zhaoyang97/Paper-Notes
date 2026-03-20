@@ -1,7 +1,12 @@
+---
+search:
+  exclude: true
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM 推理
 
-**🤖 AAAI2026** · 共 **14** 篇
+**🤖 AAAI2026** · 共 **13** 篇
 
 **[A Reasoning Paradigm for Named Entity Recognition](a_reasoning_paradigm_for_named_entity_recognition.md)**
 
@@ -54,7 +59,3 @@
 **[Stable Voting and the Splitting of Cycles](stable_voting_and_the_splitting_of_cycles.md)**
 
 :   研究Simple Stable Voting (SSV)——已在数百次实际选举中使用的递归投票规则——是否总是精化(refine)Split Cycle (SC)方法的猜想，通过数学证明（≤5候选人）和SAT求解（6-7候选人）确定：猜想在≤6候选人时成立，≥7候选人时被反驳，并通过构造性证明推广到任意多候选人。
-
-**[ToC: Tree-of-Claims Search with Multi-Agent Language Models](toc_tree-of-claims_search_with_multi-agent_language_models.md)**
-
-:   提出Tree-of-Claims (ToC)搜索框架，用多智能体LLM构建和探索声明树进行结构化辩论式推理，通过系统地生成、评估和反驳声明来提升复杂问题的推理质量。
