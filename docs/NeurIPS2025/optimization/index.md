@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧠 NeurIPS2025** · 共 **11** 篇
+**🧠 NeurIPS2025** · 共 **12** 篇
 
 **[A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization](a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md)**
 
@@ -26,6 +26,10 @@
 **[Asymptotically Stable Quaternion-Valued Hopfield-Structured Neural Network With ](asymptotically_stable_quaternion-valued_hopfield-structured_neural_network_with_.md)**
 
 :   提出四元数值Hopfield结构神经网络，结合监督投影流形学习和渐近稳定性保证，应用于机器人路径规划和轨迹生成。
+
+**[Contribution Of Task-Irrelevant Stimuli To Drift Of Neural Representations](contribution_of_task-irrelevant_stimuli_to_drift_of_neural_representations.md)**
+
+:   理论证明任务无关刺激作为学习噪声导致神经表示漂移，并定量刻画了输入统计特性如何影响漂移的速度和方向。
 
 **[Gradient Descent As Loss Landscape Navigation A Normative Framework For Deriving](gradient_descent_as_loss_landscape_navigation_a_normative_framework_for_deriving.md)**
 

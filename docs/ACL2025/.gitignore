@@ -45,7 +45,6 @@
 !ai_safety/morphmark_adaptive_watermarking.md
 !ai_safety/privacibench_evaluating_privacy_with_contextual_integrity.md
 !ai_safety/sandcastles_watermarking_impossibility.md
-!ai_safety/sarft_roleplay_safety.md
 !ai_safety/speechfake_a_largescale_multilingual_speech_deepfake.md
 !ai_safety/tip_iceberg_adversarial_attacks.md
 !ai_safety/tug_of_war_fairness_privacy.md
@@ -81,7 +80,8 @@
 !image_generation/rvc_rhythm_voice_conversion.md
 !image_restoration/diffusedef_adversarial_defense.md
 !llm_agent/agentic_reasoning_tools.md
-!llm_agent/astute_rag_knowledge_conflicts.md
+!llm_agent/androidgen_agent_data_scarcity.md
+!llm_agent/androidlab_autonomous_agent.md
 !llm_agent/caution_environment_gui_agent_distractions.md
 !llm_agent/dpt_agent_dual_process.md
 !llm_agent/fact_audit_factcheck.md
@@ -101,6 +101,7 @@
 !llm_agent/toolhop_multi_hop_tool_use.md
 !llm_alignment/automixalign_adaptive_data_mixing.md
 !llm_alignment/cheems_chinese_reward_models.md
+!llm_alignment/codedpo_code_alignment.md
 !llm_alignment/curiosity_driven_rlhf.md
 !llm_alignment/diffpo_diffusion_alignment.md
 !llm_alignment/iopo_input_output_preference.md
@@ -128,7 +129,6 @@
 !llm_efficiency/kv_latent_cache_reduction.md
 !llm_efficiency/ladm_long_context_data.md
 !llm_efficiency/many_shot_attacks_long_context.md
-!llm_efficiency/mha2mla_deepseek_latent_attention.md
 !llm_efficiency/native_sparse_attention.md
 !llm_efficiency/sliding_windows_full_ranking.md
 !llm_efficiency/spindlekv_layered_kv_cache.md
@@ -138,6 +138,7 @@
 !llm_nlp/aimscheck_modern_slavery.md
 !llm_nlp/algorithmic_fidelity_german_opinion.md
 !llm_nlp/arabic_dialects_assumptions_revisited.md
+!llm_nlp/astute_rag_knowledge_conflicts.md
 !llm_nlp/atrie_legal_interpretation.md
 !llm_nlp/autogui_scaling_gui_grounding_with_automatic.md
 !llm_nlp/bco_binary_classifier_alignment.md
@@ -233,6 +234,7 @@
 !llm_nlp/mergeprint_fingerprint_ownership.md
 !llm_nlp/metarater_a_multidimensional_data_selection_method.md
 !llm_nlp/mexgen_multi_level_explanations.md
+!llm_nlp/mha2mla_deepseek_latent_attention.md
 !llm_nlp/mid_layer_crosslingual_alignment.md
 !llm_nlp/moral_values_western.md
 !llm_nlp/msqad_multilingual_ethical_bias.md
@@ -257,6 +259,7 @@
 !llm_nlp/reversal_of_thought_enhancing_large_language.md
 !llm_nlp/rulearena_rule_guided_reasoning.md
 !llm_nlp/salience_sparse_fine_tuning.md
+!llm_nlp/sarft_roleplay_safety.md
 !llm_nlp/segment_level_diffusion.md
 !llm_nlp/selfelicit_evidence_highlighting.md
 !llm_nlp/shortcut_neuron_eval.md
@@ -408,8 +411,6 @@
 !others/a3cg_esg_greenwashing.md
 !others/acecoder_acing_coder_rl_via_automated.md
 !others/aligned_but_blind_implicit_bias.md
-!others/androidgen_agent_data_scarcity.md
-!others/androidlab_autonomous_agent.md
 !others/arise_risk_adaptive_search.md
 !others/attention_entropy_parallel_encoding.md
 !others/beyond_frameworks_multi_agent_collaboration.md
@@ -417,7 +418,6 @@
 !others/byte_latent_transformer.md
 !others/causal_tokenisation_bias.md
 !others/coachme_sport_instruction.md
-!others/codedpo_code_alignment.md
 !others/collapse_dense_retrievers.md
 !others/com2_causal_commonsense.md
 !others/commonsense_arab_culture.md

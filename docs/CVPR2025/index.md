@@ -10,9 +10,9 @@
 | 🧊 [3D 视觉](#3d_vision) | 11 |
 | 🚗 [自动驾驶](#autonomous_driving) | 2 |
 | 🧑 [人体理解](#human_understanding) | 1 |
-| 📂 [其他](#others) | 1 |
 | 🤖 [机器人/具身智能](#robotics) | 1 |
 | ✂️ [语义分割](#segmentation) | 1 |
+| 📂 [其他](#others) | 1 |
 
 ---
 
@@ -84,14 +84,6 @@
 
 ---
 
-## 📂 其他 { #others }
-
-**[3D Prior is All You Need: Cross-Task Few-shot 2D Gaze Estimation](others/3d_prior_is_all_you_need_cross-task_few-shot_2d_gaze_estimation.md)**
-
-:   提出跨任务少样本2D视线估计——利用预训练3D视线模型作为先验，通过**基于物理的可微投影模块**（6个可学习屏幕参数）将3D视线方向投影到2D屏幕坐标，仅需10张标注图像即可在未知设备上适配2D视线估计，在MPIIGaze/EVE/GazeCapture上比EFE和IVGaze提升超25%。
-
----
-
 ## 🤖 机器人/具身智能 { #robotics }
 
 **[3D-MVP: 3D Multiview Pretraining for Robotic Manipulation](robotics/3d-mvp_3d_multiview_pretraining_for_manipulation.md)**
@@ -105,3 +97,11 @@
 **[2DMamba: Efficient State Space Model for Image Representation with Applications on Giga-Pixel Whole Slide Image Classification](segmentation/2dmamba_efficient_state_space_model_for_image_representation_with_applications_o.md)**
 
 :   提出2DMamba，首个具有高效并行算法的**原生2D选择性状态空间模型**，通过保持2D空间连续性（而非展平为1D序列）来建模WSI中的patch间关系，在10个公共病理数据集上全面超越1D Mamba方法，并在ImageNet分类和ADE20K分割上也有提升。
+
+---
+
+## 📂 其他 { #others }
+
+**[3D Prior is All You Need: Cross-Task Few-shot 2D Gaze Estimation](others/3d_prior_is_all_you_need_cross-task_few-shot_2d_gaze_estimation.md)**
+
+:   提出跨任务少样本2D视线估计——利用预训练3D视线模型作为先验，通过**基于物理的可微投影模块**（6个可学习屏幕参数）将3D视线方向投影到2D屏幕坐标，仅需10张标注图像即可在未知设备上适配2D视线估计，在MPIIGaze/EVE/GazeCapture上比EFE和IVGaze提升超25%。
