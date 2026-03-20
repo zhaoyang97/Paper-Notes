@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👁️ 多模态 VLM
 
-**📷 CVPR2026** · 共 **41** 篇
+**📷 CVPR2026** · 共 **42** 篇
 
 **[A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks](a_closedform_solution_for_debiasing_visionlanguage.md)**
 
@@ -42,11 +37,11 @@ search:
 
 **[EmoVerse: A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis](emoverse_mllm_emotion_representation_dataset.md)**
 
-:   构建了 EmoVerse——首个大规模开源可解释视觉情感分析数据集（219k+ 图像），采用知识图谱启发的多层标注框架，将情感分解为 Background-Attribute-Subject (B-A-S) 三元组并将每个元素接地到视觉区域，提供词级和主体级情感推理；同时引入兼容离散情感类别（CES）和连续维度情感空间（DES）的双重标注，并提出可解释模型将视觉线索映射到 DES 表示。
+:   提出 EmoVerse，一个219K规模的视觉情感数据集，通过知识图谱启发的Background-Attribute-Subject三元组实现词级和主体级情感归因，同时提供离散CES和连续1024维DES双情感标注，配合多阶段标注验证流水线和基于Qwen2.5-VL的可解释情感模型。
 
 **[EvoLMM: Self-Evolving Large Multimodal Models with Continuous Rewards](evolmm_self_evolving_lmm_continuous_rewards.md)**
 
-:   提出 EvoLMM，一个完全无监督的 LMM 自进化框架——从单一 backbone 模型实例化两个协作 Agent（Proposer 生成图像相关问题 + Solver 通过内部一致性求解），通过连续自奖励过程提升推理能力，仅用原始训练图像（无标注数据或外部奖励模型）在 ChartQA、MathVista、MathVision 上获得约 3% 的一致提升。
+:   提出 EvoLMM，一个纯无监督的自进化框架：从单一LMM分出Proposer（生成图像相关问题）和Solver（回答问题），通过连续自一致性奖励（替代离散多数投票）形成闭环训练信号，仅使用原始图像（无标注、无外部奖励模型），在8个多模态数学推理基准上获得约2-3%的一致性提升。
 
 **[Evolving Prompt Adaptation for Vision-Language Models](evolving_prompt_adaptation_for_visionlanguage_mode.md)**
 
@@ -66,7 +61,7 @@ search:
 
 **[GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning](graphvlm_benchmark_vlm_graph_learning.md)**
 
-:   提出 GraphVLM，首个系统评估 VLM 在多模态图学习（MMGL）中能力的基准，研究三种互补范式——VLM-as-Encoder（特征融合增强 GNN）、VLM-as-Aligner（潜空间/语言空间桥接模态）、VLM-as-Predictor（VLM 直接作为图学习 backbone），在 6 个跨领域数据集上验证，发现 VLM-as-Predictor 范式效果最好，揭示了 VLM 作为多模态图学习新基础的巨大潜力。
+:   提出 GraphVLM benchmark，系统评估VLM在多模态图学习中的三种角色——VLM-as-Encoder（增强GNN特征）、VLM-as-Aligner（桥接模态用于LLM推理）、VLM-as-Predictor（直接作为图学习backbone）。在6个数据集上的实验表明，VLM-as-Predictor持续取得最佳性能，揭示了VLM作为多模态图学习新基础的巨大潜力。
 
 **[GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training](gtr_turbo_merged_checkpoint_free_teacher.md)**
 
@@ -98,7 +93,7 @@ search:
 
 **[Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning](mastering_negation_boosting_grounding_models_via_g.md)**
 
-:   当前的视觉语言检测和基础模型主要关注具有积极语义的提示，并且常常难以准确解释...
+:   构建首个包含正负语义成对描述的视觉定位数据集 D-Negation (14K 图片, 140K 标注), 并提出 Grouped Opposition-Based Learning (GOBL) 微调机制, 通过 PNC 和 TSO 两个对立损失函数, 仅调不到 10% 参数即让 Grounding DINO 和 APE 在否定语义评估上提升最高 5.7 mAP, 且正面语义也同步提升.
 
 **[MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](modes_moe_dynamic_expert_skipping.md)**
 
@@ -115,6 +110,10 @@ search:
 **[NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval](nanovdr_distilling_a_2b_visionlanguage_retriever_i.md)**
 
 :   NanoVDR 利用查询-文档的不对称性，将 2B 参数的 VLM 文档检索器通过 pointwise cosine alignment 蒸馏成 69M 的纯文本查询编码器，在 ViDoRe 基准上保留 95.1% 的教师模型性能，查询延迟降低 50 倍，训练仅需 13 GPU 小时。
+
+**[Noise-Aware Few-Shot Learning through Bi-directional Multi-View Prompt Alignment](noiseaware_fewshot_learning_through_bidirectional.md)**
+
+:   提出NA-MVP框架，通过双向（clean+noise-aware）多视图prompt设计配合非平衡最优传输（UOT）实现细粒度patch-to-prompt对齐，并用经典OT对识别出的噪声样本做选择性标签修正，在噪声小样本学习场景下持续超越SOTA。
 
 **[Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models](overthinking_hallucination_confounder_propagation.md)**
 
@@ -158,7 +157,7 @@ search:
 
 **[UniMMAD: Unified Multi-Modal and Multi-Class Anomaly Detection via MoE-Driven Feature Decompression](unimmad_multimodal_moe_anomaly_detection.md)**
 
-:   提出 UniMMAD，一个统一的多模态多类别异常检测框架，核心是 MoE 驱动的特征解压机制——编码阶段将多模态输入压缩为通用特征并抑制潜在异常，解码阶段通过稀疏门控交叉 MoE 将通用特征解压为模态特定和类别特定的重建，配合分组动态滤波和 MoE-in-MoE 结构减少 75% 参数，在 9 个数据集（3领域12模态66类别）上达到 SOTA。
+:   提出 UniMMAD, 首个统一多模态 (RGB/Depth/IR 等) 多类别异常检测框架, 通过 General-to-Specific 范式: 通用多模态编码器压缩特征, Cross Mixture-of-Experts (C-MoE) 解压为域特定特征, 在 5 个数据集 (含工业/医学/合成场景) 上取得 SOTA, 59 FPS 推理速度.
 
 **[V2Drop: Variation-aware Vision Token Dropping for Faster Large Vision-Language Models](v2drop_variation_aware_token_dropping.md)**
 

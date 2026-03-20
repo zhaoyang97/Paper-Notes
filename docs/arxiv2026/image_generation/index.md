@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📄 arxiv2026** · 共 **11** 篇
+**📄 arxiv2026** · 共 **13** 篇
 
 **[AS-Bridge: A Bidirectional Generative Framework Bridging Next-Generation Astronomical Surveys](asbridge_bidirectional_generative_framework.md)**
 
@@ -36,6 +31,10 @@ search:
 
 :   当扩散模型将噪声转化为照片时，它实际上在做什么？
 
+**[Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](mitigating_memorization_texttoimage_diffusion.md)**
+
+:   最先进的文本到图像扩散模型可以产生令人印象深刻的视觉效果，但可能会记住和复制训练图像，从而产生版权和隐私风险。
+
 **[One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers](one_model_many_budgets.md)**
 
 :   扩散变换器 (DiT) 实现了高生成质量，但将 FLOP 锁定到图像分辨率，限制了原则上的延迟质量权衡，并在输入空间令牌之间统一分配计算，浪费了对不重要区域的资源分配。
@@ -43,6 +42,10 @@ search:
 **[PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization](physmodpo_physicallyplausible_humanoid_motion.md)**
 
 :   文本条件人体运动生成的最新进展很大程度上是由大规模人体运动数据训练的扩散模型驱动的。
+
+**[Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback](referencefree_image_quality_assessment.md)**
+
+:   给定人物图像和服装图像，基于图像的虚拟试穿（VTON）会合成穿着目标服装的人的试穿图像。
 
 **[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](slice_semantic_latent_injection.md)**
 

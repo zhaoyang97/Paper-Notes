@@ -1,12 +1,11 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**📹 ICCV2025** · 共 **5** 篇
+**📹 ICCV2025** · 共 **6** 篇
+
+**[A Plug-and-Play Physical Motion Restoration Approach for In-the-Wild High-Difficulty Motions](a_plugandplay_physical_motion_restoration_approach_for_inthe.md)**
+
+:   提出即插即用的两阶段物理运动修复方法：先用掩码条件扩散模型修正视频运动捕获中的缺陷帧（MCM），再用预训练+测试时自适应的强化学习控制器进行物理仿真修复（PTM），首次实现对野外高难度动作（体操/武术/舞蹈）的物理合理性增强。
 
 **[CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation](corrclip_reconstructing_patch_correlations_in_clip_for_openv.md)**
 

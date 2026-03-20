@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🤖 AAAI2026** · 共 **16** 篇
+**🤖 AAAI2026** · 共 **20** 篇
 
 **[A Switching Framework for Online Interval Scheduling with Predictions](a_switching_framework_for_online_interval_scheduling_with_pr.md)**
 
@@ -44,9 +39,17 @@ search:
 
 :   研究异构速度下多追逐者-单逃避者的追逃博弈——定义逃避者安全可达集为所有追逐者-逃避者对的Apollonius圆的交集，将捕获策略建模为追逐者最小化/逃避者最大化该交集面积的零和博弈，推导出闭式最优航向控制律，仿真验证追逐者可系统性缩小安全区域实现保证捕获。
 
+**[Bilevel MCTS for Amortized O(1) Node Selection in Classical Planning](bilevel_mcts_for_amortized_o1_node_selection_in_classical_planning.md)**
+
+:   提出双层MCTS，从叶节点运行最优优先搜索实现O(1)均摊节点选择（vs标准MCTS的O(logN)），配合树崩塌(Tree Collapsing)增强，在IPC2018/2023基准上超越LAMA/NOLAN/DecStar达到敏捷经典规划的SOTA。
+
 **[CompTrack: 信息瓶颈引导的低秩动态Token压缩用于点云跟踪 (Oral)](comptrack_information_bottleneckguided_lowrank_dynamic_token_compres.md)**
 
 :   针对LiDAR点云3D单目标跟踪中的"双重冗余"问题（空间冗余：大量背景噪声；信息冗余：前景中大量不具区分性的平面点），提出SFP前景预测器+IB-DTC信息瓶颈引导动态Token压缩两个模块，在KITTI/nuScenes/Waymo上达到SOTA，90 FPS实时运行（比P2P快1.4倍）。
+
+**[Extreme Value Monte Carlo Tree Search for Classical Planning](extreme_value_monte_carlo_tree_search_for_classical_planning.md)**
+
+:   将极值理论引入MCTS的节点评估，用极值分布替代均值估计来指导搜索，在经典规划问题中实现更有效的探索。
 
 **[FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)**
 
@@ -60,6 +63,10 @@ search:
 
 :   结合名词级（WordNet）和描述级（Flickr 图片描述）两种互补语义，通过最优传输对齐构建语义空间并自适应融合，实现 training-free 的图像聚类，在 ImageNet-1K 上准确率提升 4.2%。
 
+**[MeSHA: Efficient Path Planning with Motion Primitives](mesha_efficient_path_planning_with_motion_primitives.md)**
+
+:   提出MeSHA高效路径规划算法，结合运动基元和混合搜索策略，在保证路径质量的同时显著提升规划效率。
+
 **[PriorDrive: 用统一向量先验增强在线HD地图构建](priordrive_enhancing_online_hd_mapping_with_unified_vector_p.md)**
 
 :   提出 PriorDrive 框架，通过 Unified Vector Encoder (UVE) 和 Hybrid Prior Representation (HPQuery) 将多种向量化先验地图（SD地图、旧HD地图、历史预测地图）统一编码并集成到各种在线建图模型中，在 nuScenes 上 mAP 提升 14.3，兼容 query-based 和 non-query-based 两类建图架构。
@@ -67,6 +74,10 @@ search:
 **[ReflexDiffusion: 反思增强的高侧向加速度自动驾驶轨迹规划](reflexdiffusion_reflection-enhanced_trajectory_planning_for_.md)**
 
 :   提出 ReflexDiffusion，在扩散模型推理阶段引入物理感知的反思机制，通过梯度注入强化曲率-速度-加速度耦合约束（a_y = κv²），在 nuPlan 高侧向加速度长尾场景中驾驶分数提升 14.1%，架构无关可直接部署到现有扩散规划器。
+
+**[Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments](symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)**
+
+:   解决极端密集环境下的多智能体路径规划(MAPF)问题，通过符号规划方法在几乎无空闲空间的环境中高效找到所有Agent的无冲突路径。
 
 **[TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models](taylorpoda_a_taylor_expansion-based_method_to_improve_post-hoc_attributions_for_.md)**
 

@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👁️ 多模态 VLM
 
-**🔬 ICLR2026** · 共 **18** 篇
+**🔬 ICLR2026** · 共 **19** 篇
 
 **[A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models](a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi.md)**
 
@@ -63,6 +58,10 @@ search:
 **[Multimodal Classification via Total Correlation Maximization](multimodal_classification_via_total_correlation_maximization.md)**
 
 :   从信息论角度分析多模态分类中的模态竞争问题，提出 TCMax 损失函数通过最大化多模态特征与标签之间的总相关性（Total Correlation），同时兼顾联合学习、单模态学习和跨模态对齐三重目标，在多个音视频/图文分类基准上超越 SOTA。
+
+**[PoSh: Using Scene Graphs To Guide LLMs-as-a-Judge For Detailed Image Descriptions](posh_using_scene_graphs_to_guide_llms-as-a-judge_for_detailed_image_descriptions.md)**
+
+:   提出 PoSh，利用场景图（依存分析+共指消解）作为结构化评分标准指导 LLM-as-Judge 评估详细图像描述，Spearman ρ 超 SPICE/CAPTURE +0.05，作为奖励函数优于 SFT。
 
 **[RAVENEA: A Benchmark for Multimodal Retrieval-Augmented Visual Culture Understanding](ravenea_a_benchmark_for_multimodal_retrieval-augmented_visual_culture_understand.md)**
 

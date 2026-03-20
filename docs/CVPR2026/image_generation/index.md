@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📷 CVPR2026** · 共 **25** 篇
+**📷 CVPR2026** · 共 **26** 篇
 
 **[Agentic Retoucher for Text-To-Image Generation](agentic_retoucher_for_texttoimage_generation.md)**
 
@@ -42,7 +37,7 @@ search:
 
 **[ConsistCompose: Unified Multimodal Layout Control for Image Composition](consistcompose_multimodal_layout_control.md)**
 
-:   提出 ConsistCompose，将布局坐标直接嵌入语言 prompt 实现布局可控的多实例图像生成——通过实例-坐标绑定 prompt 和坐标感知 classifier-free guidance 将语言布局线索转化为精确空间控制，配合 340 万多实例数据集 ConsistCompose3M，在 COCO-Position 和 MS-Bench 上显著提升空间准确性同时保持身份保真度。
+:   提出 ConsistCompose，通过将布局坐标直接嵌入语言prompt（LELG范式），在统一多模态框架中实现布局可控的多实例图像生成；构建340万样本的ConsistCompose3M数据集提供布局+身份监督；配合坐标感知CFG机制，在COCO-Position上实现布局IoU 7.2%提升和AP 13.7%提升，同时保持通用理解能力。
 
 **[D2C: Accelerating Diffusion Model Training under Minimal Budgets via Condensation](d2c_diffusion_dataset_condensation.md)**
 
@@ -95,6 +90,10 @@ search:
 **[PROMO: Promptable Outfitting for Efficient High-Fidelity Virtual Try-On](promo_promptable_virtual_tryon_efficient.md)**
 
 :   PROMO基于FLUX Flow Matching DiT骨干，通过潜空间多模态条件拼接、时序自参考KV缓存、3D-RoPE分组条件、以及fine-tuned VLM风格提示系统，在去除传统参考网络的前提下实现了高保真且高效的多件服装虚拟试穿，推理速度比无加速版快2.4倍，在VITON-HD和DressCode上超越现有VTON和通用图像编辑方法。
+
+**[RAZOR: Ratio-Aware Layer Editing for Targeted Unlearning in Vision Transformers and Diffusion Models](razor_ratio_aware_unlearning_vit_diffusion.md)**
+
+:   提出 RAZOR, 一种基于比率感知梯度评分的多层协调编辑方法, 用于 ViT 和扩散模型的目标遗忘: 通过 forget/retain 梯度的比率和余弦对齐度联合评分, 识别对遗忘贡献最大且对保留损害最小的层/头, 实现一次性高效遗忘, 在 CLIP 身份遗忘上达到 SOTA.
 
 **[SegQuant: A Semantics-Aware and Generalizable Quantization Framework for Diffusion Models](segquant_diffusion_model_quantization.md)**
 

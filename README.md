@@ -1,6 +1,6 @@
 # 📚 AI Paper Notes
 
-**2,431** 篇 AI/LLM/NLP/CV 顶会论文笔记，覆盖 NeurIPS、ICLR、CVPR、ICCV、ECCV、AAAI、ACL 等会议，涵盖多模态 VLM、AI 安全、Agent、LLM 推理、对齐/RLHF、模型压缩、LLM 效率、文本生成等热门方向。
+**2,431** 篇 AI/LLM/NLP/CV 顶会论文解读，每篇 5 分钟读懂核心思想。覆盖 ACL、NeurIPS、ICLR、AAAI、CVPR、ICCV、ECCV 等 9 大顶会，横跨 LLM Reasoning、多模态 VLM、Agent、对齐/RLHF、模型压缩、图像生成、AI 安全、强化学习、自动驾驶等 35+ 研究方向，持续更新中。
 
 ## 🌐 在线阅读
 

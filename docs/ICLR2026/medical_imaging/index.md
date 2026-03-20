@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🔬 ICLR2026** · 共 **25** 篇
+**🔬 ICLR2026** · 共 **29** 篇
 
 **[Adaptive Domain Shift in Diffusion Models for Cross-Modality Image Translation](adaptive_domain_shift_in_diffusion_models_for_cross-modality_image_translation.md)**
 
@@ -68,6 +63,10 @@ search:
 
 :   提出 COMPASS 框架，在分割模型的中间特征空间而非输出空间做共形预测，通过沿 Jacobian 确定的低维敏感子空间扰动特征来构建预测区间，在多个医学分割数据集上以更紧凑的区间达到目标覆盖率。
 
+**[Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series](decentralized_attention_fails_centralized_signals_rethinking_transformers_for_me.md)**
+
+:   提出 TeCh 框架，用核心 Token 聚合-再分配（CoTAR）替代标准注意力处理医学时间序列的通道依赖，将复杂度从 $O(n^2)$ 降至 $O(n)$，在 APAVA 上精度 86.86%（超 Medformer 12.13%），内存仅 33%、推理时间仅 20%。
+
 **[Deep Hierarchical Learning with Nested Subspace Networks for Large Language Models](deep_hierarchical_learning_with_nested_subspace_networks_for_large_language_mode.md)**
 
 :   提出嵌套子空间网络（NSN），通过低秩分解使线性层形成严格嵌套的子空间层次，配合不确定性感知多秩训练，使单个模型在测试时可即时调节计算量与性能的权衡（50% FLOPs 减少仅损失 5% 精度），且可后验应用于预训练 LLM。
@@ -92,6 +91,10 @@ search:
 
 :   挑战基因表达预测中"越长越好"的长序列建模范式，发现当前 SSM 模型本质上只利用近端信息；进而识别出背景染色质信号（DNase-seq/Hi-C）作为混杂变量引入虚假关联，提出 Prism 框架通过后门调整去混杂，仅用 2k 短序列即超越 200k 长序列的 SOTA。
 
+**[HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction](histoprism_unlocking_functional_pathway_analysis_from_pan-cancer_histology_via_g.md)**
+
+:   提出 HistoPrism，基于 Transformer 的跨癌种基因表达预测框架，通过交叉注意力注入癌种条件、引入基因通路一致性（GPC）评估指标，仅用 500 张 WSI 即实现优于 STPath（需 38K WSI）的通路级预测，在 86% 的 Hallmark 通路上更优。
+
 **[Intrinsic Lorentz Neural Network](intrinsic_lorentz_neural_network.md)**
 
 :   提出完全内禀（fully intrinsic）的双曲神经网络 ILNN，所有运算均在 Lorentz 模型内完成，消除了现有方法中混合欧几里得操作的几何不一致性，在图像分类、基因组学和图分类上取得 SOTA。
@@ -100,6 +103,10 @@ search:
 
 :   构建了首个统一的生物医学数据科学 Agent 训练环境 MedAgentGym，包含 72,413 个任务实例（12 个真实场景、129 个类别），配备可执行沙盒和可验证 ground truth，基准评估 29 个 LLM，并通过离线/在线 RL 训练出 Med-Copilot（分别 +43%/+45% 提升），达到与 GPT-4o 竞争的性能同时保持成本效益和隐私保护。
 
+**[Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy Research](omni-ieeg_a_large-scale_comprehensive_ieeg_dataset_and_benchmark_for_epilepsy_re.md)**
+
+:   构建 Omni-iEEG，首个多中心标准化颅内脑电（iEEG）数据集（302名患者/8中心/36177标注事件），配套 HFO 分类和致病脑区识别基准，发现端到端分段模型（AUC 0.8061）可匹配临床验证的生物标志物方法（AUC 0.7351），且音频预训练模型可有效迁移。
+
 **[Scalable Spatio-Temporal SE(3) Diffusion for Long-Horizon Protein Dynamics](scalable_spatio-temporal_se3_diffusion_for_long-horizon_protein_dynamics.md)**
 
 :   提出 STAR-MD，一个 SE(3) 等变的因果扩散 Transformer，通过联合时空注意力和上下文噪声扰动实现微秒级蛋白质动力学轨迹生成，在 ATLAS 基准上所有指标达到 SOTA，且能稳定外推到训练中未见的微秒时间尺度。
@@ -107,3 +114,7 @@ search:
 **[Scaling with Collapse: Efficient and Predictable Training of LLM Families](scaling_with_collapse_efficient_and_predictable_training_of_llm_families.md)**
 
 :   证明 LLM 家族的训练损失曲线在优化超参数与数据预算匹配时会“崩塞”到同一条通用曲线上，并利用这一现象实现两个实用应用：(1) 偏离崩塞作为训练病理的早期诊断信号，(2) 崩塞曲线的可预测性实现大规模超参调优的早停。
+
+**[SynCoGen: Synthesizable 3D Molecule Generation via Joint Reaction and Coordinate Modeling](syncogen_synthesizable_3d_molecule_generation_via_joint_reaction_and_coordinate_.md)**
+
+:   提出 SynCoGen，联合建模 2D 合成路线（掩码图扩散）和 3D 几何（流匹配），确保生成分子既化学可合成又空间有效，在无条件 3D+图生成和连接子设计中达到 SOTA。

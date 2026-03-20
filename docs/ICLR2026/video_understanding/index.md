@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频理解
 
-**🔬 ICLR2026** · 共 **12** 篇
+**🔬 ICLR2026** · 共 **13** 篇
 
 **[A.I.R.: Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering](air_enabling_adaptive_iterative_and_reasoning-based_frame_selection_for_video_qu.md)**
 
@@ -43,6 +38,10 @@ search:
 **[Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)**
 
 :   提出 Lumos-1，一个基于 LLM 架构的统一视频生成模型：通过 MM-RoPE（分布式多模态 RoPE）解决视觉时空编码问题，通过 AR-DF（自回归离散扩散强迫）解决帧间损失不均衡问题，仅用 48 GPU 训练即可在 GenEval、VBench-I2V 和 VBench-T2V 上达到竞争力水平。
+
+**[Paper Copilot: Tracking the Evolution of Peer Review in AI Conferences](paper_copilot_tracking_the_evolution_of_peer_review_in_ai_conferences.md)**
+
+:   提出 Paper Copilot，用多轮 LLM Agent 追踪论文在同行评审过程中的演变，整合 arXiv/OpenReview API 获取版本和评审历史，生成结构化变更摘要，支持跨 ≥3 版本的演变追踪。
 
 **[CAPO: Curvature-Aware Policy Optimization for Sample-Efficient RL in LLM Reasoning](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)**
 

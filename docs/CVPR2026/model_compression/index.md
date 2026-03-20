@@ -1,8 +1,3 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
@@ -26,4 +21,4 @@ search:
 
 **[PPCL: Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers](ppcl_pluggable_pruning_dit_distillation.md)**
 
-:   提出 PPCL，一个专为扩散 Transformer（DiT）设计的灵活结构化剪枝框架——通过线性探测+一阶差分趋势分析识别冗余层区间，再用即插即用的师生交替蒸馏方案在单次训练中整合深度和宽度剪枝，实现 50% 参数削减仅不到 3% 客观指标下降，无需为每个压缩比重新训练。
+:   提出 PPCL 框架对大型扩散 Transformer (DiT, 8-20B 参数) 进行结构化剪枝: 通过线性探针+CKA 一阶差分识别连续冗余层区间, 深度方向+宽度方向联合剪枝, 搭配即插即用交替蒸馏, 在 Qwen-Image 20B 上实现 50% 参数缩减, 仅 3% 生成质量下降.

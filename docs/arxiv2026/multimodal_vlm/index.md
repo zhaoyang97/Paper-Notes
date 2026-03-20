@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👁️ 多模态 VLM
 
-**📄 arxiv2026** · 共 **17** 篇
+**📄 arxiv2026** · 共 **22** 篇
 
 **[Adaptive Vision-Language Model Routing for Computer Use Agents](adaptive_visionlanguage_model_routing.md)**
 
@@ -24,13 +19,25 @@ search:
 
 :   在本文中，我们引入了一种去偏方法，该方法在跨模态空间中产生 \textbf{闭合形式} 解决方案，从而在 \textbf{有界效用损失} 的情况下实现帕累托最优公平性。
 
+**[CodePercept: Code-Grounded Visual STEM Perception for MLLMs](codepercept_codegrounded_visual_stem.md)**
+
+:   当 MLLM 在科学、技术、工程和数学 (STEM) 视觉推理方面失败时，就会出现一个基本问题：这是由于感知缺陷还是推理限制造成的？
+
 **[Evolving Prompt Adaptation for Vision-Language Models](evolving_prompt_adaptation_visionlanguage.md)**
 
 :   为此，我们提出了 EvoPrompt，这是一种新颖的框架，旨在明确引导提示轨迹，以实现稳定、保留知识的微调。
 
+**[HIFICL: High-Fidelity In-Context Learning for Multimodal Tasks](hificl_highfidelity_incontext_learning.md)**
+
+:   上下文学习 (ICL) 是大型多模态模型 (LMM) 的重要范例，它使用一些上下文演示 (ICD) 来适应新任务。
+
 **[Human Knowledge Integrated Multi-modal Learning for Single Source Domain Generalization](human_knowledge_integrated_multimodal.md)**
 
 :   在基于眼底图像的糖尿病视网膜病变 (DR) 分级和静息态 fMRI 癫痫发作区 (SOZ) 检测等关键任务中，跨领域推广图像分类仍然具有挑战性。
+
+**[Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning](mastering_negation_boosting_grounding.md)**
+
+:   当前的视觉语言检测和基础模型主要关注具有积极语义的提示，并且常常难以准确解释和基础包含消极语义的复杂表达。
 
 **[Multiscale Structure-Guided Latent Diffusion for Multimodal MRI Translation](multiscale_structureguided_latent_diffusion.md)**
 
@@ -64,6 +71,10 @@ search:
 
 :   我们推出了 SldprtNet，这是一个包含超过 242,000 个工业零件的大型数据集，专为语义驱动的 CAD 建模、几何深度学习以及用于 3D 设计的多模态模型的训练和微调而设计。
 
+**[SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs](sparrow_learning_spatial_precision.md)**
+
+:   多模态大语言模型 (MLLM) 已从图像级推理发展到像素级基础，但将这些功能扩展到视频仍然具有挑战性，因为模型必须实现空间精度和时间一致的参考跟踪。
+
 **[Test-Time Attention Purification for Backdoored Large Vision Language Models](testtime_attention_purification_backdoored.md)**
 
 :   尽管具有强大的多模态性能，但大型视觉语言模型（LVLM）在微调后门攻击期间很容易受到攻击，其中对手将嵌入触发器的样本插入训练数据中，以植入可在测试时恶意激活的行为。
@@ -75,3 +86,7 @@ search:
 **[Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept.md)**
 
 :   概念瓶颈模型 (CBM) 是可解释的模型，通过人类可解释的概念层进行预测。
+
+**[Why Does It Look There? Structured Explanations for Image Classification](why_does_it_look.md)**
+
+:   深度学习模型实现了卓越的预测性能，但其黑盒性质限制了透明度和可信度。

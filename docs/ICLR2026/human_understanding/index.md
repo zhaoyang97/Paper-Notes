@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**🔬 ICLR2026** · 共 **9** 篇
+**🔬 ICLR2026** · 共 **11** 篇
 
 **[AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](amemgym_interactive_memory_benchmarking_for_assistants_in_long-horizon_conversat.md)**
 
@@ -32,9 +27,17 @@ search:
 
 :   提出一种无需BPTT的在线SNN解码器，通过三因子Hebbian局部学习规则结合双时间尺度eligibility trace和自适应学习率控制，在O(1)内存下实现可比离线训练方法的BCI神经解码精度（Pearson R≥0.63/0.81），并在闭环仿真中展现了对神经信号非平稳性的持续适应能力。
 
+**[DGNet: Discrete Green Networks for Data-Efficient Learning of Spatiotemporal PDEs](dgnet_discrete_green_networks_for_data-efficient_learning_of_spatiotemporal_pdes.md)**
+
+:   提出 DGNet，将 Green 函数原理（叠加性）嵌入网络架构——学习离散 Green 矩阵 $G(\Delta t, \Delta x)$ 并通过矩阵指数组合多步预测，在 10-20% 数据下误差比 FNO/DeepONet 低 30-50%。
+
 **[DiffVax: Optimization-Free Image Immunization Against Diffusion-Based Editing](diffvax_optimization-free_image_immunization_against_diffusion-based_editing.md)**
 
 :   DiffVax 训练一个前馈免疫器（UNet++），对任意图像仅需一次前向传播（~70ms）即可生成不可感知的对抗扰动，使基于扩散模型的恶意编辑失败，相比先前逐图优化方法实现 250,000× 加速，并首次将免疫扩展到视频内容。
+
+**[GaitSnippet: Gait Recognition Beyond Unordered Sets and Ordered Sequences](gaitsnippet_gait_recognition_beyond_unordered_sets_and_ordered_sequences.md)**
+
+:   提出 GaitSnippet，无需轮廓（silhouette）的步态识别方法，从姿态/骨架序列中提取时空关键点片段（snippet），通过注意力池化聚合为人物级表征，CASIA-B 上 rank-1 达 96.2%（超轮廓方法 3-5%）。
 
 **[NeuroGaze-Distill: Brain-informed Distillation and Depression-Inspired Geometric Priors for Robust Facial Emotion Recognition](neurogaze-distill_brain-informed_distillation_and_depression-inspired_geometric_.md)**
 

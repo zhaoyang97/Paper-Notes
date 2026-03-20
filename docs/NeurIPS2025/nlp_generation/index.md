@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✍️ 文本生成
 
-**🧠 NeurIPS2025** · 共 **4** 篇
+**🧠 NeurIPS2025** · 共 **5** 篇
 
 **[KScope: A Framework for Characterizing the Knowledge Status of Language Models](kscope_a_framework_for_characterizing_the_knowledge_status_of_language_models.md)**
 
@@ -15,6 +10,10 @@ search:
 **[Learning to Solve Complex Problems via Dataset Decomposition](learning_to_solve_complex_problems_via_dataset_decomposition.md)**
 
 :   提出Decomp方法，利用教师模型将复杂数学题按推理步骤递归分解为更简单的子问题，构建概念依赖图量化难度，再按从易到难的课程顺序训练学生模型——Qwen2.5-1.5B在MATH-500上达51.6%（超MuggleMath用147K数据的50.4%），Qwen3-4B在AIME2025仅用385样本达16.7%（超Qwen2.5-72B的15%）。
+
+**[MaintainCoder: Maintainable Code Generation Under Dynamic Requirements](maintaincoder_maintainable_code_generation_under_dynamic_requirements.md)**
+
+:   首次系统解决代码在需求演化下的可维护性问题，通过集成 Waterfall 模型和设计模式的多 Agent 架构将可维护性指标提升 60%+，并提出 MaintainBench 基准系统评估动态需求变化下的代码质量。
 
 **[Precise Information Control in Long-Form Text Generation](precise_information_control_in_long-form_text_generation.md)**
 

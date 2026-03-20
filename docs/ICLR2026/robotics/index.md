@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🔬 ICLR2026** · 共 **15** 篇
+**🔬 ICLR2026** · 共 **16** 篇
 
 **[All-day Multi-scenes Lifelong Vision-and-Language Navigation with Tucker Adaptation](all-day_multi-scenes_lifelong_vision-and-language_navigation_with_tucker_adaptat.md)**
 
@@ -67,3 +62,7 @@ search:
 **[Tracing and Reversing Edits in LLMs](tracing_and_reversing_edits_in_llms.md)**
 
 :   针对知识编辑（Knowledge Editing）的双重使用风险，提出 EditScope 方法从编辑后的权重中推断被编辑的目标实体（准确率高达 99%），以及基于 SVD bottom-rank 近似的无训练编辑逆转方法（逆转率高达 94%），仅依赖编辑后的权重、不需要编辑 prompt 或原始权重信息。
+
+**[Visual Planning: Let's Think Only with Images](visual_planning_lets_think_only_with_images.md)**
+
+:   提出 Visual Planning，MLLM 通过生成图像序列（而非文本推理链）进行规划，VPRL 两阶段 RL（监督微调+进度奖励策略优化）在 FrozenLake 上比文本 SFT 高 27%，且泛化到分布外场景。

@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🔬 ICLR2026** · 共 **12** 篇
+**🔬 ICLR2026** · 共 **16** 篇
 
 **[A Problem-Oriented Perspective and Anchor Verification for Code Optimization](a_problem-oriented_perspective_and_anchor_verification_for_code_optimization.md)**
 
@@ -55,3 +50,19 @@ search:
 **[Procedural Mistake Detection via Action Effect Modeling](procedural_mistake_detection_via_action_effect_modeling.md)**
 
 :   提出双分支多模态监督的动作效果建模框架，结合视觉分支（目标状态和空间关系特征）和文本分支（GPT-4o 生成的场景图），通过可学习的效果 token 蒸馏外部监督信号，在第一人称程序视频中实现 SOTA 错误检测。
+
+**[SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition](sage_spatial-visual_adaptive_graph_exploration_for_efficient_visual_place_recogn.md)**
+
+:   提出 SAGE，通过在线地理-视觉图和加权贪心团扩展实现动态难样本挖掘，仅用冻结 DINOv2+LoRA 在 SPED 和 Pitts30k 上达到 R@1=100%（超 CosPlace/MixVPR 20+%），在 8 个基准上全面 SOTA。
+
+**[Thinking in Latents: Adaptive Anchor Refinement for Implicit Reasoning in LLMs](thinking_in_latents_adaptive_anchor_refinement_for_implicit_reasoning_in_llms.md)**
+
+:   提出 AdaAnchor，通过可学习潜在锚向量的迭代精化实现隐式推理，配合基于余弦距离的自适应停止机制，相比 CoT 减少 92-93% 生成 token（平均 2.17 vs 28.27），同时精度仅降低约 4%。
+
+**[Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders](toward_faithful_retrieval-augmented_generation_with_sparse_autoencoders.md)**
+
+:   提出 RAGLens，利用稀疏自编码器（SAE）编码 LLM 隐状态，通过互信息特征选择和可加性模型（GAM）实现可解释的 RAG 幻觉检测，在 RAGTruth 上 AUC>0.80，零额外 LLM 推理开销。
+
+**[Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Methodology](traceable_evidence_enhanced_visual_grounded_reasoning_evaluation_and_methodology.md)**
+
+:   提出 TreeBench 基准和 TreeVGR 训练范式，通过冷启动 SFT + 双 IoU 奖励 RL 训练，使模型在推理链中显式生成边界框实现可追溯的视觉推理，在 V*Bench/MME-RealWorld/TreeBench 上分别提升 +16.8/+12.6/+13.4。

@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**📷 CVPR2026** · 共 **27** 篇
+**📷 CVPR2026** · 共 **29** 篇
 
 **[4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video](4dequine_disentangling_motion_and_appearance_for_4.md)**
 
@@ -15,6 +10,10 @@ search:
 **[Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](ada3drift_adaptive_trainingtime_drifting_for_onest.md)**
 
 :   利用计算预算不对称性，将扩散策略的迭代细化从推理时移至训练时——通过自适应漂移场将预测动作吸引向专家模式并排斥其他生成样本，从3D点云实现单步（1 NFE）高保真多模态动作生成，比扩散策略快10倍以上。
+
+**[AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models](ava_bench_atomic_visual_ability_vfm.md)**
+
+:   提出 AVA-Bench，将视觉基础模型(VFM)的评估分解为14种"原子视觉能力"(AVA)，通过训练/测试分布对齐和单能力隔离测试，精确定位 VFM 的优势和短板，发现0.5B的LLM就能保持与7B相同的VFM排名，评估成本降低8倍。
 
 **[Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation](catalyst4d_highfidelity_3dto4d_scene_editing_via_d.md)**
 
@@ -62,7 +61,7 @@ search:
 
 **[Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs](noderf_neural_ode_nerf_continuous_spacetime_dynam.md)**
 
-:   将Neural ODE与动态NeRF紧密耦合，通过在隐空间中用ODE建模场景状态的连续时间演化，实现了长程时间外推和跨轨迹泛化，突破了现有动态NeRF只能在训练时间范围内插的瓶颈。
+:   Node-RF 将 Neural ODE 与 NeRF 紧密耦合，通过在隐空间中用微分方程建模场景动态演化，实现了超越训练时间范围的长程外推、跨序列泛化以及动态系统行为分析。
 
 **[O3N: Omnidirectional Open-Vocabulary Occupancy Prediction](o3n_omnidirectional_openvocabulary_occupancy_predi.md)**
 
@@ -90,7 +89,7 @@ search:
 
 **[RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting](retimegs_continuous_time_4d_gaussian.md)**
 
-:   提出 RetimeGS，解决 4D 高斯溅射在时间插值时的鬼影伪影问题——将问题诊断为时间混叠（temporal aliasing），显式定义 3D 高斯的时间行为以缓解混叠，结合光流引导初始化/监督、三重渲染监督等策略，在快速运动、非刚性变形和严重遮挡数据集上实现无鬼影、时间一致的连续时间 4D 渲染。
+:   提出 RetimeGS, 通过 Catmull-Rom 样条轨迹建模高斯基元的时间行为, 结合双向光流监督和正则化时间不透明度, 解决 4DGS 帧插值时的时间混叠问题, 在 Stage-Capture 数据集上达到 30.08 dB PSNR (比前 SOTA +1.29 dB).
 
 **[Rewis3d: Reconstruction Improves Weakly-Supervised Semantic Segmentation](rewis3d_reconstruction_improves_weaklysupervised_s.md)**
 
@@ -115,3 +114,7 @@ search:
 **[WMGStereo: What Makes Good Synthetic Training Data for Zero-Shot Stereo Matching?](what_makes_good_synthetic_training_data_for_zerosh.md)**
 
 :   系统研究合成立体数据集的设计空间——变换Infinigen过程化生成参数(浮动物体密度/背景/材质/相机baseline/光照等)分析其对零样本立体匹配的影响，发现"真实室内场景+浮动物体"的组合最有效；据此构建WMGStereo-150k数据集，仅用此单一数据集训练超越SceneFlow+CREStereo+TartanAir+IRS四合一(Middlebury降28%，Booster降25%)，与FoundationStereo竞争力相当。
+
+**[Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos](wsgg_spatiotemporal_world_scene_graph.md)**
+
+:   提出世界场景图生成 (WSGG) 任务——从单目视频生成以世界坐标系为锚定的时空场景图 (包含被遮挡物体), 构建 ActionGenome4D 数据集, 并设计三种方法 (PWG/MWAE/4DST) 探索不同归纳偏置, 4DST 用时间 Transformer 取得最佳 R@10 66.40%.

@@ -1,12 +1,7 @@
----
-search:
-  exclude: true
----
-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📷 CVPR2025 论文笔记
 
-共 **16** 篇笔记，覆盖 **5** 个领域。
+共 **17** 篇笔记，覆盖 **6** 个领域。
 
 ## 领域概览
 
@@ -14,6 +9,7 @@ search:
 |:-----|-----:|
 | 🧊 [3D 视觉](#3d_vision) | 11 |
 | 🚗 [自动驾驶](#autonomous_driving) | 2 |
+| 🧑 [人体理解](#human_understanding) | 1 |
 | 📂 [其他](#others) | 1 |
 | 🤖 [机器人/具身智能](#robotics) | 1 |
 | ✂️ [语义分割](#segmentation) | 1 |
@@ -77,6 +73,14 @@ search:
 **[ProtoOcc: 3D Occupancy Prediction with Low-Resolution Queries via Prototype-aware View Transformation](autonomous_driving/3d_occupancy_prediction_with_low-resolution_queries_via_prototype-aware_view_tra.md)**
 
 :   提出ProtoOcc，通过**原型感知视角变换**将2D图像聚类原型映射到3D体素查询空间来增强低分辨率体素的上下文信息，配合**多视角占用解码**策略从增强的体素中重建高分辨率3D占用场景，用75%更小的体素分辨率仍能达到与高分辨率方法竞争的性能（Occ3D mIoU 37.80 vs PanoOcc 38.11）。
+
+---
+
+## 🧑 人体理解 { #human_understanding }
+
+**[3D Face Reconstruction From Radar Images](human_understanding/3d_face_reconstruction_from_radar_images.md)**
+
+:   首次从毫米波雷达图像进行3D人脸重建：用物理雷达渲染器生成合成数据训练CNN编码器估计3DMM参数，并通过可学习雷达渲染器构建自编码器实现无监督优化，在合成数据上达到2.56mm点距精度。
 
 ---
 
