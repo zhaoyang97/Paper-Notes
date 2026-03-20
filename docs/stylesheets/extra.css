@@ -1,0 +1,193 @@
+/* ── Light mode: custom dark header ── */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #2b2d42;
+  --md-primary-fg-color--light: #3d3f5c;
+  --md-primary-fg-color--dark: #1a1b2e;
+  --md-accent-fg-color: #7c4dff;
+}
+
+/* ── Dark mode: let Material handle it, only tweak accent ── */
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #a78bfa;
+}
+
+/* ── Homepage cards ── */
+.conf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+@media (max-width: 960px) {
+  .conf-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .conf-grid { grid-template-columns: 1fr; }
+}
+
+.conf-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+  background: var(--md-default-bg-color--light, var(--md-default-bg-color));
+}
+
+.conf-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+[data-md-color-scheme="slate"] .conf-card {
+  background: var(--md-default-bg-color--light);
+}
+
+[data-md-color-scheme="slate"] .conf-card:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+.conf-card h3 {
+  margin: 0 0 0.3rem 0 !important;
+  font-size: 1.15rem;
+}
+
+.conf-card h3 a {
+  color: var(--md-default-fg-color) !important;
+  text-decoration: none;
+}
+
+.conf-card .conf-count {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85rem;
+  margin-bottom: 0.6rem;
+}
+
+.conf-card .area-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.conf-card .area-tag {
+  display: inline-block;
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+
+.conf-card .area-tag:hover {
+  background: var(--md-accent-fg-color);
+  color: #fff !important;
+}
+
+/* ── Hero section ── */
+.hero {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.hero .hero-subtitle {
+  color: var(--md-default-fg-color--light);
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
+
+.hero .hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.2rem 0;
+  flex-wrap: wrap;
+}
+
+.hero .stat {
+  text-align: center;
+}
+
+.hero .stat-number {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--md-accent-fg-color);
+}
+
+.hero .stat-label {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.hero .github-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.45rem 1.4rem;
+  border-radius: 2rem;
+  background: var(--md-accent-fg-color);
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  transition: opacity 0.2s;
+}
+.hero .github-link:hover {
+  opacity: 0.85;
+}
+
+/* ── Sidebar: make GitHub repo source widget visible ── */
+.md-nav__source .md-source {
+  background-color: rgba(0,0,0,.08);
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 4px;
+  color: var(--md-default-fg-color);
+}
+.md-nav__source .md-source:hover {
+  background-color: rgba(0,0,0,.12);
+}
+.md-nav__source .md-source__repository,
+.md-nav__source .md-source__fact {
+  color: var(--md-default-fg-color--light);
+}
+.md-nav__source .md-source__icon svg {
+  fill: var(--md-default-fg-color--light);
+}
+[data-md-color-scheme="slate"] .md-nav__source .md-source {
+  background-color: rgba(255,255,255,.08);
+  border-color: rgba(255,255,255,.12);
+}
+[data-md-color-scheme="slate"] .md-nav__source .md-source:hover {
+  background-color: rgba(255,255,255,.14);
+}
+[data-md-color-scheme="slate"] .md-nav__source .md-source__repository,
+[data-md-color-scheme="slate"] .md-nav__source .md-source__fact {
+  color: rgba(255,255,255,.7);
+}
+[data-md-color-scheme="slate"] .md-nav__source .md-source__icon svg {
+  fill: rgba(255,255,255,.7);
+}
+
+/* ── Paper metadata: make arXiv/code links stand out ── */
+.md-content a[href*="arxiv.org"],
+.md-content a[href*="github.com"],
+.md-content a[href*="github.io"] {
+  color: var(--md-accent-fg-color) !important;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 2px;
+}
+
+.md-content a[href*="arxiv.org"]::after {
+  content: " ↗";
+  font-size: 0.8em;
+  text-decoration: none;
+}

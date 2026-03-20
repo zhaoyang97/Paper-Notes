@@ -1,0 +1,11 @@
+# Auto-generated: javascripts paper notes ignore
+# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
+
+# 默认忽略所有笔记
+*.md
+**/*.md
+
+# 保留元数据文件
+!TODO.md
+
+# 无已完成条目

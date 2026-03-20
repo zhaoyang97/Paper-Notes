@@ -1,0 +1,35 @@
+# Auto-generated: CVPR2025 paper notes ignore
+# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
+
+# 默认忽略所有笔记
+*.md
+**/*.md
+
+# 保留元数据文件
+!TODO.md
+!INDEX.md
+
+# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
+!3d_vision/
+!autonomous_driving/
+!others/
+!robotics/
+!segmentation/
+
+# 已完成笔记 (16 篇)
+!3d_vision/3d-grand_a_million-scale_dataset_for_3d-llms_with_better_grounding_and_less_hall.md
+!3d_vision/3d-gsw_3d_gaussian_splatting_for_robust_watermarking.md
+!3d_vision/3d-hgs_3d_half-gaussian_splatting.md
+!3d_vision/3d-llava_towards_generalist_3d_lmms_with_omni_superpoint_transformer.md
+!3d_vision/3d-mem_3d_scene_memory_for_embodied_exploration_and_reasoning.md
+!3d_vision/3d-slnr_a_super_lightweight_neural_representation_for_large-scale_3d_mapping.md
+!3d_vision/3d_convex_splatting_radiance_field_rendering_with_3d_smooth_convexes.md
+!3d_vision/3d_dental_model_segmentation_with_geometrical_boundary_preserving.md
+!3d_vision/3d_gaussian_head_avatars_with_expressive_dynamic_appearances_by_compact_tensoria.md
+!3d_vision/3d_gaussian_inpainting_with_depth-guided_cross-view_consistency.md
+!3d_vision/3d_student_splatting_and_scooping.md
+!autonomous_driving/3d-avs_lidar-based_3d_auto-vocabulary_segmentation.md
+!autonomous_driving/3d_occupancy_prediction_with_low-resolution_queries_via_prototype-aware_view_tra.md
+!others/3d_prior_is_all_you_need_cross-task_few-shot_2d_gaze_estimation.md
+!robotics/3d-mvp_3d_multiview_pretraining_for_manipulation.md
+!segmentation/2dmamba_efficient_state_space_model_for_image_representation_with_applications_o.md

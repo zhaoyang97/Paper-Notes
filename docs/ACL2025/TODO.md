@@ -1,0 +1,481 @@
+<!-- 由 src/gen_todo.py 自动生成 -->
+# ACL2025 论文笔记 TODO
+
+总计: 474 篇 | 已完成: 472 | 待更新: 2
+
+---
+
+- [x] ["Give Me BF16 or Give Me Death"? Accuracy-Performance Trade-Offs in LLM Quantization](model_compression/bf16_or_death_quantization_tradeoffs.md) | arXiv: 2411.02355
+- [x] [A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression](model_compression/gist_token_context_compression.md) | arXiv: 2412.17483
+- [x] [A Survey on Efficient Large Language Model Training: From Data-centric Perspectives](llm_nlp/a_survey_on_efficient_large_language.md) | arXiv: 2510.25817
+- [x] [A Survey on Foundation Language Models for Single-cell Biology](llm_nlp/foundation_lm_single_cell_survey.md)
+- [x] [A Survey on Patent Analysis: From NLP to Multimodal AI](multimodal_vlm/patent_analysis_survey.md) | arXiv: 2404.08668
+- [x] [A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive](llm_nlp/theory_of_llm_sampling.md) | arXiv: 2402.11005
+- [x] [A Troublemaker with Contagious Jailbreak Makes Chaos in Honest Towns](llm_alignment/tmcht_contagious_jailbreak_multiagent.md) | arXiv: 2410.16155
+- [x] [AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research](llm_nlp/abgen_evaluating_large_language_models_in.md) | arXiv: 2507.13300
+- [x] [AceCoder: Acing Coder RL via Automated Test-Case Synthesis](others/acecoder_acing_coder_rl_via_automated.md) | arXiv: 2502.01718
+- [x] [Adaptive Tool Use in Large Language Models with Meta-Cognition Trigger](llm_agent/meco_metacognition_tool_use.md) | arXiv: 2502.12961
+- [x] [AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset](medical_imaging/afrimed_qa_pan_african.md) | arXiv: 2411.15640
+- [x] [Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents](multimodal_vlm/agent_rewardbench.md) | arXiv: 2506.21252
+- [x] [Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools](llm_agent/agentic_reasoning_tools.md) | arXiv: 2502.04644
+- [x] [AIMSCheck: Leveraging LLMs for AI-Assisted Review of Modern Slavery Statements Across Jurisdictions](llm_nlp/aimscheck_modern_slavery.md) | arXiv: 2506.01671
+- [x] [Algorithmic Fidelity of Large Language Models in Generating Synthetic German Public Opinions: A Case Study](llm_nlp/algorithmic_fidelity_german_opinion.md) | arXiv: 2412.13169
+- [x] [AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation](model_compression/aligndistil_token_level_alignment.md) | arXiv: 2503.02832
+- [x] [Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race](others/aligned_but_blind_implicit_bias.md) | arXiv: 2506.00253
+- [x] [Aligning AI Research with the Needs of Clinical Coding Workflows: Eight Recommendations Based on US Data Analysis and Critical Review](medical_imaging/clinical_coding_eight_recommendations.md) | arXiv: 2412.18043
+- [x] [Aligning Large Language Models with Implicit Preferences from User-Generated Content](llm_nlp/pugc_align_implicit_pref_ugc.md) | arXiv: 2506.04463
+- [x] [Aligning VLM Assistants with Personalized Situated Cognition](multimodal_vlm/aligning_vlm_assistants_with_personalized_situated.md) | arXiv: 2506.00930
+- [x] [All That Glitters is Not Novel: Plagiarism in AI Generated Research](others/plagiarism_ai_generated_research.md) | arXiv: 2502.16487
+- [x] [An Effective Incorporating Heterogeneous Knowledge Curriculum Learning for Sequence Labeling](others/dual_stage_curriculum_learning_sequence_labeling.md) | arXiv: 2402.13534
+- [x] [An Efficient Task-Oriented Dialogue Policy: Evolutionary Reinforcement Learning Injected by Elite Individuals](reinforcement_learning/eierl_dialogue_policy.md) | arXiv: 2506.03519
+- [x] [An Empirical Study of Many-to-Many Summarization with Large Language Models](nlp_generation/an_empirical_study_of_manytomany_summarization.md) | arXiv: 2505.12983
+- [x] [Analyzing LLMs' Knowledge Boundary Cognition Across Languages Through the Lens of Internal Representations](llm_nlp/knowledge_boundary_crosslingual.md) | arXiv: 2504.13816
+- [x] [AndroidGen: Building an Android Language Agent under Data Scarcity](others/androidgen_agent_data_scarcity.md)
+- [x] [AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents](others/androidlab_autonomous_agent.md) | arXiv: 2410.24024
+- [x] [APB: Accelerating Distributed Long-Context Inference by Passing Compressed Context Blocks across GPUs](model_compression/apb_distributed_long_context.md) | arXiv: 2502.12085
+- [x] [Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media](aigc_detection/aigt_social_media_monitoring.md) | arXiv: 2412.18148
+- [x] [ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search](others/arise_risk_adaptive_search.md) | arXiv: 2504.10893
+- [x] [Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework](llm_reasoning/aristotle_logical_reasoning.md) | arXiv: 2412.16953
+- [x] [Assessing Dialect Fairness and Robustness of Large Language Models in Reasoning Tasks](ai_safety/dialect_fairness_robustness.md) | arXiv: 2410.11005
+- [x] [Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models](llm_agent/astute_rag_knowledge_conflicts.md) | arXiv: 2410.07176
+- [x] [Attacking Vision-Language Computer Agents via Pop-ups](multimodal_vlm/attacking_vl_agents_popups.md) | arXiv: 2411.02391
+- [x] [Attention Entropy is a Key Factor for Parallel Context Encoding](others/attention_entropy_parallel_encoding.md) | arXiv: 2412.16545
+- [x] [AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs](llm_nlp/autogui_scaling_gui_grounding_with_automatic.md) | arXiv: 2502.01977
+- [x] [Automated CAD Modeling Sequence Generation from Text Descriptions via Transformer-Based Large Language Models](llm_nlp/cadllm_cad_modeling_from_text.md) | arXiv: 2505.19490
+- [x] [Automating Legal Interpretation with LLMs: Retrieval, Generation, and Evaluation](llm_nlp/atrie_legal_interpretation.md) | arXiv: 2501.01743
+- [x] [AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs](llm_alignment/automixalign_adaptive_data_mixing.md) | arXiv: 2506.00569
+- [x] [Autoregressive Speech Synthesis without Vector Quantization](audio_speech/autoregressive_speech_synthesis_without_vq.md) | arXiv: 2407.08551
+- [x] [BeamLoRA: Beam-Constraint Low-Rank Adaptation](model_compression/beamlora_beam_constraint_lora.md) | arXiv: 2502.13604
+- [x] [Behind Closed Words: Creating and Investigating the forePLay Annotated Dataset for Polish Erotic Discourse](others/foreplay_polish_erotic_detection.md) | arXiv: 2412.17533
+- [x] [BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian](nlp_understanding/belarusian_glue.md)
+- [x] [Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models](audio_speech/audio_dialogue_benchmark.md) | arXiv: 2412.05167
+- [x] [Between Circuits and Chomsky: Pre-pretraining on Formal Languages Imparts Linguistic Biases](llm_nlp/between_circuits_chomsky.md) | arXiv: 2502.19249
+- [x] [Beware of Your Po! Measuring and Mitigating AI Safety Risks in Role-Play Fine-Tuning of LLMs](ai_safety/sarft_roleplay_safety.md) | arXiv: 2502.20968
+- [x] [Beyond Facts: Evaluating Intent Hallucination in Large Language Models](llm_nlp/intent_hallucination_eval.md) | arXiv: 2506.06539
+- [x] [Beyond Frameworks: Unpacking Collaboration Strategies in Multi-Agent Systems](others/beyond_frameworks_multi_agent_collaboration.md) | arXiv: 2505.12467
+- [x] [Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering](nlp_understanding/embqa_embedding_odqa.md) | arXiv: 2503.01606
+- [x] [Beyond Text Compression: Evaluating Tokenizers Across Scales](model_compression/beyond_text_compression_tokenizers.md) | arXiv: 2506.03101
+- [x] [Bias in Language Models: Beyond Trick Tests and Towards RUTEd Evaluation](llm_nlp/bias_in_language_models_beyond_trick_tests_ruted_evaluation.md) | arXiv: 2402.12649
+- [x] [Binary Classifier Optimization for Large Language Model Alignment](llm_nlp/bco_binary_classifier_alignment.md) | arXiv: 2404.04656
+- [x] [Bone Soups: A Seek-and-Soup Model Merging Approach for Controllable Multi-Objective Generation](others/bone_soups_multi_objective_gen.md) | arXiv: 2502.10762
+- [x] [BookCoref: Coreference Resolution at Book Scale](nlp_understanding/bookcoref_book_scale.md) | arXiv: 2507.12075
+- [x] [Byte Latent Transformer: Patches Scale Better Than Tokens](others/byte_latent_transformer.md) | arXiv: 2412.09871
+- [x] [CaLMQA: Exploring Culturally Specific Long-Form Question Answering across 23 Languages](nlp_understanding/calmqa_cultural_multilingual_qa.md) | arXiv: 2406.17761
+- [x] [Can Graph Descriptive Order Affect Solving Graph Problems with LLMs?](llm_nlp/graph_descriptive_order_llm.md) | arXiv: 2402.07140
+- [x] [Can Indirect Prompt Injection Attacks Be Detected and Removed?](llm_nlp/indirect_prompt_injection_detection.md) | arXiv: 2502.16580
+- [x] [Can Knowledge Graphs Make Large Language Models More Trustworthy? An Empirical Study Over Open-ended Question Answering](graph_learning/kg_llm_trustworthy_qa.md) | arXiv: 2410.08085
+- [x] [Can Large Language Models Understand Internet Buzzwords Through User-Generated Content](llm_nlp/buzzword_understanding_ugc.md) | arXiv: 2505.15071
+- [x] [Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?](ai_safety/llm_watermark_distillation_robustness.md) | arXiv: 2502.11598
+- [x] [Can LLMs Deceive CLIP? Benchmarking Adversarial Compositionality of Pre-trained Multimodal Representation via Text Updates](multimodal_vlm/adversarial_compositionality_clip.md) | arXiv: 2505.22943
+- [x] [Can LLMs Evaluate Complex Attribution in QA? Automatic Benchmarking using Knowledge Graphs](graph_learning/paper_2401_14640.md) | arXiv: 2401.14640
+- [x] [Can LLMs Generate High-Quality Test Cases for Algorithm Problems? TestCase-Eval](llm_nlp/testcase_eval_llm_test_gen.md) | arXiv: 2506.12278
+- [x] [Can Multimodal Large Language Models Understand Spatial Relations?](multimodal_vlm/spatialmqa_mllm_spatial_relations.md) | arXiv: 2505.19015
+- [x] [Capture the Key in Reasoning to Enhance CoT Distillation Generalization](model_compression/capture_key_cot_distillation.md) | arXiv: 2405.19737
+- [x] [Causal Estimation of Tokenisation Bias](others/causal_tokenisation_bias.md) | arXiv: 2506.03149
+- [x] [Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions](llm_agent/caution_environment_gui_agent_distractions.md) | arXiv: 2408.02544
+- [x] [CENTAUR: Bridging the Impossible Trinity of Privacy, Efficiency, and Performance in Privacy-Preserving Transformer Inference](ai_safety/centaur_bridging_the_impossible_trinity_of.md) | arXiv: 2412.10652
+- [x] [Centurio: On Drivers of Multilingual Ability of Large Vision-Language Model](multimodal_vlm/centurio_multilingual_vlm.md) | arXiv: 2501.05122
+- [x] [CER: Confidence Enhanced Reasoning in LLMs](llm_nlp/cer_confidence_enhanced_reasoning.md) | arXiv: 2502.14634
+- [x] [ChainEdit: Propagating Ripple Effects in LLM Knowledge Editing through Logical Rule-Guided Chains](llm_nlp/chainedit_propagating_ripple_effects_in_llm.md) | arXiv: 2507.08427
+- [x] [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](multimodal_vlm/chartcoder_chart_to_code.md) | arXiv: 2501.06598
+- [x] [Cheems: A Practical Guidance for Building and Evaluating Chinese Reward Models from Scratch](llm_alignment/cheems_chinese_reward_models.md) | arXiv: 2502.17173
+- [x] [CheXalign: Preference Fine-tuning in Chest X-ray Interpretation Models without Human Feedback](medical_imaging/chexalign_preference_finetuning.md) | arXiv: 2410.07025
+- [x] [Circuit Compositions: Exploring Modular Structures in Transformer-Based Language Models](llm_nlp/circuit_compositions_modular_structures.md) | arXiv: 2410.01434
+- [x] [CKnowEdit: A New Chinese Knowledge Editing Dataset for Linguistics, Facts, and Logic Error Correction in LLMs](llm_nlp/cknowedit_chinese_knowledge_editing_dataset_llms.md) | arXiv: 2409.05806
+- [x] [CLaSp: In-Context Layer Skip for Self-Speculative Decoding](llm_efficiency/clasp_self_speculative_decoding.md) | arXiv: 2505.24196
+- [x] [Classifying Unreliable Narrators with Large Language Models](llm_nlp/classifying_unreliable_narrators.md) | arXiv: 2506.10231
+- [x] [CLEME2.0: Towards Interpretable Evaluation by Disentangling Edits for Grammatical Error Correction](nlp_generation/cleme2_gec_evaluation.md) | arXiv: 2407.00934
+- [x] [CoachMe: Decoding Sport Elements with a Reference-Based Coaching Instruction Generation Model](others/coachme_sport_instruction.md) | arXiv: 2509.11698
+- [x] [CoCoLex: Confidence-guided Copy-based Decoding for Grounded Legal Text Generation](nlp_generation/cocolex_legal_text_gen.md) | arXiv: 2508.05534
+- [x] [CodeDPO: Aligning Code Models with Self Generated and Verified Source Code](others/codedpo_code_alignment.md) | arXiv: 2410.05605
+- [x] [CogniBench: A Legal-inspired Framework and Dataset for Assessing Cognitive Faithfulness of Large Language Models](llm_nlp/cognibench_cognitive_faithfulness.md) | arXiv: 2505.20767
+- [x] [Collapse of Dense Retrievers: Short, Early, and Literal Biases Outranking Factual Evidence](others/collapse_dense_retrievers.md) | arXiv: 2503.05037
+- [x] [Com2: A Causal-Guided Benchmark for Complex Commonsense Reasoning](others/com2_causal_commonsense.md) | arXiv: 2506.07064
+- [x] [Commonsense Reasoning in Arab Culture](others/commonsense_arab_culture.md) | arXiv: 2502.12788
+- [x] [Comparing LLM-generated and human-authored news text using formal syntactic theory](aigc_detection/llm_vs_human_formal_syntax.md) | arXiv: 2506.01407
+- [x] [Comparing Moral Values in Western English-speaking Societies and LLMs with Word Associations](llm_nlp/moral_values_western.md) | arXiv: 2505.19674
+- [x] [Completing A Systematic Review in Hours instead of Months with Interactive AI Agents](others/completing_a_systematic_review_in_hours.md) | arXiv: 2504.14822
+- [x] [ConsistencyChecker: Tree-based Evaluation of LLM Generalization Capabilities](llm_nlp/consistencychecker_tree_evaluation.md) | arXiv: 2506.12376
+- [x] [Contrastive Learning on LLM Back Generation Treebank for Cross-domain Constituency Parsing](self_supervised/llm_back_gen_treebank.md) | arXiv: 2505.20976
+- [x] [Contrastive Perplexity for Controlled Generation: An Application in Detoxifying Large Language Models](llm_nlp/contrastive_perplexity_controlled_gen.md) | arXiv: 2401.08491
+- [x] [Contrastive Prompting Enhances Sentence Embeddings in LLMs through Inference-Time Steering](llm_nlp/contrastive_prompting_embeddings.md) | arXiv: 2505.12831
+- [x] [Controllable and Reliable Knowledge-Intensive Task-Oriented Conversational Agents with Declarative Genie Worksheets](others/genie_worksheets_tod_agent.md) | arXiv: 2407.05674
+- [x] [ControlSpeech: Towards Simultaneous and Independent Zero-shot Speaker Cloning and Zero-shot Language Style Control](audio_speech/controlspeech_zero_shot.md) | arXiv: 2406.01205
+- [x] [CORAL: Learning Consistent Representations across Multi-step Training with Lighter Speculative Drafter](others/coral_speculative_drafting.md) | arXiv: 2502.16880
+- [x] [CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG](multimodal_vlm/core_mmrag_knowledge_reconciliation.md) | arXiv: 2506.02544
+- [x] [COSMMIC: Comment-Sensitive Multimodal Multilingual Indian Corpus for Summarization and Headline Generation](multimodal_vlm/cosmmic_commentsensitive_multimodal_multilingual_indian_corpus.md) | arXiv: 2506.15372
+- [x] [cosyn code guided synthetic data](multimodal_vlm/cosyn_code_guided_synthetic_data.md)
+- [x] [Counterspeech the Ultimate Shield! Multi-Conditioned Counterspeech Generation through Attributed Prefix Learning](others/hippro_counterspeech_gen.md) | arXiv: 2505.11958
+- [x] [Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence](multimodal_vlm/cracking_hallucination_vhd.md) | arXiv: 2412.13949
+- [x] [Cramming 1568 Tokens into a Single Vector and Back Again: Exploring the Limits of Embedding Space Capacity](others/cramming_tokens_embedding_capacity.md) | arXiv: 2502.13063
+- [x] [Croppable Knowledge Graph Embedding](graph_learning/croppable_knowledge_graph_embedding.md) | arXiv: 2407.02779
+- [x] [Cross-Lingual Generalization and Compression: From Language-Specific to Shared Neurons](model_compression/cross_lingual_neurons_compression.md) | arXiv: 2506.01629
+- [x] [Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models](llm_nlp/crosslingual_pitfalls.md) | arXiv: 2505.18673
+- [x] [Cross-model Transferability among Large Language Models on the Platonic Representations of Concepts](llm_nlp/cross_model_transferability_sv.md) | arXiv: 2501.02009
+- [x] [Curiosity-Driven Reinforcement Learning from Human Feedback](llm_alignment/curiosity_driven_rlhf.md) | arXiv: 2501.11463
+- [x] [DAC: A Dynamic Attention-aware Approach for Task-Agnostic Prompt Compression](model_compression/dac_prompt_compression.md) | arXiv: 2507.11942
+- [x] [Data Quality Issues in Multilingual Speech Datasets: The Need for Sociolinguistic Awareness and Proactive Language Planning](others/multilingual_speech_data_quality.md) | arXiv: 2506.17525
+- [x] [Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning](llm_nlp/data_whisperer_data_selection.md) | arXiv: 2505.12212
+- [x] [DeAL: Decoding-time Alignment for Large Language Models](llm_nlp/deal_decoding_time_alignment.md) | arXiv: 2402.06147
+- [x] [Defense Against Prompt Injection Attack by Leveraging Attack Techniques](llm_nlp/defense_prompt_injection.md) | arXiv: 2411.00459
+- [x] [Dehumanizing Machines: Mitigating Anthropomorphic Behaviors in Text Generation Systems](nlp_generation/dehumanizing_machines_anthropomorphic.md) | arXiv: 2502.14019
+- [x] [Delving into Multilingual Ethical Bias: The MSQAD with Statistical Hypothesis Tests for Large Language Models](llm_nlp/msqad_multilingual_ethical_bias.md) | arXiv: 2505.19121
+- [x] [Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models](llm_nlp/deontological_keyword_bias.md) | arXiv: 2506.11068
+- [x] [Did Translation Models Get More Robust Without Anyone Even Noticing?](others/translation_robustness.md) | arXiv: 2403.03923
+- [x] [DiffPO: Diffusion Alignment with Direct Preference Optimization](llm_alignment/diffpo_diffusion_alignment.md) | arXiv: 2503.04240
+- [x] [DiffuseDef: Improved Robustness to Adversarial Attacks via Iterative Denoising](image_restoration/diffusedef_adversarial_defense.md) | arXiv: 2407.00248
+- [x] [Disentangling Language and Culture for Evaluating Multilingual Large Language Models](llm_nlp/disentangle_language_culture.md) | arXiv: 2505.24635
+- [x] [Disentangling Memory and Reasoning Ability in Large Language Models](llm_nlp/disentangle_memory_reasoning.md) | arXiv: 2411.13504
+- [x] [DIVE into MoE: Diversity-Enhanced Reconstruction of Large Language Models from Dense into Mixture-of-Experts](llm_nlp/dive_moe_reconstruction.md) | arXiv: 2506.09351
+- [x] [Diversity-oriented Data Augmentation with Large Language Models](llm_nlp/diversity_data_augmentation.md) | arXiv: 2502.11671
+- [x] [Divide-Then-Aggregate: An Efficient Tool Learning Method via Parallel Tool Invocation](others/dta_llama_parallel_tool_invocation.md) | arXiv: 2501.12432
+- [x] [Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG](others/divide_then_align_rag_knowledge_boundary.md) | arXiv: 2505.20871
+- [x] [Do Large Language Models Have an English Accent? Evaluating and Improving the Naturalness of Multilingual LLMs](llm_nlp/multilingual_llm_english_accent.md) | arXiv: 2410.15956
+- [x] [Document-Level Text Generation with Minimum Bayes Risk Decoding using Optimal Transport](nlp_generation/doc_level_mbr_optimal_transport.md) | arXiv: 2505.23078
+- [x] [DoMIX: An Efficient Framework for Exploiting Domain Knowledge in Fine-Tuning](others/domix_an_efficient_framework_for_exploiting.md) | arXiv: 2507.02302
+- [x] [Donate or Create? Comparing Data Collection Strategies for Emotion-labeled Multimodal Social Media Posts](multimodal_vlm/donate_or_create_comparing_data_collection.md) | arXiv: 2505.24427
+- [x] [DRAG: Distilling RAG for SLMs from LLMs to Transfer Knowledge and Mitigate Hallucination](model_compression/drag_distilling_rag_slm.md) | arXiv: 2506.01954
+- [x] [DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing](others/dress_dataset_rubric_based_essay_scoring_efl_writing.md) | arXiv: 2402.16733
+- [x] [DRPruning: Efficient Large Language Model Pruning through Distributionally Robust Optimization](model_compression/drpruning_robust_pruning.md) | arXiv: 2411.14055
+- [x] [Dynamic and Generalizable Process Reward Modeling](llm_reasoning/dgprm_dynamic_process_reward.md) | arXiv: 2507.17849
+- [x] [Dynamic Order Template Prediction for Generative Aspect-Based Sentiment Analysis](nlp_understanding/dot_absa_template.md) | arXiv: 2406.11130
+- [x] [EAC-MoE: Expert-Selection Aware Compressor for Mixture-of-Experts Large Language Models](model_compression/eac_moe_expert_aware_compression.md) | arXiv: 2508.01625
+- [x] [ECLM: Entity Level Language Model for Spoken Language Understanding with Chain of Intent](llm_nlp/eclm_entity_level_language_model_spoken_language_understanding.md) | arXiv: 2403.04481
+- [x] [EcomScriptBench: A Multi-task Benchmark for E-commerce Script Planning via Step-wise Intention-Driven Product Association](others/ecomscriptbench.md) | arXiv: 2505.15196
+- [x] [EdiText: Controllable Coarse-to-Fine Text Editing with Diffusion Language Models](llm_nlp/editext_diffusion_text_editing.md) | arXiv: 2502.19765
+- [x] [Efficient and Accurate Prompt Optimization: the Benefit of Memory in Exemplar-Guided Reflection](llm_nlp/erm_prompt_optimization_memory.md) | arXiv: 2411.07446
+- [x] [Efficient Knowledge Editing via Minimal Precomputation](others/efficient_knowledge_editing.md) | arXiv: 2506.04226
+- [x] [Efficient Universal Goal Hijacking with Semantics-guided Prompt Organization](llm_nlp/goal_hijacking_attack.md) | arXiv: 2405.14189
+- [x] [Efficiently Identifying Watermarked Segments in Mixed-Source Texts](ai_safety/watermark_segment_detection.md) | arXiv: 2410.03600
+- [x] [EfficientQAT: Efficient Quantization-Aware Training for Large Language Models](model_compression/efficientqat.md) | arXiv: 2407.11062
+- [x] [effivlm bench vlm acceleration](multimodal_vlm/effivlm_bench_vlm_acceleration.md)
+- [x] [EffiVLM-Bench: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models](multimodal_vlm/effivlm_bench_acceleration.md) | arXiv: 2506.00479
+- [x] [ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](llm_nlp/elaboration_competitive_programming.md) | arXiv: 2505.16667
+- [x] [Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents](llm_nlp/simulating_diverse_students.md) | arXiv: 2505.19997
+- [x] [Emergent Abilities of Large Language Models under Continued Pretraining for Language Adaptation](llm_nlp/emergent_abilities_continued_pt.md) | arXiv: 2506.00288
+- [x] [Enhancing Automated Interpretability with Output-Centric Feature Descriptions](others/output_centric_interpretability.md) | arXiv: 2501.08319
+- [x] [Enhancing Character-Level Understanding in LLMs through Token Internal Structure Learning](llm_nlp/character_level_understanding.md) | arXiv: 2411.17679
+- [x] [Enhancing Hyperbole and Metaphor Detection with Their Bidirectional Dynamic Interaction and Emotion Knowledge](others/hyperbole_metaphor_detection.md) | arXiv: 2506.15504
+- [x] [Enhancing Interpretable Image Classification Through LLM Agents and Conditional Concept Bottleneck Models](llm_agent/llm_agent_image_classification.md) | arXiv: 2506.01334
+- [x] [Enhancing Multimodal Continual Instruction Tuning with BranchLoRA](multimodal_vlm/branchlora_continual_instruction.md)
+- [x] [Enhancing Open-Domain Task-Solving Capability of LLMs via Autonomous Tool Integration from GitHub](llm_nlp/paper_2312_17294.md) | arXiv: 2312.17294
+- [x] [Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization](llm_alignment/kpo_protein_safety.md) | arXiv: 2507.10923
+- [x] [Enhancing Transformers for Generalizable First-Order Logical Entailment](others/enhancing_fol_entailment.md) | arXiv: 2501.00759
+- [x] [Enough Coin Flips Can Make LLMs Act Bayesian](llm_nlp/coin_flips_bayesian.md) | arXiv: 2503.04722
+- [x] [Ensemble Watermarks for Large Language Models](ai_safety/ensemble_watermarks_llm.md) | arXiv: 2411.19563
+- [x] [EscapeBench: Towards Advancing Creative Intelligence of Language Model Agents](llm_nlp/escapebench_creative_agent.md) | arXiv: 2412.13549
+- [x] [Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis](llm_nlp/shortcut_neuron_eval.md) | arXiv: 2506.04142
+- [x] [Evaluating Language Models as Synthetic Data Generators](llm_nlp/evaluating_lms_synthetic_data_gen.md) | arXiv: 2412.03679
+- [x] [Evaluating Multimodal Large Language Models on Video Captioning via Monte Carlo Tree Search](multimodal_vlm/mcts_video_captioning_eval.md) | arXiv: 2506.11155
+- [x] [Evaluation of LLM Vulnerabilities to Being Misused for Personalized Disinformation Generation](llm_nlp/llm_personalized_disinformation.md) | arXiv: 2412.13666
+- [x] [Ewe: Improving Factuality with Explicit Working Memory](others/improving_factuality_with_explicit_working_memory.md) | arXiv: 2412.18069
+- [x] [Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder](multimodal_vlm/exploring_how_generative_mllms_perceive_more.md) | arXiv: 2411.05195
+- [x] [Exploring Persona Sentiment Sensitivity in Personalized Dialogue Generation](nlp_understanding/persona_sentiment_dialogue.md) | arXiv: 2502.11423
+- [x] [Extending Complex Logical Queries on Uncertain Knowledge Graphs](graph_learning/extending_complex_logical_queries_uncertain_knowledge_graphs.md) | arXiv: 2403.01508
+- [x] [Extending LLM Context Window with Adaptive Grouped Positional Encoding: A Training-Free Method](llm_efficiency/adaptive_grouped_pe_context_window.md)
+- [x] [FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models](llm_agent/fact_audit_factcheck.md) | arXiv: 2502.17924
+- [x] [Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs](ai_safety/fairness_difference_awareness.md) | arXiv: 2502.01926
+- [x] [FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation](others/faithfulrag_fact_level_conflict.md) | arXiv: 2506.08938
+- [x] [FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](nlp_generation/feabench_repo_code_gen.md) | arXiv: 2503.06680
+- [x] [FedEx-LoRA: Exact Aggregation for Federated and Efficient Fine-Tuning of Large Language Models](model_compression/fedex_lora_federated_exact_aggregation.md) | arXiv: 2410.09432
+- [x] [FinanceReasoning: Benchmarking Financial Numerical Reasoning More Credible, Comprehensive and Challenging](others/financereasoning_benchmarking_financial_numerical_reasoning_more.md) | arXiv: 2506.05828
+- [x] [Finding A Voice: Exploring the Potential of African American Dialect and Voice Generation for Chatbots](audio_speech/aae_voice_chatbot.md) | arXiv: 2501.03441
+- [x] [Fine-Tuning on Diverse Reasoning Chains Drives Within-Inference CoT Refinement in LLMs](llm_reasoning/dcot_diverse_cot_refinement.md) | arXiv: 2407.03181
+- [x] [FlashAudio: Rectified Flows for Fast and High-Fidelity Text-to-Audio Generation](image_generation/flashaudio_rectified_flow_tta.md) | arXiv: 2410.12266
+- [x] [Flipping Knowledge Distillation: Leveraging Small Models' Expertise to Enhance LLMs in Text Matching](model_compression/flipping_kd_small_to_large.md) | arXiv: 2507.05617
+- [x] [FR-Spec: Accelerating Large-Vocabulary Language Models via Frequency-Ranked Speculative Sampling](llm_nlp/fr_spec_speculative_sampling.md) | arXiv: 2502.14856
+- [x] [Frictional Agent Alignment Framework: Slow Down and Don't Break Things](others/frictional_agent_alignment.md) | arXiv: 2505.19428
+- [x] [from selection to generation a survey](llm_nlp/from_selection_to_generation_a_survey.md)
+- [x] [From Trade-off to Synergy: A Versatile Symbiotic Watermarking Framework for Large Language Models](ai_safety/from_tradeoff_to_synergy_a_versatile.md) | arXiv: 2505.09924
+- [x] [GainRAG: Preference Alignment in Retrieval-Augmented Generation through Gain Signal Synthesis](others/gainrag_preference_alignment.md) | arXiv: 2505.18710
+- [x] [GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding](llm_nlp/galla_graph_aligned_large_language_models.md) | arXiv: 2409.04183
+- [x] [GAPO: Learning Preferential Prompt through Generative Adversarial Policy Optimization](llm_nlp/gapo_preferential_prompt.md) | arXiv: 2503.20194
+- [x] [Gender Inclusivity Fairness Index (GIFI): A Multilevel Framework](ai_safety/gifi_gender_fairness.md) | arXiv: 2506.15568
+- [x] [Generating Plausible Distractors for Multiple-Choice Questions via Student Choice Prediction](others/distractor_gen_multiple_choice.md) | arXiv: 2501.13125
+- [x] [Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models](llm_nlp/generative_psycholexical_approach_for_constructing_value.md) | arXiv: 2502.02444
+- [x] [Geometric Signatures of Compositionality Across a Language Model's Lifetime](llm_nlp/geometric_compositionality_lifetime.md) | arXiv: 2410.01444
+- [x] [GiFT: Gibbs Fine-Tuning for Code Generation](nlp_generation/gift_gibbs_fine_tuning_code_gen.md) | arXiv: 2502.11466
+- [x] [GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages](audio_speech/gigaspeech2_low_resource_asr.md) | arXiv: 2406.11546
+- [x] [GORP: Continual Gradient Low-Rank Projection Fine-Tuning for LLMs](llm_nlp/gorp_continual_gradient_projection.md) | arXiv: 2507.02503
+- [x] [Gradient-Adaptive Policy Optimization: Towards Multi-Objective Alignment of Large Language Models](llm_nlp/gapo_multi_objective_alignment.md) | arXiv: 2507.01915
+- [x] [GradOT: Training-free Gradient-preserving Offsite-tuning for Large Language Models](llm_efficiency/gradot_offsite_tuning.md) | arXiv: 2507.04455
+- [x] [GRAM: Generative Recommendation via Semantic-aware Multi-granular Late Fusion](recommender/gram_generative_recommendation.md) | arXiv: 2506.01673
+- [x] [Graph Counselor: Adaptive Graph Exploration via Multi-Agent Synergy to Enhance LLM Reasoning](model_compression/graph_counselor_multiagent_graphrag.md) | arXiv: 2506.03939
+- [x] [Graph of Records: Boosting Retrieval Augmented Generation for Long-context Summarization with Graphs](llm_efficiency/gor_rag_long_context_summary.md) | arXiv: 2410.11001
+- [x] [GraphNarrator: Generating Textual Explanations for Graph Neural Networks](graph_learning/graphnarrator.md) | arXiv: 2410.15268
+- [x] [Growing Through Experience: Scaling Episodic Grounding in Language Models](llm_nlp/episodic_grounding_experience.md) | arXiv: 2506.01312
+- [x] [GuessArena: Guess Who I Am? A Self-Adaptive Framework for Evaluating LLMs in Domain-Specific Knowledge and Reasoning](llm_nlp/guessarena_guess_who_i_am_a.md) | arXiv: 2505.22661
+- [x] [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](llm_agent/gui_explorer_autonomous.md) | arXiv: 2505.16827
+- [x] [GuideBench: Benchmarking Domain-Oriented Guideline Following for LLM Agents](llm_agent/guidebench_guideline_following.md) | arXiv: 2505.11368
+- [x] [Gumbel Reranking: Differentiable End-to-End Reranker Optimization](others/gumbel_reranking.md) | arXiv: 2502.11116
+- [x] [Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training](llm_nlp/hallucination_detox_send.md) | arXiv: 2410.15460
+- [x] [HALoGEN: Fantastic LLM Hallucinations and Where to Find Them](llm_nlp/halogen_hallucinations.md)
+- [x] [Has Machine Translation Evaluation Achieved Human Parity?](nlp_generation/mt_eval_human_parity.md) | arXiv: 2506.19571
+- [x] [HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter](others/hateday_global_hate_speech.md) | arXiv: 2411.15462
+- [x] [Help Me Write a Story: Evaluating LLMs' Ability to Generate Writing Feedback](llm_nlp/help_write_story_feedback.md) | arXiv: 2507.16007
+- [x] [HiCUPID: Exploring the Potential of LLMs as Personalized Assistants](llm_nlp/exploring_the_potential_of_llms_as.md) | arXiv: 2506.01262
+- [x] [HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model](multimodal_vlm/hidellava_hierarchical_decoupling_for_continual_instruction.md) | arXiv: 2503.12941
+- [x] [Hierarchical Bracketing Encodings for Dependency Parsing as Tagging](others/hierarchical_bracketing_dep_parsing.md) | arXiv: 2505.11693
+- [x] [Hierarchical Level-Wise News Article Clustering via Multilingual Matryoshka Embeddings](others/hierarchical_news_clustering.md) | arXiv: 2506.00277
+- [x] [Hierarchical Memory Organization for Wikipedia Generation](others/hierarchical_memory_wikipedia_gen.md) | arXiv: 2506.23393
+- [x] [HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval](multimodal_vlm/hotelmatch_llm_retrieval.md) | arXiv: 2506.07296
+- [x] [How does Misinformation Affect Large Language Model Behaviors and Preferences?](llm_nlp/how_does_misinformation_affect_large_language.md) | arXiv: 2505.21608
+- [x] [How Humans and LLMs Organize Conceptual Knowledge: Exploring Subordinate Categories in Italian](llm_nlp/conceptual_knowledge_org.md) | arXiv: 2505.21301
+- [x] [How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond](llm_nlp/human_nlp_cooperation_survey.md) | arXiv: 2501.05714
+- [x] [How to Train Long-Context Language Models (Effectively)](llm_efficiency/train_long_context_effectively.md) | arXiv: 2410.02660
+- [x] [HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases](others/hybgrag_hybrid_rag_skb.md) | arXiv: 2412.16311
+- [x] [Identifying Reliable Evaluation Metrics for Scientific Text Revision](others/reliable_eval_metrics_scientific.md) | arXiv: 2506.04772
+- [x] [if attention serves as a cognitive](others/if_attention_serves_as_a_cognitive.md)
+- [x] [ImpliHateVid: Implicit Hate Speech Detection in Videos](others/implihatevid_video_hate.md) | arXiv: 2508.06570
+- [x] [Improve Vision Language Model Chain-of-thought Reasoning](llm_reasoning/improve_vlm_cot_reasoning.md) | arXiv: 2410.16198
+- [ ] [Improved Unbiased Watermark for Large Language Models](ai_safety/improved_unbiased_watermark_for_large_language.md) | arXiv: 2502.11268
+- [x] [Improving Automatic Evaluation of LLMs in Biomedical Relation Extraction via LLMs-as-the-Judge](medical_imaging/biore_llm_judge_evaluation.md) | arXiv: 2506.00777
+- [x] [Improving Language and Modality Transfer in Translation by Character-level Modeling](others/improving_language_and_modality_transfer_in.md) | arXiv: 2505.24561
+- [x] [Improving the Calibration of Confidence Scores in Text Generation Using the Output Distribution's Characteristics](nlp_generation/calibration_confidence_text_gen.md) | arXiv: 2506.00637
+- [x] [In-the-wild Audio Spatialization with Flexible Text-guided Localization](audio_speech/tas_audio_spatialization.md) | arXiv: 2506.00927
+- [x] [Inference Compute-Optimal Video Vision Language Models](multimodal_vlm/inference_compute_optimal_video_vlm.md)
+- [x] [InSerter: Speech Instruction Following with Unsupervised Interleaved Pre-training](others/inserter_speech_instruction.md) | arXiv: 2503.02769
+- [x] [Insight Over Sight: Exploring the Vision-Knowledge Conflicts in Multimodal LLMs](multimodal_vlm/conflictvis_vision_knowledge_conflict.md) | arXiv: 2410.08145
+- [x] [InspireDebate: Multi-Dimensional Evaluation-Guided Reasoning for Debating](others/inspiredebate_multidim_evaluation_debating.md) | arXiv: 2506.18102
+- [x] [InterpoLL: Mitigating Shortcut Learning with InterpoLated Learning](others/mitigating_shortcut_learning_with_interpolated_learning.md) | arXiv: 2507.05527
+- [x] [Intuitive Fine-Tuning: Towards Simplifying Alignment into a Single Process](others/intuitive_fine_tuning.md) | arXiv: 2405.11870
+- [x] [IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization](llm_alignment/iopo_input_output_preference.md) | arXiv: 2411.06208
+- [x] [IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery](causal_inference/iris_an_iterative_and_integrated_framework.md) | arXiv: 2510.09217
+- [x] [Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training](aigc_detection/greater_adversarial_mgt_detection.md) | arXiv: 2502.12734
+- [x] [IRT-Router: Effective and Interpretable Multi-LLM Routing via Item Response Theory](llm_nlp/irt_router_multi_llm.md) | arXiv: 2506.01048
+- [x] [Is That Your Final Answer? Test-Time Scaling Improves Selective Question Answering](llm_reasoning/test_time_scaling_selective_qa.md) | arXiv: 2502.13962
+- [x] [JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs](llm_alignment/jailbreakradar_comprehensive_assessment_jailbreak_attacks.md) | arXiv: 2402.05668
+- [x] [JuStRank: Benchmarking LLM Judges for System Ranking](llm_nlp/justrank_llm_judge_system_ranking.md) | arXiv: 2412.09569
+- [x] [Knowledge Boundary of Large Language Models: A Survey](llm_nlp/knowledge_boundary_survey.md) | arXiv: 2412.12472
+- [x] [Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation](graph_learning/kg_rag_recommendation.md) | arXiv: 2501.02226
+- [x] [KnowShiftQA: How Robust are RAG Systems when Textbook Knowledge Shifts in K-12 Education?](others/knowshiftqa_rag_knowledge_shifts.md) | arXiv: 2412.08985
+- [x] [KoGEM: Polishing Every Facet of the GEM: Testing Linguistic Competence of LLMs and Humans in Korean](llm_nlp/polishing_every_facet_of_the_gem.md) | arXiv: 2506.01237
+- [x] [KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors](others/kokorochat_a_japanese_psychological_counseling_dialogue.md) | arXiv: 2506.01357
+- [x] [KV-Latent: Dimensional-level KV Cache Reduction with Frequency-aware Rotary Positional Embedding](llm_efficiency/kv_latent_cache_reduction.md) | arXiv: 2507.11273
+- [x] [L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on Large Language Models](model_compression/l4q_parameter_efficient_quantization_aware_finetuning.md) | arXiv: 2402.04902
+- [x] [La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America](llm_nlp/la_leaderboard_spanish.md) | arXiv: 2507.00999
+- [x] [LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis with LLM Data Augmentation](nlp_understanding/laca_crosslingual_absa.md) | arXiv: 2508.09515
+- [x] [LADM: Long-context Training Data Selection with Attention-based Dependency Measurement](llm_efficiency/ladm_long_context_data.md) | arXiv: 2503.02502
+- [x] [LangSAMP: Language-Script Aware Multilingual Pretraining](llm_nlp/langsamp_multilingual_pretraining.md) | arXiv: 2409.18199
+- [x] [Language Fusion for Parameter-Efficient Cross-lingual Transfer (FLARE)](model_compression/flare_crosslingual_lora.md) | arXiv: 2501.06892
+- [x] [Language Models Resist Alignment: Evidence From Data Compression](model_compression/language_models_resist_alignment.md) | arXiv: 2406.06144
+- [x] [Language Models, Graph Searching, and Supervision Adulteration: When More Supervision is Less and How to Make More More](llm_nlp/lm_graph_search_supervision.md) | arXiv: 2503.10542
+- [x] [Language-Codec: Bridging Discrete Codec Representations and Speech Language Models](llm_nlp/language_codec_bridging_discrete_codec_speech_language_models.md) | arXiv: 2402.12208
+- [x] [LAQuer: Localized Attribution Queries in Content-grounded Generation](others/laquer_localized_attribution.md) | arXiv: 2506.01187
+- [x] [LazyReview: A Dataset for Uncovering Lazy Thinking in NLP Peer Reviews](llm_nlp/lazyreview_peer_review.md) | arXiv: 2504.11042
+- [x] [Learning to Reason Over Time: Timeline Self-Reflection for Temporal Reasoning](others/tiser_timeline_self_reflection_temporal.md) | arXiv: 2504.05258
+- [x] [Less, but Better: Efficient Multilingual Expansion for LLMs via Layer-wise Mixture-of-Experts](llm_nlp/less_but_better_efficient_multilingual_expansion.md) | arXiv: 2505.22582
+- [x] [Leveraging Dual Process Theory in Language Agent Framework for Real-time Simultaneous Human-AI Collaboration](llm_agent/dpt_agent_dual_process.md) | arXiv: 2502.11882
+- [x] [Leveraging Self-Attention for Input-Dependent Soft Prompting in LLMs](llm_nlp/input_dependent_soft_prompting.md) | arXiv: 2506.05629
+- [x] [Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning](llm_reasoning/mclm_multilingual_test_time_scaling.md) | arXiv: 2502.17407
+- [x] [Literature Meets Data: A Synergistic Approach to Hypothesis Generation](others/literature_meets_data_hypothesis.md) | arXiv: 2410.17309
+- [x] [Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs](llm_nlp/llama_see_llama_do_entrainment.md) | arXiv: 2505.09338
+- [x] [LLM as a Broken Telephone: Iterative Generation Distorts Information](llm_nlp/llm_broken_telephone.md) | arXiv: 2502.20258
+- [x] [LLM Braces: Straightening Out LLM Predictions with Relevant Sub-Updates](llm_nlp/llm_braces_straightening.md) | arXiv: 2503.16334
+- [x] [LLM-Powered Test Case Generation for Detecting Bugs in Plausible Programs](llm_nlp/llm_test_case_gen_bugs.md) | arXiv: 2404.10304
+- [x] [LLMs can Perform Multi-Dimensional Analytic Writing Assessments](llm_nlp/llm_writing_assessment.md) | arXiv: 2502.11368
+- [x] [LLMs Can Simulate Standardized Patients via Agent Coevolution](llm_nlp/evopatient_standardized_patient.md) | arXiv: 2412.11716
+- [x] [LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks](llm_nlp/llm_vs_human_judges_study.md) | arXiv: 2406.18403
+- [x] [Locate-and-Focus: Enhancing Terminology Translation in Speech Language Models](llm_nlp/locateandfocus_enhancing_terminology_translation_in_speech.md) | arXiv: 2507.18263
+- [x] [LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning](llm_reasoning/logicpro_program_guided_reasoning.md) | arXiv: 2409.12929
+- [x] [LoGU: Long-form Generation with Uncertainty Expressions](others/logu_longform_gen_uncertainty.md) | arXiv: 2410.14309
+- [x] [LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locating](multimodal_vlm/longdocurl_multimodal_long_doc.md) | arXiv: 2412.18424
+- [x] [LSSF: Safety Alignment via Low-Rank Safety Subspace Fusion](llm_alignment/lssf_safety_subspace.md) | arXiv: 2602.00038
+- [x] [M-RewardBench: Evaluating Reward Models in Multilingual Settings](llm_alignment/m_rewardbench.md) | arXiv: 2410.15522
+- [x] [M2S: Multi-turn to Single-turn jailbreak in Red Teaming for LLMs](llm_alignment/m2s_multiturn_to_singleturn_jailbreak_in.md) | arXiv: 2503.04856
+- [x] [MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale](multimodal_vlm/mammoth_vl_multimodal_reasoning.md) | arXiv: 2412.05237
+- [x] [Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System](llm_nlp/virsci_multi_agent_idea_gen.md) | arXiv: 2410.09403
+- [x] [Mapping 1,000+ Language Models via the Log-Likelihood Vector](llm_nlp/mapping_1000_models_loglikelihood.md) | arXiv: 2502.16173
+- [x] [MAPS: Motivation-Aware Personalized Search via LLM-Driven Consultation Alignment](llm_nlp/maps_personalized_search.md) | arXiv: 2503.01711
+- [x] [Marco-Bench-MIF: On Multilingual Instruction-Following Capability of Large Language Models](llm_nlp/marco_bench_multilingual_if.md) | arXiv: 2507.11882
+- [x] [Math Neurosurgery: Isolating Language Models' Math Reasoning Abilities Using Only Forward Passes](llm_nlp/mathneuro_math_reasoning_isolation.md) | arXiv: 2410.16930
+- [x] [MathFusion: Enhancing Mathematical Problem-solving of LLM through Instruction Fusion](llm_nlp/mathfusion_instruction_fusion.md) | arXiv: 2503.16212
+- [x] [Memorization Inheritance in Sequence-Level Knowledge Distillation for Neural Machine Translation](model_compression/memorization_inheritance_seqkd.md) | arXiv: 2502.01491
+- [x] [MEraser: An Effective Fingerprint Erasure Approach for Large Language Models](llm_nlp/meraser_fingerprint_erasure.md) | arXiv: 2506.12551
+- [x] [MergePrint: Merge-Resistant Fingerprints for Robust Black-box Ownership Verification of Large Language Models](llm_nlp/mergeprint_fingerprint_ownership.md) | arXiv: 2410.08604
+- [x] [Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models](llm_nlp/metarater_a_multidimensional_data_selection_method.md) | arXiv: 2504.14194
+- [x] [MHA2MLA: Towards Economical Inference by Enabling DeepSeek's Multi-Head Latent Attention in Any Transformer-based LLMs](llm_efficiency/mha2mla_deepseek_latent_attention.md) | arXiv: 2502.14837
+- [x] [Micro-Act: Mitigate Knowledge Conflict in QA via Actionable Self-Reasoning](others/micro_act_knowledge_conflict_reasoning.md) | arXiv: 2506.05278
+- [x] [Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs](llm_nlp/mid_layer_crosslingual_alignment.md) | arXiv: 2502.14830
+- [x] [MindRef: Mimicking Human Memory for Hierarchical Reference Retrieval with Fine-Grained Location Awareness](others/mindref_mimicking_human_memory_hierarchical_reference_retrieval.md) | arXiv: 2402.17010
+- [x] [Mitigating Selection Bias with Node Pruning and Auxiliary Options](model_compression/selection_bias_node_pruning.md) | arXiv: 2409.18857
+- [x] [Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal Long CoT Reasoning](multimodal_vlm/tvc_mitigating_visual_forgetting.md) | arXiv: 2503.13360
+- [x] [mmmu pro robust benchmark](multimodal_vlm/mmmu_pro_robust_benchmark.md)
+- [x] [MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark](multimodal_vlm/mmmupro_a_more_robust_multidiscipline_multimodal.md) | arXiv: 2409.02813
+- [x] [MMSafeAware: Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness](multimodal_vlm/cant_see_the_forest_for_the.md) | arXiv: 2502.11184
+- [x] [Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models](multimodal_vlm/manu_modality_aware_unlearning.md) | arXiv: 2502.15910
+- [x] [Model Extrapolation Expedites Alignment](others/expo_model_extrapolation.md) | arXiv: 2404.16792
+- [x] [Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment](others/modular_sentence_encoders.md) | arXiv: 2407.14878
+- [x] [MoQAE: Mixed-Precision Quantization for Long-Context LLM Inference via Mixture of Quantization-Aware Experts](model_compression/moqae_mixed_precision_kv_cache.md) | arXiv: 2506.07533
+- [x] [Morpher: Can Graph Neural Networks Learn Language with Extremely Weak Text Supervision?](graph_learning/can_graph_neural_networks_learn_language.md) | arXiv: 2412.08174
+- [x] [MorphMark: Flexible Adaptive Watermarking for Large Language Models](ai_safety/morphmark_adaptive_watermarking.md) | arXiv: 2505.11541
+- [x] [mPLUG-DocOwl2: High-resolution Compressing for OCR-free Multi-page Document Understanding](model_compression/mplug_docowl2_doc_compress.md) | arXiv: 2409.03420
+- [x] [MPO: Multilingual Safety Alignment via Reward Gap Optimization](llm_alignment/mpo_multilingual_safety_alignment.md) | arXiv: 2505.16869
+- [x] [Multi-Attribute Steering of Language Models via Targeted Intervention](llm_nlp/multi_attribute_steering.md) | arXiv: 2502.12446
+- [x] [Multi-document Summarization through Event Relation Graph Reasoning for Framing Bias Mitigation](nlp_generation/event_graph_bias_mitigation_summarization.md) | arXiv: 2506.12978
+- [x] [Multi-Level Explanations for Generative Language Models](llm_nlp/mexgen_multi_level_explanations.md) | arXiv: 2403.14459
+- [x] [MultiMM: Cultural Bias Matters — Cross-Cultural Benchmark for Multimodal Metaphors](multimodal_vlm/multimm_cultural_metaphor.md) | arXiv: 2506.06987
+- [x] [Multiple LLM Agents Debate for Equitable Cultural Alignment](llm_agent/multiple_llm_agents_debate_for_equitable.md) | arXiv: 2505.24671
+- [x] [MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts](aigc_detection/multisocial_mgt_detection.md) | arXiv: 2406.12549
+- [x] [Mutual-Taught for Co-adapting Policy and Reward Models](llm_alignment/mutual_taught_policy_reward.md) | arXiv: 2506.06292
+- [x] [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](llm_efficiency/native_sparse_attention.md) | arXiv: 2502.11089
+- [x] [Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset](llm_nlp/nemotron_cc_pretraining_data.md) | arXiv: 2412.02595
+- [x] [NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering](nlp_understanding/neusym_rag_pdf_qa.md) | arXiv: 2505.19754
+- [x] [NexusSum: Hierarchical LLM Agents for Long-Form Narrative Summarization](llm_agent/nexussum_narrative_summarization.md) | arXiv: 2505.24575
+- [x] [Normalized AOPC: Fixing Misleading Faithfulness Metrics for Feature Attribution Explainability](others/normalized_aopc_faithfulness_metrics.md) | arXiv: 2408.08137
+- [x] [Nudging: Inference-time Alignment of LLMs via Guided Decoding](llm_nlp/nudging_inference_time_alignment.md) | arXiv: 2410.09300
+- [x] [Odysseus Navigates the Sirens' Song: Dynamic Focus Decoding for Factual and Diverse Open-Ended Text Generation](nlp_generation/odysseus_dynamic_focus_decoding.md) | arXiv: 2503.08057
+- [x] [On the Limit of Language Models as Planning Formalizers](llm_nlp/limit_llm_planning_formalizer.md) | arXiv: 2412.09879
+- [x] [On the Reliability of Large Language Models for Causal Discovery](causal_inference/llm_causal_discovery_reliability.md) | arXiv: 2407.19638
+- [x] [Online Iterative Self-Alignment for Radiology Report Generation](medical_imaging/oisa_radiology_report_gen.md) | arXiv: 2505.11983
+- [x] [Only a Little to the Left: A Theory-grounded Measure of Political Bias in LLMs](llm_nlp/political_bias_theory_grounded.md) | arXiv: 2503.16148
+- [x] [Optimal Transport-Based Token Weighting for Enhanced Preference Optimization (OTPO)](llm_alignment/otpo_token_weighting.md) | arXiv: 2505.18720
+- [x] [OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use](llm_agent/os_agents_survey_mllm.md)
+- [x] [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](llm_agent/os_genesis_gui_agent_trajectory.md) | arXiv: 2412.19723
+- [x] [Pandora's Box or Aladdin's Lamp: A Comprehensive Analysis Revealing the Role of RAG Noise in Large Language Models](llm_nlp/pandora_box_rag_noise.md) | arXiv: 2408.13533
+- [x] [Parenting: Optimizing Knowledge Selection of Retrieval-Augmented Language Models with Parameter Decoupling and Tailored Tuning](llm_nlp/parenting_optimizing_knowledge_selection_of_retrievalaugmented.md) | arXiv: 2410.10360
+- [x] [People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](aigc_detection/chatgpt_user_ai_text_detection.md) | arXiv: 2501.15654
+- [x] [Personality-Guided Code Generation Using Large Language Models](nlp_generation/personality_guided_code_gen.md) | arXiv: 2411.00006
+- [x] [PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative Prompts](llm_alignment/pig_privacy_jailbreak.md) | arXiv: 2505.09921
+- [x] [PlanGenLLMs: A Modern Survey of LLM Planning Capabilities](llm_nlp/plangenllms_planning_survey.md) | arXiv: 2502.11221
+- [x] [Planning with Diffusion Models for Target-Oriented Dialogue Systems](image_generation/difftod_diffusion_dialogue_planning.md) | arXiv: 2504.16858
+- [x] [Plug-in and Fine-tuning: Bridging the Gap between Small Language Models and Large Language Models](llm_nlp/plugin_finetuning_bridge.md) | arXiv: 2506.07424
+- [x] [Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges](llm_nlp/pragmatics_survey.md) | arXiv: 2502.12378
+- [x] [Predicting Implicit Arguments in Procedural Video Instructions](others/implicit_arguments_video_instructions.md) | arXiv: 2505.21068
+- [x] [Pre³: Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation](llm_nlp/pre3_deterministic_pda_structured_gen.md) | arXiv: 2506.03887
+- [x] [Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries](others/dpp_diverse_multidoc_summary.md) | arXiv: 2505.21859
+- [x] [Principled Understanding of Generalization for Generative Transformer Models in Arithmetic Reasoning Tasks](others/principled_generalization_arithmetic.md) | arXiv: 2407.17963
+- [x] [PRISM: A Framework for Producing Interpretable Political Bias Embeddings](others/prism_political_bias_embeddings.md) | arXiv: 2505.24646
+- [x] [PrivaCI-Bench: Evaluating Privacy with Contextual Integrity and Legal Compliance](ai_safety/privacibench_evaluating_privacy_with_contextual_integrity.md) | arXiv: 2502.17041
+- [x] [Prompt Candidates, then Distill: A Teacher-Student Framework for LLM-driven Data Annotation](model_compression/prompt_distill_teacher_student.md) | arXiv: 2506.03857
+- [x] [ProxAnn: Use-Oriented Evaluations of Topic Models and Document Clustering](others/proxann_topic_model_eval.md) | arXiv: 2507.00828
+- [x] [PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models](model_compression/ptq161_low_bit_quantization.md) | arXiv: 2502.13179
+- [x] [PunchBench: Benchmarking MLLMs in Multimodal Punchline Comprehension](multimodal_vlm/punchbench_mllm_punchline.md) | arXiv: 2412.11906
+- [x] [PVP: An Image Dataset for Personalized Visual Persuasion with Persuasion Strategies, Viewer Characteristics, and Persuasiveness Ratings](others/pvp_an_image_dataset_for_personalized.md) | arXiv: 2506.00481
+- [x] [QAEncoder: Towards Aligned Representation Learning in Question Answering Systems](self_supervised/qaencoder_aligned_representation.md) | arXiv: 2409.20434
+- [x] [Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis](model_compression/quaff_quantized_peft.md) | arXiv: 2505.14742
+- [x] [Query-driven Document-level Scientific Evidence Extraction from Biomedical Studies](medical_imaging/urca_biomedical_evidence_extraction.md) | arXiv: 2505.06186
+- [x] [R-VC: Rhythm Controllable and Efficient Zero-Shot Voice Conversion via Shortcut Flow Matching](image_generation/rvc_rhythm_voice_conversion.md) | arXiv: 2506.01014
+- [x] [R2D2: Remembering, Replaying and Dynamic Decision Making with a Reflective Agentic Memory](llm_agent/r2d2_reflective_agentic_memory.md) | arXiv: 2501.12485
+- [x] [RADAR: Enhancing Radiology Report Generation with Supplementary Knowledge Injection](medical_imaging/radar_radiology_report_gen.md) | arXiv: 2505.14318
+- [x] [RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models](llm_nlp/rare_retrieval_augmented_reasoning.md) | arXiv: 2412.02830
+- [x] [Re-identification of De-identified Documents with Autoregressive Infilling](others/reidentification_deidentified.md) | arXiv: 2505.12859
+- [x] [Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms](llm_nlp/llm_reranking_harmful_content.md) | arXiv: 2501.13977
+- [x] [Read it in Two Steps: Translating Extremely Low-Resource Languages with Code-Augmented Grammar Books](others/low_resource_translation.md) | arXiv: 2506.01796
+- [x] [Recurrent Knowledge Identification and Fusion for Language Model Continual Learning](llm_nlp/recurrent_kif_continual_learning.md) | arXiv: 2502.17510
+- [x] [ReflectDiffu: Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generation via a RL-Diffusion Framework](others/reflectdiffu_empathetic_response.md) | arXiv: 2409.10289
+- [x] [ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](medical_imaging/reflectool_clinical_agent.md) | arXiv: 2410.17657
+- [x] [Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training](llm_nlp/derta_decoupled_refusal.md) | arXiv: 2407.09121
+- [x] [REP: Keys to Robust Edits — From Theoretical Insights to Practical Advances](others/rep_robust_knowledge_editing.md) | arXiv: 2410.09338
+- [x] [Representation Bending for Large Language Model Safety](llm_nlp/repbend_representation_bending_safety.md) | arXiv: 2504.01550
+- [x] [ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision](nlp_understanding/rescore_multihop_qa.md) | arXiv: 2505.21250
+- [x] [Retrieve to Explain: Evidence-driven Predictions for Explainable Drug Target Identification](others/retrieve_to_explain_drug_target_identification.md) | arXiv: 2402.04068
+- [x] [Reversal of Thought: Enhancing Large Language Models with Preference-Guided Reverse Reasoning Warm-up](llm_nlp/reversal_of_thought_enhancing_large_language.md) | arXiv: 2410.12323
+- [x] [Revisiting Common Assumptions about Arabic Dialects in NLP](llm_nlp/arabic_dialects_assumptions_revisited.md) | arXiv: 2505.21816
+- [x] [Revisiting Compositional Generalization Capability of Large Language Models Considering Instruction Following Ability](llm_nlp/compositional_generalization_instruction.md) | arXiv: 2506.15629
+- [x] [RISE: Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing](llm_alignment/rise_error_inject_preference.md) | arXiv: 2410.06638
+- [x] [Rolling the DICE on Idiomaticity: How LLMs Fail to Grasp Context](robotics/dice_idiomaticity.md) | arXiv: 2410.16069
+- [x] [RSCF: Relation-Semantics Consistent Filter for Entity Embedding of Knowledge Graph](graph_learning/rscf_relationsemantics_consistent_filter_for_entity.md) | arXiv: 2505.20813
+- [x] [RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios](llm_nlp/rulearena_rule_guided_reasoning.md) | arXiv: 2412.08972
+- [x] [Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification](llm_reasoning/safe_math_reasoning.md) | arXiv: 2506.04592
+- [x] [salience sparse fine tuning](llm_nlp/salience_sparse_fine_tuning.md)
+- [x] [Sandcastles in the Storm: Revisiting Watermarking Impossibility](ai_safety/sandcastles_watermarking_impossibility.md) | arXiv: 2505.06827
+- [x] [ScaleBiO: Scalable Bilevel Optimization for LLM Data Reweighting](optimization/scalebio_bilevel_data_reweighting.md) | arXiv: 2406.19976
+- [x] [ScaleQuest: Unleashing LLM Reasoning Capability via Scalable Question Synthesis from Scratch](llm_nlp/unleashing_llm_reasoning_capability_via_scalable.md) | arXiv: 2410.18693
+- [x] [Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](multimodal_vlm/code_guided_text_rich_image.md) | arXiv: 2502.14846
+- [x] [SCAR: Data Selection via Style Consistency-Aware Response Ranking for Efficient Instruction-Tuning](others/scar_style_consistency_data_selection.md) | arXiv: 2406.10882
+- [x] [SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings](llm_alignment/sea_lowresource_safety_alignment_for_multimodal.md) | arXiv: 2502.12562
+- [x] [SEE: Strategic Exploration and Exploitation for Cohesive In-Context Prompt Optimization](model_compression/see_strategic_exploration_exploitation_prompt_optimization.md) | arXiv: 2402.11347
+- [x] [Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models](llm_nlp/segment_level_diffusion.md) | arXiv: 2412.11333
+- [x] [SELF-PERCEPT: Introspection Improves LLMs' Detection of Multi-Person Mental Manipulation in Conversations](robotics/self_percept_manipulation_detection.md) | arXiv: 2505.20679
+- [x] [Self-Taught Agentic Long-Context Understanding](llm_agent/self_taught_agentic_long_ctx.md) | arXiv: 2502.15920
+- [x] [SelfElicit: Your Language Model Secretly Knows Where is the Relevant Evidence](llm_nlp/selfelicit_evidence_highlighting.md) | arXiv: 2502.08767
+- [x] [Semantic Exploration with Adaptive Gating for Efficient Problem Solving with Language Models](model_compression/semantic_exploration_adaptive_gating.md) | arXiv: 2501.05752
+- [x] [SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection](others/seoe_semantic_eval.md) | arXiv: 2503.03303
+- [x] [share text to sql correction](others/share_text_to_sql_correction.md)
+- [x] [Sharper and Faster mean Better: Towards More Efficient Vision-Language Model for Hour-scale Long Video Understanding](multimodal_vlm/sophia_efficient_long_video.md)
+- [x] [ShifCon: Enhancing Non-Dominant Language Capabilities with a Shift-based Multilingual Contrastive Framework](others/shifcon_nondominant_language.md) | arXiv: 2410.19453
+- [x] [Shifting from Ranking to Set Selection for Retrieval Augmented Generation](others/setr_set_selection_rag.md) | arXiv: 2507.06838
+- [x] [SkillVerse: Assessing and Enhancing LLMs with Tree Evaluation](llm_nlp/skillverse_tree_eval.md) | arXiv: 2506.00319
+- [x] [Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](llm_efficiency/sliding_windows_full_ranking.md) | arXiv: 2412.14574
+- [x] [SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs](llm_reasoning/softcot_soft_chain_of_thought.md) | arXiv: 2502.12134
+- [x] [SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition](llm_nlp/songcomposer_llm_lyric_melody_generation.md) | arXiv: 2402.17645
+- [x] [Sparsify: Learning Sparsity for Effective and Efficient Music Performance Question Answering](audio_speech/sparsify_music_avqa.md) | arXiv: 2506.01319
+- [x] [Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues](multimodal_vlm/speaking_beyond_language.md) | arXiv: 2506.00958
+- [x] [SpeechFake: A Large-Scale Multilingual Speech Deepfake Dataset Incorporating Cutting-Edge Generation Methods](ai_safety/speechfake_a_largescale_multilingual_speech_deepfake.md) | arXiv: 2507.21463
+- [x] [SpeechIQ: Speech-Agentic Intelligence Quotient Across Cognitive Levels in Voice Understanding by Large Language Models](audio_speech/speechiq_speechagentic_intelligence_quotient_across_cognitive.md) | arXiv: 2507.19361
+- [x] [SPHERE: Unveiling Spatial Blind Spots in Vision-Language Models Through Hierarchical Evaluation](multimodal_vlm/sphere_unveiling_spatial_blind_spots_in.md) | arXiv: 2412.12693
+- [x] [SpindleKV: A Novel KV Cache Reduction Method Balancing Both Shallow and Deep Layers](llm_efficiency/spindlekv_layered_kv_cache.md) | arXiv: 2507.06517
+- [x] [State-offset Tuning: State-based Parameter-Efficient Fine-Tuning for State Space Models](model_compression/state_offset_tuning_ssm_peft.md) | arXiv: 2503.03499
+- [x] [Statistical Deficiency for Task Inclusion Estimation](others/statistical_deficiency_task_inclusion.md) | arXiv: 2503.05491
+- [x] [StrucText-Eval: Evaluating Large Language Model's Reasoning Ability in Structure-Rich Text](llm_nlp/structext_eval.md) | arXiv: 2406.10621
+- [x] [STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning](model_compression/stun_moe_pruning.md) | arXiv: 2409.06211
+- [x] [Substance over Style: Evaluating Proactive Conversational Coaching Agents](others/proactive_conversational_coaching.md) | arXiv: 2503.19328
+- [x] [SudoLM: Learning Access Control of Parametric Knowledge with Authorization Alignment](others/sudolm_authorization_alignment.md) | arXiv: 2410.14676
+- [x] [Symmetrical Visual Contrastive Optimization: Aligning Vision-Language Models with Minimal Contrastive Images](multimodal_vlm/symmetrical_visual_contrastive_optimization_aligning_visionlanguage.md) | arXiv: 2502.13928
+- [x] [Synergizing LLMs with Global Label Propagation for Multimodal Fake News Detection](multimodal_vlm/llm_label_propagation.md) | arXiv: 2506.00488
+- [x] [SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs](llm_alignment/synthesizeme_persona_prompts.md) | arXiv: 2506.05598
+- [x] [SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge Refinement](llm_agent/synworld_agentic_action_knowledge.md) | arXiv: 2504.03561
+- [x] [T2A-Feedback: Improving Basic Capabilities of Text-to-Audio Generation via Fine-grained AI Feedback](audio_speech/t2a_feedback_audio_gen.md) | arXiv: 2505.10561
+- [x] [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](llm_agent/table_critic_multi_agent.md) | arXiv: 2502.11799
+- [x] [TableLoRA: Low-rank Adaptation on Table Structure Understanding for Large Language Models](model_compression/table_lora_structure_understanding.md) | arXiv: 2503.04396
+- [x] [Teaching an Old LLM Secure Coding: Localized Preference Optimization on Distilled Preferences](llm_alignment/teaching_an_old_llm_secure_coding.md) | arXiv: 2506.00419
+- [x] [Teaching Vision-Language Models to Ask: Resolving Ambiguity in Visual Questions](multimodal_vlm/teaching_vlm_ask_ambiguity.md)
+- [x] [The Impact of Auxiliary Patient Data on Automated Chest X-Ray Report Generation and How to Incorporate It](medical_imaging/auxiliary_patient_data_xray.md) | arXiv: 2406.13181
+- [x] [The Impact of Token Granularity on the Predictive Power of Language Model Surprisal](llm_nlp/token_granularity_impact.md) | arXiv: 2412.11940
+- [x] [The Impossibility of Fair LLMs](llm_nlp/impossibility_fair_llms.md) | arXiv: 2406.03198
+- [x] [The Tug of War Within: Mitigating the Fairness-Privacy Conflicts in Large Language Models](ai_safety/tug_of_war_fairness_privacy.md) | arXiv: 2410.16672
+- [x] [TheoremExplainAgent: Towards Video-based Multimodal Explanations for LLM Theorem Understanding](multimodal_vlm/theorem_explain_agent.md) | arXiv: 2502.19400
+- [x] [Theory of Mind in Large Language Models: Assessment and Enhancement](llm_nlp/theory_of_mind_llm.md) | arXiv: 2505.00026
+- [x] [Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling](llm_alignment/think_cite_attributed_text_gen.md) | arXiv: 2412.14860
+- [x] [TIP of the Iceberg: Task-in-Prompt Adversarial Attacks on LLMs](ai_safety/tip_iceberg_adversarial_attacks.md) | arXiv: 2501.18626
+- [x] [TokAlign: Efficient Vocabulary Adaptation via Token Alignment](others/tokalign_vocab_adaptation.md) | arXiv: 2506.03523
+- [x] [Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs](llm_nlp/token_prepending_training_free.md) | arXiv: 2412.11556
+- [x] [ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use](llm_agent/toolhop_multi_hop_tool_use.md)
+- [x] [Towards a More Generalized Approach in Open Relation Extraction](nlp_understanding/generalized_open_relation_extract.md) | arXiv: 2505.22801
+- [x] [Towards Better Evaluation for Generated Patent Claims](others/patclaimeval_patent_evaluation.md) | arXiv: 2505.11095
+- [x] [Towards Geo-Culturally Grounded LLM Generations](llm_nlp/geocultural_grounded_llm.md) | arXiv: 2502.13497
+- [x] [Towards Omni-RAG: Comprehensive Retrieval-Augmented Generation for Large Language Models in Medical Applications](medical_imaging/omni_rag_medical.md) | arXiv: 2501.02460
+- [x] [Towards Reward Fairness in RLHF: From a Resource Allocation Perspective](llm_alignment/reward_fairness_rlhf.md) | arXiv: 2505.23349
+- [x] [Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients](others/federated_lora_heterogeneous.md) | arXiv: 2410.22815
+- [x] [Towards Robust ESG Analysis Against Greenwashing Risks: A3CG](others/a3cg_esg_greenwashing.md) | arXiv: 2502.15821
+- [x] [Towards the Law of Capacity Gap in Distilling Language Models](model_compression/law_of_capacity_gap_distilling_language_models.md) | arXiv: 2311.07052
+- [x] [TRACT: Regression-Aware Fine-tuning Meets Chain-of-Thought Reasoning](llm_reasoning/tract_regression_cot.md) | arXiv: 2503.04381
+- [x] [Trans-PEFT: Transferable Parameter-Efficient Fine-Tuning on Evolving Base Models](model_compression/trans_peft_transferable.md) | arXiv: 2506.06844
+- [x] [Tree-of-Evolution: Tree-Structured Instruction Evolution for Code Generation in Large Language Models](nlp_generation/tree_of_evolution_code_gen.md)
+- [x] [TreeRL: LLM Reinforcement Learning with On-Policy Tree Search](reinforcement_learning/treerl_tree_search_rl.md) | arXiv: 2506.11902
+- [x] [TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs](multimodal_vlm/trimllm_layer_dropping.md) | arXiv: 2412.11242
+- [x] [TROVE: A Challenge for Fine-Grained Text Provenance via Source Sentence Tracing and Relationship Classification](others/trove_a_challenge_for_finegrained_text.md) | arXiv: 2503.15289
+- [x] [Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](others/tuna_temporal_understanding.md) | arXiv: 2505.20124
+- [x] [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](llm_nlp/token_recycling.md) | arXiv: 2504.15754
+- [x] [Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Embedding Space](others/psycholinguistic_visual_semantic.md) | arXiv: 2505.23029
+- [ ] [Understanding Impact of Human Feedback via Influence Functions](llm_alignment/influence_functions_rlhf.md) | arXiv: 2501.05790
+- [x] [UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations](llm_nlp/uniconv_retrieval_response_gen.md) | arXiv: 2507.07030
+- [x] [Unifying Continuous and Discrete Text Diffusion with Non-simultaneous Diffusion Processes](others/neodiff_unified_text_diffusion.md) | arXiv: 2505.22165
+- [x] [UniICL: An Efficient ICL Framework Unifying Compression, Selection, and Generation](model_compression/uniicl_icl_framework.md) | arXiv: 2405.17062
+- [x] [UniQuanF: Unifying Uniform and Binary-coding Quantization for Accurate Compression of Large Language Models](model_compression/uniquanf_unified_quantization.md) | arXiv: 2506.03781
+- [x] [Unlocking General Long Chain-of-Thought Reasoning Capabilities of Large Language Models via Representation Engineering](llm_reasoning/glore_long_cot_representation.md) | arXiv: 2503.11314
+- [x] [Unraveling LoRA Interference: Orthogonal Subspaces for Robust Model Merging](model_compression/osrm_lora_merging_orthogonal.md) | arXiv: 2505.22934
+- [x] [Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models](multimodal_vlm/unsolvable_problem_detection.md) | arXiv: 2403.20331
+- [x] [Unveiling Language-Specific Features in Large Language Models via Sparse Autoencoders](model_compression/language_specific_features.md) | arXiv: 2505.05111
+- [x] [Unveiling Privacy Risks in LLM Agent Memory](llm_agent/mextra_agent_memory_privacy.md) | arXiv: 2502.13172
+- [x] [Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition](multimodal_vlm/value_spectrum_vlm_pref.md) | arXiv: 2411.11479
+- [x] [Veracity Bias and Beyond: Uncovering LLMs' Hidden Beliefs in Problem-Solving Reasoning](llm_nlp/veracity_bias_llm_hidden_beliefs.md) | arXiv: 2505.16128
+- [x] [VF-Eval: Evaluating Multimodal LLMs for Generating Feedback on AIGC Videos](multimodal_vlm/vf_eval_aigc_video_feedback.md) | arXiv: 2505.23693
+- [x] [Visual Evidence Prompting Mitigates Hallucinations in Large Vision-Language Models](multimodal_vlm/visual_evidence_prompting.md)
+- [x] [VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare](others/vital_pluralistic_alignment_healthcare.md) | arXiv: 2502.13775
+- [x] [VLMInferSlow: Evaluating the Efficiency Robustness of Large Vision-Language Models as a Service](multimodal_vlm/vlminferslow_evaluating_the_efficiency_robustness_of.md) | arXiv: 2506.15755
+- [x] [VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism](multimodal_vlm/vrest_tree_search_vlm_reasoning.md) | arXiv: 2506.08691
+- [x] [Wait, that's not an option: LLMs Robustness with Incorrect Multiple-Choice Options](llm_nlp/llm_robustness_incorrect_mcq.md) | arXiv: 2409.00113
+- [x] [WET: Overcoming Paraphrasing Vulnerabilities in Embeddings-as-a-Service with Linear Transformation Watermark](ai_safety/wet_eaas_watermark.md) | arXiv: 2409.04459
+- [x] [What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations](nlp_generation/video_text_summarization.md) | arXiv: 2502.08279
+- [x] [What Makes a Good Natural Language Prompt?](llm_nlp/good_natural_language_prompt.md) | arXiv: 2506.06950
+- [x] [What Really Matters in Many-Shot Attacks? An Empirical Study of Long-Context Vulnerabilities in LLMs](llm_efficiency/many_shot_attacks_long_context.md) | arXiv: 2505.19773
+- [x] [When People are Floods: Analyzing Dehumanizing Metaphors in Immigration Discourse with Large Language Models](llm_nlp/dehumanizing_metaphors_immigration.md) | arXiv: 2502.13246
+- [x] [When to Speak, When to Abstain: Contrastive Decoding with Abstention](others/when_to_speak_when_to_abstain.md) | arXiv: 2412.12527
+- [x] [Which of These Best Describes Multiple Choice Evaluation with LLMs? A) Forced B) Flawed C) Fixable D) All of the Above](llm_nlp/multiple_choice_eval.md) | arXiv: 2502.14127
+- [x] [Who Writes What: Unveiling the Impact of Author Roles on AI-generated Text Detection](aigc_detection/who_writes_what_ai_detection.md) | arXiv: 2502.12611
+- [x] [Whose Boat Does it Float? Improving Personalization in Preference Optimization](llm_alignment/personalized_preference_opt.md) | arXiv: 2501.11549
+- [x] [Writing Like the Best: Exemplar-Based Expository Text Generation](nlp_generation/writing_like_best_exemplar.md) | arXiv: 2505.18859
+- [x] [X-Turing: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents](others/xturing_enhanced_turing_test.md) | arXiv: 2408.09853
+- [x] [YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering](nlp_understanding/yescieval_llm_judge_science.md) | arXiv: 2505.14279

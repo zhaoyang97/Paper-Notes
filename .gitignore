@@ -1,0 +1,11 @@
+.DS_Store
+site/
+__pycache__/
+STATS_UPDATE.md
+**/TODO.md
+
+src/
+tests/
+pyproject.toml
+SOFTWARE_DOC.md
+paper_notes.egg-info/
