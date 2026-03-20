@@ -14,6 +14,7 @@ theme:
   - navigation.tabs
   - navigation.indexes
   - navigation.top
+  - navigation.prune
   - search.suggest
   - search.highlight
   - content.code.copy
