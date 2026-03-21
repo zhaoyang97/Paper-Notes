@@ -31,6 +31,6 @@
 
 :   提出CHMR框架，将分子结构(1D/2D/3D)与细胞形态/基因表达等生物模态联合建模，通过结构感知的模态增强解决>90%的外部生物模态缺失问题，用树状向量量化(Tree-VQ)捕获分子-细胞-基因的层次化依赖关系，在9个benchmark的728个任务上超越SOTA，分类平均AUC提升3.6%，回归MAE降低17.2%。
 
-**[ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Aligned Sparse Autoencoders](protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md)**
+**[ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders](protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md)**
 
-:   用语义对齐的稀疏自编码器解纠缠和解释蛋白质语言模型的内部表示，使学到的特征与已知生物学功能对齐实现可解释的蛋白质分析。
+:   提出 ProtSAE，在稀疏自编码器训练中引入语义标注和领域本体知识作为引导信号，解决传统 SAE 的语义纠缠问题，使蛋白质语言模型的隐层特征与生物学概念（分子功能、生物过程、离子结合位点等）精准对齐，同时保持高重建保真度并支持概念级别的生成控制。

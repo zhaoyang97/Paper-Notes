@@ -271,7 +271,7 @@ nav:
     - Scalable Spatio-Temporal SE(3) Diffusion for Long-Horizon Protein Dynamics: ICLR2026/medical_imaging/scalable_spatio-temporal_se3_diffusion_for_long-horizon_protein_dynamics.md
     - 'Scaling with Collapse: Efficient and Predictable Training of LLM Families': ICLR2026/medical_imaging/scaling_with_collapse_efficient_and_predictable_training_of_llm_families.md
     - 'SynCoGen: Synthesizable 3D Molecule Generation via Joint Reaction and Coordinate Modeling': ICLR2026/medical_imaging/syncogen_synthesizable_3d_molecule_generation_via_joint_reaction_and_coordinate_.md
-  - 🧊 3D 视觉 (21):
+  - 🧊 3D 视觉 (24):
     - 🧊 3D 视觉: ICLR2026/3d_vision/index.md
     - '3DGEER: 3D Gaussian Rendering Made Exact and Efficient for Generic Cameras': ICLR2026/3d_vision/3dgeer_3d_gaussian_rendering_made_exact_and_efficient_for_generic_cameras.md
     - A Genetic Algorithm for Navigating Synthesizable Molecular Spaces: ICLR2026/3d_vision/a_genetic_algorithm_for_navigating_synthesizable_molecular_spaces.md
@@ -281,6 +281,9 @@ nav:
     - 'CloDS: Visual-Only Unsupervised Cloth Dynamics Learning in Unknown Conditions': ICLR2026/3d_vision/clods_visual-only_unsupervised_cloth_dynamics_learning_in_unknown_conditions.md
     - 'Color3D: Controllable and Consistent 3D Colorization with Personalized Colorizer': ICLR2026/3d_vision/color3d_controllable_and_consistent_3d_colorization_with_personalized_colorizer.md
     - 'COOPERTRIM: Adaptive Data Selection for Uncertainty-Aware Cooperative Perception': ICLR2026/3d_vision/coopertrim_adaptive_data_selection_for_uncertainty-aware_cooperative_perception.md
+    - 'CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D': ICLR2026/3d_vision/core-3d_context-aware_open-vocabulary_retrieval_by_embeddings_in_3d.md
+    - 'Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation': ICLR2026/3d_vision/ctrlshift_high-quality_geometry-aware_object_manipulation_in_visual_generation.md
+    - 'D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping': ICLR2026/3d_vision/d-rex_differentiable_real-to-sim-to-real_engine_for_learning_dexterous_grasping.md
     - 'EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark': ICLR2026/3d_vision/egonight_towards_egocentric_vision_understanding_at_night_with_a_challenging_ben.md
     - 'FastGHA: Generalized Few-Shot 3D Gaussian Head Avatars with Real-Time Animation': ICLR2026/3d_vision/fastgha_generalized_few-shot_3d_gaussian_head_avatars_with_real-time_animation.md
     - 'FeDaL: Federated Dataset Learning for General Time Series Foundation Models': ICLR2026/3d_vision/fedal_federated_dataset_learning_for_general_time_series_foundation_models.md
@@ -792,7 +795,7 @@ nav:
     - Amortized Sampling with Transferable Normalizing Flows: NeurIPS2025/image_generation/amortized_sampling_with_transferable_normalizing_flows.md
     - 'AugGen: Synthetic Augmentation using Diffusion Models Can Improve Recognition': NeurIPS2025/image_generation/auggen_synthetic_augmentation_using_diffusion_models_can_imp.md
     - Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation: NeurIPS2025/image_generation/autoregressive_adversarial_posttraining_for_realtime_interac.md
-    - Badiff Bandwidth Adaptive Diffusion Model: NeurIPS2025/image_generation/badiff_bandwidth_adaptive_diffusion_model.md
+    - 'BADiff: Bandwidth Adaptive Diffusion Model': NeurIPS2025/image_generation/badiff_bandwidth_adaptive_diffusion_model.md
     - Balanced Conic Rectified Flow: NeurIPS2025/image_generation/balanced_conic_rectified_flow.md
     - 'Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking': NeurIPS2025/image_generation/beyond_masked_and_unmasked_discrete_diffusion_models_via_par.md
     - 'BlurDM: A Blur Diffusion Model for Image Deblurring': NeurIPS2025/image_generation/blurdm_a_blur_diffusion_model_for_image_deblurring.md
@@ -1219,7 +1222,7 @@ nav:
     - 'ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining': NeurIPS2025/others/adpretrain_advancing_industrial_anomaly_detection_via_anomaly_representation_pre.md
     - Are Pixel-Wise Metrics Reliable For Sparse-View Computed Tomography Reconstructi: NeurIPS2025/others/are_pixel-wise_metrics_reliable_for_sparse-view_computed_tomography_reconstructi.md
     - 'AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing': NeurIPS2025/others/autoscidact_automated_scientific_discovery_through_contrastive_embedding_and_hyp.md
-    - 'Beyond the Singular: Value of Multiple Generations in Benchmark Evaluation': NeurIPS2025/others/beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md
+    - 'Beyond the Singular: Revealing the Value of Multiple Generations in Benchmark Evaluation': NeurIPS2025/others/beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md
     - Depth-Supervised Fusion Network For Seamless-Free Image Stitching: NeurIPS2025/others/depth-supervised_fusion_network_for_seamless-free_image_stitching.md
     - Exact Learning Of Arithmetic With Differentiable Agents: NeurIPS2025/others/exact_learning_of_arithmetic_with_differentiable_agents.md
     - 'FlowMoE: 分布式MoE训练的可扩展流水线调度框架': NeurIPS2025/others/flowmoe_a_scalable_pipeline_scheduling_framework_for_distributed_mixture-of-expe.md
@@ -1227,7 +1230,7 @@ nav:
     - Gradient-Weight Alignment As A Train-Time Proxy For Generalization In Classifica: NeurIPS2025/others/gradient-weight_alignment_as_a_train-time_proxy_for_generalization_in_classifica.md
     - Graph Alignment Via Birkhoff Relaxation: NeurIPS2025/others/graph_alignment_via_birkhoff_relaxation.md
     - 笔记2：PRM必要吗？RL隐式诱导PRM能力: NeurIPS2025/others/is_prm_necessary_problem-solving_rl_implicitly_induces_prm_capability_in_llms.md
-    - 'L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context': NeurIPS2025/others/l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md
+    - 'L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models': NeurIPS2025/others/l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md
     - Learning Generalizable Shape Completion With Sim3 Equivariance: NeurIPS2025/others/learning_generalizable_shape_completion_with_sim3_equivariance.md
     - Look-Ahead Reasoning On Learning Platforms: NeurIPS2025/others/look-ahead_reasoning_on_learning_platforms.md
     - 'MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision': NeurIPS2025/others/maszero_designing_multiagent_systems_with_zero_supervision.md
@@ -1398,7 +1401,7 @@ nav:
     - Aligning VLM Assistants with Personalized Situated Cognition: ACL2025/multimodal_vlm/aligning_vlm_assistants_with_personalized_situated.md
     - Attacking Vision-Language Computer Agents via Pop-ups: ACL2025/multimodal_vlm/attacking_vl_agents_popups.md
     - Enhancing Multimodal Continual Instruction Tuning with BranchLoRA: ACL2025/multimodal_vlm/branchlora_continual_instruction.md
-    - 'MMSafeAware: Can''t See the Forest for the Trees: Benchmarking Multimodal Safety Awareness': ACL2025/multimodal_vlm/cant_see_the_forest_for_the.md
+    - 'MMSafeAware: Can''t See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs': ACL2025/multimodal_vlm/cant_see_the_forest_for_the.md
     - 'Centurio: On Drivers of Multilingual Ability of Large Vision-Language Model': ACL2025/multimodal_vlm/centurio_multilingual_vlm.md
     - 'ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation': ACL2025/multimodal_vlm/chartcoder_chart_to_code.md
     - Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation: ACL2025/multimodal_vlm/code_guided_text_rich_image.md
@@ -1478,8 +1481,9 @@ nav:
     - 'Trans-PEFT: Transferable Parameter-Efficient Fine-Tuning on Evolving Base Models': ACL2025/model_compression/trans_peft_transferable.md
     - 'UniICL: An Efficient ICL Framework Unifying Compression, Selection, and Generation': ACL2025/model_compression/uniicl_icl_framework.md
     - 'UniQuanF: Unifying Uniform and Binary-coding Quantization for Accurate Compression of Large Language Models': ACL2025/model_compression/uniquanf_unified_quantization.md
-  - ⚖️ 对齐 / RLHF (24):
+  - ⚖️ 对齐 / RLHF (25):
     - ⚖️ 对齐 / RLHF: ACL2025/llm_alignment/index.md
+    - 'Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race': ACL2025/llm_alignment/aligned_but_blind_implicit_bias.md
     - 'AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs': ACL2025/llm_alignment/automixalign_adaptive_data_mixing.md
     - 'Cheems: A Practical Guidance for Building and Evaluating Chinese Reward Models from Scratch': ACL2025/llm_alignment/cheems_chinese_reward_models.md
     - 'CodeDPO: Aligning Code Models with Self Generated and Verified Source Code': ACL2025/llm_alignment/codedpo_code_alignment.md
@@ -1494,7 +1498,7 @@ nav:
     - 'M-RewardBench: Evaluating Reward Models in Multilingual Settings': ACL2025/llm_alignment/m_rewardbench.md
     - 'MPO: Multilingual Safety Alignment via Reward Gap Optimization': ACL2025/llm_alignment/mpo_multilingual_safety_alignment.md
     - Mutual-Taught for Co-adapting Policy and Reward Models: ACL2025/llm_alignment/mutual_taught_policy_reward.md
-    - Optimal Transport-Based Token Weighting for Enhanced Preference Optimization (OTPO): ACL2025/llm_alignment/otpo_token_weighting.md
+    - Optimal Transport-Based Token Weighting for Enhanced Preference Optimization: ACL2025/llm_alignment/otpo_token_weighting.md
     - Whose Boat Does it Float? Improving Personalization in Preference Optimization: ACL2025/llm_alignment/personalized_preference_opt.md
     - 'PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative Prompts': ACL2025/llm_alignment/pig_privacy_jailbreak.md
     - 'Towards Reward Fairness in RLHF: From a Resource Allocation Perspective': ACL2025/llm_alignment/reward_fairness_rlhf.md
@@ -1894,7 +1898,7 @@ nav:
     - 'Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning': AAAI2026/robotics/attention_as_binding_a_vector-symbolic_perspective_on_transformer_reasoning.md
     - 'Causal Inference Under Threshold Manipulation: Bayesian Mixture Modeling and Heterogeneous Treatment Effects': AAAI2026/robotics/causal_inference_under_threshold_manipulation_bayesian_mixtu.md
     - 'EvoEmpirBench: Dynamic Spatial Reasoning with Agent-ExpVer': AAAI2026/robotics/evoempirbench_dynamic_spatial_reasoning_with_agent-expver.md
-    - 'ISEAL: Encrypted Fingerprinting for Reliable LLM Ownership Verification': AAAI2026/robotics/iseal_encrypted_fingerprinting_for_reliable_llm_ownership_verification.md
+    - 'iSeal: Encrypted Fingerprinting for Reliable LLM Ownership Verification': AAAI2026/robotics/iseal_encrypted_fingerprinting_for_reliable_llm_ownership_verification.md
     - Neural Graph Navigation for Intelligent Subgraph Matching: AAAI2026/robotics/neural_graph_navigation_for_intelligent_subgraph_matching.md
     - Robust Out-of-Order Retrieval for Grid-Based Storage at Maximum Capacity: AAAI2026/robotics/robust_out-of-order_retrieval_for_grid-based_storage_at_maximum_capacity.md
     - 'Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems': AAAI2026/robotics/shadows_in_the_code_exploring_the_risks_and_defenses_of_llm-.md
@@ -1944,7 +1948,7 @@ nav:
     - 'Apo2Mol: 3D Molecule Generation via Dynamic Pocket-Aware Diffusion Models': AAAI2026/medical_imaging/apo2mol_3d_molecule_generation_via_dynamic_pocket-aware_diff.md
     - 'FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction': AAAI2026/medical_imaging/fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md
     - Learning Cell-Aware Hierarchical Multi-Modal Representations for Robust Molecular Modeling: AAAI2026/medical_imaging/learning_cell-aware_hierarchical_multi-modal_representations.md
-    - 'ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Aligned Sparse Autoencoders': AAAI2026/medical_imaging/protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md
+    - 'ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders': AAAI2026/medical_imaging/protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md
   - 🧊 3D 视觉 (7):
     - 🧊 3D 视觉: AAAI2026/3d_vision/index.md
     - '3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition': AAAI2026/3d_vision/3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md
@@ -2074,7 +2078,7 @@ nav:
     - Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness: AAAI2026/physics/adaptive_fidelity_estimation_for_quantum_programs_with_graph.md
   - 🧮 科学计算 (1):
     - 🧮 科学计算: AAAI2026/scientific_computing/index.md
-    - Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: AAAI2026/scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md
+    - 'Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: A Comparative Study': AAAI2026/scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md
   - 📡 信号/通信 (1):
     - 📡 信号/通信: AAAI2026/signal_comm/index.md
     - Toward Gaze Target Detection in Young Autistic Children: AAAI2026/signal_comm/toward_gaze_target_detection_of_young_autistic_children.md
@@ -2097,55 +2101,123 @@ nav:
     - Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit: AAAI2026/others/area-optimal_control_strategies_for_heterogeneous_multi-agen.md
     - Bilevel MCTS for Amortized O(1) Node Selection in Classical Planning: AAAI2026/others/bilevel_mcts_for_amortized_o1_node_selection_in_classical_planning.md
     - Extreme Value Monte Carlo Tree Search for Classical Planning: AAAI2026/others/extreme_value_monte_carlo_tree_search_for_classical_planning.md
-    - 'MeSHA: Efficient Path Planning with Motion Primitives': AAAI2026/others/mesha_efficient_path_planning_with_motion_primitives.md
-    - Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments: AAAI2026/others/symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md
+    - 'MeshA*: Efficient Path Planning With Motion Primitives': AAAI2026/others/mesha_efficient_path_planning_with_motion_primitives.md
+    - Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents: AAAI2026/others/symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md
     - 'TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models': AAAI2026/others/taylorpoda_a_taylor_expansion-based_method_to_improve_post-hoc_attributions_for_.md
 - 📷 CVPR2026:
   - CVPR2026: CVPR2026/index.md
-  - 👁️ 多模态 VLM (42):
+  - 👁️ 多模态 VLM (110):
     - 👁️ 多模态 VLM: CVPR2026/multimodal_vlm/index.md
     - A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks: CVPR2026/multimodal_vlm/a_closedform_solution_for_debiasing_visionlanguage.md
     - Adaptive Vision-Language Model Routing for Computer Use Agents: CVPR2026/multimodal_vlm/adaptive_visionlanguage_model_routing_for_computer.md
+    - Adaptvision Efficient Vision-Language Models Via Adaptive Visual Acquisition: CVPR2026/multimodal_vlm/adaptvision_efficient_vision-language_models_via_adaptive_visual_acquisition.md
     - 'ApET: Approximation-Error Guided Token Compression for Efficient VLMs': CVPR2026/multimodal_vlm/apet_approximation_error_token_compression.md
+    - Beyond Global Similarity Towards Fine-Grained Multi-Condition Multimodal Retriev: CVPR2026/multimodal_vlm/beyond_global_similarity_towards_fine-grained_multi-condition_multimodal_retriev.md
+    - Beyond Heuristic Prompting A Concept-Guided Bayesian Framework For Zero-Shot Ima: CVPR2026/multimodal_vlm/beyond_heuristic_prompting_a_concept-guided_bayesian_framework_for_zero-shot_ima.md
+    - Beyond Static Artifacts A Forensic Benchmark For Video Deepfake Reasoning In Vis: CVPR2026/multimodal_vlm/beyond_static_artifacts_a_forensic_benchmark_for_video_deepfake_reasoning_in_vis.md
+    - Brima Bridged Modality Adaptation For Multi-Modal Continual Action Quality Asses: CVPR2026/multimodal_vlm/brima_bridged_modality_adaptation_for_multi-modal_continual_action_quality_asses.md
+    - Bussard Normalizing Flows For Bijective Universal Scene-Specific Anomalous Relat: CVPR2026/multimodal_vlm/bussard_normalizing_flows_for_bijective_universal_scene-specific_anomalous_relat.md
+    - Capt Confusion-Aware Prompt Tuning For Reducing Vision-Language Misalignment: CVPR2026/multimodal_vlm/capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md
+    - 'Cc-Vqa Conflict- And Correlation-Aware Method For Mitigating Knowledge Conflict ': CVPR2026/multimodal_vlm/cc-vqa_conflict-_and_correlation-aware_method_for_mitigating_knowledge_conflict_.md
     - 'CIPHER: 用反事实对抗幻觉——扩散引导的LVLM幻觉抑制': CVPR2026/multimodal_vlm/cipher_counterfactual_diffusion_hallucination_sup.md
+    - 'Circuit Tracing In Vision-Language Models Understanding The Internal Mechanisms ': CVPR2026/multimodal_vlm/circuit_tracing_in_vision-language_models_understanding_the_internal_mechanisms_.md
     - 'CodePercept: Code-Grounded Visual STEM Perception for MLLMs': CVPR2026/multimodal_vlm/codepercept_codegrounded_visual_stem_perception_fo.md
     - Continual Learning with Vision-Language Models via Semantic-Geometry Preservation: CVPR2026/multimodal_vlm/continual_learning_with_visionlanguage_models_via.md
+    - Crosshoi-Bench A Unified Benchmark For Hoi Evaluation Across Vision-Language Mod: CVPR2026/multimodal_vlm/crosshoi-bench_a_unified_benchmark_for_hoi_evaluation_across_vision-language_mod.md
+    - 'Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens': CVPR2026/multimodal_vlm/cubic_discrete_diffusion_discrete_visual_generation_on_high-dimensional_represen.md
+    - 'Cut to the Chase: Training-free Multimodal Summarization via Chain-of-Events': CVPR2026/multimodal_vlm/cut_to_the_chase_training-free_multimodal_summarization_via_chain-of-events.md
+    - 'DeAR: Fine-Grained VLM Adaptation by Decomposing Attention Head Roles': CVPR2026/multimodal_vlm/dear_fine-grained_vlm_adaptation_by_decomposing_attention_head_roles.md
+    - Decoupling Stability and Plasticity for Multi-Modal Test-Time Adaptation: CVPR2026/multimodal_vlm/decoupling_stability_and_plasticity_for_multi-modal_test-time_adaptation.md
+    - 'Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models': CVPR2026/multimodal_vlm/devil_is_in_narrow_policy_unleashing_exploration_in_driving_vla_models.md
+    - Draft and Refine with Visual Experts: CVPR2026/multimodal_vlm/draft_and_refine_with_visual_experts.md
     - 'DUET-VLM: Dual Stage Unified Efficient Token Reduction for VLM Training and Inference': CVPR2026/multimodal_vlm/duet_vlm_dual_stage_token_reduction.md
     - 'DTR: Dynamic Token Reweighting for Robust Vision-Language Models': CVPR2026/multimodal_vlm/dynamic_token_reweighting_for_robust_visionlanguag.md
+    - 'DynamicGTR: Leveraging Graph Topology Representation Preferences to Boost VLM Capabilities on Graph QAs': CVPR2026/multimodal_vlm/dynamicgtr_leveraging_graph_topology_representation_preferences_to_boost_vlm_cap.md
+    - Efficient Document Parsing via Parallel Token Prediction: CVPR2026/multimodal_vlm/efficient_document_parsing_via_parallel_token_prediction.md
+    - 'EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models': CVPR2026/multimodal_vlm/emo-r3_reflective_reinforcement_learning_for_emotional_reasoning_in_multimodal_l.md
     - 'EmoVerse: A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis': CVPR2026/multimodal_vlm/emoverse_mllm_emotion_representation_dataset.md
     - 'EvoLMM: Self-Evolving Large Multimodal Models with Continuous Rewards': CVPR2026/multimodal_vlm/evolmm_self_evolving_lmm_continuous_rewards.md
+    - Evolutionary Multimodal Reasoning via Hierarchical Semantic Representation for Intent Recognition: CVPR2026/multimodal_vlm/evolutionary_multimodal_reasoning_via_hierarchical_semantic_representation_for_i.md
+    - Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory: CVPR2026/multimodal_vlm/evolving_contextual_safety_in_multi-modal_large_language_models_via_inference-ti.md
     - Evolving Prompt Adaptation for Vision-Language Models: CVPR2026/multimodal_vlm/evolving_prompt_adaptation_for_visionlanguage_mode.md
+    - Fine-Grained Post-Training Quantization for Large Vision Language Models with Quantization-Aware Integrated Gradients: CVPR2026/multimodal_vlm/fine-grained_post-training_quantization_for_large_vision_language_models_with_qu.md
+    - 'FINER: MLLMs Hallucinate under Fine-grained Negative Queries': CVPR2026/multimodal_vlm/finer_mllms_hallucinate_under_fine-grained_negative_queries.md
     - 'FlashCache: Frequency-Domain-Guided Outlier-KV-Aware Multimodal KV Cache Compression': CVPR2026/multimodal_vlm/flashcache_frequency_kv_cache_compression.md
+    - 'FluoCLIP: Stain-Aware Focus Quality Assessment in Fluorescence Microscopy': CVPR2026/multimodal_vlm/fluoclip_stain-aware_focus_quality_assessment_in_fluorescence_microscopy.md
     - 'GACD: Mitigating Multimodal Hallucinations via Gradient-based Self-Reflection': CVPR2026/multimodal_vlm/gacd_gradient_self_reflection_hallucination.md
     - Geometry-Guided Camera Motion Understanding in VideoLLMs: CVPR2026/multimodal_vlm/geometryguided_camera_motion_understanding_in_vide.md
     - 'GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning': CVPR2026/multimodal_vlm/graphvlm_benchmark_vlm_graph_learning.md
     - 'GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training': CVPR2026/multimodal_vlm/gtr_turbo_merged_checkpoint_free_teacher.md
+    - 'HAMMER: Harnessing MLLM via Cross-Modal Integration for Intention-Driven 3D Affordance Grounding': CVPR2026/multimodal_vlm/hammer_harnessing_mllm_via_cross-modal_integration_for_intention-driven_3d_affor.md
     - 'HIFICL: High-Fidelity In-Context Learning for Multimodal Tasks': CVPR2026/multimodal_vlm/hificl_highfidelity_incontext_learning_for_multimo.md
     - 'HoneyBee: Data Recipes for Vision-Language Reasoners': CVPR2026/multimodal_vlm/honeybee_data_recipes_vl_reasoners.md
     - 'HouseMind: Tokenization Allows MLLMs to Understand, Generate and Edit Architectural Floor Plans': CVPR2026/multimodal_vlm/housemind_tokenization_mllm_floor_plan.md
+    - How to Take a Memorable Picture? Empowering Users with Actionable Feedback: CVPR2026/multimodal_vlm/how_to_take_a_memorable_picture_empowering_users_with_actionable_feedback.md
     - 'HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in LVLMs': CVPR2026/multimodal_vlm/hulluedit_subspace_editing_hallucination.md
+    - Interpretable Debiasing of Vision-Language Models for Social Fairness: CVPR2026/multimodal_vlm/interpretable_debiasing_of_vision-language_models_for_social_fairness.md
+    - 'It''s Time to Get It Right: Improving Analog Clock Reading and Clock-Hand Spatial Reasoning in Vision-Language Models': CVPR2026/multimodal_vlm/its_time_to_get_it_right_improving_analog_clock_reading_and_clock-hand_spatial_r.md
+    - 'Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild': CVPR2026/multimodal_vlm/joint-aligned_latent_action_towards_scalable_vla_pretraining_in_the_wild.md
     - 'KVSmooth: Mitigating Hallucination in Multi-modal Large Language Models through Key-Value Smoothing': CVPR2026/multimodal_vlm/kvsmooth_mitigating_hallucination_in_multimodal_la.md
+    - 'Learning What Matters: Prioritized Concept Learning via Relative Error-driven Sample Selection': CVPR2026/multimodal_vlm/learning_what_matters_prioritized_concept_learning_via_relative_error-driven_sam.md
     - 'LLaVAShield: Safeguarding Multimodal Multi-Turn Dialogues in Vision-Language Models': CVPR2026/multimodal_vlm/llavashield_multimodal_multiturn_safety.md
+    - 'LLMind: Bio-inspired Training-free Adaptive Visual Representations for Vision-Language Models': CVPR2026/multimodal_vlm/llmind_bio-inspired_training-free_adaptive_visual_representations_for_vision-lan.md
+    - 'Locate-then-Sparsify: Attribution Guided Sparse Strategy for Visual Hallucination Mitigation': CVPR2026/multimodal_vlm/locate-then-sparsify_attribution_guided_sparse_strategy_for_visual_hallucination.md
+    - 'MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models': CVPR2026/multimodal_vlm/masquant_modality-aware_smoothing_quantization_for_multimodal_large_language_mod.md
     - 'Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning': CVPR2026/multimodal_vlm/mastering_negation_boosting_grounding_models_via_g.md
+    - 'Mind the Way You Select Negative Texts: Pursuing the Distance Consistency in OOD Detection with VLMs': CVPR2026/multimodal_vlm/mind_the_way_you_select_negative_texts_pursuing_the_distance_consistency_in_ood_.md
     - 'MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping': CVPR2026/multimodal_vlm/modes_moe_dynamic_expert_skipping.md
+    - 'More than the Sum: Panorama-Language Models for Adverse Omni-Scenes': CVPR2026/multimodal_vlm/more_than_the_sum_panorama-language_models_for_adverse_omni-scenes.md
     - 'Mixture of States (MoS): Routing Token-Level Dynamics for Multimodal Generation': CVPR2026/multimodal_vlm/mos_mixture_of_states_multimodal_generation.md
+    - 'Mostly Text, Smart Visuals: Asymmetric Text-Visual Pruning for Large Vision-Language Models': CVPR2026/multimodal_vlm/mostly_text_smart_visuals_asymmetric_text-visual_pruning_for_large_vision-langua.md
+    - 'MSJoE: Jointly Evolving MLLM and Sampler for Efficient Long-Form Video Understanding': CVPR2026/multimodal_vlm/msjoe_jointly_evolving_mllm_and_sampler_for_efficient_long-form_video_understand.md
+    - 'Multi-Crit: Benchmarking Multimodal Judges on Pluralistic Criteria-Following': CVPR2026/multimodal_vlm/multi-crit_benchmarking_multimodal_judges_on_pluralistic_criteria-following.md
     - 'Multimodal OCR: Parse Anything from Documents': CVPR2026/multimodal_vlm/multimodal_ocr_parse_anything_from_documents.md
     - 'NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval': CVPR2026/multimodal_vlm/nanovdr_distilling_a_2b_visionlanguage_retriever_i.md
+    - 'Narrative Weaver: Towards Controllable Long-Range Visual Consistency with Multi-Modal Conditioning': CVPR2026/multimodal_vlm/narrative_weaver_towards_controllable_long-range_visual_consistency_with_multi-m.md
+    - 'No Need For Real Anomaly: MLLM Empowered Zero-Shot Video Anomaly Detection': CVPR2026/multimodal_vlm/no_need_for_real_anomaly_mllm_empowered_zero-shot_video_anomaly_detection.md
     - Noise-Aware Few-Shot Learning through Bi-directional Multi-View Prompt Alignment: CVPR2026/multimodal_vlm/noiseaware_fewshot_learning_through_bidirectional.md
+    - 'OddGridBench: Exposing the Lack of Fine-Grained Visual Discrepancy Sensitivity in Multimodal Large Language Models': CVPR2026/multimodal_vlm/oddgridbench_exposing_the_lack_of_fine-grained_visual_discrepancy_sensitivity_in.md
     - 'Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models': CVPR2026/multimodal_vlm/overthinking_hallucination_confounder_propagation.md
+    - Parallel In-context Learning for Large Vision Language Models: CVPR2026/multimodal_vlm/parallel_in-context_learning_for_large_vision_language_models.md
+    - 'Pixel2Phys: Distilling Governing Laws from Visual Dynamics': CVPR2026/multimodal_vlm/pixel2phys_distilling_governing_laws_from_visual_dynamics.md
+    - 'PointAlign: Feature-Level Alignment Regularization for 3D Vision-Language Models': CVPR2026/multimodal_vlm/pointalign_feature-level_alignment_regularization_for_3d_vision-language_models.md
     - 'Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving': CVPR2026/multimodal_vlm/prune2drive_vlm_accel_autonomous_driving.md
     - 'Quant Experts: Token-aware Adaptive Error Reconstruction for Large VLM Quantization': CVPR2026/multimodal_vlm/quant_experts_token_aware_vlm_quantization.md
     - Reallocating Attention Across Layers to Reduce Multimodal Hallucination: CVPR2026/multimodal_vlm/reallocating_attention_reduce_hallucination.md
     - 'ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps': CVPR2026/multimodal_vlm/reasonmap_towards_finegrained_visual_reasoning_fro.md
+    - Recurrent Reasoning with Vision-Language Models for Estimating Long-Horizon Embodied Task Progress: CVPR2026/multimodal_vlm/recurrent_reasoning_with_vision-language_models_for_estimating_long-horizon_embo.md
+    - 'ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding': CVPR2026/multimodal_vlm/remora_multimodal_large_language_model_based_on_refined_motion_representation_fo.md
+    - Rethinking MLLM Itself as a Segmenter with a Single Segmentation Token: CVPR2026/multimodal_vlm/rethinking_mllm_itself_as_a_segmenter_with_a_single_segmentation_token.md
     - Revisiting Model Stitching In the Foundation Model Era: CVPR2026/multimodal_vlm/revisiting_model_stitching_in_the_foundation_model.md
+    - 'RobustVisRAG: Causality-Aware Vision-Based Retrieval-Augmented Generation under Visual Degradations': CVPR2026/multimodal_vlm/robustvisrag_causality-aware_vision-based_retrieval-augmented_generation_under_v.md
     - 'SaPaVe: Towards Active Perception and Manipulation in VLA Models for Robotics': CVPR2026/multimodal_vlm/sapave_active_perception_manipulation_vla_roboti.md
+    - Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework: CVPR2026/multimodal_vlm/scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md
+    - 'Seeing Clearly, Reasoning Confidently: Plug-and-Play Remedies for Vision Language Model Blindness': CVPR2026/multimodal_vlm/seeing_clearly_reasoning_confidently_plug-and-play_remedies_for_vision_language_.md
     - 'SoPE: Spherical Coordinate-Based Positional Embedding for 3D LVLMs': CVPR2026/multimodal_vlm/sope_spherical_positional_encoding_3d_lvlm.md
+    - 'SpatiaLQA: A Benchmark for Evaluating Spatial Logical Reasoning in Vision-Language Models': CVPR2026/multimodal_vlm/spatialqa_a_benchmark_for_evaluating_spatial_logical_reasoning_in_vision-languag.md
     - 'SSR2-GCD: Multi-Modal Representation Learning via Semi-Supervised Rate Reduction for Generalized Category Discovery': CVPR2026/multimodal_vlm/ssr2gcd_rate_reduction_category_discovery.md
     - 'See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles (StaR)': CVPR2026/multimodal_vlm/star_see_think_act_gui_agent_toggles.md
+    - Taxonomy-Aware Representation Alignment for Hierarchical Visual Recognition with Large Multimodal Models: CVPR2026/multimodal_vlm/taxonomy-aware_representation_alignment_for_hierarchical_visual_recognition_with.md
+    - Test-Time Attention Purification for Backdoored Large Vision Language Models: CVPR2026/multimodal_vlm/test-time_attention_purification_for_backdoored_large_vision_language_models.md
+    - Text-Only Training for Image Captioning with Retrieval Augmentation and Modality Gap Correction: CVPR2026/multimodal_vlm/text-only_training_for_image_captioning_with_retrieval_augmentation_and_modality.md
+    - 'Topo-R1: Detecting Topological Anomalies via Vision-Language Models': CVPR2026/multimodal_vlm/topo-r1_detecting_topological_anomalies_via_vision-language_models.md
+    - Towards Calibrating Prompt Tuning of Vision-Language Models: CVPR2026/multimodal_vlm/towards_calibrating_prompt_tuning_of_vision-language_models.md
+    - Towards Faithful Multimodal Concept Bottleneck Models: CVPR2026/multimodal_vlm/towards_faithful_multimodal_concept_bottleneck_models.md
+    - Towards Multimodal Domain Generalization with Few Labels: CVPR2026/multimodal_vlm/towards_multimodal_domain_generalization_with_few_labels.md
     - 'UniMMAD: Unified Multi-Modal and Multi-Class Anomaly Detection via MoE-Driven Feature Decompression': CVPR2026/multimodal_vlm/unimmad_multimodal_moe_anomaly_detection.md
     - 'V2Drop: Variation-aware Vision Token Dropping for Faster Large Vision-Language Models': CVPR2026/multimodal_vlm/v2drop_variation_aware_token_dropping.md
+    - 'VecGlypher: Unified Vector Glyph Generation with Language Models': CVPR2026/multimodal_vlm/vecglypher_unified_vector_glyph_generation_with_language_models.md
+    - 'Venus: Benchmarking and Empowering Multimodal Large Language Models for Aesthetic Guidance and Cropping': CVPR2026/multimodal_vlm/venus_benchmarking_and_empowering_multimodal_large_language_models_for_aesthetic.md
+    - 'VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving': CVPR2026/multimodal_vlm/vggdrive_empowering_vision-language_models_with_cross-view_geometric_grounding_f.md
     - 'VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion': CVPR2026/multimodal_vlm/videofusion_a_spatiotemporal_collaborative_network.md
+    - Vision-Language Models Encode Clinical Guidelines for Concept-Based Medical Reasoning: CVPR2026/multimodal_vlm/vision-language_models_encode_clinical_guidelines_for_concept-based_medical_reas.md
+    - 'VL-RouterBench: A Benchmark for Vision-Language Model Routing': CVPR2026/multimodal_vlm/vl-routerbench_a_benchmark_for_vision-language_model_routing.md
+    - 'VLM-Loc: Localization in Point Cloud Maps via Vision-Language Models': CVPR2026/multimodal_vlm/vlm-loc_localization_in_point_cloud_maps_via_vision-language_models.md
+    - 'VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm': CVPR2026/multimodal_vlm/vlm-pruner_buffering_for_spatial_sparsity_in_an_efficient_vlm_centrifugal_token_.md
     - Do Vision-Language Models Leak What They Learn? Adaptive Token-Weighted Model Inversion Attacks: CVPR2026/multimodal_vlm/vlm_model_inversion_adaptive_token_weight.md
+    - What Do Visual Tokens Really Encode? Uncovering Sparsity and Redundancy in Multimodal Large Language Models: CVPR2026/multimodal_vlm/what_do_visual_tokens_really_encode_uncovering_sparsity_and_redundancy_in_multim.md
+    - 'When Token Pruning is Worse than Random: Understanding Visual Token Information in VLLMs': CVPR2026/multimodal_vlm/when_token_pruning_is_worse_than_random_understanding_visual_token_information_i.md
+    - 'Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation': CVPR2026/multimodal_vlm/where_mllms_attend_and_what_they_rely_on_explaining_autoregressive_token_generat.md
   - 🏥 医学图像 (40):
     - 🏥 医学图像: CVPR2026/medical_imaging/index.md
     - A protocol for evaluating robustness to H&E staining variation in computational pathology models: CVPR2026/medical_imaging/a_protocol_for_evaluating_robustness_to_he_stainin.md
@@ -2357,6 +2429,39 @@ nav:
     - 'Mobile-VTON: High-Fidelity On-Device Virtual Try-On': CVPR2026/human_understanding/mobile_vton_ondevice_virtual_tryon.md
     - Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback: CVPR2026/human_understanding/referencefree_image_quality_assessment_for_virtual.md
     - 'Team RAS in 10th ABAW Competition: Multimodal Valence and Arousal Estimation Approach': CVPR2026/human_understanding/team_ras_in_10th_abaw_competition_multimodal_valen.md
+  - 💬 LLM / NLP (7):
+    - 💬 LLM / NLP: CVPR2026/llm_nlp/index.md
+    - Composing Concepts from Images and Videos via Concept-prompt Binding: CVPR2026/llm_nlp/composing_concepts_from_images_and_videos_via_concept-prompt_binding.md
+    - Cross-Scale Pansharpening via ScaleFormer and the PanScale Benchmark: CVPR2026/llm_nlp/cross-scale_pansharpening_via_scaleformer_and_the_panscale_benchmark.md
+    - Defending Unauthorized Model Merging via Dual-Stage Weight Protection: CVPR2026/llm_nlp/defending_unauthorized_model_merging_via_dual-stage_weight_protection.md
+    - 'EVATok: 自适应长度视频Tokenization用于高效视觉自回归生成': CVPR2026/llm_nlp/evatok_adaptive_length_video_tokenization_for_eff.md
+    - 'Hier-COS: Making Deep Features Hierarchy-aware via Composition of Orthogonal Subspaces': CVPR2026/llm_nlp/hiercos_making_deep_features_hierarchyaware_via_co.md
+    - 'IAPL: Generalizable AI-Generated Image Detection via Image-Adaptive Prompt Learning': CVPR2026/llm_nlp/iapl_aigenerated_image_detection_adaptive_prompt.md
+    - 'WeaveTime: 流式视频LLM的帧级逐步记忆': CVPR2026/llm_nlp/weavetime_streaming_video_llm_memory.md
+  - 🦾 LLM Agent (6):
+    - 🦾 LLM Agent: CVPR2026/llm_agent/index.md
+    - 'GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents': CVPR2026/llm_agent/gui-ceval_a_hierarchical_and_comprehensive_chinese_benchmark_for_mobile_gui_agen.md
+    - 'HATS: Hardness-Aware Trajectory Synthesis for GUI Agents': CVPR2026/llm_agent/hats_hardnessaware_trajectory_synthesis_gui_agent.md
+    - 'REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting': CVPR2026/llm_agent/realm_mllm_agent_3d_reasoning_gaussian.md
+    - 'SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation': CVPR2026/llm_agent/sceneassistant_a_visual_feedback_agent_for_openvoc.md
+    - 'Think, Then Verify: A Hypothesis-Verification Multi-Agent Framework for Long Video Understanding': CVPR2026/llm_agent/think_then_verify_a_hypothesis-verification_multi-agent_framework_for_long_video.md
+    - 'Watch and Learn: Learning to Use Computers from Online Videos': CVPR2026/llm_agent/watch_and_learn_computer_use_from_videos.md
+  - ⚖️ 对齐 / RLHF (6):
+    - ⚖️ 对齐 / RLHF: CVPR2026/llm_alignment/index.md
+    - 'Bases of Steerable Kernels for Equivariant CNNs: From 2D Rotations to the Lorentz Group': CVPR2026/llm_alignment/bases_of_steerable_kernels_for_equivariant_cnns_fr.md
+    - 'MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models': CVPR2026/llm_alignment/mapreduce_lora_advancing_the_pareto_front_in_multi-preference_optimization_for_g.md
+    - 'Mesh-Pro: Asynchronous Advantage-guided Ranking Preference Optimization for Artist-style Quadrilateral Mesh Generation': CVPR2026/llm_alignment/mesh-pro_asynchronous_advantage-guided_ranking_preference_optimization_for_artis.md
+    - 'MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization': CVPR2026/llm_alignment/mod-dpo_towards_mitigating_cross-modal_hallucinations_in_omni_llms_using_modalit.md
+    - 'PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization': CVPR2026/llm_alignment/physmodpo_physicallyplausible_humanoid_motion_with.md
+    - '$\varphi$-DPO: Fairness Direct Preference Optimization Approach to Continual Learning in Large Multimodal Models': CVPR2026/llm_alignment/φ-dpo_fairness_direct_preference_optimization_approach_to_continual_learning_in_.md
+  - 💡 LLM 推理 (6):
+    - 💡 LLM 推理: CVPR2026/llm_reasoning/index.md
+    - 'Beyond Geometry: Artistic Disparity Synthesis for Immersive 2D-to-3D': CVPR2026/llm_reasoning/beyond_geometry_artistic_disparity_synthesis_for_immersive_2d-to-3d.md
+    - 'E-comIQ-ZH: A Human-Aligned Dataset and Benchmark for Fine-Grained Evaluation of E-commerce Posters with Chain-of-Thought': CVPR2026/llm_reasoning/e-comiq-zh_a_human-aligned_dataset_and_benchmark_for_fine-grained_evaluation_of_.md
+    - 'FaceCoT: Chain-of-Thought Reasoning in MLLMs for Face Anti-Spoofing': CVPR2026/llm_reasoning/facecot_cot_reasoning_face_anti_spoofing.md
+    - Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought: CVPR2026/llm_reasoning/red_rationale_enhanced_decoding_cot.md
+    - 'Step-CoT: Stepwise Visual Chain-of-Thought for Medical Visual Question Answering': CVPR2026/llm_reasoning/step-cot_stepwise_visual_chain-of-thought_for_medical_visual_question_answering.md
+    - 'VisRef: Visual Refocusing while Thinking Improves Test-Time Scaling in Multi-Modal Large Reasoning Models': CVPR2026/llm_reasoning/visref_visual_refocusing_test_time_scaling.md
   - 📦 模型压缩 (6):
     - 📦 模型压缩: CVPR2026/model_compression/index.md
     - An FPGA Implementation of Displacement Vector Search for Intra Pattern Copy in JPEG XS: CVPR2026/model_compression/an_fpga_implementation_of_displacement_vector_sear.md
@@ -2365,18 +2470,6 @@ nav:
     - 'HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers': CVPR2026/model_compression/hiap_a_multigranular_stochastic_autopruning_framew.md
     - 'MXNorm: Reusing MXFP block scales for efficient tensor normalisation': CVPR2026/model_compression/mxnorm_reusing_mxfp_block_scales_for_efficient_ten.md
     - 'PPCL: Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers': CVPR2026/model_compression/ppcl_pluggable_pruning_dit_distillation.md
-  - 🦾 LLM Agent (4):
-    - 🦾 LLM Agent: CVPR2026/llm_agent/index.md
-    - 'HATS: Hardness-Aware Trajectory Synthesis for GUI Agents': CVPR2026/llm_agent/hats_hardnessaware_trajectory_synthesis_gui_agent.md
-    - 'REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting': CVPR2026/llm_agent/realm_mllm_agent_3d_reasoning_gaussian.md
-    - 'SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation': CVPR2026/llm_agent/sceneassistant_a_visual_feedback_agent_for_openvoc.md
-    - 'Watch and Learn: Learning to Use Computers from Online Videos': CVPR2026/llm_agent/watch_and_learn_computer_use_from_videos.md
-  - 💬 LLM / NLP (4):
-    - 💬 LLM / NLP: CVPR2026/llm_nlp/index.md
-    - 'EVATok: 自适应长度视频Tokenization用于高效视觉自回归生成': CVPR2026/llm_nlp/evatok_adaptive_length_video_tokenization_for_eff.md
-    - 'Hier-COS: Making Deep Features Hierarchy-aware via Composition of Orthogonal Subspaces': CVPR2026/llm_nlp/hiercos_making_deep_features_hierarchyaware_via_co.md
-    - 'IAPL: Generalizable AI-Generated Image Detection via Image-Adaptive Prompt Learning': CVPR2026/llm_nlp/iapl_aigenerated_image_detection_adaptive_prompt.md
-    - 'WeaveTime: 流式视频LLM的帧级逐步记忆': CVPR2026/llm_nlp/weavetime_streaming_video_llm_memory.md
   - 🛰️ 遥感 (4):
     - 🛰️ 遥感: CVPR2026/remote_sensing/index.md
     - 'AVION: Aerial Vision-Language Instruction from Offline Teacher to Prompt-Tuned Network': CVPR2026/remote_sensing/avion_aerial_visionlanguage_instruction_from_offli.md
@@ -2389,11 +2482,6 @@ nav:
     - Representation Learning for Spatiotemporal Physical Systems: CVPR2026/self_supervised/representation_learning_for_spatiotemporal_physica.md
     - 'SpHOR: A Representation Learning Perspective on Open-set Recognition': CVPR2026/self_supervised/sphor_a_representation_learning_perspective_on_ope.md
     - Vision Transformers Need More Than Registers: CVPR2026/self_supervised/vit_need_more_than_registers.md
-  - 💡 LLM 推理 (3):
-    - 💡 LLM 推理: CVPR2026/llm_reasoning/index.md
-    - 'FaceCoT: Chain-of-Thought Reasoning in MLLMs for Face Anti-Spoofing': CVPR2026/llm_reasoning/facecot_cot_reasoning_face_anti_spoofing.md
-    - Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought: CVPR2026/llm_reasoning/red_rationale_enhanced_decoding_cot.md
-    - 'VisRef: Visual Refocusing while Thinking Improves Test-Time Scaling in Multi-Modal Large Reasoning Models': CVPR2026/llm_reasoning/visref_visual_refocusing_test_time_scaling.md
   - 🛡️ AI 安全 (2):
     - 🛡️ AI 安全: CVPR2026/ai_safety/index.md
     - Federated Active Learning Under Extreme Non-IID and Global Class Imbalance: CVPR2026/ai_safety/federated_active_learning_extreme_noniid.md
@@ -2402,10 +2490,6 @@ nav:
     - 🖼️ 图像恢复: CVPR2026/image_restoration/index.md
     - 'MAD-Avatar: Motion-Aware Animatable Gaussian Avatars Deblurring': CVPR2026/image_restoration/motionaware_animatable_gaussian_avatars_deblurring.md
     - RAW-Domain Degradation Models for Realistic Smartphone Super-Resolution: CVPR2026/image_restoration/rawdomain_degradation_models_smartphone_sr.md
-  - ⚖️ 对齐 / RLHF (2):
-    - ⚖️ 对齐 / RLHF: CVPR2026/llm_alignment/index.md
-    - 'Bases of Steerable Kernels for Equivariant CNNs: From 2D Rotations to the Lorentz Group': CVPR2026/llm_alignment/bases_of_steerable_kernels_for_equivariant_cnns_fr.md
-    - 'PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization': CVPR2026/llm_alignment/physmodpo_physicallyplausible_humanoid_motion_with.md
   - 🎵 音频/语音 (1):
     - 🎵 音频/语音: CVPR2026/audio_speech/index.md
     - 'Team LEYA in 10th ABAW Competition: Multimodal Ambivalence/Hesitancy Recognition Approach': CVPR2026/audio_speech/team_leya_in_10th_abaw_competition_multimodal_ambi.md
@@ -2626,7 +2710,92 @@ nav:
     - Despite Exploring Contrastive Deep Skeletonpointcloudimutext: ICCV2025/others/despite_exploring_contrastive_deep_skeletonpointcloudimutext.md
 - 📷 CVPR2025:
   - CVPR2025: CVPR2025/index.md
-  - 🧊 3D 视觉 (11):
+  - 🏥 医学图像 (39):
+    - 🏥 医学图像: CVPR2025/medical_imaging/index.md
+    - ? A Semi-Supervised Framework for Breast Ultrasound Segmentation with Training-Free
+        Pseudo-Label Generation and Label Refinement
+      : CVPR2025/medical_imaging/a_semi-supervised_framework_for_breast_ultrasound_segmentation_with_training-fre.md
+    - ? Accelerating Stroke MRI with Diffusion Probabilistic Models through Large-Scale
+        Pre-training and Target-Specific Fine-Tuning
+      : CVPR2025/medical_imaging/accelerating_stroke_mri_with_diffusion_probabilistic_models_through_large-scale_.md
+    - Adaptation of Weakly Supervised Localization in Histopathology by Debiasing Predictions: CVPR2025/medical_imaging/adaptation_of_weakly_supervised_localization_in_histopathology_by_debiasing_pred.md
+    - ? Addressing Data Scarcity in 3D Trauma Detection through Self-Supervised and
+        Semi-Supervised Learning with Vertex Relative Position Encoding
+      : CVPR2025/medical_imaging/addressing_data_scarcity_in_3d_trauma_detection_through_self-supervised_and_semi.md
+    - Association of Radiologic PPFE Change with Mortality in Lung Cancer Screening Cohorts: CVPR2025/medical_imaging/association_of_radiologic_ppfe_change_with_mortality_in_lung_cancer_screening_co.md
+    - Automated Detection of Malignant Lesions in the Ovary Using Deep Learning Models and XAI: CVPR2025/medical_imaging/automated_detection_of_malignant_lesions_in_the_ovary_using_deep_learning_models.md
+    - 'BiCLIP: Bidirectional and Consistent Language-Image Processing for Robust Medical Image Segmentation': CVPR2025/medical_imaging/biclip_bidirectional_and_consistent_language-image_processing_for_robust_medical.md
+    - 'CLoE: Expert Consistency Learning for Missing Modality Segmentation': CVPR2025/medical_imaging/cloe_expert_consistency_learning_for_missing_modality_segmentation.md
+    - 'CycleULM: A Unified Label-Free Deep Learning Framework for Ultrasound Localisation Microscopy': CVPR2025/medical_imaging/cycleulm_a_unified_label-free_deep_learning_framework_for_ultrasound_localisatio.md
+    - 'Decoding Matters: Efficient Mamba-Based Decoder with Distribution-Aware Deep Supervision for Medical Image Segmentation': CVPR2025/medical_imaging/decoding_matters_efficient_mamba-based_decoder_with_distribution-aware_deep_supe.md
+    - Deep Learning Based Estimation of Blood Glucose Levels from Multidirectional Scleral Blood Vessel Imaging: CVPR2025/medical_imaging/deep_learning_based_estimation_of_blood_glucose_levels_from_multidirectional_scl.md
+    - Developing Foundation Models for Universal Segmentation from 3D Whole-Body Positron Emission Tomography: CVPR2025/medical_imaging/developing_foundation_models_for_universal_segmentation_from_3d_whole-body_posit.md
+    - Diffusion-Based Feature Denoising and Using NNMF for Robust Brain Tumor Classification: CVPR2025/medical_imaging/diffusion-based_feature_denoising_and_using_nnmf_for_robust_brain_tumor_classifi.md
+    - 'EquivAnIA: A Spectral Method for Rotation-Equivariant Anisotropic Image Analysis': CVPR2025/medical_imaging/equivania_a_spectral_method_for_rotation-equivariant_anisotropic_image_analysis.md
+    - Evidential learning driven Breast Tumor Segmentation with Stage-divided Vision-Language Interaction: CVPR2025/medical_imaging/evidential_learning_driven_breast_tumor_segmentation_with_stage-divided_vision-l.md
+    - Federated Modality-specific Encoders and Partially Personalized Fusion Decoder for Multimodal Brain Tumor Segmentation: CVPR2025/medical_imaging/federated_modality-specific_encoders_and_partially_personalized_fusion_decoder_f.md
+    - 'GIIM: Graph-based Learning of Inter- and Intra-view Dependencies for Multi-view Medical Image Diagnosis': CVPR2025/medical_imaging/giim_graph-based_learning_of_inter-_and_intra-view_dependencies_for_multi-view_m.md
+    - Human Knowledge Integrated Multi-modal Learning for Single Source Domain Generalization: CVPR2025/medical_imaging/human_knowledge_integrated_multi-modal_learning_for_single_source_domain_general.md
+    - 'MIL-PF: Multiple Instance Learning on Precomputed Features for Mammography Classification': CVPR2025/medical_imaging/mil-pf_multiple_instance_learning_on_precomputed_features_for_mammography_classi.md
+    - Multimodal Classification of Radiation-Induced Contrast Enhancements and Tumor Recurrence Using Deep Learning: CVPR2025/medical_imaging/multimodal_classification_of_radiation-induced_contrast_enhancements_and_tumor_r.md
+    - 'Multimodal Protein Language Models for Enzyme Kinetic Parameters: From Substrate Recognition to Conformational Adaptation': CVPR2025/medical_imaging/multimodal_protein_language_models_for_enzyme_kinetic_parameters_from_substrate_.md
+    - Multiscale Structure-Guided Latent Diffusion for Multimodal MRI Translation: CVPR2025/medical_imaging/multiscale_structure-guided_latent_diffusion_for_multimodal_mri_translation.md
+    - 'NOIR: Neural Operator Mapping for Implicit Representations': CVPR2025/medical_imaging/noir_neural_operator_mapping_for_implicit_representations.md
+    - Novel Architecture of RPA In Oral Cancer Lesion Detection: CVPR2025/medical_imaging/novel_architecture_of_rpa_in_oral_cancer_lesion_detection.md
+    - 'Nyxus: A Next Generation Image Feature Extraction Library for the Big Data and AI Era': CVPR2025/medical_imaging/nyxus_a_next_generation_image_feature_extraction_library_for_the_big_data_and_ai.md
+    - 'LoV3D: Grounding Cognitive Prognosis Reasoning in Longitudinal 3D Brain MRI via Regional Volume Assessments': CVPR2025/medical_imaging/paper_title_lov3d_grounding_cognitive_prognosis_reasoning_in_longitudinal_3d_bra.md
+    - Prototype-Based Knowledge Guidance for Fine-Grained Structured Radiology Reporting: CVPR2025/medical_imaging/prototype-based_knowledge_guidance_for_fine-grained_structured_radiology_reporti.md
+    - 'Reinforcing the Weakest Links: Modernizing SIENA with Targeted Deep Learning Integration': CVPR2025/medical_imaging/reinforcing_the_weakest_links_modernizing_siena_with_targeted_deep_learning_inte.md
+    - ? 'Residual SODAP: Residual Self-Organizing Domain-Adaptive Prompting with Structural
+        Knowledge Preservation for Continual Learning'
+      : CVPR2025/medical_imaging/residual_sodap_residual_self-organizing_domain-adaptive_prompting_with_structura.md
+    - 'SALIENT: Frequency-Aware Paired Diffusion for Controllable Long-Tail CT Detection': CVPR2025/medical_imaging/salient_frequency-aware_paired_diffusion_for_controllable_long-tail_ct_detection.md
+    - 'SAW: Toward a Surgical Action World Model via Controllable and Scalable Video Generation': CVPR2025/medical_imaging/saw_toward_a_surgical_action_world_model_via_controllable_and_scalable_video_gen.md
+    - Semantic Class Distribution Learning for Debiasing Semi-Supervised Medical Image Segmentation: CVPR2025/medical_imaging/semantic_class_distribution_learning_for_debiasing_semi-supervised_medical_image.md
+    - 'SemiTooth: a Generalizable Semi-supervised Framework for Multi-Source Tooth Segmentation': CVPR2025/medical_imaging/semitooth_a_generalizable_semi-supervised_framework_for_multi-source_tooth_segme.md
+    - Transformer-Based Multi-Region Segmentation and Radiomic Analysis of HR-pQCT Imaging for Osteoporosis Classification: CVPR2025/medical_imaging/transformer-based_multi-region_segmentation_and_radiomic_analysis_of_hr-pqct_ima.md
+    - 'UltrasoundAgents: Hierarchical Multi-Agent Evidence-Chain Reasoning for Breast Ultrasound Diagnosis': CVPR2025/medical_imaging/ultrasoundagents_hierarchical_multi-agent_evidence-chain_reasoning_for_breast_ul.md
+    - Uncertainty-Aware Concept and Motion Segmentation for Semi-Supervised Angiography Videos: CVPR2025/medical_imaging/uncertainty-aware_concept_and_motion_segmentation_for_semi-supervised_angiograph.md
+    - 'UNIStainNet: Foundation-Model-Guided Virtual Staining of H&E to IHC': CVPR2025/medical_imaging/unistainnet_foundation-model-guided_virtual_staining_of_he_to_ihc.md
+    - Unleashing Video Language Models for Fine-grained HRCT Report Generation: CVPR2025/medical_imaging/unleashing_video_language_models_for_fine-grained_hrct_report_generation.md
+    - Unmasking Biases and Reliability Concerns in Convolutional Neural Networks Analysis of Cancer Pathology Images: CVPR2025/medical_imaging/unmasking_biases_and_reliability_concerns_in_convolutional_neural_networks_analy.md
+  - 💬 LLM / NLP (32):
+    - 💬 LLM / NLP: CVPR2025/llm_nlp/index.md
+    - ? 'Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck
+        Model with Better Interpretability and Scalability'
+      : CVPR2025/llm_nlp/attribute-formed_class-specific_concept_space_endowing_language_bottleneck_model.md
+    - Breaking the Low-Rank Dilemma of Linear Attention: CVPR2025/llm_nlp/breaking_the_low-rank_dilemma_of_linear_attention.md
+    - Bridging the Vision-Brain Gap with an Uncertainty-Aware Blur Prior: CVPR2025/llm_nlp/bridging_the_vision-brain_gap_with_an_uncertainty-aware_blur_prior.md
+    - Building Vision Models upon Heat Conduction: CVPR2025/llm_nlp/building_vision_models_upon_heat_conduction.md
+    - Chat-based Person Retrieval via Dialogue-Refined Cross-Modal Alignment: CVPR2025/llm_nlp/chat-based_person_retrieval_via_dialogue-refined_cross-modal_alignment.md
+    - 'Classifier-to-Bias: Toward Unsupervised Automatic Bias Detection for Visual Classifiers': CVPR2025/llm_nlp/classifier-to-bias_toward_unsupervised_automatic_bias_detection_for_visual_class.md
+    - 'ComfyBench: Benchmarking LLM-based Agents in ComfyUI for Autonomously Designing Collaborative AI Systems': CVPR2025/llm_nlp/comfybench_benchmarking_llm-based_agents_in_comfyui_for_autonomously_designing_c.md
+    - 'ComRoPE: Scalable and Robust Rotary Position Embedding Parameterized by Trainable Commuting Angle Matrices': CVPR2025/llm_nlp/comrope_scalable_and_robust_rotary_position_embedding_parameterized_by_trainable.md
+    - 'Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders': CVPR2025/llm_nlp/dora_sampling_and_benchmarking_for_3d_shape_variational_auto-encoders.md
+    - Empowering LLMs to Understand and Generate Complex Vector Graphics: CVPR2025/llm_nlp/empowering_llms_to_understand_and_generate_complex_vector_graphics.md
+    - 'Exposure-slot: Exposure-centric Representations Learning with Slot-in-Slot Attention for Region-aware Exposure Correction': CVPR2025/llm_nlp/exposure-slot_exposure-centric_representations_learning_with_slot-in-slot_attent.md
+    - Guiding Human-Object Interactions with Rich Geometry and Relations: CVPR2025/llm_nlp/guiding_human-object_interactions_with_rich_geometry_and_relations.md
+    - 'Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy': CVPR2025/llm_nlp/imagine_and_seek_improving_composed_image_retrieval_with_an_imagined_proxy.md
+    - Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction: CVPR2025/llm_nlp/improving_autoregressive_visual_generation_with_cluster-oriented_token_predictio.md
+    - 'L-SWAG: Layer-Sample Wise Activation with Gradients Information for Zero-Shot NAS on Vision Transformers': CVPR2025/llm_nlp/l-swag_layer-sample_wise_activation_with_gradients_information_for_zero-shot_nas.md
+    - Learning Textual Prompts for Open-World Semi-Supervised Learning: CVPR2025/llm_nlp/learning_textual_prompts_for_open-world_semi-supervised_learning.md
+    - 'Let Samples Speak: Mitigating Spurious Correlation by Exploiting the Clusterness of Samples': CVPR2025/llm_nlp/let_samples_speak_mitigating_spurious_correlation_by_exploiting_the_clusterness_.md
+    - 'Lost in Translation, Found in Context: Sign Language Translation with Contextual Cues': CVPR2025/llm_nlp/lost_in_translation_found_in_context_sign_language_translation_with_contextual_c.md
+    - 'Making Old Film Great Again: Degradation-aware State Space Model for Old Film Restoration': CVPR2025/llm_nlp/making_old_film_great_again_degradation-aware_state_space_model_for_old_film_res.md
+    - 'PosterO: Structuring Layout Trees to Enable Language Models in Generalized Content-Aware Layout Generation': CVPR2025/llm_nlp/postero_structuring_layout_trees_to_enable_language_models_in_generalized_conten.md
+    - 'Rethinking Spiking Self-Attention Mechanism: Implementing a-XNOR Similarity Calculation in Spiking Transformers': CVPR2025/llm_nlp/rethinking_spiking_self-attention_mechanism_implementing_a-xnor_similarity_calcu.md
+    - 'RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives': CVPR2025/llm_nlp/roadsocial_a_diverse_videoqa_dataset_and_benchmark_for_road_event_understanding_.md
+    - Robust Message Embedding via Attention Flow-Based Steganography: CVPR2025/llm_nlp/robust_message_embedding_via_attention_flow-based_steganography.md
+    - 'SATA: Spatial Autocorrelation Token Analysis for Enhancing the Robustness of Vision Transformers': CVPR2025/llm_nlp/sata_spatial_autocorrelation_token_analysis_for_enhancing_the_robustness_of_visi.md
+    - 'ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model': CVPR2025/llm_nlp/scamo_exploring_the_scaling_law_in_autoregressive_motion_generation_model.md
+    - 'SoftShadow: Leveraging Soft Masks for Penumbra-Aware Shadow Removal': CVPR2025/llm_nlp/softshadow_leveraging_soft_masks_for_penumbra-aware_shadow_removal.md
+    - Spiking Transformer with Spatial-Temporal Attention: CVPR2025/llm_nlp/spiking_transformer_with_spatial-temporal_attention.md
+    - 'STAA-SNN: Spatial-Temporal Attention Aggregator for Spiking Neural Networks': CVPR2025/llm_nlp/staa-snn_spatial-temporal_attention_aggregator_for_spiking_neural_networks.md
+    - Test-Time Visual In-Context Tuning: CVPR2025/llm_nlp/test-time_visual_in-context_tuning.md
+    - 'The Change You Want To Detect: Semantic Change Detection In Earth Observation With Hybrid Data Generationf': CVPR2025/llm_nlp/the_change_you_want_to_detect_semantic_change_detection_in_earth_observation_wit.md
+    - 'TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction': CVPR2025/llm_nlp/tide_training_locally_interpretable_domain_generalization_models_enables_test-ti.md
+    - 'VIRES: Video Instance Repainting via Sketch and Text Guided Generation': CVPR2025/llm_nlp/vires_video_instance_repainting_via_sketch_and_text_guided_generation.md
+  - 🧊 3D 视觉 (28):
     - 🧊 3D 视觉: CVPR2025/3d_vision/index.md
     - '3D-GRAND: A Million-Scale Dataset for 3D-LLMs with Better Grounding and Less Hallucination': CVPR2025/3d_vision/3d-grand_a_million-scale_dataset_for_3d-llms_with_better_grounding_and_less_hall.md
     - '3D-GSW: 3D Gaussian Splatting for Robust Watermarking': CVPR2025/3d_vision/3d-gsw_3d_gaussian_splatting_for_robust_watermarking.md
@@ -2639,27 +2808,384 @@ nav:
     - 3D Gaussian Head Avatars with Expressive Dynamic Appearances by Compact Tensorial Representations: CVPR2025/3d_vision/3d_gaussian_head_avatars_with_expressive_dynamic_appearances_by_compact_tensoria.md
     - 3D Gaussian Inpainting with Depth-Guided Cross-View Consistency: CVPR2025/3d_vision/3d_gaussian_inpainting_with_depth-guided_cross-view_consistency.md
     - 3D Student Splatting and Scooping (SSS): CVPR2025/3d_vision/3d_student_splatting_and_scooping.md
-  - 🚗 自动驾驶 (2):
+    - '4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video': CVPR2025/3d_vision/4dequine_disentangling_motion_and_appearance_for_4d_equine_reconstruction_from_m.md
+    - 'FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT': CVPR2025/3d_vision/framevggt_frame_evidence_rolling_memory_for_streaming_vggt.md
+    - 'HOI3DGen: Generating High-Quality Human-Object-Interactions in 3D': CVPR2025/3d_vision/hoi3dgen_generating_high-quality_human-object-interactions_in_3d.md
+    - 'Hybrid eTFCE-GRF: Exact Cluster-Size Retrieval with Analytical p-Values for Voxel-Based Morphometry': CVPR2025/3d_vision/hybrid_etfce-grf_exact_cluster-size_retrieval_with_analytical_p-values_for_voxel.md
+    - 'InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction': CVPR2025/3d_vision/instanthdr_single-forward_gaussian_splatting_for_high_dynamic_range_3d_reconstru.md
+    - 'JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas': CVPR2025/3d_vision/jopp-3d_joint_open_vocabulary_semantic_segmentation_on_point_clouds_and_panorama.md
+    - 'Mobile-GS: Real-time Gaussian Splatting for Mobile Devices': CVPR2025/3d_vision/mobile-gs_real-time_gaussian_splatting_for_mobile_devices.md
+    - 'MotionAnyMesh: Physics-Grounded Articulation for Simulation-Ready Digital Twins': CVPR2025/3d_vision/motionanymesh_physics-grounded_articulation_for_simulation-ready_digital_twins.md
+    - 'Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs': CVPR2025/3d_vision/node-rf_learning_generalized_continuous_space-time_scene_dynamics_with_neural_od.md
+    - 'P-SLCR: Unsupervised Point Cloud Semantic Segmentation via Prototypes Structure Learning and Consistent Reasoning': CVPR2025/3d_vision/p-slcr_unsupervised_point_cloud_semantic_segmentation_via_prototypes_structure_l.md
+    - 'Pano360: Perspective to Panoramic Vision with Geometric Consistency': CVPR2025/3d_vision/pano360_perspective_to_panoramic_vision_with_geometric_consistency.md
+    - Regularizing INR with Diffusion Prior for Self-Supervised 3D Reconstruction of Neutron CT Data: CVPR2025/3d_vision/regularizing_inr_with_diffusion_prior_self-supervised_3d_reconstruction_of_neutr.md
+    - 'Rewis3d: Reconstruction Improves Weakly-Supervised Semantic Segmentation': CVPR2025/3d_vision/rewis3d_reconstruction_improves_weakly-supervised_semantic_segmentation.md
+    - 'SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation': CVPR2025/3d_vision/scope_scene-contextualized_incremental_few-shot_3d_segmentation.md
+    - Spectral Defense Against Resource-Targeting Attack in 3D Gaussian Splatting: CVPR2025/3d_vision/spectral_defense_against_resource-targeting_attack_in_3d_gaussian_splatting.md
+    - Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos: CVPR2025/3d_vision/towards_spatio-temporal_world_scene_graph_generation_from_monocular_videos.md
+    - 'VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM': CVPR2025/3d_vision/varsplat_uncertainty-aware_3d_gaussian_splatting_for_robust_rgb-d_slam.md
+  - 🎨 图像生成 (19):
+    - 🎨 图像生成: CVPR2025/image_generation/index.md
+    - 'AS-Bridge: A Bidirectional Generative Framework Bridging Next-Generation Astronomical Surveys': CVPR2025/image_generation/as-bridge_a_bidirectional_generative_framework_bridging_next-generation_astronom.md
+    - 'Beyond Convolution: A Taxonomy of Structured Operators for Learning-Based Image Processing': CVPR2025/image_generation/beyond_convolution_a_taxonomy_of_structured_operators_for_learning-based_image_p.md
+    - 'BiGain: Unified Token Compression for Joint Generation and Classification': CVPR2025/image_generation/bigain_unified_token_compression_for_joint_generation_and_classification.md
+    - 'coDrawAgents: A Multi-Agent Dialogue Framework for Compositional Image Generation': CVPR2025/image_generation/codrawagents_a_multi-agent_dialogue_framework_for_compositional_image_generation.md
+    - 'DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression': CVPR2025/image_generation/dit-ic_aligned_diffusion_transformer_for_efficient_image_compression.md
+    - 'Editing Away the Evidence: Diffusion-Based Image Manipulation and the Failure Modes of Robust Watermarking': CVPR2025/image_generation/editing_away_the_evidence_diffusion-based_image_manipulation_and_the_failure_mod.md
+    - Enhancing Image Aesthetics with Dual-Conditioned Diffusion Models Guided by Multimodal Perception: CVPR2025/image_generation/enhancing_image_aesthetics_with_dual-conditioned_diffusion_models_guided_by_mult.md
+    - 'EvoTok: A Unified Image Tokenizer via Residual Latent Evolution for Visual Understanding and Generation': CVPR2025/image_generation/evotok_a_unified_image_tokenizer_via_residual_latent_evolution_for_visual_unders.md
+    - 'Fractals made Practical: Denoising Diffusion as Partitioned Iterated Function Systems': CVPR2025/image_generation/fractals_made_practical_denoising_diffusion_as_partitioned_iterated_function_sys.md
+    - Generation of Maximal Snake Polyominoes Using a Deep Neural Network: CVPR2025/image_generation/generation_of_maximal_snake_polyominoes_using_a_deep_neural_network.md
+    - 'InterEdit: Navigating Text-Guided Multi-Human 3D Motion Editing': CVPR2025/image_generation/interedit_navigating_text-guided_multi-human_3d_motion_editing.md
+    - 'One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers': CVPR2025/image_generation/one_model_many_budgets_elastic_latent_interfaces_for_diffusion_transformers.md
+    - Overcoming Visual Clutter in Vision Language Action Models via Concept-Gated Visual Distillation: CVPR2025/image_generation/overcoming_visual_clutter_in_vision_language_action_models_via_concept-gated_vis.md
+    - 'Taming Score-Based Denoisers in ADMM: A Convergent Plug-and-Play Framework': CVPR2025/image_generation/taming_score-based_denoisers_in_admm_a_convergent_plug-and-play_framework.md
+    - 'Trust Your Critic: Robust Reward Modeling and Reinforcement Learning for Faithful Image Editing and Generation': CVPR2025/image_generation/trust_your_critic_robust_reward_modeling_and_reinforcement_learning_for_faithful.md
+    - Unicom Unified Multimodal Modeling Via Compressed Continuous Semantic Representa: CVPR2025/image_generation/unicom_unified_multimodal_modeling_via_compressed_continuous_semantic_representa.md
+    - V-Bridge Bridging Video Generative Priors To Versatile Few-Shot Image Restoratio: CVPR2025/image_generation/v-bridge_bridging_video_generative_priors_to_versatile_few-shot_image_restoratio.md
+    - Visual-Erm Reward Modeling For Visual Equivalence: CVPR2025/image_generation/visual-erm_reward_modeling_for_visual_equivalence.md
+    - When To Lock Attention Training-Free Kv Control In Video Diffusion: CVPR2025/image_generation/when_to_lock_attention_training-free_kv_control_in_video_diffusion.md
+  - ⚖️ 对齐 / RLHF (15):
+    - ⚖️ 对齐 / RLHF: CVPR2025/llm_alignment/index.md
+    - Aesthetic Post-Training Diffusion Models from Generic Preferences with Step-by-step Preference Optimization: CVPR2025/llm_alignment/aesthetic_post-training_diffusion_models_from_generic_preferences_with_step-by-s.md
+    - 'Bases of Steerable Kernels for Equivariant CNNs: From 2D Rotations to the Lorentz Group': CVPR2025/llm_alignment/bases_of_steerable_kernels_for_equivariant_cnns_from_2d_rotations_to_the_lorentz.md
+    - Boost Your Human Image Generation Model via Direct Preference Optimization: CVPR2025/llm_alignment/boost_your_human_image_generation_model_via_direct_preference_optimization.md
+    - 'CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation': CVPR2025/llm_alignment/cad-llama_leveraging_large_language_models_for_computer-aided_design_parametric_.md
+    - Calibrated Multi-Preference Optimization for Aligning Diffusion Models: CVPR2025/llm_alignment/calibrated_multi-preference_optimization_for_aligning_diffusion_models.md
+    - Continual SFT Matches Multimodal RLHF with Negative Supervision: CVPR2025/llm_alignment/continual_sft_matches_multimodal_rlhf_with_negative_supervision.md
+    - Curriculum Direct Preference Optimization for Diffusion and Consistency Models: CVPR2025/llm_alignment/curriculum_direct_preference_optimization_for_diffusion_and_consistency_models.md
+    - Debiasing Multimodal Large Language Models via Noise-Aware Preference Optimization: CVPR2025/llm_alignment/debiasing_multimodal_large_language_models_via_noise-aware_preference_optimizati.md
+    - Do We Really Need Curated Malicious Data for Safety Alignment in Multi-Modal Large Language Models?: CVPR2025/llm_alignment/do_we_really_need_curated_malicious_data_for_safety_alignment_in_multi-modal_lar.md
+    - Enhancing SAM with Efficient Prompting and Preference Optimization for Semi-Supervised Medical Image Segmentation: CVPR2025/llm_alignment/enhancing_sam_with_efficient_prompting_and_preference_optimization_for_semi-supe.md
+    - 'InPO: Inversion Preference Optimization with Reparametrized DDIM for Efficient Diffusion Model Alignment': CVPR2025/llm_alignment/inpo_inversion_preference_optimization_with_reparametrized_ddim_for_efficient_di.md
+    - Jailbreaking the Non-Transferable Barrier via Test-Time Data Disguising: CVPR2025/llm_alignment/jailbreaking_the_non-transferable_barrier_via_test-time_data_disguising.md
+    - 'PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization': CVPR2025/llm_alignment/physmodpo_physically-plausible_humanoid_motion_with_preference_optimization.md
+    - 'SymDPO: Boosting In-Context Learning of Large Multimodal Models with Symbol Demonstration Direct Preference Optimization': CVPR2025/llm_alignment/symdpo_boosting_in-context_learning_of_large_multimodal_models_with_symbol_demon.md
+    - 'Task Preference Optimization: Improving Multimodal Large Language Models with Vision Task Alignment': CVPR2025/llm_alignment/task_preference_optimization_improving_multimodal_large_language_models_with_vis.md
+  - 👁️ 多模态 VLM (15):
+    - 👁️ 多模态 VLM: CVPR2025/multimodal_vlm/index.md
+    - A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks: CVPR2025/multimodal_vlm/a_closed-form_solution_for_debiasing_vision-language_models_with_utility_guarant.md
+    - 'Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation': CVPR2025/multimodal_vlm/beyond_final_answers_crystal_benchmark_for_transparent_multimodal_reasoning_eval.md
+    - 'CodePercept: Code-Grounded Visual STEM Perception for MLLMs': CVPR2025/multimodal_vlm/codepercept_code-grounded_visual_stem_perception_for_mllms.md
+    - Continual Learning with Vision-Language Models via Semantic-Geometry Preservation: CVPR2025/multimodal_vlm/continual_learning_with_vision-language_models_via_semantic-geometry_preservatio.md
+    - 'ESPIRE: A Diagnostic Benchmark for Embodied Spatial Reasoning of Vision-Language Models': CVPR2025/multimodal_vlm/espire_a_diagnostic_benchmark_for_embodied_spatial_reasoning_of_vision-language_.md
+    - 'ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models': CVPR2025/multimodal_vlm/forensiczip_more_tokens_are_better_but_not_necessary_in_forensic_vision-language.md
+    - Geometry-Guided Camera Motion Understanding in VideoLLMs: CVPR2025/multimodal_vlm/geometry-guided_camera_motion_understanding_in_videollms.md
+    - 'HiFICL: High-Fidelity In-Context Learning for Multimodal Tasks': CVPR2025/multimodal_vlm/hificl_high-fidelity_in-context_learning_for_multimodal_tasks.md
+    - 'Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning': CVPR2025/multimodal_vlm/mastering_negation_boosting_grounding_models_via_grouped_opposition-based_learni.md
+    - 'Multimodal OCR: Parse Anything from Documents': CVPR2025/multimodal_vlm/multimodal_ocr_parse_anything_from_documents.md
+    - Revisiting Model Stitching in the Foundation Model Era: CVPR2025/multimodal_vlm/revisiting_model_stitching_in_the_foundation_model_era.md
+    - 'Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA': CVPR2025/multimodal_vlm/spatial_reasoning_is_not_a_free_lunch_a_controlled_study_on_llava.md
+    - 'CleanSight: Test-Time Attention Purification for Backdoored Large Vision Language Models': CVPR2025/multimodal_vlm/test-time_attention_purification_for_backdoored_large_vision_language_models.md
+    - 'Topo-R1: Detecting Topological Anomalies via Vision-Language Models': CVPR2025/multimodal_vlm/topo-r1_detecting_topological_anomalies_via_vision-language_models.md
+    - Towards Faithful Multimodal Concept Bottleneck Models: CVPR2025/multimodal_vlm/towards_faithful_multimodal_concept_bottleneck_models.md
+  - 🚗 自动驾驶 (14):
     - 🚗 自动驾驶: CVPR2025/autonomous_driving/index.md
     - '3D-AVS: LiDAR-based 3D Auto-Vocabulary Segmentation': CVPR2025/autonomous_driving/3d-avs_lidar-based_3d_auto-vocabulary_segmentation.md
     - 'ProtoOcc: 3D Occupancy Prediction with Low-Resolution Queries via Prototype-aware View Transformation': CVPR2025/autonomous_driving/3d_occupancy_prediction_with_low-resolution_queries_via_prototype-aware_view_tra.md
-  - 🧑 人体理解 (1):
-    - 🧑 人体理解: CVPR2025/human_understanding/index.md
-    - 3D Face Reconstruction From Radar Images: CVPR2025/human_understanding/3d_face_reconstruction_from_radar_images.md
-  - 🤖 机器人/具身智能 (1):
-    - 🤖 机器人/具身智能: CVPR2025/robotics/index.md
-    - '3D-MVP: 3D Multiview Pretraining for Robotic Manipulation': CVPR2025/robotics/3d-mvp_3d_multiview_pretraining_for_manipulation.md
-  - ✂️ 语义分割 (1):
+    - A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning: CVPR2025/autonomous_driving/a_neuro-symbolic_framework_combining_inductive_and_deductive_reasoning_for_auton.md
+    - 'PAP: A Prediction-as-Perception Framework for 3D Object Detection': CVPR2025/autonomous_driving/a_prediction-as-perception_framework_for_3d_object_detection.md
+    - 'CAWM-Mamba: A Unified Model for Infrared-Visible Image Fusion and Compound Adverse Weather Restoration': CVPR2025/autonomous_driving/cawm-mamba_a_unified_model_for_infrared-visible_image_fusion_and_compound_advers.md
+    - 'CompoSIA: Composing Driving Worlds through Disentangled Control for Adversarial Scenario Generation': CVPR2025/autonomous_driving/composing_driving_worlds_through_disentangled_control_for_adversarial_scenario_g.md
+    - 'LR-SGS: Robust LiDAR-Reflectance-Guided Salient Gaussian Splatting for Self-Driving Scene Reconstruction': CVPR2025/autonomous_driving/lr-sgs_robust_lidar-reflectance-guided_salient_gaussian_splatting_for_self-drivi.md
+    - 'M²-Occ: Resilient 3D Semantic Occupancy Prediction for Autonomous Driving with Incomplete Camera Inputs': CVPR2025/autonomous_driving/m2-occ_resilient_3d_semantic_occupancy_prediction_for_autonomous_driving_with_in.md
+    - 'MapGCLR: Geospatial Contrastive Learning of Representations for Online Vectorized HD Map Construction': CVPR2025/autonomous_driving/mapgclr_geospatial_contrastive_learning_of_representations_for_online_vectorized.md
+    - 'O3N: Omnidirectional Open-Vocabulary Occupancy Prediction': CVPR2025/autonomous_driving/o3n_omnidirectional_open-vocabulary_occupancy_prediction.md
+    - Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots: CVPR2025/autonomous_driving/panoramic_multimodal_semantic_occupancy_prediction_for_quadruped_robots.md
+    - Single Pixel Image Classification using an Ultrafast Digital Light Projector: CVPR2025/autonomous_driving/single_pixel_image_classification_using_an_ultrafast_digital_light_projector.md
+    - Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis: CVPR2025/autonomous_driving/spectral-geometric_neural_fields_for_pose-free_lidar_view_synthesis.md
+    - 'VIRD: View-Invariant Representation through Dual-Axis Transformation for Cross-View Pose Estimation': CVPR2025/autonomous_driving/vird_view-invariant_representation_through_dual-axis_transformation_for_cross-vi.md
+  - ✂️ 语义分割 (13):
     - ✂️ 语义分割: CVPR2025/segmentation/index.md
     - ? '2DMamba: Efficient State Space Model for Image Representation with Applications
         on Giga-Pixel Whole Slide Image Classification'
       : CVPR2025/segmentation/2dmamba_efficient_state_space_model_for_image_representation_with_applications_o.md
-  - 📂 其他 (1):
+    - Binwang2Hfnet Geogran-Aware Hierarchical Feature Fusion Network For Salient Obje: CVPR2025/segmentation/binwang2hfnet_geogran-aware_hierarchical_feature_fusion_network_for_salient_obje.md
+    - Crossearth-Sar A Sar-Centric And Billion-Scale Geospatial Foundation Model For D: CVPR2025/segmentation/crossearth-sar_a_sar-centric_and_billion-scale_geospatial_foundation_model_for_d.md
+    - Efficient Rgb-D Scene Understanding Via Multi-Task Adaptive Learning And Cross-D: CVPR2025/segmentation/efficient_rgb-d_scene_understanding_via_multi-task_adaptive_learning_and_cross-d.md
+    - 'HFP-SAM: Hierarchical Frequency Prompted SAM for Efficient Marine Animal Segmentation': CVPR2025/segmentation/hfp-sam_hierarchical_frequency_prompted_sam_for_efficient_marine_animal_segmenta.md
+    - 'PicoSAM3: Real-Time In-Sensor Region-of-Interest Segmentation': CVPR2025/segmentation/picosam3_real-time_in-sensor_region-of-interest_segmentation.md
+    - Prompt-Driven Lightweight Foundation Model for Instance Segmentation-Based Fault Detection in Freight Trains: CVPR2025/segmentation/prompt-driven_lightweight_foundation_model_for_instance_segmentation-based_fault.md
+    - 'RDNet: Region Proportion-Aware Dynamic Adaptive Salient Object Detection Network in Optical Remote Sensing Images': CVPR2025/segmentation/rdnet_region_proportion-aware_dynamic_adaptive_salient_object_detection_network_.md
+    - 'RSONet: Region-guided Selective Optimization Network for RGB-T Salient Object Detection': CVPR2025/segmentation/rsonet_region-guided_selective_optimization_network_for_rgb-t_salient_object_det.md
+    - 'SAP: Segment Any 4K Panorama': CVPR2025/segmentation/sap_segment_any_4k_panorama.md
+    - 'SGMA: Semantic-Guided Modality-Aware Segmentation for Remote Sensing with Incomplete Multimodal Data': CVPR2025/segmentation/sgma_semantic-guided_modality-aware_segmentation_for_remote_sensing_with_incompl.md
+    - 'SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs': CVPR2025/segmentation/sparrow_learning_spatial_precision_and_temporal_referential_consistency_in_pixel.md
+    - Spatio-Semantic Expert Routing Architecture with Mixture-of-Experts for Referring Image Segmentation: CVPR2025/segmentation/spatio-semantic_expert_routing_architecture_with_mixture-of-experts_for_referrin.md
+  - ⚡ LLM 效率 (12):
+    - ⚡ LLM 效率: CVPR2025/llm_efficiency/index.md
+    - Associative Transformer: CVPR2025/llm_efficiency/associative_transformer.md
+    - 'CARE Transformer: Mobile-Friendly Linear Visual Transformer via Decoupled Dual Interaction': CVPR2025/llm_efficiency/care_transformer_mobile-friendly_linear_visual_transformer_via_decoupled_dual_in.md
+    - Efficient Data Driven Mixture-of-Expert Extraction from Trained Networks: CVPR2025/llm_efficiency/efficient_data_driven_mixture-of-expert_extraction_from_trained_networks.md
+    - Improving Accuracy and Calibration via Differentiated Deep Mutual Learning: CVPR2025/llm_efficiency/improving_accuracy_and_calibration_via_differentiated_deep_mutual_learning.md
+    - 'KAC: Kolmogorov-Arnold Classifier for Continual Learning': CVPR2025/llm_efficiency/kac_kolmogorov-arnold_classifier_for_continual_learning.md
+    - Language Guided Concept Bottleneck Models for Interpretable Continual Learning: CVPR2025/llm_efficiency/language_guided_concept_bottleneck_models_for_interpretable_continual_learning.md
+    - 'LOCORE: Image Re-ranking with Long-Context Sequence Modeling': CVPR2025/llm_efficiency/locore_image_re-ranking_with_long-context_sequence_modeling.md
+    - Low-Rank Adaptation in Multilinear Operator Networks for Security-Preserving Incremental Learning: CVPR2025/llm_efficiency/low-rank_adaptation_in_multilinear_operator_networks_for_security-preserving_inc.md
+    - SEC-Prompt:SEmantic Complementary Prompting for Few-Shot Class-Incremental Learning: CVPR2025/llm_efficiency/sec-promptsemantic_complementary_prompting_for_few-shot_class-incremental_learni.md
+    - 'Seeing What Matters: Empowering CLIP with Patch Generation-to-Selection': CVPR2025/llm_efficiency/seeing_what_matters_empowering_clip_with_patch_generation-to-selection.md
+    - 'Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training': CVPR2025/llm_efficiency/spatial-ttt_streaming_visual-based_spatial_intelligence_with_test-time_training.md
+    - 'Spiking Transformer: Introducing Accurate Addition-Only Spiking Self-Attention for Transformer': CVPR2025/llm_efficiency/spiking_transformer_introducing_accurate_addition-only_spiking_self-attention_fo.md
+  - 🦾 LLM Agent (11):
+    - 🦾 LLM Agent: CVPR2025/llm_agent/index.md
+    - 'ATA: Adaptive Transformation Agent for Text-Guided Subject-Position Variable Background Inpainting': CVPR2025/llm_agent/ata_adaptive_transformation_agent_for_text-guided_subject-position_variable_back.md
+    - 'ChatHuman: Chatting about 3D Humans with Tools': CVPR2025/llm_agent/chathuman_chatting_about_3d_humans_with_tools.md
+    - 'Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile Gaussian Feature Fields': CVPR2025/llm_agent/feature4x_bridging_any_monocular_video_to_4d_agentic_ai_with_versatile_gaussian_.md
+    - 'GUI-Xplore: Empowering Generalizable GUI Agents with One Exploration': CVPR2025/llm_agent/gui-xplore_empowering_generalizable_gui_agents_with_one_exploration.md
+    - 'RL-RC-DoT: A Block-level RL Agent for Task-Aware Video Compression': CVPR2025/llm_agent/rl-rc-dot_a_block-level_rl_agent_for_task-aware_video_compression.md
+    - 'SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation': CVPR2025/llm_agent/sceneassistant_a_visual_feedback_agent_for_open-vocabulary_3d_scene_generation.md
+    - 'Sketchtopia: A Dataset and Foundational Agents for Benchmarking Asynchronous Multimodal Communication with Iconic Feedback': CVPR2025/llm_agent/sketchtopia_a_dataset_and_foundational_agents_for_benchmarking_asynchronous_mult.md
+    - 'SpiritSight Agent: Advanced GUI Agent with One Look': CVPR2025/llm_agent/spiritsight_agent_advanced_gui_agent_with_one_look.md
+    - 'TANGO: Training-free Embodied AI Agents for Open-world Tasks': CVPR2025/llm_agent/tango_training-free_embodied_ai_agents_for_open-world_tasks.md
+    - 'V-Stylist: Video Stylization via Collaboration and Reflection of MLLM Agents': CVPR2025/llm_agent/v-stylist_video_stylization_via_collaboration_and_reflection_of_mllm_agents.md
+    - Visual Agentic AI for Spatial Reasoning with a Dynamic API: CVPR2025/llm_agent/visual_agentic_ai_for_spatial_reasoning_with_a_dynamic_api.md
+  - 🤖 机器人/具身智能 (9):
+    - 🤖 机器人/具身智能: CVPR2025/robotics/index.md
+    - '3D-MVP: 3D Multiview Pretraining for Robotic Manipulation': CVPR2025/robotics/3d-mvp_3d_multiview_pretraining_for_manipulation.md
+    - 'Expert Pyramid Tuning: Efficient Parameter Fine-Tuning for Expertise-Driven Task Allocation': CVPR2025/robotics/expert_pyramid_tuning_efficient_parameter_fine-tuning_for_expertise-driven_task_.md
+    - 'Influence Malleability in Linearized Attention: Dual Implications of Non-Convergent NTK Dynamics': CVPR2025/robotics/influence_malleability_in_linearized_attention_dual_implications_of_non-converge.md
+    - 'LaDA: Language-Grounded Decoupled Action Representation for Robotic Manipulation': CVPR2025/robotics/language-grounded_decoupled_action_representation_for_robotic_manipulation.md
+    - 'One Token, Two Fates: A Unified Framework via Vision Token Manipulation Against MLLMs Hallucination': CVPR2025/robotics/one_token_two_fates_a_unified_framework_via_vision_token_manipulation_against_ml.md
+    - 'PanoAffordanceNet: Towards Holistic Affordance Grounding in 360° Indoor Environments': CVPR2025/robotics/panoaffordancenet_towards_holistic_affordance_grounding_in_360_indoor_environmen.md
+    - 'SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics': CVPR2025/robotics/sapave_towards_active_perception_and_manipulation_in_vision-language-action_mode.md
+    - 'SortScrews: A Dataset and Baseline for Real-time Screw Classification': CVPR2025/robotics/sortscrews_a_dataset_and_baseline_for_real-time_screw_classification.md
+    - 'TinyNav: End-to-End TinyML for Real-Time Autonomous Navigation on Microcontrollers': CVPR2025/robotics/tinynav_end-to-end_tinyml_for_real-time_autonomous_navigation_on_microcontroller.md
+  - 🧑 人体理解 (8):
+    - 🧑 人体理解: CVPR2025/human_understanding/index.md
+    - 3D Face Reconstruction From Radar Images: CVPR2025/human_understanding/3d_face_reconstruction_from_radar_images.md
+    - 'Breaking the Tuning Barrier: Zero-Hyperparameters Yield Multi-Corner Analysis Via Learned Priors': CVPR2025/human_understanding/breaking_the_tuning_barrier_zero-hyperparameters_yield_multi-corner_analysis_via.md
+    - 'L2GTX: From Local to Global Time Series Explanations': CVPR2025/human_understanding/l2gtx_from_local_to_global_time_series_explanations.md
+    - 'MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning': CVPR2025/human_understanding/mm-condchain_a_programmatically_verified_benchmark_for_visually_grounded_deep_co.md
+    - 'NBAvatar: Neural Billboards Avatars with Realistic Hand-Face Interaction': CVPR2025/human_understanding/nbavatar_neural_billboards_avatars_with_realistic_hand-face_interaction.md
+    - 'Perceive What Matters: Relevance-Driven Scheduling for Multimodal Streaming Perception': CVPR2025/human_understanding/perceive_what_matters_relevance-driven_scheduling_for_multimodal_streaming_perce.md
+    - Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback: CVPR2025/human_understanding/reference-free_image_quality_assessment_for_virtual_try-on_via_human_feedback.md
+    - 'Team RAS in 10th ABAW Competition: Multimodal Valence and Arousal Estimation Approach': CVPR2025/human_understanding/team_ras_in_10th_abaw_competition_multimodal_valence_and_arousal_estimation_appr.md
+  - 🎬 视频理解 (8):
+    - 🎬 视频理解: CVPR2025/video_understanding/index.md
+    - Behaviorvlm Unified Finetuning-Free Behavioral Understanding With Vision-Languag: CVPR2025/video_understanding/behaviorvlm_unified_finetuning-free_behavioral_understanding_with_vision-languag.md
+    - Beyond Single-Sample Reliable Multi-Sample Distillation For Video Understanding: CVPR2025/video_understanding/beyond_single-sample_reliable_multi-sample_distillation_for_video_understanding.md
+    - Fc-Track Overlap-Aware Post-Association Correction For Online Multi-Object Track: CVPR2025/video_understanding/fc-track_overlap-aware_post-association_correction_for_online_multi-object_track.md
+    - 'Reasoning over Video: Evaluating How MLLMs Extract, Integrate, and Reconstruct Spatiotemporal Evidence': CVPR2025/video_understanding/reasoning_over_video_evaluating_how_mllms_extract_integrate_and_reconstruct_spat.md
+    - Semantic Satellite Communications for Synchronized Audiovisual Reconstruction: CVPR2025/video_understanding/semantic_satellite_communications_for_synchronized_audiovisual_reconstruction.md
+    - 'VCBench: A Streaming Counting Benchmark for Spatial-Temporal State Maintenance in Long Videos': CVPR2025/video_understanding/vcbench_a_streaming_counting_benchmark_for_spatial-temporal_state_maintenance_in.md
+    - 'Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously': CVPR2025/video_understanding/video_streaming_thinking_videollms_can_watch_and_think_simultaneously.md
+    - 'World2Act: Latent Action Post-Training via Skill-Compositional World Models': CVPR2025/video_understanding/world2act_latent_action_post-training_via_skill-compositional_world_models.md
+  - 💡 LLM 推理 (7):
+    - 💡 LLM 推理: CVPR2025/llm_reasoning/index.md
+    - 'Argus: Vision-Centric Reasoning with Grounded Chain-of-Thought': CVPR2025/llm_reasoning/argus_vision-centric_reasoning_with_grounded_chain-of-thought.md
+    - 'CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models': CVPR2025/llm_reasoning/cot-vla_visual_chain-of-thought_reasoning_for_vision-language-action_models.md
+    - Interleaved-Modal Chain-of-Thought: CVPR2025/llm_reasoning/interleaved-modal_chain-of-thought.md
+    - Learning-enabled Polynomial Lyapunov Function Synthesis via High-Accuracy Counterexample-Guided Framework: CVPR2025/llm_reasoning/learning-enabled_polynomial_lyapunov_function_synthesis_via_high-accuracy_counte.md
+    - 'Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval': CVPR2025/llm_reasoning/reason-before-retrieve_one-stage_reflective_chain-of-thoughts_for_training-free_.md
+    - Style Evolving along Chain-of-Thought for Unknown-Domain Object Detection: CVPR2025/llm_reasoning/style_evolving_along_chain-of-thought_for_unknown-domain_object_detection.md
+    - 'VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection': CVPR2025/llm_reasoning/videoespresso_a_large-scale_chain-of-thought_dataset_for_fine-grained_video_reas.md
+  - 🎯 目标检测 (6):
+    - 🎯 目标检测: CVPR2025/object_detection/index.md
+    - 'Abra Teleporting Fine-Tuned Knowledge Across Domains For Open-Vocabulary Object ': CVPR2025/object_detection/abra_teleporting_fine-tuned_knowledge_across_domains_for_open-vocabulary_object_.md
+    - Dreamvideo-Omni Omni-Motion Controlled Multi-Subject Video Customization With La: CVPR2025/object_detection/dreamvideo-omni_omni-motion_controlled_multi-subject_video_customization_with_la.md
+    - Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection: CVPR2025/object_detection/mitigating_memorization_in_text-to-image_diffusion_via_region-aware_prompt_augme.md
+    - 'MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization': CVPR2025/object_detection/mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md
+    - 'SDF-Net: Structure-Aware Disentangled Feature Learning for Optical–SAR Ship Re-Identification': CVPR2025/object_detection/sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md
+    - Small Target Detection Based on Mask-Enhanced Attention Fusion of Visible and Infrared Remote Sensing Images: CVPR2025/object_detection/small_target_detection_based_on_mask-enhanced_attention_fusion_of_visible_and_in.md
+  - 📦 模型压缩 (5):
+    - 📦 模型压缩: CVPR2025/model_compression/index.md
+    - Alternating Gradient Flow Utility A Unified Metric For Structural Pruning And Dy: CVPR2025/model_compression/alternating_gradient_flow_utility_a_unified_metric_for_structural_pruning_and_dy.md
+    - An Fpga Implementation Of Displacement Vector Search For Intra Pattern Copy In J: CVPR2025/model_compression/an_fpga_implementation_of_displacement_vector_search_for_intra_pattern_copy_in_j.md
+    - Arche Autoregressive Residual Compression With Hyperprior And Excitation: CVPR2025/model_compression/arche_autoregressive_residual_compression_with_hyperprior_and_excitation.md
+    - 'GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration': CVPR2025/model_compression/geochemad_benchmarking_unsupervised_geochemical_anomaly_detection_for_mineral_ex.md
+    - 'HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers': CVPR2025/model_compression/hiap_a_multi-granular_stochastic_auto-pruning_framework_for_vision_transformers.md
+  - 🛡️ AI 安全 (4):
+    - 🛡️ AI 安全: CVPR2025/ai_safety/index.md
+    - Lyapunov Stable Graph Neural Flow: CVPR2025/ai_safety/lyapunov_stable_graph_neural_flow.md
+    - 'Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating': CVPR2025/ai_safety/neural_gate_mitigating_privacy_risks_in_lvlms_via_neuron-level_gradient_gating.md
+    - Rethinking VLMs for Image Forgery Detection and Localization: CVPR2025/ai_safety/rethinking_vlms_for_image_forgery_detection_and_localization.md
+    - 'STRAP-ViT: Segregated Tokens with Randomized Transformations for Defense against Adversarial Patches in ViTs': CVPR2025/ai_safety/strap-vit_segregated_tokens_with_randomized_--_transformations_for_defense_again.md
+  - ✍️ 文本生成 (4):
+    - ✍️ 文本生成: CVPR2025/nlp_generation/index.md
+    - 'ArtFormer: Controllable Generation of Diverse 3D Articulated Objects': CVPR2025/nlp_generation/artformer_controllable_generation_of_diverse_3d_articulated_objects.md
+    - Dense Match Summarization for Faster Two-view Estimation: CVPR2025/nlp_generation/dense_match_summarization_for_faster_two-view_estimation.md
+    - 'LotusFilter: Fast Diverse Nearest Neighbor Search via a Learned Cutoff Table': CVPR2025/nlp_generation/lotusfilter_fast_diverse_nearest_neighbor_search_via_a_learned_cutoff_table.md
+    - 'The Scene Language: Representing Scenes with Programs, Words, and Embeddings': CVPR2025/nlp_generation/the_scene_language_representing_scenes_with_programs_words_and_embeddings.md
+  - 🛰️ 遥感 (4):
+    - 🛰️ 遥感: CVPR2025/remote_sensing/index.md
+    - Hierarchical Dual-Change Collaborative Learning for UAV Scene Change Captioning: CVPR2025/remote_sensing/hierarchical_dual-change_collaborative_learning_for_uav_scene_change_captioning.md
+    - Joint and Streamwise Distributed MIMO Satellite Communications with Multi-Antenna Ground Users: CVPR2025/remote_sensing/joint_and_streamwise_distributed_mimo_satellite_communications_with_multi-antenn.md
+    - 'MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging': CVPR2025/remote_sensing/metaspectra_a_compact_broadband_metasurface_camera_for_snapshot_hyperspectral_im.md
+    - 'Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing': CVPR2025/remote_sensing/think_and_answer_me_benchmarking_and_exploring_multi-entity_reasoning_grounding_.md
+  - 🖼️ 图像恢复 (3):
+    - 🖼️ 图像恢复: CVPR2025/image_restoration/index.md
+    - Polishing The Sky Wide-Field And High-Dynamic Range Interferometric Image Recons: CVPR2025/image_restoration/polishing_the_sky_wide-field_and_high-dynamic_range_interferometric_image_recons.md
+    - 'OptiFusion: Towards Universal Computational Aberration Correction in Photographic Cameras': CVPR2025/image_restoration/towards_universal_computational_aberration_correction_in_photographic_cameras_a_.md
+    - Variational Garrote for Sparse Inverse Problems: CVPR2025/image_restoration/variational_garrote_for_sparse_inverse_problems.md
+  - 🔄 自监督/表示学习 (3):
+    - 🔄 自监督/表示学习: CVPR2025/self_supervised/index.md
+    - 'BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning': CVPR2025/self_supervised/boss_a_best-of-strategies_selector_as_an_oracle_for_deep_active_learning.md
+    - Representation Learning for Spatiotemporal Physical Systems: CVPR2025/self_supervised/representation_learning_for_spatiotemporal_physical_systems.md
+    - Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval: CVPR2025/self_supervised/text-phase_synergy_network_with_dual_priors_for_unsupervised_cross-domain_image_.md
+  - 📖 NLP 理解 (2):
+    - 📖 NLP 理解: CVPR2025/nlp_understanding/index.md
+    - As Language Models Scale, Low-order Linear Depth Dynamics Emerge: CVPR2025/nlp_understanding/as_language_models_scale_low-order_linear_depth_dynamics_emerge.md
+    - As Language Models Scale, Low-order Linear Depth Dynamics Emerge: CVPR2025/nlp_understanding/as_language_models_scale_low-order_linear_depth_dynamics_emerge_v2.md
+  - 🎵 音频/语音 (1):
+    - 🎵 音频/语音: CVPR2025/audio_speech/index.md
+    - 'Team LEYA in 10th ABAW Competition: Multimodal Ambivalence/Hesitancy Recognition Approach': CVPR2025/audio_speech/team_leya_in_10th_abaw_competition_multimodal_ambivalencehesitancy_recognition_a.md
+  - 📐 优化/理论 (1):
+    - 📐 优化/理论: CVPR2025/optimization/index.md
+    - 'SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated Learning': CVPR2025/optimization/scope_semantic_coreset_with_orthogonal_projection_embeddings_for_federated_learn.md
+  - 🎮 强化学习 (1):
+    - 🎮 强化学习: CVPR2025/reinforcement_learning/index.md
+    - 'ThinkStream: Thinking in Streaming Video': CVPR2025/reinforcement_learning/thinking_in_streaming_video.md
+  - 📈 时间序列 (1):
+    - 📈 时间序列: CVPR2025/time_series/index.md
+    - Competition-Aware CPC Forecasting with Near-Market Coverage: CVPR2025/time_series/competition-aware_cpc_forecasting_with_near-market_coverage.md
+  - 📂 其他 (15):
     - 📂 其他: CVPR2025/others/index.md
     - '3D Prior is All You Need: Cross-Task Few-shot 2D Gaze Estimation': CVPR2025/others/3d_prior_is_all_you_need_cross-task_few-shot_2d_gaze_estimation.md
+    - A2Z-10M Geometric Deep Learning With A-To-Z Brep Annotations For Ai-Assisted Cad: CVPR2025/others/a2z-10m_geometric_deep_learning_with_a-to-z_brep_annotations_for_ai-assisted_cad.md
+    - 'Bendfm A Taxonomy And Synthetic Cad Dataset For Manufacturability Assessment In ': CVPR2025/others/bendfm_a_taxonomy_and_synthetic_cad_dataset_for_manufacturability_assessment_in_.md
+    - Bounds On Agreement Between Subjective And Objective Measurements: CVPR2025/others/bounds_on_agreement_between_subjective_and_objective_measurements.md
+    - Deconstructing The Failure Of Ideal Noise Correction A Three-Pillar Diagnosis: CVPR2025/others/deconstructing_the_failure_of_ideal_noise_correction_a_three-pillar_diagnosis.md
+    - ? 'HSEmotion Team at ABAW-10 Competition: Facial Expression Recognition, Valence-Arousal
+        Estimation, Action Unit Detection and Fine-Grained Violence Classification'
+      : CVPR2025/others/hsemotion_team_at_abaw-10_competition_facial_expression_recognition_valence-arou.md
+    - Integration of deep generative Anomaly Detection algorithm in high-speed industrial line: CVPR2025/others/integration_of_deep_generative_anomaly_detection_algorithm_in_high-speed_industr.md
+    - 'MXNorm: Reusing MXFP block scales for efficient tensor normalisation': CVPR2025/others/mxnorm_reusing_mxfp_block_scales_for_efficient_tensor_normalisation.md
+    - Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models: CVPR2025/others/out_of_sight_out_of_mind_evaluating_state_evolution_in_video_world_models.md
+    - 'Rooftop Wind Field Reconstruction Using Sparse Sensors: From Deterministic to Generative Learning Methods': CVPR2025/others/rooftop_wind_field_reconstruction_using_sparse_sensors_from_deterministic_to_gen.md
+    - 'SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules': CVPR2025/others/shrec_a_spectral_embedding-based_approach_for_ab-initio_reconstruction_of_helica.md
+    - 'SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design': CVPR2025/others/sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md
+    - Wear Classification of Abrasive Flap Wheels using a Hierarchical Deep Learning Approach: CVPR2025/others/wear_classification_of_abrasive_flap_wheels_using_a_hierarchical_deep_learning_a.md
+    - Why Does It Look There? Structured Explanations for Image Classification: CVPR2025/others/why_does_it_look_there_structured_explanations_for_image_classification.md
+    - 'ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training': CVPR2025/others/zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md
 - 🎞️ ECCV2024:
   - ECCV2024: ECCV2024/index.md
-  - 🧊 3D 视觉 (8):
+  - 👁️ 多模态 VLM (71):
+    - 👁️ 多模态 VLM: ECCV2024/multimodal_vlm/index.md
+    - A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis: ECCV2024/multimodal_vlm/a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md
+    - 'AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting': ECCV2024/multimodal_vlm/adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md
+    - 'AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization': ECCV2024/multimodal_vlm/addressclip_empowering_visionlanguage_models_for_citywide_im.md
+    - 'AnyControl: Create Your Artwork with Versatile Control on Text-to-Image Generation': ECCV2024/multimodal_vlm/anycontrol_create_your_artwork_with_versatile_control_on_tex.md
+    - 'ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling': ECCV2024/multimodal_vlm/artvlm_attribute_recognition_through_vision-based_prefix_language_modeling.md
+    - 'ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling': ECCV2024/multimodal_vlm/artvlm_attribute_recognition_through_visionbased_prefix_lang.md
+    - Attention Prompting on Image for Large Vision-Language Models: ECCV2024/multimodal_vlm/attention_prompting_on_image_for_large_vision-language_models.md
+    - Attention Prompting on Image for Large Vision-Language Models: ECCV2024/multimodal_vlm/attention_prompting_on_image_for_large_visionlanguage_models.md
+    - 'Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation': ECCV2024/multimodal_vlm/be_yourself_bounded_attention_for_multisubject_texttoimage_g.md
+    - 'BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-Language Models': ECCV2024/multimodal_vlm/beaf_observing_beforeafter_changes_to_evaluate_hallucination.md
+    - 'BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation': ECCV2024/multimodal_vlm/bimdrg_bridging_image_history_in_multimodal_dialogue_respons.md
+    - 'BLINK: Multimodal Large Language Models Can See but Not Perceive': ECCV2024/multimodal_vlm/blink_multimodal_large_language_models_can_see_but_not_perceive.md
+    - 'BRAVE: Broadening the Visual Encoding of Vision-Language Models': ECCV2024/multimodal_vlm/brave_broadening_the_visual_encoding_of_vision-language_models.md
+    - 'BRAVE: Broadening the Visual Encoding of Vision-Language Models': ECCV2024/multimodal_vlm/brave_broadening_the_visual_encoding_of_visionlanguage_model.md
+    - 'CLAP: Isolating Content from Style Through Contrastive Learning with Augmented Prompts': ECCV2024/multimodal_vlm/clap_isolating_content_from_style_through_contrastive_learni.md
+    - 'DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning': ECCV2024/multimodal_vlm/decoupling_common_and_unique_representations_for_multimodal_.md
+    - 'Diff-Tracker: Text-to-Image Diffusion Models are Unsupervised Trackers': ECCV2024/multimodal_vlm/difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md
+    - 'DreamDrone: Text-to-Image Diffusion Models Are Zero-Shot Perpetual View Generators': ECCV2024/multimodal_vlm/dreamdrone_texttoimage_diffusion_models_are_zeroshot_perpetu.md
+    - 'DreamView: Injecting View-Specific Text Guidance Into Text-to-3D Generation': ECCV2024/multimodal_vlm/dreamview_injecting_viewspecific_text_guidance_into_textto3d.md
+    - 'SpLIP: Elevating All Zero-Shot Sketch-Based Image Retrieval Through Multimodal Prompt Learning': ECCV2024/multimodal_vlm/elevating_all_zeroshot_sketchbased_image_retrieval_through_m.md
+    - 'Elysium: Exploring Object-Level Perception in Videos via MLLM': ECCV2024/multimodal_vlm/elysium_exploring_objectlevel_perception_in_videos_via_mllm.md
+    - Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation: ECCV2024/multimodal_vlm/exploring_pretrained_texttovideo_diffusion_models_for_referr.md
+    - 'Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation': ECCV2024/multimodal_vlm/eyes_closed_safety_on_protecting_multimodal_llms_via_image-to-text_transformatio.md
+    - 'Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation': ECCV2024/multimodal_vlm/eyes_closed_safety_on_protecting_multimodal_llms_via_imageto.md
+    - FlexAttention for Efficient High-Resolution Vision-Language Models: ECCV2024/multimodal_vlm/flexattention_for_efficient_highresolution_visionlanguage_mo.md
+    - 'FreeMotion: MoCap-Free Human Motion Synthesis with Multimodal Large Language Models': ECCV2024/multimodal_vlm/freemotion_mocapfree_human_motion_synthesis_with_multimodal_.md
+    - 'GENIXER: Empowering Multimodal Large Language Model as a Powerful Data Generator': ECCV2024/multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powe.md
+    - 'Getting it Right: Improving Spatial Consistency in Text-to-Image Models': ECCV2024/multimodal_vlm/getting_it_right_improving_spatial_consistency_in_texttoimag.md
+    - 'Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models': ECCV2024/multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal.md
+    - 'Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models': ECCV2024/multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode.md
+    - Improving Medical Multi-modal Contrastive Learning with Expert Annotations: ECCV2024/multimodal_vlm/improving_medical_multimodal_contrastive_learning_with_exper.md
+    - 'JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation': ECCV2024/multimodal_vlm/jointdreamer_ensuring_geometry_consistency_and_text_congruen.md
+    - Large Motion Model for Unified Multi-Modal Motion Generation: ECCV2024/multimodal_vlm/large_motion_model_for_unified_multimodal_motion_generation.md
+    - 'Latent Guard: A Safety Framework for Text-to-Image Generation': ECCV2024/multimodal_vlm/latent_guard_a_safety_framework_for_texttoimage_generation.md
+    - 'LayoutDETR: Detection Transformer Is a Good Multimodal Layout Designer': ECCV2024/multimodal_vlm/layoutdetr_detection_transformer_is_a_good_multimodal_layout.md
+    - LCM-Lookahead for Encoder-Based Text-to-Image Personalization: ECCV2024/multimodal_vlm/lcmlookahead_for_encoderbased_texttoimage_personalization.md
+    - Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality: ECCV2024/multimodal_vlm/learning_trimodal_relation_for_audiovisual_question_answerin.md
+    - 'MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection': ECCV2024/multimodal_vlm/marvelovd_marrying_object_recognition_and_visionlanguage_mod.md
+    - 'MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?': ECCV2024/multimodal_vlm/mathverse_does_your_multi-modal_llm_truly_see_the_diagrams_in_visual_math_proble.md
+    - 'MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math?': ECCV2024/multimodal_vlm/mathverse_does_your_multimodal_llm_truly_see_the_diagrams_in.md
+    - 'MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed-Precision Quantization': ECCV2024/multimodal_vlm/mixdq_memoryefficient_fewstep_texttoimage_diffusion_models_w.md
+    - 'MMBench: Is Your Multi-modal Model an All-Around Player?': ECCV2024/multimodal_vlm/mmbench_is_your_multimodal_model_an_allaround_player.md
+    - 'MotionChain: Conversational Motion Controllers via Multimodal Prompts': ECCV2024/multimodal_vlm/motionchain_conversational_motion_controllers_via_multimodal.md
+    - 'MyVLM: Personalizing VLMs for User-Specific Queries': ECCV2024/multimodal_vlm/myvlm_personalizing_vlms_for_userspecific_queries.md
+    - 'Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild': ECCV2024/multimodal_vlm/nymeria_a_massive_collection_of_multimodal_egocentric_daily_.md
+    - 'OccGen: Generative Multi-modal 3D Occupancy Prediction for Autonomous Driving': ECCV2024/multimodal_vlm/occgen_generative_multimodal_3d_occupancy_prediction_for_aut.md
+    - 'Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models': ECCV2024/multimodal_vlm/omniviewtuning_boosting_viewpoint_invariance_of_visionlangua.md
+    - 'OpenPSG: Open-set Panoptic Scene Graph Generation via Large Multimodal Models': ECCV2024/multimodal_vlm/openpsg_openset_panoptic_scene_graph_generation_via_large_mu.md
+    - 'Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning': ECCV2024/multimodal_vlm/powerful_and_flexible_personalized_texttoimage_generation_vi.md
+    - Quantized Prompt for Efficient Generalization of Vision-Language Models: ECCV2024/multimodal_vlm/quantized_prompt_for_efficient_generalization_of_visionlangu.md
+    - Removing Distributional Discrepancies in Captions Improves Image-Text Alignment: ECCV2024/multimodal_vlm/removing_distributional_discrepancies_in_captions_improves_i.md
+    - Robust Calibration of Large Vision-Language Adapters: ECCV2024/multimodal_vlm/robust_calibration_of_large_visionlanguage_adapters.md
+    - 'ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation': ECCV2024/multimodal_vlm/scaledreamer_scalable_textto3d_synthesis_with_asynchronous_s.md
+    - 'SceneGraphLoc: Cross-Modal Coarse Visual Localization on 3D Scene Graphs': ECCV2024/multimodal_vlm/scenegraphloc_crossmodal_coarse_visual_localization_on_3d_sc.md
+    - 'SceneVerse: Scaling 3D Vision-Language Learning for Grounded Scene Understanding': ECCV2024/multimodal_vlm/sceneverse_scaling_3d_visionlanguage_learning_for_grounded_s.md
+    - 'SCLIP: Rethinking Self-Attention for Dense Vision-Language Inference': ECCV2024/multimodal_vlm/sclip_rethinking_selfattention_for_dense_visionlanguage_infe.md
+    - 'ShareGPT4V: Improving Large Multi-Modal Models with Better Captions': ECCV2024/multimodal_vlm/sharegpt4v_improving_large_multi-modal_models_with_better_captions.md
+    - 'ShareGPT4V: Improving Large Multi-modal Models with Better Captions': ECCV2024/multimodal_vlm/sharegpt4v_improving_large_multimodal_models_with_better_cap.md
+    - 'SQ-LLaVA: Self-Questioning for Large Vision-Language Assistant': ECCV2024/multimodal_vlm/sqllava_selfquestioning_for_large_visionlanguage_assistant.md
+    - The Hard Positive Truth About Vision-Language Compositionality: ECCV2024/multimodal_vlm/the_hard_positive_truth_about_visionlanguage_compositionalit.md
+    - 'TIP: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data': ECCV2024/multimodal_vlm/tip_tabularimage_pretraining_for_multimodal_classification_w.md
+    - Towards Multi-modal Transformers in Federated Learning: ECCV2024/multimodal_vlm/towards_multimodal_transformers_in_federated_learning.md
+    - 'Towards Real-World Adverse Weather Image Restoration: Enhancing Clearness and Semantics with Vision-Language Models': ECCV2024/multimodal_vlm/towards_realworld_adverse_weather_image_restoration_enhancin.md
+    - Towards Reliable Advertising Image Generation Using Human Feedback: ECCV2024/multimodal_vlm/towards_reliable_advertising_image_generation_using_human_fe.md
+    - 'UMBRAE: Unified Multimodal Brain Decoding': ECCV2024/multimodal_vlm/umbrae_unified_multimodal_brain_decoding.md
+    - 'UniCode: Learning a Unified Codebook for Multimodal Large Language Models': ECCV2024/multimodal_vlm/unicode_learning_a_unified_codebook_for_multimodal_large_lan.md
+    - 'UniCode: Learning a Unified Codebook for Multimodal Large Language Models': ECCV2024/multimodal_vlm/unicode_learning_a_unified_codebook_for_multimodal_large_language_models.md
+    - 'Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models': ECCV2024/multimodal_vlm/vary_scaling_up_the_vision_vocabulary_for_large_visionlanguag.md
+    - View Selection for 3D Captioning via Diffusion Ranking: ECCV2024/multimodal_vlm/view_selection_for_3d_captioning_via_diffusion_ranking.md
+    - 'X-Former: Unifying Contrastive and Reconstruction Learning for MLLMs': ECCV2024/multimodal_vlm/xformer_unifying_contrastive_and_reconstruction_learning_for.md
+    - 'XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution': ECCV2024/multimodal_vlm/xpsr_crossmodal_priors_for_diffusionbased_image_superresolut.md
+  - 💬 LLM / NLP (50):
+    - 💬 LLM / NLP: ECCV2024/llm_nlp/index.md
+    - 'AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection': ECCV2024/llm_nlp/adaclip_adapting_clip_with_hybrid_learnable_prompts_for_zero.md
+    - 'AFreeCA: Annotation-Free Counting for All': ECCV2024/llm_nlp/afreeca_annotationfree_counting_for_all.md
+    - 'ColorMNet: A Memory-based Deep Spatial-Temporal Feature Propagation Network for Video Colorization': ECCV2024/llm_nlp/colormnet_a_memory-based_deep_spatial-temporal_feature_propagation_network_for_v.md
+    - 'ColorPeel: Color Prompt Learning with Diffusion Models via Color and Shape Disentanglement': ECCV2024/llm_nlp/colorpeel_color_prompt_learning_with_diffusion_models_v.md
+    - 'ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback': ECCV2024/llm_nlp/controlnet_improving_conditional_controls_with_efficien.md
+    - 'CrossScore: Towards Multi-View Image Evaluation and Scoring': ECCV2024/llm_nlp/crossscore_towards_multiview_image_evaluation_and_scori.md
+    - Dataset Growth: ECCV2024/llm_nlp/dataset_growth.md
+    - Deep Cost Ray Fusion for Sparse Depth Video Completion: ECCV2024/llm_nlp/deep_cost_ray_fusion_for_sparse_depth_video_completion.md
+    - 'DG-PIC: Domain Generalized Point-In-Context Learning for Point Cloud Understanding': ECCV2024/llm_nlp/dgpic_domain_generalized_pointincontext_learning_for_po.md
+    - 'DVLO: Deep Visual-LiDAR Odometry with Local-to-Global Feature Fusion and Bi-Directional Structure Alignment': ECCV2024/llm_nlp/dvlo_deep_visuallidar_odometry_with_localtoglobal_featu.md
+    - 'EMDM: Efficient Motion Diffusion Model for Fast and High-Quality Motion Generation': ECCV2024/llm_nlp/emdm_efficient_motion_diffusion_model_for_fast_and_high.md
+    - 'FALIP: Visual Prompt as Foveal Attention Boosts CLIP Zero-Shot Performance': ECCV2024/llm_nlp/falip_visual_prompt_as_foveal_attention_boosts_clip_zer.md
+    - 'FineMatch: Aspect-Based Fine-Grained Image and Text Mismatch Detection and Correction': ECCV2024/llm_nlp/finematch_aspectbased_finegrained_image_and_text_mismat.md
+    - 'FreeDiff: Progressive Frequency Truncation for Image Editing with Diffusion Models': ECCV2024/llm_nlp/freediff_progressive_frequency_truncation_for_image_edi.md
+    - 'FreeInit: Bridging Initialization Gap in Video Diffusion Models': ECCV2024/llm_nlp/freeinit_bridging_initialization_gap_in_video_diffusion.md
+    - 'FunQA: Towards Surprising Video Comprehension': ECCV2024/llm_nlp/funqa_towards_surprising_video_comprehension.md
+    - Grounding Language Models for Visual Entity Recognition: ECCV2024/llm_nlp/grounding_language_models_for_visual_entity_recognition.md
+    - 'GTP-4o: Modality-Prompted Heterogeneous Graph Learning for Omni-modal Biomedical Representation': ECCV2024/llm_nlp/gtp4o_modalityprompted_heterogeneous_graph_learning_for.md
+    - 'HybridBooth: Hybrid Prompt Inversion for Efficient Subject-Driven Generation': ECCV2024/llm_nlp/hybridbooth_hybrid_prompt_inversion_for_efficient_subje.md
+    - 'Infinite-ID: Identity-Preserved Personalization via ID-Semantics Decoupling Paradigm': ECCV2024/llm_nlp/infiniteid_identitypreserved_personalization_via_idsema.md
+    - 'LEGO: Learning EGOcentric Action Frame Generation via Visual Instruction Tuning': ECCV2024/llm_nlp/lego_learning_egocentric_action_frame_generation_via_vi.md
+    - LiDAR-Event Stereo Fusion with Hallucinations: ECCV2024/llm_nlp/lidarevent_stereo_fusion_with_hallucinations.md
+    - Meta-Prompting for Automating Zero-shot Visual Recognition with LLMs: ECCV2024/llm_nlp/metaprompting_for_automating_zeroshot_visual_recognitio.md
+    - On the Utility of 3D Hand Poses for Action Recognition: ECCV2024/llm_nlp/on_the_utility_of_3d_hand_poses_for_action_recognition.md
+    - 'OneRestore: A Universal Restoration Framework for Composite Degradation': ECCV2024/llm_nlp/onerestore_a_universal_restoration_framework_for_composite_degradation.md
+    - Pathology-knowledge Enhanced Multi-instance Prompt Learning for Few-shot Whole Slide Image Classification: ECCV2024/llm_nlp/pathologyknowledge_enhanced_multiinstance_prompt_learni.md
+    - 'PiTe: Pixel-Temporal Alignment for Large Video-Language Model': ECCV2024/llm_nlp/pite_pixeltemporal_alignment_for_large_videolanguage_mo.md
+    - Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization: ECCV2024/llm_nlp/pixelaware_stable_diffusion_for_realistic_image_superre.md
+    - 'Ponymation: Learning Articulated 3D Animal Motions from Unlabeled Online Videos': ECCV2024/llm_nlp/ponymation_learning_articulated_3d_animal_motions_from_.md
+    - Prompting Language-Informed Distribution for Compositional Zero-Shot Learning: ECCV2024/llm_nlp/prompting_language-informed_distribution_for_compositional_zero-shot_learning.md
+    - 'PromptIQA: Boosting the Performance and Generalization for No-Reference Image Quality Assessment via Prompts': ECCV2024/llm_nlp/promptiqa_boosting_the_performance_and_generalization_for_no-reference_image_qua.md
+    - 'Propose, Assess, Search: Harnessing LLMs for Goal-Oriented Planning in Instructional Videos': ECCV2024/llm_nlp/propose_assess_search_harnessing_llms_for_goal-oriented_planning_in_instructiona.md
+    - Reprojection Errors as Prompts for Efficient Scene Coordinate Regression: ECCV2024/llm_nlp/reprojection_errors_as_prompts_for_efficient_scene_coordinate_regression.md
+    - Rotary Position Embedding for Vision Transformer: ECCV2024/llm_nlp/rotary_position_embedding_for_vision_transformer.md
+    - Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection: ECCV2024/llm_nlp/selfsupervised_feature_adaptation_for_3d_industrial_ano.md
+    - 'SemGrasp: Semantic Grasp Generation via Language Aligned Discretization': ECCV2024/llm_nlp/semgrasp_semantic_grasp_generation_via_language_aligned.md
+    - 'SIGMA: Sinkhorn-Guided Masked Video Modeling': ECCV2024/llm_nlp/sigma_sinkhorn-guided_masked_video_modeling.md
+    - Soft Prompt Generation for Domain Generalization: ECCV2024/llm_nlp/soft_prompt_generation_for_domain_generalization.md
+    - 'Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint': ECCV2024/llm_nlp/teaching_tailored_to_talent_adverse_weather_restoration.md
+    - 'Text2Place: Affordance-Aware Text Guided Human Placement': ECCV2024/llm_nlp/text2place_affordanceaware_text_guided_human_placement.md
+    - 'TextDiffuser-2: Unleashing the Power of Language Models for Text Rendering': ECCV2024/llm_nlp/textdiffuser2_unleashing_the_power_of_language_models_f.md
+    - 'Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching': ECCV2024/llm_nlp/towards_natural_languageguided_drones_geotext1652_bench.md
+    - Towards Open-Ended Visual Quality Comparison: ECCV2024/llm_nlp/towards_openended_visual_quality_comparison.md
+    - 'Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance': ECCV2024/llm_nlp/tracking_meets_lora_faster_training_larger_model_strong.md
+    - 'VisFocus: Prompt-Guided Vision Encoders for OCR-Free Dense Document Understanding': ECCV2024/llm_nlp/visfocus_prompt-guided_vision_encoders_for_ocr-free_dense_document_understanding.md
+    - 'VisFocus: Prompt-Guided Vision Encoders for OCR-Free Dense Document Understanding': ECCV2024/llm_nlp/visfocus_promptguided_vision_encoders_for_ocrfree_dense.md
+    - 'VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions': ECCV2024/llm_nlp/visiontrap_visionaugmented_trajectory_prediction_guided.md
+    - When Do We Not Need Larger Vision Models?: ECCV2024/llm_nlp/when_do_we_not_need_larger_vision_models.md
+    - 'WordRobe: Text-Guided Generation of Textured 3D Garments': ECCV2024/llm_nlp/wordrobe_textguided_generation_of_textured_3d_garments.md
+    - Zero-Shot Object Counting with Good Exemplars (VA-Count): ECCV2024/llm_nlp/zeroshot_object_counting_with_good_exemplars.md
+  - 🧊 3D 视觉 (10):
     - 🧊 3D 视觉: ECCV2024/3d_vision/index.md
     - '3D Congealing: 3D-Aware Image Alignment in the Wild': ECCV2024/3d_vision/3d_congealing_3d-aware_image_alignment_in_the_wild.md
     - 3D Reconstruction of Objects in Hands without Real World 3D Supervision: ECCV2024/3d_vision/3d_reconstruction_of_objects_in_hands_without_real_world_3d.md
@@ -2668,8 +3194,22 @@ nav:
     - '3×2: 3D Object Part Segmentation by 2D Semantic Correspondences': ECCV2024/3d_vision/3x2_3d_object_part_segmentation_by_2d_semantic_correspondenc.md
     - '6DGS: 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model': ECCV2024/3d_vision/6dgs_6d_pose_estimation_from_a_single_image_and_a_3d_gaussia.md
     - A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis: ECCV2024/3d_vision/a_compact_dynamic_3d_gaussian_representation_for_realtime_dy.md
+    - 'Analytic-Splatting: Anti-Aliased 3D Gaussian Splatting via Analytic Integration': ECCV2024/3d_vision/analytic-splatting_anti-aliased_3d_gaussian_splatting_via_analytic_integration.md
+    - 'AnimatableDreamer: Text-Guided Non-rigid 3D Model Generation and Reconstruction with Canonical Score Distillation': ECCV2024/3d_vision/animatabledreamer_text-guided_non-rigid_3d_model_generation_and_reconstruction_w.md
     - 'MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo': ECCV2024/3d_vision/mvsgaussian_fast_generalizable_gaussian_splatting_reconstruction_from_multi-view.md
-  - 🎨 图像生成 (7):
+  - 🦾 LLM Agent (10):
+    - 🦾 LLM Agent: ECCV2024/llm_agent/index.md
+    - 'Agent3D-Zero: An Agent for Zero-shot 3D Understanding': ECCV2024/llm_agent/agent3d-zero_an_agent_for_zero-shot_3d_understanding.md
+    - Controllable Navigation Instruction Generation with Chain of Thought Prompting: ECCV2024/llm_agent/controllable_navigation_instruction_generation.md
+    - 'ControlLLM: Augment Language Models with Tools by Searching on Graphs': ECCV2024/llm_agent/controlllm_augment_language_models_with_tools.md
+    - 'DISCO: Embodied Navigation and Interaction via Differentiable Scene Semantics and Dual-Level Control': ECCV2024/llm_agent/disco_embodied_navigation_and_interaction.md
+    - 'NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models': ECCV2024/llm_agent/navgpt2_unleashing_navigational_reasoning_capability.md
+    - Navigation Instruction Generation with BEV Perception and Large Language Models: ECCV2024/llm_agent/navigation_instruction_generation_with_bev.md
+    - 'Octopus: Embodied Vision-Language Programmer from Environmental Feedback': ECCV2024/llm_agent/octopus_embodied_visionlanguage_programmer_from_environmental_feedback.md
+    - Prioritized Semantic Learning for Zero-Shot Instance Navigation: ECCV2024/llm_agent/prioritized_semantic_learning_for_zeroshot_instance_navigation.md
+    - 'QUAR-VLA: Vision-Language-Action Model for Quadruped Robots': ECCV2024/llm_agent/quarvla_visionlanguageaction_model_for_quadruped_robots.md
+    - 'See and Think: Embodied Agent in Virtual Environment': ECCV2024/llm_agent/see_and_think_embodied_agent_in_virtual_environment.md
+  - 🎨 图像生成 (8):
     - 🎨 图像生成: ECCV2024/image_generation/index.md
     - '2S-ODIS: Two-Stage Omni-Directional Image Synthesis by Geometric Distortion Correction': ECCV2024/image_generation/2s-odis_two-stage_omni-directional_image_synthesis_by_geometric_distortion_corre.md
     - A Diffusion Model for Simulation Ready Coronary Anatomy with Morpho-skeletal Control: ECCV2024/image_generation/a_diffusion_model_for_simulation_ready_coronary_anatomy_with.md
@@ -2677,14 +3217,25 @@ nav:
     - 'AdaDiffSR: Adaptive Region-Aware Dynamic Acceleration Diffusion Model for Real-World Image Super-Resolution': ECCV2024/image_generation/adadiffsr_adaptive_region-aware_dynamic_acceleration_diffusion_model_for_real-wo.md
     - 'AdaGen: Learning Adaptive Policy for Image Synthesis': ECCV2024/image_generation/adagen_learning_adaptive_policy_for_image_synthesis.md
     - 'AdaNAT: Exploring Adaptive Policy for Token-Based Image Generation': ECCV2024/image_generation/adanat_exploring_adaptive_policy_for_token-based_image_generation.md
+    - 'AnyControl: Create Your Artwork with Versatile Control on Text-to-Image Generation': ECCV2024/image_generation/anycontrol_create_your_artwork_with_versatile_control_on_text-to-image_generatio.md
     - '∞-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions': ECCV2024/image_generation/inftybrush_controllable_large_image_synthesis_with_diffusion.md
-  - 🧑 人体理解 (5):
+  - 💡 LLM 推理 (7):
+    - 💡 LLM 推理: ECCV2024/llm_reasoning/index.md
+    - Controllable Navigation Instruction Generation with Chain of Thought Prompting: ECCV2024/llm_reasoning/controllable_navigation_instruction_generation_with_chain_of_thought_prompting.md
+    - 'CoReS: Orchestrating the Dance of Reasoning and Segmentation': ECCV2024/llm_reasoning/cores_orchestrating_the_dance_of_reasoning_and_segmentation.md
+    - 'HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning': ECCV2024/llm_reasoning/hydra_a_hyper_agent_for_dynamic_compositional_visual_reasoning.md
+    - 'Reason2Drive: Towards Interpretable and Chain-Based Reasoning for Autonomous Driving': ECCV2024/llm_reasoning/reason2drive_towards_interpretable_and_chainbased_reasoning.md
+    - 'RoadPainter: Points Are Ideal Navigators for Topology Transformer': ECCV2024/llm_reasoning/roadpainter_points_are_ideal_navigators_for_topology_transformer.md
+    - 'ScanReason: Empowering 3D Visual Grounding with Reasoning Capabilities': ECCV2024/llm_reasoning/scanreason_empowering_3d_visual_grounding_with_reasoning_capabilities.md
+    - 'VISA: Reasoning Video Object Segmentation via Large Language Models': ECCV2024/llm_reasoning/visa_reasoning_video_object_segmentation_via_large_language_models.md
+  - 🧑 人体理解 (6):
     - 🧑 人体理解: ECCV2024/human_understanding/index.md
     - 3D Hand Pose Estimation in Everyday Egocentric Images: ECCV2024/human_understanding/3d_hand_pose_estimation_in_everyday_egocentric_images.md
     - A Probability-guided Sampler for Neural Implicit Surface Rendering: ECCV2024/human_understanding/a_probabilityguided_sampler_for_neural_implicit_surface_rend.md
     - A Simple Baseline for Spoken Language to Sign Language Translation with 3D Avatars: ECCV2024/human_understanding/a_simple_baseline_for_spoken_language_to_sign_language_trans.md
     - 'AdaDistill: Adaptive Knowledge Distillation for Deep Face Recognition': ECCV2024/human_understanding/adadistill_adaptive_knowledge_distillation_for_deep_face_rec.md
     - 'ADen: Adaptive Density Representations for Sparse-view Camera Pose Estimation': ECCV2024/human_understanding/aden_adaptive_density_representations_for_sparseview_camera.md
+    - 'Alignist: CAD-Informed Orientation Distribution Estimation by Fusing Shape and Correspondences': ECCV2024/human_understanding/alignist_cad-informed_orientation_distribution_estimation_by_fusing_shape_and_co.md
   - 📦 模型压缩 (5):
     - 📦 模型压缩: ECCV2024/model_compression/index.md
     - A Simple Low-bit Quantization Framework for Video Snapshot Compressive Imaging: ECCV2024/model_compression/a_simple_lowbit_quantization_framework_for_video_snapshot_co.md
@@ -2692,18 +3243,22 @@ nav:
     - 'AdaLog: Post-Training Quantization for Vision Transformers with Adaptive Logarithm Quantizer': ECCV2024/model_compression/adalog_post-training_quantization_for_vision_transformers_with_adaptive_logarith.md
     - Adaptive Compressed Sensing with Diffusion-Based Posterior Sampling: ECCV2024/model_compression/adaptive_compressed_sensing_with_diffusionbased_posterior_sa.md
     - Adaptive Selection of Sampling-Reconstruction in Fourier Compressed Sensing: ECCV2024/model_compression/adaptive_selection_of_samplingreconstruction_in_fourier_comp.md
-  - 👁️ 多模态 VLM (4):
-    - 👁️ 多模态 VLM: ECCV2024/multimodal_vlm/index.md
-    - A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis: ECCV2024/multimodal_vlm/a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md
-    - 'AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting': ECCV2024/multimodal_vlm/adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md
-    - 'AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization': ECCV2024/multimodal_vlm/addressclip_empowering_visionlanguage_models_for_citywide_im.md
-    - 'Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models': ECCV2024/multimodal_vlm/vary_scaling_up_the_vision_vocabulary_for_large_visionlanguag.md
   - ✂️ 语义分割 (4):
     - ✂️ 语义分割: ECCV2024/segmentation/index.md
     - 'A Semantic Space is Worth 256 Language Descriptions: Make Stronger Segmentation Models with Descriptive Properties': ECCV2024/segmentation/a_semantic_space_is_worth_256_language_descriptions_make_str.md
     - A Simple Latent Diffusion Approach for Panoptic Segmentation and Mask Inpainting: ECCV2024/segmentation/a_simple_latent_diffusion_approach_for_panoptic_segmentation_and_mask_inpainting.md
     - 'ActionVOS: Actions as Prompts for Video Object Segmentation': ECCV2024/segmentation/actionvos_actions_as_prompts_for_video_object_segmentation.md
     - Active Coarse-to-Fine Segmentation of Moveable Parts from Real Images: ECCV2024/segmentation/active_coarsetofine_segmentation_of_moveable_parts_from_real.md
+  - 🏥 医学图像 (3):
+    - 🏥 医学图像: ECCV2024/medical_imaging/index.md
+    - Adaptive Correspondence Scoring for Unsupervised Medical Image Registration: ECCV2024/medical_imaging/adaptive_correspondence_scoring_for_unsupervised_medical_ima.md
+    - Alternate Diverse Teaching for Semi-supervised Medical Image Segmentation: ECCV2024/medical_imaging/alternate_diverse_teaching_for_semi-supervised_medical_image_segmentation.md
+    - 'NePhi: Neural Deformation Fields for Approximately Diffeomorphic Medical Image Registration': ECCV2024/medical_imaging/textttnephi_neural_deformation_fields_for_approximately_diff.md
+  - 🎬 视频理解 (3):
+    - 🎬 视频理解: ECCV2024/video_understanding/index.md
+    - 'Adapt2Reward: Adapting Video-Language Models to Generalizable Robotic Rewards via Failure Prompts': ECCV2024/video_understanding/adapt2reward_adapting_videolanguage_models_to_generalizable.md
+    - 'AMEGO: Active Memory from Long EGOcentric Videos': ECCV2024/video_understanding/amego_active_memory_from_long_egocentric_videos.md
+    - 'R²-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding': ECCV2024/video_understanding/r2tuning_efficient_imagetovideo_transfer_learning_for_video.md
   - 🚗 自动驾驶 (2):
     - 🚗 自动驾驶: ECCV2024/autonomous_driving/index.md
     - Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention: ECCV2024/autonomous_driving/accelerating_online_mapping_and_behavior_prediction_via_dire.md
@@ -2712,24 +3267,26 @@ nav:
     - 🖼️ 图像恢复: ECCV2024/image_restoration/index.md
     - A New Dataset and Framework for Real-World Blurred Images Super-Resolution: ECCV2024/image_restoration/a_new_dataset_and_framework_for_real-world_blurred_images_super-resolution.md
     - Accelerating Image Super-Resolution Networks with Pixel-Level Classification: ECCV2024/image_restoration/accelerating_image_super-resolution_networks_with_pixel-level_classification.md
-  - 🏥 医学图像 (2):
-    - 🏥 医学图像: ECCV2024/medical_imaging/index.md
-    - Adaptive Correspondence Scoring for Unsupervised Medical Image Registration: ECCV2024/medical_imaging/adaptive_correspondence_scoring_for_unsupervised_medical_ima.md
-    - 'NePhi: Neural Deformation Fields for Approximately Diffeomorphic Medical Image Registration': ECCV2024/medical_imaging/textttnephi_neural_deformation_fields_for_approximately_diff.md
+  - 🎯 目标检测 (2):
+    - 🎯 目标检测: ECCV2024/object_detection/index.md
+    - Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction: ECCV2024/object_detection/adaptive_bounding_box_uncertainties_via_twostep_conformal_pr.md
+    - 'AFreeCA: Annotation-Free Counting for All': ECCV2024/object_detection/afreeca_annotation-free_counting_for_all.md
   - 🔄 自监督/表示学习 (2):
     - 🔄 自监督/表示学习: ECCV2024/self_supervised/index.md
     - 4D Contrastive Superflows are Dense 3D Representation Learners: ECCV2024/self_supervised/4d_contrastive_superflows_are_dense_3d_representation_learners.md
     - Adaptive Multi-head Contrastive Learning: ECCV2024/self_supervised/adaptive_multihead_contrastive_learning.md
-  - 🎬 视频理解 (2):
-    - 🎬 视频理解: ECCV2024/video_understanding/index.md
-    - 'Adapt2Reward: Adapting Video-Language Models to Generalizable Robotic Rewards via Failure Prompts': ECCV2024/video_understanding/adapt2reward_adapting_videolanguage_models_to_generalizable.md
-    - 'R²-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding': ECCV2024/video_understanding/r2tuning_efficient_imagetovideo_transfer_learning_for_video.md
-  - 💬 LLM / NLP (1):
-    - 💬 LLM / NLP: ECCV2024/llm_nlp/index.md
-    - 'AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection': ECCV2024/llm_nlp/adaclip_adapting_clip_with_hybrid_learnable_prompts_for_zero.md
-  - 🎯 目标检测 (1):
-    - 🎯 目标检测: ECCV2024/object_detection/index.md
-    - Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction: ECCV2024/object_detection/adaptive_bounding_box_uncertainties_via_twostep_conformal_pr.md
+  - 🛡️ AI 安全 (1):
+    - 🛡️ AI 安全: ECCV2024/ai_safety/index.md
+    - 'Any Target Can Be Offense: Adversarial Example Generation via Generalized Latent Infection': ECCV2024/ai_safety/any_target_can_be_offense_adversarial_example_generation_via_generalized_latent_.md
+  - ⚖️ 对齐 / RLHF (1):
+    - ⚖️ 对齐 / RLHF: ECCV2024/llm_alignment/index.md
+    - Improving Intervention Efficacy via Concept Realignment in Concept Bottleneck Models: ECCV2024/llm_alignment/improving_intervention_efficacy_via_concept_realignment_in_concept_bottleneck_mo.md
+  - 🎁 推荐系统 (1):
+    - 🎁 推荐系统: ECCV2024/recommender/index.md
+    - 'AID-AppEAL: Automatic Image Dataset and Algorithm for Content Appeal Enhancement and Assessment Labeling': ECCV2024/recommender/aid-appeal_automatic_image_dataset_and_algorithm_for_content_appeal_enhancement_.md
+  - 🤖 机器人/具身智能 (1):
+    - 🤖 机器人/具身智能: ECCV2024/robotics/index.md
+    - AFF-ttention! Affordances and Attention models for Short-Term Object Interaction Anticipation: ECCV2024/robotics/aff-ttention_affordances_and_attention_models_for_short-term_object_interaction_.md
   - 📂 其他 (12):
     - 📂 其他: ECCV2024/others/index.md
     - '3DEgo: 3D Editing on the Go!': ECCV2024/others/3dego_3d_editing_on_the_go.md

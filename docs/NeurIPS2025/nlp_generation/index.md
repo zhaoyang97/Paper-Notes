@@ -13,7 +13,7 @@
 
 **[MaintainCoder: Maintainable Code Generation Under Dynamic Requirements](maintaincoder_maintainable_code_generation_under_dynamic_requirements.md)**
 
-:   首次系统解决代码在需求演化下的可维护性问题，通过集成 Waterfall 模型和设计模式的多 Agent 架构将可维护性指标提升 60%+，并提出 MaintainBench 基准系统评估动态需求变化下的代码质量。
+:   首次系统定义并解决 LLM 代码生成的**可维护性**问题，同时贡献基准和方法：MaintainBench 通过 4 种需求变化模式 + 动态指标评测代码在需求演化下的可维护性；MaintainCoder 将 Waterfall 模型、设计模式与 6 个专业化 Agent 结合，动态可维护性指标提升 60%+，且初始代码正确性也一并提高。
 
 **[Precise Information Control in Long-Form Text Generation](precise_information_control_in_long-form_text_generation.md)**
 

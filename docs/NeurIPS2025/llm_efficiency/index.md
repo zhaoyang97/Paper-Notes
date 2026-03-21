@@ -69,7 +69,7 @@
 
 **[Learning in Compact Spaces with Approximately Normalized Transformer](learning_in_compact_spaces_with_approximately_normalized_transformer.md)**
 
-:   anGPT通过高维集中度实现近似归一化，消除权重衰减和预热，相比QK归一化GPT实现40%收敛加速。
+:   提出 anGPT（近似归一化 Transformer），利用高维空间中向量范数的集中现象，用简单标量乘法替代逐层精确归一化，在消除权重衰减和学习率预热的同时实现了相比 GPT+（含 QK-norm）40% 的收敛加速，仅增加 3% 运行时开销。
 
 **[Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)**
 
@@ -101,7 +101,7 @@
 
 **[UMoE: Unifying Attention and FFN with Shared Experts](umoe_unifying_attention_and_ffn_with_shared_experts.md)**
 
-:   将注意力重新表述为“token mixing + 专家处理”，揭示其与 FFN 的结构相似性，实现注意力和 FFN 的 MoE 统一与参数共享，提升参数效率同时 KV 缓存仅需单对 K-V/token。
+:   通过重新表述多头注意力机制，揭示其与 FFN 共有的"两层矩阵乘法"结构，据此提出 UMoE 统一架构——在注意力和 FFN 层使用相同设计的专家并支持参数共享，在 Base(134M) 和 Large(1.1B) 模型上均优于现有 FFN-MoE 和 Attention-MoE 基线。
 
 **[Vocabulary Customization For Efficient Domain-Specific Llm Deployment](vocabulary_customization_for_efficient_domain-specific_llm_deployment.md)**
 
@@ -109,4 +109,4 @@
 
 **[ZeroS: Zero-Sum Linear Attention for Efficient Transformers](zeros_zero-sum_linear_attention_for_efficient_transformers.md)**
 
-:   通过移除 softmax 零阶项创建零和权重，实现 $O(N)$ 复杂度且支持正负权重的高表达力线性注意力，在 MAD 基准上超越标准 Transformer。
+:   通过移除 softmax 的零阶均匀项 $1/t$，构建零和权重的线性注意力机制 ZeroS，突破凸组合只能做加法混合的限制，支持单层内的差分/对比操作，在保持 $O(Nd^2)$ 线性复杂度的同时，在多个序列建模基准上匹配甚至超越标准 softmax 注意力。

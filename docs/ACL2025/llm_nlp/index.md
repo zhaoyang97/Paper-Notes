@@ -97,7 +97,7 @@
 
 **[ConsistencyChecker: Tree-based Evaluation of LLM Generalization Capabilities](consistencychecker_tree_evaluation.md)**
 
-:   ConsistencyChecker 提出基于树状结构的 LLM 泛化能力评估框架，通过可逆变换的往返一致性（如英语→西班牙语→英语）测量模型在多步变换中的语义/功能保持能力，动态生成 benchmark 避免数据泄露，与 WMT 2024 排名相关性 r > 0.7。
+:   ConsistencyChecker 提出基于自一致性树（self-consistency tree）的无参考 LLM 评估框架，通过构建可逆变换的树状多步路径（如多语言往返翻译、代码等价重写），量化模型在迭代变换中的语义/功能保持能力，动态生成 benchmark 从根源消除数据泄露，且与 WMT 2024 权威排名的相关性 r > 0.7，证明无需配对数据即可可靠评估 LLM 泛化能力。
 
 **[Contrastive Perplexity for Controlled Generation: An Application in Detoxifying Large Language Models](contrastive_perplexity_controlled_gen.md)**
 
@@ -465,11 +465,11 @@
 
 **[KoGEM: Polishing Every Facet of the GEM: Testing Linguistic Competence of LLMs and Humans in Korean](polishing_every_facet_of_the_gem.md)**
 
-:   提出 KoGEM（韩语语法评估基准），1,524 道多选题覆盖音韵/形态/句法/语义/规范 5 大类 16 子类，零样本评估 27 个 LLM 发现模型在需要经验知识的任务（如发音规则）上远逊人类，而补充经验知识后可显著提升。
+:   提出 KoGEM（韩语语法评估基准），包含 1,524 道基于理论语言学分类的多选题，覆盖音韵/形态/句法/语义/规范 5 大类 16 子类，零样本评估 27 个 LLM 并与人类对比，揭示 LLM 在需要经验知识的语言子类（如发音规则、音韵变化）上远逊人类，而显式补充经验知识（发音文本、语素分解）后可大幅提升。
 
 **[Only a Little to the Left: A Theory-grounded Measure of Political Bias in LLMs](political_bias_theory_grounded.md)**
 
-:   基于政治科学理论构建科学有效的LLM政治偏见测量方法，对11个模型用多种提示变体收集88,110条回复，发现指令微调模型普遍偏左，但偏见度量对提示高度敏感，且Political Compass Test会夸大某些模型的偏见。
+:   本文用政治科学中经过验证的 World Values Survey (WVS) 替代缺乏科学基础的 Political Compass Test (PCT)，设计 30 种提示变体在 11 个开源/商业 LLM 上收集 88,110 条开放式回复并训练立场分类器自动标注，发现指令微调模型普遍偏左但偏见度量对提示高度敏感，PCT 会夸大特定模型（如 GPT-3.5）的政治偏见。
 
 **[Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges](pragmatics_survey.md)**
 
@@ -569,7 +569,7 @@
 
 **[ScaleQuest: Unleashing LLM Reasoning Capability via Scalable Question Synthesis from Scratch](unleashing_llm_reasoning_capability_via_scalable.md)**
 
-:   提出 ScaleQuest，通过 Question Fine-Tuning (QFT) + Question Preference Optimization (QPO) 两阶段解锁 7B 模型的数学题生成能力，从零合成 100 万高质量问题-解答对，训练效果超越所有开源数据集并展现持续的数据扩展潜力。
+:   提出 ScaleQuest，通过 Question Fine-Tuning (QFT) + Question Preference Optimization (QPO) 两阶段训练将 7B 解题模型变为出题模型，从零合成 100 万高质量数学问题-解答对，在四个基准上全面超越所有开源数据集，且数据量扩展至 1M 时性能持续提升未见饱和。
 
 **[Veracity Bias and Beyond: Uncovering LLMs' Hidden Beliefs in Problem-Solving Reasoning](veracity_bias_llm_hidden_beliefs.md)**
 

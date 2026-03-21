@@ -33,15 +33,15 @@
 
 **[DiffBench Meets DiffAgent: End-to-End LLM-Driven Diffusion Acceleration Code Generation](diffbench_meets_diffagent_end-to-end_llm-driven_diffusion_ac.md)**
 
-:   提出DiffBench基准和DiffAgent框架，让LLM自动为扩散模型生成加速代码（如量化、剪枝、蒸馏策略），实现端到端的无人工干预扩散模型优化，首次将LLM Agent应用于扩散模型压缩加速的自动化流程。
+:   提出DiffBench（604个扩散模型加速任务的评估基准，分5个难度等级）和DiffAgent（集成规划-编码-调试三Agent + 遗传算法选择器的闭环框架），在Claude Sonnet 4上将扩散加速代码生成通过率从54.30%提升到81.59%，复杂优化任务达成率68.27%。
 
 **[Difficulty Controlled Diffusion Model for Synthesizing Effective Training Data](difficulty_controlled_diffusion_model_for_synthesizing_effec.md)**
 
-:   提出难度可控的扩散模型（DCDM），通过控制生成数据的难度来合成更有效的训练数据——简单样本用于warm-up、困难样本用于提升边界决策能力，实现类似课程学习的自动化数据合成策略。
+:   在Stable Diffusion中引入难度编码器（MLP，输入类别+难度分数），通过LoRA微调解耦"域对齐"和"难度控制"两个目标，使生成数据的学习难度可控——仅用10%额外合成数据即超过Real-Fake的最佳结果，节省63.4 GPU小时。
 
 **[DOS: Directional Object Separation in Text Embeddings for Multi-Object Image Generation](dos_directional_object_separation_in_text_embeddings_for_mul.md)**
 
-:   提出DOS方法，在文本嵌入空间中通过方向性分离解决多物体图像生成中的属性混淆和对象融合问题，使不同对象在嵌入空间中占据不同方向，从而生成结构清晰的多物体场景。
+:   识别出多物体生成失败的四种场景（相似形状/纹理、不同背景偏好、多物体），通过构建方向性分离向量修改CLIP的三类文本嵌入（语义token/EOT/pooled），在SDXL上将成功率提升16-25%并将融合率降低3-12%，推理速度接近baseline（约4×快于Attend-and-Excite）。
 
 **[HACK: Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling](head-aware_kv_cache_compression_for_efficient_visual_autoreg.md)**
 

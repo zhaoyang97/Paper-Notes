@@ -109,7 +109,7 @@
 
 **[SOLACE: Improving Text-to-Image Generation with Intrinsic Self-Confidence Rewards](solace_self_confidence_rewards_t2i.md)**
 
-:   用T2I模型自身的去噪自信心（对注入噪声的恢复精度）替代外部奖励做后训练，在组合生成、文字渲染、文图对齐上获一致提升，与外部奖励互补可缓解reward hacking。
+:   用T2I模型自身的去噪自信心（对注入噪声的恢复精度）作为内在奖励替代外部奖励模型做后训练，在组合生成、文字渲染、文图对齐上获一致提升，且与外部奖励互补可缓解reward hacking。
 
 **[Taming Score-Based Denoisers in ADMM: A Convergent Plug-and-Play Framework](taming_scorebased_denoisers_in_admm_a_convergent_p.md)**
 

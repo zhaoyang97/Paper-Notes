@@ -57,19 +57,19 @@
 
 **[Bilevel MCTS for Amortized O(1) Node Selection in Classical Planning](bilevel_mcts_for_amortized_o1_node_selection_in_classical_planning.md)**
 
-:   提出双层MCTS，从叶节点运行最优优先搜索实现O(1)均摊节点选择（vs标准MCTS的O(logN)），配合树崩塌(Tree Collapsing)增强，在IPC2018/2023基准上超越LAMA/NOLAN/DecStar达到敏捷经典规划的SOTA。
+:   提出双层MCTS（Bilevel MCTS），在MCTS选中的叶节点处运行深度比例预算的最优优先搜索，将节点选择均摊复杂度从 $O(\log N)$ 降至 $O(1)$，辅以树崩塌（Tree Collapsing）减少动作选择步数，最终整合为 Nεbula 规划器，在IPC2018/2023基准上以192.2/230.6解题数（5min/30min）超越LAMA、DecStar、NOLAN、SM-Type-LAMA等全部SOTA。
 
 **[Extreme Value Monte Carlo Tree Search for Classical Planning](extreme_value_monte_carlo_tree_search_for_classical_planning.md)**
 
-:   将极值理论引入MCTS的节点评估，用极值分布替代均值估计来指导搜索，在经典规划问题中实现更有效的探索。
+:   利用 Peaks-Over-Threshold 极值理论（POT EVT）为经典规划中 MCTS 的 Full Bellman Backup 提供统计理论基础，提出 UCB1-Uniform bandit 算法，用均匀分布（Generalized Pareto 的特例）的 MLE 估计指导动作选择，在 Pyperplan 上以 $10^4$ 节点预算超越 GBFS 67.8 个实例、超越 Softmin-Type(h) 33.2 个实例。
 
-**[MeSHA: Efficient Path Planning with Motion Primitives](mesha_efficient_path_planning_with_motion_primitives.md)**
+**[MeshA*: Efficient Path Planning With Motion Primitives](mesha_efficient_path_planning_with_motion_primitives.md)**
 
-:   提出MeSHA高效路径规划算法，结合运动基元和混合搜索策略，在保证路径质量的同时显著提升规划效率。
+:   提出 MeshA* 算法，将 lattice-based 路径规划从"在运动基元层面搜索"转变为"在网格单元层面搜索并同时拟合基元序列"，通过定义"扩展网格单元"（extended cell）新搜索空间，在保证完备性和最优性的同时，实现相比标准 LBA* 1.5x-2x 的运行时加速。
 
-**[Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments](symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)**
+**[Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents](symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)**
 
-:   解决极端密集环境下的多智能体路径规划(MAPF)问题，通过符号规划方法在几乎无空闲空间的环境中高效找到所有Agent的无冲突路径。
+:   提出 Block Rearrangement Problem (BRaP) 形式化定义，并设计五种基于配置空间搜索、PDDL 符号规划和 MAPF 的求解算法，其中 BR-LaCAM 在最大 80×80 的极端密集网格上达到 92% 成功率和毫秒级求解速度。
 
 **[TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models](taylorpoda_a_taylor_expansion-based_method_to_improve_post-hoc_attributions_for_.md)**
 

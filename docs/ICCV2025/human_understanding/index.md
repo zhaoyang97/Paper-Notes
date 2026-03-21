@@ -13,4 +13,4 @@
 
 **[CarGait: Cross-Attention based Re-ranking for Gait Recognition](cargait_crossattention_based_reranking_for_gait_recognition.md)**
 
-:   提出CarGait——步态识别的cross-attention重排序方法：对initial retrieval的top-K候选，利用步态条带(gait strip)间的cross-attention计算细粒度相关性进行重排序，可作为任意单阶段步态识别模型的即插即用后处理模块，在Gait3D/GREW/OU-MVLP上7种模型中一致提升Rank-1/5准确率。
+:   提出CarGait——基于cross-attention的步态识别重排序方法：对任意单阶段步态模型的top-K检索结果，通过probe与候选间步态条带(gait strip)的cross-attention学习细粒度pair-wise交互，生成新的条件化表征并重新计算距离进行重排序。在Gait3D/GREW/OU-MVLP三个数据集、7种基线模型上一致提升Rank-1/5准确率，推理速度6.5ms/probe远超现有重排序方法。

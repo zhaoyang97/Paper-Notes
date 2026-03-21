@@ -157,7 +157,7 @@
 
 **[STEPH: Sparse Task Vector Mixup with Hypernetworks for Efficient Knowledge Transfer in WSI Prognosis](sparse_task_vector_mixup_wsi_prognosis.md)**
 
-:   STEPH通过超网络驱动的任务向量混合(TVM)+稀疏聚合实现跨癌种WSI预后知识迁移，在13个TCGA数据集上C-Index平均0.6949（+5.14% vs 癌种特定学习，+2.01% vs ROUPKT）。
+:   STEPH 将跨癌种预后模型的任务向量进行超网络驱动的混合（TVM）+ 稀疏聚合，在单一模型内完成知识迁移，13 个 TCGA 数据集上 C-Index 平均 0.6949（+5.14% vs 癌种特定学习，+2.01% vs ROUPKT），且推理开销远低于表示迁移方案。
 
 **[CodeBrain: Virtual Full-stack Scanning of Brain MRI via Imputing Any Quantised Code](virtual_fullstack_scanning_of_brain_mri_via_imputi.md)**
 

@@ -1,55 +1,115 @@
 # AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation
 
-**会议**: AAAI 2026  
-**arXiv**: [2511.11692v1](https://arxiv.org/abs/2511.11692v1)  
-**代码**: 暂无  
-**领域**: 3D视觉  
-**关键词**: 知识蒸馏, 生成, 3D  
+**会议**: AAAI 2026
+**arXiv**: [2511.11692](https://arxiv.org/abs/2511.11692)
+**代码**: https://github.com/viridityzhu/AnchorDS
+**领域**: 3D视觉
+**关键词**: Text-to-3D, Score Distillation Sampling, 扩散模型, 3DGS, 动态源分布, 语义一致性
 
 ## 一句话总结
-Optimization-based text-to-3D methods distill guidance from 2D generative models via Score Distillation Sampling (SDS), but implicitly treat this guidance as static.
+揭示 SDS 中源分布是动态演化而非静态的关键问题，提出 AnchorDS，通过将当前渲染图像作为图像条件输入双条件扩散模型来锚定源分布，解决了 SDS 的语义过度平滑和多视角不一致问题，在 T3Bench 上全面超越 SDS/VSD/SDS-Bridge。
 
-## 背景与动机
-Optimization-based text-to-3D methods distill guidance from 2D generative models via Score Distillation Sampling (SDS), but implicitly treat this guidance as static. We cast the problem into a dual-conditioned 潜空间, conditioned on both the text prompt and the intermediately rendered image.
-
-## 核心问题
-Optimization-based text-to-3D methods distill guidance from 2D generative models via Score Distillation Sampling (SDS), but implicitly treat this guidance as static.
+## 研究背景与动机
+1. **领域现状**：基于优化的 text-to-3D 方法通过 SDS 从预训练 2D 扩散模型中蒸馏梯度来训练 NeRF/3DGS，无需 3D 数据即可生成 3D 内容。
+2. **现有痛点**：SDS 存在两个典型缺陷——(1) **语义过度平滑**：物体特有的语义特征退化为模糊的均匀表示（如天鹅和湖水混在一起）；(2) **多视角不一致**：不同视角下几何和外观不连贯（如多头问题/Janus问题）。
+3. **核心矛盾**：作者通过数学分析发现根因——SDS 的 CFG 梯度可分解为"目标项 $m_1$"（推向文本条件分布）和"方差项 $m_2$"（推离源分布）。其中源分布用无条件先验 $p(z_t; t, \emptyset)$ 近似，完全忽略了 3D 模型在优化过程中的动态变化。$\hat{z}_{t \to 0}^{\text{source}}$ 既不编码当前 3D 状态的语义，也不反映已有的几何结构，导致梯度方向与实际 3D 状态不一致。
+4. **切入角度**：将 SDS 重新解释为**动态编辑过程**——每一步都是基于当前 3D 状态的渐进式编辑，源分布应该随 3D 模型一起演化。
+5. **核心idea**：用当前渲染图像作为图像条件输入扩散模型，替代无条件先验来估计源分布，实现"状态锚定"的梯度引导。
 
 ## 方法详解
 
 ### 整体框架
-本工作 shows that ignoring source dynamics yields inconsistent trajectories that suppress or merge semantic cues, leading to "semantic over-smoothing" artifacts.
+AnchorDS 的核心修改在 SDS 梯度计算中：将源分布估计从无条件噪声预测 $\hat{\epsilon}_\phi(z_t; t, \emptyset)$ 替换为图像条件化的噪声预测 $\hat{\epsilon}_\phi(z_t; t, \emptyset, I^{(\tau)})$，其中 $I^{(\tau)}$ 是当前优化步 $\tau$ 的渲染图像。
+
+新的引导梯度为：$g_t^{(\tau)} = \hat{\epsilon}_\phi(z_t; t, y) - \hat{\epsilon}_\phi(z_t; t, \emptyset, I^{(\tau)})$
+
+目标项不变（文本条件化），但源项现在编码了当前 3D 状态的结构和语义信息。
+
+整体 pipeline：每步渲染当前 3D 模型 → 编码到 latent + 加噪 → 查询扩散模型两次（文本条件得到目标预测、图像条件得到源预测）→ 差值梯度反传更新 3D 参数。
 
 ### 关键设计
-1. 本工作 shows that ignoring source dynamics yields inconsistent trajectories that suppress or merge semantic cues, leading to "semantic over-smoothing" artifacts.
-2. As such, we reformulate text-to-3D optimization as mapping a dynamically evolving source distribution to a fixed target distribution.
-3. Building on this insight, we introduce AnchorDS, an improved score distillation mechanism that provides state-anchored guidance with image conditions and stabilizes generation.
-4. We further penalize erroneous source estimates and design a lightweight filter strategy and 微调 strategy that refines the anchor with negligible overhead.
+
+1. **动态源分布锚定（核心）**：
+   - 做什么：用图像条件化的扩散模型替代无条件先验来估计源分布
+   - 核心思路：利用 IP-Adapter 或 ControlNet，将当前渲染图 $I^{(\tau)}$ 作为图像条件输入扩散模型。图像条件并不约束输出内容，而是作为**上下文锚点**引导生成，保留了当前 3D 状态的结构信息
+   - 设计动机：预训练的图像条件扩散模型天然具备图像反演能力——直接利用模型内在的图像→latent 映射能力实现精确的源锚定，无需额外的反演步骤。额外只需一次 U-Net forward pass（可与原 pass 并行），运行时间与标准 SDS 相同
+
+2. **伪源重建与质量评估**：
+   - 做什么：显式重建源图像，提供源分布估计质量的定量指标
+   - 核心思路：从图像条件化的噪声预测反推 one-step denoised latent $\hat{z}_{t \to 0}^{\text{anchored}}$，再解码得到重建图像，计算与原渲染图的 L2 距离：$\mathcal{L}_{\text{rec}} = \| \varepsilon(\hat{z}_{t \to 0}^{\text{anchored}}) - I^{(\tau)} \|_2^2$
+   - 设计动机：这个重建 loss 既是质量度量，也是两种增强策略的基础
+
+3. **Filtering 策略**：
+   - 做什么：基于 $\mathcal{L}_{\text{rec}}$ 设置阈值 $\gamma$，丢弃重建误差过大的源估计
+   - 核心思路：当 $\mathcal{L}_{\text{rec}} > \gamma$ 时将该步 AnchorDS loss 置零，跳过不可靠的梯度更新
+   - 设计动机：简单有效地过滤掉图像条件域偏移导致的异常预测，提升训练稳定性
+
+4. **Fine-tuning 策略**：
+   - 做什么：轻量微调 IP-Adapter 的单一层，弥合真实图像分布与渲染图像分布之间的域差距
+   - 核心思路：用 $\mathcal{L}_{\text{rec}}$ 梯度更新 image adapter 的一层参数，使其"看见"渲染域的数据。开销极小（训练时间从约 25 分钟增至约 30 分钟）
+   - 设计动机：预训练的 2D 模型在真实图像上训练，对合成渲染图的处理存在分布偏差
 
 ### 损失函数 / 训练策略
-待深读后补充。
+- AnchorDS 梯度：$\nabla_\Theta \mathcal{L}_{\text{AnchorDS}} = w(t) \cdot g_t^{(\tau)} \cdot \frac{\partial z_t}{\partial \Theta}$
+- 源重建 loss：$\mathcal{L}_{\text{rec}} = \| \varepsilon(\hat{z}_{t \to 0}^{\text{anchored}}) - I^{(\tau)} \|_2^2$
+- Filtering 和 Finetuning 二选一使用（互补策略）
+- 默认 image conditioner：IP-Adapter (SD 1.5) 或 ControlNet (SD 2.1)
+- 3D 表示：支持 3DGS（GaussianDreamer）和 NeRF
 
 ## 实验关键数据
-- 大量实验 show that our method 超越 先前方法 in both quality and efficiency.
 
-### 消融实验要点
-- 待深读后补充
+### 主实验
+T3Bench 基准（300 prompts，含单物体/单物体+环境/多物体三类）：
 
-## 亮点 / 我学到了什么
-- 被AAAI 2026接收
-- 待深读后补充
+| 方法 | All↑ | Single↑ | Surr↑ | Multi↑ |
+|------|------|---------|-------|--------|
+| SDS (DreamFusion) | 20.5 | 24.9 | 19.3 | 17.3 |
+| SDS (GaussianDreamer) | 29.7 | 42.3 | 26.1 | 20.6 |
+| AnchorDS (IP-Adapter) + Finetune | **33.3** | **45.3** | **29.0** | 25.7 |
+| AnchorDS (ControlNet) + Filter | 33.2 | **46.1** | 29.4 | 24.0 |
+
+人工评估（912 参与者）：
+
+| 方法 | CLIP↑ | 3D一致性Q1↓ | 文本对齐Q2↓ | 视觉质量Q3↓ |
+|------|-------|------------|-----------|-----------|
+| VSD (SD 2.1) | 0.352 | 1.84 | 1.85 | 1.79 |
+| **Ours (ControlNet, SD 2.1)** | **0.369** | **1.16** | **1.15** | **1.21** |
+| VSD (SD 1.5) | 0.281 | 1.99 | 2.00 | 2.08 |
+| SDS-Bridge (SD 1.5) | 0.233 | 2.38 | 2.35 | 2.29 |
+| **Ours (IP-Adapter, SD 1.5)** | **0.334** | **1.63** | **1.66** | **1.63** |
+
+### 消融实验
+| 配置 | All↑ | 说明 |
+|------|------|------|
+| SDS baseline | 29.7 | 基线 |
+| AnchorDS (IP-Adapter) | 30.7 | 仅加源锚定 +1.0 |
+| + Filter | 32.8 | 过滤不稳定预测 +3.1 |
+| + Finetune | **33.3** | 微调 adapter +3.6 |
+
+### 关键发现
+- **源锚定本身就有效**（+1.0），Filter 和 Finetune 各自提供额外增益
+- **多物体场景提升最大**：Multi 类从 20.6 升至 25.7（+24.8%），因为源锚定有效防止了不同物体语义混合
+- **对图像条件模型不敏感**：IP-Adapter 和 ControlNet 都有效，说明方法具有通用性
+- **VSD 虽然分布建模更精细，但仍因未考虑源动态而产生不自然颜色和结构问题**
+- **SDS-Bridge 的手工负提示引入了新的偏差**（如材质纹理偏差），不够灵活
+
+## 亮点与洞察
+- **问题分析精准且有数学支撑**：将 SDS 梯度分解为 $m_1$ 和 $m_2$，进一步展开为伪编辑公式（Eq.8），清晰地暴露了无条件源估计丢失当前 3D 状态信息的问题。这个分析框架比直觉解释说服力强得多。
+- **方法极其轻量**：核心修改只是将 CFG 的无条件分支换成图像条件分支——一行代码级别的改动，无需额外网络或训练数据。Filter/Finetune 策略也非常简单。
+- **"动态源分布"视角可能推广到其他蒸馏场景**：如 2D 编辑、视频生成中的 SDS 变体，凡是用 SDS 做迭代优化的场景都可以考虑类似的源锚定。
 
 ## 局限性 / 可改进方向
-- 待深读后补充
+- **仍依赖 SDS 范式**：继承了 SDS 的固有慢速（需要数千步优化），对实时应用不友好
+- **图像条件模型的能力上限**：如果 IP-Adapter/ControlNet 对某些渲染风格的反演能力差，源估计质量会下降（这也是 Filter 策略存在的原因）
+- **未与 feed-forward 3D 生成方法对比**：T3Bench 评估只与 SDS 变体对比，缺少与 3D native 生成模型的对比
 
-## 与相关工作的对比
-待深读后补充。
-
-## 与我的研究方向的关联
-- 待分析
+## 相关工作与启发
+- **vs VSD (ProlificDreamer)**：VSD 用 LoRA 训练一个粒子分布模型来近似源分布，计算开销大（4个模型）。AnchorDS 直接用渲染图像做条件化，零额外模型，效果更好。
+- **vs SDS-Bridge**：SDS-Bridge 用手工描述 3D 状态的负提示来修正源偏差，引入新偏差。AnchorDS 让模型直接"看到"当前渲染，无偏差。
+- **vs DDS**：DDS 也用参考图像，但需要配对的参考提示且用于不同目的。AnchorDS 的图像条件是自动获取的（当前渲染）。
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐
-- 实验充分度: ⭐⭐⭐⭐
-- 写作质量: ⭐⭐⭐⭐
-- 对我的价值: ⭐⭐⭐
+- 新颖性: ⭐⭐⭐⭐ 对 SDS 的源分布问题分析深入，方法优雅简洁
+- 实验充分度: ⭐⭐⭐⭐ T3Bench + 人工评估 + 消融 + 多基类对比
+- 写作质量: ⭐⭐⭐⭐⭐ 分析推导清晰，图示直观，逻辑链完整
+- 价值: ⭐⭐⭐⭐ SDS 框架下的重要改进，方法简单可复现

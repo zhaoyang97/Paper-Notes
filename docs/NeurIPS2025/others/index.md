@@ -83,9 +83,9 @@
 
 :   提出 AutoSciDACT 管线：先用有监督对比学习将高维科学数据压缩到 4 维嵌入空间，再用 NPLM（New Physics Learning Machine）似然比检验对嵌入空间中的分布偏差进行统计量化，在天文、粒子物理、病理、图像和合成数据集上以 ≤1% 的信号注入比例实现 ≥3σ 发现。
 
-**[Beyond the Singular: Value of Multiple Generations in Benchmark Evaluation](beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md)**
+**[Beyond the Singular: Revealing the Value of Multiple Generations in Benchmark Evaluation](beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md)**
 
-:   通过多次生成(k=50)建立层级模型，证明能显著降低基准估计方差，量化个体prompt难度，检测标签错误。
+:   将LLM基准评测形式化为层级统计模型，理论证明多次随机生成（k>1）能降低benchmark分数估计方差，并引入prompt级难度指标$\mathbb{P}(\text{correct})$和数据地图用于基准质量控制。
 
 **[Depth-Supervised Fusion Network For Seamless-Free Image Stitching](depth-supervised_fusion_network_for_seamless-free_image_stitching.md)**
 
@@ -115,9 +115,9 @@
 
 :   令人惊讶地，纯RL训练无需显式PRM监督即可诱发出强大的过程理解能力，且现有PRMs在SOTA模型上甚至不如简单多数投票有效。
 
-**[L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context](l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md)**
+**[L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models](l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md)**
 
-:   L-MTP通过跳跃式预测非相邻token，相比MTP在3B-12B模型上实现22%推理加速，同时保持或提升任务性能。
+:   L-MTP 在多token预测（MTP）基础上引入跳跃机制，预测非相邻位置的token（如位置1,3,5,7而非1,2,3,4），通过"后向查找"解码策略复用先前预测填补空隙，在3B-12B模型上实现22%推理加速的同时保持或提升任务性能。
 
 **[Learning Generalizable Shape Completion With Sim3 Equivariance](learning_generalizable_shape_completion_with_sim3_equivariance.md)**
 

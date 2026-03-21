@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 ACL2025 论文笔记
 
-共 **474** 篇笔记，覆盖 **23** 个领域。
+共 **475** 篇笔记，覆盖 **23** 个领域。
 
 ## 领域概览
 
@@ -10,7 +10,7 @@
 | 💬 [LLM / NLP](#llm_nlp) | 144 |
 | 👁️ [多模态 VLM](#multimodal_vlm) | 46 |
 | 📦 [模型压缩](#model_compression) | 37 |
-| ⚖️ [对齐 / RLHF](#llm_alignment) | 24 |
+| ⚖️ [对齐 / RLHF](#llm_alignment) | 25 |
 | 🦾 [LLM Agent](#llm_agent) | 20 |
 | 🛡️ [AI 安全](#ai_safety) | 16 |
 | ✍️ [文本生成](#nlp_generation) | 15 |
@@ -129,7 +129,7 @@
 
 **[ConsistencyChecker: Tree-based Evaluation of LLM Generalization Capabilities](llm_nlp/consistencychecker_tree_evaluation.md)**
 
-:   ConsistencyChecker 提出基于树状结构的 LLM 泛化能力评估框架，通过可逆变换的往返一致性（如英语→西班牙语→英语）测量模型在多步变换中的语义/功能保持能力，动态生成 benchmark 避免数据泄露，与 WMT 2024 排名相关性 r > 0.7。
+:   ConsistencyChecker 提出基于自一致性树（self-consistency tree）的无参考 LLM 评估框架，通过构建可逆变换的树状多步路径（如多语言往返翻译、代码等价重写），量化模型在迭代变换中的语义/功能保持能力，动态生成 benchmark 从根源消除数据泄露，且与 WMT 2024 权威排名的相关性 r > 0.7，证明无需配对数据即可可靠评估 LLM 泛化能力。
 
 **[Contrastive Perplexity for Controlled Generation: An Application in Detoxifying Large Language Models](llm_nlp/contrastive_perplexity_controlled_gen.md)**
 
@@ -497,11 +497,11 @@
 
 **[KoGEM: Polishing Every Facet of the GEM: Testing Linguistic Competence of LLMs and Humans in Korean](llm_nlp/polishing_every_facet_of_the_gem.md)**
 
-:   提出 KoGEM（韩语语法评估基准），1,524 道多选题覆盖音韵/形态/句法/语义/规范 5 大类 16 子类，零样本评估 27 个 LLM 发现模型在需要经验知识的任务（如发音规则）上远逊人类，而补充经验知识后可显著提升。
+:   提出 KoGEM（韩语语法评估基准），包含 1,524 道基于理论语言学分类的多选题，覆盖音韵/形态/句法/语义/规范 5 大类 16 子类，零样本评估 27 个 LLM 并与人类对比，揭示 LLM 在需要经验知识的语言子类（如发音规则、音韵变化）上远逊人类，而显式补充经验知识（发音文本、语素分解）后可大幅提升。
 
 **[Only a Little to the Left: A Theory-grounded Measure of Political Bias in LLMs](llm_nlp/political_bias_theory_grounded.md)**
 
-:   基于政治科学理论构建科学有效的LLM政治偏见测量方法，对11个模型用多种提示变体收集88,110条回复，发现指令微调模型普遍偏左，但偏见度量对提示高度敏感，且Political Compass Test会夸大某些模型的偏见。
+:   本文用政治科学中经过验证的 World Values Survey (WVS) 替代缺乏科学基础的 Political Compass Test (PCT)，设计 30 种提示变体在 11 个开源/商业 LLM 上收集 88,110 条开放式回复并训练立场分类器自动标注，发现指令微调模型普遍偏左但偏见度量对提示高度敏感，PCT 会夸大特定模型（如 GPT-3.5）的政治偏见。
 
 **[Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges](llm_nlp/pragmatics_survey.md)**
 
@@ -601,7 +601,7 @@
 
 **[ScaleQuest: Unleashing LLM Reasoning Capability via Scalable Question Synthesis from Scratch](llm_nlp/unleashing_llm_reasoning_capability_via_scalable.md)**
 
-:   提出 ScaleQuest，通过 Question Fine-Tuning (QFT) + Question Preference Optimization (QPO) 两阶段解锁 7B 模型的数学题生成能力，从零合成 100 万高质量问题-解答对，训练效果超越所有开源数据集并展现持续的数据扩展潜力。
+:   提出 ScaleQuest，通过 Question Fine-Tuning (QFT) + Question Preference Optimization (QPO) 两阶段训练将 7B 解题模型变为出题模型，从零合成 100 万高质量数学问题-解答对，在四个基准上全面超越所有开源数据集，且数据量扩展至 1M 时性能持续提升未见饱和。
 
 **[Veracity Bias and Beyond: Uncovering LLMs' Hidden Beliefs in Problem-Solving Reasoning](llm_nlp/veracity_bias_llm_hidden_beliefs.md)**
 
@@ -635,9 +635,9 @@
 
 :   发现MoELoRA在多模态持续指令微调(MCIT)中存在参数低效——矩阵A跨任务趋同而B保持区分，提出BranchLoRA：共享一个A矩阵（树干）+ 多个专有B矩阵（树枝） + 灵活调参-冻结机制 + 任务特定路由器，在CoIN benchmark上显著超越MoELoRA，有效缓解灾难性遗忘。
 
-**[MMSafeAware: Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness](multimodal_vlm/cant_see_the_forest_for_the.md)**
+**[MMSafeAware: Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs](multimodal_vlm/cant_see_the_forest_for_the.md)**
 
-:   提出 MMSafeAware，首个全面的多模态安全意识基准（1,500 图-文对 × 29 安全场景），包含"不安全"和"过度安全"两个子集，评估 9 个 MLLM 发现模型既不够安全（GPT-4V 36.1% 误判为安全）又过度敏感（59.9% 误判为不安全），三种改进方法均不满意。
+:   提出 MMSafeAware，首个同时评估"不安全内容识别"和"过度敏感"的多模态安全意识基准，包含 1,500 个跨 29 种安全场景的图文对，评估 9 个 MLLM 发现所有模型都存在安全与有用性的严重权衡——GPT-4V 将 36.1% 的不安全输入误判为安全，同时将 59.9% 的安全输入误判为不安全；三种改进方法均无法根本解决问题。
 
 **[Centurio: On Drivers of Multilingual Ability of Large Vision-Language Model](multimodal_vlm/centurio_multilingual_vlm.md)**
 
@@ -955,6 +955,10 @@
 
 ## ⚖️ 对齐 / RLHF { #llm_alignment }
 
+**[Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race](llm_alignment/aligned_but_blind_implicit_bias.md)**
+
+:   发现 LLM 对齐训练的矛盾效应：对齐成功消除了显式偏见（Llama 3 70B 降至 8.13%），但反而放大了隐式偏见（从 64.1% 升至 91.4%），机制是对齐使模型在歧义上下文中不再表征种族概念（"种族盲视"），导致安全护栏无法在隐性场景中激活。通过在早期层注入种族感知激活可将隐式偏见从 97.3% 降至 71.2%。
+
 **[AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs](llm_alignment/automixalign_adaptive_data_mixing.md)**
 
 :   AutoMixAlign 提出了一种理论驱动的多任务偏好优化数据混合方法：先训练各任务的 specialist model 确定最优 loss 基线，再通过 minimax 优化自适应调整数据混合比例，优先处理 excess loss（与 specialist 的差距）最大的任务，在 helpfulness/harmlessness/reasoning 多任务 DPO 中平均提升 9.42%。
@@ -977,7 +981,7 @@
 
 **[Understanding Impact of Human Feedback via Influence Functions](llm_alignment/influence_functions_rlhf.md)**
 
-:   首次将影响函数系统性应用于 RLHF 奖励模型的人类反馈审计，通过 DataInf 近似 + OPORP 梯度压缩（160MB→256KB）实现 2.5 倍加速，在长度偏差和谄媚偏差检测上显著超越 GPT-4o 等基线（AUC 0.8 vs ~0.6），并在 Anthropic-HH 原始数据集中发现 47% 的错标样本，同时展示了影响函数指导非专家标注者向专家策略对齐的能力。
+:   首次将影响函数应用于 RLHF 奖励模型的反馈数据审计，结合 OPORP 向量压缩实现 2.5 倍加速，在偏差检测上超越 GPT-4o（AUC 0.8 vs 0.747），并从 Anthropic-HH 数据集中发现 47% 的错标样本。
 
 **[IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization](llm_alignment/iopo_input_output_preference.md)**
 
@@ -993,7 +997,7 @@
 
 **[LSSF: Safety Alignment via Low-Rank Safety Subspace Fusion](llm_alignment/lssf_safety_subspace.md)**
 
-:   LSSF 发现 LLM 的安全信息集中在低秩子空间中，利用 SVD 构建低秩投影矩阵提取安全向量的主成分，并通过安全奇异值熵自适应确定每层保留秩，最终将低秩安全主成分通过线性算术融合到微调后模型中，实现免训练的后验安全恢复，同时最大化保持下游任务性能。
+:   LSSF 提出 LLM 的安全信息存在于低秩子空间中的假设，通过 SVD 提取安全对齐模型的主成分，利用安全奇异值熵自适应确定每层的保留秩，最终将提取的安全主成分线性融合到微调后的模型中，无需额外训练即可恢复因微调而退化的安全对齐，同时保持下游任务性能。
 
 **[M2S: Multi-turn to Single-turn jailbreak in Red Teaming for LLMs](llm_alignment/m2s_multiturn_to_singleturn_jailbreak_in.md)**
 
@@ -1011,9 +1015,9 @@
 
 :   Mutual-Taught 提出了一种基于 EM 算法的自训练框架，在偏好优化过程中同时迭代更新 policy model 和 reward model：E-step 用当前 RM 优化 PM，M-step 用 PM 更新前后的输出差异构建伪偏好对来更新 RM，解决了分布偏移导致的 reward hacking 问题，8B 模型在 AlpacaEval-2 达到 54.1% LC win rate。
 
-**[Optimal Transport-Based Token Weighting for Enhanced Preference Optimization (OTPO)](llm_alignment/otpo_token_weighting.md)**
+**[Optimal Transport-Based Token Weighting for Enhanced Preference Optimization](llm_alignment/otpo_token_weighting.md)**
 
-:   提出 OTPO，利用无平衡最优传输（Unbalanced OT）在 chosen/rejected 回复的 token 语义表示之间建立匹配关系，从传输计划的边际分布导出每个 token 的重要性权重，替换 DPO 中的均匀权重，使偏好优化聚焦于语义关键 token，在 AlpacaEval2 上 LC WR 比 DPO 提升最高 10.9%。
+:   OTPO 利用无平衡最优传输（UOT）在 chosen/rejected 回复的 token 表示之间计算语义对齐权重，使偏好优化聚焦于关键差异 token 而非均等对待所有 token，在 AlpacaEval2 上将 DPO 的 LC WR 从 48.14% 提升至 55.84%，并将 DPO/SimPO/SamPO/LDDPO 统一为 token 加权的特例。
 
 **[Whose Boat Does it Float? Improving Personalization in Preference Optimization](llm_alignment/personalized_preference_opt.md)**
 
@@ -1029,7 +1033,7 @@
 
 **[RISE: Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing](llm_alignment/rise_error_inject_preference.md)**
 
-:   RISE 发现 LLM 约 75% 的数学错误是微妙的步内错误（计算错误、替代错误、遗漏项），提出让 LLM 自编辑（REPLACE/SWAP/DELETE）向正确解注入预定义微妙错误来构造难负样本，配合步级+序列级+自适应 NLL 三合一的错误感知 DPO 训练，仅用约 4.5K 样本在 Qwen2-7B 上 GSM8K +3.0%、MATH +7.9%，且泛化到逻辑推理和代码生成。
+:   RISE 发现 LLM 约 75% 的数学错误是微妙的步内错误（数字替换、操作数交换、步骤遗漏），通过让 LLM 自编辑向正确解注入预定义微妙错误来构造高质量难负样本，配合错误感知 DPO 训练，仅用 4.5K 样本在 GSM8K 提升 3.0%、MATH 提升 7.9%，并泛化到逻辑推理和代码生成。
 
 **[SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings](llm_alignment/sea_lowresource_safety_alignment_for_multimodal.md)**
 
@@ -1581,7 +1585,7 @@
 
 **[IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery](causal_inference/iris_an_iterative_and_integrated_framework.md)**
 
-:   提出 IRIS，从一组初始变量出发，自动收集文档→提取变量值→混合因果发现（统计方法+LLM关系提取）→缺失变量提议→迭代扩展因果图，放松了无环和因果充分性假设，在 6 个数据集上超越基线。
+:   提出 IRIS 框架——仅需一组初始变量名作为输入，即可自动检索文档、提取变量值构建结构化数据、通过混合因果发现（GES 统计算法 + LLM 因果关系验证）构建因果图，并通过缺失变量提议组件迭代扩展变量集合，放松了传统方法的无环和因果充分性假设，在 Cancer、Diabetes、Obesity、ADNI、Insurance 等 6 个数据集上 F1 全面超越 0-shot/CoT/RAG 基线。
 
 **[On the Reliability of Large Language Models for Causal Discovery](causal_inference/llm_causal_discovery_reliability.md)**
 
@@ -1833,7 +1837,7 @@
 
 **[Ewe: Improving Factuality with Explicit Working Memory](others/improving_factuality_with_explicit_working_memory.md)**
 
-:   提出 Ewe（Explicit Working Memory），用显式工作记忆增强 LLM 的事实性长文本生成——记忆由多个 KV cache 单元组成，实时接收检索知识和事实核查反馈，错误句子被删除重生，在 4 个事实生成基准上 VeriScore 提升 2-6 分且不损失回答有用性。
+:   提出 Ewe（Explicit Working mEmory），在 LLM 解码过程中引入由多个 KV cache 单元组成的显式工作记忆，实时接收检索知识反馈和事实核查反馈，检测到错误时删除错误句子并用更新后的记忆重新生成，在 4 个事实性长文本生成基准上将 VeriScore F1 提升 2–6 分且不损失回答有用性。
 
 **[Improving Language and Modality Transfer in Translation by Character-level Modeling](others/improving_language_and_modality_transfer_in.md)**
 

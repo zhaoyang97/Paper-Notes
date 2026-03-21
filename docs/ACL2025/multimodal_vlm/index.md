@@ -23,9 +23,9 @@
 
 :   发现MoELoRA在多模态持续指令微调(MCIT)中存在参数低效——矩阵A跨任务趋同而B保持区分，提出BranchLoRA：共享一个A矩阵（树干）+ 多个专有B矩阵（树枝） + 灵活调参-冻结机制 + 任务特定路由器，在CoIN benchmark上显著超越MoELoRA，有效缓解灾难性遗忘。
 
-**[MMSafeAware: Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness](cant_see_the_forest_for_the.md)**
+**[MMSafeAware: Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs](cant_see_the_forest_for_the.md)**
 
-:   提出 MMSafeAware，首个全面的多模态安全意识基准（1,500 图-文对 × 29 安全场景），包含"不安全"和"过度安全"两个子集，评估 9 个 MLLM 发现模型既不够安全（GPT-4V 36.1% 误判为安全）又过度敏感（59.9% 误判为不安全），三种改进方法均不满意。
+:   提出 MMSafeAware，首个同时评估"不安全内容识别"和"过度敏感"的多模态安全意识基准，包含 1,500 个跨 29 种安全场景的图文对，评估 9 个 MLLM 发现所有模型都存在安全与有用性的严重权衡——GPT-4V 将 36.1% 的不安全输入误判为安全，同时将 59.9% 的安全输入误判为不安全；三种改进方法均无法根本解决问题。
 
 **[Centurio: On Drivers of Multilingual Ability of Large Vision-Language Model](centurio_multilingual_vlm.md)**
 

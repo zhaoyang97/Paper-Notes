@@ -25,7 +25,7 @@
 
 **[Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization](diffusion_model_as_a_noiseaware_latent_reward_model_for_step.md)**
 
-:   提出 LRM（Latent Reward Model）和 LPO（Latent Preference Optimization），利用预训练扩散模型本身作为噪声感知的潜空间奖励模型进行步级偏好优化，避免了将噪声潜在图像转换为像素空间的复杂性，在对齐人类偏好的同时实现 2.5–28× 训练加速。
+:   提出 Latent Reward Model (LRM) 和 Latent Preference Optimization (LPO)，将预训练扩散模型本身复用为噪声感知的潜空间奖励模型，在噪声潜在空间直接进行步级偏好优化，相比 Diffusion-DPO 实现 10-28× 训练加速，相比 SPO 实现 2.5-3.5× 加速。
 
 **[G-Dpo Scalable Preference Optimization For Protein Language Models](g-dpo_scalable_preference_optimization_for_protein_language_models.md)**
 

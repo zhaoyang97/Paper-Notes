@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # AAAI2026 论文笔记 TODO
 
-总计: 1379 篇 | 已完成: 209 | 待更新: 1170
+总计: 1379 篇 | 已完成: 210 | 待更新: 1169
 
 ---
 
@@ -78,7 +78,7 @@
 - [x] [An Invariant Latent Space Perspective on Language Model Inversion](ai_safety/an_invariant_latent_space_perspective_on_language_model_inve.md) | arXiv: 2511.19569v1
 - [x] [An LLM-Based Simulation Framework for Embodied Conversational Agents in Psychological Counseling](ai_safety/an_llm-based_simulation_framework_for_embodied_conversationa.md) | arXiv: 2410.22041v3
 - [ ] [an overall real-time mechanism for classification and quality evaluation of rice](object_detection/an_overall_real-time_mechanism_for_classification_and_quality_evaluation_of_rice.md) | arXiv: 2502.13764
-- [ ] [AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation](3d_vision/anchords_anchoring_dynamic_sources_for_semantically_consiste.md) | arXiv: 2511.11692v1
+- [x] [AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation](3d_vision/anchords_anchoring_dynamic_sources_for_semantically_consiste.md) | arXiv: 2511.11692v1
 - [x] [AnchorHOI: Zero-shot Generation of 4D Human-Object Interaction via Anchor-based Prior Distillation](3d_vision/anchorhoi_zero-shot_generation_of_4d_human-object_interactio.md) | arXiv: 2512.14095v1
 - [x] [Angular Gradient Sign Method: Uncovering Vulnerabilities in Hyperbolic Networks](ai_safety/angular_gradient_sign_method_uncovering_vulnerabilities_in_h.md) | arXiv: 2511.12985v2
 - [x] [Annealed Relaxation of Speculative Decoding for Faster Autoregressive Image Generation](image_generation/annealed_relaxation_of_speculative_decoding_for_faster_autor.md) | arXiv: 2601.09212v1

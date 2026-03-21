@@ -1,5 +1,5 @@
 # Auto-generated: AAAI2026 paper notes ignore
-# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
+# 由 src/sync_notes.py 根据 TODO.md 自动生成
 
 # 默认忽略所有笔记
 *.md
@@ -8,8 +8,9 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
+!index.md
 
-# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
+# 排除已完成笔记所在的子目录
 !3d_vision/
 !ai_safety/
 !aigc_detection/
@@ -44,9 +45,10 @@
 !time_series/
 !video_understanding/
 
-# 已完成笔记 (209 篇)
+# 已完成笔记 (210 篇)
 !3d_vision/3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md
 !3d_vision/4dstr_advancing_generative_4d_gaussians_with_spatial-tempora.md
+!3d_vision/anchords_anchoring_dynamic_sources_for_semantically_consiste.md
 !3d_vision/anchorhoi_zero-shot_generation_of_4d_human-object_interactio.md
 !3d_vision/arbitrary-scale_3d_gaussian_super-resolution.md
 !3d_vision/foundationslam_unleashing_the_power_of_depth_foundation_models_for.md

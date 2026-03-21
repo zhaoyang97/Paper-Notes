@@ -129,7 +129,7 @@
 
 **[Mint: A Simple Test-Time Adaptation of Vision-Language Models against Common Corruptions](mint_a_simple_testtime_adaptation_of_visionlanguage_models_a.md)**
 
-:   发现 CLIP 在图像损坏下的性能退化源于**嵌入方差坍缩**（类内和类间方差均缩小），提出 Mint——一种极简的测试时适配方法，通过最大化伪标签基础的类间方差在线恢复嵌入空间的判别性，仅用均值累加器和梯度累加器即可在小 batch 下一致提升多种损坏基准的性能。
+:   发现 CLIP 在图像损坏下的性能退化根源在于**嵌入方差坍缩**——类内与类间方差同步缩小导致嵌入空间判别性丧失；提出 Mint，通过最大化伪标签类间方差（PL-inter）在线修复嵌入几何，仅凭均值累加器和梯度累加器两个极简组件即可在 BS=1 的在线场景下稳定提升 CLIP 在多种损坏基准上的分类精度，同时比最强 baseline 快 45 倍。
 
 **[MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly](mmlongbench_benchmarking_longcontext_visionlanguage_models_e.md)**
 
@@ -145,7 +145,7 @@
 
 **[Rethinking Multimodal Learning from the Perspective of Mitigating Classification Ability Disproportion](rethinking_multimodal_learning_from_the_perspective_of_mitig.md)**
 
-:   从分类能力不均衡（classification ability disproportion）的新视角重新审视多模态学习中的模态不平衡问题，提出基于boosting原理的持续增强算法——同时优化分类误差和残差误差，配合自适应分类器分配策略动态提升弱模态性能，理论证明收敛性，在多个benchmark上超越SOTA。
+:   提出"**分类能力不均衡**"视角理解多模态学习中的模态不平衡，设计 Sustained Boosting 算法（共享编码器 + 多可配置分类器，同时优化分类和残差误差）配合自适应分类器分配（ACA），理论证明跨模态 gap loss 以 $\mathcal{O}(1/T)$ 收敛，在 CREMAD 等 6 个数据集上大幅超越 SOTA。
 
 **[Sherlock: Self-Correcting Reasoning in Vision-Language Models](sherlock_selfcorrecting_reasoning_in_visionlanguage_models.md)**
 

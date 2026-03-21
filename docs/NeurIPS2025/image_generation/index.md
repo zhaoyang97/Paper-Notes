@@ -63,9 +63,9 @@
 
 :   提出 AAPT（Autoregressive Adversarial Post-Training），将预训练的潜在视频扩散模型转化为实时交互式视频生成器——每帧仅需单次神经网络前向传播（1NFE），自回归逐帧生成，8B 模型在单张 H100 上以 24fps 流式生成 736×416 视频，最长可达一分钟（1440帧）。
 
-**[Badiff Bandwidth Adaptive Diffusion Model](badiff_bandwidth_adaptive_diffusion_model.md)**
+**[BADiff: Bandwidth Adaptive Diffusion Model](badiff_bandwidth_adaptive_diffusion_model.md)**
 
-:   提出 BADiff——首个带宽自适应扩散模型，通过将目标熵约束作为条件嵌入扩散过程，使模型根据实时带宽动态调整生成质量并自适应提前终止采样，在保持感知质量的同时减少计算开销，避免了传统"高质量生成+后压缩"流程中的压缩伪影和计算浪费。
+:   提出 BADiff——首个带宽自适应扩散模型，通过将目标熵约束作为条件嵌入扩散反向过程，配合可微熵正则化损失和自适应停止策略，使模型根据实时带宽动态调整生成质量并自适应提前终止采样，在保持感知质量的同时减少计算开销，从根本上避免了传统"高质量生成→后压缩"流程中的压缩伪影和计算浪费。
 
 **[Balanced Conic Rectified Flow](balanced_conic_rectified_flow.md)**
 

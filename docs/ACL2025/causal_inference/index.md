@@ -5,7 +5,7 @@
 
 **[IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery](iris_an_iterative_and_integrated_framework.md)**
 
-:   提出 IRIS，从一组初始变量出发，自动收集文档→提取变量值→混合因果发现（统计方法+LLM关系提取）→缺失变量提议→迭代扩展因果图，放松了无环和因果充分性假设，在 6 个数据集上超越基线。
+:   提出 IRIS 框架——仅需一组初始变量名作为输入，即可自动检索文档、提取变量值构建结构化数据、通过混合因果发现（GES 统计算法 + LLM 因果关系验证）构建因果图，并通过缺失变量提议组件迭代扩展变量集合，放松了传统方法的无环和因果充分性假设，在 Cancer、Diabetes、Obesity、ADNI、Insurance 等 6 个数据集上 F1 全面超越 0-shot/CoT/RAG 基线。
 
 **[On the Reliability of Large Language Models for Causal Discovery](llm_causal_discovery_reliability.md)**
 

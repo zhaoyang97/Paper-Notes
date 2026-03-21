@@ -73,4 +73,4 @@
 
 **[Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video](eyes_wide_open_ego_proactive_videollm_for_streaming_video.md)**
 
-:   聚焦"主动式流式视频理解"新任务——给定第一视角流式视频输入，AI助手需要主动地在恰当时机回答多样化的、随事件演变的问题，同时保持感知和推理的同步。提出ESTP-Bench评估框架和ESTP-F1指标，以及包含数据引擎、多阶段训练和主动动态压缩技术的完整技术pipeline。
+:   定义"第一视角流式视频主动理解"新任务——给定ego-streaming视频，AI助手在恰当时机主动回答多样化、随事件演变的问题，同时保持感知与推理的同步。提出ESTP-Bench评估框架、ESTP-F1指标，以及含数据引擎、多阶段训练和主动动态压缩的完整技术pipeline（VideoLLM-EyeWO），在ESTP-Bench上比最强baseline MiniCPM-V高11.8%。

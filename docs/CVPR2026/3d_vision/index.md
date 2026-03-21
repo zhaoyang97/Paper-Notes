@@ -69,7 +69,7 @@
 
 **[PhysGM: Large Physical Gaussian Model for Feed-Forward 4D Synthesis](physgm_large_physical_gaussian_4d_synthesis.md)**
 
-:   提出 PhysGM，首个从单张图像前馈式联合预测 3D 高斯表示和物理属性的框架，通过物理感知重建模型预训练 + DPO 将模拟与物理合理参考视频对齐，配合 50K+ 物理标注 3D 资产数据集 PhysAssets，在一分钟内从单图生成高保真 4D 物理仿真，相比先前方法显著加速。
+:   首个从单张图像前馈预测3DGS+物理属性（材质类别/杨氏模量/泊松比）的框架，两阶段训练（监督预训练+DPO偏好微调）完全绕过SDS和可微物理引擎，配合50K+ PhysAssets数据集，1分钟内生成高保真4D物理仿真，CLIP_sim和人类偏好率均超越逐场景优化方法。
 
 **[R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection# R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection](r4det_4d_radar_camera_fusion_3d_detection.md)**
 
@@ -89,7 +89,7 @@
 
 **[Scaling View Synthesis Transformers (SVSM)](scaling_view_synthesis_transformers.md)**
 
-:   首次系统研究无几何NVS Transformer的缩放定律，提出有效批量大小假设和encoder-decoder SVSM架构，证明与decoder-only LVSM相同缩放斜率但3倍计算效率，在真实世界NVS上达新SOTA。
+:   首次为无几何先验的 NVS Transformer 建立缩放定律：提出有效批量大小假设（B_eff = B·V_T）揭示 encoder-decoder 被低估的根因，设计单向 encoder-decoder 架构 SVSM，在 RealEstate10K 上以不到一半训练 FLOPs 达到新 SOTA（30.01 PSNR），Pareto 前沿比 LVSM decoder-only 左移 3×。
 
 **[SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation](scope_scenecontextualized_incremental_fewshot_3d_s.md)**
 
@@ -101,7 +101,7 @@
 
 **[Spectral Defense Against Resource-Targeting Attack in 3D Gaussian Splatting](spectral_defense_against_resourcetargeting_attack.md)**
 
-:   提出联合3D频率感知高斯剪枝和2D角度各向异性正则化的频域防御，将3DGS中毒攻击导致的高斯过增长抑制最多5.92×、峰值显存降3.66×、渲染速度提升4.34×，同时保持甚至改善渲染质量。
+:   提出首个针对3DGS资源瞄准攻击的频域防御框架——联合3D频率感知高斯剪枝与2D角度各向异性正则化，将投毒导致的高斯过增长最多抑制5.92×、峰值显存降3.66×、渲染速度提升4.34×，同时渲染质量反而提升(PSNR +1.93dB)。
 
 **[WMGStereo: What Makes Good Synthetic Training Data for Zero-Shot Stereo Matching?](what_makes_good_synthetic_training_data_for_zerosh.md)**
 

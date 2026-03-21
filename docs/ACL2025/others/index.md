@@ -185,7 +185,7 @@
 
 **[Ewe: Improving Factuality with Explicit Working Memory](improving_factuality_with_explicit_working_memory.md)**
 
-:   提出 Ewe（Explicit Working Memory），用显式工作记忆增强 LLM 的事实性长文本生成——记忆由多个 KV cache 单元组成，实时接收检索知识和事实核查反馈，错误句子被删除重生，在 4 个事实生成基准上 VeriScore 提升 2-6 分且不损失回答有用性。
+:   提出 Ewe（Explicit Working mEmory），在 LLM 解码过程中引入由多个 KV cache 单元组成的显式工作记忆，实时接收检索知识反馈和事实核查反馈，检测到错误时删除错误句子并用更新后的记忆重新生成，在 4 个事实性长文本生成基准上将 VeriScore F1 提升 2–6 分且不损失回答有用性。
 
 **[Improving Language and Modality Transfer in Translation by Character-level Modeling](improving_language_and_modality_transfer_in.md)**
 

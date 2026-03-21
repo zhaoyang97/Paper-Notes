@@ -5,7 +5,7 @@
 
 **[A4VL: A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](a4vl_multiagent_long_video_reasoning.md)**
 
-:   提出 A4VL，一个多 Agent 感知-行动探索联盟框架用于高效长视频推理——多个 VLM Agent 在多轮循环中进行查询特定的感知线索提取（找到最相关的视频片段）和行动探索（生成答案、交叉审查、达成共识或重新探索），在 5 个 VideoQA 基准上超越 18 个现有 VLM 和 10 个长视频推理专用方法，且推理延迟显著更低。
+:   提出 A4VL，一个 training-free 的多 Agent 感知-行动联盟框架：多个异构 VLM Agent 在多轮循环中执行感知探索（事件分区 + CLIP 线索对齐定位关键帧）和行动探索（独立推理 → 交叉评分 → 共识/剪枝），在 5 个 VideoQA 基准上全面超越 18 个 VLM 和 11 个长视频专用方法，且推理延迟显著更低（MLVU 上 74s vs GPT-4o 127s）。
 
 **[AutoGaze: Attend Before Attention — Efficient and Scalable Video Understanding via Autoregressive Gazing](autogaze_attend_before_attention_efficient_video.md)**
 

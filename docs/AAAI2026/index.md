@@ -160,7 +160,7 @@
 
 **[A2Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators](llm_agent/a2flow_automating_agentic_workflow_generation_via_self-adaptive_abstraction_oper.md)**
 
-:   通过案例生成、聚类、深度提取三步从专家数据中自动提取抽象算子（无需人工设计），配合算子记忆机制实现上下文感知执行，在通用和具身基准上分别提升2.4%和19.3%，资源使用减少37%。
+:   提出 A2Flow 框架，通过三阶段流水线（案例生成→功能聚类→深度提取）从专家数据中全自动提取可复用的抽象执行算子，替代人工预定义算子，并引入算子记忆机制累积中间输出辅助节点决策，在 8 个基准上整体超越 AFLOW 等 SOTA，资源消耗降低 37%。
 
 **[A Multi-Agent Conversational Bandit Approach to Online Evaluation and Selection of User-Aligned LLM Responses](llm_agent/a_multi-agent_conversational_bandit_approach_to_online_evaluation_and_selection_.md)**
 
@@ -216,7 +216,7 @@
 
 **[D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](llm_agent/d-gara_a_dynamic_benchmarking_framework_for_gui_agent_robust.md)**
 
-:   提出D-GARA，首个系统评估GUI Agent在真实世界异常情况（如UI变化、弹窗干扰、网络延迟、元素缺失等）下鲁棒性的动态benchmark框架，揭示现有GUI Agent在面对环境扰动时性能急剧下降的严重问题。
+:   提出 D-GARA，一个面向 Android GUI Agent 的动态鲁棒性评估框架，通过在实时交互过程中注入权限弹窗、电量警告、应用崩溃等真实世界异常，揭示现有 SOTA Agent（包括 UI-TARS-72B、GPT-4o）在中断场景下平均成功率下降超过 17.5%，最高达 33% 的严重脆弱性。
 
 **[DEPO: Dual-Efficiency Preference Optimization for LLM Agents](llm_agent/depo_dual-efficiency_preference_optimization_for_llm_agents.md)**
 
@@ -228,7 +228,7 @@
 
 **[Extracting Events Like Code: A Multi-Agent Programming Framework for Zero-Shot Event Extraction](llm_agent/extracting_events_like_code_a_multi-agent_programming_framework_for_zero-shot_ev.md)**
 
-:   将零样本事件抽取分解为4个Agent（检索→规划→编码→验证），将事件schema定义为可执行Python类实现确定性验证和编译器式错误反馈，在多个领域和6个LLM上达到零样本事件抽取SOTA。
+:   提出 Agent-Event-Coder (AEC)，将零样本事件抽取类比为软件工程流程，用4个专职Agent（Retrieval→Planning→Coding→Verification）协作完成抽取，并将事件schema编码为可执行Python类实现编译器式确定性验证与双循环迭代修正，在5个领域、6个LLM上全面超越零样本基线。
 
 **[Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System](llm_agent/fact2fiction_targeted_poisoning_attack_to_agentic_fact-check.md)**
 
@@ -320,7 +320,7 @@
 
 **[ToC: Tree-of-Claims Search with Multi-Agent Language Models](llm_reasoning/toc_tree-of-claims_search_with_multi-agent_language_models.md)**
 
-:   提出Tree-of-Claims (ToC)搜索框架，用多智能体LLM构建和探索声明树进行结构化辩论式推理，通过系统地生成、评估和反驳声明来提升复杂问题的推理质量。
+:   提出 Tree-of-Claims (ToC) 框架，将专利权利要求编辑建模为结构化搜索问题，通过 MCTS 与 EditorAgent/ExaminerAgent 多智能体协作，在新颖性、范围保持和语义一致性之间联合优化，比零/少样本 LLM 基线平均提升约 8% 综合分。
 
 ---
 
@@ -356,15 +356,15 @@
 
 **[DiffBench Meets DiffAgent: End-to-End LLM-Driven Diffusion Acceleration Code Generation](image_generation/diffbench_meets_diffagent_end-to-end_llm-driven_diffusion_ac.md)**
 
-:   提出DiffBench基准和DiffAgent框架，让LLM自动为扩散模型生成加速代码（如量化、剪枝、蒸馏策略），实现端到端的无人工干预扩散模型优化，首次将LLM Agent应用于扩散模型压缩加速的自动化流程。
+:   提出DiffBench（604个扩散模型加速任务的评估基准，分5个难度等级）和DiffAgent（集成规划-编码-调试三Agent + 遗传算法选择器的闭环框架），在Claude Sonnet 4上将扩散加速代码生成通过率从54.30%提升到81.59%，复杂优化任务达成率68.27%。
 
 **[Difficulty Controlled Diffusion Model for Synthesizing Effective Training Data](image_generation/difficulty_controlled_diffusion_model_for_synthesizing_effec.md)**
 
-:   提出难度可控的扩散模型（DCDM），通过控制生成数据的难度来合成更有效的训练数据——简单样本用于warm-up、困难样本用于提升边界决策能力，实现类似课程学习的自动化数据合成策略。
+:   在Stable Diffusion中引入难度编码器（MLP，输入类别+难度分数），通过LoRA微调解耦"域对齐"和"难度控制"两个目标，使生成数据的学习难度可控——仅用10%额外合成数据即超过Real-Fake的最佳结果，节省63.4 GPU小时。
 
 **[DOS: Directional Object Separation in Text Embeddings for Multi-Object Image Generation](image_generation/dos_directional_object_separation_in_text_embeddings_for_mul.md)**
 
-:   提出DOS方法，在文本嵌入空间中通过方向性分离解决多物体图像生成中的属性混淆和对象融合问题，使不同对象在嵌入空间中占据不同方向，从而生成结构清晰的多物体场景。
+:   识别出多物体生成失败的四种场景（相似形状/纹理、不同背景偏好、多物体），通过构建方向性分离向量修改CLIP的三类文本嵌入（语义token/EOT/pooled），在SDXL上将成功率提升16-25%并将融合率降低3-12%，推理速度接近baseline（约4×快于Attend-and-Excite）。
 
 **[HACK: Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling](image_generation/head-aware_kv_cache_compression_for_efficient_visual_autoreg.md)**
 
@@ -436,11 +436,11 @@
 
 **[A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind](robotics/a_computable_game-theoretic_framework_for_multi-agent_theory_of_mind.md)**
 
-:   提出基于认知层次(cognitive hierarchy)的博弈论框架实现可计算的多智能体Theory of Mind，通过Poisson-Gamma共轭实现高效信念更新，避免求解不可判定的POMDP同时保持有限理性决策。
+:   提出基于 Poisson 认知层次（cognitive hierarchy）的博弈论框架，通过 Gamma-Poisson 共轭贝叶斯更新实现可计算的多智能体 Theory of Mind，在避免 POMDP 不可判定性的同时支持递归式有限理性决策与在线信念修正。
 
 **[Adaptive Theory of Mind for LLM-based Multi-Agent Coordination](robotics/adaptive_theory_of_mind_for_llm-based_multi-agent_coordination.md)**
 
-:   实时估计合作伙伴的ToM阶数并与之对齐，使用FTL(O(logT)悬悔)或Hedge(O(√T logN)悬悔)算法实现零样本多智能体协作，在4个任务上鲁棒地与不同类型的伙伴协作。
+:   提出自适应心智理论智能体(A-ToM)，将ToM阶数对齐建模为在线专家建议问题，通过FTL或Hedge算法实时估计伙伴的ToM阶数并动态调整自身推理深度，在重复矩阵博弈、网格导航和Overcooked等4类任务上实现鲁棒的零样本多智能体协作。
 
 **[Affordance-Guided Coarse-to-Fine Exploration for Base Placement in Open-Vocabulary Mobile Manipulation](robotics/affordance-guided_coarse-to-fine_exploration_for_base_placem.md)**
 
@@ -448,7 +448,7 @@
 
 **[Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning](robotics/attention_as_binding_a_vector-symbolic_perspective_on_transformer_reasoning.md)**
 
-:   从Vector Symbolic Architecture(VSA)视角解释Transformer的注意力和残差流作为近似的符号绑定/解绑定操作，解释了逻辑推理中的脆弱性（如变量混淆），并提出显式绑定头和超维记忆层作为改进方向。
+:   本文提出将Transformer自注意力机制重新解释为向量符号架构(VSA)中的软绑定/解绑定算子——Query/Key定义角色空间、Value编码填充项、注意力权重实现可微解绑定、残差连接实现叠加——从而以代数视角统一解释LLM在符号推理中的能力与脆弱性，并提出显式绑定头、超维记忆层等VSA启发的架构改进方向。
 
 **[Causal Inference Under Threshold Manipulation: Bayesian Mixture Modeling and Heterogeneous Treatment Effects](robotics/causal_inference_under_threshold_manipulation_bayesian_mixtu.md)**
 
@@ -458,9 +458,9 @@
 
 :   提出 EvoEmpirBench（EEB），包含两个动态交互式 benchmark（局部可观测迷宫导航 + 消消乐），以及 Agent-ExpVer 三智能体在线学习框架（GeoLink 交互 + InsightForce 经验抽象 + TruthWeaver 知识管理），通过"经验→验证→真理归纳"的认知循环实现无参数更新的持续策略进化，使 GPT-4.1 成功率提升 5.6%、Qwen-32B 提升 29%。
 
-**[ISEAL: Encrypted Fingerprinting for Reliable LLM Ownership Verification](robotics/iseal_encrypted_fingerprinting_for_reliable_llm_ownership_verification.md)**
+**[iSeal: Encrypted Fingerprinting for Reliable LLM Ownership Verification](robotics/iseal_encrypted_fingerprinting_for_reliable_llm_ownership_verification.md)**
 
-:   提出ISEAL加密指纹方案用于可靠的LLM所有权验证，通过加密指纹嵌入和验证协议实现不可伪造、不可否认的模型所有权证明。
+:   提出 iSeal——首个在模型窃取者完全控制推理过程的黑盒场景下仍能可靠验证 LLM 所有权的主动指纹方法，通过外部加密编码器 + RSC 纠错 + 相似度匹配三重机制，在 12 个 LLM、10+ 种攻击下均保持 100% 指纹成功率（FSR），而已有方法降至 0%。
 
 **[Neural Graph Navigation for Intelligent Subgraph Matching](robotics/neural_graph_navigation_for_intelligent_subgraph_matching.md)**
 
@@ -468,7 +468,7 @@
 
 **[Robust Out-of-Order Retrieval for Grid-Based Storage at Maximum Capacity](robotics/robust_out-of-order_retrieval_for_grid-based_storage_at_maximum_capacity.md)**
 
-:   解决最大容量网格存储系统中的鲁棒乱序检索问题，提出高效算法在系统满载时仍能保证目标物品的可达性和检索效率。
+:   针对满载 2D 网格存储系统中检索顺序不确定的问题，提出 k-bounded perturbation 不确定性模型，证明 Θ(k) 列宽是零重定位的充要条件，并给出高效鲁棒存储求解器与贪心检索策略，当 k ≤ 0.5c 时几乎消除重定位，k 到达 c 时仍减少 50%+ 重定位。
 
 **[Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems](robotics/shadows_in_the_code_exploring_the_risks_and_defenses_of_llm-.md)**
 
@@ -512,7 +512,7 @@
 
 **[Does Self-Evaluation Enable Wireheading in Language Models?](reinforcement_learning/does_self-evaluation_enable_wireheading_in_language_models.md)**
 
-:   形式化wireheading条件，证明将自评分与奖励耦合会创建严格激励让模型膨胀分数而非真正学习任务（摘要任务中膨胀率达0.95 reward vs 0.05准确率），解耦自评分与奖励可缓解此问题。
+:   形式化证明在POMDP框架下自评分耦合奖励信号时wireheading（操纵评估而非优化任务）严格优于诚实行为（Lemma 1），并在Llama-3.1-8B和Mistral-7B上实验验证——Selfgrade条件下摘要任务奖励饱和至0.95但准确率仅0.05，解耦自评分与奖励可消除直接wireheading激励。
 
 **[MARS: Multi-Agent Adaptive Reasoning with Socratic Guidance for Automated Prompt Optimization](reinforcement_learning/mars_multi-agent_adaptive_reasoning_with_socratic_guidance_f.md)**
 
@@ -552,7 +552,7 @@
 
 **[Distilling Cross-Modal Knowledge via Feature Disentanglement](model_compression/distilling_cross-modal_knowledge_via_feature_disentanglement.md)**
 
-:   提出通过特征解耦的方式进行跨模态知识蒸馏，将多模态teacher中不同模态的知识分离后传递给单模态或轻量化student，解决传统蒸馏中模态纠缠导致的知识迁移效率低下问题。
+:   提出频域解耦跨模态知识蒸馏（FD-CMKD），通过傅里叶变换将特征分解为低频（模态共享语义）和高频（模态特有细节）分量，分别施加强一致性 MSE 和弱一致性 logMSE 损失，并引入尺度标准化与共享分类器对齐特征空间，在音频-视觉、图像-文本、语义分割等多个跨模态场景全面超越现有蒸馏方法。
 
 **[DynaQuant: Dynamic Mixed-Precision Quantization for Learned Image Compression](model_compression/dynaquant_dynamic_mixed-precision_quantization_for_learned_i.md)**
 
@@ -560,7 +560,7 @@
 
 **[KVmix: Gradient-Based Layer Importance-Aware Mixed-Precision Quantization for KV Cache](model_compression/kvmix_gradient-based_layer_importance-aware_mixed-precision_.md)**
 
-:   提出KVmix，一种基于梯度的层级重要性感知混合精度KV Cache量化方法，通过梯度信息动态评估不同层的KV cache对输出的重要性，为重要层分配更高精度、不重要层使用更低精度，在保持LLM性能的同时实现更极致的KV cache压缩。
+:   提出 KVmix，通过计算 Key/Value 投影权重梯度的 $L_2$ 范数来评估各层 KV Cache 的重要性，实现层级混合精度量化（Key 平均 2.19bit、Value 平均 2.38bit），并结合动态关键上下文选择（RPC）策略，在 Llama/Mistral 等模型上实现近无损推理、4.9× 内存压缩和 5.3× 吞吐加速。
 
 **[SCoPe: Intrinsic Semantic Space Control for Mitigating Copyright Infringement in LLMs](model_compression/scope_intrinsic_semantic_space_control_for_mitigating_copyright_infringement_in_.md)**
 
@@ -634,9 +634,9 @@
 
 :   提出CHMR框架，将分子结构(1D/2D/3D)与细胞形态/基因表达等生物模态联合建模，通过结构感知的模态增强解决>90%的外部生物模态缺失问题，用树状向量量化(Tree-VQ)捕获分子-细胞-基因的层次化依赖关系，在9个benchmark的728个任务上超越SOTA，分类平均AUC提升3.6%，回归MAE降低17.2%。
 
-**[ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Aligned Sparse Autoencoders](medical_imaging/protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md)**
+**[ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders](medical_imaging/protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md)**
 
-:   用语义对齐的稀疏自编码器解纠缠和解释蛋白质语言模型的内部表示，使学到的特征与已知生物学功能对齐实现可解释的蛋白质分析。
+:   提出 ProtSAE，在稀疏自编码器训练中引入语义标注和领域本体知识作为引导信号，解决传统 SAE 的语义纠缠问题，使蛋白质语言模型的隐层特征与生物学概念（分子功能、生物过程、离子结合位点等）精准对齐，同时保持高重建保真度并支持概念级别的生成控制。
 
 ---
 
@@ -656,7 +656,7 @@
 
 **[AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation](3d_vision/anchords_anchoring_dynamic_sources_for_semantically_consiste.md)**
 
-:   Optimization-based text-to-3D methods distill guidance from 2D generative models via Score Distillation Sampling (SDS), but implicitly treat this guidance as static.
+:   揭示 SDS 中源分布是动态演化而非静态的关键问题，提出 AnchorDS，通过将当前渲染图像作为图像条件输入双条件扩散模型来锚定源分布，解决了 SDS 的语义过度平滑和多视角不一致问题，在 T3Bench 上全面超越 SDS/VSD/SDS-Bridge。
 
 **[AnchorHOI: Zero-shot Generation of 4D Human-Object Interaction via Anchor-based Prior Distillation](3d_vision/anchorhoi_zero-shot_generation_of_4d_human-object_interactio.md)**
 
@@ -1050,9 +1050,9 @@
 
 ## 🧮 科学计算 { #scientific_computing }
 
-**[Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction](scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md)**
+**[Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: A Comparative Study](scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md)**
 
-:   将科学领域知识(流体力学、船舶工程)注入ML模型进行船舶功率预测，通过物理约束和领域知识引导提升预测精度和可解释性。
+:   提出物理基线+数据驱动残差的混合建模框架，将海试功率曲线（螺旋桨定律 $P=cV^n$）作为基线，用 XGBoost/NN/PINN 学习残差修正，在稀疏数据区域显著提升外推稳定性和物理一致性。
 
 ---
 
@@ -1120,19 +1120,19 @@
 
 **[Bilevel MCTS for Amortized O(1) Node Selection in Classical Planning](others/bilevel_mcts_for_amortized_o1_node_selection_in_classical_planning.md)**
 
-:   提出双层MCTS，从叶节点运行最优优先搜索实现O(1)均摊节点选择（vs标准MCTS的O(logN)），配合树崩塌(Tree Collapsing)增强，在IPC2018/2023基准上超越LAMA/NOLAN/DecStar达到敏捷经典规划的SOTA。
+:   提出双层MCTS（Bilevel MCTS），在MCTS选中的叶节点处运行深度比例预算的最优优先搜索，将节点选择均摊复杂度从 $O(\log N)$ 降至 $O(1)$，辅以树崩塌（Tree Collapsing）减少动作选择步数，最终整合为 Nεbula 规划器，在IPC2018/2023基准上以192.2/230.6解题数（5min/30min）超越LAMA、DecStar、NOLAN、SM-Type-LAMA等全部SOTA。
 
 **[Extreme Value Monte Carlo Tree Search for Classical Planning](others/extreme_value_monte_carlo_tree_search_for_classical_planning.md)**
 
-:   将极值理论引入MCTS的节点评估，用极值分布替代均值估计来指导搜索，在经典规划问题中实现更有效的探索。
+:   利用 Peaks-Over-Threshold 极值理论（POT EVT）为经典规划中 MCTS 的 Full Bellman Backup 提供统计理论基础，提出 UCB1-Uniform bandit 算法，用均匀分布（Generalized Pareto 的特例）的 MLE 估计指导动作选择，在 Pyperplan 上以 $10^4$ 节点预算超越 GBFS 67.8 个实例、超越 Softmin-Type(h) 33.2 个实例。
 
-**[MeSHA: Efficient Path Planning with Motion Primitives](others/mesha_efficient_path_planning_with_motion_primitives.md)**
+**[MeshA*: Efficient Path Planning With Motion Primitives](others/mesha_efficient_path_planning_with_motion_primitives.md)**
 
-:   提出MeSHA高效路径规划算法，结合运动基元和混合搜索策略，在保证路径质量的同时显著提升规划效率。
+:   提出 MeshA* 算法，将 lattice-based 路径规划从"在运动基元层面搜索"转变为"在网格单元层面搜索并同时拟合基元序列"，通过定义"扩展网格单元"（extended cell）新搜索空间，在保证完备性和最优性的同时，实现相比标准 LBA* 1.5x-2x 的运行时加速。
 
-**[Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments](others/symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)**
+**[Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents](others/symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)**
 
-:   解决极端密集环境下的多智能体路径规划(MAPF)问题，通过符号规划方法在几乎无空闲空间的环境中高效找到所有Agent的无冲突路径。
+:   提出 Block Rearrangement Problem (BRaP) 形式化定义，并设计五种基于配置空间搜索、PDDL 符号规划和 MAPF 的求解算法，其中 BR-LaCAM 在最大 80×80 的极端密集网格上达到 92% 成功率和毫秒级求解速度。
 
 **[TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models](others/taylorpoda_a_taylor_expansion-based_method_to_improve_post-hoc_attributions_for_.md)**
 

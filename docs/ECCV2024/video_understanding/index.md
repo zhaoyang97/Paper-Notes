@@ -1,11 +1,15 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频理解
 
-**🎞️ ECCV2024** · 共 **2** 篇
+**🎞️ ECCV2024** · 共 **3** 篇
 
 **[Adapt2Reward: Adapting Video-Language Models to Generalizable Robotic Rewards via Failure Prompts](adapt2reward_adapting_videolanguage_models_to_generalizable.md)**
 
 :   提出 Adapt2Reward，通过可学习的失败提示（failure prompts）将预训练视频语言模型适配为可泛化的语言条件奖励函数，仅需少量单一环境的机器人数据即可泛化到新环境和新任务，在 MetaWorld 上比前方法高出约 28%。
+
+**[AMEGO: Active Memory from Long EGOcentric Videos](amego_active_memory_from_long_egocentric_videos.md)**
+
+:   提出 AMEGO，一种从长第一人称视频中在线构建结构化"活跃记忆"的方法，通过 HOI tracklet + 位置分段 + 语义无关的视觉查询，在新提出的 AMB benchmark 上超越 Video QA baselines 12.7%。
 
 **[R²-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding](r2tuning_efficient_imagetovideo_transfer_learning_for_video.md)**
 

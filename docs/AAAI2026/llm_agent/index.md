@@ -5,7 +5,7 @@
 
 **[A2Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators](a2flow_automating_agentic_workflow_generation_via_self-adaptive_abstraction_oper.md)**
 
-:   通过案例生成、聚类、深度提取三步从专家数据中自动提取抽象算子（无需人工设计），配合算子记忆机制实现上下文感知执行，在通用和具身基准上分别提升2.4%和19.3%，资源使用减少37%。
+:   提出 A2Flow 框架，通过三阶段流水线（案例生成→功能聚类→深度提取）从专家数据中全自动提取可复用的抽象执行算子，替代人工预定义算子，并引入算子记忆机制累积中间输出辅助节点决策，在 8 个基准上整体超越 AFLOW 等 SOTA，资源消耗降低 37%。
 
 **[A Multi-Agent Conversational Bandit Approach to Online Evaluation and Selection of User-Aligned LLM Responses](a_multi-agent_conversational_bandit_approach_to_online_evaluation_and_selection_.md)**
 
@@ -61,7 +61,7 @@
 
 **[D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](d-gara_a_dynamic_benchmarking_framework_for_gui_agent_robust.md)**
 
-:   提出D-GARA，首个系统评估GUI Agent在真实世界异常情况（如UI变化、弹窗干扰、网络延迟、元素缺失等）下鲁棒性的动态benchmark框架，揭示现有GUI Agent在面对环境扰动时性能急剧下降的严重问题。
+:   提出 D-GARA，一个面向 Android GUI Agent 的动态鲁棒性评估框架，通过在实时交互过程中注入权限弹窗、电量警告、应用崩溃等真实世界异常，揭示现有 SOTA Agent（包括 UI-TARS-72B、GPT-4o）在中断场景下平均成功率下降超过 17.5%，最高达 33% 的严重脆弱性。
 
 **[DEPO: Dual-Efficiency Preference Optimization for LLM Agents](depo_dual-efficiency_preference_optimization_for_llm_agents.md)**
 
@@ -73,7 +73,7 @@
 
 **[Extracting Events Like Code: A Multi-Agent Programming Framework for Zero-Shot Event Extraction](extracting_events_like_code_a_multi-agent_programming_framework_for_zero-shot_ev.md)**
 
-:   将零样本事件抽取分解为4个Agent（检索→规划→编码→验证），将事件schema定义为可执行Python类实现确定性验证和编译器式错误反馈，在多个领域和6个LLM上达到零样本事件抽取SOTA。
+:   提出 Agent-Event-Coder (AEC)，将零样本事件抽取类比为软件工程流程，用4个专职Agent（Retrieval→Planning→Coding→Verification）协作完成抽取，并将事件schema编码为可执行Python类实现编译器式确定性验证与双循环迭代修正，在5个领域、6个LLM上全面超越零样本基线。
 
 **[Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System](fact2fiction_targeted_poisoning_attack_to_agentic_fact-check.md)**
 

@@ -181,7 +181,7 @@
 
 **[CATSplat: Context-Aware Transformer with Spatial Guidance for Generalizable 3D Gaussian Splatting from A Single-View Image](catsplat_contextaware_transformer_with_spatial_guidance_for.md)**
 
-:   提出CATSplat——单视图前馈3DGS重建的泛化Transformer框架：利用视觉语言模型(VLM)的文本嵌入通过cross-attention提供场景上下文信息，结合3D点特征提供空间几何引导，弥补单视图信息不足的问题，在大规模数据集上实现SOTA的单视图新视角合成质量。
+:   提出CATSplat——单视图前馈3DGS重建的泛化Transformer框架：利用VLM文本嵌入（上下文先验）和3D点云特征（空间先验）通过双重cross-attention增强图像特征，在RE10K等数据集上在PSNR/SSIM/LPIPS全面超越Flash3D，且跨数据集泛化性优异。
 
 **[CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector](charm3r_towards_unseen_camera_height_robust_monocular_3d_det.md)**
 

@@ -17,7 +17,7 @@
 
 **[EfficientNav: Towards On-Device Object-Goal Navigation with Navigation Map Caching and Retrieval](efficientnav_towards_on-device_object-goal_navigation_with_navigation_map_cachin.md)**
 
-:   通过离散内存缓存、注意力驱动聚类和语义感知检索三层优化，首次在 Jetson 嵌入式设备上用小型 LLM (LLaMA-3.2-11b) 实现高效零样本目标导航，比 GPT-4 基线提升 11.1% 成功率同时降低 6.7× 延迟。
+:   通过离散内存缓存（KV cache分组独立计算+选择性加载）、注意力驱动聚类（LLM浅层attention指导分组）和语义感知检索（CLIP+背包问题适配不同内存预算），首次在Jetson Orin上用LLaMA-3.2-11b实现零样本ObjNav，比GPT-4基线提升11.1% SR且实时延迟降低6.7×。
 
 **[EgoThinker: Unveiling Egocentric Reasoning with Spatio-Temporal CoT](egothinker_unveiling_egocentric_reasoning_with_spatiotempora.md)**
 
@@ -37,7 +37,7 @@
 
 **[MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents](mineanybuild_benchmarking_spatial_planning_for_openworld_ai.md)**
 
-:   在Minecraft中构建空间规划基准MineAnyBuild——要求AI Agent根据多模态指令生成可执行的建筑方案，包含4000个任务，从空间理解、空间推理、创造力和空间常识四个维度评估MLLM的空间规划能力，揭示现有模型的严重不足。
+:   基于 Minecraft 构建空间规划基准 MineAnyBuild，要求 AI Agent 根据多模态指令生成可执行的建筑蓝图矩阵，包含 4000 个任务和 500+ 建筑/装饰资产，从空间理解、空间推理、创造力和空间常识四个维度系统评估 MLLM 的空间规划能力，揭示即便 GPT-4o 整体得分仅 41.02/100，开源模型更差。
 
 **[MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents](mip_against_agent_malicious_image_patches_hijacking_multimod.md)**
 

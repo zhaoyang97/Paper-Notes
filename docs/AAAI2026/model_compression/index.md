@@ -25,7 +25,7 @@
 
 **[Distilling Cross-Modal Knowledge via Feature Disentanglement](distilling_cross-modal_knowledge_via_feature_disentanglement.md)**
 
-:   提出通过特征解耦的方式进行跨模态知识蒸馏，将多模态teacher中不同模态的知识分离后传递给单模态或轻量化student，解决传统蒸馏中模态纠缠导致的知识迁移效率低下问题。
+:   提出频域解耦跨模态知识蒸馏（FD-CMKD），通过傅里叶变换将特征分解为低频（模态共享语义）和高频（模态特有细节）分量，分别施加强一致性 MSE 和弱一致性 logMSE 损失，并引入尺度标准化与共享分类器对齐特征空间，在音频-视觉、图像-文本、语义分割等多个跨模态场景全面超越现有蒸馏方法。
 
 **[DynaQuant: Dynamic Mixed-Precision Quantization for Learned Image Compression](dynaquant_dynamic_mixed-precision_quantization_for_learned_i.md)**
 
@@ -33,7 +33,7 @@
 
 **[KVmix: Gradient-Based Layer Importance-Aware Mixed-Precision Quantization for KV Cache](kvmix_gradient-based_layer_importance-aware_mixed-precision_.md)**
 
-:   提出KVmix，一种基于梯度的层级重要性感知混合精度KV Cache量化方法，通过梯度信息动态评估不同层的KV cache对输出的重要性，为重要层分配更高精度、不重要层使用更低精度，在保持LLM性能的同时实现更极致的KV cache压缩。
+:   提出 KVmix，通过计算 Key/Value 投影权重梯度的 $L_2$ 范数来评估各层 KV Cache 的重要性，实现层级混合精度量化（Key 平均 2.19bit、Value 平均 2.38bit），并结合动态关键上下文选择（RPC）策略，在 Llama/Mistral 等模型上实现近无损推理、4.9× 内存压缩和 5.3× 吞吐加速。
 
 **[SCoPe: Intrinsic Semantic Space Control for Mitigating Copyright Infringement in LLMs](scope_intrinsic_semantic_space_control_for_mitigating_copyright_infringement_in_.md)**
 

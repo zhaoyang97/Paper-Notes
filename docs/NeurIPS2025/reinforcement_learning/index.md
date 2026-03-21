@@ -33,7 +33,7 @@
 
 **[Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning](adaptive_neighborhoodconstrained_q_learning_for_offline_rein.md)**
 
-:   提出ANQ（Adaptive Neighborhood Q-learning），在离线RL中引入基于优势函数的自适应邻域约束，在密度约束（过于保守）和支持约束（建模困难）之间找到灵活的中间地带，在D4RL AntMaze上达到87.5分。
+:   提出 ANQ（Adaptive Neighborhood-constrained Q learning），在离线 RL 中引入基于优势函数的自适应邻域约束，在密度约束（过于保守）和支持约束（需精确建模行为策略）之间找到灵活的中间方案，通过双层优化框架实现高效 Q 学习，在 D4RL 基准上达到 SOTA。
 
 **[Adaptively Coordinating with Novel Partners via Learned Latent Strategies](adaptively_coordinating_with_novel_partners_via_learned_latent_strategies.md)**
 
@@ -45,7 +45,7 @@
 
 **[Blending Complementary Memory Systems in Hybrid Quadratic-Linear Transformers](blending_complementary_memory_systems_in_hybrid_quadratic-linear_transformers.md)**
 
-:   混合二次(softmax attention)和线性(DeltaNet)Transformer，各司其职：前者精确检索，后者长上下文和复杂计算，在1.3B模型上实现性能和效率均衡。
+:   提出混合二次-线性 Transformer（HQLT），将 KV-memory（softmax attention，精确检索但二次复杂度）与 FW-memory（DeltaNet/线性 attention，线性复杂度但检索粗糙）融合为互补记忆系统，比较三种混合策略（延迟流式/延迟分块/同步），在 340M 和 1.3B 参数规模的语言建模、检索、算法推理和 RL 任务上验证同步混合最优。
 
 **[Checklists Are Better Than Reward Models For Aligning Language Models](checklists_are_better_than_reward_models_for_aligning_langua.md)**
 
@@ -89,7 +89,7 @@
 
 **[Massively Parallel Imitation Learning of Mouse Forelimb Musculoskeletal Reaching Dynamics](massively_parallel_imitation_learning_of_mouse_forelimb_musculoskeletal_reaching.md)**
 
-:   基于 MIMIC-MJX 平台，通过物理感知约束的大规模并行模仿学习（120万步/秒）成功模拟小鼠前肢肌肉骨骼达到运动，并用非线性动力学方法（Takens定理）从关节运动学预测肌肉激活和 EMG 信号。
+:   基于 MIMIC-MJX 平台构建小鼠前肢肌肉骨骼模拟学习流水线，通过 JAX 加速的大规模并行 PPO（120 万步/秒）训练物理感知模仿学习策略，证明控制成本正则化能使模拟肌肉活动更好地预测真实 EMG 信号，并用基于 Takens 定理的非线性动力学方法从关节运动学预测肌肉激活。
 
 **[Multi-Agent Collaboration via Evolving Orchestration](multi-agent_collaboration_via_evolving_orchestration.md)**
 
@@ -125,7 +125,7 @@
 
 **[Structured Reinforcement Learning for Combinatorial Decision-Making](structured_reinforcement_learning_for_combinatorial_decision-making.md)**
 
-:   提出 SRL 框架，将组合优化求解器嵌入 actor-critic 的 actor 网络中，通过 Fenchel-Young 损失实现端到端可微学习，在6个工业级组合决策问题上超越模仿学习18×、超越无结构RL 92%。
+:   提出 Structured Reinforcement Learning (SRL)，将组合优化求解器作为可微层嵌入 actor-critic 的 actor 中，通过 Fenchel-Young 损失 + 高斯扰动实现端到端梯度传播，纯在线学习、无需专家数据，在6个工业级组合决策问题上匹配模仿学习、超越无结构 RL 最高 92%。
 
 **[SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](swe-rl_advancing_llm_reasoning_via_reinforcement_learning_on_open_software_evolu.md)**
 

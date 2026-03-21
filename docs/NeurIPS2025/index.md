@@ -413,7 +413,7 @@
 
 **[Mint: A Simple Test-Time Adaptation of Vision-Language Models against Common Corruptions](multimodal_vlm/mint_a_simple_testtime_adaptation_of_visionlanguage_models_a.md)**
 
-:   发现 CLIP 在图像损坏下的性能退化源于**嵌入方差坍缩**（类内和类间方差均缩小），提出 Mint——一种极简的测试时适配方法，通过最大化伪标签基础的类间方差在线恢复嵌入空间的判别性，仅用均值累加器和梯度累加器即可在小 batch 下一致提升多种损坏基准的性能。
+:   发现 CLIP 在图像损坏下的性能退化根源在于**嵌入方差坍缩**——类内与类间方差同步缩小导致嵌入空间判别性丧失；提出 Mint，通过最大化伪标签类间方差（PL-inter）在线修复嵌入几何，仅凭均值累加器和梯度累加器两个极简组件即可在 BS=1 的在线场景下稳定提升 CLIP 在多种损坏基准上的分类精度，同时比最强 baseline 快 45 倍。
 
 **[MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly](multimodal_vlm/mmlongbench_benchmarking_longcontext_visionlanguage_models_e.md)**
 
@@ -429,7 +429,7 @@
 
 **[Rethinking Multimodal Learning from the Perspective of Mitigating Classification Ability Disproportion](multimodal_vlm/rethinking_multimodal_learning_from_the_perspective_of_mitig.md)**
 
-:   从分类能力不均衡（classification ability disproportion）的新视角重新审视多模态学习中的模态不平衡问题，提出基于boosting原理的持续增强算法——同时优化分类误差和残差误差，配合自适应分类器分配策略动态提升弱模态性能，理论证明收敛性，在多个benchmark上超越SOTA。
+:   提出"**分类能力不均衡**"视角理解多模态学习中的模态不平衡，设计 Sustained Boosting 算法（共享编码器 + 多可配置分类器，同时优化分类和残差误差）配合自适应分类器分配（ACA），理论证明跨模态 gap loss 以 $\mathcal{O}(1/T)$ 收敛，在 CREMAD 等 6 个数据集上大幅超越 SOTA。
 
 **[Sherlock: Self-Correcting Reasoning in Vision-Language Models](multimodal_vlm/sherlock_selfcorrecting_reasoning_in_visionlanguage_models.md)**
 
@@ -527,9 +527,9 @@
 
 :   提出 AAPT（Autoregressive Adversarial Post-Training），将预训练的潜在视频扩散模型转化为实时交互式视频生成器——每帧仅需单次神经网络前向传播（1NFE），自回归逐帧生成，8B 模型在单张 H100 上以 24fps 流式生成 736×416 视频，最长可达一分钟（1440帧）。
 
-**[Badiff Bandwidth Adaptive Diffusion Model](image_generation/badiff_bandwidth_adaptive_diffusion_model.md)**
+**[BADiff: Bandwidth Adaptive Diffusion Model](image_generation/badiff_bandwidth_adaptive_diffusion_model.md)**
 
-:   提出 BADiff——首个带宽自适应扩散模型，通过将目标熵约束作为条件嵌入扩散过程，使模型根据实时带宽动态调整生成质量并自适应提前终止采样，在保持感知质量的同时减少计算开销，避免了传统"高质量生成+后压缩"流程中的压缩伪影和计算浪费。
+:   提出 BADiff——首个带宽自适应扩散模型，通过将目标熵约束作为条件嵌入扩散反向过程，配合可微熵正则化损失和自适应停止策略，使模型根据实时带宽动态调整生成质量并自适应提前终止采样，在保持感知质量的同时减少计算开销，从根本上避免了传统"高质量生成→后压缩"流程中的压缩伪影和计算浪费。
 
 **[Balanced Conic Rectified Flow](image_generation/balanced_conic_rectified_flow.md)**
 
@@ -657,7 +657,7 @@
 
 **[Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning](reinforcement_learning/adaptive_neighborhoodconstrained_q_learning_for_offline_rein.md)**
 
-:   提出ANQ（Adaptive Neighborhood Q-learning），在离线RL中引入基于优势函数的自适应邻域约束，在密度约束（过于保守）和支持约束（建模困难）之间找到灵活的中间地带，在D4RL AntMaze上达到87.5分。
+:   提出 ANQ（Adaptive Neighborhood-constrained Q learning），在离线 RL 中引入基于优势函数的自适应邻域约束，在密度约束（过于保守）和支持约束（需精确建模行为策略）之间找到灵活的中间方案，通过双层优化框架实现高效 Q 学习，在 D4RL 基准上达到 SOTA。
 
 **[Adaptively Coordinating with Novel Partners via Learned Latent Strategies](reinforcement_learning/adaptively_coordinating_with_novel_partners_via_learned_latent_strategies.md)**
 
@@ -669,7 +669,7 @@
 
 **[Blending Complementary Memory Systems in Hybrid Quadratic-Linear Transformers](reinforcement_learning/blending_complementary_memory_systems_in_hybrid_quadratic-linear_transformers.md)**
 
-:   混合二次(softmax attention)和线性(DeltaNet)Transformer，各司其职：前者精确检索，后者长上下文和复杂计算，在1.3B模型上实现性能和效率均衡。
+:   提出混合二次-线性 Transformer（HQLT），将 KV-memory（softmax attention，精确检索但二次复杂度）与 FW-memory（DeltaNet/线性 attention，线性复杂度但检索粗糙）融合为互补记忆系统，比较三种混合策略（延迟流式/延迟分块/同步），在 340M 和 1.3B 参数规模的语言建模、检索、算法推理和 RL 任务上验证同步混合最优。
 
 **[Checklists Are Better Than Reward Models For Aligning Language Models](reinforcement_learning/checklists_are_better_than_reward_models_for_aligning_langua.md)**
 
@@ -713,7 +713,7 @@
 
 **[Massively Parallel Imitation Learning of Mouse Forelimb Musculoskeletal Reaching Dynamics](reinforcement_learning/massively_parallel_imitation_learning_of_mouse_forelimb_musculoskeletal_reaching.md)**
 
-:   基于 MIMIC-MJX 平台，通过物理感知约束的大规模并行模仿学习（120万步/秒）成功模拟小鼠前肢肌肉骨骼达到运动，并用非线性动力学方法（Takens定理）从关节运动学预测肌肉激活和 EMG 信号。
+:   基于 MIMIC-MJX 平台构建小鼠前肢肌肉骨骼模拟学习流水线，通过 JAX 加速的大规模并行 PPO（120 万步/秒）训练物理感知模仿学习策略，证明控制成本正则化能使模拟肌肉活动更好地预测真实 EMG 信号，并用基于 Takens 定理的非线性动力学方法从关节运动学预测肌肉激活。
 
 **[Multi-Agent Collaboration via Evolving Orchestration](reinforcement_learning/multi-agent_collaboration_via_evolving_orchestration.md)**
 
@@ -749,7 +749,7 @@
 
 **[Structured Reinforcement Learning for Combinatorial Decision-Making](reinforcement_learning/structured_reinforcement_learning_for_combinatorial_decision-making.md)**
 
-:   提出 SRL 框架，将组合优化求解器嵌入 actor-critic 的 actor 网络中，通过 Fenchel-Young 损失实现端到端可微学习，在6个工业级组合决策问题上超越模仿学习18×、超越无结构RL 92%。
+:   提出 Structured Reinforcement Learning (SRL)，将组合优化求解器作为可微层嵌入 actor-critic 的 actor 中，通过 Fenchel-Young 损失 + 高斯扰动实现端到端梯度传播，纯在线学习、无需专家数据，在6个工业级组合决策问题上匹配模仿学习、超越无结构 RL 最高 92%。
 
 **[SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](reinforcement_learning/swe-rl_advancing_llm_reasoning_via_reinforcement_learning_on_open_software_evolu.md)**
 
@@ -801,7 +801,7 @@
 
 **[Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits](llm_nlp/beyond_components_singular_vector-based_interpretability_of_transformer_circuits.md)**
 
-:   通过 SVD 奇异向量分解揭示 Transformer 组件内部的分布式子函数和低秩计算，IOI 任务上稀疏度 91.32% 仅 KLD=0.21，发现“name mover”头跨多个独立奇异向量编码重叠子函数。
+:   提出基于SVD奇异向量的方向级可解释性框架，通过对注意力头和MLP的增广矩阵统一SVD分解+可学习对角掩码（KL+L₁），发现单组件内存在正交低秩子函数叠加——IOI任务仅需~9%方向即可KLD=0.21复现模型行为。
 
 **[CAT: Circular-Convolutional Attention for Sub-Quadratic Transformers](llm_nlp/cat_circular-convolutional_attention_for_sub-quadratic_transformers.md)**
 
@@ -837,11 +837,11 @@
 
 **[Do Language Models Use Their Depth Efficiently?](llm_nlp/do_language_models_use_their_depth_efficiently.md)**
 
-:   LLM仅利用前半部分层进行有效计算，后半部分主要用于迭代细化输出分布，不充分利用深度优势。
+:   通过因果干预、残差流分析和跨模型线性映射，证明当前 LLM 后半部分层不参与组合式计算，仅迭代细化输出概率分布，深层模型只是把浅层模型的计算"展延"到更多层。
 
 **[Don't Be Lazy: CompleteP Enables Compute-Efficient Deep Transformers](llm_nlp/dont_be_lazy_completep_enables_compute-efficient_deep_transformers.md)**
 
-:   CompleteP参数化通过α=1确保深度超参转移和完全特征学习，相比μP在深模型上实现12-34%FLOP节省。
+:   CompleteP 参数化（α=1）是唯一同时实现深度方向超参转移和完全特征学习的方案，在深模型上相比 μP 节省 12-34% FLOPs。
 
 **[EnCompass: Enhancing Agent Programming with Search Over Program Execution Paths](llm_nlp/encompass_enhancing_agent_programming_with_search_over_program_execution_paths.md)**
 
@@ -869,7 +869,7 @@
 
 **[Memory Mosaics at Scale](llm_nlp/memory_mosaics_at_scale.md)**
 
-:   Memory Mosaics v2将关联存储扩展至10B参数和1T token，在新任务学习上超越8T token训练的Transformer。
+:   Memory Mosaics v2 将关联存储网络扩展至 10B 参数、1T token 训练规模，在新任务学习和上下文学习上显著超越同规模甚至 8T token 训练的 Transformer。
 
 **[Moose-Chem2 Exploring Llm Limits In Fine-Grained Scientific Hypothesis Discovery](llm_nlp/moose-chem2_exploring_llm_limits_in_fine-grained_scientific_hypothesis_discovery.md)**
 
@@ -877,7 +877,7 @@
 
 **[Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models](llm_nlp/nemotron-flash_towards_latency-optimal_hybrid_small_language_models.md)**
 
-:   Nemotron-Flash通过优化深宽比、混合非标准算子(DeltaNet+Attention)和权重归一化，相比Qwen达到1.3-1.9×延迟降低和+5.5%准确率。
+:   Nemotron-Flash 通过系统优化深宽比、进化搜索混合算子组合（DeltaNet+Mamba2+Attention）以及权重归一化训练，构建延迟最优的小语言模型家族，相比 Qwen3-1.7B/0.6B 分别实现 1.3×/1.9× 延迟下降与 +5.5% 平均准确率提升。
 
 **[Probabilistic Token Alignment for Large Language Model Fusion](llm_nlp/probabilistic_token_alignment_for_large_language_model_fusion.md)**
 
@@ -973,7 +973,7 @@
 
 **[Learning in Compact Spaces with Approximately Normalized Transformer](llm_efficiency/learning_in_compact_spaces_with_approximately_normalized_transformer.md)**
 
-:   anGPT通过高维集中度实现近似归一化，消除权重衰减和预热，相比QK归一化GPT实现40%收敛加速。
+:   提出 anGPT（近似归一化 Transformer），利用高维空间中向量范数的集中现象，用简单标量乘法替代逐层精确归一化，在消除权重衰减和学习率预热的同时实现了相比 GPT+（含 QK-norm）40% 的收敛加速，仅增加 3% 运行时开销。
 
 **[Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](llm_efficiency/long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)**
 
@@ -1005,7 +1005,7 @@
 
 **[UMoE: Unifying Attention and FFN with Shared Experts](llm_efficiency/umoe_unifying_attention_and_ffn_with_shared_experts.md)**
 
-:   将注意力重新表述为“token mixing + 专家处理”，揭示其与 FFN 的结构相似性，实现注意力和 FFN 的 MoE 统一与参数共享，提升参数效率同时 KV 缓存仅需单对 K-V/token。
+:   通过重新表述多头注意力机制，揭示其与 FFN 共有的"两层矩阵乘法"结构，据此提出 UMoE 统一架构——在注意力和 FFN 层使用相同设计的专家并支持参数共享，在 Base(134M) 和 Large(1.1B) 模型上均优于现有 FFN-MoE 和 Attention-MoE 基线。
 
 **[Vocabulary Customization For Efficient Domain-Specific Llm Deployment](llm_efficiency/vocabulary_customization_for_efficient_domain-specific_llm_deployment.md)**
 
@@ -1013,7 +1013,7 @@
 
 **[ZeroS: Zero-Sum Linear Attention for Efficient Transformers](llm_efficiency/zeros_zero-sum_linear_attention_for_efficient_transformers.md)**
 
-:   通过移除 softmax 零阶项创建零和权重，实现 $O(N)$ 复杂度且支持正负权重的高表达力线性注意力，在 MAD 基准上超越标准 Transformer。
+:   通过移除 softmax 的零阶均匀项 $1/t$，构建零和权重的线性注意力机制 ZeroS，突破凸组合只能做加法混合的限制，支持单层内的差分/对比操作，在保持 $O(Nd^2)$ 线性复杂度的同时，在多个序列建模基准上匹配甚至超越标准 softmax 注意力。
 
 ---
 
@@ -1053,7 +1053,7 @@
 
 **[Automated Composition of Agents: A Knapsack Approach for Agentic Component Selection](llm_agent/automated_composition_of_agents_a_knapsack_approach_for_agentic_component_select.md)**
 
-:   将 Agent 组件选择建模为在线背包问题，通过实际测试而非静态语义检索评估组件价值，用 ZCL 算法在预算约束下动态选取最优组合，单 Agent 成功率提升 31.6%，多 Agent 从 37%→87%。
+:   将 Agent 组件选择问题形式化为在线背包问题，提出 Composer Agent 框架：通过沙盒实测（而非静态语义检索）评估组件真实能力，结合 ZCL 在线算法在预算约束下动态选取最优组件组合，单 Agent 工具选择成功率提升最高 31.6%，多 Agent 子代理选择成功率从 37% 跃升至 87%。
 
 **[Benchmarking Agentic Systems In Automated Scientific Information Extraction With](llm_agent/benchmarking_agentic_systems_in_automated_scientific_information_extraction_with.md)**
 
@@ -1065,7 +1065,7 @@
 
 **[Crucible: Quantifying the Potential of Control Algorithms through LLM Agents](llm_agent/crucible_quantifying_the_potential_of_control_algorithms_through_llm_agents.md)**
 
-:   首次量化控制算法的“调优潜能”，通过 LLM Agent 模拟不同水平开发者进行参数优化和逻辑级改进，在 ABR 上相比贝叶斯优化提升 44.1%，CartPole 上 Bang-bang 从 34→500。
+:   首次提出"调优潜能"（Tuning Potential）概念并给出形式化度量，通过 LLM Agent 模拟不同能力水平的开发者对控制算法进行参数调优和逻辑级改进，在 ABR 任务上相比贝叶斯优化提升 44.1%，CartPole 上 Bang-bang 从 34→500 达到 DQN 水平。
 
 **[Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?](llm_agent/debate_or_vote_which_yields_better_decisions_in_multi-agent_large_language_model.md)**
 
@@ -1073,7 +1073,7 @@
 
 **[Deep Video Discovery: Agentic Search with Tool Use for Long-form Video Understanding](llm_agent/deep_video_discovery_agentic_search_with_tool_use_for_longfo.md)**
 
-:   提出 DVD（Deep Video Discovery）agent，通过在分段视频片段上进行代理式搜索实现长视频理解——不同于使用预定义工作流的先前 video agent，DVD 利用 LLM 的推理能力在多粒度视频数据库上自主规划、策略性选择搜索工具、根据已获取信息动态编排自适应工作流，在 LVBench 上达到 74.2% 准确率（SOTA，显著超越先前所有工作），使用字幕时提升至 76.0%。
+:   提出 DVD（Deep Video Discovery）agent，将长视频理解建模为多步信息搜索问题：先将长视频构建为多粒度结构化数据库（全局摘要 + clip 级字幕嵌入 + 帧级像素），再提供三种搜索工具（Global Browse / Clip Search / Frame Inspect），由 reasoning LLM 通过 observe-reason-act 循环自主编排搜索轨迹，在 LVBench 达 74.2%（超先前 SOTA MR.Video 13.4 pp），加字幕 76.0%。
 
 **[Distilling LLM Agent into Small Models with Retrieval and Code Tools](llm_agent/distilling_llm_agent_into_small_models_with_retrieval_and_co.md)**
 
@@ -1185,7 +1185,7 @@
 
 **[Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video](model_compression/eyes_wide_open_ego_proactive_videollm_for_streaming_video.md)**
 
-:   聚焦"主动式流式视频理解"新任务——给定第一视角流式视频输入，AI助手需要主动地在恰当时机回答多样化的、随事件演变的问题，同时保持感知和推理的同步。提出ESTP-Bench评估框架和ESTP-F1指标，以及包含数据引擎、多阶段训练和主动动态压缩技术的完整技术pipeline。
+:   定义"第一视角流式视频主动理解"新任务——给定ego-streaming视频，AI助手在恰当时机主动回答多样化、随事件演变的问题，同时保持感知与推理的同步。提出ESTP-Bench评估框架、ESTP-F1指标，以及含数据引擎、多阶段训练和主动动态压缩的完整技术pipeline（VideoLLM-EyeWO），在ESTP-Bench上比最强baseline MiniCPM-V高11.8%。
 
 ---
 
@@ -1213,7 +1213,7 @@
 
 **[Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization](llm_alignment/diffusion_model_as_a_noiseaware_latent_reward_model_for_step.md)**
 
-:   提出 LRM（Latent Reward Model）和 LPO（Latent Preference Optimization），利用预训练扩散模型本身作为噪声感知的潜空间奖励模型进行步级偏好优化，避免了将噪声潜在图像转换为像素空间的复杂性，在对齐人类偏好的同时实现 2.5–28× 训练加速。
+:   提出 Latent Reward Model (LRM) 和 Latent Preference Optimization (LPO)，将预训练扩散模型本身复用为噪声感知的潜空间奖励模型，在噪声潜在空间直接进行步级偏好优化，相比 Diffusion-DPO 实现 10-28× 训练加速，相比 SPO 实现 2.5-3.5× 加速。
 
 **[G-Dpo Scalable Preference Optimization For Protein Language Models](llm_alignment/g-dpo_scalable_preference_optimization_for_protein_language_models.md)**
 
@@ -1409,7 +1409,7 @@
 
 **[EfficientNav: Towards On-Device Object-Goal Navigation with Navigation Map Caching and Retrieval](robotics/efficientnav_towards_on-device_object-goal_navigation_with_navigation_map_cachin.md)**
 
-:   通过离散内存缓存、注意力驱动聚类和语义感知检索三层优化，首次在 Jetson 嵌入式设备上用小型 LLM (LLaMA-3.2-11b) 实现高效零样本目标导航，比 GPT-4 基线提升 11.1% 成功率同时降低 6.7× 延迟。
+:   通过离散内存缓存（KV cache分组独立计算+选择性加载）、注意力驱动聚类（LLM浅层attention指导分组）和语义感知检索（CLIP+背包问题适配不同内存预算），首次在Jetson Orin上用LLaMA-3.2-11b实现零样本ObjNav，比GPT-4基线提升11.1% SR且实时延迟降低6.7×。
 
 **[EgoThinker: Unveiling Egocentric Reasoning with Spatio-Temporal CoT](robotics/egothinker_unveiling_egocentric_reasoning_with_spatiotempora.md)**
 
@@ -1429,7 +1429,7 @@
 
 **[MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents](robotics/mineanybuild_benchmarking_spatial_planning_for_openworld_ai.md)**
 
-:   在Minecraft中构建空间规划基准MineAnyBuild——要求AI Agent根据多模态指令生成可执行的建筑方案，包含4000个任务，从空间理解、空间推理、创造力和空间常识四个维度评估MLLM的空间规划能力，揭示现有模型的严重不足。
+:   基于 Minecraft 构建空间规划基准 MineAnyBuild，要求 AI Agent 根据多模态指令生成可执行的建筑蓝图矩阵，包含 4000 个任务和 500+ 建筑/装饰资产，从空间理解、空间推理、创造力和空间常识四个维度系统评估 MLLM 的空间规划能力，揭示即便 GPT-4o 整体得分仅 41.02/100，开源模型更差。
 
 **[MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents](robotics/mip_against_agent_malicious_image_patches_hijacking_multimod.md)**
 
@@ -1837,7 +1837,7 @@
 
 **[MaintainCoder: Maintainable Code Generation Under Dynamic Requirements](nlp_generation/maintaincoder_maintainable_code_generation_under_dynamic_requirements.md)**
 
-:   首次系统解决代码在需求演化下的可维护性问题，通过集成 Waterfall 模型和设计模式的多 Agent 架构将可维护性指标提升 60%+，并提出 MaintainBench 基准系统评估动态需求变化下的代码质量。
+:   首次系统定义并解决 LLM 代码生成的**可维护性**问题，同时贡献基准和方法：MaintainBench 通过 4 种需求变化模式 + 动态指标评测代码在需求演化下的可维护性；MaintainCoder 将 Waterfall 模型、设计模式与 6 个专业化 Agent 结合，动态可维护性指标提升 60%+，且初始代码正确性也一并提高。
 
 **[Precise Information Control in Long-Form Text Generation](nlp_generation/precise_information_control_in_long-form_text_generation.md)**
 
@@ -1965,7 +1965,7 @@
 
 **[Wide-Horizon Thinking and Simulation-Based Evaluation for Real-World LLM Planning with Multifaceted Constraints](recommender/wide-horizon_thinking_and_simulation-based_evaluation_for_real-world_llm_plannin.md)**
 
-:   提出 MAoP（Multi-Aspect Planning）宽视野规划方法和 Travel-Sim 动态模拟评估基准，通过并行多方面思维替代传统线性分解，在旅行规划等多约束问题上显著超越 CoT 和分解方法，蒸馏后 3B 模型可接近 32B 性能。
+:   提出 MAoP（Multiple Aspects of Planning）框架赋予 LLM "宽视野思维"能力，通过策略师预规划与路由机制并行整合多方面约束，配合 Travel-Sim 因果模拟评估基准，在旅行规划任务上大幅超越 CoT/分解方法，蒸馏后 3B 模型 PER 达 66.9%。
 
 ---
 
@@ -2059,9 +2059,9 @@
 
 :   提出 AutoSciDACT 管线：先用有监督对比学习将高维科学数据压缩到 4 维嵌入空间，再用 NPLM（New Physics Learning Machine）似然比检验对嵌入空间中的分布偏差进行统计量化，在天文、粒子物理、病理、图像和合成数据集上以 ≤1% 的信号注入比例实现 ≥3σ 发现。
 
-**[Beyond the Singular: Value of Multiple Generations in Benchmark Evaluation](others/beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md)**
+**[Beyond the Singular: Revealing the Value of Multiple Generations in Benchmark Evaluation](others/beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md)**
 
-:   通过多次生成(k=50)建立层级模型，证明能显著降低基准估计方差，量化个体prompt难度，检测标签错误。
+:   将LLM基准评测形式化为层级统计模型，理论证明多次随机生成（k>1）能降低benchmark分数估计方差，并引入prompt级难度指标$\mathbb{P}(\text{correct})$和数据地图用于基准质量控制。
 
 **[Depth-Supervised Fusion Network For Seamless-Free Image Stitching](others/depth-supervised_fusion_network_for_seamless-free_image_stitching.md)**
 
@@ -2091,9 +2091,9 @@
 
 :   令人惊讶地，纯RL训练无需显式PRM监督即可诱发出强大的过程理解能力，且现有PRMs在SOTA模型上甚至不如简单多数投票有效。
 
-**[L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context](others/l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md)**
+**[L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models](others/l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md)**
 
-:   L-MTP通过跳跃式预测非相邻token，相比MTP在3B-12B模型上实现22%推理加速，同时保持或提升任务性能。
+:   L-MTP 在多token预测（MTP）基础上引入跳跃机制，预测非相邻位置的token（如位置1,3,5,7而非1,2,3,4），通过"后向查找"解码策略复用先前预测填补空隙，在3B-12B模型上实现22%推理加速的同时保持或提升任务性能。
 
 **[Learning Generalizable Shape Completion With Sim3 Equivariance](others/learning_generalizable_shape_completion_with_sim3_equivariance.md)**
 

@@ -57,4 +57,4 @@
 
 **[ToC: Tree-of-Claims Search with Multi-Agent Language Models](toc_tree-of-claims_search_with_multi-agent_language_models.md)**
 
-:   提出Tree-of-Claims (ToC)搜索框架，用多智能体LLM构建和探索声明树进行结构化辩论式推理，通过系统地生成、评估和反驳声明来提升复杂问题的推理质量。
+:   提出 Tree-of-Claims (ToC) 框架，将专利权利要求编辑建模为结构化搜索问题，通过 MCTS 与 EditorAgent/ExaminerAgent 多智能体协作，在新颖性、范围保持和语义一致性之间联合优化，比零/少样本 LLM 基线平均提升约 8% 综合分。

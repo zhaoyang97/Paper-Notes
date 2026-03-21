@@ -29,7 +29,7 @@
 
 **[Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits](beyond_components_singular_vector-based_interpretability_of_transformer_circuits.md)**
 
-:   通过 SVD 奇异向量分解揭示 Transformer 组件内部的分布式子函数和低秩计算，IOI 任务上稀疏度 91.32% 仅 KLD=0.21，发现“name mover”头跨多个独立奇异向量编码重叠子函数。
+:   提出基于SVD奇异向量的方向级可解释性框架，通过对注意力头和MLP的增广矩阵统一SVD分解+可学习对角掩码（KL+L₁），发现单组件内存在正交低秩子函数叠加——IOI任务仅需~9%方向即可KLD=0.21复现模型行为。
 
 **[CAT: Circular-Convolutional Attention for Sub-Quadratic Transformers](cat_circular-convolutional_attention_for_sub-quadratic_transformers.md)**
 
@@ -65,11 +65,11 @@
 
 **[Do Language Models Use Their Depth Efficiently?](do_language_models_use_their_depth_efficiently.md)**
 
-:   LLM仅利用前半部分层进行有效计算，后半部分主要用于迭代细化输出分布，不充分利用深度优势。
+:   通过因果干预、残差流分析和跨模型线性映射，证明当前 LLM 后半部分层不参与组合式计算，仅迭代细化输出概率分布，深层模型只是把浅层模型的计算"展延"到更多层。
 
 **[Don't Be Lazy: CompleteP Enables Compute-Efficient Deep Transformers](dont_be_lazy_completep_enables_compute-efficient_deep_transformers.md)**
 
-:   CompleteP参数化通过α=1确保深度超参转移和完全特征学习，相比μP在深模型上实现12-34%FLOP节省。
+:   CompleteP 参数化（α=1）是唯一同时实现深度方向超参转移和完全特征学习的方案，在深模型上相比 μP 节省 12-34% FLOPs。
 
 **[EnCompass: Enhancing Agent Programming with Search Over Program Execution Paths](encompass_enhancing_agent_programming_with_search_over_program_execution_paths.md)**
 
@@ -97,7 +97,7 @@
 
 **[Memory Mosaics at Scale](memory_mosaics_at_scale.md)**
 
-:   Memory Mosaics v2将关联存储扩展至10B参数和1T token，在新任务学习上超越8T token训练的Transformer。
+:   Memory Mosaics v2 将关联存储网络扩展至 10B 参数、1T token 训练规模，在新任务学习和上下文学习上显著超越同规模甚至 8T token 训练的 Transformer。
 
 **[Moose-Chem2 Exploring Llm Limits In Fine-Grained Scientific Hypothesis Discovery](moose-chem2_exploring_llm_limits_in_fine-grained_scientific_hypothesis_discovery.md)**
 
@@ -105,7 +105,7 @@
 
 **[Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models](nemotron-flash_towards_latency-optimal_hybrid_small_language_models.md)**
 
-:   Nemotron-Flash通过优化深宽比、混合非标准算子(DeltaNet+Attention)和权重归一化，相比Qwen达到1.3-1.9×延迟降低和+5.5%准确率。
+:   Nemotron-Flash 通过系统优化深宽比、进化搜索混合算子组合（DeltaNet+Mamba2+Attention）以及权重归一化训练，构建延迟最优的小语言模型家族，相比 Qwen3-1.7B/0.6B 分别实现 1.3×/1.9× 延迟下降与 +5.5% 平均准确率提升。
 
 **[Probabilistic Token Alignment for Large Language Model Fusion](probabilistic_token_alignment_for_large_language_model_fusion.md)**
 

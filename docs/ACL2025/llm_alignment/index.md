@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**💬 ACL2025** · 共 **24** 篇
+**💬 ACL2025** · 共 **25** 篇
+
+**[Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race](aligned_but_blind_implicit_bias.md)**
+
+:   发现 LLM 对齐训练的矛盾效应：对齐成功消除了显式偏见（Llama 3 70B 降至 8.13%），但反而放大了隐式偏见（从 64.1% 升至 91.4%），机制是对齐使模型在歧义上下文中不再表征种族概念（"种族盲视"），导致安全护栏无法在隐性场景中激活。通过在早期层注入种族感知激活可将隐式偏见从 97.3% 降至 71.2%。
 
 **[AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs](automixalign_adaptive_data_mixing.md)**
 
@@ -25,7 +29,7 @@
 
 **[Understanding Impact of Human Feedback via Influence Functions](influence_functions_rlhf.md)**
 
-:   首次将影响函数系统性应用于 RLHF 奖励模型的人类反馈审计，通过 DataInf 近似 + OPORP 梯度压缩（160MB→256KB）实现 2.5 倍加速，在长度偏差和谄媚偏差检测上显著超越 GPT-4o 等基线（AUC 0.8 vs ~0.6），并在 Anthropic-HH 原始数据集中发现 47% 的错标样本，同时展示了影响函数指导非专家标注者向专家策略对齐的能力。
+:   首次将影响函数应用于 RLHF 奖励模型的反馈数据审计，结合 OPORP 向量压缩实现 2.5 倍加速，在偏差检测上超越 GPT-4o（AUC 0.8 vs 0.747），并从 Anthropic-HH 数据集中发现 47% 的错标样本。
 
 **[IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization](iopo_input_output_preference.md)**
 
@@ -41,7 +45,7 @@
 
 **[LSSF: Safety Alignment via Low-Rank Safety Subspace Fusion](lssf_safety_subspace.md)**
 
-:   LSSF 发现 LLM 的安全信息集中在低秩子空间中，利用 SVD 构建低秩投影矩阵提取安全向量的主成分，并通过安全奇异值熵自适应确定每层保留秩，最终将低秩安全主成分通过线性算术融合到微调后模型中，实现免训练的后验安全恢复，同时最大化保持下游任务性能。
+:   LSSF 提出 LLM 的安全信息存在于低秩子空间中的假设，通过 SVD 提取安全对齐模型的主成分，利用安全奇异值熵自适应确定每层的保留秩，最终将提取的安全主成分线性融合到微调后的模型中，无需额外训练即可恢复因微调而退化的安全对齐，同时保持下游任务性能。
 
 **[M2S: Multi-turn to Single-turn jailbreak in Red Teaming for LLMs](m2s_multiturn_to_singleturn_jailbreak_in.md)**
 
@@ -59,9 +63,9 @@
 
 :   Mutual-Taught 提出了一种基于 EM 算法的自训练框架，在偏好优化过程中同时迭代更新 policy model 和 reward model：E-step 用当前 RM 优化 PM，M-step 用 PM 更新前后的输出差异构建伪偏好对来更新 RM，解决了分布偏移导致的 reward hacking 问题，8B 模型在 AlpacaEval-2 达到 54.1% LC win rate。
 
-**[Optimal Transport-Based Token Weighting for Enhanced Preference Optimization (OTPO)](otpo_token_weighting.md)**
+**[Optimal Transport-Based Token Weighting for Enhanced Preference Optimization](otpo_token_weighting.md)**
 
-:   提出 OTPO，利用无平衡最优传输（Unbalanced OT）在 chosen/rejected 回复的 token 语义表示之间建立匹配关系，从传输计划的边际分布导出每个 token 的重要性权重，替换 DPO 中的均匀权重，使偏好优化聚焦于语义关键 token，在 AlpacaEval2 上 LC WR 比 DPO 提升最高 10.9%。
+:   OTPO 利用无平衡最优传输（UOT）在 chosen/rejected 回复的 token 表示之间计算语义对齐权重，使偏好优化聚焦于关键差异 token 而非均等对待所有 token，在 AlpacaEval2 上将 DPO 的 LC WR 从 48.14% 提升至 55.84%，并将 DPO/SimPO/SamPO/LDDPO 统一为 token 加权的特例。
 
 **[Whose Boat Does it Float? Improving Personalization in Preference Optimization](personalized_preference_opt.md)**
 
@@ -77,7 +81,7 @@
 
 **[RISE: Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing](rise_error_inject_preference.md)**
 
-:   RISE 发现 LLM 约 75% 的数学错误是微妙的步内错误（计算错误、替代错误、遗漏项），提出让 LLM 自编辑（REPLACE/SWAP/DELETE）向正确解注入预定义微妙错误来构造难负样本，配合步级+序列级+自适应 NLL 三合一的错误感知 DPO 训练，仅用约 4.5K 样本在 Qwen2-7B 上 GSM8K +3.0%、MATH +7.9%，且泛化到逻辑推理和代码生成。
+:   RISE 发现 LLM 约 75% 的数学错误是微妙的步内错误（数字替换、操作数交换、步骤遗漏），通过让 LLM 自编辑向正确解注入预定义微妙错误来构造高质量难负样本，配合错误感知 DPO 训练，仅用 4.5K 样本在 GSM8K 提升 3.0%、MATH 提升 7.9%，并泛化到逻辑推理和代码生成。
 
 **[SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings](sea_lowresource_safety_alignment_for_multimodal.md)**
 

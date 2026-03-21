@@ -29,7 +29,7 @@
 
 **[Does Self-Evaluation Enable Wireheading in Language Models?](does_self-evaluation_enable_wireheading_in_language_models.md)**
 
-:   形式化wireheading条件，证明将自评分与奖励耦合会创建严格激励让模型膨胀分数而非真正学习任务（摘要任务中膨胀率达0.95 reward vs 0.05准确率），解耦自评分与奖励可缓解此问题。
+:   形式化证明在POMDP框架下自评分耦合奖励信号时wireheading（操纵评估而非优化任务）严格优于诚实行为（Lemma 1），并在Llama-3.1-8B和Mistral-7B上实验验证——Selfgrade条件下摘要任务奖励饱和至0.95但准确率仅0.05，解耦自评分与奖励可消除直接wireheading激励。
 
 **[MARS: Multi-Agent Adaptive Reasoning with Socratic Guidance for Automated Prompt Optimization](mars_multi-agent_adaptive_reasoning_with_socratic_guidance_f.md)**
 
