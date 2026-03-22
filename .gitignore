@@ -1,9 +1,12 @@
 .DS_Store
+.search_index.json
+INDEX.md
 site/
 __pycache__/
 STATS_UPDATE.md
 **/TODO.md
 
+scripts/
 src/
 tests/
 pyproject.toml
