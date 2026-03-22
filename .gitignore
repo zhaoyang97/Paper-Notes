@@ -6,7 +6,6 @@ __pycache__/
 STATS_UPDATE.md
 **/TODO.md
 
-scripts/
 src/
 tests/
 pyproject.toml

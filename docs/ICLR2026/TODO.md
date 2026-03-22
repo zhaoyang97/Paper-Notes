@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ICLR2026 论文笔记 TODO
 
-总计: 1514 篇 | 已完成: 515 | 待更新: 999
+总计: 1514 篇 | 已完成: 523 | 待更新: 991
 
 ---
 
@@ -285,7 +285,7 @@
 - [ ] [Death of the Novel(ty): Beyond n-Gram Novelty as a Metric for Textual Creativity](aigc_detection/death_of_the_novelty_beyond_n-gram_novelty_as_a_metric_for_textual_creativity.md) | arXiv: 2509.22641
 - [ ] [Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series](medical_imaging/decentralized_attention_fails_centralized_signals_rethinking_transformers_for_me.md) | arXiv: 2602.18473
 - [ ] [Decoding Open-Ended Information Seeking Goals from Eye Movements in Reading](video_understanding/decoding_open-ended_information_seeking_goals_from_eye_movements_in_reading.md) | arXiv: 2505.02872
-- [ ] [Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](others/decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md) | arXiv: 2508.01916
+- [x] [Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](others/decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md) | arXiv: 2508.01916
 - [ ] [Deconstructing Positional Information: From Attention Logits to Training Biases](others/deconstructing_positional_information_from_attention_logits_to_training_biases.md) | arXiv: 2505.13027
 - [x] [Decoupling Dynamical Richness from Representation Learning: Towards Practical Measurement](self_supervised/decoupling_dynamical_richness_from_representation_learning_towards_practical_mea.md) | arXiv: 2410.04264
 - [ ] [Deep FlexQP: Accelerated Nonlinear Programming via Deep Unfolding](optimization/deep_flexqp_accelerated_nonlinear_programming_via_deep_unfolding.md) | arXiv: 2512.01565
@@ -666,7 +666,7 @@
 - [ ] [Is In-Context Learning Learning?](llm_reasoning/is_in-context_learning_learning.md) | arXiv: 2509.10414
 - [ ] [Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort](llm_reasoning/is_it_thinking_or_cheating_detecting_implicit_reward_hacking_by_measuring_reason.md) | arXiv: 2510.01367
 - [ ] [Is On-Policy Data always the Best Choice for Direct Preference Optimization-based LM Alignment?](llm_alignment/is_on-policy_data_always_the_best_choice_for_direct_preference_optimization-base.md) | arXiv: 2508.10530
-- [ ] [Is Pure Exploitation Sufficient in Exogenous MDPs with Linear Function Approximation?](reinforcement_learning/is_pure_exploitation_sufficient_in_exogenous_mdps_with_linear_function_approxima.md) | arXiv: 2601.20694
+- [x] [Is Pure Exploitation Sufficient in Exogenous MDPs with Linear Function Approximation?](reinforcement_learning/is_pure_exploitation_sufficient_in_exogenous_mdps_with_linear_function_approxima.md) | arXiv: 2601.20694
 - [ ] [Is the Reversal Curse a Binding Problem? Uncovering Limitations of Transformers from a Basic Generalization Failure](model_compression/is_the_reversal_curse_a_binding_problem_uncovering_limitations_of_transformers_f.md) | arXiv: 2504.01928
 - [ ] [Is Your Paper Being Reviewed by an LLM? Benchmarking AI Text Detection in Peer Review](object_detection/is_your_paper_being_reviewed_by_an_llm_benchmarking_ai_text_detection_in_peer_re.md) | arXiv: 2502.19614
 - [ ] [IterResearch: Rethinking Long-Horizon Agents with Interaction Scaling](model_compression/iterresearch_rethinking_long-horizon_agents_with_interaction_scaling.md) | arXiv: 2511.07327
@@ -790,7 +790,7 @@
 - [ ] [Maximizing Incremental Information Entropy for Contrastive Learning](self_supervised/maximizing_incremental_information_entropy_for_contrastive_learning.md) | arXiv: 2603.12594
 - [ ] [MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains](llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_lon.md) | arXiv: 2603.00873
 - [ ] [mCLM: A Modular Chemical Language Model that Generates Functional and Makeable Molecules](medical_imaging/mclm_a_modular_chemical_language_model_that_generates_functional_and_makeable_mo.md) | arXiv: 2505.12565
-- [ ] [Measuring Physical-World Privacy Awareness of Large Language Models: An Evaluation Benchmark](ai_safety/measuring_physical-world_privacy_awareness_of_large_language_models_an_evaluatio.md) | arXiv: 2510.02356
+- [x] [Measuring Physical-World Privacy Awareness of Large Language Models: An Evaluation Benchmark](ai_safety/measuring_physical-world_privacy_awareness_of_large_language_models_an_evaluatio.md) | arXiv: 2510.02356
 - [ ] [Measuring the Intrinsic Dimension of Earth Representations](remote_sensing/measuring_the_intrinsic_dimension_of_earth_representations.md) | arXiv: 2511.02101
 - [ ] [Measuring Uncertainty Calibration](others/measuring_uncertainty_calibration.md) | arXiv: 2512.13872
 - [ ] [Mechanism of Task-oriented Information Removal in In-context Learning](image_restoration/mechanism_of_task-oriented_information_removal_in_in-context_learning.md) | arXiv: 2509.21012
@@ -866,7 +866,7 @@
 - [ ] [Neuro-Symbolic Decoding of Neural Activity](medical_imaging/neuro-symbolic_decoding_of_neural_activity.md) | arXiv: 2603.03343
 - [ ] [Neurocircuitry-Inspired Hierarchical Graph Causal Attention Networks for Explainable Depression Identification](graph_learning/neurocircuitry-inspired_hierarchical_graph_causal_attention_networks_for_explain.md) | arXiv: 2511.17622
 - [x] [NeuroGaze-Distill: Brain-informed Distillation and Depression-Inspired Geometric Priors for Robust Facial Emotion Recognition](human_understanding/neurogaze-distill_brain-informed_distillation_and_depression-inspired_geometric_.md) | arXiv: 2509.11916
-- [ ] [NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents](llm_agent/newtonbench_benchmarking_generalizable_scientific_law_discovery_in_llm_agents.md) | arXiv: 2510.07172
+- [x] [NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents](llm_agent/newtonbench_benchmarking_generalizable_scientific_law_discovery_in_llm_agents.md) | arXiv: 2510.07172
 - [ ] [Next Visual Granularity Generation](image_generation/next_visual_granularity_generation.md) | arXiv: 2508.12811
 - [x] [NIMO: a Nonlinear Interpretable MOdel](others/nimo_a_nonlinear_interpretable_model.md) | arXiv: 2506.05059
 - [ ] [No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes](llm_reasoning/no_answer_needed_predicting_llm_answer_accuracy_from_question-only_linear_probes.md) | arXiv: 2509.10625
@@ -894,7 +894,7 @@
 - [ ] [OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](multimodal_vlm/omnispatial_towards_comprehensive_spatial_reasoning_benchmark_for_vision_languag.md) | arXiv: 2506.03135
 - [ ] [On Discovering Algorithms for Adversarial Imitation Learning](reinforcement_learning/on_discovering_algorithms_for_adversarial_imitation_learning.md) | arXiv: 2510.00922
 - [ ] [On Entropy Control in LLM-RL Algorithms](robotics/on_entropy_control_in_llm-rl_algorithms.md) | arXiv: 2509.03493
-- [ ] [On the $O(1/T)$ Convergence of Alternating Gradient Descent-Ascent in Bilinear Games](reinforcement_learning/on_the_o1t_convergence_of_alternating_gradient_descent-ascent_in_bilinear_games.md) | arXiv: 2510.03855
+- [x] [On the $O(1/T)$ Convergence of Alternating Gradient Descent-Ascent in Bilinear Games](reinforcement_learning/on_the_o1t_convergence_of_alternating_gradient_descent-ascent_in_bilinear_games.md) | arXiv: 2510.03855
 - [ ] [On the Design of KL-Regularized Policy Gradient Algorithms for LLM Reasoning](llm_reasoning/on_the_design_of_kl-regularized_policy_gradient_algorithms_for_llm_reasoning.md) | arXiv: 2505.17508
 - [ ] [On the Eligibility of LLMs for Counterfactual Reasoning: A Decompositional Study](causal_inference/on_the_eligibility_of_llms_for_counterfactual_reasoning_a_decompositional_study.md) | arXiv: 2505.11839
 - [ ] [On the Expressive Power of GNNs for Boolean Satisfiability](graph_learning/on_the_expressive_power_of_gnns_for_boolean_satisfiability.md) | arXiv: 2602.08745
@@ -1342,7 +1342,7 @@
 - [ ] [TokenSeek: Memory Efficient Fine Tuning via Instance-Aware Token Ditching](llm_efficiency/tokenseek_memory_efficient_fine_tuning_via_instance-aware_token_ditching.md) | arXiv: 2601.19739
 - [ ] [TokMem: One-Token Procedural Memory for Large Language Models](model_compression/tokmem_one-token_procedural_memory_for_large_language_models.md) | arXiv: 2510.00444
 - [ ] [ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning](llm_agent/tooltree_efficient_llm_agent_tool_planning_via_dual-feedback_monte_carlo_tree_se.md) | arXiv: 2603.12740
-- [ ] [ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models](llm_agent/toolweaver_weaving_collaborative_semantics_for_scalable_tool_use_in_large_langua.md) | arXiv: 2601.21947
+- [x] [ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models](llm_agent/toolweaver_weaving_collaborative_semantics_for_scalable_tool_use_in_large_langua.md) | arXiv: 2601.21947
 - [x] [TopoBench: Benchmarking LLMs on Hard Topological Reasoning](llm_reasoning/topobench_benchmarking_llms_on_hard_topological_reasoning.md) | arXiv: 2603.12133
 - [ ] [Topology and Geometry of the Learning Space of ReLU Networks: Connectivity and Singularities](model_compression/topology_and_geometry_of_the_learning_space_of_relu_networks_connectivity_and_si.md) | arXiv: 2602.00693
 - [ ] [Topology-Preserved Auto-regressive Mesh Generation in the Manner of Weaving Silk](3d_vision/topology-preserved_auto-regressive_mesh_generation_in_the_manner_of_weaving_silk.md) | arXiv: 2507.02477
@@ -1438,7 +1438,7 @@
 - [ ] [UrbanGS: A Scalable and Efficient Architecture for Geometrically Accurate Large-Scene Reconstruction](3d_vision/urbangs_a_scalable_and_efficient_architecture_for_geometrically_accurate_large-s.md) | arXiv: 2602.02089
 - [ ] [UrbanVerse: Scaling Urban Simulation by Watching City-Tour Videos](robotics/urbanverse_scaling_urban_simulation_by_watching_city-tour_videos.md) | arXiv: 2510.15018
 - [ ] [Validating Interpretability in siRNA Efficacy Prediction: A Perturbation-Based, Dataset-Aware Protocol](causal_inference/validating_interpretability_in_sirna_efficacy_prediction_a_perturbation-based_da.md) | arXiv: 2602.10152
-- [ ] [Value Flows](reinforcement_learning/value_flows.md) | arXiv: 2510.07650
+- [x] [Value Flows](reinforcement_learning/value_flows.md) | arXiv: 2510.07650
 - [ ] [vCache: Verified Semantic Prompt Caching](llm_nlp/vcache_verified_semantic_prompt_caching.md) | arXiv: 2502.03771
 - [ ] [VCWorld: A Biological World Model for Virtual Cell Simulation](llm_nlp/vcworld_a_biological_world_model_for_virtual_cell_simulation.md) | arXiv: 2512.00306
 - [ ] [Verification of the Implicit World Model in a Generative Model via Adversarial Sequences](image_generation/verification_of_the_implicit_world_model_in_a_generative_model_via_adversarial_s.md) | arXiv: 2602.05903
@@ -1471,7 +1471,7 @@
 - [ ] [Watermark Robustness and Radioactivity May Be at Odds in Federated Learning](video_understanding/watermark_robustness_and_radioactivity_may_be_at_odds_in_federated_learning.md) | arXiv: 2510.17033
 - [ ] [Watermark-based Attribution of AI-Generated Content](ai_safety/watermark-based_attribution_of_ai-generated_content.md) | arXiv: 2404.04254
 - [ ] [wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models](image_restoration/wd1_weighted_policy_optimization_for_reasoning_in_diffusion_language_models.md) | arXiv: 2507.08838
-- [ ] [Weak-SIGReg: Covariance Regularization for Stable Deep Learning](self_supervised/weak-sigreg_covariance_regularization_for_stable_deep_learning.md) | arXiv: 2603.05924
+- [x] [Weak-SIGReg: Covariance Regularization for Stable Deep Learning](self_supervised/weak-sigreg_covariance_regularization_for_stable_deep_learning.md) | arXiv: 2603.05924
 - [ ] [Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents](llm_agent/web-cogreasoner_towards_knowledge-induced_cognitive_reasoning_for_web_agents.md) | arXiv: 2508.01858
 - [ ] [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](llm_agent/webarbiter_a_principle-guided_reasoning_process_reward_model_for_web_agents.md) | arXiv: 2601.21872
 - [x] [WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality](llm_nlp/webdevjudge_mllm_web_development.md) | arXiv: 2510.18560
