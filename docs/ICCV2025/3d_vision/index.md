@@ -25,7 +25,7 @@
 
 **[3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt](3dgslm_faster_gaussiansplatting_optimization_with_levenbergm.md)**
 
-:   提出3DGS-LM，用定制的Levenberg-Marquardt (LM) 优化器替代ADAM来加速3DGS重建，通过梯度缓存数据结构和自定义CUDA核实现高效GPU并行的PCG求解，在保持重建质量的同时将优化速度提升约20%，且与其他3DGS加速方法正交可叠加。
+:   将3D Gaussian Splatting的ADAM优化器替换为定制化的Levenberg-Marquardt（LM）二阶优化器，通过高效CUDA并行化的PCG算法和梯度缓存结构实现Jacobian-向量积加速，在保持相同重建质量的前提下将优化时间缩短约20%。
 
 **[4D Gaussian Splatting SLAM](4d_gaussian_splatting_slam.md)**
 

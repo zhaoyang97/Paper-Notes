@@ -55,7 +55,7 @@
 
 **[3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt](3d_vision/3dgslm_faster_gaussiansplatting_optimization_with_levenbergm.md)**
 
-:   提出3DGS-LM，用定制的Levenberg-Marquardt (LM) 优化器替代ADAM来加速3DGS重建，通过梯度缓存数据结构和自定义CUDA核实现高效GPU并行的PCG求解，在保持重建质量的同时将优化速度提升约20%，且与其他3DGS加速方法正交可叠加。
+:   将3D Gaussian Splatting的ADAM优化器替换为定制化的Levenberg-Marquardt（LM）二阶优化器，通过高效CUDA并行化的PCG算法和梯度缓存结构实现Jacobian-向量积加速，在保持相同重建质量的前提下将优化时间缩短约20%。
 
 **[4D Gaussian Splatting SLAM](3d_vision/4d_gaussian_splatting_slam.md)**
 
@@ -395,7 +395,7 @@
 
 **[A Plug-and-Play Physical Motion Restoration Approach for In-the-Wild High-Difficulty Motions](segmentation/a_plugandplay_physical_motion_restoration_approach_for_inthe.md)**
 
-:   提出即插即用的两阶段物理运动修复方法：先用掩码条件扩散模型修正视频运动捕获中的缺陷帧（MCM），再用预训练+测试时自适应的强化学习控制器进行物理仿真修复（PTM），首次实现对野外高难度动作（体操/武术/舞蹈）的物理合理性增强。
+:   提出即插即用的物理运动修复框架，通过Mask条件运动校正模块（MCM）修复视频运动捕捉中的缺陷帧，结合基于RL测试时适应的物理运动传输模块（PTM），首次实现对野外高难度运动（如体操、武术后空翻）的物理仿真修复。
 
 **[CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation](segmentation/corrclip_reconstructing_patch_correlations_in_clip_for_openv.md)**
 
@@ -563,7 +563,7 @@
 
 **[A Visual Leap in CLIP Compositionality Reasoning through Generation of Counterfactual Sets](causal_inference/a_visual_leap_in_clip_compositionality_reasoning_through_gen.md)**
 
-:   提出基于block-based diffusion的反事实图文对自动生成方法，将图像实体视为"拼图块"进行独立生成与组装，配合集合内/集合间双层损失函数微调CLIP（LoRA），在ARO、Winoground、sDCI等多个组合推理benchmark上以10K-300K合成数据超越使用3M手标数据的SOTA方法。
+:   提出基于LLM+扩散模型的block-based diffusion方法自动生成高质量反事实图文对数据集，配套设计set-aware损失函数，无需人工标注即可显著提升CLIP的组合推理能力，在ARO/VL-Checklist等benchmark上以更少数据超越SOTA。
 
 ---
 
@@ -615,7 +615,7 @@
 
 **[A Hidden Stumbling Block in Generalized Category Discovery: Distracted Attention](others/a_hidden_stumbling_block_in_generalized_category_discovery_d.md)**
 
-:   本文发现GCD任务中ViT模型在处理无标签数据时存在注意力分散（关注背景而非前景目标）的隐患，提出Attention Focusing (AF)机制，通过Token重要性评估 (TIME) + Token自适应剪枝 (TAP) 级联去除无关token，在SimGCD上取得最高15.4%的提升，且计算开销极小。
+:   发现GCD中未标注数据（尤其是未知类别）的ViT注意力会分散到背景区域（distracted attention），提出Attention Focusing（AF）模块通过多尺度token重要性度量+自适应剪枝来纠正注意力，作为即插即用模块在SimGCD上最高带来15.4%的性能提升。
 
 **[A Real-world Display Inverse Rendering Dataset](others/a_realworld_display_inverse_rendering_dataset.md)**
 

@@ -117,7 +117,7 @@
 
 **[SSCP: Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning](flow-based_single-step_completion_for_efficient_and_expressive_policy_learning.md)**
 
-:   SSCP 通过预测「完成向量」（从任意中间流样本到最终目标的归一化方向）将多步流策略压缩为单步生成，实现 64× 训练加速和 4.7× 推理加速，同时保持与多步流策略相当的表达力。
+:   提出 Single-Step Completion Policy (SSCP)，通过在流匹配框架中预测"完成向量"（从任意中间状态到目标动作的归一化方向），将多步生成策略压缩为单步推理，在 D4RL 上与多步扩散/流策略持平但训练快 64×、推理快 4.7×，并扩展到 GCRL 中将层级策略扁平化。
 
 **[Follow-Your-Shape: Shape-Aware Image Editing via Trajectory-Guided Region Control](follow-your-shape_shape-aware_image_editing_via_trajectory-guided_region_control.md)**
 

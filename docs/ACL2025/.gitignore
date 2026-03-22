@@ -1,5 +1,5 @@
 # Auto-generated: ACL2025 paper notes ignore
-# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
+# 由 src/sync_notes.py 根据 TODO.md 自动生成
 
 # 默认忽略所有笔记
 *.md
@@ -8,8 +8,9 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
+!index.md
 
-# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
+# 排除已完成笔记所在的子目录
 !ai_safety/
 !aigc_detection/
 !audio_speech/
@@ -34,13 +35,14 @@
 !robotics/
 !self_supervised/
 
-# 已完成笔记 (472 篇)
+# 已完成笔记 (474 篇)
 !ai_safety/centaur_bridging_the_impossible_trinity_of.md
 !ai_safety/dialect_fairness_robustness.md
 !ai_safety/ensemble_watermarks_llm.md
 !ai_safety/fairness_difference_awareness.md
 !ai_safety/from_tradeoff_to_synergy_a_versatile.md
 !ai_safety/gifi_gender_fairness.md
+!ai_safety/improved_unbiased_watermark_for_large_language.md
 !ai_safety/llm_watermark_distillation_robustness.md
 !ai_safety/morphmark_adaptive_watermarking.md
 !ai_safety/privacibench_evaluating_privacy_with_contextual_integrity.md
@@ -104,6 +106,7 @@
 !llm_alignment/codedpo_code_alignment.md
 !llm_alignment/curiosity_driven_rlhf.md
 !llm_alignment/diffpo_diffusion_alignment.md
+!llm_alignment/influence_functions_rlhf.md
 !llm_alignment/iopo_input_output_preference.md
 !llm_alignment/jailbreakradar_comprehensive_assessment_jailbreak_attacks.md
 !llm_alignment/kpo_protein_safety.md

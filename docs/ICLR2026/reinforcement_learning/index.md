@@ -29,7 +29,7 @@
 
 **[BA-MCTS: Bayes Adaptive Monte Carlo Tree Search for Offline Model-based RL](bayes_adaptive_monte_carlo_tree_search_for_offline_model-based_reinforcement_lea.md)**
 
-:   BA-MCTS 首次将贝叶斯自适应 MDP（BAMDP）引入离线模型基 RL，通过连续空间 BAMCP + 悲观奖励惩罚 + 搜索基策略迭代的形式，实现动态更新 ensemble 信念并优先使用最精确的模型，在 D4RL 12 个任务上超越 19 个基线。
+:   首次将贝叶斯自适应 MDP（BAMDP）引入离线模型基 RL，提出 Continuous BAMCP 解决连续状态/动作空间的贝叶斯规划，结合悲观奖励惩罚和搜索基策略迭代（"RL + Search"范式），在 D4RL 12 个任务上显著超越 19 个基线（Cohen's $d > 1.8$），并成功应用于核聚变 tokamak 控制。
 
 **[Boolean Satisfiability via Imitation Learning](boolean_satisfiability_via_imitation_learning.md)**
 
@@ -117,7 +117,7 @@
 
 **[Optimistic Task Inference for Behavior Foundation Models](optimistic_task_inference_behavior_models.md)**
 
-:   提出 OpTI-BFM——一种乐观决策准则，对奖励函数的不确定性建模并引导 Behavior Foundation Model 在测试时通过环境交互进行任务推断，与线性 bandit 的上置信界（UCB）算法建立联系并提供正式的 regret bound，使 BFM 仅需几个 episode 即可识别和优化未见奖励函数，几乎无额外计算开销。
+:   提出 OpTI-BFM——在 Behavior Foundation Model 测试时，不需要完整奖励函数或标注数据集，而是通过与环境交互仅 5 个 episode 即可推断任务并恢复 Oracle 性能，核心是利用 successor features 的线性结构将任务推断归约为线性 bandit 问题并用 UCB 策略乐观探索，提供正式的 regret bound。
 
 **[Post-training Large Language Models for Diverse High-Quality Responses](post-training_large_language_models_for_diverse_high-quality_responses.md)**
 

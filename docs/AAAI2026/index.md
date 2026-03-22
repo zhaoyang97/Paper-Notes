@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 AAAI2026 论文笔记
 
-共 **240** 篇笔记，覆盖 **34** 个领域。
+共 **258** 篇笔记，覆盖 **35** 个领域。
 
 ## 领域概览
 
@@ -24,22 +24,23 @@
 | 🕸️ [图学习](#graph_learning) | 6 |
 | 🎁 [推荐系统](#recommender) | 5 |
 | ✂️ [语义分割](#segmentation) | 5 |
+| 📡 [信号/通信](#signal_comm) | 5 |
+| 🎵 [音频/语音](#audio_speech) | 4 |
 | 🧑 [人体理解](#human_understanding) | 4 |
 | 🖼️ [图像恢复](#image_restoration) | 4 |
+| 📖 [NLP 理解](#nlp_understanding) | 4 |
 | 📐 [优化/理论](#optimization) | 4 |
+| 🔄 [自监督/表示学习](#self_supervised) | 4 |
 | 🎬 [视频理解](#video_understanding) | 4 |
+| 🔎 [AIGC 检测](#aigc_detection) | 3 |
 | 🔗 [因果推理](#causal_inference) | 3 |
 | ⚡ [LLM 效率](#llm_efficiency) | 3 |
 | ✍️ [文本生成](#nlp_generation) | 3 |
+| ⚛️ [物理学](#physics) | 3 |
 | 🛰️ [遥感](#remote_sensing) | 3 |
-| 🎵 [音频/语音](#audio_speech) | 2 |
-| 🔄 [自监督/表示学习](#self_supervised) | 2 |
+| 🧮 [科学计算](#scientific_computing) | 3 |
 | 📈 [时间序列](#time_series) | 2 |
-| 🔎 [AIGC 检测](#aigc_detection) | 1 |
-| 📖 [NLP 理解](#nlp_understanding) | 1 |
-| ⚛️ [物理学](#physics) | 1 |
-| 🧮 [科学计算](#scientific_computing) | 1 |
-| 📡 [信号/通信](#signal_comm) | 1 |
+| 🌍 [地球科学](#earth_science) | 1 |
 | 📂 [其他](#others) | 18 |
 
 ---
@@ -844,6 +845,50 @@
 
 ---
 
+## 📡 信号/通信 { #signal_comm }
+
+**[Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score](signal_comm/beyond_perplexity_let_the_reader_select_retrieval_summaries_via_spectrum_project.md)**
+
+:   提出 Spectrum Projection Score (SPS) 这一无需训练的指标，通过衡量摘要 token 嵌入与 reader LLM 主子空间的对齐程度来评估检索摘要质量，替代传统困惑度指标。结合 xCompress 推理时控制器，在 5 个 QA 数据集上显著优于基于困惑度的方法（HotpotQA EM +3.6）。
+
+**[GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning](signal_comm/gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md)**
+
+:   提出 GateRA，在 PEFT 方法（LoRA/DoRA/HiRA）中引入轻量级 token 感知门控模块，通过 sigmoid 门控动态调整每个 token 的适配强度——对分布内/简单 token 抑制更新以保留预训练知识，对挑战性 token 放大适配。结合熵正则化促进近二值门控决策，在常识推理（+1.1%）、对话和数学推理上一致优于 HiRA。
+
+**[Task Aware Modulation Using Representation Learning For Upsaling Of Terrestrial ](signal_comm/task_aware_modulation_using_representation_learning_for_upsaling_of_terrestrial_.md)**
+
+:   提出 TAM-RL 框架，将陆地碳通量升尺度问题建模为零样本回归迁移学习任务，用 BiLSTM 任务编码器+FiLM 调制结合碳平衡方程知识引导损失，在 150+ 通量塔站点上将 GPP RMSE 降低 9.6%、NEE R² 提升 43.8%（相较 FLUXCOM-X-BASE）。
+
+**[Text-Guided Channel Perturbation And Pretrained Knowledge Integration For Unifie](signal_comm/text-guided_channel_perturbation_and_pretrained_knowledge_integration_for_unifie.md)**
+
+:   提出 UP-Fusion 统一多模态图像融合框架，通过语义感知通道剪枝 (SCPM)、几何仿射调制 (GAM) 和 CLIP 文本引导通道扰动 (TCPM) 三个模块，用单组权重（仅在红外-可见光数据上训练）同时处理 IVIF 和医学图像融合，在两类任务上均达到 SOTA。
+
+**[Toward Gaze Target Detection in Young Autistic Children](signal_comm/toward_gaze_target_detection_of_young_autistic_children.md)**
+
+:   针对自闭症儿童注视目标检测中面部注视（6.6%）严重不足的类别不平衡问题，提出 Socially Aware Coarse-to-Fine (SACF) 框架，用微调的 Qwen2.5-VL 作为社交上下文感知门控，将输入路由到社交感知/社交无关两个专家模型，在首创的 AGT 数据集上显著提升了面部注视检测性能（Face L2 在 Sharingan 上降低 13.9%, F1 从 0.753 提升至 0.761）。
+
+---
+
+## 🎵 音频/语音 { #audio_speech }
+
+**[AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions](audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md)**
+
+:   通过对大音频语言模型（LALM）Transformer 骨干中的注意力头进行二值掩码（AHAMask），无需文本指令即可可靠触发特定声学任务功能，同时揭示了 LALM 内部存在"声学功能通路"。
+
+**[Dualspeechlm Towards Unified Speech Understanding And Generation Via Dual Speech](audio_speech/dualspeechlm_towards_unified_speech_understanding_and_generation_via_dual_speech.md)**
+
+:   提出 DualSpeechLM，通过 USTokenizer 生成与 LLM 语义空间对齐的语音 token 作为输入（理解），同时用声学 token 作为输出（生成），仅用 4.5K 小时数据就实现理解+生成的统一，ASR WER 4.22%（超越 Mini-Omni2 的 4.8%），TTS WER 降至 9.25%。
+
+**[Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition](audio_speech/let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md)**
+
+:   通过 MoGE 诊断策略系统发现 MIDIBERT 未有效编码调式-情感关联，提出 MoFi 注入框架通过 FiLM 机制将大调/小调先验注入 MIDIBERT 第 1 层（诊断确定的最弱情感信息层），在 EMOPIA 上准确率 75.2%（+11.8%），VGMIDI 上 59.1%（+11.8%），F1 提升 12.3%/15.5%。
+
+**[Use A Unified Model For Universal Sound Separation And Extraction](audio_speech/use_a_unified_model_for_universal_sound_separation_and_extraction.md)**
+
+:   提出 USE 统一框架，通过 EDA 网络推断声源数量和声学线索实现声音分离 (SS)，多模态融合网络解释用户提供的文本/视频/标签线索实现目标声音提取 (TSE)，联合训练+跨任务对齐使两项任务互相增强，SS +1.4dB SDR，TSE 匹配准确率 86%。
+
+---
+
 ## 🧑 人体理解 { #human_understanding }
 
 **[10 Open Challenges Steering the Future of Vision-Language-Action Models](human_understanding/10_open_challenges_steering_the_future_of_vision-language-ac.md)**
@@ -884,6 +929,26 @@
 
 ---
 
+## 📖 NLP 理解 { #nlp_understanding }
+
+**[Language Models and Logic Programs for Trustworthy Tax Reasoning](nlp_understanding/language_models_and_logic_programs_for_trustworthy_tax_reasoning.md)**
+
+:   将税法推理重新定义为语义解析任务，让LLM将法规文本和纳税案例翻译为Prolog逻辑程序，由符号求解器执行计算，通过金标准法规+智能检索案例示例+自一致性检查，在SARA数据集上实现86/100的正确率，并将预计部署成本降至15.78美元/人（低于美国人均报税成本的6%）。
+
+**[NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models](nlp_understanding/nestr_a_neuro-symbolic_abductive_framework_for_temporal_reasoning_in_large_langu.md)**
+
+:   提出 NeSTR 神经符号提示策略，通过将自然语言时间事实转化为结构化符号谓词，结合一致性验证和溯因反思修正，在零样本设置下让 LLM 实现高质量时间推理，GPT-4o-mini 上平均 F1 达 89.7（vs vanilla 64.9，TISER 85.8）。
+
+**[REAP: Enhancing RAG with Recursive Evaluation and Adaptive Planning for Multi-Hop Question Answering](nlp_understanding/reap_enhancing_rag_with_recursive_evaluation_and_adaptive_planning_for_multi-hop.md)**
+
+:   提出 REAP 双模块迭代框架，通过子任务规划器 (SP) 维护全局视角动态指导推理轨迹，事实提取器 (FE) 从检索内容中提取结构化事实和潜在线索，两者递归协作解决多跳问答。在 4 个基准上以 Llama-3.1-8B 显著超越所有基线（HotpotQA F1 68.0 vs 次优 63.4）。
+
+**[Understanding Syllogistic Reasoning in LLMs from Formal and Natural Language Perspectives](nlp_understanding/understanding_syllogistic_reasoning_in_llms_from_formal_and_natural_language_per.md)**
+
+:   系统评估14个LLM在160个三段论上的推理表现，发现顶级模型在形式逻辑（句法有效性）上接近完美但在自然语言可信度判断上仅为随机水平——这与人类推理模式恰好相反；12/14模型存在信念偏差，且few-shot提示反而显著降低形式推理性能。
+
+---
+
 ## 📐 优化/理论 { #optimization }
 
 **[A Distributed Asynchronous Generalized Momentum Algorithm Without Delay Bounds](optimization/a_distributed_asynchronous_generalized_momentum_algorithm_wi.md)**
@@ -904,6 +969,26 @@
 
 ---
 
+## 🔄 自监督/表示学习 { #self_supervised }
+
+**[Bce3S Binary Cross-Entropy Based Tripartite Synergistic Learning For Long-Tailed](self_supervised/bce3s_binary_cross-entropy_based_tripartite_synergistic_learning_for_long-tailed.md)**
+
+:   提出 BCE3S 框架，用 BCE (Sigmoid) 替代 CE (Softmax) 作为三路协同学习（联合学习+对比学习+均匀学习）的统一基础，解决 Softmax 耦合不平衡分类器向量导致的长尾偏差，在 CIFAR-LT/ImageNet-LT 上达到 SOTA。
+
+**[GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery](self_supervised/goal_geometrically_optimal_alignment_for_continual_generalized_category_discover.md)**
+
+:   基于 Neural Collapse 理论，使用固定等角紧框架（ETF）分类器替代动态分类器，通过监督对齐和置信度引导的无监督对齐实现持续泛化类别发现，在四个基准上遗忘率降低 16.1%、新类发现提升 3.2%。
+
+**[CAE: Hierarchical Semantic Alignment for Image Clustering](self_supervised/hierarchical_semantic_alignment_for_image_clustering.md)**
+
+:   结合名词级（WordNet）和描述级（Flickr 图片描述）两种互补语义，通过最优传输对齐构建语义空间并自适应融合，实现 training-free 的图像聚类，在 ImageNet-1K 上准确率提升 4.2%。
+
+**[Robust Tabular Foundation Models](self_supervised/robust_tabular_foundation_models.md)**
+
+:   提出 RTFM，一种模型无关的对抗训练框架，通过在参数化合成数据生成过程中寻找 TFM 表现不佳的"困难区域"（相比树模型基线的最优性差距最大），仅用 <10万额外合成数据集将 TabPFN V2 的平均归一化 AUC 提升最高 6%。
+
+---
+
 ## 🎬 视频理解 { #video_understanding }
 
 **[APVR: Hour-Level Long Video Understanding with Adaptive Pivot Visual Information Retrieval](video_understanding/apvr_hour-level_long_video_understanding_with_adaptive_pivot.md)**
@@ -921,6 +1006,22 @@
 **[MambaMia: State-Space Hierarchical Compression for Hour-Long Video Understanding in Large Multimodal Models](video_understanding/state-space_hierarchical_compression_with_gated_attention_an.md)**
 
 :   MambaMia 提出了基于双向 Mamba 的两阶段层次化视频 Token 压缩框架：门控 Patch 聚合（GPA）做空间-时间局部压缩 + 时间轴聚合器（TAA）利用 Mamba 的自适应步长 $\Delta_t$ 做数据驱动的关键帧采样，将小时级视频压缩到仅 4.7K Token，在 LVBench 上达到 44.6 分超越 Qwen2-VL 和 mPLUG-Owl3。
+
+---
+
+## 🔎 AIGC 检测 { #aigc_detection }
+
+**[ActiShade: Activating Overshadowed Knowledge to Guide Multi-Hop Reasoning in Large Language Models](aigc_detection/actishade_activating_overshadowed_knowledge_to_guide_multi-h.md)**
+
+:   提出ActiShade框架，通过高斯噪声扰动检测LLM在多跳推理中被"遮蔽"的关键短语，结合定制对比学习检索器获取补充文档，迭代重构查询以减少知识遮蔽导致的错误累积，在HotpotQA/2WikiMQA/MuSiQue上显著超越DRAGIN等SOTA。
+
+**[BAID: A Benchmark for Bias Assessment of AI Detectors](aigc_detection/baid_a_benchmark_for_bias_assessment_of_ai_detectors.md)**
+
+:   提出 BAID 基准数据集（20.8万样本对，覆盖7类偏见维度、41个子群体），系统评估4个开源 AI 文本检测器在不同人口统计和语言学子群体上的公平性表现，揭示检测器对方言、非正式英语和少数群体文本存在显著的召回率差异。
+
+**[Optimized Algorithms for Text Clustering with LLM-Generated Constraints](aigc_detection/optimized_algorithms_for_text_clustering_with_llm-generated_constraints.md)**
+
+:   提出 LSCK-HC 框架，利用 LLM 生成集合形式的 must-link/cannot-link 约束（而非传统成对约束），配合带惩罚项的局部搜索聚类算法，在5个短文本数据集上实现与 SOTA 可比的聚类精度，同时将 LLM 查询次数减少 20 倍以上。
 
 ---
 
@@ -972,6 +1073,22 @@
 
 ---
 
+## ⚛️ 物理学 { #physics }
+
+**[Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness](physics/adaptive_fidelity_estimation_for_quantum_programs_with_graph.md)**
+
+:   提出 QuFid 框架，将量子电路建模为有向无环图，通过控制流感知的随机游走刻画噪声传播，利用算子谱特征量化电路复杂度，实现自适应测量预算分配，在保持保真度精度的同时大幅减少测量次数。
+
+**[Data Verification is the Future of Quantum Computing Copilots](physics/data_verification_is_the_future_of_quantum_computing_copilots.md)**
+
+:   这是一篇 position paper，提出量子计算 AI 助手（Copilot）必须将数据验证从事后过滤提升为架构级基础——通过三个立场论证：(1) 验证数据是最低要求，(2) 先验约束优于后验过滤，(3) 受物理定律约束的科学领域需要验证感知架构。实验表明无验证数据的 LLM 在电路优化上最高仅达 79% 准确率。
+
+**[STELLAR: Scene Text Editor for Low-Resource Languages and Real-World Data](physics/stellar_scene_text_editor_for_low-resource_languages_and_real-world_data.md)**
+
+:   提出 STELLAR 框架，通过语言自适应字形编码器和多阶段训练策略（合成预训练+真实图像微调），实现韩语/阿拉伯语/日语等低资源语言的场景文本编辑，并提出 TAS 指标独立评估字体/颜色/背景的风格保持，韩语识别准确率从基线的 22.1% 提升至 80.4%。
+
+---
+
 ## 🛰️ 遥感 { #remote_sensing }
 
 **[Consistency-based Abductive Reasoning over Perceptual Errors of Multiple Pre-trained Models in Novel Environments](remote_sensing/consistency-based_abductive_reasoning_over_perceptual_errors_of_multiple_pre-tra.md)**
@@ -988,27 +1105,19 @@
 
 ---
 
-## 🎵 音频/语音 { #audio_speech }
+## 🧮 科学计算 { #scientific_computing }
 
-**[AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions](audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md)**
+**[PhysicsCorrect: A Training-Free Approach for Stable Neural PDE Simulations](scientific_computing/physicscorrect_a_training-free_approach_for_stable_neural_pde_simulations.md)**
 
-:   通过对大音频语言模型（LALM）Transformer 骨干中的注意力头进行二值掩码（AHAMask），无需文本指令即可可靠触发特定声学任务功能，同时揭示了 LALM 内部存在"声学功能通路"。
+:   提出 PhysicsCorrect，一种无需训练的校正框架，通过将 PDE 残差校正建模为线性化逆问题并预计算伪逆缓存，在推理时以 <5% 计算开销实现最高 100× 误差降低，适用于 FNO/UNet/ViT 等任意预训练神经算子。
 
-**[Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition](audio_speech/let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md)**
+**[SAOT: An Enhanced Locality-Aware Spectral Transformer for Solving PDEs](scientific_computing/saot_an_enhanced_locality-aware_spectral_transformer_for_solving_pdes.md)**
 
-:   通过 MoGE 诊断策略系统发现 MIDIBERT 未有效编码调式-情感关联，提出 MoFi 注入框架通过 FiLM 机制将大调/小调先验注入 MIDIBERT 第 1 层（诊断确定的最弱情感信息层），在 EMOPIA 上准确率 75.2%（+11.8%），VGMIDI 上 59.1%（+11.8%），F1 提升 12.3%/15.5%。
+:   提出 SAOT（Spectral Attention Operator Transformer），通过线性复杂度的小波注意力 (WA) 捕获高频局部特征，与傅里叶注意力 (FA) 的全局感受野通过门控融合，在 6 个算子学习基准上达到 SOTA（Navier-Stokes 误差比 Transolver 降 22.3%）。
 
----
+**[Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: A Comparative Study](scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md)**
 
-## 🔄 自监督/表示学习 { #self_supervised }
-
-**[GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery](self_supervised/goal_geometrically_optimal_alignment_for_continual_generalized_category_discover.md)**
-
-:   基于 Neural Collapse 理论，使用固定等角紧框架（ETF）分类器替代动态分类器，通过监督对齐和置信度引导的无监督对齐实现持续泛化类别发现，在四个基准上遗忘率降低 16.1%、新类发现提升 3.2%。
-
-**[CAE: Hierarchical Semantic Alignment for Image Clustering](self_supervised/hierarchical_semantic_alignment_for_image_clustering.md)**
-
-:   结合名词级（WordNet）和描述级（Flickr 图片描述）两种互补语义，通过最优传输对齐构建语义空间并自适应融合，实现 training-free 的图像聚类，在 ImageNet-1K 上准确率提升 4.2%。
+:   提出物理基线+数据驱动残差的混合建模框架，将海试功率曲线（螺旋桨定律 $P=cV^n$）作为基线，用 XGBoost/NN/PINN 学习残差修正，在稀疏数据区域显著提升外推稳定性和物理一致性。
 
 ---
 
@@ -1024,43 +1133,11 @@
 
 ---
 
-## 🔎 AIGC 检测 { #aigc_detection }
+## 🌍 地球科学 { #earth_science }
 
-**[ActiShade: Activating Overshadowed Knowledge to Guide Multi-Hop Reasoning in Large Language Models](aigc_detection/actishade_activating_overshadowed_knowledge_to_guide_multi-h.md)**
+**[MdaIF: Robust One-Stop Multi-Degradation-Aware Image Fusion with Language-Driven Semantics](earth_science/mdaif_robust_one-stop_multi-degradation-aware_image_fusion_with_language-driven_.md)**
 
-:   提出ActiShade框架，通过高斯噪声扰动检测LLM在多跳推理中被"遮蔽"的关键短语，结合定制对比学习检索器获取补充文档，迭代重构查询以减少知识遮蔽导致的错误累积，在HotpotQA/2WikiMQA/MuSiQue上显著超越DRAGIN等SOTA。
-
----
-
-## 📖 NLP 理解 { #nlp_understanding }
-
-**[Language Models and Logic Programs for Trustworthy Tax Reasoning](nlp_understanding/language_models_and_logic_programs_for_trustworthy_tax_reasoning.md)**
-
-:   将税法推理重新定义为语义解析任务，让LLM将法规文本和纳税案例翻译为Prolog逻辑程序，由符号求解器执行计算，通过金标准法规+智能检索案例示例+自一致性检查，在SARA数据集上实现86/100的正确率，并将预计部署成本降至15.78美元/人（低于美国人均报税成本的6%）。
-
----
-
-## ⚛️ 物理学 { #physics }
-
-**[Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness](physics/adaptive_fidelity_estimation_for_quantum_programs_with_graph.md)**
-
-:   提出 QuFid 框架，将量子电路建模为有向无环图，通过控制流感知的随机游走刻画噪声传播，利用算子谱特征量化电路复杂度，实现自适应测量预算分配，在保持保真度精度的同时大幅减少测量次数。
-
----
-
-## 🧮 科学计算 { #scientific_computing }
-
-**[Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: A Comparative Study](scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md)**
-
-:   提出物理基线+数据驱动残差的混合建模框架，将海试功率曲线（螺旋桨定律 $P=cV^n$）作为基线，用 XGBoost/NN/PINN 学习残差修正，在稀疏数据区域显著提升外推稳定性和物理一致性。
-
----
-
-## 📡 信号/通信 { #signal_comm }
-
-**[Toward Gaze Target Detection in Young Autistic Children](signal_comm/toward_gaze_target_detection_of_young_autistic_children.md)**
-
-:   针对自闭症儿童注视目标检测中面部注视（6.6%）严重不足的类别不平衡问题，提出 Socially Aware Coarse-to-Fine (SACF) 框架，用微调的 Qwen2.5-VL 作为社交上下文感知门控，将输入路由到社交感知/社交无关两个专家模型，在首创的 AGT 数据集上显著提升了面部注视检测性能（Face L2 在 Sharingan 上降低 13.9%, F1 从 0.753 提升至 0.761）。
+:   提出 MdaIF 框架，利用预训练 VLM 提取语义先验来指导退化感知的通道注意力模块 (DCAM) 和混合专家网络 (DMoE)，实现在雾、雨、雪等多种恶劣天气条件下的一站式红外-可见光图像融合，无需依赖退化类型的真实标签即可自适应处理多种退化场景。
 
 ---
 

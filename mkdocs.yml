@@ -41,7 +41,7 @@ nav:
 - 🏠 首页: index.md
 - 🔬 ICLR2026:
   - ICLR2026: ICLR2026/index.md
-  - 💬 LLM / NLP (53):
+  - 💬 LLM / NLP (55):
     - 💬 LLM / NLP: ICLR2026/llm_nlp/index.md
     - A Cortically Inspired Architecture for Modular Perceptual AI: ICLR2026/llm_nlp/a_cortically_inspired_architecture_for_modular_perceptual_ai.md
     - 'ASIDE: Architectural Separation of Instructions and Data in Language Models': ICLR2026/llm_nlp/aside_architectural_separation_of_instructions_and_data_in_language_models.md
@@ -66,6 +66,7 @@ nav:
     - 'EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models': ICLR2026/llm_nlp/evoengineer_mastering_automated_cuda_kernel_code_evolution_with_large_language_m.md
     - 'FictionalQA: A Dataset for Studying Memorization and Knowledge Acquisition': ICLR2026/llm_nlp/fictionalqa_a_dataset_for_studying_memorization_and_knowledge_acquisition.md
     - 'Fine-Grained Activation Steering: Steering Less, Achieving More': ICLR2026/llm_nlp/fine-grained_activation_steering_steering_less_achieving_more.md
+    - Fine-tuning Done Right in Model Editing: ICLR2026/llm_nlp/fine-tuning_done_right_in_model_editing.md
     - ? 'First is Not Really Better Than Last: Evaluating Layer Choice and Aggregation
         Strategies in Language Model Data Influence Estimation'
       : ICLR2026/llm_nlp/first_is_not_really_better_than_last_evaluating_layer_choice_and_aggregation_str.md
@@ -88,6 +89,7 @@ nav:
     - 'SimpleToM: Exposing the Gap between Explicit ToM Inference and Implicit ToM Application in LLMs': ICLR2026/llm_nlp/simpletom_exposing_the_gap_between_explicit_tom_inference_and_implicit_tom_appli.md
     - Spectral Attention Steering for Prompt Highlighting: ICLR2026/llm_nlp/spectral_attention_steering_for_prompt_highlighting.md
     - 'Statistical Advantage of Softmax Attention: Insights from Single-Location Regression': ICLR2026/llm_nlp/statistical_advantage_of_softmax_attention_insights_from_single-location_regress.md
+    - Stopping Computation for Converged Tokens in Masked Diffusion-LM Decoding: ICLR2026/llm_nlp/stopping_computation_for_converged_tokens_in_masked_diffusion-lm_decoding.md
     - Sublinear Time Quantum Algorithm for Attention Approximation: ICLR2026/llm_nlp/sublinear_time_quantum_algorithm_for_attention_approximation.md
     - 'Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis': ICLR2026/llm_nlp/talk_evaluate_diagnose_user-aware_agent_evaluation_with_automated_error_analysis.md
     - The Lattice Representation Hypothesis of Large Language Models: ICLR2026/llm_nlp/the_lattice_representation_hypothesis_of_large_language_models.md
@@ -152,6 +154,51 @@ nav:
     - 'TAVAE: A VAE with Adaptable Priors Explains Contextual Modulation in the Visual Cortex': ICLR2026/image_generation/tavae_a_vae_with_adaptable_priors_explains_contextual_modulation_in_the_visual_c.md
     - Training-Free Reward-Guided Image Editing via Trajectory Optimal Control: ICLR2026/image_generation/training-free_reward-guided_image_editing_via_trajectory_optimal_control.md
     - 'TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows': ICLR2026/image_generation/twinflow_realizing_one-step_generation_on_large_models_with_self-adversarial_flo.md
+  - 💡 LLM 推理 (43):
+    - 💡 LLM 推理: ICLR2026/llm_reasoning/index.md
+    - Adaptive Social Learning via Mode Policy Optimization for Language Agents: ICLR2026/llm_reasoning/adaptive_social_learning_via_mode_policy_optimization_for_language_agents.md
+    - Agentified Assessment of Logical Reasoning Agents: ICLR2026/llm_reasoning/agentified_assessment_of_logical_reasoning_agents.md
+    - 'AIMCoT: Active Information-driven Multimodal Chain-of-Thought for Vision-Language Reasoning': ICLR2026/llm_reasoning/aimcot_active_information-driven_multimodal_chain-of-thought_for_vision-language.md
+    - Annotation-Efficient Universal Honesty Alignment: ICLR2026/llm_reasoning/annotation-efficient_universal_honesty_alignment.md
+    - Are Reasoning LLMs Robust to Interventions on Their Chain-of-Thought?: ICLR2026/llm_reasoning/are_reasoning_llms_robust_to_interventions_on_their_chain-of-thought.md
+    - 'ATTS: Asynchronous Test-Time Scaling via Conformal Prediction': ICLR2026/llm_reasoning/atts_asynchronous_test-time_scaling_via_conformal_prediction.md
+    - 'Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts': ICLR2026/llm_reasoning/beyond_prompt-induced_lies_investigating_llm_deception_on_benign_prompts.md
+    - 'Compositional Generalization from Learned Skills via CoT Training: A Theoretical and Structural Analysis for Reasoning': ICLR2026/llm_reasoning/compositional_generalization_from_learned_skills_via_cot_training_a_theoretical_.md
+    - Continuous Chain of Thought Enables Parallel Exploration and Reasoning: ICLR2026/llm_reasoning/continuous_chain_of_thought_enables_parallel_exploration_and_reasoning.md
+    - 'CoT-RVS: Zero-Shot Chain-of-Thought Reasoning Segmentation for Videos': ICLR2026/llm_reasoning/cot-rvs_zero-shot_chain-of-thought_reasoning_segmentation_for_videos.md
+    - 'DAG-Math: Graph-of-Thought Guided Mathematical Reasoning in LLMs': ICLR2026/llm_reasoning/dag-math_graph-of-thought_guided_mathematical_reasoning_in_llms.md
+    - 'DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization': ICLR2026/llm_reasoning/drpo_efficient_reasoning_via_decoupled_reward_policy_optimization.md
+    - Dynamics-Predictive Sampling for Active RL Finetuning of Large Reasoning Models: ICLR2026/llm_reasoning/dynamics-predictive_sampling_for_active_rl_finetuning_of_large_reasoning_models.md
+    - 'Dynamics Within Latent Chain-of-Thought: An Empirical Study of Causal Structure': ICLR2026/llm_reasoning/dynamics_within_latent_chain-of-thought_an_empirical_study_of_causal_structure.md
+    - Estimating the Empowerment of Language Model Agents: ICLR2026/llm_reasoning/estimating_the_empowerment_of_language_model_agents.md
+    - 'FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning': ICLR2026/llm_reasoning/fastgrpo_accelerating_policy_optimization_via_concurrency-aware_speculative_deco.md
+    - 'Fine-R1: Make Multi-modal LLMs Excel in Fine-Grained Visual Recognition by Chain-of-Thought Reasoning': ICLR2026/llm_reasoning/fine-r1_make_multi-modal_llms_excel_in_fine-grained_visual_recognition_by_chain-.md
+    - 'Fixing the Broken Compass: Diagnosing and Improving Inference-Time Reward Modeling': ICLR2026/llm_reasoning/fixing_the_broken_compass_diagnosing_and_improving_inference-time_reward_modelin.md
+    - 'Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees': ICLR2026/llm_reasoning/formal_mechanistic_interpretability_automated_circuit_discovery_with_provable_gu.md
+    - 'GeoGramBench: Benchmarking the Geometric Program Reasoning in Modern LLMs': ICLR2026/llm_reasoning/geogrambench_benchmarking_the_geometric_program_reasoning_in_modern_llms.md
+    - 'Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation': ICLR2026/llm_reasoning/harder_is_better_boosting_mathematical_reasoning_via_difficulty-aware_grpo_and_m.md
+    - 'I Can''t Believe It''s Not Robust: Catastrophic Collapse of Safety Classifiers under Embedding Drift': ICLR2026/llm_reasoning/i_cant_believe_its_not_robust_catastrophic_collapse_of_safety_classifiers_under_.md
+    - 'InnoGym: Benchmarking the Innovation Potential of AI Agents': ICLR2026/llm_reasoning/innogym_benchmarking_the_innovation_potential_of_ai_agents.md
+    - 'LingOly-TOO: Disentangling Reasoning from Knowledge with Templatised Orthographic Obfuscation': ICLR2026/llm_reasoning/lingoly-too_disentangling_reasoning_from_knowledge_with_templatised_orthographic.md
+    - 'LogicReward: Incentivizing LLM Reasoning via Step-Wise Logical Supervision': ICLR2026/llm_reasoning/logicreward_incentivizing_llm_reasoning_via_step-wise_logical_supervision.md
+    - 'mR3: Multilingual Rubric-Agnostic Reward Reasoning Models': ICLR2026/llm_reasoning/mr3_multilingual_rubric-agnostic_reward_reasoning_models.md
+    - 'Native Reasoning Models: Training Language Models to Reason on Unverifiable Data': ICLR2026/llm_reasoning/native_reasoning_models_training_language_models_to_reason_on_unverifiable_data.md
+    - Nudging the Boundaries of LLM Reasoning: ICLR2026/llm_reasoning/nudging_the_boundaries_of_llm_reasoning.md
+    - On The Fragility of Benchmark Contamination Detection in Reasoning Models: ICLR2026/llm_reasoning/on_the_fragility_of_benchmark_contamination_detection_in_reasoning_models.md
+    - 'PrismAudio: Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation': ICLR2026/llm_reasoning/prismaudio_decomposed_chain-of-thoughts_and_multi-dimensional_rewards_for_video-.md
+    - Query-Level Uncertainty in Large Language Models: ICLR2026/llm_reasoning/query-level_uncertainty_in_large_language_models.md
+    - 'RFEval: Benchmarking Reasoning Faithfulness under Counterfactual Reasoning Intervention in Large Reasoning Models': ICLR2026/llm_reasoning/rfeval_benchmarking_reasoning_faithfulness_under_counterfactual_reasoning_interv.md
+    - 'SceneCOT: Eliciting Grounded Chain-of-Thought Reasoning in 3D Scenes': ICLR2026/llm_reasoning/scenecot_eliciting_grounded_chain-of-thought_reasoning_in_3d_scenes.md
+    - 'SealQA: Raising the Bar for Reasoning in Search-Augmented Language Models': ICLR2026/llm_reasoning/sealqa_raising_the_bar_for_reasoning_in_search-augmented_language_models.md
+    - Segment-Level Attribution for Selective Learning of Long Reasoning Traces: ICLR2026/llm_reasoning/segment-level_attribution_for_selective_learning_of_long_reasoning_traces.md
+    - 'The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs': ICLR2026/llm_reasoning/the_illusion_of_diminishing_returns_measuring_long_horizon_execution_in_llms.md
+    - 'TopoBench: Benchmarking LLMs on Hard Topological Reasoning': ICLR2026/llm_reasoning/topobench_benchmarking_llms_on_hard_topological_reasoning.md
+    - 'TumorChain: Interleaved Multimodal Chain-of-Thought Reasoning for Traceable Clinical Tumor Analysis': ICLR2026/llm_reasoning/tumorchain_interleaved_multimodal_chain-of-thought_reasoning_for_traceable_clini.md
+    - 'Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision': ICLR2026/llm_reasoning/uni-cot_towards_unified_chain-of-thought_reasoning_across_text_and_vision.md
+    - Verifying Chain-of-Thought Reasoning via Its Computational Graph: ICLR2026/llm_reasoning/verifying_chain-of-thought_reasoning_via_its_computational_graph.md
+    - 'When Shallow Wins: Silent Failures and the Depth-Accuracy Paradox in Latent Reasoning': ICLR2026/llm_reasoning/when_shallow_wins_silent_failures_and_the_depth-accuracy_paradox_in_latent_reaso.md
+    - 'When Thinking Backfires: Mechanistic Insights Into Reasoning-Induced Misalignment': ICLR2026/llm_reasoning/when_thinking_backfires_mechanistic_insights_into_reasoning-induced_misalignment.md
+    - Why is Your Language Model a Poor Implicit Reward Model?: ICLR2026/llm_reasoning/why_is_your_language_model_a_poor_implicit_reward_model.md
   - 🎮 强化学习 (43):
     - 🎮 强化学习: ICLR2026/reinforcement_learning/index.md
     - 'AbstRaL: Augmenting LLMs'' Reasoning by Reinforcing Abstract Thinking': ICLR2026/reinforcement_learning/abstral_augmenting_llms_reasoning_by_reinforcing_abstract_thinking.md
@@ -197,47 +244,6 @@ nav:
     - Value Flows: ICLR2026/reinforcement_learning/value_flows.md
     - 'VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models': ICLR2026/reinforcement_learning/verifybench_benchmarking_reference-based_reward_systems_for_large_language_model.md
     - 'Whatever Remains Must Be True: Filtering Drives Reasoning in LLMs, Shaping Diversity': ICLR2026/reinforcement_learning/whatever_remains_must_be_true_filtering_drives_reasoning_in_llms_shaping_diversi.md
-  - 💡 LLM 推理 (39):
-    - 💡 LLM 推理: ICLR2026/llm_reasoning/index.md
-    - Adaptive Social Learning via Mode Policy Optimization for Language Agents: ICLR2026/llm_reasoning/adaptive_social_learning_via_mode_policy_optimization_for_language_agents.md
-    - Agentified Assessment of Logical Reasoning Agents: ICLR2026/llm_reasoning/agentified_assessment_of_logical_reasoning_agents.md
-    - 'AIMCoT: Active Information-driven Multimodal Chain-of-Thought for Vision-Language Reasoning': ICLR2026/llm_reasoning/aimcot_active_information-driven_multimodal_chain-of-thought_for_vision-language.md
-    - Annotation-Efficient Universal Honesty Alignment: ICLR2026/llm_reasoning/annotation-efficient_universal_honesty_alignment.md
-    - Are Reasoning LLMs Robust to Interventions on Their Chain-of-Thought?: ICLR2026/llm_reasoning/are_reasoning_llms_robust_to_interventions_on_their_chain-of-thought.md
-    - 'ATTS: Asynchronous Test-Time Scaling via Conformal Prediction': ICLR2026/llm_reasoning/atts_asynchronous_test-time_scaling_via_conformal_prediction.md
-    - 'Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts': ICLR2026/llm_reasoning/beyond_prompt-induced_lies_investigating_llm_deception_on_benign_prompts.md
-    - 'Compositional Generalization from Learned Skills via CoT Training: A Theoretical and Structural Analysis for Reasoning': ICLR2026/llm_reasoning/compositional_generalization_from_learned_skills_via_cot_training_a_theoretical_.md
-    - Continuous Chain of Thought Enables Parallel Exploration and Reasoning: ICLR2026/llm_reasoning/continuous_chain_of_thought_enables_parallel_exploration_and_reasoning.md
-    - 'CoT-RVS: Zero-Shot Chain-of-Thought Reasoning Segmentation for Videos': ICLR2026/llm_reasoning/cot-rvs_zero-shot_chain-of-thought_reasoning_segmentation_for_videos.md
-    - 'DAG-Math: Graph-of-Thought Guided Mathematical Reasoning in LLMs': ICLR2026/llm_reasoning/dag-math_graph-of-thought_guided_mathematical_reasoning_in_llms.md
-    - 'DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization': ICLR2026/llm_reasoning/drpo_efficient_reasoning_via_decoupled_reward_policy_optimization.md
-    - Dynamics-Predictive Sampling for Active RL Finetuning of Large Reasoning Models: ICLR2026/llm_reasoning/dynamics-predictive_sampling_for_active_rl_finetuning_of_large_reasoning_models.md
-    - 'Dynamics Within Latent Chain-of-Thought: An Empirical Study of Causal Structure': ICLR2026/llm_reasoning/dynamics_within_latent_chain-of-thought_an_empirical_study_of_causal_structure.md
-    - Estimating the Empowerment of Language Model Agents: ICLR2026/llm_reasoning/estimating_the_empowerment_of_language_model_agents.md
-    - 'FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning': ICLR2026/llm_reasoning/fastgrpo_accelerating_policy_optimization_via_concurrency-aware_speculative_deco.md
-    - 'Fine-R1: Make Multi-modal LLMs Excel in Fine-Grained Visual Recognition by Chain-of-Thought Reasoning': ICLR2026/llm_reasoning/fine-r1_make_multi-modal_llms_excel_in_fine-grained_visual_recognition_by_chain-.md
-    - 'Fixing the Broken Compass: Diagnosing and Improving Inference-Time Reward Modeling': ICLR2026/llm_reasoning/fixing_the_broken_compass_diagnosing_and_improving_inference-time_reward_modelin.md
-    - 'Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees': ICLR2026/llm_reasoning/formal_mechanistic_interpretability_automated_circuit_discovery_with_provable_gu.md
-    - 'GeoGramBench: Benchmarking the Geometric Program Reasoning in Modern LLMs': ICLR2026/llm_reasoning/geogrambench_benchmarking_the_geometric_program_reasoning_in_modern_llms.md
-    - 'Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation': ICLR2026/llm_reasoning/harder_is_better_boosting_mathematical_reasoning_via_difficulty-aware_grpo_and_m.md
-    - 'I Can''t Believe It''s Not Robust: Catastrophic Collapse of Safety Classifiers under Embedding Drift': ICLR2026/llm_reasoning/i_cant_believe_its_not_robust_catastrophic_collapse_of_safety_classifiers_under_.md
-    - 'InnoGym: Benchmarking the Innovation Potential of AI Agents': ICLR2026/llm_reasoning/innogym_benchmarking_the_innovation_potential_of_ai_agents.md
-    - 'LingOly-TOO: Disentangling Reasoning from Knowledge with Templatised Orthographic Obfuscation': ICLR2026/llm_reasoning/lingoly-too_disentangling_reasoning_from_knowledge_with_templatised_orthographic.md
-    - 'LogicReward: Incentivizing LLM Reasoning via Step-Wise Logical Supervision': ICLR2026/llm_reasoning/logicreward_incentivizing_llm_reasoning_via_step-wise_logical_supervision.md
-    - 'mR3: Multilingual Rubric-Agnostic Reward Reasoning Models': ICLR2026/llm_reasoning/mr3_multilingual_rubric-agnostic_reward_reasoning_models.md
-    - Nudging the Boundaries of LLM Reasoning: ICLR2026/llm_reasoning/nudging_the_boundaries_of_llm_reasoning.md
-    - On The Fragility of Benchmark Contamination Detection in Reasoning Models: ICLR2026/llm_reasoning/on_the_fragility_of_benchmark_contamination_detection_in_reasoning_models.md
-    - 'PrismAudio: Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation': ICLR2026/llm_reasoning/prismaudio_decomposed_chain-of-thoughts_and_multi-dimensional_rewards_for_video-.md
-    - Query-Level Uncertainty in Large Language Models: ICLR2026/llm_reasoning/query-level_uncertainty_in_large_language_models.md
-    - 'RFEval: Benchmarking Reasoning Faithfulness under Counterfactual Reasoning Intervention in Large Reasoning Models': ICLR2026/llm_reasoning/rfeval_benchmarking_reasoning_faithfulness_under_counterfactual_reasoning_interv.md
-    - 'SceneCOT: Eliciting Grounded Chain-of-Thought Reasoning in 3D Scenes': ICLR2026/llm_reasoning/scenecot_eliciting_grounded_chain-of-thought_reasoning_in_3d_scenes.md
-    - 'SealQA: Raising the Bar for Reasoning in Search-Augmented Language Models': ICLR2026/llm_reasoning/sealqa_raising_the_bar_for_reasoning_in_search-augmented_language_models.md
-    - Segment-Level Attribution for Selective Learning of Long Reasoning Traces: ICLR2026/llm_reasoning/segment-level_attribution_for_selective_learning_of_long_reasoning_traces.md
-    - 'The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs': ICLR2026/llm_reasoning/the_illusion_of_diminishing_returns_measuring_long_horizon_execution_in_llms.md
-    - 'TopoBench: Benchmarking LLMs on Hard Topological Reasoning': ICLR2026/llm_reasoning/topobench_benchmarking_llms_on_hard_topological_reasoning.md
-    - 'TumorChain: Interleaved Multimodal Chain-of-Thought Reasoning for Traceable Clinical Tumor Analysis': ICLR2026/llm_reasoning/tumorchain_interleaved_multimodal_chain-of-thought_reasoning_for_traceable_clini.md
-    - Verifying Chain-of-Thought Reasoning via Its Computational Graph: ICLR2026/llm_reasoning/verifying_chain-of-thought_reasoning_via_its_computational_graph.md
-    - 'When Shallow Wins: Silent Failures and the Depth-Accuracy Paradox in Latent Reasoning': ICLR2026/llm_reasoning/when_shallow_wins_silent_failures_and_the_depth-accuracy_paradox_in_latent_reaso.md
   - 🏥 医学图像 (29):
     - 🏥 医学图像: ICLR2026/medical_imaging/index.md
     - Adaptive Domain Shift in Diffusion Models for Cross-Modality Image Translation: ICLR2026/medical_imaging/adaptive_domain_shift_in_diffusion_models_for_cross-modality_image_translation.md
@@ -297,6 +303,30 @@ nav:
     - 'Peering into the Unknown: Active View Selection with Neural Uncertainty Maps for 3D Reconstruction': ICLR2026/3d_vision/peering_into_the_unknown_active_view_selection_with_neural_uncertainty_maps_for_.md
     - Quantized Visual Geometry Grounded Transformer: ICLR2026/3d_vision/quantized_visual_geometry_grounded_transformer.md
     - Weight Space Representation Learning on Diverse NeRF Architectures: ICLR2026/3d_vision/weight_space_representation_learning_on_diverse_nerf_architectures.md
+  - 📦 模型压缩 (22):
+    - 📦 模型压缩: ICLR2026/model_compression/index.md
+    - A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA: ICLR2026/model_compression/a_fano-style_accuracy_upper_bound_for_llm_single-pass_reasoning_in_multi-hop_qa.md
+    - A Recovery Guarantee for Sparse Neural Networks: ICLR2026/model_compression/a_recovery_guarantee_for_sparse_neural_networks.md
+    - A State-Transition Framework for Efficient LLM Reasoning: ICLR2026/model_compression/a_state-transition_framework_for_efficient_llm_reasoning.md
+    - 'ABBA-Adapters: Efficient and Expressive Fine-Tuning of Foundation Models': ICLR2026/model_compression/abba-adapters_efficient_and_expressive_fine-tuning_of_foundation_models.md
+    - 'ACPBench Hard: Unrestrained Reasoning about Action, Change, and Planning': ICLR2026/model_compression/acpbench_hard_unrestrained_reasoning_about_action_change_and_planning.md
+    - 'ActivationReasoning: Logical Reasoning in Latent Activation Spaces': ICLR2026/model_compression/activationreasoning_logical_reasoning_in_latent_activation_spaces.md
+    - Adaptive Width Neural Networks: ICLR2026/model_compression/adaptive_width_neural_networks.md
+    - 'AMiD: Knowledge Distillation for LLMs with α-mixture Assistant Distribution': ICLR2026/model_compression/amid_knowledge_distillation_for_llms_with_α-mixture_assistant_distribution.md
+    - 'AnyBCQ: Hardware Efficient Flexible Binary-Coded Quantization for Multi-Precision LLMs': ICLR2026/model_compression/anybcq_hardware_efficient_flexible_binary-coded_quantization_for_multi-precision.md
+    - 'Beyond Linear Probes: Dynamic Safety Monitoring for Language Models': ICLR2026/model_compression/beyond_linear_probes_dynamic_safety_monitoring_for_language_models.md
+    - 'BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation': ICLR2026/model_compression/biasscope_towards_automated_detection_of_bias_in_llm-as-a-judge_evaluation.md
+    - Boomerang Distillation Enables Zero-Shot Model Size Interpolation: ICLR2026/model_compression/boomerang_distillation_enables_zero-shot_model_size_interpolation.md
+    - Boosting Entropy with Bell Box Quantization: ICLR2026/model_compression/boosting_entropy_with_bell_box_quantization.md
+    - 'BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning': ICLR2026/model_compression/bots_a_unified_framework_for_bayesian_online_task_selection_in_llm_reinforcement.md
+    - Compute-Optimal Quantization-Aware Training: ICLR2026/model_compression/compute-optimal_quantization-aware_training.md
+    - Cross-Domain Lossy Compression via Rate- and Classification-Constrained Optimal Transport: ICLR2026/model_compression/cross_domain_lossy_compression_optimal_transport.md
+    - Energy-Regularized Sequential Model Editing on Hyperspheres: ICLR2026/model_compression/energy-regularized_sequential_model_editing_on_hyperspheres.md
+    - 'GuidedSampling: Steering LLMs Towards Diverse Candidate Solutions at Inference-Time': ICLR2026/model_compression/guidedsampling_steering_llms_towards_diverse_candidate_solutions_at_inference-ti.md
+    - 'LD-MoLE: Learnable Dynamic Routing for Mixture of LoRA Experts': ICLR2026/model_compression/ld-mole_learnable_dynamic_routing_for_mixture_of_lora_experts.md
+    - 'PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery': ICLR2026/model_compression/paser_post-training_data_selection_for_efficient_pruned_large_language_model_rec.md
+    - Scalable Multi-Task Low-Rank Model Adaptation: ICLR2026/model_compression/scalable_multi-task_low-rank_model_adaptation.md
+    - Stress-Testing Alignment Audits With Prompt-Level Strategic Deception: ICLR2026/model_compression/stress-testing_alignment_audits_with_prompt-level_strategic_deception.md
   - 🛡️ AI 安全 (21):
     - 🛡️ AI 安全: ICLR2026/ai_safety/index.md
     - 'Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective': ICLR2026/ai_safety/adaptive_methods_are_preferable_in_high_privacy_settings_an_sde_perspective.md
@@ -320,30 +350,7 @@ nav:
     - Membership Privacy Risks of Sharpness Aware Minimization: ICLR2026/ai_safety/membership_privacy_risks_of_sharpness_aware_minimization.md
     - 'RedSage: A Cybersecurity Generalist LLM': ICLR2026/ai_safety/redsage_a_cybersecurity_generalist_llm.md
     - 'Train Once, Answer All: Many Pretraining Experiments for the Cost of One': ICLR2026/ai_safety/train_once_answer_all_many_pretraining_experiments_for_the_cost_of_one.md
-  - 📦 模型压缩 (21):
-    - 📦 模型压缩: ICLR2026/model_compression/index.md
-    - A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA: ICLR2026/model_compression/a_fano-style_accuracy_upper_bound_for_llm_single-pass_reasoning_in_multi-hop_qa.md
-    - A Recovery Guarantee for Sparse Neural Networks: ICLR2026/model_compression/a_recovery_guarantee_for_sparse_neural_networks.md
-    - A State-Transition Framework for Efficient LLM Reasoning: ICLR2026/model_compression/a_state-transition_framework_for_efficient_llm_reasoning.md
-    - 'ABBA-Adapters: Efficient and Expressive Fine-Tuning of Foundation Models': ICLR2026/model_compression/abba-adapters_efficient_and_expressive_fine-tuning_of_foundation_models.md
-    - 'ACPBench Hard: Unrestrained Reasoning about Action, Change, and Planning': ICLR2026/model_compression/acpbench_hard_unrestrained_reasoning_about_action_change_and_planning.md
-    - 'ActivationReasoning: Logical Reasoning in Latent Activation Spaces': ICLR2026/model_compression/activationreasoning_logical_reasoning_in_latent_activation_spaces.md
-    - Adaptive Width Neural Networks: ICLR2026/model_compression/adaptive_width_neural_networks.md
-    - 'AMiD: Knowledge Distillation for LLMs with α-mixture Assistant Distribution': ICLR2026/model_compression/amid_knowledge_distillation_for_llms_with_α-mixture_assistant_distribution.md
-    - 'AnyBCQ: Hardware Efficient Flexible Binary-Coded Quantization for Multi-Precision LLMs': ICLR2026/model_compression/anybcq_hardware_efficient_flexible_binary-coded_quantization_for_multi-precision.md
-    - 'Beyond Linear Probes: Dynamic Safety Monitoring for Language Models': ICLR2026/model_compression/beyond_linear_probes_dynamic_safety_monitoring_for_language_models.md
-    - 'BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation': ICLR2026/model_compression/biasscope_towards_automated_detection_of_bias_in_llm-as-a-judge_evaluation.md
-    - Boomerang Distillation Enables Zero-Shot Model Size Interpolation: ICLR2026/model_compression/boomerang_distillation_enables_zero-shot_model_size_interpolation.md
-    - Boosting Entropy with Bell Box Quantization: ICLR2026/model_compression/boosting_entropy_with_bell_box_quantization.md
-    - 'BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning': ICLR2026/model_compression/bots_a_unified_framework_for_bayesian_online_task_selection_in_llm_reinforcement.md
-    - Compute-Optimal Quantization-Aware Training: ICLR2026/model_compression/compute-optimal_quantization-aware_training.md
-    - Cross-Domain Lossy Compression via Rate- and Classification-Constrained Optimal Transport: ICLR2026/model_compression/cross_domain_lossy_compression_optimal_transport.md
-    - Energy-Regularized Sequential Model Editing on Hyperspheres: ICLR2026/model_compression/energy-regularized_sequential_model_editing_on_hyperspheres.md
-    - 'GuidedSampling: Steering LLMs Towards Diverse Candidate Solutions at Inference-Time': ICLR2026/model_compression/guidedsampling_steering_llms_towards_diverse_candidate_solutions_at_inference-ti.md
-    - 'LD-MoLE: Learnable Dynamic Routing for Mixture of LoRA Experts': ICLR2026/model_compression/ld-mole_learnable_dynamic_routing_for_mixture_of_lora_experts.md
-    - Scalable Multi-Task Low-Rank Model Adaptation: ICLR2026/model_compression/scalable_multi-task_low-rank_model_adaptation.md
-    - Stress-Testing Alignment Audits With Prompt-Level Strategic Deception: ICLR2026/model_compression/stress-testing_alignment_audits_with_prompt-level_strategic_deception.md
-  - ⚖️ 对齐 / RLHF (19):
+  - ⚖️ 对齐 / RLHF (21):
     - ⚖️ 对齐 / RLHF: ICLR2026/llm_alignment/index.md
     - 'A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models': ICLR2026/llm_alignment/a2d_any-order_any-step_safety_alignment_for_diffusion_language_models.md
     - 'Align Once, Benefit Multilingually: Enforcing Multilingual Consistency for LLM Safety Alignment': ICLR2026/llm_alignment/align_once_benefit_multilingually_enforcing_multilingual_consistency_for_llm_saf.md
@@ -358,13 +365,15 @@ nav:
     - 'Group-Relative REINFORCE Is Secretly an Off-Policy Algorithm: Demystifying Some Myths About GRPO and Its Friends': ICLR2026/llm_alignment/group-relative_reinforce_is_secretly_an_off-policy_algorithm_demystifying_some_m.md
     - Hierarchy-of-Groups Policy Optimization for Long-Horizon Agentic Tasks: ICLR2026/llm_alignment/hierarchy-of-groups_policy_optimization_for_long-horizon_agentic_tasks.md
     - 'Learning More with Less: A Dynamic Dual-Level Down-Sampling Framework for Efficient Policy Optimization': ICLR2026/llm_alignment/learning_more_with_less_a_dynamic_dual-level_down-sampling_framework_for_efficie.md
+    - Learning to Reason without External Rewards: ICLR2026/llm_alignment/learning_to_reason_without_external_rewards.md
     - Mitigating Mismatch within Reference-based Preference Optimization: ICLR2026/llm_alignment/mitigating_mismatch_within_reference-based_preference_optimization.md
+    - Mitigating the Safety Alignment Tax with Null-Space Constrained Policy Optimization: ICLR2026/llm_alignment/mitigating_the_safety_alignment_tax_with_null-space_constrained_policy_optimizat.md
     - 'Reasoned Safety Alignment: Ensuring Jailbreak Defense via Answer-Then-Check': ICLR2026/llm_alignment/reasoned_safety_alignment_ensuring_jailbreak_defense_via_answer-then-check.md
     - 'PURGE: Reinforcement Unlearning via Group Relative Policy Optimization': ICLR2026/llm_alignment/reinforcement_unlearning_via_group_relative_policy_optimization.md
     - 'SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety': ICLR2026/llm_alignment/safedpo_preference_optimization_safety.md
     - 'Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs': ICLR2026/llm_alignment/uni-dpo_a_unified_paradigm_for_dynamic_preference_optimization_of_llms.md
     - Why DPO is a Misspecified Estimator and How to Fix It: ICLR2026/llm_alignment/why_dpo_is_misspecified_estimator.md
-  - 🧩 多模态 VLM (19):
+  - 🧩 多模态 VLM (21):
     - 🧩 多模态 VLM: ICLR2026/multimodal_vlm/index.md
     - 'A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models': ICLR2026/multimodal_vlm/a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi.md
     - Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation: ICLR2026/multimodal_vlm/adaptive_debiasing_tsallis_entropy_for_test-time_adaptation.md
@@ -375,6 +384,7 @@ nav:
     - Bootstrapping MLLM for Weakly-Supervised Class-Agnostic Object Counting (WS-COC): ICLR2026/multimodal_vlm/bootstrapping_mllm_for_weakly-supervised_class-agnostic_object_counting.md
     - 'Breaking the Limits of Open-Weight CLIP: An Optimization Framework for Self-supervised Fine-tuning of CLIP': ICLR2026/multimodal_vlm/breaking_the_limits_of_open-weight_clip_an_optimization_framework_for_self-super.md
     - Cross-Modal Redundancy and the Geometry of Vision-Language Embeddings: ICLR2026/multimodal_vlm/cross-modal_redundancy_and_the_geometry_of_vision-language_embeddings.md
+    - Exploring Interpretability for Visual Prompt Tuning with Cross-layer Concepts: ICLR2026/multimodal_vlm/exploring_interpretability_for_visual_prompt_tuning_with_cross-layer_concepts.md
     - 'Grounding-IQA: Grounding Multimodal Language Models for Image Quality Assessment': ICLR2026/multimodal_vlm/grounding-iqa_grounding_multimodal_language_model_for_image_quality_assessment.md
     - 'GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models': ICLR2026/multimodal_vlm/gtr-bench_evaluating_geo-temporal_reasoning_in_vision-language_mod.md
     - 'Leveraging Data to Say No: Memory Augmented Plug-and-Play Selective Prediction': ICLR2026/multimodal_vlm/leveraging_data_to_say_no_memory_augmented_plug-and-play_selective_prediction.md
@@ -383,12 +393,14 @@ nav:
     - 'PoSh: Using Scene Graphs To Guide LLMs-as-a-Judge For Detailed Image Descriptions': ICLR2026/multimodal_vlm/posh_using_scene_graphs_to_guide_llms-as-a-judge_for_detailed_image_descriptions.md
     - 'RAVENEA: A Benchmark for Multimodal Retrieval-Augmented Visual Culture Understanding': ICLR2026/multimodal_vlm/ravenea_a_benchmark_for_multimodal_retrieval-augmented_visual_culture_understand.md
     - 'Shuffle-R1: Efficient RL Framework for Multimodal Large Language Models via Data-centric Dynamic Shuffle': ICLR2026/multimodal_vlm/shuffle-r1_efficient_rl_framework_for_multimodal_large_language_models_via_data-.md
+    - 'SpatiaLab: Can Vision-Language Models Perform Spatial Reasoning in the Wild?': ICLR2026/multimodal_vlm/spatialab_can_vision-language_models_perform_spatial_reasoning_in_the_wild.md
     - 'ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding': ICLR2026/multimodal_vlm/thinkomni_lifting_textual_reasoning_to_omni-modal_scenarios_via_guidance_decodin.md
     - 'Visual Symbolic Mechanisms: Emergent Symbol Processing in Vision Language Models': ICLR2026/multimodal_vlm/visual_symbolic_mechanisms_vlm.md
-  - ⚡ LLM 效率 (16):
+  - ⚡ LLM 效率 (18):
     - ⚡ LLM 效率: ICLR2026/llm_efficiency/index.md
     - 'Bayesian Attention Mechanism: A Probabilistic Framework for Positional Encoding and Context Length Extrapolation': ICLR2026/llm_efficiency/bayesian_attention_mechanism_a_probabilistic_framework_for_positional_encoding_a.md
     - 'Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding': ICLR2026/llm_efficiency/beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md
+    - 'd²Cache: Accelerating Diffusion-Based LLMs via Dual Adaptive Caching': ICLR2026/llm_efficiency/d2cache_accelerating_diffusion-based_llms_via_dual_adaptive_caching.md
     - Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents: ICLR2026/llm_efficiency/did_you_check_the_right_pocket_cost-sensitive_store_routing_for_memory-augmented.md
     - 'EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models': ICLR2026/llm_efficiency/evoengineer_mastering_automated_cuda_kernel_code_evolution_with_large_language_m.md
     - Expert Divergence Learning for MoE-based Language Models: ICLR2026/llm_efficiency/expert_divergence_learning_for_moe-based_language_models.md
@@ -400,6 +412,7 @@ nav:
     - 'Rethinking Uncertainty Estimation in LLMs: A Principled Single-Sequence Measure': ICLR2026/llm_efficiency/rethinking_uncertainty_estimation_in_llms_a_principled_single-sequence_measure.md
     - 'Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling': ICLR2026/llm_efficiency/semantic_parallelism_redefining_efficient_moe_inference_via_model-data_co-schedu.md
     - 'SwingArena: Adversarial Programming Arena for Long-context GitHub Issue Solving': ICLR2026/llm_efficiency/swingarena_competitive_programming_arena_for_long-context_github_issue_solving.md
+    - Understanding and Improving Length Generalization in Hierarchical Sparse Attention Models: ICLR2026/llm_efficiency/understanding_and_improving_length_generalization_in_hierarchical_sparse_attenti.md
     - 'Universe Routing: Why Self-Evolving Agents Need Epistemic Control': ICLR2026/llm_efficiency/universe_routing_why_self-evolving_agents_need_epistemic_control.md
     - When Does Divide and Conquer Work for Long Context LLM? A Noise Decomposition Framework: ICLR2026/llm_efficiency/when_does_divide_and_conquer_work_for_long_context_llm_a_noise_decomposition_fra.md
     - 'xLSTM Scaling Laws: Competitive Performance with Linear Time-Complexity': ICLR2026/llm_efficiency/xlstm_scaling_laws_competitive_performance_with_linear_time-complexity.md
@@ -441,6 +454,23 @@ nav:
     - 'THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning': ICLR2026/robotics/thor_tool-integrated_hierarchical_optimization_via_rl_for_mathematical_reasoning.md
     - Tracing and Reversing Edits in LLMs: ICLR2026/robotics/tracing_and_reversing_edits_in_llms.md
     - 'Visual Planning: Let''s Think Only with Images': ICLR2026/robotics/visual_planning_lets_think_only_with_images.md
+  - 🦾 LLM Agent (15):
+    - 🦾 LLM Agent: ICLR2026/llm_agent/index.md
+    - A Benchmark for Deep Information Synthesis (DeepSynth): ICLR2026/llm_agent/a_benchmark_for_deep_information_synthesis.md
+    - 'Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models': ICLR2026/llm_agent/agentic_context_engineering_evolving_contexts_for_self-improving_language_models.md
+    - 'AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents': ICLR2026/llm_agent/agentsynth_scalable_task_generation_for_generalist_computer-use_agents.md
+    - 'Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering': ICLR2026/llm_agent/ambig-swe_interactive_agents_to_overcome_underspecificity_in_software_engineerin.md
+    - 'ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents': ICLR2026/llm_agent/chatinject_abusing_chat_templates_for_prompt_injection_in_llm_agents.md
+    - Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization: ICLR2026/llm_agent/exploratory_memory-augmented_llm_agent_via_hybrid_on-_and_off-policy_optimizatio.md
+    - 'FeatureBench: Benchmarking Agentic Coding for Complex Feature Development': ICLR2026/llm_agent/featurebench_benchmarking_agentic_coding_for_complex_feature_development.md
+    - 'Inherited Goal Drift: Contextual Pressure Can Undermine Agentic Goals': ICLR2026/llm_agent/inherited_goal_drift_contextual_pressure_can_undermine_agentic_goals.md
+    - 'Judge Reliability Harness: Stress Testing the Reliability of LLM Judges': ICLR2026/llm_agent/judge_reliability_harness_stress_testing_the_reliability_of_llm_judges.md
+    - 'MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains': ICLR2026/llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_lon.md
+    - 'RefTool: Reference-Guided Tool Creation for Knowledge-Intensive Reasoning': ICLR2026/llm_agent/reftool_reference-guided_tool_creation_for_knowledge-intensive_reasoning.md
+    - 'Solving the Granularity Mismatch: Hierarchical Preference Learning for Long-Horizon LLM Agents': ICLR2026/llm_agent/solving_the_granularity_mismatch_hierarchical_preference_learning_for_long-horiz.md
+    - The Limits of Long-Context Reasoning in Automated Bug Fixing: ICLR2026/llm_agent/the_limits_of_long-context_reasoning_in_automated_bug_fixing.md
+    - 'ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning': ICLR2026/llm_agent/tooltree_efficient_llm_agent_tool_planning_via_dual-feedback_monte_carlo_tree_se.md
+    - 'ZeroDayBench: Evaluating LLM Agents on Unseen Zero-Day Vulnerabilities for Cyberdefense': ICLR2026/llm_agent/zerodaybench_evaluating_llm_agents_on_unseen_zero-day_vulnerabilities_for_cyberd.md
   - 🚗 自动驾驶 (14):
     - 🚗 自动驾驶: ICLR2026/autonomous_driving/index.md
     - 'SMART-R1: Advancing Multi-agent Traffic Simulation via R1-Style Reinforcement Fine-Tuning': ICLR2026/autonomous_driving/advancing_multi-agent_traffic_simulation_via_r1-style_reinforcement_fine-tuning.md
@@ -457,21 +487,25 @@ nav:
     - 'SPACeR: Self-Play Anchoring with Centralized Reference Models': ICLR2026/autonomous_driving/spacer_self-play_anchoring_with_centralized_reference_models.md
     - 'ST4VLA: Spatially Guided Training for Vision-Language-Action Models': ICLR2026/autonomous_driving/st4vla_spatially_guided_training_for_vision-language-action_models.md
     - Steerable Adversarial Scenario Generation through Test-Time Preference Alignment (SAGE): ICLR2026/autonomous_driving/steerable_adversarial_scenario_generation_through_test-time_preference_alignment.md
-  - 🦾 LLM Agent (13):
-    - 🦾 LLM Agent: ICLR2026/llm_agent/index.md
-    - A Benchmark for Deep Information Synthesis (DeepSynth): ICLR2026/llm_agent/a_benchmark_for_deep_information_synthesis.md
-    - 'Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models': ICLR2026/llm_agent/agentic_context_engineering_evolving_contexts_for_self-improving_language_models.md
-    - 'AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents': ICLR2026/llm_agent/agentsynth_scalable_task_generation_for_generalist_computer-use_agents.md
-    - 'Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering': ICLR2026/llm_agent/ambig-swe_interactive_agents_to_overcome_underspecificity_in_software_engineerin.md
-    - 'ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents': ICLR2026/llm_agent/chatinject_abusing_chat_templates_for_prompt_injection_in_llm_agents.md
-    - 'FeatureBench: Benchmarking Agentic Coding for Complex Feature Development': ICLR2026/llm_agent/featurebench_benchmarking_agentic_coding_for_complex_feature_development.md
-    - 'Inherited Goal Drift: Contextual Pressure Can Undermine Agentic Goals': ICLR2026/llm_agent/inherited_goal_drift_contextual_pressure_can_undermine_agentic_goals.md
-    - 'Judge Reliability Harness: Stress Testing the Reliability of LLM Judges': ICLR2026/llm_agent/judge_reliability_harness_stress_testing_the_reliability_of_llm_judges.md
-    - 'MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains': ICLR2026/llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_lon.md
-    - 'RefTool: Reference-Guided Tool Creation for Knowledge-Intensive Reasoning': ICLR2026/llm_agent/reftool_reference-guided_tool_creation_for_knowledge-intensive_reasoning.md
-    - 'Solving the Granularity Mismatch: Hierarchical Preference Learning for Long-Horizon LLM Agents': ICLR2026/llm_agent/solving_the_granularity_mismatch_hierarchical_preference_learning_for_long-horiz.md
-    - The Limits of Long-Context Reasoning in Automated Bug Fixing: ICLR2026/llm_agent/the_limits_of_long-context_reasoning_in_automated_bug_fixing.md
-    - 'ZeroDayBench: Evaluating LLM Agents on Unseen Zero-Day Vulnerabilities for Cyberdefense': ICLR2026/llm_agent/zerodaybench_evaluating_llm_agents_on_unseen_zero-day_vulnerabilities_for_cyberd.md
+  - 🔄 自监督/表示学习 (14):
+    - 🔄 自监督/表示学习: ICLR2026/self_supervised/index.md
+    - 'Decoupling Dynamical Richness from Representation Learning: Towards Practical Measurement': ICLR2026/self_supervised/decoupling_dynamical_richness_from_representation_learning_towards_practical_mea.md
+    - 'Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective': ICLR2026/self_supervised/difficult_examples_hurt_unsupervised_contrastive_learning_a_theoretical_perspect.md
+    - Enhancing Molecular Property Predictions by Learning from Bond Modelling and Interactions: ICLR2026/self_supervised/enhancing_molecular_property_predictions_by_learning_from_bond_modelling_and_int.md
+    - ? 'Fly-CL: A Fly-Inspired Framework for Enhancing Efficient Decorrelation and
+        Reduced Training Time in Pre-trained Model-based Continual Representation
+        Learning'
+      : ICLR2026/self_supervised/fly-cl_a_fly-inspired_framework_for_enhancing_efficient_decorrelation_and_reduce.md
+    - 'G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge': ICLR2026/self_supervised/g-reasoner_foundation_models_for_unified_reasoning_over_graph-structured_knowled.md
+    - Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models: ICLR2026/self_supervised/gradient-sign_masking_for_task_vector_transport_across_pre-trained_models.md
+    - InfoNCE Induces Gaussian Distribution: ICLR2026/self_supervised/infonce_induces_gaussian_distribution.md
+    - 'No Other Representation Component Is Needed: Diffusion Transformers Can Provide Representation Guidance by Themselves': ICLR2026/self_supervised/no_other_representation_component_is_needed_diffusion_transformers_can_provide_r.md
+    - 'PICS: Pairwise Image Compositing with Spatial Interactions': ICLR2026/self_supervised/pics_pairwise_image_compositing_with_spatial_interactions.md
+    - 'PonderLM: Pretraining Language Models to Ponder in Continuous Space': ICLR2026/self_supervised/ponderlm_pretraining_language_models_to_ponder_in_continuous_space.md
+    - 'Revela: Dense Retriever Learning via Language Modeling': ICLR2026/self_supervised/revela_dense_retriever_learning_via_language_modeling.md
+    - Temporal Slowness in Central Vision Drives Semantic Object Learning: ICLR2026/self_supervised/temporal_slowness_in_central_vision_drives_semantic_object_learning.md
+    - 'Weak-SIGReg: Covariance Regularization for Stable Deep Learning': ICLR2026/self_supervised/weak-sigreg_covariance_regularization_for_stable_deep_learning.md
+    - 'Why Prototypes Collapse: Diagnosing and Preventing Partial Collapse in Prototypical Self-Supervised Learning': ICLR2026/self_supervised/why_prototypes_collapse_diagnosing_and_preventing_partial_collapse_in_prototypic.md
   - 📐 优化/理论 (13):
     - 📐 优化/理论: ICLR2026/optimization/index.md
     - Adaptive Rollout Allocation for Online RL with Verifiable Rewards (VIP): ICLR2026/optimization/adaptive_rollout_allocation_for_online_reinforcement_learning_with_verifiable_re.md
@@ -540,6 +574,26 @@ nav:
     - Graph Tokenization for Bridging Graphs and Transformers: ICLR2026/graph_learning/graph_tokenization_for_bridging_graphs_and_transformers.md
     - 'Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding': ICLR2026/graph_learning/pairwise_is_not_enough_hypergraph_neural_networks_for_multi-agent_pathfinding.md
     - 'Structurally Human, Semantically Biased: Detecting LLM-Generated References with Embeddings and GNNs': ICLR2026/graph_learning/structurally_human_semantically_biased_detecting_llm-generated_references_with_e.md
+  - 🎁 推荐系统 (8):
+    - 🎁 推荐系统: ICLR2026/recommender/index.md
+    - 'C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems': ICLR2026/recommender/c2al_cohort-contrastive_auxiliary_learning_for_large-scale_recommendation_system.md
+    - 'From Evaluation to Defense: Advancing Safety in Video Large Language Models': ICLR2026/recommender/from_evaluation_to_defense_advancing_safety_in_video_large_language_models.md
+    - 'GoalRank: Group-Relative Optimization for a Large Ranking Model': ICLR2026/recommender/goalrank_group-relative_optimization_for_a_large_ranking_model.md
+    - 'ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation': ICLR2026/recommender/propersim_developing_proactive_and_personalized_ai_assistants_through_user-assis.md
+    - 'RAE: A Neural Network Dimensionality Reduction Method for Nearest Neighbors Preservation in Vector Search': ICLR2026/recommender/rae_a_neural_network_dimensionality_reduction_method_for_nearest_neighbors_prese.md
+    - Rejuvenating Cross-Entropy Loss in Knowledge Distillation for Recommender Systems: ICLR2026/recommender/rejuvenating_cross-entropy_loss_in_knowledge_distillation_for_recommender_system.md
+    - 'Search Arena: Analyzing Search-Augmented LLMs': ICLR2026/recommender/search_arena_analyzing_search-augmented_llms.md
+    - Token-Efficient Item Representation via Images for LLM Recommender Systems: ICLR2026/recommender/token-efficient_item_representation_via_images_for_llm_recommender_systems.md
+  - 🧮 科学计算 (8):
+    - 🧮 科学计算: ICLR2026/scientific_computing/index.md
+    - 'Astral: Training Physics-Informed Neural Networks with Error Majorants': ICLR2026/scientific_computing/astral_training_physics-informed_neural_networks_with_error_majorants.md
+    - Deep Learning for Subspace Regression: ICLR2026/scientific_computing/deep_learning_for_subspace_regression.md
+    - 'DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning': ICLR2026/scientific_computing/drift-net_a_spectral--coupled_neural_operator_for_pdes_learning.md
+    - Empirical Stability Analysis of Kolmogorov-Arnold Networks in Hard-Constrained Recurrent Physics-Informed Discovery: ICLR2026/scientific_computing/empirical_stability_analysis_of_kolmogorov-arnold_networks_in_hard-constrained_r.md
+    - 'HyperKKL: Enabling Non-Autonomous State Estimation through Dynamic Weight Conditioning': ICLR2026/scientific_computing/hyperkkl_enabling_non-autonomous_state_estimation_through_dynamic_weight_conditi.md
+    - Learning-guided Kansa Collocation for Forward and Inverse PDE Problems: ICLR2026/scientific_computing/learning-guided_kansa_collocation_for_forward_and_inverse_pde_problems.md
+    - One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural PDE Solvers: ICLR2026/scientific_computing/one_operator_to_rule_them_all_on_boundary-indexed_operator_families_in_neural_pd.md
+    - Policy myopia as a mechanism of gradual disempowerment in Post-AGI governance, Circa 2049: ICLR2026/scientific_computing/policy_myopia_as_a_mechanism_of_gradual_disempowerment_in_post-agi_governance_ci.md
   - 🎵 音频/语音 (7):
     - 🎵 音频/语音: ICLR2026/audio_speech/index.md
     - 'AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer': ICLR2026/audio_speech/ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer.md
@@ -549,6 +603,15 @@ nav:
     - 'MMSU: A Massive Multi-task Spoken Language Understanding and Reasoning Benchmark': ICLR2026/audio_speech/mmsu_a_massive_multi-task_spoken_language_understanding_and_reasoning_benchmark.md
     - Query-Guided Spatial-Temporal-Frequency Interaction for Music Audio-Visual Question Answering: ICLR2026/audio_speech/query-guided_spatial-temporal-frequency_interaction_for_music_audio-visual_quest.md
     - 'RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments': ICLR2026/audio_speech/redteamcua_adversarial_testing_agents.md
+  - 📡 信号/通信 (7):
+    - 📡 信号/通信: ICLR2026/signal_comm/index.md
+    - 'FASA: Frequency-aware Sparse Attention': ICLR2026/signal_comm/fasa_frequency-aware_sparse_attention.md
+    - Group Representational Position Encoding (GRAPE): ICLR2026/signal_comm/group_representational_position_encoding.md
+    - Learning Molecular Chirality via Chiral Determinant Kernels: ICLR2026/signal_comm/learning_molecular_chirality_via_chiral_determinant_kernels.md
+    - 'Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies': ICLR2026/signal_comm/multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md
+    - 'Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional': ICLR2026/signal_comm/multi-modal_data_spectrum_multi-modal_datasets_are_multi-dimensional.md
+    - 'SALVE: Sparse Autoencoder-Latent Vector Editing for Mechanistic Control of Neural Networks': ICLR2026/signal_comm/salve_sparse_autoencoder-latent_vector_editing_for_mechanistic_control_of_neural.md
+    - 'Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability': ICLR2026/signal_comm/spectrum_tuning_post-training_for_distributional_coverage_and_in-context_steerab.md
   - 🔗 因果推理 (6):
     - 🔗 因果推理: ICLR2026/causal_inference/index.md
     - Action-Guided Attention for Video Action Anticipation: ICLR2026/causal_inference/action-guided_attention_for_video_action_anticipation.md
@@ -579,11 +642,6 @@ nav:
     - 'CLARC: C/C++ Benchmark for Robust Code Search': ICLR2026/aigc_detection/clarc_cc_benchmark_for_robust_code_search.md
     - 'DMAP: A Distribution Map for Text': ICLR2026/aigc_detection/dmap_a_distribution_map_for_text.md
     - 'PoliCon: Evaluating LLMs on Achieving Diverse Political Consensus Objectives': ICLR2026/aigc_detection/policon_evaluating_llms_on_achieving_diverse_political_consensus_objectives.md
-  - 🎁 推荐系统 (3):
-    - 🎁 推荐系统: ICLR2026/recommender/index.md
-    - 'GoalRank: Group-Relative Optimization for a Large Ranking Model': ICLR2026/recommender/goalrank_group-relative_optimization_for_a_large_ranking_model.md
-    - 'ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation': ICLR2026/recommender/propersim_developing_proactive_and_personalized_ai_assistants_through_user-assis.md
-    - Token-Efficient Item Representation via Images for LLM Recommender Systems: ICLR2026/recommender/token-efficient_item_representation_via_images_for_llm_recommender_systems.md
   - ✍️ 文本生成 (2):
     - ✍️ 文本生成: ICLR2026/nlp_generation/index.md
     - 'AP-OOD: Attention Pooling for Out-of-Distribution Detection': ICLR2026/nlp_generation/ap-ood_attention_pooling_for_out-of-distribution_detection.md
@@ -596,20 +654,9 @@ nav:
     - 🛰️ 遥感: ICLR2026/remote_sensing/index.md
     - 'AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild': ICLR2026/remote_sensing/autofly_vision-language-action_model_for_uav_autonomous_navigation_in_the_wild.md
     - Task-free Adaptive Meta Black-box Optimization: ICLR2026/remote_sensing/task-free_adaptive_meta_black-box_optimization.md
-  - 🧮 科学计算 (2):
-    - 🧮 科学计算: ICLR2026/scientific_computing/index.md
-    - 'Astral: Training Physics-Informed Neural Networks with Error Majorants': ICLR2026/scientific_computing/astral_training_physics-informed_neural_networks_with_error_majorants.md
-    - Learning-guided Kansa Collocation for Forward and Inverse PDE Problems: ICLR2026/scientific_computing/learning-guided_kansa_collocation_for_forward_and_inverse_pde_problems.md
-  - 📡 信号/通信 (2):
-    - 📡 信号/通信: ICLR2026/signal_comm/index.md
-    - Group Representational Position Encoding (GRAPE): ICLR2026/signal_comm/group_representational_position_encoding.md
-    - 'Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies': ICLR2026/signal_comm/multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md
   - ⚛️ 物理学 (1):
     - ⚛️ 物理学: ICLR2026/physics/index.md
     - Sublinear Time Quantum Algorithm for Attention Approximation: ICLR2026/physics/sublinear_time_quantum_algorithm_for_attention_approximation.md
-  - 🔄 自监督/表示学习 (1):
-    - 🔄 自监督/表示学习: ICLR2026/self_supervised/index.md
-    - 'Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective': ICLR2026/self_supervised/difficult_examples_hurt_unsupervised_contrastive_learning_a_theoretical_perspect.md
   - 📂 其他 (51):
     - 📂 其他: ICLR2026/others/index.md
     - A Federated Generalized Expectation-Maximization Algorithm for Mixture Models with an Unknown Number of Components: ICLR2026/others/a_federated_generalized_expectation-maximization_algorithm_for_mixture_models_wi.md
@@ -665,7 +712,7 @@ nav:
     - 'The Hot Mess of AI: How Does Misalignment Scale With Model Intelligence and Task Complexity?': ICLR2026/others/the_hot_mess_of_ai_how_does_misalignment_scale_with_model_intelligence_and_task_.md
 - 🧠 NeurIPS2025:
   - NeurIPS2025: NeurIPS2025/index.md
-  - 💡 LLM 推理 (59):
+  - 💡 LLM 推理 (60):
     - 💡 LLM 推理: NeurIPS2025/llm_reasoning/index.md
     - 'AbbIE: Autoregressive Block-Based Iterative Encoder for Efficient Sequence Modeling': NeurIPS2025/llm_reasoning/abbie_autoregressive_block-based_iterative_encoder_for_efficient_sequence_modeli.md
     - 'Adaptive Dual Reasoner: Large Reasoning Models Can Think Efficiently by Hybrid Reasoning': NeurIPS2025/llm_reasoning/adaptive_dual_reasoner_large_reasoning_models_can_think_efficiently_by_hybrid_re.md
@@ -725,6 +772,7 @@ nav:
     - 'The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness': NeurIPS2025/llm_reasoning/the_hawthorne_effect_in_reasoning_models_evaluating_and_steering_test_awareness.md
     - 'The Virtues of Brevity: Avoid Overthinking in Parallel Test-Time Reasoning': NeurIPS2025/llm_reasoning/the_virtues_of_brevity_avoid_overthinking_in_parallel_test-time_reasoning.md
     - 'TIME: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios': NeurIPS2025/llm_reasoning/time_a_multilevel_benchmark_for_temporal_reasoning_of_llms_i.md
+    - 'Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties': NeurIPS2025/llm_reasoning/topology_of_reasoning_understanding_large_reasoning_models_through_reasoning_gra.md
     - Towards Thinking-Optimal Scaling of Test-Time Compute for LLM Reasoning: NeurIPS2025/llm_reasoning/towards_thinking-optimal_scaling_of_test-time_compute_for_llm_reasoning.md
     - Unlabeled Data Can Provably Enhance In-Context Learning of Transformers: NeurIPS2025/llm_reasoning/unlabeled_data_can_provably_enhance_in-context_learning_of_transformers.md
     - Unlocking Multimodal Mathematical Reasoning via Process Reward Model: NeurIPS2025/llm_reasoning/unlocking_multimodal_mathematical_reasoning_via_process_reward_model.md
@@ -839,8 +887,8 @@ nav:
     - Continual Knowledge Adaptation For Reinforcement Learning: NeurIPS2025/reinforcement_learning/continual_knowledge_adaptation_for_reinforcement_learning.md
     - Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation: NeurIPS2025/reinforcement_learning/decoderhybriddecoder_architecture_for_efficient_reasoning_wi.md
     - Hybrid Latent Reasoning via Reinforcement Learning: NeurIPS2025/reinforcement_learning/hybrid_latent_reasoning_via_reinforcement_learning.md
-    - Interactive And Hybrid Imitation Learning Provably Beating Behavior Cloning: NeurIPS2025/reinforcement_learning/interactive_and_hybrid_imitation_learning_provably_beating_behavior_cloning.md
-    - 'Inverse Optimization Latent Variable Models For Learning Costs Applied To Route ': NeurIPS2025/reinforcement_learning/inverse_optimization_latent_variable_models_for_learning_costs_applied_to_route_.md
+    - 'Interactive and Hybrid Imitation Learning: Provably Beating Behavior Cloning': NeurIPS2025/reinforcement_learning/interactive_and_hybrid_imitation_learning_provably_beating_behavior_cloning.md
+    - Inverse Optimization Latent Variable Models for Learning Costs Applied to Route Problems: NeurIPS2025/reinforcement_learning/inverse_optimization_latent_variable_models_for_learning_costs_applied_to_route_.md
     - Last Iterate Convergence In Monotone Mean Field Games: NeurIPS2025/reinforcement_learning/last_iterate_convergence_in_monotone_mean_field_games.md
     - Learning Interactive World Model for Object-Centric Reinforcement Learning: NeurIPS2025/reinforcement_learning/learning_interactive_world_model_for_object-centric_reinforcement_learning.md
     - Learning Memory-Enhanced Improvement Heuristics For Flexible Job Shop Scheduling: NeurIPS2025/reinforcement_learning/learning_memory-enhanced_improvement_heuristics_for_flexible_job_shop_scheduling.md
@@ -859,7 +907,7 @@ nav:
     - Training Language Models to Reason Efficiently: NeurIPS2025/reinforcement_learning/training_language_models_to_reason_efficiently.md
     - 'VolleyBots: A Testbed for Multi-Drone Volleyball Game Combining Motion Control and Strategic Play': NeurIPS2025/reinforcement_learning/volleybots_a_testbed_for_multi-drone_volleyball_game_combining_motion_control_an.md
     - Zero-Shot Context Generalization In Reinforcement Learning From Few Training Con: NeurIPS2025/reinforcement_learning/zero-shot_context_generalization_in_reinforcement_learning_from_few_training_con.md
-  - 💬 LLM / NLP (32):
+  - 💬 LLM / NLP (35):
     - 💬 LLM / NLP: NeurIPS2025/llm_nlp/index.md
     - 'AceSearcher: Bootstrapping Reasoning and Search for LLMs via Reinforced Self-Play': NeurIPS2025/llm_nlp/acesearcher_bootstrapping_reasoning_and_search_for_llms_via_reinforced_self-play.md
     - Active Slice Discovery in Large Language Models: NeurIPS2025/llm_nlp/active_slice_discovery_in_large_language_models.md
@@ -870,6 +918,7 @@ nav:
     - Are Language Models Efficient Reasoners? A Perspective from Logic Programming: NeurIPS2025/llm_nlp/are_language_models_efficient_reasoners_a_perspective_from_logic_programming.md
     - Belief-Calibrated Multi-Agent Consensus Seeking for Complex NLP Tasks: NeurIPS2025/llm_nlp/belief-calibrated_multi-agent_consensus_seeking_for_complex_nlp_tasks.md
     - 'Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits': NeurIPS2025/llm_nlp/beyond_components_singular_vector-based_interpretability_of_transformer_circuits.md
+    - 'Beyond the Singular: Revealing the Value of Multiple Generations in Benchmark Evaluation': NeurIPS2025/llm_nlp/beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md
     - 'CAT: Circular-Convolutional Attention for Sub-Quadratic Transformers': NeurIPS2025/llm_nlp/cat_circular-convolutional_attention_for_sub-quadratic_transformers.md
     - 'CBMAS: Cognitive Behavioral Modeling via Activation Steering': NeurIPS2025/llm_nlp/cbmas_cognitive_behavioral_modeling_via_activation_steering.md
     - 'CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance': NeurIPS2025/llm_nlp/codeassistbench_cab_dataset_benchmarking_for_multi-turn_chat-based_code_assistan.md
@@ -893,9 +942,11 @@ nav:
     - Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models: NeurIPS2025/llm_nlp/retrospective_incontext_learning_for_temporal_credit_assignm.md
     - Scaling Embedding Layers in Language Models: NeurIPS2025/llm_nlp/scaling_embedding_layers_in_language_models.md
     - 'Sloth: Scaling Laws for LLM Skills to Predict Multi-Benchmark Performance Across Families': NeurIPS2025/llm_nlp/sloth_scaling_laws_for_llm_skills_to_predict_multi-benchmark_performance_across_.md
+    - The Trilemma of Truth in Large Language Models: NeurIPS2025/llm_nlp/the_trilemma_of_truth_in_large_language_models.md
     - Unifying Attention Heads and Task Vectors via Hidden State Geometry in In-Context Learning: NeurIPS2025/llm_nlp/unifying_attention_heads_and_task_vectors_via_hidden_state_geometry_in_in-contex.md
+    - 'What One Cannot, Two Can: Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains': NeurIPS2025/llm_nlp/what_one_cannot_two_can_two-layer_transformers_provably_represent_induction_head.md
     - 'Yggdrasil: 桥接动态投机和静态运行时的延迟最优树型LLM解码': NeurIPS2025/llm_nlp/yggdrasil_bridging_dynamic_speculation_and_static_runtime_for_latency-optimal_tr.md
-  - ⚡ LLM 效率 (27):
+  - ⚡ LLM 效率 (29):
     - ⚡ LLM 效率: NeurIPS2025/llm_efficiency/index.md
     - 3-Model Speculative Decoding (PyramidSD): NeurIPS2025/llm_efficiency/3model_speculative_decoding.md
     - A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings: NeurIPS2025/llm_efficiency/a_multitask_benchmark_for_abusive_language_detection_in_lowr.md
@@ -913,6 +964,7 @@ nav:
     - 'Hierarchical Balance Packing: Towards Efficient Supervised Fine-tuning for Long-Context LLM': NeurIPS2025/llm_efficiency/hierarchical_balance_packing_towards_efficient_supervised_fine-tuning_for_long-c.md
     - 'HiFi-RAG: Hierarchical Content Filtering and Two-Pass Generation for Open-Domain RAG': NeurIPS2025/llm_efficiency/hifi-rag_hierarchical_content_filtering_and_two-pass_generation_for_open-domain_.md
     - 'HyGen: Efficient LLM Serving via Elastic Online-Offline Request Co-location': NeurIPS2025/llm_efficiency/hygen_efficient_llm_serving_via_elastic_online-offline_request_co-location.md
+    - 'L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models': NeurIPS2025/llm_efficiency/l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md
     - Learning in Compact Spaces with Approximately Normalized Transformer: NeurIPS2025/llm_efficiency/learning_in_compact_spaces_with_approximately_normalized_transformer.md
     - Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs: NeurIPS2025/llm_efficiency/long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md
     - On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks: NeurIPS2025/llm_efficiency/on_the_expressive_power_of_mixture-of-experts_for_structured_complex_tasks.md
@@ -921,10 +973,11 @@ nav:
     - 上下文学习中的技术债务：长序列中的递减效率: NeurIPS2025/llm_efficiency/technical_debt_in_in-context_learning_diminishing_efficiency_in_long_context.md
     - Tensor Product Attention Is All You Need: NeurIPS2025/llm_efficiency/tensor_product_attention_is_all_you_need.md
     - The Emergence Of Sparse Attention Impact Of Data Distribution And Benefits Of Re: NeurIPS2025/llm_efficiency/the_emergence_of_sparse_attention_impact_of_data_distribution_and_benefits_of_re.md
+    - 'Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels': NeurIPS2025/llm_efficiency/tiled_flash_linear_attention_more_efficient_linear_rnn_and_xlstm_kernels.md
     - 'UMoE: Unifying Attention and FFN with Shared Experts': NeurIPS2025/llm_efficiency/umoe_unifying_attention_and_ffn_with_shared_experts.md
     - Vocabulary Customization For Efficient Domain-Specific Llm Deployment: NeurIPS2025/llm_efficiency/vocabulary_customization_for_efficient_domain-specific_llm_deployment.md
     - 'ZeroS: Zero-Sum Linear Attention for Efficient Transformers': NeurIPS2025/llm_efficiency/zeros_zero-sum_linear_attention_for_efficient_transformers.md
-  - 🦾 LLM Agent (23):
+  - 🦾 LLM Agent (25):
     - 🦾 LLM Agent: NeurIPS2025/llm_agent/index.md
     - 'A-MEM: Agentic Memory for LLM Agents': NeurIPS2025/llm_agent/a-mem_agentic_memory_for_llm_agents.md
     - A Self-Improving Coding Agent: NeurIPS2025/llm_agent/a_selfimproving_coding_agent.md
@@ -943,9 +996,11 @@ nav:
     - Distilling LLM Agent into Small Models with Retrieval and Code Tools: NeurIPS2025/llm_agent/distilling_llm_agent_into_small_models_with_retrieval_and_co.md
     - 'DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents': NeurIPS2025/llm_agent/drift_dynamic_rulebased_defense_with_injection_isolation_for.md
     - Evaluating LLMs in Open-Source Games: NeurIPS2025/llm_agent/evaluating_llms_in_open-source_games.md
+    - 'Ground-Compose-Reinforce: Grounding Language in Agentic Behaviours using Limited Data': NeurIPS2025/llm_agent/ground-compose-reinforce_grounding_language_in_agentic_behaviours_using_limited_.md
     - Group-in-Group Policy Optimization for LLM Agent Training: NeurIPS2025/llm_agent/groupingroup_policy_optimization_for_llm_agent_training.md
     - It's LIT! Reliability-Optimized LLMs with Inspectable Tools: NeurIPS2025/llm_agent/its_lit_reliability-optimized_llms_with_inspectable_tools.md
     - 'Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve': NeurIPS2025/llm_agent/lessons_learned_a_multi-agent_framework_for_code_llms_to_learn_and_improve.md
+    - Out of Control -- Why Alignment Needs Formal Control Theory (and an Alignment Control Stack): NeurIPS2025/llm_agent/out_of_control_--_why_alignment_needs_formal_control_theory_and_an_alignment_con.md
     - 'SuffixDecoding: Extreme Speculative Decoding for Emerging AI Applications': NeurIPS2025/llm_agent/suffixdecoding_extreme_speculative_decoding_for_emerging_ai_applications.md
     - T1 A Tool-Oriented Conversational Dataset For Multi-Turn Agentic Planning: NeurIPS2025/llm_agent/t1_a_tool-oriented_conversational_dataset_for_multi-turn_agentic_planning.md
     - 'TrajAgent: An LLM-Agent Framework for Trajectory Modeling via Large-and-Small Model Collaboration': NeurIPS2025/llm_agent/trajagent_an_llm-agent_framework_for_trajectory_modeling_via_large-and-small_mod.md
@@ -971,7 +1026,7 @@ nav:
     - 'ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference': NeurIPS2025/model_compression/chunkkv_semanticpreserving_kv_cache_compression_for_efficien.md
     - 'DisMo: Disentangled Motion Representations for Open-World Motion Transfer': NeurIPS2025/model_compression/dismo_disentangled_motion_representations_for_openworld_moti.md
     - 'Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video': NeurIPS2025/model_compression/eyes_wide_open_ego_proactive_videollm_for_streaming_video.md
-  - ⚖️ 对齐 / RLHF (14):
+  - ⚖️ 对齐 / RLHF (15):
     - ⚖️ 对齐 / RLHF: NeurIPS2025/llm_alignment/index.md
     - A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs: NeurIPS2025/llm_alignment/a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md
     - Alignment of Large Language Models with Constrained Learning: NeurIPS2025/llm_alignment/alignment_of_large_language_models_with_constrained_learning.md
@@ -987,6 +1042,7 @@ nav:
     - Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks: NeurIPS2025/llm_alignment/short-length_adversarial_training_helps_llms_defend_long-length_jailbreak_attack.md
     - 'Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning': NeurIPS2025/llm_alignment/simplicity_prevails_rethinking_negative_preference_optimization_for_llm_unlearni.md
     - 'Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning': NeurIPS2025/llm_alignment/trajectory_bellman_residual_minimization_a_simple_value-based_method_for_llm_rea.md
+    - What Makes a Reward Model a Good Teacher? An Optimization Perspective: NeurIPS2025/llm_alignment/what_makes_a_reward_model_a_good_teacher_an_optimization_perspective.md
   - 📐 优化/理论 (12):
     - 📐 优化/理论: NeurIPS2025/optimization/index.md
     - A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization: NeurIPS2025/optimization/a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md
@@ -994,10 +1050,10 @@ nav:
     - A Unified Approach to Submodular Maximization Under Noise: NeurIPS2025/optimization/a_unified_approach_to_submodular_maximization_under_noise.md
     - 'A Unified Stability Analysis of SAM vs SGD: Role of Data Coherence and Emergence of Simplicity Bias': NeurIPS2025/optimization/a_unified_stability_analysis_of_sam_vs_sgd_role_of_data_cohe.md
     - Adaptive Algorithms with Sharp Convergence Rates for Stochastic Hierarchical Optimization: NeurIPS2025/optimization/adaptive_algorithms_with_sharp_convergence_rates_for_stochas.md
-    - 'Asymptotically Stable Quaternion-Valued Hopfield-Structured Neural Network With ': NeurIPS2025/optimization/asymptotically_stable_quaternion-valued_hopfield-structured_neural_network_with_.md
-    - Contribution Of Task-Irrelevant Stimuli To Drift Of Neural Representations: NeurIPS2025/optimization/contribution_of_task-irrelevant_stimuli_to_drift_of_neural_representations.md
+    - Asymptotically Stable Quaternionic Hopfield Structured Neural Network with Supervised Projection-based Manifold Learning: NeurIPS2025/optimization/asymptotically_stable_quaternion-valued_hopfield-structured_neural_network_with_.md
+    - Contribution of Task-Irrelevant Stimuli to Drift of Neural Representations: NeurIPS2025/optimization/contribution_of_task-irrelevant_stimuli_to_drift_of_neural_representations.md
     - Gradient Descent As Loss Landscape Navigation A Normative Framework For Deriving: NeurIPS2025/optimization/gradient_descent_as_loss_landscape_navigation_a_normative_framework_for_deriving.md
-    - Memory-Augmented Potential Field Theory A Framework For Adaptive Control In Non-: NeurIPS2025/optimization/memory-augmented_potential_field_theory_a_framework_for_adaptive_control_in_non-.md
+    - 'Memory-Augmented Potential Field Theory: A Framework for Adaptive Control in Non-Convex Domains': NeurIPS2025/optimization/memory-augmented_potential_field_theory_a_framework_for_adaptive_control_in_non-.md
     - 'MESS+: Dynamically Learned Inference-Time LLM Routing in Model Zoos with Service Level Guarantees': NeurIPS2025/optimization/mess_dynamically_learned_inference-time_llm_routing_in_model_zoos_with_service_l.md
     - Online Two-Stage Submodular Maximization: NeurIPS2025/optimization/online_two-stage_submodular_maximization.md
     - 'VERA: Variational Inference Framework for Jailbreaking Large Language Models': NeurIPS2025/optimization/vera_variational_inference_framework_for_jailbreaking_large_language_models.md
@@ -1093,7 +1149,17 @@ nav:
     - 'DINO-Foresight: Looking into the Future with DINO': NeurIPS2025/autonomous_driving/dino-foresight_looking_into_the_future_with_dino.md
     - 'DriveDPO: Policy Learning via Safety DPO For End-to-End Autonomous Driving': NeurIPS2025/autonomous_driving/drivedpo_policy_learning_via_safety_dpo_for_end-to-end_autonomous_driving.md
     - 'FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving': NeurIPS2025/autonomous_driving/futuresightdrive_thinking_visually_with_spatiotemporal_cot_f.md
-    - Sdtagnet Leveraging Text-Annotated Navigation Maps For Online Hd Map Constructio: NeurIPS2025/autonomous_driving/sdtagnet_leveraging_text-annotated_navigation_maps_for_online_hd_map_constructio.md
+    - 'SDTagNet: Leveraging Text-Annotated Navigation Maps for Online HD Map Construction': NeurIPS2025/autonomous_driving/sdtagnet_leveraging_text-annotated_navigation_maps_for_online_hd_map_constructio.md
+  - 🔗 因果推理 (8):
+    - 🔗 因果推理: NeurIPS2025/causal_inference/index.md
+    - A Principle of Targeted Intervention for Multi-Agent Reinforcement Learning: NeurIPS2025/causal_inference/a_principle_of_targeted_intervention_for_multi-agent_reinforcement_learning.md
+    - Bi-Level Decision-Focused Causal Learning for Large-Scale Marketing Optimization: NeurIPS2025/causal_inference/bi-level_decision-focused_causal_learning_for_large-scale_marketing_optimization.md
+    - Causality-Induced Positional Encoding for Transformer-Based Representation Learning of Non-Sequential Features: NeurIPS2025/causal_inference/causality-induced_positional_encoding_for_transformer-based_representation_learn.md
+    - Demystifying Spectral Feature Learning For Instrumental Variable Regression: NeurIPS2025/causal_inference/demystifying_spectral_feature_learning_for_instrumental_variable_regression.md
+    - Do-Pfn In-Context Learning For Causal Effect Estimation: NeurIPS2025/causal_inference/do-pfn_in-context_learning_for_causal_effect_estimation.md
+    - Few-Shot Knowledge Distillation Of Llms With Counterfactual Explanations: NeurIPS2025/causal_inference/few-shot_knowledge_distillation_of_llms_with_counterfactual_explanations.md
+    - 'From Black-box to Causal-box: Towards Building More Interpretable Models': NeurIPS2025/causal_inference/from_black-box_to_causal-box_towards_building_more_interpretable_models.md
+    - Revealing Multimodal Causality With Large Language Models: NeurIPS2025/causal_inference/revealing_multimodal_causality_with_large_language_models.md
   - 🎯 目标检测 (8):
     - 🎯 目标检测: NeurIPS2025/object_detection/index.md
     - 'All You Need is One: Capsule Prompt Tuning with a Single Vector': NeurIPS2025/object_detection/all_you_need_is_one_capsule_prompt_tuning_with_a_single_vector.md
@@ -1116,6 +1182,52 @@ nav:
     - 'OrthoLoC: UAV 6-DoF Localization Using Orthographic Geodata': NeurIPS2025/remote_sensing/ortholoc_uav_6-dof_localization_and_calibration_using_orthographic_geodata.md
     - 'RSCC: Large-Scale Remote Sensing Change Caption Dataset for Disasters': NeurIPS2025/remote_sensing/rscc_a_large-scale_remote_sensing_change_caption_dataset_for_disaster_events.md
     - Scaling Image Geo-Localization to Continent Level: NeurIPS2025/remote_sensing/scaling_image_geo-localization_to_continent_level.md
+  - ✂️ 语义分割 (8):
+    - ✂️ 语义分割: NeurIPS2025/segmentation/index.md
+    - 'Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression': NeurIPS2025/segmentation/alligat0r_pre-training_through_co-visibility_segmentation_for_relative_camera_po.md
+    - 'ARGenSeg: Image Segmentation with Autoregressive Image Generation Model': NeurIPS2025/segmentation/argenseg_image_segmentation_with_autoregressive_image_generation_model.md
+    - 'COS3D: Collaborative Open-Vocabulary 3D Segmentation': NeurIPS2025/segmentation/cos3d_collaborative_open-vocabulary_3d_segmentation.md
+    - 'FineRS: Fine-grained Reasoning and Segmentation of Small Objects with Reinforcement Learning': NeurIPS2025/segmentation/finers_fine-grained_reasoning_and_segmentation_of_small_objects_with_reinforceme.md
+    - 'HAODiff: Human-Aware One-Step Diffusion via Dual-Prompt Guidance': NeurIPS2025/segmentation/haodiff_human-aware_one-step_diffusion_via_dual-prompt_guidance.md
+    - 'LangHOPS: Language Grounded Hierarchical Open-Vocabulary Part Segmentation': NeurIPS2025/segmentation/langhops_language_grounded_hierarchical_open-vocabulary_part_segmentation.md
+    - Sam-R1 Leveraging Sam For Reward Feedback In Multimodal Segmentation Via Reinfor: NeurIPS2025/segmentation/sam-r1_leveraging_sam_for_reward_feedback_in_multimodal_segmentation_via_reinfor.md
+    - Sansa Unleashing The Hidden Semantics In Sam2 For Few-Shot Segmentation: NeurIPS2025/segmentation/sansa_unleashing_the_hidden_semantics_in_sam2_for_few-shot_segmentation.md
+  - 📈 时间序列 (8):
+    - 📈 时间序列: NeurIPS2025/time_series/index.md
+    - A Graph Neural Network Approach for Localized and High-Resolution Temperature Forecasting: NeurIPS2025/time_series/a_graph_neural_network_approach_for_localized_and_high-resolution_temperature_fo.md
+    - 'Abstain Mask Retain Core: Time Series Prediction by Adaptive Masking Loss with Representation Consistency': NeurIPS2025/time_series/abstain_mask_retain_core_time_series_prediction_by_adaptive.md
+    - 'AttentionPredictor: Temporal Patterns Matter for KV Cache Compression': NeurIPS2025/time_series/attentionpredictor_temporal_patterns_matter_for_kv_cache_com.md
+    - 'Connecting the Dots: A ML Ready Dataset for Ionospheric Forecasting': NeurIPS2025/time_series/connecting_the_dots_a_machine_learning_ready_dataset_for_ionospheric_forecasting.md
+    - 'EcoCast: Spatio-Temporal Model for Continual Biodiversity Forecasting': NeurIPS2025/time_series/ecocast_a_spatio-temporal_model_for_continual_biodiversity_and_climate_risk_fore.md
+    - How Foundational Are Foundation Models For Time Series Forecasting: NeurIPS2025/time_series/how_foundational_are_foundation_models_for_time_series_forecasting.md
+    - Sempo Lightweight Foundation Models For Time Series Forecasting: NeurIPS2025/time_series/sempo_lightweight_foundation_models_for_time_series_forecasting.md
+    - Time-O1 Time-Series Forecasting Needs Transformed Label Alignment: NeurIPS2025/time_series/time-o1_time-series_forecasting_needs_transformed_label_alignment.md
+  - ⚛️ 物理学 (7):
+    - ⚛️ 物理学: NeurIPS2025/physics/index.md
+    - Astroco Self-Supervised Conformer-Style Transformers For Light-Curve Embeddings: NeurIPS2025/physics/astroco_self-supervised_conformer-style_transformers_for_light-curve_embeddings.md
+    - Feat Free Energy Estimators With Adaptive Transport: NeurIPS2025/physics/feat_free_energy_estimators_with_adaptive_transport.md
+    - 'From Simulations to Surveys: Domain Adaptation for Galaxy Observations': NeurIPS2025/physics/from_simulations_to_surveys_domain_adaptation_for_galaxy_observations.md
+    - Multi-Modal Masked Autoencoders for Galaxy Evolution and Cosmology: NeurIPS2025/physics/multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md
+    - Quantum Doubly Stochastic Transformers: NeurIPS2025/physics/quantum_doubly_stochastic_transformers.md
+    - Tropical Attention Neural Algorithmic Reasoning For Combinatorial Algorithms: NeurIPS2025/physics/tropical_attention_neural_algorithmic_reasoning_for_combinatorial_algorithms.md
+    - Why Is Attention Sparse In Particle Transformer: NeurIPS2025/physics/why_is_attention_sparse_in_particle_transformer.md
+  - 🧮 科学计算 (7):
+    - 🧮 科学计算: NeurIPS2025/scientific_computing/index.md
+    - 'DeltaPhi: Physical States Residual Learning for Neural Operators in Data-Limited PDE Solving': NeurIPS2025/scientific_computing/deltaphi_physical_states_residual_learning_for_neural_operators_in_data-limited_.md
+    - Eddyformer Accelerated Neural Simulations Of Three-Dimensional Turbulence At Sca: NeurIPS2025/scientific_computing/eddyformer_accelerated_neural_simulations_of_three-dimensional_turbulence_at_sca.md
+    - Enforcing Governing Equation Constraints In Neural Pde Solvers Via Training-Free: NeurIPS2025/scientific_computing/enforcing_governing_equation_constraints_in_neural_pde_solvers_via_training-free.md
+    - 'GyroSwin: 5D Surrogates for Gyrokinetic Plasma Turbulence Simulations': NeurIPS2025/scientific_computing/gyroswin_5d_surrogates_for_gyrokinetic_plasma_turbulence_simulations.md
+    - Integration Matters for Learning PDEs with Backward SDEs: NeurIPS2025/scientific_computing/integration_matters_for_learning_pdes_with_backward_sdes.md
+    - 'Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data': NeurIPS2025/scientific_computing/neural_emulator_superiority_when_machine_learning_for_pdes_surpasses_its_trainin.md
+    - Towards Universal Neural Operators Through Multiphysics Pretraining: NeurIPS2025/scientific_computing/towards_universal_neural_operators_through_multiphysics_pretraining.md
+  - 🕸️ 图学习 (6):
+    - 🕸️ 图学习: NeurIPS2025/graph_learning/index.md
+    - 'Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking': NeurIPS2025/graph_learning/diagnosing_and_addressing_pitfalls_in_kg-rag_datasets_toward_more_reliable_bench.md
+    - Geometric Imbalance In Semi-Supervised Node Classification: NeurIPS2025/graph_learning/geometric_imbalance_in_semi-supervised_node_classification.md
+    - 'GFM-RAG: Graph Foundation Model for Retrieval Augmented Generation': NeurIPS2025/graph_learning/gfm-rag_graph_foundation_model_for_retrieval_augmented_generation.md
+    - 'GraphTOP: Graph Topology-Oriented Prompting for Graph Neural Networks': NeurIPS2025/graph_learning/graphtop_graph_topology-oriented_prompting_for_graph_neural_networks.md
+    - 'Making Classic GNNs Strong Baselines Across Varying Homophily: A Smoothness-Generalization Perspective': NeurIPS2025/graph_learning/making_classic_gnns_strong_baselines_across_varying_homophily_a_smoothness-gener.md
+    - Relieving the Over-Aggregating Effect in Graph Transformers: NeurIPS2025/graph_learning/relieving_the_over-aggregating_effect_in_graph_transformers.md
   - 🧑 人体理解 (6):
     - 🧑 人体理解: NeurIPS2025/human_understanding/index.md
     - A Differential and Pointwise Control Approach to Reinforcement Learning: NeurIPS2025/human_understanding/a_differential_and_pointwise_control_approach_to_reinforceme.md
@@ -1124,14 +1236,6 @@ nav:
     - A Simple Linear Patch Revives Layer-Pruned Large Language Models: NeurIPS2025/human_understanding/a_simple_linear_patch_revives_layerpruned_large_language_mod.md
     - 'Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation for Efficient LLM Inference': NeurIPS2025/human_understanding/ada-kv_optimizing_kv_cache_eviction_by_adaptive_budget_allocation_for_efficient_.md
     - 'Agint: Agentic Graph Compilation for Software Engineering Agents': NeurIPS2025/human_understanding/agint_agentic_graph_compilation_for_software_engineering_age.md
-  - ✂️ 语义分割 (6):
-    - ✂️ 语义分割: NeurIPS2025/segmentation/index.md
-    - 'Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression': NeurIPS2025/segmentation/alligat0r_pre-training_through_co-visibility_segmentation_for_relative_camera_po.md
-    - 'ARGenSeg: Image Segmentation with Autoregressive Image Generation Model': NeurIPS2025/segmentation/argenseg_image_segmentation_with_autoregressive_image_generation_model.md
-    - 'COS3D: Collaborative Open-Vocabulary 3D Segmentation': NeurIPS2025/segmentation/cos3d_collaborative_open-vocabulary_3d_segmentation.md
-    - 'FineRS: Fine-grained Reasoning and Segmentation of Small Objects with Reinforcement Learning': NeurIPS2025/segmentation/finers_fine-grained_reasoning_and_segmentation_of_small_objects_with_reinforceme.md
-    - 'HAODiff: Human-Aware One-Step Diffusion via Dual-Prompt Guidance': NeurIPS2025/segmentation/haodiff_human-aware_one-step_diffusion_via_dual-prompt_guidance.md
-    - 'LangHOPS: Language Grounded Hierarchical Open-Vocabulary Part Segmentation': NeurIPS2025/segmentation/langhops_language_grounded_hierarchical_open-vocabulary_part_segmentation.md
   - 🔎 AIGC 检测 (5):
     - 🔎 AIGC 检测: NeurIPS2025/aigc_detection/index.md
     - 'ASCIIBench: Evaluating Language-Model-Based Understanding of Visually-Oriented Text': NeurIPS2025/aigc_detection/asciibench_evaluating_language-model-based_understanding_of_visually-oriented_te.md
@@ -1160,47 +1264,25 @@ nav:
     - 'MaintainCoder: Maintainable Code Generation Under Dynamic Requirements': NeurIPS2025/nlp_generation/maintaincoder_maintainable_code_generation_under_dynamic_requirements.md
     - Precise Information Control in Long-Form Text Generation: NeurIPS2025/nlp_generation/precise_information_control_in_long-form_text_generation.md
     - 'SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents': NeurIPS2025/nlp_generation/swe-rebench_an_automated_pipeline_for_task_collection_and_decontaminated_evaluat.md
-  - 📈 时间序列 (5):
-    - 📈 时间序列: NeurIPS2025/time_series/index.md
-    - A Graph Neural Network Approach for Localized and High-Resolution Temperature Forecasting: NeurIPS2025/time_series/a_graph_neural_network_approach_for_localized_and_high-resolution_temperature_fo.md
-    - 'Abstain Mask Retain Core: Time Series Prediction by Adaptive Masking Loss with Representation Consistency': NeurIPS2025/time_series/abstain_mask_retain_core_time_series_prediction_by_adaptive.md
-    - 'AttentionPredictor: Temporal Patterns Matter for KV Cache Compression': NeurIPS2025/time_series/attentionpredictor_temporal_patterns_matter_for_kv_cache_com.md
-    - 'Connecting the Dots: A ML Ready Dataset for Ionospheric Forecasting': NeurIPS2025/time_series/connecting_the_dots_a_machine_learning_ready_dataset_for_ionospheric_forecasting.md
-    - 'EcoCast: Spatio-Temporal Model for Continual Biodiversity Forecasting': NeurIPS2025/time_series/ecocast_a_spatio-temporal_model_for_continual_biodiversity_and_climate_risk_fore.md
   - 📖 NLP 理解 (4):
     - 📖 NLP 理解: NeurIPS2025/nlp_understanding/index.md
     - 'AgentiQL: An Agent-Inspired Multi-Expert Framework for Text-to-SQL Generation': NeurIPS2025/nlp_understanding/agentiql_an_agent-inspired_multi-expert_framework_for_text-to-sql_generation.md
     - Creativity or Brute Force? Using Brainteasers as a Window into the Problem-Solving Abilities of Large Language Models: NeurIPS2025/nlp_understanding/creativity_or_brute_force_using_brainteasers_as_a_window_into_the_problem-solvin.md
     - Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention: NeurIPS2025/nlp_understanding/generalization_error_analysis_for_selective_state-space_models_through_the_lens_.md
     - 'The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation': NeurIPS2025/nlp_understanding/the_atlas_of_in-context_learning_how_attention_heads_shape_in-context_retrieval_.md
-  - ⚛️ 物理学 (4):
-    - ⚛️ 物理学: NeurIPS2025/physics/index.md
-    - Astroco Self-Supervised Conformer-Style Transformers For Light-Curve Embeddings: NeurIPS2025/physics/astroco_self-supervised_conformer-style_transformers_for_light-curve_embeddings.md
-    - From Simulations To Surveys Domain Adaptation For Galaxy Observations: NeurIPS2025/physics/from_simulations_to_surveys_domain_adaptation_for_galaxy_observations.md
-    - Multi-Modal Masked Autoencoders for Galaxy Evolution and Cosmology: NeurIPS2025/physics/multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md
-    - Why Is Attention Sparse In Particle Transformer: NeurIPS2025/physics/why_is_attention_sparse_in_particle_transformer.md
+  - 🎁 推荐系统 (4):
+    - 🎁 推荐系统: NeurIPS2025/recommender/index.md
+    - 'MMPB: It''s Time for Multi-Modal Personalization': NeurIPS2025/recommender/mmpb_its_time_for_multi-modal_personalization.md
+    - Radial Neighborhood Smoothing Recommender System: NeurIPS2025/recommender/radial_neighborhood_smoothing_recommender_system.md
+    - 'Think before Recommendation: Autonomous Reasoning-enhanced Recommender': NeurIPS2025/recommender/think_before_recommendation_autonomous_reasoning-enhanced_recommender.md
+    - Wide-Horizon Thinking and Simulation-Based Evaluation for Real-World LLM Planning with Multifaceted Constraints: NeurIPS2025/recommender/wide-horizon_thinking_and_simulation-based_evaluation_for_real-world_llm_plannin.md
   - 🔄 自监督/表示学习 (4):
     - 🔄 自监督/表示学习: NeurIPS2025/self_supervised/index.md
     - A Unified Reasoning Framework for Holistic Zero-Shot Video Anomaly Analysis: NeurIPS2025/self_supervised/a_unified_reasoning_framework_for_holistic_zeroshot_video_an.md
     - 'Adv-SSL: Adversarial Self-Supervised Representation Learning with Theoretical Guarantees': NeurIPS2025/self_supervised/adv-ssl_adversarial_self-supervised_representation_learning_with_theoretical_gua.md
     - 'Connecting Jensen-Shannon and Kullback-Leibler Divergences: A New Bound for Representation Learning': NeurIPS2025/self_supervised/connecting_jensenshannon_and_kullbackleibler_divergences_a_n.md
     - Contrastive Representations for Temporal Reasoning: NeurIPS2025/self_supervised/contrastive_representations_for_temporal_reasoning.md
-  - 🔗 因果推理 (3):
-    - 🔗 因果推理: NeurIPS2025/causal_inference/index.md
-    - A Principle of Targeted Intervention for Multi-Agent Reinforcement Learning: NeurIPS2025/causal_inference/a_principle_of_targeted_intervention_for_multi-agent_reinforcement_learning.md
-    - Bi-Level Decision-Focused Causal Learning for Large-Scale Marketing Optimization: NeurIPS2025/causal_inference/bi-level_decision-focused_causal_learning_for_large-scale_marketing_optimization.md
-    - Demystifying Spectral Feature Learning For Instrumental Variable Regression: NeurIPS2025/causal_inference/demystifying_spectral_feature_learning_for_instrumental_variable_regression.md
-  - 🕸️ 图学习 (2):
-    - 🕸️ 图学习: NeurIPS2025/graph_learning/index.md
-    - 'Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking': NeurIPS2025/graph_learning/diagnosing_and_addressing_pitfalls_in_kg-rag_datasets_toward_more_reliable_bench.md
-    - Geometric Imbalance In Semi-Supervised Node Classification: NeurIPS2025/graph_learning/geometric_imbalance_in_semi-supervised_node_classification.md
-  - 🎁 推荐系统 (1):
-    - 🎁 推荐系统: NeurIPS2025/recommender/index.md
-    - Wide-Horizon Thinking and Simulation-Based Evaluation for Real-World LLM Planning with Multifaceted Constraints: NeurIPS2025/recommender/wide-horizon_thinking_and_simulation-based_evaluation_for_real-world_llm_plannin.md
-  - 🧮 科学计算 (1):
-    - 🧮 科学计算: NeurIPS2025/scientific_computing/index.md
-    - Integration Matters for Learning PDEs with Backward SDEs: NeurIPS2025/scientific_computing/integration_matters_for_learning_pdes_with_backward_sdes.md
-  - 📂 其他 (40):
+  - 📂 其他 (38):
     - 📂 其他: NeurIPS2025/others/index.md
     - '4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos': NeurIPS2025/others/4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md
     - A Cramér–von Mises Approach to Incentivizing Truthful Data Sharing: NeurIPS2025/others/a_cramrvon_mises_approach_to_incentivizing_truthful_data_sha.md
@@ -1222,17 +1304,15 @@ nav:
     - 'ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining': NeurIPS2025/others/adpretrain_advancing_industrial_anomaly_detection_via_anomaly_representation_pre.md
     - Are Pixel-Wise Metrics Reliable For Sparse-View Computed Tomography Reconstructi: NeurIPS2025/others/are_pixel-wise_metrics_reliable_for_sparse-view_computed_tomography_reconstructi.md
     - 'AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing': NeurIPS2025/others/autoscidact_automated_scientific_discovery_through_contrastive_embedding_and_hyp.md
-    - 'Beyond the Singular: Revealing the Value of Multiple Generations in Benchmark Evaluation': NeurIPS2025/others/beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md
     - Depth-Supervised Fusion Network For Seamless-Free Image Stitching: NeurIPS2025/others/depth-supervised_fusion_network_for_seamless-free_image_stitching.md
-    - Exact Learning Of Arithmetic With Differentiable Agents: NeurIPS2025/others/exact_learning_of_arithmetic_with_differentiable_agents.md
+    - Exact Learning of Arithmetic with Differentiable Agents: NeurIPS2025/others/exact_learning_of_arithmetic_with_differentiable_agents.md
     - 'FlowMoE: 分布式MoE训练的可扩展流水线调度框架': NeurIPS2025/others/flowmoe_a_scalable_pipeline_scheduling_framework_for_distributed_mixture-of-expe.md
     - Generalized Linear Mode Connectivity For Transformers: NeurIPS2025/others/generalized_linear_mode_connectivity_for_transformers.md
     - Gradient-Weight Alignment As A Train-Time Proxy For Generalization In Classifica: NeurIPS2025/others/gradient-weight_alignment_as_a_train-time_proxy_for_generalization_in_classifica.md
     - Graph Alignment Via Birkhoff Relaxation: NeurIPS2025/others/graph_alignment_via_birkhoff_relaxation.md
     - 笔记2：PRM必要吗？RL隐式诱导PRM能力: NeurIPS2025/others/is_prm_necessary_problem-solving_rl_implicitly_induces_prm_capability_in_llms.md
-    - 'L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models': NeurIPS2025/others/l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md
-    - Learning Generalizable Shape Completion With Sim3 Equivariance: NeurIPS2025/others/learning_generalizable_shape_completion_with_sim3_equivariance.md
-    - Look-Ahead Reasoning On Learning Platforms: NeurIPS2025/others/look-ahead_reasoning_on_learning_platforms.md
+    - Learning Generalizable Shape Completion with SIM(3) Equivariance: NeurIPS2025/others/learning_generalizable_shape_completion_with_sim3_equivariance.md
+    - Look-Ahead Reasoning on Learning Platforms: NeurIPS2025/others/look-ahead_reasoning_on_learning_platforms.md
     - 'MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision': NeurIPS2025/others/maszero_designing_multiagent_systems_with_zero_supervision.md
     - 'Model Context Protocol for Vision Systems: Audit, Security, and Protocol Extensions': NeurIPS2025/others/model_context_protocol_for_vision_systems_audit_security_and_protocol_extensions.md
     - 'MoESD: 揭示稀疏MoE推理中投机解码的潜力': NeurIPS2025/others/moesd_unveil_speculative_decodings_potential_for_accelerating_sparse_moe.md
@@ -2011,6 +2091,19 @@ nav:
     - ? 'InfoCLIP: Bridging Vision-Language Pretraining and Open-Vocabulary Semantic
         Segmentation via Information-Theoretic Alignment Transfer'
       : AAAI2026/segmentation/infoclip_bridging_vision-language_pretraining_and_open-vocab.md
+  - 📡 信号/通信 (5):
+    - 📡 信号/通信: AAAI2026/signal_comm/index.md
+    - 'Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score': AAAI2026/signal_comm/beyond_perplexity_let_the_reader_select_retrieval_summaries_via_spectrum_project.md
+    - 'GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning': AAAI2026/signal_comm/gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md
+    - 'Task Aware Modulation Using Representation Learning For Upsaling Of Terrestrial ': AAAI2026/signal_comm/task_aware_modulation_using_representation_learning_for_upsaling_of_terrestrial_.md
+    - Text-Guided Channel Perturbation And Pretrained Knowledge Integration For Unifie: AAAI2026/signal_comm/text-guided_channel_perturbation_and_pretrained_knowledge_integration_for_unifie.md
+    - Toward Gaze Target Detection in Young Autistic Children: AAAI2026/signal_comm/toward_gaze_target_detection_of_young_autistic_children.md
+  - 🎵 音频/语音 (4):
+    - 🎵 音频/语音: AAAI2026/audio_speech/index.md
+    - 'AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions': AAAI2026/audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md
+    - Dualspeechlm Towards Unified Speech Understanding And Generation Via Dual Speech: AAAI2026/audio_speech/dualspeechlm_towards_unified_speech_understanding_and_generation_via_dual_speech.md
+    - 'Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition': AAAI2026/audio_speech/let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md
+    - Use A Unified Model For Universal Sound Separation And Extraction: AAAI2026/audio_speech/use_a_unified_model_for_universal_sound_separation_and_extraction.md
   - 🧑 人体理解 (4):
     - 🧑 人体理解: AAAI2026/human_understanding/index.md
     - 10 Open Challenges Steering the Future of Vision-Language-Action Models: AAAI2026/human_understanding/10_open_challenges_steering_the_future_of_vision-language-ac.md
@@ -2023,18 +2116,35 @@ nav:
     - 'ICLR: Inter-Chrominance and Luminance Interaction for Natural Color Restoration in Low-Light Image Enhancement': AAAI2026/image_restoration/iclr_inter-chrominance_and_luminance_interaction_for_natural_color_restoration_i.md
     - 'SD-PSFNet: Sequential and Dynamic Point Spread Function Network for Image Deraining': AAAI2026/image_restoration/sd-psfnet_sequential_and_dynamic_point_spread_function_netwo.md
     - 'Seeing the Unseen: Zooming in the Dark with Event Cameras': AAAI2026/image_restoration/seeing_the_unseen_zooming_in_the_dark_with_event_cameras.md
+  - 📖 NLP 理解 (4):
+    - 📖 NLP 理解: AAAI2026/nlp_understanding/index.md
+    - Language Models and Logic Programs for Trustworthy Tax Reasoning: AAAI2026/nlp_understanding/language_models_and_logic_programs_for_trustworthy_tax_reasoning.md
+    - 'NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models': AAAI2026/nlp_understanding/nestr_a_neuro-symbolic_abductive_framework_for_temporal_reasoning_in_large_langu.md
+    - 'REAP: Enhancing RAG with Recursive Evaluation and Adaptive Planning for Multi-Hop Question Answering': AAAI2026/nlp_understanding/reap_enhancing_rag_with_recursive_evaluation_and_adaptive_planning_for_multi-hop.md
+    - Understanding Syllogistic Reasoning in LLMs from Formal and Natural Language Perspectives: AAAI2026/nlp_understanding/understanding_syllogistic_reasoning_in_llms_from_formal_and_natural_language_per.md
   - 📐 优化/理论 (4):
     - 📐 优化/理论: AAAI2026/optimization/index.md
     - A Distributed Asynchronous Generalized Momentum Algorithm Without Delay Bounds: AAAI2026/optimization/a_distributed_asynchronous_generalized_momentum_algorithm_wi.md
     - 'A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication': AAAI2026/optimization/a_unified_convergence_analysis_for_semi-decentralized_learni.md
     - Explore How to Inject Beneficial Noise in MLLMs: AAAI2026/optimization/explore_how_to_inject_beneficial_noise_in_mllms.md
     - On the Learning Dynamics of Two-Layer Linear Networks with Label Noise SGD: AAAI2026/optimization/on_the_learning_dynamics_of_two-layer_linear_networks_with_label_noise_sgd.md
+  - 🔄 自监督/表示学习 (4):
+    - 🔄 自监督/表示学习: AAAI2026/self_supervised/index.md
+    - Bce3S Binary Cross-Entropy Based Tripartite Synergistic Learning For Long-Tailed: AAAI2026/self_supervised/bce3s_binary_cross-entropy_based_tripartite_synergistic_learning_for_long-tailed.md
+    - 'GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery': AAAI2026/self_supervised/goal_geometrically_optimal_alignment_for_continual_generalized_category_discover.md
+    - 'CAE: Hierarchical Semantic Alignment for Image Clustering': AAAI2026/self_supervised/hierarchical_semantic_alignment_for_image_clustering.md
+    - Robust Tabular Foundation Models: AAAI2026/self_supervised/robust_tabular_foundation_models.md
   - 🎬 视频理解 (4):
     - 🎬 视频理解: AAAI2026/video_understanding/index.md
     - 'APVR: Hour-Level Long Video Understanding with Adaptive Pivot Visual Information Retrieval': AAAI2026/video_understanding/apvr_hour-level_long_video_understanding_with_adaptive_pivot.md
     - 'Distillation Dynamics: Towards Understanding Feature-Based Distillation in Vision Transformers': AAAI2026/video_understanding/distillation_dynamics_towards_understanding_feature-based_di.md
     - 'DreamRunner: Fine-Grained Compositional Story-to-Video Generation with Retrieval-Augmented Motion Adaptation': AAAI2026/video_understanding/dreamrunner_fine-grained_compositional_story-to-video_genera.md
     - 'MambaMia: State-Space Hierarchical Compression for Hour-Long Video Understanding in Large Multimodal Models': AAAI2026/video_understanding/state-space_hierarchical_compression_with_gated_attention_an.md
+  - 🔎 AIGC 检测 (3):
+    - 🔎 AIGC 检测: AAAI2026/aigc_detection/index.md
+    - 'ActiShade: Activating Overshadowed Knowledge to Guide Multi-Hop Reasoning in Large Language Models': AAAI2026/aigc_detection/actishade_activating_overshadowed_knowledge_to_guide_multi-h.md
+    - 'BAID: A Benchmark for Bias Assessment of AI Detectors': AAAI2026/aigc_detection/baid_a_benchmark_for_bias_assessment_of_ai_detectors.md
+    - Optimized Algorithms for Text Clustering with LLM-Generated Constraints: AAAI2026/aigc_detection/optimized_algorithms_for_text_clustering_with_llm-generated_constraints.md
   - 🔗 因果推理 (3):
     - 🔗 因果推理: AAAI2026/causal_inference/index.md
     - Causally-Grounded Dual-Path Attention Intervention for Object Hallucination Mitigation in LVLMs: AAAI2026/causal_inference/causally-grounded_dual-path_attention_intervention_for_objec.md
@@ -2050,38 +2160,28 @@ nav:
     - A Coherence-Based Measure of AGI: AAAI2026/nlp_generation/a_coherence-based_measure_of_agi.md
     - 'Magnitude Matters: A Superior Class of Similarity Metrics for Holistic Semantic Understanding': AAAI2026/nlp_generation/magnitude_matters_a_superior_class_of_similarity_metrics_for_holistic_semantic_u.md
     - 'TAPA: Training-Free Adaptation of Programmatic Agents via LLM-Guided Program Synthesis in Dynamic Environments': AAAI2026/nlp_generation/tapas_are_free_training-free_adaptation_of_programmatic_agen.md
+  - ⚛️ 物理学 (3):
+    - ⚛️ 物理学: AAAI2026/physics/index.md
+    - Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness: AAAI2026/physics/adaptive_fidelity_estimation_for_quantum_programs_with_graph.md
+    - Data Verification is the Future of Quantum Computing Copilots: AAAI2026/physics/data_verification_is_the_future_of_quantum_computing_copilots.md
+    - 'STELLAR: Scene Text Editor for Low-Resource Languages and Real-World Data': AAAI2026/physics/stellar_scene_text_editor_for_low-resource_languages_and_real-world_data.md
   - 🛰️ 遥感 (3):
     - 🛰️ 遥感: AAAI2026/remote_sensing/index.md
     - Consistency-based Abductive Reasoning over Perceptual Errors of Multiple Pre-trained Models in Novel Environments: AAAI2026/remote_sensing/consistency-based_abductive_reasoning_over_perceptual_errors_of_multiple_pre-tra.md
     - Debiasing Machine Learning Predictions for Causal Inference Without Additional Ground Truth Data: AAAI2026/remote_sensing/debiasing_machine_learning_predictions_for_causal_inference_without_additional_g.md
     - 'Machine Learning for Sustainable Rice Production: Region-Scale Monitoring of Water-Saving Practices in Punjab, India': AAAI2026/remote_sensing/machine_learning_for_sustainable_rice_production_region-scale_monitoring_of_wate.md
-  - 🎵 音频/语音 (2):
-    - 🎵 音频/语音: AAAI2026/audio_speech/index.md
-    - 'AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions': AAAI2026/audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md
-    - 'Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition': AAAI2026/audio_speech/let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md
-  - 🔄 自监督/表示学习 (2):
-    - 🔄 自监督/表示学习: AAAI2026/self_supervised/index.md
-    - 'GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery': AAAI2026/self_supervised/goal_geometrically_optimal_alignment_for_continual_generalized_category_discover.md
-    - 'CAE: Hierarchical Semantic Alignment for Image Clustering': AAAI2026/self_supervised/hierarchical_semantic_alignment_for_image_clustering.md
+  - 🧮 科学计算 (3):
+    - 🧮 科学计算: AAAI2026/scientific_computing/index.md
+    - 'PhysicsCorrect: A Training-Free Approach for Stable Neural PDE Simulations': AAAI2026/scientific_computing/physicscorrect_a_training-free_approach_for_stable_neural_pde_simulations.md
+    - 'SAOT: An Enhanced Locality-Aware Spectral Transformer for Solving PDEs': AAAI2026/scientific_computing/saot_an_enhanced_locality-aware_spectral_transformer_for_solving_pdes.md
+    - 'Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: A Comparative Study': AAAI2026/scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md
   - 📈 时间序列 (2):
     - 📈 时间序列: AAAI2026/time_series/index.md
     - A Unified Shape-Aware Foundation Model for Time Series Classification: AAAI2026/time_series/a_unified_shape-aware_foundation_model_for_time_series_class.md
     - 'SELDON: Supernova Explosions Learned by Deep ODE Networks': AAAI2026/time_series/seldon_supernova_explosions_learned_by_deep_ode_networks.md
-  - 🔎 AIGC 检测 (1):
-    - 🔎 AIGC 检测: AAAI2026/aigc_detection/index.md
-    - 'ActiShade: Activating Overshadowed Knowledge to Guide Multi-Hop Reasoning in Large Language Models': AAAI2026/aigc_detection/actishade_activating_overshadowed_knowledge_to_guide_multi-h.md
-  - 📖 NLP 理解 (1):
-    - 📖 NLP 理解: AAAI2026/nlp_understanding/index.md
-    - Language Models and Logic Programs for Trustworthy Tax Reasoning: AAAI2026/nlp_understanding/language_models_and_logic_programs_for_trustworthy_tax_reasoning.md
-  - ⚛️ 物理学 (1):
-    - ⚛️ 物理学: AAAI2026/physics/index.md
-    - Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness: AAAI2026/physics/adaptive_fidelity_estimation_for_quantum_programs_with_graph.md
-  - 🧮 科学计算 (1):
-    - 🧮 科学计算: AAAI2026/scientific_computing/index.md
-    - 'Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: A Comparative Study': AAAI2026/scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md
-  - 📡 信号/通信 (1):
-    - 📡 信号/通信: AAAI2026/signal_comm/index.md
-    - Toward Gaze Target Detection in Young Autistic Children: AAAI2026/signal_comm/toward_gaze_target_detection_of_young_autistic_children.md
+  - 🌍 地球科学 (1):
+    - 🌍 地球科学: AAAI2026/earth_science/index.md
+    - 'MdaIF: Robust One-Stop Multi-Degradation-Aware Image Fusion with Language-Driven Semantics': AAAI2026/earth_science/mdaif_robust_one-stop_multi-degradation-aware_image_fusion_with_language-driven_.md
   - 📂 其他 (18):
     - 📂 其他: AAAI2026/others/index.md
     - A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles: AAAI2026/others/a_fast_heuristic_search_approach_for_energy-optimal_profile_.md
@@ -2980,14 +3080,6 @@ nav:
     - 'Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval': CVPR2025/llm_reasoning/reason-before-retrieve_one-stage_reflective_chain-of-thoughts_for_training-free_.md
     - Style Evolving along Chain-of-Thought for Unknown-Domain Object Detection: CVPR2025/llm_reasoning/style_evolving_along_chain-of-thought_for_unknown-domain_object_detection.md
     - 'VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection': CVPR2025/llm_reasoning/videoespresso_a_large-scale_chain-of-thought_dataset_for_fine-grained_video_reas.md
-  - 🎯 目标检测 (6):
-    - 🎯 目标检测: CVPR2025/object_detection/index.md
-    - 'Abra Teleporting Fine-Tuned Knowledge Across Domains For Open-Vocabulary Object ': CVPR2025/object_detection/abra_teleporting_fine-tuned_knowledge_across_domains_for_open-vocabulary_object_.md
-    - Dreamvideo-Omni Omni-Motion Controlled Multi-Subject Video Customization With La: CVPR2025/object_detection/dreamvideo-omni_omni-motion_controlled_multi-subject_video_customization_with_la.md
-    - Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection: CVPR2025/object_detection/mitigating_memorization_in_text-to-image_diffusion_via_region-aware_prompt_augme.md
-    - 'MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization': CVPR2025/object_detection/mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md
-    - 'SDF-Net: Structure-Aware Disentangled Feature Learning for Optical–SAR Ship Re-Identification': CVPR2025/object_detection/sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md
-    - Small Target Detection Based on Mask-Enhanced Attention Fusion of Visible and Infrared Remote Sensing Images: CVPR2025/object_detection/small_target_detection_based_on_mask-enhanced_attention_fusion_of_visible_and_in.md
   - 📦 模型压缩 (5):
     - 📦 模型压缩: CVPR2025/model_compression/index.md
     - Alternating Gradient Flow Utility A Unified Metric For Structural Pruning And Dy: CVPR2025/model_compression/alternating_gradient_flow_utility_a_unified_metric_for_structural_pruning_and_dy.md
@@ -2995,12 +3087,13 @@ nav:
     - Arche Autoregressive Residual Compression With Hyperprior And Excitation: CVPR2025/model_compression/arche_autoregressive_residual_compression_with_hyperprior_and_excitation.md
     - 'GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration': CVPR2025/model_compression/geochemad_benchmarking_unsupervised_geochemical_anomaly_detection_for_mineral_ex.md
     - 'HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers': CVPR2025/model_compression/hiap_a_multi-granular_stochastic_auto-pruning_framework_for_vision_transformers.md
-  - 🛡️ AI 安全 (4):
-    - 🛡️ AI 安全: CVPR2025/ai_safety/index.md
-    - Lyapunov Stable Graph Neural Flow: CVPR2025/ai_safety/lyapunov_stable_graph_neural_flow.md
-    - 'Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating': CVPR2025/ai_safety/neural_gate_mitigating_privacy_risks_in_lvlms_via_neuron-level_gradient_gating.md
-    - Rethinking VLMs for Image Forgery Detection and Localization: CVPR2025/ai_safety/rethinking_vlms_for_image_forgery_detection_and_localization.md
-    - 'STRAP-ViT: Segregated Tokens with Randomized Transformations for Defense against Adversarial Patches in ViTs': CVPR2025/ai_safety/strap-vit_segregated_tokens_with_randomized_--_transformations_for_defense_again.md
+  - 🎯 目标检测 (5):
+    - 🎯 目标检测: CVPR2025/object_detection/index.md
+    - 'Abra Teleporting Fine-Tuned Knowledge Across Domains For Open-Vocabulary Object ': CVPR2025/object_detection/abra_teleporting_fine-tuned_knowledge_across_domains_for_open-vocabulary_object_.md
+    - Dreamvideo-Omni Omni-Motion Controlled Multi-Subject Video Customization With La: CVPR2025/object_detection/dreamvideo-omni_omni-motion_controlled_multi-subject_video_customization_with_la.md
+    - Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection: CVPR2025/object_detection/mitigating_memorization_in_text-to-image_diffusion_via_region-aware_prompt_augme.md
+    - 'MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization': CVPR2025/object_detection/mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md
+    - Small Target Detection Based on Mask-Enhanced Attention Fusion of Visible and Infrared Remote Sensing Images: CVPR2025/object_detection/small_target_detection_based_on_mask-enhanced_attention_fusion_of_visible_and_in.md
   - ✍️ 文本生成 (4):
     - ✍️ 文本生成: CVPR2025/nlp_generation/index.md
     - 'ArtFormer: Controllable Generation of Diverse 3D Articulated Objects': CVPR2025/nlp_generation/artformer_controllable_generation_of_diverse_3d_articulated_objects.md
@@ -3013,6 +3106,11 @@ nav:
     - Joint and Streamwise Distributed MIMO Satellite Communications with Multi-Antenna Ground Users: CVPR2025/remote_sensing/joint_and_streamwise_distributed_mimo_satellite_communications_with_multi-antenn.md
     - 'MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging': CVPR2025/remote_sensing/metaspectra_a_compact_broadband_metasurface_camera_for_snapshot_hyperspectral_im.md
     - 'Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing': CVPR2025/remote_sensing/think_and_answer_me_benchmarking_and_exploring_multi-entity_reasoning_grounding_.md
+  - 🛡️ AI 安全 (3):
+    - 🛡️ AI 安全: CVPR2025/ai_safety/index.md
+    - Lyapunov Stable Graph Neural Flow: CVPR2025/ai_safety/lyapunov_stable_graph_neural_flow.md
+    - 'Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating': CVPR2025/ai_safety/neural_gate_mitigating_privacy_risks_in_lvlms_via_neuron-level_gradient_gating.md
+    - Rethinking VLMs for Image Forgery Detection and Localization: CVPR2025/ai_safety/rethinking_vlms_for_image_forgery_detection_and_localization.md
   - 🖼️ 图像恢复 (3):
     - 🖼️ 图像恢复: CVPR2025/image_restoration/index.md
     - Polishing The Sky Wide-Field And High-Dynamic Range Interferometric Image Recons: CVPR2025/image_restoration/polishing_the_sky_wide-field_and_high-dynamic_range_interferometric_image_recons.md
@@ -3039,7 +3137,7 @@ nav:
   - 📈 时间序列 (1):
     - 📈 时间序列: CVPR2025/time_series/index.md
     - Competition-Aware CPC Forecasting with Near-Market Coverage: CVPR2025/time_series/competition-aware_cpc_forecasting_with_near-market_coverage.md
-  - 📂 其他 (15):
+  - 📂 其他 (17):
     - 📂 其他: CVPR2025/others/index.md
     - '3D Prior is All You Need: Cross-Task Few-shot 2D Gaze Estimation': CVPR2025/others/3d_prior_is_all_you_need_cross-task_few-shot_2d_gaze_estimation.md
     - A2Z-10M Geometric Deep Learning With A-To-Z Brep Annotations For Ai-Assisted Cad: CVPR2025/others/a2z-10m_geometric_deep_learning_with_a-to-z_brep_annotations_for_ai-assisted_cad.md
@@ -3053,14 +3151,16 @@ nav:
     - 'MXNorm: Reusing MXFP block scales for efficient tensor normalisation': CVPR2025/others/mxnorm_reusing_mxfp_block_scales_for_efficient_tensor_normalisation.md
     - Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models: CVPR2025/others/out_of_sight_out_of_mind_evaluating_state_evolution_in_video_world_models.md
     - 'Rooftop Wind Field Reconstruction Using Sparse Sensors: From Deterministic to Generative Learning Methods': CVPR2025/others/rooftop_wind_field_reconstruction_using_sparse_sensors_from_deterministic_to_gen.md
+    - 'SDF-Net: Structure-Aware Disentangled Feature Learning for Optical–SAR Ship Re-Identification': CVPR2025/others/sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md
     - 'SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules': CVPR2025/others/shrec_a_spectral_embedding-based_approach_for_ab-initio_reconstruction_of_helica.md
     - 'SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design': CVPR2025/others/sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md
+    - 'STRAP-ViT: Segregated Tokens with Randomized Transformations for Defense against Adversarial Patches in ViTs': CVPR2025/others/strap-vit_segregated_tokens_with_randomized_--_transformations_for_defense_again.md
     - Wear Classification of Abrasive Flap Wheels using a Hierarchical Deep Learning Approach: CVPR2025/others/wear_classification_of_abrasive_flap_wheels_using_a_hierarchical_deep_learning_a.md
     - Why Does It Look There? Structured Explanations for Image Classification: CVPR2025/others/why_does_it_look_there_structured_explanations_for_image_classification.md
     - 'ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training': CVPR2025/others/zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md
 - 🎞️ ECCV2024:
   - ECCV2024: ECCV2024/index.md
-  - 🧩 多模态 VLM (71):
+  - 🧩 多模态 VLM (82):
     - 🧩 多模态 VLM: ECCV2024/multimodal_vlm/index.md
     - A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis: ECCV2024/multimodal_vlm/a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md
     - 'AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting': ECCV2024/multimodal_vlm/adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md
@@ -3071,27 +3171,37 @@ nav:
     - Attention Prompting on Image for Large Vision-Language Models: ECCV2024/multimodal_vlm/attention_prompting_on_image_for_large_vision-language_models.md
     - Attention Prompting on Image for Large Vision-Language Models: ECCV2024/multimodal_vlm/attention_prompting_on_image_for_large_visionlanguage_models.md
     - 'Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation': ECCV2024/multimodal_vlm/be_yourself_bounded_attention_for_multisubject_texttoimage_g.md
+    - 'BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-Language Models': ECCV2024/multimodal_vlm/beaf_observing_before-after_changes_to_evaluate_hallucination_in_vision-language.md
     - 'BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-Language Models': ECCV2024/multimodal_vlm/beaf_observing_beforeafter_changes_to_evaluate_hallucination.md
+    - 'BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation': ECCV2024/multimodal_vlm/bi-mdrg_bridging_image_history_in_multimodal_dialogue_response_generation.md
     - 'BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation': ECCV2024/multimodal_vlm/bimdrg_bridging_image_history_in_multimodal_dialogue_respons.md
     - 'BLINK: Multimodal Large Language Models Can See but Not Perceive': ECCV2024/multimodal_vlm/blink_multimodal_large_language_models_can_see_but_not_perceive.md
     - 'BRAVE: Broadening the Visual Encoding of Vision-Language Models': ECCV2024/multimodal_vlm/brave_broadening_the_visual_encoding_of_vision-language_models.md
     - 'BRAVE: Broadening the Visual Encoding of Vision-Language Models': ECCV2024/multimodal_vlm/brave_broadening_the_visual_encoding_of_visionlanguage_model.md
     - 'CLAP: Isolating Content from Style Through Contrastive Learning with Augmented Prompts': ECCV2024/multimodal_vlm/clap_isolating_content_from_style_through_contrastive_learni.md
+    - 'CLAP: Isolating Content from Style through Contrastive Learning with Augmented Prompts': ECCV2024/multimodal_vlm/clap_isolating_content_from_style_through_contrastive_learning_with_augmented_pr.md
+    - Dataset Growth (InfoGrowth): ECCV2024/multimodal_vlm/dataset_growth.md
     - 'DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning': ECCV2024/multimodal_vlm/decoupling_common_and_unique_representations_for_multimodal_.md
+    - Decoupling Common and Unique Representations for Multimodal Self-supervised Learning: ECCV2024/multimodal_vlm/decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md
     - 'Diff-Tracker: Text-to-Image Diffusion Models are Unsupervised Trackers': ECCV2024/multimodal_vlm/difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md
     - 'DreamDrone: Text-to-Image Diffusion Models Are Zero-Shot Perpetual View Generators': ECCV2024/multimodal_vlm/dreamdrone_texttoimage_diffusion_models_are_zeroshot_perpetu.md
     - 'DreamView: Injecting View-Specific Text Guidance Into Text-to-3D Generation': ECCV2024/multimodal_vlm/dreamview_injecting_viewspecific_text_guidance_into_textto3d.md
+    - 'SpLIP: 通过多模态提示学习提升所有零样本草图检索任务': ECCV2024/multimodal_vlm/elevating_all_zero-shot_sketch-based_image_retrieval_through_multimodal_prompt_l.md
     - 'SpLIP: Elevating All Zero-Shot Sketch-Based Image Retrieval Through Multimodal Prompt Learning': ECCV2024/multimodal_vlm/elevating_all_zeroshot_sketchbased_image_retrieval_through_m.md
     - 'Elysium: Exploring Object-Level Perception in Videos via MLLM': ECCV2024/multimodal_vlm/elysium_exploring_objectlevel_perception_in_videos_via_mllm.md
     - Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation: ECCV2024/multimodal_vlm/exploring_pretrained_texttovideo_diffusion_models_for_referr.md
     - 'Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation': ECCV2024/multimodal_vlm/eyes_closed_safety_on_protecting_multimodal_llms_via_image-to-text_transformatio.md
     - 'Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation': ECCV2024/multimodal_vlm/eyes_closed_safety_on_protecting_multimodal_llms_via_imageto.md
+    - 'FlexAttention: 面向高效高分辨率视觉语言模型的灵活注意力机制': ECCV2024/multimodal_vlm/flexattention_for_efficient_high-resolution_vision-language_models.md
     - FlexAttention for Efficient High-Resolution Vision-Language Models: ECCV2024/multimodal_vlm/flexattention_for_efficient_highresolution_visionlanguage_mo.md
+    - 'FreeMotion: MoCap-Free Human Motion Synthesis with Multimodal Large Language Models': ECCV2024/multimodal_vlm/freemotion_mocap-free_human_motion_synthesis_with_multimodal_large_language_mode.md
     - 'FreeMotion: MoCap-Free Human Motion Synthesis with Multimodal Large Language Models': ECCV2024/multimodal_vlm/freemotion_mocapfree_human_motion_synthesis_with_multimodal_.md
     - 'GENIXER: Empowering Multimodal Large Language Model as a Powerful Data Generator': ECCV2024/multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powe.md
+    - 'Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator': ECCV2024/multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator.md
     - 'Getting it Right: Improving Spatial Consistency in Text-to-Image Models': ECCV2024/multimodal_vlm/getting_it_right_improving_spatial_consistency_in_texttoimag.md
     - 'Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models': ECCV2024/multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal.md
     - 'Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models': ECCV2024/multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode.md
+    - 'AutoVER: Grounding Language Models for Visual Entity Recognition': ECCV2024/multimodal_vlm/grounding_language_models_for_visual_entity_recognition.md
     - Improving Medical Multi-modal Contrastive Learning with Expert Annotations: ECCV2024/multimodal_vlm/improving_medical_multimodal_contrastive_learning_with_exper.md
     - 'JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation': ECCV2024/multimodal_vlm/jointdreamer_ensuring_geometry_consistency_and_text_congruen.md
     - Large Motion Model for Unified Multi-Modal Motion Generation: ECCV2024/multimodal_vlm/large_motion_model_for_unified_multimodal_motion_generation.md
@@ -3099,6 +3209,7 @@ nav:
     - 'LayoutDETR: Detection Transformer Is a Good Multimodal Layout Designer': ECCV2024/multimodal_vlm/layoutdetr_detection_transformer_is_a_good_multimodal_layout.md
     - LCM-Lookahead for Encoder-Based Text-to-Image Personalization: ECCV2024/multimodal_vlm/lcmlookahead_for_encoderbased_texttoimage_personalization.md
     - Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality: ECCV2024/multimodal_vlm/learning_trimodal_relation_for_audiovisual_question_answerin.md
+    - 'MarvelOVD: 融合目标检测器与视觉语言模型实现鲁棒开放词汇目标检测': ECCV2024/multimodal_vlm/marvelovd_marrying_object_recognition_and_vision-language_models_for_robust_open.md
     - 'MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection': ECCV2024/multimodal_vlm/marvelovd_marrying_object_recognition_and_visionlanguage_mod.md
     - 'MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?': ECCV2024/multimodal_vlm/mathverse_does_your_multi-modal_llm_truly_see_the_diagrams_in_visual_math_proble.md
     - 'MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math?': ECCV2024/multimodal_vlm/mathverse_does_your_multimodal_llm_truly_see_the_diagrams_in.md
@@ -3185,7 +3296,7 @@ nav:
     - When Do We Not Need Larger Vision Models?: ECCV2024/llm_nlp/when_do_we_not_need_larger_vision_models.md
     - 'WordRobe: Text-Guided Generation of Textured 3D Garments': ECCV2024/llm_nlp/wordrobe_textguided_generation_of_textured_3d_garments.md
     - Zero-Shot Object Counting with Good Exemplars (VA-Count): ECCV2024/llm_nlp/zeroshot_object_counting_with_good_exemplars.md
-  - 🧊 3D 视觉 (10):
+  - 🧊 3D 视觉 (20):
     - 🧊 3D 视觉: ECCV2024/3d_vision/index.md
     - '3D Congealing: 3D-Aware Image Alignment in the Wild': ECCV2024/3d_vision/3d_congealing_3d-aware_image_alignment_in_the_wild.md
     - 3D Reconstruction of Objects in Hands without Real World 3D Supervision: ECCV2024/3d_vision/3d_reconstruction_of_objects_in_hands_without_real_world_3d.md
@@ -3196,7 +3307,17 @@ nav:
     - A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis: ECCV2024/3d_vision/a_compact_dynamic_3d_gaussian_representation_for_realtime_dy.md
     - 'Analytic-Splatting: Anti-Aliased 3D Gaussian Splatting via Analytic Integration': ECCV2024/3d_vision/analytic-splatting_anti-aliased_3d_gaussian_splatting_via_analytic_integration.md
     - 'AnimatableDreamer: Text-Guided Non-rigid 3D Model Generation and Reconstruction with Canonical Score Distillation': ECCV2024/3d_vision/animatabledreamer_text-guided_non-rigid_3d_model_generation_and_reconstruction_w.md
+    - 'CaesarNeRF: Calibrated Semantic Representation for Few-Shot Generalizable Neural Rendering': ECCV2024/3d_vision/caesarnerf_calibrated_semantic_representation_for_few-shot_generalizable_neural_.md
+    - 'D-SCo: Dual-Stream Conditional Diffusion for Monocular Hand-Held Object Reconstruction': ECCV2024/3d_vision/d-sco_dual-stream_conditional_diffusion_for_monocular_hand-held_object_reconstru.md
+    - 'Deceptive-NeRF/3DGS: Diffusion-Generated Pseudo-observations for High-Quality Sparse-View Reconstruction': ECCV2024/3d_vision/deceptive-nerf3dgs_diffusion-generated_pseudo-observations_for_high-quality_spar.md
+    - 'DSPDet3D: 3D Small Object Detection with Dynamic Spatial Pruning': ECCV2024/3d_vision/dspdet3d_3d_small_object_detection_with_dynamic_spatial_pruning.md
+    - 'Gaussian Grouping: Segment and Edit Anything in 3D Scenes': ECCV2024/3d_vision/gaussian_grouping_segment_and_edit_anything_in_3d_scenes.md
+    - 'milliFlow: Scene Flow Estimation on mmWave Radar Point Cloud for Human Motion Sensing': ECCV2024/3d_vision/milliflow_scene_flow_estimation_on_mmwave_radar_point_cloud_for_human_motion_sen.md
     - 'MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo': ECCV2024/3d_vision/mvsgaussian_fast_generalizable_gaussian_splatting_reconstruction_from_multi-view.md
+    - 'NOVUM: Neural Object Volumes for Robust Object Classification': ECCV2024/3d_vision/novum_neural_object_volumes_for_robust_object_classification.md
+    - 'PointLLM: Empowering Large Language Models to Understand Point Clouds': ECCV2024/3d_vision/pointllm_empowering_large_language_models_to_understand_point_clouds.md
+    - Progressive Classifier and Feature Extractor Adaptation for Unsupervised Domain Adaptation on Point Clouds: ECCV2024/3d_vision/progressive_classifier_and_feature_extractor_adaptation_for_unsupervised_domain_.md
+    - When Do We Not Need Larger Vision Models?: ECCV2024/3d_vision/when_do_we_not_need_larger_vision_models.md
   - 🦾 LLM Agent (10):
     - 🦾 LLM Agent: ECCV2024/llm_agent/index.md
     - 'Agent3D-Zero: An Agent for Zero-shot 3D Understanding': ECCV2024/llm_agent/agent3d-zero_an_agent_for_zero-shot_3d_understanding.md
@@ -3243,22 +3364,24 @@ nav:
     - 'AdaLog: Post-Training Quantization for Vision Transformers with Adaptive Logarithm Quantizer': ECCV2024/model_compression/adalog_post-training_quantization_for_vision_transformers_with_adaptive_logarith.md
     - Adaptive Compressed Sensing with Diffusion-Based Posterior Sampling: ECCV2024/model_compression/adaptive_compressed_sensing_with_diffusionbased_posterior_sa.md
     - Adaptive Selection of Sampling-Reconstruction in Fourier Compressed Sensing: ECCV2024/model_compression/adaptive_selection_of_samplingreconstruction_in_fourier_comp.md
-  - ✂️ 语义分割 (4):
+  - ✂️ 语义分割 (5):
     - ✂️ 语义分割: ECCV2024/segmentation/index.md
     - 'A Semantic Space is Worth 256 Language Descriptions: Make Stronger Segmentation Models with Descriptive Properties': ECCV2024/segmentation/a_semantic_space_is_worth_256_language_descriptions_make_str.md
     - A Simple Latent Diffusion Approach for Panoptic Segmentation and Mask Inpainting: ECCV2024/segmentation/a_simple_latent_diffusion_approach_for_panoptic_segmentation_and_mask_inpainting.md
     - 'ActionVOS: Actions as Prompts for Video Object Segmentation': ECCV2024/segmentation/actionvos_actions_as_prompts_for_video_object_segmentation.md
     - Active Coarse-to-Fine Segmentation of Moveable Parts from Real Images: ECCV2024/segmentation/active_coarsetofine_segmentation_of_moveable_parts_from_real.md
+    - Rotary Position Embedding for Vision Transformer: ECCV2024/segmentation/rotary_position_embedding_for_vision_transformer.md
+  - 🎬 视频理解 (4):
+    - 🎬 视频理解: ECCV2024/video_understanding/index.md
+    - 'Adapt2Reward: Adapting Video-Language Models to Generalizable Robotic Rewards via Failure Prompts': ECCV2024/video_understanding/adapt2reward_adapting_videolanguage_models_to_generalizable.md
+    - 'AMEGO: Active Memory from Long EGOcentric Videos': ECCV2024/video_understanding/amego_active_memory_from_long_egocentric_videos.md
+    - On the Utility of 3D Hand Poses for Action Recognition: ECCV2024/video_understanding/on_the_utility_of_3d_hand_poses_for_action_recognition.md
+    - 'R²-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding': ECCV2024/video_understanding/r2tuning_efficient_imagetovideo_transfer_learning_for_video.md
   - 🏥 医学图像 (3):
     - 🏥 医学图像: ECCV2024/medical_imaging/index.md
     - Adaptive Correspondence Scoring for Unsupervised Medical Image Registration: ECCV2024/medical_imaging/adaptive_correspondence_scoring_for_unsupervised_medical_ima.md
     - Alternate Diverse Teaching for Semi-supervised Medical Image Segmentation: ECCV2024/medical_imaging/alternate_diverse_teaching_for_semi-supervised_medical_image_segmentation.md
     - 'NePhi: Neural Deformation Fields for Approximately Diffeomorphic Medical Image Registration': ECCV2024/medical_imaging/textttnephi_neural_deformation_fields_for_approximately_diff.md
-  - 🎬 视频理解 (3):
-    - 🎬 视频理解: ECCV2024/video_understanding/index.md
-    - 'Adapt2Reward: Adapting Video-Language Models to Generalizable Robotic Rewards via Failure Prompts': ECCV2024/video_understanding/adapt2reward_adapting_videolanguage_models_to_generalizable.md
-    - 'AMEGO: Active Memory from Long EGOcentric Videos': ECCV2024/video_understanding/amego_active_memory_from_long_egocentric_videos.md
-    - 'R²-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding': ECCV2024/video_understanding/r2tuning_efficient_imagetovideo_transfer_learning_for_video.md
   - 🚗 自动驾驶 (2):
     - 🚗 自动驾驶: ECCV2024/autonomous_driving/index.md
     - Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention: ECCV2024/autonomous_driving/accelerating_online_mapping_and_behavior_prediction_via_dire.md

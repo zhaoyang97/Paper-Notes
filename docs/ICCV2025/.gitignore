@@ -31,7 +31,7 @@
 !self_supervised/
 !video_understanding/
 
-# 已完成笔记 (118 篇)
+# 已完成笔记 (120 篇)
 !3d_vision/3d_mesh_editing_using_masked_lrms.md
 !3d_vision/3d_testtime_adaptation_via_graph_spectral_driven_point_shift.md
 !3d_vision/3dgraphllm_combining_semantic_graphs_and_large_language_mode.md
@@ -71,6 +71,7 @@
 !3d_vision/bring_your_rear_cameras_for_egocentric_3d_human_pose_estimat.md
 !3d_vision/bufferx_towards_zeroshot_point_cloud_registration_in_diverse.md
 !3d_vision/can3tok_canonical_3d_tokenization_and_latent_modeling_of_sce.md
+!3d_vision/catsplat_contextaware_transformer_with_spatial_guidance_for.md
 !3d_vision/charm3r_towards_unseen_camera_height_robust_monocular_3d_det.md
 !3d_vision/comogaussian_continuous_motionaware_gaussian_splatting_from.md
 !3d_vision/dapmae_domainadaptive_point_cloud_masked_autoencoder_for_eff.md
@@ -90,6 +91,7 @@
 !autonomous_driving/counting_stacked_objects.md
 !human_understanding/a_qualityguided_mixture_of_scorefusion_experts_framework_for.md
 !human_understanding/avat3r_large_animatable_gaussian_reconstruction_model_for_hi.md
+!human_understanding/cargait_crossattention_based_reranking_for_gait_recognition.md
 !image_generation/aether_geometricaware_unified_world_modeling.md
 !image_generation/cycle_consistency_as_reward_learning_imagetext_alignment_wit.md
 !image_generation/dense2moe_restructuring_diffusion_transformer_to_moe_for_eff.md

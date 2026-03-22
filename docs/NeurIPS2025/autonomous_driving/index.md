@@ -31,6 +31,6 @@
 
 :   FutureSightDrive 认为自动驾驶 VLA 的文本 CoT 会把关键视觉时空信息压缩丢失，提出“视觉时空 CoT”范式：先让模型以 world model 方式生成融合未来背景、车道线和 3D 目标框的统一未来帧，再将该 imagined scene 作为推理中介供 inverse-dynamics 规划器生成轨迹，从而显著提升轨迹精度、降低碰撞并改善场景理解。
 
-**[Sdtagnet Leveraging Text-Annotated Navigation Maps For Online Hd Map Constructio](sdtagnet_leveraging_text-annotated_navigation_maps_for_online_hd_map_constructio.md)**
+**[SDTagNet: Leveraging Text-Annotated Navigation Maps for Online HD Map Construction](sdtagnet_leveraging_text-annotated_navigation_maps_for_online_hd_map_constructio.md)**
 
-:   利用OpenStreetMap的文本标注信息（通过NLP embedding和图变换器编码）提升在线HD地图构建质量，实现+45% mAP提升。
+:   提出 SDTagNet，首次通过 BERT 编码 OpenStreetMap 文本标注（路名/车道数/单行道等）并用点级图 Transformer 编码所有 SD 地图元素（点/线/关系），在远距离 HD 地图构建上相比无先验方法提升 +5.9 mAP（+45%），超越已有 SD 地图先验方法 +3.2 mAP（+20%）。

@@ -149,7 +149,7 @@
 
 **[LPWM: Latent Particle World Models for Object-Centric Stochastic Dynamics](latent_particle_world_models_self-supervised_object-centric_stochastic_dynamics_.md)**
 
-:   LPWM 是首个能扩展到真实世界多物体数据集的自监督物体中心世界模型，通过为每个物体学习独立的潜在动作（per-particle latent actions）来建模多物体的独立随机动力学，支持动作/语言/图像目标多种条件生成。
+:   LPWM 是首个能扩展到真实世界多物体数据集的自监督物体中心世界模型，核心创新是为每个粒子学习独立的潜在动作分布（per-particle latent actions），通过因果时空 Transformer 并行编码所有帧，支持动作/语言/图像目标/多视角等多种条件生成，在视频预测上达到 SOTA 并展示了模仿学习能力（OGBench task3 成功率 89%）。
 
 **[Learning Adaptive Distribution Alignment with Neural Characteristic Function for Graph Domain Adaptation](learning_adaptive_distribution_alignment_with_neural_characteristic_function_for.md)**
 
