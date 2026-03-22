@@ -1,9 +1,9 @@
 # Gaussian Certified Unlearning in High Dimensions: A Hypothesis Testing Approach
 
-**会议**: ICLR 2026 Oral
-**arXiv**: [2510.13094](https://arxiv.org/abs/2510.13094)
-**代码**: [匿名仓库](https://anonymous.4open.science/r/unlearning-E14D)
-**领域**: AI Safety / 机器遗忘 / 高维统计
+**会议**: ICLR 2026 Oral  
+**arXiv**: [2510.13094](https://arxiv.org/abs/2510.13094)  
+**代码**: [匿名仓库](https://anonymous.4open.science/r/unlearning-E14D)  
+**领域**: AI Safety / 机器遗忘 / 高维统计  
 **关键词**: machine unlearning, Gaussian certifiability, hypothesis testing, high-dimensional statistics, Newton method, privacy
 
 ## 一句话总结

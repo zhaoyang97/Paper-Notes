@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # BehaviorVLM: Unified Finetuning-Free Behavioral Understanding with Vision-Language Reasoning
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12176](https://arxiv.org/abs/2603.12176)
-**代码**: 待确认
-**领域**: 视频理解 / 动物行为分析
+**会议**: CVPR 2025  
+**arXiv**: [2603.12176](https://arxiv.org/abs/2603.12176)  
+**代码**: 待确认  
+**领域**: 视频理解 / 动物行为分析  
 **关键词**: 动物行为理解, 姿态估计, 视觉语言模型, 零样本推理, 多阶段管线, 量子点标记
 
 ## 一句话总结

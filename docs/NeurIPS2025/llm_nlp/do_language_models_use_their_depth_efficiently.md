@@ -1,8 +1,9 @@
 # Do Language Models Use Their Depth Efficiently?
-**会议**: NeurIPS 2025
-**arXiv**: [2505.13898](https://arxiv.org/abs/2505.13898)
-**代码**: [https://github.com/robertcsordas/llm_effective_depth](https://github.com/robertcsordas/llm_effective_depth)
-**领域**: LLM 可解释性
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.13898](https://arxiv.org/abs/2505.13898)  
+**代码**: [https://github.com/robertcsordas/llm_effective_depth](https://github.com/robertcsordas/llm_effective_depth)  
+**领域**: LLM 可解释性  
 **关键词**: 深度利用效率, 残差流, 层贡献, 因果干预, 相位转变
 
 ## 一句话总结

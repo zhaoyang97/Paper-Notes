@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction with Application to Strong Lens Discovery
 
-**会议**: CVPR2025
-**arXiv**: [2603.09162](https://arxiv.org/abs/2603.09162)
-**代码**: 待确认
-**领域**: image_restoration
+**会议**: CVPR2025  
+**arXiv**: [2603.09162](https://arxiv.org/abs/2603.09162)  
+**代码**: 待确认  
+**领域**: image_restoration  
 **关键词**: radio interferometry, image reconstruction, super-resolution, deep learning, strong gravitational lensing, high dynamic range
 
 ## 一句话总结

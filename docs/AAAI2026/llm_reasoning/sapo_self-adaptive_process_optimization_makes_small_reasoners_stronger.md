@@ -1,9 +1,9 @@
 # SAPO: Self-Adaptive Process Optimization Makes Small Reasoners Stronger
 
-**会议**: AAAI 2026
-**arXiv**: [2601.20312](https://arxiv.org/abs/2601.20312)
-**代码**: 无
-**领域**: 对齐RLHF / 过程监督与推理优化
+**会议**: AAAI 2026  
+**arXiv**: [2601.20312](https://arxiv.org/abs/2601.20312)  
+**代码**: 无  
+**领域**: 对齐RLHF / 过程监督与推理优化  
 **关键词**: process supervision, self-evolution, first error detection, small language models, reasoner-verifier gap
 
 ## 一句话总结
@@ -21,6 +21,7 @@
 6. **核心idea一句话**: 用验证器定位首错位置、推理器做局部后验验证替代逐步MC rollout，以最小成本引入过程监督信号。
 
 ## 方法详解
+
 ### 整体框架
 SAPO采用迭代式探索-利用范式：每轮迭代中，验证器预打分→首错检测→推理器后验验证→验证器更新→构建偏好数据→推理器对齐。推理器和验证器协同进化。
 
@@ -50,6 +51,7 @@ SAPO采用迭代式探索-利用范式：每轮迭代中，验证器预打分→
 - **迭代策略**: 3轮迭代，每轮更新验证器后再优化推理器
 
 ## 实验关键数据
+
 ### 主实验 - 数学推理与代码生成
 
 | 方法 | Qwen-2.5-0.5B GSM8K | Qwen-2.5-0.5B MATH(OOD) | Llama-3.2-1B GSM8K | Gemma-2-2B GSM8K |

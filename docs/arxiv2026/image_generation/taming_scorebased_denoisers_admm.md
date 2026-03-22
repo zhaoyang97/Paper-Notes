@@ -9,11 +9,13 @@
 
 ## 一句话总结
 虽然基于分数的生成模型已成为解决逆问题的强大先验，但将它们直接集成到 ADMM 等优化算法中仍然很重要。
+
 ## 背景与动机
 While score-based generative models have emerged as powerful priors for solving inverse problems, directly integrating them into optimization algorithms such as ADMM remains nontrivial.. Two central challenges arise: i) the mismatch between the noisy data manifolds used to train the score functions and the geometry of ADMM iterates, especially due to the influence of dual variables, and ii) the lack of convergence understanding when ADMM is equipped with score-based denoisers.
 
 ## 核心问题
 虽然基于分数的生成模型已成为解决逆问题的强大先验，但将它们直接集成到 ADMM 等优化算法中仍然很重要。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ While score-based generative models have emerged as powerful priors for solving 
 
 ## 亮点 / 我学到了什么
 - 对一系列反问题的实验表明，我们的方法在各种基线上持续提高了解决方案的质量。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

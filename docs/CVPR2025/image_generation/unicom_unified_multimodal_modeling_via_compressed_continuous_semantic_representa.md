@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # UniCom: Unified Multimodal Modeling via Compressed Continuous Semantic Representations
 
-**会议**: CVPR2025
-**arXiv**: [2603.10702](https://arxiv.org/abs/2603.10702)
-**代码**: [Project Page](https://miazhao7708.github.io/UniComPage/)
-**领域**: image_generation
+**会议**: CVPR2025  
+**arXiv**: [2603.10702](https://arxiv.org/abs/2603.10702)  
+**代码**: [Project Page](https://miazhao7708.github.io/UniComPage/)  
+**领域**: image_generation  
 **关键词**: unified multimodal model, continuous representation, semantic compression, transfusion, image generation
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Fine-Grained Post-Training Quantization for Large Vision Language Models with Quantization-Aware Integrated Gradients
 
-**会议**: CVPR 2026
-**arXiv**: [2603.17809](https://arxiv.org/abs/2603.17809)
-**代码**: https://github.com/ucas-xiang/QIG
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.17809](https://arxiv.org/abs/2603.17809)  
+**代码**: https://github.com/ucas-xiang/QIG  
+**领域**: 多模态VLM  
 **关键词**: 后训练量化, LVLM压缩, token级敏感度, 积分梯度, 模型加速
 
 ## 一句话总结

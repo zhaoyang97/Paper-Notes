@@ -1,9 +1,9 @@
 # ScaleQuest: Unleashing LLM Reasoning Capability via Scalable Question Synthesis from Scratch
 
-**会议**: ACL 2025
-**arXiv**: [2410.18693](https://arxiv.org/abs/2410.18693)
-**代码**: https://scalequest.github.io
-**领域**: LLM推理 / 数据合成
+**会议**: ACL 2025  
+**arXiv**: [2410.18693](https://arxiv.org/abs/2410.18693)  
+**代码**: https://scalequest.github.io  
+**领域**: LLM推理 / 数据合成  
 **关键词**: math reasoning, question synthesis, QFT, QPO, data scaling, instruction tuning
 
 ## 一句话总结

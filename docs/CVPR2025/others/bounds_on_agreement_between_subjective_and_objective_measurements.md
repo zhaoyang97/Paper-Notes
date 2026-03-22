@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Bounds on Agreement between Subjective and Objective Measurements
 
-**会议**: CVPR 2025
-**arXiv**: [2603.13204](https://arxiv.org/abs/2603.13204)
-**代码**: 待确认
-**领域**: 其他 / 质量评估 / 统计理论
+**会议**: CVPR 2025  
+**arXiv**: [2603.13204](https://arxiv.org/abs/2603.13204)  
+**代码**: 待确认  
+**领域**: 其他 / 质量评估 / 统计理论  
 **关键词**: 主观测试, 客观估计器, MOS, 皮尔逊相关系数, 均方误差, 二项分布投票模型
 
 ## 一句话总结

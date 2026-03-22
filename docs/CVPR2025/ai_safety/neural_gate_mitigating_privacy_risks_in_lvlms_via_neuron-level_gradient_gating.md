@@ -1,9 +1,9 @@
 # Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12598](https://arxiv.org/abs/2603.12598)
-**代码**: 待确认
-**领域**: AI安全 / 隐私保护
+**会议**: CVPR 2025  
+**arXiv**: [2603.12598](https://arxiv.org/abs/2603.12598)  
+**代码**: 待确认  
+**领域**: AI安全 / 隐私保护  
 **关键词**: LVLM隐私, 神经元编辑, 梯度门控, 隐私保护, 模型编辑
 
 ## 一句话总结

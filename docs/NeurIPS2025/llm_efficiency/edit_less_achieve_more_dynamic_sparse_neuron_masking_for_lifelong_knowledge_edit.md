@@ -19,6 +19,7 @@
 - 缺乏对 FFN 层中不同功能神经元的精细理解，无法实现"只改该改的"
 
 ## 方法详解
+
 ### 神经元级归因（Neuron Attribution）
 - 将 FFN 视为 key-value 关联记忆：第 i 个神经元的 key 为 W^in 的第 i 行，value 为 W^out 的第 i 列
 - 通过扰动法量化每个神经元对目标 token 预测的贡献：放大第 i 个神经元输出 s^(i)，计算 log 概率增益 Imp^(i)

@@ -1,9 +1,9 @@
 # Interleaved-Modal Chain-of-Thought
 
-**会议**: CVPR 2025
-**arXiv**: [2411.19488](https://arxiv.org/abs/2411.19488)
-**代码**: https://github.com/jungao1106/ICoT
-**领域**: LLM推理
+**会议**: CVPR 2025  
+**arXiv**: [2411.19488](https://arxiv.org/abs/2411.19488)  
+**代码**: https://github.com/jungao1106/ICoT  
+**领域**: LLM推理  
 **关键词**: Chain-of-Thought, 多模态推理, VLM, 交错模态, 注意力选择, 即插即用
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Mesh-Pro: Asynchronous Advantage-guided Ranking Preference Optimization for Artist-style Quadrilateral Mesh Generation
 
-**会议**: CVPR2026
-**arXiv**: [2603.00526](https://arxiv.org/abs/2603.00526)
-**代码**: 待确认
-**领域**: llm_alignment
+**会议**: CVPR2026  
+**arXiv**: [2603.00526](https://arxiv.org/abs/2603.00526)  
+**代码**: 待确认  
+**领域**: llm_alignment  
 **关键词**: mesh generation, reinforcement learning, preference optimization, artist-style mesh, quadrilateral mesh, online RL
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2509.22496](https://arxiv.org/abs/2509.22496)
-**代码**: https://ruoyuchen10.github.io/EAGLE/
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2509.22496](https://arxiv.org/abs/2509.22496)  
+**代码**: https://ruoyuchen10.github.io/EAGLE/  
+**领域**: 多模态VLM  
 **关键词**: MLLM可解释性, 归因分析, 幻觉诊断, 语言先验vs感知证据, 黑盒方法
 
 ## 一句话总结

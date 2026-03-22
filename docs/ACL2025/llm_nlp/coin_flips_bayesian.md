@@ -1,8 +1,8 @@
 # Enough Coin Flips Can Make LLMs Act Bayesian
 
-**会议**: ACL 2025
-**arXiv**: [2503.04722](https://arxiv.org/abs/2503.04722)
-**领域**: LLM 推理
+**会议**: ACL 2025  
+**arXiv**: [2503.04722](https://arxiv.org/abs/2503.04722)  
+**领域**: LLM 推理  
 **关键词**: 贝叶斯推理, 上下文学习, 概率建模, 先验校准, 抛硬币实验
 
 ## 一句话总结

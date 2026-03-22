@@ -1,8 +1,8 @@
 # Towards the Law of Capacity Gap in Distilling Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2311.07052](https://arxiv.org/abs/2311.07052)
-**领域**: LLM / Model Compression
+**会议**: ACL 2025  
+**arXiv**: [2311.07052](https://arxiv.org/abs/2311.07052)  
+**领域**: LLM / Model Compression  
 **关键词**: 知识蒸馏, 容量差距, Scaling Law, 模型压缩, MiniMA
 
 ## 一句话总结

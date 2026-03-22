@@ -1,10 +1,10 @@
 # Causal Estimation of Tokenisation Bias
 
-**会议**: ACL 2025
-**arXiv**: [2506.03149](https://arxiv.org/abs/2506.03149)
-**代码**: [GitHub](https://github.com/pietrolesci/tokenisation-bias)
+**会议**: ACL 2025  
+**arXiv**: [2506.03149](https://arxiv.org/abs/2506.03149)  
+**代码**: [GitHub](https://github.com/pietrolesci/tokenisation-bias)  
 **机构**: University of Cambridge & ETH Zürich
-**领域**: AI安全
+**领域**: AI安全  
 **关键词**: tokenisation bias, causal inference, regression discontinuity, BPE, WordPiece, vocabulary, language model
 
 ## 一句话总结

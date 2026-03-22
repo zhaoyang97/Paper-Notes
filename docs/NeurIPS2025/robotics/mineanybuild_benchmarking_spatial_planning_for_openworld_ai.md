@@ -1,9 +1,9 @@
 # MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents
 
-**会议**: NeurIPS 2025 (Datasets & Benchmarks)
-**arXiv**: [2505.20148](https://arxiv.org/abs/2505.20148)
-**代码**: [项目主页](https://mineanybuild.github.io/)
-**领域**: 多模态VLM / Agent / 空间规划
+**会议**: NeurIPS 2025 (Datasets & Benchmarks)  
+**arXiv**: [2505.20148](https://arxiv.org/abs/2505.20148)  
+**代码**: [项目主页](https://mineanybuild.github.io/)  
+**领域**: 多模态VLM / Agent / 空间规划  
 **关键词**: spatial planning, Minecraft, open-world agent, MLLM benchmark, spatial intelligence
 
 ## 一句话总结

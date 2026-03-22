@@ -1,9 +1,9 @@
 # Draft and Refine with Visual Experts
 
-**会议**: CVPR 2026
-**arXiv**: [2511.11005](https://arxiv.org/abs/2511.11005)
-**代码**: [GitHub](https://github.com/SungheonJeong/DnR)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2511.11005](https://arxiv.org/abs/2511.11005)  
+**代码**: [GitHub](https://github.com/SungheonJeong/DnR)  
+**领域**: 多模态VLM  
 **关键词**: 视觉利用度量化, Agent框架, 幻觉缓解, 视觉专家协同, 免训练
 
 ## 一句话总结

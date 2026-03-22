@@ -1,9 +1,9 @@
 # FINER: MLLMs Hallucinate under Fine-grained Negative Queries
 
-**会议**: CVPR 2026
-**arXiv**: [2603.17662](https://arxiv.org/abs/2603.17662)
-**代码**: https://explainableml.github.io/finer-project/
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.17662](https://arxiv.org/abs/2603.17662)  
+**代码**: https://explainableml.github.io/finer-project/  
+**领域**: 多模态VLM  
 **关键词**: MLLM幻觉, 细粒度负查询, DPO, 场景图, 幻觉基准
 
 ## 一句话总结

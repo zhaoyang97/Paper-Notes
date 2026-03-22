@@ -1,4 +1,5 @@
 # Bootstrap3D: Improving Multi-view Diffusion Model with Synthetic Data
+
 **会议**: ICCV 2025  
 **arXiv**: [2406.00093](https://arxiv.org/abs/2406.00093)  
 **代码**: [https://github.com/SunzeY/Bootstrap3D](https://github.com/SunzeY/Bootstrap3D) (有)  

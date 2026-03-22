@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12008](https://arxiv.org/abs/2603.12008)
-**代码**: [VisionXLab/CrossEarth-SAR](https://github.com/VisionXLab/CrossEarth-SAR)
-**领域**: 图像分割 / SAR遥感 / 基础模型
+**会议**: CVPR 2025  
+**arXiv**: [2603.12008](https://arxiv.org/abs/2603.12008)  
+**代码**: [VisionXLab/CrossEarth-SAR](https://github.com/VisionXLab/CrossEarth-SAR)  
+**领域**: 图像分割 / SAR遥感 / 基础模型  
 **关键词**: SAR 基础模型, 域泛化语义分割, 稀疏混合专家, 物理引导路由, 十亿参数
 
 ## 一句话总结

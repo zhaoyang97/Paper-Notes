@@ -1,9 +1,9 @@
 # LLMind: Bio-inspired Training-free Adaptive Visual Representations for Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.14882](https://arxiv.org/abs/2603.14882)
-**代码**: https://empactlab.github.io/LLMind-CVPR-2026/
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.14882](https://arxiv.org/abs/2603.14882)  
+**代码**: https://empactlab.github.io/LLMind-CVPR-2026/  
+**领域**: 多模态VLM  
 **关键词**: 仿生视觉采样, Möbius变换, 训练免调, 像素预算, VQA
 
 ## 一句话总结
@@ -69,9 +69,11 @@
 - 向日葵采样和径向采样同样表现不佳
 - CSF 闭环反馈是性能增益的关键驱动力
 - region-guided VQA 中，1% 像素下 LLMind 甚至超越全分辨率准确率
+
 ### 对比方法细节
 - Static Foveated、Sunflower Inspired、Radial Sampling 均劣于均匀采样，证明静态中央凹编码无法应对多样化任务
 - 自适应问题选择策略的指数加权使优化聚焦于难例，加速收敛
+
 ## 亮点
 - 首次将神经科学的中央凹编码和皮层放大机制系统地引入 VLM 视觉表征研究
 - 完全 training-free、plug-and-play，兼容白盒和黑盒 VLM（包括闭源 API）

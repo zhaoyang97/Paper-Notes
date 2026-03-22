@@ -1,9 +1,9 @@
 # Self-Improving Skill Learning for Robust Skill-based Meta-Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2502.03752](https://arxiv.org/abs/2502.03752)
-**代码**: [github.com/epsilog/SISL](https://github.com/epsilog/SISL)
-**领域**: 强化学习 / 元学习 / 技能学习
+**会议**: ICLR 2026  
+**arXiv**: [2502.03752](https://arxiv.org/abs/2502.03752)  
+**代码**: [github.com/epsilog/SISL](https://github.com/epsilog/SISL)  
+**领域**: 强化学习 / 元学习 / 技能学习  
 **关键词**: meta-RL, skill learning, noisy demonstrations, self-improvement, maximum return relabeling
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Attention Prompting on Image for Large Vision-Language Models
 
-**会议**: ECCV 2024
-**arXiv**: [2409.17143](https://arxiv.org/abs/2409.17143)
-**代码**: [GitHub](https://github.com/yu-rp/apiprompting)
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2409.17143](https://arxiv.org/abs/2409.17143)  
+**代码**: [GitHub](https://github.com/yu-rp/apiprompting)  
+**领域**: 多模态VLM  
 **关键词**: 视觉提示, 注意力热力图, LVLM, 自反思, VQA
 
 ## 一句话总结

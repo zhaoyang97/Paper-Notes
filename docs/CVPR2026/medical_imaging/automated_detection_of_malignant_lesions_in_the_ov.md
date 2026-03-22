@@ -16,6 +16,7 @@
 如何在小规模卵巢癌组织病理数据上构建高准确率分类模型，并通过 XAI 为临床决策提供透明依据？
 
 ## 方法详解
+
 ### 整体框架
 从 Mendeley 数据集获取 5 类（Clear Cell、Endometri、Mucinous、Non Cancerous、Serous）共 498 张组织病理图像。经数据增强扩充至 2490 张后，系统训练 15 种 CNN 变体，选出最佳模型后叠加 XAI 解释。
 

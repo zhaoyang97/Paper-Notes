@@ -8,7 +8,7 @@
 | 领域 | 篇数 |
 |:-----|-----:|
 | 🧊 [3D 视觉](#3d_vision) | 49 |
-| 👁️ [多模态 VLM](#multimodal_vlm) | 22 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 22 |
 | 🚗 [自动驾驶](#autonomous_driving) | 9 |
 | 🎨 [图像生成](#image_generation) | 6 |
 | ✂️ [语义分割](#segmentation) | 6 |
@@ -231,7 +231,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[AdvDreamer Unveils: Are Vision-Language Models Truly Ready for Real-World 3D Variations?](multimodal_vlm/advdreamer_unveils_are_visionlanguage_models_truly_ready_for.md)**
 

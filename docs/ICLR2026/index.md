@@ -16,7 +16,7 @@
 | 🛡️ [AI 安全](#ai_safety) | 21 |
 | 📦 [模型压缩](#model_compression) | 21 |
 | ⚖️ [对齐 / RLHF](#llm_alignment) | 19 |
-| 👁️ [多模态 VLM](#multimodal_vlm) | 19 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 19 |
 | ⚡ [LLM 效率](#llm_efficiency) | 16 |
 | 🎯 [目标检测](#object_detection) | 16 |
 | 🤖 [机器人/具身智能](#robotics) | 16 |
@@ -1276,7 +1276,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models](multimodal_vlm/a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi.md)**
 

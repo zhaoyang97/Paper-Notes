@@ -9,11 +9,13 @@
 
 ## 一句话总结
 尽管最近的开放词汇目标检测架构（例如 Grounding DINO）展示了强大的零样本能力，但它们的性能在域转换下会显着下降。
+
 ## 背景与动机
 Although recent Open-Vocabulary Object Detection architectures, such as Grounding DINO, demonstrate strong zero-shot capabilities, their performance degrades significantly under domain shifts.. Moreover, many domains of practical interest, such as nighttime or foggy scenes, lack large annotated datasets, preventing direct fine-tuning.
 
 ## 核心问题
 此外，许多实际感兴趣的领域，例如夜间或雾天场景，缺乏大型注释数据集，无法直接进行微调。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Although recent Open-Vocabulary Object Detection architectures, such as Groundin
 ## 亮点 / 我学到了什么
 - 尽管最近的开放词汇目标检测架构（例如 Grounding DINO）展示了强大的零样本能力，但它们的性能在域转换下会显着下降。
 - 跨越具有挑战性的领域转换的广泛实验表明，ABRA 在多种不利条件下成功传送了职业级别的专业化。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

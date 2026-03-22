@@ -1,9 +1,9 @@
 # Directional Sheaf Hypergraph Networks: Unifying Learning on Directed and Undirected Hypergraphs
 
-**会议**: ICLR 2026
-**arXiv**: [2510.04727](https://arxiv.org/abs/2510.04727)
-**代码**: [GitHub](https://github.com/EmaMule/DirectionalSheafHypergraphs)
-**领域**: 图神经网络 / 超图学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.04727](https://arxiv.org/abs/2510.04727)  
+**代码**: [GitHub](https://github.com/EmaMule/DirectionalSheafHypergraphs)  
+**领域**: 图神经网络 / 超图学习  
 **关键词**: sheaf neural networks, directed hypergraphs, Laplacian, spectral methods, heterophily
 
 ## 一句话总结

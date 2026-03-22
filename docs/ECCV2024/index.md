@@ -7,7 +7,7 @@
 
 | 领域 | 篇数 |
 |:-----|-----:|
-| 👁️ [多模态 VLM](#multimodal_vlm) | 71 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 71 |
 | 💬 [LLM / NLP](#llm_nlp) | 50 |
 | 🧊 [3D 视觉](#3d_vision) | 10 |
 | 🦾 [LLM Agent](#llm_agent) | 10 |
@@ -30,7 +30,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis](multimodal_vlm/a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md)**
 

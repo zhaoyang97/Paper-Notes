@@ -1,9 +1,9 @@
 # Query-Guided Spatial-Temporal-Frequency Interaction for Music Audio-Visual Question Answering
 
-**会议**: ICLR 2026
-**arXiv**: [2601.19821](https://arxiv.org/abs/2601.19821)
-**代码**: 发表后公开
-**领域**: 视频理解 / 音频-视觉问答
+**会议**: ICLR 2026  
+**arXiv**: [2601.19821](https://arxiv.org/abs/2601.19821)  
+**代码**: 发表后公开  
+**领域**: 视频理解 / 音频-视觉问答  
 **关键词**: Audio-Visual QA, 频域交互, Query引导, 空间-时序感知, 多模态推理
 
 ## 一句话总结

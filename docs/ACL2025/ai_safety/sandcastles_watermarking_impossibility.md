@@ -1,10 +1,10 @@
 # Sandcastles in the Storm: Revisiting Watermarking Impossibility
 
-**会议**: ACL 2025
-**arXiv**: [2505.06827](https://arxiv.org/abs/2505.06827)
-**代码**: 无
+**会议**: ACL 2025  
+**arXiv**: [2505.06827](https://arxiv.org/abs/2505.06827)  
+**代码**: 无  
 **机构**: University of California, Los Angeles (UCLA)
-**领域**: AI安全
+**领域**: AI安全  
 **关键词**: watermarking, impossibility result, random walk attack, mixing time, quality oracle, robustness, WITS
 
 ## 一句话总结

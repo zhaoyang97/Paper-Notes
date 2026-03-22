@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # When to Lock Attention: Training-Free KV Control in Video Diffusion
 
-**会议**: CVPR2025
-**arXiv**: [2603.09657](https://arxiv.org/abs/2603.09657)
-**代码**: 待确认
-**领域**: image_generation
+**会议**: CVPR2025  
+**arXiv**: [2603.09657](https://arxiv.org/abs/2603.09657)  
+**代码**: 待确认  
+**领域**: image_generation  
 **关键词**: video editing, KV cache, training-free, diffusion hallucination detection, classifier-free guidance, DiT
 
 ## 一句话总结

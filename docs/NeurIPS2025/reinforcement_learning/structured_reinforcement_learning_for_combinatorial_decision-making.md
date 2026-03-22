@@ -1,9 +1,9 @@
 # Structured Reinforcement Learning for Combinatorial Decision-Making
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.19053](https://arxiv.org/abs/2505.19053)
-**代码**: [GitHub](https://github.com/tumBAIS/Structured-RL)
-**领域**: 强化学习 / 组合优化 / 运筹学
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.19053](https://arxiv.org/abs/2505.19053)  
+**代码**: [GitHub](https://github.com/tumBAIS/Structured-RL)  
+**领域**: 强化学习 / 组合优化 / 运筹学  
 **关键词**: combinatorial MDP, structured actor, Fenchel-Young loss, COAML pipeline, primal-dual algorithm
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 尽管深度学习模型取得了令人瞩目的成就，但其计算成本和内存要求较高，限制了它们在资源有限的环境中的可用性。
+
 ## 背景与动机
 Deep learning models, despite their impressive achievements, suffer from high computational costs and memory requirements, limiting their usability in resource-constrained environments.. Sparse neural networks significantly alleviate these constraints by dramatically reducing parameter count and computational overhead.
 
 ## 核心问题
 尽管深度学习模型取得了令人瞩目的成就，但其计算成本和内存要求较高，限制了它们在资源有限的环境中的可用性。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Deep learning models, despite their impressive achievements, suffer from high co
 ## 亮点 / 我学到了什么
 - 尽管深度学习模型取得了令人瞩目的成就，但其计算成本和内存要求较高，限制了它们在资源有限的环境中的可用性。
 - 此外，使用 ZO-SAM 训练的模型在分布变化下表现出更高的鲁棒性，进一步扩大了其在实际部署中的实用性。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

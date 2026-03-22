@@ -1,4 +1,5 @@
 # CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models
+
 **会议**: AAAI 2026  
 **arXiv**: [2511.12263](https://arxiv.org/abs/2511.12263)  
 **代码**: [https://github.com/chuntianli666/CrossVid](https://github.com/chuntianli666/CrossVid)  

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 苏木精和伊红 (H&E) 图像的虚拟免疫组织化学 (IHC) 染色可以直接从常规切片中提供初步的分子洞察，从而加快诊断速度，从而减少组织有限时重复切片的需要。
+
 ## 背景与动机
 Virtual immunohistochemistry (IHC) staining from hematoxylin and eosin (H&E) images can accelerate diagnostics by providing preliminary molecular insight directly from routine sections, reducing the need for repeat sectioning when tissue is limited.. Existing methods improve realism through contrastive objectives, prototype matching, or domain alignment, yet the generator itself receives no direct guidance from pathology foundation models.
 
 ## 核心问题
 苏木精和伊红 (H&E) 图像的虚拟免疫组织化学 (IHC) 染色可以直接从常规切片中提供初步的分子洞察，从而加快诊断速度，从而减少组织有限时重复切片的需要。
+
 ## 方法详解
 
 ### 整体框架
@@ -37,6 +39,7 @@ Virtual immunohistochemistry (IHC) staining from hematoxylin and eosin (H&E) ima
 - 现有方法通过对比目标、原型匹配或域对齐来提高真实性，但生成器本身没有收到来自病理学基础模型的直接指导。
 - 在 MIST 上，UNIStainNet 通过单个统一模型实现了所有四种染色剂（HER2、Ki67、ER、PR）的最先进的分布指标，其中先前的方法通常训练单独的每个染色剂模型。
 - 在 BCI 上，它也实现了最佳的分布指标。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

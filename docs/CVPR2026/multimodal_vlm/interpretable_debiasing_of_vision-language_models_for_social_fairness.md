@@ -1,9 +1,9 @@
 # Interpretable Debiasing of Vision-Language Models for Social Fairness
 
-**会议**: CVPR 2026
-**arXiv**: [2602.24014](https://arxiv.org/abs/2602.24014)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.24014](https://arxiv.org/abs/2602.24014)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: VLM去偏, 社会公平, 稀疏自编码器, 可解释性, 神经元调控
 
 ## 一句话总结

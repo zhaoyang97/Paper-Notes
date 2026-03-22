@@ -1,9 +1,9 @@
 # Adaptive Morph-Patch Transformer for Aortic Vessel Segmentation
 
-**会议**: AAAI 2026
-**arXiv**: [2511.06897](https://arxiv.org/abs/2511.06897)
-**代码**: [https://github.com/iCherishxixixi/MPTransformer](https://github.com/iCherishxixixi/MPTransformer)
-**领域**: 医学图像分割 / Transformer
+**会议**: AAAI 2026  
+**arXiv**: [2511.06897](https://arxiv.org/abs/2511.06897)  
+**代码**: [https://github.com/iCherishxixixi/MPTransformer](https://github.com/iCherishxixixi/MPTransformer)  
+**领域**: 医学图像分割 / Transformer  
 **关键词**: 主动脉分割, 形态感知 patch, 语义聚类注意力, 微分同胚变形, 速度场
 
 ## 一句话总结

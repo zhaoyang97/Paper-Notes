@@ -16,6 +16,7 @@ VLM（如CLIP）在开放世界部署时需要可靠的OOD检测。Zero-shot OOD
 如何在没有训练和标注的情况下，动态调整用于OOD检测的跨模态proxy，使其在test-time适应分布偏移？
 
 ## 方法详解
+
 ### 整体框架
 CoEvo在test-time维护两个演化的proxy缓存（文本proxy缓存+视觉proxy缓存），通过双向co-evolution机制持续更新。
 

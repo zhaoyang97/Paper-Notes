@@ -9,11 +9,13 @@
 
 ## 一句话总结
 虽然大规模扩散模型彻底改变了视频合成，但实现对多主体身份和多粒度运动的精确控制仍然是一个重大挑战。
+
 ## 背景与动机
 While large-scale diffusion models have revolutionized video synthesis, achieving precise control over both multi-subject identity and multi-granularity motion remains a significant challenge.. Recent attempts to bridge this gap often suffer from limited motion granularity, control ambiguity, and identity degradation, leading to suboptimal performance on identity preservation and motion control.
 
 ## 核心问题
 虽然大规模扩散模型彻底改变了视频合成，但实现对多主体身份和多粒度运动的精确控制仍然是一个重大挑战。
+
 ## 方法详解
 
 ### 整体框架
@@ -40,6 +42,7 @@ While large-scale diffusion models have revolutionized video synthesis, achievin
 
 ## 亮点 / 我学到了什么
 - 在我们精心策划的大规模数据集和用于多主体和全运动控制评估的综合性 DreamOmni Bench 的支持下，DreamVideo-Omni 在生成具有精确可控性的高质量视频方面表现出了卓越的性能。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

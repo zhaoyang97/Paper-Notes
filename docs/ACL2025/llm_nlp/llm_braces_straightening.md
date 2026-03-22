@@ -1,8 +1,8 @@
 # LLM Braces: Straightening Out LLM Predictions with Relevant Sub-Updates
 
-**会议**: ACL 2025
-**arXiv**: [2503.16334](https://arxiv.org/abs/2503.16334)
-**领域**: LLM NLP / 模型可解释性与参数高效微调
+**会议**: ACL 2025  
+**arXiv**: [2503.16334](https://arxiv.org/abs/2503.16334)  
+**领域**: LLM NLP / 模型可解释性与参数高效微调  
 **关键词**: FFN子更新, 相关性得分, 参数高效微调, 可控文本生成, 低秩投影
 
 ## 一句话总结

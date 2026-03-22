@@ -9,11 +9,13 @@
 
 ## 一句话总结
 大型语言模型通常被视为高维非线性系统并被视为黑匣子。
+
 ## 背景与动机
 Large language models are often viewed as high-dimensional nonlinear systems and treated as black boxes.. Here, we show that transformer depth dynamics admit accurate low-order linear surrogates within context.
 
 ## 核心问题
 大型语言模型通常被视为高维非线性系统并被视为黑匣子。
+
 ## 方法详解
 
 ### 整体框架
@@ -35,6 +37,7 @@ Large language models are often viewed as high-dimensional nonlinear systems and
 
 ## 亮点 / 我学到了什么
 - 然后，我们发现了一个令人惊讶的缩放原理：对于固定阶线性代理，与整个模型的一致性随着 GPT-2 系列的模型大小单调提高。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

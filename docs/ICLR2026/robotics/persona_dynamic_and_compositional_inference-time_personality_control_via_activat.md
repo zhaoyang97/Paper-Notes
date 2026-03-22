@@ -1,9 +1,9 @@
 # PERSONA: Dynamic and Compositional Inference-Time Personality Control via Activation Vector Algebra
 
-**会议**: ICLR 2026
-**arXiv**: [2602.15669](https://arxiv.org/abs/2602.15669)
-**代码**: [GitHub](https://github.com/) (论文声明公开)
-**领域**: 模型压缩 / LLM效率 / 可解释性控制
+**会议**: ICLR 2026  
+**arXiv**: [2602.15669](https://arxiv.org/abs/2602.15669)  
+**代码**: [GitHub](https://github.com/) (论文声明公开)  
+**领域**: 模型压缩 / LLM效率 / 可解释性控制  
 **关键词**: personality control, activation steering, vector algebra, inference-time, Big Five
 
 ## 一句话总结

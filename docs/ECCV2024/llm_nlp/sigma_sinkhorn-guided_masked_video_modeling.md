@@ -1,9 +1,9 @@
 # SIGMA: Sinkhorn-Guided Masked Video Modeling
 
-**会议**: ECCV 2024
-**arXiv**: [2407.15447](https://arxiv.org/abs/2407.15447)
-**代码**: [https://quva-lab.github.io/SIGMA](https://quva-lab.github.io/SIGMA)
-**领域**: Self-supervised Video Learning
+**会议**: ECCV 2024  
+**arXiv**: [2407.15447](https://arxiv.org/abs/2407.15447)  
+**代码**: [https://quva-lab.github.io/SIGMA](https://quva-lab.github.io/SIGMA)  
+**领域**: Self-supervised Video Learning  
 **关键词**: masked video modeling, self-supervised learning, optimal transport, Sinkhorn algorithm, video representation
 
 ## 一句话总结

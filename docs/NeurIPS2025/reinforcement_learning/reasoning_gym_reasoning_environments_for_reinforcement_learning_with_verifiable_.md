@@ -1,8 +1,9 @@
 # Reasoning Gym: Reasoning Environments for Reinforcement Learning with Verifiable Rewards
-**会议**: NeurIPS 2025
-**arXiv**: [2505.24760](https://arxiv.org/abs/2505.24760)
-**代码**: [GitHub](https://github.com/open-thought/reasoning-gym/)
-**领域**: LLM推理训练与强化学习
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.24760](https://arxiv.org/abs/2505.24760)  
+**代码**: [GitHub](https://github.com/open-thought/reasoning-gym/)  
+**领域**: LLM推理训练与强化学习  
 **关键词**: RL环境, 可验证奖励, 过程生成, 课程学习, 推理任务
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. **研究机会**: 设计程序生成的推理任务，具有自动验证和无限可扩展性
 
 ## 方法详解
+
 ### 整体框架
 Reasoning Gym采用模块化设计，覆盖8大推理领域：
 
@@ -37,6 +39,7 @@ Reasoning Gym采用模块化设计，覆盖8大推理领域：
 - 非推理模型与推理模型22%的性能差距
 
 ## 实验关键数据
+
 ### 零样本性能对比 (hard配置)
 
 | 模型类型 | o3-mini | Deepseek-R1 | Llama 4 | Claude 3.5 | 平均 |

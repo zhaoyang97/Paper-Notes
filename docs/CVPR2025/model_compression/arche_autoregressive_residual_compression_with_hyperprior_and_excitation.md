@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # ARCHE: Autoregressive Residual Compression with Hyperprior and Excitation
 
-**会议**: CVPR 2025
-**arXiv**: [2603.10188](https://arxiv.org/abs/2603.10188)
-**代码**: [sof-il/ARCHE](https://github.com/sof-il/ARCHE)
-**领域**: 模型压缩 / 学习型图像压缩
+**会议**: CVPR 2025  
+**arXiv**: [2603.10188](https://arxiv.org/abs/2603.10188)  
+**代码**: [sof-il/ARCHE](https://github.com/sof-il/ARCHE)  
+**领域**: 模型压缩 / 学习型图像压缩  
 **关键词**: 学习型图像压缩, 自回归熵模型, Hyperprior, Squeeze-and-Excitation, 残差预测
 
 ## 一句话总结

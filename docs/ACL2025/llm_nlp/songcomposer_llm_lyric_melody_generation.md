@@ -1,8 +1,8 @@
 # SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition
 
-**会议**: ACL 2025
-**arXiv**: [2402.17645](https://arxiv.org/abs/2402.17645)
-**领域**: LLM / Music Generation
+**会议**: ACL 2025  
+**arXiv**: [2402.17645](https://arxiv.org/abs/2402.17645)  
+**领域**: LLM / Music Generation  
 **关键词**: 歌曲生成, 歌词旋律对齐, 符号音乐表示, 音高初始化, 渐进式训练
 
 ## 一句话总结

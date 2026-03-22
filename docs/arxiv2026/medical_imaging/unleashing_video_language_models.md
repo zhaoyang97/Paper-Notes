@@ -9,11 +9,13 @@
 
 ## 一句话总结
 从高分辨率计算机断层扫描 (HRCT) 生成精确的诊断报告对于临床工作流程至关重要，但由于 3D 体积内的高度病理多样性和空间稀疏性，它仍然是一个艰巨的挑战。
+
 ## 背景与动机
 Generating precise diagnostic reports from High-Resolution Computed Tomography (HRCT) is critical for clinical workflow, yet it remains a formidable challenge due to the high pathological diversity and spatial sparsity within 3D volumes.. While Video Language Models (VideoLMs) have demonstrated remarkable spatio-temporal reasoning in general domains, their adaptability to domain-specific, high-volume medical interpretation remains underexplored.
 
 ## 核心问题
 从高分辨率计算机断层扫描 (HRCT) 生成精确的诊断报告对于临床工作流程至关重要，但由于 3D 体积内的高度病理多样性和空间稀疏性，它仍然是一个艰巨的挑战。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Generating precise diagnostic reports from High-Resolution Computed Tomography (
 - 虽然视频语言模型 (VideoLM) 在一般领域表现出了卓越的时空推理能力，但它们对特定领域、大容量医学解释的适应性仍有待探索。
 - 我们的结果表明，在这种范式的指导下，通用 VideoLM 具有向大容量医学成像的强大可移植性。
 - 值得注意的是，AbSteering 的性能优于最先进的特定领域 CT 基础模型，后者经过大规模 CT 预训练，实现了卓越的检测灵敏度，同时减轻了幻觉。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

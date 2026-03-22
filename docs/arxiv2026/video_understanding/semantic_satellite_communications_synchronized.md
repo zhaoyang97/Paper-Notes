@@ -9,11 +9,13 @@
 
 ## 一句话总结
 卫星通信在支持高保真同步视听服务方面面临严重瓶颈，因为传统方案在波动的信道条件、有限的带宽和较长的传播延迟下难以实现跨模态一致性。
+
 ## 背景与动机
 Satellite communications face severe bottlenecks in supporting high-fidelity synchronized audiovisual services, as conventional schemes struggle with cross-modal coherence under fluctuating channel conditions, limited bandwidth, and long propagation delays.. To address these limitations, this paper proposes an adaptive multimodal semantic transmission system tailored for satellite scenarios, aiming for high-quality synchronized audiovisual reconstruction under bandwidth constraints.
 
 ## 核心问题
 卫星通信在支持高保真同步视听服务方面面临严重瓶颈，因为传统方案在波动的信道条件、有限的带宽和较长的传播延迟下难以实现跨模态一致性。
+
 ## 方法详解
 
 ### 整体框架
@@ -40,6 +42,7 @@ Satellite communications face severe bottlenecks in supporting high-fidelity syn
 
 ## 亮点 / 我学到了什么
 - 仿真结果表明，所提出的系统显着降低了带宽消耗，同时实现了高保真视听同步，提高了在具有挑战性的卫星场景中的传输效率和鲁棒性。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

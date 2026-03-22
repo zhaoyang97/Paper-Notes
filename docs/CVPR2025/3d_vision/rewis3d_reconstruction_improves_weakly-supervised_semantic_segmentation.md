@@ -1,9 +1,9 @@
 # Rewis3d: Reconstruction Improves Weakly-Supervised Semantic Segmentation
 
-**会议**: CVPR 2025
-**arXiv**: [2603.06374](https://arxiv.org/abs/2603.06374)
-**代码**: 待公开
-**领域**: 3D视觉 / 语义分割
+**会议**: CVPR 2025  
+**arXiv**: [2603.06374](https://arxiv.org/abs/2603.06374)  
+**代码**: 待公开  
+**领域**: 3D视觉 / 语义分割  
 **关键词**: 弱监督语义分割, 3D重建, 跨模态一致性, 点标注, 涂鸦标注, Mean Teacher
 
 ## 一句话总结

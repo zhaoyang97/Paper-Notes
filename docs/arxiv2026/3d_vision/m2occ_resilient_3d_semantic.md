@@ -9,11 +9,13 @@
 
 ## 一句话总结
 语义占用预测可实现自动驾驶的密集 3D 几何和语义理解。
+
 ## 背景与动机
 Semantic occupancy prediction enables dense 3D geometric and semantic understanding for autonomous driving.. However, existing camera-based approaches implicitly assume complete surround-view observations, an assumption that rarely holds in real-world deployment due to occlusion, hardware malfunction, or communication failures.
 
 ## 核心问题
 然而，现有的基于摄像头的方法隐含地假设了完整的环视观察，但由于遮挡、硬件故障或通信故障，这种假设在现实世界的部署中很少成立。
+
 ## 方法详解
 
 ### 整体框架
@@ -41,6 +43,7 @@ Semantic occupancy prediction enables dense 3D geometric and semantic understand
 - 我们在基于 nuScenes 的 SurroundOcc 基准上引入了系统性缺失视图评估协议，涵盖确定性单视图故障和随机多视图丢失场景。
 - 在安全关键的缺失后视设置下，$M^2$-Occ 将 IoU 提高了 4.93%。
 - 这些增益是在不影响全视图性能的情况下实现的。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

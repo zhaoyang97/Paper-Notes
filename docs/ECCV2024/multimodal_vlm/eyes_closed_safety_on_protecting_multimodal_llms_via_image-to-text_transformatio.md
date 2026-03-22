@@ -1,9 +1,9 @@
 # Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation
 
-**会议**: ECCV 2024
-**arXiv**: [2403.09572](https://arxiv.org/abs/2403.09572)
-**代码**: [Project Page](https://gyhdog99.github.io/projects/ecso/)
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2403.09572](https://arxiv.org/abs/2403.09572)  
+**代码**: [Project Page](https://gyhdog99.github.io/projects/ecso/)  
+**领域**: 多模态VLM  
 **关键词**: MLLM安全, 越狱攻击防御, 图像到文本转换, 训练无关方法, 安全对齐
 
 ## 一句话总结

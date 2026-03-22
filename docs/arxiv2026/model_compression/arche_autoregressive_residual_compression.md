@@ -9,11 +9,13 @@
 
 ## 一句话总结
 基于学习的图像压缩的最新进展表明，通过联合学习紧凑的潜在表示和概率熵模型，端到端优化可以大大优于传统编解码器。
+
 ## 背景与动机
 Recent progress in learning-based image compression has demonstrated that end-to-end optimization can substantially outperform traditional codecs by jointly learning compact latent representations and probabilistic entropy models.. However, many existing approaches achieve high rate-distortion efficiency at the expense of increased computational cost and limited parallelism.
 
 ## 核心问题
 然而，许多现有方法以增加计算成本和有限的并行性为代价实现了高率失真效率。
+
 ## 方法详解
 
 ### 整体框架
@@ -40,6 +42,7 @@ Recent progress in learning-based image compression has demonstrated that end-to
 - 基于学习的图像压缩的最新进展表明，通过联合学习紧凑的潜在表示和概率熵模型，端到端优化可以大大优于传统编解码器。
 - 然而，许多现有方法以增加计算成本和有限的并行性为代价实现了高率失真效率。
 - 在不依赖循环或基于变压器的组件的情况下，ARCHE 获得了最先进的率失真效率：相对于 Balle 等人常用的基准模型，它将 BD 率降低了约 48%，相对于 Minnen & Singh 的通道自回归模型降低了 30%，相对于 Kodak 基准数据集上的 VVC Intra 编解码器降低了 5%。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

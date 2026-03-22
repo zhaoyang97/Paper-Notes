@@ -16,6 +16,7 @@
 如何将SAM的通用分割知识迁移到货运列车故障检测这一特定领域，同时解决三个挑战：（1）消除SAM对人工提示的依赖，实现全自动化；（2）保持轻量化以满足边缘部署需求；（3）在结构复杂、遮挡频繁的工业场景中保证实例分割精度。
 
 ## 方法详解
+
 ### 整体框架
 SAM FTI-FDet基于SAM的encoder-decoder架构构建。输入图像（1024×1024）→ TinyViT-SAM编码器提取特征 → Adaptive Feature Dispatcher融合多尺度特征 → Prompt Generator自动生成query prompt → Mask Decoder结合prompt和图像特征生成实例分割掩码和bounding box。推理时每张图预测最多10个实例，只取最后一层decoder的输出，通过形态学后处理得到最终mask和box。
 

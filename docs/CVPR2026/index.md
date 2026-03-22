@@ -7,7 +7,7 @@
 
 | 领域 | 篇数 |
 |:-----|-----:|
-| 👁️ [多模态 VLM](#multimodal_vlm) | 110 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 110 |
 | 🏥 [医学图像](#medical_imaging) | 40 |
 | 🎨 [图像生成](#image_generation) | 28 |
 | 🧊 [3D 视觉](#3d_vision) | 27 |
@@ -35,7 +35,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks](multimodal_vlm/a_closedform_solution_for_debiasing_visionlanguage.md)**
 

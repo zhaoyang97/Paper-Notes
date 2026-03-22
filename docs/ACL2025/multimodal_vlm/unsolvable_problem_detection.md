@@ -1,8 +1,8 @@
 # Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models
 
-**会议**: ACL 2025
-**arXiv**: [2403.20331](https://arxiv.org/abs/2403.20331)
-**领域**: LLM 推理
+**会议**: ACL 2025  
+**arXiv**: [2403.20331](https://arxiv.org/abs/2403.20331)  
+**领域**: LLM 推理  
 **关键词**: 不可解问题检测, 多模态大模型, 可信度评估, 选择题鲁棒性, MM-UPD Bench
 
 ## 一句话总结

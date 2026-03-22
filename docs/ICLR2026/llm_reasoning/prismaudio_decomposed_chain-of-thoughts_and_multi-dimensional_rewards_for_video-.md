@@ -1,9 +1,9 @@
 # PrismAudio: Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2511.18833](https://arxiv.org/abs/2511.18833)
-**代码**: https://PrismAudio.github.io
-**领域**: 视频理解 / 视频到音频生成
+**会议**: ICLR 2026  
+**arXiv**: [2511.18833](https://arxiv.org/abs/2511.18833)  
+**代码**: https://PrismAudio.github.io  
+**领域**: 视频理解 / 视频到音频生成  
 **关键词**: Video-to-Audio, Chain-of-Thought, 强化学习, 多维度奖励, 扩散模型
 
 ## 一句话总结

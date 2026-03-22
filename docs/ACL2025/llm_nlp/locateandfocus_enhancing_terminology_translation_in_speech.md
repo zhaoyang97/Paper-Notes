@@ -19,6 +19,7 @@
 6. **核心idea一句话**: 在语音中定位术语片段并替换到翻译知识中建立共享音频锚点，再用\<Term\>标签提醒模型聚焦术语翻译。
 
 ## 方法详解
+
 ### 整体框架
 分为术语片段定位（Terminology Clip Localization）和术语聚焦翻译（Terminology-Focused Translation）两个步骤。前者通过滑动窗口检索在语音中定位术语对应的音频片段，后者通过音频替换和Tag Cue两种策略引导语音LLM聚焦翻译知识。语音编码器用对比学习训练，翻译模型用LoRA微调。
 
@@ -34,6 +35,7 @@
 - 使用CosyVoice2 TTS生成术语语音片段，SenseVoice ASR验证质量
 
 ## 实验关键数据
+
 ### 主实验（Oracle Knowledge Setting, EN→ZH）
 
 | 方法 | CoVoST2 TSR | CoVoST2 BLEU | MuST-C TSR | MuST-C BLEU |

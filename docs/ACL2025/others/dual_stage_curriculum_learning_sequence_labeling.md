@@ -1,8 +1,8 @@
 # An Effective Incorporating Heterogeneous Knowledge Curriculum Learning for Sequence Labeling
 
-**会议**: ACL 2025
-**arXiv**: [2402.13534](https://arxiv.org/abs/2402.13534)
-**领域**: 序列标注 / 课程学习
+**会议**: ACL 2025  
+**arXiv**: [2402.13534](https://arxiv.org/abs/2402.13534)  
+**领域**: 序列标注 / 课程学习  
 **关键词**: 课程学习, 序列标注, 贝叶斯不确定性, 中文分词, 命名实体识别
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Approximation Algorithm for Constrained k-Center Clustering: A Local Search Approach
 
-**会议**: AAAI 2026
-**arXiv**: [2601.11883](https://arxiv.org/abs/2601.11883)
-**代码**: [https://github.com/ChaoqiJia/LSCKC](https://github.com/ChaoqiJia/LSCKC)
-**领域**: 理论算法 / 聚类 / 近似算法
+**会议**: AAAI 2026  
+**arXiv**: [2601.11883](https://arxiv.org/abs/2601.11883)  
+**代码**: [https://github.com/ChaoqiJia/LSCKC](https://github.com/ChaoqiJia/LSCKC)  
+**领域**: 理论算法 / 聚类 / 近似算法  
 **关键词**: k-center 聚类, 约束聚类, 局部搜索, 近似比, cannot-link, must-link, dominating matching set
 
 ## 一句话总结

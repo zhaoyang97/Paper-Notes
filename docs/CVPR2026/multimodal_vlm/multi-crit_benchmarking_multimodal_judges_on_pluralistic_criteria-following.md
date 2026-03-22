@@ -1,9 +1,9 @@
 # Multi-Crit: Benchmarking Multimodal Judges on Pluralistic Criteria-Following
 
-**会议**: CVPR 2026
-**arXiv**: [2511.21662](https://arxiv.org/abs/2511.21662)
-**代码**: https://multi-crit.github.io
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2511.21662](https://arxiv.org/abs/2511.21662)  
+**代码**: https://multi-crit.github.io  
+**领域**: 多模态VLM  
 **关键词**: LMM-as-Judge, 多准则评估, 基准测试, 偏好冲突, 评估可靠性
 
 ## 一句话总结

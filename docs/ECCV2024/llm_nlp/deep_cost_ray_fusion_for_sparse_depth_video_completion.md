@@ -1,9 +1,9 @@
 # Deep Cost Ray Fusion for Sparse Depth Video Completion
 
-**会议**: ECCV 2024
-**arXiv**: [2409.14935](https://arxiv.org/abs/2409.14935)
-**代码**: 无
-**领域**: 3D Vision / Depth Completion
+**会议**: ECCV 2024  
+**arXiv**: [2409.14935](https://arxiv.org/abs/2409.14935)  
+**代码**: 无  
+**领域**: 3D Vision / Depth Completion  
 **关键词**: depth completion, cost volume fusion, ray-wise attention, RGB-D video, temporal fusion
 
 ## 一句话总结

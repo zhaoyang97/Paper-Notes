@@ -1,9 +1,9 @@
 # Improving Intervention Efficacy via Concept Realignment in Concept Bottleneck Models
 
-**会议**: ECCV 2024
-**arXiv**: [2405.01531](https://arxiv.org/abs/2405.01531)
-**代码**: [GitHub](https://github.com/ExplainableML/concept_realignment)
-**领域**: LLM Alignment / Interpretable ML
+**会议**: ECCV 2024  
+**arXiv**: [2405.01531](https://arxiv.org/abs/2405.01531)  
+**代码**: [GitHub](https://github.com/ExplainableML/concept_realignment)  
+**领域**: LLM Alignment / Interpretable ML  
 **关键词**: Concept Bottleneck Models, Human Intervention, Concept Realignment, Interpretability, Human-AI Collaboration
 
 ## 一句话总结

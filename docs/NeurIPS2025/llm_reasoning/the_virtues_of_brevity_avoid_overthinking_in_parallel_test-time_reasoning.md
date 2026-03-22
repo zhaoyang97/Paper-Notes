@@ -1,8 +1,9 @@
 # The Virtues of Brevity: Avoid Overthinking in Parallel Test-Time Reasoning
-**会议**: NeurIPS 2025 (workshop)
-**arXiv**: [2510.21067](https://arxiv.org/abs/2510.21067)
-**代码**: 无
-**领域**: 测试时扩展与推理
+
+**会议**: NeurIPS 2025 (workshop)  
+**arXiv**: [2510.21067](https://arxiv.org/abs/2510.21067)  
+**代码**: 无  
+**领域**: 测试时扩展与推理  
 **关键词**: 最短答案, 过度思考, 长度启发式, 推理多样性, 测试时计算
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. **实用价值**: 简单启发式规则无需额外模型训练，易于应用
 
 ## 方法详解
+
 ### 整体框架
 **两个推理regime假设**:
 1. **conventional regime**: 短响应+高确定度 → 高正确率

@@ -1,9 +1,9 @@
 # Cut to the Chase: Training-free Multimodal Summarization via Chain-of-Events
 
-**会议**: CVPR 2026
-**arXiv**: [2603.06213](https://arxiv.org/abs/2603.06213)
-**代码**: [GitHub](https://github.com/youxiaoxing/CoE)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.06213](https://arxiv.org/abs/2603.06213)  
+**代码**: [GitHub](https://github.com/youxiaoxing/CoE)  
+**领域**: 多模态VLM  
 **关键词**: 多模态摘要, 免训练, 事件链推理, 层次事件图, 跨域泛化
 
 ## 一句话总结

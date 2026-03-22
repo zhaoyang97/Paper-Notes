@@ -9,11 +9,13 @@
 
 ## 一句话总结
 场景理解在实现机器人系统的智能和自主性方面发挥着至关重要的作用。
+
 ## 背景与动机
 Scene understanding plays a critical role in enabling intelligence and autonomy in robotic systems.. Traditional approaches often face challenges, including occlusions, ambiguous boundaries, and the inability to adapt attention based on task-specific requirements and sample variations.
 
 ## 核心问题
 传统方法经常面临挑战，包括遮挡、边界模糊以及无法根据特定任务的要求和样本变化来调整注意力。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ Scene understanding plays a critical role in enabling intelligence and autonomy 
 ## 亮点 / 我学到了什么
 - 实例分割任务受益于无瓶颈的一维结构，它可以用更少的参数实现卓越的轮廓表示。
 - 对 NYUv2、SUN RGB-D 和 Cityscapes 数据集的大量实验表明，我们的方法在分割精度和处理速度方面均优于现有方法。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

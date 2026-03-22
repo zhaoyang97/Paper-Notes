@@ -1,9 +1,9 @@
 # Cross-Scale Pansharpening via ScaleFormer and the PanScale Benchmark
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00543](https://arxiv.org/abs/2603.00543)
-**代码**: [GitHub](https://github.com/caoke-963/ScaleFormer)
-**领域**: Remote Sensing / Image Fusion
+**会议**: CVPR 2026  
+**arXiv**: [2603.00543](https://arxiv.org/abs/2603.00543)  
+**代码**: [GitHub](https://github.com/caoke-963/ScaleFormer)  
+**领域**: Remote Sensing / Image Fusion  
 **关键词**: 遥感图像融合, 跨尺度泛化, Transformer, 旋转位置编码, Pansharpening
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**：用Scale-Aware Patchify引入序列轴，将空间建模与尺度建模解耦，配合RoPE实现对未见尺度的外推泛化。
 
 ## 方法详解
+
 ### 整体框架
 ScaleFormer包含三个核心组件：
 1. **Scale-Aware Patchify (SAP)**：分桶窗口采样策略
@@ -42,6 +43,7 @@ $$\mathbf{f}_{i,1}^{ms} = \mathbf{f}_i^{ms} + CA_{spa}(LN(\mathbf{f}_i^{ms}), LN
 使用L1损失 $\mathbf{L} = \|\mathbf{H}_{out} - \mathbf{G}\|_1$。Adam优化器，初始学习率 $5 \times 10^{-4}$，余弦退火衰减到 $5 \times 10^{-8}$，500 epochs，NVIDIA 3090，32通道。
 
 ## 实验关键数据
+
 ### 主实验：PanScale数据集跨三个子集的平均结果
 
 | 方法 | Jilin PSNR/SSIM | Landsat PSNR/SSIM | Skysat PSNR/SSIM |

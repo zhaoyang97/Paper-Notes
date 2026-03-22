@@ -1,8 +1,9 @@
 # The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning
-**会议**: NeurIPS 2025
-**arXiv**: [2506.01347](https://arxiv.org/abs/2506.01347)
-**代码**: [GitHub](https://github.com/TianHongZXY/RLVR-Decomposed)
-**领域**: 强化学习与推理
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.01347](https://arxiv.org/abs/2506.01347)  
+**代码**: [GitHub](https://github.com/TianHongZXY/RLVR-Decomposed)  
+**领域**: 强化学习与推理  
 **关键词**: 负强化, 正强化分解, Pass@k, 推理多样性, 梯度分析
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. **研究机会**: 系统分解PSR和NSR，理解各自的作用和权衡
 
 ## 方法详解
+
 ### 整体框架
 RLVR目标函数分解为两部分：
 
@@ -45,6 +47,7 @@ NSR梯度 (对于采样token):
 J(θ) = αL_NSR(θ) + L_PSR(θ)  (α>1调节)
 
 ## 实验关键数据
+
 ### Pass@k性能曲线 (Qwen2.5-Math-7B on MATH)
 
 | k值 | Base | PPO | GRPO | PSR | NSR | W-Reinforce |

@@ -12,7 +12,7 @@
 | 🧊 [3D 视觉](#3d_vision) | 28 |
 | 🎨 [图像生成](#image_generation) | 19 |
 | ⚖️ [对齐 / RLHF](#llm_alignment) | 15 |
-| 👁️ [多模态 VLM](#multimodal_vlm) | 15 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 15 |
 | 🚗 [自动驾驶](#autonomous_driving) | 14 |
 | ✂️ [语义分割](#segmentation) | 13 |
 | ⚡ [LLM 效率](#llm_efficiency) | 12 |
@@ -589,7 +589,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks](multimodal_vlm/a_closed-form_solution_for_debiasing_vision-language_models_with_utility_guarant.md)**
 

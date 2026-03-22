@@ -1,9 +1,9 @@
 # From Parameter to Representation: A Closed-Form Approach for Controllable Model Merging
 
-**会议**: AAAI 2026
-**arXiv**: [2511.10943](https://arxiv.org/abs/2511.10943)
-**代码**: 无
-**领域**: 对齐RLHF / 模型压缩
+**会议**: AAAI 2026  
+**arXiv**: [2511.10943](https://arxiv.org/abs/2511.10943)  
+**代码**: 无  
+**领域**: 对齐RLHF / 模型压缩  
 **关键词**: model merging, controllable merging, Pareto front, representation correction, multi-objective optimization
 
 ## 一句话总结

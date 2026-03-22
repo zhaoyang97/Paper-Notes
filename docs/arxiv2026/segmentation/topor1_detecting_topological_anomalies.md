@@ -9,11 +9,13 @@
 
 ## 一句话总结
 拓扑正确性对于血管、神经纤维和道路网络等管状结构至关重要。
+
 ## 背景与动机
 Topological correctness is crucial for tubular structures such as blood vessels, nerve fibers, and road networks.. Existing topology-preserving methods rely on domain-specific ground truth, which is costly and rarely transfers across domains.
 
 ## 核心问题
 拓扑正确性对于血管、神经纤维和道路网络等管状结构至关重要。现有的拓扑保持方法依赖于特定领域的地面实况，这种方法成本高昂且很少跨域传输。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ Topological correctness is crucial for tubular structures such as blood vessels,
 - 视觉语言模型（VLM）是自然的候选者；然而，我们发现最先进的 VLM 几乎是随机执行的，缺乏识别密集结构中稀疏连接错误所需的细粒度、拓扑感知的感知能力。
 - 为了弥补这一差距，我们开发了一个自动化数据管理管道，该管道可以在逐渐困难的级别上综合不同的拓扑异常和可验证的注释，从而为该任务构建第一个大规模、多领域的基准。
 - 大量实验表明，Topo-R1 建立了无注释拓扑质量评估的新范例，在所有评估协议中始终优于通用 VLM 和监督基线。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

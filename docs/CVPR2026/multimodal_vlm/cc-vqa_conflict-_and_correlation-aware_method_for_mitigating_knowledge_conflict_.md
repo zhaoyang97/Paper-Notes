@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # CC-VQA: Conflict- and Correlation-Aware Method for Mitigating Knowledge Conflict in Knowledge-Based Visual Question Answering
 
-**会议**: CVPR2026
-**arXiv**: [2602.23952](https://arxiv.org/abs/2602.23952)
-**代码**: [github.com/cqu-student/CC-VQA](https://github.com/cqu-student/CC-VQA)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2602.23952](https://arxiv.org/abs/2602.23952)  
+**代码**: [github.com/cqu-student/CC-VQA](https://github.com/cqu-student/CC-VQA)  
+**领域**: 多模态VLM  
 **关键词**: 知识冲突, 检索增强生成, KB-VQA, 视觉推理, 对比解码, 位置编码压缩
 
 ## 一句话总结

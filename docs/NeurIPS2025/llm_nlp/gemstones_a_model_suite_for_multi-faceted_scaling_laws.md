@@ -1,8 +1,9 @@
 # Gemstones: A Model Suite for Multi-Faceted Scaling Laws
-**会议**: NeurIPS 2025
-**arXiv**: [2502.06857](https://arxiv.org/abs/2502.06857)
-**代码**: https://github.com/mcleish7/gemstone-scaling-laws
-**领域**: 缩放律、模型架构、训练动力学
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.06857](https://arxiv.org/abs/2502.06857)  
+**代码**: https://github.com/mcleish7/gemstone-scaling-laws  
+**领域**: 缩放律、模型架构、训练动力学  
 **关键词**: 宽度-深度比、计算最优性、扩展律、模型设计
 
 ## 一句话总结

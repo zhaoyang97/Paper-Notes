@@ -364,8 +364,8 @@ nav:
     - 'SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety': ICLR2026/llm_alignment/safedpo_preference_optimization_safety.md
     - 'Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs': ICLR2026/llm_alignment/uni-dpo_a_unified_paradigm_for_dynamic_preference_optimization_of_llms.md
     - Why DPO is a Misspecified Estimator and How to Fix It: ICLR2026/llm_alignment/why_dpo_is_misspecified_estimator.md
-  - 👁️ 多模态 VLM (19):
-    - 👁️ 多模态 VLM: ICLR2026/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (19):
+    - 🧩 多模态 VLM: ICLR2026/multimodal_vlm/index.md
     - 'A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models': ICLR2026/multimodal_vlm/a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi.md
     - Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation: ICLR2026/multimodal_vlm/adaptive_debiasing_tsallis_entropy_for_test-time_adaptation.md
     - 'AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in LVLMs': ICLR2026/multimodal_vlm/agilepruner_an_empirical_study_of_attention_and_diversity_for_adaptive_visual_to.md
@@ -730,8 +730,8 @@ nav:
     - Unlocking Multimodal Mathematical Reasoning via Process Reward Model: NeurIPS2025/llm_reasoning/unlocking_multimodal_mathematical_reasoning_via_process_reward_model.md
     - 笔记6：Self-Evaluating LLMs - 多步任务的步级置信度估计: NeurIPS2025/llm_reasoning/value-guided_search_for_efficient_chain-of-thought_reasoning.md
     - 'Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought': NeurIPS2025/llm_reasoning/visual_thoughts_a_unified_perspective_of_understanding_multi.md
-  - 👁️ 多模态 VLM (44):
-    - 👁️ 多模态 VLM: NeurIPS2025/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (44):
+    - 🧩 多模态 VLM: NeurIPS2025/multimodal_vlm/index.md
     - ? 'A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success
         Rate Against the Strong Black-box Models of GPT-4.5/4o/o1'
       : NeurIPS2025/multimodal_vlm/a_frustratingly_simple_yet_highly_effective_attack_baseline.md
@@ -1392,8 +1392,8 @@ nav:
     - 'ScaleQuest: Unleashing LLM Reasoning Capability via Scalable Question Synthesis from Scratch': ACL2025/llm_nlp/unleashing_llm_reasoning_capability_via_scalable.md
     - 'Veracity Bias and Beyond: Uncovering LLMs'' Hidden Beliefs in Problem-Solving Reasoning': ACL2025/llm_nlp/veracity_bias_llm_hidden_beliefs.md
     - 'Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System': ACL2025/llm_nlp/virsci_multi_agent_idea_gen.md
-  - 👁️ 多模态 VLM (46):
-    - 👁️ 多模态 VLM: ACL2025/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (46):
+    - 🧩 多模态 VLM: ACL2025/multimodal_vlm/index.md
     - Can LLMs Deceive CLIP? Benchmarking Adversarial Compositionality of Pre-trained Multimodal Representation via Text Updates: ACL2025/multimodal_vlm/adversarial_compositionality_clip.md
     - ? 'Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across
         Perception, Planning, and Safety in Real-World Multimodal Agents'
@@ -1781,8 +1781,8 @@ nav:
     - 'X-Turing: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents': ACL2025/others/xturing_enhanced_turing_test.md
 - 🤖 AAAI2026:
   - AAAI2026: AAAI2026/index.md
-  - 👁️ 多模态 VLM (27):
-    - 👁️ 多模态 VLM: AAAI2026/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (27):
+    - 🧩 多模态 VLM: AAAI2026/multimodal_vlm/index.md
     - 'Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment': AAAI2026/multimodal_vlm/aligning_the_true_semantics_constrained_decoupling_and_distr.md
     - 'anyECG-chat: A Generalist ECG-MLLM for Flexible ECG Input and Multi-Task Understanding': AAAI2026/multimodal_vlm/anyecg-chat_a_generalist_ecg-mllm_for_flexible_ecg_input_and.md
     - 'AStar: Boosting Multimodal Reasoning with Automated Structured Thinking': AAAI2026/multimodal_vlm/astar_boosting_multimodal_reasoning_with_automated_structure.md
@@ -2106,8 +2106,8 @@ nav:
     - 'TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models': AAAI2026/others/taylorpoda_a_taylor_expansion-based_method_to_improve_post-hoc_attributions_for_.md
 - 📷 CVPR2026:
   - CVPR2026: CVPR2026/index.md
-  - 👁️ 多模态 VLM (110):
-    - 👁️ 多模态 VLM: CVPR2026/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (110):
+    - 🧩 多模态 VLM: CVPR2026/multimodal_vlm/index.md
     - A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks: CVPR2026/multimodal_vlm/a_closedform_solution_for_debiasing_visionlanguage.md
     - Adaptive Vision-Language Model Routing for Computer Use Agents: CVPR2026/multimodal_vlm/adaptive_visionlanguage_model_routing_for_computer.md
     - Adaptvision Efficient Vision-Language Models Via Adaptive Visual Acquisition: CVPR2026/multimodal_vlm/adaptvision_efficient_vision-language_models_via_adaptive_visual_acquisition.md
@@ -2582,8 +2582,8 @@ nav:
     - 'CoMoGaussian: Continuous Motion-Aware Gaussian Splatting from Motion-Blurred Images': ICCV2025/3d_vision/comogaussian_continuous_motionaware_gaussian_splatting_from.md
     - 'DAP-MAE: Domain-Adaptive Point Cloud Masked Autoencoder for Effective Cross-Domain Learning': ICCV2025/3d_vision/dapmae_domainadaptive_point_cloud_masked_autoencoder_for_eff.md
     - 'Diorama: Unleashing Zero-shot Single-view 3D Indoor Scene Modeling': ICCV2025/3d_vision/diorama_unleashing_zeroshot_singleview_3d_indoor_scene_model.md
-  - 👁️ 多模态 VLM (22):
-    - 👁️ 多模态 VLM: ICCV2025/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (22):
+    - 🧩 多模态 VLM: ICCV2025/multimodal_vlm/index.md
     - 'AdvDreamer Unveils: Are Vision-Language Models Truly Ready for Real-World 3D Variations?': ICCV2025/multimodal_vlm/advdreamer_unveils_are_visionlanguage_models_truly_ready_for.md
     - 'CoA-VLA: Improving Vision-Language-Action Models via Visual-Textual Chain-of-Affordance': ICCV2025/multimodal_vlm/coavla_improving_visionlanguageaction_models_via_visualtext.md
     - Controlling Multimodal LLMs via Reward-guided Decoding: ICCV2025/multimodal_vlm/controlling_multimodal_llms_via_rewardguided_decoding.md
@@ -2863,8 +2863,8 @@ nav:
     - 'PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization': CVPR2025/llm_alignment/physmodpo_physically-plausible_humanoid_motion_with_preference_optimization.md
     - 'SymDPO: Boosting In-Context Learning of Large Multimodal Models with Symbol Demonstration Direct Preference Optimization': CVPR2025/llm_alignment/symdpo_boosting_in-context_learning_of_large_multimodal_models_with_symbol_demon.md
     - 'Task Preference Optimization: Improving Multimodal Large Language Models with Vision Task Alignment': CVPR2025/llm_alignment/task_preference_optimization_improving_multimodal_large_language_models_with_vis.md
-  - 👁️ 多模态 VLM (15):
-    - 👁️ 多模态 VLM: CVPR2025/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (15):
+    - 🧩 多模态 VLM: CVPR2025/multimodal_vlm/index.md
     - A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks: CVPR2025/multimodal_vlm/a_closed-form_solution_for_debiasing_vision-language_models_with_utility_guarant.md
     - 'Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation': CVPR2025/multimodal_vlm/beyond_final_answers_crystal_benchmark_for_transparent_multimodal_reasoning_eval.md
     - 'CodePercept: Code-Grounded Visual STEM Perception for MLLMs': CVPR2025/multimodal_vlm/codepercept_code-grounded_visual_stem_perception_for_mllms.md
@@ -3060,8 +3060,8 @@ nav:
     - 'ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training': CVPR2025/others/zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md
 - 🎞️ ECCV2024:
   - ECCV2024: ECCV2024/index.md
-  - 👁️ 多模态 VLM (71):
-    - 👁️ 多模态 VLM: ECCV2024/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (71):
+    - 🧩 多模态 VLM: ECCV2024/multimodal_vlm/index.md
     - A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis: ECCV2024/multimodal_vlm/a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md
     - 'AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting': ECCV2024/multimodal_vlm/adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md
     - 'AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization': ECCV2024/multimodal_vlm/addressclip_empowering_visionlanguage_models_for_citywide_im.md
@@ -3338,8 +3338,8 @@ nav:
     - 'UNIStainNet: Foundation-Model-Guided Virtual Staining of H&E to IHC': arxiv2026/medical_imaging/unistainnet_foundationmodelguided_virtual_staining.md
     - Unleashing Video Language Models for Fine-grained HRCT Report Generation: arxiv2026/medical_imaging/unleashing_video_language_models.md
     - Unsupervised Domain Adaptation with Target-Only Margin Disparity Discrepancy: arxiv2026/medical_imaging/unsupervised_domain_adaptation_targetonly.md
-  - 👁️ 多模态 VLM (22):
-    - 👁️ 多模态 VLM: arxiv2026/multimodal_vlm/index.md
+  - 🧩 多模态 VLM (22):
+    - 🧩 多模态 VLM: arxiv2026/multimodal_vlm/index.md
     - Adaptive Vision-Language Model Routing for Computer Use Agents: arxiv2026/multimodal_vlm/adaptive_visionlanguage_model_routing.md
     - 'Beyond Single-Sample: Reliable Multi-Sample Distillation for Video Understanding': arxiv2026/multimodal_vlm/beyond_singlesample_reliable_multisample.md
     - 'BiCLIP: Bidirectional and Consistent Language-Image Processing for Robust Medical Image Segmentation': arxiv2026/multimodal_vlm/biclip_bidirectional_consistent_languageimage.md

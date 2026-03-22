@@ -1,9 +1,9 @@
 # How Does Alignment Enhance LLMs' Multilingual Capabilities? A Language Neurons Perspective
 
-**会议**: AAAI 2026
-**arXiv**: [2505.21505](https://arxiv.org/abs/2505.21505)
-**代码**: [https://github.com/NJUNLP/Language-Neurons-Alignment](https://github.com/NJUNLP/Language-Neurons-Alignment)
-**领域**: 对齐RLHF
+**会议**: AAAI 2026  
+**arXiv**: [2505.21505](https://arxiv.org/abs/2505.21505)  
+**代码**: [https://github.com/NJUNLP/Language-Neurons-Alignment](https://github.com/NJUNLP/Language-Neurons-Alignment)  
+**领域**: 对齐RLHF  
 **关键词**: multilingual LLM, language neurons, alignment mechanism, ternary classification, spontaneous alignment
 
 ## 一句话总结

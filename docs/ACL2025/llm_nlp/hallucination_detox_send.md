@@ -1,8 +1,8 @@
 # Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training
 
-**会议**: ACL 2025
-**arXiv**: [2410.15460](https://arxiv.org/abs/2410.15460)
-**领域**: LLM NLP
+**会议**: ACL 2025  
+**arXiv**: [2410.15460](https://arxiv.org/abs/2410.15460)  
+**领域**: LLM NLP  
 **关键词**: 幻觉缓解, 训练协议, Sensitivity Dropout, EigenScore, 嵌入振荡
 
 ## 一句话总结

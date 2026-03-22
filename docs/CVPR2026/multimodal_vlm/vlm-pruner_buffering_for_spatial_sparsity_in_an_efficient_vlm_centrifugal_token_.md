@@ -1,9 +1,9 @@
 # VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm
 
-**会议**: CVPR 2026
-**arXiv**: [2512.02700](https://arxiv.org/abs/2512.02700)
-**代码**: https://github.com/Casey-bit/VLMPruner
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2512.02700](https://arxiv.org/abs/2512.02700)  
+**代码**: https://github.com/Casey-bit/VLMPruner  
+**领域**: 多模态VLM  
 **关键词**: 视觉token剪枝, 推理加速, 空间稀疏性, 免训练, VLM效率
 
 ## 一句话总结

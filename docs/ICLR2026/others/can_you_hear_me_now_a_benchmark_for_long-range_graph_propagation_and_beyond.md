@@ -1,9 +1,9 @@
 # Can You Hear Me Now? A Benchmark for Long-Range Graph Propagation and Beyond
 
-**会议**: ICLR 2026
-**arXiv**: [2512.17762](https://arxiv.org/abs/2512.17762)
-**代码**: [GitHub](https://github.com/Graph-ECHO-Benchmark/ECHO)
-**领域**: 图神经网络 / 基准测试
+**会议**: ICLR 2026  
+**arXiv**: [2512.17762](https://arxiv.org/abs/2512.17762)  
+**代码**: [GitHub](https://github.com/Graph-ECHO-Benchmark/ECHO)  
+**领域**: 图神经网络 / 基准测试  
 **关键词**: long-range propagation, graph benchmark, over-squashing, graph transformers, molecular property prediction
 
 ## 一句话总结

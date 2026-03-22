@@ -1,9 +1,9 @@
 # Brain-IT: Image Reconstruction from fMRI via Brain-Interaction Transformer
 
-**会议**: ICLR 2026
-**arXiv**: [2510.25976](https://arxiv.org/abs/2510.25976)
-**代码**: [项目页面](https://amitzalcher.github.io/Brain-IT/)
-**领域**: medical_imaging
+**会议**: ICLR 2026  
+**arXiv**: [2510.25976](https://arxiv.org/abs/2510.25976)  
+**代码**: [项目页面](https://amitzalcher.github.io/Brain-IT/)  
+**领域**: medical_imaging  
 **关键词**: fMRI脑解码, 图像重建, 脑-交互Transformer, 跨被试迁移, 扩散模型, 深度图像先验
 
 ## 一句话总结

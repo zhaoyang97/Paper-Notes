@@ -1,9 +1,9 @@
 # Memorization Inheritance in Sequence-Level Knowledge Distillation for Neural Machine Translation
 
-**会议**: ACL 2025
-**arXiv**: [2502.01491](https://arxiv.org/abs/2502.01491)
-**代码**: https://github.com/vernadankers/memseqkd
-**领域**: 模型压缩 / NLP理解
+**会议**: ACL 2025  
+**arXiv**: [2502.01491](https://arxiv.org/abs/2502.01491)  
+**代码**: https://github.com/vernadankers/memseqkd  
+**领域**: 模型压缩 / NLP理解  
 **关键词**: knowledge distillation, memorization, hallucination, machine translation, SeqKD
 
 ## 一句话总结

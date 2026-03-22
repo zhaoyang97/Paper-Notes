@@ -1,9 +1,9 @@
 # Neural Graph Navigation for Intelligent Subgraph Matching
 
-**会议**: AAAI 2026
-**arXiv**: [2511.17939](https://arxiv.org/abs/2511.17939)
-**代码**: 有（附录提供）
-**领域**: 图算法 / 图神经网络 / 子图匹配
+**会议**: AAAI 2026  
+**arXiv**: [2511.17939](https://arxiv.org/abs/2511.17939)  
+**代码**: 有（附录提供）  
+**领域**: 图算法 / 图神经网络 / 子图匹配  
 **关键词**: 子图匹配, 神经导航, 图生成, Transformer, 即插即用
 
 ## 一句话总结

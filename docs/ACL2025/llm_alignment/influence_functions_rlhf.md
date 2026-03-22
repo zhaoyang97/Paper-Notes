@@ -1,9 +1,9 @@
 # Understanding Impact of Human Feedback via Influence Functions
 
-**会议**: ACL 2025
-**arXiv**: [2501.05790](https://arxiv.org/abs/2501.05790)
-**代码**: [https://github.com/mintaywon/IF_RLHF](https://github.com/mintaywon/IF_RLHF)
-**领域**: LLM对齐 / RLHF 数据分析
+**会议**: ACL 2025  
+**arXiv**: [2501.05790](https://arxiv.org/abs/2501.05790)  
+**代码**: [https://github.com/mintaywon/IF_RLHF](https://github.com/mintaywon/IF_RLHF)  
+**领域**: LLM对齐 / RLHF 数据分析  
 **关键词**: influence functions, RLHF, reward model, bias detection, data quality, OPORP
 
 ## 一句话总结

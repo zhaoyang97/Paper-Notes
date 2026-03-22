@@ -1,9 +1,9 @@
 # GenCP: Towards Generative Modeling Paradigm of Coupled Physics
 
-**会议**: ICLR 2026
-**arXiv**: [2601.19541](https://arxiv.org/abs/2601.19541)
-**代码**: [GitHub](https://github.com/AI4Science-WestlakeU/GenCP)
-**领域**: 生成式物理仿真 / 流匹配
+**会议**: ICLR 2026  
+**arXiv**: [2601.19541](https://arxiv.org/abs/2601.19541)  
+**代码**: [GitHub](https://github.com/AI4Science-WestlakeU/GenCP)  
+**领域**: 生成式物理仿真 / 流匹配  
 **关键词**: coupled physics simulation, flow matching, operator splitting, multiphysics, decoupled training
 
 ## 一句话总结

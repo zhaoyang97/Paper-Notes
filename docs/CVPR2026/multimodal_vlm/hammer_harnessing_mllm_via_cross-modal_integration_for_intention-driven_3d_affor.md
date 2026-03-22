@@ -1,9 +1,9 @@
 # HAMMER: Harnessing MLLM via Cross-Modal Integration for Intention-Driven 3D Affordance Grounding
 
-**会议**: CVPR 2026
-**arXiv**: [2603.02329](https://arxiv.org/abs/2603.02329)
-**代码**: https://rayyoh.github.io/Hammer/
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.02329](https://arxiv.org/abs/2603.02329)  
+**代码**: https://rayyoh.github.io/Hammer/  
+**领域**: 多模态VLM  
 **关键词**: 3D可供性, MLLM, 跨模态融合, 点云, 意图理解
 
 ## 一句话总结

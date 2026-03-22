@@ -1,5 +1,5 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 👁️ 多模态 VLM
+# 🧩 多模态 VLM
 
 **📷 CVPR2026** · 共 **110** 篇
 

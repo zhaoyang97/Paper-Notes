@@ -1,9 +1,9 @@
 # PromptIQA: Boosting the Performance and Generalization for No-Reference Image Quality Assessment via Prompts
 
-**会议**: ECCV 2024
-**arXiv**: [2403.04993](https://arxiv.org/abs/2403.04993)
-**代码**: 无（论文提到将公开但未给链接）
-**领域**: LLM/NLP
+**会议**: ECCV 2024  
+**arXiv**: [2403.04993](https://arxiv.org/abs/2403.04993)  
+**代码**: 无（论文提到将公开但未给链接）  
+**领域**: LLM/NLP  
 **关键词**: no-reference IQA, image-score pairs prompt, mixed training, data augmentation, assessment requirement adaptation
 
 ## 一句话总结

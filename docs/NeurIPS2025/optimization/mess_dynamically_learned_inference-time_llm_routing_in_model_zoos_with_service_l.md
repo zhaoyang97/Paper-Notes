@@ -1,8 +1,9 @@
 # MESS+: Dynamically Learned Inference-Time LLM Routing in Model Zoos with Service Level Guarantees
-**会议**: NeurIPS 2025
-**arXiv**: [2505.19947](https://arxiv.org/abs/2505.19947)
-**代码**: https://github.com/laminair/mess-plus
-**领域**: 模型选择、动态路由、SLA保证
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.19947](https://arxiv.org/abs/2505.19947)  
+**代码**: https://github.com/laminair/mess-plus  
+**领域**: 模型选择、动态路由、SLA保证  
 **关键词**: 成本优化、学习路由、虚拟队列、约束优化
 
 ## 一句话总结

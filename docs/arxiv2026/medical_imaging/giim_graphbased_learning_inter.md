@@ -9,11 +9,13 @@
 
 ## 一句话总结
 计算机辅助诊断 (CADx) 在医学成像中变得至关重要，但自动化系统往往难以复制临床解释的微妙过程。
+
 ## 背景与动机
 Computer-aided diagnosis (CADx) has become vital in medical imaging, but automated systems often struggle to replicate the nuanced process of clinical interpretation.. Expert diagnosis requires a comprehensive analysis of how abnormalities relate to each other across various views and time points, but current multi-view CADx methods frequently overlook these complex dependencies.
 
 ## 核心问题
 计算机辅助诊断 (CADx) 在医学成像中变得至关重要，但自动化系统往往难以复制临床解释的微妙过程。
+
 ## 方法详解
 
 ### 整体框架
@@ -37,6 +39,7 @@ Computer-aided diagnosis (CADx) has become vital in medical imaging, but automat
 
 ## 亮点 / 我学到了什么
 - 我们通过对不同成像方式（包括 CT、MRI 和乳房 X 线摄影）的广泛评估，证明了这种方法的通用性。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

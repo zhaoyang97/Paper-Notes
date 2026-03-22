@@ -1,8 +1,8 @@
 # Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2505.18673](https://arxiv.org/abs/2505.18673)
-**领域**: LLM NLP / 多语言评估
+**会议**: ACL 2025  
+**arXiv**: [2505.18673](https://arxiv.org/abs/2505.18673)  
+**领域**: LLM NLP / 多语言评估  
 **关键词**: 跨语言弱点, 束搜索, LLM仿真评估, 双语问答对, 语言亲缘性
 
 ## 一句话总结

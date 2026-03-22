@@ -9,11 +9,13 @@
 
 ## 一句话总结
 基于扩散的图像压缩最近表现出了出色的感知保真度，但其实用性却受到过高的采样开销和高内存使用率的阻碍。
+
 ## 背景与动机
 Diffusion-based image compression has recently shown outstanding perceptual fidelity, yet its practicality is hindered by prohibitive sampling overhead and high memory usage.. Most existing diffusion codecs employ U-Net architectures, where hierarchical downsampling forces diffusion to operate in shallow latent spaces (typically with only 8x spatial downscaling), resulting in excessive computation.
 
 ## 核心问题
 基于扩散的图像压缩最近表现出了出色的感知保真度，但其实用性却受到过高的采样开销和高内存使用率的阻碍。大多数现有的扩散编解码器都采用 U-Net 架构，其中分层下采样迫使扩散在浅层潜在空间中运行（通常仅进行 8 倍空间缩小），从而导致计算量过多。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Diffusion-based image compression has recently shown outstanding perceptual fide
 
 ## 亮点 / 我学到了什么
 - 通过这些设计，DiT-IC 实现了最先进的感知质量，同时与现有基于扩散的编解码器相比，解码速度提高了 30 倍，内存使用量大幅降低。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

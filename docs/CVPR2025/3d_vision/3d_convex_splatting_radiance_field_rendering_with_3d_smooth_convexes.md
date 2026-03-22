@@ -16,6 +16,7 @@
 能否用比高斯更灵活的基元来表示辐射场——一种能同时表达尖锐边缘、平面和稠密体积的基元——同时保持实时渲染能力？
 
 ## 方法详解
+
 ### 整体框架
 3D Convex Splatting管线：SfM点云初始化 → 每个凸体由$K$个3D点定义（默认$K=6$）→ 透视投影到2D → Graham Scan算法计算2D凸包 → 从凸包线段定义signed distance → LogSumExp平滑化 → Sigmoid得到指示函数/alpha值 → tile-based $\alpha$-blending渲染 → L1+D-SSIM+mask正则化优化。
 

@@ -1,9 +1,9 @@
 # VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2505.15801](https://arxiv.org/abs/2505.15801)
-**代码**: [GitHub](https://github.com/ZJU-REAL/VerifyBench)
-**领域**: human_understanding / LLM 评估与奖励模型
+**会议**: ICLR 2026  
+**arXiv**: [2505.15801](https://arxiv.org/abs/2505.15801)  
+**代码**: [GitHub](https://github.com/ZJU-REAL/VerifyBench)  
+**领域**: human_understanding / LLM 评估与奖励模型  
 **关键词**: reward model, benchmark, verification, LLM, reinforcement learning
 
 ## 一句话总结

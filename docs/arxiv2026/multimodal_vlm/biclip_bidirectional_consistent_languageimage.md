@@ -9,11 +9,13 @@
 
 ## 一句话总结
 医学图像分割是计算机辅助诊断和治疗计划的基石。
+
 ## 背景与动机
 Medical image segmentation is a cornerstone of computer-assisted diagnosis and treatment planning.. While recent multimodal vision-language models have shown promise in enhancing semantic understanding through textual descriptions, their resilience in "in-the-wild" clinical settings-characterized by scarce annotations and hardware-induced image degradations-remains under-explored.
 
 ## 核心问题
 虽然最近的多模态视觉语言模型在通过文本描述增强语义理解方面表现出了希望，但它们在“野外”临床环境中的弹性（其特点是注释稀缺和硬件引起的图像退化）仍然没有得到充分探索。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Medical image segmentation is a cornerstone of computer-assisted diagnosis and t
 ## 亮点 / 我学到了什么
 - BiCLIP 具有双向多模态融合机制，使视觉特征能够迭代地细化文本表示，确保卓越的语义对齐。
 - 对 QaTa-COV19 和 MosMedData+ 基准的评估表明，BiCLIP 始终超越最先进的纯图像和多模态基准。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

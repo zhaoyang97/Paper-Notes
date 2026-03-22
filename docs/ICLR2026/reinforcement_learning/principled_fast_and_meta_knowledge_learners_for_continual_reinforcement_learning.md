@@ -1,9 +1,9 @@
 # Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.00903](https://arxiv.org/abs/2603.00903)
-**代码**: [GitHub](https://github.com/datake/FAME)
-**领域**: human_understanding / 持续强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.00903](https://arxiv.org/abs/2603.00903)  
+**代码**: [GitHub](https://github.com/datake/FAME)  
+**领域**: human_understanding / 持续强化学习  
 **关键词**: continual RL, catastrophic forgetting, knowledge transfer, dual-learner, meta learning
 
 ## 一句话总结

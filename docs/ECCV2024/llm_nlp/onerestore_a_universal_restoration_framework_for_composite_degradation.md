@@ -1,9 +1,9 @@
 # OneRestore: A Universal Restoration Framework for Composite Degradation
 
-**会议**: ECCV 2024
-**arXiv**: [2407.04621](https://arxiv.org/abs/2407.04621)
-**代码**: [GitHub](https://github.com/gy65896/OneRestore)
-**领域**: LLM/NLP
+**会议**: ECCV 2024  
+**arXiv**: [2407.04621](https://arxiv.org/abs/2407.04621)  
+**代码**: [GitHub](https://github.com/gy65896/OneRestore)  
+**领域**: LLM/NLP  
 **关键词**: image restoration, composite degradation, scene descriptor, controllable restoration, contrastive loss
 
 ## 一句话总结

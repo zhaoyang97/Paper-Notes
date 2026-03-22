@@ -1,8 +1,8 @@
 # JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2402.05668](https://arxiv.org/abs/2402.05668)
-**领域**: LLM Safety / Jailbreak Attack Evaluation
+**会议**: ACL 2025  
+**arXiv**: [2402.05668](https://arxiv.org/abs/2402.05668)  
+**领域**: LLM Safety / Jailbreak Attack Evaluation  
 **关键词**: Jailbreak Attack, LLM Safety, Attack Taxonomy, Defense Evaluation, Benchmark
 
 ## 一句话总结

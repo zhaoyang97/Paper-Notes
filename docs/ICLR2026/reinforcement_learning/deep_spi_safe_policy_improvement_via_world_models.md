@@ -1,8 +1,8 @@
 # Deep SPI: Safe Policy Improvement via World Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.12312](https://arxiv.org/abs/2510.12312)
-**领域**: 强化学习 / 安全策略改进 / 世界模型
+**会议**: ICLR 2026  
+**arXiv**: [2510.12312](https://arxiv.org/abs/2510.12312)  
+**领域**: 强化学习 / 安全策略改进 / 世界模型  
 **关键词**: safe policy improvement, world model, representation learning, PPO, importance ratio
 
 ## 一句话总结

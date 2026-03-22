@@ -9,11 +9,13 @@
 
 ## 一句话总结
 扩散变换器 (DiT) 实现了高生成质量，但将 FLOP 锁定到图像分辨率，限制了原则上的延迟质量权衡，并在输入空间令牌之间统一分配计算，浪费了对不重要区域的资源分配。
+
 ## 背景与动机
 Diffusion transformers (DiTs) achieve high generative quality but lock FLOPs to image resolution, limiting principled latency-quality trade-offs, and allocate computation uniformly across input spatial tokens, wasting resource allocation to unimportant regions.. We introduce Elastic Latent Interface Transformer (ELIT), a drop-in, DiT-compatible mechanism that decouples input image size from compute.
 
 ## 核心问题
 扩散变换器 (DiT) 实现了高生成质量，但将 FLOP 锁定到图像分辨率，限制了原则上的延迟质量权衡，并在输入空间标记之间统一分配计算，从而将资源分配浪费到不重要的区域。我们引入了弹性潜在接口变换器 (ELIT)，这是一种直接的、与 DiT 兼容的机制，可将输入图像大小与计算解耦。
+
 ## 方法详解
 
 ### 整体框架
@@ -37,6 +39,7 @@ Diffusion transformers (DiTs) achieve high generative quality but lock FLOPs to 
 
 ## 亮点 / 我学到了什么
 - 扩散变换器 (DiT) 实现了高生成质量，但将 FLOP 锁定到图像分辨率，限制了原则上的延迟质量权衡，并在输入空间令牌之间统一分配计算，浪费了对不重要区域的资源分配。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

@@ -16,6 +16,7 @@
 如何构建一种紧凑、信息丰富、可增量更新、且能同时表示已探索和未探索区域的3D场景记忆，使VLM能直接感知和推理3D场景？
 
 ## 方法详解
+
 ### 整体框架
 3D-Mem的核心思想：用精选的多视角图像（Memory Snapshots）表示已探索区域，用前沿快照（Frontier Snapshots）表示未探索区域。VLM直接以这些图像为输入进行推理和决策。整体流程：初始化 → 每步获取自我中心RGB-D观测 → 更新物体集+Memory Snapshots+Frontier Snapshots → VLM基于快照选择探索方向或直接回答问题。
 

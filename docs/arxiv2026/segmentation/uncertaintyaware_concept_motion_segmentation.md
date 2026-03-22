@@ -9,11 +9,13 @@
 
 ## 一句话总结
 从 X 射线冠状动脉造影 (XCA) 序列中分割主冠状动脉对于冠状动脉疾病的诊断至关重要。
+
 ## 背景与动机
 Segmentation of the main coronary artery from X-ray coronary angiography (XCA) sequences is crucial for the diagnosis of coronary artery diseases.. However, this task is challenging due to issues such as blurred boundaries, inconsistent radiation contrast, complex motion patterns, and a lack of annotated images for training.
 
 ## 核心问题
 然而，由于边界模糊、辐射对比度不一致、运动模式复杂以及缺乏用于训练的注释图像等问题，这项任务具有挑战性。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Segmentation of the main coronary artery from X-ray coronary angiography (XCA) s
 
 ## 亮点 / 我学到了什么
 - 对来自不同机构的三个 XCA 序列数据集进行的广泛实验表明，SMART 实现了最先进的性能，同时需要的注释显着减少，这使其对于标记数据稀缺的现实临床应用特别有价值。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

@@ -1,9 +1,9 @@
 # Reprojection Errors as Prompts for Efficient Scene Coordinate Regression
 
-**会议**: ECCV 2024
-**arXiv**: [2409.04178](https://arxiv.org/abs/2409.04178)
-**代码**: [https://tingru0203.github.io/egfs](https://tingru0203.github.io/egfs)
-**领域**: 3D Vision / Visual Localization
+**会议**: ECCV 2024  
+**arXiv**: [2409.04178](https://arxiv.org/abs/2409.04178)  
+**代码**: [https://tingru0203.github.io/egfs](https://tingru0203.github.io/egfs)  
+**领域**: 3D Vision / Visual Localization  
 **关键词**: scene coordinate regression, visual localization, SAM, feature selection, confidence map
 
 ## 一句话总结

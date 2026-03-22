@@ -1,9 +1,9 @@
 # Towards Faithful Multimodal Concept Bottleneck Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13163](https://arxiv.org/abs/2603.13163)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.13163](https://arxiv.org/abs/2603.13163)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 概念瓶颈模型, 可解释性, 泄漏缓解, KAN网络, 多模态分类
 
 ## 一句话总结

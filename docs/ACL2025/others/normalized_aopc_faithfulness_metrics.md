@@ -1,9 +1,9 @@
 # Normalized AOPC: Fixing Misleading Faithfulness Metrics for Feature Attribution Explainability
 
-**会议**: ACL 2025
-**arXiv**: [2408.08137](https://arxiv.org/abs/2408.08137)
-**代码**: https://github.com/JoakimEdin/naopc
-**领域**: NLP理解 / 可解释性
+**会议**: ACL 2025  
+**arXiv**: [2408.08137](https://arxiv.org/abs/2408.08137)  
+**代码**: https://github.com/JoakimEdin/naopc  
+**领域**: NLP理解 / 可解释性  
 **关键词**: 特征归因, 可解释性, AOPC, 忠实度评估, 归一化指标
 
 ## 一句话总结

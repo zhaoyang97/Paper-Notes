@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # CrossHOI-Bench: A Unified Benchmark for HOI Evaluation across Vision-Language Models and HOI-Specific Methods
 
-**会议**: CVPR2026
-**arXiv**: [2508.18753](https://arxiv.org/abs/2508.18753)
-**代码**: [github.com/ChelsieLei/CrossHOI-Bench](https://github.com/ChelsieLei/CrossHOI-Bench)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2508.18753](https://arxiv.org/abs/2508.18753)  
+**代码**: [github.com/ChelsieLei/CrossHOI-Bench](https://github.com/ChelsieLei/CrossHOI-Bench)  
+**领域**: 多模态VLM  
 **关键词**: 人-物交互检测, VLM评估, HOI基准, 多选题, 跨范式比较
 
 ## 一句话总结

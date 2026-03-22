@@ -1,9 +1,9 @@
 # CAE: Hierarchical Semantic Alignment for Image Clustering
 
-**会议**: AAAI 2026
-**arXiv**: [2512.00904](https://arxiv.org/abs/2512.00904)
-**代码**: 无
-**领域**: 对齐RLHF / 多模态VLM
+**会议**: AAAI 2026  
+**arXiv**: [2512.00904](https://arxiv.org/abs/2512.00904)  
+**代码**: 无  
+**领域**: 对齐RLHF / 多模态VLM  
 **关键词**: image clustering, semantic alignment, optimal transport, caption-level semantics, training-free
 
 ## 一句话总结

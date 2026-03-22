@@ -1,9 +1,9 @@
 # RISE: Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing
 
-**会议**: ACL 2025
-**arXiv**: [2410.06638](https://arxiv.org/abs/2410.06638)
-**代码**: [available](https://github.com)
-**领域**: LLM对齐 / 数学推理
+**会议**: ACL 2025  
+**arXiv**: [2410.06638](https://arxiv.org/abs/2410.06638)  
+**代码**: [available](https://github.com)  
+**领域**: LLM对齐 / 数学推理  
 **关键词**: math reasoning, error injection, preference learning, DPO, hard negatives, subtle errors
 
 ## 一句话总结

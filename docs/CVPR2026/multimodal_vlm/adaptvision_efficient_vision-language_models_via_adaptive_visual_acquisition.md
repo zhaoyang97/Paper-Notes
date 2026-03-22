@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition
 
-**会议**: CVPR2026
-**arXiv**: [2512.03794](https://arxiv.org/abs/2512.03794)
-**代码**: [github.com/adaptvision/adaptvision](https://github.com/adaptvision/adaptvision)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2512.03794](https://arxiv.org/abs/2512.03794)  
+**代码**: [github.com/adaptvision/adaptvision](https://github.com/adaptvision/adaptvision)  
+**领域**: 多模态VLM  
 **关键词**: 视觉token压缩, 自适应视觉获取, 强化学习, 工具调用, 高效VLM
 
 ## 一句话总结

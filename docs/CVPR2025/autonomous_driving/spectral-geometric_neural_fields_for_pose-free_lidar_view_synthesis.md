@@ -1,9 +1,9 @@
 # Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis
 
-**会议**: CVPR2025
-**arXiv**: [2603.12903](https://arxiv.org/abs/2603.12903)
-**代码**: 待确认
-**领域**: autonomous_driving
+**会议**: CVPR2025  
+**arXiv**: [2603.12903](https://arxiv.org/abs/2603.12903)  
+**代码**: 待确认  
+**领域**: autonomous_driving  
 **关键词**: LiDAR view synthesis, NeRF, pose estimation, spectral embedding, point cloud reconstruction
 
 ## 一句话总结

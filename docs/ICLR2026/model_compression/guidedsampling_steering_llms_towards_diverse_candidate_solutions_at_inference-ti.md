@@ -1,9 +1,9 @@
 # GuidedSampling: Steering LLMs Towards Diverse Candidate Solutions at Inference-Time
 
-**会议**: ICLR 2026
-**arXiv**: [2510.03777](https://arxiv.org/abs/2510.03777)
-**代码**: [GitHub](https://github.com/DivijH/sampling_inference)
-**领域**: LLM效率 / 推理时计算 / 推理增强
+**会议**: ICLR 2026  
+**arXiv**: [2510.03777](https://arxiv.org/abs/2510.03777)  
+**代码**: [GitHub](https://github.com/DivijH/sampling_inference)  
+**领域**: LLM效率 / 推理时计算 / 推理增强  
 **关键词**: inference-time scaling, repeated sampling, diversity, concept exploration, pass@k
 
 ## 一句话总结

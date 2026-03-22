@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Alternating Gradient Flow Utility: A Unified Metric for Structural Pruning and Dynamic Routing in Deep Networks
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12354](https://arxiv.org/abs/2603.12354)
-**代码**: 待确认
-**领域**: 模型压缩 / 结构化剪枝
+**会议**: CVPR 2025  
+**arXiv**: [2603.12354](https://arxiv.org/abs/2603.12354)  
+**代码**: 待确认  
+**领域**: 模型压缩 / 结构化剪枝  
 **关键词**: 结构化剪枝, 动态路由, 梯度流效用, 通道剪枝, ViT压缩
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Energy-Regularized Sequential Model Editing on Hyperspheres
 
-**会议**: ICLR 2026
-**arXiv**: [2510.01172](https://arxiv.org/abs/2510.01172)
-**代码**: [GitHub](https://github.com/) (论文提供链接)
-**领域**: 模型压缩 / 知识编辑 / LLM效率
+**会议**: ICLR 2026  
+**arXiv**: [2510.01172](https://arxiv.org/abs/2510.01172)  
+**代码**: [GitHub](https://github.com/) (论文提供链接)  
+**领域**: 模型压缩 / 知识编辑 / LLM效率  
 **关键词**: model editing, hyperspherical energy, sequential editing, catastrophic forgetting, knowledge preservation
 
 ## 一句话总结

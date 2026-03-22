@@ -1,8 +1,8 @@
 # What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations
 
-**会议**: ACL 2025
-**arXiv**: [2502.08279](https://arxiv.org/abs/2502.08279)
-**领域**: NLP 理解
+**会议**: ACL 2025  
+**arXiv**: [2502.08279](https://arxiv.org/abs/2502.08279)  
+**领域**: NLP 理解  
 **关键词**: 视频摘要, 科学演讲, 多模态学习, 计划式生成, VISTA数据集
 
 ## 一句话总结

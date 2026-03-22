@@ -1,9 +1,9 @@
 # VLM-Loc: Localization in Point Cloud Maps via Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09826](https://arxiv.org/abs/2603.09826)
-**代码**: 有（见论文仓库）
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.09826](https://arxiv.org/abs/2603.09826)  
+**代码**: 有（见论文仓库）  
+**领域**: 多模态VLM  
 **关键词**: 文本到点云定位, BEV, 场景图, VLM空间推理, 自动驾驶
 
 ## 一句话总结

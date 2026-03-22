@@ -9,11 +9,13 @@
 
 ## 一句话总结
 大规模视频生成模型接受海量且多样化的视觉数据的训练，使它们能够内化视觉世界丰富的结构、语义和动态先验。
+
 ## 背景与动机
 Large-scale video generative models are trained on vast and diverse visual data, enabling them to internalize rich structural, semantic, and dynamic priors of the visual world.. While these models have demonstrated impressive generative capability, their potential as general-purpose visual learners remains largely untapped.
 
 ## 核心问题
 虽然这些模型表现出了令人印象深刻的生成能力，但它们作为通用视觉学习者的潜力在很大程度上尚未开发。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Large-scale video generative models are trained on vast and diverse visual data,
 
 ## 亮点 / 我学到了什么
 - 虽然这些模型表现出了令人印象深刻的生成能力，但它们作为通用视觉学习者的潜力在很大程度上尚未开发。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

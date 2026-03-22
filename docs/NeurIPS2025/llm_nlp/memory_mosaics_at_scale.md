@@ -1,9 +1,10 @@
 # Memory Mosaics at Scale
-**会议**: NeurIPS 2025
+
+**会议**: NeurIPS 2025  
 **arXiv**: [2507.03285](https://arxiv.org/abs/2507.03285)  
-**代码**: [https://github.com/facebookresearch/MemoryMosaics](https://github.com/facebookresearch/MemoryMosaics)
+**代码**: [https://github.com/facebookresearch/MemoryMosaics](https://github.com/facebookresearch/MemoryMosaics)  
 **作者**: Jianyu Zhang, Léon Bottou (NYU & FAIR, Meta)
-**领域**: LLM 架构设计, 关联存储
+**领域**: LLM 架构设计, 关联存储  
 **关键词**: 内存马赛克, 高斯核回归, 上下文学习, 组合性, 大规模扩展
 
 ## 一句话总结

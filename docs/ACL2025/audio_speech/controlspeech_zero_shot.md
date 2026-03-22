@@ -1,8 +1,8 @@
 # ControlSpeech: Towards Simultaneous and Independent Zero-shot Speaker Cloning and Zero-shot Language Style Control
 
-**会议**: ACL 2025
-**arXiv**: [2406.01205](https://arxiv.org/abs/2406.01205)
-**领域**: LLM NLP / 语音合成
+**会议**: ACL 2025  
+**arXiv**: [2406.01205](https://arxiv.org/abs/2406.01205)  
+**领域**: LLM NLP / 语音合成  
 **关键词**: 零样本语音合成, 风格可控TTS, 音色克隆, 离散编解码器解耦, 混合高斯密度网络
 
 ## 一句话总结

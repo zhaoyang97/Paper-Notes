@@ -1,9 +1,9 @@
 # Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21736](https://arxiv.org/abs/2602.21736)
-**代码**: https://research.beingbeyond.com/jala
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.21736](https://arxiv.org/abs/2602.21736)  
+**代码**: https://research.beingbeyond.com/jala  
+**领域**: 多模态VLM  
 **关键词**: VLA预训练, 潜在动作, 人类视频, 手部运动, 机器人操作
 
 ## 一句话总结

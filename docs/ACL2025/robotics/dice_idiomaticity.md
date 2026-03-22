@@ -1,8 +1,8 @@
 # Rolling the DICE on Idiomaticity: How LLMs Fail to Grasp Context
 
-**会议**: ACL 2025
-**arXiv**: [2410.16069](https://arxiv.org/abs/2410.16069)
-**领域**: NLP 理解
+**会议**: ACL 2025  
+**arXiv**: [2410.16069](https://arxiv.org/abs/2410.16069)  
+**领域**: NLP 理解  
 **关键词**: 习语理解, 对比评估, 上下文推理, 习语消歧, LLM局限性
 
 ## 一句话总结

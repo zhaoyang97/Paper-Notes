@@ -1,9 +1,9 @@
 # SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation
 
-**会议**: CVPR 2025
-**arXiv**: [2603.06572](https://arxiv.org/abs/2603.06572)
-**代码**: [GitHub](https://github.com/thengane/SCOPE)
-**领域**: 3D视觉 / 点云分割
+**会议**: CVPR 2025  
+**arXiv**: [2603.06572](https://arxiv.org/abs/2603.06572)  
+**代码**: [GitHub](https://github.com/thengane/SCOPE)  
+**领域**: 3D视觉 / 点云分割  
 **关键词**: 增量小样本学习, 3D语义分割, 原型网络, 背景挖掘, 点云
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 将静态 3D 网格转换为可交互的铰接资产对于实体 AI 和机器人模拟至关重要。
+
 ## 背景与动机
 Converting static 3D meshes into interactable articulated assets is crucial for embodied AI and robotic simulation.. However, existing zero-shot pipelines struggle with complex assets due to a critical lack of physical grounding.
 
 ## 核心问题
 然而，由于严重缺乏物理接地，现有的零样本管道难以应对复杂的资产。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Converting static 3D meshes into interactable articulated assets is crucial for 
 
 ## 亮点 / 我学到了什么
 - 大量实验表明，MotionAnymesh 在几何精度和动态物理可执行性方面均显着优于最先进的基线，为下游应用提供高度可靠的资产。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

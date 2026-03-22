@@ -1,9 +1,9 @@
 # NIMO: a Nonlinear Interpretable MOdel
 
-**会议**: ICLR 2026
-**arXiv**: [2506.05059](https://arxiv.org/abs/2506.05059)
-**代码**: 无
-**领域**: 可解释机器学习
+**会议**: ICLR 2026  
+**arXiv**: [2506.05059](https://arxiv.org/abs/2506.05059)  
+**代码**: 无  
+**领域**: 可解释机器学习  
 **关键词**: interpretable model, marginal effects, linear regression, neural networks, feature effects
 
 ## 一句话总结

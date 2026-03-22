@@ -16,6 +16,7 @@
 如何充分利用LiDAR的几何和反射率信息来增强3DGS自动驾驶场景重建？具体包含三个子问题：(1) 如何用LiDAR的结构信息（边缘点、平面点、反射率梯度边缘点）引导高斯体分布？(2) 如何利用光照不变的反射率信号来稳定复杂光照条件下的重建？(3) 如何确保RGB和反射率在材质边界处的一致性？
 
 ## 方法详解
+
 ### 整体框架
 输入RGB图像序列+LiDAR点云序列。场景用3DGS场景图表示（背景节点+动态物体节点+天空节点）。初始高斯体由两部分组成：从LiDAR特征点提取的Salient Gaussians和从SfM点初始化的Non-Salient Gaussians。每个高斯体除标准属性外还附带一个反射率通道。通过α混合渲染得到Color、Depth、Reflectance三张图像，用Color Loss + LiDAR Loss + Joint Loss联合优化。
 

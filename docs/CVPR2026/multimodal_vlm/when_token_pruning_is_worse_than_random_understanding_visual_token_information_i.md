@@ -1,9 +1,9 @@
 # When Token Pruning is Worse than Random: Understanding Visual Token Information in VLLMs
 
-**会议**: CVPR 2026
-**arXiv**: [2512.07580](https://arxiv.org/abs/2512.07580)
-**代码**: https://github.com/YahongWang1/Information-Horizon
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2512.07580](https://arxiv.org/abs/2512.07580)  
+**代码**: https://github.com/YahongWang1/Information-Horizon  
+**领域**: 多模态VLM  
 **关键词**: token剪枝, 信息地平线, 视觉token信息量, 随机剪枝, VLM推理加速
 
 ## 一句话总结

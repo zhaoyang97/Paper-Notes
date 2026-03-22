@@ -1,9 +1,9 @@
 # Peering into the Unknown: Active View Selection with Neural Uncertainty Maps for 3D Reconstruction
 
-**会议**: ICLR 2026
-**arXiv**: [2506.14856](https://arxiv.org/abs/2506.14856)
-**代码**: https://github.com/ZhangLab-DeepNeuroCogLab/PUN
-**领域**: 3D 视觉
+**会议**: ICLR 2026  
+**arXiv**: [2506.14856](https://arxiv.org/abs/2506.14856)  
+**代码**: https://github.com/ZhangLab-DeepNeuroCogLab/PUN  
+**领域**: 3D 视觉  
 **关键词**: active view selection, neural uncertainty map, 3D reconstruction, NeRF, 3DGS
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 机器人如何快速识别和识别在人类演示中向其展示的新物体？
+
 ## 背景与动机
 How can a robot quickly identify and recognize new objects shown to it during a human demonstration?. Existing closed-set object detectors frequently fail at this because the objects are out-of-distribution.
 
 ## 核心问题
 机器人如何快速识别和识别在人类演示期间向其展示的新物体？现有的闭集物体检测器经常会失败，因为物体不分布。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ How can a robot quickly identify and recognize new objects shown to it during a 
 
 ## 亮点 / 我学到了什么
 - 经验结果表明，我们的流程明显优于最先进的被操纵物体检测和识别方法，从而提高了机器人的任务完成率。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

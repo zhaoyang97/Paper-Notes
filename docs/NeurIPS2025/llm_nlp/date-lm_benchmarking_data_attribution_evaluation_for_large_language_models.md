@@ -1,8 +1,9 @@
 # DATE-LM: Benchmarking Data Attribution Evaluation for Large Language Models
-**会议**: NeurIPS 2025
-**arXiv**: [2507.09424](https://arxiv.org/abs/2507.09424)
-**代码**: https://github.com/DataAttributionEval/DATE-LM
-**领域**: LLM数据溯源与评估
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.09424](https://arxiv.org/abs/2507.09424)  
+**代码**: https://github.com/DataAttributionEval/DATE-LM  
+**领域**: LLM数据溯源与评估  
 **关键词**: 数据归因、基准评估、毒性过滤、数据选择
 
 ## 一句话总结

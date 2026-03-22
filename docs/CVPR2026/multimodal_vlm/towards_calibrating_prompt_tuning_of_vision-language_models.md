@@ -1,9 +1,9 @@
 # Towards Calibrating Prompt Tuning of Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19024](https://arxiv.org/abs/2602.19024)
-**代码**: https://github.com/ashshaksharifdeen/TCPT
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.19024](https://arxiv.org/abs/2602.19024)  
+**代码**: https://github.com/ashshaksharifdeen/TCPT  
+**领域**: 多模态VLM  
 **关键词**: prompt tuning, 校准, CLIP, 置信度估计, 预训练语义保持
 
 ## 一句话总结

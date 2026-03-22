@@ -16,6 +16,7 @@
 如何为GUI Agent提供结构化的App导航表示，使其能够追踪执行进度、预判操作结果、在出错时精准回退到稳定状态？这在跨App长步骤任务中尤为重要，因为操作链条长、出错概率高，反应式Agent难以胜任。
 
 ## 方法详解
+
 ### 整体框架
 Agent-SAMA是一个多Agent框架，包含四个阶段：规划（Planning）→ 执行（Execution）→ 验证与恢复（Verification & Recovery）→ 知识保留（Knowledge Retention）。核心创新在于用FSM $\mathcal{M} = (S, A, T, s_0, G)$ 建模App交互：UI屏幕为状态$S$，用户操作为动作$A$，屏幕间的转换为转移函数$T$。FSM在执行过程中实时增量构建。
 

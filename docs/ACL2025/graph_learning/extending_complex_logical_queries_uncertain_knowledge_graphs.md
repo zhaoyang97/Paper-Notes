@@ -1,8 +1,8 @@
 # Extending Complex Logical Queries on Uncertain Knowledge Graphs
 
-**会议**: ACL 2025
-**arXiv**: [2403.01508](https://arxiv.org/abs/2403.01508)
-**领域**: Knowledge Graph / Logical Reasoning
+**会议**: ACL 2025  
+**arXiv**: [2403.01508](https://arxiv.org/abs/2403.01508)  
+**领域**: Knowledge Graph / Logical Reasoning  
 **关键词**: 不确定知识图谱, 软查询, 复杂逻辑推理, 知识图谱嵌入, 置信度校准
 
 ## 一句话总结

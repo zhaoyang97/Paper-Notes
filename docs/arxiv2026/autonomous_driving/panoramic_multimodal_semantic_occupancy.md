@@ -9,11 +9,13 @@
 
 ## 一句话总结
 全景图像为四足机器人的感知提供整体 360° 视觉覆盖。
+
 ## 背景与动机
 Panoramic imagery provides holistic 360° visual coverage for perception in quadruped robots.. However, existing occupancy prediction methods are mainly designed for wheeled autonomous driving and rely heavily on RGB cues, limiting their robustness in complex environments.
 
 ## 核心问题
 然而，现有的占用预测方法主要针对轮式自动驾驶而设计，严重依赖 RGB 线索，限制了其在复杂环境中的鲁棒性。
+
 ## 方法详解
 
 ### 整体框架
@@ -40,6 +42,7 @@ Panoramic imagery provides holistic 360° visual coverage for perception in quad
 ## 亮点 / 我学到了什么
 - （3）我们建立了基于PanoMMOcc的基准，并提供详细的数据分析，以便能够在具有挑战性的具体场景下系统地评估感知方法。
 - 大量实验表明，VoxelHound 在 PanoMMOcc 上实现了最先进的性能（mIoU 中+4.16%}）。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

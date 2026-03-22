@@ -1,9 +1,9 @@
 # Emergence of Superposition: Unveiling the Training Dynamics of Chain of Continuous Thought
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23365](https://arxiv.org/abs/2509.23365)
-**代码**: 无
-**领域**: 视频理解 / LLM 推理理论
+**会议**: ICLR 2026  
+**arXiv**: [2509.23365](https://arxiv.org/abs/2509.23365)  
+**代码**: 无  
+**领域**: 视频理解 / LLM 推理理论  
 **关键词**: Continuous CoT, 叠加态, 训练动力学, Transformer 理论, 图可达性
 
 ## 一句话总结

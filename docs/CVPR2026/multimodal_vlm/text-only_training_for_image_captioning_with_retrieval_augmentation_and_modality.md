@@ -1,9 +1,9 @@
 # Text-Only Training for Image Captioning with Retrieval Augmentation and Modality Gap Correction
 
-**会议**: CVPR 2026
-**arXiv**: [2512.04309](https://arxiv.org/abs/2512.04309)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2512.04309](https://arxiv.org/abs/2512.04309)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 图像描述, 纯文本训练, 检索增强, 模态差距修正, CLIP
 
 ## 一句话总结

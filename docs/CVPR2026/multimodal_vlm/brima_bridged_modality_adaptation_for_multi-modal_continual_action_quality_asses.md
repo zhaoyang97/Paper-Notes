@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # BriMA: Bridged Modality Adaptation for Multi-Modal Continual Action Quality Assessment
 
-**会议**: CVPR2026
-**arXiv**: [2602.19170](https://arxiv.org/abs/2602.19170)
-**代码**: [github.com/ZhouKanglei/BriMA](https://github.com/ZhouKanglei/BriMA)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2602.19170](https://arxiv.org/abs/2602.19170)  
+**代码**: [github.com/ZhouKanglei/BriMA](https://github.com/ZhouKanglei/BriMA)  
+**领域**: 多模态VLM  
 **关键词**: 动作质量评估, 持续学习, 模态缺失, 多模态融合, 记忆回放
 
 ## 一句话总结

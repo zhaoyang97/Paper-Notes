@@ -1,9 +1,9 @@
 # MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04800](https://arxiv.org/abs/2603.04800)
-**代码**: https://github.com/alibaba/EfficientAI
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.04800](https://arxiv.org/abs/2603.04800)  
+**代码**: https://github.com/alibaba/EfficientAI  
+**领域**: 多模态VLM  
 **关键词**: 后训练量化, 多模态LLM, 平滑量化, 跨模态补偿, 低秩分解
 
 ## 一句话总结

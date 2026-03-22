@@ -1,9 +1,9 @@
 # Pandora's Box or Aladdin's Lamp: A Comprehensive Analysis Revealing the Role of RAG Noise in Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2408.13533](https://arxiv.org/abs/2408.13533)
-**代码**: https://github.com/jinyangwu/NoiserBench
-**领域**: LLM Agent / RAG
+**会议**: ACL 2025  
+**arXiv**: [2408.13533](https://arxiv.org/abs/2408.13533)  
+**代码**: https://github.com/jinyangwu/NoiserBench  
+**领域**: LLM Agent / RAG  
 **关键词**: RAG, noise, retrieval-augmented generation, benchmark, beneficial noise
 
 ## 一句话总结

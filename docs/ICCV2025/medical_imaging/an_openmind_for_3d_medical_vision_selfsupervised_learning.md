@@ -1,4 +1,5 @@
 # An OpenMind for 3D Medical Vision Self-supervised Learning
+
 **会议**: ICCV 2025  
 **arXiv**: [2412.17041](https://arxiv.org/abs/2412.17041)  
 **代码**: [https://github.com/MIC-DKFZ/nnssl](https://github.com/MIC-DKFZ/nnssl) (有)  

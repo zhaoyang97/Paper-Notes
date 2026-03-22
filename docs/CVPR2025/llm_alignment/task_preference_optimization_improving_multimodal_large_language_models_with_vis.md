@@ -1,9 +1,9 @@
 # Task Preference Optimization: Improving Multimodal Large Language Models with Vision Task Alignment
 
-**会议**: CVPR 2025
-**arXiv**: [2412.19326](https://arxiv.org/abs/2412.19326)
-**代码**: https://github.com/OpenGVLab/TPO
-**领域**: 多模态VLM
+**会议**: CVPR 2025  
+**arXiv**: [2412.19326](https://arxiv.org/abs/2412.19326)  
+**代码**: https://github.com/OpenGVLab/TPO  
+**领域**: 多模态VLM  
 **关键词**: MLLM, 多任务学习, 任务对齐, 视觉感知头, 视频理解, 目标跟踪, 时序定位
 
 ## 一句话总结

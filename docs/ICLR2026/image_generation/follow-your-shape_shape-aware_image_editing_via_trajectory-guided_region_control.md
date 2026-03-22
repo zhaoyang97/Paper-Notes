@@ -21,6 +21,7 @@
 6. **核心idea一句话**：通过比较源和目标 prompt 下的 velocity field 差异自动定位编辑区域，用分阶段 KV 注入实现稳定的形状感知编辑。
 
 ## 方法详解
+
 ### 整体框架
 基于 FLUX.1-dev 的推理时编辑框架。给定源图像和 prompt，先反演得到噪声 latent，然后分三阶段去噪：Stage 1 全局 KV 注入稳定轨迹 → Stage 2 编辑并收集 TDM → Stage 3 基于 TDM 掩码的选择性 KV 注入 + ControlNet 结构引导。
 
@@ -47,6 +48,7 @@ $$\delta_t^{(i)} = \| v_\theta(\mathbf{z}_t^{(i)}, t, \mathbf{c}_{\text{tgt}}) -
 - 使用 RF-Solver 二阶反演方案
 
 ## 实验关键数据
+
 ### 主实验（ReShapeBench + PIE-Bench）
 
 | 方法 | AS↑ | PSNR↑ | LPIPS↓(×10³) | CLIP Sim↑ |

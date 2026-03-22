@@ -9,11 +9,13 @@
 
 ## 一句话总结
 文本条件人体运动生成的最新进展很大程度上是由大规模人体运动数据训练的扩散模型驱动的。
+
 ## 背景与动机
 Recent progress in text-conditioned human motion generation has been largely driven by diffusion models trained on large-scale human motion data.. Building on this progress, recent methods attempt to transfer such models for character animation and real robot control by applying a Whole-Body Controller (WBC) that converts diffusion-generated motions into executable trajectories.
 
 ## 核心问题
 为了解决这个问题，我们在这里提出了 PhysMoDPO，一个直接偏好优化框架。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Recent progress in text-conditioned human motion generation has been largely dri
 ## 亮点 / 我学到了什么
 - 我们对文本到运动和空间控制任务的广泛实验证明了 PhysMoDPO 在模拟机器人的物理真实性和任务相关指标方面的持续改进。
 - 此外，我们还证明了 PhysMoDPO 在应用于模拟中的零次运动传输以及在 G1 人形机器人上的实际部署时会带来显着的改进。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

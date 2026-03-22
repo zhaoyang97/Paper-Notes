@@ -1,9 +1,9 @@
 # E-comIQ-ZH: A Human-Aligned Dataset and Benchmark for Fine-Grained Evaluation of E-commerce Posters with Chain-of-Thought
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21698](https://arxiv.org/abs/2602.21698)
-**代码**: [GitHub](https://github.com/4mm7/E-comIQ-ZH)
-**领域**: Image Quality Assessment / E-commerce AI
+**会议**: CVPR 2026  
+**arXiv**: [2602.21698](https://arxiv.org/abs/2602.21698)  
+**代码**: [GitHub](https://github.com/4mm7/E-comIQ-ZH)  
+**领域**: Image Quality Assessment / E-commerce AI  
 **关键词**: 电商海报评估, 图像质量评价, Chain-of-Thought, 多维度评分, 中文文本质量
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**：用专家标注+CoT推理链训练领域专用评估模型，使自动评估与人类专家判断对齐。
 
 ## 方法详解
+
 ### 整体框架
 E-comIQ-ZH包含三个组件：(a) E-comIQ-18k数据集（18K海报+多维分数+CoT推理链），(b) E-comIQ-M评估模型（两阶段训练），(c) E-comIQ-Bench基准（生成模型评测平台）。
 
@@ -30,6 +31,7 @@ E-comIQ-ZH包含三个组件：(a) E-comIQ-18k数据集（18K海报+多维分数
 六名领域专家先在1000张校准集上交叉标注，达成Krippendorff's $\alpha = 0.858$ 后分工标注。保持10%随机抽样协议防止标准漂移。
 
 ## 实验关键数据
+
 ### 主实验：与SOTA模型的相关性对比（E-comIQ-18k测试集）
 
 | 模型 | Overall PLCC/SRCC | Text PLCC/SRCC | Layout PLCC/SRCC |

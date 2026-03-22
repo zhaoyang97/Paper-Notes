@@ -1,8 +1,9 @@
 # 笔记7：价值引导搜索 - 高效链式思考推理
-**会议**: NeurIPS 2025
-**arXiv**: [2504.18428](https://arxiv.org/abs/2504.18428)
-**代码**: [GitHub](https://github.com/kaiwenw/value-guided-search)
-**领域**: LLM推理, 测试时计算, 价值模型
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.18428](https://arxiv.org/abs/2504.18428)  
+**代码**: [GitHub](https://github.com/kaiwenw/value-guided-search)  
+**领域**: LLM推理, 测试时计算, 价值模型  
 **关键词**: 价值模型, 块级搜索, 束搜索, VGS, 推理效率
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. **关键设计**：如何有效在长CoT中应用token级价值信号进行块级搜索决策？
 
 ## 方法详解
+
 ### 整体框架
 **端到端三阶段**：(1)价值模型训练 → (2)数据采集 → (3)块级搜索应用
 
@@ -62,6 +64,7 @@ end while
 $$\text{WMV}: \arg\max_{p_k}\sum_{y_i∈p_k}w_i, \quad w_i = V(x,y_i)$$
 
 ## 实验关键数据
+
 ### AIME-25 & HMMT-25竞赛数学
 
 | 模型配置 | AIME-25准确度 | HMMT-25准确度 | 平均(%) | 相对MV提升% |

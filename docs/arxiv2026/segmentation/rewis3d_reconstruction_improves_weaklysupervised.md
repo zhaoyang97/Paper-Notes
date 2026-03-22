@@ -9,11 +9,13 @@
 
 ## 一句话总结
 我们提出了 Rewis3d，这是一个框架，它利用前馈 3D 重建方面的最新进展来显着改进 2D 图像上的弱监督语义分割。
+
 ## 背景与动机
 We present Rewis3d, a framework that leverages recent advances in feed-forward 3D reconstruction to significantly improve weakly supervised semantic segmentation on 2D images.. Obtaining dense, pixel-level annotations remains a costly bottleneck for training segmentation models.
 
 ## 核心问题
 获得密集的像素级注释仍然是训练分割模型的昂贵瓶颈。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ We present Rewis3d, a framework that leverages recent advances in feed-forward 3
 - 我们提出了 Rewis3d，这是一个框架，它利用前馈 3D 重建方面的最新进展来显着改进 2D 图像上的弱监督语义分割。
 - 具体来说，双师生架构使用最先进的前馈重建来生成可靠的几何监督，从而强制 2D 图像和重建的 3D 点云之间的语义一致性。
 - 大量实验表明，Rewis3d 在稀疏监督方面实现了最先进的性能，比现有方法高 2-7%，且不需要额外的标签或推理开销。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

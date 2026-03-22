@@ -8,7 +8,7 @@
 | 领域 | 篇数 |
 |:-----|-----:|
 | 💬 [LLM / NLP](#llm_nlp) | 144 |
-| 👁️ [多模态 VLM](#multimodal_vlm) | 46 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 46 |
 | 📦 [模型压缩](#model_compression) | 37 |
 | ⚖️ [对齐 / RLHF](#llm_alignment) | 25 |
 | 🦾 [LLM Agent](#llm_agent) | 20 |
@@ -613,7 +613,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[Can LLMs Deceive CLIP? Benchmarking Adversarial Compositionality of Pre-trained Multimodal Representation via Text Updates](multimodal_vlm/adversarial_compositionality_clip.md)**
 

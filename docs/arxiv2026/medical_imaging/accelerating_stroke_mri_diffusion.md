@@ -9,11 +9,13 @@
 
 ## 一句话总结
 目的：开发一种利用扩散概率生成模型 (DPM) 加速 MRI 重建的数据高效策略，当只有有限的完全采样数据样本可用时，可以加快临床中风 MRI 的扫描时间。
+
 ## 背景与动机
 Purpose: To develop a data-efficient strategy for accelerated MRI reconstruction with Diffusion Probabilistic Generative Models (DPMs) that enables faster scan times in clinical stroke MRI when only limited fully-sampled data samples are available.. Methods: Our simple training strategy, inspired by the foundation model paradigm, first trains a DPM on a large, diverse collection of publicly available brain MRI data in fastMRI and then fine-tunes on a small dataset from the target application using carefully selected learning rates and fine-tuning durations.
 
 ## 核心问题
 目的：开发一种利用扩散概率生成模型 (DPM) 加速 MRI 重建的数据高效策略，当只有有限的完全采样数据样本可用时，可以在临床中风 MRI 中实现更快的扫描时间。方法：受基础模型范式的启发，我们的简单训练策略首先在 fastMRI 中的大量、多样化的公开脑部 MRI 数据上训练 DPM，然后使用精心选择的学习率和微调对来自目标应用程序的小数据集进行微调持续时间。
+
 ## 方法详解
 
 ### 整体框架
@@ -40,6 +42,7 @@ Purpose: To develop a data-efficient strategy for accelerated MRI reconstruction
 - 该方法通过受控快速 MRI 实验和盲法临床读者研究的临床中风 MRI 数据进行评估。
 - 结果：DPM 在大约 4000 名具有非 FLAIR 对比的受试者上进行预训练，并在仅来自 20 名目标受试者的 FLAIR 数据上进行微调，其重建性能与使用更多目标域 FLAIR 数据跨多个加速因子训练的模型相当。
 - 实验表明，适度的微调和降低的学习率可以提高性能，而微调不足或过度会降低重建质量。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

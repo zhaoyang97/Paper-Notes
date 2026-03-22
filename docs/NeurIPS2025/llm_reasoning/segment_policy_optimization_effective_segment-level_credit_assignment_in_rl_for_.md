@@ -1,8 +1,9 @@
 # Segment Policy Optimization: Effective Segment-Level Credit Assignment in RL for Large Language Models
-**会议**: NeurIPS 2025
-**arXiv**: [2505.23564](https://arxiv.org/abs/2505.23564)
-**代码**: [GitHub](https://github.com/AIFrameResearch/SPO)
-**领域**: 强化学习与推理训练
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.23564](https://arxiv.org/abs/2505.23564)  
+**代码**: [GitHub](https://github.com/AIFrameResearch/SPO)  
+**领域**: 强化学习与推理训练  
 **关键词**: 信用分配, 段级advantages, 蒙特卡洛估计, 树形采样, PPO改进
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. **研究机会**: 在token和轨迹之间找到平衡，利用MC估计避免critic
 
 ## 方法详解
+
 ### 整体框架
 SPO采用三层架构，每层支持多种实现：
 
@@ -56,6 +58,7 @@ SPO采用三层架构，每层支持多种实现：
    - 显著降低采样成本
 
 ## 实验关键数据
+
 ### SPO-Chain在GSM8K上的性能
 
 | 方法 | 准确度 | 相对改进 | 关键指标 |

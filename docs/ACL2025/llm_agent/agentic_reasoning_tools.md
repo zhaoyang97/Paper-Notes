@@ -1,9 +1,9 @@
 # Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools
 
-**会议**: ACL 2025
-**arXiv**: [2502.04644](https://arxiv.org/abs/2502.04644)
-**代码**: https://github.com/theworldofagents/Agentic-Reasoning
-**领域**: LLM Agent / LLM推理
+**会议**: ACL 2025  
+**arXiv**: [2502.04644](https://arxiv.org/abs/2502.04644)  
+**代码**: https://github.com/theworldofagents/Agentic-Reasoning  
+**领域**: LLM Agent / LLM推理  
 **关键词**: agentic reasoning, tool-use, mind-map, knowledge graph, web search, DeepSeek-R1
 
 ## 一句话总结

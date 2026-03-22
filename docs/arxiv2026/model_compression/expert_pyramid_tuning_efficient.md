@@ -9,11 +9,13 @@
 
 ## 一句话总结
 参数高效微调（PEFT）由于其极高的参数效率，已成为在多任务场景中部署 LLM 的主导范例。
+
 ## 背景与动机
 Parameter-Efficient Fine-Tuning (PEFT) has become a dominant paradigm for deploying LLMs in multi-task scenarios due to its extreme parameter efficiency.. While Mixture-of-Experts (MoE) based LoRA variants have achieved promising results by dynamically routing tokens to different low-rank experts, they largely overlook the hierarchical nature of task complexity.
 
 ## 核心问题
 为了弥补这一差距，我们提出了专家金字塔调整（EPT），这是一种新颖的架构，它将计算机视觉中的多尺度特征金字塔概念集成到 PEFT 领域。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Parameter-Efficient Fine-Tuning (PEFT) has become a dominant paradigm for deploy
 - 虽然基于专家混合 (MoE) 的 LoRA 变体通过动态地将令牌路由到不同的低级别专家而取得了有希望的结果，但它们在很大程度上忽视了任务复杂性的层次性质。
 - 跨多个多任务基准的大量实验表明，EPT 的性能显着优于 SOTA MoE-LoRA 变体。
 - 至关重要的是，得益于我们设计的重新参数化功能，EPT 实现了性能改进，同时减少了训练参数的数量。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

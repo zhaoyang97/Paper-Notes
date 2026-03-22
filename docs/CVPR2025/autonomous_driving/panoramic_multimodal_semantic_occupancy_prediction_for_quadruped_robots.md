@@ -1,9 +1,9 @@
 # Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots
 
-**会议**: CVPR2025
-**arXiv**: [2603.13108](https://arxiv.org/abs/2603.13108)
-**代码**: PanoMMOcc (待开源)
-**领域**: autonomous_driving
+**会议**: CVPR2025  
+**arXiv**: [2603.13108](https://arxiv.org/abs/2603.13108)  
+**代码**: PanoMMOcc (待开源)  
+**领域**: autonomous_driving  
 **关键词**: occupancy prediction, panoramic perception, multimodal fusion, quadruped robot, 3D scene understanding
 
 ## 一句话总结

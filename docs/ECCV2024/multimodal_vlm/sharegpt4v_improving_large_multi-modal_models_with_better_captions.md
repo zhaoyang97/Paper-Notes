@@ -1,9 +1,9 @@
 # ShareGPT4V: Improving Large Multi-Modal Models with Better Captions
 
-**会议**: ECCV 2024
-**arXiv**: [2311.12793](https://arxiv.org/abs/2311.12793)
-**代码**: [https://ShareGPT4V.github.io](https://ShareGPT4V.github.io)
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2311.12793](https://arxiv.org/abs/2311.12793)  
+**代码**: [https://ShareGPT4V.github.io](https://ShareGPT4V.github.io)  
+**领域**: 多模态VLM  
 **关键词**: 高质量caption, 数据增强, 多模态对齐, GPT4-Vision, 预训练数据
 
 ## 一句话总结

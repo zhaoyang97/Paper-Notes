@@ -1,9 +1,9 @@
 # Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory
 
-**会议**: CVPR 2026
-**arXiv**: [2603.15800](https://arxiv.org/abs/2603.15800)
-**代码**: https://EchoSafe-mllm.github.io
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.15800](https://arxiv.org/abs/2603.15800)  
+**代码**: https://EchoSafe-mllm.github.io  
+**领域**: 多模态VLM  
 **关键词**: MLLM安全, 上下文安全, 自反思记忆, 推理时防御, 安全基准
 
 ## 一句话总结

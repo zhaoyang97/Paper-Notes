@@ -9,11 +9,13 @@
 
 ## 一句话总结
 本质上恶性的细胞不受限制的增殖就是癌症。
+
 ## 背景与动机
 The unrestrained proliferation of cells that are malignant in nature is cancer.. In recent times, medical professionals are constantly acquiring enhanced diagnostic and treatment abilities by implementing deep learning models to analyze medical data for better clinical decision, disease diagnosis and drug discovery.
 
 ## 核心问题
 然而，卵巢癌仍然是一个两难的问题，因为它的非侵入性检测程序不准确，而精确检测则需要耗时的侵入性程序。
+
 ## 方法详解
 
 ### 整体框架

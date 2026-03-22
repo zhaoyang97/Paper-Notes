@@ -1,9 +1,9 @@
 # Weight Space Representation Learning on Diverse NeRF Architectures
 
-**会议**: ICLR 2026
-**arXiv**: [2502.09623](https://arxiv.org/abs/2502.09623)
-**代码**: 有（论文提供链接）
-**领域**: 3D 视觉 / NeRF
+**会议**: ICLR 2026  
+**arXiv**: [2502.09623](https://arxiv.org/abs/2502.09623)  
+**代码**: 有（论文提供链接）  
+**领域**: 3D 视觉 / NeRF  
 **关键词**: NeRF, weight space, graph meta-network, contrastive learning, architecture-agnostic
 
 ## 一句话总结

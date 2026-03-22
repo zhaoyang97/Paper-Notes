@@ -9,11 +9,13 @@
 
 ## 一句话总结
 在基于眼底图像的糖尿病视网膜病变 (DR) 分级和静息态 fMRI 癫痫发作区 (SOZ) 检测等关键任务中，跨领域推广图像分类仍然具有挑战性。
+
 ## 背景与动机
 Generalizing image classification across domains remains challenging in critical tasks such as fundus image-based diabetic retinopathy (DR) grading and resting-state fMRI seizure onset zone (SOZ) detection.. When domains differ in unknown causal factors, achieving cross-domain generalization is difficult, and there is no established methodology to objectively assess such differences without direct metadata or protocol-level information from data collectors, which is typically inaccessible.
 
 ## 核心问题
 在基于眼底图像的糖尿病视网膜病变 (DR) 分级和静息态 fMRI 癫痫发作区 (SOZ) 检测等关键任务中，跨领域推广图像分类仍然具有挑战性。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Generalizing image classification across domains remains challenging in critical
 
 ## 亮点 / 我学到了什么
 - 在 8 个 DR 和两个 SOZ 数据集上，GenEval 实现了卓越的 SDG 性能，平均准确度为 69.2% (DR) 和 81% (SOZ)，分别比最强基线高出 9.4% 和 1.8%。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

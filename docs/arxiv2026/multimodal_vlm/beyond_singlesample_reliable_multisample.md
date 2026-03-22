@@ -9,11 +9,13 @@
 
 ## 一句话总结
 大型视觉语言模型 (LVLM) 的传统黑盒蒸馏通常依赖于每个输入的单个教师响应，这通常会在多模式或时间场景中产生高方差响应和格式不一致。
+
 ## 背景与动机
 Traditional black-box distillation for Large Vision-Language Models (LVLMs) typically relies on a single teacher response per input, which often yields high-variance responses and format inconsistencies in multimodal or temporal scenarios.. To mitigate this unreliable supervision, we propose R-MSD (Reliable Multi-Sample Distillation), a framework that explicitly models teacher sampling variance to enhance distillation stability.
 
 ## 核心问题
 大型视觉语言模型 (LVLM) 的传统黑盒蒸馏通常依赖于每个输入的单个教师响应，这通常会在多模式或时间场景中产生高方差响应和格式不一致。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ Traditional black-box distillation for Large Vision-Language Models (LVLMs) typi
 ## 亮点 / 我学到了什么
 - 对综合视频理解基准的广泛评估表明，R-MSD 始终优于单样本蒸馏方法。
 - 我们还在相同的训练预算下添加了原始的 SFT+RL 4B 基线，这仅显示出边际收益，而我们的方法实现了显着改进。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

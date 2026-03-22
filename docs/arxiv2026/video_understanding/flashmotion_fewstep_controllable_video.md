@@ -9,11 +9,13 @@
 
 ## 一句话总结
 轨迹可控视频生成的最新进展取得了显着的进展。
+
 ## 背景与动机
 Recent advances in trajectory-controllable video generation have achieved remarkable progress.. Previous methods mainly use adapter-based architectures for precise motion control along predefined trajectories.
 
 ## 核心问题
 然而，所有这些方法都依赖于多步骤去噪过程，导致大量的时间冗余和计算开销。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ Recent advances in trajectory-controllable video generation have achieved remark
 - 轨迹可控视频生成的最新进展取得了显着的进展。
 - 为了进行评估，我们引入了 FlashBench，它是长序列轨迹可控视频生成的基准，可测量不同数量前景对象的视频质量和轨迹精度。
 - 对两种适配器架构的实验表明，FlashMotion 在视觉质量和轨迹一致性方面都超越了现有的视频蒸馏方法和之前的多步模型。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

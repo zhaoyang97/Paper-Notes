@@ -1,9 +1,9 @@
 # Cognitive Mirrors: Exploring the Diverse Functional Roles of Attention Heads in LLM Reasoning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.10978](https://arxiv.org/abs/2512.10978)
-**代码**: https://github.com/sihuo-design/CognitiveMirrors (有)
-**领域**: LLM推理
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.10978](https://arxiv.org/abs/2512.10978)  
+**代码**: https://github.com/sihuo-design/CognitiveMirrors (有)  
+**领域**: LLM推理  
 **关键词**: 注意力头, 认知功能, 可解释性, probing, 功能特化
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages
 
-**会议**: ACL 2025
-**arXiv**: [2406.11546](https://arxiv.org/abs/2406.11546)
-**代码**: 无（数据集公开）
-**领域**: 语音识别 / 低资源语言
+**会议**: ACL 2025  
+**arXiv**: [2406.11546](https://arxiv.org/abs/2406.11546)  
+**代码**: 无（数据集公开）  
+**领域**: 语音识别 / 低资源语言  
 **关键词**: 自动语音识别, 低资源语言, 大规模语料库, Noisy Student Training, 伪标签精炼
 
 ## 一句话总结

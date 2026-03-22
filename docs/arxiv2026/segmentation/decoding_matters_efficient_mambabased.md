@@ -9,11 +9,13 @@
 
 ## 一句话总结
 深度学习在医学图像分割方面取得了显着的成功，在描绘肿瘤和组织方面通常达到专家级的准确性。
+
 ## 背景与动机
 Deep learning has achieved remarkable success in medical image segmentation, often reaching expert-level accuracy in delineating tumors and tissues.. However, most existing approaches remain task-specific, showing strong performance on individual datasets but limited generalization across diverse imaging modalities.
 
 ## 核心问题
 深度学习在医学图像分割方面取得了显着的成功，在描绘肿瘤和组织方面通常达到专家级的准确性。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ Deep learning has achieved remarkable success in medical image segmentation, oft
 ## 亮点 / 我学到了什么
 - 深度学习在医学图像分割方面取得了显着的成功，在描绘肿瘤和组织方面通常达到专家级的准确性。
 - 对各种医学图像分割基准的广泛实验产生了最先进的性能和强大的泛化能力，同时保持了适度的模型复杂性。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

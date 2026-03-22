@@ -1,9 +1,9 @@
 # Towards Inference-Time Scaling for Continuous Space Reasoning
 
-**会议**: AAAI 2026
-**arXiv**: [2510.12167](https://arxiv.org/abs/2510.12167)
-**代码**: 待发布
-**领域**: 对齐RLHF / 推理时扩展与连续空间推理
+**会议**: AAAI 2026  
+**arXiv**: [2510.12167](https://arxiv.org/abs/2510.12167)  
+**代码**: 待发布  
+**领域**: 对齐RLHF / 推理时扩展与连续空间推理  
 **关键词**: inference-time scaling, continuous reasoning, COCONUT, geometric homogeneity, process reward model
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 连续推理的inference-time scaling潜力巨大，但连续思维的几何同质性是阻碍奖励模型有效区分的根本瓶颈。
 
 ## 方法详解
+
 ### 整体框架
 三步走：(1) 用dropout采样为COCONUT生成多样推理轨迹；(2) 适配MATH-Shepherd标注框架训练PRM和ORM；(3) 系统分析连续推理空间的几何属性来解释奖励模型失效的原因。
 
@@ -44,6 +45,7 @@
 - 正负样本1:1平衡，PRM 238k样本，ORM 324k样本，10 epochs，learning rate 1e-4
 
 ## 实验关键数据
+
 ### 主实验 - GSM8k上不同重排方法的Best-of-N性能
 
 | 方法 | N=1 | N=4 | N=8 | N=16 | N=32 |

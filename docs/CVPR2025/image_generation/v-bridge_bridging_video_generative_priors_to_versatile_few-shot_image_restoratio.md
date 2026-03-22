@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration
 
-**会议**: CVPR2025
-**arXiv**: [2603.13089](https://arxiv.org/abs/2603.13089)
-**代码**: [V-Bridge](https://github.com/Shenghe-Zheng/V-Bridge) (开源项目)
-**领域**: image_generation
+**会议**: CVPR2025  
+**arXiv**: [2603.13089](https://arxiv.org/abs/2603.13089)  
+**代码**: [V-Bridge](https://github.com/Shenghe-Zheng/V-Bridge) (开源项目)  
+**领域**: image_generation  
 **关键词**: video generative prior, few-shot image restoration, progressive restoration, drift correction, all-in-one restoration
 
 ## 一句话总结

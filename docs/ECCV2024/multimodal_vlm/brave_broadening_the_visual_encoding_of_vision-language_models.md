@@ -1,9 +1,9 @@
 # BRAVE: Broadening the Visual Encoding of Vision-Language Models
 
-**会议**: ECCV 2024
-**arXiv**: [2404.07204](https://arxiv.org/abs/2404.07204)
-**代码**: [项目主页](https://brave-vlms.epfl.ch)
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2404.07204](https://arxiv.org/abs/2404.07204)  
+**代码**: [项目主页](https://brave-vlms.epfl.ch)  
+**领域**: 多模态VLM  
 **关键词**: 多编码器融合, Q-Former, 视觉编码, VQA, 视觉幻觉
 
 ## 一句话总结

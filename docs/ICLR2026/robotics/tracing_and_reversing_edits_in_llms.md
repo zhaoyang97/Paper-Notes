@@ -1,9 +1,9 @@
 # Tracing and Reversing Edits in LLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2505.20819](https://arxiv.org/abs/2505.20819)
-**代码**: https://github.com/paulyoussef/trace-and-reverse/
-**领域**: AI Safety / 知识编辑
+**会议**: ICLR 2026  
+**arXiv**: [2505.20819](https://arxiv.org/abs/2505.20819)  
+**代码**: https://github.com/paulyoussef/trace-and-reverse/  
+**领域**: AI Safety / 知识编辑  
 **关键词**: knowledge editing, model security, SVD, edit tracing, edit reversal
 
 ## 一句话总结

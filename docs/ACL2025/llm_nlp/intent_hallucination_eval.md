@@ -1,8 +1,8 @@
 # Beyond Facts: Evaluating Intent Hallucination in Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2506.06539](https://arxiv.org/abs/2506.06539)
-**领域**: LLM NLP
+**会议**: ACL 2025  
+**arXiv**: [2506.06539](https://arxiv.org/abs/2506.06539)  
+**领域**: LLM NLP  
 **关键词**: 意图幻觉, FaithQA, Constraint Score, 遗漏, 误解
 
 ## 一句话总结

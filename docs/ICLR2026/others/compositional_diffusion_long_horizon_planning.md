@@ -1,9 +1,9 @@
 # Compositional Diffusion with Guided Search for Long-Horizon Planning
 
-**会议**: ICLR 2026
-**arXiv**: [2601.00126](https://arxiv.org/abs/2601.00126)
-**代码**: [cdgsearch.github.io](https://cdgsearch.github.io/)
-**领域**: 强化学习 / 扩散模型规划 / 组合生成
+**会议**: ICLR 2026  
+**arXiv**: [2601.00126](https://arxiv.org/abs/2601.00126)  
+**代码**: [cdgsearch.github.io](https://cdgsearch.github.io/)  
+**领域**: 强化学习 / 扩散模型规划 / 组合生成  
 **关键词**: compositional diffusion, long-horizon planning, mode averaging, guided search, inference-time compute
 
 ## 一句话总结

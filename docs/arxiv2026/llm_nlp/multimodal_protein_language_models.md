@@ -9,11 +9,13 @@
 
 ## 一句话总结
 预测酶动力学参数可以量化酶在规定的生化条件下催化特定底物的效率。
+
 ## 背景与动机
 Predicting enzyme kinetic parameters quantifies how efficiently an enzyme catalyzes a specific substrate under defined biochemical conditions.. Canonical parameters such as the turnover number ($k_\text{cat}$), Michaelis constant ($K_\text{m}$), and inhibition constant ($K_\text{i}$) depend jointly on the enzyme sequence, the substrate chemistry, and the conformational adaptation of the active site during binding.
 
 ## 核心问题
 许多学习流程将这个过程简化为酶和底物之间的静态兼容性问题，通过浅层操作融合它们的表示并回归单个值。
+
 ## 方法详解
 
 ### 整体框架
@@ -37,6 +39,7 @@ Predicting enzyme kinetic parameters quantifies how efficiently an enzyme cataly
 
 ## 亮点 / 我学到了什么
 - 通过跨越三个动力学端点和多个 PLM 主干的实验，与仅序列和浅融合基线相比，ERBA 提供了一致的增益和更强的分布外性能，为可扩展的动力学预测提供了一条基于生物学的途径，并为添加辅因子、突变和时间分辨结构线索奠定了基础。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

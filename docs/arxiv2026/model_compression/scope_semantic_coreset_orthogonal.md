@@ -9,11 +9,13 @@
 
 ## 一句话总结
 科学发现越来越需要学习联合数据集，这些数据集由来自高分辨率仪器的流提供，这些数据集具有极端的类别不平衡。
+
 ## 背景与动机
 Scientific discovery increasingly requires learning on federated datasets, fed by streams from high-resolution instruments, that have extreme class imbalance.. Current ML approaches either require impractical data aggregation or fail due to class imbalance.
 
 ## 核心问题
 为了克服这些挑战，我们引入了 SCOPE（使用正交投影嵌入进行联邦学习的语义核心集），这是一个用于联邦数据的核心集框架，可过滤异常并自适应修剪冗余数据以减轻长尾偏差。
+
 ## 方法详解
 
 ### 整体框架
@@ -37,6 +39,7 @@ Scientific discovery increasingly requires learning on federated datasets, fed b
 
 ## 亮点 / 我学到了什么
 - 大量实验表明，SCOPE 具有具有竞争力的全局精度和强大的收敛性，同时实现了卓越的效率，上行链路带宽减少了 128 倍至 512 倍，挂钟加速提高了 7.72 倍，并减少了用于本地核心集选择的 FLOP 和 VRAM 占用空间。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

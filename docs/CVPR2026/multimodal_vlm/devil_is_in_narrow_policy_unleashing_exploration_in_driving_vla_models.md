@@ -1,9 +1,9 @@
 # Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.06049](https://arxiv.org/abs/2603.06049)
-**代码**: [GitHub](https://github.com/Mashiroln/curious_vla.git)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.06049](https://arxiv.org/abs/2603.06049)  
+**代码**: [GitHub](https://github.com/Mashiroln/curious_vla.git)  
+**领域**: 多模态VLM  
 **关键词**: 自动驾驶VLA, 窄策略问题, 探索-利用困境, 强化学习, 轨迹多样性
 
 ## 一句话总结

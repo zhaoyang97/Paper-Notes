@@ -1,9 +1,9 @@
 # Optimal Transport-Based Token Weighting for Enhanced Preference Optimization
 
-**会议**: ACL 2025
-**arXiv**: [2505.18720](https://arxiv.org/abs/2505.18720)
-**代码**: [https://github.com/Mimasss2/OTPO](https://github.com/Mimasss2/OTPO)
-**领域**: LLM对齐 / 偏好优化
+**会议**: ACL 2025  
+**arXiv**: [2505.18720](https://arxiv.org/abs/2505.18720)  
+**代码**: [https://github.com/Mimasss2/OTPO](https://github.com/Mimasss2/OTPO)  
+**领域**: LLM对齐 / 偏好优化  
 **关键词**: DPO, optimal transport, token weighting, preference optimization, length bias
 
 ## 一句话总结

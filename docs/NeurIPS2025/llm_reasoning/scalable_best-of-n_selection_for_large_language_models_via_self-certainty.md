@@ -1,8 +1,9 @@
 # Scalable Best-of-N Selection for Large Language Models via Self-Certainty
-**会议**: NeurIPS 2025
-**arXiv**: [2502.18581](https://arxiv.org/abs/2502.18581)
-**代码**: [GitHub](https://github.com/backprop07/Self-Certainty)
-**领域**: LLM推理与选择策略
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.18581](https://arxiv.org/abs/2502.18581)  
+**代码**: [GitHub](https://github.com/backprop07/Self-Certainty)  
+**领域**: LLM推理与选择策略  
 **关键词**: Best-of-N, 自信度, 分布量化, 无奖励模型, 推理加速
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. **机会**: LLM的token概率分布天然编码了模型信心，可直接利用
 
 ## 方法详解
+
 ### 整体框架
 Self-Certainty基于分布信心量化，核心思路是：
 - 更集中的token概率分布→更高的模型信心
@@ -41,6 +43,7 @@ Self-Certainty = -1/(nV) * ∑∑ log(V·p(j|x,y≤i))
 - 答案聚合：累积最多票的答案
 
 ## 实验关键数据
+
 ### 置信度度量对比 (LiveBench-Math)
 
 | 度量方法 | N=8 | N=16 | N=32 | N=64 | 性能趋势 |

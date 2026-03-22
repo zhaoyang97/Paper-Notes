@@ -1,9 +1,9 @@
 # TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models
 
-**会议**: AAAI 2026
-**arXiv**: [2507.10643](https://arxiv.org/abs/2507.10643)
-**代码**: 附录提供
-**领域**: 对齐RLHF / 可解释AI与模型归因
+**会议**: AAAI 2026  
+**arXiv**: [2507.10643](https://arxiv.org/abs/2507.10643)  
+**代码**: 附录提供  
+**领域**: 对齐RLHF / 可解释AI与模型归因  
 **关键词**: local attribution, Taylor expansion, post-hoc explainability, feature interaction, AUP optimization
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用三个公设规范Taylor项的归属，再用AUP优化驱动的Dirichlet采样来自适应分配交互效应权重。
 
 ## 方法详解
+
 ### 整体框架
 TaylorPODA将模型输出 $f(\mathbf{x})$ 在基准点 $\boldsymbol{\beta}$ 处做Taylor展开，将展开项分为独立效应 $\lambda(\boldsymbol{\phi})$ 和交互效应 $\mu(\boldsymbol{\psi})$，然后通过三个公设约束归属规则，并引入可调系数 $\xi_{i,S}$ 实现交互效应的自适应分配。
 
@@ -43,6 +44,7 @@ $$a_i^{(\text{TaylorPODA})} = f(\mathbf{x}) - f_{G\setminus\{i\}}(\mathbf{x}) - 
 其中 $H(S) = \sum_{T \subseteq S} (-1)^{|T|-|S|} f_T(\mathbf{x})$ 是Harsanyi dividend。
 
 ## 实验关键数据
+
 ### 主实验 - 表格数据特征重要性对齐
 
 | 方法 | Cancer AUP↓ | Rice AUP↓ | Titanic AUP↓ | Abalone AUP↓ | Concrete AUP↓ |
@@ -76,6 +78,7 @@ $$a_i^{(\text{TaylorPODA})} = f(\mathbf{x}) - f_{G\setminus\{i\}}(\mathbf{x}) - 
 - **SHAP的局限性被显式化**: 证明SHAP虽满足精确性+联合性+零偏差但缺乏自适应性；WeightedSHAP引入自适应但牺牲了精确性和零偏差
 - **SHAP-style可视化**: TaylorPODA满足零偏差意味着可以像SHAP一样做贡献加和的条形图可视化
 - **Dirichlet搜索的巧妙性**: 利用Dirichlet分布的归一化性质自然满足约束，避免了复杂的约束优化- **Table 2的对比价值**: 公设/属性满足情况的对比表是论文的核心贡献，一目了然地展示了TaylorPODA的优势
+
 ## 局限性 / 可改进方向
 - **计算效率**: 完整版需要 $2^{|G|-1}$ 个Harsanyi dividend计算，每个涉及 $2^{|S|}$ 个masked output查询，高维特征空间不可行
 - 论文使用截断近似（限制 $|S| \leq c$），但误差分析不够完善

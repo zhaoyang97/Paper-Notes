@@ -1,9 +1,9 @@
 # Test-driven Reinforcement Learning in Continuous Control
 
-**会议**: AAAI 2026 (Oral)
-**arXiv**: [2511.07904](https://arxiv.org/abs/2511.07904)
-**代码**: [https://github.com/KezhiAdore/TdRL](https://github.com/KezhiAdore/TdRL)
-**领域**: 强化学习 / 连续控制 / 任务表示
+**会议**: AAAI 2026 (Oral)  
+**arXiv**: [2511.07904](https://arxiv.org/abs/2511.07904)  
+**代码**: [https://github.com/KezhiAdore/TdRL](https://github.com/KezhiAdore/TdRL)  
+**领域**: 强化学习 / 连续控制 / 任务表示  
 **关键词**: Test-driven RL, Satisficing Theory, 多目标优化, 轨迹回报函数, 字典序比较
 
 ## 一句话总结

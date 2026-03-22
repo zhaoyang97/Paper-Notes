@@ -1,9 +1,9 @@
 # RF-MatID: Dataset and Benchmark for Radio Frequency Material Identification
 
-**会议**: ICLR 2026
-**arXiv**: [2601.20377](https://arxiv.org/abs/2601.20377)
-**代码**: 有（项目页面提供）
-**领域**: AI Safety / 具身智能 / RF 感知
+**会议**: ICLR 2026  
+**arXiv**: [2601.20377](https://arxiv.org/abs/2601.20377)  
+**代码**: 有（项目页面提供）  
+**领域**: AI Safety / 具身智能 / RF 感知  
 **关键词**: RF sensing, material identification, UWB-mmWave, dataset benchmark, embodied AI
 
 ## 一句话总结

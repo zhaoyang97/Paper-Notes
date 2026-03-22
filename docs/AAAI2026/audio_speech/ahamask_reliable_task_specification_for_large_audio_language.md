@@ -16,6 +16,7 @@
 如何消除 LALM 对自然语言指令的依赖和敏感性，在不使用任何指令的情况下可靠地指定声学任务？更深层地，LALM 的 Transformer 注意力头中是否存在类似文本 LLM 的"功能通路"？
 
 ## 方法详解
+
 ### 整体框架
 AHAMask 在 LALM 的 decoder-only LLM 骨干中，为每个注意力头引入一个二值掩码 $m_{i,j} \in \{0,1\}$。推理时仅激活被选中的注意力头子集，即修改 MHA 为 $\text{MHA}_i(\mathbf{X}, \mathcal{M}) = \sum_{j=1}^{h} m_{i,j} \mathbf{Y}^{(i,j)} \mathbf{W}_O^{(i,j)}$。由于 skip connection 的存在，即使某层所有头被屏蔽，计算图也不会断裂。
 

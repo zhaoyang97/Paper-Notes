@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Beyond Static Artifacts: A Forensic Benchmark for Video Deepfake Reasoning in Vision Language Models
 
-**会议**: CVPR2026
-**arXiv**: [2602.21779](https://arxiv.org/abs/2602.21779)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2602.21779](https://arxiv.org/abs/2602.21779)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 深度伪造检测, 视频取证, VLM推理, 时序不一致, 多选题基准, 指令微调
 
 ## 一句话总结

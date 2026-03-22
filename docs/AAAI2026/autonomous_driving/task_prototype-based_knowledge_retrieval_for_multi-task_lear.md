@@ -1,9 +1,9 @@
 # Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data
 
-**会议**: AAAI 2026
-**arXiv**: [2601.07474](https://arxiv.org/abs/2601.07474)
-**代码**: 暂无
-**领域**: 多任务学习 / 密集预测 / 部分标注
+**会议**: AAAI 2026  
+**arXiv**: [2601.07474](https://arxiv.org/abs/2601.07474)  
+**代码**: 暂无  
+**领域**: 多任务学习 / 密集预测 / 部分标注  
 **关键词**: Multi-Task Learning, Task Prototype, 部分标注, Knowledge Retrieval Transformer, 任务关联
 
 ## 一句话总结

@@ -16,6 +16,7 @@
 如何让MLLM具备结构化空间推理能力，在一个轻量框架中统一平面图的理解、生成和编辑？
 
 ## 方法详解
+
 ### 整体框架
 HouseMind = (1) Room-Instance Tokenization用层级VQ-VAE将平面图分解为outline tokens+room tokens + (2) 三阶段训练管线让LLM处理空间token和文本的混合序列。
 

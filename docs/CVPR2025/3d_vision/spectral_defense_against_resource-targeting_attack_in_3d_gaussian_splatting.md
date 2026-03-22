@@ -1,9 +1,9 @@
 # Spectral Defense Against Resource-Targeting Attack in 3D Gaussian Splatting
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12796](https://arxiv.org/abs/2603.12796)
-**代码**: 待确认
-**领域**: 3D视觉 / AI安全
+**会议**: CVPR 2025  
+**arXiv**: [2603.12796](https://arxiv.org/abs/2603.12796)  
+**代码**: 待确认  
+**领域**: 3D视觉 / AI安全  
 **关键词**: 3D Gaussian Splatting, 对抗防御, 资源攻击, 频域分析, 频率感知剪枝
 
 ## 一句话总结

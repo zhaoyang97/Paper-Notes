@@ -1,8 +1,8 @@
 # A Survey on Patent Analysis: From NLP to Multimodal AI
 
-**会议**: ACL 2025
-**arXiv**: [2404.08668](https://arxiv.org/abs/2404.08668)
-**领域**: LLM NLP / 综述 / 专利分析
+**会议**: ACL 2025  
+**arXiv**: [2404.08668](https://arxiv.org/abs/2404.08668)  
+**领域**: LLM NLP / 综述 / 专利分析  
 **关键词**: 专利分析, NLP, 多模态AI, 专利分类, 预训练语言模型
 
 ## 一句话总结

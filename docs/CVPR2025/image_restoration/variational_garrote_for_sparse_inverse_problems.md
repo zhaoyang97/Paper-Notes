@@ -1,9 +1,9 @@
 # Variational Garrote for Sparse Inverse Problems
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12562](https://arxiv.org/abs/2603.12562)
-**代码**: 无
-**领域**: 图像复原 / 稀疏重建
+**会议**: CVPR 2025  
+**arXiv**: [2603.12562](https://arxiv.org/abs/2603.12562)  
+**代码**: 无  
+**领域**: 图像复原 / 稀疏重建  
 **关键词**: 稀疏正则化, Variational Garrote, LASSO, 逆问题, CT重建, 信号去噪
 
 ## 一句话总结

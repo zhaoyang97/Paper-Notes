@@ -19,6 +19,7 @@
 6. **核心idea一句话**: LLM存在contextual entrainment机制——"看过即提升概率"，通过可微掩码可定位并关闭对应的entrainment heads。
 
 ## 方法详解
+
 ### 整体框架
 构建包含context prompt和query prompt的实验设置，基于LRE数据集（包含15种关系类型，如country-capital、fruit-color等），系统测量LLM在不同上下文条件（related/irrelevant/random/counterfactual）下对目标token的logit变化。每个关系类型最多100K个组合。然后利用可微掩码发现entrainment heads。
 
@@ -33,6 +34,7 @@
 - 在LRE数据集上80/10/10划分训练/开发/测试集
 
 ## 实验关键数据
+
 ### 主实验
 
 | 指标 | 原始模型(有干扰) | 去除Entrainment Heads(有干扰) | 原始模型(无干扰) |

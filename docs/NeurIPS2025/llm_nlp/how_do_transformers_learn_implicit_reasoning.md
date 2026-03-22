@@ -1,8 +1,9 @@
 # How Do Transformers Learn Implicit Reasoning?
-**会议**: NeurIPS 2025
-**arXiv**: [2505.23653](https://arxiv.org/abs/2505.23653)
-**代码**: https://github.com/Jiaran-Ye/ImplicitReasoning
-**领域**: 隐式推理、可解释性、表示学习
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.23653](https://arxiv.org/abs/2505.23653)  
+**代码**: https://github.com/Jiaran-Ye/ImplicitReasoning  
+**领域**: 隐式推理、可解释性、表示学习  
 **关键词**: 多跳推理、神经回路、余弦聚类、语义修补
 
 ## 一句话总结

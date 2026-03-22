@@ -1,9 +1,9 @@
 # Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models
 
-**会议**: ECCV 2024
-**arXiv**: [2404.13013](https://arxiv.org/abs/2404.13013)
-**代码**: [https://groma-mllm.github.io/](https://groma-mllm.github.io/)
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2404.13013](https://arxiv.org/abs/2404.13013)  
+**代码**: [https://groma-mllm.github.io/](https://groma-mllm.github.io/)  
+**领域**: 多模态VLM  
 **关键词**: 视觉定位, Region Tokenization, Grounding, Referring, 多模态大模型
 
 ## 一句话总结

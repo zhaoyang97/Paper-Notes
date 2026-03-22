@@ -1,9 +1,9 @@
 # BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning
 
-**会议**: ICLR 2026
-**arXiv**: [2510.26374](https://arxiv.org/abs/2510.26374)
-**代码**: [GitHub](https://github.com/modelscope/Trinity-RFT/tree/main/examples/bots)
-**领域**: model_compression
+**会议**: ICLR 2026  
+**arXiv**: [2510.26374](https://arxiv.org/abs/2510.26374)  
+**代码**: [GitHub](https://github.com/modelscope/Trinity-RFT/tree/main/examples/bots)  
+**领域**: model_compression  
 **关键词**: 强化微调, 任务选择, 贝叶斯推断, Thompson采样, 课程学习, 在线学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Are Large Reasoning Models Good Translation Evaluators? Analysis and Performance Boost
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.20780](https://arxiv.org/abs/2510.20780)
-**代码**: https://github.com/ThinMQM (有)
-**领域**: LLM推理
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20780](https://arxiv.org/abs/2510.20780)  
+**代码**: https://github.com/ThinMQM (有)  
+**领域**: LLM推理  
 **关键词**: LRM-as-a-judge, 机器翻译评估, MQM, 思维预算校准, ThinMQM
 
 ## 一句话总结

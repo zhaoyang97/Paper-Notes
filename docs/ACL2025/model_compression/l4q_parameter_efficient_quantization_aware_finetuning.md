@@ -1,8 +1,8 @@
 # L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2402.04902](https://arxiv.org/abs/2402.04902)
-**领域**: 模型压缩 / 大语言模型量化 / 参数高效微调
+**会议**: ACL 2025  
+**arXiv**: [2402.04902](https://arxiv.org/abs/2402.04902)  
+**领域**: 模型压缩 / 大语言模型量化 / 参数高效微调  
 **关键词**: 量化感知训练, LoRA, 低精度推理, 内存优化, LLM压缩
 
 ## 一句话总结

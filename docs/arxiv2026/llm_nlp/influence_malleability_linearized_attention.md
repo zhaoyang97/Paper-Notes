@@ -9,11 +9,13 @@
 
 ## 一句话总结
 由于注意力机制复杂的非线性动力学，理解注意力机制的理论基础仍然具有挑战性。
+
 ## 背景与动机
 Understanding the theoretical foundations of attention mechanisms remains challenging due to their complex, non-linear dynamics.. This work reveals a fundamental trade-off in the learning dynamics of linearized attention.
 
 ## 核心问题
 由于注意力机制复杂的非线性动力学，理解注意力机制的理论基础仍然具有挑战性。
+
 ## 方法详解
 
 ### 整体框架

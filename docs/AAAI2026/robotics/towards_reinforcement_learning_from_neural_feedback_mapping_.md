@@ -1,9 +1,9 @@
 # Towards Reinforcement Learning from Neural Feedback: Mapping fNIRS Signals to Agent Performance
 
-**会议**: AAAI 2026
-**arXiv**: [2511.12844](https://arxiv.org/abs/2511.12844)
-**代码**: [数据集公开](https://github.com/your-profile/fNIRS2RL) / [分类代码](https://github.com/your-profile/NeuroLoop-Classification/tree/aaai26)
-**领域**: 人机交互 / 强化学习 / 脑机接口
+**会议**: AAAI 2026  
+**arXiv**: [2511.12844](https://arxiv.org/abs/2511.12844)  
+**代码**: [数据集公开](https://github.com/your-profile/fNIRS2RL) / [分类代码](https://github.com/your-profile/NeuroLoop-Classification/tree/aaai26)  
+**领域**: 人机交互 / 强化学习 / 脑机接口  
 **关键词**: RLNF, fNIRS, 神经反馈, 隐式信号, 跨被试泛化, NEURO-LOOP
 
 ## 一句话总结

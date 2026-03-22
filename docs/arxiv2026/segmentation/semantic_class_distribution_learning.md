@@ -9,11 +9,13 @@
 
 ## 一句话总结
 医学图像分割对于计算机辅助诊断至关重要。
+
 ## 背景与动机
 Medical image segmentation is critical for computer-aided diagnosis.. However, dense pixel-level annotation is time-consuming and expensive, and medical datasets often exhibit severe class imbalance.
 
 ## 核心问题
 然而，密集的像素级注释既耗时又昂贵，并且医学数据集通常表现出严重的类别不平衡。
+
 ## 方法详解
 
 ### 整体框架
@@ -37,6 +39,7 @@ Medical image segmentation is critical for computer-aided diagnosis.. However, d
 
 ## 亮点 / 我学到了什么
 - Synapse 和 AMOS 数据集上的实验表明，SCDL 显着提高了整体和类别级别指标的分割性能，尤其是少数类别的收益尤其强劲，实现了最先进的结果。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

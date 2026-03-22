@@ -1,9 +1,9 @@
 # Learning-guided Kansa Collocation for Forward and Inverse PDE Problems
 
-**会议**: ICLR 2026
-**arXiv**: [2602.07970](https://arxiv.org/abs/2602.07970)
-**代码**: 无
-**领域**: 科学计算 / PDE求解
+**会议**: ICLR 2026  
+**arXiv**: [2602.07970](https://arxiv.org/abs/2602.07970)  
+**代码**: 无  
+**领域**: 科学计算 / PDE求解  
 **关键词**: Kansa method, radial basis functions, nonlinear PDEs, inverse problems, neural PDE solvers
 
 ## 一句话总结

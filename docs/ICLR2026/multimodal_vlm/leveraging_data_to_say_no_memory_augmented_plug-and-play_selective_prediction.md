@@ -1,9 +1,9 @@
 # Leveraging Data to Say No: Memory Augmented Plug-and-Play Selective Prediction
 
-**会议**: ICLR 2026
-**arXiv**: [2601.22570](https://arxiv.org/abs/2601.22570)
-**代码**: https://github.com/kingston-aditya/MA-PaPSP
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2601.22570](https://arxiv.org/abs/2601.22570)  
+**代码**: https://github.com/kingston-aditya/MA-PaPSP  
+**领域**: 多模态VLM  
 **关键词**: 选择性预测, VLM可靠性, 检索增强, 对比评分, CLIP
 
 ## 一句话总结

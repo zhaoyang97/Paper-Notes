@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # BenDFM: A taxonomy and synthetic CAD dataset for manufacturability assessment in sheet metal bending
 
-**会议**: CVPR 2025
-**arXiv**: [2603.13102](https://arxiv.org/abs/2603.13102)
-**代码**: [GitHub](https://github.com/UGent-CVAMO/bendfm)
-**领域**: 其他 / 制造设计 / CAD数据集
+**会议**: CVPR 2025  
+**arXiv**: [2603.13102](https://arxiv.org/abs/2603.13102)  
+**代码**: [GitHub](https://github.com/UGent-CVAMO/bendfm)  
+**领域**: 其他 / 制造设计 / CAD数据集  
 **关键词**: 制造设计(DFM), 可制造性评估, 板金弯曲, 合成CAD数据集, 几何深度学习, 分类法
 
 ## 一句话总结

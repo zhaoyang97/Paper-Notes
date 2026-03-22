@@ -1,8 +1,8 @@
 # MindRef: Mimicking Human Memory for Hierarchical Reference Retrieval with Fine-Grained Location Awareness
 
-**会议**: ACL 2025
-**arXiv**: [2402.17010](https://arxiv.org/abs/2402.17010)
-**领域**: 知识密集型检索 / 生成式检索
+**会议**: ACL 2025  
+**arXiv**: [2402.17010](https://arxiv.org/abs/2402.17010)  
+**领域**: 知识密集型检索 / 生成式检索  
 **关键词**: 生成式检索, 参数化知识, 层次化召回, 约束解码, FM-Index
 
 ## 一句话总结

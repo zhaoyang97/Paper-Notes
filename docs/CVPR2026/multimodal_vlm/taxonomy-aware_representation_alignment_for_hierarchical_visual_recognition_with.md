@@ -1,9 +1,9 @@
 # Taxonomy-Aware Representation Alignment for Hierarchical Visual Recognition with Large Multimodal Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00431](https://arxiv.org/abs/2603.00431)
-**代码**: https://github.com/PKU-ICST-MIPL/TARA_CVPR2026
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.00431](https://arxiv.org/abs/2603.00431)  
+**代码**: https://github.com/PKU-ICST-MIPL/TARA_CVPR2026  
+**领域**: 多模态VLM  
 **关键词**: 层次化视觉识别, 生物分类学, 表示对齐, 生物基础模型, 强化学习微调
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # SpatiaLQA: A Benchmark for Evaluating Spatial Logical Reasoning in Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20901](https://arxiv.org/abs/2602.20901)
-**代码**: https://github.com/xieyc99/SpatiaLQA
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.20901](https://arxiv.org/abs/2602.20901)  
+**代码**: https://github.com/xieyc99/SpatiaLQA  
+**领域**: 多模态VLM  
 **关键词**: 空间逻辑推理, VLM基准, 场景图, 室内场景理解, 多步推理
 
 ## 一句话总结

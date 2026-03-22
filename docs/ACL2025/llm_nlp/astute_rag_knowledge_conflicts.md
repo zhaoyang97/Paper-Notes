@@ -1,9 +1,9 @@
 # Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2410.07176](https://arxiv.org/abs/2410.07176)
-**代码**: 无（Google Cloud AI Research）
-**领域**: LLM Agent / RAG
+**会议**: ACL 2025  
+**arXiv**: [2410.07176](https://arxiv.org/abs/2410.07176)  
+**代码**: 无（Google Cloud AI Research）  
+**领域**: LLM Agent / RAG  
 **关键词**: RAG robustness, knowledge conflict, internal knowledge, source-aware consolidation, imperfect retrieval
 
 ## 一句话总结

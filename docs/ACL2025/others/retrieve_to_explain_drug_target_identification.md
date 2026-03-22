@@ -1,8 +1,8 @@
 # Retrieve to Explain: Evidence-driven Predictions for Explainable Drug Target Identification
 
-**会议**: ACL 2025
-**arXiv**: [2402.04068](https://arxiv.org/abs/2402.04068)
-**领域**: 检索增强 / 可解释AI / 生物医学NLP
+**会议**: ACL 2025  
+**arXiv**: [2402.04068](https://arxiv.org/abs/2402.04068)  
+**领域**: 检索增强 / 可解释AI / 生物医学NLP  
 **关键词**: 检索增强预测, Shapley值解释, 药物靶点识别, 证据归因, 临床试验预测
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 图像美感增强旨在感知图像中的美感缺陷并进行相应的编辑操作，具有很高的挑战性，要求模型具备创造力和美感感知能力。
+
 ## 背景与动机
 Image aesthetic enhancement aims to perceive aesthetic deficiencies in images and perform corresponding editing operations, which is highly challenging and requires the model to possess creativity and aesthetic perception capabilities.. Although recent advancements in image editing models have significantly enhanced their controllability and flexibility, they struggle with enhancing image aesthetic.
 
 ## 核心问题
 尽管图像编辑模型的最新进展显着增强了其可控性和灵活性，但它们在增强图像美感方面遇到了困难。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Image aesthetic enhancement aims to perceive aesthetic deficiencies in images an
 
 ## 亮点 / 我学到了什么
 - 实验结果表明，DIAE 优于基线，并获得了优异的图像美学分数和图像内容一致性分数。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

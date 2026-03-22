@@ -1,8 +1,8 @@
 # Gumbel Reranking: Differentiable End-to-End Reranker Optimization
 
-**会议**: ACL 2025
-**arXiv**: [2502.11116](https://arxiv.org/abs/2502.11116)
-**领域**: LLM NLP
+**会议**: ACL 2025  
+**arXiv**: [2502.11116](https://arxiv.org/abs/2502.11116)  
+**领域**: LLM NLP  
 **关键词**: 检索增强生成, 重排序器, 端到端优化, Gumbel技巧, 注意力掩码
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Are Graph Transformers Necessary? Efficient Long-Range Message Passing with Fractal Nodes in MPNNs
 
-**会议**: AAAI 2026 (Oral)
-**arXiv**: [2511.13010](https://arxiv.org/abs/2511.13010)
-**代码**: [https://github.com/jeongwhanchoi/MPNN-FN](https://github.com/jeongwhanchoi/MPNN-FN)
-**领域**: 图神经网络 / 消息传递
+**会议**: AAAI 2026 (Oral)  
+**arXiv**: [2511.13010](https://arxiv.org/abs/2511.13010)  
+**代码**: [https://github.com/jeongwhanchoi/MPNN-FN](https://github.com/jeongwhanchoi/MPNN-FN)  
+**领域**: 图神经网络 / 消息传递  
 **关键词**: 分形节点, MPNN, 长距离依赖, over-squashing, 图划分, MLP-Mixer, METIS
 
 ## 一句话总结

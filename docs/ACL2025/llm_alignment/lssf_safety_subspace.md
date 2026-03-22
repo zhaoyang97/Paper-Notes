@@ -1,9 +1,9 @@
 # LSSF: Safety Alignment via Low-Rank Safety Subspace Fusion
 
-**会议**: ACL 2025
-**arXiv**: [2602.00038](https://arxiv.org/abs/2602.00038)
-**代码**: 无
-**领域**: LLM对齐 / 安全性
+**会议**: ACL 2025  
+**arXiv**: [2602.00038](https://arxiv.org/abs/2602.00038)  
+**代码**: 无  
+**领域**: LLM对齐 / 安全性  
 **关键词**: safety alignment, low-rank subspace, SVD, fine-tuning robustness, post-hoc safety, singular value entropy
 
 ## 一句话总结

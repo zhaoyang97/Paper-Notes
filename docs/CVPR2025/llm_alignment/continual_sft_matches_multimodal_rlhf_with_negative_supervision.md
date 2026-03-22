@@ -1,9 +1,9 @@
 # Continual SFT Matches Multimodal RLHF with Negative Supervision
 
-**会议**: CVPR 2025
-**arXiv**: [2411.14797](https://arxiv.org/abs/2411.14797)
-**代码**: https://github.com/Kevinz-code/nSFT/
-**领域**: 对齐RLHF
+**会议**: CVPR 2025  
+**arXiv**: [2411.14797](https://arxiv.org/abs/2411.14797)  
+**代码**: https://github.com/Kevinz-code/nSFT/  
+**领域**: 对齐RLHF  
 **关键词**: RLHF, DPO, SFT, 偏好对齐, 多模态大模型, 负监督信号, VLM
 
 ## 一句话总结

@@ -16,6 +16,7 @@
 3. **核心贡献**：提供涌现时间的精确幂律公式，并揭示重复数据可加速涌现。
 
 ## 方法详解
+
 ### 关键设计
 1. **理论分析**：在single-location线性回归任务上推导attention学习动态。发现两阶段行为——慢速plateau（FFN先学习）→ 突然转变（attention涌现）。
 2. **Plateau时间公式**：无重复时 $T_{plateau} \propto \sqrt{dT} \ln(\epsilon\sqrt{dT})$；in-context重复B次后缩短为 $\sqrt{dT/B}$。

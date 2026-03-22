@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # G2HFNet: GeoGran-Aware Hierarchical Feature Fusion Network for Salient Object Detection in Optical Remote Sensing Images
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12680](https://arxiv.org/abs/2603.12680)
-**代码**: 待确认
-**领域**: 图像分割 / 遥感 / 显著性检测
+**会议**: CVPR 2025  
+**arXiv**: [2603.12680](https://arxiv.org/abs/2603.12680)  
+**代码**: 待确认  
+**领域**: 图像分割 / 遥感 / 显著性检测  
 **关键词**: 显著性目标检测, 光学遥感图像, 多尺度细节增强, 双分支几何-粒度互补, 层级特征融合
 
 ## 一句话总结

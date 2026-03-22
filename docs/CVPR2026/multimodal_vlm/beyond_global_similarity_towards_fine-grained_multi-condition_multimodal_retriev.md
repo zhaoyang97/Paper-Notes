@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Beyond Global Similarity: Towards Fine-Grained, Multi-Condition Multimodal Retrieval
 
-**会议**: CVPR2026
-**arXiv**: [2603.01082](https://arxiv.org/abs/2603.01082)
-**代码**: [github.com/EIT-NLP/MCMR](https://github.com/EIT-NLP/MCMR)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2603.01082](https://arxiv.org/abs/2603.01082)  
+**代码**: [github.com/EIT-NLP/MCMR](https://github.com/EIT-NLP/MCMR)  
+**领域**: 多模态VLM  
 **关键词**: 多模态检索, 细粒度匹配, 多条件查询, 跨模态推理, MLLM重排
 
 ## 一句话总结

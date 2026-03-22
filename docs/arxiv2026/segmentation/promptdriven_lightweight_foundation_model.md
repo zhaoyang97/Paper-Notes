@@ -9,11 +9,13 @@
 
 ## 一句话总结
 由于复杂的运行环境、结构重复的组件以及安全关键区域频繁的遮挡或污染，货运列车中准确的视觉故障检测仍然是智能交通系统维护的关键挑战。
+
 ## 背景与动机
 Accurate visual fault detection in freight trains remains a critical challenge for intelligent transportation system maintenance, due to complex operational environments, structurally repetitive components, and frequent occlusions or contaminations in safety-critical regions.. Conventional instance segmentation methods based on convolutional neural networks and Transformers often suffer from poor generalization and limited boundary accuracy under such conditions.
 
 ## 核心问题
 由于复杂的运行环境、结构重复的组件以及安全关键区域频繁的遮挡或污染，货运列车中准确的视觉故障检测仍然是智能交通系统维护的关键挑战。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Accurate visual fault detection in freight trains remains a critical challenge f
 
 ## 亮点 / 我学到了什么
 - 实验结果表明，我们的方法在数据集上达到了 74.6 $AP^{\text{box}}$ 和 74.2 $AP^{\text{mask}}$，在准确性和鲁棒性方面优于现有的最先进方法，同时保持较低的计算开销。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

@@ -1,8 +1,9 @@
 # Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models
-**会议**: NeurIPS 2025
+
+**会议**: NeurIPS 2025  
 **arXiv**: [2511.18890](https://arxiv.org/abs/2511.18890)  
-**代码**: [Hugging Face模型卡](https://huggingface.co/nvidia/Nemotron-Flash-1B)
-**领域**: SLM 设计, 延迟优化
+**代码**: [Hugging Face模型卡](https://huggingface.co/nvidia/Nemotron-Flash-1B)  
+**领域**: SLM 设计, 延迟优化  
 **关键词**: 混合算子, 深宽比, 权重归一化, 进化搜索
 
 ## 一句话总结

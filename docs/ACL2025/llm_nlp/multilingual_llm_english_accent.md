@@ -1,9 +1,9 @@
 # Do Large Language Models Have an English Accent? Evaluating and Improving the Naturalness of Multilingual LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2410.15956](https://arxiv.org/abs/2410.15956)
-**代码**: 无
-**领域**: LLM NLP / 多语言
+**会议**: ACL 2025  
+**arXiv**: [2410.15956](https://arxiv.org/abs/2410.15956)  
+**代码**: 无  
+**领域**: LLM NLP / 多语言  
 **关键词**: 多语言LLM, 自然度评估, 英语偏见, 词汇分布, 句法自然度
 
 ## 一句话总结

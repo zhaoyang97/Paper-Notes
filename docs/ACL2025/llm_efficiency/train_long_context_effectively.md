@@ -1,8 +1,8 @@
 # How to Train Long-Context Language Models (Effectively)
 
-**会议**: ACL 2025
-**arXiv**: [2410.02660](https://arxiv.org/abs/2410.02660)
-**领域**: LLM 效率
+**会议**: ACL 2025  
+**arXiv**: [2410.02660](https://arxiv.org/abs/2410.02660)  
+**领域**: LLM 效率  
 **关键词**: 长上下文训练, 持续预训练, 数据配比, 监督微调, 位置外推
 
 ## 一句话总结

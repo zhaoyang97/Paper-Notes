@@ -1,9 +1,9 @@
 # PartSAM: A Scalable Promptable Part Segmentation Model Trained on Native 3D Data
 
-**会议**: ICLR 2026
-**arXiv**: [2509.21965](https://arxiv.org/abs/2509.21965)
-**代码**: https://czvvd.github.io/PartSAMPage/
-**领域**: 3D 视觉
+**会议**: ICLR 2026  
+**arXiv**: [2509.21965](https://arxiv.org/abs/2509.21965)  
+**代码**: https://czvvd.github.io/PartSAMPage/  
+**领域**: 3D 视觉  
 **关键词**: 3D part segmentation, SAM, prompt-based, native 3D data, open-world
 
 ## 一句话总结

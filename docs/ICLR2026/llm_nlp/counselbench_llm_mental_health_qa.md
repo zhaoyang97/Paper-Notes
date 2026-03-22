@@ -1,9 +1,9 @@
 # CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA
 
-**会议**: ICLR 2026 Oral
-**arXiv**: [2506.08584](https://arxiv.org/abs/2506.08584)
-**代码**: [GitHub](https://github.com/llm-eval-mental-health/CounselBench)
-**领域**: LLM评估 / 医疗AI安全
+**会议**: ICLR 2026 Oral  
+**arXiv**: [2506.08584](https://arxiv.org/abs/2506.08584)  
+**代码**: [GitHub](https://github.com/llm-eval-mental-health/CounselBench)  
+**领域**: LLM评估 / 医疗AI安全  
 **关键词**: mental health QA, expert annotation, adversarial benchmark, LLM-as-Judge, safety evaluation
 
 ## 一句话总结

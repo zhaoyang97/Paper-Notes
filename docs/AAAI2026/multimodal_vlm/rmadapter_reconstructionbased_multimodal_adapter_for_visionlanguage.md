@@ -1,9 +1,9 @@
 # RMAdapter: Reconstruction-based Multi-Modal Adapter for Vision-Language Models (Oral)
 
-**会议**: AAAI 2026
-**arXiv**: [2512.06811](https://arxiv.org/abs/2512.06811)
-**代码**: 未提及
-**领域**: Vision-Language Model / Parameter-Efficient Fine-Tuning
+**会议**: AAAI 2026  
+**arXiv**: [2512.06811](https://arxiv.org/abs/2512.06811)  
+**代码**: 未提及  
+**领域**: Vision-Language Model / Parameter-Efficient Fine-Tuning  
 **关键词**: CLIP, Adapter, Reconstruction, Few-shot Learning, Vision-Language Model
 
 ## 一句话总结

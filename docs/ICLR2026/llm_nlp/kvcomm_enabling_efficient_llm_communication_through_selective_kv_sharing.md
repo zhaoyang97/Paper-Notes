@@ -91,8 +91,10 @@ Hidden states 在每层都是一个完整的表示，直接传递会覆盖 Recei
 
 ### 与 Prompt Compression 的关系
 KVComm 可以看作一种“在 KV 空间做 prompt compression”——不是压缩文本，而是压缩内部表示的“层”维度。这比 NLD（将知识压缩为自然语言）保留了更多细粒度信息。未来可以探索在层内进一步压缩（如选择性 token），实现“层 + token”双维度压缩。
+
 ### KV 拼接的 Attention 机制
 当 Sender 的 KV 拼接到 Receiver 后，Receiver 的 Query 可以自由地 attend 到两方的 Key。由于 Attention 是 softmax 归一化的，无用信息会被自然地低权重化。这比直接替换 hidden states 更「温和」——不会强制覆盖任何信息。
+
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 系统对比通信介质，层选择策略合理
 - 实验充分度: ⭐⭐⭐⭐ 9 模型对×8 数据集

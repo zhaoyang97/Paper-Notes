@@ -1,9 +1,9 @@
 # Topo-R1: Detecting Topological Anomalies via Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13054](https://arxiv.org/abs/2603.13054)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.13054](https://arxiv.org/abs/2603.13054)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 拓扑异常检测, 管状结构分割, GRPO强化学习, clDice, VLM细粒度感知
 
 ## 一句话总结

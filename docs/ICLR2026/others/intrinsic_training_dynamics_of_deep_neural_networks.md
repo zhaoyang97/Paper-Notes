@@ -1,9 +1,9 @@
 # Intrinsic Training Dynamics of Deep Neural Networks
 
-**会议**: ICLR 2026
-**arXiv**: [2508.07370](https://arxiv.org/abs/2508.07370)
-**代码**: 无
-**领域**: 深度学习理论 / 优化动力学
+**会议**: ICLR 2026  
+**arXiv**: [2508.07370](https://arxiv.org/abs/2508.07370)  
+**代码**: 无  
+**领域**: 深度学习理论 / 优化动力学  
 **关键词**: intrinsic dynamics, gradient flow, conservation laws, implicit bias, Riemannian metric
 
 ## 一句话总结

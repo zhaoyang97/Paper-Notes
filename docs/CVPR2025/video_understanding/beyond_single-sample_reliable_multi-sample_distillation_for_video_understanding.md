@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Beyond Single-Sample: Reliable Multi-Sample Distillation for Video Understanding
 
-**会议**: CVPR 2025
-**arXiv**: [2603.11423](https://arxiv.org/abs/2603.11423)
-**代码**: 待确认
-**领域**: 视频理解 / 知识蒸馏
+**会议**: CVPR 2025  
+**arXiv**: [2603.11423](https://arxiv.org/abs/2603.11423)  
+**代码**: 待确认  
+**领域**: 视频理解 / 知识蒸馏  
 **关键词**: 知识蒸馏, 视频理解, 多样本监督, 对抗训练, 大规模视觉语言模型, 教师采样方差
 
 ## 一句话总结

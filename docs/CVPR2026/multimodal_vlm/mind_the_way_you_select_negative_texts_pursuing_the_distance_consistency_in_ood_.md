@@ -1,9 +1,9 @@
 # Mind the Way You Select Negative Texts: Pursuing the Distance Consistency in OOD Detection with VLMs
 
-**会议**: CVPR 2026
-**arXiv**: [2603.02618](https://arxiv.org/abs/2603.02618)
-**代码**: https://github.com/ZhikangXu0112/InterNeg
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.02618](https://arxiv.org/abs/2603.02618)  
+**代码**: https://github.com/ZhikangXu0112/InterNeg  
+**领域**: 多模态VLM  
 **关键词**: OOD检测, CLIP, 跨模态距离, 负文本选择, 零样本
 
 ## 一句话总结

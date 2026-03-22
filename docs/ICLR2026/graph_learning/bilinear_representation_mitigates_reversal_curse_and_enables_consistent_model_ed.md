@@ -1,9 +1,9 @@
 # Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing
 
-**会议**: ICLR 2026
-**arXiv**: [2509.21993](https://arxiv.org/abs/2509.21993)
-**代码**: 有（GPT-NeoX 框架）
-**领域**: LLM推理 / 知识表示 / 模型编辑
+**会议**: ICLR 2026  
+**arXiv**: [2509.21993](https://arxiv.org/abs/2509.21993)  
+**代码**: 有（GPT-NeoX 框架）  
+**领域**: LLM推理 / 知识表示 / 模型编辑  
 **关键词**: reversal curse, bilinear representation, model editing, relational structure, knowledge graph
 
 ## 一句话总结

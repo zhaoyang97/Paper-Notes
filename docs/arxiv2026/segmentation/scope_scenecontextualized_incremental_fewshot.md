@@ -9,11 +9,13 @@
 
 ## 一句话总结
 增量少样本（IFS）分割旨在随着时间的推移仅从少量注释中学习新类别。
+
 ## 背景与动机
 Incremental Few-Shot (IFS) segmentation aims to learn new categories over time from only a few annotations.. Although widely studied in 2D, it remains underexplored for 3D point clouds.
 
 ## 核心问题
 尽管在 2D 领域得到了广泛的研究，但对于 3D 点云的研究仍然不足。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Incremental Few-Shot (IFS) segmentation aims to learn new categories over time f
 
 ## 亮点 / 我学到了什么
 - ScanNet 和 S3DIS 上的实验表明，SCOPE 实现了 SOTA 性能，将新颖类 IoU 提高了高达 6.98% 和 3.61%，平均 IoU 分别提高了 2.25% 和 1.70%，同时保持了较低的遗忘。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

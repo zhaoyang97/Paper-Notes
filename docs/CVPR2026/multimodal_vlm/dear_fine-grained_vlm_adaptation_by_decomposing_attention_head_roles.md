@@ -1,9 +1,9 @@
 # DeAR: Fine-Grained VLM Adaptation by Decomposing Attention Head Roles
 
-**会议**: CVPR 2026
-**arXiv**: [2603.01111](https://arxiv.org/abs/2603.01111)
-**代码**: [GitHub](https://github.com/wellsssssss/DeAR)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.01111](https://arxiv.org/abs/2603.01111)  
+**代码**: [GitHub](https://github.com/wellsssssss/DeAR)  
+**领域**: 多模态VLM  
 **关键词**: Prompt Learning, VLM适配, 注意力头角色分解, CLIP, Zero-shot泛化
 
 ## 一句话总结

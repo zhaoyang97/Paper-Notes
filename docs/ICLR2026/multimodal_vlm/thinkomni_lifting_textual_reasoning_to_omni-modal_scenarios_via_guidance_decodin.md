@@ -1,9 +1,9 @@
 # ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding
 
-**会议**: ICLR 2026
-**arXiv**: [2602.23306](https://arxiv.org/abs/2602.23306)
-**代码**: https://1ranguan.github.io/thinkomni
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2602.23306](https://arxiv.org/abs/2602.23306)  
+**代码**: https://1ranguan.github.io/thinkomni  
+**领域**: 多模态VLM  
 **关键词**: 全模态推理, 引导解码, LRM, 无训练, 对比缩放
 
 ## 一句话总结

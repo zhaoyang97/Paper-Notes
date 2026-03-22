@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12605](https://arxiv.org/abs/2603.12605)
-**代码**: 待确认
-**领域**: 其他 / CAD逆向工程 / 几何深度学习
+**会议**: CVPR 2025  
+**arXiv**: [2603.12605](https://arxiv.org/abs/2603.12605)  
+**代码**: 待确认  
+**领域**: 其他 / CAD逆向工程 / 几何深度学习  
 **关键词**: CAD逆向工程, 边界表示(BRep), 多模态标注, 几何深度学习, 3D扫描, 大规模数据集
 
 ## 一句话总结

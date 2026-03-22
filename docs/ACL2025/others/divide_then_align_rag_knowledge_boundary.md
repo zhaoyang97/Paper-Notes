@@ -1,9 +1,9 @@
 # Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG
 
-**会议**: ACL 2025
-**arXiv**: [2505.20871](https://arxiv.org/abs/2505.20871)
-**代码**: https://github.com/Divide-Then-Align
-**领域**: LLM Agent / RAG / 对齐
+**会议**: ACL 2025  
+**arXiv**: [2505.20871](https://arxiv.org/abs/2505.20871)  
+**代码**: https://github.com/Divide-Then-Align  
+**领域**: LLM Agent / RAG / 对齐  
 **关键词**: RAG knowledge boundary, honest alignment, DPO, abstention, RAFT
 
 ## 一句话总结

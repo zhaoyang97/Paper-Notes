@@ -1,9 +1,9 @@
 # How to Take a Memorable Picture? Empowering Users with Actionable Feedback
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21877](https://arxiv.org/abs/2602.21877)
-**代码**: https://laitifranz.github.io/MemCoach
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.21877](https://arxiv.org/abs/2602.21877)  
+**代码**: https://laitifranz.github.io/MemCoach  
+**领域**: 多模态VLM  
 **关键词**: 图像记忆性, 可操作反馈, 激活导向, MLLM, 拍照辅助
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MMSafeAware: Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2502.11184](https://arxiv.org/abs/2502.11184)
-**代码**: https://github.com/Jarviswang94/MMSafetyAwareness
-**领域**: 多模态安全
+**会议**: ACL 2025  
+**arXiv**: [2502.11184](https://arxiv.org/abs/2502.11184)  
+**代码**: https://github.com/Jarviswang94/MMSafetyAwareness  
+**领域**: 多模态安全  
 **关键词**: multimodal safety, safety awareness, over-sensitivity, benchmark, MLLM, helpfulness-harmlessness trade-off
 
 ## 一句话总结

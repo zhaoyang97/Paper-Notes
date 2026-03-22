@@ -1,9 +1,9 @@
 # Step-CoT: Stepwise Visual Chain-of-Thought for Medical Visual Question Answering
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13878](https://arxiv.org/abs/2603.13878)
-**代码**: [GitHub](https://github.com/hahaha111111/Step-CoT) / [HuggingFace](https://huggingface.co/datasets/fl-15o/Step-CoT)
-**领域**: Medical AI / Visual Question Answering
+**会议**: CVPR 2026  
+**arXiv**: [2603.13878](https://arxiv.org/abs/2603.13878)  
+**代码**: [GitHub](https://github.com/hahaha111111/Step-CoT) / [HuggingFace](https://huggingface.co/datasets/fl-15o/Step-CoT)  
+**领域**: Medical AI / Visual Question Answering  
 **关键词**: 医学VQA, Chain-of-Thought, 逐步推理, 知识蒸馏, 胸部X光
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**：将放射科诊断实践中的七步级联推理流程（异常检测→表观调查→特征分析→诊断综合）编码为结构化CoT数据集，并用图注意力网络+知识蒸馏实现逐步推理学习。
 
 ## 方法详解
+
 ### 整体框架
 分为数据集构建和模型训练两大模块：
 
@@ -50,6 +51,7 @@ $$\mathcal{L}_{student}^{(s)} = \mathcal{L}_{CE}^{(s)} + \alpha_{KD}\mathcal{L}_
 教师和学生使用独立优化器。教师可选先用监督损失预训练数个epoch，然后师生联合训练：教师接收监督CE更新，学生最小化三损失之和。
 
 ## 实验关键数据
+
 ### 主实验：诊断步骤测试结果
 
 | 模型 | Accuracy | mAUC | Sensitivity | Specificity |

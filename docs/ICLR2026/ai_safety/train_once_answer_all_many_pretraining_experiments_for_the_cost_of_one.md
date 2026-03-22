@@ -1,9 +1,9 @@
 # Train Once, Answer All: Many Pretraining Experiments for the Cost of One
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23383](https://arxiv.org/abs/2509.23383)
-**代码**: [Python Package](https://arxiv.org/abs/2509.23383)（论文提供了 OLMo-2 实验包）
-**领域**: LLM 预训练 / 实验方法论
+**会议**: ICLR 2026  
+**arXiv**: [2509.23383](https://arxiv.org/abs/2509.23383)  
+**代码**: [Python Package](https://arxiv.org/abs/2509.23383)（论文提供了 OLMo-2 实验包）  
+**领域**: LLM 预训练 / 实验方法论  
 **关键词**: Pretraining Experiments, LLM, Experiment Independence, Continual Pretraining, Data Contamination
 
 ## 一句话总结

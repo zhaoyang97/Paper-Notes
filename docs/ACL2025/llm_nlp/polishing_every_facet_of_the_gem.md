@@ -1,9 +1,9 @@
 # KoGEM: Polishing Every Facet of the GEM: Testing Linguistic Competence of LLMs and Humans in Korean
 
-**会议**: ACL 2025
-**arXiv**: [2506.01237](https://arxiv.org/abs/2506.01237)
-**代码**: https://github.com/SungHo3268/KoGEM
-**领域**: LLM评估 / 语言学
+**会议**: ACL 2025  
+**arXiv**: [2506.01237](https://arxiv.org/abs/2506.01237)  
+**代码**: https://github.com/SungHo3268/KoGEM  
+**领域**: LLM评估 / 语言学  
 **关键词**: linguistic competence, Korean grammar, benchmark, phonology, experiential knowledge, LLM evaluation
 
 ## 一句话总结

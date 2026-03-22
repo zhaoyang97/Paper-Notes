@@ -1,8 +1,9 @@
 # Beyond the Singular: Revealing the Value of Multiple Generations in Benchmark Evaluation
-**会议**: NeurIPS 2025
-**arXiv**: [2502.08943](https://arxiv.org/abs/2502.08943)
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.08943](https://arxiv.org/abs/2502.08943)  
 **作者**: Wenbo Zhang, Hengrui Cai (UC Irvine), Wenyu Chen (Meta)
-**领域**: LLM 评测方法论
+**领域**: LLM 评测方法论  
 **关键词**: 层级统计模型, 多次生成, 基准方差分析, prompt难度量化, 标签错误检测, 数据地图
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 3D 高斯泼溅 (3DGS) 的最新进展可提供高质量渲染，但高斯表示暴露了新的攻击面，即资源定位攻击。
+
 ## 背景与动机
 Recent advances in 3D Gaussian Splatting (3DGS) deliver high-quality rendering, yet the Gaussian representation exposes a new attack surface, the resource-targeting attack.. This attack poisons training images, excessively inducing Gaussian growth to cause resource exhaustion.
 
 ## 核心问题
 3D 高斯分布 (3DGS) 的最新进展提供了高质量的渲染，但高斯表示暴露了一个新的攻击面，即资源定位攻击。这种攻击会毒害训练图像，过度诱导高斯增长导致资源耗尽。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Recent advances in 3D Gaussian Splatting (3DGS) deliver high-quality rendering, 
 
 ## 亮点 / 我学到了什么
 - 实验表明，我们的防御构建了强大、准确且安全的 3DGS，在攻击下将过度生长抑制高达 $5.92\times$，将内存减少高达 $3.66\times$，并将速度提高高达 $4.34\times$。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 多模态语义分割集成了来自不同传感器的互补信息，用于遥感地球观测。
+
 ## 背景与动机
 Multimodal semantic segmentation integrates complementary information from diverse sensors for remote sensing Earth observation.. However, practical systems often encounter missing modalities due to sensor failures or incomplete coverage, termed Incomplete Multimodal Semantic Segmentation (IMSS).
 
 ## 核心问题
 然而，实际系统经常遇到由于传感器故障或覆盖不完整而丢失模态的情况，称为不完整多模态语义分割（IMSS）。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Multimodal semantic segmentation integrates complementary information from diver
 
 ## 亮点 / 我学到了什么
 - 跨多个数据集和骨干网的广泛实验表明，SGMA 始终优于最先进的方法，尤其是在脆弱模式方面有显着的改进。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

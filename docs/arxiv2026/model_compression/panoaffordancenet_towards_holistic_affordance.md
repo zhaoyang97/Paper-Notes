@@ -9,11 +9,13 @@
 
 ## 一句话总结
 全局感知对于 360° 空间中的具体主体至关重要，但当前的可供性基础仍然主要以对象为中心并仅限于透视图。
+
 ## 背景与动机
 Global perception is essential for embodied agents in 360° spaces, yet current affordance grounding remains largely object-centric and restricted to perspective views.. To bridge this gap, we introduce a novel task: Holistic Affordance Grounding in 360° Indoor Environments.
 
 ## 核心问题
 全局感知对于 360° 空间中的具体主体至关重要，但当前的可供性基础仍然主要以对象为中心并仅限于透视图。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Global perception is essential for embodied agents in 360° spaces, yet current 
 ## 亮点 / 我学到了什么
 - 大量实验表明，PanoAffordanceNet 的性能显着优于现有方法，为具体智能的场景级感知建立了坚实的基线。
 - 源代码和基准数据集将在 https://github.com/GL-ZHU925/PanoAffordanceNet 上公开提供。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

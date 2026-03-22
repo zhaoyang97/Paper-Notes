@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # BUSSARD: Normalizing Flows for Bijective Universal Scene-Specific Anomalous Relationship Detection
 
-**会议**: CVPR2026
-**arXiv**: [2603.16645](https://arxiv.org/abs/2603.16645)
-**代码**: [github.com/mschween/BUSSARD](https://github.com/mschween/BUSSARD)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2603.16645](https://arxiv.org/abs/2603.16645)  
+**代码**: [github.com/mschween/BUSSARD](https://github.com/mschween/BUSSARD)  
+**领域**: 多模态VLM  
 **关键词**: 场景图异常检测, 标准化流, 语义嵌入, 关系异常, 多模态
 
 ## 一句话总结

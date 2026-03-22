@@ -1,9 +1,9 @@
 # DreamPRM: Domain-Reweighted Process Reward Model for Multimodal Reasoning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.20241](https://arxiv.org/abs/2505.20241)
-**代码**: [GitHub](https://github.com/coder-qicao/DreamPRM) (有)
-**领域**: LLM推理
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.20241](https://arxiv.org/abs/2505.20241)  
+**代码**: [GitHub](https://github.com/coder-qicao/DreamPRM) (有)  
+**领域**: LLM推理  
 **关键词**: process reward model, multimodal reasoning, domain reweighting, bi-level optimization, test-time scaling
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用双层优化自动学习数据集权重，让 PRM 聚焦于高质量推理样本，忽略噪声数据。
 
 ## 方法详解
+
 ### 整体框架
 DreamPRM 采用双层优化 (Bi-Level Optimization, BLO) 框架：
 - **下层优化**: 在多个训练域上用加权损失训练 PRM 参数 ϕ
@@ -38,6 +39,7 @@ DreamPRM 采用双层优化 (Bi-Level Optimization, BLO) 框架：
 - PRM 基座: Qwen2-VL-2B-Instruct；推理 MLLM: InternVL-2.5-8B-MPO
 
 ## 实验关键数据
+
 ### 主实验
 InternVL-2.5-8B-MPO 作为基座模型，在 5 个多模态推理 benchmark 上的准确率(%)：
 

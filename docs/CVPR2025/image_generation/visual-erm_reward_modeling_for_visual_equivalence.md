@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Visual-ERM: Reward Modeling for Visual Equivalence
 
-**会议**: CVPR2025
-**arXiv**: [2603.13224](https://arxiv.org/abs/2603.13224)
-**代码**: [GitHub](https://github.com/InternLM/Visual-ERM)
-**领域**: image_generation
+**会议**: CVPR2025  
+**arXiv**: [2603.13224](https://arxiv.org/abs/2603.13224)  
+**代码**: [GitHub](https://github.com/InternLM/Visual-ERM)  
+**领域**: image_generation  
 **关键词**: reward model, vision-to-code, reinforcement learning, visual equivalence, chart-to-code, test-time scaling
 
 ## 一句话总结

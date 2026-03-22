@@ -1,10 +1,10 @@
 # TIP of the Iceberg: Task-in-Prompt Adversarial Attacks on LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2501.18626](https://arxiv.org/abs/2501.18626)
-**代码**: 无
+**会议**: ACL 2025  
+**arXiv**: [2501.18626](https://arxiv.org/abs/2501.18626)  
+**代码**: 无  
 **机构**: Télécom SudParis, Institut Polytechnique de Paris
-**领域**: AI安全
+**领域**: AI安全  
 **关键词**: jailbreak, Task-in-Prompt, adversarial attack, LLM safety, seq2seq encoding, PHRYGE benchmark
 
 ## 一句话总结

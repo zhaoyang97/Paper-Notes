@@ -1,9 +1,9 @@
 # Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.24041](https://arxiv.org/abs/2602.24041)
-**代码**: 暂未公开
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2602.24041](https://arxiv.org/abs/2602.24041)  
+**代码**: 暂未公开  
+**领域**: 多模态VLM  
 **关键词**: MLLM幻觉缓解, 视觉增强, 最优传输, token精简, 无训练推理
 
 ## 一句话总结

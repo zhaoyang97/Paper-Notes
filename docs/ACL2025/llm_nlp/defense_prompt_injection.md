@@ -1,10 +1,10 @@
 # Defense Against Prompt Injection Attack by Leveraging Attack Techniques
 
-**会议**: ACL 2025
-**arXiv**: [2411.00459](https://arxiv.org/abs/2411.00459)
-**代码**: [GitHub](https://github.com/LukeChen-go/pia-defense-by-attack)
+**会议**: ACL 2025  
+**arXiv**: [2411.00459](https://arxiv.org/abs/2411.00459)  
+**代码**: [GitHub](https://github.com/LukeChen-go/pia-defense-by-attack)  
 **机构**: NUS & HKUST & HIT-Shenzhen
-**领域**: AI安全
+**领域**: AI安全  
 **关键词**: prompt injection, defense, attack techniques, shield prompt, fake completion, LLM security
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 由于对象大小的巨大变化、自注意力机制的计算成本以及基于 CNN 的提取器在捕获全局上下文和远程依赖性方面的局限性，遥感图像中的显着对象检测 (SOD) 面临着重大挑战。
+
 ## 背景与动机
 Salient object detection (SOD) in remote sensing images faces significant challenges due to large variations in object sizes, the computational cost of self-attention mechanisms, and the limitations of CNN-based extractors in capturing global context and long-range dependencies.. Existing methods that rely on fixed convolution kernels often struggle to adapt to diverse object scales, leading to detail loss or irrelevant feature aggregation.
 
 ## 核心问题
 由于对象大小的巨大变化、自注意力机制的计算成本以及基于 CNN 的提取器在捕获全局上下文和远程依赖性方面的局限性，遥感图像中的显着对象检测 (SOD) 面临着重大挑战。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Salient object detection (SOD) in remote sensing images faces significant challe
 ## 亮点 / 我学到了什么
 - 为了解决这些问题，这项工作旨在增强对尺度变化的鲁棒性并实现精确的对象定位。
 - 通过组合这些模块，RDNet 实现了针对尺度变化的鲁棒性和精确定位，与最先进的方法相比，提供了卓越的检测性能。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

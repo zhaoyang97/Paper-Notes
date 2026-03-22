@@ -9,11 +9,13 @@
 
 ## 一句话总结
 靠近下颌管的下颌第三磨牙的阻生会增加下牙槽神经损伤的风险。
+
 ## 背景与动机
 Impaction of the mandibular third molar in proximity to the mandibular canal increases the risk of inferior alveolar nerve injury.. Panoramic radiography is routinely used to assess this relationship.
 
 ## 核心问题
 靠近下颌管的下颌第三磨牙的阻生会增加下牙槽神经损伤的风险。全景X光检查通常用于评估这种关系。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Impaction of the mandibular third molar in proximity to the mandibular canal inc
 ## 亮点 / 我学到了什么
 - 在测试集上，CL 实现了最高性能（AUC 0.831；准确度 = 0.782），FL 显示了中等性能（AUC 0.757；准确度 = 0.703），LL 在客户端之间的泛化能力较差（AUC 范围 = 0.619-0.734；平均值 = 0.672）。
 - 总体而言，集中训练提供了最强的性能，而 FL 提供了优于 LL 的隐私保护替代方案。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

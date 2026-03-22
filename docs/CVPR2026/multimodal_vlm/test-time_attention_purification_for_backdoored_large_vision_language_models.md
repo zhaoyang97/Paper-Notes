@@ -1,9 +1,9 @@
 # Test-Time Attention Purification for Backdoored Large Vision Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12989](https://arxiv.org/abs/2603.12989)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.12989](https://arxiv.org/abs/2603.12989)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 后门攻击防御, 注意力净化, LVLM安全, 测试时防御, 视觉token剪枝
 
 ## 一句话总结

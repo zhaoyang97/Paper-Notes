@@ -1,9 +1,9 @@
 # Clip-and-Verify: Linear Constraint-Driven Domain Clipping for Accelerating Neural Network Verification
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.11087](https://arxiv.org/abs/2512.11087)
-**代码**: https://github.com/Verified-Intelligence/Clip_and_Verify (有)
-**领域**: AI安全/神经网络验证
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.11087](https://arxiv.org/abs/2512.11087)  
+**代码**: https://github.com/Verified-Intelligence/Clip_and_Verify (有)  
+**领域**: AI安全/神经网络验证  
 **关键词**: 神经网络验证, branch-and-bound, 线性约束, 域裁剪, α,β-CROWN
 
 ## 一句话总结

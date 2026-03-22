@@ -1,9 +1,9 @@
 # ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling
 
-**会议**: ECCV 2024
-**arXiv**: [2408.04102](https://arxiv.org/abs/2408.04102)
-**代码**: 无（数据集VGARank已发布）
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2408.04102](https://arxiv.org/abs/2408.04102)  
+**代码**: 无（数据集VGARank已发布）  
+**领域**: 多模态VLM  
 **关键词**: 属性识别, 生成式检索, PrefixLM, 对比学习, 条件依赖建模
 
 ## 一句话总结

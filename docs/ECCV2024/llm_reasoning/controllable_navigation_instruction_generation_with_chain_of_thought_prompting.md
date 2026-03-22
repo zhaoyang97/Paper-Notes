@@ -1,9 +1,9 @@
 # Controllable Navigation Instruction Generation with Chain of Thought Prompting
 
-**会议**: ECCV 2024
-**arXiv**: [2407.07433](https://arxiv.org/abs/2407.07433)
-**代码**: [GitHub](https://github.com/refkxh/C-Instructor)
-**领域**: LLM推理
+**会议**: ECCV 2024  
+**arXiv**: [2407.07433](https://arxiv.org/abs/2407.07433)  
+**代码**: [GitHub](https://github.com/refkxh/C-Instructor)  
+**领域**: LLM推理  
 **关键词**: 导航指令生成, 思维链提示, 视觉语言导航, 大语言模型, 风格可控生成
 
 ## 一句话总结

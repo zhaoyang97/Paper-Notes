@@ -9,11 +9,13 @@
 
 ## 一句话总结
 骨质疏松症是一种骨骼疾病，通常使用双能 X 射线吸收测定法 (DXA) 进行诊断，该技术可量化面积骨矿物质密度，但忽略骨微结构和周围软组织。
+
 ## 背景与动机
 Osteoporosis is a skeletal disease typically diagnosed using dual-energy X-ray absorptiometry (DXA), which quantifies areal bone mineral density but overlooks bone microarchitecture and surrounding soft tissues.. High-resolution peripheral quantitative computed tomography (HR-pQCT) enables three-dimensional microstructural imaging with minimal radiation.
 
 ## 核心问题
 骨质疏松症是一种骨骼疾病，通常使用双能 X 射线吸收测定法 (DXA) 进行诊断，该技术可量化面积骨矿物质密度，但忽略骨微结构和周围软组织。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Osteoporosis is a skeletal disease typically diagnosed using dual-energy X-ray a
 - SegFormer 模型同时描绘了胫骨和腓骨的皮质骨和小梁骨以及周围的软组织，平均 F1 得分为 95.36%。
 - 使用肌腱组织特征实现了最佳图像级性能，准确度为 80.08%，受试者工作特征曲线下面积 (AUROC) 为 0.85，优于基于骨骼的模型。
 - 在患者层面，用软组织放射组学取代标准生物学、DXA 和 HR-pQCT 参数，将 AUROC 从 0.792 提高到 0.875。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

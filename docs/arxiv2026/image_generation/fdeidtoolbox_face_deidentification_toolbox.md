@@ -9,11 +9,13 @@
 
 ## 一句话总结
 人脸去识别（FDeID）旨在从面部图像中删除个人身份信息，同时保留与任务相关的实用属性，例如年龄、性别和表情。
+
 ## 背景与动机
 Face de-identification (FDeID) aims to remove personally identifiable information from facial images while preserving task-relevant utility attributes such as age, gender, and expression.. It is critical for privacy-preserving computer vision, yet the field suffers from fragmented implementations, inconsistent evaluation protocols, and incomparable results across studies.
 
 ## 核心问题
 这些挑战源于任务固有的复杂性：FDeID跨越多个下游应用（例如年龄估计、性别识别、表达分析），需要跨三个维度（例如隐私保护、效用保存和视觉质量）进行评估，使得现有代码库难以使用和扩展。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Face de-identification (FDeID) aims to remove personally identifiable informatio
 ## 亮点 / 我学到了什么
 - 我们的工具箱采用模块化架构，由四个核心组件组成：(1) 适用于主流基准数据集的标准化数据加载器，(2) 涵盖 SOTA 生成模型经典方法的统一方法实现，(3) 灵活的推理管道，以及 (4) 涵盖隐私、效用和质量指标的系统评估协议。
 - 通过实验，我们证明 FDeID-Toolbox 能够在一致的条件下对不同的 FDeID 方法进行公平且可重复的比较。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

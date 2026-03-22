@@ -9,11 +9,13 @@
 
 ## 一句话总结
 矩阵乘法性能长期以来一直是扩展深度学习工作负载的主要瓶颈，这刺激了使用越来越低精度数字格式的新型加速器的设计。
+
 ## 背景与动机
 Matrix multiplication performance has long been the major bottleneck to scaling deep learning workloads, which has stimulated the design of new accelerators that use increasingly low-precision number formats.. However, improvements in matrix multiplication performance have far outstripped improvements in performance on reductions and elementwise computations, which are still being performed in higher precision.
 
 ## 核心问题
 矩阵乘法性能长期以来一直是扩展深度学习工作负载的主要瓶颈，这刺激了使用越来越低精度数字格式的新型加速器的设计。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Matrix multiplication performance has long been the major bottleneck to scaling 
 
 ## 亮点 / 我学到了什么
 - 然而，矩阵乘法性能的改进远远超过了约简和元素计算性能的改进，而这些计算仍在以更高的精度执行。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

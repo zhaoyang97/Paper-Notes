@@ -1,9 +1,9 @@
 # DICE: Distilling Classifier-Free Guidance into Text Embeddings
 
-**会议**: AAAI 2026 **(Oral)**
-**arXiv**: [2502.03726](https://arxiv.org/abs/2502.03726)
-**代码**: [https://github.com/zju-pi/dice](https://github.com/zju-pi/dice)
-**领域**: 图像生成 / 扩散模型加速
+**会议**: AAAI 2026 **(Oral)**  
+**arXiv**: [2502.03726](https://arxiv.org/abs/2502.03726)  
+**代码**: [https://github.com/zju-pi/dice](https://github.com/zju-pi/dice)  
+**领域**: 图像生成 / 扩散模型加速  
 **关键词**: Classifier-Free Guidance, 文本嵌入蒸馏, 扩散模型加速, CFG-free 采样, text embedding sharpening
 
 ## 一句话总结

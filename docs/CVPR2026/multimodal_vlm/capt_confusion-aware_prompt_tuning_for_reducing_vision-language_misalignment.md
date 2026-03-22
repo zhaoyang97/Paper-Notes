@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment
 
-**会议**: CVPR2026
-**arXiv**: [2603.02557](https://arxiv.org/abs/2603.02557)
-**代码**: [github.com/greatest-gourmet/CAPT](https://github.com/greatest-gourmet/CAPT)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2603.02557](https://arxiv.org/abs/2603.02557)  
+**代码**: [github.com/greatest-gourmet/CAPT](https://github.com/greatest-gourmet/CAPT)  
+**领域**: 多模态VLM  
 **关键词**: prompt tuning, 视觉语言对齐, 混淆感知, CLIP, few-shot, 细粒度分类
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # FluoCLIP: Stain-Aware Focus Quality Assessment in Fluorescence Microscopy
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23791](https://arxiv.org/abs/2602.23791)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.23791](https://arxiv.org/abs/2602.23791)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 荧光显微镜, 对焦质量评估, CLIP, 序数回归, 染色感知
 
 ## 一句话总结

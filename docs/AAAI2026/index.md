@@ -7,7 +7,7 @@
 
 | 领域 | 篇数 |
 |:-----|-----:|
-| 👁️ [多模态 VLM](#multimodal_vlm) | 27 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 27 |
 | 🦾 [LLM Agent](#llm_agent) | 26 |
 | 💡 [LLM 推理](#llm_reasoning) | 14 |
 | 🎨 [图像生成](#image_generation) | 13 |
@@ -44,7 +44,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment](multimodal_vlm/aligning_the_true_semantics_constrained_decoupling_and_distr.md)**
 

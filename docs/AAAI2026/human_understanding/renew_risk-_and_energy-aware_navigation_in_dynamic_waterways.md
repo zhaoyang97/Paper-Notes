@@ -1,9 +1,9 @@
 # RENEW: Risk- and Energy-Aware Navigation in Dynamic Waterways
 
-**会议**: AAAI 2026 (Oral)
-**arXiv**: [2601.16424](https://arxiv.org/abs/2601.16424)
-**代码**: [https://github.com/dartmouthrobotics/RENEW.git](https://github.com/dartmouthrobotics/RENEW.git)
-**领域**: 机器人导航 / 路径规划 / 水面自主航行
+**会议**: AAAI 2026 (Oral)  
+**arXiv**: [2601.16424](https://arxiv.org/abs/2601.16424)  
+**代码**: [https://github.com/dartmouthrobotics/RENEW.git](https://github.com/dartmouthrobotics/RENEW.git)  
+**领域**: 机器人导航 / 路径规划 / 水面自主航行  
 **关键词**: ASV, 路径规划, 自适应安全约束, 同伦类, 能量感知, No Go Zone
 
 ## 一句话总结

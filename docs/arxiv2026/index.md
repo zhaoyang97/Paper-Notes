@@ -8,7 +8,7 @@
 | 领域 | 篇数 |
 |:-----|-----:|
 | 🏥 [医学图像](#medical_imaging) | 27 |
-| 👁️ [多模态 VLM](#multimodal_vlm) | 22 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 22 |
 | 🎯 [目标检测](#object_detection) | 22 |
 | ✂️ [语义分割](#segmentation) | 22 |
 | 🧊 [3D 视觉](#3d_vision) | 19 |
@@ -137,7 +137,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[Adaptive Vision-Language Model Routing for Computer Use Agents](multimodal_vlm/adaptive_visionlanguage_model_routing.md)**
 

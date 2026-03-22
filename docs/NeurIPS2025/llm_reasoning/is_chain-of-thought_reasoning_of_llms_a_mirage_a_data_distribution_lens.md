@@ -1,8 +1,9 @@
 # 笔记1: CoT是幻觉吗？数据分布角度
-**会议**: NeurIPS 2025
-**arXiv**: [2508.01191](https://arxiv.org/abs/2508.01191)
-**代码**: [GitHub](https://github.com/ChengshuaiZhao0/DataAlchemy)
-**领域**: LLM推理
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.01191](https://arxiv.org/abs/2508.01191)  
+**代码**: [GitHub](https://github.com/ChengshuaiZhao0/DataAlchemy)  
+**领域**: LLM推理  
 **关键词**: Chain-of-Thought, 数据分布, 分布漂移, DataAlchemy, 推理能力
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. 本文提出数据分布透镜假说：CoT推理反映从训练数据学到的结构化归纳偏差，其有效性由训练分布与测试分布的discrepancy决定
 
 ## 方法详解
+
 ### 整体框架
 作者引入**DataAlchemy**——一个完全可控的抽象环境，将NLP任务抽象为三层：
 - **原子(Atoms)**：字母表$\mathcal{A}=\{A,B,C,...,Z\}$代表符号空间
@@ -34,6 +36,7 @@
    $$f_S(\mathbf{e}): \underbrace{\mathbf{e}\xrightarrow{f_1}\mathbf{e}^{(1)}\xrightarrow{f_2}...\xrightarrow{f_k}}_{\text{推理轨迹}}\hat{\mathbf{e}}$$
 
 ## 实验关键数据
+
 ### 主实验：任务泛化(转换泛化)
 
 | 场景 | 精确匹配(%) | 编辑距离 | BLEU得分 |

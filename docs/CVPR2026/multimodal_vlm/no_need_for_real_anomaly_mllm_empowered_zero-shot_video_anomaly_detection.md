@@ -1,9 +1,9 @@
 # No Need For Real Anomaly: MLLM Empowered Zero-Shot Video Anomaly Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19248](https://arxiv.org/abs/2602.19248)
-**代码**: https://github.com/VitaminCreed/LAVIDA
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.19248](https://arxiv.org/abs/2602.19248)  
+**代码**: https://github.com/VitaminCreed/LAVIDA  
+**领域**: 多模态VLM  
 **关键词**: 视频异常检测, 零样本, MLLM, 伪异常, token压缩
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 胶质母细胞瘤患者治疗后的肿瘤复发和放射引起的对比增强之间的区别仍然是主要的临床挑战。
+
 ## 背景与动机
 The differentiation between tumor recurrence and radiation-induced contrast enhancements in post-treatment glioblastoma patients remains a major clinical challenge.. Existing approaches rely on clinically sparsely available diffusion MRI or do not consider radiation maps, which are gaining increasing interest in the tumor board for this differentiation.
 
 ## 核心问题
 胶质母细胞瘤患者治疗后的肿瘤复发和放射引起的对比增强之间的区别仍然是主要的临床挑战。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ The differentiation between tumor recurrence and radiation-induced contrast enha
 ## 亮点 / 我学到了什么
 - 该模型使用 92 名患者组成的队列，在独立测试集上取得了 0.92 的 F1 分数。
 - 在广泛的消融实验中，我们量化了每个时间点和模式的贡献，并表明可靠的分类很大程度上取决于辐射图。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

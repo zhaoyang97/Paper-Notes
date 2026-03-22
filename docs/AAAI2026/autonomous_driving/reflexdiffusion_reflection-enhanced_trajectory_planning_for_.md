@@ -1,9 +1,9 @@
 # ReflexDiffusion: 反思增强的高侧向加速度自动驾驶轨迹规划
 
-**会议**: AAAI 2026
-**arXiv**: [2601.09377](https://arxiv.org/abs/2601.09377)
-**代码**: [https://github.com/Luminous2028/ReflexDiffusion.git](https://github.com/Luminous2028/ReflexDiffusion.git)
-**领域**: 自动驾驶 / 轨迹规划 / 扩散模型
+**会议**: AAAI 2026  
+**arXiv**: [2601.09377](https://arxiv.org/abs/2601.09377)  
+**代码**: [https://github.com/Luminous2028/ReflexDiffusion.git](https://github.com/Luminous2028/ReflexDiffusion.git)  
+**领域**: 自动驾驶 / 轨迹规划 / 扩散模型  
 **关键词**: 扩散规划, 反思机制, 高侧向加速度, 曲率-速度耦合, Classifier-Free Guidance
 
 ## 一句话总结

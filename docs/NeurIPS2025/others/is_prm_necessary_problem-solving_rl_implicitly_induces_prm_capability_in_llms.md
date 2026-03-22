@@ -1,8 +1,9 @@
 # 笔记2：PRM必要吗？RL隐式诱导PRM能力
-**会议**: NeurIPS 2025
-**arXiv**: [2505.11227](https://arxiv.org/abs/2505.11227)
-**代码**: DeepSeek-R1 & QwQ-32B repo
-**领域**: LLM推理, 强化学习
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.11227](https://arxiv.org/abs/2505.11227)  
+**代码**: DeepSeek-R1 & QwQ-32B repo  
+**领域**: LLM推理, 强化学习  
 **关键词**: Process Reward Model, 奖励模型, RL训练, Self-PRM, 推理验证
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. **核心发现前景**：问题解决与过程监督是互补的两个维度，在RL过程中协同演化
 
 ## 方法详解
+
 ### 整体框架
 核心观点：将数学推理与过程奖励分离为两个评价维度，通过纯RL观察其自然演化：
 1. **奖励信号来源**：仅使用最终答案正确性(规则奖励)，不提供步骤级标注
@@ -27,6 +29,7 @@ $$y_{rank} = \arg\max_i V(x,y_i)$$
 其中$V$是模型隐式学到的价值函数，无需显式训练。
 
 ## 实验关键数据
+
 ### ProcessBench上的评估结果
 
 | 模型(类别) | GSM8K Error | GSM8K Correct | MATH F1 | OlympiadBench F1 | 平均F1 |

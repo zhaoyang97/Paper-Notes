@@ -1,9 +1,9 @@
 # VL-RouterBench: A Benchmark for Vision-Language Model Routing
 
-**会议**: CVPR 2026
-**arXiv**: [2512.23562](https://arxiv.org/abs/2512.23562)
-**代码**: https://github.com/VL-RouterBench
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2512.23562](https://arxiv.org/abs/2512.23562)  
+**代码**: https://github.com/VL-RouterBench  
+**领域**: 多模态VLM  
 **关键词**: 模型路由, VLM, 基准测试, 效率-质量权衡, 多模型选择
 
 ## 一句话总结

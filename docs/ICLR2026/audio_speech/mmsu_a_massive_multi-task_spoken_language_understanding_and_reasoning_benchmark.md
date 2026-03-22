@@ -1,9 +1,9 @@
 # MMSU: A Massive Multi-task Spoken Language Understanding and Reasoning Benchmark
 
-**会议**: ICLR 2026
-**arXiv**: [2506.04779](https://arxiv.org/abs/2506.04779)
-**代码**: https://huggingface.co/datasets/ddwang2000/MMSU
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2506.04779](https://arxiv.org/abs/2506.04779)  
+**代码**: https://huggingface.co/datasets/ddwang2000/MMSU  
+**领域**: 多模态VLM  
 **关键词**: 语音理解, SpeechLLM, 语言学基准, 多任务评测, 感知与推理
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models
 
-**会议**: CVPR2026
-**arXiv**: [2511.20629](https://arxiv.org/abs/2511.20629)
-**代码**: [https://github.com/SHI-Labs/MapReduce-LoRA](https://github.com/SHI-Labs/MapReduce-LoRA)
-**领域**: llm_alignment
+**会议**: CVPR2026  
+**arXiv**: [2511.20629](https://arxiv.org/abs/2511.20629)  
+**代码**: [https://github.com/SHI-Labs/MapReduce-LoRA](https://github.com/SHI-Labs/MapReduce-LoRA)  
+**领域**: llm_alignment  
 **关键词**: multi-preference optimization, LoRA merging, Pareto front, alignment tax, RLHF, text-to-image, text-to-video
 
 ## 一句话总结

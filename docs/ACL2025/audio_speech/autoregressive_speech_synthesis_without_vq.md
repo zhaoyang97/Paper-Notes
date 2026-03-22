@@ -1,9 +1,9 @@
 # Autoregressive Speech Synthesis without Vector Quantization
 
-**会议**: ACL 2025
-**arXiv**: [2407.08551](https://arxiv.org/abs/2407.08551)
-**代码**: https://aka.ms/melle (Demo)
-**领域**: 语音合成 / TTS
+**会议**: ACL 2025  
+**arXiv**: [2407.08551](https://arxiv.org/abs/2407.08551)  
+**代码**: https://aka.ms/melle (Demo)  
+**领域**: 语音合成 / TTS  
 **关键词**: 语音合成, 连续值token, mel-spectrogram, 变分推断, 自回归语言模型
 
 ## 一句话总结

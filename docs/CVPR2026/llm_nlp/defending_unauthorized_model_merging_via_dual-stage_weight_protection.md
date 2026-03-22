@@ -1,9 +1,9 @@
 # Defending Unauthorized Model Merging via Dual-Stage Weight Protection
 
-**会议**: CVPR 2026
-**arXiv**: [2511.11851](https://arxiv.org/abs/2511.11851)
-**代码**: 无（暂未开源）
-**领域**: AI Safety / Model IP Protection
+**会议**: CVPR 2026  
+**arXiv**: [2511.11851](https://arxiv.org/abs/2511.11851)  
+**代码**: 无（暂未开源）  
+**领域**: AI Safety / Model IP Protection  
 **关键词**: 模型合并防御, 知识产权保护, 权重保护, 对抗性扰动, 模型安全
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**：通过密度感知微调分散权重+对抗性权重否定注入扰动，双阶段重塑参数几何使合并模型处于不兼容曲率区域。
 
 ## 方法详解
+
 ### 整体框架
 MergeGuard分两阶段处理防御者模型 $\theta_{def}$：
 
@@ -49,6 +50,7 @@ $$\Delta \mathcal{L}_{merge} \approx \lambda_1 \lambda_2 \|\tau'_{def}\| \|\tau_
 所有实验固定 $k'=10$, $k=0.1$, $\alpha=0.01$, $\beta=1$，无需任务特定调参。
 
 ## 实验关键数据
+
 ### 主实验：ViT-L-14 图像分类——保护前后精度与合并后精度
 
 | 数据集 | 微调模型 $\theta_{def}$ | 保护模型 $\hat{\theta}_{def}$ | 合并精度(TA) $\theta_{merge}$ | 合并精度(TA) $\hat{\theta}_{merge}$ |

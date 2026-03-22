@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Efficient RGB-D Scene Understanding via Multi-task Adaptive Learning and Cross-dimensional Feature Guidance
 
-**会议**: CVPR 2025
-**arXiv**: [2603.07570](https://arxiv.org/abs/2603.07570)
-**代码**: 待确认
-**领域**: 图像分割 / RGB-D场景理解 / 多任务学习
+**会议**: CVPR 2025  
+**arXiv**: [2603.07570](https://arxiv.org/abs/2603.07570)  
+**代码**: 待确认  
+**领域**: 图像分割 / RGB-D场景理解 / 多任务学习  
 **关键词**: RGB-D 场景理解, 多任务自适应学习, 跨维度特征引导, 全景分割, 高效融合编码器
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.17505](https://arxiv.org/abs/2505.17505)
-**代码**: [https://github.com/Xiaohao-Liu/L-MTP](https://github.com/Xiaohao-Liu/L-MTP)
-**领域**: LLM 推理加速, 多token预测
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.17505](https://arxiv.org/abs/2505.17505)  
+**代码**: [https://github.com/Xiaohao-Liu/L-MTP](https://github.com/Xiaohao-Liu/L-MTP)  
+**领域**: LLM 推理加速, 多token预测  
 **关键词**: 跳跃预测, 推理效率, 推测解码, 多头预测, 树注意力
 
 ## 一句话总结

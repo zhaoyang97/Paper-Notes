@@ -1,9 +1,9 @@
 # SPARC: 用单一策略驾驶100辆未见车辆的OOD泛化
 
-**会议**: AAAI 2026
-**arXiv**: [2511.09737](https://arxiv.org/abs/2511.09737)
-**代码**: [https://github.com/bramgrooten/sparc](https://github.com/bramgrooten/sparc)
-**领域**: 强化学习 / 策略泛化 / 自动驾驶
+**会议**: AAAI 2026  
+**arXiv**: [2511.09737](https://arxiv.org/abs/2511.09737)  
+**代码**: [https://github.com/bramgrooten/sparc](https://github.com/bramgrooten/sparc)  
+**领域**: 强化学习 / 策略泛化 / 自动驾驶  
 **关键词**: OOD泛化, 上下文强化学习, 单阶段适应, Gran Turismo, SPARC
 
 ## 一句话总结

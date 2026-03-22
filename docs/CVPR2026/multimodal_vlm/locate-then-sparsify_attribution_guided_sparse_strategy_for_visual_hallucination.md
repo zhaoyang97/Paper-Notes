@@ -1,9 +1,9 @@
 # Locate-then-Sparsify: Attribution Guided Sparse Strategy for Visual Hallucination Mitigation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.16284](https://arxiv.org/abs/2603.16284)
-**代码**: https://github.com/huttersadan/LTS-FS
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.16284](https://arxiv.org/abs/2603.16284)  
+**代码**: https://github.com/huttersadan/LTS-FS  
+**领域**: 多模态VLM  
 **关键词**: 视觉幻觉, 特征引导, 层级归因, 稀疏调整, LVLM
 
 ## 一句话总结

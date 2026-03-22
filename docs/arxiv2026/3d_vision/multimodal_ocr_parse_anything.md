@@ -9,11 +9,13 @@
 
 ## 一句话总结
 我们提出了多模态 OCR (MOCR)，这是一种文档解析范例，可将文本和图形联合解析为统一的文本表示。
+
 ## 背景与动机
 We present Multimodal OCR (MOCR), a document parsing paradigm that jointly parses text and graphics into unified textual representations.. Unlike conventional OCR systems that focus on text recognition and leave graphical regions as cropped pixels, our method, termed dots.mocr, treats visual elements such as charts, diagrams, tables, and icons as first-class parsing targets, enabling systems to parse documents while preserving semantic relationships across elements.
 
 ## 核心问题
 我们提出了多模态 OCR (MOCR)，这是一种将文本和图形联合解析为统一文本表示的文档解析范式。与专注于文本识别并将图形区域保留为裁剪像素的传统 OCR 系统不同，我们的方法称为dots.mocr，将图表、图表、表格和图标等视觉元素视为一流的解析目标，使系统能够解析文档，同时保留元素之间的语义关系。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ We present Multimodal OCR (MOCR), a document parsing paradigm that jointly parse
 ## 亮点 / 我学到了什么
 - 在文档解析基准测试中，它在我们的 OCR Arena Elo 排行榜上排名第二，仅次于 Gemini 3 Pro，超越了现有的开源文档解析系统，并在 olmOCR Bench 上创下了 83.9 的新水平。
 - 在结构化图形解析方面，dots.mocr 在图像到 SVG 基准测试中实现了比 Gemini 3 Pro 更高的重建质量，在图表、UI 布局、科学图表和化学图表上展示了强大的性能。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

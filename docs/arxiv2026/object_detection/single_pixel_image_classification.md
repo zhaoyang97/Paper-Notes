@@ -9,11 +9,13 @@
 
 ## 一句话总结
 模式识别和图像分类是机器视觉中的基本任务。
+
 ## 背景与动机
 Pattern recognition and image classification are essential tasks in machine vision.. Autonomous vehicles, for example, require being able to collect the complex information contained in a changing environment and classify it in real time.
 
 ## 核心问题
 模式识别和图像分类是机器视觉中的基本任务。例如，自动驾驶汽车需要能够收集不断变化的环境中包含的复杂信息并实时对其进行分类。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ Pattern recognition and image classification are essential tasks in machine visi
 - 在这里，我们通过实验演示了将单像素成像 (SPI) 技术与低复杂度机器学习模型相结合的多 kHz 帧速率下的图像分类。
 - 我们根据广泛接受的 MNIST 数字分类基准测试任务来研究我们的实验系统的分类准确性。
 - 通过探索基于 SPI 的 ELM 作为二元分类器的性能，我们展示了其在超快成像场景中高效异常检测的潜力。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

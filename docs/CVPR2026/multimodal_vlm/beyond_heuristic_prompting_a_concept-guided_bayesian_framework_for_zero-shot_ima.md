@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Beyond Heuristic Prompting: A Concept-Guided Bayesian Framework for Zero-Shot Image Recognition
 
-**会议**: CVPR2026
-**arXiv**: [2603.07911](https://arxiv.org/abs/2603.07911)
-**代码**: [github.com/less-and-less-bugs/CGBC](https://github.com/less-and-less-bugs/CGBC)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2603.07911](https://arxiv.org/abs/2603.07911)  
+**代码**: [github.com/less-and-less-bugs/CGBC](https://github.com/less-and-less-bugs/CGBC)  
+**领域**: 多模态VLM  
 **关键词**: 零样本分类, CLIP, 贝叶斯推理, 概念引导, prompt工程, 鲁棒估计
 
 ## 一句话总结

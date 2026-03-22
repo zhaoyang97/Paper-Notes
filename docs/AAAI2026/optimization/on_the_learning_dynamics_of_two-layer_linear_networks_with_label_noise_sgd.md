@@ -22,6 +22,7 @@
 6. **核心idea一句话**：标签噪声通过放大第二层参数的振荡，间接驱动第一层权重范数持续衰减，使网络从 lazy regime 自然过渡到 rich regime，最终收敛到稀疏的 ground-truth 插值器。
 
 ## 方法详解
+
 ### 整体框架
 考虑二层线性网络 $\hat{y}_i = \mathbf{a}^\top \mathbf{W} \mathbf{x}_i$，其中 $\mathbf{W} \in \mathbb{R}^{m \times d}$，$\mathbf{a} \in \mathbb{R}^m$。使用 NTK 初始化（$w_{i,j}(0) \sim \frac{1}{\sqrt{d}} \mathcal{N}(0, I)$，$a_i(0) \sim \frac{1}{\sqrt{m}} \mathcal{N}(0, I)$）。训练采用 Label Noise SGD：每步随机翻转标签 $\tilde{y}_i = y_i + \epsilon$（$\epsilon \sim \{-\sigma, +\sigma\}$），在带噪标签上计算梯度更新。
 
@@ -79,6 +80,7 @@
 - **隐式偏置的新机制**：不同于之前关注"label noise 正则化 sharpness"的视角，本文揭示了一个更基本的效应——噪声驱动 regime 过渡。这个视角更具解释力，因为它解释了为什么 noise 不仅降低 sharpness 还能促进 feature learning。
 - **层间耦合的精妙分析**：第二层振荡驱动第一层衰减的分析，抓住了深度网络中层间依赖的本质。这种分析范式可以推广到更深网络。
 - **从 SGD to SAM 的统一视角**：将 label noise SGD 和 SAM 统一在"噪声放大促进 rich regime"的框架下，为理解不同优化器的隐式偏置提供了统一理论基础。- **实验可视化出色**：Figure 2 中每个神经元在范数-对齐度空间的轨迹图直观展现了两阶段动力学，是理论与实验结合的典范。
+
 ## 局限性 / 可改进方向
 - 理论限于**二层线性网络**——没有非线性激活函数，离实际网络架构有距离。非线性如何影响两阶段动力学是重要开放问题。
 - 理论分析在 Phase II 切换到了 GD（无噪声），简化了分析但牺牲了对完整 label noise SGD 收敛阶段的刻画。

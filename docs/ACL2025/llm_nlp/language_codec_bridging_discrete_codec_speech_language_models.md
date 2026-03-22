@@ -1,8 +1,8 @@
 # Language-Codec: Bridging Discrete Codec Representations and Speech Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2402.12208](https://arxiv.org/abs/2402.12208)
-**领域**: 语音生成 / 离散音频编码
+**会议**: ACL 2025  
+**arXiv**: [2402.12208](https://arxiv.org/abs/2402.12208)  
+**领域**: 语音生成 / 离散音频编码  
 **关键词**: 离散音频编解码器, 残差向量量化, 语音语言模型, 掩码通道机制, 傅里叶变换解码器
 
 ## 一句话总结

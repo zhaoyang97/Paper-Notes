@@ -1,9 +1,9 @@
 # Towards Multimodal Domain Generalization with Few Labels
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22917](https://arxiv.org/abs/2602.22917)
-**代码**: https://github.com/lihongzhao99/SSMDG
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.22917](https://arxiv.org/abs/2602.22917)  
+**代码**: https://github.com/lihongzhao99/SSMDG  
+**领域**: 多模态VLM  
 **关键词**: 半监督学习, 域泛化, 多模态融合, 伪标签, 跨模态原型对齐
 
 ## 一句话总结

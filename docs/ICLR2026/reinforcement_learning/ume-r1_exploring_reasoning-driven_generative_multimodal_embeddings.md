@@ -1,9 +1,9 @@
 # UME-R1: Exploring Reasoning-Driven Generative Multimodal Embeddings
 
-**会议**: ICLR 2026
-**arXiv**: [2511.00405](https://arxiv.org/abs/2511.00405)
-**代码**: [GitHub](https://github.com/XMUDeepLIT/UME-R1)
-**领域**: 多模态嵌入 / 推理驱动的生成式表示
+**会议**: ICLR 2026  
+**arXiv**: [2511.00405](https://arxiv.org/abs/2511.00405)  
+**代码**: [GitHub](https://github.com/XMUDeepLIT/UME-R1)  
+**领域**: 多模态嵌入 / 推理驱动的生成式表示  
 **关键词**: multimodal embeddings, reasoning-driven generation, reinforcement learning, MLLM, inference-time scaling
 
 ## 一句话总结

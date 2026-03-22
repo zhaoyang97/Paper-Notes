@@ -9,11 +9,13 @@
 
 ## 一句话总结
 稀疏正则化在解决由不完整或损坏的测量引起的逆问题中发挥着核心作用。
+
 ## 背景与动机
 Sparse regularization plays a central role in solving inverse problems arising from incomplete or corrupted measurements.. Different regularizers correspond to different prior assumptions about the structure of the unknown signal, and reconstruction performance depends on how well these priors match the intrinsic sparsity of the data.
 
 ## 核心问题
 稀疏正则化在解决由不完整或损坏的测量引起的逆问题中发挥着核心作用。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Sparse regularization plays a central role in solving inverse problems arising f
 ## 亮点 / 我学到了什么
 - 跨多个重建任务构建了统一的实验框架，包括信号重采样、信号去噪和稀疏视图计算机断层扫描。
 - 实验揭示了跨任务的特征偏差-方差权衡模式，并证明 VG 在精确支持恢复至关重要的强欠定状态下经常实现较低的最小泛化误差并提高稳定性。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

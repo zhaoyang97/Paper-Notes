@@ -1,9 +1,9 @@
 # Evolutionary Multimodal Reasoning via Hierarchical Semantic Representation for Intent Recognition
 
-**会议**: CVPR 2026
-**arXiv**: [2603.03827](https://arxiv.org/abs/2603.03827)
-**代码**: [GitHub](https://github.com/thuiar/HIER)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.03827](https://arxiv.org/abs/2603.03827)  
+**代码**: [GitHub](https://github.com/thuiar/HIER)  
+**领域**: 多模态VLM  
 **关键词**: 多模态意图识别, 层次语义表示, 自进化推理, 概念聚类, CoT
 
 ## 一句话总结

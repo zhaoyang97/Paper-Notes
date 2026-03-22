@@ -1,8 +1,8 @@
 # CKnowEdit: A New Chinese Knowledge Editing Dataset for Linguistics, Facts, and Logic Error Correction in LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2409.05806](https://arxiv.org/abs/2409.05806)
-**领域**: llm_nlp
+**会议**: ACL 2025  
+**arXiv**: [2409.05806](https://arxiv.org/abs/2409.05806)  
+**领域**: llm_nlp  
 **关键词**: 知识编辑, 中文NLP, 数据集构建, 大语言模型, 文化特异性知识
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # PriorDrive: 用统一向量先验增强在线HD地图构建
 
-**会议**: AAAI 2026
-**arXiv**: [2409.05352](https://arxiv.org/abs/2409.05352)
-**代码**: [https://github.com/MIV-XJTU/PriorDrive](https://github.com/MIV-XJTU/PriorDrive)
-**领域**: 自动驾驶 / HD地图构建
+**会议**: AAAI 2026  
+**arXiv**: [2409.05352](https://arxiv.org/abs/2409.05352)  
+**代码**: [https://github.com/MIV-XJTU/PriorDrive](https://github.com/MIV-XJTU/PriorDrive)  
+**领域**: 自动驾驶 / HD地图构建  
 **关键词**: HD Map, 先验地图, 统一向量编码, 即插即用, 在线建图
 
 ## 一句话总结

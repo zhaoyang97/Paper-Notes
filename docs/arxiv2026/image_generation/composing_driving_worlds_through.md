@@ -9,11 +9,13 @@
 
 ## 一句话总结
 自动驾驶的一个主要挑战是安全关键边缘情况的“长尾”，这些边缘情况通常是由常见交通元素的不寻常组合产生的。
+
 ## 背景与动机
 A major challenge in autonomous driving is the "long tail" of safety-critical edge cases, which often emerge from unusual combinations of common traffic elements.. Synthesizing these scenarios is crucial, yet current controllable generative models provide incomplete or entangled guidance, preventing the independent manipulation of scene structure, object identity, and ego actions.
 
 ## 核心问题
 自动驾驶的一个主要挑战是安全关键边缘情况的“长尾”，这些边缘情况通常是由常见交通元素的不寻常组合产生的。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ A major challenge in autonomous driving is the "long tail" of safety-critical ed
 ## 亮点 / 我学到了什么
 - 此外，引入分层双分支动作控制机制，提高动作可控性。
 - 广泛的比较表明，与最先进的基线相比，其可控生成质量更高，身份编辑的 FVD 提高了 17%，动作控制的旋转和平移错误分别减少了 30% 和 47%。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

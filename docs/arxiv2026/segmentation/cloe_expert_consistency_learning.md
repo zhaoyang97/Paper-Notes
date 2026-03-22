@@ -9,11 +9,13 @@
 
 ## 一句话总结
 多模态医学图像分割在推理时经常面临模态缺失的问题，这会引起模态专家之间的分歧，并使融合不稳定，特别是在小的前景结构上。
+
 ## 背景与动机
 Multimodal medical image segmentation often faces missing modalities at inference, which induces disagreement among modality experts and makes fusion unstable, particularly on small foreground structures.. We propose Consistency Learning of Experts (CLoE), a consistency-driven framework for missing-modality segmentation that preserves strong performance when all modalities are available.
 
 ## 核心问题
 多模态医学图像分割在推理时经常面临模态缺失，这会引起模态专家之间的分歧，并使融合不稳定，特别是在小的前景结构上。我们提出了专家一致性学习（CLoE），这是一种一致性驱动的模态缺失分割框架，当所有模态可用时，它可以保持强大的性能。
+
 ## 方法详解
 
 ### 整体框架
@@ -36,6 +38,7 @@ Multimodal medical image segmentation often faces missing modalities at inferenc
 
 ## 亮点 / 我学到了什么
 - 在 BraTS 2020 和 MSD Prostate 上进行的大量实验表明，CLoE 在不完整的多模态分割方面优于最先进的方法，同时表现出强大的跨数据集泛化能力并提高了临床关键结构的稳健性。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

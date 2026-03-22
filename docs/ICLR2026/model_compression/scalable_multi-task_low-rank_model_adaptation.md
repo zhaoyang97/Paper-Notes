@@ -1,9 +1,9 @@
 # Scalable Multi-Task Low-Rank Model Adaptation
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01526](https://arxiv.org/abs/2603.01526)
-**代码**: [GitHub](https://github.com/doem97/ICLR26_mtLoRA)
-**领域**: 模型压缩 / 参数高效微调 / 多任务学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.01526](https://arxiv.org/abs/2603.01526)  
+**代码**: [GitHub](https://github.com/doem97/ICLR26_mtLoRA)  
+**领域**: 模型压缩 / 参数高效微调 / 多任务学习  
 **关键词**: LoRA, multi-task learning, spectral-aware regularization, block-level adaptation, fine-grained routing
 
 ## 一句话总结

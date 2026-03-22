@@ -1,10 +1,10 @@
 # Can Indirect Prompt Injection Attacks Be Detected and Removed?
 
-**会议**: ACL 2025
-**arXiv**: [2502.16580](https://arxiv.org/abs/2502.16580)
-**代码**: [GitHub](https://github.com/LukeChen-go/indirect-pia-detection)
+**会议**: ACL 2025  
+**arXiv**: [2502.16580](https://arxiv.org/abs/2502.16580)  
+**代码**: [GitHub](https://github.com/LukeChen-go/indirect-pia-detection)  
 **机构**: NUS & HKUST
-**领域**: AI安全
+**领域**: AI安全  
 **关键词**: indirect prompt injection, detection, removal, filtering, segmentation, extraction, over-defense
 
 ## 一句话总结

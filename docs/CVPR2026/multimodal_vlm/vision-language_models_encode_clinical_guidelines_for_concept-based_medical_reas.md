@@ -1,9 +1,9 @@
 # Vision-Language Models Encode Clinical Guidelines for Concept-Based Medical Reasoning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.08921](https://arxiv.org/abs/2603.08921)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.08921](https://arxiv.org/abs/2603.08921)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 概念瓶颈模型, 医学影像, 可解释AI, 临床指南, CLIP
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 时空物理系统的机器学习方法主要集中在下一帧预测，其目标是学习系统及时演化的准确模拟器。
+
 ## 背景与动机
 Machine learning approaches to spatiotemporal physical systems have primarily focused on next-frame prediction, with the goal of learning an accurate emulator for the system's evolution in time.. However, these emulators are computationally expensive to train and are subject to performance pitfalls, such as compounding errors during autoregressive rollout.
 
 ## 核心问题
 然而，这些模拟器的训练计算成本很高，并且容易出现性能缺陷，例如在自回归推出期间出现复合错误。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Machine learning approaches to spatiotemporal physical systems have primarily fo
 
 ## 亮点 / 我学到了什么
 - 令人惊讶的是，我们发现并非所有为物理建模设计的方法都优于这些任务上的通用自监督学习方法，并且在潜在空间中学习的方法（例如联合嵌入预测架构或 JEPA）优于那些优化像素级预测目标的方法。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

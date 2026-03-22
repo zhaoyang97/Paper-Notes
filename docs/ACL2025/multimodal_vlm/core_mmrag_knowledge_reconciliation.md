@@ -1,9 +1,9 @@
 # CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG
 
-**会议**: ACL 2025
-**arXiv**: [2506.02544](https://arxiv.org/abs/2506.02544)
-**代码**: https://github.com/TyangJN/CoRe-MMRAG
-**领域**: LLM Agent / 多模态VLM / RAG
+**会议**: ACL 2025  
+**arXiv**: [2506.02544](https://arxiv.org/abs/2506.02544)  
+**代码**: https://github.com/TyangJN/CoRe-MMRAG  
+**领域**: LLM Agent / 多模态VLM / RAG  
 **关键词**: multimodal RAG, knowledge inconsistency, visual-textual reconciliation, KB-VQA
 
 ## 一句话总结

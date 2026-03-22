@@ -9,11 +9,13 @@
 
 ## 一句话总结
 本文重点研究 RGB 图像和热图像之间显着区域的不一致。
+
 ## 背景与动机
 This paper focuses on the inconsistency in salient regions between RGB and thermal images.. To address this issue, we propose the Region-guided Selective Optimization Network for RGB-T Salient Object Detection, which consists of the region guidance stage and saliency generation stage.
 
 ## 核心问题
 为了解决这个问题，我们提出了用于 RGB-T 显着目标检测的区域引导选择性优化网络，该网络由区域引导阶段和显着性生成阶段组成。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ This paper focuses on the inconsistency in salient regions between RGB and therm
 
 ## 亮点 / 我学到了什么
 - 我们对 RGB-T 数据集进行了广泛的实验，结果表明，所提出的 RSONet 与 27 种最先进的 SOD 方法相比，实现了具有竞争力的性能。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

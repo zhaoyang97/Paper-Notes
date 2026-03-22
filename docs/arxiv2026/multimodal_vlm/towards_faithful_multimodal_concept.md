@@ -9,11 +9,13 @@
 
 ## 一句话总结
 概念瓶颈模型 (CBM) 是可解释的模型，通过人类可解释的概念层进行预测。
+
 ## 背景与动机
 Concept Bottleneck Models (CBMs) are interpretable models that route predictions through a layer of human-interpretable concepts.. While widely studied in vision and, more recently, in NLP, CBMs remain largely unexplored in multimodal settings.
 
 ## 核心问题
 概念瓶颈模型 (CBM) 是可解释的模型，通过人类可解释的概念层进行预测。
+
 ## 方法详解
 
 ### 整体框架
@@ -38,6 +40,7 @@ Concept Bottleneck Models (CBMs) are interpretable models that route predictions
 - 现有方法将概念检测和泄漏缓解视为单独的问题，并且通常以牺牲预测准确性为代价来改进问题。
 - 在这项工作中，我们引入了 f-CBM，这是一个建立在视觉语言主干上的忠实多模态 CBM 框架，它通过两种互补策略共同针对这两个方面：用于减轻泄漏的可微泄漏损失，以及提供足够表达能力以改进概念检测的 Kolmogorov-Arnold 网络预测头。
 - 实验表明，f-CBM 在任务准确性、概念检测和减少泄漏之间实现了最佳权衡，同时无缝应用于图像和文本或纯文本数据集，使其具有跨模态的多功能性。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

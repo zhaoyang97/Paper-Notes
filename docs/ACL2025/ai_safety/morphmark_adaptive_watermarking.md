@@ -1,10 +1,10 @@
 # MorphMark: Flexible Adaptive Watermarking for Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2505.11541](https://arxiv.org/abs/2505.11541)
-**代码**: 无
+**会议**: ACL 2025  
+**arXiv**: [2505.11541](https://arxiv.org/abs/2505.11541)  
+**代码**: 无  
 **机构**: 清华大学 & 香港中文大学（深圳）
-**领域**: AI安全
+**领域**: AI安全  
 **关键词**: LLM watermarking, red-green list, adaptive watermark strength, multi-objective optimization, text quality, model-agnostic
 
 ## 一句话总结

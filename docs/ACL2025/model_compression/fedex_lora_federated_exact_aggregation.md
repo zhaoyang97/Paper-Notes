@@ -1,9 +1,9 @@
 # FedEx-LoRA: Exact Aggregation for Federated and Efficient Fine-Tuning of Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2410.09432](https://arxiv.org/abs/2410.09432)
-**代码**: https://github.com/RaghavSinghal10/fedex-lora
-**领域**: LLM效率 / 联邦学习
+**会议**: ACL 2025  
+**arXiv**: [2410.09432](https://arxiv.org/abs/2410.09432)  
+**代码**: https://github.com/RaghavSinghal10/fedex-lora  
+**领域**: LLM效率 / 联邦学习  
 **关键词**: LoRA, 联邦学习, 精确聚合, 参数高效微调, 残差修正
 
 ## 一句话总结

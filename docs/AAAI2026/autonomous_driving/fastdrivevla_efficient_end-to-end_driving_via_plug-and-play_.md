@@ -1,9 +1,9 @@
 # FastDriveVLA: Efficient End-to-End Driving via Plug-and-Play Reconstruction-based Token Pruning
 
-**会议**: AAAI 2026
-**arXiv**: [2507.23318](https://arxiv.org/abs/2507.23318)
-**代码**: 未公开
-**领域**: 多模态 VLM / 自动驾驶
+**会议**: AAAI 2026  
+**arXiv**: [2507.23318](https://arxiv.org/abs/2507.23318)  
+**代码**: 未公开  
+**领域**: 多模态 VLM / 自动驾驶  
 **关键词**: VLA 模型加速, 视觉 token 剪枝, 前景重建, 自动驾驶, plug-and-play
 
 ## 一句话总结

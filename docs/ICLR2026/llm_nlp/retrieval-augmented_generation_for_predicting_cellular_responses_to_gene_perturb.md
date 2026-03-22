@@ -1,10 +1,10 @@
 # Retrieval-Augmented Generation for Predicting Cellular Responses to Gene Perturbation
 
-**会议**: ICLR2026
-**arXiv**: [2603.07233](https://arxiv.org/abs/2603.07233)
+**会议**: ICLR2026  
+**arXiv**: [2603.07233](https://arxiv.org/abs/2603.07233)  
 **作者**: Andrea Giuseppe Di Francesco, Andrea Rubbi, Pietro Liò (Sapienza University of Rome / University of Cambridge / Wellcome Sanger Institute)
-**代码**: [github.com/difra100/PT-RAG_ICLR](https://github.com/difra100/PT-RAG_ICLR)
-**领域**: llm_nlp
+**代码**: [github.com/difra100/PT-RAG_ICLR](https://github.com/difra100/PT-RAG_ICLR)  
+**领域**: llm_nlp  
 **关键词**: RAG, 可微检索, 基因扰动预测, 单细胞转录组, Gumbel-Softmax, 细胞类型感知
 
 ---

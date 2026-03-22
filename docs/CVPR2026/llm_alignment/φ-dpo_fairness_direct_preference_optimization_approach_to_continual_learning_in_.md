@@ -1,9 +1,9 @@
 # $\varphi$-DPO: Fairness Direct Preference Optimization Approach to Continual Learning in Large Multimodal Models
 
-**会议**: CVPR2026
-**arXiv**: [2602.22601](https://arxiv.org/abs/2602.22601)
-**代码**: 待确认
-**领域**: llm_alignment
+**会议**: CVPR2026  
+**arXiv**: [2602.22601](https://arxiv.org/abs/2602.22601)  
+**代码**: 待确认  
+**领域**: llm_alignment  
 **关键词**: continual learning, DPO, fairness, catastrophic forgetting, large multimodal model, focal loss
 
 ## 一句话总结

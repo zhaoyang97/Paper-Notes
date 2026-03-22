@@ -1,8 +1,8 @@
 # Bias in Language Models: Beyond Trick Tests and Towards RUTEd Evaluation
 
-**会议**: ACL 2025
-**arXiv**: [2402.12649](https://arxiv.org/abs/2402.12649)
-**领域**: LLM 公平性与偏见评估
+**会议**: ACL 2025  
+**arXiv**: [2402.12649](https://arxiv.org/abs/2402.12649)  
+**领域**: LLM 公平性与偏见评估  
 **关键词**: 语言模型偏见, 公平性基准, 性别-职业偏见, RUTEd评估, 去语境化评估
 
 ## 一句话总结

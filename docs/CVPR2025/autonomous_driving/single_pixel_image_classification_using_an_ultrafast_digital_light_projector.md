@@ -1,9 +1,9 @@
 # Single Pixel Image Classification using an Ultrafast Digital Light Projector
 
-**会议**: CVPR2025
-**arXiv**: [2603.12036](https://arxiv.org/abs/2603.12036)
-**代码**: [数据公开](链接见论文)
-**领域**: autonomous_driving
+**会议**: CVPR2025  
+**arXiv**: [2603.12036](https://arxiv.org/abs/2603.12036)  
+**代码**: [数据公开](链接见论文)  
+**领域**: autonomous_driving  
 **关键词**: single pixel imaging, image classification, microLED, Hadamard patterns, extreme learning machine, compressed sensing
 
 ## 一句话总结

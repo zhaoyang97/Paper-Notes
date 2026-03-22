@@ -1,9 +1,9 @@
 # WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality
 
-**会议**: ICLR 2026
-**arXiv**: [2510.18560](https://arxiv.org/abs/2510.18560)
-**代码**: [github.com/lcy2723/WebDevJudge](https://github.com/lcy2723/WebDevJudge)
-**领域**: 多模态大模型 / LLM评测 / Web开发
+**会议**: ICLR 2026  
+**arXiv**: [2510.18560](https://arxiv.org/abs/2510.18560)  
+**代码**: [github.com/lcy2723/WebDevJudge](https://github.com/lcy2723/WebDevJudge)  
+**领域**: 多模态大模型 / LLM评测 / Web开发  
 **关键词**: LLM-as-a-judge, meta-evaluation, web development, pairwise comparison, agentic workflow
 
 ## 一句话总结

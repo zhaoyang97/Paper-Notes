@@ -9,11 +9,13 @@
 
 ## 一句话总结
 可靠的多目标跟踪（MOT）对于在复杂和动态环境中运行的机器人系统至关重要。
+
 ## 背景与动机
 Reliable multi-object tracking (MOT) is essential for robotic systems operating in complex and dynamic environments.. Despite recent advances in detection and association, online MOT methods remain vulnerable to identity switches caused by frequent occlusions and object overlap, where incorrect associations can propagate over time and degrade tracking reliability.
 
 ## 核心问题
 尽管最近在检测和关联方面取得了进展，但在线 MOT 方法仍然容易受到频繁遮挡和对象重叠引起的身份切换的影响，其中不正确的关联可能会随着时间的推移而传播并降低跟踪可靠性。
+
 ## 方法详解
 
 ### 整体框架
@@ -40,6 +42,7 @@ Reliable multi-object tracking (MOT) is essential for robotic systems operating 
 ## 亮点 / 我学到了什么
 - 我们在 MOT17 测试集上实现了 81.73 MOTA、82.81 IDF1 和 66.95 HOTA，运行速度为 5.7 FPS；在 MOT20 测试集上实现了 77.52 MOTA、80.90 IDF1 和 65.67 HOTA，运行速度为 0.6 FPS。
 - 同时，我们的框架在 MOT20 基准测试中保持了最先进的性能。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

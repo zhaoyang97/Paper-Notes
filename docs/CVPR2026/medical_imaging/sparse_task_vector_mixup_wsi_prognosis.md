@@ -1,9 +1,9 @@
 # STEPH: Sparse Task Vector Mixup with Hypernetworks for Efficient Knowledge Transfer in WSI Prognosis
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10526](https://arxiv.org/abs/2603.10526)
-**代码**: [github.com/liupei101/STEPH](https://github.com/liupei101/STEPH)
-**领域**: 医学图像 / 计算病理学
+**会议**: CVPR 2026  
+**arXiv**: [2603.10526](https://arxiv.org/abs/2603.10526)  
+**代码**: [github.com/liupei101/STEPH](https://github.com/liupei101/STEPH)  
+**领域**: 医学图像 / 计算病理学  
 **关键词**: 全切片图像, 生存分析, 跨癌种知识迁移, 任务向量, 超网络, 模型合并
 
 ## 一句话总结

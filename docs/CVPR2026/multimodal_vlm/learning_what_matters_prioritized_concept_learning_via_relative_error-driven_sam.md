@@ -1,9 +1,9 @@
 # Learning What Matters: Prioritized Concept Learning via Relative Error-driven Sample Selection
 
-**会议**: CVPR 2026
-**arXiv**: [2506.01085](https://arxiv.org/abs/2506.01085)
-**代码**: https://mylittlechange.github.io/PROGRESS_web/
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2506.01085](https://arxiv.org/abs/2506.01085)  
+**代码**: https://mylittlechange.github.io/PROGRESS_web/  
+**领域**: 多模态VLM  
 **关键词**: 数据高效学习, 指令微调, 课程学习, VLM训练, 样本选择
 
 ## 一句话总结

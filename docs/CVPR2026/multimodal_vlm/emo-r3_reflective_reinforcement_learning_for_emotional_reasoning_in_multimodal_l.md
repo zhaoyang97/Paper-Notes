@@ -1,9 +1,9 @@
 # EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23802](https://arxiv.org/abs/2602.23802)
-**代码**: [GitHub](https://github.com/xiaomi-research/emo-r3)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.23802](https://arxiv.org/abs/2602.23802)  
+**代码**: [GitHub](https://github.com/xiaomi-research/emo-r3)  
+**领域**: 多模态VLM  
 **关键词**: 情感推理, GRPO, 结构化思维, 反思奖励, 多模态情感理解
 
 ## 一句话总结

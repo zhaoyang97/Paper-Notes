@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Deconstructing the Failure of Ideal Noise Correction: A Three-Pillar Diagnosis
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12997](https://arxiv.org/abs/2603.12997)
-**代码**: 待确认
-**领域**: 其他 / 噪声标签学习 / 鲁棒学习
+**会议**: CVPR 2025  
+**arXiv**: [2603.12997](https://arxiv.org/abs/2603.12997)  
+**代码**: 待确认  
+**领域**: 其他 / 噪声标签学习 / 鲁棒学习  
 **关键词**: 噪声标签学习, 噪声转移矩阵, 前向校正, 统计一致性, 过拟合, 信息论
 
 ## 一句话总结

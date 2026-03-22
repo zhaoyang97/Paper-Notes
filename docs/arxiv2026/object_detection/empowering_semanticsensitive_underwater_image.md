@@ -1,8 +1,8 @@
 # Empowering Semantic-Sensitive Underwater Image Enhancement with VLM
 
-**会议**: arxiv 2026
-**arXiv**: [2603.12773](https://arxiv.org/abs/2603.12773)
-**领域**: 目标检测 / 水下图像增强 / 视觉语言模型
+**会议**: arxiv 2026  
+**arXiv**: [2603.12773](https://arxiv.org/abs/2603.12773)  
+**领域**: 目标检测 / 水下图像增强 / 视觉语言模型  
 **关键词**: underwater image enhancement, VLM, semantic guidance, cross-attention, alignment loss
 
 ## 一句话总结

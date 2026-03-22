@@ -1,9 +1,9 @@
 # MSJoE: Jointly Evolving MLLM and Sampler for Efficient Long-Form Video Understanding
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22932](https://arxiv.org/abs/2602.22932)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.22932](https://arxiv.org/abs/2602.22932)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 长视频理解, 关键帧采样, 强化学习, GRPO, 联合优化
 
 ## 一句话总结

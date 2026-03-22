@@ -1,9 +1,9 @@
 # VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20794](https://arxiv.org/abs/2602.20794)
-**代码**: https://github.com/WJ-CV/VGGDrive
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.20794](https://arxiv.org/abs/2602.20794)  
+**代码**: https://github.com/WJ-CV/VGGDrive  
+**领域**: 多模态VLM  
 **关键词**: 自动驾驶, 3D几何感知, VLM, VGGT, 跨视图
 
 ## 一句话总结

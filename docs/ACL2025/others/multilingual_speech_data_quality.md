@@ -1,8 +1,8 @@
 # Data Quality Issues in Multilingual Speech Datasets: The Need for Sociolinguistic Awareness and Proactive Language Planning
 
-**会议**: ACL 2025
-**arXiv**: [2506.17525](https://arxiv.org/abs/2506.17525)
-**领域**: LLM NLP / 语音数据集质量
+**会议**: ACL 2025  
+**arXiv**: [2506.17525](https://arxiv.org/abs/2506.17525)  
+**领域**: LLM NLP / 语音数据集质量  
 **关键词**: 多语言语音数据集, 数据质量审计, 社会语言学, 语言规划, Common Voice
 
 ## 一句话总结

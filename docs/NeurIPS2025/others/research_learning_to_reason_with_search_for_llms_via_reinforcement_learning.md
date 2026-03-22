@@ -1,8 +1,9 @@
 # 笔记5：ReSearch - 学习通过搜索推理
-**会议**: NeurIPS 2025
-**arXiv**: [2503.19470](https://arxiv.org/abs/2503.19470)
-**代码**: [GitHub](https://github.com/Agent-RL/ReSearch)
-**领域**: LLM推理, 多跳检索, 强化学习
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.19470](https://arxiv.org/abs/2503.19470)  
+**代码**: [GitHub](https://github.com/Agent-RL/ReSearch)  
+**领域**: LLM推理, 多跳检索, 强化学习  
 **关键词**: 推理-搜索融合, GRPO, 多步检索增强, 无监督推理
 
 ## 一句话总结
@@ -15,6 +16,7 @@ ReSearch框架将搜索操作嵌入推理链中作为第一类原语，通过GRP
 4. **核心问题**：能否训练LLM自主学会在思考过程中交织搜索操作，无需标注推理链？
 
 ## 方法详解
+
 ### 整体框架
 **三管齐下集成**：推理(`<think>`)、搜索(`<search>`)与结果(`<result>`)共存于一个统一链条：
 $$\text{Rollout}: <think>...推理...</think> <search>查询</search> <result>检索结果</result> <think>...继续推理...</think> <answer>最终答案</answer>$$
@@ -41,6 +43,7 @@ $$r = \begin{cases} \text{F1}(a_{pred}, a_{gt}) & \text{if F1}>0\\ 0.1 & \text{i
 - **格式奖励**：检验标签与$\boxed{}$完整性
 
 ## 实验关键数据
+
 ### 7B模型 - 多跳QA性能
 
 | 模型 | HotpotQA EM% | HotpotQA LJ% | 2Wiki EM% | MuSiQue EM% | Bamboogle EM% |

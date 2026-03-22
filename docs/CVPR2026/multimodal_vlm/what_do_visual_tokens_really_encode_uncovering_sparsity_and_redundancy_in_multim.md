@@ -1,9 +1,9 @@
 # What Do Visual Tokens Really Encode? Uncovering Sparsity and Redundancy in Multimodal Large Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00510](https://arxiv.org/abs/2603.00510)
-**代码**: https://github.com/EIT-NLP/EmbedLens
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.00510](https://arxiv.org/abs/2603.00510)  
+**代码**: https://github.com/EIT-NLP/EmbedLens  
+**领域**: 多模态VLM  
 **关键词**: 视觉token分析, 语义稀疏性, MLLM可解释性, 注意力sink, token冗余
 
 ## 一句话总结

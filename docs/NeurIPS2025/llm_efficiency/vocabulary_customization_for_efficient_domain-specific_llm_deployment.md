@@ -20,6 +20,7 @@
 - 在 encoder-only 模型上的词表扩展研究较多（BERT 等），但自回归 LLM 需要额外考虑生成端是否采用新 token
 
 ## 方法详解
+
 ### Tokenizer 扩展算法
 1. **训练领域 tokenizer**：在领域数据集上从头训练 BPE tokenizer，获取领域高频 token
 2. **扩展原始 tokenizer**：

@@ -1,9 +1,9 @@
 # MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?
 
-**会议**: ECCV 2024
-**arXiv**: [2403.14624](https://arxiv.org/abs/2403.14624)
-**代码**: [Project Page](https://mathverse-cuhk.github.io)
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2403.14624](https://arxiv.org/abs/2403.14624)  
+**代码**: [Project Page](https://mathverse-cuhk.github.io)  
+**领域**: 多模态VLM  
 **关键词**: 视觉数学推理, 多模态评测基准, 图表理解, CoT评估, 文本冗余
 
 ## 一句话总结

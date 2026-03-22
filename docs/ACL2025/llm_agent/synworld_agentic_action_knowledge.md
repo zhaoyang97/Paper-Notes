@@ -1,9 +1,9 @@
 # SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge Refinement
 
-**会议**: ACL 2025
-**arXiv**: [2504.03561](https://arxiv.org/abs/2504.03561)
-**代码**: https://github.com/zjunlp/SynWorld
-**领域**: LLM Agent / 工具学习
+**会议**: ACL 2025  
+**arXiv**: [2504.03561](https://arxiv.org/abs/2504.03561)  
+**代码**: https://github.com/zjunlp/SynWorld  
+**领域**: LLM Agent / 工具学习  
 **关键词**: action knowledge, MCTS, scenario synthesis, tool learning, agent exploration
 
 ## 一句话总结

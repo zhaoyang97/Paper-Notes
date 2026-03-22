@@ -1,9 +1,9 @@
 # Efficient Document Parsing via Parallel Token Prediction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.15206](https://arxiv.org/abs/2603.15206)
-**代码**: [GitHub](https://github.com/flow3rdown/PTP-OCR)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.15206](https://arxiv.org/abs/2603.15206)  
+**代码**: [GitHub](https://github.com/flow3rdown/PTP-OCR)  
+**领域**: 多模态VLM  
 **关键词**: 文档解析, 并行token预测, Register Token, VLM加速, OCR
 
 ## 一句话总结

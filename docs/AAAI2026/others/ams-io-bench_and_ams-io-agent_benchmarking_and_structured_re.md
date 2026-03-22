@@ -21,6 +21,7 @@
 
 ### 整体框架
 AMS-IO-Agent采用三层分层架构：用户提供引脚规划文本 → LLM将其结构化为Intent Graph(意图图) → Intent Graph Adaptor(适配器)将意图图解析为可执行的EDA脚本(SKILL/csh) → 在Cadence Virtuoso中生成原理图和版图 → 调用Calibre进行DRC/LVS验证。整个过程将高层意图推理与底层实现分离，LLM专注于理解设计意图，确定性模块负责约束求解和脚本生成。
+
 ### 关键设计
 1. **设计意图结构化(Design Intent Structuring)**: 将非结构化的引脚规划（自然语言描述、引脚列表、半结构化表格）转换为标准化的Intent Graph——一种JSON格式的图表示。每个节点代表一个pad或corner cell，包含名称、器件类型、空间位置、方向、引脚连接等属性。构建过程分两步：**显式补全**——根据引脚名命名规范（如DCLK=数字时钟、VCM=共模电压）通过知识库推断信号类型、器件类型、默认方向等属性；**隐式推理**——自动插入设计规范中未提及但必需的元素如corner cell。Intent Graph不同于网表：网表只描述电路连接，而Intent Graph还捕获空间关系、语义上下文和领域知识，可同时被人和LLM理解，也能被代码高效解析。
 

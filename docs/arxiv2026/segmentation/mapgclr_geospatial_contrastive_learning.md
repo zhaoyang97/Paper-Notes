@@ -9,11 +9,13 @@
 
 ## 一句话总结
 自动驾驶汽车依靠地图信息来了解周围的世界。
+
 ## 背景与动机
 Autonomous vehicles rely on map information to understand the world around them.. However, the creation and maintenance of offline high-definition (HD) maps remains costly.
 
 ## 核心问题
 然而，离线高清（HD）地图的创建和维护成本仍然很高。
+
 ## 方法详解
 
 ### 整体框架
@@ -37,6 +39,7 @@ Autonomous vehicles rely on map information to understand the world around them.
 
 ## 亮点 / 我学到了什么
 - 我们的方法全面优于监督基线，无论是在下游任务矢量化地图感知性能方面的定量方面，还是在 BEV 特征空间的主成分分析 (PCA) 可视化分割方面的定性方面。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

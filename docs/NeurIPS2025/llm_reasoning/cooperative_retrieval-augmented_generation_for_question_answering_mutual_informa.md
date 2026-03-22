@@ -1,8 +1,9 @@
 # Cooperative Retrieval-Augmented Generation for Question Answering: Mutual Information Exchange and Ranking by Contrasting Layers
-**会议**: NeurIPS 2025
-**arXiv**: [2512.10422](https://arxiv.org/abs/2512.10422)
-**代码**: [GitHub](https://github.com/meaningful96/CoopRAG)
-**领域**: 检索增强生成与问答
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.10422](https://arxiv.org/abs/2512.10422)  
+**代码**: [GitHub](https://github.com/meaningful96/CoopRAG)  
+**领域**: 检索增强生成与问答  
 **关键词**: RAG, 问题展开, 层对比排名, 多跳QA, 合作机制
 
 ## 一句话总结
@@ -15,6 +16,7 @@
 4. **二向增强**: 需要检索器和LLM相互反馈纠正的机制
 
 ## 方法详解
+
 ### 整体框架
 CoopRAG分为五个阶段：
 
@@ -62,6 +64,7 @@ LLM利用top-k文档，填充<UNCERTAIN>和<FILL>占位符，重构推理链
 高难度问题（更多子问题）获得更高损失权重
 
 ## 实验关键数据
+
 ### 检索性能 (表2 - 多跳QA)
 
 | 方法 | HotpotQA R@2 | MuSiQue R@2 | 2Wiki R@2 | 关键改进 |

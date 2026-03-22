@@ -1,9 +1,9 @@
 # DynamicGTR: Leveraging Graph Topology Representation Preferences to Boost VLM Capabilities on Graph QAs
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21864](https://arxiv.org/abs/2602.21864)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.21864](https://arxiv.org/abs/2602.21864)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 图问答, 图拓扑表示, VLM零样本推理, 动态路由, 准确率-简洁性权衡
 
 ## 一句话总结

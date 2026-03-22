@@ -1,8 +1,8 @@
 # Enhancing Automated Interpretability with Output-Centric Feature Descriptions
 
-**会议**: ACL 2025
-**arXiv**: [2501.08319](https://arxiv.org/abs/2501.08319)
-**领域**: LLM NLP
+**会议**: ACL 2025  
+**arXiv**: [2501.08319](https://arxiv.org/abs/2501.08319)  
+**领域**: LLM NLP  
 **关键词**: 自动可解释性, 特征描述, 输出中心方法, 稀疏自编码器, 模型转向
 
 ## 一句话总结

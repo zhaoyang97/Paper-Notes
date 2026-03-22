@@ -1,8 +1,9 @@
 # Are Language Models Efficient Reasoners? A Perspective from Logic Programming
-**会议**: NeurIPS 2025
-**arXiv**: [2510.25626](https://arxiv.org/abs/2510.25626)
-**代码**: https://github.com/rycolab/reasoning-efficiency
-**领域**: LLM推理能力评估
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.25626](https://arxiv.org/abs/2510.25626)  
+**代码**: https://github.com/rycolab/reasoning-efficiency  
+**领域**: LLM推理能力评估  
 **关键词**: 推理效率、逻辑论证、不相关信息、证明最优性
 
 ## 一句话总结

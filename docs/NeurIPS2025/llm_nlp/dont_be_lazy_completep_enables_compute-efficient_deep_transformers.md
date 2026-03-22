@@ -1,8 +1,9 @@
 # Don't Be Lazy: CompleteP Enables Compute-Efficient Deep Transformers
-**会议**: NeurIPS 2025
-**arXiv**: [2505.01618](https://arxiv.org/abs/2505.01618)
-**代码**: [https://github.com/EleutherAI/nanoGPT-mup/tree/completep](https://github.com/EleutherAI/nanoGPT-mup/tree/completep)
-**领域**: LLM 扩展律, 超参优化
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.01618](https://arxiv.org/abs/2505.01618)  
+**代码**: [https://github.com/EleutherAI/nanoGPT-mup/tree/completep](https://github.com/EleutherAI/nanoGPT-mup/tree/completep)  
+**领域**: LLM 扩展律, 超参优化  
 **关键词**: 参数化, 深度缩放, 超参转移, 计算效率, CompleteP, μP
 
 ## 一句话总结

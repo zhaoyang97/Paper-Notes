@@ -1,9 +1,9 @@
 # Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions
 
-**会议**: ACL 2025
-**arXiv**: [2408.02544](https://arxiv.org/abs/2408.02544)
-**代码**: https://github.com/xbmxb/EnvDistraction
-**领域**: LLM Agent / GUI Agent / 安全
+**会议**: ACL 2025  
+**arXiv**: [2408.02544](https://arxiv.org/abs/2408.02544)  
+**代码**: https://github.com/xbmxb/EnvDistraction  
+**领域**: LLM Agent / GUI Agent / 安全  
 **关键词**: GUI agent, environmental distraction, faithfulness, multimodal agent, robustness
 
 ## 一句话总结

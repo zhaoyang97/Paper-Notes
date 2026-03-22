@@ -1,9 +1,9 @@
 # Sketch-HARP: 分层自回归草图生成实现灵活笔画级绘制操控
 
-**会议**: AAAI 2026
-**arXiv**: [2511.07889](https://arxiv.org/abs/2511.07889)
-**代码**: [https://github.com/SCZang/Sketch-HARP](https://github.com/SCZang/Sketch-HARP)
-**领域**: 草图生成 / 图像生成
+**会议**: AAAI 2026  
+**arXiv**: [2511.07889](https://arxiv.org/abs/2511.07889)  
+**代码**: [https://github.com/SCZang/Sketch-HARP](https://github.com/SCZang/Sketch-HARP)  
+**领域**: 草图生成 / 图像生成  
 **关键词**: 草图生成, 分层自回归, 笔画级操控, Sketch-HARP, 草图编辑
 
 ## 一句话总结

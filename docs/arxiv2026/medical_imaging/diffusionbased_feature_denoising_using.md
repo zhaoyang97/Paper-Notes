@@ -9,11 +9,13 @@
 
 ## 一句话总结
 磁共振成像（也称为 MRI）的脑肿瘤分类在计算机辅助诊断系统中发挥着敏感的作用。
+
 ## 背景与动机
 Brain tumor classification from magnetic resonance imaging, which is also known as MRI, plays a sensitive role in computer-assisted diagnosis systems.. In recent years, deep learning models have achieved high classification accuracy.
 
 ## 核心问题
 然而，它们对对抗性扰动的敏感性已成为医疗应用中重要的可靠性问题。
+
 ## 方法详解
 
 ### 整体框架
@@ -41,6 +43,7 @@ Brain tumor classification from magnetic resonance imaging, which is also known 
 - 近年来，深度学习模型取得了很高的分类精度。
 - 为了提高对抗鲁棒性，引入了基于扩散的特征空间净化模块。
 - 实验结果表明，所提出的框架实现了有竞争力的分类性能，同时显着增强了对抗性扰动的鲁棒性。研究结果表明，将可解释的基于 NNMF 的表示与轻量级深度方法和基于扩散的防御技术相结合，为对抗性条件下的医学图像分类提供了有效且可靠的解决方案。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

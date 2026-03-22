@@ -9,11 +9,13 @@
 
 ## 一句话总结
 通过全方位感知来理解和重构3D世界是自主智能体和具身智能发展的必然趋势。
+
 ## 背景与动机
 Understanding and reconstructing the 3D world through omnidirectional perception is an inevitable trend in the development of autonomous agents and embodied intelligence.. However, existing 3D occupancy prediction methods are constrained by limited perspective inputs and predefined training distribution, making them difficult to apply to embodied agents that require comprehensive and safe perception of scenes in open world exploration.
 
 ## 核心问题
 然而，现有的 3D 占用预测方法受到有限的视角输入和预定义的训练分布的限制，使得它们难以应用于开放世界探索中需要全面且安全地感知场景的实体代理。
+
 ## 方法详解
 
 ### 整体框架
@@ -40,6 +42,7 @@ Understanding and reconstructing the 3D world through omnidirectional perception
 
 ## 亮点 / 我学到了什么
 - 对多个模型的大量实验表明，我们的方法不仅在 QuadOcc 和 Human360Occ 基准上实现了最先进的性能，而且还表现出卓越的跨场景泛化性和语义可扩展性，为通用 3D 世界建模铺平了道路。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

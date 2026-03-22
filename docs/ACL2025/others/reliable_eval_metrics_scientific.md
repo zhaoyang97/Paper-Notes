@@ -1,8 +1,8 @@
 # Identifying Reliable Evaluation Metrics for Scientific Text Revision
 
-**会议**: ACL 2025
-**arXiv**: [2506.04772](https://arxiv.org/abs/2506.04772)
-**领域**: LLM NLP
+**会议**: ACL 2025  
+**arXiv**: [2506.04772](https://arxiv.org/abs/2506.04772)  
+**领域**: LLM NLP  
 **关键词**: 文本修订, 评估指标, LLM-as-Judge, 科学写作, 人工评估
 
 ## 一句话总结

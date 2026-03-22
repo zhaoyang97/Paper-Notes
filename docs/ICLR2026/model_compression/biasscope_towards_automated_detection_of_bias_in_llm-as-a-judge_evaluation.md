@@ -1,9 +1,9 @@
 # BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.09383](https://arxiv.org/abs/2602.09383)
-**代码**: https://github.com (有，含代码和JudgeBench-Pro数据)
-**领域**: LLM评估 / LLM可靠性
+**会议**: ICLR 2026  
+**arXiv**: [2602.09383](https://arxiv.org/abs/2602.09383)  
+**代码**: https://github.com (有，含代码和JudgeBench-Pro数据)  
+**领域**: LLM评估 / LLM可靠性  
 **关键词**: LLM-as-a-Judge, 偏差发现, 评估鲁棒性, 自动化偏差挖掘, JudgeBench-Pro
 
 ## 一句话总结

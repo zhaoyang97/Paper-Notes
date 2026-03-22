@@ -1,9 +1,9 @@
 # SD-PSFNet: Sequential and Dynamic Point Spread Function Network for Image Deraining
 
-**会议**: AAAI 2026
-**arXiv**: [2511.17993](https://arxiv.org/abs/2511.17993)
-**代码**: [https://github.com/Aster-1024/SD-PSFNet](https://github.com/Aster-1024/SD-PSFNet)
-**领域**: 图像去雨 / 物理感知图像复原
+**会议**: AAAI 2026  
+**arXiv**: [2511.17993](https://arxiv.org/abs/2511.17993)  
+**代码**: [https://github.com/Aster-1024/SD-PSFNet](https://github.com/Aster-1024/SD-PSFNet)  
+**领域**: 图像去雨 / 物理感知图像复原  
 **关键词**: image deraining, point spread function, physics-aware, multi-stage restoration, dynamic filtering
 
 ## 一句话总结

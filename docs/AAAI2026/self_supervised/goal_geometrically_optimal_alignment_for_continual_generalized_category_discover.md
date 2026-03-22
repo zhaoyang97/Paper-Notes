@@ -1,9 +1,9 @@
 # GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery
 
-**会议**: AAAI 2026
-**arXiv**: [2602.19872](https://arxiv.org/abs/2602.19872)
-**代码**: 无
-**领域**: 对齐RLHF / 持续学习
+**会议**: AAAI 2026  
+**arXiv**: [2602.19872](https://arxiv.org/abs/2602.19872)  
+**代码**: 无  
+**领域**: 对齐RLHF / 持续学习  
 **关键词**: continual generalized category discovery, Neural Collapse, ETF classifier, forgetting mitigation, confidence-guided alignment
 
 ## 一句话总结

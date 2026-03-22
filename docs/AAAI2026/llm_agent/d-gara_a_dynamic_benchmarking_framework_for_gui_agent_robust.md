@@ -1,9 +1,9 @@
 # D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies
 
-**会议**: AAAI 2026
-**arXiv**: [2511.16590](https://arxiv.org/abs/2511.16590)
-**代码**: [sen0609/D-GARA](https://github.com/sen0609/D-GARA)
-**领域**: Agent / LLM
+**会议**: AAAI 2026  
+**arXiv**: [2511.16590](https://arxiv.org/abs/2511.16590)  
+**代码**: [sen0609/D-GARA](https://github.com/sen0609/D-GARA)  
+**领域**: Agent / LLM  
 **关键词**: GUI Agent, 鲁棒性评估, 动态benchmark, 异常注入, Android, 中断处理
 
 ## 一句话总结

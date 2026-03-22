@@ -1,9 +1,9 @@
 # Bases of Steerable Kernels for Equivariant CNNs: From 2D Rotations to the Lorentz Group
 
-**会议**: CVPR 2025
-**arXiv**: [2603.12459](https://arxiv.org/abs/2603.12459)
-**代码**: 无
-**领域**: 3D视觉 (注：本文应归入等变网络/几何深度学习方向，被误分类到 llm_alignment)
+**会议**: CVPR 2025  
+**arXiv**: [2603.12459](https://arxiv.org/abs/2603.12459)  
+**代码**: 无  
+**领域**: 3D视觉 (注：本文应归入等变网络/几何深度学习方向，被误分类到 llm_alignment)  
 **关键词**: 等变CNN, 可转向核, 群表示论, Clebsch-Gordan系数, SO(2), SO(3), Lorentz群
 
 ## 一句话总结

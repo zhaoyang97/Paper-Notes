@@ -1,9 +1,9 @@
 # Beyond Text Compression: Evaluating Tokenizers Across Scales
 
-**会议**: ACL 2025
-**arXiv**: [2506.03101](https://arxiv.org/abs/2506.03101)
-**代码**: 无
-**领域**: LLM效率 / 模型压缩 / Tokenizer评估
+**会议**: ACL 2025  
+**arXiv**: [2506.03101](https://arxiv.org/abs/2506.03101)  
+**代码**: 无  
+**领域**: LLM效率 / 模型压缩 / Tokenizer评估  
 **关键词**: tokenizer evaluation, scaling consistency, Zipf's law, multilingual, text compression
 
 ## 一句话总结

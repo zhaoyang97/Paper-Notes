@@ -1,9 +1,9 @@
 # Shuffle-R1: Efficient RL Framework for Multimodal Large Language Models via Data-centric Dynamic Shuffle
 
-**会议**: ICLR 2026
-**arXiv**: [2508.05612](https://arxiv.org/abs/2508.05612)
-**代码**: https://xenozlh.github.io/Shuffle-R1
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2508.05612](https://arxiv.org/abs/2508.05612)  
+**代码**: https://xenozlh.github.io/Shuffle-R1  
+**领域**: 多模态VLM  
 **关键词**: 强化学习, 多模态推理, 数据中心优化, 轨迹采样, GRPO
 
 ## 一句话总结

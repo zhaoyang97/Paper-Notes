@@ -9,11 +9,13 @@
 
 ## 一句话总结
 参考图像分割旨在为由自然语言表达描述的图像区域产生像素级掩模。
+
 ## 背景与动机
 Referring image segmentation aims to produce a pixel-level mask for the image region described by a natural-language expression.. Although pretrained vision-language models have improved semantic grounding, many existing methods still rely on uniform refinement strategies that do not fully match the diverse reasoning requirements of referring expressions.
 
 ## 核心问题
 为了解决这些限制，我们提出了 SERA，一种用于参考图像分割的空间语义专家路由架构。
+
 ## 方法详解
 
 ### 整体框架
@@ -42,6 +44,7 @@ Referring image segmentation aims to produce a pixel-level mask for the image re
 - 尽管预训练的视觉语言模型已经改进了语义基础，但许多现有方法仍然依赖于统一的细化策略，而这些策略并不完全满足指称表达的多样化推理要求。
 - 首先，我们设计了 SERA-Adapter，它将表达条件适配器插入到选定的主干块中，通过专家指导的细化和跨模式注意来提高空间一致性和边界精度。
 - 标准参考图像分割基准的实验表明，SERA 始终优于强基线，在需要精确空间定位和精确边界描绘的表达方面尤其明显。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

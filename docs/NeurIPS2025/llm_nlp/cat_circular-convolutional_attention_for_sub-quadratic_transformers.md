@@ -1,8 +1,9 @@
 # CAT: Circular-Convolutional Attention for Sub-Quadratic Transformers
-**会议**: NeurIPS 2025
-**arXiv**: [2504.06704](https://arxiv.org/abs/2504.06704)
-**代码**: 无
-**领域**: Transformer效率优化
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.06704](https://arxiv.org/abs/2504.06704)  
+**代码**: 无  
+**领域**: Transformer效率优化  
 **关键词**: 循环卷积、FFT加速、Self-Attention、复杂度优化
 
 ## 一句话总结

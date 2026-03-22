@@ -1,9 +1,9 @@
 # Preference Leakage: A Contamination Problem in LLM-as-a-judge
 
-**会议**: ICLR2026
-**arXiv**: [2502.01534](https://arxiv.org/abs/2502.01534)
-**代码**: [David-Li0406/Preference-Leakage](https://github.com/David-Li0406/Preference-Leakage)
-**领域**: llm_nlp
+**会议**: ICLR2026  
+**arXiv**: [2502.01534](https://arxiv.org/abs/2502.01534)  
+**代码**: [David-Li0406/Preference-Leakage](https://github.com/David-Li0406/Preference-Leakage)  
+**领域**: llm_nlp  
 **关键词**: LLM-as-a-Judge, 偏好泄漏, 数据污染, 评估偏差, 合成数据
 
 ## 一句话总结

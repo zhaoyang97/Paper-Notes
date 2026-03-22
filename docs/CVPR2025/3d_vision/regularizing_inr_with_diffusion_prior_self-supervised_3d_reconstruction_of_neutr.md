@@ -1,9 +1,9 @@
 # Regularizing INR with Diffusion Prior for Self-Supervised 3D Reconstruction of Neutron CT Data
 
-**会议**: CVPR 2025
-**arXiv**: [2603.10947](https://arxiv.org/abs/2603.10947)
-**代码**: 待公开
-**领域**: 3D视觉 / CT重建
+**会议**: CVPR 2025  
+**arXiv**: [2603.10947](https://arxiv.org/abs/2603.10947)  
+**代码**: 待公开  
+**领域**: 3D视觉 / CT重建  
 **关键词**: 隐式神经表示, 扩散先验, 中子CT, 稀疏视角重建, 自监督3D重建
 
 ## 一句话总结

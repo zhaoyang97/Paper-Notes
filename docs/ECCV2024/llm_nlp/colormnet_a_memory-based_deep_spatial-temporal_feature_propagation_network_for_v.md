@@ -1,9 +1,9 @@
 # ColorMNet: A Memory-based Deep Spatial-Temporal Feature Propagation Network for Video Colorization
 
-**会议**: ECCV 2024
-**arXiv**: [2404.06251](https://arxiv.org/abs/2404.06251)
-**代码**: [GitHub](https://github.com/yyang181/colormnet)
-**领域**: LLM/NLP
+**会议**: ECCV 2024  
+**arXiv**: [2404.06251](https://arxiv.org/abs/2404.06251)  
+**代码**: [GitHub](https://github.com/yyang181/colormnet)  
+**领域**: LLM/NLP  
 **关键词**: video colorization, memory-based feature propagation, DINOv2, temporal consistency, exemplar-based
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Beyond Frameworks: Unpacking Collaboration Strategies in Multi-Agent Systems
 
-**会议**: ACL 2025
-**arXiv**: [2505.12467](https://arxiv.org/abs/2505.12467)
-**代码**: 无
-**领域**: LLM Agent / 多智能体协作
+**会议**: ACL 2025  
+**arXiv**: [2505.12467](https://arxiv.org/abs/2505.12467)  
+**代码**: 无  
+**领域**: LLM Agent / 多智能体协作  
 **关键词**: multi-agent collaboration, governance, interaction patterns, context management, LLM agents
 
 ## 一句话总结

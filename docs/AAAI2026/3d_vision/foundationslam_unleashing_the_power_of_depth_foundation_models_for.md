@@ -1,9 +1,9 @@
 # FoundationSLAM: 释放深度基础模型在端到端稠密视觉SLAM中的潜力
 
-**会议**: AAAI 2026 (Oral)
-**arXiv**: [2512.25008v2](https://arxiv.org/abs/2512.25008v2)
-**代码**: 暂无
-**领域**: 3D视觉 / SLAM
+**会议**: AAAI 2026 (Oral)  
+**arXiv**: [2512.25008v2](https://arxiv.org/abs/2512.25008v2)  
+**代码**: 暂无  
+**领域**: 3D视觉 / SLAM  
 **关键词**: 单目SLAM, 深度基础模型, 光流估计, Bundle Adjustment, 几何一致性
 
 ## 一句话总结

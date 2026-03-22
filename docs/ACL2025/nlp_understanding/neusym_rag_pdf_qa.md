@@ -1,9 +1,9 @@
 # NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering
 
-**会议**: ACL 2025
-**arXiv**: [2505.19754](https://arxiv.org/abs/2505.19754)
-**代码**: https://github.com/X-LANCE/NeuSym-RAG
-**领域**: LLM Agent / RAG
+**会议**: ACL 2025  
+**arXiv**: [2505.19754](https://arxiv.org/abs/2505.19754)  
+**代码**: https://github.com/X-LANCE/NeuSym-RAG  
+**领域**: LLM Agent / RAG  
 **关键词**: RAG, PDF QA, neural-symbolic retrieval, text-to-SQL, multiview chunking
 
 ## 一句话总结

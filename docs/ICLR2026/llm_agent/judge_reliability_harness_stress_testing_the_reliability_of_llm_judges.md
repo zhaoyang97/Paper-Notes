@@ -1,9 +1,9 @@
 # Judge Reliability Harness: Stress Testing the Reliability of LLM Judges
 
-**会议**: ICLR 2026
-**arXiv**: [2603.05399](https://arxiv.org/abs/2603.05399)
-**代码**: https://github.com/RANDCorporation/judge-reliability-harness
-**领域**: AI Safety / LLM 评估
+**会议**: ICLR 2026  
+**arXiv**: [2603.05399](https://arxiv.org/abs/2603.05399)  
+**代码**: https://github.com/RANDCorporation/judge-reliability-harness  
+**领域**: AI Safety / LLM 评估  
 **关键词**: LLM-as-judge, reliability testing, perturbation robustness, agentic evaluation, benchmark
 
 ## 一句话总结

@@ -9,11 +9,13 @@
 
 ## 一句话总结
 现代基础模型提供了高度表现力的视觉表示，但由于注释有限和监督薄弱，使其适应高分辨率医学成像仍然具有挑战性。
+
 ## 背景与动机
 Modern foundation models provide highly expressive visual representations, yet adapting them to high-resolution medical imaging remains challenging due to limited annotations and weak supervision.. Mammography, in particular, is characterized by large images, variable multi-view studies and predominantly breast-level labels, making end-to-end fine-tuning computationally expensive and often impractical.
 
 ## 核心问题
 现代基础模型提供了高度表现力的视觉表示，但由于注释有限和监督薄弱，使其适应高分辨率医学成像仍然具有挑战性。
+
 ## 方法详解
 
 ### 整体框架
@@ -39,6 +41,7 @@ Modern foundation models provide highly expressive visual representations, yet a
 ## 亮点 / 我学到了什么
 - 通过预先计算语义表示并仅训练一个小型特定于任务的聚合模块（40k 参数），该方法可以实现高效的实验和适应，而无需重新训练大型骨干网。
 - MIL-PF 在临床规模上实现了最先进的分类性能，同时大大降低了训练复杂性。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

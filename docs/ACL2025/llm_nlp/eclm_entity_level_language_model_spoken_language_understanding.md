@@ -1,8 +1,8 @@
 # ECLM: Entity Level Language Model for Spoken Language Understanding with Chain of Intent
 
-**会议**: ACL 2025
-**arXiv**: [2403.04481](https://arxiv.org/abs/2403.04481)
-**领域**: LLM / Spoken Language Understanding
+**会议**: ACL 2025  
+**arXiv**: [2403.04481](https://arxiv.org/abs/2403.04481)  
+**领域**: LLM / Spoken Language Understanding  
 **关键词**: 多意图口语理解, 实体级槽填充, 意图链, 大语言模型, 对话系统
 
 ## 一句话总结

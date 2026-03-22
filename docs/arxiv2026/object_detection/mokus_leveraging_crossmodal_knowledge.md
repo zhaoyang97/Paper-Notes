@@ -9,11 +9,13 @@
 
 ## 一句话总结
 概念定制通常将稀有标记绑定到目标概念。
+
 ## 背景与动机
 Concept customization typically binds rare tokens to a target concept.. Unfortunately, these approaches often suffer from unstable performance as the pretraining data seldom contains these rare tokens.
 
 ## 核心问题
 概念定制通常将稀有标记绑定到目标概念。不幸的是，这些方法通常会遇到性能不稳定的问题，因为预训练数据很少包含这些稀有标记。
+
 ## 方法详解
 
 ### 整体框架
@@ -41,6 +43,7 @@ Concept customization typically binds rare tokens to a target concept.. Unfortun
 - 为了进一步全面评估我们在新任务上提出的 MoKus，我们引入了第一个知识感知概念定制基准：KnowCusBench。
 - 广泛的评估表明 MoKus 的性能优于最先进的方法。
 - 我们还展示了我们的方法实现世界知识基准改进的能力。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

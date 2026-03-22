@@ -1,9 +1,9 @@
 # UniCode: Learning a Unified Codebook for Multimodal Large Language Models
 
-**会议**: ECCV 2024
-**arXiv**: [2403.09072](https://arxiv.org/abs/2403.09072)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2403.09072](https://arxiv.org/abs/2403.09072)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 统一码本, 视觉量化, 多模态生成, 向量量化, 图像生成
 
 ## 一句话总结

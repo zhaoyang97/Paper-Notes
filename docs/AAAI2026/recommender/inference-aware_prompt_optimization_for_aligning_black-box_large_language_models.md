@@ -19,6 +19,7 @@
 6. **核心idea一句话**：推理感知的 prompt 优化——让训练阶段模拟推理策略（BoN/MV）的非线性聚合效应，从而选出在实际部署配置下最优的 prompt-规模组合。
 
 ## 方法详解
+
 ### 整体框架
 IAPO（Inference-Aware Prompt Optimization）框架定义臂 $a = (p, N) \in \mathcal{A} = \mathcal{P} \times [N_{\max}]$，上下文 $c = (w_1, \dots, w_{K+1})$ 编码多目标权重和预算偏好。策略 $\pi: \mathcal{C} \to \mathcal{A}$ 在观测上下文后选择最优臂。优化目标为最大化 Average Contextual Return $\text{ACR}(\pi) = \mathbb{E}_{c}[Q^\alpha(c, \pi(c))]$，其中 $Q^\alpha$ 是在推理策略 $\alpha \in \{\text{BoN}, \text{MV}\}$ 下的期望回报。
 

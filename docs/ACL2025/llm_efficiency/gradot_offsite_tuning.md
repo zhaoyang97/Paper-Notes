@@ -1,8 +1,8 @@
 # GradOT: Training-free Gradient-preserving Offsite-tuning for Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2507.04455](https://arxiv.org/abs/2507.04455)
-**领域**: LLM 效率
+**会议**: ACL 2025  
+**arXiv**: [2507.04455](https://arxiv.org/abs/2507.04455)  
+**领域**: LLM 效率  
 **关键词**: Offsite-tuning, 梯度保持压缩, 隐私保护, 模型压缩, 免训练方法
 
 ## 一句话总结

@@ -8,7 +8,7 @@
 | 领域 | 篇数 |
 |:-----|-----:|
 | 💡 [LLM 推理](#llm_reasoning) | 59 |
-| 👁️ [多模态 VLM](#multimodal_vlm) | 44 |
+| 🧩 [多模态 VLM](#multimodal_vlm) | 44 |
 | 🎨 [图像生成](#image_generation) | 39 |
 | 🎮 [强化学习](#reinforcement_learning) | 36 |
 | 💬 [LLM / NLP](#llm_nlp) | 32 |
@@ -285,7 +285,7 @@
 
 ---
 
-## 👁️ 多模态 VLM { #multimodal_vlm }
+## 🧩 多模态 VLM { #multimodal_vlm }
 
 **[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](multimodal_vlm/a_frustratingly_simple_yet_highly_effective_attack_baseline.md)**
 

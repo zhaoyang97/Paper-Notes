@@ -19,6 +19,7 @@
 - 已有方法（Landmark Attention、DCA）在外推超过 32× 训练长度后困难度骤增；GCA 虽可外推至 16M 但每 64 token 才检索一次，灵活性不足
 
 ## 方法详解
+
 ### 整体架构（RAMba）
 - 基于 Mamba-2，分为上下两个 decoder（各 L/2 层），中间共享一个 chunk selection 层
 - 下层 decoder 输出被分成大小为 S 的 chunk，经双向 Transformer encoder 编码为 chunk memory

@@ -1,9 +1,9 @@
 # R2D2: Remembering, Replaying and Dynamic Decision Making with a Reflective Agentic Memory
 
-**会议**: ACL 2025
-**arXiv**: [2501.12485](https://arxiv.org/abs/2501.12485)
-**代码**: 无
-**领域**: LLM Agent / Web Agent
+**会议**: ACL 2025  
+**arXiv**: [2501.12485](https://arxiv.org/abs/2501.12485)  
+**代码**: 无  
+**领域**: LLM Agent / Web Agent  
 **关键词**: web agent, replay buffer, reflective memory, A* search, WebArena, known MDP
 
 ## 一句话总结

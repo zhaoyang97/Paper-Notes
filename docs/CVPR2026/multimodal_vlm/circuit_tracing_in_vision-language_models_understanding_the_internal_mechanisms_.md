@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking
 
-**会议**: CVPR2026
-**arXiv**: [2602.20330](https://arxiv.org/abs/2602.20330)
-**代码**: [github.com/UIUC-MONET/vlm-circuit-tracing](https://github.com/UIUC-MONET/vlm-circuit-tracing)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2602.20330](https://arxiv.org/abs/2602.20330)  
+**代码**: [github.com/UIUC-MONET/vlm-circuit-tracing](https://github.com/UIUC-MONET/vlm-circuit-tracing)  
+**领域**: 多模态VLM  
 **关键词**: 可解释性, 电路追踪, VLM内部机制, transcoder, 归因图, 特征操纵
 
 ## 一句话总结

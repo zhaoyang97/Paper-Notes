@@ -1,8 +1,8 @@
 # Plug-in and Fine-tuning: Bridging the Gap between Small Language Models and Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2506.07424](https://arxiv.org/abs/2506.07424)
-**领域**: LLM 效率
+**会议**: ACL 2025  
+**arXiv**: [2506.07424](https://arxiv.org/abs/2506.07424)  
+**领域**: LLM 效率  
 **关键词**: 知识蒸馏, 小语言模型, 大语言模型, 层插入, 参数高效微调
 
 ## 一句话总结

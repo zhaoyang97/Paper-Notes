@@ -1,9 +1,9 @@
 # Ewe: Improving Factuality with Explicit Working Memory
 
-**会议**: ACL 2025
-**arXiv**: [2412.18069](https://arxiv.org/abs/2412.18069)
-**代码**: 无（Meta FAIR）
-**领域**: 其他
+**会议**: ACL 2025  
+**arXiv**: [2412.18069](https://arxiv.org/abs/2412.18069)  
+**代码**: 无（Meta FAIR）  
+**领域**: 其他  
 **关键词**: factuality, working memory, RAG, fact-checking, hallucination, KV cache
 
 ## 一句话总结

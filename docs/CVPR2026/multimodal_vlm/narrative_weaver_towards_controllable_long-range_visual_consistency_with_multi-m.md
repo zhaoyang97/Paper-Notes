@@ -1,9 +1,9 @@
 # Narrative Weaver: Towards Controllable Long-Range Visual Consistency with Multi-Modal Conditioning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.06688](https://arxiv.org/abs/2603.06688)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.06688](https://arxiv.org/abs/2603.06688)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 长程视觉一致性, 叙事生成, AR+Diffusion, Memory Bank, 电商广告
 
 ## 一句话总结

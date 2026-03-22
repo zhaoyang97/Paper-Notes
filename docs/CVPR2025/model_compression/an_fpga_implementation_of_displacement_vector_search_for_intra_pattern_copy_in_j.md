@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # An FPGA Implementation of Displacement Vector Search for Intra Pattern Copy in JPEG XS
 
-**会议**: CVPR 2025
-**arXiv**: [2603.10671](https://arxiv.org/abs/2603.10671)
-**代码**: 待确认
-**领域**: 模型压缩 / 硬件加速 / 视频编码
+**会议**: CVPR 2025  
+**arXiv**: [2603.10671](https://arxiv.org/abs/2603.10671)  
+**代码**: 待确认  
+**领域**: 模型压缩 / 硬件加速 / 视频编码  
 **关键词**: FPGA实现, JPEG XS, 帧内模式复制, 位移向量搜索, 硬件加速
 
 ## 一句话总结

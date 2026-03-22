@@ -9,11 +9,13 @@
 
 ## 一句话总结
 实时屋顶风速分布对于无人机和城市空中交通系统、风控系统和屋顶利用的安全运行具有重要意义。
+
 ## 背景与动机
 Real-time rooftop wind-speed distribution is important for the safe operation of drones and urban air mobility systems, wind control systems, and rooftop utilization.. However, rooftop flows show strong nonlinearity, separation, and cross-direction variability, which make flow field reconstruction from sparse sensors difficult.
 
 ## 核心问题
 然而，屋顶流表现出很强的非线性、分离性和横向变化性，这使得稀疏传感器的流场重建变得困难。
+
 ## 方法详解
 
 ### 整体框架
@@ -37,6 +39,7 @@ Real-time rooftop wind-speed distribution is important for the safe operation of
 - 本研究使用粒子图像测速 (PIV) 获得的风洞实验数据开发了一个从观察中学习的框架，并将克里金插值与三种深度学习模型进行了比较：UNet、视觉变换器自动编码器 (ViTAE) 和条件 Wasserstein GAN (CWGAN)。
 - 与Kriging插值相比，深度学习模型将SSIM提高了32.7%，FAC2提高了24.2%，NMSE提高了27.8%。
 - 混合风向训练进一步提高了性能，与单向训练相比，SSIM 提升高达 173.7%，FAC2 提升 16.7%，MG 提升 98.3%。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

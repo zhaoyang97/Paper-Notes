@@ -1,9 +1,9 @@
 # NeuroGaze-Distill: Brain-informed Distillation and Depression-Inspired Geometric Priors for Robust Facial Emotion Recognition
 
-**会议**: ICLR 2026
-**arXiv**: [2509.11916](https://arxiv.org/abs/2509.11916)
-**代码**: [GitHub](https://github.com/Lixeeone/NeuroGaze-Distill) (最小复现仓库)
-**领域**: 模型压缩 / 知识蒸馏 / 表情识别
+**会议**: ICLR 2026  
+**arXiv**: [2509.11916](https://arxiv.org/abs/2509.11916)  
+**代码**: [GitHub](https://github.com/Lixeeone/NeuroGaze-Distill) (最小复现仓库)  
+**领域**: 模型压缩 / 知识蒸馏 / 表情识别  
 **关键词**: facial emotion recognition, knowledge distillation, EEG prototypes, depression-inspired prior, cross-dataset robustness
 
 ## 一句话总结

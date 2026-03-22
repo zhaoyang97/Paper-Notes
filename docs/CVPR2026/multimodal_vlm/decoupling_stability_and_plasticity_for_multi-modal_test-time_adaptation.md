@@ -1,9 +1,9 @@
 # Decoupling Stability and Plasticity for Multi-Modal Test-Time Adaptation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00574](https://arxiv.org/abs/2603.00574)
-**代码**: [GitHub](https://github.com/he4cs/DASP)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.00574](https://arxiv.org/abs/2603.00574)  
+**代码**: [GitHub](https://github.com/he4cs/DASP)  
+**领域**: 多模态VLM  
 **关键词**: 多模态测试时适应, 稳定性-可塑性解耦, 冗余度评分, 非对称适应, 灾难性遗忘
 
 ## 一句话总结

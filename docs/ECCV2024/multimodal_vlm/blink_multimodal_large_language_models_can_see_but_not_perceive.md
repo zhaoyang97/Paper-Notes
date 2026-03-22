@@ -1,9 +1,9 @@
 # BLINK: Multimodal Large Language Models Can See but Not Perceive
 
-**会议**: ECCV 2024
-**arXiv**: [2404.12390](https://arxiv.org/abs/2404.12390)
-**代码**: [GitHub](https://github.com/zeyofu/BLINK_Benchmark)
-**领域**: 多模态VLM
+**会议**: ECCV 2024  
+**arXiv**: [2404.12390](https://arxiv.org/abs/2404.12390)  
+**代码**: [GitHub](https://github.com/zeyofu/BLINK_Benchmark)  
+**领域**: 多模态VLM  
 **关键词**: 多模态评测基准, 视觉感知, 经典CV任务, 视觉提示, 感知vs识别
 
 ## 一句话总结

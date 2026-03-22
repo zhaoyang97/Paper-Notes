@@ -1,8 +1,9 @@
 # HyGen: Efficient LLM Serving via Elastic Online-Offline Request Co-location
-**会议**: NeurIPS 2025
-**arXiv**: [2501.14808](https://arxiv.org/abs/2501.14808)
-**代码**: https://github.com/UIUC-MLSys/HyGen
-**领域**: LLM推理系统、资源调度
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2501.14808](https://arxiv.org/abs/2501.14808)  
+**代码**: https://github.com/UIUC-MLSys/HyGen  
+**领域**: LLM推理系统、资源调度  
 **关键词**: 在线-离线共置、延迟预测、SLO保证、吞吐优化
 
 ## 一句话总结

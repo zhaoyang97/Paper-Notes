@@ -9,11 +9,13 @@
 
 ## 一句话总结
 尽管扩散模型在多模态磁共振成像（MRI）翻译任务中取得了显着进展，但现有方法在处理任意模态缺失场景时仍然容易出现解剖学不一致或纹理细节退化的问题。
+
 ## 背景与动机
 Although diffusion models have achieved remarkable progress in multi-modal magnetic resonance imaging (MRI) translation tasks, existing methods still tend to suffer from anatomical inconsistencies or degraded texture details when handling arbitrary missing-modality scenarios.. To address these issues, we propose a latent diffusion-based multi-modal MRI translation framework, termed MSG-LDM.
 
 ## 核心问题
 为了解决这些问题，我们提出了一种基于潜在扩散的多模态 MRI 翻译框架，称为 MSG-LDM。
+
 ## 方法详解
 
 ### 整体框架
@@ -40,6 +42,7 @@ Although diffusion models have achieved remarkable progress in multi-modal magne
 - 尽管扩散模型在多模态磁共振成像（MRI）翻译任务中取得了显着进展，但现有方法在处理任意模态缺失场景时仍然容易出现解剖学不一致或纹理细节退化的问题。
 - 此外，为了减少特定模态样式的干扰并提高结构表示的稳定性，我们设计了样式一致性损失和结构感知损失。
 - 在 BraTS2020 和 WMH 数据集上进行的大量实验表明，所提出的方法优于现有的 MRI 合成方法，特别是在重建完整结构方面。
+
 ## 局限性 / 可改进方向
 - 待深读后补充
 

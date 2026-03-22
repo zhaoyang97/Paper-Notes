@@ -1,9 +1,9 @@
 # Regret-Guided Search Control for Efficient Learning in AlphaZero
 
-**会议**: ICLR 2026
-**arXiv**: [2602.20809](https://arxiv.org/abs/2602.20809)
-**代码**: [Project Page](https://rlg.iis.sinica.edu.tw/papers/rgsc)
-**领域**: human_understanding / 强化学习与博弈
+**会议**: ICLR 2026  
+**arXiv**: [2602.20809](https://arxiv.org/abs/2602.20809)  
+**代码**: [Project Page](https://rlg.iis.sinica.edu.tw/papers/rgsc)  
+**领域**: human_understanding / 强化学习与博弈  
 **关键词**: AlphaZero, search control, regret network, MCTS, board games
 
 ## 一句话总结

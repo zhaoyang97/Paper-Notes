@@ -1,9 +1,9 @@
 # Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval
 
-**会议**: ICLR 2026
-**arXiv**: [2602.10847](https://arxiv.org/abs/2602.10847)
-**代码**: https://github.com/macovaseas/GTR
-**领域**: 视频理解 / 时间序列预测
+**会议**: ICLR 2026  
+**arXiv**: [2602.10847](https://arxiv.org/abs/2602.10847)  
+**代码**: https://github.com/macovaseas/GTR  
+**领域**: 视频理解 / 时间序列预测  
 **关键词**: 时间序列预测, 全局周期性, 检索增强, 即插即用模块, 2D卷积
 
 ## 一句话总结

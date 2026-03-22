@@ -1,9 +1,9 @@
 # Mostly Text, Smart Visuals: Asymmetric Text-Visual Pruning for Large Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.16001](https://arxiv.org/abs/2603.16001)
-**代码**: https://github.com/LezJ/ATV-Pruning
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.16001](https://arxiv.org/abs/2603.16001)  
+**代码**: https://github.com/LezJ/ATV-Pruning  
+**领域**: 多模态VLM  
 **关键词**: 权重剪枝, LVLM, 模态不对称, 校准策略, 稀疏化
 
 ## 一句话总结

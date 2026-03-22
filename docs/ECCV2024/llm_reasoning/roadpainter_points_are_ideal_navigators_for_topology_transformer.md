@@ -1,9 +1,9 @@
 # RoadPainter: Points Are Ideal Navigators for Topology Transformer
 
-**会议**: ECCV 2024
-**arXiv**: [2407.15349](https://arxiv.org/abs/2407.15349)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: ECCV 2024  
+**arXiv**: [2407.15349](https://arxiv.org/abs/2407.15349)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 拓扑推理, 车道中心线检测, BEV感知, 实例分割, SD地图
 
 ## 一句话总结

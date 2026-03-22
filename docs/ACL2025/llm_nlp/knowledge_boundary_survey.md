@@ -1,8 +1,8 @@
 # Knowledge Boundary of Large Language Models: A Survey
 
-**会议**: ACL 2025
-**arXiv**: [2412.12472](https://arxiv.org/abs/2412.12472)
-**领域**: LLM NLP
+**会议**: ACL 2025  
+**arXiv**: [2412.12472](https://arxiv.org/abs/2412.12472)  
+**领域**: LLM NLP  
 **关键词**: 知识边界, 幻觉, 不确定性估计, 校准, 知识分类
 
 ## 一句话总结

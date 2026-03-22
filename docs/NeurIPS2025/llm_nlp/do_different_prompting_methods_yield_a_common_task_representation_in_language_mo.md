@@ -1,8 +1,9 @@
 # Do Different Prompting Methods Yield a Common Task Representation in Language Models?
-**会议**: NeurIPS 2025
-**arXiv**: [2505.12075](https://arxiv.org/abs/2505.12075)
-**代码**: https://github.com/...
-**领域**: ICL机制与Task表示
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.12075](https://arxiv.org/abs/2505.12075)  
+**代码**: https://github.com/...  
+**领域**: ICL机制与Task表示  
 **关键词**: Function Vectors、上下文学习、指令跟随、任务表示
 
 ## 一句话总结

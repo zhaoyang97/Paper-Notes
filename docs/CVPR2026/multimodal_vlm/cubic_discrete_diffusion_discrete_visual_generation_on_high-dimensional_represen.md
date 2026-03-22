@@ -1,9 +1,9 @@
 # Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens
 
-**会议**: CVPR 2026
-**arXiv**: [2603.19232](https://arxiv.org/abs/2603.19232)
-**代码**: [GitHub](https://github.com/YuqingWang1029/CubiD)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.19232](https://arxiv.org/abs/2603.19232)  
+**代码**: [GitHub](https://github.com/YuqingWang1029/CubiD)  
+**领域**: 多模态VLM  
 **关键词**: 离散扩散模型, 高维表征token, 视觉生成, 维度级量化, 统一多模态
 
 ## 一句话总结

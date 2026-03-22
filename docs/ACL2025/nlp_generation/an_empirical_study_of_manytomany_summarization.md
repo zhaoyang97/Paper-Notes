@@ -19,6 +19,7 @@
 6. **核心idea一句话**: 通过47.8K多域多语样本全面揭示LLM在M2MS中的优势（指令微调超越GPT-4）和短板（事实性问题加剧）。
 
 ## 方法详解
+
 ### 整体框架
 1) 从8个数据集整合M2MS样本，覆盖5域（新闻/百科/对话/指南/技术）6语（En/Cs/De/Fr/Zh/Uk）；2) 零样本评测18个LLM，精心设计prompt包含task instruction和in-context examples；3) 对开源LLM进行指令微调（19.5K训练样本）；4) 细粒度人工评估事实性。关注多实验范式的全面对比。
 
@@ -33,6 +34,7 @@
 - 评估指标：ROUGE-1/2/L、BERTScore、GPT-4o打分（简洁性/连贯性/相关性 5分制）
 
 ## 实验关键数据
+
 ### 主实验（零样本LLM vs 微调传统模型，Overall R1/RL/BS）
 
 | 模型 | Overall R1/RL/BS |

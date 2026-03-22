@@ -1,9 +1,9 @@
 # Agent3D-Zero: An Agent for Zero-shot 3D Understanding
 
-**会议**: ECCV 2024
-**arXiv**: [2403.11835](https://arxiv.org/abs/2403.11835)
-**代码**: 无
-**领域**: LLM Agent / 3D Scene Understanding
+**会议**: ECCV 2024  
+**arXiv**: [2403.11835](https://arxiv.org/abs/2403.11835)  
+**代码**: 无  
+**领域**: LLM Agent / 3D Scene Understanding  
 **关键词**: Zero-shot 3D Understanding, VLM Agent, Visual Prompting, Multi-view Reasoning, Set-of-Line Prompting
 
 ## 一句话总结

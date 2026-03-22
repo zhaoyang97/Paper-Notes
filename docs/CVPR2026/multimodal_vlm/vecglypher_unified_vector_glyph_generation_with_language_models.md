@@ -1,9 +1,9 @@
 # VecGlypher: Unified Vector Glyph Generation with Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21461](https://arxiv.org/abs/2602.21461)
-**代码**: https://xk-huang.github.io/VecGlypher
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.21461](https://arxiv.org/abs/2602.21461)  
+**代码**: https://xk-huang.github.io/VecGlypher  
+**领域**: 多模态VLM  
 **关键词**: 字体生成, 矢量图形, SVG, 多模态语言模型, 字体排印
 
 ## 一句话总结

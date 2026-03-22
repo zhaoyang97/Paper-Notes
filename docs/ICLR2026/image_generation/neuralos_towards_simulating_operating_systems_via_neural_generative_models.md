@@ -1,9 +1,9 @@
 # NeuralOS: Towards Simulating Operating Systems via Neural Generative Models
 
-**会议**: ICLR 2026
-**arXiv**: [2507.08800](https://arxiv.org/abs/2507.08800)
-**代码**: [neural-os.com](https://neural-os.com)
-**领域**: 图像生成 / 交互式世界模型
+**会议**: ICLR 2026  
+**arXiv**: [2507.08800](https://arxiv.org/abs/2507.08800)  
+**代码**: [neural-os.com](https://neural-os.com)  
+**领域**: 图像生成 / 交互式世界模型  
 **关键词**: operating system simulation, world model, diffusion rendering, GUI generation, interactive systems
 
 ## 一句话总结

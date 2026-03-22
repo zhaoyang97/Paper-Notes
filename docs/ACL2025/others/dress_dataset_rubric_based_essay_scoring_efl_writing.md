@@ -1,8 +1,8 @@
 # DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing
 
-**会议**: ACL 2025
-**arXiv**: [2402.16733](https://arxiv.org/abs/2402.16733)
-**领域**: 自动作文评分 / 教育NLP
+**会议**: ACL 2025  
+**arXiv**: [2402.16733](https://arxiv.org/abs/2402.16733)  
+**领域**: 自动作文评分 / 教育NLP  
 **关键词**: 自动作文评分, EFL写作教育, 评分量规, 数据增强, 基准数据集
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation
 
-**会议**: AAAI 2026
-**arXiv**: [2511.11692](https://arxiv.org/abs/2511.11692)
-**代码**: https://github.com/viridityzhu/AnchorDS
-**领域**: 3D视觉
+**会议**: AAAI 2026  
+**arXiv**: [2511.11692](https://arxiv.org/abs/2511.11692)  
+**代码**: https://github.com/viridityzhu/AnchorDS  
+**领域**: 3D视觉  
 **关键词**: Text-to-3D, Score Distillation Sampling, 扩散模型, 3DGS, 动态源分布, 语义一致性
 
 ## 一句话总结

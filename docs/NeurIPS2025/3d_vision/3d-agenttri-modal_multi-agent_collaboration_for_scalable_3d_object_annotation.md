@@ -1,9 +1,9 @@
 # 3D-Agent: Tri-Modal Multi-Agent Collaboration for Scalable 3D Object Annotation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2601.04404](https://arxiv.org/abs/2601.04404)
-**代码**: 待发布
-**领域**: 3D视觉 / 数据标注 / 多智能体系统
+**会议**: NeurIPS 2025  
+**arXiv**: [2601.04404](https://arxiv.org/abs/2601.04404)  
+**代码**: 待发布  
+**领域**: 3D视觉 / 数据标注 / 多智能体系统  
 **关键词**: 3D物体标注, 多智能体协作, VLM, Multi-Armed Bandit, 点云验证, 跨模态对齐
 
 ## 一句话总结

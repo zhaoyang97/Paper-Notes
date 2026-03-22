@@ -9,11 +9,13 @@
 
 ## 一句话总结
 当扩散模型将噪声转化为照片时，它实际上在做什么？
+
 ## 背景与动机
 What is a diffusion model actually doing when it turns noise into a photograph?. We show that the deterministic DDIM reverse chain operates as a Partitioned Iterated Function System (PIFS) and that this framework serves as a unified design language for denoising diffusion model schedules, architectures, and training objectives.
 
 ## 核心问题
 当扩散模型将噪声转化为照片时，它实际上在做什么？我们展示了确定性 DDIM 反向链作为分区迭代函数系统 (PIFS) 运行，并且该框架充当去噪扩散模型计划、架构和训练目标的统一设计语言。
+
 ## 方法详解
 
 ### 整体框架

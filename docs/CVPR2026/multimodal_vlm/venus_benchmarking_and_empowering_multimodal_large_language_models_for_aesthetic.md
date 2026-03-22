@@ -1,9 +1,9 @@
 # Venus: Benchmarking and Empowering Multimodal Large Language Models for Aesthetic Guidance and Cropping
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23980](https://arxiv.org/abs/2602.23980)
-**代码**: https://github.com/PKU-ICST-MIPL/Venus_CVPR2026
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2602.23980](https://arxiv.org/abs/2602.23980)  
+**代码**: https://github.com/PKU-ICST-MIPL/Venus_CVPR2026  
+**领域**: 多模态VLM  
 **关键词**: 美学指导, 图像裁剪, MLLM, 审美评估, CoT推理
 
 ## 一句话总结

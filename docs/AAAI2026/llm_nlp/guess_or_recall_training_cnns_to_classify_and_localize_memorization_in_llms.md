@@ -1,9 +1,9 @@
 # Guess or Recall? Training CNNs to Classify and Localize Memorization in LLMs
 
-**会议**: AAAI 2026
-**arXiv**: [2508.02573](https://arxiv.org/abs/2508.02573)
-**代码**: [https://github.com/orailix/cnn-4-llm-memo](https://github.com/orailix/cnn-4-llm-memo)
-**领域**: 对齐RLHF / AI安全
+**会议**: AAAI 2026  
+**arXiv**: [2508.02573](https://arxiv.org/abs/2508.02573)  
+**代码**: [https://github.com/orailix/cnn-4-llm-memo](https://github.com/orailix/cnn-4-llm-memo)  
+**领域**: 对齐RLHF / AI安全  
 **关键词**: memorization taxonomy, attention analysis, CNN classifier, LLM privacy, verbatim memorization
 
 ## 一句话总结

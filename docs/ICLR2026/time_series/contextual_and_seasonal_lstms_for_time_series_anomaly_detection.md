@@ -1,9 +1,9 @@
 # Contextual and Seasonal LSTMs for Time Series Anomaly Detection
 
-**会议**: ICLR 2026
-**arXiv**: [2602.09690](https://arxiv.org/abs/2602.09690)
-**代码**: https://github.com/NESA-Lab/Contextual-and-Seasonal-LSTMs-for-TSAD
-**领域**: AI Safety / 时间序列异常检测
+**会议**: ICLR 2026  
+**arXiv**: [2602.09690](https://arxiv.org/abs/2602.09690)  
+**代码**: https://github.com/NESA-Lab/Contextual-and-Seasonal-LSTMs-for-TSAD  
+**领域**: AI Safety / 时间序列异常检测  
 **关键词**: time series anomaly detection, LSTM, frequency domain, noise decomposition, univariate time series
 
 ## 一句话总结

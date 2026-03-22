@@ -1,8 +1,9 @@
 # FlowMoE: 分布式MoE训练的可扩展流水线调度框架
-**会议**: NeurIPS 2025
-**arXiv**: [2510.00207](https://arxiv.org/abs/2510.00207)
-**代码**: [GitHub](https://github.com/ZJU-CNLAB/FlowMoE)
-**领域**: LLM效率、分布式训练
+
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.00207](https://arxiv.org/abs/2510.00207)  
+**代码**: [GitHub](https://github.com/ZJU-CNLAB/FlowMoE)  
+**领域**: LLM效率、分布式训练  
 **关键词**: 流水线调度、MoE训练、通信-计算重叠、贝叶斯优化、多类型任务
 
 ## 一句话总结
@@ -17,6 +18,7 @@
 6. **从Table 1观察**: 发现MHA+all-reduce耗时占比高，但未被系统优化
 
 ## 方法详解
+
 ### 整体框架
 FlowMoE三层设计：(1)统一描述MHA/专家/A2A/all-reduce任务的依赖关系; (2)基于优先级的通信调度; (3)自动调参机制。在PyTorch/Tutel上实现，支持多种MoE配置无修改部署。
 

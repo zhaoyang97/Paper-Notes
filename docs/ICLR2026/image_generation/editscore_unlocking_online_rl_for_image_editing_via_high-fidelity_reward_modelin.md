@@ -18,6 +18,7 @@
 6. **核心idea一句话**：高保真的领域专用奖励模型是解锁图像编辑在线 RL 的关键。
 
 ## 方法详解
+
 ### 整体框架
 三大组件：(1) EditReward-Bench——系统评估奖励模型的基准；(2) EditScore——基于 Qwen2.5-VL 微调的专用奖励模型系列；(3) 基于 EditScore 的 Online RL 训练管线（Flow-GRPO）。
 
@@ -51,6 +52,7 @@
 - 推理时 reasoning-before-scoring 格式比直接打分提升 +0.038 准确率
 
 ## 实验关键数据
+
 ### 奖励模型评估（EditReward-Bench Overall Accuracy）
 
 | 模型 | PF | C | O |

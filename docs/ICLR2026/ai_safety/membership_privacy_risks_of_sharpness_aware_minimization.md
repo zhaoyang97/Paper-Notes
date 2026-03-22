@@ -18,6 +18,7 @@
 6. **核心idea一句话**：SAM 用泛化换隐私——其锐度正则化降低预测方差，使 MIA 攻击更容易区分成员和非成员。
 
 ## 方法详解
+
 ### 关键分析
 1. **经验攻击**：Direct threshold attacks（confidence/entropy）+ Shadow model attacks（LiRA/RMIA，256 shadow models）。
 2. **机制分析**：Leave-One-Out 记忆分数 + influence scores + 新指标量化测试预测中的记忆。
