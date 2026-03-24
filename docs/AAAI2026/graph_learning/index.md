@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🤖 AAAI2026** · 共 **6** 篇
+**🤖 AAAI2026** · 共 **7** 篇
 
 **[Adaptive Riemannian Graph Neural Networks](adaptive_riemannian_graph_neural_networks.md)**
 
@@ -14,6 +14,10 @@
 **[Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation](assemble_your_crew_automatic_multi-agent_communication_topol.md)**
 
 :   提出 ARG-Designer，将多 Agent 系统的拓扑设计重新定义为条件自回归图生成任务，从零开始逐步生成 Agent 节点和通信边（而非从模板图剪枝），在6个基准上达到 SOTA（平均 92.78%），同时 Token 消耗比 G-Designer 降低约 50%，且支持无需重训练的角色扩展。
+
+**[Posterior Label Smoothing for Node Classification](posterior_label_smoothing_for_node_classification.md)**
+
+:   提出PosteL（Posterior Label Smoothing），通过贝叶斯后验分布从邻域标签中推导soft label用于节点分类，自然适应同质图和异质图，在8种backbone×10个数据集的80个组合中76个取得精度提升。
 
 **[Relink: Constructing Query-Driven Evidence Graph On-the-Fly for GraphRAG](relink_constructing_query-driven_evidence_graph_on-the-fly_for_graphrag.md)**
 

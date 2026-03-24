@@ -1,11 +1,15 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**🤖 AAAI2026** · 共 **4** 篇
+**🤖 AAAI2026** · 共 **5** 篇
 
 **[Bce3S Binary Cross-Entropy Based Tripartite Synergistic Learning For Long-Tailed](bce3s_binary_cross-entropy_based_tripartite_synergistic_learning_for_long-tailed.md)**
 
 :   提出 BCE3S 框架，用 BCE (Sigmoid) 替代 CE (Softmax) 作为三路协同学习（联合学习+对比学习+均匀学习）的统一基础，解决 Softmax 耦合不平衡分类器向量导致的长尾偏差，在 CIFAR-LT/ImageNet-LT 上达到 SOTA。
+
+**[Explanation-Preserving Augmentation for Semi-Supervised Graph Representation Learning](explanation-preserving_augmentation_for_semi-supervised_graph_representation_lea.md)**
+
+:   提出EPA-GRL（Explanation-Preserving Augmentation），利用少量标签训练的GNN explainer识别图的语义子图（explanation subgraph），增强时只扰动非语义部分（marginal subgraph），实现语义保持的图增强，在6个benchmark上显著优于语义无关的随机增强方法。
 
 **[GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery](goal_geometrically_optimal_alignment_for_continual_generalized_category_discover.md)**
 

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**🤖 AAAI2026** · 共 **7** 篇
+**🤖 AAAI2026** · 共 **8** 篇
 
 **[Alternative Fairness and Accuracy Optimization in Criminal Justice](alternative_fairness_and_accuracy_optimization_in_criminal_j.md)**
 
@@ -30,3 +30,7 @@
 **[AUVIC: Adversarial Unlearning of Visual Concepts for Multi-modal Large Language Models](auvic_adversarial_unlearning_of_visual_concepts_for_multi-mo.md)**
 
 :   提出AUVIC框架，通过对抗性扰动生成器 + 动态锚点保留机制，在MLLM中精确遗忘目标视觉概念（如特定人脸），同时避免对语义相似概念的附带遗忘，并构建了首个面向群体场景视觉概念遗忘的评测基准VCUBench。
+
+**[Truth Justice And Secrecy Cake Cutting Under Privacy Constraints](truth_justice_and_secrecy_cake_cutting_under_privacy_constraints.md)**
+
+:   提出首个隐私保护的蛋糕分割协议，通过Shamir秘密共享+安全多方计算(MPC)，在不暴露任何参与者的价值函数/中间计算/分配结构的前提下，同时实现无嫉妒、Pareto最优、策略防欺三大分配性质。

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # AAAI2026 论文笔记 TODO
 
-总计: 1379 篇 | 已完成: 234 | 待更新: 1145
+总计: 1379 篇 | 已完成: 256 | 待更新: 1123
 
 ---
 
@@ -54,7 +54,7 @@
 - [x] [Agent-SAMA: State-Aware Mobile Assistant](others/agent-sama_state-aware_mobile_assistant.md) | arXiv: 2505.23596v3
 - [x] [AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation](model_compression/agentodrl_a_large_language_model-based_multi-agent_system_fo.md) | arXiv: 2512.00602v1
 - [x] [AgentSense: Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments](llm_agent/agentsense_virtual_sensor_data_generation_using_llm_agents_i.md) | arXiv: 2506.11773v4
-- [ ] [agentswift efficient llm agent design via value-guided hierarchical search](llm_agent/agentswift_efficient_llm_agent_design_via_value-guided_hierarchical_search.md) | arXiv: 2506.06017
+- [x] [agentswift efficient llm agent design via value-guided hierarchical search](llm_agent/agentswift_efficient_llm_agent_design_via_value-guided_hierarchical_search.md) | arXiv: 2506.06017
 - [x] [Aggregating Diverse Cue Experts for AI-Generated Image Detection](image_generation/aggregating_diverse_cue_experts_for_ai-generated_image_detec.md) | arXiv: 2601.08790v1
 - [x] [AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions](audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md) | arXiv: 2509.01787v3
 - [x] [AHAN: Asymmetric Hierarchical Attention Network for Identical Twin Face Verification](human_understanding/ahan_asymmetric_hierarchical_attention_network_for_identical.md) | arXiv: 2602.21503
@@ -108,7 +108,7 @@
 - [ ] [attention retention for continual learning with vision transformers](llm_efficiency/attention_retention_for_continual_learning_with_vision_transformers.md) | arXiv: 2602.05454
 - [ ] [authority backdoor a certifiable backdoor mechanism for authoring dnns](human_understanding/authority_backdoor_a_certifiable_backdoor_mechanism_for_authoring_dnns.md) | arXiv: 2512.10600
 - [ ] [auto-pre an automatic and cost-efficient peer-review framework for language gene](human_understanding/auto-pre_an_automatic_and_cost-efficient_peer-review_framework_for_language_gene.md) | arXiv: 2410.12265
-- [ ] [automaldesc large-scale script analysis for cyber threat research](nlp_generation/automaldesc_large-scale_script_analysis_for_cyber_threat_research.md) | arXiv: 2511.13333
+- [x] [automaldesc large-scale script analysis for cyber threat research](nlp_generation/automaldesc_large-scale_script_analysis_for_cyber_threat_research.md) | arXiv: 2511.13333
 - [ ] [automated reproducibility has a problem statement problem](others/automated_reproducibility_has_a_problem_statement_problem.md) | arXiv: 2601.04226
 - [ ] [automating complex document workflows via stepwise and rollback-enabled operatio](llm_agent/automating_complex_document_workflows_via_stepwise_and_rollback-enabled_operatio.md) | arXiv: 2512.04445
 - [ ] [autonomous concept drift threshold determination](others/autonomous_concept_drift_threshold_determination.md) | arXiv: 2511.09953
@@ -185,7 +185,7 @@
 - [ ] [bugsweeper function-level detection of smart contract vulnerabilities using grap](graph_learning/bugsweeper_function-level_detection_of_smart_contract_vulnerabilities_using_grap.md) | arXiv: 2512.09385
 - [ ] [c3rl rethinking the combination of channel-independence and channel-mixing from ](time_series/c3rl_rethinking_the_combination_of_channel-independence_and_channel-mixing_from_.md) | arXiv: 2507.17454
 - [ ] [c3tg conflict-aware composite and collaborative controlled text generation](llm_efficiency/c3tg_conflict-aware_composite_and_collaborative_controlled_text_generation.md) | arXiv: 2511.09292
-- [ ] [cad-vae leveraging correlation-aware latents for comprehensive fair disentanglem](image_generation/cad-vae_leveraging_correlation-aware_latents_for_comprehensive_fair_disentanglem.md) | arXiv: 2503.07938
+- [x] [cad-vae leveraging correlation-aware latents for comprehensive fair disentanglem](image_generation/cad-vae_leveraging_correlation-aware_latents_for_comprehensive_fair_disentanglem.md) | arXiv: 2503.07938
 - [x] [CAE: Hierarchical Semantic Alignment for Image Clustering](others/hierarchical_semantic_alignment_for_image_clustering.md) | arXiv: 2512.00904
 - [x] [CAMERA: Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis](model_compression/camera_multi-matrix_joint_compression_for_moe_models_via_mic.md) | arXiv: 2508.02322
 - [ ] [can editing llms inject harm](ai_safety/can_editing_llms_inject_harm.md) | arXiv: 2407.20224
@@ -199,7 +199,7 @@
 - [ ] [catformer causal temporal transformer with dynamic contextual fusion for driving](autonomous_driving/catformer_causal_temporal_transformer_with_dynamic_contextual_fusion_for_driving.md) | arXiv: 2507.13425
 - [ ] [catformer when continual learning meets spiking transformers with dynamic thresh](others/catformer_when_continual_learning_meets_spiking_transformers_with_dynamic_thresh.md) | arXiv: 2603.15184
 - [x] [Causal Inference Under Threshold Manipulation: Bayesian Mixture Modeling and Heterogeneous Treatment Effects](robotics/causal_inference_under_threshold_manipulation_bayesian_mixtu.md) | arXiv: 2509.19814
-- [ ] [causal structure learning for dynamical systems with theoretical score analysis](causal_inference/causal_structure_learning_for_dynamical_systems_with_theoretical_score_analysis.md) | arXiv: 2512.14361
+- [x] [causal structure learning for dynamical systems with theoretical score analysis](causal_inference/causal_structure_learning_for_dynamical_systems_with_theoretical_score_analysis.md) | arXiv: 2512.14361
 - [x] [Causal-Tune: Mining Causal Factors from Vision Foundation Models for Domain Generalized Semantic Segmentation](segmentation/causal-tune_mining_causal_factors_from_vision_foundation_mod.md) | arXiv: 2512.16567
 - [ ] [causalclip causally-informed feature disentanglement and filtering for generaliz](image_generation/causalclip_causally-informed_feature_disentanglement_and_filtering_for_generaliz.md) | arXiv: 2512.13285
 - [ ] [causality matters how temporal information emerges in video language models](video_understanding/causality_matters_how_temporal_information_emerges_in_video_language_models.md) | arXiv: 2508.11576
@@ -402,7 +402,7 @@
 - [ ] [efx and po allocation exists for two types of goods](ai_safety/efx_and_po_allocation_exists_for_two_types_of_goods.md) | arXiv: 2601.03438
 - [ ] [egoems a high-fidelity multimodal egocentric dataset for cognitive assistance in](medical_imaging/egoems_a_high-fidelity_multimodal_egocentric_dataset_for_cognitive_assistance_in.md) | arXiv: 2511.09894
 - [ ] [elementarynet a non-strategic neural network for predicting human behavior in no](others/elementarynet_a_non-strategic_neural_network_for_predicting_human_behavior_in_no.md) | arXiv: 2503.05925
-- [ ] [elspr evaluator llm training data self-purification on non-transitive preference](llm_efficiency/elspr_evaluator_llm_training_data_self-purification_on_non-transitive_preference.md) | arXiv: 2505.17691
+- [x] [elspr evaluator llm training data self-purification on non-transitive preference](llm_efficiency/elspr_evaluator_llm_training_data_self-purification_on_non-transitive_preference.md) | arXiv: 2505.17691
 - [x] [EM-KD: Distilling Efficient Multimodal Large Language Model with Unbalanced Vision Tokens](multimodal_vlm/em-kd_distilling_efficient_multimodal_large_language_model_w.md) | arXiv: 2511.21106
 - [ ] [emergent persuasion will llms persuade without being prompted](llm_nlp/emergent_persuasion_will_llms_persuade_without_being_prompted.md) | arXiv: 2512.22201
 - [ ] [emovid a multimodal emotion video dataset for emotion-centric video understandin](video_understanding/emovid_a_multimodal_emotion_video_dataset_for_emotion-centric_video_understandin.md) | arXiv: 2511.11002
@@ -434,7 +434,7 @@
 - [ ] [expertad enhancing autonomous driving systems with mixture of experts](autonomous_driving/expertad_enhancing_autonomous_driving_systems_with_mixture_of_experts.md) | arXiv: 2511.11740
 - [ ] [explainable melanoma diagnosis with contrastive learning and llm-based report ge](self_supervised/explainable_melanoma_diagnosis_with_contrastive_learning_and_llm-based_report_ge.md) | arXiv: 2512.06105
 - [ ] [explaining decentralized multi-agent reinforcement learning policies](reinforcement_learning/explaining_decentralized_multi-agent_reinforcement_learning_policies.md) | arXiv: 2511.10409
-- [ ] [explanation-preserving augmentation for semi-supervised graph representation lea](self_supervised/explanation-preserving_augmentation_for_semi-supervised_graph_representation_lea.md) | arXiv: 2410.12657
+- [x] [explanation-preserving augmentation for semi-supervised graph representation lea](self_supervised/explanation-preserving_augmentation_for_semi-supervised_graph_representation_lea.md) | arXiv: 2410.12657
 - [ ] [explicit temporal-semantic modeling for dense video captioning via context-aware](video_understanding/explicit_temporal-semantic_modeling_for_dense_video_captioning_via_context-aware.md) | arXiv: 2511.10134
 - [ ] [explore and establish synergistic effects between weight pruning and coreset sel](model_compression/explore_and_establish_synergistic_effects_between_weight_pruning_and_coreset_sel.md) | arXiv: 2511.09901
 - [x] [Explore How to Inject Beneficial Noise in MLLMs](optimization/explore_how_to_inject_beneficial_noise_in_mllms.md) | arXiv: 2511.12917
@@ -450,7 +450,7 @@
 - [ ] [facial-r1 aligning reasoning and recognition for facial emotion analysis](human_understanding/facial-r1_aligning_reasoning_and_recognition_for_facial_emotion_analysis.md) | arXiv: 2511.10254
 - [x] [Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System](llm_agent/fact2fiction_targeted_poisoning_attack_to_agentic_fact-check.md) | arXiv: 2508.06059
 - [ ] [factguard event-centric and commonsense-guided fake news detection](model_compression/factguard_event-centric_and_commonsense-guided_fake_news_detection.md) | arXiv: 2511.10281
-- [ ] [factorut controlling untrusted ai by monitoring their plans](llm_efficiency/factorut_controlling_untrusted_ai_by_monitoring_their_plans.md) | arXiv: 2512.14745
+- [x] [factorut controlling untrusted ai by monitoring their plans](llm_efficiency/factorut_controlling_untrusted_ai_by_monitoring_their_plans.md) | arXiv: 2512.14745
 - [ ] [failures to surface harmful contents in video large language models](human_understanding/failures_to_surface_harmful_contents_in_video_large_language_models.md) | arXiv: 2508.10974
 - [ ] [fair model-based clustering](ai_safety/fair_model-based_clustering.md) | arXiv: 2602.21509
 - [ ] [fairgse fairness-aware graph neural network without high false positive rates](ai_safety/fairgse_fairness-aware_graph_neural_network_without_high_false_positive_rates.md) | arXiv: 2511.12132
@@ -522,7 +522,7 @@
 - [ ] [gaico a deployed and extensible framework for evaluating diverse and multimodal ](time_series/gaico_a_deployed_and_extensible_framework_for_evaluating_diverse_and_multimodal_.md) | arXiv: 2508.16753
 - [ ] [gaming the answer matcher examining the impact of text manipulation on automated](robotics/gaming_the_answer_matcher_examining_the_impact_of_text_manipulation_on_automated.md) | arXiv: 2601.08849
 - [x] [gatera token-aware modulation for parameter-efficient fine-tuning](signal_comm/gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md) | arXiv: 2511.17582
-- [ ] [gaussian blending rethinking alpha blending in 3d gaussian splatting](3d_vision/gaussian_blending_rethinking_alpha_blending_in_3d_gaussian_splatting.md) | arXiv: 2511.15102
+- [x] [gaussian blending rethinking alpha blending in 3d gaussian splatting](3d_vision/gaussian_blending_rethinking_alpha_blending_in_3d_gaussian_splatting.md) | arXiv: 2511.15102
 - [ ] [gaussianimage boosted image representation and compression with 2d gaussian spla](3d_vision/gaussianimage_boosted_image_representation_and_compression_with_2d_gaussian_spla.md) | arXiv: 2512.19108
 - [ ] [gazeinterpreter parsing eye gaze to generate eye-body-coordinated narrations](human_understanding/gazeinterpreter_parsing_eye_gaze_to_generate_eye-body-coordinated_narrations.md) | arXiv: 2511.16245
 - [ ] [gcl-ot graph contrastive learning with optimal transport for heterophilic text-a](graph_learning/gcl-ot_graph_contrastive_learning_with_optimal_transport_for_heterophilic_text-a.md) | arXiv: 2511.16778
@@ -627,7 +627,7 @@
 - [ ] [icl-router in-context learned model representations for llm routing](llm_nlp/icl-router_in-context_learned_model_representations_for_llm_routing.md) | arXiv: 2510.09719
 - [x] [ICLR: Inter-Chrominance and Luminance Interaction for Natural Color Restoration in Low-Light Image Enhancement](image_restoration/iclr_inter-chrominance_and_luminance_interaction_for_natural_color_restoration_i.md) | arXiv: 2511.13607
 - [ ] [idealtsf can non-ideal data contribute to enhancing the performance of time seri](time_series/idealtsf_can_non-ideal_data_contribute_to_enhancing_the_performance_of_time_seri.md) | arXiv: 2512.05442
-- [ ] [identifying and analyzing performance-critical tokens in large language models](llm_nlp/identifying_and_analyzing_performance-critical_tokens_in_large_language_models.md) | arXiv: 2401.11323
+- [x] [identifying and analyzing performance-critical tokens in large language models](llm_nlp/identifying_and_analyzing_performance-critical_tokens_in_large_language_models.md) | arXiv: 2401.11323
 - [ ] [ie-srgs an internal-external knowledge fusion framework for high-fidelity 3d gau](3d_vision/ie-srgs_an_internal-external_knowledge_fusion_framework_for_high-fidelity_3d_gau.md) | arXiv: 2511.22233
 - [x] [iMAD: Intelligent Multi-Agent Debate for Efficient and Accurate LLM Inference](llm_agent/imad_intelligent_multi-agent_debate_for_efficient_and_accura.md) | arXiv: 2511.11306
 - [ ] [imagebinddc compressing multi-modal data with imagebind-based condensation](multimodal_vlm/imagebinddc_compressing_multi-modal_data_with_imagebind-based_condensation.md) | arXiv: 2511.08263
@@ -697,7 +697,7 @@
 - [ ] [learning network dismantling without handcrafted inputs](others/learning_network_dismantling_without_handcrafted_inputs.md) | arXiv: 2508.00706
 - [ ] [learning procedural-aware video representations through state-grounded hierarchy](object_detection/learning_procedural-aware_video_representations_through_state-grounded_hierarchy.md) | arXiv: 2511.20073
 - [ ] [learning spatial decay for vision transformers](llm_nlp/learning_spatial_decay_for_vision_transformers.md) | arXiv: 2508.09525
-- [ ] [learning subgroups with maximum treatment effects without causal heuristics](causal_inference/learning_subgroups_with_maximum_treatment_effects_without_causal_heuristics.md) | arXiv: 2511.20189
+- [x] [learning subgroups with maximum treatment effects without causal heuristics](causal_inference/learning_subgroups_with_maximum_treatment_effects_without_causal_heuristics.md) | arXiv: 2511.20189
 - [ ] [learning time in static classifiers](others/learning_time_in_static_classifiers.md) | arXiv: 2511.12321
 - [ ] [learning to collaborate an orchestrated-decentralized framework for peer-to-peer](ai_safety/learning_to_collaborate_an_orchestrated-decentralized_framework_for_peer-to-peer.md) | arXiv: 2601.17133
 - [ ] [learning to generate and extract a multi-agent collaboration framework for zero-](reinforcement_learning/learning_to_generate_and_extract_a_multi-agent_collaboration_framework_for_zero-.md) | arXiv: 2603.02909
@@ -710,7 +710,7 @@
 - [ ] [leveraging textual compositional reasoning for robust change captioning](object_detection/leveraging_textual_compositional_reasoning_for_robust_change_captioning.md) | arXiv: 2511.22903
 - [ ] [lexchronos an agentic framework for structured event timeline extraction in indi](model_compression/lexchronos_an_agentic_framework_for_structured_event_timeline_extraction_in_indi.md) | arXiv: 2603.01651
 - [ ] [lidar-gsimproving lidar gaussian reconstruction via diffusion priors](autonomous_driving/lidar-gsimproving_lidar_gaussian_reconstruction_via_diffusion_priors.md) | arXiv: 2511.12304
-- [ ] [lidarcrafter dynamic 4d world modeling from lidar sequences](autonomous_driving/lidarcrafter_dynamic_4d_world_modeling_from_lidar_sequences.md) | arXiv: 2508.03692
+- [x] [lidarcrafter dynamic 4d world modeling from lidar sequences](autonomous_driving/lidarcrafter_dynamic_4d_world_modeling_from_lidar_sequences.md) | arXiv: 2508.03692
 - [ ] [liecraft a multi-agent framework for evaluating deceptive capabilities in langua](llm_agent/liecraft_a_multi-agent_framework_for_evaluating_deceptive_capabilities_in_langua.md) | arXiv: 2603.06874
 - [ ] [life machine learning and the search for habitability predicting biosignature fl](others/life_machine_learning_and_the_search_for_habitability_predicting_biosignature_fl.md) | arXiv: 2601.12557
 - [ ] [lifelong domain adaptive 3d human pose estimation](video_understanding/lifelong_domain_adaptive_3d_human_pose_estimation.md) | arXiv: 2512.23860
@@ -744,7 +744,7 @@
 - [ ] [lungnoduleagent a collaborative multi-agent system for precision diagnosis of lu](medical_imaging/lungnoduleagent_a_collaborative_multi-agent_system_for_precision_diagnosis_of_lu.md) | arXiv: 2511.21042
 - [ ] [lwganet addressing spatial and channel redundancy in remote sensing visual tasks](segmentation/lwganet_addressing_spatial_and_channel_redundancy_in_remote_sensing_visual_tasks.md) | arXiv: 2501.10040
 - [ ] [m2fmoe multi-resolution multi-view frequency mixture-of-experts for extreme-adap](time_series/m2fmoe_multi-resolution_multi-view_frequency_mixture-of-experts_for_extreme-adap.md) | arXiv: 2601.08631
-- [ ] [m3sr multi-scale multi-perceptual mamba for efficient spectral reconstruction](remote_sensing/m3sr_multi-scale_multi-perceptual_mamba_for_efficient_spectral_reconstruction.md) | arXiv: 2601.08293
+- [x] [m3sr multi-scale multi-perceptual mamba for efficient spectral reconstruction](remote_sensing/m3sr_multi-scale_multi-perceptual_mamba_for_efficient_spectral_reconstruction.md) | arXiv: 2601.08293
 - [x] [Machine Learning for Sustainable Rice Production: Region-Scale Monitoring of Water-Saving Practices in Punjab, India](remote_sensing/machine_learning_for_sustainable_rice_production_region-scale_monitoring_of_wate.md) | arXiv: 2507.08605
 - [ ] [macprompt maraconic-guided jailbreak against text-to-image models](image_generation/macprompt_maraconic-guided_jailbreak_against_text-to-image_models.md) | arXiv: 2601.07141
 - [ ] [macs multi-source audio-to-image generation with contextual significance and sem](image_generation/macs_multi-source_audio-to-image_generation_with_contextual_significance_and_sem.md) | arXiv: 2503.10287
@@ -782,7 +782,7 @@
 - [x] [MeSHA: Efficient Path Planning with Motion Primitives](others/mesha_efficient_path_planning_with_motion_primitives.md) | arXiv: 2412.10320
 - [ ] [meshsplat generalizable sparse-view surface reconstruction via gaussian splattin](3d_vision/meshsplat_generalizable_sparse-view_surface_reconstruction_via_gaussian_splattin.md) | arXiv: 2508.17811
 - [ ] [meta dynamic graph for traffic flow prediction](autonomous_driving/meta_dynamic_graph_for_traffic_flow_prediction.md) | arXiv: 2601.10328
-- [ ] [metagdpo alleviating catastrophic forgetting with metacognitive knowledge throug](llm_alignment/metagdpo_alleviating_catastrophic_forgetting_with_metacognitive_knowledge_throug.md) | arXiv: 2511.12113
+- [x] [metagdpo alleviating catastrophic forgetting with metacognitive knowledge throug](llm_alignment/metagdpo_alleviating_catastrophic_forgetting_with_metacognitive_knowledge_throug.md) | arXiv: 2511.12113
 - [ ] [mf-speech achieving fine-grained and compositional control in speech generation ](others/mf-speech_achieving_fine-grained_and_compositional_control_in_speech_generation_.md) | arXiv: 2511.12074
 - [ ] [mfmamba a multi-function network for panchromatic image resolution restoration b](image_restoration/mfmamba_a_multi-function_network_for_panchromatic_image_resolution_restoration_b.md) | arXiv: 2511.18888
 - [ ] [microevoeval a systematic evaluation framework for image-based microstructure ev](llm_efficiency/microevoeval_a_systematic_evaluation_framework_for_image-based_microstructure_ev.md) | arXiv: 2511.08955
@@ -865,7 +865,7 @@
 - [ ] [on the information processing of one-dimensional wasserstein distances with fini](others/on_the_information_processing_of_one-dimensional_wasserstein_distances_with_fini.md) | arXiv: 2511.12881
 - [x] [On the Learning Dynamics of Two-Layer Linear Networks with Label Noise SGD](optimization/on_the_learning_dynamics_of_two-layer_linear_networks_with_label_noise_sgd.md) | arXiv: 2603.10397
 - [ ] [on the variability of concept activation vectors](others/on_the_variability_of_concept_activation_vectors.md) | arXiv: 2509.24058
-- [ ] [one-step generative policies with q-learning a reformulation of meanflow](reinforcement_learning/one-step_generative_policies_with_q-learning_a_reformulation_of_meanflow.md) | arXiv: 2511.13035
+- [x] [one-step generative policies with q-learning a reformulation of meanflow](reinforcement_learning/one-step_generative_policies_with_q-learning_a_reformulation_of_meanflow.md) | arXiv: 2511.13035
 - [ ] [online linear regression with paid stochastic features](others/online_linear_regression_with_paid_stochastic_features.md) | arXiv: 2511.08073
 - [ ] [open-world 3d scene graph generation for retrieval-augmented reasoning](3d_vision/open-world_3d_scene_graph_generation_for_retrieval-augmented_reasoning.md) | arXiv: 2511.05894
 - [ ] [open-world object counting in videos](medical_imaging/open-world_object_counting_in_videos.md) | arXiv: 2506.15368
@@ -905,7 +905,7 @@
 - [ ] [pcokg personality-aware commonsense reasoning with debate](graph_learning/pcokg_personality-aware_commonsense_reasoning_with_debate.md) | arXiv: 2601.06234
 - [ ] [peoat personalization-guided evolutionary question assembly for one-shot adaptiv](optimization/peoat_personalization-guided_evolutionary_question_assembly_for_one-shot_adaptiv.md) | arXiv: 2512.00439
 - [ ] [perceive act and correct confidence is not enough for hyperspectral classificati](object_detection/perceive_act_and_correct_confidence_is_not_enough_for_hyperspectral_classificati.md) | arXiv: 2511.10068
-- [ ] [persistent instability in llms personality measurements effects of scale reasoni](nlp_generation/persistent_instability_in_llms_personality_measurements_effects_of_scale_reasoni.md) | arXiv: 2508.04826
+- [x] [persistent instability in llms personality measurements effects of scale reasoni](nlp_generation/persistent_instability_in_llms_personality_measurements_effects_of_scale_reasoni.md) | arXiv: 2508.04826
 - [ ] [personality-guided public-private domain disentangled hypergraph-former network ](human_understanding/personality-guided_public-private_domain_disentangled_hypergraph-former_network_.md) | arXiv: 2511.12460
 - [ ] [personalization of large foundation models for health interventions](medical_imaging/personalization_of_large_foundation_models_for_health_interventions.md) | arXiv: 2601.03482
 - [ ] [personalized federated learning with bidirectional communication compression via](optimization/personalized_federated_learning_with_bidirectional_communication_compression_via.md) | arXiv: 2511.13144
@@ -936,7 +936,7 @@
 - [ ] [position on llm-assisted peer review addressing reviewer gap through mentoring a](llm_nlp/position_on_llm-assisted_peer_review_addressing_reviewer_gap_through_mentoring_a.md) | arXiv: 2601.09182
 - [ ] [positional bias in multimodal embedding models do they favor the beginning the m](multimodal_vlm/positional_bias_in_multimodal_embedding_models_do_they_favor_the_beginning_the_m.md) | arXiv: 2511.11216
 - [ ] [post training quantization for efficient dataset condensation](model_compression/post_training_quantization_for_efficient_dataset_condensation.md) | arXiv: 2603.13346
-- [ ] [posterior label smoothing for node classification](graph_learning/posterior_label_smoothing_for_node_classification.md) | arXiv: 2406.00410
+- [x] [posterior label smoothing for node classification](graph_learning/posterior_label_smoothing_for_node_classification.md) | arXiv: 2406.00410
 - [ ] [pragworld a benchmark evaluating llms local world model under minimal linguistic](video_understanding/pragworld_a_benchmark_evaluating_llms_local_world_model_under_minimal_linguistic.md) | arXiv: 2511.13021
 - [ ] [precise reducing the bias of llm evaluations using prediction-powered ranking es](llm_nlp/precise_reducing_the_bias_of_llm_evaluations_using_prediction-powered_ranking_es.md) | arXiv: 2601.18777
 - [ ] [predict and resist long-term accident anticipation under sensor noise](others/predict_and_resist_long-term_accident_anticipation_under_sensor_noise.md) | arXiv: 2511.08640
@@ -1147,14 +1147,14 @@
 - [ ] [span benchmarking and improving cross-calendar temporal reasoning of large langu](llm_agent/span_benchmarking_and_improving_cross-calendar_temporal_reasoning_of_large_langu.md) | arXiv: 2511.09993
 - [x] [SPARC: 用单一策略驾驶100辆未见车辆的OOD泛化](autonomous_driving/out-of-distribution_generalization_with_a_sparc_racing_100_u.md) | arXiv: 2511.09737
 - [ ] [spare single-pass annotation with reference-guided evaluation for automatic proc](llm_reasoning/spare_single-pass_annotation_with_reference-guided_evaluation_for_automatic_proc.md) | arXiv: 2506.15498
-- [ ] [spark query-aware unstructured sparsity with recoverable kv cache channel prunin](model_compression/spark_query-aware_unstructured_sparsity_with_recoverable_kv_cache_channel_prunin.md) | arXiv: 2508.15212
+- [x] [spark query-aware unstructured sparsity with recoverable kv cache channel prunin](model_compression/spark_query-aware_unstructured_sparsity_with_recoverable_kv_cache_channel_prunin.md) | arXiv: 2508.15212
 - [ ] [sparse additive model pruning for order-based causal structure learning](causal_inference/sparse_additive_model_pruning_for_order-based_causal_structure_learning.md) | arXiv: 2602.15306
 - [ ] [sparse4dgs 4d gaussian splatting for sparse-frame dynamic scene reconstruction](3d_vision/sparse4dgs_4d_gaussian_splatting_for_sparse-frame_dynamic_scene_reconstruction.md) | arXiv: 2511.07122
 - [ ] [sparsecoop cooperative perception with kinematic-grounded queries](autonomous_driving/sparsecoop_cooperative_perception_with_kinematic-grounded_queries.md) | arXiv: 2512.06838
 - [ ] [sparserm a lightweight preference modeling with sparse autoencoder](model_compression/sparserm_a_lightweight_preference_modeling_with_sparse_autoencoder.md) | arXiv: 2511.07896
 - [ ] [sparsesurf sparse-view 3d gaussian splatting for surface reconstruction](3d_vision/sparsesurf_sparse-view_3d_gaussian_splatting_for_surface_reconstruction.md) | arXiv: 2511.14633
 - [ ] [spatialactor exploring disentangled spatial representations for robust robotic m](robotics/spatialactor_exploring_disentangled_spatial_representations_for_robust_robotic_m.md) | arXiv: 2511.09555
-- [ ] [spatio-temporal context learning with temporal difference convolution for moving](remote_sensing/spatio-temporal_context_learning_with_temporal_difference_convolution_for_moving.md) | arXiv: 2511.09352
+- [x] [spatio-temporal context learning with temporal difference convolution for moving](remote_sensing/spatio-temporal_context_learning_with_temporal_difference_convolution_for_moving.md) | arXiv: 2511.09352
 - [ ] [spatiotemporal difference network for video depth super-resolution](image_restoration/spatiotemporal_difference_network_for_video_depth_super-resolution.md) | arXiv: 2508.01259
 - [ ] [spatiotemporal-untrammelled mixture of experts for multi-person motion predictio](human_understanding/spatiotemporal-untrammelled_mixture_of_experts_for_multi-person_motion_predictio.md) | arXiv: 2512.21707
 - [ ] [speakerlm end-to-end versatile speaker diarization and recognition with multimod](multimodal_vlm/speakerlm_end-to-end_versatile_speaker_diarization_and_recognition_with_multimod.md) | arXiv: 2508.06372
@@ -1207,7 +1207,7 @@
 - [ ] [t-lora single image diffusion model customization without overfitting](image_generation/t-lora_single_image_diffusion_model_customization_without_overfitting.md) | arXiv: 2507.05964
 - [ ] [t-rex-omni integrating negative visual prompt in generic object detection](object_detection/t-rex-omni_integrating_negative_visual_prompt_in_generic_object_detection.md) | arXiv: 2511.08997
 - [ ] [t2agent a tool-augmented multimodal misinformation detection agent with monte ca](ai_safety/t2agent_a_tool-augmented_multimodal_misinformation_detection_agent_with_monte_ca.md) | arXiv: 2505.19768
-- [ ] [t2i-riskyprompt a benchmark for safety evaluation attack and defense on text-to-](image_generation/t2i-riskyprompt_a_benchmark_for_safety_evaluation_attack_and_defense_on_text-to-.md) | arXiv: 2510.22300
+- [x] [t2i-riskyprompt a benchmark for safety evaluation attack and defense on text-to-](image_generation/t2i-riskyprompt_a_benchmark_for_safety_evaluation_attack_and_defense_on_text-to-.md) | arXiv: 2510.22300
 - [ ] [tab-pet graph-based positional encodings for tabular transformers](others/tab-pet_graph-based_positional_encodings_for_tabular_transformers.md) | arXiv: 2511.13338
 - [ ] [tabflash efficient table understanding with progressive question conditioning an](multimodal_vlm/tabflash_efficient_table_understanding_with_progressive_question_conditioning_an.md) | arXiv: 2511.13283
 - [ ] [tackling resource-constrained and data-heterogeneity in federated learning with ](object_detection/tackling_resource-constrained_and_data-heterogeneity_in_federated_learning_with_.md) | arXiv: 2601.01840
@@ -1255,7 +1255,7 @@
 - [ ] [tmdc a two-stage modality denoising and complementation framework for multimodal](image_restoration/tmdc_a_two-stage_modality_denoising_and_complementation_framework_for_multimodal.md) | arXiv: 2511.10325
 - [ ] [to align or not to align strategic multimodal representation alignment for optim](robotics/to_align_or_not_to_align_strategic_multimodal_representation_alignment_for_optim.md) | arXiv: 2511.12121
 - [x] [ToC: Tree-of-Claims Search with Multi-Agent Language Models](llm_reasoning/toc_tree-of-claims_search_with_multi-agent_language_models.md) | arXiv: 2511.16972
-- [ ] [tofa training-free one-shot federated adaptation for vision-language models](multimodal_vlm/tofa_training-free_one-shot_federated_adaptation_for_vision-language_models.md) | arXiv: 2511.16423
+- [x] [tofa training-free one-shot federated adaptation for vision-language models](multimodal_vlm/tofa_training-free_one-shot_federated_adaptation_for_vision-language_models.md) | arXiv: 2511.16423
 - [ ] [tokenize once recommend anywhere unified item tokenization for multi-domain llm-](recommender/tokenize_once_recommend_anywhere_unified_item_tokenization_for_multi-domain_llm-.md) | arXiv: 2511.12922
 - [x] [TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents](llm_agent/tongui_internet-scale_trajectories_from_multimodal_web_tutor.md) | arXiv: 2504.12679
 - [ ] [tool4poi a tool-augmented llm framework for next poi recommendation](human_understanding/tool4poi_a_tool-augmented_llm_framework_for_next_poi_recommendation.md) | arXiv: 2511.06405
@@ -1289,7 +1289,7 @@
 - [ ] [trace textual relevance augmentation and contextual encoding for multimodal hate](multimodal_vlm/trace_textual_relevance_augmentation_and_contextual_encoding_for_multimodal_hate.md) | arXiv: 2504.17902
 - [ ] [tracking and segmenting anything in any modality](segmentation/tracking_and_segmenting_anything_in_any_modality.md) | arXiv: 2511.19475
 - [ ] [tractable weighted first-order model counting with bounded treewidth binary evid](others/tractable_weighted_first-order_model_counting_with_bounded_treewidth_binary_evid.md) | arXiv: 2511.09174
-- [ ] [trade-offs in large reasoning models an empirical analysis of deliberative and a](llm_reasoning/trade-offs_in_large_reasoning_models_an_empirical_analysis_of_deliberative_and_a.md) | arXiv: 2503.17979
+- [x] [trade-offs in large reasoning models an empirical analysis of deliberative and a](llm_reasoning/trade-offs_in_large_reasoning_models_an_empirical_analysis_of_deliberative_and_a.md) | arXiv: 2503.17979
 - [ ] [training-free policy violation detection via activation-space whitening in llms](medical_imaging/training-free_policy_violation_detection_via_activation-space_whitening_in_llms.md) | arXiv: 2512.03994
 - [ ] [transferable backdoor attacks for code models via sharpness-aware adversarial pe](human_understanding/transferable_backdoor_attacks_for_code_models_via_sharpness-aware_adversarial_pe.md) | arXiv: 2602.11213
 - [ ] [transferable hypergraph attack via injecting nodes into pivotal hyperedges](ai_safety/transferable_hypergraph_attack_via_injecting_nodes_into_pivotal_hyperedges.md) | arXiv: 2511.10698
@@ -1338,7 +1338,7 @@
 - [ ] [vidia2std a parallel corpus and methods for low-resource vietnamese dialect-to-s](others/vidia2std_a_parallel_corpus_and_methods_for_low-resource_vietnamese_dialect-to-s.md) | arXiv: 2603.10211
 - [x] [VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness](autonomous_driving/vilta_a_vlm-in-the-loop_adversary_for_enhancing_driving_poli.md) | arXiv: 2601.12672
 - [x] [VipAct: Visual-Perception Enhancement via Specialized VLM Agent Collaboration and Tool-use](multimodal_vlm/vipact_visual-perception_enhancement_via_specialized_vlm_age.md) | arXiv: 2410.16400
-- [ ] [vir-bench evaluating geospatial and temporal understanding of mllms via travel v](video_understanding/vir-bench_evaluating_geospatial_and_temporal_understanding_of_mllms_via_travel_v.md) | arXiv: 2509.19002
+- [x] [vir-bench evaluating geospatial and temporal understanding of mllms via travel v](video_understanding/vir-bench_evaluating_geospatial_and_temporal_understanding_of_mllms_via_travel_v.md) | arXiv: 2509.19002
 - [ ] [virtual multiplex staining for histological images using a marker-wise condition](medical_imaging/virtual_multiplex_staining_for_histological_images_using_a_marker-wise_condition.md) | arXiv: 2508.14681
 - [ ] [vision transformers are circulant attention learners](llm_nlp/vision_transformers_are_circulant_attention_learners.md) | arXiv: 2512.21542
 - [ ] [vision-language reasoning for geolocalization a reinforcement learning approach](reinforcement_learning/vision-language_reasoning_for_geolocalization_a_reinforcement_learning_approach.md) | arXiv: 2601.00388

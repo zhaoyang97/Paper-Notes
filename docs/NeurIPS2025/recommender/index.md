@@ -1,7 +1,19 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🧠 NeurIPS2025** · 共 **4** 篇
+**🧠 NeurIPS2025** · 共 **7** 篇
+
+**[ASAP: An Agentic Solution to Auto-Optimize Performance of Large-Scale LLM Training](asap_an_agentic_solution_to_auto-optimize_performance_of_large-scale_llm_trainin.md)**
+
+:   提出ASAP多Agent LLM框架，自动诊断大规模LLM训练的性能瓶颈（计算/内存/通信）并推荐优化的分片配置，在TPU v5p/v5e/v6e三个场景中生成的配置与人类专家完全一致，实现最高2.58倍吞吐提升。
+
+**[Balancing Performance and Costs in Best Arm Identification](balancing_performance_and_costs_in_best_arm_identification.md)**
+
+:   提出成本感知的最优臂识别形式化框架，将采样成本与识别性能（误分类概率/简单遗憾）显式平衡，设计DBCARE算法通过动态预算函数在所有问题难度下均匀近最优，并通过信息论下界证明近最优性。
+
+**[EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration](empathia_multi-faceted_human-ai_collaboration_for_refugee_integration.md)**
+
+:   提出EMPATHIA多Agent框架，基于Kegan建构性发展理论，通过情感/文化/伦理三个专业化Agent的选择器-验证器协商评估难民安置建议，在6,359名难民的真实数据上达到87.4%收敛率和92.1%文化专家同意率。
 
 **[MMPB: It's Time for Multi-Modal Personalization](mmpb_its_time_for_multi-modal_personalization.md)**
 

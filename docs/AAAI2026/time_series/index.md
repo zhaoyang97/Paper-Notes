@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**🤖 AAAI2026** · 共 **2** 篇
+**🤖 AAAI2026** · 共 **3** 篇
 
 **[A Unified Shape-Aware Foundation Model for Time Series Classification](a_unified_shape-aware_foundation_model_for_time_series_class.md)**
 
@@ -10,3 +10,7 @@
 **[SELDON: Supernova Explosions Learned by Deep ODE Networks](seldon_supernova_explosions_learned_by_deep_ode_networks.md)**
 
 :   提出SELDON，一种结合masked GRU-ODE编码器、隐式Neural ODE传播器和可解释高斯基函数解码器的连续时间VAE，用于稀疏、不规则采样的天文光变曲线预测，在仅观测20%数据时即可超越基线方法做出准确的多波段通量预测。
+
+**[Urban Incident Prediction With Graph Neural Networks Integrating Government Rati](urban_incident_prediction_with_graph_neural_networks_integrating_government_rati.md)**
+
+:   提出URBAN模型，通过Multi-view GNN融合稀疏无偏的政府检查评级和频繁有偏的311众包报告来预测城市事件真实状态，同时量化人口统计报告偏差，在NYC数据上相关性从0.10提升到0.53。
