@@ -21,7 +21,7 @@
 
 **[Are Language Models Efficient Reasoners? A Perspective from Logic Programming](are_language_models_efficient_reasoners_a_perspective_from_logic_programming.md)**
 
-:   本文通过逻辑规划框架评估LLM的推理效率，发现当存在不相关公理时，LLMs会产生内容庞杂的证明而非最优证明，反映出模型存在显著的推理效率问题。
+:   从逻辑编程角度提出评估 LLM 推理效率（而非仅正确性）的框架——通过 verbalized logic program 将自然语言证明映射到逻辑程序证明，发现当前 LLM 在含无关公理的数学题中不仅准确率下降，且推理过程严重低效（超过一半的推理步骤是不必要的）。
 
 **[Belief-Calibrated Multi-Agent Consensus Seeking for Complex NLP Tasks](belief-calibrated_multi-agent_consensus_seeking_for_complex_nlp_tasks.md)**
 
@@ -107,9 +107,9 @@
 
 :   Memory Mosaics v2 将关联存储网络扩展至 10B 参数、1T token 训练规模，在新任务学习和上下文学习上显著超越同规模甚至 8T token 训练的 Transformer。
 
-**[Moose-Chem2 Exploring Llm Limits In Fine-Grained Scientific Hypothesis Discovery](moose-chem2_exploring_llm_limits_in_fine-grained_scientific_hypothesis_discovery.md)**
+**[MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery](moose-chem2_exploring_llm_limits_in_fine-grained_scientific_hypothesis_discovery.md)**
 
-:   用层次化搜索平滑LLM判断的奖励景观，探索LLM在细粒度科学假设发现中的能力极限，在2024后专家标注的化学基准上一致超越基线。
+:   将细粒度科学假设生成形式化为组合优化问题，提出层次化启发式搜索（HHS）利用 LLM 内部奖励景观导航到最优假设，在 2024 年后化学文献的专家标注基准上超越强基线。
 
 **[Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models](nemotron-flash_towards_latency-optimal_hybrid_small_language_models.md)**
 

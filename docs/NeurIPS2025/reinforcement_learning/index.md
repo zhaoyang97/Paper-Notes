@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧠 NeurIPS2025** · 共 **36** 篇
+**🧠 NeurIPS2025** · 共 **38** 篇
 
 **[A Generalized Bisimulation Metric of State Similarity between Markov Decision Processes: From Theoretical Propositions to Applications](a_generalized_bisimulation_metric_of_state_similarity_betwee.md)**
 
@@ -39,6 +39,14 @@
 
 :   提出 TALENTS 框架，通过 VAE 学习潜在策略空间 + K-Means 聚类发现策略类型 + Fixed-Share 遗憾最小化算法在线推断队友类型，实现对未知人类/智能体队友的零样本实时适应协作。
 
+**[Automaton Constrained Q-Learning](automaton_constrained_q-learning.md)**
+
+:   提出 ACQL——将 LTL（线性时序逻辑）任务规格自动转化为自动机引导的约束 MDP，结合最小安全值函数（类 Hamilton-Jacobi 可达性）和 HER 致密化奖励，在 5 种 LTL 任务上达到 91.5% 成功率，在真实 UR5e 机器人上实现 100% 成功率。
+
+**[Behavior Injection: Preparing Language Models for Reinforcement Learning](behavior_injection_preparing_language_models_for_reinforcement_learning.md)**
+
+:   分析 GRPO 的逐步影响发现 RL 有效性取决于 rollout 准确率和数据共影响系数两个因素，据此提出 BRIDGE——在 SFT 阶段注入探索（反思/回退）和利用（子目标计算/分析）行为，使模型更"RL-ready"，在 iGSM 上 Qwen-1.5B 的 RL 提升从 +7.4% 跃升至 +48.8%（OOD），远超其他数据增强方法。
+
 **[Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](beyond_the_8020_rule_highentropy_minority_tokens_drive_effec.md)**
 
 :   从 token 熵模式的全新视角分析 RLVR，发现 CoT 推理中仅约 20% 的高熵"分叉 token"决定推理方向，仅在这些 token 上做梯度更新即可匹配甚至大幅超越全量更新（Qwen3-32B 上 AIME'25 +11.04），揭示 RLVR 本质是优化推理决策点。
@@ -51,13 +59,13 @@
 
 :   提出 Reinforcement Learning from Checklist Feedback (RLCF)，将指令分解为动态生成的 yes/no checklist，结合 AI judge 和代码验证器逐项评分后做 DPO 训练，在 5 个 benchmark 上一致性提升 Qwen2.5-7B-Instruct，是唯一在所有 benchmark 上都有正收益的方法（FollowBench +4pt, InFoBench +6pt, Arena-Hard +3pt）。
 
-**[Confounding Robust Deep Reinforcement Learning A Causal Approach](confounding_robust_deep_reinforcement_learning_a_causal_approach.md)**
+**[Confounding Robust Deep Reinforcement Learning: A Causal Approach](confounding_robust_deep_reinforcement_learning_a_causal_approach.md)**
 
-:   提出因果DQN算法，从含混杂因子的观测数据中学习鲁棒策略，在Atari等高维环境中解决离线RL的混杂偏差问题。
+:   基于部分辨识（partial identification）理论扩展 DQN，提出 Causal DQN 从含有未观测混淆因子的离线数据中学习鲁棒策略——通过优化最坏情况下的价值函数下界来获得安全策略，在 12 个混淆 Atari 游戏中一致性地超越标准 DQN。
 
-**[Continual Knowledge Adaptation For Reinforcement Learning](continual_knowledge_adaptation_for_reinforcement_learning.md)**
+**[Continual Knowledge Adaptation for Reinforcement Learning](continual_knowledge_adaptation_for_reinforcement_learning.md)**
 
-:   提出CKA-RL框架，用知识向量在多任务RL中实现持续知识适应，缓解灾难性遗忘问题。
+:   提出 CKA-RL，为每个任务维护知识向量（task-specific knowledge vector），通过 softmax 加权的动态知识适配和自适应知识合并机制，在三个持续 RL 基准上实现 4.20% 的整体性能提升和 8.02% 的前向迁移提升。
 
 **[Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation](decoderhybriddecoder_architecture_for_efficient_reasoning_wi.md)**
 

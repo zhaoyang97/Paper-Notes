@@ -1,63 +1,39 @@
-# CAPability: A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Thoroughness
+# CAPability: A Comprehensive Visual Caption Benchmark for Evaluation
 
-**会议**: NeurIPS 2025  
-**arXiv**: [2502.14914](https://arxiv.org/abs/2502.14914)  
-**代码**: 有  
-**领域**: 多模态VLM / Benchmark / 图像描述  
-**关键词**: visual captioning, benchmark, correctness, thoroughness, precision, hit, know-but-cannot-tell  
+**会议**: NeurIPS 2025
+**arXiv**: [2502.14914](https://arxiv.org/abs/2502.14914)
+**代码**: 有
+**领域**: 多模态VLM / 评估
+**关键词**: visual captioning, benchmark, multi-dimensional evaluation, VLM, KT gap
 
 ## 一句话总结
-提出CAPability，一个全面的多视角视觉描述benchmark，跨6个关键视角12个维度评估MLLM生成caption的正确性（precision）和全面性（hit），用近11K人工标注的图像视频，并引入"知道但说不出"（K/T̄）指标揭示模型在QA和caption之间的显著能力差距。
+构建 CAPability——11K 标注的图片/视频描述评估基准，从 6 个视角 12 个维度评估 VLM 的描述能力，引入 KT（know-but-cannot-tell）指标衡量 VLM 在 QA 中已知但描述中遗漏的信息差距。
 
-## 背景与动机
-随着MLLM的进步，传统的图像描述benchmark（基于简短GT句子和BLEU/CIDEr等指标）已经过时——无法评估模型生成的详细长描述的质量。近期benchmark尝试通过关键词提取或物体中心评估来改进，但仍限于粗粒度分析和不完整的视觉元素覆盖。缺乏一个同时评估"说得对不对"（正确性/precision）和"说得全不全"（全面性/hit/recall）的综合benchmark。
-
-## 核心问题
-如何全面、稳定、多维度地评估MLLM的视觉描述能力？正确性和全面性应该如何分别衡量？
+## 研究背景与动机
+1. **领域现状**：视觉描述评估多用 CIDEr/METEOR 等自动指标，但这些指标与人类判断相关性低且只评估整体质量。
+2. **现有痛点**：(1) 缺乏细粒度多维度评估；(2) 不区分"模型不知道"和"模型知道但没说"两种失败模式；(3) 静态和动态描述缺乏统一评估框架。
+3. **本文要解决什么？** 提供多维度、支持 KT gap 分析的全面描述评估基准。
 
 ## 方法详解
 
-### 整体框架
-CAPability设计了12个评估维度（跨6个关键视角），用近11K张人工标注的图像和视频构建视觉元素注释。评估时将模型生成的caption与注释对比，同时计算precision（正确性——说的对不对）和hit（全面性——有没有漏说）。
-
 ### 关键设计
-1. **12维度6视角的全面评估**：不只看"有哪些物体"（object-centric），而是从6个视角（如物体属性、空间关系、动作交互、场景氛围、文字信息、时间动态等）评估12个维度。这提供了对MLLM描述能力的360度诊断。
-
-2. **Precision + Hit双指标**：Precision衡量"caption中描述的内容有多大比例是正确的"——检测幻觉和错误描述；Hit衡量"标注的视觉元素有多大比例被caption提到了"——检测遗漏。两个指标互补——只看precision可能高分但遗漏很多，只看hit可能全面但错误也多。
-
-3. **"Know but Cannot Tell"（K/T̄）指标**：将标注转换为QA对，发现模型在QA格式下能正确回答的内容在caption生成时却常常遗漏——即"知道但说不出"。这个差距（K/T̄）量化了模型的描述能力瓶颈——不是感知不到，而是生成时不主动描述。
-
-### 损失函数 / 训练策略
-纯评估benchmark，无训练。
+1. **6个视角12个维度**：Object（物体识别/属性/关系/数量）、Global（场景/情感）、Text（OCR）、Camera（角度/运动）、Temporal（时序）、Knowledge（常识）
+2. **Precision + Hit 指标**：Precision 衡量描述准确性，Hit 衡量覆盖全面性
+3. **KT 指标**：对比 QA 和 Caption 性能差异——如果模型在 QA 中能回答但在 Caption 中遗漏，说明存在"知道但不说"的能力差距
 
 ## 实验关键数据
-- **近11K人工标注**的图像和视频
-- **12维度**的全面评估
-- K/T̄指标揭示QA能力与caption能力之间的**显著差距**
-- 识别了各MLLM在不同维度上的具体优势和弱点
+| 模型 | Precision 最佳 | Hit 最佳 | KT Gap |
+|------|-------------|---------|--------|
+| GPT-4o | ✓ | | 显著 |
+| Gemini-1.5-pro | | ✓ | 显著 |
+| 开源 VLM | 中等 | 中等 | 更大 |
 
-## 亮点
-- **Precision + Hit的双指标设计**是对单一F1类指标的重要改进——分别诊断幻觉和遗漏
-- **"知道但说不出"（K/T̄）是非常有价值的发现**——揭示了MLLM的描述生成瓶颈不在于理解而在于主动表达
-- **12维度6视角**提供了前所未有的细粒度诊断——帮助研究者精确定位模型弱点
-- 覆盖图像和视频双模态
-- 近11K高质量人工标注
-
-## 局限性 / 可改进方向
-- 人工标注成本高，难以大规模扩展
-- 12维度的评估可能增加分析复杂度
-- 标注者偏好可能影响评估结果
-
-## 与相关工作的对比
-- **vs. CHAIR**：CHAIR只衡量物体幻觉（precision侧）；CAPability同时衡量正确性和全面性
-- **vs. ChartMuseum**：ChartMuseum专注图表的视觉推理；CAPability专注通用视觉描述的全面性
-- **vs. DetailCaps**：DetailCaps关注描述的详细程度；CAPability从更多维度评估
-
-## 启发与关联
-- K/T̄发现暗示需要在训练中鼓励模型"主动描述更多内容"——这可能通过RL奖励全面性来实现
+### 关键发现
+- GPT-4o 在 Precision 上最好（描述准确），Gemini-1.5-pro 在 Hit 上最好（描述全面）
+- 所有模型都存在显著的 KT gap，说明描述能力弱于 QA 能力
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ precision+hit双指标和K/T̄发现有创新
-- 实验充分度: ⭐⭐⭐⭐ 11K标注，多维度分析
-- 写作质量: ⭐⭐⭐⭐ 设计理念清晰
-- 价值: ⭐⭐⭐⭐ 为视觉描述评估提供了更全面的工具
+- 新颖性: ⭐⭐⭐⭐ KT 指标是新颖贡献
+- 实验充分度: ⭐⭐⭐⭐⭐ 11K数据+多模型+多维度
+- 写作质量: ⭐⭐⭐⭐ 评估框架描述清晰
+- 价值: ⭐⭐⭐⭐ 对VLM描述能力评估有重要推动

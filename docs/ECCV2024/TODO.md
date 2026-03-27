@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ECCV2024 论文笔记 TODO
 
-总计: 868 篇 | 已完成: 116 | 待更新: 752
+总计: 868 篇 | 已完成: 117 | 待更新: 751
 
 ---
 
@@ -478,7 +478,7 @@
 - [ ] [maptracker tracking with strided memory fusion for consistent vector hd mapping](autonomous_driving/maptracker_tracking_with_strided_memory_fusion_for_consistent_vector_hd_mapping.md) | arXiv: 2403.15951
 - [ ] [marineinst a foundation model for marine image analysis with instance visual des](self_supervised/marineinst_a_foundation_model_for_marine_image_analysis_with_instance_visual_des.md)
 - [ ] [mariner enhancing novel views by matching rendered images with nearby references](3d_vision/mariner_enhancing_novel_views_by_matching_rendered_images_with_nearby_references.md) | arXiv: 2407.13745
-- [ ] [marvelovd marrying object recognition and vision-language models for robust open](multimodal_vlm/marvelovd_marrying_object_recognition_and_vision-language_models_for_robust_open.md) | arXiv: 2407.21465
+- [x] [marvelovd marrying object recognition and vision-language models for robust open](multimodal_vlm/marvelovd_marrying_object_recognition_and_vision-language_models_for_robust_open.md) | arXiv: 2407.21465
 - [ ] [masked angle-aware autoencoder for remote sensing images](remote_sensing/masked_angle-aware_autoencoder_for_remote_sensing_images.md) | arXiv: 2408.01946
 - [ ] [masked video and body-worn imu autoencoder for egocentric action recognition](video_understanding/masked_video_and_body-worn_imu_autoencoder_for_egocentric_action_recognition.md) | arXiv: 2407.06628
 - [x] [mathverse does your multi-modal llm truly see the diagrams in visual math proble](multimodal_vlm/mathverse_does_your_multi-modal_llm_truly_see_the_diagrams_in_visual_math_proble.md) | arXiv: 2403.14624

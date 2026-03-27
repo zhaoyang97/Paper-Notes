@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🧠 NeurIPS2025** · 共 **44** 篇
+**🧠 NeurIPS2025** · 共 **46** 篇
 
 **[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](a_frustratingly_simple_yet_highly_effective_attack_baseline.md)**
 
@@ -63,9 +63,17 @@
 
 :   提出 BTB3D，一种基于因果卷积编解码器 + 3D Haar 小波压缩 + 三阶段渐进训练的 3D CT tokenizer，在放射报告生成和文本条件 CT 合成两大下游任务上大幅刷新 SOTA，证明"更好的 token 比更大的语言模型更重要"。
 
-**[CAPability: A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Thoroughness](capability_a_comprehensive_visual_caption_benchmark_for_eval.md)**
+**[Beyond Greedy Exits: Improved Early Exit Decisions for Risk Control and Reliability](beyond_greedy_exits_improved_early_exit_decisions_for_risk_control_and_reliabili.md)**
 
-:   提出CAPability，一个全面的多视角视觉描述benchmark，跨6个关键视角12个维度评估MLLM生成caption的正确性（precision）和全面性（hit），用近11K人工标注的图像视频，并引入"知道但说不出"（K/T̄）指标揭示模型在QA和caption之间的显著能力差距。
+:   提出 UAT（UCB-based Adaptive Thresholds）——用多臂赌博机框架在线自适应调整 Early-Exit DNN 的退出阈值，引入可靠性评分校正置信度过高问题，在文本分类/生成/视觉语言等任务上获得 1.70-2.10× 加速且性能损失 <2%，并提供风险理论保证。
+
+**[BioCLIP 2: Emergent Properties from Scaling Hierarchical Contrastive Learning](bioclip_2_emergent_properties_from_scaling_hierarchical_contrastive_learning.md)**
+
+:   构建 TreeOfLife-200M（2.14 亿张生物图像，95.2 万类群）训练 BioCLIP 2，仅用物种级监督就涌现出生态关系对齐和种内变异保持两种特性——物种分类零样本准确率比 BioCLIP 提升 18%，非物种分类任务平均超越 CLIP 14.8%、超越 DINOv3 8.9%，并通过理论证明解释了层次对比学习如何促进这些涌现特性。
+
+**[CAPability: A Comprehensive Visual Caption Benchmark for Evaluation](capability_a_comprehensive_visual_caption_benchmark_for_eval.md)**
+
+:   构建 CAPability——11K 标注的图片/视频描述评估基准，从 6 个视角 12 个维度评估 VLM 的描述能力，引入 KT（know-but-cannot-tell）指标衡量 VLM 在 QA 中已知但描述中遗漏的信息差距。
 
 **[Causal-LLaVA: Causal Disentanglement for Mitigating Hallucination in Multimodal Large Language Models](causalllava_causal_disentanglement_for_mitigating_hallucinat.md)**
 
@@ -91,9 +99,9 @@
 
 :   提出 DOTA（DistributiOnal Test-time Adaptation），不再简单缓存测试样本，而是**持续估计测试数据流的底层分布**，通过贝叶斯定理计算后验概率实现自适应，解决了缓存容量有限导致的灾难性遗忘问题，在多个分布偏移基准上达到 SOTA。
 
-**[Enhancing Compositional Reasoning in CLIP via Reconstruction and Alignment of Text Descriptions](enhancing_compositional_reasoning_in_clip_via_reconstruction.md)**
+**[READ: Enhancing Compositional Reasoning in CLIP via Reconstruction and Alignment of Text Descriptions](enhancing_compositional_reasoning_in_clip_via_reconstruction.md)**
 
-:   提出READ方法——通过在CLIP对比学习上增加token级文本重建（用冻结decoder从embedding重建替代caption）和句子级释义对齐（拉近同义不同表达的embedding）两个辅助目标，READ-CLIP在5个组合推理benchmark上达到SOTA，比最强基线提升4.1%。
+:   提出 READ 微调方法，通过两个辅助目标——(1) token-level 重建（冻结解码器从文本嵌入重建替代描述）和 (2) sentence-level 对齐（强制改述的嵌入一致）——增强 CLIP 文本编码器的组合推理能力，在 5 个组合推理基准上达到 SOTA（超 NegCLIP 4.5%，超 FSC-CLIP 4.1%）。
 
 **[Enhancing Vision-Language Model Reliability with Uncertainty-Guided Dropout Decoding](enhancing_visionlanguage_model_reliability_with_uncertaintyg.md)**
 
@@ -133,7 +141,7 @@
 
 **[MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly](mmlongbench_benchmarking_longcontext_visionlanguage_models_e.md)**
 
-:   首个全面覆盖长上下文视觉语言任务的benchmark，包含13,331个样本、5类下游任务（如Visual RAG和Many-Shot ICL）、多种图像类型，在5个标准化输入长度（8K-128K tokens）上评估46个模型，发现单任务性能不能代表整体长上下文能力、现有模型均面临显著挑战、推理能力与长上下文性能正相关。
+:   构建首个全面的长上下文视觉语言模型（LCVLM）评估基准 MMLongBench——13,331 个样本覆盖 5 类下游任务、混合图像类型、5 级标准化输入长度（8K-128K tokens），评估 46 个模型后发现单任务性能是整体能力的弱代理，且强推理能力与长上下文性能正相关。
 
 **[Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning](praxisvlm_visiongrounded_decision_making_via_textdriven_rein.md)**
 

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🔬 ICLR2026** · 共 **9** 篇
+**🔬 ICLR2026** · 共 **10** 篇
 
 **[A Geometric Perspective on the Difficulties of Learning GNN-based SAT Solvers](a_geometric_perspective_on_the_difficulties_of_learning_gnn-based_sat_solvers.md)**
 
@@ -18,6 +18,10 @@
 **[Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing](bilinear_representation_mitigates_reversal_curse_and_enables_consistent_model_ed.md)**
 
 :   通过在合成关系知识图谱上从头训练 Transformer，发现适当正则化会使模型隐层涌现出双线性关系结构（bilinear relational structure），该结构不仅能克服逆向诅咒（reversal curse），还能实现编辑单个事实后逻辑一致地传播到相关事实。
+
+**[Cooperative Sheaf Neural Networks](cooperative_sheaf_neural_networks.md)**
+
+:   提出 Cooperative Sheaf Neural Network (CSNN)，通过在有向图上定义 cellular sheaf 的入度/出度 Laplacian，使节点能独立选择是否广播 (PROPAGATE) 或监听 (LISTEN) 信息，从而缓解过压缩并提升异质图节点分类性能。
 
 **[Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization](embodied_agents_meet_personalization_investigating_challenges_and_solutions_thro.md)**
 

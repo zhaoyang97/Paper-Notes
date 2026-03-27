@@ -5,7 +5,7 @@
 
 **[C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems](c2al_cohort-contrastive_auxiliary_learning_for_large-scale_recommendation_system.md)**
 
-:   提出 C2AL（Cohort-Contrastive Auxiliary Learning），通过发现用户群体间的分布差异构建对比性辅助任务，正则化共享表征使注意力权重更稠密、更多样，缓解大规模推荐系统中对少数群体的表征偏差，在 Meta 6 个生产模型上验证有效。
+:   提出 C2AL（Cohort-Contrastive Auxiliary Learning），通过数据驱动地发现分布差异最大的用户群体对，构建对比性辅助二分类任务正则化共享编码器，使 FM 注意力权重从稀疏变为稠密，缓解大规模推荐系统中少数群体的表征偏差，在 Meta 6 个生产模型（数十亿数据点）上验证有效。
 
 **[From Evaluation to Defense: Advancing Safety in Video Large Language Models](from_evaluation_to_defense_advancing_safety_in_video_large_language_models.md)**
 

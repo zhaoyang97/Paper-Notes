@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🧠 NeurIPS2025** · 共 **39** 篇
+**🧠 NeurIPS2025** · 共 **42** 篇
 
 **[70% Size, 100% Accuracy: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float (DFloat11)](70_size_100_accuracy_lossless_llm_compression_for_efficient.md)**
 
@@ -75,9 +75,21 @@
 
 :   提出 Prime（Partial masking scheme），突破 Masked Diffusion Model 的二元状态（mask/unmask）限制，引入中间态（部分观测的 token 信息），减少冗余计算并实现更细粒度的去噪过程，在文本生成上 PPL 15.36 超越自回归模型（17.54）和标准 MDM（21.52），在图像生成上取得 CIFAR-10 FID 3.26。
 
+**[BitMark: Watermarking Bitwise Autoregressive Image Generative Models](bitmark_watermarking_bitwise_autoregressive_image_generative_models.md)**
+
+:   提出 BitMark——首个针对比特级自回归图像生成模型（Infinity/Instella）的水印方案，在生成过程中通过微调比特 logit 偏置将水印嵌入比特流，在 δ=2 时对图像质量几乎无影响（FID 31.05 vs 33.36），对多种去除攻击鲁棒，且具有放射性——在水印图像上微调的其他模型的输出仍携带水印。
+
+**[Blameless Users in a Clean Room: Defining Copyright Protection for Generative Models](blameless_users_in_a_clean_room_defining_copyright_protection_for_generative_mod.md)**
+
+:   从数学和法律双重视角重新审视生成模型的版权保护：证明了此前唯一的形式化定义 NAF（Near Access-Freeness）可被利用进行逐字复制，提出"无过错版权保护"(Blameless Copyright Protection) 框架和"洁净室版权保护"(Clean-Room Copyright Protection) 实例化，并证明差分隐私（DP）训练在数据集"黄金化"（去重）条件下可保证洁净室版权保护。
+
 **[BlurDM: A Blur Diffusion Model for Image Deblurring](blurdm_a_blur_diffusion_model_for_image_deblurring.md)**
 
 :   提出 BlurDM，将运动模糊的物理形成过程（连续曝光导致渐进模糊累积）集成到扩散模型——双扩散前向（同时加噪声+模糊）+ 双去噪去模糊反向，作为隐空间先验生成器一致性增强 4 种去模糊方法在 4 个数据集上的效果，GoPro 平均 +0.31 dB，RealBlur-J 平均 +0.78 dB，仅增加 ~4 GFLOPs 和 ~9ms。
+
+**[BlurGuard: A Simple Approach for Robustifying Image Protection Against AI-Powered Editing](blurguard_a_simple_approach_for_robustifying_image_protection_against_ai-powered.md)**
+
+:   提出 BlurGuard——通过自适应逐区域高斯模糊 + 功率谱正则化使对抗性图像保护噪声在频谱上更"自然"（不可逆），从而大幅提升保护鲁棒性：最坏情况下保护效果保持率从 48% 提升至 93%，同时降低感知质量损失。
 
 **[Boosting Generative Image Modeling via Joint Image-Feature Synthesis](boosting_generative_image_modeling_via_joint_imagefeature_sy.md)**
 

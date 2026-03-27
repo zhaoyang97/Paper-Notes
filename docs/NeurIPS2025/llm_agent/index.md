@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🧠 NeurIPS2025** · 共 **30** 篇
+**🧠 NeurIPS2025** · 共 **32** 篇
 
 **[A-MEM: Agentic Memory for LLM Agents](a-mem_agentic_memory_for_llm_agents.md)**
 
@@ -39,13 +39,21 @@
 
 :   提出 AgentTTS，一个用 LLM agent 自动搜索多阶段复杂任务中**测试时计算最优缩放策略**（模型选择+预算分配）的框架，通过迭代反馈驱动的交互显著提升搜索效率和性能。
 
+**[Are Large Language Models Sensitive to the Motives Behind Communication?](are_large_language_models_sensitive_to_the_motives_behind_communication.md)**
+
+:   用三个递进实验评估 LLM 的"动机警觉性"——能否像人类一样根据信息传递者的动机（善意 vs 利益驱动）调整信任程度，发现前沿模型在控制实验中高度理性（与贝叶斯模型相关性 0.91），但在自然场景（YouTube 赞助推荐）中急剧下降至 r<0.2，揭示了 LLM 社会认知的关键局限。
+
+**[Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools](attractive_metadata_attack_inducing_llm_agents_to_invoke_malicious_tools.md)**
+
+:   提出 AMA（Attractive Metadata Attack）——通过黑盒优化生成高吸引力但语法合法的恶意工具元数据（名称/描述/参数 schema），诱导 LLM Agent 选择恶意工具而非正常工具，在 10 个真实工具使用场景中实现 81%-95% 攻击成功率，且绕过 prompt 级防御、审计检测和 MCP 协议。
+
 **[Automated Composition of Agents: A Knapsack Approach for Agentic Component Selection](automated_composition_of_agents_a_knapsack_approach_for_agentic_component_select.md)**
 
 :   将 Agent 组件选择问题形式化为在线背包问题，提出 Composer Agent 框架：通过沙盒实测（而非静态语义检索）评估组件真实能力，结合 ZCL 在线算法在预算约束下动态选取最优组件组合，单 Agent 工具选择成功率提升最高 31.6%，多 Agent 子代理选择成功率从 37% 跃升至 87%。
 
-**[Benchmarking Agentic Systems In Automated Scientific Information Extraction With](benchmarking_agentic_systems_in_automated_scientific_information_extraction_with.md)**
+**[Benchmarking Agentic Systems in Automated Scientific Information Extraction](benchmarking_agentic_systems_in_automated_scientific_information_extraction_with.md)**
 
-:   提出ChemX基准，用10个精心策划的化学数据集全面评估agentic系统从科学文献中自动提取化学信息的能力。
+:   构建 ChemX——10 个人工标注的多模态化学数据提取数据集，系统评估 SOTA Agent 系统（ChatGPT Agent、SLM-Matrix、FutureHouse、nanoMINER）和 LLM（GPT-5 等），发现单 Agent 方法（GPT-5）在纳米酶数据集上达到 F1=0.58，超越专用多 Agent 系统。
 
 **[BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent](btlui_blinkthinklink_reasoning_model_for_gui_agent.md)**
 
@@ -107,9 +115,9 @@
 
 :   利用后缀树缓存长序列，通过自适应推测长度实现 5.3 倍加速，特别针对 Agent 场景中高度可预测的重复推理任务。
 
-**[T1 A Tool-Oriented Conversational Dataset For Multi-Turn Agentic Planning](t1_a_tool-oriented_conversational_dataset_for_multi-turn_agentic_planning.md)**
+**[T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning](t1_a_tool-oriented_conversational_dataset_for_multi-turn_agentic_planning.md)**
 
-:   构建T1数据集——13.5K多轮对话，覆盖工具依赖、多步规划等复杂Agent场景，用于评估和训练LLM的多轮工具使用能力。
+:   构建 T1 数据集——13.5K 多轮对话覆盖 9 个领域，聚焦工具间依赖关系和动态重规划，并提出 T1-Agent 系统（代码生成架构+缓存机制），为评估 LLM Agent 的工具协调能力提供全面基准。
 
 **[The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement](the_lighthouse_of_language_enhancing_llm_agents_via_critique-guided_improvement.md)**
 

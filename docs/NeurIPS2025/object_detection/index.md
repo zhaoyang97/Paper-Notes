@@ -13,7 +13,7 @@
 
 **[Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector](any_large_language_model_can_be_a_reliable_judge_debiasing_w.md)**
 
-:   提出 Reasoning-based Bias Detector (RBD)，一个即插即用的外部偏差检测模块，通过生成结构化推理来引导 LLM 评估器自我纠正，覆盖冗长、位置、从众和情感四种偏差类型，RBD-8B 平均提升评估准确率 18.5%、一致性 10.9%，且适用于开源和闭源 LLM 评估器。
+:   提出 Reasoning-based Bias Detector（RBD）作为 LLM 评判器的即插即用去偏模块——通过外部检测 4 种评估偏见（冗长/位置/从众/情感），生成带推理链的结构化反馈引导评判器自我纠正，RBD-8B 在 8 个 LLM 评判器上平均提升准确率 18.5%、一致性 10.9%。
 
 **[Ascent Fails to Forget](ascent_fails_to_forget.md)**
 

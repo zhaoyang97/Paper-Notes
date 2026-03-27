@@ -1,5 +1,5 @@
 # Auto-generated: ECCV2024 paper notes ignore
-# 由 src/sync_notes.py 根据 TODO.md 自动生成
+# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
 
 # 默认忽略所有笔记
 *.md
@@ -8,9 +8,8 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
-!index.md
 
-# 排除已完成笔记所在的子目录
+# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
 !3d_vision/
 !ai_safety/
 !autonomous_driving/
@@ -32,7 +31,7 @@
 !self_supervised/
 !video_understanding/
 
-# 已完成笔记 (116 篇)
+# 已完成笔记 (117 篇)
 !3d_vision/3d_congealing_3d-aware_image_alignment_in_the_wild.md
 !3d_vision/3d_reconstruction_of_objects_in_hands_without_real_world_3d.md
 !3d_vision/3d_single-object_tracking_in_point_clouds_with_high_temporal_variation.md
@@ -116,6 +115,7 @@
 !multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator.md
 !multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode.md
 !multimodal_vlm/grounding_language_models_for_visual_entity_recognition.md
+!multimodal_vlm/marvelovd_marrying_object_recognition_and_vision-language_models_for_robust_open.md
 !multimodal_vlm/mathverse_does_your_multi-modal_llm_truly_see_the_diagrams_in_visual_math_proble.md
 !multimodal_vlm/sharegpt4v_improving_large_multi-modal_models_with_better_captions.md
 !multimodal_vlm/umbrae_unified_multimodal_brain_decoding.md
