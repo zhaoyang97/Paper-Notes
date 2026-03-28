@@ -29,7 +29,7 @@
 
 **[SAGA: Learning Signal-Aligned Distributions for Improved Text-to-Image Generation](saga_learning_signal-aligned_distributions_for_improved_text-to-image_generation.md)**
 
-:   提出SAGA，通过学习与文本prompt对齐的中间时间步latent的条件高斯分布 $p(z_t|y)$（而非优化单点latent），实现training-free的文本-图像对齐改善，在SD1.4上2实体TIAM从基线提升到85.5%。
+:   提出SAGA方法，通过学习与提示词对齐的高斯分布来改进文本到图像生成模型的语义对齐，无需重新训练且支持文本和空间双条件生成，在SD 1.4和SD 3上大幅提升对齐性能（TIAM-3从8.4%提升到50.7%）。
 
 **[TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models](ttf-vla_temporal_token_fusion_via_pixel-attention_integratio.md)**
 

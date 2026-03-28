@@ -1,5 +1,5 @@
 # Auto-generated: ICLR2026 paper notes ignore
-# 由 src/sync_notes.py 根据 TODO.md 自动生成
+# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
 
 # 默认忽略所有笔记
 *.md
@@ -8,9 +8,8 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
-!index.md
 
-# 排除已完成笔记所在的子目录
+# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
 !3d_vision/
 !ai_safety/
 !aigc_detection/
@@ -46,7 +45,7 @@
 !time_series/
 !video_understanding/
 
-# 已完成笔记 (613 篇)
+# 已完成笔记 (614 篇)
 !3d_vision/3dgeer_3d_gaussian_rendering_made_exact_and_efficient_for_generic_cameras.md
 !3d_vision/a_genetic_algorithm_for_navigating_synthesizable_molecular_spaces.md
 !3d_vision/a_step_to_decouple_optimization_in_3dgs.md
@@ -382,6 +381,7 @@
 !medical_imaging/confhit_conformal_generative_design_with_oracle_free_guarantees.md
 !medical_imaging/controlling_repetition_in_protein_language_models.md
 !medical_imaging/cryonetrefine_a_one-step_diffusion_model_for_rapid_refinement_of_structural_mode.md
+!medical_imaging/decentralized_attention_fails_centralized_signals_rethinking_transformers_for_me.md
 !medical_imaging/deep_hierarchical_learning_with_nested_subspace_networks_for_large_language_mode.md
 !medical_imaging/disco_densely-overlapping_cell_instance_segmentation_via_adjacency-aware_collabo.md
 !medical_imaging/distmlip_a_distributed_inference_platform_for_machine_learning_interatomic_poten.md

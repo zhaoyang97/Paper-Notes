@@ -23,9 +23,9 @@
 
 :   提出Apo2Mol，一个基于扩散的全原子框架，从蛋白质apo（未结合）构象出发，同时生成3D配体分子和对应的holo（结合态）口袋构象，使用24K实验解析的apo-holo结构对训练，在结合亲和力（Vina min -7.86）和药物类似性上达到SOTA。
 
-**[Egoems A High-Fidelity Multimodal Egocentric Dataset For Cognitive Assistance In](egoems_a_high-fidelity_multimodal_egocentric_dataset_for_cognitive_assistance_in.md)**
+**[EgoEMS: A High-Fidelity Multimodal Egocentric Dataset for Cognitive Assistance in Emergency Medical Services](egoems_a_high-fidelity_multimodal_egocentric_dataset_for_cognitive_assistance_in.md)**
 
-:   构建EgoEMS——首个面向急救医疗(EMS)的第一视角多模态数据集，包含233场模拟场景（20小时）的同步视频/音频/IMU数据，涵盖9种干预措施和67个关键步骤，为EMS认知辅助系统提供基准。
+:   发布首个高保真多人多模态自我中心EMS数据集，包含233个试验20小时视频、9项干预67个关键步骤标注，提供三个基准任务（步骤分类/在线分割/CPR质量估计）推动EMS认知协助系统开发。
 
 **[FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)**
 

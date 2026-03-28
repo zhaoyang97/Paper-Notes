@@ -5,4 +5,4 @@
 
 **[MdaIF: Robust One-Stop Multi-Degradation-Aware Image Fusion with Language-Driven Semantics](mdaif_robust_one-stop_multi-degradation-aware_image_fusion_with_language-driven_.md)**
 
-:   提出 MdaIF 框架，利用预训练 VLM 提取语义先验来指导退化感知的通道注意力模块 (DCAM) 和混合专家网络 (DMoE)，实现在雾、雨、雪等多种恶劣天气条件下的一站式红外-可见光图像融合，无需依赖退化类型的真实标签即可自适应处理多种退化场景。
+:   提出 MdaIF 框架，利用视觉语言模型（VLM）提取退化感知语义先验来引导混合专家（MoE）路由和通道注意力调制，实现无需退化类型标注的一站式多退化场景红外-可见光图像融合。

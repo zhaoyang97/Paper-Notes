@@ -85,7 +85,7 @@
 
 **[Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series](decentralized_attention_fails_centralized_signals_rethinking_transformers_for_me.md)**
 
-:   提出 TeCh 框架，用核心 Token 聚合-再分配（CoTAR）替代标准注意力处理医学时间序列的通道依赖，将复杂度从 $O(n^2)$ 降至 $O(n)$，在 APAVA 上精度 86.86%（超 Medformer 12.13%），内存仅 33%、推理时间仅 20%。
+:   提出 TeCh 框架，核心是用 CoTAR（Core Token Aggregation-Redistribution）模块替代 Transformer 中的标准注意力来建模医学时间序列的通道依赖——通过引入全局"核心 token"充当代理，先聚合所有通道信息再重分配回每个通道，复杂度从 $O(n^2)$ 降至 $O(n)$，在 APAVA 数据集上精度 86.86%（超 Medformer 12.13%），内存仅 33%、推理时间仅 20%。
 
 **[Deep Hierarchical Learning with Nested Subspace Networks for Large Language Models](deep_hierarchical_learning_with_nested_subspace_networks_for_large_language_mode.md)**
 

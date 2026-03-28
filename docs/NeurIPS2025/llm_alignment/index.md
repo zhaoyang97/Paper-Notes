@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**🧠 NeurIPS2025** · 共 **25** 篇
+**🧠 NeurIPS2025** · 共 **27** 篇
 
 **[A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs](a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md)**
 
@@ -58,6 +58,14 @@
 **[g-DPO: Scalable Preference Optimization for Protein Language Models](g-dpo_scalable_preference_optimization_for_protein_language_models.md)**
 
 :   针对蛋白质语言模型的偏好优化提出 g-DPO，通过序列空间聚类剪枝冗余对和 union masking 摊销似然计算，在保持标准 DPO 性能的同时实现 1.7-5.4× 训练加速。
+
+**[Gasp Efficient Black-Box Generation Of Adversarial Suffixes For Jailbreaking Llm](gasp_efficient_black-box_generation_of_adversarial_suffixes_for_jailbreaking_llm.md)**
+
+:   提出GASP框架，通过训练专用的SuffixLLM生成可读的对抗后缀，利用潜在贝叶斯优化（LBO）在连续嵌入空间中高效搜索并用ORPO迭代微调生成器，在完全黑盒设置下实现高攻击成功率且生成的后缀保持人类可读性。
+
+**[Greedy Sampling Is Provably Efficient For Rlhf](greedy_sampling_is_provably_efficient_for_rlhf.md)**
+
+:   证明了在KL正则化的RLHF设置下，直接使用经验估计的贪心采样（无需构建乐观/悲观估计）就能在在线和离线两种设置中实现$O(\log T)$遗憾界和$O(\varepsilon^{-1})$样本复杂度，这是首次在一般偏好模型下达到这些阶数。
 
 **[GVPO: Group Variance Policy Optimization for Large Language Model Post-Training](gvpo_group_variance_policy_optimization_for_large_language_model_post-training.md)**
 

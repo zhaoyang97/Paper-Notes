@@ -1,6 +1,6 @@
 # 📚 AI Paper Notes
 
-**2,431** 篇 AI/LLM/NLP/CV 顶会论文解读，每篇 5 分钟读懂核心思想。覆盖 ACL、NeurIPS、ICLR、AAAI、CVPR、ICCV、ECCV 等 9 大顶会，横跨 LLM Reasoning、多模态 VLM、Agent、对齐/RLHF、模型压缩、图像生成、AI 安全、强化学习、自动驾驶等 35+ 研究方向，持续更新中。
+**3,000** 多篇 AI/LLM/NLP/CV 顶会论文解读，每篇 5 分钟读懂核心思想。覆盖 ACL、NeurIPS、ICLR、AAAI、CVPR、ICCV、ECCV 等 9 大顶会，横跨 LLM Reasoning、多模态 VLM、Agent、对齐/RLHF、模型压缩、图像生成、AI 安全、强化学习、自动驾驶等 35+ 研究方向，持续更新中。
 
 ## 🌐 在线阅读
 
@@ -10,15 +10,15 @@
 
 | 会议 | 笔记数 | 子领域数 | 说明 |
 |------|--------|----------|------|
-| ICLR 2026 | 1524 | 34 | |
-| CVPR 2026 | 1099 | 32 | 早期收录 |
-| AAAI 2026 | 1384 | 35 | 含 Oral 标注 |
-| NeurIPS 2025 | 2528 | 35 | |
-| ACL 2025 | 475 | 23 | |
-| ICCV 2025 | 133 | 21 | |
-| CVPR 2025 | 3069 | 34 | 含 Oral/Highlight 标注 |
-| ECCV 2024 | 971 | 31 | |
-| arXiv 2026 | 175 | 15 | 预印本 |
+| ICLR 2026 | 614 | 34 | |
+| CVPR 2026 | 353 | 32 | 早期收录 |
+| AAAI 2026 | 256 | 35 | 含 Oral 标注 |
+| NeurIPS 2025 | 541 | 35 | |
+| ACL 2025 | 474 | 23 | |
+| ICCV 2025 | 120 | 21 | |
+| CVPR 2025 | 201 | 34 | 含 Oral/Highlight 标注 |
+| ECCV 2024 | 117 | 31 | |
+| arXiv 2026 | 5 | 15 | 预印本 |
 
 ## 🔍 研究领域
 

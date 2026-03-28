@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ICLR2026 论文笔记 TODO
 
-总计: 1514 篇 | 已完成: 613 | 待更新: 901
+总计: 1514 篇 | 已完成: 614 | 待更新: 900
 
 ---
 
@@ -283,7 +283,7 @@
 - [x] [Dataset Color Quantization: A Training-Oriented Framework for Dataset-Level Compression](model_compression/dataset_color_quantization_a_training-oriented_framework_for_dataset-level_compr.md) | arXiv: 2602.20650
 - [x] [Dataset Distillation as Pushforward Optimal Quantization](model_compression/dataset_distillation_as_pushforward_optimal_quantization.md) | arXiv: 2501.07681
 - [x] [Death of the Novel(ty): Beyond n-Gram Novelty as a Metric for Textual Creativity](aigc_detection/death_of_the_novelty_beyond_n-gram_novelty_as_a_metric_for_textual_creativity.md) | arXiv: 2509.22641
-- [ ] [Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series](medical_imaging/decentralized_attention_fails_centralized_signals_rethinking_transformers_for_me.md) | arXiv: 2602.18473
+- [x] [Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series](medical_imaging/decentralized_attention_fails_centralized_signals_rethinking_transformers_for_me.md) | arXiv: 2602.18473
 - [x] [Decoding Open-Ended Information Seeking Goals from Eye Movements in Reading](video_understanding/decoding_open-ended_information_seeking_goals_from_eye_movements_in_reading.md) | arXiv: 2505.02872
 - [x] [Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](others/decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md) | arXiv: 2508.01916
 - [x] [Deconstructing Positional Information: From Attention Logits to Training Biases](others/deconstructing_positional_information_from_attention_logits_to_training_biases.md) | arXiv: 2505.13027

@@ -1,23 +1,31 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🧠 NeurIPS2025** · 共 **32** 篇
+**🧠 NeurIPS2025** · 共 **35** 篇
 
 **[A-MEM: Agentic Memory for LLM Agents](a-mem_agentic_memory_for_llm_agents.md)**
 
 :   提出 A-Mem，一种受 Zettelkasten 启发的 LLM Agent 智能记忆系统，每条记忆自动生成结构化笔记（关键词/标签/上下文描述），动态建立记忆间链接，并在新记忆加入时触发旧记忆的演化更新，在 LoCoMo 长对话 QA 上显著超越 MemGPT 等基线。
 
+**[A Differentiable Model of Supply-Chain Shocks](a_differentiable_model_of_supply-chain_shocks.md)**
+
+:   本文用 JAX 实现了一个可微分的供应链 Agent-Based Model（ABM），通过 GPU 并行化和自动微分实现了比传统无梯度方法快 3 个数量级的贝叶斯参数校准，为大规模供应网络建模打开了可能性。
+
 **[A Self-Improving Coding Agent](a_selfimproving_coding_agent.md)**
 
 :   提出SICA（Self-Improving Coding Agent），一个能自主编辑自身代码库来提升性能的编程Agent——消除了meta-agent和target-agent的区分，通过迭代式自我改进在SWE-Bench Verified子集上从17%提升到53%。
+
+**[Adaptive Cooperative Transmission Design for URLLC via Deep Reinforcement Learning](adaptive_cooperative_transmission_design_for_ultra-reliable_low-latency_communic.md)**
+
+:   针对两跳协作中继通信中的URLLC难题，提出DRL-CoLA算法：将每跳传输参数配置建模为MDP，用双agent DQN在仅观测本地CSI和ARQ反馈下学习分布式时延感知传输策略，接近全局最优可靠性。
 
 **[AgentAuditor: Human-Level Safety and Security Evaluation for LLM Agents](agentauditor_humanlevel_safety_and_security_evaluation_for_l.md)**
 
 :   提出 AgentAuditor，一个通用的无训练记忆增强推理框架，使 LLM 评估者能模拟人类专家评估 agent 的安全与安全性——通过自适应提取结构化语义特征并生成CoT推理轨迹构建经验记忆，多阶段上下文感知 RAG 检索相关经验指导新案例评估，在自建的 ASSEBench（2293条记录×15类風险×29场景）上达到人类水平准确率。
 
-**[AgentChangeBench: A Multi-Dimensional Evaluation Framework for Goal-Shift Robustness in Conversational AI](agentchangebench_a_multi-dimensional_evaluation_framework_for_goal-shift_robustn.md)**
+**[AgentChangeBench: A Multi-Dimensional Evaluation Framework for Goal-Shift Robustness](agentchangebench_a_multi-dimensional_evaluation_framework_for_goal-shift_robustn.md)**
 
-:   提出 AgentChangeBench，一个专门评测 LLM Agent 在多轮对话中应对用户**中途切换目标**能力的 benchmark，包含 315 个跨三领域（银行/零售/航空）任务和 4 个互补指标（TSR/TUE/TCRR/GSRT），发现即使 pass@k 相近的模型在恢复速度和冗余工具调用方面差异极大。
+:   AgentChangeBench 是首个系统评估 LLM agent 在对话中途目标切换时适应能力的 benchmark：315 基础任务 × 9 变体 = 2835 序列，覆盖 3 个企业领域（银行/零售/航空）和 5 种 user persona，引入 GSRT（目标切换恢复时间）等 4 个互补指标，揭示高 pass@k 掩盖的效率和鲁棒性差距——如 GPT-4o 航空恢复率 92.2% 但零售冗余率达 89.1%。
 
 **[AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents](agentdam_privacy_leakage_evaluation_for_autonomous_web_agent.md)**
 
@@ -41,15 +49,19 @@
 
 **[Are Large Language Models Sensitive to the Motives Behind Communication?](are_large_language_models_sensitive_to_the_motives_behind_communication.md)**
 
-:   用三个递进实验评估 LLM 的"动机警觉性"——能否像人类一样根据信息传递者的动机（善意 vs 利益驱动）调整信任程度，发现前沿模型在控制实验中高度理性（与贝叶斯模型相关性 0.91），但在自然场景（YouTube 赞助推荐）中急剧下降至 r<0.2，揭示了 LLM 社会认知的关键局限。
+:   系统评估 LLM 对通信动机的敏感性（motivational vigilance）——在控制实验中 LLM 能像人类一样折扣有偏见信源的建议（与理性模型相关系数 r>0.78），但在真实场景（YouTube 赞助广告）中表现大幅下降（r<0.2），通过简单的 prompt steering 可部分恢复。
 
 **[Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools](attractive_metadata_attack_inducing_llm_agents_to_invoke_malicious_tools.md)**
 
-:   提出 AMA（Attractive Metadata Attack）——通过黑盒优化生成高吸引力但语法合法的恶意工具元数据（名称/描述/参数 schema），诱导 LLM Agent 选择恶意工具而非正常工具，在 10 个真实工具使用场景中实现 81%-95% 攻击成功率，且绕过 prompt 级防御、审计检测和 MCP 协议。
+:   AMA（Attractive Metadata Attack）证明仅通过精心设计恶意工具的元数据（名称、描述、参数模式），不需要提示注入或模型内部访问，就能诱导 LLM Agent 以 81-95% 的成功率调用攻击者工具并泄露隐私，同时几乎不影响原始任务完成（98%+），且现有防御（审计器、提示重写）效果有限。
 
 **[Automated Composition of Agents: A Knapsack Approach for Agentic Component Selection](automated_composition_of_agents_a_knapsack_approach_for_agentic_component_select.md)**
 
 :   将 Agent 组件选择问题形式化为在线背包问题，提出 Composer Agent 框架：通过沙盒实测（而非静态语义检索）评估组件真实能力，结合 ZCL 在线算法在预算约束下动态选取最优组件组合，单 Agent 工具选择成功率提升最高 31.6%，多 Agent 子代理选择成功率从 37% 跃升至 87%。
+
+**[VeriMaAS: Automated Multi-Agent Workflows for RTL Design](automated_multi-agent_workflows_for_rtl_design.md)**
+
+:   VeriMaAS 提出自动组合 agent 工作流的框架用于 RTL 代码生成——关键创新是将 HDL 工具的形式化验证反馈直接整合到工作流生成中，无需梯度更新或长推理链，在 pass@k 上超过微调基线 5-7%，且训练样本需求降低一个量级。
 
 **[Benchmarking Agentic Systems in Automated Scientific Information Extraction](benchmarking_agentic_systems_in_automated_scientific_information_extraction_with.md)**
 
@@ -117,7 +129,7 @@
 
 **[T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning](t1_a_tool-oriented_conversational_dataset_for_multi-turn_agentic_planning.md)**
 
-:   构建 T1 数据集——13.5K 多轮对话覆盖 9 个领域，聚焦工具间依赖关系和动态重规划，并提出 T1-Agent 系统（代码生成架构+缓存机制），为评估 LLM Agent 的工具协调能力提供全面基准。
+:   构建 T1 数据集——13.5K 多轮对话覆盖 9 个领域（4 单领域 + 5 跨领域）、14 个工具，聚焦工具间依赖和动态重规划，并提出 T1-Agent（代码生成 + 缓存机制）作为基线系统；实验发现 SFT 后的 Llama 8B 在 Tool Call F1 上达 87.17%，超越未微调的 70B 模型，但仍落后于 GPT-5/o3 等闭源模型。
 
 **[The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement](the_lighthouse_of_language_enhancing_llm_agents_via_critique-guided_improvement.md)**
 

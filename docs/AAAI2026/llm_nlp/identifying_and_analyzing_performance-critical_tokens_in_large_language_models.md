@@ -47,28 +47,40 @@
 
 ## 实验关键数据
 
-### 主实验
-保留不同类型token表示时的ICL性能（以AGNews为例）：
+### 主实验——表示级消融（Representation-Level Ablation）
 
-| 保留的token | Llama-7B | Llama-13B | Llama-33B |
-|------------|----------|-----------|----------|
-| 全部 (baseline) | ~78% | ~82% | ~85% |
-| 仅Template+Stopword | 接近baseline | 接近baseline | 接近baseline |
-| 仅Content | ~25%（≈随机） | ~25% | ~25% |
-| 无 (zero-shot) | ~25% | ~25% | ~25% |
+从标准ICL（Standard ICL）中mask掉某类token的表示（仅影响test example的attention），测量准确率变化：
 
-### 消融实验
+| 设置 | AGNews | SST2 | DBPedia | 平均△ |
+|------|--------|------|---------|-------|
+| Standard ICL（7B） | 85.0 | 93.2 | 66.7 | 基准70.7 |
+| − content | 82.4 | 85.5 | 64.2 | **-3.8** |
+| − stopword | 84.8 | 88.0 | 65.7 | -2.5 |
+| − template | 0.9 | 61.0 | 12.9 | **-32.8** |
+
+从零样本（Zero-shot）中加入某类token的表示：
+
+| 设置 | 33B模型 平均△ |
+|------|-------------|
+| Zero-shot基线 | 54.6 |
+| + content | **-6.7**（反而下降） |
+| + stopword | +17.7 |
+| + template | **+24.6** |
+
+### Token级消融（Token-Level Ablation）
 | 配置 | 效果 | 说明 |
 |------|------|------|
-| 只mask content表示 | 性能几乎不变 | content不是直接依赖 |
-| 只mask template表示 | 性能大幅下降 | template是直接依赖 |
-| 删除content token | 性能大幅下降 | content信息是必需的 |
+| 只mask content表示 | 性能几乎不变（-3.8%） | content不是test example的直接依赖 |
+| 只mask template表示 | 性能暴跌（-32.8%） | template是test example的直接依赖 |
+| 从prompt中删除content token | 性能大幅下降 | content信息是必需的——但间接提供 |
 | 切断content→template信息流 | 性能下降 | 验证了信息聚合机制 |
 
 ### 关键发现
 - **反直觉核心发现**：LLM不像人类那样直接"关注"内容token，而是将内容信息聚合到模板token的表示中，再从模板表示中做决策
+- **Template token的平均贡献是content的6.5倍**：+template带来平均+24.6%提升，+content仅-6.7%（甚至负面影响），量化差距极大
+- **Content token的"间接贡献"假说**：表示级消融显示content不重要，token级消融显示content必需——这个"矛盾"证明content通过聚合到template表示来间接贡献
 - 三个特征（词汇含义/重复性/结构线索）在所有模型大小上都一致，说明这是LLM的通用机制
-- 结果对不同instruction prompt和不同模型都鲁棒
+- 结果对不同instruction prompt和不同模型（Llama/Llama 2/Mistral/Gemma 3）都鲁棒
 
 ## 亮点与洞察
 - **"LLM和人类的attention完全不同"**这个发现非常有启发性：人类关注内容词，LLM关注模板/结构词。这挑战了"LLM像人一样理解text"的假设

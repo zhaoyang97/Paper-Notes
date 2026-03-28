@@ -1,19 +1,27 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🤖 AAAI2026** · 共 **5** 篇
+**🤖 AAAI2026** · 共 **7** 篇
 
 **[AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions](ahamask_reliable_task_specification_for_large_audio_language.md)**
 
 :   通过对大音频语言模型（LALM）Transformer 骨干中的注意力头进行二值掩码（AHAMask），无需文本指令即可可靠触发特定声学任务功能，同时揭示了 LALM 内部存在"声学功能通路"。
 
-**[Dualspeechlm Towards Unified Speech Understanding And Generation Via Dual Speech](dualspeechlm_towards_unified_speech_understanding_and_generation_via_dual_speech.md)**
+**[Aligning Generative Music AI with Human Preferences: Methods and Challenges](aligning_generative_music_ai_with_human_preferences_methods_and_challenges.md)**
 
-:   提出 DualSpeechLM，通过 USTokenizer 生成与 LLM 语义空间对齐的语音 token 作为输入（理解），同时用声学 token 作为输出（生成），仅用 4.5K 小时数据就实现理解+生成的统一，ASR WER 4.22%（超越 Mini-Omni2 的 4.8%），TTS WER 降至 9.25%。
+:   综述论文，系统梳理了偏好对齐技术在音乐生成中的应用——包括 MusicRL（大规模 RLHF）、DiffRhythm+（扩散模型 DPO）和 Text2midi-InferAlign（推理时树搜索），讨论了音乐领域特有的对齐挑战（时间连贯性、和声一致性、主观性评估）和未来方向。
 
-**[Generalizing Analogical Inference From Boolean To Continuous Domains](generalizing_analogical_inference_from_boolean_to_continuous_domains.md)**
+**[Cross-Space Synergy: A Unified Framework for Multimodal Emotion Recognition in Conversation](cross-space_synergy_a_unified_framework_for_multimodal_emotion_recognition_in_co.md)**
 
-:   将形式化类比推理理论从Boolean分类扩展到连续回归域，提出基于参数化广义均值的类比定义，完全刻画了类比保持的连续函数类，并修正了Boolean设置下的错误泛化界。
+:   提出 Cross-Space Synergy（CSS）框架，通过表示空间的协同多项式融合（SPF）和梯度空间的 Pareto 梯度调节器（PGM）双管齐下，同时解决多模态对话情感识别中融合表达力不足和多目标梯度冲突两大难题。
+
+**[DualSpeechLM: Towards Unified Speech Understanding and Generation via Dual Speech Token Modeling](dualspeechlm_towards_unified_speech_understanding_and_generation_via_dual_speech.md)**
+
+:   提出 DualSpeechLM 框架，通过理解驱动语音分词器（USTokenizer）提取高层语义 token 作为 LLM 输入、声学 token 作为输出，在一个端到端框架中同时优化语音理解和生成能力。
+
+**[Generalizing Analogical Inference from Boolean to Continuous Domains](generalizing_analogical_inference_from_boolean_to_continuous_domains.md)**
+
+:   从基础理论层面重新审视类比推理：首先构造反例证明布尔域上经典泛化界失效，然后提出基于参数化广义均值的统一类比推理框架，将离散分类扩展到连续回归域。
 
 **[Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition](let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md)**
 
