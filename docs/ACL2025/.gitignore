@@ -1,5 +1,5 @@
 # Auto-generated: ACL2025 paper notes ignore
-# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
+# 由 src/sync_notes.py 根据 TODO.md 自动生成
 
 # 默认忽略所有笔记
 *.md
@@ -8,8 +8,9 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
+!index.md
 
-# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
+# 排除已完成笔记所在的子目录
 !ai_safety/
 !aigc_detection/
 !audio_speech/
@@ -37,7 +38,7 @@
 !time_series/
 !video_understanding/
 
-# 已完成笔记 (662 篇)
+# 已完成笔记 (679 篇)
 !ai_safety/centaur_bridging_the_impossible_trinity_of.md
 !ai_safety/dialect_fairness_robustness.md
 !ai_safety/ensemble_watermarks_llm.md
@@ -134,6 +135,7 @@
 !llm_alignment/beyond_the_tip_of_efficiency_uncovering_the_submerged_threats_of_jailbreak_attac.md
 !llm_alignment/boosting_vulnerability_detection_of_llms_via_curriculum_preference_optimization_.md
 !llm_alignment/breaking_the_ceiling_exploring_the_potential_of_jailbreak_attacks_through_expand.md
+!llm_alignment/chain-of-jailbreak_attack_for_image_generation_models_via_editing_step_by_step.md
 !llm_alignment/cheems_chinese_reward_models.md
 !llm_alignment/codedpo_code_alignment.md
 !llm_alignment/curiosity_driven_rlhf.md
@@ -333,6 +335,7 @@
 !llm_nlp/llm_writing_assessment.md
 !llm_nlp/lm_graph_search_supervision.md
 !llm_nlp/locateandfocus_enhancing_terminology_translation_in_speech.md
+!llm_nlp/longdpo_unlock_better_long-form_generation_abilities_for_llms_via_critique-augme.md
 !llm_nlp/mapping_1000_models_loglikelihood.md
 !llm_nlp/maps_personalized_search.md
 !llm_nlp/marco_bench_multilingual_if.md
@@ -366,6 +369,7 @@
 !llm_nlp/polishing_every_facet_of_the_gem.md
 !llm_nlp/political_bias_theory_grounded.md
 !llm_nlp/pragmatics_survey.md
+!llm_nlp/pre-training_curriculum_for_multi-token_prediction_in_language_models.md
 !llm_nlp/pre3_deterministic_pda_structured_gen.md
 !llm_nlp/pugc_align_implicit_pref_ugc.md
 !llm_nlp/rare_retrieval_augmented_reasoning.md
@@ -398,6 +402,7 @@
 !llm_nlp/token_recycling.md
 !llm_nlp/training_dynamics_underlying_language_model_scaling_laws_loss_deceleration_and_z.md
 !llm_nlp/training_language_model_to_critique_for_better_refinement.md
+!llm_nlp/understanding_the_repeat_curse_in_large_language_models_from_a_feature_perspecti.md
 !llm_nlp/uniconv_retrieval_response_gen.md
 !llm_nlp/unleashing_llm_reasoning_capability_via_scalable.md
 !llm_nlp/veracity_bias_llm_hidden_beliefs.md
@@ -565,6 +570,8 @@
 !nlp_understanding/rescore_multihop_qa.md
 !nlp_understanding/yescieval_llm_judge_science.md
 !object_detection/anchored_answers_unravelling_positional_bias_in_gpt-2s_multiple-choice_questions.md
+!object_detection/weed_out_then_harvest_dual_low-rank_adaptation_is_an_effective_noisy_label_detec.md
+!object_detection/why_safeguarded_ships_run_aground_aligned_large_language_models_safety_mechanism.md
 !optimization/scalebio_bilevel_data_reweighting.md
 !others/a3cg_esg_greenwashing.md
 !others/a_conformal_risk_control_framework_for_granular_word_assessment_and_uncertainty_.md
@@ -691,12 +698,23 @@
 !others/when_to_speak_when_to_abstain.md
 !others/xturing_enhanced_turing_test.md
 !recommender/gram_generative_recommendation.md
+!recommender/kerl_knowledge-enhanced_personalized_recipe_recommendation_using_large_language_.md
 !reinforcement_learning/align-slm_textless_spoken_language_models_with_reinforcement_learning_from_ai_fe.md
 !reinforcement_learning/eierl_dialogue_policy.md
+!reinforcement_learning/llm-enhanced_self-evolving_reinforcement_learning_for_multi-step_e-commerce_paym.md
+!reinforcement_learning/prompt-based_personality_profiling_reinforcement_learning_for_relevance_filterin.md
 !reinforcement_learning/treerl_tree_search_rl.md
 !robotics/dice_idiomaticity.md
+!robotics/do_emotions_really_affect_argument_convincingness_a_dynamic_approach_with_llm-ba.md
+!robotics/drae_dynamic_retrieval-augmented_expert_networks_for_lifelong_learning_and_task_.md
+!robotics/hierarchical-task-aware_multi-modal_mixture_of_incremental_lora_experts_for_embo.md
 !robotics/self_percept_manipulation_detection.md
+!self_supervised/improving_low-resource_morphological_inflection_via_self-supervised_objectives.md
 !self_supervised/llm_back_gen_treebank.md
 !self_supervised/qaencoder_aligned_representation.md
+!self_supervised/whispa_semantically_and_psychologically_aligned_whisper_with_self-supervised_con.md
+!time_series/g2s_a_general-to-specific_learning_framework_for_temporal_knowledge_graph_foreca.md
 !time_series/lets-c_leveraging_text_embedding_for_time_series_classification.md
+!time_series/time-mqa_time_series_multi-task_question_answering_with_context_enhancement.md
 !video_understanding/generative_frame_sampler_for_long_video_understanding.md
+!video_understanding/icr_probe_tracking_hidden_state_dynamics_for_reliable_hallucination_detection_in.md

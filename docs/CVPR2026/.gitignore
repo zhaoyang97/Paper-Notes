@@ -19,6 +19,7 @@
 !image_restoration/
 !llm_agent/
 !llm_alignment/
+!llm_efficiency/
 !llm_nlp/
 !llm_reasoning/
 !medical_imaging/
@@ -36,7 +37,7 @@
 !time_series/
 !video_understanding/
 
-# 已完成笔记 (353 篇)
+# 已完成笔记 (358 篇)
 !3d_vision/4dequine_disentangling_motion_and_appearance_for_4.md
 !3d_vision/ada3drift_adaptive_trainingtime_drifting_for_onest.md
 !3d_vision/ava_bench_atomic_visual_ability_vfm.md
@@ -134,6 +135,10 @@
 !llm_alignment/mod-dpo_towards_mitigating_cross-modal_hallucinations_in_omni_llms_using_modalit.md
 !llm_alignment/physmodpo_physicallyplausible_humanoid_motion_with.md
 !llm_alignment/φ-dpo_fairness_direct_preference_optimization_approach_to_continual_learning_in_.md
+!llm_efficiency/ace-merging_data-free_model_merging_with_adaptive_covariance_estimation.md
+!llm_efficiency/attribution-guided_model_rectification_of_unreliable_neural_network_behaviors.md
+!llm_efficiency/boosting_quantitive_and_spatial_awareness_for_zero-shot_object_counting.md
+!llm_efficiency/model_merging_in_the_essential_subspace.md
 !llm_nlp/composing_concepts_from_images_and_videos_via_concept-prompt_binding.md
 !llm_nlp/cross-scale_pansharpening_via_scaleformer_and_the_panscale_benchmark.md
 !llm_nlp/defending_unauthorized_model_merging_via_dual-stage_weight_protection.md
@@ -144,6 +149,7 @@
 !llm_reasoning/beyond_geometry_artistic_disparity_synthesis_for_immersive_2d-to-3d.md
 !llm_reasoning/e-comiq-zh_a_human-aligned_dataset_and_benchmark_for_fine-grained_evaluation_of_.md
 !llm_reasoning/facecot_cot_reasoning_face_anti_spoofing.md
+!llm_reasoning/harnessing_chain-of-thought_reasoning_in_multimodal_large_language_models_for_fa.md
 !llm_reasoning/red_rationale_enhanced_decoding_cot.md
 !llm_reasoning/step-cot_stepwise_visual_chain-of-thought_for_medical_visual_question_answering.md
 !llm_reasoning/visref_visual_refocusing_test_time_scaling.md

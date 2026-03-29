@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # CVPR2026 论文笔记 TODO
 
-总计: 1099 篇 | 已完成: 353 | 待更新: 746
+总计: 1099 篇 | 已完成: 358 | 待更新: 741
 
 ---
 
@@ -27,7 +27,7 @@
 - [ ] [accelerating diffusion model training under minimal budgets a condensation-based](image_generation/accelerating_diffusion_model_training_under_minimal_budgets_a_condensation-based.md) | arXiv: 2507.05914
 - [ ] [accelerating stroke mri with diffusion probabilistic models through large-scale ](medical_imaging/accelerating_stroke_mri_with_diffusion_probabilistic_models_through_large-scale_.md) | arXiv: 2603.13007
 - [x] [Accelerating Stroke MRI with Diffusion Probabilistic Models through Large-Scale Pre-training and Target-Specific Fine-Tuning](medical_imaging/accelerating_stroke_mri_with_diffusion_probabilist.md) | arXiv: 2603.13007
-- [ ] [ace-merging data-free model merging with adaptive covariance estimation](llm_efficiency/ace-merging_data-free_model_merging_with_adaptive_covariance_estimation.md) | arXiv: 2603.02945
+- [x] [ace-merging data-free model merging with adaptive covariance estimation](llm_efficiency/ace-merging_data-free_model_merging_with_adaptive_covariance_estimation.md) | arXiv: 2603.02945
 - [ ] [acpv-net all-class polygonal vectorization for seamless vector map generation fr](remote_sensing/acpv-net_all-class_polygonal_vectorization_for_seamless_vector_map_generation_fr.md) | arXiv: 2603.16616
 - [ ] [act like a pathologist tissue-aware whole slide image reasoning](medical_imaging/act_like_a_pathologist_tissue-aware_whole_slide_image_reasoning.md) | arXiv: 2603.00667
 - [ ] [action-geometry prediction with 3d geometric prior for bimanual manipulation](3d_vision/action-geometry_prediction_with_3d_geometric_prior_for_bimanual_manipulation.md) | arXiv: 2602.23814
@@ -82,7 +82,7 @@
 - [ ] [attend before attention efficient and scalable video understanding via autoregre](video_understanding/attend_before_attention_efficient_and_scalable_video_understanding_via_autoregre.md) | arXiv: 2603.12254
 - [ ] [attribution as retrieval model-agnostic ai-generated image attribution](image_generation/attribution_as_retrieval_model-agnostic_ai-generated_image_attribution.md) | arXiv: 2603.10583
 - [x] [Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution](image_generation/attribution_as_retrieval_modelagnostic_aigenerated.md) | arXiv: 2603.10583
-- [ ] [attribution-guided model rectification of unreliable neural network behaviors](llm_efficiency/attribution-guided_model_rectification_of_unreliable_neural_network_behaviors.md) | arXiv: 2603.15656
+- [x] [attribution-guided model rectification of unreliable neural network behaviors](llm_efficiency/attribution-guided_model_rectification_of_unreliable_neural_network_behaviors.md) | arXiv: 2603.15656
 - [ ] [autodebias automated framework for debiasing text-to-image models](image_generation/autodebias_automated_framework_for_debiasing_text-to-image_models.md) | arXiv: 2508.00445
 - [x] [AutoGaze: Attend Before Attention — Efficient and Scalable Video Understanding via Autoregressive Gazing](video_understanding/autogaze_attend_before_attention_efficient_video.md) | arXiv: 2603.12254
 - [ ] [automated detection of malignant lesions in the ovary using deep learning models](medical_imaging/automated_detection_of_malignant_lesions_in_the_ovary_using_deep_learning_models.md) | arXiv: 2603.11818
@@ -118,7 +118,7 @@
 - [ ] [binaryattention one-bit qk-attention for vision and diffusion transformers](model_compression/binaryattention_one-bit_qk-attention_for_vision_and_diffusion_transformers.md) | arXiv: 2603.09582
 - [ ] [blackmirror black-box backdoor detection for text-to-image models via instructio](image_generation/blackmirror_black-box_backdoor_detection_for_text-to-image_models_via_instructio.md) | arXiv: 2603.05921
 - [ ] [bluref unsupervised image deblurring with dense-matching references](image_restoration/bluref_unsupervised_image_deblurring_with_dense-matching_references.md) | arXiv: 2603.14176
-- [ ] [boosting quantitive and spatial awareness for zero-shot object counting](llm_efficiency/boosting_quantitive_and_spatial_awareness_for_zero-shot_object_counting.md) | arXiv: 2603.16129
+- [x] [boosting quantitive and spatial awareness for zero-shot object counting](llm_efficiency/boosting_quantitive_and_spatial_awareness_for_zero-shot_object_counting.md) | arXiv: 2603.16129
 - [ ] [bootstrap dynamic-aware 3d visual representation for scalable robot learning](segmentation/bootstrap_dynamic-aware_3d_visual_representation_for_scalable_robot_learning.md) | arXiv: 2512.00074
 - [ ] [boss a best-of-strategies selector as an oracle for deep active learning](self_supervised/boss_a_best-of-strategies_selector_as_an_oracle_for_deep_active_learning.md) | arXiv: 2603.13109
 - [x] [BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](self_supervised/boss_a_bestofstrategies_selector_as_an_oracle_for.md) | arXiv: 2603.13109
@@ -442,7 +442,7 @@
 - [ ] [haltnav reactive visual halting over lightweight topological priors for robust v](image_generation/haltnav_reactive_visual_halting_over_lightweight_topological_priors_for_robust_v.md) | arXiv: 2603.12696
 - [x] [HaltNav: Reactive Visual Halting over Lightweight Topological Priors for Robust Vision-Language Navigation](image_generation/haltnav_reactive_visual_halting_over_lightweight_t.md) | arXiv: 2603.12696
 - [x] [hammer harnessing mllm via cross-modal integration for intention-driven 3d affor](multimodal_vlm/hammer_harnessing_mllm_via_cross-modal_integration_for_intention-driven_3d_affor.md) | arXiv: 2603.02329
-- [ ] [harnessing chain-of-thought reasoning in multimodal large language models for fa](llm_reasoning/harnessing_chain-of-thought_reasoning_in_multimodal_large_language_models_for_fa.md) | arXiv: 2506.01783
+- [x] [harnessing chain-of-thought reasoning in multimodal large language models for fa](llm_reasoning/harnessing_chain-of-thought_reasoning_in_multimodal_large_language_models_for_fa.md) | arXiv: 2506.01783
 - [ ] [hats hardness-aware trajectory synthesis for gui agents](llm_agent/hats_hardness-aware_trajectory_synthesis_for_gui_agents.md) | arXiv: 2603.12138
 - [x] [HATS: Hardness-Aware Trajectory Synthesis for GUI Agents](llm_agent/hats_hardnessaware_trajectory_synthesis_gui_agent.md) | arXiv: 2603.12138
 - [ ] [heterogeneous decentralized diffusion models](image_generation/heterogeneous_decentralized_diffusion_models.md) | arXiv: 2603.06741
@@ -604,7 +604,7 @@
 - [ ] [mobile-vton high-fidelity on-device virtual try-on](human_understanding/mobile-vton_high-fidelity_on-device_virtual_try-on.md) | arXiv: 2603.00947
 - [x] [Mobile-VTON: High-Fidelity On-Device Virtual Try-On](human_understanding/mobile_vton_ondevice_virtual_tryon.md) | arXiv: 2603.00947
 - [x] [mod-dpo towards mitigating cross-modal hallucinations in omni llms using modalit](llm_alignment/mod-dpo_towards_mitigating_cross-modal_hallucinations_in_omni_llms_using_modalit.md) | arXiv: 2603.03192
-- [ ] [model merging in the essential subspace](llm_efficiency/model_merging_in_the_essential_subspace.md) | arXiv: 2602.20208
+- [x] [model merging in the essential subspace](llm_efficiency/model_merging_in_the_essential_subspace.md) | arXiv: 2602.20208
 - [ ] [modes accelerating mixture-of-experts multimodal large language models via dynam](multimodal_vlm/modes_accelerating_mixture-of-experts_multimodal_large_language_models_via_dynam.md) | arXiv: 2511.15690
 - [x] [MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](multimodal_vlm/modes_moe_dynamic_expert_skipping.md) | arXiv: 2511.15690
 - [ ] [moeclip patch-specialized experts for zero-shot anomaly detection](medical_imaging/moeclip_patch-specialized_experts_for_zero-shot_anomaly_detection.md) | arXiv: 2603.03101

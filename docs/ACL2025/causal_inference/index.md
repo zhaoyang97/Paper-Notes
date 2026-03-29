@@ -1,11 +1,15 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**💬 ACL2025** · 共 **4** 篇
+**💬 ACL2025** · 共 **5** 篇
 
 **[CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation](causalrag_integrating_causal_graphs_into_retrieval-augmented_generation.md)**
 
 :   提出 CausalRAG，将因果图集成到 RAG 的检索过程中——从文档构建文本图并识别因果关系，在查询时通过因果路径发现和因果摘要生成来检索上下文，在文档问答中显著提升上下文精度（92.86%）和检索召回率。
+
+**[FitCF: A Framework for Automatic Feature Importance-guided Counterfactual Example Generation](fitcf_a_framework_for_automatic_feature_importance-guided_counterfactual_example.md)**
+
+:   提出 FitCF 框架，利用特征归因方法（LIME/IG等）提取重要词来引导 LLM 生成反事实样本，并通过标签翻转验证构建可靠的 few-shot 示例，在新闻分类和情感分析任务上一致性超越三种 SOTA 基线。
 
 **[IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery](iris_an_iterative_and_integrated_framework.md)**
 
