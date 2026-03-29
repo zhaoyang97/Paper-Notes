@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**💬 ACL2025** · 共 **16** 篇
+**💬 ACL2025** · 共 **17** 篇
 
 **[CENTAUR: Bridging the Impossible Trinity of Privacy, Efficiency, and Performance in Privacy-Preserving Transformer Inference](centaur_bridging_the_impossible_trinity_of.md)**
 
@@ -14,6 +14,10 @@
 **[Ensemble Watermarks for Large Language Models](ensemble_watermarks_llm.md)**
 
 :   提出集成水印方法，将文体特征（藏头词 acrostic + 感觉运动词 sensorimotor norms）与已有红绿水印组合，在 paraphrasing 攻击后三特征集成检测率达 95%，而单独红绿水印仅 49%。
+
+**[FairI Tales: Evaluation of Fairness in Indian Contexts with a Focus on Bias and Stereotypes](fairi_tales_evaluation_of_fairness_in_indian_contexts_with_a_focus_on_bias_and_s.md)**
+
+:   发布 Indic-Bias——首个印度社会文化的大规模 LLM 公平性 benchmark，覆盖 85 个身份群体（种姓/宗教/地区/部落），20,000 个场景模板+3 类评估任务，14 个 LLM 评测揭示模型对达利特等边缘群体系统性负面偏见且 70%+ 案例中强化刻板印象。
 
 **[Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs](fairness_difference_awareness.md)**
 

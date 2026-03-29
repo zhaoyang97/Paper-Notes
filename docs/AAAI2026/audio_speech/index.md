@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🤖 AAAI2026** · 共 **7** 篇
+**🤖 AAAI2026** · 共 **8** 篇
+
+**[DeepDebater: A Superpersuasive Autonomous Policy Debating System](a_superpersuasive_autonomous_policy_debating_system.md)**
+
+:   提出 DeepDebater，首个能参与并赢得完整美式政策辩论赛的自主多 Agent 系统——层级式 Agent 工作流分工完成论证构建（正方 Advantage/反方 DA+CP+K），基于 OpenDebateEvidence 300 万张证据卡做检索增强，辅以 GPT-4o TTS 语音合成和 EchoMimic 数字人动画，在专家评估和模拟对局中全面超越人类编写的案例。
 
 **[AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions](ahamask_reliable_task_specification_for_large_audio_language.md)**
 

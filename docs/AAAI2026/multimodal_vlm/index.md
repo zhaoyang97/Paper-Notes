@@ -37,7 +37,7 @@
 
 **[Cross-modal Proxy Evolving for OOD Detection with Vision-Language Models](cross-modal_proxy_evolving_for_ood_detection_with_vision-lan.md)**
 
-:   提出CoEvo，一个training-free和annotation-free的test-time框架，通过双向样本条件化的文本/视觉proxy协同演化来增强VLM的zero-shot OOD检测，在ImageNet-1K上比强baseline提升AUROC 1.33%并降低FPR95达45.98%。
+:   提出 CoEvo，一个 training-free 和 annotation-free 的 test-time 框架，通过双向 sample-conditioned 的文本/视觉 proxy 协同演化机制动态更新正负代理缓存，在 ImageNet-1K 上比最强负标签基线 AUROC 提升 1.33%、FPR95 降低 45.98%（从 18.92% 降至 10.22%），实现 SOTA 的 zero-shot OOD 检测。
 
 **[Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models](cross-modal_unlearning_via_influential_neuron_path_editing_i.md)**
 

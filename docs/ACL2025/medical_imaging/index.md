@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**💬 ACL2025** · 共 **10** 篇
+**💬 ACL2025** · 共 **12** 篇
+
+**[A Retrieval-Based Approach to Medical Procedure Matching in Romanian](a_retrieval-based_approach_to_medical_procedure_matching_in_romanian.md)**
+
+:   提出基于检索的罗马尼亚语医疗程序名称匹配架构——将诊所的非标准程序描述匹配到保险公司标准化术语表，比较 BM25 稀疏检索、mE5/RoBERT/BioClinicalBERT 密集嵌入及 RRF 混合方法，在 14 万+映射对上评估，度量学习微调后 mE5 表现最佳。
 
 **[AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset](afrimed_qa_pan_african.md)**
 
@@ -22,6 +26,10 @@
 **[Aligning AI Research with the Needs of Clinical Coding Workflows: Eight Recommendations Based on US Data Analysis and Critical Review](clinical_coding_eight_recommendations.md)**
 
 :   这篇 position paper 通过对 MIMIC 数据集和现有自动化临床编码研究的深入分析，指出当前评估方法（如仅关注前50个高频编码、使用不恰当指标）与真实临床场景严重脱节，并提出八条具体建议来改进评估方法和研究方向。
+
+**[MultiMed: Multilingual Medical Speech Recognition via Attention Encoder Decoder](multimed_multilingual_medical_speech_recognition_via_attention_encoder_decoder.md)**
+
+:   发布 MultiMed——首个多语言医学 ASR 数据集（150小时，5种语言，10种录制场景，16种口音），配套小到大规模的端到端 Whisper 模型基线，首次系统研究医学领域的多语言 ASR：单语 vs 多语微调、AED vs Hybrid 架构对比，发现多语联合训练在小模型上有收益但大模型上可能退化。
 
 **[Online Iterative Self-Alignment for Radiology Report Generation](oisa_radiology_report_gen.md)**
 

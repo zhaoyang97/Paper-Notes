@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🤖 AAAI2026** · 共 **13** 篇
+**🤖 AAAI2026** · 共 **14** 篇
+
+**[A Data-Driven Model Predictive Control Framework for Multi-Aircraft TMA Routing Under Travel Time Uncertainty](a_data-driven_model_predictive_control_framework_for_multi-aircraft_tma_routing_.md)**
+
+:   提出面向终端管制区（TMA）多机冲突解脱和着陆调度的闭环 MPC 框架——集成 XGBoost 到达时间预测、MILP 优化模型（路径选择+速度调整+等待约束）和交通仿真器，在樟宜机场 50 海里 STAR 网络上实现实时无冲突调度，高峰期计算时间比一次性优化降低 7 倍，Monte Carlo 仿真验证鲁棒性。
 
 **[Beta Distribution Learning for Reliable Roadway Crash Risk Assessment](beta_distribution_learning_for_reliable_roadway_crash_risk_a.md)**
 

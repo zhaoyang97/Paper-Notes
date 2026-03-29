@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🤖 AAAI2026** · 共 **7** 篇
+**🤖 AAAI2026** · 共 **8** 篇
+
+**[Adaptive Initial Residual Connections for GNNs with Theoretical Guarantees](adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md)**
+
+:   研究图神经网络中自适应初始残差连接（Adaptive IRC）——每个节点有个性化的残差强度——证明该方案防止过平滑（Dirichlet 能量有下界）、保持嵌入矩阵秩，在异质图上显著优于标准消息传递，并提出基于 PageRank 的非学习变体大幅降低复杂度。
 
 **[Adaptive Riemannian Graph Neural Networks](adaptive_riemannian_graph_neural_networks.md)**
 

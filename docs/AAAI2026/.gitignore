@@ -1,5 +1,5 @@
 # Auto-generated: AAAI2026 paper notes ignore
-# 由 src/sync_notes.py 根据 TODO.md 自动生成
+# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
 
 # 默认忽略所有笔记
 *.md
@@ -8,9 +8,8 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
-!index.md
 
-# 排除已完成笔记所在的子目录
+# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
 !3d_vision/
 !ai_safety/
 !aigc_detection/
@@ -47,8 +46,9 @@
 !time_series/
 !video_understanding/
 
-# 已完成笔记 (395 篇)
+# 已完成笔记 (403 篇)
 !3d_vision/3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md
+!3d_vision/3d-free_meets_3d_priors_novel_view_synthesis_from_a_single_image_with_pretrained.md
 !3d_vision/4dstr_advancing_generative_4d_gaussians_with_spatial-tempora.md
 !3d_vision/anchords_anchoring_dynamic_sources_for_semantically_consiste.md
 !3d_vision/anchorhoi_zero-shot_generation_of_4d_human-object_interactio.md
@@ -65,11 +65,13 @@
 !ai_safety/deeptracer_tracing_stolen_model_via_deep_coupled_watermarks.md
 !ai_safety/truth_justice_and_secrecy_cake_cutting_under_privacy_constraints.md
 !aigc_detection/actishade_activating_overshadowed_knowledge_to_guide_multi-h.md
+!audio_speech/a_superpersuasive_autonomous_policy_debating_system.md
 !audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md
 !audio_speech/cross-space_synergy_a_unified_framework_for_multimodal_emotion_recognition_in_co.md
 !audio_speech/dualspeechlm_towards_unified_speech_understanding_and_generation_via_dual_speech.md
 !audio_speech/generalizing_analogical_inference_from_boolean_to_continuous_domains.md
 !audio_speech/let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md
+!autonomous_driving/a_data-driven_model_predictive_control_framework_for_multi-aircraft_tma_routing_.md
 !autonomous_driving/beta_distribution_learning_for_reliable_roadway_crash_risk_a.md
 !autonomous_driving/bridging_day_and_night_target-class_hallucination_suppressio.md
 !autonomous_driving/comptrack_information_bottleneckguided_lowrank_dynamic_token_compres.md
@@ -89,6 +91,7 @@
 !causal_inference/learning_subgroups_with_maximum_treatment_effects_without_causal_heuristics.md
 !causal_inference/multi-agent_undercover_gaming_hallucination_removal_via_coun.md
 !earth_science/mdaif_robust_one-stop_multi-degradation-aware_image_fusion_with_language-driven_.md
+!graph_learning/adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md
 !graph_learning/adaptive_riemannian_graph_neural_networks.md
 !graph_learning/are_graph_transformers_necessary_efficient_long-range_messag.md
 !graph_learning/assemble_your_crew_automatic_multi-agent_communication_topol.md
@@ -286,7 +289,6 @@
 !llm_reasoning/n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md
 !llm_reasoning/prime_planning_and_retrieval-integrated_memory_for_enhanced_reasoning.md
 !llm_reasoning/recode_updating_code_api_knowledge_with_reinforcement_learning.md
-!llm_reasoning/relation-r1_progressively_cognitive_chain-of-thought_guided_reinforcement_learni.md
 !llm_reasoning/rpm-mcts_knowledge-retrieval_as_process_reward_model_with_monte_carlo_tree_searc.md
 !llm_reasoning/sapo_self-adaptive_process_optimization_makes_small_reasoners_stronger.md
 !llm_reasoning/scale_selective_resource_allocation_for_overcoming_performance_bottlenecks_in_ma.md
@@ -307,6 +309,7 @@
 !medical_imaging/learning_cell-aware_hierarchical_multi-modal_representations.md
 !medical_imaging/protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md
 !model_compression/a_closer_look_at_knowledge_distillation_in_spiking_neural_ne.md
+!model_compression/adafuse_accelerating_dynamic_adapter_inference_via_token-lev.md
 !model_compression/agentodrl_a_large_language_model-based_multi-agent_system_fo.md
 !model_compression/alter_asymmetric_lora_for_token-entropy-guided_unlearning_of.md
 !model_compression/camera_multi-matrix_joint_compression_for_moe_models_via_mic.md
@@ -350,6 +353,7 @@
 !nlp_generation/persistent_instability_in_llms_personality_measurements_effects_of_scale_reasoni.md
 !nlp_generation/tapas_are_free_training-free_adaptation_of_programmatic_agen.md
 !nlp_understanding/language_models_and_logic_programs_for_trustworthy_tax_reasoning.md
+!object_detection/a_theoretical_analysis_of_detecting_large_model-generated_time_series.md
 !object_detection/actor-critic_for_continuous_action_chunks_a_reinforcement_le.md
 !object_detection/aerialmind_towards_referring_multi-object_tracking_in_uav_sc.md
 !object_detection/beyond_boundaries_leveraging_vision_foundation_models_for_so.md
@@ -364,6 +368,8 @@
 !optimization/on_the_learning_dynamics_of_two-layer_linear_networks_with_label_noise_sgd.md
 !others/a_fast_heuristic_search_approach_for_energy-optimal_profile_.md
 !others/a_graph-theoretical_perspective_on_law_design_for_multiagent.md
+!others/a_mind_cannot_be_smeared_across_time.md
+!others/a_new_strategy_for_verifying_reach-avoid_specifications_in_neural_feedback_syste.md
 !others/a_phase_transition_for_opinion_dynamics_with_competing_biase.md
 !others/a_switching_framework_for_online_interval_scheduling_with_pr.md
 !others/a_topological_rewriting_of_tarskis_mereogeometry.md
@@ -438,6 +444,7 @@
 !time_series/idealtsf_can_non-ideal_data_contribute_to_enhancing_the_performance_of_time_seri.md
 !time_series/seldon_supernova_explosions_learned_by_deep_ode_networks.md
 !time_series/urban_incident_prediction_with_graph_neural_networks_integrating_government_rati.md
+!video_understanding/3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md
 !video_understanding/apvr_hour-level_long_video_understanding_with_adaptive_pivot.md
 !video_understanding/distillation_dynamics_towards_understanding_feature-based_di.md
 !video_understanding/dreamrunner_fine-grained_compositional_story-to-video_genera.md

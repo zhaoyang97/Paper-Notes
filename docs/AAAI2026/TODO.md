@@ -1,14 +1,14 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # AAAI2026 论文笔记 TODO
 
-总计: 1379 篇 | 已完成: 396 | 待更新: 983
+总计: 1379 篇 | 已完成: 403 | 待更新: 976
 
 ---
 
 - [x] [10 Open Challenges Steering the Future of Vision-Language-Action Models](human_understanding/10_open_challenges_steering_the_future_of_vision-language-ac.md) | arXiv: 2511.05936v1
 - [x] [3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition](3d_vision/3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md) | arXiv: 2511.07040
-- [ ] [3d-free meets 3d priors novel view synthesis from a single image with pretrained](3d_vision/3d-free_meets_3d_priors_novel_view_synthesis_from_a_single_image_with_pretrained.md) | arXiv: 2408.06157
-- [ ] [3d4d an interactive editable 4d world model via 3d video generation](video_understanding/3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md) | arXiv: 2511.08536
+- [x] [3d-free meets 3d priors novel view synthesis from a single image with pretrained](3d_vision/3d-free_meets_3d_priors_novel_view_synthesis_from_a_single_image_with_pretrained.md) | arXiv: 2408.06157
+- [x] [3d4d an interactive editable 4d world model via 3d video generation](video_understanding/3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md) | arXiv: 2511.08536
 - [x] [3DTeethSAM: Taming SAM2 for 3D Teeth Segmentation](segmentation/3dteethsam_taming_sam2_for_3d_teeth_segmentation.md) | arXiv: 2512.11557
 - [x] [4DSTR: Advancing Generative 4D Gaussians with Spatial-Temporal Rectification for High-Quality and Consistent 4D Generation](3d_vision/4dstr_advancing_generative_4d_gaussians_with_spatial-tempora.md) | arXiv: 2511.07241
 - [x] [A Closer Look at Knowledge Distillation in Spiking Neural Network Training](model_compression/a_closer_look_at_knowledge_distillation_in_spiking_neural_ne.md) | arXiv: 2511.06902
@@ -16,22 +16,22 @@
 - [x] [A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind](robotics/a_computable_game-theoretic_framework_for_multi-agent_theory_of_mind.md) | arXiv: 2511.22536
 - [x] [A Content-Preserving Secure Linguistic Steganography](llm_efficiency/a_content-preserving_secure_linguistic_steganography.md) | arXiv: 2511.12565
 - [x] [A Course Correction in Steerability Evaluation: Revealing Miscalibration and Side Effects in LLMs](reinforcement_learning/a_course_correction_in_steerability_evaluation_revealing_mis.md) | arXiv: 2505.23816
-- [ ] [a data-driven model predictive control framework for multi-aircraft tma routing ](autonomous_driving/a_data-driven_model_predictive_control_framework_for_multi-aircraft_tma_routing_.md) | arXiv: 2511.19452
+- [x] [a data-driven model predictive control framework for multi-aircraft tma routing ](autonomous_driving/a_data-driven_model_predictive_control_framework_for_multi-aircraft_tma_routing_.md) | arXiv: 2511.19452
 - [x] [A Disease-Aware Dual-Stage Framework for Chest X-ray Report Generation](medical_imaging/a_disease-aware_dual-stage_framework_for_chest_x-ray_report_.md) | arXiv: 2511.12259
 - [x] [A Distributed Asynchronous Generalized Momentum Algorithm Without Delay Bounds](optimization/a_distributed_asynchronous_generalized_momentum_algorithm_wi.md) | arXiv: 2508.08218
 - [x] [A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles](autonomous_driving/a_fast_heuristic_search_approach_for_energy-optimal_profile_.md) | arXiv: 2512.01331
 - [x] [A Graph-Theoretical Perspective on Law Design for Multiagent Systems](ai_safety/a_graph-theoretical_perspective_on_law_design_for_multiagent.md) | arXiv: 2511.06361
 - [x] [A Learning Framework For Cooperative Collision Avoidance of UAV Swarms Leveraging Domain Knowledge](reinforcement_learning/a_learning_framework_for_cooperative_collision_avoidance_of_.md) | arXiv: 2507.10913
-- [ ] [a mind cannot be smeared across time](others/a_mind_cannot_be_smeared_across_time.md) | arXiv: 2601.11620
+- [x] [a mind cannot be smeared across time](others/a_mind_cannot_be_smeared_across_time.md) | arXiv: 2601.11620
 - [x] [A Multi-Agent Conversational Bandit Approach to Online Evaluation and Selection of User-Aligned LLM Responses](reinforcement_learning/a_multi-agent_conversational_bandit_approach_to_online_evaluation_and_selection_.md) | arXiv: 2501.01849
 - [x] [A Multi-Agent LLM Framework for Multi-Domain Low-Resource In-Context NER via Knowledge Retrieval, Disambiguation and Reflective Analysis](llm_agent/a_multi-agent_llm_framework_for_multi-domain_low-resource_in.md) | arXiv: 2511.19083
-- [ ] [a new strategy for verifying reach-avoid specifications in neural feedback syste](others/a_new_strategy_for_verifying_reach-avoid_specifications_in_neural_feedback_syste.md) | arXiv: 2601.08065
+- [x] [a new strategy for verifying reach-avoid specifications in neural feedback syste](others/a_new_strategy_for_verifying_reach-avoid_specifications_in_neural_feedback_syste.md) | arXiv: 2601.08065
 - [x] [A Phase Transition for Opinion Dynamics with Competing Biases](ai_safety/a_phase_transition_for_opinion_dynamics_with_competing_biase.md) | arXiv: 2511.09434
 - [x] [A Principle-Driven Adaptive Policy for Group Cognitive Stimulation Dialogue for Elderly with Cognitive Impairment](llm_nlp/a_principle-driven_adaptive_policy_for_group_cognitive_stimu.md) | arXiv: 2603.10034
 - [x] [A Reasoning Paradigm for Named Entity Recognition](llm_reasoning/a_reasoning_paradigm_for_named_entity_recognition.md) | arXiv: 2511.11978
-- [ ] [a superpersuasive autonomous policy debating system](audio_speech/a_superpersuasive_autonomous_policy_debating_system.md) | arXiv: 2511.17854
+- [x] [a superpersuasive autonomous policy debating system](audio_speech/a_superpersuasive_autonomous_policy_debating_system.md) | arXiv: 2511.17854
 - [x] [A Switching Framework for Online Interval Scheduling with Predictions](others/a_switching_framework_for_online_interval_scheduling_with_pr.md) | arXiv: 2511.16194
-- [ ] [a theoretical analysis of detecting large model-generated time series](object_detection/a_theoretical_analysis_of_detecting_large_model-generated_time_series.md) | arXiv: 2511.07104
+- [x] [a theoretical analysis of detecting large model-generated time series](object_detection/a_theoretical_analysis_of_detecting_large_model-generated_time_series.md) | arXiv: 2511.07104
 - [x] [A Topological Rewriting of Tarski's Mereogeometry](ai_safety/a_topological_rewriting_of_tarskis_mereogeometry.md) | arXiv: 2511.12727
 - [x] [A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication](optimization/a_unified_convergence_analysis_for_semi-decentralized_learni.md) | arXiv: 2511.11560
 - [x] [A Unified Shape-Aware Foundation Model for Time Series Classification](others/a_unified_shape-aware_foundation_model_for_time_series_class.md) | arXiv: 2601.06429v1
@@ -39,11 +39,11 @@
 - [x] [AbductiveMLLM: Boosting Visual Abductive Reasoning Within MLLMs](image_generation/abductivemllm_boosting_visual_abductive_reasoning_within_mll.md) | arXiv: 2601.02771v1
 - [x] [ActiShade: Activating Overshadowed Knowledge to Guide Multi-Hop Reasoning in Large Language Models](aigc_detection/actishade_activating_overshadowed_knowledge_to_guide_multi-h.md) | arXiv: 2601.07260
 - [x] [Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward](object_detection/actor-critic_for_continuous_action_chunks_a_reinforcement_le.md) | arXiv: 2508.11143
-- [ ] [AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization](model_compression/adafuse_accelerating_dynamic_adapter_inference_via_token-lev.md) | arXiv: 2603.11873v1
+- [x] [AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization](model_compression/adafuse_accelerating_dynamic_adapter_inference_via_token-lev.md) | arXiv: 2603.11873v1
 - [ ] [Adapt-As-You-Walk Through the Clouds: Training-Free Online Test-Time Adaptation of 3D Vision-Language Foundation Models](3d_vision/adapt-as-you-walk_through_the_clouds_training-free_online_te.md) | arXiv: 2511.15311v2
 - [x] [Adaptive Evidential Learning for Temporal-Semantic Robustness in Moment Retrieval](others/adaptive_evidential_learning_for_temporal-semantic_robustnes.md) | arXiv: 2512.00953v1
 - [x] [Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness](physics/adaptive_fidelity_estimation_for_quantum_programs_with_graph.md) | arXiv: 2601.14713v1
-- [ ] [adaptive initial residual connections for gnns with theoretical guarantees](graph_learning/adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md) | arXiv: 2511.06598
+- [x] [adaptive initial residual connections for gnns with theoretical guarantees](graph_learning/adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md) | arXiv: 2511.06598
 - [x] [Adaptive Morph-Patch Transformer for Aortic Vessel Segmentation](segmentation/adaptive_morph-patch_transformer_for_aortic_vessel_segmentat.md) | arXiv: 2511.06897
 - [x] [Adaptive Riemannian Graph Neural Networks](graph_learning/adaptive_riemannian_graph_neural_networks.md) | arXiv: 2508.02600
 - [x] [Adaptive Theory of Mind for LLM-based Multi-Agent Coordination](robotics/adaptive_theory_of_mind_for_llm-based_multi-agent_coordination.md) | arXiv: 2603.16264
@@ -1027,7 +1027,7 @@
 - [ ] [reina regularized entropy information-based loss for efficient simultaneous spee](human_understanding/reina_regularized_entropy_information-based_loss_for_efficient_simultaneous_spee.md) | arXiv: 2508.04946
 - [ ] [reinforced rate control for neural video compression via inter-frame rate-distor](model_compression/reinforced_rate_control_for_neural_video_compression_via_inter-frame_rate-distor.md) | arXiv: 2601.19293
 - [ ] [relactrl relevance-guided efficient control for diffusion transformers](image_generation/relactrl_relevance-guided_efficient_control_for_diffusion_transformers.md) | arXiv: 2502.14377
-- [x] [relation-r1 progressively cognitive chain-of-thought guided reinforcement learni](llm_reasoning/relation-r1_progressively_cognitive_chain-of-thought_guided_reinforcement_learni.md) | arXiv: 2504.14642
+- [ ] [relation-r1 progressively cognitive chain-of-thought guided reinforcement learni](llm_reasoning/relation-r1_progressively_cognitive_chain-of-thought_guided_reinforcement_learni.md) | arXiv: 2504.14642
 - [x] [Relink: Constructing Query-Driven Evidence Graph On-the-Fly for GraphRAG](graph_learning/relink_constructing_query-driven_evidence_graph_on-the-fly_for_graphrag.md) | arXiv: 2601.07192
 - [ ] [remember me bridging the long-range gap in lvlms with three-step inference-only ](human_understanding/remember_me_bridging_the_long-range_gap_in_lvlms_with_three-step_inference-only_.md) | arXiv: 2511.09868
 - [x] [RENEW: Risk- and Energy-Aware Navigation in Dynamic Waterways](human_understanding/renew_risk-_and_energy-aware_navigation_in_dynamic_waterways.md) | arXiv: 2601.16424
@@ -1249,7 +1249,7 @@
 - [ ] [think speak decide language-augmented multi-agent reinforcement learning for eco](reinforcement_learning/think_speak_decide_language-augmented_multi-agent_reinforcement_learning_for_eco.md) | arXiv: 2511.12876
 - [ ] [thinker training llms in hierarchical thinking for deep search via multi-turn in](reinforcement_learning/thinker_training_llms_in_hierarchical_thinking_for_deep_search_via_multi-turn_in.md) | arXiv: 2511.07943
 - [x] [thucy an llm-based multi-agent system for claim verification across relational d](llm_agent/thucy_an_llm-based_multi-agent_system_for_claim_verification_across_relational_d.md) | arXiv: 2512.03278
-- [x] [time identity and consciousness in language model agents](llm_agent/time_identity_and_consciousness_in_language_model_agents.md) | arXiv: 2603.09043
+- [ ] [time identity and consciousness in language model agents](llm_agent/time_identity_and_consciousness_in_language_model_agents.md) | arXiv: 2603.09043
 - [ ] [timebill time-budgeted inference for large language models](autonomous_driving/timebill_time-budgeted_inference_for_large_language_models.md) | arXiv: 2512.21859
 - [ ] [tinychemvl advancing chemical vision-language models via efficient visual token ](multimodal_vlm/tinychemvl_advancing_chemical_vision-language_models_via_efficient_visual_token_.md) | arXiv: 2511.06283
 - [ ] [tmdc a two-stage modality denoising and complementation framework for multimodal](image_restoration/tmdc_a_two-stage_modality_denoising_and_complementation_framework_for_multimodal.md) | arXiv: 2511.10325

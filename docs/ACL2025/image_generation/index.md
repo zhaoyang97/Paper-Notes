@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**💬 ACL2025** · 共 **3** 篇
+**💬 ACL2025** · 共 **4** 篇
+
+**[D-GEN: Automatic Distractor Generation and Evaluation for Reliable Assessment of Generative Models](d-gen_automatic_distractor_generation_and_evaluation_for_reliable_assessment_of_.md)**
+
+:   提出 D-GEN——首个开源干扰项生成模型（LLaMA微调，8B/70B），自动将开放式评测题转为多选题格式，配套排名对齐+熵分析两种评估方法验证干扰项质量，在 MMLU 上 Spearman's ρ=0.99 保持模型排名一致性。
 
 **[Planning with Diffusion Models for Target-Oriented Dialogue Systems](difftod_diffusion_dialogue_planning.md)**
 

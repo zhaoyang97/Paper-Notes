@@ -1,21 +1,21 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧠 NeurIPS2025 论文笔记
 
-共 **796** 篇笔记，覆盖 **35** 个领域。
+共 **805** 篇笔记，覆盖 **35** 个领域。
 
 ## 领域概览
 
 | 领域 | 篇数 |
 |:-----|-----:|
 | 💡 [LLM 推理](#llm_reasoning) | 74 |
-| 💬 [LLM / NLP](#llm_nlp) | 48 |
+| 💬 [LLM / NLP](#llm_nlp) | 52 |
 | 🧩 [多模态 VLM](#multimodal_vlm) | 48 |
 | 🎨 [图像生成](#image_generation) | 45 |
-| ⚡ [LLM 效率](#llm_efficiency) | 43 |
+| ⚡ [LLM 效率](#llm_efficiency) | 45 |
 | 🎮 [强化学习](#reinforcement_learning) | 43 |
-| 🦾 [LLM Agent](#llm_agent) | 35 |
+| 🦾 [LLM Agent](#llm_agent) | 36 |
+| ⚖️ [对齐 / RLHF](#llm_alignment) | 29 |
 | 📦 [模型压缩](#model_compression) | 29 |
-| ⚖️ [对齐 / RLHF](#llm_alignment) | 27 |
 | 📐 [优化/理论](#optimization) | 26 |
 | 🏥 [医学图像](#medical_imaging) | 22 |
 | 📈 [时间序列](#time_series) | 21 |
@@ -423,6 +423,10 @@
 
 :   CBMAS 提出一个连续激活干预诊断框架，将传统“前后对比式”认知偏差分析扩展为可解释的干预轨迹分析，通过 alpha 强度扫描、logit-lens 偏置曲线与层位敏感性分析，揭示 LLM 行为翻转临界点与跨层演化机制。
 
+**[Characterizing the Expressivity of Fixed-Precision Transformer Language Models](llm_nlp/characterizing_the_expressivity_of_fixed-precision_transformer_language_models.md)**
+
+:   精确刻画了固定精度、严格未来掩码、软注意力、无位置编码的 Transformer 的表达能力——恰好等价于仅含过去算子的线性时态逻辑 LTL[P]，并将其与偏序确定有限自动机 (PODFA)、$\mathcal{R}$-trivial 幺半群统一起来。
+
 **[CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance](llm_nlp/codeassistbench_cab_dataset_benchmarking_for_multi-turn_chat-based_code_assistan.md)**
 
 :   提出 CodeAssistBench (CAB)，第一个评估多轮、项目级编程辅助的全自动 Benchmark，从 GitHub issues 自动构建 3,286 个真实编程求助场景，涵盖 7 种编程语言 214 个仓库，发现 SOTA 模型在 StackOverflow 式问题上达 70-83% 准确率，但在 post-training-cutoff 仓库上仅 7-16%。
@@ -479,6 +483,14 @@
 
 :   提出 HybridNorm 混合归一化策略——注意力模块用 QKV 归一化解耦梯度、FFN 用 Post-Norm 增强正则化，在 550M-7B 规模上同时获得 Pre-Norm 的训练稳定性和 Post-Norm 的泛化性能，7B 模型下游任务平均提升 2.45%。
 
+**[Hyperparameter Transfer Enables Consistent Gains Of Matrix-Preconditioned Optimi](llm_nlp/hyperparameter_transfer_enables_consistent_gains_of_matrix-preconditioned_optimi.md)**
+
+:   研究矩阵预条件优化器（Shampoo/SOAP/Muon）的超参数随模型宽度和深度的缩放规则（基于 μP），发现正确的超参缩放是实现一致加速的关键：使用 μP + 1/width weight decay，三者在 190M 到 1.4B 参数的 Llama 模型上一致实现约 1.4× 加速。
+
+**[In-Context Learning of Linear Dynamical Systems with Transformers: Approximation Bounds and Depth-Separation](llm_nlp/in-context_learning_of_linear_dynamical_systems_with_transformers_approximation_.md)**
+
+:   分析了线性 Transformer 在噪声线性动力系统上的 ICL 近似能力：$O(\log T)$ 深度可达到 $O(\log T / T)$ 测试误差（接近最小二乘估计器），而单层线性 Transformer 存在不可消除的下界——揭示了非 IID 数据下的深度分离现象。
+
 **[Language Model Behavioral Phases are Consistent Across Architecture, Training Data, and Scale](llm_nlp/language_model_behavioral_phases_are_consistent_across_archi.md)**
 
 :   论文在 Transformer、Mamba、RWKV，不同数据集与参数规模（14M 到 12B）上系统分析 1400+ checkpoints，发现语言模型预训练中存在高度一致的行为阶段；词级行为变化最多可由 unigram 频率、n-gram 概率、语义相似度三类简单启发式解释（最高约 98% 方差）。
@@ -526,6 +538,10 @@
 **[The Trilemma of Truth in Large Language Models](llm_nlp/the_trilemma_of_truth_in_large_language_models.md)**
 
 :   提出 sAwMIL（稀疏感知多实例学习）三类探测框架，结合 MIL 和保形预测，将 LLM 内部激活分类为 true/false/neither，揭示真假信号并非简单的双向对称编码，而是跨越多维子空间的分布式表征。
+
+**[Understanding And Enhancing Mask-Based Pretraining Towards Universal Representat](llm_nlp/understanding_and_enhancing_mask-based_pretraining_towards_universal_representat.md)**
+
+:   用高维线性回归理论精确刻画了 mask-based pretraining 中掩码率对测试风险的影响（偏差-方差分解），揭示了最优掩码率依赖于任务和模型大小，并据此提出 R2MAE（随机随机掩码），在视觉、语言、DNA、单细胞模型上一致超越固定掩码率。
 
 **[Unifying Attention Heads and Task Vectors via Hidden State Geometry in In-Context Learning](llm_nlp/unifying_attention_heads_and_task_vectors_via_hidden_state_geometry_in_in-contex.md)**
 
@@ -1047,6 +1063,10 @@
 
 :   首次系统分析 MoE 在结构化复杂任务上的表达能力：证明浅层 MoE 可在低维流形上克服维度诅咒（近似速率由内在维度 $d$ 而非环境维度 $D$ 决定），深层 MoE 通过 $E$ 专家 × $L$ 层的分层组合可高效近似有 $E^L$ 段的分段函数，远超朴素上界 $LE$。
 
+**[One Prompt Fits All: Universal Graph Adaptation for Pretrained Models](llm_efficiency/one_prompt_fits_all_universal_graph_adaptation_for_pretrained_models.md)**
+
+:   理论证明表示级图提示（representation-level prompt）本质等价于线性探针，据此提出 UniPrompt——基于可学习 kNN 拓扑提示图的输入级方法，通过 bootstrapping 策略融合提示图和原图，在同域和跨域 few-shot 节点分类中一致超越现有图提示学习方法。
+
 **[ParallelPrompt: Extracting Parallelism from Large Language Model Queries](llm_efficiency/parallelprompt_extracting_parallelism_from_large_language_model_queries.md)**
 
 :   构建了首个查询内并行（intra-query parallelism）基准数据集ParallelPrompt，包含37000+条真实用户提示的结构化分解标注，证明约10%的用户查询包含可并行的潜在结构，并行执行可实现最高5.7×的延迟加速且质量损失有限。
@@ -1082,6 +1102,10 @@
 **[Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels](llm_efficiency/tiled_flash_linear_attention_more_efficient_linear_rnn_and_xlstm_kernels.md)**
 
 :   提出 TFLA（Tiled Flash Linear Attention）算法，通过二层序列并行化和 tiling 优化，实现高效的线性 RNN/mLSTM 内核，相比 FlashAttention 3 和 Mamba 2 获得显著墙钟加速（训练 >2x vs Mamba 2），同时保持等价的模型精度。
+
+**[Towards Interpretability Without Sacrifice: Faithful Dense Layer Decomposition with Mixture of Decoders](llm_efficiency/towards_interpretability_without_sacrifice_faithful_dense_layer_decomposition_wi.md)**
+
+:   提出 Mixture of Decoders (MxD)，将 LLM 的 MLP 层分解为数万个稀疏激活的专家子层（layer-level sparsity），每个专家通过 Hadamard 乘积张量分解实现满秩线性变换，在稀疏性-准确性权衡上显著优于 Transcoders，同时保持可解释性。
 
 **[UMoE: Unifying Attention and FFN with Shared Experts](llm_efficiency/umoe_unifying_attention_and_ffn_with_shared_experts.md)**
 
@@ -1387,6 +1411,10 @@
 
 :   提出 LessonL 框架，使多个小 LLM 智能体通过相互学习的"课程"(lesson)对成功和失败案例进行反思，协同优化代码性能，3 个 7B-14B 模型组合达到 GPT-4o 甚至接近 o3 的代码优化效果。
 
+**[MAT-Agent: Adaptive Multi-Agent Training Optimization](llm_agent/mat-agent_adaptive_multi-agent_training_optimization.md)**
+
+:   提出 MAT-Agent，一个由四个自主 agent（分别负责数据增强、优化器、学习率调度、损失函数）组成的多智能体框架，在训练过程中动态调整训练配置，用 DQN 学习策略以替代传统静态超参配置，在多标签图像分类任务上实现了 SOTA。
+
 **[MLRC-Bench: Can Language Agents Solve Machine Learning Research Challenges?](llm_agent/mlrc-bench_can_language_agents_solve_machine_learning_research_challenges.md)**
 
 :   基于真实 ML 会议竞赛构建动态基准 MLRC-Bench，评估 LLM Agent 提出和实现新颖研究方法的能力，发现最强 Agent（Gemini）仅达人类顶级方案 9.3% 的相对改进，且提供 AI/人类想法并不能一致改善实现质量。
@@ -1414,6 +1442,126 @@
 **[Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](llm_agent/web-shepherd_advancing_prms_for_reinforcing_web_agents.md)**
 
 :   提出首个针对网页导航的过程奖励模型 Web-Shepherd，通过检查清单分解任务目标为可评估的子目标，3B/8B 模型在轨迹准确率上碾压 GPT-4o（85% vs 10%），同时成本仅为 1/10，使网页 Agent 的强化学习和推理时搜索变得实际可行。
+
+---
+
+## ⚖️ 对齐 / RLHF { #llm_alignment }
+
+**[A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs](llm_alignment/a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md)**
+
+:   提出一种自适应 Alpha 聚合策略，在联邦 RLHF 框架中根据各用户群体的历史对齐表现动态调整奖励权重，从而在多元偏好对齐中同时实现高公平性和强对齐性能。
+
+**[Alignment of Large Language Models with Constrained Learning](llm_alignment/alignment_of_large_language_models_with_constrained_learning.md)**
+
+:   将LLM对齐形式化为约束优化问题（最大化主要奖励同时满足次要效用约束如安全性），提出基于拉格朗日对偶的迭代方法交替更新LLM策略和对偶变量，理论上刻画了分布空间与LLM参数空间之间的原对偶间隙和最优性间隙，证明方法可以找到近最优约束LLM策略。
+
+**[Ask a Strong LLM Judge when Your Reward Model is Uncertain](llm_alignment/ask_a_strong_llm_judge_when_your_reward_model_is_uncertain.md)**
+
+:   提出基于不确定性的路由框架，用SNGP对pairwise reward model做不确定性量化，将高认知不确定性的样本路由到强LLM judge（DeepSeek-R1），在仅调用9.2%~42.5% judge的成本下显著超越随机路由的准确率，且有效改善下游在线RLHF对齐效果。
+
+**[Attack via Overfitting: 10-shot Benign Fine-tuning to Jailbreak LLMs](llm_alignment/attack_via_overfitting_10-shot_benign_fine-tuning_to_jailbreak_llms.md)**
+
+:   提出两阶段微调攻击：第一阶段用10个问题配相同拒绝答案使LLM过拟合到窄最优解（尖锐loss landscape），第二阶段用相同10个问题配正常答案触发灾难性遗忘——安全对齐被"忘掉"，仅用完全良性数据即达94.84%越狱成功率，与恶意微调（97.25%）相当且完全绕过审核模型。
+
+**[Can DPO Learn Diverse Human Values? A Theoretical Scaling Law](llm_alignment/can_dpo_learn_diverse_human_values_a_theoretical_scaling_law.md)**
+
+:   建立了 DPO 在多元人类价值设定下的理论泛化框架——通过分析有限梯度步后 reward margin 的动态轨迹，证明了每种价值所需样本量必须随价值类别数 $K$ 对数增长（$Q = \Theta(\log K)$）才能维持泛化性能，揭示了对齐多元化社会价值的统计代价。
+
+**[Capturing Individual Human Preferences with Reward Features](llm_alignment/capturing_individual_human_preferences_with_reward_features.md)**
+
+:   提出奖励特征模型（RFM）：学习共享奖励特征 $\phi_\theta(x,y)$，每个用户通过线性权重 $\mathbf{w}_h$ 组合这些特征得到个性化奖励 $r_h = \langle \phi_\theta, \mathbf{w}_h \rangle$，并首次给出多评价者偏好学习的PAC泛化界，证明增加评价者数 $m$ 比增加每人样本数 $n$ 更有效，仅30个样本即可快速适应新用户。
+
+**[Concept-Level Explainability for Auditing & Steering LLM Responses](llm_alignment/concept-level_explainability_for_auditing_steering_llm_responses.md)**
+
+:   提出 ConceptX，一种基于概念级（而非 token 级）Shapley 归因的 LLM 可解释性方法，通过语义相似度而非 token 重合度来衡量输入概念对输出的影响，可用于审计偏见和通过 prompt 编辑引导 LLM 输出，在越狱防御中将攻击成功率从 0.463 降至 0.242。
+
+**[Deep Research Brings Deeper Harm](llm_alignment/deep_research_brings_deeper_harm.md)**
+
+:   揭示 Deep Research (DR) 智能体的严重安全隐患——即使底层 LLM 能正确拒绝有害请求，部署为 DR 智能体后仍能生成详细专业的危险报告；提出 Plan Injection 和 Intent Hijack 两种针对性越狱方法，以及 DeepREJECT 评估指标，在 6 个 LLM 上验证了 DR 智能体系统性地削弱了对齐机制。
+
+**[DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](llm_alignment/deepvideor1_video_reinforcement_finetuning_via_difficultyawa.md)**
+
+:   探索GRPO在VideoLLM中的应用，发现"安全门依赖"和"优势消失"两个阻碍有效学习的问题，提出Reg-GRPO（将GRPO loss重建为直接回归优势值的任务，消除clipping/min等安全门操作）和难度感知数据增强策略，在多个视频推理benchmark上显著提升性能。
+
+**[DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models](llm_alignment/densedpo_finegrained_temporal_preference_optimization_for_vi.md)**
+
+:   提出 DenseDPO，通过三个创新解决视频扩散模型 DPO 训练的根本缺陷：(1) 从 GT 视频加噪去噪构造对齐的视频对消除运动偏差，(2) 在短时间片段而非整个视频上标注偏好提供更密集的学习信号，(3) 用 GPT 等 VLM 自动标注片段级偏好取代人工标注。仅用 1/3 标注数据即大幅提升运动生成质量。
+
+**[Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization](llm_alignment/diffusion_model_as_a_noiseaware_latent_reward_model_for_step.md)**
+
+:   提出 Latent Reward Model (LRM) 和 Latent Preference Optimization (LPO)，将预训练扩散模型本身复用为噪声感知的潜空间奖励模型，在噪声潜在空间直接进行步级偏好优化，相比 Diffusion-DPO 实现 10-28× 训练加速，相比 SPO 实现 2.5-3.5× 加速。
+
+**[EvoRefuse: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal](llm_alignment/evorefuse_evolutionary_prompt_optimization_for_evaluation_and_mitigation_of_llm_.md)**
+
+:   提出 EvoRefuse——用进化搜索（变异/重组 + ELBO 适应度 + 模拟退火）生成语义无害但能可靠触发 LLM 拒绝的"伪恶意"指令，比最强基线的拒绝触发率高 85.34%，并用生成的数据进行 SFT/DPO 微调，将过度拒绝降低 29.85%-45.96%。
+
+**[From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring](llm_alignment/from_judgment_to_interference_early_stopping_llm_harmful_outputs_via_streaming_c.md)**
+
+:   提出 Streaming Content Monitor (SCM)——首个原生支持部分检测的流式有害内容监控器，通过 FineHarm 数据集（29K 样本含 token 级标注）和层次一致性感知学习，平均仅需看到 18% 的 response tokens 即可达到 0.95+ macro F1，实现对 LLM 有害输出的实时早停。
+
+**[g-DPO: Scalable Preference Optimization for Protein Language Models](llm_alignment/g-dpo_scalable_preference_optimization_for_protein_language_models.md)**
+
+:   针对蛋白质语言模型的偏好优化提出 g-DPO，通过序列空间聚类剪枝冗余对和 union masking 摊销似然计算，在保持标准 DPO 性能的同时实现 1.7-5.4× 训练加速。
+
+**[Gasp Efficient Black-Box Generation Of Adversarial Suffixes For Jailbreaking Llm](llm_alignment/gasp_efficient_black-box_generation_of_adversarial_suffixes_for_jailbreaking_llm.md)**
+
+:   提出GASP框架，通过训练专用的SuffixLLM生成可读的对抗后缀，利用潜在贝叶斯优化（LBO）在连续嵌入空间中高效搜索并用ORPO迭代微调生成器，在完全黑盒设置下实现高攻击成功率且生成的后缀保持人类可读性。
+
+**[Greedy Sampling Is Provably Efficient For Rlhf](llm_alignment/greedy_sampling_is_provably_efficient_for_rlhf.md)**
+
+:   证明了在KL正则化的RLHF设置下，直接使用经验估计的贪心采样（无需构建乐观/悲观估计）就能在在线和离线两种设置中实现$O(\log T)$遗憾界和$O(\varepsilon^{-1})$样本复杂度，这是首次在一般偏好模型下达到这些阶数。
+
+**[GVPO: Group Variance Policy Optimization for Large Language Model Post-Training](llm_alignment/gvpo_group_variance_policy_optimization_for_large_language_model_post-training.md)**
+
+:   通过将 KL 约束奖励最大化的解析解融入梯度权重（零和权重消除配分函数），设计了比 GRPO 更稳定的 LLM 后训练方法 GVPO，在 AIME 上达到 20.72%（GRPO 14.79%），并证明具有唯一全局最优解。
+
+**[HelpSteer3-Preference: Open Human-Annotated Preference Data across Diverse Tasks and Languages](llm_alignment/helpsteer3-preference_open_human-annotated_preference_data_across_diverse_tasks_.md)**
+
+:   NVIDIA 发布的 40K+ 开源人工标注偏好数据集，覆盖通用/STEM/代码/多语言（13 种语言），训练的奖励模型在 RM-Bench 上达 82.4%（+10%），CC-BY-4.0 许可对商业友好。
+
+**[LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](llm_alignment/laser_learning_to_adaptively_select_reward_models_with_multi-armed_bandits.md)**
+
+:   将多个奖励模型（RM）的选择建模为上下文多臂老虎机（LinUCB）问题，在迭代 LLM 训练中自适应地为每个 batch 选择最合适的 RM，在推理、指令跟随和长上下文任务上以 2-3 倍效率优势全面超越 RM 集成和单 RM 基线。
+
+**[LLM Safety Alignment is Divergence Estimation in Disguise](llm_alignment/llm_safety_alignment_is_divergence_estimation_in_disguise.md)**
+
+:   建立统一理论框架证明 RLHF/DPO/KTO/BCO 等对齐方法本质上是在估计安全分布 $\mathcal{D}^+$ 与不安全分布 $\mathcal{D}^-$ 之间的散度，由此解释了对齐后隐空间分离现象，并提出基于 KL 散度的 KLDO 对齐方法，在 5 个模型上实现最佳鲁棒性。
+
+**[LongVPO: From Anchored Cues to Self-Reasoning for Long-Form Video Preference Optimization](llm_alignment/longvpo_from_anchored_cues_to_selfreasoning_for_longform_vid.md)**
+
+:   提出 LongVPO，一个两阶段 DPO 框架使短上下文 VLM 无需长视频标注即可理解超长视频——阶段1通过锚定短片段构造偏好数据解决位置偏差问题，阶段2通过递归描述+多段推理任务培养跨片段推理能力，仅用 16K 合成样本即超越 SOTA 开源模型。
+
+**[Mechanism Design for LLM Fine-tuning with Multiple Reward Models](llm_alignment/mechanism_design_for_llm_fine-tuning_with_multiple_reward_models.md)**
+
+:   将多方偏好聚合的 RLHF 微调建模为机制设计问题，证明了在社会福利最大化训练规则下各方有动机虚报偏好，并通过扩展 VCG 支付机制实现了占优策略激励相容（DSIC），确保各方如实报告偏好。
+
+**[On Extending Direct Preference Optimization to Accommodate Ties](llm_alignment/on_extending_direct_preference_optimization_to_accommodate_ties.md)**
+
+:   将 DPO 中的 Bradley-Terry 偏好模型替换为 Rao-Kupper 和 Davidson 扩展，使偏好优化能够显式建模"平局"数据，避免丢弃模糊偏好对，在翻译和数学推理上获得更好的正则化和性能。
+
+**[Preference Optimization by Estimating the Ratio of the Data Distribution](llm_alignment/preference_optimization_by_estimating_the_ratio_of_the_data_distribution.md)**
+
+:   将 DPO 重新解释为似然比估计（ratio matching）问题，基于 Bregman 散度框架提出 BPO（Bregman Preference Optimization），包含 DPO 为特例的广义损失函数族，并设计了 SBA（Scaled Basu's Power Divergence）实例，在 Llama-3-8B 上实现 55.9% AlpacaEval2 length-controlled win rate 的 SOTA。
+
+**[Robust LLM Alignment via Distributionally Robust Direct Preference Optimization](llm_alignment/robust_llm_alignment_via_distributionally_robust_direct_preference_optimization.md)**
+
+:   通过分布鲁棒优化（DRO）框架提出 WDPO（Wasserstein）和 KLDPO（KL散度）两种鲁棒 DPO 变体，解决用户偏好分布转移导致的对齐失败问题，提供 $O(n^{-1/4})$ 收敛保证，在多维对齐任务和 OpenLLM 榜单上显著优于标准 DPO。
+
+**[Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks](llm_alignment/short-length_adversarial_training_helps_llms_defend_long-length_jailbreak_attack.md)**
+
+:   理论证明并实验验证：防御长度 $\Theta(M)$ 的后缀越狱攻击，只需要在长度 $\Theta(\sqrt{M})$ 的对抗后缀上做对抗训练即可，即"短对抗训练防长越狱"——在5个主流LLM上，20 token 对抗训练可将 120 token 越狱成功率降低至少 30%。
+
+**[Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning](llm_alignment/simplicity_prevails_rethinking_negative_preference_optimization_for_llm_unlearni.md)**
+
+:   提出 SimNPO，通过移除参考模型依赖并采用长度归一化奖励替代 NPO 的参考模型比较，简化设计但更有效适配数据难度差异，TOFU FQ 从 0.79 提升至 0.91+。
+
+**[Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning](llm_alignment/trajectory_bellman_residual_minimization_a_simple_value-based_method_for_llm_rea.md)**
+
+:   TBRM 通过最小化轨迹级贝尔曼残差，将 LLM 输出 logits 视为隐式 Q 值，仅需每个 prompt 一次前向采样即可训练，复杂度远低于 PPO/GRPO 但数学推理性能相当或更优。
+
+**[What Makes a Reward Model a Good Teacher? An Optimization Perspective](llm_alignment/what_makes_a_reward_model_a_good_teacher_an_optimization_perspective.md)**
+
+:   从优化理论角度证明：奖励模型的准确率（accuracy）不足以衡量其作为 RLHF "教师"的质量——即使完美准确的奖励模型，如果诱导的奖励方差（reward variance）过低，也会导致 RLHF 目标函数景观平坦，使 policy gradient 优化极慢；不同的语言模型需要不同的奖励模型。
 
 ---
 
@@ -1534,118 +1682,6 @@
 **[Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video](model_compression/eyes_wide_open_ego_proactive_videollm_for_streaming_video.md)**
 
 :   定义"第一视角流式视频主动理解"新任务——给定ego-streaming视频，AI助手在恰当时机主动回答多样化、随事件演变的问题，同时保持感知与推理的同步。提出ESTP-Bench评估框架、ESTP-F1指标，以及含数据引擎、多阶段训练和主动动态压缩的完整技术pipeline（VideoLLM-EyeWO），在ESTP-Bench上比最强baseline MiniCPM-V高11.8%。
-
----
-
-## ⚖️ 对齐 / RLHF { #llm_alignment }
-
-**[A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs](llm_alignment/a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md)**
-
-:   提出一种自适应 Alpha 聚合策略，在联邦 RLHF 框架中根据各用户群体的历史对齐表现动态调整奖励权重，从而在多元偏好对齐中同时实现高公平性和强对齐性能。
-
-**[Alignment of Large Language Models with Constrained Learning](llm_alignment/alignment_of_large_language_models_with_constrained_learning.md)**
-
-:   将LLM对齐形式化为约束优化问题（最大化主要奖励同时满足次要效用约束如安全性），提出基于拉格朗日对偶的迭代方法交替更新LLM策略和对偶变量，理论上刻画了分布空间与LLM参数空间之间的原对偶间隙和最优性间隙，证明方法可以找到近最优约束LLM策略。
-
-**[Ask a Strong LLM Judge when Your Reward Model is Uncertain](llm_alignment/ask_a_strong_llm_judge_when_your_reward_model_is_uncertain.md)**
-
-:   提出基于不确定性的路由框架，用SNGP对pairwise reward model做不确定性量化，将高认知不确定性的样本路由到强LLM judge（DeepSeek-R1），在仅调用9.2%~42.5% judge的成本下显著超越随机路由的准确率，且有效改善下游在线RLHF对齐效果。
-
-**[Attack via Overfitting: 10-shot Benign Fine-tuning to Jailbreak LLMs](llm_alignment/attack_via_overfitting_10-shot_benign_fine-tuning_to_jailbreak_llms.md)**
-
-:   提出两阶段微调攻击：第一阶段用10个问题配相同拒绝答案使LLM过拟合到窄最优解（尖锐loss landscape），第二阶段用相同10个问题配正常答案触发灾难性遗忘——安全对齐被"忘掉"，仅用完全良性数据即达94.84%越狱成功率，与恶意微调（97.25%）相当且完全绕过审核模型。
-
-**[Can DPO Learn Diverse Human Values? A Theoretical Scaling Law](llm_alignment/can_dpo_learn_diverse_human_values_a_theoretical_scaling_law.md)**
-
-:   建立了 DPO 在多元人类价值设定下的理论泛化框架——通过分析有限梯度步后 reward margin 的动态轨迹，证明了每种价值所需样本量必须随价值类别数 $K$ 对数增长（$Q = \Theta(\log K)$）才能维持泛化性能，揭示了对齐多元化社会价值的统计代价。
-
-**[Capturing Individual Human Preferences with Reward Features](llm_alignment/capturing_individual_human_preferences_with_reward_features.md)**
-
-:   提出奖励特征模型（RFM）：学习共享奖励特征 $\phi_\theta(x,y)$，每个用户通过线性权重 $\mathbf{w}_h$ 组合这些特征得到个性化奖励 $r_h = \langle \phi_\theta, \mathbf{w}_h \rangle$，并首次给出多评价者偏好学习的PAC泛化界，证明增加评价者数 $m$ 比增加每人样本数 $n$ 更有效，仅30个样本即可快速适应新用户。
-
-**[Concept-Level Explainability for Auditing & Steering LLM Responses](llm_alignment/concept-level_explainability_for_auditing_steering_llm_responses.md)**
-
-:   提出 ConceptX，一种基于概念级（而非 token 级）Shapley 归因的 LLM 可解释性方法，通过语义相似度而非 token 重合度来衡量输入概念对输出的影响，可用于审计偏见和通过 prompt 编辑引导 LLM 输出，在越狱防御中将攻击成功率从 0.463 降至 0.242。
-
-**[Deep Research Brings Deeper Harm](llm_alignment/deep_research_brings_deeper_harm.md)**
-
-:   揭示 Deep Research (DR) 智能体的严重安全隐患——即使底层 LLM 能正确拒绝有害请求，部署为 DR 智能体后仍能生成详细专业的危险报告；提出 Plan Injection 和 Intent Hijack 两种针对性越狱方法，以及 DeepREJECT 评估指标，在 6 个 LLM 上验证了 DR 智能体系统性地削弱了对齐机制。
-
-**[DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](llm_alignment/deepvideor1_video_reinforcement_finetuning_via_difficultyawa.md)**
-
-:   探索GRPO在VideoLLM中的应用，发现"安全门依赖"和"优势消失"两个阻碍有效学习的问题，提出Reg-GRPO（将GRPO loss重建为直接回归优势值的任务，消除clipping/min等安全门操作）和难度感知数据增强策略，在多个视频推理benchmark上显著提升性能。
-
-**[DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models](llm_alignment/densedpo_finegrained_temporal_preference_optimization_for_vi.md)**
-
-:   提出 DenseDPO，通过三个创新解决视频扩散模型 DPO 训练的根本缺陷：(1) 从 GT 视频加噪去噪构造对齐的视频对消除运动偏差，(2) 在短时间片段而非整个视频上标注偏好提供更密集的学习信号，(3) 用 GPT 等 VLM 自动标注片段级偏好取代人工标注。仅用 1/3 标注数据即大幅提升运动生成质量。
-
-**[Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization](llm_alignment/diffusion_model_as_a_noiseaware_latent_reward_model_for_step.md)**
-
-:   提出 Latent Reward Model (LRM) 和 Latent Preference Optimization (LPO)，将预训练扩散模型本身复用为噪声感知的潜空间奖励模型，在噪声潜在空间直接进行步级偏好优化，相比 Diffusion-DPO 实现 10-28× 训练加速，相比 SPO 实现 2.5-3.5× 加速。
-
-**[EvoRefuse: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal](llm_alignment/evorefuse_evolutionary_prompt_optimization_for_evaluation_and_mitigation_of_llm_.md)**
-
-:   提出 EvoRefuse——用进化搜索（变异/重组 + ELBO 适应度 + 模拟退火）生成语义无害但能可靠触发 LLM 拒绝的"伪恶意"指令，比最强基线的拒绝触发率高 85.34%，并用生成的数据进行 SFT/DPO 微调，将过度拒绝降低 29.85%-45.96%。
-
-**[From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring](llm_alignment/from_judgment_to_interference_early_stopping_llm_harmful_outputs_via_streaming_c.md)**
-
-:   提出 Streaming Content Monitor (SCM)——首个原生支持部分检测的流式有害内容监控器，通过 FineHarm 数据集（29K 样本含 token 级标注）和层次一致性感知学习，平均仅需看到 18% 的 response tokens 即可达到 0.95+ macro F1，实现对 LLM 有害输出的实时早停。
-
-**[g-DPO: Scalable Preference Optimization for Protein Language Models](llm_alignment/g-dpo_scalable_preference_optimization_for_protein_language_models.md)**
-
-:   针对蛋白质语言模型的偏好优化提出 g-DPO，通过序列空间聚类剪枝冗余对和 union masking 摊销似然计算，在保持标准 DPO 性能的同时实现 1.7-5.4× 训练加速。
-
-**[Gasp Efficient Black-Box Generation Of Adversarial Suffixes For Jailbreaking Llm](llm_alignment/gasp_efficient_black-box_generation_of_adversarial_suffixes_for_jailbreaking_llm.md)**
-
-:   提出GASP框架，通过训练专用的SuffixLLM生成可读的对抗后缀，利用潜在贝叶斯优化（LBO）在连续嵌入空间中高效搜索并用ORPO迭代微调生成器，在完全黑盒设置下实现高攻击成功率且生成的后缀保持人类可读性。
-
-**[Greedy Sampling Is Provably Efficient For Rlhf](llm_alignment/greedy_sampling_is_provably_efficient_for_rlhf.md)**
-
-:   证明了在KL正则化的RLHF设置下，直接使用经验估计的贪心采样（无需构建乐观/悲观估计）就能在在线和离线两种设置中实现$O(\log T)$遗憾界和$O(\varepsilon^{-1})$样本复杂度，这是首次在一般偏好模型下达到这些阶数。
-
-**[GVPO: Group Variance Policy Optimization for Large Language Model Post-Training](llm_alignment/gvpo_group_variance_policy_optimization_for_large_language_model_post-training.md)**
-
-:   通过将 KL 约束奖励最大化的解析解融入梯度权重（零和权重消除配分函数），设计了比 GRPO 更稳定的 LLM 后训练方法 GVPO，在 AIME 上达到 20.72%（GRPO 14.79%），并证明具有唯一全局最优解。
-
-**[HelpSteer3-Preference: Open Human-Annotated Preference Data across Diverse Tasks and Languages](llm_alignment/helpsteer3-preference_open_human-annotated_preference_data_across_diverse_tasks_.md)**
-
-:   NVIDIA 发布的 40K+ 开源人工标注偏好数据集，覆盖通用/STEM/代码/多语言（13 种语言），训练的奖励模型在 RM-Bench 上达 82.4%（+10%），CC-BY-4.0 许可对商业友好。
-
-**[LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](llm_alignment/laser_learning_to_adaptively_select_reward_models_with_multi-armed_bandits.md)**
-
-:   将多个奖励模型（RM）的选择建模为上下文多臂老虎机（LinUCB）问题，在迭代 LLM 训练中自适应地为每个 batch 选择最合适的 RM，在推理、指令跟随和长上下文任务上以 2-3 倍效率优势全面超越 RM 集成和单 RM 基线。
-
-**[LLM Safety Alignment is Divergence Estimation in Disguise](llm_alignment/llm_safety_alignment_is_divergence_estimation_in_disguise.md)**
-
-:   建立统一理论框架证明 RLHF/DPO/KTO/BCO 等对齐方法本质上是在估计安全分布 $\mathcal{D}^+$ 与不安全分布 $\mathcal{D}^-$ 之间的散度，由此解释了对齐后隐空间分离现象，并提出基于 KL 散度的 KLDO 对齐方法，在 5 个模型上实现最佳鲁棒性。
-
-**[LongVPO: From Anchored Cues to Self-Reasoning for Long-Form Video Preference Optimization](llm_alignment/longvpo_from_anchored_cues_to_selfreasoning_for_longform_vid.md)**
-
-:   提出 LongVPO，一个两阶段 DPO 框架使短上下文 VLM 无需长视频标注即可理解超长视频——阶段1通过锚定短片段构造偏好数据解决位置偏差问题，阶段2通过递归描述+多段推理任务培养跨片段推理能力，仅用 16K 合成样本即超越 SOTA 开源模型。
-
-**[On Extending Direct Preference Optimization to Accommodate Ties](llm_alignment/on_extending_direct_preference_optimization_to_accommodate_ties.md)**
-
-:   将 DPO 中的 Bradley-Terry 偏好模型替换为 Rao-Kupper 和 Davidson 扩展，使偏好优化能够显式建模"平局"数据，避免丢弃模糊偏好对，在翻译和数学推理上获得更好的正则化和性能。
-
-**[Robust LLM Alignment via Distributionally Robust Direct Preference Optimization](llm_alignment/robust_llm_alignment_via_distributionally_robust_direct_preference_optimization.md)**
-
-:   通过分布鲁棒优化（DRO）框架提出 WDPO（Wasserstein）和 KLDPO（KL散度）两种鲁棒 DPO 变体，解决用户偏好分布转移导致的对齐失败问题，提供 $O(n^{-1/4})$ 收敛保证，在多维对齐任务和 OpenLLM 榜单上显著优于标准 DPO。
-
-**[Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks](llm_alignment/short-length_adversarial_training_helps_llms_defend_long-length_jailbreak_attack.md)**
-
-:   理论证明并实验验证：防御长度 $\Theta(M)$ 的后缀越狱攻击，只需要在长度 $\Theta(\sqrt{M})$ 的对抗后缀上做对抗训练即可，即"短对抗训练防长越狱"——在5个主流LLM上，20 token 对抗训练可将 120 token 越狱成功率降低至少 30%。
-
-**[Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning](llm_alignment/simplicity_prevails_rethinking_negative_preference_optimization_for_llm_unlearni.md)**
-
-:   提出 SimNPO，通过移除参考模型依赖并采用长度归一化奖励替代 NPO 的参考模型比较，简化设计但更有效适配数据难度差异，TOFU FQ 从 0.79 提升至 0.91+。
-
-**[Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning](llm_alignment/trajectory_bellman_residual_minimization_a_simple_value-based_method_for_llm_rea.md)**
-
-:   TBRM 通过最小化轨迹级贝尔曼残差，将 LLM 输出 logits 视为隐式 Q 值，仅需每个 prompt 一次前向采样即可训练，复杂度远低于 PPO/GRPO 但数学推理性能相当或更优。
-
-**[What Makes a Reward Model a Good Teacher? An Optimization Perspective](llm_alignment/what_makes_a_reward_model_a_good_teacher_an_optimization_perspective.md)**
-
-:   从优化理论角度证明：奖励模型的准确率（accuracy）不足以衡量其作为 RLHF "教师"的质量——即使完美准确的奖励模型，如果诱导的奖励方差（reward variance）过低，也会导致 RLHF 目标函数景观平坦，使 policy gradient 优化极慢；不同的语言模型需要不同的奖励模型。
 
 ---
 

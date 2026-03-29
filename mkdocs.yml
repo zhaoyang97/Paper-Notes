@@ -894,7 +894,7 @@ nav:
     - Unlocking Multimodal Mathematical Reasoning via Process Reward Model: NeurIPS2025/llm_reasoning/unlocking_multimodal_mathematical_reasoning_via_process_reward_model.md
     - 笔记6：Self-Evaluating LLMs - 多步任务的步级置信度估计: NeurIPS2025/llm_reasoning/value-guided_search_for_efficient_chain-of-thought_reasoning.md
     - 'Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought': NeurIPS2025/llm_reasoning/visual_thoughts_a_unified_perspective_of_understanding_multi.md
-  - 💬 LLM / NLP (48):
+  - 💬 LLM / NLP (52):
     - 💬 LLM / NLP: NeurIPS2025/llm_nlp/index.md
     - 'AceSearcher: Bootstrapping Reasoning and Search for LLMs via Reinforced Self-Play': NeurIPS2025/llm_nlp/acesearcher_bootstrapping_reasoning_and_search_for_llms_via_reinforced_self-play.md
     - Active Slice Discovery in Large Language Models: NeurIPS2025/llm_nlp/active_slice_discovery_in_large_language_models.md
@@ -917,6 +917,7 @@ nav:
     - Bridging Human And Llm Judgments Understanding And Narrowing The Gap: NeurIPS2025/llm_nlp/bridging_human_and_llm_judgments_understanding_and_narrowing_the_gap.md
     - 'CAT: Circular-Convolutional Attention for Sub-Quadratic Transformers': NeurIPS2025/llm_nlp/cat_circular-convolutional_attention_for_sub-quadratic_transformers.md
     - 'CBMAS: Cognitive Behavioral Modeling via Activation Steering': NeurIPS2025/llm_nlp/cbmas_cognitive_behavioral_modeling_via_activation_steering.md
+    - Characterizing the Expressivity of Fixed-Precision Transformer Language Models: NeurIPS2025/llm_nlp/characterizing_the_expressivity_of_fixed-precision_transformer_language_models.md
     - 'CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance': NeurIPS2025/llm_nlp/codeassistbench_cab_dataset_benchmarking_for_multi-turn_chat-based_code_assistan.md
     - 'ConfTuner: Training Large Language Models to Express Their Confidence Verbally': NeurIPS2025/llm_nlp/conftuner_training_large_language_models_to_express_their_confidence_verbally.md
     - 'CoRe: Benchmarking LLMs'' Code Reasoning Capabilities through Static Analysis Tasks': NeurIPS2025/llm_nlp/core_benchmarking_llms_code_reasoning_capabilities_through_static_analysis_tasks.md
@@ -931,6 +932,8 @@ nav:
     - 'Gemstones: A Model Suite for Multi-Faceted Scaling Laws': NeurIPS2025/llm_nlp/gemstones_a_model_suite_for_multi-faceted_scaling_laws.md
     - How Do Transformers Learn Implicit Reasoning?: NeurIPS2025/llm_nlp/how_do_transformers_learn_implicit_reasoning.md
     - 'HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization': NeurIPS2025/llm_nlp/hybridnorm_towards_stable_and_efficient_transformer_training_via_hybrid_normaliz.md
+    - Hyperparameter Transfer Enables Consistent Gains Of Matrix-Preconditioned Optimi: NeurIPS2025/llm_nlp/hyperparameter_transfer_enables_consistent_gains_of_matrix-preconditioned_optimi.md
+    - 'In-Context Learning of Linear Dynamical Systems with Transformers: Approximation Bounds and Depth-Separation': NeurIPS2025/llm_nlp/in-context_learning_of_linear_dynamical_systems_with_transformers_approximation_.md
     - Language Model Behavioral Phases are Consistent Across Architecture, Training Data, and Scale: NeurIPS2025/llm_nlp/language_model_behavioral_phases_are_consistent_across_archi.md
     - Large Language Models Miss the Multi-Agent Mark: NeurIPS2025/llm_nlp/large_language_models_miss_the_multi-agent_mark.md
     - 'LooGLE v2: LLM在真实世界长依赖挑战上的准备情况评估': NeurIPS2025/llm_nlp/loogle_v2_are_llms_ready_for_real_world_long_dependency_challenges.md
@@ -943,6 +946,7 @@ nav:
     - 'Sloth: Scaling Laws for LLM Skills to Predict Multi-Benchmark Performance Across Families': NeurIPS2025/llm_nlp/sloth_scaling_laws_for_llm_skills_to_predict_multi-benchmark_performance_across_.md
     - The Curse of Depth in Large Language Models: NeurIPS2025/llm_nlp/the_curse_of_depth_in_large_language_models.md
     - The Trilemma of Truth in Large Language Models: NeurIPS2025/llm_nlp/the_trilemma_of_truth_in_large_language_models.md
+    - Understanding And Enhancing Mask-Based Pretraining Towards Universal Representat: NeurIPS2025/llm_nlp/understanding_and_enhancing_mask-based_pretraining_towards_universal_representat.md
     - Unifying Attention Heads and Task Vectors via Hidden State Geometry in In-Context Learning: NeurIPS2025/llm_nlp/unifying_attention_heads_and_task_vectors_via_hidden_state_geometry_in_in-contex.md
     - 'What One Cannot, Two Can: Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains': NeurIPS2025/llm_nlp/what_one_cannot_two_can_two-layer_transformers_provably_represent_induction_head.md
     - 'Yggdrasil: 桥接动态投机和静态运行时的延迟最优树型LLM解码': NeurIPS2025/llm_nlp/yggdrasil_bridging_dynamic_speculation_and_static_runtime_for_latency-optimal_tr.md
@@ -1045,7 +1049,7 @@ nav:
     - 'PhysCtrl: Generative Physics for Controllable and Physics-Grounded Video Generation': NeurIPS2025/image_generation/physctrl_generative_physics_for_controllable_and_physicsgrou.md
     - 'Safe-Sora: Safe Text-to-Video Generation via Graphical Watermarking': NeurIPS2025/image_generation/safesora_safe_texttovideo_generation_via_graphical_watermark.md
     - Scalable, Explainable and Provably Robust Anomaly Detection with One-Step Flow Matching: NeurIPS2025/image_generation/scalable_explainable_and_provably_robust_anomaly_detection_with_one-step_flow_ma.md
-  - ⚡ LLM 效率 (43):
+  - ⚡ LLM 效率 (45):
     - ⚡ LLM 效率: NeurIPS2025/llm_efficiency/index.md
     - 3-Model Speculative Decoding (PyramidSD): NeurIPS2025/llm_efficiency/3model_speculative_decoding.md
     - A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings: NeurIPS2025/llm_efficiency/a_multitask_benchmark_for_abusive_language_detection_in_lowr.md
@@ -1078,6 +1082,7 @@ nav:
     - 'Mozart: Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures': NeurIPS2025/llm_efficiency/mozart_modularized_and_efficient_moe_training_on_35d_wafer-scale_chiplet_archite.md
     - On the Entropy Calibration of Language Models: NeurIPS2025/llm_efficiency/on_the_entropy_calibration_of_language_models.md
     - On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks: NeurIPS2025/llm_efficiency/on_the_expressive_power_of_mixture-of-experts_for_structured_complex_tasks.md
+    - 'One Prompt Fits All: Universal Graph Adaptation for Pretrained Models': NeurIPS2025/llm_efficiency/one_prompt_fits_all_universal_graph_adaptation_for_pretrained_models.md
     - 'ParallelPrompt: Extracting Parallelism from Large Language Model Queries': NeurIPS2025/llm_efficiency/parallelprompt_extracting_parallelism_from_large_language_model_queries.md
     - Scale-invariant Attention: NeurIPS2025/llm_efficiency/scale-invariant_attention.md
     - 'Silent Tokens, Loud Effects: Padding in LLMs': NeurIPS2025/llm_efficiency/silent_tokens_loud_effects_padding_in_llms.md
@@ -1087,6 +1092,7 @@ nav:
     - Tensor Product Attention Is All You Need: NeurIPS2025/llm_efficiency/tensor_product_attention_is_all_you_need.md
     - 'The Emergence of Sparse Attention: Impact of Data Distribution and Benefits of Repetition': NeurIPS2025/llm_efficiency/the_emergence_of_sparse_attention_impact_of_data_distribution_and_benefits_of_re.md
     - 'Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels': NeurIPS2025/llm_efficiency/tiled_flash_linear_attention_more_efficient_linear_rnn_and_xlstm_kernels.md
+    - 'Towards Interpretability Without Sacrifice: Faithful Dense Layer Decomposition with Mixture of Decoders': NeurIPS2025/llm_efficiency/towards_interpretability_without_sacrifice_faithful_dense_layer_decomposition_wi.md
     - 'UMoE: Unifying Attention and FFN with Shared Experts': NeurIPS2025/llm_efficiency/umoe_unifying_attention_and_ffn_with_shared_experts.md
     - Vocabulary Customization For Efficient Domain-Specific Llm Deployment: NeurIPS2025/llm_efficiency/vocabulary_customization_for_efficient_domain-specific_llm_deployment.md
     - 'ZeroS: Zero-Sum Linear Attention for Efficient Transformers': NeurIPS2025/llm_efficiency/zeros_zero-sum_linear_attention_for_efficient_transformers.md
@@ -1137,7 +1143,7 @@ nav:
     - Training Language Models to Reason Efficiently: NeurIPS2025/reinforcement_learning/training_language_models_to_reason_efficiently.md
     - 'VolleyBots: A Testbed for Multi-Drone Volleyball Game Combining Motion Control and Strategic Play': NeurIPS2025/reinforcement_learning/volleybots_a_testbed_for_multi-drone_volleyball_game_combining_motion_control_an.md
     - Zero-Shot Context Generalization In Reinforcement Learning From Few Training Con: NeurIPS2025/reinforcement_learning/zero-shot_context_generalization_in_reinforcement_learning_from_few_training_con.md
-  - 🦾 LLM Agent (35):
+  - 🦾 LLM Agent (36):
     - 🦾 LLM Agent: NeurIPS2025/llm_agent/index.md
     - 'A-MEM: Agentic Memory for LLM Agents': NeurIPS2025/llm_agent/a-mem_agentic_memory_for_llm_agents.md
     - A Differentiable Model of Supply-Chain Shocks: NeurIPS2025/llm_agent/a_differentiable_model_of_supply-chain_shocks.md
@@ -1167,6 +1173,7 @@ nav:
     - Group-in-Group Policy Optimization for LLM Agent Training: NeurIPS2025/llm_agent/groupingroup_policy_optimization_for_llm_agent_training.md
     - It's LIT! Reliability-Optimized LLMs with Inspectable Tools: NeurIPS2025/llm_agent/its_lit_reliability-optimized_llms_with_inspectable_tools.md
     - 'Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve': NeurIPS2025/llm_agent/lessons_learned_a_multi-agent_framework_for_code_llms_to_learn_and_improve.md
+    - 'MAT-Agent: Adaptive Multi-Agent Training Optimization': NeurIPS2025/llm_agent/mat-agent_adaptive_multi-agent_training_optimization.md
     - 'MLRC-Bench: Can Language Agents Solve Machine Learning Research Challenges?': NeurIPS2025/llm_agent/mlrc-bench_can_language_agents_solve_machine_learning_research_challenges.md
     - Out of Control -- Why Alignment Needs Formal Control Theory (and an Alignment Control Stack): NeurIPS2025/llm_agent/out_of_control_--_why_alignment_needs_formal_control_theory_and_an_alignment_con.md
     - 'SuffixDecoding: Extreme Speculative Decoding for Emerging AI Applications': NeurIPS2025/llm_agent/suffixdecoding_extreme_speculative_decoding_for_emerging_ai_applications.md
@@ -1174,6 +1181,37 @@ nav:
     - 'The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement': NeurIPS2025/llm_agent/the_lighthouse_of_language_enhancing_llm_agents_via_critique-guided_improvement.md
     - 'TrajAgent: An LLM-Agent Framework for Trajectory Modeling via Large-and-Small Model Collaboration': NeurIPS2025/llm_agent/trajagent_an_llm-agent_framework_for_trajectory_modeling_via_large-and-small_mod.md
     - 'Web-Shepherd: Advancing PRMs for Reinforcing Web Agents': NeurIPS2025/llm_agent/web-shepherd_advancing_prms_for_reinforcing_web_agents.md
+  - ⚖️ 对齐 / RLHF (29):
+    - ⚖️ 对齐 / RLHF: NeurIPS2025/llm_alignment/index.md
+    - A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs: NeurIPS2025/llm_alignment/a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md
+    - Alignment of Large Language Models with Constrained Learning: NeurIPS2025/llm_alignment/alignment_of_large_language_models_with_constrained_learning.md
+    - Ask a Strong LLM Judge when Your Reward Model is Uncertain: NeurIPS2025/llm_alignment/ask_a_strong_llm_judge_when_your_reward_model_is_uncertain.md
+    - 'Attack via Overfitting: 10-shot Benign Fine-tuning to Jailbreak LLMs': NeurIPS2025/llm_alignment/attack_via_overfitting_10-shot_benign_fine-tuning_to_jailbreak_llms.md
+    - Can DPO Learn Diverse Human Values? A Theoretical Scaling Law: NeurIPS2025/llm_alignment/can_dpo_learn_diverse_human_values_a_theoretical_scaling_law.md
+    - Capturing Individual Human Preferences with Reward Features: NeurIPS2025/llm_alignment/capturing_individual_human_preferences_with_reward_features.md
+    - Concept-Level Explainability for Auditing & Steering LLM Responses: NeurIPS2025/llm_alignment/concept-level_explainability_for_auditing_steering_llm_responses.md
+    - Deep Research Brings Deeper Harm: NeurIPS2025/llm_alignment/deep_research_brings_deeper_harm.md
+    - 'DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO': NeurIPS2025/llm_alignment/deepvideor1_video_reinforcement_finetuning_via_difficultyawa.md
+    - 'DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models': NeurIPS2025/llm_alignment/densedpo_finegrained_temporal_preference_optimization_for_vi.md
+    - Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization: NeurIPS2025/llm_alignment/diffusion_model_as_a_noiseaware_latent_reward_model_for_step.md
+    - 'EvoRefuse: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal': NeurIPS2025/llm_alignment/evorefuse_evolutionary_prompt_optimization_for_evaluation_and_mitigation_of_llm_.md
+    - 'From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring': NeurIPS2025/llm_alignment/from_judgment_to_interference_early_stopping_llm_harmful_outputs_via_streaming_c.md
+    - 'g-DPO: Scalable Preference Optimization for Protein Language Models': NeurIPS2025/llm_alignment/g-dpo_scalable_preference_optimization_for_protein_language_models.md
+    - Gasp Efficient Black-Box Generation Of Adversarial Suffixes For Jailbreaking Llm: NeurIPS2025/llm_alignment/gasp_efficient_black-box_generation_of_adversarial_suffixes_for_jailbreaking_llm.md
+    - Greedy Sampling Is Provably Efficient For Rlhf: NeurIPS2025/llm_alignment/greedy_sampling_is_provably_efficient_for_rlhf.md
+    - 'GVPO: Group Variance Policy Optimization for Large Language Model Post-Training': NeurIPS2025/llm_alignment/gvpo_group_variance_policy_optimization_for_large_language_model_post-training.md
+    - 'HelpSteer3-Preference: Open Human-Annotated Preference Data across Diverse Tasks and Languages': NeurIPS2025/llm_alignment/helpsteer3-preference_open_human-annotated_preference_data_across_diverse_tasks_.md
+    - 'LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits': NeurIPS2025/llm_alignment/laser_learning_to_adaptively_select_reward_models_with_multi-armed_bandits.md
+    - LLM Safety Alignment is Divergence Estimation in Disguise: NeurIPS2025/llm_alignment/llm_safety_alignment_is_divergence_estimation_in_disguise.md
+    - 'LongVPO: From Anchored Cues to Self-Reasoning for Long-Form Video Preference Optimization': NeurIPS2025/llm_alignment/longvpo_from_anchored_cues_to_selfreasoning_for_longform_vid.md
+    - Mechanism Design for LLM Fine-tuning with Multiple Reward Models: NeurIPS2025/llm_alignment/mechanism_design_for_llm_fine-tuning_with_multiple_reward_models.md
+    - On Extending Direct Preference Optimization to Accommodate Ties: NeurIPS2025/llm_alignment/on_extending_direct_preference_optimization_to_accommodate_ties.md
+    - Preference Optimization by Estimating the Ratio of the Data Distribution: NeurIPS2025/llm_alignment/preference_optimization_by_estimating_the_ratio_of_the_data_distribution.md
+    - Robust LLM Alignment via Distributionally Robust Direct Preference Optimization: NeurIPS2025/llm_alignment/robust_llm_alignment_via_distributionally_robust_direct_preference_optimization.md
+    - Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks: NeurIPS2025/llm_alignment/short-length_adversarial_training_helps_llms_defend_long-length_jailbreak_attack.md
+    - 'Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning': NeurIPS2025/llm_alignment/simplicity_prevails_rethinking_negative_preference_optimization_for_llm_unlearni.md
+    - 'Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning': NeurIPS2025/llm_alignment/trajectory_bellman_residual_minimization_a_simple_value-based_method_for_llm_rea.md
+    - What Makes a Reward Model a Good Teacher? An Optimization Perspective: NeurIPS2025/llm_alignment/what_makes_a_reward_model_a_good_teacher_an_optimization_perspective.md
   - 📦 模型压缩 (29):
     - 📦 模型压缩: NeurIPS2025/model_compression/index.md
     - '3DID: Direct 3D Inverse Design for Aerodynamics with Physics-Aware Optimization': NeurIPS2025/model_compression/3did_direct_3d_inverse_design_for_aerodynamics_with_physics-aware_optimization.md
@@ -1207,35 +1245,6 @@ nav:
     - 'ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference': NeurIPS2025/model_compression/chunkkv_semanticpreserving_kv_cache_compression_for_efficien.md
     - 'DisMo: Disentangled Motion Representations for Open-World Motion Transfer': NeurIPS2025/model_compression/dismo_disentangled_motion_representations_for_openworld_moti.md
     - 'Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video': NeurIPS2025/model_compression/eyes_wide_open_ego_proactive_videollm_for_streaming_video.md
-  - ⚖️ 对齐 / RLHF (27):
-    - ⚖️ 对齐 / RLHF: NeurIPS2025/llm_alignment/index.md
-    - A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs: NeurIPS2025/llm_alignment/a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md
-    - Alignment of Large Language Models with Constrained Learning: NeurIPS2025/llm_alignment/alignment_of_large_language_models_with_constrained_learning.md
-    - Ask a Strong LLM Judge when Your Reward Model is Uncertain: NeurIPS2025/llm_alignment/ask_a_strong_llm_judge_when_your_reward_model_is_uncertain.md
-    - 'Attack via Overfitting: 10-shot Benign Fine-tuning to Jailbreak LLMs': NeurIPS2025/llm_alignment/attack_via_overfitting_10-shot_benign_fine-tuning_to_jailbreak_llms.md
-    - Can DPO Learn Diverse Human Values? A Theoretical Scaling Law: NeurIPS2025/llm_alignment/can_dpo_learn_diverse_human_values_a_theoretical_scaling_law.md
-    - Capturing Individual Human Preferences with Reward Features: NeurIPS2025/llm_alignment/capturing_individual_human_preferences_with_reward_features.md
-    - Concept-Level Explainability for Auditing & Steering LLM Responses: NeurIPS2025/llm_alignment/concept-level_explainability_for_auditing_steering_llm_responses.md
-    - Deep Research Brings Deeper Harm: NeurIPS2025/llm_alignment/deep_research_brings_deeper_harm.md
-    - 'DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO': NeurIPS2025/llm_alignment/deepvideor1_video_reinforcement_finetuning_via_difficultyawa.md
-    - 'DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models': NeurIPS2025/llm_alignment/densedpo_finegrained_temporal_preference_optimization_for_vi.md
-    - Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization: NeurIPS2025/llm_alignment/diffusion_model_as_a_noiseaware_latent_reward_model_for_step.md
-    - 'EvoRefuse: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal': NeurIPS2025/llm_alignment/evorefuse_evolutionary_prompt_optimization_for_evaluation_and_mitigation_of_llm_.md
-    - 'From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring': NeurIPS2025/llm_alignment/from_judgment_to_interference_early_stopping_llm_harmful_outputs_via_streaming_c.md
-    - 'g-DPO: Scalable Preference Optimization for Protein Language Models': NeurIPS2025/llm_alignment/g-dpo_scalable_preference_optimization_for_protein_language_models.md
-    - Gasp Efficient Black-Box Generation Of Adversarial Suffixes For Jailbreaking Llm: NeurIPS2025/llm_alignment/gasp_efficient_black-box_generation_of_adversarial_suffixes_for_jailbreaking_llm.md
-    - Greedy Sampling Is Provably Efficient For Rlhf: NeurIPS2025/llm_alignment/greedy_sampling_is_provably_efficient_for_rlhf.md
-    - 'GVPO: Group Variance Policy Optimization for Large Language Model Post-Training': NeurIPS2025/llm_alignment/gvpo_group_variance_policy_optimization_for_large_language_model_post-training.md
-    - 'HelpSteer3-Preference: Open Human-Annotated Preference Data across Diverse Tasks and Languages': NeurIPS2025/llm_alignment/helpsteer3-preference_open_human-annotated_preference_data_across_diverse_tasks_.md
-    - 'LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits': NeurIPS2025/llm_alignment/laser_learning_to_adaptively_select_reward_models_with_multi-armed_bandits.md
-    - LLM Safety Alignment is Divergence Estimation in Disguise: NeurIPS2025/llm_alignment/llm_safety_alignment_is_divergence_estimation_in_disguise.md
-    - 'LongVPO: From Anchored Cues to Self-Reasoning for Long-Form Video Preference Optimization': NeurIPS2025/llm_alignment/longvpo_from_anchored_cues_to_selfreasoning_for_longform_vid.md
-    - On Extending Direct Preference Optimization to Accommodate Ties: NeurIPS2025/llm_alignment/on_extending_direct_preference_optimization_to_accommodate_ties.md
-    - Robust LLM Alignment via Distributionally Robust Direct Preference Optimization: NeurIPS2025/llm_alignment/robust_llm_alignment_via_distributionally_robust_direct_preference_optimization.md
-    - Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks: NeurIPS2025/llm_alignment/short-length_adversarial_training_helps_llms_defend_long-length_jailbreak_attack.md
-    - 'Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning': NeurIPS2025/llm_alignment/simplicity_prevails_rethinking_negative_preference_optimization_for_llm_unlearni.md
-    - 'Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning': NeurIPS2025/llm_alignment/trajectory_bellman_residual_minimization_a_simple_value-based_method_for_llm_rea.md
-    - What Makes a Reward Model a Good Teacher? An Optimization Perspective: NeurIPS2025/llm_alignment/what_makes_a_reward_model_a_good_teacher_an_optimization_perspective.md
   - 📐 优化/理论 (26):
     - 📐 优化/理论: NeurIPS2025/optimization/index.md
     - A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization: NeurIPS2025/optimization/a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md
@@ -1700,36 +1709,78 @@ nav:
     - 笔记4：WebThinker - 赋予推理模型深度研究能力: NeurIPS2025/others/webthinker_empowering_large_reasoning_models_with_deep_research_capability.md
 - 💬 ACL2025:
   - ACL2025: ACL2025/index.md
-  - 💬 LLM / NLP (144):
+  - 💬 LLM / NLP (218):
     - 💬 LLM / NLP: ACL2025/llm_nlp/index.md
+    - A Case Study of Cross-Lingual Zero-Shot Generalization for Classical Languages in LLMs: ACL2025/llm_nlp/a_case_study_of_cross-lingual_zero-shot_generalization_for_classical_languages_i.md
+    - A Large-Scale Real-World Evaluation of LLM-Based Virtual Teaching Assistant: ACL2025/llm_nlp/a_large-scale_real-world_evaluation_of_llm-based_virtual_teaching_assistant.md
+    - A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm: ACL2025/llm_nlp/a_survey_of_automatic_prompt_optimization_with_instruction-focused_heuristic-bas.md
+    - 'A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions': ACL2025/llm_nlp/a_survey_of_large_language_models_in_psychotherapy_current_landscape_and_future_.md
+    - 'A Survey of LLM-based Agents in Medicine: How Far Are We from Baymax?': ACL2025/llm_nlp/a_survey_of_llm-based_agents_in_medicine_how_far_are_we_from_baymax.md
     - 'A Survey on Efficient Large Language Model Training: From Data-centric Perspectives': ACL2025/llm_nlp/a_survey_on_efficient_large_language.md
+    - A Survey on Proactive Defense Strategies Against Misinformation in Large Language Models: ACL2025/llm_nlp/a_survey_on_proactive_defense_strategies_against_misinformation_in_large_languag.md
+    - A Systematic Study of Compositional Syntactic Transformer Language Models: ACL2025/llm_nlp/a_systematic_study_of_compositional_syntactic_transformer_language_models.md
+    - 'AAD-LLM: Neural Attention-Driven Auditory Scene Understanding': ACL2025/llm_nlp/aad-llm_neural_attention-driven_auditory_scene_understanding.md
     - 'AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research': ACL2025/llm_nlp/abgen_evaluating_large_language_models_in.md
+    - Ad-hoc Concept Forming in the Game Codenames as a Means for Evaluating Large Language Models: ACL2025/llm_nlp/ad-hoc_concept_forming_in_the_game_codenames_as_a_means_for_evaluating_large_lan.md
+    - 'AD-LLM: Benchmarking Large Language Models for Anomaly Detection': ACL2025/llm_nlp/ad-llm_benchmarking_large_language_models_for_anomaly_detection.md
+    - 'Adaptive-VP: A Framework for LLM-Based Virtual Patients that Adapts to Trainees'' Dialogue': ACL2025/llm_nlp/adaptive-vp_a_framework_for_llm-based_virtual_patients_that_adapts_to_trainees_d.md
+    - 'ToxEdit: Adaptive Detoxification Safeguarding General Capabilities of LLMs through Toxicity-Aware Knowledge Editing': ACL2025/llm_nlp/adaptive_detoxification_safeguarding_general_capabilities_of_llms_through_toxici.md
+    - 'AfroBench: How Good Are Large Language Models on African Languages?': ACL2025/llm_nlp/afrobench_how_good_are_large_language_models_on_african_languages.md
     - 'AIMSCheck: Leveraging LLMs for AI-Assisted Review of Modern Slavery Statements Across Jurisdictions': ACL2025/llm_nlp/aimscheck_modern_slavery.md
     - 'Algorithmic Fidelity of Large Language Models in Generating Synthetic German Public Opinions: A Case Study': ACL2025/llm_nlp/algorithmic_fidelity_german_opinion.md
+    - 'NOVA: Aligning LLMs to Follow Instructions and Hallucinate Less via Effective Data Filtering': ACL2025/llm_nlp/aligning_large_language_models_to_follow_instructions_and_hallucinate_less_via_e.md
+    - Alignment Drift in CEFR-prompted LLMs for Interactive Spanish Tutoring: ACL2025/llm_nlp/alignment_drift_in_cefr-prompted_llms_for_interactive_spanish_tutoring.md
+    - 'Answer When Needed, Forget When Not: Language Models Pretend to Forget via In-Context Knowledge Unlearning': ACL2025/llm_nlp/answer_when_needed_forget_when_not_language_models_pretend_to_forget_via_in-cont.md
     - Revisiting Common Assumptions about Arabic Dialects in NLP: ACL2025/llm_nlp/arabic_dialects_assumptions_revisited.md
+    - 'ArithmAttack: Evaluating Robustness of LLMs to Noisy Context in Math Problem Solving': ACL2025/llm_nlp/arithmattack_evaluating_robustness_of_llms_to_noisy_context_in_math_problem_solv.md
     - 'Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models': ACL2025/llm_nlp/astute_rag_knowledge_conflicts.md
+    - Atomic Calibration of LLMs in Long-Form Generations: ACL2025/llm_nlp/atomic_calibration_of_llms_in_long-form_generations.md
     - 'Automating Legal Interpretation with LLMs: Retrieval, Generation, and Evaluation': ACL2025/llm_nlp/atrie_legal_interpretation.md
     - 'AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs': ACL2025/llm_nlp/autogui_scaling_gui_grounding_with_automatic.md
+    - 'LLM-AT: Automatic Transmission for LLM Tiers Optimizing Cost and Accuracy': ACL2025/llm_nlp/automatic_transmission_for_llm_tiers_optimizing_cost_and_accuracy_in_large_langu.md
+    - Awes, Laws, and Flaws From Today's LLM Research: ACL2025/llm_nlp/awes_laws_and_flaws_from_todays_llm_research.md
+    - 'OPTS: Bandit-Based Prompt Design Strategy Selection Improves Prompt Optimizers': ACL2025/llm_nlp/bandit-based_prompt_design_strategy_selection_improves_prompt_optimizers.md
+    - 'BanStereoSet: A Dataset to Measure Stereotypical Social Biases in LLMs for Bangla': ACL2025/llm_nlp/banstereoset_a_dataset_to_measure_stereotypical_social_biases_in_llms_for_bangla.md
+    - 'Batayan: A Filipino NLP Benchmark for Evaluating Large Language Models': ACL2025/llm_nlp/batayan_a_filipino_nlp_benchmark_for_evaluating_large_language_models.md
     - Binary Classifier Optimization for Large Language Model Alignment: ACL2025/llm_nlp/bco_binary_classifier_alignment.md
     - 'Between Circuits and Chomsky: Pre-pretraining on Formal Languages Imparts Linguistic Biases': ACL2025/llm_nlp/between_circuits_chomsky.md
+    - 'Beyond In-Context Learning: Aligning Long-form Generation of LLMs via Task-Inherent Attribute Guidelines': ACL2025/llm_nlp/beyond_in-context_learning_aligning_long-form_generation_of_large_language_model.md
+    - 'Beyond Profile: From Surface-Level Facts to Deep Persona Simulation in LLMs': ACL2025/llm_nlp/beyond_profile_from_surface-level_facts_to_deep_persona_simulation_in_llms.md
+    - 'Beyond Prompt Engineering: Robust Behavior Control in LLMs via Steering Target Atoms': ACL2025/llm_nlp/beyond_prompt_engineering_robust_behavior_control_in_llms_via_steering_target_at.md
+    - ? 'Bias Attribution in Filipino Language Models: Extending a Bias Interpretability
+        Metric for Application on Agglutinative Languages'
+      : ACL2025/llm_nlp/bias_attribution_in_filipino_language_models_extending_a_bias_interpretability_m.md
     - 'Bias in Language Models: Beyond Trick Tests and Towards RUTEd Evaluation': ACL2025/llm_nlp/bias_in_language_models_beyond_trick_tests_ruted_evaluation.md
+    - 'BiasGuard: A Reasoning-Enhanced Bias Detection Tool for Large Language Models': ACL2025/llm_nlp/biasguard_a_reasoning-enhanced_bias_detection_tool_for_large_language_models.md
+    - 'Blessing of Multilinguality: A Systematic Analysis of Multilingual In-Context Learning': ACL2025/llm_nlp/blessing_of_multilinguality_a_systematic_analysis_of_multilingual_in-context_lea.md
+    - 'BMIKE-53: Investigating Cross-Lingual Knowledge Editing with In-Context Learning': ACL2025/llm_nlp/bmike-53_investigating_cross-lingual_knowledge_editing_with_in-context_learning.md
+    - Boosting LLM's Molecular Structure Elucidation with Knowledge Enhanced Tree Search Reasoning: ACL2025/llm_nlp/boosting_llms_molecular_structure_elucidation_with_knowledge_enhanced_tree_searc.md
+    - 'Brevity is the soul of sustainability: Characterizing LLM response lengths': ACL2025/llm_nlp/brevity_is_the_soul_of_sustainability_characterizing_llm_response_lengths.md
     - Can Large Language Models Understand Internet Buzzwords Through User-Generated Content: ACL2025/llm_nlp/buzzword_understanding_ugc.md
     - Automated CAD Modeling Sequence Generation from Text Descriptions via Transformer-Based Large Language Models: ACL2025/llm_nlp/cadllm_cad_modeling_from_text.md
+    - Can External Validation Tools Improve Annotation Quality for LLM-as-a-Judge?: ACL2025/llm_nlp/can_external_validation_tools_improve_annotation_quality_for_llm-as-a-judge.md
+    - Can Input Attributions Explain Inductive Reasoning in In-Context Learning?: ACL2025/llm_nlp/can_input_attributions_explain_inductive_reasoning_in_in-context_learning.md
     - 'CER: Confidence Enhanced Reasoning in LLMs': ACL2025/llm_nlp/cer_confidence_enhanced_reasoning.md
     - 'ChainEdit: Propagating Ripple Effects in LLM Knowledge Editing through Logical Rule-Guided Chains': ACL2025/llm_nlp/chainedit_propagating_ripple_effects_in_llm.md
     - Enhancing Character-Level Understanding in LLMs through Token Internal Structure Learning: ACL2025/llm_nlp/character_level_understanding.md
     - 'Circuit Compositions: Exploring Modular Structures in Transformer-Based Language Models': ACL2025/llm_nlp/circuit_compositions_modular_structures.md
     - 'CKnowEdit: A New Chinese Knowledge Editing Dataset for Linguistics, Facts, and Logic Error Correction in LLMs': ACL2025/llm_nlp/cknowedit_chinese_knowledge_editing_dataset_llms.md
     - Classifying Unreliable Narrators with Large Language Models: ACL2025/llm_nlp/classifying_unreliable_narrators.md
+    - 'CodeReviewQA: The Code Review Comprehension Assessment for Large Language Models': ACL2025/llm_nlp/codereviewqa_the_code_review_comprehension_assessment_for_large_language_models.md
     - 'CogniBench: A Legal-inspired Framework and Dataset for Assessing Cognitive Faithfulness of Large Language Models': ACL2025/llm_nlp/cognibench_cognitive_faithfulness.md
     - Enough Coin Flips Can Make LLMs Act Bayesian: ACL2025/llm_nlp/coin_flips_bayesian.md
     - Revisiting Compositional Generalization Capability of Large Language Models Considering Instruction Following Ability: ACL2025/llm_nlp/compositional_generalization_instruction.md
+    - Computation Mechanism Behind LLM Position Generalization: ACL2025/llm_nlp/computation_mechanism_behind_llm_position_generalization.md
     - 'How Humans and LLMs Organize Conceptual Knowledge: Exploring Subordinate Categories in Italian': ACL2025/llm_nlp/conceptual_knowledge_org.md
     - 'ConsistencyChecker: Tree-based Evaluation of LLM Generalization Capabilities': ACL2025/llm_nlp/consistencychecker_tree_evaluation.md
+    - Context-Robust Knowledge Editing for Language Models: ACL2025/llm_nlp/context-robust_knowledge_editing_for_language_models.md
     - 'Contrastive Perplexity for Controlled Generation: An Application in Detoxifying Large Language Models': ACL2025/llm_nlp/contrastive_perplexity_controlled_gen.md
     - Contrastive Prompting Enhances Sentence Embeddings in LLMs through Inference-Time Steering: ACL2025/llm_nlp/contrastive_prompting_embeddings.md
+    - 'COSMIC: Generalized Refusal Direction Identification in LLM Activations': ACL2025/llm_nlp/cosmic_generalized_refusal_direction_identification_in_llm_activations.md
+    - 'Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation': ACL2025/llm_nlp/cross-lingual_transfer_of_debiasing_and_detoxification_in_multilingual_llms_an_e.md
     - Cross-model Transferability among Large Language Models on the Platonic Representations of Concepts: ACL2025/llm_nlp/cross_model_transferability_sv.md
     - 'Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models': ACL2025/llm_nlp/crosslingual_pitfalls.md
+    - 'Data Caricatures: On the Representation of African American Language in Pretraining Corpora': ACL2025/llm_nlp/data_caricatures_on_the_representation_of_african_american_language_in_pretraini.md
     - 'Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning': ACL2025/llm_nlp/data_whisperer_data_selection.md
     - 'DeAL: Decoding-time Alignment for Large Language Models': ACL2025/llm_nlp/deal_decoding_time_alignment.md
     - Defense Against Prompt Injection Attack by Leveraging Attack Techniques: ACL2025/llm_nlp/defense_prompt_injection.md
@@ -1740,16 +1791,23 @@ nav:
     - Disentangling Memory and Reasoning Ability in Large Language Models: ACL2025/llm_nlp/disentangle_memory_reasoning.md
     - 'DIVE into MoE: Diversity-Enhanced Reconstruction of Large Language Models from Dense into Mixture-of-Experts': ACL2025/llm_nlp/dive_moe_reconstruction.md
     - Diversity-oriented Data Augmentation with Large Language Models: ACL2025/llm_nlp/diversity_data_augmentation.md
+    - 'Diversity Explains Inference Scaling Laws: Through a Case Study of Minimum Bayes Risk Decoding': ACL2025/llm_nlp/diversity_explains_inference_scaling_laws_through_a_case_study_of_minimum_bayes_.md
+    - Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?: ACL2025/llm_nlp/do_large_language_models_perform_latent_multi-hop_reasoning_without_exploiting_s.md
+    - Does Time Have Its Place? Temporal Heads Where Language Models Recall Time-specific Information: ACL2025/llm_nlp/does_time_have_its_place_temporal_heads_where_language_models_recall_time-specif.md
     - 'ECLM: Entity Level Language Model for Spoken Language Understanding with Chain of Intent': ACL2025/llm_nlp/eclm_entity_level_language_model_spoken_language_understanding.md
     - 'EdiText: Controllable Coarse-to-Fine Text Editing with Diffusion Language Models': ACL2025/llm_nlp/editext_diffusion_text_editing.md
     - 'ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming': ACL2025/llm_nlp/elaboration_competitive_programming.md
+    - 'ELI-Why: Evaluating the Pedagogical Utility of Language Model Explanations': ACL2025/llm_nlp/eli-why_evaluating_the_pedagogical_utility_of_language_model_explanations.md
     - Emergent Abilities of Large Language Models under Continued Pretraining for Language Adaptation: ACL2025/llm_nlp/emergent_abilities_continued_pt.md
     - 'Growing Through Experience: Scaling Episodic Grounding in Language Models': ACL2025/llm_nlp/episodic_grounding_experience.md
     - 'Efficient and Accurate Prompt Optimization: the Benefit of Memory in Exemplar-Guided Reflection': ACL2025/llm_nlp/erm_prompt_optimization_memory.md
     - 'EscapeBench: Towards Advancing Creative Intelligence of Language Model Agents': ACL2025/llm_nlp/escapebench_creative_agent.md
     - Evaluating Language Models as Synthetic Data Generators: ACL2025/llm_nlp/evaluating_lms_synthetic_data_gen.md
     - LLMs Can Simulate Standardized Patients via Agent Coevolution: ACL2025/llm_nlp/evopatient_standardized_patient.md
+    - Exploring Explanations Improves the Robustness of In-Context Learning: ACL2025/llm_nlp/exploring_explanations_improves_the_robustness_of_in-context_learning.md
+    - Exploring Graph Representations of Logical Forms for Language Modeling: ACL2025/llm_nlp/exploring_graph_representations_of_logical_forms_for_language_modeling.md
     - 'HiCUPID: Exploring the Potential of LLMs as Personalized Assistants': ACL2025/llm_nlp/exploring_the_potential_of_llms_as.md
+    - 'FoodTaxo: Generating Food Taxonomies with Large Language Models': ACL2025/llm_nlp/foodtaxo_generating_food_taxonomies_with_large_language_models.md
     - A Survey on Foundation Language Models for Single-cell Biology: ACL2025/llm_nlp/foundation_lm_single_cell_survey.md
     - 'FR-Spec: Accelerating Large-Vocabulary Language Models via Frequency-Ranked Speculative Sampling': ACL2025/llm_nlp/fr_spec_speculative_sampling.md
     - From Selection To Generation A Survey: ACL2025/llm_nlp/from_selection_to_generation_a_survey.md
@@ -1763,17 +1821,28 @@ nav:
     - What Makes a Good Natural Language Prompt?: ACL2025/llm_nlp/good_natural_language_prompt.md
     - 'GORP: Continual Gradient Low-Rank Projection Fine-Tuning for LLMs': ACL2025/llm_nlp/gorp_continual_gradient_projection.md
     - Can Graph Descriptive Order Affect Solving Graph Problems with LLMs?: ACL2025/llm_nlp/graph_descriptive_order_llm.md
+    - 'Group then Scale: Dynamic Mixture-of-Experts Multilingual Language Model': ACL2025/llm_nlp/group_then_scale_dynamic_mixture-of-experts_multilingual_language_model.md
     - 'GuessArena: Guess Who I Am? A Self-Adaptive Framework for Evaluating LLMs in Domain-Specific Knowledge and Reasoning': ACL2025/llm_nlp/guessarena_guess_who_i_am_a.md
     - 'Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training': ACL2025/llm_nlp/hallucination_detox_send.md
     - 'HALoGEN: Fantastic LLM Hallucinations and Where to Find Them': ACL2025/llm_nlp/halogen_hallucinations.md
+    - 'HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs': ACL2025/llm_nlp/hellaswag-pro_a_large-scale_bilingual_benchmark_for_evaluating_the_robustness_of.md
     - 'Help Me Write a Story: Evaluating LLMs'' Ability to Generate Writing Feedback': ACL2025/llm_nlp/help_write_story_feedback.md
+    - How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on Continual Pre-Training: ACL2025/llm_nlp/how_do_llms_acquire_new_knowledge_a_knowledge_circuits_perspective_on_continual_.md
     - How does Misinformation Affect Large Language Model Behaviors and Preferences?: ACL2025/llm_nlp/how_does_misinformation_affect_large_language.md
+    - How Numerical Precision Affects Arithmetical Reasoning Capabilities of LLMs: ACL2025/llm_nlp/how_numerical_precision_affects_arithmetical_reasoning_capabilities_of_llms.md
+    - 'HPSS: Heuristic Prompting Strategy Search for LLM Evaluators': ACL2025/llm_nlp/hpss_heuristic_prompting_strategy_search_for_llm_evaluators.md
     - 'How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond': ACL2025/llm_nlp/human_nlp_cooperation_survey.md
+    - 'HumT DumT: Measuring and Controlling Human-like Language in LLMs': ACL2025/llm_nlp/humt_dumt_measuring_and_controlling_human-like_language_in_llms.md
+    - 'HyGenar: An LLM-Driven Hybrid Genetic Algorithm for Few-Shot Grammar Generation': ACL2025/llm_nlp/hygenar_an_llm-driven_hybrid_genetic_algorithm_for_few-shot_grammar_generation.md
+    - Enhancing the Rule Learning Ability of Large Language Model Agent through Induction, Deduction, and Abduction: ACL2025/llm_nlp/idea_enhancing_the_rule_learning_ability_of_large_language_model_agent_through_i.md
     - The Impossibility of Fair LLMs: ACL2025/llm_nlp/impossibility_fair_llms.md
     - Can Indirect Prompt Injection Attacks Be Detected and Removed?: ACL2025/llm_nlp/indirect_prompt_injection_detection.md
     - Leveraging Self-Attention for Input-Dependent Soft Prompting in LLMs: ACL2025/llm_nlp/input_dependent_soft_prompting.md
     - 'Beyond Facts: Evaluating Intent Hallucination in Large Language Models': ACL2025/llm_nlp/intent_hallucination_eval.md
     - 'IRT-Router: Effective and Interpretable Multi-LLM Routing via Item Response Theory': ACL2025/llm_nlp/irt_router_multi_llm.md
+    - ? Is LLM an Overconfident Judge? Unveiling the Capabilities of LLMs in Detecting
+        Offensive Language with Annotation Disagreement
+      : ACL2025/llm_nlp/is_llm_an_overconfident_judge_unveiling_the_capabilities_of_llms_in_detecting_of.md
     - 'JuStRank: Benchmarking LLM Judges for System Ranking': ACL2025/llm_nlp/justrank_llm_judge_system_ranking.md
     - Analyzing LLMs' Knowledge Boundary Cognition Across Languages Through the Lens of Internal Representations: ACL2025/llm_nlp/knowledge_boundary_crosslingual.md
     - 'Knowledge Boundary of Large Language Models: A Survey': ACL2025/llm_nlp/knowledge_boundary_survey.md
@@ -1784,6 +1853,7 @@ nav:
     - 'Less, but Better: Efficient Multilingual Expansion for LLMs via Layer-wise Mixture-of-Experts': ACL2025/llm_nlp/less_but_better_efficient_multilingual_expansion.md
     - On the Limit of Language Models as Planning Formalizers: ACL2025/llm_nlp/limit_llm_planning_formalizer.md
     - 'Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs': ACL2025/llm_nlp/llama_see_llama_do_entrainment.md
+    - 'LLM as Effective Streaming Processor: Bridging Streaming-Batch Mismatches with Group Position Encoding': ACL2025/llm_nlp/llm_as_effective_streaming_processor_bridging_streaming-batch_mismatches_with_gr.md
     - 'LLM Braces: Straightening Out LLM Predictions with Relevant Sub-Updates': ACL2025/llm_nlp/llm_braces_straightening.md
     - 'LLM as a Broken Telephone: Iterative Generation Distorts Information': ACL2025/llm_nlp/llm_broken_telephone.md
     - Evaluation of LLM Vulnerabilities to Being Misused for Personalized Disinformation Generation: ACL2025/llm_nlp/llm_personalized_disinformation.md
@@ -1799,6 +1869,7 @@ nav:
     - 'Marco-Bench-MIF: On Multilingual Instruction-Following Capability of Large Language Models': ACL2025/llm_nlp/marco_bench_multilingual_if.md
     - 'MathFusion: Enhancing Mathematical Problem-solving of LLM through Instruction Fusion': ACL2025/llm_nlp/mathfusion_instruction_fusion.md
     - 'Math Neurosurgery: Isolating Language Models'' Math Reasoning Abilities Using Only Forward Passes': ACL2025/llm_nlp/mathneuro_math_reasoning_isolation.md
+    - Mechanistic Interpretability of Emotion Inference in Large Language Models: ACL2025/llm_nlp/mechanistic_interpretability_of_emotion_inference_in_large_language_models.md
     - 'MEraser: An Effective Fingerprint Erasure Approach for Large Language Models': ACL2025/llm_nlp/meraser_fingerprint_erasure.md
     - 'MergePrint: Merge-Resistant Fingerprints for Robust Black-box Ownership Verification of Large Language Models': ACL2025/llm_nlp/mergeprint_fingerprint_ownership.md
     - 'Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models': ACL2025/llm_nlp/metarater_a_multidimensional_data_selection_method.md
@@ -1807,16 +1878,22 @@ nav:
     - Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs: ACL2025/llm_nlp/mid_layer_crosslingual_alignment.md
     - Comparing Moral Values in Western English-speaking Societies and LLMs with Word Associations: ACL2025/llm_nlp/moral_values_western.md
     - 'Delving into Multilingual Ethical Bias: The MSQAD with Statistical Hypothesis Tests for Large Language Models': ACL2025/llm_nlp/msqad_multilingual_ethical_bias.md
+    - Multi-Prompting Decoder Helps Better Language Understanding: ACL2025/llm_nlp/multi-prompting_decoder_helps_better_language_understanding.md
     - Multi-Attribute Steering of Language Models via Targeted Intervention: ACL2025/llm_nlp/multi_attribute_steering.md
     - Do Large Language Models Have an English Accent? Evaluating and Improving the Naturalness of Multilingual LLMs: ACL2025/llm_nlp/multilingual_llm_english_accent.md
     - Which of These Best Describes Multiple Choice Evaluation with LLMs? A) Forced B) Flawed C) Fixable D) All of the Above: ACL2025/llm_nlp/multiple_choice_eval.md
+    - 'Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review': ACL2025/llm_nlp/natural_language_processing_in_support_of_evidence-based_medicine_a_scoping_revi.md
     - 'Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset': ACL2025/llm_nlp/nemotron_cc_pretraining_data.md
+    - 'NewsInterview: a Dataset and a Playground to Evaluate LLMs'' Grounding Gap via Informational Interviews': ACL2025/llm_nlp/newsinterview_a_dataset_and_a_playground_to_evaluate_llms_grounding_gap_via_info.md
     - 'Nudging: Inference-time Alignment of LLMs via Guided Decoding': ACL2025/llm_nlp/nudging_inference_time_alignment.md
+    - On Entity Identification in Language Models: ACL2025/llm_nlp/on_entity_identification_in_language_models.md
     - 'Pandora''s Box or Aladdin''s Lamp: A Comprehensive Analysis Revealing the Role of RAG Noise in Large Language Models': ACL2025/llm_nlp/pandora_box_rag_noise.md
     - Enhancing Open-Domain Task-Solving Capability of LLMs via Autonomous Tool Integration from GitHub: ACL2025/llm_nlp/paper_2312_17294.md
     - ? 'Parenting: Optimizing Knowledge Selection of Retrieval-Augmented Language
         Models with Parameter Decoupling and Tailored Tuning'
       : ACL2025/llm_nlp/parenting_optimizing_knowledge_selection_of_retrievalaugmented.md
+    - Perspective Transition of Large Language Models for Solving Subjective Tasks: ACL2025/llm_nlp/perspective_transition_of_large_language_models_for_solving_subjective_tasks.md
+    - 'Pitfalls of Scale: Investigating the Inverse Task of Redefinition in Large Language Models': ACL2025/llm_nlp/pitfalls_of_scale_investigating_the_inverse_task_of_redefinition_in_large_langua.md
     - 'PlanGenLLMs: A Modern Survey of LLM Planning Capabilities': ACL2025/llm_nlp/plangenllms_planning_survey.md
     - 'Plug-in and Fine-tuning: Bridging the Gap between Small Language Models and Large Language Models': ACL2025/llm_nlp/plugin_finetuning_bridge.md
     - 'KoGEM: Polishing Every Facet of the GEM: Testing Linguistic Competence of LLMs and Humans in Korean': ACL2025/llm_nlp/polishing_every_facet_of_the_gem.md
@@ -1825,18 +1902,26 @@ nav:
     - 'Pre³: Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation': ACL2025/llm_nlp/pre3_deterministic_pda_structured_gen.md
     - Aligning Large Language Models with Implicit Preferences from User-Generated Content: ACL2025/llm_nlp/pugc_align_implicit_pref_ugc.md
     - 'RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models': ACL2025/llm_nlp/rare_retrieval_augmented_reasoning.md
+    - 'Reasoning Circuits in Language Models: A Mechanistic Interpretation of Syllogistic Inference': ACL2025/llm_nlp/reasoning_circuits_in_language_models_a_mechanistic_interpretation_of_syllogisti.md
+    - 'Recent Advances in Speech Language Models: A Survey': ACL2025/llm_nlp/recent_advances_in_speech_language_models_a_survey.md
     - Recurrent Knowledge Identification and Fusion for Language Model Continual Learning: ACL2025/llm_nlp/recurrent_kif_continual_learning.md
     - Representation Bending for Large Language Model Safety: ACL2025/llm_nlp/repbend_representation_bending_safety.md
     - 'Reversal of Thought: Enhancing Large Language Models with Preference-Guided Reverse Reasoning Warm-up': ACL2025/llm_nlp/reversal_of_thought_enhancing_large_language.md
+    - 'REVS: Unlearning Sensitive Information in Language Models via Rank Editing in the Vocabulary Space': ACL2025/llm_nlp/revs_unlearning_sensitive_information_in_language_models_via_rank_editing_in_the.md
     - 'RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios': ACL2025/llm_nlp/rulearena_rule_guided_reasoning.md
     - Salience Sparse Fine Tuning: ACL2025/llm_nlp/salience_sparse_fine_tuning.md
     - Beware of Your Po! Measuring and Mitigating AI Safety Risks in Role-Play Fine-Tuning of LLMs: ACL2025/llm_nlp/sarft_roleplay_safety.md
+    - 'SConU: Selective Conformal Uncertainty in Large Language Models': ACL2025/llm_nlp/sconu_selective_conformal_uncertainty_in_large_language_models.md
     - 'Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models': ACL2025/llm_nlp/segment_level_diffusion.md
+    - Self-Training Elicits Concise Reasoning in Large Language Models: ACL2025/llm_nlp/self-training_elicits_concise_reasoning_in_large_language_models.md
+    - 'Self-Tuning: Instructing LLMs to Effectively Acquire New Knowledge through Self-Teaching': ACL2025/llm_nlp/self-tuning_instructing_llms_to_effectively_acquire_new_knowledge_through_self-t.md
     - 'SelfElicit: Your Language Model Secretly Knows Where is the Relevant Evidence': ACL2025/llm_nlp/selfelicit_evidence_highlighting.md
     - Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis: ACL2025/llm_nlp/shortcut_neuron_eval.md
     - 'Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents': ACL2025/llm_nlp/simulating_diverse_students.md
     - 'SkillVerse: Assessing and Enhancing LLMs with Tree Evaluation': ACL2025/llm_nlp/skillverse_tree_eval.md
+    - 'SocialEval: Evaluating Social Intelligence of Large Language Models': ACL2025/llm_nlp/socialeval_evaluating_social_intelligence_of_large_language_models.md
     - 'SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition': ACL2025/llm_nlp/songcomposer_llm_lyric_melody_generation.md
+    - 'Stochastic Chameleons: Irrelevant Context Hallucinations Reveal Class-Based (Mis)Generalization in LLMs': ACL2025/llm_nlp/stochastic_chameleons_irrelevant_context_hallucinations_reveal_class-based_misge.md
     - 'StrucText-Eval: Evaluating Large Language Model''s Reasoning Ability in Structure-Rich Text': ACL2025/llm_nlp/structext_eval.md
     - Can LLMs Generate High-Quality Test Cases for Algorithm Problems? TestCase-Eval: ACL2025/llm_nlp/testcase_eval_llm_test_gen.md
     - 'A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive': ACL2025/llm_nlp/theory_of_llm_sampling.md
@@ -1844,18 +1929,24 @@ nav:
     - The Impact of Token Granularity on the Predictive Power of Language Model Surprisal: ACL2025/llm_nlp/token_granularity_impact.md
     - 'Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs': ACL2025/llm_nlp/token_prepending_training_free.md
     - 'Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling': ACL2025/llm_nlp/token_recycling.md
+    - 'Training Dynamics Underlying Language Model Scaling Laws: Loss Deceleration and Zero-Sum Learning': ACL2025/llm_nlp/training_dynamics_underlying_language_model_scaling_laws_loss_deceleration_and_z.md
+    - Training Language Model to Critique for Better Refinement: ACL2025/llm_nlp/training_language_model_to_critique_for_better_refinement.md
     - 'UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations': ACL2025/llm_nlp/uniconv_retrieval_response_gen.md
     - 'ScaleQuest: Unleashing LLM Reasoning Capability via Scalable Question Synthesis from Scratch': ACL2025/llm_nlp/unleashing_llm_reasoning_capability_via_scalable.md
     - 'Veracity Bias and Beyond: Uncovering LLMs'' Hidden Beliefs in Problem-Solving Reasoning': ACL2025/llm_nlp/veracity_bias_llm_hidden_beliefs.md
     - 'Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System': ACL2025/llm_nlp/virsci_multi_agent_idea_gen.md
-  - 🧩 多模态 VLM (46):
+  - 🧩 多模态 VLM (50):
     - 🧩 多模态 VLM: ACL2025/multimodal_vlm/index.md
+    - Adaptive Linguistic Prompting (ALP) Enhances Phishing Webpage Detection in Multimodal Large Language Models: ACL2025/multimodal_vlm/adaptive_linguistic_prompting_alp_enhances_phishing_webpage_detection_in_multimo.md
     - Can LLMs Deceive CLIP? Benchmarking Adversarial Compositionality of Pre-trained Multimodal Representation via Text Updates: ACL2025/multimodal_vlm/adversarial_compositionality_clip.md
     - ? 'Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across
         Perception, Planning, and Safety in Real-World Multimodal Agents'
       : ACL2025/multimodal_vlm/agent_rewardbench.md
+    - 'AkaCE: A Multimodal Multi-party Dataset for Emotion Recognition in Movie Dialogues': ACL2025/multimodal_vlm/akan_cinematic_emotions_ace_a_multimodal_multi-party_dataset_for_emotion_recogni.md
     - Aligning VLM Assistants with Personalized Situated Cognition: ACL2025/multimodal_vlm/aligning_vlm_assistants_with_personalized_situated.md
+    - 'AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models': ACL2025/multimodal_vlm/alignmmbench_evaluating_chinese_multimodal_alignment_in_large_vision-language_mo.md
     - Attacking Vision-Language Computer Agents via Pop-ups: ACL2025/multimodal_vlm/attacking_vl_agents_popups.md
+    - 'AVG-LLaVA: An Efficient Large Multimodal Model with Adaptive Visual Granularity': ACL2025/multimodal_vlm/avg-llava_an_efficient_large_multimodal_model_with_adaptive_visual_granularity.md
     - Enhancing Multimodal Continual Instruction Tuning with BranchLoRA: ACL2025/multimodal_vlm/branchlora_continual_instruction.md
     - 'MMSafeAware: Can''t See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs': ACL2025/multimodal_vlm/cant_see_the_forest_for_the.md
     - 'Centurio: On Drivers of Multilingual Ability of Large Vision-Language Model': ACL2025/multimodal_vlm/centurio_multilingual_vlm.md
@@ -1898,10 +1989,105 @@ nav:
     - Visual Evidence Prompting Mitigates Hallucinations in Large Vision-Language Models: ACL2025/multimodal_vlm/visual_evidence_prompting.md
     - 'VLMInferSlow: Evaluating the Efficiency Robustness of Large Vision-Language Models as a Service': ACL2025/multimodal_vlm/vlminferslow_evaluating_the_efficiency_robustness_of.md
     - 'VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism': ACL2025/multimodal_vlm/vrest_tree_search_vlm_reasoning.md
-  - 📦 模型压缩 (37):
+  - ⚖️ 对齐 / RLHF (48):
+    - ⚖️ 对齐 / RLHF: ACL2025/llm_alignment/index.md
+    - 'Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race': ACL2025/llm_alignment/aligned_but_blind_implicit_bias.md
+    - 'ASPO: Adaptive Sentence-Level Preference Optimization for Fine-Grained Multimodal Reasoning': ACL2025/llm_alignment/aspo_adaptive_sentence-level_preference_optimization_for_fine-grained_multimodal.md
+    - 'Atyaephyra at SemEval-2025 Task 4: Low-Rank Negative Preference Optimization': ACL2025/llm_alignment/atyaephyra_at_semeval-2025_task_4_low-rank_negative_preference_optimization.md
+    - 'AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs': ACL2025/llm_alignment/automixalign_adaptive_data_mixing.md
+    - 'Beyond Surface-Level Patterns: An Essence-Driven Defense Framework Against Jailbreak Attacks in LLMs': ACL2025/llm_alignment/beyond_surface-level_patterns_an_essence-driven_defense_framework_against_jailbr.md
+    - 'Beyond the Tip of Efficiency: Uncovering the Submerged Threats of Jailbreak Attacks in Small Language Models': ACL2025/llm_alignment/beyond_the_tip_of_efficiency_uncovering_the_submerged_threats_of_jailbreak_attac.md
+    - Boosting Vulnerability Detection of LLMs via Curriculum Preference Optimization with Synthetic Reasoning Data: ACL2025/llm_alignment/boosting_vulnerability_detection_of_llms_via_curriculum_preference_optimization_.md
+    - 'Breaking the Ceiling: Exploring the Potential of Jailbreak Attacks through Expanding Strategy Space': ACL2025/llm_alignment/breaking_the_ceiling_exploring_the_potential_of_jailbreak_attacks_through_expand.md
+    - Chain-of-Jailbreak Attack for Image Generation Models via Editing Step by Step: ACL2025/llm_alignment/chain-of-jailbreak_attack_for_image_generation_models_via_ed.md
+    - 'Cheems: A Practical Guidance for Building and Evaluating Chinese Reward Models from Scratch': ACL2025/llm_alignment/cheems_chinese_reward_models.md
+    - 'CodeDPO: Aligning Code Models with Self Generated and Verified Source Code': ACL2025/llm_alignment/codedpo_code_alignment.md
+    - Curiosity-Driven Reinforcement Learning from Human Feedback: ACL2025/llm_alignment/curiosity_driven_rlhf.md
+    - ? 'Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference
+        Optimization for Efficient Language Model Enhancement'
+      : ACL2025/llm_alignment/debate_reflect_and_distill_multi-agent_feedback_with_tree-structured_preference_.md
+    - 'DiffPO: Diffusion Alignment with Direct Preference Optimization': ACL2025/llm_alignment/diffpo_diffusion_alignment.md
+    - Expectation Confirmation Preference Optimization for Multi-Turn Conversational Recommendation Agent: ACL2025/llm_alignment/expectation_confirmation_preference_optimization_for_multi-turn_conversational_r.md
+    - Federated Data-Efficient Instruction Tuning for Large Language Models: ACL2025/llm_alignment/federated_data-efficient_instruction_tuning_for_large_language_models.md
+    - 'Focused-DPO: Enhancing Code Generation Through Focused Preference Optimization on Error-Prone Points': ACL2025/llm_alignment/focused-dpo_enhancing_code_generation_through_focused_preference_optimization_on.md
+    - Understanding Impact of Human Feedback via Influence Functions: ACL2025/llm_alignment/influence_functions_rlhf.md
+    - Internal Value Alignment in Large Language Models through Controlled Value Vector Activation: ACL2025/llm_alignment/internal_value_alignment_in_large_language_models_through_controlled_value_vecto.md
+    - 'IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization': ACL2025/llm_alignment/iopo_input_output_preference.md
+    - 'JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs': ACL2025/llm_alignment/jailbreakradar_comprehensive_assessment_jailbreak_attacks.md
+    - 'JsonTuning: Towards Generalizable, Robust, and Controllable Instruction Tuning': ACL2025/llm_alignment/jsontuning_towards_generalizable_robust_and_controllable_instruction_tuning.md
+    - Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization: ACL2025/llm_alignment/kpo_protein_safety.md
+    - 'LLMs Caught in the Crossfire: Malware Requests and Jailbreak Challenges': ACL2025/llm_alignment/llms_caught_in_the_crossfire_malware_requests_and_jailbreak_challenges.md
+    - 'LSSF: Safety Alignment via Low-Rank Safety Subspace Fusion': ACL2025/llm_alignment/lssf_safety_subspace.md
+    - 'M2S: Multi-turn to Single-turn jailbreak in Red Teaming for LLMs': ACL2025/llm_alignment/m2s_multiturn_to_singleturn_jailbreak_in.md
+    - 'M-RewardBench: Evaluating Reward Models in Multilingual Settings': ACL2025/llm_alignment/m_rewardbench.md
+    - 'Measuring Data Diversity for Instruction Tuning: A Systematic Analysis and A Reliable Metric': ACL2025/llm_alignment/measuring_data_diversity_for_instruction_tuning_a_systematic_analysis_and_a_reli.md
+    - 'MPO: Multilingual Safety Alignment via Reward Gap Optimization': ACL2025/llm_alignment/mpo_multilingual_safety_alignment.md
+    - Mutual-Taught for Co-adapting Policy and Reward Models: ACL2025/llm_alignment/mutual_taught_policy_reward.md
+    - Optimal Transport-Based Token Weighting for Enhanced Preference Optimization: ACL2025/llm_alignment/otpo_token_weighting.md
+    - Whose Boat Does it Float? Improving Personalization in Preference Optimization: ACL2025/llm_alignment/personalized_preference_opt.md
+    - 'PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative Prompts': ACL2025/llm_alignment/pig_privacy_jailbreak.md
+    - Probability-Consistent Preference Optimization for Enhanced LLM Reasoning: ACL2025/llm_alignment/probability-consistent_preference_optimization_for_enhanced_llm_reasoning.md
+    - 'QueryAttack: Jailbreaking Aligned Large Language Models Using Structured Non-natural Query Language': ACL2025/llm_alignment/queryattack_jailbreaking_aligned_large_language_models_using_structured_non-natu.md
+    - 'Red Queen: Safeguarding Large Language Models against Concealed Multi-Turn Jailbreaking': ACL2025/llm_alignment/red_queen_safeguarding_large_language_models_against_concealed_multi-turn_jailbr.md
+    - Rethinking Table Instruction Tuning: ACL2025/llm_alignment/rethinking_table_instruction_tuning.md
+    - Reverse Preference Optimization for Complex Instruction Following: ACL2025/llm_alignment/reverse_preference_optimization_for_complex_instruction_following.md
+    - 'Towards Reward Fairness in RLHF: From a Resource Allocation Perspective': ACL2025/llm_alignment/reward_fairness_rlhf.md
+    - 'Reward Generalization in RLHF: A Topological Perspective': ACL2025/llm_alignment/reward_generalization_in_rlhf_a_topological_perspective.md
+    - 'Rewrite to Jailbreak: Discover Learnable and Transferable Implicit Harmfulness Instruction': ACL2025/llm_alignment/rewrite_to_jailbreak_discover_learnable_and_transferable_implicit_harmfulness_in.md
+    - 'RISE: Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing': ACL2025/llm_alignment/rise_error_inject_preference.md
+    - 'SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings': ACL2025/llm_alignment/sea_lowresource_safety_alignment_for_multimodal.md
+    - SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs: ACL2025/llm_alignment/synthesizeme_persona_prompts.md
+    - 'TableDreamer: Progressive and Weakness-Guided Data Synthesis from Scratch for Table Instruction Tuning': ACL2025/llm_alignment/tabledreamer_progressive_and_weakness-guided_data_synthesis_from_scratch_for_tab.md
+    - 'Teaching an Old LLM Secure Coding: Localized Preference Optimization on Distilled Preferences': ACL2025/llm_alignment/teaching_an_old_llm_secure_coding.md
+    - 'Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling': ACL2025/llm_alignment/think_cite_attributed_text_gen.md
+    - A Troublemaker with Contagious Jailbreak Makes Chaos in Honest Towns: ACL2025/llm_alignment/tmcht_contagious_jailbreak_multiagent.md
+  - 🦾 LLM Agent (40):
+    - 🦾 LLM Agent: ACL2025/llm_agent/index.md
+    - A Multi-Agent Framework for Mitigating Dialect Biases in Privacy Policy Question-Answering Systems: ACL2025/llm_agent/a_multi-agent_framework_for_mitigating_dialect_biases_in_privacy_policy_question.md
+    - 'Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools': ACL2025/llm_agent/agentic_reasoning_tools.md
+    - 'AndroidGen: Building an Android Language Agent under Data Scarcity': ACL2025/llm_agent/androidgen_agent_data_scarcity.md
+    - 'AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents': ACL2025/llm_agent/androidlab_autonomous_agent.md
+    - Assessing Agentic LLMs in Multilingual National Bias: ACL2025/llm_agent/assessing_agentic_large_language_models_in_multilingual_national_bias.md
+    - 'Bel Esprit: Multi-Agent Framework for Building AI Model Pipelines': ACL2025/llm_agent/bel_esprit_multi-agent_framework_for_building_ai_model_pipelines.md
+    - 'Beyond Numeric Rewards: In-Context Dueling Bandits with LLM Agents': ACL2025/llm_agent/beyond_numeric_rewards_in-context_dueling_bandits_with_llm_agents.md
+    - 'Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions': ACL2025/llm_agent/caution_environment_gui_agent_distractions.md
+    - Context-Aware Sentiment Forecasting via LLM-based Multi-Perspective Role-Playing Agents: ACL2025/llm_agent/context_aware_sentiment_forecasting_agents.md
+    - Leveraging Dual Process Theory in Language Agent Framework for Real-time Simultaneous Human-AI Collaboration: ACL2025/llm_agent/dpt_agent_dual_process.md
+    - 'EMULATE: A Multi-Agent Framework for Determining the Veracity of Atomic Claims by Emulating Human Actions': ACL2025/llm_agent/emulate_a_multi-agent_framework_for_determining_the_veracity_of_atomic_claims_by.md
+    - 'Explorer: Scaling Exploration-Driven Web Trajectory Synthesis for Multimodal Web Agents': ACL2025/llm_agent/explorer_scaling_exploration-driven_web_trajectory_synthesis_for_multimodal_web_.md
+    - 'FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models': ACL2025/llm_agent/fact_audit_factcheck.md
+    - 'GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent': ACL2025/llm_agent/gui_explorer_autonomous.md
+    - 'GuideBench: Benchmarking Domain-Oriented Guideline Following for LLM Agents': ACL2025/llm_agent/guidebench_guideline_following.md
+    - 'Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement': ACL2025/llm_agent/gödel_agent_a_self-referential_agent_framework_for_recursive_self-improvement.md
+    - 'iAgent: LLM Agent as a Shield between User and Recommender Systems': ACL2025/llm_agent/iagent_llm_agent_as_a_shield_between_user_and_recommender_systems.md
+    - Enhancing Interpretable Image Classification Through LLM Agents and Conditional Concept Bottleneck Models: ACL2025/llm_agent/llm_agent_image_classification.md
+    - Adaptive Tool Use in Large Language Models with Meta-Cognition Trigger: ACL2025/llm_agent/meco_metacognition_tool_use.md
+    - Unveiling Privacy Risks in LLM Agent Memory: ACL2025/llm_agent/mextra_agent_memory_privacy.md
+    - A Multi-Agent Framework for Mitigating Dialect Biases in Privacy Policy Question-Answering Systems: ACL2025/llm_agent/multi_agent_dialect_bias_privacy_qa.md
+    - Multiple LLM Agents Debate for Equitable Cultural Alignment: ACL2025/llm_agent/multiple_llm_agents_debate_for_equitable.md
+    - 'NexusSum: Hierarchical LLM Agents for Long-Form Narrative Summarization': ACL2025/llm_agent/nexussum_narrative_summarization.md
+    - 'OS-Kairos: Adaptive Interaction for MLLM-Powered GUI Agents': ACL2025/llm_agent/os-kairos_adaptive_interaction_for_mllm-powered_gui_agents.md
+    - 'OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use': ACL2025/llm_agent/os_agents_a_survey_on_mllm-based_agents_for_general_computing_devices_use.md
+    - 'OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use': ACL2025/llm_agent/os_agents_survey_mllm.md
+    - 'OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis': ACL2025/llm_agent/os_genesis_gui_agent_trajectory.md
+    - 'Play2Prompt: Zero-shot Tool Instruction Optimization for LLM Agents via Tool Play': ACL2025/llm_agent/play2prompt_zero-shot_tool_instruction_optimization_for_llm_agents_via_tool_play.md
+    - 'R2D2: Remembering, Replaying and Dynamic Decision Making with a Reflective Agentic Memory': ACL2025/llm_agent/r2d2_reflective_agentic_memory.md
+    - 'Select, Read, and Write: A Multi-Agent Framework of Full-Text-based Related Work Generation': ACL2025/llm_agent/select_read_and_write_a_multi-agent_framework_of_full-text-based_related_work_ge.md
+    - Self-Taught Agentic Long-Context Understanding: ACL2025/llm_agent/self_taught_agentic_long_ctx.md
+    - 'SMART: Self-Aware Agent for Tool Overuse Mitigation': ACL2025/llm_agent/smart_self-aware_agent_for_tool_overuse_mitigation.md
+    - 'SUDO: Screen-based Universal Detox2tox Offense for Agentic Security': ACL2025/llm_agent/sudo_rm_-rf_agentic_security.md
+    - 'SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge Refinement': ACL2025/llm_agent/synworld_agentic_action_knowledge.md
+    - 'Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning': ACL2025/llm_agent/table_critic_multi_agent.md
+    - 'The Behavior Gap: Evaluating Zero-shot LLM Agents in Complex Task-Oriented Dialogs': ACL2025/llm_agent/the_behavior_gap_evaluating_zero-shot_llm_agents_in_complex_task-oriented_dialog.md
+    - 'Theorem-of-Thought: A Multi-Agent Framework for Abductive, Deductive, and Inductive Reasoning in Language Models': ACL2025/llm_agent/theorem-of-thought_a_multi-agent_framework_for_abductive_deductive_and_inductive.md
+    - 'ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models': ACL2025/llm_agent/toolcoder_code_empowered_tool_learning.md
+    - 'ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use': ACL2025/llm_agent/toolhop_multi_hop_tool_use.md
+    - 'ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use': ACL2025/llm_agent/toolhop_multi_hop_tool_use_benchmark.md
+  - 📦 模型压缩 (38):
     - 📦 模型压缩: ACL2025/model_compression/index.md
     - 'AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation': ACL2025/model_compression/aligndistil_token_level_alignment.md
     - 'APB: Accelerating Distributed Long-Context Inference by Passing Compressed Context Blocks across GPUs': ACL2025/model_compression/apb_distributed_long_context.md
+    - 'ODLRI: Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition': ACL2025/model_compression/assigning_distinct_roles_to_quantized_and_low-rank_matrices_toward_optimal_weigh.md
     - 'BeamLoRA: Beam-Constraint Low-Rank Adaptation': ACL2025/model_compression/beamlora_beam_constraint_lora.md
     - 'Beyond Text Compression: Evaluating Tokenizers Across Scales': ACL2025/model_compression/beyond_text_compression_tokenizers.md
     - '"Give Me BF16 or Give Me Death"? Accuracy-Performance Trade-Offs in LLM Quantization': ACL2025/model_compression/bf16_or_death_quantization_tradeoffs.md
@@ -1937,62 +2123,117 @@ nav:
     - 'Trans-PEFT: Transferable Parameter-Efficient Fine-Tuning on Evolving Base Models': ACL2025/model_compression/trans_peft_transferable.md
     - 'UniICL: An Efficient ICL Framework Unifying Compression, Selection, and Generation': ACL2025/model_compression/uniicl_icl_framework.md
     - 'UniQuanF: Unifying Uniform and Binary-coding Quantization for Accurate Compression of Large Language Models': ACL2025/model_compression/uniquanf_unified_quantization.md
-  - ⚖️ 对齐 / RLHF (25):
-    - ⚖️ 对齐 / RLHF: ACL2025/llm_alignment/index.md
-    - 'Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race': ACL2025/llm_alignment/aligned_but_blind_implicit_bias.md
-    - 'AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs': ACL2025/llm_alignment/automixalign_adaptive_data_mixing.md
-    - 'Cheems: A Practical Guidance for Building and Evaluating Chinese Reward Models from Scratch': ACL2025/llm_alignment/cheems_chinese_reward_models.md
-    - 'CodeDPO: Aligning Code Models with Self Generated and Verified Source Code': ACL2025/llm_alignment/codedpo_code_alignment.md
-    - Curiosity-Driven Reinforcement Learning from Human Feedback: ACL2025/llm_alignment/curiosity_driven_rlhf.md
-    - 'DiffPO: Diffusion Alignment with Direct Preference Optimization': ACL2025/llm_alignment/diffpo_diffusion_alignment.md
-    - Understanding Impact of Human Feedback via Influence Functions: ACL2025/llm_alignment/influence_functions_rlhf.md
-    - 'IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization': ACL2025/llm_alignment/iopo_input_output_preference.md
-    - 'JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs': ACL2025/llm_alignment/jailbreakradar_comprehensive_assessment_jailbreak_attacks.md
-    - Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization: ACL2025/llm_alignment/kpo_protein_safety.md
-    - 'LSSF: Safety Alignment via Low-Rank Safety Subspace Fusion': ACL2025/llm_alignment/lssf_safety_subspace.md
-    - 'M2S: Multi-turn to Single-turn jailbreak in Red Teaming for LLMs': ACL2025/llm_alignment/m2s_multiturn_to_singleturn_jailbreak_in.md
-    - 'M-RewardBench: Evaluating Reward Models in Multilingual Settings': ACL2025/llm_alignment/m_rewardbench.md
-    - 'MPO: Multilingual Safety Alignment via Reward Gap Optimization': ACL2025/llm_alignment/mpo_multilingual_safety_alignment.md
-    - Mutual-Taught for Co-adapting Policy and Reward Models: ACL2025/llm_alignment/mutual_taught_policy_reward.md
-    - Optimal Transport-Based Token Weighting for Enhanced Preference Optimization: ACL2025/llm_alignment/otpo_token_weighting.md
-    - Whose Boat Does it Float? Improving Personalization in Preference Optimization: ACL2025/llm_alignment/personalized_preference_opt.md
-    - 'PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative Prompts': ACL2025/llm_alignment/pig_privacy_jailbreak.md
-    - 'Towards Reward Fairness in RLHF: From a Resource Allocation Perspective': ACL2025/llm_alignment/reward_fairness_rlhf.md
-    - 'RISE: Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing': ACL2025/llm_alignment/rise_error_inject_preference.md
-    - 'SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings': ACL2025/llm_alignment/sea_lowresource_safety_alignment_for_multimodal.md
-    - SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs: ACL2025/llm_alignment/synthesizeme_persona_prompts.md
-    - 'Teaching an Old LLM Secure Coding: Localized Preference Optimization on Distilled Preferences': ACL2025/llm_alignment/teaching_an_old_llm_secure_coding.md
-    - 'Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling': ACL2025/llm_alignment/think_cite_attributed_text_gen.md
-    - A Troublemaker with Contagious Jailbreak Makes Chaos in Honest Towns: ACL2025/llm_alignment/tmcht_contagious_jailbreak_multiagent.md
-  - 🦾 LLM Agent (20):
-    - 🦾 LLM Agent: ACL2025/llm_agent/index.md
-    - 'Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools': ACL2025/llm_agent/agentic_reasoning_tools.md
-    - 'AndroidGen: Building an Android Language Agent under Data Scarcity': ACL2025/llm_agent/androidgen_agent_data_scarcity.md
-    - 'AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents': ACL2025/llm_agent/androidlab_autonomous_agent.md
-    - 'Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions': ACL2025/llm_agent/caution_environment_gui_agent_distractions.md
-    - Leveraging Dual Process Theory in Language Agent Framework for Real-time Simultaneous Human-AI Collaboration: ACL2025/llm_agent/dpt_agent_dual_process.md
-    - 'FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models': ACL2025/llm_agent/fact_audit_factcheck.md
-    - 'GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent': ACL2025/llm_agent/gui_explorer_autonomous.md
-    - 'GuideBench: Benchmarking Domain-Oriented Guideline Following for LLM Agents': ACL2025/llm_agent/guidebench_guideline_following.md
-    - Enhancing Interpretable Image Classification Through LLM Agents and Conditional Concept Bottleneck Models: ACL2025/llm_agent/llm_agent_image_classification.md
-    - Adaptive Tool Use in Large Language Models with Meta-Cognition Trigger: ACL2025/llm_agent/meco_metacognition_tool_use.md
-    - Unveiling Privacy Risks in LLM Agent Memory: ACL2025/llm_agent/mextra_agent_memory_privacy.md
-    - Multiple LLM Agents Debate for Equitable Cultural Alignment: ACL2025/llm_agent/multiple_llm_agents_debate_for_equitable.md
-    - 'NexusSum: Hierarchical LLM Agents for Long-Form Narrative Summarization': ACL2025/llm_agent/nexussum_narrative_summarization.md
-    - 'OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use': ACL2025/llm_agent/os_agents_survey_mllm.md
-    - 'OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis': ACL2025/llm_agent/os_genesis_gui_agent_trajectory.md
-    - 'R2D2: Remembering, Replaying and Dynamic Decision Making with a Reflective Agentic Memory': ACL2025/llm_agent/r2d2_reflective_agentic_memory.md
-    - Self-Taught Agentic Long-Context Understanding: ACL2025/llm_agent/self_taught_agentic_long_ctx.md
-    - 'SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge Refinement': ACL2025/llm_agent/synworld_agentic_action_knowledge.md
-    - 'Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning': ACL2025/llm_agent/table_critic_multi_agent.md
-    - 'ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use': ACL2025/llm_agent/toolhop_multi_hop_tool_use.md
-  - 🛡️ AI 安全 (16):
+  - 💡 LLM 推理 (34):
+    - 💡 LLM 推理: ACL2025/llm_reasoning/index.md
+    - 'Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework': ACL2025/llm_reasoning/aristotle_logical_reasoning.md
+    - 'BPP-Search: Enhancing Tree of Thought Reasoning for Mathematical Modeling Problem Solving': ACL2025/llm_reasoning/bpp-search_enhancing_tree_of_thought_reasoning_for_mathematical_modeling_problem.md
+    - 'Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective': ACL2025/llm_reasoning/chain-of-reasoning_towards_unified_mathematical_reasoning_in_large_language_mode.md
+    - 'Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective': ACL2025/llm_reasoning/chain_of_reasoning_unified_math.md
+    - 'ClozeMath: Improving Mathematical Reasoning in Language Models by Learning to Fill Equations': ACL2025/llm_reasoning/clozemath_improving_mathematical_reasoning_in_language_models_by_learning_to_fil.md
+    - 'CoT-UQ: Improving Response-wise Uncertainty Quantification in LLMs with Chain-of-Thought': ACL2025/llm_reasoning/cot-uq_improving_response-wise_uncertainty_quantification_in_llms_with_chain-of-.md
+    - 'Critic-CoT: Boosting the Reasoning Abilities of Large Language Model via Chain-of-Thoughts Critic': ACL2025/llm_reasoning/critic-cot_boosting_the_reasoning_abilities_of_large_language_model_via_chain-of.md
+    - Fine-Tuning on Diverse Reasoning Chains Drives Within-Inference CoT Refinement in LLMs: ACL2025/llm_reasoning/dcot_diverse_cot_refinement.md
+    - 'DeFine: Decision-Making with Analogical Reasoning over Factor Profiles': ACL2025/llm_reasoning/define_decision-making_with_analogical_reasoning_over_factor_profiles.md
+    - Dynamic and Generalizable Process Reward Modeling: ACL2025/llm_reasoning/dgprm_dynamic_process_reward.md
+    - 'DRT: Deep Reasoning Translation via Long Chain-of-Thought': ACL2025/llm_reasoning/drt_deep_reasoning_translation_via_long_chain-of-thought.md
+    - Unlocking General Long Chain-of-Thought Reasoning Capabilities of Large Language Models via Representation Engineering: ACL2025/llm_reasoning/glore_long_cot_representation.md
+    - Improve Vision Language Model Chain-of-thought Reasoning: ACL2025/llm_reasoning/improve_vlm_cot_reasoning.md
+    - Local Look-Ahead Guidance via Verifier-in-the-Loop for Automated Theorem Proving: ACL2025/llm_reasoning/local_look-ahead_guidance_via_verifier-in-the-loop_for_automated_theorem_proving.md
+    - 'LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning': ACL2025/llm_reasoning/logicpro_program_guided_reasoning.md
+    - Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning: ACL2025/llm_reasoning/mclm_multilingual_test_time_scaling.md
+    - 'MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration': ACL2025/llm_reasoning/mmboundary_reasoning_step_confidence.md
+    - 'One Missing Piece for Open-Source Reasoning Models: A Dataset to Mitigate Cold-Starting Short CoT LLMs in RL': ACL2025/llm_reasoning/one_missing_piece_for_open-source_reasoning_models_a_dataset_to_mitigate_cold-st.md
+    - 'PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation': ACL2025/llm_reasoning/pcot_persuasion-augmented_chain_of_thought_for_detecting_fake_news_and_social_me.md
+    - 'PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation': ACL2025/llm_reasoning/pcot_persuasion_chain_of_thought_fake_news.md
+    - Ranked Voting based Self-Consistency of Large Language Models: ACL2025/llm_reasoning/ranked_voting_based_self-consistency_of_large_language_models.md
+    - 'Rethinking the Role of Prompting Strategies in LLM Test-Time Scaling: A Perspective of Probability Theory': ACL2025/llm_reasoning/rethinking_the_role_of_prompting_strategies_in_llm_test-time_scaling_a_perspecti.md
+    - Revisiting Self-Consistency from Dynamic Distributional Alignment Perspective on Answer Aggregation: ACL2025/llm_reasoning/revisiting_self-consistency_from_dynamic_distributional_alignment_perspective_on.md
+    - 'Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification': ACL2025/llm_reasoning/safe_math_reasoning.md
+    - Stepwise Reasoning Disruption Attack of LLMs: ACL2025/llm_reasoning/seed_stepwise_reasoning_disruption_attack.md
+    - 'SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs': ACL2025/llm_reasoning/softcot_soft_chain_of_thought.md
+    - 'STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond': ACL2025/llm_reasoning/stricta_structured_reasoning_peer_review.md
+    - Is That Your Final Answer? Test-Time Scaling Improves Selective Question Answering: ACL2025/llm_reasoning/test_time_scaling_selective_qa.md
+    - 'ThinkGuard: Deliberative Slow Thinking Leads to Cautious Guardrails': ACL2025/llm_reasoning/thinkguard_deliberative_slow_thinking_leads_to_cautious_guardrails.md
+    - 'Towards Better Chain-of-Thought: A Reflection on Effectiveness and Faithfulness': ACL2025/llm_reasoning/towards_better_chain-of-thought_a_reflection_on_effectiveness_and_faithfulness.md
+    - 'Towards Safety Reasoning in LLMs: AI-agentic Deliberation for Policy-embedded CoT Data Creation': ACL2025/llm_reasoning/towards_safety_reasoning_in_llms_ai-agentic_deliberation_for_policy-embedded_cot.md
+    - 'TRACT: Regression-Aware Fine-tuning Meets Chain-of-Thought Reasoning': ACL2025/llm_reasoning/tract_regression_cot.md
+    - Training Turn-By-Turn Verifiers For Dialogue Tutoring Agents The Curious Case Of: ACL2025/llm_reasoning/training_turn-by-turn_verifiers_for_dialogue_tutoring_agents_the_curious_case_of.md
+    - Unveiling the Key Factors for Distilling Chain-of-Thought Reasoning: ACL2025/llm_reasoning/unveiling_the_key_factors_for_distilling_chain-of-thought_reasoning.md
+  - ⚡ LLM 效率 (21):
+    - ⚡ LLM 效率: ACL2025/llm_efficiency/index.md
+    - 'Extending LLM Context Window with Adaptive Grouped Positional Encoding: A Training-Free Method': ACL2025/llm_efficiency/adaptive_grouped_pe_context_window.md
+    - 'CLaSp: In-Context Layer Skip for Self-Speculative Decoding': ACL2025/llm_efficiency/clasp_self_speculative_decoding.md
+    - 'CNNSum: Exploring Long-Context Summarization with Large Language Models in Chinese Novels': ACL2025/llm_efficiency/cnnsum_exploring_long-context_summarization_with_large_language_models_in_chines.md
+    - Dynamic Chunking and Selection for Reading Comprehension of Ultra-Long Context in Large Language Models: ACL2025/llm_efficiency/dynamic_chunking_and_selection_for_reading_comprehension_of_ultra-long_context_i.md
+    - 'FlashBack: Efficient Retrieval-Augmented Language Modeling for Fast Inference': ACL2025/llm_efficiency/flashbackefficient_retrieval-augmented_language_modeling_for_long_context_infere.md
+    - 'GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture': ACL2025/llm_efficiency/gigachat_family_efficient_russian_language_modeling_through_mixture_of_experts_a.md
+    - 'Graph of Records: Boosting Retrieval Augmented Generation for Long-context Summarization with Graphs': ACL2025/llm_efficiency/gor_rag_long_context_summary.md
+    - 'GradOT: Training-free Gradient-preserving Offsite-tuning for Large Language Models': ACL2025/llm_efficiency/gradot_offsite_tuning.md
+    - 'KV-Latent: Dimensional-level KV Cache Reduction with Frequency-aware Rotary Positional Embedding': ACL2025/llm_efficiency/kv_latent_cache_reduction.md
+    - 'LADM: Long-context Training Data Selection with Attention-based Dependency Measurement': ACL2025/llm_efficiency/ladm_long_context_data.md
+    - Literary Evidence Retrieval via Long-Context Language Models: ACL2025/llm_efficiency/literary_evidence_retrieval_via_long-context_language_models.md
+    - What Really Matters in Many-Shot Attacks? An Empirical Study of Long-Context Vulnerabilities in LLMs: ACL2025/llm_efficiency/many_shot_attacks_long_context.md
+    - 'Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention': ACL2025/llm_efficiency/native_sparse_attention.md
+    - On Many-Shot In-Context Learning for Long-Context Evaluation: ACL2025/llm_efficiency/on_many-shot_in-context_learning_for_long-context_evaluation.md
+    - 'Ref-Long: Benchmarking the Long-Context Referencing Capability of Long-Context Language Models': ACL2025/llm_efficiency/ref-long_benchmarking_the_long-context_referencing_capability_of_long-context_la.md
+    - 'MegaBeam: Scaling Context, Not Parameters': ACL2025/llm_efficiency/scaling_context_not_parameters_training_a_compact_7b_language_model_for_efficien.md
+    - 'SEAL: Scaling to Emphasize Attention for Long-Context Retrieval': ACL2025/llm_efficiency/seal_scaling_to_emphasize_attention_for_long-context_retrieval.md
+    - 'Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models': ACL2025/llm_efficiency/sliding_windows_full_ranking.md
+    - 'SpindleKV: A Novel KV Cache Reduction Method Balancing Both Shallow and Deep Layers': ACL2025/llm_efficiency/spindlekv_layered_kv_cache.md
+    - How to Train Long-Context Language Models (Effectively): ACL2025/llm_efficiency/train_long_context_effectively.md
+    - ? What are the Essential Factors in Crafting Effective Long Context Multi-Hop
+        Instruction Datasets? Insights and Best Practices
+      : ACL2025/llm_efficiency/what_are_the_essential_factors_in_crafting_effective_long_context_multi-hop_inst.md
+  - ✍️ 文本生成 (20):
+    - ✍️ 文本生成: ACL2025/nlp_generation/index.md
+    - A Representation Level Analysis of NMT Model Robustness to Grammatical Errors: ACL2025/nlp_generation/a_representation_level_analysis_of_nmt_model_robustness_to_grammatical_errors.md
+    - An Empirical Study of Many-to-Many Summarization with Large Language Models: ACL2025/nlp_generation/an_empirical_study_of_manytomany_summarization.md
+    - 'ATGen: A Framework for Active Text Generation': ACL2025/nlp_generation/atgen_a_framework_for_active_text_generation.md
+    - 'Beyond N-Grams: Rethinking Evaluation Metrics and Strategies for Multilingual Abstractive Summarization': ACL2025/nlp_generation/beyond_n-grams_rethinking_evaluation_metrics_and_strategies_for_multilingual_abs.md
+    - Improving the Calibration of Confidence Scores in Text Generation Using the Output Distribution's Characteristics: ACL2025/nlp_generation/calibration_confidence_text_gen.md
+    - 'CLEME2.0: Towards Interpretable Evaluation by Disentangling Edits for Grammatical Error Correction': ACL2025/nlp_generation/cleme2_gec_evaluation.md
+    - 'CoCoLex: Confidence-guided Copy-based Decoding for Grounded Legal Text Generation': ACL2025/nlp_generation/cocolex_legal_text_gen.md
+    - 'Dehumanizing Machines: Mitigating Anthropomorphic Behaviors in Text Generation Systems': ACL2025/nlp_generation/dehumanizing_machines_anthropomorphic.md
+    - Document-Level Text Generation with Minimum Bayes Risk Decoding using Optimal Transport: ACL2025/nlp_generation/doc_level_mbr_optimal_transport.md
+    - Multi-document Summarization through Event Relation Graph Reasoning for Framing Bias Mitigation: ACL2025/nlp_generation/event_graph_bias_mitigation_summarization.md
+    - 'FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation': ACL2025/nlp_generation/feabench_repo_code_gen.md
+    - 'GiFT: Gibbs Fine-Tuning for Code Generation': ACL2025/nlp_generation/gift_gibbs_fine_tuning_code_gen.md
+    - 'LEMONADE: A Large Multilingual Expert-Annotated Abstractive Event Dataset for the Real World': ACL2025/nlp_generation/lemonade_a_large_multilingual_expert-annotated_abstractive_event_dataset_for_the.md
+    - Has Machine Translation Evaluation Achieved Human Parity?: ACL2025/nlp_generation/mt_eval_human_parity.md
+    - 'Odysseus Navigates the Sirens'' Song: Dynamic Focus Decoding for Factual and Diverse Open-Ended Text Generation': ACL2025/nlp_generation/odysseus_dynamic_focus_decoding.md
+    - Personality-Guided Code Generation Using Large Language Models: ACL2025/nlp_generation/personality_guided_code_gen.md
+    - 'Towards Better Open-Ended Text Generation: A Multicriteria Evaluation Framework': ACL2025/nlp_generation/towards_better_open-ended_text_generation_a_multicriteria_evaluation_framework.md
+    - 'Tree-of-Evolution: Tree-Structured Instruction Evolution for Code Generation in Large Language Models': ACL2025/nlp_generation/tree_of_evolution_code_gen.md
+    - What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations: ACL2025/nlp_generation/video_text_summarization.md
+    - 'Writing Like the Best: Exemplar-Based Expository Text Generation': ACL2025/nlp_generation/writing_like_best_exemplar.md
+  - 📖 NLP 理解 (18):
+    - 📖 NLP 理解: ACL2025/nlp_understanding/index.md
+    - A Variational Approach for Mitigating Entity Bias in Relation Extraction: ACL2025/nlp_understanding/a_variational_approach_for_mitigating_entity_bias_in_relation_extraction.md
+    - 'Adapting Psycholinguistic Research for LLMs: Gender-Inclusive Language in a Coreference Context': ACL2025/nlp_understanding/adapting_psycholinguistic_research_for_llms_gender-inclusive_language_in_a_coref.md
+    - Analyzing Political Bias in LLMs via Target-Oriented Sentiment Classification: ACL2025/nlp_understanding/analyzing_political_bias_in_llms_via_target-oriented_sentiment_classification.md
+    - 'ArgHiTZ at ArchEHR-QA 2025: A Two-Step Divide and Conquer Approach to Patient Question Answering for Top Factuality': ACL2025/nlp_understanding/arghitz_at_archehr-qa_2025_a_two-step_divide_and_conquer_approach_to_patient_que.md
+    - 'AskQE: Question Answering as Automatic Evaluation for Machine Translation': ACL2025/nlp_understanding/askqe_question_answering_as_automatic_evaluation_for_machine_translation.md
+    - Automatic Generation of Inference Making Questions for Reading Comprehension Assessments: ACL2025/nlp_understanding/automatic_generation_of_inference_making_questions_for_reading_comprehension_ass.md
+    - 'BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian': ACL2025/nlp_understanding/belarusian_glue.md
+    - 'BESSTIE: A Benchmark for Sentiment and Sarcasm Classification for Varieties of English': ACL2025/nlp_understanding/besstie_a_benchmark_for_sentiment_and_sarcasm_classification_for_varieties_of_en.md
+    - 'BookCoref: Coreference Resolution at Book Scale': ACL2025/nlp_understanding/bookcoref_book_scale.md
+    - 'CaLMQA: Exploring Culturally Specific Long-Form Question Answering across 23 Languages': ACL2025/nlp_understanding/calmqa_cultural_multilingual_qa.md
+    - Dynamic Order Template Prediction for Generative Aspect-Based Sentiment Analysis: ACL2025/nlp_understanding/dot_absa_template.md
+    - 'Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering': ACL2025/nlp_understanding/embqa_embedding_odqa.md
+    - Towards a More Generalized Approach in Open Relation Extraction: ACL2025/nlp_understanding/generalized_open_relation_extract.md
+    - 'LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis with LLM Data Augmentation': ACL2025/nlp_understanding/laca_crosslingual_absa.md
+    - 'NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering': ACL2025/nlp_understanding/neusym_rag_pdf_qa.md
+    - Exploring Persona Sentiment Sensitivity in Personalized Dialogue Generation: ACL2025/nlp_understanding/persona_sentiment_dialogue.md
+    - 'ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision': ACL2025/nlp_understanding/rescore_multihop_qa.md
+    - 'YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering': ACL2025/nlp_understanding/yescieval_llm_judge_science.md
+  - 🛡️ AI 安全 (17):
     - 🛡️ AI 安全: ACL2025/ai_safety/index.md
     - ? 'CENTAUR: Bridging the Impossible Trinity of Privacy, Efficiency, and Performance
         in Privacy-Preserving Transformer Inference'
       : ACL2025/ai_safety/centaur_bridging_the_impossible_trinity_of.md
     - Assessing Dialect Fairness and Robustness of Large Language Models in Reasoning Tasks: ACL2025/ai_safety/dialect_fairness_robustness.md
     - Ensemble Watermarks for Large Language Models: ACL2025/ai_safety/ensemble_watermarks_llm.md
+    - 'FairI Tales: Evaluation of Fairness in Indian Contexts with a Focus on Bias and Stereotypes': ACL2025/ai_safety/fairi_tales_evaluation_of_fairness_in_indian_contexts_with_a_focus_on_bias_and_s.md
     - 'Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs': ACL2025/ai_safety/fairness_difference_awareness.md
     - 'From Trade-off to Synergy: A Versatile Symbiotic Watermarking Framework for Large Language Models': ACL2025/ai_safety/from_tradeoff_to_synergy_a_versatile.md
     - 'Gender Inclusivity Fairness Index (GIFI): A Multilevel Framework': ACL2025/ai_safety/gifi_gender_fairness.md
@@ -2006,64 +2247,9 @@ nav:
     - 'The Tug of War Within: Mitigating the Fairness-Privacy Conflicts in Large Language Models': ACL2025/ai_safety/tug_of_war_fairness_privacy.md
     - Efficiently Identifying Watermarked Segments in Mixed-Source Texts: ACL2025/ai_safety/watermark_segment_detection.md
     - 'WET: Overcoming Paraphrasing Vulnerabilities in Embeddings-as-a-Service with Linear Transformation Watermark': ACL2025/ai_safety/wet_eaas_watermark.md
-  - ✍️ 文本生成 (15):
-    - ✍️ 文本生成: ACL2025/nlp_generation/index.md
-    - An Empirical Study of Many-to-Many Summarization with Large Language Models: ACL2025/nlp_generation/an_empirical_study_of_manytomany_summarization.md
-    - Improving the Calibration of Confidence Scores in Text Generation Using the Output Distribution's Characteristics: ACL2025/nlp_generation/calibration_confidence_text_gen.md
-    - 'CLEME2.0: Towards Interpretable Evaluation by Disentangling Edits for Grammatical Error Correction': ACL2025/nlp_generation/cleme2_gec_evaluation.md
-    - 'CoCoLex: Confidence-guided Copy-based Decoding for Grounded Legal Text Generation': ACL2025/nlp_generation/cocolex_legal_text_gen.md
-    - 'Dehumanizing Machines: Mitigating Anthropomorphic Behaviors in Text Generation Systems': ACL2025/nlp_generation/dehumanizing_machines_anthropomorphic.md
-    - Document-Level Text Generation with Minimum Bayes Risk Decoding using Optimal Transport: ACL2025/nlp_generation/doc_level_mbr_optimal_transport.md
-    - Multi-document Summarization through Event Relation Graph Reasoning for Framing Bias Mitigation: ACL2025/nlp_generation/event_graph_bias_mitigation_summarization.md
-    - 'FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation': ACL2025/nlp_generation/feabench_repo_code_gen.md
-    - 'GiFT: Gibbs Fine-Tuning for Code Generation': ACL2025/nlp_generation/gift_gibbs_fine_tuning_code_gen.md
-    - Has Machine Translation Evaluation Achieved Human Parity?: ACL2025/nlp_generation/mt_eval_human_parity.md
-    - 'Odysseus Navigates the Sirens'' Song: Dynamic Focus Decoding for Factual and Diverse Open-Ended Text Generation': ACL2025/nlp_generation/odysseus_dynamic_focus_decoding.md
-    - Personality-Guided Code Generation Using Large Language Models: ACL2025/nlp_generation/personality_guided_code_gen.md
-    - 'Tree-of-Evolution: Tree-Structured Instruction Evolution for Code Generation in Large Language Models': ACL2025/nlp_generation/tree_of_evolution_code_gen.md
-    - What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations: ACL2025/nlp_generation/video_text_summarization.md
-    - 'Writing Like the Best: Exemplar-Based Expository Text Generation': ACL2025/nlp_generation/writing_like_best_exemplar.md
-  - ⚡ LLM 效率 (11):
-    - ⚡ LLM 效率: ACL2025/llm_efficiency/index.md
-    - 'Extending LLM Context Window with Adaptive Grouped Positional Encoding: A Training-Free Method': ACL2025/llm_efficiency/adaptive_grouped_pe_context_window.md
-    - 'CLaSp: In-Context Layer Skip for Self-Speculative Decoding': ACL2025/llm_efficiency/clasp_self_speculative_decoding.md
-    - 'Graph of Records: Boosting Retrieval Augmented Generation for Long-context Summarization with Graphs': ACL2025/llm_efficiency/gor_rag_long_context_summary.md
-    - 'GradOT: Training-free Gradient-preserving Offsite-tuning for Large Language Models': ACL2025/llm_efficiency/gradot_offsite_tuning.md
-    - 'KV-Latent: Dimensional-level KV Cache Reduction with Frequency-aware Rotary Positional Embedding': ACL2025/llm_efficiency/kv_latent_cache_reduction.md
-    - 'LADM: Long-context Training Data Selection with Attention-based Dependency Measurement': ACL2025/llm_efficiency/ladm_long_context_data.md
-    - What Really Matters in Many-Shot Attacks? An Empirical Study of Long-Context Vulnerabilities in LLMs: ACL2025/llm_efficiency/many_shot_attacks_long_context.md
-    - 'Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention': ACL2025/llm_efficiency/native_sparse_attention.md
-    - 'Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models': ACL2025/llm_efficiency/sliding_windows_full_ranking.md
-    - 'SpindleKV: A Novel KV Cache Reduction Method Balancing Both Shallow and Deep Layers': ACL2025/llm_efficiency/spindlekv_layered_kv_cache.md
-    - How to Train Long-Context Language Models (Effectively): ACL2025/llm_efficiency/train_long_context_effectively.md
-  - 💡 LLM 推理 (11):
-    - 💡 LLM 推理: ACL2025/llm_reasoning/index.md
-    - 'Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework': ACL2025/llm_reasoning/aristotle_logical_reasoning.md
-    - Fine-Tuning on Diverse Reasoning Chains Drives Within-Inference CoT Refinement in LLMs: ACL2025/llm_reasoning/dcot_diverse_cot_refinement.md
-    - Dynamic and Generalizable Process Reward Modeling: ACL2025/llm_reasoning/dgprm_dynamic_process_reward.md
-    - Unlocking General Long Chain-of-Thought Reasoning Capabilities of Large Language Models via Representation Engineering: ACL2025/llm_reasoning/glore_long_cot_representation.md
-    - Improve Vision Language Model Chain-of-thought Reasoning: ACL2025/llm_reasoning/improve_vlm_cot_reasoning.md
-    - 'LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning': ACL2025/llm_reasoning/logicpro_program_guided_reasoning.md
-    - Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning: ACL2025/llm_reasoning/mclm_multilingual_test_time_scaling.md
-    - 'Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification': ACL2025/llm_reasoning/safe_math_reasoning.md
-    - 'SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs': ACL2025/llm_reasoning/softcot_soft_chain_of_thought.md
-    - Is That Your Final Answer? Test-Time Scaling Improves Selective Question Answering: ACL2025/llm_reasoning/test_time_scaling_selective_qa.md
-    - 'TRACT: Regression-Aware Fine-tuning Meets Chain-of-Thought Reasoning': ACL2025/llm_reasoning/tract_regression_cot.md
-  - 📖 NLP 理解 (11):
-    - 📖 NLP 理解: ACL2025/nlp_understanding/index.md
-    - 'BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian': ACL2025/nlp_understanding/belarusian_glue.md
-    - 'BookCoref: Coreference Resolution at Book Scale': ACL2025/nlp_understanding/bookcoref_book_scale.md
-    - 'CaLMQA: Exploring Culturally Specific Long-Form Question Answering across 23 Languages': ACL2025/nlp_understanding/calmqa_cultural_multilingual_qa.md
-    - Dynamic Order Template Prediction for Generative Aspect-Based Sentiment Analysis: ACL2025/nlp_understanding/dot_absa_template.md
-    - 'Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering': ACL2025/nlp_understanding/embqa_embedding_odqa.md
-    - Towards a More Generalized Approach in Open Relation Extraction: ACL2025/nlp_understanding/generalized_open_relation_extract.md
-    - 'LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis with LLM Data Augmentation': ACL2025/nlp_understanding/laca_crosslingual_absa.md
-    - 'NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering': ACL2025/nlp_understanding/neusym_rag_pdf_qa.md
-    - Exploring Persona Sentiment Sensitivity in Personalized Dialogue Generation: ACL2025/nlp_understanding/persona_sentiment_dialogue.md
-    - 'ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision': ACL2025/nlp_understanding/rescore_multihop_qa.md
-    - 'YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering': ACL2025/nlp_understanding/yescieval_llm_judge_science.md
-  - 🏥 医学图像 (10):
+  - 🏥 医学图像 (12):
     - 🏥 医学图像: ACL2025/medical_imaging/index.md
+    - A Retrieval-Based Approach to Medical Procedure Matching in Romanian: ACL2025/medical_imaging/a_retrieval-based_approach_to_medical_procedure_matching_in_romanian.md
     - 'AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset': ACL2025/medical_imaging/afrimed_qa_pan_african.md
     - The Impact of Auxiliary Patient Data on Automated Chest X-Ray Report Generation and How to Incorporate It: ACL2025/medical_imaging/auxiliary_patient_data_xray.md
     - Improving Automatic Evaluation of LLMs in Biomedical Relation Extraction via LLMs-as-the-Judge: ACL2025/medical_imaging/biore_llm_judge_evaluation.md
@@ -2071,14 +2257,16 @@ nav:
     - ? 'Aligning AI Research with the Needs of Clinical Coding Workflows: Eight Recommendations
         Based on US Data Analysis and Critical Review'
       : ACL2025/medical_imaging/clinical_coding_eight_recommendations.md
+    - 'MultiMed: Multilingual Medical Speech Recognition via Attention Encoder Decoder': ACL2025/medical_imaging/multimed_multilingual_medical_speech_recognition_via_attention_encoder_decoder.md
     - Online Iterative Self-Alignment for Radiology Report Generation: ACL2025/medical_imaging/oisa_radiology_report_gen.md
     - 'Towards Omni-RAG: Comprehensive Retrieval-Augmented Generation for Large Language Models in Medical Applications': ACL2025/medical_imaging/omni_rag_medical.md
     - 'RADAR: Enhancing Radiology Report Generation with Supplementary Knowledge Injection': ACL2025/medical_imaging/radar_radiology_report_gen.md
     - 'ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents': ACL2025/medical_imaging/reflectool_clinical_agent.md
     - Query-driven Document-level Scientific Evidence Extraction from Biomedical Studies: ACL2025/medical_imaging/urca_biomedical_evidence_extraction.md
-  - 🎵 音频/语音 (9):
+  - 🎵 音频/语音 (10):
     - 🎵 音频/语音: ACL2025/audio_speech/index.md
     - 'Finding A Voice: Exploring the Potential of African American Dialect and Voice Generation for Chatbots': ACL2025/audio_speech/aae_voice_chatbot.md
+    - 'AI4Reading: Chinese Audiobook Interpretation System Based on Multi-Agent Collaboration': ACL2025/audio_speech/ai4reading_chinese_audiobook_interpretation_system_based_on_multi-agent_collabor.md
     - Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models: ACL2025/audio_speech/audio_dialogue_benchmark.md
     - Autoregressive Speech Synthesis without Vector Quantization: ACL2025/audio_speech/autoregressive_speech_synthesis_without_vq.md
     - 'ControlSpeech: Towards Simultaneous and Independent Zero-shot Speaker Cloning and Zero-shot Language Style Control': ACL2025/audio_speech/controlspeech_zero_shot.md
@@ -2087,8 +2275,9 @@ nav:
     - 'SpeechIQ: Speech-Agentic Intelligence Quotient Across Cognitive Levels in Voice Understanding by Large Language Models': ACL2025/audio_speech/speechiq_speechagentic_intelligence_quotient_across_cognitive.md
     - 'T2A-Feedback: Improving Basic Capabilities of Text-to-Audio Generation via Fine-grained AI Feedback': ACL2025/audio_speech/t2a_feedback_audio_gen.md
     - In-the-wild Audio Spatialization with Flexible Text-guided Localization: ACL2025/audio_speech/tas_audio_spatialization.md
-  - 🕸️ 图学习 (8):
+  - 🕸️ 图学习 (10):
     - 🕸️ 图学习: ACL2025/graph_learning/index.md
+    - 'Beyond Completion: A Foundation Model for General Knowledge Graph Reasoning': ACL2025/graph_learning/beyond_completion_a_foundation_model_for_general_knowledge_graph_reasoning.md
     - 'Morpher: Can Graph Neural Networks Learn Language with Extremely Weak Text Supervision?': ACL2025/graph_learning/can_graph_neural_networks_learn_language.md
     - Croppable Knowledge Graph Embedding: ACL2025/graph_learning/croppable_knowledge_graph_embedding.md
     - Extending Complex Logical Queries on Uncertain Knowledge Graphs: ACL2025/graph_learning/extending_complex_logical_queries_uncertain_knowledge_graphs.md
@@ -2096,54 +2285,126 @@ nav:
     - Can Knowledge Graphs Make Large Language Models More Trustworthy? An Empirical Study Over Open-ended Question Answering: ACL2025/graph_learning/kg_llm_trustworthy_qa.md
     - Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation: ACL2025/graph_learning/kg_rag_recommendation.md
     - Can LLMs Evaluate Complex Attribution in QA? Automatic Benchmarking using Knowledge Graphs: ACL2025/graph_learning/paper_2401_14640.md
+    - Predicate-Conditional Conformalized Answer Sets for Knowledge Graph Embeddings: ACL2025/graph_learning/predicate-conditional_conformalized_answer_sets_for_knowledge_graph_embeddings.md
     - 'RSCF: Relation-Semantics Consistent Filter for Entity Embedding of Knowledge Graph': ACL2025/graph_learning/rscf_relationsemantics_consistent_filter_for_entity.md
-  - 🔎 AIGC 检测 (6):
+  - 🔎 AIGC 检测 (8):
     - 🔎 AIGC 检测: ACL2025/aigc_detection/index.md
+    - ? 'A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for
+        Human Explanations to Collect Label Distributions on NLI'
+      : ACL2025/aigc_detection/a_rose_by_any_other_name_llm-generated_explanations_are_good_proxies_for_human_e.md
     - Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media: ACL2025/aigc_detection/aigt_social_media_monitoring.md
     - People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text: ACL2025/aigc_detection/chatgpt_user_ai_text_detection.md
     - 'Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training': ACL2025/aigc_detection/greater_adversarial_mgt_detection.md
     - Comparing LLM-generated and human-authored news text using formal syntactic theory: ACL2025/aigc_detection/llm_vs_human_formal_syntax.md
+    - Low-Perplexity LLM-Generated Sequences and Where To Find Them: ACL2025/aigc_detection/low-perplexity_llm-generated_sequences_and_where_to_find_them.md
     - 'MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts': ACL2025/aigc_detection/multisocial_mgt_detection.md
     - 'Who Writes What: Unveiling the Impact of Author Roles on AI-generated Text Detection': ACL2025/aigc_detection/who_writes_what_ai_detection.md
-  - 🎨 图像生成 (3):
+  - 🔗 因果推理 (4):
+    - 🔗 因果推理: ACL2025/causal_inference/index.md
+    - 'CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation': ACL2025/causal_inference/causalrag_integrating_causal_graphs_into_retrieval-augmented_generation.md
+    - 'IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery': ACL2025/causal_inference/iris_an_iterative_and_integrated_framework.md
+    - On the Reliability of Large Language Models for Causal Discovery: ACL2025/causal_inference/llm_causal_discovery_reliability.md
+    - 'Reasoning is All You Need for Video Generalization: A Counterfactual Benchmark with Sub-question Evaluation': ACL2025/causal_inference/reasoning_is_all_you_need_for_video_generalization_a_counterfactual_benchmark_wi.md
+  - 🎨 图像生成 (4):
     - 🎨 图像生成: ACL2025/image_generation/index.md
+    - 'D-GEN: Automatic Distractor Generation and Evaluation for Reliable Assessment of Generative Models': ACL2025/image_generation/d-gen_automatic_distractor_generation_and_evaluation_for_reliable_assessment_of_.md
     - Planning with Diffusion Models for Target-Oriented Dialogue Systems: ACL2025/image_generation/difftod_diffusion_dialogue_planning.md
     - 'FlashAudio: Rectified Flows for Fast and High-Fidelity Text-to-Audio Generation': ACL2025/image_generation/flashaudio_rectified_flow_tta.md
     - 'R-VC: Rhythm Controllable and Efficient Zero-Shot Voice Conversion via Shortcut Flow Matching': ACL2025/image_generation/rvc_rhythm_voice_conversion.md
-  - 🔗 因果推理 (2):
-    - 🔗 因果推理: ACL2025/causal_inference/index.md
-    - 'IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery': ACL2025/causal_inference/iris_an_iterative_and_integrated_framework.md
-    - On the Reliability of Large Language Models for Causal Discovery: ACL2025/causal_inference/llm_causal_discovery_reliability.md
-  - 🎮 强化学习 (2):
+  - 🎯 目标检测 (4):
+    - 🎯 目标检测: ACL2025/object_detection/index.md
+    - 'Anchored Answers: Unravelling Positional Bias in GPT-2''s Multiple-Choice Questions': ACL2025/object_detection/anchored_answers_unravelling_positional_bias_in_gpt-2s_multiple-choice_questions.md
+    - 'Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting': ACL2025/object_detection/dolphin_document_image_parsing_via_heterogeneous_anchor_prompting.md
+    - 'Weed Out, Then Harvest: Dual Low-Rank Adaptation is an Effective Noisy Label Detector for Noise-Robust Learning': ACL2025/object_detection/weed_out_then_harvest_dual_low-rank_adaptation_is_an_effective_noisy_label_detec.md
+    - ? Why Safeguarded Ships Run Aground? Aligned Large Language Models' Safety Mechanisms
+        Tend to Be Anchored in The Template Region
+      : ACL2025/object_detection/why_safeguarded_ships_run_aground_aligned_large_language_models_safety_mechanism.md
+  - 🎮 强化学习 (4):
     - 🎮 强化学习: ACL2025/reinforcement_learning/index.md
+    - 'Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback': ACL2025/reinforcement_learning/align-slm_textless_spoken_language_models_with_reinforcement_learning_from_ai_fe.md
     - 'An Efficient Task-Oriented Dialogue Policy: Evolutionary Reinforcement Learning Injected by Elite Individuals': ACL2025/reinforcement_learning/eierl_dialogue_policy.md
+    - 'Prompt-based Personality Profiling: Reinforcement Learning for Relevance Filtering': ACL2025/reinforcement_learning/prompt-based_personality_profiling_reinforcement_learning_for_relevance_filterin.md
     - 'TreeRL: LLM Reinforcement Learning with On-Policy Tree Search': ACL2025/reinforcement_learning/treerl_tree_search_rl.md
-  - 🤖 机器人/具身智能 (2):
+  - 🤖 机器人/具身智能 (3):
     - 🤖 机器人/具身智能: ACL2025/robotics/index.md
     - 'Rolling the DICE on Idiomaticity: How LLMs Fail to Grasp Context': ACL2025/robotics/dice_idiomaticity.md
+    - Do Emotions Really Affect Argument Convincingness? A Dynamic Approach with LLM-based Manipulation Checks: ACL2025/robotics/do_emotions_really_affect_argument_convincingness_a_dynamic_approach_with_llm-ba.md
     - 'SELF-PERCEPT: Introspection Improves LLMs'' Detection of Multi-Person Mental Manipulation in Conversations': ACL2025/robotics/self_percept_manipulation_detection.md
-  - 🔄 自监督/表示学习 (2):
+  - 🔄 自监督/表示学习 (3):
     - 🔄 自监督/表示学习: ACL2025/self_supervised/index.md
     - Contrastive Learning on LLM Back Generation Treebank for Cross-domain Constituency Parsing: ACL2025/self_supervised/llm_back_gen_treebank.md
     - 'QAEncoder: Towards Aligned Representation Learning in Question Answering Systems': ACL2025/self_supervised/qaencoder_aligned_representation.md
-  - 🖼️ 图像恢复 (1):
+    - 'SHuBERT: Self-Supervised Sign Language Representation Learning via Multi-Stream Cluster Prediction': ACL2025/self_supervised/shubert_self-supervised_sign_language_representation_learning_via_multi-stream_c.md
+  - 📈 时间序列 (3):
+    - 📈 时间序列: ACL2025/time_series/index.md
+    - 'CTPD: Cross-Modal Temporal Pattern Discovery for Enhanced Multimodal Electronic Health Records Analysis': ACL2025/time_series/ctpd_cross-modal_temporal_pattern_discovery_for_enhanced_multimodal_electronic_h.md
+    - 'LETS-C: Leveraging Text Embedding for Time Series Classification': ACL2025/time_series/lets-c_leveraging_text_embedding_for_time_series_classification.md
+    - 'Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement': ACL2025/time_series/time-mqa_time_series_multi-task_question_answering_with_context_enhancement.md
+  - 🧑 人体理解 (2):
+    - 🧑 人体理解: ACL2025/human_understanding/index.md
+    - 'I See What You Mean: Co-Speech Gestures for Reference Resolution in Multimodal Dialogue': ACL2025/human_understanding/i_see_what_you_mean_co-speech_gestures_for_reference_resolution_in_multimodal_di.md
+    - 'TransBench: Breaking Barriers for Transferable Graphical User Interface Agents in Dynamic Digital Environments': ACL2025/human_understanding/transbench_breaking_barriers_for_transferable_graphical_user_interface_agents_in.md
+  - 🖼️ 图像恢复 (2):
     - 🖼️ 图像恢复: ACL2025/image_restoration/index.md
     - 'DiffuseDef: Improved Robustness to Adversarial Attacks via Iterative Denoising': ACL2025/image_restoration/diffusedef_adversarial_defense.md
+    - 'PreP-OCR: A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy': ACL2025/image_restoration/prep-ocr_a_complete_pipeline_for_document_image_restoration_and_enhanced_ocr_acc.md
+  - 🎁 推荐系统 (2):
+    - 🎁 推荐系统: ACL2025/recommender/index.md
+    - 'GRAM: Generative Recommendation via Semantic-aware Multi-granular Late Fusion': ACL2025/recommender/gram_generative_recommendation.md
+    - 'RecLM: Recommendation Instruction Tuning': ACL2025/recommender/reclm_recommendation_instruction_tuning.md
+  - ✂️ 语义分割 (2):
+    - ✂️ 语义分割: ACL2025/segmentation/index.md
+    - 'DEF-DTS: Deductive Reasoning for Open-domain Dialogue Topic Segmentation': ACL2025/segmentation/def-dts_deductive_reasoning_for_open-domain_dialogue_topic_segmentation.md
+    - 'InstructPart: Task-Oriented Part Segmentation with Instruction Reasoning': ACL2025/segmentation/instructpart_task-oriented_part_segmentation_with_instruction_reasoning.md
+  - 🎬 视频理解 (2):
+    - 🎬 视频理解: ACL2025/video_understanding/index.md
+    - Generative Frame Sampler for Long Video Understanding: ACL2025/video_understanding/generative_frame_sampler_for_long_video_understanding.md
+    - 'VidCapBench: A Comprehensive Benchmark of Video Captioning for Controllable Text-to-Video Generation': ACL2025/video_understanding/vidcapbench_a_comprehensive_benchmark_of_video_captioning_for_controllable_text-.md
+  - 🧊 3D 视觉 (1):
+    - 🧊 3D 视觉: ACL2025/3d_vision/index.md
+    - 'Slamming: Training a Speech Language Model on One GPU in a Day': ACL2025/3d_vision/slamming_training_a_speech_language_model_on_one_gpu_in_a_day.md
+  - 🚗 自动驾驶 (1):
+    - 🚗 自动驾驶: ACL2025/autonomous_driving/index.md
+    - Embracing Large Language Models in Traffic Flow Forecasting: ACL2025/autonomous_driving/embracing_large_language_models_in_traffic_flow_forecasting.md
   - 📐 优化/理论 (1):
     - 📐 优化/理论: ACL2025/optimization/index.md
     - 'ScaleBiO: Scalable Bilevel Optimization for LLM Data Reweighting': ACL2025/optimization/scalebio_bilevel_data_reweighting.md
-  - 🎁 推荐系统 (1):
-    - 🎁 推荐系统: ACL2025/recommender/index.md
-    - 'GRAM: Generative Recommendation via Semantic-aware Multi-granular Late Fusion': ACL2025/recommender/gram_generative_recommendation.md
-  - 📂 其他 (92):
+  - 📡 信号/通信 (1):
+    - 📡 信号/通信: ACL2025/signal_comm/index.md
+    - 'ToolSpectrum: Towards Personalized Tool Utilization for Large Language Models': ACL2025/signal_comm/toolspectrum_towards_personalized_tool_utilization_for_large_language_models.md
+  - 📂 其他 (125):
     - 📂 其他: ACL2025/others/index.md
     - 'Towards Robust ESG Analysis Against Greenwashing Risks: A3CG': ACL2025/others/a3cg_esg_greenwashing.md
+    - A Conformal Risk Control Framework for Granular Word Assessment and Uncertainty Calibration of CLIPScore Quality Estimates: ACL2025/others/a_conformal_risk_control_framework_for_granular_word_assessment_and_uncertainty_.md
+    - A Dual-Perspective NLG Meta-Evaluation Framework with Automatic Benchmark and Better Interpretability: ACL2025/others/a_dual-perspective_nlg_meta-evaluation_framework_with_automatic_benchmark_and_be.md
+    - 'GKI-ICD: A General Knowledge Injection Framework for ICD Coding': ACL2025/others/a_general_knowledge_injection_framework_for_icd_coding.md
+    - 'Barec: A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment': ACL2025/others/a_large_and_balanced_corpus_for_fine-grained_arabic_readability_assessment.md
+    - A Little Human Data Goes A Long Way: ACL2025/others/a_little_human_data_goes_a_long_way.md
+    - 'MisMatched: A Benchmark for Scientific Natural Language Inference': ACL2025/others/a_mismatched_benchmark_for_scientific_natural_language_inference.md
+    - A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs: ACL2025/others/a_practical_approach_for_building_production-grade_conversational_agents_with_wo.md
+    - 'SSUF: A Semi-supervised Scalable Unified Framework for E-commerce Query Classification': ACL2025/others/a_semi-supervised_scalable_unified_framework_for_e-commerce_query_classification.md
+    - A Spatio-Temporal Point Process for Fine-Grained Modeling of Reading Behavior: ACL2025/others/a_spatio-temporal_point_process_for_fine-grained_modeling_of_reading_behavior.md
+    - 'IDR²: Accelerating Adaptive RAG via Instruction-Driven Representation Reduction of Retrieval Overlaps': ACL2025/others/accelerating_adaptive_retrieval_augmented_generation_via_instruction-driven_repr.md
+    - 'Access Denied Inc: The First Benchmark Environment for Sensitivity Awareness': ACL2025/others/access_denied_inc_the_first_benchmark_environment_for_sensitivity_awareness.md
     - 'AceCoder: Acing Coder RL via Automated Test-Case Synthesis': ACL2025/others/acecoder_acing_coder_rl_via_automated.md
+    - 'ACORD: An Expert-Annotated Retrieval Dataset for Legal Contract Clause Retrieval': ACL2025/others/acord_an_expert-annotated_retrieval_dataset_for_legal_contract_drafting.md
+    - 'NTIL: Advancing Sequential Numerical Prediction in Autoregressive Models': ACL2025/others/advancing_sequential_numerical_prediction_in_autoregressive_models.md
+    - 'AIDE: Attribute-Guided Multi-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning': ACL2025/others/aide_attribute-guided_multi-hop_data_expansion_for_data_scarcity_in_task-specifi.md
+    - 'AIR-Bench: Automated Heterogeneous Information Retrieval Benchmark': ACL2025/others/air-bench_automated_heterogeneous_information_retrieval_benchmark.md
     - 'Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race': ACL2025/others/aligned_but_blind_implicit_bias.md
+    - 'AmbiK: Dataset of Ambiguous Tasks in Kitchen Environment': ACL2025/others/ambik_dataset_of_ambiguous_tasks_in_kitchen_environment.md
+    - 'AnalyticKWS: Towards Exemplar-Free Analytic Class Incremental Learning for Small-footprint Keyword Spotting': ACL2025/others/analytickws_towards_exemplar-free_analytic_class_incremental_learning_for_small-.md
+    - 'AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge': ACL2025/others/antileakbench_preventing_data_contamination_by_automatically_constructing_benchm.md
+    - Anything Goes? A Crosslinguistic Study of (Im)possible Language Learning in LMs: ACL2025/others/anything_goes_a_crosslinguistic_study_of_impossible_language_learning_in_lms.md
+    - Are Bias Evaluation Methods Biased?: ACL2025/others/are_bias_evaluation_methods_biased.md
     - 'ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search': ACL2025/others/arise_risk_adaptive_search.md
     - Attention Entropy is a Key Factor for Parallel Context Encoding: ACL2025/others/attention_entropy_parallel_encoding.md
+    - 'AutoDS: Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts': ACL2025/others/autonomous_data_selection_with_zero-shot_generative_classifiers_for_mathematical.md
+    - 'Behavioural vs. Representational Systematicity in End-to-End Models: An Opinionated Survey': ACL2025/others/behavioural_vs_representational_systematicity_in_end-to-end_models_an_opinionate.md
+    - Better Embeddings with Coupled Adam: ACL2025/others/better_embeddings_with_coupled_adam.md
     - 'Beyond Frameworks: Unpacking Collaboration Strategies in Multi-Agent Systems': ACL2025/others/beyond_frameworks_multi_agent_collaboration.md
     - 'Bone Soups: A Seek-and-Soup Model Merging Approach for Controllable Multi-Objective Generation': ACL2025/others/bone_soups_multi_objective_gen.md
+    - 'Bregman Conditional Random Fields: Sequence Labeling with Parallelizable Inference': ACL2025/others/bregman_conditional_random_fields_sequence_labeling_with_parallelizable_inferenc.md
     - 'Byte Latent Transformer: Patches Scale Better Than Tokens': ACL2025/others/byte_latent_transformer.md
     - Causal Estimation of Tokenisation Bias: ACL2025/others/causal_tokenisation_bias.md
     - 'CoachMe: Decoding Sport Elements with a Reference-Based Coaching Instruction Generation Model': ACL2025/others/coachme_sport_instruction.md
@@ -2190,6 +2451,7 @@ nav:
     - 'KnowShiftQA: How Robust are RAG Systems when Textbook Knowledge Shifts in K-12 Education?': ACL2025/others/knowshiftqa_rag_knowledge_shifts.md
     - 'KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors': ACL2025/others/kokorochat_a_japanese_psychological_counseling_dialogue.md
     - 'LAQuer: Localized Attribution Queries in Content-grounded Generation': ACL2025/others/laquer_localized_attribution.md
+    - Length-Induced Embedding Collapse in PLM-based Models: ACL2025/others/length-induced_embedding_collapse_in_plm-based_models.md
     - 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation': ACL2025/others/literature_meets_data_hypothesis.md
     - 'LoGU: Long-form Generation with Uncertainty Expressions': ACL2025/others/logu_longform_gen_uncertainty.md
     - 'Read it in Two Steps: Translating Extremely Low-Resource Languages with Code-Augmented Grammar Books': ACL2025/others/low_resource_translation.md
@@ -2197,6 +2459,7 @@ nav:
     - 'MindRef: Mimicking Human Memory for Hierarchical Reference Retrieval with Fine-Grained Location Awareness': ACL2025/others/mindref_mimicking_human_memory_hierarchical_reference_retrieval.md
     - 'InterpoLL: Mitigating Shortcut Learning with InterpoLated Learning': ACL2025/others/mitigating_shortcut_learning_with_interpolated_learning.md
     - 'Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment': ACL2025/others/modular_sentence_encoders.md
+    - 'MOSAIC: Multiple Observers Spotting AI Content': ACL2025/others/mosaic_multiple_observers_spotting_ai_content.md
     - ? 'Data Quality Issues in Multilingual Speech Datasets: The Need for Sociolinguistic
         Awareness and Proactive Language Planning'
       : ACL2025/others/multilingual_speech_data_quality.md
@@ -2204,6 +2467,7 @@ nav:
     - 'Normalized AOPC: Fixing Misleading Faithfulness Metrics for Feature Attribution Explainability': ACL2025/others/normalized_aopc_faithfulness_metrics.md
     - Enhancing Automated Interpretability with Output-Centric Feature Descriptions: ACL2025/others/output_centric_interpretability.md
     - Towards Better Evaluation for Generated Patent Claims: ACL2025/others/patclaimeval_patent_evaluation.md
+    - Personalized Generation In Large Model Era A Survey: ACL2025/others/personalized_generation_in_large_model_era_a_survey.md
     - 'All That Glitters is Not Novel: Plagiarism in AI Generated Research': ACL2025/others/plagiarism_ai_generated_research.md
     - Principled Understanding of Generalization for Generative Transformer Models in Arithmetic Reasoning Tasks: ACL2025/others/principled_generalization_arithmetic.md
     - 'PRISM: A Framework for Producing Interpretable Political Bias Embeddings': ACL2025/others/prism_political_bias_embeddings.md
@@ -2213,6 +2477,7 @@ nav:
     - ? 'PVP: An Image Dataset for Personalized Visual Persuasion with Persuasion
         Strategies, Viewer Characteristics, and Persuasiveness Ratings'
       : ACL2025/others/pvp_an_image_dataset_for_personalized.md
+    - Quantifying Lexical Semantic Shift via Unbalanced Optimal Transport: ACL2025/others/quantifying_lexical_semantic_shift_via_unbalanced_optimal_transport.md
     - ? 'ReflectDiffu: Reflect between Emotion-intent Contagion and Mimicry for Empathetic
         Response Generation via a RL-Diffusion Framework'
       : ACL2025/others/reflectdiffu_empathetic_response.md
@@ -2220,18 +2485,23 @@ nav:
     - Identifying Reliable Evaluation Metrics for Scientific Text Revision: ACL2025/others/reliable_eval_metrics_scientific.md
     - 'REP: Keys to Robust Edits — From Theoretical Insights to Practical Advances': ACL2025/others/rep_robust_knowledge_editing.md
     - 'Retrieve to Explain: Evidence-driven Predictions for Explainable Drug Target Identification': ACL2025/others/retrieve_to_explain_drug_target_identification.md
+    - 'Revisiting Weak-to-Strong Generalization: Reverse KL vs. Forward KL': ACL2025/others/revisiting_weak-to-strong_generalization_in_theory_and_practice_reverse_kl_vs_fo.md
+    - 'Rubrik''s Cube: Testing a New Rubric for Evaluating Explanations on the CUBE Dataset': ACL2025/others/rubriks_cube_testing_a_new_rubric_for_evaluating_explanations_on_the_cube_datase.md
     - 'SCAR: Data Selection via Style Consistency-Aware Response Ranking for Efficient Instruction-Tuning': ACL2025/others/scar_style_consistency_data_selection.md
     - 'SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection': ACL2025/others/seoe_semantic_eval.md
     - Shifting from Ranking to Set Selection for Retrieval Augmented Generation: ACL2025/others/setr_set_selection_rag.md
     - Share Text To Sql Correction: ACL2025/others/share_text_to_sql_correction.md
     - 'ShifCon: Enhancing Non-Dominant Language Capabilities with a Shift-based Multilingual Contrastive Framework': ACL2025/others/shifcon_nondominant_language.md
     - Statistical Deficiency for Task Inclusion Estimation: ACL2025/others/statistical_deficiency_task_inclusion.md
+    - 'STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond': ACL2025/others/stricta_structured_reasoning_in_critical_text_assessment_for_peer_review_and_bey.md
     - 'SudoLM: Learning Access Control of Parametric Knowledge with Authorization Alignment': ACL2025/others/sudolm_authorization_alignment.md
+    - The Harmonic Structure of Information Contours: ACL2025/others/the_harmonic_structure_of_information_contours.md
     - 'Learning to Reason Over Time: Timeline Self-Reflection for Temporal Reasoning': ACL2025/others/tiser_timeline_self_reflection_temporal.md
     - 'TokAlign: Efficient Vocabulary Adaptation via Token Alignment': ACL2025/others/tokalign_vocab_adaptation.md
     - Did Translation Models Get More Robust Without Anyone Even Noticing?: ACL2025/others/translation_robustness.md
     - 'TROVE: A Challenge for Fine-Grained Text Provenance via Source Sentence Tracing and Relationship Classification': ACL2025/others/trove_a_challenge_for_finegrained_text.md
     - 'Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos': ACL2025/others/tuna_temporal_understanding.md
+    - 'USDC: A Dataset of User Stance and Dogmatism in Long Conversations': ACL2025/others/usdc_a_dataset_of_underlineuser_underlinestance_and_underlinedogmatism_in_long_u.md
     - 'VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare': ACL2025/others/vital_pluralistic_alignment_healthcare.md
     - 'When to Speak, When to Abstain: Contrastive Decoding with Abstention': ACL2025/others/when_to_speak_when_to_abstain.md
     - 'X-Turing: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents': ACL2025/others/xturing_enhanced_turing_test.md
@@ -2476,6 +2746,22 @@ nav:
     - 'Infinite-Story: A Training-Free Consistent Text-to-Image Generation': AAAI2026/image_generation/infinite-story_a_training-free_consistent_text-to-image_gene.md
     - 'Laytrol: Preserving Pretrained Knowledge in Layout Control for Multimodal Diffusion Transformers': AAAI2026/image_generation/laytrol_preserving_pretrained_knowledge_in_layout_control_fo.md
     - 'T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model': AAAI2026/image_generation/t2i-riskyprompt_a_benchmark_for_safety_evaluation_attack_and_defense_on_text-to-.md
+  - 🚗 自动驾驶 (14):
+    - 🚗 自动驾驶: AAAI2026/autonomous_driving/index.md
+    - A Data-Driven Model Predictive Control Framework for Multi-Aircraft TMA Routing Under Travel Time Uncertainty: AAAI2026/autonomous_driving/a_data-driven_model_predictive_control_framework_for_multi-aircraft_tma_routing_.md
+    - Beta Distribution Learning for Reliable Roadway Crash Risk Assessment: AAAI2026/autonomous_driving/beta_distribution_learning_for_reliable_roadway_crash_risk_a.md
+    - 'Bridging Day and Night: Target-Class Hallucination Suppression in Unpaired Image Translation': AAAI2026/autonomous_driving/bridging_day_and_night_target-class_hallucination_suppressio.md
+    - 'CompTrack: 信息瓶颈引导的低秩动态Token压缩用于点云跟踪 (Oral)': AAAI2026/autonomous_driving/comptrack_information_bottleneckguided_lowrank_dynamic_token_compres.md
+    - 'FastDriveVLA: Efficient End-to-End Driving via Plug-and-Play Reconstruction-based Token Pruning': AAAI2026/autonomous_driving/fastdrivevla_efficient_end-to-end_driving_via_plug-and-play_.md
+    - 'FQ-PETR: Fully Quantized Position Embedding Transformation for Multi-View 3D Object Detection': AAAI2026/autonomous_driving/fq-petr_fully_quantized_position_embedding_transformation_fo.md
+    - 'LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences': AAAI2026/autonomous_driving/lidarcrafter_dynamic_4d_world_modeling_from_lidar_sequences.md
+    - 'MambaSeg: Harnessing Mamba for Accurate and Efficient Image-Event Semantic Segmentation': AAAI2026/autonomous_driving/mambaseg_harnessing_mamba_for_accurate_and_efficient_image-e.md
+    - 'SPARC: 用单一策略驾驶100辆未见车辆的OOD泛化': AAAI2026/autonomous_driving/out-of-distribution_generalization_with_a_sparc_racing_100_u.md
+    - 'PriorDrive: 用统一向量先验增强在线HD地图构建': AAAI2026/autonomous_driving/priordrive_enhancing_online_hd_mapping_with_unified_vector_p.md
+    - 'ReflexDiffusion: 反思增强的高侧向加速度自动驾驶轨迹规划': AAAI2026/autonomous_driving/reflexdiffusion_reflection-enhanced_trajectory_planning_for_.md
+    - Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data: AAAI2026/autonomous_driving/task_prototype-based_knowledge_retrieval_for_multi-task_lear.md
+    - 'VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness': AAAI2026/autonomous_driving/vilta_a_vlm-in-the-loop_adversary_for_enhancing_driving_poli.md
+    - Vision-Only Gaussian Splatting for Collaborative Semantic Occupancy Prediction (Oral): AAAI2026/autonomous_driving/visiononly_gaussian_splatting_for_collaborative_semantic_occupancy_p.md
   - ⚡ LLM 效率 (14):
     - ⚡ LLM 效率: AAAI2026/llm_efficiency/index.md
     - A Content-Preserving Secure Linguistic Steganography: AAAI2026/llm_efficiency/a_content-preserving_secure_linguistic_steganography.md
@@ -2508,21 +2794,6 @@ nav:
     - 'IdealTSF: Can Non-Ideal Data Contribute to Enhancing Time Series Forecasting?': AAAI2026/time_series/idealtsf_can_non-ideal_data_contribute_to_enhancing_the_performance_of_time_seri.md
     - 'SELDON: Supernova Explosions Learned by Deep ODE Networks': AAAI2026/time_series/seldon_supernova_explosions_learned_by_deep_ode_networks.md
     - 'Urban Incident Prediction with Graph Neural Networks: Integrating Government Ratings and Crowdsourced Reports': AAAI2026/time_series/urban_incident_prediction_with_graph_neural_networks_integrating_government_rati.md
-  - 🚗 自动驾驶 (13):
-    - 🚗 自动驾驶: AAAI2026/autonomous_driving/index.md
-    - Beta Distribution Learning for Reliable Roadway Crash Risk Assessment: AAAI2026/autonomous_driving/beta_distribution_learning_for_reliable_roadway_crash_risk_a.md
-    - 'Bridging Day and Night: Target-Class Hallucination Suppression in Unpaired Image Translation': AAAI2026/autonomous_driving/bridging_day_and_night_target-class_hallucination_suppressio.md
-    - 'CompTrack: 信息瓶颈引导的低秩动态Token压缩用于点云跟踪 (Oral)': AAAI2026/autonomous_driving/comptrack_information_bottleneckguided_lowrank_dynamic_token_compres.md
-    - 'FastDriveVLA: Efficient End-to-End Driving via Plug-and-Play Reconstruction-based Token Pruning': AAAI2026/autonomous_driving/fastdrivevla_efficient_end-to-end_driving_via_plug-and-play_.md
-    - 'FQ-PETR: Fully Quantized Position Embedding Transformation for Multi-View 3D Object Detection': AAAI2026/autonomous_driving/fq-petr_fully_quantized_position_embedding_transformation_fo.md
-    - 'LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences': AAAI2026/autonomous_driving/lidarcrafter_dynamic_4d_world_modeling_from_lidar_sequences.md
-    - 'MambaSeg: Harnessing Mamba for Accurate and Efficient Image-Event Semantic Segmentation': AAAI2026/autonomous_driving/mambaseg_harnessing_mamba_for_accurate_and_efficient_image-e.md
-    - 'SPARC: 用单一策略驾驶100辆未见车辆的OOD泛化': AAAI2026/autonomous_driving/out-of-distribution_generalization_with_a_sparc_racing_100_u.md
-    - 'PriorDrive: 用统一向量先验增强在线HD地图构建': AAAI2026/autonomous_driving/priordrive_enhancing_online_hd_mapping_with_unified_vector_p.md
-    - 'ReflexDiffusion: 反思增强的高侧向加速度自动驾驶轨迹规划': AAAI2026/autonomous_driving/reflexdiffusion_reflection-enhanced_trajectory_planning_for_.md
-    - Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data: AAAI2026/autonomous_driving/task_prototype-based_knowledge_retrieval_for_multi-task_lear.md
-    - 'VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness': AAAI2026/autonomous_driving/vilta_a_vlm-in-the-loop_adversary_for_enhancing_driving_poli.md
-    - Vision-Only Gaussian Splatting for Collaborative Semantic Occupancy Prediction (Oral): AAAI2026/autonomous_driving/visiononly_gaussian_splatting_for_collaborative_semantic_occupancy_p.md
   - 🤖 机器人/具身智能 (12):
     - 🤖 机器人/具身智能: AAAI2026/robotics/index.md
     - A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind: AAAI2026/robotics/a_computable_game-theoretic_framework_for_multi-agent_theory_of_mind.md
@@ -2574,6 +2845,17 @@ nav:
     - 'KVmix: Gradient-Based Layer Importance-Aware Mixed-Precision Quantization for KV Cache': AAAI2026/model_compression/kvmix_gradient-based_layer_importance-aware_mixed-precision_.md
     - 'SCoPe: Intrinsic Semantic Space Control for Mitigating Copyright Infringement in LLMs': AAAI2026/model_compression/scope_intrinsic_semantic_space_control_for_mitigating_copyright_infringement_in_.md
     - 'SparK: Query-Aware Unstructured Sparsity with Recoverable KV Cache Channel Pruning': AAAI2026/model_compression/spark_query-aware_unstructured_sparsity_with_recoverable_kv_cache_channel_prunin.md
+  - 🧊 3D 视觉 (9):
+    - 🧊 3D 视觉: AAAI2026/3d_vision/index.md
+    - '3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition': AAAI2026/3d_vision/3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md
+    - '3D-Free Meets 3D Priors: Novel View Synthesis from a Single Image with Pretrained Diffusion Guidance': AAAI2026/3d_vision/3d-free_meets_3d_priors_novel_view_synthesis_from_a_single_image_with_pretrained.md
+    - '4DSTR: Advancing Generative 4D Gaussians with Spatial-Temporal Rectification for High-Quality and Consistent 4D Generation': AAAI2026/3d_vision/4dstr_advancing_generative_4d_gaussians_with_spatial-tempora.md
+    - 'Adapt-As-You-Walk Through the Clouds: Training-Free Online Test-Time Adaptation of 3D Vision-Language Foundation Models': AAAI2026/3d_vision/adapt-as-you-walk_through_the_clouds_training-free_online_te.md
+    - 'AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation': AAAI2026/3d_vision/anchords_anchoring_dynamic_sources_for_semantically_consiste.md
+    - 'AnchorHOI: Zero-shot Generation of 4D Human-Object Interaction via Anchor-based Prior Distillation': AAAI2026/3d_vision/anchorhoi_zero-shot_generation_of_4d_human-object_interactio.md
+    - Arbitrary-Scale 3D Gaussian Super-Resolution: AAAI2026/3d_vision/arbitrary-scale_3d_gaussian_super-resolution.md
+    - 'FoundationSLAM: 释放深度基础模型在端到端稠密视觉SLAM中的潜力': AAAI2026/3d_vision/foundationslam_unleashing_the_power_of_depth_foundation_models_for.md
+    - 'Gaussian Blending: Rethinking Alpha Blending in 3D Gaussian Splatting': AAAI2026/3d_vision/gaussian_blending_rethinking_alpha_blending_in_3d_gaussian_splatting.md
   - 🏥 医学图像 (9):
     - 🏥 医学图像: AAAI2026/medical_imaging/index.md
     - A Disease-Aware Dual-Stage Framework for Chest X-ray Report Generation: AAAI2026/medical_imaging/a_disease-aware_dual-stage_framework_for_chest_x-ray_report_.md
@@ -2585,6 +2867,19 @@ nav:
     - 'FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction': AAAI2026/medical_imaging/fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md
     - Learning Cell-Aware Hierarchical Multi-Modal Representations for Robust Molecular Modeling: AAAI2026/medical_imaging/learning_cell-aware_hierarchical_multi-modal_representations.md
     - 'ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders': AAAI2026/medical_imaging/protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md
+  - 🎯 目标检测 (9):
+    - 🎯 目标检测: AAAI2026/object_detection/index.md
+    - A Theoretical Analysis of Detecting Large Model-Generated Time Series: AAAI2026/object_detection/a_theoretical_analysis_of_detecting_large_model-generated_time_series.md
+    - ? 'Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework
+        for Long-Horizon Robotic Manipulation with Sparse Reward'
+      : AAAI2026/object_detection/actor-critic_for_continuous_action_chunks_a_reinforcement_le.md
+    - 'AerialMind: Towards Referring Multi-Object Tracking in UAV Scenarios': AAAI2026/object_detection/aerialmind_towards_referring_multi-object_tracking_in_uav_sc.md
+    - 'Beyond Boundaries: Leveraging Vision Foundation Models for Source-Free Object Detection': AAAI2026/object_detection/beyond_boundaries_leveraging_vision_foundation_models_for_so.md
+    - 'Connecting the Dots: Training-Free Visual Grounding via Agentic Reasoning': AAAI2026/object_detection/connecting_the_dots_training-free_visual_grounding_via_agent.md
+    - Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning: AAAI2026/object_detection/continuous_vision-language-action_co-learning_with_semantic-.md
+    - 'Sketch-HARP: 分层自回归草图生成实现灵活笔画级绘制操控': AAAI2026/object_detection/generating_sketches_in_a_hierarchical_auto-regressive_proces.md
+    - 'SAGA: Learning Signal-Aligned Distributions for Improved Text-to-Image Generation': AAAI2026/object_detection/saga_learning_signal-aligned_distributions_for_improved_text-to-image_generation.md
+    - 'TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models': AAAI2026/object_detection/ttf-vla_temporal_token_fusion_via_pixel-attention_integratio.md
   - 🔄 自监督/表示学习 (9):
     - 🔄 自监督/表示学习: AAAI2026/self_supervised/index.md
     - 'BCE3S: Binary Cross-Entropy Based Tripartite Synergistic Learning for Long-tailed Recognition': AAAI2026/self_supervised/bce3s_binary_cross-entropy_based_tripartite_synergistic_learning_for_long-tailed.md
@@ -2596,30 +2891,9 @@ nav:
     - 'MovSemCL: Movement-Semantics Contrastive Learning for Trajectory Similarity': AAAI2026/self_supervised/movsemcl_movement-semantics_contrastive_learning_for_trajectory_similarity_exten.md
     - 'NeuroBridge: Bio-Inspired Self-Supervised EEG-to-Image Decoding': AAAI2026/self_supervised/neurobridge_bio-inspired_self-supervised_eeg-to-image_decoding_via_cognitive_pri.md
     - Robust Tabular Foundation Models: AAAI2026/self_supervised/robust_tabular_foundation_models.md
-  - 🧊 3D 视觉 (8):
-    - 🧊 3D 视觉: AAAI2026/3d_vision/index.md
-    - '3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition': AAAI2026/3d_vision/3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md
-    - '4DSTR: Advancing Generative 4D Gaussians with Spatial-Temporal Rectification for High-Quality and Consistent 4D Generation': AAAI2026/3d_vision/4dstr_advancing_generative_4d_gaussians_with_spatial-tempora.md
-    - 'Adapt-As-You-Walk Through the Clouds: Training-Free Online Test-Time Adaptation of 3D Vision-Language Foundation Models': AAAI2026/3d_vision/adapt-as-you-walk_through_the_clouds_training-free_online_te.md
-    - 'AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation': AAAI2026/3d_vision/anchords_anchoring_dynamic_sources_for_semantically_consiste.md
-    - 'AnchorHOI: Zero-shot Generation of 4D Human-Object Interaction via Anchor-based Prior Distillation': AAAI2026/3d_vision/anchorhoi_zero-shot_generation_of_4d_human-object_interactio.md
-    - Arbitrary-Scale 3D Gaussian Super-Resolution: AAAI2026/3d_vision/arbitrary-scale_3d_gaussian_super-resolution.md
-    - 'FoundationSLAM: 释放深度基础模型在端到端稠密视觉SLAM中的潜力': AAAI2026/3d_vision/foundationslam_unleashing_the_power_of_depth_foundation_models_for.md
-    - 'Gaussian Blending: Rethinking Alpha Blending in 3D Gaussian Splatting': AAAI2026/3d_vision/gaussian_blending_rethinking_alpha_blending_in_3d_gaussian_splatting.md
-  - 🎯 目标检测 (8):
-    - 🎯 目标检测: AAAI2026/object_detection/index.md
-    - ? 'Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework
-        for Long-Horizon Robotic Manipulation with Sparse Reward'
-      : AAAI2026/object_detection/actor-critic_for_continuous_action_chunks_a_reinforcement_le.md
-    - 'AerialMind: Towards Referring Multi-Object Tracking in UAV Scenarios': AAAI2026/object_detection/aerialmind_towards_referring_multi-object_tracking_in_uav_sc.md
-    - 'Beyond Boundaries: Leveraging Vision Foundation Models for Source-Free Object Detection': AAAI2026/object_detection/beyond_boundaries_leveraging_vision_foundation_models_for_so.md
-    - 'Connecting the Dots: Training-Free Visual Grounding via Agentic Reasoning': AAAI2026/object_detection/connecting_the_dots_training-free_visual_grounding_via_agent.md
-    - Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning: AAAI2026/object_detection/continuous_vision-language-action_co-learning_with_semantic-.md
-    - 'Sketch-HARP: 分层自回归草图生成实现灵活笔画级绘制操控': AAAI2026/object_detection/generating_sketches_in_a_hierarchical_auto-regressive_proces.md
-    - 'SAGA: Learning Signal-Aligned Distributions for Improved Text-to-Image Generation': AAAI2026/object_detection/saga_learning_signal-aligned_distributions_for_improved_text-to-image_generation.md
-    - 'TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models': AAAI2026/object_detection/ttf-vla_temporal_token_fusion_via_pixel-attention_integratio.md
-  - 🎵 音频/语音 (7):
+  - 🎵 音频/语音 (8):
     - 🎵 音频/语音: AAAI2026/audio_speech/index.md
+    - 'DeepDebater: A Superpersuasive Autonomous Policy Debating System': AAAI2026/audio_speech/a_superpersuasive_autonomous_policy_debating_system.md
     - 'AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions': AAAI2026/audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md
     - 'Aligning Generative Music AI with Human Preferences: Methods and Challenges': AAAI2026/audio_speech/aligning_generative_music_ai_with_human_preferences_methods_and_challenges.md
     - 'Cross-Space Synergy: A Unified Framework for Multimodal Emotion Recognition in Conversation': AAAI2026/audio_speech/cross-space_synergy_a_unified_framework_for_multimodal_emotion_recognition_in_co.md
@@ -2627,8 +2901,9 @@ nav:
     - Generalizing Analogical Inference from Boolean to Continuous Domains: AAAI2026/audio_speech/generalizing_analogical_inference_from_boolean_to_continuous_domains.md
     - 'Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition': AAAI2026/audio_speech/let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md
     - Use A Unified Model For Universal Sound Separation And Extraction: AAAI2026/audio_speech/use_a_unified_model_for_universal_sound_separation_and_extraction.md
-  - 🕸️ 图学习 (7):
+  - 🕸️ 图学习 (8):
     - 🕸️ 图学习: AAAI2026/graph_learning/index.md
+    - Adaptive Initial Residual Connections for GNNs with Theoretical Guarantees: AAAI2026/graph_learning/adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md
     - Adaptive Riemannian Graph Neural Networks: AAAI2026/graph_learning/adaptive_riemannian_graph_neural_networks.md
     - Are Graph Transformers Necessary? Efficient Long-Range Message Passing with Fractal Nodes in MPNNs: AAAI2026/graph_learning/are_graph_transformers_necessary_efficient_long-range_messag.md
     - 'Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation': AAAI2026/graph_learning/assemble_your_crew_automatic_multi-agent_communication_topol.md
@@ -2636,6 +2911,14 @@ nav:
     - 'Relink: Constructing Query-Driven Evidence Graph On-the-Fly for GraphRAG': AAAI2026/graph_learning/relink_constructing_query-driven_evidence_graph_on-the-fly_for_graphrag.md
     - 'RFKG-CoT: Relation-Driven Adaptive Hop-count Selection and Few-Shot Path Guidance for Knowledge-Aware QA': AAAI2026/graph_learning/rfkg-cot_relation-driven_adaptive_hop-count_selection_and_few-shot_path_guidance.md
     - 'S-DAG: A Subject-Based Directed Acyclic Graph for Multi-Agent Heterogeneous Reasoning': AAAI2026/graph_learning/s-dag_a_subject-based_directed_acyclic_graph_for_multi-agent.md
+  - 🎬 视频理解 (6):
+    - 🎬 视频理解: AAAI2026/video_understanding/index.md
+    - '3D4D: An Interactive Editable 4D World Model via 3D Video Generation': AAAI2026/video_understanding/3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md
+    - 'APVR: Hour-Level Long Video Understanding with Adaptive Pivot Visual Information Retrieval': AAAI2026/video_understanding/apvr_hour-level_long_video_understanding_with_adaptive_pivot.md
+    - 'Distillation Dynamics: Towards Understanding Feature-Based Distillation in Vision Transformers': AAAI2026/video_understanding/distillation_dynamics_towards_understanding_feature-based_di.md
+    - 'DreamRunner: Fine-Grained Compositional Story-to-Video Generation with Retrieval-Augmented Motion Adaptation': AAAI2026/video_understanding/dreamrunner_fine-grained_compositional_story-to-video_genera.md
+    - 'MambaMia: State-Space Hierarchical Compression for Hour-Long Video Understanding in Large Multimodal Models': AAAI2026/video_understanding/state-space_hierarchical_compression_with_gated_attention_an.md
+    - 'VIR-Bench: Evaluating Geospatial and Temporal Understanding of MLLMs via Travel Video Itinerary Reconstruction': AAAI2026/video_understanding/vir-bench_evaluating_geospatial_and_temporal_understanding_of_mllms_via_travel_v.md
   - 🔗 因果推理 (5):
     - 🔗 因果推理: AAAI2026/causal_inference/index.md
     - 'CaDyT: Causal Structure Learning for Dynamical Systems with Theoretical Score Analysis': AAAI2026/causal_inference/causal_structure_learning_for_dynamical_systems_with_theoretical_score_analysis.md
@@ -2687,13 +2970,6 @@ nav:
     - 'Task Aware Modulation Using Representation Learning For Upsaling Of Terrestrial ': AAAI2026/signal_comm/task_aware_modulation_using_representation_learning_for_upsaling_of_terrestrial_.md
     - Text-Guided Channel Perturbation And Pretrained Knowledge Integration For Unifie: AAAI2026/signal_comm/text-guided_channel_perturbation_and_pretrained_knowledge_integration_for_unifie.md
     - Toward Gaze Target Detection in Young Autistic Children: AAAI2026/signal_comm/toward_gaze_target_detection_of_young_autistic_children.md
-  - 🎬 视频理解 (5):
-    - 🎬 视频理解: AAAI2026/video_understanding/index.md
-    - 'APVR: Hour-Level Long Video Understanding with Adaptive Pivot Visual Information Retrieval': AAAI2026/video_understanding/apvr_hour-level_long_video_understanding_with_adaptive_pivot.md
-    - 'Distillation Dynamics: Towards Understanding Feature-Based Distillation in Vision Transformers': AAAI2026/video_understanding/distillation_dynamics_towards_understanding_feature-based_di.md
-    - 'DreamRunner: Fine-Grained Compositional Story-to-Video Generation with Retrieval-Augmented Motion Adaptation': AAAI2026/video_understanding/dreamrunner_fine-grained_compositional_story-to-video_genera.md
-    - 'MambaMia: State-Space Hierarchical Compression for Hour-Long Video Understanding in Large Multimodal Models': AAAI2026/video_understanding/state-space_hierarchical_compression_with_gated_attention_an.md
-    - 'VIR-Bench: Evaluating Geospatial and Temporal Understanding of MLLMs via Travel Video Itinerary Reconstruction': AAAI2026/video_understanding/vir-bench_evaluating_geospatial_and_temporal_understanding_of_mllms_via_travel_v.md
   - 🖼️ 图像恢复 (4):
     - 🖼️ 图像恢复: AAAI2026/image_restoration/index.md
     - 'Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration': AAAI2026/image_restoration/clear_nights_ahead_towards_multi-weather_nighttime_image_res.md
@@ -2731,11 +3007,13 @@ nav:
   - 🌍 地球科学 (1):
     - 🌍 地球科学: AAAI2026/earth_science/index.md
     - 'MdaIF: Robust One-Stop Multi-Degradation-Aware Image Fusion with Language-Driven Semantics': AAAI2026/earth_science/mdaif_robust_one-stop_multi-degradation-aware_image_fusion_with_language-driven_.md
-  - 📂 其他 (18):
+  - 📂 其他 (20):
     - 📂 其他: AAAI2026/others/index.md
     - A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles: AAAI2026/others/a_fast_heuristic_search_approach_for_energy-optimal_profile_.md
     - A Graph-Theoretical Perspective on Law Design for Multiagent Systems: AAAI2026/others/a_graph-theoretical_perspective_on_law_design_for_multiagent.md
     - A Graph-Theoretical Perspective on Law Design for Multiagent Systems: AAAI2026/others/a_graph-theoretical_perspective_on_law_design_for_multiagent_systems.md
+    - A Mind Cannot Be Smeared Across Time: AAAI2026/others/a_mind_cannot_be_smeared_across_time.md
+    - A New Strategy for Verifying Reach-Avoid Specifications in Neural Feedback Systems: AAAI2026/others/a_new_strategy_for_verifying_reach-avoid_specifications_in_neural_feedback_syste.md
     - A Phase Transition for Opinion Dynamics with Competing Biases: AAAI2026/others/a_phase_transition_for_opinion_dynamics_with_competing_biase.md
     - A Switching Framework for Online Interval Scheduling with Predictions: AAAI2026/others/a_switching_framework_for_online_interval_scheduling_with_pr.md
     - A Topological Rewriting of Tarski's Mereogeometry: AAAI2026/others/a_topological_rewriting_of_tarskis_mereogeometry.md

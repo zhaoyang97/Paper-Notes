@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🤖 AAAI2026** · 共 **18** 篇
+**🤖 AAAI2026** · 共 **20** 篇
 
 **[A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles](a_fast_heuristic_search_approach_for_energy-optimal_profile_.md)**
 
@@ -14,6 +14,14 @@
 **[A Graph-Theoretical Perspective on Law Design for Multiagent Systems](a_graph-theoretical_perspective_on_law_design_for_multiagent_systems.md)**
 
 :   从图论角度研究多智能体系统中的法律设计问题，将 useful law 和 gap-free law 的最小化设计分别归约为超图的顶点覆盖问题，证明了 NP-hardness 并给出近似算法。
+
+**[A Mind Cannot Be Smeared Across Time](a_mind_cannot_be_smeared_across_time.md)**
+
+:   从 Stack Theory 出发形式化证明：在时间窗口内的存在性时序实现不保持合取——系统可以跨时间实现意识体验的每个成分而永远不在同一时刻实例化它们的合取，从而区分 Chord（共时性必要）和 Arpeggio（序列即可）两个意识假设，论证纯序列硬件上的软件意识在 Chord 假设下不可能。
+
+**[A New Strategy for Verifying Reach-Avoid Specifications in Neural Feedback Systems](a_new_strategy_for_verifying_reach-avoid_specifications_in_neural_feedback_syste.md)**
+
+:   提出 FaBRe（Forward and Backward Reachability）策略，开发神经反馈系统后向可达集的过近似和欠近似算法（Golden Section Search / Iterative Convex Hull / Largest Empty Box），并将其与现有前向可达性分析结合，构建统一的 reach-avoid 验证框架。
 
 **[A Phase Transition for Opinion Dynamics with Competing Biases](a_phase_transition_for_opinion_dynamics_with_competing_biase.md)**
 
@@ -53,7 +61,7 @@
 
 **[Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit](area-optimal_control_strategies_for_heterogeneous_multi-agen.md)**
 
-:   研究异构速度下多追逐者-单逃避者的追逃博弈——定义逃避者安全可达集为所有追逐者-逃避者对的Apollonius圆的交集，将捕获策略建模为追逐者最小化/逃避者最大化该交集面积的零和博弈，推导出闭式最优航向控制律，仿真验证追逐者可系统性缩小安全区域实现保证捕获。
+:   研究异构速度下多追逐者-单逃避者的追逃博弈——定义逃避者安全可达集为所有追逐者-逃避者对的 Apollonius 圆的交集，将捕获策略建模为追逐者最小化/逃避者最大化该交集面积的零和博弈，推导出闭式瞬时最优航向控制律，仿真验证追逐者可系统性缩小安全区域实现保证捕获。
 
 **[Bilevel MCTS for Amortized O(1) Node Selection in Classical Planning](bilevel_mcts_for_amortized_o1_node_selection_in_classical_planning.md)**
 

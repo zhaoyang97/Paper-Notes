@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC 检测
 
-**💬 ACL2025** · 共 **6** 篇
+**💬 ACL2025** · 共 **8** 篇
+
+**[A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for Human Explanations to Collect Label Distributions on NLI](a_rose_by_any_other_name_llm-generated_explanations_are_good_proxies_for_human_e.md)**
+
+:   研究 LLM 生成的解释能否替代昂贵的人工解释来近似 NLI 的人工判断分布（HJD）——发现在提供人工标签的条件下，LLM 生成的解释与人工解释在近似 HJD 方面效果相当（"名字不重要，玫瑰依然芬芳"），且方法可推广到无人工解释的数据集和域外测试集。
 
 **[Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media](aigt_social_media_monitoring.md)**
 
@@ -18,6 +22,10 @@
 **[Comparing LLM-generated and human-authored news text using formal syntactic theory](llm_vs_human_formal_syntax.md)**
 
 :   首次使用形式句法理论（HPSG）系统比较六个 LLM 生成的纽约时报风格文本与真实人类撰写的 NYT 文本，发现 LLM 和人类写作在 HPSG 语法类型分布上存在系统性差异，揭示了 LLM 句法行为与人类的本质不同。
+
+**[Low-Perplexity LLM-Generated Sequences and Where To Find Them](low-perplexity_llm-generated_sequences_and_where_to_find_them.md)**
+
+:   提出一个系统化的 pipeline，通过分析 LLM 生成的低困惑度序列（每个 token 预测概率 ≥0.9），将其追溯到训练数据来源，发现 30-60% 的低困惑度片段无法匹配训练数据，并将可匹配的片段分为四种行为类别。
 
 **[MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts](multisocial_mgt_detection.md)**
 

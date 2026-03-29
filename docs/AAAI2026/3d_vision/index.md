@@ -1,11 +1,15 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**🤖 AAAI2026** · 共 **8** 篇
+**🤖 AAAI2026** · 共 **9** 篇
 
 **[3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition](3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md)**
 
 :   将Neural Collapse(NC)机制引入3D点云对抗鲁棒性，用固定的ETF分类头+自适应训练框架(RBL+FDL)构建解耦的特征空间，在ModelNet40上将DGCNN的对抗准确率从27.2%提升到80.9%，超出最佳baseline 34个点。
+
+**[3D-Free Meets 3D Priors: Novel View Synthesis from a Single Image with Pretrained Diffusion Guidance](3d-free_meets_3d_priors_novel_view_synthesis_from_a_single_image_with_pretrained.md)**
+
+:   提出将 3D-free 方法（HawkI 风格的 test-time optimization）与 3D-based 先验（Zero123++ 的弱引导图）结合的框架，无需额外 3D 数据或训练即可从单张图片生成指定仰角/方位角的相机控制视图，在复杂场景下 LPIPS、CLIP-Score 等指标全面超越 Zero123++、HawkI 和 Stable Zero123。
 
 **[4DSTR: Advancing Generative 4D Gaussians with Spatial-Temporal Rectification for High-Quality and Consistent 4D Generation](4dstr_advancing_generative_4d_gaussians_with_spatial-tempora.md)**
 
