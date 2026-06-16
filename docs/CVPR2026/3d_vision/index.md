@@ -1481,7 +1481,7 @@ item_total: 623
 
 **[Native and Compact Structured Latents for 3D Generation](native_and_compact_structured_latents_for_3d_generation.md)**
 
-:   本文是 TRELLIS 原班团队的续作 TRELLIS.2，提出一种从原生 3D 数据学习的结构化隐空间表示：核心是无场（field-free）的全能体素 O-Voxel，它用柔性对偶栅格统一编码任意拓扑的几何与 PBR 材质；再用稀疏压缩 VAE（SC-VAE）做到 16× 空间下采样、把 1024³ 全纹理资产压成约 9.6K token；最后训练约 4B 参数的三阶段 Flow-matching 模型做图生 3D，在重建保真度、材质质量和生成速度上都大幅超越现有方法。
+:   本文是 TRELLIS 原班团队的续作 TRELLIS.2，提出一种从原生 3D 数据直接学习的结构化隐空间表示。其核心是无场（field-free）的全能体素 O-Voxel，用柔性对偶栅格统一编码任意拓扑的几何与 PBR 材质；再配一个稀疏压缩 VAE（SC-VAE）做到 16× 空间下采样，把 1024³ 全纹理资产压成约 9.6K token。最后训练约 4B 参数的三阶段 Flow-matching 模型做图生 3D，在重建保真度、材质质量和生成速度上都大幅超越现有方法。
 
 **[NeAR: Coupled Neural Asset–Renderer Stack](near_coupled_neural_asset-renderer_stack.md)**
 
