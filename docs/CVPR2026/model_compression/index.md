@@ -1,18 +1,18 @@
 ---
 title: >-
-  CVPR2026 模型压缩论文汇总 · 129篇论文解读
+  CVPR2026 模型压缩论文汇总 · 138篇论文解读
 description: >-
-  129篇CVPR2026的模型压缩方向论文解读，涵盖模型压缩、压缩/编码、多模态、扩散模型、知识蒸馏、目标跟踪等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  138篇CVPR2026的模型压缩方向论文解读，涵盖模型压缩、压缩/编码、扩散模型、多模态、持续学习、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "模型压缩"
   - "论文解读"
   - "论文笔记"
   - "压缩/编码"
-  - "多模态"
   - "扩散模型"
+  - "多模态"
+  - "持续学习"
   - "知识蒸馏"
-  - "目标跟踪"
 item_list:
   - u: "4d_rgpt_toward_region_level_4d_understanding_via_perceptual_distillation/"
     t: "4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation"
@@ -34,6 +34,8 @@ item_list:
     t: "Adversarial Concept Distillation for One-Step Diffusion Personalization"
   - u: "attention-aware_inference_optimizations_for_large_vision-language_models_with_me/"
     t: "Attention-aware Inference Optimizations for Large Vision-Language Models with Memory-efficient Decoding"
+  - u: "back_to_source_open-set_continual_test-time_adaptation_via_domain_compensation/"
+    t: "Back to Source: Open-Set Continual Test-Time Adaptation via Domain Compensation"
   - u: "balanced_dataset_distillation_via_modeling_multiple_visual_pattern_distribution/"
     t: "Balanced Dataset Distillation via Modeling Multiple Visual Pattern Distribution"
   - u: "batch_loss_score_for_dynamic_data_pruning/"
@@ -72,19 +74,17 @@ item_list:
     t: "Cross-Architecture Adaptation: Cloud-Edge Continual Test-Time Adaptation with Dynamic Sampling and Heterogeneous Distillation"
   - u: "cross-modal_knowledge_distillation_from_spatial_transcriptomics_to_histology/"
     t: "Cross-Modal Knowledge Distillation from Spatial Transcriptomics to Histology"
-  - u: "dage_dual-stream_architecture_for_efficient_and_fine-grained_geometry_estimation/"
-    t: "DAGE: Dual-Stream Architecture for Efficient and Fine-Grained Geometry Estimation"
-item_total: 129
+item_total: 138
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**📷 CVPR2026** · **129** 篇论文解读
+**📷 CVPR2026** · **138** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (100)](../../ICML2026/model_compression/index.md) · [💬 ACL2026 (59)](../../ACL2026/model_compression/index.md) · [🔬 ICLR2026 (100)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (60)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (52)](../../ICCV2025/model_compression/index.md)
 
-🔥 **高频主题：** 模型压缩 ×21 · 压缩/编码 ×19 · 多模态 ×14 · 扩散模型 ×14 · 知识蒸馏 ×4
+🔥 **高频主题：** 模型压缩 ×21 · 压缩/编码 ×19 · 扩散模型 ×15 · 多模态 ×14 · 持续学习 ×5
 
 **[4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation](4d_rgpt_toward_region_level_4d_understanding_via_perceptual_distillation.md)**
 
@@ -125,6 +125,10 @@ item_total: 129
 **[Attention-aware Inference Optimizations for Large Vision-Language Models with Memory-efficient Decoding](attention-aware_inference_optimizations_for_large_vision-language_models_with_me.md)**
 
 :   AttentionPack 利用 LVLM 的 KV cache（尤其是视觉 token）天然低秩这一观察，先用 SVD 在「合并多头 + 区分视觉/文本」的方式下把 cache 沿隐藏维压缩，再用一套基于累积注意力分数的「注意力感知部分解压」按需选秩，在几乎不掉点的前提下把显存降到原来的 1/5～1/8，从而支持更大 batch / 更长上下文、解码吞吐提升最高 74%。
+
+**[Back to Source: Open-Set Continual Test-Time Adaptation via Domain Compensation](back_to_source_open-set_continual_test-time_adaptation_via_domain_compensation.md)**
+
+:   针对"域持续漂移 + 未知新类同时出现"的开放集持续测试时自适应（OCTTA）场景，本文提出 DOCO：先把当前 batch 分成像 ID / 像 OOD 两堆，只用 ID 样本学一个把特征统计"拉回源域"的视觉 prompt，再把这个 prompt 直接复用到同 batch 的 OOD 样本上以剥离它们的语义新颖度，三步形成闭环互助，在 ImageNet-C 上 H-score 比次优方法高 4.7%。
 
 **[Balanced Dataset Distillation via Modeling Multiple Visual Pattern Distribution](balanced_dataset_distillation_via_modeling_multiple_visual_pattern_distribution.md)**
 
@@ -201,6 +205,10 @@ item_total: 129
 **[Cross-Modal Knowledge Distillation from Spatial Transcriptomics to Histology](cross-modal_knowledge_distillation_from_spatial_transcriptomics_to_histology.md)**
 
 :   用一个冻结的空间转录组教师（NOLAN）在配对数据上监督一个 H&E 组织学学生，把分子层面定义的「组织 niche（微环境分区）」结构蒸馏进只看图像的学生网络，从而在推理时仅凭 H&E 切片就能预测出与转录组高度一致的 niche 分区。
+
+**[Cross-View Distillation and Adaptive Masking for Incomplete Multi-View Multi-Label Classification](cross-view_distillation_and_adaptive_masking_for_incomplete_multi-view_multi-lab.md)**
+
+:   针对"视图与标签双重缺失"的多标签分类，本文用一个强视图当 teacher 去蒸馏其余弱视图、再用一个可学习的二值门控把蒸馏后仍然不可靠的视图直接屏蔽掉，在六个数据集上稳定超过九个 SOTA。
 
 **[DAGE: Dual-Stream Architecture for Efficient and Fine-Grained Geometry Estimation](dage_dual-stream_architecture_for_efficient_and_fine-grained_geometry_estimation.md)**
 
@@ -294,6 +302,10 @@ item_total: 129
 
 :   Grid Distillation 把一整类图像压成"一张结构化网格图"：先用谱-子模优化（SSDIM）从 CLIP 嵌入里挑出既有覆盖度又多样、还贴合类流形几何的 $L^2$ 张代表图拼成网格并下采样，再用单步扩散反演（基于 SD Turbo）把下采样丢掉的高频细节补回来，最后用网格感知裁剪做训练增强——在 ImageWoof/ImageNette/ImageIDC/ImageNet-1K 上多个 IPC 设置全面超越现有数据集蒸馏方法，ImageWoof IPC=10 上 ResNet-18 达 65.5%（VLCP 仅 39.9%）。
 
+**[HAD: Heterogeneity-Aware Distillation for Lifelong Heterogeneous Learning](had_heterogeneity-aware_distillation_for_lifelong_heterogeneous_learning.md)**
+
+:   本文把终身学习从"同构任务流"推广到"异构任务流"（LHL），并落地到稠密预测场景（LHL4DP），提出免样本的异构感知蒸馏 HAD——靠冻结教师生成伪标签做自蒸馏，再用分布均衡损失（DB-HAD）和显著性引导损失（SG-HAD）两个互补项缓解伪标签的类别/数值失衡与边界信息丢失，在 CityScapes / NYUv2 / Taskonomy 上显著优于现有终身学习方法。
+
 **[HeSS: Head Sensitivity Score for Sparsity Redistribution in VGGT](hess_head_sensitivity_score_for_sparsity_redistribution_in_vggt.md)**
 
 :   HeSS 提出 Head Sensitivity Score 来量化 VGGT 全局注意力层中每个注意力头对稀疏化的敏感程度，并基于此将注意力预算从不敏感的头重新分配到敏感头，在高稀疏度下显著优于均匀稀疏化方法 SparseVGGT，几乎不增加运行时开销。
@@ -317,6 +329,10 @@ item_total: 129
 **[Hybrid Token Compression for Vision-Language Models](hybrid_token_compression_for_vision-language_models.md)**
 
 :   针对"把视觉 token 压到 1 个时，连续压缩丢语义、离散量化丢细节"的两难，HTC-VLM 用连续通道（ViT patch 保细节）+ 离散通道（MGVQ 量化出 4 个语义锚点）双路解耦，再经解耦注意力掩码与 `<voco>` 瓶颈把 580 个 token 压成 1 个，在 7 个基准上把性能保持率从 81.0% 提到 87.2%。
+
+**[ID-Sim: An Identity-Focused Similarity Metric](id-sim_an_identity-focused_similarity_metric.md)**
+
+:   本文提出 ID-Sim——一个前馈式、专门衡量"身份一致性"的感知度量，它模仿人类的"选择性敏感"（对背景/姿态/光照等语境变化不敏感、却对细微的身份变化敏感）：在冻结的 DINOv3 ViT-L 上用真实+合成编辑数据训练 LoRA 与双头 MLP，配合全局 CLS 对比 + 局部 patch 最优传输对比双目标，在 7 个数据集、49 个评测设置里有 48 个超过现有度量，且用的标注数据少 100× 多、主干更小。
 
 **[IF-Prune: Information-Flow Guided Token Pruning for Efficient Vision-Language Models](if-prune_information-flow_guided_token_pruning_for_efficient_vision-language_mod.md)**
 
@@ -414,6 +430,10 @@ item_total: 129
 
 :   提出 OmniParallax Attention Mechanism (OPAM) 用于分布式多视角图像压缩（DMIC），通过两阶段视差注意力显式建模任意视角对之间的相关性和对齐特征，构建的 ParaHydra 框架首次让 DMIC 方法显著超越 SOTA MIC 编码器，同时大幅降低计算开销。
 
+**[Parameter-efficient Continual Learning for Enhancing Plasticity without Forgetting under Limited Model Capacity](parameter-efficient_continual_learning_for_enhancing_plasticity_without_forgetti.md)**
+
+:   GRAPA 是一种面向"模型容量受限"场景的参数高效持续学习方法，先用梯度方向一致性挑出可安全复用的旧任务冻结参数、再用 A2C 强化学习为每个新任务自适应找出"刚好够用"的剪枝率，从而在不牺牲稳定性（不遗忘）的前提下显著提升可塑性（学新任务），在六条异构任务序列上平均精度最高提升 7.67%、后续复杂任务最高提升 14.92%。
+
 **[Phased DMD: Few-step Distribution Matching Distillation via Score Matching within Subintervals](phased_dmd_few-step_distribution_matching_distillation_via_score_matching_within.md)**
 
 :   针对「一步 DMD 蒸馏容量不足、多样性差，而直接多步扩展又显存爆炸、用随机梯度截断（SGTS）则退化回一步」的困境，本文提出 Phased DMD：把 SNR 区间切成子区间、每个阶段只蒸馏一个专家并渐进推向更高 SNR（中间阶段在中间时刻而非干净样本处停止），再为「无干净样本」推导出无偏的子区间分数匹配目标，从而天然产出少步 MoE 生成器，在 Qwen-Image-20B、Wan2.2-28B 等大模型上同时改善运动动态、视觉保真和生成多样性。
@@ -458,6 +478,10 @@ item_total: 129
 
 :   针对 1.26B 参数的前馈 3D 重建模型 VGGT，本文提出一套几何感知的后训练量化框架 QVGGT，用"逐块敏感度混合精度 + 相机 token 过滤补偿 + 任务感知尺度搜索"三步，在 W4A16 下做到几乎无损（CO3Dv2 相机位姿 AUC@30 89.4 vs FP16 89.5），同时内存降 3∼4.9×、最高 2.8× 硬件加速。
 
+**[Rank-Guided Pseudo-Bias Learning for Robust Black-Box Adaptation](rank-guided_pseudo-bias_learning_for_robust_black-box_adaptation.md)**
+
+:   PLD-Debias 在完全冻结、参数不可见的预训练视觉编码器之上挂一个轻量 adapter，先用秩正则化把潜在的虚假相关方向"放大"出来、再聚类得到 90%+ 保真度的伪偏置标签，最后用对比对齐 + 聚类自适应间隔两路 loss 净化表示，在 CelebA / Waterbirds / CMNIST 上无需任何群体标注就把最差群体准确率刷到 SOTA。
+
 **[RDVQ: Differentiable Vector Quantization for Rate-Distortion Optimization of Generative Image Compression](rdvq_differentiable_vq_image_compression.md)**
 
 :   RDVQ 通过对码本分布的可微松弛，首次实现了 VQ-based 图像压缩的端到端率失真联合优化，在极低码率下以不到 20% 的参数量取得了优于或竞争性的感知质量。
@@ -469,6 +493,10 @@ item_total: 129
 **[Rejection Mixing: Fast Semantic Propagation of Mask Tokens for Efficient DLLM Inference](rejection_mixing_fast_semantic_propagation_of_mask_tokens_for_efficient_dllm_inf.md)**
 
 :   ReMix 在扩散语言模型（DLLM）的「掩码态→词元态」离散解码之间插入一个可迭代刷新的「连续混合态」，让并行解码的多个位置在落子前先在连续空间里互相协调、并用一条拒绝规则把不稳定的位置打回掩码重算，从而在不训练、不掉点的前提下把推理提速 2–8×，很多任务上准确率还反而上升。
+
+**[Representation-Steered Incremental Adapter-Tuning for Class-Incremental Learning with Pre-Trained Models](representation-steered_incremental_adapter-tuning_for_class-incremental_learning.md)**
+
+:   RSIAT 在基于预训练模型的类增量学习中只用**一个共享适配器**（参数不随任务增长），靠基座任务的"表示引导损失"先把特征塑造得类内紧致、类间分离，再在增量任务用"残差自编码器投影 + 正交损失"对齐新旧特征空间、压制原型漂移，在六个 CIL 基准上以更少参数刷新了稳定性-可塑性的折中。
 
 **[ResCa: Residual Caching for Diffusion Transformers Acceleration](resca_residual_caching_for_diffusion_transformers_acceleration.md)**
 
@@ -523,6 +551,10 @@ item_total: 129
 **[SODA: Sensitivity-Oriented Dynamic Acceleration for Diffusion Transformer](soda_sensitivity-oriented_dynamic_acceleration_for_diffusion_transformer.md)**
 
 :   提出 SODA，通过离线细粒度敏感度建模 + 动态规划优化缓存间隔 + 统一自适应剪枝策略，在无需训练的条件下对 Diffusion Transformer 实现可控加速比下的高保真生成。
+
+**[Spectral Mixture-of-Experts for Continual Learning](spectral_mixture-of-experts_for_continual_learning.md)**
+
+:   针对 LoRA-MoE 做持续学习时的"结构性干扰"和"组合式遗忘"两大失效，本文提出 Spectral MoE：用互不重叠的频域掩码把每个专家约束到独立频率子空间从而天然正交，再配一套在线/离线双路由 + 动态一致性投影来锁住路由策略，在跨域任务无关增量学习上同时拿到更高的保留率和可塑性。
 
 **[Streamlined Knowledge Distillation](streamlined_knowledge_distillation.md)**
 
@@ -595,6 +627,10 @@ item_total: 129
 **[VVS: Accelerating Speculative Decoding for Visual Autoregressive Generation via Partial Verification Skipping](vvs_accelerating_speculative_decoding_for_visual_autoregressive_generation_via_p.md)**
 
 :   VVS 第一次在视觉自回归生成的投机解码（SD）中"部分跳过验证"——靠免验证 token 选择 + 陈旧特征缓存复用 + 相似度驱动的跳过调度，把目标模型的前向次数最多砍掉 2.86×、端到端加速 1.76×，且图像质量基本不掉，打破了 SD"草稿一步、验证一步"无法显式减少前向次数的天花板。
+
+**[When Lines Meet Textures: Spatial-Frequency Aligned Diffusion Features for Cross-Sparsity Correspondence](when_lines_meet_textures_spatial-frequency_aligned_diffusion_features_for_cross-.md)**
+
+:   针对"稀疏线条草图"与"纹理丰富照片"之间难以建立语义关键点对应的问题，本文提出 SFA-DIFT：先用 LoRA 把 CleanDIFT 微调成跨模态统一的"干净扩散特征"对齐空间域，再用基于小波的低频聚合模块（LoFFA）对齐频域，在自建的 MS-PSC6K 基准上把 PCK 全面刷到新 SOTA。
 
 **[WPT: World-to-Policy Transfer via Online World Model Distillation](wpt_world-to-policy_transfer_via_online_world_model_distillation.md)**
 

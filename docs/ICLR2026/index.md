@@ -2,7 +2,7 @@
 title: >-
   ICLR2026 论文汇总 · 1529篇论文解读，每篇5分钟读懂核心思想
 description: >-
-  1529篇ICLR2026论文解读，涵盖图像生成(138篇)、强化学习(126篇)、模型压缩(100篇)、多模态 VLM(85篇)、LLM 推理(82篇)、3D 视觉(62篇)、可解释性(60篇)、LLM 安全(52篇)等 49个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1529篇ICLR2026论文解读，涵盖图像生成(138篇)、强化学习(126篇)、模型压缩(100篇)、LLM Reasoning(82篇)、3D 视觉(62篇)、多模态 VLM(61篇)、可解释性(60篇)、LLM 安全(52篇)等 51个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "ICLR2026论文汇总"
@@ -13,9 +13,9 @@ tags:
   - "图像生成"
   - "强化学习"
   - "模型压缩"
-  - "多模态 VLM"
-  - "LLM 推理"
+  - "LLM Reasoning"
   - "3D 视觉"
+  - "多模态 VLM"
   - "可解释性"
   - "LLM 安全"
 item_list:
@@ -85,13 +85,13 @@ item_total: 1529
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 ICLR2026 论文汇总
 
-1529篇ICLR2026论文解读，涵盖图像生成(138篇)、强化学习(126篇)、模型压缩(100篇)、多模态 VLM(85篇)、LLM 推理(82篇)、3D 视觉(62篇)、可解释性(60篇)、LLM 安全(52篇)等 49个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1529篇ICLR2026论文解读，涵盖图像生成(138篇)、强化学习(126篇)、模型压缩(100篇)、LLM Reasoning(82篇)、3D 视觉(62篇)、多模态 VLM(61篇)、可解释性(60篇)、LLM 安全(52篇)等 51个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
 ---
 
-## 💡 LLM 推理 (82) { #llm_reasoning }
+## 💡 LLM Reasoning (82) { #llm_reasoning }
 
 **[A State-Transition Framework for Efficient LLM Reasoning](llm_reasoning/a_state-transition_framework_for_efficient_llm_reasoning.md)**
 
@@ -133,7 +133,7 @@ item_total: 1529
 
 :   提出 Contact Searching Question (CSQ) 框架，基于有向图可达性任务和认知心理学原理设计两个互补统计指标——欺骗意图分数 $\rho$ 和欺骗行为分数 $\delta$，首次系统揭示 16 个主流 LLM 在完全良性提示下存在随任务难度升级的自发欺骗倾向。
 
-[查看全部82篇「LLM 推理」论文 →](llm_reasoning/)
+[查看全部82篇「LLM Reasoning」论文 →](llm_reasoning/)
 
 ---
 
@@ -183,7 +183,7 @@ item_total: 1529
 
 ---
 
-## 👥 多智能体 (15) { #multi_agent }
+## 👥 Multi-Agent (15) { #multi_agent }
 
 **[AgentTrace: Causal Graph Tracing for Root Cause Analysis in Deployed Multi-Agent Systems](multi_agent/agenttrace_causal_graph_tracing_for_root_cause_analysis_in_deployed_multi-agent_.md)**
 
@@ -225,7 +225,7 @@ item_total: 1529
 
 :   提出Multi-Agent System Search（MASS）框架，通过交错优化提示词和拓扑结构的三阶段策略（局部提示优化→拓扑搜索→全局提示优化），自动发现高性能的多智能体系统设计。
 
-[查看全部15篇「多智能体」论文 →](multi_agent/)
+[查看全部15篇「Multi-Agent」论文 →](multi_agent/)
 
 ---
 
@@ -649,7 +649,7 @@ item_total: 1529
 
 ---
 
-## 🔍 信息检索/RAG (31) { #information_retrieval }
+## 🔍 信息检索/RAG (28) { #information_retrieval }
 
 **[AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](information_retrieval/amemgym_interactive_memory_benchmarking_for_assistants_in_long-horizon_conversat.md)**
 
@@ -679,10 +679,6 @@ item_total: 1529
 
 :   本文提出 Multi-Level Concept Splitting（MLCS）将概念分裂过程从单层递归扩展到多层，仅用顶层概念标注就能自动发现任意深度的概念层级树，并设计 Deep-HiCEMs 架构来表示和利用这些深层层级，实现多粒度的测试时概念干预。
 
-**[Efficient Discriminative Joint Encoders for Large Scale Vision-Language Re-ranking](information_retrieval/efficient_discriminative_joint_encoders_for_large_scale_vision-language_rerankin.md)**
-
-:   提出EDJE（高效判别式联合编码器），通过将视觉特征提取离线化并用轻量级注意力适配器压缩视觉Token，实现50k图文对/秒的高吞吐推理，同时在Flickr（零样本）和COCO（微调）检索上匹配现有联合编码器的性能，每张图仅需49kB存储。
-
 **[Embedding-Based Context-Aware Reranker](information_retrieval/embedding-based_context-aware_reranker.md)**
 
 :   提出 EBCAR，一个基于嵌入空间的轻量级重排序框架，通过文档 ID 嵌入和段落位置编码引入结构信息，结合共享全注意力 + 专用掩码注意力的混合机制实现跨段落推理，在 ConTEB 基准上以 126M 参数达到最优平均 nDCG@10，推理速度比 LLM 重排器快 150 倍以上。
@@ -691,11 +687,15 @@ item_total: 1529
 
 :   提出将 RAG 从推理时的永久依赖转化为训练时的教师信号：从 agent 失败中提取 hint、用 hint 增强的教师生成更优轨迹、然后移除 hint 蒸馏到学生模型，使学生内化检索增益而无需运行时 RAG，在 ALFWorld 达到 91% 成功率（基线 79%），WebShop 分数达 72（基线 61）。
 
-[查看全部31篇「信息检索/RAG」论文 →](information_retrieval/)
+**[Flow of Spans: Generalizing Language Models to Dynamic Span-Vocabulary via GFlowNets](information_retrieval/flow_of_spans_generalizing_language_models_to_dynamic_span-vocabulary_via_gflown.md)**
+
+:   提出 FoSS，首次将 GFlowNets 引入 span 级别语言模型，通过构建 DAG 结构的状态空间代替传统 token-by-token 的树形结构，实现更灵活多样的文本生成，MAUVE 分数最高提升 12.5%。
+
+[查看全部28篇「信息检索/RAG」论文 →](information_retrieval/)
 
 ---
 
-## 💻 代码智能 (19) { #code_intelligence }
+## 💻 代码智能 (18) { #code_intelligence }
 
 **[A Problem-Oriented Perspective and Anchor Verification for Code Optimization](code_intelligence/a_problem-oriented_perspective_and_anchor_verification_for_code_optimization.md)**
 
@@ -704,10 +704,6 @@ item_total: 1529
 **[Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering](code_intelligence/ambig-swe_interactive_agents_to_overcome_underspecificity_in_software_engineerin.md)**
 
 :   构建 Ambig-SWE（基于 SWE-Bench Verified 的欠指定变体），系统评估 LLM 编程 agent 在三个维度上的交互能力——检测欠指定、提出澄清问题、利用交互信息——发现交互可将欠指定场景下的解决率提升最高 74%，但模型默认非交互行为且难以区分指定充分/不足的指令。
-
-**[Breaking the SFT Plateau: Multimodal Structured Reinforcement Learning for Chart-to-Code Generation](code_intelligence/breaking_the_sft_plateau_multimodal_structured_reinforcement_learning_for_chart-.md)**
-
-:   针对图表到代码生成任务中SFT的性能瓶颈问题，提出多模态结构化强化学习（MSRL），通过文本+视觉双层奖励函数和两阶段RL策略，在ChartMimic和ReachQA上分别提升6.2%和9.9%的高层指标，达到开源SOTA并媲美GPT-4o。
 
 **[CARD: Towards Conditional Design of Multi-agent Topological Structures](code_intelligence/card_towards_conditional_design_of_multi-agent_topological_structures.md)**
 
@@ -737,7 +733,11 @@ item_total: 1529
 
 :   提出 SOSecure，一种无需重训练的推理时安全机制，通过 BM25 从 Stack Overflow 安全讨论知识库中检索与 LLM 生成代码相关的社区安全警告，引导模型在推理阶段自主修订不安全代码，在三个真实数据集上实现高达 96.7% 的漏洞修复率且零新漏洞引入。
 
-[查看全部19篇「代码智能」论文 →](code_intelligence/)
+**[InnoGym: Benchmarking the Innovation Potential of AI Agents](code_intelligence/innogym_benchmarking_the_innovation_potential_of_ai_agents.md)**
+
+:   提出 InnoGym，第一个系统评估 AI Agent 创新能力的基准和框架，引入 Performance Gain 和 Novelty 两个互补指标，通过 18 个可改进任务发现当前 Agent 具备一定创新性但缺乏将创新转化为可靠性能提升的鲁棒性。
+
+[查看全部18篇「代码智能」论文 →](code_intelligence/)
 
 ---
 
@@ -833,7 +833,7 @@ item_total: 1529
 
 ---
 
-## 🧩 多模态 VLM (85) { #multimodal_vlm }
+## 🧩 多模态 VLM (61) { #multimodal_vlm }
 
 **[A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models](multimodal_vlm/a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi.md)**
 
@@ -850,6 +850,10 @@ item_total: 1529
 **[Breaking the Limits of Open-Weight CLIP: An Optimization Framework for Self-supervised Fine-tuning of CLIP](multimodal_vlm/breaking_the_limits_of_open-weight_clip_an_optimization_framework_for_self-super.md)**
 
 :   本文提出 TuneCLIP，一个自监督微调（SSFT）框架，通过两阶段设计——先恢复优化器统计量（OSR）消除冷启动偏差，再用带margin的铰链全局对比损失（HGCL）缓解假负样本过度惩罚——在不使用任何标签的条件下持续提升已有开源 CLIP 模型的通用性能，在 ImageNet 及变体上提升最高 +2.5%，在 DataComp 基准上提升 +1.2%。
+
+**[Breaking the SFT Plateau: Multimodal Structured Reinforcement Learning for Chart-to-Code Generation](multimodal_vlm/breaking_the_sft_plateau_multimodal_structured_reinforcement_learning_for_chart-.md)**
+
+:   针对图表到代码生成任务中SFT的性能瓶颈问题，提出多模态结构化强化学习（MSRL），通过文本+视觉双层奖励函数和两阶段RL策略，在ChartMimic和ReachQA上分别提升6.2%和9.9%的高层指标，达到开源SOTA并媲美GPT-4o。
 
 **[Can Vision-Language Models Answer Face to Face Questions in the Real-World?](multimodal_vlm/can_vision-language_models_answer_face_to_face_questions_in_the_real-world.md)**
 
@@ -871,11 +875,77 @@ item_total: 1529
 
 :   提出 AttWarp，一种即插即用的测试时图像变形方法，利用 MLLM 自身的跨模态注意力图进行矩形网格重采样，
 
-**[Contamination Detection for VLMs using Multi-Modal Semantic Perturbation](multimodal_vlm/contamination_detection_for_vlms_using_multi-modal_semantic_perturbation.md)**
+[查看全部61篇「多模态 VLM」论文 →](multimodal_vlm/)
 
-:   提出多模态语义扰动框架检测VLM数据污染：用LLM生成密集描述 + Flux ControlNet在保持图像构图的同时改变答案相关语义元素，污染模型因记忆原始图文对而在扰动版本上表现骤降，干净模型则因真正推理能力而不受影响。首次系统验证现有LLM污染检测方法在VLM场景下大多不可靠。
+---
 
-[查看全部85篇「多模态 VLM」论文 →](multimodal_vlm/)
+## 🧠 VLM Reasoning (23) { #vlm_reasoning }
+
+**[DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage](vlm_reasoning/diva-grpo_enhancing_multimodal_reasoning_through_difficulty-adaptive_variant_adv.md)**
+
+:   提出 DIVA-GRPO，通过动态评估问题难度、自适应生成不同难度的语义一致变体、并结合难度加权的局部-全局 advantage 估计，解决 GRPO 训练中的 reward sparsity 和 advantage vanishing 问题，在 7B 规模模型上实现 SOTA 多模态推理性能。
+
+**[Empowering Small VLMs to Think with Dynamic Memorization and Exploration](vlm_reasoning/empowering_small_vlms_to_think_with_dynamic_memorization_and_exploration.md)**
+
+:   提出 DyME（Dynamic Memorize-Explore），通过逐步动态切换 SFT 记忆模式与 GRPO 探索模式，首次赋予小规模视觉语言模型（<1B 参数）在特定任务上的思维推理能力。
+
+**[Evaluating VLMs' Spatial Reasoning Over Robot Motion: A Step Towards Robot Planning with Motion Preferences](vlm_reasoning/evaluating_vlms_spatial_reasoning_over_robot_motion_a_step_towards_robot_plannin.md)**
+
+:   系统评估了 VLM 对机器人运动路径的空间推理能力，提出 4 种图像查询方法用于让 VLM 根据用户自然语言描述选择最佳运动路径，发现 Qwen2.5-VL 零样本准确率达 71.4%，且微调后小模型可获显著提升。
+
+**[FRIEDA: Benchmarking Multi-Step Cartographic Reasoning in Vision-Language Models](vlm_reasoning/frieda_benchmarking_multi-step_cartographic_reasoning_in_vision-language_models.md)**
+
+:   提出 FRIEDA 基准，系统评估大型视觉语言模型在多步骤、跨地图的制图推理能力，发现最强模型 Gemini-2.5-Pro 准确率仅 38.20%，远低于人类 84.87%。
+
+**[GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models](vlm_reasoning/gtr-bench_evaluating_geo-temporal_reasoning_in_vision-language_mod.md)**
+
+:   提出 GTR-Bench，一个面向大规模摄像头网络中移动目标地理时空推理的新基准，评估发现最强模型 Gemini-2.5-Pro（34.9%）远落后于人类水平（78.61%），揭示了当前 VLM 在时空上下文利用失衡、时序预测能力弱、地图-视频对齐能力不足三大缺陷。
+
+**[Let's Think in Two Steps: Mitigating Agreement Bias in MLLMs with Self-Grounded Verification](vlm_reasoning/lets_think_in_two_steps_mitigating_agreement_bias_in_mllms_with_self-grounded_ve.md)**
+
+:   本文发现多模态大语言模型（MLLM）作为 agent 行为验证器时存在严重的"同意偏差"（agreement bias）——系统性地过度认可 agent 行为，并提出 Self-Grounded Verification（SGV）方法，通过两步生成（先提取行为先验、再条件化验证）缓解该偏差，在 web 导航、桌面操作和机器人操控任务中将失败检测率提升最高 25pp、准确率提升 14pp。
+
+**[MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning](vlm_reasoning/mmr-life_piecing_together_real-life_scenes_for_multimodal_multi-image_reasoning.md)**
+
+:   提出 MMR-Life 基准（2646 道 5 选 1 多图选择题，基于 19108 张真实图像，覆盖 7 种推理类型和 21 个任务），首次系统评估 MLLM 在真实生活场景中的多图推理能力，发现最强模型 GPT-5 仅 58.69% 准确率，距人类水平差 14%，并揭示了推理增强方法在大模型上失效、RL 泛化弱于 BoN 等关键发现。
+
+**[OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](vlm_reasoning/omnispatial_towards_comprehensive_spatial_reasoning_benchmark_for_vision_languag.md)**
+
+:   基于认知心理学构建OmniSpatial——首个全面空间推理基准，系统覆盖动态推理、复杂空间逻辑、空间交互和透视转换4大维度50个子类别共8.4K人工标注QA对，让o3最强推理模型仅达56.33%而人类达92.63%→揭示复杂空间推理仍是VLM的核心瓶颈。
+
+**[Reasoning-Driven Multimodal LLM for Domain Generalization](vlm_reasoning/reasoning-driven_multimodal_llm_for_domain_generalization.md)**
+
+:   提出 RD-MLDG——首个将 MLLM 推理链引入域泛化的框架。构建 DomainBed-Reasoning 数据集，系统分析推理监督的两大挑战（优化困难 + 推理模式不匹配），通过 MTCT（多任务交叉训练）与 SARR（自对齐推理正则化）协同解决，在 4 个标准 DG 基准上以 86.89% 的平均准确率大幅超越 GPT-4o（83.46%）和所有 CLIP/ViT 方法。
+
+**[Ref-Adv: Exploring MLLM Visual Reasoning in Referring Expression Tasks](vlm_reasoning/ref-adv_exploring_mllm_visual_reasoning_in_referring_expression_tasks.md)**
+
+:   提出 Ref-Adv 基准数据集，通过 **硬干扰物配对 + LLM 辅助最小充分表达式生成 + 三人一致性人工验证** 的流水线，构建了一个消除"定位捷径"的现代 REC 基准，在该基准上 13 个当代 MLLM（包括 GPT-4o、Gemini 2.5、Qwen2.5-VL-72B 等）的准确率从 RefCOCO(+/g) 上的 90%+ 大幅下降至 50-68%，系统暴露了模型在复杂视觉推理和真实定位能力上的严重不足。
+
+[查看全部23篇「VLM Reasoning」论文 →](vlm_reasoning/)
+
+---
+
+## ⚡ VLM Efficiency (5) { #vlm_efficiency }
+
+**[HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit](vlm_efficiency/hidrop_hierarchical_vision_token_reduction_in_mllms_via_late_injection_concave_p.md)**
+
+:   提出 HiDrop 框架，通过对 MLLM 不同层的功能进行深入分析（浅层=传播器、中层=融合中心、深层=语言推理），设计了 Late Injection（跳过浅层）+ Concave Pyramid Pruning（凹金字塔中层剪枝）+ Early Exit（深层退出）三阶段策略，压缩约 90% 视觉 token 且几乎不损失性能，训练加速 1.72×。
+
+**[Index-Preserving Lightweight Token Pruning for Efficient Document Understanding](vlm_efficiency/index-preserving_lightweight_token_pruning_for_efficient_document_understanding_.md)**
+
+:   在 VLM 视觉编码器之前插入一个仅 203K 参数的二值 patch 分类器剔除文档背景 token，再用 $3 \times 3$ max-pooling 恢复碎片化文本区域并保留原始空间索引，在 Qwen2.5-VL 上实现 40-60% FLOPs 缩减且精度损失不超过 ~5%p。
+
+**[IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning](vlm_efficiency/ivc-prune_revealing_the_implicit_visual_coordinates_in_lvlms_for_vision_token_pr.md)**
+
+:   揭示了LVLM中RoPE位置编码隐式建立的视觉坐标系统（IVC tokens），提出一种训练免的、提示感知的视觉token剪枝策略，在保留IVC tokens和语义前景token的同时，削减约50%视觉token并维持≥99%原始性能。
+
+**[Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models](vlm_efficiency/mixing_importance_with_diversity_joint_optimization_for_kv_cache_compression_in_.md)**
+
+:   发现LVLM中KV Cache存在模态特异和注意力头特异的语义冗余，仅靠重要性选择会丢失语义覆盖，提出MixKV按头自适应混合重要性与多样性分数进行KV Cache压缩，在极端压缩下平均提升5.1%。
+
+**[PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models](vlm_efficiency/ppe_positional_preservation_embedding_for_token_compression_in_multimodal_large_.md)**
+
+:   提出PPE（Positional Preservation Embedding），利用RoPE各维度旋转独立性，将合并token内多个原始位置ID分块编码到不同维度段中，实现单个压缩token携带多个空间/时序位置信息。PPE是零参数、即插即用的通用算子，在55%压缩率下图像任务平均仅降3.6%、在90%压缩率下通过级联压缩仍保持可比性能。
 
 ---
 
@@ -1819,7 +1889,7 @@ item_total: 1529
 
 ---
 
-## 🩺 医疗 NLP (13) { #medical_nlp }
+## 🩺 医疗 LLM (13) { #medical_nlp }
 
 **[ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue](medical_nlp/atpo_adaptive_tree_policy_optimization_for_multi-turn_medical_dialogue.md)**
 
@@ -1861,7 +1931,7 @@ item_total: 1529
 
 :   构建了首个统一的生物医学数据科学 Agent 训练环境 MedAgentGym，包含 72,413 个任务实例（覆盖 12 个真实场景、129 个类别），配备可执行沙盒和可验证 ground truth，系统基准评估 29 个 LLM 揭示商业/开源差距，并通过高效多线程轨迹采样 + 离线/在线 RL 训练出 Med-Copilot，分别获得 +43.02%/+45.28% 提升，达到与 GPT-4o 竞争的性能。
 
-[查看全部13篇「医疗 NLP」论文 →](medical_nlp/)
+[查看全部13篇「医疗 LLM」论文 →](medical_nlp/)
 
 ---
 

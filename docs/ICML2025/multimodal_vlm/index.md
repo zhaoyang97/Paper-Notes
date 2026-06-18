@@ -1,19 +1,17 @@
 ---
 title: >-
-  ICML2025 多模态VLM论文汇总 · 50篇论文解读
+  ICML2025 多模态VLM论文汇总 · 42篇论文解读
 description: >-
-  50篇ICML2025的多模态 VLM 方向论文解读，涵盖多模态、推理、对齐/RLHF、LLM、扩散模型、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  42篇ICML2025的多模态 VLM 方向论文解读，涵盖多模态、对齐/RLHF、LLM、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2025"
   - "多模态 VLM"
   - "论文解读"
   - "论文笔记"
   - "多模态"
-  - "推理"
   - "对齐/RLHF"
   - "LLM"
-  - "扩散模型"
-  - "机器人"
+  - "对抗鲁棒"
 item_list:
   - u: "cocoa-mix_confusion-and-confidence-aware_mixture_model_for_context_optimization/"
     t: "CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization"
@@ -23,12 +21,8 @@ item_list:
     t: "Context is Key: A Benchmark for Forecasting with Essential Textual Information"
   - u: "core_knowledge_deficits_in_multi-modal_language_models/"
     t: "Core Knowledge Deficits in Multi-Modal Language Models"
-  - u: "corematching_a_co-adaptive_sparse_inference_framework_with_token_and_neuron_prun/"
-    t: "CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models"
   - u: "diffuse_everything_multimodal_diffusion_models_on_arbitrary_state_spaces/"
     t: "Diffuse Everything: Multimodal Diffusion Models on Arbitrary State Spaces"
-  - u: "diffusion-vla_generalizable_and_interpretable_robot_foundation_model_via_self-ge/"
-    t: "Diffusion-VLA: Generalizable and Interpretable Robot Foundation Model via Self-Generated Reasoning"
   - u: "do_vision-language_models_really_understand_visual_language/"
     t: "Do Vision-Language Models Really Understand Visual Language?"
   - u: "dynamic_mixture_of_curriculum_lora_experts_for_continual_multimodal_instruction_/"
@@ -67,25 +61,29 @@ item_list:
     t: "M3-JEPA: Multimodal Alignment via Multi-gate MoE based on JEPA"
   - u: "mmedpo_aligning_medical_vision-language_models_with_clinical-aware_multimodal_pr/"
     t: "MMedPO: Aligning Medical Vision-Language Models with Clinical-Aware Multimodal Preference Optimization"
-  - u: "mminference_accelerating_pre-filling_for_long-context_vlms_via_modality-aware_pe/"
-    t: "MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention"
   - u: "moda_modular_duplex_attention_for_multimodal_perception_cognition_and_emotion_un/"
     t: "MODA: MOdular Duplex Attention for Multimodal Perception, Cognition, and Emotion Understanding"
   - u: "omnibal_towards_fast_instruction-tuning_for_vision-language_models_via_omniverse/"
     t: "OmniBal: Towards Fast Instruction-Tuning for Vision-Language Models via Omniverse Computation Balance"
-  - u: "overcoming_multi-step_complexity_in_multimodal_theory-of-mind_reasoning_a_scalab/"
-    t: "Overcoming Multi-step Complexity in Multimodal Theory-of-Mind Reasoning: A Scalable Bayesian Planner"
-item_total: 50
+  - u: "parrot_multilingual_visual_instruction_tuning/"
+    t: "Parrot: Multilingual Visual Instruction Tuning"
+  - u: "ranked_from_within_ranking_large_multimodal_models_without_labels/"
+    t: "Ranked from Within: Ranking Large Multimodal Models Without Labels"
+  - u: "robust_multimodal_large_language_models_against_modality_conflict/"
+    t: "Robust Multimodal Large Language Models Against Modality Conflict"
+  - u: "rollingq_reviving_the_cooperation_dynamics_in_multimodal_transformer/"
+    t: "RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer"
+item_total: 42
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🧪 ICML2025** · **50** 篇论文解读
+**🧪 ICML2025** · **42** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (533)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (99)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (94)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (85)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (84)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (139)](../../NeurIPS2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (404)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (76)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (79)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (61)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md)
 
-🔥 **高频主题：** 多模态 ×33 · 推理 ×5 · 对齐/RLHF ×5 · LLM ×3 · 扩散模型 ×2
+🔥 **高频主题：** 多模态 ×28 · 对齐/RLHF ×5 · LLM ×2 · 对抗鲁棒 ×2
 
 **[CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization](cocoa-mix_confusion-and-confidence-aware_mixture_model_for_context_optimization.md)**
 
@@ -103,17 +101,9 @@ item_total: 50
 
 :   提出 CoreCognition 基准（12种核心认知能力、1503题），大规模评测230个MLLM后发现：模型在基础认知能力上系统性落后于人类，且随规模增大并未改善，而是更依赖捷径学习而非真正理解。
 
-**[CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models](corematching_a_co-adaptive_sparse_inference_framework_with_token_and_neuron_prun.md)**
-
-:   首次揭示 VLM 中 token 稀疏与神经元稀疏之间的内在关联——核心神经元与核心 token 相互决定、相互强化，并据此提出 CoreMatching 协同稀疏推理框架，在 pre-filling 和 decoding 两阶段同时实现加速，达到 5× FLOPs 降低和 10× 整体加速。
-
 **[Diffuse Everything: Multimodal Diffusion Models on Arbitrary State Spaces](diffuse_everything_multimodal_diffusion_models_on_arbitrary_state_spaces.md)**
 
 :   提出了一个在任意状态空间上构建多模态扩散模型的统一框架，通过为每种模态引入独立的解耦噪声调度（decoupled noise schedule），在单个模型中同时实现无条件生成和模态条件生成，无需外部的 tokenizer 或 VAE 预处理。
-
-**[Diffusion-VLA: Generalizable and Interpretable Robot Foundation Model via Self-Generated Reasoning](diffusion-vla_generalizable_and_interpretable_robot_foundation_model_via_self-ge.md)**
-
-:   提出 DiffusionVLA (DiVLA)，将自回归 VLM 的推理能力与扩散模型的动作生成能力统一到一个端到端框架中，通过推理注入模块（Reasoning Injection Module）将自生成的语言推理直接嵌入策略学习过程，实现了对未见物体的泛化分类、可解释的动作决策以及高速推理（2B 模型 82Hz）。
 
 **[Do Vision-Language Models Really Understand Visual Language?](do_vision-language_models_really_understand_visual_language.md)**
 
@@ -191,10 +181,6 @@ item_total: 50
 
 :   本文提出 MMedPO，一种临床感知的多模态医学偏好优化方法，通过注入可信幻觉和局部病灶加噪构建多模态偏好数据，利用多个医学 LLM 协作评估临床相关性作为加权信号融入 DPO 训练，在 Med-VQA 和报告生成任务上分别平均提升 14.2% 和 51.7%。
 
-**[MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention](mminference_accelerating_pre-filling_for_long-context_vlms_via_modality-aware_pe.md)**
-
-:   本文提出 MMInference，通过“模态感知的置换稀疏注意力 + 头级离线模式搜索 + 在线动态索引 + 定制 GPU Kernel”，在不改模型不微调的前提下，将长上下文 VLM 的 prefill 阶段在 1M token 场景最高加速到 8.3x，同时尽量保持任务精度。
-
 **[MODA: MOdular Duplex Attention for Multimodal Perception, Cognition, and Emotion Understanding](moda_modular_duplex_attention_for_multimodal_perception_cognition_and_emotion_un.md)**
 
 :   针对多模态大语言模型中跨模态注意力不一致与逐层衰减的"注意力缺失障碍"问题，提出模块化双工注意力机制MODA，通过将注意力解耦为模态内自精炼与模态间交互两路，并借助Duplex Aligner和自适应掩码注意力实现"先对齐再校正"的策略，在21个感知、认知与情感基准上验证了有效性。
@@ -203,10 +189,6 @@ item_total: 50
 
 :   针对大规模视觉语言模型 instruction-tuning 训练中因数据和模型异构性导致的计算不平衡问题，提出 OmniBal 框架从数据、模型、内存三个层面系统性平衡跨设备计算负载，在 InternVL-Chat 上实现约 1.8× 训练加速。
 
-**[Overcoming Multi-step Complexity in Multimodal Theory-of-Mind Reasoning: A Scalable Bayesian Planner](overcoming_multi-step_complexity_in_multimodal_theory-of-mind_reasoning_a_scalab.md)**
-
-:   提出一种可扩展的贝叶斯心智理论（ToM）规划器，通过将多步推理分解为逐步贝叶斯更新，并利用弱到强控制机制将小模型的 ToM 专项能力迁移至大模型（最高 405B），在多模态 ToM 基准上超越 SOTA 4.6%。
-
 **[Parrot: Multilingual Visual Instruction Tuning](parrot_multilingual_visual_instruction_tuning.md)**
 
 :   提出 Parrot，通过文本引导的跨注意力机制和 MoE 模块将英语偏置的视觉特征转换为语言特定表示，以极少量多语言数据（每种语言约 10K 样本）显著提升 MLLM 的多语言能力。
@@ -214,14 +196,6 @@ item_total: 50
 **[Ranked from Within: Ranking Large Multimodal Models Without Labels](ranked_from_within_ranking_large_multimodal_models_without_labels.md)**
 
 :   系统研究能否在无标签场景下预测 LMM 的相对性能，评估 47 个 SOTA LMM 在 9 个 VQA 基准上的表现，发现基于 softmax 分布的不确定性指标能提供稳健的无监督模型排名（与真实排名 Spearman 相关 $\rho=0.92$）。
-
-**[Re-ranking Reasoning Context with Tree Search Makes Large Vision-Language Models Stronger](re-ranking_reasoning_context_with_tree_search_makes_large_vision-language_models.md)**
-
-:   提出 RCTS 框架，通过自一致性评估机制构建推理上下文丰富的知识库，并用带启发式奖励的蒙特卡罗树搜索（MCTS-HR）重排检索示例，使 LVLM 在多个 VQA 数据集上显著超越 ICL 和 Vanilla-RAG 方法（平均 +3-4%）。
-
-**[Reasoning Limitations of Multimodal Large Language Models. A Case Study of Bongard Problems](reasoning_limitations_of_multimodal_large_language_models_a_case_study_of_bongar.md)**
-
-:   系统评估4个闭源+4个开源MLLM在经典合成Bongard Problems、Bongard HOI、Bongard-OpenWorld三个数据集上的抽象视觉推理能力，提出7种解题策略和新数据集Bongard-RWR（用真实图像表达合成BP概念），揭示MLLM在合成BP上的极差表现并非因域差异而是固有的抽象推理局限。
 
 **[Robust Multimodal Large Language Models Against Modality Conflict](robust_multimodal_large_language_models_against_modality_conflict.md)**
 
@@ -234,10 +208,6 @@ item_total: 50
 **[SK-VQA: Synthetic Knowledge Generation at Scale for Training Context-Augmented Multimodal LLMs](sk-vqa_synthetic_knowledge_generation_at_scale_for_training_context-augmented_mu.md)**
 
 :   利用 GPT-4 全自动生成包含 200 万+ QA 对的大规模合成 KB-VQA 数据集 SK-VQA，训练 MLLM 适配上下文增强生成，在跨域泛化性能上显著优于已有数据集。
-
-**[SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference](sparsevlm_visual_token_sparsification_for_efficient_vision-language_model_infere.md)**
-
-:   SparseVLM 提出了首个文本引导的免训练视觉 token 稀疏化框架，通过选择与视觉相关的文本 token 作为"评分者"来评估视觉 token 的重要性，结合自适应剪枝比率和 token 回收机制，在 LLaVA 上仅保留 192 个 token（减少 66.7%）时维持 99.1% 的原始性能。
 
 **[Streamline Without Sacrifice — Squeeze out Computation Redundancy in LMM](streamline_without_sacrifice_--_squeeze_out_computation_redundancy_in_lmm.md)**
 
@@ -282,7 +252,3 @@ item_total: 50
 **[What Limits Virtual Agent Application? OmniBench: A Scalable Multi-Dimensional Benchmark for Essential Virtual Agent Capabilities](what_limits_virtual_agent_application_omnibench_a_scalable_multi-dimensional_ben.md)**
 
 :   本文提出 OmniBench——一个基于图结构的可扩展虚拟 Agent 基准，通过自动化流水线合成可控复杂度的任务，配合 OmniEval 多维评估框架，在 20 个应用场景中生成 36K 个任务，系统揭示了虚拟 Agent 在不同能力维度上的短板。
-
-**[Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas](why_is_spatial_reasoning_hard_for_vlms_an_attention_mechanism_perspective_on_foc.md)**
-
-:   从机制可解释性视角研究 VLM 空间推理失败的原因，发现图像 token 虽占输入 90% 但仅获 10% 注意力，且注意力的几何分布才是关键；提出 AdaptVis——基于推理时置信度自适应调整图像注意力温度的无训练解码方法，在 WhatsUp 上实现高达 50% 绝对提升。

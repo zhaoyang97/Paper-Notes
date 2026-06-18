@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ICML2026 论文笔记 TODO
 
-总计 1463 篇笔记，已完成 1463 篇，待更新 0 篇
+总计: 1455 篇 | 已完成: 1455 | 待更新: 0
 
 ---
 
@@ -113,7 +113,6 @@
 - [x] [autorpa efficient gui automation through llm-driven code synthesis from interact](llm_agent/autorpa_efficient_gui_automation_through_llm-driven_code_synthesis_from_interact.md) | arXiv: 2605.21082
 - [x] [avatar learning to align via active optimal transport](3d_vision/avatar_learning_to_align_via_active_optimal_transport.md) | arXiv: 2605.24395
 - [x] [avtrack audio-visual tracking in human-centric complex scenes](video_understanding/avtrack_audio-visual_tracking_in_human-centric_complex_scenes.md) | arXiv: 2606.02724
-- [x] [bad seeing or bad thinking rewarding perception for vision-language reasoning](multimodal_vlm/bad_seeing_or_bad_thinking_rewarding_perception_for_vision-language_reasoning.md) | arXiv: 2605.14054
 - [x] [balanced lora removing parameter invariance to accelerate convergence](optimization/balanced_lora_removing_parameter_invariance_to_accelerate_convergence.md) | arXiv: 2605.31484
 - [x] [balancing fidelity and diversity in diffusion models via symmetric attention dec](image_generation/balancing_fidelity_and_diversity_in_diffusion_models_via_symmetric_attention_dec.md) | arXiv: 2605.27476
 - [x] [balancing learning rates across layers exact two-step dynamics and optimal scali](optimization/balancing_learning_rates_across_layers_exact_two-step_dynamics_and_optimal_scali.md) | arXiv: 2606.00340
@@ -384,7 +383,6 @@
 - [x] [efficient learned image compression without entropy coding](model_compression/efficient_learned_image_compression_without_entropy_coding.md) | arXiv: 2605.23323
 - [x] [efficient learning of deep state space models via importance smoothing](image_generation/efficient_learning_of_deep_state_space_models_via_importance_smoothing.md) | arXiv: 2605.21108
 - [x] [efficient preference poisoning attack on offline rlhf](llm_alignment/efficient_preference_poisoning_attack_on_offline_rlhf.md) | arXiv: 2605.02495
-- [x] [efficient reasoning with hidden thinking](multimodal_vlm/efficient_reasoning_with_hidden_thinking.md) | arXiv: 2501.19201
 - [x] [efficient training-free multi-token prediction via embedding-space probing](llm_efficiency/efficient_training-free_multi-token_prediction_via_embedding-space_probing.md) | arXiv: 2603.17942
 - [x] [efficient validation-free intrinsic quality estimation for large-scale face reco](human_understanding/efficient_validation-free_intrinsic_quality_estimation_for_large-scale_face_reco.md) | arXiv: 2605.29720
 - [x] [ekka automated diagnosis of silent errors in llm inference](llm_efficiency/ekka_automated_diagnosis_of_silent_errors_in_llm_inference.md) | arXiv: 2606.04594
@@ -450,7 +448,6 @@
 - [x] [fedrot-lora mitigating rotational misalignment in federated lora](model_compression/fedrot-lora_mitigating_rotational_misalignment_in_federated_lora.md) | arXiv: 2602.23638
 - [x] [fedsdr federated self-distillation with rectification](model_compression/fedsdr_federated_self-distillation_with_rectification.md) | arXiv: 2605.18028
 - [x] [fedtreelora reconciling statistical and functional heterogeneity in federated lo](llm_safety/fedtreelora_reconciling_statistical_and_functional_heterogeneity_in_federated_lo.md) | arXiv: 2603.13282
-- [x] [find fix reason context repair for video reasoning](multimodal_vlm/find_fix_reason_context_repair_for_video_reasoning.md) | arXiv: 2604.16243
 - [x] [finding dori discovery of retained images in diffusion models](image_generation/finding_dori_discovery_of_retained_images_in_diffusion_models.md) | arXiv: 2507.16880
 - [x] [finding the correct visual evidence without forgetting mitigating hallucination ](hallucination/finding_the_correct_visual_evidence_without_forgetting_mitigating_hallucination_.md) | arXiv: 2605.20965
 - [x] [finding the minimal parameter budget for implicit reasoning a data complexity dr](graph_learning/finding_the_minimal_parameter_budget_for_implicit_reasoning_a_data_complexity_dr.md) | arXiv: 2504.03635
@@ -513,7 +510,6 @@
 - [x] [furina fragmented uncertainty-driven refusal instability attack](multimodal_vlm/furina_fragmented_uncertainty-driven_refusal_instability_attack.md) | arXiv: 2605.26158
 - [x] [game of thought robust information seeking with large language models using game](reinforcement_learning/game_of_thought_robust_information_seeking_with_large_language_models_using_game.md) | arXiv: 2602.01708
 - [x] [gass geometry-aware spherical sampling for disentangled diversity enhancement in](image_generation/gass_geometry-aware_spherical_sampling_for_disentangled_diversity_enhancement_in.md) | arXiv: 2602.17200
-- [x] [gated relational alignment via confidence-based distillation for efficient vlms](multimodal_vlm/gated_relational_alignment_via_confidence-based_distillation_for_efficient_vlms.md) | arXiv: 2601.22709
 - [x] [gcib graph contrastive information bottleneck for multi-behavior recommendation](recommender/gcib_graph_contrastive_information_bottleneck_for_multi-behavior_recommendation.md) | arXiv: 2605.25690
 - [x] [gem geometric entropy mixing for optimal llm data curation](interpretability/gem_geometric_entropy_mixing_for_optimal_llm_data_curation.md) | arXiv: 2605.26121
 - [x] [gem-fi gated evidential mixtures with fisher modulation](ai_safety/gem-fi_gated_evidential_mixtures_with_fisher_modulation.md) | arXiv: 2605.03750
@@ -683,7 +679,6 @@
 - [x] [learning from fine-grained visual discrepancies mitigating multimodal hallucinat](hallucination/learning_from_fine-grained_visual_discrepancies_mitigating_multimodal_hallucinat.md) | arXiv: 2605.31312
 - [x] [learning general causal structures with hidden dynamic process for climate analy](image_generation/learning_general_causal_structures_with_hidden_dynamic_process_for_climate_analy.md) | arXiv: 2501.12500
 - [x] [learning graph foundation models on riemannian graph-of-graphs](self_supervised/learning_graph_foundation_models_on_riemannian_graph-of-graphs.md) | arXiv: 2605.09993
-- [x] [learning gui grounding with spatial reasoning from visual feedback](multimodal_vlm/learning_gui_grounding_with_spatial_reasoning_from_visual_feedback.md) | arXiv: 2509.21552
 - [x] [learning in structured stackelberg games](reinforcement_learning/learning_in_structured_stackelberg_games.md) | arXiv: 2504.09006
 - [x] [learning locally revising globally global reviser for federated learning with no](optimization/learning_locally_revising_globally_global_reviser_for_federated_learning_with_no.md) | arXiv: 2412.00452
 - [x] [learning long range spatio-temporal representations over continuous time dynamic](time_series/learning_long_range_spatio-temporal_representations_over_continuous_time_dynamic.md) | arXiv: 2606.04672
@@ -1208,7 +1203,6 @@
 - [x] [spatialreward bridging the perception gap in online rl for image editing via exp](image_generation/spatialreward_bridging_the_perception_gap_in_online_rl_for_image_editing_via_exp.md) | arXiv: 2602.07458
 - [x] [specprune-vla accelerating vision-language-action models via action-aware self-s](robotics/specprune-vla_accelerating_vision-language-action_models_via_action-aware_self-s.md) | arXiv: 2509.05614
 - [x] [spectral guidance for flexible and efficient control of diffusion models](image_generation/spectral_guidance_for_flexible_and_efficient_control_of_diffusion_models.md) | arXiv: 2605.28900
-- [x] [spectral-progressive thought flow for lightweight multimodal reasoning](multimodal_vlm/spectral-progressive_thought_flow_for_lightweight_multimodal_reasoning.md) | arXiv: 2606.02842
 - [x] [speculative coupled decoding for training-free lossless acceleration of autoregr](image_generation/speculative_coupled_decoding_for_training-free_lossless_acceleration_of_autoregr.md) | arXiv: 2510.24211
 - [x] [speculative sampling for faster molecular dynamics](physics/speculative_sampling_for_faster_molecular_dynamics.md) | arXiv: 2606.02455
 - [x] [speed-bench a unified and diverse benchmark for speculative decoding](model_compression/speed-bench_a_unified_and_diverse_benchmark_for_speculative_decoding.md) | arXiv: 2604.09557
@@ -1408,7 +1402,6 @@
 - [x] [veda scalable video diffusion via distilled sparse attention](video_generation/veda_scalable_video_diffusion_via_distilled_sparse_attention.md) | arXiv: 2605.30325
 - [x] [verified shap provable bounds for exact shapley values of neural networks](interpretability/verified_shap_provable_bounds_for_exact_shapley_values_of_neural_networks.md) | arXiv: 2605.24084
 - [x] [verifying meta-awareness via predictive rewards in reasoning models](llm_reasoning/verifying_meta-awareness_via_predictive_rewards_in_reasoning_models.md) | arXiv: 2510.03259
-- [x] [very efficient listwise multimodal reranking for long documents](information_retrieval/very_efficient_listwise_multimodal_reranking_for_long_documents.md) | arXiv: 2605.11864
 - [x] [video-mtr reinforced multi-turn reasoning for long video understanding](video_understanding/video-mtr_reinforced_multi-turn_reasoning_for_long_video_understanding.md) | arXiv: 2508.20478
 - [x] [video2gui synthesizing large-scale interaction trajectories for generalized gui ](llm_agent/video2gui_synthesizing_large-scale_interaction_trajectories_for_generalized_gui_.md) | arXiv: 2605.14747
 - [x] [videoseal mitigating evidence misalignment in agentic long video understanding b](video_understanding/videoseal_mitigating_evidence_misalignment_in_agentic_long_video_understanding_b.md) | arXiv: 2605.12571
@@ -1417,7 +1410,6 @@
 - [x] [viewmask-1-to-3 multi-view consistent image generation via multimodal discrete d](image_generation/viewmask-1-to-3_multi-view_consistent_image_generation_via_multimodal_discrete_d.md) | arXiv: 2512.14099
 - [x] [vision language models cannot reason about physical transformation](multimodal_vlm/vision_language_models_cannot_reason_about_physical_transformation.md) | arXiv: 2603.07109
 - [x] [vision transformer finetuning benefits from non-smooth components](others/vision_transformer_finetuning_benefits_from_non-smooth_components.md) | arXiv: 2602.06883
-- [x] [vision-aligned latent reasoning for multi-modal large language model](multimodal_vlm/vision-aligned_latent_reasoning_for_multi-modal_large_language_model.md) | arXiv: 2602.04476
 - [x] [visionpulse dynamic visual sparsity for efficient multimodal reasoning](multimodal_vlm/visionpulse_dynamic_visual_sparsity_for_efficient_multimodal_reasoning.md) | arXiv: 2605.31457
 - [x] [visual implicit autoregressive modeling](image_generation/visual_implicit_autoregressive_modeling.md) | arXiv: 2605.01220
 - [x] [visual persuasion what influences decisions of vision-language models](multimodal_vlm/visual_persuasion_what_influences_decisions_of_vision-language_models.md) | arXiv: 2602.15278

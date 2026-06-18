@@ -83,7 +83,7 @@ item_total: 92
 
 **🧪 ICML2025** · **92** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (449)](../../CVPR2026/image_generation/index.md) · [🧪 ICML2026 (125)](../../ICML2026/image_generation/index.md) · [💬 ACL2026 (5)](../../ACL2026/image_generation/index.md) · [🔬 ICLR2026 (138)](../../ICLR2026/image_generation/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (221)](../../NeurIPS2025/image_generation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (451)](../../CVPR2026/image_generation/index.md) · [🧪 ICML2026 (125)](../../ICML2026/image_generation/index.md) · [💬 ACL2026 (5)](../../ACL2026/image_generation/index.md) · [🔬 ICLR2026 (138)](../../ICLR2026/image_generation/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (221)](../../NeurIPS2025/image_generation/index.md)
 
 🔥 **高频主题：** 扩散模型 ×38 · 对齐/RLHF ×4 · 对抗鲁棒 ×3 · 模型压缩 ×3 · 图像恢复 ×3
 

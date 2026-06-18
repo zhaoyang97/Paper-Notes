@@ -2,7 +2,7 @@
 title: >-
   ICML2025 论文汇总 · 1061篇论文解读，每篇5分钟读懂核心思想
 description: >-
-  1061篇ICML2025论文解读，涵盖图像生成(92篇)、模型压缩(74篇)、强化学习(70篇)、优化/理论(61篇)、多模态 VLM(50篇)、计算生物(48篇)、LLM 安全(41篇)、AI 安全(37篇)等 48个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1061篇ICML2025论文解读，涵盖图像生成(92篇)、模型压缩(74篇)、强化学习(70篇)、优化/理论(61篇)、计算生物(48篇)、多模态 VLM(42篇)、LLM 安全(41篇)、AI 安全(37篇)等 50个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2025"
   - "ICML2025论文汇总"
@@ -14,8 +14,8 @@ tags:
   - "模型压缩"
   - "强化学习"
   - "优化/理论"
-  - "多模态 VLM"
   - "计算生物"
+  - "多模态 VLM"
   - "LLM 安全"
   - "AI 安全"
 item_list:
@@ -85,13 +85,13 @@ item_total: 1061
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧪 ICML2025 论文汇总
 
-1061篇ICML2025论文解读，涵盖图像生成(92篇)、模型压缩(74篇)、强化学习(70篇)、优化/理论(61篇)、多模态 VLM(50篇)、计算生物(48篇)、LLM 安全(41篇)、AI 安全(37篇)等 48个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1061篇ICML2025论文解读，涵盖图像生成(92篇)、模型压缩(74篇)、强化学习(70篇)、优化/理论(61篇)、计算生物(48篇)、多模态 VLM(42篇)、LLM 安全(41篇)、AI 安全(37篇)等 50个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
 ---
 
-## 💡 LLM 推理 (19) { #llm_reasoning }
+## 💡 LLM Reasoning (19) { #llm_reasoning }
 
 **[Ad-Hoc Human-AI Coordination Challenge (AH2AC2)](llm_reasoning/ad-hoc_human-ai_coordination_challenge.md)**
 
@@ -133,7 +133,7 @@ item_total: 1061
 
 :   本文证明所有当前最先进的神经网络验证器都只提供"理论健全性"（约束全精度输出）而非"实际健全性"（约束部署环境中的浮点输出），并通过构造环境敏感的对抗性后门网络，实证验证了所有测试验证器均可被欺骗。
 
-[查看全部19篇「LLM 推理」论文 →](llm_reasoning/)
+[查看全部19篇「LLM Reasoning」论文 →](llm_reasoning/)
 
 ---
 
@@ -183,7 +183,7 @@ item_total: 1061
 
 ---
 
-## 👥 多智能体 (7) { #multi_agent }
+## 👥 Multi-Agent (7) { #multi_agent }
 
 **[AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML](multi_agent/automl-agent_a_multi-agent_llm_framework_for_full-pipeline_automl.md)**
 
@@ -701,7 +701,7 @@ item_total: 1061
 
 ---
 
-## 🧩 多模态 VLM (50) { #multimodal_vlm }
+## 🧩 多模态 VLM (42) { #multimodal_vlm }
 
 **[CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization](multimodal_vlm/cocoa-mix_confusion-and-confidence-aware_mixture_model_for_context_optimization.md)**
 
@@ -719,17 +719,9 @@ item_total: 1061
 
 :   提出 CoreCognition 基准（12种核心认知能力、1503题），大规模评测230个MLLM后发现：模型在基础认知能力上系统性落后于人类，且随规模增大并未改善，而是更依赖捷径学习而非真正理解。
 
-**[CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models](multimodal_vlm/corematching_a_co-adaptive_sparse_inference_framework_with_token_and_neuron_prun.md)**
-
-:   首次揭示 VLM 中 token 稀疏与神经元稀疏之间的内在关联——核心神经元与核心 token 相互决定、相互强化，并据此提出 CoreMatching 协同稀疏推理框架，在 pre-filling 和 decoding 两阶段同时实现加速，达到 5× FLOPs 降低和 10× 整体加速。
-
 **[Diffuse Everything: Multimodal Diffusion Models on Arbitrary State Spaces](multimodal_vlm/diffuse_everything_multimodal_diffusion_models_on_arbitrary_state_spaces.md)**
 
 :   提出了一个在任意状态空间上构建多模态扩散模型的统一框架，通过为每种模态引入独立的解耦噪声调度（decoupled noise schedule），在单个模型中同时实现无条件生成和模态条件生成，无需外部的 tokenizer 或 VAE 预处理。
-
-**[Diffusion-VLA: Generalizable and Interpretable Robot Foundation Model via Self-Generated Reasoning](multimodal_vlm/diffusion-vla_generalizable_and_interpretable_robot_foundation_model_via_self-ge.md)**
-
-:   提出 DiffusionVLA (DiVLA)，将自回归 VLM 的推理能力与扩散模型的动作生成能力统一到一个端到端框架中，通过推理注入模块（Reasoning Injection Module）将自生成的语言推理直接嵌入策略学习过程，实现了对未见物体的泛化分类、可解释的动作决策以及高速推理（2B 模型 82Hz）。
 
 **[Do Vision-Language Models Really Understand Visual Language?](multimodal_vlm/do_vision-language_models_really_understand_visual_language.md)**
 
@@ -743,7 +735,55 @@ item_total: 1061
 
 :   提出 LSMI（Lightweight Sample-wise Multimodal Interaction）估计器，首次实现了对真实世界连续分布数据的**逐样本级别**多模态交互（冗余、唯一性、协同）精确且高效的量化，并展示了其在数据分区、知识蒸馏和模型集成中的实用价值。
 
-[查看全部50篇「多模态 VLM」论文 →](multimodal_vlm/)
+**[ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language Models for Reward Design in Robotics](multimodal_vlm/elemental_interactive_learning_from_demonstrations_and_vision-language_models_fo.md)**
+
+:   ELEMENTAL 将视觉语言模型 (VLM) 与逆强化学习 (IRL) 融合，通过 VLM 提取特征函数 + IRL 优化权重 + 自我反思迭代改进，在 IsaacGym 9 个任务上比 EUREKA 提升 42.3%。
+
+**[ERL-VLM: Enhancing Rating-Based RL to Leverage Feedback from Large VLMs](multimodal_vlm/enhancing_rating-based_reinforcement_learning_to_effectively_leverage_feedback_f.md)**
+
+:   提出 ERL-VLM，用大型视觉语言模型（VLM）对单条轨迹做绝对评分（rating）而非成对比较（preference），结合分层采样和 MAE 损失解决数据不平衡与噪声标签问题，显著提升 VLM 反馈驱动的奖励函数学习效果。
+
+[查看全部42篇「多模态 VLM」论文 →](multimodal_vlm/)
+
+---
+
+## 🧠 VLM Reasoning (5) { #vlm_reasoning }
+
+**[Diffusion-VLA: Generalizable and Interpretable Robot Foundation Model via Self-Generated Reasoning](vlm_reasoning/diffusion-vla_generalizable_and_interpretable_robot_foundation_model_via_self-ge.md)**
+
+:   提出 DiffusionVLA (DiVLA)，将自回归 VLM 的推理能力与扩散模型的动作生成能力统一到一个端到端框架中，通过推理注入模块（Reasoning Injection Module）将自生成的语言推理直接嵌入策略学习过程，实现了对未见物体的泛化分类、可解释的动作决策以及高速推理（2B 模型 82Hz）。
+
+**[Overcoming Multi-step Complexity in Multimodal Theory-of-Mind Reasoning: A Scalable Bayesian Planner](vlm_reasoning/overcoming_multi-step_complexity_in_multimodal_theory-of-mind_reasoning_a_scalab.md)**
+
+:   提出一种可扩展的贝叶斯心智理论（ToM）规划器，通过将多步推理分解为逐步贝叶斯更新，并利用弱到强控制机制将小模型的 ToM 专项能力迁移至大模型（最高 405B），在多模态 ToM 基准上超越 SOTA 4.6%。
+
+**[Re-ranking Reasoning Context with Tree Search Makes Large Vision-Language Models Stronger](vlm_reasoning/re-ranking_reasoning_context_with_tree_search_makes_large_vision-language_models.md)**
+
+:   提出 RCTS 框架，通过自一致性评估机制构建推理上下文丰富的知识库，并用带启发式奖励的蒙特卡罗树搜索（MCTS-HR）重排检索示例，使 LVLM 在多个 VQA 数据集上显著超越 ICL 和 Vanilla-RAG 方法（平均 +3-4%）。
+
+**[Reasoning Limitations of Multimodal Large Language Models. A Case Study of Bongard Problems](vlm_reasoning/reasoning_limitations_of_multimodal_large_language_models_a_case_study_of_bongar.md)**
+
+:   系统评估4个闭源+4个开源MLLM在经典合成Bongard Problems、Bongard HOI、Bongard-OpenWorld三个数据集上的抽象视觉推理能力，提出7种解题策略和新数据集Bongard-RWR（用真实图像表达合成BP概念），揭示MLLM在合成BP上的极差表现并非因域差异而是固有的抽象推理局限。
+
+**[Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas](vlm_reasoning/why_is_spatial_reasoning_hard_for_vlms_an_attention_mechanism_perspective_on_foc.md)**
+
+:   从机制可解释性视角研究 VLM 空间推理失败的原因，发现图像 token 虽占输入 90% 但仅获 10% 注意力，且注意力的几何分布才是关键；提出 AdaptVis——基于推理时置信度自适应调整图像注意力温度的无训练解码方法，在 WhatsUp 上实现高达 50% 绝对提升。
+
+---
+
+## ⚡ VLM Efficiency (3) { #vlm_efficiency }
+
+**[CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models](vlm_efficiency/corematching_a_co-adaptive_sparse_inference_framework_with_token_and_neuron_prun.md)**
+
+:   首次揭示 VLM 中 token 稀疏与神经元稀疏之间的内在关联——核心神经元与核心 token 相互决定、相互强化，并据此提出 CoreMatching 协同稀疏推理框架，在 pre-filling 和 decoding 两阶段同时实现加速，达到 5× FLOPs 降低和 10× 整体加速。
+
+**[MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention](vlm_efficiency/mminference_accelerating_pre-filling_for_long-context_vlms_via_modality-aware_pe.md)**
+
+:   本文提出 MMInference，通过“模态感知的置换稀疏注意力 + 头级离线模式搜索 + 在线动态索引 + 定制 GPU Kernel”，在不改模型不微调的前提下，将长上下文 VLM 的 prefill 阶段在 1M token 场景最高加速到 8.3x，同时尽量保持任务精度。
+
+**[SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference](vlm_efficiency/sparsevlm_visual_token_sparsification_for_efficient_vision-language_model_infere.md)**
+
+:   SparseVLM 提出了首个文本引导的免训练视觉 token 稀疏化框架，通过选择与视觉相关的文本 token 作为"评分者"来评估视觉 token 的重要性，结合自适应剪枝比率和 token 回收机制，在 LLaVA 上仅保留 192 个 token（减少 66.7%）时维持 99.1% 的原始性能。
 
 ---
 
@@ -1619,7 +1659,7 @@ item_total: 1061
 
 ---
 
-## 🩺 医疗 NLP (4) { #medical_nlp }
+## 🩺 医疗 LLM (4) { #medical_nlp }
 
 **[Agent WARPP: Workflow Adherence via Runtime Parallel Personalization](medical_nlp/agent_warpp_workflow_adherence_via_runtime_parallel_personalization.md)**
 

@@ -2,7 +2,7 @@
 title: >-
   ACL2026 论文汇总 · 1363篇论文解读，每篇5分钟读懂核心思想
 description: >-
-  1363篇ACL2026论文解读，涵盖 LLM 安全(115篇)、多模态 VLM(94篇)、LLM 评测(92篇)、LLM 推理(81篇)、LLM Agent(78篇)、信息检索/RAG(73篇)、音频/语音(68篇)、多语言/翻译(62篇)等 40个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1363篇ACL2026论文解读，涵盖 LLM 安全(115篇)、LLM 评测(92篇)、LLM Reasoning(81篇)、多模态 VLM(79篇)、LLM Agent(78篇)、信息检索/RAG(70篇)、音频/语音(68篇)、可解释性(61篇)等 38个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2026"
   - "ACL2026论文汇总"
@@ -11,13 +11,13 @@ tags:
   - "论文解读"
   - "论文笔记"
   - "LLM 安全"
-  - "多模态 VLM"
   - "LLM 评测"
-  - "LLM 推理"
+  - "LLM Reasoning"
+  - "多模态 VLM"
   - "LLM Agent"
   - "信息检索/RAG"
   - "音频/语音"
-  - "多语言/翻译"
+  - "可解释性"
 item_list:
   - u: "llm_safety/a_linguistics-aware_llm_watermarking_via_syntactic_predictability/"
     t: "STELA: A Linguistics-Aware LLM Watermarking via Syntactic Predictability"
@@ -85,13 +85,13 @@ item_total: 1363
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 ACL2026 论文汇总
 
-1363篇ACL2026论文解读，涵盖 LLM 安全(115篇)、多模态 VLM(94篇)、LLM 评测(92篇)、LLM 推理(81篇)、LLM Agent(78篇)、信息检索/RAG(73篇)、音频/语音(68篇)、多语言/翻译(62篇)等 40个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1363篇ACL2026论文解读，涵盖 LLM 安全(115篇)、LLM 评测(92篇)、LLM Reasoning(81篇)、多模态 VLM(79篇)、LLM Agent(78篇)、信息检索/RAG(70篇)、音频/语音(68篇)、可解释性(61篇)等 38个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
 ---
 
-## 💡 LLM 推理 (81) { #llm_reasoning }
+## 💡 LLM Reasoning (81) { #llm_reasoning }
 
 **[Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication](llm_reasoning/accurate_legal_reasoning_at_scale_neuro-symbolic_offloading_and_structural_audit.md)**
 
@@ -133,7 +133,7 @@ item_total: 1363
 
 :   CoAct 在偏好对齐中用自一致性把无标注样本切成"高一致 / 低一致"两堆，再用 k-NN 距离从高一致样本里挑出"自洽但可能错"的隐患样本送给 Oracle 标注，剩下的高一致样本直接当 AI 自标数据，最后用 oracle-verified 样本做 in-context demo 生成新指令，把人和 AI 的监督在一个 DPO 循环里捏成一团，在 GSM8K/MATH/WebInstruct 上比最强基线再涨 4–8 个点。
 
-[查看全部81篇「LLM 推理」论文 →](llm_reasoning/)
+[查看全部81篇「LLM Reasoning」论文 →](llm_reasoning/)
 
 ---
 
@@ -183,7 +183,7 @@ item_total: 1363
 
 ---
 
-## 👥 多智能体 (38) { #multi_agent }
+## 👥 Multi-Agent (38) { #multi_agent }
 
 **[A Multi-Agent Framework for Feature-Constrained Difficulty Control in Reading Comprehension Item Generation](multi_agent/a_multi-agent_framework_for_feature-constrained_difficulty_control_in_reading_co.md)**
 
@@ -225,7 +225,7 @@ item_total: 1363
 
 :   提出RADAR框架，通过角色锚定（政客 vs 科学家）的多智能体辩论来检测基于遗漏上下文的半真半假信息，配合双阈值自适应早停机制，在噪声检索条件下一致超越单智能体和传统多智能体基线。
 
-[查看全部38篇「多智能体」论文 →](multi_agent/)
+[查看全部38篇「Multi-Agent」论文 →](multi_agent/)
 
 ---
 
@@ -545,7 +545,7 @@ item_total: 1363
 
 ---
 
-## 💬 LLM 其他 (56) { #llm_nlp }
+## 💬 LLM 其他 (59) { #llm_nlp }
 
 **[A Study of LLMs' Preferences for Libraries and Programming Languages](llm_nlp/a_study_of_llms39_preferences_for_libraries_and_programming_languages.md)**
 
@@ -587,7 +587,7 @@ item_total: 1363
 
 :   作者用线性时序逻辑（LTL）作为统一刻画工具，严格证明 global-only Transformer ↔ $\mathrm{LTL}[\mathrm{P}]$、$k$-local-only ↔ $\mathrm{LTL}[\mathrm{Y}^{\leq k}]$、global+local 混合 ↔ $\mathrm{LTL}[\mathrm{P}, \mathrm{Y}^{\leq k}]$，并由此证明 **local 与 global 表达力互不包含**、混合严格更强、**1-local 是 local 家族里表达力最强**，最后在合成正则语言和 WikiText-2 上经验验证理论预测。
 
-[查看全部56篇「LLM 其他」论文 →](llm_nlp/)
+[查看全部59篇「LLM 其他」论文 →](llm_nlp/)
 
 ---
 
@@ -729,7 +729,7 @@ item_total: 1363
 
 ---
 
-## 🌐 多语言/翻译 (62) { #multilingual_mt }
+## 🌐 多语言/翻译 (61) { #multilingual_mt }
 
 **[A Multilingual Dataset and Empirical Validation for the Mutual Reinforcement Effect in Information Extraction](multilingual_mt/a_multilingual_dataset_and_empirical_validation_for_the_mutual_reinforcement_eff.md)**
 
@@ -771,11 +771,11 @@ item_total: 1363
 
 :   TriMix 把 LRL（低资源语言）适配拆解为"语言能力 + 任务能力 + scaling 红利"三股 logit benefit vector，仅对小模型做连续预训练即可，在推理时按 perplexity 动态决定权重，于 4 个模型家族 × 8 种 LRL 上一致超越单模型 baseline 和 Proxy Tuning，且核心实证发现"应让小 CPT 模型权重高于大指令模型"——直接挑战了 Proxy Tuning 默认的"大模型主导"假设。
 
-[查看全部62篇「多语言/翻译」论文 →](multilingual_mt/)
+[查看全部61篇「多语言/翻译」论文 →](multilingual_mt/)
 
 ---
 
-## 🔍 信息检索/RAG (73) { #information_retrieval }
+## 🔍 信息检索/RAG (70) { #information_retrieval }
 
 **[A Picture is Worth a Thousand Words? An Empirical Study of Aggregation Strategies for Visual Financial Document Retrieval](information_retrieval/a_picture_is_worth_a_thousand_words_an_empirical_study_of_aggregation_strategies.md)**
 
@@ -817,19 +817,15 @@ item_total: 1363
 
 :   针对 RAG 在 10k+ 词长上下文下推理慢、信息淹没的问题，作者用「短上下文种子数据 → 维基扩张 → 头尾迭代裁剪」合成多跳长上下文训练数据，微调一个 3B 的 Llama-3.2 抽取式摘要器 BRIEF-Pro，在四个多跳 QA 数据集上以 32× 压缩率反超 LongLLMLingua 的 9× 压缩，并支持用户用句数指令直接控制摘要长度。
 
-[查看全部73篇「信息检索/RAG」论文 →](information_retrieval/)
+[查看全部70篇「信息检索/RAG」论文 →](information_retrieval/)
 
 ---
 
-## 💻 代码智能 (51) { #code_intelligence }
+## 💻 代码智能 (49) { #code_intelligence }
 
 **[Across Programming Language Silos: A Study on Cross-Lingual Retrieval-Augmented Code Generation](code_intelligence/across_programming_language_silos_a_study_on_cross-lingual_retrieval-augmented_c.md)**
 
 :   首次系统研究跨编程语言的检索增强代码生成（RACG），构建覆盖13种编程语言的14K实例数据集，揭示跨语言知识迁移的不对等性及其与语言亲缘性和预训练多样性的关系。
-
-**[Aligned Multi-View Scripts for Universal Chart-to-Code Generation](code_intelligence/aligned_multi-view_scripts_for_universal_chart-to-code_generation.md)**
-
-:   把"同一张图表用 Python / R / LaTeX 三种语言写出语义等价脚本"作为新的监督信号，构建了 176K 四元组数据集 Chart2NCode，并提出在 LLaVA 投影器上加一个"语言条件的低秩子空间路由"的轻量适配器 CharLuMA，让一个模型在三种绘图语言上都达到可执行率与视觉保真度双高的水准。
 
 **[AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor](code_intelligence/automonitor-bench_evaluating_the_reliability_of_llm-based_misbehavior_monitor.md)**
 
@@ -863,7 +859,11 @@ item_total: 1363
 
 :   本文提出 CodeRL+，将执行语义对齐集成到 RLVR 训练管道中，通过让模型推断变量级执行轨迹来弥合代码文本表示与执行语义之间的差距，在代码生成上平均 pass@1 提升 4.6%，在代码推理和测试输出生成基准上分别提升 15.5% 和 4.4%。
 
-[查看全部51篇「代码智能」论文 →](code_intelligence/)
+**[CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases](code_intelligence/codewiki_evaluating_ai39s_ability_to_generate_holistic_documentation_for_large-s.md)**
+
+:   提出 CodeWiki，一个基于层次化分解和递归多智能体处理的开源框架，用于自动生成仓库级代码文档，并构建了 CodeWikiBench 基准，在七种编程语言上以 68.79% 的质量分数超越了闭源系统 DeepWiki（64.06%）。
+
+[查看全部49篇「代码智能」论文 →](code_intelligence/)
 
 ---
 
@@ -911,11 +911,7 @@ item_total: 1363
 
 ---
 
-## 🧩 多模态 VLM (94) { #multimodal_vlm }
-
-**[A Survey of Multimodal Mathematical Reasoning: From Perception, Alignment to Reasoning](multimodal_vlm/a_survey_of_multimodal_mathematical_reasoning_from_perception_alignment_to_reaso.md)**
-
-:   本综述提出 Perception–Alignment–Reasoning (PAR) 过程框架 + Answer–Process–Executable (APE) 评估框架两个互补视角，系统地组织几何/图表表格/视觉应用题三大任务族，把现有方法和 benchmark 都映射到这两个十字坐标上，是首篇 process-centric 多模态数学推理综述。
+## 🧩 多模态 VLM (79) { #multimodal_vlm }
 
 **[A Survey on MLLM-based Visually Rich Document Understanding: Methods, Challenges, and Emerging Trends](multimodal_vlm/a_survey_on_mllm-based_visually_rich_document_understanding_methods_challenges_a.md)**
 
@@ -925,10 +921,6 @@ item_total: 1363
 
 :   本文指出现有"thinking with images" MLLM 普遍存在**盲目工具调用**问题——所有视觉问题都强行 zoom-in/抽帧，反而 overthinking 降准、增推理成本；为此提出 AdaTooler-V，引入 AT-GRPO 强化学习算法用样本级 Tool Benefit Score 动态调节奖励尺度（工具有效时鼓励、无效时惩罚），让 7B 模型在 V* 高分辨率基准上达到 89.8%，超过 GPT-4o 与 Gemini 1.5 Pro。
 
-**[Addressing Overthinking in Large Vision-Language Models via Gated Perception-Reasoning Optimization](multimodal_vlm/addressing_overthinking_in_large_vision-language_models_via_gated_perception-rea.md)**
-
-:   提出GPRO框架，通过元推理控制器在每个token生成步动态路由计算到三条路径（快速/感知重检/推理反思），解决LVLM的过度思考问题，同时提升精度和效率。
-
 **[AFMRL: Attribute-Enhanced Fine-Grained Multi-Modal Representation Learning in E-commerce](multimodal_vlm/afmrl_attribute-enhanced_fine-grained_multi-modal_representation_learning_in_e-c.md)**
 
 :   提出 AFMRL 框架，将电商产品的细粒度理解定义为属性生成任务，通过 MLLM 生成关键属性来增强对比学习（AGCL），并用检索性能作为奖励信号反向优化属性生成器（RAR），在大规模电商数据集上实现 SOTA 检索性能。
@@ -936,6 +928,10 @@ item_total: 1363
 **[AICA-Bench: Holistically Examining the Capabilities of VLMs in Affective Image Content Analysis](multimodal_vlm/aica-bench_holistically_examining_the_capabilities_of_vlms_in_affective_image_co.md)**
 
 :   提出 AICA-Bench，一个涵盖情感理解（EU）、情感推理（ER）和情感引导内容生成（EGCG）三个维度的综合基准，评估 23 个 VLM 后发现模型存在强度校准失败和描述浅薄两大缺陷，并提出 GAT Prompting 训练无关框架来缓解这些问题。
+
+**[Aligned Multi-View Scripts for Universal Chart-to-Code Generation](multimodal_vlm/aligned_multi-view_scripts_for_universal_chart-to-code_generation.md)**
+
+:   把"同一张图表用 Python / R / LaTeX 三种语言写出语义等价脚本"作为新的监督信号，构建了 176K 四元组数据集 Chart2NCode，并提出在 LLaVA 投影器上加一个"语言条件的低秩子空间路由"的轻量适配器 CharLuMA，让一个模型在三种绘图语言上都达到可执行率与视觉保真度双高的水准。
 
 **[All Changes May Have Invariant Principles: Improving Ever-Shifting Harmful Meme Detection via Design Concept Reproduction](multimodal_vlm/all_changes_may_have_invariant_principles_improving_ever-shifting_harmful_meme_d.md)**
 
@@ -953,7 +949,81 @@ item_total: 1363
 
 :   构建首个 UI 动画理解评测集 AniMINT（300 段密集标注的动画视频 + 3 位专家 + 300 用户标注），系统测试 9 个 SOTA VLM 后发现：基础运动效果能识别，但动画用途分类和高层语义解读与人类差距巨大，进一步用 Motion-Context-Perceptual Cue (MCPC) 增强能在 Gemini-2.5-Flash 上同时提升分类和解读性能。
 
-[查看全部94篇「多模态 VLM」论文 →](multimodal_vlm/)
+**[CARES: Context-Aware Resolution Selector for VLMs](multimodal_vlm/cares_context-aware_resolution_selector_for_vlms.md)**
+
+:   CARES 在目标 VLM 前增加一个轻量 query-aware 分辨率选择器，用低分辨率图像和文本问题预测“足够回答”的最小输入分辨率，在 9 个多模态 benchmark 上基本保持准确率，同时平均节省约 65–85% 的 prefill 计算成本。
+
+[查看全部79篇「多模态 VLM」论文 →](multimodal_vlm/)
+
+---
+
+## 🧠 VLM Reasoning (31) { #vlm_reasoning }
+
+**[A Survey of Multimodal Mathematical Reasoning: From Perception, Alignment to Reasoning](vlm_reasoning/a_survey_of_multimodal_mathematical_reasoning_from_perception_alignment_to_reaso.md)**
+
+:   本综述提出 Perception–Alignment–Reasoning (PAR) 过程框架 + Answer–Process–Executable (APE) 评估框架两个互补视角，系统地组织几何/图表表格/视觉应用题三大任务族，把现有方法和 benchmark 都映射到这两个十字坐标上，是首篇 process-centric 多模态数学推理综述。
+
+**[Addressing Overthinking in Large Vision-Language Models via Gated Perception-Reasoning Optimization](vlm_reasoning/addressing_overthinking_in_large_vision-language_models_via_gated_perception-rea.md)**
+
+:   提出GPRO框架，通过元推理控制器在每个token生成步动态路由计算到三条路径（快速/感知重检/推理反思），解决LVLM的过度思考问题，同时提升精度和效率。
+
+**[AnchorSeg: Language Grounded Query Banks for Reasoning Segmentation](vlm_reasoning/anchorseg_language_grounded_query_banks_for_reasoning_segmentation.md)**
+
+:   提出AnchorSeg，将推理分割重构为基于语言引导查询库的结构化条件生成过程，通过锚点查询显式解耦空间定位与语义推理，配合Token-Mask循环一致性训练目标，在ReasonSeg上达到SOTA（67.7% gIoU, 68.1% cIoU）。
+
+**[ArrowGEV: Grounding Events in Video via Learning the Arrow of Time](vlm_reasoning/arrowgev_grounding_events_in_video_via_learning_the_arrow_of_time.md)**
+
+:   提出 ArrowGEV，一个受物理学"时间之箭"启发的强化学习框架，通过区分时间敏感和时间不敏感事件来建模视频中的时间方向性，提升 VLM 的事件定位精度和时序理解能力。
+
+**[Can MLLMs Reason Beyond Language? VisReason: A Comprehensive Benchmark for Vision-Centric Reasoning](vlm_reasoning/can_mllms_reason_beyond_language_visreason_a_comprehensive_benchmark_for_vision-.md)**
+
+:   VisReason 构建了一个包含 1,505 道日常视觉推理题的多模态 benchmark，专门测试模型是否能直接基于视觉证据推理，结果显示最强模型平均准确率也只有 47.5%，显著低于人类 71.4%，且 CoT 与更大推理预算只能带来有限提升。
+
+**[ChemVLR: Prioritizing Reasoning in Perception for Chemical Vision-Language Understanding](vlm_reasoning/chemvlr_prioritizing_reasoning_in_perception_for_chemical_vision-language_unders.md)**
+
+:   提出 ChemVLR，首个化学领域推理型 VLM，通过跨模态逆向工程策略构建 760K 推理数据集，结合持续预训练-SFT-RL 三阶段训练流程，在分子识别和反应预测任务上显著超越专有模型和领域专家 VLM。
+
+**[Decoding Scientific Experimental Images: The SPUR Benchmark for Perception, Understanding, and Reasoning](vlm_reasoning/decoding_scientific_experimental_images_the_spur_benchmark_for_perception_unders.md)**
+
+:   SPUR 是首个针对生物医学实验图像（多面板染色图/Western blot/统计图）"感知 → 理解 → 推理"三阶段评测的 benchmark，包含 4264 道专家审定 MCQ，揭示当今 MLLM 仅 Gemini 3 Pro Preview 勉强突破 60%，定量推理普遍比定性推理低 12.76%–31.41%。
+
+**[Do MLLMs Understand Pointing? Benchmarking and Enhancing Referential Reasoning in Egocentric Vision](vlm_reasoning/do_mllms_understand_pointing_benchmarking_and_enhancing_referential_reasoning_in.md)**
+
+:   作者构建了首个真实+物理仿真混合的第一人称"手指指点"问答基准 EgoPoint-Bench（11.7k QA / 5 维度 / 3 级语义指代），证实当前 SOTA MLLM 普遍依赖"视觉邻近 / 显著性"伪相关而非真正解析指尖射线，并通过在仿真数据上 LoRA 微调获得平均最高 +25 点的提升与稳健的 sim-to-real 泛化。
+
+**[DRIFT: Transferring Reasoning Priors for Efficient MLLM Fine-Tuning](vlm_reasoning/drift_transferring_reasoning_priors_for_efficient_mllm_fine-tuning.md)**
+
+:   DRIFT 把"文本推理专家与多模态模型的参数差"当成方向先验，在多模态 SFT 反向传播时只对梯度做轻量偏置（不动权重），用 4K 多模态 CoT 数据、约 2 小时训练就能把 Qwen2.5-VL-7B 在 MathVista/MathVerse/WeMath 等基准上稳定推过参数合并基线和重型 SFT/RL 方法。
+
+**[ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](vlm_reasoning/errorradar_benchmarking_complex_mathematical_reasoning_of_multimodal_large_langu.md)**
+
+:   本文形式化定义了多模态错误检测任务，并构建了 ErrorRadar 基准——包含 2,500 道来自真实学生作答的 K-12 多模态数学题，评估 MLLM 在错误步骤识别（STEP）和错误类型分类（CATE）两个子任务上的能力，发现最强模型 GPT-4o 仍落后人类评估约 10-15%。
+
+[查看全部31篇「VLM Reasoning」论文 →](vlm_reasoning/)
+
+---
+
+## ⚡ VLM Efficiency (5) { #vlm_efficiency }
+
+**[APB-V: Accelerating Long-Video Understanding via Sequence-Parallelism-aware Approximate Attention](vlm_efficiency/apb-v_accelerating_long-video_understanding_via_sequence-parallelism-aware_appro.md)**
+
+:   APB-V 用面向序列并行的近似注意力和系统级负载均衡加速长视频 LMM 推理，在保留完整视觉 embedding 的同时，在 64 帧 1440p 设置下相对 FlashAttn、ZigZagRing 和 APB 分别达到 12.72×、1.70× 和 1.18× 加速，且没有显著性能损失。
+
+**[From Inheritance to Saturation: Disentangling the Evolution of Visual Redundancy for Architecture-Aware MLLM Inference Acceleration](vlm_efficiency/from_inheritance_to_saturation_disentangling_the_evolution_of_visual_redundancy_.md)**
+
+:   揭示 MLLM 推理中视觉冗余的两种来源——ViT 密集 tokenization 导致的固有冗余（IVR）和深层语义饱和导致的次生冗余（SSR，且其表现形式因骨干架构不同而异），提出 HalfV 框架分别处理两类冗余，在 Qwen2.5-VL 上实现4.1倍 FLOPs 加速且保留96.8%性能。
+
+**[HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding](vlm_efficiency/hermes_kv_cache_as_hierarchical_memory_for_efficient_streaming_video_understandi.md)**
+
+:   本文提出 HERMES，基于对 MLLM 解码器层级注意力偏好的机制性分析，将 KV 缓存概念化为层级记忆框架（浅层=感觉记忆、中层=工作记忆、深层=长期记忆），实现免训练的高效流式视频理解，在减少 68% 视频 token 的条件下仍保持或提升准确率，TTFT 延迟仅 <30ms，比前 SOTA 快 10 倍。
+
+**[HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models](vlm_efficiency/hiprune_hierarchical_attention_for_efficient_token_pruning_in_vision-language_mo.md)**
+
+:   本文发现视觉编码器中存在层级注意力模式——中层关注主体对象、深层关注全局信息，据此提出 HiPrune，一种免训练、模型无关的视觉 token 剪枝方法，通过选择三类 token（Anchor/Buffer/Register）保留不同层级的视觉信息，仅用 1/3 token 保持 99.3% 性能，FLOPs 减少 58.7%。
+
+**[ReGATE: Learning Faster and Better with Fewer Tokens in MLLMs](vlm_efficiency/regate_learning_faster_and_better_with_fewer_tokens_in_mllms.md)**
+
+:   ReGATE 用冻结的 text-only teacher 估计哪些输出 token 需要视觉信息，再结合 student 的历史学习难度动态选择训练 token，让 MLLM 在不改架构、不加参数的情况下用更少 token 更快训练，并在多个图像和视频 benchmark 上达到或超过标准微调。
 
 ---
 
@@ -1046,84 +1116,6 @@ item_total: 1363
 :   提出 GigaCheck，一个双策略框架：文档级使用微调 LLM 进行分类，片段级创新地将 AI 生成文本片段视为"目标"，用 DETR-like 架构实现端到端的字符级定位。
 
 [查看全部16篇「AIGC 检测」论文 →](aigc_detection/)
-
----
-
-## 🧊 3D 视觉 (1) { #3d_vision }
-
-**[CodeBind: Decoupled Representation Learning for Multimodal Alignment with Unified Compositional Codebook](3d_vision/codebind_decoupled_representation_learning_for_multimodal_alignment_with_unified.md)**
-
-:   CodeBind 用 shared-specific 表征解耦和组合式 VQ codebook 改造 ImageBind/ViT-Lens 式多模态对齐，在九种模态上同时提升跨模态分类/检索，并保留更强的模态特有细粒度信息。
-
----
-
-## ✂️ 语义分割 (1) { #segmentation }
-
-**[AnchorSeg: Language Grounded Query Banks for Reasoning Segmentation](segmentation/anchorseg_language_grounded_query_banks_for_reasoning_segmentation.md)**
-
-:   提出AnchorSeg，将推理分割重构为基于语言引导查询库的结构化条件生成过程，通过锚点查询显式解耦空间定位与语义推理，配合Token-Mask循环一致性训练目标，在ReasonSeg上达到SOTA（67.7% gIoU, 68.1% cIoU）。
-
----
-
-## 🧑 人体理解 (3) { #human_understanding }
-
-**[CO-EVO: Co-evolving Semantic Anchoring and Style Diversification for Federated DG-ReID](human_understanding/co-evo_co-evolving_semantic_anchoring_and_style_diversification_for_federated_dg.md)**
-
-:   CO-EVO 针对联邦域泛化行人重识别（FedDG-ReID）中的"语义-风格冲突"，提出 CSA（相机不变语义锚定）学习冻结的身份级文本原型作为"引力中心"+ GSD（全局风格多样化）用轻量 GCSB（全局相机风格库）合成真实跨域扰动，二者耦合优化在 Market-1501/MSMT17/CUHK03 leave-one-out 上 ViT mAP 平均比 SOTA 提升 14 个点（34.1→48.1）。
-
-**[Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production](human_understanding/hybrid_autoregressive-diffusion_model_for_real-time_sign_language_production.md)**
-
-:   这篇论文提出 HybridSign，把自回归逐帧生成和 flow-based diffusion 细化结合起来，并加入三专家多尺度姿态表示与 confidence-aware causal attention，在 PHOENIX14T 和 How2Sign 上取得更好的手语生成质量-延迟折中。
-
-**[Segment, Embed, and Align: A Universal Recipe for Aligning Subtitles to Signing](human_understanding/segment_embed_and_align_a_universal_recipe_for_aligning_subtitles_to_signing.md)**
-
-:   SEA 将连续手语视频的字幕对齐拆成 sign segmentation、text-sign embedding 和 episode-level dynamic programming 三步，在 BOBSL、How2Sign、WMT-SLT SRF、SwissSLi 四个数据集上取得 SOTA F1@0.50，并能在 CPU 上高效处理长视频。
-
----
-
-## 📹 视频理解 (16) { #video_understanding }
-
-**[APB-V: Accelerating Long-Video Understanding via Sequence-Parallelism-aware Approximate Attention](video_understanding/apb-v_accelerating_long-video_understanding_via_sequence-parallelism-aware_appro.md)**
-
-:   APB-V 用面向序列并行的近似注意力和系统级负载均衡加速长视频 LMM 推理，在保留完整视觉 embedding 的同时，在 64 帧 1440p 设置下相对 FlashAttn、ZigZagRing 和 APB 分别达到 12.72×、1.70× 和 1.18× 加速，且没有显著性能损失。
-
-**[ArrowGEV: Grounding Events in Video via Learning the Arrow of Time](video_understanding/arrowgev_grounding_events_in_video_via_learning_the_arrow_of_time.md)**
-
-:   提出 ArrowGEV，一个受物理学"时间之箭"启发的强化学习框架，通过区分时间敏感和时间不敏感事件来建模视频中的时间方向性，提升 VLM 的事件定位精度和时序理解能力。
-
-**[Automated Knowledge Component Generation and Interpretable Knowledge Tracing in Coding Problems](video_understanding/automated_knowledge_component_generation_for_interpretable_knowledge_tracing_in_.md)**
-
-:   这篇论文用 LLM 自动为开放式编程题生成和聚类 Knowledge Components，并提出 KCGen-KT 将学生在每个 KC 上的掌握度转成 soft token 输入 Llama 3，在 CodeWorkout 和 FalconCode 上同时提升正确率预测与学生代码生成。
-
-**[Confidence Estimation for LLMs in Multi-turn Interactions](video_understanding/confidence_estimation_for_llms_in_multi-turn_interactions.md)**
-
-:   首次系统研究多轮对话场景下的 LLM 置信度估计，提出两个核心准则（per-turn 校准 + 信息增加时单调性）、对应的 InfoECE 指标和 Kendall's $\tau$ 评估、Hinter-Guesser 数据集构造范式，并提出新颖的 P(SUFFICIENT) logit 探针——结果发现现有方法（verbalized / SC / P(TRUE)）在多轮场景中校准和单调性都很差，而 P(SUFFICIENT) 在 GUESS 上 InfoECE 降到 5.27（vs P(TRUE) 79.97）、$\tau$ 达 81.51，但任务远未解决。
-
-**[CRAFT: Critic-Refined Adaptive Key-Frame Targeting for Multimodal Video Question Answering](video_understanding/craft_critic-refined_adaptive_key-frame_targeting_for_multimodal_video_question_.md)**
-
-:   CRAFT 是一个面向新闻事件多视频问答的 claim-centric pipeline，它结合动态关键帧选择、ASR 转写、UNLI/MNLI/LLM critic 迭代修正和引用合并，在 MAGMaR-Test 上取得 0.739 macro average、0.810 reference recall 和 0.635 citation F1。
-
-**[DualFact: A Multimodal Fact Verification Framework for Procedural Video Understanding](video_understanding/dualfact_a_multimodal_fact_verification_framework_for_procedural_video_understan.md)**
-
-:   作者把"做饭、家具制作"这类程序化视频字幕的事实评测拆成**双层事实**——conceptual facts（抽象角色，如 Action/Ingredient/Tool/Location）+ contextual facts（视频中可观察的 predicate–argument 关系，如 stir(soup, pot)），配套构建 YouCook3-Fact / CraftBench-Fact 两个标注隐式参数补全 (VIA) 与对比性事实的基准，并提出 MultiFactScore 用多模态/文本 NLI 在角色级别分别核查事实，进而把错误细分为 Hallucination / Saliency / Omission；实验发现 SOTA MLLM 字幕"流畅但事实残缺"，单看字幕会高估 Hallucination 一半左右，只有 video-grounded 评测才能区分 saliency 与真 hallucination。
-
-**[GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](video_understanding/gameplayqa_a_benchmarking_framework_for_decision-dense_pov-synced_multi-video_un.md)**
-
-:   提出 GameplayQA，一个基于多人3D游戏视频的端到端基准框架，通过密集时间线标注（1.22标签/秒）和结构化干扰项分类学，系统评估多模态大模型在决策密集、多视角同步场景下的感知和推理能力，揭示前沿模型与人类表现仍有显著差距。
-
-**[HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding](video_understanding/hermes_kv_cache_as_hierarchical_memory_for_efficient_streaming_video_understandi.md)**
-
-:   本文提出 HERMES，基于对 MLLM 解码器层级注意力偏好的机制性分析，将 KV 缓存概念化为层级记忆框架（浅层=感觉记忆、中层=工作记忆、深层=长期记忆），实现免训练的高效流式视频理解，在减少 68% 视频 token 的条件下仍保持或提升准确率，TTFT 延迟仅 <30ms，比前 SOTA 快 10 倍。
-
-**[NSF-SciFy: Mining the NSF Awards Database for Scientific Claims](video_understanding/nsf-scify_mining_the_nsf_awards_database_for_scientific_claims.md)**
-
-:   NSF-SciFy 从 NSF 奖项摘要中抽取 2.8M 科学 claims 和 investigation proposals，构建了比现有科学 claim 数据集大几个数量级的资源，并展示了它能显著提升 claim / proposal 抽取模型。
-
-**[Probing for Reading Times](video_understanding/probing_for_reading_times.md)**
-
-:   本文探测语言模型各层表示预测阅读时间的能力，发现早期层表示在预测早期注视指标上优于surprisal，而surprisal在晚期指标上更优，最佳预测器因语言和指标而异。
-
-[查看全部16篇「视频理解」论文 →](video_understanding/)
 
 ---
 
@@ -1263,14 +1255,6 @@ item_total: 1363
 
 ---
 
-## 🔄 自监督/表示学习 (1) { #self_supervised }
-
-**[LLMSurgeon: Diagnosing Data Mixture of Large Language Models](self_supervised/llmsurgeon_diagnosing_data_mixture_of_large_language_models.md)**
-
-:   LLMSurgeon 把“这个 LLM 到底训练在什么数据上”形式化为 Data Mixture Surgery，并用代理分类器的软混淆矩阵反演生成文本中的领域分布，从而在只访问模型输出的条件下估计预训练数据混合比例。
-
----
-
 ## 🔗 因果推理 (7) { #causal_inference }
 
 **[Better and Worse with Scale: How Contextual Entrainment Diverges with Model Size](causal_inference/better_and_worse_with_scale_how_contextual_entrainment_diverges_with_model_size.md)**
@@ -1303,7 +1287,7 @@ item_total: 1363
 
 ---
 
-## 🔬 可解释性 (60) { #interpretability }
+## 🔬 可解释性 (61) { #interpretability }
 
 **[A Structured Clustering Approach for Inducing Media Narratives](interpretability/a_structured_clustering_approach_for_inducing_media_narratives.md)**
 
@@ -1345,7 +1329,7 @@ item_total: 1363
 
 :   作者用「this/that」与「这/那」这类指示词（demonstrative）作为探针，构建中英双语对照数据集（80 题/语 × 4 cue × 4 perspective × 5 场景），用 320 名母语者的 6,400 条响应建立人类基线，发现英语者擅长 proximal–distal 区分但弱于他者视角，中文者反之；而 5 个 SOTA LLM 既无法稳定区分近–远，也无跨文化差异，普遍退回到 English-centric 推理或"All of the above"安全 fallback。
 
-[查看全部60篇「可解释性」论文 →](interpretability/)
+[查看全部61篇「可解释性」论文 →](interpretability/)
 
 ---
 
@@ -1473,7 +1457,7 @@ item_total: 1363
 
 ---
 
-## 🩺 医疗 NLP (47) { #medical_nlp }
+## 🩺 医疗 LLM (47) { #medical_nlp }
 
 **["Excuse Me, May I Say Something…" CoLabScience: A Proactive AI Assistant for Biomedical Discovery](medical_nlp/34excuse_me_may_i_say_something34_colabscience_a_proactive_ai_assistant_for_biom.md)**
 
@@ -1515,7 +1499,7 @@ item_total: 1363
 
 :   作者把 3D CT 解读重新建模成"放射科医生用工具迭代探查"的智能体任务，用 Model Context Protocol（MCP）暴露 Data Ingestion / Global Navigation / Detailed Observation / Advanced Analysis 四类工具，构造 2000+300 条可执行轨迹的 CT-FlowBench，并 SFT 出 CT-Flow-8B：在 3D-RAD 上达到 69.46% ACC，比纯切片基线提升 +22.46%，工具调用名称错误率仅 0.007/case。
 
-[查看全部47篇「医疗 NLP」论文 →](medical_nlp/)
+[查看全部47篇「医疗 LLM」论文 →](medical_nlp/)
 
 ---
 
@@ -1589,6 +1573,18 @@ item_total: 1363
 
 ---
 
+## 🗂 其他方向 (8)
+
+---
+
+## 🔄 自监督/表示学习 (1) { #self_supervised }
+
+**[LLMSurgeon: Diagnosing Data Mixture of Large Language Models](self_supervised/llmsurgeon_diagnosing_data_mixture_of_large_language_models.md)**
+
+:   LLMSurgeon 把“这个 LLM 到底训练在什么数据上”形式化为 Data Mixture Surgery，并用代理分类器的软混淆矩阵反演生成文本中的领域分布，从而在只访问模型输出的条件下估计预训练数据混合比例。
+
+---
+
 ## 🛡️ AI 安全 (4) { #ai_safety }
 
 **[OmniCompliance-100K: A Multi-Domain Rule-Grounded Real-World Safety Compliance Dataset](ai_safety/omnicompliance-100k_a_multi-domain_rule-grounded_real-world_safety_compliance_da.md)**
@@ -1609,7 +1605,15 @@ item_total: 1363
 
 ---
 
-## 📂 其他 (1) { #others }
+## 📂 其他 (3) { #others }
+
+**[Automated Knowledge Component Generation and Interpretable Knowledge Tracing in Coding Problems](others/automated_knowledge_component_generation_for_interpretable_knowledge_tracing_in_.md)**
+
+:   这篇论文用 LLM 自动为开放式编程题生成和聚类 Knowledge Components，并提出 KCGen-KT 将学生在每个 KC 上的掌握度转成 soft token 输入 Llama 3，在 CodeWorkout 和 FalconCode 上同时提升正确率预测与学生代码生成。
+
+**[NSF-SciFy: Mining the NSF Awards Database for Scientific Claims](others/nsf-scify_mining_the_nsf_awards_database_for_scientific_claims.md)**
+
+:   NSF-SciFy 从 NSF 奖项摘要中抽取 2.8M 科学 claims 和 investigation proposals，构建了比现有科学 claim 数据集大几个数量级的资源，并展示了它能显著提升 claim / proposal 抽取模型。
 
 **[Qayyem: A Real-time Platform for Scoring Proficiency of Arabic Essays](others/qayyem_a_real-time_platform_for_scoring_proficiency_of_arabic_essays.md)**
 

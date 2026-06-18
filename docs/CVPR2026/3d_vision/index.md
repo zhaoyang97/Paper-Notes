@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 3D视觉论文汇总 · 623篇论文解读
+  CVPR2026 3D视觉论文汇总 · 626篇论文解读
 description: >-
-  623篇CVPR2026的 3D 视觉方向论文解读，涵盖 3D 高斯渲染、动态场景、三维重建、点云、扩散模型、新视角合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  626篇CVPR2026的 3D 视觉方向论文解读，涵盖 3D 高斯渲染、动态场景、三维重建、点云、扩散模型、新视角合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "3D 视觉"
@@ -75,15 +75,15 @@ item_list:
     t: "AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction"
   - u: "aerogs_scale-aware_gaussian_splatting_for_pose-free_dynamic_uav_scene_reconstruc/"
     t: "AeroGS: Scale-Aware Gaussian Splatting for Pose-Free Dynamic UAV Scene Reconstruction"
-item_total: 623
+item_total: 626
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**📷 CVPR2026** · **623** 篇论文解读
+**📷 CVPR2026** · **626** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (24)](../../ICML2026/3d_vision/index.md) · [💬 ACL2026 (1)](../../ACL2026/3d_vision/index.md) · [🔬 ICLR2026 (62)](../../ICLR2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [📹 ICCV2025 (267)](../../ICCV2025/3d_vision/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (24)](../../ICML2026/3d_vision/index.md) · [🔬 ICLR2026 (62)](../../ICLR2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [📹 ICCV2025 (267)](../../ICCV2025/3d_vision/index.md) · [🧪 ICML2025 (17)](../../ICML2025/3d_vision/index.md)
 
 🔥 **高频主题：** 3D 高斯渲染 ×105 · 动态场景 ×60 · 三维重建 ×41 · 点云 ×36 · 扩散模型 ×26
 
@@ -238,6 +238,10 @@ item_total: 623
 **[AnchorSplat: Feed-Forward 3D Gaussian Splatting with 3D Geometric Priors](anchorsplat_feed-forward_3d_gaussian_splatting_with_3d_geometric_priors.md)**
 
 :   AnchorSplat 提出了一种锚点对齐的前馈 3DGS 框架，以 3D 几何先验（稀疏点云）为锚点直接在 3D 空间预测高斯，用约 20 倍更少的高斯数量和一半的重建时间在 ScanNet++ v2 上达到 SOTA 性能（PSNR 21.48），同时具备更好的深度估计精度。
+
+**[AniMimic: Imitating 3D Animation from Video Priors](animimic_imitating_3d_animation_from_video_priors.md)**
+
+:   AniMimic 把视频扩散模型生成的单目动画当作运动监督，给一个静态 3D mesh 自动绑骨、用可微渲染优化关节参数把 2D 运动"抬"回 3D，再用可微 FEM 软体仿真补上惯性与弹性，产出可编辑、物理合理、可直接进动画流水线的 4D 序列。
 
 **[Anny-Fit: All-Age Human Mesh Recovery](anny-fit_all-age_human_mesh_recovery.md)**
 
@@ -446,6 +450,10 @@ item_total: 623
 **[ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation](consisvla-4d_advancing_spatiotemporal_consistency_in_efficient_3d-perception_and.md)**
 
 :   ConsisVLA-4D 用三个模块（CV-Aligner、CO-Fuser、CS-Thinker）把多视角 2D 观测压缩成约 1/8 的 token，同时在感知阶段保证「跨视角语义一致」和「跨物体几何一致」、在推理阶段把这种一致性延伸到「跨场景时空一致」，在 LIBERO 和真机上比 OpenVLA 分别提升 21.6% / 41.5% 成功率并加速 2.3× / 2.4×。
+
+**[Content-Aware Frequency Encoding for Implicit Neural Representations with Fourier-Chebyshev Features](content-aware_frequency_encoding_for_implicit_neural_representations_with_fourie.md)**
+
+:   针对 INR 用固定 Fourier 基、逼 MLP 自己"凑"目标频率而效率低的问题，本文提出 CAFE：把 Fourier 特征送进多条并行线性层、再用 Hadamard 积做频率相乘，把可表示频率集从 $M$ 个固定基指数级扩张到 $O(MN3^{N-1})$，并用可学权重挑选任务相关频率；再用 Chebyshev 特征补足低频稳定性（CAFE+），在图像拟合、3D 形状、NeRF 上一致超过 SIREN/FINER/SL2A 等基线（图像拟合 PSNR 最高提升约 5 dB）。
 
 **[Context-Nav: Context-Driven Exploration and Viewpoint-Aware 3D Spatial Reasoning for Instance Navigation](context-nav_context-driven_exploration_and_viewpoint-aware_3d_spatial_reasoning_.md)**
 
@@ -874,6 +882,10 @@ item_total: 623
 **[Generalizable Human Gaussian Splatting via Multi-view Semantic Consistency](generalizable_human_gaussian_splatting_via_multi-view_semantic_consistency.md)**
 
 :   针对稀疏视角下泛化人体高斯泼溅"高斯定位不准"的问题，本文把各视角的潜在嵌入反投影到共享 3D 空间，再用 DINO 语义特征判断哪些点属于同一身体部位、对它们做跨视角注意力重校准，从而在高纹理和遮挡区域更准地放置 3D 高斯，在 ZJU-Mocap / HuMMan / THuman2.0 上取得 SOTA。
+
+**[Generalizable Radio-Frequency Radiance Fields for Spatial Spectrum Synthesis](generalizable_radio-frequency_radiance_fields_for_spatial_spectrum_synthesis.md)**
+
+:   GRaF 把 NeRF 思想搬到射频域，但用一条"目标发射机的空间谱可由邻近发射机的谱插值近似"的定理，把"逐场景重训"的 NeRF 改造成"跨场景泛化"的潜在射频辐射场——靠几何感知 Transformer 编码邻居谱、再用复数值神经光线追踪重建空间谱，在单场景和未见场景上都超过 NeRF2。
 
 **[Generalizable Sparse-View 3D Reconstruction from Unconstrained Images](generalizable_sparse-view_3d_reconstruction_from_unconstrained_images.md)**
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 LLM其他论文汇总 · 56篇论文解读
+  ACL2026 LLM其他论文汇总 · 59篇论文解读
 description: >-
-  56篇ACL2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、少样本学习、Agent、个性化生成、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  59篇ACL2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、少样本学习、Agent、个性化生成、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2026"
   - "LLM 其他"
@@ -39,6 +39,8 @@ item_list:
     t: "Clozing the Gap: Exploring Why Language Model Surprisal Outperforms Cloze Surprisal"
   - u: "clustered_self-assessment_a_simple_yet_effective_method_for_uncertainty_quantifi/"
     t: "Clustered Self-Assessment: A Simple yet Effective Method for Uncertainty Quantification in Large Language Models"
+  - u: "confidence_estimation_for_llms_in_multi-turn_interactions/"
+    t: "Confidence Estimation for LLMs in Multi-turn Interactions"
   - u: "costomcausal-oriented_steering_for_intrinsic_theory-of-mind_alignment_in_large_l/"
     t: "CoSToM: Causal-oriented Steering for Intrinsic Theory-of-Mind Alignment in Large Language Models"
   - u: "decovec_building_decoding_space_based_task_vector_for_large_language_models_via_/"
@@ -73,17 +75,15 @@ item_list:
     t: "Iterative Formalization and Planning in Partially Observable Environments"
   - u: "leveraging_pretrained_language_models_as_energy_functions_for_glauber_dynamics_t/"
     t: "Leveraging Pretrained Language Models as Energy Functions for Glauber Dynamics Text Diffusion"
-  - u: "masked_by_consensus_disentangling_privileged_knowledge_in_llm_correctness/"
-    t: "Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness"
-item_total: 56
+item_total: 59
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM 其他
 
-**💬 ACL2026** · **56** 篇论文解读
+**💬 ACL2026** · **59** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/llm_nlp/index.md) · [🧪 ICML2026 (33)](../../ICML2026/llm_nlp/index.md) · [🔬 ICLR2026 (33)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/llm_nlp/index.md) · [🧪 ICML2026 (33)](../../ICML2026/llm_nlp/index.md) · [🔬 ICLR2026 (33)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
 
 🔥 **高频主题：** LLM ×18 · 扩散模型 ×3 · 少样本学习 ×2 · Agent ×2 · 个性化生成 ×2
 
@@ -134,6 +134,10 @@ item_total: 56
 **[Clustered Self-Assessment: A Simple yet Effective Method for Uncertainty Quantification in Large Language Models](clustered_self-assessment_a_simple_yet_effective_method_for_uncertainty_quantifi.md)**
 
 :   这篇论文提出 Clustered Self-Assessment：先把 LLM 的多个采样答案按语义聚成互斥选项，再让同一个 LLM 通过多选题概率给原答案打置信分，从而在 TQA、NQ 和 XSum 上获得比语义熵、P(True) 等基线更好的 AUROC 与 Brier 校准表现。
+
+**[Confidence Estimation for LLMs in Multi-turn Interactions](confidence_estimation_for_llms_in_multi-turn_interactions.md)**
+
+:   首次系统研究多轮对话场景下的 LLM 置信度估计，提出两个核心准则（per-turn 校准 + 信息增加时单调性）、对应的 InfoECE 指标和 Kendall's $\tau$ 评估、Hinter-Guesser 数据集构造范式，并提出新颖的 P(SUFFICIENT) logit 探针——结果发现现有方法（verbalized / SC / P(TRUE)）在多轮场景中校准和单调性都很差，而 P(SUFFICIENT) 在 GUESS 上 InfoECE 降到 5.27（vs P(TRUE) 79.97）、$\tau$ 达 81.51，但任务远未解决。
 
 **[CoSToM: Causal-oriented Steering for Intrinsic Theory-of-Mind Alignment in Large Language Models](costomcausal-oriented_steering_for_intrinsic_theory-of-mind_alignment_in_large_l.md)**
 
@@ -255,6 +259,10 @@ item_total: 56
 
 :   本文提出基于重复子序列分布的评估框架，通过高阶 Rényi 熵刻画文本的熵增长行为，发现自然语言呈现稳定的次线性熵增长模式，而 GPT 生成文本的熵指数随模型规模单调增大，揭示了 LLM 在长程统计组织上与自然语言的系统性差异。
 
+**[Rethinking the Idiomaticity Decomposability Hypothesis: Evidence from Distributional Learning](rethinking_the_idiomaticity_decomposability_hypothesis_evidence_from_distributio.md)**
+
+:   这篇论文用上下文化语言模型作为“受控的分布式学习者”重新检验 Idiom Decomposability Hypothesis，发现模型派生的可分解性只弱相关于人类判断，并且与句法灵活性呈小而稳定的负相关，说明习语行为更像是由分布经验、surprisal 和表征稳定过程共同塑造。
+
 **[Solver-Independent Automated Problem Formulation via LLMs for High-Cost Simulation-Driven Design](solver-independent_automated_problem_formulation_via_llms_for_high-cost_simulati.md)**
 
 :   本文提出 APF（Automated Problem Formulation），一种与求解器无关的框架，利用 LLM 将工程师的自然语言设计需求转化为可执行的数学优化模型，通过创新的数据生成和测试实例标注管线克服高成本仿真场景下无法使用求解器反馈筛选数据的困难，在天线设计任务上显著优于现有方法。
@@ -290,6 +298,10 @@ item_total: 56
 **[Unlocking the Potential of Diffusion Language Models through Template Infilling](unlocking_the_potential_of_diffusion_language_models_through_template_infilling.md)**
 
 :   本文提出 Template Infilling，把扩散语言模型的生成条件从单一前缀改成分布在整段输出中的结构锚点，并用动态片段分配给复杂推理留出空间，从而在数学推理、代码生成和全局规划任务上显著稳定并提升并行生成质量。
+
+**[VISTA: Verification In Sequential Turn-based Assessment](vista_verification_in_sequential_turn-based_assessment.md)**
+
+:   VISTA 提出了一个基于声明级分解和顺序一致性追踪的多轮对话事实性评估框架，将不可验证内容细分为主观、矛盾、缺乏证据和弃权四类，在四个对话基准和八个 LLM 上显著优于 FActScore 和 LLM-as-Judge 基线。
 
 **[VOYAGER: A Training Free Approach for Generating Diverse Datasets using LLMs](voyager_a_training_free_approach_for_generating_diverse_datasets_using_llms.md)**
 

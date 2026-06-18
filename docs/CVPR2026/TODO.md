@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # CVPR2026 论文笔记 TODO
 
-总计: 3996 篇 | 已完成: 3994 | 待更新: 2
+总计: 3925 篇 | 已完成: 3923 | 待更新: 2
 
 ---
 
@@ -33,7 +33,6 @@
 - [x] [4dp-qa scalable qa for 4d perception in vision language models](multimodal_vlm/4dp-qa_scalable_qa_for_4d_perception_in_vision_language_models.md)
 - [x] [4dworldbench a comprehensive evaluation framework for 3d4d world generation mode](others/4dworldbench_a_comprehensive_evaluation_framework_for_3d4d_world_generation_mode.md)
 - [x] [4klsdb a large-scale dataset for 4k image restoration and generation](image_generation/4klsdb_a_large-scale_dataset_for_4k_image_restoration_and_generation.md) | arXiv: 2605.24762
-- [x] [a causal marriage between vlm and irm from understanding to reasoning](multimodal_vlm/a_causal_marriage_between_vlm_and_irm_from_understanding_to_reasoning.md)
 - [x] [a closedform solution for debiasing visionlanguage](llm_safety/a_closedform_solution_for_debiasing_visionlanguage.md) | arXiv: 2603.12998
 - [x] [a closer look at cross-domain few-shot object detection fine-tuning matters and ](object_detection/a_closer_look_at_cross-domain_few-shot_object_detection_fine-tuning_matters_and_.md) | arXiv: 2603.28182
 - [x] [a combination of noise and bilateral filters achieve supralinear and scalable ad](ai_safety/a_combination_of_noise_and_bilateral_filters_achieve_supralinear_and_scalable_ad.md)
@@ -76,7 +75,6 @@
 - [x] [acot-vla action chain-of-thought for vision-language-action models](robotics/acot-vla_action_chain-of-thought_for_vision-language-action_models.md)
 - [x] [acpv-net all-class polygonal vectorization for seamless vector map generation fr](remote_sensing/acpv-net_all-class_polygonal_vectorization_for_seamless_vector_map_generation_fr.md) | arXiv: 2603.16616
 - [x] [act like a pathologist tissue-aware whole slide image reasoning](medical_imaging/act_like_a_pathologist_tissue-aware_whole_slide_image_reasoning.md) | arXiv: 2603.00667
-- [x] [act2see emergent active visual perception for video reasoning](multimodal_vlm/act2see_emergent_active_visual_perception_for_video_reasoning.md) | arXiv: 2605.01657
 - [x] [actavatar temporally-aware precise action control for talking avatars](human_understanding/actavatar_temporally-aware_precise_action_control_for_talking_avatars.md)
 - [x] [action-geometry prediction with 3d geometric prior for bimanual manipulation](3d_vision/action-geometry_prediction_with_3d_geometric_prior_for_bimanual_manipulation.md) | arXiv: 2602.23814
 - [x] [action-guided generation of 3d functionality segmentation data](3d_vision/action-guided_generation_of_3d_functionality_segmentation_data.md) | arXiv: 2511.23230
@@ -102,7 +100,6 @@
 - [x] [adaptation of weakly supervised localization in histopathology by debiasing pred](medical_imaging/adaptation_of_weakly_supervised_localization_in_histopathology_by_debiasing_pred.md) | arXiv: 2603.12468
 - [x] [adapter shield a unified framework with built-in authentication for preventing u](image_generation/adapter_shield_a_unified_framework_with_built-in_authentication_for_preventing_u.md)
 - [x] [adapting a pre-trained single-cell foundation model to spatial gene expression g](computational_biology/adapting_a_pre-trained_single-cell_foundation_model_to_spatial_gene_expression_g.md) | arXiv: 2603.19766
-- [x] [adapting in-context generation for enhanced composed image retrieval](others/adapting_in-context_generation_for_enhanced_composed_image_retrieval.md)
 - [x] [adapting lightweight image-based counting models for video crowd counting](model_compression/adapting_lightweight_image-based_counting_models_for_video_crowd_counting.md)
 - [x] [adapting point cloud analysis via multimodal bayesian distribution learning](3d_vision/adapting_point_cloud_analysis_via_multimodal_bayesian_distribution_learning.md) | arXiv: 2603.22070
 - [x] [adaptive 3d perception for small aerial targets under sparse sampling via reinfo](3d_vision/adaptive_3d_perception_for_small_aerial_targets_under_sparse_sampling_via_reinfo.md)
@@ -119,7 +116,6 @@
 - [x] [adaptive spectral feature forecasting for diffusion sampling acceleration](image_generation/adaptive_spectral_feature_forecasting_for_diffusion_sampling_acceleration.md) | arXiv: 2603.01623
 - [x] [adaptive video distillation mitigating oversaturation and temporal collapse in f](model_compression/adaptive_video_distillation_mitigating_oversaturation_and_temporal_collapse_in_f.md)
 - [x] [adaptok learning adaptive and temporally causal video tokenization in a 1d laten](video_generation/adaptok_learning_adaptive_and_temporally_causal_video_tokenization_in_a_1d_laten.md)
-- [x] [adaptvision efficient vision-language models via adaptive visual acquisition](multimodal_vlm/adaptvision_efficient_vision-language_models_via_adaptive_visual_acquisition.md) | arXiv: 2512.03794
 - [x] [adaradar rate adaptive spectral compression for radar-based perception](autonomous_driving/adaradar_rate_adaptive_spectral_compression_for_radar-based_perception.md) | arXiv: 2603.17979
 - [x] [adasformer adaptive serialized transformers for monocular semantic scene complet](3d_vision/adasformer_adaptive_serialized_transformers_for_monocular_semantic_scene_complet.md) | arXiv: 2603.25494
 - [x] [adaspark adaptive sparsity for efficient long video understanding](video_understanding/adaspark_adaptive_sparsity_for_efficient_long_video_understanding.md) | arXiv: 2604.08077
@@ -148,7 +144,6 @@
 - [x] [agent4faceforgery multi-agent llm framework for realistic face forgery detection](multi_agent/agent4faceforgery_multi-agent_llm_framework_for_realistic_face_forgery_detection.md)
 - [x] [agentdet a shared-blackboard multi-agent framework for zero-few-shot object dete](multi_agent/agentdet_a_shared-blackboard_multi-agent_framework_for_zero-few-shot_object_dete.md)
 - [x] [agentic retoucher for texttoimage generation](image_generation/agentic_retoucher_for_texttoimage_generation.md) | arXiv: 2601.02046
-- [x] [agentic video summarization via self-reflecting multimodal understanding](multimodal_vlm/agentic_video_summarization_via_self-reflecting_multimodal_understanding.md)
 - [x] [agentsafe benchmarking the safety of embodied agents on hazardous instructions](robotics/agentsafe_benchmarking_the_safety_of_embodied_agents_on_hazardous_instructions.md)
 - [x] [agft alignment-guided fine-tuning for zero-shot adversarial robustness of vision](multimodal_vlm/agft_alignment-guided_fine-tuning_for_zero-shot_adversarial_robustness_of_vision.md) | arXiv: 2603.29410
 - [x] [agile deliberation concept deliberation for subjective visual classification](llm_reasoning/agile_deliberation_concept_deliberation_for_subjective_visual_classification.md)
@@ -185,7 +180,6 @@
 - [x] [anchoring the mind of multimodal reasoners cognitive bias as a vector for jailbr](llm_alignment/anchoring_the_mind_of_multimodal_reasoners_cognitive_bias_as_a_vector_for_jailbr.md)
 - [x] [anchorsplat feed-forward 3d gaussian splatting with 3d geometric priors](3d_vision/anchorsplat_feed-forward_3d_gaussian_splatting_with_3d_geometric_priors.md) | arXiv: 2604.07053
 - [x] [ani3dhuman photorealistic 3d human animation with self-guided stochastic samplin](image_generation/ani3dhuman_photorealistic_3d_human_animation_with_self-guided_stochastic_samplin.md) | arXiv: 2602.19089
-- [x] [animimic imitating 3d animation from video priors](others/animimic_imitating_3d_animation_from_video_priors.md)
 - [x] [annotation-efficient coreset selection for context-dependent segmentation](segmentation/annotation-efficient_coreset_selection_for_context-dependent_segmentation.md)
 - [x] [anny-fit all-age human mesh recovery](3d_vision/anny-fit_all-age_human_mesh_recovery.md) | arXiv: 2605.04728
 - [x] [anomaly as non-conformity via training-free graph laplacian energy minimization](anomaly_detection/anomaly_as_non-conformity_via_training-free_graph_laplacian_energy_minimization.md) | arXiv: 2605.28428
@@ -202,7 +196,6 @@
 - [x] [anydoc enhancing document generation via large-scale htmlcss data synthesis and ](reinforcement_learning/anydoc_enhancing_document_generation_via_large-scale_htmlcss_data_synthesis_and_.md) | arXiv: 2603.25118
 - [x] [anylift scaling motion reconstruction from internet videos via 2d diffusion](3d_vision/anylift_scaling_motion_reconstruction_from_internet_videos_via_2d_diffusion.md) | arXiv: 2604.17818
 - [x] [anypcc compressing any point cloud with a single universal model](3d_vision/anypcc_compressing_any_point_cloud_with_a_single_universal_model.md) | arXiv: 2510.20331
-- [x] [apet approximation-error guided token compression for efficient vlms](multimodal_vlm/apet_approximation-error_guided_token_compression_for_efficient_vlms.md) | arXiv: 2602.19870
 - [x] [apex a decoupled memory-based explorer for asynchronous aerial object goal navig](remote_sensing/apex_a_decoupled_memory-based_explorer_for_asynchronous_aerial_object_goal_navig.md)
 - [x] [apple attribute-preserving pseudo-labeling for diffusion-based face swapping](image_generation/apple_attribute-preserving_pseudo-labeling_for_diffusion-based_face_swapping.md) | arXiv: 2601.15288
 - [x] [appo attention-guided perception policy optimization for video reasoning](llm_reasoning/appo_attention-guided_perception_policy_optimization_for_video_reasoning.md)
@@ -267,7 +260,6 @@
 - [x] [b3-seg camera-free training-free 3dgs segmentation via analytic eig and beta-ber](segmentation/b3-seg_camera-free_training-free_3dgs_segmentation_via_analytic_eig_and_beta-ber.md)
 - [x] [babyvlm-v2 toward developmentally grounded pretraining and benchmarking of visio](audio_speech/babyvlm-v2_toward_developmentally_grounded_pretraining_and_benchmarking_of_visio.md) | arXiv: 2512.10932
 - [x] [back to point exploring point-language models for zero-shot 3d anomaly detection](object_detection/back_to_point_exploring_point-language_models_for_zero-shot_3d_anomaly_detection.md) | arXiv: 2603.21511
-- [x] [back to source open-set continual test-time adaptation via domain compensation](others/back_to_source_open-set_continual_test-time_adaptation_via_domain_compensation.md) | arXiv: 2604.21772
 - [x] [back to the feature explaining video classifiers with video counterfactual expla](causal_inference/back_to_the_feature_explaining_video_classifiers_with_video_counterfactual_expla.md)
 - [x] [backsplit the importance of sub-dividing the background in biomedical lesion seg](medical_imaging/backsplit_the_importance_of_sub-dividing_the_background_in_biomedical_lesion_seg.md) | arXiv: 2511.19394
 - [x] [balanced dataset distillation via modeling multiple visual pattern distribution](model_compression/balanced_dataset_distillation_via_modeling_multiple_visual_pattern_distribution.md)
@@ -312,7 +304,6 @@
 - [x] [beyond matching to tiles bridging unaligned aerial and satellite views for visio](remote_sensing/beyond_matching_to_tiles_bridging_unaligned_aerial_and_satellite_views_for_visio.md)
 - [x] [beyond mimicry learning whole-body human-humanoid interaction from human-human d](robotics/beyond_mimicry_learning_whole-body_human-humanoid_interaction_from_human-human_d.md)
 - [x] [beyond missing modalities hypergraph conditioned diffusion for uncertainty-aware](multimodal_vlm/beyond_missing_modalities_hypergraph_conditioned_diffusion_for_uncertainty-aware.md)
-- [x] [beyond multiple choice verifiable openqa for robust vision-language rft](multimodal_vlm/beyond_multiple_choice_verifiable_openqa_for_robust_vision-language_rft.md)
 - [x] [beyond myopic alignment lookahead optimization for online class-incremental lear](self_supervised/beyond_myopic_alignment_lookahead_optimization_for_online_class-incremental_lear.md)
 - [x] [beyond objects contextual synthetic data generation for fine-grained classificat](image_generation/beyond_objects_contextual_synthetic_data_generation_for_fine-grained_classificat.md) | arXiv: 2510.24078
 - [x] [beyond patches global-aware autoregressive model for multimodal few-shot font ge](image_generation/beyond_patches_global-aware_autoregressive_model_for_multimodal_few-shot_font_ge.md) | arXiv: 2601.01593
@@ -344,7 +335,6 @@
 - [x] [bi cmpstereo bidirectional cross modal prompting for event frame asymmetric stereo](3d_vision/bi_cmpstereo_bidirectional_cross_modal_prompting_for_event_frame_asymmetric_stereo.md) | arXiv: 2604.15312
 - [x] [bi-bridge bidirectional diffusion bridges for low-light image enhancement](image_restoration/bi-bridge_bidirectional_diffusion_bridges_for_low-light_image_enhancement.md)
 - [x] [bi-directional autoregressive diffusion for large complex motion interpolation](human_understanding/bi-directional_autoregressive_diffusion_for_large_complex_motion_interpolation.md)
-- [x] [bias at the end of the score](others/bias_at_the_end_of_the_score.md)
 - [x] [bias in bias out finding unbiased subnetworks in vanilla models](others/bias_in_bias_out_finding_unbiased_subnetworks_in_vanilla_models.md)
 - [x] [bias is a subspace not a coordinate a geometric rethinking of post-hoc debiasing](multimodal_vlm/bias_is_a_subspace_not_a_coordinate_a_geometric_rethinking_of_post-hoc_debiasing.md)
 - [x] [bias reward models t2i](image_generation/bias_reward_models_t2i.md) | arXiv: 2604.13305
@@ -376,7 +366,6 @@
 - [x] [bluref unsupervised image deblurring with dense-matching references](image_restoration/bluref_unsupervised_image_deblurring_with_dense-matching_references.md) | arXiv: 2603.14176
 - [x] [boosting document parsing efficiency and performance with coarse-to-fine visual ](multimodal_vlm/boosting_document_parsing_efficiency_and_performance_with_coarse-to-fine_visual_.md)
 - [x] [boosting quantitive and spatial awareness for zero-shot object counting](object_detection/boosting_quantitive_and_spatial_awareness_for_zero-shot_object_counting.md) | arXiv: 2603.16129
-- [x] [boosting reasoning in large multimodal models via activation replay](multimodal_vlm/boosting_reasoning_in_large_multimodal_models_via_activation_replay.md) | arXiv: 2511.19972
 - [x] [boosting self-supervised tracking with contextual prompts and noise learning](video_understanding/boosting_self-supervised_tracking_with_contextual_prompts_and_noise_learning.md) | arXiv: 2605.06092
 - [x] [boosting vision-language models towards cross-domain incremental object detectio](multimodal_vlm/boosting_vision-language_models_towards_cross-domain_incremental_object_detectio.md)
 - [x] [boosting vision-language-action finetuning with feasible action neighborhood pri](robotics/boosting_vision-language-action_finetuning_with_feasible_action_neighborhood_pri.md) | arXiv: 2604.01570
@@ -386,7 +375,6 @@
 - [x] [bootstrap your own av-proxies adaptive contrastive and prototype learning for au](segmentation/bootstrap_your_own_av-proxies_adaptive_contrastive_and_prototype_learning_for_au.md)
 - [x] [bootstrapping multi-view learning for test-time noisy correspondence](others/bootstrapping_multi-view_learning_for_test-time_noisy_correspondence.md)
 - [x] [bootstrapping video semantic segmentation model via distillation-assisted test-t](video_understanding/bootstrapping_video_semantic_segmentation_model_via_distillation-assisted_test-t.md) | arXiv: 2604.10950
-- [x] [bop-ask object-interaction reasoning for vision-language models](multimodal_vlm/bop-ask_object-interaction_reasoning_for_vision-language_models.md) | arXiv: 2511.16857
 - [x] [boxes2pixels learning defect segmentation from noisy sam masks](segmentation/boxes2pixels_learning_defect_segmentation_from_noisy_sam_masks.md) | arXiv: 2604.11162
 - [x] [breaking multimodal llm safety via video-driven prompting](multimodal_vlm/breaking_multimodal_llm_safety_via_video-driven_prompting.md)
 - [x] [breaking semantic boundaries distribution-guided semantic exploration for creati](image_generation/breaking_semantic_boundaries_distribution-guided_semantic_exploration_for_creati.md)
@@ -429,7 +417,6 @@
 - [x] [c-lav conditional latent velocity field denoising for weather-robust lidar place](autonomous_driving/c-lav_conditional_latent_velocity_field_denoising_for_weather-robust_lidar_place.md)
 - [x] [c2fg control classifier-free guidance via score discrepancy analysis](image_generation/c2fg_control_classifier-free_guidance_via_score_discrepancy_analysis.md) | arXiv: 2603.08155
 - [x] [ca-lora concept-aware lora for domain-aligned segmentation dataset generation](segmentation/ca-lora_concept-aware_lora_for_domain-aligned_segmentation_dataset_generation.md) | arXiv: 2503.22172
-- [x] [cad-refiner a unified framework for cad generation and iterative editing](others/cad-refiner_a_unified_framework_for_cad_generation_and_iterative_editing.md)
 - [x] [cadc content adaptive diffusion-based generative image compression](model_compression/cadc_content_adaptive_diffusion-based_generative_image_compression.md)
 - [x] [cadfs a big cad program dataset and framework for computer-aided design with lar](multimodal_vlm/cadfs_a_big_cad_program_dataset_and_framework_for_computer-aided_design_with_lar.md) | arXiv: 2605.01925
 - [x] [calitex geometry-calibrated attention for view-coherent 3d texture generation](3d_vision/calitex_geometry-calibrated_attention_for_view-coherent_3d_texture_generation.md)
@@ -484,14 +471,11 @@
 - [x] [chain of event-centric causal thought for physically plausible video generation](video_generation/chain_of_event-centric_causal_thought_for_physically_plausible_video_generation.md) | arXiv: 2603.09094
 - [x] [chain of world world model thinking in latent motion](robotics/chain_of_world_world_model_thinking_in_latent_motion.md) | arXiv: 2603.03195
 - [x] [chain-of-frames advancing video understanding in multimodal llms via frame-aware](multimodal_vlm/chain-of-frames_advancing_video_understanding_in_multimodal_llms_via_frame-aware.md)
-- [x] [chain-of-thought guided multi-modal object re-identification](multimodal_vlm/chain-of-thought_guided_multi-modal_object_re-identification.md)
 - [x] [chal causal-guided hierarchical anomaly-aware learning for moving infrared small](object_detection/chal_causal-guided_hierarchical_anomaly-aware_learning_for_moving_infrared_small.md)
 - [x] [changebridge spatiotemporal image generation with multimodal controls for remote](image_generation/changebridge_spatiotemporal_image_generation_with_multimodal_controls_for_remote.md) | arXiv: 2507.04678
 - [x] [changes in real time online scene change detection with multi-view fusion](3d_vision/changes_in_real_time_online_scene_change_detection_with_multi-view_fusion.md) | arXiv: 2511.12370
-- [x] [chart-fr1 visual focus-driven fine-grained reasoning on dense charts](multimodal_vlm/chart-fr1_visual_focus-driven_fine-grained_reasoning_on_dense_charts.md)
 - [x] [chartist generating pictorial charts with unified spatial and subject control](image_generation/chartist_generating_pictorial_charts_with_unified_spatial_and_subject_control.md)
 - [x] [chartnet a million-scale high-quality multimodal dataset for robust chart unders](signal_comm/chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md) | arXiv: 2603.27064
-- [x] [chartr evaluating reasoning accuracy and robustness in chart question answering](multimodal_vlm/chartr_evaluating_reasoning_accuracy_and_robustness_in_chart_question_answering.md)
 - [x] [cheem continual learning by reuse new adapt and skip -- a hierarchical explorati](self_supervised/cheem_continual_learning_by_reuse_new_adapt_and_skip_--_a_hierarchical_explorati.md) | arXiv: 2303.08250
 - [x] [chimeralora multi-head lora-guided synthetic datasets](image_generation/chimeralora_multi-head_lora-guided_synthetic_datasets.md)
 - [x] [chips efficient clip adaptation via curvature-aware hybrid influence-based data ](medical_imaging/chips_efficient_clip_adaptation_via_curvature-aware_hybrid_influence-based_data_.md) | arXiv: 2511.18519
@@ -543,7 +527,6 @@
 - [x] [cocovideo the high-quality commercial-model-based contrastive benchmark for ai-g](video_understanding/cocovideo_the_high-quality_commercial-model-based_contrastive_benchmark_for_ai-g.md) | arXiv: 2606.00101
 - [x] [cod a diffusion foundation model for image compression](image_generation/cod_a_diffusion_foundation_model_for_image_compression.md) | arXiv: 2511.18706
 - [x] [coded-e2lf coded aperture light field imaging from events](others/coded-e2lf_coded_aperture_light_field_imaging_from_events.md) | arXiv: 2602.22620
-- [x] [codedance a dynamic tool-integrated mllm for executable visual reasoning](multimodal_vlm/codedance_a_dynamic_tool-integrated_mllm_for_executable_visual_reasoning.md) | arXiv: 2512.17312
 - [x] [codemmr bridging natural language code and image for unified retrieval](multimodal_vlm/codemmr_bridging_natural_language_code_and_image_for_unified_retrieval.md)
 - [x] [codepercept code-grounded visual stem perception for mllms](multimodal_vlm/codepercept_code-grounded_visual_stem_perception_for_mllms.md) | arXiv: 2603.10757
 - [x] [codev code with images for faithful visual reasoning via tool-aware policy optim](multimodal_vlm/codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim.md)
@@ -683,7 +666,6 @@
 - [x] [curriculum group policy optimization adaptive sampling for unleashing the potent](image_generation/curriculum_group_policy_optimization_adaptive_sampling_for_unleashing_the_potent.md)
 - [x] [curvature-aware captioning leveraging geodesic attention for 3d scene understand](3d_vision/curvature-aware_captioning_leveraging_geodesic_attention_for_3d_scene_understand.md)
 - [x] [curvature-aware zeroth-order optimization for memory-efficient test-time adaptat](others/curvature-aware_zeroth-order_optimization_for_memory-efficient_test-time_adaptat.md)
-- [x] [curve a benchmark for cultural and multilingual long video reasoning](multimodal_vlm/curve_a_benchmark_for_cultural_and_multilingual_long_video_reasoning.md)
 - [x] [customized fusion a closed-loop dynamic network for adaptive multi-task-aware in](image_restoration/customized_fusion_a_closed-loop_dynamic_network_for_adaptive_multi-task-aware_in.md) | arXiv: 2604.08924
 - [x] [customized visual storytelling with unified multimodal llms](multimodal_vlm/customized_visual_storytelling_with_unified_multimodal_llms.md) | arXiv: 2603.27690
 - [x] [customtex high-fidelity indoor scene texturing via multi-reference customization](3d_vision/customtex_high-fidelity_indoor_scene_texturing_via_multi-reference_customization.md) | arXiv: 2603.19121
@@ -745,7 +727,6 @@
 - [x] [deeper thought weaker aim understanding and mitigating perceptual impairment dur](multimodal_vlm/deeper_thought_weaker_aim_understanding_and_mitigating_perceptual_impairment_dur.md)
 - [x] [deepfakeimpact a two-stage benchmark with real-world impact in deepfake detectio](ai_safety/deepfakeimpact_a_two-stage_benchmark_with_real-world_impact_in_deepfake_detectio.md)
 - [x] [deepprotect proactive face-swapping defense using identity blending and attribut](ai_safety/deepprotect_proactive_face-swapping_defense_using_identity_blending_and_attribut.md)
-- [x] [deepsketcher internalizing visual manipulation for multimodal reasoning](multimodal_vlm/deepsketcher_internalizing_visual_manipulation_for_multimodal_reasoning.md) | arXiv: 2509.25866
 - [x] [defect cue-preserved structural feature refinement for few-shot anomaly detectio](object_detection/defect_cue-preserved_structural_feature_refinement_for_few-shot_anomaly_detectio.md)
 - [x] [defending unauthorized model merging via dual-stage weight protection](optimization/defending_unauthorized_model_merging_via_dual-stage_weight_protection.md) | arXiv: 2511.11851
 - [x] [deformable gaussian occupancy decoupling rigid and nonrigid motion with factoriz](autonomous_driving/deformable_gaussian_occupancy_decoupling_rigid_and_nonrigid_motion_with_factoriz.md) | arXiv: 2605.28587
@@ -931,7 +912,6 @@
 - [x] [dynamic magic unleashing restricted knowledge for lifelong person re-identificat](human_understanding/dynamic_magic_unleashing_restricted_knowledge_for_lifelong_person_re-identificat.md)
 - [x] [dynamic momentum recalibration in online gradient learning](optimization/dynamic_momentum_recalibration_in_online_gradient_learning.md) | arXiv: 2603.06120
 - [x] [dynamic stream network for combinatorial explosion problem in deformable medical](medical_imaging/dynamic_stream_network_for_combinatorial_explosion_problem_in_deformable_medical.md)
-- [x] [dynamic token reweighting for robust vision-language models](multimodal_vlm/dynamic_token_reweighting_for_robust_vision-language_models.md) | arXiv: 2505.17132
 - [x] [dynamic visual slam using a general 3d prior](3d_vision/dynamic_visual_slam_using_a_general_3d_prior.md)
 - [x] [dynamic-editor training-free text-driven 4d scene editing with multimodal diffus](image_generation/dynamic-editor_training-free_text-driven_4d_scene_editing_with_multimodal_diffus.md)
 - [x] [dynamic-static decomposition for novel view synthesis of dynamic scenes with spi](3d_vision/dynamic-static_decomposition_for_novel_view_synthesis_of_dynamic_scenes_with_spi.md)
@@ -978,7 +958,6 @@
 - [x] [efficient all-pairs correlation volume sampling for optical flow estimation](video_understanding/efficient_all-pairs_correlation_volume_sampling_for_optical_flow_estimation.md) | arXiv: 2505.16942
 - [x] [efficient and high-fidelity omni modality retrieval](multimodal_vlm/efficient_and_high-fidelity_omni_modality_retrieval.md)
 - [x] [efficient and training-free single-image diffusion models](image_generation/efficient_and_training-free_single-image_diffusion_models.md) | arXiv: 2606.04299
-- [x] [efficient document parsing via parallel token prediction](multimodal_vlm/efficient_document_parsing_via_parallel_token_prediction.md) | arXiv: 2603.15206
 - [x] [efficient equivariant transformer for self-driving agent modeling](autonomous_driving/efficient_equivariant_transformer_for_self-driving_agent_modeling.md) | arXiv: 2604.01466
 - [x] [efficient frame selection for long video understanding via reinforcement learnin](video_understanding/efficient_frame_selection_for_long_video_understanding_via_reinforcement_learnin.md)
 - [x] [efficient hybrid se3-equivariant visuomotor flow policy via spherical harmonics ](3d_vision/efficient_hybrid_se3-equivariant_visuomotor_flow_policy_via_spherical_harmonics_.md) | arXiv: 2603.23227
@@ -986,7 +965,6 @@
 - [x] [efficient long-context modeling in diffusion language models via block approxima](video_generation/efficient_long-context_modeling_in_diffusion_language_models_via_block_approxima.md) | arXiv: 2605.19726
 - [x] [efficient real-time raw-to-raw denoising for extreme low-light ultra hd video on](image_restoration/efficient_real-time_raw-to-raw_denoising_for_extreme_low-light_ultra_hd_video_on.md)
 - [x] [efficient rgb-d scene understanding via multi-task adaptive learning and cross-d](segmentation/efficient_rgb-d_scene_understanding_via_multi-task_adaptive_learning_and_cross-d.md) | arXiv: 2603.07570
-- [x] [efficient unrolled networks for large-scale 3d inverse problems](others/efficient_unrolled_networks_for_large-scale_3d_inverse_problems.md)
 - [x] [efficient video object segmentation and tracking with recurrent dynamic submodel](segmentation/efficient_video_object_segmentation_and_tracking_with_recurrent_dynamic_submodel.md)
 - [x] [efficient weighted sampling via score-based generative models](image_generation/efficient_weighted_sampling_via_score-based_generative_models.md)
 - [x] [efficiently reconstructing dynamic scenes one d4rt at a time](3d_vision/efficiently_reconstructing_dynamic_scenes_one_d4rt_at_a_time.md)
@@ -1002,7 +980,6 @@
 - [x] [egocontrol controllable egocentric video generation via 3d full-body poses](video_generation/egocontrol_controllable_egocentric_video_generation_via_3d_full-body_poses.md)
 - [x] [egoedit dataset real-time streaming model and benchmark for egocentric video edi](video_generation/egoedit_dataset_real-time_streaming_model_and_benchmark_for_egocentric_video_edi.md)
 - [x] [egoflow gradient-guided flow matching for egocentric 6dof object motion generati](image_generation/egoflow_gradient-guided_flow_matching_for_egocentric_6dof_object_motion_generati.md) | arXiv: 2604.01421
-- [x] [egomind activating spatial cognition through linguistic reasoning in mllms](multimodal_vlm/egomind_activating_spatial_cognition_through_linguistic_reasoning_in_mllms.md) | arXiv: 2604.03318
 - [x] [egoposeformer v2 accurate egocentric human motion estimation for arvr](human_understanding/egoposeformer_v2_accurate_egocentric_human_motion_estimation_for_arvr.md) | arXiv: 2603.04090
 - [x] [egoprox evaluating mllms on egocentric 3d proximity reasoning across a cognitive](multimodal_vlm/egoprox_evaluating_mllms_on_egocentric_3d_proximity_reasoning_across_a_cognitive.md) | arXiv: 2605.24456
 - [x] [egoroc towards egocentric robotic control via task-agnostic visual alignment](robotics/egoroc_towards_egocentric_robotic_control_via_task-agnostic_visual_alignment.md)
@@ -1015,7 +992,6 @@
 - [x] [elasticformer detecting objects in hrw shots via elastic computing vision transf](object_detection/elasticformer_detecting_objects_in_hrw_shots_via_elastic_computing_vision_transf.md)
 - [x] [electromagnetic inverse scattering from a single transmitter](others/electromagnetic_inverse_scattering_from_a_single_transmitter.md)
 - [x] [elic efficient lidar geometry compression via cross-bit-depth feature propagatio](autonomous_driving/elic_efficient_lidar_geometry_compression_via_cross-bit-depth_feature_propagatio.md) | arXiv: 2511.14070
-- [x] [eliciting complex spatial reasoning in mllms through wide-baseline matching](multimodal_vlm/eliciting_complex_spatial_reasoning_in_mllms_through_wide-baseline_matching.md) | arXiv: 2606.03577
 - [x] [eliminate distance differences induced by backdoor attacks layer-selective train](ai_safety/eliminate_distance_differences_induced_by_backdoor_attacks_layer-selective_train.md)
 - [x] [elv-halluc benchmarking semantic aggregation hallucinations in video understandi](hallucination/elv-halluc_benchmarking_semantic_aggregation_hallucinations_in_video_understandi.md)
 - [x] [elvis enhance low-light for video instance segmentation in the dark](segmentation/elvis_enhance_low-light_for_video_instance_segmentation_in_the_dark.md) | arXiv: 2512.01495
@@ -1097,14 +1073,12 @@
 - [x] [evolving prompt adaptation for vision-language models](multimodal_vlm/evolving_prompt_adaptation_for_vision-language_models.md) | arXiv: 2603.09493
 - [x] [ew-detr evolving world object detection via incremental low-rank detection trans](object_detection/ew-detr_evolving_world_object_detection_via_incremental_low-rank_detection_trans.md) | arXiv: 2602.20985
 - [x] [exemplar-free class incremental learning via preserving class-discriminative str](self_supervised/exemplar-free_class_incremental_learning_via_preserving_class-discriminative_str.md)
-- [x] [exemplar-free continual learning for state space models](others/exemplar-free_continual_learning_for_state_space_models.md) | arXiv: 2505.18604
 - [x] [exmesh explicit mesh reconstruction with topology adaptation](3d_vision/exmesh_explicit_mesh_reconstruction_with_topology_adaptation.md) | arXiv: 2606.07288
 - [x] [exotic external vision-driven incomplete multi-view classification](others/exotic_external_vision-driven_incomplete_multi-view_classification.md)
 - [x] [expanding mmwave datasets for human pose estimation with unlabeled data and lida](autonomous_driving/expanding_mmwave_datasets_for_human_pose_estimation_with_unlabeled_data_and_lida.md) | arXiv: 2603.14507
 - [x] [experience transfer for multimodal llm agents in minecraft game](llm_agent/experience_transfer_for_multimodal_llm_agents_in_minecraft_game.md)
 - [x] [expert pyramid tuning efficient parameter fine-tuning for expertise-driven task ](robotics/expert_pyramid_tuning_efficient_parameter_fine-tuning_for_expertise-driven_task_.md) | arXiv: 2603.12577
 - [x] [expert-teacher-student collaborative learning for domain adaptive object detecti](object_detection/expert-teacher-student_collaborative_learning_for_domain_adaptive_object_detecti.md)
-- [x] [explaining clip zero-shot predictions through concepts](information_retrieval/explaining_clip_zero-shot_predictions_through_concepts.md) | arXiv: 2603.28211
 - [x] [explaining object detectors via collective contribution of pixels](object_detection/explaining_object_detectors_via_collective_contribution_of_pixels.md) | arXiv: 2412.00666
 - [x] [explore with long-term memory a benchmark and multimodal llm-based reinforcement](multimodal_vlm/explore_with_long-term_memory_a_benchmark_and_multimodal_llm-based_reinforcement.md) | arXiv: 2601.10744
 - [x] [exploring 6d object pose estimation with deformation](3d_vision/exploring_6d_object_pose_estimation_with_deformation.md) | arXiv: 2604.06720
@@ -1257,7 +1231,6 @@
 - [x] [focus dont prune identifying instruction-relevant regions for information-rich i](multimodal_vlm/focus_dont_prune_identifying_instruction-relevant_regions_for_information-rich_i.md) | arXiv: 2603.22815
 - [x] [focus on background exploring sams potential in few-shot medical image segmentat](medical_imaging/focus_on_background_exploring_sams_potential_in_few-shot_medical_image_segmentat.md)
 - [x] [focus-to-perceive representation learning a cognition-inspired hierarchical fram](medical_imaging/focus-to-perceive_representation_learning_a_cognition-inspired_hierarchical_fram.md) | arXiv: 2603.25778
-- [x] [focusui efficient ui grounding via position-preserving visual token selection](multimodal_vlm/focusui_efficient_ui_grounding_via_position-preserving_visual_token_selection.md)
 - [x] [foleydesigner immersive stereo foley generation with precise spatio-temporal ali](audio_speech/foleydesigner_immersive_stereo_foley_generation_with_precise_spatio-temporal_ali.md)
 - [x] [foleydirector fine-grained temporal steering for video-to-audio generation via s](audio_speech/foleydirector_fine-grained_temporal_steering_for_video-to-audio_generation_via_s.md)
 - [x] [follow the saliency supervised saliency for retrieval-augmented dense video capt](segmentation/follow_the_saliency_supervised_saliency_for_retrieval-augmented_dense_video_capt.md) | arXiv: 2603.11460
@@ -1312,7 +1285,6 @@
 - [x] [from failure to feedback group revision unlocks hard cases in object-level groun](multimodal_vlm/from_failure_to_feedback_group_revision_unlocks_hard_cases_in_object-level_groun.md)
 - [x] [from feature learning to spectral basis learning a unifying and flexible framewo](self_supervised/from_feature_learning_to_spectral_basis_learning_a_unifying_and_flexible_framewo.md)
 - [x] [from few-way to many-way rethinking few-shot fine-grained image classification](self_supervised/from_few-way_to_many-way_rethinking_few-shot_fine-grained_image_classification.md)
-- [x] [from indoor to open world revealing the spatial reasoning gap in mllms](multimodal_vlm/from_indoor_to_open_world_revealing_the_spatial_reasoning_gap_in_mllms.md)
 - [x] [from infusion to assimilation distillation for medical image segmentation](medical_imaging/from_infusion_to_assimilation_distillation_for_medical_image_segmentation.md)
 - [x] [from inpainting to layer decomposition repurposing generative inpainting models ](image_generation/from_inpainting_to_layer_decomposition_repurposing_generative_inpainting_models_.md) | arXiv: 2511.20996
 - [x] [from intuition to investigation a tool-augmented reasoning mllm framework for ge](human_understanding/from_intuition_to_investigation_a_tool-augmented_reasoning_mllm_framework_for_ge.md) | arXiv: 2603.01038
@@ -1383,7 +1355,6 @@
 - [x] [general process reward modeling for robotic reinforcement learning](robotics/general_process_reward_modeling_for_robotic_reinforcement_learning.md)
 - [x] [generalizable co-salient object detection via mixed content-style modulation](segmentation/generalizable_co-salient_object_detection_via_mixed_content-style_modulation.md)
 - [x] [generalizable human gaussian splatting via multi-view semantic consistency](3d_vision/generalizable_human_gaussian_splatting_via_multi-view_semantic_consistency.md) | arXiv: 2604.25466
-- [x] [generalizable radio-frequency radiance fields for spatial spectrum synthesis](others/generalizable_radio-frequency_radiance_fields_for_spatial_spectrum_synthesis.md)
 - [x] [generalizable sparse-view 3d reconstruction from unconstrained images](3d_vision/generalizable_sparse-view_3d_reconstruction_from_unconstrained_images.md)
 - [x] [generalizable structure-aware keypoint correspondence for category-unified 3d si](3d_vision/generalizable_structure-aware_keypoint_correspondence_for_category-unified_3d_si.md)
 - [x] [generalizable video quality assessment via weak-to-strong learning](llm_efficiency/generalizable_video_quality_assessment_via_weak-to-strong_learning.md) | arXiv: 2505.03631
@@ -1440,7 +1411,6 @@
 - [x] [geotikzbridge advancing multimodal code generation for geometric perception and ](code_intelligence/geotikzbridge_advancing_multimodal_code_generation_for_geometric_perception_and_.md) | arXiv: 2603.22687
 - [x] [geovis geospatially rewarded visual search for remote sensing visual grounding](remote_sensing/geovis_geospatially_rewarded_visual_search_for_remote_sensing_visual_grounding.md)
 - [x] [geoworld geometric world models](reinforcement_learning/geoworld_geometric_world_models.md) | arXiv: 2602.23058
-- [x] [ggbench a geometric generative reasoning benchmark for unified multimodal models](multimodal_vlm/ggbench_a_geometric_generative_reasoning_benchmark_for_unified_multimodal_models.md)
 - [x] [ggpt geometry grounded point transformer](3d_vision/ggpt_geometry_grounded_point_transformer.md) | arXiv: 2603.11174
 - [x] [gh-naf grid-adaptive hash-level-attended neural attenuation fields for discrepan](medical_imaging/gh-naf_grid-adaptive_hash-level-attended_neural_attenuation_fields_for_discrepan.md)
 - [x] [ghost-fwl a large-scale full-waveform lidar dataset for ghost detection and remo](autonomous_driving/ghost-fwl_a_large-scale_full-waveform_lidar_dataset_for_ghost_detection_and_remo.md) | arXiv: 2603.28224
@@ -1498,7 +1468,6 @@
 - [x] [gsnr graph smooth null space representation for inverse problems](image_restoration/gsnr_graph_smooth_null_space_representation_for_inverse_problems.md) | arXiv: 2602.20328
 - [x] [gsv2x geometry-aware uncertainty modeling and orthogonal fusion for robust roads](autonomous_driving/gsv2x_geometry-aware_uncertainty_modeling_and_orthogonal_fusion_for_robust_roads.md)
 - [x] [gt-svj generative-transformer-based self-supervised video judge](video_generation/gt-svj_generative-transformer-based_self-supervised_video_judge.md)
-- [x] [gthinker towards general multimodal reasoning via cue-guided rethinking](multimodal_vlm/gthinker_towards_general_multimodal_reasoning_via_cue-guided_rethinking.md)
 - [x] [gtr turbo merged checkpoint free teacher](multimodal_vlm/gtr_turbo_merged_checkpoint_free_teacher.md) | arXiv: 2512.13043
 - [x] [guardians of the hair rescuing soft boundaries in depth stereo and novel views](3d_vision/guardians_of_the_hair_rescuing_soft_boundaries_in_depth_stereo_and_novel_views.md)
 - [x] [guardtrace-vl detecting unsafe multimodel reasoning via iterative safety supervi](ai_safety/guardtrace-vl_detecting_unsafe_multimodel_reasoning_via_iterative_safety_supervi.md)
@@ -1518,7 +1487,6 @@
 - [x] [h2-surv hierarchical hyperbolic multimodal representation learning for survival ](medical_imaging/h2-surv_hierarchical_hyperbolic_multimodal_representation_learning_for_survival_.md)
 - [x] [h2a2 homogeneity-aware and heterogeneity-aware feature perception for unified in](3d_vision/h2a2_homogeneity-aware_and_heterogeneity-aware_feature_perception_for_unified_in.md)
 - [x] [had hallucination-aware diffusion priors for 3d reconstruction](3d_vision/had_hallucination-aware_diffusion_priors_for_3d_reconstruction.md) | arXiv: 2605.16873
-- [x] [had heterogeneity-aware distillation for lifelong heterogeneous learning](others/had_heterogeneity-aware_distillation_for_lifelong_heterogeneous_learning.md)
 - [x] [hallugen synthesizing realistic and controllable hallucinations for evaluating i](hallucination/hallugen_synthesizing_realistic_and_controllable_hallucinations_for_evaluating_i.md)
 - [x] [ham a training-free style transfer approach via heterogeneous attention modulati](image_generation/ham_a_training-free_style_transfer_approach_via_heterogeneous_attention_modulati.md) | arXiv: 2603.24043
 - [x] [hamipose hamiltonian optimization for unsupervised domain adaptive pose estimati](human_understanding/hamipose_hamiltonian_optimization_for_unsupervised_domain_adaptive_pose_estimati.md)
@@ -1541,13 +1509,11 @@
 - [x] [hats hardness-aware trajectory synthesis for gui agents](llm_agent/hats_hardness-aware_trajectory_synthesis_for_gui_agents.md) | arXiv: 2603.12138
 - [x] [have-bench hierarchical audio-visual evaluation from perception to interaction](audio_speech/have-bench_hierarchical_audio-visual_evaluation_from_perception_to_interaction.md)
 - [x] [haven hierarchical long video understanding with audiovisual entity cohesion](llm_agent/haven_hierarchical_long_video_understanding_with_audiovisual_entity_cohesion.md) | arXiv: 2601.13719
-- [x] [hawk head importance-aware visual token pruning in multimodal models](multimodal_vlm/hawk_head_importance-aware_visual_token_pruning_in_multimodal_models.md) | arXiv: 2604.07812
 - [x] [hbridge h-shape bridging of heterogeneous experts for unified multimodal underst](multimodal_vlm/hbridge_h-shape_bridging_of_heterogeneous_experts_for_unified_multimodal_underst.md)
 - [x] [hcl-ff hierarchical and contrastive learning for forward-forward algorithm](self_supervised/hcl-ff_hierarchical_and_contrastive_learning_for_forward-forward_algorithm.md) | arXiv: 2605.24797
 - [x] [hdr-vlm hdr-domain adaptation of vlms and preference-aligned quality assessment ](multimodal_vlm/hdr-vlm_hdr-domain_adaptation_of_vlms_and_preference-aligned_quality_assessment_.md)
 - [x] [hear what matters text-conditioned selective video-to-audio generation](video_understanding/hear_what_matters_text-conditioned_selective_video-to-audio_generation.md) | arXiv: 2512.02650
 - [x] [hear what you see video-to-audio generation with diffusion transformer and seman](audio_speech/hear_what_you_see_video-to-audio_generation_with_diffusion_transformer_and_seman.md)
-- [x] [hear you are teaching llms spatial reasoning with vision and spatial sound](multimodal_vlm/hear_you_are_teaching_llms_spatial_reasoning_with_vision_and_spatial_sound.md)
 - [x] [hearing the room through the shape of the drum modal-guided sound recovery from ](audio_speech/hearing_the_room_through_the_shape_of_the_drum_modal-guided_sound_recovery_from_.md)
 - [x] [herbench a benchmark for multi-evidence integration in video question answering](video_understanding/herbench_a_benchmark_for_multi-evidence_integration_in_video_question_answering.md) | arXiv: 2512.14870
 - [x] [hermite radial basis function for surface reconstruction via differentiable rend](3d_vision/hermite_radial_basis_function_for_surface_reconstruction_via_differentiable_rend.md)
@@ -1576,7 +1542,6 @@
 - [x] [hierarchical concept embedding pursuit for interpretable image classification](interpretability/hierarchical_concept_embedding_pursuit_for_interpretable_image_classification.md)
 - [x] [hierarchical enhancement of semantic priors for disentangled text-driven motion ](human_understanding/hierarchical_enhancement_of_semantic_priors_for_disentangled_text-driven_motion_.md)
 - [x] [hierarchical point-patch fusion with adaptive patch codebook for 3d shape anomal](object_detection/hierarchical_point-patch_fusion_with_adaptive_patch_codebook_for_3d_shape_anomal.md)
-- [x] [hierarchical process reward models are symbolic vision learners](multimodal_vlm/hierarchical_process_reward_models_are_symbolic_vision_learners.md)
 - [x] [hierarchical visual relocalization with nearest view synthesis from feature gaus](3d_vision/hierarchical_visual_relocalization_with_nearest_view_synthesis_from_feature_gaus.md) | arXiv: 2603.29185
 - [x] [hierarchically robust zero-shot vision-language models](ai_safety/hierarchically_robust_zero-shot_vision-language_models.md)
 - [x] [hieruq hierarchical uncertainty quantification with adaptive granularity reconci](interpretability/hieruq_hierarchical_uncertainty_quantification_with_adaptive_granularity_reconci.md)
@@ -1598,7 +1563,6 @@
 - [x] [holo homography-guided pose estimator network for fine-grained visual localizati](autonomous_driving/holo_homography-guided_pose_estimator_network_for_fine-grained_visual_localizati.md)
 - [x] [holocine holistic generation of cinematic multi-shot long video narratives](video_generation/holocine_holistic_generation_of_cinematic_multi-shot_long_video_narratives.md)
 - [x] [homaloidal parametrization for detecting critical two-view configurations](3d_vision/homaloidal_parametrization_for_detecting_critical_two-view_configurations.md)
-- [x] [honeybee data recipes for vision-language reasoners](multimodal_vlm/honeybee_data_recipes_for_vision-language_reasoners.md) | arXiv: 2510.12225
 - [x] [hops hierarchical open-vocabulary part segmentation with attention-aware filteri](segmentation/hops_hierarchical_open-vocabulary_part_segmentation_with_attention-aware_filteri.md)
 - [x] [horizonforge driving scene editing with any trajectories and any vehicles](autonomous_driving/horizonforge_driving_scene_editing_with_any_trajectories_and_any_vehicles.md) | arXiv: 2602.21333
 - [x] [housemind tokenization mllm floor plan](multimodal_vlm/housemind_tokenization_mllm_floor_plan.md) | arXiv: 2603.11640
@@ -1653,7 +1617,6 @@
 - [x] [iag input-aware backdoor attack on vlm-based visual grounding](llm_safety/iag_input-aware_backdoor_attack_on_vlm-based_visual_grounding.md) | arXiv: 2508.09456
 - [x] [ibisagent reinforcing pixel-level visual reasoning in mllms for universal biomed](medical_imaging/ibisagent_reinforcing_pixel-level_visual_reasoning_in_mllms_for_universal_biomed.md)
 - [x] [ictpolarreal a polarized reflection and material dataset of real world objects](3d_vision/ictpolarreal_a_polarized_reflection_and_material_dataset_of_real_world_objects.md) | arXiv: 2603.24912
-- [x] [id-sim an identity-focused similarity metric](others/id-sim_an_identity-focused_similarity_metric.md)
 - [x] [identity-preserving image-to-video generation via reward-guided optimization](video_generation/identity-preserving_image-to-video_generation_via_reward-guided_optimization.md) | arXiv: 2510.14255
 - [x] [idesplat iterative depth probability estimation for generalizable 3d gaussian sp](3d_vision/idesplat_iterative_depth_probability_estimation_for_generalizable_3d_gaussian_sp.md)
 - [x] [idperturb enhancing variation in synthetic face generation via angular perturbat](human_understanding/idperturb_enhancing_variation_in_synthetic_face_generation_via_angular_perturbat.md) | arXiv: 2602.18831
@@ -1730,7 +1693,6 @@
 - [x] [introsvg learning from rendering feedback for text-to-svg generation via an intr](image_generation/introsvg_learning_from_rendering_feedback_for_text-to-svg_generation_via_an_intr.md)
 - [x] [invad inversion-based reconstruction-free anomaly detection with diffusion model](object_detection/invad_inversion-based_reconstruction-free_anomaly_detection_with_diffusion_model.md) | arXiv: 2504.05662
 - [x] [invcoss inversion-driven continual self-supervised learning in medical multi-mod](medical_imaging/invcoss_inversion-driven_continual_self-supervised_learning_in_medical_multi-mod.md)
-- [x] [ipr-1 interactive physical reasoner](multimodal_vlm/ipr-1_interactive_physical_reasoner.md) | arXiv: 2511.15407
 - [x] [ir-hgp physically-aware gaussian inverse rendering for high-illumination scenes ](3d_vision/ir-hgp_physically-aware_gaussian_inverse_rendering_for_high-illumination_scenes_.md)
 - [x] [iris bringing realworld priors into diffusion model for monocular depth estimation](3d_vision/iris_bringing_realworld_priors_into_diffusion_model_for_monocular_depth_estimation.md) | arXiv: 2603.16340
 - [x] [iris integrating language into diffusion-based monocular depth estimation](3d_vision/iris_integrating_language_into_diffusion-based_monocular_depth_estimation.md)
@@ -1785,7 +1747,6 @@
 - [x] [langref3dgs natural language-guided 3d referential segmentation from partial obs](3d_vision/langref3dgs_natural_language-guided_3d_referential_segmentation_from_partial_obs.md)
 - [x] [language does matter for cross-domain few-shot visual feature enhancement](others/language_does_matter_for_cross-domain_few-shot_visual_feature_enhancement.md)
 - [x] [language models can explain visual features via steering](interpretability/language_models_can_explain_visual_features_via_steering.md) | arXiv: 2603.22593
-- [x] [language-driven fine-grained retrieval](information_retrieval/language-driven_fine-grained_retrieval.md)
 - [x] [language-free generative editing from one visual example](image_generation/language-free_generative_editing_from_one_visual_example.md) | arXiv: 2603.25441
 - [x] [language-guided frequency modulation for large vision-language models](multimodal_vlm/language-guided_frequency_modulation_for_large_vision-language_models.md)
 - [x] [language-guided one-step diffusion model for nighttime flare removal](image_restoration/language-guided_one-step_diffusion_model_for_nighttime_flare_removal.md)
@@ -1957,7 +1918,6 @@
 - [x] [m3dlayout a multi-source dataset of 3d indoor layouts and structured description](3d_vision/m3dlayout_a_multi-source_dataset_of_3d_indoor_layouts_and_structured_description.md) | arXiv: 2509.23728
 - [x] [m3grounder mask-based multi-span and multi-granular grounding for document qa](multimodal_vlm/m3grounder_mask-based_multi-span_and_multi-granular_grounding_for_document_qa.md)
 - [x] [m3kg rag multi hop multimodal knowledge graph enhanced retrieval augmented genera](graph_learning/m3kg_rag_multi_hop_multimodal_knowledge_graph_enhanced_retrieval_augmented_genera.md) | arXiv: 2512.20136
-- [x] [m4-rag a massive-scale multilingual multi-cultural multimodal rag](information_retrieval/m4-rag_a_massive-scale_multilingual_multi-cultural_multimodal_rag.md) | arXiv: 2512.05959
 - [x] [m4-sam multi-modal mixture-of-experts with memory-augmented sam for rgb-d video ](segmentation/m4-sam_multi-modal_mixture-of-experts_with_memory-augmented_sam_for_rgb-d_video_.md)
 - [x] [m4human a large-scale multimodal mmwave radar benchmark for human mesh reconstru](human_understanding/m4human_a_large-scale_multimodal_mmwave_radar_benchmark_for_human_mesh_reconstru.md)
 - [x] [m4v multimodal mamba for efficient text-to-video generation](video_generation/m4v_multimodal_mamba_for_efficient_text-to-video_generation.md)
@@ -2103,7 +2063,6 @@
 - [x] [mm-act learn from multimodal parallel generation to act](robotics/mm-act_learn_from_multimodal_parallel_generation_to_act.md)
 - [x] [mm-ovseg multimodal optical-sar fusion for open-vocabulary segmentation in remot](remote_sensing/mm-ovseg_multimodal_optical-sar_fusion_for_open-vocabulary_segmentation_in_remot.md)
 - [x] [mm-recoder advancing chart-to-code generation with reinforcement learning and se](code_intelligence/mm-recoder_advancing_chart-to-code_generation_with_reinforcement_learning_and_se.md) | arXiv: 2604.01600
-- [x] [mm-ser multimodal self-refinement for lightweight image captioning](multimodal_vlm/mm-ser_multimodal_self-refinement_for_lightweight_image_captioning.md)
 - [x] [mmaudioreverbs video-guided acoustic modeling for dereverberation and room impul](audio_speech/mmaudioreverbs_video-guided_acoustic_modeling_for_dereverberation_and_room_impul.md) | arXiv: 2605.00431
 - [x] [mmbench-gui a unified hierarchical evaluation framework for multi-platform gui a](llm_agent/mmbench-gui_a_unified_hierarchical_evaluation_framework_for_multi-platform_gui_a.md)
 - [x] [mmcp-gen a modality-extensible diffusion language model for conditional protein ](computational_biology/mmcp-gen_a_modality-extensible_diffusion_language_model_for_conditional_protein_.md)
@@ -2142,7 +2101,6 @@
 - [x] [molmo2 open weights and data for vision-language models with video understanding](multimodal_vlm/molmo2_open_weights_and_data_for_vision-language_models_with_video_understanding.md)
 - [x] [momentum memory for knowledge distillation in computational pathology](medical_imaging/momentum_memory_for_knowledge_distillation_in_computational_pathology.md) | arXiv: 2602.21395
 - [x] [momo mars orbital model foundation model for mars orbital applications](self_supervised/momo_mars_orbital_model_foundation_model_for_mars_orbital_applications.md) | arXiv: 2604.02719
-- [x] [monet reasoning in latent visual space beyond image and language](multimodal_vlm/monet_reasoning_in_latent_visual_space_beyond_image_and_language.md)
 - [x] [monocular open vocabulary occupancy prediction for indoor scenes](autonomous_driving/monocular_open_vocabulary_occupancy_prediction_for_indoor_scenes.md) | arXiv: 2602.22667
 - [x] [monosaod monocular 3d object detection with sparsely annotated label](3d_vision/monosaod_monocular_3d_object_detection_with_sparsely_annotated_label.md) | arXiv: 2604.01646
 - [x] [monovlm monocular 3d visual grounding with vision language models](3d_vision/monovlm_monocular_3d_visual_grounding_with_vision_language_models.md)
@@ -2196,7 +2154,6 @@
 - [x] [mta multimodal task alignment for bev perception and captioning](autonomous_driving/mta_multimodal_task_alignment_for_bev_perception_and_captioning.md)
 - [x] [mtllfm multimodal-temporal laughter localization ur-funny-temporal and smile-tem](video_understanding/mtllfm_multimodal-temporal_laughter_localization_ur-funny-temporal_and_smile-tem.md) | arXiv: 2605.25409
 - [x] [mu-generf multi-view uncertainty-guided generalizable neural radiance fields for](3d_vision/mu-generf_multi-view_uncertainty-guided_generalizable_neural_radiance_fields_for.md) | arXiv: 2604.17965
-- [x] [muco multi-turn contrastive learning for multimodal embedding model](information_retrieval/muco_multi-turn_contrastive_learning_for_multimodal_embedding_model.md) | arXiv: 2602.06393
 - [x] [mufasa a multi-layer framework for slot attention](others/mufasa_a_multi-layer_framework_for_slot_attention.md)
 - [x] [mukv multi-grained kv cache compression for long streaming video question-answer](video_understanding/mukv_multi-grained_kv_cache_compression_for_long_streaming_video_question-answer.md)
 - [x] [multi-crit benchmarking multimodal judges on pluralistic criteria-following](multimodal_vlm/multi-crit_benchmarking_multimodal_judges_on_pluralistic_criteria-following.md) | arXiv: 2511.21662
@@ -2364,7 +2321,6 @@
 - [x] [oneocc semantic occupancy prediction for legged robots with a single panoramic c](autonomous_driving/oneocc_semantic_occupancy_prediction_for_legged_robots_with_a_single_panoramic_c.md) | arXiv: 2511.03571
 - [x] [onesparse a unified framework for sparse activation layers in vision models](model_compression/onesparse_a_unified_framework_for_sparse_activation_layers_in_vision_models.md)
 - [x] [onestory coherent multi-shot video generation with adaptive memory](video_generation/onestory_coherent_multi-shot_video_generation_with_adaptive_memory.md)
-- [x] [onethinker all-in-one reasoning model for image and video](multimodal_vlm/onethinker_all-in-one_reasoning_model_for_image_and_video.md) | arXiv: 2512.03043
 - [x] [online data curation for object detection via marginal contributions to dataset-](object_detection/online_data_curation_for_object_detection_via_marginal_contributions_to_dataset-.md)
 - [x] [online3r online learning for consistent sequential reconstruction based on geome](3d_vision/online3r_online_learning_for_consistent_sequential_reconstruction_based_on_geome.md)
 - [x] [onlinehmr video-based online world-grounded human mesh recovery](3d_vision/onlinehmr_video-based_online_world-grounded_human_mesh_recovery.md) | arXiv: 2603.17355
@@ -2466,7 +2422,6 @@
 - [x] [pavas physics-aware video-to-audio synthesis](audio_speech/pavas_physics-aware_video-to-audio_synthesis.md)
 - [x] [pc-talk precise facial animation control for audio-driven talking face generatio](human_understanding/pc-talk_precise_facial_animation_control_for_audio-driven_talking_face_generatio.md)
 - [x] [pca-seg revisiting cost aggregation for openvocabulary semantic and part segmentat](segmentation/pca-seg_revisiting_cost_aggregation_for_openvocabulary_semantic_and_part_segmentat.md) | arXiv: 2603.17520
-- [x] [pdcr perception-decomposed confidence reward for vision-language reasoning](multimodal_vlm/pdcr_perception-decomposed_confidence_reward_for_vision-language_reasoning.md) | arXiv: 2605.13467
 - [x] [pdd manifold-prior diverse distillation for medical anomaly detection](medical_imaging/pdd_manifold-prior_diverse_distillation_for_medical_anomaly_detection.md)
 - [x] [pe3r perception-efficient 3d reconstruction](3d_vision/pe3r_perception-efficient_3d_reconstruction.md) | arXiv: 2503.07507
 - [x] [pearl geometry aligns semantics for training-free open-vocabulary semantic segme](segmentation/pearl_geometry_aligns_semantics_for_training-free_open-vocabulary_semantic_segme.md) | arXiv: 2603.21528
@@ -2477,7 +2432,6 @@
 - [x] [perception programs visual tool reasoning](multimodal_vlm/perception_programs_visual_tool_reasoning.md) | arXiv: 2604.12896
 - [x] [perceptual 3d simulation with physical world modeling](3d_vision/perceptual_3d_simulation_with_physical_world_modeling.md)
 - [x] [perceptual neural video compression with color separation and rank chain](image_restoration/perceptual_neural_video_compression_with_color_separation_and_rank_chain.md)
-- [x] [perceptual-evidence anchored reinforced learning for multimodal reasoning](multimodal_vlm/perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
 - [x] [performrecast expression and head pose disentanglement for portrait video editin](video_generation/performrecast_expression_and_head_pose_disentanglement_for_portrait_video_editin.md) | arXiv: 2603.19731
 - [x] [perpetualwonder long-horizon action-conditioned 4d scene generation](3d_vision/perpetualwonder_long-horizon_action-conditioned_4d_scene_generation.md)
 - [x] [perpetualwonder long-horizon action-conditioned 4d scene generation](video_generation/perpetualwonder_long-horizon_action-conditioned_4d_scene_generation.md)
@@ -2562,7 +2516,6 @@
 - [x] [pointing at parts training-free few-shot grounding in multimodal llms](multimodal_vlm/pointing_at_parts_training-free_few-shot_grounding_in_multimodal_llms.md)
 - [x] [pointins instance-aware self-supervised learning for point clouds](3d_vision/pointins_instance-aware_self-supervised_learning_for_point_clouds.md) | arXiv: 2603.25165
 - [x] [pointnsp autoregressive 3d point cloud generation with next-scale level-of-detai](3d_vision/pointnsp_autoregressive_3d_point_cloud_generation_with_next-scale_level-of-detai.md)
-- [x] [points-long adaptive dual-mode visual reasoning in mllms](multimodal_vlm/points-long_adaptive_dual-mode_visual_reasoning_in_mllms.md)
 - [x] [points-to-3d structure-aware 3d generation with point cloud priors](autonomous_driving/points-to-3d_structure-aware_3d_generation_with_point_cloud_priors.md) | arXiv: 2603.18782
 - [x] [pointthinker point-incentivized parallel thinking for multimodal large language ](multimodal_vlm/pointthinker_point-incentivized_parallel_thinking_for_multimodal_large_language_.md)
 - [x] [pointtpa dynamic network parameter adaptation for 3d scene understanding](3d_vision/pointtpa_dynamic_network_parameter_adaptation_for_3d_scene_understanding.md) | arXiv: 2604.04933
@@ -2631,7 +2584,6 @@
 - [x] [progressiveavatars progressive animatable 3d gaussian avatars](3d_vision/progressiveavatars_progressive_animatable_3d_gaussian_avatars.md) | arXiv: 2603.16447
 - [x] [progtrack a multi-object tracking algorithm with progressive matching strategy](video_understanding/progtrack_a_multi-object_tracking_algorithm_with_progressive_matching_strategy.md)
 - [x] [projflow projection sampling with flow matching for zero-shot exact spatial moti](human_understanding/projflow_projection_sampling_with_flow_matching_for_zero-shot_exact_spatial_moti.md)
-- [x] [prom3e probabilistic masked multimodal embedding model for ecology](information_retrieval/prom3e_probabilistic_masked_multimodal_embedding_model_for_ecology.md)
 - [x] [promo promptable virtual tryon efficient](image_generation/promo_promptable_virtual_tryon_efficient.md) | arXiv: 2603.11675
 - [x] [prompt yourself awakening textual semantics in 1d visual tokenizers](image_generation/prompt_yourself_awakening_textual_semantics_in_1d_visual_tokenizers.md)
 - [x] [prompt-anchored vision-text distillation for lifelong person re-identification](human_understanding/prompt-anchored_vision-text_distillation_for_lifelong_person_re-identification.md) | arXiv: 2605.05027
@@ -2691,7 +2643,6 @@
 - [x] [qvggt post-training quantized visual geometry grounded transformer](model_compression/qvggt_post-training_quantized_visual_geometry_grounded_transformer.md) | arXiv: 2605.31124
 - [x] [qwen-image-layered towards inherent editability via layer decomposition](image_generation/qwen-image-layered_towards_inherent_editability_via_layer_decomposition.md)
 - [x] [r-4b incentivizing general-purpose auto-thinking in mllms via bi-mode annealing ](multimodal_vlm/r-4b_incentivizing_general-purpose_auto-thinking_in_mllms_via_bi-mode_annealing_.md)
-- [x] [r-c2 cycle-consistent reinforcement learning improves multimodal reasoning](multimodal_vlm/r-c2_cycle-consistent_reinforcement_learning_improves_multimodal_reasoning.md)
 - [x] [r2-seg training-free ood medical tumor segmentation via anatomical reasoning and](medical_imaging/r2-seg_training-free_ood_medical_tumor_segmentation_via_anatomical_reasoning_and.md)
 - [x] [r2g multi view circuit graph benchmark suite from rtl to gdsii](graph_learning/r2g_multi_view_circuit_graph_benchmark_suite_from_rtl_to_gdsii.md) | arXiv: 2604.08810
 - [x] [r2tua reconstruction-residual based targeted and untargeted attack against text-](ai_safety/r2tua_reconstruction-residual_based_targeted_and_untargeted_attack_against_text-.md)
@@ -2711,7 +2662,6 @@
 - [x] [ramen resolution-adjustable multimodal encoder for earth observation](remote_sensing/ramen_resolution-adjustable_multimodal_encoder_for_earth_observation.md)
 - [x] [ramen robust test-time adaptation of vision-language models with active sample s](multimodal_vlm/ramen_robust_test-time_adaptation_of_vision-language_models_with_active_sample_s.md) | arXiv: 2604.21728
 - [x] [random wins all rethinking grouping strategies for vision tokens](object_detection/random_wins_all_rethinking_grouping_strategies_for_vision_tokens.md) | arXiv: 2603.00486
-- [x] [rank-guided pseudo-bias learning for robust black-box adaptation](others/rank-guided_pseudo-bias_learning_for_robust_black-box_adaptation.md)
 - [x] [rankood - class ranking-based out-of-distribution detection](ai_safety/rankood_-_class_ranking-based_out-of-distribution_detection.md)
 - [x] [rap fast feedforward rendering-free attribute-guided primitive importance score ](3d_vision/rap_fast_feedforward_rendering-free_attribute-guided_primitive_importance_score_.md) | arXiv: 2602.19753
 - [x] [rapa enhancing transferable targeted attacks via random parameter pruning](ai_safety/rapa_enhancing_transferable_targeted_attacks_via_random_parameter_pruning.md)
@@ -2735,7 +2685,6 @@
 - [x] [re-align structured reasoning-guided alignment for in-context image generation a](image_generation/re-align_structured_reasoning-guided_alignment_for_in-context_image_generation_a.md)
 - [x] [re-evaluating continual vqa toward fair and robust evaluation for multimodal con](multimodal_vlm/re-evaluating_continual_vqa_toward_fair_and_robust_evaluation_for_multimodal_con.md)
 - [x] [re-vlm event-augmented vision-language model for scene understanding](multimodal_vlm/re-vlm_event-augmented_vision-language_model_for_scene_understanding.md)
-- [x] [reading or reasoning format decoupled reinforcement learning for document ocr](multimodal_vlm/reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr.md)
 - [x] [reading or reasoning format decoupled reinforcement learning for document ocr](reinforcement_learning/reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr.md)
 - [x] [reading your actions learning generalizable action representations via pre-train](self_supervised/reading_your_actions_learning_generalizable_action_representations_via_pre-train.md)
 - [x] [reag reasoning-augmented generation for knowledge-based visual question answerin](reinforcement_learning/reag_reasoning-augmented_generation_for_knowledge-based_visual_question_answerin.md) | arXiv: 2511.22715
@@ -2764,7 +2713,6 @@
 - [x] [reasoning palette modulating reasoning via latent contextualization for controll](llm_reasoning/reasoning_palette_modulating_reasoning_via_latent_contextualization_for_controll.md)
 - [x] [reasoning palette modulating reasoning via latent contextualization for controll](multimodal_vlm/reasoning_palette_modulating_reasoning_via_latent_contextualization_for_controll.md)
 - [x] [reasoning-driven anomaly detection and localization with image-level supervision](object_detection/reasoning-driven_anomaly_detection_and_localization_with_image-level_supervision.md) | arXiv: 2603.27179
-- [x] [reasonmap towards fine-grained visual reasoning from transit maps](multimodal_vlm/reasonmap_towards_fine-grained_visual_reasoning_from_transit_maps.md) | arXiv: 2505.18675
 - [x] [reattnclip training-free open-vocabulary remote sensing image segmentation via r](remote_sensing/reattnclip_training-free_open-vocabulary_remote_sensing_image_segmentation_via_r.md)
 - [x] [reattnclip training-free open-vocabulary remote sensing image segmentation via r](segmentation/reattnclip_training-free_open-vocabulary_remote_sensing_image_segmentation_via_r.md)
 - [x] [rebapl repulsive bayesian prompt learning](multimodal_vlm/rebapl_repulsive_bayesian_prompt_learning.md)
@@ -2920,7 +2868,6 @@
 - [x] [RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360° Image Quality Assessment](model_compression/rl-scaniqa_reinforcement-learned_scanpaths_for_blind_360image_quality_assessment.md) | arXiv: 2603.14297
 - [x] [rlftsim realistic and controllable multi-agent traffic simulation via reinforcem](autonomous_driving/rlftsim_realistic_and_controllable_multi-agent_traffic_simulation_via_reinforcem.md) | arXiv: 2605.19033
 - [x] [rmae-progress advancing semantic segmentation in unstructured environments](segmentation/rmae-progress_advancing_semantic_segmentation_in_unstructured_environments.md)
-- [x] [rmir a benchmark dataset for reasoning-intensive multimodal image retrieval](multimodal_vlm/rmir_a_benchmark_dataset_for_reasoning-intensive_multimodal_image_retrieval.md)
 - [x] [rned rotary number encoding and decoding for medical vlms](multimodal_vlm/rned_rotary_number_encoding_and_decoding_for_medical_vlms.md)
 - [x] [rng a unified transformer for complete 3d modeling from partial observations](3d_vision/rng_a_unified_transformer_for_complete_3d_modeling_from_partial_observations.md) | arXiv: 2603.01194
 - [x] [rnn as linear transformer a closer investigation into representational potential](others/rnn_as_linear_transformer_a_closer_investigation_into_representational_potential.md)
@@ -3054,7 +3001,6 @@
 - [x] [see and fix the flaws enabling vlms and diffusion models to comprehend visual ar](multimodal_vlm/see_and_fix_the_flaws_enabling_vlms_and_diffusion_models_to_comprehend_visual_ar.md)
 - [x] [see further think deeper advancing vlms reasoning ability with low-level visual ](multimodal_vlm/see_further_think_deeper_advancing_vlms_reasoning_ability_with_low-level_visual_.md)
 - [x] [see it say it sorted an iterative training-free framework for visually-grounded ](reinforcement_learning/see_it_say_it_sorted_an_iterative_training-free_framework_for_visually-grounded_.md) | arXiv: 2602.21497
-- [x] [see less see right bi-directional perceptual shaping for multimodal reasoning](multimodal_vlm/see_less_see_right_bi-directional_perceptual_shaping_for_multimodal_reasoning.md)
 - [x] [see think act teaching multimodal agents to effectively interact with gui by ide](multimodal_vlm/see_think_act_teaching_multimodal_agents_to_effectively_interact_with_gui_by_ide.md) | arXiv: 2509.13615
 - [x] [see through the noise improving domain generalization in gaze estimation](human_understanding/see_through_the_noise_improving_domain_generalization_in_gaze_estimation.md) | arXiv: 2604.16562
 - [x] [see what i mean aligning vision and language representations for video fine-grai](multimodal_vlm/see_what_i_mean_aligning_vision_and_language_representations_for_video_fine-grai.md)
@@ -3087,12 +3033,10 @@
 - [x] [segmote token-level mixture of experts for medical image segmentation](medical_imaging/segmote_token-level_mixture_of_experts_for_medical_image_segmentation.md)
 - [x] [segquant a semantics-aware and generalizable quantization framework for diffusio](image_generation/segquant_a_semantics-aware_and_generalizable_quantization_framework_for_diffusio.md) | arXiv: 2507.14811
 - [x] [select hypothesize and verify towards verified neuron concept interpretation](llm_safety/select_hypothesize_and_verify_towards_verified_neuron_concept_interpretation.md) | arXiv: 2603.24953
-- [x] [select less reason more prioritizing evidence purity for video reasoning](multimodal_vlm/select_less_reason_more_prioritizing_evidence_purity_for_video_reasoning.md)
 - [x] [selection-as-nonlinearity bridging attention and activation via a joint game-dec](interpretability/selection-as-nonlinearity_bridging_attention_and_activation_via_a_joint_game-dec.md)
 - [x] [selective amnesia using contrastive subnet erasure for class level unlearning in](ai_safety/selective_amnesia_using_contrastive_subnet_erasure_for_class_level_unlearning_in.md)
 - [x] [selective regularized and calibrated harnessing vision foundation models for cro](segmentation/selective_regularized_and_calibrated_harnessing_vision_foundation_models_for_cro.md) | arXiv: 2605.19340
 - [x] [selectkd selective token-weighted knowledge distillation for llms](model_compression/selectkd_selective_token-weighted_knowledge_distillation_for_llms.md)
-- [x] [self-consistency for llm-based motion trajectory generation and verification](multimodal_vlm/self-consistency_for_llm-based_motion_trajectory_generation_and_verification.md) | arXiv: 2603.29301
 - [x] [self-corrected image generation with explainable latent rewards](image_generation/self-corrected_image_generation_with_explainable_latent_rewards.md) | arXiv: 2603.24965
 - [x] [self-critical distillation network for video-based commonsense captioning](video_understanding/self-critical_distillation_network_for_video-based_commonsense_captioning.md)
 - [x] [self-diffusion driven blind imaging](image_restoration/self-diffusion_driven_blind_imaging.md)
@@ -3216,7 +3160,6 @@
 - [x] [souple enhancing audio-visual localization and segmentation with learnable promp](segmentation/souple_enhancing_audio-visual_localization_and_segmentation_with_learnable_promp.md) | arXiv: 2603.22732
 - [x] [space-time forecasting of dynamic scenes with motion-aware gaussian grouping](3d_vision/space-time_forecasting_of_dynamic_scenes_with_motion-aware_gaussian_grouping.md)
 - [x] [spacedrive infusing spatial awareness into vlm-based autonomous driving](autonomous_driving/spacedrive_infusing_spatial_awareness_into_vlm-based_autonomous_driving.md)
-- [x] [spacetools tool-augmented spatial reasoning via double interactive rl](multimodal_vlm/spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md) | arXiv: 2512.04069
 - [x] [span spatial-projection alignment for monocular 3d object detection](3d_vision/span_spatial-projection_alignment_for_monocular_3d_object_detection.md) | arXiv: 2511.06702
 - [x] [spar single-pass any-resolution vit for open-vocabulary segmentation](segmentation/spar_single-pass_any-resolution_vit_for_open-vocabulary_segmentation.md) | arXiv: 2604.02252
 - [x] [spark sim-ready part-level articulated reconstruction with vlm knowledge](3d_vision/spark_sim-ready_part-level_articulated_reconstruction_with_vlm_knowledge.md)
@@ -3242,7 +3185,6 @@
 - [x] [spatialqa a benchmark for evaluating spatial logical reasoning in vision-languag](multimodal_vlm/spatialqa_a_benchmark_for_evaluating_spatial_logical_reasoning_in_vision-languag.md) | arXiv: 2602.20901
 - [x] [spatialreward verifiable spatial reward modeling for fine-grained spatial consis](image_generation/spatialreward_verifiable_spatial_reward_modeling_for_fine-grained_spatial_consis.md)
 - [x] [spatialscore towards comprehensive evaluation for spatial intelligence](multimodal_vlm/spatialscore_towards_comprehensive_evaluation_for_spatial_intelligence.md) | arXiv: 2505.17012
-- [x] [spatialstack layered geometry-language fusion for 3d vlm spatial reasoning](multimodal_vlm/spatialstack_layered_geometry-language_fusion_for_3d_vlm_spatial_reasoning.md) | arXiv: 2603.27437
 - [x] [spatialtree how spatial intelligence branches out in mllms](multimodal_vlm/spatialtree_how_spatial_intelligence_branches_out_in_mllms.md)
 - [x] [spatialvid a large-scale video dataset with spatial annotations](3d_vision/spatialvid_a_large-scale_video_dataset_with_spatial_annotations.md)
 - [x] [spatio-temporal conditional denoising transformer for modality-missing rgbt trac](video_understanding/spatio-temporal_conditional_denoising_transformer_for_modality-missing_rgbt_trac.md)
@@ -3255,7 +3197,6 @@
 - [x] [specificity-aware reinforcement learning for fine-grained open-world classificat](reinforcement_learning/specificity-aware_reinforcement_learning_for_fine-grained_open-world_classificat.md) | arXiv: 2603.03197
 - [x] [spectral conformal risk control distribution-free tail guarantees via bayesian q](others/spectral_conformal_risk_control_distribution-free_tail_guarantees_via_bayesian_q.md)
 - [x] [spectral defense against resource-targeting attack in 3d gaussian splatting](3d_vision/spectral_defense_against_resource-targeting_attack_in_3d_gaussian_splatting.md) | arXiv: 2603.12796
-- [x] [spectral mixture-of-experts for continual learning](others/spectral_mixture-of-experts_for_continual_learning.md)
 - [x] [spectral scalpel amplifying adjacent action discrepancy via frequency-selective ](video_understanding/spectral_scalpel_amplifying_adjacent_action_discrepancy_via_frequency-selective_.md)
 - [x] [spectral super-resolution via adversarial unfolding and data-driven spectrum reg](image_restoration/spectral_super-resolution_via_adversarial_unfolding_and_data-driven_spectrum_reg.md) | arXiv: 2603.00920
 - [x] [spectrally distilled representations aligned with instruction-augmented llms for](remote_sensing/spectrally_distilled_representations_aligned_with_instruction-augmented_llms_for.md)
@@ -3290,7 +3231,6 @@
 - [x] [st4r-splat spatio-temporal referring segmentation in 4d gaussian splatting](3d_vision/st4r-splat_spatio-temporal_referring_segmentation_in_4d_gaussian_splatting.md)
 - [x] [stability-driven motion generation for object-guided human-human co-manipulation](human_understanding/stability-driven_motion_generation_for_object-guided_human-human_co-manipulation.md) | arXiv: 2604.20336
 - [x] [stabilizing feature geometry in noisy pretrained models for robust downstream ta](self_supervised/stabilizing_feature_geometry_in_noisy_pretrained_models_for_robust_downstream_ta.md)
-- [x] [stable and efficient single-rollout rl for multimodal reasoning](multimodal_vlm/stable_and_efficient_single-rollout_rl_for_multimodal_reasoning.md)
 - [x] [stable spike dual consistency optimization via bitwise and operations for spikin](time_series/stable_spike_dual_consistency_optimization_via_bitwise_and_operations_for_spikin.md) | arXiv: 2603.11676
 - [x] [stablemtl repurposing latent diffusion models for multi-task learning from parti](3d_vision/stablemtl_repurposing_latent_diffusion_models_for_multi-task_learning_from_parti.md) | arXiv: 2506.08013
 - [x] [stac plug-and-play spatio-temporal aware cache compression for streaming 3d reco](3d_vision/stac_plug-and-play_spatio-temporal_aware_cache_compression_for_streaming_3d_reco.md) | arXiv: 2603.20284
@@ -3424,7 +3364,6 @@
 - [x] [temporal inversion for learning interval change in chest x-rays](medical_imaging/temporal_inversion_for_learning_interval_change_in_chest_x-rays.md)
 - [x] [temporal representation enhancement tre learning to forget dominant patterns for](others/temporal_representation_enhancement_tre_learning_to_forget_dominant_patterns_for.md)
 - [x] [tempr1 improving temporal understanding of mllms via temporal-aware multi-task r](multimodal_vlm/tempr1_improving_temporal_understanding_of_mllms_via_temporal-aware_multi-task_r.md)
-- [x] [terrascope pixel-grounded visual reasoning for earth observation](multimodal_vlm/terrascope_pixel-grounded_visual_reasoning_for_earth_observation.md)
 - [x] [terraseg self-supervised ground segmentation for any lidar](autonomous_driving/terraseg_self-supervised_ground_segmentation_for_any_lidar.md) | arXiv: 2603.27344
 - [x] [teso online tracking of essential matrix by stochastic optimization](3d_vision/teso_online_tracking_of_essential_matrix_by_stochastic_optimization.md) | arXiv: 2604.19420
 - [x] [test-time 3d occupancy prediction](autonomous_driving/test-time_3d_occupancy_prediction.md) | arXiv: 2503.08485
@@ -3479,7 +3418,6 @@
 - [x] [think 360 evaluating the width-centric reasoning capability of mllms beyond dept](multimodal_vlm/think_360_evaluating_the_width-centric_reasoning_capability_of_mllms_beyond_dept.md) | arXiv: 2603.22689
 - [x] [think 360deg beyond depth evaluating the width-centric reasoning capability of m](llm_reasoning/think_360deg_beyond_depth_evaluating_the_width-centric_reasoning_capability_of_m.md)
 - [x] [think then verify a hypothesis-verification multi-agent framework for long video](llm_agent/think_then_verify_a_hypothesis-verification_multi-agent_framework_for_long_video.md) | arXiv: 2603.04977
-- [x] [think visually reason textually vision-language synergy in abstract reasoning](multimodal_vlm/think_visually_reason_textually_vision-language_synergy_in_abstract_reasoning.md)
 - [x] [think with 3d geometric imagination grounded spatial reasoning from limited view](multimodal_vlm/think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
 - [x] [think-as-you-see streaming chain-of-thought reasoning for large vision-language ](llm_reasoning/think-as-you-see_streaming_chain-of-thought_reasoning_for_large_vision-language_.md)
 - [x] [think-then-generate structural chain-of-thought reasoning for consistent 3d gene](3d_vision/think-then-generate_structural_chain-of-thought_reasoning_for_consistent_3d_gene.md)
@@ -3491,7 +3429,6 @@
 - [x] [thinking with drafts speculative temporal reasoning for efficient long video und](video_understanding/thinking_with_drafts_speculative_temporal_reasoning_for_efficient_long_video_und.md)
 - [x] [thinking with frames generative video distortion evaluation via frame reward mod](llm_alignment/thinking_with_frames_generative_video_distortion_evaluation_via_frame_reward_mod.md)
 - [x] [thinking with frames generative video distortion evaluation via frame reward mod](video_generation/thinking_with_frames_generative_video_distortion_evaluation_via_frame_reward_mod.md)
-- [x] [thinking with programming vision towards a unified view for thinking with images](multimodal_vlm/thinking_with_programming_vision_towards_a_unified_view_for_thinking_with_images.md)
 - [x] [thinking with video video generation as a promising multimodal reasoning paradig](video_generation/thinking_with_video_video_generation_as_a_promising_multimodal_reasoning_paradig.md)
 - [x] [thinking with videos multimodal tool-augmented reinforcement learning for long v](multimodal_vlm/thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
 - [x] [thinking-while-generating interleaving textual reasoning throughout visual gener](image_generation/thinking-while-generating_interleaving_textual_reasoning_throughout_visual_gener.md)
@@ -3599,7 +3536,6 @@
 - [x] [transform to transfer boosting adversarial attack transferability on vision-lang](ai_safety/transform_to_transfer_boosting_adversarial_attack_transferability_on_vision-lang.md)
 - [x] [transition models rethinking the generative learning objective](image_generation/transition_models_rethinking_the_generative_learning_objective.md)
 - [x] [translating signals to languages for semg-based activity recognition](human_understanding/translating_signals_to_languages_for_semg-based_activity_recognition.md)
-- [x] [transprune token transition pruning for efficient large vision-language model](multimodal_vlm/transprune_token_transition_pruning_for_efficient_large_vision-language_model.md)
 - [x] [trcorsurg temporal-relational co-reasoning for surgical video triplet recognitio](medical_imaging/trcorsurg_temporal-relational_co-reasoning_for_surgical_video_triplet_recognitio.md)
 - [x] [treeteaming autonomous red-teaming of vision-language models via hierarchical s](multimodal_vlm/treeteaming_autonomous_red-teaming_of_vision-language_models_via_hierarchical_s.md) | arXiv: 2603.22882
 - [x] [tri-modal fusion transformers for uav-based object detection](object_detection/tri-modal_fusion_transformers_for_uav-based_object_detection.md)
@@ -3710,7 +3646,6 @@
 - [x] [unish unifying scene and human reconstruction in a feed-forward pass](3d_vision/unish_unifying_scene_and_human_reconstruction_in_a_feed-forward_pass.md)
 - [x] [unispector towards universal open-set defect recognition via spectral-contrastiv](object_detection/unispector_towards_universal_open-set_defect_recognition_via_spectral-contrastiv.md) | arXiv: 2604.02905
 - [x] [unisplat 3d representations unposed](3d_vision/unisplat_3d_representations_unposed.md) | arXiv: 2604.10573
-- [x] [unit unified multimodal chain-of-thought test-time scaling](multimodal_vlm/unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
 - [x] [unitalking a unified audio-video framework for talking portrait generation](video_generation/unitalking_a_unified_audio-video_framework_for_talking_portrait_generation.md) | arXiv: 2603.01418
 - [x] [unityvideo unified multi-modal multi-task learning for enhancing world-aware vid](video_generation/unityvideo_unified_multi-modal_multi-task_learning_for_enhancing_world-aware_vid.md)
 - [x] [univbench towards unified evaluation for video foundation models](video_understanding/univbench_towards_unified_evaluation_for_video_foundation_models.md)
@@ -3758,7 +3693,6 @@
 - [x] [vabench a comprehensive benchmark for audio-video generation](video_generation/vabench_a_comprehensive_benchmark_for_audio-video_generation.md)
 - [x] [vad-gs visibility-aware densification for 3d gaussian splatting in dynamic urban](3d_vision/vad-gs_visibility-aware_densification_for_3d_gaussian_splatting_in_dynamic_urban.md)
 - [x] [vanast virtual try-on with human image animation via synthetic triplet supervisi](video_generation/vanast_virtual_try-on_with_human_image_animation_via_synthetic_triplet_supervisi.md) | arXiv: 2604.04934
-- [x] [variation-aware vision token dropping for faster large vision-language models](multimodal_vlm/variation-aware_vision_token_dropping_for_faster_large_vision-language_models.md) | arXiv: 2509.01552
 - [x] [variational garrote for sparse inverse problems](image_restoration/variational_garrote_for_sparse_inverse_problems.md) | arXiv: 2603.12562
 - [x] [variational graph-based normal integration](3d_vision/variational_graph-based_normal_integration.md)
 - [x] [varsplat uncertainty-aware 3d gaussian splatting for robust rgb-d slam](3d_vision/varsplat_uncertainty-aware_3d_gaussian_splatting_for_robust_rgb-d_slam.md) | arXiv: 2603.09673
@@ -3828,7 +3762,6 @@
 - [x] [vinedresser3d agentic text-guided 3d editing](image_generation/vinedresser3d_agentic_text-guided_3d_editing.md) | arXiv: 2602.19542
 - [x] [vinedresser3d towards agentic text-guided 3d editing](llm_agent/vinedresser3d_towards_agentic_text-guided_3d_editing.md)
 - [x] [vinqa visual elements interleaved long-form answer generation for real-world mul](multimodal_vlm/vinqa_visual_elements_interleaved_long-form_answer_generation_for_real-world_mul.md)
-- [x] [virc enhancing visual interleaved mathematical cot with reason chunking](multimodal_vlm/virc_enhancing_visual_interleaved_mathematical_cot_with_reason_chunking.md) | arXiv: 2512.14654
 - [x] [vird view-invariant representation through dual-axis transformation for cross-vi](autonomous_driving/vird_view-invariant_representation_through_dual-axis_transformation_for_cross-vi.md) | arXiv: 2603.12918
 - [x] [viro robust and efficient neuro-symbolic reasoning with verification for referri](interpretability/viro_robust_and_efficient_neuro-symbolic_reasoning_with_verification_for_referri.md) | arXiv: 2601.12781
 - [x] [virpro visual-referred probabilistic prompt learning for weakly-supervised monoc](3d_vision/virpro_visual-referred_probabilistic_prompt_learning_for_weakly-supervised_monoc.md) | arXiv: 2603.17470
@@ -3851,7 +3784,6 @@
 - [x] [vismem latent vision memory unlocks potential of vision-language models](multimodal_vlm/vismem_latent_vision_memory_unlocks_potential_of_vision-language_models.md)
 - [x] [visplay self-evolving vision-language models](multimodal_vlm/visplay_self-evolving_vision-language_models.md)
 - [x] [visref visual refocusing test time scaling](llm_reasoning/visref_visual_refocusing_test_time_scaling.md) | arXiv: 2603.00207
-- [x] [visres bench on evaluating the visual reasoning capabilities of vlms](multimodal_vlm/visres_bench_on_evaluating_the_visual_reasoning_capabilities_of_vlms.md)
 - [x] [vista a test-time self-improving video generation agent](video_generation/vista_a_test-time_self-improving_video_generation_agent.md)
 - [x] [vista video interaction spatio-temporal analysis benchmark](video_understanding/vista_video_interaction_spatio-temporal_analysis_benchmark.md) | arXiv: 2605.01391
 - [x] [vista4d video reshooting with 4d point clouds](3d_vision/vista4d_video_reshooting_with_4d_point_clouds.md) | arXiv: 2604.21915
@@ -3861,8 +3793,6 @@
 - [x] [visual funnel resolving contextual blindness in multimodal large language models](multimodal_vlm/visual_funnel_resolving_contextual_blindness_in_multimodal_large_language_models.md) | arXiv: 2512.10362
 - [x] [visual grounding for object questions](multimodal_vlm/visual_grounding_for_object_questions.md)
 - [x] [visual prototype conditioned focal region generation for uav-based object detect](object_detection/visual_prototype_conditioned_focal_region_generation_for_uav-based_object_detect.md)
-- [x] [visual reasoning through tool-supervised reinforcement learning](multimodal_vlm/visual_reasoning_through_tool-supervised_reinforcement_learning.md) | arXiv: 2604.19945
-- [x] [visual-aware cot achieving high-fidelity visual consistency in unified models](multimodal_vlm/visual-aware_cot_achieving_high-fidelity_visual_consistency_in_unified_models.md)
 - [x] [visual-rrt finding paths toward visual-goals via differentiable rendering](robotics/visual-rrt_finding_paths_toward_visual-goals_via_differentiable_rendering.md)
 - [x] [visualad language-free zero-shot anomaly detection via vision transformer](object_detection/visualad_language-free_zero-shot_anomaly_detection_via_vision_transformer.md) | arXiv: 2603.07952
 - [x] [visualoverload probing visual understanding of vlms in really dense scenes](multimodal_vlm/visualoverload_probing_visual_understanding_of_vlms_in_really_dense_scenes.md) | arXiv: 2509.25339
@@ -3940,7 +3870,6 @@
 - [x] [when robots obey the patch universal transferable patch attacks on vision-langua](ai_safety/when_robots_obey_the_patch_universal_transferable_patch_attacks_on_vision-langua.md) | arXiv: 2511.21192
 - [x] [when safety collides resolving multi-category harmful conflicts in text-to-image](image_generation/when_safety_collides_resolving_multi-category_harmful_conflicts_in_text-to-image.md) | arXiv: 2602.20880
 - [x] [when to lock attention training-free kv control in video diffusion](video_generation/when_to_lock_attention_training-free_kv_control_in_video_diffusion.md) | arXiv: 2603.09657
-- [x] [when to think and when to look uncertainty-guided lookback](multimodal_vlm/when_to_think_and_when_to_look_uncertainty-guided_lookback.md) | arXiv: 2511.15613
 - [x] [when token pruning is worse than random understanding visual token information i](multimodal_vlm/when_token_pruning_is_worse_than_random_understanding_visual_token_information_i.md) | arXiv: 2512.07580
 - [x] [when transformers meet mamba a hybrid transformer-mamba network for video object](object_detection/when_transformers_meet_mamba_a_hybrid_transformer-mamba_network_for_video_object.md)
 - [x] [when understanding becomes a risk authenticity and safety risks in the emerging ](image_generation/when_understanding_becomes_a_risk_authenticity_and_safety_risks_in_the_emerging_.md) | arXiv: 2603.24079

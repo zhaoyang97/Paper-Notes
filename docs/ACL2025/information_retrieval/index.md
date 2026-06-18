@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2025 信息检索/RAG论文汇总 · 89篇论文解读
+  ACL2025 信息检索/RAG论文汇总 · 84篇论文解读
 description: >-
-  89篇ACL2025的信息检索/RAG 方向论文解读，涵盖 RAG、LLM、推理、问答、对抗鲁棒、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  84篇ACL2025的信息检索/RAG 方向论文解读，涵盖 RAG、LLM、推理、问答、对抗鲁棒、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2025"
   - "信息检索/RAG"
@@ -35,8 +35,6 @@ item_list:
     t: "Automatic Benchmark Generation from Scientific Papers via Retrieval-Augmented LLMs"
   - u: "beyond_true_or_false_retrieval-augmented_hierarchical_analysis_of_nuanced_claims/"
     t: "Beyond True or False: Retrieval-Augmented Hierarchical Analysis of Nuanced Claims"
-  - u: "cart_a_generative_cross-modal_retrieval_framework_with_coarse-to-fine_semantic_m/"
-    t: "CART: A Generative Cross-Modal Retrieval Framework with Coarse-To-Fine Semantic Modeling"
   - u: "coir_a_comprehensive_benchmark_for_code_information_retrieval_models/"
     t: "CoIR: A Comprehensive Benchmark for Code Information Retrieval Models"
   - u: "collapse_dense_retrievers/"
@@ -45,8 +43,6 @@ item_list:
     t: "ComRAG: Retrieval-Augmented Generation with Dynamic Vector Stores for Real-time Community Question Answering in Industry"
   - u: "contradiction_detection_in_rag-based_chatbots/"
     t: "Contradiction Detection in RAG-Based Chatbots"
-  - u: "core_mmrag_knowledge_reconciliation/"
-    t: "CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG"
   - u: "cross-lingual_relevance_transfer_for_document_retrieval/"
     t: "Cross-Lingual Relevance Transfer for Document Retrieval"
   - u: "divide_then_align_rag_knowledge_boundary/"
@@ -75,17 +71,21 @@ item_list:
     t: "GainRAG: Preference Alignment in Retrieval-Augmented Generation through Gain Signal Synthesis"
   - u: "garage_a_benchmark_with_grounding_annotations_for_rag_evaluation/"
     t: "GaRAGe: A Benchmark with Grounding Annotations for RAG Evaluation"
-item_total: 89
+  - u: "gear_generation_augmented_retrieval/"
+    t: "GeAR: Generation Augmented Retrieval"
+  - u: "genie_worksheets_tod_agent/"
+    t: "Controllable and Reliable Knowledge-Intensive Task-Oriented Conversational Agents with Declarative Genie Worksheets"
+item_total: 84
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**💬 ACL2025** · **89** 篇论文解读
+**💬 ACL2025** · **84** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (11)](../../CVPR2026/information_retrieval/index.md) · [🧪 ICML2026 (23)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (31)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×52 · LLM ×12 · 推理 ×6 · 问答 ×6 · 对抗鲁棒 ×5
+🔥 **高频主题：** RAG ×50 · LLM ×12 · 推理 ×6 · 问答 ×6 · 对抗鲁棒 ×4
 
 **[A Reality Check on Context Utilisation for Retrieval-Augmented Generation](a_reality_check_on_context_utilisation_for_retrieval-augmented_generation.md)**
 
@@ -127,8 +127,6 @@ item_total: 89
 
 :   提出 ClaimSpect 框架，将复杂声明自动分解为层次化的方面（aspect）树，并通过区分性检索从语料库中发现各方面的支持/中立/反对观点及其共识程度。
 
-**[CART: A Generative Cross-Modal Retrieval Framework with Coarse-To-Fine Semantic Modeling](cart_a_generative_cross-modal_retrieval_framework_with_coarse-to-fine_semantic_m.md)**
-
 **[CoIR: A Comprehensive Benchmark for Code Information Retrieval Models](coir_a_comprehensive_benchmark_for_code_information_retrieval_models.md)**
 
 :   提出 CoIR，首个全面的代码信息检索基准，包含 10 个数据集、覆盖 4 大类 8 个子任务和 14 种编程语言，揭示了即使是 SOTA 检索模型在代码检索中也表现不佳，并指出许多模型已在现有排行榜上过拟合。
@@ -144,10 +142,6 @@ item_total: 89
 **[Contradiction Detection in RAG-Based Chatbots](contradiction_detection_in_rag-based_chatbots.md)**
 
 :   本文针对 RAG 对话系统中检索文档与生成回答之间的矛盾问题，提出了一种多粒度矛盾检测框架，能够识别显式矛盾、隐式矛盾和部分矛盾，并提供可解释的矛盾定位。
-
-**[CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG](core_mmrag_knowledge_reconciliation.md)**
-
-:   CoRe-MMRAG 提出了一个端到端多模态 RAG 框架，通过四阶段流水线（参数知识生成→视觉-文本联合重排序→外部知识生成→内外知识整合）解决参数知识-检索知识不一致(PRKI)和视觉-文本知识不一致(VTKI)两个问题，在 InfoSeek 和 Encyclopedic-VQA 上分别提升 5.6% 和 9.3%。
 
 **[Cross-Lingual Relevance Transfer for Document Retrieval](cross-lingual_relevance_transfer_for_document_retrieval.md)**
 
@@ -289,10 +283,6 @@ item_total: 89
 
 :   提出 MAIN-RAG，一个无需训练的多 Agent RAG 过滤框架，通过 Predictor→Judge→Final-Predictor 三个 LLM Agent 协作评估检索文档的相关性，并设计自适应阈值（基于分数均值和标准差）动态过滤噪声文档，在 4 个 QA 基准上实现 2-11% 的准确率提升。
 
-**[Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval](maximal_matching_matters_preventing_representation_collapse_for_robust_cross-mod.md)**
-
-:   提出 MaxMatch 方法，通过基于匈牙利算法的最大配对相似度和两个新损失函数，解决集合嵌入方法中的稀疏监督和集合坍塌问题，在 MS-COCO 和 Flickr30k 上取得 SOTA 性能。
-
 **[MEMERAG: A Multilingual End-to-End Meta-Evaluation Benchmark for Retrieval Augmented Generation](memerag_a_multilingual_end-to-end_meta-evaluation_benchmark_for_retrieval_augmen.md)**
 
 :   构建首个原生多语言 RAG 元评估基准 MEMERAG，覆盖 5 种语言，通过流程图引导的标注达到高标注者一致性，用于评估和比较多语言 RAG 自动评估器。
@@ -361,10 +351,6 @@ item_total: 89
 
 :   提出 RARE，在 rStar 的 MCTS 推理框架中引入两个检索增强动作（A6: 基于原始问题生成搜索查询并检索，A7: 对子问题进行检索并重新回答），并用检索增强的事实性评分器（RAFS）替代原始判别器，使 LLaMA 3.1 在医学和常识推理任务上达到甚至超越 GPT-4o 的水平。
 
-**[REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark](real-mm-rag_a_real-world_multi-modal_retrieval_benchmark.md)**
-
-:   提出 REAL-MM-RAG 多模态文档检索基准，定义了真实世界检索基准的四大关键属性（多模态文档、增强难度、真实 RAG 查询、准确标注），引入多级查询改写鲁棒性评估，并通过针对性训练集（改写数据集+金融表格数据集）实现 SOTA 检索性能。
-
 **[Redundancy, Isotropy and Intrinsic Dimensionality of Prompt-Based Text Embeddings](redundancy_isotropy_and_intrinsic_dimensionality_of_prompt-based_text_embeddings.md)**
 
 :   系统研究了基于Prompt的文本嵌入模型（如gte-Qwen2、E5-mistral等）在后处理降维下的性能鲁棒性，发现分类/聚类任务仅保留原始维度的0.5%即可基本保持性能，并通过内在维度（ID）和各向同性（IsoScore）两个指标定量解释了不同任务Prompt产生的嵌入冗余度差异。
@@ -412,10 +398,6 @@ item_total: 89
 **[Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation](towards_adaptive_memory-based_optimization_for_enhanced_retrieval-augmented_gene.md)**
 
 :   提出 Amber 框架，通过 Agent 协作式记忆更新器、自适应信息收集器和多粒度内容过滤器三个组件协同工作，在迭代式 RAG 范式中提升开放域问答的检索效率和答案质量。
-
-**[Towards Storage-Efficient Visual Document Retrieval: An Empirical Study on Reducing Patch-Level Embeddings](towards_storage-efficient_visual_document_retrieval_an_empirical_study_on_reduci.md)**
-
-:   系统性研究了视觉文档检索（VDR）中 patch 级别嵌入的压缩策略，发现 pruning 在 VDR 中本质不适用（简单随机剪枝反而最优），而 token merging 结合微调可在仅保留 2.8% 存储量时维持 94.6% 的检索性能（Light-ColPali/ColQwen2）。
 
 **[Typed-RAG: Type-Aware Decomposition of Non-Factoid Questions for Retrieval-Augmented Generation](typed-rag_type-aware_decomposition_of_non-factoid_questions_for_retrieval-augmen.md)**
 

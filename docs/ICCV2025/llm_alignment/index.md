@@ -26,7 +26,7 @@ item_total: 2
 
 **📹 ICCV2025** · **2** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/llm_alignment/index.md) · [🧪 ICML2026 (26)](../../ICML2026/llm_alignment/index.md) · [💬 ACL2026 (31)](../../ACL2026/llm_alignment/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (9)](../../CVPR2026/llm_alignment/index.md) · [🧪 ICML2026 (26)](../../ICML2026/llm_alignment/index.md) · [💬 ACL2026 (31)](../../ACL2026/llm_alignment/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md)
 
 **[Heuristic-Induced Multimodal Risk Distribution Jailbreak Attack for Multimodal Large Language Models](heuristic-induced_multimodal_risk_distribution_jailbreak_attack_for_multimodal_l.md)**
 

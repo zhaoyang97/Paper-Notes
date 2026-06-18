@@ -78,7 +78,7 @@ item_total: 29
 
 **🤖 AAAI2026** · **29** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/llm_nlp/index.md) · [🧪 ICML2026 (33)](../../ICML2026/llm_nlp/index.md) · [💬 ACL2026 (56)](../../ACL2026/llm_nlp/index.md) · [🔬 ICLR2026 (33)](../../ICLR2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/llm_nlp/index.md) · [🧪 ICML2026 (33)](../../ICML2026/llm_nlp/index.md) · [💬 ACL2026 (59)](../../ACL2026/llm_nlp/index.md) · [🔬 ICLR2026 (33)](../../ICLR2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
 
 🔥 **高频主题：** LLM ×14 · 推理 ×2 · 对齐/RLHF ×2
 

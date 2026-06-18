@@ -51,7 +51,7 @@ item_total: 14
 
 **📷 CVPR2025** · **14** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (24)](../../CVPR2026/llm_safety/index.md) · [🧪 ICML2026 (46)](../../ICML2026/llm_safety/index.md) · [💬 ACL2026 (115)](../../ACL2026/llm_safety/index.md) · [🔬 ICLR2026 (52)](../../ICLR2026/llm_safety/index.md) · [🤖 AAAI2026 (41)](../../AAAI2026/llm_safety/index.md) · [🧠 NeurIPS2025 (81)](../../NeurIPS2025/llm_safety/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (25)](../../CVPR2026/llm_safety/index.md) · [🧪 ICML2026 (46)](../../ICML2026/llm_safety/index.md) · [💬 ACL2026 (115)](../../ACL2026/llm_safety/index.md) · [🔬 ICLR2026 (52)](../../ICLR2026/llm_safety/index.md) · [🤖 AAAI2026 (41)](../../AAAI2026/llm_safety/index.md) · [🧠 NeurIPS2025 (81)](../../NeurIPS2025/llm_safety/index.md)
 
 🔥 **高频主题：** 多模态 ×6 · 持续学习 ×2
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 人体理解论文汇总 · 174篇论文解读
+  CVPR2026 人体理解论文汇总 · 175篇论文解读
 description: >-
-  174篇CVPR2026的人体理解方向论文解读，涵盖人脸/视线、人体姿态、重识别、虚拟人、扩散模型、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  175篇CVPR2026的人体理解方向论文解读，涵盖人脸/视线、人体姿态、重识别、虚拟人、扩散模型、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "人体理解"
@@ -75,15 +75,15 @@ item_list:
     t: "D³FER: Dual Channel and Dual Branch Network for Robust Facial Expression Recognition under Dual Challenges"
   - u: "decoupled_generative_modeling_for_human-object_interaction_synthesis/"
     t: "Decoupled Generative Modeling for Human-Object Interaction Synthesis"
-item_total: 174
+item_total: 175
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**📷 CVPR2026** · **174** 篇论文解读
+**📷 CVPR2026** · **175** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (4)](../../ICML2026/human_understanding/index.md) · [💬 ACL2026 (3)](../../ACL2026/human_understanding/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (41)](../../ICCV2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (4)](../../ICML2026/human_understanding/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (41)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (3)](../../ICML2025/human_understanding/index.md)
 
 🔥 **高频主题：** 人脸/视线 ×18 · 人体姿态 ×17 · 重识别 ×13 · 虚拟人 ×11 · 扩散模型 ×11
 
@@ -486,6 +486,10 @@ item_total: 174
 **[Multi-level Causal LLM-based Text-to-Motion Generation with Human Alignment (MoTiGA)](multi-level_causal_llm-based_text-to-motion_generation_with_human_alignment.md)**
 
 :   MoTiGA 把 LLM 文本生成动作的三大短板——细粒度量化误差、"因果 LLM vs 非因果 VQ-VAE"的表征错配、缺人类偏好对齐——分别用因果残差量化（Causal RVQ-VAE）、时间错位因果预测、以及多层混合加权偏好优化（MHPO）逐一解决，在 HumanML3D 上把 FID 相对其它 LLM 方法降 82.3%、KIT-ML 降 64.7%。
+
+**[MV-Fashion: Towards Enabling Virtual Try-On and Size Estimation with Multi-View Paired Data](mv-fashion_towards_enabling_virtual_try-on_and_size_estimation_with_multi-view_p.md)**
+
+:   MV-Fashion 用一套由 60 台树莓派 RGB 相机 + 8 台 RGB-D 相机组成的"经济型"多视角同步采集装置，录下 80 位被试穿着 474 套（754 件）衣服的 3,273 段同步视频（共 72.5M 帧），并为每件衣服配上**平铺商品图（catalogue）↔ 上身穿着图**的配对、像素级分割、SMPL-X、点云、尺码表、面料弹性、穿搭风格等多模态标注，从而第一次把虚拟试穿、尺码估计、新视角合成所需的数据放进同一个数据集里，并给出三类任务的基线。
 
 **[Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos](natural_human_motion_recovery_by_aligning_high-order_temporal_dynamics_from_mono.md)**
 

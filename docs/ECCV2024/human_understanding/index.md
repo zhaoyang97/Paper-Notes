@@ -83,7 +83,7 @@ item_total: 54
 
 **🎞️ ECCV2024** · **54** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (174)](../../CVPR2026/human_understanding/index.md) · [🧪 ICML2026 (4)](../../ICML2026/human_understanding/index.md) · [💬 ACL2026 (3)](../../ACL2026/human_understanding/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (175)](../../CVPR2026/human_understanding/index.md) · [🧪 ICML2026 (4)](../../ICML2026/human_understanding/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (41)](../../ICCV2025/human_understanding/index.md)
 
 🔥 **高频主题：** 人体姿态 ×15 · 人脸/视线 ×12 · 情感分析 ×3 · 虚拟人 ×2 · 重识别 ×2
 

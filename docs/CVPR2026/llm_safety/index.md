@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 LLM安全论文汇总 · 24篇论文解读
+  CVPR2026 LLM安全论文汇总 · 25篇论文解读
 description: >-
-  24篇CVPR2026的 LLM 安全方向论文解读，涵盖多模态、对抗鲁棒、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  25篇CVPR2026的 LLM 安全方向论文解读，涵盖多模态、对抗鲁棒、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "LLM 安全"
@@ -19,6 +19,8 @@ item_list:
     t: "Demographic Fairness in Multimodal LLMs: A Benchmark of Gender and Ethnicity Bias in Face Verification"
   - u: "designing_to_forget_deep_semi-parametric_models_for_unlearning/"
     t: "Designing to Forget: Deep Semi-parametric Models for Unlearning"
+  - u: "exemplar-free_continual_learning_for_state_space_models/"
+    t: "Exemplar-Free Continual Learning for State Space Models"
   - u: "fairllava_fairness-aware_parameter-efficient_fine-tuning_for_large_vision-langua/"
     t: "FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Models"
   - u: "force_transferable_visual_jailbreaking_attacks_via_feature_over_reliance_correct/"
@@ -61,13 +63,13 @@ item_list:
     t: "Do Vision-Language Models Leak What They Learn? Adaptive Token-Weighted Model Inversion Attacks"
   - u: "which_concepts_to_forget_and_how_to_refuse_decomposing_concepts_for_continual_un/"
     t: "Which Concepts to Forget and How to Refuse? Decomposing Concepts for Continual Unlearning in Large Vision-Language Models"
-item_total: 24
+item_total: 25
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔒 LLM 安全
 
-**📷 CVPR2026** · **24** 篇论文解读
+**📷 CVPR2026** · **25** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (46)](../../ICML2026/llm_safety/index.md) · [💬 ACL2026 (115)](../../ACL2026/llm_safety/index.md) · [🔬 ICLR2026 (52)](../../ICLR2026/llm_safety/index.md) · [🤖 AAAI2026 (41)](../../AAAI2026/llm_safety/index.md) · [🧠 NeurIPS2025 (81)](../../NeurIPS2025/llm_safety/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/llm_safety/index.md)
 
@@ -84,6 +86,10 @@ item_total: 24
 **[Designing to Forget: Deep Semi-parametric Models for Unlearning](designing_to_forget_deep_semi-parametric_models_for_unlearning.md)**
 
 :   提出"Designing to Forget"理念，设计了一族深度半参数模型 (SPM)，在推理时通过简单删除训练样本即可实现遗忘（无需修改模型参数），在 ImageNet 分类上将与重训基线的预测差距减少 11%，遗忘速度提升 10 倍以上。
+
+**[Exemplar-Free Continual Learning for State Space Models](exemplar-free_continual_learning_for_state_space_models.md)**
+
+:   本文提出 Inf-SSM——一种几何感知、无需存旧样本的正则化方法，把 SSM（如 Vim/Mamba）的"无穷时域行为"编码成扩展可观测子空间上的一个点，通过约束新旧任务子空间在无穷维 Grassmann 流形上的距离来抑制灾难性遗忘，并把原本 $\mathcal{O}(n^3)$ 的求解代价降到 $\mathcal{O}(n^2)$，即插即用地把现有持续学习方法平均 AA 提升 8.31%、遗忘 FM 降低 9.36%。
 
 **[FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Models](fairllava_fairness-aware_parameter-efficient_fine-tuning_for_large_vision-langua.md)**
 

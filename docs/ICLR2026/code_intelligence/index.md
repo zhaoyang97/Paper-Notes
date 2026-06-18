@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 代码智能论文汇总 · 19篇论文解读
+  ICLR2026 代码智能论文汇总 · 18篇论文解读
 description: >-
-  19篇ICLR2026的代码智能方向论文解读，涵盖代码智能、LLM、Agent、对抗鲁棒、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  18篇ICLR2026的代码智能方向论文解读，涵盖 LLM、Agent、对抗鲁棒、代码智能、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "代码智能"
@@ -17,8 +17,6 @@ item_list:
     t: "A Problem-Oriented Perspective and Anchor Verification for Code Optimization"
   - u: "ambig-swe_interactive_agents_to_overcome_underspecificity_in_software_engineerin/"
     t: "Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering"
-  - u: "breaking_the_sft_plateau_multimodal_structured_reinforcement_learning_for_chart-/"
-    t: "Breaking the SFT Plateau: Multimodal Structured Reinforcement Learning for Chart-to-Code Generation"
   - u: "card_towards_conditional_design_of_multi-agent_topological_structures/"
     t: "CARD: Towards Conditional Design of Multi-agent Topological Structures"
   - u: "diablo_diagonal_blocks_are_sufficient_for_finetuning/"
@@ -51,17 +49,17 @@ item_list:
     t: "The Limits of Long-Context Reasoning in Automated Bug Fixing"
   - u: "training_large_language_models_to_reason_in_parallel_with_global_forking_tokens/"
     t: "Training Large Language Models To Reason In Parallel With Global Forking Tokens"
-item_total: 19
+item_total: 18
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**🔬 ICLR2026** · **19** 篇论文解读
+**🔬 ICLR2026** · **18** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/code_intelligence/index.md) · [🧪 ICML2026 (15)](../../ICML2026/code_intelligence/index.md) · [💬 ACL2026 (51)](../../ACL2026/code_intelligence/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/code_intelligence/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/code_intelligence/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/code_intelligence/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (15)](../../ICML2026/code_intelligence/index.md) · [💬 ACL2026 (49)](../../ACL2026/code_intelligence/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/code_intelligence/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/code_intelligence/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/code_intelligence/index.md) · [🧪 ICML2025 (9)](../../ICML2025/code_intelligence/index.md)
 
-🔥 **高频主题：** 代码智能 ×3 · LLM ×3 · Agent ×2 · 对抗鲁棒 ×2 · 推理 ×2
+🔥 **高频主题：** LLM ×3 · Agent ×2 · 对抗鲁棒 ×2 · 代码智能 ×2 · 推理 ×2
 
 **[A Problem-Oriented Perspective and Anchor Verification for Code Optimization](a_problem-oriented_perspective_and_anchor_verification_for_code_optimization.md)**
 
@@ -70,10 +68,6 @@ item_total: 19
 **[Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering](ambig-swe_interactive_agents_to_overcome_underspecificity_in_software_engineerin.md)**
 
 :   构建 Ambig-SWE（基于 SWE-Bench Verified 的欠指定变体），系统评估 LLM 编程 agent 在三个维度上的交互能力——检测欠指定、提出澄清问题、利用交互信息——发现交互可将欠指定场景下的解决率提升最高 74%，但模型默认非交互行为且难以区分指定充分/不足的指令。
-
-**[Breaking the SFT Plateau: Multimodal Structured Reinforcement Learning for Chart-to-Code Generation](breaking_the_sft_plateau_multimodal_structured_reinforcement_learning_for_chart-.md)**
-
-:   针对图表到代码生成任务中SFT的性能瓶颈问题，提出多模态结构化强化学习（MSRL），通过文本+视觉双层奖励函数和两阶段RL策略，在ChartMimic和ReachQA上分别提升6.2%和9.9%的高层指标，达到开源SOTA并媲美GPT-4o。
 
 **[CARD: Towards Conditional Design of Multi-agent Topological Structures](card_towards_conditional_design_of_multi-agent_topological_structures.md)**
 

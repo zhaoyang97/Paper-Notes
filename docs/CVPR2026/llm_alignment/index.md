@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 对齐/RLHF论文汇总 · 8篇论文解读
+  CVPR2026 对齐/RLHF论文汇总 · 9篇论文解读
 description: >-
-  8篇CVPR2026的对齐 / RLHF 方向论文解读，涵盖多模态、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  9篇CVPR2026的对齐 / RLHF 方向论文解读，涵盖多模态、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "对齐 / RLHF"
@@ -18,6 +18,8 @@ item_list:
     t: "DRM: Diffusion-based Reward Model With Step-wise Guidance"
   - u: "ecoalign_an_economically_rational_framework_for_efficient_lvlm_alignment/"
     t: "EcoAlign: An Economically Rational Framework for Efficient LVLM Alignment"
+  - u: "from_pixel_to_precision_enhancing_handwritten_mathematical_expression_recognitio/"
+    t: "From Pixel to Precision: Enhancing Handwritten Mathematical Expression Recognition with Image-Level Reward"
   - u: "principled_steering_via_null-space_projection_for_jailbreak_defense_in_vision-la/"
     t: "Principled Steering via Null-space Projection for Jailbreak Defense in Vision-Language Models"
   - u: "safegrpo_self-rewarded_multimodal_safety_alignment_via_rule-governed_policy_opti/"
@@ -28,13 +30,13 @@ item_list:
     t: "Uncertainty-Aware Exploratory Direct Preference Optimization for Multimodal Large Language Models"
   - u: "unlocking_token_rewards_via_training-free_reward_attribution/"
     t: "Unlocking Token Rewards via Training-Free Reward Attribution"
-item_total: 8
+item_total: 9
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**📷 CVPR2026** · **8** 篇论文解读
+**📷 CVPR2026** · **9** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (26)](../../ICML2026/llm_alignment/index.md) · [💬 ACL2026 (31)](../../ACL2026/llm_alignment/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/llm_alignment/index.md)
 
@@ -51,6 +53,10 @@ item_total: 8
 **[EcoAlign: An Economically Rational Framework for Efficient LVLM Alignment](ecoalign_an_economically_rational_framework_for_efficient_lvlm_alignment.md)**
 
 :   EcoAlign 把视觉语言大模型（LVLM）的推理时对齐重新框定为"有限算力预算下的最优路径搜索"问题：在动态构建的思维图上用一个类似净现值（NPV）的前瞻函数给每个候选动作打分，权衡安全、效用与成本，并用"最弱环节"原则定义路径安全，从而在更低算力下达到甚至超过现有方法的安全与效用。
+
+**[From Pixel to Precision: Enhancing Handwritten Mathematical Expression Recognition with Image-Level Reward](from_pixel_to_precision_enhancing_handwritten_mathematical_expression_recognitio.md)**
+
+:   针对手写数学公式识别中"LaTeX 文本相似 ≠ 渲染图像相似"的根本错位，本文提出图像匹配分数 IMS（基于列投影编码 + Levenshtein 距离的轻量图像级奖励），并用它驱动一个去掉 value 网络的 GRPO 强化学习框架 IMPO，在 CROHME / HME100K / M2E 三套基准上把 ExpRate 平均提升约 1.1%、最高 1.37%，刷新 SOTA。
 
 **[Principled Steering via Null-space Projection for Jailbreak Defense in Vision-Language Models](principled_steering_via_null-space_projection_for_jailbreak_defense_in_vision-la.md)**
 

@@ -2,7 +2,7 @@
 title: >-
   NeurIPS2025 论文汇总 · 2529篇论文解读，每篇5分钟读懂核心思想
 description: >-
-  2529篇NeurIPS2025论文解读，涵盖图像生成(221篇)、模型压缩(143篇)、强化学习(143篇)、多模态 VLM(139篇)、优化/理论(126篇)、3D 视觉(116篇)、LLM 推理(82篇)、LLM 安全(81篇)等 49个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  2529篇NeurIPS2025论文解读，涵盖图像生成(221篇)、模型压缩(143篇)、强化学习(143篇)、优化/理论(126篇)、3D 视觉(116篇)、多模态 VLM(107篇)、LLM Reasoning(82篇)、LLM 安全(81篇)等 51个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "NeurIPS2025"
   - "NeurIPS2025论文汇总"
@@ -13,10 +13,10 @@ tags:
   - "图像生成"
   - "模型压缩"
   - "强化学习"
-  - "多模态 VLM"
   - "优化/理论"
   - "3D 视觉"
-  - "LLM 推理"
+  - "多模态 VLM"
+  - "LLM Reasoning"
   - "LLM 安全"
 item_list:
   - u: "image_generation/70_size_100_accuracy_lossless_llm_compression_for_efficient/"
@@ -85,13 +85,13 @@ item_total: 2529
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧠 NeurIPS2025 论文汇总
 
-2529篇NeurIPS2025论文解读，涵盖图像生成(221篇)、模型压缩(143篇)、强化学习(143篇)、多模态 VLM(139篇)、优化/理论(126篇)、3D 视觉(116篇)、LLM 推理(82篇)、LLM 安全(81篇)等 49个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+2529篇NeurIPS2025论文解读，涵盖图像生成(221篇)、模型压缩(143篇)、强化学习(143篇)、优化/理论(126篇)、3D 视觉(116篇)、多模态 VLM(107篇)、LLM Reasoning(82篇)、LLM 安全(81篇)等 51个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
 ---
 
-## 💡 LLM 推理 (82) { #llm_reasoning }
+## 💡 LLM Reasoning (82) { #llm_reasoning }
 
 **[A Little Depth Goes a Long Way: The Expressive Power of Log-Depth Transformers](llm_reasoning/a_little_depth_goes_a_long_way_the_expressive_power_of_logde.md)**
 
@@ -133,7 +133,7 @@ item_total: 2529
 
 :   提出ChartMuseum图表问答基准，包含1162个专家标注问题和184个来源的真实图表，首次系统区分视觉推理与文本推理能力，揭示当前最强模型Gemini-2.5-Pro仅63.0%而人类达93%，视觉推理性能比文本推理低35%-55%。
 
-[查看全部82篇「LLM 推理」论文 →](llm_reasoning/)
+[查看全部82篇「LLM Reasoning」论文 →](llm_reasoning/)
 
 ---
 
@@ -183,7 +183,7 @@ item_total: 2529
 
 ---
 
-## 👥 多智能体 (17) { #multi_agent }
+## 👥 Multi-Agent (17) { #multi_agent }
 
 **[3D-Agent: Tri-Modal Multi-Agent Collaboration for Scalable 3D Object Annotation](multi_agent/3d-agenttri-modal_multi-agent_collaboration_for_scalable_3d_object_annotation.md)**
 
@@ -225,7 +225,7 @@ item_total: 2529
 
 :   提出 MASFIN 多 agent 系统，将金融预测任务分解为多个子任务（宏观分析、行业分析、技术分析、情感分析等），由专门的 LLM agent 协作完成，实现比单一模型更准确和可解释的金融预测。
 
-[查看全部17篇「多智能体」论文 →](multi_agent/)
+[查看全部17篇「Multi-Agent」论文 →](multi_agent/)
 
 ---
 
@@ -677,15 +677,11 @@ item_total: 2529
 
 ---
 
-## 🔍 信息检索/RAG (30) { #information_retrieval }
+## 🔍 信息检索/RAG (25) { #information_retrieval }
 
 **[AcuRank: Uncertainty-Aware Adaptive Computation for Listwise Reranking](information_retrieval/acurank_uncertainty-aware_adaptive_computation_for_listwise_reranking.md)**
 
 :   利用贝叶斯TrueSkill模型维护文档相关性的概率分布，在每轮迭代中只对排名不确定的文档进行重排序，实现根据查询难度自适应调配计算量的重排框架，在多个基准上以更少调用次数超越固定计算基线。
-
-**[Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering](information_retrieval/benchmarking_retrievalaugmented_multimodal_generation_for_do.md)**
-
-:   提出 MMDocRAG 基准（4055 个专家标注的 QA 对），系统评估了 60 个 VLM/LLM 和 14 个检索器在多模态文档检索增强生成中的引用选择和交错图文回答能力，揭示当前最强模型 GPT-4.1 的 Quote Selection F1 仅 70.2%，微调可显著提升性能。
 
 **[Chain-of-Retrieval Augmented Generation (CoRAG)](information_retrieval/chain-of-retrieval_augmented_generation.md)**
 
@@ -707,10 +703,6 @@ item_total: 2529
 
 :   提出 Enginuity——首个面向 AI 自动解析工程图的大规模开放多领域数据集方案，计划构建 50K+ 带有层级组件关系、空间连接和语义角色标注的汽车工程图，通过四阶段人机协同标注管线实现高质量与低成本的平衡，并定义了从符号检测到数字孪生生成的完整任务体系，为多模态大模型理解工程图中的视觉-结构知识提供了首个系统性基准资源。
 
-**[Generalized Contrastive Learning for Universal Multimodal Retrieval](information_retrieval/generalized_contrastive_learning_for_universal_multimodal_re.md)**
-
-:   提出 Generalized Contrastive Learning (GCL)——在 mini-batch 内对所有 6 种模态对组合（image↔text, image↔image+text, text↔image+text）执行对比学习，无需构建新的三元组数据集，仅用现有图文对即可在 M-BEIR 上将 VISTA 的平均检索精度从 21.18 提升到 34.06（+60.8%），在 MMEB 的 text→image+text 任务上从 10.1% 提升到 31.1%。
-
 **[Hierarchical Retrieval: The Geometry and a Pretrain-Finetune Recipe](information_retrieval/hierarchical_retrieval_the_geometry_and_a_pretrain-finetune_recipe.md)**
 
 :   研究双编码器（Dual Encoder）在层次化检索（Hierarchical Retrieval）中的可行性，理论证明嵌入维度只需与层次深度线性、文档数对数增长即可求解，并发现"远距离丢失"现象后提出预训练-微调策略，在 WordNet 上将远距离召回率从 19% 提升至 76%。
@@ -719,11 +711,19 @@ item_total: 2529
 
 :   通过分离轻量级 Flash 模型的过滤能力与 Pro 模型的推理能力，构建多阶段管道（查询优化→分层过滤→两阶段生成→引文验证），在 MMU-RAGent 竞赛中实现 SOTA 性能。
 
-[查看全部30篇「信息检索/RAG」论文 →](information_retrieval/)
+**[How Should We Evaluate Data Deletion in Graph-Based ANN Indexes?](information_retrieval/how_should_we_evaluate_data_deletion_in_graph-based_ann_indexes.md)**
+
+:   针对图基ANN索引缺乏统一数据删除评估方法的问题，形式化定义了逻辑删除、物理删除和重建三种基准方法，提出面向实际部署的评估框架和指标体系，并基于实验分析提出Deletion Control算法在精度约束下动态切换删除策略。
+
+**[HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](information_retrieval/hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)**
+
+:   提出 HyperGraphRAG，首个基于超图 (hypergraph) 结构的 RAG 方法，通过超边 (hyperedge) 建模 n 元关系（n≥2），克服了现有图谱 RAG 方法受限于二元关系的瓶颈，在医学、农业、计算机科学和法律等领域的问答任务中全面超越 StandardRAG 和 GraphRAG 系列方法。
+
+[查看全部25篇「信息检索/RAG」论文 →](information_retrieval/)
 
 ---
 
-## 💻 代码智能 (20) { #code_intelligence }
+## 💻 代码智能 (19) { #code_intelligence }
 
 **[A Self-Improving Coding Agent](code_intelligence/a_selfimproving_coding_agent.md)**
 
@@ -765,7 +765,7 @@ item_total: 2529
 
 :   首次系统定义并解决 LLM 代码生成的**可维护性**问题，同时贡献基准和方法：MaintainBench 通过 4 种需求变化模式 + 动态指标评测代码在需求演化下的可维护性；MaintainCoder 将 Waterfall 模型、设计模式与 6 个专业化 Agent 结合，动态可维护性指标提升 60%+，且初始代码正确性也一并提高。
 
-[查看全部20篇「代码智能」论文 →](code_intelligence/)
+[查看全部19篇「代码智能」论文 →](code_intelligence/)
 
 ---
 
@@ -861,7 +861,7 @@ item_total: 2529
 
 ---
 
-## 🧩 多模态 VLM (139) { #multimodal_vlm }
+## 🧩 多模态 VLM (107) { #multimodal_vlm }
 
 **[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](multimodal_vlm/a_frustratingly_simple_yet_highly_effective_attack_baseline.md)**
 
@@ -870,10 +870,6 @@ item_total: 2529
 **[A Multimodal Benchmark for Framing of Oil & Gas Advertising and Potential Greenwashing Detection](multimodal_vlm/a_multimodal_benchmark_for_framing_of_oil_gas_advertising_an.md)**
 
 :   构建了首个面向石油天然气行业视频广告的多模态框架分析基准数据集（706 个视频、13 种框架类型、50+ 实体、20 个国家），系统评估了 6 款 VLM 在检测 greenwashing 相关 framing 中的能力，发现 GPT-4.1 零样本在环境类标签上达 79% F1 但绿色创新仅 46%，揭示了隐式框架分析和文化背景理解仍是 VLM 的核心挑战。
-
-**[ACT as Human: Multimodal Large Language Model Data Annotation with Critical Thinking](multimodal_vlm/act_as_human_multimodal_large_language_model_data_annotation.md)**
-
-:   提出ACT（Annotation with Critical Thinking）数据流水线，MLLM批量标注全部数据后由另一个MLLM作为批评者估计每条标注的错误概率，仅将高可疑样本交给人类审核，配合理论推导的ACT损失函数，在6个跨模态数据集上节省70-90%人工成本且下游性能差距<2%。
 
 **[AdaLRS: Loss-Guided Adaptive Learning Rate Search for Efficient Foundation Model Pretraining](multimodal_vlm/adalrs_lossguided_adaptive_learning_rate_search_for_efficien.md)**
 
@@ -891,10 +887,6 @@ item_total: 2529
 
 :   提出 CLIC，通过拼接两张图像并基于跨图词汇交换生成 hard negatives，同时创建多个正样本描述，仅微调 CLIP 文本编码器就能同时提升组合推理能力（SugarCrepe++ SOTA）和下游检索性能，打破了之前方法中组合性与检索性不可兼得的困局。
 
-**[AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models](multimodal_vlm/affordbot_3d_fine-grained_embodied_reasoning_via_multimodal_large_language_model.md)**
-
-:   提出细粒度 3D 具身推理任务（预测可操作元素的空间位置+运动类型+运动轴），通过将 3D 点云渲染为环视图并投影 affordance 候选，结合定制的 CoT 推理范式指导 MLLM 实现 SOTA，AP25 达 23.3%。
-
 **[Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment](multimodal_vlm/aligning_by_misaligning_boundaryaware_curriculum_learning_fo.md)**
 
 :   提出 BACL（Boundary-Aware Curriculum with Local Attention），通过可学习的边界感知负样本采样器（由易到难课程学习）+ 对比局部注意力损失（定位 token 级 mismatch），在 LAION-400M 上为 CLIP 带来 +32% R@1 提升，并在四个大规模基准上取得 SOTA。
@@ -903,7 +895,97 @@ item_total: 2529
 
 :   反转传统指令接地范式——不将 VLM 知识压缩到中间表征（符号技能或约束），而是将候选机器人轨迹渲染到多视角场景图像中，直接在 VLM 的原生高维表征空间中评估动作方案，实现零样本闭环机器人操作控制。
 
-[查看全部139篇「多模态 VLM」论文 →](multimodal_vlm/)
+**[AQuaMaM: An Autoregressive, Quaternion Manifold Model for Rapidly Estimating Complex SO(3) Distributions](multimodal_vlm/aquamam_an_autoregressive_quaternion_manifold_model_for_rapidly_estimating_compl.md)**
+
+:   提出AQuaMaM——一种基于Transformer的自回归四元数流形模型，将单位四元数的三个投影分量建模为受几何约束的均匀分布混合，在SO(3)旋转流形上实现精确似然计算和快速采样，比IPDF推理速度快52倍、对数似然高14%，且采样分布与真实分布匹配极为精确。
+
+**[Are Vision Language Models Ready for Clinical Diagnosis? A 3D Medical Benchmark for Tumor-centric Visual Question Answering](multimodal_vlm/are_vision_language_models_ready_for_clinical_diagnosis_a_3d_medical_benchmark_f.md)**
+
+:   本文提出 DeepTumorVQA，一个针对腹部CT肿瘤的3D诊断级视觉问答基准，包含9,262个CT体积（370万切片）和395K专家级问题，系统评估了4个先进VLM的临床诊断能力，发现当前模型在测量任务上尚可但在病灶识别和推理上远未达到临床要求。
+
+[查看全部107篇「多模态 VLM」论文 →](multimodal_vlm/)
+
+---
+
+## 🧠 VLM Reasoning (30) { #vlm_reasoning }
+
+**[ACT as Human: Multimodal Large Language Model Data Annotation with Critical Thinking](vlm_reasoning/act_as_human_multimodal_large_language_model_data_annotation.md)**
+
+:   提出ACT（Annotation with Critical Thinking）数据流水线，MLLM批量标注全部数据后由另一个MLLM作为批评者估计每条标注的错误概率，仅将高可疑样本交给人类审核，配合理论推导的ACT损失函数，在6个跨模态数据集上节省70-90%人工成本且下游性能差距<2%。
+
+**[AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models](vlm_reasoning/affordbot_3d_fine-grained_embodied_reasoning_via_multimodal_large_language_model.md)**
+
+:   提出细粒度 3D 具身推理任务（预测可操作元素的空间位置+运动类型+运动轴），通过将 3D 点云渲染为环视图并投影 affordance 候选，结合定制的 CoT 推理范式指导 MLLM 实现 SOTA，AP25 达 23.3%。
+
+**[Can LLMs Reason Over Non-Text Modalities in a Training-Free Manner? A Case Study with In-Context Representation Learning](vlm_reasoning/can_llms_reason_over_non-text_modalities_in_a_training-free_manner_a_case_study_.md)**
+
+:   提出 In-Context Representation Learning（ICRL），首个训练无关框架，将非文本模态基础模型（FM）的表征注入纯文本 LLM 进行少样本推理，通过 PCA 文本注入和最优传输嵌入对齐两种策略实现跨模态知识利用。
+
+**[Can Multi-Modal LLMs Provide Live Step-by-Step Task Guidance?](vlm_reasoning/can_multi-modal_llms_provide_live_step-by-step_task_guidance.md)**
+
+:   提出 Qualcomm Interactive Cooking 基准和 LiveMamba 模型，首次系统评估多模态 LLM 在实时流式视频中提供分步任务指导（包括指令下发、完成检测和错误反馈）的能力。
+
+**[READ: Enhancing Compositional Reasoning in CLIP via Reconstruction and Alignment of Text Descriptions](vlm_reasoning/enhancing_compositional_reasoning_in_clip_via_reconstruction.md)**
+
+:   提出 READ 微调方法，通过两个辅助目标——(1) token-level 重建（冻结解码器从文本嵌入重建替代描述）和 (2) sentence-level 对齐（强制改述的嵌入一致）——增强 CLIP 文本编码器的组合推理能力，在 5 个组合推理基准上达到 SOTA（超 NegCLIP 4.5%，超 FSC-CLIP 4.1%）。
+
+**[Enhancing Outcome Reward-Based RL Training of MLLMs with Self-Consistency Sampling](vlm_reasoning/enhancing_the_outcome_reward-based_rl_training_of_mllms_with_self-consistency_sa.md)**
+
+:   针对多模态多选题中"结果奖励 RL 训练导致不忠实推理轨迹"的问题，提出 Self-Consistency Sampling (SCS)，通过截断-重采样和视觉扰动获得一致性奖励来惩罚虚假推理，搭载 RLOO 后在六个基准上平均提升 7.7 个百分点。
+
+**[FlexAC: Towards Flexible Control of Associative Reasoning in Multimodal Large Language Models](vlm_reasoning/flexac_towards_flexible_control_of_associative_reasoning_in_multimodal_large_lan.md)**
+
+:   FlexAC 发现 MLLM 的联想推理行为主要编码在中间层，通过从幻觉响应中提取引导向量并在推理时注入中间层表示，实现忠实性与创造力的灵活调控——幻觉率降低 29%(CHAIR)，创造力提升 5.8×(Creation-MMBench)，且无需训练。
+
+**[GUI-Rise: Structured Reasoning and History Summarization for GUI Navigation](vlm_reasoning/gui-rise_structured_reasoning_and_history_summarization_for_gui_navigation.md)**
+
+:   提出 GUI-Rise 框架，通过结构化推理（进度估计 + 决策推理）、动作预测和历史摘要三个子任务的联合设计，结合 GRPO 强化学习与历史摘要奖励，显著提升 GUI 导航智能体在跨域场景下的泛化能力。
+
+**[iFinder: Structured Zero-Shot VLM Grounding for Dash-Cam Video Reasoning](vlm_reasoning/ifinder_structured_zero-shot_vision-based_llm_grounding_for_dash-cam_video_reaso.md)**
+
+:   提出 iFinder，一个模块化免训练框架，将行车记录仪视频解耦为感知（结构化场景表示）与推理（LLM），通过层级数据结构和三块式提示策略使 LLM 获得可解释的时空推理能力，在四个驾驶视频基准上零样本超越端到端 V-VLM，事故推理准确率提升高达 39%。
+
+**[MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agriculture](vlm_reasoning/mirage_a_benchmark_for_multimodal_information-seeking_and_reasoning_in_agricultu.md)**
+
+:   MIRAGE 是首个基于真实农业专家咨询对话（35,000+条）构建的多模态基准，评估视觉语言模型在领域级实体识别、因果推理和"澄清还是回答"决策方面的能力，揭示了即使 GPT-4.1 识别准确率也仅 43.9% 的严峻挑战。
+
+[查看全部30篇「VLM Reasoning」论文 →](vlm_reasoning/)
+
+---
+
+## ⚡ VLM Efficiency (8) { #vlm_efficiency }
+
+**[Balanced Token Pruning: Accelerating Vision Language Models Beyond Local Optimization](vlm_efficiency/balanced_token_pruning_accelerating_vision_language_models_b.md)**
+
+:   提出 Balanced Token Pruning (BTP)，通过联合考虑剪枝对当前层（局部）和后续层（全局）的影响，在浅层侧重多样性保留以维护下游表示质量、在深层侧重注意力选择以保持局部输出一致性，在 LLaVA/Qwen2.5-VL 等多个 LVLM 上仅保留 22% 视觉 token 即保持原模型 98% 性能。
+
+**[Beyond Greedy Exits: Improved Early Exit Decisions for Risk Control and Reliability](vlm_efficiency/beyond_greedy_exits_improved_early_exit_decisions_for_risk_control_and_reliabili.md)**
+
+:   UAT（Unsupervised Adaptive Thresholding）为早退 DNN 设计了可靠性函数来评估中间层输出质量，并用多臂赌博机（MAB）算法在推理时动态学习最优退出阈值，实现 1.7-2.1× 加速且性能损失 <2%，同时对分布偏移鲁棒。
+
+**[ElasticMM: Efficient MLLM Serving with Elastic Multimodal Parallelism](vlm_efficiency/elasticmm_efficient_multimodal_llms_serving_with_elastic_multimodal_parallelism.md)**
+
+:   提出弹性多模态并行（EMP）范式和 ElasticMM 系统，通过模态感知负载均衡和弹性分区调度将多模态推理的不同阶段解耦到独立实例，相比 vLLM TTFT 降低最高 4.2 倍、吞吐量提升 3.2-4.5 倍。
+
+**[FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models](vlm_efficiency/flowcut_rethinking_redundancy_via_information_flow_for_effic.md)**
+
+:   从信息流（Information Flow）视角重新理解VLM中视觉token冗余性的涌现机制，提出FlowCut框架通过层自适应剪枝比例、多标准融合评分和累积重要性跟踪实现与模型内在信息传播行为对齐的token剪枝，在LLaVA-1.5-7B上以88.9% token减少率超越SOTA 1.6%，LLaVA-NeXT-7B上以94.4%减少率超越4.3%。
+
+**[HAWAII: Hierarchical Visual Knowledge Transfer for Efficient VLM](vlm_efficiency/hawaii_hierarchical_visual_knowledge_transfer_for_efficient_vision-language_mode.md)**
+
+:   提出 Hawaii 框架，通过混合 LoRA 适配器（MoLA）和分层知识蒸馏（HKD），将多个视觉专家的知识蒸馏到单个视觉编码器中，在不增加推理成本的前提下显著提升 VLM 的视觉理解能力。
+
+**[PrefixKV: Adaptive Prefix KV Cache is What Vision Instruction-Following Models Need for Efficient Generation](vlm_efficiency/prefixkv_adaptive_prefix_kv_cache_is_what_vision_instruction.md)**
+
+:   PrefixKV 发现不同层 KV 缓存的重要性分布差异显著，将逐层缓存大小确定问题形式化为全局前缀配置搜索，通过二分搜索找到最优信息保留阈值使每层保持最大上下文信息，在 20% 压缩率下仅有 0.49 PPL 下降且提供 1.8× 推理加速。
+
+**[SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodal LLMs](vlm_efficiency/scope_saliency-coverage_oriented_token_pruning_for_efficient_multimodel_llms.md)**
+
+:   提出 SCOPE，一种联合建模显著性和覆盖率的视觉 Token 剪枝策略，通过迭代选择 SCOPE 得分最高的 Token 来保持语义完整性，在 9 倍 Token 缩减下保留 LLaVA-1.5 96% 的性能。
+
+**[ViSpec: Accelerating Vision-Language Models with Vision-Aware Speculative Decoding](vlm_efficiency/vispec_accelerating_vision-language_models_with_vision-aware_speculative_decodin.md)**
+
+:   针对VLM推测解码（speculative decoding）中草稿模型难以处理冗余视觉token的问题，提出ViSpec框架，通过视觉适配器压缩图像token+全局视觉特征注入+合成训练数据，首次在VLM推测解码中实现了显著加速（最高3.22×）。
 
 ---
 
@@ -1913,7 +1995,7 @@ item_total: 2529
 
 ---
 
-## 🩺 医疗 NLP (17) { #medical_nlp }
+## 🩺 医疗 LLM (17) { #medical_nlp }
 
 **[AI Should Sense Better, Not Just Scale Bigger: Adaptive Sensing as a Paradigm Shift](medical_nlp/ai_should_sense_better_not_just_scale_bigger_adaptive_sensin.md)**
 
@@ -1955,7 +2037,7 @@ item_total: 2529
 
 :   基于MIMIC-IV-ED构建了一个开放的、LLM辅助策划的急诊分诊基准数据集，定义了医院丰富资源和大规模伤亡事件(MCI)模拟两种场景，提供基线模型和SHAP可解释性分析，推动分诊预测研究的可复现性和普及化。
 
-[查看全部17篇「医疗 NLP」论文 →](medical_nlp/)
+[查看全部17篇「医疗 LLM」论文 →](medical_nlp/)
 
 ---
 

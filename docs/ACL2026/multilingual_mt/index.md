@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 多语言/翻译论文汇总 · 62篇论文解读
+  ACL2026 多语言/翻译论文汇总 · 61篇论文解读
 description: >-
-  62篇ACL2026的多语言/翻译方向论文解读，涵盖翻译、LLM、语音、Agent、情感分析、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  61篇ACL2026的多语言/翻译方向论文解读，涵盖翻译、LLM、语音、Agent、情感分析、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "多语言/翻译"
@@ -73,19 +73,19 @@ item_list:
     t: "LLM-XTM: Enhancing Cross-Lingual Topic Models with Large Language Models"
   - u: "location_not_found_exposing_implicit_local_and_global_biases_in_multilingual_llm/"
     t: "Location Not Found: Exposing Implicit Local and Global Biases in Multilingual LLMs"
-  - u: "lost_in_translation_do_lvlm_judges_generalize_across_languages/"
-    t: "Lost in Translation: Do LVLM Judges Generalize Across Languages?"
-item_total: 62
+  - u: "lqm_linguistically_motivated_multidimensional_quality_metrics_for_machine_transl/"
+    t: "LQM: Linguistically Motivated Multidimensional Quality Metrics for Machine Translation"
+item_total: 61
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌐 多语言/翻译
 
-**💬 ACL2026** · **62** 篇论文解读
+**💬 ACL2026** · **61** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/multilingual_mt/index.md) · [🧪 ICML2026 (3)](../../ICML2026/multilingual_mt/index.md) · [🔬 ICLR2026 (5)](../../ICLR2026/multilingual_mt/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/multilingual_mt/index.md) · [🧠 NeurIPS2025 (11)](../../NeurIPS2025/multilingual_mt/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/multilingual_mt/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (3)](../../ICML2026/multilingual_mt/index.md) · [🔬 ICLR2026 (5)](../../ICLR2026/multilingual_mt/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/multilingual_mt/index.md) · [🧠 NeurIPS2025 (11)](../../NeurIPS2025/multilingual_mt/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/multilingual_mt/index.md) · [🧪 ICML2025 (1)](../../ICML2025/multilingual_mt/index.md)
 
-🔥 **高频主题：** 翻译 ×20 · LLM ×7 · 语音 ×3 · Agent ×3 · 情感分析 ×2
+🔥 **高频主题：** 翻译 ×19 · LLM ×7 · 语音 ×3 · Agent ×3 · 情感分析 ×2
 
 **[A Multilingual Dataset and Empirical Validation for the Mutual Reinforcement Effect in Information Extraction](a_multilingual_dataset_and_empirical_validation_for_the_mutual_reinforcement_eff.md)**
 
@@ -202,10 +202,6 @@ item_total: 62
 **[Location Not Found: Exposing Implicit Local and Global Biases in Multilingual LLMs](location_not_found_exposing_implicit_local_and_global_biases_in_multilingual_llm.md)**
 
 :   本文提出 LocQA 基准（12 种语言、49 个地区、2156 个地域相关问答），通过地域模糊问题（如"紧急电话号码是多少？"）揭示 LLM 的隐式偏差：跨语言上存在持续的美国中心默认行为（模型回答的 50% 包含美国答案 vs 数据中仅 26%），语言内部存在人口规模驱动的"人口概率引擎"效应，且指令微调加剧了全球偏差。
-
-**[Lost in Translation: Do LVLM Judges Generalize Across Languages?](lost_in_translation_do_lvlm_judges_generalize_across_languages.md)**
-
-:   本文提出 MM-JudgeBench，首个大规模多语言多模态评判模型基准（25 种语言、60K+ 偏好实例），评估 22 个 LVLM 发现当前 LVLM 评判器存在显著的跨语言性能差异——模型大小和架构不能预测多语言鲁棒性，即使最先进的评判器也表现不一致，突显了多语言多模态评估基准的必要性。
 
 **[LQM: Linguistically Motivated Multidimensional Quality Metrics for Machine Translation](lqm_linguistically_motivated_multidimensional_quality_metrics_for_machine_transl.md)**
 

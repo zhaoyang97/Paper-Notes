@@ -1,23 +1,19 @@
 ---
 title: >-
-  NeurIPS2025 信息检索/RAG论文汇总 · 30篇论文解读
+  NeurIPS2025 信息检索/RAG论文汇总 · 25篇论文解读
 description: >-
-  30篇NeurIPS2025的信息检索/RAG 方向论文解读，涵盖 RAG、多模态、推理、问答、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  25篇NeurIPS2025的信息检索/RAG 方向论文解读，涵盖 RAG、推理、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "NeurIPS2025"
   - "信息检索/RAG"
   - "论文解读"
   - "论文笔记"
   - "RAG"
-  - "多模态"
   - "推理"
-  - "问答"
   - "LLM"
 item_list:
   - u: "acurank_uncertainty-aware_adaptive_computation_for_listwise_reranking/"
     t: "AcuRank: Uncertainty-Aware Adaptive Computation for Listwise Reranking"
-  - u: "benchmarking_retrievalaugmented_multimodal_generation_for_do/"
-    t: "Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering"
   - u: "chain-of-retrieval_augmented_generation/"
     t: "Chain-of-Retrieval Augmented Generation (CoRAG)"
   - u: "cooperative_retrieval-augmented_generation_for_question_answering_mutual_informa/"
@@ -28,8 +24,6 @@ item_list:
     t: "DICE: Discrete Interpretable Comparative Evaluation with Probabilistic Scoring for RAG"
   - u: "enginuity_building_an_open_multi-domain_dataset_of_complex_engineering_diagrams/"
     t: "Enginuity: Building an Open Multi-Domain Dataset of Complex Engineering Diagrams"
-  - u: "generalized_contrastive_learning_for_universal_multimodal_re/"
-    t: "Generalized Contrastive Learning for Universal Multimodal Retrieval"
   - u: "hierarchical_retrieval_the_geometry_and_a_pretrain-finetune_recipe/"
     t: "Hierarchical Retrieval: The Geometry and a Pretrain-Finetune Recipe"
   - u: "hifi-rag_hierarchical_content_filtering_and_two-pass_generation_for_open-domain_/"
@@ -66,33 +60,23 @@ item_list:
     t: "SuperCLIP: CLIP with Simple Classification Supervision"
   - u: "symrtlo_enhancing_rtl_code_optimization_with_llms_and_neuron-inspired_symbolic_r/"
     t: "SymRTLO: Enhancing RTL Code Optimization with LLMs and Neuron-Inspired Symbolic Reasoning"
-  - u: "the_narrow_gate_localized_imagetext_communication_in_native/"
-    t: "The Narrow Gate: Localized Image-Text Communication in Native Multimodal Models"
-  - u: "the_transparent_earth_a_multimodal_foundation_model_for_the_earths_subsurface/"
-    t: "The Transparent Earth: A Multimodal Foundation Model for the Earth's Subsurface"
   - u: "think_straight_stop_smart_structured_reasoning_for_efficient_multi-hop_rag/"
     t: "Think Straight, Stop Smart: Structured Reasoning for Efficient Multi-Hop RAG"
-  - u: "windsock_is_dancing_adaptive_multimodal_retrieval-augmented_generation/"
-    t: "Windsock is Dancing: Adaptive Multimodal Retrieval-Augmented Generation"
-item_total: 30
+item_total: 25
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🧠 NeurIPS2025** · **30** 篇论文解读
+**🧠 NeurIPS2025** · **25** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (11)](../../CVPR2026/information_retrieval/index.md) · [🧪 ICML2026 (23)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (31)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/information_retrieval/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×14 · 多模态 ×5 · 推理 ×4 · 问答 ×2 · LLM ×2
+🔥 **高频主题：** RAG ×12 · 推理 ×4 · LLM ×2
 
 **[AcuRank: Uncertainty-Aware Adaptive Computation for Listwise Reranking](acurank_uncertainty-aware_adaptive_computation_for_listwise_reranking.md)**
 
 :   利用贝叶斯TrueSkill模型维护文档相关性的概率分布，在每轮迭代中只对排名不确定的文档进行重排序，实现根据查询难度自适应调配计算量的重排框架，在多个基准上以更少调用次数超越固定计算基线。
-
-**[Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering](benchmarking_retrievalaugmented_multimodal_generation_for_do.md)**
-
-:   提出 MMDocRAG 基准（4055 个专家标注的 QA 对），系统评估了 60 个 VLM/LLM 和 14 个检索器在多模态文档检索增强生成中的引用选择和交错图文回答能力，揭示当前最强模型 GPT-4.1 的 Quote Selection F1 仅 70.2%，微调可显著提升性能。
 
 **[Chain-of-Retrieval Augmented Generation (CoRAG)](chain-of-retrieval_augmented_generation.md)**
 
@@ -113,10 +97,6 @@ item_total: 30
 **[Enginuity: Building an Open Multi-Domain Dataset of Complex Engineering Diagrams](enginuity_building_an_open_multi-domain_dataset_of_complex_engineering_diagrams.md)**
 
 :   提出 Enginuity——首个面向 AI 自动解析工程图的大规模开放多领域数据集方案，计划构建 50K+ 带有层级组件关系、空间连接和语义角色标注的汽车工程图，通过四阶段人机协同标注管线实现高质量与低成本的平衡，并定义了从符号检测到数字孪生生成的完整任务体系，为多模态大模型理解工程图中的视觉-结构知识提供了首个系统性基准资源。
-
-**[Generalized Contrastive Learning for Universal Multimodal Retrieval](generalized_contrastive_learning_for_universal_multimodal_re.md)**
-
-:   提出 Generalized Contrastive Learning (GCL)——在 mini-batch 内对所有 6 种模态对组合（image↔text, image↔image+text, text↔image+text）执行对比学习，无需构建新的三元组数据集，仅用现有图文对即可在 M-BEIR 上将 VISTA 的平均检索精度从 21.18 提升到 34.06（+60.8%），在 MMEB 的 text→image+text 任务上从 10.1% 提升到 31.1%。
 
 **[Hierarchical Retrieval: The Geometry and a Pretrain-Finetune Recipe](hierarchical_retrieval_the_geometry_and_a_pretrain-finetune_recipe.md)**
 
@@ -190,18 +170,6 @@ item_total: 30
 
 :   提出 SymRTLO，首个将LLM与符号推理集成的神经符号框架用于RTL代码优化，通过检索增强优化规则、AST模板引导代码生成和FSM符号系统，在功耗、性能和面积(PPA)上分别获得最高43.9%、62.5%和51.1%的提升。
 
-**[The Narrow Gate: Localized Image-Text Communication in Native Multimodal Models](the_narrow_gate_localized_imagetext_communication_in_native.md)**
-
-:   通过系统性的可解释性分析发现，原生多模态VLM（Chameleon、Emu3）中图像到文本的跨模态信息传递集中于单一的end-of-image [EOI] token——形成"narrow gate"瓶颈，删除[EOI]的注意力导致性能崩溃；而非原生VLM（LLaVA等）的信息传递是分布式的。这一机制差异可被利用于语义操控和鲁棒性改进。
-
-**[The Transparent Earth: A Multimodal Foundation Model for the Earth's Subsurface](the_transparent_earth_a_multimodal_foundation_model_for_the_earths_subsurface.md)**
-
-:   提出Transparent Earth，一种基于Transformer的多模态基础模型，通过位置编码和文本衍生的模态嵌入融合8种异质地球物理观测数据，实现地球地下属性的零样本推断和上下文学习预测。
-
 **[Think Straight, Stop Smart: Structured Reasoning for Efficient Multi-Hop RAG](think_straight_stop_smart_structured_reasoning_for_efficient_multi-hop_rag.md)**
 
 :   提出 TSSS (Think Straight, Stop Smart) 框架，通过 (i) 基于模板的推理缓存重复前缀并锚定子查询到主问题，(ii) 基于检索器的确定性终止器在子查询重复时停止推理，在多跳 RAG 基准上实现 SOTA 准确率和竞争效率。
-
-**[Windsock is Dancing: Adaptive Multimodal Retrieval-Augmented Generation](windsock_is_dancing_adaptive_multimodal_retrieval-augmented_generation.md)**
-
-:   提出Windsock+DANCE双组件框架解决多模态RAG的三个核心问题：Windsock模块根据查询自适应决定**何时检索**和**检索什么模态**（文本/图像/不检索），DANCE指令微调策略通过动态选择模型薄弱模态进行噪声鲁棒训练来提升**如何利用**检索信息的能力，整体性能提升17.07%同时减少8.95%检索次数。

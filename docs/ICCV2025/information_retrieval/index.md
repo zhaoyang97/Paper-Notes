@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICCV2025 信息检索/RAG论文汇总 · 7篇论文解读
+  ICCV2025 信息检索/RAG论文汇总 · 5篇论文解读
 description: >-
-  7篇ICCV2025的信息检索/RAG 方向论文解读，涵盖持续学习、RAG、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  5篇ICCV2025的信息检索/RAG 方向论文解读，涵盖持续学习、RAG等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICCV2025"
   - "信息检索/RAG"
@@ -10,12 +10,9 @@ tags:
   - "论文笔记"
   - "持续学习"
   - "RAG"
-  - "多模态"
 item_list:
   - u: "aligning_information_capacity_between_vision_and_language_via_dense-to-sparse_fe/"
     t: "Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation"
-  - u: "aligning_information_capacity_between_vision_and_language_via_dense_to_sparse_feature_distillation/"
-    t: "Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation for Image-Text Matching"
   - u: "external_knowledge_injection_for_clip-based_class-incremental_learning/"
     t: "External Knowledge Injection for CLIP-Based Class-Incremental Learning"
   - u: "langbridge_interpreting_image_as_a_combination_of_language_embeddings/"
@@ -24,25 +21,19 @@ item_list:
     t: "MonSTeR: a Unified Model for Motion, Scene, Text Retrieval"
   - u: "ocr_hinders_rag_evaluating_the_cascading_impact_of_ocr_on_retrieval-augmented_ge/"
     t: "OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation"
-  - u: "vilu_learning_vision-language_uncertainties_for_failure_prediction/"
-    t: "ViLU: Learning Vision-Language Uncertainties for Failure Prediction"
-item_total: 7
+item_total: 5
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**📹 ICCV2025** · **7** 篇论文解读
+**📹 ICCV2025** · **5** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (11)](../../CVPR2026/information_retrieval/index.md) · [🧪 ICML2026 (23)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (31)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
 **[Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation](aligning_information_capacity_between_vision_and_language_via_dense-to-sparse_fe.md)**
 
 :   提出D2S-VSE框架，通过两阶段训练（稠密文本预训练+稠密到稀疏特征蒸馏微调）增强视觉语义嵌入的信息容量，解决图文匹配中图像与文本信息密度不对称的核心问题。
-
-**[Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation for Image-Text Matching](aligning_information_capacity_between_vision_and_language_via_dense_to_sparse_feature_distillation.md)**
-
-:   提出D2S-VSE，通过两阶段训练——先用LLaVA生成的稠密文本与图像预训练对齐以增强信息容量，再将稠密文本嵌入蒸馏到稀疏文本嵌入——解决图文匹配中信息密度不对称问题，在MS-COCO和Flickr30K上超越SOTA。
 
 **[External Knowledge Injection for CLIP-Based Class-Incremental Learning](external_knowledge_injection_for_clip-based_class-incremental_learning.md)**
 
@@ -59,7 +50,3 @@ item_total: 7
 **[OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation](ocr_hinders_rag_evaluating_the_cascading_impact_of_ocr_on_retrieval-augmented_ge.md)**
 
 :   提出 OHRBench——首个评估 OCR 对 RAG 系统级联影响的基准，包含 7 个领域的 8561 张文档图像和 8498 个 QA 对，系统性地揭示了 OCR 产生的语义噪声（Semantic Noise）和格式噪声（Formatting Noise）对检索和生成两阶段的不同影响模式。
-
-**[ViLU: Learning Vision-Language Uncertainties for Failure Prediction](vilu_learning_vision-language_uncertainties_for_failure_prediction.md)**
-
-:   提出 ViLU，一个针对 VLM 零样本预测的后验不确定性量化框架，通过交叉注意力融合视觉嵌入、预测文本嵌入和图像条件文本表示，构建不确定性感知的多模态表征，在 13 个分类数据集和大规模图文数据集上显著超越现有失败预测方法。

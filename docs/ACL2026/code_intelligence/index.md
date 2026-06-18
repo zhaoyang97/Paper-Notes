@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 代码智能论文汇总 · 51篇论文解读
+  ACL2026 代码智能论文汇总 · 49篇论文解读
 description: >-
-  51篇ACL2026的代码智能方向论文解读，涵盖代码智能、LLM、Agent、推理、强化学习、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  49篇ACL2026的代码智能方向论文解读，涵盖代码智能、LLM、Agent、推理、强化学习、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "代码智能"
@@ -16,8 +16,6 @@ tags:
 item_list:
   - u: "across_programming_language_silos_a_study_on_cross-lingual_retrieval-augmented_c/"
     t: "Across Programming Language Silos: A Study on Cross-Lingual Retrieval-Augmented Code Generation"
-  - u: "aligned_multi-view_scripts_for_universal_chart-to-code_generation/"
-    t: "Aligned Multi-View Scripts for Universal Chart-to-Code Generation"
   - u: "automonitor-bench_evaluating_the_reliability_of_llm-based_misbehavior_monitor/"
     t: "AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor"
   - u: "benchmarking_testing_in_automated_theorem_proving/"
@@ -52,8 +50,6 @@ item_list:
     t: "EET: Experience-Driven Early Termination for Cost-Efficient Software Engineering Agents"
   - u: "formalscience_scalable_human-in-the-loop_autoformalisation_of_science_with_agent/"
     t: "FormalScience: Scalable Human-in-the-Loop Autoformalisation of Science with Agentic Code Generation in Lean"
-  - u: "from_charts_to_code_a_hierarchical_benchmark_for_multimodal_models/"
-    t: "From Charts to Code: A Hierarchical Benchmark for Multimodal Models"
   - u: "from_if-statements_to_ml_pipelines_revisiting_bias_in_code-generation/"
     t: "From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation"
   - u: "koco-bench_can_large_language_models_leverage_domain_knowledge_in_software_devel/"
@@ -74,25 +70,25 @@ item_list:
     t: "Precise Debugging Benchmark: Is Your Model Debugging or Regenerating?"
   - u: "pv-sql_synergizing_database_probing_and_rule-based_verification_for_text-to-sql_/"
     t: "PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents"
-item_total: 51
+  - u: "qaq_bidirectional_semantic_coherence_for_selecting_high-quality_synthetic_code_i/"
+    t: "QAQ: Bidirectional Semantic Coherence for Selecting High-Quality Synthetic Code Instructions"
+  - u: "qimeng-prepair_precise_code_repair_via_edit-aware_reward_optimization/"
+    t: "QiMeng-PRepair: Precise Code Repair via Edit-Aware Reward Optimization"
+item_total: 49
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**💬 ACL2026** · **51** 篇论文解读
+**💬 ACL2026** · **49** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/code_intelligence/index.md) · [🧪 ICML2026 (15)](../../ICML2026/code_intelligence/index.md) · [🔬 ICLR2026 (19)](../../ICLR2026/code_intelligence/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/code_intelligence/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/code_intelligence/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/code_intelligence/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (15)](../../ICML2026/code_intelligence/index.md) · [🔬 ICLR2026 (18)](../../ICLR2026/code_intelligence/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/code_intelligence/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/code_intelligence/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/code_intelligence/index.md) · [🧪 ICML2025 (9)](../../ICML2025/code_intelligence/index.md)
 
-🔥 **高频主题：** 代码智能 ×16 · LLM ×7 · Agent ×4 · 推理 ×3 · 强化学习 ×2
+🔥 **高频主题：** 代码智能 ×15 · LLM ×7 · Agent ×4 · 推理 ×3 · 强化学习 ×2
 
 **[Across Programming Language Silos: A Study on Cross-Lingual Retrieval-Augmented Code Generation](across_programming_language_silos_a_study_on_cross-lingual_retrieval-augmented_c.md)**
 
 :   首次系统研究跨编程语言的检索增强代码生成（RACG），构建覆盖13种编程语言的14K实例数据集，揭示跨语言知识迁移的不对等性及其与语言亲缘性和预训练多样性的关系。
-
-**[Aligned Multi-View Scripts for Universal Chart-to-Code Generation](aligned_multi-view_scripts_for_universal_chart-to-code_generation.md)**
-
-:   把"同一张图表用 Python / R / LaTeX 三种语言写出语义等价脚本"作为新的监督信号，构建了 176K 四元组数据集 Chart2NCode，并提出在 LLaVA 投影器上加一个"语言条件的低秩子空间路由"的轻量适配器 CharLuMA，让一个模型在三种绘图语言上都达到可执行率与视觉保真度双高的水准。
 
 **[AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor](automonitor-bench_evaluating_the_reliability_of_llm-based_misbehavior_monitor.md)**
 
@@ -161,10 +157,6 @@ item_total: 51
 **[FormalScience: Scalable Human-in-the-Loop Autoformalisation of Science with Agentic Code Generation in Lean](formalscience_scalable_human-in-the-loop_autoformalisation_of_science_with_agent.md)**
 
 :   FormalScience 提出一个领域无关的人在环 (HITL) Agent 流水线，让单个领域专家在不会 Lean 的情况下，把非正式的科学推理（特别是物理）转写成 100% 编译通过的 Lean4 代码，并构建出首个 200 题大学物理形式化基准 FormalPhysics，系统刻画了「编译通过」但「语义漂移」的现象。
-
-**[From Charts to Code: A Hierarchical Benchmark for Multimodal Models](from_charts_to_code_a_hierarchical_benchmark_for_multimodal_models.md)**
-
-:   本文提出 Chart2Code，一个包含 2,186 个任务、覆盖 22 种图表类型的层次化基准，分为图表复现（Level 1）、图表编辑（Level 2）和长表格转图表（Level 3）三个递进难度级别，评测 29 个 SOTA 多模态模型，发现即使最强的 GPT-5.2 在编辑任务上的图表质量评分仅 33.41，揭示了当前模型在实际图表代码生成中的显著不足。
 
 **[From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation](from_if-statements_to_ml_pipelines_revisiting_bias_in_code-generation.md)**
 

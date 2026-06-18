@@ -1,8 +1,8 @@
 ---
 title: >-
-  ECCV2024 信息检索/RAG论文汇总 · 4篇论文解读
+  ECCV2024 信息检索/RAG论文汇总 · 3篇论文解读
 description: >-
-  4篇ECCV2024的信息检索/RAG 方向论文解读，涵盖布局/合成、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  3篇ECCV2024的信息检索/RAG 方向论文解读，涵盖布局/合成、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ECCV2024"
   - "信息检索/RAG"
@@ -11,27 +11,21 @@ tags:
   - "布局/合成"
   - "LLM"
 item_list:
-  - u: "grounding_language_models_for_visual_entity_recognition/"
-    t: "Grounding Language Models for Visual Entity Recognition"
   - u: "multi-label_cluster_discrimination_for_visual_representation_learning/"
     t: "Multi-Label Cluster Discrimination for Visual Representation Learning"
   - u: "onerestore_a_universal_restoration_framework_for_composite_degradation/"
     t: "OneRestore: A Universal Restoration Framework for Composite Degradation"
   - u: "towards_open-ended_visual_recognition_with_large_language_models/"
     t: "Towards Open-Ended Visual Recognition with Large Language Model"
-item_total: 4
+item_total: 3
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🎞️ ECCV2024** · **4** 篇论文解读
+**🎞️ ECCV2024** · **3** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (11)](../../CVPR2026/information_retrieval/index.md) · [🧪 ICML2026 (23)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (31)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/information_retrieval/index.md)
-
-**[Grounding Language Models for Visual Entity Recognition](grounding_language_models_for_visual_entity_recognition.md)**
-
-:   提出 AutoVER——首个将多模态大语言模型（MLLM）应用于大规模视觉实体识别的方法，通过将检索能力集成到 MLLM 内部，结合对比训练和前缀树约束解码，在 Oven-Wiki 基准上大幅超越 PaLI-17B 等先前方法。
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md)
 
 **[Multi-Label Cluster Discrimination for Visual Representation Learning](multi-label_cluster_discrimination_for_visual_representation_learning.md)**
 

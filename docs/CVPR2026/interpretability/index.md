@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 可解释性论文汇总 · 41篇论文解读
+  CVPR2026 可解释性论文汇总 · 42篇论文解读
 description: >-
-  41篇CVPR2026的可解释性方向论文解读，涵盖多模态、推理、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  42篇CVPR2026的可解释性方向论文解读，涵盖多模态、推理、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "可解释性"
@@ -30,6 +30,8 @@ item_list:
     t: "Edit-As-Act: Goal-Regressive Planning for Open-Vocabulary 3D Indoor Scene Editing"
   - u: "ermoe_eigen-reparameterized_mixture-of-experts_for_stable_routing/"
     t: "ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization"
+  - u: "explaining_clip_zero-shot_predictions_through_concepts/"
+    t: "Explaining CLIP Zero-shot Predictions Through Concepts"
   - u: "from_weights_to_concepts_data-free_interpretability_of_clip_via_singular_vector_/"
     t: "From Weights to Concepts: Data-Free Interpretability of CLIP via Singular Vector Decomposition"
   - u: "h-sets_hessian-guided_discovery_of_set-level_feature_interactions_in_image_class/"
@@ -70,17 +72,15 @@ item_list:
     t: "On the Possible Detectability of Image-in-Image Steganography"
   - u: "phasewin_search_framework_enable_efficient_object-level_interpretation/"
     t: "PhaseWin: 让目标级归因从二次复杂度降到近线性的相位窗口搜索"
-  - u: "pixel2phys_distilling_governing_laws_from_visual_dynamics/"
-    t: "Pixel2Phys: Distilling Governing Laws from Visual Dynamics"
-item_total: 41
+item_total: 42
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**📷 CVPR2026** · **41** 篇论文解读
+**📷 CVPR2026** · **42** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [💬 ACL2026 (60)](../../ACL2026/interpretability/index.md) · [🔬 ICLR2026 (60)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [💬 ACL2026 (61)](../../ACL2026/interpretability/index.md) · [🔬 ICLR2026 (60)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
 
 🔥 **高频主题：** 多模态 ×4 · 推理 ×4 · 布局/合成 ×3
 
@@ -119,6 +119,10 @@ item_total: 41
 **[ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization](ermoe_eigen-reparameterized_mixture-of-experts_for_stable_routing.md)**
 
 :   ERMoE 提出在正交特征基（eigenbasis）中重参数化MoE专家权重，并用特征基分数（cosine similarity）替代传统路由logits，无需辅助负载均衡损失即可实现稳定路由和可解释的专家特化。
+
+**[Explaining CLIP Zero-shot Predictions Through Concepts](explaining_clip_zero-shot_predictions_through_concepts.md)**
+
+:   本文提出 EZPC，通过学习一个线性投影矩阵将 CLIP 的图像-文本嵌入映射到可解释的概念空间，在几乎不损失零样本分类精度的前提下（CIFAR-100/CUB/ImageNet-100 上 H-mean 仅差约 1%），为 CLIP 的预测提供基于人类可理解概念的忠实解释，且推理开销仅增加约 0.1ms。
 
 **[From Weights to Concepts: Data-Free Interpretability of CLIP via Singular Vector Decomposition](from_weights_to_concepts_data-free_interpretability_of_clip_via_singular_vector_.md)**
 

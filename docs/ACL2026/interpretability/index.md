@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 可解释性论文汇总 · 60篇论文解读
+  ACL2026 可解释性论文汇总 · 61篇论文解读
 description: >-
-  60篇ACL2026的可解释性方向论文解读，涵盖 LLM、推理、布局/合成、对齐/RLHF、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  61篇ACL2026的可解释性方向论文解读，涵盖 LLM、推理、布局/合成、对齐/RLHF、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "可解释性"
@@ -74,15 +74,15 @@ item_list:
     t: "Interpretable Semantic Gradients in SSD: A PCA Sweep Approach and a Case Study on AI Discourse"
   - u: "interpretable_traces_unexpected_outcomes_investigating_the_disconnect_in_trace-b/"
     t: "Interpretable Traces, Unexpected Outcomes: Investigating the Disconnect in Trace-Based Knowledge Distillation"
-item_total: 60
+item_total: 61
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**💬 ACL2026** · **60** 篇论文解读
+**💬 ACL2026** · **61** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (41)](../../CVPR2026/interpretability/index.md) · [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [🔬 ICLR2026 (60)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (42)](../../CVPR2026/interpretability/index.md) · [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [🔬 ICLR2026 (60)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
 
 🔥 **高频主题：** LLM ×15 · 推理 ×5 · 布局/合成 ×3 · 对齐/RLHF ×3 · 多模态 ×2
 
@@ -273,6 +273,10 @@ item_total: 60
 **[Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization](preference_heads_in_large_language_models_a_mechanistic_framework_for_interpreta.md)**
 
 :   这篇论文提出 Preference Heads 与 Differential Preference Steering，用因果消融找出少量承载用户偏好的注意力头，再在解码时放大这些头带来的偏好信号，从而在不改模型参数的情况下提升个性化生成与预测效果。
+
+**[Probing for Reading Times](probing_for_reading_times.md)**
+
+:   本文探测语言模型各层表示预测阅读时间的能力，发现早期层表示在预测早期注视指标上优于surprisal，而surprisal在晚期指标上更优，最佳预测器因语言和指标而异。
 
 **[Retrieval Heads are Dynamic](retrieval_heads_are_dynamic.md)**
 

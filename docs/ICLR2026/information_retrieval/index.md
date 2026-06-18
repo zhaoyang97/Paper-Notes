@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 信息检索/RAG论文汇总 · 31篇论文解读
+  ICLR2026 信息检索/RAG论文汇总 · 28篇论文解读
 description: >-
-  31篇ICLR2026的信息检索/RAG 方向论文解读，涵盖 RAG、LLM、推理、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  28篇ICLR2026的信息检索/RAG 方向论文解读，涵盖 RAG、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "信息检索/RAG"
@@ -11,7 +11,6 @@ tags:
   - "RAG"
   - "LLM"
   - "推理"
-  - "多模态"
 item_list:
   - u: "amemgym_interactive_memory_benchmarking_for_assistants_in_long-horizon_conversat/"
     t: "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations"
@@ -27,8 +26,6 @@ item_list:
     t: "BTZSC: A Benchmark for Zero-Shot Text Classification Across Cross-Encoders, Embedding Models, Rerankers and LLMs"
   - u: "digging_deeper_learning_multi-level_concept_hierarchies/"
     t: "Digging Deeper: Learning Multi-Level Concept Hierarchies"
-  - u: "efficient_discriminative_joint_encoders_for_large_scale_vision-language_rerankin/"
-    t: "Efficient Discriminative Joint Encoders for Large Scale Vision-Language Re-ranking"
   - u: "embedding-based_context-aware_reranker/"
     t: "Embedding-Based Context-Aware Reranker"
   - u: "fine-tuning_with_rag_for_improving_llm_learning_of_new_skills/"
@@ -51,8 +48,6 @@ item_list:
     t: "LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference"
   - u: "mapping_semantic_syntactic_relationships_with_geometric_rotation/"
     t: "Mapping Semantic & Syntactic Relationships with Geometric Rotation"
-  - u: "multimodal_dataset_distillation_made_simple_by_prototype-guided_data_synthesis/"
-    t: "Multimodal Dataset Distillation Made Simple by Prototype-Guided Data Synthesis"
   - u: "on_the_wings_of_imagination_conflicting_script-based_multi-role_framework_for_hu/"
     t: "On the Wings of Imagination: Conflicting Script-based Multi-role Framework for Humor Caption Generation"
   - u: "q_rag_long_context_multi_step_retrieval/"
@@ -61,8 +56,6 @@ item_list:
     t: "Query-Level Uncertainty in Large Language Models"
   - u: "raee_a_robust_retrieval-augmented_early_exit_framework_for_efficient_inference/"
     t: "RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference"
-  - u: "ravenea_a_benchmark_for_multimodal_retrieval-augmented_visual_culture_understand/"
-    t: "RAVENEA: A Benchmark for Multimodal Retrieval-Augmented Visual Culture Understanding"
   - u: "reftool_reference-guided_tool_creation_for_knowledge-intensive_reasoning/"
     t: "RefTool: Reference-Guided Tool Creation for Knowledge-Intensive Reasoning"
   - u: "revela_dense_retriever_learning_via_language_modeling/"
@@ -73,17 +66,19 @@ item_list:
     t: "SynthWorlds: Controlled Parallel Worlds for Disentangling Reasoning and Knowledge in Language Models"
   - u: "tokmem_one-token_procedural_memory_for_large_language_models/"
     t: "TokMem: One-Token Procedural Memory for Large Language Models"
-item_total: 31
+  - u: "your_language_model_secretly_contains_personality_subnetworks/"
+    t: "Your Language Model Secretly Contains Personality Subnetworks"
+item_total: 28
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🔬 ICLR2026** · **31** 篇论文解读
+**🔬 ICLR2026** · **28** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (11)](../../CVPR2026/information_retrieval/index.md) · [🧪 ICML2026 (23)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×6 · LLM ×5 · 推理 ×4 · 多模态 ×3
+🔥 **高频主题：** RAG ×5 · LLM ×5 · 推理 ×4
 
 **[AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](amemgym_interactive_memory_benchmarking_for_assistants_in_long-horizon_conversat.md)**
 
@@ -112,10 +107,6 @@ item_total: 31
 **[Digging Deeper: Learning Multi-Level Concept Hierarchies](digging_deeper_learning_multi-level_concept_hierarchies.md)**
 
 :   本文提出 Multi-Level Concept Splitting（MLCS）将概念分裂过程从单层递归扩展到多层，仅用顶层概念标注就能自动发现任意深度的概念层级树，并设计 Deep-HiCEMs 架构来表示和利用这些深层层级，实现多粒度的测试时概念干预。
-
-**[Efficient Discriminative Joint Encoders for Large Scale Vision-Language Re-ranking](efficient_discriminative_joint_encoders_for_large_scale_vision-language_rerankin.md)**
-
-:   提出EDJE（高效判别式联合编码器），通过将视觉特征提取离线化并用轻量级注意力适配器压缩视觉Token，实现50k图文对/秒的高吞吐推理，同时在Flickr（零样本）和COCO（微调）检索上匹配现有联合编码器的性能，每张图仅需49kB存储。
 
 **[Embedding-Based Context-Aware Reranker](embedding-based_context-aware_reranker.md)**
 
@@ -161,10 +152,6 @@ item_total: 31
 
 :   提出RISE（Rotor-Invariant Shift Estimation）方法，利用Clifford代数的rotor将话语级语义-句法变换（否定、条件化、礼貌化）表示为单位超球面上的一致旋转操作，在7种语言×3种嵌入模型×3种变换的系统实验中证实这些旋转可跨语言和跨模型迁移（77%-95%保持率），首次将线性表示假说从词级扩展到跨语言话语级并推广到弯曲流形上的测地线结构。
 
-**[Multimodal Dataset Distillation Made Simple by Prototype-Guided Data Synthesis](multimodal_dataset_distillation_made_simple_by_prototype-guided_data_synthesis.md)**
-
-:   提出 PDS（Prototype-Guided Data Synthesis），首个免训练的多模态数据集蒸馏框架——利用 CLIP 对齐嵌入空间做模态特异聚类，通过匈牙利算法跨模态匹配获得图文原型，再用 unCLIP 解码器从图像原型合成蒸馏图像，在 100 对极小蒸馏集上以零训练代价全面超越优化式方法，并实现 SOTA 的跨架构泛化能力。
-
 **[On the Wings of Imagination: Conflicting Script-based Multi-role Framework for Humor Caption Generation](on_the_wings_of_imagination_conflicting_script-based_multi-role_framework_for_hu.md)**
 
 :   提出 HOMER 框架，基于 GTVH 幽默理论构建三角色 LLM 协作机制（冲突脚本提取器 + 层次想象器 + 标题生成器），通过显式建模脚本对立、多视角联想链与笑话数据库检索构建想象树来扩展创意空间，在 New Yorker 漫画基准上以 GPT-4o 为底座平均提升 ~7%，人类评估也显著优于所有基线。
@@ -180,10 +167,6 @@ item_total: 31
 **[RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference](raee_a_robust_retrieval-augmented_early_exit_framework_for_efficient_inference.md)**
 
 :   提出 RAEE，一种无需训练分类器的检索增强早退框架，通过检索语义相似样本的退出信息来动态确定最优退出层，不仅加速推理还能纠正模型错误预测，实现加速与性能提升的双赢。
-
-**[RAVENEA: A Benchmark for Multimodal Retrieval-Augmented Visual Culture Understanding](ravenea_a_benchmark_for_multimodal_retrieval-augmented_visual_culture_understand.md)**
-
-:   构建首个评估多模态检索增强文化理解的基准 Ravenea，包含 1868 个实例和 11396 篇人工排序的 Wikipedia 文档，覆盖 8 个国家 11 个类别，评估 7 个多模态检索器和 17 个 VLM，发现文化感知的 RAG 可在 cVQA 上平均提升 6%、cIC 上提升 11%。
 
 **[RefTool: Reference-Guided Tool Creation for Knowledge-Intensive Reasoning](reftool_reference-guided_tool_creation_for_knowledge-intensive_reasoning.md)**
 

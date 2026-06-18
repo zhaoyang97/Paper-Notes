@@ -1,8 +1,8 @@
 ---
 title: >-
-  AAAI2026 信息检索/RAG论文汇总 · 26篇论文解读
+  AAAI2026 信息检索/RAG论文汇总 · 21篇论文解读
 description: >-
-  26篇AAAI2026的信息检索/RAG 方向论文解读，涵盖 RAG、推理、多模态、LLM、Agent、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  21篇AAAI2026的信息检索/RAG 方向论文解读，涵盖 RAG、推理、LLM、Agent、对话系统、问答等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "AAAI2026"
   - "信息检索/RAG"
@@ -10,10 +10,10 @@ tags:
   - "论文笔记"
   - "RAG"
   - "推理"
-  - "多模态"
   - "LLM"
   - "Agent"
-  - "对齐/RLHF"
+  - "对话系统"
+  - "问答"
 item_list:
   - u: "as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan/"
     t: "\"As Eastern Powers, I Will Veto.\" : An Investigation of Nation-Level Bias of Large Language Models in International Relations"
@@ -31,24 +31,14 @@ item_list:
     t: "Do Retrieval Augmented Language Models Know When They Don't Know?"
   - u: "exposing_the_cracks_vulnerabilities_of_retrieval-augmented_llm-based_machine_tra/"
     t: "Exposing the Cracks: Vulnerabilities of Retrieval-Augmented LLM-Based Machine Translation"
-  - u: "himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi/"
-    t: "HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment"
-  - u: "knowledge_completes_the_vision_a_multimodal_entity-aware_retrieval-augmented_gen/"
-    t: "Knowledge Completes the Vision: A Multimodal Entity-aware Retrieval-Augmented Generation Framework for News Image Captioning"
   - u: "magnitude_matters_a_superior_class_of_similarity_metrics_for_holistic_semantic_u/"
     t: "Magnitude Matters: A Superior Class of Similarity Metrics for Holistic Semantic Understanding"
   - u: "mem-pal_towards_memory-based_personalized_dialogue_assistants_for_long-term_user/"
     t: "Mem-PAL: Towards Memory-based Personalized Dialogue Assistants for Long-term User-Agent Interaction"
-  - u: "multimodal_deepresearcher_generating_text-chart_interleaved_/"
-    t: "Multimodal DeepResearcher: Generating Text-Chart Interleaved Reports From Scratch with Agentic Framework"
   - u: "n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l/"
     t: "N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs"
-  - u: "neighbor-aware_instance_refining_with_noisy_labels_for_cross-modal_retrieval/"
-    t: "Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval"
   - u: "opera_a_reinforcement_learning--enhanced_orchestrated_planner-executor_architect/"
     t: "OPERA: A Reinforcement Learning--Enhanced Orchestrated Planner-Executor Architecture for Reasoning-Oriented Multi-Hop Retrieval"
-  - u: "positional_bias_in_multimodal_embedding_models_do_they_favor_the_beginning_the_m/"
-    t: "Positional Bias in Multimodal Embedding Models: Do They Favor the Beginning, the Middle, or the End?"
   - u: "precise_reducing_the_bias_of_llm_evaluations_using_prediction-powered_ranking_es/"
     t: "PRECISE: Reducing the Bias of LLM Evaluations Using Prediction-Powered Ranking Estimation"
   - u: "prime_planning_and_retrieval-integrated_memory_for_enhanced_reasoning/"
@@ -67,17 +57,17 @@ item_list:
     t: "Towards Inference-Time Scaling for Continuous Space Reasoning"
   - u: "when_small_models_are_right_for_wrong_reasons_process_verification_for_trustwort/"
     t: "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents"
-item_total: 26
+item_total: 21
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🤖 AAAI2026** · **26** 篇论文解读
+**🤖 AAAI2026** · **21** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (11)](../../CVPR2026/information_retrieval/index.md) · [🧪 ICML2026 (23)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (31)](../../ICLR2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×7 · 推理 ×4 · 多模态 ×4 · LLM ×3 · Agent ×3
+🔥 **高频主题：** RAG ×6 · 推理 ×4 · LLM ×3 · Agent ×3 · 对话系统 ×2
 
 **["As Eastern Powers, I Will Veto." : An Investigation of Nation-Level Bias of Large Language Models in International Relations](as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)**
 
@@ -111,14 +101,6 @@ item_total: 26
 
 :   开发受控噪声注入框架系统评估检索增强翻译（REAL-MT），引入Fidelity和CAR两个新指标，在10语言对×4种噪声类型上揭示模型即使面对矛盾上下文仍盲目采纳（CAR保持65-78%），大推理模型（LRM）反而更脆弱（会"合理化"错误上下文），且噪声鲁棒性与干净上下文利用率存在根本性trade-off。
 
-**[HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment](himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi.md)**
-
-:   提出 HiMo-CLIP，通过对文本嵌入做 batch 内 PCA 分解（HiDe）提取多粒度语义成分，配合双分支单调性感知对比损失（MoLo），在不修改编码器的前提下让 CLIP 学会"文本越完整、对齐分数越高"的语义单调性，在长文本检索上显著超越现有方法。
-
-**[Knowledge Completes the Vision: A Multimodal Entity-aware Retrieval-Augmented Generation Framework for News Image Captioning](knowledge_completes_the_vision_a_multimodal_entity-aware_retrieval-augmented_gen.md)**
-
-:   本文提出MERGE，首个面向新闻图像描述的多模态实体感知RAG框架，通过构建实体中心多模态知识库（EMKB）、假设描述引导的多模态对齐（HCMA）和检索驱动的多模态知识集成（RMKI）三大组件，在GoodNews上CIDEr提升+6.84、F1提升+4.14，并在未见过的Visual News上实现CIDEr +20.17的强泛化。
-
 **[Magnitude Matters: A Superior Class of Similarity Metrics for Holistic Semantic Understanding](magnitude_matters_a_superior_class_of_similarity_metrics_for_holistic_semantic_u.md)**
 
 :   提出两种无参数、幅度感知的向量相似度度量——Overlap Similarity (OS) 和 Hyperbolic Tangent Similarity (HTS)，在 4 个句子嵌入模型和 8 个 NLP 基准上，对分类任务（释义、推理）的 MSE 显著低于 Cosine Similarity 和 Dot Product，且无需任何额外训练开销。
@@ -127,25 +109,13 @@ item_total: 26
 
 :   提出H2Memory四层分层异构记忆结构（日志图/背景记忆/主题大纲/原则），通过PAL-Set数据集（100用户×8.4个月交互）验证，在需求重述和方案建议任务上将BLEU-1从13.59提升至26.67。
 
-**[Multimodal DeepResearcher: Generating Text-Chart Interleaved Reports From Scratch with Agentic Framework](multimodal_deepresearcher_generating_text-chart_interleaved_.md)**
-
-:   提出 Multimodal DeepResearcher，一个四阶段 Agent 框架从零生成图文交替研究报告：通过形式化可视化描述（FDV）让 LLM 学习和生成多样化图表，结合 Actor-Critic 迭代精炼机制（LLM生成D3.js代码→浏览器渲染→多模态LLM评审），在自建 MultimodalReportBench 上达到 82% 整体胜率（Claude 3.7），人类评估 100% 胜率。
-
 **[N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)**
 
 :   提出 N2N-GQA——首个用于开放域混合表格-文本问答的零样本框架，核心思路是将检索到的嘈杂文档构建为动态证据图（文档为节点、TF-IDF共享词为边），通过图中心性剪枝识别"桥接文档"连接多跳推理链，在 OTT-QA 上比 Vanilla RAG 提升 +39.6 EM（从 8.0 到 48.8），零样本即接近微调系统 CORE (49.0 EM)。
 
-**[Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval](neighbor-aware_instance_refining_with_noisy_labels_for_cross-modal_retrieval.md)**
-
-:   提出 NIRNL 框架，通过跨模态边距保持（CMP）增强样本区分度，并利用邻域感知实例精炼（NIR）将训练数据三分为纯净/困难/噪声子集，分别定制不同优化策略，统一了鲁棒学习、标签校准和实例选择三种范式，在高噪声率下实现了 SOTA 跨模态检索性能。
-
 **[OPERA: A Reinforcement Learning--Enhanced Orchestrated Planner-Executor Architecture for Reasoning-Oriented Multi-Hop Retrieval](opera_a_reinforcement_learning--enhanced_orchestrated_planner-executor_architect.md)**
 
 :   提出 OPERA 框架，通过 Goal Planning Module 和 Reason-Execute Module 的分层架构，结合专为多 agent 设计的 MAPGRPO 训练算法，大幅提升 reasoning-oriented multi-hop retrieval 性能。
-
-**[Positional Bias in Multimodal Embedding Models: Do They Favor the Beginning, the Middle, or the End?](positional_bias_in_multimodal_embedding_models_do_they_favor_the_beginning_the_m.md)**
-
-:   本文首次系统研究多模态表示模型中的位置偏差现象，发现文本编码器倾向于偏好输入开头，而图像编码器在开头和结尾均表现偏好，并通过大量控制实验揭示该偏差源于位置编码方案、训练损失、上下文重要性和图文对训练的多因素共同作用。
 
 **[PRECISE: Reducing the Bias of LLM Evaluations Using Prediction-Powered Ranking Estimation](precise_reducing_the_bias_of_llm_evaluations_using_prediction-powered_ranking_es.md)**
 

@@ -83,7 +83,7 @@ item_total: 138
 
 **🔬 ICLR2026** · **138** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (449)](../../CVPR2026/image_generation/index.md) · [🧪 ICML2026 (125)](../../ICML2026/image_generation/index.md) · [💬 ACL2026 (5)](../../ACL2026/image_generation/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (221)](../../NeurIPS2025/image_generation/index.md) · [📹 ICCV2025 (213)](../../ICCV2025/image_generation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (451)](../../CVPR2026/image_generation/index.md) · [🧪 ICML2026 (125)](../../ICML2026/image_generation/index.md) · [💬 ACL2026 (5)](../../ACL2026/image_generation/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (221)](../../NeurIPS2025/image_generation/index.md) · [📹 ICCV2025 (213)](../../ICCV2025/image_generation/index.md)
 
 🔥 **高频主题：** 扩散模型 ×45 · 文生图 ×10 · 布局/合成 ×6 · 对齐/RLHF ×6 · 图像编辑 ×6
 

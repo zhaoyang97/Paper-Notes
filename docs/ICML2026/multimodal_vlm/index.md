@@ -1,24 +1,20 @@
 ---
 title: >-
-  ICML2026 多模态VLM论文汇总 · 99篇论文解读
+  ICML2026 多模态VLM论文汇总 · 76篇论文解读
 description: >-
-  99篇ICML2026的多模态 VLM 方向论文解读，涵盖多模态、推理、对抗鲁棒、LLM、压缩/编码、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  76篇ICML2026的多模态 VLM 方向论文解读，涵盖多模态、对抗鲁棒、LLM、压缩/编码、对齐/RLHF、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2026"
   - "多模态 VLM"
   - "论文解读"
   - "论文笔记"
   - "多模态"
-  - "推理"
   - "对抗鲁棒"
   - "LLM"
   - "压缩/编码"
   - "对齐/RLHF"
+  - "Agent"
 item_list:
-  - u: "3viewsense_spatial_and_mental_perspective_reasoning_from_orthographic_views_in_v/"
-    t: "3ViewSense: Spatial and Mental Perspective Reasoning from Orthographic Views in Vision-Language Models"
-  - u: "active_exploring_like_a_pigeon_reinforcing_spatial_reasoning_via_agentic_vision-/"
-    t: "Active Exploring like a Pigeon: Reinforcing Spatial Reasoning via Agentic Vision-Language Models"
   - u: "agenthijack_benchmarking_computer_use_agent_robustness_to_common_environment_cor/"
     t: "AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions"
   - u: "alterbute_editing_intrinsic_attributes_of_objects_in_images/"
@@ -29,16 +25,12 @@ item_list:
     t: "AOEPT: Breaking the Implicit Modality-Reduction Bottleneck in Modality-Missing Prompt Tuning"
   - u: "are_vlms_seeing_or_just_saying_uncovering_the_illusion_of_visual_re-examination/"
     t: "Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination"
-  - u: "bad_seeing_or_bad_thinking_rewarding_perception_for_vision-language_reasoning/"
-    t: "Bad Seeing or Bad Thinking? Rewarding Perception for Vision-Language Reasoning"
   - u: "benchmarking_and_enhancing_vlm_for_compressed_image_understanding/"
     t: "Benchmarking and Enhancing VLM for Compressed Image Understanding"
   - u: "benchmarks_for_vision-language_models_in_urban_perception_should_be_reliability-/"
     t: "Benchmarks for Vision-Language Models in Urban Perception Should Be Reliability-Aware and Negotiated"
   - u: "beyond_vlm-based_rewards_diffusion-native_latent_reward_modeling/"
     t: "Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling"
-  - u: "breaking_dual_bottlenecks_evolving_unified_multimodal_models_into_self-adaptive_/"
-    t: "Breaking Dual Bottlenecks: Evolving Unified Multimodal Models into Self-Adaptive Interleaved Visual Reasoners"
   - u: "calibrated_multimodal_representation_learning_with_missing_modalities/"
     t: "Calibrated Multimodal Representation Learning with Missing Modalities"
   - u: "certified_robustness_under_heterogeneous_perturbations_via_hybrid_randomized_smo/"
@@ -47,8 +39,6 @@ item_list:
     t: "CG-MLLM: Captioning and Generating 3D Content via Multi-modal Large Language Models"
   - u: "circle-rope_cone-like_decoupled_rotary_positional_embedding_for_large_vision-lan/"
     t: "Circle-RoPE: Cone-like Decoupled Rotary Positional Embedding for Vision-Language Models"
-  - u: "clip_tricks_you_training-free_token_pruning_for_efficient_pixel_grounding_in_lar/"
-    t: "CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models"
   - u: "conditional_diffusion_sampling/"
     t: "Conditional Diffusion Sampling"
   - u: "contextualized_visual_personalization_in_vision-language_models/"
@@ -63,8 +53,6 @@ item_list:
     t: "Debate with Images: Detecting Deceptive Behaviors in Multimodal Large Language Models"
   - u: "decentralized_instruction_tuning_conflict-aware_splitting_and_weight_merging/"
     t: "Decentralized Instruction Tuning: Conflict-Aware Splitting and Weight Merging"
-  - u: "decomposed_on-policy_distillation_for_vision-language_reasoning_steering_gradien/"
-    t: "Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding"
   - u: "deep_pre-alignment_for_vlms/"
     t: "Deep Pre-Alignment for VLMs"
   - u: "densemllm_standard_multimodal_llms_for_dense_prediction/"
@@ -75,25 +63,29 @@ item_list:
     t: "Detached Skip-Links and $R$-Probe: Decoupling Feature Aggregation from Gradient Propagation for MLLM OCR"
   - u: "dimension-free_multimodal_sampling_via_preconditioned_annealed_langevin_dynamics/"
     t: "Dimension-Free Multimodal Sampling via Preconditioned Annealed Langevin Dynamics"
-item_total: 99
+  - u: "diva_harnessing_the_representation_divergence_in_unified_multimodal_models_for_m/"
+    t: "DIVA: Harnessing the Representation Divergence in Unified Multimodal Models for Mutual Reinforcement"
+  - u: "ecg-r1_protocol-guided_and_modality-agnostic_mllm_for_reliable_ecg_interpretatio/"
+    t: "ECG-R1: Protocol-Guided and Modality-Agnostic MLLM for Reliable ECG Interpretation"
+  - u: "explaining_is_harder_than_predicting_alone_evaluating_concept-based_explanations/"
+    t: "Explaining Is Harder than Predicting Alone: Evaluating Concept-Based Explanations of MLLMs as ICL Visual Classifiers"
+  - u: "flownar_scalable_streaming_narration_for_long-form_videos/"
+    t: "FlowNar: Scalable Streaming Narration for Long-Form Videos"
+  - u: "focusing_where_vision_matters_selective_training_for_large_vision_language_model/"
+    t: "Focusing Where Vision Matters: Selective Training for Large Vision Language Models via Visual Information Gain"
+  - u: "freeret_mllms_as_training-free_retrievers/"
+    t: "FreeRet: MLLMs as Training-Free Retrievers"
+item_total: 76
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🧪 ICML2026** · **99** 篇论文解读
+**🧪 ICML2026** · **76** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (533)](../../CVPR2026/multimodal_vlm/index.md) · [💬 ACL2026 (94)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (85)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (84)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (139)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (143)](../../ICCV2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (404)](../../CVPR2026/multimodal_vlm/index.md) · [💬 ACL2026 (79)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (61)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (119)](../../ICCV2025/multimodal_vlm/index.md)
 
-🔥 **高频主题：** 多模态 ×49 · 推理 ×17 · 对抗鲁棒 ×7 · LLM ×6 · 压缩/编码 ×4
-
-**[3ViewSense: Spatial and Mental Perspective Reasoning from Orthographic Views in Vision-Language Models](3viewsense_spatial_and_mental_perspective_reasoning_from_orthographic_views_in_v.md)**
-
-:   3ViewSense 认为 VLM 空间推理的瓶颈不是视觉特征不够或语言推理太弱，而是缺少稳定的三维中间表示，因此让模型先从单张图像诱导前视图、左视图、俯视图，再基于这些正交视图推理，在遮挡计数和视角一致空间推理上显著优于同规模 VLM。
-
-**[Active Exploring like a Pigeon: Reinforcing Spatial Reasoning via Agentic Vision-Language Models](active_exploring_like_a_pigeon_reinforcing_spatial_reasoning_via_agentic_vision-.md)**
-
-:   本文把 VLM 空间推理从“被动看完所有视角再回答”改造成“按问题主动取景、更新认知地图、用可执行空间断言验证推理”的 agentic 流程，并用密集奖励微调 Qwen2.5-VL-3B，在 MindCube-Tiny 上取得 80.5% overall accuracy，尤其把 Rotation 子集提升到 85.0%。
+🔥 **高频主题：** 多模态 ×35 · 对抗鲁棒 ×6 · LLM ×4 · 压缩/编码 ×3 · 对齐/RLHF ×3
 
 **[AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions](agenthijack_benchmarking_computer_use_agent_robustness_to_common_environment_cor.md)**
 
@@ -115,10 +107,6 @@ item_total: 99
 
 :   这篇论文提出 VisualSwap 和 VS-Bench，通过在 VLM 自称“再看一眼图像”之后替换图像来检验真实视觉重检能力，发现当前推理型 VLM 往往沿着旧文本惯性继续生成，显式用户多轮指令或增强视觉注意力才能显著恢复 grounding。
 
-**[Bad Seeing or Bad Thinking? Rewarding Perception for Vision-Language Reasoning](bad_seeing_or_bad_thinking_rewarding_perception_for_vision-language_reasoning.md)**
-
-:   本文把 VLM 的输出强制拆成 `<recognition>` 感知块和 `<think>` 推理块，再用一个"蒙眼"文本推理代理（拿不到图，只看 VLM 写下的感知文字）能不能答对题作为感知奖励 $R_P$，配上结构化语言验证 SVV 作为结果奖励 $R_O$；MoCA 用 $R_P$ 当门控做模态级信用分配，让 7B 模型在 9 个 perception/reasoning/rich-modality benchmark 上同时提升，在多个指标上超过 GPT-4o。
-
 **[Benchmarking and Enhancing VLM for Compressed Image Understanding](benchmarking_and_enhancing_vlm_for_compressed_image_understanding.md)**
 
 :   本文构建了首个评估 VLM 对压缩图像理解能力的大规模 benchmark（11 种编解码器、9 个 VLM、100 万+ 压缩图像），将性能下降分解为不可修复的"信息差距"和可弥补的"泛化差距"，并提出一个轻量级条件视觉编码器适配器，通过编解码器类型和压缩级别的条件嵌入 + 蒸馏训练，在不同编码器和比特率下将 VLM 性能提升 10%–30%。
@@ -130,10 +118,6 @@ item_total: 99
 **[Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling](beyond_vlm-based_rewards_diffusion-native_latent_reward_modeling.md)**
 
 :   提出 DiNa-LRM，将偏好学习直接建立在扩散模型的噪声潜空间上，通过噪声校准的 Thurstone 似然和推理时多噪声集成，以远低于 VLM 奖励模型的计算开销实现接近 SOTA 的偏好预测精度。
-
-**[Breaking Dual Bottlenecks: Evolving Unified Multimodal Models into Self-Adaptive Interleaved Visual Reasoners](breaking_dual_bottlenecks_evolving_unified_multimodal_models_into_self-adaptive_.md)**
-
-:   针对统一多模态模型 (unified model) 在 anything-to-image (X2I) 任务上的"理解–生成 gap"（看得懂但生不出），本文提出 Self-Adaptive Interleaved Reasoner：用一个 hierarchical 数据合成 pipeline 在直接生成 / 自我反思 / 多步规划三种模式间分流 5 万条样本，再用 SFT + GRPO 训练并配上 step-wise 推理奖励和 intra-group 复杂度惩罚，让 Emu3.5 在 KRIS-Bench / OmniContext 上超越 GPT-4o、Gemini 2.5 Flash 等闭源模型。
 
 **[Calibrated Multimodal Representation Learning with Missing Modalities](calibrated_multimodal_representation_learning_with_missing_modalities.md)**
 
@@ -150,10 +134,6 @@ item_total: 99
 **[Circle-RoPE: Cone-like Decoupled Rotary Positional Embedding for Vision-Language Models](circle-rope_cone-like_decoupled_rotary_positional_embedding_for_large_vision-lan.md)**
 
 :   提出 Circle-RoPE，将图像 token 的 2D 坐标映射到与文本位置轴正交的环面上，形成锥体几何结构，使每个文本 token 到所有图像 token 的 RoPE 距离相等（PTD=0），消除跨模态伪位置偏置，同时通过逐层交替编码（AGE）保留图像内部空间结构。
-
-**[CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models](clip_tricks_you_training-free_token_pruning_for_efficient_pixel_grounding_in_lar.md)**
-
-:   发现 CLIP 中指代区域的视觉 token 与 [EOS] 文本 token 呈反直觉的低相似度现象（similarity reversal），据此提出 LiteLVLM——一种免训练的文本引导视觉 token 剪枝方法，在裁剪 66.7% token 后仍保留 90.3% 原始像素定位性能，同时实现 22% 推理加速和 2.3× 显存节省。
 
 **[Conditional Diffusion Sampling](conditional_diffusion_sampling.md)**
 
@@ -183,10 +163,6 @@ item_total: 99
 
 :   作者从"merge-ready 平坦盆地"出发给权重合并写了一套局部二次理论：合并增益等于曲率加权的 checkpoint 方差，PCA 沿梯度冲突主方向切分能最大化这个增益，并据此提出 MERIT 流水线——按数据集梯度冲突做 PCA 切分、各分支零通讯独立微调、最后一次 token 加权平均，在 Qwen2.5-VL-3B + 136 个 Vision-FLAN 任务上把 8-benchmark 平均从 54.3 提到 57.0。
 
-**[Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding](decomposed_on-policy_distillation_for_vision-language_reasoning_steering_gradien.md)**
-
-:   作者把多模态在线蒸馏的 KL 损失沿贝叶斯链拆成"语言先验"和"视觉接地"两个子目标，发现两者梯度近乎正交、标准蒸馏只是被动取平分，提出 Visual Gradient Steering（VGS）主动把更新方向偏向视觉子空间，在 Qwen3-VL 8B→2B/4B 七个多模态推理基准上平均提升 +2.37%/+1.56%。
-
 **[Deep Pre-Alignment for VLMs](deep_pre-alignment_for_vlms.md)**
 
 :   作者把标准 VLM 里"ViT + 轻量 projector"的视觉编码模块整体替换为一个小 VLM（perceiver），让模态对齐这件耗深度的脏活在 upstream 的小 VLM 内部就完成，使下游大 LLM 不必在浅层浪费深度去做模态对齐——4B 模型在 8 个多模态基准上提升 +1.9 点、32B 上提升 +3.0 点，并把语言能力遗忘减少 32.9%，且推理吞吐只下降 2–6%。
@@ -215,17 +191,9 @@ item_total: 99
 
 :   ECG-R1 是首个面向心电图解读的"推理型"医学多模态大模型，通过**协议引导的指令数据合成 + 信号/图像解耦编码 + 交错模态丢弃训练 + 基于诊断证据的过程奖励 RL** 四件套，把心电诊断准确率从此前 SOTA GEM 的 74.7 提升到 80.3，并在任一模态缺失时保持跨模态一致性。
 
-**[Efficient Reasoning with Hidden Thinking](efficient_reasoning_with_hidden_thinking.md)**
-
-:   Heima 把多模态 LLM 的冗长 CoT 每个阶段（summary / caption / reasoning）蒸馏成**一个特殊 thinking token**，让模型在隐空间里"想"，token 数从 100-200 量级降到 13-16 个的同时 zero-shot 准确率反而比 LLaVA-CoT 更稳；配套训练一个 LLM "interpreter"用 thinking token 的 hidden state 重建出文字推理链，从而验证压缩损失的信息论上界。
-
 **[Explaining Is Harder than Predicting Alone: Evaluating Concept-Based Explanations of MLLMs as ICL Visual Classifiers](explaining_is_harder_than_predicting_alone_evaluating_concept-based_explanations.md)**
 
 :   作者用 5 级形式化逐步加严的解释条件（裸分类 → 自然语言解释 → 特征清单 → IF-THEN 知识库 → DL 公理）和一个评 9 个 XAI 指标的 LLM-as-a-judge 流水线，对 4 个 SOTA MLLM 做了 2,080 次 ICL 分类实验，发现"逼模型生成越正式的概念解释，分类准确率反而单调下滑（93.8% → 90.1%）"，但"局部判别性"是唯一与准确率显著相关的解释质量维度。
-
-**[Find, Fix, Reason: Context Repair for Video Reasoning](find_fix_reason_context_repair_for_video_reasoning.md)**
-
-:   本文针对视频推理中"on-policy RL 在能力天花板停滞、off-policy 蒸馏又会熵塌缩"的两难，引入一个冻结的、工具集成的大教师模型在学生 rollout 失败时插入最小化的"证据补丁" (key-frame 区间、错误类型)，让学生在同一问题上重新作答，并把修复后的轨迹通过 chosen-rollout 机制纳入 GRPO 优化。
 
 **[FlowNar: Scalable Streaming Narration for Long-Form Videos](flownar_scalable_streaming_narration_for_long-form_videos.md)**
 
@@ -239,17 +207,9 @@ item_total: 99
 
 :   FreeRet 提出一个完全不训练的两阶段多模态检索框架：第一阶段绕过 MLLM 最后一层 MLP 并配合受控生成 prompt 抽取语义忠实的 embedding 做候选检索，第二阶段把 reranking 改成多项选择题来规避 LLM 的 framing 偏置；在 MMEB 上比训练了千万级配对数据的检索模型还要强。
 
-**[From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models](from_seeing_to_thinking_decoupling_perception_and_reasoning_improves_post-traini.md)**
-
-:   本文指出当前 VLM 后训练过度强调"长链推理"而忽视感知瓶颈，把后训练显式拆成"视觉感知 → 文本推理 → 视觉推理"三个独立阶段，并用 RLVR（而非 caption SFT）单独打磨感知，使 Qwen3-VL-8B 在视觉数学和感知 benchmark 上分别相对基线提升约 +5.9% 和 +1.2%，同时把推理 trace 缩短 20.8%。
-
 **[Furina: Fragmented Uncertainty-Driven Refusal Instability Attack](furina_fragmented_uncertainty-driven_refusal_instability_attack.md)**
 
 :   本文先用多指标诊断证明"LLM 的安全决策不是二值阈值，而存在一段拒绝不稳定带"，并发现该带的特征是"外部不确定性升高而内部安全信号反而下降"；据此提出 Furina——一种无需模型特定优化、靠把恶意意图打碎进场景化叙事来强行把输入推入不稳定带的越狱攻击，在 HarmBench 上超越多种强基线。
-
-**[Gated Relational Alignment via Confidence-based Distillation for Efficient VLMs](gated_relational_alignment_via_confidence-based_distillation_for_efficient_vlms.md)**
-
-:   本文用 Information Bottleneck 视角把量化感知训练 (QAT) 与知识蒸馏统一起来，提出 GRACE 框架（置信度门控解耦蒸馏 + 关系中心化核对齐 + 自适应 IB 控制器），让 INT4 量化的 LLaVA / Qwen-VL 不仅没掉点，反而在多个 benchmark 上超过 BF16 基线，同时实测 3× 吞吐 + 54% 显存节省。
 
 **[CHARM: 用 Multimodal JEPA + 通道描述做时间序列 foundation embedding](giving_sensors_a_voice_multimodal_jepa_for_semantic_time-series_embeddings.md)**
 
@@ -283,10 +243,6 @@ item_total: 99
 
 :   VEENA 用 steering-vector 因果归因框架定位 LVLM 的情感电路——发现其遵循"Adapt（浅层模态对齐）→Aggregate（中层 emotion-specific heads 聚合）→Execute（深层 emotion-general heads + neurons 生成）"三段式机制，进而用"视觉情感增强 + 情感神经元放大"做训练无关推理时干预，显著缓解情感幻觉。
 
-**[iVGR: Internalizing Visually Grounded Reasoning for MLLMs with Reinforcement Learning](ivgr_internalizing_visually_grounded_reasoning_for_mllms_with_reinforcement_lear.md)**
-
-:   针对“显式视觉 grounding 反而拖累 CoT 推理”这一反直觉现象，作者提出 iVGR——一个双流 GRPO 训练框架，让文本 CoT 和带框 grounded CoT 同时 rollout，并用一致性奖励把高质量 grounded 轨迹的视觉定位能力“内化”进纯文本 CoT，从而在推理时不用输出坐标就能拿到 grounded 推理的收益。
-
 **[Jailbreaking Vision-Language Models Through the Visual Modality](jailbreaking_vision-language_models_through_the_visual_modality.md)**
 
 :   作者提出 4 种只通过视觉输入就能越狱前沿 VLM 的攻击（视觉密码 / 物体替换 / 文本替换 / 视觉类比谜题），在 6 个前沿 VLM 上系统验证了"文本端的安全对齐不会自动迁移到视觉端"，并用 mechanistic 分析揭示了背后的层级机理。
@@ -303,29 +259,9 @@ item_total: 99
 
 :   NAST 用因果追踪 (causal tracing) 算出 CLIP 文本编码器各层对否定理解的因果贡献度 (CTE)，再以这些 CTE 做层级化梯度缩放微调 LoRA，让医学 VLM 在区分"有 / 没有某症状"时的语义敏感度大幅提升，并把肯定-否定准确率差距从 21.6% 缩到 4.2%。
 
-**[Learn to Think: Improving Multimodal Reasoning through Vision-Aware Self-Improvement Training](learn_to_think_improving_multimodal_reasoning_through_vision-aware_self-improvem.md)**
-
-:   VISTA 把多模态大模型的自我改进训练改造成"难题靠 prefix 重采样补样本、伪正例靠视觉注意力分数 (VAS) 过滤"的两段式 pipeline，在 Qwen2.5-VL-3B 上把数学/医学多模态推理平均提升 +13.66%。
-
-**[Learning GUI Grounding with Spatial Reasoning from Visual Feedback](learning_gui_grounding_with_spatial_reasoning_from_visual_feedback.md)**
-
-:   把 GUI grounding 从「一次性预测坐标」改写成「在屏幕上挪鼠标找目标」的交互式搜索，用一个带轨迹惩罚的稠密奖励 + GRPO 训练 VLM，让模型从渲染出来的光标得到视觉反馈来对齐数字坐标与屏幕位置，仅用 8K 样本就在 ScreenSpot-Pro 上把 GTA1 的 50.1% 提到 58.1%。
-
 **[Left-Right Symmetry Breaking in CLIP-style Vision-Language Models Trained on Synthetic Spatial-Relation Data](left-right_symmetry_breaking_in_clip-style_vision-language_models_trained_on_syn.md)**
 
 :   作者用一个 1D 合成 image-text 测试床端到端训练 CLIP-style Transformer，发现这类模型能学到"左/右"关系并泛化到未见物体对，机制是**位置嵌入与 token 嵌入的交叉项 $EW_{QK}P^T$ 在 vision encoder 注意力 logit 中诱导出一条水平梯度**，打破左右对称；消融该项后左右判别准确率掉到随机水平。
-
-**[Less Precise Can Be More Reliable: A Systematic Evaluation of Quantization's Impact on VLMs Beyond Accuracy](less_precise_can_be_more_reliable_a_systematic_evaluation_of_quantizations_impac.md)**
-
-:   这篇用 70 万次实验跑遍了 16 种量化方法 × 10 种 VLM × 多项可靠性指标，发现量化不是单纯破坏者——它会通过抑制高 rank 低方差的频谱分量，同时提升 calibration、OOD 检测和噪声鲁棒性，但也会放大对协变量偏移和虚假相关的依赖。
-
-**[LIMSSR: LLM-Driven Sequence-to-Score Reasoning under Training-Time Incomplete Multimodal Observations](limssr_llm-driven_sequence-to-score_reasoning_under_training-time_incomplete_mul.md)**
-
-:   作者把"训练阶段就缺模态"的多模态动作质量评估重新建模成"基于 LLM 的条件序列到分数推理"问题，用 prompt + 特殊 token 让 LLM 在没有完整数据监督的情况下补全缺失语义，再配合掩码感知的双路融合抑制幻觉，在三个 AQA 数据集上全面超越依赖完整训练数据的 SOTA。
-
-**[CSMR (Look on Demand): A Cognitive Scheduling Framework for Visual Evidence Acquisition in Multimodal Reasoning](look_on_demand_a_cognitive_scheduling_framework_for_visual_evidence_acquisition_.md)**
-
-:   CSMR 受 Baddeley 工作记忆理论启发，把"视觉证据何时引入推理"做成动态决策——LLM 维护推理状态，按需调用独立感知模块（VLM）拉视觉证据，直到证据够再终止；解决两大现有范式的缺陷（pre-reasoning 文本化丢细节 / unified VL 空间被语言先验污染），在多个多模态推理基准上零样本超越基线。
 
 **[Manga109-v2026: Revisiting Manga109 Annotations for Modern Manga Understanding](manga109-v2026_revisiting_manga109_annotations_for_modern_manga_understanding.md)**
 
@@ -351,25 +287,13 @@ item_total: 99
 
 :   本文将 VLM 高效迁移中的 Base-New Trade-off (BNT) 重新归因为"预训练带来的非对称类别偏好在未见类上未被消除"，提出 NeRP：用一个语义中性的文本 prompt 和"训练图均值"作为参考输入，在已训练好的 VLM 上零参数估计每个类别的先验偏移，再用贝叶斯风格的代理分数在易混淆类对之间做局部翻转，从而在不动模型参数的前提下提升未见类精度并保住基类精度。
 
-**[On the Adversarial Robustness of Large Vision-Language Models under Visual Token Compression](on_the_adversarial_robustness_of_large_vision-language_models_under_visual_token.md)**
-
-:   本文首次系统研究了带视觉Token压缩的大视觉语言模型(LVLM)的对抗鲁棒性，指出现有编码器攻击存在"优化-推理空间不匹配"问题，并提出 CAGE 攻击通过期望特征扰动 (EFD) 与排名-扰动对齐 (RDA) 两个目标，在未知压缩机制与未知Token预算下显著降低被压缩 LVLM 的鲁棒精度。
-
 **[Pair2Scene: Learning Local Object Relations for Procedural Scene Generation](pair2scene_learning_local_object_relations_for_procedural_scene_generation.md)**
 
 :   Pair2Scene 把 3D 室内场景生成从「直接拟合全局联合分布」改成「学习一对一的局部物体关系（支撑 + 功能）然后按场景层级树递归装配」，配合点云几何编码、Mixture-of-Logistics 概率头和碰撞感知拒绝采样，在仅用 3D-Front 数据训练时即可生成对象数从约 4 跃升到约 14 的复杂场景，FID 和用户研究均优于 ATISS、DiffuScene、LayoutVLM 等基线。
 
-**[R$^3$L: Reasoning 3D Layouts from Relative Spatial Relations](r3l_reasoning_3d_layouts_from_relative_spatial_relations.md)**
-
-:   R³L 把 MLLM 多跳"相对空间关系"推理的两类系统性误差（语义漂移与度量漂移）归因于"反复发生的参考系变换"，并通过不变性空间分解（缩短关系链）、一致性空间想象（imagine-and-revise 循环消除冲突）与支持性空间优化（全局-局部位姿重参数化）三个模块，让 GPT-5 生成的开放词汇 3D 场景在 9 类场景下的碰撞率与越界率都接近 0、语义指标显著反超 LayoutVLM/Holodeck/LayoutGPT。
-
 **[Referring Multiple Regions with Large Multimodal Models via Contextual Latent Steering](referring_multiple_regions_with_large_multimodal_models_via_contextual_latent_st.md)**
 
 :   CSteer 提出一种训练无关的 latent steering 方法,通过在错误/正确指代回答的隐藏激活差上构造"上下文向量",并在推理时分层注入到 query 早期层和 decode 中后期层,让通用 LMM (Qwen3-VL、InternVL-3.5) 在多区域视觉指代任务上反超专门微调的 region LMM。
-
-**[ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for Accurate Assessment of VLM 3D Reasoning](revsi_rebuilding_visual_spatial_intelligence_evaluation_for_accurate_assessment_.md)**
-
-:   本文系统揭示了被广泛使用的 VSI-Bench 因 3D 标注漂移与帧采样不一致而存在结构性失效，进而重新标注 381 个场景、5365 个对象，并设计帧预算自适应 QA 与"删除查询对象帧"的 dummy 视频压力测试，构建出名为 ReVSI 的高保真空间智能基准；评估显示开源 VLM 在 ReVSI 上掉点最多 40%，且在 dummy 视频上幻觉率仍高，暴露出现有空间推理能力被 VSI-Bench 系统性高估。
 
 **[SAME: Stabilized Mixture-of-Experts for Multimodal Continual Instruction Tuning](same_stabilized_mixture-of-experts_for_multimodal_continual_instruction_tuning.md)**
 
@@ -403,10 +327,6 @@ item_total: 99
 
 :   SOLAR 提出第一套面向"对称 MM2MM 检索"（查询和文档都是 image+text 对、且角色可互换）的两阶段自监督学习框架——第一阶段通过全局-局部对齐 + QDA 自适应阈值学习出"交集 mask"以解耦图文的共享/独有信息，第二阶段利用该 mask 通过对图文不同区域分别掩码构造正/硬负样本做对比学习，并配套发布 214 个人工校验的 sym-MM2MM benchmark；最终以 0.2B 参数和 768 维嵌入超过最强 7.75B VLM 基线 7.08 个百分点。
 
-**[Spectral-Progressive Thought Flow for Lightweight Multimodal Reasoning](spectral-progressive_thought_flow_for_lightweight_multimodal_reasoning.md)**
-
-:   SpecFlow 把多模态空间推理从"像素思维"切到"谱思维"——用块离散余弦变换 + 流匹配 + 渐进式频率激活在固定大小的谱工作空间里维护可视化中间思想，加上分类器无关引导（CFG）让文本制导视觉演化，在保持空间推理精度的同时把 KV 缓存削减 1.6–2.1×。
-
 **[Text-Conditional JEPA for Learning Semantically Rich Visual Representations](text-conditional_jepa_for_learning_semantically_rich_visual_representations.md)**
 
 :   本文提出 TC-JEPA，把 I-JEPA 的 mask 特征预测器额外条件化在图像 caption 上，通过多层稀疏跨注意力让 patch 表示在文本"提示"下变得可预测，从而在不用对比损失的前提下学到语义更丰富、对密集预测尤其友好的视觉表征。
@@ -414,14 +334,6 @@ item_total: 99
 **[TGV-KV: Text-Grounded KV Eviction for Vision-Language Models](tgv-kv_text-grounded_kv_eviction_for_vision-language_models.md)**
 
 :   TGV-KV 通过"用文本注意力来支配视觉 KV"的三件套——按 text-vision 注意力分层预算、用主导文本 token 加权重排视觉重要性、并在驱逐时优先保住文本 KV——把为纯文本 LLM 设计的 KV eviction 思路成功迁移到 VLM，在 LLaVA-NeXT/Qwen3-VL 上 5% 保留率下仍能保住接近满 KV 的精度，吞吐量提升 52.6%。
-
-**[The Perceptual Bandwidth Bottleneck in Vision-Language Models: Active Visual Reasoning via Sequential Experimental Design](the_perceptual_bandwidth_bottleneck_in_vision-language_models_active_visual_reas.md)**
-
-:   本文把"VLM 看不清细节"形式化为一个序贯贝叶斯最优实验设计 (S-BOED) 问题,并基于"覆盖率 × 分辨率"的可计算代理目标提出训练免费的 FOVEA 模块,在高分辨率/遥感等基准上稳定超过 Direct 与 ReAct-style 基线。
-
-**[Thinking in Structures: Evaluating Spatial Intelligence in Constraint-Governed Spaces](thinking_in_structures_evaluating_spatial_intelligence_in_constraint-governed_sp.md)**
-
-:   作者构造了 SSI-Bench，一个由 1,000 道排序型 VQA 组成、聚焦"受约束的结构化空间"（屋顶、桥梁、塔架等真实 3D 结构）的基准，要求 VLM 对 3-4 个候选构件按几何或拓扑准则给出完整排列；评测 31 个 VLM 后发现最强闭源模型 Gemini-3-Flash 仅 33.6%、最佳开源 GLM-4.6V 22.2%，而人类 91.6%，揭示当前 VLM 在受几何/连接/物理可行性共同约束的真实 3D 场景下缺乏一致的空间推理能力。
 
 **[TimeSpot: Benchmarking Geo-Temporal Understanding in Vision-Language Models in Real-World Settings](timespot_benchmarking_geo-temporal_understanding_in_vision-language_models_in_re.md)**
 
@@ -451,9 +363,9 @@ item_total: 99
 
 :   V-LynX 通过发现 Video LLM 内部的**连续 token interface（流形）**——视觉编码器 + 投影层雕刻出的与 LLM 内部操作空间兼容的几何先验——仅用轻量级 LoRA（68.7M 参数）和**未配对的单模态数据**就能将新模态（音频、3D、高帧率视频）高效集成到预训练 Video LLM 中，AVSD 上 CIDEr 145.7 vs PAVE 134.5（参数减少 46%）。
 
-**[Vision-aligned Latent Reasoning for Multi-modal Large Language Model](vision-aligned_latent_reasoning_for_multi-modal_large_language_model.md)**
+**[Very Efficient Listwise Multimodal Reranking for Long Documents](very_efficient_listwise_multimodal_reranking_for_long_documents.md)**
 
-:   本文提出 VaLR：在 MLLM 的 CoT 推理每一步之前插入若干"潜在 token"，并用 DINOv3/SigLIP/π³ 等视觉编码器的 patch 特征对这些 token 做表征对齐（REPA），从而在长链推理中持续把视觉信息"喂回"模型，把 Qwen2.5-VL 在 VSI-Bench 上的准确率从 33.0% 拉到 52.9%，并首次让 MLLM 表现出"推理越长越准"的 test-time scaling 行为。
+:   ZipRerank 同时砍掉 VLM 列表式重排的两大瓶颈——「视觉 token 序列过长」和「自回归解码逐 token 输出排名」——用 query-aware token 剪枝 + 单 logit 排序在 MMDocIR 上把 LLM 推理延迟降一个数量级，同时匹配或超越当前 SOTA 的 MM-R5。
 
 **[Vision Language Models 无法推理物理变换](vision_language_models_cannot_reason_about_physical_transformation.md)**
 
@@ -478,7 +390,3 @@ item_total: 99
 **[WeatherSyn: An Instruction Tuning MLLM For Weather Forecasting Report Generation](weathersyn_an_instruction_tuning_mllm_for_weather_forecasting_report_generation.md)**
 
 :   WeatherSyn 把气象预报员的报告写作流程拆解成"看图→列要点→出稿"的多模态指令任务，先建了首个覆盖 31 个美国城市、8 类天气要素的 WSInstruct 数据集，再用 SFT→RFT→DPO 三段式微调 Qwen3-VL-8B，让一个 8B 开源模型在多种评测指标上稳定打过 GPT-5-Nano、Claude-3.7-Sonnet 等闭源大模型，并对未见城市有零样本泛化能力。
-
-**[What You Think is What You See: Driving Exploration in VLM Agents via Visual-Linguistic Curiosity (GLANCE)](what_you_think_is_what_you_see_driving_exploration_in_vlm_agents_via_visual-ling.md)**
-
-:   GLANCE 在 VLM agent 的强化学习里加了一个"想-看对齐"自监督头：让 LLM 在 CoT 里产出的"下一状态预测"通过一个轻量 projector 映射到由 EMA target 视觉编码器编码的真实下一帧表示，预测与实际之间的差距同时充当内在好奇心奖励、视觉编码器的训练信号、以及让 internalized world model "落地"的对齐损失；再配合周期性重置 projector 的课程探索机制对抗好奇心衰退，最终在 5 个 agentic 任务上稳定超过现有 exploitation-only 的 VLM-RL 方法。

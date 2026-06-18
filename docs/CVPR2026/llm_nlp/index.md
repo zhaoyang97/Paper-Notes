@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 LLM其他论文汇总 · 3篇论文解读
+  CVPR2026 LLM其他论文汇总 · 4篇论文解读
 description: >-
-  3篇CVPR2026的 LLM 其他方向论文解读，涵盖 LLM、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  4篇CVPR2026的 LLM 其他方向论文解读，涵盖 LLM、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "LLM 其他"
@@ -11,23 +11,29 @@ tags:
   - "LLM"
   - "布局/合成"
 item_list:
+  - u: "artimuse_fine-grained_image_aesthetics_assessment_with_joint_scoring_and_expert-/"
+    t: "ArtiMuse: Fine-Grained Image Aesthetics Assessment with Joint Scoring and Expert-Level Understanding"
   - u: "collm-nas_collaborative_large_language_models_for_efficient_knowledge-guided_neu/"
     t: "CoLLM-NAS: Collaborative Large Language Models for Efficient Knowledge-Guided Neural Architecture Search"
   - u: "llm-guided_probabilistic_fusion_for_label-efficient_document_layout_analysis/"
     t: "LLM-Guided Probabilistic Fusion for Label-Efficient Document Layout Analysis"
   - u: "omnidoclayout_towards_diverse_document_layout_generation_via_coarse-to-fine_llm_/"
     t: "OmniDocLayout: Towards Diverse Document Layout Generation via Coarse-to-Fine LLM Learning"
-item_total: 3
+item_total: 4
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM 其他
 
-**📷 CVPR2026** · **3** 篇论文解读
+**📷 CVPR2026** · **4** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (33)](../../ICML2026/llm_nlp/index.md) · [💬 ACL2026 (56)](../../ACL2026/llm_nlp/index.md) · [🔬 ICLR2026 (33)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (33)](../../ICML2026/llm_nlp/index.md) · [💬 ACL2026 (59)](../../ACL2026/llm_nlp/index.md) · [🔬 ICLR2026 (33)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
 
 🔥 **高频主题：** LLM ×3 · 布局/合成 ×2
+
+**[ArtiMuse: Fine-Grained Image Aesthetics Assessment with Joint Scoring and Expert-Level Understanding](artimuse_fine-grained_image_aesthetics_assessment_with_joint_scoring_and_expert-.md)**
+
+:   ArtiMuse 用一个 InternVL-3-8B 基座的多模态大模型，同时输出 8 维细粒度专家级美学文字分析和一个连续美学分数，靠新提出的 Token As Score 把连续打分塞进 LLM 的离散 token 生成里，并配套发布了首个 10000 张专家逐维标注的 ArtiMuse-10K 数据集，在多个美学评分基准上刷新 SOTA。
 
 **[CoLLM-NAS: Collaborative Large Language Models for Efficient Knowledge-Guided Neural Architecture Search](collm-nas_collaborative_large_language_models_for_efficient_knowledge-guided_neu.md)**
 

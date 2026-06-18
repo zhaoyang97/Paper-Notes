@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 图像生成论文汇总 · 449篇论文解读
+  CVPR2026 图像生成论文汇总 · 451篇论文解读
 description: >-
-  449篇CVPR2026的图像生成方向论文解读，涵盖扩散模型、文生图、对齐/RLHF、多模态、图像编辑、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  451篇CVPR2026的图像生成方向论文解读，涵盖扩散模型、文生图、对齐/RLHF、多模态、图像编辑、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "图像生成"
@@ -29,6 +29,8 @@ item_list:
     t: "A Training-Free Style-Personalization via SVD-Based Feature Decomposition"
   - u: "adapter_shield_a_unified_framework_with_built-in_authentication_for_preventing_u/"
     t: "Adapter Shield: A Unified Framework with Built-in Authentication for Preventing Unauthorized Zero-Shot Image-to-Image Generation"
+  - u: "adapting_in-context_generation_for_enhanced_composed_image_retrieval/"
+    t: "Adapting In-context Generation for Enhanced Composed Image Retrieval"
   - u: "adaptive_auxiliary_prompt_blending_for_target-faithful_diffusion_generation/"
     t: "Adaptive Auxiliary Prompt Blending for Target-Faithful Diffusion Generation"
   - u: "adaptive_spectral_feature_forecasting_for_diffusion_sampling_acceleration/"
@@ -73,15 +75,13 @@ item_list:
     t: "Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation"
   - u: "beyond_pixel_simulation_pathology_image_generation_via_diagnostic_semantic_token/"
     t: "Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control"
-  - u: "beyond_text_prompts_precise_concept_erasure_through_text-image_collaboration/"
-    t: "Beyond Text Prompts: Precise Concept Erasure through Text–Image Collaboration"
-item_total: 449
+item_total: 451
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📷 CVPR2026** · **449** 篇论文解读
+**📷 CVPR2026** · **451** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (125)](../../ICML2026/image_generation/index.md) · [💬 ACL2026 (5)](../../ACL2026/image_generation/index.md) · [🔬 ICLR2026 (138)](../../ICLR2026/image_generation/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (221)](../../NeurIPS2025/image_generation/index.md) · [📹 ICCV2025 (213)](../../ICCV2025/image_generation/index.md)
 
@@ -114,6 +114,10 @@ item_total: 449
 **[Adapter Shield: A Unified Framework with Built-in Authentication for Preventing Unauthorized Zero-Shot Image-to-Image Generation](adapter_shield_a_unified_framework_with_built-in_authentication_for_preventing_u.md)**
 
 :   针对 IP-Adapter / InstantID 这类「一张图就能克隆人脸或画风」的零样本图生图，本文提出 Adapter Shield：先用一对可训练的「加密器/解密器」把图像编码器输出的 embedding 按密码映射成乱码，再用多目标对抗扰动把原图「钉」向这些乱码 embedding，从而让未授权者生成失真结果，而持正确密码的授权者能解密复原正常使用——是该领域第一个把「防护」和「认证」合二为一的通用框架。
+
+**[Adapting In-context Generation for Enhanced Composed Image Retrieval](adapting_in-context_generation_for_enhanced_composed_image_retrieval.md)**
+
+:   本文提出 DAIG：用 32 张目标域样本对预训练 T2I 模型（Flux）做 in-context 微调（CIR-LoRA），让它批量合成"无偏、贴合目标域"的组合图像检索（CIR）三元组，再用一个两阶段训练框架（特征扰动预训练 DRSP + 角度间隔微调 FRA）把这些合成数据喂给任意现成 CIR 模型，在 CIRR/FashionIQ 上以即插即用、零额外推理成本的方式显著涨点。
 
 **[Adaptive Auxiliary Prompt Blending for Target-Faithful Diffusion Generation](adaptive_auxiliary_prompt_blending_for_target-faithful_diffusion_generation.md)**
 
@@ -210,6 +214,10 @@ item_total: 449
 **[Beyond the Golden Data: Resolving the Motion-Vision Quality Dilemma via Timestep Selective Training](beyond_the_golden_data_resolving_the_motion-vision_quality_dilemma_via_timestep_.md)**
 
 :   发现视频数据中运动质量（MQ）和视觉质量（VQ）呈负相关的"Motion-Vision Quality Dilemma"，通过梯度分析揭示不平衡数据在适当时间步可产生等效学习信号，提出TQD框架使仅用不平衡数据训练即可超越黄金数据训练。
+
+**[Bias at the End of the Score](bias_at_the_end_of_the_score.md)**
+
+:   本文对文本到图像（T2I）系统中广泛使用的五个奖励模型（PickScore、ImageReward、HPS、VQAScore、CLIP）做了一次大规模偏置审计，证明这些被当作"图像质量"代理的打分函数其实编码了系统性的人口统计偏置——在用作噪声优化器时会不成比例地对女性主体超性化、把非白人主体"洗"成白人，并且打分本身与现实世界的人口分布（如各职业的性别比例）高度相关，而非真正衡量质量。
 
 **[Bias at the End of the Score: Demographic Biases in Reward Models for T2I](bias_reward_models_t2i.md)**
 

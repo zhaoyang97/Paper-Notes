@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2025 多模态VLM论文汇总 · 146篇论文解读
+  CVPR2025 多模态VLM论文汇总 · 136篇论文解读
 description: >-
-  146篇CVPR2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、推理、对齐/RLHF、少样本学习、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  136篇CVPR2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、对齐/RLHF、少样本学习、机器人、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2025"
   - "多模态 VLM"
@@ -10,10 +10,10 @@ tags:
   - "论文笔记"
   - "多模态"
   - "LLM"
-  - "推理"
   - "对齐/RLHF"
   - "少样本学习"
   - "机器人"
+  - "布局/合成"
 item_list:
   - u: "4d_langsplat_4d_language_gaussian_splatting_via_multimodal_large_language_models/"
     t: "4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models"
@@ -23,18 +23,12 @@ item_list:
     t: "ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding"
   - u: "asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_detecting_an/"
     t: "ASAP: Advancing Semantic Alignment for Multi-Modal Manipulation Detection"
-  - u: "beyond_final_answers_crystal_benchmark_for_transparent_multimodal_reasoning_eval/"
-    t: "Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation"
   - u: "beyond_words_augmenting_discriminative_richness_via_diffusions_in_unsupervised_p/"
     t: "Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning"
   - u: "calico_part-focused_semantic_co-segmentation_with_large_vision-language_models/"
     t: "Calico: Part-Focused Semantic Co-Segmentation with Large Vision-Language Models"
   - u: "can_large_vision-language_models_correct_semantic_grounding_errors_by_themselves/"
     t: "Can Large Vision-Language Models Correct Semantic Grounding Errors By Themselves?"
-  - u: "coap_memory-efficient_training_with_correlation-aware_gradient_projection/"
-    t: "COAP: Memory-Efficient Training with Correlation-Aware Gradient Projection"
-  - u: "coarse_correspondences_boost_spatial-temporal_reasoning_in_multimodal_language_m/"
-    t: "Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Models"
   - u: "codepercept_code-grounded_visual_stem_perception_for_mllms/"
     t: "CodePercept: Code-Grounded Visual STEM Perception for MLLMs"
   - u: "collm_a_large_language_model_for_composed_image_retrieval/"
@@ -51,8 +45,6 @@ item_list:
     t: "Continual Learning with Vision-Language Models via Semantic-Geometry Preservation"
   - u: "counts_benchmarking_object_detectors_and_multimodal_large_language_models_under_/"
     t: "COUNTS: Benchmarking Object Detectors and Multimodal Large Language Models under Distribution Shifts"
-  - u: "critic-v_vlm_critics_help_catch_vlm_errors_in_multimodal_reasoning/"
-    t: "Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning"
   - u: "cropper_vision-language_model_for_image_cropping_through_in-context_learning/"
     t: "Cropper: Vision-Language Model for Image Cropping through In-Context Learning"
   - u: "cross-modal_information_flow_in_multimodal_large_language_models/"
@@ -63,8 +55,8 @@ item_list:
     t: "Debiasing Multimodal Large Language Models via Noise-Aware Preference Optimization"
   - u: "distraction_is_all_you_need_for_multimodal_large_language_model_jailbreaking/"
     t: "Distraction is All You Need for Multimodal Large Language Model Jailbreaking"
-  - u: "document_haystacks_vision-language_reasoning_over_piles_of_1000_documents/"
-    t: "Document Haystacks: Vision-Language Reasoning Over Piles of 1000+ Documents"
+  - u: "docopilot_improving_multimodal_models_for_document-level_understanding/"
+    t: "DocoPilot: Improving Multimodal Models for Document-Level Understanding"
   - u: "docvlm_make_your_vlm_an_efficient_reader/"
     t: "DocVLM: Make Your VLM an Efficient Reader"
   - u: "dpc_dual-prompt_collaboration_for_tuning_vision-language_models/"
@@ -75,17 +67,25 @@ item_list:
     t: "DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution"
   - u: "efficient_motion-aware_video_mllm/"
     t: "Efficient Motion-Aware Video MLLM"
-item_total: 146
+  - u: "egolm_multi-modal_language_model_of_egocentric_motions/"
+    t: "EgoLM: Multi-Modal Language Model of Egocentric Motions"
+  - u: "embodied_scene_understanding_for_vision_language_models_via_metavqa/"
+    t: "Embodied Scene Understanding for Vision Language Models via MetaVQA"
+  - u: "evaluating_model_perception_of_color_illusions_in_photorealistic_scenes/"
+    t: "Evaluating Model Perception of Color Illusions in Photorealistic Scenes"
+  - u: "evaluating_vision-language_models_as_evaluators_in_path_planning/"
+    t: "Evaluating Vision-Language Models as Evaluators in Path Planning"
+item_total: 136
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**📷 CVPR2025** · **146** 篇论文解读
+**📷 CVPR2025** · **136** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (533)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (99)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (94)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (85)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (84)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (139)](../../NeurIPS2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (404)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (76)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (79)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (61)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md)
 
-🔥 **高频主题：** 多模态 ×89 · LLM ×18 · 推理 ×12 · 对齐/RLHF ×9 · 少样本学习 ×6
+🔥 **高频主题：** 多模态 ×83 · LLM ×14 · 对齐/RLHF ×10 · 少样本学习 ×6 · 机器人 ×4
 
 **[4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models](4d_langsplat_4d_language_gaussian_splatting_via_multimodal_large_language_models.md)**
 
@@ -101,10 +101,6 @@ item_total: 146
 
 **[ASAP: Advancing Semantic Alignment for Multi-Modal Manipulation Detection](asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_detecting_an.md)**
 
-**[Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation](beyond_final_answers_crystal_benchmark_for_transparent_multimodal_reasoning_eval.md)**
-
-:   提出 CRYSTAL benchmark（6372 实例），通过 Match F1 和 Ordered Match F1 两个指标在中间推理步骤层面评估 MLLM，揭示了普遍的 cherry-picking 行为和推理顺序混乱问题，并提出 CPR-Curriculum 训练策略改善推理质量。
-
 **[Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning](beyond_words_augmenting_discriminative_richness_via_diffusions_in_unsupervised_p.md)**
 
 :   提出AiR（Augmenting discriminative Richness）方法，利用LoRA微调的Stable Diffusion生成合成图像构建辅助分类器，与文本分类器互补融合，将无监督prompt learning中的文本-图像匹配扩展为图像-图像匹配，显著提升细粒度/遥感等困难数据集上的分类准确率。
@@ -116,12 +112,6 @@ item_total: 146
 **[Can Large Vision-Language Models Correct Semantic Grounding Errors By Themselves?](can_large_vision-language_models_correct_semantic_grounding_errors_by_themselves.md)**
 
 :   系统研究了VLM在语义定位任务中的自我纠错能力，发现内在自我纠错（无外部反馈）反而损害性能（-7至-17点），但通过同一VLM作为二值验证器提供反馈的迭代纠错最多可提升8.4个百分点，揭示了反馈质量是自我纠错的关键瓶颈。
-
-**[COAP: Memory-Efficient Training with Correlation-Aware Gradient Projection](coap_memory-efficient_training_with_correlation-aware_gradient_projection.md)**
-
-**[Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Models](coarse_correspondences_boost_spatial-temporal_reasoning_in_multimodal_language_m.md)**
-
-:   本文提出Coarse Correspondences，一种轻量级的training-free视觉提示方法，通过在图像帧上叠加目标跟踪得到的粗粒度实例对应关系标记，显著增强MLLM的空间时序推理能力，在ScanQA上提升+20.5%、OpenEQA上+9.7%、EgoSchema上+6.0%和R2R导航上+11%。
 
 **[CodePercept: Code-Grounded Visual STEM Perception for MLLMs](codepercept_code-grounded_visual_stem_perception_for_mllms.md)**
 
@@ -155,10 +145,6 @@ item_total: 146
 
 :   本文构建了COUNTS——一个包含14种自然分布偏移、222K+样本和119万+标注框的大规模OOD数据集，并提出O(OD)²和OODG两个基准，系统评估了目标检测器和多模态大模型在分布偏移下的泛化能力，发现即使是GPT-4o也仅能达到56.7%的定位准确率。
 
-**[Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning](critic-v_vlm_critics_help_catch_vlm_errors_in_multimodal_reasoning.md)**
-
-:   本文提出Critic-V框架，将VLM推理过程解耦为Reasoner（推理器）和Critic（评价器），通过DPO训练的Critic模型提供自然语言反馈迭代优化推理路径，在8个基准上的5个超越GPT-4V，数学推理任务提升尤为显著（MathVista +11.8%）。
-
 **[Cropper: Vision-Language Model for Image Cropping through In-Context Learning](cropper_vision-language_model_for_image_cropping_through_in-context_learning.md)**
 
 :   本文提出Cropper框架，首次利用大型视觉-语言模型（VLM）的上下文学习（ICL）能力来解决图像裁剪任务，通过高效的prompt检索和基于反馈的迭代裁剪优化策略，无需任何训练即可在自由裁剪、主体感知裁剪和宽高比裁剪三种任务上大幅超越有监督SOTA方法。
@@ -179,9 +165,9 @@ item_total: 146
 
 :   提出"分散假说"——通过构造高对比度多子图复合输入增加视觉复杂度来制造 OOD 效果，配合查询分解和精心设计的无害指令，实现对 GPT-4o 等闭源 MLLM 高达 42-64% 攻击成功率的黑盒越狱。
 
-**[Document Haystacks: Vision-Language Reasoning Over Piles of 1000+ Documents](document_haystacks_vision-language_reasoning_over_piles_of_1000_documents.md)**
+**[DocoPilot: Improving Multimodal Models for Document-Level Understanding](docopilot_improving_multimodal_models_for_document-level_understanding.md)**
 
-:   提出 DocHaystack 和 InfoHaystack 两个大规模文档检索基准（每个问题对应 1000+ 文档），以及 V-RAG——一个视觉中心的检索增强生成框架，在 Recall@1 上比最佳基线提升 9%-11%。
+:   本文构建了 Doc-750K——一个包含 758K 问答对和 3.1M 图像的高质量文档级多模态数据集，并基于此训练原生文档理解模型 Docopilot，在 MM-NIAH 上超越 InternVL2-8B 达 19.9 个百分点，无需 RAG 即可高效处理多页文档。
 
 **[DocVLM: Make Your VLM an Efficient Reader](docvlm_make_your_vlm_an_efficient_reader.md)**
 
@@ -210,10 +196,6 @@ item_total: 146
 **[Embodied Scene Understanding for Vision Language Models via MetaVQA](embodied_scene_understanding_for_vision_language_models_via_metavqa.md)**
 
 :   构建了一个基于 Set-of-Mark 标注和场景图的大规模 VQA 基准（430 万问题），系统评估 VLM 的空间推理和具身理解能力，发现在 MetaVQA 上微调可显著提升空间推理（+28 点），且训练于仿真数据的能力可零样本迁移到真实场景和未见过的闭环驾驶任务。
-
-**[ESPIRE: A Diagnostic Benchmark for Embodied Spatial Reasoning of Vision-Language Models](espire_a_diagnostic_benchmark_for_embodied_spatial_reasoning_of_vision-language_.md)**
-
-:   提出 Espire，一个基于仿真环境的具身空间推理诊断基准，将 VLM 评估分解为定位和执行两阶段，通过全生成式范式系统评估 VLM 在多种空间推理维度和粒度上的能力。
 
 **[Evaluating Model Perception of Color Illusions in Photorealistic Scenes](evaluating_model_perception_of_color_illusions_in_photorealistic_scenes.md)**
 
@@ -263,6 +245,10 @@ item_total: 146
 
 :   GFS-VL 提出一种广义小样本 3D 点云分割框架，通过将 3D 视觉语言模型（3D VLM）生成的稠密但有噪声的伪标签与精确但稀疏的小样本标注协同融合——经由原型引导的伪标签筛选、自适应填充和 novel-base 混合增强——在现有和新设的高难度 benchmark 上取得了 SOTA 性能。
 
+**[GENIUS: A Generative Framework for Universal Multimodal Search](genius_a_generative_framework_for_universal_multimodal_search.md)**
+
+:   首个通用生成式多模态检索框架，通过模态解耦的语义量化将多模态数据编码为离散 ID，用自回归解码器直接从查询生成目标 ID，在 Flickr30K 文本→图像检索上超越先前生成式方法 25+ 个点，存储开销比 CLIP 降低 99%。
+
 **[GeoMM: On Geodesic Perspective for Multi-Modal Learning](geomm_on_geodesic_perspective_for_multi-modal_learning.md)**
 
 :   首次将测地距离（Geodesic Distance）引入多模态对比学习，通过构建层次化图结构高效计算样本间的流形距离，替代传统余弦距离，从而更准确地挖掘正负样本关系，提升图文检索、VQA等下游任务性能。
@@ -274,6 +260,10 @@ item_total: 146
 **[Ground-V: Teaching VLMs to Ground Complex Instructions in Pixels](ground-v_teaching_vlms_to_ground_complex_instructions_in_pixels.md)**
 
 :   构建了Ground-V，一个包含50万指令-分割对的数据集，系统性解决真实世界指代分割中的五大挑战（幻觉引用、多对象、推理、多粒度、部件引用），训练后的VLM在gRefCOCO上N-Acc超越前SOTA 20%以上。
+
+**[Harnessing Frozen Unimodal Encoders for Flexible Multimodal Alignment](harnessing_frozen_unimodal_encoders_for_flexible_multimodal_alignment.md)**
+
+:   提出一种新的视觉-语言对齐框架：冻结预训练好的单模态视觉编码器（DINOv2）和语言编码器（All-Roberta-Large），仅训练轻量MLP投影层实现多模态对齐，以20倍数据缩减和65倍计算缩减达到了CLIP级别甚至超越的性能。
 
 **[HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator](heie_mllm-based_hierarchical_explainable_aigc_image_implausibility_evaluator.md)**
 
@@ -299,10 +289,6 @@ item_total: 146
 
 :   本文提出POLAR方法，通过对CLIP文本编码器**最后一层**的value矩阵施加**rank-1的LoRA更新**加正则化，仅用少量样本即可学习个性化概念并保留通用知识，在DeepFashion2和ConCon-Chi基准上超越基于文本反转的先前方法4%~22%。
 
-**[Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models](insight-v_exploring_long-chain_visual_reasoning_with_multimodal_large_language_m.md)**
-
-:   Insight-V 提出一个包含数据生成 pipeline 和多智能体推理系统的视觉推理增强方案：通过渐进式生成+多粒度评估构建高质量长链推理数据，设计推理Agent和总结Agent协作解题，配合迭代DPO进一步提升推理质量，在7个视觉推理基准上实现平均7%的提升。
-
 **[Instruction-based Image Manipulation by Watching How Things Move](instruction-based_image_manipulation_by_watching_how_things_move.md)**
 
 :   本文提出 InstructMove，通过从视频中采样帧对并用多模态大模型生成编辑指令来构建大规模真实图像编辑数据集，结合空间条件化策略微调 T2I 模型，在姿态调整、视角变换等非刚性编辑任务上实现了 SOTA 效果。
@@ -310,6 +296,14 @@ item_total: 146
 **[It's a (Blind) Match! Towards Vision-Language Correspondence without Parallel Data](its_a_blind_match_towards_vision-language_correspondence_without_parallel_data.md)**
 
 :   本文首次系统研究了在**完全无配对数据**的情况下，仅利用视觉和语言嵌入空间各自内部的成对距离进行"盲匹配"的可行性，提出了一种分解式Hahn-Grant QAP求解器（内存从 $O(N^4)$ 降到 $O(N^3)$），并在33个视觉模型×27个语言模型的大规模实验中证明了该匹配的可行性，甚至实现了无监督图像分类。
+
+**[Joint Vision-Language Social Bias Removal for CLIP](joint_vision-language_social_bias_removal_for_clip.md)**
+
+:   本文揭示了CLIP模型中图像和文本偏见分布不一致导致的"过度去偏"问题，提出一种双模态偏见对齐+反事实去偏的联合框架，在有效减少性别/年龄/种族偏见的同时保持视觉-语言对齐能力，并设计了ABLE指标综合评估去偏效果与下游性能。
+
+**[LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant](lamra_large_multimodal_model_as_your_advanced_retrieval_assistant.md)**
+
+:   将生成式大语言模型（LMM）改造为通用多模态检索器+重排器，通过两阶段训练（语言预训练+多模态指令微调）和联合逐点/列表重排训练，仅插入轻量LoRA模块即可在16种检索任务上显著超越双编码器方法，且在10个未见数据集上展现强泛化能力。
 
 **[LayoutVLM: Differentiable Optimization of 3D Layout via Vision-Language Models](layoutvlm_differentiable_optimization_of_3d_layout_via_vision-language_models.md)**
 
@@ -335,10 +329,6 @@ item_total: 146
 
 :   构建首个包含正负语义描述的视觉定位数据集 D-Negation，并提出 Grouped Opposition-Based Learning (GOBL) 微调机制，通过对立语义约束显著增强 grounding 模型对否定语义的理解能力。
 
-**[MBQ: Modality-Balanced Quantization for Large Vision-Language Models](mbq_modality-balanced_quantization_for_large_vision-language_models.md)**
-
-:   发现大型VLM中视觉token和语言token对量化误差的敏感度差异超过10倍，提出MBQ方法在量化校准过程中引入基于梯度的模态平衡因子，在W3A16和W4A8设置下分别提升精度最高4.4%和11.6%，并实现1.4倍端到端加速。
-
 **[Mimic In-Context Learning for Multimodal Tasks](mimic_in-context_learning_for_multimodal_tasks.md)**
 
 :   本文从数学角度分析了ICL中in-context demonstrations (ICDs)对自注意力的"移位效应"，并提出MimIC方法通过在每个注意力头插入可学习移位向量+query依赖的缩放因子来模拟ICL行为，在VQA和Captioning任务上以仅0.26M参数超越32-shot ICL和所有现有移位向量方法。
@@ -350,10 +340,6 @@ item_total: 146
 **[MLLM-as-a-Judge for Image Safety without Human Labeling](mllm-as-a-judge_for_image_safety_without_human_labeling.md)**
 
 :   提出 CLUE 框架，通过规则客观化、CLIP 相关性扫描、前置条件链分解和去偏 token 概率分析，实现无需人工标注的零样本图像安全判定，在多个 MLLM 上大幅超越基线。
-
-**[MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning](mm-condchain_a_programmatically_verified_benchmark_for_visually_grounded_deep_co.md)**
-
-:   MM-CondChain 是首个针对视觉基础深层组合推理的 MLLM 基准，通过可验证程序中间表示（VPIR）自动构建多层条件链和链式硬负样本，最强模型仅获 53.33 Path F1，揭示深层组合推理是根本挑战。
 
 **[MMRL: Multi-Modal Representation Learning for Vision-Language Models](mmrl_multi-modal_representation_learning_for_vision-language_models.md)**
 
@@ -387,9 +373,9 @@ item_total: 146
 
 :   提出 Multimodal OCR (MOCR) 范式，将文档中的文本和图形（图表、图标、UI 等）统一解析为结构化文本表示（包括 SVG 代码），3B 模型在 olmOCR-Bench 上达到 83.9 SOTA，图形解析超越 Gemini 3 Pro。
 
-**[MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts](mv-math_evaluating_multimodal_math_reasoning_in_multi-visual_contexts.md)**
+**[NeighborRetr: Balancing Hub Centrality in Cross-Modal Retrieval](neighborretr_balancing_hub_centrality_in_cross-modal_retrieval.md)**
 
-:   本文提出 MV-MATH 基准，包含 2,009 道高质量多图数学题（来自真实 K-12 场景），系统评估了 25 个多模态大模型在多图数学推理场景下的能力，发现所有模型远低于人类水平（最佳 Claude 仅 33.9%），揭示了多图数学推理仍是 MLLM 的重大挑战。
+:   提出 NeighborRetr，通过三重机制解决跨模态检索中的 Hubness 问题（少数样本垄断近邻）：中心性加权损失（降低 hub 样本的训练权重）、邻域调整损失（区分好/坏 hub）和均匀正则化（确保每个样本被公平检索），在 MSR-VTT 文本→视频 R@1 达 49.5%（+0.9% SOTA）。
 
 **[NLPrompt: Noise-Label Prompt Learning for Vision-Language Models](nlprompt_noise-label_prompt_learning_for_vision-language_models.md)**
 
@@ -431,10 +417,6 @@ item_total: 146
 
 :   提出 CLIP-Refine，一种介于预训练和微调之间的"后预训练"方法，通过随机特征对齐（RaFA）和混合对比蒸馏（HyCD）两个技术，仅用 1 个 epoch 在小数据集上训练即可缩小 CLIP 的模态间隙并提升零样本性能。
 
-**[Quantization without Tears](quantization_without_tears.md)**
-
-:   提出 QwT（Quantization without Tears）方法，通过在量化网络的每个 block 后添加一个轻量级线性补偿层来弥补量化信息损失，该补偿层参数可通过闭式解在2分钟内求得，在视觉、语言、多模态等多种任务上均显著提升了 PTQ 精度。
-
 **[RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models](rap_retrieval-augmented_personalization_for_multimodal_large_language_models.md)**
 
 :   提出 RAP（Retrieval-Augmented Personalization）框架，通过"记忆-检索-生成"三步实现 MLLM 的个性化：用外部数据库存储用户概念，用多模态检索器动态检索相关概念信息，再注入 MLLM 生成个性化响应，每个概念仅需1张图+描述即可，且支持实时更新。
@@ -442,10 +424,6 @@ item_total: 146
 **[Realistic Test-Time Adaptation of Vision-Language Models](realistic_test-time_adaptation_of_vision-language_models.md)**
 
 :   本文揭示现有VLM测试时适应（TTA）/转导方法在realistic场景下（有效类数可变、非i.i.d.数据流）会严重损害CLIP的零样本鲁棒性，并提出StatA方法，通过在高斯聚类模型参数上引入基于文本编码器知识的KL散度正则化（统计锚），在所有部署场景中保持稳定提升。
-
-**[Reasoning over Video: Evaluating How MLLMs Extract, Integrate, and Reconstruct Spatiotemporal Evidence](reasoning_over_video_evaluating_how_mllms_extract_integrate_and_reconstruct_spat.md)**
-
-:   提出 VAEX-Bench 基准，首次系统评估 MLLM 的"抽象时空推理"能力——不是从单帧提取信息，而是需要跨房间/跨时间整合观察来推断全局空间布局、跨场景计数等，发现所有 SOTA 模型（包括 GPT-5.2、Gemini-3 Pro）在抽象推理上表现远低于人类。
 
 **[Reasoning to Attend: Try to Understand How \<SEG\> Token Works](reasoning_to_attend_try_to_understand_how_seg_token_works.md)**
 
@@ -507,10 +485,6 @@ item_total: 146
 
 :   将对比随机游走（CRW）框架扩展到跨模态像素级对应问题，通过同时学习模态内和模态间的循环一致性特征表示，在无需配对标注的情况下实现 RGB-Depth、RGB-Thermal、Photo-Sketch 等跨模态密集匹配，显著超越现有方法。
 
-**[SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model](seqafford_sequential_3d_affordance_reasoning_via_multimodal_large_language_model.md)**
-
-:   提出 Sequential 3D Affordance Reasoning 任务，构建180K指令-点云对基准，通过在3D MLLM中引入 `<SEG>` token 和多粒度语言-点云融合模块，从复杂人类指令中推理并分割出序列化的affordance区域。
-
 **[Single Domain Generalization for Few-Shot Counting via Universal Representation Matching](single_domain_generalization_for_few-shot_counting_via_universal_representation_.md)**
 
 :   提出首个面向少样本计数的单域泛化模型URM，通过将CLIP的通用视觉-语言表征蒸馏到可学习原型中参与相关性构建，在不损失域内性能的前提下大幅提升跨域泛化能力（MAE降低27.5%）。
@@ -538,10 +512,6 @@ item_total: 146
 **[SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs](sparrow_learning_spatial_precision_and_temporal_referential_consistency_in_pixel.md)**
 
 :   提出SPARROW框架，通过目标特定跟踪特征(TSF)和双提示(BOX+SEG)机制，解决视频MLLM中时序引用一致性差和首帧初始化不稳定的问题，在6个基准上对3个主流视频MLLM均取得一致提升。
-
-**[Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA](spatial_reasoning_is_not_a_free_lunch_a_controlled_study_on_llava.md)**
-
-:   通过在 LLaVA 框架中系统替换图像编码器（CLIP/SigLIP/SigLIP2/AIMv2）和引入 2D-RoPE 位置编码，发现 VLM 的空间推理能力主要由编码器的训练目标决定，指望仅靠 2D 位置结构改善空间理解是不够的。
 
 **[StarVector: Generating Scalable Vector Graphics Code from Images and Text](starvector_generating_scalable_vector_graphics_code_from_images_and_text.md)**
 
@@ -578,14 +548,6 @@ item_total: 146
 **[Teaching Large Language Models to Regress Accurate Image Quality Scores Using Score Distribution](teaching_large_language_models_to_regress_accurate_image_quality_scores_using_sc.md)**
 
 :   提出DeQA-Score，通过将质量分数的**高斯分布离散化为soft label**（替代Q-Align的one-hot label），大幅减少离散化信息损失（10-35倍），并引入基于Thurstone模型的**fidelity loss**实现多IQA数据集联合训练，在分数回归任务上全面超越基线。
-
-**[Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](thinking_in_dynamics_how_multimodal_large_language_models_perceive_track_and_rea.md)**
-
-:   本文提出 Dyn-Bench——首个系统评估多模态大模型（MLLMs）在物理4D世界中动态感知、追踪和推理能力的大规模基准，包含 1K 视频、7K VQA 对和 3K 动态目标定位对，发现现有模型无法同时在时空推理和动态定位上表现良好，并提出 Mask-Guided Fusion 和 ST-TCM 两种结构化增强方法显著提升表现。
-
-**[Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](thinking_in_space_how_multimodal_large_language_models_see_remember_and_recall_s.md)**
-
-:   本文提出 VSI-Bench，一个基于视频的视觉空间智能基准（5000+ QA对），系统评估了 MLLM 的空间推理能力，发现空间推理是主要瓶颈，传统语言推理技术（CoT等）无法提升性能，但显式生成认知地图可改善空间距离推理。
 
 **[Topo-R1: Detecting Topological Anomalies via Vision-Language Models](topo-r1_detecting_topological_anomalies_via_vision-language_models.md)**
 

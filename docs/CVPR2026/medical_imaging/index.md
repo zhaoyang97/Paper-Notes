@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 医学图像论文汇总 · 174篇论文解读
+  CVPR2026 医学图像论文汇总 · 176篇论文解读
 description: >-
-  174篇CVPR2026的医学图像方向论文解读，涵盖医学影像、语义分割、多模态、推理、扩散模型、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  176篇CVPR2026的医学图像方向论文解读，涵盖医学影像、语义分割、多模态、推理、扩散模型、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "医学图像"
@@ -75,13 +75,13 @@ item_list:
     t: "Cross-Modal Guided Visual Synthesis for Data-Efficient Multimodal Depression Recognition"
   - u: "crown_a_unified_framework_for_anti-aliased_downsampling_and_phase-calibrated_fus/"
     t: "CROWn: 抗混叠下采样与相位校准融合的统一 3D 医学分割框架"
-item_total: 174
+item_total: 176
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**📷 CVPR2026** · **174** 篇论文解读
+**📷 CVPR2026** · **176** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (24)](../../ICML2026/medical_imaging/index.md) · [🔬 ICLR2026 (22)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (75)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (77)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/medical_imaging/index.md) · [🧪 ICML2025 (21)](../../ICML2025/medical_imaging/index.md)
 
@@ -279,6 +279,10 @@ item_total: 174
 
 :   EEGiT 把一维 EEG 时序信号"画"成形如图像 patch 的二维 EEG patch，从而能直接拿在 ImageNet-21K 上预训练好的 ViT 当 EEG 编码器，用图像域的视觉先验缓解 EEG 数据稀缺，在 THINGS-EEG 检索与 EEG-3D 分类上都刷到 SOTA。
 
+**[Efficient Unrolled Networks for Large-Scale 3D Inverse Problems](efficient_unrolled_networks_for_large-scale_3d_inverse_problems.md)**
+
+:   针对展开网络（unrolled network）在 3D 逆问题里因为「网络步必须在整卷全分辨率上跑」而显存爆炸的痛点，本文用**域划分**（只重建一个 patch、其余当已知 context）+ **法算子 $A^\top A$ 的对角-循环矩阵近似**两招，让带前向算子的展开网络第一次能在单卡上训练并部署到 $501^3$ 体素的稀疏视角 CBCT 与多线圈加速 MRI，并取得 SOTA。
+
 **[EMAD: Evidence-Centric Grounded Multimodal Diagnosis for Alzheimer's Disease](emad_evidence-centric_grounded_multimodal_diagnosis_for_alzheimers_disease.md)**
 
 :   提出 EMAD，一个端到端多模态视觉-语言框架，为 AD 诊断生成结构化报告，通过分层 Sentence–Evidence–Anatomy (SEA) Grounding 将每个诊断声明显式关联到临床证据和 3D 脑部解剖，并用可执行规则驱动的 GRPO 强化微调确保临床一致性。
@@ -414,6 +418,10 @@ item_total: 174
 **[KAMP: Knowledge-Anchored Multimodal Pretraining Framework for Medical Image Representation](kamp_knowledge-anchored_multimodal_pretraining_framework_for_medical_image_repre.md)**
 
 :   KAMP 用 LLM 生成的「患者个性化诊断知识」作为语义锚，把医学影像和病理、基因组等多模态生物医学信号对齐，并用三阶段训练（对齐 → GRPO 精炼生成器 → 重训对齐）让知识越练越准，在脑、膀胱、肝癌的 few-shot 分类上大多优于单模态/双模态/三模态基线。
+
+**[Keep It Frozen: Domain-Routed Conditional Residual Modulation for Multi-Domain Vision Transformers](keep_it_frozen_domain-routed_conditional_residual_modulation_for_multi-domain_vi.md)**
+
+:   在完全冻结的 ViT 骨干上挂一组轻量级残差调制模块（RMB），由一个域路由器（DR）实时估计样本属于"医学/自然"的软概率、再用参数合成网络（PSN）按概率即时生成低秩修正参数注入 Q/V 投影与注意力 bias，配合 MAML 式双层优化，实现单一模型在医学（超声/CT/MRI）与自然图像间同时适配且互不损伤，只用约 3.5% 的可训练参数。
 
 **[KLIP: localized distribution shift detection via KL-divergence with diffusion priors in Inverse Problems](klip_localized_distribution_shift_detection_via_kl-divergence_with_diffusion_pri.md)**
 

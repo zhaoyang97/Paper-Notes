@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 信息检索/RAG论文汇总 · 73篇论文解读
+  ACL2026 信息检索/RAG论文汇总 · 70篇论文解读
 description: >-
-  73篇ACL2026的信息检索/RAG 方向论文解读，涵盖 RAG、问答、推理、LLM、对话系统、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  70篇ACL2026的信息检索/RAG 方向论文解读，涵盖 RAG、问答、推理、LLM、对话系统、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "信息检索/RAG"
@@ -75,17 +75,17 @@ item_list:
     t: "eTracer: Towards Traceable Text Generation via Claim-Level Grounding"
   - u: "feedback_adaptation_for_retrieval-augmented_generation/"
     t: "Feedback Adaptation for Retrieval-Augmented Generation"
-item_total: 73
+item_total: 70
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**💬 ACL2026** · **73** 篇论文解读
+**💬 ACL2026** · **70** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (11)](../../CVPR2026/information_retrieval/index.md) · [🧪 ICML2026 (23)](../../ICML2026/information_retrieval/index.md) · [🔬 ICLR2026 (31)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×26 · 问答 ×8 · 推理 ×7 · LLM ×7 · 对话系统 ×5
+🔥 **高频主题：** RAG ×24 · 问答 ×8 · 推理 ×7 · LLM ×7 · 对话系统 ×5
 
 **[A Picture is Worth a Thousand Words? An Empirical Study of Aggregation Strategies for Visual Financial Document Retrieval](a_picture_is_worth_a_thousand_words_an_empirical_study_of_aggregation_strategies.md)**
 
@@ -267,10 +267,6 @@ item_total: 73
 
 :   本文提出 MASS-RAG，一个免训练的多 Agent 综合 RAG 框架，通过 Summarizer/Extractor/Reasoner 三个专门化过滤 Agent 从互补视角处理检索文档，再通过 Synthesis Agent 整合多视角证据或候选答案，在四个基准上持续超越强基线。
 
-**[MM-BizRAG: Rethinking Multimodal Retrieval-Augmented Generation for General Purpose Enterprise Q&A](mm-bizrag_rethinking_multimodal_retrieval-augmented_generation_for_general_purpo.md)**
-
-:   MM-BizRAG 证明企业多模态 RAG 不能只依赖页面截图和视觉 embedding，而应先按文档结构区分报告与幻灯片，再显式解析文本、表格和图片，并在推理时组装多模态上下文，从而在 SlideVQA、FinRAGBench-V 和内部企业数据上显著超过视觉中心 baseline。
-
 **[More Than Efficiency: Embedding Compression Improves Domain Adaptation in Dense Retrieval](more_than_efficiency_embedding_compression_improves_domain_adaptation_in_dense_r.md)**
 
 :   这篇论文证明 PCA 向量压缩不只是为了提速，还能作为一种零训练的 dense retriever 域适配方法，其中只用目标域 query 拟合 PCA 在 75.4% 的模型-数据集组合上提升 NDCG@10。
@@ -335,10 +331,6 @@ item_total: 73
 
 :   S2G-RAG 把迭代 RAG 中“证据够不够”和“下一步缺什么”显式建模成结构化控制器 S2G-Judge，再用 gap-guided query 和句子级证据抽取减少噪声，在 HotpotQA BM25 设置下把 F1 从 SIM-RAG 的 43.3 提升到 56.5。
 
-**[Prune-then-Merge: Towards Efficient Multi-Vector Visual Document Retrieval](sculpting_the_vector_space_towards_efficient_multi-vector_visual_document_retrie.md)**
-
-:   本文提出 Prune-then-Merge，一个两阶段的免训练多向量文档压缩框架——先通过自适应注意力剪枝移除低信息 patch，再对剩余高信号 patch 进行层次聚类合并，在 29 个 VDR 数据集上将近无损压缩范围从 50-60% 扩展到 60-70%，并在 80%+ 高压缩率下显著优于单阶段方法。
-
 **[Test-Time Training for Zero-Resource Dense Retrieval Reranking](test-time_training_for_zero-resource_dense_retrieval_reranking.md)**
 
 :   提出 DART，通过在推理时用双线性矩阵自适应地调整密集检索器的评分函数，利用检索结果本身作为伪标签实现零样本无标注重排序，在 BEIR 基准上平均提升 2.1% NDCG@10，延迟控制在 10ms 以内。
@@ -350,10 +342,6 @@ item_total: 73
 **[UnIte: Uncertainty-based Iterative Document Sampling for Domain Adaptation in Information Retrieval](unite_uncertainty-based_iterative_document_sampling_for_domain_adaptation_in_inf.md)**
 
 :   UnIte 把神经检索器的无监督领域适配瓶颈从“生成更多伪查询”转向“更聪明地选文档”，先用 aleatoric uncertainty 过滤低密度噪声文档，再用随模型训练动态变化的 epistemic uncertainty 迭代采样高价值文档，在 BEIR 大语料上用更少伪查询稳定超过 DUQGen。
-
-**[Utility-Oriented Visual Evidence Selection for Multimodal Retrieval-Augmented Generation](utility-oriented_visual_evidence_selection_for_multimodal_retrieval-augmented_ge.md)**
-
-:   本文把多模态 RAG 的图像选择从“语义相似度排序”改成“对最终回答是否有用”的效用估计，并用轻量多模态代理模型高效预测证据 helpfulness，在 MRAG-Bench 和 Visual-RAG 上同时提升回答质量和推理效率。
 
 **[Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning](verbal-r3_verbal_reranker_as_the_missing_bridge_between_retrieval_and_reasoning.md)**
 

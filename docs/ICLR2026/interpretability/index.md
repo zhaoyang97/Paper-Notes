@@ -83,7 +83,7 @@ item_total: 60
 
 **🔬 ICLR2026** · **60** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (41)](../../CVPR2026/interpretability/index.md) · [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [💬 ACL2026 (60)](../../ACL2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (42)](../../CVPR2026/interpretability/index.md) · [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [💬 ACL2026 (61)](../../ACL2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
 
 🔥 **高频主题：** LLM ×5 · 推理 ×4 · 多模态 ×3 · 布局/合成 ×3 · 对齐/RLHF ×3
 

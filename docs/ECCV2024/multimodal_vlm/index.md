@@ -1,8 +1,8 @@
 ---
 title: >-
-  ECCV2024 多模态VLM论文汇总 · 48篇论文解读
+  ECCV2024 多模态VLM论文汇总 · 44篇论文解读
 description: >-
-  48篇ECCV2024的多模态 VLM 方向论文解读，涵盖多模态、LLM、对抗鲁棒、少样本学习、自监督学习、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  44篇ECCV2024的多模态 VLM 方向论文解读，涵盖多模态、LLM、对抗鲁棒、少样本学习、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ECCV2024"
   - "多模态 VLM"
@@ -13,7 +13,6 @@ tags:
   - "对抗鲁棒"
   - "少样本学习"
   - "自监督学习"
-  - "模型压缩"
 item_list:
   - u: "a_multimodal_benchmark_dataset_and_model_for_crop_disease_di/"
     t: "A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis"
@@ -25,8 +24,6 @@ item_list:
     t: "ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling"
   - u: "attention_prompting_on_image_for_large_visionlanguage_models/"
     t: "Attention Prompting on Image for Large Vision-Language Models"
-  - u: "bad_students_make_great_teachers_active_learning_accelerates_large-scale_visual_/"
-    t: "Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding"
   - u: "blink_multimodal_large_language_models_can_see_but_not_perceive/"
     t: "BLINK: Multimodal Large Language Models Can See but Not Perceive"
   - u: "brave_broadening_the_visual_encoding_of_vision-language_models/"
@@ -53,10 +50,8 @@ item_list:
     t: "FreeMotion: MoCap-Free Human Motion Synthesis with Multimodal Large Language Models"
   - u: "genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator/"
     t: "Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator"
-  - u: "groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode/"
-    t: "Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models"
-  - u: "ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models/"
-    t: "IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models"
+  - u: "grounding_language_models_for_visual_entity_recognition/"
+    t: "Grounding Language Models for Visual Entity Recognition"
   - u: "loa-trans_enhancing_visual_grounding_by_location-aware_transformers/"
     t: "LoA-Trans: Enhancing Visual Grounding by Location-Aware Transformers"
   - u: "m_ampmaposs_a_benchmark_to_evaluate_tool-use_for_multi-step_multi-modal_tasks/"
@@ -75,17 +70,21 @@ item_list:
     t: "MMBench: Is Your Multi-modal Model an All-Around Player?"
   - u: "myvlm_personalizing_vlms_for_userspecific_queries/"
     t: "MyVLM: Personalizing VLMs for User-Specific Queries"
-item_total: 48
+  - u: "nymeria_a_massive_collection_of_multimodal_egocentric_daily_motion_in_the_wild/"
+    t: "Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild"
+  - u: "omniview-tuning_boosting_viewpoint_invariance_of_vision-language_pre-training_mo/"
+    t: "Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models"
+item_total: 44
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🎞️ ECCV2024** · **48** 篇论文解读
+**🎞️ ECCV2024** · **44** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (533)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (99)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (94)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (85)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (84)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (139)](../../NeurIPS2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (404)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (76)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (79)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (61)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md)
 
-🔥 **高频主题：** 多模态 ×30 · LLM ×9 · 对抗鲁棒 ×3 · 少样本学习 ×3 · 自监督学习 ×2
+🔥 **高频主题：** 多模态 ×26 · LLM ×8 · 对抗鲁棒 ×3 · 少样本学习 ×3 · 自监督学习 ×2
 
 **[A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis](a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md)**
 
@@ -106,10 +105,6 @@ item_total: 48
 **[Attention Prompting on Image for Large Vision-Language Models](attention_prompting_on_image_for_large_visionlanguage_models.md)**
 
 :   提出Attention Prompting on Image（API），通过辅助VLM（CLIP或LLaVA）根据文本查询生成注意力归因图，将其作为热力图叠加到原始图像上引导LVLM聚焦相关区域，在MM-Vet上提升LLaVA-1.5达3.8%，跨多种LVLM（包括GPT-4V）通用有效。
-
-**[Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding](bad_students_make_great_teachers_active_learning_accelerates_large-scale_visual_.md)**
-
-:   提出 ClassAct/ActiveCLIP 方法，利用小型廉价代理模型为数据点计算"可学习性"评分来优先选择训练数据，使大规模视觉分类器和多模态模型分别减少46%和51%的训练更新量，且总计算量节省高达25%，是首个在大规模预训练中实现计算正收益的主动学习方法。
 
 **[BLINK: Multimodal Large Language Models Can See but Not Perceive](blink_multimodal_large_language_models_can_see_but_not_perceive.md)**
 
@@ -163,13 +158,9 @@ item_total: 48
 
 :   提出 Genixer 数据生成流水线，训练 MLLM 自身作为数据生成器，无需依赖 GPT-4V 即可自动生成高质量视觉指令微调数据，生成的 915K VQA 数据和 350K REC 数据分别提升 LLaVA1.5 和 Shikra 在多个基准上的表现。
 
-**[Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models](groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode.md)**
+**[Grounding Language Models for Visual Entity Recognition](grounding_language_models_for_visual_entity_recognition.md)**
 
-:   Groma提出了将定位能力嵌入视觉tokenization过程的新范式——通过region proposer发现感兴趣区域并编码为region token，使MLLM无需依赖LLM输出坐标或外部模块即可实现高精度的referring和grounding，同时利用GPT-4V+visual prompting构建了首个视觉-文本双prompt的grounded chat数据集Groma Instruct。
-
-**[IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models](ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md)**
-
-:   IVTP提出在大型视觉语言模型的推理过程中，利用文本指令（instruction）信息动态评估各视觉token的重要性并剪枝冗余token，实现与任务相关的自适应视觉信息压缩，在大幅减少计算量的同时保持甚至提升模型性能。
+:   提出 AutoVER——首个将多模态大语言模型（MLLM）应用于大规模视觉实体识别的方法，通过将检索能力集成到 MLLM 内部，结合对比训练和前缀树约束解码，在 Oven-Wiki 基准上大幅超越 PaLI-17B 等先前方法。
 
 **[LoA-Trans: Enhancing Visual Grounding by Location-Aware Transformers](loa-trans_enhancing_visual_grounding_by_location-aware_transformers.md)**
 
@@ -207,10 +198,6 @@ item_total: 48
 
 :   MyVLM首次探索VLM个性化问题，通过外挂概念识别头检测用户特定概念（如"你的狗"），并在VLM中间特征空间学习概念嵌入引导语言模型在回答中自然融入该概念，仅需3-5张图像即可实现个性化caption和VQA。
 
-**[NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models](navgpt-2_unleashing_navigational_reasoning_capability_for_large_vision-language_.md)**
-
-:   NavGPT-2通过将冻结LLM的隐层表征作为视觉-语言特征输入拓扑图导航策略网络，在保留LLM可解释性导航推理能力的同时，消除了基于LM的智能体与VLN专用模型之间的性能差距，并展现出优异的数据效率。
-
 **[Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild](nymeria_a_massive_collection_of_multimodal_egocentric_daily_motion_in_the_wild.md)**
 
 :   Nymeria 是目前世界最大的野外人体运动数据集（300 小时、264 名参与者），首次提供同步定位的多设备多模态自我中心数据（Project Aria 眼镜+腕带+动捕服），并配套 310.5K 句层次化运动语言描述。
@@ -218,10 +205,6 @@ item_total: 48
 **[Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models](omniview-tuning_boosting_viewpoint_invariance_of_vision-language_pre-training_mo.md)**
 
 :   OVT通过构建460万多视角图文数据集MVCap和设计minimax优化的跨视角对齐框架，以参数高效微调方式显著提升VLP模型（如CLIP）对3D视角变化的鲁棒性（平均+9-10%），同时几乎不损失原始性能。
-
-**[Quantized Prompt for Efficient Generalization of Vision-Language Models](quantized_prompt_for_efficient_generalization_of_vision-language_models.md)**
-
-:   将量化误差视为一种正则化噪声，对VLM的可学习prompt进行极低比特量化（最低1-bit），在大幅减少存储开销（最高16倍压缩）的同时显著提升模型在未见类别上的泛化能力，QCoOp仅需0.26KB即超越大量SOTA方法。
 
 **[REVISION: Rendering Tools Enable Spatial Fidelity in Vision-Language Models](revision_rendering_tools_enable_spatial_fidelity_in_vision-language_models.md)**
 

@@ -82,7 +82,7 @@ item_total: 100
 
 **🔬 ICLR2026** · **100** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (129)](../../CVPR2026/model_compression/index.md) · [🧪 ICML2026 (100)](../../ICML2026/model_compression/index.md) · [💬 ACL2026 (59)](../../ACL2026/model_compression/index.md) · [🤖 AAAI2026 (60)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (52)](../../ICCV2025/model_compression/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (138)](../../CVPR2026/model_compression/index.md) · [🧪 ICML2026 (100)](../../ICML2026/model_compression/index.md) · [💬 ACL2026 (59)](../../ACL2026/model_compression/index.md) · [🤖 AAAI2026 (60)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (52)](../../ICCV2025/model_compression/index.md)
 
 🔥 **高频主题：** LLM ×20 · 模型压缩 ×17 · 推理 ×9 · 压缩/编码 ×8 · 知识蒸馏 ×4
 

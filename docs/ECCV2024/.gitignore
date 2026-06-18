@@ -1,5 +1,5 @@
 # Auto-generated: ECCV2024 paper notes ignore
-# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
+# 由 src/sync_notes.py 根据 TODO.md 自动生成
 
 # 默认忽略所有笔记
 *.md
@@ -8,8 +8,9 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
+!index.md
 
-# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
+# 排除已完成笔记所在的子目录
 !3d_vision/
 !ai_safety/
 !audio_speech/
@@ -50,8 +51,10 @@
 !time_series/
 !video_generation/
 !video_understanding/
+!vlm_efficiency/
+!vlm_reasoning/
 
-# 已完成笔记 (868 篇)
+# 已完成笔记 (869 篇)
 !3d_vision/3d_congealing_3d-aware_image_alignment_in_the_wild.md
 !3d_vision/3d_reconstruction_of_objects_in_hands_without_real_world_3d.md
 !3d_vision/3d_single-object_tracking_in_point_clouds_with_high_temporal_variation.md
@@ -523,7 +526,6 @@
 !image_restoration/towards_real-world_event-guided_low-light_video_enhancement_and_deblurring.md
 !image_restoration/ttt-mim_test-time_training_with_masked_image_modeling_for_denoising_distribution.md
 !image_restoration/unrolled_decomposed_unpaired_learning_for_controllable_low-light_video_enhanceme.md
-!information_retrieval/grounding_language_models_for_visual_entity_recognition.md
 !information_retrieval/multi-label_cluster_discrimination_for_visual_representation_learning.md
 !information_retrieval/onerestore_a_universal_restoration_framework_for_composite_degradation.md
 !information_retrieval/towards_open-ended_visual_recognition_with_large_language_models.md
@@ -632,7 +634,6 @@
 !multimodal_vlm/addressclip_empowering_vision-language_models_for_city-wide_image_address_locali.md
 !multimodal_vlm/artvlm_attribute_recognition_through_vision-based_prefix_language_modeling.md
 !multimodal_vlm/attention_prompting_on_image_for_large_visionlanguage_models.md
-!multimodal_vlm/bad_students_make_great_teachers_active_learning_accelerates_large-scale_visual_.md
 !multimodal_vlm/blink_multimodal_large_language_models_can_see_but_not_perceive.md
 !multimodal_vlm/brave_broadening_the_visual_encoding_of_vision-language_models.md
 !multimodal_vlm/cat_enhancing_multimodal_large_language_model_to_answer_questions_in_dynamic_aud.md
@@ -646,8 +647,7 @@
 !multimodal_vlm/flexattention_for_efficient_high-resolution_vision-language_models.md
 !multimodal_vlm/freemotion_mocap-free_human_motion_synthesis_with_multimodal_large_language_mode.md
 !multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator.md
-!multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode.md
-!multimodal_vlm/ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md
+!multimodal_vlm/grounding_language_models_for_visual_entity_recognition.md
 !multimodal_vlm/loa-trans_enhancing_visual_grounding_by_location-aware_transformers.md
 !multimodal_vlm/m_ampmaposs_a_benchmark_to_evaluate_tool-use_for_multi-step_multi-modal_tasks.md
 !multimodal_vlm/marvelovd_marrying_object_recognition_and_vision-language_models_for_robust_open.md
@@ -657,10 +657,8 @@
 !multimodal_vlm/mm1_methods_analysis_and_insights_from_multimodal_llm_pre-training.md
 !multimodal_vlm/mmbench_is_your_multi-modal_model_an_all-around_player.md
 !multimodal_vlm/myvlm_personalizing_vlms_for_userspecific_queries.md
-!multimodal_vlm/navgpt-2_unleashing_navigational_reasoning_capability_for_large_vision-language_.md
 !multimodal_vlm/nymeria_a_massive_collection_of_multimodal_egocentric_daily_motion_in_the_wild.md
 !multimodal_vlm/omniview-tuning_boosting_viewpoint_invariance_of_vision-language_pre-training_mo.md
-!multimodal_vlm/quantized_prompt_for_efficient_generalization_of_vision-language_models.md
 !multimodal_vlm/revision_rendering_tools_enable_spatial_fidelity_in_vision-language_models.md
 !multimodal_vlm/robust_calibration_of_large_vision-language_adapters.md
 !multimodal_vlm/select_and_distill_selective_dual-teacher_knowledge_transfer_for_continual_learn.md
@@ -810,6 +808,7 @@
 !segmentation/part2object_hierarchical_unsupervised_3d_instance_segmentation.md
 !segmentation/partstad_2d-to-3d_part_segmentation_task_adaptation.md
 !segmentation/point-supervised_panoptic_segmentation_via_estimating_pseudo_labels_from_learnab.md
+!segmentation/promerge_prompt_and_merge_for_unsupervised_instance_segmentation.md
 !segmentation/remamber_referring_image_segmentation_with_mamba_twister.md
 !segmentation/representing_topological_self-similarity_using_fractal_feature_maps_for_accurate.md
 !segmentation/rotary_position_embedding_for_vision_transformer.md
@@ -920,3 +919,8 @@
 !video_understanding/vamos_versatile_action_models_for_video_understanding.md
 !video_understanding/videomamba_spatio-temporal_selective_state_space_model.md
 !video_understanding/videomamba_state_space_model_for_efficient_video_understanding.md
+!vlm_efficiency/bad_students_make_great_teachers_active_learning_accelerates_large-scale_visual_.md
+!vlm_efficiency/groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode.md
+!vlm_efficiency/ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md
+!vlm_efficiency/quantized_prompt_for_efficient_generalization_of_vision-language_models.md
+!vlm_reasoning/navgpt-2_unleashing_navigational_reasoning_capability_for_large_vision-language_.md

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 信息检索/RAG论文汇总 · 23篇论文解读
+  ICML2026 信息检索/RAG论文汇总 · 22篇论文解读
 description: >-
-  23篇ICML2026的信息检索/RAG 方向论文解读，涵盖 RAG、对抗鲁棒、少样本学习、强化学习、压缩/编码、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  22篇ICML2026的信息检索/RAG 方向论文解读，涵盖 RAG、对抗鲁棒、少样本学习、强化学习、压缩/编码、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2026"
   - "信息检索/RAG"
@@ -59,17 +59,15 @@ item_list:
     t: "Understanding LoRA as Knowledge Memory: An Empirical Analysis"
   - u: "vector_linking_via_cross-model_local_isometric_consistency/"
     t: "基于跨模型局部等距一致性的向量链接"
-  - u: "very_efficient_listwise_multimodal_reranking_for_long_documents/"
-    t: "Very Efficient Listwise Multimodal Reranking for Long Documents"
-item_total: 23
+item_total: 22
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🧪 ICML2026** · **23** 篇论文解读
+**🧪 ICML2026** · **22** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (11)](../../CVPR2026/information_retrieval/index.md) · [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (31)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
 🔥 **高频主题：** RAG ×8 · 对抗鲁棒 ×2
 
@@ -160,7 +158,3 @@ item_total: 23
 **[基于跨模型局部等距一致性的向量链接](vector_linking_via_cross-model_local_isometric_consistency.md)**
 
 :   论文提出向量链接问题——在黑盒约束下通过发现两个不同编码器产生的嵌入云之间的对象对应关系。核心观察是独立训练的对比学习编码器在短距离内保持局部等距一致（相似度保留 up to 缩放因子），基于此提出多视图几何哈希自举框架，只需 15-30 个种子对即可恢复 79-90% 的重叠对象。
-
-**[Very Efficient Listwise Multimodal Reranking for Long Documents](very_efficient_listwise_multimodal_reranking_for_long_documents.md)**
-
-:   ZipRerank 同时砍掉 VLM 列表式重排的两大瓶颈——「视觉 token 序列过长」和「自回归解码逐 token 输出排名」——用 query-aware token 剪枝 + 单 logit 排序在 MMDocIR 上把 LLM 推理延迟降一个数量级，同时匹配或超越当前 SOTA 的 MM-R5。

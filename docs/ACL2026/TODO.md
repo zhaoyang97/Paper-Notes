@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ACL2026 论文笔记 TODO
 
-总计: 1364 篇 | 已完成: 1364 | 待更新: 0
+总计: 1303 篇 | 已完成: 1303 | 待更新: 0
 
 ---
 
@@ -60,7 +60,6 @@
 - [x] [aim-cot active information-driven multimodal chain-of-thought for vision-languag](llm_reasoning/aim-cot_active_information-driven_multimodal_chain-of-thought_for_vision-languag.md) | arXiv: 2509.25699
 - [x] [aj-bench benchmarking agent-as-a-judge for environment-aware evaluation](llm_evaluation/aj-bench_benchmarking_agent-as-a-judge_for_environment-aware_evaluation.md) | arXiv: 2604.18240
 - [x] [alexandria a multi-domain dialectal arabic machine translation dataset for cultu](multilingual_mt/alexandria_a_multi-domain_dialectal_arabic_machine_translation_dataset_for_cultu.md) | arXiv: 2601.13099
-- [x] [aligned multi-view scripts for universal chart-to-code generation](code_intelligence/aligned_multi-view_scripts_for_universal_chart-to-code_generation.md) | arXiv: 2604.24559
 - [x] [aligning agents via planning a benchmark for trajectory-level reward modeling](llm_alignment/aligning_agents_via_planning_a_benchmark_for_trajectory-level_reward_modeling.md) | arXiv: 2604.08178
 - [x] [aligning language models with real-time knowledge editing](knowledge_editing/aligning_language_models_with_real-time_knowledge_editing.md) | arXiv: 2508.01302
 - [x] [aligning what llms do and say towards self-consistent explanations](interpretability/aligning_what_llms_do_and_say_towards_self-consistent_explanations.md) | arXiv: 2506.07523
@@ -81,7 +80,6 @@
 - [x] [anchor llm-driven subject conditioning for text-to-image synthesis](image_generation/anchor_llm-driven_subject_conditioning_for_text-to-image_synthesis.md) | arXiv: 2404.10141
 - [x] [anchored cyclic generation a novel paradigm for long-sequence symbolic music gen](audio_speech/anchored_cyclic_generation_a_novel_paradigm_for_long-sequence_symbolic_music_gen.md) | arXiv: 2604.05343
 - [x] [anchormem anchored facts with associative contexts for building memory in large ](llm_agent/anchormem_anchored_facts_with_associative_contexts_for_building_memory_in_large_.md) | arXiv: 2604.17377
-- [x] [anchorseg language grounded query banks for reasoning segmentation](segmentation/anchorseg_language_grounded_query_banks_for_reasoning_segmentation.md) | arXiv: 2604.18562
 - [x] [anonpsy a graph-based framework for structure-preserving de-identification of ps](medical_imaging/anonpsy_a_graph-based_framework_for_structure-preserving_de-identification_of_ps.md) | arXiv: 2601.13503
 - [x] [apb-v accelerating long-video understanding via sequence-parallelism-aware appro](video_understanding/apb-v_accelerating_long-video_understanding_via_sequence-parallelism-aware_appro.md) | arXiv: 2601.21444
 - [x] [apex-mem agentic semi-structured memory with temporal reasoning for long-term co](dialogue/apex-mem_agentic_semi-structured_memory_with_temporal_reasoning_for_long-term_co.md) | arXiv: 2604.14362
@@ -94,7 +92,6 @@
 - [x] [argus policy-adaptive ad governance via evolving reinforcement with adversarial ](reinforcement_learning/argus_policy-adaptive_ad_governance_via_evolving_reinforcement_with_adversarial_.md) | arXiv: 2605.02200
 - [x] [ark answer-centric retriever tuning via kg-augmented curriculum learning](graph_learning/ark_answer-centric_retriever_tuning_via_kg-augmented_curriculum_learning.md) | arXiv: 2511.16326
 - [x] [aroma augmented reasoning over a multimodal architecture for virtual cell geneti](medical_imaging/aroma_augmented_reasoning_over_a_multimodal_architecture_for_virtual_cell_geneti.md) | arXiv: 2604.20263
-- [x] [arrowgev grounding events in video via learning the arrow of time](video_understanding/arrowgev_grounding_events_in_video_via_learning_the_arrow_of_time.md) | arXiv: 2601.06559
 - [x] [arxiv2table toward realistic benchmarking and evaluation for llm-based literatur](llm_evaluation/arxiv2table_toward_realistic_benchmarking_and_evaluation_for_llm-based_literatur.md) | arXiv: 2504.10284
 - [x] [astra adaptive semantic tree reasoning architecture for complex table question a](robotics/astra_adaptive_semantic_tree_reasoning_architecture_for_complex_table_question_a.md) | arXiv: 2604.08999
 - [x] [astra an automated framework for strategy discovery retrieval and evolution for ](llm_safety/astra_an_automated_framework_for_strategy_discovery_retrieval_and_evolution_for_.md) | arXiv: 2511.02356
@@ -111,7 +108,6 @@
 - [x] [autonomous knowledge graph exploration with adaptive breadth-depth retrieval](graph_learning/autonomous_knowledge_graph_exploration_with_adaptive_breadth-depth_retrieval.md) | arXiv: 2601.13969
 - [x] [autopkg an automated framework for dynamic e-commerce product-attribute knowledg](graph_learning/autopkg_an_automated_framework_for_dynamic_e-commerce_product-attribute_knowledg.md) | arXiv: 2604.16950
 - [x] [autoran automated hijacking of safety reasoning in large reasoning models](llm_safety/autoran_automated_hijacking_of_safety_reasoning_in_large_reasoning_models.md) | arXiv: 2505.10846
-- [x] [autoreproduce automatic ai experiment reproduction with paper lineage](llm_evaluation/autoreproduce_automatic_ai_experiment_reproduction_with_paper_lineage.md) | arXiv: 2505.20662
 - [x] [ava attentive vlm agent for mastering starcraft ii](llm_agent/ava_attentive_vlm_agent_for_mastering_starcraft_ii.md) | arXiv: 2503.05383
 - [x] [babeldoc better layout-preserving pdf translation via intermediate representatio](multilingual_mt/babeldoc_better_layout-preserving_pdf_translation_via_intermediate_representatio.md) | arXiv: 2605.10845
 - [x] [bach-v bridging abstract and concrete human-values in large language models](llm_alignment/bach-v_bridging_abstract_and_concrete_human-values_in_large_language_models.md) | arXiv: 2601.14007
@@ -123,7 +119,6 @@
 - [x] [before forgetting learn to remember revisiting foundational learning failures in](llm_safety/before_forgetting_learn_to_remember_revisiting_foundational_learning_failures_in.md) | arXiv: 2605.03759
 - [x] [benchmarker an education-inspired toolkit for highlighting flaws in multiple-cho](llm_evaluation/benchmarker_an_education-inspired_toolkit_for_highlighting_flaws_in_multiple-cho.md) | arXiv: 2602.06221
 - [x] [benchmarking and enabling efficient chinese medical retrieval via asymmetric enc](medical_imaging/benchmarking_and_enabling_efficient_chinese_medical_retrieval_via_asymmetric_enc.md) | arXiv: 2604.10937
-- [x] [benchmarking deflection and hallucination in large vision-language models](multimodal_vlm/benchmarking_deflection_and_hallucination_in_large_vision-language_models.md) | arXiv: 2604.12033
 - [x] [benchmarking testing in automated theorem proving](code_intelligence/benchmarking_testing_in_automated_theorem_proving.md) | arXiv: 2604.23698
 - [x] [better and worse with scale how contextual entrainment diverges with model size](causal_inference/better_and_worse_with_scale_how_contextual_entrainment_diverges_with_model_size.md) | arXiv: 2604.13275
 - [x] [better literary translation a multi-aspect data generation and llm training appr](llm_alignment/better_literary_translation_a_multi-aspect_data_generation_and_llm_training_appr.md) | arXiv: 2606.05924
@@ -144,7 +139,6 @@
 - [x] [beyond the crowd llm-augmented community notes for governing health misinformati](social_computing/beyond_the_crowd_llm-augmented_community_notes_for_governing_health_misinformati.md) | arXiv: 2510.11423
 - [x] [beyond the final actor modeling the dual roles of creator and editor for fine-gr](aigc_detection/beyond_the_final_actor_modeling_the_dual_roles_of_creator_and_editor_for_fine-gr.md) | arXiv: 2604.04932
 - [x] [beyond the individual virtualizing multi-disciplinary reasoning for clinical int](medical_imaging/beyond_the_individual_virtualizing_multi-disciplinary_reasoning_for_clinical_int.md) | arXiv: 2604.08927
-- [x] [beyond the leaderboard rethinking medical benchmarks for large language models](medical_imaging/beyond_the_leaderboard_rethinking_medical_benchmarks_for_large_language_models.md) | arXiv: 2508.04325
 - [x] [beyond the singular revealing the value of multiple generations in benchmark eva](llm_evaluation/beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md) | arXiv: 2502.08943
 - [x] [beyond transcription unified audio schema for perception-aware audiollms](audio_speech/beyond_transcription_unified_audio_schema_for_perception-aware_audiollms.md) | arXiv: 2604.12506
 - [x] [beyond transcripts a renewed perspective on audio chaptering](audio_speech/beyond_transcripts_a_renewed_perspective_on_audio_chaptering.md) | arXiv: 2602.08979
@@ -202,7 +196,6 @@
 - [x] [chartdiff a large-scale benchmark for comprehending pairs of charts](multimodal_vlm/chartdiff_a_large-scale_benchmark_for_comprehending_pairs_of_charts.md) | arXiv: 2603.28902
 - [x] [chathls towards systematic design automation and optimization for high-level syn](code_intelligence/chathls_towards_systematic_design_automation_and_optimization_for_high-level_syn.md) | arXiv: 2507.00642
 - [x] [chatr1 reinforcement learning for conversational reasoning and retrieval augment](information_retrieval/chatr1_reinforcement_learning_for_conversational_reasoning_and_retrieval_augment.md) | arXiv: 2510.13312
-- [x] [chemamp amplified chemistry tools via composable agents](llm_agent/chemamp_amplified_chemistry_tools_via_composable_agents.md) | arXiv: 2505.21569
 - [x] [chemvlr prioritizing reasoning in perception for chemical vision-language unders](multimodal_vlm/chemvlr_prioritizing_reasoning_in_perception_for_chemical_vision-language_unders.md) | arXiv: 2604.06685
 - [x] [childrens english reading story generation via supervised fine-tuning of compact](nlp_generation/childrens_english_reading_story_generation_via_supervised_fine-tuning_of_compact.md) | arXiv: 2605.13709
 - [x] [chipseek optimizing verilog generation via eda-integrated reinforcement learning](code_intelligence/chipseek_optimizing_verilog_generation_via_eda-integrated_reinforcement_learning.md) | arXiv: 2507.04736
@@ -253,12 +246,9 @@
 - [x] [comprehensive benchmarking of long-form speech generation in diverse scenarios](audio_speech/comprehensive_benchmarking_of_long-form_speech_generation_in_diverse_scenarios.md) | arXiv: 2605.28618
 - [x] [comprehensiveness metrics for automatic evaluation of factual recall in text gen](llm_evaluation/comprehensiveness_metrics_for_automatic_evaluation_of_factual_recall_in_text_gen.md) | arXiv: 2510.07926
 - [x] [computational narrative understanding for expressive text-to-speech](audio_speech/computational_narrative_understanding_for_expressive_text-to-speech.md) | arXiv: 2509.04072
-- [x] [confidence estimation for llms in multi-turn interactions](video_understanding/confidence_estimation_for_llms_in_multi-turn_interactions.md) | arXiv: 2601.02179
 - [x] [confident calibrated or complicit safety alignment and ideological bias in llm h](social_computing/confident_calibrated_or_complicit_safety_alignment_and_ideological_bias_in_llm_h.md) | arXiv: 2509.00673
 - [x] [conjecture and inquiry quantifying software performance requirements via interac](information_retrieval/conjecture_and_inquiry_quantifying_software_performance_requirements_via_interac.md) | arXiv: 2604.21380
-- [x] [conjunctive prompt attacks in multi-agent llm systems](llm_safety/conjunctive_prompt_attacks_in_multi-agent_llm_systems.md) | arXiv: 2604.16543
 - [x] [conlangcrafter constructing languages with a multi-hop llm pipeline](nlp_generation/conlangcrafter_constructing_languages_with_a_multi-hop_llm_pipeline.md) | arXiv: 2508.06094
-- [x] [consensus multi-agent collaboration for multimodal sensing](multimodal_vlm/consensus_multi-agent_collaboration_for_multimodal_sensing.md) | arXiv: 2601.06453
 - [x] [consistrm improving generative reward models via consistency-aware self-training](llm_alignment/consistrm_improving_generative_reward_models_via_consistency-aware_self-training.md) | arXiv: 2604.07484
 - [x] [constructing interpretable features from compositional neuron groups](interpretability/constructing_interpretable_features_from_compositional_neuron_groups.md) | arXiv: 2506.10920
 - [x] [content fuzzing for escaping information cocoons on digital social media](social_computing/content_fuzzing_for_escaping_information_cocoons_on_digital_social_media.md) | arXiv: 2604.05461
@@ -314,7 +304,6 @@
 - [x] [deliberative searcher improving llm reliability via reinforcement learning with ](reinforcement_learning/deliberative_searcher_improving_llm_reliability_via_reinforcement_learning_with_.md) | arXiv: 2507.16727
 - [x] [delta dynamic layer-aware token attention for efficient long-context reasoning](llm_reasoning/delta_dynamic_layer-aware_token_attention_for_efficient_long-context_reasoning.md) | arXiv: 2510.09883
 - [x] [demystifying data organization for enhanced llm training](llm_pretraining/demystifying_data_organization_for_enhanced_llm_training.md) | arXiv: 2605.30334
-- [x] [detecting hallucinations in speechllms at inference time using attention maps](audio_speech/detecting_hallucinations_in_speechllms_at_inference_time_using_attention_maps.md) | arXiv: 2604.19565
 - [x] [detecting rag extraction attack via dual-path runtime integrity game](llm_safety/detecting_rag_extraction_attack_via_dual-path_runtime_integrity_game.md) | arXiv: 2604.10717
 - [x] [detectrl-x towards reliable multilingual and real-world llm-generated text detec](aigc_detection/detectrl-x_towards_reliable_multilingual_and_real-world_llm-generated_text_detec.md) | arXiv: 2605.15518
 - [x] [detoxification for llm from dataset itself](llm_safety/detoxification_for_llm_from_dataset_itself.md) | arXiv: 2604.19124
@@ -335,7 +324,6 @@
 - [x] [discovering a shared logical subspace steering llm logical reasoning via alignme](llm_reasoning/discovering_a_shared_logical_subspace_steering_llm_logical_reasoning_via_alignme.md) | arXiv: 2604.19716
 - [x] [dissecting failure dynamics in large language model reasoning](llm_reasoning/dissecting_failure_dynamics_in_large_language_model_reasoning.md) | arXiv: 2604.14528
 - [x] [distilling long-cot reasoning through collaborative step-wise multi-teacher deco](llm_reasoning/distilling_long-cot_reasoning_through_collaborative_step-wise_multi-teacher_deco.md) | arXiv: 2605.02290
-- [x] [distorted or fabricated a survey on hallucination in video llms](video_understanding/distorted_or_fabricated_a_survey_on_hallucination_in_video_llms.md) | arXiv: 2604.12944
 - [x] [diversity collapse in multi-agent llm systems structural coupling and collective](multi_agent/diversity_collapse_in_multi-agent_llm_systems_structural_coupling_and_collective.md) | arXiv: 2604.18005
 - [x] [diziner disagreement-guided instruction refinement via pilot annotation simulati](nlp_understanding/diziner_disagreement-guided_instruction_refinement_via_pilot_annotation_simulati.md) | arXiv: 2604.15866
 - [x] [dmn a compositional framework for jailbreaking multimodal llms with multi-image ](multimodal_vlm/dmn_a_compositional_framework_for_jailbreaking_multimodal_llms_with_multi-image_.md) | arXiv: 2605.18915
@@ -360,10 +348,8 @@
 - [x] [dqa diagnostic question answering for it support](information_retrieval/dqa_diagnostic_question_answering_for_it_support.md) | arXiv: 2604.05350
 - [x] [dr assistant enhancing clinical diagnostic inquiry via structured diagnostic rea](medical_imaging/dr_assistant_enhancing_clinical_diagnostic_inquiry_via_structured_diagnostic_rea.md) | arXiv: 2601.13690
 - [x] [draddp a multimodal multi-party dialogue discourse parsing dataset](multimodal_vlm/draddp_a_multimodal_multi-party_dialogue_discourse_parsing_dataset.md) | arXiv: 2606.00012
-- [x] [drift transferring reasoning priors for efficient mllm fine-tuning](multimodal_vlm/drift_transferring_reasoning_priors_for_efficient_mllm_fine-tuning.md) | arXiv: 2510.15050
 - [x] [drinq evaluating conversational implicature with controlled context variation](audio_speech/drinq_evaluating_conversational_implicature_with_controlled_context_variation.md) | arXiv: 2605.24267
 - [x] [drp distilled reasoning pruning with skill-aware step decomposition for efficien](llm_reasoning/drp_distilled_reasoning_pruning_with_skill-aware_step_decomposition_for_efficien.md) | arXiv: 2505.13975
-- [x] [dual alignment between language model layers and human sentence processing](llm_nlp/dual_alignment_between_language_model_layers_and_human_sentence_processing.md) | arXiv: 2604.18563
 - [x] [dual hierarchical dialogue policy learning for legal inquisitive conversational ](dialogue/dual_hierarchical_dialogue_policy_learning_for_legal_inquisitive_conversational_.md) | arXiv: 2605.14057
 - [x] [dualfact a multimodal fact verification framework for procedural video understan](video_understanding/dualfact_a_multimodal_fact_verification_framework_for_procedural_video_understan.md) | arXiv: 2604.25584
 - [x] [dualguard dual-stream large language model watermarking defense against paraphra](llm_safety/dualguard_dual-stream_large_language_model_watermarking_defense_against_paraphra.md) | arXiv: 2512.16182
@@ -395,13 +381,11 @@
 - [x] [eliciting medical reasoning with knowledge-enhanced data synthesis a semi-superv](medical_imaging/eliciting_medical_reasoning_with_knowledge-enhanced_data_synthesis_a_semi-superv.md) | arXiv: 2604.11547
 - [x] [embracing anisotropy turning massive activations into interpretable control knob](interpretability/embracing_anisotropy_turning_massive_activations_into_interpretable_control_knob.md) | arXiv: 2603.00029
 - [x] [emcee improving multilingual capability of llms via bridging knowledge and reaso](multilingual_mt/emcee_improving_multilingual_capability_of_llms_via_bridging_knowledge_and_reaso.md) | arXiv: 2503.05846
-- [x] [empathy applicability modeling for general health queries](medical_imaging/empathy_applicability_modeling_for_general_health_queries.md) | arXiv: 2601.09696
 - [x] [enabling agents to communicate entirely in latent space](model_compression/enabling_agents_to_communicate_entirely_in_latent_space.md) | arXiv: 2511.09149
 - [x] [end-to-end optimization of llm-driven multi-agent search systems via heterogeneo](information_retrieval/end-to-end_optimization_of_llm-driven_multi-agent_search_systems_via_heterogeneo.md) | arXiv: 2506.02718
 - [x] [engibench a benchmark for evaluating large language models on engineering proble](llm_evaluation/engibench_a_benchmark_for_evaluating_large_language_models_on_engineering_proble.md) | arXiv: 2509.17677
 - [x] [enhancing bigru with a kan block for legal document classification and summariza](multilingual_mt/enhancing_bigru_with_a_kan_block_for_legal_document_classification_and_summariza.md) | arXiv: 2606.00116
 - [x] [enhancing factuality through consensus and consistency in summarization using mi](information_retrieval/enhancing_factuality_through_consensus_and_consistency_in_summarization_using_mi.md) | arXiv: 2605.29336
-- [x] [enhancing hallucination detection via future context](llm_safety/enhancing_hallucination_detection_via_future_context.md) | arXiv: 2507.20546
 - [x] [enhancing linguistic competence of language models through pre-training with lan](llm_evaluation/enhancing_linguistic_competence_of_language_models_through_pre-training_with_lan.md) | arXiv: 2601.03448
 - [x] [enhancing llm-based search agents via contribution weighted group relative polic](information_retrieval/enhancing_llm-based_search_agents_via_contribution_weighted_group_relative_polic.md) | arXiv: 2604.14267
 - [x] [enhancing multilingual rag systems with debiased language preference-guided quer](information_retrieval/enhancing_multilingual_rag_systems_with_debiased_language_preference-guided_quer.md) | arXiv: 2601.02956
@@ -411,7 +395,6 @@
 - [x] [estimating the black-box llm uncertainty with distribution-aligned adversarial d](social_computing/estimating_the_black-box_llm_uncertainty_with_distribution-aligned_adversarial_d.md) | arXiv: 2605.05777
 - [x] [ethicmind a risk-aware framework for ethical-emotional alignment in multi-turn d](dialogue/ethicmind_a_risk-aware_framework_for_ethical-emotional_alignment_in_multi-turn_d.md) | arXiv: 2604.09265
 - [x] [etr entropy trend reward for efficient chain-of-thought reasoning](llm_reasoning/etr_entropy_trend_reward_for_efficient_chain-of-thought_reasoning.md) | arXiv: 2604.05355
-- [x] [etracer towards traceable text generation via claim-level grounding](medical_imaging/etracer_towards_traceable_text_generation_via_claim-level_grounding.md) | arXiv: 2601.03669
 - [x] [evaluating answer leakage robustness of llm tutors against adversarial student a](llm_safety/evaluating_answer_leakage_robustness_of_llm_tutors_against_adversarial_student_a.md) | arXiv: 2604.18660
 - [x] [evaluating counterfactual strategic reasoning in large language models](causal_inference/evaluating_counterfactual_strategic_reasoning_in_large_language_models.md) | arXiv: 2603.19167
 - [x] [evaluating customized vs generalist transformer-based models for legal contract ](llm_nlp/evaluating_customized_vs_generalist_transformer-based_models_for_legal_contract_.md) | arXiv: 2508.07849
@@ -435,7 +418,6 @@
 - [x] [expect the unexpected testing the surprisal of salient entities](llm_nlp/expect_the_unexpected_testing_the_surprisal_of_salient_entities.md) | arXiv: 2604.10724
 - [x] [experiments or outcomes probing scientific feasibility in large language models](interpretability/experiments_or_outcomes_probing_scientific_feasibility_in_large_language_models.md) | arXiv: 2604.18786
 - [x] [explain the flag contextualizing hate speech beyond censorship](social_computing/explain_the_flag_contextualizing_hate_speech_beyond_censorship.md) | arXiv: 2604.14970
-- [x] [explicit trait inference for multi-agent coordination](llm_reasoning/explicit_trait_inference_for_multi-agent_coordination.md) | arXiv: 2604.19278
 - [x] [exploration of perceptual speech features for clinical decision-support in menta](medical_imaging/exploration_of_perceptual_speech_features_for_clinical_decision-support_in_menta.md) | arXiv: 2605.24678
 - [x] [exploring concreteness through a figurative lens](nlp_understanding/exploring_concreteness_through_a_figurative_lens.md) | arXiv: 2604.18296
 - [x] [exploring continual fine-tuning for enhancing language ability in large language](multilingual_mt/exploring_continual_fine-tuning_for_enhancing_language_ability_in_large_language.md) | arXiv: 2410.16006
@@ -448,9 +430,7 @@
 - [x] [failure modes in multi-hop qa the weakest link effect and the recognition bottle](llm_reasoning/failure_modes_in_multi-hop_qa_the_weakest_link_effect_and_the_recognition_bottle.md) | arXiv: 2601.12499
 - [x] [fairqe multi-agent framework for mitigating gender bias in translation quality e](multilingual_mt/fairqe_multi-agent_framework_for_mitigating_gender_bias_in_translation_quality_e.md) | arXiv: 2604.21420
 - [x] [faith factuality alignment through integrating trustworthiness and honestness](llm_safety/faith_factuality_alignment_through_integrating_trustworthiness_and_honestness.md) | arXiv: 2604.10189
-- [x] [faithful-first reasoning planning and acting for multimodal llms](multimodal_vlm/faithful-first_reasoning_planning_and_acting_for_multimodal_llms.md) | arXiv: 2511.08409
 - [x] [faithfulness vs safety evaluating llm behavior under counterfactual medical evid](medical_imaging/faithfulness_vs_safety_evaluating_llm_behavior_under_counterfactual_medical_evid.md) | arXiv: 2601.11886
-- [x] [faithlens detecting and explaining faithfulness hallucination](llm_safety/faithlens_detecting_and_explaining_faithfulness_hallucination.md) | arXiv: 2512.20182
 - [x] [fama failure-aware meta-agentic framework for open-source llms in interactive to](llm_agent/fama_failure-aware_meta-agentic_framework_for_open-source_llms_in_interactive_to.md) | arXiv: 2604.25135
 - [x] [fast-mia efficient and scalable membership inference for llms](llm_safety/fast-mia_efficient_and_scalable_membership_inference_for_llms.md) | arXiv: 2510.23074
 - [x] [fastdiss few-step match many-step diffusion language model on sequence-to-sequen](llm_nlp/fastdiss_few-step_match_many-step_diffusion_language_model_on_sequence-to-sequen.md) | arXiv: 2604.05551
@@ -474,8 +454,6 @@
 - [x] [flattery in motion benchmarking and analyzing sycophancy in video-llms](interpretability/flattery_in_motion_benchmarking_and_analyzing_sycophancy_in_video-llms.md) | arXiv: 2506.07180
 - [x] [flexguard continuous risk scoring for strictness-adaptive llm content moderation](llm_safety/flexguard_continuous_risk_scoring_for_strictness-adaptive_llm_content_moderation.md) | arXiv: 2602.23636
 - [x] [follow the flow on information flow across textual tokens in text-to-image model](interpretability/follow_the_flow_on_information_flow_across_textual_tokens_in_text-to-image_model.md) | arXiv: 2504.01137
-- [x] [foresight optimization for strategic reasoning in large language models](llm_nlp/foresight_optimization_for_strategic_reasoning_in_large_language_models.md) | arXiv: 2604.13592
-- [x] [forest before trees latent superposition for efficient visual reasoning](multimodal_vlm/forest_before_trees_latent_superposition_for_efficient_visual_reasoning.md) | arXiv: 2601.06803
 - [x] [forever forgetting curve-inspired memory replay for language model continual lea](llm_pretraining/forever_forgetting_curve-inspired_memory_replay_for_language_model_continual_lea.md) | arXiv: 2601.03938
 - [x] [forget what matters keep the rest selective unlearning of informative tokens](llm_safety/forget_what_matters_keep_the_rest_selective_unlearning_of_informative_tokens.md) | arXiv: 2604.17785
 - [x] [forgotten words benchmarking neobert for dementia detection in low-resource conv](medical_imaging/forgotten_words_benchmarking_neobert_for_dementia_detection_in_low-resource_conv.md) | arXiv: 2605.26007
@@ -487,7 +465,6 @@
 - [x] [fregelogic at semeval 2026 task 11 a hybrid neuro-symbolic architecture for cont](llm_agent/fregelogic_at_semeval_2026_task_11_a_hybrid_neuro-symbolic_architecture_for_cont.md) | arXiv: 2604.18328
 - [x] [from answers to arguments toward trustworthy clinical diagnostic reasoning with ](medical_imaging/from_answers_to_arguments_toward_trustworthy_clinical_diagnostic_reasoning_with_.md) | arXiv: 2604.11137
 - [x] [from ar to diffusion efficiently adapting large language models with strictly ca](image_generation/from_ar_to_diffusion_efficiently_adapting_large_language_models_with_strictly_ca.md) | arXiv: 2605.27387
-- [x] [from charts to code a hierarchical benchmark for multimodal models](code_intelligence/from_charts_to_code_a_hierarchical_benchmark_for_multimodal_models.md) | arXiv: 2510.17932
 - [x] [from documents to segments a contextual reformulation for topic assignment](interpretability/from_documents_to_segments_a_contextual_reformulation_for_topic_assignment.md) | arXiv: 2605.17714
 - [x] [from domains to instances dual-granularity data synthesis for llm unlearning](llm_safety/from_domains_to_instances_dual-granularity_data_synthesis_for_llm_unlearning.md) | arXiv: 2601.04278
 - [x] [from experience to skill multi-agent generative engine optimization via reusable](multi_agent/from_experience_to_skill_multi-agent_generative_engine_optimization_via_reusable.md) | arXiv: 2604.19516
@@ -522,13 +499,11 @@
 - [x] [gated tree cross-attention for checkpoint-compatible syntax injection in decoder](llm_evaluation/gated_tree_cross-attention_for_checkpoint-compatible_syntax_injection_in_decoder.md) | arXiv: 2602.15846
 - [x] [generalizable prompt tuning for audio-language models via semantic expansion](audio_speech/generalizable_prompt_tuning_for_audio-language_models_via_semantic_expansion.md) | arXiv: 2601.20867
 - [x] [generating attribution reports for manipulated facial images a dataset and basel](llm_safety/generating_attribution_reports_for_manipulated_facial_images_a_dataset_and_basel.md) | arXiv: 2412.19685
-- [x] [generating effective cot traces for mitigating causal hallucination](llm_safety/generating_effective_cot_traces_for_mitigating_causal_hallucination.md) | arXiv: 2604.12748
 - [x] [generative floor plan design with llms via reinforcement learning with verifiabl](llm_nlp/generative_floor_plan_design_with_llms_via_reinforcement_learning_with_verifiabl.md) | arXiv: 2605.14117
 - [x] [generative interfaces for language models](llm_nlp/generative_interfaces_for_language_models.md) | arXiv: 2508.19227
 - [x] [genesisfunc multi-agent data generation for accurate and generalizable function-](dialogue/genesisfunc_multi-agent_data_generation_for_accurate_and_generalizable_function-.md) | arXiv: 2605.28835
 - [x] [geoarena evaluating open-world geographic reasoning in large vision-language mod](multimodal_vlm/geoarena_evaluating_open-world_geographic_reasoning_in_large_vision-language_mod.md) | arXiv: 2509.04334
 - [x] [geora geometry-aware low-rank adaptation for rlvr](reinforcement_learning/geora_geometry-aware_low-rank_adaptation_for_rlvr.md) | arXiv: 2601.09361
-- [x] [georc a benchmark for geolocation reasoning chains](multimodal_vlm/georc_a_benchmark_for_geolocation_reasoning_chains.md) | arXiv: 2601.21278
 - [x] [gift guided fine-tuning and transfer for enhancing instruction-tuned language mo](information_retrieval/gift_guided_fine-tuning_and_transfer_for_enhancing_instruction-tuned_language_mo.md) | arXiv: 2605.01256
 - [x] [gigacheck detecting llm-generated content via object-centric span localization](aigc_detection/gigacheck_detecting_llm-generated_content_via_object-centric_span_localization.md) | arXiv: 2410.23728
 - [x] [gknow measuring the entanglement of gender bias and factual gender](social_computing/gknow_measuring_the_entanglement_of_gender_bias_and_factual_gender.md) | arXiv: 2605.12299
@@ -549,7 +524,6 @@
 - [x] [hachimi scalable and controllable student persona generation via orchestrated ag](multi_agent/hachimi_scalable_and_controllable_student_persona_generation_via_orchestrated_ag.md) | arXiv: 2603.04855
 - [x] [hag hierarchical demographic tree-based agent generation for topic-adaptive simu](llm_agent/hag_hierarchical_demographic_tree-based_agent_generation_for_topic-adaptive_simu.md) | arXiv: 2601.05656
 - [x] [halluaudio a comprehensive benchmark for hallucination detection in large audio-](audio_speech/halluaudio_a_comprehensive_benchmark_for_hallucination_detection_in_large_audio-.md) | arXiv: 2604.19300
-- [x] [hallucination detection in llms with topological divergence on attention graphs](llm_safety/hallucination_detection_in_llms_with_topological_divergence_on_attention_graphs.md) | arXiv: 2504.10063
 - [x] [hard to be heard phoneme-level asr analysis of phonologically complex low-resour](audio_speech/hard_to_be_heard_phoneme-level_asr_analysis_of_phonologically_complex_low-resour.md) | arXiv: 2604.18204
 - [x] [hard to read easy to jailbreak how visual degradation bypasses mllm safety align](llm_safety/hard_to_read_easy_to_jailbreak_how_visual_degradation_bypasses_mllm_safety_align.md) | arXiv: 2605.07250
 - [x] [harpo hierarchical agentic reasoning for user-aligned conversational recommendat](recommender/harpo_hierarchical_agentic_reasoning_for_user-aligned_conversational_recommendat.md) | arXiv: 2604.10048
@@ -585,7 +559,6 @@
 - [x] [howtobench holistic evaluation for llms capability in human-level writing using ](llm_evaluation/howtobench_holistic_evaluation_for_llms_capability_in_human-level_writing_using_.md) | arXiv: 2604.19071
 - [x] [hsuga llm-enhanced recommendation with hierarchical semantic understanding and g](recommender/hsuga_llm-enhanced_recommendation_with_hierarchical_semantic_understanding_and_g.md) | arXiv: 2605.11662
 - [x] [humanllm benchmarking and improving llm anthropomorphism via human cognitive pat](llm_evaluation/humanllm_benchmarking_and_improving_llm_anthropomorphism_via_human_cognitive_pat.md) | arXiv: 2601.10198
-- [x] [hybrid autoregressive-diffusion model for real-time sign language production](human_understanding/hybrid_autoregressive-diffusion_model_for_real-time_sign_language_production.md) | arXiv: 2507.09105
 - [x] [hybrid-vector retrieval for visually rich documents combining single-vector effi](information_retrieval/hybrid-vector_retrieval_for_visually_rich_documents_combining_single-vector_effi.md) | arXiv: 2510.22215
 - [x] [hypehr hyperbolic modeling of electronic health records for efficient question a](medical_imaging/hypehr_hyperbolic_modeling_of_electronic_health_records_for_efficient_question_a.md) | arXiv: 2604.21027
 - [x] [hypermem hypergraph memory for long-term conversations](information_retrieval/hypermem_hypergraph_memory_for_long-term_conversations.md) | arXiv: 2604.08256
@@ -649,7 +622,6 @@
 - [x] [know thy enemy securing llms against prompt injection via diverse data synthesis](llm_safety/know_thy_enemy_securing_llms_against_prompt_injection_via_diverse_data_synthesis.md) | arXiv: 2601.04666
 - [x] [knowledge poisoning attacks on medical multi-modal retrieval-augmented generatio](medical_imaging/knowledge_poisoning_attacks_on_medical_multi-modal_retrieval-augmented_generatio.md) | arXiv: 2605.10253
 - [x] [knowledge vector of logical reasoning in large language models](interpretability/knowledge_vector_of_logical_reasoning_in_large_language_models.md) | arXiv: 2604.23877
-- [x] [knowledge-driven augmentation and retrieval for integrative temporal adaptation](medical_imaging/knowledge-driven_augmentation_and_retrieval_for_integrative_temporal_adaptation.md) | arXiv: 2604.22098
 - [x] [knowrl exploring knowledgeable reinforcement learning for factuality](reinforcement_learning/knowrl_exploring_knowledgeable_reinforcement_learning_for_factuality.md) | arXiv: 2506.19807
 - [x] [koco conditioning language model pre-training on knowledge coordinates](llm_pretraining/koco_conditioning_language_model_pre-training_on_knowledge_coordinates.md) | arXiv: 2604.12397
 - [x] [koco-bench can large language models leverage domain knowledge in software devel](code_intelligence/koco-bench_can_large_language_models_leverage_domain_knowledge_in_software_devel.md) | arXiv: 2601.13240
@@ -659,7 +631,6 @@
 - [x] [language models dont know what you want evaluating personalization in deep resea](llm_evaluation/language_models_dont_know_what_you_want_evaluating_personalization_in_deep_resea.md) | arXiv: 2603.16120
 - [x] [language models entangle language and culture](multilingual_mt/language_models_entangle_language_and_culture.md) | arXiv: 2601.15337
 - [x] [language on demand knowledge at core composing llms with encoder-decoder transla](multilingual_mt/language_on_demand_knowledge_at_core_composing_llms_with_encoder-decoder_transla.md) | arXiv: 2603.17512
-- [x] [language reconstruction with brain predictive coding from fmri data](medical_imaging/language_reconstruction_with_brain_predictive_coding_from_fmri_data.md) | arXiv: 2405.11597
 - [x] [language-coupled reinforcement learning for multilingual retrieval-augmented gen](information_retrieval/language-coupled_reinforcement_learning_for_multilingual_retrieval-augmented_gen.md) | arXiv: 2601.14896
 - [x] [laobench a large-scale multidimensional lao benchmark for large language models](multilingual_mt/laobench_a_large-scale_multidimensional_lao_benchmark_for_large_language_models.md) | arXiv: 2511.11334
 - [x] [large language models are bad dice players llms struggle to generate random numb](llm_evaluation/large_language_models_are_bad_dice_players_llms_struggle_to_generate_random_numb.md) | arXiv: 2601.05414
@@ -670,7 +641,6 @@
 - [x] [leakdojo decoding the leakage threats of rag systems](llm_safety/leakdojo_decoding_the_leakage_threats_of_rag_systems.md) | arXiv: 2605.05818
 - [x] [leap layer-wise exit-aware pretraining for efficient transformer inference](model_compression/leap_layer-wise_exit-aware_pretraining_for_efficient_transformer_inference.md) | arXiv: 2605.01058
 - [x] [learnalign data selection for llm reinforcement learning with improved gradient ](reinforcement_learning/learnalign_data_selection_for_llm_reinforcement_learning_with_improved_gradient_.md) | arXiv: 2506.11480
-- [x] [learning adaptive parallel execution for efficient code localization](others/learning_adaptive_parallel_execution_for_efficient_code_localization.md) | arXiv: 2601.19568
 - [x] [learning dynamic representations and policies from multimodal clinical time-seri](medical_imaging/learning_dynamic_representations_and_policies_from_multimodal_clinical_time-seri.md) | arXiv: 2604.21235
 - [x] [learning invariant modality representation for robust multimodal learning from a](causal_inference/learning_invariant_modality_representation_for_robust_multimodal_learning_from_a.md) | arXiv: 2604.18460
 - [x] [learning more from less exploiting counterfactuals for data-efficient chart unde](multimodal_vlm/learning_more_from_less_exploiting_counterfactuals_for_data-efficient_chart_unde.md) | arXiv: 2605.10855
@@ -699,7 +669,6 @@
 - [x] [lizard an efficient linearization framework for large language models](llm_efficiency/lizard_an_efficient_linearization_framework_for_large_language_models.md) | arXiv: 2507.09025
 - [x] [llm prompt duel optimizer efficient label-free prompt optimization](model_compression/llm_prompt_duel_optimizer_efficient_label-free_prompt_optimization.md) | arXiv: 2510.13907
 - [x] [llm reasoning as trajectories step-specific representation geometry and correctn](llm_reasoning/llm_reasoning_as_trajectories_step-specific_representation_geometry_and_correctn.md) | arXiv: 2604.05655
-- [x] [llm-based human-agent collaboration and interaction systems a survey](llm_agent/llm-based_human-agent_collaboration_and_interaction_systems_a_survey.md) | arXiv: 2505.00753
 - [x] [llm-guided semantic bootstrapping for interpretable text classification with tse](nlp_understanding/llm-guided_semantic_bootstrapping_for_interpretable_text_classification_with_tse.md) | arXiv: 2604.12223
 - [x] [llm-mc-affect llm-based monte carlo modeling of affective trajectories and laten](audio_speech/llm-mc-affect_llm-based_monte_carlo_modeling_of_affective_trajectories_and_laten.md) | arXiv: 2601.03645
 - [x] [llm-va resolving the jailbreak-overrefusal trade-off via vector alignment](llm_safety/llm-va_resolving_the_jailbreak-overrefusal_trade-off_via_vector_alignment.md) | arXiv: 2601.19487
@@ -721,7 +690,6 @@
 - [x] [losses that cook topological optimal transport for structured recipe generation](nlp_generation/losses_that_cook_topological_optimal_transport_for_structured_recipe_generation.md) | arXiv: 2601.02531
 - [x] [lost in diffusion uncovering hallucination patterns and failure modes in diffusi](llm_safety/lost_in_diffusion_uncovering_hallucination_patterns_and_failure_modes_in_diffusi.md) | arXiv: 2604.10556
 - [x] [lost in the prompt order revealing the limitations of causal attention in langua](nlp_understanding/lost_in_the_prompt_order_revealing_the_limitations_of_causal_attention_in_langua.md) | arXiv: 2601.14152
-- [x] [lost in translation do lvlm judges generalize across languages](multilingual_mt/lost_in_translation_do_lvlm_judges_generalize_across_languages.md) | arXiv: 2604.19405
 - [x] [lost in translation exploring the shift in grammatical gender from latin to occi](interpretability/lost_in_translation_exploring_the_shift_in_grammatical_gender_from_latin_to_occi.md) | arXiv: 2605.09156
 - [x] [lovec reinforcement learning for better verbalized confidence in long-form gener](reinforcement_learning/lovec_reinforcement_learning_for_better_verbalized_confidence_in_long-form_gener.md) | arXiv: 2505.23912
 - [x] [lpo towards accurate gui agent interaction via location preference optimization](llm_agent/lpo_towards_accurate_gui_agent_interaction_via_location_preference_optimization.md) | arXiv: 2506.09373
@@ -736,7 +704,6 @@
 - [x] [making mllms blind adversarial smuggling attacks in mllm content moderation](llm_safety/making_mllms_blind_adversarial_smuggling_attacks_in_mllm_content_moderation.md) | arXiv: 2604.06950
 - [x] [mango multi-agent web navigation via global-view optimization](robotics/mango_multi-agent_web_navigation_via_global-view_optimization.md) | arXiv: 2604.18779
 - [x] [march evaluating the intersection of ambiguity interpretation and multi-hop infe](llm_evaluation/march_evaluating_the_intersection_of_ambiguity_interpretation_and_multi-hop_infe.md) | arXiv: 2509.22750
-- [x] [march multi-agent radiology clinical hierarchy for ct report generation](medical_imaging/march_multi-agent_radiology_clinical_hierarchy_for_ct_report_generation.md) | arXiv: 2604.16175
 - [x] [marquis a three-stage pipeline for video retrieval-augmented generation](audio_speech/marquis_a_three-stage_pipeline_for_video_retrieval-augmented_generation.md) | arXiv: 2605.17640
 - [x] [mars2 scaling multi agent tree search via reinforcement learning for code genera](code_intelligence/mars2_scaling_multi_agent_tree_search_via_reinforcement_learning_for_code_genera.md) | arXiv: 2604.14564
 - [x] [mars2 scaling multi-agent tree search via reinforcement learning for code genera](code_intelligence/mars2_scaling_multi-agent_tree_search_via_reinforcement_learning_for_code_genera.md) | arXiv: 2604.14564
@@ -756,7 +723,6 @@
 - [x] [meashalu mitigation of scientific measurement hallucinations for large language ](llm_safety/meashalu_mitigation_of_scientific_measurement_hallucinations_for_large_language_.md) | arXiv: 2604.16929
 - [x] [measuring what matters assessing therapeutic principles in mental-health convers](medical_imaging/measuring_what_matters_assessing_therapeutic_principles_in_mental-health_convers.md) | arXiv: 2604.05795
 - [x] [measuring what matters beyond text evaluating multimodal summaries by quality al](multimodal_vlm/measuring_what_matters_beyond_text_evaluating_multimodal_summaries_by_quality_al.md) | arXiv: 2605.11693
-- [x] [mechanisms of prompt-induced hallucination in vision-language models](interpretability/mechanisms_of_prompt-induced_hallucination_in_vision-language_models.md) | arXiv: 2601.05201
 - [x] [mechanistic interpretability of large-scale counting in llms through a system-2 ](interpretability/mechanistic_interpretability_of_large-scale_counting_in_llms_through_a_system-2_.md) | arXiv: 2601.02989
 - [x] [medfact benchmarking the fact-checking capabilities of large language models on ](medical_imaging/medfact_benchmarking_the_fact-checking_capabilities_of_large_language_models_on_.md) | arXiv: 2509.12440
 - [x] [medlaybench-v a large-scale benchmark for expert-lay semantic alignment in medic](multimodal_vlm/medlaybench-v_a_large-scale_benchmark_for_expert-lay_semantic_alignment_in_medic.md) | arXiv: 2604.05738
@@ -791,7 +757,6 @@
 - [x] [mm-bizrag rethinking multimodal retrieval-augmented generation for general purpo](information_retrieval/mm-bizrag_rethinking_multimodal_retrieval-augmented_generation_for_general_purpo.md) | arXiv: 2606.04231
 - [x] [mm-judgebias a benchmark for evaluating compositional biases in mllm-as-a-judge](llm_evaluation/mm-judgebias_a_benchmark_for_evaluating_compositional_biases_in_mllm-as-a-judge.md) | arXiv: 2604.18164
 - [x] [mm-stancedet retrieval-augmented multi-modal multi-agent stance detection](social_computing/mm-stancedet_retrieval-augmented_multi-modal_multi-agent_stance_detection.md) | arXiv: 2604.27934
-- [x] [mmerror a benchmark for erroneous reasoning in vision-language models](multimodal_vlm/mmerror_a_benchmark_for_erroneous_reasoning_in_vision-language_models.md) | arXiv: 2601.03331
 - [x] [model internal sleuthing finding lexical identity and inflectional features in m](interpretability/model_internal_sleuthing_finding_lexical_identity_and_inflectional_features_in_m.md) | arXiv: 2506.02132
 - [x] [model-agnostic meta learning for class imbalance adaptation](llm_nlp/model-agnostic_meta_learning_for_class_imbalance_adaptation.md) | arXiv: 2604.18759
 - [x] [modeling llm unlearning as an asymmetric two-task learning problem](llm_safety/modeling_llm_unlearning_as_an_asymmetric_two-task_learning_problem.md) | arXiv: 2604.14808
@@ -820,7 +785,6 @@
 - [x] [multi-view attention multiple-instance learning enhanced by llm reasoning for co](medical_imaging/multi-view_attention_multiple-instance_learning_enhanced_by_llm_reasoning_for_co.md) | arXiv: 2509.17292
 - [x] [multidx a multi-source knowledge integration framework towards diagnostic reason](medical_imaging/multidx_a_multi-source_knowledge_integration_framework_towards_diagnostic_reason.md) | arXiv: 2604.24186
 - [x] [multifiletest a multi-file-level llm unit test generation benchmark and impact o](llm_evaluation/multifiletest_a_multi-file-level_llm_unit_test_generation_benchmark_and_impact_o.md) | arXiv: 2502.06556
-- [x] [multihaludet multilingual hallucination detection via llm hidden state probing](multilingual_mt/multihaludet_multilingual_hallucination_detection_via_llm_hidden_state_probing.md) | arXiv: 2605.24919
 - [x] [multilingual language models encode script over linguistic structure](multilingual_mt/multilingual_language_models_encode_script_over_linguistic_structure.md) | arXiv: 2604.05090
 - [x] [multilingual steering by design multilingual sparse autoencoders and principled ](multilingual_mt/multilingual_steering_by_design_multilingual_sparse_autoencoders_and_principled_.md) | arXiv: 2605.23036
 - [x] [multimodal in-context learning for asr of low-resource languages](audio_speech/multimodal_in-context_learning_for_asr_of_low-resource_languages.md) | arXiv: 2601.05707
@@ -839,13 +803,11 @@
 - [x] [not all animals are equal metaphorical framing through source domains and semant](llm_nlp/not_all_animals_are_equal_metaphorical_framing_through_source_domains_and_semant.md) | arXiv: 2604.20454
 - [x] [not all directions matter towards structured and task-aware low-rank model adapt](model_compression/not_all_directions_matter_towards_structured_and_task-aware_low-rank_model_adapt.md) | arXiv: 2603.14228
 - [x] [novbench evaluating large language models on academic paper novelty assessment](llm_evaluation/novbench_evaluating_large_language_models_on_academic_paper_novelty_assessment.md) | arXiv: 2604.11543
-- [x] [nsf-scify mining the nsf awards database for scientific claims](video_understanding/nsf-scify_mining_the_nsf_awards_database_for_scientific_claims.md) | arXiv: 2503.08600
 - [x] [nürnberg nlp at psydefdetect multi-axis voter ensembles for psychological defenc](llm_nlp/nürnberg_nlp_at_psydefdetect_multi-axis_voter_ensembles_for_psychological_defenc.md) | arXiv: 2605.07606
 - [x] [ocr-memory optical context retrieval for long-horizon agent memory](llm_agent/ocr-memory_optical_context_retrieval_for_long-horizon_agent_memory.md) | arXiv: 2604.26622
 - [x] [octotools an agentic framework with extensible tools for complex reasoning](llm_agent/octotools_an_agentic_framework_with_extensible_tools_for_complex_reasoning.md) | arXiv: 2502.11271
 - [x] [odtqa-fore an open-domain tabular question answering dataset for future data for](time_series/odtqa-fore_an_open-domain_tabular_question_answering_dataset_for_future_data_for.md) | arXiv: 2606.02433
 - [x] [odutqa-mdc a task for open-domain underspecified tabular qa with multi-turn dial](dialogue/odutqa-mdc_a_task_for_open-domain_underspecified_tabular_qa_with_multi-turn_dial.md) | arXiv: 2604.10159
-- [x] [omhbench benchmarking balanced and grounded omni-modal multi-hop reasoning](multimodal_vlm/omhbench_benchmarking_balanced_and_grounded_omni-modal_multi-hop_reasoning.md) | arXiv: 2508.16198
 - [x] [omibench benchmarking olympiad-level multi-image reasoning in large vision-langu](multimodal_vlm/omibench_benchmarking_olympiad-level_multi-image_reasoning_in_large_vision-langu.md) | arXiv: 2604.20806
 - [x] [omni-embed-audio leveraging multimodal llms for robust audio-text retrieval](audio_speech/omni-embed-audio_leveraging_multimodal_llms_for_robust_audio-text_retrieval.md) | arXiv: 2604.18360
 - [x] [omnicompliance-100k a multi-domain rule-grounded real-world safety compliance da](ai_safety/omnicompliance-100k_a_multi-domain_rule-grounded_real-world_safety_compliance_da.md) | arXiv: 2603.13933
@@ -880,7 +842,6 @@
 - [x] [pexa parallel exploration agent for complex text-to-sql](code_intelligence/pexa_parallel_exploration_agent_for_complex_text-to-sql.md) | arXiv: 2604.22934
 - [x] [phase transitions in affective meaning divergence the hidden drift before the br](social_computing/phase_transitions_in_affective_meaning_divergence_the_hidden_drift_before_the_br.md) | arXiv: 2605.09043
 - [x] [piarena a platform for prompt injection evaluation](llm_safety/piarena_a_platform_for_prompt_injection_evaluation.md) | arXiv: 2604.08499
-- [x] [pl-mteb polish massive text embedding benchmark](multilingual_mt/pl-mteb_polish_massive_text_embedding_benchmark.md) | arXiv: 2405.10138
 - [x] [planning beyond text graph-based reasoning for complex narrative generation](nlp_generation/planning_beyond_text_graph-based_reasoning_for_complex_narrative_generation.md) | arXiv: 2604.21253
 - [x] [planrag-audio planning and retrieval augmented generation for long-form audio un](audio_speech/planrag-audio_planning_and_retrieval_augmented_generation_for_long-form_audio_un.md) | arXiv: 2605.20414
 - [x] [please refuse to answer me mitigating over-refusal in large language models via ](llm_safety/please_refuse_to_answer_me_mitigating_over-refusal_in_large_language_models_via_.md) | arXiv: 2604.17132
@@ -905,20 +866,15 @@
 - [x] [principlismqa a philosophy-grounded approach to assessing llm-human clinical med](medical_imaging/principlismqa_a_philosophy-grounded_approach_to_assessing_llm-human_clinical_med.md) | arXiv: 2508.05132
 - [x] [prism self-pruning intrinsic selection method for training-free multimodal data ](medical_imaging/prism_self-pruning_intrinsic_selection_method_for_training-free_multimodal_data_.md) | arXiv: 2502.12119
 - [x] [privacy collapse benign fine-tuning can break contextual privacy in language mod](llm_safety/privacy_collapse_benign_fine-tuning_can_break_contextual_privacy_in_language_mod.md) | arXiv: 2601.15220
-- [x] [privacy-preserving prosody representation learning](ai_safety/privacy-preserving_prosody_representation_learning.md) | arXiv: 2606.00407
 - [x] [privacy-r1 privacy-aware multi-llm agent collaboration via reinforcement learnin](llm_safety/privacy-r1_privacy-aware_multi-llm_agent_collaboration_via_reinforcement_learnin.md) | arXiv: 2510.16054
 - [x] [proactor timing-aware reinforcement learning for proactive task scheduling agent](model_compression/proactor_timing-aware_reinforcement_learning_for_proactive_task_scheduling_agent.md) | arXiv: 2605.24900
-- [x] [probing for reading times](video_understanding/probing_for_reading_times.md) | arXiv: 2604.18712
 - [x] [probing multimodal large language models on cognitive biases in chinese short-vi](social_computing/probing_multimodal_large_language_models_on_cognitive_biases_in_chinese_short-vi.md) | arXiv: 2601.06600
 - [x] [process reward models meet planning generating precise and scalable datasets for](llm_reasoning/process_reward_models_meet_planning_generating_precise_and_scalable_datasets_for.md) | arXiv: 2604.17957
-- [x] [progresslm towards progress reasoning in vision-language models](multimodal_vlm/progresslm_towards_progress_reasoning_in_vision-language_models.md) | arXiv: 2601.15224
 - [x] [promedical hierarchical fine-grained criteria modeling for medical llm alignment](medical_imaging/promedical_hierarchical_fine-grained_criteria_modeling_for_medical_llm_alignment.md) | arXiv: 2604.08326
 - [x] [prompt-level distillation a non-parametric alternative to model fine-tuning for ](social_computing/prompt-level_distillation_a_non-parametric_alternative_to_model_fine-tuning_for_.md) | arXiv: 2602.21103
 - [x] [proper agents proactivity driven personalized agents for advancing knowledge gap](llm_agent/proper_agents_proactivity_driven_personalized_agents_for_advancing_knowledge_gap.md) | arXiv: 2601.09926
 - [x] [prosody as supervision bridging the non-verbal--verbal for multilingual speech e](multilingual_mt/prosody_as_supervision_bridging_the_non-verbal--verbal_for_multilingual_speech_e.md) | arXiv: 2604.17647
-- [x] [protea offline evaluation and iterative refinement for multi-agent llm workflows](llm_agent/protea_offline_evaluation_and_iterative_refinement_for_multi-agent_llm_workflows.md) | arXiv: 2605.18032
 - [x] [protecting bystander privacy via selective hearing in audio llms](audio_speech/protecting_bystander_privacy_via_selective_hearing_in_audio_llms.md) | arXiv: 2512.06380
-- [x] [protocycle reflective tool-augmented planning for text-guided protein design](medical_imaging/protocycle_reflective_tool-augmented_planning_for_text-guided_protein_design.md) | arXiv: 2604.16896
 - [x] [proxyprompt securing system prompts against prompt extraction attacks](llm_safety/proxyprompt_securing_system_prompts_against_prompt_extraction_attacks.md) | arXiv: 2505.11459
 - [x] [pseudo2real task arithmetic for pseudo-label correction in automatic speech reco](audio_speech/pseudo2real_task_arithmetic_for_pseudo-label_correction_in_automatic_speech_reco.md) | arXiv: 2510.08047
 - [x] [pskeeuca 2026 fine-tuning large language models with synthetic data augmentation](social_computing/pskeeuca_2026_fine-tuning_large_language_models_with_synthetic_data_augmentation.md) | arXiv: 2605.07201
@@ -930,7 +886,6 @@
 - [x] [quality over clicks intrinsic quality-driven iterative reinforcement learning fo](recommender/quality_over_clicks_intrinsic_quality-driven_iterative_reinforcement_learning_fo.md) | arXiv: 2603.22922
 - [x] [quantifying and improving the robustness of retrieval-augmented language models ](information_retrieval/quantifying_and_improving_the_robustness_of_retrieval-augmented_language_models_.md) | arXiv: 2503.05587
 - [x] [quantize what counts more for keys less for values](model_compression/quantize_what_counts_more_for_keys_less_for_values.md) | arXiv: 2502.15075
-- [x] [query pipeline optimization for cancer patient question answering systems](medical_imaging/query_pipeline_optimization_for_cancer_patient_question_answering_systems.md) | arXiv: 2412.14751
 - [x] [question difficulty estimation for large language models via answer plausibility](llm_evaluation/question_difficulty_estimation_for_large_language_models_via_answer_plausibility.md) | arXiv: 2605.12398
 - [x] [r3-sql ranking reward and resampling for text-to-sql](code_intelligence/r3-sql_ranking_reward_and_resampling_for_text-to-sql.md) | arXiv: 2604.25325
 - [x] [ra-rrg multimodal retrieval-augmented radiology report generation with key phras](medical_imaging/ra-rrg_multimodal_retrieval-augmented_radiology_report_generation_with_key_phras.md) | arXiv: 2504.07415
@@ -938,7 +893,6 @@
 - [x] [rads reinforcement learning-based sample selection improves transfer learning in](medical_imaging/rads_reinforcement_learning-based_sample_selection_improves_transfer_learning_in.md) | arXiv: 2604.20256
 - [x] [rare redundancy-aware retrieval evaluation framework for high-similarity corpora](information_retrieval/rare_redundancy-aware_retrieval_evaluation_framework_for_high-similarity_corpora.md) | arXiv: 2604.19047
 - [x] [rbtact rebuttal as supervision for actionable review feedback generation](llm_alignment/rbtact_rebuttal_as_supervision_for_actionable_review_feedback_generation.md) | arXiv: 2603.09723
-- [x] [reactod bounded neuro-symbolic agentic nlu for zero-shot dialogue state tracking](video_understanding/reactod_bounded_neuro-symbolic_agentic_nlu_for_zero-shot_dialogue_state_tracking.md) | arXiv: 2605.19077
 - [x] [reason only when needed efficient generative reward modeling via model-internal ](model_compression/reason_only_when_needed_efficient_generative_reward_modeling_via_model-internal_.md) | arXiv: 2604.10072
 - [x] [reasonembed enhanced text embeddings for reasoning-intensive document retrieval](information_retrieval/reasonembed_enhanced_text_embeddings_for_reasoning-intensive_document_retrieval.md) | arXiv: 2510.08252
 - [x] [reasoning fails where step flow breaks](llm_reasoning/reasoning_fails_where_step_flow_breaks.md) | arXiv: 2604.06695
@@ -954,9 +908,7 @@
 - [x] [reducing peak memory usage for modern multimodal large language model pipelines](multimodal_vlm/reducing_peak_memory_usage_for_modern_multimodal_large_language_model_pipelines.md) | arXiv: 2604.16734
 - [x] [referee reference-free and fine-grained method for evaluating factual consistenc](code_intelligence/referee_reference-free_and_fine-grained_method_for_evaluating_factual_consistenc.md) | arXiv: 2604.10520
 - [x] [reference games as a testbed for the alignment of model uncertainty and clarific](audio_speech/reference_games_as_a_testbed_for_the_alignment_of_model_uncertainty_and_clarific.md) | arXiv: 2601.07820
-- [x] [refining and reusing annotation guidelines for llm annotation](medical_imaging/refining_and_reusing_annotation_guidelines_for_llm_annotation.md) | arXiv: 2605.20809
 - [x] [reflex self-refining explainable fact-checking via verdict-anchored style contro](aigc_detection/reflex_self-refining_explainable_fact-checking_via_verdict-anchored_style_contro.md) | arXiv: 2511.20233
-- [x] [regate learning faster and better with fewer tokens in mllms](multimodal_vlm/regate_learning_faster_and_better_with_fewer_tokens_in_mllms.md) | arXiv: 2507.21420
 - [x] [region-grounded report generation for 3d medical imaging a fine-grained dataset ](medical_imaging/region-grounded_report_generation_for_3d_medical_imaging_a_fine-grained_dataset_.md) | arXiv: 2604.18145
 - [x] [region-r1 reinforcing query-side region cropping for multi-modal re-ranking](multimodal_vlm/region-r1_reinforcing_query-side_region_cropping_for_multi-modal_re-ranking.md) | arXiv: 2604.05268
 - [x] [reheat nachos for dinner evaluating ai support for cross-cultural communication ](social_computing/reheat_nachos_for_dinner_evaluating_ai_support_for_cross-cultural_communication_.md) | arXiv: 2604.23842
@@ -965,7 +917,6 @@
 - [x] [reliability-aware adaptive self-consistency for efficient sampling in llm reason](llm_reasoning/reliability-aware_adaptive_self-consistency_for_efficient_sampling_in_llm_reason.md) | arXiv: 2601.02970
 - [x] [reliable automated triage in spanish clinical notes a hybrid framework for risk-](medical_imaging/reliable_automated_triage_in_spanish_clinical_notes_a_hybrid_framework_for_risk-.md) | arXiv: 2605.21256
 - [x] [reliable evaluation protocol for low-precision retrieval](information_retrieval/reliable_evaluation_protocol_for_low-precision_retrieval.md) | arXiv: 2508.03306
-- [x] [remedi reasoner for medical clinical prediction](medical_imaging/remedi_reasoner_for_medical_clinical_prediction.md) | arXiv: 2605.01474
 - [x] [render-of-thought rendering textual chain-of-thought as images for visual latent](llm_reasoning/render-of-thought_rendering_textual_chain-of-thought_as_images_for_visual_latent.md) | arXiv: 2601.14750
 - [x] [repeated sequences reveal gaps between large language models and natural languag](llm_nlp/repeated_sequences_reveal_gaps_between_large_language_models_and_natural_languag.md) | arXiv: 2605.24850
 - [x] [reposhapley shapley-enhanced context filtering for repository-level code complet](code_intelligence/reposhapley_shapley-enhanced_context_filtering_for_repository-level_code_complet.md) | arXiv: 2601.03378
@@ -977,7 +928,6 @@
 - [x] [rerec reasoning-augmented llm-based recommendation assistant via reinforcement f](recommender/rerec_reasoning-augmented_llm-based_recommendation_assistant_via_reinforcement_f.md) | arXiv: 2604.07851
 - [x] [researchbench benchmarking llms in scientific discovery via inspiration-based ta](llm_evaluation/researchbench_benchmarking_llms_in_scientific_discovery_via_inspiration-based_ta.md) | arXiv: 2503.21248
 - [x] [response-g1 explicit scene graph modeling for proactive streaming video understa](video_understanding/response-g1_explicit_scene_graph_modeling_for_proactive_streaming_video_understa.md) | arXiv: 2605.07575
-- [x] [responsible evaluation of ai for mental health](medical_imaging/responsible_evaluation_of_ai_for_mental_health.md) | arXiv: 2602.00065
 - [x] [responsible federated llms via safety filtering and constitutional ai](llm_safety/responsible_federated_llms_via_safety_filtering_and_constitutional_ai.md) | arXiv: 2502.16691
 - [x] [restyle-tts relative and continuous style control for zero-shot speech synthesis](audio_speech/restyle-tts_relative_and_continuous_style_control_for_zero-shot_speech_synthesis.md) | arXiv: 2601.03632
 - [x] [rethinking evaluation for llm hallucination detection a desiderata a new rag-bas](llm_safety/rethinking_evaluation_for_llm_hallucination_detection_a_desiderata_a_new_rag-bas.md) | arXiv: 2605.11330
@@ -1024,7 +974,6 @@
 - [x] [rsat structured attribution makes small language models faithful table reasoners](llm_reasoning/rsat_structured_attribution_makes_small_language_models_faithful_table_reasoners.md) | arXiv: 2605.00199
 - [x] [rtcfake speech deepfake detection in real-time communication](audio_speech/rtcfake_speech_deepfake_detection_in_real-time_communication.md) | arXiv: 2604.23742
 - [x] [rv-hate reinforced multi-module voting for implicit hate speech detection](social_computing/rv-hate_reinforced_multi-module_voting_for_implicit_hate_speech_detection.md) | arXiv: 2510.10971
-- [x] [ryze evidence-enriched data synthesis from biomedical papers](medical_imaging/ryze_evidence-enriched_data_synthesis_from_biomedical_papers.md) | arXiv: 2606.00902
 - [x] [s2g-rag structured sufficiency and gap judging for iterative retrieval-augmented](information_retrieval/s2g-rag_structured_sufficiency_and_gap_judging_for_iterative_retrieval-augmented.md) | arXiv: 2604.23783
 - [x] [s2h-dpo hardness-aware preference optimization for vision-language models](llm_alignment/s2h-dpo_hardness-aware_preference_optimization_for_vision-language_models.md) | arXiv: 2604.18512
 - [x] [s2s-arena evaluating paralinguistic instruction following in speech-to-speech mo](audio_speech/s2s-arena_evaluating_paralinguistic_instruction_following_in_speech-to-speech_mo.md) | arXiv: 2503.05085
@@ -1048,7 +997,6 @@
 - [x] [scicoqa quality assurance for scientific paper--code alignment](code_intelligence/scicoqa_quality_assurance_for_scientific_paper--code_alignment.md) | arXiv: 2601.12910
 - [x] [scicustom a framework for custom evaluation of scientific capabilities in large ](llm_evaluation/scicustom_a_framework_for_custom_evaluation_of_scientific_capabilities_in_large_.md) | arXiv: 2605.19357
 - [x] [sciimpact a multi-dimensional multi-field benchmark for scientific impact predic](llm_evaluation/sciimpact_a_multi-dimensional_multi-field_benchmark_for_scientific_impact_predic.md) | arXiv: 2604.17141
-- [x] [scimdr advancing scientific multimodal document reasoning](multimodal_vlm/scimdr_advancing_scientific_multimodal_document_reasoning.md) | arXiv: 2603.12249
 - [x] [script a subcharacter compositional representation injection module for korean p](llm_pretraining/script_a_subcharacter_compositional_representation_injection_module_for_korean_p.md) | arXiv: 2604.12377
 - [x] [scripts through time a survey of the evolving role of transliteration in nlp](multilingual_mt/scripts_through_time_a_survey_of_the_evolving_role_of_transliteration_in_nlp.md) | arXiv: 2604.18722
 - [x] [sculpting the vector space towards efficient multi-vector visual document retrie](information_retrieval/sculpting_the_vector_space_towards_efficient_multi-vector_visual_document_retrie.md) | arXiv: 2602.19549
@@ -1058,7 +1006,6 @@
 - [x] [securevibebench evaluating secure coding capabilities of code agents with realis](code_intelligence/securevibebench_evaluating_secure_coding_capabilities_of_code_agents_with_realis.md) | arXiv: 2509.22097
 - [x] [seeing no evil blinding large vision-language models to safety instructions via ](llm_safety/seeing_no_evil_blinding_large_vision-language_models_to_safety_instructions_via_.md) | arXiv: 2604.10299
 - [x] [seeing the whole elephant a benchmark for failure attribution in llm-based multi](multi_agent/seeing_the_whole_elephant_a_benchmark_for_failure_attribution_in_llm-based_multi.md) | arXiv: 2604.22708
-- [x] [segment embed and align a universal recipe for aligning subtitles to signing](human_understanding/segment_embed_and_align_a_universal_recipe_for_aligning_subtitles_to_signing.md) | arXiv: 2512.08094
 - [x] [segtune structured and fine-grained control for song generation](audio_speech/segtune_structured_and_fine-grained_control_for_song_generation.md) | arXiv: 2606.02638
 - [x] [selar selective latent reasoning in large language models](llm_reasoning/selar_selective_latent_reasoning_in_large_language_models.md) | arXiv: 2604.08299
 - [x] [selective contrastive learning for gloss free sign language translation](multilingual_mt/selective_contrastive_learning_for_gloss_free_sign_language_translation.md) | arXiv: 2604.22374
@@ -1144,7 +1091,6 @@
 - [x] [structkv preserving the structural skeleton for scalable long-context inference](llm_efficiency/structkv_preserving_the_structural_skeleton_for_scalable_long-context_inference.md) | arXiv: 2604.06746
 - [x] [structmem structured memory for long-horizon behavior in llms](llm_agent/structmem_structured_memory_for_long-horizon_behavior_in_llms.md) | arXiv: 2604.21748
 - [x] [structure-guided entity resolution fine-tuning llms for robust name matching in ](multilingual_mt/structure-guided_entity_resolution_fine-tuning_llms_for_robust_name_matching_in_.md) | arXiv: 2605.23597
-- [x] [structured and abstractive reasoning on multi-modal relational knowledge images](multimodal_vlm/structured_and_abstractive_reasoning_on_multi-modal_relational_knowledge_images.md) | arXiv: 2510.21828
 - [x] [student guides teacher weak-to-strong inference via spectral orthogonal explorat](llm_alignment/student_guides_teacher_weak-to-strong_inference_via_spectral_orthogonal_explorat.md) | arXiv: 2601.06160
 - [x] [style amnesia investigating speaking style degradation and mitigation in multi-t](llm_nlp/style_amnesia_investigating_speaking_style_degradation_and_mitigation_in_multi-t.md) | arXiv: 2512.23578
 - [x] [style over story measuring llm narrative preferences via structured selection](interpretability/style_over_story_measuring_llm_narrative_preferences_via_structured_selection.md) | arXiv: 2510.02025
@@ -1180,11 +1126,9 @@
 - [x] [tema anchor the image follow the text for multi-modification composed image retr](multimodal_vlm/tema_anchor_the_image_follow_the_text_for_multi-modification_composed_image_retr.md) | arXiv: 2604.21806
 - [x] [temp-r1 a unified autonomous agent for complex temporal kgqa via reverse curricu](llm_agent/temp-r1_a_unified_autonomous_agent_for_complex_temporal_kgqa_via_reverse_curricu.md) | arXiv: 2601.18296
 - [x] [template-assisted contrastive learning of task-oriented dialogue sentence embedd](dialogue/template-assisted_contrastive_learning_of_task-oriented_dialogue_sentence_embedd.md) | arXiv: 2305.14299
-- [x] [templaterl structured template-guided reinforcement learning for llm reasoning](interpretability/templaterl_structured_template-guided_reinforcement_learning_for_llm_reasoning.md) | arXiv: 2505.15692
 - [x] [temporal contrastive decoding a training-free method for large audio-language mo](audio_speech/temporal_contrastive_decoding_a_training-free_method_for_large_audio-language_mo.md) | arXiv: 2604.15383
 - [x] [temporal flattening in llm-generated text comparing human and llm writing trajec](aigc_detection/temporal_flattening_in_llm-generated_text_comparing_human_and_llm_writing_trajec.md) | arXiv: 2604.12097
 - [x] [temporal leakage in search-engine date-filtered web retrieval a retrospective fo](time_series/temporal_leakage_in_search-engine_date-filtered_web_retrieval_a_retrospective_fo.md) | arXiv: 2602.00758
-- [x] [temporalvlm video llms for temporal reasoning in long videos](video_understanding/temporalvlm_video_llms_for_temporal_reasoning_in_long_videos.md) | arXiv: 2412.02930
 - [x] [test of time rethinking temporal signal of benchmark contamination](time_series/test_of_time_rethinking_temporal_signal_of_benchmark_contamination.md) | arXiv: 2509.00072
 - [x] [test-time reasoners are strategic multiple-choice test-takers](nlp_understanding/test-time_reasoners_are_strategic_multiple-choice_test-takers.md) | arXiv: 2510.07761
 - [x] [test-time training for zero-resource dense retrieval reranking](information_retrieval/test-time_training_for_zero-resource_dense_retrieval_reranking.md) | arXiv: 2606.01070
@@ -1202,7 +1146,6 @@
 - [x] [the path not taken duality in reasoning about program execution](code_intelligence/the_path_not_taken_duality_in_reasoning_about_program_execution.md) | arXiv: 2604.20917
 - [x] [the pitfalls of kv cache compression](model_compression/the_pitfalls_of_kv_cache_compression.md) | arXiv: 2510.00231
 - [x] [the proxy presumption from semantic embeddings to valid social measures](social_computing/the_proxy_presumption_from_semantic_embeddings_to_valid_social_measures.md) | arXiv: 2605.07409
-- [x] [the reasoning trap how enhancing llm reasoning amplifies tool hallucination](llm_safety/the_reasoning_trap_how_enhancing_llm_reasoning_amplifies_tool_hallucination.md) | arXiv: 2510.22977
 - [x] [the silent vote improving zero-shot llm reliability by aggregating semantic neig](llm_evaluation/the_silent_vote_improving_zero-shot_llm_reliability_by_aggregating_semantic_neig.md) | arXiv: 2605.09739
 - [x] [the stackelberg speaker optimizing persuasive communication in social deduction ](reinforcement_learning/the_stackelberg_speaker_optimizing_persuasive_communication_in_social_deduction_.md) | arXiv: 2510.09087
 - [x] [theraagent self-improving therapeutic agent for precise and comprehensive treatm](medical_imaging/theraagent_self-improving_therapeutic_agent_for_precise_and_comprehensive_treatm.md) | arXiv: 2605.05963
@@ -1248,7 +1191,6 @@
 - [x] [towards visually grounded multimodal summarization via cross-modal transformer a](multimodal_vlm/towards_visually_grounded_multimodal_summarization_via_cross-modal_transformer_a.md) | arXiv: 2605.11753
 - [x] [toxitrace gradient-aligned training for explainable chinese toxicity detection](social_computing/toxitrace_gradient-aligned_training_for_explainable_chinese_toxicity_detection.md) | arXiv: 2604.12321
 - [x] [toxreason a benchmark for mechanistic chemical toxicity reasoning via adverse ou](social_computing/toxreason_a_benchmark_for_mechanistic_chemical_toxicity_reasoning_via_adverse_ou.md) | arXiv: 2604.06264
-- [x] [tpa next token probability attribution for detecting hallucinations in rag](llm_safety/tpa_next_token_probability_attribution_for_detecting_hallucinations_in_rag.md) | arXiv: 2512.07515
 - [x] [trace evidence grounding-guided multi-video event understanding and claim genera](object_detection/trace_evidence_grounding-guided_multi-video_event_understanding_and_claim_genera.md) | arXiv: 2605.16740
 - [x] [tracing relational knowledge recall in large language models](interpretability/tracing_relational_knowledge_recall_in_large_language_models.md) | arXiv: 2604.19934
 - [x] [train in vain functionality-preserving poisoning to prevent unauthorized use of ](llm_safety/train_in_vain_functionality-preserving_poisoning_to_prevent_unauthorized_use_of_.md) | arXiv: 2604.22291
@@ -1258,7 +1200,6 @@
 - [x] [tree-of-evidence efficient 34system 234 search for faithful multimodal grounding](multimodal_vlm/tree-of-evidence_efficient_34system_234_search_for_faithful_multimodal_grounding.md) | arXiv: 2604.07692
 - [x] [trigreason trigger-based collaboration between small and large reasoning models](llm_reasoning/trigreason_trigger-based_collaboration_between_small_and_large_reasoning_models.md) | arXiv: 2604.14847
 - [x] [trojail trajectory-level optimization for multi-turn large language model jailbr](llm_safety/trojail_trajectory-level_optimization_for_multi-turn_large_language_model_jailbr.md) | arXiv: 2512.07761
-- [x] [two pathways to truthfulness on the intrinsic encoding of llm hallucinations](llm_safety/two_pathways_to_truthfulness_on_the_intrinsic_encoding_of_llm_hallucinations.md) | arXiv: 2601.07422
 - [x] [two-stage regularization-based structured pruning for llms](model_compression/two-stage_regularization-based_structured_pruning_for_llms.md) | arXiv: 2505.18232
 - [x] [ucs estimating unseen coverage for improved in-context learning](llm_nlp/ucs_estimating_unseen_coverage_for_improved_in-context_learning.md) | arXiv: 2604.12015
 - [x] [ukp psycontrol at semeval-2026 task 2 modeling valence and arousal dynamics from](model_compression/ukp_psycontrol_at_semeval-2026_task_2_modeling_valence_and_arousal_dynamics_from.md) | arXiv: 2604.21534
@@ -1293,10 +1234,8 @@
 - [x] [veritas the first dynamic benchmark for multimodal automated fact-checking](social_computing/veritas_the_first_dynamic_benchmark_for_multimodal_automated_fact-checking.md) | arXiv: 2601.08611
 - [x] [videostir understanding long videos via spatio-temporally structured and intent-](information_retrieval/videostir_understanding_long_videos_via_spatio-temporally_structured_and_intent-.md) | arXiv: 2604.05418
 - [x] [vignette socially grounded bias evaluation for vision-language models](multimodal_vlm/vignette_socially_grounded_bias_evaluation_for_vision-language_models.md) | arXiv: 2505.22897
-- [x] [vill-e video llm embeddings for retrieval](video_understanding/vill-e_video_llm_embeddings_for_retrieval.md) | arXiv: 2604.12148
 - [x] [vision-language models mistake head orientation for gaze direction nonverbal con](multimodal_vlm/vision-language_models_mistake_head_orientation_for_gaze_direction_nonverbal_con.md) | arXiv: 2506.05412
 - [x] [visret visualization improves knowledge-intensive text-to-image retrieval](information_retrieval/visret_visualization_improves_knowledge-intensive_text-to-image_retrieval.md) | arXiv: 2505.20291
-- [x] [vista verification in sequential turn-based assessment](video_understanding/vista_verification_in_sequential_turn-based_assessment.md) | arXiv: 2510.27052
 - [x] [visually-guided policy optimization for multimodal reasoning](reinforcement_learning/visually-guided_policy_optimization_for_multimodal_reasoning.md) | arXiv: 2604.09349
 - [x] [vl-calibration decoupled confidence calibration for large vision-language models](multimodal_vlm/vl-calibration_decoupled_confidence_calibration_for_large_vision-language_models.md) | arXiv: 2604.09529
 - [x] [vla-forget vision-language-action unlearning for embodied foundation models](llm_safety/vla-forget_vision-language-action_unlearning_for_embodied_foundation_models.md) | arXiv: 2604.03956

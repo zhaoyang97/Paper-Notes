@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 优化/理论论文汇总 · 38篇论文解读
+  CVPR2026 优化/理论论文汇总 · 39篇论文解读
 description: >-
-  38篇CVPR2026的优化/理论方向论文解读，涵盖联邦学习、扩散模型、个性化生成、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  39篇CVPR2026的优化/理论方向论文解读，涵盖联邦学习、扩散模型、个性化生成、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "优化/理论"
@@ -33,6 +33,8 @@ item_list:
     t: "DP-FedAdamW: An Efficient Optimizer for Differentially Private Federated Large Models"
   - u: "dynamic_momentum_recalibration_in_online_gradient_learning/"
     t: "Dynamic Momentum Recalibration in Online Gradient Learning"
+  - u: "end-to-end_hyper-relational_information_extraction_for_engineering_diagrams_via_/"
+    t: "End-to-End Hyper-Relational Information Extraction for Engineering Diagrams via Dynamically Tokenized Relation Transformer"
   - u: "enhancing_visual_representation_with_textual_semantics_textual_semantics_powered_p/"
     t: "Enhancing Visual Representation with Textual Semantics: Textual Semantics-Powered Prototypes for Heterogeneous Federated Learning"
   - u: "fed-ade_adaptive_learning_rate_for_federated_post-adaptation_under_distribution_/"
@@ -71,15 +73,13 @@ item_list:
     t: "Learning to Learn Weight Generation via Local Consistency Diffusion"
   - u: "mapping_networks/"
     t: "Mapping Networks"
-  - u: "model_merging_in_the_essential_subspace/"
-    t: "Model Merging in the Essential Subspace"
-item_total: 38
+item_total: 39
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**📷 CVPR2026** · **38** 篇论文解读
+**📷 CVPR2026** · **39** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (64)](../../ICML2026/optimization/index.md) · [🔬 ICLR2026 (47)](../../ICLR2026/optimization/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (126)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (61)](../../ICML2025/optimization/index.md)
 
@@ -124,6 +124,10 @@ item_total: 38
 **[Dynamic Momentum Recalibration in Online Gradient Learning](dynamic_momentum_recalibration_in_online_gradient_learning.md)**
 
 :   从信号处理视角揭示固定动量系数在偏差-方差权衡上的固有缺陷，提出SGDF优化器，通过在线计算最优时变增益（基于最小均方误差原则）动态平衡梯度估计的噪声抑制和信号保持，在多种视觉任务上超越SGD动量和Adam变体。
+
+**[End-to-End Hyper-Relational Information Extraction for Engineering Diagrams via Dynamically Tokenized Relation Transformer](end-to-end_hyper-relational_information_extraction_for_engineering_diagrams_via_.md)**
+
+:   把工程图纸（管道仪表图 P&ID、电气图 ED）的解析从"多模型分别检测符号/线/文字"重构成一次性的场景图生成任务，用一个带动态令牌剪枝的视觉主干 + 一阶段关系 Transformer（DTRT）端到端输出"实体 + 连接关系 + 文字限定词"的超关系知识图谱，在 P&ID 上 SGDET R@2000 达 94.84%、计算量却只有两阶段方法的约 1/8。
 
 **[Enhancing Visual Representation with Textual Semantics: Textual Semantics-Powered Prototypes for Heterogeneous Federated Learning](enhancing_visual_representation_with_textual_semantics_textual_semantics_powered_p.md)**
 

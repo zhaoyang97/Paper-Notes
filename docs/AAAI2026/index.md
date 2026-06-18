@@ -2,7 +2,7 @@
 title: >-
   AAAI2026 论文汇总 · 1380篇论文解读，每篇5分钟读懂核心思想
 description: >-
-  1380篇AAAI2026论文解读，涵盖多模态 VLM(84篇)、3D 视觉(79篇)、图像生成(79篇)、医学图像(75篇)、模型压缩(60篇)、强化学习(58篇)、自动驾驶(56篇)、AI 安全(45篇)等 50个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1380篇AAAI2026论文解读，涵盖 3D 视觉(79篇)、图像生成(79篇)、医学图像(75篇)、多模态 VLM(74篇)、模型压缩(60篇)、强化学习(58篇)、自动驾驶(56篇)、AI 安全(45篇)等 52个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "AAAI2026"
   - "AAAI2026论文汇总"
@@ -10,88 +10,88 @@ tags:
   - "AI顶会"
   - "论文解读"
   - "论文笔记"
-  - "多模态 VLM"
   - "3D 视觉"
   - "图像生成"
   - "医学图像"
+  - "多模态 VLM"
   - "模型压缩"
   - "强化学习"
   - "自动驾驶"
   - "AI 安全"
 item_list:
-  - u: "multimodal_vlm/abductivemllm_boosting_visual_abductive_reasoning_within_mll/"
-    t: "AbductiveMLLM: Boosting Visual Abductive Reasoning Within MLLMs"
-  - u: "multimodal_vlm/aligning_the_true_semantics_constrained_decoupling_and_distr/"
-    t: "Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment"
-  - u: "multimodal_vlm/anyecg-chat_a_generalist_ecg-mllm_for_flexible_ecg_input_and/"
-    t: "anyECG-chat: A Generalist ECG-MLLM for Flexible ECG Input and Multi-Task Understanding"
-  - u: "multimodal_vlm/are_we_done_yet_a_vision-based_judge_for_autonomous_task_completion_of_computer_/"
-    t: "\"Are We Done Yet?\": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents"
-  - u: "multimodal_vlm/astar_boosting_multimodal_reasoning_with_automated_structure/"
-    t: "AStar: Boosting Multimodal Reasoning with Automated Structured Thinking"
-  - u: "multimodal_vlm/biprompt_bilateral_prompt_optimization_for_visual_and_textual_debiasing_in_visio/"
-    t: "BiPrompt: Bilateral Prompt Optimization for Visual and Textual Debiasing in Vision-Language Models"
-  - u: "multimodal_vlm/bofa_bridge-layer_orthogonal_low-rank_fusion_for_clip-based_/"
-    t: "BOFA: Bridge-Layer Orthogonal Low-Rank Fusion for CLIP-Based Class-Incremental Learning"
-  - u: "multimodal_vlm/branch_or_layer_zeroth-order_optimization_for_continual_lear/"
-    t: "Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models"
-  - u: "multimodal_vlm/bridging_modalities_via_progressive_re-alignment_for_multimo/"
-    t: "Bridging Modalities via Progressive Re-alignment for Multimodal Test-Time Adaptation (BriMPR)"
-  - u: "multimodal_vlm/bridging_the_copyright_gap_do_large_vision-language_models_r/"
-    t: "Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?"
-  - u: "multimodal_vlm/clearair_a_human-visual-perception-inspired_all-in-one_image_restoration/"
-    t: "ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration"
-  - u: "multimodal_vlm/concept-rulenet_grounded_multi-agent_neurosymbolic_reasoning/"
-    t: "Concept-RuleNet: Grounded Multi-Agent Neurosymbolic Reasoning in Vision Language Models"
-  - u: "multimodal_vlm/conditional_information_bottleneck_for_multimodal_fusion_overcoming_shortcut_lea/"
-    t: "Conditional Information Bottleneck for Multimodal Fusion: Overcoming Shortcut Learning in Sarcasm Detection"
-  - u: "multimodal_vlm/crebench_human-aligned_creativity_evaluation_from_idea_to_process_to_product/"
-    t: "CreBench: Human-Aligned Creativity Evaluation from Idea to Process to Product"
-  - u: "multimodal_vlm/cross-modal_proxy_evolving_for_ood_detection_with_vision-lan/"
-    t: "Cross-modal Proxy Evolving for OOD Detection with Vision-Language Models"
-  - u: "multimodal_vlm/crossvid_a_comprehensive_benchmark_for_evaluating_cross-vide/"
-    t: "CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models"
-  - u: "multimodal_vlm/deig_detail-enhanced_instance_generation_with_fine-grained_semantic_control/"
-    t: "DEIG: Detail-Enhanced Instance Generation with Fine-Grained Semantic Control"
-  - u: "multimodal_vlm/difference_vector_equalization_for_robust_fine-tuning_of_vis/"
-    t: "Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models"
-  - u: "multimodal_vlm/discode_distribution-aware_score_decoder_for_robust_automatic_evaluation_of_imag/"
-    t: "DisCode: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning"
-  - u: "multimodal_vlm/em-kd_distilling_efficient_multimodal_large_language_model_w/"
-    t: "EM-KD: Distilling Efficient Multimodal Large Language Model with Unbalanced Vision Tokens"
-  - u: "multimodal_vlm/empowering_semantic-sensitive_underwater_image_enhancement_with_vlm/"
-    t: "Empowering Semantic-Sensitive Underwater Image Enhancement with VLM"
-  - u: "multimodal_vlm/exo2ego_exocentric_knowledge_guided_mllm_for_egocentric_vide/"
-    t: "Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding"
-  - u: "multimodal_vlm/explore_how_to_inject_beneficial_noise_in_mllms/"
-    t: "Explore How to Inject Beneficial Noise in MLLMs"
-  - u: "multimodal_vlm/exploring_llms_for_scientific_information_extraction_using_the_sciex_framework/"
-    t: "Exploring LLMs for Scientific Information Extraction using the SciEx Framework"
-  - u: "multimodal_vlm/few-shot_precise_event_spotting_via_unified_multi-entity_graph_and_distillation/"
-    t: "Few-Shot Precise Event Spotting via Unified Multi-Entity Graph and Distillation"
-  - u: "multimodal_vlm/filter_correlate_compress_training-free_token_reduction_for_/"
-    t: "Filter, Correlate, Compress: Training-Free Token Reduction for MLLM Acceleration"
-  - u: "multimodal_vlm/finmmdocr_benchmarking_financial_multimodal_reasoning_with_scenario_awareness_do/"
-    t: "FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation"
-  - u: "multimodal_vlm/format_matters_the_robustness_of_multimodal_llms_in_reviewing_evidence_from_tabl/"
-    t: "Format Matters: The Robustness of Multimodal LLMs in Reviewing Evidence from Tables and Charts"
-  - u: "multimodal_vlm/ft-ncfm_an_influence-aware_data_distillation_framework_for_efficient_vla_models/"
-    t: "FT-NCFM: An Influence-Aware Data Distillation Framework for Efficient VLA Models"
-  - u: "multimodal_vlm/global_compression_commander_plug-and-play_inference_acceler/"
-    t: "Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models"
+  - u: "3d_vision/3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re/"
+    t: "3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition"
+  - u: "3d_vision/3d-free_meets_3d_priors_novel_view_synthesis_from_a_single_image_with_pretrained/"
+    t: "3D-Free Meets 3D Priors: Novel View Synthesis from a Single Image with Pretrained Diffusion Guidance"
+  - u: "3d_vision/3dteethsam_taming_sam2_for_3d_teeth_segmentation/"
+    t: "3DTeethSAM: Taming SAM2 for 3D Teeth Segmentation"
+  - u: "3d_vision/4dstr_advancing_generative_4d_gaussians_with_spatial-tempora/"
+    t: "4DSTR: Advancing Generative 4D Gaussians with Spatial-Temporal Rectification for High-Quality and Consistent 4D Generation"
+  - u: "3d_vision/adapt-as-you-walk_through_the_clouds_training-free_online_te/"
+    t: "Adapt-As-You-Walk Through the Clouds: Training-Free Online Test-Time Adaptation of 3D Vision-Language Foundation Models"
+  - u: "3d_vision/anchords_anchoring_dynamic_sources_for_semantically_consiste/"
+    t: "AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation"
+  - u: "3d_vision/anchorhoi_zero-shot_generation_of_4d_human-object_interactio/"
+    t: "AnchorHOI: Zero-shot Generation of 4D Human-Object Interaction via Anchor-based Prior Distillation"
+  - u: "3d_vision/arbitrary-scale_3d_gaussian_super-resolution/"
+    t: "Arbitrary-Scale 3D Gaussian Super-Resolution"
+  - u: "3d_vision/assist-3d_adapted_scene_synthesis_for_class-agnostic_3d_instance_segmentation/"
+    t: "ASSIST-3D: Adapted Scene Synthesis for Class-Agnostic 3D Instance Segmentation"
+  - u: "3d_vision/can_protective_watermarking_safeguard_the_copyright_of_3d_gaussian_splatting/"
+    t: "Can Protective Watermarking Safeguard the Copyright of 3D Gaussian Splatting?"
+  - u: "3d_vision/cheating_stereo_matching_in_full-scale_physical_adversarial_attack_against_binoc/"
+    t: "Cheating Stereo Matching in Full-Scale: Physical Adversarial Attack against Binocular Depth Estimation"
+  - u: "3d_vision/class-partitioned_vq-vae_and_latent_flow_matching_for_point_cloud_scene_generati/"
+    t: "Class-Partitioned VQ-VAE and Latent Flow Matching for Point Cloud Scene Generation"
+  - u: "3d_vision/clippan_adapting_clip_as_a_supervisor_for_unsupervised_pansharpening/"
+    t: "CLIPPan: Adapting CLIP as A Supervisor for Unsupervised Pansharpening"
+  - u: "3d_vision/dance_density-agnostic_and_class-aware_network_for_point_cloud_completion/"
+    t: "DANCE: Density-Agnostic and Class-Aware Network for Point Cloud Completion"
+  - u: "3d_vision/dapointmamba_domain_adaptive_point_mamba_for_point_cloud_completion/"
+    t: "DAPointMamba: Domain Adaptive Point Mamba for Point Cloud Completion"
+  - u: "3d_vision/debiasing_diffusion_priors_via_3d_attention_for_consistent_gaussian_splatting/"
+    t: "Debiasing Diffusion Priors via 3D Attention for Consistent Gaussian Splatting"
+  - u: "3d_vision/deepraht_learning_predictive_raht_for_point_cloud_attribute_compression/"
+    t: "DeepRAHT: Learning Predictive RAHT for Point Cloud Attribute Compression"
+  - u: "3d_vision/distilling_future_temporal_knowledge_with_masked_feature_reconstruction_for_3d_o/"
+    t: "Distilling Future Temporal Knowledge with Masked Feature Reconstruction for 3D Object Detection"
+  - u: "3d_vision/domain_generalized_stereo_matching_with_uncertainty-guided_data_augmentation/"
+    t: "Domain Generalized Stereo Matching with Uncertainty-guided Data Augmentation"
+  - u: "3d_vision/dynamic_gaussian_scene_reconstruction_from_unsynchronized_videos/"
+    t: "Dynamic Gaussian Scene Reconstruction from Unsynchronized Videos"
+  - u: "3d_vision/enhancing_generalization_of_depth_estimation_foundation_model_via_weakly-supervi/"
+    t: "Enhancing Generalization of Depth Estimation Foundation Model via Weakly-Supervised Adaptation with Regularization"
+  - u: "3d_vision/enhancing_rotation-invariant_3d_learning_with_global_pose_awareness_and_attentio/"
+    t: "Enhancing Rotation-Invariant 3D Learning with Global Pose Awareness and Attention Mechanisms"
+  - u: "3d_vision/epsegfz_efficient_point_cloud_semantic_segmentation_for_few-_and_zero-shot_scena/"
+    t: "EPSegFZ: Efficient Point Cloud Semantic Segmentation for Few- and Zero-Shot Scenarios"
+  - u: "3d_vision/fantasystyle_controllable_stylized_distillation_for_3d_gaussian_splatting/"
+    t: "FantasyStyle: Controllable Stylized Distillation for 3D Gaussian Splatting"
+  - u: "3d_vision/foundationslam_unleashing_the_power_of_depth_foundation_models_for/"
+    t: "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM"
+  - u: "3d_vision/free-form_scene_editor_enabling_multi-round_object_manipulation_like_in_a_3d_eng/"
+    t: "Free-Form Scene Editor: Enabling Multi-Round Object Manipulation like in a 3D Engine"
+  - u: "3d_vision/gaussian_blending_rethinking_alpha_blending_in_3d_gaussian_splatting/"
+    t: "Gaussian Blending: Rethinking Alpha Blending in 3D Gaussian Splatting"
+  - u: "3d_vision/gaussianimage_boosted_image_representation_and_compression_with_2d_gaussian_spla/"
+    t: "GaussianImage++: Boosted Image Representation and Compression with 2D Gaussian Splatting"
+  - u: "3d_vision/generalized_geometry_encoding_volume_for_real-time_stereo_matching/"
+    t: "Generalized Geometry Encoding Volume for Real-time Stereo Matching"
+  - u: "3d_vision/geometry_meets_light_leveraging_geometric_priors_for_universal_photometric_stere/"
+    t: "Geometry Meets Light: Leveraging Geometric Priors for Universal Photometric Stereo under Limited Multi-Illumination Cues"
 item_total: 1380
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 AAAI2026 论文汇总
 
-1380篇AAAI2026论文解读，涵盖多模态 VLM(84篇)、3D 视觉(79篇)、图像生成(79篇)、医学图像(75篇)、模型压缩(60篇)、强化学习(58篇)、自动驾驶(56篇)、AI 安全(45篇)等 50个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1380篇AAAI2026论文解读，涵盖 3D 视觉(79篇)、图像生成(79篇)、医学图像(75篇)、多模态 VLM(74篇)、模型压缩(60篇)、强化学习(58篇)、自动驾驶(56篇)、AI 安全(45篇)等 52个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
 ---
 
-## 💡 LLM 推理 (37) { #llm_reasoning }
+## 💡 LLM Reasoning (37) { #llm_reasoning }
 
 **[A Reasoning Paradigm for Named Entity Recognition](llm_reasoning/a_reasoning_paradigm_for_named_entity_recognition.md)**
 
@@ -133,7 +133,7 @@ item_total: 1380
 
 :   系统研究 32 个开源 LLM 在道德困境（电车问题）中的决策不确定性，发现不确定性主要受模型架构而非道德维度驱动；在推理时引入 attention dropout 增加随机性后，模型的互信息显著上升，human-LLM 道德对齐度也随之改善——表明降低 LLM 在道德场景中的过度自信可以改善与人类偏好的一致性。
 
-[查看全部37篇「LLM 推理」论文 →](llm_reasoning/)
+[查看全部37篇「LLM Reasoning」论文 →](llm_reasoning/)
 
 ---
 
@@ -183,7 +183,7 @@ item_total: 1380
 
 ---
 
-## 👥 多智能体 (26) { #multi_agent }
+## 👥 Multi-Agent (26) { #multi_agent }
 
 **[A Graph-Theoretical Perspective on Law Design for Multiagent Systems](multi_agent/a_graph-theoretical_perspective_on_law_design_for_multiagent_systems.md)**
 
@@ -225,7 +225,7 @@ item_total: 1380
 
 :   提出 ParLD（Preview-Analyze-Reason 框架），通过多 Agent 协作实现对话式学习过程中学生认知状态的细粒度逐轮诊断，在性能预测上超越传统知识追踪方法 10%，并显著提升辅导效果。
 
-[查看全部26篇「多智能体」论文 →](multi_agent/)
+[查看全部26篇「Multi-Agent」论文 →](multi_agent/)
 
 ---
 
@@ -647,7 +647,7 @@ item_total: 1380
 
 ---
 
-## 🔍 信息检索/RAG (26) { #information_retrieval }
+## 🔍 信息检索/RAG (21) { #information_retrieval }
 
 **["As Eastern Powers, I Will Veto." : An Investigation of Nation-Level Bias of Large Language Models in International Relations](information_retrieval/as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)**
 
@@ -681,15 +681,15 @@ item_total: 1380
 
 :   开发受控噪声注入框架系统评估检索增强翻译（REAL-MT），引入Fidelity和CAR两个新指标，在10语言对×4种噪声类型上揭示模型即使面对矛盾上下文仍盲目采纳（CAR保持65-78%），大推理模型（LRM）反而更脆弱（会"合理化"错误上下文），且噪声鲁棒性与干净上下文利用率存在根本性trade-off。
 
-**[HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment](information_retrieval/himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi.md)**
+**[Magnitude Matters: A Superior Class of Similarity Metrics for Holistic Semantic Understanding](information_retrieval/magnitude_matters_a_superior_class_of_similarity_metrics_for_holistic_semantic_u.md)**
 
-:   提出 HiMo-CLIP，通过对文本嵌入做 batch 内 PCA 分解（HiDe）提取多粒度语义成分，配合双分支单调性感知对比损失（MoLo），在不修改编码器的前提下让 CLIP 学会"文本越完整、对齐分数越高"的语义单调性，在长文本检索上显著超越现有方法。
+:   提出两种无参数、幅度感知的向量相似度度量——Overlap Similarity (OS) 和 Hyperbolic Tangent Similarity (HTS)，在 4 个句子嵌入模型和 8 个 NLP 基准上，对分类任务（释义、推理）的 MSE 显著低于 Cosine Similarity 和 Dot Product，且无需任何额外训练开销。
 
-**[Knowledge Completes the Vision: A Multimodal Entity-aware Retrieval-Augmented Generation Framework for News Image Captioning](information_retrieval/knowledge_completes_the_vision_a_multimodal_entity-aware_retrieval-augmented_gen.md)**
+**[Mem-PAL: Towards Memory-based Personalized Dialogue Assistants for Long-term User-Agent Interaction](information_retrieval/mem-pal_towards_memory-based_personalized_dialogue_assistants_for_long-term_user.md)**
 
-:   本文提出MERGE，首个面向新闻图像描述的多模态实体感知RAG框架，通过构建实体中心多模态知识库（EMKB）、假设描述引导的多模态对齐（HCMA）和检索驱动的多模态知识集成（RMKI）三大组件，在GoodNews上CIDEr提升+6.84、F1提升+4.14，并在未见过的Visual News上实现CIDEr +20.17的强泛化。
+:   提出H2Memory四层分层异构记忆结构（日志图/背景记忆/主题大纲/原则），通过PAL-Set数据集（100用户×8.4个月交互）验证，在需求重述和方案建议任务上将BLEU-1从13.59提升至26.67。
 
-[查看全部26篇「信息检索/RAG」论文 →](information_retrieval/)
+[查看全部21篇「信息检索/RAG」论文 →](information_retrieval/)
 
 ---
 
@@ -829,11 +829,7 @@ item_total: 1380
 
 ---
 
-## 🧩 多模态 VLM (84) { #multimodal_vlm }
-
-**[AbductiveMLLM: Boosting Visual Abductive Reasoning Within MLLMs](multimodal_vlm/abductivemllm_boosting_visual_abductive_reasoning_within_mll.md)**
-
-:   受人类认知中"语言溯因+图像想象"双模式启发，提出 AbductiveMLLM，通过 Reasoner（因果对比学习筛选假设）和 Imaginer（扩散模型图像化推理）两个协同组件增强 MLLM 的视觉溯因推理能力，在 VAR 和 YouCookII 基准上取得 SOTA。
+## 🧩 多模态 VLM (74) { #multimodal_vlm }
 
 **[Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment](multimodal_vlm/aligning_the_true_semantics_constrained_decoupling_and_distr.md)**
 
@@ -846,10 +842,6 @@ item_total: 1380
 **["Are We Done Yet?": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents](multimodal_vlm/are_we_done_yet_a_vision-based_judge_for_autonomous_task_completion_of_computer_.md)**
 
 :   提出基于 VLM 的自主任务完成评估框架，通过截图+任务描述判断 CUA 是否完成任务，并将评估反馈回传给 Agent 实现自我纠正，在 macOS 环境上达到 73% 评估准确率和 27% 的任务成功率相对提升。
-
-**[AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](multimodal_vlm/astar_boosting_multimodal_reasoning_with_automated_structure.md)**
-
-:   提出AStar，一种training-free的多模态推理范式，通过从500个种子样本中构建高层"thought cards"推理模板库，在推理时自适应检索最优模板引导MLLM结构化推理，7B模型在MathVerse上达53.9%准确率（超越GPT-4o的50.2%），仅需50分钟预处理时间且无需训练。
 
 **[BiPrompt: Bilateral Prompt Optimization for Visual and Textual Debiasing in Vision-Language Models](multimodal_vlm/biprompt_bilateral_prompt_optimization_for_visual_and_textual_debiasing_in_visio.md)**
 
@@ -871,7 +863,83 @@ item_total: 1380
 
 :   首次系统评估 LVLM 在多模态上下文中对版权内容的识别和遵守能力，构建了 50,000 对多模态查询-内容的大规模 benchmark，发现 11/12 个 SOTA LVLM 即使面对明确版权声明也无法有效拒绝侵权请求，并提出 CopyGuard 工具增强框架将侵权拒绝率从 ~3% 提升至 ~62%。
 
-[查看全部84篇「多模态 VLM」论文 →](multimodal_vlm/)
+**[ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration](multimodal_vlm/clearair_a_human-visual-perception-inspired_all-in-one_image_restoration.md)**
+
+:   受人类视觉感知（HVP）启发，提出一种从粗到细的统一图像复原框架 ClearAIR，通过 MLLM 质量评估 → 语义区域感知 → 退化类型识别 → 内部线索复用四阶段逐步恢复图像质量，在多种退化任务上取得 SOTA。
+
+**[Conditional Information Bottleneck for Multimodal Fusion: Overcoming Shortcut Learning in Sarcasm Detection](multimodal_vlm/conditional_information_bottleneck_for_multimodal_fusion_overcoming_shortcut_lea.md)**
+
+:   揭示多模态讽刺检测中三类捷径学习问题（角色标签偏见、罐头笑声标签泄漏、情感不一致捷径）并重构了无捷径的 MUStARD++R 数据集，提出基于条件信息瓶颈的多模态融合框架 MCIB，通过压缩主模态冗余同时保留辅助模态的互补信息来实现有效融合。
+
+[查看全部74篇「多模态 VLM」论文 →](multimodal_vlm/)
+
+---
+
+## 🧠 VLM Reasoning (10) { #vlm_reasoning }
+
+**[AbductiveMLLM: Boosting Visual Abductive Reasoning Within MLLMs](vlm_reasoning/abductivemllm_boosting_visual_abductive_reasoning_within_mll.md)**
+
+:   受人类认知中"语言溯因+图像想象"双模式启发，提出 AbductiveMLLM，通过 Reasoner（因果对比学习筛选假设）和 Imaginer（扩散模型图像化推理）两个协同组件增强 MLLM 的视觉溯因推理能力，在 VAR 和 YouCookII 基准上取得 SOTA。
+
+**[AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](vlm_reasoning/astar_boosting_multimodal_reasoning_with_automated_structure.md)**
+
+:   提出AStar，一种training-free的多模态推理范式，通过从500个种子样本中构建高层"thought cards"推理模板库，在推理时自适应检索最优模板引导MLLM结构化推理，7B模型在MathVerse上达53.9%准确率（超越GPT-4o的50.2%），仅需50分钟预处理时间且无需训练。
+
+**[Concept-RuleNet: Grounded Multi-Agent Neurosymbolic Reasoning in Vision Language Models](vlm_reasoning/concept-rulenet_grounded_multi-agent_neurosymbolic_reasoning.md)**
+
+:   提出Concept-RuleNet——一个三智能体协作的神经符号推理框架，通过从训练图像中提取视觉概念来条件化符号生成和规则构建，解决了现有方法（如Symbol-LLM）仅依赖标签导致的符号幻觉和不代表性问题，在5个OOD基准上平均提升~5%准确率，幻觉符号减少达50%。
+
+**[CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models](vlm_reasoning/crossvid_a_comprehensive_benchmark_for_evaluating_cross-vide.md)**
+
+:   提出首个系统评估多模态大语言模型（MLLM）跨视频推理（Cross-Video Reasoning, CVR）能力的综合基准CrossVid，涵盖4个维度10个任务、5,331个视频和9,015个QA对，实验揭示当前最佳模型Gemini-2.5-Pro仅达50.4%准确率，远低于人类89.2%。
+
+**[FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation](vlm_reasoning/finmmdocr_benchmarking_financial_multimodal_reasoning_with_scenario_awareness_do.md)**
+
+:   本文提出FinMMDocR，一个面向真实金融场景的双语多模态推理基准，包含1200道专家标注的数值推理题目，涵盖12类隐式金融情景、9类长文档（平均50.8页）和平均11步推理链，最强MLLM (o4-mini-high) 仅达58%准确率，揭示现有模型在复杂金融推理中的严重不足。
+
+**[Graph-of-Mark: Promote Spatial Reasoning in Multimodal Language Models with Graph-Based Visual Prompting](vlm_reasoning/graph-of-mark_promote_spatial_reasoning_in_multimodal_langua.md)**
+
+:   提出 Graph-of-Mark (GoM)，一种无需训练的像素级视觉提示方法，通过在输入图像上直接叠加深度感知的场景图（包含节点和有向边），显式编码物体间的空间关系，使多模态语言模型在 VQA 和定位任务中的零样本空间推理准确率最高提升 11 个百分点。
+
+**[Leveraging Textual Compositional Reasoning for Robust Change Captioning](vlm_reasoning/leveraging_textual_compositional_reasoning_for_robust_change_captioning.md)**
+
+:   提出 CORTEX 框架，通过引入 VLM 生成的组合推理文本作为显式线索，结合图像-文本双重对齐模块（ITDA），增强纯视觉变化描述方法对物体关系和空间配置等结构化语义的理解能力。
+
+**[SToLa: Self-Adaptive Touch-Language Framework with Tactile Commonsense Reasoning in Open-Ended Scenarios](vlm_reasoning/stola_self-adaptive_touch-language_framework_with_tactile_commonsense_reasoning_.md)**
+
+:   SToLa 提出首个基于混合专家（MoE）的触觉-语言框架，通过动态路由机制管理触觉和语言两种模态的差异，并构建了覆盖8种物理属性、4种交互特征的开放式触觉常识推理数据集 TactileBench，在 PhysiCLeAR 基准上以 7B 参数量超越 13B 的 Octopi 取得 SOTA。
+
+**[Tri-Bench: Stress-Testing VLM Reliability on Spatial Reasoning under Camera Tilt and Object Interference](vlm_reasoning/tri-bench_stress-testing_vlm_reliability_on_spatial_reasoning_under_camera_tilt_.md)**
+
+:   Tri-Bench 是一个包含400张实拍三角形图像的紧凑基准，通过控制相机姿态（平面/倾斜）和物体干扰两个因素，系统测试了四个领先VLM的空间几何推理能力，发现模型默认依赖2D图像平面线索而非3D真实几何（即使提供了明确的参考框架提示），在非多数类形状上准确率降至接近0%。
+
+**[Yes FLoReNce, I Will Do Better Next Time! Agentic Feedback Reasoning for Humorous Meme Detection](vlm_reasoning/yes_florence_i_will_do_better_next_time_agentic_feedback_reasoning_for_humorous_.md)**
+
+:   提出 FLoReNce 框架，将幽默 meme 理解建模为闭环控制系统，通过 Judge 反馈+PID 控制器+非参数知识库的闭环学习，在推理时通过检索相似经验调制 prompt，使冻结的 VLM 实现自适应推理，无需微调即可显著提升预测和解释质量。
+
+---
+
+## ⚡ VLM Efficiency (5) { #vlm_efficiency }
+
+**[EM-KD: Distilling Efficient Multimodal Large Language Model with Unbalanced Vision Tokens](vlm_efficiency/em-kd_distilling_efficient_multimodal_large_language_model_w.md)**
+
+:   提出EM-KD框架，通过Hungarian算法解决teacher-student间视觉token数量不平衡问题，结合视觉语义蒸馏(VSD)和视觉-语言亲和力蒸馏(VLAD)将vanilla teacher的知识迁移到高效student MLLM，在11个benchmark上以144 token/patch达到50.4均分，超越576 token的LLaVA-NeXT(49.4)同时推理速度提升近2倍。
+
+**[Filter, Correlate, Compress: Training-Free Token Reduction for MLLM Acceleration](vlm_efficiency/filter_correlate_compress_training-free_token_reduction_for_.md)**
+
+:   提出FiCoCo三阶段框架（Filter-Correlate-Compress），通过集成视觉感知+语义感知冗余度量筛选丢弃token，利用token间相关性自适应回收信息，实现training-free的MLLM加速。在LLaVA-NeXT上达14.7×FLOPs压缩同时保留93.6%性能，在5种MLLM架构上全面超越FastV、SparseVLM等SOTA。
+
+**[Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models](vlm_efficiency/global_compression_commander_plug-and-play_inference_acceler.md)**
+
+:   提出GlobalCom²，一个**即插即用、无需训练**的token压缩框架，专为动态裁剪（dynamic cropping）结构的高分辨率VLM设计：利用全局缩略图（thumbnail）作为"指挥官"引导局部裁剪区域（crop）的差异化压缩，在压缩90%视觉token的同时保持>90%原始性能。
+
+**[Rethinking Visual Token Reduction in LVLMs under Cross-Modal Misalignment](vlm_efficiency/rethinking_visual_token_reduction_in_lvlms_under_cross-modal_misalignment.md)**
+
+:   揭示了 LVLM 中文本引导视觉token重要性评估的三种跨模态失配问题（因果、语义、空间），提出 VisionDrop——一个仅依赖视觉自注意力的免训练渐进式token剪枝框架，跨视觉编码器和 LLM 解码器多阶段压缩，在保留 5.6% token 时仍能维持 91%+ 原始性能。
+
+**[TinyChemVL: Advancing Chemical Vision-Language Models via Efficient Visual Token Reduction and Complex Reaction Tasks](vlm_efficiency/tinychemvl_advancing_chemical_vision-language_models_via_efficient_visual_token_.md)**
+
+:   TinyChemVL 是一个仅4B参数的化学领域VLM，通过自适应token合并与剪枝策略将视觉token压缩至原来的1/16，并引入反应级别任务和基准ChemRxn-V，在分子和反应级别的视觉化学任务上达到SOTA性能，同时显著提升推理和训练速度。
 
 ---
 
@@ -1793,7 +1861,7 @@ item_total: 1380
 
 ---
 
-## 🩺 医疗 NLP (12) { #medical_nlp }
+## 🩺 医疗 LLM (12) { #medical_nlp }
 
 **[A Principle-Driven Adaptive Policy for Group Cognitive Stimulation Dialogue for Elderly with Cognitive Impairment](medical_nlp/a_principle-driven_adaptive_policy_for_group_cognitive_stimu.md)**
 
@@ -1835,7 +1903,7 @@ item_total: 1380
 
 :   提出TrustBench双模式框架：(1) 基准模式——结合传统指标和LLM-as-a-Judge评估8个信任维度，学习Agent置信度与实际正确率的校准映射；(2) 验证模式——在Agent制定行动后、执行前实时计算信任分数，阻止87%的有害行动，延迟低于200ms，通过领域插件（医疗/金融/QA）实现专业化验证。
 
-[查看全部12篇「医疗 NLP」论文 →](medical_nlp/)
+[查看全部12篇「医疗 LLM」论文 →](medical_nlp/)
 
 ---
 

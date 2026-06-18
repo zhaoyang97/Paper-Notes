@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 LLM效率论文汇总 · 5篇论文解读
+  CVPR2026 LLM效率论文汇总 · 6篇论文解读
 description: >-
-  5篇CVPR2026的 LLM 效率方向论文解读，涵盖 LLM、对齐/RLHF、多模态、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  6篇CVPR2026的 LLM 效率方向论文解读，涵盖 LLM、对齐/RLHF、多模态、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "LLM 效率"
@@ -19,17 +19,19 @@ item_list:
     t: "Gated KalmaNet: A Fading Memory Layer Through Test-Time Ridge Regression"
   - u: "generalizable_video_quality_assessment_via_weak-to-strong_learning/"
     t: "Generalizable Video Quality Assessment via Weak-to-Strong Learning"
+  - u: "life-iqa_boosting_blind_image_quality_assessment_through_gcn-enhanced_layer_inte/"
+    t: "Life-IQA: Boosting Blind Image Quality Assessment through GCN-enhanced Layer Interaction and MoE-based Feature Decoupling"
   - u: "parallelvlm_lossless_video-llm_acceleration_with_visual_alignment_aware_parallel/"
     t: "ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding"
   - u: "quietprune_query-guided_early_token_pruning_for_vision-language_models/"
     t: "QuietPrune: Query-Guided Early Token Pruning for Vision-Language Models"
-item_total: 5
+item_total: 6
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ LLM 效率
 
-**📷 CVPR2026** · **5** 篇论文解读
+**📷 CVPR2026** · **6** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (32)](../../ICML2026/llm_efficiency/index.md) · [💬 ACL2026 (22)](../../ACL2026/llm_efficiency/index.md) · [🔬 ICLR2026 (20)](../../ICLR2026/llm_efficiency/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_efficiency/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/llm_efficiency/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/llm_efficiency/index.md)
 
@@ -44,6 +46,10 @@ item_total: 5
 **[Generalizable Video Quality Assessment via Weak-to-Strong Learning](generalizable_video_quality_assessment_via_weak-to-strong_learning.md)**
 
 :   不依赖任何人工打分标签，用现成 VQA 模型当"弱老师"去监督一个高容量多模态大模型"强学生"，再把学生回收成下一轮老师做迭代，最终在域内持平、在 OOD 上大幅超越所有老师，把 VQA 的 OOD 整体 SRCC 从 0.59 推到 0.745。
+
+**[Life-IQA: Boosting Blind Image Quality Assessment through GCN-enhanced Layer Interaction and MoE-based Feature Decoupling](life-iqa_boosting_blind_image_quality_assessment_through_gcn-enhanced_layer_inte.md)**
+
+:   针对盲图像质量评估(BIQA)中"把所有层特征一股脑融合反而引入噪声"的问题，Life-IQA 只用骨干网最深两层特征做质量解码：用 GCN 增强的查询拓扑把 stage4 特征当 query、stage3 特征当 key/value 做跨层交互，再用一个后置的 MoE 头按失真类型解耦特征，在七个 BIQA 基准上以约 95M 参数取得 SOTA。
 
 **[ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding](parallelvlm_lossless_video-llm_acceleration_with_visual_alignment_aware_parallel.md)**
 
