@@ -468,6 +468,58 @@
   });
 })();
 </script>
+
+<!-- Promote near-exact title matches to the top of search results -->
+<script>
+(function() {
+  // Why: lunr (BM25) length-normalization penalizes long titles, so pasting a
+  // paper's FULL title can rank that paper BELOW shorter titles that merely
+  // share one common token (e.g. "hypergraph"). We re-rank the *rendered*
+  // results client-side: when one result's title covers almost all of the
+  // query's words, we move it to the top. We never use a MutationObserver
+  // (it would loop → OOM); we re-apply on the input event with a few short
+  // delayed passes so it survives Material's async re-render.
+  var SEP = /[\s\u200b\-\.\,\!\?\;\:\(\)\[\]\{\}\/\|]+/;
+  function toks(s) {
+    return (s || '').toLowerCase().split(SEP).filter(function(t){ return t.length >= 2; });
+  }
+  function promote() {
+    var input = document.querySelector('.md-search__input');
+    var list = document.querySelector('.md-search-result__list');
+    if (!input || !list) return;
+    var q = input.value.trim();
+    if (q.length < 8) return;                 // only long, title-like queries
+    var qToks = toks(q);
+    if (qToks.length < 3) return;             // leave short keyword searches alone
+    var qSet = {}; qToks.forEach(function(t){ qSet[t] = true; });
+    var items = [].slice.call(list.children).filter(function(el){
+      return el.classList && el.classList.contains('md-search-result__item');
+    });
+    if (items.length < 2) return;
+    var best = null, bestScore = 0;
+    items.forEach(function(it) {
+      var h = it.querySelector('h1, .md-search-result__title');
+      var tToks = toks(h ? h.textContent : '');
+      if (!tToks.length) return;
+      var tSet = {}; tToks.forEach(function(t){ tSet[t] = true; });
+      var hit = 0; qToks.forEach(function(t){ if (tSet[t]) hit++; });
+      var coverage = hit / qToks.length;      // share of query words found in title
+      if (coverage > bestScore) { bestScore = coverage; best = it; }
+    });
+    // Only reorder when the best title clearly IS what the user typed.
+    if (best && bestScore >= 0.8 && best !== list.firstElementChild) {
+      list.insertBefore(best, list.firstElementChild);
+    }
+  }
+  function schedule() {
+    [180, 420, 800].forEach(function(d){ setTimeout(promote, d); });
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    var input = document.querySelector('.md-search__input');
+    if (input) input.addEventListener('input', schedule);
+  });
+})();
+</script>
 {% endblock %}
 
 {% block site_nav %}
