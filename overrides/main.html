@@ -338,9 +338,15 @@
         onerror: null,
         terminate: function() { if (realWorker) realWorker.terminate(); },
         postMessage: function(msg) {
-          // Apply bilingual expansion
+          // Sanitize + bilingual-expand the query before it reaches lunr.
           if (msg && typeof msg.data === 'string' && msg.data.length > 0 && msg.data.length < 200) {
-            msg = Object.assign({}, msg, { data: expand(msg.data) });
+            // Strip lunr query-syntax metacharacters. A literal ':' (field
+            // separator), '~' (fuzzy), '^' (boost) or '*' (wildcard) in the raw
+            // text makes lunr throw QueryParseError -> 0 results. This is why
+            // pasting a paper's full title like "Cog-RAG: Cognitive-Inspired ..."
+            // returned "no results": the ':' broke the query parser.
+            var cleaned = msg.data.replace(/[:~^*]/g, ' ').replace(/\s+/g, ' ').trim();
+            msg = Object.assign({}, msg, { data: expand(cleaned) });
           }
           if (realWorker) {
             realWorker.postMessage(msg);
