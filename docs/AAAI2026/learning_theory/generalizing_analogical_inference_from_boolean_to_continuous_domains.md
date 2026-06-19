@@ -147,11 +147,11 @@ tags:
 
 ## 相关论文
 
+- [\[ICML 2026\] Understanding the Parameter Space Geometry of Transformers Encoding Boolean Functions](../../ICML2026/learning_theory/understanding_the_parameter_space_geometry_of_transformers_encoding_boolean_func.md)
+- [\[ICLR 2026\] Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling](../../ICLR2026/learning_theory/best-of-majority_minimax-optimal_strategy_for_passk_inference_scaling.md)
+- [\[ICLR 2026\] Branch and Bound Search for Exact MAP Inference in Credal Networks](../../ICLR2026/learning_theory/branch_and_bound_search_for_exact_map_inference_in_credal_networks.md)
 - [\[ICML 2026\] Correcting Split Selection in Online Decision Trees via Anytime-Valid Inference](../../ICML2026/learning_theory/correcting_split_selection_in_online_decision_trees_via_anytime-valid_inference.md)
 - [\[NeurIPS 2025\] How Many Domains Suffice for Domain Generalization? A Tight Characterization via the Domain Shattering Dimension](../../NeurIPS2025/learning_theory/how_many_domains_suffice_for_domain_generalization_a_tight_characterization_via_.md)
-- [\[AAAI 2026\] Streaming Generated Gaussian Process Experts for Online Learning and Control: Extended Version](streaming_generated_gaussian_process_experts_for_online_learning_and_control_ext.md)
-- [\[AAAI 2026\] A Switching Framework for Online Interval Scheduling with Predictions](a_switching_framework_for_online_interval_scheduling_with_pr.md)
-- [\[ICML 2026\] MMD-Balls as Credal Sets: A PAC-Bayesian Framework for Epistemic Uncertainty in Test-Time Adaptation](../../ICML2026/learning_theory/mmd-balls_as_credal_sets_a_pac-bayesian_framework_for_epistemic_uncertainty_in_t.md)
 
 </div>
 

@@ -120,6 +120,7 @@ LIBERO 四套件平均成功率：
 LIBERO 的 Long 套件提升最显著（+2.2 over $\pi_{0.5}$），印证 VBE 长视野建模 + PBD 相位对齐对"长操控"的特殊价值。
 
 ### 消融实验
+
 | 配置 (VBE / PBD) | LIBERO Long | Real-World Gen. | Real-World Long |
 |------------------|-------------|------------------|------------------|
 | — / —（baseline） | 92.4 | 57.0 | 41.0 |
@@ -164,8 +165,8 @@ LIBERO 的 Long 套件提升最显著（+2.2 over $\pi_{0.5}$），印证 VBE �
 ## 相关论文
 
 - [\[ICML 2026\] Dual-Stream Diffusion for World-Model Augmented Vision-Language-Action Model](dual-stream_diffusion_for_world-model_augmented_vision-language-action_model.md)
-- [\[ICLR 2026\] AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild](../../ICLR2026/robotics/autofly_vision-language-action_model_for_uav_autonomous_navigation_in_the_wild.md)
 - [\[ICML 2026\] Contrastive Representation Regularization for Vision-Language-Action Models](contrastive_representation_regularization_for_vision-language-action_models.md)
+- [\[ICLR 2026\] AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild](../../ICLR2026/robotics/autofly_vision-language-action_model_for_uav_autonomous_navigation_in_the_wild.md)
 - [\[AAAI 2026\] Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning](../../AAAI2026/robotics/continuous_vision-language-action_co-learning_with_semantic-.md)
 - [\[ICML 2026\] Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation](seeing_realism_from_simulation_efficient_video_transfer_for_vision-language-acti.md)
 

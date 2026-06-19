@@ -1,20 +1,38 @@
 ---
 title: >-
-  ICLR2026 自监督/表示学习论文汇总 · 16篇论文解读
+  ICLR2026 自监督/表示学习论文汇总 · 24篇论文解读
 description: >-
-  16篇ICLR2026的自监督/表示学习方向论文解读，涵盖自监督学习、少样本学习、扩散模型、时序预测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  24篇ICLR2026的自监督/表示学习方向论文解读，涵盖自监督学习、对抗鲁棒、对齐/RLHF、少样本学习、扩散模型、时序预测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "自监督/表示学习"
   - "论文解读"
   - "论文笔记"
   - "自监督学习"
+  - "对抗鲁棒"
+  - "对齐/RLHF"
   - "少样本学习"
   - "扩散模型"
   - "时序预测"
 item_list:
+  - u: "adaptive_gaussian_expansion_for_on-the-fly_category_discovery/"
+    t: "Adaptive Gaussian Expansion for On-the-fly Category Discovery"
   - u: "adaptive_test-time_training_for_predicting_need_for_invasive_mechanical_ventilat/"
     t: "Adaptive Test-Time Training for Predicting Need for Invasive Mechanical Ventilation in Multi-Center Cohorts"
+  - u: "adversarial_encoding_perturbation_and_synthesis_for_set_representation_auxiliary/"
+    t: "Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning"
+  - u: "architecture-agnostic_test-time_adaptation_via_backprop-free_embedding_alignment/"
+    t: "Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment"
+  - u: "attention_please_revisiting_attentive_probing_through_the_lens_of_efficiency/"
+    t: "Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency"
+  - u: "bayesian_test-time_adaptation_via_dirichlet_feature_projection_and_gmm-driven_in/"
+    t: "Bayesian Test-Time Adaptation via Dirichlet feature projection and GMM-Driven Inference for Motor Imagery EEG Decoding"
+  - u: "bidirectional_predictive_coding/"
+    t: "Bidirectional Predictive Coding"
+  - u: "boosting_open_set_recognition_performance_through_modulated_representation_learn/"
+    t: "Boosting Open Set Recognition Performance through Modulated Representation Learning"
+  - u: "calibrated_information_bottleneck_for_trusted_multi-modal_clustering/"
+    t: "Calibrated Information Bottleneck for Trusted Multi-modal Clustering"
   - u: "chart_deep_research_in_lvlms_via_parallel_relative_policy_optimization/"
     t: "Chart Deep Research in LVLMs via Parallel Relative Policy Optimization"
   - u: "difficult_examples_hurt_unsupervised_contrastive_learning_a_theoretical_perspect/"
@@ -45,21 +63,53 @@ item_list:
     t: "Test-Time Efficient Pretrained Model Portfolios for Time Series Forecasting"
   - u: "why_prototypes_collapse_diagnosing_and_preventing_partial_collapse_in_prototypic/"
     t: "Why Prototypes Collapse: Diagnosing and Preventing Partial Collapse in Prototypical Self-Supervised Learning"
-item_total: 16
+item_total: 24
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**🔬 ICLR2026** · **16** 篇论文解读
+**🔬 ICLR2026** · **24** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (83)](../../CVPR2026/self_supervised/index.md) · [🧪 ICML2026 (24)](../../ICML2026/self_supervised/index.md) · [💬 ACL2026 (1)](../../ACL2026/self_supervised/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (13)](../../ICCV2025/self_supervised/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (91)](../../CVPR2026/self_supervised/index.md) · [🧪 ICML2026 (28)](../../ICML2026/self_supervised/index.md) · [💬 ACL2026 (1)](../../ACL2026/self_supervised/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (13)](../../ICCV2025/self_supervised/index.md)
 
 🔥 **高频主题：** 自监督学习 ×5
+
+**[Adaptive Gaussian Expansion for On-the-fly Category Discovery](adaptive_gaussian_expansion_for_on-the-fly_category_discovery.md)**
+
+:   本文先证明了"即时类别发现"（OCD）任务存在一个被现有哈希方法忽视的性能下界，进而把 OCD 拆成"开放集识别 + 实时新类发现"两个子任务，用软阈值先把已知类直接判出，再用基于多元高斯密度的自适应高斯扩展（AGE）在线增量地聚出新类，在多个数据集上把整体准确率平均拉高约 10%。
 
 **[Adaptive Test-Time Training for Predicting Need for Invasive Mechanical Ventilation in Multi-Center Cohorts](adaptive_test-time_training_for_predicting_need_for_invasive_mechanical_ventilat.md)**
 
 :   提出AdaTTT框架，通过动态特征感知self-supervised学习（自适应掩码策略）和原型引导的部分最优传输对齐，在ICU多中心EHR数据上实现鲁棒的测试时适应，用于提前24小时预测有创机械通气需求。
+
+**[Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning](adversarial_encoding_perturbation_and_synthesis_for_set_representation_auxiliary.md)**
+
+:   SRAL 把每个集合看成一个经验分布，用 2-Sliced-Wasserstein 距离编码出能感知"集合间差异"的表示，再在**特征/编码层而非输入层**注入对抗扰动、用 min-max 优化逼模型抵抗最坏扰动，作为一个可插到各种下游任务的自监督辅助目标；理论上证明该目标在期望意义下等价于优化集合间的 Sliced-Wasserstein 距离，在集合相似度排序、捆绑推荐、点云分类、主题集扩展四类任务上稳定超过现有集合编码器。
+
+**[Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment](architecture-agnostic_test-time_adaptation_via_backprop-free_embedding_alignment.md)**
+
+:   PEA 把"域偏移"拆解成嵌入空间里的平移（均值漂移）、缩放（方差漂移）、旋转（协方差漂移）三种几何畸变，然后用一套**无反向传播、与架构无关**的逐层协方差对齐流程，仅靠每个 batch 两次前向就把偏移的中间特征拉回源域分布，在 ImageNet-C / CIFAR-C 上达到 SOTA 精度的同时，内存只占 ~900MB、能直接跑在 Jetson Orin Nano 边缘设备上。
+
+**[Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency](attention_please_revisiting_attentive_probing_through_the_lens_of_efficiency.md)**
+
+:   针对「注意力探测」这一日益流行的冻结表示评估协议普遍参数臃肿的问题，本文先把已有方法统一成一个框架，再利用多头交叉注意力与多查询交叉注意力的**数学等价性**砍掉冗余投影矩阵，提出极轻量的 Efficient Probing（EP）——在 ImageNet-1K 上以不到 1.4M 参数把 MAE ViT-B 的探测精度从线性探测的 67.7% 拉到 75.6%，且各预训练范式上全面超越线性探测与已有注意力探测方法。
+
+**[Bayesian Test-Time Adaptation via Dirichlet feature projection and GMM-Driven Inference for Motor Imagery EEG Decoding](bayesian_test-time_adaptation_via_dirichlet_feature_projection_and_gmm-driven_in.md)**
+
+:   BTTA-DG 把每条 EEG 试次的逐时刻预测序列压成一个 Dirichlet 参数向量，用历史试次拟合的 GMM 当似然、深度模型输出当先验，做一次无梯度的贝叶斯后验校准，在运动想象脑机接口的跨被试/跨 session 迁移上达到 SOTA 且实时（15.7 ms/试次）。
+
+**[Bidirectional Predictive Coding](bidirectional_predictive_coding.md)**
+
+:   本文提出双向预测编码（bPC），用一个能量函数同时容纳「自上而下生成」和「自下而上判别」两种推断，让同一套生物可实现的局部电路既能像 discPC 那样准确分类、又能像 genPC 那样生成与重建，并在跨模态联想、遮挡补全等类脑任务上超过现有的单向 / 混合 PC 模型。
+
+**[Boosting Open Set Recognition Performance through Modulated Representation Learning](boosting_open_set_recognition_performance_through_modulated_representation_learn.md)**
+
+:   这篇论文指出几乎所有开集识别（OSR）方法都给 logits 用一个**固定温度** $\tau$，导致模型只能停在「实例级特征」和「类级特征」频谱的某一点；作者提出在训练过程中**调度温度**（核心是新颖的负余弦调度 NegCosSch），让模型先用低温画出粗决策边界、再升温把同类样本收紧，从而在不增加任何计算开销的前提下，把开集和闭集性能一起提升，尤其在更难的语义偏移基准（SSB）上收益最大。
+
+**[Calibrated Information Bottleneck for Trusted Multi-modal Clustering](calibrated_information_bottleneck_for_trusted_multi-modal_clustering.md)**
+
+:   针对信息瓶颈（IB）多模态聚类高度依赖"准确的互信息估计 + 干净伪标签"这两件做不到的事，本文提出 CLIB——用"一个主聚类头 + 多个模态校准头"的并行多头结构，让模态间互相纠偏，再配上一个基于信息冗余度的动态伪标签筛选机制，既把聚类准确率（Caltech-3V 上 ACC 77.8%）做上去，又把过自信问题（ECE 在多个数据集上腰斩）压下来。
 
 **[Chart Deep Research in LVLMs via Parallel Relative Policy Optimization](chart_deep_research_in_lvlms_via_parallel_relative_policy_optimization.md)**
 

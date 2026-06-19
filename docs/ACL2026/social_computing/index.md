@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 社会计算论文汇总 · 43篇论文解读
+  ACL2026 社会计算论文汇总 · 44篇论文解读
 description: >-
-  43篇ACL2026的社会计算方向论文解读，涵盖 LLM、语音、Agent、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  44篇ACL2026的社会计算方向论文解读，涵盖 LLM、语音、Agent、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "社会计算"
@@ -73,15 +73,15 @@ item_list:
     t: "PSK@EEUCA 2026: Fine-Tuning Large Language Models with Synthetic Data Augmentation for Multi-Class Toxicity Detection in Gaming Chat"
   - u: "reheat_nachos_for_dinner_evaluating_ai_support_for_cross-cultural_communication_/"
     t: "Reheat Nachos for Dinner? Evaluating AI Support for Cross-Cultural Communication of Neologisms"
-item_total: 43
+item_total: 44
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**💬 ACL2026** · **43** 篇论文解读
+**💬 ACL2026** · **44** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/social_computing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/social_computing/index.md) · [🔬 ICLR2026 (12)](../../ICLR2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/social_computing/index.md) · [🧪 ICML2026 (9)](../../ICML2026/social_computing/index.md) · [🔬 ICLR2026 (14)](../../ICLR2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
 
 🔥 **高频主题：** LLM ×14 · 语音 ×3 · Agent ×2 · 多模态 ×2
 
@@ -236,6 +236,10 @@ item_total: 43
 **[ToxiTrace: Gradient-Aligned Training for Explainable Chinese Toxicity Detection](toxitrace_gradient-aligned_training_for_explainable_chinese_toxicity_detection.md)**
 
 :   ToxiTrace 提出了一种面向 BERT 类编码器的可解释中文毒性检测方法，通过 CuSA（LLM 引导的弱标注）、GCLoss（梯度约束损失）和 ARCL（对抗推理对比学习）三个组件，在保持高效编码器推理的同时实现了句级分类准确率和连续有毒片段提取的双重提升。
+
+**[Understanding the Sociocultural Dimensions of Mental Health Discourse in Arabic-Language X Communities](understanding_the_sociocultural_dimensions_of_mental_health_discourse_in_arabic-.md)**
+
+:   本文用 GPT-4.1 自披露识别管线，从三个阿拉伯语 X（原 Twitter）心理健康社区筛出 8,147 条"亲历者"推文，再用加权对数几率、NMF 主题建模和六域文化关键词框架，刻画出边缘型人格障碍（BPD）、双相障碍、ADHD 三类社区在宗教、医学、关系、身份等维度上的话语差异，并明确把所有结论定位为"生成假设"而非"确认结论"。
 
 **[VeriTaS: The First Dynamic Benchmark for Multimodal Automated Fact-Checking](veritas_the_first_dynamic_benchmark_for_multimodal_automated_fact-checking.md)**
 

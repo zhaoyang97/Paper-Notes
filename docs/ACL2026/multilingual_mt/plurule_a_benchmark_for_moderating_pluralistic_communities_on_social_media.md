@@ -88,6 +88,7 @@ PluRule 是 benchmark，不训练新模型。评估模型包括 Qwen3-VL-4B/8B/3
 ## 实验关键数据
 
 ### 主实验
+
 | Split | Instances | Comments | Images | Subreddits / Clusters | Rules / Clusters | Languages |
 |-------|-----------|----------|--------|------------------------|------------------|-----------|
 | Train | 9,155 | 51,968 | 2,077 | 861 / 25 | 1,336 / 27 | 9 |
@@ -96,6 +97,7 @@ PluRule 是 benchmark，不训练新模型。评估模型包括 Qwen3-VL-4B/8B/3
 | Total | 13,371 | 72,675 | 3,643 | 1,989 / 25 | 2,885 / 27 | 9 |
 
 ### 消融实验
+
 | 模型 / 变体 | Comment Only | +Discussion | +Submission | +User | +Images | 说明 |
 |-------------|--------------|-------------|-------------|-------|---------|------|
 | Qwen3-VL-4B Instruct | 49.6 | 49.2 | 48.3 | 48.9 | 48.4 | 基本低于或接近 50% baseline |
@@ -142,8 +144,8 @@ PluRule 是 benchmark，不训练新模型。评估模型包括 Qwen3-VL-4B/8B/3
 
 ## 相关论文
 
-- [\[ACL 2026\] Cross-Cultural Transfer of Emoji Semantics and Sentiment in Financial Social Media](cross-cultural_transfer_of_emoji_semantics_and_sentiment_in_financial_social_med.md)
 - [\[CVPR 2025\] SMTPD: A New Benchmark for Temporal Prediction of Social Media Popularity](../../CVPR2025/multilingual_mt/smtpd_a_new_benchmark_for_temporal_prediction_of_social_media_popularity.md)
+- [\[ACL 2026\] Cross-Cultural Transfer of Emoji Semantics and Sentiment in Financial Social Media](cross-cultural_transfer_of_emoji_semantics_and_sentiment_in_financial_social_med.md)
 - [\[ACL 2026\] MORPHOGEN: A Multilingual Benchmark for Evaluating Gender-Aware Morphological Generation](morphogen_a_multilingual_benchmark_for_evaluating_gender-aware_morphological_gen.md)
 - [\[ACL 2026\] The GaoYao Benchmark: A Comprehensive Framework for Evaluating Multilingual and Multicultural Abilities of Large Language Models](the_gaoyao_benchmark_a_comprehensive_framework_for_evaluating_multilingual_and_m.md)
 - [\[ACL 2026\] TransLaw: A Large-Scale Dataset and Multi-Agent Benchmark Simulating Professional Translation of Hong Kong Case Law](translaw_a_large-scale_dataset_and_multi-agent_benchmark_simulating_professional.md)

@@ -120,7 +120,7 @@ tags:
 - [\[ICML 2025\] FSL-SAGE: Accelerating Federated Split Learning via Smashed Activation Gradient Estimation](fsl-sage_accelerating_federated_split_learning_via_smashed_activation_gradient_e.md)
 - [\[NeurIPS 2025\] Covariances for Free: Exploiting Mean Distributions for Training-free Federated Learning](../../NeurIPS2025/optimization/covariances_for_free_exploiting_mean_distributions_for_training-free_federated_l.md)
 - [\[ICML 2026\] Bayesian Gated Non-Negative Contrastive Learning](../../ICML2026/optimization/bayesian_gated_non-negative_contrastive_learning.md)
-- [\[NeurIPS 2025\] Near-Exponential Savings for Mean Estimation with Active Learning](../../NeurIPS2025/optimization/near-exponential_savings_for_mean_estimation_with_active_learning.md)
+- [\[ICML 2025\] Clipping Improves Adam-Norm and AdaGrad-Norm when the Noise Is Heavy-Tailed](clipping_improves_adam-norm_and_adagrad-norm_when_the_noise_is_heavy-tailed.md)
 
 </div>
 

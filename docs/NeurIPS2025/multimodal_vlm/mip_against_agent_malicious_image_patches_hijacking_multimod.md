@@ -119,10 +119,10 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents](../../ACL2025/multimodal_vlm/agent_rewardbench.md)
-- [\[NeurIPS 2025\] VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents](vagen_reinforcing_world_model_reasoning_for_multi-turn_vlm_agents.md)
 - [\[ACL 2025\] MMINA: Benchmarking Multihop Multimodal Internet Agents](../../ACL2025/multimodal_vlm/mmina_benchmarking_multihop_multimodal_internet_agents.md)
 - [\[ICML 2025\] Robust Multimodal Large Language Models Against Modality Conflict](../../ICML2025/multimodal_vlm/robust_multimodal_large_language_models_against_modality_conflict.md)
 - [\[NeurIPS 2025\] Mint: A Simple Test-Time Adaptation of Vision-Language Models against Common Corruptions](mint_a_simple_testtime_adaptation_of_visionlanguage_models_a.md)
+- [\[CVPR 2025\] From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons](../../CVPR2025/multimodal_vlm/from_multimodal_llms_to_generalist_embodied_agents_methods_and_lessons.md)
 
 </div>
 

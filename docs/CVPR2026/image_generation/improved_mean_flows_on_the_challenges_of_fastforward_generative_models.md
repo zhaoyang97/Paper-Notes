@@ -66,6 +66,7 @@ iMF 现在有一堆异构条件：两个时间步 $r,t$、类别 $c$、引导集
 ## 实验关键数据
 
 ### 主实验（系统级，ImageNet 256×256，1-NFE，从零训练）
+
 | 配置 | # params | Gflops | FID ↓ | IS ↑ |
 |------|------|------|------|------|
 | MF-B/2 | 131M | 23.1 | 6.17 | 208.0 |
@@ -77,6 +78,7 @@ iMF 现在有一堆异构条件：两个时间步 $r,t$、类别 $c$、引导集
 iMF-XL/2 拿到 1.72 FID（相对原 MF 约 50% 提升），且 iMF-B/2 仅 89M 就达到 3.39，已逼平 676M 的 MF-XL/2（3.43）——同等甚至更小规模下大幅领先，全程无蒸馏、无预训练对齐模型。
 
 ### 消融实验（MF-B/2 骨架，240 epoch，FID-50K）
+
 | 配置 | FID(w/o CFG) | FID(w/ CFG) | 说明 |
 |------|------|------|------|
 | 原 MF | 32.69 | 6.17 | 起点 |
@@ -124,9 +126,9 @@ iMF-XL/2 拿到 1.72 FID（相对原 MF 约 50% 提升），且 iMF-B/2 仅 89M 
 
 - [\[CVPR 2026\] CaTok: Taming Mean Flows for One-Dimensional Causal Image Tokenization](catok_taming_mean_flows_for_one-dimensional_causal_image_tokenization.md)
 - [\[CVPR 2026\] Functional Mean Flow in Hilbert Space](functional_mean_flow_in_hilbert_space.md)
+- [\[CVPR 2026\] Stable Mean Flow: Lyapunov-Inspired One-Step Flow Matching](stable_mean_flow_lyapunov-inspired_one-step_flow_matching.md)
+- [\[CVPR 2026\] Learning Straight Flows: Variational Flow Matching for Efficient Generation](learning_straight_flows_variational_flow_matching_for_efficient_generation.md)
 - [\[CVPR 2026\] Temporal Equilibrium MeanFlow: Bridging the Scale Gap for One-Step Generation](temporal_equilibrium_meanflow_bridging_the_scale_gap_for_one-step_generation.md)
-- [\[ICML 2025\] Normalizing Flows are Capable Generative Models](../../ICML2025/image_generation/normalizing_flows_are_capable_generative_models.md)
-- [\[ICML 2026\] Adapting Noise to Data: Generative Flows from Learned 1D Processes](../../ICML2026/image_generation/adapting_noise_to_data_generative_flows_from_1d_processes.md)
 
 </div>
 

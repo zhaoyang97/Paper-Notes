@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2605.25547](https://arxiv.org/abs/2605.25547)  
 **代码**: 项目主页（论文末尾标注，未在正文给出仓库地址）  
-**领域**: 机器人
+**领域**: 机器人  
 **关键词**: 推理时采样, Action-VAE, 任务进度验证器, 通用机器人策略, 即插即用  
 
 ## 一句话总结
@@ -156,11 +156,11 @@ CALVIN 上以 VPP 为底，比较三种采样策略（候选数 $k=16$）：
 
 ## 相关论文
 
-- [\[ICML 2026\] Drift is a Sampling Error: SNR-Aware Power Distributions for Long-Horizon Robotic Planning](drift_is_a_sampling_error_snr-aware_power_distributions_for_long-horizon_robotic.md)
 - [\[ICML 2026\] RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies](robomme_benchmarking_and_understanding_memory_for_robotic_generalist_policies.md)
+- [\[ICML 2026\] Drift is a Sampling Error: SNR-Aware Power Distributions for Long-Horizon Robotic Planning](drift_is_a_sampling_error_snr-aware_power_distributions_for_long-horizon_robotic.md)
 - [\[ICML 2026\] Decompose and Recompose: Reasoning New Skills from Existing Abilities for Cross-Task Robotic Manipulation](decompose_and_recompose_reasoning_new_skills_from_existing_abilities_for_cross-t.md)
-- [\[CVPR 2026\] CycleManip: Enabling Cyclic Task Manipulation via Effective Historical Perception and Understanding](../../CVPR2026/robotics/cyclemanip_enabling_cyclic_task_manipulation_via_effective_historical_percepti.md)
 - [\[CVPR 2026\] Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](../../CVPR2026/robotics/adaptive_action_chunking_at_inference-time_for_vision-language-action_models.md)
+- [\[CVPR 2026\] Recurrent Reasoning with Vision-Language Models for Estimating Long-Horizon Embodied Task Progress](../../CVPR2026/robotics/recurrent_reasoning_with_vision-language_models_for_estimating_long-horizon_embo.md)
 
 </div>
 

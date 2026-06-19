@@ -2,13 +2,12 @@
 title: >-
   [论文解读] Predicting LLM Reasoning Performance with Small Proxy Model
 description: >-
-  [ICLR 2026][LLM推理][scaling law] 提出 rBridge，通过使用 frontier 模型的推理 trace 作为 gold label 并按 token 级任务对齐加权 NLL，使 ≤1B 的小模型能有效预测 13B-32B 大模型的推理性能，在数据集排名任务中实现 100× 以上的计算节省。
+  [ICLR 2026][Reasoning][scaling law] 提出 rBridge，通过使用 frontier 模型的推理 trace 作为 gold label 并按 token 级任务对齐加权 NLL，使 ≤1B 的小模型能有效预测 13B-32B 大模型的推理性能，在数据集排名任务中实现 100× 以上的计算节省。
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "scaling law"
   - "proxy model"
-  - "reasoning"
   - "pre-training data selection"
   - "negative log-likelihood"
 ---
@@ -145,10 +144,10 @@ rBridge 不训练任何新模型，而是直接取预训练过程中保存的小
 ## 相关论文
 
 - [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Models](predicting_llm_reasoning_performance_with_small_proxy_models.md)
-- [\[ICLR 2026\] The Path of Least Resistance: Guiding LLM Reasoning Trajectories for Efficient Consistency](the_path_of_least_resistance_guiding_llm_reasoning_trajectories_for_efficient_co.md)
 - [\[ICLR 2026\] No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes](no_answer_needed_predicting_llm_answer_accuracy_from_question-only_linear_probes.md)
 - [\[ICLR 2026\] Why is Your Language Model a Poor Implicit Reward Model?](why_is_your_language_model_a_poor_implicit_reward_model.md)
 - [\[ICLR 2026\] Efficient Test-Time Scaling for Small Vision-Language Models](efficient_test-time_scaling_for_small_vision-language_models.md)
+- [\[ICLR 2026\] Best-of-∞: Asymptotic Performance of Test-Time LLM Ensembling](best-of-infinity_asymptotic_performance_of_test-time_llm_ensembling.md)
 
 </div>
 

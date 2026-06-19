@@ -89,6 +89,7 @@ flowchart TD
 关键结论：AV Filter 在**保留 RAG 清洁效用**这件事上几乎不掉点（相比 Vanilla 平均掉 ≤ 5%），而 Keyword / Decoding 这种 isolate-then-aggregate 会掉 15-20%；同时在 PIA / Poison 攻击下 RACC 还比基线高最多 20%。
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | $\alpha = 5 / 10 / \infty$ | 三者表现接近，$\alpha=10$ 略优 | top-$\alpha$ 数量需匹配恶意段中 Heavy Hitter 数；过小漏信号、过大被噪声稀释 |
@@ -135,10 +136,10 @@ flowchart TD
 ## 相关论文
 
 - [\[ACL 2026\] Disco-RAG: Discourse-Aware Retrieval-Augmented Generation](../../ACL2026/information_retrieval/disco-rag_discourse-aware_retrieval-augmented_generation.md)
+- [\[ICML 2026\] LARE: Low-Attention Region Encoding for Text–Image Retrieval](lare_low-attention_region_encoding_for_text-image_retrieval.md)
 - [\[ACL 2026\] VideoStir: Understanding Long Videos via Spatio-Temporally Structured and Intent-Aware RAG](../../ACL2026/information_retrieval/videostir_understanding_long_videos_via_spatio-temporally_structured_and_intent-.md)
 - [\[ICLR 2026\] Bayesian Attention Mechanism: A Probabilistic Framework for Positional Encoding and Context Length Extrapolation](../../ICLR2026/information_retrieval/bayesian_attention_mechanism_a_probabilistic_framework_for_positional_encoding_a.md)
-- [\[AAAI 2026\] SR-KI: Scalable and Real-Time Knowledge Integration into LLMs via Supervised Attention](../../AAAI2026/information_retrieval/sr-ki_scalable_and_real-time_knowledge_integration_into_llms_via_supervised_atte.md)
-- [\[AAAI 2026\] RRRA: Resampling and Reranking through a Retriever Adapter](../../AAAI2026/information_retrieval/rrra_resampling_and_reranking_through_a_retriever_adapter.md)
+- [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](../../ICLR2026/information_retrieval/beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
 
 </div>
 

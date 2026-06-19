@@ -163,7 +163,7 @@ $$w_{t+1} = \begin{cases} w_t \cdot (1 + \gamma_w \cdot \eta_1) & \text{连续4�
 - [\[NeurIPS 2025\] Evolutionary Prediction Games](evolutionary_prediction_games.md)
 - [\[AAAI 2026\] EvoEmpirBench: Dynamic Spatial Reasoning with Agent-ExpVer](../../AAAI2026/others/evoempirbench_dynamic_spatial_reasoning_with_agent-expver.md)
 - [\[ICLR 2026\] Building Spatial World Models from Sparse Transitional Episodic Memories](../../ICLR2026/others/building_spatial_world_models_from_sparse_transitional_episodic_memories.md)
-- [\[ACL 2025\] Theoretical Guarantees for Minimum Bayes Risk Decoding](../../ACL2025/others/theoretical_guarantees_for_minimum_bayes_risk_decoding.md)
+- [\[CVPR 2026\] RaUF: Learning the Spatial Uncertainty Field of Radar](../../CVPR2026/others/rauf_learning_the_spatial_uncertainty_field_of_radar.md)
 
 </div>
 

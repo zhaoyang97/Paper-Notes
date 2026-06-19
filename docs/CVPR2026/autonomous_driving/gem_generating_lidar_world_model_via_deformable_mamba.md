@@ -35,6 +35,7 @@ GEM 把 LiDAR 扫描序列和 Mamba 的逐步扫描机制对齐，用一个 Mamb
 **核心 idea**：用 Mamba 替代 CNN/Transformer 来匹配 LiDAR 的序列扫描，并显式地把动态/静态特征**解耦**后分路建模——即"用对齐扫描结构的可变形 Mamba + 无监督动静解耦"来同时解决无序性和语义弱两个问题。
 
 ## 方法详解
+
 ### 整体框架
 GEM 建立在**潜在扩散（latent diffusion）**范式上，整条流水线分三段：① 一个 LiDAR 场景 tokenizer 把无序点云压成有序 latent 序列；② 在 latent 上做无监督动静解耦 + 三路可变形 Mamba 提特征；③ 用扩散过程从噪声中去噪生成未来帧的 latent，再解码回点云。形式上，时刻 $u$ 给定 $\tau_p$ 帧历史点云 $P_p$ 及其 ego status，目标是预测 $\tau_f$ 帧未来点云 $P_f$。tokenizer 的 encoder $E$ 把历史点云编成 $Z_p\in\mathbb{R}^{\tau_p\times h\times w\times C}$，控制信号（历史/未来 ego status、可选 BEV layout）编成条件特征，Mamba 世界模型输出 $\hat Z_f\in\mathbb{R}^{\tau_f\times h\times w\times C}$，最后由 decoder $D$ 解码成预测点云。可选地，挂一个 planner 自主预测未来 ego status（实现自动 rollout），或喂 BEV layout 实现可控生成。
 
@@ -153,11 +154,11 @@ nuScenes 世界建模精度（1s 预测，越低越好）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] SparseWorld-TC: Trajectory-Conditioned Sparse Occupancy World Model](sparseworld_tc_trajectory_conditioned_sparse_occupancy_world_model.md)
 - [\[CVPR 2026\] Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation](deformable_gaussian_occupancy_decoupling_rigid_and_nonrigid_motion_with_factoriz.md)
+- [\[CVPR 2026\] SparseWorld-TC: Trajectory-Conditioned Sparse Occupancy World Model](sparseworld_tc_trajectory_conditioned_sparse_occupancy_world_model.md)
+- [\[CVPR 2026\] Think Before You Drive: World Model-Inspired Multimodal Grounding](think_before_you_drive_world_model-inspired_multimodal_grounding.md)
 - [\[CVPR 2025\] Trajectory Mamba: Efficient Attention-Mamba Forecasting Model Based on Selective SSM](../../CVPR2025/autonomous_driving/trajectory_mamba_efficient_attention-mamba_forecasting_model_based_on_selective_.md)
 - [\[CVPR 2026\] U4D: Uncertainty-Aware 4D World Modeling from LiDAR Sequences](u4d_uncertainty-aware_4d_world_modeling_from_lidar_sequences.md)
-- [\[CVPR 2026\] GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation](gaussiandwm_3d_gaussian_driving_world_model_for_unified_scene_understanding_and_.md)
 
 </div>
 

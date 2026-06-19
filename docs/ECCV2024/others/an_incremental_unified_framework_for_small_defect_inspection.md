@@ -131,10 +131,10 @@ IUF基于Transformer重建网络（以UniAD为基础）。整体流程为：正�
 ## 相关论文
 
 - [\[CVPR 2026\] Hyperbolic Defect Feature Synthesis for Few-Shot Defect Classification](../../CVPR2026/others/hyperbolic_defect_feature_synthesis_for_few-shot_defect_classification.md)
-- [\[CVPR 2026\] A Unified Framework for Knowledge Transfer in Bidirectional Model Scaling](../../CVPR2026/others/a_unified_framework_for_knowledge_transfer_in_bidirectional_model_scaling.md)
 - [\[NeurIPS 2025\] A Unified Framework for Provably Efficient Algorithms to Estimate Shapley Values](../../NeurIPS2025/others/a_unified_framework_for_provably_efficient_algorithms_to_estimate_shapley_values.md)
-- [\[CVPR 2026\] CAD-Refiner: A Unified Framework for CAD Generation and Iterative Editing](../../CVPR2026/others/cad-refiner_a_unified_framework_for_cad_generation_and_iterative_editing.md)
 - [\[ECCV 2024\] A Framework for Efficient Model Evaluation through Stratification, Sampling, and Estimation](a_framework_for_efficient_model_evaluation_through_stratific.md)
+- [\[ECCV 2024\] ADMap: Anti-disturbance Framework for Vectorized HD Map Construction](admap_anti-disturbance_framework_for_vectorized_hd_map_construction.md)
+- [\[AAAI 2026\] Incremental Maintenance of DatalogMTL Materialisations](../../AAAI2026/others/incremental_maintenance_of_datalogmtl_materialisations.md)
 
 </div>
 

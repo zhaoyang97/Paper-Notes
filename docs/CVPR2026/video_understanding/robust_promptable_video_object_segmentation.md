@@ -103,6 +103,7 @@ $$\mathcal{L}_{\text{total}}=\frac{1}{T\cdot O}\sum_{t=1}^{T}\sum_{o=1}^{O}\math
 仅训 1.1M 参数、22GB 显存，反而比全量微调 80.9M 参数（25GB）效果更好（71.8 vs 71.5），说明记忆条件鲁棒化既更省又更准。长视频上（把 ~6s 片段拼成 ~42s/1K 帧），SAM2 从 69.6 暴跌到 52.3，MoGA 从 71.8 到 56.2，始终保持对 SAM2 的优势，表明记忆库增大时门控仍稳定。
 
 ### 消融实验
+
 | 配置 | MVSeg-adv 𝒥&ℱ | 说明 |
 |------|------|------|
 | 无任何条件 | 69.6 | 等价 SAM2 基线 |
@@ -151,11 +152,11 @@ $$\mathcal{L}_{\text{total}}=\frac{1}{T\cdot O}\sum_{t=1}^{T}\sum_{o=1}^{O}\math
 
 ## 相关论文
 
+- [\[CVPR 2026\] Long-RVOS: A Comprehensive Benchmark for Long-term Referring Video Object Segmentation](long-rvos_a_comprehensive_benchmark_for_long-term_referring_video_object_segment.md)
+- [\[CVPR 2026\] InterRVOS: Interaction-Aware Referring Video Object Segmentation](interrvos_interaction-aware_referring_video_object_segmentation.md)
 - [\[CVPR 2026\] Occlusion-Aware SORT: Observing Occlusion for Robust Multi-Object Tracking](occlusion-aware_sort_observing_occlusion_for_robust_multi-object_tracking.md)
-- [\[CVPR 2026\] Scene-Centric Unsupervised Video Panoptic Segmentation](scene-centric_unsupervised_video_panoptic_segmentation.md)
+- [\[CVPR 2026\] DeRVOS: Decoupling Consistent Trajectory Generation and Multimodal Understanding for Referring Video Object Segmentation](dervos_decoupling_consistent_trajectory_generation_and_multimodal_understanding_.md)
 - [\[CVPR 2026\] EgoXtreme: A Dataset for Robust Object Pose Estimation in Egocentric Views under Extreme Conditions](egoxtreme_a_dataset_for_robust_object_pose_estimation_in_egocentric_views_under_.md)
-- [\[CVPR 2026\] Bootstrapping Video Semantic Segmentation Model via Distillation-assisted Test-Time Adaptation](bootstrapping_video_semantic_segmentation_model_via_distillation-assisted_test-t.md)
-- [\[CVPR 2026\] Reconstruction-Guided Slot Curriculum: Addressing Object Over-Fragmentation in Video Object-Centric Learning](reconstruction-guided_slot_curriculum_addressing_object_over-fragmentation_in_vi.md)
 
 </div>
 

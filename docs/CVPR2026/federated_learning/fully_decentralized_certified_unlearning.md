@@ -93,6 +93,7 @@ flowchart TD
 ASR（Attack Success Rate / 后门精度）指带触发器的样本被分到攻击目标类的比例，越接近 10% 随机猜测越说明后门被抹干净。
 
 ### 理论对比（DDP vs RR-DU，凸情形）
+
 | 方法 | 噪声尺度 | 删除容量（缩放） |
 |------|---------|------|
 | DDP（group privacy） | $\Theta\big(\tfrac{mL}{\varepsilon}\sqrt{\tfrac{T\ln(1/\delta)\ln N}{N}}\big)$，**随 $m$ 线性增长** | 被 group privacy 根本限制 |
@@ -137,7 +138,9 @@ ASR（Attack Success Rate / 后门精度）指带触发器的样本被分到攻�
 
 - [\[CVPR 2026\] GDFA: Geometry-Driven Federated Unlearning with Directional Task Vector Alignment](gdfa_geometry-driven_federated_unlearning_with_directional_task_vector_alignment.md)
 - [\[CVPR 2026\] Personalized Federated Training of Diffusion Models with Privacy Guarantees](personalized_federated_training_of_diffusion_models_with_privacy_guarantees.md)
-- [\[CVPR 2026\] HiLoRA: Hierarchical Low-Rank Adaptation for Personalized Federated Learning](hilora_hierarchical_low-rank_adaptation_for_personalized_federated_learning.md)
+- [\[CVPR 2026\] FedAlign: Differentially Private Distribution Alignment for Non-IID Federated Learning](fedalign_differentially_private_distribution_alignment_for_non-iid_federated_lea.md)
+- [\[CVPR 2026\] FedAdamom: Adaptive Momentum for Improved Generalization in Federated Optimization](fedadamom_adaptive_momentum_for_improved_generalization_in_federated_optimizatio.md)
+- [\[CVPR 2026\] FedRAC: Rolling Submodel Allocation for Collaborative Fairness in Federated Learning](fedrac_rolling_submodel_allocation_for_collaborative_fairness_in_federated_learn.md)
 
 </div>
 

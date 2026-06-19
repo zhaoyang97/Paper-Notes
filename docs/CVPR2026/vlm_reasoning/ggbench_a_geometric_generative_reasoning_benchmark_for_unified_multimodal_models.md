@@ -2,10 +2,10 @@
 title: >-
   [论文解读] GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models
 description: >-
-  [CVPR 2026][多模态VLM][几何生成推理] GGBench 提出一个面向统一多模态模型（UMM）的"几何生成推理"评测基准：1,411 道几何作图题，每题严格对齐"自然语言步骤 + 可执行 GeoGebra 代码 + 渲染图"三模态，配套四阶段评测协议，实验发现"端到端出图"的 UMM 远落后于"先写代码再渲染"的 LLM，揭示现有模型"会答题但不会作图"的鸿沟。
+  [CVPR 2026][VLM Reasoning][几何生成推理] GGBench 提出一个面向统一多模态模型（UMM）的"几何生成推理"评测基准：1,411 道几何作图题，每题严格对齐"自然语言步骤 + 可执行 GeoGebra 代码 + 渲染图"三模态，配套四阶段评测协议，实验发现"端到端出图"的 UMM 远落后于"先写代码再渲染"的 LLM，揭示现有模型"会答题但不会作图"的鸿沟。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "几何生成推理"
   - "统一多模态模型"
   - "GeoGebra"
@@ -138,11 +138,11 @@ GGBench 把模型按架构范式分到两条轨道分别评测：**轨道 A（�
 
 ## 相关论文
 
-- [\[CVPR 2026\] TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models](tuna_taming_unified_visual_representations_for_native_unified_multimodal_models.md)
-- [\[CVPR 2026\] Geoint-R1: Formalizing Multimodal Geometric Reasoning with Dynamic Auxiliary Constructions](geoint-r1_formalizing_multimodal_geometric_reasoning_with_dynamic_auxiliary_cons.md)
 - [\[CVPR 2026\] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning](arm-thinker_reinforcing_multimodal_generative_reward_models_with_agentic_tool_us.md)
-- [\[CVPR 2026\] UNICBench: UNIfied Counting Benchmark for MLLM](unicbench_unified_counting_benchmark_for_mllm.md)
-- [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
+- [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
+- [\[CVPR 2026\] Geoint-R1: Formalizing Multimodal Geometric Reasoning with Dynamic Auxiliary Constructions](geoint-r1_formalizing_multimodal_geometric_reasoning_with_dynamic_auxiliary_cons.md)
+- [\[ICLR 2026\] Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models](../../ICLR2026/vlm_reasoning/spatial-dise_a_unified_benchmark_for_evaluating_spatial_reasoning_in_vision-lang.md)
+- [\[CVPR 2026\] EduDiag: A Benchmark for Educational Diagnostic Reasoning with Error Tracing and Correction on Large Multimodal Models](edudiag_a_benchmark_for_educational_diagnostic_reasoning_with_error_tracing_and_.md)
 
 </div>
 

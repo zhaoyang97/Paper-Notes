@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.21637](https://arxiv.org/abs/2602.21637)  
 **代码**: [zdipath/CARE](https://github.com/zdipath/CARE)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 计算病理学, 全切片图像分析, 基础模型, 自适应区域建模, 跨模态对齐, RNA/蛋白质引导
 
 ## 一句话总结
@@ -167,7 +167,7 @@ ROI 特征在依赖局部信号的任务上优于全局 WSI 特征，与临床�
 - [\[ICML 2025\] Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching](../../ICML2025/computational_biology/scalable_generation_of_spatial_transcriptomics_from_histology_images_via_whole-s.md)
 - [\[ICLR 2026\] Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials](../../ICLR2026/computational_biology/zatom-1_a_multimodal_flow_foundation_model_for_3d_molecules_and_materials.md)
 - [\[NeurIPS 2025\] Uncertainty-Guided Model Selection for Tabular Foundation Models in Biomolecule Efficacy Prediction](../../NeurIPS2025/computational_biology/uncertainty-guided_model_selection_for_tabular_foundation_models_in_biomolecule_.md)
-- [\[NeurIPS 2025\] Iterative Foundation Model Fine-Tuning on Multiple Rewards](../../NeurIPS2025/computational_biology/iterative_foundation_model_fine-tuning_on_multiple_rewards.md)
+- [\[CVPR 2026\] BiGMINT: Biologically-guided Hierarchical Multimodal Integration for Modeling Multiple Compound Activities in Drug Discovery](bigmint_biologically-guided_hierarchical_multimodal_integration_for_modeling_mul.md)
 
 </div>
 

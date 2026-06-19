@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2601.13690](https://arxiv.org/abs/2601.13690)  
 **代码**: [GitHub](https://github.com/YGswu/Dr.-Assistant)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 临床诊断推理, 强化学习, 结构化数据, 问诊引导, CDSS
 
 ## 一句话总结

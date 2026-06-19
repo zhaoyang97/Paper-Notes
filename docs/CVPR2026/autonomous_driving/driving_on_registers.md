@@ -101,6 +101,7 @@ NAVSIM-v2（navhard-two-stage，官方修 bug 后）与闭环 HUGSIM（零样本
 效率上，相比 ViT-L 的 GTRS，单样本前向从 400ms 降到 110ms（>3× 吞吐），GFLOPS 和峰值显存也约 3× 下降。把 GTRS 主干直接换成「ViT-S + register 压缩」（保留其词典与打分器）也比同尺寸 V2-99 主干更好且 >3× 吞吐，说明压缩本身就有增益。
 
 ### 消融实验
+
 | 配置 | PDMS | 说明 |
 |------|------|------|
 | Random init 主干 | 70.1 | 预训练至关重要 |
@@ -152,10 +153,10 @@ NAVSIM-v2（navhard-two-stage，官方修 bug 后）与闭环 HUGSIM（零样本
 ## 相关论文
 
 - [\[CVPR 2026\] SGDrive: Scene-to-Goal Hierarchical World Cognition for Autonomous Driving](sgdrive_scene-to-goal_hierarchical_world_cognition_for_autonomous_driving.md)
-- [\[CVPR 2026\] DVGT: Driving Visual Geometry Transformer](dvgt_driving_visual_geometry_transformer.md)
+- [\[CVPR 2026\] LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving](lead_minimizing_learner-expert_asymmetry_in_end-to-end_driving.md)
+- [\[CVPR 2026\] Spatial Retrieval Augmented Autonomous Driving](spatial_retrieval_augmented_autonomous_driving.md)
 - [\[CVPR 2026\] Efficient Equivariant Transformer for Self-Driving Agent Modeling](efficient_equivariant_transformer_for_self-driving_agent_modeling.md)
 - [\[CVPR 2026\] Reliable Policy Transfer for Safety-Aware End-to-End Driving with Deep Reinforcement Learning](reliable_policy_transfer_for_safety-aware_end-to-end_driving_with_deep_reinforce.md)
-- [\[CVPR 2026\] MindDriver: Introducing Progressive Multimodal Reasoning for Autonomous Driving](minddriver_introducing_progressive_multimodal_reasoning_for_autonomous_driving.md)
 
 </div>
 

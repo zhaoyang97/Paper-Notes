@@ -110,6 +110,7 @@ CSaN 在仅增加约 5% 参数/FLOPs 的前提下稳定涨点，并让轻量变�
 COCO 目标检测（Swin-Tiny + RetinaNet，两模型都从同一 ImageNet 预训练权重初始化、CSaN 的私有 key 随机初始化以剥离预训练精度优势）：mAP 从 37.3 提升到 38.0，AP50/AP75/APM/APL 全面提升。
 
 ### 消融实验
+
 | 配置 | 骨架 | #Params | Top-1 (%) | 说明 |
 |------|------|---------|-----------|------|
 | Swin-Original | Swin-Tiny | 28.3M | 81.3 | 基线 |
@@ -153,11 +154,11 @@ COCO 目标检测（Swin-Tiny + RetinaNet，两模型都从同一 ImageNet 预�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Learning complete and explainable visual representations from itemized text supervision](learning_complete_and_explainable_visual_representations_from_itemized_text_supe.md)
 - [\[AAAI 2026\] Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations](../../AAAI2026/interpretability/concepts_from_representations_post-hoc_concept_bottleneck_models_via_sparse_deco.md)
-- [\[CVPR 2026\] NeuroRule: Bridging Vision and Logic with Differentiable Rule Induction](neurorule_bridging_vision_and_logic_with_differentiable_rule_induction.md)
-- [\[CVPR 2026\] Improving Sparse Autoencoder with Dynamic Attention](improving_sparse_autoencoder_with_dynamic_attention.md)
 - [\[CVPR 2026\] Draft and Refine with Visual Experts](draft_and_refine_with_visual_experts.md)
+- [\[CVPR 2026\] Improving Sparse Autoencoder with Dynamic Attention](improving_sparse_autoencoder_with_dynamic_attention.md)
+- [\[CVPR 2026\] Rounded or Streamlined Head? Bridging Concept Bottleneck Models and Attribute-Described Object Parts](rounded_or_streamlined_head_bridging_concept_bottleneck_models_and_attribute-des.md)
+- [\[CVPR 2026\] Pixel2Phys: Distilling Governing Laws from Visual Dynamics](pixel2phys_distilling_governing_laws_from_visual_dynamics.md)
 
 </div>
 

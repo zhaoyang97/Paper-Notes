@@ -75,6 +75,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 基准规模与对比
+
 | 基准 | 图像数 | 问答对 | 模态 | 任务 | 开放式 |
 |------|--------|--------|------|------|--------|
 | Brain Tumor VQA | 750 | 14,015 | 1 | 3 | 否 |
@@ -87,6 +88,7 @@ flowchart TD
 （带 * 为含脑影像的通用基准，仅其脑部子集可比。）闭式评测 6,823 条五选一、开放式 2,704 条自由描述。
 
 ### 24 模型评测主结果（闭式 VQA 总体准确率，节选）
+
 | 模型 | 类型 | Overall ACC |
 |------|------|-------------|
 | Physician（医生参照） | 人类 | **91.35** |
@@ -134,10 +136,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] Gastric-X: A Multimodal Multi-Phase Benchmark Dataset for Advancing Vision-Language Models in Gastric Cancer Analysis](gastric-x_a_multimodal_multi-phase_benchmark_dataset_for_advancing_vision-langua.md)
+- [\[CVPR 2026\] Med-CMR: A Fine-Grained Benchmark Integrating Visual Evidence and Clinical Logic for Medical Complex Multimodal Reasoning](med-cmr_a_fine-grained_benchmark_integrating_visual_evidence_and_clinical_logic_.md)
 - [\[CVPR 2026\] MuViT: Multi-Resolution Vision Transformers for Learning Across Scales in Microscopy](muvit_multi-resolution_vision_transformers_for_learning_across_scales_in_microsc.md)
-- [\[CVPR 2026\] X-PCR: A Benchmark for Cross-modality Progressive Clinical Reasoning in Ophthalmic Diagnosis](x-pcr_a_benchmark_for_cross-modality_progressive_clinical_reasoning_in_ophthalmi.md)
 - [\[NeurIPS 2025\] 3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks](../../NeurIPS2025/medical_imaging/3drad_a_comprehensive_3d_radiology_medvqa_dataset_with_multi.md)
-- [\[NeurIPS 2025\] EndoBench: A Comprehensive Evaluation of Multi-Modal Large Language Models for Endoscopy Analysis](../../NeurIPS2025/medical_imaging/endobench_a_comprehensive_evaluation_of_multi-modal_large_language_models_for_en.md)
+- [\[CVPR 2026\] X-PCR: A Benchmark for Cross-modality Progressive Clinical Reasoning in Ophthalmic Diagnosis](x-pcr_a_benchmark_for_cross-modality_progressive_clinical_reasoning_in_ophthalmi.md)
 
 </div>
 

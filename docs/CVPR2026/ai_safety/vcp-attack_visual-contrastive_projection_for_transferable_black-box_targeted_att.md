@@ -79,6 +79,7 @@ $$\mathcal{L}_{\text{con}} = -\log \frac{\exp(\text{sim}(f_{adv}, f_{tgt})/\tau)
 | GPT-4o（单模型） | 95.6% | — | 黑盒定向攻击 |
 
 ### 消融实验
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | 完整 VCP-Attack | 最佳 | 子空间投影 + 对比监督 |
@@ -120,7 +121,7 @@ $$\mathcal{L}_{\text{con}} = -\log \frac{\exp(\text{sim}(f_{adv}, f_{tgt})/\tau)
 - [\[CVPR 2026\] PureProof: Diffusion-Resistant Black-box Targeted Attack on Large Vision-Language Models](pureproof_diffusion-resistant_black-box_targeted_attack_on_large_vision-language.md)
 - [\[CVPR 2026\] Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction](towards_highly_transferable_vision-language_attack_via_semantic-augmented_dynami.md)
 - [\[CVPR 2026\] SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning](seba_sample-efficient_black-box_attacks_on_visual_reinforcement_learning.md)
-- [\[CVPR 2026\] SIF: Semantically In-Distribution Fingerprints for Large Vision-Language Models](sif_semantically_in-distribution_fingerprints_for_large_vision-language_models.md)
+- [\[CVPR 2026\] A Provable Energy-Guided Test-Time Defense Boosting Adversarial Robustness of Large Vision-Language Models](a_provable_energy-guided_test-time_defense_boosting_adversarial_robustness_of_la.md)
 - [\[CVPR 2026\] When Robots Obey the Patch: Universal Transferable Patch Attacks on Vision-Language-Action Models](when_robots_obey_the_patch_universal_transferable_patch_attacks_on_vision-langua.md)
 
 </div>

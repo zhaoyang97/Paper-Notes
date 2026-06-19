@@ -2,10 +2,10 @@
 title: >-
   [论文解读] StaR-KVQA: Structured Reasoning Traces for Implicit-Knowledge Visual Question Answering
 description: >-
-  [CVPR 2026][多模态VLM][知识型视觉问答] StaR-KVQA 用同一个开源 MLLM 自己造出「双路符号关系路径 + 路径锚定的自然语言解释」作为结构化推理轨迹，把只监督答案的微调换成监督「推理轨迹 + 答案」的结构感知自蒸馏，在不接任何外部检索的前提下让 OK-VQA 准确率比最强基线高出 +11.3%，同时输出可审计的中间推理。
+  [CVPR 2026][VLM Reasoning][知识型视觉问答] StaR-KVQA 用同一个开源 MLLM 自己造出「双路符号关系路径 + 路径锚定的自然语言解释」作为结构化推理轨迹，把只监督答案的微调换成监督「推理轨迹 + 答案」的结构感知自蒸馏，在不接任何外部检索的前提下让 OK-VQA 准确率比最强基线高出 +11.3%，同时输出可审计的中间推理。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "知识型视觉问答"
   - "隐式知识"
   - "结构化推理轨迹"
@@ -177,11 +177,11 @@ $$\mathcal{L}_{SFT}(\theta; D_{aug}) = -\sum_{(I,Q,T,a)\in D_{aug}} \log p_\thet
 
 ## 相关论文
 
-- [\[CVPR 2026\] VQ-VA World: Towards High-Quality Visual Question-Visual Answering](vq-va_world_towards_high-quality_visual_question-visual_answering.md)
+- [\[CVPR 2026\] Latent Implicit Visual Reasoning](latent_implicit_visual_reasoning.md)
 - [\[CVPR 2026\] ChartR: Evaluating Reasoning Accuracy and Robustness in Chart Question Answering](chartr_evaluating_reasoning_accuracy_and_robustness_in_chart_question_answering.md)
-- [\[CVPR 2026\] DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning](docpruneefficient_document_question_answering_via_background_question_and_compre.md)
-- [\[CVPR 2026\] SEA: Evaluating Sketch Abstraction Efficiency via Element-level Commonsense Visual Question Answering](sea_evaluating_sketch_abstraction_efficiency_via_element-level_commonsense_visua.md)
-- [\[CVPR 2026\] VKG-QA: Visual Knowledge Graph-based Question Answer for Large Multimodal Models](vkg-qa_visual_knowledge_graph-based_question_answer_for_large_multimodal_models.md)
+- [\[CVPR 2026\] CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)
+- [\[ICCV 2025\] ReasonVQA: A Multi-hop Reasoning Benchmark with Structural Knowledge for Visual Question Answering](../../ICCV2025/vlm_reasoning/reasonvqa_a_multi-hop_reasoning_benchmark_with_structural_knowledge_for_visual_q.md)
+- [\[CVPR 2026\] STAR-R1: Multi-View Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](star-r1_multi-view_spatial_transformation_reasoning_by_reinforcing_multimodal_ll.md)
 
 </div>
 

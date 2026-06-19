@@ -93,6 +93,7 @@ $$\big|\mathbb{E}_{y\sim P_s}[d_k(x_i,y)]-\mathbb{E}_{y\sim P_t}[d_k(x_i,y)]\big
 | Proposition 10（几何） | $|\mathbb{E}_{P_s}[d_k]-\mathbb{E}_{P_t}[d_k]|\le \sqrt{2\gamma}C_W\,\mathrm{MMD}+O(\bar\epsilon^2)$ | MMD 控制 RKHS 测地距离漂移 |
 
 ### 消融实验
+
 | 假设 / 设置 | 影响 | 说明 |
 |---|---|---|
 | 关闭 RKHS-Lipschitz（Assumption 1） | Theorem 1 失效 | 偏移项不再有线性 MMD 上界 |
@@ -137,10 +138,10 @@ $$\big|\mathbb{E}_{y\sim P_s}[d_k(x_i,y)]-\mathbb{E}_{y\sim P_t}[d_k(x_i,y)]\big
 ## 相关论文
 
 - [\[ICML 2026\] On the Learnability of Test-Time Adaptation: A Recovery Complexity Perspective](on_the_learnability_of_test-time_adaptation_a_recovery_complexity_perspective.md)
-- [\[ICML 2026\] Semi-Supervised Noise Adaptation: Transferring Knowledge from Noise Domain](semi-supervised_noise_adaptation_transferring_knowledge_from_noise_domain.md)
-- [\[AAAI 2026\] A Switching Framework for Online Interval Scheduling with Predictions](../../AAAI2026/learning_theory/a_switching_framework_for_online_interval_scheduling_with_pr.md)
-- [\[ICML 2026\] Realizable Bayes-Consistency for General Metric Losses](realizable_bayes-consistency_for_general_metric_losses.md)
-- [\[ICML 2026\] Provably Data-driven Multiple Hyper-parameter Tuning with Structured Loss Function](provably_data-driven_multiple_hyper-parameter_tuning_with_structured_loss_functi.md)
+- [\[ICLR 2026\] Epistemic Uncertainty Quantification To Improve Decisions From Black-Box Models](../../ICLR2026/learning_theory/epistemic_uncertainty_quantification_to_improve_decisions_from_black-box_models.md)
+- [\[ICLR 2026\] Efficient Credal Prediction through Decalibration](../../ICLR2026/learning_theory/efficient_credal_prediction_through_decalibration.md)
+- [\[ICLR 2026\] Expressive Power of Implicit Models: Rich Equilibria and Test-Time Scaling](../../ICLR2026/learning_theory/expressive_power_of_implicit_models_rich_equilibria_and_test-time_scaling.md)
+- [\[ICML 2026\] On Regret Bounds of Thompson Sampling for Bayesian Optimization](on_regret_bounds_of_thompson_sampling_for_bayesian_optimization.md)
 
 </div>
 

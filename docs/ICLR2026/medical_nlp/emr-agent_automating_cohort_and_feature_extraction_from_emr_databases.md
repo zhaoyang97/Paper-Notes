@@ -2,10 +2,10 @@
 title: >-
   [论文解读] EMR-AGENT: Automating Cohort and Feature Extraction from EMR Databases
 description: >-
-  [ICLR 2026][医疗NLP][电子病历] 提出EMR-AGENT，首个基于LLM Agent的电子病历（EMR）自动化预处理框架，通过动态SQL交互替代手工规则编写，实现跨数据库的队列选择、特征提取和代码映射，在MIMIC-III/eICU/SICdb上表现优异并具强泛化能力。 临床预测模型依赖从EMR中提取的结构化…
+  [ICLR 2026][医疗 LLM][电子病历] 提出EMR-AGENT，首个基于LLM Agent的电子病历（EMR）自动化预处理框架，通过动态SQL交互替代手工规则编写，实现跨数据库的队列选择、特征提取和代码映射，在MIMIC-III/eICU/SICdb上表现优异并具强泛化能力。 临床预测模型依赖从EMR中提取的结构…
 tags:
   - "ICLR 2026"
-  - "医疗NLP"
+  - "医疗 LLM"
   - "电子病历"
   - "LLM Agent"
   - "队列选择"

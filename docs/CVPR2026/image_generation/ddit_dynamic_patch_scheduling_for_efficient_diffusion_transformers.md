@@ -108,6 +108,7 @@ DDiT 以 2.18× 加速做到 FID 仅比基线高 0.35、CLIP 几乎持平，在�
 | DDiT + TeaCache | 3.2× | 80.53 |
 
 ### 消融实验
+
 | 配置 | FID↓ | CLIP↑ | ImageReward↑ | 说明 |
 |------|------|-------|--------------|------|
 | DDiT (n=1) | 34.71 | 0.2927 | 0.9782 | 一阶差分 |
@@ -158,8 +159,8 @@ DDiT 以 2.18× 加速做到 FID 仅比基线高 0.35、CLIP 几乎持平，在�
 ## 相关论文
 
 - [\[CVPR 2026\] Memory-Efficient Fine-Tuning Diffusion Transformers via Dynamic Patch Sampling and Block Skipping](memory-efficient_fine-tuning_diffusion_transformers_via_dynamic_patch_sampling_a.md)
-- [\[CVPR 2026\] MPDiT: Multi-Patch Global-to-Local Transformer Architecture for Efficient Flow Matching](mpdit_multi-patch_global-to-local_transformer_architecture_for_efficient_flow_ma.md)
 - [\[CVPR 2026\] SpotEdit: Selective Region Editing in Diffusion Transformers](spotedit_selective_region_editing_in_diffusion_transformers.md)
+- [\[CVPR 2026\] MPDiT: Multi-Patch Global-to-Local Transformer Architecture for Efficient Flow Matching](mpdit_multi-patch_global-to-local_transformer_architecture_for_efficient_flow_ma.md)
 - [\[CVPR 2026\] DPAR: Dynamic Patchification for Efficient Autoregressive Visual Generation](dpar_dynamic_patchification_for_efficient_autoregressive_visual_generation.md)
 - [\[CVPR 2026\] NAMI: Efficient Image Generation via Bridged Progressive Rectified Flow Transformers](nami_efficient_image_generation_via_bridged_progressive_rectified_flow_transform.md)
 

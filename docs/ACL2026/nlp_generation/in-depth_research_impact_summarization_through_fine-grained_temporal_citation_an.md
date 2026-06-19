@@ -74,6 +74,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 方法 | Precision | Recall | F1 | Accuracy |
 |------|------|-----------|--------|----|----------|
 | Impact-revealing 分类 | random baseline | 0.54 | 0.51 | 0.52 | 0.50 |
@@ -86,6 +87,7 @@ flowchart TD
 作者的方法在 precision、recall、F1 和 accuracy 上整体最好，尤其 recall 比第二强的已有方法高 19 个百分点。对生成 impact summary 来说，高 recall 很重要，因为漏掉有影响力的 citation 会直接让摘要少写关键影响轨迹。
 
 ### 消融实验
+
 | 摘要输入 | 是否提供 intents | Faithfulness | Coverage | Coverage@3 | Citation Year Compliance | Insightfulness | Trend Awareness | Specificity |
 |----------|------------------|--------------|----------|------------|--------------------------|----------------|-----------------|-------------|
 | 无 citations | 否 | 0.77 | 0.25 | 0.58 | n/a | 0.70 | 0.94 | 0.75 |

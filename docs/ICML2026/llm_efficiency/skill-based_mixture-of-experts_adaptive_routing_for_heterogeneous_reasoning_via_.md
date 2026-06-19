@@ -102,6 +102,7 @@ flowchart TD
 跨数据集稳健：没有任何 baseline 能稳定拿第二，而 SKILL-MOE 平均分超过 Qwen2.5-72B（54.28）和 Llama3.3-70B（53.18），与 QwenR1-32B（56.94）相比也更稳——QwenR1-32B 在 AIME 上 76.67%，但 MedMCQA 只有 24.70%。
 
 ### 消融实验
+
 | 配置 | 关键指标 (GPQA) | 说明 |
 |------|----------------|------|
 | Full SKILL-MOE | 57.78 | 模型档案路由 + 任务级聚合器 |
@@ -149,10 +150,10 @@ flowchart TD
 ## 相关论文
 
 - [\[ICML 2026\] ProbMoE: Differentiable Probabilistic Routing for Mixture-of-Experts](probmoe_differentiable_probabilistic_routing_for_mixture-of-experts.md)
+- [\[ICML 2026\] SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs](softmoe_soft_differentiable_routing_for_mixture-of-experts_in_llms.md)
 - [\[ICML 2026\] Hyperparameter Transfer with Mixture-of-Experts Layers](hyperparameter_transfer_with_mixture-of-expert_layers.md)
 - [\[ICML 2025\] Cooperation of Experts: Fusing Heterogeneous Information with Large Margin](../../ICML2025/llm_efficiency/cooperation_of_experts_fusing_heterogeneous_information_with_large_margin.md)
 - [\[AAAI 2026\] How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts](../../AAAI2026/llm_efficiency/how_many_experts_are_enough_towards_optimal_semantic_specialization_for_mixture-.md)
-- [\[ICML 2026\] RepetitionCurse: Measuring and Understanding Router Imbalance in Mixture-of-Experts LLMs under DoS Stress](repetitioncurse_measuring_and_understanding_router_imbalance_in_mixture-of-exper.md)
 
 </div>
 

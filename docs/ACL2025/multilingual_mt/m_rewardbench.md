@@ -128,8 +128,8 @@ tags:
 - [\[ACL 2025\] Disentangling Language and Culture for Evaluating Multilingual Large Language Models](disentangle_language_culture.md)
 - [\[ACL 2025\] Do Large Language Models Have an English Accent? Evaluating and Improving the Naturalness of Multilingual LLMs](multilingual_llm_english_accent.md)
 - [\[NeurIPS 2025\] XIFBench: Evaluating Large Language Models on Multilingual Instruction Following](../../NeurIPS2025/multilingual_mt/xifbench_evaluating_large_language_models_on_multilingual_instruction_following.md)
-- [\[ACL 2026\] Evaluating Robustness of Large Language Models Against Multilingual Typographical Errors](../../ACL2026/multilingual_mt/evaluating_robustness_of_large_language_models_against_multilingual_typographica.md)
 - [\[ACL 2025\] X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System](x-webagentbench_a_multilingual_interactive_web_benchmark_for_evaluating_global_a.md)
+- [\[ACL 2026\] Evaluating Robustness of Large Language Models Against Multilingual Typographical Errors](../../ACL2026/multilingual_mt/evaluating_robustness_of_large_language_models_against_multilingual_typographica.md)
 
 </div>
 

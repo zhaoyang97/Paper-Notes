@@ -2,10 +2,10 @@
 title: >-
   [论文解读] EvoComp: Learning Visual Token Compression for Multimodal Large Language Models via Semantic-Guided Evolutionary Labeling
 description: >-
-  [CVPR 2026][多模态VLM][视觉token压缩] EvoComp 在 MLLM 的对齐模块和 LLM 之间插入一个轻量压缩器，用「进化算法搜出能让任务 loss 最小的 token 子集」当监督标签来训练它，从而在 3×～9× 压缩下保留 99.3%～94.9% 原始精度，并在手机 NPU 上实现最高 2.0× 加速。
+  [CVPR 2026][VLM Efficiency][视觉token压缩] EvoComp 在 MLLM 的对齐模块和 LLM 之间插入一个轻量压缩器，用「进化算法搜出能让任务 loss 最小的 token 子集」当监督标签来训练它，从而在 3×～9× 压缩下保留 99.3%～94.9% 原始精度，并在手机 NPU 上实现最高 2.0× 加速。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "视觉token压缩"
   - "进化搜索标注"
   - "MLLM推理加速"
@@ -158,10 +158,10 @@ A100 上 LLaVA-NeXT-7B（POPE）：prefill 175→43 ms（**4.1×**），整体 2
 ## 相关论文
 
 - [\[CVPR 2026\] OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models](omnizip_audio-guided_dynamic_token_compression_for_fast_omnimodal_large_language.md)
-- [\[CVPR 2026\] ApET: Approximation-Error Guided Token Compression for Efficient VLMs](apet_approximation-error_guided_token_compression_for_efficient_vlms.md)
-- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
-- [\[ICML 2026\] On the Adversarial Robustness of Large Vision-Language Models under Visual Token Compression](../../ICML2026/multimodal_vlm/on_the_adversarial_robustness_of_large_vision-language_models_under_visual_token.md)
+- [\[CVPR 2026\] CoIn: Coverage and Informativeness-Guided Token Reduction for Efficient Large Multimodal Models](coin_coverage_and_informativeness-guided_token_reduction_for_efficient_large_mul.md)
+- [\[CVPR 2026\] Hybrid Token Compression for Vision-Language Models](hybrid_token_compression_for_vision-language_models.md)
 - [\[CVPR 2026\] GroundVTS: Visual Token Sampling in Multimodal Large Language Models for Video Temporal Grounding](groundvts_visual_token_sampling_in_multimodal_large_language_models_for_video_te.md)
+- [\[CVPR 2026\] Accelerating Streaming Video Large Language Models via Hierarchical Token Compression](accelerating_streaming_video_large_language_models_via_hierarchical_token_compre.md)
 
 </div>
 

@@ -126,7 +126,7 @@ Tropical Transformer的流程：(1) 通过热带化映射 $\Phi$ 将输入从欧
 - [\[NeurIPS 2025\] Physics-Informed Neural Networks with Fourier Features and Attention-Driven Decoding](physics-informed_neural_networks_with_fourier_features_and_attention-driven_deco.md)
 - [\[ICML 2025\] Causal-PIK: Causality-based Physical Reasoning with a Physics-Informed Kernel](../../ICML2025/physics/causal-pik_causality-based_physical_reasoning_with_a_physics-informed_kernel.md)
 - [\[ICLR 2026\] Sublinear Time Quantum Algorithm for Attention Approximation](../../ICLR2026/physics/sublinear_time_quantum_algorithm_for_attention_approximation.md)
-- [\[NeurIPS 2025\] Neural Green's Functions](neural_greens_functions.md)
+- [\[ICLR 2026\] Transformers as Unsupervised Learning Algorithms: A study on Gaussian Mixtures](../../ICLR2026/physics/transformers_as_unsupervised_learning_algorithms_a_study_on_gaussian_mixtures.md)
 
 </div>
 

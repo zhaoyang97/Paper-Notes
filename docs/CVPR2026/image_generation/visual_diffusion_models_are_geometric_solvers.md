@@ -86,6 +86,7 @@ $$\mathcal{Q}(S) = \frac{\operatorname{area}(S)}{w\cdot h}\cdot\exp\!\left(-2\le
 ## 实验关键数据
 
 ### 内接正方形（Tab. 1，对齐 ↑ / 方正度 ↑）
+
 | 条件 | 对齐 $\mathcal{A}$ | 方正度 $\mathcal{Q}$ |
 |------|------|------|
 | snapping 前 | -1.60 | 0.892 |
@@ -95,6 +96,7 @@ $$\mathcal{Q}(S) = \frac{\operatorname{area}(S)}{w\cdot h}\cdot\exp\!\left(-2\le
 关键发现：扩散生成本身就已得到很方正（$\mathcal{Q}=0.892$，与 GT 0.924 接近）的形状；snapping 主要把**对齐**从 -1.60 大幅提升到 -0.90、逼近 GT 的 -0.14，说明残差偏差多在亚像素级、由像素离散化天然决定。
 
 ### Steiner 树（Tab. 2，长度比越接近 1 越好）
+
 | 输入点数 | 有效率 | 本文 长度比 | MST 长度比 | 随机 长度比 |
 |------|------|------|------|------|
 | 10-20 | 0.996 | 1.0008±0.0005 | 1.036±0.012 | 1.834±0.236 |
@@ -105,6 +107,7 @@ $$\mathcal{Q}(S) = \frac{\operatorname{area}(S)}{w\cdot h}\cdot\exp\!\left(-2\le
 关键发现：在训练分布（10-20 点）内，解的总长几乎等于最优（比值 1.0008），且**远好于 MST（1.036）这一经典基线**；模型对没见过的更多点数有泛化能力（31-40 点仍 1.004），但有效率随点数增加显著下降（41-50 点只剩 0.334），失败多为生成图里出现环、不再是树。每个实例并行采 10 个种子、取有效且最短的。
 
 ### 最大面积多边形（Tab. 3，面积比越接近 1 越好）
+
 | 输入点数 | 有效率 | 本文 面积比 | 随机 面积比 | 恰为最优率 |
 |------|------|------|------|------|
 | 7-12 | 0.953 | 0.988±0.020 | 0.771±0.136 | 0.574 |
@@ -147,8 +150,8 @@ $$\mathcal{Q}(S) = \frac{\operatorname{area}(S)}{w\cdot h}\cdot\exp\!\left(-2\le
 - [\[CVPR 2026\] UniPercept: A Unified Diffusion Model for Generalizable Visual Perception](unipercept_a_unified_diffusion_model_for_generalizable_visual_perception.md)
 - [\[CVPR 2026\] RebRL: Reinforcing Discrete Visual Diffusion Models with Rebalanced Timestep Credits](rebrl_reinforcing_discrete_visual_diffusion_models_with_rebalanced_timestep_cred.md)
 - [\[ICML 2026\] Information-Geometric Adaptive Sampling for Graph Diffusion](../../ICML2026/image_generation/information-geometric_adaptive_sampling_for_graph_diffusion.md)
-- [\[CVPR 2026\] Image Generation as a Visual Planner for Robotic Manipulation](image_generation_as_a_visual_planner_for_robotic_manipulation.md)
 - [\[AAAI 2026\] GEWDiff: Geometric Enhanced Wavelet-based Diffusion Model for Hyperspectral Image Super-resolution](../../AAAI2026/image_generation/gewdiff_geometric_enhanced_wavelet-based_diffusion_model_for_hyperspectral_image.md)
+- [\[NeurIPS 2025\] Fast Solvers for Discrete Diffusion Models: Theory and Applications of High-Order Algorithms](../../NeurIPS2025/image_generation/fast_solvers_for_discrete_diffusion_models_theory_and_applications_of_high-order.md)
 
 </div>
 

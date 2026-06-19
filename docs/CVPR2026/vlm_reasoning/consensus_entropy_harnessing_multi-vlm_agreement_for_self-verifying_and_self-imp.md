@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR
 description: >-
-  [CVPR 2026][多模态VLM][OCR] 本文提出 Consensus Entropy（CE）——一个免训练、模型无关的指标，用"多个 VLM 对同一张图的 OCR 结果是否收敛"来无监督地判断输出可靠性，并基于它搭出 CE-OCR 框架（共识熵加权集成 + 熵阈值路由到更强模型重写），在 OCRBench 等数据集上把质量验证 F1 比 VLM-as-Judge 提升 42.1%、OCR 准确率提升 8.2% 且只路由 7.3% 样本。
+  [CVPR 2026][VLM Reasoning][OCR] 本文提出 Consensus Entropy（CE）——一个免训练、模型无关的指标，用"多个 VLM 对同一张图的 OCR 结果是否收敛"来无监督地判断输出可靠性，并基于它搭出 CE-OCR 框架（共识熵加权集成 + 熵阈值路由到更强模型重写），在 OCRBench 等数据集上把质量验证 F1 比 VLM-as-Judge 提升 42.1%、OCR 准确率提升 8.2% 且只路由 7.3% 样本。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "OCR"
   - "多模型共识"
   - "熵"
@@ -166,11 +166,11 @@ OCRBench 上逐组件移除（满分 1000，Rel. Perf. 相对完整框架）：
 
 ## 相关论文
 
-- [\[ACL 2025\] Improving MLLM's Document Image Machine Translation via Synchronously Self-reviewing Its OCR Proficiency](../../ACL2025/multimodal_vlm/improving_mllms_document_image_machine_translation_via_synchronously_self-review.md)
-- [\[ICLR 2026\] Vision-Zero: Scalable VLM Self-Improvement via Strategic Gamified Self-Play](../../ICLR2026/multimodal_vlm/vision-zero_scalable_vlm_self-improvement_via_strategic_gamified_self-play.md)
-- [\[ICLR 2026\] Self-Aug: Query and Entropy Adaptive Decoding for Large Vision-Language Models](../../ICLR2026/multimodal_vlm/self-aug_query_and_entropy_adaptive_decoding_for_large_vision-language_models.md)
-- [\[ICLR 2026\] Let's Think in Two Steps: Mitigating Agreement Bias in MLLMs with Self-Grounded Verification](../../ICLR2026/multimodal_vlm/lets_think_in_two_steps_mitigating_agreement_bias_in_mllms_with_self-grounded_ve.md)
-- [\[CVPR 2026\] VisPlay: Self-Evolving Vision-Language Models](visplay_self-evolving_vision-language_models.md)
+- [\[ICLR 2026\] Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs](../../ICLR2026/vlm_reasoning/through_the_lens_of_contrast_self-improving_visual_reasoning_in_vlms.md)
+- [\[CVPR 2026\] Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr.md)
+- [\[ICLR 2026\] Let's Think in Two Steps: Mitigating Agreement Bias in MLLMs with Self-Grounded Verification](../../ICLR2026/vlm_reasoning/lets_think_in_two_steps_mitigating_agreement_bias_in_mllms_with_self-grounded_ve.md)
+- [\[CVPR 2026\] Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory](evolving_contextual_safety_in_multi-modal_large_language_models_via_inference-ti.md)
+- [\[CVPR 2026\] dMLLM-TTS: Self-Verified and Efficient Test-Time Scaling for Diffusion Multi-Modal Large Language Models](dmllm-tts_self-verified_and_efficient_test-time_scaling_for_diffusion_multi-moda.md)
 
 </div>
 

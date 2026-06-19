@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TableMix: Enhancing Multimodal Table Reasoning in MLLMs from a Data-Centric Perspective
 description: >-
-  [CVPR 2026][多模态VLM][多模态表格推理] 针对多模态大模型（MLLM）做表格推理时反而打不过纯文本模型的反常现象，TableMix 从数据角度切入：在每个训练 batch 里同时混入「多模态表格推理 + 纯文本数学推理 + 简单表格感知」三类数据，来同时修复被对齐预训练削弱的推理力、保住视觉感知力，再配一个按难度调奖励的 DRS 机制，最终在 7 个表格基准上既碾压多模态基线、也追平甚至超过最强纯文本方法 Table-R1。
+  [CVPR 2026][VLM Reasoning][多模态表格推理] 针对多模态大模型（MLLM）做表格推理时反而打不过纯文本模型的反常现象，TableMix 从数据角度切入：在每个训练 batch 里同时混入「多模态表格推理 + 纯文本数学推理 + 简单表格感知」三类数据，来同时修复被对齐预训练削弱的推理力、保住视觉感知力，再配一个按难度调奖励的 DRS 机制，最终在 7 个表格基准上既碾压多模态基线、也追平甚至超过最强纯文本方法 Table-R1。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态表格推理"
   - "MLLM"
   - "数据混合"
@@ -108,6 +108,7 @@ TableMix 不仅在多模态阵营里全面 SOTA（对最直接的对手 Turbo �
 TableMix 在未见分布上平均最高（82.3），说明学到的推理技能能迁移到新场景。
 
 ### 消融实验
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | 单一数据源（仅表格 / 仅数学） | 有可观提升 | 但弱于三类混合，印证「增强内在推理能助力领域任务」 |
@@ -152,11 +153,11 @@ TableMix 在未见分布上平均最高（82.3），说明学到的推理技能�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Why Does RL Generalize Better Than SFT? A Data-Centric Perspective on VLM Post-Training](why_does_rl_generalize_better_than_sft_a_data-centric_perspective_on_vlm_post-tr.md)
+- [\[CVPR 2026\] Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)
 - [\[CVPR 2026\] Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth](think_360_evaluating_the_width-centric_reasoning_capability_of_mllms_beyond_dept.md)
-- [\[CVPR 2026\] HumanVBench: Probing Human-Centric Video Understanding in MLLMs with Automatically Synthesized Benchmarks](humanvbench_probing_human_centric_video_understanding_in_mllms_with_automatica.md)
-- [\[ACL 2026\] TableVista: Benchmarking Multimodal Table Reasoning under Visual and Structural Complexity](../../ACL2026/multimodal_vlm/tablevista_benchmarking_multimodal_table_reasoning_under_visual_and_structural_c.md)
-- [\[CVPR 2026\] TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition](trivia_self-supervised_fine-tuning_of_vision-language_models_for_table_recogniti.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
+- [\[CVPR 2026\] VAST: Video Ability-Stratified Taxonomy for Data-Efficient Video Reasoning](vast_video_ability-stratified_taxonomy_for_data-efficient_video_reasoning.md)
+- [\[CVPR 2026\] HoneyBee: Data Recipes for Vision-Language Reasoners](honeybee_data_recipes_for_vision-language_reasoners.md)
 
 </div>
 

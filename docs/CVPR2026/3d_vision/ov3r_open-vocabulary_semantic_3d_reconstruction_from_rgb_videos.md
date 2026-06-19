@@ -95,6 +95,7 @@ CLIP3R：I2P/L2W 各用置信度感知 L1 点图损失（含 $-\alpha\log C$ 置
 分割侧在 Replica 的 All mIoU/mAcc 上均超全部基线（含离线方法），尤其在低频 Tail 类别上（22.8/31.5）远好于在 Head 上更强但 Tail 崩盘的 Open3DIS（4.9/9.4）。ScanNetv2 上 Ov3R 在 ScanNet200 全面领先、在 ScanNet20 的 f-mIoU/f-mAcc 上领先；OVO 在线设定下两数据集均被超过。
 
 ### 消融实验
+
 | 模块 | 配置 | 关键指标 | 说明 |
 |------|------|----------|------|
 | CLIP3R | (A) w/o CLIP-insert | Acc 3.31 / Comp 2.35 / ATE 6.46 | 去掉 I2P 端 CLIP 注入，重建与跟踪都明显掉 |
@@ -141,7 +142,7 @@ CLIP3R：I2P/L2W 各用置信度感知 L1 点图损失（含 $-\alpha\log C$ 置
 
 ## 相关论文
 
-- [\[CVPR 2026\] JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas](jopp3d_joint_open_vocabulary_semantic_segmentation.md)
+- [\[CVPR 2026\] OVI-MAP: Open-Vocabulary Instance-Semantic Mapping](ovi-map_open-vocabulary_instance-semantic_mapping.md)
 - [\[CVPR 2026\] EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding](embodiedsplat_online_feed-forward_semantic_3dgs_for_open-vocabulary_3d_scene_und.md)
 - [\[CVPR 2026\] OnlinePG: Online Open-Vocabulary Panoptic Mapping with 3D Gaussian Splatting](onlinepg_online_open-vocabulary_panoptic_mapping_with_3d_gaussian_splatting.md)
 - [\[CVPR 2026\] ExtrinSplat: Decoupling Geometry and Semantics for Open-Vocabulary Understanding in 3D Gaussian Splatting](extrinsplat_decoupling_geometry_and_semantics_for_open-vocabulary_understanding_.md)

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 预训练论文汇总 · 22篇论文解读
+  ICML2026 预训练论文汇总 · 27篇论文解读
 description: >-
-  22篇ICML2026的预训练方向论文解读，涵盖 LLM、Agent、布局/合成、扩散模型、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  27篇ICML2026的预训练方向论文解读，涵盖 LLM、Agent、布局/合成、扩散模型、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "预训练"
@@ -14,6 +14,8 @@ tags:
   - "扩散模型"
   - "少样本学习"
 item_list:
+  - u: "ac-odm_actor--critic_online_data_mixing_for_sample-efficient_llm_pretraining/"
+    t: "AC-ODM: Actor–Critic Online Data Mixing for Sample-Efficient LLM Pretraining"
   - u: "annotations_mitigate_post-training_mode_collapse/"
     t: "Annotations Mitigate Post-Training Mode Collapse"
   - u: "beyond_structural_symmetries_linear_mode_connectivity_via_neuron_identifiability/"
@@ -22,8 +24,14 @@ item_list:
     t: "Constrained Bayesian Experimental Design via Online Planning"
   - u: "data_difficulty_and_the_generalization--extrapolation_tradeoff_in_llm_fine-tunin/"
     t: "Data Difficulty and the Generalization--Extrapolation Tradeoff in LLM Fine-Tuning"
+  - u: "decoupling_the_what_and_where_with_polar_coordinate_positional_embeddings/"
+    t: "Decoupling the \"What\" and \"Where\" With Polar Coordinate Positional Embeddings"
+  - u: "different_layers_different_manifolds_module-wise_weight-space_geometry_in_transf/"
+    t: "Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization"
   - u: "dropout_universality_scaling_laws_and_optimal_scheduling_at_the_edge-of-chaos/"
     t: "Dropout Universality: Scaling Laws and Optimal Scheduling at the Edge-of-Chaos"
+  - u: "explaining_data_mixing_scaling_laws/"
+    t: "Explaining Data Mixing Scaling Laws"
   - u: "flexrank_nested_low-rank_knowledge_decomposition_for_adaptive_model_deployment/"
     t: "FlexRank: Nested Low-Rank Knowledge Decomposition for Adaptive Model Deployment"
   - u: "focus_and_dilution_the_multi-stage_learning_process_of_attention/"
@@ -44,6 +52,8 @@ item_list:
     t: "On the Expressive Power of Permutation-Equivariant Weight-Space Networks"
   - u: "on_training_large_language_models_for_long-horizon_tasks_an_empirical_study_of_h/"
     t: "On Training Large Language Models for Long-Horizon Tasks: An Empirical Study of Horizon Length"
+  - u: "poet-x_memory-efficient_llm_training_by_scaling_orthogonal_transformation/"
+    t: "POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation"
   - u: "predicting_large_model_test_losses_with_a_noisy_quadratic_system/"
     t: "Predicting Large Model Test Losses with a Noisy Quadratic System"
   - u: "scaling_depth_capacity_via_zeroone-layer_model_expansion/"
@@ -58,17 +68,21 @@ item_list:
     t: "Tuning the Implicit Regularizer of Masked Diffusion Language Models: Enhancing Generalization via Insights from k-Parity"
   - u: "xtransfer_modality-agnostic_few-shot_model_transfer_for_human_sensing_at_the_edg/"
     t: "XTransfer: Modality-Agnostic Few-Shot Model Transfer for Human Sensing at the Edge"
-item_total: 22
+item_total: 27
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练
 
-**🧪 ICML2026** · **22** 篇论文解读
+**🧪 ICML2026** · **27** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/llm_pretraining/index.md) · [💬 ACL2026 (12)](../../ACL2026/llm_pretraining/index.md) · [🔬 ICLR2026 (25)](../../ICLR2026/llm_pretraining/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_pretraining/index.md) · [🧠 NeurIPS2025 (51)](../../NeurIPS2025/llm_pretraining/index.md) · [📹 ICCV2025 (9)](../../ICCV2025/llm_pretraining/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (5)](../../CVPR2026/llm_pretraining/index.md) · [💬 ACL2026 (12)](../../ACL2026/llm_pretraining/index.md) · [🔬 ICLR2026 (35)](../../ICLR2026/llm_pretraining/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_pretraining/index.md) · [🧠 NeurIPS2025 (51)](../../NeurIPS2025/llm_pretraining/index.md) · [📹 ICCV2025 (9)](../../ICCV2025/llm_pretraining/index.md)
 
-🔥 **高频主题：** LLM ×4
+🔥 **高频主题：** LLM ×6
+
+**[AC-ODM: Actor–Critic Online Data Mixing for Sample-Efficient LLM Pretraining](ac-odm_actor--critic_online_data_mixing_for_sample-efficient_llm_pretraining.md)**
+
+:   AC-ODM 把"预训练数据域权重怎么动态调"建模成一个强化学习的连续控制问题，用 DDPG 的 Actor-Critic 在训练过程中实时感知模型状态、输出各域采样权重，并用"域间梯度对齐度"当奖励——理论上证明这等价于最大化梯度的建设性干涉（有效下降步长），在 Pythia-1B 上比强基线少用约 66% 步数就达到最优困惑度，MMLU 相对提升 27.5%、HumanEval pass@1 翻到 2.23 倍，而每步墙钟仅增 0.4%、显存仅增 2%。
 
 **[Annotations Mitigate Post-Training Mode Collapse](annotations_mitigate_post-training_mode_collapse.md)**
 
@@ -86,9 +100,21 @@ item_total: 22
 
 :   本文系统研究 SFT 中数据难度的作用，发现并不存在"普适最优难度"，而是存在一个**随数据规模增大而向更难方向漂移**的最优难度，并用"in-distribution 泛化 gap"与"extrapolation gap"两个 gap 的 trade-off 给出 PAC-Bayes 解释。
 
+**[Decoupling the "What" and "Where" With Polar Coordinate Positional Embeddings](decoupling_the_what_and_where_with_polar_coordinate_positional_embeddings.md)**
+
+:   作者指出主流位置编码 RoPE 把"内容(what)"和"位置(where)"耦合进了同一个相位里，从而在需要"按位置找内容 / 按内容定位置"的任务上表现糟糕；他们提出 PoPE，用 softplus 把幅度(管 what)和纯位置相位(管 where)拆开，仅是 RoPE 的小改动，却在诊断任务、音乐/基因组/语言建模上一致更优，并且**零微调就能外推到 10 倍训练长度**，超过专门做外推的 YaRN。
+
+**[Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization](different_layers_different_manifolds_module-wise_weight-space_geometry_in_transf.md)**
+
+:   这篇 workshop 论文在 GPT-2 small 预训练中系统比较了「按模块分配流形约束」的几种方案，发现把强谱约束（Stiefel）放在注意力层、把弱约束（DGram）放在 MLP 层效果最好，而只要给注意力层用 DGram 训练就会发散——并给出了「奇异值膨胀 → logit 膨胀 → softmax 饱和 → 梯度退化」这条失稳机制解释。
+
 **[Dropout Universality: Scaling Laws and Optimal Scheduling at the Edge-of-Chaos](dropout_universality_scaling_laws_and_optimal_scheduling_at_the_edge-of-chaos.md)**
 
 :   作者把 dropout 看作平均场信号传播理论中破坏 $c^*=1$ 完美对齐不动点的"外场" $h$，推出 Landau 方程、两参数标度坍塌以及 smooth/kinked 激活的两个不同普适类，并由此得到一个"零开销"的实用结论——**前置 dropout（front-loaded schedule）**在同等预算下比常数 dropout 在 MLP 和 ViT 上把测试损失降低 18–35%。
+
+**[Explaining Data Mixing Scaling Laws](explaining_data_mixing_scaling_laws.md)**
+
+:   这篇论文给"多领域数据配比缩放定律"补上了一直缺失的理论解释：把单领域缩放定律的两套经典理论（量化模型、投影线性回归模型）扩展到多领域，提出"共享头部、不相交尾部"的分布假设，识别出支配各领域 loss 的两个机制——**容量竞争**（有限模型容量被各领域的专用技能争夺，把所有领域 loss 全局耦合）和**数据量噪声**（越难学的领域 loss 降得越慢，使最优配比向难学领域倾斜），由此得到的模型不仅拟合误差更低、用的参数更少，还能跨尺度外推、用小模型拟合的参数预测大模型上的最优配比。
 
 **[FlexRank: Nested Low-Rank Knowledge Decomposition for Adaptive Model Deployment](flexrank_nested_low-rank_knowledge_decomposition_for_adaptive_model_deployment.md)**
 
@@ -129,6 +155,10 @@ item_total: 22
 **[On Training Large Language Models for Long-Horizon Tasks: An Empirical Study of Horizon Length](on_training_large_language_models_for_long-horizon_tasks_an_empirical_study_of_h.md)**
 
 :   本文用一套精心控制"推理难度恒定、只变 horizon 长度"的 Sudoku/Rush Hour 任务，系统证明**任务 horizon 本身就是 LLM agent RL 训练崩溃的独立根因**，并提出 macro action 与 subgoal decomposition 两种 horizon-reduction 机制——它们不仅稳住训练，还让模型在更长 horizon 上实现强 zero-shot 泛化（horizon generalization）。
+
+**[POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation](poet-x_memory-efficient_llm_training_by_scaling_orthogonal_transformation.md)**
+
+:   POET-X 把训练稳定但又慢又费显存的 POET（正交等价变换、谱保持优化器）做了一整套系统级提速降存：通过输入中心化重构、置换内核加速、块对角批并行、半存储 CNP 与 Triton 融合，相比原版 POET 实现 3× 显存下降、8× 速度提升，让单张 H100 就能预训练 8B~13B 的 LLM，而 AdamW 在同等设置下直接 OOM。
 
 **[Predicting Large Model Test Losses with a Noisy Quadratic System](predicting_large_model_test_losses_with_a_noisy_quadratic_system.md)**
 

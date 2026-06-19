@@ -114,6 +114,7 @@ $$\mathcal{L}_2=\mathcal{L}_{\text{L1}}+\mathcal{L}_{\text{SSIM}}+\mathcal{L}_{\
 本文在 2D 与 3D 指标上全面领先：CD 从次优 TRELLIS 的 1.31 降到 0.58（降幅过半），LPIPS 几乎砍半，且在 CFV 上零样本泛化依然最好。关键是 baseline 必须人工对齐位姿/尺度才能算这些数，本文开箱即用——侧面印证了 baseline 的低可用性。
 
 ### 度量尺度与相机预测精度（表 3 / 表 4）
+
 | 评估 | 数据集 | 指标 |
 |------|--------|------|
 | 用预测相机渲染 (表3) | 3DRealCar | SSIM 0.9263 / PSNR 21.76 / LPIPS 0.0500 |
@@ -123,6 +124,7 @@ $$\mathcal{L}_2=\mathcal{L}_{\text{L1}}+\mathcal{L}_{\text{SSIM}}+\mathcal{L}_{\
 用**自己预测的相机**渲染仍能达到与 GT 相机相当的重建质量，说明相机预测头足够准；真实尺度下 CD 仅 1.6 cm，验证度量尺度恢复的精度。
 
 ### 下游 Sim2Real：3D 检测数据增强（表 5，OpenPCDet + Voxel R-CNN，Waymo）
+
 | 设置 | L1/AP↑ | L1/APH↑ | L2/AP↑ | L2/APH↑ |
 |------|--------|---------|--------|---------|
 | Real | 0.8837 | 0.8594 | 0.8026 | 0.7793 |
@@ -131,6 +133,7 @@ $$\mathcal{L}_2=\mathcal{L}_{\text{L1}}+\mathcal{L}_{\text{SSIM}}+\mathcal{L}_{\
 把生成资产插入 100 个 Waymo 场景做增强，AP/APH 在 L1/L2 上稳定提升约 1~1.7 个点——这是"仿真即用"最硬的证据：资产真能帮到真实感知任务。
 
 ### 消融 / 分析：多视图输入数量（表 2）
+
 | 输入视图数 | 3DRealCar PSNR↑ | 3DRealCar CD↓ | CFV PSNR↑ | CFV CD↓ |
 |-----------|------|------|------|------|
 | 1 | 21.2033 | 0.5782 | 21.7250 | 0.7439 |
@@ -177,10 +180,10 @@ $$\mathcal{L}_2=\mathcal{L}_{\text{L1}}+\mathcal{L}_{\text{SSIM}}+\mathcal{L}_{\
 ## 相关论文
 
 - [\[CVPR 2026\] SimScale: Learning to Drive via Real-World Simulation at Scale](simscale_learning_to_drive_via_real-world_simulation_at_scale.md)
+- [\[CVPR 2026\] DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images](dggt_feedforward_4d_reconstruction_of_dynamic_driving_scenes_using_unposed_image.md)
 - [\[CVPR 2026\] WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World](worldlens_full-spectrum_evaluations_of_driving_world_models_in_real_world.md)
 - [\[CVPR 2026\] Learning to Drive is a Free Gift: Large-Scale Label-Free Autonomy Pretraining from Unposed In-The-Wild Videos](learning_to_drive_is_a_free_gift_large-scale_label-free_autonomy_pretraining_fro.md)
 - [\[CVPR 2026\] V2U4Real: A Real-world Large-scale Dataset for Vehicle-to-UAV Cooperative Perception](v2u4real_a_real-world_large-scale_dataset_for_vehicle-to-uav_cooperative_percept.md)
-- [\[CVPR 2026\] Learning Vision-Language-Action World Models for Autonomous Driving](vla_world_learning_vision_language_action_world_models_for_autonomous_driving.md)
 
 </div>
 

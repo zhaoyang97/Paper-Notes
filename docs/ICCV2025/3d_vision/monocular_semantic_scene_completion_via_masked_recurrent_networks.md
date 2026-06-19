@@ -169,8 +169,8 @@ MS-GRU 是本文最核心的创新，将 GRU 循环单元与稀疏计算和掩�
 
 - [\[ICCV 2025\] Global-Aware Monocular Semantic Scene Completion with State Space Models](global-aware_monocular_semantic_scene_completion_with_state_space_models.md)
 - [\[ICCV 2025\] Disentangling Instance and Scene Contexts for 3D Semantic Scene Completion](disentangling_instance_and_scene_contexts_for_3d_semantic_scene_completion.md)
-- [\[CVPR 2026\] AdaSFormer: Adaptive Serialized Transformers for Monocular Semantic Scene Completion from Indoor Environments](../../CVPR2026/3d_vision/adasformer_adaptive_serialized_transformers_for_monocular_semantic_scene_complet.md)
 - [\[ICCV 2025\] 3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding](3dgraphllm_combining_semantic_graphs_and_large_language_models_for_3d_scene_unde.md)
+- [\[CVPR 2026\] Multi-modal Frequency Decomposition Network for Semantic Scene Completion](../../CVPR2026/3d_vision/multi-modal_frequency_decomposition_network_for_semantic_scene_completion.md)
 - [\[CVPR 2026\] Learning Spatial-Temporal Consistency for 3D Semantic Scene Completion](../../CVPR2026/3d_vision/learning_spatial-temporal_consistency_for_3d_semantic_scene_completion.md)
 
 </div>

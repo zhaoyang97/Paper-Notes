@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025 Spotlight  
 **arXiv**: [2506.10031](https://arxiv.org/abs/2506.10031)  
 **代码**: [BoevaLab/scSSL-Bench](https://github.com/BoevaLab/scSSL-Bench)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: self-supervised learning, single-cell genomics, benchmark, batch correction, contrastive learning
 
 ## 一句话总结

@@ -17,10 +17,10 @@ tags:
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Structure-Guided Entity Resolution: Fine-Tuning LLMs for Robust Name Matching in Complex Linguistic Contexts
 
-**会议**: ACL2026
-**arXiv**: [2605.23597](https://arxiv.org/abs/2605.23597)
-**代码**: 待确认
-**领域**: 多语言翻译
+**会议**: ACL2026  
+**arXiv**: [2605.23597](https://arxiv.org/abs/2605.23597)  
+**代码**: 待确认  
+**领域**: 多语言翻译  
 **关键词**: 实体解析, 姓名匹配, 课程学习, KYC, LoRA 微调, 多语言
 
 ## 一句话总结

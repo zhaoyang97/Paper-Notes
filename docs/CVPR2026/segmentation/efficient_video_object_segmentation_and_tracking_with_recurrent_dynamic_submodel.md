@@ -118,6 +118,7 @@ $$r^i_t = \begin{cases} 1, & i \in K \\ \tilde{r}^i_t \sim \text{Bernoulli}(\til
 无需任务专门重训，RDS 在三个模型上都能保住 DAVIS 精度并稳定提速，VOT 基准（表 2，SAMURAI on LaSOT/TrackingNet/GOT-10k）也呈同样趋势：RDS₀.₅ 把 FPS 推到 38.6（1.4×），AUC 仅小幅下降。
 
 ### 消融实验
+
 | 配置 | 关键结果 | 说明 |
 |------|---------|------|
 | 单路由器 vs 密集路由 | 路由延迟 17.2ms → 0.5ms | 总延迟从 31.1ms 降到 14.5ms，真加速来源（表 4） |
@@ -166,11 +167,11 @@ $$r^i_t = \begin{cases} 1, & i \in K \\ \tilde{r}^i_t \sim \text{Bernoulli}(\til
 
 ## 相关论文
 
-- [\[CVPR 2026\] InterRVOS: Interaction-Aware Referring Video Object Segmentation](interrvos_interaction-aware_referring_video_object_segmentation.md)
 - [\[CVPR 2026\] SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection](sddf_specificity-driven_dynamic_focusing_for_open-vocabulary_camouflaged_object.md)
 - [\[CVPR 2026\] RAVEN: Radar Adaptive Vision Encoders for Efficient Chirp-wise Object Detection and Segmentation](raven_radar_adaptive_vision_encoders_for_efficient_chirp-wise_object_detection_a.md)
-- [\[CVPR 2026\] CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects](captionformer_unified_segmentation_tracking_and_captioning_for_spatio-temporal_o.md)
-- [\[CVPR 2026\] Reinforcing Video Object Segmentation to Think before it Segments](reinforcing_video_object_segmentation_to_think_before_it_segments.md)
+- [\[CVPR 2026\] CrackSSM: Reviving SSMs for Crack Segmentation via Dynamic Scanning](crackssm_reviving_ssms_for_crack_segmentation_via_dynamic_scanning.md)
+- [\[CVPR 2025\] A Distractor-Aware Memory for Visual Object Tracking with SAM2](../../CVPR2025/segmentation/a_distractor-aware_memory_for_visual_object_tracking_with_sam2.md)
+- [\[CVPR 2026\] VIRST: Video-Instructed Reasoning Assistant for SpatioTemporal Segmentation](virst_video-instructed_reasoning_assistant_for_spatiotemporal_segmentation.md)
 
 </div>
 

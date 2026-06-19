@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2509.25934](https://arxiv.org/abs/2509.25934)  
 **代码**: [yuanzhao-CVLAB/UniMMAD](https://github.com/yuanzhao-CVLAB/UniMMAD)  
-**领域**:目标检测
+**领域**:目标检测  
 **关键词**: 异常检测, 多模态融合, Mixture-of-Experts, 特征解压缩, 统一框架, 多类别异常检测
 
 ## 一句话总结
@@ -153,7 +153,7 @@ flowchart TD
 - [\[CVPR 2026\] A Semantically Disentangled Unified Model for Multi-category 3D Anomaly Detection](a_semantically_disentangled_unified_model_for_multi-category_3d_anomaly_detectio.md)
 - [\[CVPR 2026\] GPFlow: Gaussian Prototype Probability Flow for Unsupervised Multi-Modal Anomaly Detection](gpflow_gaussian_prototype_probability_flow_for_unsupervised_multi-modal_anomaly_.md)
 - [\[CVPR 2026\] Bidirectional Multimodal Prompt Learning with Scale-Aware Training for Few-Shot Multi-Class Anomaly Detection](bidirectional_multimodal_prompt_learning_with_scale-aware_training_for_few-shot_.md)
-- [\[CVPR 2026\] Learning Multi-Modal Prototypes for Cross-Domain Few-Shot Object Detection](learning_multi-modal_prototypes_for_cross-domain_few-shot_object_detection.md)
+- [\[CVPR 2025\] Mr. DETR++: Instructive Multi-Route Training for Detection Transformers with MoE](../../CVPR2025/object_detection/mr_detr_instructive_multi-route_training_for_detection_transformers.md)
 
 </div>
 

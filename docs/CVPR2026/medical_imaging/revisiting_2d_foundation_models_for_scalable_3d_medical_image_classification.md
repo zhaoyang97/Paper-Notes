@@ -89,6 +89,7 @@ benchmark 含 12 个任务（T1–T12），覆盖腹部创伤（肠/肝/肾/脾�
 AnyMC3D 用比 MST 少 10–40×、比 VoCo 少 40–50× 的可训练参数，平均 AUC 反超所有基线。在 PDAC 早检（T5）上 AnyMC3D(DINOv3) 仅用分类标签就把 AUC 从 PanDx 的 0.949 提到 0.962，再叠加像素辅助监督进一步到 0.973；在胸部 CT 多异常（CT-RATE, 18 种）上 AnyMC3D(DINOv2) 的平均 AUC 达 0.882，超过 CT-Net(0.631) 与 CT-CLIP(0.768)，并以约 0.5M 可训练参数在 118 支队伍的 VLM3D 挑战赛中夺冠。
 
 ### 消融实验
+
 | 配置 | 结论 | 说明 |
 |------|------|------|
 | 切片融合：注意力池化 vs 平均/中值/LSTM/Transformer | 注意力池化最优 | 更少参数即超越，序列建模徒增开销无收益 |
@@ -134,9 +135,9 @@ AnyMC3D 用比 MST 少 10–40×、比 VoCo 少 40–50× 的可训练参数，�
 
 - [\[ICML 2025\] Raptor: Scalable Train-Free Embeddings for 3D Medical Volumes Leveraging Pretrained 2D Foundation Models](../../ICML2025/medical_imaging/raptor_scalable_train-free_embeddings_for_3d_medical_volumes_leveraging_pretrain.md)
 - [\[CVPR 2026\] Delving Aleatoric Uncertainty in Medical Image Segmentation via Vision Foundation Models](delving_aleatoric_uncertainty_in_medical_image_segmentation_via_vision_foundatio.md)
-- [\[CVPR 2026\] Are General-Purpose Vision Models All We Need for 2D Medical Image Segmentation? A Cross-Dataset Empirical Study](are_general-purpose_vision_models_all_we_need_for_2d_medical_image_segmentation_.md)
 - [\[CVPR 2026\] Forging a Dynamic Memory: Retrieval-Guided Continual Learning for Generalist Medical Foundation Models](forging_a_dynamic_memory_retrieval-guided_continual_learning_for_generalist_medi.md)
-- [\[CVPR 2026\] Attention Consistent Longitudinal Medical Visual Question Answering Guided by Vision Foundation Models](attention_consistent_longitudinal_medical_visual_question_answering_guided_by_vi.md)
+- [\[ICLR 2026\] Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity](../../ICLR2026/medical_imaging/improving_2d_diffusion_models_for_3d_medical_imaging_with_inter-slice_consistent.md)
+- [\[CVPR 2026\] NeuroSeg Meets DINOv3: Transferring 2D Self-Supervised Visual Priors to 3D Neuron Segmentation via DINOv3 Initialization](neuroseg_meets_dinov3_transferring_2d_self-supervised_visual_priors_to_3d_neuron.md)
 
 </div>
 

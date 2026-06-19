@@ -109,6 +109,7 @@ $$L_{\text{reg}}(\theta)=M\circ\|v-v_\theta(x_t(c),t,c)\|_2^2,\qquad L_{\text{fi
 人类在"文字准确率"上多投平局（三种方法实际文字准确率几乎一样，尽管 OCR 分差很多），但在一致性和画质上 GDRO 与基线几乎打平、显著碾压 Flow-GRPO——直接证明 Flow-GRPO 已被 hacking 拖累。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | group size $k=2$ | 不稳、崩溃 | 等价 DPO，缺群组稳定性 |
@@ -154,9 +155,9 @@ $$L_{\text{reg}}(\theta)=M\circ\|v-v_\theta(x_t(c),t,c)\|_2^2,\qquad L_{\text{fi
 
 - [\[CVPR 2026\] HP-Edit: A Human-Preference Post-Training Framework for Image Editing](hp-edit_a_human-preference_post-training_framework_for_image_editing.md)
 - [\[CVPR 2026\] LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories](leapalign_post_training_flow_matching_models_at_any_generation_step.md)
+- [\[CVPR 2026\] The Image as Its Own Reward: Reinforcement Learning with Adversarial Reward for Image Generation](the_image_as_its_own_reward_reinforcement_learning_with_adversarial_reward_for_i.md)
 - [\[CVPR 2026\] Reward Sharpness-Aware Fine-Tuning for Diffusion Models](reward_sharpness-aware_fine-tuning_for_diffusion_models.md)
 - [\[ICML 2026\] GUDA: Counterfactual Group-wise Training Data Attribution for Diffusion Models via Unlearning](../../ICML2026/image_generation/guda_counterfactual_group-wise_training_data_attribution_for_diffusion_models_vi.md)
-- [\[ICCV 2025\] DMQ: Dissecting Outliers of Diffusion Models for Post-Training Quantization](../../ICCV2025/image_generation/dmq_dissecting_outliers_of_diffusion_models_for_post-training_quantization.md)
 
 </div>
 

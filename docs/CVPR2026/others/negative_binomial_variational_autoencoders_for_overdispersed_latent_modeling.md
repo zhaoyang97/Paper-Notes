@@ -107,6 +107,7 @@ $$\mathrm{NB}(z;r,p)=\int_0^\infty \mathrm{Poi}(z\mid\lambda)\,\mathrm{Gamma}\!\
 | 少样本(LR) | CIFAR 20-shot | 0.266 | 0.261（P-VAE） | 跨数据集仍领先 |
 
 ### 消融实验
+
 | 配置 | 结论 | 说明 |
 |------|------|------|
 | 解码器架构（线性编码器固定） | MLP 解码器 MSE/SSIM 最优，卷积解码器 FID/KID 最优，线性最差 | 解码器容量对重建与生成都关键 |
@@ -151,9 +152,9 @@ $$\mathrm{NB}(z;r,p)=\int_0^\infty \mathrm{Poi}(z\mid\lambda)\,\mathrm{Gamma}\!\
 
 - [\[CVPR 2026\] BrepVGAE: Variational Graph Autoencoder with Unified Latent Representation for B-rep](brepvgae_variational_graph_autoencoder_with_unified_latent_representation_for_b-.md)
 - [\[CVPR 2026\] Modeling the Visual Ambiguity of Human Sketches](modeling_the_visual_ambiguity_of_human_sketches.md)
-- [\[CVPR 2026\] Advancing Image Classification with Discrete Diffusion Classification Modeling](advancing_image_classification_with_discrete_diffusion_classification_modeling.md)
 - [\[ICLR 2026\] Disentangling Shared and Private Neural Dynamics with SPIRE: A Latent Modeling Framework for Deep Brain Stimulation](../../ICLR2026/others/disentangling_shared_and_private_neural_dynamics_with_spire_a_latent_modeling_fr.md)
 - [\[CVPR 2026\] MSPT: Efficient Large-Scale Physical Modeling via Parallelized Multi-Scale Attention](mspt_efficient_large-scale_physical_modeling_via_parallelized_multi-scale_attent.md)
+- [\[ICLR 2026\] Latent Fourier Transform](../../ICLR2026/others/latent_fourier_transform.md)
 
 </div>
 

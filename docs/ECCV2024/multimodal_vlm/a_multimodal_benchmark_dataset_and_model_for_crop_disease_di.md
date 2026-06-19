@@ -115,10 +115,10 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach](../../ACL2025/multimodal_vlm/multimodal_coreference_resolution_for_chinese_social_media_dialogues_dataset_and.md)
-- [\[CVPR 2026\] RMIR: A Benchmark Dataset for Reasoning-Intensive Multimodal Image Retrieval](../../CVPR2026/multimodal_vlm/rmir_a_benchmark_dataset_for_reasoning-intensive_multimodal_image_retrieval.md)
 - [\[NeurIPS 2025\] Are Vision Language Models Ready for Clinical Diagnosis? A 3D Medical Benchmark for Tumor-centric Visual Question Answering](../../NeurIPS2025/multimodal_vlm/are_vision_language_models_ready_for_clinical_diagnosis_a_3d_medical_benchmark_f.md)
-- [\[ECCV 2024\] Dataset Growth (InfoGrowth)](dataset_growth.md)
 - [\[NeurIPS 2025\] Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment](../../NeurIPS2025/multimodal_vlm/multimodal_disease_progression_modeling_via_spatiotemporal_disentanglement_and_m.md)
+- [\[ECCV 2024\] Dataset Growth (InfoGrowth)](dataset_growth.md)
+- [\[CVPR 2026\] MeteorPred: A Meteorological Multimodal Large Model and Dataset for Severe Weather Event Prediction](../../CVPR2026/multimodal_vlm/meteorpred_a_meteorological_multimodal_large_model_and_dataset_for_severe_weathe.md)
 
 </div>
 

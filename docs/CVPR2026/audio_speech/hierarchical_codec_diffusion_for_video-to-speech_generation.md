@@ -96,6 +96,7 @@ $$\underbrace{\gamma^i_{emo,t}\otimes \mathbf{1}_{25}}_{\text{时间级}}\cdot\B
 LRS2 上同样领先 DNSMOS(3.35 vs FTV 3.11)、LSE-C(7.95 vs 7.71)、LSE-D(6.17 vs 6.35)，WER(39.99) 略逊 FTV(38.09)。OOD 真实电影数据(160 句/56 说话人)上 WER 58.7 远好于 EmoDubber 88.3 与 AlignDiT 80.8，鲁棒性突出。主观评测 MOSnat 3.17、MOSsyn 3.50 均第一，A/B 测试对 AlignDiT 57.0% 偏好、对 FTV 52.1%。
 
 ### 消融实验
+
 | 配置(LRS3) | WER↓ | DNSMOS↑ | EmoAcc↑ | SpkSim↑ | 说明 |
 |------|------|---------|---------|---------|------|
 | HiCoDiT (full) | 29.41 | 3.50 | 79.41 | 0.5678 | 完整模型 |
@@ -144,7 +145,7 @@ LRS2 上同样领先 DNSMOS(3.35 vs FTV 3.11)、LSE-C(7.95 vs 7.71)、LSE-D(6.17
 - [\[CVPR 2026\] EchoFoley: Event-Centric Hierarchical Control for Video Grounded Creative Sound Generation](echofoley_event-centric_hierarchical_control_for_video_grounded_creative_sound_g.md)
 - [\[CVPR 2026\] SAVE: Speech-Aware Video Representation Learning for Video-Text Retrieval](save_speech-aware_video_representation_learning_for_video-text_retrieval.md)
 - [\[CVPR 2026\] Hear What You See: Video-to-Audio Generation with Diffusion Transformer and Semantic-Temporal Alignment-Ranked Direct Preference Optimization](hear_what_you_see_video-to-audio_generation_with_diffusion_transformer_and_seman.md)
-- [\[CVPR 2026\] Omni2Sound: Towards Unified Video-Text-to-Audio Generation](omni2sound_towards_unified_video-text-to-audio_generation.md)
+- [\[CVPR 2026\] OmniSonic: Towards Universal and Holistic Audio Generation from Video and Text](omnisonic_towards_universal_and_holistic_audio_generation_from_video_and_text.md)
 
 </div>
 

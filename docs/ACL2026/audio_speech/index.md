@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 音频/语音论文汇总 · 68篇论文解读
+  ACL2026 音频/语音论文汇总 · 70篇论文解读
 description: >-
-  68篇ACL2026的音频/语音方向论文解读，涵盖语音、对话系统、LLM、多模态、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  70篇ACL2026的音频/语音方向论文解读，涵盖语音、对话系统、LLM、多模态、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "音频/语音"
@@ -51,6 +51,8 @@ item_list:
     t: "Exploration of Perceptual Speech Features for Clinical Decision-Support in Mental Health Care"
   - u: "fc-tts_style_and_timbre_control_in_zero-shot_text-to-speech_with_disentangled_sp/"
     t: "FC-TTS: Style and Timbre Control in Zero-Shot Text-to-Speech with Disentangled Speech Representations"
+  - u: "figma_towards_fine-grained_music_retrieval/"
+    t: "FIGMA: Towards Fine-Grained Music Retrieval"
   - u: "from_flat_language_labels_to_typological_priors_structured_language_conditioning/"
     t: "From Flat Language Labels to Typological Priors: Structured Language Conditioning for Multilingual Speech-to-Speech Translation"
   - u: "full-duplex-bench-v2_a_multi-turn_evaluation_framework_for_duplex_dialogue_syste/"
@@ -73,17 +75,15 @@ item_list:
     t: "LLM-MC-Affect: LLM-Based Monte Carlo Modeling of Affective Trajectories and Latent Ambiguity for Interpersonal Dynamic Insight"
   - u: "marquis_a_three-stage_pipeline_for_video_retrieval-augmented_generation/"
     t: "MARQUIS: A Three-Stage Pipeline for Video Retrieval-Augmented Generation"
-  - u: "mcga_a_multi-task_classical_chinese_literary_genre_audio_corpus/"
-    t: "MCGA: A Multi-task Classical Chinese Literary Genre Audio Corpus"
-item_total: 68
+item_total: 70
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**💬 ACL2026** · **68** 篇论文解读
+**💬 ACL2026** · **70** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (32)](../../CVPR2026/audio_speech/index.md) · [🧪 ICML2026 (30)](../../ICML2026/audio_speech/index.md) · [🔬 ICLR2026 (34)](../../ICLR2026/audio_speech/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/audio_speech/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/audio_speech/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/audio_speech/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/audio_speech/index.md) · [🧪 ICML2026 (36)](../../ICML2026/audio_speech/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/audio_speech/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/audio_speech/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/audio_speech/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/audio_speech/index.md)
 
 🔥 **高频主题：** 语音 ×50 · 对话系统 ×9 · LLM ×5 · 多模态 ×4 · 推理 ×3
 
@@ -158,6 +158,10 @@ item_total: 68
 **[FC-TTS: Style and Timbre Control in Zero-Shot Text-to-Speech with Disentangled Speech Representations](fc-tts_style_and_timbre_control_in_zero-shot_text-to-speech_with_disentangled_sp.md)**
 
 :   FC-TTS 用 FACodec 的解耦语音表示作为条件来源，再通过两阶段谱图生成、VQ-VAE 风格编码和条件一致性损失，把零样本 TTS 中原本纠缠在同一 reference 里的音色和说话风格拆成两个可独立控制的输入。
+
+**[FIGMA: Towards Fine-Grained Music Retrieval](figma_towards_fine-grained_music_retrieval.md)**
+
+:   针对 CLAP 类音乐检索模型"只用得上 caption 前 40–50 个 token、长描述坍缩成词袋"的毛病，FIGMA 在标准全局对比损失之外加了一条帧-token 级别的细粒度对比损失（多视图对比），并配套构建了 38 万对带乐理标注的 FGMCaps 数据集，让模型能按 tempo、调性、和弦、节拍这类精确属性检索音乐，相对提升最高达 73.3%。
 
 **[From Flat Language Labels to Typological Priors: Structured Language Conditioning for Multilingual Speech-to-Speech Translation](from_flat_language_labels_to_typological_priors_structured_language_conditioning.md)**
 
@@ -250,6 +254,10 @@ item_total: 68
 **[Reference Games as a Testbed for the Alignment of Model Uncertainty and Clarification Requests](reference_games_as_a_testbed_for_the_alignment_of_model_uncertainty_and_clarific.md)**
 
 :   这篇论文用颜色网格 reference games 检验 VLM 能否把内部不确定性转化为恰当澄清请求，发现即便任务很受控，Qwen2.5-VL 和 GPT-5-mini 也仍存在过度自信、澄清行为不稳定和澄清问题低质量等交互能力缺口。
+
+**[RespiraMFM: 用对比式音频-语言对齐做呼吸疾病识别的多模态基础模型](respiramfm_a_multimodal_foundation_model_with_contrastive_audio-language_alignme.md)**
+
+:   RespiraMFM 针对"咳嗽/喘鸣等非语言声学生物标记很难和症状文本对齐"这一痛点，提出**两阶段解耦**架构：先用对比学习把音频嵌入显式锚到 LLM 文本语义空间、再冻结这个对齐器去做指令微调分类，在五种呼吸疾病、九个任务上把有监督 AUROC 提升 9.15%、零样本提升 20.98%。
 
 **[ReStyle-TTS: Relative and Continuous Style Control for Zero-Shot Speech Synthesis](restyle-tts_relative_and_continuous_style_control_for_zero-shot_speech_synthesis.md)**
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 知识编辑论文汇总 · 8篇论文解读
+  ICLR2026 知识编辑论文汇总 · 9篇论文解读
 description: >-
-  8篇ICLR2026的知识编辑方向论文解读，涵盖对齐/RLHF、对抗鲁棒、目标跟踪、布局/合成、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  9篇ICLR2026的知识编辑方向论文解读，涵盖对齐/RLHF、对抗鲁棒、目标跟踪、布局/合成、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "知识编辑"
@@ -14,6 +14,8 @@ tags:
   - "布局/合成"
   - "多模态"
 item_list:
+  - u: "ace_attribution-controlled_knowledge_editing_for_multi-hop_factual_recall/"
+    t: "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall"
   - u: "bilinear_representation_mitigates_reversal_curse_and_enables_consistent_model_ed/"
     t: "Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing"
   - u: "eamet_robust_massive_model_editing_via_embedding_alignment_optimization/"
@@ -30,15 +32,19 @@ item_list:
     t: "Rote Learning Considered Useful: Generalizing over Memorized Training Examples"
   - u: "when_large_multimodal_models_confront_evolving_knowledge_challenges_and_explorat/"
     t: "When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations"
-item_total: 8
+item_total: 9
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**🔬 ICLR2026** · **8** 篇论文解读
+**🔬 ICLR2026** · **9** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/knowledge_editing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/knowledge_editing/index.md) · [💬 ACL2026 (9)](../../ACL2026/knowledge_editing/index.md) · [🤖 AAAI2026 (4)](../../AAAI2026/knowledge_editing/index.md) · [🧠 NeurIPS2025 (6)](../../NeurIPS2025/knowledge_editing/index.md) · [🧪 ICML2025 (2)](../../ICML2025/knowledge_editing/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/knowledge_editing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/knowledge_editing/index.md) · [💬 ACL2026 (10)](../../ACL2026/knowledge_editing/index.md) · [🤖 AAAI2026 (4)](../../AAAI2026/knowledge_editing/index.md) · [🧠 NeurIPS2025 (6)](../../NeurIPS2025/knowledge_editing/index.md) · [🧪 ICML2025 (2)](../../ICML2025/knowledge_editing/index.md)
+
+**[ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall](ace_attribution-controlled_knowledge_editing_for_multi-hop_factual_recall.md)**
+
+:   ACE 通过神经元级归因发现「隐式主语在多跳推理里扮演 query 神经元、逐层激活 value 神经元」这一被忽视的机制，并据此把编辑从「层级启发式」精细到「query-value 通路」，在多跳事实召回上比 SOTA 的 PMET 在 GPT-J 上高 9.44%、在 Qwen3-8B 上高 37.46%。
 
 **[Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing](bilinear_representation_mitigates_reversal_curse_and_enables_consistent_model_ed.md)**
 

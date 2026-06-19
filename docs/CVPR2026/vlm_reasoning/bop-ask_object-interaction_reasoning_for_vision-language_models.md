@@ -2,10 +2,10 @@
 title: >-
   [论文解读] BOP-Ask: Object-Interaction Reasoning for Vision-Language Models
 description: >-
-  [CVPR 2026][多模态VLM][物体交互推理] 本文把 6D 物体位姿基准 BOP 自动改造成一个含 150K 图像、33.8M 问答对、覆盖六类技能（位姿/抓取/轨迹/重排/空间/深度）的大规模物体交互推理数据集 BOP-Ask，用它微调开源 VLM 后不仅在自建测试集上大幅超越 GPT-5、Gemini，还能迁移到域外空间推理基准并驱动真实 Franka 机器人完成 10/15 抓放任务。
+  [CVPR 2026][VLM Reasoning][物体交互推理] 本文把 6D 物体位姿基准 BOP 自动改造成一个含 150K 图像、33.8M 问答对、覆盖六类技能（位姿/抓取/轨迹/重排/空间/深度）的大规模物体交互推理数据集 BOP-Ask，用它微调开源 VLM 后不仅在自建测试集上大幅超越 GPT-5、Gemini，还能迁移到域外空间推理基准并驱动真实 Franka 机器人完成 10/15 抓放任务。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "物体交互推理"
   - "6D 位姿"
   - "抓取"
@@ -153,11 +153,11 @@ $$\text{NCE}=\frac{1}{N}\sum_{i=1}^{N}\frac{\|p_i-\hat{p}_i\|_2}{d},$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] Mechanisms of Object Localization in Vision-Language Models](mechanisms_of_object_localization_in_vision-language_models.md)
-- [\[CVPR 2026\] HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics](handyvqa_a_video_qa_benchmark_for_fine-grained_hand-object_interaction_dynamics.md)
-- [\[CVPR 2026\] Boosting Vision-Language Models Towards Cross-Domain Incremental Object Detection](boosting_vision-language_models_towards_cross-domain_incremental_object_detectio.md)
-- [\[CVPR 2026\] ORIC: Benchmarking Object Recognition under Contextual Incongruity in Large Vision-Language Models](oric_benchmarking_object_recognition_under_contextual_incongruity_in_large_visio.md)
-- [\[ACL 2025\] Teaching Vision-Language Models to Ask: Resolving Ambiguity in Visual Questions](../../ACL2025/multimodal_vlm/teaching_vlm_ask_ambiguity.md)
+- [\[ICLR 2026\] Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models](../../ICLR2026/vlm_reasoning/agentic_jigsaw_interaction_learning_for_enhancing_visual_perception_and_reasonin.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
+- [\[CVPR 2026\] Chain-of-Thought Guided Multi-Modal Object Re-Identification](chain-of-thought_guided_multi-modal_object_re-identification.md)
+- [\[CVPR 2026\] Reinforcing Video Object Segmentation to Think before it Segments](reinforcing_video_object_segmentation_to_think_before_it_segments.md)
+- [\[CVPR 2026\] SpatiaLQA: A Benchmark for Evaluating Spatial Logical Reasoning in Vision-Language Models](spatialqa_a_benchmark_for_evaluating_spatial_logical_reasoning_in_vision-languag.md)
 
 </div>
 

@@ -118,6 +118,7 @@ $$|R|_t = \lfloor k\cdot (B-C_t)\rfloor.$$
 EcoAlign 在所有模型、所有安全 benchmark 上都拿到最高安全分（如 Gemini 上 MMSafety 近满分 97.7，远超次优 VLM-Guard 87.8、Base 64.2），同时效用维持高位；成本上比 CoT 经济得多——GPT-4o 上 21.2 不到 CoT（104.3）的 1/4，Qwen-VL-Max 上 12.7 是 CoT（114.0）的 1/8 还多，且性能更好。值得注意的是 VLM-Guard 虽成本极低（如 GPT-4o 3.1），但效用被过度拦截拖垮（MathVista 仅 69.7），印证了"短视输出对齐牺牲效用"的判断。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | Full（动态前瞻 + Smin + 经济价值函数） | 最佳折中 | 完整模型 |
@@ -165,8 +166,8 @@ EcoAlign 在所有模型、所有安全 benchmark 上都拿到最高安全分（
 - [\[ICML 2025\] MPO: An Efficient Post-Processing Framework for Mixing Diverse Preference Alignment](../../ICML2025/llm_alignment/mpo_an_efficient_post-processing_framework_for_mixing_diverse_preference_alignme.md)
 - [\[ICLR 2026\] Learning More with Less: A Dynamic Dual-Level Down-Sampling Framework for Efficient Policy Optimization](../../ICLR2026/llm_alignment/learning_more_with_less_a_dynamic_dual-level_down-sampling_framework_for_efficie.md)
 - [\[AAAI 2026\] Differentiated Directional Intervention: A Framework for Evading LLM Safety Alignment](../../AAAI2026/llm_alignment/differentiated_directional_intervention_a_framework_for_evading_llm_safety_align.md)
+- [\[ICLR 2026\] Annotation-Efficient Honesty Alignment via Confidence Elicitation and Calibration](../../ICLR2026/llm_alignment/annotation-efficient_honesty_alignment_via_confidence_elicitation_and_calibratio.md)
 - [\[ICLR 2026\] Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework](../../ICLR2026/llm_alignment/beyond_rlhf_and_nlhf_population-proportional_alignment_under_an_axiomatic_framew.md)
-- [\[ACL 2026\] Alignment Data Map for Efficient Preference Data Selection and Diagnosis](../../ACL2026/llm_alignment/alignment_data_map_for_efficient_preference_data_selection_and_diagnosis.md)
 
 </div>
 

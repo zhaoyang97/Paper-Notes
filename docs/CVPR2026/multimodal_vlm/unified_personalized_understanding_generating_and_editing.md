@@ -95,6 +95,7 @@ $$L_{total} = L^{CE}_{text} + \lambda_{image} L^{MSE}_{image} + \lambda_{edit} L
 > ⚠️ caveat：在 DINO（0.579 < Unictoken 0.646）和 CLIP-T（0.273 < Bagel+TP 0.284）上略低，作者解释为"身份优先于泛文本对齐"的设计取舍；PARG 总分 0.613 也低于 Bagel+TP 的 0.813（后者靠直接塞长上下文描述），但 OmniPersona 是把知识内化进紧凑 token、不增加推理开销，且 0.613 已比同为"学习 token"路线的 Unictoken（0.359）高 70.8%。
 
 ### 消融实验
+
 | 配置 | 识别 Rec. | PARG Score | 生成 CLIP-I | 编辑 Avg. | 说明 |
 |------|-----------|-----------|-------------|-----------|------|
 | Ours (Full) | 0.852 | 0.613 | 0.791 | 0.658 | 完整模型 |
@@ -137,7 +138,7 @@ $$L_{total} = L^{CE}_{text} + \lambda_{image} L^{MSE}_{image} + \lambda_{edit} L
 
 ## 相关论文
 
-- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
+- [\[CVPR 2026\] CAD-Refiner: A Unified Framework for CAD Generation and Iterative Editing](cad-refiner_a_unified_framework_for_cad_generation_and_iterative_editing.md)
 - [\[CVPR 2026\] PersonaVLM: Long-Term Personalized Multimodal LLMs](personavlm_long_term_personalized_multimodal_llms.md)
 - [\[CVPR 2026\] Rosetta Stone for Unified MLLMs: A Unified Tokenizer to Decipher Understanding and Generation](rosetta_stone_for_unified_mllms_a_unified_tokenizer_to_decipher_understanding_an.md)
 - [\[CVPR 2026\] Personalized Image Descriptions from Attention Sequences](personalized_image_descriptions_from_attention_sequences.md)

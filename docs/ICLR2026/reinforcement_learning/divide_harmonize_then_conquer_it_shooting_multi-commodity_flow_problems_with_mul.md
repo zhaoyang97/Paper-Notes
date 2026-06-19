@@ -147,8 +147,8 @@ Pram 在最大拓扑（754 节点，190 万路径权重）上比 LP 快 100 倍�
 ## 相关论文
 
 - [\[ICLR 2026\] Transitive RL: Value Learning via Divide and Conquer](transitive_rl_value_learning_via_divide_and_conquer.md)
-- [\[ICLR 2026\] InFOM: Intention-Conditioned Flow Occupancy Models](infom_intention_flow_occupancy.md)
 - [\[ICLR 2026\] Robust Multi-Objective Controlled Decoding of Large Language Models](robust_multi-objective_controlled_decoding_of_large_language_models.md)
+- [\[ICLR 2026\] InFOM: Intention-Conditioned Flow Occupancy Models](infom_intention_flow_occupancy.md)
 - [\[ICLR 2026\] Towards Strategic Persuasion with Language Models](towards_strategic_persuasion_with_language_models.md)
 - [\[CVPR 2026\] See It, Say It, Sorted: An Iterative Training-Free Framework for Visually-Grounded Multimodal Reasoning in LVLMs](../../CVPR2026/reinforcement_learning/see_it_say_it_sorted_an_iterative_training-free_framework_for_visually-grounded_.md)
 

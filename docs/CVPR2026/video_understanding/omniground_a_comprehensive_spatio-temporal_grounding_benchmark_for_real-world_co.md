@@ -107,6 +107,7 @@ OmniGround 在所有维度上全面领先现有 STVG 与 RVOS 基准（节选）
 任务专用模型（CG-STVG）整体反超 MLLM；但所有模型在高 vIoU 阈值下空间精度都差（最好 CG-STVG 仅 23.4%@0.5），且在"多相似目标"和"深层句法"场景掉幅最大（CG-STVG 在深层句法上 m_tIoU 从 47.5 跌到 20.6，掉 26.9 个点）。
 
 ### PG-TAF 在四基准上的对比
+
 | 模型 | HC-STVG m_vIoU | VidSTG(陈述) m_vIoU | OmniGround m_tIoU | OmniGround m_vIoU | 平均 m_vIoU |
 |------|---------------|---------------------|-------------------|-------------------|-------------|
 | LLaVA-ST | 7.6 | 14.2 | 19.7 | 8.7 | 9.5 |
@@ -152,11 +153,11 @@ PG-TAF 全程训练无关，却在 OmniGround 上 m_tIoU/m_vIoU 双双登顶（4
 
 ## 相关论文
 
-- [\[CVPR 2026\] VISTA: Video Interaction Spatio-Temporal Analysis Benchmark](vista_video_interaction_spatio-temporal_analysis_benchmark.md)
-- [\[CVPR 2026\] Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos](towards_spatio-temporal_world_scene_graph_generation_from_monocular_videos.md)
 - [\[AAAI 2026\] R-AVST: Empowering Video-LLMs with Fine-Grained Spatio-Temporal Reasoning in Complex Audio-Visual Scenarios](../../AAAI2026/video_understanding/r-avst_empowering_video-llms_with_fine-grained_spatio-temporal_reasoning_in_comp.md)
+- [\[CVPR 2026\] Long-RVOS: A Comprehensive Benchmark for Long-term Referring Video Object Segmentation](long-rvos_a_comprehensive_benchmark_for_long-term_referring_video_object_segment.md)
 - [\[CVPR 2026\] Real-World Point Tracking with Verifier-Guided Pseudo-Labeling](realworld_point_tracking_with_verifierguided_pseud.md)
 - [\[CVPR 2026\] OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding](omnivtg_a_large-scale_dataset_and_training_paradigm_for_open-world_video_tempora.md)
+- [\[CVPR 2026\] SARL-STG: A Spatially Aware Reinforcement Learning Framework for Refining MLLMs in Spatio-Temporal Video Grounding](sarl-stg_a_spatially_aware_reinforcement_learning_framework_for_refining_mllms_i.md)
 
 </div>
 

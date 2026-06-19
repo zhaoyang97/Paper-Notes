@@ -104,6 +104,7 @@ $$\mathcal{L}=\mathcal{L}_{cls}+\alpha_1\mathcal{L}_1+\alpha_2\mathcal{L}_2+\alp
 末任务归因精度 78.80%，比第二名 DGR（75.68%）高 **3.12%**；未见检测 98.93% 显著领先。所有增量基线随新生成器加入都明显衰退（prompt 类的 L2P、DualPrompt 衰退最猛，末任务仅 ~29% / 35%），印证它们在重叠分布上难以兼顾可塑性与抗遗忘。
 
 ### EP2 静态闭集归因（Table 2，逐模型 + 总均值）
+
 | 指标 | DNA-Net | RepMix | DE-FAKE | POSE | Siamese | **本文** |
 |------|------|------|------|------|------|------|
 | Avg. Acc.（28 类均值） | 83.75 | 71.61 | 91.16 | 73.97 | 74.69 | **95.93** |
@@ -113,6 +114,7 @@ $$\mathcal{L}=\mathcal{L}_{cls}+\alpha_1\mathcal{L}_1+\alpha_2\mathcal{L}_2+\alp
 静态设定下也拿到最高平均归因 95.93% 与近乎完美的 99.97% 真伪识别，在 SD-XL、SD3、FLUX 这类近期扩散模型上对其他方法的优势尤为明显。
 
 ### 消融实验（Table 3，逐项叠加）
+
 | 配置 | $\mathcal{T}_7$ 归因 | 未见检测 | 说明 |
 |------|------|------|------|
 | baseline | 35.24 | 69.13 | 朴素微调，剧烈遗忘 |
@@ -159,7 +161,7 @@ $$\mathcal{L}=\mathcal{L}_{cls}+\alpha_1\mathcal{L}_1+\alpha_2\mathcal{L}_2+\alp
 - [\[CVPR 2026\] Breaking Semantic Boundaries: Distribution-Guided Semantic Exploration for Creative Generation](breaking_semantic_boundaries_distribution-guided_semantic_exploration_for_creati.md)
 - [\[CVPR 2026\] VOSR: A Vision-Only Generative Model for Image Super-Resolution](vosr_a_vision_only_generative_model_for_image_super_resolution.md)
 - [\[CVPR 2026\] Taming Generative Diffusion Model for Task-Oriented Infrared Imaging](taming_generative_diffusion_model_for_task-oriented_infrared_imaging.md)
-- [\[AAAI 2026\] Breaking the Modality Barrier: Generative Modeling for Accurate Molecule Retrieval from Mass Spectra](../../AAAI2026/image_generation/breaking_the_modality_barrier_generative_modeling_for_accurate_molecule_retrieva.md)
+- [\[CVPR 2026\] Towards Fine-Grained Attribution: Instance-Aware Preference Optimization for Aligning Diffusion Models](towards_fine-grained_attribution_instance-aware_preference_optimization_for_alig.md)
 
 </div>
 

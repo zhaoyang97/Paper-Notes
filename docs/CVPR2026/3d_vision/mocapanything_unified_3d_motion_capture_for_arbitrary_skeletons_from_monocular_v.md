@@ -93,6 +93,7 @@ $$\mathcal{L}_{\text{pos}}=\frac{1}{\sum_{t}\sum_j m_j}\sum_{t=1}^{T}\sum_j m_j\
 本文在三档上全面领先，且越是 unseen 物种领先越夸张：MPJPE 从次优 GLoT 的 7.42 压到 1.76（降约 76%），说明类别无关设计在新物种上的泛化是结构性优势而非过拟合训练集。
 
 ### 消融实验
+
 | 配置 | Seen MPJPE | Rare MPJPE | Unseen MPJPE | 说明 |
 |------|-----------|-----------|-------------|------|
 | Full model | 1.06 | 1.28 | 1.76 | 完整模型 |
@@ -137,10 +138,10 @@ $$\mathcal{L}_{\text{pos}}=\frac{1}{\sum_{t}\sum_j m_j}\sum_{t=1}^{T}\sum_j m_j\
 ## 相关论文
 
 - [\[CVPR 2026\] Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos](learning_explicit_continuous_motion_representation_for_dynamic_gaussian_splattin.md)
+- [\[CVPR 2026\] Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos](natural_human_motion_recovery_by_aligning_high-order_temporal_dynamics_from_mono.md)
 - [\[CVPR 2026\] NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos](neoverse_enhancing_4d_world_model_with_in-the-wild_monocular_videos.md)
 - [\[CVPR 2026\] RHINO: Reconstructing Human Interactions with Novel Objects from Monocular Videos](rhino_reconstructing_human_interactions_with_novel_objects_from_monocular_videos.md)
 - [\[CVPR 2026\] Recovering Physically Plausible Human-Object Interactions from Monocular Videos](recovering_physically_plausible_human-object_interactions_from_monocular_videos.md)
-- [\[CVPR 2026\] Differentiable Adaptive 4D Structured Illumination for Joint Capture of Shape and Reflectance](differentiable_adaptive_4d_structured_illumination_for_joint_capture_of_shape_an.md)
 
 </div>
 

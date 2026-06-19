@@ -158,7 +158,7 @@ $$\hat{D}(\mathbf{x}) = \sum_{n=1}^N p_n(\mathbf{x}) f_n$$
 - [\[ICML 2026\] FSI2P: A Hierarchical Focus–Sweep Registration Network with Dynamically Allocated Depth](../../ICML2026/3d_vision/fs-i2pa_hierarchical_focus-sweep_registration_network_with_dynamically_allocated.md)
 - [\[NeurIPS 2025\] 3D Visual Illusion Depth Estimation](3d_visual_illusion_depth_estimation.md)
 - [\[ECCV 2024\] IDOL: Unified Dual-Modal Latent Diffusion for Human-Centric Joint Video-Depth Generation](../../ECCV2024/3d_vision/idol_unified_dual-modal_latent_diffusion_for_human-centric_joint_video-depth_gen.md)
-- [\[ICCV 2025\] Image-Guided Shape-from-Template Using Mesh Inextensibility Constraints](../../ICCV2025/3d_vision/image-guided_shape-from-template_using_mesh_inextensibility_constraints.md)
+- [\[CVPR 2026\] Variational Graph-based Normal Integration](../../CVPR2026/3d_vision/variational_graph-based_normal_integration.md)
 
 </div>
 

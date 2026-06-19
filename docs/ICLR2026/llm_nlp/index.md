@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLM其他论文汇总 · 33篇论文解读
+  ICLR2026 LLM其他论文汇总 · 37篇论文解读
 description: >-
-  33篇ICLR2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  37篇ICLR2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、Agent、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "LLM 其他"
@@ -10,8 +10,17 @@ tags:
   - "论文笔记"
   - "LLM"
   - "扩散模型"
+  - "Agent"
   - "推理"
 item_list:
+  - u: "achieving_olympia-level_geometry_large_language_model_agent_via_complexity_boost/"
+    t: "Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning"
+  - u: "best-of-infinity_asymptotic_performance_of_test-time_llm_ensembling/"
+    t: "Best-of-∞: Asymptotic Performance of Test-Time LLM Ensembling"
+  - u: "beyond_fixed_training-free_variable-length_denoising_for_diffusion_large_languag/"
+    t: "Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models"
+  - u: "beyond_magic_words_sharpness-aware_prompt_evolving_for_robust_large_language_mod/"
+    t: "Beyond Magic Words: Sharpness-Aware Prompt Evolving for Robust Large Language Models with TARE"
   - u: "bots_a_unified_framework_for_bayesian_online_task_selection_in_llm_reinforcement/"
     t: "BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning"
   - u: "breaking_the_correlation_plateau_on_the_optimization_and_capacity_limits_of_atte/"
@@ -64,25 +73,33 @@ item_list:
     t: "Statistical Advantage of Softmax Attention: Insights from Single-Location Regression"
   - u: "stopping_computation_for_converged_tokens_in_masked_diffusion-lm_decoding/"
     t: "Stopping Computation for Converged Tokens in Masked Diffusion-LM Decoding"
-  - u: "the_lattice_representation_hypothesis_of_large_language_models/"
-    t: "The Lattice Representation Hypothesis of Large Language Models"
-  - u: "toward_safer_diffusion_language_models_discovery_and_mitigation_of_priming_vulne/"
-    t: "Toward Safer Diffusion Language Models: Discovery and Mitigation of Priming Vulnerabilities"
-  - u: "trapped_by_simplicity_when_transformers_fail_to_learn_from_noisy_features/"
-    t: "Trapped by simplicity: When Transformers fail to learn from noisy features"
-  - u: "unsupervised_evaluation_of_multi-turn_objective-driven_interactions/"
-    t: "Unsupervised Evaluation of Multi-Turn Objective-Driven Interactions"
-item_total: 33
+item_total: 37
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM 其他
 
-**🔬 ICLR2026** · **33** 篇论文解读
+**🔬 ICLR2026** · **37** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/llm_nlp/index.md) · [🧪 ICML2026 (33)](../../ICML2026/llm_nlp/index.md) · [💬 ACL2026 (59)](../../ACL2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/llm_nlp/index.md) · [🧪 ICML2026 (39)](../../ICML2026/llm_nlp/index.md) · [💬 ACL2026 (61)](../../ACL2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
 
-🔥 **高频主题：** LLM ×7 · 扩散模型 ×4 · 推理 ×2
+🔥 **高频主题：** LLM ×11 · 扩散模型 ×5 · Agent ×2 · 推理 ×2
+
+**[Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning](achieving_olympia-level_geometry_large_language_model_agent_via_complexity_boost.md)**
+
+:   本文提出 InternGeometry——首个达到奖牌选手水平的几何 LLM agent：它把符号引擎当工具，用「思考—构造/命题—验证—反思」的超长程交互（单题 200+ 步）攻克辅助线构造缺乏启发式的难题，再配合 Complexity-Boosting RL（CBRL）逐级提升合成题难度，仅用 13K 训练样本（AlphaGeometry 2 的 0.004%）就在 IMO 2000–2024 的 50 道几何题上解出 44 道，超过金牌选手平均分。
+
+**[Best-of-∞: Asymptotic Performance of Test-Time LLM Ensembling](best-of-infinity_asymptotic_performance_of_test-time_llm_ensembling.md)**
+
+:   这篇论文把多数投票（majority voting）看作从模型答案分布里反复采样，研究采样数 $N\to\infty$ 时的极限准确率（称为 best-of-∞），并用贝叶斯因子做自适应停止来在有限预算下逼近这个极限；进一步把"多个 LLM 加权集成的最优权重"形式化成一个混合整数线性规划（MILP），证明集成能稳定超过任何单一模型。
+
+**[Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models](beyond_fixed_training-free_variable-length_denoising_for_diffusion_large_languag.md)**
+
+:   DAEDAL 利用扩散大语言模型（DLLM）在去噪时对 EOS token 的预测置信度这一内部信号，免训练地在去噪前先把序列长度从一个短的统一初值粗调到任务合适的长度、再在去噪过程中对低置信度区域局部插入 mask 扩容，从而摆脱"必须手工预设生成长度"的桎梏，在四个数学/代码基准上达到甚至超过精调定长基线的精度，同时大幅提升有效 token 占比。
+
+**[Beyond Magic Words: Sharpness-Aware Prompt Evolving for Robust Large Language Models with TARE](beyond_magic_words_sharpness-aware_prompt_evolving_for_robust_large_language_mod.md)**
+
+:   把图像/权重空间里的"锐度感知最小化（SAM）"搬到离散的文本提示空间，提出 TARE/ATARE：用"内层找最坏 paraphrase、外层选邻域最稳"的无梯度进化框架，让优化出来的 prompt 在同义改写下不掉点，在 4 个推理基准、5 种被测模型上稳定超过 TextGrad / Revolve。
 
 **[BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning](bots_a_unified_framework_for_bayesian_online_task_selection_in_llm_reinforcement.md)**
 

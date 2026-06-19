@@ -148,10 +148,10 @@ Wav2Sem 预训练使用 L1 损失：$\mathcal{L} = \|\mathbf{F}_{CLS} - \mathbf{
 ## 相关论文
 
 - [\[CVPR 2025\] Teller: Real-Time Streaming Audio-Driven Portrait Animation with Autoregressive Motion Generation](teller_real-time_streaming_audio-driven_portrait_animation_with_autoregressive_m.md)
-- [\[CVPR 2026\] InfinityHuman: Towards Long-Term Audio-Driven Human Animation](../../CVPR2026/video_generation/infinityhuman_towards_long-term_audio-driven_human_animation.md)
 - [\[CVPR 2026\] Stand-In: A Lightweight and Plug-and-Play Identity Control for Video Generation](../../CVPR2026/video_generation/stand-in_a_lightweight_and_plug-and-play_identity_control_for_video_generation.md)
 - [\[CVPR 2025\] Semantic Satellite Communications for Synchronized Audiovisual Reconstruction](semantic_satellite_communications_for_synchronized_audiovisual_reconstruction.md)
 - [\[CVPR 2025\] Generative Inbetweening through Frame-wise Conditions-Driven Video Generation](generative_inbetweening_through_frame-wise_conditions-driven_video_generation.md)
+- [\[CVPR 2025\] AnimateAnything: Consistent and Controllable Animation for Video Generation](animateanything_consistent_and_controllable_animation_for_video_generation.md)
 
 </div>
 

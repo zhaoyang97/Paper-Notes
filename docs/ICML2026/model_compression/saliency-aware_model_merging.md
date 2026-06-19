@@ -88,6 +88,7 @@ flowchart TD
 注：CLIP ViT-L/14 上 SA-Merging 的 93.4 已经压过 Traditional MTL 的 93.5 一线之差，且高于所有 test-time / data-assisted 方法（AdaMerging 90.8 / AdaMerging++ 91.0 / Representation Surgery 89.0），意味着严格数据无关的 merging 第一次可以与依赖测试样本的方法平起平坐。
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | 完整 SA-Merging | 8-task vision avg ≈ 85.9 (B/32) | 结构敏感度 + 共识调制 + 迭代 |
@@ -128,11 +129,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] Saliency-Driven Token Merging for Vision Transformers](../../CVPR2026/model_compression/saliency-driven_token_merging_for_vision_transformers.md)
 - [\[CVPR 2026\] Bridging Domains through Subspace-Aware Model Merging](../../CVPR2026/model_compression/bridging_domains_through_subspace-aware_model_merging.md)
 - [\[ICML 2026\] Model Merging Scaling Laws in Large Language Models](model_merging_scaling_laws_in_large_language_models.md)
 - [\[ICML 2026\] Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training](decouple_searching_from_training_scaling_data_mixing_via_model_merging_for_large.md)
 - [\[ICML 2026\] FRISM: Fine-Grained Reasoning Injection via Subspace-Level Model Merging for Vision–Language Models](frism_fine-grained_reasoning_injection_via_subspace-level_model_merging_for_visi.md)
+- [\[ICML 2026\] When Shared Knowledge Hurts: Spectral Over-Accumulation in Model Merging](when_shared_knowledge_hurts_spectral_over-accumulation_in_model_merging.md)
 
 </div>
 

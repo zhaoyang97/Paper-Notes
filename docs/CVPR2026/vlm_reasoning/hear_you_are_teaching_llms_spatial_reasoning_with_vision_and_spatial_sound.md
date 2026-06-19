@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Hear you are: Teaching LLMs Spatial Reasoning with Vision and Spatial Sound
 description: >-
-  [CVPR 2026][多模态VLM][空间推理] 论文提出"音视频空间推理"任务，用 SoundSpaces 2.0 仿真合成了含双耳音频 + 360° 全景图的百万级问答数据集 Hear You Are QA，并训练一个把双耳空间音频编码器、全景视觉编码器接到 Qwen2-7B 上的多模态大模型 Hear You Are LLM；在"声音与视觉物体语义不匹配""多个同类物体需靠方位区分"等只能靠空间线索解决的场景上，显著超过只用单声道音频的基线。
+  [CVPR 2026][VLM Reasoning][空间推理] 论文提出"音视频空间推理"任务，用 SoundSpaces 2.0 仿真合成了含双耳音频 + 360° 全景图的百万级问答数据集 Hear You Are QA，并训练一个把双耳空间音频编码器、全景视觉编码器接到 Qwen2-7B 上的多模态大模型 Hear You Are LLM；在"声音与视觉物体语义不匹配""多个同类物体需靠方位区分"等只能靠空间线索解决的场景上，显著超过只用单声道音频的基线。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "空间推理"
   - "双耳空间音频"
   - "音视频问答"
@@ -126,11 +126,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] Geometrically-Constrained Agent for Spatial Reasoning](geometrically-constrained_agent_for_spatial_reasoning.md)
-- [\[ICCV 2025\] MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs](../../ICCV2025/multimodal_vlm/mm-spatial_exploring_3d_spatial_understanding_in_multimodal_llms.md)
 - [\[CVPR 2026\] STAR-R1: Multi-View Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](star-r1_multi-view_spatial_transformation_reasoning_by_reinforcing_multimodal_ll.md)
+- [\[CVPR 2026\] G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning](g2vlm_geometry_grounded_vision_language_model_with_unified_3d_reconstruction_and.md)
+- [\[CVPR 2026\] Beyond 3D VQAs: Injecting 3D Spatial Priors into Vision-Language Models for Enhanced Geometric Reasoning](beyond_3d_vqas_injecting_3d_spatial_priors_into_vision-language_models_for_enhan.md)
+- [\[CVPR 2026\] Generate, Analyze, and Refine: Training-Free Sound Source Localization via MLLM Meta-Reasoning](generate_analyze_and_refine_training-free_sound_source_localization_via_mllm_met.md)
 - [\[CVPR 2026\] EgoMind: Activating Spatial Cognition through Linguistic Reasoning in MLLMs](egomind_activating_spatial_cognition_through_linguistic_reasoning_in_mllms.md)
-- [\[CVPR 2026\] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)
 
 </div>
 

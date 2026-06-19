@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 AI安全论文汇总 · 148篇论文解读
+  CVPR2026 AI安全论文汇总 · 145篇论文解读
 description: >-
-  148篇CVPR2026的 AI 安全方向论文解读，涵盖对抗鲁棒、多模态、联邦学习、水印/隐写、扩散模型、人脸/视线等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  145篇CVPR2026的 AI 安全方向论文解读，涵盖对抗鲁棒、多模态、水印/隐写、联邦学习、扩散模型、人脸/视线等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "AI 安全"
@@ -10,13 +10,15 @@ tags:
   - "论文笔记"
   - "对抗鲁棒"
   - "多模态"
-  - "联邦学习"
   - "水印/隐写"
+  - "联邦学习"
   - "扩散模型"
   - "人脸/视线"
 item_list:
   - u: "a_combination_of_noise_and_bilateral_filters_achieve_supralinear_and_scalable_ad/"
     t: "A Combination of Noise and Bilateral Filters Achieve Supralinear and Scalable Adversarial Robustness in CNNs"
+  - u: "a_provable_energy-guided_test-time_defense_boosting_adversarial_robustness_of_la/"
+    t: "A Provable Energy-Guided Test-Time Defense Boosting Adversarial Robustness of Large Vision-Language Models"
   - u: "a_sanity_check_for_multi-in-domain_face_forgery_detection_in_the_real_world/"
     t: "A Sanity Check for Multi-In-Domain Face Forgery Detection in the Real World"
   - u: "a_unified_perspective_on_adversarial_membership_manipulation_in_vision_models/"
@@ -33,6 +35,8 @@ item_list:
     t: "Batman: Benign Knowledge Alignment Through Malicious Null Space in Federated Backdoor Attack"
   - u: "beyond_cls_token_query-driven_token-level_forgery_purification_for_generalizable/"
     t: "Beyond [CLS] Token: Query-Driven Token-Level Forgery Purification for Generalizable Deepfake Detection"
+  - u: "bias_at_the_end_of_the_score/"
+    t: "Bias at the End of the Score"
   - u: "bridging_privacy_and_provenance_traceable_virtual_identity_generation/"
     t: "Bridging Privacy and Provenance: Traceable Virtual Identity Generation"
   - u: "bypassing_the_transport_plan_dynamic_reweighting_for_out-of-distribution_detecti/"
@@ -71,25 +75,25 @@ item_list:
     t: "DSO: Direct Steering Optimization for Bias Mitigation"
   - u: "dualmirage_hunting_stealthy_multimodal_llm_agents_via_captchas_with_contour_and_/"
     t: "DualMirage: Hunting Stealthy Multimodal LLM Agents via CAPTCHAs with Contour and Adversarial Illusions"
-  - u: "editprint_general_digital_image_forensics_via_editing_fingerprint_with_self-augm/"
-    t: "Editprint: General Digital Image Forensics via Editing Fingerprint with Self-Augmentation Training"
-  - u: "eliminate_distance_differences_induced_by_backdoor_attacks_layer-selective_train/"
-    t: "Eliminate Distance Differences Induced by Backdoor Attacks: Layer-Selective Training and Clipping to Mask Backdoor Models"
-item_total: 148
+item_total: 145
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**📷 CVPR2026** · **148** 篇论文解读
+**📷 CVPR2026** · **145** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (41)](../../ICML2026/ai_safety/index.md) · [💬 ACL2026 (4)](../../ACL2026/ai_safety/index.md) · [🔬 ICLR2026 (27)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (45)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (73)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (24)](../../ICCV2025/ai_safety/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (114)](../../ICML2026/ai_safety/index.md) · [💬 ACL2026 (5)](../../ACL2026/ai_safety/index.md) · [🔬 ICLR2026 (36)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (45)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (73)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (24)](../../ICCV2025/ai_safety/index.md)
 
-🔥 **高频主题：** 对抗鲁棒 ×64 · 多模态 ×18 · 联邦学习 ×14 · 水印/隐写 ×12 · 扩散模型 ×10
+🔥 **高频主题：** 对抗鲁棒 ×66 · 多模态 ×20 · 水印/隐写 ×11 · 联邦学习 ×10 · 扩散模型 ×10
 
 **[A Combination of Noise and Bilateral Filters Achieve Supralinear and Scalable Adversarial Robustness in CNNs](a_combination_of_noise_and_bilateral_filters_achieve_supralinear_and_scalable_ad.md)**
 
 :   本文从决策边界几何的角度证明「高斯噪声」和「图像滤波」通过两种**互补**机制抵御对抗攻击，因而二者组合能带来**超线性（supralinear）**的鲁棒性增益；据此提出一个极简预处理器（像素级高斯噪声 + 多次双边滤波，训练和推理都用），在 RobustBench 上以约 35% 的训练 FLOPs、一半参数量就逼近甚至超过 SOTA 防御。
+
+**[A Provable Energy-Guided Test-Time Defense Boosting Adversarial Robustness of Large Vision-Language Models](a_provable_energy-guided_test-time_defense_boosting_adversarial_robustness_of_la.md)**
+
+:   ET3 把分类器 logit 的 LogSumExp 解释为输入的"能量"，在推理时只对图像做几步梯度下降把能量压低，就能把被对抗扰动推离数据流形的样本拉回正确类别——免训练、几乎零开销，对纯分类器、CLIP 零样本、以及 LLaVA 这类大型 VLM 的对抗鲁棒性都有显著提升，并给出了二分类下"必定纠正"的可证明保证。
 
 **[A Sanity Check for Multi-In-Domain Face Forgery Detection in the Real World](a_sanity_check_for_multi-in-domain_face_forgery_detection_in_the_real_world.md)**
 
@@ -122,6 +126,10 @@ item_total: 148
 **[Beyond [CLS] Token: Query-Driven Token-Level Forgery Purification for Generalizable Deepfake Detection](beyond_cls_token_query-driven_token-level_forgery_purification_for_generalizable.md)**
 
 :   针对 ViT 基础模型做 deepfake 检测时 [CLS] token 过度关注全局语义、忽略局部伪造痕迹的"预训练信息偏置"问题，本文提出 QTFP 框架：用一组随机初始化的可学习 query token 替代 [CLS] 去聚合局部证据，再配合"伪造似然加权对比损失"和"真实图注意力对齐"两个正则，把跨数据集平均 AUC 从 Effort 的 0.923 提到 0.947。
+
+**[Bias at the End of the Score](bias_at_the_end_of_the_score.md)**
+
+:   本文对文本到图像（T2I）系统中广泛使用的五个奖励模型（PickScore、ImageReward、HPS、VQAScore、CLIP）做了一次大规模偏置审计，证明这些被当作"图像质量"代理的打分函数其实编码了系统性的人口统计偏置——在用作噪声优化器时会不成比例地对女性主体超性化、把非白人主体"洗"成白人，并且打分本身与现实世界的人口分布（如各职业的性别比例）高度相关，而非真正衡量质量。
 
 **[Bridging Privacy and Provenance: Traceable Virtual Identity Generation](bridging_privacy_and_provenance_traceable_virtual_identity_generation.md)**
 
@@ -207,10 +215,6 @@ item_total: 148
 
 :   LaySelFL 是一种针对联邦学习的隐蔽后门攻击：它先评估每一层对后门目标的"敏感度"、只在最敏感的少数层上投毒，再用约束损失把投毒层逼近 server 模型、对其余正常层做逐元素裁剪，从而抹掉后门模型与干净模型之间的距离差异，使攻击整体有效性提升 25%、并把五种 SOTA 基于距离/相似度的防御方法的拦截率从 26.6% 压到 4%。
 
-**[Enabling Supervised Learning of Generative Signatures for Generalized AI-Generated Images Detection](enabling_supervised_learning_of_generative_signatures_for_generalized_ai-generat.md)**
-
-:   针对"AI生成图像里的生成痕迹没有干净配对、无法监督式提取"这个死结，本文用一个**随机变结构的图像重建器**在真实图上人工"造痕迹"、把重建残差当伪标签去训练一个**生成签名（GenSign）提取器**，再用 GenSign + RGB 双流分类器做检测，在四个 benchmark 上把跨模型泛化刷到 SOTA。
-
 **[Enhancing Out-of-Distribution Detection with Extended Logit Normalization](enhancing_out-of-distribution_detection_with_extended_logit_normalization.md)**
 
 :   本文发现 LogitNorm 在训练中会导致两种特征坍塌（维度坍塌和原点坍塌），提出了一种无超参数的 Extended Logit Normalization（ELogitNorm），用特征到决策边界的距离替代到原点的距离作为缩放因子，在不损失分类精度的前提下显著提升各种 post-hoc OOD 检测方法的性能和置信度校准。
@@ -243,10 +247,6 @@ item_total: 148
 
 :   系统分析全局类不平衡与客户端异构性对联邦主动学习中 query model 选择的影响，归纳出3个核心 Observation，据此提出 FairFAL——自适应选择 query model + 原型引导伪标签 + 两阶段不确定性-多样性平衡采样的类公平 FAL 框架，在5个基准数据集上一致超越所有基线。
 
-**[FedHarmony: Harmonizing Heterogeneous Label Correlations in Federated Multi-Label Learning](fedharmony_harmonizing_heterogeneous_label_correlations_in_federated_multi-label.md)**
-
-:   针对联邦多标签学习中各客户端只见到局部标签空间、学出的标签相关性互相打架（标签相关性漂移）的问题，FedHarmony 用"多数客户端的共识相关性"当全局教师在本地训练时纠偏，并在服务器聚合时同时按数据量和相关性质量给客户端加权，在 FLAIR / COCO-80 / VOC2007 三个非 IID 联邦基准上一致超过现有 SOTA（FLAIR mAP +11.4）。
-
 **[FedMOP: Achieving Enhanced Privacy and Performance in Federated Learning via Momentum Orthogonal Projection](fedmop_achieving_enhanced_privacy_and_performance_in_federated_learning_via_mome.md)**
 
 :   FedMOP 在每个客户端本地训练**开始前**给初始模型加一个"动量演化的正交偏移"——正交分量抵消 non-IID 漂移提升性能，动量演化让偏移向量在攻击者眼里变成 $(d+t)$ 维不可解的逆问题来保护隐私，从而第一次让"更强隐私"和"更高精度"同时成立，而非互相牺牲。
@@ -254,10 +254,6 @@ item_total: 148
 **[FedRE: A Representation Entanglement Framework for Model-Heterogeneous Federated Learning](fedre_a_representation_entanglement_framework_for_model-heterogeneous_federated_.md)**
 
 :   提出 FedRE 框架，通过"纠缠表示"（entangled representation）——将每个客户端的所有局部表示用归一化随机权重聚合为单一跨类别表示，实现模型异构联邦学习中性能、隐私保护和通信开销的三方平衡。
-
-**[Fine-Tuning Impairs the Balancedness of Foundation Models in Long-tailed Personalized Federated Learning](fine-tuning_impairs_the_balancedness_of_foundation_models_in_long-tailed_persona.md)**
-
-:   本文先实证揭示「在长尾联邦场景里微调 CLIP 会破坏其天生的类别均衡性、甚至跌破 zero-shot」，再提出 FedPuReL：用 zero-shot 预测把本地梯度「净化」成不破坏均衡的方向来训一个均衡的全局模型，并把个性化重构成冻结全局模型之上的「残差修正」，从而在 8 个长尾数据集上的全局模型和个性化模型都超过现有 SOTA。
 
 **[FlowHijack: A Dynamics-Aware Backdoor Attack on Flow-Matching Vision-Language-Action Models](flowhijack_a_dynamics-aware_backdoor_attack_on_flow-matching_vision-language-act.md)**
 
@@ -290,10 +286,6 @@ item_total: 148
 **[Generative Adversarial Perturbations with Cross-paradigm Transferability on Localized Crowd Counting](generative_adversarial_perturbations_with_cross-paradigm_transferability_on_loca.md)**
 
 :   提出首个跨范式（密度图 + 点回归）对抗攻击框架 CrowdGen，利用轻量级 UNet 生成器和多任务损失（logit 抑制 + 密度抑制 + GradCAM 引导 + 频域约束），在保持视觉隐蔽性（~19dB PSNR）的同时实现对七个 SOTA 人群计数模型的高迁移率（TR 最高 1.69），攻击 MAE 平均提升 7 倍。
-
-**[Global Information Thresholding for Sufficient and Necessary Circuits](global_information_thresholding_for_sufficient_and_necessary_circuits.md)**
-
-:   针对自动电路发现普遍依赖"手工固定预算"（fixed top-k）这一痛点，本文不再事先定电路大小，而是先给边打分（带符号的 integrated gradients）、再用一个"保留多少原模型行为"的目标去自动搜出单一全局阈值 $\tau$，让电路大小成为"保留行为"的结果而非超参；在 MIB 基准上 CPR/CMD 整体最优或次优，并在 GPT-2 IOI 上同时改善了充分性与必要性诊断。
 
 **[Good Can Sometimes be Bad: A Unified Attack against 3D Point Cloud Classifier by a Flexible Isotropic Resampling](good_can_sometimes_be_bad_a_unified_attack_against_3d_point_cloud_classifier_by_.md)**
 
@@ -331,10 +323,6 @@ item_total: 148
 
 :   本文指出迭代式对抗攻击会让扰动"过拟合"到代理模型的局部梯度特征、从而难迁移到别的模型，提出 LPAA：在每次迭代里用随机掩码构造多个增强的局部子空间、聚合子空间梯度来把更新推向更泛化的方向，再配一个面向迁移性的扰动初始化策略，在 CNN 与 ViT 上显著超过现有 SOTA 迁移攻击。
 
-**[IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness](irisfp_adversarial-example-based_model_fingerprinting_with_enhanced_uniqueness_a.md)**
-
-:   提出IrisFP模型指纹框架，通过将指纹放置在多类决策边界交叉点处、构建复合样本指纹、以及基于统计可分性的指纹筛选三项创新，同时增强指纹的唯一性和鲁棒性，在5个数据集上AUC一致超过SOTA方法。
-
 **[Jailbreaking Vision-Language Models via Dissonance-Guided Suffix Optimization and Image-Phrase Injection](jailbreaking_vision-language_models_via_dissonance-guided_suffix_optimization_an.md)**
 
 :   DGSIP 用一个"未对齐向导模型"和目标 VLM 在每个 token 位置上的**预测分布差异（失谐）**来无梯度地搜索对抗后缀，并在后缀优化卡住时切换到"把诱导短语渲染进图像"的视觉注入，两者交替进行，在 AdvBench 上对 MiniGPT-4/InstructBLIP 打到 100% 攻击成功率，且对 GPT-4o-Mini、Gemini、Qwen2.5-VL 等黑盒商用模型也有明显迁移效果。
@@ -347,6 +335,10 @@ item_total: 148
 
 :   通过系统分析弹窗注入攻击如何扭曲 GUI Agent 的逐层注意力，作者发现深层注意力在"答对/答错"样本间会出现分歧，进而提出 LaSM——一种免训练、即插即用的逐层缩放机制，只放大中层语义层的注意力与 MLP 权重，把弹窗攻击下 Qwen2-VL-7B 的防御成功率从约 19% 提到 66% 以上，且几乎不损害正常任务能力。
 
+**[LDP-Slicing: Local Differential Privacy for Images via Randomized Bit-Plane Slicing](ldp-slicing_local_differential_privacy_for_images_via_randomized_bit-plane_slici.md)**
+
+:   把每个像素拆成 8 个二进制位平面、对每个比特独立做随机响应，再配上小波域感知遮蔽和按位重要度分配隐私预算的优化，LDP-Slicing 第一次让"逐像素 $\varepsilon$-LDP"在标准图像上既严格可证又能保住下游任务精度，且零额外存储、毫秒级开销。
+
 **[Learning Latent Concepts for Detecting Out-of-Distribution Objects](learning_latent_concepts_for_detecting_out-of-distribution_objects.md)**
 
 :   UNO-Adapter 把"未知"概念以即插即用的方式注入一个**完全冻结**的检测器：先用对象中心的槽（slot）无监督地把整张图抽象成稀疏概念，再在推理时把这些概念与检测器的实例特征绑定，并配一个图像级 OOD 分数，从而在不改任何检测器权重的前提下，把 BDD-100K 上的 FPR95 相比此前最佳方法最多降低 11.96%。
@@ -354,10 +346,6 @@ item_total: 148
 **[Logit-Margin Repulsion for Backdoor Defense](logit-margin_repulsion_for_backdoor_defense.md)**
 
 :   LMR 把后门防御重新表述成一个**logit 空间的几何问题**：只用极少量干净样本（甚至 0.1%），先定位后门类，再在干净数据上人为拉大"后门类 logit 与最强竞争类 logit"之间的间隔、并剪掉与后门强相关的分类头通道，使触发器或量化/剪枝带来的 logit 偏移不足以翻转 top-1 预测，从而同时防住传统后门和量化/剪枝条件后门。
-
-**[Machine Unlearning via Adaptive Gradient Reweighting and Multi-stage Objective Optimization](machine_unlearning_via_adaptive_gradient_reweighting_and_multi-stage_objective_o.md)**
-
-:   针对机器遗忘里"对所有样本/类别一视同仁"和"遗忘目标与保留目标梯度互相打架"两大问题，本文提出**自适应梯度重加权**（按样本记忆深度/类别脆弱度给不同权重）+ **三阶段目标优化**（方向纠偏 → 时间平滑 → 自适应组合），在 CIFAR-10/100、Tiny-ImageNet 上把随机遗忘的 Avg Gap 从 SOTA 的 0.85 压到 0.19。
 
 **[MaxMark: High-Capacity Diffusion-Native Watermarking via Robust and Invertible Latent Embedding](maxmark_high-capacity_diffusion-native_watermarking_via_robust_and_invertible_la.md)**
 
@@ -378,6 +366,10 @@ item_total: 148
 **[Models as Lego Builders: Assembling Malice from Benign Blocks via Semantic Blueprints](models_as_lego_builders_assembling_malice_from_benign_blocks_via_semantic_bluepr.md)**
 
 :   本文揭示了一种被忽视的"语义槽填充（Semantic Slot Filling）"安全漏洞——大型视觉语言模型（LVLM）会主动为"看起来无害"的槽位补全内容，即使这些槽位组合起来隐含恶意意图；据此提出黑盒单查询越狱框架 **StructAttack**，把有害指令拆成一堆局部无害的"乐高块"再画成结构化视觉图（思维导图/表格/旭日图），诱导模型自己把它们重新拼装成有害答案，在 GPT-4o 上单次攻击成功率约 69%。
+
+**[Multi-Paradigm Collaborative Adversarial Attack Against Multi-Modal Large Language Models](multi-paradigm_collaborative_adversarial_attack_against_multi-modal_large_langua.md)**
+
+:   提出 MPCAttack 框架，联合跨模态对齐、多模态理解和视觉自监督三种学习范式的特征表示，通过多范式协同优化策略生成高迁移性对抗样本，在开源和闭源 MLLM 上均取得 SOTA 攻击效果。
 
 **[No Way To Steal My Face: Proactive Defense Against Identity-Preserving Personalized Generation](no_way_to_steal_my_face_proactive_defense_against_identity-preserving_personaliz.md)**
 
@@ -411,13 +403,13 @@ item_total: 148
 
 :   本文用「可见光印花布 + 铝膜」两种互不重叠的材料做成一件 3D 对抗衣物（NORP），配合能同时优化连续 RGB 像素和离散热像素的 SDCO 优化方法，让穿戴者在可见光和热成像两种模态、0°–360° 全视角下都躲过 RGB-T 行人检测器，数字世界平均 ASR 99.6%、物理世界 71.0%。
 
+**[PinPoint: Evaluation of Composed Image Retrieval with Explicit Negatives, Multi-Image Queries, and Paraphrase Testing](pinpoint_evaluation_of_composed_image_retrieval_with_explicit_negatives_multi-im.md)**
+
+:   提出 PinPoint 基准，包含 7,635 个查询和 329K 人工验证的相关性判断，通过显式负样本、多图像查询、释义变体和人口统计元数据四个维度，揭示了现有 CIR 方法在假阳性抑制、语言鲁棒性和多图像推理上的严重缺陷，并提出基于 MLLM 的无训练重排方法作为改进基线。
+
 **[PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems](poinit-of-view_poisoning_initialization_of_views_transfers_across_multiple_3d_re.md)**
 
 :   这篇论文发现 3D 重建管线的几何核心——SfM 初始化模块本身就是一个可被攻击的"命门"：作者提出 PoInit-of-View，往多视图输入图像里注入人眼几乎不可见的扰动，专门破坏不同视图间的局部梯度一致性，使 SfM 的特征匹配崩溃、相机注册数从近百降到个位数，从而让下游 MVS/NeRF/3DGS 全线失败，且这种攻击不依赖具体重建架构、能黑盒迁移（如 3DGS→NeRF 上 PSNR 比单视图基线再多降 25.1%）。
-
-**[POUR: A Provably Optimal Method for Unlearning Representation via Neural Collapse](pour_a_provably_optimal_method_for_unlearning_representation_via_neural_collapse.md)**
-
-:   本文把机器遗忘从"改分类头"推进到"改特征表示"层面，基于神经坍缩（Neural Collapse）理论证明"删掉一个单纯形 ETF 顶点再做正交投影后仍是单纯形 ETF"，从而把"遗忘某一类"实现为一个有最优性保证的闭式投影算子 POUR，在 CIFAR-10/100 与 PathMNIST 上同时在分类级和表示级指标上超过现有遗忘方法。
 
 **[POUR: A Provably Optimal Method for Unlearning Representations via Neural Collapse](pour_a_provably_optimal_method_for_unlearning_representations_via_neural_collaps.md)**
 
@@ -487,10 +479,6 @@ item_total: 148
 
 :   RevINN 用一个可逆神经网络（INN）在小波频域里"交换/扰乱"图像自身的高低频判别信息来一步生成可逆对抗样本（RAE），既能误导未授权模型、又能由授权用户近无损还原原图，彻底甩掉了传统"先攻击、再嵌入扰动"两阶段方案带来的画质和攻击力双重退化。
 
-**[Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization](revisiting_geometric_obfuscation_with_dual_convergent_lines_for_privacy-preservi.md)**
-
-:   针对"把关键点替换成随机直线"的几何混淆会被邻域几何恢复攻击破解的问题，本文提出 Dual Convergent Lines（DCL）：把每个关键点提升到一条连向两个固定锚点之一的直线，让攻击者的点恢复优化变成病态问题（要么塌缩到锚点、要么在分界处近平行而高方差发散），在保持与 l6P 求解器兼容、可实时定位的同时，成为目前唯一能抵御该攻击的几何混淆方案。
-
 **[Robustness Under Data Scarcity: Few-Shot Continual Adversarial Training for Evolving Threats](robustness_under_data_scarcity_few-shot_continual_adversarial_training_for_evolv.md)**
 
 :   现实中防守方往往只能拿到很少的对抗样本去应对不断涌现的新攻击，本文提出"小样本持续对抗训练（FS-CAT）"这一新设定，并用三件套——把干净样本推离决策边界的对抗边界损失（ADM）、用高斯混合模型合成伪特征做免存储回放的 GMM 原型回放、把更新方向拉向多数旧域的多域平衡损失（MDB）——在 ImageNet-1K 与 CIFAR-100 上同时缓解小样本下的鲁棒泛化困难与灾难性遗忘。
@@ -518,10 +506,6 @@ item_total: 148
 **[SAIDO: 基于场景感知与重要性引导动态优化的可泛化 AI 生成图像检测](saido_generalizable_detection_of_ai-generated_images_via_scene-aware_and_importa.md)**
 
 :   SAIDO 把 AI 生成图像检测做成一个免回放的持续学习框架：用大视觉语言模型把图像按场景分流到各自的 LoRA 专家，再用基于 Fisher 信息的"神经元级"重要性引导梯度投影来调和可塑性与稳定性，在持续学习与开放世界两个协议上分别把检测错误率降低 44.22%、把开放集准确率提升 9.47%。
-
-**[SANER: Switchable Adapter with Non-parametric Enhanced Routing for Person De-Reidentification](saner_switchable_adapter_with_non-parametric_enhanced_routing_for_person_de-reid.md)**
-
-:   SANER 把"选择性遗忘特定行人"的去重识别（De-ReID）从单一特征空间里的矛盾优化拆成两个独立的低秩适配器（遗忘 / 保留），再用一个非参数的测试时路由算法按 query 与原型的相似度决定走哪条分支，从而在几乎不损伤其他身份识别精度的前提下彻底"忘掉"目标身份。
 
 **[Scaling Up AI-Generated Image Detection with Generator-Aware Prototypes](scaling_up_ai-generated_image_detection_with_generator-aware_prototypes.md)**
 
@@ -555,25 +539,17 @@ item_total: 148
 
 :   在垂直联邦学习（VFL）的分割学习场景里，作者提出 VENOM——一种"几何感知"的模型窃取攻击：它不再逐点拟合服务器看到的嵌入坐标，而是先用对比学习在这些嵌入上重建一个稳定的邻域几何空间，再让代理模型同时对齐坐标、对齐特征形状、并尊重"近邻该近、远邻该远"的局部结构，从而绕过当前主流的加噪/解耦防御，在 6 个数据集上把窃取准确率（尤其在强防御 Model Rake 下）拉回到可用水平。
 
-**[SubFLOT: Submodel Extraction for Efficient and Personalized Federated Learning via Optimal Transport](subflot_submodel_extraction_for_efficient_and_personalized_federated_learning_vi.md)**
-
-:   提出 SubFLOT 框架，在服务器端利用最优传输（Optimal Transport）将全局模型的参数分布与客户端历史模型对齐，实现无需访问原始数据的个性化剪枝，并通过自适应正则化抑制剪枝导致的参数偏移，在多个数据集上大幅超越现有联邦剪枝方法。
-
-**[Taming Noise-Induced Prototype Degradation for Privacy-Preserving Personalized Federated Fine-Tuning](taming_noise-induced_prototype_degradation_for_privacy-preserving_personalized_f.md)**
-
-:   针对原型化个性化联邦学习（ProtoPFL）在共享类原型时为满足局部差分隐私而注入各向同性高斯噪声、却把判别性维度也一并淹没的问题，本文提出客户端即插件 VPDR：用方差自适应的 VPP 把噪声预算从判别子空间挪向冗余子空间、用蒸馏引导的 DCR 让特征范数主动贴近裁剪阈值，在同等 LDP 保证下显著改善隐私-效用权衡。
-
 **[Taming the Long Tail: Rebalancing Adversarial Training via Adaptive Perturbation](taming_the_long_tail_rebalancing_adversarial_training_via_adaptive_perturbation.md)**
 
 :   针对"对抗训练在长尾数据上头部过自信、尾部不鲁棒"的问题，本文从理论上证明**扰动强度本身就能同时修复对抗脆弱性和类别失衡**，进而提出即插即用的 RobustLT——给尾类分配更大、给头类分配更小的扰动预算（CPB），并在训练早期把扰动从 0 渐进升温以稳住对抗分布演化（AIW），可挂在任意对抗训练算法上，尾类鲁棒准确率最高提升 7 个点。
 
+**[The Coherence Trap: When MLLM-Crafted Narratives Exploit Manipulated Visual Contexts](the_coherence_trap_when_mllm-crafted_narratives_exploit_manipulated_visual_conte.md)**
+
+:   揭示现有多模态篡改检测忽视了MLLM能生成语义一致的欺骗性叙事这一核心威胁，构建441k样本的MDSM语义对齐篡改数据集，并提出基于Artifact Token和操纵导向推理的AMD框架，在跨域检测中以仅0.27B参数达到88.18 ACC / 60.25 mAP / 61.02 mIoU的最优泛化性能。
+
 **[Thermally Activated Dual-Modal Adversarial Clothing against AI Surveillance Systems](thermally_activated_dual-modal_adversarial_clothing_against_ai_surveillance_syst.md)**
 
 :   本文做了一件"平时是普通黑 T 恤、加热 50 秒后浮现对抗花纹"的衣服——用热致变色染料 + 柔性加热片把一块算法优化出来的多边形对抗补丁藏在布料里，加热时颜色变化骗可见光检测器、热分布变化骗红外检测器，在真实监控场景里对行人检测的攻击成功率（ASR）稳定保持在 80% 以上。
-
-**[TIACam: Text-Anchored Invariant Feature Learning with Auto-Augmentation for Camera-Robust Zero-Watermarking](tiacam_text-anchored_invariant_feature_learning_with_auto-augmentation_for_camer.md)**
-
-:   提出 TIACam 框架，通过可学习自动增强器模拟相机失真、文本锚定跨模态对抗训练学习不变特征、零水印头在特征空间绑定消息，实现无需修改图像像素的相机鲁棒零水印方案，在屏幕翻拍/打印翻拍/截图三种真实场景下均达到 SOTA 提取精度。
 
 **[TokenTrace: Multi-Concept Attribution through Watermarked Token Recovery](tokentrace_multi-concept_attribution_through_watermarked_token_recovery.md)**
 
@@ -590,6 +566,10 @@ item_total: 148
 **[Towards Reliable Evaluation of Adversarial Robustness for Spiking Neural Networks](towards_reliable_evaluation_of_adversarial_robustness_for_spiking_neural_network.md)**
 
 :   针对脉冲神经网络（SNN）因脉冲激活的二值、不连续特性导致梯度消失、从而让基于梯度的对抗鲁棒性评估"虚高"的问题，本文从梯度近似和攻击优化两个角度提出 ASSG（自适应锐度代理梯度）+ SA-PGD（稳定自适应 PGD），把攻击成功率（ASR）大幅拉高，揭示当前 SNN 的对抗鲁棒性被严重高估。
+
+**[Towards Robust Multimodal Large Language Models Against Jailbreak Attacks](towards_robust_multimodal_large_language_models_against_jailbreak_attacks.md)**
+
+:   SAFEMLLM 是第一个直接对多模态大模型（MLLM）做对抗训练的越狱防御框架：它在 token 嵌入层注入一对可学习扰动矩阵来高效模拟跨模态攻击（CoE-Attack），再交替更新模型参数去抵消这些扰动，从而在白盒场景下把六种越狱攻击的成功率压到接近 0，同时几乎不损失正常多模态问答能力。
 
 **[Towards Robust Vision Transformers: Path Dependency Analysis and a Simple Two-Stage Adversarial Training](towards_robust_vision_transformers_path_dependency_analysis_and_a_simple_two-sta.md)**
 
@@ -627,6 +607,14 @@ item_total: 148
 
 :   作者提出 Eidolon：只需在一个文生图扩散模型里植入一次后门，让它生成的"合成训练数据"自带触发器并被错标到目标类，下游任何用这些数据增强训练的分类器都会被"被动传染"上后门（ASR 普遍 95–100%），首次实现了"一次投毒、无限传播"的后门大流行。
 
+**[Unsafe2Safe: Controllable Image Anonymization for Downstream Utility](unsafe2safe_controllable_image_anonymization_for_downstream_utility.md)**
+
+:   本文提出 Unsafe2Safe 全自动隐私保护流水线，通过 VLM 隐私检查→双字幕生成（私有/公开）→LLM 编辑指令→文本引导扩散编辑的四阶段方案，实现可控图像匿名化，在 VLMScore 隐私指标大幅提升的同时，在 Caltech-101 分类和 OK-VQA 上匿名后准确率甚至超过原始图像。
+
+**[V-Attack: Targeting Disentangled Value Features for Controllable Adversarial Attacks on LVLMs](v-attack_targeting_disentangled_value_features_for_controllable_adversarial_atta.md)**
+
+:   发现 ViT 中 Value 特征相比 Patch 特征具有更解耦的局部语义表示，提出 V-Attack 通过自增强 Value 特征 + 文本引导语义操控实现精确可控的 LVLM 局部语义攻击，ASR 平均提升 36%。
+
 **[VCP-Attack: Visual-Contrastive Projection for Transferable Black-Box Targeted Attacks on Large Vision-Language Models](vcp-attack_visual-contrastive_projection_for_transferable_black-box_targeted_att.md)**
 
 :   VCP-Attack 把对抗扰动约束在动态 PCA 求出的低维语义子空间内、再用多样本对比损失把对抗特征拉向目标语义、推离源语义，从而在黑盒定向攻击大型视觉语言模型（LVLM）上达到 SOTA——开源模型平均攻击成功率 94.2%、闭源 83.1%、对 GPT-4o 高达 95.6%。
@@ -663,6 +651,10 @@ item_total: 148
 
 :   提出 UPA-RFAS 框架，学习一个单一物理对抗补丁，通过特征空间偏移、注意力劫持和语义错位三管齐下，实现对 VLA 机器人策略的通用、可迁移黑盒攻击。
 
+**[When Understanding Becomes a Risk: Authenticity and Safety Risks in the Emerging Image Generation Paradigm](when_understanding_becomes_a_risk_authenticity_and_safety_risks_in_the_emerging_.md)**
+
+:   系统性对比分析了 MLLM（多模态大语言模型）与扩散模型在安全风险上的差异，发现 MLLM 因更强的语义理解能力而更容易生成不安全图像（抽象/非英语提示也能理解），且其生成的图像更难被现有假图检测器识别，即便针对性微调检测器也可通过丰富提示细节来规避。
+
 **[X-AVDT: Audio-Visual Cross-Attention for Robust Deepfake Detection](x-avdt_audio-visual_cross-attention_for_robust_deepfake_detection.md)**
 
 :   X-AVDT 把待检视频送进一个**预训练的音频驱动扩散模型**，借 DDIM 逆向同时抽两路信号——逆向重建残差（外观线索）+ 扩散 U-Net 内部的**音视频跨注意力图**（口型-语音对齐线索），融合后做真假二分类，靠"生成器内部强制的音视频一致性"这一通用信号实现跨生成器泛化，平均准确率比最强基线高 +13.1%。
@@ -670,10 +662,6 @@ item_total: 148
 **[Your Classifier Can Do More: Towards Balancing the Gaps in Classification, Robustness, and Generation](your_classifier_can_do_more_towards_balancing_the.md)**
 
 :   通过能量景观分析揭示 AT 和 JEM 的互补性（AT 对齐 clean-adv 能量分布 → 鲁棒性；JEM 对齐 clean-generated 能量分布 → 精度+生成），提出 EB-JDAT 建模联合分布 $p(\mathbf{x}, \tilde{\mathbf{x}}, y)$ 并用 min-max 能量优化对齐三种数据能量分布，CIFAR-10 AutoAttack 鲁棒性 68.76%（超 SOTA AT +10.78%），同时保持 90.39% 清洁精度和 FID=27.42 的竞争力生成质量。
-
-**[Zero-shot Detection of AI-Generated Image via RAW-RGB Alignment](zero-shot_detection_of_ai-generated_image_via_raw-rgb_alignment.md)**
-
-:   作者重新定义「合成图像」为没有物理世界来源、直接在数字空间生成的图像，并提出只用真实 RAW–RGB 数据对自监督学习一种叫 alignment trace 的取证特征——它刻画「这张 RGB 能不能反推出一个合法 RAW 来源」，从而在不接触任何生成模型先验的情况下达到零样本 SOTA（聚类 NMI 0.964、相似度 AUC 0.925）。
 
 **[$\varphi$-DPO: Fairness Direct Preference Optimization Approach to Continual Learning in Large Multimodal Models](φ-dpo_fairness_direct_preference_optimization_approach_to_continual_learning_in_.md)**
 

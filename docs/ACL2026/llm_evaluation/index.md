@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 LLM评测论文汇总 · 92篇论文解读
+  ACL2026 LLM评测论文汇总 · 96篇论文解读
 description: >-
-  92篇ACL2026的 LLM 评测方向论文解读，涵盖 LLM、推理、多模态、个性化生成、对话系统、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  96篇ACL2026的 LLM 评测方向论文解读，涵盖 LLM、推理、多模态、个性化生成、Agent、对话系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2026"
   - "LLM 评测"
@@ -12,8 +12,8 @@ tags:
   - "推理"
   - "多模态"
   - "个性化生成"
+  - "Agent"
   - "对话系统"
-  - "对抗鲁棒"
 item_list:
   - u: "agenteval_dag-structured_step-level_evaluation_for_agentic_workflows_with_error_/"
     t: "AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking"
@@ -27,6 +27,10 @@ item_list:
     t: "arXiv2Table: Toward Realistic Benchmarking and Evaluation for LLM-Based Literature-Review Table Generation"
   - u: "attribution_citation_and_quotation_a_survey_of_evidence-based_text_generation_wi/"
     t: "Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models"
+  - u: "automated_creativity_evaluation_of_language_models_across_open-ended_tasks/"
+    t: "Automated Creativity Evaluation of Language Models Across Open-Ended Tasks"
+  - u: "badscientist_can_a_research_agent_write_convincing_but_unsound_papers_that_fool_/"
+    t: "BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?"
   - u: "benchmarker_an_education-inspired_toolkit_for_highlighting_flaws_in_multiple-cho/"
     t: "BenchMarker: An Education-Inspired Toolkit for Highlighting Flaws in Multiple-Choice Benchmarks"
   - u: "beyond_fixed_psychological_personas_state_beats_trait_but_language_models_are_st/"
@@ -71,21 +75,17 @@ item_list:
     t: "E2EDev: Benchmarking Large Language Models in End-to-End Software Development Task"
   - u: "engibench_a_benchmark_for_evaluating_large_language_models_on_engineering_proble/"
     t: "EngiBench: A Benchmark for Evaluating Large Language Models on Engineering Problem Solving"
-  - u: "enhancing_linguistic_competence_of_language_models_through_pre-training_with_lan/"
-    t: "Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks"
-  - u: "evaluating_legal_reasoning_traces_with_legal_issue_tree_rubrics/"
-    t: "Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics"
-item_total: 92
+item_total: 96
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM 评测
 
-**💬 ACL2026** · **92** 篇论文解读
+**💬 ACL2026** · **96** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (25)](../../ICML2026/llm_evaluation/index.md) · [🔬 ICLR2026 (29)](../../ICLR2026/llm_evaluation/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (38)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (22)](../../ICML2025/llm_evaluation/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (40)](../../ICML2026/llm_evaluation/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/llm_evaluation/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (38)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (22)](../../ICML2025/llm_evaluation/index.md)
 
-🔥 **高频主题：** LLM ×32 · 推理 ×13 · 多模态 ×4 · 个性化生成 ×3 · 对话系统 ×3
+🔥 **高频主题：** LLM ×33 · 推理 ×13 · 多模态 ×4 · 个性化生成 ×3 · Agent ×3
 
 **[AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking](agenteval_dag-structured_step-level_evaluation_for_agentic_workflows_with_error_.md)**
 
@@ -110,6 +110,14 @@ item_total: 92
 **[Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models](attribution_citation_and_quotation_a_survey_of_evidence-based_text_generation_wi.md)**
 
 :   本文系统综述了 134 篇关于 LLM 证据基础文本生成的论文，首次提出统一分类学（归因方式 × 引用特征 × 任务），分析了 300 个评估指标并归纳为七大维度六种方法，为该碎片化领域提供了全景式参考框架。
+
+**[Automated Creativity Evaluation of Language Models Across Open-Ended Tasks](automated_creativity_evaluation_of_language_models_across_open-ended_tasks.md)**
+
+:   这篇论文提出一套**与任务解耦、无需参考答案**的自动化框架来量化 LLM 的创造力：用「语义熵」衡量发散创造力（想法的新颖与多样），用「基于检索的多智能体评判」衡量收敛创造力（解答是否真正解决问题），并在解题、科研构思、创意写作三个领域上系统刷出了模型规模、温度、推理能力对创造力的影响规律。
+
+**[BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?](badscientist_can_a_research_agent_write_convincing_but_unsound_papers_that_fool_.md)**
+
+:   作者搭了一个"坏科学家" pipeline：让一个不做任何真实验的生成 agent 用五种"表演式造假"策略写出看似严谨实则站不住的论文，再喂给由 o3 / o4-mini / GPT-4.1 组成的多模型评审 agent，结果造假论文的接收率最高冲到 **82%**，而且评审常常一边在评语里点出诚信问题、一边照样打出接收分（concern-acceptance conflict），现有缓解手段几乎只比随机猜强一点。
 
 **[BenchMarker: An Education-Inspired Toolkit for Highlighting Flaws in Multiple-Choice Benchmarks](benchmarker_an_education-inspired_toolkit_for_highlighting_flaws_in_multiple-cho.md)**
 
@@ -262,6 +270,10 @@ item_total: 92
 **[IF-RewardBench: Benchmarking Judge Models for Instruction-Following Evaluation](if-rewardbench_benchmarking_judge_models_for_instruction-following_evaluation.md)**
 
 :   本文提出 IF-RewardBench：第一个同时覆盖单轮 / 多轮 / 系统提示三类指令、由 16 个 LLM 生成响应、由人工严格标注 (Cohen's $\kappa$=0.87) 的 judge 元评测基准；它把传统的 pairwise / BoN 评测范式升级为基于 **Pareto-dominance 偏好图**的 listwise 评测，对 22 个 SOTA judge（含 Gemini-3-Pro / GPT-5.1 / 各类 reward model）一通跑后发现：最强 judge 的 Kendall $\tau_b$ 也只有 0.609（远低于人类 0.755），所有专用 RM 均不超过 0.2，且本榜与下游 BoN 性能的相关性显著高于 RewardBench-2、PPE-IF 等现有 benchmark。
+
+**[Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation](illusions_of_the_gold_standard_a_large-scale_analysis_of_human_evaluation_protoc.md)**
+
+:   作者把研究镜头对准 NLP 社区自己：用一套 20 条「可报告标准」的 codebook，对 2023–2025 年 *CL 会议 9100+ 篇论文做大规模审查（284 篇全人工标注 + 1800+ 篇 LLM 辅助标注），证明被奉为「黄金标准」的人工评估其实普遍报告缺失——超半数论文只报告了 20 条里的 ≤7 条，统计显著性几乎没人报、power analysis 零人用，黄金标准更像是一种「错觉」。
 
 **[Inverting the Shield: Systematically Generating Safety Tests from Policy Specifications](inverting_the_shield_systematically_generating_safety_tests_from_policy_specific.md)**
 
@@ -450,6 +462,10 @@ item_total: 92
 **[When Vision-Language Models Judge Without Seeing: Exposing Informativeness Bias](when_vision-language_models_judge_without_seeing_exposing_informativeness_bias.md)**
 
 :   揭示 VLM-as-a-Judge 系统存在严重的"信息量偏见"（informativeness bias）——评判器倾向于选择更详细丰富的回答，即使该回答与图像内容矛盾，提出 BIRCH 范式通过先校正候选答案再进行比较，将偏见减少最高 17%，性能提升最高 9.8%。
+
+**[WildIFEval: Instruction Following in the Wild](wildifeval_instruction_following_in_the_wild.md)**
+
+:   WildIFEval 是一个从真实用户对话里抽取、规模达 7,523 个任务 / 24,731 条约束的单轮约束生成基准：它把每个用户指令自动分解成细粒度约束、归入 8 大类别，并用 LLM 评委做"严格/柔性"双评分，从而首次大规模刻画真实指令里约束的分布与共现，并揭示出"约束数一多、模型整体成功率骤降但单约束成功率几乎不变"的容量瓶颈。
 
 **[Zero-shot Large Language Models for Automatic Readability Assessment](zero-shot_large_language_models_for_automatic_readability_assessment.md)**
 

@@ -77,6 +77,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 方法 | CodeBLEU@1 | CodeBLEU@5 | IoU@1 | IoU@5 |
 |--------|------|------------|------------|-------|-------|
 | CodeWorkout | Student SFT | 0.501 | 0.565 | 0.115 | 0.244 |
@@ -85,6 +86,7 @@ flowchart TD
 | FalconCode | KASER | 0.668 | 0.692 | 0.178 | 0.303 |
 
 ### 消融实验
+
 | 数据集 | 方法 | Cosine Distance ↑ | CodeBLEU补集 ↑ | Error IoU ↑ | $\chi^2$ Distance ↓ |
 |--------|------|-------------------|----------------|-------------|----------------------|
 | CodeWorkout | Student SFT | 0.082 | 0.480 | 0.700 | 109.85 |

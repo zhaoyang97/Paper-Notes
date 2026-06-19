@@ -112,6 +112,7 @@ PositionIC-Bench（作者自建，252 单主体 + 296 多主体样本，用 Visi
 单主体 IoU 领先（0.828）、AP 与 GLIGEN 持平；多主体在 mIoU 和 AP 上都超过所有基线（mIoU 0.860、AP 0.701 vs GLIGEN 0.628），AP50 更是到 0.939。值得注意 MS-Diffusion / RPF 这类方法在多主体下空间精度直接崩塌（AP < 0.03），印证「空间精度 vs 身份」的旧 trade-off。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | Subject200K（无位置注入） | 分数最低 | 旧拼贴数据，低分辨率 + 不一致 |
@@ -160,7 +161,7 @@ PositionIC-Bench（作者自建，252 单主体 + 296 多主体样本，用 Visi
 - [\[CVPR 2026\] Resolving the Identity Crisis in Text-to-Image Generation](resolving_the_identity_crisis_in_text-to-image_generation.md)
 - [\[CVPR 2026\] Image Diffusion Preview with Consistency Solver](image_diffusion_preview_with_consistency_solver.md)
 - [\[CVPR 2026\] PureCC: Pure Learning for Text-to-Image Concept Customization](purecc_pure_learning_for_text-to-image_concept_customization.md)
-- [\[CVPR 2026\] Unified Customized Generation by Disentangled Reward Modeling](unified_customized_generation_by_disentangled_reward_modeling.md)
+- [\[CVPR 2026\] Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization](identity-preserving_image-to-video_generation_via_reward-guided_optimization.md)
 
 </div>
 

@@ -118,6 +118,7 @@ $$I_{out}=s\odot I_{dim}+(1-s)\odot\mathcal{B}_\sigma(I_{dim}).$$
 在 LIBERO-Plus（OpenVLA-OFT 基座）上 SceneDiver adapter 把鲁棒性成功率最多拉高 9.6%，额外推理开销仅 2.64%。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|------|------|
 | 完整 SceneDiver | 14.7→28.7 (7B) | 粗+细+调制三件套 |

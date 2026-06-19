@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 VLMReasoning论文汇总 · 23篇论文解读
+  ICLR2026 VLMReasoning论文汇总 · 30篇论文解读
 description: >-
-  23篇ICLR2026的 VLM Reasoning 方向论文解读，涵盖推理、多模态、Agent、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  30篇ICLR2026的 VLM Reasoning 方向论文解读，涵盖推理、多模态、Agent、LLM、强化学习、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "VLM Reasoning"
@@ -11,8 +11,24 @@ tags:
   - "推理"
   - "多模态"
   - "Agent"
+  - "LLM"
+  - "强化学习"
   - "机器人"
 item_list:
+  - u: "adareasoner_dynamic_tool_orchestration_for_iterative_visual_reasoning/"
+    t: "AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning"
+  - u: "agent-x_evaluating_deep_multimodal_reasoning_in_vision-centric_agentic_tasks/"
+    t: "Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks"
+  - u: "agentic_jigsaw_interaction_learning_for_enhancing_visual_perception_and_reasonin/"
+    t: "Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models"
+  - u: "ares_multimodal_adaptive_reasoning_via_difficulty-aware_token-level_entropy_shap/"
+    t: "ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping"
+  - u: "autogps_automated_geometry_problem_solving_via_multimodal_formalization_and_dedu/"
+    t: "AutoGPS: Automated Geometry Problem Solving via Multimodal Formalization and Deductive Reasoning"
+  - u: "buffer_matters_unleashing_the_power_of_off-policy_reinforcement_learning_in_larg/"
+    t: "Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning"
+  - u: "circuitsense_a_hierarchical_mllm_benchmark_bridging_visual_comprehension_and_sym/"
+    t: "CircuitSense: A Hierarchical MLLM Benchmark Bridging Visual Comprehension and Symbolic Reasoning in Engineering Design Process"
   - u: "diva-grpo_enhancing_multimodal_reasoning_through_difficulty-adaptive_variant_adv/"
     t: "DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage"
   - u: "empowering_small_vlms_to_think_with_dynamic_memorization_and_exploration/"
@@ -59,17 +75,45 @@ item_list:
     t: "VLM-SubtleBench: How Far Are VLMs from Human-Level Subtle Comparative Reasoning?"
   - u: "vtool-r1_vlms_learn_to_think_with_images_via_reinforcement_learning_on_multimoda/"
     t: "VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use"
-item_total: 23
+item_total: 30
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧠 VLM Reasoning
 
-**🔬 ICLR2026** · **23** 篇论文解读
+**🔬 ICLR2026** · **30** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (121)](../../CVPR2026/vlm_reasoning/index.md) · [🧪 ICML2026 (20)](../../ICML2026/vlm_reasoning/index.md) · [💬 ACL2026 (31)](../../ACL2026/vlm_reasoning/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/vlm_reasoning/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/vlm_reasoning/index.md) · [📹 ICCV2025 (15)](../../ICCV2025/vlm_reasoning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (150)](../../CVPR2026/vlm_reasoning/index.md) · [🧪 ICML2026 (31)](../../ICML2026/vlm_reasoning/index.md) · [💬 ACL2026 (32)](../../ACL2026/vlm_reasoning/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/vlm_reasoning/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/vlm_reasoning/index.md) · [📹 ICCV2025 (15)](../../ICCV2025/vlm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×20 · 多模态 ×11 · Agent ×2 · 机器人 ×2
+🔥 **高频主题：** 推理 ×27 · 多模态 ×15 · Agent ×3 · LLM ×2 · 强化学习 ×2
+
+**[AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning](adareasoner_dynamic_tool_orchestration_for_iterative_visual_reasoning.md)**
+
+:   AdaReasoner 教多模态大模型（MLLM）在多轮视觉推理中**动态编排一组视觉工具**——通过"工具冷启动 + 多轮 Tool GRPO"两阶段训练，让 7B 小模型学会自主选用、丢弃和调节工具使用频率，平均涨点 +38.7%，在 VSP 上做到 97.6% 的近满分，反超 GPT-5 与 Claude Sonnet 4。
+
+**[Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks](agent-x_evaluating_deep_multimodal_reasoning_in_vision-centric_agentic_tasks.md)**
+
+:   Agent-X 是一个面向「视觉中心 agent」的大规模评测基准，用 828 个真实多模态任务（图像/多图/视频/指令文本）覆盖 6 类场景，配上一套细粒度的「步级 + 推理链 + 结果」三模评测指标，结果显示连 GPT/Gemini/Qwen 系列最强模型的全链路成功率都不到 50%，暴露出当前大模型在多步视觉推理和工具调用上的硬伤。
+
+**[Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models](agentic_jigsaw_interaction_learning_for_enhancing_visual_perception_and_reasonin.md)**
+
+:   AGILE 把"解拼图"重新定义成一个让模型一步步写代码、观察环境反馈的交互过程，再配上可任意扩展的程序化合成数据 + 冷启动 SFT + GRPO 强化学习，把 Qwen2.5-VL-7B 在 2×2 拼图上的准确率从 9.5% 拉到 82.8%，并迁移到 9 个通用视觉基准上平均涨 3.1%。
+
+**[ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping](ares_multimodal_adaptive_reasoning_via_difficulty-aware_token-level_entropy_shap.md)**
+
+:   ARES 用"窗口熵"作为探索触发器、用难度感知的层级熵奖励控制探索深度，让多模态大推理模型在简单题上少想、难题上多想，从而在数学/逻辑/多模态基准上同时提升准确率和推理效率。
+
+**[AutoGPS: Automated Geometry Problem Solving via Multimodal Formalization and Deductive Reasoning](autogps_automated_geometry_problem_solving_via_multimodal_formalization_and_dedu.md)**
+
+:   AutoGPS 用一个"多模态形式化器（MPF）+ 演绎符号推理器（DSR）"的神经符号协同框架，把平面几何题先翻译成形式语言、再以超图扩展的方式做严格演绎，最终给出既正确又可逐步追溯的解题过程，在 Geometry3K / PGPS9K 上达到 SOTA，并把人评的逐步逻辑正确率从 MLLM 的 ~71% 提到 99%。
+
+**[Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning](buffer_matters_unleashing_the_power_of_off-policy_reinforcement_learning_in_larg.md)**
+
+:   针对在线（on-policy）RLVR 训练中"难样本学不动、采样数据用一次就扔"两大浪费，本文提出离策略框架 **BAPO（Batch Adaptation Policy Optimization）**，用一个"难度感知的经验回放 + 自适应批构造"机制把历史难题和历史高质量轨迹重新拉回训练批次，并在理论上证明改造后的批次仍满足策略改进下界，最终在数学、规划、视觉几何三类推理任务上平均比 GRPO 提升 12.5%，还把基座模型一直做不对的 40.7% 难题给解决了。
+
+**[CircuitSense: A Hierarchical MLLM Benchmark Bridging Visual Comprehension and Symbolic Reasoning in Engineering Design Process](circuitsense_a_hierarchical_mllm_benchmark_bridging_visual_comprehension_and_sym.md)**
+
+:   CircuitSense 构建了首个"按工程抽象层级组织、强调从电路图推导符号方程"的多模态大模型基准，用 8,006 道题（人工 curated + 合成生成）系统评测 8 个 MLLM，揭示出闭源模型在感知任务上能超过 85%、但在符号推导上骤降到 19% 以下的根本断层。
 
 **[DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage](diva-grpo_enhancing_multimodal_reasoning_through_difficulty-adaptive_variant_adv.md)**
 

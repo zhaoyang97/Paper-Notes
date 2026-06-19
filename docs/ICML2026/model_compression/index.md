@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 模型压缩论文汇总 · 100篇论文解读
+  ICML2026 模型压缩论文汇总 · 116篇论文解读
 description: >-
-  100篇ICML2026的模型压缩方向论文解读，涵盖模型压缩、LLM、压缩/编码、对抗鲁棒、扩散模型、持续学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  116篇ICML2026的模型压缩方向论文解读，涵盖模型压缩、LLM、压缩/编码、扩散模型、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "模型压缩"
@@ -10,9 +10,9 @@ tags:
   - "论文笔记"
   - "LLM"
   - "压缩/编码"
-  - "对抗鲁棒"
   - "扩散模型"
-  - "持续学习"
+  - "推理"
+  - "对抗鲁棒"
 item_list:
   - u: "a_language-guided_bayesian_optimization_for_efficient_lora_hyperparameter_search/"
     t: "A Language-Guided Bayesian Optimization for Efficient LoRA Hyperparameter Search"
@@ -74,17 +74,17 @@ item_list:
     t: "Easier to Judge Than to Find: Predicting In-Context Learning Success for Demonstration Selection"
   - u: "effective_model_pruning_measure_the_redundancy_of_model_components/"
     t: "Effective Model Pruning: Measure the Redundancy of Model Components"
-item_total: 100
+item_total: 116
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🧪 ICML2026** · **100** 篇论文解读
+**🧪 ICML2026** · **116** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (138)](../../CVPR2026/model_compression/index.md) · [💬 ACL2026 (59)](../../ACL2026/model_compression/index.md) · [🔬 ICLR2026 (100)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (60)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (52)](../../ICCV2025/model_compression/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (108)](../../CVPR2026/model_compression/index.md) · [💬 ACL2026 (59)](../../ACL2026/model_compression/index.md) · [🔬 ICLR2026 (115)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (60)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (52)](../../ICCV2025/model_compression/index.md)
 
-🔥 **高频主题：** 模型压缩 ×17 · LLM ×16 · 压缩/编码 ×11 · 对抗鲁棒 ×4 · 扩散模型 ×3
+🔥 **高频主题：** 模型压缩 ×25 · LLM ×19 · 压缩/编码 ×15 · 扩散模型 ×5 · 推理 ×4
 
 **[A Language-Guided Bayesian Optimization for Efficient LoRA Hyperparameter Search](a_language-guided_bayesian_optimization_for_efficient_lora_hyperparameter_search.md)**
 
@@ -238,6 +238,10 @@ item_total: 100
 
 :   本文证明只要利用神经网络损失对参数重排/重缩放等"权重空间对称群"的不变性、对单个梯度做轨道平均，就能从一次梯度计算里解析地导出一个高度结构化、可廉价存储与求逆的 Hessian 近似；并且 Shampoo / Muon 恰好对应"对某些层指派恒等群"的特例，从而把这两类经验型优化器纳入统一的对称-曲率框架。
 
+**[FAIR-Calib: Frontier-Aware Instability-Reweighted Calibration for Post-Training Quantization of Diffusion Large Language Models](fair-calib_frontier-aware_instability-reweighted_calibration_for_post-training_q.md)**
+
+:   针对扩散语言模型（dLLM）"写入即不可改"的脆弱性，FAIR-Calib 先用全精度教师探测出一份"前沿位置先验"，再用这份权重去做逐层加权隐状态 MSE 校准，从而在 W4A4 下专门保护那些一旦被量化误差翻转就会被永久锁死并放大的边界 token，在 LLaDA / Dream 上稳定超过现有量化基线。
+
 **[FedRot-LoRA: Mitigating Rotational Misalignment in Federated LoRA](fedrot-lora_mitigating_rotational_misalignment_in_federated_lora.md)**
 
 :   本文指出联邦 LoRA 中朴素 factor-wise 平均的真正"敌人"是旋转不变性导致的潜在子空间错位，提出在客户端用正交 Procrustes 求解出旋转矩阵 $R_i^t$ 对齐 $A,B$ 因子后再聚合，理论与实验都证明能显著降低聚合误差且不增加通信开销。
@@ -302,6 +306,14 @@ item_total: 100
 
 :   在 Fine-tuning-as-a-Service 场景下，作者把"先把模型临时越狱再让用户微调"重新解读为一种梯度饱和机制，并基于这一观察设计 Buffer-and-Reinforce 框架：用一个可拆卸的 BufferLoRA 在用户微调时吃掉有害梯度，再用 ReinforceLoRA 通过 QR 正交合并补回安全性，无需任何用户侧安全数据就把有害评分压到约 8.5，同时把下游任务准确率维持在 76 以上。
 
+**[LEAP: Learnable End-to-End Adaptive Pruning of Large Language Models](leap_learnable_end-to-end_adaptive_pruning_of_large_language_models.md)**
+
+:   LEAP 把可学习掩码剪枝里"对每个分组的所有合法稀疏模式打一个 logit"的参数化（MaskLLM/PATCH）换成"对每个权重一个 Gumbel-Sigmoid 伯努利门"，绕开非结构化稀疏下组合爆炸的死结，从而第一次把端到端掩码学习搬到非结构化 LLM 剪枝上，在 0.5B–8B 五个模型、50%/60% 稀疏下平均零样本精度比最强逐层基线 ADMM 高 +2.59 分。
+
+**[Learned Subspace Compression for Communication-Efficient Pipeline Parallelism](learned_subspace_compression_for_communication-efficient_pipeline_parallelism.md)**
+
+:   针对低带宽网络下流水线并行训练「跨段激活通信」的瓶颈，本文提出 MAPL：让每个流水线段在 Stiefel 流形上**学习自己的正交投影**来压缩边界激活，配合因子化锚点嵌入剥离 token 偏移、再叠加残差向量量化，在 150M–1B 的 LLaMA 上实现 4–16× 通信压缩、性能仅比未压缩基线掉 1% 左右，远优于固定子空间的 SSN。
+
 **[LFQ: Logit-aware Final-block Quantization for Boosting the Generation Quality of Low-Bit Quantized LLMs](lfq_logit-aware_final-block_quantization_for_boosting_the_generation_quality_of_.md)**
 
 :   针对 block-wise PTQ 在生成任务上的质量退化问题，LFQ 将最后一个 Transformer block 的量化目标从 MSE 替换为 logit 级交叉熵损失，使量化模型的 token 分布与全精度模型对齐，在 IFEval/GSM8K/MATH500/AIME 等生成基准上一致提升精度。
@@ -317,6 +329,14 @@ item_total: 100
 **[LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws](llms_as_noisy_channels_a_shannon_perspective_on_model_capacity_and_scaling_laws.md)**
 
 :   本文把 LLM 训练重新解释为 Shannon-Hartley 噪声信道——参数量对应带宽、训练 token 对应信号功率、数据/模型噪声对应信道噪声；从该框架推出 Shannon Scaling Law $C_{\text{LLM}} = aN^\alpha \log_2(1 + bD^\beta / (c(DN)^\gamma + dD^\delta + e))$，能统一解释经典单调 scaling 与近期发现的 U 形退化（catastrophic overtraining、quantization-induced degradation），并在 Pythia/OLMo2 上从 ≤6.9B 数据外推到 12B 模型 307B token 上 $R^2 = 0.847$。
+
+**[LoRA-DA: Data-Aware Initialization for Low-Rank Adaptation via Asymptotic Analysis](lora-da_data-aware_initialization_for_low-rank_adaptation_via_asymptotic_analysi.md)**
+
+:   LoRA-DA 把"如何初始化 LoRA 的 $A$、$B$ 矩阵"重新表述成一个**最小化微调模型与目标模型参数差距期望**的优化问题，通过渐近分析把目标拆成**方差项 + 偏置项**两部分，用 Fisher 信息既刻画采样随机性又保留参数空间的各向异性，从而给出比"只看一步梯度"更优的初始化，在多个 NLP 基准上稳定超过现有初始化方法。
+
+**[Making Models Unmergeable via Scaling-Sensitive Loss Landscape](making_models_unmergeable_via_scaling-sensitive_loss_landscape.md)**
+
+:   TRAP² 把「不可合并性」在微调阶段直接写进发布的权重更新里——通过对「更新缩放因子 $s$」做对抗优化，让模型在授权的 $s=1$ 处保持高可用、却在 $s\neq1$（合并管线普遍引入的离标缩放）处迅速崩坏，从而既不依赖 Transformer 的架构对称性、也不需要完整权重访问，对 LoRA 适配器和全量 checkpoint、Transformer 和非 Transformer 骨干一视同仁地防止未授权的模型合并。
 
 **[Memory-Efficient Partitioned DNN Inference on Resource-Constrained Android Crowds](memory-efficient_partitioned_dnn_inference_on_resource-constrained_android_crowd.md)**
 
@@ -350,6 +370,10 @@ item_total: 100
 
 :   OSAQ 利用 LLM 各层 Hessian 在不同输入下保持一致的低秩零空间，将零空间向量线性组合成一个加性权重扰动 $\Delta W$，在不改变二阶任务损失的前提下把离群权重「自吸收」掉，使 2 比特仅权重量化的困惑度比朴素 GPTQ 降低 40% 以上。
 
+**[PADD: Path-Aligned Decompression Distillation for Non-Router Teacher to Guide MoE Student Learning](padd_path-aligned_decompression_distillation_for_non-router_teacher_to_guide_moe.md)**
+
+:   PADD 把"用一个没有路由器的稠密教师去指导已预训练的 MoE 学生学会高质量路由"这件事拆成两阶段四步骤的统一流水线——先用教师 FFN 神经元聚类来初始化并热身学生专家，再在一次训练里同时做在线自适应蒸馏、路径精炼的策略优化（PR-GRPO）和奖励增强的负载均衡——在数学推理上让小激活量的 MoE 学生在相同推理成本下追平甚至反超 7B 稠密教师。
+
 **[Parameters as Experts: Adapting Vision Models with Dynamic Parameter Routing](parameters_as_experts_adapting_vision_models_with_dynamic_parameter_routing.md)**
 
 :   作者把"参数本身当成专家"——在每个 stage 维护一个跨层共享的可训练参数矩阵池 (shared expert center)，让每一层的 ParaX 适配器通过一个轻量路由器为当前输入**动态合成**低秩投影和多尺度深度卷积的权重，从而同时解决传统 adapter 的"输入无关"和"跨层冗余"两大缺陷，在密集预测任务上以 <5% 可训练参数稳定超越 full fine-tuning。
@@ -358,9 +382,17 @@ item_total: 100
 
 :   作者提出 **Partial Fusion**：用部分最优传输 (partial OT) 只合并两个网络中"最相似"的神经元、保留剩余神经元独立存在，从而在"权重聚合 (1× 参数量)"与"全集成 (2× 参数量)"之间得到一条平滑、单调、可调的精度–参数量曲线；并进一步把它统一到"对集成做广义剪枝"的视角，让同一套工具也能压缩单个模型。
 
+**[Persona-Pruner: Sculpting Lightweight Models for Role-Playing](persona-pruner_sculpting_lightweight_models_for_role-playing.md)**
+
+:   不给每个角色都配一个完整通用大模型，而是只用一段文字 persona 描述，先合成 persona 专属校准数据、再在 FFN 中间维度上学一个二值掩码，把"承载这个角色身份"的子网络从大模型里"雕刻"出来——50% 稀疏下角色扮演评分相比最强剪枝基线最多回收 93.8% 的性能损失，同时不伤通用能力。
+
 **[Plug-and-Play Spiking Operators: Breaking the Nonlinearity Bottleneck in Spiking Transformers](plug-and-play_spiking_operators_breaking_the_nonlinearity_bottleneck_in_spiking_.md)**
 
 :   作者把 Transformer 里最难脉冲化的三个非线性算子（Softmax、SiLU、RMSNorm）拆成"除法 / 指数 / $\ell_2$ 范数"三个公共原语，分别用 LIF 神经元群体计算 + 位移缩放实现成 spike-friendly 模块，再像积木一样拼回原算子，全程不需要任何微调就能即插即用到现有 ANN-to-SNN 流水线里，对 LLaMA-3-8B / Qwen3-8B / BERT 等模型的精度损失 <1%。
+
+**[Post-Hoc Merging is Not Enough: Many-Shot Model Merging with Loss-Gap Balancing](post-hoc_merging_is_not_enough_many-shot_model_merging_with_loss-gap_balancing.md)**
+
+:   本文指出主流模型合并都是"训练完只合一次"的 post-hoc 合并、易因任务干扰造成信息擦除，转而提出**多轮（many-shot）迭代合并**框架，并在其上设计 METIS——用任务级 loss-gap 加权补偿被擦除的任务、用共识掩码定位兼容更新，从而在保住单任务知识的同时显著提升多任务能力，尤其救回了"最差任务"。
 
 **[Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs](preserve-then-quantize_balancing_rank_budgets_for_quantization_error_reconstruct.md)**
 
@@ -394,6 +426,10 @@ item_total: 100
 
 :   本文针对残差二值化 LLM 中"并行二值路径学到冗余特征"这一被作者命名为 inter-path adaptation 的失败模式，提出 RaBiT——用单一共享的全精度权重在线派生所有二值路径并配合函数感知初始化，从而结构性地强制残差层级，使 2-bit Llama2-7B 在 matmul-free 架构下首次反超 VQ 强基线（Wiki2 PPL 5.78 vs QTIP 5.86），同时获得 4.49× 推理加速。
 
+**[ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training](reqat_achieving_full-precision_reasoning_accuracy_with_4-bit_floating-point_quan.md)**
+
+:   这篇论文发现大推理模型 FP4 量化失败集中在「低熵 token」（数字、运算符这类确定性符号承诺）上，于是提出 ReQAT——用三件套（轨迹对齐 QAT + 选择性熵最小化 + KV cache 量化友好初始化）专攻这些 token，在 W4A4KV4 全量化下不仅追平、甚至**超过** BF16 微调精度，同时拿到最高 3.9× 吞吐加速。
+
 **[ReSpinQuant: Efficient Layer-Wise LLM Quantization via Subspace Residual Rotation Approximation](respinquant_efficient_layer-wise_llm_quantization_via_subspace_residual_rotation.md)**
 
 :   ReSpinQuant 在低比特 LLM PTQ 中同时保留"全局旋转可与权重融合"和"层间旋转可适配各层离群点"两大优点，靠的是把残差连接处不可消去的旋转过渡矩阵 $\mathbf{T}=\mathbf{R}_{out}\mathbf{R}_{in}^{\top}$ 用一个秩 $r\!\approx\!32$ 的子空间正交近似替代，在线开销只增加 $\sim0.2\%$，W4A4/W3A3 上同时压过 SpinQuant 和 FlatQuant。
@@ -414,6 +450,10 @@ item_total: 100
 
 :   MaskAQ 把 ViT 的数据无关量化重新定义为"在合成样本的稀疏 informative region 上对齐全精度模型 $P$ 与量化模型 $Q$ 的注意力"，用差分熵最大化解耦前景 patch、用自适应掩码对齐注意力、并以周期性刷新让样本跟随 $Q$ 演化，在 3-bit DeiT-T 上把 ImageNet Top-1 比此前最佳再抬 3.1%。
 
+**[Semantic Cache Distillation: Efficient State Transfer via Reuse and Selective Patching](semantic_cache_distillation_efficient_state_transfer_via_reuse_and_selective_pat.md)**
+
+:   针对"基座模型当生产者、微调模型当消费者"的分离式 LLM 服务场景，本文提出 SCD：把跨设备传输的原始 KV Cache 换成离线学好的低秩语义码，大多数层用 Reuse 做低秩重建省带宽、少数关键层用 Patch 重算前置归一化输入截断误差累积，在 200 Gbps 带宽下相对 Oracle 拿到 2.65× 的 TTFT 加速、F1 仅掉 3% 以内。
+
 **[Semantic Integrity Matters: Benchmarking and Preserving High-Density Reasoning in KV Cache Compression](semantic_integrity_matters_benchmarking_and_preserving_high-density_reasoning_in.md)**
 
 :   本文先用新基准 KVFundaBench 系统揭示「检索类长上下文压得动、推理类压不动」的关键不对称，并把原因归结到 KV 压缩破坏了少样本示例这一「语义单元」的完整性；据此提出 ShotKV——在 prefill 阶段保留整个 shot 作为不可分割单元、在 decoding 阶段做动态 token 级压缩，让 LG-GSM8K 在 40% 压缩率下从 baseline 46.0 提升到 47.33，并在长输入设置下端到端延迟降低 11.3%。
@@ -422,9 +462,17 @@ item_total: 100
 
 :   SPEED-Bench 是一个面向投机解码（Speculative Decoding, SD）的统一基准，它通过 *Qualitative split*（最大化语义多样性的 880 条样本）与 *Throughput split*（按 1k–32k 输入长度桶组织、覆盖三档熵的大批量数据）配合一套对接 vLLM / TensorRT-LLM / SGLang 的测量框架，揭示了过去 SD 论文里被"小数据 + 单批 + HuggingFace"评测掩盖的真实部署行为。
 
+**[SSR-Merge: Subspace Signal Routing for Training-Free LoRA Merging in Diffusion Models](ssr-merge_subspace_signal_routing_for_training-free_lora_merging_in_diffusion_mo.md)**
+
+:   把多个 LoRA 合并这件事从"参数空间做算术"改成"在统一子空间里路由内部信号"：先沿 rank 维拼出统一子空间，再用一个由二阶统计闭式构造的路由器 $R=\mathbf{Q}\mathbf{G}^{-1}$（去相关 + 定向引导）把混叠信号导向各自任务，理论上等价于最小二乘最优解，免训练、流式更新、零推理开销，在 FLUX.1-dev 上显著超过 TIES/DARE 等 SOTA。
+
 **[SURGE: Surrogate Gradient Adaptation in Binary Neural Networks](surge_surrogate_gradient_adaptation_in_binary_neural_networks.md)**
 
 :   SURGE 给每个二值化层并联一个"全精度辅助分支"，前向输出不变但反向能从全精度分支额外回传一份"非 STE 截断"的高阶梯度，并用 AGS 按梯度范数比动态平衡两路贡献，让 BNN 在 ResNet-18/ImageNet 上做到 62.0% top-1，比 ReCU 高 1.0%、比 IR-Net 高 3.9%。
+
+**[Swift-SVD: Theoretical Optimality Meets Practical Efficiency in Low-Rank LLM Compression](swift-svd_theoretical_optimality_meets_practical_efficiency_in_low-rank_llm_comp.md)**
+
+:   针对「现有 SVD 低秩压缩要么重构误差次优、要么虽最优但要 Cholesky + 多次 SVD 导致慢且数值不稳」的两难，本文证明了一个闭式谱解定理——对 $Y=XW$ 做一次特征分解即得最优激活感知压缩——并配上增量协方差聚合和「层重要性 ↔ 局部可压缩性负相关」驱动的动态秩分配，在 6 个 LLM、8 个数据集上达到最优压缩精度的同时把端到端压缩耗时加速 3–70×。
 
 **[Task-Driven Subspace Decomposition for Knowledge Sharing and Isolation in LoRA-based Continual Learning](task-driven_subspace_decomposition_for_knowledge_sharing_and_isolation_in_lora-b.md)**
 
@@ -437,6 +485,10 @@ item_total: 100
 **[The Shape of Addition: Geometric Structures of Arithmetic in Large Language Models](the_shape_of_addition_geometric_structures_of_arithmetic_in_large_language_model.md)**
 
 :   作者在 Qwen3-4B 的最后一层残差流里发现 LLM 做多操作数加法时，激活被组织成「数字盆 × 进位纤维」的分层流形，并把"算错一位"重新解释成沿着等原始和轨迹（IRST）滑过一个连续进位势的量化阈值，由此提出双流一致性检查，在推理期把"内部还知道但输出选错"的 off-by-one 错误纠回来。
+
+**[ToaSt: Token Channel Selection and Structured Pruning for Efficient ViT](toast_token_channel_selection_and_structured_pruning_for_efficient_vit.md)**
+
+:   ToaSt 把 ViT 的压缩"解耦"成两套针对性策略：对占不到 40% FLOPs 的多头自注意力 (MHSA) 用耦合的逐头结构化权重剪枝、保住注意力的数学完整性；对占 60%+ FLOPs 的前馈网络 (FFN) 用免训练、推理时即插即用的"Token Channel Selection (TCS)"过滤冗余噪声通道，在九个 ViT 模型上拿到更优的精度–效率折中，例如 ViT-MAE-Huge 上 88.52% Top-1（+1.64%p）同时砍掉 39.4% FLOPs。
 
 **[Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection](token_sparse_attention_efficient_long-context_inference_with_interleaved_token_s.md)**
 
@@ -462,9 +514,21 @@ item_total: 100
 
 :   本文把"陈旧的"块循环坐标下降梯度估计存进 FIFO buffer，配上 momentum 衰减重用，并证明这等价于带 warm-start 的 BCCD；同时给出反直觉结论——更大的有限差分步长 $\epsilon$ 会隐式平滑 loss landscape、降低有效 Lipschitz 常数，从而让 stale gradient 反而能换来稳定下降。
 
+**[TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization](twla_achieving_ternary_weights_and_low-bit_activations_for_llms_via_post-trainin.md)**
+
+:   TWLA 是首个能同时把权重压到 1.58-bit（三值）、激活压到 4-bit 的**后训练量化**框架——靠"欧氏→流形两阶段三值校准 + Kronecker 正交旋转把权重塑成三峰分布并顺手压激活离群值 + 层间感知的激活混合精度分配"三件套，在 W1.58A4 下仍保住高精度并真正实现端到端推理加速。
+
 **[UB-SMoE: Universally Balanced Sparse Mixture-of-Experts for Resource-Adaptive Federated Fine-tuning of Foundation Models](ub-smoe_universally_balanced_sparse_mixture-of-experts_for_resource-adaptive_fed.md)**
 
 :   作者发现把 Sparse MoE 直接搬进异构联邦 LoRA 微调会出现「专家利用失衡」与「Top-K 不可导」两个致命问题，并通过 Dynamic Modulated Routing (DMR) 重平衡专家激活、Universal Pseudo-Gradient (PG) 给未激活专家补伪梯度，构成自强化循环，使低算力客户端在节省 45% 计算的同时性能提升 8.7×。
+
+**[Unifying Dataset Pruning and Distillation for Efficient Large-scale Compression](unifying_dataset_pruning_and_distillation_for_efficient_large-scale_compression.md)**
+
+:   本文先用一个统一的数据集压缩基准戳破"数据集蒸馏（DD）优于剪枝"的假象——DD 的增益主要来自软标签而非合成图像，然后提出**只用硬标签**的 PCA（Prune-Combine-Augment）框架，在 ImageNet-1K 的极限压缩比下大幅超越现有 DD 与 DP 方法，同时省掉占图像存储 40 倍的软标签。
+
+**[UniSVQ: 2-bit Unified Scalar-Vector Quantization](unisvq_2-bit_unified_scalar-vector_quantization.md)**
+
+:   UniSVQ 用"整数格点的仿射变换"把标量量化（SQ）和向量量化（VQ）统一起来，得到一种 2-bit 后训练量化方案：每个权重矩阵只需 20 个额外参数就拿到接近 VQ 的精度，却保持 SQ 的整数算子结构与推理吞吐。
 
 **[When Shared Knowledge Hurts: Spectral Over-Accumulation in Model Merging](when_shared_knowledge_hurts_spectral_over-accumulation_in_model_merging.md)**
 

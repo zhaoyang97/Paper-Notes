@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization
 description: >-
-  [CVPR 2026][多模态VLM][VLM 越狱攻击] 作者发现 VLM 存在「风格不一致」漏洞——它能看懂任何画风的内容，却会被特定视觉风格触发器轻易绕过安全对齐；据此提出 ASO，用 GRPO 微调一个图像编辑模型，把最优风格叠加到现有对抗图像上，在 4 个 SOTA VLM 上一致提升各类越狱攻击的成功率（ASR）。
+  [CVPR 2026][VLM Reasoning][VLM 越狱攻击] 作者发现 VLM 存在「风格不一致」漏洞——它能看懂任何画风的内容，却会被特定视觉风格触发器轻易绕过安全对齐；据此提出 ASO，用 GRPO 微调一个图像编辑模型，把最优风格叠加到现有对抗图像上，在 4 个 SOTA VLM 上一致提升各类越狱攻击的成功率（ASR）。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "VLM 越狱攻击"
   - "风格敏感性"
   - "GRPO 强化学习"
@@ -152,11 +152,11 @@ VLBreakBench 上同样一致提升：
 
 ## 相关论文
 
-- [\[CVPR 2026\] Dynamics-Aware Preference Optimization for Vision-Language Models](dynamics-aware_preference_optimization_for_vision-language_models.md)
-- [\[CVPR 2026\] HiconAgent: History Context-aware Policy Optimization for GUI Agents](hiconagent_history_context-aware_policy_optimization_for_gui_agents.md)
 - [\[CVPR 2026\] CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization](codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim.md)
-- [\[CVPR 2026\] SketchVL: Policy Optimization via Fine-Grained Credit Assignment for Chart Understanding and More](sketchvl_policy_optimization_via_fine-grained_credit_assignment_for_chart_unders.md)
-- [\[CVPR 2026\] SPOT: Spatiotemporal Prompt Optimization for Motion-Stabilized MLLM-Guided Video Segmentation](spot_spatiotemporal_prompt_optimization_for_motion-stabilized_mllm-guided_video_.md)
+- [\[CVPR 2026\] Unified Generation and Self-Verification for Vision-Language Models via Advantage Decoupled Preference Optimization](unified_generation_and_self-verification_for_vision-language_models_via_advantag.md)
+- [\[CVPR 2026\] Beyond Perceptual Shortcuts: Causal-Inspired Debiasing Optimization for Generalizable Video Reasoning in Lightweight MLLMs](beyond_perceptual_shortcuts_causal-inspired_debiasing_optimization_for_generaliz.md)
+- [\[ICML 2026\] Temporal-Aware Reasoning Optimization for Video Temporal Grounding](../../ICML2026/vlm_reasoning/temporal-aware_reasoning_optimization_for_video_temporal_grounding.md)
+- [\[ICLR 2026\] DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage](../../ICLR2026/vlm_reasoning/diva-grpo_enhancing_multimodal_reasoning_through_difficulty-adaptive_variant_adv.md)
 
 </div>
 

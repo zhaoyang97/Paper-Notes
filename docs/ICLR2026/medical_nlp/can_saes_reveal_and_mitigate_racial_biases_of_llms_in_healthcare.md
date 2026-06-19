@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Can SAEs Reveal and Mitigate Racial Biases of LLMs in Healthcare?
 description: >-
-  [ICLR 2026][医疗NLP][稀疏自编码器] 研究稀疏自编码器（SAE）能否揭示和缓解 LLM 在医疗场景中的种族偏见：发现 SAE 能识别出与种族相关的有害联想（如黑人与暴力），但在复杂临床任务中缓解偏见的效果有限（FLDD < 3%），远不如简单的提示策略（FLDD 8-15%）。 领域现状：LLM 在医疗场景中…
+  [ICLR 2026][医疗 LLM][稀疏自编码器] 研究稀疏自编码器（SAE）能否揭示和缓解 LLM 在医疗场景中的种族偏见：发现 SAE 能识别出与种族相关的有害联想（如黑人与暴力），但在复杂临床任务中缓解偏见的效果有限（FLDD < 3%），远不如简单的提示策略（FLDD 8-15%）。 领域现状：LLM 在医疗场景…
 tags:
   - "ICLR 2026"
-  - "医疗NLP"
+  - "医疗 LLM"
   - "稀疏自编码器"
   - "种族偏见"
   - "医疗AI"
@@ -126,9 +126,9 @@ $$\text{FLDD} = 1 - \frac{\text{logitdiff}_{\text{ablated}}}{\text{logitdiff}_{\
 
 - [\[ACL 2025\] LLMs Can Simulate Standardized Patients via Agent Coevolution](../../ACL2025/medical_nlp/evopatient_standardized_patient.md)
 - [\[ICLR 2026\] SimpleToM: Exposing the Gap between Explicit ToM Inference and Implicit ToM Application in LLMs](simpletom_exposing_the_gap_between_explicit_tom_inference_and_implicit_tom_appli.md)
-- [\[ACL 2026\] Efficient and Effective Internal Memory Retrieval for LLM-Based Healthcare Prediction](../../ACL2026/medical_nlp/efficient_and_effective_internal_memory_retrieval_for_llm-based_healthcare_predi.md)
 - [\[ICLR 2026\] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA](counselbench_llm_mental_health_qa.md)
-- [\[AAAI 2026\] GEM: Generative Entropy-Guided Preference Modeling for Few-shot Alignment of LLMs](../../AAAI2026/medical_nlp/gem_generative_entropy-guided_preference_modeling_for_few-shot_alignment_of_llms.md)
+- [\[ACL 2026\] Efficient and Effective Internal Memory Retrieval for LLM-Based Healthcare Prediction](../../ACL2026/medical_nlp/efficient_and_effective_internal_memory_retrieval_for_llm-based_healthcare_predi.md)
+- [\[ACL 2026\] Can Continual Pre-training Bridge the Performance Gap between General-purpose and Specialized Language Models in the Medical Domain?](../../ACL2026/medical_nlp/can_continual_pre-training_bridge_the_performance_gap_between_general-purpose_an.md)
 
 </div>
 

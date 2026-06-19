@@ -85,6 +85,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 设置 | 指标 | REFORM | 对比对象 | 结果解读 |
 |--------|------|------|----------|------|
 | ROM 跨域设置 | AVG ACC | 88.22 | AMD 85.92 / HAMMER 72.41 / MMD-Agent-34B 57.45 | 在新新闻域上明显优于特征对齐、传统检测和检索式 agent pipeline |
@@ -94,6 +95,7 @@ flowchart TD
 | 效率 | 参数量 / 吞吐 | 376M / Fast Mode 13.17 pairs/s | FKA-Owl 6.7B，MMD-Agent 34B | 双解码器使解释模式和快速筛查模式可分离，参数量远小于大模型 agent |
 
 ### 消融实验
+
 | 配置 | NYT ACC | NYT mAP | NYT mIoU | Guardian ACC | Guardian mAP | Guardian mIoU | 说明 |
 |------|---------|---------|----------|--------------|--------------|---------------|------|
 | $\mathcal{L}_{LM_a}$ | 84.88 | 66.16 | 75.98 | 72.18 | 45.86 | 78.72 | 只训练答案，仍是结果导向学习 |
@@ -138,11 +140,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] Probabilistic Concept Graph Reasoning for Multimodal Misinformation Detection](../../CVPR2026/robotics/probabilistic_concept_graph_reasoning_for_multimodal_misinformation_detection.md)
 - [\[ACL 2026\] GoViG: Goal-Conditioned Visual Navigation Instruction Generation via Multimodal Reasoning](govig_goal-conditioned_visual_navigation_instruction_generation_via_multimodal_r.md)
 - [\[CVPR 2026\] FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation](../../CVPR2026/robotics/fantasyvln_unified_multimodal_chain-of-thought_reasoning_for_vision-and-language.md)
 - [\[CVPR 2026\] AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking](../../CVPR2026/robotics/adadextrack_dynamic_modulation_for_adaptive_and_generalizable_dexterous_manipula.md)
-- [\[CVPR 2026\] AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Affordance Correspondence](../../CVPR2026/robotics/affordgen_generating_diverse_demonstrations_for_generalizable_object_manipulatio.md)
-- [\[ACL 2025\] SELF-PERCEPT: Introspection Improves LLMs' Detection of Multi-Person Mental Manipulation in Conversations](../../ACL2025/robotics/self_percept_manipulation_detection.md)
+- [\[CVPR 2026\] Hoi! - A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation](../../CVPR2026/robotics/hoi_-_a_multimodal_dataset_for_force-grounded_cross-view_articulated_manipulatio.md)
 
 </div>
 

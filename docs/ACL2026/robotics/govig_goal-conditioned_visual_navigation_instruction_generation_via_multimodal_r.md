@@ -174,10 +174,10 @@ Context-size / token-length 权衡（val unseen）：context 1→2 时随帧数�
 ## 相关论文
 
 - [\[ACL 2026\] GROKE: Vision-Free Navigation Instruction Evaluation via Graph Reasoning on OpenStreetMap](groke_vision-free_navigation_instruction_evaluation_via_graph_reasoning_on_opens.md)
-- [\[CVPR 2026\] Materialistic RIR: Material Conditioned Realistic RIR Generation](../../CVPR2026/robotics/materialistic_rir_material_conditioned_realistic_rir_generation.md)
 - [\[CVPR 2025\] Robotic Visual Instruction](../../CVPR2025/robotics/robotic_visual_instruction.md)
 - [\[CVPR 2026\] FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation](../../CVPR2026/robotics/fantasyvln_unified_multimodal_chain-of-thought_reasoning_for_vision-and-language.md)
 - [\[ACL 2026\] Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection](cultivating_forensic_reasoning_for_generalizable_multimodal_manipulation_detecti.md)
+- [\[CVPR 2026\] MM-ACT: Learn from Multimodal Parallel Generation to Act](../../CVPR2026/robotics/mm-act_learn_from_multimodal_parallel_generation_to_act.md)
 
 </div>
 

@@ -146,8 +146,8 @@ GeoSVR 以 0.47 的 Chamfer Distance 全面超越所有方法，包括隐式 SOT
 - [\[CVPR 2026\] FSFSplatter: Geometrically Accurate Reconstruction with Free Sparse-view Images within 2 minutes](../../CVPR2026/3d_vision/fsfsplatter_geometrically_accurate_reconstruction_with_free_sparse-view_images_w.md)
 - [\[ICLR 2026\] UrbanGS: A Scalable and Efficient Architecture for Geometrically Accurate Large-Scene Reconstruction](../../ICLR2026/3d_vision/urbangs_a_scalable_and_efficient_architecture_for_geometrically_accurate_large-s.md)
 - [\[ICML 2026\] Revisiting Photometric Ambiguity for Accurate Gaussian-Splatting Surface Reconstruction](../../ICML2026/3d_vision/revisiting_photometric_ambiguity_for_accurate_gaussian-splatting_surface_reconst.md)
+- [\[CVPR 2026\] MetroGS: Efficient and Stable Reconstruction of Geometrically Accurate High-Fidelity Large-Scale Scenes](../../CVPR2026/3d_vision/metrogs_efficient_and_stable_reconstruction_of_geometrically_accurate_high-fidel.md)
 - [\[CVPR 2025\] Sparse Voxels Rasterization: Real-time High-fidelity Radiance Field Rendering](../../CVPR2025/3d_vision/sparse_voxels_rasterization_real-time_high-fidelity_radiance_field_rendering.md)
-- [\[NeurIPS 2025\] AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians](atlasgs_atlanta-world_guided_surface_reconstruction_with_implicit_structured_gau.md)
 
 </div>
 

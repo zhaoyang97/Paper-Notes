@@ -98,6 +98,7 @@ LaMP 基准包含个性化 citation、movie tagging、product rating、headline/
 | ClusterRAG-H | 0.690 / 0.690 | 0.661 / 0.620 | 0.270 / 0.594 | 0.521 / 0.470 |
 
 ### 消融实验
+
 | 变体 | LaMP-3 MAE | LaMP-3 RMSE | LaMP-7 R-1 | LaMP-7 R-L | 说明 |
 |------|-----------:|------------:|-----------:|-----------:|------|
 | w/o user clustering | 0.320 | 0.637 | 0.458 | 0.371 | 随机相似用户，协同信号变噪 |

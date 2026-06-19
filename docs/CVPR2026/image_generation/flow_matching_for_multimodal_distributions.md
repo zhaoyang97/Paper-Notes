@@ -108,6 +108,7 @@ ImageNet-256 无条件生成，骨干 DiTDH-XL（839M），50 步 ODE，评测 5
 只换 GMM 源、仍用独立耦合时 Len 几乎不动（甚至在 Spread 下 $W_2^2$ 变差），只有加上 mode coupling 才同时把轨迹长度和 Wasserstein 距离压下来——验证"源 + 耦合协同设计"才是关键。真实数据上（Fig. 3）模数越多收敛越快，且即使模数远超 ImageNet 类别数仍持续受益，说明数据流形的内在结构比人工类别标签更丰富。
 
 ### 推理与数据效率
+
 | 维度 | 经典 FM | MM-FM | 说明 |
 |------|---------|-------|------|
 | 达到同等 FID 所需 ODE 步 | 25 | **5** | 轨迹更直，少 5× 步 |
@@ -150,10 +151,10 @@ ImageNet-256 无条件生成，骨干 DiTDH-XL（839M），50 步 ODE，评测 5
 ## 相关论文
 
 - [\[CVPR 2026\] Few-shot Acoustic Synthesis with Multimodal Flow Matching](few-shot_acoustic_synthesis_with_multimodal_flow_matching.md)
+- [\[CVPR 2026\] Stable Mean Flow: Lyapunov-Inspired One-Step Flow Matching](stable_mean_flow_lyapunov-inspired_one-step_flow_matching.md)
 - [\[CVPR 2026\] Spatiotemporal Pyramid Flow Matching for Climate Emulation](spatiotemporal_pyramid_flow_matching_for_climate_emulation.md)
 - [\[CVPR 2026\] Frequency-Aware Flow Matching for High-Quality Image Generation](freqflow_frequency_aware_flow_matching.md)
 - [\[CVPR 2026\] RenderFlow: Single-Step Neural Rendering via Flow Matching](renderflow_single-step_neural_rendering_via_flow_matching.md)
-- [\[CVPR 2026\] MPDiT: Multi-Patch Global-to-Local Transformer Architecture for Efficient Flow Matching](mpdit_multi-patch_global-to-local_transformer_architecture_for_efficient_flow_ma.md)
 
 </div>
 

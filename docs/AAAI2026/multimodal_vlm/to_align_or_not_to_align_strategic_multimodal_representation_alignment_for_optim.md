@@ -126,9 +126,9 @@ tags:
 
 - [\[CVPR 2026\] CoV-Align: Efficient Fine-grained Cross-Modal Alignment with Cohesive Visual Semantics Priority](../../CVPR2026/multimodal_vlm/cov-align_efficient_fine-grained_cross-modal_alignment_with_cohesive_visual_sema.md)
 - [\[CVPR 2026\] Disentangle-then-Align: Non-Iterative Hybrid Multimodal Image Registration via Cross-Scale Feature Disentanglement](../../CVPR2026/multimodal_vlm/disentangle-then-align_non-iterative_hybrid_multimodal_image_registration_via_cr.md)
+- [\[ACL 2026\] Segment, Embed, and Align: A Universal Recipe for Aligning Subtitles to Signing](../../ACL2026/multimodal_vlm/segment_embed_and_align_a_universal_recipe_for_aligning_subtitles_to_signing.md)
 - [\[ACL 2025\] Vision-Language Models Struggle to Align Entities across Modalities](../../ACL2025/multimodal_vlm/vision-language_models_struggle_to_align_entities_across_modalities.md)
 - [\[CVPR 2026\] The More, the Merrier: Contrastive Fusion for Higher-Order Multimodal Alignment](../../CVPR2026/multimodal_vlm/the_more_the_merrier_contrastive_fusion_for_higher-order_multimodal_alignment.md)
-- [\[ACL 2025\] DALR: Dual-level Alignment Learning for Multimodal Sentence Representation Learning](../../ACL2025/multimodal_vlm/dalr_dual-level_alignment_learning_for_multimodal_sentence_representation_learni.md)
 
 </div>
 

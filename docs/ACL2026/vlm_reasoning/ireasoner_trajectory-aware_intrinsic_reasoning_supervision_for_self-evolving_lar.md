@@ -86,6 +86,7 @@ Solver和Proposer都用KL正则化的策略梯度训练，参考模型冻结，�
 ## 实验关键数据
 
 ### 主实验
+
 | Benchmark | Qwen2.5-VL-7B Baseline | EvoLMM | iReasoner | 相对Baseline提升 |
 |-----------|------------------------|--------|-----------|------------------|
 | InfoGraphic-VQA | 80.44 | 81.06 | 81.56 | +1.12 |
@@ -98,6 +99,7 @@ Solver和Proposer都用KL正则化的策略梯度训练，参考模型冻结，�
 | MathVerse | 43.78 | 44.88 | 45.91 | +2.13 |
 
 ### 消融实验
+
 | 配置 | ScienceQA | MMMU | ChartQA | MathVerse | 说明 |
 |------|-----------|------|---------|-----------|------|
 | Full iReasoner | 89.92 | 52.37 | 85.78 | 45.91 | 答案奖励 + 步骤奖励完整组合 |
@@ -143,11 +145,11 @@ Solver和Proposer都用KL正则化的策略梯度训练，参考模型冻结，�
 
 ## 相关论文
 
-- [\[CVPR 2026\] EvoLMM: Self-Evolving Large Multimodal Models with Continuous Rewards](../../CVPR2026/multimodal_vlm/evolmm_self_evolving_lmm_continuous_rewards.md)
-- [\[ACL 2026\] PRISM: Self-Pruning Intrinsic Selection Method for Training-Free Multimodal Data Selection](prism_self-pruning_intrinsic_selection_method_for_training-free_multimodal_data_.md)
-- [\[CVPR 2026\] VisPlay: Self-Evolving Vision-Language Models](../../CVPR2026/multimodal_vlm/visplay_self-evolving_vision-language_models.md)
-- [\[CVPR 2026\] AutoTraces: Autoregressive Trajectory Forecasting via Multimodal Large Language Models](../../CVPR2026/multimodal_vlm/autotraces_autoregressive_trajectory_forecasting_via_multimodal_large_language_m.md)
-- [\[ICML 2026\] Learn to Think: Improving Multimodal Reasoning through Vision-Aware Self-Improvement Training](../../ICML2026/multimodal_vlm/learn_to_think_improving_multimodal_reasoning_through_vision-aware_self-improvem.md)
+- [\[ICML 2026\] Breaking Dual Bottlenecks: Evolving Unified Multimodal Models into Self-Adaptive Interleaved Visual Reasoners](../../ICML2026/vlm_reasoning/breaking_dual_bottlenecks_evolving_unified_multimodal_models_into_self-adaptive_.md)
+- [\[ICML 2026\] Learn to Think: Improving Multimodal Reasoning through Vision-Aware Self-Improvement Training](../../ICML2026/vlm_reasoning/learn_to_think_improving_multimodal_reasoning_through_vision-aware_self-improvem.md)
+- [\[CVPR 2026\] Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory](../../CVPR2026/vlm_reasoning/evolving_contextual_safety_in_multi-modal_large_language_models_via_inference-ti.md)
+- [\[CVPR 2026\] Self-Consistency for LLM-Based Motion Trajectory Generation and Verification](../../CVPR2026/vlm_reasoning/self-consistency_for_llm-based_motion_trajectory_generation_and_verification.md)
+- [\[ACL 2026\] Position: Multimodal Large Language Models Can Significantly Advance Scientific Reasoning](position_multimodal_large_language_models_can_significantly_advance_scientific_r.md)
 
 </div>
 

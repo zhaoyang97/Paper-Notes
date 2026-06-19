@@ -110,6 +110,7 @@ EVA 仅用 ~10K 视觉 token（不到 Gemini 的 1/60）就拿到 51.0%，比 32
 EVA-GRPO 在四个基准全面领先多数开源与自适应智能体，且每段视频只处理约 20–30 帧。在零样本的 Video-Holmes 推理基准上，EVA-GRPO 取得 37.2% Overall，超过 Video-R1（36.5）、VideoChat-R1（33.0），显示推理驱动智能体的强迁移性。
 
 ### 消融实验
+
 | 配置 | 表现趋势 | 说明 |
 |------|---------|------|
 | SFT only | 帧多、轮数多、分数最低 | 只学会工具格式，不会高效探索 |
@@ -155,10 +156,10 @@ EVA-GRPO 在四个基准全面领先多数开源与自适应智能体，且每�
 ## 相关论文
 
 - [\[ICML 2026\] You Can Learn Tokenization End-to-End with Reinforcement Learning](../../ICML2026/reinforcement_learning/you_can_learn_tokenization_end-to-end_with_reinforcement_learning.md)
-- [\[CVPR 2026\] VideoSSR: Video Self-Supervised Reinforcement Learning](videossr_video_self-supervised_reinforcement_learning.md)
-- [\[CVPR 2026\] Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr.md)
 - [\[CVPR 2026\] PlannerRFT: Reinforcing Diffusion Planners through Closed-Loop and Sample-Efficient Fine-Tuning](plannerrft_reinforcing_diffusion_planners.md)
 - [\[CVPR 2026\] Cross-modal Identity Mapping: Minimizing Information Loss in Modality Conversion via Reinforcement Learning](cross-modal_identity_mapping_minimizing_information_loss_in_modality_conversion_.md)
+- [\[CVPR 2026\] PanoEnv: Exploring 3D Spatial Intelligence in Panoramic Environments with Reinforcement Learning](panoenv_exploring_3d_spatial_intelligence_in_panoramic_environments_with_reinfor.md)
+- [\[CVPR 2026\] JoPPO: Hierarchical Photography Assessment via Contrastive Joint Conditional Probabilistic Reinforcement Learning](joppo_hierarchical_photography_assessment_via_contrastive_joint_conditional_prob.md)
 
 </div>
 

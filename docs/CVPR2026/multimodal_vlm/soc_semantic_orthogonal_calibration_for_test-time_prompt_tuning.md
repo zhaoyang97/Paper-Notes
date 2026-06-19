@@ -103,6 +103,7 @@ ImageNet 四个分布漂移变体（ViT-L/14）上，SoC 精度与 O-TPT 持平�
 | **SoC** | **71.3** | **8.4** |
 
 ### 消融与鲁棒性
+
 | 配置 / 设置 | 关键指标 | 说明 |
 |------------|---------|------|
 | 单步 → 两步梯度 | ECE 退化 23% vs O-TPT 39% | 多走一步时 O-TPT 校准崩得近两倍，印证一阶分析 |
@@ -146,9 +147,9 @@ ImageNet 四个分布漂移变体（ViT-L/14）上，SoC 精度与 O-TPT 持平�
 
 - [\[CVPR 2026\] Improving Calibration in Test-Time Prompt Tuning for Vision-Language Models via Data-Free Flatness-Aware Prompt Pretraining](improving_calibration_in_test-time_prompt_tuning_for_vision-language_models_via_.md)
 - [\[ICLR 2026\] A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models](../../ICLR2026/multimodal_vlm/a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi.md)
-- [\[CVPR 2026\] Dual-Modality Anchor-Guided Filtering for Test-time Prompt Tuning](dual-modality_anchor-guided_filtering_for_test-time_prompt_tuning.md)
 - [\[CVPR 2026\] Controllable Federated Prompt Learning at Test Time](controllable_federated_prompt_learning_at_test_time.md)
 - [\[CVPR 2026\] Multi-modal Test-time Adaptation via Adaptive Probabilistic Gaussian Calibration](multi-modal_test-time_adaptation_via_adaptive_probabilistic_gaussian_calibration.md)
+- [\[CVPR 2026\] STAR: Test-Time Adaptation Can Enhance Universal Prompt Learning for Vision-Language Models](star_test-time_adaptation_can_enhance_universal_prompt_learning_for_vision-langu.md)
 
 </div>
 

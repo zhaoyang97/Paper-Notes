@@ -123,7 +123,7 @@ AlignDistil 证明了 RLHF 目标函数与 token 级蒸馏过程的理论等价�
 - [\[ACL 2025\] Quantification of Large Language Model Distillation](quantification_of_large_language_model_distillation.md)
 - [\[ACL 2025\] Efficient Long Context Language Model Retrieval with Compression](efficient_long_context_language_model_retrieval_with_compression.md)
 - [\[ACL 2026\] SRA: Span Representation Alignment for Large Language Model Distillation](../../ACL2026/model_compression/sra_span_representation_alignment_for_large_language_model_distillation.md)
-- [\[ACL 2026\] Stable On-Policy Distillation through Adaptive Target Reformulation](../../ACL2026/model_compression/stable_on-policy_distillation_through_adaptive_target_reformulation.md)
+- [\[ACL 2026\] MTA: Multi-Granular Trajectory Alignment for Large Language Model Distillation](../../ACL2026/model_compression/mta_multi-granular_trajectory_alignment_for_large_language_model_distillation.md)
 
 </div>
 

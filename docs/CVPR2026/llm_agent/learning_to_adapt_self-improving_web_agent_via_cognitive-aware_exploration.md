@@ -91,6 +91,7 @@ SCALE 用监督微调（SFT）在每轮 $K$ 步探索后更新选择器与预测
 SCALE 相对各自零样本基线，平均任务成功率提升 231.8%（InternVL2.5-8B）和 176.3%（Qwen2.5-VL-7B），在 WebVoyager 这类动态网页上优势尤其明显（静态轨迹难以覆盖）；同时 AS 多数域取得最低或次低，说明推理路径更简洁。把 SCALE-20k 直接拿去训练与探索模型无关的 LLaVA-NeXT-8B，也能提升其 Agent 能力，验证数据集的通用性。
 
 ### 消融实验
+
 | 配置 | Shopping SR | 整体 SR | 访问节点数 | 说明 |
 |------|-------------|---------|-----------|------|
 | 随机游走 | 14.8 | 10.4 | 399 | 盲目铺开、覆盖低质 |
@@ -136,8 +137,8 @@ SCALE 相对各自零样本基线，平均任务成功率提升 231.8%（InternV
 - [\[ICLR 2026\] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents](../../ICLR2026/llm_agent/web-cogreasoner_towards_knowledge-induced_cognitive_reasoning_for_web_agents.md)
 - [\[ACL 2026\] TheraAgent: Self-Improving Therapeutic Agent for Precise and Comprehensive Treatment Planning](../../ACL2026/llm_agent/theraagent_self-improving_therapeutic_agent_for_precise_and_comprehensive_treatm.md)
 - [\[ICLR 2026\] Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](../../ICLR2026/llm_agent/agentic_context_engineering_evolving_contexts_for_self-improving_language_models.md)
-- [\[ACL 2026\] Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models](../../ACL2026/llm_agent/don39t_adapt_small_language_models_for_tools_adapt_tool_schemas_to_the_models.md)
 - [\[ACL 2025\] GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](../../ACL2025/llm_agent/gui_explorer_autonomous.md)
+- [\[ACL 2026\] Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models](../../ACL2026/llm_agent/don39t_adapt_small_language_models_for_tools_adapt_tool_schemas_to_the_models.md)
 
 </div>
 

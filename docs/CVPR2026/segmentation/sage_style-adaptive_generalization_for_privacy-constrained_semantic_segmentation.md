@@ -87,6 +87,7 @@ $$P_{fused}=\sum_{i=1}^{n}\tanh\!\left(\frac{e^{A_i}}{\sum_{j=1}^{n}e^{a_j}}\rig
 SAGE 仅用 1.53M 可训练参数（约为全量微调的 1/55），在 G→ 与 S→ 两组取得所有方法最高平均，C→ 组为隐私方法最佳；整体比冻结 baseline 高 3–5%、比同为隐私视觉提示的 A2XP 高约 12–14%，并在三组设置下全部超过全量微调。⚠️ 注：作者注明对比方法成绩部分直接引自前人工作，跨表数值绝对可比性需留意。
 
 ### 消融实验（APF 各组件，Cityscapes 源域）
+
 | 配置 | Avg mIoU | 说明 |
 |------|---------|------|
 | 无任何组件 | 40.63 | APF 裸 baseline |
@@ -130,11 +131,11 @@ SAGE 仅用 1.53M 可训练参数（约为全量微调的 1/55），在 G→ 与
 
 ## 相关论文
 
-- [\[CVPR 2026\] SAQN: Semantic-based Adaptive Query Network for 3D Referring Expression Segmentation](saqn_semantic-based_adaptive_query_network_for_3d_referring_expression_segmentat.md)
 - [\[CVPR 2026\] Heuristic Self-Paced Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions](heuristic_self-paced_learning_for_domain_adaptive_semantic_segmentation_under_ad.md)
 - [\[CVPR 2026\] Masked Representation Modeling for Domain-Adaptive Segmentation](mrm_masked_representation_modeling_domain_adaptive.md)
 - [\[CVPR 2026\] Mixture of Prototypes for Test-time Adaptive Segmentation](mixture_of_prototypes_for_test-time_adaptive_segmentation.md)
 - [\[CVPR 2026\] Generalizable Co-Salient Object Detection via Mixed Content-Style Modulation](generalizable_co-salient_object_detection_via_mixed_content-style_modulation.md)
+- [\[CVPR 2026\] Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization](revisiting_geometric_obfuscation_with_dual_convergent_lines_for_privacy-preservi.md)
 
 </div>
 

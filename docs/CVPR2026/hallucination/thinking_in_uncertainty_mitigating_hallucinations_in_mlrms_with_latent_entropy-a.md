@@ -98,6 +98,7 @@ LEAD **完全免训练**，是即插即用的解码期策略，不修改任何�
 通用推理与理解平均提升 +3.6%，幻觉指标 MMHalu/Bingo 分别 +4.7% / +3.8%。在域专项任务上（表 3），数学基准平均准确率 +2.0%、科学基准 +3.2%（如 MMK12-Bio 从 40.8 → 44.8，+4.0）。增益在其余 4 个 MLRM 上同样成立（如 Vision-R1-7B 的 POPE-R 88.0 → 91.4，+3.4）。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 动态阈值 ∆（完整） | MMHalu +4.7% / +4.1% | LEAD 默认，优于任何固定阈值 |
@@ -143,9 +144,9 @@ LEAD **完全免训练**，是即插即用的解码期策略，不修改任何�
 
 - [\[CVPR 2026\] Residual Decoding: Mitigating Hallucinations in Large Vision-Language Models via History-Aware Residual Guidance](residual_decoding_mitigating_hallucinations_in_large_vision-language_models_via_.md)
 - [\[CVPR 2026\] MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models](mad_modality-adaptive_decoding_for_mitigating_cross-modal_hallucinations_in_mult.md)
-- [\[CVPR 2026\] HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in LVLMs](hulluedit_subspace_editing_hallucination.md)
 - [\[CVPR 2026\] HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in Large Vision-Language Models](hulluedit_single-pass_evidence-consistent_subspace_editing_for_mitigating_halluc.md)
-- [\[CVPR 2026\] SEASON: Mitigating Temporal Hallucination in Video Large Language Models via Self-Diagnostic Contrastive Decoding](season_mitigating_temporal_hallucination_in_video_large_language_models_via_self.md)
+- [\[CVPR 2025\] Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding](../../CVPR2025/hallucination/seeing_far_and_clearly_mitigating_hallucinations_in_mllms_with_attention_causal_.md)
+- [\[CVPR 2026\] Understanding and Mitigating Hallucinations in Multimodal Chain-of-Thought Models](understanding_and_mitigating_hallucinations_in_multimodal_chain-of-thought_model.md)
 
 </div>
 

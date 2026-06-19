@@ -2,10 +2,10 @@
 title: >-
   [论文解读] FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection
 description: >-
-  [CVPR 2026][多模态VLM][UI grounding] FocusUI 让 UI grounding 的 VLM 只保留与指令相关的少数视觉 token——先用「指令×patch」的显著性监督训一个轻量打分器挑出关键 patch，再用 POSPAD 把被丢弃的连续 token 压成一个保留末位坐标的占位标记，从而在仅留 30% 视觉 token 的情况下精度只掉 3.2%，推理快 1.44×、峰值显存降 17%。
+  [CVPR 2026][VLM Efficiency][UI grounding] FocusUI 让 UI grounding 的 VLM 只保留与指令相关的少数视觉 token——先用「指令×patch」的显著性监督训一个轻量打分器挑出关键 patch，再用 POSPAD 把被丢弃的连续 token 压成一个保留末位坐标的占位标记，从而在仅留 30% 视觉 token 的情况下精度只掉 3.2%，推理快 1.44×、峰值显存降 17%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "UI grounding"
   - "视觉token选择"
   - "位置保持"
@@ -103,6 +103,7 @@ $$x'_j = \begin{cases}\texttt{<pos pad>} & j\in E_{\text{seq-end}}\\ x_j & j\in\
 FocusUI-7B 满 token 比 GUI-Actor-7B 在 ScreenSpot-Pro 上 +3.7（48.3 vs 44.6）；即使砍到 30% token，45.1 仍高于 GUI-Actor-7B 的 44.6。换到更新的 Qwen3-VL-2B backbone，FocusUI-QWEN3-VL-2B 在 50% 保留率下 ScreenSpot-Pro 反而 40.4，略高于满 token 的 39.8。
 
 ### 效率与对比剪枝
+
 | 设置 | 保留率 | 推理时延 | 峰值显存 | SS-Pro Acc |
 |------|------|------|------|------|
 | FocusUI-7B | 100% | 1.75s (1.00×) | 20994MB (1.00×) | 48.3 |
@@ -112,6 +113,7 @@ FocusUI-7B 满 token 比 GUI-Actor-7B 在 ScreenSpot-Pro 上 +3.7（48.3 vs 44.6
 把保留率从 100% 降到 30%，推理快 1.44×、峰值显存降约 17%，精度只掉 3.2 分。对比通用剪枝（30% 保留率，基座 FocusUI-3B vs 通用方法）：FocusUI 在 SS-V2/Pro/OSWorld-G 仅掉 0.5/3.2/1.6 分，而 Fast-V 在 SS-Pro 掉 81.6%、Vision-Zip 掉 27.6%——印证「直接丢 token 破坏位置」会让通用剪枝崩塌。
 
 ### 消融实验
+
 | 配置 | SS-Pro Acc | 说明 |
 |------|---------|------|
 | Ins2Patch + POSPAD (50%) | **42.3** | 完整方法 |
@@ -156,11 +158,11 @@ FocusUI-7B 满 token 比 GUI-Actor-7B 在 ScreenSpot-Pro 上 +3.7（48.3 vs 44.6
 
 ## 相关论文
 
-- [\[ICLR 2026\] Index-Preserving Lightweight Token Pruning for Efficient Document Understanding](../../ICLR2026/multimodal_vlm/index-preserving_lightweight_token_pruning_for_efficient_document_understanding_.md)
-- [\[CVPR 2026\] EmoThinker: Advancing Visual-Acoustic Emotion Analysis via Structural Token Selection and Chain-of-Thought Reasoning](emothinker_advancing_visual-acoustic_emotion_analysis_via_structural_token_selec.md)
-- [\[CVPR 2026\] Widget2Code: From Visual Widgets to UI Code via Multimodal LLMs](widget2code_from_visual_widgets_to_ui_code_via_multimodal_llms.md)
 - [\[CVPR 2026\] GroundVTS: Visual Token Sampling in Multimodal Large Language Models for Video Temporal Grounding](groundvts_visual_token_sampling_in_multimodal_large_language_models_for_video_te.md)
-- [\[CVPR 2026\] UI-Lens: Assessing General MLLMs' Potential to Automate UI Display Quality Assurance](ui-lens_assessing_general_mllms_potential_to_automate_ui_display_quality_assuran.md)
+- [\[CVPR 2026\] One Layer's Trash is Another Layer's Treasure: Adaptive Layer-wise Visual Token Selection in LVLMs](one_layers_trash_is_another_layers_treasure_adaptive_layer-wise_visual_token_sel.md)
+- [\[ICLR 2026\] Index-Preserving Lightweight Token Pruning for Efficient Document Understanding](../../ICLR2026/vlm_efficiency/index-preserving_lightweight_token_pruning_for_efficient_document_understanding_.md)
+- [\[CVPR 2026\] Hi-Lo Prune: Look at What You'll Lose before Pruning with Hierarchical Token Selection](hi-lo_prune_look_at_what_youll_lose_before_pruning_with_hierarchical_token_selec.md)
+- [\[CVPR 2026\] When Token Pruning is Worse than Random: Understanding Visual Token Information in VLLMs](when_token_pruning_is_worse_than_random_understanding_visual_token_information_i.md)
 
 </div>
 

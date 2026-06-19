@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2501.02460](https://arxiv.org/abs/2501.02460)  
 **代码**: [https://github.com/Jack-ZC8/Omni-RAG-Medical](https://github.com/Jack-ZC8/Omni-RAG-Medical)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: RAG, medical QA, source planning, multi-source retrieval, knowledge base
 
 ## 一句话总结

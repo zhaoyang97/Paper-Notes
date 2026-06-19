@@ -59,6 +59,7 @@ flowchart TD
     G --> H["测试时 steering<br/>A_L ← A_L + α·δ·v"]
     H --> I["更接近特定导师风格的辅导话语"]
 ```
+
 ### 关键设计
 
 **1. population-mean reference：先定义“从哪里出发、要偏到哪里去”**
@@ -103,6 +104,7 @@ $$\delta_i=\frac{\exp(u_i)}{\frac{1}{I}\sum_m\exp(u_m)}$$
 最关键的是 mid stage：这是数学问题解决的主体部分，steering 把 cosine similarity 从 0.385 提到 0.426，LLM judge 有 58.7% 情况偏好 steered output；ROUGE-L 从 0.165 小降到 0.157，BLEU 几乎不变 0.019 到 0.018，说明主要改变的是语义/话语策略而非逐字重合。
 
 ### 消融实验
+
 | 全局强度 α | R | B | C | W | 说明 |
 |------------|---|---|---|---|------|
 | 0.0, unsteered | 0.179 | 0.026 | 0.379 | - | population-mean baseline |
@@ -150,8 +152,8 @@ $$\delta_i=\frac{\exp(u_i)}{\frac{1}{I}\sum_m\exp(u_m)}$$
 - [\[ICML 2026\] How Few-Shot Examples Add Up: A Causal Decomposition of Function Vectors in In-Context Learning](../../ICML2026/interpretability/how_few-shot_examples_add_up_a_causal_decomposition_of_function_vectors_in_in-co.md)
 - [\[ACL 2026\] Interpretability from the Ground Up](interpretability_from_the_ground_up_stakeholder-centric_design_of_automated_scor.md)
 - [\[ICLR 2026\] Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data](../../ICLR2026/interpretability/behavior_learning_bl_learning_hierarchical_optimization_structures_from_data.md)
-- [\[ACL 2026\] Compositional Steering of Large Language Models with Steering Tokens](compositional_steering_of_large_language_models_with_steering_tokens.md)
 - [\[ACL 2026\] Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization](preference_heads_in_large_language_models_a_mechanistic_framework_for_interpreta.md)
+- [\[ACL 2026\] Compositional Steering of Large Language Models with Steering Tokens](compositional_steering_of_large_language_models_with_steering_tokens.md)
 
 </div>
 

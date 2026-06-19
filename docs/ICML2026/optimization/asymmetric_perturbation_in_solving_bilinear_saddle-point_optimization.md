@@ -94,6 +94,7 @@ Theorem 3.1 的阈值 $\alpha/\max_x\|x\|$ 依赖具体游戏实例，实际中�
 | CFR 补充比较 | AsymP-DGDA, CFR, CFR+, DCFR, LCFR | NashConv vs strategy updates | AsymP-DGDA 在多数游戏上低于 CFR 系列，Leduc Poker 是主要例外 | CFR 报告 average-iterate，AsymP-DGDA 报告 last-iterate |
 
 ### 消融实验
+
 | 设计 / 现象 | 关键指标 | 说明 |
 |------|---------|------|
 | 对称扰动 | 固定 $\mu$ 下解通常偏离原始均衡，误差随 $\mu$ 缩放 | 强凸-强凹带来稳定，但代价是目标被改写 |
@@ -144,9 +145,9 @@ Theorem 3.1 的阈值 $\alpha/\max_x\|x\|$ 依赖具体游戏实例，实际中�
 
 - [\[ICLR 2026\] Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](../../ICLR2026/optimization/saddle-to-saddle_dynamics_explains_a_simplicity_bias_across_neural_network_archi.md)
 - [\[NeurIPS 2025\] AutoOpt: A Dataset and a Unified Framework for Automating Optimization Problem Solving](../../NeurIPS2025/optimization/autoopt_a_dataset_and_a_unified_framework_for_automating_optimization_problem_so.md)
+- [\[ICML 2026\] A2SG: Adaptive and Asymmetric Surrogate Gradients for Training Deep Spiking Neural Networks](a2sgadaptive_and_asymmetric_surrogate_gradients_for_training_deep_spiking_neural.md)
 - [\[ICLR 2026\] A Convergence Analysis of Adaptive Optimizers under Floating-Point Quantization](../../ICLR2026/optimization/a_convergence_analysis_of_adaptive_optimizers_under_floating-point_quantization.md)
 - [\[AAAI 2026\] GHOST: Solving the Traveling Salesman Problem on Graphs of Convex Sets](../../AAAI2026/optimization/ghost_solving_the_traveling_salesman_problem_on_graphs_of_convex_sets.md)
-- [\[ICML 2026\] Cost-Aware Stopping for Bayesian Optimization](cost-aware_stopping_for_bayesian_optimization.md)
 
 </div>
 

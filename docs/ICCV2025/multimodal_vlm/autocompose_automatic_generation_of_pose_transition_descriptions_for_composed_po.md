@@ -131,10 +131,10 @@ AutoComPose分为两个主要步骤：（1）自动生成姿态转换描述（�
 ## 相关论文
 
 - [\[ICCV 2025\] CapeLLM: Support-Free Category-Agnostic Pose Estimation with Multimodal Large Language Models](capellm_support-free_category-agnostic_pose_estimation_with_multimodal_large_lan.md)
-- [\[CVPR 2026\] From 3D Pose to Prose: Biomechanics-Grounded Vision-Language Coaching](../../CVPR2026/multimodal_vlm/from_3d_pose_to_prose_biomechanics-grounded_vision-language_coaching.md)
+- [\[CVPR 2026\] CLEP: Contrastive Language-Pose Pretraining](../../CVPR2026/multimodal_vlm/clep_contrastive_language-pose_pretraining.md)
+- [\[CVPR 2026\] Adapting In-context Generation for Enhanced Composed Image Retrieval](../../CVPR2026/multimodal_vlm/adapting_in-context_generation_for_enhanced_composed_image_retrieval.md)
 - [\[CVPR 2026\] STiTch: Semantic Transition and Transportation in Collaboration for Training-Free Zero-Shot Composed Image Retrieval](../../CVPR2026/multimodal_vlm/stitch_semantic_transition_and_transportation_in_collaboration_for_training-free.md)
-- [\[ICCV 2025\] Multimodal LLMs as Customized Reward Models for Text-to-Image Generation](multimodal_llms_as_customized_reward_models_for_text-to-image_generation.md)
-- [\[CVPR 2025\] CoLLM: A Large Language Model for Composed Image Retrieval](../../CVPR2025/multimodal_vlm/collm_a_large_language_model_for_composed_image_retrieval.md)
+- [\[CVPR 2026\] From 3D Pose to Prose: Biomechanics-Grounded Vision-Language Coaching](../../CVPR2026/multimodal_vlm/from_3d_pose_to_prose_biomechanics-grounded_vision-language_coaching.md)
 
 </div>
 

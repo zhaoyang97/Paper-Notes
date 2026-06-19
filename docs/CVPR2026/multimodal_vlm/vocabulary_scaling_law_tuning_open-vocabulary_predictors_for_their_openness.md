@@ -104,6 +104,7 @@ SVFT 的双层目标（式 10）：内层最小化 $\mathbb{E}_{\langle x,y\rang
 > ⚠️ 缓存文本在 full-class-name 段落 OCR 较乱（MAPLE/CLIP-Adapter 的常规分数被重复粘贴），上表只取「对抗类」一组清晰可辨的对比；常规分数以原文为准。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |---|---|---|
 | 子集选择：linear greedy（默认） | stability/extensibility 最佳 | 子模贪心是最优选择策略（图 5） |
@@ -147,11 +148,11 @@ SVFT 的双层目标（式 10）：内层最小化 $\mathbb{E}_{\langle x,y\rang
 
 ## 相关论文
 
-- [\[CVPR 2026\] Reconstructing CLIP for Open-Vocabulary Dense Perception](reconstructing_clip_for_open-vocabulary_dense_perception.md)
 - [\[CVPR 2026\] Towards Open-Vocabulary Industrial Defect Understanding with a Large-Scale Multimodal Dataset](towards_open-vocabulary_industrial_defect_understanding_with_a_large-scale_multi.md)
 - [\[CVPR 2026\] SynCLIP: Synonym-Coherent Language-Image Pretraining for Robust Open-Vocabulary Dense Perception](synclip_synonym-coherent_language-image_pretraining_for_robust_open-vocabulary_d.md)
 - [\[AAAI 2026\] O3SLM: Open Weight, Open Data, and Open Vocabulary Sketch-Language Model](../../AAAI2026/multimodal_vlm/o3slm_open_weight_open_data_and_open_vocabulary_sketch-language_model.md)
-- [\[CVPR 2026\] Thinking Beyond Labels: Vocabulary-Free Fine-Grained Recognition using Reasoning-Augmented LMMs](thinking_beyond_labels_vocabulary-free_fine-grained_recognition_using_reasoning-.md)
+- [\[ICLR 2026\] Customizing Visual Emotion Evaluation for MLLMs: An Open-vocabulary, Multifaceted, and Scalable Approach](../../ICLR2026/multimodal_vlm/customizing_visual_emotion_evaluation_for_mllms_an_open-vocabulary_multifaceted_.md)
+- [\[CVPR 2025\] Compositional Caching for Training-free Open-vocabulary Attribute Detection](../../CVPR2025/multimodal_vlm/compositional_caching_for_training-free_open-vocabulary_attribute_detection.md)
 
 </div>
 

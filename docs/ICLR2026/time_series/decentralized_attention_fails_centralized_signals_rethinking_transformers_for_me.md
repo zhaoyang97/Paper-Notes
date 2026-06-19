@@ -153,10 +153,10 @@ $$\hat{Y} = (\tilde{O}_{te} + \tilde{O}_{ch})W_y + b_y$$
 ## 相关论文
 
 - [\[ICLR 2026\] Relational Feature Caching for Accelerating Diffusion Transformers](relational_feature_caching_for_accelerating_diffusion_transformers.md)
-- [\[NeurIPS 2025\] BubbleFormer: Forecasting Boiling with Transformers](../../NeurIPS2025/time_series/bubbleformer_forecasting_boiling_with_transformers.md)
+- [\[CVPR 2026\] Probabilistic Precipitation Nowcasting with Rectified Flow Transformers](../../CVPR2026/time_series/probabilistic_precipitation_nowcasting_with_rectified_flow_transformers.md)
 - [\[ACL 2026\] Test of Time: Rethinking Temporal Signal of Benchmark Contamination](../../ACL2026/time_series/test_of_time_rethinking_temporal_signal_of_benchmark_contamination.md)
+- [\[NeurIPS 2025\] BubbleFormer: Forecasting Boiling with Transformers](../../NeurIPS2025/time_series/bubbleformer_forecasting_boiling_with_transformers.md)
 - [\[NeurIPS 2025\] Wavelet Canonical Coherence for Nonstationary Signals](../../NeurIPS2025/time_series/wavelet_canonical_coherence_for_nonstationary_signals.md)
-- [\[NeurIPS 2025\] MIRA: Medical Time Series Foundation Model for Real-World Health Data](../../NeurIPS2025/time_series/mira_medical_time_series_foundation_model_for_real-world_health_data.md)
 
 </div>
 

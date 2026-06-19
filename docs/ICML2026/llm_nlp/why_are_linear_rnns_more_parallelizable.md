@@ -82,6 +82,7 @@ tags:
 | Iterated matrix multiplication over $\mathbb{Z}$ | 无模数整数增长，更考验代数状态 | RWKV-7、DeltaNet、nonlinear RNN | Transformer 明显退化，Mamba 低于 top models | DPLR 的线性代数结构非常适合矩阵乘积 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | nonlinear RNN on graph connectivity | OOD 长度仍接近满分 | 符合 $\mathsf{L}$-complete 能力分析 |

@@ -109,6 +109,7 @@ $$\mathcal{J}=Adjudicator(q\oplus\mathcal{A}^f\oplus\mathcal{C}^f\oplus\mathcal{
 正式评测中，LegalGraphRAG 在 CAIL 和 CMDL 上相对强基线取得 6.3% 到 19.1% 的提升；相对 LegalDelta 和 ADAPT 的平均提升分别为 7.1% 和 6.7%。缓存中还报告它可与不同 backbone 结合，在 CMDL 上达到 78.7% 的峰值表现。
 
 ### 消融实验
+
 | 配置 | CAIL ACC | Δ | 说明 |
 |------|----------|---|------|
 | LegalGraphRAG (Full) | 40.9 | - | 完整层级图 + 三代理流程 |

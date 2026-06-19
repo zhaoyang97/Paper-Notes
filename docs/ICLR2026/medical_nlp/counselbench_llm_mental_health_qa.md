@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA
 description: >-
-  [ICLR 2026 Oral][医疗NLP][mental health QA] 联合100名持证心理健康专家构建CounselBench双组件基准——CounselBench-EVAL（2,000条六维度专家评估）和CounselBench-Adv（120个对抗性问题+1,080条响应标注），系统性揭示LLM在心理健康开放式问答中表面得分高但存在过度泛化、擅自医疗建议等安全隐患，同时证明LLM-as-Judge在安全关键领域严重不可靠。
+  [ICLR 2026 Oral][医疗 LLM][mental health QA] 联合100名持证心理健康专家构建CounselBench双组件基准——CounselBench-EVAL（2,000条六维度专家评估）和CounselBench-Adv（120个对抗性问题+1,080条响应标注），系统性揭示LLM在心理健康开放式问答中表面得分高但存在过度泛化、擅自医疗建议等安全隐患，同时证明LLM-as-Judge在安全关键领域严重不可靠。
 tags:
   - "ICLR 2026 Oral"
-  - "医疗NLP"
+  - "医疗 LLM"
   - "mental health QA"
   - "expert annotation"
   - "adversarial benchmark"
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026 Oral  
 **arXiv**: [2506.08584](https://arxiv.org/abs/2506.08584)  
 **代码**: [GitHub](https://github.com/llm-eval-mental-health/CounselBench)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: mental health QA, expert annotation, adversarial benchmark, LLM-as-Judge, safety evaluation
 
 ## 一句话总结
@@ -155,8 +155,8 @@ flowchart TD
 - [\[ACL 2026\] Responsible Evaluation of AI for Mental Health](../../ACL2026/medical_nlp/responsible_evaluation_of_ai_for_mental_health.md)
 - [\[ACL 2026\] MHGraphBench: Knowledge Graph-Grounded Benchmarking of Mental Health Knowledge in Large Language Models](../../ACL2026/medical_nlp/mhgraphbench_knowledge_graph-grounded_benchmarking_of_mental_health_knowledge_in.md)
 - [\[ACL 2026\] MHSafeEval: Role-Aware Interaction-Level Evaluation of Mental Health Safety in Large Language Models](../../ACL2026/medical_nlp/mhsafeeval_role-aware_interaction-level_evaluation_of_mental_health_safety_in_la.md)
+- [\[ICLR 2026\] MedAraBench: Large-scale Arabic Medical Question Answering Dataset and Benchmark](medarabench_large-scale_arabic_medical_question_answering_dataset_and_benchmark.md)
 - [\[ACL 2025\] Improving Automatic Evaluation of LLMs in Biomedical Relation Extraction via LLMs-as-the-Judge](../../ACL2025/medical_nlp/biore_llm_judge_evaluation.md)
-- [\[ACL 2026\] Measuring What Matters!! Assessing Therapeutic Principles in Mental-Health Conversation](../../ACL2026/medical_nlp/measuring_what_matters_assessing_therapeutic_principles_in_mental-health_convers.md)
 
 </div>
 

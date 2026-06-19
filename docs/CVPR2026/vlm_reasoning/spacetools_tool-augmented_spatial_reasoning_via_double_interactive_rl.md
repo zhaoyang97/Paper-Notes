@@ -2,10 +2,10 @@
 title: >-
   [论文解读] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL
 description: >-
-  [CVPR 2026][多模态VLM][工具增强推理] 本文提出 **DIRL（双交互式强化学习）**——先用"单工具专家 IRL 教师 + 前沿模型全工具教师"混合数据做 SFT 打底，再用全工具集做第二轮交互式 RL 精修——把一个 3B 的 Qwen2.5-VL 训练成会自主调度十余种视觉/机器人工具的空间推理智能体 SpaceTools，在 RoboSpatial、BLINK、BOP-ASK 等基准上全面 SOTA，并能把真实 7-DOF 机械臂当作工具完成抓取放置（86% 成功率）。
+  [CVPR 2026][VLM Reasoning][工具增强推理] 本文提出 **DIRL（双交互式强化学习）**——先用"单工具专家 IRL 教师 + 前沿模型全工具教师"混合数据做 SFT 打底，再用全工具集做第二轮交互式 RL 精修——把一个 3B 的 Qwen2.5-VL 训练成会自主调度十余种视觉/机器人工具的空间推理智能体 SpaceTools，在 RoboSpatial、BLINK、BOP-ASK 等基准上全面 SOTA，并能把真实 7-DOF 机械臂当作工具完成抓取放置（86% 成功率）。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "工具增强推理"
   - "空间推理"
   - "双交互式RL"
@@ -106,6 +106,7 @@ SpaceTools-3B 在多个空间推理基准上全面 SOTA，3B 体量超过一众�
 SpaceTools 用同样工具就超过装备相同工具的前沿模型，且首次动作耗时（TTFM）仅 10s，远快于 GPT-5(36s)/Claude(30s)——它复用已算好的抓取位姿/相机内参，而 GPT-5 会"凭空发明"这些值导致工具链断裂。
 
 ### 消融实验
+
 | 配置 | IRL-T | Univ-T | S2-IRL | RoboSpatial | RefSpatial | Pose | Mean |
 |------|:---:|:---:|:---:|------|------|------|------|
 | SpaceTools（完整） | ✓ | ✓ | ✓ | 70.00 | 53.07 | 34.37 | **52.48** |
@@ -153,10 +154,10 @@ SpaceTools 用同样工具就超过装备相同工具的前沿模型，且首次
 ## 相关论文
 
 - [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
+- [\[CVPR 2026\] IPR-1: Interactive Physical Reasoner](ipr-1_interactive_physical_reasoner.md)
 - [\[CVPR 2026\] Stable and Efficient Single-Rollout RL for Multimodal Reasoning](stable_and_efficient_single-rollout_rl_for_multimodal_reasoning.md)
-- [\[CVPR 2026\] Visual Reasoning through Tool-supervised Reinforcement Learning](visual_reasoning_through_tool-supervised_reinforcement_learning.md)
 - [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
-- [\[CVPR 2026\] Hear you are: Teaching LLMs Spatial Reasoning with Vision and Spatial Sound](hear_you_are_teaching_llms_spatial_reasoning_with_vision_and_spatial_sound.md)
+- [\[CVPR 2026\] CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization](codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim.md)
 
 </div>
 

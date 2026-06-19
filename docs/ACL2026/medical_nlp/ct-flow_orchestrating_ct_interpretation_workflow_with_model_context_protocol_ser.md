@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2603.00123](https://arxiv.org/abs/2603.00123)  
 **代码**: 暂未公开（论文承诺将放出 CT-FlowBench）  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: CT 解释、MCP、Agentic LVLM、ReAct、工具编排、CT-FlowBench
 
 ## 一句话总结

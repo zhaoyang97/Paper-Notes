@@ -142,7 +142,7 @@ MicroDiT 通过提出延迟遮蔽（deferred masking）策略——先用轻量�
 - [\[CVPR 2025\] Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?](training_data_provenance_verification_did_your_model_use_synthetic_data_from_my_.md)
 - [\[CVPR 2025\] Decoupling Training-Free Guided Diffusion by ADMM](decoupling_training-free_guided_diffusion_by_admm.md)
 - [\[CVPR 2025\] Diff2Flow: Training Flow Matching Models via Diffusion Model Alignment](diff2flow_training_flow_matching_models_via_diffusion_model_alignment.md)
-- [\[CVPR 2025\] TKG-DM: Training-Free Chroma Key Content Generation Diffusion Model](tkg-dm_training-free_chroma_key_content_generation_diffusion_model.md)
+- [\[ICML 2026\] Budget-Constrained Step-Level Diffusion Caching](../../ICML2026/image_generation/budget-constrained_step-level_diffusion_caching.md)
 
 </div>
 

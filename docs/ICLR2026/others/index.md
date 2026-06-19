@@ -1,44 +1,70 @@
 ---
 title: >-
-  ICLR2026 其他论文汇总 · 71篇论文解读
+  ICLR2026 其他论文汇总 · 86篇论文解读
 description: >-
-  71篇ICLR2026的其他方向论文解读，涵盖对抗鲁棒、域适应、对齐/RLHF、扩散模型、联邦学习、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  86篇ICLR2026的其他方向论文解读，涵盖对抗鲁棒、对齐/RLHF、域适应、扩散模型、联邦学习、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "其他"
   - "论文解读"
   - "论文笔记"
   - "对抗鲁棒"
-  - "域适应"
   - "对齐/RLHF"
+  - "域适应"
   - "扩散模型"
   - "联邦学习"
   - "少样本学习"
 item_list:
   - u: "a_federated_generalized_expectation-maximization_algorithm_for_mixture_models_wi/"
     t: "A Federated Generalized Expectation-Maximization Algorithm for Mixture Models with an Unknown Number of Components"
+  - u: "a_new_approach_to_controlling_linear_dynamical_systems/"
+    t: "A New Approach to Controlling Linear Dynamical Systems"
   - u: "a_representer_theorem_for_hawkes_processes_via_penalized_least_squares_minimizat/"
     t: "A Representer Theorem for Hawkes Processes via Penalized Least Squares Minimization"
   - u: "a_scalable_inter-edge_correlation_modeling_in_copulagnn_for_link_sign_prediction/"
     t: "A Scalable Inter-edge Correlation Modeling in CopulaGNN for Link Sign Prediction"
   - u: "a_single_architecture_for_representing_invariance_under_any_space_group/"
     t: "A Single Architecture for Representing Invariance Under Any Space Group"
+  - u: "a_statistical_theory_of_overfitting_for_imbalanced_classification/"
+    t: "A Statistical Theory of Overfitting for Imbalanced Classification"
+  - u: "a_study_on_pave_specification_for_learnware/"
+    t: "A Study on PAVE Specification for Learnware"
+  - u: "a_tale_of_two_geometries_adaptive_optimizers_and_non-euclidean_descent/"
+    t: "A Tale of Two Geometries: Adaptive Optimizers and Non-Euclidean Descent"
+  - u: "accelerated_parallel_tempering_via_neural_transports/"
+    t: "Accelerated Parallel Tempering via Neural Transports"
+  - u: "accelerating_eigenvalue_dataset_generation_via_chebyshev_subspace_filter/"
+    t: "Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter"
   - u: "active_learning_for_decision_trees_with_provable_guarantees/"
     t: "Active Learning for Decision Trees with Provable Guarantees"
+  - u: "advancing_spatiotemporal_representations_in_spiking_neural_networks_via_parametr/"
+    t: "Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation"
+  - u: "align-sam_seeking_flatter_minima_for_better_cross-subset_alignment/"
+    t: "Align-SAM: Seeking Flatter Minima for Better Cross-Subset Alignment"
   - u: "an_information-theoretic_framework_for_optimizing_experimental_design_to_disting/"
     t: "An Information-Theoretic Framework For Optimizing Experimental Design To Distinguish Probabilistic Neural Codes"
   - u: "ano_faster_is_better_in_noisy_landscape/"
     t: "ANO: Faster is Better in Noisy Landscapes"
   - u: "anyup_universal_feature_upsampling/"
     t: "AnyUp: Universal Feature Upsampling"
+  - u: "architecture-agnostic_test-time_adaptation_via_backprop-free_embedding_alignment/"
+    t: "Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment"
   - u: "articulation_in_motion_prior-free_part_mobility_analysis_for_articulated_objects/"
     t: "Articulation in Motion: Prior-Free Part Mobility Analysis for Articulated Objects"
+  - u: "assembling_the_minds_mosaic_towards_eeg_semantic_intent_decoding/"
+    t: "Assembling the Mind's Mosaic: Towards EEG Semantic Intent Decoding"
   - u: "bayesian_influence_functions_for_hessian-free_data_attribution/"
     t: "Bayesian Influence Functions for Hessian-Free Data Attribution"
+  - u: "beyond_linear_processing_dendritic_bilinear_integration_in_spiking_neural_networ/"
+    t: "Beyond Linear Processing: Dendritic Bilinear Integration in Spiking Neural Networks"
   - u: "beyond_linearity_in_attention_projections_the_case_for_nonlinear_queries/"
     t: "Beyond Linearity in Attention Projections: The Case for Nonlinear Queries"
+  - u: "beyond_the_heatmap_a_rigorous_evaluation_of_component_impact_in_mcts-based_tsp_s/"
+    t: "Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers"
   - u: "biologically_plausible_online_hebbian_meta-learning_two-timescale_local_rules_fo/"
     t: "Biologically Plausible Online Hebbian Meta-Learning: Two-Timescale Local Rules for Spiking Neural Brain Interfaces"
+  - u: "breaking_gradient_temporal_collinearity_for_robust_spiking_neural_networks/"
+    t: "Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks"
   - u: "building_spatial_world_models_from_sparse_transitional_episodic_memories/"
     t: "Building Spatial World Models from Sparse Transitional Episodic Memories"
   - u: "cadrift_a_time-dependent_causal_generator_of_drifting_data_streams/"
@@ -49,47 +75,25 @@ item_list:
     t: "CHLU: The Causal Hamiltonian Learning Unit as a Symplectic Primitive for Deep Learning"
   - u: "compositional_diffusion_long_horizon_planning/"
     t: "Compositional Diffusion with Guided Search for Long-Horizon Planning"
-  - u: "consistent_low-rank_approximation/"
-    t: "Consistent Low-Rank Approximation"
-  - u: "contractive_diffusion_policies_robust_action_diffusion_via_contractive_score-bas/"
-    t: "Contractive Diffusion Policies: Robust Action Diffusion via Contractive Score-Based Sampling with Differential Equations"
-  - u: "deterministic_bounds_and_random_estimates_of_metric_tensors_on_neuromanifolds/"
-    t: "Deterministic Bounds and Random Estimates of Metric Tensors on Neuromanifolds"
-  - u: "discount_model_search_for_quality_diversity_optimization_in_high-dimensional_mea/"
-    t: "Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces"
-  - u: "disentangling_shared_and_private_neural_dynamics_with_spire_a_latent_modeling_fr/"
-    t: "Disentangling Shared and Private Neural Dynamics with SPIRE: A Latent Modeling Framework for Deep Brain Stimulation"
-  - u: "distributed_algorithms_for_euclidean_clustering/"
-    t: "Distributed Algorithms for Euclidean Clustering"
-  - u: "distributionally_robust_classification_for_multi-source_unsupervised_domain_adap/"
-    t: "Distributionally Robust Classification for Multi-Source Unsupervised Domain Adaptation"
-  - u: "distributions_as_actions_a_unified_framework_for_diverse_action_spaces/"
-    t: "DA-AC: Distributions as Actions — A Unified RL Framework for Diverse Action Spaces"
-  - u: "do_we_really_need_permutations_impact_of_model_width_on_linear_mode_connectivity/"
-    t: "Do We Really Need Permutations? Impact of Model Width on Linear Mode Connectivity"
-  - u: "enhancing_generative_auto_bidding/"
-    t: "Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search"
-  - u: "evaluating_gflownet_from_partial_episodes_for_stable_and_flexible_policy-based_t/"
-    t: "Evaluating GFlowNet from Partial Episodes for Stable and Flexible Policy-Based Training"
-  - u: "exchangeability_gnn_representations/"
-    t: "Exchangeability of GNN Representations with Applications to Graph Retrieval"
-  - u: "fast_and_stable_riemannian_metrics_on_spd_manifolds_via_cholesky_product_geometr/"
-    t: "Fast and Stable Riemannian Metrics on SPD Manifolds via Cholesky Product Geometry"
-item_total: 71
+item_total: 86
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🔬 ICLR2026** · **71** 篇论文解读
+**🔬 ICLR2026** · **86** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (115)](../../CVPR2026/others/index.md) · [🧪 ICML2026 (63)](../../ICML2026/others/index.md) · [💬 ACL2026 (3)](../../ACL2026/others/index.md) · [🤖 AAAI2026 (117)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (121)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (33)](../../ICCV2025/others/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (105)](../../CVPR2026/others/index.md) · [🧪 ICML2026 (70)](../../ICML2026/others/index.md) · [💬 ACL2026 (3)](../../ACL2026/others/index.md) · [🤖 AAAI2026 (117)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (121)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (33)](../../ICCV2025/others/index.md)
 
-🔥 **高频主题：** 对抗鲁棒 ×6 · 域适应 ×4 · 对齐/RLHF ×4 · 扩散模型 ×3 · 联邦学习 ×2
+🔥 **高频主题：** 对抗鲁棒 ×7 · 对齐/RLHF ×6 · 域适应 ×4 · 扩散模型 ×3 · 联邦学习 ×2
 
 **[A Federated Generalized Expectation-Maximization Algorithm for Mixture Models with an Unknown Number of Components](a_federated_generalized_expectation-maximization_algorithm_for_mixture_models_wi.md)**
 
 :   提出 FedGEM 算法，通过客户端本地 EM 步后构建不确定性集、服务器利用不确定性集交集检测聚类重叠并推断全局聚类数，首次实现在全局聚类数未知情况下的联邦聚类，并提供了概率收敛保证。
+
+**[A New Approach to Controlling Linear Dynamical Systems](a_new_approach_to_controlling_linear_dynamical_systems.md)**
+
+:   本文提出 Online Spectral Control（OSC）：把对抗扰动下的线性动力系统控制问题，用一组与具体系统无关的「谱滤波器」（某个 Hankel 矩阵的特征向量）做凸松弛，从而在保持 $\tilde O(\gamma^{-4}\sqrt T)$ 最优遗憾的同时，把每步运行时间对稳定裕度 $\gamma$ 的依赖从多项式 $O(\gamma^{-1})$ 降到对数级 $O(\mathrm{polylog}(1/\gamma))$。
 
 **[A Representer Theorem for Hawkes Processes via Penalized Least Squares Minimization](a_representer_theorem_for_hawkes_processes_via_penalized_least_squares_minimizat.md)**
 
@@ -103,9 +107,37 @@ item_total: 71
 
 :   设计了一种可自适应任意空间群不变性的单一架构 (Crystal Fourier Transformer)，通过解析推导群操作对傅里叶系数的约束来构造对称适配的傅里叶基，用约束的对偶图表示实现了跨 230 个空间群的参数共享和零样本泛化。
 
+**[A Statistical Theory of Overfitting for Imbalanced Classification](a_statistical_theory_of_overfitting_for_imbalanced_classification.md)**
+
+:   本文为高维不平衡线性分类建立统计理论：在两类高斯混合模型下，测试集 logit 服从 $N(0,1)$，但训练集 logit 收敛到 $\max\{\kappa, N(0,1)\}$（截断高斯），并用一个变分问题刻画这种"截断"如何随维度发生，进而严格解释了为什么少数类受过拟合伤害更重、为什么 margin rebalancing 有效、以及过拟合如何连带恶化置信度校准。
+
+**[A Study on PAVE Specification for Learnware](a_study_on_pave_specification_for_learnware.md)**
+
+:   针对"学件 = 模型 + 规约"范式中如何在不接触训练数据的前提下从海量模型里挑出对用户任务有用的模型，本文系统研究了参数向量规约（PAVE）——用微调引起的参数变化同时编码模型能力与任务需求，证明它与经典 RKME 规约在 NTK 视角下同源，并用 LoRA 式低秩近似把存储/计算压到原模型参数的 1% 以下，识别出的学件在小样本场景甚至能超过用户自己微调的预训练模型。
+
+**[A Tale of Two Geometries: Adaptive Optimizers and Non-Euclidean Descent](a_tale_of_two_geometries_adaptive_optimizers_and_non-euclidean_descent.md)**
+
+:   这篇论文用"两种几何 / 两种平滑度"统一刻画了 Adam/Shampoo 这类自适应优化器与 SignGD/Muon 这类归一化最速下降（NSD）的关系：两者都在利用损失函数的非欧几何，但自适应优化器依赖一个更强的「自适应平滑度」$\Lambda_{\mathcal H}(f)$，而 NSD 依赖标准平滑度 $L_{\|\cdot\|_{\mathcal H}}(f)$；论文把自适应平滑度的分析从凸推广到非凸，并证明这个更强的假设确实能换来"标准平滑度下拿不到"的好处——Nesterov 加速率 $\tilde O(T^{-2})$ 与维度无关的随机收敛率。
+
+**[Accelerated Parallel Tempering via Neural Transports](accelerated_parallel_tempering_via_neural_transports.md)**
+
+:   把并行回火（Parallel Tempering, PT）里那个"直接对换两条链当前状态"的死板交换动作，换成"先用神经传输（归一化流 / 受控扩散 / 扩散模型）把两个状态各自往中间推几步、再做 Metropolis 接受判定"，从而在相邻退火分布几乎不重叠时也能高概率交换，在保持 MCMC 渐近无偏的前提下大幅提升参考分布到目标分布的往返次数（round trip），并顺带得到低方差的自由能估计。
+
+**[Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter](accelerating_eigenvalue_dataset_generation_via_chebyshev_subspace_filter.md)**
+
+:   针对"训练神经算子需要海量算子-特征值标注数据、而这些数据要靠昂贵的数值求解器逐个算出来"这一瓶颈，本文提出 SCSF（Sorting Chebyshev Subspace Filter）：先用截断 FFT 把谱分布相近的算子排到相邻位置，再用 Chebyshev 滤波子空间迭代把"上一题"的特征对当作"下一题"的热启动，从而把整个数据集的特征值求解从"各算各的"变成"接力求解"，相比主流求解器最高提速 3.5×。
+
 **[Active Learning for Decision Trees with Provable Guarantees](active_learning_for_decision_trees_with_provable_guarantees.md)**
 
 :   为决策树主动学习提供首个理论保证：(1) 首次分析决策树的不一致系数（disagreement coefficient）并给出 $O(\ln^{OPT}(n))$ 上界；(2) 提出首个达到乘法误差 $(1+\epsilon)$ 保证的二分类主动学习算法；结合两者实现数据集大小的多对数标签复杂度。
+
+**[Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation](advancing_spatiotemporal_representations_in_spiking_neural_networks_via_parametr.md)**
+
+:   针对脉冲神经网络（SNN）二值脉冲表示能力受限、替代梯度失配两大顽疾，本文提出参数化可逆变换 PIT——在神经元发放（firing）前后以共轭方式各做一次可逆线性变换，发放前把膜电位分布"重排"成易量化的形态、发放后把整数脉冲"增广"成跨时空的实值输出，同时配一个把输入推离量化决策边界的修正替代梯度，并用线性代数刻画了 SNN 时空表示容量；在 CIFAR、ImageNet、DVS 等数据集上多种架构均刷新 SOTA（如 SEW ResNet34 涨 5.62%）。
+
+**[Align-SAM: Seeking Flatter Minima for Better Cross-Subset Alignment](align-sam_seeking_flatter_minima_for_better_cross-subset_alignment.md)**
+
+:   Align-SAM 把"泛化"重新理解为"同分布两个随机子集上的更新要彼此一致"，在 SAM 寻找平坦极小值的基础上，额外引入一个辅助 mini-batch，让主训练 batch 的梯度与辅助 batch 的梯度变得更"同向"（congruent），从而在分类、噪声标签、小样本迁移、元学习等多种设定下稳定地小幅超过 SAM/ASAM。
 
 **[An Information-Theoretic Framework For Optimizing Experimental Design To Distinguish Probabilistic Neural Codes](an_information-theoretic_framework_for_optimizing_experimental_design_to_disting.md)**
 
@@ -119,21 +151,41 @@ item_total: 71
 
 :   AnyUp 提出首个**编码器无关**的可学习特征上采样方法，通过 feature-agnostic 卷积层和窗口注意力机制，仅训练一次即可对任意视觉特征在任意分辨率间进行高质量上采样，在语义分割、深度估计等任务上达到 SOTA。
 
+**[Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment](architecture-agnostic_test-time_adaptation_via_backprop-free_embedding_alignment.md)**
+
+:   PEA 把"域偏移"拆解成嵌入空间里的平移（均值漂移）、缩放（方差漂移）、旋转（协方差漂移）三种几何畸变，然后用一套**无反向传播、与架构无关**的逐层协方差对齐流程，仅靠每个 batch 两次前向就把偏移的中间特征拉回源域分布，在 ImageNet-C / CIFAR-C 上达到 SOTA 精度的同时，内存只占 ~900MB、能直接跑在 Jetson Orin Nano 边缘设备上。
+
 **[Articulation in Motion: Prior-Free Part Mobility Analysis for Articulated Objects](articulation_in_motion_prior-free_part_mobility_analysis_for_articulated_objects.md)**
 
 :   提出AiM（Articulation in Motion）框架，从交互视频和初始状态扫描中无需部件数量先验地重建铰接物体——通过双高斯表征（静态GS + 可变形GS）实现动静解耦，结合顺序RANSAC进行无先验部件分割和关节估计，辅以SDMD模块处理新暴露的静态区域，在复杂6部件物体（Storage）上以79.34% mean IoU大幅超越需先验的ArtGS（52.23%）。
+
+**[Assembling the Mind's Mosaic: Towards EEG Semantic Intent Decoding](assembling_the_minds_mosaic_towards_eeg_semantic_intent_decoding.md)**
+
+:   本文提出语义意图解码框架 SID，把"脑信号→语言"重新定义为先把 EEG/SEEG 解码成一组无序的语义单元、再在连续语义空间里检索、最后用 LLM 重建成句子，并给出具体实现 BrainMosaic，在多语种 EEG 与临床 SEEG 数据上的概念级与句子级指标都大幅超过分类式和端到端生成式基线。
 
 **[Bayesian Influence Functions for Hessian-Free Data Attribution](bayesian_influence_functions_for_hessian-free_data_attribution.md)**
 
 :   提出 Local Bayesian Influence Function (BIF)，用 SGLD 采样估计的协方差替代经典影响函数中不可行的 Hessian 逆运算，实现了对数十亿参数模型的无架构限制数据归因，在重训练实验中达到 SOTA。
 
+**[Beyond Linear Processing: Dendritic Bilinear Integration in Spiking Neural Networks](beyond_linear_processing_dendritic_bilinear_integration_in_spiking_neural_networ.md)**
+
+:   这篇论文给脉冲神经网络里最常用的 LIF 神经元加了一项符合生物实验的"双线性树突整合"——除了把突触输入线性相加，还额外算上两两输入之间的交互项 $s^T K s$，让单个神经元就能完成 XOR 这类非线性计算；理论上证明它能利用输入的相关性结构、并在层间传播这种结构，实验上在 ResNet/VGG/Transformer 三类架构、静态与神经形态数据集上都稳定超过 LIF 及一众改进神经元，平均精度从 83.95% 提到 85.18%，能耗只多约 3%。
+
 **[Beyond Linearity in Attention Projections: The Case for Nonlinear Queries](beyond_linearity_in_attention_projections_the_case_for_nonlinear_queries.md)**
 
 :   基于 $W_Q$ 代数冗余性的理论发现，将线性 Query 投影替换为非线性残差形式 $Q(X)=(X+f_\theta(X))/2$，在不增加参数的情况下超越 +12.5% 参数的基线模型。
 
+**[Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers](beyond_the_heatmap_a_rigorous_evaluation_of_component_impact_in_mcts-based_tsp_s.md)**
+
+:   这是一篇"打假"性质的评估论文：作者系统拆解"Heatmap + MCTS"求解 TSP 这条主流范式，用大量实验证明大家拼命卷的"热力图复杂度"其实没那么关键——被长期忽视的 MCTS 搜索超参才是性能主导因素，一个零学习、零参数的 k-近邻先验热力图（GT-Prior）配上调好的 MCTS 就能追平甚至超过 DIFUSCO 这类复杂学习模型。
+
 **[Biologically Plausible Online Hebbian Meta-Learning: Two-Timescale Local Rules for Spiking Neural Brain Interfaces](biologically_plausible_online_hebbian_meta-learning_two-timescale_local_rules_fo.md)**
 
 :   提出一种无需BPTT的在线SNN解码器，通过三因子Hebbian局部学习规则结合双时间尺度eligibility trace和自适应学习率控制，在O(1)内存下实现可比离线训练方法的BCI神经解码精度（Pearson R≥0.63/0.81），并在闭环仿真中展现了对神经信号非平稳性的持续适应能力。
+
+**[Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks](breaking_gradient_temporal_collinearity_for_robust_spiking_neural_networks.md)**
+
+:   针对直接编码（direct encoding）脉冲神经网络（SNN）鲁棒性差的问题，本文提出"梯度时间共线性"（GTC）这一可量化指标解释了它为什么不如速率编码（rate encoding）耐攻击，并设计 STOD——在输入层为每个时间步插入参数化正交核 + 全局正交正则，从结构上打散跨时间步的梯度方向，使 CIFAR/ImageNet/DVS 上 FGSM、PGD 等攻击下的精度大幅领先现有 SOTA，且推理几乎零额外开销。
 
 **[Building Spatial World Models from Sparse Transitional Episodic Memories](building_spatial_world_models_from_sparse_transitional_episodic_memories.md)**
 
@@ -190,6 +242,10 @@ item_total: 71
 **[Do We Really Need Permutations? Impact of Model Width on Linear Mode Connectivity](do_we_really_need_permutations_impact_of_model_width_on_linear_mode_connectivity.md)**
 
 :   实证表明无需参数置换，仅靠增加模型宽度即可实现独立训练模型间的线性模式连通性（LMC），并提出"逐层指数加权连通性"（LEWC）解释这一现象的机理。
+
+**[Dynamical properties of dense associative memory](dynamical_properties_of_dense_associative_memory.md)**
+
+:   本文第一次用生成泛函分析（GFA）给出稠密联想记忆（现代 Hopfield 网络）在大系统极限下**动力学**的渐近精确解，定量刻画了召回过程的收敛时间与吸引域大小，并揭示出当激活非线性阶数 $n\ge 3$ 时召回不再给自己引入额外噪声——这正是现代 Hopfield 网络比经典模型更鲁棒的根源。
 
 **[Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search](enhancing_generative_auto_bidding.md)**
 
@@ -322,6 +378,10 @@ item_total: 71
 **[Probabilistic Kernel Function for Fast Angle Testing](probabilistic_kernel_function_for_fast_angle_testing.md)**
 
 :   本文研究高维欧氏空间中的角度测试问题，提出两个基于参考角度的确定性概率核函数 $K_S^1$ 和 $K_S^2$，分别用于角度比较和角度阈值判断，无需高斯分布的渐近假设即可获得理论保证，并将其应用于近似最近邻搜索（ANNS），在 HNSW 图上实现 2.5×–3× 的 QPS 加速。
+
+**[Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models](quadratic_direct_forecast_for_training_multi-step_time-series_forecast_models.md)**
+
+:   针对多步时序预测里 MSE 把每个未来步当成独立、等权任务的缺陷，本文从最大似然推出一个由条件协方差逆矩阵加权的「二次型学习目标」，并用一套双层优化（QDF）把这个加权矩阵当作可学习参数、面向泛化在留出集上学出来，作为即插即用的损失替换 MSE，在 8 个数据集、多种预测模型上稳定刷到 SOTA。
 
 **[Refine Now, Query Fast: A Decoupled Refinement Paradigm for Implicit Neural Fields](refine_now_query_fast_a_decoupled_refinement_paradigm_for_implicit_neural_fields.md)**
 

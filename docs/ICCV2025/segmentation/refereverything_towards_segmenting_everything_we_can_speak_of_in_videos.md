@@ -139,7 +139,7 @@ REM 在域外泛化上大幅领先，尤其在 Ref-VPS 上超越 UNINEXT 达 21.
 - [\[ICCV 2025\] Learning Precise Affordances from Egocentric Videos for Robotic Manipulation](learning_precise_affordances_from_egocentric_videos_for_robotic_manipulation.md)
 - [\[ICCV 2025\] 2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos](2handedafforder_learning_precise_actionable_bimanual_affordances_from_human_vide.md)
 - [\[ICCV 2025\] Can Generative Geospatial Diffusion Models Excel as Discriminative Geospatial Foundation Models?](can_generative_geospatial_diffusion_models_excel_as_discriminative_geospatial_fo.md)
-- [\[NeurIPS 2025\] ConnectomeBench: Can LLMs Proofread the Connectome?](../../NeurIPS2025/segmentation/connectomebench_can_llms_proofread_the_connectome.md)
+- [\[CVPR 2025\] Segment Any Motion in Videos](../../CVPR2025/segmentation/segment_any_motion_in_videos.md)
 
 </div>
 

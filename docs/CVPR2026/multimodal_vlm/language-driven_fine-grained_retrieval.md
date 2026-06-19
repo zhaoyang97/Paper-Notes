@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Language-driven Fine-grained Retrieval
 description: >-
-  [CVPR 2026][信息检索/RAG][细粒度图像检索] LaFG 把细粒度图像检索（FGIR）的监督信号从语义稀疏的 one-hot 类名换成「属性级语言原型」——用 LLM 把类名展开成属性描述、用冻结 VLM 编码并聚类成数据集级属性词表、再为每类选 Top-K 属性聚合成原型来监督检索模型，从而建立跨类别细节的可比性，在 CUB / Cars / SOP 上刷 SOTA 并显著提升对未见类的泛化。
+  [CVPR 2026][多模态VLM][细粒度图像检索] LaFG 把细粒度图像检索（FGIR）的监督信号从语义稀疏的 one-hot 类名换成「属性级语言原型」——用 LLM 把类名展开成属性描述、用冻结 VLM 编码并聚类成数据集级属性词表、再为每类选 Top-K 属性聚合成原型来监督检索模型，从而建立跨类别细节的可比性，在 CUB / Cars / SOP 上刷 SOTA 并显著提升对未见类的泛化。
 tags:
   - "CVPR 2026"
-  - "信息检索/RAG"
+  - "多模态VLM"
   - "细粒度图像检索"
   - "语言驱动监督"
   - "属性词表"
@@ -148,11 +148,11 @@ LLM+VLM 协同消融（CUB，R@1）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] Beyond Global Similarity: Towards Fine-Grained, Multi-Condition Multimodal Retrieval](beyond_global_similarity_towards_fine-grained_multi-condition_multimodal_retriev.md)
 - [\[CVPR 2026\] POGA: Paraphrased and Oppositional Graph Alignment for Fine-Grained Cross-Modal Retrieval](poga_paraphrased_and_oppositional_graph_alignment_for_fine-grained_cross-modal_r.md)
 - [\[ACL 2025\] Atomic LLM: A Fine-Grained Information Retrieval Evaluation Benchmark for Language Models](../../ACL2025/information_retrieval/atomic_llm_a_fine-grained_information_retrieval_evaluation_benchmark_for_languag.md)
 - [\[ACL 2026\] GIFT: Guided Fine-Tuning and Transfer for Enhancing Instruction-Tuned Language Models](../../ACL2026/information_retrieval/gift_guided_fine-tuning_and_transfer_for_enhancing_instruction-tuned_language_mo.md)
 - [\[ICML 2026\] Less Is More: Elevating RAG via Performance-Driven Context Compression](../../ICML2026/information_retrieval/less_is_more_elevating_rag_via_performance-driven_context_compression.md)
+- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/information_retrieval/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
 
 </div>
 

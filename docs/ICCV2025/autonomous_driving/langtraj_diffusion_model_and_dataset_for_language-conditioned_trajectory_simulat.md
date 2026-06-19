@@ -159,8 +159,8 @@ LangTraj 包含三大组件：Scene Encoder、Language Encoder、Denoiser，以�
 - [\[ICCV 2025\] Epona: Autoregressive Diffusion World Model for Autonomous Driving](epona_autoregressive_diffusion_world_model_for_autonomous_driving.md)
 - [\[ICCV 2025\] Generative Active Learning for Long-tail Trajectory Prediction via Controllable Diffusion Model](generative_active_learning_for_long-tail_trajectory_prediction_via_controllable_.md)
 - [\[ICCV 2025\] DONUT: A Decoder-Only Model for Trajectory Prediction](donut_a_decoder-only_model_for_trajectory_prediction.md)
-- [\[CVPR 2026\] A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation](../../CVPR2026/autonomous_driving/a_self-conditioned_representation_guided_diffusion_model_for_realistic_text-to-l.md)
 - [\[CVPR 2026\] SparseWorld-TC: Trajectory-Conditioned Sparse Occupancy World Model](../../CVPR2026/autonomous_driving/sparseworld_tc_trajectory_conditioned_sparse_occupancy_world_model.md)
+- [\[ICCV 2025\] LightsOut: Diffusion-based Outpainting for Enhanced Lens Flare Removal](lightsout_diffusion-based_outpainting_for_enhanced_lens_flare_removal.md)
 
 </div>
 

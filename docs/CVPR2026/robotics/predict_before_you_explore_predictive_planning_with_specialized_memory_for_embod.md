@@ -94,6 +94,7 @@ $$T_t = \{(\tau_i, \sigma_i, \alpha_i)\}_{i=1}^{M},$$
 亮点：用小号开源 VLM（Qwen2.5-VL 7B）就能超过一众用 GPT-4o 的闭源 agent，说明增益来自**预测式架构**而非模型规模。$d_T$（平均测地距离）不是最小，作者解释是 Pred-EQA 收集到足够证据就停止，而非像检测类方法那样物理走到目标物体跟前。
 
 ### 消融实验
+
 | 配置 (Qwen3-VL 8B) | LLM-Match ↑ | LLM-SPL ↑ | 说明 |
 |------|---------|---------|------|
 | Baseline（多智能体反应式） | 45.7 | 39.5 | 既无预测规划也无专用记忆 |
@@ -140,10 +141,10 @@ $$T_t = \{(\tau_i, \sigma_i, \alpha_i)\}_{i=1}^{M},$$
 ## 相关论文
 
 - [\[CVPR 2026\] Extending Embodied Question Answering from Perception to Decision](extending_embodied_question_answering_from_perception_to_decision.md)
-- [\[CVPR 2026\] Learning Predictive Visuomotor Coordination](learning_predictive_visuomotor_coordination.md)
+- [\[CVPR 2026\] When Robots Should Say "I Don't Know": Benchmarking Abstention in Embodied Question Answering](when_robots_should_say_i_dont_know_benchmarking_abstention_in_embodied_question_.md)
+- [\[CVPR 2026\] AstraNav-Memory: Contexts Compression for Long Memory](astranav-memory_contexts_compression_for_long_memory.md)
 - [\[CVPR 2026\] RoboAgent: Chaining Basic Capabilities for Embodied Task Planning](roboagent_chaining_basic_capabilities_for_embodied_task_planning.md)
-- [\[CVPR 2026\] Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control](do_you_have_freestyle_expressive_humanoid_locomotion_via_audio_control.md)
-- [\[CVPR 2026\] D3D-VLP: Dynamic 3D Vision-Language-Planning Model for Embodied Grounding and Navigation](d3d-vlp_dynamic_3d_vision-language-planning_model_for_embodied_grounding_and_nav.md)
+- [\[CVPR 2026\] NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction](navforesee_a_unified_vision-language_world_model_for_hierarchical_planning_and_d.md)
 
 </div>
 

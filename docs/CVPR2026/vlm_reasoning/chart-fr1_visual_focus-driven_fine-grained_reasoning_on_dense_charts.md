@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts
 description: >-
-  [CVPR 2026][多模态VLM][图表推理] 针对子图密集、图例标注繁多的「高信息密度图表」，Chart-FR1 用 `<focus>` 标签把推理步骤显式锚定到 OCR 文本和局部框区域（Focus-CoT），再用带「信息效率奖励 + 自适应 KL 惩罚」的 Focus-GRPO 做强化学习，把 Qwen2.5-VL-7B 在五个图表 benchmark 上平均拉高 6.1%，并反超 GPT-4o。
+  [CVPR 2026][VLM Reasoning][图表推理] 针对子图密集、图例标注繁多的「高信息密度图表」，Chart-FR1 用 `<focus>` 标签把推理步骤显式锚定到 OCR 文本和局部框区域（Focus-CoT），再用带「信息效率奖励 + 自适应 KL 惩罚」的 Focus-GRPO 做强化学习，把 Qwen2.5-VL-7B 在五个图表 benchmark 上平均拉高 6.1%，并反超 GPT-4o。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "图表推理"
   - "视觉聚焦"
   - "强化学习"
@@ -149,11 +149,11 @@ Focus-GRPO 组件消融（在五 benchmark 的 Avg 上，Table 5）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] SketchVL: Policy Optimization via Fine-Grained Credit Assignment for Chart Understanding and More](sketchvl_policy_optimization_via_fine-grained_credit_assignment_for_chart_unders.md)
-- [\[CVPR 2026\] CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception](cropvlm_learning_to_zoom_for_fine_grained_vision_language_perception.md)
 - [\[CVPR 2026\] ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps](reasonmap_towards_fine-grained_visual_reasoning_from_transit_maps.md)
-- [\[CVPR 2026\] OddGridBench: Exposing the Lack of Fine-Grained Visual Discrepancy Sensitivity in Multimodal Large Language Models](oddgridbench_exposing_the_lack_of_fine-grained_visual_discrepancy_sensitivity_in.md)
-- [\[CVPR 2026\] Hugging Visual Prompt and Segmentation Tokens: Consistency Learning for Fine-Grained Visual Understanding in MLLMs](hugging_visual_prompt_and_segmentation_tokens_consistency_learning_for_fine-grai.md)
+- [\[CVPR 2026\] Thinking Beyond Labels: Vocabulary-Free Fine-Grained Recognition using Reasoning-Augmented LMMs](thinking_beyond_labels_vocabulary-free_fine-grained_recognition_using_reasoning-.md)
+- [\[CVPR 2026\] HandVQA: Diagnosing and Improving Fine-Grained Spatial Reasoning about Hands in Vision-Language Models](handvqa_diagnosing_and_improving_fine-grained_spatial_reasoning_about_hands_in_v.md)
+- [\[CVPR 2026\] Dr. Seg: Revisiting GRPO Training for Visual Large Language Models through Perception-Oriented Design](dr_seg_revisiting_grpo_training_for_visual_large_language_models_through_percept.md)
+- [\[CVPR 2026\] ChartR: Evaluating Reasoning Accuracy and Robustness in Chart Question Answering](chartr_evaluating_reasoning_accuracy_and_robustness_in_chart_question_answering.md)
 
 </div>
 

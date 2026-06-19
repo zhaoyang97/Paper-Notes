@@ -126,7 +126,7 @@ flowchart TD
 - [\[ECCV 2024\] EAFormer: Scene Text Segmentation with Edge-Aware Transformers](../../ECCV2024/segmentation/eaformer_scene_text_segmentation_with_edge-aware_transformers.md)
 - [\[CVPR 2025\] A Distractor-Aware Memory for Visual Object Tracking with SAM2](../../CVPR2025/segmentation/a_distractor-aware_memory_for_visual_object_tracking_with_sam2.md)
 - [\[CVPR 2026\] Structure-Aware Representation Distillation for Tiny-Dense Object Segmentation](../../CVPR2026/segmentation/structure-aware_representation_distillation_for_tiny-dense_object_segmentation.md)
-- [\[CVPR 2026\] SAM2Text: Towards Prompt-Free and Multi-Resolution Video Scene Text Segmentation](../../CVPR2026/segmentation/sam2text_towards_prompt-free_and_multi-resolution_video_scene_text_segmentation.md)
+- [\[CVPR 2025\] Towards Generalizable Scene Change Detection](../../CVPR2025/segmentation/towards_generalizable_scene_change_detection.md)
 
 </div>
 

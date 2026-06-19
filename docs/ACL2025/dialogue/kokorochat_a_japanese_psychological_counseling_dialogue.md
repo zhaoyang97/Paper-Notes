@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.01357](https://arxiv.org/abs/2506.01357)  
 **代码**: [https://github.com/UEC-InabaLab/KokoroChat](https://github.com/UEC-InabaLab/KokoroChat)  
-**领域**: 对话系统
+**领域**: 对话系统  
 **关键词**: 心理咨询对话, 数据集构建, 角色扮演, 对话评估, 日语NLP
 
 ## 一句话总结

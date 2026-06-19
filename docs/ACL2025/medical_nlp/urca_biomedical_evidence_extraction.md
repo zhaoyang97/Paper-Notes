@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.06186](https://arxiv.org/abs/2505.06186)  
 **代码**: 待公开  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: evidence extraction, systematic review, RAG, biomedical NLP, forest plot  
 
 ## 一句话总结

@@ -87,6 +87,7 @@ MS-COCO 上 6 个 latent-space 近真实逆问题（inpainting / SR 4× / 各向
 | Nonlinear Deblur | PSNR↑ / LPIPS↓ / FID↓ | **24.27** / **0.3942** / 119.43 | 24.29 / – / – | LDIR 23.13 / Latent-DCDP 0.4225 / Latent-DCDP 140.32 |
 
 ### 消融 / D-P 曲线分析
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | $t_0=0$（纯 MAP） | PSNR 最高、LPIPS/FID 较差 | D-P 曲线低失真端，对应理论上 $W_2$ 上界中 $(\bar\alpha_{t_0})^{1-L_s}$ 项最大 |

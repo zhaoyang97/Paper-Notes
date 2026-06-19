@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 多模态VLM论文汇总 · 79篇论文解读
+  ACL2026 多模态VLM论文汇总 · 82篇论文解读
 description: >-
-  79篇ACL2026的多模态 VLM 方向论文解读，涵盖多模态、LLM、布局/合成、对齐/RLHF、模型压缩、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  82篇ACL2026的多模态 VLM 方向论文解读，涵盖多模态、LLM、布局/合成、对齐/RLHF、模型压缩、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2026"
   - "多模态 VLM"
@@ -39,6 +39,8 @@ item_list:
     t: "CArtBench: Evaluating Vision-Language Models on Chinese Art Understanding, Interpretation, and Authenticity"
   - u: "chartdiff_a_large-scale_benchmark_for_comprehending_pairs_of_charts/"
     t: "ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts"
+  - u: "chartide_data-centric_chart-to-code_generation_via_tri-perspective_tuning_and_in/"
+    t: "CharTide: Data-Centric Chart-to-Code Generation via Tri-Perspective Tuning and Inquiry-Driven Evolution"
   - u: "cnsl-bench_benchmarking_the_sign_language_understanding_capabilities_of_mllms_on/"
     t: "CNSL-bench: Benchmarking the Sign Language Understanding Capabilities of MLLMs on Chinese National Sign Language"
   - u: "co-evo_co-evolving_semantic_anchoring_and_style_diversification_for_federated_dg/"
@@ -51,6 +53,8 @@ item_list:
     t: "CRAFT: Critic-Refined Adaptive Key-Frame Targeting for Multimodal Video Question Answering"
   - u: "cross-cultural_expert-level_art_critique_evaluation_with_vision-language_models/"
     t: "Cross-Cultural Expert-Level Art Critique Evaluation with Vision-Language Models"
+  - u: "cross-modal_masked_compositional_concept_modeling_for_enhancing_visio-linguistic/"
+    t: "Cross-Modal Masked Compositional Concept Modeling for Enhancing Visio-Linguistic Compositionality"
   - u: "cross-modal_taxonomic_generalization_in_vision-_language_models/"
     t: "Cross-Modal Taxonomic Generalization in (Vision-) Language Models"
   - u: "dmn_a_compositional_framework_for_jailbreaking_multimodal_llms_with_multi-image_/"
@@ -71,21 +75,17 @@ item_list:
     t: "EDU-CIRCUIT-HW: Evaluating Multimodal Large Language Models on Real-World University-Level STEM Student Handwritten Solutions"
   - u: "efficient_inference_for_large_vision-language_models_bottlenecks_techniques_and_/"
     t: "Efficient Inference for Large Vision-Language Models: Bottlenecks, Techniques, and Prospects"
-  - u: "enhancing_multimodal_large_language_models_for_ancient_chinese_character_evoluti/"
-    t: "Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning"
-  - u: "from_charts_to_code_a_hierarchical_benchmark_for_multimodal_models/"
-    t: "From Charts to Code: A Hierarchical Benchmark for Multimodal Models"
-item_total: 79
+item_total: 82
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**💬 ACL2026** · **79** 篇论文解读
+**💬 ACL2026** · **82** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (404)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (76)](../../ICML2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (61)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (119)](../../ICCV2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (418)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (89)](../../ICML2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (71)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (119)](../../ICCV2025/multimodal_vlm/index.md)
 
-🔥 **高频主题：** 多模态 ×40 · LLM ×8 · 布局/合成 ×3 · 对齐/RLHF ×3 · 模型压缩 ×3
+🔥 **高频主题：** 多模态 ×41 · LLM ×8 · 布局/合成 ×4 · 对齐/RLHF ×3 · 模型压缩 ×3
 
 **[A Survey on MLLM-based Visually Rich Document Understanding: Methods, Challenges, and Emerging Trends](a_survey_on_mllm-based_visually_rich_document_understanding_methods_challenges_a.md)**
 
@@ -135,6 +135,10 @@ item_total: 79
 
 :   作者构建了第一个面向"两图对比摘要"的大规模 benchmark ChartDiff（8,541 对图表，覆盖 6 种图类型、3 个绘图库、约 60 种视觉风格、LLM 生成 + 人工核验的对比摘要），系统评测了 14 个 VLM/pipeline，发现前沿闭源大模型在 GPT Score 上领先但 ROUGE 低，专业图表模型/pipeline 反之，揭示了 ROUGE 与人感知质量的严重失配；同时多系列图始终是所有模型最难的死角。
 
+**[CharTide: Data-Centric Chart-to-Code Generation via Tri-Perspective Tuning and Inquiry-Driven Evolution](chartide_data-centric_chart-to-code_generation_via_tri-perspective_tuning_and_in.md)**
+
+:   CharTide 把"图表→绘图代码"的瓶颈归因到**数据本身**：用三视角解耦的 SFT（视觉感知 / 纯文本代码逻辑 / 模态融合三路正交数据流）打破同质数据的扩展墙，再用一个冻结 Inspector 通过原子 QA 客观核验生成图表来给可验证奖励做 RL，让 7B/8B 开源模型超过 GPT-4o、逼近 GPT-5。
+
 **[CNSL-bench: Benchmarking the Sign Language Understanding Capabilities of MLLMs on Chinese National Sign Language](cnsl-bench_benchmarking_the_sign_language_understanding_capabilities_of_mllms_on.md)**
 
 :   CNSL-bench 是首个基于《国家通用手语词典》的权威中国手语 MLLM 评测基准，覆盖 6,707 个唯一手语词条 × 文本/图片/视频三模态 × 三种手部 articulation（空写/指拼/手指字母）共 20,121 道四选一题，在 21 个 SOTA MLLM 上揭示：GPT-5 文本 89.6%、图片 67.0%、视频 56.7%，相对人类 97% 仍有巨大 gap，且 CoT 推理对视频帮助微弱。
@@ -158,6 +162,10 @@ item_total: 79
 **[Cross-Cultural Expert-Level Art Critique Evaluation with Vision-Language Models](cross-cultural_expert-level_art_critique_evaluation_with_vision-language_models.md)**
 
 :   论文提出 Vulca-Bench 三层评测框架（自动指标 + 单评审打分 + 人类 sigmoid 校准），覆盖 6 大艺术传统、165 个文化维度与 L1–L5 五层"视觉描述→文化诠释"层级，在 15 个 VLM 上首次量化揭示了"模型在深层文化诠释上掉点显著、且系统性偏好西方艺术"的现象。
+
+**[Cross-Modal Masked Compositional Concept Modeling for Enhancing Visio-Linguistic Compositionality](cross-modal_masked_compositional_concept_modeling_for_enhancing_visio-linguistic.md)**
+
+:   MACCO 让 CLIP 在一个模态里遮住"关系/属性"这类组合概念、再用另一模态的完整信息把它重建出来，配上两个辅助对齐损失，在不造硬负样本的情况下显著提升了 VLM 的组合理解能力。
 
 **[Cross-Modal Taxonomic Generalization in (Vision-) Language Models](cross-modal_taxonomic_generalization_in_vision-_language_models.md)**
 
@@ -338,6 +346,10 @@ item_total: 79
 **[TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval](tema_anchor_the_image_follow_the_text_for_multi-modification_composed_image_retr.md)**
 
 :   本文提出 TEMA（Text-oriented Entity Mapping Architecture），首个面向多修改文本的组合图像检索（CIR）框架，通过 MMT 解析助手（PA）增强修改实体覆盖、实体映射模块（EM）解决子句-实体对齐问题，并构建了 M-FashionIQ 和 M-CIRR 两个多修改基准数据集，在原始和多修改场景中均取得最优性能。
+
+**[Test-Time Scaling in Multimodal Foundation Models: A Comprehensive Survey of Generation and Reasoning](test-time_scaling_in_multimodal_foundation_models_a_comprehensive_survey_of_gene.md)**
+
+:   首篇专门面向**多模态基础模型（MFM）测试时扩展（TTS）**的综述：把"推理阶段动态分配算力"的各路方法统一成 $\pi^*=\arg\max_\pi \mathbb{E}[U(x,y)]$ s.t. 算力预算受限的框架，并归纳为**采样式 / 反馈式 / 搜索式**三大范式，覆盖多模态生成与推理两类任务，给出代表方法、基准与开放挑战的路线图。
 
 **[TeXOCR: Advancing Document OCR Models for Compilable Page-to-LaTeX Reconstruction](texocr_advancing_document_ocr_models_for_compilable_page-to-latex_reconstruction.md)**
 

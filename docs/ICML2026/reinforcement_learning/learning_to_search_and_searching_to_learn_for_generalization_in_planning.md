@@ -73,6 +73,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验（2023 IPC learning track 覆盖率与展开节点）
+
 | 域（train→test 规模） | GSPπ (greedy) | GSP$_{\mathrm{WA^*}}$ | Lifted HER | LAMA | 备注 |
 |--------|------|------|------|------|------|
 | Blocksworld (29→488) | 强（跨规模成立） | 进一步提升 | 弱 | 域无关基线 | 仅训 ≤30 块，测 488 块 |
@@ -86,6 +87,7 @@ flowchart TD
 > 注：表中粒度对应原文 Table 中 "Cov./Steps" 列的定性总结；GSP 在 GSPπ 与 GSP$_{\mathrm{WA^*}}$ 两种测试模式下相对所有 baseline 均取得不弱于或更优的覆盖率，并在 plan length 上保持竞争力。
 
 ### 消融 / 对比实验
+
 | 对比项 | 结果 | 说明 |
 |------|------|------|
 | GSP$_{\mathrm{WA^*}}$ vs. GSPπ | WA* 模式在 Sokoban 等难题上显著更强 | 学到的 $Q$ 既能当策略又能当启发式 |

@@ -107,6 +107,7 @@ MS-COCO 主结果（节选自 Table 1，加速比相对 Vanilla AR）：
 关键点：在相近甚至更好的 FID/CLIP/IS 下，PJD 的 step 压缩显著优于 SJD 与 GSD；c 越小加速越猛、画质略降，c 越大画质越好、加速回落。PartiPrompt（Table 2）结论一致，Lumina-mGPT 上 step 加速达 6.44×–7.27×。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Context Token Count $c\in\{4,6,9,11,16,32\}$ | $c$↑ → FID↓ 但 step 压缩↓ | 上文越多画质越好、并行红利越小，速度-保真 trade-off |

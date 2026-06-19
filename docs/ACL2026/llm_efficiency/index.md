@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 LLM效率论文汇总 · 22篇论文解读
+  ACL2026 LLM效率论文汇总 · 23篇论文解读
 description: >-
-  22篇ACL2026的 LLM 效率方向论文解读，涵盖 LLM、推理、扩散模型、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  23篇ACL2026的 LLM 效率方向论文解读，涵盖 LLM、推理、扩散模型、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "LLM 效率"
@@ -39,6 +39,8 @@ item_list:
     t: "RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding"
   - u: "saber_an_efficient_sampling_with_adaptive_acceleration_and_backtracking_enhanced/"
     t: "Saber: Efficient Sampling with Adaptive Acceleration and Backtracking Enhanced Remasking for DLMs"
+  - u: "small_data_big_noise_adversarial_training_for_robust_parameter-efficient_fine-tu/"
+    t: "Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning"
   - u: "specbound_adaptive_bounded_self-speculation_with_layer-wise_confidence_calibrati/"
     t: "SpecBound: Adaptive Bounded Self-Speculation with Layer-wise Confidence Calibration"
   - u: "speculative_verification_exploiting_information_gain_to_refine_speculative_decod/"
@@ -57,15 +59,15 @@ item_list:
     t: "TokenTiming: A Dynamic Alignment Method for Universal Speculative Decoding Model Pairs"
   - u: "understanding_llm_performance_degradation_in_multi-instance_processing_the_roles/"
     t: "Understanding LLM Performance Degradation in Multi-Instance Processing: The Roles of Instance Count and Context Length"
-item_total: 22
+item_total: 23
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ LLM 效率
 
-**💬 ACL2026** · **22** 篇论文解读
+**💬 ACL2026** · **23** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (6)](../../CVPR2026/llm_efficiency/index.md) · [🧪 ICML2026 (32)](../../ICML2026/llm_efficiency/index.md) · [🔬 ICLR2026 (20)](../../ICLR2026/llm_efficiency/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_efficiency/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/llm_efficiency/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/llm_efficiency/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/llm_efficiency/index.md) · [🧪 ICML2026 (48)](../../ICML2026/llm_efficiency/index.md) · [🔬 ICLR2026 (32)](../../ICLR2026/llm_efficiency/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_efficiency/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/llm_efficiency/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/llm_efficiency/index.md)
 
 🔥 **高频主题：** LLM ×7 · 推理 ×2 · 扩散模型 ×2 · 对齐/RLHF ×2
 
@@ -120,6 +122,10 @@ item_total: 22
 **[Saber: Efficient Sampling with Adaptive Acceleration and Backtracking Enhanced Remasking for DLMs](saber_an_efficient_sampling_with_adaptive_acceleration_and_backtracking_enhanced.md)**
 
 :   本文提出 Saber，一个面向扩散语言模型（DLM）的免训练采样算法，通过自适应加速（根据已建立的上下文动态调整并行解码量）和回溯增强重遮蔽（撤销被新上下文证伪的 token）两种策略，在代码生成上平均提升 Pass@1 1.9% 的同时实现 251.4% 的推理加速。
+
+**[Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning](small_data_big_noise_adversarial_training_for_robust_parameter-efficient_fine-tu.md)**
+
+:   把对抗训练接进参数高效微调（PEFT），用一个统一的鲁棒优化框架 SDBN 在嵌入空间生成最坏扰动，并针对"破坏分词的字符噪声"和"生成式任务"各补一套离散不确定集，在小数据 + 噪声场景下显著提升 LoRA/Adapter/BitFit 的鲁棒性，且不增加任何可训练参数或显存。
 
 **[SpecBound: Adaptive Bounded Self-Speculation with Layer-wise Confidence Calibration](specbound_adaptive_bounded_self-speculation_with_layer-wise_confidence_calibrati.md)**
 

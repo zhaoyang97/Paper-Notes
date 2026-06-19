@@ -111,6 +111,7 @@ MMEB 含 36 个任务，覆盖分类(CLS)、视觉问答(VQA)、检索(RET)、�
 2B 上较最强 2B 基线 UniME-V2 在 COCO 图→文 +11.4%；7B 在 SugarCrepe 加属性子集上比 UniME-V2(79.0%) 高 14.9%，组合检索能力提升尤其明显。
 
 ### 消融实验（ReMatch-2B, Qwen2-VL, MMEB Overall %）
+
 | 配置 | Overall | 说明 |
 |------|---------|------|
 | Baseline (VLM2Vec) | 59.7 | 单 `[EOS]` + 对比损失 |
@@ -159,11 +160,11 @@ MMEB 含 36 个任务，覆盖分类(CLS)、视觉问答(VQA)、检索(RET)、�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Eliciting Complex Spatial Reasoning in MLLMs through Wide-Baseline Matching](eliciting_complex_spatial_reasoning_in_mllms_through_wide-baseline_matching.md)
+- [\[CVPR 2026\] Tackling Alignment Ambiguity in Person Retrieval through Conversational Attribute Mining](tackling_alignment_ambiguity_in_person_retrieval_through_conversational_attribut.md)
 - [\[CVPR 2026\] Multimodal Distribution Matching for Vision-Language Dataset Distillation](multimodal_distribution_matching_for_vision-language_dataset_distillation.md)
-- [\[CVPR 2026\] RMIR: A Benchmark Dataset for Reasoning-Intensive Multimodal Image Retrieval](rmir_a_benchmark_dataset_for_reasoning-intensive_multimodal_image_retrieval.md)
 - [\[CVPR 2026\] MOON2.0: Dynamic Modality-balanced Multimodal Representation Learning for E-commerce Product Understanding](moon20_dynamic_modality-balanced_multimodal_representation_learning_for_e-commer.md)
-- [\[CVPR 2026\] RetFormer: Multimodal Retrieval for Enhancing Image Recognition](retformer_multimodal_retrieval_for_enhancing_image_recognition.md)
+- [\[CVPR 2026\] DeepAlign: Mitigating Modality Conflict through Modality-Specific Alignment](deepalign_mitigating_modality_conflict_through_modality-specific_alignment.md)
+- [\[CVPR 2026\] Guiding Diffusion-based Reconstruction with Contrastive Signals for Balanced Visual Representation](guiding_diffusion-based_reconstruction_with_contrastive_signals_for_balanced_vis.md)
 
 </div>
 

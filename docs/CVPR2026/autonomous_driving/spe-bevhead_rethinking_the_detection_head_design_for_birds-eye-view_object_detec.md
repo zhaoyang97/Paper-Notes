@@ -100,6 +100,7 @@ flowchart TD
 FastBEV 去掉后处理直接掉 7.6 mAP / 3.9 NDS，而换上 Spe-BEVHead 即使**完全无后处理**也保持可靠（在 FastBEV 上比 center-based 头 +3.4 NDS / +7.6 mAP），再叠 max-pooling NMS 即可追平标准 NMS。
 
 ### 消融实验（FastBEV，端到端设定）
+
 | 配置 (DB / RBK / LRRM) | NDS↑ | mAP↑ | 说明 |
 |------|------|------|------|
 | 全部去除 | 34.5 | 21.9 | center-based 头 |
@@ -144,7 +145,7 @@ FastBEV 去掉后处理直接掉 7.6 mAP / 3.9 NDS，而换上 Spe-BEVHead 即�
 - [\[CVPR 2026\] BEV-SLD: Self-Supervised Scene Landmark Detection for Global Localization with LiDAR Bird's-Eye View Images](bev-sld_self-supervised_scene_landmark_detection_for_global_localization_with_li.md)
 - [\[CVPR 2026\] BEV-CAR: Enhancing Monocular Bird's Eye View Segmentation with Context-Aware Rasterization](bev-car_enhancing_monocular_birds_eye_view_segmentation_with_context-aware_raste.md)
 - [\[CVPR 2026\] CycleBEV: Regularizing View Transformation Networks via View Cycle Consistency for Bird's-Eye-View Semantic Segmentation](cyclebev_regularizing_view_transformation_networks_via_view_cycle_consistency_fo.md)
-- [\[CVPR 2026\] A Prediction-as-Perception Framework for 3D Object Detection](a_prediction-as-perception_framework_for_3d_object_detection.md)
+- [\[CVPR 2026\] STUR3D: Spatio-Temporal Unified Representation Learning for 3D Object Detection](stur3d_spatio-temporal_unified_representation_learning_for_3d_object_detection.md)
 - [\[CVPR 2026\] SToRe3D: Sparse Token Relevance in ViTs for Efficient Multi-View 3D Object Detection](store3d_sparse_token_relevance_in_vits_for_efficient_multi-view_3d_object_detect.md)
 
 </div>

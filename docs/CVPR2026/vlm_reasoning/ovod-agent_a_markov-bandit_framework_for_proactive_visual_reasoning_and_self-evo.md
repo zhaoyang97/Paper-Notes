@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OVOD-Agent: A Markov-Bandit Framework for Proactive Visual Reasoning and Self-Evolving Detection
 description: >-
-  [CVPR 2026][多模态VLM][开放词表检测] 把开放词表目标检测（OVOD）从"文本与区域的一次性静态匹配"改造成一个**无大模型依赖**的主动视觉推理过程：用八态弱马尔可夫决策过程（w-MDP）刻画视觉状态转移，用 UCB Bandit 在不确定区域采样推理轨迹，再用 Markov 转移统计联合训练一个轻量奖励-策略模型（RM）形成自演化闭环，在 COCO / LVIS 上稳定提升稀有类检测且推理开销极小。
+  [CVPR 2026][VLM Reasoning][开放词表检测] 把开放词表目标检测（OVOD）从"文本与区域的一次性静态匹配"改造成一个**无大模型依赖**的主动视觉推理过程：用八态弱马尔可夫决策过程（w-MDP）刻画视觉状态转移，用 UCB Bandit 在不确定区域采样推理轨迹，再用 Markov 转移统计联合训练一个轻量奖励-策略模型（RM）形成自演化闭环，在 COCO / LVIS 上稳定提升稀有类检测且推理开销极小。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "开放词表检测"
   - "视觉链式推理"
   - "弱马尔可夫决策过程"
@@ -149,11 +149,11 @@ RM 训练里 Markov-state（KL 转移正则）的作用，及 Visual-CoT 动作�
 
 ## 相关论文
 
-- [\[CVPR 2026\] VisPlay: Self-Evolving Vision-Language Models](visplay_self-evolving_vision-language_models.md)
 - [\[CVPR 2026\] Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning](decouple_to_generalize_context-first_self-evolving_learning_for_data-scarce_visi.md)
-- [\[CVPR 2026\] EvoGraph-R1: Self-Evolving Multimodal Knowledge Hypergraphs for Agentic Retrieval](evograph-r1_self-evolving_multimodal_knowledge_hypergraphs_for_agentic_retrieval.md)
-- [\[ICLR 2026\] Why Keep Your Doubts to Yourself? Trading Visual Uncertainties in Multi-Agent Bandit Systems](../../ICLR2026/multimodal_vlm/why_keep_your_doubts_to_yourself_trading_visual_uncertainties_in_multi-agent_ban.md)
-- [\[CVPR 2026\] Geometrically-Constrained Agent for Spatial Reasoning](geometrically-constrained_agent_for_spatial_reasoning.md)
+- [\[CVPR 2026\] Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory](evolving_contextual_safety_in_multi-modal_large_language_models_via_inference-ti.md)
+- [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
+- [\[CVPR 2026\] Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning](seeing_what_matters_a_training-free_self-guided_framework_for_multimodal_detail_.md)
+- [\[ICML 2026\] Breaking Dual Bottlenecks: Evolving Unified Multimodal Models into Self-Adaptive Interleaved Visual Reasoners](../../ICML2026/vlm_reasoning/breaking_dual_bottlenecks_evolving_unified_multimodal_models_into_self-adaptive_.md)
 
 </div>
 

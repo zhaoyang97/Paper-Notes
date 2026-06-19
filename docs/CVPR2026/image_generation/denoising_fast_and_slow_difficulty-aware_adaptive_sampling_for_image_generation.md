@@ -99,6 +99,7 @@ $$\mathcal{L}_{\text{total}}=\mathbb{E}\big[\|\mathbf{v}_{\text{GT}}-\mathbf{v}_
 PF 与表示对齐 (REPA) 正交：XL/2 + REPA + look-ahead 把 7.9 进一步降到 6.7。
 
 ### SOTA 对比（ImageNet 256²，含 CFG）
+
 | 模型 | Epochs | FID↓ | sFID↓ | IS↑ | Pre.↑ | Rec.↑ |
 |------|--------|------|-------|-----|-------|-------|
 | DiT-XL/2 | 1400 | 2.27 | 4.60 | 278.2 | 0.83 | 0.57 |
@@ -109,6 +110,7 @@ PF 与表示对齐 (REPA) 正交：XL/2 + REPA + look-ahead 把 7.9 进一步降
 只训 200 epoch 即与训了 1400 epoch 的 SiT/DiT 竞争，sFID 与 IS 上更优，确认与 CFG 正交。
 
 ### 消融与分析
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | LTG vs SRM Uniform-$\bar t$ | LTG 取得最优 FID | SRM 只控均值、$t_{\max}$ 仍贴近 1，留 train-test gap |

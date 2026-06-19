@@ -117,6 +117,7 @@ PSNR 在 6 个设置里 5 个第一（领先次优约 0.2–0.3 dB），唯一�
 VEMamba 在所有倍数都最优，×4 与各向同性真值的 IoU 差距仅 0.002，说明重建质量已逼近"用真各向同性数据做分割"。
 
 ### 消融实验（EPFL ×4）
+
 | 配置 | PSNR | SSIM | 说明 |
 |------|------|------|------|
 | w/o ALCSSM（换普通连续扫描） | 29.381 | 0.7695 | 掉 0.07 dB |
@@ -165,7 +166,7 @@ VEMamba 在所有倍数都最优，×4 与各向同性真值的 IoU 差距仅 0.
 - [\[CVPR 2026\] Polarization State Tracing for Reflection Removal and Color-Consistent Reconstruction](polarization_state_tracing_for_reflection_removal_and_color-consistent_reconstru.md)
 - [\[CVPR 2026\] Multi-Scale Gradient-Guided Unrolling Architecture with Adaptive Mamba for Compressive Sensing](multi-scale_gradient-guided_unrolling_architecture_with_adaptive_mamba_for_compr.md)
 - [\[CVPR 2026\] DetectSCI: Toward Object-Guided ROI Reconstruction for High-Resolution Video Snapshot Compressive Imaging](detectsci_toward_object-guided_roi_reconstruction_for_high-resolution_video_snap.md)
-- [\[CVPR 2026\] Degradation-Consistent Test-Time Adaptation for All-in-One Image Restoration](degradation-consistent_test-time_adaptation_for_all-in-one_image_restoration.md)
+- [\[CVPR 2026\] Distilling Quasi-Conformal Mapping: A Generalizable and Efficient Solution for Wide-Angle Correction](distilling_quasi-conformal_mapping_a_generalizable_and_efficient_solution_for_wi.md)
 
 </div>
 

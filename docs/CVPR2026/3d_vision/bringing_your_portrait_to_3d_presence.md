@@ -155,9 +155,9 @@ $$\tilde U(u,v)=\frac{\sum_i m_i\, k\big((u,v)-(u_i,v_i)\big)\, f_i}{\sum_i m_i\
 
 ## 相关论文
 
+- [\[CVPR 2026\] Haptic Neural Fields: Bringing Tactile Interactions to 3D Rendered Scenes](haptic_neural_fields_bringing_tactile_interactions_to_3d_rendered_scenes.md)
 - [\[CVPR 2026\] Iris: Bringing Real-World Priors into Diffusion Model for Monocular Depth Estimation](iris_bringing_realworld_priors_into_diffusion_model_for_monocular_depth_estimation.md)
 - [\[CVPR 2025\] PERSE: Personalized 3D Generative Avatars from A Single Portrait](../../CVPR2025/3d_vision/perse_personalized_3d_generative_avatars_from_a_single_portrait.md)
-- [\[CVPR 2026\] Bringing a Personal Point of View: Evaluating Dynamic 3D Gaussian Splatting for Egocentric Scene Reconstruction](bringing_a_personal_point_of_view_evaluating_dynamic_3d_gaussian_splatting_for_e.md)
 - [\[CVPR 2025\] Coherent 3D Portrait Video Reconstruction via Triplane Fusion](../../CVPR2025/3d_vision/coherent_3d_portrait_video_reconstruction_via_triplane_fusion.md)
 - [\[ICCV 2025\] Tune-Your-Style: Intensity-Tunable 3D Style Transfer with Gaussian Splatting](../../ICCV2025/3d_vision/tune-your-style_intensity-tunable_3d_style_transfer_with_gaussian_splatting.md)
 

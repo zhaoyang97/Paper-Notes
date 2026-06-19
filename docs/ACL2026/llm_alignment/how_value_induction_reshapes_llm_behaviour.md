@@ -146,11 +146,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[ICML 2026\] Toward Stable Value Alignment: Introducing Independent Modules for Consistent Value Guidance](../../ICML2026/llm_alignment/toward_stable_value_alignment_introducing_independent_modules_for_consistent_val.md)
 - [\[ICLR 2026\] Why DPO is a Misspecified Estimator and How to Fix It](../../ICLR2026/llm_alignment/why_dpo_is_misspecified_estimator.md)
+- [\[ICML 2026\] Toward Stable Value Alignment: Introducing Independent Modules for Consistent Value Guidance](../../ICML2026/llm_alignment/toward_stable_value_alignment_introducing_independent_modules_for_consistent_val.md)
+- [\[ICLR 2026\] BIRD: Behavior Induction via Representation-structure Distillation](../../ICLR2026/llm_alignment/bird_behavior_induction_via_representation-structure_distillation.md)
 - [\[ACL 2025\] Internal Value Alignment in Large Language Models through Controlled Value Vector Activation](../../ACL2025/llm_alignment/internal_value_alignment_in_large_language_models_through_controlled_value_vecto.md)
 - [\[ICML 2026\] PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization](../../ICML2026/llm_alignment/picaco_pluralistic_in-context_value_alignment_of_llms_via_total_correlation_opti.md)
-- [\[ACL 2025\] From Lists to Emojis: How Format Bias Affects Model Alignment](../../ACL2025/llm_alignment/from_lists_to_emojis_how_format_bias_affects_model_alignment.md)
 
 </div>
 

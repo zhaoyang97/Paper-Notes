@@ -117,8 +117,8 @@ GFT 保持与 CFG 相同的最大似然训练目标，但对条件模型做不�
 
 - [\[CVPR 2025\] Learning Visual Generative Priors without Text](../../CVPR2025/image_generation/learning_visual_generative_priors_without_text.md)
 - [\[ICCV 2025\] StyleKeeper: Prevent Content Leakage using Negative Visual Query Guidance](../../ICCV2025/image_generation/stylekeeper_prevent_content_leakage_using_negative_visual_query_guidance.md)
-- [\[CVPR 2025\] Rectified Diffusion Guidance for Conditional Generation](../../CVPR2025/image_generation/rectified_diffusion_guidance_for_conditional_generation.md)
 - [\[ICML 2025\] Continuous Visual Autoregressive Generation via Score Maximization](continuous_visual_autoregressive_generation_via_score_maximization.md)
+- [\[CVPR 2025\] Rectified Diffusion Guidance for Conditional Generation](../../CVPR2025/image_generation/rectified_diffusion_guidance_for_conditional_generation.md)
 - [\[ICLR 2026\] SSG: Scaled Spatial Guidance for Multi-Scale Visual Autoregressive Generation](../../ICLR2026/image_generation/ssg_scaled_spatial_guidance_for_multi-scale_visual_autoregressive_generation.md)
 
 </div>

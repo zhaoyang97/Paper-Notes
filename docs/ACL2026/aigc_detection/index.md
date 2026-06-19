@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 AIGC检测论文汇总 · 16篇论文解读
+  ACL2026 AIGC检测论文汇总 · 17篇论文解读
 description: >-
-  16篇ACL2026的 AIGC 检测方向论文解读，涵盖 LLM、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  17篇ACL2026的 AIGC 检测方向论文解读，涵盖 LLM、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "AIGC 检测"
@@ -13,6 +13,8 @@ tags:
 item_list:
   - u: "aegis_a_holistic_benchmark_for_evaluating_forensic_analysis_of_ai-generated_acad/"
     t: "AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images"
+  - u: "authorship_attribution_in_multilingual_machine-generated_texts/"
+    t: "Authorship Attribution in Multilingual Machine-Generated Texts"
   - u: "beyond_the_final_actor_modeling_the_dual_roles_of_creator_and_editor_for_fine-gr/"
     t: "Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection"
   - u: "biasedtales-ml_a_multilingual_dataset_for_analyzing_narrative_attribute_distribu/"
@@ -43,21 +45,25 @@ item_list:
     t: "When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection"
   - u: "who_wrote_this_line_evaluating_the_detection_of_llm-generated_classical_chinese_/"
     t: "Who Wrote This Line? Evaluating the Detection of LLM-Generated Classical Chinese Poetry"
-item_total: 16
+item_total: 17
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC 检测
 
-**💬 ACL2026** · **16** 篇论文解读
+**💬 ACL2026** · **17** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/aigc_detection/index.md) · [🧪 ICML2026 (7)](../../ICML2026/aigc_detection/index.md) · [🔬 ICLR2026 (6)](../../ICLR2026/aigc_detection/index.md) · [🤖 AAAI2026 (2)](../../AAAI2026/aigc_detection/index.md) · [🧠 NeurIPS2025 (9)](../../NeurIPS2025/aigc_detection/index.md) · [💬 ACL2025 (15)](../../ACL2025/aigc_detection/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (10)](../../CVPR2026/aigc_detection/index.md) · [🧪 ICML2026 (11)](../../ICML2026/aigc_detection/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/aigc_detection/index.md) · [🤖 AAAI2026 (2)](../../AAAI2026/aigc_detection/index.md) · [🧠 NeurIPS2025 (9)](../../NeurIPS2025/aigc_detection/index.md) · [💬 ACL2025 (15)](../../ACL2025/aigc_detection/index.md)
 
 🔥 **高频主题：** LLM ×8
 
 **[AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images](aegis_a_holistic_benchmark_for_evaluating_forensic_analysis_of_ai-generated_acad.md)**
 
 :   AEGIS 是首个面向学术图像伪造取证的综合基准，覆盖 7 大学术图类与 39 子类、4 种伪造策略（整图捏造、参考图改写、局部修复、局部编辑）和 25 个生成模型，提出取证范围判别、文字伪影识别、操作类型分类、篡改像素定位四项任务，对 25 个 MLLM 与 9 个专家模型联评后发现：即使 GPT-5.1 综合分仅 48.80%，专家模型像素 IoU 仅 30.09%，凸显「生成进化快于取证」与「MLLM 推理 vs 专家模型敏感度」的结构性互补。
+
+**[Authorship Attribution in Multilingual Machine-Generated Texts](authorship_attribution_in_multilingual_machine-generated_texts.md)**
+
+:   现有「机器生成文本作者归属（attribution，即判断一段文本出自哪个具体 LLM 还是人类）」研究几乎全是单语种（尤其英语）的，这篇论文首次形式化定义了**多语言作者归属（ML-MGT）**和**跨语言迁移（CL-MGT）**两个问题，在 18 种语言 × 8 个生成者（7 个 LLM + 人类）上系统评测了统计法、微调编码器、对比学习、微调解码器等一整套现有方法，发现微调/对比方法能适配多语言（最佳 macro-F1 > 0.9），但**跨不同语系/书写体系迁移时严重退化**，揭示了真实多语言场景的难度。
 
 **[Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection](beyond_the_final_actor_modeling_the_dual_roles_of_creator_and_editor_for_fine-gr.md)**
 

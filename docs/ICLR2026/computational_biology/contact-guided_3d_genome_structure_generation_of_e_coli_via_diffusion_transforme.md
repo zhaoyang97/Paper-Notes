@@ -20,7 +20,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.07472](https://arxiv.org/abs/2603.07472)  
 **代码**: 待确认  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 3D genome, Hi-C, diffusion transformer, CrossDiT, latent diffusion, flow matching, E. coli
 
 ## 一句话总结

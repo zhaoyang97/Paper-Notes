@@ -85,6 +85,7 @@ INLP 的标准套路是「迭代找出能预测受保护属性的方向、再把
 | ACSTravelTime | 全部 3 个度量 | **只有 SVR-FKD** 在保持低 MAE 的同时拿到 fairness 改善；其它方法基本退化到 dummy 水平 | 凸显非线性投影的必要性 |
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | SVR-FKD vs SVR-INPL (线性投影 + 非线性 SVR，Fig. 3) | 同 $m$ 下 SVR-INPL 改善 fairness 慢得多；增大到 $m\in\{160,180,200\}$ 后 MAE 已涨但 fairness 停止改善 | 证明仅做线性零空间投影抓不住数据与受保护属性之间的非线性依赖；HGR / PF 上差距比 GDP 更显著 |
@@ -134,7 +135,7 @@ INLP 的标准套路是「迭代找出能预测受保护属性的方向、再把
 - [\[ICML 2026\] Position: Beyond Sensitive Attributes, ML Fairness Should Quantify Structural Injustice via Social Determinants](position_beyond_sensitive_attributes_ml_fairness_should_quantify_structural_inju.md)
 - [\[ICML 2026\] Demystifying the Optimal Fair Classifier in Multi-Class Classification](demystifying_the_optimal_fair_classifier_in_multi-class_classification.md)
 - [\[ICML 2026\] Fair Dataset Distillation via Cross-Group Barycenter Alignment](fair_dataset_distillation_via_cross-group_barycenter_alignment.md)
-- [\[ICML 2026\] Fair Decisions from Calibrated Scores: Achieving Optimal Classification While Satisfying Sufficiency](fair_decisions_from_calibrated_scores_achieving_optimal_classification_while_sat.md)
+- [\[ICML 2026\] PRISM: Gauge-Invariant Tangent-Space Differentially Private LoRA](prism_gauge-invariant_tangent-space_differentially_private_lora.md)
 
 </div>
 

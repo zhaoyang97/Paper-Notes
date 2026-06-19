@@ -147,7 +147,7 @@ Toxicity Detection (Duan et al., 2025 + 新收集的 N=97 非二元数据), $k=1
 - [\[ACL 2025\] Can Language Models Reason about Individualistic Human Values and Preferences?](../../ACL2025/llm_nlp/can_language_models_reason_about_individualistic_human_values_and_preferences.md)
 - [\[ACL 2026\] Big AI is Accelerating the Metacrisis: What Can We Do?](big_ai_is_accelerating_the_metacrisis_what_can_we_do.md)
 - [\[ACL 2025\] When to Speak, When to Abstain: Contrastive Decoding with Abstention](../../ACL2025/llm_nlp/when_to_speak_when_to_abstain.md)
-- [\[ACL 2026\] Can AI Be a Good Peer Reviewer? A Survey of Peer Review Process, Evaluation, and the Future](can_ai_be_a_good_peer_reviewer_a_survey_of_peer_review_process_evaluation_and_th.md)
+- [\[ICLR 2026\] When Stability Fails: Hidden Failure Modes of LLMs in Data-Constrained Scientific Decision-Making](../../ICLR2026/llm_nlp/when_stability_fails_hidden_failure_modes_of_llms_in_data-constrained_scientific.md)
 
 </div>
 

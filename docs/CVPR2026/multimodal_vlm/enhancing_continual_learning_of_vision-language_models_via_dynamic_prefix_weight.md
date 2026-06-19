@@ -90,6 +90,7 @@ CondAct 把 prefix 总权重卡在 1 以内保护了 zero-shot，但对任务相
 Ours 仅用 30.8M 参数（不需额外数据）即在两个基准全指标超过包含全微调 + 扩散生成数据的 GIFT；连压到 4.6M 的 Ours† 也优于所有对比方法。
 
 ### 消融实验
+
 | 配置 | Trans. | Avg. | Last | 说明 |
 |------|--------|------|------|------|
 | 全去掉（baseline） | 68.1 | 76.6 | 85.9 | 传统 prefix-tuning |
@@ -138,9 +139,9 @@ CondAct 内部拆解（Table 5）：Sigmoid 起步 68.0/76.8/86.4 → 加 CondNo
 
 - [\[CVPR 2026\] On Token's Dilemma: Dynamic MoE with Drift-Aware Token Assignment for Continual Learning of Large Vision Language Models](on_tokens_dilemma_dynamic_moe_with_drift-aware_token_assignment_for_continual_le.md)
 - [\[CVPR 2026\] Towards Dynamic Modality Alignment in Multimodal Continual Learning](towards_dynamic_modality_alignment_in_multimodal_continual_learning.md)
-- [\[CVPR 2026\] Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](continual_learning_with_vision-language_models_via_semantic-geometry_preservatio.md)
 - [\[CVPR 2026\] PACT: Phase-Like Transition Constraints in Adapter-Based Continual Learning of Vision-Language Models](pact_phase-like_transition_constraints_in_adapter-based_continual_learning_of_vi.md)
 - [\[ICLR 2026\] Enhanced Continual Learning of Vision-Language Models with Model Fusion](../../ICLR2026/multimodal_vlm/enhanced_continual_learning_of_vision-language_models_with_model_fusion.md)
+- [\[CVPR 2026\] Learning from Itself: Mining Internal Knowledge from Vision Language Models for Continual Learning](learning_from_itself_mining_internal_knowledge_from_vision_language_models_for_c.md)
 
 </div>
 

@@ -99,6 +99,7 @@ HyperST 在全部四个数据集所有指标上超过次优的 TRIPLEX；在 PCC
 HyperST 在零样本设定下把 MSI-H / MSS 的 AUROC 提到 0.719 / 0.601，比最强基线 TRIPLEX 高约 14% / 6%，说明预测的基因谱抓到了更多临床相关信号。
 
 ### 消融实验（Kidney 数据集）
+
 | 配置 | PCC@200↑ | 说明 |
 |------|------|------|
 | 完整 HyperST | 0.390 | — |
@@ -146,11 +147,11 @@ HyperST 在零样本设定下把 MSI-H / MSS 的 AUROC 提到 0.719 / 0.601，�
 
 ## 相关论文
 
+- [\[CVPR 2026\] Multi-View Hierarchical Alignment Learning for Spatial Transcriptomics](multi-view_hierarchical_alignment_learning_for_spatial_transcriptomics.md)
 - [\[CVPR 2026\] From Spots to Pixels: Dense Spatial Gene Expression Prediction from Histology Images](from_spots_to_pixels_dense_spatial_gene_expression_prediction_from_histology_ima.md)
 - [\[CVPR 2026\] FEAST: Fully Connected Expressive Attention for Spatial Transcriptomics](feast_fully_connected_expressive_attention_for_spatial_transcriptomics.md)
-- [\[AAAI 2026\] HiFusion: Hierarchical Intra-Spot Alignment and Regional Context Fusion for Spatial Gene Expression Prediction from Histopathology](../../AAAI2026/computational_biology/hifusion_hierarchical_intra-spot_alignment_and_regional_context_fusion_for_spati.md)
 - [\[CVPR 2026\] Predicting Spatial Transcriptomics from Histology Images via High-Order Multi-Cell Interaction Modeling](predicting_spatial_transcriptomics_from_histology_images_via_high-order_multi-ce.md)
-- [\[CVPR 2026\] Hyperbolic Busemann Neural Networks](hyperbolic_busemann_neural_networks.md)
+- [\[CVPR 2026\] Bulk RNA-seq Guided Multi-modal Detection of Anomalous Regions in Human Cancer via Spatial Transcriptomics](bulk_rna-seq_guided_multi-modal_detection_of_anomalous_regions_in_human_cancer_v.md)
 
 </div>
 

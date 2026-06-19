@@ -2,9 +2,10 @@
 title: >-
   [论文解读] Cross-View Distillation and Adaptive Masking for Incomplete Multi-View Multi-Label Classification
 description: >-
-  [CVPR 2026][不完整多视图] 针对"视图与标签双重缺失"的多标签分类，本文用一个强视图当 teacher 去蒸馏其余弱视图、再用一个可学习的二值门控把蒸馏后仍然不可靠的视图直接屏蔽掉，在六个数据集上稳定超过九个 SOTA。 领域现状：不完整多视图多标签学习（iM2L）要在"视图缺失（传感器故障）+ 标签缺失（标注昂…
+  [CVPR 2026][模型压缩][不完整多视图] 针对"视图与标签双重缺失"的多标签分类，本文用一个强视图当 teacher 去蒸馏其余弱视图、再用一个可学习的二值门控把蒸馏后仍然不可靠的视图直接屏蔽掉，在六个数据集上稳定超过九个 SOTA。 领域现状：不完整多视图多标签学习（iM2L）要在"视图缺失（传感器故障）+ 标签…
 tags:
   - "CVPR 2026"
+  - "模型压缩"
   - "不完整多视图"
   - "多标签分类"
   - "视图不平衡"
@@ -169,11 +170,11 @@ Corel5k / Pascal07，50% 视图 + 50% 标签缺失（去掉 $L_{imp}$ 时仍保�
 
 ## 相关论文
 
-- [\[CVPR 2026\] EXOTIC: External Vision-driven Incomplete Multi-view Classification](exotic_external_vision-driven_incomplete_multi-view_classification.md)
-- [\[CVPR 2026\] DF²-VB: Dual-level Fuzzy Fusion with View-specific Boosting for Multi-view Multi-label Classification](df2-vb_dual-level_fuzzy_fusion_with_view-specific_boosting_for_multi-view_multi-.md)
-- [\[CVPR 2026\] Imbalanced View Contribution Evaluation and Refinement for Deep Incomplete Multi-View Clustering](imbalanced_view_contribution_evaluation_and_refinement_for_deep_incomplete_multi.md)
-- [\[CVPR 2026\] Prototype-based Causal Intervention for Multi-Label Image Classification](prototype-based_causal_intervention_for_multi-label_image_classification.md)
-- [\[CVPR 2026\] Revisiting F-measure Optimization in Multi-Label Classification: A Sampling-based Approach](revisiting_f-measure_optimization_in_multi-label_classification_a_sampling-based.md)
+- [\[CVPR 2026\] Parallax to Align Them All: An OmniParallax Attention Mechanism for Distributed Multi-View Image Compression](parallax_to_align_them_all_an_omniparallax_attention_mechanism_for_distributed_m.md)
+- [\[ICLR 2026\] Multi-View Encoders for Performance Prediction in LLM-Based Agentic Workflows](../../ICLR2026/model_compression/multi-view_encoders_for_performance_prediction_in_llm-based_agentic_workflows.md)
+- [\[CVPR 2026\] Discovering Adaptive Task Dependencies for Efficient Multi-Task Representation Compression](discovering_adaptive_task_dependencies_for_efficient_multi-task_representation_c.md)
+- [\[CVPR 2026\] TaskIT: Memory-Efficient Fine-Tuning of Multi-LoRA LLMs via Cross-Task Importance Transfer](taskit_memory-efficient_fine-tuning_of_multi-lora_llms_via_cross-task_importance.md)
+- [\[CVPR 2026\] SigLino: Efficient Multi-Teacher Distillation for Agglomerative Vision Foundation Models](siglino_efficient_multi-teacher_distillation_for_agglomerative_vision_foundation.md)
 
 </div>
 

@@ -89,6 +89,7 @@ CodeDistiller 不是训练一个模型，而是比较不同基础模型作为 ag
 | Claude Sonnet 4.5 | 75.6% | 75.6% | 75.6% | 74.1% | 19.0 min | $1.71 |
 
 ### 下游 A/B 测试
+
 | 维度 | 关键数据 | 说明 |
 |------|----------|------|
 | 任务构造 | 12 个材料科学仓库，每个 5 个问题，共 60 个 discovery problems | 只分析 baseline 与增强系统都产出解的 50 个问题 |
@@ -97,6 +98,7 @@ CodeDistiller 不是训练一个模型，而是比较不同基础模型作为 ag
 | 评审一致性 | Cohen's $\kappa$: Accuracy 0.77, Soundness 0.70, Completeness 0.62 | LLM-as-a-judge 与专家在 A/B 任务上为中等到较强一致 |
 
 ### 案例结果
+
 | 场景 | Baseline | CodeDistiller 增强系统 | 说明 |
 |------|----------|------------------------|------|
 | Tox21 毒性预测 | 使用 20 个手工挑选分子复制出的合成数据 | 使用 6,258 个真实化合物、12 个毒性 assay | 增强系统更具科学有效性 |
@@ -142,8 +144,8 @@ CodeDistiller 不是训练一个模型，而是比较不同基础模型作为 ag
 
 - [\[ACL 2026\] SecureVibeBench: Evaluating Secure Coding Capabilities of Code Agents with Realistic Vulnerability Scenarios](securevibebench_evaluating_secure_coding_capabilities_of_code_agents_with_realis.md)
 - [\[ACL 2026\] RExBench: Can coding agents autonomously implement AI research extensions?](rexbench_can_coding_agents_autonomously_implement_ai_research_extensions.md)
-- [\[ICML 2026\] NEMO: Execution-Aware Optimization Modeling via Autonomous Coding Agents](../../ICML2026/code_intelligence/nemo_execution-aware_optimization_modeling_via_autonomous_coding_agents.md)
 - [\[ACL 2026\] SciCoQA: Quality Assurance for Scientific Paper–Code Alignment](scicoqa_quality_assurance_for_scientific_paper--code_alignment.md)
+- [\[ICML 2026\] NEMO: Execution-Aware Optimization Modeling via Autonomous Coding Agents](../../ICML2026/code_intelligence/nemo_execution-aware_optimization_modeling_via_autonomous_coding_agents.md)
 - [\[ACL 2025\] UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](../../ACL2025/code_intelligence/utboost_rigorous_evaluation_of_coding_agents_on_swe-bench.md)
 
 </div>

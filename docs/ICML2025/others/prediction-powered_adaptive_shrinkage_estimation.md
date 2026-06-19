@@ -127,8 +127,8 @@ PAS是一个两阶段方法，处理$m$个并行均值估计问题。每个问�
 - [\[ICML 2025\] Time-Aware World Model for Adaptive Prediction and Control](time-aware_world_model_for_adaptive_prediction_and_control.md)
 - [\[ICML 2026\] Industrializing Prediction-Powered Inference: The GLIDE Library for Reliable GenAI and Agentic Systems Evaluation](../../ICML2026/others/industrializing_prediction-powered_inference_the_glide_library_for_reliable_gena.md)
 - [\[ICML 2025\] Prediction via Shapley Value Regression (ViaSHAP)](prediction_via_shapley_value_regression.md)
-- [\[ACL 2025\] RePanda: Pandas-powered Tabular Verification and Reasoning](../../ACL2025/others/repanda_pandas-powered_tabular_verification_and_reasoning.md)
 - [\[ICML 2025\] Latent Variable Estimation in Bayesian Black-Litterman Models](latent_variable_estimation_in_bayesian_black-litterman_models.md)
+- [\[ACL 2025\] RePanda: Pandas-powered Tabular Verification and Reasoning](../../ACL2025/others/repanda_pandas-powered_tabular_verification_and_reasoning.md)
 
 </div>
 

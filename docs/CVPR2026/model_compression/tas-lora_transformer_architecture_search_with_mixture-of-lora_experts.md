@@ -108,6 +108,7 @@ ImageNet 上把 TAS-LoRA 套到 AutoFormer / DYNAS 超网上，三种尺度均�
 | **TAS-LoRA-S** | 23M | 99.1 | 91.0 | 98.2 | **92.3** | **78.0** |
 
 ### 消融实验
+
 | 配置 | Tiny | Small | Base | 说明 |
 |------|------|-------|------|------|
 | AutoFormer（基线） | 74.9 | 81.6 | 82.4 | 纯共享权重超网 |
@@ -154,8 +155,8 @@ ImageNet 上把 TAS-LoRA 套到 AutoFormer / DYNAS 超网上，三种尺度均�
 
 - [\[CVPR 2026\] Teacher-Guided Routing for Sparse Vision Mixture-of-Experts](teacher-guided_routing_for_sparse_vision_mixture-of-experts.md)
 - [\[ICLR 2026\] LD-MoLE: Learnable Dynamic Routing for Mixture of LoRA Experts](../../ICLR2026/model_compression/ld-mole_learnable_dynamic_routing_for_mixture_of_lora_experts.md)
-- [\[CVPR 2026\] SG-LoRA: Semantic-guided LoRA Parameters Generation](sg-lora_semantic-guided_lora_parameters_generation.md)
 - [\[CVPR 2026\] LoPrune: Efficient Data Pruning for LoRA-Based Fine-Tuning of Vision Transformer](loprune_efficient_data_pruning_for_lora-based_fine-tuning_of_vision_transformer.md)
+- [\[CVPR 2026\] SG-LoRA: Semantic-guided LoRA Parameters Generation](sg-lora_semantic-guided_lora_parameters_generation.md)
 - [\[ACL 2026\] SAMoRA: Semantic-Aware Mixture of LoRA Experts for Task-Adaptive Learning](../../ACL2026/model_compression/samora_semantic-aware_mixture_of_lora_experts_for_task-adaptive_learning.md)
 
 </div>

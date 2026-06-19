@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VQRAE: Representation Quantization Autoencoders for Multimodal Understanding, Generation and Reconstruction
 description: >-
-  [CVPR 2026][多模态VLM][统一 tokenizer] VQRAE 把 RAE（用预训练视觉基座当编码器的表示自编码器）做成向量量化版，**一个 tokenizer 同时吐出连续语义特征供理解、离散 token 供生成与重建**，并首次证明：量化语义特征时码本要用**高维度**（1536）才能 100% 利用、不塌缩，彻底摆脱了双编码器和 CNN 像素编码器。
+  [CVPR 2026][VLM Efficiency][统一 tokenizer] VQRAE 把 RAE（用预训练视觉基座当编码器的表示自编码器）做成向量量化版，**一个 tokenizer 同时吐出连续语义特征供理解、离散 token 供生成与重建**，并首次证明：量化语义特征时码本要用**高维度**（1536）才能 100% 利用、不塌缩，彻底摆脱了双编码器和 CNN 像素编码器。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "统一 tokenizer"
   - "向量量化"
   - "表示自编码器"
@@ -176,11 +176,11 @@ VQRAE 用更简洁的单编码器、纯 ViT、无卷积块，重建质量反超 
 
 ## 相关论文
 
-- [\[CVPR 2026\] Guiding Diffusion-based Reconstruction with Contrastive Signals for Balanced Visual Representation](guiding_diffusion-based_reconstruction_with_contrastive_signals_for_balanced_vis.md)
-- [\[CVPR 2026\] Reversing the Flow: Generation-to-Understanding Synergy in Large Multimodal Models](reversing_the_flow_generation-to-understanding_synergy_in_large_multimodal_model.md)
-- [\[CVPR 2026\] MOON2.0: Dynamic Modality-balanced Multimodal Representation Learning for E-commerce Product Understanding](moon20_dynamic_modality-balanced_multimodal_representation_learning_for_e-commer.md)
-- [\[CVPR 2026\] HBridge: H-Shape Bridging of Heterogeneous Experts for Unified Multimodal Understanding and Generation](hbridge_h-shape_bridging_of_heterogeneous_experts_for_unified_multimodal_underst.md)
-- [\[CVPR 2026\] ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding](remora_multimodal_large_language_model_based_on_refined_motion_representation_fo.md)
+- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
+- [\[CVPR 2026\] LS-ViT: Least-Squares Hessian Based Block Reconstruction for Low-Bit Post-Training Quantization of Vision Transformers](ls-vit_least-squares_hessian_based_block_reconstruction_for_low-bit_post-trainin.md)
+- [\[CVPR 2026\] Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models Quantization](quant_experts_token_aware_vlm_quantization.md)
+- [\[CVPR 2026\] Blink: Dynamic Visual Token Resolution for Enhanced Multimodal Understanding](blink_dynamic_visual_token_resolution_for_enhanced_multimodal_understanding.md)
+- [\[CVPR 2026\] MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models](masquant_modality-aware_smoothing_quantization_for_multimodal_large_language_mod.md)
 
 </div>
 

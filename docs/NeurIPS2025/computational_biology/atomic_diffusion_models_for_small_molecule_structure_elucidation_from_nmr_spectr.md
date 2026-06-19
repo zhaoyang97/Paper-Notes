@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2512.03127](https://arxiv.org/abs/2512.03127)  
 **代码**: [GitHub](https://github.com/zhonge/ChefNMR)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: NMR光谱, 分子结构解析, 扩散模型, 天然产物, 3D分子生成  
 
 ## 一句话总结

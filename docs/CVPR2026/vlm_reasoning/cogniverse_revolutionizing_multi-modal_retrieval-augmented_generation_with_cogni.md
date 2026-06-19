@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CogniVerse: Revolutionizing Multi-Modal Retrieval-Augmented Generation with Cognitive Reflection and Geometric Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][多模态RAG] CogniVerse 把"人脑式反思—检索—综合"三步搬进多模态 RAG：先用一个认知反思模块判断"这题要不要查外部知识、查回来的内容相不相关"，再把图文与知识图谱对齐到双曲空间并用谱图理论裁出查询相关子图，最后用最优传输损失生成兼顾局部准确与全局连贯的答案，在三个 MMQA 数据集上准确率、连贯度、检索精度全面超过 MuRAG/MMCoQA/GraphRAG，同时还降低了检索延迟。
+  [CVPR 2026][VLM Reasoning][多模态RAG] CogniVerse 把"人脑式反思—检索—综合"三步搬进多模态 RAG：先用一个认知反思模块判断"这题要不要查外部知识、查回来的内容相不相关"，再把图文与知识图谱对齐到双曲空间并用谱图理论裁出查询相关子图，最后用最优传输损失生成兼顾局部准确与全局连贯的答案，在三个 MMQA 数据集上准确率、连贯度、检索精度全面超过 MuRAG/MMCoQA/GraphRAG，同时还降低了检索延迟。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态RAG"
   - "自适应检索"
   - "双曲嵌入"
@@ -140,11 +140,11 @@ CogniVerse 在三个数据集准确率均超次优 MMCoQA 约 6–7 个点，连
 
 ## 相关论文
 
-- [\[CVPR 2026\] Socratic-Geo: Synthetic Data Generation and Cross-Modal Geometric Reasoning via Multi-Agent Interaction](socratic-geo_synthetic_data_generation_and_cross-modal_geometric_reasoning_via_m.md)
 - [\[CVPR 2026\] R4: Retrieval-Augmented Reasoning for Vision-Language Models in 4D Spatio-Temporal Space](r4_retrieval-augmented_reasoning_for_vision-language_models_in_4d_spatio-tempora.md)
-- [\[CVPR 2026\] Wan-Weaver: Interleaved Multi-modal Generation via Decoupled Training](wan-weaver_interleaved_multi-modal_generation_via_decoupled_training.md)
-- [\[CVPR 2026\] Hierarchical Attacks for Multi-Modal Multi-Agent Reasoning](hierarchical_attacks_for_multi-modal_multi-agent_reasoning.md)
-- [\[CVPR 2026\] LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map](lasar_towards_spatio-temporal_reasoning_with_latent_cognitive_map.md)
+- [\[CVPR 2026\] Can a Second-View Image Be a Language? Geometric and Semantic Cross-Modal Reasoning for X-ray Prohibited Item Detection](can_a_second-view_image_be_a_language_geometric_and_semantic_cross-modal_reasoni.md)
+- [\[CVPR 2026\] Chain-of-Thought Guided Multi-Modal Object Re-Identification](chain-of-thought_guided_multi-modal_object_re-identification.md)
+- [\[CVPR 2026\] CRIT: Graph-Based Automatic Data Synthesis to Enhance Cross-Modal Multi-Hop Reasoning](crit_graph-based_automatic_data_synthesis_to_enhance_cross-modal_multi-hop_reaso.md)
+- [\[CVPR 2026\] Compositional Transformation Reasoning for Composed Video Retrieval](compositional_transformation_reasoning_for_composed_video_retrieval.md)
 
 </div>
 

@@ -101,6 +101,7 @@ fMRI-LM-B(G)=GPT-2 底座，fMRI-LM-B(Q)=Qwen3-0.6B 底座；与监督方法和 
 回归任务上（年龄 MAE↓、流体智力相关 $p$↑）同样领先，例如 UKB-Age MAE 从 Brain-JEPA 的 1.69 类水平到 1.80、相关性 $p$ 提到 0.85；HCP-A Fluid Comp MAE 4.60、$p$ 0.76，整体取得最佳或次佳。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | Full model | 基准 | 完整三阶段 + 配对描述符 |
@@ -146,8 +147,8 @@ fMRI-LM-B(G)=GPT-2 底座，fMRI-LM-B(Q)=Qwen3-0.6B 底座；与监督方法和 
 - [\[CVPR 2026\] MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images](medmo_grounding_and_understanding_multimodal_large_language_model_for_medical_im.md)
 - [\[CVPR 2026\] MLLM-HWSI: A Multimodal Large Language Model for Hierarchical Whole Slide Image Understanding](mllm-hwsi_a_multimodal_large_language_model_for_hierarchical_whole_slide_image_u.md)
 - [\[CVPR 2026\] Bridging Brain and Semantics: A Hierarchical Framework for Semantically Enhanced fMRI-to-Video Reconstruction](bridging_brain_and_semantics_a_hierarchical_framework_for_semantically_enhanced_.md)
+- [\[CVPR 2026\] Duala: Dual-Level Alignment of Subjects and Stimuli for Cross-Subject fMRI Decoding](duala_dual-level_alignment_of_subjects_and_stimuli_for_cross-subject_fmri_decodi.md)
 - [\[CVPR 2026\] Modeling the Brain's Grammar: ROI-Guided fMRI Pretraining for Transferable and Interpretable Vision Decoding](modeling_the_brains_grammar_roi-guided_fmri_pretraining_for_transferable_and_int.md)
-- [\[CVPR 2026\] Continual Learning for fMRI-Based Brain Disorder Diagnosis via Functional Connectivity Matrices Generative Replay](forge_continual_learning_for_fmri_based_brain_disorder_diagnosis.md)
 
 </div>
 

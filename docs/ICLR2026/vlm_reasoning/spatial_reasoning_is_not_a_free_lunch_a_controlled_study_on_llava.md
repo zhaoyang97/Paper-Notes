@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA
 description: >-
-  [ICLR 2026][多模态VLM][spatial reasoning] 通过在 LLaVA 框架下控制实验，系统性地研究图像编码器训练目标和 2D 位置编码对 VLM 空间推理能力的影响，发现编码器选择主导空间性能、AIMv2 编码器一致性最好，但 2D-RoPE 的改进不稳定，空间推理的失败根植于当前 VLM 流水线的核心设计选择。
+  [ICLR 2026][VLM Reasoning][spatial reasoning] 通过在 LLaVA 框架下控制实验，系统性地研究图像编码器训练目标和 2D 位置编码对 VLM 空间推理能力的影响，发现编码器选择主导空间性能、AIMv2 编码器一致性最好，但 2D-RoPE 的改进不稳定，空间推理的失败根植于当前 VLM 流水线的核心设计选择。
 tags:
   - "ICLR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "spatial reasoning"
   - "image encoder"
   - "2D-RoPE"

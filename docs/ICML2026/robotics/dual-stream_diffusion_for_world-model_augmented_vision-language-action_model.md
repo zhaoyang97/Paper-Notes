@@ -111,6 +111,7 @@ RoboCasa（24 个操作任务）+ GR-1（24 任务）+ Franka Research 3 真机�
 DUST 在每个 demo 规模下都稳定领先 FLARE，对 vanilla GR00T-N1.5 的相对提升尤其明显（RoboCasa 100 demos 直接 +8.4 个百分点）。真机上 PnP/Insert/Tool-Use 三类任务全面提升，最难的 Cord-insertion 从 12.5% 跳到 29.2%。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|----------|------|
 | Full DUST | Avg. 58.5 (RoboCasa 300 demos) | 完整模型，$q=1$ |
@@ -159,10 +160,10 @@ DUST 在每个 demo 规模下都稳定领先 FLARE，对 vanilla GR00T-N1.5 的�
 ## 相关论文
 
 - [\[ICML 2026\] Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies](discrete_diffusion_vla_bringing_discrete_diffusion_to_action_decoding_in_vision-.md)
+- [\[CVPR 2026\] NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction](../../CVPR2026/robotics/navforesee_a_unified_vision-language_world_model_for_hierarchical_planning_and_d.md)
 - [\[ICML 2026\] From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model](from_abstraction_to_instantiation_learning_behavioral_representation_for_vision-.md)
 - [\[CVPR 2026\] Global Prior Meets Local Consistency: Dual-Memory Augmented Vision-Language-Action Model for Efficient Robotic Manipulation](../../CVPR2026/robotics/global_prior_meets_local_consistency_dual-memory_augmented_vision-language-actio.md)
 - [\[CVPR 2026\] Chain of World: World Model Thinking in Latent Motion (CoWVLA)](../../CVPR2026/robotics/chain_of_world_world_model_thinking_in_latent_motion.md)
-- [\[CVPR 2026\] Motus: A Unified Latent Action World Model](../../CVPR2026/robotics/motus_a_unified_latent_action_world_model.md)
 
 </div>
 

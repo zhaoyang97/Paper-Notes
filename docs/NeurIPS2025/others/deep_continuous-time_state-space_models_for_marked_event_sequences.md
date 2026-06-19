@@ -149,9 +149,9 @@ S2P2 在 EHRSHOT（大规模医疗数据集，最长序列最多标记）上优�
 
 - [\[NeurIPS 2025\] Deep Learning for Continuous-Time Stochastic Control with Jumps](deep_learning_for_continuous-time_stochastic_control_with_jumps.md)
 - [\[ICML 2025\] UnHiPPO: Uncertainty-Aware Initialization for State Space Models](../../ICML2025/others/unhippo_uncertainty-aware_initialization_for_state_space_models.md)
-- [\[CVPR 2026\] Exemplar-Free Continual Learning for State Space Models](../../CVPR2026/others/exemplar-free_continual_learning_for_state_space_models.md)
 - [\[NeurIPS 2025\] Continuous Thought Machines](continuous_thought_machines.md)
 - [\[NeurIPS 2025\] Addressing Mark Imbalance in Integration-free Neural Marked Temporal Point Processes](addressing_mark_imbalance_in_integrationfree_neural_marked_t.md)
+- [\[NeurIPS 2025\] SPACE: SPike-Aware Consistency Enhancement for Test-Time Adaptation in Spiking Neural Networks](space_spike-aware_consistency_enhancement_for_test-time_adaptation_in_spiking_ne.md)
 
 </div>
 

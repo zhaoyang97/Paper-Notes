@@ -90,6 +90,7 @@ flowchart TD
 论文还给出总体结论：在四个评测模型上，LANG 相比 LC-GRPO 在 MMATH 上平均提升 24.1%，在 PolyMath 上平均提升 18.7%。低资源语言收益尤其明显，例如 Qwen2.5-7B 上 Thai 的 MMATH LC&Acc 相比 mGRPO 提升 39.0%，Vietnamese 的 PolyMath LC&Acc 提升 24.6%。
 
 ### 消融实验
+
 | 配置 | MMATH LC&Acc | PolyMath LC&Acc | 说明 |
 |------|--------------|-----------------|------|
 | LANG, cosine decay | 28.6 | 15.6 | 完整方法，余弦衰减最好 |

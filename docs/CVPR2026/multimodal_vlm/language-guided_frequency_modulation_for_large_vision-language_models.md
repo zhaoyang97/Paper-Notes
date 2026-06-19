@@ -76,6 +76,7 @@ LFM 不改原 LVLM 的训练目标，沿用标准两阶段：预训练阶段冻�
 > 指标说明：表中 SQAI(ScienceQA-IMG)、MMB(MMBench)、MMEp(MME 感知)、MM-Vet、MMMUv、Math(MathVista)、GQA、MMStar 均为视觉问答/推理基准，数值越高越好；MME 为 sum 分（千分量级），其余多为百分制。Res. 为输入分辨率，PT/IT 为预训练/指令微调数据量。
 
 ### 主实验
+
 | 方法 | LLM | SQAI | MMB | MMEp | MM-Vet | MathVista | GQA |
 |------|-----|------|-----|------|---------|-----------|-----|
 | LLaVA-v1.5 | Vicuna-13B | 71.6 | 67.7 | 1531 | 36.1 | 27.6 | 63.3 |
@@ -86,6 +87,7 @@ LFM 不改原 LVLM 的训练目标，沿用标准两阶段：预训练阶段冻�
 在相同 LLaVA 框架下，LFM 跨 2.7B→34B 的多种 LLM 骨干稳定超过线性投影与 Dense Connector；接到 InternVL2.5、Qwen2.5-VL 等 SoTA LVLM 上（表 3）同样在 1B→8B 全规模、MME/MMB/MathVista 各基准一致提升，例如 LFM(w/ Qwen2.5-VL-7B) 把 MMVet 推到 69.8、MathVista 69.8。
 
 ### 消融实验
+
 | 交互策略 | 免训练 | MMStar | MMB |
 |------|--------|--------|-----|
 | 无交互（baseline） | ✓ | 55.36 | 78.49 |
@@ -135,9 +137,9 @@ LFM 不改原 LVLM 的训练目标，沿用标准两阶段：预训练阶段冻�
 
 - [\[CVPR 2026\] Ego: Embedding-Guided Personalization of Vision-Language Models](ego_embedding-guided_personalization_of_vision-language_models.md)
 - [\[CVPR 2026\] Diffusion Guided Chain-of-Vision for Large Autoregressive Vision Models](diffusion_guided_chain-of-vision_for_large_autoregressive_vision_models.md)
-- [\[CVPR 2026\] FlashCache: Frequency-Domain-Guided Outlier-KV-Aware Multimodal KV Cache Compression](flashcache_frequency_kv_cache_compression.md)
-- [\[CVPR 2026\] OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models](omnizip_audio-guided_dynamic_token_compression_for_fast_omnimodal_large_language.md)
+- [\[CVPR 2026\] Understanding Counting Mechanisms in Large Language and Vision-Language Models](understanding_counting_mechanisms_in_large_language_and_vision-language_models.md)
 - [\[ACL 2026\] Text-Guided Multi-Scale Frequency Representation Adaptation](../../ACL2026/multimodal_vlm/text-guided_multi-scale_frequency_representation_adaptation.md)
+- [\[CVPR 2026\] Which Concepts to Forget and How to Refuse? Decomposing Concepts for Continual Unlearning in Large Vision-Language Models](which_concepts_to_forget_and_how_to_refuse_decomposing_concepts_for_continual_un.md)
 
 </div>
 

@@ -110,6 +110,7 @@ DeepSeek-R1 那套通用推理 RL 只看 format + 最终答案，中间推理仍
 诊断准确率比 GEM 提升 5.6 个绝对点（74.7 → 80.3），临床诊断保真度提升 21 个点（62.9 → 84.2），且 RL 进一步加 1 分左右。
 
 ### 跨模态一致性
+
 | 指标 | BLEU-4 | ROUGE-L | SBERT |
 |------|--------|---------|-------|
 | GEM | 0.33 | 0.43 | 0.92 |
@@ -153,8 +154,8 @@ BLEU-4 翻倍多，证明同一份 ECG 在仅给信号 vs 仅给图像时模型�
 - [\[AAAI 2026\] anyECG-chat: A Generalist ECG-MLLM for Flexible ECG Input and Multi-Task Understanding](../../AAAI2026/multimodal_vlm/anyecg-chat_a_generalist_ecg-mllm_for_flexible_ecg_input_and.md)
 - [\[NeurIPS 2025\] GEM: Empowering MLLM for Grounded ECG Understanding with Time Series and Images](../../NeurIPS2025/multimodal_vlm/gem_empowering_mllm_for_grounded_ecg_understanding_with_time_series_and_images.md)
 - [\[ICML 2026\] AOEPT: Breaking the Implicit Modality-Reduction Bottleneck in Modality-Missing Prompt Tuning](aoept_breaking_the_implicit_modality-reduction_bottleneck_in_modality-missing_pr.md)
-- [\[ICML 2026\] Less Precise Can Be More Reliable: A Systematic Evaluation of Quantization's Impact on VLMs Beyond Accuracy](less_precise_can_be_more_reliable_a_systematic_evaluation_of_quantizations_impac.md)
 - [\[ICML 2026\] RESTORE: 通过矫正失真改进视觉 Token 缩减以提升 MLLM 推理效率](improving_visual_token_reduction_via_rectifying_distortions_for_efficient_multim.md)
+- [\[ICML 2026\] Jailbreaking Vision-Language Models Through the Visual Modality](jailbreaking_vision-language_models_through_the_visual_modality.md)
 
 </div>
 

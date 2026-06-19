@@ -145,10 +145,10 @@ LinPrim 建立在3DGS的pipeline之上，替换了核心的场景表示和渲染
 
 ## 相关论文
 
+- [\[CVPR 2026\] MeshSplatting: Differentiable Rendering with Opaque Meshes](../../CVPR2026/3d_vision/meshsplatting_differentiable_rendering_with_opaque_meshes.md)
 - [\[CVPR 2026\] D-Prism: Differentiable Primitives for Structured Dynamic Modeling](../../CVPR2026/3d_vision/d-prism_differentiable_primitives_for_structured_dynamic_modeling.md)
 - [\[CVPR 2026\] Hermite Radial Basis Function for Surface Reconstruction via Differentiable Rendering](../../CVPR2026/3d_vision/hermite_radial_basis_function_for_surface_reconstruction_via_differentiable_rend.md)
 - [\[NeurIPS 2025\] UMAMI: Unifying Masked Autoregressive Models and Deterministic Rendering for View Synthesis](umami_unifying_masked_autoregressive_models_and_deterministic_rendering_for_view.md)
-- [\[CVPR 2026\] UTrice: Unifying Primitives in Differentiable Ray Tracing and Rasterization via Triangles for Particle-Based 3D Scenes](../../CVPR2026/3d_vision/utrice_unifying_primitives_in_differentiable_ray_tracing_and_rasterization_via_t.md)
 - [\[CVPR 2026\] Voxify3D: Pixel Art Meets Volumetric Rendering](../../CVPR2026/3d_vision/voxify3d_pixel_art_meets_volumetric_rendering.md)
 
 </div>

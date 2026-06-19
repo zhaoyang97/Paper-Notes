@@ -101,6 +101,7 @@ $$\mathcal{L}_{\text{data}}=\big(1-sg(I^{rg}_t)\big)\odot\mathcal{L}_{ev}+sg(I^{
 在增强和新视角合成两个任务、所有指标上都明显领先：增强 PSNR 比最好的事件+帧基线 EvLowLight（18.18）高 5.27 dB，LPIPS 从 0.43 量级压到 0.089。纯事件方法（IncEventGS、NeR-Net）在亮度和颜色上不准，纯帧方法在暗区丢细节，学习型融合方法（EvLowLight/EvLight）受数据偏置出伪影——三类都被显著超过。
 
 ### 消融实验
+
 | 配置 | PSNR↑ | SSIM↑ | LPIPS↓ | 说明 |
 |------|-------|-------|--------|------|
 | Ours w/o E, $\mathcal{L}_{tv}$ | 17.21 | 0.5030 | 0.5027 | 去掉事件+平滑先验，掉 6.24 dB（最致命） |
@@ -151,7 +152,7 @@ $$\mathcal{L}_{\text{data}}=\big(1-sg(I^{rg}_t)\big)\odot\mathcal{L}_{ev}+sg(I^{
 - [\[CVPR 2026\] Geometric-Photometric Event-based 3D Gaussian Ray Tracing](geometric-photometric_event-based_3d_gaussian_ray_tracing.md)
 - [\[CVPR 2026\] E2EGS: Event-to-Edge Gaussian Splatting for Pose-Free 3D Reconstruction](e2egs_event-to-edge_gaussian_splatting_for_pose-free_3d_reconstruction.md)
 - [\[CVPR 2026\] Part$^{2}$GS: Part-aware Modeling of Articulated Objects using 3D Gaussian Splatting](part2gs_part-aware_modeling_of_articulated_objects_using_3d_gaussian_splatting.md)
-- [\[CVPR 2026\] FastEventDGS: Deformable Gaussian Splatting for Fast Dynamic Scenes from a Single Event Camera](fasteventdgs_deformable_gaussian_splatting_for_fast_dynamic_scenes_from_a_single.md)
+- [\[CVPR 2026\] DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures](dualsplat_robust_3d_gaussian_splatting_via_pseudo-mask_bootstrapping_from_recons.md)
 
 </div>
 

@@ -127,9 +127,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](sparse4dgs_4d_gaussian_splatting_for_sparse-frame_dynamic_scene_reconstruction.md)
-- [\[CVPR 2026\] SimRecon: SimReady Compositional Scene Reconstruction from Real Videos](../../CVPR2026/3d_vision/simrecon_simready_compositional_scene_reconstruction_from_real_videos.md)
 - [\[ICCV 2025\] BezierGS: Dynamic Urban Scene Reconstruction with Bézier Curve Gaussian Splatting](../../ICCV2025/3d_vision/beziergs_dynamic_urban_scene_reconstruction_with_bezier_curve_gaussian_splatting.md)
 - [\[NeurIPS 2025\] Dynamic Gaussian Splatting from Defocused and Motion-blurred Monocular Videos](../../NeurIPS2025/3d_vision/dynamic_gaussian_splatting_from_defocused_and_motion-blurred_monocular_videos.md)
+- [\[CVPR 2026\] MAPo: Motion-Aware Partitioning of Deformable 3D Gaussian Splatting for High-Fidelity Dynamic Scene Reconstruction](../../CVPR2026/3d_vision/mapo_motion-aware_partitioning_of_deformable_3d_gaussian_splatting_for_high-fide.md)
 - [\[CVPR 2026\] Point4Cast: Streaming Dynamic Scene Reconstruction and Forecasting](../../CVPR2026/3d_vision/point4cast_streaming_dynamic_scene_reconstruction_and_forecasting.md)
 
 </div>

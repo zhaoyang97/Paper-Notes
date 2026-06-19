@@ -143,8 +143,8 @@ RobustS 和 ImpR 在所有网格大小下均在 1 分钟和 1 秒内完成。
 
 - [\[ICML 2025\] Maximum Total Correlation Reinforcement Learning](../../ICML2025/robotics/maximum_total_correlation_reinforcement_learning.md)
 - [\[AAAI 2026\] TouchFormer: A Robust Transformer-based Framework for Multimodal Material Perception](touchformer_a_robust_transformer-based_framework_for_multimodal_material_percept.md)
-- [\[ICML 2026\] Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action](../../ICML2026/robotics/spatial_memory_for_out-of-vision_manipulation_in_vision-language-action.md)
 - [\[AAAI 2026\] Distributionally Robust Online Markov Game with Linear Function Approximation](distributionally_robust_online_markov_game_with_linear_function_approximation.md)
+- [\[ICML 2026\] Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action](../../ICML2026/robotics/spatial_memory_for_out-of-vision_manipulation_in_vision-language-action.md)
 - [\[CVPR 2026\] Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains](../../CVPR2026/robotics/gallant_voxel_grid-based_humanoid_locomotion_and_local-navigation_across_3-d_con.md)
 
 </div>

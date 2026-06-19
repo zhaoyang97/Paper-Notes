@@ -126,8 +126,8 @@ SAL-4D 的训练损失包含三部分：(1) 实例分割损失——用匈牙利
 - [\[ICCV 2025\] 4DSegStreamer: Streaming 4D Panoptic Segmentation via Dual Threads](../../ICCV2025/autonomous_driving/4dsegstreamer_streaming_4d_panoptic_segmentation_via_dual_threads.md)
 - [\[CVPR 2025\] 3D-AVS: LiDAR-based 3D Auto-Vocabulary Segmentation](3d-avs_lidar-based_3d_auto-vocabulary_segmentation.md)
 - [\[CVPR 2025\] Exploring Scene Affinity for Semi-Supervised LiDAR Semantic Segmentation](exploring_scene_affinity_for_semi-supervised_lidar_semantic_segmentation.md)
-- [\[CVPR 2026\] Multi-Stage VLM Pipeline for Zero-Shot Traffic Accident Understanding](../../CVPR2026/autonomous_driving/multi-stage_vlm_pipeline_for_zero-shot_traffic_accident_understanding.md)
 - [\[CVPR 2025\] V2X-R: Cooperative LiDAR-4D Radar Fusion with Denoising Diffusion for 3D Object Detection](v2x-r_cooperative_lidar-4d_radar_fusion_with_denoising_diffusion_for_3d_object_d.md)
+- [\[CVPR 2025\] A Dataset for Semantic Segmentation in the Presence of Unknowns](a_dataset_for_semantic_segmentation_in_the_presence_of_unknowns.md)
 
 </div>
 

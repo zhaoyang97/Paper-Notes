@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs
 description: >-
-  [CVPR 2026][多模态VLM][音视频计数] 针对多模态大模型"数不清楚"的老毛病，本文一手做了 CG-AV-Counting——首个面向长视频、跨音视频模态、带细粒度"计数线索"标注的可解释计数基准；一手提出 AV-Reasoner，用 GRPO + 课程学习从定位/问答等相关任务里**迁移**出计数能力，在多个音视频推理基准上刷到 SOTA，但也诚实地指出语言空间里的显式推理在域外几乎没帮助。
+  [CVPR 2026][VLM Reasoning][音视频计数] 针对多模态大模型"数不清楚"的老毛病，本文一手做了 CG-AV-Counting——首个面向长视频、跨音视频模态、带细粒度"计数线索"标注的可解释计数基准；一手提出 AV-Reasoner，用 GRPO + 课程学习从定位/问答等相关任务里**迁移**出计数能力，在多个音视频推理基准上刷到 SOTA，但也诚实地指出语言空间里的显式推理在域外几乎没帮助。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "音视频计数"
   - "多模态大模型"
   - "GRPO强化学习"
@@ -159,11 +159,11 @@ AV-Reasoner 相对基座 Ola-Omni 在计数上全面提升，且在 MusicAVQA/LL
 
 ## 相关论文
 
-- [\[CVPR 2026\] CodePercept: Code-Grounded Visual STEM Perception for MLLMs](codepercept_code-grounded_visual_stem_perception_for_mllms.md)
-- [\[CVPR 2026\] SVHalluc: Benchmarking Speech-Vision Hallucination in Audio-Visual Large Language Models](svhalluc_benchmarking_speech-vision_hallucination_in_audio-visual_large_language.md)
-- [\[CVPR 2026\] Benchmarking Single-Factor Physical Video-to-Audio Generation](benchmarking_single-factor_physical_video-to-audio_generation.md)
 - [\[CVPR 2026\] IPR-1: Interactive Physical Reasoner](ipr-1_interactive_physical_reasoner.md)
-- [\[CVPR 2026\] TempR1: Improving Temporal Understanding of MLLMs via Temporal-Aware Multi-Task Reinforcement Learning](tempr1_improving_temporal_understanding_of_mllms_via_temporal-aware_multi-task_r.md)
+- [\[CVPR 2026\] CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)
+- [\[CVPR 2026\] TerraScope: Pixel-Grounded Visual Reasoning for Earth Observation](terrascope_pixel-grounded_visual_reasoning_for_earth_observation.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
+- [\[CVPR 2026\] InfiniBench: Infinite Benchmarking for Visual Spatial Reasoning with Customizable Scene Complexity](infinibench_infinite_benchmarking_for_visual_spatial_reasoning_with_customizable.md)
 
 </div>
 

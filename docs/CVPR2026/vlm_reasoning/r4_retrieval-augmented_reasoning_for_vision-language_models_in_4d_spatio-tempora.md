@@ -2,10 +2,10 @@
 title: >-
   [论文解读] R4: Retrieval-Augmented Reasoning for Vision-Language Models in 4D Spatio-Temporal Space
 description: >-
-  [CVPR 2026][多模态VLM][检索增强推理] R4 给冻结的视觉-语言模型外挂一个随时间持续生长的"4D 时空知识库"（语义+三维空间+时间），推理时把自然语言查询拆成语义/空间/时间三把钥匙去检索这块记忆并迭代注入 VLM，从而在不训练任何参数的情况下，让 VLM 能回忆几分钟前看过的物体、推断被遮挡/已消失的实体、并跨智能体协同，在具身问答与导航基准上大幅超越 GPT-5、o3 等强基线。
+  [CVPR 2026][VLM Reasoning][检索增强推理] R4 给冻结的视觉-语言模型外挂一个随时间持续生长的"4D 时空知识库"（语义+三维空间+时间），推理时把自然语言查询拆成语义/空间/时间三把钥匙去检索这块记忆并迭代注入 VLM，从而在不训练任何参数的情况下，让 VLM 能回忆几分钟前看过的物体、推断被遮挡/已消失的实体、并跨智能体协同，在具身问答与导航基准上大幅超越 GPT-5、o3 等强基线。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "检索增强推理"
   - "4D 时空记忆"
   - "具身问答"
@@ -141,11 +141,11 @@ R4 **完全免训练**：底层 VLM 冻结，没有任何梯度更新或微调�
 
 ## 相关论文
 
-- [\[CVPR 2026\] LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map](lasar_towards_spatio-temporal_reasoning_with_latent_cognitive_map.md)
-- [\[CVPR 2026\] R4-CGQA: Retrieval-based Vision Language Models for Computer Graphics Image Quality Assessment](r4-cgqa_retrieval-based_vision_language_models_for_computer_graphics_image_quali.md)
-- [\[CVPR 2026\] Flat-Pack Bench: Evaluating Spatio-Temporal Understanding in Large Vision-Language Models through Furniture Assembly](flat-pack_bench_evaluating_spatio-temporal_understanding_in_large_vision-languag.md)
+- [\[CVPR 2026\] Streaming Video Crime Anticipation with Spatio-Temporal Causal Reasoning](streaming_video_crime_anticipation_with_spatio-temporal_causal_reasoning.md)
+- [\[CVPR 2026\] Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models](learning_to_reason_in_4d_dynamic_spatial_understanding_for_vision_language_model.md)
 - [\[CVPR 2026\] CogniVerse: Revolutionizing Multi-Modal Retrieval-Augmented Generation with Cognitive Reflection and Geometric Reasoning](cogniverse_revolutionizing_multi-modal_retrieval-augmented_generation_with_cogni.md)
-- [\[CVPR 2026\] 4DP-QA: Scalable QA for 4D Perception in Vision Language Models](4dp-qa_scalable_qa_for_4d_perception_in_vision_language_models.md)
+- [\[CVPR 2026\] CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)
+- [\[CVPR 2026\] Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](thinking_in_dynamics_how_multimodal_large_language_models_perceive_track_and_rea.md)
 
 </div>
 

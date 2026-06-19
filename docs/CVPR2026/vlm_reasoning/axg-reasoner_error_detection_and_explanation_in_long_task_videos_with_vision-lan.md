@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AXG-Reasoner: Error Detection and Explanation in Long Task Videos with Vision-Language Models
 description: >-
-  [CVPR 2026][多模态VLM][错误推理] 针对"长任务视频里检测并解释用户操作错误"这一问题，本文用冻结 VLM + 自动构建的「动作执行图（AXG）」+ 时序动作分割，把每个动作段拆成细粒度子动作、只在子动作关键帧上查询 VLM，从而让模型聚焦于稀疏的时空错误线索，在 EgoPER 和 CaptainCook4D 上的错误解释和错误检测均显著超过 VLM 基线并达到 SOTA。
+  [CVPR 2026][VLM Reasoning][错误推理] 针对"长任务视频里检测并解释用户操作错误"这一问题，本文用冻结 VLM + 自动构建的「动作执行图（AXG）」+ 时序动作分割，把每个动作段拆成细粒度子动作、只在子动作关键帧上查询 VLM，从而让模型聚焦于稀疏的时空错误线索，在 EgoPER 和 CaptainCook4D 上的错误解释和错误检测均显著超过 VLM 基线并达到 SOTA。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "错误推理"
   - "长任务视频"
   - "视觉语言模型"
@@ -165,11 +165,11 @@ GT 动作段上的错误检测（F1，上界设定）：EgoPER 上 AXG 63.6（Qw
 
 ## 相关论文
 
-- [\[CVPR 2026\] Understanding Task Transfer in Vision-Language Models](understanding_task_transfer_in_vision-language_models.md)
 - [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
 - [\[CVPR 2026\] IPR-1: Interactive Physical Reasoner](ipr-1_interactive_physical_reasoner.md)
-- [\[CVPR 2026\] Activation Matters: Test-time Activated Negative Labels for OOD Detection with Vision-Language Models](activation_matters_test-time_activated_negative_labels_for_ood_detection_with_vi.md)
-- [\[CVPR 2026\] LVLM-Aided Alignment of Task-Specific Vision Models](lvlm-aided_alignment_of_task-specific_vision_models.md)
+- [\[CVPR 2026\] LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](longvt_incentivizing_thinking_with_long_videos_via_native_tool_calling.md)
+- [\[ACL 2026\] ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](../../ACL2026/vlm_reasoning/errorradar_benchmarking_complex_mathematical_reasoning_of_multimodal_large_langu.md)
+- [\[CVPR 2026\] MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models](moe-grpo_optimizing_mixture-of-experts_via_reinforcement_learning_in_vision-lang.md)
 
 </div>
 

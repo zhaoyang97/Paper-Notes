@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2604.08927](https://arxiv.org/abs/2604.08927)  
 **代码**: [GitHub](https://github.com/HovChen/Aegle)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 多学科会诊, 多智能体, 临床问诊, SOAP笔记, 动态拓扑
 
 ## 一句话总结

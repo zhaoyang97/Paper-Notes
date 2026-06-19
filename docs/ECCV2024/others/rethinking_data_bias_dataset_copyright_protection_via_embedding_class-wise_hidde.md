@@ -128,10 +128,10 @@ Undercover Bias 的工作流程分为三个阶段：(1) 水印嵌入：为数据
 ## 相关论文
 
 - [\[CVPR 2026\] Bias In, Bias Out? Finding Unbiased Subnetworks in Vanilla Models](../../CVPR2026/others/bias_in_bias_out_finding_unbiased_subnetworks_in_vanilla_models.md)
-- [\[CVPR 2026\] Bias at the End of the Score](../../CVPR2026/others/bias_at_the_end_of_the_score.md)
 - [\[ACL 2025\] Causal Estimation of Tokenisation Bias](../../ACL2025/others/causal_tokenisation_bias.md)
 - [\[ECCV 2024\] Rebalancing Using Estimated Class Distribution for Imbalanced Semi-Supervised Learning under Class Distribution Mismatch](rebalancing_using_estimated_class_distribution_for_imbalanced_semi-supervised_le.md)
 - [\[ECCV 2024\] ABC Easy as 123: A Blind Counter for Exemplar-Free Multi-Class Class-Agnostic Counting](abc_easy_as_123_a_blind_counter_for_exemplar-free_multi-class_class-agnostic_cou.md)
+- [\[ICML 2025\] NeuronTune: Towards Self-Guided Spurious Bias Mitigation](../../ICML2025/others/neurontune_towards_self-guided_spurious_bias_mitigation.md)
 
 </div>
 

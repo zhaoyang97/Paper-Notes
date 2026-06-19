@@ -97,6 +97,7 @@ RLA 程序里同一个算法常常能由不同动作顺序构造出来，标准 
 跨 5 条课程，MCGS 相对 MCTS 把 playouts 降 2–3 倍；目标越组合（深度越深、奖励越稀疏），UCD 相对 UCT 越显优势——在 Block Randomized Kaczmarz 上 UCD 比 UCT 又少 35% playouts。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | 全课程 + MCGS+UCD | Newton Sketch 100% 成功 | 完整方案 |

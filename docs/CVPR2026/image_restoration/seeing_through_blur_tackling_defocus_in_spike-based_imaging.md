@@ -104,6 +104,7 @@ $$L=\lambda_1\sum_{i=1}^{N_t}\sum_{s=1}^{N_s}\beta_{i,s}L_{i,s}^{\mathrm{MSE}}+\
 PSNR 与 LPIPS 全面领先；SSIM 仅略逊于 GKMNet 去模糊的 TFP 重建，整体优势仍明显。真实数据上各项指标均最优，在线网/通风格栅/窗框等场景能同时还原结构与底层纹理，而"先重建再去模糊"的级联管线会因信息丢失保不住细节。
 
 ### 消融实验
+
 | 配置 | PSNR↑ | SSIM↑ | LPIPS↓ | 说明 |
 |------|-------|-------|--------|------|
 | All Modules | 18.94 | 0.57 | 0.25 | 完整模型 |
@@ -151,7 +152,7 @@ PSNR 与 LPIPS 全面领先；SSIM 仅略逊于 GKMNet 去模糊的 TFP 重建�
 
 - [\[CVPR 2026\] HFR and HDR Video from Multi-Attenuated Spikes Using a Rapidly Rotating SpokeND Filter](hfr_and_hdr_video_from_multi-attenuated_spikes_using_a_rapidly_rotating_spokend_.md)
 - [\[CVPR 2026\] Hybrid Agents for Image Restoration](hybrid_agents_for_image_restoration.md)
-- [\[CVPR 2026\] DRFusion: Degradation-Robust Fusion via Degradation-Aware Diffusion Framework](drfusion_degradation_robust_fusion_via_degradation_aware_diffusion_framework.md)
+- [\[CVPR 2026\] UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration](ucmnet_uncertainty-aware_context_memory_network_for_under-display_camera_image_r.md)
 - [\[CVPR 2026\] Towards Universal Computational Aberration Correction in Photographic Cameras: A Comprehensive Benchmark Analysis](unicac_universal_computational_aberration_correction_benchmark.md)
 - [\[CVPR 2026\] Bi-Bridge: Bidirectional Diffusion Bridges for Low-Light Image Enhancement](bi-bridge_bidirectional_diffusion_bridges_for_low-light_image_enhancement.md)
 

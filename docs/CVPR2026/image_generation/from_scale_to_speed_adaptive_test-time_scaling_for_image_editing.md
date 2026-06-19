@@ -92,6 +92,7 @@ ADE-CoT 是训练无关、即插即用的测试时方法，不引入任何训练
 相对 BoN，ADE-CoT 把推理效率 $\eta$ 提升 2× 以上，结果效率 $\xi$ 在三 benchmark 上平均提升 4.9×/2.7×/2.9×（对应 GEdit/AnyEdit/Reason-Edit 的整体 speedup 也在 2× 量级）。两个对照基线的失败方式很说明问题：PRM/PARM 因通用分误判早期预览、误剪高潜力样本，性能反不如 BoN；TTS-EF 效率高但只从早期预览选单个最优、采样一多就不可靠，性能差。
 
 ### 消融实验（逐策略叠加，GEdit-Bench，G_O / NFE）
+
 | 配置 | Kontext | BAGEL | Step1X-Edit |
 |------|---------|-------|-------------|
 | Baseline (BoN) | 6.641 / 896 | 6.908 / 1600 | 7.157 / 896 |
@@ -139,10 +140,10 @@ ADE-CoT 是训练无关、即插即用的测试时方法，不引入任何训练
 ## 相关论文
 
 - [\[CVPR 2026\] Progress by Pieces: Test-Time Scaling for Autoregressive Image Generation](progress_by_pieces_test-time_scaling_for_autoregressive_image_generation.md)
+- [\[CVPR 2026\] NEAF: Natural Image Editing with Attention Fusion for Generalizable Test-time Optimization in Text-Guided Image Editing](neaf_natural_image_editing_with_attention_fusion_for_generalizable_test-time_opt.md)
 - [\[CVPR 2026\] Test-Time Instance-Specific Parameter Composition: A New Paradigm for Adaptive Generative Modeling](test-time_instance-specific_parameter_composition_a_new_paradigm_for_adaptive_ge.md)
 - [\[CVPR 2026\] Test-Time Alignment of Text-to-Image Diffusion Models via Null-Text Embedding Optimisation](test-time_alignment_of_text-to-image_diffusion_models_via_null-text_embedding_op.md)
 - [\[CVPR 2026\] Rethinking Prompt Design for Inference-time Scaling in Text-to-Visual Generation](rethinking_prompt_design_for_inference-time_scaling_in_text-to-visual_generation.md)
-- [\[CVPR 2026\] MRT: Masked Region Transformer for Layered Image Generation and Editing at Scale](mrt_masked_region_transformer_for_layered_image_generation_and_editing_at_scale.md)
 
 </div>
 

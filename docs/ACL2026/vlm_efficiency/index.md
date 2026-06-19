@@ -1,15 +1,15 @@
 ---
 title: >-
-  ACL2026 VLMEfficiency论文汇总 · 5篇论文解读
+  ACL2026 VLMEfficiency论文汇总 · 6篇论文解读
 description: >-
-  5篇ACL2026的 VLM Efficiency 方向论文解读，涵盖压缩/编码、多模态、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  6篇ACL2026的 VLM Efficiency 方向论文解读，涵盖多模态、压缩/编码、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "VLM Efficiency"
   - "论文解读"
   - "论文笔记"
-  - "压缩/编码"
   - "多模态"
+  - "压缩/编码"
   - "模型压缩"
 item_list:
   - u: "apb-v_accelerating_long-video_understanding_via_sequence-parallelism-aware_appro/"
@@ -20,17 +20,21 @@ item_list:
     t: "HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding"
   - u: "hiprune_hierarchical_attention_for_efficient_token_pruning_in_vision-language_mo/"
     t: "HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models"
+  - u: "macs_modality-aware_capacity_scaling_for_efficient_multimodal_moe_inference/"
+    t: "MACS: Modality-Aware Capacity Scaling for Efficient Multimodal MoE Inference"
   - u: "regate_learning_faster_and_better_with_fewer_tokens_in_mllms/"
     t: "ReGATE: Learning Faster and Better with Fewer Tokens in MLLMs"
-item_total: 5
+item_total: 6
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ VLM Efficiency
 
-**💬 ACL2026** · **5** 篇论文解读
+**💬 ACL2026** · **6** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (31)](../../CVPR2026/vlm_efficiency/index.md) · [🧪 ICML2026 (4)](../../ICML2026/vlm_efficiency/index.md) · [🔬 ICLR2026 (5)](../../ICLR2026/vlm_efficiency/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/vlm_efficiency/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/vlm_efficiency/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/vlm_efficiency/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (63)](../../CVPR2026/vlm_efficiency/index.md) · [🧪 ICML2026 (4)](../../ICML2026/vlm_efficiency/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/vlm_efficiency/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/vlm_efficiency/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/vlm_efficiency/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/vlm_efficiency/index.md)
+
+🔥 **高频主题：** 多模态 ×2
 
 **[APB-V: Accelerating Long-Video Understanding via Sequence-Parallelism-aware Approximate Attention](apb-v_accelerating_long-video_understanding_via_sequence-parallelism-aware_appro.md)**
 
@@ -47,6 +51,10 @@ item_total: 5
 **[HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models](hiprune_hierarchical_attention_for_efficient_token_pruning_in_vision-language_mo.md)**
 
 :   本文发现视觉编码器中存在层级注意力模式——中层关注主体对象、深层关注全局信息，据此提出 HiPrune，一种免训练、模型无关的视觉 token 剪枝方法，通过选择三类 token（Anchor/Buffer/Register）保留不同层级的视觉信息，仅用 1/3 token 保持 99.3% 性能，FLOPs 减少 58.7%。
+
+**[MACS: Modality-Aware Capacity Scaling for Efficient Multimodal MoE Inference](macs_modality-aware_capacity_scaling_for_efficient_multimodal_moe_inference.md)**
+
+:   针对 MoE 多模态大模型在专家并行（EP）推理下被"最慢专家"拖累的 straggler 问题，MACS 用视觉 token 的熵当作语义重要性权重来重估专家负载，并按 batch 的实时模态构成动态缩放各专家容量，是一个无需训练的推理框架，在 12 个多模态基准上几乎不掉点（平均保留 vanilla 99.7%）而显著优于按 token 计数的 CAI-MoE。
 
 **[ReGATE: Learning Faster and Better with Fewer Tokens in MLLMs](regate_learning_faster_and_better_with_fewer_tokens_in_mllms.md)**
 

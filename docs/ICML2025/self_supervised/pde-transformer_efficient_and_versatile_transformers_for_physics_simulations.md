@@ -212,10 +212,10 @@ $$\mathcal{L}_S = \mathbb{E} \left[ \| \mathcal{M}_\Theta(\mathbf{u}_{\text{in}}
 ## 相关论文
 
 - [\[ICML 2025\] Test-Time Training Provably Improves Transformers as In-Context Learners](test-time_training_provably_improves_transformers_as_in-context_learners.md)
-- [\[CVPR 2026\] JetViT: Efficient High-Resolution Vision Transformer with Post-Training Attention Search](../../CVPR2026/self_supervised/jetvit_efficient_high-resolution_vision_transformer_with_post-training_attention.md)
 - [\[ICML 2025\] Update Your Transformer to the Latest Release: Re-Basin of Task Vectors](update_your_transformer_to_the_latest_release_re-basin_of_task_vectors.md)
 - [\[CVPR 2025\] Transformers without Normalization](../../CVPR2025/self_supervised/transformers_without_normalization.md)
 - [\[CVPR 2025\] MAP: Unleashing Hybrid Mamba-Transformer Vision Backbone's Potential with Masked Autoregressive Pretraining](../../CVPR2025/self_supervised/map_unleashing_hybrid_mamba-transformer_vision_backbones_potential_with_masked_a.md)
+- [\[ECCV 2024\] PosFormer: Recognizing Complex Handwritten Mathematical Expression with Position Forest Transformer](../../ECCV2024/self_supervised/posformer_recognizing_complex_handwritten_mathematical_expression_with_position_.md)
 
 </div>
 

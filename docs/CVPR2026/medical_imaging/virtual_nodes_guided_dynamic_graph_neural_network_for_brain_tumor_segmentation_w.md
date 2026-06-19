@@ -102,6 +102,7 @@ $$L_{total} = \sum_{i \in M} L(y^s_i, y) + L(y^m, y)$$
 相比 2018 上最强的定制方法 MMCFormer，本文 ET/TC/WT 分别 +1.3 / +2.1 / +0.9，并在 15 种组合里 12 种拿到最佳。最亮眼的是**最关键模态 T1c 缺席时**（表中 5/7/9/12 行），ET 平均 +3.65、TC 平均 +4.3，说明模型对缺失关键信息有很强的补偿能力。此外其参数量显著小于现有 SOTA，且单个统一模型支持任意组合，而 MMCFormer 虽单模型轻量却要为每种缺失设置各训一个、参数随模态数指数膨胀。
 
 ### 消融实验（BraTS-2018，全组合平均 DSC %）
+
 | 配置 | ET | TC | WT | 说明 |
 |------|----|----|----|------|
 | 完整模型 | 66.0 | 81.4 | 86.7 | — |
@@ -156,9 +157,9 @@ $$L_{total} = \sum_{i \in M} L(y^s_i, y) + L(y^m, y)$$
 
 - [\[CVPR 2026\] Uni-Encoder Meets Multi-Encoders: Representation Before Fusion for Brain Tumor Segmentation with Missing Modalities](uni-encoder_meets_multi-encoders_representation_before_fusion_for_brain_tumor_se.md)
 - [\[CVPR 2026\] PGR-Net: Prior-Guided ROI Reasoning Network for Brain Tumor MRI Segmentation](pgr-net_prior-guided_roi_reasoning_network_for_brain_tumor_mri_segmentation.md)
-- [\[CVPR 2026\] CLoE: Expert Consistency Learning for Missing Modality Segmentation](cloe_expert_consistency_learning_for_missing_modality_segmentation.md)
 - [\[CVPR 2026\] Virtual Full-stack Scanning of Brain MRI via Imputing Any Quantised Code](virtual_full-stack_scanning_of_brain_mri_via_imputing_any_quantised_code.md)
 - [\[CVPR 2026\] Dynamic Stream Network for Combinatorial Explosion Problem in Deformable Medical Image Registration](dynamic_stream_network_for_combinatorial_explosion_problem_in_deformable_medical.md)
+- [\[AAAI 2026\] MAPI-GNN: Multi-Activation Plane Interaction Graph Neural Network for Multimodal Medical Diagnosis](../../AAAI2026/medical_imaging/mapi-gnn_multi-activation_plane_interaction_graph_neural_network_for_multimodal_.md)
 
 </div>
 

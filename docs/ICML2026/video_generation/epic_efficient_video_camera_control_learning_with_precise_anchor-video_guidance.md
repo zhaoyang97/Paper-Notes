@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2505.21876](https://arxiv.org/abs/2505.21876)  
 **代码**: https://zunwang1.github.io/Epic (项目主页)  
-**领域**: 视频生成
+**领域**: 视频生成  
 **关键词**: anchor video、可见性掩码、Anchor-ControlNet、I2V/V2V 相机控制、轻量化适配
 
 ## 一句话总结
@@ -140,7 +140,7 @@ EPiC 在 6 项相机/总质量指标上全部第一，且标准差最小（多�
 - [\[CVPR 2025\] GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](../../CVPR2025/video_generation/gen3c_3d-informed_world-consistent_video_generation_with_precise_camera_control.md)
 - [\[ICLR 2026\] Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models](../../ICLR2026/video_generation/frame_guidance_training-free_guidance_for_frame-level_control_in_video_diffusion.md)
 - [\[ICML 2026\] iTryOn: Mastering Interactive Video Virtual Try-On with Spatial-Semantic Guidance](itryon_mastering_interactive_video_virtual_try-on_with_spatial-semantic_guidance.md)
-- [\[CVPR 2026\] BulletTime: Decoupled Control of Time and Camera Pose for Video Generation](../../CVPR2026/video_generation/bullettime_decoupled_control_of_time_and_camera_pose_for_video_generation.md)
+- [\[ICLR 2026\] Learning Video Generation for Robotic Manipulation with Collaborative Trajectory Control](../../ICLR2026/video_generation/learning_video_generation_for_robotic_manipulation_with_collaborative_trajectory.md)
 
 </div>
 

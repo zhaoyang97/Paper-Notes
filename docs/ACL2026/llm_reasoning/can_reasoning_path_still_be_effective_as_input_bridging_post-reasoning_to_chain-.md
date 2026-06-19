@@ -83,6 +83,7 @@ compressor 阶段最小化重构式目标 $L_c=E_D[-\log P_{M_c}(C_n|H_n)]$，�
 ## 实验关键数据
 
 ### 主实验
+
 | Backbone / 数据集 | 方法 | 压缩比 | Acc. | Tokens | Latency | 说明 |
 |------------------|------|--------|------|--------|---------|------|
 | Qwen2.5-7B / GSM8K | Original | - | 92.17 | 298.63 | 3.83s | 原始长 CoT |
@@ -102,6 +103,7 @@ compressor 阶段最小化重构式目标 $L_c=E_D[-\log P_{M_c}(C_n|H_n)]$，�
 | DeepSeek-R1-Distill-Qwen-7B / HumanEval | UCoT | 0.5 | 43.96 | 870.68 | token 减少约 50.67%，准确率小幅更高 |
 
 ### 消融实验
+
 | 配置 | Qwen2.5 GSM8K Acc. / Tokens | Qwen2.5 MATH Acc. / Tokens | 说明 |
 |------|-----------------------------|-----------------------------|------|
 | UCoT full | 87.98 / 194.63 | 58.80 / 388.72 | 完整模型，压缩比 0.7 |
@@ -143,8 +145,8 @@ compressor 阶段最小化重构式目标 $L_c=E_D[-\log P_{M_c}(C_n|H_n)]$，�
 ## 相关论文
 
 - [\[ACL 2026\] Is Chain-of-Thought Really Not Explainability? Chain-of-Thought Can Be Faithful without Hint Verbalization](is_chain-of-thought_really_not_explainability_chain-of-thought_can_be_faithful_w.md)
-- [\[ICLR 2026\] When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models](../../ICLR2026/llm_reasoning/when_reasoning_meets_compression_understanding_the_effects_of_pruning_and_quant.md)
 - [\[NeurIPS 2025\] Mind the Gap: Bridging Thought Leap for Improved Chain-of-Thought Tuning](../../NeurIPS2025/llm_reasoning/mind_the_gap_bridging_thought_leap_for_improved_chain-of-thought_tuning.md)
+- [\[ICLR 2026\] When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models](../../ICLR2026/llm_reasoning/when_reasoning_meets_compression_understanding_the_effects_of_pruning_and_quant.md)
 - [\[ACL 2026\] Long-Context Reasoning Through Proxy-Based Chain-of-Thought Tuning](long-context_reasoning_through_proxy-based_chain-of-thought_tuning.md)
 - [\[ACL 2025\] Can Large Language Models Detect Errors in Long Chain-of-Thought Reasoning?](../../ACL2025/llm_reasoning/can_large_language_models_detect_errors_in_long_chain-of-thought_reasoning.md)
 

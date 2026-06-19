@@ -148,7 +148,7 @@ $$\mathcal{L} = \mathcal{L}^{\text{conf}}(1,1) + \mathcal{L}^{\text{conf}}(2,1) 
 - [\[CVPR 2025\] Empowering Large Language Models with 3D Situation Awareness](empowering_large_language_models_with_3d_situation_awareness.md)
 - [\[CVPR 2025\] MUSt3R: Multi-view Network for Stereo 3D Reconstruction](must3r_multi-view_network_for_stereo_3d_reconstruction.md)
 - [\[CVPR 2025\] MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors](mast3r-slam_real-time_dense_slam_with_3d_reconstruction_priors.md)
-- [\[CVPR 2026\] FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views](../../CVPR2026/3d_vision/ff3r_feedforward_feature_3d_reconstruction_from_unconstrained_views.md)
+- [\[CVPR 2025\] Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass](fast3r_towards_3d_reconstruction_of_1000_images_in_one_forward_pass.md)
 
 </div>
 

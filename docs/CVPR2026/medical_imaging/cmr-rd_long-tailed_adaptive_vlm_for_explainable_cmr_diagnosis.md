@@ -82,6 +82,7 @@ RL 阶段联合更新视觉编码器、projector 和 LLM 全部参数。IoU 奖�
 数据集 CMR-VQA：411 条高质量冷启动样本 + 五类心脏病训练数据（HCM 6645、DCM 3192、MI 2833、LVNC 465、NOR 488、CAM 146，可见 CAM/LVNC 是长尾尾部），每类抽 30 例构独立测试集，MI 额外加专家级病灶框标注。指标用 ACC / AUC / F1。
 
 ### 主实验：六类心脏病逐类对比（节选 ACC，Table 1）
+
 | 模型 | HCM | DCM | CAM(罕见) | LVNC(罕见) | MI | NOR |
 |------|-----|-----|-----------|------------|-----|-----|
 | Qwen2.5-3B | 0.261 | 0.178 | 0.033 | 0.000 | 0.586 | 0.035 |
@@ -93,6 +94,7 @@ RL 阶段联合更新视觉编码器、projector 和 LLM 全部参数。IoU 奖�
 关键点：基线在两类罕见病上几乎全军覆没——**LVNC 上所有对比模型 ACC 都是 0.000**，CMR-RD 拉到 0.582；CAM 上虽然 Seed1.5-VL 凭巧合达 0.800，但它在 HCM/LVNC 上是 0，泛化崩塌，CMR-RD 则在六类上整体均衡且 AUC/F1 全部最高。
 
 ### 采样策略对比（Table 2，节选罕见类 ACC）
+
 | 训练/采样方法 | CAM | LVNC | 说明 |
 |---------------|------|------|------|
 | FullBatch SFT | 0.100 | 0.000 | 纯监督，罕见类学不动 |
@@ -104,6 +106,7 @@ RL 阶段联合更新视觉编码器、projector 和 LLM 全部参数。IoU 奖�
 Thompson 采样在两类罕见病上都超过静态平衡/加权采样，验证"动态自适应 > 静态长尾策略"。
 
 ### 消融实验（Table 5，两阶段）
+
 | 配置 | ACC | F1 | AUC | 说明 |
 |------|-----|-----|-----|------|
 | 既无 S1 也无 S2 | 0.212 | 0.244 | 0.494 | 通用 VLM 裸跑 |
@@ -145,8 +148,8 @@ Thompson 采样在两类罕见病上都超过静态平衡/加权采样，验证"
 
 ## 相关论文
 
+- [\[CVPR 2026\] Med-CMR: A Fine-Grained Benchmark Integrating Visual Evidence and Clinical Logic for Medical Complex Multimodal Reasoning](med-cmr_a_fine-grained_benchmark_integrating_visual_evidence_and_clinical_logic_.md)
 - [\[CVPR 2026\] Clinically-Grounded Counterfactual Reasoning for Medical Video Diagnosis](clinically-grounded_counterfactual_reasoning_for_medical_video_diagnosis.md)
-- [\[ICCV 2025\] GEMeX: A Large-Scale, Groundable, and Explainable Medical VQA Benchmark for Chest X-ray Diagnosis](../../ICCV2025/medical_imaging/gemex_a_large-scale_groundable_and_explainable_medical_vqa_benchmark_for_chest_x.md)
 - [\[CVPR 2026\] MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis](medtvt-r1_a_multimodal_llm_empowering_medical_reasoning_and_diagnosis.md)
 - [\[CVPR 2026\] EMAD: Evidence-Centric Grounded Multimodal Diagnosis for Alzheimer's Disease](emad_evidence-centric_grounded_multimodal_diagnosis_for_alzheimers_disease.md)
 - [\[CVPR 2026\] X-PCR: A Benchmark for Cross-modality Progressive Clinical Reasoning in Ophthalmic Diagnosis](x-pcr_a_benchmark_for_cross-modality_progressive_clinical_reasoning_in_ophthalmi.md)

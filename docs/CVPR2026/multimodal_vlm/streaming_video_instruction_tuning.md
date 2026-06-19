@@ -91,6 +91,7 @@ OVO-Bench 覆盖实时感知 / 后向追溯 / 前向主动响应三类、共 12 
 关键结论：Streamo-7B 在前向主动响应任务上把前 SOTA Dispider 平均拉高 **+13.83%**；且 1fps 训练的模型直接换到 2fps 评测无需重训，还能再涨 +4.66%，说明对更高测试帧率有强泛化；用 Streamo-Instruct-465K 替换 ET-Instruct-164K，前向任务 +7.1%、总体 +11.79%。
 
 ### 离线视频基准（转在线后是否保留通用能力）
+
 | 模型 | OVO-RT | MVBench | TempCompass | VideoMME | LongVideoBench | Avg |
 |------|------|------|------|------|------|------|
 | Qwen2.5-VL-7B（离线 base） | 58.8 | 69.6 | 71.7 | 65.1 | 56.0 | 60.6 |
@@ -100,6 +101,7 @@ OVO-Bench 覆盖实时感知 / 后向追溯 / 前向主动响应三类、共 12 
 转成在线后 Streamo 不仅没掉点，反而在每个离线基准上都超过在线 SOTA StreamingVLM，比离线 base 平均 +3.4%，说明流式改造没牺牲通用感知能力。
 
 ### 消融实验（Focal Loss，OVO-Bench 前向任务）
+
 | Base | Loss 类型 | REC | SSR | CRR |
 |------|------|------|------|------|
 | Qwen2.5-VL-3B | CrossEntropy | 6.45 | 20.99 | 41.67 |
@@ -142,9 +144,9 @@ OVO-Bench 覆盖实时感知 / 后向追溯 / 前向主动响应三类、共 12 
 
 - [\[CVPR 2026\] Multimodal Continual Instruction Tuning with Dynamic Gradient Guidance](multimodal_continual_instruction_tuning_with_dynamic_gradient_guidance.md)
 - [\[CVPR 2026\] LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning](llada-v_large_language_diffusion_models_with_visual_instruction_tuning.md)
-- [\[CVPR 2026\] Harmonious Parameter Adaptation in Continual Visual Instruction Tuning for Safety-Aligned MLLMs](harmonious_parameter_adaptation_in_continual_visual_instruction_tuning_for_safet.md)
 - [\[NeurIPS 2025\] Visual Instruction Bottleneck Tuning](../../NeurIPS2025/multimodal_vlm/visual_instruction_bottleneck_tuning.md)
-- [\[CVPR 2026\] WeaveTime: Streaming from Earlier Frames into Emergent Memory in VideoLLMs](weavetime_streaming_from_earlier_frames_into_emergent_memory_in_videollms.md)
+- [\[CVPR 2026\] Harmonious Parameter Adaptation in Continual Visual Instruction Tuning for Safety-Aligned MLLMs](harmonious_parameter_adaptation_in_continual_visual_instruction_tuning_for_safet.md)
+- [\[ACL 2026\] Response-G1: Explicit Scene Graph Modeling for Proactive Streaming Video Understanding](../../ACL2026/multimodal_vlm/response-g1_explicit_scene_graph_modeling_for_proactive_streaming_video_understa.md)
 
 </div>
 

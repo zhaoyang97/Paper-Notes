@@ -125,10 +125,10 @@ AM框架下的"训练"对应能量景观的塑造过程。典型方法包括：H
 ## 相关论文
 
 - [\[NeurIPS 2025\] Dense Associative Memory with Epanechnikov Energy](../../NeurIPS2025/others/dense_associative_memory_with_epanechnikov_energy.md)
+- [\[ICLR 2026\] Dynamical properties of dense associative memory](../../ICLR2026/others/dynamical_properties_of_dense_associative_memory.md)
 - [\[ICML 2025\] Nonparametric Modern Hopfield Models](nonparametric_modern_hopfield_models.md)
-- [\[ICML 2025\] GPU-friendly and Linearly Convergent First-order Methods for Certifying Optimal $k$-sparse GLMs](gpu-friendly_and_linearly_convergent_first-order_methods_for_certifying_optimal_.md)
 - [\[CVPR 2026\] Coupling Liquid Time-Constant Encoders with Modern Hopfield Memory](../../CVPR2026/others/coupling_liquid_time-constant_encoders_with_modern_hopfield_memory.md)
-- [\[ACL 2025\] If Attention Serves as a Cognitive Model of Human Memory Retrieval, What is the Plausible Memory Representation?](../../ACL2025/others/if_attention_serves_as_a_cognitive_model_of_human_memory_retrieval_what_is_the_p.md)
+- [\[ICML 2025\] GPU-friendly and Linearly Convergent First-order Methods for Certifying Optimal $k$-sparse GLMs](gpu-friendly_and_linearly_convergent_first-order_methods_for_certifying_optimal_.md)
 
 </div>
 

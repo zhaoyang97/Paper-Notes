@@ -2,12 +2,13 @@
 title: >-
   [论文解读] On the Design of KL-Regularized Policy Gradient Algorithms for LLM Reasoning
 description: >-
-  [ICLR 2026][LLM推理][KL正则化] 提出 Regularized Policy Gradient (RPG) 框架，系统推导并分析了基于 Forward/Reverse KL 散度（归一化和非归一化形式）的策略梯度方法，发现 GRPO 的 KL 项存在理论不一致性，并在数学推理任务上取得优于 GRPO、REINFORCE++、DAPO 的结果。
+  [ICLR 2026][Reasoning][KL正则化] 提出 Regularized Policy Gradient (RPG) 框架，系统推导并分析了基于 Forward/Reverse KL 散度（归一化和非归一化形式）的策略梯度方法，发现 GRPO 的 KL 项存在理论不一致性，并在数学推理任务上取得优于 GRPO、REINFORCE++、DAPO 的结果。
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "KL正则化"
   - "策略梯度"
+  - "LLM推理"
   - "GRPO"
   - "REINFORCE"
 ---

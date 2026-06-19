@@ -92,6 +92,7 @@ DL3DV（in-domain，幻觉网络在此训练）与 MipNeRF360（cross-domain）�
 相对 Difix3D，DL3DV 上 PSNR +0.779dB（21.355→22.134）、MipNeRF360 上 +0.688dB（18.001→18.689），各项指标全面领先。值得注意的是 MipNeRF360 上即便对手 GenFusion 用了多视角一致性更好的视频扩散，HAD 仍凭幻觉感知策略反超。post-rendering 设置下（Ours+ vs Difix3D+），LPIPS 更低（0.177 vs 0.181）但 PSNR/SSIM 这类保真指标会下降——作者诚实指出 post-rendering 提升 photorealism 却牺牲保真。
 
 ### 消融实验
+
 | 配置 | PSNR↑ | SSIM↑ | LPIPS↓ | 说明 |
 |------|-------|-------|--------|------|
 | Difix3D | 21.355 | 0.734 | 0.199 | 基线 |

@@ -86,6 +86,7 @@ GRPO 优化：组大小 $G=8$、KL 系数 $\beta=0.04$、global batch 192、cosi
 ## 实验关键数据
 
 ### 主实验
+
 | Backbone | Med-Scout-Bench Avg | Rad-VQA | VQA-RAD | SLAKE | MIMIC-CXR CIDEr | 含义 |
 |---|---|---|---|---|---|---|
 | Qwen3-VL-8B-Instruct | 39.7 → **83.6** (+43.9) | 41.6 → 45.3 | 63.2 → 65.8 | 69.6 → 72.0 | 64.8 → 68.1 | 通用 backbone 反超 GPT-5/Gemini-3-Flash |
@@ -96,6 +97,7 @@ GRPO 优化：组大小 $G=8$、KL 系数 $\beta=0.04$、global batch 192、cosi
 对照专有模型上限：GPT-5 Rad-VQA 59.1 / VQA-RAD 66.4，Gemini-3-Flash 60.7 / 70.2。开源 Lingshu-7B+Med-Scout 在 VQA-RAD 取得 71.0，超过 Gemini-3-Flash。
 
 ### 消融实验（与现有视觉代理任务对比，禁用 DGR、统一使用稀疏奖励）
+
 | 方法 | Med | Geo | Rad-VQA Avg | Gen. Avg | 含义 |
 |---|---|---|---|---|---|
 | Qwen3-VL-4B baseline | - | - | 58.3 | 38.4 | 起点 |
@@ -139,11 +141,11 @@ GRPO 优化：组大小 $G=8$、KL 系数 $\beta=0.04$、global batch 192、cosi
 
 ## 相关论文
 
-- [\[ICML 2026\] From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models](from_seeing_to_thinking_decoupling_perception_and_reasoning_improves_post-traini.md)
 - [\[CVPR 2026\] Why Does RL Generalize Better Than SFT? A Data-Centric Perspective on VLM Post-Training](../../CVPR2026/multimodal_vlm/why_does_rl_generalize_better_than_sft_a_data-centric_perspective_on_vlm_post-tr.md)
 - [\[ICML 2026\] FreeRet: MLLMs as Training-Free Retrievers](freeret_mllms_as_training-free_retrievers.md)
 - [\[AAAI 2026\] Revisiting the Data Sampling in Multimodal Post-training from a Difficulty-Distinguish View](../../AAAI2026/multimodal_vlm/revisiting_the_data_sampling_in_multimodal_post-training_from_a_difficulty-disti.md)
-- [\[NeurIPS 2025\] Enhancing Outcome Reward-Based RL Training of MLLMs with Self-Consistency Sampling](../../NeurIPS2025/multimodal_vlm/enhancing_the_outcome_reward-based_rl_training_of_mllms_with_self-consistency_sa.md)
+- [\[CVPR 2026\] Bias Is a Subspace, Not a Coordinate: A Geometric Rethinking of Post-hoc Debiasing in Vision-Language Models](../../CVPR2026/multimodal_vlm/bias_is_a_subspace_not_a_coordinate_a_geometric_rethinking_of_post-hoc_debiasing.md)
+- [\[ICLR 2026\] How Do Medical MLLMs Fail? A Study on Visual Grounding in Medical Images](../../ICLR2026/multimodal_vlm/how_do_medical_mllms_fail_a_study_on_visual_grounding_in_medical_images.md)
 
 </div>
 

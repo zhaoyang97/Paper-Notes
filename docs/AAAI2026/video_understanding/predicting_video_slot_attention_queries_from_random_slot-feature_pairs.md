@@ -183,8 +183,8 @@ $$\phi_r: S_{t_1} + E[t+1-t_1], F_{t_2} + E[t+1-t_2] \rightarrow Q_{t+1}$$
 - [\[CVPR 2026\] Reconstruction-Guided Slot Curriculum: Addressing Object Over-Fragmentation in Video Object-Centric Learning](../../CVPR2026/video_understanding/reconstruction-guided_slot_curriculum_addressing_object_over-fragmentation_in_vi.md)
 - [\[AAAI 2026\] RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection](refinevad_semantic-guided_feature_recalibration_for_weakly_supervised_video_anom.md)
 - [\[ICLR 2026\] VideoNSA: Native Sparse Attention Scales Video Understanding](../../ICLR2026/video_understanding/videonsa_native_sparse_attention_scales_video_understanding.md)
-- [\[CVPR 2026\] Beyond Caption-Based Queries in Video Moment Retrieval](../../CVPR2026/video_understanding/beyond_caption-based_queries_in_video_moment_retrieval.md)
 - [\[CVPR 2026\] Efficient All-Pairs Correlation Volume Sampling for Optical Flow Estimation](../../CVPR2026/video_understanding/efficient_all-pairs_correlation_volume_sampling_for_optical_flow_estimation.md)
+- [\[CVPR 2026\] D2FANet: Enhancing Video Object Detection with Dual-Domain Feature Aggregation Network](../../CVPR2026/video_understanding/d2fanet_enhancing_video_object_detection_with_dual-domain_feature_aggregation_ne.md)
 
 </div>
 

@@ -82,6 +82,7 @@ Mango 不训练新模型，主要是 inference-time agent pipeline。实验使�
 ## 实验关键数据
 
 ### 主实验
+
 | Benchmark | Backbone | 最强基线 SR | Mango SR | 绝对提升 | 备注 |
 |-----------|----------|-------------|----------|----------|------|
 | WebVoyager | GPT-5-mini | AgentOccam 56.25 | 63.57 | +7.32 | 摘要四舍五入为 63.6%、+7.3% |
@@ -93,6 +94,7 @@ Mango 不训练新模型，主要是 inference-time agent pipeline。实验使�
 WebWalkerQA 中，GPT-5-mini 的 Mango 在 single-source QA Overall 上达到 60.59%，multi-source QA Overall 达到 44.41%，整体 52.50%；相比之下 WebWalker 分别为 29.41%、22.06%、25.74，AgentOccam 分别为 19.12%、21.47%、20.29。
 
 ### 消融实验
+
 | Benchmark | Backbone | Random URL | Google-only | MCTS | Mango | 关键结论 |
 |-----------|----------|------------|-------------|------|-------|----------|
 | WebVoyager | GPT-5-mini | 56.59 | 59.69 | 46.51 | 63.57 | Thompson Sampling 明显优于 MCTS |
@@ -101,6 +103,7 @@ WebWalkerQA 中，GPT-5-mini 的 Mango 在 single-source QA Overall 上达到 60
 | WebWalkerQA | Qwen3-32B | 19.85 | 25.88 | 16.47 | 28.38 | Mango 在开源模型上保持优势 |
 
 ### 效率与失败分析
+
 | 分析项 | 关键数字 | 解释 |
 |--------|----------|------|
 | WebVoyager GPT-5-mini action count | Mango 14.18, AgentOccam 9.46, WebWalker 7.38 | Mango 更愿意继续探索，解决更多长任务 |
@@ -150,8 +153,8 @@ WebWalkerQA 中，GPT-5-mini 的 Mango 在 single-source QA Overall 上达到 60
 ## 相关论文
 
 - [\[ICLR 2026\] MVR: Multi-view Video Reward Shaping for Reinforcement Learning](../../ICLR2026/robotics/mvr_multi-view_video_reward_shaping_for_reinforcement_learning.md)
-- [\[CVPR 2026\] DiffuView: Multi-View Diffusion Pretraining for 3D-Aware Robotic Manipulation](../../CVPR2026/robotics/diffuview_multi-view_diffusion_pretraining_for_3d_aware_robotic_manipulation.md)
 - [\[AAAI 2026\] A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind](../../AAAI2026/robotics/a_computable_game-theoretic_framework_for_multi-agent_theory_of_mind.md)
+- [\[CVPR 2026\] DiffuView: Multi-View Diffusion Pretraining for 3D-Aware Robotic Manipulation](../../CVPR2026/robotics/diffuview_multi-view_diffusion_pretraining_for_3d_aware_robotic_manipulation.md)
 - [\[AAAI 2026\] UrbanNav: Learning Language-Guided Urban Navigation from Web-Scale Human Trajectories](../../AAAI2026/robotics/urbannav_learning_language-guided_urban_navigation_from_web-scale_human_trajecto.md)
 - [\[CVPR 2025\] CityWalker: Learning Embodied Urban Navigation from Web-Scale Videos](../../CVPR2025/robotics/citywalker_learning_embodied_urban_navigation_from_web-scale_videos.md)
 

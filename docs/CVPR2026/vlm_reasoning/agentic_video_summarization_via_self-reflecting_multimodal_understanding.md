@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Agentic Video Summarization via Self-Reflecting Multimodal Understanding
 description: >-
-  [CVPR 2026][多模态VLM][视频摘要] 把视频摘要从"一次性回归每帧重要性分数"改写成一个由 Summarizer / Verifier / Reflector 三个 MLLM 智能体组成的"预测—验证—反思"闭环工作流，让模型像人一样自我修正、找回被漏掉的关键帧，在 SumMe / TVSum 上的 Kendall's τ、Spearman's ρ 全面超过此前 SOTA。
+  [CVPR 2026][VLM Reasoning][视频摘要] 把视频摘要从"一次性回归每帧重要性分数"改写成一个由 Summarizer / Verifier / Reflector 三个 MLLM 智能体组成的"预测—验证—反思"闭环工作流，让模型像人一样自我修正、找回被漏掉的关键帧，在 SumMe / TVSum 上的 Kendall's τ、Spearman's ρ 全面超过此前 SOTA。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视频摘要"
   - "智能体工作流"
   - "MLLM"
@@ -140,10 +140,10 @@ V2I Alignment 内部的设计选择（SumMe）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] EvoGraph-R1: Self-Evolving Multimodal Knowledge Hypergraphs for Agentic Retrieval](evograph-r1_self-evolving_multimodal_knowledge_hypergraphs_for_agentic_retrieval.md)
+- [\[CVPR 2026\] VideoARM: Agentic Reasoning over Hierarchical Memory for Long-Form Video Understanding](videoarm_agentic_reasoning_over_hierarchical_memory_for_long-form_video_understa.md)
+- [\[CVPR 2026\] Towards Sparse Video Understanding and Reasoning](towards_sparse_video_understanding_and_reasoning.md)
 - [\[CVPR 2026\] Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning](chain-of-frames_advancing_video_understanding_in_multimodal_llms_via_frame-aware.md)
-- [\[CVPR 2026\] See What I Mean: Aligning Vision and Language Representations for Video Fine-grained Object Understanding](see_what_i_mean_aligning_vision_and_language_representations_for_video_fine-grai.md)
-- [\[CVPR 2026\] ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding](remora_multimodal_large_language_model_based_on_refined_motion_representation_fo.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
 - [\[CVPR 2026\] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)
 
 </div>

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2604.24186](https://arxiv.org/abs/2604.24186)  
 **代码**: https://github.com/Applied-Machine-Learning-Lab/ACL2026-MultiDx  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 多源知识整合, 鉴别诊断, 医疗推理, RAG, Agent
 
 ## 一句话总结

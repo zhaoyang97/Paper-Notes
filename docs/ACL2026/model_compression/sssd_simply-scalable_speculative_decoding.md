@@ -16,10 +16,10 @@ tags:
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SSSD: Simply-Scalable Speculative Decoding
 
-**会议**: ACL2026
-**arXiv**: [2411.05894](https://arxiv.org/abs/2411.05894)
-**代码**: [GitHub](https://github.com/huawei-csl/sssd_speculator)
-**领域**: 模型压缩
+**会议**: ACL2026  
+**arXiv**: [2411.05894](https://arxiv.org/abs/2411.05894)  
+**代码**: [GitHub](https://github.com/huawei-csl/sssd_speculator)  
+**领域**: 模型压缩  
 **关键词**: 推测解码, LLM推理加速, n-gram匹配, 无训练, 硬件感知
 
 ## 一句话总结

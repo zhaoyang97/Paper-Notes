@@ -150,8 +150,8 @@ SocialGesture 的构建流程：（1）从 YouTube 和 Ego4D 采集包含多人�
 
 - [\[CVPR 2025\] Ego4o: Egocentric Human Motion Capture and Understanding from Multi-Modal Input](ego4o_egocentric_human_motion_capture_and_understanding_from_multi-modal_input.md)
 - [\[ICML 2025\] LLaVA-ReID: Selective Multi-Image Questioner for Interactive Person Re-Identification](../../ICML2025/human_understanding/llava-reid_selective_multi-image_questioner_for_interactive_person_re-identifica.md)
-- [\[CVPR 2026\] MAMMA: Markerless Accurate Multi-person Motion Acquisition](../../CVPR2026/human_understanding/mamma_markerless_accurate_multi-person_motion_acquisition.md)
 - [\[CVPR 2026\] DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation](../../CVPR2026/human_understanding/dyadit_a_multi-modal_diffusion_transformer_for_socially_favorable_dyadic_gesture.md)
+- [\[CVPR 2026\] MAMMA: Markerless Accurate Multi-person Motion Acquisition](../../CVPR2026/human_understanding/mamma_markerless_accurate_multi-person_motion_acquisition.md)
 - [\[AAAI 2026\] Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction](../../AAAI2026/human_understanding/spatiotemporal-untrammelled_mixture_of_experts_for_multi-person_motion_predictio.md)
 
 </div>

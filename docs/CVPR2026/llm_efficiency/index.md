@@ -1,13 +1,15 @@
 ---
 title: >-
-  CVPR2026 LLM效率论文汇总 · 6篇论文解读
+  CVPR2026 LLM效率论文汇总 · 8篇论文解读
 description: >-
-  6篇CVPR2026的 LLM 效率方向论文解读，涵盖 LLM、对齐/RLHF、多模态、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  8篇CVPR2026的 LLM 效率方向论文解读，涵盖持续学习、少样本学习、LLM、对齐/RLHF、多模态、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "LLM 效率"
   - "论文解读"
   - "论文笔记"
+  - "持续学习"
+  - "少样本学习"
   - "LLM"
   - "对齐/RLHF"
   - "多模态"
@@ -15,29 +17,37 @@ tags:
 item_list:
   - u: "e2-sci_elastic_edge-cloud_speculative_decoding_via_credit_inertia/"
     t: "E$^2$-SCI: Elastic Edge-Cloud Speculative Decoding via Credit Inertia"
+  - u: "few-shot_hybrid_incremental_learningcontinually_learning_under_data_scarcity_and/"
+    t: "Few-Shot Hybrid Incremental Learning: Continually Learning under Data Scarcity and Task Uncertainty"
   - u: "gated_kalmanet_a_fading_memory_layer_through_test-time_ridge_regression/"
     t: "Gated KalmaNet: A Fading Memory Layer Through Test-Time Ridge Regression"
   - u: "generalizable_video_quality_assessment_via_weak-to-strong_learning/"
     t: "Generalizable Video Quality Assessment via Weak-to-Strong Learning"
-  - u: "life-iqa_boosting_blind_image_quality_assessment_through_gcn-enhanced_layer_inte/"
-    t: "Life-IQA: Boosting Blind Image Quality Assessment through GCN-enhanced Layer Interaction and MoE-based Feature Decoupling"
+  - u: "jump-hand_learning_joint-wise_uncertainty_to_gate_mixture_of_view_experts_for_mu/"
+    t: "JUMP-Hand: Learning Joint-wise Uncertainty to Gate Mixture of View Experts for Multi-View 3D Hand Reconstruction"
   - u: "parallelvlm_lossless_video-llm_acceleration_with_visual_alignment_aware_parallel/"
     t: "ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding"
   - u: "quietprune_query-guided_early_token_pruning_for_vision-language_models/"
     t: "QuietPrune: Query-Guided Early Token Pruning for Vision-Language Models"
-item_total: 6
+  - u: "rejection_mixing_fast_semantic_propagation_of_mask_tokens_for_efficient_dllm_inf/"
+    t: "Rejection Mixing: Fast Semantic Propagation of Mask Tokens for Efficient DLLM Inference"
+item_total: 8
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ LLM 效率
 
-**📷 CVPR2026** · **6** 篇论文解读
+**📷 CVPR2026** · **8** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (32)](../../ICML2026/llm_efficiency/index.md) · [💬 ACL2026 (22)](../../ACL2026/llm_efficiency/index.md) · [🔬 ICLR2026 (20)](../../ICLR2026/llm_efficiency/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_efficiency/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/llm_efficiency/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/llm_efficiency/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (48)](../../ICML2026/llm_efficiency/index.md) · [💬 ACL2026 (23)](../../ACL2026/llm_efficiency/index.md) · [🔬 ICLR2026 (32)](../../ICLR2026/llm_efficiency/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_efficiency/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/llm_efficiency/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/llm_efficiency/index.md)
 
 **[E$^2$-SCI: Elastic Edge-Cloud Speculative Decoding via Credit Inertia](e2-sci_elastic_edge-cloud_speculative_decoding_via_credit_inertia.md)**
 
 :   本文发现边云投机解码中相邻窗口的 token 接受率存在强时序一致性（称为"信用惯性"），据此用历史接受率动态调节验证阈值，再配合异步流水线（PLC）把草稿生成与云端验证并行起来，在 DeepSeek-R1-Distill-Qwen (1.5B/32B) 上达到 9.4+ tokens/s、相对 FSD 基线提速 88.5% 且不损精度。
+
+**[Few-Shot Hybrid Incremental Learning: Continually Learning under Data Scarcity and Task Uncertainty](few-shot_hybrid_incremental_learningcontinually_learning_under_data_scarcity_and.md)**
+
+:   本文提出"小样本混合增量学习（FSHIL）"这一更贴近现实的新范式——数据稀缺且任务类型（新类/新域/二者皆有）随机出现，并用「条件元扩展混合专家（CME-MoE）」在特征层调和稳定与可塑、用「自扩展原型分类器（SEPC）」在分类层建模多分布边界，在 5 个数据集、3 种增量设定上全面超过现有 FSIL 与 HIL 方法。
 
 **[Gated KalmaNet: A Fading Memory Layer Through Test-Time Ridge Regression](gated_kalmanet_a_fading_memory_layer_through_test-time_ridge_regression.md)**
 
@@ -47,9 +57,9 @@ item_total: 6
 
 :   不依赖任何人工打分标签，用现成 VQA 模型当"弱老师"去监督一个高容量多模态大模型"强学生"，再把学生回收成下一轮老师做迭代，最终在域内持平、在 OOD 上大幅超越所有老师，把 VQA 的 OOD 整体 SRCC 从 0.59 推到 0.745。
 
-**[Life-IQA: Boosting Blind Image Quality Assessment through GCN-enhanced Layer Interaction and MoE-based Feature Decoupling](life-iqa_boosting_blind_image_quality_assessment_through_gcn-enhanced_layer_inte.md)**
+**[JUMP-Hand: Learning Joint-wise Uncertainty to Gate Mixture of View Experts for Multi-View 3D Hand Reconstruction](jump-hand_learning_joint-wise_uncertainty_to_gate_mixture_of_view_experts_for_mu.md)**
 
-:   针对盲图像质量评估(BIQA)中"把所有层特征一股脑融合反而引入噪声"的问题，Life-IQA 只用骨干网最深两层特征做质量解码：用 GCN 增强的查询拓扑把 stage4 特征当 query、stage3 特征当 key/value 做跨层交互，再用一个后置的 MoE 头按失真类型解耦特征，在七个 BIQA 基准上以约 95M 参数取得 SOTA。
+:   JUMP-Hand 把多视图 3D 手部重建重新表述成"每个视图是一个专家"的 MoE 问题，用**逐关节、逐视图的概率不确定性**当显式门控信号——既驱动粗阶段的不确定性加权三角测量，又驱动精修阶段的不确定性门控跨注意力，从而在严重遮挡下自适应地放大可靠视图、压制噪声视图，在三个多视图基准上取得 SOTA。
 
 **[ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding](parallelvlm_lossless_video-llm_acceleration_with_visual_alignment_aware_parallel.md)**
 
@@ -58,3 +68,7 @@ item_total: 6
 **[QuietPrune: Query-Guided Early Token Pruning for Vision-Language Models](quietprune_query-guided_early_token_pruning_for_vision-language_models.md)**
 
 :   QuietPrune 提出**查询引导的早剪枝**：在 ViT 前向过程中、而非传统的 ViT 之后，就把与文本查询无关的视觉 token 剪掉——通过把 VLM 投影器做**逆变换**得到的轻量适配器，把文本查询转成一个视觉域的 `[Q-CLS]` token 来提供文本指导，再以 2×2 分组的半结构化方式剪枝并聚合冗余 token，在 Qwen3-VL / InternVL3 上把 prefill 延迟最多降 19.0%、同时比现有晚剪枝方法精度高 4.2%。
+
+**[Rejection Mixing: Fast Semantic Propagation of Mask Tokens for Efficient DLLM Inference](rejection_mixing_fast_semantic_propagation_of_mask_tokens_for_efficient_dllm_inf.md)**
+
+:   ReMix 在扩散语言模型（DLLM）的「掩码态→词元态」离散解码之间插入一个可迭代刷新的「连续混合态」，让并行解码的多个位置在落子前先在连续空间里互相协调、并用一条拒绝规则把不稳定的位置打回掩码重算，从而在不训练、不掉点的前提下把推理提速 2–8×，很多任务上准确率还反而上升。

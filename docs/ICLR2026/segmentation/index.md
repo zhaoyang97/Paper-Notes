@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 语义分割论文汇总 · 11篇论文解读
+  ICLR2026 语义分割论文汇总 · 13篇论文解读
 description: >-
-  11篇ICLR2026的语义分割方向论文解读，涵盖扩散模型、语义分割、对齐/RLHF、压缩/编码、推理、翻译等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  13篇ICLR2026的语义分割方向论文解读，涵盖语义分割、扩散模型、对齐/RLHF、自监督学习、压缩/编码、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "语义分割"
@@ -10,12 +10,16 @@ tags:
   - "论文笔记"
   - "扩散模型"
   - "对齐/RLHF"
+  - "自监督学习"
   - "压缩/编码"
   - "推理"
-  - "翻译"
 item_list:
   - u: "amlris_alignment-aware_masked_learning_for_referring_image_segmentation/"
     t: "AMLRIS: Alignment-aware Masked Learning for Referring Image Segmentation"
+  - u: "animal_behavioral_analysis_and_neural_encoding_with_transformer-based_self-super/"
+    t: "Animal behavioral analysis and neural encoding with transformer-based self-supervised pretraining"
+  - u: "benchmarking_open-ended_segmentation/"
+    t: "Benchmarking Open-ended Segmentation"
   - u: "byteflow_language_modeling_through_adaptive_byte_compression_without_a_tokenizer/"
     t: "ByteFlow: Language Modeling through Adaptive Byte Compression without a Tokenizer"
   - u: "efficient-sam2_accelerating_sam2_with_object-aware_visual_encoding_and_memory_re/"
@@ -36,21 +40,29 @@ item_list:
     t: "VINCIE: Unlocking In-context Image Editing from Video"
   - u: "virtue_visual-interactive_text-image_universal_embedder/"
     t: "VIRTUE: Visual-Interactive Text-Image Universal Embedder"
-item_total: 11
+item_total: 13
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🔬 ICLR2026** · **11** 篇论文解读
+**🔬 ICLR2026** · **13** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (162)](../../CVPR2026/segmentation/index.md) · [🧪 ICML2026 (13)](../../ICML2026/segmentation/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/segmentation/index.md) · [🧠 NeurIPS2025 (45)](../../NeurIPS2025/segmentation/index.md) · [📹 ICCV2025 (73)](../../ICCV2025/segmentation/index.md) · [🧪 ICML2025 (18)](../../ICML2025/segmentation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (122)](../../CVPR2026/segmentation/index.md) · [🧪 ICML2026 (14)](../../ICML2026/segmentation/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/segmentation/index.md) · [🧠 NeurIPS2025 (45)](../../NeurIPS2025/segmentation/index.md) · [📹 ICCV2025 (73)](../../ICCV2025/segmentation/index.md) · [🧪 ICML2025 (18)](../../ICML2025/segmentation/index.md)
 
-🔥 **高频主题：** 扩散模型 ×2
+🔥 **高频主题：** 语义分割 ×2 · 扩散模型 ×2
 
 **[AMLRIS: Alignment-aware Masked Learning for Referring Image Segmentation](amlris_alignment-aware_masked_learning_for_referring_image_segmentation.md)**
 
 :   提出对齐感知遮蔽学习(AML)策略，通过量化视觉-语言 patch 级对齐度并过滤低对齐像素，让 RIS 模型在训练时聚焦可靠区域，无需架构改动即在 RefCOCO 全部 8 个 split 上达到 SOTA。
+
+**[Animal behavioral analysis and neural encoding with transformer-based self-supervised pretraining](animal_behavioral_analysis_and_neural_encoding_with_transformer-based_self-super.md)**
+
+:   BEAST 用「掩码自编码 + 时序对比学习」双目标，在单个实验装置自己采集的无标注行为视频上预训练一个 ViT backbone，让同一个模型在神经编码、姿态估计、动作分割三类神经行为学任务上都打过需要大量标注的专用模型。
+
+**[Benchmarking Open-ended Segmentation](benchmarking_open-ended_segmentation.md)**
+
+:   针对"开放式分割"里模型生成自由文本描述、却被嵌入相似度强行映射回固定词表的评测漏洞，本文用基于词法关系（精确/同义/下义/部分）的映射函数 + 曲线下面积式的 LAC 协议把评测准确率从偏离人类 37.7% 拉到与人类判断对齐 90%+，并顺手训出第一个带对比损失的开放式分割 MLLM（OPAL），在开放式全景分割上刷到新 SOTA。
 
 **[ByteFlow: Language Modeling through Adaptive Byte Compression without a Tokenizer](byteflow_language_modeling_through_adaptive_byte_compression_without_a_tokenizer.md)**
 

@@ -120,8 +120,8 @@ tags:
 
 - [\[ECCV 2024\] Open-Vocabulary 3D Semantic Segmentation with Text-to-Image Diffusion Models](open-vocabulary_3d_semantic_segmentation_with_text-to-image_diffusion_models.md)
 - [\[ECCV 2024\] FlashSplat: 2D to 3D Gaussian Splatting Segmentation Solved Optimally](flashsplat_2d_to_3d_gaussian_splatting_segmentation_solved_optimally.md)
+- [\[CVPR 2026\] Unlocking 3D Affordance Segmentation with 2D Semantic Knowledge](../../CVPR2026/3d_vision/unlocking_3d_affordance_segmentation_with_2d_semantic_knowledge.md)
 - [\[ICLR 2026\] PartSAM: A Scalable Promptable Part Segmentation Model Trained on Native 3D Data](../../ICLR2026/3d_vision/partsam_a_scalable_promptable_part_segmentation_model_trained_on_native_3d_data.md)
-- [\[CVPR 2025\] SUM Parts: Benchmarking Part-Level Semantic Segmentation of Urban Meshes](../../CVPR2025/3d_vision/sum_parts_benchmarking_part-level_semantic_segmentation_of_urban_meshes.md)
 - [\[ECCV 2024\] DreamDissector: Learning Disentangled Text-to-3D Generation from 2D Diffusion Priors](dreamdissector_learning_disentangled_text-to-3d_generation_from_2d_diffusion_pri.md)
 
 </div>

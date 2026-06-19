@@ -170,9 +170,9 @@ Wormhole 在 MERFISH 上 $R^2=-3.6$（完全失效），而 RG-se 无约束仍�
 
 - [\[ECCV 2024\] WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians](../../ECCV2024/3d_vision/wast-3d_wasserstein-2_distance_for_scene-to-scene_stylization_on_3d_gaussians.md)
 - [\[ICML 2026\] Streaming Sliced Optimal Transport](../../ICML2026/3d_vision/streaming_sliced_optimal_transport.md)
+- [\[ICLR 2026\] Implicit 4D Gaussian Splatting for Fast Motion with Large Inter-Frame Displacements](implicit_4d_gaussian_splatting_for_fast_motion_with_large_inter-frame_displaceme.md)
 - [\[CVPR 2026\] Sparse-View Localization via Online Neural 3D Regression](../../CVPR2026/3d_vision/sparse-view_localization_via_online_neural_3d_regression.md)
 - [\[ICLR 2026\] EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark](egonight_towards_egocentric_vision_understanding_at_night_with_a_challenging_ben.md)
-- [\[CVPR 2026\] CoLoR: The Devil is in Scene Coordinate Regression for Large-Scale Visual Localization](../../CVPR2026/3d_vision/color_the_devil_is_in_scene_coordinate_regression_for_large-scale_visual_localiz.md)
 
 </div>
 

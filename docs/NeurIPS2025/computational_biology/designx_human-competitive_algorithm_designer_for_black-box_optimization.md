@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.17866](https://arxiv.org/abs/2505.17866)  
 **代码**: [GitHub](https://github.com/MetaEvo/DesignX)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 黑盒优化, 自动算法设计, 双智能体强化学习, MetaBBO, Transformer
 
 ## 一句话总结

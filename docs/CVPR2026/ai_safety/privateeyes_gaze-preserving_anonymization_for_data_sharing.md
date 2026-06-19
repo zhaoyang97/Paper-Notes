@@ -111,6 +111,7 @@ $$L_{\text{ControlEye}} = \mathbb{E}_{x_0, C, t, \epsilon}\left[\|\epsilon - \ep
 最显眼的对比：IST/RSM 这些 baseline 在完整虹膜区识别率仍高达 90–97%（基本没匿名），而 PrivateEyes 把它压到 ~14–17%（约降 50%+），注视误差还更低。注意 baseline 只动虹膜区、其余不变，而 PrivateEyes 重画整张眼图，因此连眼睫毛、眉毛、眼周皮肤都被匿名。
 
 ### 图像质量（Table 2 节选，裁剪虹膜区）
+
 | 方法 | 数据集 | FID ↓ | KID ↓ |
 |------|--------|-------|-------|
 | Iris Style Transfer | EV-Eye | 60.91 | 0.065 |
@@ -120,6 +121,7 @@ $$L_{\text{ControlEye}} = \mathbb{E}_{x_0, C, t, \epsilon}\left[\|\epsilon - \ep
 | **PrivateEyes (w/ PEN)** | OpenEDS | **69.25** | **0.083** |
 
 ### 消融实验
+
 | 配置 | 关键观察 |
 |------|---------|
 | Ours w/ PEN | 完整模型，注视误差最低 |
@@ -158,9 +160,9 @@ $$L_{\text{ControlEye}} = \mathbb{E}_{x_0, C, t, \epsilon}\left[\|\epsilon - \ep
 
 ## 相关论文
 
+- [\[CVPR 2026\] Unsafe2Safe: Controllable Image Anonymization for Downstream Utility](unsafe2safe_controllable_image_anonymization_for_downstream_utility.md)
 - [\[NeurIPS 2025\] Incentivizing Time-Aware Fairness in Data Sharing](../../NeurIPS2025/ai_safety/incentivizing_time-aware_fairness_in_data_sharing.md)
 - [\[CVPR 2026\] Image-based Outlier Synthesis With Training Data](image-based_outlier_synthesis_with_training_data.md)
-- [\[CVPR 2026\] Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization](revisiting_geometric_obfuscation_with_dual_convergent_lines_for_privacy-preservi.md)
 - [\[CVPR 2026\] No Way To Steal My Face: Proactive Defense Against Identity-Preserving Personalized Generation](no_way_to_steal_my_face_proactive_defense_against_identity-preserving_personaliz.md)
 - [\[CVPR 2026\] PrivSynth: Alternating and Control-Based Optimization for Privacy and Utility in Synthetic Data](privsynth_alternating_and_control-based_optimization_for_privacy_and_utility_in_.md)
 

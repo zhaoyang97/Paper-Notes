@@ -104,6 +104,7 @@ ViVerBench 是涵盖 Concept Existence / Object Relation / World Dynamics / Imag
 在更强的 Qwen3-VL-8B backbone 上同样规律：Decoupled > Joint > baseline；BBox / Point / Count 这类需要细粒度定位的子任务提升最大（+8–18 个百分点），印证 meta-verification 监督直接强化了 grounding 能力。
 
 ### 消融 / 效率分析
+
 | 配置 | ViVerBench | GPU 显存 (GB) | reward 计算 (ms/sample) | 训练时间 (min/step) | 响应长度 (token) |
 |------|------------|---------------|-------------------------|---------------------|------------------|
 | OmniVerifier-7B baseline | 0.650 | — | — | — | — |

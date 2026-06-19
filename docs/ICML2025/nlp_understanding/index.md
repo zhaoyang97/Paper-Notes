@@ -19,7 +19,7 @@ item_total: 1
 
 **🧪 ICML2025** · **1** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (2)](../../ICML2026/nlp_understanding/index.md) · [💬 ACL2026 (33)](../../ACL2026/nlp_understanding/index.md) · [🔬 ICLR2026 (1)](../../ICLR2026/nlp_understanding/index.md) · [🤖 AAAI2026 (1)](../../AAAI2026/nlp_understanding/index.md) · [🧠 NeurIPS2025 (3)](../../NeurIPS2025/nlp_understanding/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/nlp_understanding/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (2)](../../ICML2026/nlp_understanding/index.md) · [💬 ACL2026 (34)](../../ACL2026/nlp_understanding/index.md) · [🔬 ICLR2026 (1)](../../ICLR2026/nlp_understanding/index.md) · [🤖 AAAI2026 (1)](../../AAAI2026/nlp_understanding/index.md) · [🧠 NeurIPS2025 (3)](../../NeurIPS2025/nlp_understanding/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/nlp_understanding/index.md)
 
 **[Cover Learning for Large-Scale Topology Representation](cover_learning_for_large-scale_topology_representation.md)**
 

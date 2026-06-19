@@ -127,7 +127,7 @@ BCNN 使用负对数似然损失（同时学习预测均值和方差）。SQuAT 
 - [\[ICLR 2026\] Oversmoothing, Oversquashing, Heterophily, Long-Range, and More: Demystifying Common Beliefs in Graph Machine Learning](../../ICLR2026/others/oversmoothing_oversquashing_heterophily_long-range_and_more_demystifying_common_.md)
 - [\[NeurIPS 2025\] Put CASH on Bandits: A Max K-Armed Problem for Automated Machine Learning](../../NeurIPS2025/others/put_cash_on_bandits_a_max_k-armed_problem_for_automated_machine_learning.md)
 - [\[NeurIPS 2025\] Directional Non-Commutative Monoidal Structures for Compositional Embeddings in Machine Learning](../../NeurIPS2025/others/directional_non-commutative_monoidal_structures_for_compositional_embeddings_in_.md)
-- [\[ACL 2025\] Predicting Implicit Arguments in Procedural Video Instructions](../../ACL2025/others/implicit_arguments_video_instructions.md)
+- [\[ICML 2026\] Position: Evaluation of ML Resource Utilization Requires Model Life Cycle Assessment](../../ICML2026/others/evaluation_of_ml_resource_utilization_requires_model_life_cycle_assessment.md)
 
 </div>
 

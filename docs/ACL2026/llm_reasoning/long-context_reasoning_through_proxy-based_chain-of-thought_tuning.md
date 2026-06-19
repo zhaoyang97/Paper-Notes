@@ -80,6 +80,7 @@ ProxyCoT-ZS 的 SFT 使用 $\mathcal{L}_{SFT}=-\mathbb{E}[\log p_\theta(t\mid q,
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 模型 | 方法 | Proxy 指标 | Full 指标 | 说明 |
 |--------|------|-----------|-----------|------|
 | SciTrek / Qwen3-4B | Zero-shot | 67.2 | 30.8 | full context 明显掉分 |
@@ -92,6 +93,7 @@ ProxyCoT-ZS 的 SFT 使用 $\mathcal{L}_{SFT}=-\mathbb{E}[\log p_\theta(t\mid q,
 | Loong / Gemma3-4B | Zero-shot → ProxyCoT-RL | Financial 25.85 → 32.05；Academic 3.55 → 24.32 | 无需再训练迁移 | 说明不是只记住 SciTrek 格式 |
 
 ### 消融实验
+
 | 分析项 | 配置 | 关键结果 | 说明 |
 |------|------|---------|------|
 | CoT token | Qwen3-4B on SciTrek full | Zero-shot 1,744 tokens / 30.8 EM；SFT on full CoT 6,683 / 31.6；ProxyCoT-RL 617 / 46.5 | ProxyCoT-RL 更准且更短 |
@@ -140,8 +142,8 @@ ProxyCoT-ZS 的 SFT 使用 $\mathcal{L}_{SFT}=-\mathbb{E}[\log p_\theta(t\mid q,
 
 - [\[ACL 2026\] PPA-Plan: Proactive Pitfall Avoidance for Reliable Planning in Long-Context LLM Reasoning](ppa-plan_proactive_pitfall_avoidance_for_reliable_planning_in_long-context_llm_r.md)
 - [\[ACL 2026\] DELTA: Dynamic Layer-Aware Token Attention for Efficient Long-Context Reasoning](delta_dynamic_layer-aware_token_attention_for_efficient_long-context_reasoning.md)
-- [\[ICLR 2026\] InftyThink: Breaking the Length Limits of Long-Context Reasoning in Large Language Models](../../ICLR2026/llm_reasoning/inftythink_breaking_the_length_limits_of_long-context_reasoning_in_large_languag.md)
 - [\[ACL 2026\] Distilling Long-CoT Reasoning through Collaborative Step-wise Multi-Teacher Decoding (CoRD)](distilling_long-cot_reasoning_through_collaborative_step-wise_multi-teacher_deco.md)
+- [\[ICLR 2026\] InftyThink: Breaking the Length Limits of Long-Context Reasoning in Large Language Models](../../ICLR2026/llm_reasoning/inftythink_breaking_the_length_limits_of_long-context_reasoning_in_large_languag.md)
 - [\[ACL 2025\] Enhancing Chain-of-Thought Reasoning with Critical Representation Fine-tuning](../../ACL2025/llm_reasoning/enhancing_chain-of-thought_reasoning_with_critical_representation_fine-tuning.md)
 
 </div>

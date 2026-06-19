@@ -90,6 +90,7 @@ flowchart TD
 要点：Tea-Adapter 在 Adapter 类里全面超过 X-Adapter 和 Ctrl-Adapter，CLIP 与全量微调几乎打平（如 Canny 0.918 vs 0.919）、**时序一致性最高（0.984）**；且它只用约 10K 视频训练，而对比基线常用 100K+ 视频和更多 GPU。FVD 上仅次于「全量微调 14B」这一资源上界，但 Tea-Adapter 不训练大模型、也不训练新 ControlNet。
 
 ### 消融实验
+
 | 配置 | FVD↓ | LPIPS↓ | SSIM↑ | CLIP↑ | 说明 |
 |------|------|------|------|------|------|
 | Full Model | **292.34** | **0.251** | **0.591** | **0.913** | 完整模型 |
@@ -128,11 +129,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] FrameDiT: Diffusion Transformer with Matrix Attention for Efficient Video Generation](framedit_diffusion_transformer_with_matrix_attention_for_efficient_video_generat.md)
+- [\[CVPR 2026\] IP-Adapter Is All You Need: Towards Fine-Tuning-Free Diffusion-Based Talking Face Generation](ip-adapter_is_all_you_need_towards_fine-tuning-free_diffusion-based_talking_face.md)
 - [\[CVPR 2026\] Less is More: Data-Efficient Adaptation for Controllable Text-to-Video Generation](less_is_more_data-efficient_adaptation_for_controllable_text-to-video_generation.md)
-- [\[CVPR 2026\] HVG-3D: Bridging Real and Simulation Domains for 3D-Conditional Hand-Object Interaction Video Synthesis](hvg-3d_bridging_real_and_simulation_domains_for_3d-conditional_hand-object_inter.md)
-- [\[CVPR 2026\] Dual-Granularity Memory for Efficient Video Generation](dual-granularity_memory_for_efficient_video_generation.md)
 - [\[CVPR 2026\] Content-Aware Dynamic Patchification for Efficient Video Diffusion](content-aware_dynamic_patchification_for_efficient_video_diffusion.md)
+- [\[CVPR 2026\] HVG-3D: Bridging Real and Simulation Domains for 3D-Conditional Hand-Object Interaction Video Synthesis](hvg-3d_bridging_real_and_simulation_domains_for_3d-conditional_hand-object_inter.md)
+- [\[CVPR 2026\] RAPID: Reusing Attention Sparsity with Inter-step Adaptation for Efficient Video Diffusion](rapid_reusing_attention_sparsity_with_inter-step_adaptation_for_efficient_video_.md)
 
 </div>
 

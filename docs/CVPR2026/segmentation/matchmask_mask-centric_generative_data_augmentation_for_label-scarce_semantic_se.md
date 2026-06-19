@@ -124,6 +124,7 @@ mask-to-image 用 Stable Diffusion V1-4 作预训练模型，只微调 Adapter�
 MatchMask 在所有比例上都领先，且可训练参数比对手少约三个数量级，越是极端少样本领先越大——正面印证了「只调关键层避免过拟合」的设计动机。对比文本中心方法（VOC 366 标注），MatchMask 仅用 1.1k–1.8k 合成图就超过 DatasetDM 用 40k 图的结果（joint training 72.1 vs 68.2），靠的是更真实、对齐更准的图像-mask 对。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 无过滤 (Original) | 64.7 mIoU | 不过滤合成噪声 |
@@ -171,11 +172,11 @@ MatchMask 在所有比例上都领先，且可训练参数比对手少约三个�
 
 ## 相关论文
 
-- [\[CVPR 2026\] VideoMaMa: Mask-Guided Video Matting via Generative Prior](videomama_mask-guided_video_matting_via_generative_prior.md)
 - [\[CVPR 2026\] SemLayer: Semantic-aware Generative Segmentation and Layer Construction for Abstract Icons](semlayer_semantic-aware_generative_segmentation_and_layer_construction_for_abstr.md)
 - [\[CVPR 2026\] Task-Oriented Data Synthesis and Control-Rectify Sampling for Remote Sensing Semantic Segmentation](task-oriented_data_synthesis_and_control-rectify_sampling_for_remote_sensing_sem.md)
-- [\[CVPR 2026\] SGMA: Semantic-Guided Modality-Aware Segmentation for Remote Sensing with Incomplete Multimodal Data](sgma_semantic-guided_modality-aware_segmentation_for_remote_sensing_with_incompl.md)
 - [\[AAAI 2026\] A²LC: Active and Automated Label Correction for Semantic Segmentation](../../AAAI2026/segmentation/a2lc_active_and_automated_label_correction_for_semantic_segm.md)
+- [\[CVPR 2026\] Making Training-Free Diffusion Segmentors Scale with the Generative Power](making_training-free_diffusion_segmentors_scale_with_the_generative_power.md)
+- [\[CVPR 2026\] GenMask: Adapting DiT for Segmentation via Direct Mask Generation](genmask_adapting_dit_for_segmentation_via_direct_mask_generation.md)
 
 </div>
 

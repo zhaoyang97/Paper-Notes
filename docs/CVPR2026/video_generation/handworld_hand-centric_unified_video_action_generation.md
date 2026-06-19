@@ -111,6 +111,7 @@ FVD 从次优的 482.3 直接降到 133.9（时序连贯性大幅提升），手
 | **Ours** | **FM** | **0.044** | **0.039** | **0.051** | **0.045** |
 
 ### 消融实验
+
 | 配置 | 条件 | FVD↓ | CLIPhand↑ | IoU↑ | 说明 |
 |------|------|------|-----------|------|------|
 | [2] Wan2.2 微调 | Text | 482.3 | 0.9132 | 0.5005 | 纯文本基线 |
@@ -153,8 +154,8 @@ FVD 从次优的 482.3 直接降到 133.9（时序连贯性大幅提升），手
 ## 相关论文
 
 - [\[CVPR 2026\] Open-world Hand-Object Interaction Video Generation Based on Structure and Contact-aware Representation](open-world_hand-object_interaction_video_generation_based_on_structure_and_conta.md)
-- [\[CVPR 2026\] PerpetualWonder: Long-horizon Action-conditioned 4D Scene Generation](perpetualwonder_long-horizon_action-conditioned_4d_scene_generation.md)
 - [\[CVPR 2026\] Chain of Event-Centric Causal Thought for Physically Plausible Video Generation](chain_of_event-centric_causal_thought_for_physically_plausible_video_generation.md)
+- [\[CVPR 2026\] GenHOI: Towards Object-Consistent Hand-Object Interaction with Temporally Balanced and Spatially Selective Object Injection](genhoi_towards_object-consistent_hand-object_interaction_with_temporally_balance.md)
 - [\[CVPR 2026\] Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout](infinity-rope_action-controllable_infinite_video_generation_emerges_from_autoreg.md)
 - [\[CVPR 2026\] TV2TV: A Unified Framework for Interleaved Language and Video Generation](tv2tv_a_unified_framework_for_interleaved_language_and_video_generation.md)
 

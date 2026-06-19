@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 强化学习论文汇总 · 44篇论文解读
+  ACL2026 强化学习论文汇总 · 46篇论文解读
 description: >-
-  44篇ACL2026的强化学习方向论文解读，涵盖强化学习、LLM、推理、对抗鲁棒、多模态、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  46篇ACL2026的强化学习方向论文解读，涵盖强化学习、LLM、推理、Agent、对抗鲁棒、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "强化学习"
@@ -10,9 +10,9 @@ tags:
   - "论文笔记"
   - "LLM"
   - "推理"
+  - "Agent"
   - "对抗鲁棒"
-  - "多模态"
-  - "对齐/RLHF"
+  - "扩散模型"
 item_list:
   - u: "a_goal_without_a_plan_is_just_a_wish_efficient_and_effective_global_planner_trai/"
     t: "A Goal Without a Plan Is Just a Wish: Efficient and Effective Global Planner Training for Long-Horizon Agent Tasks (EAGLET)"
@@ -24,6 +24,8 @@ item_list:
     t: "ARGUS: Policy-Adaptive Ad Governance via Evolving Reinforcement with Adversarial Umpiring"
   - u: "attnpo_attention-guided_process_supervision_for_efficient_reasoning/"
     t: "AttnPO: Attention-Guided Process Supervision for Efficient Reasoning"
+  - u: "beyond_fully_random_masking_attention-guided_denoising_and_optimization_for_diff/"
+    t: "Beyond Fully Random Masking: Attention-Guided Denoising and Optimization for Diffusion Language Models"
   - u: "beyond_majority_voting_towards_fine-grained_and_more_reliable_reward_signal_for_/"
     t: "Beyond Majority Voting: Towards Fine-grained and More Reliable Reward Signal for Test-Time Reinforcement Learning"
   - u: "breaking_the_impasse_dual-scale_evolutionary_policy_training_for_social_language/"
@@ -72,19 +74,17 @@ item_list:
     t: "LearnAlign: Data Selection for LLM Reinforcement Learning with Improved Gradient Alignment"
   - u: "less_noise_more_voice_reinforcement_learning_for_reasoning_via_instruction_purif/"
     t: "LENS: Less Noise, More Voice — Reinforcement Learning for Reasoning via Instruction Purification"
-  - u: "lovec_reinforcement_learning_for_better_verbalized_confidence_in_long-form_gener/"
-    t: "LoVeC: Reinforcement Learning for Better Verbalized Confidence in Long-Form Generations"
-item_total: 44
+item_total: 46
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**💬 ACL2026** · **44** 篇论文解读
+**💬 ACL2026** · **46** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (30)](../../CVPR2026/reinforcement_learning/index.md) · [🧪 ICML2026 (95)](../../ICML2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (126)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (25)](../../CVPR2026/reinforcement_learning/index.md) · [🧪 ICML2026 (110)](../../ICML2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (161)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md)
 
-🔥 **高频主题：** 强化学习 ×21 · LLM ×10 · 推理 ×10 · 对抗鲁棒 ×2 · 多模态 ×2
+🔥 **高频主题：** 强化学习 ×21 · LLM ×10 · 推理 ×10 · Agent ×2 · 对抗鲁棒 ×2
 
 **[A Goal Without a Plan Is Just a Wish: Efficient and Effective Global Planner Training for Long-Horizon Agent Tasks (EAGLET)](a_goal_without_a_plan_is_just_a_wish_efficient_and_effective_global_planner_trai.md)**
 
@@ -105,6 +105,10 @@ item_total: 44
 **[AttnPO: Attention-Guided Process Supervision for Efficient Reasoning](attnpo_attention-guided_process_supervision_for_efficient_reasoning.md)**
 
 :   提出 AttnPO，一个利用模型内在注意力信号进行步级信用分配的低开销过程监督 RL 框架，通过识别 Key-Focus Heads（KFH）区分冗余和关键推理步骤，在大幅缩短推理长度的同时显著提升准确率。
+
+**[Beyond Fully Random Masking: Attention-Guided Denoising and Optimization for Diffusion Language Models](beyond_fully_random_masking_attention-guided_denoising_and_optimization_for_diff.md)**
+
+:   这篇论文发现扩散语言模型（dLLM）里"更多看向已确定上下文的 token 生成更稳、对推理更关键"，于是提出 AGDO——用注意力推导出去噪顺序，并在监督微调和强化学习中加权强调这些注意力枢纽 token，从而在数学和代码推理上稳定超过依赖随机掩码的现有 dLLM 后训练方法。
 
 **[Beyond Majority Voting: Towards Fine-grained and More Reliable Reward Signal for Test-Time Reinforcement Learning](beyond_majority_voting_towards_fine-grained_and_more_reliable_reward_signal_for_.md)**
 
@@ -221,6 +225,10 @@ item_total: 44
 **[Scaling Behaviors of LLM Reinforcement Learning Post-Training: An Empirical Study](scaling_behaviors_of_llm_reinforcement_learning_post-training_an_empirical_study.md)**
 
 :   首次系统研究 LLM 强化学习后训练的缩放行为，在 Qwen2.5 系列(0.5B-72B)上发现性能与训练资源之间遵循幂律关系，且学习效率随模型规模增大呈饱和趋势。
+
+**[Self-EmoQ: Plutchik-Guided Value-based Planning to Drive Streaming Emotional TTS](self-emoq_plutchik-guided_value-based_planning_to_drive_streaming_emotional_tts.md)**
+
+:   Self-EmoQ 把"系统该用什么情绪说话"建模成一个话语级强化学习决策问题——在生成文本之前先用价值型 RL（DQN）规划出本轮情绪，再用这个情绪同时驱动文本生成和流式情感语音合成（Emo-TTS），并用 Plutchik 情感轮理论设计的奖励让情绪选择更像真人。
 
 **[Semantic-Space Exploration and Exploitation in RLVR for LLM Reasoning](semantic-space_exploration_and_exploitation_in_rlvr_for_llm_reasoning.md)**
 

@@ -180,10 +180,10 @@ TIG-SVQA 在 FLOPs 上仅次于 FAST-VQA，参数量与 VSR-QAD 相当，但性�
 ## 相关论文
 
 - [\[AAAI 2026\] SpatioTemporal Difference Network for Video Depth Super-Resolution](spatiotemporal_difference_network_for_video_depth_super-resolution.md)
-- [\[CVPR 2026\] STCDiT: Spatio-Temporally Consistent Diffusion Transformer for High-Quality Video Super-Resolution](../../CVPR2026/image_restoration/stcdit_spatio-temporally_consistent_diffusion_transformer_for_high-quality_video.md)
 - [\[CVPR 2026\] Rethinking Diffusion Model-Based Video Super-Resolution: Leveraging Dense Guidance from Aligned Features](../../CVPR2026/image_restoration/rethinking_diffusion_model-based_video_super-resolution_leveraging_dense_guidanc.md)
-- [\[CVPR 2026\] Thermal Diffusion Matters: Infrared Spatial-Temporal Video Super-Resolution through Heat Conduction Priors](../../CVPR2026/image_restoration/thermal_diffusion_matters_infrared_spatial-temporal_video_super-resolution_throu.md)
 - [\[CVPR 2025\] Augmenting Perceptual Super-Resolution via Image Quality Predictors](../../CVPR2025/image_restoration/augmenting_perceptual_super-resolution_via_image_quality_predictors.md)
+- [\[CVPR 2026\] RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360deg Image Quality Assessment](../../CVPR2026/image_restoration/rl-scaniqa_reinforcement-learned_scanpaths_for_blind_360deg_image_quality_assess.md)
+- [\[CVPR 2026\] Time Without Time: Pseudo-Temporal Representation for Space-Time Super-Resolution](../../CVPR2026/image_restoration/time_without_time_pseudo-temporal_representation_for_space-time_super-resolution.md)
 
 </div>
 

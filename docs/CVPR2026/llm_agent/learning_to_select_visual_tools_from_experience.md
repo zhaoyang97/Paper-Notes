@@ -89,6 +89,7 @@ flowchart TD
 迁移实验：把 QwenVL-7B 训出的策略**不重训**配 GPT-4o reasoner，ChartQA 88.1 / OoD 75.6 / Geometry3K 52.0 / MathVerse 55.8，均超对应最强免训练 GPT-4o 基线。BlindTest（低层视觉感知，连 GPT-4o 都吃力）上 VisTA 53.4，高于训练免训 GPT-4o 的 51.8。
 
 ### 工具选择分析与消融
+
 | 配置 / 对照 | ChartQA | 说明 |
 |------|---------|------|
 | 无工具基线 | 76.4 | reasoner 单干 |
@@ -138,8 +139,8 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] ReFAct: Empowering Multimodal Web Agents with Visual and Context Focusing](refact_empowering_multimodal_web_agents_with_visual_and_context_focusing.md)
-- [\[ICML 2026\] Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents](../../ICML2026/llm_agent/skill-pro_learning_reusable_skills_from_experience_via_non-parametric_ppo_for_ll.md)
 - [\[CVPR 2026\] Experience Transfer for Multimodal LLM Agents in Minecraft Game](experience_transfer_for_multimodal_llm_agents_in_minecraft_game.md)
+- [\[ICML 2026\] Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents](../../ICML2026/llm_agent/skill-pro_learning_reusable_skills_from_experience_via_non-parametric_ppo_for_ll.md)
 - [\[CVPR 2026\] CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning](cgl_advancing_continual_gui_learning_via_reinforcement_fine-tuning.md)
 - [\[CVPR 2026\] ORCA: Orchestrated Reasoning with Collaborative Agents for Document Visual Question Answering](orca_orchestrated_reasoning_with_collaborative_agents_for_document_visual_questi.md)
 

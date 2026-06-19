@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 人体理解论文汇总 · 8篇论文解读
+  ICLR2026 人体理解论文汇总 · 9篇论文解读
 description: >-
-  8篇ICLR2026的人体理解方向论文解读，涵盖情感分析、人脸/视线、对抗鲁棒、LLM、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  9篇ICLR2026的人体理解方向论文解读，涵盖情感分析、人脸/视线、对抗鲁棒、LLM、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "人体理解"
@@ -16,6 +16,8 @@ tags:
 item_list:
   - u: "bah_dataset_for_ambivalencehesitancy_recognition_in_videos_for_digital_behaviour/"
     t: "BAH Dataset for Ambivalence/Hesitancy Recognition in Videos for Digital Behaviour Analysis"
+  - u: "clutch_contextualized_language_model_for_unlocking_text-conditioned_hand_motion_/"
+    t: "CLUTCH: Contextualized Language model for Unlocking Text-Conditioned Hand motion modelling in the wild"
   - u: "cross-domain_policy_optimization_via_bellman_consistency_and_hybrid_critics/"
     t: "Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics"
   - u: "event-t2m_event-level_conditioning_for_complex_text-to-motion_synthesis/"
@@ -30,19 +32,23 @@ item_list:
     t: "PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits"
   - u: "quamo_quaternion_motion_kinematics/"
     t: "QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture"
-item_total: 8
+item_total: 9
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**🔬 ICLR2026** · **8** 篇论文解读
+**🔬 ICLR2026** · **9** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (175)](../../CVPR2026/human_understanding/index.md) · [🧪 ICML2026 (4)](../../ICML2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (41)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (3)](../../ICML2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (151)](../../CVPR2026/human_understanding/index.md) · [🧪 ICML2026 (5)](../../ICML2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (41)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (3)](../../ICML2025/human_understanding/index.md)
 
 **[BAH Dataset for Ambivalence/Hesitancy Recognition in Videos for Digital Behaviour Analysis](bah_dataset_for_ambivalencehesitancy_recognition_in_videos_for_digital_behaviour.md)**
 
 :   提出首个面向视频中矛盾/犹豫（A/H）识别的多模态数据集 BAH，包含来自加拿大9省224名参与者的1,118段视频共8.26小时，由行为科学专家标注，并提供了帧级和视频级的基线实验结果。
+
+**[CLUTCH: Contextualized Language model for Unlocking Text-Conditioned Hand motion modelling in the wild](clutch_contextualized_language_model_for_unlocking_text-conditioned_hand_motion_.md)**
+
+:   CLUTCH 用「VLM 自动标注的 3.2 万条野外手部动作数据（3D-HIW）+ 把轨迹/姿态、左/右手分别离散化的 SHIFT 分解式 VQ-VAE + 在动作空间上加几何重建损失微调 LLM」三件套，第一次把文本↔手部动作建模做到了"野外"场景（弹琴、揉面、写字等），在文生动作与动作生文两项任务上都刷到 SOTA。
 
 **[Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics](cross-domain_policy_optimization_via_bellman_consistency_and_hybrid_critics.md)**
 

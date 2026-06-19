@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VisionLeaf: Entropy-Guided Leaf-First Reasoning for Efficient and Accurate Think-with-Image
 description: >-
-  [CVPR 2026][多模态VLM][think-with-image] VisionLeaf 把 think-with-image 的多轮工具调用看成一棵推理树，不再像普通 GRPO 那样从根节点一路单链 rollout 到叶子，而是"叶优先"地在熵最高的节点上分裂出多条分支，从而在不改模型、不改训练数据的前提下，让 Qwen2.5-VL-7B 在 VStar / HR-Bench 上提点约 4.2%，同时把推理工具调用次数砍掉近一半。
+  [CVPR 2026][VLM Reasoning][think-with-image] VisionLeaf 把 think-with-image 的多轮工具调用看成一棵推理树，不再像普通 GRPO 那样从根节点一路单链 rollout 到叶子，而是"叶优先"地在熵最高的节点上分裂出多条分支，从而在不改模型、不改训练数据的前提下，让 Qwen2.5-VL-7B 在 VStar / HR-Bench 上提点约 4.2%，同时把推理工具调用次数砍掉近一半。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "think-with-image"
   - "GRPO"
   - "熵引导"
@@ -137,10 +137,10 @@ $$R(\tau) = \phi_1 R_{acc} + \phi_2 R_{format} + \phi_3 \mathbb{I}_{acc>0} R_{to
 ## 相关论文
 
 - [\[CVPR 2026\] When to Think and When to Look: Uncertainty-Guided Lookback](when_to_think_and_when_to_look_uncertainty-guided_lookback.md)
-- [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
-- [\[CVPR 2026\] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought](when_visualizing_is_the_first_step_to_reasoning_mira_a_benchmark_for_visual_chai.md)
+- [\[CVPR 2026\] MMTIT-Bench: A Multilingual and Multi-Scenario Benchmark with Cognition-Perception-Reasoning Guided Text-Image Machine Translation](mmtit-bench_a_multilingual_and_multi-scenario_benchmark_with_cognition-perceptio.md)
 - [\[CVPR 2026\] From Exploration to Exploitation: A Two-Stage Entropy RLVR Approach for Noise-Tolerant MLLM Training](from_exploration_to_exploitation_a_two-stage_entropy_rlvr_approach_for_noise-tol.md)
 - [\[CVPR 2026\] Stable and Efficient Single-Rollout RL for Multimodal Reasoning](stable_and_efficient_single-rollout_rl_for_multimodal_reasoning.md)
+- [\[CVPR 2026\] OneThinker: All-in-one Reasoning Model for Image and Video](onethinker_all-in-one_reasoning_model_for_image_and_video.md)
 
 </div>
 

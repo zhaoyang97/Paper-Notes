@@ -136,7 +136,7 @@ DALI 在 DreamerV3 基础上增加一个 Transformer 结构的上下文编码器
 - [\[NeurIPS 2025\] Foundation Models as World Models: A Foundational Study in Text-Based GridWorlds](foundation_models_as_world_models_a_foundational_study_in_text-based_gridworlds.md)
 - [\[NeurIPS 2025\] Inverse Optimization Latent Variable Models for Learning Costs Applied to Route Problems](inverse_optimization_latent_variable_models_for_learning_costs_applied_to_route_.md)
 - [\[NeurIPS 2025\] Hybrid Latent Reasoning via Reinforcement Learning](hybrid_latent_reasoning_via_reinforcement_learning.md)
-- [\[ICML 2025\] Safety Certificate against Latent Variables with Partially Unidentifiable Dynamics](../../ICML2025/reinforcement_learning/safety_certificate_against_latent_variables_with_partially_unidentifiable_dynami.md)
+- [\[ICML 2025\] Pessimism Principle Can Be Effective: Towards a Framework for Zero-Shot Transfer RL](../../ICML2025/reinforcement_learning/pessimism_principle_can_be_effective_towards_a_framework_for_zero-shot_transfer_.md)
 
 </div>
 

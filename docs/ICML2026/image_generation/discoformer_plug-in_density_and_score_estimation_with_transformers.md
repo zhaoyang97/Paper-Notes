@@ -93,6 +93,7 @@ $$\mathcal{L}_\text{con} = \tfrac{1}{n}\sum_i \bigl\|S(C,Q)_i - \nabla_{q_i} T(C
 | 2D Laplace, $n=2048$ | Score MSE | 0.2990（更优）| 0.2990（持平/略差）| 跨分布泛化 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 全模型（cross-attention + 等变） | 表 1 各类仿射变换相对 MSE $\sim 10^{-4}$ | 白化 + 数据增广共同保证近似等变 |
@@ -140,7 +141,7 @@ $$\mathcal{L}_\text{con} = \tfrac{1}{n}\sum_i \bigl\|S(C,Q)_i - \nabla_{q_i} T(C
 - [\[CVPR 2025\] Taming Score-Based Denoisers in ADMM: A Convergent Plug-and-Play Framework](../../CVPR2025/image_generation/taming_score-based_denoisers_in_admm_a_convergent_plug-and-play_framework.md)
 - [\[ICML 2026\] Scalable GANs with Transformers](scalable_gans_with_transformers.md)
 - [\[ICLR 2026\] Monocular Normal Estimation via Shading Sequence Estimation](../../ICLR2026/image_generation/monocular_normal_estimation_via_shading_sequence_estimation.md)
-- [\[ICML 2026\] Krause Synchronization Transformers](krause_synchronization_transformers.md)
+- [\[ICML 2026\] Rao-Blackwellized Score Matching on Manifolds](rao-blackwellized_score_matching_on_manifolds.md)
 
 </div>
 

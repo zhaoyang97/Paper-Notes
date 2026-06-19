@@ -80,6 +80,7 @@ $$\text{Attn}_{tar}(\vec{Q},\vec{K},\vec{V})=\text{softmax}\!\left(\frac{\vec{Q}
 评测用自建 **DreamOmni2 benchmark**（真实图、覆盖具体物体 + 全局/局部抽象属性），由 Gemini 2.5、Doubao 1.6 和专业工程师三方打成功率（5 人评 >3 人通过即算成功，需同时满足"遵循指令 / 一致性 / 无明显畸变"三条）。
 
 ### 主实验：多模态指令编辑成功率
+
 | 方法 | 具体物体 Human↑ | 抽象属性 Human↑ | 具体物体 Gemini↑ | 抽象属性 Gemini↑ |
 |------|------|------|------|------|
 | GPT-4o（闭源） | 0.561 | 0.579 | 0.683 | 0.720 |
@@ -92,6 +93,7 @@ $$\text{Attn}_{tar}(\vec{Q},\vec{K},\vec{V})=\text{softmax}\!\left(\frac{\vec{Q}
 开源模型在抽象属性上几乎全军覆没（Human 多为 0），DreamOmni2 把抽象属性人评做到 0.683、**反超 GPT-4o 与 Nano Banana**；具体物体也在所有开源模型里第一、人评胜过两个商业模型。生成任务（Tab. 3）结论类似：人评同为 0.610/0.683，超过 Nano Banana、与 GPT-4o 相当。
 
 ### 消融一：数据 vs VLM 的联合训练（编辑/生成 Doubao 成功率）
+
 | 方案 | 训生成/编辑模型 | 训 VLM | 编辑·具体 | 编辑·抽象 | 生成·具体 | 生成·抽象 |
 |------|:---:|:---:|------|------|------|------|
 | Scheme 1（基座 Kontext） | ✗ | ✗ | 0.122 | 0.012 | 0.375 | 0.122 |
@@ -100,6 +102,7 @@ $$\text{Attn}_{tar}(\vec{Q},\vec{K},\vec{V})=\text{softmax}\!\left(\frac{\vec{Q}
 | **Scheme 4（联合，Ours）** | ✓ | ✓ | **0.659** | **0.628** | **0.667** | **0.633** |
 
 ### 消融二：多图编码方案（Doubao 成功率）
+
 | 方案 | Index Enc | 位置偏移 | 编辑·具体 | 编辑·抽象 | 生成·具体 | 生成·抽象 |
 |------|:---:|:---:|------|------|------|------|
 | Scheme 1 | ✗ | ✗ | 0.244 | 0.281 | 0.292 | 0.222 |
@@ -145,8 +148,8 @@ $$\text{Attn}_{tar}(\vec{Q},\vec{K},\vec{V})=\text{softmax}\!\left(\frac{\vec{Q}
 - [\[CVPR 2026\] OmniGen2: Towards Instruction-Aligned Multimodal Generation](omnigen2_towards_instruction-aligned_multimodal_generation.md)
 - [\[CVPR 2026\] CompBench: Benchmarking Complex Instruction-guided Image Editing](compbench_benchmarking_complex_instruction-guided_image_editing.md)
 - [\[CVPR 2026\] SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control](slideredit_continuous_image_editing_with_fine-grained_instruction_control.md)
+- [\[CVPR 2026\] Inter-Edit: First Benchmark for Interactive Instruction-Based Image Editing](inter-edit_first_benchmark_for_interactive_instruction-based_image_editing.md)
 - [\[CVPR 2026\] Kontinuous Kontext: Continuous Strength Control for Instruction-based Image Editing](kontinuous_kontext_continuous_strength_control_for_instruction-based_image_editi.md)
-- [\[CVPR 2026\] Proxy-Tuning: Tailoring Multimodal Autoregressive Models for Subject-Driven Image Generation](proxy-tuning_tailoring_multimodal_autoregressive_models_for_subject-driven_image.md)
 
 </div>
 

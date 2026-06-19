@@ -2,9 +2,10 @@
 title: >-
   [论文解读] CAD-Refiner: A Unified Framework for CAD Generation and Iterative Editing
 description: >-
-  [CVPR 2026][CAD 序列生成] CAD-Refiner 用一个 VLM 智能体把文本/图像/编辑指令解析成 CAD 模型的「拓扑结构图」作为统一条件，再配合「序列注入策略」把生成/补全/编辑三类任务对齐进同一个解码器，并用基于 OCCT 几何校验的自适应损失加权来修正几何错误，从而在单一模型里完成「先生成、后多轮迭代编辑」的完整 CAD 建模工作流。
+  [CVPR 2026][多模态VLM][CAD 序列生成] CAD-Refiner 用一个 VLM 智能体把文本/图像/编辑指令解析成 CAD 模型的「拓扑结构图」作为统一条件，再配合「序列注入策略」把生成/补全/编辑三类任务对齐进同一个解码器，并用基于 OCCT 几何校验的自适应损失加权来修正几何错误，从而在单一模型里完成「先生成、后多轮迭代编辑」的完整 CAD 建模工作流。
 tags:
   - "CVPR 2026"
+  - "多模态VLM"
   - "CAD 序列生成"
   - "拓扑结构图"
   - "迭代编辑"
@@ -161,11 +162,11 @@ CAD Insighter 单独消融（Table 4）：无 Insighter 时 Accp 51.66、加入�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Bidirectional Query-Driven Generation of Parametric CAD Sketch](bidirectional_query-driven_generation_of_parametric_cad_sketch.md)
-- [\[CVPR 2026\] A Unified Framework for Knowledge Transfer in Bidirectional Model Scaling](a_unified_framework_for_knowledge_transfer_in_bidirectional_model_scaling.md)
-- [\[CVPR 2026\] Event Structural Valley: A Unified Theoretical and Practical Framework for Event Camera Autofocus](event_structural_valley_a_unified_theoretical_and_practical_framework_for_event_.md)
-- [\[CVPR 2026\] 4DWorldBench: A Comprehensive Evaluation Framework for 3D/4D World Generation Models](4dworldbench_a_comprehensive_evaluation_framework_for_3d4d_world_generation_mode.md)
-- [\[ICML 2026\] iWorld-Bench: A Benchmark for Interactive World Models with a Unified Action Generation Framework](../../ICML2026/others/iworld-bench_a_benchmark_for_interactive_world_models_with_a_unified_action_gene.md)
+- [\[CVPR 2026\] CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design with Large Language Models](cadfs_a_big_cad_program_dataset_and_framework_for_computer-aided_design_with_lar.md)
+- [\[CVPR 2026\] Unified Personalized Understanding, Generating and Editing](unified_personalized_understanding_generating_and_editing.md)
+- [\[AAAI 2026\] ReCAD: Reinforcement Learning Enhanced Parametric CAD Model Generation with Vision-Language Models](../../AAAI2026/multimodal_vlm/recad_reinforcement_learning_enhanced_parametric_cad_model_generation_with_visio.md)
+- [\[ICCV 2025\] CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](../../ICCV2025/multimodal_vlm/cad-assistant_tool-augmented_vllms_as_generic_cad_task_solvers.md)
+- [\[CVPR 2026\] Rosetta Stone for Unified MLLMs: A Unified Tokenizer to Decipher Understanding and Generation](rosetta_stone_for_unified_mllms_a_unified_tokenizer_to_decipher_understanding_an.md)
 
 </div>
 

@@ -129,8 +129,8 @@ tags:
 
 - [\[NeurIPS 2025\] Hyperbolic Dataset Distillation](hyperbolic_dataset_distillation.md)
 - [\[ACL 2026\] RouteNLP: Closed-Loop LLM Routing with Conformal Cascading and Distillation Co-Optimization](../../ACL2026/model_compression/routenlp_closed-loop_llm_routing_with_conformal_cascading_and_distillation_co-op.md)
-- [\[CVPR 2026\] Beyond Soft Label: Dataset Distillation via Orthogonal Gradient Matching](../../CVPR2026/model_compression/beyond_soft_label_dataset_distillation_via_orthogonal_gradient_matching.md)
 - [\[NeurIPS 2025\] ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](orpo-distill_mixed-policy_preference_optimization_for_cross-architecture_llm_dis.md)
+- [\[CVPR 2026\] Beyond Soft Label: Dataset Distillation via Orthogonal Gradient Matching](../../CVPR2026/model_compression/beyond_soft_label_dataset_distillation_via_orthogonal_gradient_matching.md)
 - [\[NeurIPS 2025\] Rectifying Soft-Label Entangled Bias in Long-Tailed Dataset Distillation](rectifying_soft-label_entangled_bias_in_long-tailed_dataset_distillation.md)
 
 </div>

@@ -88,6 +88,7 @@ flowchart TD
 | 按 $N_A/N$ 切片 | Qwen3-30B-A3B ($N_A/N\approx0.06$) 最干净 | Mixtral-8x7B ($N_A/N=0.25$) 明显较脏 | 路由越稀疏，单义性越强 |
 
 ### 专家级自动可解释 & 因果归因
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | OLMoE / ERNIE / Qwen3 共 14 层全部专家 | 大多数专家 F1 > 0.8 | scorer 在 10 正 10 负样本上几乎能完美分类，labels 不是 LLM 凭空写的 |
@@ -132,9 +133,9 @@ flowchart TD
 
 - [\[CVPR 2026\] ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization](../../CVPR2026/interpretability/ermoe_eigen-reparameterized_mixture-of-experts_for_stable_routing.md)
 - [\[ACL 2025\] EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations](../../ACL2025/interpretability/expert_an_explainable_image_captioning_evaluation_metric_with_structured_explana.md)
+- [\[ICML 2026\] Scalable Circuit Learning for Interpreting Large Language Models](scalable_circuit_learning_for_interpreting_large_language_models.md)
 - [\[NeurIPS 2025\] AgentiQL: An Agent-Inspired Multi-Expert Framework for Text-to-SQL Generation](../../NeurIPS2025/interpretability/agentiql_an_agent-inspired_multi-expert_framework_for_text-to-sql_generation.md)
 - [\[ACL 2026\] METER: Evaluating Multi-Level Contextual Causal Reasoning in Large Language Models](../../ACL2026/interpretability/meter_evaluating_multi-level_contextual_causal_reasoning_in_large_language_model.md)
-- [\[ICML 2026\] Query Circuits: Explaining How Language Models Answer User Prompts](query_circuits_explaining_how_language_models_answer_user_prompts.md)
 
 </div>
 

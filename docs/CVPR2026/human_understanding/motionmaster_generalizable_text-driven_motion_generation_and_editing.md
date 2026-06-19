@@ -106,6 +106,7 @@ flowchart TD
 MotionMaster 的离散化器在局部/全局位置、全局旋转、速度上全面最优，尤其全局位置误差几乎砍半（9.53 vs 15.74）——印证了「局部编码 + 全局监督」确实同时拿到两端好处。唯一局部旋转误差偏高（7.55°），论文解释是骨骼绕自身轴向的旋转无约束、缺乏直接监督所致。
 
 ### 消融实验
+
 | 配置 | 单动作 Semantic | 编辑 R@1 | 说明 |
 |------|---------|------|------|
 | Full model | 9.88 | 0.77 | 完整模型 |
@@ -156,10 +157,10 @@ MotionMaster 的离散化器在局部/全局位置、全局旋转、速度上全
 ## 相关论文
 
 - [\[CVPR 2026\] Hierarchical Enhancement of Semantic Priors for Disentangled Text-Driven Motion Generation](hierarchical_enhancement_of_semantic_priors_for_disentangled_text-driven_motion_.md)
-- [\[CVPR 2026\] Text-Driven 3D Hand Motion Generation from Sign Language Data](text-driven_3d_hand_motion_generation_from_sign_language_data.md)
 - [\[CVPR 2026\] MoLingo: Motion-Language Alignment for Text-to-Human Motion Generation](molingo_motion-language_alignment_for_text-to-motion_generation.md)
 - [\[CVPR 2026\] Next-Scale Autoregressive Models for Text-to-Motion Generation](next-scale_autoregressive_models_for_text-to-motion_generation.md)
 - [\[CVPR 2025\] SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction](../../CVPR2025/human_understanding/simmotionedit_text-based_human_motion_editing_with_motion_similarity_prediction.md)
+- [\[CVPR 2026\] Unified Number-Free Text-to-Motion Generation Via Flow Matching](unified_number-free_text-to-motion_generation_via_flow_matching.md)
 
 </div>
 

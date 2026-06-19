@@ -86,6 +86,7 @@ $$r(o, g) = \begin{cases} r_1, & o \in \mathrm{GoalStates}(g),\\ r_2, & \text{ot
 ## 实验关键数据
 
 ### 与现有多智能体环境对比
+
 | 环境 | 类型 | 多目标 | 随机性 | 任务数 | 奖励设计 |
 |------|------|--------|--------|--------|----------|
 | VMAS | 协作+竞争 | 否 | 否 | 27 | 按场景定制 |
@@ -97,6 +98,7 @@ $$r(o, g) = \begin{cases} r_1, & o \in \mathrm{GoalStates}(g),\\ r_2, & \text{ot
 MangoBench 是表中唯一同时具备「多目标 + 随机性 + 简单通用奖励」的基准，任务数也最多。
 
 ### 去中心化 vs CTDE（AntMaze-navigate 成功率 %）
+
 | 数据集 | IHIQL（去中心化） | HIQL-CTDE | IGCIVL | GCIVL-CTDE |
 |--------|------|------|------|------|
 | medium(2x4) | 95.1 ± 1.6 | 74.0 ± 0.6 | 76.0 ± 3.4 | 75.0 ± 4.2 |
@@ -107,6 +109,7 @@ MangoBench 是表中唯一同时具备「多目标 + 随机性 + 简单通用奖
 IHIQL 全面碾压 HIQL-CTDE，尤其在 giant 这种大尺度长时序任务上 CTDE 几乎归零（1.4%）。作者归因于 HIQL-CTDE 为了用全局状态需要两套独立的目标表示网络（一套给中心化值函数、一套给去中心化异构 actor），多网络联合优化随问题复杂度上升而严重不稳定。而对比 IGCIVL（IHIQL 的扁平单 actor 简化版）与 GCIVL-CTDE 时两者表现接近、后者训练还更稳，进一步说明退化主要来自分层结构复杂度、而非 CTDE 范式本身。
 
 ### 单目标 vs 多目标评测（lift-barrier，成功率 %）
+
 | 评测方式 | IHIQL | GCMBC | ICRL |
 |----------|-------|-------|------|
 | 单目标 | 78% | 22% | 37% |
@@ -155,8 +158,8 @@ IHIQL 全面碾压 HIQL-CTDE，尤其在 giant 这种大尺度长时序任务上
 - [\[ICML 2026\] Latent Representation Alignment for Offline Goal-Conditioned Reinforcement Learning](../../ICML2026/reinforcement_learning/latent_representation_alignment_for_offline_goal-conditioned_reinforcement_learn.md)
 - [\[ICML 2026\] Compositional Transduction with Latent Analogies for Offline Goal-Conditioned Reinforcement Learning](../../ICML2026/reinforcement_learning/compositional_transduction_with_latent_analogies_for_offline_goal-conditioned_re.md)
 - [\[CVPR 2026\] TaskForce: Cooperative Multi-agent Reinforcement Learning for Multi-task Optimization](taskforce_cooperative_multi-agent_reinforcement_learning_for_multi-task_optimiza.md)
+- [\[ICML 2026\] Direction-Conditioned Policies via Compositional Subgoal Scoring for Online Goal-Conditioned Reinforcement Learning](../../ICML2026/reinforcement_learning/direction-conditioned_policies_via_compositional_subgoal_scoring_for_online_goal.md)
 - [\[AAAI 2026\] First-Order Representation Languages for Goal-Conditioned RL](../../AAAI2026/reinforcement_learning/first-order_representation_languages_for_goal-conditioned_rl.md)
-- [\[ICML 2026\] LLM-Guided Communication for Cooperative Multi-Agent Reinforcement Learning](../../ICML2026/reinforcement_learning/llm-guided_communication_for_cooperative_multi-agent_reinforcement_learning.md)
 
 </div>
 

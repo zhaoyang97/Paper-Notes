@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Chain-of-Thought Guided Multi-Modal Object Re-Identification
 description: >-
-  [CVPR 2026][多模态VLM][多模态目标重识别] CoT-ReID 让多模态大模型对 RGB/近红外/热红外三模态目标"边看边推理"，把推理链文本拆成早期、后期、决策三个层级去引导视觉特征学习，在四个多光谱 ReID 数据集上刷新 SOTA（如 MSVR310 mAP 71.7%）。 领域现状：多光谱目标重识别（R…
+  [CVPR 2026][VLM Reasoning][多模态目标重识别] CoT-ReID 让多模态大模型对 RGB/近红外/热红外三模态目标"边看边推理"，把推理链文本拆成早期、后期、决策三个层级去引导视觉特征学习，在四个多光谱 ReID 数据集上刷新 SOTA（如 MSVR310 mAP 71.7%）。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态目标重识别"
   - "思维链CoT"
   - "跨模态一致性"
@@ -160,10 +160,10 @@ CT-CMC 内部组件消融（WMVeID863，验证"三件套缺一不可"）：
 
 ## 相关论文
 
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
 - [\[CVPR 2026\] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought](when_visualizing_is_the_first_step_to_reasoning_mira_a_benchmark_for_visual_chai.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
 - [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
-- [\[NeurIPS 2025\] MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification](../../NeurIPS2025/multimodal_vlm/mdreid_modality-decoupled_learning_for_any-to-any_multi-modal_object_re-identifi.md)
-- [\[CVPR 2026\] Beyond Weak Supervision: MLLMs-Guided Graded Knowledge Distillation for Unsupervised Camouflaged Object Detection](beyond_weak_supervision_mllms-guided_graded_knowledge_distillation_for_unsupervi.md)
 - [\[CVPR 2026\] Fuel Gauge: Estimating Chain-of-Thought Length Ahead of Time in Large Multimodal Models](fuel_gauge_estimating_chain-of-thought_length_ahead_of_time_in_large_multimodal_.md)
 
 </div>

@@ -129,9 +129,9 @@ flowchart TD
 - **vs 多目标 RM 分解 (Wang et al., 2024; Zhang et al., 2025)**：他们把标量奖励分解成多维向量但维度是预设的；Obj-Disco 完全 from-scratch 发现维度，能发现预设里没有的"unknown unknowns"。
 - **vs Sparse Autoencoder for RM (Marks et al., 2023)**：SAE 在激活空间找 feature，特征是分布式向量；Obj-Disco 直接产出自然语言目标，对开发者更易读但牺牲了细粒度。
 - **可迁移启发**：
-  - "轨迹优于快照"对任何 model behavior change 解释任务都成立——可推广到 fine-tuning 副作用诊断、continual learning 行为漂移分析。
-  - "残差驱动 + LLM 提候选 + LLM 验证候选" 是个通用模板，可用于任何"在大离散空间里搜可解释假设"场景，如 dataset bias 发现、prompt failure mode 聚类。
-  - 子模 OE 选样可直接复用做 dataset distillation 和 in-context example 选择。
+    - "轨迹优于快照"对任何 model behavior change 解释任务都成立——可推广到 fine-tuning 副作用诊断、continual learning 行为漂移分析。
+    - "残差驱动 + LLM 提候选 + LLM 验证候选" 是个通用模板，可用于任何"在大离散空间里搜可解释假设"场景，如 dataset bias 发现、prompt failure mode 聚类。
+    - 子模 OE 选样可直接复用做 dataset distillation 和 in-context example 选择。
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐⭐ 第一个系统性把 RLHF 奖励反向工程成自然语言目标且利用完整轨迹的框架；问题定义、Matching Pursuit 借鉴、双重 LLM 校验、子模 OE 四件套都很清晰。
@@ -147,8 +147,8 @@ flowchart TD
 
 - [\[NeurIPS 2025\] Probabilistic Token Alignment for Large Language Model Fusion](../../NeurIPS2025/interpretability/probabilistic_token_alignment_for_large_language_model_fusion.md)
 - [\[ICML 2026\] Prototype Transformer: Towards Language Model Architectures Interpretable by Design](prototype_transformer_towards_language_model_architectures_interpretable_by_desi.md)
-- [\[ICML 2026\] Discovering Differences in Strategic Behavior Between Humans and LLMs](discovering_differences_in_strategic_behavior_between_humans_and_llms.md)
 - [\[ICML 2026\] A Behavioural and Representational Evaluation of Goal-Directedness in Language Model Agents](a_behavioural_and_representational_evaluation_of_goal-directedness_in_language_m.md)
+- [\[ICML 2026\] Discovering Differences in Strategic Behavior Between Humans and LLMs](discovering_differences_in_strategic_behavior_between_humans_and_llms.md)
 - [\[ACL 2026\] Dual Alignment Between Language Model Layers and Human Sentence Processing](../../ACL2026/interpretability/dual_alignment_between_language_model_layers_and_human_sentence_processing.md)
 
 </div>

@@ -85,6 +85,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 设置 | 指标 | 本文关键结果 | 对比对象 | 说明 |
 |--------|------|------|----------|------|
 | DraDDP 数据规模 | Dialogues / Utterances / Video | 495 / 6,374 / 9.1h | MODDP: 864 / 18K / 中文双人 | DraDDP 更小，但覆盖英文多方和 T+V+A |
@@ -94,6 +95,7 @@ flowchart TD
 | DraDDP | Link-F1 / Link&Rel-F1 | Qwen2.5-Omni: 84.55 / 53.34 | Qwen2-Audio: 84.90 / 55.09 | 全模态融合不如文本+音频，说明视频噪声会抵消收益 |
 
 ### 消融实验
+
 | 配置 | Link-F1 | Link&Rel-F1 | 说明 |
 |------|---------|------|------|
 | T | 84.67 | 53.69 | 文本是最强单模态基础 |
@@ -141,8 +143,8 @@ flowchart TD
 ## 相关论文
 
 - [\[ACL 2025\] AkaCE: A Multimodal Multi-party Dataset for Emotion Recognition in Movie Dialogues](../../ACL2025/multimodal_vlm/akan_cinematic_emotions_ace_a_multimodal_multi-party_dataset_for_emotion_recogni.md)
+- [\[CVPR 2026\] ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](../../CVPR2026/multimodal_vlm/chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)
 - [\[ACL 2026\] GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance](guidedog_a_real-world_egocentric_multimodal_dataset_for_blind_and_low-vision_acc.md)
-- [\[ACL 2026\] OMHBench: Benchmarking Balanced and Grounded Omni-Modal Multi-Hop Reasoning](omhbench_benchmarking_balanced_and_grounded_omni-modal_multi-hop_reasoning.md)
 - [\[ACL 2026\] From Heads to Neurons: Causal Attribution and Steering in Multi-Task Vision-Language Models](from_heads_to_neurons_causal_attribution_and_steering_in_multi-task_vision-langu.md)
 - [\[NeurIPS 2025\] SmartWilds: Multimodal Wildlife Monitoring Dataset](../../NeurIPS2025/multimodal_vlm/smartwilds_multimodal_wildlife_monitoring_dataset.md)
 

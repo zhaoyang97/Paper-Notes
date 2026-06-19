@@ -92,6 +92,7 @@ flowchart TD
 本文在指令实现类方法中拿到最高 0.84，相对最优基线 DiLu++（0.51）提升约 64%、相对 Diffusion-ES（0.28）提升约 200%，同时碰撞、TTC、合规指标与专用 AD 方法持平甚至更优；Progress 略低是因为执行乘客指令会偶尔偏离全局路径（属预期权衡）。意图识别上，只有 Qwen-2.5-72B、DeepSeek-V3、DeepSeek-R1 等大模型才能超过 85%，印证开放式指令理解本身非平凡。
 
 ### 消融实验
+
 | 配置 | REC/REA ↑ | Collision ↑ | TTC ↑ | 说明 |
 |------|------|------|------|------|
 | Ours w/o Context | 0.78 | — | — | 去掉交通上下文，意图识别掉约 10% |
@@ -135,10 +136,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving](diffusion_forcing_planner_history-annealed_planning_with_time-dependent_guidance.md)
-- [\[CVPR 2026\] O3N: Omnidirectional Open-Vocabulary Occupancy Prediction](o3n_omnidirectional_open-vocabulary_occupancy_prediction.md)
 - [\[CVPR 2026\] Unposed-to-3D: Learning Simulation-Ready Vehicles from Real-World Images](unposed-to-3d_learning_simulation-ready_vehicles_from_real-world_images.md)
 - [\[CVPR 2026\] Open-Vocabulary Domain Generalization in Urban-Scene Segmentation](open-vocabulary_domain_generalization_in_urban-scene_segmentation.md)
 - [\[ICCV 2025\] CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving](../../ICCV2025/autonomous_driving/colmdriver_llm-based_negotiation_benefits_cooperative_autonomous_driving.md)
+- [\[CVPR 2026\] Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes (LegoOcc)](monocular_open_vocabulary_occupancy_prediction_for_indoor_scenes.md)
 
 </div>
 

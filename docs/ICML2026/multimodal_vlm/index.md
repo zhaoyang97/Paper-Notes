@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 多模态VLM论文汇总 · 76篇论文解读
+  ICML2026 多模态VLM论文汇总 · 89篇论文解读
 description: >-
-  76篇ICML2026的多模态 VLM 方向论文解读，涵盖多模态、对抗鲁棒、LLM、压缩/编码、对齐/RLHF、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  89篇ICML2026的多模态 VLM 方向论文解读，涵盖多模态、对抗鲁棒、LLM、对齐/RLHF、压缩/编码、医学影像等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2026"
   - "多模态 VLM"
@@ -11,10 +11,12 @@ tags:
   - "多模态"
   - "对抗鲁棒"
   - "LLM"
-  - "压缩/编码"
   - "对齐/RLHF"
-  - "Agent"
+  - "压缩/编码"
+  - "医学影像"
 item_list:
+  - u: "active-o3_empowering_mllms_with_active_perception_via_pure_reinforcement_learnin/"
+    t: "ACTIVE-o3: Empowering MLLMs with Active Perception via Pure Reinforcement Learning"
   - u: "agenthijack_benchmarking_computer_use_agent_robustness_to_common_environment_cor/"
     t: "AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions"
   - u: "alterbute_editing_intrinsic_attributes_of_objects_in_images/"
@@ -25,6 +27,8 @@ item_list:
     t: "AOEPT: Breaking the Implicit Modality-Reduction Bottleneck in Modality-Missing Prompt Tuning"
   - u: "are_vlms_seeing_or_just_saying_uncovering_the_illusion_of_visual_re-examination/"
     t: "Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination"
+  - u: "avi-bench_toward_human-like_audio-visual_intelligence_of_omni-mllms/"
+    t: "AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs"
   - u: "benchmarking_and_enhancing_vlm_for_compressed_image_understanding/"
     t: "Benchmarking and Enhancing VLM for Compressed Image Understanding"
   - u: "benchmarks_for_vision-language_models_in_urban_perception_should_be_reliability-/"
@@ -43,6 +47,8 @@ item_list:
     t: "Conditional Diffusion Sampling"
   - u: "contextualized_visual_personalization_in_vision-language_models/"
     t: "Contextualized Visual Personalization in Vision-Language Models"
+  - u: "contrastive_spectral_rectification_test-time_defense_towards_zero-shot_adversari/"
+    t: "Contrastive Spectral Rectification: Test-Time Defense towards Zero-shot Adversarial Robustness of CLIP"
   - u: "cvsearch_empowering_multimodal_llms_with_cognitive_visual_search_for_high-resolu/"
     t: "CVSearch: Empowering Multimodal LLMs with Cognitive Visual Search for High-Resolution Image Perception"
   - u: "cyberjurors_a_multi-agent_simulation_task_for_e-commerce_disputes_verdict/"
@@ -65,27 +71,25 @@ item_list:
     t: "Dimension-Free Multimodal Sampling via Preconditioned Annealed Langevin Dynamics"
   - u: "diva_harnessing_the_representation_divergence_in_unified_multimodal_models_for_m/"
     t: "DIVA: Harnessing the Representation Divergence in Unified Multimodal Models for Mutual Reinforcement"
-  - u: "ecg-r1_protocol-guided_and_modality-agnostic_mllm_for_reliable_ecg_interpretatio/"
-    t: "ECG-R1: Protocol-Guided and Modality-Agnostic MLLM for Reliable ECG Interpretation"
-  - u: "explaining_is_harder_than_predicting_alone_evaluating_concept-based_explanations/"
-    t: "Explaining Is Harder than Predicting Alone: Evaluating Concept-Based Explanations of MLLMs as ICL Visual Classifiers"
-  - u: "flownar_scalable_streaming_narration_for_long-form_videos/"
-    t: "FlowNar: Scalable Streaming Narration for Long-Form Videos"
-  - u: "focusing_where_vision_matters_selective_training_for_large_vision_language_model/"
-    t: "Focusing Where Vision Matters: Selective Training for Large Vision Language Models via Visual Information Gain"
-  - u: "freeret_mllms_as_training-free_retrievers/"
-    t: "FreeRet: MLLMs as Training-Free Retrievers"
-item_total: 76
+  - u: "does_ai_reviewer_see_the_full_picture_attacking_and_defending_multimodal_peer_re/"
+    t: "Does AI Reviewer See the Full Picture? Attacking and Defending Multimodal Peer Review"
+  - u: "eca_efficient_continual_alignment_for_open-ended_image-to-text_generation/"
+    t: "ECA: Efficient Continual Alignment for Open-Ended Image-to-Text Generation"
+item_total: 89
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🧪 ICML2026** · **76** 篇论文解读
+**🧪 ICML2026** · **89** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (404)](../../CVPR2026/multimodal_vlm/index.md) · [💬 ACL2026 (79)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (61)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (119)](../../ICCV2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (418)](../../CVPR2026/multimodal_vlm/index.md) · [💬 ACL2026 (82)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (71)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (119)](../../ICCV2025/multimodal_vlm/index.md)
 
-🔥 **高频主题：** 多模态 ×35 · 对抗鲁棒 ×6 · LLM ×4 · 压缩/编码 ×3 · 对齐/RLHF ×3
+🔥 **高频主题：** 多模态 ×39 · 对抗鲁棒 ×9 · LLM ×4 · 对齐/RLHF ×4 · 压缩/编码 ×3
+
+**[ACTIVE-o3: Empowering MLLMs with Active Perception via Pure Reinforcement Learning](active-o3_empowering_mllms_with_active_perception_via_pure_reinforcement_learnin.md)**
+
+:   ACTIVE-o3 把"该往哪看、怎么看"这件事交给一个 MLLM 自己学：用纯强化学习（GRPO）训练它把一张图像并行地圈出最多 3 个最值得放大的子区域，靠"任务奖励 + 启发式奖励"双形态奖励解决纯任务奖励太稀疏的问题，在小/密集目标检测、遥感、自动驾驶、交互式分割上一致超过基线，还顺带提升了 RealWorldQA / MME 等通用理解能力。
 
 **[AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions](agenthijack_benchmarking_computer_use_agent_robustness_to_common_environment_cor.md)**
 
@@ -106,6 +110,10 @@ item_total: 76
 **[Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination](are_vlms_seeing_or_just_saying_uncovering_the_illusion_of_visual_re-examination.md)**
 
 :   这篇论文提出 VisualSwap 和 VS-Bench，通过在 VLM 自称“再看一眼图像”之后替换图像来检验真实视觉重检能力，发现当前推理型 VLM 往往沿着旧文本惯性继续生成，显式用户多轮指令或增强视觉注意力才能显著恢复 grounding。
+
+**[AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs](avi-bench_toward_human-like_audio-visual_intelligence_of_omni-mllms.md)**
+
+:   AVI-Bench 是一个受人类认知启发的音视频基准：把对 Omni-MLLM 的评测按「感知 → 理解 → 推理」三阶段组织、再补一个测「原始感知」的 PriSe 扩展，用 14 个任务、5,864 个样本、9 个指标系统诊断 28 个开源/闭源 Omni-MLLM 的音视频智能（AVI），并据此提出一个四级 AVI taxonomy。
 
 **[Benchmarking and Enhancing VLM for Compressed Image Understanding](benchmarking_and_enhancing_vlm_for_compressed_image_understanding.md)**
 
@@ -142,6 +150,10 @@ item_total: 76
 **[Contextualized Visual Personalization in Vision-Language Models](contextualized_visual_personalization_in_vision-language_models.md)**
 
 :   CoViP 把"基于用户历史经验做视觉个性化"这一开放任务，统一收敛到"个性化图像字幕"这个共享底层过程，通过可验证奖励的 RL 后训练 + 推理时的字幕增强生成（CAG），让 VLM 在交错图文上下文里真正"看图说人话"，并配套设计了能排除文本捷径的 MCQA 诊断基准。
+
+**[Contrastive Spectral Rectification: Test-Time Defense towards Zero-shot Adversarial Robustness of CLIP](contrastive_spectral_rectification_test-time_defense_towards_zero-shot_adversari.md)**
+
+:   作者发现对抗样本的特征在「逐步抹掉中高频」时会急剧崩塌（而干净样本不会），据此提出测试时防御 CSR：先用「过滤前后特征是否一致」当门控检测对抗样本，再用一个「拉向低通锚点、推离原始对抗特征」的对比目标在输入上优化一个修正扰动，把图像拽回自然流形；在 16 个分类基准上对强攻击 APGD 平均提升 18.1%，且推理开销很小。
 
 **[CVSearch: Empowering Multimodal LLMs with Cognitive Visual Search for High-Resolution Image Perception](cvsearch_empowering_multimodal_llms_with_cognitive_visual_search_for_high-resolu.md)**
 
@@ -187,6 +199,14 @@ item_total: 76
 
 :   DIVA 发现统一多模态模型 (UMM) 在中间层会自发把"理解"与"生成"两条信息流解耦，于是显式地把表示因子化为共享与独有两部分，用对比/CLUB 互信息约束实现"共享对齐 + 独有解耦"，在 Show-o/Liquid/Nexus-Gen 上同时提升理解 +7.82% 与生成 +8.46%，无需改架构。
 
+**[Does AI Reviewer See the Full Picture? Attacking and Defending Multimodal Peer Review](does_ai_reviewer_see_the_full_picture_attacking_and_defending_multimodal_peer_re.md)**
+
+:   随着 AAAI/ICML/NeurIPS 等会议把 AI 生成评审正式纳入初审，本文提出 PaperGuard——首个系统评测"多模态 AI 评审在对抗操纵下有多脆弱"的基准：统一了黑盒提示注入与白盒梯度攻击（文本 GCG、图像 PGD/APGD/CW），证明仅靠文本防护远远不够（图像攻击能把分数抬高 +14 分），并给出一个轻量的 chunk 级嵌入检索防御（95% 准确率、零误报）。
+
+**[ECA: Efficient Continual Alignment for Open-Ended Image-to-Text Generation](eca_efficient_continual_alignment_for_open-ended_image-to-text_generation.md)**
+
+:   ECA 提出在预训练 VLM 的「对齐模块」（BLIP-2 的 Q-Former）上做免样本增量学习——用 Mixture-of-Query 按图组合任务专属查询、用基于 Fisher 信息矩阵的判据按需扩展并行适配器、用稀疏字典回放保留旧知识，从而在视觉主题随时间漂移的开放式图文生成任务里既学新主题又不灾难遗忘。
+
 **[ECG-R1: Protocol-Guided and Modality-Agnostic MLLM for Reliable ECG Interpretation](ecg-r1_protocol-guided_and_modality-agnostic_mllm_for_reliable_ecg_interpretatio.md)**
 
 :   ECG-R1 是首个面向心电图解读的"推理型"医学多模态大模型，通过**协议引导的指令数据合成 + 信号/图像解耦编码 + 交错模态丢弃训练 + 基于诊断证据的过程奖励 RL** 四件套，把心电诊断准确率从此前 SOTA GEM 的 74.7 提升到 80.3，并在任一模态缺失时保持跨模态一致性。
@@ -210,6 +230,10 @@ item_total: 76
 **[Furina: Fragmented Uncertainty-Driven Refusal Instability Attack](furina_fragmented_uncertainty-driven_refusal_instability_attack.md)**
 
 :   本文先用多指标诊断证明"LLM 的安全决策不是二值阈值，而存在一段拒绝不稳定带"，并发现该带的特征是"外部不确定性升高而内部安全信号反而下降"；据此提出 Furina——一种无需模型特定优化、靠把恶意意图打碎进场景化叙事来强行把输入推入不稳定带的越狱攻击，在 HarmBench 上超越多种强基线。
+
+**[FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs](futureomni_evaluating_future_forecasting_from_omni-modal_context_for_multimodal_.md)**
+
+:   提出首个评测多模态大模型「从音视频上下文预测未来事件」能力的基准 FutureOmni（919 视频 / 1034 道选择题），发现连最强模型 Gemini 3 Flash 也只有 64.8% 准确率，并用一套带推理链的指令微调方法 OFF 把开源模型的预测与泛化能力同时拉高。
 
 **[CHARM: 用 Multimodal JEPA + 通道描述做时间序列 foundation embedding](giving_sensors_a_voice_multimodal_jepa_for_semantic_time-series_embeddings.md)**
 
@@ -267,13 +291,29 @@ item_total: 76
 
 :   作者重审 Manga109 这一漫画 AI 研究的基础数据集，识别出五类对话文本标注问题，结合商用 OCR + GPT-5/Gemini 3 Flash 双 LLM 投票 + 人工校验，修订约 29,000 条标注（占全部 147,887 条文本标注的 19.6%）发布 Manga109-v2026，使端到端 OCR 评测 H-mean 从 48.5 提升到 62.9（+14.4 pp）。
 
+**[Measurement Plasticity: Sensor-Level Adaptation for Vision–Language Models](measurement_plasticity_sensor-level_adaptation_for_vision-language_models.md)**
+
+:   这篇论文把视觉语言模型（VLM）的测试时自适应（TTA）从"调模型/调 token"搬到了"调相机/调光子"——把相机的曝光三角（ISO、快门、光圈）当作可控的"物理提示"，在拍摄阶段就用源域亲和度选出多个物理视图、再经熵过滤和硬投票聚合，无需任何梯度或改模型，就在传感器级分布偏移下显著超过只在数字域做适应的 TTA 方法。
+
 **[Med-Scout: Curing MLLMs' Geometric Blindness in Medical Perception via Geometry-Aware RL Post-Training](med-scout_curing_mllms_geometric_blindness_in_medical_perception_via_geometry-aw.md)**
 
 :   Med-Scout 把"医学 MLLM 在病灶定位时不遵守图像几何约束"这一系统性缺陷定义为"几何盲"，用三个不需要专家标注的几何代理任务（多尺度定位 / 拓扑拼图 / 异常一致性）配合稠密几何奖励（DGR）在 GRPO 下做后训练，并发布 Med-Scout-Bench 用于量化几何盲，在四个 backbone、八个医学基准上一致提升，开源模型甚至反超 GPT-5 / Gemini-3-Flash。
 
+**[MedSIGHT: Towards Grounded Visual Comprehension in Medical Large Vision-Language Models](medsight_towards_grounded_visual_comprehension_in_medical_large_vision-language_.md)**
+
+:   MedSIGHT 把"区域感知器"和一套"按模态分组的区域 codebook"塞进医学 LVLM，让同一个生成式模型既能做诊断推理、又能直接吐出离散区域码并解码成分割掩码，仅用 72K 指令样本就在理解与分割两类任务上同时达到 SOTA。
+
+**[Mitigating Manifold Departure: Uncertainty-Aware Subspace Rectification for Trustworthy MLLM Decoding](mitigating_manifold_departure_uncertainty-aware_subspace_rectification_for_trust.md)**
+
+:   针对训练无关解码方法"无差别压制语言先验"会把隐状态推离正常解码流形（manifold departure）从而损害正常生成的问题，MGAP 用 SVD 从盲文本隐状态中估出一个低秩"语言先验子空间"，解码时只把隐状态在该子空间上的投影分量按"视觉冲突程度 + 预测不确定度"自适应衰减，在 POPE / CHAIR 上同时拿到更强的幻觉抑制和更稳的生成保真。
+
 **[Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling](mitigating_perceptual_judgment_bias_in_multimodal_llm-as-a-judge_via_perceptual_.md)**
 
 :   本文揭示并形式化 MLLM-as-a-Judge 的"感知判断偏差"——评判模型在视觉证据与文本叙述冲突时倾向于奖励语言上更流畅的回答，并通过构造感知扰动数据集 PPJD 与基于 GRPO 的批量排序奖励训练，仅用 3k 样本就让 7B 评判器在多模态评测一致性、单分预测、批量排序三类协议上同时大幅超越同尺寸基线。
+
+**[MoDA: Modulation Adapter for Fine-Grained Visual Grounding in Instructional MLLMs](moda_modulation_adapter_for_fine-grained_visual_grounding_in_instructional_mllms.md)**
+
+:   针对 MLLM 因 ViT patch 表示里"多种视觉语义纠缠在一起"而难以做细粒度视觉定位的问题，本文提出轻量模块 MoDA——在已对齐的视觉特征上、由语言指令通过交叉注意力生成一个 $[0,1]$ 的**通道级软掩码**，用 Hadamard 乘法逐通道地放大与指令相关的特征维度、抑制无关维度；它即插即用、不改 MLLM 架构、不需额外监督，在 12 个基准、3 个 MLLM 架构上一致涨点（LLaVA-1.5 上 MMVP +12.0），而开销不到 1% FLOPs。
 
 **[Model-Dowser: Data-Free Importance Probing to Mitigate Catastrophic Forgetting in Multimodal Large Language Models](model-dowser_data-free_importance_probing_to_mitigate_catastrophic_forgetting_in.md)**
 
@@ -294,6 +334,10 @@ item_total: 76
 **[Referring Multiple Regions with Large Multimodal Models via Contextual Latent Steering](referring_multiple_regions_with_large_multimodal_models_via_contextual_latent_st.md)**
 
 :   CSteer 提出一种训练无关的 latent steering 方法,通过在错误/正确指代回答的隐藏激活差上构造"上下文向量",并在推理时分层注入到 query 早期层和 decode 中后期层,让通用 LMM (Qwen3-VL、InternVL-3.5) 在多区域视觉指代任务上反超专门微调的 region LMM。
+
+**[Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?](robust-u1_can_mllms_self-recover_corrupted_visual_content_for_robust_understandi.md)**
+
+:   Robust-U1 让统一架构的多模态大模型（MLLM）先把被污染的图像在像素级"自我修复"成干净图、再对照原图和恢复图联合推理，从而在真实退化与对抗退化下都拿到鲁棒理解的 SOTA。
 
 **[SAME: Stabilized Mixture-of-Experts for Multimodal Continual Instruction Tuning](same_stabilized_mixture-of-experts_for_multimodal_continual_instruction_tuning.md)**
 
@@ -327,6 +371,10 @@ item_total: 76
 
 :   SOLAR 提出第一套面向"对称 MM2MM 检索"（查询和文档都是 image+text 对、且角色可互换）的两阶段自监督学习框架——第一阶段通过全局-局部对齐 + QDA 自适应阈值学习出"交集 mask"以解耦图文的共享/独有信息，第二阶段利用该 mask 通过对图文不同区域分别掩码构造正/硬负样本做对比学习，并配套发布 214 个人工校验的 sym-MM2MM benchmark；最终以 0.2B 参数和 768 维嵌入超过最强 7.75B VLM 基线 7.08 个百分点。
 
+**[Task-Aware Structured Memory for Dynamic Multi-modal In-Context Learning](task-aware_structured_memory_for_dynamic_multi-modal_in-context_learning.md)**
+
+:   针对多模态多示例上下文学习里 KV cache 爆炸的问题，TASM 提出一个免训练框架：用"任务向量"而非样本特定注意力来打分（去样本偏差），用二部图匹配做语义感知的 token 合并而非硬剪枝（保住视觉拓扑），再用 JS 散度触发的分层动态检索（让被压掉的细节在需要时还能召回），在压掉最多 80% 显存的同时把性能拉到接近全上下文。
+
 **[Text-Conditional JEPA for Learning Semantically Rich Visual Representations](text-conditional_jepa_for_learning_semantically_rich_visual_representations.md)**
 
 :   本文提出 TC-JEPA，把 I-JEPA 的 mask 特征预测器额外条件化在图像 caption 上，通过多层稀疏跨注意力让 patch 表示在文本"提示"下变得可预测，从而在不用对比损失的前提下学到语义更丰富、对密集预测尤其友好的视觉表征。
@@ -334,6 +382,10 @@ item_total: 76
 **[TGV-KV: Text-Grounded KV Eviction for Vision-Language Models](tgv-kv_text-grounded_kv_eviction_for_vision-language_models.md)**
 
 :   TGV-KV 通过"用文本注意力来支配视觉 KV"的三件套——按 text-vision 注意力分层预算、用主导文本 token 加权重排视觉重要性、并在驱逐时优先保住文本 KV——把为纯文本 LLM 设计的 KV eviction 思路成功迁移到 VLM，在 LLaVA-NeXT/Qwen3-VL 上 5% 保留率下仍能保住接近满 KV 的精度，吞吐量提升 52.6%。
+
+**[The Truth Stays in the Family: Enhancing Contextual Truthfulness via Inherited Heads in Model Lineages](the_truth_stays_in_the_family_enhancing_contextual_grounding_via_inherited_truth.md)**
+
+:   作者发现「编码语境忠实度的注意力头」在同一基座衍生出来的 LLM/MLLM 之间会被**遗传**下来，于是提出 TruthProbe——一种用头级 Truth Score 做软门控的即插即用机制，从基座 LLM 探出的分数可以直接迁移给它的微调 LLM 和多模态后代，在 HaluEval / POPE / CHAIR 上同时降低幻觉。
 
 **[TimeSpot: Benchmarking Geo-Temporal Understanding in Vision-Language Models in Real-World Settings](timespot_benchmarking_geo-temporal_understanding_in_vision-language_models_in_re.md)**
 

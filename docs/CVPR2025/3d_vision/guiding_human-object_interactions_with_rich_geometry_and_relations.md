@@ -136,7 +136,7 @@ ROG是一个两阶段扩散框架。给定物体网格、人体骨架和文本�
 - [\[CVPR 2025\] HOI3DGen: Generating High-Quality Human-Object-Interactions in 3D](hoi3dgen_generating_high-quality_human-object-interactions_in_3d.md)
 - [\[CVPR 2025\] Grounding 3D Object Affordance with Language Instructions, Visual Observations and Interactions](grounding_3d_object_affordance_with_language_instructions_visual_observations_an.md)
 - [\[ICCV 2025\] SceneMI: Motion In-betweening for Modeling Human-Scene Interactions](../../ICCV2025/3d_vision/scenemi_motion_in-betweening_for_modeling_human-scene_interaction.md)
-- [\[CVPR 2026\] Recovering Physically Plausible Human-Object Interactions from Monocular Videos](../../CVPR2026/3d_vision/recovering_physically_plausible_human-object_interactions_from_monocular_videos.md)
+- [\[ICCV 2025\] Guiding Diffusion-Based Articulated Object Generation by Partial Point Cloud Alignment and Physical Plausibility Constraints](../../ICCV2025/3d_vision/guiding_diffusion-based_articulated_object_generation_by_partial_point_cloud_ali.md)
 
 </div>
 

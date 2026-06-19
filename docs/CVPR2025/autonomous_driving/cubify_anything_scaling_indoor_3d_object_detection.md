@@ -123,8 +123,8 @@ tags:
 - [\[CVPR 2025\] PAP: A Prediction-as-Perception Framework for 3D Object Detection](a_prediction-as-perception_framework_for_3d_object_detection.md)
 - [\[ECCV 2024\] Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene](../../ECCV2024/autonomous_driving/approaching_outside_scaling_unsupervised_3d_object_detection_from_2d_scene.md)
 - [\[CVPR 2025\] RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion](racformer_towards_high-quality_3d_object_detection_via_query-based_radar-camera_.md)
-- [\[CVPR 2025\] Segment Anything, Even Occluded](segment_anything_even_occluded.md)
 - [\[CVPR 2025\] EV-3DOD: Pushing the Temporal Boundaries of 3D Object Detection with Event Cameras](ev-3dod_pushing_the_temporal_boundaries_of_3d_object_detection_with_event_camera.md)
+- [\[CVPR 2025\] Segment Anything, Even Occluded](segment_anything_even_occluded.md)
 
 </div>
 

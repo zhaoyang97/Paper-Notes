@@ -97,6 +97,7 @@ CorrAdapter 只作为现有 transformer 块的旁路分支接入，所有可学�
 | Dynamic Degree | 0.5556 | 0.5139 | ↓ 一致性增强带来的可预期副作用 |
 
 ### 消融 / 分析实验
+
 | 配置 | 关键指标（图像条件MV, PSNR/SSIM/LPIPS） | 说明 |
 |------|------|------|
 | 训练自由 CorrAdapter | 23.82 / 0.8829 / 0.1235 | 完整训练自由版 |
@@ -140,9 +141,9 @@ CorrAdapter 只作为现有 transformer 块的旁路分支接入，所有可学�
 
 - [\[CVPR 2026\] RewardFlow: Generate Images by Optimizing What You Reward](rewardflow_generate_images_by_optimizing_what_you_reward.md)
 - [\[NeurIPS 2025\] Understand Before You Generate: Self-Guided Training for Autoregressive Image Generation](../../NeurIPS2025/image_generation/understand_before_you_generate_self-guided_training_for_autoregressive_image_gen.md)
+- [\[CVPR 2026\] One Algorithm to Align Them All](one_algorithm_to_align_them_all.md)
 - [\[CVPR 2026\] Re-Align: Structured Reasoning-guided Alignment for In-Context Image Generation and Editing](re-align_structured_reasoning-guided_alignment_for_in-context_image_generation_a.md)
 - [\[CVPR 2026\] SimLBR: Learning to Detect Fake Images by Learning to Detect Real Images](simlbr_learning_to_detect_fake_images_by_learning_to_detect_real_images.md)
-- [\[CVPR 2026\] Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval](imagine_before_concentration_diffusion-guided_registers_enhance_partially_releva.md)
 
 </div>
 

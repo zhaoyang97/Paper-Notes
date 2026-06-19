@@ -102,6 +102,7 @@ FBTA 作为即插即用框架，对 ABMIL / TransMIL / MambaMIL 三种 MIL、Res
 关键现象：加了 FBTA 后，经典的 ABMIL 性能逼近更强的 MambaMIL，把传统 MIL 和 SOTA MIL 的差距基本抹平。FBTA 对自监督预训练提取器（SimSiam-ResNet50 / DINO-ViT）和数据增广方法（DTFD-AFS）也能再叠加涨点，无需改动其预训练流程。
 
 ### 效率对比（vs 全图端到端 / Local Learning）
+
 | 方法 | NSCLC-S20 AUC | NSCLC-S20 ACC | 每 epoch 时间 | 显存 |
 |------|--------------|--------------|--------------|------|
 | Direct/Adapter/LoRA 微调 | — | — | — | **OOM** |
@@ -111,6 +112,7 @@ FBTA 作为即插即用框架，对 ABMIL / TransMIL / MambaMIL 三种 MIL、Res
 全图端到端在 24GB 上最多放 400 个示例就 OOM，而 FBTA（$M{=}1$）单次迭代能处理 5 万+ 示例、约 8GB 显存，提速达数百倍；特征提取阶段翻译比重抽快 200×+（120 min → 27 s，见下「翻译 vs 重抽」）。
 
 ### 消融实验（三视图贡献，NSCLC-Shot20，平均）
+
 | 用到的视图 | 平均 AUC | 平均 ACC | 说明 |
 |------------|---------|---------|------|
 | Vanilla MIL | 74.3 | 67.1 | 基线 |

@@ -89,6 +89,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 司法辖区 | 指标 | LLMReporting | FinReporting | 观察 |
 |--------|------|------|----------|------|
 | US | FR | 94.44 | 95.56 | XBRL 标准化强，覆盖最高 |
@@ -102,6 +103,7 @@ flowchart TD
 | CN | ACC | 78.15 | 82.11 | 在最难市场上提升最大 |
 
 ### LLM backbone 比较（US filings）
+
 | Backbone | FR | CR | ACC | Cost ($) |
 |------|---------|------|------|------|
 | GPT-5.2 | 95.56 | 8.89 | 90.23 | 36.96 |
@@ -150,9 +152,9 @@ flowchart TD
 
 - [\[ACL 2026\] Towards Effective In-context Cross-domain Knowledge Transfer via Domain-invariant-neurons-based Retrieval](towards_effective_in-context_cross-domain_knowledge_transfer_via_domain-invarian.md)
 - [\[AAAI 2026\] L2V-CoT: Cross-Modal Transfer of Chain-of-Thought Reasoning via Latent Intervention](../../AAAI2026/llm_reasoning/l2v-cot_cross-modal_transfer_of_chain-of-thought_reasoning_v.md)
-- [\[CVPR 2026\] Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs](../../CVPR2026/llm_reasoning/scaling_agentic_reinforcement_learning_for_tool-integrated_reasoning_in_vlms.md)
 - [\[ACL 2026\] HISR: Hindsight Information Modulated Segmental Process Rewards for Multi-turn Agentic Reinforcement Learning](hisr_hindsight_information_modulated_segmental_process_rewards_for_multi-turn_ag.md)
 - [\[ICML 2026\] Deliberate Evolution: Agentic Reasoning for Sample-Efficient Symbolic Regression with LLMs](../../ICML2026/llm_reasoning/deliberate_evolution_agentic_reasoning_for_sample-efficient_symbolic_regression_.md)
+- [\[CVPR 2026\] Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs](../../CVPR2026/llm_reasoning/scaling_agentic_reinforcement_learning_for_tool-integrated_reasoning_in_vlms.md)
 
 </div>
 

@@ -95,6 +95,7 @@ FFHQ ($768^2$, 1000 张) + DIV2K ($768^2$, 800 张)，骨架 SD3.5-M，NFE=28，
 $\text{TriPS}_\text{T}$ 失真指标普遍最强，$\text{TriPS}_\text{G}$ 感知指标普遍最强；运动去模糊上对 FLAIR 的 PSNR 提升超过 2 dB，KID / LPIPS 接近腰斩。
 
 ### 调度迁移与扩散骨架验证
+
 | 设置 | 方法 | PSNR↑ | LPIPS↓ | KID↓ |
 |---|---|---|---|---|
 | FFHQ Gaussian Deblur（SR×8 上学到的调度直接迁移） | FLAIR | 27.74 | 0.109 | 0.012 |
@@ -138,11 +139,11 @@ GRPO 学到的调度在没见过的退化算子上仍然碾压基线，说明三
 
 ## 相关论文
 
+- [\[CVPR 2026\] Dual Ascent Diffusion for Inverse Problems](../../CVPR2026/image_restoration/dual_ascent_diffusion_for_inverse_problems.md)
+- [\[ICLR 2026\] A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms](../../ICLR2026/image_restoration/a_statistical_benchmark_for_diffusion-posterior-sampling_algorithms.md)
 - [\[ICML 2026\] Learning Normalized Energy Models for Linear Inverse Problems](learning_normalized_energy_models_for_linear_inverse_problems.md)
 - [\[CVPR 2026\] Outlier-Robust Diffusion Solvers for Inverse Problems](../../CVPR2026/image_restoration/outlier-robust_diffusion_solvers_for_inverse_problems.md)
 - [\[CVPR 2026\] GSNR: Graph Smooth Null-Space Representation for Inverse Problems](../../CVPR2026/image_restoration/gsnr_graph_smooth_null_space_representation_for_inverse_problems.md)
-- [\[CVPR 2026\] Variational Garrote for Sparse Inverse Problems](../../CVPR2026/image_restoration/variational_garrote_for_sparse_inverse_problems.md)
-- [\[CVPR 2026\] PnP-CM: Consistency Models as Plug-and-Play Priors for Inverse Problems](../../CVPR2026/image_restoration/pnp-cm_consistency_models_as_plug-and-play_priors_for_inverse_problems.md)
 
 </div>
 

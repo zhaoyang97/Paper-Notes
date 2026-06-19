@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Monet: Reasoning in Latent Visual Space Beyond Image and Language
 description: >-
-  [CVPR 2026][多模态VLM][隐视觉推理] Monet 让多模态大模型不再靠裁剪/调外部工具来"看图思考"，而是直接在连续的隐视觉空间里生成一串隐嵌入当作"中间视觉想法"，用三阶段蒸馏式 SFT 把这种能力教会模型、再用专为隐推理设计的 VLPO 强化学习把隐嵌入也纳入策略梯度，最终 7B 模型在真实感知/推理和分布外抽象视觉推理上都稳定涨点。
+  [CVPR 2026][VLM Reasoning][隐视觉推理] Monet 让多模态大模型不再靠裁剪/调外部工具来"看图思考"，而是直接在连续的隐视觉空间里生成一串隐嵌入当作"中间视觉想法"，用三阶段蒸馏式 SFT 把这种能力教会模型、再用专为隐推理设计的 VLPO 强化学习把隐嵌入也纳入策略梯度，最终 7B 模型在真实感知/推理和分布外抽象视觉推理上都稳定涨点。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "隐视觉推理"
   - "多模态大模型"
   - "蒸馏式SFT"
@@ -112,6 +112,7 @@ SFT Stage 1 训 4 个 epoch；Stage 2、3 各约 1 个 epoch（1000 步）。RL 
 | **Monet-7B** | **35.02** | **45.80** | 30.81 | **47.50** |
 
 ### 消融实验
+
 | 配置 | V\* | HRBench8K | MME-RW-Lite | VisualPuzzles | 说明 |
 |------|------|------|------|------|------|
 | Monet-7B (full) | 83.25 | 68.00 | 55.50 | 35.02 | 完整模型 |
@@ -156,11 +157,11 @@ SFT Stage 1 训 4 个 epoch；Stage 2、3 各约 1 个 epoch（1000 步）。RL 
 
 ## 相关论文
 
-- [\[CVPR 2026\] Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs](reasoning_palette_modulating_reasoning_via_latent_contextualization_for_controll.md)
-- [\[CVPR 2026\] ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning](ants_adaptive_negative_textual_space_shaping_for_ood_detection_via_test-time_mll.md)
-- [\[CVPR 2026\] VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models](vismem_latent_vision_memory_unlocks_potential_of_vision-language_models.md)
-- [\[CVPR 2026\] LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map](lasar_towards_spatio-temporal_reasoning_with_latent_cognitive_map.md)
-- [\[CVPR 2026\] R4: Retrieval-Augmented Reasoning for Vision-Language Models in 4D Spatio-Temporal Space](r4_retrieval-augmented_reasoning_for_vision-language_models_in_4d_spatio-tempora.md)
+- [\[CVPR 2026\] Latent Implicit Visual Reasoning](latent_implicit_visual_reasoning.md)
+- [\[CVPR 2026\] Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens](machine_mental_imagery_empower_multimodal_reasoning_with_latent_visual_tokens.md)
+- [\[ICML 2026\] Imagination Helps Visual Reasoning, But Not Yet in Latent Space](../../ICML2026/vlm_reasoning/imagination_helps_visual_reasoning_but_not_yet_in_latent_space.md)
+- [\[CVPR 2026\] VRR-QA: Visual Relational Reasoning in Videos Beyond Explicit Cues](vrr-qa_visual_relational_reasoning_in_videos_beyond_explicit_cues.md)
+- [\[CVPR 2026\] OneThinker: All-in-one Reasoning Model for Image and Video](onethinker_all-in-one_reasoning_model_for_image_and_video.md)
 
 </div>
 

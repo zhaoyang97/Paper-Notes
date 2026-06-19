@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 AI安全论文汇总 · 27篇论文解读
+  ICLR2026 AI安全论文汇总 · 36篇论文解读
 description: >-
-  27篇ICLR2026的 AI 安全方向论文解读，涵盖对抗鲁棒、联邦学习、强化学习、Agent、水印/隐写等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  36篇ICLR2026的 AI 安全方向论文解读，涵盖对抗鲁棒、联邦学习、多模态、强化学习、Agent、水印/隐写等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "AI 安全"
@@ -10,30 +10,49 @@ tags:
   - "论文笔记"
   - "对抗鲁棒"
   - "联邦学习"
+  - "多模态"
   - "强化学习"
   - "Agent"
   - "水印/隐写"
 item_list:
+  - u: "a_fair_bayesian_inference_through_matched_gibbs_posterior/"
+    t: "A Fair Bayesian Inference through Matched Gibbs Posterior"
+  - u: "a_general_framework_for_black-box_attacks_under_cost_asymmetry/"
+    t: "A General Framework for Black-Box Attacks Under Cost Asymmetry"
   - u: "action-free_offline-to-online_rl_via_discretised_state_policies/"
     t: "Action-Free Offline-to-Online RL via Discretised State Policies"
+  - u: "adaptive_logit_adjustment_for_debiasing_multimodal_language_models/"
+    t: "Adaptive Logit Adjustment for Debiasing Multimodal Language Models"
   - u: "adaptive_methods_are_preferable_in_high_privacy_settings_an_sde_perspective/"
     t: "Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective"
+  - u: "adversarial_attacks_already_tell_the_answer_directional_bias-guided_test-time_de/"
+    t: "Adversarial Attacks Already Tell the Answer: Directional Bias-Guided Test-time Defense for Vision-Language Models"
   - u: "ap-ood_attention_pooling_for_out-of-distribution_detection/"
     t: "AP-OOD: Attention Pooling for Out-of-Distribution Detection"
   - u: "atex-cf_attack-informed_counterfactual_explanations_for_graph_neural_networks/"
     t: "ATEX-CF: Attack-Informed Counterfactual Explanations for Graph Neural Networks"
   - u: "back_to_square_roots_an_optimal_bound_on_the_matrix_factorization_error_for_mult/"
     t: "Back to Square Roots: An Optimal Bound on the Matrix Factorization Error for Multi-Epoch Differentially Private SGD"
+  - u: "benchmarking_stochastic_approximation_algorithms_for_fairness-constrained_traini/"
+    t: "Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks"
   - u: "beware_untrusted_simulators_--_reward-free_backdoor_attacks_in_reinforcement_lea/"
     t: "Beware Untrusted Simulators -- Reward-Free Backdoor Attacks in Reinforcement Learning"
   - u: "beyond_match_maximization_and_fairness_retention-optimized_two-sided_matching/"
     t: "Beyond Match Maximization and Fairness: Retention-Optimized Two-Sided Matching"
+  - u: "black-box_privacy_attacks_on_shared_representations_in_multitask_learning/"
+    t: "Black-Box Privacy Attacks on Shared Representations in Multitask Learning"
   - u: "bridging_fairness_and_explainability_can_input-based_explanations_promote_fairne/"
     t: "Bridging Fairness and Explainability: Can Input-Based Explanations Promote Fairness in Hate Speech Detection?"
   - u: "co-lora_collaborative_model_personalization_on_heterogeneous_multi-modal_clients/"
     t: "Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients"
+  - u: "comparing_ai_agents_to_cybersecurity_professionals_in_real-world_penetration_tes/"
+    t: "Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing"
   - u: "dataless_weight_disentanglement_in_task_arithmetic_via_kronecker-factored_approx/"
     t: "Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored Approximate Curvature"
+  - u: "fair_conformal_classification_via_learning_representation-based_groups/"
+    t: "Fair Conformal Classification via Learning Representation-Based Groups"
+  - u: "fairness_via_independence_a_general_regularization_framework_for_machine_learnin/"
+    t: "Fairness via Independence: A General Regularization Framework for Machine Learning"
   - u: "hide_and_find_a_distributed_adversarial_attack_on_federated_graph_learning/"
     t: "Hide and Find: A Distributed Adversarial Attack on Federated Graph Learning"
   - u: "learnability_and_privacy_vulnerability_are_entangled_in_a_few_critical_weights/"
@@ -56,37 +75,41 @@ item_list:
     t: "Skirting Additive Error Barriers for Private Turnstile Streams"
   - u: "time_is_all_it_takes_spike-retiming_attacks_on_event-driven_spiking_neural_netwo/"
     t: "Time Is All It Takes: Spike-Retiming Attacks on Event-Driven Spiking Neural Networks"
-  - u: "toward_enhancing_representation_learning_in_federated_multi-task_settings/"
-    t: "Toward Enhancing Representation Learning in Federated Multi-Task Settings"
-  - u: "traceable_black-box_watermarks_for_federated_learning/"
-    t: "Traceable Black-box Watermarks for Federated Learning"
-  - u: "unified_privacy_guarantees_for_decentralized_learning_via_matrix_factorization/"
-    t: "Unified Privacy Guarantees for Decentralized Learning via Matrix Factorization"
-  - u: "vpi-bench_visual_prompt_injection_attacks_for_computer-use_agents/"
-    t: "VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents"
-  - u: "watermark-based_attribution_of_ai-generated_content/"
-    t: "Watermark-based Detection and Attribution of AI-Generated Content"
-  - u: "why_do_unlearnable_examples_work_a_novel_perspective_of_mutual_information/"
-    t: "Why Do Unlearnable Examples Work: A Novel Perspective of Mutual Information"
-item_total: 27
+item_total: 36
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**🔬 ICLR2026** · **27** 篇论文解读
+**🔬 ICLR2026** · **36** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (148)](../../CVPR2026/ai_safety/index.md) · [🧪 ICML2026 (41)](../../ICML2026/ai_safety/index.md) · [💬 ACL2026 (4)](../../ACL2026/ai_safety/index.md) · [🤖 AAAI2026 (45)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (73)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (24)](../../ICCV2025/ai_safety/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (145)](../../CVPR2026/ai_safety/index.md) · [🧪 ICML2026 (114)](../../ICML2026/ai_safety/index.md) · [💬 ACL2026 (5)](../../ACL2026/ai_safety/index.md) · [🤖 AAAI2026 (45)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (73)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (24)](../../ICCV2025/ai_safety/index.md)
 
-🔥 **高频主题：** 对抗鲁棒 ×7 · 联邦学习 ×3 · 强化学习 ×2 · Agent ×2 · 水印/隐写 ×2
+🔥 **高频主题：** 对抗鲁棒 ×10 · 联邦学习 ×3 · 多模态 ×2 · 强化学习 ×2 · Agent ×2
+
+**[A Fair Bayesian Inference through Matched Gibbs Posterior](a_fair_bayesian_inference_through_matched_gibbs_posterior.md)**
+
+:   针对"公平模型只给一个点估计、不会量化预测不确定性"的痛点，本文把群公平约束塞进贝叶斯框架，提出以**匹配偏差（matched deviation）**为惩罚项的 **matched Gibbs 后验**，把匹配函数 $T$ 也当成可学习参数来回避对抗训练，从而用一个每步 $O(n)$ 的 Gibbs 采样器同时拿到"满足人口学平价约束"和"校准良好"的后验分布。
+
+**[A General Framework for Black-Box Attacks Under Cost Asymmetry](a_general_framework_for_black-box_attacks_under_cost_asymmetry.md)**
+
+:   针对"不同查询代价不一样"（如向 NSFW 检测器提交违规图片会触发封号）的现实场景，本文提出一个能适配**任意成本比 $c^\star$** 的决策型黑盒攻击通用框架：用非对称搜索 AS 替换二分搜索、用非对称梯度估计 AGREST 替换标准蒙特卡洛梯度估计，在不丢弃原攻击核心组件的前提下把总查询成本压到最低，扰动范数最多再降 40%。
 
 **[Action-Free Offline-to-Online RL via Discretised State Policies](action-free_offline-to-online_rl_via_discretised_state_policies.md)**
 
 :   首次形式化"无动作离线到在线RL"设定，提出OSO-DecQN算法：通过将连续状态差分离散化为{-1, 0, 1}三类标记，在仅含(s, r, s')元组的数据上预训练状态策略（预测期望的下一状态变化方向而非动作），再通过策略切换机制+在线训练的逆动力学模型将状态策略转化为可执行动作，引导在线agent加速学习，在D4RL和DeepMind Control Suite上（含78维状态空间）一致提升收敛速度和渐近性能。
 
+**[Adaptive Logit Adjustment for Debiasing Multimodal Language Models](adaptive_logit_adjustment_for_debiasing_multimodal_language_models.md)**
+
+:   ALA 是一种**后处理**去偏方法：在自回归生成的每一步，用外部图像/文本分类器测出"图像该有的属性"与"文本当前流露的偏见"之间的偏差，再沿梯度方向**只对偏见相关词的 logit** 做按比例微调，从而在不改动模型内部表征、不重训的前提下，把图文属性对齐或中和有害刻板印象，且几乎不掉模型实用性。
+
 **[Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective](adaptive_methods_are_preferable_in_high_privacy_settings_an_sde_perspective.md)**
 
 :   首次用随机微分方程（SDE）框架分析差分隐私优化器，揭示 DP-SGD 和 DP-SignSGD 在隐私噪声作用下的本质差异：自适应方法在高隐私设置下具有更优的隐私-效用权衡 $\mathcal{O}(1/\varepsilon)$ vs $\mathcal{O}(1/\varepsilon^2)$，且超参数跨隐私预算可迁移。
+
+**[Adversarial Attacks Already Tell the Answer: Directional Bias-Guided Test-time Defense for Vision-Language Models](adversarial_attacks_already_tell_the_answer_directional_bias-guided_test-time_de.md)**
+
+:   作者发现对抗样本在 CLIP 特征空间里经过多种图像变换后会沿一个"主方向"集体偏移（而干净样本是发散的），这个方向恰好指回正确类别中心，于是提出无需训练的测试时防御 DBD：估计"防御方向"并用基于 DB-score 的双流特征重构修复表征，在 15 个数据集上不仅刷新对抗鲁棒性 SOTA，还出现"对抗准确率反超干净准确率"的反直觉现象。
 
 **[AP-OOD: Attention Pooling for Out-of-Distribution Detection](ap-ood_attention_pooling_for_out-of-distribution_detection.md)**
 
@@ -100,6 +123,10 @@ item_total: 27
 
 :   提出 Banded Inverse Square Root (BISR) 矩阵分解方法，通过对逆相关矩阵（而非相关矩阵本身）施加带状结构，首次在多轮参与差分隐私 SGD 中实现渐近最优的分解误差界，并配套低存储优化变体 BandInvMF。
 
+**[Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks](benchmarking_stochastic_approximation_algorithms_for_fairness-constrained_traini.md)**
+
+:   这篇论文把"训练公平的深度网络"统一形式化成**带不等式约束的随机优化问题**（约束子群之间的损失差），指出当前没有任何算法能在"随机+不等式+非凸+非光滑"全场景下给出收敛保证，于是从文献里挑出三类最贴近该场景、但此前一直没人实现的随机近似算法，把它们全部实现进一个 Python 工具箱，并在美国人口普查真实大规模数据（Folktables/ACSIncome）上首次系统对比它们的优化性能与公平性表现。
+
 **[Beware Untrusted Simulators -- Reward-Free Backdoor Attacks in Reinforcement Learning](beware_untrusted_simulators_--_reward-free_backdoor_attacks_in_reinforcement_lea.md)**
 
 :   提出 Daze 攻击——恶意模拟器开发者无需访问或修改智能体的奖励函数，仅通过操控状态转移来植入后门：智能体在触发状态下不执行目标动作时被迫执行随机动作（"眩晕"），从而在理论上保证攻击成功且隐蔽，并首次在真实机器人硬件上演示了 RL 后门攻击。
@@ -107,6 +134,10 @@ item_total: 27
 **[Beyond Match Maximization and Fairness: Retention-Optimized Two-Sided Matching](beyond_match_maximization_and_fairness_retention-optimized_two-sided_matching.md)**
 
 :   提出Matching for Retention（MRet）算法，首次将双边匹配平台的优化目标从"最大化匹配数"或"满足公平性"转向"直接最大化用户留存率"，通过学习个性化留存曲线并利用凹函数性质将NP-hard的双方留存增益联合优化降为O(N log N)的排序问题，在合成数据和日本大型约会平台真实数据上均显著提升留存。
+
+**[Black-Box Privacy Attacks on Shared Representations in Multitask Learning](black-box_privacy_attacks_on_shared_representations_in_multitask_learning.md)**
+
+:   本文提出"任务推断（task-inference）"威胁模型，证明仅靠对多任务学习共享表示的黑盒查询、拿到同一任务若干样本的 embedding，攻击者就能在不训练影子模型、不用任何参考数据的前提下，判断某个任务是否被纳入了训练集——核心抓手是同一任务的 embedding 之间存在强协同依赖。
 
 **[Bridging Fairness and Explainability: Can Input-Based Explanations Promote Fairness in Hate Speech Detection?](bridging_fairness_and_explainability_can_input-based_explanations_promote_fairne.md)**
 
@@ -116,9 +147,21 @@ item_total: 27
 
 :   提出 FedMosaic 框架解决个性化联邦学习中的双重异构问题：RELA 通过梯度相似度度量任务相关性实现定制化聚合（解决数据异构），Co-LoRA 通过维度不变的 $P \in \mathbb{R}^{r \times r}, Q \in \mathbb{R}^r$ 模块实现跨异构架构（如 Llama vs Qwen）的知识共享（解决模型异构），在新提出的 40 任务多模态 PFL benchmark DRAKE 上大幅超越 SOTA。
 
+**[Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing](comparing_ai_agents_to_cybersecurity_professionals_in_real-world_penetration_tes.md)**
+
+:   这是第一项把 AI 智能体和真人网络安全专家放进**同一个真实生产网络**（某大学约 8000 台主机）做渗透测试的对照评测：作者同时跑 10 位专业渗透测试员、6 个现有智能体脚手架和自研的多智能体框架 ARTEMIS，结果 ARTEMIS 以 9 个有效漏洞、82% 有效提交率拿下总榜第二、压过 10 人中的 9 人，而 Codex、CyAgent 等现成脚手架几乎垫底——同时暴露出 AI 在系统化枚举/并行利用/成本上的优势与高假阳率、不会操作 GUI 的短板。
+
 **[Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored Approximate Curvature](dataless_weight_disentanglement_in_task_arithmetic_via_kronecker-factored_approx.md)**
 
 :   该工作将曲率近似的经典理论（KFAC）与任务算术的实际需求巧妙结合，提出了一种无需外部数据的权重解缠正则化方法。理论推导清晰，从表征漂移正则化 → Jacobian Gramian → GGN → KFAC 的逻辑链条流畅。实验覆盖视觉和语言两个领域的多种模型规模，对 $\alpha$ 超参数的鲁棒性分析很实用。不足在于 KFAC 对大模型仍有 $O(d^2)$ 存储开销，且在文本领域与使用外部数
+
+**[Fair Conformal Classification via Learning Representation-Based Groups](fair_conformal_classification_via_learning_representation-based_groups.md)**
+
+:   FAREG 把"找出被算法歧视的子群"这件事从原始特征空间搬到一个由变分信息瓶颈学出来的隐表示空间，因此能捕捉到像异或这种非线性组合定义的不公平子群，再对这些子群单独做共形校准，在保证自适应等化覆盖的同时把预测集做得又小又快（复杂度 $O(N+M)$，远低于 AFCP 的 $O(N\log N+NM)$）。
+
+**[Fairness via Independence: A General Regularization Framework for Machine Learning](fairness_via_independence_a_general_regularization_framework_for_machine_learnin.md)**
+
+:   本文提出用 Cauchy-Schwarz（CS）散度作为公平性正则项，去最小化"模型预测"与"敏感属性"之间的统计依赖，用一个与模型无关、与具体公平定义无关的统一框架，在保持精度的同时同时改善 △DP 和 △EO，且对超参变化更鲁棒。
 
 **[Hide and Find: A Distributed Adversarial Attack on Federated Graph Learning](hide_and_find_a_distributed_adversarial_attack_on_federated_graph_learning.md)**
 

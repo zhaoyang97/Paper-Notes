@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2605.05133](https://arxiv.org/abs/2605.05133)  
 **代码**: 论文未在正文给出明确仓库地址  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 多输出高斯过程、深度核、Lipschitz 正则、SVGP、谱归一化
 
 ## 一句话总结
@@ -140,9 +140,9 @@ $$\mathcal{L}_3 = \sum_n \sum_p \mathbb{E}_{q(h_p) q(f_p(x_n))}[\log p(y_{n,p}|f
 ## 相关论文
 
 - [\[ICML 2026\] Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes](flow_sampling_learning_to_sample_from_unnormalized_densities_via_denoising_condi.md)
+- [\[ICML 2026\] RETROSPECT: RETROsynthesis via Sequential Prediction, and Chemically Transformed-ranking](retrospect_retrosynthesis_via_sequential_prediction_and_chemically_transformed-r.md)
 - [\[ICML 2025\] MF-LAL: Drug Compound Generation Using Multi-Fidelity Latent Space Active Learning](../../ICML2025/computational_biology/mf-lal_drug_compound_generation_using_multi-fidelity_latent_space_active_learnin.md)
 - [\[ICML 2026\] Scalable Single-Cell Gene Expression Generation with Latent Diffusion Models](scalable_single-cell_gene_expression_generation_with_latent_diffusion_models.md)
-- [\[ICML 2026\] iLoRA: Bayesian Low-Rank Adaptation with Latent Interaction Graphs for Microbiome Diagnosis](ilora_bayesian_low-rank_adaptation_with_latent_interaction_graphs_for_microbiome.md)
 - [\[ICML 2026\] Routing by Reaching: Composition of Pre-trained GFlowNets for Multi-Objective Generation](routing_by_reaching_composition_of_pre-trained_gflownets_for_multi-objective_gen.md)
 
 </div>

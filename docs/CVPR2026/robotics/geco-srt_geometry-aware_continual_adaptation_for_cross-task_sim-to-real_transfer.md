@@ -36,6 +36,7 @@ GeCo-SRT 把"模拟到真实"迁移从一次性调参改造成**跨任务持续�
 **核心 idea**：把局部几何特征当作**跨任务持续累积知识的载体**——用混合专家网络让不同专家专精不同几何模式，并用经验回放保护这些专家知识不被新任务覆盖，从而把孤立迁移升级成"越迁越省"的持续迁移。
 
 ## 方法详解
+
 ### 整体框架
 GeCo-SRT 要回答两个问题：(1) 怎么把人设计的 sim-to-real 启发式（什么时候该纠正）转成神经网络能学的格式？(2) 跨多次迭代迁移中，到底什么知识是可迁移的？
 
@@ -147,11 +148,11 @@ $$P_i \propto \sum_{j=1}^{M} w_{i,j}\cdot \frac{1}{u^{new}_j+\epsilon}.$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] GeCo-SRT: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer](gecosrt_geometryaware_continual_adaptation_for_rob.md)
-- [\[CVPR 2026\] Contact-Aware Neural Dynamics](contact-aware_neural_dynamics.md)
-- [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
+- [\[CVPR 2026\] Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer](opening_the_sim-to-real_door_for_humanoid_pixel-to-action_policy_transfer.md)
+- [\[CVPR 2026\] VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation](viral_visual_sim-to-real_at_scale_for_humanoid_loco-manipulation.md)
 - [\[CVPR 2026\] GA-VLN: Geometry-Aware BEV Representation for Efficient Vision-Language Navigation](ga-vln_geometry-aware_bev_representation_for_efficient_vision-language_navigatio.md)
 - [\[CVPR 2026\] GeoDexGrasp: Geometry-aware Generation for Data-efficient and Physics-plausible Dexterous Grasping](geodexgrasp_geometry-aware_generation_for_data-efficient_and_physics-plausible_d.md)
+- [\[NeurIPS 2025\] Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training](../../NeurIPS2025/robotics/generalizable_domain_adaptation_for_sim-and-real_policy_co-training.md)
 
 </div>
 

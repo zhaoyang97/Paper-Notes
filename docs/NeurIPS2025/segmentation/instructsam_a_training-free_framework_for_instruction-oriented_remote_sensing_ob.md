@@ -20,7 +20,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.15818](https://arxiv.org/abs/2505.15818)  
 **代码**: [https://VoyagerXvoyagerx.github.io/InstructSAM/](https://VoyagerXvoyagerx.github.io/InstructSAM/)  
-**领域**: 遥感
+**领域**: 遥感  
 **关键词**: 遥感, 指令导向, 免训练, SAM2, 二进制整数规划, 目标计数, 开放词汇检测/分割  
 
 ## 一句话总结

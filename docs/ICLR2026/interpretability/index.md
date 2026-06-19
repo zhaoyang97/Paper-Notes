@@ -1,36 +1,60 @@
 ---
 title: >-
-  ICLR2026 可解释性论文汇总 · 60篇论文解读
+  ICLR2026 可解释性论文汇总 · 74篇论文解读
 description: >-
-  60篇ICLR2026的可解释性方向论文解读，涵盖 LLM、推理、多模态、布局/合成、对齐/RLHF、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  74篇ICLR2026的可解释性方向论文解读，涵盖 LLM、对齐/RLHF、推理、多模态、布局/合成、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "可解释性"
   - "论文解读"
   - "论文笔记"
   - "LLM"
+  - "对齐/RLHF"
   - "推理"
   - "多模态"
   - "布局/合成"
-  - "对齐/RLHF"
-  - "Agent"
+  - "强化学习"
 item_list:
   - u: "a_cortically_inspired_architecture_for_modular_perceptual_ai/"
     t: "A Cortically Inspired Architecture for Modular Perceptual AI"
+  - u: "activation_steering_with_a_feedback_controller/"
+    t: "Activation Steering with a Feedback Controller"
   - u: "adaem_an_adaptively_and_automated_extensible_measurement_of_llms_value_differenc/"
     t: "AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference"
+  - u: "adaptive_concept_discovery_for_interpretable_few-shot_text_classification/"
+    t: "Adaptive Concept Discovery for Interpretable Few-Shot Text Classification"
+  - u: "adaptive_data-knowledge_alignment_in_genetic_perturbation_prediction/"
+    t: "Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction"
   - u: "addressing_divergent_representations_causal/"
     t: "Addressing Divergent Representations from Causal Interventions on Neural Networks"
+  - u: "an_information-theoretic_parameter-free_bayesian_framework_for_probing_labeled_d/"
+    t: "An Information-Theoretic Parameter-Free Bayesian Framework for Probing Labeled Dependency Trees from Attention Score"
   - u: "anveshanaai_a_multimodal_platform_for_adaptive_aiml_education_through_automated_/"
     t: "AnveshanaAI: A Multimodal Platform for Adaptive AI/ML Education through Automated Question Generation and Interactive Assessment"
+  - u: "attention_please_revisiting_attentive_probing_through_the_lens_of_efficiency/"
+    t: "Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency"
+  - u: "automated_interpretability_metrics_do_not_distinguish_trained_and_random_transfo/"
+    t: "Automated Interpretability Metrics Do Not Distinguish Trained and Random Transformers"
+  - u: "behavior_learning_bl/"
+    t: "Behavior Learning (BL)"
   - u: "behavior_learning_bl_learning_hierarchical_optimization_structures_from_data/"
     t: "Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data"
+  - u: "behavioral_embeddings_of_programs_a_quasi-dynamic_approach_for_optimization_pred/"
+    t: "Behavioral Embeddings of Programs: A Quasi-Dynamic Approach for Optimization Prediction"
   - u: "beyond_linear_probes_dynamic_safety_monitoring_for_language_models/"
     t: "Beyond Linear Probes: Dynamic Safety Monitoring for Language Models"
+  - u: "block_recurrent_dynamics_in_vision_transformers/"
+    t: "Block Recurrent Dynamics in Vision Transformers"
   - u: "bridging_explainability_and_embeddings_bee_aware_of_spuriousness/"
     t: "Bridging Explainability and Embeddings: BEE Aware of Spuriousness"
+  - u: "can_llms_reason_soundly_in_law_auditing_inference_patterns_for_legal_judgment/"
+    t: "Can LLMs Reason Soundly in Law? Auditing Inference Patterns for Legal Judgment"
   - u: "causal_interpretation_of_neural_network_computations_with_contribution_decomposi/"
     t: "Causal Interpretation of Neural Network Computations with Contribution Decomposition"
+  - u: "causality_invariance_function_and_concept_vectors_in_llms/"
+    t: "Causality ≠ Invariance: Function and Concept Vectors in LLMs"
+  - u: "certified_evaluation_of_model-level_explanations_for_graph_neural_networks/"
+    t: "Certified Evaluation of Model-Level Explanations for Graph Neural Networks"
   - u: "closing_the_curvature_gap_full_transformer_hessians_and_their_implications_for_s/"
     t: "Closing the Curvature Gap: Full Transformer Hessians and Their Implications for Scaling Laws"
   - u: "concepts_information_bottleneck_models/"
@@ -39,6 +63,8 @@ item_list:
     t: "Conjuring Semantic Similarity"
   - u: "cross-modal_redundancy_and_the_geometry_of_vision-language_embeddings/"
     t: "Cross-Modal Redundancy and the Geometry of Vision-Language Embeddings"
+  - u: "decomposing_llm_computation_with_jets/"
+    t: "Decomposing LLM Computation with Jets"
   - u: "decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_/"
     t: "Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning"
   - u: "decoupling_dynamical_richness_from_representation_learning_towards_practical_mea/"
@@ -49,75 +75,97 @@ item_list:
     t: "Dynamic Reflections: Probing Video Representations with Text Alignment"
   - u: "emergence_of_superposition_unveiling_the_training_dynamics_of_chain_of_continuou/"
     t: "Emergence of Superposition: Unveiling the Training Dynamics of Chain of Continuous Thought"
-  - u: "evolution_of_concepts_in_language_model_pre-training/"
-    t: "Evolution of Concepts in Language Model Pre-Training"
-  - u: "exploring_interpretability_for_visual_prompt_tuning_with_cross-layer_concepts/"
-    t: "Exploring Interpretability for Visual Prompt Tuning with Cross-layer Concepts"
-  - u: "expo-hm_learning_to_explain-then-detect_for_hateful_meme_detection/"
-    t: "ExPO-HM: Learning to Explain-then-Detect for Hateful Meme Detection"
-  - u: "formal_mechanistic_interpretability_automated_circuit_discovery_with_provable_gu/"
-    t: "Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees"
-  - u: "gavel_towards_rule-based_safety_through_activation_monitoring/"
-    t: "GAVEL: Towards Rule-Based Safety through Activation Monitoring"
-  - u: "gepa_reflective_prompt_evolution_can_outperform_reinforcement_learning/"
-    t: "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning"
-  - u: "grokking_in_llm_pretraining_monitor_memorization-to-generalization_without_test/"
-    t: "Grokking in LLM Pretraining? Monitor Memorization-to-Generalization without Test"
-  - u: "hidden_breakthroughs_in_language_model_training/"
-    t: "Hidden Breakthroughs in Language Model Training"
-  - u: "how_do_transformers_learn_to_associate_tokens_gradient_leading_terms_bring_mecha/"
-    t: "How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Understanding"
-  - u: "implicit_statistical_inference_in_transformers_approximating_likelihood-ratio_te/"
-    t: "Implicit Statistical Inference in Transformers: Approximating Likelihood-Ratio Tests In-Context"
-  - u: "information_shapes_koopman_representation/"
-    t: "Information Shapes Koopman Representation"
-  - u: "internal_planning_in_language_models_characterizing_horizon_and_branch_awareness/"
-    t: "Internal Planning in Language Models: Characterizing Horizon and Branch Awareness"
-  - u: "layer_by_layer_module_by_module_choose_both_for_optimal_ood_probing_of_vit/"
-    t: "Layer by layer, module by module: Choose both for optimal OOD probing of ViT"
-item_total: 60
+item_total: 74
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**🔬 ICLR2026** · **60** 篇论文解读
+**🔬 ICLR2026** · **74** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (42)](../../CVPR2026/interpretability/index.md) · [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [💬 ACL2026 (61)](../../ACL2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (34)](../../CVPR2026/interpretability/index.md) · [🧪 ICML2026 (91)](../../ICML2026/interpretability/index.md) · [💬 ACL2026 (63)](../../ACL2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
 
-🔥 **高频主题：** LLM ×5 · 推理 ×4 · 多模态 ×3 · 布局/合成 ×3 · 对齐/RLHF ×3
+🔥 **高频主题：** LLM ×6 · 对齐/RLHF ×4 · 推理 ×4 · 多模态 ×3 · 布局/合成 ×3
 
 **[A Cortically Inspired Architecture for Modular Perceptual AI](a_cortically_inspired_architecture_for_modular_perceptual_ai.md)**
 
 :   从神经科学出发提出皮层启发的模块化感知 AI 架构蓝图，包含专用编码器、共享跨模态潜空间、路由控制器和递归预测反馈回路四个组件，并通过稀疏自编码器实验验证模块化分解可提升域内特征稳定性 (+15.4pp Jaccard 重叠)。
 
+**[Activation Steering with a Feedback Controller](activation_steering_with_a_feedback_controller.md)**
+
+:   本文把 LLM 激活引导（activation steering）重新解释成控制理论里的反馈控制问题，证明 ActAdd / DirAblate / Mean-AcT 这些主流方法本质上都是只有比例项的 P 控制器、因而带有消不掉的稳态误差，进而提出用完整的 PID 控制器来计算引导向量（PID Steering），在去毒、越狱、图像风格控制等任务上稳定超过原方法。
+
 **[AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference](adaem_an_adaptively_and_automated_extensible_measurement_of_llms_value_differenc.md)**
 
 :   提出 AdAEM，一个自适应、自扩展的 LLM 价值观评估框架，通过信息论优化自动生成能最大化揭示不同 LLM 价值差异的测试问题，解决现有静态基准无法区分模型价值取向的"信息量不足"问题。
+
+**[Adaptive Concept Discovery for Interpretable Few-Shot Text Classification](adaptive_concept_discovery_for_interpretable_few-shot_text_classification.md)**
+
+:   StructCBM 把概念瓶颈模型（CBM）改造成"只靠样本-概念相似度做预测、完全不训练分类头"的范式：用 LLM 从极少量样本里生成"原型概念 + 判别概念"两层概念库，靠两阶段相似度匹配（先召回候选标签、再对比定夺）做出可解释预测，并用"误分类回灌 LLM 精修概念"的闭环把概念越调越准——10-shot 下就超过所有现有 CBM，在语义密集的数据集上逼近直接调用 LLM 的黑盒效果，且推理阶段不再需要 LLM。
+
+**[Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction](adaptive_data-knowledge_alignment_in_genetic_perturbation_prediction.md)**
+
+:   ALIGNED 把"数据驱动的神经网络"和"专家整理的基因调控知识库"放进同一个溯因学习（Abductive Learning）框架里，用一个无梯度训练的适配器逐基因决定该信谁，再反过来用预测去精炼调控知识库，在多个大规模扰动数据集上拿到了最高的"平衡一致性"，并且能重新发现有生物学意义的调控关系。
 
 **[Addressing Divergent Representations from Causal Interventions on Neural Networks](addressing_divergent_representations_causal.md)**
 
 :   系统性地揭示因果干预（activation patching、DAS、SAE 等）会将模型内部表征推离自然分布，理论区分"无害偏移"与"有害偏移"两类情况，并提出 Counterfactual Latent (CL) loss 来约束干预表征不偏离流形，在 7B LLM 上验证可减少偏移同时保持干预准确率。
 
+**[An Information-Theoretic Parameter-Free Bayesian Framework for Probing Labeled Dependency Trees from Attention Score](an_information-theoretic_parameter-free_bayesian_framework_for_probing_labeled_d.md)**
+
+:   IPBP 不训练任何探测网络，直接对"注意力分数"和"依存关系"的联合分布做核密度估计，闭式算出每个注意力头与各类依存关系的互信息，再用贝叶斯后验 + 几何平均池化 + Eisner 解码重建出**带标签**的依存树，在多个 7B/8B LLM 上比一众有监督/无监督基线都更准、且天然可解释。
+
 **[AnveshanaAI: A Multimodal Platform for Adaptive AI/ML Education through Automated Question Generation and Interactive Assessment](anveshanaai_a_multimodal_platform_for_adaptive_aiml_education_through_automated_.md)**
 
 :   提出 AnveshanaAI，一个基于 Bloom 认知分类学的自适应 AI/ML 教育平台，通过自动化题目生成（基于微调的 GPT-2）、语义相似度检测去重、XAI 可解释性技术和游戏化机制（积分/徽章/排行榜），实现了覆盖数据科学到多模态 AI 七大领域的个性化学习评估系统，实验表明微调后困惑度显著下降且学习者参与度明显提升。
+
+**[Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency](attention_please_revisiting_attentive_probing_through_the_lens_of_efficiency.md)**
+
+:   针对「注意力探测」这一日益流行的冻结表示评估协议普遍参数臃肿的问题，本文先把已有方法统一成一个框架，再利用多头交叉注意力与多查询交叉注意力的**数学等价性**砍掉冗余投影矩阵，提出极轻量的 Efficient Probing（EP）——在 ImageNet-1K 上以不到 1.4M 参数把 MAE ViT-B 的探测精度从线性探测的 67.7% 拉到 75.6%，且各预训练范式上全面超越线性探测与已有注意力探测方法。
+
+**[Automated Interpretability Metrics Do Not Distinguish Trained and Random Transformers](automated_interpretability_metrics_do_not_distinguish_trained_and_random_transfo.md)**
+
+:   这篇论文给当下火热的稀疏自编码器（SAE）做了一次"理智检查"：把 SAE 同时套到训练好的 Transformer 和**随机初始化**的 Transformer 上，发现常用的自动可解释性分数（auto-interp AUROC）和重建指标在两者之间几乎区分不开，说明高可解释性分数本身**不能**证明 SAE 抓到了模型真正学到的计算特征。
+
+**[Behavior Learning (BL)](behavior_learning_bl.md)**
+
+:   受行为科学启发，把"观测结果是某个优化问题的解"这一假设直接做成可学习模块——每个模块是一个可写成符号形式的效用最大化问题（UMP），层级堆叠成复合效用函数并诱导一个 Gibbs 分布来做预测/生成，从而同时拿到强预测力、内在可解释性和（IBL 变体下的）参数可辨识性。
 
 **[Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data](behavior_learning_bl_learning_hierarchical_optimization_structures_from_data.md)**
 
 :   受行为科学中效用最大化范式启发，提出 Behavior Learning (BL) 框架，将数据建模为由可解释的模块化效用最大化问题（UMP）层次组合所诱导的 Gibbs 分布，在预测性能、内在可解释性和参数可辨识性三者之间实现了统一。
 
+**[Behavioral Embeddings of Programs: A Quasi-Dynamic Approach for Optimization Prediction](behavioral_embeddings_of_programs_a_quasi-dynamic_approach_for_optimization_pred.md)**
+
+:   针对编译优化里"静态表示太死、动态画像太贵"的两难，本文提出**准动态**程序表示：用一组优化序列去"探针"程序的 LLVM IR，把优化前后静态特征的变化量化成 **Program Behavior Spectrum**，再用乘积量化（PQ）把连续反应向量离散成结构化"子词"、用多任务 Transformer（PQ-BERT）预训练学习其语法，在 Best Pass Prediction 和 -Oz Benefit Prediction 两项任务上大幅超过 inst2vec / IR2Vec 等静态嵌入。
+
 **[Beyond Linear Probes: Dynamic Safety Monitoring for Language Models](beyond_linear_probes_dynamic_safety_monitoring_for_language_models.md)**
 
 :   提出截断多项式分类器（TPC），通过对 LLM 激活空间中的多项式逐阶训练和截断评估，实现动态安全监控——在简单输入上用低阶（≈线性探针）快速决策，在困难输入上增加高阶项提供更强防护，在 WildGuardMix 和 BeaverTails 两个数据集上匹敌或超越 MLP 基线且具备内置可解释性。
+
+**[Block Recurrent Dynamics in Vision Transformers](block_recurrent_dynamics_in_vision_transformers.md)**
+
+:   本文提出"块循环假设"（BRH）：训练好的 ViT 的 $L$ 层深度其实只用 $k \ll L$ 个权重共享的块循环展开就能近似，作者用一套蒸馏方法 Raptor 把 DINOv2 压成 2-3 个循环块仍保住 96%-98% 的 ImageNet 线性探针精度，并据此把 ViT 当作离散时间动力学系统来解释其逐层计算。
 
 **[Bridging Explainability and Embeddings: BEE Aware of Spuriousness](bridging_explainability_and_embeddings_bee_aware_of_spuriousness.md)**
 
 :   提出BEE框架，通过分析微调如何扰动预训练表征的权重空间几何结构，直接从分类器学到的权重中识别和命名虚假相关性（spurious correlations），无需反例样本即可发现隐藏的数据偏差，在ImageNet-1k上发现可导致准确率下降高达95%的虚假关联。
 
+**[Can LLMs Reason Soundly in Law? Auditing Inference Patterns for Legal Judgment](can_llms_reason_soundly_in_law_auditing_inference_patterns_for_legal_judgment.md)**
+
+:   这篇论文不再只看法律 LLM 的判决"答案对不对"，而是把模型对每个判决的打分**忠实拆解成一组输入短语之间的 AND/OR 交互模式**，再让 16 位法律专家把短语标注为"相关 / 无关 / 禁用"，从而量化出"模型到底是凭哪些逻辑下判断的"；结果发现即便四个主流（含法律专用）LLM 的判决结果正确，**超过一半的推理交互其实是无关甚至错误的依据**——比如把别人的犯罪行为算到被告头上、或被职业身份带偏。
+
 **[Causal Interpretation of Neural Network Computations with Contribution Decomposition](causal_interpretation_of_neural_network_computations_with_contribution_decomposi.md)**
 
 :   提出 CODEC（Contribution Decomposition），用 Integrated Gradients 计算隐藏层神经元对输出的贡献（而非仅分析激活），再用 Sparse Autoencoder 将贡献分解为稀疏模式（modes），实现比激活分析更强的因果可解释性和网络控制能力，并成功应用于 ResNet-50 和视网膜生物神经网络模型。
+
+**[Causality ≠ Invariance: Function and Concept Vectors in LLMs](causality_invariance_function_and_concept_vectors_in_llms.md)**
+
+:   这篇论文区分了 LLM 里两类截然不同的注意力头——用激活补丁找到的"因果头"（组成 Function Vectors，真正驱动上下文学习行为）和用表示相似性分析找到的"不变头"（组成 Concept Vectors，跨输入格式/语言稳定地编码抽象关系概念），证明二者几乎不重叠，从而揭示"是什么驱动了任务表现"和"什么编码了抽象概念"在 LLM 中由不同机制承担。
+
+**[Certified Evaluation of Model-Level Explanations for Graph Neural Networks](certified_evaluation_of_model-level_explanations_for_graph_neural_networks.md)**
+
+:   这篇论文把"GNN 的模型级解释到底够不够好"这个一直只能靠 class score 和肉眼比对的问题，形式化成一个叫**充分性风险（sufficiency risk）**的回归损失，并推导出分布无关的认证上界，进而给出 Coverage、GGA、Overlap 三个可计算指标（外加有限样本置信区间），让不同解释器之间第一次能做有统计保证的比较。
 
 **[Closing the Curvature Gap: Full Transformer Hessians and Their Implications for Scaling Laws](closing_the_curvature_gap_full_transformer_hessians_and_their_implications_for_s.md)**
 
@@ -134,6 +182,10 @@ item_total: 60
 **[Cross-Modal Redundancy and the Geometry of Vision-Language Embeddings](cross-modal_redundancy_and_the_geometry_of_vision-language_embeddings.md)**
 
 :   提出 Iso-Energy 假设（真正跨模态共享的概念在不同模态中应具有相同的平均激活能量），并设计 Aligned SAE 作为分析工具，揭示 VLM 嵌入空间中双模态原子承载跨模态对齐信号、单模态原子完全解释模态间隙的几何结构。
+
+**[Decomposing LLM Computation with Jets](decomposing_llm_computation_with_jets.md)**
+
+:   本文提出 **JET EXPANSIONS**——用「jet 算子」（截断泰勒展开的泛函版）把 Transformer 的递归残差计算无训练、无数据地改写成一组显式的「输入→输出路径」加一个非线性余项，从而把纠缠的 LLM 计算「像刀一样」切开做模块化检查，并证明它能统一并推广 Logit Lens、无数据集地从模型里抽出 n-gram 表来诊断微调与毒性。
 
 **[Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md)**
 
@@ -252,6 +304,10 @@ item_total: 60
 **[RADAR: Reasoning-Ability and Difficulty-Aware Routing for Reasoning LLMs](radar_reasoning-ability_and_difficulty-aware_routing_for_reasoning_llms.md)**
 
 :   本文提出 Radar 框架，将推理语言模型（RLM）的自适应推理问题建模为多目标优化，利用项目反应理论（IRT）联合估计可解释的查询难度和模型配置能力参数，实现轻量级、可扩展的查询级路由，在 8 个推理基准上优于 SOTA 路由方法，且仅增加约 7ms 延迟。
+
+**[Reinforcement Learning Fine-Tuning Enhances Activation Intensity and Diversity in the Internal Circuitry of LLMs](reinforcement_learning_fine-tuning_enhances_activation_intensity_and_diversity_i.md)**
+
+:   作者把 LLM 的残差计算抽象成有向图，用边归因（Edge Attribution Patching, EAP）在单次前反传里给所有内部边打重要性分，对比 RL 微调前后的边权分布，发现在线 RL（PPO/GRPO）会系统性地**抬高内部激活强度、增加激活多样性**（熵升、峰度降），而 DPO 则几乎没有这种变化——从而第一次把"RL 后训练为什么更强"和"模型内部信息通路怎么变"这两条平行的研究线接到了一起。
 
 **[SALVE: Sparse Autoencoder-Latent Vector Editing for Mechanistic Control of Neural Networks](salve_sparse_autoencoder-latent_vector_editing_for_mechanistic_control_of_neural.md)**
 

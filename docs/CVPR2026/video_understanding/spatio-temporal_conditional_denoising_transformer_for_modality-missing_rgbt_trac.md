@@ -105,6 +105,7 @@ $$L_\text{align}=\lVert\mu(\hat f_m)-\mu(f_m)\rVert_2^2+\lVert\text{Var}(\hat f_
 完整设定下 SCDT 在 PR/MPR 上普遍最优、SR 偶居次优；缺失设定下 PR/SR 全面领先，验证了去噪重建对不完整输入的鲁棒性。
 
 ### 消融实验
+
 | 配置 | LasHeR PR/SR | LasHeR-Miss PR/SR | 说明 |
 |------|---------|---------|------|
 | baseline | 75.1 / 59.2 | 63.2 / 49.6 | 无时空条件 |
@@ -154,10 +155,10 @@ $$L_\text{align}=\lVert\mu(\hat f_m)-\mu(f_m)\rVert_2^2+\lVert\text{Var}(\hat f_
 ## 相关论文
 
 - [\[CVPR 2026\] Progressive Multi-cue Alignment for Unaligned RGBT Tracking](progressive_multi-cue_alignment_for_unaligned_rgbt_tracking.md)
-- [\[CVPR 2026\] VISTA: Video Interaction Spatio-Temporal Analysis Benchmark](vista_video_interaction_spatio-temporal_analysis_benchmark.md)
+- [\[CVPR 2026\] CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects](captionformer_unified_segmentation_tracking_and_captioning_for_spatio-temporal_o.md)
 - [\[CVPR 2026\] RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation](ragtrack_language-aware_rgbt_tracking_with_retrieval-augmented_generation.md)
-- [\[CVPR 2026\] Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos](towards_spatio-temporal_world_scene_graph_generation_from_monocular_videos.md)
-- [\[CVPR 2026\] Streaming Video Crime Anticipation with Spatio-Temporal Causal Reasoning](streaming_video_crime_anticipation_with_spatio-temporal_causal_reasoning.md)
+- [\[CVPR 2026\] Cluster-Wise Spatio-Temporal Masking for Efficient Video-Language Pretraining](cluster-wise_spatio-temporal_masking_for_efficient_video-language_pretraining.md)
+- [\[CVPR 2026\] OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](omniground_a_comprehensive_spatio-temporal_grounding_benchmark_for_real-world_co.md)
 
 </div>
 

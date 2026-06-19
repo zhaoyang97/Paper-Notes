@@ -105,6 +105,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 测试集 | 模型 | NFEs | SN-MOS↑ | EC-MOS↑ | ON-MOS↑ | WER↓ | FAD↓ | CLAP↑ |
 |--------|------|------|---------|---------|---------|------|------|-------|
 | AudioCaps | VoiceLDM | 200 | 3.41 ± 0.06 | 3.33 ± 0.07 | 2.55 ± 0.05 | 16.45 | 8.75 | 0.229 |
@@ -117,6 +118,7 @@ flowchart TD
 主结果显示，ImmersiveTTS 在 AudioCaps 上同时取得最低 WER、最低 FAD 和最高 CLAP，并且用 25 个采样步超过 200 步扩散基线。在增强测试集上，VoiceDiT 的 EC-MOS 略高，但 ImmersiveTTS 的 SN-MOS、ON-MOS、WER、FAD 和 CLAP 更好，说明它更偏向整体自然度和可懂度。
 
 ### 消融实验
+
 | 对齐策略 | Teacher | 语音域 | 环境域 | WER↓ | FAD↓ | CLAP↑ |
 |----------|---------|--------|--------|------|------|-------|
 | Base | 无 | - | - | 11.21 | 9.64 | 0.236 |
@@ -164,7 +166,7 @@ flowchart TD
 - [\[ICLR 2026\] Latent Speech-Text Transformer](../../ICLR2026/audio_speech/latent_speech_text_transformer.md)
 - [\[CVPR 2026\] Hear What You See: Video-to-Audio Generation with Diffusion Transformer and Semantic-Temporal Alignment-Ranked Direct Preference Optimization](../../CVPR2026/audio_speech/hear_what_you_see_video-to-audio_generation_with_diffusion_transformer_and_seman.md)
 - [\[ACL 2026\] FC-TTS: Style and Timbre Control in Zero-Shot Text-to-Speech with Disentangled Speech Representations](fc-tts_style_and_timbre_control_in_zero-shot_text-to-speech_with_disentangled_sp.md)
-- [\[ICML 2026\] Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer](../../ICML2026/audio_speech/towards_streaming_synchronized_spatial_audio_generation_via_autoregressive_diffu.md)
+- [\[ACL 2026\] Privacy-preserving Prosody Representation Learning](privacy-preserving_prosody_representation_learning.md)
 
 </div>
 

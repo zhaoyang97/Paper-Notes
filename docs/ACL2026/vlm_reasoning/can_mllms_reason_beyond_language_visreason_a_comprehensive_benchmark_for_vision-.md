@@ -62,6 +62,7 @@ VisReason 想戳破的现象是：很多被当作"视觉推理"的题，其实�
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 模型组 | 指标 | 最强模型 | 人类 | 结论 |
 |----------------|------|----------|------|------|
 | VisReason overall | Avg accuracy | Gemini-3-Pro 47.5 | 71.4 | 当前 MLLM 与人类仍有 23.9 点差距 |
@@ -81,6 +82,7 @@ VisReason 想戳破的现象是：很多被当作"视觉推理"的题，其实�
 | 问题长度 min / avg / max | 5 / 45.9 / 282 tokens |
 
 ### 消融实验
+
 | 分析项 | 关键指标 | 说明 |
 |--------|----------|------|
 | 图像换 caption | 现有 benchmark 下降 < 6.35%，VisReason 下降 48.12% | VisReason 更依赖直接视觉证据 |
@@ -121,11 +123,11 @@ VisReason 想戳破的现象是：很多被当作"视觉推理"的题，其实�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth](../../CVPR2026/multimodal_vlm/think_360_evaluating_the_width-centric_reasoning_capability_of_mllms_beyond_dept.md)
-- [\[CVPR 2026\] Beyond Single Images: A Comprehensive Benchmark for Album-Level Vision-Language Understanding](../../CVPR2026/multimodal_vlm/beyond_single_images_a_comprehensive_benchmark_for_album-level_vision-language_u.md)
-- [\[ICLR 2026\] OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](../../ICLR2026/multimodal_vlm/omnispatial_towards_comprehensive_spatial_reasoning_benchmark_for_vision_languag.md)
-- [\[ACL 2026\] Almieyar-Oryx-BloomBench: A Bilingual Multimodal Benchmark for Cognitively Informed Evaluation of Vision-Language Models](almieyar-oryx-bloombench_a_bilingual_multimodal_benchmark_for_cognitively_inform.md)
+- [\[CVPR 2026\] Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth](../../CVPR2026/vlm_reasoning/think_360_evaluating_the_width-centric_reasoning_capability_of_mllms_beyond_dept.md)
+- [\[ICLR 2026\] OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](../../ICLR2026/vlm_reasoning/omnispatial_towards_comprehensive_spatial_reasoning_benchmark_for_vision_languag.md)
 - [\[ACL 2026\] MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models](mmerror_a_benchmark_for_erroneous_reasoning_in_vision-language_models.md)
+- [\[AAAI 2026\] CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models](../../AAAI2026/vlm_reasoning/crossvid_a_comprehensive_benchmark_for_evaluating_cross-vide.md)
+- [\[NeurIPS 2025\] MMPerspective: Do MLLMs Understand Perspective? A Comprehensive Benchmark for Perspective Perception, Reasoning, and Robustness](../../NeurIPS2025/vlm_reasoning/mmperspective_do_mllms_understand_perspective_a_comprehensive_benchmark_for_pers.md)
 
 </div>
 

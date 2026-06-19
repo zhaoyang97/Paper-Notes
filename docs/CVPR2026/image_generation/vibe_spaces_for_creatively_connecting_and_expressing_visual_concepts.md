@@ -102,6 +102,7 @@ Vibe Space 的总目标 = 编码器旗空间损失 $\mathcal{L}_{\text{flag\_enc
 本文在高难度样本上的人类偏好是第二名 GPT 的约 3×、中难度约 2.4×；越难融的图对优势越明显。简单图对上 GPT/CLIP Avg 偏好回升，这也解释了在概念更接近的 Architecture 上与 CLIP Avg 差距收窄。
 
 ### 度量与一致性分析
+
 | 度量 | 结果 | 说明 |
 |------|------|------|
 | PNS vs 人类难度一致率 | 80.0% | 高共识（≥66%）样本上，PNS 能估出人类感知的混合难度 |
@@ -148,7 +149,7 @@ Vibe Space 的总目标 = 编码器旗空间损失 $\mathcal{L}_{\text{flag\_enc
 - [\[CVPR 2026\] Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Models](erasing_thousands_of_concepts_towards_scalable_and_practical_concept_erasure_for.md)
 - [\[CVPR 2026\] Seeing What Matters: Visual Preference Policy Optimization for Visual Generation](seeing_what_matters_visual_preference_policy_optimization_for_visual_generation.md)
 - [\[CVPR 2025\] Memories of Forgotten Concepts](../../CVPR2025/image_generation/memories_of_forgotten_concepts.md)
-- [\[CVPR 2026\] ThinkGen: Generalized Thinking for Visual Generation](thinkgen_generalized_thinking_for_visual_generation.md)
+- [\[CVPR 2026\] Visual Personalization Turing Test](visual_personalization_turing_test.md)
 
 </div>
 

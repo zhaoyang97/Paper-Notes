@@ -78,6 +78,7 @@ Omni IIE Bench 不是一个算法，而是一套"数据集 + 评估协议"。**�
 注：MGIE 画质指标不差但 QA 仅 0.070——输出几乎等于原图、根本没按指令改，正是本基准能揪出而混合评估会漏掉的失效。
 
 ### 与现有基准对比
+
 | 基准 | 人工验证 | 提供 mask | 实战场景 | 语义尺度 | 对话轮数 |
 |------|---------|----------|---------|---------|---------|
 | I2EBench | ✓ | ✓ | ✗ | ✓ | 1 |
@@ -87,6 +88,7 @@ Omni IIE Bench 不是一个算法，而是一套"数据集 + 评估协议"。**�
 | **Omni IIE Bench** | ✓ | ✓ | **✓** | ✓ | **16** |
 
 ### 多轮 vs 单轮（误差累积）
+
 | 模型 | 单轮 Overall | 多轮 Overall | 变化 |
 |------|------------|------------|------|
 | Qwen-image-edit | 0.687 | 0.676 | 小幅下滑 |
@@ -128,11 +130,11 @@ Omni IIE Bench 不是一个算法，而是一套"数据集 + 评估协议"。**�
 
 ## 相关论文
 
-- [\[CVPR 2026\] WiseEdit: Benchmarking Cognition- and Creativity-Informed Image Editing](wiseedit_benchmarking_cognition-_and_creativity-informed_image_editing.md)
 - [\[CVPR 2026\] MICON-Bench: Benchmarking and Enhancing Multi-Image Context Image Generation in Unified Multimodal Models](micon-bench_benchmarking_and_enhancing_multi-image_context_image_generation_in_u.md)
+- [\[CVPR 2026\] WiseEdit: Benchmarking Cognition- and Creativity-Informed Image Editing](wiseedit_benchmarking_cognition-_and_creativity-informed_image_editing.md)
+- [\[CVPR 2026\] MotionEdit: Benchmarking and Learning Motion-Centric Image Editing](motionedit_benchmarking_and_learning_motion-centric_image_editing.md)
 - [\[CVPR 2026\] CompBench: Benchmarking Complex Instruction-guided Image Editing](compbench_benchmarking_complex_instruction-guided_image_editing.md)
 - [\[CVPR 2026\] Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Models](erasing_thousands_of_concepts_towards_scalable_and_practical_concept_erasure_for.md)
-- [\[CVPR 2026\] VectorArk: Learning Practical Image Vectorization with Rounded Polygon Representation](vectorark_learning_practical_image_vectorization_with_rounded_polygon_representa.md)
 
 </div>
 

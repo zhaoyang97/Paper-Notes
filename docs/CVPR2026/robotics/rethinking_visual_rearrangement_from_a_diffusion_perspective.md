@@ -92,6 +92,7 @@ $$\mathcal{L}_{rearrange}=\left\| x_t - x_0 - \epsilon_\theta(x_t,t)\right\|^2$$
 相比此前 SOTA 的点云匹配方法 CAVR，本文在 RoomR 上成功率 +3.6%、FS +5.7%，四项指标全面领先；在作者自建的多房间 ProcTHOR 数据集（8000 场景）上同样全面领先，验证了泛化性。
 
 ### 消融实验
+
 | 配置 | Suc(%)↑ | FS(%)↑ | Mis↓ | E↓ | 说明 |
 |------|---------|--------|------|-----|------|
 | Direct 匹配 + 分布表示 | 6.5 | 19.4 | 0.837 | 0.860 | 直接按 GMM 权重匹配 |
@@ -137,10 +138,10 @@ $$\mathcal{L}_{rearrange}=\left\| x_t - x_0 - \epsilon_\theta(x_t,t)\right\|^2$$
 ## 相关论文
 
 - [\[CVPR 2026\] Rethinking Intermediate Representation for VLM-based Robot Manipulation](rethinking_intermediate_representation_for_vlm-based_robot_manipulation.md)
-- [\[CVPR 2026\] GraspLDP: Towards Generalizable Grasping Policy via Latent Diffusion](graspldp_towards_generalizable_grasping_policy_via_latent_diffusion.md)
-- [\[CVPR 2026\] GraspGen-X: Cross-Embodiment 6-DOF Diffusion-based Grasping](graspgen-x_cross-embodiment_6-dof_diffusion-based_grasping.md)
 - [\[CVPR 2026\] Semantic Audio-Visual Navigation in Continuous Environments](semantic_audio-visual_navigation_in_continuous_environments.md)
+- [\[CVPR 2026\] Visual-RRT: Finding Paths toward Visual-Goals via Differentiable Rendering](visual-rrt_finding_paths_toward_visual-goals_via_differentiable_rendering.md)
 - [\[CVPR 2026\] Rethinking Camera Choice: An Empirical Study on Fisheye Camera Properties in Robotic Manipulation](rethinking_camera_choice_an_empirical_study_on_fisheye_camera_properties_in_robo.md)
+- [\[CVPR 2026\] GraspLDP: Towards Generalizable Grasping Policy via Latent Diffusion](graspldp_towards_generalizable_grasping_policy_via_latent_diffusion.md)
 
 </div>
 

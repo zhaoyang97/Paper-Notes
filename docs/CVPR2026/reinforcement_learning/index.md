@@ -1,27 +1,23 @@
 ---
 title: >-
-  CVPR2026 强化学习论文汇总 · 30篇论文解读
+  CVPR2026 强化学习论文汇总 · 25篇论文解读
 description: >-
-  30篇CVPR2026的强化学习方向论文解读，涵盖强化学习、Agent、推理、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  25篇CVPR2026的强化学习方向论文解读，涵盖强化学习、Agent、多模态、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "强化学习"
   - "论文解读"
   - "论文笔记"
   - "Agent"
-  - "推理"
   - "多模态"
+  - "推理"
 item_list:
-  - u: "adversarial_agents_black-box_evasion_attacks_with_reinforcement_learning/"
-    t: "Adversarial Agents: Black-Box Evasion Attacks with Reinforcement Learning"
-  - u: "anticipatory_planning_for_multimodal_ai_agents/"
-    t: "Anticipatory Planning for Multimodal AI Agents"
   - u: "anydoc_enhancing_document_generation_via_large-scale_htmlcss_data_synthesis_and_/"
     t: "AnyDoc: Enhancing Document Generation via Large-Scale HTML/CSS Data Synthesis and Height-Aware Reinforcement Optimization"
-  - u: "buildinggpt_auto-regressive_building_wireframe_reconstruction_model_with_reinfor/"
-    t: "BuildingGPT: Auto-Regressive Building Wireframe Reconstruction Model with Reinforcement Learning"
   - u: "cccaption_dual-reward_reinforcement_learning_for_complete_and_correct_image_capt/"
     t: "CCCaption: Dual-Reward Reinforcement Learning for Complete and Correct Image Captioning"
+  - u: "cloning_deterministic_worlds_the_critical_role_of_latent_geometry_in_long-horizo/"
+    t: "Cloning Deterministic Worlds: The Critical Role of Latent Geometry in Long-Horizon World Models"
   - u: "cme-cad_heterogeneous_collaborative_multi-expert_reinforcement_learning_for_cad_code_gen/"
     t: "CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation"
   - u: "cross-modal_identity_mapping_minimizing_information_loss_in_modality_conversion_/"
@@ -48,16 +44,12 @@ item_list:
     t: "PanoEnv: Exploring 3D Spatial Intelligence in Panoramic Environments with Reinforcement Learning"
   - u: "plannerrft_reinforcing_diffusion_planners/"
     t: "PlannerRFT: Reinforcing Diffusion Planners through Closed-Loop and Sample-Efficient Fine-Tuning"
-  - u: "push-and-step_from_rl-based_balance_recovery_to_physical_simulation_of_dense_cro/"
-    t: "Push-and-Step: From RL-Based Balance Recovery to Physical Simulation of Dense Crowds"
-  - u: "reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr/"
-    t: "Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR"
   - u: "reag_reasoning-augmented_generation_for_knowledge-based_visual_question_answerin/"
     t: "ReAG: Reasoning-Augmented Generation for Knowledge-based Visual Question Answering"
-  - u: "reinforce_to_learn_elect_to_reason_a_dual_paradigm_for_video_reasoning/"
-    t: "Reinforce to Learn, Elect to Reason: A Dual Paradigm for Video Reasoning"
   - u: "resolving_the_stability-plasticity_dilemma_in_reinforcement_learning_via_complem/"
     t: "Resolving the Stability-Plasticity Dilemma in Reinforcement Learning via Complementary Continual Critics"
+  - u: "saliency-guided_representation_with_consistency_policy_learning_for_visual_unsup/"
+    t: "Saliency-Guided Representation with Consistency Policy Learning for Visual Unsupervised Reinforcement Learning"
   - u: "see_it_say_it_sorted_an_iterative_training-free_framework_for_visually-grounded_/"
     t: "See It, Say It, Sorted: An Iterative Training-Free Framework for Visually-Grounded Multimodal Reasoning in LVLMs"
   - u: "seeing_is_improving_visual_feedback_for_iterative_text_layout_refinement/"
@@ -70,39 +62,29 @@ item_list:
     t: "TaskForce: Cooperative Multi-agent Reinforcement Learning for Multi-task Optimization"
   - u: "tstm_temporal_segmentation_for_task-relevant_mask_in_visual_reinforcement_learni/"
     t: "TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization"
-  - u: "videossr_video_self-supervised_reinforcement_learning/"
-    t: "VideoSSR: Video Self-Supervised Reinforcement Learning"
-item_total: 30
+item_total: 25
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**📷 CVPR2026** · **30** 篇论文解读
+**📷 CVPR2026** · **25** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (95)](../../ICML2026/reinforcement_learning/index.md) · [💬 ACL2026 (44)](../../ACL2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (126)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (110)](../../ICML2026/reinforcement_learning/index.md) · [💬 ACL2026 (46)](../../ACL2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (161)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md)
 
-🔥 **高频主题：** 强化学习 ×20 · Agent ×4 · 推理 ×4 · 多模态 ×3
-
-**[Adversarial Agents: Black-Box Evasion Attacks with Reinforcement Learning](adversarial_agents_black-box_evasion_attacks_with_reinforcement_learning.md)**
-
-:   把"生成对抗样本"重新建模成一个马尔可夫决策过程（MDP），用 PPO 训练一个会"攒经验"的 RL 攻击智能体，让黑盒逃逸攻击随着训练越打越准、越打越省查询——在 CIFAR-10 / SVHN 上相比 Square、HSJA、Bandits 等 SOTA 黑盒攻击，最多多 17% 攻击成功率、少 31% 查询。
-
-**[Anticipatory Planning for Multimodal AI Agents](anticipatory_planning_for_multimodal_ai_agents.md)**
-
-:   提出 TraceR1，一个两阶段 RL 框架：第一阶段通过轨迹级奖励优化让智能体学会"向前看几步"的前瞻性规划，第二阶段通过工具执行反馈做 grounded fine-tuning 来提升单步精度，在 7 个 GUI 和工具使用 benchmark 上取得了开源 SOTA。
+🔥 **高频主题：** 强化学习 ×17 · Agent ×3 · 多模态 ×2 · 推理 ×2
 
 **[AnyDoc: Enhancing Document Generation via Large-Scale HTML/CSS Data Synthesis and Height-Aware Reinforcement Optimization](anydoc_enhancing_document_generation_via_large-scale_htmlcss_data_synthesis_and_.md)**
 
 :   AnyDoc 提出了一个基于统一 HTML/CSS 表示的通用文档生成框架，通过自动化数据合成管线构建 265K 文档数据集 DocHTML，结合 SFT 和高度感知强化学习（HARL）微调多模态大模型，在意图到文档、文档反渲染和元素到文档三个任务上超越 GPT-4o 等基线。
 
-**[BuildingGPT: Auto-Regressive Building Wireframe Reconstruction Model with Reinforcement Learning](buildinggpt_auto-regressive_building_wireframe_reconstruction_model_with_reinfor.md)**
-
-:   BuildingGPT 把"从点云重建建筑线框"重新表述成一个序列生成问题：先用一套分层 tokenization 把线框按"地基→墙→屋顶"的顺序编码成离散 token，再用点云条件的自回归 Transformer 逐 token 生成，最后用一个基于自定义偏好分数（PSF）的 DPO 后训练对齐人类对几何精度与拓扑正确性的偏好，在大规模 MunichWF 数据集上全面超过检测式和扩散式 SOTA。
-
 **[CCCaption: Dual-Reward Reinforcement Learning for Complete and Correct Image Captioning](cccaption_dual-reward_reinforcement_learning_for_complete_and_correct_image_capt.md)**
 
 :   提出 CCCaption 双奖励强化学习框架，通过 completeness reward（基于多 MLLM 生成的视觉 query 集）和 correctness reward（基于 caption 分解后的子 query 幻觉检测）联合优化图像描述的完整性和正确性，2B 模型超越 32B 基线。
+
+**[Cloning Deterministic Worlds: The Critical Role of Latent Geometry in Long-Horizon World Models](cloning_deterministic_worlds_the_critical_role_of_latent_geometry_in_long-horizo.md)**
+
+:   作者用一个"oracle"诊断实验证明：在确定性环境里，世界模型长程崩溃的瓶颈不是动力学模型而是潜在表示的几何结构，进而提出 GRWM——把时序对比学习当作几何正则项，重塑自编码器潜在空间使其对齐环境真实状态流形，作为即插即用模块显著拉长各类世界模型的保真预测视野。
 
 **[CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](cme-cad_heterogeneous_collaborative_multi-expert_reinforcement_learning_for_cad_code_gen.md)**
 
@@ -156,25 +138,17 @@ item_total: 30
 
 :   PlannerRFT 给基于扩散的自动驾驶规划器做强化微调：用「策略引导去噪」把模态坍缩的扩散采样变成多样且场景自适应的轨迹群，再用 GRPO + PPO 双分支闭环优化，配合自研 10× 加速仿真器 nuMax，在 nuPlan 上拿到 SOTA 闭环规划性能。
 
-**[Push-and-Step: From RL-Based Balance Recovery to Physical Simulation of Dense Crowds](push-and-step_from_rl-based_balance_recovery_to_physical_simulation_of_dense_cro.md)**
-
-:   用两阶段深度强化学习训练全身仿真人形 agent：第一阶段靠模仿学习+平衡奖励学会被推后用「迈步」恢复平衡，第二阶段用 AdaptNet 微调 + 手-肩接触启发式扩展到多 agent 场景，最终能物理仿真密集人群中推力传播、连锁失衡乃至跌倒的真实现象。
-
-**[Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr.md)**
-
-:   作者发现 OCR 模型在公式、表格等格式化文本上的输出熵比纯文本高一个数量级（说明这里才是真正的"硬骨头"），于是提出 FD-RL：先 SFT 打好阅读底子，再用"按熵筛数据 + 按格式分类型给奖励"的强化学习专门攻坚格式化内容，在 OmniDocBench 上拿到 90.41 的总分，成为端到端模型里极具竞争力的方案。
-
 **[ReAG: Reasoning-Augmented Generation for Knowledge-based Visual Question Answering](reag_reasoning-augmented_generation_for_knowledge-based_visual_question_answerin.md)**
 
 :   提出 ReAG，一个推理增强的多模态 RAG 方法，结合粗细粒度检索与 Critic 过滤模型减少噪声，并通过 GRPO 强化学习训练生成器进行显式推理，在知识密集型 VQA 上达到新 SOTA。
 
-**[Reinforce to Learn, Elect to Reason: A Dual Paradigm for Video Reasoning](reinforce_to_learn_elect_to_reason_a_dual_paradigm_for_video_reasoning.md)**
-
-:   提出 RLER 双范式框架，训练阶段用 GRPO 配合三种新颖奖励（Frame-sensitive、Think-transparency、Anti-repetition）教模型生成结构化证据，推理阶段用无训练编排器在多候选之间基于证据一致性进行加权选举和自检，在 8 个视频基准上全面超越开源和 RL-based LMM，平均提升 6.3%，仅需约 3.1 个候选。
-
 **[Resolving the Stability-Plasticity Dilemma in Reinforcement Learning via Complementary Continual Critics](resolving_the_stability-plasticity_dilemma_in_reinforcement_learning_via_complem.md)**
 
 :   针对视觉 RL 中"既要快速适应又要不遗忘"的稳定—可塑性困境，本文提出 CD-CCA：用持续反向传播（CBP）武装一个"塑性 critic"、用弹性权重巩固（EWC）武装一个"稳定 critic"，再用跨注意力机制按观测自适应融合两者的 Q 值，在 DMControl 与 CARLA 上同时提升样本效率和收敛稳定性。
+
+**[Saliency-Guided Representation with Consistency Policy Learning for Visual Unsupervised Reinforcement Learning](saliency-guided_representation_with_consistency_policy_learning_for_visual_unsup.md)**
+
+:   针对后继表征（SR）方法在高维视觉无监督强化学习（URL）中失效的问题，SRCP 用显著性引导的动力学任务把表征学习从 SR 目标中解耦出来、让编码器专注于动力学相关区域，并用带分类器自由引导的一致性策略建模多模态技能，在 ExORL 的 16 个视觉控制任务上取得了 SOTA 零样本泛化。
 
 **[See It, Say It, Sorted: An Iterative Training-Free Framework for Visually-Grounded Multimodal Reasoning in LVLMs](see_it_say_it_sorted_an_iterative_training-free_framework_for_visually-grounded_.md)**
 
@@ -199,7 +173,3 @@ item_total: 30
 **[TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization](tstm_temporal_segmentation_for_task-relevant_mask_in_visual_reinforcement_learni.md)**
 
 :   TSTM 用一个带 ConvLSTM 的「编码器-时序-解码器」分割网络从连续多帧观测里抠出任务相关区域（掩码），再配合 VICReg 式不变表示学习和策略一致性约束训练 SAC，在 DMC-GB 的 video easy/hard 上把视觉强化学习的泛化能力刷到 SOTA。
-
-**[VideoSSR: Video Self-Supervised Reinforcement Learning](videossr_video_self-supervised_reinforcement_learning.md)**
-
-:   针对「强模型已被现有视频 RLVR 数据集喂饱、人工标注又太贵」的困境，VideoSSR 用三个可参数化调难度的视频自监督 pretext 任务（异常定位 / 物体计数 / 时序拼图）从原始视频自动造出带可验证答案的训练数据，再配上为每个任务定制的平滑奖励函数做 GRPO 训练，在 17 个 benchmark 上让 Qwen3-VL-8B 平均涨 5% 以上。

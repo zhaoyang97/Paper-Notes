@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026 Highlight  
 **arXiv**: [2511.18960](https://arxiv.org/abs/2511.18960)  
 **代码**: [项目页面](https://liauto-dsr.github.io/AVA-VLA-Page)  
-**领域**:机器人
+**领域**:机器人  
 **关键词**: VLA模型, 主动视觉注意力, POMDP, 循环状态, 视觉token调制
 
 ## 一句话总结
@@ -135,10 +135,10 @@ AVA 算出的软权重要落地，得改写 LLM 骨干的注意力计算。论�
 
 ## 相关论文
 
-- [\[CVPR 2026\] SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics](sapave_active_perception_manipulation_vla_roboti.md)
-- [\[CVPR 2026\] ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models](acot-vla_action_chain-of-thought_for_vision-language-action_models.md)
 - [\[AAAI 2026\] TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models](../../AAAI2026/robotics/ttf-vla_temporal_token_fusion_via_pixel-attention_integratio.md)
+- [\[CVPR 2026\] ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models](acot-vla_action_chain-of-thought_for_vision-language-action_models.md)
 - [\[CVPR 2026\] HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models](hif-vla_hindsight_insight_and_foresight_through_motion_representation_for_vision.md)
+- [\[CVPR 2026\] ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation](activevla_injecting_active_perception_into_vision-language-action_models_for_pre.md)
 - [\[CVPR 2026\] Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](adaptive_action_chunking_at_inference-time_for_vision-language-action_models.md)
 
 </div>

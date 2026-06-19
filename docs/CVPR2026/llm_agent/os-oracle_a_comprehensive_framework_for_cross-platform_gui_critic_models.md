@@ -109,6 +109,7 @@ OS-Oracle-7B 在所有开源模型里 Overall 准确率最高（68.02），且�
 动态评测里把 critic 插到 UI-TARS-1.5-7B 前做"动作不对就最多重试 3 次"：OS-Oracle-7B 把 OSWorld 成功率从 29.2% 提到 31.0%、AndroidWorld 从 31.6% 提到 33.2%；而用 GPT-4o 当 critic 反而拖累 agent（因为它缺 GUI 专门知识，误判操作元素把 agent 带进错误状态）。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 合成负样本 vs GPT 标注负样本 | Acc 60.03 vs 55.42 | 同样 50k 正样本下，本文合成负样本明显优于 GPT-4o 标注的负样本；后者甚至低于不加负样本的 baseline（58.27） |
@@ -156,7 +157,7 @@ OS-Oracle-7B 在所有开源模型里 Overall 准确率最高（68.02），且�
 - [\[CVPR 2026\] GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents](gui-ceval_a_hierarchical_and_comprehensive_chinese_benchmark_for_mobile_gui_agen.md)
 - [\[CVPR 2026\] Towards GUI Agents: Vision-Language Diffusion Models for GUI Grounding](towards_gui_agents_vision-language_diffusion_models_for_gui_grounding.md)
 - [\[CVPR 2026\] CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning](cgl_advancing_continual_gui_learning_via_reinforcement_fine-tuning.md)
-- [\[CVPR 2026\] ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands](showui-p_flow-based_generative_models_as_gui_dexterous_hands.md)
+- [\[CVPR 2026\] ModularAgent: A Task-Aware Modular Framework for Joint Optimization of Multimodal Large Language Models and World Models](modularagent_a_task-aware_modular_framework_for_joint_optimization_of_multimodal.md)
 
 </div>
 

@@ -109,6 +109,7 @@ SketchVL 训练 7B 与 3B 两个版本（基座 Qwen2.5VL-Instruct），FinePRM 
 SketchVL-3B 在 ChartQA 上比基座 +15.32、ChartBench +3.76；且在非图表的 MathVista/MMStar 上仍有提升，说明 FinePO 在强化专项能力的同时保住了通用泛化能力。
 
 ### 消融实验（基于 SketchVL-3B）
+
 | 配置 | EvoChart-QA | ChartQA | PlotQA | 说明 |
 |------|------|------|------|------|
 | Full Model | 47.28 | 77.20 | 48.32 | 完整模型 |
@@ -155,10 +156,10 @@ SketchVL-3B 在 ChartQA 上比基座 +15.32、ChartBench +3.76；且在非图表
 
 ## 相关论文
 
-- [\[CVPR 2026\] Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts](chart-fr1_visual_focus-driven_fine-grained_reasoning_on_dense_charts.md)
-- [\[CVPR 2026\] MA-Bench: Towards Fine-grained Micro-Action Understanding](ma-bench_towards_fine-grained_micro-action_understanding.md)
-- [\[CVPR 2026\] CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception](cropvlm_learning_to_zoom_for_fine_grained_vision_language_perception.md)
 - [\[CVPR 2026\] HiconAgent: History Context-aware Policy Optimization for GUI Agents](hiconagent_history_context-aware_policy_optimization_for_gui_agents.md)
+- [\[CVPR 2026\] ArtiMuse: Fine-Grained Image Aesthetics Assessment with Joint Scoring and Expert-Level Understanding](artimuse_fine-grained_image_aesthetics_assessment_with_joint_scoring_and_expert-.md)
+- [\[CVPR 2026\] Beyond Global Similarity: Multi-Conditional Retrieval for Fine-Grained Cross-Modal Understanding](beyond_global_similarity_multi-conditional_retrieval_for_fine-grained_cross-moda.md)
+- [\[CVPR 2026\] ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)
 - [\[ACL 2026\] Learning More from Less: Exploiting Counterfactuals for Data-Efficient Chart Understanding](../../ACL2026/multimodal_vlm/learning_more_from_less_exploiting_counterfactuals_for_data-efficient_chart_unde.md)
 
 </div>

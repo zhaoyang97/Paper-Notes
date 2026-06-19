@@ -103,6 +103,7 @@ flowchart TD
 CodeBind-VL 也稳定优于 ViT-Lens，例如 ModelNet40 点云分类从 70.6/94.4 提升到 78.3/96.5，IN-EEG 从 41.8/42.7 提升到 54.5/54.1。
 
 ### 消融实验
+
 | 配置 | NYU-D | SUN-D | FLIR_v2 | 说明 |
 |------|------:|------:|--------:|------|
 | 无 codebook / 无 decoupling / 无 reconstruction | 54.0 | 35.1 | 46.6 | ImageBind 基线 |
@@ -112,6 +113,7 @@ CodeBind-VL 也稳定优于 ViT-Lens，例如 ModelNet40 点云分类从 70.6/94
 | codebook + decoupling + reconstruction | 59.3 | 45.7 | 97.2 | 完整方法 |
 
 ### 细粒度与融合分析
+
 | 实验 | 结果 | 解释 |
 |------|------|------|
 | Stanford Dogs retrieval | ImageBind 50.4，shared 63.5，concat 60.2 | shared/concat embedding 对犬种细粒度检索更好 |
@@ -155,11 +157,11 @@ CodeBind-VL 也稳定优于 ViT-Lens，例如 ModelNet40 点云分类从 70.6/94
 
 ## 相关论文
 
-- [\[AAAI 2026\] Point-SRA: Self-Representation Alignment for 3D Representation Learning](../../AAAI2026/3d_vision/point-sra_self-representation_alignment_for_3d_representation_learning.md)
-- [\[ICLR 2026\] Learning Unified Representation of 3D Gaussian Splatting](../../ICLR2026/3d_vision/learning_unified_representation_of_3d_gaussian_splatting.md)
-- [\[CVPR 2026\] UniLight: A Unified Representation for Lighting](../../CVPR2026/3d_vision/unilight_a_unified_representation_for_lighting.md)
-- [\[CVPR 2026\] Improving Human Image Animation via Semantic Representation Alignment](../../CVPR2026/3d_vision/improving_human_image_animation_via_semantic_representation_alignment.md)
-- [\[ICCV 2025\] REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment](../../ICCV2025/3d_vision/reparo_compositional_3d_assets_generation_with_differentiable_3d_layout_alignmen.md)
+- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](../../ECCV2024/multimodal_vlm/unicode_learning_a_unified_codebook_for_multimodal_large_language_models.md)
+- [\[ACL 2025\] DALR: Dual-level Alignment Learning for Multimodal Sentence Representation Learning](../../ACL2025/multimodal_vlm/dalr_dual-level_alignment_learning_for_multimodal_sentence_representation_learni.md)
+- [\[CVPR 2026\] Bridging the Modality Gap in Compositional Zero-Shot Learning via Sparse Alignment and Unimodal Memory Bank](../../CVPR2026/multimodal_vlm/bridging_the_modality_gap_in_compositional_zero-shot_learning_via_sparse_alignme.md)
+- [\[ICML 2026\] DIVA: Harnessing the Representation Divergence in Unified Multimodal Models for Mutual Reinforcement](../../ICML2026/multimodal_vlm/diva_harnessing_the_representation_divergence_in_unified_multimodal_models_for_m.md)
+- [\[ICML 2026\] Calibrated Multimodal Representation Learning with Missing Modalities](../../ICML2026/multimodal_vlm/calibrated_multimodal_representation_learning_with_missing_modalities.md)
 
 </div>
 

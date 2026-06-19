@@ -76,6 +76,7 @@ GP 超参 $\xi$ 每一轮（大 $p$ 时改按 refit schedule）用后验 $p(\xi\
 实验设计成 4 类任务共 15 个 game，玩家数 $p\in[8,101]$，每个 game 跑 30 或 100 个 seed。所有 baseline 在每一轮使用与 ShaplEIG 等量的 $\nu$ 评估预算，公平对比。
 
 ### 主实验
+
 | 任务类别 | 代表 game | $p$ | ShaplEIG vs SOTA (低预算 MSE) |
 |----------|-----------|-----|-------------------------------|
 | FI（TabPFN）| Diabetes Reg. | 10 | 全程严格优于 Kernel/Leverage SHAP、Perm. Sampling、Reg. MSR |
@@ -87,6 +88,7 @@ GP 超参 $\xi$ 每一轮（大 $p$ 时改按 refit schedule）用后验 $p(\xi\
 文中描述：在大多数 game 上 ShaplEIG 跨所有预算严格 dominant；只有 Regression MSR 偶尔在窄区间打平；其它 baseline 在低预算区基本被甩开。
 
 ### 消融实验
+
 | 配置 | 关键发现 |
 |------|---------|
 | Full ShaplEIG | 最佳整体性能 |
@@ -134,8 +136,8 @@ GP 超参 $\xi$ 每一轮（大 $p$ 时改按 refit schedule）用后验 $p(\xi\
 - [\[ICLR 2026\] SEED-SET: Scalable Evolving Experimental Design for System-level Ethical Testing](../../ICLR2026/interpretability/seed-set_scalable_evolving_experimental_design_for_system-level_ethical_testing.md)
 - [\[ICML 2026\] Verified SHAP: 神经网络精确 Shapley 值的可证明界](verified_shap_provable_bounds_for_exact_shapley_values_of_neural_networks.md)
 - [\[ICML 2026\] Prototype Transformer: Towards Language Model Architectures Interpretable by Design](prototype_transformer_towards_language_model_architectures_interpretable_by_desi.md)
-- [\[ICML 2026\] Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models](dual_mechanisms_of_value_expression_intrinsic_vs_prompted_values_in_large_langua.md)
 - [\[ICML 2026\] Neural Collapse by Design: Learning Class Prototypes on the Hypersphere](neural_collapse_by_design_learning_class_prototypes_on_the_hypersphere.md)
+- [\[ICML 2026\] Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models](dual_mechanisms_of_value_expression_intrinsic_vs_prompted_values_in_large_langua.md)
 
 </div>
 

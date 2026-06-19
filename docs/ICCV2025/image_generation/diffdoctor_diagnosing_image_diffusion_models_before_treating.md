@@ -147,8 +147,8 @@ DiffDoctor 将 FLUX.1 的 artifact 频率从 82.66% 降至 22.00%（降幅 60%+�
 - [\[ICCV 2025\] CoMPaSS: Enhancing Spatial Understanding in Text-to-Image Diffusion Models](compass_enhancing_spatial_understanding_in_text-to-image_diffusion_models.md)
 - [\[ICCV 2025\] Make Me Happier: Evoking Emotions Through Image Diffusion Models](make_me_happier_evoking_emotions_through_image_diffusion_models.md)
 - [\[ICML 2026\] Diagnosing and Correcting Concept Omission in Multimodal Diffusion Transformers](../../ICML2026/image_generation/diagnosing_and_correcting_concept_omission_in_multimodal_diffusion_transformers.md)
-- [\[ICCV 2025\] DIIP: Diffusion Image Prior](diffusion_image_prior.md)
 - [\[ICCV 2025\] Golden Noise for Diffusion Models: A Learning Framework](golden_noise_for_diffusion_models_a_learning_framework.md)
+- [\[NeurIPS 2025\] Understand Before You Generate: Self-Guided Training for Autoregressive Image Generation](../../NeurIPS2025/image_generation/understand_before_you_generate_self-guided_training_for_autoregressive_image_gen.md)
 
 </div>
 

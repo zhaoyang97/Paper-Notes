@@ -119,8 +119,8 @@ tags:
 - [\[ACL 2025\] From Lists to Emojis: How Format Bias Affects Model Alignment](from_lists_to_emojis_how_format_bias_affects_model_alignment.md)
 - [\[ACL 2025\] HAF-RM: A Hybrid Alignment Framework for Reward Model Training](haf-rm_a_hybrid_alignment_framework_for_reward_model_training.md)
 - [\[ICML 2025\] On the Robustness of Reward Models for Language Model Alignment](../../ICML2025/llm_alignment/on_the_robustness_of_reward_models_for_language_model_alignment.md)
-- [\[ICML 2025\] Improving Model Alignment through Collective Intelligence of Open-Source LLMs](../../ICML2025/llm_alignment/improving_model_alignment_through_collective_intelligence_of_open-source_llms.md)
 - [\[ACL 2025\] Rethinking Reward Model Evaluation Through the Lens of Reward Overoptimization](rethinking_reward_model_evaluation_through_the_lens_of_reward_overoptimization.md)
+- [\[ICML 2025\] Improving Model Alignment through Collective Intelligence of Open-Source LLMs](../../ICML2025/llm_alignment/improving_model_alignment_through_collective_intelligence_of_open-source_llms.md)
 
 </div>
 

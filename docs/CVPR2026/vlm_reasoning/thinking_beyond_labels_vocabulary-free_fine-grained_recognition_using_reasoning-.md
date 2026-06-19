@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Thinking Beyond Labels: Vocabulary-Free Fine-Grained Recognition using Reasoning-Augmented LMMs
 description: >-
-  [CVPR 2026][多模态VLM][无词表细粒度识别] FiNDR 用一个带推理能力的大型多模态模型（LMM）直接为无标签图像"想出"细粒度类名，再用 CLIP 做视觉过滤和模态耦合构造分类器，在 5 个细粒度数据集上把无词表识别推到 SOTA（平均 cACC +9.5%），甚至反超了"用真实类名"的零样本上界。
+  [CVPR 2026][VLM Reasoning][无词表细粒度识别] FiNDR 用一个带推理能力的大型多模态模型（LMM）直接为无标签图像"想出"细粒度类名，再用 CLIP 做视觉过滤和模态耦合构造分类器，在 5 个细粒度数据集上把无词表识别推到 SOTA（平均 cACC +9.5%），甚至反超了"用真实类名"的零样本上界。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "无词表细粒度识别"
   - "推理增强 LMM"
   - "动态类名发现"
@@ -99,6 +99,7 @@ $$v_c = \frac{1}{K\cdot|U_c|}\sum_{i=1}^{|U_c|}\sum_{k=1}^{K}\frac{f_V(\text{Aug
 平均比前 SOTA E-FineR 提升 cACC +9.5%、sACC +4.3%；最关键的是平均 cACC 67.9% **反超**了"用真实类名"的 CLIP 零样本上界 65.8%，挑战了"人工词表是细粒度识别上界"的传统假设。单数据集上 Pets-37 拿到 86.5/83.7（相对 +18.7%/+9.9%），Flowers-102 cACC 79.8（比 E-FineR 涨 15.0%）。
 
 ### 消融实验：提示词设计（Table 2，CUB/Cars/Pets）
+
 | 配置 | Pets cACC | Pets sACC | 说明 |
 |------|-----------|-----------|------|
 | Base（"图里主物体是什么？"） | 76.61 | 74.02 | 最朴素提示 |
@@ -142,11 +143,11 @@ $$v_c = \frac{1}{K\cdot|U_c|}\sum_{i=1}^{|U_c|}\sum_{k=1}^{K}\frac{f_V(\text{Aug
 
 ## 相关论文
 
-- [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
 - [\[CVPR 2026\] Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts](chart-fr1_visual_focus-driven_fine-grained_reasoning_on_dense_charts.md)
 - [\[CVPR 2026\] ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps](reasonmap_towards_fine-grained_visual_reasoning_from_transit_maps.md)
-- [\[CVPR 2026\] MA-Bench: Towards Fine-grained Micro-Action Understanding](ma-bench_towards_fine-grained_micro-action_understanding.md)
 - [\[CVPR 2026\] HandVQA: Diagnosing and Improving Fine-Grained Spatial Reasoning about Hands in Vision-Language Models](handvqa_diagnosing_and_improving_fine-grained_spatial_reasoning_about_hands_in_v.md)
+- [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
+- [\[CVPR 2026\] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)
 
 </div>
 

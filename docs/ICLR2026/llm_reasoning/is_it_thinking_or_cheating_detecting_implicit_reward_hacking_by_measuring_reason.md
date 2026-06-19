@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort
 description: >-
-  [ICLR 2026 Oral][LLM推理][reward hacking] 提出 TRACE（Truncated Reasoning AUC Evaluation）方法，通过逐步截断推理链并测量模型"多早"能获得奖励来量化推理努力程度，从而检测 CoT 监控无法发现的隐式奖励黑客行为，在数学和代码任务中比最强 CoT 监控器分别提升 65% 和 30% 以上的检测 F1。
+  [ICLR 2026 Oral][Reasoning][reward hacking] 提出 TRACE（Truncated Reasoning AUC Evaluation）方法，通过逐步截断推理链并测量模型"多早"能获得奖励来量化推理努力程度，从而检测 CoT 监控无法发现的隐式奖励黑客行为，在数学和代码任务中比最强 CoT 监控器分别提升 65% 和 30% 以上的检测 F1。
 tags:
   - "ICLR 2026 Oral"
-  - "LLM推理"
+  - "Reasoning"
   - "reward hacking"
   - "chain-of-thought"
   - "reasoning effort"
@@ -157,8 +157,8 @@ $$\mathcal{L}_{\text{RLOO}} = -\mathbb{E}_{\pi_\theta}\left[\left(R(x, y) - \fra
 - [\[ICLR 2026\] Thinking in Latents: Adaptive Anchor Refinement for Implicit Reasoning in LLMs](thinking_in_latents_adaptive_anchor_refinement_for_implicit_reasoning_in_llms.md)
 - [\[ICLR 2026\] Why is Your Language Model a Poor Implicit Reward Model?](why_is_your_language_model_a_poor_implicit_reward_model.md)
 - [\[ICLR 2026\] The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs](the_illusion_of_diminishing_returns_measuring_long_horizon_execution_in_llms.md)
-- [\[ICML 2026\] Measuring Weak-to-Strong Legibility of Reasoning Models](../../ICML2026/llm_reasoning/measuring_weak-to-strong_legibility_of_reasoning_models.md)
 - [\[ICLR 2026\] I Can't Believe It's Not Robust: Catastrophic Collapse of Safety Classifiers under Embedding Drift](i_cant_believe_its_not_robust_catastrophic_collapse_of_safety_classifiers_under_.md)
+- [\[ICLR 2026\] DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization](drpo_efficient_reasoning_via_decoupled_reward_policy_optimization.md)
 
 </div>
 

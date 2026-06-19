@@ -90,6 +90,7 @@ ConSensus 是 training-free 方法，没有参数更新和损失函数。所有�
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | WESAD | SleepEDF | ActionSense | MMFit | PAMAP2 | Avg. | 融合额外 token |
 |------|-------|----------|-------------|-------|--------|------|----------------|
 | Single-Agent | 0.793 | 0.519 | 0.577 | 0.819 | 0.551 | 0.652 | 无 |
@@ -104,6 +105,7 @@ ConSensus 是 training-free 方法，没有参数更新和损失函数。所有�
 ConSensus 相比 Single-Agent 平均提升 7.1 个百分点。它的平均 accuracy 略低于 ReConcile 的 0.727，但只需单轮融合，聚合 token 从约 78.6K 降到 6K；相对于多智能体 debate 平均开销，论文报告融合 token 降低 12.7 倍。
 
 ### 消融实验
+
 | 实验 | 关键结果 | 说明 |
 |------|----------|------|
 | 语义 vs 统计融合 | Statistical Fusion 平均 0.722，Semantic Fusion 平均 0.707 | 统计共识整体更强，但不同数据集最优策略不同 |

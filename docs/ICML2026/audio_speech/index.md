@@ -1,18 +1,19 @@
 ---
 title: >-
-  ICML2026 音频/语音论文汇总 · 30篇论文解读
+  ICML2026 音频/语音论文汇总 · 36篇论文解读
 description: >-
-  30篇ICML2026的音频/语音方向论文解读，涵盖语音、推理、多模态、LLM、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  36篇ICML2026的音频/语音方向论文解读，涵盖语音、多模态、少样本学习、推理、布局/合成、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "音频/语音"
   - "论文解读"
   - "论文笔记"
   - "语音"
-  - "推理"
   - "多模态"
-  - "LLM"
   - "少样本学习"
+  - "推理"
+  - "布局/合成"
+  - "LLM"
 item_list:
   - u: "a_semantically_consistent_dataset_for_data-efficient_query-based_universal_sound/"
     t: "A Semantically Consistent Dataset for Data-Efficient Query-Based Universal Sound Separation"
@@ -24,10 +25,18 @@ item_list:
     t: "An Exterior Method for Nonnegative Matrix Factorization"
   - u: "attend_to_anything_foundation_model_for_unified_human_attention_modeling/"
     t: "Attend to Anything: Foundation Model for Unified Human Attention Modeling"
+  - u: "beyond_classification_a_cough_regression_benchmark_for_respiratory_acoustic_foun/"
+    t: "Beyond Classification: A Cough Regression Benchmark for Respiratory Acoustic Foundation Models"
+  - u: "cmi-rewardbench_evaluating_music_reward_models_with_compositional_multimodal_ins/"
+    t: "CMI-RewardBench: Evaluating Music Reward Models with Compositional Multimodal Instruction"
   - u: "do_audio_llms_listen_or_read_analyzing_and_mitigating_paralinguistic_failures_wi/"
     t: "Do Audio LLMs Listen or Read? Analyzing and Mitigating Paralinguistic Failures with VoxParadox"
   - u: "evaluating_and_rewarding_lalms_for_expressive_role-play_tts_via_mean_continuatio/"
     t: "Evaluating and Rewarding LALMs for Expressive Role-Play TTS via Mean Continuation Log-Probability"
+  - u: "few-shot_synthetic_accented_speech_for_asr_fine-tuning_what_helps_and_when/"
+    t: "Few-Shot Synthetic Accented Speech for ASR Fine-Tuning: What Helps and When?"
+  - u: "focus_then_listen_an_empirical_study_of_plug-and-play_audio_enhancer_for_noise-r/"
+    t: "Focus Then Listen: An Empirical Study of Plug-and-Play Audio Enhancer for Noise-Robust Large Audio Language Models"
   - u: "group_cognition_learning_making_everything_better_through_governed_two-stage_age/"
     t: "Group Cognition Learning: Making Everything Better Through Governed Two-Stage Agents Collaboration"
   - u: "jaeger_joint_3d_audio-visual_grounding_and_reasoning_in_simulated_physical_envir/"
@@ -58,33 +67,25 @@ item_list:
     t: "Position: Towards Responsible Evaluation for Text-to-Speech"
   - u: "probing_cross-modal_information_hubs_in_audio-visual_llms/"
     t: "Probing Cross-modal Information Hubs in Audio-Visual LLMs"
+  - u: "probing_token_spaces_under_generator_shift_in_ai-generated_music_detection/"
+    t: "Probing Token Spaces under Generator Shift in AI-Generated Music Detection"
   - u: "safesearch_automated_red-teaming_of_llm-based_search_agents/"
     t: "SafeSearch: Automated Red-Teaming of LLM-Based Search Agents"
+  - u: "self-guidance_enhancing_neural_codecs_via_decoder_manifold_alignment/"
+    t: "Self-Guidance: Enhancing Neural Codecs via Decoder Manifold Alignment"
   - u: "sparse_autoencoders_for_interpretable_emotion_control_in_text-to-speech/"
     t: "Sparse Autoencoders for Interpretable Emotion Control in Text-to-Speech"
-  - u: "sparse_tokens_suffice_jailbreaking_audio_language_models_via_token-aware_gradien/"
-    t: "Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware Gradient Optimization"
-  - u: "the_silent_thought_modeling_internal_cognition_in_full-duplex_spoken_dialogue_mo/"
-    t: "The Silent Thought: Modeling Internal Cognition in Full-Duplex Spoken Dialogue Models via Latent Reasoning"
-  - u: "towards_streaming_synchronized_spatial_audio_generation_via_autoregressive_diffu/"
-    t: "Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer"
-  - u: "towards_understanding_modality_interaction_in_multimodal_language_models_via_par/"
-    t: "Towards Understanding Modality Interaction in Multimodal Language Models via Partial Information Decomposition"
-  - u: "two-dimensional_quantization_for_geometry-aware_audio_coding/"
-    t: "Two-Dimensional Quantization for Geometry-Aware Audio Coding"
-  - u: "vocsim_a_training-free_benchmark_for_zero-shot_content_identity_in_single-source/"
-    t: "VocSim：单源音频零样本内容身份识别的无训练基准"
-item_total: 30
+item_total: 36
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🧪 ICML2026** · **30** 篇论文解读
+**🧪 ICML2026** · **36** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (32)](../../CVPR2026/audio_speech/index.md) · [💬 ACL2026 (68)](../../ACL2026/audio_speech/index.md) · [🔬 ICLR2026 (34)](../../ICLR2026/audio_speech/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/audio_speech/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/audio_speech/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/audio_speech/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/audio_speech/index.md) · [💬 ACL2026 (70)](../../ACL2026/audio_speech/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/audio_speech/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/audio_speech/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/audio_speech/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/audio_speech/index.md)
 
-🔥 **高频主题：** 语音 ×13 · 推理 ×3 · 多模态 ×3 · LLM ×2 · 少样本学习 ×2
+🔥 **高频主题：** 语音 ×15 · 多模态 ×4 · 少样本学习 ×3 · 推理 ×3 · 布局/合成 ×2
 
 **[A Semantically Consistent Dataset for Data-Efficient Query-Based Universal Sound Separation](a_semantically_consistent_dataset_for_data-efficient_query-based_universal_sound.md)**
 
@@ -106,6 +107,14 @@ item_total: 30
 
 :   AAM把图像、视频和音视频显著性预测统一为一个带文本条件、双曲层级约束和Fokker-Planck时间动力学的注意力基础模型，在16个基准上整体优于专用模型，并把视频推理速度提升到约111 FPS。
 
+**[Beyond Classification: A Cough Regression Benchmark for Respiratory Acoustic Foundation Models](beyond_classification_a_cough_regression_benchmark_for_respiratory_acoustic_foun.md)**
+
+:   现有呼吸声学基础模型（FM）几乎只在咳嗽**分类**上被评过，本文首次系统地把它们放到**连续值回归**任务上（从咳嗽音频被动估计年龄、BMI、疾病概率），用统一的冻结编码器 + 三种回归头、5 个 FM × 6 个目标 × 3 个数据集的协议做了一个多模型多目标基准，揭示了"数据规模 × 头部容量"权衡、生成式预训练优势、以及强烈不对称的跨数据集迁移等一系列被分类评测掩盖的结论。
+
+**[CMI-RewardBench: Evaluating Music Reward Models with Compositional Multimodal Instruction](cmi-rewardbench_evaluating_music_reward_models_with_compositional_multimodal_ins.md)**
+
+:   针对现代音乐生成模型已能同时吃「文本 + 歌词 + 参考音频」却没有统一评估手段的窘境，本文造了一套生态——110k 伪标注的 CMI-Pref-Pseudo、4,027 条人工标注的 CMI-Pref、统一基准 CMI-RewardBench，以及一个仅约 30M 参数、能在单一架构里处理所有模态组合的奖励模型族 CMI-RM，并证明它和人类判断高度相关、还能通过 top-k 过滤实现音乐生成的「推理时缩放」。
+
 **[Do Audio LLMs Listen or Read? Analyzing and Mitigating Paralinguistic Failures with VoxParadox](do_audio_llms_listen_or_read_analyzing_and_mitigating_paralinguistic_failures_wi.md)**
 
 :   作者构造了一个让"文字说的"和"声音听的"故意打架的 2000 题 MCQ 基准 VoxParadox，证明当前 Audio LLM 在副语言任务上几乎只"读不听"；再用一个按 prompt 自适应混合音频编码器中间层特征的轻量模块 PCLM 加上 DPO 偏好优化，把 Audio Flamingo 3 在 VoxParadox 上从 17.40% 拉到 65.20%。
@@ -113,6 +122,14 @@ item_total: 30
 **[Evaluating and Rewarding LALMs for Expressive Role-Play TTS via Mean Continuation Log-Probability](evaluating_and_rewarding_lalms_for_expressive_role-play_tts_via_mean_continuatio.md)**
 
 :   本文把"预训练大音频语言模型对真值语音 token 的续写概率"包装成一个名为 MCLP 的客观风格一致性度量，再用 MCLP+CER 的门控混合奖励，通过 GRPO 在新构建的 WenetSpeech-RP-TTS 数据集上把角色扮演 TTS 的主观 MOS 从 1.86 推到 3.58。
+
+**[Few-Shot Synthetic Accented Speech for ASR Fine-Tuning: What Helps and When?](few-shot_synthetic_accented_speech_for_asr_fine-tuning_what_helps_and_when.md)**
+
+:   用 few-shot TTS 合成带口音语音来微调 ASR，作者拆开"为什么有用"这个问题，发现真正起作用的多半是**音素空间的扰动增强**——随机替换音素就能拿到大部分增益，而 LLM 生成的"目标口音音素编辑"乃至 oracle 真值音素/韵律，相比随机基线只多出很小一截；同时合成数据在真实数据极少时能大幅降低训练方差，但固定配额的合成数据后期会稀释真实数据，真实-合成比例本身才是关键。
+
+**[Focus Then Listen: An Empirical Study of Plug-and-Play Audio Enhancer for Noise-Robust Large Audio Language Models](focus_then_listen_an_empirical_study_of_plug-and-play_audio_enhancer_for_noise-r.md)**
+
+:   本文提出 Focus-Then-Listen（FTL）——一个**不动 LALM 参数**的即插即用音频增强器：先把输入波形分成语音/非语音两轨，再用一个 LLM 路由器根据用户指令判断该"听哪一类"，最后用模态感知融合块生成任务自适应的增强音频喂给大音频语言模型，从而在各种噪声条件下提升感知与推理性能。
 
 **[Group Cognition Learning: Making Everything Better Through Governed Two-Stage Agents Collaboration](group_cognition_learning_making_everything_better_through_governed_two-stage_age.md)**
 
@@ -174,9 +191,17 @@ item_total: 30
 
 :   作者用因果追踪 + 单模态主导框架揭示了音视频 LLM 中存在一类被称为"跨模态 sink token"的隐藏枢纽,绝大多数跨模态信息都凝聚在这些 token 上,据此提出训练免费的注意力放大策略显著缓解物体幻觉。
 
+**[Probing Token Spaces under Generator Shift in AI-Generated Music Detection](probing_token_spaces_under_generator_shift_in_ai-generated_music_detection.md)**
+
+:   这篇论文把 AI 音乐检测里被当成"预处理细节"的 **token 空间**（用哪种 tokenizer）提升为一个**主实验变量**：通过固定下游分类器 CoMoE、只替换输入 token，并在新构造的 MoM-open 上做"训练时只见一种伪造生成器、测试时换生成器"的 source-restricted 评测，证明在生成器迁移场景下不同 token 空间的鲁棒性差距巨大（Fake-Udio 上 X-Codec token 89.0% AUC vs EnCodec token 58.6%）。
+
 **[SafeSearch: Automated Red-Teaming of LLM-Based Search Agents](safesearch_automated_red-teaming_of_llm-based_search_agents.md)**
 
 :   本文提出 SafeSearch——一个全自动、沙箱化、可扩展的红队框架，通过在真实搜索结果中注入单个 LLM 生成的不可靠网页来评测搜索 Agent 的安全性，并用 300 个测试用例对 17 个 LLM × 3 种 Agent 脚手架进行系统评测，发现最高 ASR 高达 90.5%、且常用的 reminder 防御几乎无效。
+
+**[Self-Guidance: Enhancing Neural Codecs via Decoder Manifold Alignment](self-guidance_enhancing_neural_codecs_via_decoder_manifold_alignment.md)**
+
+:   在 VQ-VAE 语音编解码器训练时，让解码器同时吃「量化后 token」和「量化前连续 latent」两条路，用一个轻量特征对齐损失逼着前者的解码器内部特征去对齐后者，从而在零推理开销下显著提升重建保真度，并能把码本缩小 4 倍而不掉点。
 
 **[Sparse Autoencoders for Interpretable Emotion Control in Text-to-Speech](sparse_autoencoders_for_interpretable_emotion_control_in_text-to-speech.md)**
 

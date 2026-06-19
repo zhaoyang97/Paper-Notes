@@ -113,10 +113,10 @@ TraF-Align 三阶段流程：(1) 各智能体提取 BEV 特征并带时间戳共
 ## 相关论文
 
 - [\[ECCV 2024\] Align before Collaborate: Mitigating Feature Misalignment for Robust Multi-Agent Perception](../../ECCV2024/others/align_before_collaborate_mitigating_feature_misalignment_for_robust_multi-agent_.md)
-- [\[CVPR 2026\] Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers](../../CVPR2026/others/align_once_to_explain_feature_alignment_for_scalable_b-cosification_of_foundatio.md)
 - [\[CVPR 2025\] Feature Selection for Latent Factor Models](feature_selection_for_latent_factor_models.md)
 - [\[CVPR 2025\] Improving Transferable Targeted Attacks with Feature Tuning Mixup](improving_transferable_targeted_attacks_with_feature_tuning_mixup.md)
 - [\[CVPR 2025\] EDM: Equirectangular Projection-Oriented Dense Kernelized Feature Matching](edm_equirectangular_projection-oriented_dense_kernelized_feature_matching.md)
+- [\[CVPR 2025\] Subnet-Aware Dynamic Supernet Training for Neural Architecture Search](subnet-aware_dynamic_supernet_training_for_neural_architecture_search.md)
 
 </div>
 

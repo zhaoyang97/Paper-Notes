@@ -144,10 +144,10 @@ FlowDrag 的 pipeline 分三个阶段：
 ## 相关论文
 
 - [\[CVPR 2025\] Reference-Based 3D-Aware Image Editing with Triplanes](../../CVPR2025/3d_vision/reference-based_3d-aware_image_editing_with_triplanes.md)
-- [\[ICCV 2025\] 3D Mesh Editing using Masked LRMs](../../ICCV2025/3d_vision/3d_mesh_editing_using_masked_lrms.md)
 - [\[ICCV 2025\] Image-Guided Shape-from-Template Using Mesh Inextensibility Constraints](../../ICCV2025/3d_vision/image-guided_shape-from-template_using_mesh_inextensibility_constraints.md)
+- [\[ICCV 2025\] 3D Mesh Editing using Masked LRMs](../../ICCV2025/3d_vision/3d_mesh_editing_using_masked_lrms.md)
+- [\[CVPR 2026\] ObjectMorpher: 3D-Aware Image Editing via Deformable 3DGS](../../CVPR2026/3d_vision/objectmorpher_3d-aware_image_editing_via_deformable_3dgs.md)
 - [\[CVPR 2025\] GenVDM: Generating Vector Displacement Maps From a Single Image](../../CVPR2025/3d_vision/genvdm_generating_vector_displacement_maps_from_a_single_image.md)
-- [\[ICML 2025\] Thickness-aware E(3)-Equivariant 3D Mesh Neural Networks](thickness-aware_e3-equivariant_3d_mesh_neural_networks.md)
 
 </div>
 

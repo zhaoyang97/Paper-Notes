@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.00795](https://arxiv.org/abs/2510.00795)  
 **代码**: [ChemX](https://ai-chem.github.io/ChemX)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 化学信息提取, 多模态Benchmark, Agent评估, 纳米材料, 小分子
 
 ## 一句话总结

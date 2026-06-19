@@ -91,6 +91,7 @@ OLM 与 LSM 里出现两个没有闭式的算子——$D(H)$（让 $\exp(D+H)$ �
 CorNets 相对最经典的 SPDNet 在四个数据集上分别 +5.15% / +17.69% / +6.58% / +13.79%；相对 GyroSPD++（同款架构）仍然全面占优；在最大的 NTU120 上 CorNet-ECM/LECM 还是 top-2 最快的方法之一（单 epoch ~12 s）。
 
 ### 消融实验
+
 | 配置 | 关键观察 | 说明 |
 |------|---------|------|
 | Conv 与 MLR 用相同度量 (Tab. 3 对角线) | HDM05/FPHA 上几乎都是最优 | 跨度量混合一般会掉点，几何一致性重要 |
@@ -126,11 +127,11 @@ CorNets 相对最经典的 SPDNet 在四个数据集上分别 +5.15% / +17.69% /
 
 ## 相关论文
 
-- [\[ICLR 2026\] Consistent Low-Rank Approximation](../../ICLR2026/others/consistent_low-rank_approximation.md)
 - [\[ICML 2026\] DISCO: Mitigating Bias in Deep Learning with Conditional Distance Correlation](disco_mitigating_bias_in_deep_learning_with_conditional_distance_correlation.md)
+- [\[ICLR 2026\] Consistent Low-Rank Approximation](../../ICLR2026/others/consistent_low-rank_approximation.md)
 - [\[ICML 2026\] On the Epistemic Uncertainty of Overparametrized Neural Networks](on_the_epistemic_uncertainty_of_overparametrized_neural_networks.md)
 - [\[AAAI 2026\] Improved Differentially Private Algorithms for Rank Aggregation](../../AAAI2026/others/improved_differentially_private_algorithms_for_rank_aggregation.md)
-- [\[ICLR 2026\] Fast and Stable Riemannian Metrics on SPD Manifolds via Cholesky Product Geometry](../../ICLR2026/others/fast_and_stable_riemannian_metrics_on_spd_manifolds_via_cholesky_product_geometr.md)
+- [\[CVPR 2025\] Full-DoF Egomotion Estimation for Event Cameras Using Geometric Solvers](../../CVPR2025/others/full-dof_egomotion_estimation_for_event_cameras_using_geometric_solvers.md)
 
 </div>
 

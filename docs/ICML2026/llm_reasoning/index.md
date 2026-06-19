@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 LLMReasoning论文汇总 · 63篇论文解读
+  ICML2026 LLMReasoning论文汇总 · 78篇论文解读
 description: >-
-  63篇ICML2026的 LLM Reasoning 方向论文解读，涵盖推理、LLM、多模态、Agent、对抗鲁棒、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  78篇ICML2026的 LLM Reasoning 方向论文解读，涵盖推理、LLM、多模态、Agent、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2026"
   - "LLM Reasoning"
@@ -12,17 +12,21 @@ tags:
   - "LLM"
   - "多模态"
   - "Agent"
+  - "对齐/RLHF"
   - "对抗鲁棒"
-  - "扩散模型"
 item_list:
   - u: "a_formal_comparison_between_chain_of_thought_and_latent_thought/"
     t: "A Formal Comparison Between Chain of Thought and Latent Thought"
+  - u: "aligning_tree-search_policies_with_fixed_token_budgets_in_test-time_scaling_of_l/"
+    t: "Aligning Tree-Search Policies with Fixed Token Budgets in Test-Time Scaling of LLMs"
   - u: "an_information-theoretic_criterion_for_efficient_data_synthesis/"
     t: "An Information-Theoretic Criterion for Efficient Data Synthesis"
   - u: "are_large_reasoning_models_interruptible/"
     t: "Are Large Reasoning Models Interruptible?"
   - u: "are_tools_always_beneficial_learning_to_invoke_tools_adaptively_for_dual-mode_mu/"
     t: "Are Tools Always Beneficial? Learning to Invoke Tools Adaptively for Dual-Mode Multimodal LLM Reasoning"
+  - u: "attention_illuminates_llm_reasoning_the_preplan-and-anchor_rhythm_enables_fine-g/"
+    t: "Attention Illuminates LLM Reasoning: The Preplan-and-Anchor Rhythm Enables Fine-Grained Policy Optimization"
   - u: "beyond_test-time_memory_state-space_optimal_control_for_llm_reasoning/"
     t: "Beyond Test-Time Memory: State-Space Optimal Control for LLM Reasoning"
   - u: "beyond_two-stage_training_cooperative_sft_and_rl_for_llm_reasoning/"
@@ -31,6 +35,8 @@ item_list:
     t: "Biases in the Blind Spot: Detecting What LLMs Fail to Mention"
   - u: "blending_supervised_and_reinforcement_fine-tuning_with_prefix_sampling/"
     t: "Blending Supervised and Reinforcement Fine-Tuning with Prefix Sampling"
+  - u: "calibration_of_structured_ignorance_certificates_for_diagnosing_unknown_unknowns/"
+    t: "Calibration of Structured Ignorance Certificates for Diagnosing Unknown Unknowns in Reasoning Models"
   - u: "chain-of-thought_reasoning_in_the_wild_is_not_always_faithful/"
     t: "Chain-of-Thought Reasoning in the Wild Is Not Always Faithful"
   - u: "clustering_as_reasoning_a_k-means_interpretation_of_chain-of-thought_graph_learn/"
@@ -39,6 +45,8 @@ item_list:
     t: "CoCoReviewBench: A Completeness- and Correctness-Oriented Benchmark for AI Reviewers"
   - u: "conformal_thinking_risk_control_for_reasoning_on_a_compute_budget/"
     t: "Conformal Thinking: Risk Control for Reasoning on a Compute Budget"
+  - u: "critique-grpo_advancing_llm_reasoning_with_natural_language_and_numerical_feedba/"
+    t: "Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback"
   - u: "decepchain_inducing_deceptive_reasoning_in_large_language_models/"
     t: "DecepChain: Inducing Deceptive Reasoning in Large Language Models"
   - u: "deliberate_evolution_agentic_reasoning_for_sample-efficient_symbolic_regression_/"
@@ -51,6 +59,8 @@ item_list:
     t: "Diversity Matters: Revisiting Test-Time Compute in Vision-Language Models"
   - u: "diversity_over_frequency_rethinking_tool_use_in_visual_chain-of-thought_agents/"
     t: "Diversity Over Frequency: Rethinking Tool Use in Visual Chain-of-Thought Agents"
+  - u: "dycon_dynamic_reasoning_control_via_evolving_difficulty_modeling/"
+    t: "DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling"
   - u: "dynamics_within_latent_chain-of-thought_an_empirical_study_of_causal_structure/"
     t: "Dynamics Within Latent Chain-of-Thought: An Empirical Study of Causal Structure"
   - u: "ets_energy-guided_test-time_scaling_for_training-free_rl_alignment/"
@@ -63,33 +73,27 @@ item_list:
     t: "ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution"
   - u: "from_llm-generated_conjectures_to_lean_formalizations_automated_polynomial_inequ/"
     t: "From LLM-Generated Conjectures to Lean Formalizations: Automated Polynomial Inequality Proving via Sum-of-Squares Certificates"
-  - u: "grpo_is_secretly_a_process_reward_model/"
-    t: "GRPO is Secretly a Process Reward Model"
-  - u: "hidden_error_awareness_in_chain-of-thought_reasoning_the_signal_is_diagnostic_no/"
-    t: "Hidden Error Awareness in Chain-of-Thought Reasoning: The Signal Is Diagnostic, Not Causal"
-  - u: "how_far_ahead_do_llms_plan_uncovering_the_latent_horizon_in_chain-of-thought_rea/"
-    t: "How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning"
-  - u: "inducing_overthink_hierarchical_genetic_algorithm-based_dos_attack_on_black-box_/"
-    t: "Inducing Overthink: Hierarchical Genetic Algorithm-based DoS Attack on Black-Box Large Language Reasoning Models"
-  - u: "inference_time_optimization_with_confidence_dynamics/"
-    t: "Inference Time Optimization with Confidence Dynamics"
-  - u: "internalizing_safety_understanding_in_large_reasoning_models_via_verification/"
-    t: "Internalizing Safety Understanding in Large Reasoning Models via Verification"
-item_total: 63
+  - u: "geometry_of_reason_spectral_signatures_of_valid_mathematical_reasoning/"
+    t: "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning"
+item_total: 78
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM Reasoning
 
-**🧪 ICML2026** · **63** 篇论文解读
+**🧪 ICML2026** · **78** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (20)](../../CVPR2026/llm_reasoning/index.md) · [💬 ACL2026 (81)](../../ACL2026/llm_reasoning/index.md) · [🔬 ICLR2026 (82)](../../ICLR2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (16)](../../CVPR2026/llm_reasoning/index.md) · [💬 ACL2026 (82)](../../ACL2026/llm_reasoning/index.md) · [🔬 ICLR2026 (97)](../../ICLR2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×42 · LLM ×14 · 多模态 ×2 · Agent ×2 · 对抗鲁棒 ×2
+🔥 **高频主题：** 推理 ×54 · LLM ×18 · 多模态 ×2 · Agent ×2 · 对齐/RLHF ×2
 
 **[A Formal Comparison Between Chain of Thought and Latent Thought](a_formal_comparison_between_chain_of_thought_and_latent_thought.md)**
 
 :   本文从计算复杂度理论出发，形式化比较 CoT（链式思维）与隐式思维（Looped Transformer / Coconut）的表达能力，证明隐式思维在多对数深度下严格达到 $\mathsf{TC}^k$，而 CoT 最多到 $\mathsf{TC}^{k-1}$；同时在概率设置下首次揭示 CoT 通过随机解码可支持 FPRAS 计数，反过来超越确定论隐式思维。
+
+**[Aligning Tree-Search Policies with Fixed Token Budgets in Test-Time Scaling of LLMs](aligning_tree-search_policies_with_fixed_token_budgets_in_test-time_scaling_of_l.md)**
+
+:   针对部署时"每条 query 给定固定 token 预算"的现实约束，本文提出 Budget-Guided MCTS（BG-MCTS），用"预算充足比 ρ"作为统一调度信号，让树搜索从早期广撒网、随预算耗尽逐渐转向深挖与补全答案，在数学/物理推理基准上稳定超过对预算"无感知"的树搜索基线。
 
 **[An Information-Theoretic Criterion for Efficient Data Synthesis](an_information-theoretic_criterion_for_efficient_data_synthesis.md)**
 
@@ -102,6 +106,10 @@ item_total: 63
 **[Are Tools Always Beneficial? Learning to Invoke Tools Adaptively for Dual-Mode Multimodal LLM Reasoning](are_tools_always_beneficial_learning_to_invoke_tools_adaptively_for_dual-mode_mu.md)**
 
 :   AutoTool 用强化学习让多模态大模型先判断“这题是否真的需要 zoom-in 工具”，再在工具辅助推理和纯文本推理之间自适应切换，从而在高分辨率感知、定位、幻觉检测和推理任务上同时提升准确率与效率。
+
+**[Attention Illuminates LLM Reasoning: The Preplan-and-Anchor Rhythm Enables Fine-Grained Policy Optimization](attention_illuminates_llm_reasoning_the_preplan-and-anchor_rhythm_enables_fine-g.md)**
+
+:   作者用注意力动力学给推理过程"显影"——发现模型在生成时存在一个"先铺垫(preplan)、后定锚(anchor)"的两拍节奏，并把刻画这个节奏的两个内部指标(WAAD/FAI)直接转成 RL 里的 token 级优势放大系数，让 GRPO 把信用集中打在真正决定下游推理走向的关键 token 上，在 Countdown、QA 和多个数学推理基准上稳定提点。
 
 **[Beyond Test-Time Memory: State-Space Optimal Control for LLM Reasoning](beyond_test-time_memory_state-space_optimal_control_for_llm_reasoning.md)**
 
@@ -119,6 +127,10 @@ item_total: 63
 
 :   提出 Prefix-RFT，通过从专家示范中采样前缀拼接模型续写来构建混合轨迹，在保持 RFT 目标导向优化的同时注入 SFT 的知识引导，在数学推理任务上显著超越独立 SFT、RFT 及已有混合方法。
 
+**[Calibration of Structured Ignorance Certificates for Diagnosing Unknown Unknowns in Reasoning Models](calibration_of_structured_ignorance_certificates_for_diagnosing_unknown_unknowns.md)**
+
+:   本文提出 **结构化无知证书（Structured Ignorance Certificate, SIC）**——一种强制模型在遇到超出知识边界的跨域问题时，不再瞎编答案、而是用 JSON 显式说出"缺哪两个领域的交叉知识、需要哪些概念、该去检索什么"的输出格式；通过自动合成的 7,347 条"未知的未知"跨域问题数据集 + GRPO 强化微调，让 14B 模型学会稳定产出这种证书（JSON 合法率 99.46%、概念具体度 0.967）。
+
 **[Chain-of-Thought Reasoning in the Wild Is Not Always Faithful](chain-of-thought_reasoning_in_the_wild_is_not_always_faithful.md)**
 
 :   本文在**非对抗性、自然措辞**的提示下（无人工注入偏见），揭示前沿LLM的链式推理（CoT）存在两种不忠实行为——**隐式后验合理化**（对逻辑对立的比较问题给出矛盾的相同答案并各自编造合理论证）和**不忠实非逻辑捷径**（在数学难题中跳过关键推理步骤却得出正确答案），生产模型不忠实率最高达13%，即使思考型模型（DeepSeek R1: 0.37%，Sonnet 3.7 thinking: 0.04%）也非完全忠实。
@@ -134,6 +146,10 @@ item_total: 63
 **[Conformal Thinking: Risk Control for Reasoning on a Compute Budget](conformal_thinking_risk_control_for_reasoning_on_a_compute_budget.md)**
 
 :   本文把"reasoning LLM 何时停止思考"从一个不可解释的阈值调参问题，重构为一个**用户可指定 risk 容忍度**的 conformal 风险控制问题：用两个阈值——上阈值在模型自信时停（控 false positive），新提出的**参数化下阈值**在模型在不可解题上"想不动"时强行停（控 false negative）——并通过 UCB 算法从校准集自动求出满足风险约束的阈值，在 AIME / GPQA / MathVision 上实现"准确率几乎不掉、token 大幅省"。
+
+**[Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback](critique-grpo_advancing_llm_reasoning_with_natural_language_and_numerical_feedba.md)**
+
+:   作者先指出"纯数值奖励 RL"有三个硬伤（性能平台、自发反思无效、顽固失败），再把**自然语言批评（critique）**接进在线 RL：模型既学初始回答、又学"按批评做的自我精炼"，并用一个 shaping 函数偏向"正确但陌生"的精炼、抑制错误精炼，从而在八个推理基准上把 Pass@1 平均提升约 +15.0~21.6%（Qwen 系列）。
 
 **[DecepChain: Inducing Deceptive Reasoning in Large Language Models](decepchain_inducing_deceptive_reasoning_in_large_language_models.md)**
 
@@ -159,6 +175,10 @@ item_total: 63
 
 :   在 3D 空间推理这类"工具非必需"的视觉 Agent 任务上，作者发现 vanilla RFT 会让工具调用率塌缩到接近 0、强制鼓励工具调用又只带来边际收益；真正驱动性能提升的是 rollout 的探索多样性，于是用自适应熵正则化把 3DSRBench 准确率从 59.2% 推到 62.9%，并把工具重新定位为"训练期脚手架"而非推理期必备品。
 
+**[DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling](dycon_dynamic_reasoning_control_via_evolving_difficulty_modeling.md)**
+
+:   DyCon 发现"题目难度"在推理过程中是动态变化的、且被线性编码在大推理模型每一步的隐藏表征里，于是用一个轻量线性回归器在线估计每步难度，再据此实时调整"反思类 token"的 logit，让简单题早点收敛、难题继续探索，从而在不掉精度的前提下大幅压缩冗余推理 token——整个过程免训练、不改模型参数。
+
 **[Dynamics Within Latent Chain-of-Thought: An Empirical Study of Causal Structure](dynamics_within_latent_chain-of-thought_an_empirical_study_of_causal_structure.md)**
 
 :   作者把 latent CoT 看作一个可干预的结构因果模型（SCM），对每个连续"思考步"做 step-wise `do`-intervention + 早停解码 + teacher-forced 读出，系统量化 Coconut/CODI 在数学和常识推理上的步级必要性、传播结构与轨迹叠加性，发现 latent step 并不是同质化的"加深"，而是高度异质、非局部路由、且输出层早承诺先于表示层承诺的结构化界面。
@@ -183,6 +203,10 @@ item_total: 63
 
 :   NSPI 让 LLM 提出近似的多项式平方和 (SOS) 结构猜想，再用 Gauss–Newton 迭代和有理恢复把猜想精修成严格的有理系数 SOS 分解，最后用 Lean 的 `linear_combination` + `positivity` 策略自动机器验证，把不等式证明可扩展到最多 10 个变量。
 
+**[Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning](geometry_of_reason_spectral_signatures_of_valid_mathematical_reasoning.md)**
+
+:   把 Transformer 每个注意力矩阵当成 token 加权图，提取 Fiedler 值、HFER、谱熵、平滑度四个无参谱诊断量，发现"有效数学推理"会在注意力谱上留下可测量的指纹（Cohen's $d$ 最高 3.30），从而**不需要任何训练**就能以 85–96% 的准确率判断一段证明是真推理还是模式匹配。
+
 **[GRPO is Secretly a Process Reward Model](grpo_is_secretly_a_process_reward_model.md)**
 
 :   本文从理论上证明 GRPO + ORM 在"组内轨迹共享前缀"的温和条件下**等价于**一个带有 Monte-Carlo PRM 的过程奖励 RL 目标，从而揭示出 vanilla GRPO 隐藏的一个 bug——前缀长度不均会让高奖励轨迹的大部分 token 拿到负 advantage——并提出 $\lambda$-GRPO 做一个 PRM-aware 归一化，在推理 benchmark 上稳定超过 GRPO 且训练快约 2 倍。
@@ -199,6 +223,10 @@ item_total: 63
 
 :   本文针对大型推理模型 (LRM) 易被"逻辑残缺输入"激发过度思考的弱点，提出一个层级化遗传算法 (HGA)，在纯黑盒条件下把结构化分解后的题目当成基因，通过句子级/问题级交叉和增删变异搜索逻辑断裂的对抗样本，最高可在 MATH 上把响应长度放大 26.1 倍，制造低成本 DoS 攻击。
 
+**[Inference-Time Conformal Reasoning with Valid Factuality Control for Large Language Models](inference-time_conformal_reasoning_with_valid_factuality_control_for_large_langu.md)**
+
+:   ITCR 把保形预测（conformal prediction）从"生成完再剪枝"的事后做法，改造成"边生成边判停"的推理时机制：它在 LLM 的推理图上学一个图级事实性不确定度函数，并构造一个随子图扩张单调递增的非一致性分数，一旦越过校准好的阈值就立刻停止扩张，从而对"输出里没有错误步骤（no-false）"或"输出包含所有正确步骤（no-miss）"给出 $1-\alpha$ 的有效覆盖保证，下游推理准确率平均提升 18.77%。
+
 **[Inference Time Optimization with Confidence Dynamics](inference_time_optimization_with_confidence_dynamics.md)**
 
 :   作者发现在 LLM 多次采样推理中，正确轨迹的置信度沿 reasoning chain 系统性上升而错误轨迹衰减或下降，据此提出 CDG（Confidence Dynamic Gain）投票——把"尾段置信度 − 头段置信度"作为额外判别信号嵌入 Best-of-N 加权投票，在四个开源推理模型 × 四个数学奥赛 benchmark 上平均较 majority voting 提升 5.4%、较 DeepConf 提升 1.7~4.8%。
@@ -206,6 +234,10 @@ item_total: 63
 **[Internalizing Safety Understanding in Large Reasoning Models via Verification](internalizing_safety_understanding_in_large_reasoning_models_via_verification.md)**
 
 :   本文论证「会生成安全答案」≠「懂安全」，提出 SInternal 框架：只训练大型推理模型去 verify 自己生成答案的安全性，由此涌现的内在安全理解大幅压制 jailbreak 攻击（StrongREJECT ASR 从 41% 降到 0.6%）并成为后续 RL 的更好起点。
+
+**[Is Code Better Than Language for Algorithmic Reasoning?](is_code_better_than_language_for_algorithmic_reasoning.md)**
+
+:   作者用一个"三条路线"框架把工具增强 LLM 的两个被混淆的因素——推理表征（代码 vs 自然语言）和执行机制（LLM 模拟 vs 真实解释器）——干净地拆开，发现在 40 个可验证算法任务上，代码本身几乎不带来增益（+0.15pp），真正把准确率从 17% 抬到 49% 的是"可靠的外部执行"（+31.47pp），并用一个线性决策论模型证明了"代码表征不劣于自然语言"。
 
 **[LatentChem: From Textual CoT to Latent Thinking in Chemical Reasoning](latentchem_from_textual_cot_to_latent_thinking_in_chemical_reasoning.md)**
 
@@ -291,6 +323,10 @@ item_total: 63
 
 :   本文首次系统研究 LLM 科学推理中的"逻辑性"，提出"逻辑保真度 / 因果连接 / 推理进展" 三维评估指标，并基于该指标构造两种 SFT 数据采样方法（风格迁移 RST、逻辑蒸馏 Logic-Distill），在自建的 PhysLogic 基准与三个公开物理 benchmark 上把 7B 模型的逻辑性与答题准确率同时提了一大截。
 
+**[Select to Think: Unlocking SLM Potential with Local Sufficiency](select_to_think_unlocking_slm_potential_with_local_sufficiency.md)**
+
+:   这篇论文发现小模型（SLM）在推理"分歧点"上其实**已经把大模型偏好的那个 token 装进了自己的 top-K 候选集里**（1.5B 的 top-8 命中 32B 教师选择达 95%），只是被贪婪解码漏掉了；于是把大模型的角色从"开放式生成"改写成"在 SLM 候选里做选择"，再把这套选择逻辑蒸馏进 SLM 自身，让 1.5B 单轨解码就把 Math 平均分相对提升 24.1%，逼平 8 路自一致性而只花 1/8 的算力。
+
 **[Self-Play Only Evolves When Self-Synthetic Pipeline Ensures Learnable Information Gain](self-play_only_evolves_when_self-synthetic_pipeline_ensures_learnable_informatio.md)**
 
 :   作者主张当下的"LLM 自博弈"之所以在几轮内就崩溃，根本原因是自合成数据没有提供可学习信息增益；他们用有界 MDL/epiplexity 把"可学习信息"形式化，并提出三个系统级设计——非对称协同演化、容量预算增长、主动信息寻取——共同保证三角色 (Proposer-Solver-Verifier) 自演化循环中可学习信息单调上升。
@@ -303,13 +339,33 @@ item_total: 63
 
 :   本文从动力系统视角诊断 Looped Language Model (LoopLM) 在 test-time 扩展深度时"先涨后崩"的根因——归一化位置导致的"稳定—有效"二元困境，并提出 STARS：用 Jacobian 谱半径正则化 (JSRR) + 随机循环采样把潜在轨迹拉向"渐近稳定的有效不动点"，在 GSM8K 上把 8 步循环的性能跌幅从 20.47% 压到 8.26%，同时峰值提升 4.01%。
 
+**[Stop When Further Reasoning Won't Help: Attention-State Adaptive Generation in Reasoning Models](stop_when_further_reasoning_wont_help_attention-state_adaptive_generation_in_rea.md)**
+
+:   ASAG 是一个训练无关、即插即用的推理早停框架：它在大推理模型（LRM）每个"思考动作"切换点上同时读取模型置信度和注意力熵，判断推理是否真的收敛，从而自适应地选择"早停 / 注入 logits 推一把 / 跳出思维陷阱 / 继续"四种策略，在 Qwen3-8B 上把平均准确率提升 3.2% 的同时把生成 token 数砍掉近 40%。
+
+**[SuCo: Sufficiency-guided Continuous Adaptive Reasoning](suco_sufficiency-guided_continuous_adaptive_reasoning.md)**
+
+:   SuCo 提出"最小充分思维链（MSC）"——能产出正确答案的最短 CoT 前缀，并据此设计两阶段训练（MSC 对齐微调 MFT + 充分性感知策略优化 SAPO），让大推理模型在一个**连续谱**上自主调节推理长度，在数学/代码/科学多基准上同时拿到更高准确率与更少推理 token（7B 平均准确率 +2.7、推理长度从 5239 降到 1267）。
+
 **[The Deterministic Horizon: When Extended Reasoning Fails and Tool Delegation Becomes Necessary](the_deterministic_horizon_when_extended_reasoning_fails_and_tool_delegation_beco.md)**
 
 :   本文发现解码器 Transformer 在确定性状态追踪任务上因注意力容量限制存在"**确定性地平线**"（约 19-31 步），超过此阈值扩展推理会导致性能崩溃；通过信息论 + 大规模实证（72 万次评估）证明这是**架构能力**失败而非"简洁性偏好"，并量化论证了工具委托（如符号求解器）的**必要性**——可将准确率从 24-42% 拉到 86-94%。
 
+**[The Easy, the Hard, and the Learnable: Confidence and Difficulty-Adaptive Policy Optimization for LLM Reasoning](the_easy_the_hard_and_the_learnable_confidence_and_difficulty-adaptive_policy_op.md)**
+
+:   本文先把 GRPO 训练动态拆开看，发现它对简单/困难/可学习问题一视同仁导致算力错配，进而提出 CoDaPO——用每题的"置信度×难度"算一个有界价值，既给梯度更新加权又对高价值题重采样，在固定算力下把更新集中到"可学习带"，12 个推理基准上稳定超过 GRPO 等方法。
+
 **[The Expressive Power of Low Precision Softmax Transformers with (Summarized) Chain-of-Thought](the_expressive_power_of_low_precision_softmax_transformers_with_summarized_chain.md)**
 
 :   本文首次证明：使用 softmax 注意力 + bfloat16 量级精度（激活与注意力权重都四舍五入）的标准 Transformer 解码器，只要深度、宽度对数地随上下文增长，就能借助 CoT 模拟任意图灵机；并进一步证明 Summarized CoT 把规模从时间界 $\hat{t}$ 降到空间界 $\hat{s}$，且在 Sudoku 任务上实测发现"加深度而不是加精度"才是 CoT 长上下文失败的真正解药。
+
+**[The Quality-Utility Paradox: Why High-Reward Data Impairs Small Model Mathematical Reasoning](the_quality-utility_paradox_why_high-reward_data_impairs_small_model_mathematica.md)**
+
+:   本文揭示了小语言模型（SLM）数学推理蒸馏中的「质量-效用悖论」：被强 Oracle 精修、奖励模型打分更高的训练数据，下游微调效果反而不如 SLM 自己采样生成的低分数据，原因是 Oracle 精修在修复逻辑的同时把推理轨迹推离了 SLM 的原生分布、抬高了学习者的适应成本；作者用「风格对齐精修」把逻辑修复和风格漂移解耦，重新拿回了下游收益。
+
+**[The Role of Feedback Alignment in Self-Distillation](the_role_of_feedback_alignment_in_self-distillation.md)**
+
+:   本文系统研究了「自蒸馏」中上下文（context）的设计问题：在 solver–critic 框架下对比三种反馈形式后发现，与 solver 自身推理轨迹**逐步对齐**的批改式反馈（StepAlignFB）远胜二元奖励（GRPO，+16.11 分）和参考解（RefSol，+5.27 分 Avg@12），因为它只把蒸馏信号集中在 solver 真正出错的 token 上、放过已经正确的步骤，从而隐式实现了过程级监督（PRM 式信号）而无需训练奖励模型。
 
 **[ToolMATH: A Math Tool Benchmark for Realistic Long-Horizon Multi-Tool Reasoning](toolmath_a_math_tool_benchmark_for_realistic_long-horizon_multi-tool_reasoning.md)**
 
@@ -334,6 +390,10 @@ item_total: 63
 **[What Really Improves Mathematical Reasoning: Structured Reasoning Signals Beyond Pure Code](what_really_improves_mathematical_reasoning_structured_reasoning_signals_beyond_.md)**
 
 :   这篇论文通过 10T-token 语料和 MoE 从头预训练的控制实验指出，真正提升复杂数学推理的不是纯可执行代码本身，而是跨域结构化推理信号，尤其是数学语料中显式暴露中间步骤的“认知脚手架”。
+
+**[When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models](when_the_chain_of_thought_knows_better_failure_modes_in_multi-turn_reasoning_mod.md)**
+
+:   本文指出多轮推理模型的安全失败大多对"末轮分数评测"隐形——模型可能早早锁死一个不安全立场却让最终拒答率看起来和对齐良好的基线一样,于是提出一个轨迹级诊断框架 **CoT–Output 2×2 安全矩阵**:沿"内部推理(CoT)"和"可见输出"两条独立轴给每一轮打标,划出四种失败格,并首次命名出 **context-injection failure(CoT 安全但输出有害)** 这一被忽视的失败模式。
 
 **[When to Re-Plan: Subgoal Persistence in Hierarchical Latent Reasoning](when_to_re-plan_subgoal_persistence_in_hierarchical_latent_reasoning.md)**
 

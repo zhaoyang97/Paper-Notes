@@ -94,6 +94,7 @@ Janus-Pro 原生几乎不会画 SVG 风格的图，所以作者先做 Stage 1 �
 在 SArena-Icon 上结论一致，DuetSVG (TTS) 把 T2SVG FID 压到 11.71、I2SVG PSNR 提到 24.02，全面领先所有 VLM 基线（含 GPT-5-Thinking、Gemini-3-Pro）。其中 Path Semantics 是作者采用的向量级指标：随机删掉 30% 路径后测原图与改图的 CLIP score 下降量，下降越大说明每条路径越承载语义（即路径越不冗余）。
 
 ### 消融实验
+
 | 配置 | T2SVG FID ↓ | T2SVG CLIP ↑ | I2SVG DINO ↑ | I2SVG LPIPS ↓ | 说明 |
 |------|------|------|------|------|------|
 | w/o 内部视觉引导（SVG-only） | 51.48 | 23.26 | 0.939 | 0.096 | 退化成纯文本式，所有指标明显恶化 |
@@ -137,10 +138,10 @@ Janus-Pro 原生几乎不会画 SVG 风格的图，所以作者先做 Stage 1 �
 ## 相关论文
 
 - [\[CVPR 2026\] TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models](tuna_taming_unified_visual_representations_for_native_unified_multimodal_models.md)
-- [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
-- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
 - [\[CVPR 2026\] OneCAT: Decoder-Only Auto-Regressive Model for Unified Understanding and Generation](onecat_decoder-only_auto-regressive_model_for_unified_understanding_and_generati.md)
 - [\[CVPR 2026\] Rosetta Stone for Unified MLLMs: A Unified Tokenizer to Decipher Understanding and Generation](rosetta_stone_for_unified_mllms_a_unified_tokenizer_to_decipher_understanding_an.md)
+- [\[CVPR 2026\] HBridge: H-Shape Bridging of Heterogeneous Experts for Unified Multimodal Understanding and Generation](hbridge_h-shape_bridging_of_heterogeneous_experts_for_unified_multimodal_underst.md)
+- [\[CVPR 2026\] Multimodal Continual Instruction Tuning with Dynamic Gradient Guidance](multimodal_continual_instruction_tuning_with_dynamic_gradient_guidance.md)
 
 </div>
 

@@ -79,6 +79,7 @@ flowchart TD
 数据集是作者自建的"风格画廊"基准（因为没有现成的"任意张参考风格迁移"基准）：内容/风格图来自 COCO、FFHQ、WikiArt 等，覆盖 25 个风格家族（梵高、中国水墨等），每个风格 4–17 张（均值 8）；内容图分 5 类，每类 2–10 张。为每张内容图随机选 1/2/3/5 张风格图，共生成 750 张风格化结果。评估指标用基于匈牙利算法的块级匹配（把图切成 16 个 128×128 块、VGG 抽特征、余弦最近匹配）得到 Style 分，并辅以 Gram Loss、FID、LPIPS、ArtFID。
 
 ### 主实验
+
 | 指标 | StyTR-2 | StyleID | AD | StyleShot | 本文 |
 |------|---------|---------|-----|-----------|------|
 | Style ↑ | 0.5219 | 0.4972 | 0.5249 | 0.5198 | **0.5337** |
@@ -90,6 +91,7 @@ flowchart TD
 StyleGallery 在全部 5 个指标上都取得最优：Style 最高（风格化最足）、LPIPS 最低（内容结构保持最好），同时拿下 Gram/FID/ArtFID——说明它确实在"风格强度 vs 内容保持"这条 trade-off 上同时推进，而非顾此失彼。
 
 ### 消融实验
+
 | 配置 | LPIPS ↓ | FID ↓ | Style ↑ | 说明 |
 |------|---------|-------|---------|------|
 | Full（$\lambda_c=0.26$） | **0.3716** | **16.89** | **0.5337** | 完整模型 |
@@ -135,9 +137,9 @@ StyleGallery 在全部 5 个指标上都取得最优：Style 最高（风格化�
 
 - [\[CVPR 2026\] Style-GRPO: Semantic-Aware Preference Optimization for Image Style Transfer Guided by Reward Modeling](style-grpo_semantic-aware_preference_optimization_for_image_style_transfer_guide.md)
 - [\[CVPR 2025\] SaMam: Style-aware State Space Model for Arbitrary Image Style Transfer](../../CVPR2025/image_generation/samam_style-aware_state_space_model_for_arbitrary_image_style_transfer.md)
-- [\[CVPR 2026\] HAM: A Training-Free Style Transfer Approach via Heterogeneous Attention Modulation for Diffusion Models](ham_a_training-free_style_transfer_approach_via_heterogeneous_attention_modulati.md)
 - [\[CVPR 2025\] HSI: A Holistic Style Injector for Arbitrary Style Transfer](../../CVPR2025/image_generation/hsi_a_holistic_style_injector_for_arbitrary_style_transfer.md)
 - [\[CVPR 2026\] A Training-Free Style-Personalization via SVD-Based Feature Decomposition](a_training-free_style-personalization_via_svd-based_feature_decomposition.md)
+- [\[CVPR 2026\] Harmonic Canvas: Inversion-Free Editing for Visually-Guided Music Style Transfer](harmonic_canvas_inversion-free_editing_for_visually-guided_music_style_transfer.md)
 
 </div>
 

@@ -34,6 +34,7 @@ DynFusion 给 DiT 的每个 MMDiT block 插一个轻量门控模块 CAM，让模
 **核心 idea**：用**数据驱动的自适应条件融合**取代静态堆叠——让模型在去噪过程中动态决定 *what / when / where*（激活哪些条件、在哪个 timestep、在哪个 block 注入），而不是预先固定。落地形式是一个即插即用的门控模块 CAM，配合解耦注意力和 Fusion-LoRA 保证被选中的条件干净地融进噪声分支。
 
 ## 方法详解
+
 ### 整体框架
 DynFusion 建在主流 DiT/MMDiT（如 FLUX）之上。输入是噪声 token + 文本 token + 若干视觉条件图（depth、canny、subject、background…），输出是去噪后的目标图像。整条 pipeline 的核心改动是：**冻结主干**，只训练每个条件对应的 condition-LoRA 来抽取条件特征，再通过多模态注意力注入噪声潜空间——以此避免全参数微调。关键创新在于注入前先经过一道动态门控：
 
@@ -97,6 +98,7 @@ $$\tilde{A}^{(i,j)}=\frac{\exp(P^{(i,j)}\hat{M}^{(i,j)}_{attn})}{\sum_{k=1}^{N}\
 四个任务上 DynFusion 在质量（FID/SSIM）、主体一致性（CLIP-I/DINO）上全面超过此前最强的 UniCombine，同时 FLOPs 砍掉约一半、推理速度提到约 1.4 倍——这点最关键：以往多条件方法是"加质量必加算力"，DynFusion 靠动态稀疏做到了质量和效率同向改善。
 
 ### 消融实验（Subject-Insertion 任务）
+
 | 配置 | FID ↓ | SSIM ↑ | DINO ↑ | FLOPs / 说明 |
 |------|-------|--------|--------|------|
 | Uniform（全激活） | 5.06 | 0.76 | 92.71 | 15.10T，均匀融合基线 |
@@ -144,10 +146,10 @@ $$\tilde{A}^{(i,j)}=\frac{\exp(P^{(i,j)}\hat{M}^{(i,j)}_{attn})}{\sum_{k=1}^{N}\
 ## 相关论文
 
 - [\[CVPR 2026\] CaReFlow: Cyclic Adaptive Rectified Flow for Multimodal Fusion](careflow_cyclic_adaptive_rectified_flow_for_multimodal_fusion.md)
+- [\[ICLR 2026\] BideDPO: Conditional Image Generation with Simultaneous Text and Condition Alignment](../../ICLR2026/image_generation/bidedpo_conditional_image_generation_with_simultaneous_text_and_condition_alignm.md)
 - [\[CVPR 2026\] Rethinking Prompt Design for Inference-time Scaling in Text-to-Visual Generation](rethinking_prompt_design_for_inference-time_scaling_in_text-to-visual_generation.md)
 - [\[CVPR 2026\] MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](multibanana_a_challenging_benchmark_for_multi_reference_text_to_image_generation.md)
 - [\[CVPR 2026\] Curriculum Group Policy Optimization: Adaptive Sampling for Unleashing the Potential of Text-to-Image Generation](curriculum_group_policy_optimization_adaptive_sampling_for_unleashing_the_potent.md)
-- [\[CVPR 2026\] WISER: Wider Search, Deeper Thinking, and Adaptive Fusion for Training-Free Zero-Shot Composed Image Retrieval](wiser_wider_search_deeper_thinking_and_adaptive_fusion_for_training-free_zero-sh.md)
 
 </div>
 

@@ -204,8 +204,8 @@ PATN 在所有语义保真度指标上优于 PrivDiffuser 一个数量级。步�
 ## 相关论文
 
 - [\[NeurIPS 2025\] Factor Decorrelation Enhanced Data Removal from Deep Predictive Models](../../NeurIPS2025/ai_safety/factor_decorrelation_enhanced_data_removal_from_deep_predictive_models.md)
-- [\[CVPR 2026\] PrivSynth: Alternating and Control-Based Optimization for Privacy and Utility in Synthetic Data](../../CVPR2026/ai_safety/privsynth_alternating_and_control-based_optimization_for_privacy_and_utility_in_.md)
 - [\[CVPR 2026\] RevINN: An End-to-End Invertible Neural Network for Reversible Adversarial Examples Generation](../../CVPR2026/ai_safety/revinn_an_end-to-end_invertible_neural_network_for_reversible_adversarial_exampl.md)
+- [\[CVPR 2026\] PrivSynth: Alternating and Control-Based Optimization for Privacy and Utility in Synthetic Data](../../CVPR2026/ai_safety/privsynth_alternating_and_control-based_optimization_for_privacy_and_utility_in_.md)
 - [\[CVPR 2026\] Reinforcement-Guided Synthetic Data Generation for Privacy-Sensitive Identity Recognition](../../CVPR2026/ai_safety/reinforcement-guided_synthetic_data_generation_for_privacy-sensitive_identity_re.md)
 - [\[AAAI 2026\] FairGSE: Fairness-Aware Graph Neural Network without High False Positive Rates](fairgse_fairness-aware_graph_neural_network_without_high_false_positive_rates.md)
 

@@ -145,8 +145,8 @@ VCBench = 系统化的计数能力分类法 + 逐帧标注的视频数据集 + �
 - [\[CVPR 2025\] RSAR: Restricted State Angle Resolver and Rotated SAR Benchmark](rsar_restricted_state_angle_resolver_and_rotated_sar_benchmark.md)
 - [\[CVPR 2025\] Efficient Event-Based Object Detection: A Hybrid Neural Network with Spatial and Temporal Attention](efficient_event-based_object_detection_a_hybrid_neural_network_with_spatial_and_.md)
 - [\[AAAI 2026\] CountVid: Open-World Object Counting in Videos](../../AAAI2026/object_detection/open-world_object_counting_in_videos.md)
+- [\[CVPR 2025\] Show, Don't Tell: Detecting Novel Objects by Watching Human Videos](show_dont_tell_detecting_novel_objects_by_watching_human_videos.md)
 - [\[NeurIPS 2025\] Spatio-Temporal Graphs Beyond Grids: Benchmark for Maritime Anomaly Detection](../../NeurIPS2025/object_detection/spatio-temporal_graphs_beyond_grids_benchmark_for_maritime_anomaly_detection.md)
-- [\[CVPR 2026\] Boosting Quantitive and Spatial Awareness for Zero-Shot Object Counting](../../CVPR2026/object_detection/boosting_quantitive_and_spatial_awareness_for_zero-shot_object_counting.md)
 
 </div>
 

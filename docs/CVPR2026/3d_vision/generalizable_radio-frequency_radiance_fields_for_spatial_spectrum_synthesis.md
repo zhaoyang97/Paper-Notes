@@ -2,9 +2,10 @@
 title: >-
   [论文解读] Generalizable Radio-Frequency Radiance Fields for Spatial Spectrum Synthesis
 description: >-
-  [CVPR 2026][射频辐射场] GRaF 把 NeRF 思想搬到射频域，但用一条"目标发射机的空间谱可由邻近发射机的谱插值近似"的定理，把"逐场景重训"的 NeRF 改造成"跨场景泛化"的潜在射频辐射场——靠几何感知 Transformer 编码邻居谱、再用复数值神经光线追踪重建空间谱，在单场景和未见场景上都超过 NeRF2。
+  [CVPR 2026][3D视觉][射频辐射场] GRaF 把 NeRF 思想搬到射频域，但用一条"目标发射机的空间谱可由邻近发射机的谱插值近似"的定理，把"逐场景重训"的 NeRF 改造成"跨场景泛化"的潜在射频辐射场——靠几何感知 Transformer 编码邻居谱、再用复数值神经光线追踪重建空间谱，在单场景和未见场景上都超过 NeRF2。
 tags:
   - "CVPR 2026"
+  - "3D视觉"
   - "射频辐射场"
   - "空间谱合成"
   - "谱插值定理"
@@ -145,11 +146,11 @@ $$\Theta^*=\arg\min_\Theta\sum_{r=1}^{Q}\big\|\mathbf{SS}(r)-\hat{\mathbf{SS}}_\
 
 ## 相关论文
 
-- [\[ECCV 2024\] SpatialFormer: Towards Generalizable Vision Transformers with Explicit Spatial Understanding](../../ECCV2024/others/spatialformer_towards_generalizable_vision_transformers_with_explicit_spatial_un.md)
-- [\[CVPR 2026\] When Lines Meet Textures: Spatial-Frequency Aligned Diffusion Features for Cross-Sparsity Correspondence](when_lines_meet_textures_spatial-frequency_aligned_diffusion_features_for_cross-.md)
-- [\[ECCV 2024\] FisherRF: Active View Selection and Mapping with Radiance Fields Using Fisher Information](../../ECCV2024/others/fisherrf_active_view_selection_and_mapping_with_radiance_fields_using_fisher_inf.md)
-- [\[CVPR 2025\] Radio Frequency Ray Tracing with Neural Object Representation for Enhanced RF Modeling](../../CVPR2025/others/radio_frequency_ray_tracing_with_neural_object_representation_for_enhanced_rf_mo.md)
-- [\[CVPR 2026\] Hyperbolic Defect Feature Synthesis for Few-Shot Defect Classification](hyperbolic_defect_feature_synthesis_for_few-shot_defect_classification.md)
+- [\[CVPR 2026\] Evidential Neural Radiance Fields](evidential_neural_radiance_fields.md)
+- [\[CVPR 2026\] MU-GeNeRF: Multi-view Uncertainty-guided Generalizable Neural Radiance Fields for Distractor-aware Scene](mu-generf_multi-view_uncertainty-guided_generalizable_neural_radiance_fields_for.md)
+- [\[CVPR 2026\] Fresco: Frequency-Spatial Consistent Optimization for Fine-Grained Head Avatar Modeling](fresco_frequency-spatial_consistent_optimization_for_fine-grained_head_avatar_mo.md)
+- [\[CVPR 2026\] I-Scene: 3D Instance Models are Implicit Generalizable Spatial Learners](i-scene_3d_instance_models_are_implicit_generalizable_spatial_learners.md)
+- [\[ECCV 2024\] G2fR: Frequency Regularization in Grid-Based Feature Encoding Neural Radiance Fields](../../ECCV2024/3d_vision/g2fr_frequency_regularization_in_grid-based_feature_encoding_neural_radiance_fie.md)
 
 </div>
 

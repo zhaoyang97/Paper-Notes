@@ -104,6 +104,7 @@ Assigner 产出的 $\hat{L}$ 还停留在像素标签层面，跟 DiT 的 latent
 在以双人复杂交互为主的 Swing Dance 上，本文在全部指标上领先；在场景多样但动作简单的 Gen-dataset 上**不额外训练**也保持强势（仅 LPIPS/FID-VID 略逊，作者归因于对高多样性环境适应稍弱）；在交互更频繁、场景更难的 Unseen 视频上优势最明显——Extended 模型 FVD 从次优的 624.45 降到 358.74，证明从双人训练数据外推到复杂多人场景的泛化力。
 
 ### 消融实验
+
 | 配置 | 结论 | 说明 |
 |------|------|------|
 | Addition-driven（逐人特征求和） | 双人 OK、多人崩 | 充分训练后能处理双人，但扩不到更多人 |
@@ -156,8 +157,8 @@ Assigner 产出的 $\hat{L}$ 还停留在像素标签层面，跟 DiT 的 latent
 - [\[CVPR 2026\] One-to-All Animation: Alignment-Free Character Animation and Image Pose Transfer](one-to-all_animation_alignment-free_character_animation_and_image_pose_transfer.md)
 - [\[CVPR 2026\] PoseAnything: General Pose-guided Video Generation with Part-aware Temporal Coherence](poseanything_general_pose-guided_video_generation_with_part-aware_temporal_coher.md)
 - [\[CVPR 2026\] PersonaLive! Expressive Portrait Image Animation for Live Streaming](personalive_expressive_portrait_image_animation_for_live_streaming.md)
-- [\[CVPR 2026\] Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization](identity-preserving_image-to-video_generation_via_reward-guided_optimization.md)
 - [\[CVPR 2026\] Vanast: Virtual Try-On with Human Image Animation via Synthetic Triplet Supervision](vanast_virtual_try-on_with_human_image_animation_via_synthetic_triplet_supervisi.md)
+- [\[CVPR 2026\] ConsID-Gen: View-Consistent and Identity-Preserving Image-to-Video Generation](consid-gen_view-consistent_and_identity-preserving_image-to-video_generation.md)
 
 </div>
 

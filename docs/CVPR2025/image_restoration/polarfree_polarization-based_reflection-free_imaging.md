@@ -120,8 +120,8 @@ PolarFree 包含两步推理流程：(1) **先验生成步**：条件扩散模�
 - [\[CVPR 2026\] Polarization State Tracing for Reflection Removal and Color-Consistent Reconstruction](../../CVPR2026/image_restoration/polarization_state_tracing_for_reflection_removal_and_color-consistent_reconstru.md)
 - [\[CVPR 2025\] Reversible Decoupling Network for Single Image Reflection Removal](reversible_decoupling_network_for_single_image_reflection_removal.md)
 - [\[CVPR 2025\] A Physics-Informed Blur Learning Framework for Imaging Systems](a_physics-informed_blur_learning_framework_for_imaging_systems.md)
-- [\[CVPR 2025\] Proximal Algorithm Unrolling: Flexible and Efficient Reconstruction Networks for Single-Pixel Imaging](proximal_algorithm_unrolling_flexible_and_efficient_reconstruction_networks_for_.md)
 - [\[NeurIPS 2025\] RGB-to-Polarization Estimation: A New Task and Benchmark Study](../../NeurIPS2025/image_restoration/rgb-to-polarization_estimation_a_new_task_and_benchmark_study.md)
+- [\[CVPR 2025\] Proximal Algorithm Unrolling: Flexible and Efficient Reconstruction Networks for Single-Pixel Imaging](proximal_algorithm_unrolling_flexible_and_efficient_reconstruction_networks_for_.md)
 
 </div>
 

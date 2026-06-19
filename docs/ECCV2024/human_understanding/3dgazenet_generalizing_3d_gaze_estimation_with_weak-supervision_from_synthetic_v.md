@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2212.02997](https://arxiv.org/abs/2212.02997)  
 **代码**: [https://github.com/Vagver/3DGazeNet](https://github.com/Vagver/3DGazeNet)  
-**领域**: 人体理解
+**领域**: 人体理解  
 **关键词**: 视线估计, 3D眼球网格回归, 弱监督, 多视图一致性, 合成视图  
 
 ## 一句话总结

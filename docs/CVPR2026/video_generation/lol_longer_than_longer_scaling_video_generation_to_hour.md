@@ -102,6 +102,7 @@ LoL 本身**不引入任何训练或损失**，是纯推理期、免训练（tra
 加上 LoL 后 Self-Forcing++ 的运动度从 ~54 跃到 81、时间质量也升到 92.91，且文本对齐、帧级质量基本持平——印证 LoL 在解决塌缩的同时几乎不牺牲生成质量。
 
 ### 消融实验
+
 | 配置 | 结论 | 说明 |
 |------|------|------|
 | 只改 RIFLEx 选中的维度 / 任意单维 | 无效 | 证明塌缩非单一 RoPE 维度造成（§4.3.1） |
@@ -142,11 +143,11 @@ LoL 本身**不引入任何训练或损失**，是纯推理期、免训练（tra
 
 ## 相关论文
 
+- [\[CVPR 2026\] Scaling Zero-Shot Reference-to-Video Generation](scaling_zero-shot_reference-to-video_generation.md)
+- [\[CVPR 2026\] Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset](scaling_instruction-based_video_editing_with_a_high-quality_synthetic_dataset.md)
 - [\[CVPR 2026\] FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing](ffp-300k_scaling_first-frame_propagation_for_generalizable_video_editing.md)
 - [\[NeurIPS 2025\] Scaling RL to Long Videos](../../NeurIPS2025/video_generation/scaling_rl_to_long_videos.md)
 - [\[CVPR 2025\] Towards Precise Scaling Laws for Video Diffusion Transformers](../../CVPR2025/video_generation/towards_precise_scaling_laws_for_video_diffusion_transformers.md)
-- [\[CVPR 2026\] Dual-Granularity Memory for Efficient Video Generation](dual-granularity_memory_for_efficient_video_generation.md)
-- [\[CVPR 2026\] MultiShotMaster: A Controllable Multi-Shot Video Generation Framework](multishotmaster_a_controllable_multi-shot_video_generation_framework.md)
 
 </div>
 

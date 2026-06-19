@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.17657](https://arxiv.org/abs/2410.17657)  
 **代码**: [https://github.com/BlueZeros/ReflecTool](https://github.com/BlueZeros/ReflecTool)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 工具增强Agent, 临床智能体, 反思学习, 长期记忆, 医疗AI  
 
 ## 一句话总结

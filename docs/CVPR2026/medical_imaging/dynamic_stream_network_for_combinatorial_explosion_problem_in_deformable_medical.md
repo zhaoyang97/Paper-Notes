@@ -110,6 +110,7 @@ $$\mathcal{L}_{bireg} = \mathcal{L}_{reg}(x_b, x_{a2b}, \phi_{a2b}) + \mathcal{L
 DySNet-M 平均 Dice 82.0%，三任务全为最高/次高；相对各自基座 XMorpher、ModeT 均有提升，尤其在精细解剖结构（3D 脑组织）上 DySNet-X 涨 +6.6%。心脏 CT 上比 VoxelMorph 高 7 个百分点以上。负 Jacobian 方面 DySNet 保持在合理低位（2D 脑 0.79%），而 SACB/ViT-V-Net/TransMorph 高达 2.88% 且偶发配准失败，做到了「高精度 + 平滑形变」的平衡。
 
 ### 消融实验（DySNet-X，2D 脑 MRI）
+
 | 配置 | DSC% | $\|J_\phi\|$% | 说明 |
 |------|------|--------------|------|
 | Baseline (XMorpher) | 76.5 | 0.80 | 静态感受野 + 静态权重 |
@@ -157,7 +158,7 @@ DySNet-M 平均 Dice 82.0%，三任务全为最高/次高；相对各自基座 X
 
 ## 相关论文
 
-- [\[CVPR 2026\] MorphSeek: Fine-grained Latent Representation-Level Policy Optimization for Deformable Image Registration](morphseek_fine-grained_latent_representation-level_policy_optimization_for_defor.md)
+- [\[CVPR 2026\] Learning Diffeomorphism for Medical Image Registration with Time-Embedded Architectures Using Semigroup Regularization](learning_diffeomorphism_for_medical_image_registration_with_time-embedded_archit.md)
 - [\[CVPR 2026\] PMRNet: Physics-informed Multi-scale Refinement Network for Medical Image Segmentation](pmrnet_physics-informed_multi-scale_refinement_network_for_medical_image_segment.md)
 - [\[CVPR 2026\] Virtual Nodes Guided Dynamic Graph Neural Network for Brain Tumor Segmentation with Missing Modalities](virtual_nodes_guided_dynamic_graph_neural_network_for_brain_tumor_segmentation_w.md)
 - [\[NeurIPS 2025\] PolyPose: Deformable 2D/3D Registration via Polyrigid Transformations](../../NeurIPS2025/medical_imaging/polypose_deformable_2d3d_registration_via_polyrigid_transformations.md)

@@ -86,6 +86,7 @@ flowchart TD
 | Numerical Color (RGB/hex) | BLIP3o | 43.20 | OmniGen2 26.38 | 最难任务，多数模型 <15% |
 
 ### 细分分析：色系粒度 + 语义类别 + 修饰词
+
 | 维度 | 现象 | 数据/解释 |
 |------|------|------|
 | L1 → L3 粒度 | 所有模型一致掉点 | 如 OmniGen2 在 CNA 从 L1 57.31 → L3 14.22；细粒度修饰色远难于基础色 |
@@ -137,7 +138,7 @@ flowchart TD
 - [\[CVPR 2026\] MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](multibanana_a_challenging_benchmark_for_multi_reference_text_to_image_generation.md)
 - [\[NeurIPS 2025\] OVERT: A Benchmark for Over-Refusal Evaluation on Text-to-Image Models](../../NeurIPS2025/image_generation/overt_a_benchmark_for_over-refusal_evaluation_on_text-to-image_models.md)
 - [\[AAAI 2026\] T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model](../../AAAI2026/image_generation/t2i-riskyprompt_a_benchmark_for_safety_evaluation_attack_and_defense_on_text-to-.md)
-- [\[CVPR 2026\] PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation](posteriq_a_design_perspective_benchmark_for_poster_understanding_and_generation.md)
+- [\[CVPR 2026\] PosterReward: Unlocking Accurate Evaluation for High-Quality Graphic Design Generation](posterreward_unlocking_accurate_evaluation_for_high-quality_graphic_design_gener.md)
 
 </div>
 

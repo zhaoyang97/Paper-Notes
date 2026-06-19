@@ -97,6 +97,7 @@ $$Y_{o,v,u}=\sigma\!\left(\sum_{c=0}^{C-1}\sum_{\Delta v,\Delta u}W_{o,c,\Delta 
 | 3D-CNN | 97.5 | 73.9 | 92.7 | 65.3 | 86.0 | 个别地形略高，但多数更差且推理慢 |
 
 ### 消融实验（感知网络 / 分辨率，Tab.3）
+
 | 配置 | Forest | Pile | Upstair | 关键发现 |
 |------|--------|------|---------|---------|
 | Gallant（5cm, z-2D CNN） | **84.3** | **82.1** | **96.2** | 精度与延迟最佳折中 |
@@ -105,6 +106,7 @@ $$Y_{o,v,u}=\sigma\!\left(\sum_{c=0}^{C-1}\sum_{\Delta v,\Delta u}W_{o,c,\Delta 
 | 2.5cm 分辨率 | 59.0 | 54.1 | 86.3 | 精度高但 FoV 缩小，长垂直结构（Ceiling）难感知 |
 
 ### 真机实验（sim vs real，Fig.7）
+
 | 地形 | 仿真成功率 % | 真机成功率 % |
 |------|-------------|-------------|
 | Ceiling | 97.1 | 100.0 |
@@ -157,7 +159,7 @@ $$Y_{o,v,u}=\sigma\!\left(\sum_{c=0}^{C-1}\sum_{\Delta v,\Delta u}W_{o,c,\Delta 
 - [\[AAAI 2026\] Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy](../../AAAI2026/robotics/coordinated_humanoid_robot_locomotion_with_symmetry_equivariant_reinforcement_le.md)
 - [\[NeurIPS 2025\] Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning](../../NeurIPS2025/robotics/adversarial_locomotion_and_motion_imitation_for_humanoid_policy_learning.md)
 - [\[CVPR 2026\] Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots](towards_motion_turing_test_evaluating_human-likeness_in_humanoid_robots.md)
-- [\[CVPR 2026\] D3D-VLP: Dynamic 3D Vision-Language-Planning Model for Embodied Grounding and Navigation](d3d-vlp_dynamic_3d_vision-language-planning_model_for_embodied_grounding_and_nav.md)
+- [\[CVPR 2026\] VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation](viral_visual_sim-to-real_at_scale_for_humanoid_loco-manipulation.md)
 
 </div>
 

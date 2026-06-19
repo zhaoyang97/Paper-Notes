@@ -79,6 +79,7 @@ Whisper 不训练目标 LRM。优化目标是开发集上的二目标选择：�
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | 方法 | Overall Acc. | Overall Ratio | 代表性变化 |
 |------|------|------|------|------|
 | DeepSeek-R1-Distill-LLaMA-8B | Original | 78.5 | 100% | 原始长推理 |
@@ -89,6 +90,7 @@ Whisper 不训练目标 LRM。优化目标是开发集上的二目标选择：�
 | Qwen3-14B | Whisper | 89.6 | 63.0% | token 下降约 37%，准确率还更高 |
 
 ### 消融实验
+
 | Qwen3-14B 数据集 | Original Acc. / Tok. | Whisper Acc. / Tok. | Ratio |
 |------|------|------|------|
 | GSM8K | 95.9 / 1568 | 96.1 / 440 | 28.1% |

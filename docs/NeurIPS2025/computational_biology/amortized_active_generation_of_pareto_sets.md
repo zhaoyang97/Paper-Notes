@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21052](https://arxiv.org/abs/2510.21052)  
 **代码**: 无  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 多目标优化, Pareto set, 生成模型, 主动学习, preference conditioning
 
 ## 一句话总结

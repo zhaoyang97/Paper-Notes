@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Fuel Gauge: Estimating Chain-of-Thought Length Ahead of Time in Large Multimodal Models
 description: >-
-  [CVPR 2026][多模态VLM][CoT长度预测] 作者发现推理型多模态大模型内部存在一个随 CoT 推理逐步耗尽的"燃料"信号，用一个仅 8.2 万参数的小网络把它抽出来、再线性外推到"燃料归零"那一步，就能在推理还没结束（甚至刚开始）时提前预测整段 CoT 的长度，并用它做预测式 KV cache 分配（分配次数最多降 13×）和 CoT 长度调控（线性控制准确率）。
+  [CVPR 2026][VLM Reasoning][CoT长度预测] 作者发现推理型多模态大模型内部存在一个随 CoT 推理逐步耗尽的"燃料"信号，用一个仅 8.2 万参数的小网络把它抽出来、再线性外推到"燃料归零"那一步，就能在推理还没结束（甚至刚开始）时提前预测整段 CoT 的长度，并用它做预测式 KV cache 分配（分配次数最多降 13×）和 CoT 长度调控（线性控制准确率）。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "CoT长度预测"
   - "大多模态模型"
   - "推理效率"
@@ -166,11 +166,11 @@ EoC Prob 几乎恒为 0.4999——因为终止 token 概率绝大多数步都接
 
 ## 相关论文
 
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
 - [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
 - [\[CVPR 2026\] Chain-of-Thought Guided Multi-Modal Object Re-Identification](chain-of-thought_guided_multi-modal_object_re-identification.md)
-- [\[CVPR 2026\] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought](when_visualizing_is_the_first_step_to_reasoning_mira_a_benchmark_for_visual_chai.md)
 - [\[CVPR 2026\] ReaGEN: Adaptive Generation of Structured Chains-of-Thought for Efficient Multimodal Reasoning](reagen_adaptive_generation_of_structured_chains-of-thought_for_efficient_multimo.md)
-- [\[CVPR 2026\] EmoThinker: Advancing Visual-Acoustic Emotion Analysis via Structural Token Selection and Chain-of-Thought Reasoning](emothinker_advancing_visual-acoustic_emotion_analysis_via_structural_token_selec.md)
 
 </div>
 

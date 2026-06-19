@@ -1,30 +1,42 @@
 ---
 title: >-
-  ICML2026 3D视觉论文汇总 · 24篇论文解读
+  ICML2026 3D视觉论文汇总 · 30篇论文解读
 description: >-
-  24篇ICML2026的 3D 视觉方向论文解读，涵盖图像恢复、布局/合成、三维重建、点云等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  30篇ICML2026的 3D 视觉方向论文解读，涵盖点云、三维重建、语义分割、图像恢复、少样本学习、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2026"
   - "3D 视觉"
   - "论文解读"
   - "论文笔记"
-  - "图像恢复"
-  - "布局/合成"
-  - "三维重建"
   - "点云"
+  - "三维重建"
+  - "语义分割"
+  - "图像恢复"
+  - "少样本学习"
+  - "布局/合成"
 item_list:
+  - u: "4dpc2hat_towards_dynamic_point_cloud_understanding_with_failure-aware_bootstrapp/"
+    t: "4DPC$^2$hat: Towards Dynamic Point Cloud Understanding with Failure-Aware Bootstrapping"
+  - u: "adaptive_volumetric_mechanical_property_fields_invariant_to_resolution/"
+    t: "Adaptive Volumetric Mechanical Property Fields Invariant to Resolution"
   - u: "avatar_learning_to_align_via_active_optimal_transport/"
     t: "AvAtar: Learning to Align via Active Optimal Transport"
   - u: "convex_distance_operator_transport_a_convex_and_geometry-preserving_formulation/"
     t: "Convex Distance Operator Transport: A Convex and Geometry-Preserving Formulation"
   - u: "distilling_neuro-symbolic_programs_into_3d_multi-modal_llms/"
     t: "APEIRIA: Distilling Neuro-Symbolic Programs into 3D Multi-modal LLMs"
+  - u: "dynatok_token-based_4d_reconstruction_from_partial_point_clouds/"
+    t: "DynaTok: Token-Based 4D Reconstruction from Partial Point Clouds"
+  - u: "eps3d_end-to-end_feed-forward_3d_panoptic_segmentation/"
+    t: "EPS3D: End-to-End Feed-Forward 3D Panoptic Segmentation"
   - u: "fast-sam3d_3dfy_anything_in_images_but_faster/"
     t: "Fast-SAM3D: 3Dfy Anything in Images but Faster"
   - u: "foundobj_self-supervised_foundation_models_as_rewards_for_label-free_3d_object_s/"
     t: "FoundObj: Self-supervised Foundation Models as Rewards for Label-free 3D Object Segmentation"
   - u: "fs-i2pa_hierarchical_focus-sweep_registration_network_with_dynamically_allocated/"
     t: "FSI2P: A Hierarchical Focus–Sweep Registration Network with Dynamically Allocated Depth"
+  - u: "future_dynamic_3d_reconstruction_a_3d_world_model_with_disentangled_ego-motion/"
+    t: "Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion"
   - u: "geodesic_flow_matching_for_denoising_high-dimensional_structured_representations/"
     t: "Geodesic Flow Matching for Denoising High-Dimensional Structured Representations"
   - u: "geometry-guided_modeling_of_foundation_features_enables_generalizable_object_sha/"
@@ -61,17 +73,27 @@ item_list:
     t: "TideGS: Scalable Training of Over One Billion 3D Gaussian Splatting Primitives via Out-of-Core Optimization"
   - u: "trust_it_or_not_evidential_uncertainty_for_feed-forward_3d_reconstruction_with_t/"
     t: "Trust3R: Evidential Uncertainty for Feed-Forward 3D Reconstruction"
-item_total: 24
+  - u: "zero-shot_3d_question_answering_via_hierarchical_view-to-token_transportation/"
+    t: "Zero-Shot 3D Question Answering via Hierarchical View-to-Token Transportation"
+item_total: 30
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**🧪 ICML2026** · **24** 篇论文解读
+**🧪 ICML2026** · **30** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (626)](../../CVPR2026/3d_vision/index.md) · [🔬 ICLR2026 (62)](../../ICLR2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [📹 ICCV2025 (267)](../../ICCV2025/3d_vision/index.md) · [🧪 ICML2025 (17)](../../ICML2025/3d_vision/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (751)](../../CVPR2026/3d_vision/index.md) · [🔬 ICLR2026 (71)](../../ICLR2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [📹 ICCV2025 (267)](../../ICCV2025/3d_vision/index.md) · [🧪 ICML2025 (17)](../../ICML2025/3d_vision/index.md)
 
-🔥 **高频主题：** 图像恢复 ×2 · 布局/合成 ×2 · 三维重建 ×2 · 点云 ×2
+🔥 **高频主题：** 点云 ×4 · 三维重建 ×3 · 语义分割 ×2 · 图像恢复 ×2 · 少样本学习 ×2
+
+**[4DPC$^2$hat: Towards Dynamic Point Cloud Understanding with Failure-Aware Bootstrapping](4dpc2hat_towards_dynamic_point_cloud_understanding_with_failure-aware_bootstrapp.md)**
+
+:   4DPC$^2$hat 是第一个面向"动态点云序列"（4D 点云）理解的多模态大模型：作者先用拓扑一致的构建流水线把 4.4 万个动画资产做成 20 万条跨模态 QA 数据集，再用"保留群组 token + 全局 token + 双向 Mamba"的时空架构避免把一帧压成单一向量，最后用"失败感知自举"反复挖出模型答错的题、合成针对性 QA 补训，使动作理解与时序推理大幅超越把视频逐帧喂给静态 3D 模型的做法。
+
+**[Adaptive Volumetric Mechanical Property Fields Invariant to Resolution](adaptive_volumetric_mechanical_property_fields_invariant_to_resolution.md)**
+
+:   AdaVoMP 用一种"稀疏自适应体素树 (SAV)"同时表示输入形状和输出材料场，再用稀疏 Transformer 编码器–解码器自回归地为每个 3D 物体逐层生成杨氏模量/泊松比/密度，把可仿真材料场的有效分辨率从 $64^3$ 拉到 $1024^3$（高 $16^3$ 倍），且在更低测试算力下就超过此前 SOTA。
 
 **[AvAtar: Learning to Align via Active Optimal Transport](avatar_learning_to_align_via_active_optimal_transport.md)**
 
@@ -85,6 +107,14 @@ item_total: 24
 
 :   本文提出 APEIRIA，把神经符号 3D 概念学习器的程序执行轨迹蒸馏成 3D MLLM 的自然语言 chain-of-thought，再通过 GRPO 强化学习把这种推理模式推广到开放词汇与深层嵌套指令，在 ScanRefer、Multi3DRefer、SQA3D、Scan2Cap 上同时超越传统 NS3D 方法和当前最强的 3D MLLM，并保留了符号系统的可解释性与模块可替换性。
 
+**[DynaTok: Token-Based 4D Reconstruction from Partial Point Clouds](dynatok_token-based_4d_reconstruction_from_partial_point_clouds.md)**
+
+:   DynaTok 把每帧不完整、无序、无对应关系的部分点云编码成一组紧凑潜在 token，用时空 Transformer 跨帧聚合互补观测，再用「参考帧几何 + 残差运动」的统一潜空间解耦形变，最后接一个 flow-matching 解码器重建出时序一致的完整 4D 点云序列。
+
+**[EPS3D: End-to-End Feed-Forward 3D Panoptic Segmentation](eps3d_end-to-end_feed-forward_3d_panoptic_segmentation.md)**
+
+:   EPS3D 是首个端到端前馈的开放词表 3D 全景分割框架：从无位姿多视图图像一次前向直接预测带语义/实例属性的统一 3D 全景高斯，靠 2D 基础模型蒸馏监督摆脱 3D 标注，并用语义-实例互增强模块让两路预测相互校正，在 Replica 上语义 mIoU 比 SOTA 高约 13%、每个场景仅需 1 秒。
+
 **[Fast-SAM3D: 3Dfy Anything in Images but Faster](fast-sam3d_3dfy_anything_in_images_but_faster.md)**
 
 :   针对 SAM3D 单视图 3D 重建模型推理太慢的问题，本文做了第一份模块级时延剖析，发现性能瓶颈来自三种异质性（形状/布局动力学差异、纹理稀疏性、几何谱差异），并据此提出训练无关的 Fast-SAM3D 框架，用模态感知步缓存、时空 Token 雕刻与谱感知 Token 聚合三件套，在几乎不损质量的前提下把对象级速度推到 2.67×，重建 F-Score 反而从 92.34 微升到 92.59。
@@ -96,6 +126,10 @@ item_total: 24
 **[FSI2P: A Hierarchical Focus–Sweep Registration Network with Dynamically Allocated Depth](fs-i2pa_hierarchical_focus-sweep_registration_network_with_dynamically_allocated.md)**
 
 :   本文把人类“先扫一眼再逐块细看”的观察过程抽象为 Focus-Sweep 两阶段范式，用 Mamba 替换 Transformer 做图像-点云交互，并用强化学习动态决定每个尺度上的交互层数，在 RGB-D Scenes V2 和 7-Scenes 上拿到 I2P 配准的 SOTA。
+
+**[Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion](future_dynamic_3d_reconstruction_a_3d_world_model_with_disentangled_ego-motion.md)**
+
+:   这篇论文提出 FR3D——第一个为"未来动态 3D 重建"做的世界模型，它在预训练 3D 重建模型（CUT3R）的潜空间里**把相机自我运动和场景自身运动解耦**，用两个掩码 Transformer 分别外推位姿和几何，并靠教师-学生蒸馏拿到几乎免训练成本的零样本泛化，单目输入也能预测 2 秒后的 3D 场景。
 
 **[Geodesic Flow Matching for Denoising High-Dimensional Structured Representations](geodesic_flow_matching_for_denoising_high-dimensional_structured_representations.md)**
 
@@ -168,3 +202,7 @@ item_total: 24
 **[Trust3R: Evidential Uncertainty for Feed-Forward 3D Reconstruction](trust_it_or_not_evidential_uncertainty_for_feed-forward_3d_reconstruction_with_t.md)**
 
 :   Trust3R 为 MASt3R 等 feed-forward 3D 重建模型引入概率化证据学习框架，用 Normal-Inverse-Wishart 先验为每个 3D 点预测闭形式多元 Student-t 分布，取代启发式置信度，单遍前向推理就能输出概率可解释的逐点不确定性，并在 ScanNet++ 上 AURC 降低 25%、AUSE 降低 41%。
+
+**[Zero-Shot 3D Question Answering via Hierarchical View-to-Token Transportation](zero-shot_3d_question_answering_via_hierarchical_view-to-token_transportation.md)**
+
+:   KeyVT 把"从 3D 点云采样的多视图喂给 2D VLM 做 3D 问答"这件事拆成"先选关键视图、再选关键 token"两级层级流程——视图级用相机几何参数把场景切成空间连续的子场景并按相关性分配预算，token 级用最优传输（OT）压掉跨视图冗余，使免训练方法在 ScanQA/SQA3D/VSI-Bench 上逼近甚至超过需要训练的模型。

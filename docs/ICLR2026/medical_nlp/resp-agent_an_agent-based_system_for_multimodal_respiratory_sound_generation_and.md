@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Resp-Agent: An Agent-Based System for Multimodal Respiratory Sound Generation and Disease Diagnosis
 description: >-
-  [ICLR2026][医疗NLP][呼吸音分析] 提出 Resp-Agent 闭环多智能体框架，通过主动对抗课程规划器（Thinker-A2CA）协调可控呼吸音生成器与多模态诊断器，在 229k 规模基准上实现生成↔诊断协同设计，大幅提升长尾类别诊断性能。 1. 单模态表示瓶颈：现有方法将呼吸音转为梅尔频谱图后用 CNN 处…
+  [ICLR2026][医疗 LLM][呼吸音分析] 提出 Resp-Agent 闭环多智能体框架，通过主动对抗课程规划器（Thinker-A2CA）协调可控呼吸音生成器与多模态诊断器，在 229k 规模基准上实现生成↔诊断协同设计，大幅提升长尾类别诊断性能。 1. 单模态表示瓶颈：现有方法将呼吸音转为梅尔频谱图后用 CNN…
 tags:
   - "ICLR2026"
-  - "医疗NLP"
+  - "医疗 LLM"
   - "呼吸音分析"
   - "多模态融合"
   - "可控音频生成"
@@ -148,8 +148,8 @@ Thinker-A2CA 在全部指标上最优，将 Macro-F1 从基线 0.212 提升至 0
 
 ## 相关论文
 
-- [\[ACL 2026\] MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation](../../ACL2026/medical_nlp/march_multi-agent_radiology_clinical_hierarchy_for_ct_report_generation.md)
 - [\[ICLR 2026\] EMR-AGENT: Automating Cohort and Feature Extraction from EMR Databases](emr-agent_automating_cohort_and_feature_extraction_from_emr_databases.md)
+- [\[ACL 2026\] MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation](../../ACL2026/medical_nlp/march_multi-agent_radiology_clinical_hierarchy_for_ct_report_generation.md)
 - [\[ACL 2026\] SEMA-RAG: A Self-Evolving Multi-Agent Retrieval-Augmented Generation Framework for Medical Reasoning](../../ACL2026/medical_nlp/sema-rag_a_self-evolving_multi-agent_retrieval-augmented_generation_framework_fo.md)
 - [\[ACL 2025\] LLMs Can Simulate Standardized Patients via Agent Coevolution](../../ACL2025/medical_nlp/evopatient_standardized_patient.md)
 - [\[ICML 2025\] Agent WARPP: Workflow Adherence via Runtime Parallel Personalization](../../ICML2025/medical_nlp/agent_warpp_workflow_adherence_via_runtime_parallel_personalization.md)

@@ -90,6 +90,7 @@ $$L_{\text{reg}}(t)=\begin{cases}\|\bar x_{t+\Delta t,\theta}-\bar x_{t+\Delta t
 要点：DreamSim 多样性提升 +13.9%~+18.8%，FID 同步下降（坍缩更轻），BeyondFID 大幅跳升（SD3.5/PickScore 上 +184%）；与此同时 PickScore 等质量分不降反略升——多样性的提升不是靠牺牲质量换来的。
 
 ### 消融实验
+
 | 配置 | 质量-多样性表现 | 说明 |
 |------|----------------|------|
 | Flow-GRPO（baseline） | 多样性快速坍缩 | 单样本奖励 + 均匀/无 KL |
@@ -130,10 +131,10 @@ $$L_{\text{reg}}(t)=\begin{cases}\|\bar x_{t+\Delta t,\theta}-\bar x_{t+\Delta t
 ## 相关论文
 
 - [\[CVPR 2026\] GRPO-Guard: Mitigating Implicit Over-Optimization in Flow Matching via Regulated Clipping](grpo-guard_mitigating_implicit_over-optimization_in_flow_matching_via_regulated_.md)
+- [\[CVPR 2026\] Expand and Prune: Maximizing Trajectory Diversity for Effective GRPO in Generative Models](expand_and_prune_maximizing_trajectory_diversity_for_effective_grpo_in_generativ.md)
 - [\[CVPR 2026\] Taming Preference Mode Collapse via Directional Decoupling Alignment in Diffusion Reinforcement Learning](taming_preference_mode_collapse_via_directional_decoupling_alignment_in_diffusio.md)
 - [\[CVPR 2026\] Style-GRPO: Semantic-Aware Preference Optimization for Image Style Transfer Guided by Reward Modeling](style-grpo_semantic-aware_preference_optimization_for_image_style_transfer_guide.md)
 - [\[ICML 2026\] Escaping Mode Collapse in LLM Generation via Geometric Regulation](../../ICML2026/image_generation/escaping_mode_collapse_in_llm_generation_via_geometric_regulation.md)
-- [\[CVPR 2026\] Fine-Grained GRPO for Precise Preference Alignment in Flow Models](fine-grained_grpo_for_precise_preference_alignment_in_flow_models.md)
 
 </div>
 

@@ -101,11 +101,11 @@ DeYO 也使用负增强，但仅用于估计预测置信度来指导样本选择
 
 ## 相关论文
 
-- [\[CVPR 2026\] Ramen: Robust Test-Time Adaptation of Vision-Language Models with Active Sample Selection](../../CVPR2026/multimodal_vlm/ramen_robust_test-time_adaptation_of_vision-language_models_with_active_sample_s.md)
 - [\[NeurIPS 2025\] Mint: A Simple Test-Time Adaptation of Vision-Language Models against Common Corruptions](../../NeurIPS2025/multimodal_vlm/mint_a_simple_testtime_adaptation_of_visionlanguage_models_a.md)
-- [\[CVPR 2026\] Test-Time Distillation for Continual Model Adaptation](../../CVPR2026/multimodal_vlm/test-time_distillation_for_continual_model_adaptation.md)
+- [\[CVPR 2026\] Condensed Test-Time Adaptation of VLMs for Action Recognition](../../CVPR2026/multimodal_vlm/condensed_test-time_adaptation_of_vlms_for_action_recognition.md)
 - [\[AAAI 2026\] Bridging Modalities via Progressive Re-alignment for Multimodal Test-Time Adaptation (BriMPR)](bridging_modalities_via_progressive_re-alignment_for_multimo.md)
 - [\[CVPR 2026\] Dynamic Logits Adjustment and Exploration for Test-Time Adaptation in Vision Language Models](../../CVPR2026/multimodal_vlm/dynamic_logits_adjustment_and_exploration_for_test-time_adaptation_in_vision_lan.md)
+- [\[CVPR 2026\] Decoupling Stability and Plasticity for Multi-Modal Test-Time Adaptation](../../CVPR2026/multimodal_vlm/decoupling_stability_and_plasticity_for_multi-modal_test-time_adaptation.md)
 
 </div>
 

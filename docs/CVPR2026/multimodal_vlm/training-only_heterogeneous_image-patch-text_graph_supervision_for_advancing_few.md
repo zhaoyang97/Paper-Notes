@@ -103,6 +103,7 @@ $$\mathcal L_{Total}=\underbrace{\mathcal L_{CE}(L_{train},y)}_{\text{联合集�
 OOD 鲁棒性（ImageNet 及 4 个分布偏移变体）：TOGA 平均 63.1，比零样本 CLIP 的 59.1 高 +4.0，且超过 CoOp/CoCoOp/MaPLe/KgCoOp 等强 prompt 基线——说明少样本适配没有过拟合 support 集、也没侵蚀 CLIP 的鲁棒性（因为 backbone 冻结、测试时保留零样本先验）。
 
 ### 消融实验
+
 | 配置(以EuroSAT为例) | 1-shot | 16-shot | 说明 |
 |------|------|------|------|
 | Full（T+M+F+P, Focal） | 67.4 | 89.4 | 完整模型 |
@@ -149,8 +150,8 @@ OOD 鲁棒性（ImageNet 及 4 个分布偏移变体）：TOGA 平均 63.1，比
 
 ## 相关论文
 
-- [\[CVPR 2026\] Text-Only Training for Image Captioning with Retrieval Augmentation and Modality Gap Correction](text-only_training_for_image_captioning_with_retrieval_augmentation_and_modality.md)
 - [\[CVPR 2026\] TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment](tipsv2_patch_text_alignment.md)
+- [\[CVPR 2026\] Learning complete and explainable visual representations from itemized text supervision](learning_complete_and_explainable_visual_representations_from_itemized_text_supe.md)
 - [\[CVPR 2026\] Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs](pointing_at_parts_training-free_few-shot_grounding_in_multimodal_llms.md)
 - [\[AAAI 2026\] Few-Shot Precise Event Spotting via Unified Multi-Entity Graph and Distillation](../../AAAI2026/multimodal_vlm/few-shot_precise_event_spotting_via_unified_multi-entity_graph_and_distillation.md)
 - [\[NeurIPS 2025\] VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning](../../NeurIPS2025/multimodal_vlm/vt-fsl_bridging_vision_and_text_with_llms_for_few-shot_learning.md)

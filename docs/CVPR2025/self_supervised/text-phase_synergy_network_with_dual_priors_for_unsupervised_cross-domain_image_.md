@@ -123,8 +123,8 @@ TPSNet 包含两个关键组件: 域提示生成模块 (DPG) 和 文本-相位�
 
 ## 相关论文
 
-- [\[CVPR 2025\] Escaping Plato's Cave: Towards the Alignment of 3D and Text Latent Spaces](escaping_platos_cave_towards_the_alignment_of_3d_and_text_latent_spaces.md)
 - [\[CVPR 2025\] CheXWorld: Image World Modeling for Radiograph Representation Learning](chexworld_exploring_image_world_modeling_for_radiograph_representation_learning.md)
+- [\[CVPR 2025\] Escaping Plato's Cave: Towards the Alignment of 3D and Text Latent Spaces](escaping_platos_cave_towards_the_alignment_of_3d_and_text_latent_spaces.md)
 - [\[CVPR 2025\] AutoSSVH: Automated Frame Sampling for Self-Supervised Video Hashing](autossvh_exploring_automated_frame_sampling_for_efficient_self-supervised_video_.md)
 - [\[CVPR 2025\] MaRI: Material Retrieval Integration across Domains](mari_material_retrieval_integration_across_domains.md)
 - [\[CVPR 2025\] OCRT: Boosting Foundation Models in the Open World with Object-Concept-Relation Triad](ocrt_boosting_foundation_models_in_the_open_world_with_object-concept-relation_t.md)

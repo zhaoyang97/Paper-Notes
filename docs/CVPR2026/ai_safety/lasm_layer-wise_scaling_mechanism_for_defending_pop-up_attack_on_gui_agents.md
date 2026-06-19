@@ -89,6 +89,7 @@ LaSM 不涉及任何训练或微调，只在推理时把选中层的投影矩阵
 LaSM 作为即插即用插件可叠加在 DPO、直接告警（DA）、思维链告警（CA）等基线之上：在 Qwen2-VL-7B 上与 CoT 告警组合后平均 DSR 达 99.3%（论文摘要）；在 2400 张覆盖 12 种弹窗样式的扰动截图上，每种变体的 DSR 都保持在 95% 以上。多步 AndroidControl 完整任务流上，TSR（任务成功率）从 18.75% 提升到 30.36%，动作类型与定位精度几乎不变；在真实 GUI 任务衍生的完整-episode 基准上，弹窗攻击下任务成功率相对提升 61.92%。
 
 ### 消融实验
+
 | 配置 | 关键结论 |
 |------|---------|
 | 仅缩放注意力 | 鲁棒性下降——单组件不足 |
@@ -133,9 +134,9 @@ LaSM 作为即插即用插件可叠加在 DPO、直接告警（DA）、思维链
 
 - [\[CVPR 2026\] Scaling Up AI-Generated Image Detection with Generator-Aware Prototypes](scaling_up_ai-generated_image_detection_with_generator-aware_prototypes.md)
 - [\[ICML 2026\] Scaling Unsupervised Multi-Source Federated Domain Adaptation through Group-Wise Discrepancy Minimization](../../ICML2026/ai_safety/scaling_unsupervised_multi-source_federated_domain_adaptation_through_group-wise.md)
-- [\[CVPR 2026\] DualMirage: Hunting Stealthy Multimodal LLM Agents via CAPTCHAs with Contour and Adversarial Illusions](dualmirage_hunting_stealthy_multimodal_llm_agents_via_captchas_with_contour_and_.md)
 - [\[CVPR 2026\] AntiStyler: Defending Object Detection Models Against Adversarial Patch Attacks Using Style Removal](antistyler_defending_object_detection_models_against_adversarial_patch_attacks_u.md)
 - [\[CVPR 2026\] Eliminate Distance Differences Induced by Backdoor Attacks: Layer-Selective Training and Clipping to Mask Backdoor Models](eliminate_distance_differences_induced_by_backdoor_attacks_layer-selective_train.md)
+- [\[CVPR 2026\] SafeRoPE: Risk-specific Head-wise Embedding Rotation for Safe Generation in Rectified Flow Transformers](saferope_risk-specific_head-wise_embedding_rotation_for_safe_generation_in_recti.md)
 
 </div>
 

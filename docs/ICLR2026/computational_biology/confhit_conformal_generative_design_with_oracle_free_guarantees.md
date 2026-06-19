@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.07371](https://arxiv.org/abs/2603.07371)  
 **代码**: 无  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: conformal prediction, generative design, drug discovery, density ratio, statistical guarantee
 
 ## 一句话总结

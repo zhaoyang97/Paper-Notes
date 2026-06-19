@@ -90,6 +90,7 @@ Stage I 使用 ODE trajectory regression，目标形如 $\|G_\theta(z_t,\tilde{x
 | AAD-1 Stage-III | 1 | 94.34 | 95.08 | 41.46 | 71.49 | 98.65 | 97.83 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | w/o DMD warmup | Aesthetic 53.63, Imaging 62.81 | 初始一步生成分布太远，GAN refinement 不稳定 |

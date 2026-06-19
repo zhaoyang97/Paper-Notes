@@ -36,6 +36,7 @@ HairGuard 借用图像抠图（matting）数据集来构造软边界（如发丝
 **核心 idea**：用抠图数据集合成「带软边界精细深度真值」的训练对，训练一个能自动定位并精修软边界深度的修复网络，再配合专门处理软边界的画师和融合器，把深度的修复红利一路传导到立体转换和新视角合成。
 
 ## 方法详解
+
 ### 整体框架
 HairGuard 把图像抠图的合成公式 $I = \alpha\cdot I_{FG} + (1-\alpha)\cdot I_{BG}$ 当作软边界的统一定义：软边界即 $\alpha\in(0,1)$ 的混合区。整个系统是一条「深度先修好，再做视图合成」的串行流水线，由三个「队友」协作：
 
@@ -166,10 +167,10 @@ $$\mathcal{L}_{color} = \mathcal{L}_1(\hat{I}, I_{GT}) + \lambda\cdot\mathcal{L}
 ## 相关论文
 
 - [\[CVPR 2026\] PRIMU: Uncertainty Estimation for Novel Views in Gaussian Splatting from Primitive-Based Representations of Error and Coverage](primu_uncertainty_estimation_for_novel_views_in_gaussian_splatting_from_primitiv.md)
+- [\[CVPR 2026\] InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields](infinidepth_arbitrary-resolution_and_fine-grained_depth_estimation_with_neural_i.md)
 - [\[ECCV 2024\] Flying with Photons: Rendering Novel Views of Propagating Light](../../ECCV2024/3d_vision/flying_with_photons_rendering_novel_views_of_propagating_light.md)
 - [\[CVPR 2026\] CGHair: Compact Gaussian Hair Reconstruction with Card Clustering](cghair_compact_gaussian_hair_reconstruction_with_card_clustering.md)
 - [\[CVPR 2026\] Depth Hypothesis Guided Iterative Refinement for Event-Image Monocular Depth Estimation](depth_hypothesis_guided_iterative_refinement_for_event-image_monocular_depth_est.md)
-- [\[CVPR 2026\] SPE-MVS: Spatial Position Encoding Enhanced Multi-View Stereo with Monocular Depth Priors](spe-mvs_spatial_position_encoding_enhanced_multi-view_stereo_with_monocular_dept.md)
 
 </div>
 

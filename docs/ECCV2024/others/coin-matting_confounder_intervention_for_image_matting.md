@@ -131,7 +131,7 @@ COIN-Matting 是一个模型无关的框架，可以"套在"任意现有抠图�
 
 ## 相关论文
 
-- [\[CVPR 2026\] $\alpha$Matte4K & $\mu$Matting: Dataset and Model for Ultra-Micro Precision Alpha Video Matting](../../CVPR2026/others/alphamatte4k_mumatting_dataset_and_model_for_ultra-micro_precision_alpha_video_m.md)
+- [\[CVPR 2026\] VideoMaMa: Mask-Guided Video Matting via Generative Prior](../../CVPR2026/others/videomama_mask-guided_video_matting_via_generative_prior.md)
 - [\[CVPR 2026\] Prototype-based Causal Intervention for Multi-Label Image Classification](../../CVPR2026/others/prototype-based_causal_intervention_for_multi-label_image_classification.md)
 - [\[ECCV 2024\] Active Generation for Image Classification](active_generation_for_image_classification.md)
 - [\[AAAI 2026\] Measuring Model Performance in the Presence of an Intervention](../../AAAI2026/others/measuring_model_performance_in_the_presence_of_an_intervention.md)

@@ -97,6 +97,7 @@ $$\mathcal{L}_{\text{Lyapunov}}=\mathbb{E}_{h,\delta}\Big[\max\Big(0,\tfrac{\par
 平均比普通探针高 6.2%、比概率类基线高 18.5%；在需要事实准确性的任务上稳定取得 4–8% 提升（TriviaQA 上 Llama-3-8B +7.1%）。
 
 ### MLLM 实验（AUPRC↑）
+
 | 模型 | 方法 | POPE | TextVQA | VizWiz | MME |
 |------|------|------|---------|--------|-----|
 | LLaVA-1.5 | Probe | 98.08 | 85.89 | 77.02 | 93.61 |
@@ -107,6 +108,7 @@ $$\mathcal{L}_{\text{Lyapunov}}=\mathbb{E}_{h,\delta}\Big[\max\Big(0,\tfrac{\par
 平均比基础探针高 2.1%；POPE 已近饱和（仅 +0.8%），但在 VizWiz 这类真实低质量图像上增益最大（平均 +3.6%，LLaVA 在 VizWiz 上 +6.2%）。
 
 ### 消融实验（TriviaQA，AUPRC↑）
+
 | 配置 | Llama-2-7B | Llama-3-8B | Qwen-3-4B | Falcon-7B |
 |------|-----------|-----------|-----------|-----------|
 | w/o 扰动数据 | 82.41 | 82.35 | 79.92 | 65.65 |
@@ -157,7 +159,7 @@ $$\mathcal{L}_{\text{Lyapunov}}=\mathbb{E}_{h,\delta}\Big[\max\Big(0,\tfrac{\par
 - [\[CVPR 2026\] HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in Large Vision-Language Models](hulluedit_single-pass_evidence-consistent_subspace_editing_for_mitigating_halluc.md)
 - [\[CVPR 2026\] TriDF: Evaluating Perception, Detection, and Hallucination for Interpretable DeepFake Detection](tridf_evaluating_perception_detection_and_hallucination_for_interpretable_deepfa.md)
 - [\[CVPR 2026\] Prefill-Time Intervention for Mitigating Hallucination in Large Vision-Language Models](prefill-time_intervention_for_mitigating_hallucination_in_large_vision-language_.md)
-- [\[ACL 2026\] HalluAudio: A Comprehensive Benchmark for Hallucination Detection in Large Audio-Language Models](../../ACL2026/hallucination/halluaudio_a_comprehensive_benchmark_for_hallucination_detection_in_large_audio-.md)
+- [\[CVPR 2026\] SVHalluc: Benchmarking Speech-Vision Hallucination in Audio-Visual Large Language Models](svhalluc_benchmarking_speech-vision_hallucination_in_audio-visual_large_language.md)
 
 </div>
 

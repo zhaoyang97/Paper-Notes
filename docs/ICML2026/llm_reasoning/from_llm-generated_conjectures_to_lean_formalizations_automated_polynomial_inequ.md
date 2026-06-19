@@ -103,6 +103,7 @@ SFT 阶段是标准 next-token。GRPO 阶段奖励为 $R = R_{\text{Accuracy}} +
 关键趋势：纯符号方法（Maple/Z3）在 $n=3$ 时几乎满分，但 $n=10$ 掉到 0–1.7%；纯 LLM 证明器（DS/Goedel/Kimina）在 $n \ge 5$ 基本归零；通用大模型 Gemini-3-Pro 在中高维反而更稳，说明启发式确实有用。NSPI 作为神经符号方法，最大卖点是把可证范围推到 10 变量级别（论文宣称在所有维度上同时取得最佳/次佳）。
 
 ### 消融实验
+
 | 配置 | 影响范围 | 说明 |
 |------|---------|------|
 | 仅 SFT（无 GRPO 课程） | 高维 (n≥6) 严重退化 | 冷启动只会复读训练分布，无法泛化到难样本 |
@@ -143,10 +144,10 @@ SFT 阶段是标准 next-token。GRPO 阶段奖励为 $R = R_{\text{Accuracy}} +
 ## 相关论文
 
 - [\[ACL 2025\] Local Look-Ahead Guidance via Verifier-in-the-Loop for Automated Theorem Proving](../../ACL2025/llm_reasoning/local_look-ahead_guidance_via_verifier-in-the-loop_for_automated_theorem_proving.md)
+- [\[ICLR 2026\] EvolProver: Advancing Automated Theorem Proving by Evolving Formalized Problems via Symmetry and Difficulty](../../ICLR2026/llm_reasoning/evolprover_advancing_automated_theorem_proving_by_evolving_formalized_problems_v.md)
 - [\[ICML 2026\] ResRL: Boosting LLM Reasoning via Negative Sample Projection Residual Reinforcement Learning](resrl_boosting_llm_reasoning_via_negative_sample_projection_residual_reinforceme.md)
+- [\[ICML 2026\] Calibration of Structured Ignorance Certificates for Diagnosing Unknown Unknowns in Reasoning Models](calibration_of_structured_ignorance_certificates_for_diagnosing_unknown_unknowns.md)
 - [\[ICML 2026\] TRACE: 用 Toulmin 论证模型评 LLM CoT 推理过程质量](trace_toulmin-based_reasoning_assessment_through_constructive_elements_for_llm_c.md)
-- [\[ICML 2026\] Beyond Two-Stage Training: Cooperative SFT and RL for LLM Reasoning](beyond_two-stage_training_cooperative_sft_and_rl_for_llm_reasoning.md)
-- [\[ICML 2026\] R2-Router: A New Paradigm for LLM Routing with Reasoning](r2-router_a_new_paradigm_for_llm_routing_with_reasoning.md)
 
 </div>
 

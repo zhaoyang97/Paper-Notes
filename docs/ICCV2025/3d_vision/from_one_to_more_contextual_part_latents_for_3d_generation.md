@@ -131,11 +131,11 @@ CoPart在部件感知指标上大幅领先，整体质量与SOTA可比。
 
 ## 相关论文
 
-- [\[CVPR 2025\] Structured 3D Latents for Scalable and Versatile 3D Generation](../../CVPR2025/3d_vision/structured_3d_latents_for_scalable_and_versatile_3d_generation.md)
+- [\[CVPR 2026\] UniPart: Part-Level 3D Generation with Unified 3D Geom-Seg Latents](../../CVPR2026/3d_vision/unipart_part-level_3d_generation_with_unified_3d_geom-seg_latents.md)
 - [\[ICCV 2025\] Learning 3D Scene Analogies with Neural Contextual Scene Maps](learning_3d_scene_analogies_with_neural_contextual_scene_maps.md)
-- [\[ICCV 2025\] Find Any Part in 3D](find_any_part_in_3d.md)
 - [\[ICCV 2025\] BokehDiff: Neural Lens Blur with One-Step Diffusion](bokehdiff_neural_lens_blur_with_one-step_diffusion.md)
-- [\[ICCV 2025\] AR-1-to-3: Single Image to Consistent 3D Object Generation via Next-View Prediction](ar1to3_single_image_to_consistent_3d_object_via_nextview_pre.md)
+- [\[ICCV 2025\] Find Any Part in 3D](find_any_part_in_3d.md)
+- [\[CVPR 2025\] Structured 3D Latents for Scalable and Versatile 3D Generation](../../CVPR2025/3d_vision/structured_3d_latents_for_scalable_and_versatile_3d_generation.md)
 
 </div>
 

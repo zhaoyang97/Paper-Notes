@@ -81,6 +81,7 @@ Pixel-based 分割器的合成损失为带置信度门控的 OT soft-label 交�
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | 本文 | 之前 / 真实数据基线 | 提升 |
 |--------|------|------|----------|------|
 | Cityscapes, DPT DINOv2-S | mIoU s.s. | 80.65 | 78.11 real only | +2.54 |
@@ -91,6 +92,7 @@ Pixel-based 分割器的合成损失为带置信度门控的 OT soft-label 交�
 | ADE20K Swin-L fair comparison | mIoU | 58.27 | JoDiffusion 57.46 / SDS 57.23 | +0.81 / +1.04 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Dense vs Sparse composition, Flux | Cityscapes 66.56 vs 61.81 mIoU | 平均实例数从 11.48 到 22.21，密集场景显著更有利 |
@@ -139,8 +141,8 @@ Pixel-based 分割器的合成损失为带置信度门控的 OT soft-label 交�
 - [\[ICCV 2025\] LEGION: Learning to Ground and Explain for Synthetic Image Detection](../../ICCV2025/segmentation/legion_learning_to_ground_and_explain_for_synthetic_image_detection.md)
 - [\[CVPR 2026\] Synthetic Object Compositions for Scalable and Accurate Learning in Detection, Segmentation, and Grounding](../../CVPR2026/segmentation/synthetic_object_compositions_for_scalable_and_accurate_learning_in_detection_se.md)
 - [\[CVPR 2026\] A Mixed Diet Makes DINO An Omnivorous Vision Encoder](../../CVPR2026/segmentation/a_mixed_diet_makes_dino_an_omnivorous_vision_encoder.md)
+- [\[ICML 2026\] Towards Effective Waste Segmentation for Automated Waste Recycling in Cluttered Background](towards_effective_waste_segmentation_for_automated_waste_recycling_in_cluttered_.md)
 - [\[ICCV 2025\] Learn2Synth: Learning Optimal Data Synthesis Using Hypergradients for Brain Image Segmentation](../../ICCV2025/segmentation/learn2synth_learning_optimal_data_synthesis_using_hypergradients_for_brain_image.md)
-- [\[CVPR 2026\] MatchMask: Mask-Centric Generative Data Augmentation for Label-Scarce Semantic Segmentation](../../CVPR2026/segmentation/matchmask_mask-centric_generative_data_augmentation_for_label-scarce_semantic_se.md)
 
 </div>
 

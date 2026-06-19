@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model
 description: >-
-  [CVPR 2026][多模态VLM][视觉token剪枝] TransPrune 提出用「token 在模型内部传播时表示发生的变化」（token transition）来判断视觉 token 是否重要，组合两个互补信号——只看 token 自身幅度/方向变化的 TTV 和看指令对图像注意力的 IGA——做免训练的渐进式剪枝，在 LLaVA-1.5/Next、Qwen2.5-VL 上把推理 TFLOPs 砍掉一半还几乎不掉点。
+  [CVPR 2026][VLM Efficiency][视觉token剪枝] TransPrune 提出用「token 在模型内部传播时表示发生的变化」（token transition）来判断视觉 token 是否重要，组合两个互补信号——只看 token 自身幅度/方向变化的 TTV 和看指令对图像注意力的 IGA——做免训练的渐进式剪枝，在 LLaVA-1.5/Next、Qwen2.5-VL 上把推理 TFLOPs 砍掉一半还几乎不掉点。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "视觉token剪枝"
   - "大视觉语言模型"
   - "token transition"
@@ -113,6 +113,7 @@ TransPrune-High 用 ~41% 的算力把综合准确率拉回到与原模型几乎�
 | **TransPrune** | **111.4** | **14.82** | **1540** |
 
 ### 消融实验
+
 | 配置 | MME_P | SQA_I | GQA | MMBench | 说明 |
 |------|-------|-------|-----|---------|------|
 | Only IGA | 1514 | 69.0 | 61.1 | 65.6 | 仅指令注意力 |
@@ -160,10 +161,10 @@ TransPrune-High 用 ~41% 的算力把综合准确率拉回到与原模型几乎�
 ## 相关论文
 
 - [\[CVPR 2026\] VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm](vlm-pruner_buffering_for_spatial_sparsity_in_an_efficient_vlm_centrifugal_token_.md)
-- [\[ACL 2026\] HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models](../../ACL2026/multimodal_vlm/hiprune_hierarchical_attention_for_efficient_token_pruning_in_vision-language_mo.md)
-- [\[ICML 2026\] CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models](../../ICML2026/multimodal_vlm/clip_tricks_you_training-free_token_pruning_for_efficient_pixel_grounding_in_lar.md)
-- [\[CVPR 2026\] DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning](docpruneefficient_document_question_answering_via_background_question_and_compre.md)
-- [\[CVPR 2026\] HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models](hawk_head_importance-aware_visual_token_pruning_in_multimodal_models.md)
+- [\[CVPR 2026\] Rethinking Token Reduction for Large Vision-Language Models](rethinking_token_reduction_for_large_vision-language_models.md)
+- [\[CVPR 2026\] TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding](timeviper_a_hybrid_mamba-transformer_vision-language_model_for_efficient_long_vi.md)
+- [\[CVPR 2026\] IF-Prune: Information-Flow Guided Token Pruning for Efficient Vision-Language Models](if-prune_information-flow_guided_token_pruning_for_efficient_vision-language_mod.md)
+- [\[CVPR 2026\] Attention-aware Inference Optimizations for Large Vision-Language Models with Memory-efficient Decoding](attention-aware_inference_optimizations_for_large_vision-language_models_with_me.md)
 
 </div>
 

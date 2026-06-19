@@ -116,8 +116,8 @@ AGSM的核心区别在于它是第一个在表示空间的输出层面利用双�
 - [\[AAAI 2026\] MPD-SGR: Robust Spiking Neural Networks with Membrane Potential Distribution-Driven Surrogate Gradient Regularization](mpd-sgr_robust_spiking_neural_networks_with_membrane_potential_distribution-driv.md)
 - [\[AAAI 2026\] Robust Watermarking on Gradient Boosting Decision Trees](robust_watermarking_on_gradient_boosting_decision_trees.md)
 - [\[ICML 2026\] Exposing Vulnerabilities in Explanation for Time Series Classifiers via Dual-Target Adversarial Attack](../../ICML2026/ai_safety/exposing_vulnerabilities_in_explanation_for_time_series_classifiers_via_dual-tar.md)
-- [\[CVPR 2026\] POUR: A Provably Optimal Method for Unlearning Representation via Neural Collapse](../../CVPR2026/ai_safety/pour_a_provably_optimal_method_for_unlearning_representation_via_neural_collapse.md)
 - [\[CVPR 2026\] POUR: A Provably Optimal Method for Unlearning Representations via Neural Collapse](../../CVPR2026/ai_safety/pour_a_provably_optimal_method_for_unlearning_representations_via_neural_collaps.md)
+- [\[CVPR 2026\] Roots Beneath the Cut: Uncovering the Risk of Concept Revival in Pruning-Based Unlearning for Diffusion Models](../../CVPR2026/ai_safety/roots_beneath_the_cut_uncovering_the_risk_of_concept_revival_in_pruning-based_un.md)
 
 </div>
 

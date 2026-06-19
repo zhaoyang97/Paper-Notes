@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.00771](https://arxiv.org/abs/2506.00771)  
 **代码**: [GitHub](https://github.com/MuZhao2333/MolFLAE)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 分子生成, VAE, E(3)等变性, 潜在空间操作, 贝叶斯流网络
 
 ## 一句话总结
@@ -139,7 +139,7 @@ MolFLAE在原子稳定性、分子稳定性和有效性上均达到竞争力最�
 - [\[ICML 2025\] Scalable Non-Equivariant 3D Molecule Generation via Rotational Alignment](../../ICML2025/computational_biology/scalable_non-equivariant_3d_molecule_generation_via_rotational_alignment.md)
 - [\[NeurIPS 2025\] Pharmacophore-Guided Generative Design of Novel Drug-Like Molecules](pharmacophore-guided_generative_design_of_novel_drug-like_molecules.md)
 - [\[NeurIPS 2025\] Multimodal 3D Genome Pre-training](multimodal_3d_genome_pre-training.md)
-- [\[NeurIPS 2025\] BarcodeMamba+: Advancing State-Space Models for Fungal Biodiversity Research](barcodemamba_advancing_state-space_models_for_fungal_biodiversity_research.md)
+- [\[NeurIPS 2025\] Mol-LLaMA: Towards General Understanding of Molecules in Large Molecular Language Models](mol-llama_towards_general_understanding_of_molecules_in_large_molecular_language.md)
 
 </div>
 

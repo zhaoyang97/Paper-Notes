@@ -102,6 +102,7 @@ flowchart TD
 NSFW 内容复活上（I2P / MMA / Ring-A-Bell 三个 prompt 集，用裸露检测器计数）：SD-v1.5 原始触发 461/785/101，ConceptPrune 遗忘后降到 74/57/22，本文攻击又把检测数拉回 **118/172/57**，显著复活了被擦除的不安全概念。
 
 ### 消融实验
+
 | 配置 | 关键效果 | 说明 |
 |------|---------|------|
 | 仅精确幅值 + 随机符号 | 概念几乎不复活 | 证明幅值不是关键 |
@@ -147,7 +148,7 @@ NSFW 内容复活上（I2P / MMA / Ring-A-Bell 三个 prompt 集，用裸露检�
 - [\[CVPR 2026\] Towards Human-Imperceptible Backdoor Attacks on Text-to-Image Diffusion Models](towards_human-imperceptible_backdoor_attacks_on_text-to-image_diffusion_models.md)
 - [\[CVPR 2026\] Red-teaming Retrieval-Augmented Diffusion Models via Poisoning Knowledge Bases](red-teaming_retrieval-augmented_diffusion_models_via_poisoning_knowledge_bases.md)
 - [\[CVPR 2026\] PureProof: Diffusion-Resistant Black-box Targeted Attack on Large Vision-Language Models](pureproof_diffusion-resistant_black-box_targeted_attack_on_large_vision-language.md)
-- [\[CVPR 2026\] Selective Amnesia using Contrastive Subnet Erasure for Class Level Unlearning in Vision Models](selective_amnesia_using_contrastive_subnet_erasure_for_class_level_unlearning_in.md)
+- [\[CVPR 2026\] RaPA: Enhancing Transferable Targeted Attacks via Random Parameter Pruning](rapa_enhancing_transferable_targeted_attacks_via_random_parameter_pruning.md)
 
 </div>
 

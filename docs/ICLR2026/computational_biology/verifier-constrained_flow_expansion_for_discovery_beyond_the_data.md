@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.15984](https://arxiv.org/abs/2602.15984)  
 **代码**: 无  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Flow Expansion, 验证器约束, 熵最大化, Mirror Descent, 分子设计
 
 ## 一句话总结
@@ -123,9 +123,9 @@ NSE是FE去掉投影步后剩下的扩展机制，却单独解决了一个老痛
 ## 相关论文
 
 - [\[ICML 2026\] Constrained Flow Optimization via Sequential Fine-Tuning for Molecular Design](../../ICML2026/computational_biology/constrained_flow_optimization_via_sequential_fine_tuning_for_molecular_design.md)
-- [\[NeurIPS 2025\] Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning](../../NeurIPS2025/computational_biology/flow_density_control_generative_optimization_beyond_entropy-regularized_fine-tun.md)
 - [\[NeurIPS 2025\] Constrained Discrete Diffusion](../../NeurIPS2025/computational_biology/constrained_discrete_diffusion.md)
 - [\[AAAI 2026\] Constrained Best Arm Identification with Tests for Feasibility](../../AAAI2026/computational_biology/constrained_best_arm_identification_with_tests_for_feasibility.md)
+- [\[NeurIPS 2025\] Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning](../../NeurIPS2025/computational_biology/flow_density_control_generative_optimization_beyond_entropy-regularized_fine-tun.md)
 - [\[ICLR 2026\] Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials](zatom-1_a_multimodal_flow_foundation_model_for_3d_molecules_and_materials.md)
 
 </div>

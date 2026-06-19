@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2604.20256](https://arxiv.org/abs/2604.20256)  
 **代码**: [https://github.com/Wei-0808/RADS](https://github.com/Wei-0808/RADS)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 强化学习, 样本选择, 迁移学习, 类别不平衡, 临床NLP
 
 ## 一句话总结

@@ -121,9 +121,9 @@ tags:
 
 - [\[NeurIPS 2025\] Foundation Cures Personalization: Improving Personalized Models' Prompt Consistency via Hidden Foundation Knowledge](../../NeurIPS2025/human_understanding/foundation_cures_personalization_improving_personalized_models_prompt_consistenc.md)
 - [\[CVPR 2026\] 4DSurf: High-Fidelity Dynamic Scene Surface Reconstruction](../../CVPR2026/human_understanding/textit4dsurf_high-fidelity_dynamic_scene_surface_reconstruction.md)
-- [\[CVPR 2026\] ActAvatar: Temporally-Aware Precise Action Control for Talking Avatars](../../CVPR2026/human_understanding/actavatar_temporally-aware_precise_action_control_for_talking_avatars.md)
-- [\[NeurIPS 2025\] K-DeCore: Facilitating Knowledge Transfer in Continual Structured Knowledge Reasoning](../../NeurIPS2025/human_understanding/k-decore_facilitating_knowledge_transfer_in_continual_structured_knowledge_reaso.md)
 - [\[CVPR 2025\] PoseBH: Prototypical Multi-Dataset Training Beyond Human Pose Estimation](../../CVPR2025/human_understanding/posebh_prototypical_multi-dataset_training_beyond_human_pose_estimation.md)
+- [\[CVPR 2026\] ActAvatar: Temporally-Aware Precise Action Control for Talking Avatars](../../CVPR2026/human_understanding/actavatar_temporally-aware_precise_action_control_for_talking_avatars.md)
+- [\[CVPR 2026\] Unifying Precise Keyframes and Semantic Control via Multi-level Diffusion](../../CVPR2026/human_understanding/unifying_precise_keyframes_and_semantic_control_via_multi-level_diffusion.md)
 
 </div>
 

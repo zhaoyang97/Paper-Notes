@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.08316](https://arxiv.org/abs/2506.08316)  
 **代码**: [GitHub](https://github.com/AlanNawzadAmin/SCUD)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 离散扩散模型, 掩码扩散, 跳转调度, SCUD, 蛋白质生成
 
 ## 一句话总结

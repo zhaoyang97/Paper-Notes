@@ -70,6 +70,7 @@ Van Gogh 风格擦除在 SD 2.1 上展示了 closed-form divergence 的主效果
 | Hellinger variational | 0.645 | 0.5 | 0.702 | 0.88 | 0.051 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 梯度幅度：H-DMU | 梯度始终小于 MSE 和 $\chi^2$ | 大误差样本被指数衰减，fine-tuning 过程更平滑 |
@@ -118,7 +119,7 @@ Van Gogh 风格擦除在 SD 2.1 上展示了 closed-form divergence 的主效果
 - [\[ICCV 2025\] Holistic Unlearning Benchmark: A Multi-Faceted Evaluation for Text-to-Image Diffusion Model Unlearning](../../ICCV2025/image_generation/holistic_unlearning_benchmark_a_multi-faceted_evaluation_for_text-to-image_diffu.md)
 - [\[CVPR 2026\] UniPercept: A Unified Diffusion Model for Generalizable Visual Perception](../../CVPR2026/image_generation/unipercept_a_unified_diffusion_model_for_generalizable_visual_perception.md)
 - [\[ICML 2026\] Quantifying Error Propagation and Model Collapse in Diffusion Models](quantifying_error_propagation_and_model_collapse_in_diffusion_models.md)
-- [\[ICCV 2025\] Meta-Unlearning on Diffusion Models: Preventing Relearning Unlearned Concepts](../../ICCV2025/image_generation/meta-unlearning_on_diffusion_models_preventing_relearning_unlearned_concepts.md)
+- [\[CVPR 2025\] SVFR: A Unified Framework for Generalized Video Face Restoration](../../CVPR2025/image_generation/svfr_a_unified_framework_for_generalized_video_face_restoration.md)
 
 </div>
 

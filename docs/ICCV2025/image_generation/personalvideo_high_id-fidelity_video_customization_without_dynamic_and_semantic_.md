@@ -156,11 +156,11 @@ PersonalVideo 在身份相似度上大幅领先（62.35 vs 53.22），动态度�
 
 ## 相关论文
 
-- [\[ICCV 2025\] Structure-Guided Diffusion Models for High-Fidelity Portrait Shadow Removal](structure-guided_diffusion_models_for_high-fidelity_portrait_shadow_removal.md)
 - [\[CVPR 2026\] High-Fidelity Diffusion Face Swapping with ID-Constrained Facial Conditioning](../../CVPR2026/image_generation/high-fidelity_diffusion_face_swapping_with_id-constrained_facial_conditioning.md)
-- [\[ICCV 2025\] Video Motion Graphs](video_motion_graphs.md)
+- [\[ICCV 2025\] Structure-Guided Diffusion Models for High-Fidelity Portrait Shadow Removal](structure-guided_diffusion_models_for_high-fidelity_portrait_shadow_removal.md)
+- [\[ICCV 2025\] FreeCus: Free Lunch Subject-driven Customization in Diffusion Transformers](freecus_free_lunch_subject-driven_customization_in_diffusion_transformers.md)
+- [\[ICCV 2025\] Generating Multi-Image Synthetic Data for Text-to-Image Customization](generating_multi-image_synthetic_data_for_text-to-image_customization.md)
 - [\[NeurIPS 2025\] From Cradle to Cane: A Two-Pass Framework for High-Fidelity Lifespan Face Aging](../../NeurIPS2025/image_generation/from_cradle_to_cane_a_two-pass_framework_for_high-fidelity_lifespan_face_aging.md)
-- [\[CVPR 2025\] UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion](../../CVPR2025/image_generation/ultrafusion_ultra_high_dynamic_imaging_using_exposure_fusion.md)
 
 </div>
 

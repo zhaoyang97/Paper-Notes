@@ -1,6 +1,6 @@
 ---
-title: "19000+篇AI顶会论文解读 · 每篇5分钟读懂核心思想"
-description: "19000+篇 AI、LLM、NLP、CV 顶会论文解读，每篇5分钟读懂核心思想。覆盖 ACL、CVPR、ICLR、AAAI、NeurIPS、ICCV、ICML、ECCV 等11大会议54个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。"
+title: "20000+篇AI顶会论文解读 · 每篇5分钟读懂核心思想"
+description: "20000+篇 AI、LLM、NLP、CV 顶会论文解读，每篇5分钟读懂核心思想。覆盖 ACL、CVPR、ICLR、AAAI、NeurIPS、ICCV、ICML、ECCV 等11大会议55个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。"
 tags:
   - "AI论文解读"
   - "顶会论文"
@@ -26,9 +26,9 @@ hide:
 <p class="hero-subtitle">AI · LLM · NLP · CV 顶会论文解读，每篇 5 分钟读懂核心思想。<br>覆盖 ACL · CVPR · ICLR · AAAI · NeurIPS · ICCV · ICML · ECCV 等会议<br>持续更新中</p>
 
 <div class="hero-stats">
-<div class="stat"><span class="stat-number">19176</span><span class="stat-label">篇笔记</span></div>
+<div class="stat"><span class="stat-number">20120</span><span class="stat-label">篇笔记</span></div>
 <div class="stat"><span class="stat-number">11</span><span class="stat-label">个会议</span></div>
-<div class="stat"><span class="stat-number">54</span><span class="stat-label">个领域</span></div>
+<div class="stat"><span class="stat-number">55</span><span class="stat-label">个领域</span></div>
 </div>
 
 </div>
@@ -41,87 +41,88 @@ hide:
 
 ### 📷 [CVPR2026](CVPR2026/index.md)
 
-<div class="conf-count">3995 篇 · 45 个领域</div>
+<div class="conf-count">4062 篇 · 46 个领域</div>
 
 <div class="area-groups">
 <div class="area-group">
 <div class="area-group-label">LLM</div>
 <div class="area-tags">
-<a class="area-tag" href="CVPR2026/llm_reasoning/">LLM Reasoning 20</a>
-<a class="area-tag" href="CVPR2026/llm_agent/">LLM Agent 41</a>
-<a class="area-tag" href="CVPR2026/multi_agent/">Multi-Agent 9</a>
-<a class="area-tag" href="CVPR2026/llm_alignment/">对齐 / RLHF 9</a>
-<a class="area-tag" href="CVPR2026/llm_safety/">LLM 安全 25</a>
-<a class="area-tag" href="CVPR2026/hallucination/">幻觉检测 38</a>
-<a class="area-tag" href="CVPR2026/llm_efficiency/">LLM 效率 6</a>
-<a class="area-tag" href="CVPR2026/llm_pretraining/">预训练 4</a>
-<a class="area-tag" href="CVPR2026/knowledge_editing/">知识编辑 3</a>
-<a class="area-tag" href="CVPR2026/llm_nlp/">LLM 其他 4</a>
+<a class="area-tag" href="CVPR2026/llm_reasoning/">LLM Reasoning 16</a>
+<a class="area-tag" href="CVPR2026/llm_agent/">LLM Agent 42</a>
+<a class="area-tag" href="CVPR2026/multi_agent/">Multi-Agent 2</a>
+<a class="area-tag" href="CVPR2026/llm_alignment/">对齐 / RLHF 12</a>
+<a class="area-tag" href="CVPR2026/llm_safety/">LLM 安全 12</a>
+<a class="area-tag" href="CVPR2026/hallucination/">幻觉检测 33</a>
+<a class="area-tag" href="CVPR2026/llm_efficiency/">LLM 效率 8</a>
+<a class="area-tag" href="CVPR2026/llm_pretraining/">预训练 5</a>
+<a class="area-tag" href="CVPR2026/knowledge_editing/">知识编辑 2</a>
+<a class="area-tag" href="CVPR2026/llm_nlp/">LLM 其他 3</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">生成与多模态</div>
 <div class="area-tags">
-<a class="area-tag" href="CVPR2026/image_generation/">图像生成 451</a>
-<a class="area-tag" href="CVPR2026/video_generation/">视频生成 180</a>
-<a class="area-tag" href="CVPR2026/multimodal_vlm/">多模态 VLM 404</a>
-<a class="area-tag" href="CVPR2026/vlm_reasoning/">VLM Reasoning 121</a>
-<a class="area-tag" href="CVPR2026/vlm_efficiency/">VLM Efficiency 31</a>
-<a class="area-tag" href="CVPR2026/audio_speech/">音频/语音 32</a>
-<a class="area-tag" href="CVPR2026/aigc_detection/">AIGC 检测 8</a>
+<a class="area-tag" href="CVPR2026/image_generation/">图像生成 490</a>
+<a class="area-tag" href="CVPR2026/video_generation/">视频生成 182</a>
+<a class="area-tag" href="CVPR2026/multimodal_vlm/">多模态 VLM 418</a>
+<a class="area-tag" href="CVPR2026/vlm_reasoning/">VLM Reasoning 150</a>
+<a class="area-tag" href="CVPR2026/vlm_efficiency/">VLM Efficiency 63</a>
+<a class="area-tag" href="CVPR2026/audio_speech/">音频/语音 22</a>
+<a class="area-tag" href="CVPR2026/aigc_detection/">AIGC 检测 10</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">视觉感知</div>
 <div class="area-tags">
-<a class="area-tag" href="CVPR2026/3d_vision/">3D 视觉 626</a>
-<a class="area-tag" href="CVPR2026/object_detection/">目标检测 118</a>
-<a class="area-tag" href="CVPR2026/segmentation/">语义分割 162</a>
-<a class="area-tag" href="CVPR2026/image_restoration/">图像恢复 132</a>
-<a class="area-tag" href="CVPR2026/remote_sensing/">遥感 67</a>
-<a class="area-tag" href="CVPR2026/anomaly_detection/">异常检测 2</a>
-<a class="area-tag" href="CVPR2026/human_understanding/">人体理解 175</a>
-<a class="area-tag" href="CVPR2026/video_understanding/">视频理解 179</a>
+<a class="area-tag" href="CVPR2026/3d_vision/">3D 视觉 751</a>
+<a class="area-tag" href="CVPR2026/object_detection/">目标检测 99</a>
+<a class="area-tag" href="CVPR2026/segmentation/">语义分割 122</a>
+<a class="area-tag" href="CVPR2026/image_restoration/">图像恢复 135</a>
+<a class="area-tag" href="CVPR2026/remote_sensing/">遥感 63</a>
+<a class="area-tag" href="CVPR2026/anomaly_detection/">异常检测 7</a>
+<a class="area-tag" href="CVPR2026/human_understanding/">人体理解 151</a>
+<a class="area-tag" href="CVPR2026/video_understanding/">视频理解 187</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">决策与具身</div>
 <div class="area-tags">
-<a class="area-tag" href="CVPR2026/autonomous_driving/">自动驾驶 160</a>
-<a class="area-tag" href="CVPR2026/robotics/">机器人/具身智能 149</a>
-<a class="area-tag" href="CVPR2026/reinforcement_learning/">强化学习 30</a>
+<a class="area-tag" href="CVPR2026/autonomous_driving/">自动驾驶 157</a>
+<a class="area-tag" href="CVPR2026/robotics/">机器人/具身智能 146</a>
+<a class="area-tag" href="CVPR2026/reinforcement_learning/">强化学习 25</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">基础与理论</div>
 <div class="area-tags">
-<a class="area-tag" href="CVPR2026/self_supervised/">自监督/表示学习 83</a>
-<a class="area-tag" href="CVPR2026/optimization/">优化/理论 39</a>
-<a class="area-tag" href="CVPR2026/causal_inference/">因果推理 5</a>
-<a class="area-tag" href="CVPR2026/interpretability/">可解释性 42</a>
-<a class="area-tag" href="CVPR2026/model_compression/">模型压缩 138</a>
-<a class="area-tag" href="CVPR2026/graph_learning/">图学习 10</a>
-<a class="area-tag" href="CVPR2026/federated_learning/">联邦学习 4</a>
+<a class="area-tag" href="CVPR2026/self_supervised/">自监督/表示学习 91</a>
+<a class="area-tag" href="CVPR2026/optimization/">优化/理论 22</a>
+<a class="area-tag" href="CVPR2026/causal_inference/">因果推理 4</a>
+<a class="area-tag" href="CVPR2026/interpretability/">可解释性 34</a>
+<a class="area-tag" href="CVPR2026/model_compression/">模型压缩 108</a>
+<a class="area-tag" href="CVPR2026/graph_learning/">图学习 8</a>
+<a class="area-tag" href="CVPR2026/federated_learning/">联邦学习 19</a>
 <a class="area-tag" href="CVPR2026/time_series/">时间序列 7</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">科学与跨学科</div>
 <div class="area-tags">
-<a class="area-tag" href="CVPR2026/medical_imaging/">医学图像 176</a>
+<a class="area-tag" href="CVPR2026/medical_imaging/">医学图像 172</a>
 <a class="area-tag" href="CVPR2026/medical_nlp/">医疗 LLM 1</a>
 <a class="area-tag" href="CVPR2026/computational_biology/">计算生物 21</a>
-<a class="area-tag" href="CVPR2026/physics/">物理/科学计算 8</a>
-<a class="area-tag" href="CVPR2026/earth_science/">地球科学 3</a>
-<a class="area-tag" href="CVPR2026/signal_comm/">信号/通信 5</a>
-<a class="area-tag" href="CVPR2026/social_computing/">社会计算 4</a>
-<a class="area-tag" href="CVPR2026/ai_safety/">AI 安全 148</a>
+<a class="area-tag" href="CVPR2026/physics/">物理/科学计算 2</a>
+<a class="area-tag" href="CVPR2026/scientific_computing/">科学计算 3</a>
+<a class="area-tag" href="CVPR2026/earth_science/">地球科学 2</a>
+<a class="area-tag" href="CVPR2026/signal_comm/">信号/通信 2</a>
+<a class="area-tag" href="CVPR2026/social_computing/">社会计算 3</a>
+<a class="area-tag" href="CVPR2026/ai_safety/">AI 安全 145</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">其他</div>
 <div class="area-tags">
-<a class="area-tag" href="CVPR2026/others/">其他 115</a>
+<a class="area-tag" href="CVPR2026/others/">其他 105</a>
 </div>
 </div>
 </div>
@@ -132,23 +133,22 @@ hide:
 
 ### 🧪 [ICML2026](ICML2026/index.md)
 
-<div class="conf-count">1463 篇 · 52 个领域</div>
+<div class="conf-count">1843 篇 · 51 个领域</div>
 
 <div class="area-groups">
 <div class="area-group">
 <div class="area-group-label">LLM</div>
 <div class="area-tags">
-<a class="area-tag" href="ICML2026/llm_reasoning/">LLM Reasoning 63</a>
-<a class="area-tag" href="ICML2026/llm_agent/">LLM Agent 42</a>
-<a class="area-tag" href="ICML2026/multi_agent/">Multi-Agent 15</a>
-<a class="area-tag" href="ICML2026/llm_alignment/">对齐 / RLHF 26</a>
-<a class="area-tag" href="ICML2026/llm_safety/">LLM 安全 46</a>
-<a class="area-tag" href="ICML2026/hallucination/">幻觉检测 19</a>
-<a class="area-tag" href="ICML2026/llm_evaluation/">LLM 评测 25</a>
-<a class="area-tag" href="ICML2026/llm_efficiency/">LLM 效率 32</a>
-<a class="area-tag" href="ICML2026/llm_pretraining/">预训练 22</a>
+<a class="area-tag" href="ICML2026/llm_reasoning/">LLM Reasoning 78</a>
+<a class="area-tag" href="ICML2026/llm_agent/">LLM Agent 59</a>
+<a class="area-tag" href="ICML2026/multi_agent/">Multi-Agent 24</a>
+<a class="area-tag" href="ICML2026/llm_alignment/">对齐 / RLHF 37</a>
+<a class="area-tag" href="ICML2026/hallucination/">幻觉检测 21</a>
+<a class="area-tag" href="ICML2026/llm_evaluation/">LLM 评测 40</a>
+<a class="area-tag" href="ICML2026/llm_efficiency/">LLM 效率 48</a>
+<a class="area-tag" href="ICML2026/llm_pretraining/">预训练 27</a>
 <a class="area-tag" href="ICML2026/knowledge_editing/">知识编辑 8</a>
-<a class="area-tag" href="ICML2026/llm_nlp/">LLM 其他 33</a>
+<a class="area-tag" href="ICML2026/llm_nlp/">LLM 其他 39</a>
 </div>
 </div>
 <div class="area-group">
@@ -156,75 +156,75 @@ hide:
 <div class="area-tags">
 <a class="area-tag" href="ICML2026/nlp_understanding/">NLP 理解 2</a>
 <a class="area-tag" href="ICML2026/nlp_generation/">文本生成 2</a>
-<a class="area-tag" href="ICML2026/dialogue/">对话系统 4</a>
+<a class="area-tag" href="ICML2026/dialogue/">对话系统 5</a>
 <a class="area-tag" href="ICML2026/multilingual_mt/">多语言/翻译 3</a>
-<a class="area-tag" href="ICML2026/information_retrieval/">信息检索/RAG 22</a>
-<a class="area-tag" href="ICML2026/code_intelligence/">代码智能 15</a>
+<a class="area-tag" href="ICML2026/information_retrieval/">信息检索/RAG 26</a>
+<a class="area-tag" href="ICML2026/code_intelligence/">代码智能 22</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">生成与多模态</div>
 <div class="area-tags">
-<a class="area-tag" href="ICML2026/image_generation/">图像生成 125</a>
-<a class="area-tag" href="ICML2026/video_generation/">视频生成 28</a>
-<a class="area-tag" href="ICML2026/multimodal_vlm/">多模态 VLM 76</a>
-<a class="area-tag" href="ICML2026/vlm_reasoning/">VLM Reasoning 20</a>
+<a class="area-tag" href="ICML2026/image_generation/">图像生成 141</a>
+<a class="area-tag" href="ICML2026/video_generation/">视频生成 32</a>
+<a class="area-tag" href="ICML2026/multimodal_vlm/">多模态 VLM 89</a>
+<a class="area-tag" href="ICML2026/vlm_reasoning/">VLM Reasoning 31</a>
 <a class="area-tag" href="ICML2026/vlm_efficiency/">VLM Efficiency 4</a>
-<a class="area-tag" href="ICML2026/audio_speech/">音频/语音 30</a>
-<a class="area-tag" href="ICML2026/aigc_detection/">AIGC 检测 7</a>
+<a class="area-tag" href="ICML2026/audio_speech/">音频/语音 36</a>
+<a class="area-tag" href="ICML2026/aigc_detection/">AIGC 检测 11</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">视觉感知</div>
 <div class="area-tags">
-<a class="area-tag" href="ICML2026/3d_vision/">3D 视觉 24</a>
+<a class="area-tag" href="ICML2026/3d_vision/">3D 视觉 30</a>
 <a class="area-tag" href="ICML2026/object_detection/">目标检测 6</a>
-<a class="area-tag" href="ICML2026/segmentation/">语义分割 13</a>
-<a class="area-tag" href="ICML2026/image_restoration/">图像恢复 16</a>
+<a class="area-tag" href="ICML2026/segmentation/">语义分割 14</a>
+<a class="area-tag" href="ICML2026/image_restoration/">图像恢复 21</a>
 <a class="area-tag" href="ICML2026/remote_sensing/">遥感 3</a>
-<a class="area-tag" href="ICML2026/human_understanding/">人体理解 4</a>
+<a class="area-tag" href="ICML2026/human_understanding/">人体理解 5</a>
 <a class="area-tag" href="ICML2026/video_understanding/">视频理解 17</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">决策与具身</div>
 <div class="area-tags">
-<a class="area-tag" href="ICML2026/autonomous_driving/">自动驾驶 6</a>
-<a class="area-tag" href="ICML2026/robotics/">机器人/具身智能 42</a>
-<a class="area-tag" href="ICML2026/reinforcement_learning/">强化学习 95</a>
+<a class="area-tag" href="ICML2026/autonomous_driving/">自动驾驶 8</a>
+<a class="area-tag" href="ICML2026/robotics/">机器人/具身智能 53</a>
+<a class="area-tag" href="ICML2026/reinforcement_learning/">强化学习 110</a>
 <a class="area-tag" href="ICML2026/recommender/">推荐系统 11</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">基础与理论</div>
 <div class="area-tags">
-<a class="area-tag" href="ICML2026/self_supervised/">自监督/表示学习 24</a>
-<a class="area-tag" href="ICML2026/optimization/">优化/理论 64</a>
-<a class="area-tag" href="ICML2026/learning_theory/">学习理论 17</a>
-<a class="area-tag" href="ICML2026/causal_inference/">因果推理 15</a>
-<a class="area-tag" href="ICML2026/interpretability/">可解释性 71</a>
-<a class="area-tag" href="ICML2026/model_compression/">模型压缩 100</a>
-<a class="area-tag" href="ICML2026/graph_learning/">图学习 31</a>
-<a class="area-tag" href="ICML2026/time_series/">时间序列 32</a>
+<a class="area-tag" href="ICML2026/self_supervised/">自监督/表示学习 28</a>
+<a class="area-tag" href="ICML2026/optimization/">优化/理论 88</a>
+<a class="area-tag" href="ICML2026/learning_theory/">学习理论 45</a>
+<a class="area-tag" href="ICML2026/causal_inference/">因果推理 19</a>
+<a class="area-tag" href="ICML2026/interpretability/">可解释性 91</a>
+<a class="area-tag" href="ICML2026/model_compression/">模型压缩 116</a>
+<a class="area-tag" href="ICML2026/graph_learning/">图学习 35</a>
+<a class="area-tag" href="ICML2026/time_series/">时间序列 45</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">科学与跨学科</div>
 <div class="area-tags">
-<a class="area-tag" href="ICML2026/medical_imaging/">医学图像 24</a>
-<a class="area-tag" href="ICML2026/medical_nlp/">医疗 LLM 2</a>
-<a class="area-tag" href="ICML2026/computational_biology/">计算生物 36</a>
-<a class="area-tag" href="ICML2026/physics/">物理/科学计算 26</a>
-<a class="area-tag" href="ICML2026/earth_science/">地球科学 1</a>
+<a class="area-tag" href="ICML2026/medical_imaging/">医学图像 28</a>
+<a class="area-tag" href="ICML2026/medical_nlp/">医疗 LLM 4</a>
+<a class="area-tag" href="ICML2026/computational_biology/">计算生物 51</a>
+<a class="area-tag" href="ICML2026/physics/">物理/科学计算 33</a>
+<a class="area-tag" href="ICML2026/earth_science/">地球科学 2</a>
 <a class="area-tag" href="ICML2026/signal_comm/">信号/通信 2</a>
-<a class="area-tag" href="ICML2026/social_computing/">社会计算 8</a>
-<a class="area-tag" href="ICML2026/ai_safety/">AI 安全 41</a>
+<a class="area-tag" href="ICML2026/social_computing/">社会计算 9</a>
+<a class="area-tag" href="ICML2026/ai_safety/">AI 安全 114</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">其他</div>
 <div class="area-tags">
-<a class="area-tag" href="ICML2026/others/">其他 63</a>
+<a class="area-tag" href="ICML2026/others/">其他 70</a>
 </div>
 </div>
 </div>
@@ -235,33 +235,33 @@ hide:
 
 ### 💬 [ACL2026](ACL2026/index.md)
 
-<div class="conf-count">1363 篇 · 38 个领域</div>
+<div class="conf-count">1409 篇 · 38 个领域</div>
 
 <div class="area-groups">
 <div class="area-group">
 <div class="area-group-label">LLM</div>
 <div class="area-tags">
-<a class="area-tag" href="ACL2026/llm_reasoning/">LLM Reasoning 81</a>
-<a class="area-tag" href="ACL2026/llm_agent/">LLM Agent 78</a>
-<a class="area-tag" href="ACL2026/multi_agent/">Multi-Agent 38</a>
-<a class="area-tag" href="ACL2026/llm_alignment/">对齐 / RLHF 31</a>
+<a class="area-tag" href="ACL2026/llm_reasoning/">LLM Reasoning 82</a>
+<a class="area-tag" href="ACL2026/llm_agent/">LLM Agent 82</a>
+<a class="area-tag" href="ACL2026/multi_agent/">Multi-Agent 39</a>
+<a class="area-tag" href="ACL2026/llm_alignment/">对齐 / RLHF 38</a>
 <a class="area-tag" href="ACL2026/llm_safety/">LLM 安全 115</a>
-<a class="area-tag" href="ACL2026/hallucination/">幻觉检测 27</a>
-<a class="area-tag" href="ACL2026/llm_evaluation/">LLM 评测 92</a>
-<a class="area-tag" href="ACL2026/llm_efficiency/">LLM 效率 22</a>
+<a class="area-tag" href="ACL2026/hallucination/">幻觉检测 28</a>
+<a class="area-tag" href="ACL2026/llm_evaluation/">LLM 评测 96</a>
+<a class="area-tag" href="ACL2026/llm_efficiency/">LLM 效率 23</a>
 <a class="area-tag" href="ACL2026/llm_pretraining/">预训练 12</a>
-<a class="area-tag" href="ACL2026/knowledge_editing/">知识编辑 9</a>
-<a class="area-tag" href="ACL2026/llm_nlp/">LLM 其他 59</a>
+<a class="area-tag" href="ACL2026/knowledge_editing/">知识编辑 10</a>
+<a class="area-tag" href="ACL2026/llm_nlp/">LLM 其他 61</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">NLP 应用</div>
 <div class="area-tags">
-<a class="area-tag" href="ACL2026/nlp_understanding/">NLP 理解 33</a>
+<a class="area-tag" href="ACL2026/nlp_understanding/">NLP 理解 34</a>
 <a class="area-tag" href="ACL2026/nlp_generation/">文本生成 17</a>
 <a class="area-tag" href="ACL2026/dialogue/">对话系统 26</a>
-<a class="area-tag" href="ACL2026/multilingual_mt/">多语言/翻译 61</a>
-<a class="area-tag" href="ACL2026/information_retrieval/">信息检索/RAG 70</a>
+<a class="area-tag" href="ACL2026/multilingual_mt/">多语言/翻译 63</a>
+<a class="area-tag" href="ACL2026/information_retrieval/">信息检索/RAG 73</a>
 <a class="area-tag" href="ACL2026/code_intelligence/">代码智能 49</a>
 </div>
 </div>
@@ -270,19 +270,19 @@ hide:
 <div class="area-tags">
 <a class="area-tag" href="ACL2026/image_generation/">图像生成 5</a>
 <a class="area-tag" href="ACL2026/video_generation/">视频生成 4</a>
-<a class="area-tag" href="ACL2026/multimodal_vlm/">多模态 VLM 79</a>
-<a class="area-tag" href="ACL2026/vlm_reasoning/">VLM Reasoning 31</a>
-<a class="area-tag" href="ACL2026/vlm_efficiency/">VLM Efficiency 5</a>
-<a class="area-tag" href="ACL2026/audio_speech/">音频/语音 68</a>
-<a class="area-tag" href="ACL2026/aigc_detection/">AIGC 检测 16</a>
+<a class="area-tag" href="ACL2026/multimodal_vlm/">多模态 VLM 82</a>
+<a class="area-tag" href="ACL2026/vlm_reasoning/">VLM Reasoning 32</a>
+<a class="area-tag" href="ACL2026/vlm_efficiency/">VLM Efficiency 6</a>
+<a class="area-tag" href="ACL2026/audio_speech/">音频/语音 70</a>
+<a class="area-tag" href="ACL2026/aigc_detection/">AIGC 检测 17</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">决策与具身</div>
 <div class="area-tags">
-<a class="area-tag" href="ACL2026/robotics/">机器人/具身智能 10</a>
-<a class="area-tag" href="ACL2026/reinforcement_learning/">强化学习 44</a>
-<a class="area-tag" href="ACL2026/recommender/">推荐系统 21</a>
+<a class="area-tag" href="ACL2026/robotics/">机器人/具身智能 11</a>
+<a class="area-tag" href="ACL2026/reinforcement_learning/">强化学习 46</a>
+<a class="area-tag" href="ACL2026/recommender/">推荐系统 22</a>
 </div>
 </div>
 <div class="area-group">
@@ -290,10 +290,10 @@ hide:
 <div class="area-tags">
 <a class="area-tag" href="ACL2026/self_supervised/">自监督/表示学习 1</a>
 <a class="area-tag" href="ACL2026/causal_inference/">因果推理 7</a>
-<a class="area-tag" href="ACL2026/interpretability/">可解释性 61</a>
+<a class="area-tag" href="ACL2026/interpretability/">可解释性 63</a>
 <a class="area-tag" href="ACL2026/model_compression/">模型压缩 59</a>
-<a class="area-tag" href="ACL2026/graph_learning/">图学习 23</a>
-<a class="area-tag" href="ACL2026/time_series/">时间序列 7</a>
+<a class="area-tag" href="ACL2026/graph_learning/">图学习 24</a>
+<a class="area-tag" href="ACL2026/time_series/">时间序列 8</a>
 </div>
 </div>
 <div class="area-group">
@@ -301,8 +301,8 @@ hide:
 <div class="area-tags">
 <a class="area-tag" href="ACL2026/medical_nlp/">医疗 LLM 47</a>
 <a class="area-tag" href="ACL2026/computational_biology/">计算生物 5</a>
-<a class="area-tag" href="ACL2026/social_computing/">社会计算 43</a>
-<a class="area-tag" href="ACL2026/ai_safety/">AI 安全 4</a>
+<a class="area-tag" href="ACL2026/social_computing/">社会计算 44</a>
+<a class="area-tag" href="ACL2026/ai_safety/">AI 安全 5</a>
 </div>
 </div>
 <div class="area-group">
@@ -319,98 +319,98 @@ hide:
 
 ### 🔬 [ICLR2026](ICLR2026/index.md)
 
-<div class="conf-count">1529 篇 · 51 个领域</div>
+<div class="conf-count">1980 篇 · 51 个领域</div>
 
 <div class="area-groups">
 <div class="area-group">
 <div class="area-group-label">LLM</div>
 <div class="area-tags">
-<a class="area-tag" href="ICLR2026/llm_reasoning/">LLM Reasoning 82</a>
-<a class="area-tag" href="ICLR2026/llm_agent/">LLM Agent 42</a>
-<a class="area-tag" href="ICLR2026/multi_agent/">Multi-Agent 15</a>
-<a class="area-tag" href="ICLR2026/llm_alignment/">对齐 / RLHF 40</a>
-<a class="area-tag" href="ICLR2026/llm_safety/">LLM 安全 52</a>
-<a class="area-tag" href="ICLR2026/hallucination/">幻觉检测 9</a>
-<a class="area-tag" href="ICLR2026/llm_evaluation/">LLM 评测 29</a>
-<a class="area-tag" href="ICLR2026/llm_efficiency/">LLM 效率 20</a>
-<a class="area-tag" href="ICLR2026/llm_pretraining/">预训练 25</a>
-<a class="area-tag" href="ICLR2026/knowledge_editing/">知识编辑 8</a>
-<a class="area-tag" href="ICLR2026/llm_nlp/">LLM 其他 33</a>
+<a class="area-tag" href="ICLR2026/llm_reasoning/">LLM Reasoning 97</a>
+<a class="area-tag" href="ICLR2026/llm_agent/">LLM Agent 51</a>
+<a class="area-tag" href="ICLR2026/multi_agent/">Multi-Agent 24</a>
+<a class="area-tag" href="ICLR2026/llm_alignment/">对齐 / RLHF 49</a>
+<a class="area-tag" href="ICLR2026/llm_safety/">LLM 安全 70</a>
+<a class="area-tag" href="ICLR2026/hallucination/">幻觉检测 13</a>
+<a class="area-tag" href="ICLR2026/llm_evaluation/">LLM 评测 45</a>
+<a class="area-tag" href="ICLR2026/llm_efficiency/">LLM 效率 32</a>
+<a class="area-tag" href="ICLR2026/llm_pretraining/">预训练 35</a>
+<a class="area-tag" href="ICLR2026/knowledge_editing/">知识编辑 9</a>
+<a class="area-tag" href="ICLR2026/llm_nlp/">LLM 其他 37</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">NLP 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="ICLR2026/nlp_understanding/">NLP 理解 1</a>
-<a class="area-tag" href="ICLR2026/nlp_generation/">文本生成 2</a>
-<a class="area-tag" href="ICLR2026/dialogue/">对话系统 5</a>
+<a class="area-tag" href="ICLR2026/nlp_generation/">文本生成 3</a>
+<a class="area-tag" href="ICLR2026/dialogue/">对话系统 6</a>
 <a class="area-tag" href="ICLR2026/multilingual_mt/">多语言/翻译 5</a>
-<a class="area-tag" href="ICLR2026/information_retrieval/">信息检索/RAG 28</a>
-<a class="area-tag" href="ICLR2026/code_intelligence/">代码智能 18</a>
+<a class="area-tag" href="ICLR2026/information_retrieval/">信息检索/RAG 40</a>
+<a class="area-tag" href="ICLR2026/code_intelligence/">代码智能 23</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">生成与多模态</div>
 <div class="area-tags">
-<a class="area-tag" href="ICLR2026/image_generation/">图像生成 138</a>
-<a class="area-tag" href="ICLR2026/video_generation/">视频生成 19</a>
-<a class="area-tag" href="ICLR2026/multimodal_vlm/">多模态 VLM 61</a>
-<a class="area-tag" href="ICLR2026/vlm_reasoning/">VLM Reasoning 23</a>
-<a class="area-tag" href="ICLR2026/vlm_efficiency/">VLM Efficiency 5</a>
-<a class="area-tag" href="ICLR2026/audio_speech/">音频/语音 34</a>
-<a class="area-tag" href="ICLR2026/aigc_detection/">AIGC 检测 6</a>
+<a class="area-tag" href="ICLR2026/image_generation/">图像生成 155</a>
+<a class="area-tag" href="ICLR2026/video_generation/">视频生成 26</a>
+<a class="area-tag" href="ICLR2026/multimodal_vlm/">多模态 VLM 71</a>
+<a class="area-tag" href="ICLR2026/vlm_reasoning/">VLM Reasoning 30</a>
+<a class="area-tag" href="ICLR2026/vlm_efficiency/">VLM Efficiency 8</a>
+<a class="area-tag" href="ICLR2026/audio_speech/">音频/语音 39</a>
+<a class="area-tag" href="ICLR2026/aigc_detection/">AIGC 检测 8</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">视觉感知</div>
 <div class="area-tags">
-<a class="area-tag" href="ICLR2026/3d_vision/">3D 视觉 62</a>
-<a class="area-tag" href="ICLR2026/object_detection/">目标检测 14</a>
-<a class="area-tag" href="ICLR2026/segmentation/">语义分割 11</a>
-<a class="area-tag" href="ICLR2026/image_restoration/">图像恢复 15</a>
+<a class="area-tag" href="ICLR2026/3d_vision/">3D 视觉 71</a>
+<a class="area-tag" href="ICLR2026/object_detection/">目标检测 16</a>
+<a class="area-tag" href="ICLR2026/segmentation/">语义分割 13</a>
+<a class="area-tag" href="ICLR2026/image_restoration/">图像恢复 22</a>
 <a class="area-tag" href="ICLR2026/remote_sensing/">遥感 5</a>
-<a class="area-tag" href="ICLR2026/human_understanding/">人体理解 8</a>
-<a class="area-tag" href="ICLR2026/video_understanding/">视频理解 10</a>
+<a class="area-tag" href="ICLR2026/human_understanding/">人体理解 9</a>
+<a class="area-tag" href="ICLR2026/video_understanding/">视频理解 14</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">决策与具身</div>
 <div class="area-tags">
-<a class="area-tag" href="ICLR2026/autonomous_driving/">自动驾驶 16</a>
-<a class="area-tag" href="ICLR2026/robotics/">机器人/具身智能 46</a>
-<a class="area-tag" href="ICLR2026/reinforcement_learning/">强化学习 126</a>
-<a class="area-tag" href="ICLR2026/recommender/">推荐系统 9</a>
+<a class="area-tag" href="ICLR2026/autonomous_driving/">自动驾驶 17</a>
+<a class="area-tag" href="ICLR2026/robotics/">机器人/具身智能 56</a>
+<a class="area-tag" href="ICLR2026/reinforcement_learning/">强化学习 161</a>
+<a class="area-tag" href="ICLR2026/recommender/">推荐系统 13</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">基础与理论</div>
 <div class="area-tags">
-<a class="area-tag" href="ICLR2026/self_supervised/">自监督/表示学习 16</a>
-<a class="area-tag" href="ICLR2026/optimization/">优化/理论 47</a>
-<a class="area-tag" href="ICLR2026/learning_theory/">学习理论 7</a>
-<a class="area-tag" href="ICLR2026/causal_inference/">因果推理 17</a>
-<a class="area-tag" href="ICLR2026/interpretability/">可解释性 60</a>
-<a class="area-tag" href="ICLR2026/model_compression/">模型压缩 100</a>
-<a class="area-tag" href="ICLR2026/graph_learning/">图学习 20</a>
-<a class="area-tag" href="ICLR2026/time_series/">时间序列 38</a>
+<a class="area-tag" href="ICLR2026/self_supervised/">自监督/表示学习 24</a>
+<a class="area-tag" href="ICLR2026/optimization/">优化/理论 72</a>
+<a class="area-tag" href="ICLR2026/learning_theory/">学习理论 45</a>
+<a class="area-tag" href="ICLR2026/causal_inference/">因果推理 25</a>
+<a class="area-tag" href="ICLR2026/interpretability/">可解释性 74</a>
+<a class="area-tag" href="ICLR2026/model_compression/">模型压缩 115</a>
+<a class="area-tag" href="ICLR2026/graph_learning/">图学习 30</a>
+<a class="area-tag" href="ICLR2026/time_series/">时间序列 53</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">科学与跨学科</div>
 <div class="area-tags">
-<a class="area-tag" href="ICLR2026/medical_imaging/">医学图像 22</a>
-<a class="area-tag" href="ICLR2026/medical_nlp/">医疗 LLM 13</a>
-<a class="area-tag" href="ICLR2026/computational_biology/">计算生物 38</a>
-<a class="area-tag" href="ICLR2026/physics/">物理/科学计算 17</a>
-<a class="area-tag" href="ICLR2026/signal_comm/">信号/通信 2</a>
-<a class="area-tag" href="ICLR2026/social_computing/">社会计算 12</a>
-<a class="area-tag" href="ICLR2026/ai_safety/">AI 安全 27</a>
+<a class="area-tag" href="ICLR2026/medical_imaging/">医学图像 34</a>
+<a class="area-tag" href="ICLR2026/medical_nlp/">医疗 LLM 15</a>
+<a class="area-tag" href="ICLR2026/computational_biology/">计算生物 52</a>
+<a class="area-tag" href="ICLR2026/physics/">物理/科学计算 27</a>
+<a class="area-tag" href="ICLR2026/signal_comm/">信号/通信 4</a>
+<a class="area-tag" href="ICLR2026/social_computing/">社会计算 14</a>
+<a class="area-tag" href="ICLR2026/ai_safety/">AI 安全 36</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">其他</div>
 <div class="area-tags">
-<a class="area-tag" href="ICLR2026/others/">其他 71</a>
+<a class="area-tag" href="ICLR2026/others/">其他 86</a>
 </div>
 </div>
 </div>

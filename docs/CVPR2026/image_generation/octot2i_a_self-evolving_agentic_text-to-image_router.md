@@ -103,6 +103,7 @@ flowchart TD
 相对 Flow-GRPO，推理提速 90.3%、能效提升 56.6%；相对 Idea2Img/GenArtist 快约 45×/11×。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 自进化知识 (Ours) | GenEval Overall 0.96 | 完整方法 |

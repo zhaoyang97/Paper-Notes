@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Don't Show Pixels, Show Cues: Unlocking Visual Tool Reasoning in Language Models via Perception Programs
 description: >-
-  [CVPR 2026][多模态VLM][视觉工具推理] 给 MLLM 接深度/光流/匹配等视觉工具时，瓶颈不在工具调用次数或模型大小，而在"工具输出怎么喂"——本文提出 Perception Program（P2），把原始稠密像素级工具输出**改写成紧凑、结构化、语言原生的符号摘要**，免训练、免改架构地插进任意 MLLM，在 BLINK 六个感知任务上平均涨 19.66%，GPT-5 Mini 的多视角推理从 41.35% 飙到 86.47%。
+  [CVPR 2026][VLM Reasoning][视觉工具推理] 给 MLLM 接深度/光流/匹配等视觉工具时，瓶颈不在工具调用次数或模型大小，而在"工具输出怎么喂"——本文提出 Perception Program（P2），把原始稠密像素级工具输出**改写成紧凑、结构化、语言原生的符号摘要**，免训练、免改架构地插进任意 MLLM，在 BLINK 六个感知任务上平均涨 19.66%，GPT-5 Mini 的多视角推理从 41.35% 飙到 86.47%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉工具推理"
   - "Perception Program"
   - "训练无关"
@@ -154,11 +154,11 @@ P2 对小模型同样大涨，4B 级模型加 P2 后可追平基础版 GPT-5 Min
 
 ## 相关论文
 
-- [\[CVPR 2026\] Perception Programs: Unlocking Visual Tool Reasoning in Language Models](perception_programs_visual_tool_reasoning.md)
-- [\[CVPR 2026\] Synthesizing Visual Concepts as Vision-Language Programs](synthesizing_visual_concepts_as_vision-language_programs.md)
+- [\[CVPR 2026\] VRR-QA: Visual Relational Reasoning in Videos Beyond Explicit Cues](vrr-qa_visual_relational_reasoning_in_videos_beyond_explicit_cues.md)
 - [\[CVPR 2026\] Proof-of-Perception: Certified Tool-Using Multimodal Reasoning with Compositional Conformal Guarantees](pop_proof_of_perception_conformal_reasoning.md)
-- [\[CVPR 2026\] Visual Reasoning through Tool-supervised Reinforcement Learning](visual_reasoning_through_tool-supervised_reinforcement_learning.md)
-- [\[CVPR 2026\] CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning](codedance_a_dynamic_tool-integrated_mllm_for_executable_visual_reasoning.md)
+- [\[CVPR 2026\] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning](arm-thinker_reinforcing_multimodal_generative_reward_models_with_agentic_tool_us.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
+- [\[CVPR 2026\] Dr. Seg: Revisiting GRPO Training for Visual Large Language Models through Perception-Oriented Design](dr_seg_revisiting_grpo_training_for_visual_large_language_models_through_percept.md)
 
 </div>
 

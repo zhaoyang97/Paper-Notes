@@ -63,6 +63,7 @@ pairwise 选择任务有个隐患——模型常有“总选第二张”的位�
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 模型 / 方法 | 关键指标 | 数值 | 结论 |
 |------|-------------|----------|------|------|
 | UI/UX selection | Random | AA / CA | 50.00 / 25.00 | CA 随机基线为 25% |
@@ -74,6 +75,7 @@ pairwise 选择任务有个隐患——模型常有“总选第二张”的位�
 | UI/UX interpretation | GPT-4o | Interpretation / Instance Recall | 50.15 / 66.67 | 解释能力不等同于选择能力 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | GPT-4o zero-shot | FA 31.89, SA 88.33, AA 60.11, CA 30.11 | 强烈偏向第二张图，AA 被位置偏差抬高 |
@@ -117,11 +119,11 @@ pairwise 选择任务有个隐患——模型常有“总选第二张”的位�
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] To See or To Read: User Behavior Reasoning in Multimodal LLMs](../../NeurIPS2025/multimodal_vlm/to_see_or_to_read_user_behavior_reasoning_in_multimodal_llms.md)
+- [\[CVPR 2026\] PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation](../../CVPR2026/multimodal_vlm/posteriq_a_design_perspective_benchmark_for_poster_understanding_and_generation.md)
 - [\[ICLR 2026\] How Do Medical MLLMs Fail? A Study on Visual Grounding in Medical Images](../../ICLR2026/multimodal_vlm/how_do_medical_mllms_fail_a_study_on_visual_grounding_in_medical_images.md)
 - [\[CVPR 2026\] GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks](../../CVPR2026/multimodal_vlm/guide_a_benchmark_for_understanding_and_assisting_users_in_open-ended_gui_tasks.md)
 - [\[ACL 2026\] Beyond Screenshots: Evaluating VLMs' Understanding of UI Animations](beyond_screenshots_evaluating_vlms_understanding_of_ui_animations.md)
-- [\[ACL 2026\] How Do LLMs and VLMs Understand Viewpoint Rotation Without Vision? An Interpretability Study](how_do_llms_and_vlms_understand_viewpoint_rotation_without_vision_an_interpretab.md)
+- [\[CVPR 2026\] UI-Lens: Assessing General MLLMs' Potential to Automate UI Display Quality Assurance](../../CVPR2026/multimodal_vlm/ui-lens_assessing_general_mllms_potential_to_automate_ui_display_quality_assuran.md)
 
 </div>
 

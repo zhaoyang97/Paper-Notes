@@ -69,6 +69,7 @@ RoboMME 首次把人类认知里的"时序/空间/物体/程序"四类记忆系�
 ## 实验关键数据
 
 ### 主实验（部分代表性变体在 16 任务上的平均 SR%）
+
 | 模型类别 | 变体（记忆+集成） | 平均 SR (%) |
 |------|------|------|
 | 无记忆基线 | π0.5 | 17.93 |
@@ -85,6 +86,7 @@ RoboMME 首次把人类认知里的"时序/空间/物体/程序"四类记忆系�
 | 人类参考 | Human | 90.50 |
 
 ### 消融实验（按 suite 看 FrameSamp+Modul vs π0.5 基线）
+
 | Suite（代表任务） | π0.5 基线 | FrameSamp+Modul | 提升 |
 |------|---------|---------|---------|
 | Counting (StopCube) | 6.67 | 42.00 | +35.3 |
@@ -131,10 +133,10 @@ RoboMME 首次把人类认知里的"时序/空间/物体/程序"四类记忆系�
 ## 相关论文
 
 - [\[ICLR 2026\] RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots](../../ICLR2026/robotics/robocasa365_a_large-scale_simulation_framework_for_training_and_benchmarking_gen.md)
-- [\[CVPR 2026\] FM-Steer: Enhance Generalist Policies with Value-Guided Cascaded Denoising](../../CVPR2026/robotics/fm-steer_enhance_generalist_policies_with_value-guided_cascaded_denoising.md)
 - [\[ICML 2026\] TapSampling: Inference-Time Sampling with a Task-Progress-Understanding Verifier for Robotic Manipulation](tapsampling_inference-time_sampling_with_a_task-progress-understanding_verifier_.md)
+- [\[CVPR 2026\] FM-Steer: Enhance Generalist Policies with Value-Guided Cascaded Denoising](../../CVPR2026/robotics/fm-steer_enhance_generalist_policies_with_value-guided_cascaded_denoising.md)
 - [\[ICML 2026\] Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action](spatial_memory_for_out-of-vision_manipulation_in_vision-language-action.md)
-- [\[ICML 2026\] Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies](discrete_diffusion_vla_bringing_discrete_diffusion_to_action_decoding_in_vision-.md)
+- [\[CVPR 2026\] OctoNav: Towards Generalist Embodied Navigation](../../CVPR2026/robotics/octonav_towards_generalist_embodied_navigation.md)
 
 </div>
 

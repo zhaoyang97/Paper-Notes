@@ -157,7 +157,7 @@ $\mathcal{L} = \lambda_{flow}\mathcal{L}_{flow} + \lambda_{cd}\mathcal{L}_{cd} +
 - [\[CVPR 2025\] SPAR3D: Stable Point-Aware Reconstruction of 3D Objects from Single Images](spar3d_stable_point-aware_reconstruction_of_3d_objects_from_single_images.md)
 - [\[CVPR 2025\] Denoising Functional Maps: Diffusion Models for Shape Correspondence](denoising_functional_maps_diffusion_models_for_shape_correspondence.md)
 - [\[CVPR 2025\] A Lightweight UDF Learning Framework for 3D Reconstruction Based on Local Shape Functions](a_lightweight_udf_learning_framework_for_3d_reconstruction_based_on_local_shape_.md)
-- [\[ICCV 2025\] Generating Physically Stable and Buildable Brick Structures from Text](../../ICCV2025/3d_vision/generating_physically_stable_and_buildable_brick_structures_from_text.md)
+- [\[CVPR 2025\] PrEditor3D: Fast and Precise 3D Shape Editing](preditor3d_fast_and_precise_3d_shape_editing.md)
 
 </div>
 

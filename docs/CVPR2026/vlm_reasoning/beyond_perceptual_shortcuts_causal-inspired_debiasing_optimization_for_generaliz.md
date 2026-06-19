@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Beyond Perceptual Shortcuts: Causal-Inspired Debiasing Optimization for Generalizable Video Reasoning in Lightweight MLLMs
 description: >-
-  [CVPR 2026][多模态VLM][轻量级 MLLM] 本文发现 RL（GRPO）微调会逼着轻量级（3B）视频 MLLM 走"感知捷径"而非真推理，于是先训一个专门学捷径的"偏置模型"，再用一个把 KL 散度符号反过来的排斥式目标（CDPO）把主模型从偏置模型推开，仅用 1% 数据就在 CLEVRER 上比 GRPO 提升 14.2%。
+  [CVPR 2026][VLM Reasoning][轻量级 MLLM] 本文发现 RL（GRPO）微调会逼着轻量级（3B）视频 MLLM 走"感知捷径"而非真推理，于是先训一个专门学捷径的"偏置模型"，再用一个把 KL 散度符号反过来的排斥式目标（CDPO）把主模型从偏置模型推开，仅用 1% 数据就在 CLEVRER 上比 GRPO 提升 14.2%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "轻量级 MLLM"
   - "感知捷径"
   - "因果去偏"
@@ -145,11 +145,11 @@ $$\mathcal{J}_{\text{CDPO}}(\theta)=\mathbb{E}\Big[\tfrac{1}{G}\textstyle\sum_i 
 
 ## 相关论文
 
+- [\[CVPR 2026\] Streaming Video Crime Anticipation with Spatio-Temporal Causal Reasoning](streaming_video_crime_anticipation_with_spatio-temporal_causal_reasoning.md)
 - [\[CVPR 2026\] Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth](think_360_evaluating_the_width-centric_reasoning_capability_of_mllms_beyond_dept.md)
-- [\[CVPR 2026\] Active Perceptual Inference: A Corticothalamic-Inspired Dynamic Nested Recurrent Network for Multimodal Sentiment Analysis with Incomplete Data](active_perceptual_inference_a_corticothalamic-inspired_dynamic_nested_recurrent_.md)
+- [\[CVPR 2026\] CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)
 - [\[CVPR 2026\] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)
-- [\[CVPR 2026\] A Causal Marriage between VLM and IRM from Understanding to Reasoning](a_causal_marriage_between_vlm_and_irm_from_understanding_to_reasoning.md)
-- [\[CVPR 2026\] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
+- [\[CVPR 2026\] Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization](adversarial_style_optimization_enhancing_vlm_jailbreaks_by_grpo-based_stylistic_.md)
 
 </div>
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data
 description: >-
-  [CVPR 2026][医疗NLP][数据选择] 提出 Difficulty-Influence Quadrant (DIQ) 数据选择策略，联合考量样本难度和梯度影响力，使 VLM 语言骨干仅用 1% 精选数据即可匹配全量 SFT 性能，10% 数据则可超越全量训练。 将 LLM 适配到医学推理任务的标准做法是监督微调 (…
+  [CVPR 2026][医疗 LLM][数据选择] 提出 Difficulty-Influence Quadrant (DIQ) 数据选择策略，联合考量样本难度和梯度影响力，使 VLM 语言骨干仅用 1% 精选数据即可匹配全量 SFT 性能，10% 数据则可超越全量训练。 将 LLM 适配到医学推理任务的标准做法是监督微调…
 tags:
   - "CVPR 2026"
-  - "医疗NLP"
+  - "医疗 LLM"
   - "数据选择"
   - "医学推理"
   - "大语言模型"
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2508.01450](https://arxiv.org/abs/2508.01450)  
 **代码**: [GitHub](https://github.com/mihara-bot/DIQ)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 数据选择, 医学推理, 大语言模型, SFT, 梯度影响力
 
 ## 一句话总结
@@ -149,8 +149,8 @@ flowchart TD
 
 - [\[ACL 2026\] Eliciting Medical Reasoning with Knowledge-enhanced Data Synthesis: A Semi-Supervised Reinforcement Learning Approach](../../ACL2026/medical_nlp/eliciting_medical_reasoning_with_knowledge-enhanced_data_synthesis_a_semi-superv.md)
 - [\[ACL 2026\] LinguIUTics at PsyDefDetect: Iterative Imbalance-Aware Fine-tuning of Qwen3-8B for Psychological Defense Mechanism Classification](../../ACL2026/medical_nlp/linguiutics_at_psydefdetect_iterative_imbalance-aware_fine-tuning_of_qwen3-8b_fo.md)
-- [\[ACL 2025\] CheXalign: Preference Fine-tuning in Chest X-ray Interpretation Models without Human Feedback](../../ACL2025/medical_nlp/chexalign_preference_finetuning.md)
 - [\[ICLR 2026\] MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](../../ICLR2026/medical_nlp/medagentgym_agentic_training_biomedical.md)
+- [\[ACL 2025\] CheXalign: Preference Fine-tuning in Chest X-ray Interpretation Models without Human Feedback](../../ACL2025/medical_nlp/chexalign_preference_finetuning.md)
 - [\[ACL 2026\] Dr. Assistant: Enhancing Clinical Diagnostic Inquiry via Structured Diagnostic Reasoning Data and Reinforcement Learning](../../ACL2026/medical_nlp/dr_assistant_enhancing_clinical_diagnostic_inquiry_via_structured_diagnostic_rea.md)
 
 </div>

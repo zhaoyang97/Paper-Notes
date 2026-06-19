@@ -95,6 +95,7 @@ VAE 训练目标是重建损失 $L_{rec}$ 加 KL 正则。$L_{rec}=L_{mask}+L_v+
 MeshFlow 在 CD/HD 上同时最低，推理 1.2 秒——比最快的 AR（FastMesh-V1K 3.41s）还快近 3 倍，比 TreeMeshGPT/BPT 快 20 倍以上，且 AR 单物体常需报告时间的 6 倍而 MeshFlow 运行时恒定。摘要口径概括为「比最快 AR 生成器快约 18×」。
 
 ### MeshVAE 重建对比
+
 | 方法 | 类型 | CD↓ | Comp. Ratio↓ |
 |------|------|------|------|
 | TreeMeshGPT | AR | 1.63 | 0.22 |
@@ -104,6 +105,7 @@ MeshFlow 在 CD/HD 上同时最低，推理 1.2 秒——比最快的 AR（FastM
 MeshVAE 重建 CD 与 SOTA 相当（1.29 vs 1.21/1.63），但压缩比 0.014 远紧于对手（约 0.22–0.47），印证连续表示既准又极致紧凑。
 
 ### 消融实验
+
 | 配置 | Vert. Dist.↓ | Normals Dist.↓ | F1↑ | 说明 |
 |------|------|------|------|------|
 | Q-former | 23.36 | 18.77 | 49.47 | 随机可学习查询，训练难收敛、质量崩 |
@@ -150,8 +152,8 @@ MeshVAE 重建 CD 与 SOTA 相当（1.29 vs 1.21/1.63），但压缩比 0.014 �
 - [\[CVPR 2026\] Efficient Hybrid SE(3)-Equivariant Visuomotor Flow Policy via Spherical Harmonics](efficient_hybrid_se3-equivariant_visuomotor_flow_policy_via_spherical_harmonics_.md)
 - [\[CVPR 2026\] PartDiffuser: Part-wise 3D Mesh Generation via Discrete Diffusion](partdiffuser_part-wise_3d_mesh_generation_via_discrete_diffusion.md)
 - [\[CVPR 2026\] ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion](actionmesh_animated_3d_mesh_generation_with_temporal_3d_diffusion.md)
+- [\[CVPR 2026\] FACE: A Face-based Autoregressive Representation for High-Fidelity and Efficient Mesh Generation](face_a_face-based_autoregressive_representation_for_high-fidelity_and_efficient_.md)
 - [\[CVPR 2025\] TreeMeshGPT: Artistic Mesh Generation with Autoregressive Tree Sequencing](../../CVPR2025/3d_vision/treemeshgpt_artistic_mesh_generation_with_autoregressive_tree_sequencing.md)
-- [\[CVPR 2026\] TokenHand: Discrete Token Representation for Efficient Hand Mesh Reconstruction](tokenhand_discrete_token_representation_for_efficient_hand_mesh_reconstruction.md)
 
 </div>
 

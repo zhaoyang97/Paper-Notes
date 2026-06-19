@@ -86,6 +86,7 @@ $$\mathcal{L}=\mathbb{E}_{V_0,V,I_c,c,t}\big\|\,u(x_t,I_c,c,t;\theta)-w_t\,\big\
 评测集把 ABO 商品图与 DreamBench++ 物体混合成 122 组（每组 1–7 个物体），配纯色画布或 Unsplash 背景，caption 风格长度各异。指标覆盖身份保持（CLIP-I、DINO）、文本对齐（CLIP-T、VQAScore）、背景保真（MSE-BG）、颜色保真（Chamfer）、漏物率（Missing），并辅以两项用户研究。
 
 ### 主实验
+
 | 方法 | CLIP-I↑ | DINO↑ | VQAScore↑ | MSE-BG↓ | Chamfer↓ | Missing↓ |
 |------|---------|-------|-----------|---------|----------|----------|
 | UNO | 0.696 | 0.450 | 0.886 | 0.062 | 14.733 | 0.099 |
@@ -98,6 +99,7 @@ $$\mathcal{L}=\mathbb{E}_{V_0,V,I_c,c,t}\big\|\,u(x_t,I_c,c,t;\theta)-w_t\,\big\
 PLACID 在背景保真（MSE-BG 0.019）、颜色保真（Chamfer 4.641）、漏物率（Missing 0.044）上全面领先，VQAScore 也接近闭源 NanoBanana。CLIP-I/DINO 略低于个别模型，作者解释这是因为它优先做"自然连贯的合成"（允许轻微遮挡/重摆/新视角），而 copy-paste 式贴图反而能刷高这两个分数却得到不连贯的画面——所以补了用户研究。
 
 ### 消融实验
+
 | 配置 | CLIP-I↑ | DINO↑ | CLIP-T↑ | MSE-BG↓ | Chamfer↓ | Missing↓ |
 |------|---------|-------|---------|---------|----------|----------|
 | Wan 2.1（base） | 0.711 | 0.446 | 0.333 | 0.047 | 7.746 | 0.048 |
@@ -142,9 +144,9 @@ PLACID 在背景保真（MSE-BG 0.019）、颜色保真（Chamfer 4.641）、漏
 
 ## 相关论文
 
-- [\[CVPR 2026\] Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization](identity-preserving_image-to-video_generation_via_reward-guided_optimization.md)
 - [\[CVPR 2026\] ConsID-Gen: View-Consistent and Identity-Preserving Image-to-Video Generation](consid-gen_view-consistent_and_identity-preserving_image-to-video_generation.md)
 - [\[CVPR 2026\] EvoID: Reinforced Evolution for Identity-Preserving Video Generation](evoid_reinforced_evolution_for_identity-preserving_video_generation.md)
+- [\[CVPR 2026\] AnyID: Ultra-Fidelity Universal Identity-Preserving Video Generation from Any Visual References](anyid_ultra-fidelity_universal_identity-preserving_video_generation_from_any_vis.md)
 - [\[CVPR 2026\] Let Your Image Move with Your Motion! – Implicit Multi-Object Multi-Motion Transfer](let_your_image_move_with_your_motion_--_implicit_multi-object_multi-motion_trans.md)
 - [\[CVPR 2026\] Stand-In: A Lightweight and Plug-and-Play Identity Control for Video Generation](stand-in_a_lightweight_and_plug-and-play_identity_control_for_video_generation.md)
 

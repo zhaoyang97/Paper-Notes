@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.13957](https://arxiv.org/abs/2503.13957)  
 **代码**: [https://github.com/kagawa588/DiffVsgg](https://github.com/kagawa588/DiffVsgg)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 视频场景图生成、潜在扩散模型、在线推理、时序推理、统一嵌入
 
 ## 一句话总结

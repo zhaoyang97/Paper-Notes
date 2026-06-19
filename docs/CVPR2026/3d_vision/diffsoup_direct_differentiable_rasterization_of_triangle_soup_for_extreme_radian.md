@@ -126,6 +126,7 @@ MipNeRF360 上 RTX 4090 的渲染帧率（图元数全统一，因其主导深�
 硬件加速的不透明三角光栅化比 CUDA 版 3DGS 快约一个数量级（消除了透明度处理和深度排序），且同一 shader 直接在 MacBook 上跑出 146 FPS，与桌面 GPU 上的 3DGS 相当——这正是"塞进标准图形管线"的回报。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | Full model | 锐利边界 + 干净几何 | 完整模型 |
@@ -165,11 +166,11 @@ MipNeRF360 上 RTX 4090 的渲染帧率（图元数全统一，因其主导深�
 
 ## 相关论文
 
-- [\[CVPR 2026\] UTrice: Unifying Primitives in Differentiable Ray Tracing and Rasterization via Triangles for Particle-Based 3D Scenes](utrice_unifying_primitives_in_differentiable_ray_tracing_and_rasterization_via_t.md)
-- [\[ECCV 2024\] Mesh2NeRF: Direct Mesh Supervision for Neural Radiance Field Representation and Generation](../../ECCV2024/3d_vision/mesh2nerf_direct_mesh_supervision_for_neural_radiance_field_representation_and_g.md)
 - [\[CVPR 2025\] Sparse Voxels Rasterization: Real-time High-fidelity Radiance Field Rendering](../../CVPR2025/3d_vision/sparse_voxels_rasterization_real-time_high-fidelity_radiance_field_rendering.md)
-- [\[CVPR 2026\] Learning Differentiable Hierarchies in 3D Gaussian Splatting](learning_differentiable_hierarchies_in_3d_gaussian_splatting.md)
-- [\[CVPR 2026\] D-Prism: Differentiable Primitives for Structured Dynamic Modeling](d-prism_differentiable_primitives_for_structured_dynamic_modeling.md)
+- [\[CVPR 2026\] PPISP: Physically-Plausible Compensation and Control of Photometric Variations in Radiance Field Reconstruction](ppisp_physically-plausible_compensation_and_control_of_photometric_variations_in.md)
+- [\[ECCV 2024\] Mesh2NeRF: Direct Mesh Supervision for Neural Radiance Field Representation and Generation](../../ECCV2024/3d_vision/mesh2nerf_direct_mesh_supervision_for_neural_radiance_field_representation_and_g.md)
+- [\[CVPR 2026\] Emergent Extreme-View Geometry in 3D Foundation Models](emergent_extreme-view_geometry_in_3d_foundation_models.md)
+- [\[CVPR 2026\] MeshSplatting: Differentiable Rendering with Opaque Meshes](meshsplatting_differentiable_rendering_with_opaque_meshes.md)
 
 </div>
 

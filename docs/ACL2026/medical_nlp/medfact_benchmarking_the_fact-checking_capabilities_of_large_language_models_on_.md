@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2026  
 **arXiv**: [2509.12440](https://arxiv.org/abs/2509.12440)  
 **代码**: 项目页 https://iflytek-medical-southchina.github.io/MedFact/  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 中文医疗文本、事实核查、错误定位、医疗LLM评测、过度批判
 
 ## 一句话总结
@@ -105,6 +105,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 / 设置 | VC F1 | EL F1 | 关键信息 |
 |--------|------|------|------|
 | Human | 0.7521 | 0.7012 | 3 名医学专业人员平均表现 |
@@ -115,6 +116,7 @@ flowchart TD
 | DeepSeek-R1 zero-shot | 0.6847 | 0.6051 | Recall 高，但定位仍弱 |
 
 ### 策略对比
+
 | 模型 / 策略 | VC F1 | EL F1 | 现象 |
 |------|------|------|------|
 | DeepSeek-R1 | 0.6847 | 0.6051 | zero-shot 基线 |

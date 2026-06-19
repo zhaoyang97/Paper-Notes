@@ -146,8 +146,8 @@ LPWM 在 PandaPush 和 OGBench 的多任务上显著超越基线。OGBench task3
 
 - [\[ICLR 2026\] Latent Equivariant Operators for Robust Object Recognition: Promises and Challenges](latent_equivariant_operators_for_robust_object_recognition_promises_and_challeng.md)
 - [\[AAAI 2026\] Beyond World Models: Rethinking Understanding in AI Models](../../AAAI2026/others/beyond_world_models_rethinking_understanding_in_ai_models.md)
-- [\[ICLR 2026\] Latent Fourier Transform](latent_fourier_transform.md)
 - [\[ICML 2025\] General Agents Contain World Models](../../ICML2025/others/general_agents_contain_world_models.md)
+- [\[ICLR 2026\] Latent Fourier Transform](latent_fourier_transform.md)
 - [\[ICLR 2026\] Building Spatial World Models from Sparse Transitional Episodic Memories](building_spatial_world_models_from_sparse_transitional_episodic_memories.md)
 
 </div>

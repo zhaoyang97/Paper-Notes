@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2510.01184](https://arxiv.org/abs/2510.01184)  
 **代码**: https://temporalscorerescaling.github.io  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: temperature sampling, score rescaling, diffusion, flow matching, training-free  
 
 ## 一句话总结

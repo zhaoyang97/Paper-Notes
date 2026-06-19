@@ -1,16 +1,16 @@
 ---
 title: >-
-  ICML2026 强化学习论文汇总 · 95篇论文解读
+  ICML2026 强化学习论文汇总 · 110篇论文解读
 description: >-
-  95篇ICML2026的强化学习方向论文解读，涵盖强化学习、推理、LLM、Agent、对抗鲁棒、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  110篇ICML2026的强化学习方向论文解读，涵盖强化学习、推理、Agent、LLM、对抗鲁棒、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "强化学习"
   - "论文解读"
   - "论文笔记"
   - "推理"
-  - "LLM"
   - "Agent"
+  - "LLM"
   - "对抗鲁棒"
   - "扩散模型"
 item_list:
@@ -36,16 +36,22 @@ item_list:
     t: "Can Large Language Models Generalize Procedures Across Representations?"
   - u: "chebyshev_policies_and_the_mountain_car_problem_reinforcement_learning_for_low-d/"
     t: "Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-Dimensional Control Tasks"
+  - u: "collie_guiding_skill_discovery_in_semantically_coherent_latent_space/"
+    t: "COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space"
   - u: "compositional_transduction_with_latent_analogies_for_offline_goal-conditioned_re/"
     t: "Compositional Transduction with Latent Analogies for Offline Goal-Conditioned Reinforcement Learning"
   - u: "convergence_of_steepest_descent_and_adam_under_non-uniform_smoothness/"
     t: "Convergence of Steepest Descent and Adam under Non-Uniform Smoothness"
   - u: "convergence_of_two-timescale_markovian_stochastic_approximations_with_applicatio/"
     t: "Convergence of Two-Timescale Markovian Stochastic Approximations with Applications in Reinforcement Learning"
+  - u: "counterfactual_transport_flows_for_offline_conservative_trajectory_refinement/"
+    t: "Counterfactual Transport Flows for Offline Conservative Trajectory Refinement"
   - u: "coupled_variational_reinforcement_learning_for_language_model_general_reasoning/"
     t: "Coupled Variational Reinforcement Learning for Language Model General Reasoning"
   - u: "cpmobius_iterative_coach-player_reasoning_for_data-free_reinforcement_learning/"
     t: "CPMöbius: Iterative Coach–Player Reasoning for Data-Free Reinforcement Learning"
+  - u: "cspo_constraint-sensitive_policy_optimization_for_safe_reinforcement_learning/"
+    t: "CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning"
   - u: "d2_improving_reasoning_in_diffusion_language_models_via_trajectory_likelihood_es/"
     t: "d2: Improving Reasoning in Diffusion Language Models via Trajectory Likelihood Estimation"
   - u: "d2evo_dual_difficulty-aware_self-evolution_for_data-efficient_reinforcement_lear/"
@@ -58,33 +64,27 @@ item_list:
     t: "DR.Q: Debiased Model-based Representations for Sample-efficient Continuous Control"
   - u: "decoupling_skeleton_and_flesh_efficient_multimodal_table_reasoning_with_disentan/"
     t: "Decoupling Skeleton and Flesh: Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance"
+  - u: "direction-conditioned_policies_via_compositional_subgoal_scoring_for_online_goal/"
+    t: "Direction-Conditioned Policies via Compositional Subgoal Scoring for Online Goal-Conditioned Reinforcement Learning"
   - u: "distributional_inverse_reinforcement_learning/"
     t: "Distributional Inverse Reinforcement Learning"
   - u: "dr_tulu_reinforcement_learning_with_evolving_rubrics_for_deep_research/"
     t: "Dr. Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research"
+  - u: "drive_distributional_and_retrieval-augmented_bidding_with_value_evaluation/"
+    t: "DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation"
   - u: "eapo_enhancing_policy_optimization_with_on-demand_expert_assistance/"
     t: "EAPO: Enhancing Policy Optimization with On-Demand Expert Assistance"
-  - u: "echorl_reinforcement_learning_via_rollout_echoing/"
-    t: "EchoRL: Reinforcement Learning via Rollout Echoing"
-  - u: "fab_a_first-order_ab-based_gradient_algorithm_for_distributed_bilevel_optimizati/"
-    t: "FAB: A First-Order AB-based Gradient Algorithm for Distributed Bilevel Optimization over Time-Varying Directed Graphs"
-  - u: "flow_equivariant_world_models_memory_for_partially_observed_dynamic_environments/"
-    t: "Flow-Equivariant World Models: Memory for Partially Observed Dynamic Environments"
-  - u: "from_reward-free_representations_to_preferences_rethinking_offline_preference-ba/"
-    t: "From Reward-Free Representations to Preferences: Rethinking Offline Preference-Based Reinforcement Learning"
-  - u: "game_of_thought_robust_information_seeking_with_large_language_models_using_game/"
-    t: "Game of Thought: Robust Information Seeking with Large Language Models Using Game Theory"
-item_total: 95
+item_total: 110
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧪 ICML2026** · **95** 篇论文解读
+**🧪 ICML2026** · **110** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (30)](../../CVPR2026/reinforcement_learning/index.md) · [💬 ACL2026 (44)](../../ACL2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (126)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (25)](../../CVPR2026/reinforcement_learning/index.md) · [💬 ACL2026 (46)](../../ACL2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (161)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md)
 
-🔥 **高频主题：** 强化学习 ×37 · 推理 ×13 · LLM ×10 · Agent ×9 · 对抗鲁棒 ×4
+🔥 **高频主题：** 强化学习 ×45 · 推理 ×14 · Agent ×10 · LLM ×10 · 对抗鲁棒 ×4
 
 **[Adaptive Bandit Algorithms for Contextual Matching Markets](adaptive_bandit_algorithms_for_contextual_matching_markets.md)**
 
@@ -130,6 +130,10 @@ item_total: 95
 
 :   本文首次解析求解了经典 Mountain Car 最优控制问题（36 年未解），揭示出最优策略形式极简（$\alpha = C \cdot \dot{x}$）而现有 RL 智能体存在惊人高的遗憾值，进而提出基于多元 Chebyshev 多项式的策略参数化方法，在参数量减少 277 倍的同时将遗憾值降低 4.18 倍。
 
+**[COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space](collie_guiding_skill_discovery_in_semantically_coherent_latent_space.md)**
+
+:   本文提出 **COLLIE**——一种引导式技能发现（GSD）框架，用大量无标注数据先构建一个"语义连贯"的技能隐空间（隐空间里靠得近的状态人类期望度也相近），从而仅凭稀疏的人类"好/坏"标签就能 **免训练** 地传播出一个稠密引导信号 $w(s)$，把无监督探索导向安全、任务相关的区域，避免学出危险或无用技能，且无需训练任何额外的引导网络。
+
 **[Compositional Transduction with Latent Analogies for Offline Goal-Conditioned Reinforcement Learning](compositional_transduction_with_latent_analogies_for_offline_goal-conditioned_re.md)**
 
 :   本文提出 CTA（Compositional Transduction with latent Analogies），通过将目标到达任务分解为"任务内生类比"和"任务外生上下文"两个独立因子，利用时间距离差分场作为类比表示，并结合双线性转导实现对未见类比—上下文组合的外推，在 OGBench 操控环境上平均性能超过最强基线约 42%。
@@ -142,6 +146,10 @@ item_total: 95
 
 :   本文首次在 Markov 噪声且不依赖任何投影算子的条件下，建立了一般两时间尺度随机逼近 (SA) 的稳定性与几乎必然收敛性，并据此给出离策略线性函数逼近下 TDC($\lambda$) 算法的首个几乎必然收敛结果。
 
+**[Counterfactual Transport Flows for Offline Conservative Trajectory Refinement](counterfactual_transport_flows_for_offline_conservative_trajectory_refinement.md)**
+
+:   给定一条"低回报"的候选轨迹，本文不重新生成动作，而是在潜在轨迹空间里检索附近"更优"的轨迹作为弱监督，用源条件流匹配（source-conditioned flow matching）学一个"实例专属"的精炼方向，并用一个精炼强度参数 $\alpha$ 控制改多少，从而在"保留原行为"和"提升回报"之间连续权衡。
+
 **[Coupled Variational Reinforcement Learning for Language Model General Reasoning](coupled_variational_reinforcement_learning_for_language_model_general_reasoning.md)**
 
 :   CoVRL 把"用回答概率当奖励"的 verifier-free RL 重写成一个变分推断问题，构造一个"先验 (只看问题) + 后验 (看到答案)"的复合分布，并用混合采样 + 重要性加权同时优化两者，使 Qwen2.5-7B 在 9 个通用与数学推理基准上相对 base 平均涨 12.4%，比最强 verifier-free 基线再涨 2.3%。
@@ -149,6 +157,10 @@ item_total: 95
 **[CPMöbius: Iterative Coach–Player Reasoning for Data-Free Reinforcement Learning](cpmobius_iterative_coach-player_reasoning_for_data-free_reinforcement_learning.md)**
 
 :   把 self-play 从"对抗"换成"协作": Coach 出题、Player 解题、Coach 拿"Player 进步幅度 × Player 解题率"作为奖励, 在完全不用外部训练数据的条件下让 Qwen2.5-Math-7B-Instruct 在六个数学 benchmark 上总均分 +4.9、OOD +5.4, 超过 RENT/R-Zero 等已有 unsupervised 方法。
+
+**[CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning](cspo_constraint-sensitive_policy_optimization_for_safe_reinforcement_learning.md)**
+
+:   针对安全 RL 里原始-对偶方法"对偶滞后→约束修正延迟→在边界附近震荡"的老毛病，CSPO 把"到安全边界的最短带符号距离"作为约束敏感的修正项加进策略更新，按约束梯度范数自适应地调节纠偏力度，从而更快更稳地回到可行域，且不改变原约束问题的 KKT 解。
 
 **[d2: Improving Reasoning in Diffusion Language Models via Trajectory Likelihood Estimation](d2_improving_reasoning_in_diffusion_language_models_via_trajectory_likelihood_es.md)**
 
@@ -174,6 +186,10 @@ item_total: 95
 
 :   本文为多模态表格推理提出两件套：训练阶段 DiSCo 用结构匿名化把"骨架"和"血肉"两个对齐目标解耦，让 LVLM 只用 10K 表格图就学会布局；推理阶段 Table-GLS 用"全局结构探查 → 自反思子表抽取 → 证据稳态推理"三步把整图问答压缩到最小可验证子表上，整套无需推理数据微调也不调外部工具，在 21 项 benchmark 上超过依赖 82K-97K 标注的 SFT/RL 基线。
 
+**[Direction-Conditioned Policies via Compositional Subgoal Scoring for Online Goal-Conditioned Reinforcement Learning](direction-conditioned_policies_via_compositional_subgoal_scoring_for_online_goal.md)**
+
+:   本文提出 DCP（Direction-Conditioned Policies），把在线目标条件 RL 里"actor 直接吃原始目标坐标"换成"actor 吃学到的表示空间里指向目标的单位方向 + 模长"，并用一个从历史访问状态里选子目标的打分规则在训练早期稳定这个方向，在九个导航/操作环境上多数指标超过对比 RL（CRL）。
+
 **[Distributional Inverse Reinforcement Learning](distributional_inverse_reinforcement_learning.md)**
 
 :   本文提出 DistIRL：在离线逆强化学习中把奖励本身建模为条件分布、把"专家比学习者更优"这一约束从期望升级到一阶随机占优 (FSD)，并用失真风险度量 (DRM) 把 FSD 难解的 0/1 指示函数松弛成可优化的风险加权目标，从而首次系统地从离线示范中同时学到完整奖励分布与分布感知策略。
@@ -181,6 +197,10 @@ item_total: 95
 **[Dr. Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research](dr_tulu_reinforcement_learning_with_evolving_rubrics_for_deep_research.md)**
 
 :   Dr. Tulu 提出 RLER（Reinforcement Learning with Evolving Rubrics），让评估 rubric 在训练过程中与策略共同演化，把 RLVR 从短答案 QA 推广到带引用的长文深度研究任务，最终用 Qwen3-8B 训出的 DR Tulu-8B 在四个长文 deep research 基准上平均超 Tongyi DR-30B 15.6 个点，并以 1000 倍更低成本达到 OpenAI Deep Research 同等水平。
+
+**[DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation](drive_distributional_and_retrieval-augmented_bidding_with_value_evaluation.md)**
+
+:   针对广告实时竞价中 Decision Transformer 类方法"把多种有效出价策略平均成一个不上不下的烂动作"和"稀疏长尾流量下乱出价"两大毛病，DRIVE 把**候选动作生成**和**最终决策**解耦：用高斯混合（GMM）头生成多模态候选、再从历史高质量决策里检索候选、最后用 IQL 价值评论家给所有候选打分选最优出价，在 AuctionNet 上平均分从最强基线的 378.4 提到 386.6，并能即插即用地嫁接到多种 DT 类方法上。
 
 **[EAPO: Enhancing Policy Optimization with On-Demand Expert Assistance](eapo_enhancing_policy_optimization_with_on-demand_expert_assistance.md)**
 
@@ -193,6 +213,10 @@ item_total: 95
 **[FAB: A First-Order AB-based Gradient Algorithm for Distributed Bilevel Optimization over Time-Varying Directed Graphs](fab_a_first-order_ab-based_gradient_algorithm_for_distributed_bilevel_optimizati.md)**
 
 :   本文提出 FAB——首个面向时变有向图分布式双层优化的纯一阶算法，将 AB/Push-Pull 通信与值函数惩罚法相结合，给出非渐近 $\mathcal{O}(K^{-2/3})$ 收敛率，并顺带解决了 AB/Push-Pull 在时变有向图非凸场景下收敛率长期悬而未决的开放问题。
+
+**[Fast and Highly Expressive Policy Learning for Offline Reinforcement Learning via Bootstrapped Flow Q-Learning](fast_and_highly_expressive_policy_learning_for_offline_reinforcement_learning_vi.md)**
+
+:   针对扩散 Q-learning 多步去噪 + BPTT 又慢又脆的痛点，BFQ 把"噪声→动作"的整段位移做分治式自举——先学短程位移（可由 Flow Matching 边际速度精确估计），再把它们逐级拼成单步的直达映射，从而在训练和推理时都只需一步生成动作，不用辅助网络、不用蒸馏、不用多阶段，在 D4RL 上既提分又大幅提速。
 
 **[Flow-Equivariant World Models: Memory for Partially Observed Dynamic Environments](flow_equivariant_world_models_memory_for_partially_observed_dynamic_environments.md)**
 
@@ -214,9 +238,17 @@ item_total: 95
 
 :   本文先用一个新建的 State Value Estimation Benchmark (SVEB) 实证 PPO critic 在 LLM RL 里几乎完全退化为 GRPO 的组均奖励 baseline，再提出两种以"无须额外 rollout、几乎零额外算力"为目标的状态价值估计方法 —— Numca 用数字 milestone 把数学推理重写为目标条件 RL 做信用分配，Hista 用 LLM 末层隐状态 + MinDistance 做概率加权奖励平均 —— 在五大类 SVEB 子集都把 MAE 降到 GRPO/PPO 之下，并让 DAPO/CSIPO 等强算法在多个数学基准上拿到一致提升。
 
+**[How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs](how_does_reasoning_flow_tracing_attention-induced_information_flow_for_targeted_.md)**
+
+:   把一条生成轨迹看成注意力诱导的有向无环图，用一种 Doob-h 式重加权把"真正流向答案"的信息路径筛出来，再用每个 token 的"流量吞吐"给 GRPO 做非均匀信用分配——让训练信号集中在少数支撑答案的关键 token 上，在数学推理等任务上稳定超过 GRPO 与各类逐点启发式。
+
 **[How Reasoning Evolves from Post-Training Data: An Empirical Study Using Chess](how_reasoning_evolves_from_post-training_data_an_empirical_study_using_chess.md)**
 
 :   作者把"训 LLM 学下国际象棋"当成可验证 RL 的干净实验台，系统比对 6 类自制 SFT 数据集对 RL 的影响，发现"直接预测最佳一步 (Best Move)"得最高分但 RL 后产生不忠实推理，"预测多步最佳走法 (Best Line)"性能相当但 RL 更稳、推理更忠实；并提炼出三条可用 SFT-checkpoint 预测 RL 终局性能的指标，最终用 7B 模型在多个国象 benchmark 上超过 gpt-oss-120b。
+
+**[Informed Asymmetric Actor-Critic: Leveraging Privileged Signals Beyond Full-State Access](informed_asymmetric_actor-critic_leveraging_privileged_signals_beyond_full-state.md)**
+
+:   本文把"非对称 actor-critic"从"critic 必须看到完整环境状态"放宽为"critic 可以看任意状态相关的特权信号"，证明任何这类信号都给出无偏策略梯度，并进一步提出两个判断"哪个特权信号最有用"的信息量检验，实验证明精挑的部分特权信号能在用更少状态信息的前提下追平甚至超过用全状态的非对称基线。
 
 **[InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinforcement Learning](inftythink_effective_and_efficient_infinite-horizon_reasoning_via_reinforcement_.md)**
 
@@ -306,6 +338,14 @@ item_total: 95
 
 :   SeqComm-DFL 把"多智能体通信"作为预测器、把"联合策略选择"作为下游优化器，用价值感知的消息生成 + Stackelberg 序贯条件 + 隐式微分双层优化把通信学习直接对齐到团队回报，在医院调度和 SMAC 上取得 4-6 倍的累积奖励提升与 >13 个百分点的胜率提高。
 
+**[Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch](multi-agent_reinforcement_learning_from_delayed_marketplace_feedback_for_objecti.md)**
+
+:   DoorDash 把外卖派单的"目标权重"调控做成一个离线多智能体强化学习问题：不替换原有的组合分派优化器，而是让每个门店级 agent 根据本地市场状态选一个离散乘子来微调优化器在"送达速度 vs 拼单效率"之间的权衡，用 Double DQN + 保守 Q 正则从带延迟、噪声、耦合的市场日志里离线训练，并在约 4000 个地理区域的生产 switchback 实验中做到"提高拼单率、降低骑手侧耗时，同时不损害顾客送达质量"。
+
+**[Noise-Guided Transport: Imitation Learning from Random Priors](noise-guided_transport_for_imitation_learning.md)**
+
+:   把模仿学习改写成「让一个预测网络在专家数据上去拟合一个冻结随机先验网络、在智能体数据上反着拟合」的对抗训练，证明这个目标等价于在最小化专家与智能体分布之间的最优传输距离（EMD），从而得到一个不需要梯度惩罚、在只有 20 条转移的超低数据下也能学会人形机器人步态的轻量方法。
+
 **[Offline Reinforcement Learning with Generative Trajectory Policies](offline_reinforcement_learning_with_generative_trajectory_policies.md)**
 
 :   本文用「连续时间 ODE 解映射」把扩散策略、Flow Matching、一致性策略统一为同一族「生成轨迹策略 (GTP)」，再加上一个对齐离线样本的闭式 score 近似与一个优势加权的训练目标，使策略在 D4RL 上既能少步采样、又能在 AntMaze 等硬任务上拿到接近满分的成绩。
@@ -329,6 +369,10 @@ item_total: 95
 **[Parameter-free Dynamic Regret: Time-varying Movement Costs, Delayed Feedback, and Memory](parameter-free_dynamic_regret_time-varying_movement_costs_delayed_feedback_and_m.md)**
 
 :   本文给出第一个针对**无约束**在线凸优化、**时变移动代价**与**动态比较序列**三重设定的 parameter-free 算法，把延迟反馈与时变记忆都规约为带时变移动代价的 OCO，从而统一刷新这三个场景的动态遗憾上界。
+
+**[PAWS: Preference Learning with Advantage-Weighted Segments](paws_preference_learning_with_advantage-weighted_segments.md)**
+
+:   PAWS 指出现有偏好强化学习（PbRL）"在段级训练效用函数、却在单步级使用"造成了分布偏移，从而提出**全程都在轨迹段（segment）层面**训练优势函数并更新策略，用段级优势加权 + 信任域约束的加权最大似然来优化策略，在 Meta-World 机器人操作任务上把偏好信号的利用率和成功率都显著拉高。
 
 **[Perceptual Flow Network for Visually Grounded Reasoning](perceptual_flow_network_for_visually_grounded_reasoning.md)**
 
@@ -374,6 +418,10 @@ item_total: 95
 
 :   本文针对未知 MDP 上的可达性规约学习问题，提出一个分阶段细化 PAC 参数的直接学习算法，证明以概率 1 存在有限阶段 $K_{\mathsf{opt}}$，此后只输出最优策略，并用内在 MDP 参数显式刻画该阶段，在量化验证基准上经验地证实最优策略可在极少阶段（中位数 $k=2$）内出现。
 
+**[Reverse Flow Matching: A Unified Framework for Online Reinforcement Learning with Diffusion and Flow Policies](reverse_flow_matching_a_unified_framework_for_online_reinforcement_learning_with.md)**
+
+:   针对「在线 RL 里没有目标策略的直接样本」这个核心难题，本文提出反向流匹配（RFM）：把训练扩散/流策略去拟合 Boltzmann 分布，转化成一个「给定中间噪声样本、估计后验均值」的问题，再用 Langevin Stein 算子构造零均值控制变量把现有的「噪声期望」与「梯度期望」两类方法统一成同一族估计器，从而第一次让流策略（而不止扩散策略）也能采样 Boltzmann 分布，并在连续控制基准上比扩散策略基线更稳更好。
+
 **[Revisiting Regularized Policy Optimization for Stable and Efficient Reinforcement Learning in Two-Player Games](revisiting_regularized_policy_optimization_for_stable_and_efficient_reinforcemen.md)**
 
 :   KLENT 把 reverse-KL 正则（控制策略更新幅度）+ 熵正则（维持探索）+ λ-return（平衡偏差方差）这三件成熟"老零件"重新组合到自博弈 model-free RL 里，在 5 个棋类上达到比 Gumbel AlphaZero 高 4 倍训练效率，并给出 normal-form 与 finite-length 两种场景下的收敛性证明。
@@ -385,6 +433,10 @@ item_total: 95
 **[RL4RLA: Teaching ML to Discover Randomized Linear Algebra Algorithms Through Curriculum Design and Graph-Based Search](rl4rla_teaching_ml_to_discover_randomized_linear_algebra_algorithms_through_curr.md)**
 
 :   RL4RLA 用"难度递增的数值课程 + 蒙特卡洛图搜索 (MCGS)"驱动一个 RL agent 从线性代数原语里组合出可解释的随机数值线性代数 (RLA) 算法，成功重现了 Sketch-and-Precondition、Randomized Kaczmarz、Newton Sketch 等经典方法。
+
+**[RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments](rlve_scaling_up_reinforcement_learning_for_language_models_with_adaptive_verifia.md)**
+
+:   RLVE 把语言模型 RL 训练的数据从"静态题库"换成 400 个**可程序化生成题目、可算法验证奖励**的"可验证环境"，并让每个环境的题目难度随策略模型能力实时上调，从而把训练信号始终钉在模型能力前沿；在已被 RLVR 训到饱和的 1.5B 强模型上，RLVE 用约 1/3 的算力把六个推理 benchmark 平均提升 $3.37\%$（对照组继续原 RL 训练只涨 $0.49\%$）。
 
 **[RulePlanner: All-in-One Reinforcement Learner for Unifying Design Rules in 3D Floorplanning](ruleplanner_all-in-one_reinforcement_learner_for_unifying_design_rules_in_3d_flo.md)**
 
@@ -409,6 +461,10 @@ item_total: 95
 **[Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Selection](single-rollout_hidden-state_dynamics_for_training-free_rlvr_data_selection.md)**
 
 :   SHIFT 用一次贪心解码下的"开始 token → 结束 token"隐状态差 $\Delta(x)=\mathbf{e}(x)-\mathbf{s}(x)$ 同时充当 RLVR 样本的效用代理和多样性特征，再用质量加权的最远优先 CoreSet 在大规模无标注池里挑出极少量样本，全过程不训练、不需要奖励或答案。
+
+**[Space-sampled Value Decay: Forgetting Mechanisms for Non-stationary Deep Reinforcement Learning](space-sampled_value_decay_forgetting_mechanisms_for_non-stationary_deep_reinforc.md)**
+
+:   针对环境会悄悄"漂移"、且不给任何 task ID 或 context 提示的非平稳强化学习场景，本文提出 **Space-sampled Value Decay (SsVD)**：通过从状态空间采样并把那些"没去过 / 信息已过期"的状态的 Q 值持续衰减回一个基线，让 DQN/SAC 主动遗忘陈旧知识，从而在动态变化的环境里维持高回报。
 
 **[SPHERE: Mitigating the Loss of Spectral Plasticity in Mixture-of-Experts for Deep Reinforcement Learning](sphere_mitigating_the_loss_of_spectral_plasticity_in_mixture-of-experts_for_deep.md)**
 
@@ -453,6 +509,10 @@ item_total: 95
 **[Unlocking Zero-Shot Geospatial Reasoning via Indirect Rewards](unlocking_zero-shot_geospatial_reasoning_via_indirect_rewards.md)**
 
 :   作者把"地面街景与卫星图能否定位为同一坐标"作为可验证间接奖励，用 GRPO 对 Qwen2.5-VL-7B 做两阶段后训练（CoT scaffolding + RL self-exploring），让模型仅凭 GPS metadata 学到可零样本迁移到 25+ 地理空间任务的通用推理能力。
+
+**[Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning](video-based_optimal_transport_for_feedback-efficient_offline_preference-based_re.md)**
+
+:   针对偏好强化学习（PbRL）需要成千上万次人工比较才能学出好奖励的高标注成本问题，VOTP 把轨迹片段用视频基础模型编码进语义空间，再用最优传输在"少量已标注对"和"海量未标注对"之间求对齐、把偏好传播过去自动生成伪标签，只用 10 个标注就能学到有效奖励，在 D4RL 运动控制和 MetaWorld 操作任务上超过现有离线 PbRL 方法、几乎追平 Oracle。
 
 **[Vulnerable Agent Identification in Large-Scale Multi-Agent Reinforcement Learning](vulnerable_agent_identification_in_large-scale_multi-agent_reinforcement_learnin.md)**
 

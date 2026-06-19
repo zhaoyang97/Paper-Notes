@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 3D视觉论文汇总 · 62篇论文解读
+  ICLR2026 3D视觉论文汇总 · 71篇论文解读
 description: >-
-  62篇ICLR2026的 3D 视觉方向论文解读，涵盖 3D 高斯渲染、动态场景、三维重建、机器人、新视角合成、NeRF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  71篇ICLR2026的 3D 视觉方向论文解读，涵盖 3D 高斯渲染、动态场景、三维重建、机器人、新视角合成、NeRF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "3D 视觉"
@@ -17,12 +17,26 @@ tags:
 item_list:
   - u: "3dgeer_3d_gaussian_rendering_made_exact_and_efficient_for_generic_cameras/"
     t: "3DGEER: 3D Gaussian Rendering Made Exact and Efficient for Generic Cameras"
+  - u: "3dsmt_a_hybrid_spiking_mamba-transformer_for_point_cloud_analysis/"
+    t: "3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis"
+  - u: "a2tg_adaptive_anisotropic_textured_gaussians_for_efficient_3d_scene_representati/"
+    t: "A²TG: Adaptive Anisotropic Textured Gaussians for Efficient 3D Scene Representation"
   - u: "a_step_to_decouple_optimization_in_3dgs/"
     t: "A Step to Decouple Optimization in 3DGS"
+  - u: "active_learning_of_3d_gaussian_splatting_with_consistent_region_partition_and_ro/"
+    t: "Active Learning of 3D Gaussian Splatting with Consistent Region Partition and Robust Pose Estimation"
+  - u: "all_that_glitters_is_not_gold_key-secured_3d_secrets_within_3d_gaussian_splattin/"
+    t: "All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting"
+  - u: "artuv_artist-style_uv_unwrapping/"
+    t: "ArtUV: Artist-style UV Unwrapping"
   - u: "assetformer_modular_3d_assets_generation_with_autoregressive_transformer/"
     t: "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer"
   - u: "augmented_radiance_field_a_general_framework_for_enhanced_gaussian_splatting/"
     t: "Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting"
+  - u: "clap_unsupervised_3d_representation_learning_for_fusion_3d_perception_via_curvat/"
+    t: "CLAP: Unsupervised 3D Representation Learning for Fusion 3D Perception via Curvature Sampling and Prototype Learning"
+  - u: "clod-gs_continuous_level-of-detail_via_3d_gaussian_splatting/"
+    t: "CLoD-GS: Continuous Level-of-Detail via 3D Gaussian Splatting"
   - u: "clods_visual-only_unsupervised_cloth_dynamics_learning_in_unknown_conditions/"
     t: "CloDS: Visual-Only Unsupervised Cloth Dynamics Learning in Unknown Conditions"
   - u: "color3d_controllable_and_consistent_3d_colorization_with_personalized_colorizer/"
@@ -51,6 +65,8 @@ item_list:
     t: "Fast Estimation of Wasserstein Distances via Regression on Sliced Wasserstein Distances"
   - u: "fastgha_generalized_few-shot_3d_gaussian_head_avatars_with_real-time_animation/"
     t: "FastGHA: Generalized Few-Shot 3D Gaussian Head Avatars with Real-Time Animation"
+  - u: "fracture-gs_dynamic_fracture_simulation_with_physics-integrated_gaussian_splatti/"
+    t: "Fracture-GS: Dynamic Fracture Simulation with Physics-Integrated Gaussian Splatting"
   - u: "fused-planes_why_train_a_thousand_tri-planes_when_you_can_share/"
     t: "Fused-Planes: Why Train a Thousand Tri-Planes When You Can Share?"
   - u: "generalizable_coarse-to-fine_robot_manipulation_via_language-aligned_3d_keypoint/"
@@ -59,41 +75,45 @@ item_list:
     t: "GeoPurify: A Data-Efficient Geometric Distillation Framework for Open-Vocabulary 3D Segmentation"
   - u: "giq_benchmarking_3d_geometric_reasoning_of_vision_foundation_models_with_simulat/"
     t: "GIQ: Benchmarking 3D Geometric Reasoning of Vision Foundation Models with Simulated and Real Polyhedra"
-  - u: "hdr-nsff_high_dynamic_range_neural_scene_flow_fields/"
-    t: "HDR-NSFF: High Dynamic Range Neural Scene Flow Fields"
-  - u: "into_the_rabbit_hull_from_task-relevant_concepts_in_dino_to_minkowski_geometry/"
-    t: "Into the Rabbit Hull: From Task-Relevant Concepts in DINO to Minkowski Geometry"
-  - u: "joint_shadow_generation_and_relighting_via_light-geometry_interaction_maps/"
-    t: "Joint Shadow Generation and Relighting via Light-Geometry Interaction Maps"
-  - u: "learning_part-aware_dense_3d_feature_field_for_generalizable_articulated_object_/"
-    t: "Learning Part-Aware Dense 3D Feature Field for Generalizable Articulated Object Manipulation"
-  - u: "learning_physics-grounded_4d_dynamics_with_neural_gaussian_force_fields/"
-    t: "Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields"
-  - u: "learning_unified_representation_of_3d_gaussian_splatting/"
-    t: "Learning Unified Representation of 3D Gaussian Splatting"
-  - u: "lito_surface_light_field_tokenization/"
-    t: "LiTo: Surface Light Field Tokenization"
-  - u: "megs2_memory-efficient_gaussian_splatting_via_spherical_gaussians_and_unified_pr/"
-    t: "MEGS2: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning"
-item_total: 62
+item_total: 71
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**🔬 ICLR2026** · **62** 篇论文解读
+**🔬 ICLR2026** · **71** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (626)](../../CVPR2026/3d_vision/index.md) · [🧪 ICML2026 (24)](../../ICML2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [📹 ICCV2025 (267)](../../ICCV2025/3d_vision/index.md) · [🧪 ICML2025 (17)](../../ICML2025/3d_vision/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (751)](../../CVPR2026/3d_vision/index.md) · [🧪 ICML2026 (30)](../../ICML2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [📹 ICCV2025 (267)](../../ICCV2025/3d_vision/index.md) · [🧪 ICML2025 (17)](../../ICML2025/3d_vision/index.md)
 
-🔥 **高频主题：** 3D 高斯渲染 ×11 · 动态场景 ×4 · 三维重建 ×4 · 机器人 ×3 · 新视角合成 ×3
+🔥 **高频主题：** 3D 高斯渲染 ×17 · 动态场景 ×5 · 三维重建 ×4 · 机器人 ×3 · 新视角合成 ×3
 
 **[3DGEER: 3D Gaussian Rendering Made Exact and Efficient for Generic Cameras](3dgeer_3d_gaussian_rendering_made_exact_and_efficient_for_generic_cameras.md)**
 
 :   提出 3DGEER 框架，通过推导沿光线积分高斯密度的闭式解、设计粒子包围截锥体 (PBF) 进行精确高效的光线-粒子关联、以及引入双极等角投影 (BEAP) 统一宽视场相机表示，在任意相机模型下实现了几何精确且实时高效的 3D 高斯渲染，在鱼眼和针孔数据集上全面超越现有方法。
 
+**[3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis](3dsmt_a_hybrid_spiking_mamba-transformer_for_point_cloud_analysis.md)**
+
+:   3DSMT 把脉冲神经网络（SNN）的事件驱动低功耗特性，与 Transformer 的局部建模、Mamba 的线性复杂度全局建模拧成一个混合架构，用「脉冲局部偏移注意力 + 脉冲 Mamba 块」在分类、少样本、分割任务上拿下 SNN 方法的 SOTA，能耗只有 ANN 同行的几十分之一，还反超了不少 ANN 模型。
+
+**[A²TG: Adaptive Anisotropic Textured Gaussians for Efficient 3D Scene Representation](a2tg_adaptive_anisotropic_textured_gaussians_for_efficient_3d_scene_representati.md)**
+
+:   A²TG 给每个 2D 高斯配一张分辨率和长宽比都自适应的「各向异性纹理」，用梯度驱动的选择 + 升采样规则把纹理参数只花在真正需要高频细节的高斯上，从而在相同显存预算下比固定方形纹理的高斯泼溅画质更高、显存更省。
+
 **[A Step to Decouple Optimization in 3DGS](a_step_to_decouple_optimization_in_3dgs.md)**
 
 :   深入分析 3DGS 优化中被忽视的更新步耦合（不可见视点下的隐式更新和动量重缩放）和梯度耦合（正则化与光度损失在 Adam 动量中的耦合），通过解耦和重组提出 AdamW-GS 优化器，在不引入额外剪枝操作的情况下同时提升重建质量和减少冗余原语。
+
+**[Active Learning of 3D Gaussian Splatting with Consistent Region Partition and Robust Pose Estimation](active_learning_of_3d_gaussian_splatting_with_consistent_region_partition_and_ro.md)**
+
+:   本文给 3D Gaussian Splatting 设计了一套在线主动学习算法：边训练边告诉用户"下一张该从哪个角度拍"，通过可见性特征聚类把模型切成一致区域、用语义特征方差找出最欠重建的区域、再用 von Mises-Fisher 分布直接生成下一最佳位姿，并配一套鲁棒位姿优化来吃掉手持拍摄带来的位姿噪声，在 NeRF-Synthetic 上以 10/20 张图的少视角设定超过 FisherRF 等 SOTA。
+
+**[All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting](all_that_glitters_is_not_gold_key-secured_3d_secrets_within_3d_gaussian_splattin.md)**
+
+:   KeySS 把"在一个 3DGS 封面场景里藏多个 3DGS 秘密场景"做成端到端可训练框架：用 CLIP 编码的密钥控制一个解码器把封面高斯直接变换成秘密高斯，错误密钥只会还原封面；同时发现高斯的不同属性对藏秘贡献并不相等（不透明度有用、球谐几乎无用），并提出 3D-Sinkhorn 距离在高斯参数空间里度量隐写隐蔽性，最终在重建保真度与抗检测安全性上都超过 GS-Hider。
+
+**[ArtUV: Artist-style UV Unwrapping](artuv_artist-style_uv_unwrapping.md)**
+
+:   ArtUV 把"专业美术师手工拆 UV"这件事自动化成端到端两阶段流程——先用 SeamGPT 预测语义切缝、再用一个图卷积+金字塔自编码器把传统软件拆出的"粗糙 UV"回归成偏移量、调成整洁低畸变的艺术家风格 UV 图，在畸变、利用率、速度上都超过 Blender/Maya 乃至人工手拆。
 
 **[AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer](assetformer_modular_3d_assets_generation_with_autoregressive_transformer.md)**
 
@@ -102,6 +122,14 @@ item_total: 62
 **[Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting](augmented_radiance_field_a_general_framework_for_enhanced_gaussian_splatting.md)**
 
 :   提出增强辐射场 (Augmented Radiance Field) 框架，通过设计具有视角相关不透明度的增强高斯核来显式建模高光分量，并引入误差驱动的补偿策略（2D 高斯初始化 → 逆投影至 3D → 联合优化），作为后处理即插即用地增强现有 3DGS 场景，在多个数据集上超越 SOTA NeRF 方法，同时仅需二阶球谐即可捕获复杂光照。
+
+**[CLAP: Unsupervised 3D Representation Learning for Fusion 3D Perception via Curvature Sampling and Prototype Learning](clap_unsupervised_3d_representation_learning_for_fusion_3d_perception_via_curvat.md)**
+
+:   CLAP 提出首个面向「相机+LiDAR 融合感知」的无监督联合预训练方法：用**曲率采样**只挑场景里信息量大的点/像素来扛住可微渲染的显存开销，再用**可学习原型 + EM 训练**把两个模态拉到同一特征空间挖掘互补性，在 NuScenes / Waymo 上比此前 SOTA（UniPAD）多拿一倍的下游提升。
+
+**[CLoD-GS: Continuous Level-of-Detail via 3D Gaussian Splatting](clod-gs_continuous_level-of-detail_via_3d_gaussian_splatting.md)**
+
+:   CLoD-GS 给每个 3D 高斯加一个可学习的"距离衰减因子"，让基元的不透明度随观察距离平滑下降，从而在**单个模型**里实现连续可调的细节层次（CLoD），既消除了传统离散 LoD 的多份存储与切换"跳变"，又顺带把基元数量和显存压了下来。
 
 **[CloDS: Visual-Only Unsupervised Cloth Dynamics Learning in Unknown Conditions](clods_visual-only_unsupervised_cloth_dynamics_learning_in_unknown_conditions.md)**
 
@@ -159,6 +187,10 @@ item_total: 62
 
 :   提出 FastGHA，一个前馈式少样本 3D 高斯头部化身生成框架，从 4 张任意表情/视角的输入图像在 ~1 秒内重建可动画的 3D 高斯头部，支持 62 FPS 实时动画，在 Ava-256 上 PSNR 达到 22.5 dB（超越 Avat3r 的 20.7，且快 7.75 倍）。
 
+**[Fracture-GS: Dynamic Fracture Simulation with Physics-Integrated Gaussian Splatting](fracture-gs_dynamic_fracture_simulation_with_physics-integrated_gaussian_splatti.md)**
+
+:   Fracture-GS 把"增强版碰撞物质点法 (Collision-MPM)"和"断裂感知的 3D 高斯连续体表示"统一进一条从多视角图像到渲染的管线，专门处理极端机械碰撞下的脆性断裂——既用动量守恒的界面力消除碎块之间的非物理粘连，又用 MVEE 高斯重建填补断裂界面的渲染空洞，在 PSNR/LPIPS/FID 和人评断裂保真度上都明显超过 PhysGaussian、GIC。
+
 **[Fused-Planes: Why Train a Thousand Tri-Planes When You Can Share?](fused-planes_why_train_a_thousand_tri-planes_when_you_can_share.md)**
 
 :   提出 Fused-Planes，通过宏观-微观分解将 Tri-Plane 表示分为共享的类级基平面（macro）和对象特有的细节平面（micro），结合潜空间渲染，实现 7× 训练加速、3× 内存压缩，同时保持甚至超越独立 Tri-Plane 的重建质量。
@@ -178,6 +210,10 @@ item_total: 62
 **[HDR-NSFF: High Dynamic Range Neural Scene Flow Fields](hdr-nsff_high_dynamic_range_neural_scene_flow_fields.md)**
 
 :   提出 HDR-NSFF，将 HDR 视频重建从传统的 2D 像素级融合范式转变为 4D 时空建模，从交替曝光单目视频中联合重建 HDR 辐射场、3D 场景流、几何和色调映射，实现了时空一致的动态 HDR 新视角合成。
+
+**[Implicit 4D Gaussian Splatting for Fast Motion with Large Inter-Frame Displacements](implicit_4d_gaussian_splatting_for_fast_motion_with_large_inter-frame_displaceme.md)**
+
+:   SPIN-4DGS 把快速运动下"高斯属性学不好导致动态物体糊掉/消失"的问题，重构成"先按 $(x,y,z,t)$ 显式切片拿到可靠的时空位置、再用一个轻量前馈网络从位置直接解码出尺度/旋转/颜色/透明度"，在 CMU Panoptic Sports 六个体育场景上平均 PSNR 比最强基线高 1.4–1.7 dB，篮球场景超 D3DGS +1.83 dB。
 
 **[Into the Rabbit Hull: From Task-Relevant Concepts in DINO to Minkowski Geometry](into_the_rabbit_hull_from_task-relevant_concepts_in_dino_to_minkowski_geometry.md)**
 

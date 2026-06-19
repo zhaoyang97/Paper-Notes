@@ -171,8 +171,8 @@ VideoPhy 数据集（10 个子集）：D3 mAP = **99.16%**（对比 DeMamba 51.4
 - [\[AAAI 2026\] GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection](../../AAAI2026/video_generation/genvidbench_a_6-million_benchmark_for_ai-generated_video_detection.md)
 - [\[CVPR 2026\] D2Cache: Second-Order Delta Caching for Higher Video Diffusion Acceleration](../../CVPR2026/video_generation/d2cache_second-order_delta_caching_for_higher_video_diffusion_acceleration.md)
 - [\[CVPR 2025\] When to Lock Attention: Training-Free KV Control in Video Diffusion](../../CVPR2025/video_generation/when_to_lock_attention_training-free_kv_control_in_video_diffusion.md)
-- [\[ICCV 2025\] DualReal: Adaptive Joint Training for Lossless Identity-Motion Fusion in Video Customization](dualreal_adaptive_joint_training_for_lossless_identity-motion_fusion_in_video_cu.md)
 - [\[ICCV 2025\] SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering](steerx_creating_any_camera-free_3d_and_4d_scenes_with_geometric_steering.md)
+- [\[ICCV 2025\] DualReal: Adaptive Joint Training for Lossless Identity-Motion Fusion in Video Customization](dualreal_adaptive_joint_training_for_lossless_identity-motion_fusion_in_video_cu.md)
 
 </div>
 

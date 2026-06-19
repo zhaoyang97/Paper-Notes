@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][Chain-of-Frames] 本文提出 Chain-of-Frames（CoF），让视频 LLM 在单阶段推理里直接用「Frame-k」这样的帧编号去引用关键帧、把时序定位写进 CoT 文本本身，再用一条低成本数据管线造出 16.4 万条带帧引用的训练样本微调 InternVL，在 5 个视频理解 benchmark 上平均涨 3.8%~5.1%，且发现纯合成数据就能带来显著提升。
+  [CVPR 2026][VLM Reasoning][Chain-of-Frames] 本文提出 Chain-of-Frames（CoF），让视频 LLM 在单阶段推理里直接用「Frame-k」这样的帧编号去引用关键帧、把时序定位写进 CoT 文本本身，再用一条低成本数据管线造出 16.4 万条带帧引用的训练样本微调 InternVL，在 5 个视频理解 benchmark 上平均涨 3.8%~5.1%，且发现纯合成数据就能带来显著提升。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "Chain-of-Frames"
   - "视频推理"
   - "时序定位"
@@ -167,11 +167,11 @@ CoF 在更少参数下仍超过这些多阶段检索方法；相对 M-LLM，CoF 
 
 ## 相关论文
 
-- [\[CVPR 2026\] EmoThinker: Advancing Visual-Acoustic Emotion Analysis via Structural Token Selection and Chain-of-Thought Reasoning](emothinker_advancing_visual-acoustic_emotion_analysis_via_structural_token_selec.md)
-- [\[CVPR 2026\] World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models](world_in_a_frame_understanding_culture_mixing_as_a_new_challenge_for_vision-lang.md)
-- [\[CVPR 2026\] TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](timelens_rethinking_video_temporal_grounding_with_multimodal_llms.md)
-- [\[CVPR 2026\] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
 - [\[CVPR 2026\] Agentic Video Summarization via Self-Reflecting Multimodal Understanding](agentic_video_summarization_via_self-reflecting_multimodal_understanding.md)
+- [\[CVPR 2026\] EmoThinker: Advancing Visual-Acoustic Emotion Analysis via Structural Token Selection and Chain-of-Thought Reasoning](emothinker_advancing_visual-acoustic_emotion_analysis_via_structural_token_selec.md)
+- [\[CVPR 2026\] Towards Sparse Video Understanding and Reasoning](towards_sparse_video_understanding_and_reasoning.md)
+- [\[CVPR 2026\] Graph-to-Frame RAG: Visual-Space Knowledge Fusion for Training-Free and Auditable Video Reasoning](graph-to-frame_rag_visual-space_knowledge_fusion_for_training-free_and_auditable.md)
 
 </div>
 

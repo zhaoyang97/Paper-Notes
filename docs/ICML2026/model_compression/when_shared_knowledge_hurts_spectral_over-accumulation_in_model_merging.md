@@ -137,7 +137,7 @@ SVC 本身没有训练损失。论文用一个投影最优问题解释校准因�
 - [\[ICLR 2026\] AdaRank: Adaptive Rank Pruning for Enhanced Model Merging](../../ICLR2026/model_compression/adarank_adaptive_rank_pruning_for_enhanced_model_merging.md)
 - [\[ICML 2026\] Model Merging Scaling Laws in Large Language Models](model_merging_scaling_laws_in_large_language_models.md)
 - [\[ICML 2026\] Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training](decouple_searching_from_training_scaling_data_mixing_via_model_merging_for_large.md)
-- [\[CVPR 2026\] Model Merging on Loss Landscape: A Geometry Perspective](../../CVPR2026/model_compression/model_merging_on_loss_landscape_a_geometry_perspective.md)
+- [\[ICCV 2025\] FREE-Merging: Fourier Transform for Efficient Model Merging](../../ICCV2025/model_compression/free-merging_fourier_transform_for_efficient_model_merging.md)
 
 </div>
 

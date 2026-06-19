@@ -177,9 +177,9 @@ $$\mathcal{L}_{\text{dyn}} = \lambda_{\text{ba}} \mathcal{L}_{\text{ba}} + \lamb
 
 - [\[NeurIPS 2025\] Ultrametric Cluster Hierarchies: I Want 'em All!](ultrametric_cluster_hierarchies_i_want_em_all.md)
 - [\[ICLR 2026\] LPWM: Latent Particle World Models for Object-Centric Stochastic Dynamics](../../ICLR2026/others/latent_particle_world_models_self-supervised_object-centric_stochastic_dynamics_.md)
-- [\[CVPR 2026\] 4DWorldBench: A Comprehensive Evaluation Framework for 3D/4D World Generation Models](../../CVPR2026/others/4dworldbench_a_comprehensive_evaluation_framework_for_3d4d_world_generation_mode.md)
 - [\[NeurIPS 2025\] MetaFind: Scene-Aware 3D Asset Retrieval for Coherent Metaverse Scene Generation](metafind_scene-aware_3d_asset_retrieval_for_coherent_metaverse_scene_generation.md)
-- [\[CVPR 2025\] EBS-EKF: Accurate and High Frequency Event-based Star Tracking](../../CVPR2025/others/ebs-ekf_accurate_and_high_frequency_event-based_star_tracking.md)
+- [\[CVPR 2026\] Multi-view Crowd Tracking Transformer with View-Ground Interactions Under Large Real-World Scenes](../../CVPR2026/others/multi-view_crowd_tracking_transformer_with_view-ground_interactions_under_large_.md)
+- [\[ICCV 2025\] Recovering Parametric Scenes from Very Few Time-of-Flight Pixels](../../ICCV2025/others/recovering_parametric_scenes_from_very_few_time-of-flight_pixels.md)
 
 </div>
 

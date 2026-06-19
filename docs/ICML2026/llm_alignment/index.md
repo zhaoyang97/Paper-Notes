@@ -1,21 +1,26 @@
 ---
 title: >-
-  ICML2026 对齐/RLHF论文汇总 · 26篇论文解读
+  ICML2026 对齐/RLHF论文汇总 · 37篇论文解读
 description: >-
-  26篇ICML2026的对齐 / RLHF 方向论文解读，涵盖对齐/RLHF、对抗鲁棒、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  37篇ICML2026的对齐 / RLHF 方向论文解读，涵盖对齐/RLHF、LLM、对抗鲁棒、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "对齐 / RLHF"
   - "论文解读"
   - "论文笔记"
   - "对齐/RLHF"
-  - "对抗鲁棒"
   - "LLM"
+  - "对抗鲁棒"
+  - "强化学习"
 item_list:
   - u: "adaptive_probe-based_steering_for_robust_llm_jailbreaking/"
     t: "Adaptive Probe-based Steering for Robust LLM Jailbreaking"
   - u: "alignment-aware_decoding/"
     t: "Alignment-Aware Decoding"
+  - u: "autoregressive_direct_preference_optimization/"
+    t: "Autoregressive Direct Preference Optimization"
+  - u: "boosting_direct_preference_optimization_with_penalization/"
+    t: "Boosting Direct Preference Optimization with Penalization"
   - u: "consistency_training_can_entrench_misalignment/"
     t: "Consistency Training Can Entrench Misalignment"
   - u: "curriculum_learning_for_safety_alignment/"
@@ -34,6 +39,10 @@ item_list:
     t: "Implicit Preference Alignment for Human Image Animation"
   - u: "implicit_safety_alignment_from_crowd_preferences/"
     t: "Implicit Safety Alignment from Crowd Preferences"
+  - u: "korean_culture_into_llm_alignment_toward_cultural_coherence/"
+    t: "Korean Culture into LLM Alignment: Toward Cultural Coherence"
+  - u: "large_language_models_should_learn_personalized_rather_than_aggregated_human_pre/"
+    t: "Large Language Models Should Learn Personalized Rather Than Aggregated Human Preferences"
   - u: "long_live_the_balance_information_bottleneck_driven_tree-based_policy_optimizati/"
     t: "Long Live The Balance: Information Bottleneck Driven Tree-based Policy Optimization"
   - u: "mesa_improving_moe_safety_alignment_via_decentralized_expertise/"
@@ -42,39 +51,39 @@ item_list:
     t: "Mitigating Reward Hacking in RLHF via Bayesian Non-negative Reward Modeling"
   - u: "new_wide-net-casting_jailbreak_attacks_risk_large_models/"
     t: "New Wide-Net-Casting Jailbreak Attacks Risk Large Models"
+  - u: "operationalising_the_superficial_alignment_hypothesis_via_task_complexity/"
+    t: "Operationalising the Superficial Alignment Hypothesis via Task Complexity"
   - u: "picaco_pluralistic_in-context_value_alignment_of_llms_via_total_correlation_opti/"
     t: "PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization"
   - u: "quantifying_the_salience_of_geo-cultural_values_for_pluralistic_safety_alignment/"
     t: "Quantifying the Salience of Geo-Cultural Values for Pluralistic Safety Alignment"
+  - u: "reward_shaping_for_inference-time_alignment_a_stackelberg_game_perspective/"
+    t: "Reward Shaping for (Inference-Time) Alignment: A Stackelberg Game Perspective"
   - u: "safety_anchor_defending_harmful_fine-tuning_via_geometric_bottlenecks/"
     t: "Safety Anchor: Defending Harmful Fine-tuning via Geometric Bottlenecks"
+  - u: "sft_overtraining_predicts_rank_inversion_via_entropy_collapse_under_rlvr/"
+    t: "SFT Overtraining Predicts Rank Inversion via Entropy Collapse Under RLVR"
   - u: "simultaneous_multi-objective_alignment_across_verifiable_and_non-verifiable_rewa/"
     t: "Simultaneous Multi-objective Alignment Across Verifiable and Non-verifiable Rewards"
   - u: "spard_defending_harmful_fine-tuning_attack_via_safety_projection_with_relevance-/"
     t: "SPARD: Defending Harmful Fine-Tuning Attack via Safety Projection with Relevance-Diversity Data Selection"
+  - u: "steerable_cultural_preference_optimization_of_reward_models/"
+    t: "Steerable Cultural Preference Optimization of Reward Models"
   - u: "steering_beyond_the_support_adversarial_training_on_unsupervised_jailbroken_acti/"
     t: "Steering Beyond the Support: Adversarial Training on Unsupervised Jailbroken Activation Simulation"
   - u: "the_realignment_problem_when_right_becomes_wrong_in_llms/"
     t: "The Realignment Problem: When Right becomes Wrong in LLMs"
-  - u: "toward_stable_value_alignment_introducing_independent_modules_for_consistent_val/"
-    t: "Toward Stable Value Alignment: Introducing Independent Modules for Consistent Value Guidance"
-  - u: "towards_context-invariant_safety_alignment_for_large_language_models/"
-    t: "Towards Context-Invariant Safety Alignment for Large Language Models"
-  - u: "transitivity_meets_cyclicity_explicit_preference_decomposition_for_dynamic_large/"
-    t: "HRC + DSPPO: 用博弈论分解把传递偏好和循环偏好分开学"
-  - u: "udm-grpo_stable_and_efficient_group_relative_policy_optimization_for_uniform_dis/"
-    t: "UDM-GRPO: 统一离散扩散模型的稳定高效 GRPO"
-item_total: 26
+item_total: 37
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**🧪 ICML2026** · **26** 篇论文解读
+**🧪 ICML2026** · **37** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (9)](../../CVPR2026/llm_alignment/index.md) · [💬 ACL2026 (31)](../../ACL2026/llm_alignment/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/llm_alignment/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (12)](../../CVPR2026/llm_alignment/index.md) · [💬 ACL2026 (38)](../../ACL2026/llm_alignment/index.md) · [🔬 ICLR2026 (49)](../../ICLR2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/llm_alignment/index.md)
 
-🔥 **高频主题：** 对齐/RLHF ×15 · 对抗鲁棒 ×5 · LLM ×2
+🔥 **高频主题：** 对齐/RLHF ×22 · LLM ×5 · 对抗鲁棒 ×5 · 强化学习 ×2
 
 **[Adaptive Probe-based Steering for Robust LLM Jailbreaking](adaptive_probe-based_steering_for_robust_llm_jailbreaking.md)**
 
@@ -83,6 +92,14 @@ item_total: 26
 **[Alignment-Aware Decoding](alignment-aware_decoding.md)**
 
 :   Alignment-Aware Decoding 直接在推理时利用 DPO 模型相对 SFT 参考模型的 token 概率比作为隐式对齐奖励，在无需额外训练或外部 reward model 的情况下，比 greedy、Bo2 和 EFT 更稳定地生成高对齐质量回答，并可进一步产生合成偏好数据改进 DPO。
+
+**[Autoregressive Direct Preference Optimization](autoregressive_direct_preference_optimization.md)**
+
+:   作者发现 DPO 在推导目标函数时其实是"先按整条回答建 Bradley-Terry 偏好模型、事后才假设模型自回归",顺序反了;ADPO 把自回归假设**提前**到建 BT 模型之前——在输出空间的前缀闭包上定义能量函数,推出一个极简的新损失:把 DPO 里的求和符号从 log-sigmoid 内部**挪到外部**,并由此首次区分出"token 长度 $\mu$"与"反馈长度 $\mu'$"两个独立的长度度量,打通从整条回答到单 token 的任意粒度训练。
+
+**[Boosting Direct Preference Optimization with Penalization](boosting_direct_preference_optimization_with_penalization.md)**
+
+:   本文提出 DPOP（Direct Preference Optimization with Penalization），在标准 DPO 偏好损失之外，额外**惩罚"参考模型自己对同一 prompt 贪婪解码出的响应" $y_g$**，并用一个 detached 门控只在"策略当前仍把被拒响应排在被选响应之上"时才激活这个惩罚，从而把 DPO 一直没用上的参考-贪婪信号变成有效的离线对齐信号，在 AlpacaEval 2.0 上以长度控制胜率超过 DPO/SimPO/AlphaDPO。
 
 **[Consistency Training Can Entrench Misalignment](consistency_training_can_entrench_misalignment.md)**
 
@@ -120,6 +137,14 @@ item_total: 26
 
 :   针对众包偏好数据中"用户目标各异但安全准则共享"的结构，作者证明传统 reward combination 会被多数用户偏好污染且对权重敏感，转而提出 Safe Crowd Preference-based RL：用 VAE 把众包偏好编码成 latent-conditioned 低层 skill，再训练高层策略在 skill 空间组合，从而在没有显式安全奖励的情况下把下游 cost 压到接近 Oracle，同时任务回报基本不掉。
 
+**[Korean Culture into LLM Alignment: Toward Cultural Coherence](korean_culture_into_llm_alignment_toward_cultural_coherence.md)**
+
+:   现有文化安全工作几乎都在做"减法"（该压制哪些输出），这篇论文给出一个"加法"的对应物——为韩国语境**正面定义**什么才算"文化上连贯的回复"，并据此搭一条对齐数据流水线（韩国伤害 taxonomy 种子 → 攻击挖掘 → 文化政策约束下的多模型安全回复 → 三裁判过滤成 DPO 三元组），DPO 微调让六个开源 LLM 的韩国文化安全率普遍上升、却几乎不损伤通用能力。
+
+**[Large Language Models Should Learn Personalized Rather Than Aggregated Human Preferences](large_language_models_should_learn_personalized_rather_than_aggregated_human_pre.md)**
+
+:   这是一篇立场论文，主张当前 RLHF 把多元人类偏好聚合成单一奖励信号、本质上是在优化一个"谁都不是"的平均用户，作者从社会选择理论与跨人群实证两路论证个性化对齐的必要性，并提出一套"保留普适安全约束、只在合法维度上做个性化"的有界个性化框架与研究议程。
+
 **[Long Live The Balance: Information Bottleneck Driven Tree-based Policy Optimization](long_live_the_balance_information_bottleneck_driven_tree-based_policy_optimizati.md)**
 
 :   本文用信息瓶颈 (IB) 理论提出一个可量化"探索-利用平衡"的步级指标 IB-Score, 并据此设计 IB 引导的树采样 (IBTree) + 步级局部/全局优势, 在 Qwen3-1.7B/8B 上比 GRPO 平均提升 2.9–3.6%, 同时在同 token 预算下多采到 50% 轨迹.
@@ -136,6 +161,10 @@ item_total: 26
 
 :   本文首次定义并系统分析了"广撒网"越狱场景（攻击者同时向一组大模型发起请求，只要任一模型被攻破即视为成功），并据此设计了一种基于 exploration-to-exploitation 调度的"专家化"对抗样本生成器联合训练方法，在多个 LLM/MLLM 上把无外加防御时的攻击成功率推到 100%，揭示现行单模型越狱评估严重低估了真实世界风险。
 
+**[Operationalising the Superficial Alignment Hypothesis via Task Complexity](operationalising_the_superficial_alignment_hypothesis_via_task_complexity.md)**
+
+:   作者用"解决某任务到目标性能所需的最短程序长度"这一算法信息论指标（task complexity）重新定义了表面对齐假设（SAH），把"数据高效/参数高效/推理控制"这三种看似各说各话的证据统一成"在同一条长度–性能 Pareto 曲线上找短程序"的不同策略，并实测发现：把预训练模型适配到数学推理、机器翻译、指令跟随等任务上，常常只需要几千字节到几兆字节的信息，而后训练的作用是把"够到强性能所需的程序长度"压缩好几个数量级。
+
 **[PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization](picaco_pluralistic_in-context_value_alignment_of_llms_via_total_correlation_opti.md)**
 
 :   PICACO 把"让 LLM 在一个 prompt 里同时遵守多个甚至互相冲突的人类价值"形式化为最大化"价值集与响应之间的条件总相关性"(Total Correlation, TC),不动模型参数,通过 EM-like 的"响应增强 + 指令精炼"两步迭代自动搜索一条 meta-instruction,使 GPT-3.5 / LLaMA-3.1-8B / Gemini-1.5-Flash 在 Schwartz、HH 等 5 套最多 8 个价值的组合上都超过 OPRO、Modular Pluralism 等强基线。
@@ -144,9 +173,17 @@ item_total: 26
 
 :   作者用 Inglehart-Welzel 文化地图把标注者按"文化区/象限"重新分层，在 8 个安全数据集上用多层级回归（multilevel modeling）证明文化区在控制完人口学（年龄/性别/族裔）之后仍显著解释安全评分的方差（6/8 数据集 $p<0.05$），并提出 Bayesian 的"cultural sensitivity score"量化得出：当前数据集中约 10% 的样本若忽略某一文化象限就会被错标为 safe；进一步实验表明 LLM 当 rater 替身不靠谱，但当"文化敏感样本"的 triage 工具是可行的。
 
+**[Reward Shaping for (Inference-Time) Alignment: A Stackelberg Game Perspective](reward_shaping_for_inference-time_alignment_a_stackelberg_game_perspective.md)**
+
+:   把"该用什么奖励模型来对齐 LLM"建模成一个 Stackelberg 博弈，证明最优奖励是一个**逐 prompt 的阈值奖励**（高于阈值给满分 $B$、低于给 0），并用从基座模型采样的蒙特卡洛估计高效求出阈值，最后用 sigmoid 软化后无缝插进 CD/ARGS 等推理时对齐方法，在几乎零额外开销下把平均奖励和对 baseline 的 Win-Tie 率提到 66% 以上。
+
 **[Safety Anchor: Defending Harmful Fine-tuning via Geometric Bottlenecks](safety_anchor_defending_harmful_fine-tuning_via_geometric_bottlenecks.md)**
 
 :   本文证明所有现有「在参数空间设约束」的 HFT 防御都会因参数冗余而被绕过，提出 Safety Bottleneck Regularization (SBR) 把防御战场搬到 unembedding 层这一几何瓶颈上：仅锚定 1 个高危 prompt 的最后一层隐状态，就能在 50 epoch 持续 HFT 攻击下把 Harmful Score 压到 < 10，同时不损 benign 任务精度。
+
+**[SFT Overtraining Predicts Rank Inversion via Entropy Collapse Under RLVR](sft_overtraining_predicts_rank_inversion_via_entropy_collapse_under_rlvr.md)**
+
+:   作者发现"挑 SFT 阶段 pass@1 最高的检查点去做 GRPO"这条业界默认规则在代码生成上会系统性翻车——SFT 训得越久 pass@1 越高、但 GRPO 后的 pass@10 反而单调下跌（0.806→0.481），根因是过度 SFT 压扁了输出分布、让 GRPO 的组内优势方差归零、梯度消失，作者用一条闭式阈值 $p^*(g)$ 和一套"预训练熵筛查 + 早期熵监控"两阶段诊断把高危检查点提前揪出来。
 
 **[Simultaneous Multi-objective Alignment Across Verifiable and Non-verifiable Rewards](simultaneous_multi-objective_alignment_across_verifiable_and_non-verifiable_rewa.md)**
 
@@ -155,6 +192,10 @@ item_total: 26
 **[SPARD: Defending Harmful Fine-Tuning Attack via Safety Projection with Relevance-Diversity Data Selection](spard_defending_harmful_fine-tuning_attack_via_safety_projection_with_relevance-.md)**
 
 :   SPARD 用"安全投影交替优化（SPAG）+ 相关性-多样性 DPP 安全样本选择"两件套，把"微调后模型必须满足安全损失约束"显式写成约束优化问题，每步先做效用更新，再用闭式投影把参数拉回安全半空间，同时只用 3% 任务相关且彼此互异的安全样本，就把四种有害微调攻击的平均 ASR 从 SFT 的 87.93% 砍到 9.45%，几乎不掉下游精度。
+
+**[Steerable Cultural Preference Optimization of Reward Models](steerable_cultural_preference_optimization_of_reward_models.md)**
+
+:   SCPO 用一个"全局奖励模型"当参照系，先**过滤**掉少数群体里那些和全局共识一致的通用偏好、只留下真正有文化差异的偏好对，再按**散度反比加权**把过激的离群偏好压低权重，从而训出既能代表某国少数群体观点、又不至于过度偏置的可steer奖励模型——在 PRISM、GlobalOpinionQA 两数据集、7 个国家上把少数奖励模型最多提升约 7 个点，且比全量微调省下 170%–280% 的训练数据。
 
 **[Steering Beyond the Support: Adversarial Training on Unsupervised Jailbroken Activation Simulation](steering_beyond_the_support_adversarial_training_on_unsupervised_jailbroken_acti.md)**
 
@@ -176,6 +217,18 @@ item_total: 26
 
 :   HRC 把人类偏好显式拆成正交的「传递标量分量」（BT 模型）+「循环向量分量」（GPM），用博弈论分解定理证明这种 hybrid 形式既能保 dominant 候选又能建模 RPS 式循环，再配套时变博弈 DSPPO 让对齐过程从「先稳住传递骨架，再学循环细节」走到 Nash 均衡——在 RewardBench 2 上 Gemma-2B-it 平均涨 1.23%、AlpacaEval 2.0 LC win-rate 拉到 44.75%。
 
+**[TruthRL: Incentivizing Truthful LLMs via Reinforcement Learning](truthrl_incentivizing_truthful_llms_via_reinforcement_learning.md)**
+
+:   针对"只优化准确率反而鼓励瞎猜、强行教拒答又过度保守"的两难，TruthRL 用一个区分"答对 / 幻觉 / 拒答"的三元奖励在 GRPO 上直接优化真实性，把幻觉率从 43.5% 压到 19.4%、真实性得分从 5.3% 拉到 37.2%。
+
 **[UDM-GRPO: 统一离散扩散模型的稳定高效 GRPO](udm-grpo_stable_and_efficient_group_relative_policy_optimization_for_uniform_dis.md)**
 
 :   通过将最终干净样本定义为动作并使用前向过程重构轨迹——首次成功将 GRPO 集成到离散扩散模型中，解决训练不稳定问题，在 GenEval 等多个基准上达到 SOTA。
+
+**[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](valueflow_toward_pluralistic_and_steerable_value-based_alignment_in_large_langua.md)**
+
+:   针对「用 LLM 给价值打绝对分极不稳定、且没法控制价值表达强度」的难题，本文提出 VALUEFLOW——一个把价值「抽取—评测—引导」串成一条流水线的统一框架，核心是分层价值嵌入空间 HIVES、用 Plackett–Luce 排序聚合得到的价值强度库 VIDB，以及基于锚点排序的强度评测器，并在 10 个模型、4 套价值理论上系统刻画了 LLM 的可引导性规律。
+
+**[When Distance Distracts: Representation Distance Bias in BT-Loss for Reward Models](when_distance_distracts_representation_distance_bias_in_bt-loss_for_reward_model.md)**
+
+:   本文把 Bradley-Terry（BT）奖励模型损失的梯度范数拆成「预测误差 × 表示距离」两项，指出表示距离会喧宾夺主——表示相近的难分对即使排错也只得到微弱更新，于是作者提出 NormBT，用一个与表示距离成反比的逐对权重把更新强度重新交还给预测误差，在 RewardBench 的 Reasoning 类上平均提升 5% 以上。

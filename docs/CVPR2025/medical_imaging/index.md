@@ -83,7 +83,7 @@ item_total: 78
 
 **📷 CVPR2025** · **78** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (176)](../../CVPR2026/medical_imaging/index.md) · [🧪 ICML2026 (24)](../../ICML2026/medical_imaging/index.md) · [🔬 ICLR2026 (22)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (75)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (77)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/medical_imaging/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (172)](../../CVPR2026/medical_imaging/index.md) · [🧪 ICML2026 (28)](../../ICML2026/medical_imaging/index.md) · [🔬 ICLR2026 (34)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (75)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (77)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/medical_imaging/index.md)
 
 🔥 **高频主题：** 医学影像 ×30 · 语义分割 ×21 · 扩散模型 ×9 · 多模态 ×5 · 推理 ×4
 

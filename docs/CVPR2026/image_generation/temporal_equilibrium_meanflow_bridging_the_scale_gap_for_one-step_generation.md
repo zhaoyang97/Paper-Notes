@@ -99,6 +99,7 @@ $$p(\tau)=p_{min}+(p_{max}-p_{min})\,\sigma\big(\kappa(\tau-\tau_0)\big),\quad p
 每个尺度都稳定压过 MeanFlow / SoFlow；1-NFE 的 2.62 是扩散/流式一步方法新最优，2-NFE 的 2.30 已逼近需要 500 NFE 的多步 DiT-XL/SiT-XL。CIFAR-10 无条件（同 55M U-Net、像素空间、且不用 EDM 预条件）也拿到 2.81 的新 SOTA（MeanFlow/SoFlow 均 2.92）。
 
 ### 消融实验（ImageNet 256×256，DiT-B/4 131M，FID 1-NFE）
+
 | 维度 | 配置 | FID | 说明 |
 |------|------|-----|------|
 | 增量组件 | Baseline MeanFlow | 6.17 | 起点 |
@@ -148,10 +149,10 @@ $$p(\tau)=p_{min}+(p_{max}-p_{min})\,\sigma\big(\kappa(\tau-\tau_0)\big),\quad p
 ## 相关论文
 
 - [\[ICML 2026\] OMP: One-step Meanflow Policy with Directional Alignment](../../ICML2026/image_generation/omp_one-step_meanflow_policy_with_directional_alignment.md)
-- [\[CVPR 2026\] Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation](emf_meanflow_text_to_image.md)
+- [\[CVPR 2026\] Bridging Fidelity-Reality with Controllable One-Step Diffusion for Image Super-Resolution](bridging_fidelity-reality_with_controllable_one-step_diffusion_for_image_super-r.md)
 - [\[CVPR 2026\] BiFM: Bidirectional Flow Matching for Few-Step Image Editing and Generation](bifm_bidirectional_flow_matching_for_few-step_image_editing_and_generation.md)
-- [\[CVPR 2026\] MeanFlow Transformers with Representation Autoencoders](meanflow_transformers_with_representation_autoencoders.md)
-- [\[CVPR 2026\] WaDi: Weight Direction-aware Distillation for One-step Image Synthesis](wadi_weight_direction-aware_distillation_for_one-step_image_synthesis.md)
+- [\[CVPR 2026\] Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation](emf_meanflow_text_to_image.md)
+- [\[CVPR 2026\] Improved Mean Flows: On the Challenges of Fastforward Generative Models](improved_mean_flows_on_the_challenges_of_fastforward_generative_models.md)
 
 </div>
 

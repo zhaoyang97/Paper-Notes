@@ -99,6 +99,7 @@ flowchart TD
 只换了一个适配器模块（不到 10M 参数），StableVLA 在 Spatial/Object/Goal 三个套件的 severity-5 上分别比 VLA-Adapter 提升 40.2% – 139.6%；以 0.5B 的体量打平甚至超过 7B 的 OpenVLA-OFT 与 3B 的 OpenPi-0.5。这是不依赖任何额外数据得到的结果。
 
 ### 消融实验
+
 | 配置 | LIB-Spatial Clean | LIB-Spatial Avg(扰动) | 说明 |
 |------|-------------------|----------------------|------|
 | IB-Adapter only | 96.3 | 76.0 | 单 IB 路径，clean 略掉 |

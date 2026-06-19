@@ -2,10 +2,10 @@
 title: >-
   [论文解读] From Assumptions to Actions: Turning LLM Reasoning into Uncertainty-Aware Planning
 description: >-
-  [ICLR 2026][LLM推理][不确定性感知规划] 提出 PCE（Planner-Composer-Evaluator）框架，将 LLM 推理链中隐含的环境假设显式提取并组织为决策树，通过似然度-增益-成本评分实现不确定性感知的行动选择，大幅减少多智能体协作中的通信开销。 在去中心化、部分可观测的多智能体协作场景中（如…
+  [ICLR 2026][Reasoning][不确定性感知规划] 提出 PCE（Planner-Composer-Evaluator）框架，将 LLM 推理链中隐含的环境假设显式提取并组织为决策树，通过似然度-增益-成本评分实现不确定性感知的行动选择，大幅减少多智能体协作中的通信开销。 在去中心化、部分可观测的多智能体协作场…
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "不确定性感知规划"
   - "LLM多智能体协作"
   - "决策树"
@@ -170,8 +170,8 @@ PCE 是纯推理时框架，无需训练。默认超参数为 $D=3, \alpha=1, \b
 - [\[AAAI 2026\] Dropouts in Confidence: Moral Uncertainty in Human-LLM Alignment](../../AAAI2026/llm_reasoning/dropouts_in_confidence_moral_uncertainty_in_human-llm_alignment.md)
 - [\[ACL 2026\] PPA-Plan: Proactive Pitfall Avoidance for Reliable Planning in Long-Context LLM Reasoning](../../ACL2026/llm_reasoning/ppa-plan_proactive_pitfall_avoidance_for_reliable_planning_in_long-context_llm_r.md)
 - [\[ICML 2026\] Scaling-Aware Adapter for Structure-Grounded LLM Reasoning](../../ICML2026/llm_reasoning/scaling-aware_adapter_for_structure-grounded_llm_reasoning.md)
-- [\[ACL 2026\] Budget-Aware Anytime Reasoning with LLM-Synthesized Preference Data](../../ACL2026/llm_reasoning/budget-aware_anytime_reasoning_with_llm-synthesized_preference_data.md)
-- [\[ACL 2026\] Reliability-Aware Adaptive Self-Consistency for Efficient Sampling in LLM Reasoning](../../ACL2026/llm_reasoning/reliability-aware_adaptive_self-consistency_for_efficient_sampling_in_llm_reason.md)
+- [\[ICLR 2026\] Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation](harder_is_better_boosting_mathematical_reasoning_via_difficulty-aware_grpo_and_m.md)
+- [\[ICLR 2026\] Nudging the Boundaries of LLM Reasoning](nudging_the_boundaries_of_llm_reasoning.md)
 
 </div>
 

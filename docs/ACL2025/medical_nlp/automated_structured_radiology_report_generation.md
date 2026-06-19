@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.24223](https://arxiv.org/abs/2505.24223)  
 **代码**: [huggingface.co/StanfordAIMI](https://huggingface.co/StanfordAIMI)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 放射学报告生成, 结构化报告, 疾病分类, 胸部X光, 评估指标
 
 ## 一句话总结

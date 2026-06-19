@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026 Spotlight  
 **arXiv**: [2512.05671](https://arxiv.org/abs/2512.05671)  
 **代码**: https://github.com/Zhitao-He/ClinTutor-R1  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 临床教育, 一对多对齐, 苏格拉底式教学, 多智能体模拟, 视觉语言模型  
 
 ## 一句话总结
@@ -140,7 +140,7 @@ ClinTutor-R1 在 MVME 上超越 GPT-4o（8.49 vs 8.47），在多学员管理（
 - [\[ACL 2026\] PrinciplismQA: A Philosophy-Grounded Approach to Assessing LLM-Human Clinical Medical Ethics Alignment](../../ACL2026/medical_nlp/principlismqa_a_philosophy-grounded_approach_to_assessing_llm-human_clinical_med.md)
 - [\[AAAI 2026\] Learning Cell-Aware Hierarchical Multi-Modal Representations for Robust Molecular Modeling](../../AAAI2026/medical_nlp/learning_cell-aware_hierarchical_multi-modal_representations.md)
 - [\[ACL 2025\] A Modular Approach for Clinical SLMs Driven by Synthetic Data with Pre-Instruction Tuning, Model Merging, and Clinical-Tasks Alignment](../../ACL2025/medical_nlp/a_modular_approach_for_clinical_slms_driven_by_synthetic_data_with_pre-instructi.md)
-- [\[ICLR 2026\] MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](../../ICLR2026/medical_nlp/medagentgym_agentic_training_biomedical.md)
+- [\[ACL 2025\] One Size Fits None: Rethinking Fairness in Medical AI](../../ACL2025/medical_nlp/one_size_fits_none_rethinking_fairness_in_medical_ai.md)
 
 </div>
 

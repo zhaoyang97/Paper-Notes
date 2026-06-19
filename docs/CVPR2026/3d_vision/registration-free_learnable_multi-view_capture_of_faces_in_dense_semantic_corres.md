@@ -119,6 +119,7 @@ $$\mathcal{L}_{\text{total}}=\lambda_{\text{geom}}\mathcal{L}_{\text{geom}}+\lam
 - **图像+scan**：MOCHI TTO（FaMoS Median 0.07）反超传统手工配准流水线（0.10），CoMA 上同样 0.07 vs 0.10。
 
 ### 消融实验
+
 | 配置 | 关键结论 | 说明 |
 |------|---------|------|
 | 点到面 vs pointmap（粗阶段） | 点到面权重增大→穿模/自交；pointmap 大权重仍平滑 | 离散最近点选择导致梯度不可微 |

@@ -1,22 +1,32 @@
 ---
 title: >-
-  ICLR2026 代码智能论文汇总 · 18篇论文解读
+  ICLR2026 代码智能论文汇总 · 23篇论文解读
 description: >-
-  18篇ICLR2026的代码智能方向论文解读，涵盖 LLM、Agent、对抗鲁棒、代码智能、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  23篇ICLR2026的代码智能方向论文解读，涵盖对抗鲁棒、LLM、Agent、代码智能、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "代码智能"
   - "论文解读"
   - "论文笔记"
+  - "对抗鲁棒"
   - "LLM"
   - "Agent"
-  - "对抗鲁棒"
   - "推理"
 item_list:
   - u: "a_problem-oriented_perspective_and_anchor_verification_for_code_optimization/"
     t: "A Problem-Oriented Perspective and Anchor Verification for Code Optimization"
+  - u: "aethercode_evaluating_llms_ability_to_win_in_premier_programming_competitions/"
+    t: "AetherCode: Evaluating LLMs' Ability to Win In Premier Programming Competitions"
   - u: "ambig-swe_interactive_agents_to_overcome_underspecificity_in_software_engineerin/"
     t: "Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering"
+  - u: "an_agentic_framework_with_llms_for_solving_complex_vehicle_routing_problems/"
+    t: "An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems"
+  - u: "atgen_adversarial_reinforcement_learning_for_test_case_generation/"
+    t: "ATGen: Adversarial Reinforcement Learning for Test Case Generation"
+  - u: "behavioral_embeddings_of_programs_a_quasi-dynamic_approach_for_optimization_pred/"
+    t: "Behavioral Embeddings of Programs: A Quasi-Dynamic Approach for Optimization Prediction"
+  - u: "boad_discovering_hierarchical_software_engineering_agents_via_bandit_optimizatio/"
+    t: "BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization"
   - u: "card_towards_conditional_design_of_multi-agent_topological_structures/"
     t: "CARD: Towards Conditional Design of Multi-agent Topological Structures"
   - u: "diablo_diagonal_blocks_are_sufficient_for_finetuning/"
@@ -49,25 +59,45 @@ item_list:
     t: "The Limits of Long-Context Reasoning in Automated Bug Fixing"
   - u: "training_large_language_models_to_reason_in_parallel_with_global_forking_tokens/"
     t: "Training Large Language Models To Reason In Parallel With Global Forking Tokens"
-item_total: 18
+item_total: 23
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**🔬 ICLR2026** · **18** 篇论文解读
+**🔬 ICLR2026** · **23** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (15)](../../ICML2026/code_intelligence/index.md) · [💬 ACL2026 (49)](../../ACL2026/code_intelligence/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/code_intelligence/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/code_intelligence/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/code_intelligence/index.md) · [🧪 ICML2025 (9)](../../ICML2025/code_intelligence/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/code_intelligence/index.md) · [💬 ACL2026 (49)](../../ACL2026/code_intelligence/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/code_intelligence/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/code_intelligence/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/code_intelligence/index.md) · [🧪 ICML2025 (9)](../../ICML2025/code_intelligence/index.md)
 
-🔥 **高频主题：** LLM ×3 · Agent ×2 · 对抗鲁棒 ×2 · 代码智能 ×2 · 推理 ×2
+🔥 **高频主题：** 对抗鲁棒 ×3 · LLM ×3 · Agent ×2 · 代码智能 ×2 · 推理 ×2
 
 **[A Problem-Oriented Perspective and Anchor Verification for Code Optimization](a_problem-oriented_perspective_and_anchor_verification_for_code_optimization.md)**
 
 :   提出以问题为导向（而非用户为导向）的优化对构建方法来整合多程序员的策略多样性，并设计锚点验证框架利用"慢但正确的代码"生成测试用例来缓解"优化税"（正确性损失），将优化比从 31.24% 提升到 71.06%，加速比从 2.95x 提升到 6.08x。
 
+**[AetherCode: Evaluating LLMs' Ability to Win In Premier Programming Competitions](aethercode_evaluating_llms_ability_to_win_in_premier_programming_competitions.md)**
+
+:   AetherCode 是首个系统性从 IOI、ICPC 等顶级编程竞赛收集 456 道高难度题目、并用「自动生成 + 67 位专家人工标注」混合方法把每道题的测试用例做到 100% TPR / 100% TNR 的代码推理 benchmark，结果显示即便最强的 o4-mini-high 也只有 35.5% 的 Pass@1，揭穿了「LLM 已征服竞赛编程」的错觉。
+
 **[Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering](ambig-swe_interactive_agents_to_overcome_underspecificity_in_software_engineerin.md)**
 
 :   构建 Ambig-SWE（基于 SWE-Bench Verified 的欠指定变体），系统评估 LLM 编程 agent 在三个维度上的交互能力——检测欠指定、提出澄清问题、利用交互信息——发现交互可将欠指定场景下的解决率提升最高 74%，但模型默认非交互行为且难以区分指定充分/不足的指令。
+
+**[An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems](an_agentic_framework_with_llms_for_solving_complex_vehicle_routing_problems.md)**
+
+:   AFL 把"用 LLM 解复杂车辆路径问题（VRP）"拆成问题描述、代码生成、求解三个子任务，并用生成、判断、修订、错误分析四个专职 agent 互相把关，从一份原始 VRPLIB 实例全自动产出一个不依赖外部求解器的 Python 求解器；在 60 个 VRP 变体上把 LLM 方法的运行报错率压到 0%、可行解率拉到 100%，且与人工精心设计的算法相比差距大多落在 3% 以内。
+
+**[ATGen: Adversarial Reinforcement Learning for Test Case Generation](atgen_adversarial_reinforcement_learning_for_test_case_generation.md)**
+
+:   ATGen 把一个"测试用例生成器"和一个"对抗代码生成器"放进一个互相博弈的强化学习循环里——生成器越强，对手就被逼着造出越隐蔽的 bug，这种自动加难的动态课程打破了静态数据集的"固定难度天花板"，让 7B 模型的攻击成功率比 SFT 方法 UTGen 翻倍（36.99% vs 16.24%）。
+
+**[Behavioral Embeddings of Programs: A Quasi-Dynamic Approach for Optimization Prediction](behavioral_embeddings_of_programs_a_quasi-dynamic_approach_for_optimization_pred.md)**
+
+:   针对编译优化里"静态表示太死、动态画像太贵"的两难，本文提出**准动态**程序表示：用一组优化序列去"探针"程序的 LLVM IR，把优化前后静态特征的变化量化成 **Program Behavior Spectrum**，再用乘积量化（PQ）把连续反应向量离散成结构化"子词"、用多任务 Transformer（PQ-BERT）预训练学习其语法，在 Best Pass Prediction 和 -Oz Benefit Prediction 两项任务上大幅超过 inst2vec / IR2Vec 等静态嵌入。
+
+**[BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization](boad_discovering_hierarchical_software_engineering_agents_via_bandit_optimizatio.md)**
+
+:   BOAD 把"为软件工程任务设计一套分层多智能体系统"这件事重新表述成多臂老虎机问题——每个候选子智能体是一根臂、奖励是它在团队协作中的"有用度"（helpfulness），再用 UCB 做探索-利用、用中餐馆过程动态扩档案、用 hindsight 信用分配避免"搭便车"，从而在有限评测预算下自动发现"一个 orchestrator + 两个专精子智能体"的结构；在 SWE-bench-Verified 上 36B 模型拿到 53.2%，在更偏分布外的 SWE-bench-Live 上以 20.0% 一度位列排行榜第二，超过 GPT-4o、Claude 3.7 等更大的模型。
 
 **[CARD: Towards Conditional Design of Multi-agent Topological Structures](card_towards_conditional_design_of_multi-agent_topological_structures.md)**
 

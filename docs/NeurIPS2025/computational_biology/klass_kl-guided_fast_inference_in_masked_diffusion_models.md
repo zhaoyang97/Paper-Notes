@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 Spotlight  
 **arXiv**: [2511.05664](https://arxiv.org/abs/2511.05664)  
 **代码**: [GitHub](https://github.com/shkim0116/KLASS)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Masked Diffusion Models, KL Divergence, 加速采样, Token稳定性, 并行解码
 
 ## 一句话总结
@@ -146,8 +146,8 @@ KLASS 在几乎所有任务上都优于标准 Top-1 解码，同时步数减少 
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Remasking Discrete Diffusion Models with Inference-Time Scaling](remasking_discrete_diffusion_models_with_inference-time_scaling.md)
 - [\[NeurIPS 2025\] SpecMER: Fast Protein Generation with K-mer Guided Speculative Decoding](specmer_fast_protein_generation_with_k-mer_guided_speculative_decoding.md)
+- [\[NeurIPS 2025\] Remasking Discrete Diffusion Models with Inference-Time Scaling](remasking_discrete_diffusion_models_with_inference-time_scaling.md)
 - [\[ICLR 2026\] Ultra-Fast Language Generation via Discrete Diffusion Divergence Instruct](../../ICLR2026/computational_biology/ultra-fast_language_generation_via_discrete_diffusion_divergence_instruct.md)
 - [\[NeurIPS 2025\] Uncertainty-Aware Multi-Objective Reinforcement Learning-Guided Diffusion Models for 3D De Novo Molecular Design](uncertainty-aware_multi-objective_reinforcement_learning-guided_diffusion_models.md)
 - [\[NeurIPS 2025\] Consistent Sampling and Simulation: Molecular Dynamics with Energy-Based Diffusion Models](consistent_sampling_and_simulation_molecular_dynamics_with_energy-based_diffusio.md)

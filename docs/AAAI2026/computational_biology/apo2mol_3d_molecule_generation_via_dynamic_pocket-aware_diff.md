@@ -118,7 +118,7 @@ Apo2Mol = 数据准备（apo-holo对齐+插值） + SE(3)等变层次图扩散�
 - [\[AAAI 2026\] Distributional Priors Guided Diffusion for Generating 3D Molecules in Low Data Regimes](distributional_priors_guided_diffusion_for_generating_3d_molecules_in_low_data_r.md)
 - [\[ICML 2025\] Scalable Non-Equivariant 3D Molecule Generation via Rotational Alignment](../../ICML2025/computational_biology/scalable_non-equivariant_3d_molecule_generation_via_rotational_alignment.md)
 - [\[ICLR 2026\] SynCoGen: Synthesizable 3D Molecule Generation via Joint Reaction and Coordinate Modeling](../../ICLR2026/computational_biology/syncogen_synthesizable_3d_molecule_generation_via_joint_reaction_and_coordinate_.md)
-- [\[CVPR 2026\] Sampling-Aware 3D Spatial Analysis in Multiplexed Imaging](../../CVPR2026/computational_biology/sampling-aware_3d_spatial_analysis_in_multiplexed_imaging.md)
+- [\[NeurIPS 2025\] Atomic Diffusion Models for Small Molecule Structure Elucidation from NMR Spectra](../../NeurIPS2025/computational_biology/atomic_diffusion_models_for_small_molecule_structure_elucidation_from_nmr_spectr.md)
 
 </div>
 

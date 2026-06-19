@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 Multi-Agent论文汇总 · 38篇论文解读
+  ACL2026 Multi-Agent论文汇总 · 39篇论文解读
 description: >-
-  38篇ACL2026的 Multi-Agent 方向论文解读，涵盖 Agent、LLM、推理、问答、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  39篇ACL2026的 Multi-Agent 方向论文解读，涵盖 Agent、LLM、推理、问答、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "Multi-Agent"
@@ -66,25 +66,25 @@ item_list:
     t: "ODUTQA-MDC: A Task for Open-Domain Underspecified Tabular QA with Multi-turn Dialogue-based Clarification"
   - u: "oxygent_making_multi-agent_systems_modular_observable_and_evolvable_via_oxy_abst/"
     t: "OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction"
+  - u: "papermentor_a_human-centered_multi-agent_writing_tutor_for_ai_research_papers_on/"
+    t: "PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf"
   - u: "posterforest_hierarchical_multi-agent_collaboration_for_scientific_poster_genera/"
     t: "PosterForest: Hierarchical Multi-Agent Collaboration for Scientific Poster Generation"
   - u: "preference_estimation_via_opponent_modeling_in_multi-agent_negotiation/"
     t: "Preference Estimation via Opponent Modeling in Multi-Agent Negotiation"
   - u: "protea_offline_evaluation_and_iterative_refinement_for_multi-agent_llm_workflows/"
     t: "PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows"
-  - u: "roadmapper_a_multi-agent_system_for_roadmap_generation_of_solving_complex_resear/"
-    t: "RoadMapper: A Multi-Agent System for Roadmap Generation of Solving Complex Research Problems"
-item_total: 38
+item_total: 39
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 Multi-Agent
 
-**💬 ACL2026** · **38** 篇论文解读
+**💬 ACL2026** · **39** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (9)](../../CVPR2026/multi_agent/index.md) · [🧪 ICML2026 (15)](../../ICML2026/multi_agent/index.md) · [🔬 ICLR2026 (15)](../../ICLR2026/multi_agent/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/multi_agent/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/multi_agent/index.md) · [🧪 ICML2025 (7)](../../ICML2025/multi_agent/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/multi_agent/index.md) · [🧪 ICML2026 (24)](../../ICML2026/multi_agent/index.md) · [🔬 ICLR2026 (24)](../../ICLR2026/multi_agent/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/multi_agent/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/multi_agent/index.md) · [🧪 ICML2025 (7)](../../ICML2025/multi_agent/index.md)
 
-🔥 **高频主题：** Agent ×33 · LLM ×13 · 推理 ×5 · 问答 ×3 · 对抗鲁棒 ×2
+🔥 **高频主题：** Agent ×34 · LLM ×13 · 推理 ×5 · 问答 ×3 · 对抗鲁棒 ×2
 
 **[A Multi-Agent Framework for Feature-Constrained Difficulty Control in Reading Comprehension Item Generation](a_multi-agent_framework_for_feature-constrained_difficulty_control_in_reading_co.md)**
 
@@ -189,6 +189,10 @@ item_total: 38
 **[OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction](oxygent_making_multi-agent_systems_modular_observable_and_evolvable_via_oxy_abst.md)**
 
 :   OxyGent 把 agent、工具、LLM 与推理流程统一封装成可插拔的 Oxy 原子组件，并用权限驱动的动态规划与 OxyBank 数据回流机制，让工业级多智能体系统更容易搭建、监控和持续演化。
+
+**[PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf](papermentor_a_human-centered_multi-agent_writing_tutor_for_ai_research_papers_on.md)**
+
+:   PaperMentor 把资深研究者的写作经验整理成一套「专家技能库」，再让 12 个分工明确的智能体并行评审一篇 LaTeX 论文，最后以 Overleaf 原生行内批注的形式给出**可落地的修改建议**——但绝不替你改稿；用户研究中 90.6% 的批注被判定为「可操作」，验证度与可操作度都显著超过没有技能库的 GPT-5.2 基线。
 
 **[PosterForest: Hierarchical Multi-Agent Collaboration for Scientific Poster Generation](posterforest_hierarchical_multi-agent_collaboration_for_scientific_poster_genera.md)**
 

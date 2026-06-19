@@ -88,6 +88,7 @@ PPO 和 DDQN 都使用两层前馈网络实现 policy 或 Q-function。PPO 作�
 | Tiny-aya-global | Sparse Reward | 59.2% | 0.68 | 短路径漏洞更容易被 sparse 捕捉 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Dense reward + safeguard | 多数 target-safeguard 组合优于 sparse | 多层防御让反馈更稀疏，dense reward 提供更稳定学习信号 |
@@ -135,8 +136,8 @@ PPO 和 DDQN 都使用两层前馈网络实现 policy 或 Q-function。PPO 作�
 - [\[ICML 2026\] EvoGM: Learning to Merge LLMs via Evolutionary Generative Optimization](evogm_learning_to_merge_llms_via_evolutionary_generative_optimization.md)
 - [\[ICML 2026\] Esoteric Language Models: A Family of Any-Order Diffusion LLMs](esoteric_language_models_a_family_of_any-order_diffusion_llms.md)
 - [\[ICML 2026\] SpatialReward: Bridging the Perception Gap in Online RL for Image Editing via Explicit Spatial Reasoning](spatialreward_bridging_the_perception_gap_in_online_rl_for_image_editing_via_exp.md)
+- [\[ICML 2026\] AtelierEval: Agentic Evaluation of Humans & LLMs as Text-to-Image Prompters](ateliereval_agentic_evaluation_of_humans_llms_as_text-to-image_prompters.md)
 - [\[ICML 2026\] Principled RL for Flow Matching Emerges from the Chunk-level Policy Optimization](principled_rl_for_flow_matching_emerges_from_the_chunk-level_policy_optimization.md)
-- [\[ICLR 2026\] EditScore: Unlocking Online RL for Image Editing via High-Fidelity Reward Modeling](../../ICLR2026/image_generation/editscore_unlocking_online_rl_for_image_editing_via_high-fidelity_reward_modelin.md)
 
 </div>
 

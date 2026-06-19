@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 音频/语音论文汇总 · 34篇论文解读
+  ICLR2026 音频/语音论文汇总 · 39篇论文解读
 description: >-
-  34篇ICLR2026的音频/语音方向论文解读，涵盖语音、推理、情感分析、对抗鲁棒、对齐/RLHF、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  39篇ICLR2026的音频/语音方向论文解读，涵盖语音、推理、情感分析、对齐/RLHF、对抗鲁棒、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "音频/语音"
@@ -11,14 +11,24 @@ tags:
   - "语音"
   - "推理"
   - "情感分析"
-  - "对抗鲁棒"
   - "对齐/RLHF"
+  - "对抗鲁棒"
   - "LLM"
 item_list:
   - u: "ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer/"
     t: "AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer"
+  - u: "alignsep_temporally-aligned_video-queried_sound_separation_with_flow_matching/"
+    t: "AlignSep: Temporally-Aligned Video-Queried Sound Separation with Flow Matching"
+  - u: "audiox_a_unified_framework_for_anything-to-audio_generation/"
+    t: "AudioX: A Unified Framework for Anything-to-Audio Generation"
+  - u: "aurelius_relation_aware_text-to-audio_generation_at_scale/"
+    t: "Aurelius: Relation Aware Text-to-Audio Generation At Scale"
+  - u: "automatic_stage_lighting_control_is_it_a_rule-driven_process_or_generative_task/"
+    t: "Automatic Stage Lighting Control: Is it a Rule-Driven Process or Generative Task?"
   - u: "avere_improving_audiovisual_emotion_reasoning_with_preference_optimization/"
     t: "AVERE: Improving Audiovisual Emotion Reasoning with Preference Optimization"
+  - u: "beyond_instance-level_alignment_dual-level_optimal_transport_for_audio-text_retr/"
+    t: "Beyond Instance-Level Alignment: Dual-Level Optimal Transport for Audio-Text Retrieval"
   - u: "discovering_and_steering_interpretable_concepts_in_large_generative_music_models/"
     t: "Discovering and Steering Interpretable Concepts in Large Generative Music Models"
   - u: "dynamic_parameter_memory_temporary_lora-enhanced_llm_for_long-sequence_emotion_r/"
@@ -65,35 +75,45 @@ item_list:
     t: "Scaling Speech Tokenizers with Diffusion Autoencoders"
   - u: "singer_a_clearer_voice_distills_vision_transformers_further/"
     t: "SiNGER: A Clearer Voice Distills Vision Transformers Further"
-  - u: "stitch_simultaneous_thinking_and_talking_with_chunked_reasoning_for_spoken_langu/"
-    t: "Stitch: Simultaneous Thinking and Talking with Chunked Reasoning for Spoken Language Models"
-  - u: "synctrack_rhythmic_stability_and_synchronization_in_multi-track_music_generation/"
-    t: "SyncTrack: Rhythmic Stability and Synchronization in Multi-Track Music Generation"
-  - u: "taste_text-aligned_speech_tokenization_and_embedding_for_spoken_language_modelin/"
-    t: "TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling"
-  - u: "the_devil_behind_the_mask_an_emergent_safety_vulnerability_of_diffusion_llms/"
-    t: "The Devil behind the Mask: An Emergent Safety Vulnerability of Diffusion LLMs"
-  - u: "toward_complex-valued_neural_networks_for_waveform_generation/"
-    t: "Toward Complex-Valued Neural Networks for Waveform Generation"
-item_total: 34
+item_total: 39
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🔬 ICLR2026** · **34** 篇论文解读
+**🔬 ICLR2026** · **39** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (32)](../../CVPR2026/audio_speech/index.md) · [🧪 ICML2026 (30)](../../ICML2026/audio_speech/index.md) · [💬 ACL2026 (68)](../../ACL2026/audio_speech/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/audio_speech/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/audio_speech/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/audio_speech/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/audio_speech/index.md) · [🧪 ICML2026 (36)](../../ICML2026/audio_speech/index.md) · [💬 ACL2026 (70)](../../ACL2026/audio_speech/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/audio_speech/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/audio_speech/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/audio_speech/index.md)
 
-🔥 **高频主题：** 语音 ×19 · 推理 ×5 · 情感分析 ×4 · 对抗鲁棒 ×3 · 对齐/RLHF ×2
+🔥 **高频主题：** 语音 ×22 · 推理 ×5 · 情感分析 ×4 · 对齐/RLHF ×3 · 对抗鲁棒 ×3
 
 **[AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer](ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer.md)**
 
 :   提出 AC-Foley，一种参考音频引导的视频到音频合成框架，通过两阶段训练（声学特征学习+时序适应）和多模态条件流匹配实现了细粒度音色控制、音色迁移和零样本音效生成，在音频质量和声学保真度上显著优于现有方法。
 
+**[AlignSep: Temporally-Aligned Video-Queried Sound Separation with Flow Matching](alignsep_temporally-aligned_video-queried_sound_separation_with_flow_matching.md)**
+
+:   AlignSep 把"视频查询声音分离（VQSS）"从主流的时频掩码判别范式换成基于 flow matching 的生成范式，靠一个用"时间拼接 + 无交叉注意力 Transformer"实现的时间对齐向量场估计器，强制音频与视频帧逐帧同步，从而在同类干扰、声轨重叠的难场景里干净地抠出在屏目标声音，并在自建的 VGGSound-Hard 基准上把时间对齐分数 $T_{A\text{-}V}$ 做到了 95.76%。
+
+**[AudioX: A Unified Framework for Anything-to-Audio Generation](audiox_a_unified_framework_for_anything-to-audio_generation.md)**
+
+:   AudioX 用一个基于扩散 Transformer（DiT）的统一模型，配上一个轻量的「多模态自适应融合（MAF）」模块和 700 万条自建多模态数据 IF-caps，让单一权重就能从文本、视频、音频的任意组合生成高保真音效与音乐，并在细粒度指令跟随上大幅领先各路专才模型。
+
+**[Aurelius: Relation Aware Text-to-Audio Generation At Scale](aurelius_relation_aware_text-to-audio_generation_at_scale.md)**
+
+:   Aurelius 构建了两个大规模解耦语料库（110 类音频事件的 AudioEventSet + 100 种关系的 AudioRelSet）和一套文本-音频配对生成策略，把"关系感知的文本到音频生成"从小规模探索推到可规模化研究的程度，并系统基准了 9 个主流 TTA 模型，揭示它们在多事件关系建模上几乎全线失效（关系准确率普遍 <10%）。
+
+**[Automatic Stage Lighting Control: Is it a Rule-Driven Process or Generative Task?](automatic_stage_lighting_control_is_it_a_rule-driven_process_or_generative_task.md)**
+
+:   这篇论文把"自动舞台灯光控制（ASLC）"从沿用多年的"音乐分类 → 查表配灯"范式重新定义为一个**生成任务**，提出端到端模型 Skip-BART：以音乐音频为输入、逐帧自回归生成灯光的色相（Hue）与亮度（Value），靠一个新颖的跳跃连接显式对齐音乐帧与灯光帧，并配套自建数据集、预训练与迁移学习，最终在量化指标和 38 人主观评测上全面超过规则方法，且与真人灯光师无显著差异（p=0.72）。
+
 **[AVERE: Improving Audiovisual Emotion Reasoning with Preference Optimization](avere_improving_audiovisual_emotion_reasoning_with_preference_optimization.md)**
 
 :   针对多模态大语言模型在情感推理中的虚假关联和幻觉问题，提出 EmoReAlM 评测基准和 AVEm-DPO 偏好优化方法，通过构建针对性偏好对和文本先验正则化，在 DFEW/RAVDESS/EMER 上实现 6-19% 的零样本相对性能提升。
+
+**[Beyond Instance-Level Alignment: Dual-Level Optimal Transport for Audio-Text Retrieval](beyond_instance-level_alignment_dual-level_optimal_transport_for_audio-text_retr.md)**
+
+:   DART 在传统"实例级"音频-文本对齐之外，再加一层"特征级"对齐——把每个嵌入通道当成一个分布，用不平衡 Wasserstein 距离去配对音频通道和文本通道，并用基于方差/峰度/跨模态相关性的"可靠性边际"引导传输只往稳定语义通道倾斜，从而在小批量、稀缺标签、噪声标签下都拿到 SOTA 检索效果。
 
 **[Discovering and Steering Interpretable Concepts in Large Generative Music Models](discovering_and_steering_interpretable_concepts_in_large_generative_music_models.md)**
 

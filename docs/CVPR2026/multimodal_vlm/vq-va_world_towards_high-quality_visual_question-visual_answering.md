@@ -101,6 +101,7 @@ VQ-VA 的难点在于：什么样的训练样本才能逼模型学会用图回�
 本文模型在全开源模型里登顶（53.06 vs 基线 7.78，**绝对提升 45.28**），还超过了用大规模私有数据预训练并加 RL 的 Qwen-Image（34.31）；与 GPT-Image/NanoBanana 的差距虽仍存在但已大幅缩小。
 
 ### 跨基准泛化：推理型编辑与标准编辑
+
 | 基准 | 指标 | LightFusion 基线 | LightFusion-World | 说明 |
 |------|------|-----------------|-------------------|------|
 | RISEBench | Overall | 4.2 | **15.3** | 推理型编辑，与 BAGEL-Think 相当但用数据远更少 |
@@ -145,11 +146,11 @@ VQ-VA 的难点在于：什么样的训练样本才能逼模型学会用图回�
 
 ## 相关论文
 
-- [\[CVPR 2026\] StaR-KVQA: Structured Reasoning Traces for Implicit-Knowledge Visual Question Answering](star-kvqa_structured_reasoning_traces_for_implicit-knowledge_visual_question_ans.md)
 - [\[CVPR 2026\] SEA: Evaluating Sketch Abstraction Efficiency via Element-level Commonsense Visual Question Answering](sea_evaluating_sketch_abstraction_efficiency_via_element-level_commonsense_visua.md)
-- [\[CVPR 2026\] DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning](docpruneefficient_document_question_answering_via_background_question_and_compre.md)
-- [\[CVPR 2026\] Does Language Shift Break Medical Vision-Language Models? Indonesian Radiology Visual Question Answering Case Study](does_language_shift_break_medical_vision-language_models_indonesian_radiology_vi.md)
-- [\[CVPR 2026\] Visual-Aware CoT: Achieving High-Fidelity Visual Consistency in Unified Models](visual-aware_cot_achieving_high-fidelity_visual_consistency_in_unified_models.md)
+- [\[AAAI 2026\] MacVQA: Adaptive Memory Allocation and Global Noise Filtering for Continual Visual Question Answering](../../AAAI2026/multimodal_vlm/macvqa_adaptive_memory_allocation_and_global_noise_filtering_for_continual_visua.md)
+- [\[NeurIPS 2025\] WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios](../../NeurIPS2025/multimodal_vlm/wearvqa_a_visual_question_answering_benchmark_for_wearables_in_egocentric_authen.md)
+- [\[ICLR 2026\] Meta-Adaptive Prompt Distillation for Few-Shot Visual Question Answering](../../ICLR2026/multimodal_vlm/meta-adaptive_prompt_distillation_for_few-shot_visual_question_answering.md)
+- [\[CVPR 2026\] ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)
 
 </div>
 

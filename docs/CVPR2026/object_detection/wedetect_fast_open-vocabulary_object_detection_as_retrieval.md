@@ -90,6 +90,7 @@ $$\{h_i\}_{i=1}^n = \mathrm{LLM}(I, q, \{o_i\}_{i=1}^n), \quad \{s_i\}_{i=1}^n =
 ## 实验关键数据
 
 ### 主实验：零样本检测（Table 1，LVIS / COCO，FPS 在 COCO 上测）
+
 | 模型 | 骨干 | #参数 | FPS | LVIS-minival AP | LVIS AP | 说明 |
 |------|------|-------|-----|-----------------|---------|------|
 | YOLO-World-L | YOLOv8-L | 48M | 54.6 | 35.4 | 26.8 | 实时基线 |
@@ -101,6 +102,7 @@ $$\{h_i\}_{i=1}^n = \mathrm{LLM}(I, q, \{o_i\}_{i=1}^n), \quad \{s_i\}_{i=1}^n =
 要点：小模型 WeDetect-Tiny 同时在精度（LVIS +4.6 AP）和速度（62.5 vs 54.6 fps）上压过专为效率优化的 YOLO-World-L；大模型把非融合范式推到 LVIS 49.4 AP 的新 SOTA。
 
 ### REC（Table 2，RefCOCO/+/g Top-1 acc，FPS 在 RefCOCO 上测）
+
 | 模型 | FPS | RefCOCO/+/g 平均 | 说明 |
 |------|-----|------------------|------|
 | Qwen3-VL 4B（基线） | 0.4 | 86.6 | next-token 解码 |
@@ -111,6 +113,7 @@ $$\{h_i\}_{i=1}^n = \mathrm{LLM}(I, q, \{o_i\}_{i=1}^n), \quad \{s_i\}_{i=1}^n =
 WeDetect-Ref 4B 用 100 个提议、4B 参数就超过带 thinking 的更大模型，且因单次前向并行打分，比同尺寸 Qwen3-VL 快约 13 倍。它还是**首个在 COCO 检测上破 50 AP 的 LMM**（50.0 AP），首次匹配传统检测器水平；而 Qwen2.5-VL 7B 因 next-token 漏召回只有 17.7 AP。
 
 ### 物体检索（Table 4，新任务，类名当查询）
+
 | 模型 | COCO F1 | LVIS Recall | 说明 |
 |------|---------|-------------|------|
 | OpenAI CLIP | 46.4 | 30.4 | 图像级检索 |
@@ -118,6 +121,7 @@ WeDetect-Ref 4B 用 100 个提议、4B 参数就超过带 thinking 的更大模�
 | **WeDetect-Large-Uni（300 提议）** | **83.6** | **57.5** | 比 CLIP F1 +37.2 |
 
 ### 消融（Table 6 检测 / Table 7 Ref，均在 LVIS-minival / 部分数据上）
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | WeDetect-Base 完整 | 47.3 AP | 基线 |

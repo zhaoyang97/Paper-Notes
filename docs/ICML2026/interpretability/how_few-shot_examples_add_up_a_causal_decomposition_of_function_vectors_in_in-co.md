@@ -77,6 +77,7 @@ contextualization 提升 FV，到底是因为它改了 attention 的路由，还
 | 歧义任务上的熵下降 | $\Delta\hat H$（3→10 shot） | $-0.08\sim -0.15$ | 与正常任务方向相反——歧义场景下 contextualization 是"选择机制" |
 
 ### 消融实验
+
 | 配置 | FV injection accuracy | 注意力分配（amb vs unamb） | 结论 |
 |---|---|---|---|
 | Unintervened（PRESENT-PAST-A） | 0.52 | 0.94（unamb 占比高） | 完整 contextualized baseline |
@@ -124,9 +125,9 @@ contextualization 提升 FV，到底是因为它改了 attention 的路由，还
 
 - [\[ACL 2026\] Letting Tutor Personas Speak Up for LLMs: Learning Steering Vectors from Dialogue via Preference Optimization](../../ACL2026/interpretability/letting_tutor_personas_speak_up_for_llms_learning_steering_vectors_from_dialogue.md)
 - [\[ICML 2026\] Optimal Attention Temperature Improves the Robustness of In-Context Learning under Distribution Shift in High Dimensions](optimal_attention_temperature_improves_the_robustness_of_in-context_learning_und.md)
-- [\[ICML 2026\] Singular Vectors of Attention Heads Align with Features](singular_vectors_of_attention_heads_align_with_features.md)
+- [\[ICLR 2026\] Adaptive Concept Discovery for Interpretable Few-Shot Text Classification](../../ICLR2026/interpretability/adaptive_concept_discovery_for_interpretable_few-shot_text_classification.md)
 - [\[ICLR 2026\] Causal Interpretation of Neural Network Computations with Contribution Decomposition](../../ICLR2026/interpretability/causal_interpretation_of_neural_network_computations_with_contribution_decomposi.md)
-- [\[ACL 2026\] Interpretability from the Ground Up](../../ACL2026/interpretability/interpretability_from_the_ground_up_stakeholder-centric_design_of_automated_scor.md)
+- [\[ICML 2026\] Singular Vectors of Attention Heads Align with Features](singular_vectors_of_attention_heads_align_with_features.md)
 
 </div>
 

@@ -2,9 +2,10 @@
 title: >-
   [论文解读] AniMimic: Imitating 3D Animation from Video Priors
 description: >-
-  [CVPR 2026][3D动画] AniMimic 把视频扩散模型生成的单目动画当作运动监督，给一个静态 3D mesh 自动绑骨、用可微渲染优化关节参数把 2D 运动"抬"回 3D，再用可微 FEM 软体仿真补上惯性与弹性，产出可编辑、物理合理、可直接进动画流水线的 4D 序列。 领域现状：做一段有表现力的 3D 动画长…
+  [CVPR 2026][3D视觉][3D动画] AniMimic 把视频扩散模型生成的单目动画当作运动监督，给一个静态 3D mesh 自动绑骨、用可微渲染优化关节参数把 2D 运动"抬"回 3D，再用可微 FEM 软体仿真补上惯性与弹性，产出可编辑、物理合理、可直接进动画流水线的 4D 序列。 领域现状：做一段有表现力的…
 tags:
   - "CVPR 2026"
+  - "3D视觉"
   - "3D动画"
   - "视频扩散先验"
   - "可微渲染"
@@ -92,6 +93,7 @@ $$x^{n+1} = \arg\min_x \tfrac{1}{2}\|x - \tilde{x}\|_M^2 + \Psi(x),$$
 本文在 LPIPS、整体时序一致性（VBOC）、美学质量（VBAQ）上领先。SC4D 的 SSIM 最高，但作者解释那是因为它保留了低频结构却常生成错误纹理、扭曲几何，时序与画质实际很差——说明 SSIM 单看会误导。
 
 ### 用户研究（2AFC，本文相对各 baseline 的偏好率）
+
 | 对比对象 | 视觉质量 VQ | 时序一致 TC | 运动合理 MP | 总体 |
 |----------|------------|------------|------------|------|
 | vs SC4D | 96% | 93% | 92% | 91% |
@@ -101,6 +103,7 @@ $$x^{n+1} = \arg\min_x \tfrac{1}{2}\|x - \tilde{x}\|_M^2 + \Psi(x),$$
 用户在所有维度都更偏好本文，尤其运动合理性；相对 Puppeteer 优势最小（71% 总体），说明 Puppeteer 画质虽好但运动范围受限是主要可被超越点。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | Full | 形状/运动一致，贴合参考视频 | 完整模型 |
@@ -143,11 +146,11 @@ $$x^{n+1} = \arg\min_x \tfrac{1}{2}\|x - \tilde{x}\|_M^2 + \Psi(x),$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] 3D-Object Perception Transformer (3PT)](3d-object_perception_transformer_3pt.md)
-- [\[CVPR 2026\] Efficient Unrolled Networks for Large-Scale 3D Inverse Problems](efficient_unrolled_networks_for_large-scale_3d_inverse_problems.md)
-- [\[CVPR 2026\] 4DWorldBench: A Comprehensive Evaluation Framework for 3D/4D World Generation Models](4dworldbench_a_comprehensive_evaluation_framework_for_3d4d_world_generation_mode.md)
-- [\[CVPR 2026\] $\alpha$Matte4K & $\mu$Matting: Dataset and Model for Ultra-Micro Precision Alpha Video Matting](alphamatte4k_mumatting_dataset_and_model_for_ultra-micro_precision_alpha_video_m.md)
-- [\[ICCV 2025\] Jigsaw++: Imagining Complete Shape Priors for Object Reassembly](../../ICCV2025/others/jigsaw_imagining_complete_shape_priors_for_object_reassembly.md)
+- [\[CVPR 2026\] Tracking-Guided 4D Generation: Foundation-Tracker Motion Priors for 3D Model Animation](tracking-guided_4d_generation_foundation-tracker_motion_priors_for_3d_model_anim.md)
+- [\[CVPR 2026\] Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors](orbital_video_3d_foundation_priors.md)
+- [\[CVPR 2026\] VDFE: Difference-Aware 3D Scene Editing with Non-Intrusive Video Diffusion Priors for Multi-View Consistency and Efficiency](vdfe_difference-aware_3d_scene_editing_with_non-intrusive_video_diffusion_priors.md)
+- [\[CVPR 2026\] Human Geometry Distribution for 3D Animation Generation](human_geometry_distribution_for_3d_animation_generation.md)
+- [\[CVPR 2026\] RigMo: Unifying Rig and Motion Learning for Generative Animation](rigmo_unifying_rig_and_motion_learning_for_generative_animation.md)
 
 </div>
 

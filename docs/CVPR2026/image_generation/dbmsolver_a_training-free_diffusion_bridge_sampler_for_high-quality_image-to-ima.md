@@ -125,6 +125,7 @@ Face2Comics / CelebAMask-HQ / ImageNet 修复补充：
 ImageNet 修复上 6 NFE 把单图耗时从 ~13.7 压到 **3.66**、吞吐率提到 45.41（约 4× 加速）；CelebAMask-HQ 上 20 NFE FID 17.56，优于 DBIM-3 的 19.49 和 200 步 BBDM 的 21.35。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | $k=1$（≈ DBIM-1） | FID 较高 | 一阶 Taylor 展开，逼近误差大 |
@@ -170,7 +171,7 @@ ImageNet 修复上 6 NFE 把单图耗时从 ~13.7 压到 **3.66**、吞吐率提
 - [\[CVPR 2026\] Frequency-Aware Flow Matching for High-Quality Image Generation](freqflow_frequency_aware_flow_matching.md)
 - [\[CVPR 2026\] Efficient and Training-Free Single-Image Diffusion Models](efficient_and_training-free_single-image_diffusion_models.md)
 - [\[CVPR 2026\] Training-free, Perceptually Consistent Low-Resolution Previews with High-Resolution Image for Efficient Workflows of Diffusion Models](training-free_perceptually_consistent_low-resolution_previews.md)
-- [\[CVPR 2026\] DiT360: High-Fidelity Panoramic Image Generation via Hybrid Training](dit360_high-fidelity_panoramic_image_generation_via_hybrid_training.md)
+- [\[CVPR 2026\] Residual Diffusion Bridge Model for Image Restoration](residual_diffusion_bridge_model_for_image_restoration.md)
 
 </div>
 

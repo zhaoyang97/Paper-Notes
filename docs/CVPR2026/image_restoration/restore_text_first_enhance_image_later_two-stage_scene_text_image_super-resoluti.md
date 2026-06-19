@@ -91,6 +91,7 @@ flowchart TD
 文字区域裁剪指标（带下标 cr）上 TiGeSR 也最优，且 $\Delta$OCR-A（相对 LR 的 OCR 准确率变化）是少数为正的方法：Real-CE +2.5%、UZ-ST +1.3%，而几乎所有通用超分方法都为负（如 SUPIR −37.0%、OSEDiff −38.0%），说明它们"修图反而把字修没了"。
 
 ### 消融实验
+
 | 消融维度 | 配置 | OCR-A↑ | 说明 |
 |----------|------|--------|------|
 | 数据集 UZ-ST | OSEDiff w/o → w/ | 22.8% → 28.9% | 通用模型用 UZ-ST 微调即涨点 |
@@ -135,11 +136,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] TextOVSR: Text-Guided Real-World Opera Video Super-Resolution](textovsr_text-guided_real-world_opera_video_super-resolution.md)
 - [\[CVPR 2026\] SDUIE: Semi-Supervised Diffusion for Underwater Image Enhancement with Quant-Text Dual Control](sduie_semi-supervised_diffusion_for_underwater_image_enhancement_with_quant-text.md)
-- [\[CVPR 2026\] White-Balance First, Adjust Later: Cross-Camera Color Constancy via Vision-Language Evaluation](white-balance_first_adjust_later_cross-camera_color_constancy_via_vision-languag.md)
-- [\[CVPR 2026\] F²HDR: Two-Stage HDR Video Reconstruction via Flow Adapter and Physical Motion Modeling](f2hdr_two-stage_hdr_video_reconstruction_via_flow_adapter_and_physical_motion_mo.md)
 - [\[CVPR 2026\] Rethinking Diffusion Model-Based Video Super-Resolution: Leveraging Dense Guidance from Aligned Features](rethinking_diffusion_model-based_video_super-resolution_leveraging_dense_guidanc.md)
-- [\[CVPR 2026\] RAR: Restore, Assess, Repeat - A Unified Framework for Iterative Image Restoration](rar_restore_assess_repeat_a_unified_framework_for_iterative_image_restoration.md)
+- [\[CVPR 2026\] White-Balance First, Adjust Later: Cross-Camera Color Constancy via Vision-Language Evaluation](white-balance_first_adjust_later_cross-camera_color_constancy_via_vision-languag.md)
+- [\[CVPR 2026\] Restore, Assess, Repeat: A Unified Framework for Iterative Image Restoration](restore_assess_repeat_a_unified_framework_for_iterative_image_restoration.md)
 
 </div>
 

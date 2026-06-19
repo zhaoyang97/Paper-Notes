@@ -77,6 +77,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 实验问题 | 指标 / 数据集 | 关键结果 | 对照 | 结论 |
 |--------|------|------|----------|------|
 | 纯代码是否提升数学推理 | 数学能力平均 | full data 比 w/o code 低 14.38% | Code-NL 保持不变 | 纯可执行代码不是通用数学推理增强器 |
@@ -86,6 +87,7 @@ flowchart TD
 | cognitive scaffolds | 数学能力平均 | +17.56% | 固定 Math token budget | 结构化数学样本能显著提升复杂数学推理 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | full data (32e) | Math overall 36.20 / Programming overall 26.94 | 32-expert MoE 的完整语料基线 |
@@ -132,9 +134,9 @@ flowchart TD
 
 - [\[ICML 2026\] Biases in the Blind Spot: Detecting What LLMs Fail to Mention](biases_in_the_blind_spot_detecting_what_llms_fail_to_mention.md)
 - [\[ACL 2025\] STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond](../../ACL2025/llm_reasoning/stricta_structured_reasoning_peer_review.md)
+- [\[ICLR 2026\] Beyond English-Centric Training: How Reinforcement Learning Improves Cross-Lingual Reasoning in LLMs](../../ICLR2026/llm_reasoning/beyond_english-centric_training_how_reinforcement_learning_improves_cross-lingua.md)
 - [\[ICML 2026\] Beyond Test-Time Memory: State-Space Optimal Control for LLM Reasoning](beyond_test-time_memory_state-space_optimal_control_for_llm_reasoning.md)
 - [\[ICML 2026\] FloorplanQA: A Benchmark for Spatial Reasoning in LLMs Using Structured Representations](floorplanqa_a_benchmark_for_spatial_reasoning_in_llms_using_structured_represent.md)
-- [\[NeurIPS 2025\] Beyond Accuracy: Dissecting Mathematical Reasoning for LLMs Under Reinforcement Learning](../../NeurIPS2025/llm_reasoning/beyond_accuracy_dissecting_mathematical_reasoning_for_llms_u.md)
 
 </div>
 

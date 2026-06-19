@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][RLVR] 针对 RLVR 训练视觉语言模型时「只验证文本答案、放任上游视觉感知出错」的缺陷，PEARL 用一份从原题派生的「感知清单」给每道推理题加一组可验证的感知子问题，把感知奖励既当作直接监督信号、又当作放行推理更新的「保真门控」，从而在 MathVerse 等 6 个多模态推理基准上相对 baseline 平均提升约 +9.7%。
+  [CVPR 2026][VLM Reasoning][RLVR] 针对 RLVR 训练视觉语言模型时「只验证文本答案、放任上游视觉感知出错」的缺陷，PEARL 用一份从原题派生的「感知清单」给每道推理题加一组可验证的感知子问题，把感知奖励既当作直接监督信号、又当作放行推理更新的「保真门控」，从而在 MathVerse 等 6 个多模态推理基准上相对 baseline 平均提升约 +9.7%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "RLVR"
   - "视觉语言模型"
   - "感知-推理协同"
@@ -133,11 +133,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence](conan_progressive_learning_to_reason_like_a_detective_over_multi-scale_visual_ev.md)
 - [\[CVPR 2026\] CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal Reasoning](care_what_fails_contrastive_anchored-reflection_for_verifiable_multimodal_reason.md)
 - [\[CVPR 2026\] See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning](see_less_see_right_bi-directional_perceptual_shaping_for_multimodal_reasoning.md)
-- [\[CVPR 2026\] Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence](conan_progressive_learning_to_reason_like_a_detective_over_multi-scale_visual_ev.md)
 - [\[CVPR 2026\] R-C2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning](r-c2_cycle-consistent_reinforcement_learning_improves_multimodal_reasoning.md)
-- [\[CVPR 2026\] Stable and Efficient Single-Rollout RL for Multimodal Reasoning](stable_and_efficient_single-rollout_rl_for_multimodal_reasoning.md)
+- [\[CVPR 2026\] DPAD: Discriminative Perception via Anchored Description for Reasoning Segmentation](discriminative_perception_via_anchored_description_for_reasoning_segmentation.md)
 
 </div>
 

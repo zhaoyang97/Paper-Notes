@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 自动驾驶论文汇总 · 16篇论文解读
+  ICLR2026 自动驾驶论文汇总 · 17篇论文解读
 description: >-
-  16篇ICLR2026的自动驾驶方向论文解读，涵盖对抗鲁棒、Agent、自动驾驶等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  17篇ICLR2026的自动驾驶方向论文解读，涵盖自动驾驶、对抗鲁棒、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "自动驾驶"
@@ -17,6 +17,8 @@ item_list:
     t: "SMART-R1: Advancing Multi-agent Traffic Simulation via R1-Style Reinforcement Fine-Tuning"
   - u: "astra_general_interactive_world_model_with_autoregressive_denoising/"
     t: "Astra: General Interactive World Model with Autoregressive Denoising"
+  - u: "beyond_visual_reconstruction_quality_object_perception-aware_3d_gaussian_splatti/"
+    t: "Beyond Visual Reconstruction Quality: Object Perception-aware 3D Gaussian Splatting for Autonomous Driving"
   - u: "bridgedrive_diffusion_bridge_policy_for_closed-loop_trajectory_planning_in_auton/"
     t: "BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving"
   - u: "egodex_learning_dexterous_manipulation_from_large-scale_egocentric_video/"
@@ -43,17 +45,17 @@ item_list:
     t: "Steerable Adversarial Scenario Generation through Test-Time Preference Alignment (SAGE)"
   - u: "x2-fusion_cross-modality_and_cross-dimension_flow_estimation_in_event_edge_space/"
     t: "x²-Fusion: Cross-Modality and Cross-Dimension Flow Estimation in Event Edge Space"
-item_total: 16
+item_total: 17
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🔬 ICLR2026** · **16** 篇论文解读
+**🔬 ICLR2026** · **17** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (160)](../../CVPR2026/autonomous_driving/index.md) · [🧪 ICML2026 (6)](../../ICML2026/autonomous_driving/index.md) · [🤖 AAAI2026 (56)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (91)](../../ICCV2025/autonomous_driving/index.md) · [🧪 ICML2025 (10)](../../ICML2025/autonomous_driving/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (157)](../../CVPR2026/autonomous_driving/index.md) · [🧪 ICML2026 (8)](../../ICML2026/autonomous_driving/index.md) · [🤖 AAAI2026 (56)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (91)](../../ICCV2025/autonomous_driving/index.md) · [🧪 ICML2025 (10)](../../ICML2025/autonomous_driving/index.md)
 
-🔥 **高频主题：** 对抗鲁棒 ×2 · Agent ×2 · 自动驾驶 ×2
+🔥 **高频主题：** 自动驾驶 ×3 · 对抗鲁棒 ×2 · Agent ×2
 
 **[Adaptive Augmentation-Aware Latent Learning for Robust LiDAR Semantic Segmentation](adaptive_augmentation-aware_latent_learning_for_robust_lidar_semantic_segmentati.md)**
 
@@ -66,6 +68,10 @@ item_total: 16
 **[Astra: General Interactive World Model with Autoregressive Denoising](astra_general_interactive_world_model_with_autoregressive_denoising.md)**
 
 :   提出 Astra，一个通用交互式世界模型，通过自回归去噪框架在预训练视频扩散模型上实现动作条件化的长程视频预测，引入 ACT-Adapter（动作注入）、噪声增强历史记忆（缓解视觉惯性）和 Mixture of Action Experts（统一多异构动作模态），在自动驾驶、机器人操控和场景探索等多场景上实现 SOTA 的保真度和动作跟随能力。
+
+**[Beyond Visual Reconstruction Quality: Object Perception-aware 3D Gaussian Splatting for Autonomous Driving](beyond_visual_reconstruction_quality_object_perception-aware_3d_gaussian_splatti.md)**
+
+:   这篇论文指出"重建得越像就越能复现自动驾驶系统行为"是一个未经验证的强假设，提出用**感知稳定性**（同一感知模型在重建图与真值图上输出是否一致）取代纯视觉相似度作为优化目标，并给出两个即插即用的损失——感知对齐损失与对象区域质量损失——在不损失视觉质量的前提下显著提升了重建场景的感知一致性。
 
 **[BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving](bridgedrive_diffusion_bridge_policy_for_closed-loop_trajectory_planning_in_auton.md)**
 

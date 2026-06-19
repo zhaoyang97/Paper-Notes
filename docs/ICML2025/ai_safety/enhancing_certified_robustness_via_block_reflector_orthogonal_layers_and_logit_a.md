@@ -114,7 +114,7 @@ Logit Annealing Loss 结合退火机制，在训练初期允许较小间距，�
 - [\[ICCV 2025\] Towards Adversarial Robustness via Debiased High-Confidence Logit Alignment](../../ICCV2025/ai_safety/towards_adversarial_robustness_via_debiased_high-confidence_logit_alignment.md)
 - [\[NeurIPS 2025\] Enhancing Graph Classification Robustness with Singular Pooling](../../NeurIPS2025/ai_safety/enhancing_graph_classification_robustness_with_singular_pooling.md)
 - [\[CVPR 2026\] Enhancing Out-of-Distribution Detection with Extended Logit Normalization](../../CVPR2026/ai_safety/enhancing_out-of-distribution_detection_with_extended_logit_normalization.md)
-- [\[ICML 2025\] A Certified Unlearning Approach without Access to Source Data](a_certified_unlearning_approach_without_access_to_source_data.md)
+- [\[ICML 2026\] REFLECTOR：把"边走边自省"内化进生成轨迹以抵御间接越狱](../../ICML2026/ai_safety/reflector_internalizing_step-wise_reflection_against_indirect_jailbreak.md)
 
 </div>
 

@@ -96,6 +96,7 @@ flowchart TD
 图像上 stage2 在背景重建（PSNR 36.20）和前景对齐（CLIP 0.7774、DINO 0.4516、DreamSim 0.8184，前景 LPIPS 最低 0.6181）全面领先；视频上同样取得最优背景重建并大幅改善前景对齐，时序稳定性（EWarp 1.4248）与 stage1（1.3510）相当。用户偏好从次优方法的 ~0.5 拉到 0.74–0.89，差距悬殊。
 
 ### 消融实验（训练管线，表 3）
+
 | 配置 | 参考端 | 结构条件 | 前景 DINO↑ | 前景 LPIPS↓ | GLCM↑ | GPT-5↑ |
 |------|--------|----------|------|------|------|------|
 | Ab-1 | w/o Jigsaw | Canny | 0.1859 | 0.7674 | 0.7006 | 2.10 |
@@ -136,11 +137,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] OrionEdit: Bridging Reference and Source Images for Generalized Cross-Image Editing](orionedit_bridging_reference_and_source_images_for_generalized_cross-image_editi.md)
 - [\[CVPR 2026\] OneHOI: Unifying Human-Object Interaction Generation and Editing](onehoi_unifying_human-object_interaction_generation_and_editing.md)
-- [\[CVPR 2026\] NI-Tex: Non-isometric Image-based Garment Texture Generation](ni-tex_non-isometric_image-based_garment_texture_generation.md)
-- [\[CVPR 2026\] Object-WIPER: Training-Free Object and Associated Effect Removal in Videos](object-wiper_training-free_object_and_associated_effect_removal_in_videos.md)
+- [\[CVPR 2026\] Towards High-resolution and Disentangled Reference-based Sketch Colorization](towards_high-resolution_and_disentangled_reference-based_sketch_colorization.md)
 - [\[CVPR 2026\] Semantics Lead the Way: Harmonizing Semantic and Texture Modeling with Asynchronous Latent Diffusion](semantics_lead_the_way_harmonizing_semantic_and_texture_modeling_with_asynchrono.md)
-- [\[CVPR 2026\] MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](multibanana_a_challenging_benchmark_for_multi_reference_text_to_image_generation.md)
+- [\[CVPR 2026\] Object-WIPER: Training-Free Object and Associated Effect Removal in Videos](object-wiper_training-free_object_and_associated_effect_removal_in_videos.md)
 
 </div>
 

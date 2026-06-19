@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 Multi-Agent论文汇总 · 15篇论文解读
+  ICLR2026 Multi-Agent论文汇总 · 24篇论文解读
 description: >-
-  15篇ICLR2026的 Multi-Agent 方向论文解读，涵盖 Agent、LLM、多模态、推理、医学影像等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  24篇ICLR2026的 Multi-Agent 方向论文解读，涵盖 Agent、LLM、强化学习、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "Multi-Agent"
@@ -10,14 +10,31 @@ tags:
   - "论文笔记"
   - "Agent"
   - "LLM"
-  - "多模态"
+  - "强化学习"
   - "推理"
-  - "医学影像"
 item_list:
+  - u: "adaptive_collaboration_with_humans_metacognitive_policy_optimization_for_multi-a/"
+    t: "Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning"
+  - u: "agentpo_enhancing_multi-agent_collaboration_via_reinforcement_learning/"
+    t: "AgentPO: Enhancing Multi-Agent Collaboration via Reinforcement Learning"
   - u: "agenttrace_causal_graph_tracing_for_root_cause_analysis_in_deployed_multi-agent_/"
     t: "AgentTrace: Causal Graph Tracing for Root Cause Analysis in Deployed Multi-Agent Systems"
+  - u: "aligned_agents_biased_swarm_measuring_bias_amplification_in_multi-agent_systems/"
+    t: "Aligned Agents, Biased Swarm: Measuring Bias Amplification in Multi-Agent Systems"
+  - u: "atlas_constraints-aware_multi-agent_collaboration_for_real-world_travel_planning/"
+    t: "ATLAS: Constraints-Aware Multi-Agent Collaboration for Real-World Travel Planning"
   - u: "auditing_cascading_risks_in_multi-agent_systems_via_semanti-geometric_co-evolut/"
     t: "Auditing Cascading Risks in Multi-Agent Systems via Semantic–Geometric Co-evolution"
+  - u: "automated_stateful_specialization_for_adaptive_agent_systems/"
+    t: "Automated Stateful Specialization for Adaptive Agent Systems"
+  - u: "benefits_and_limitations_of_communication_in_multi-agent_reasoning/"
+    t: "Benefits and Limitations of Communication in Multi-Agent Reasoning"
+  - u: "breaking_and_fixing_defenses_against_control_flow_hijacking_in_multi-agent_syste/"
+    t: "Breaking and Fixing Defenses Against Control Flow Hijacking in Multi-Agent Systems"
+  - u: "bridge_bi-level_reinforcement_learning_for_dynamic_group_structure_in_coalition_/"
+    t: "BRIDGE: Bi-level Reinforcement Learning for Dynamic Group Structure in Coalition Formation Games"
+  - u: "cache-to-cache_direct_semantic_communication_between_large_language_models/"
+    t: "Cache-to-Cache: Direct Semantic Communication Between Large Language Models"
   - u: "completing_missing_annotation_multi-agent_debate_for_accurate_and_scalable_relev/"
     t: "Completing Missing Annotation: Multi-Agent Debate for Accurate and Scalable Relevance Assessment"
   - u: "hamlet_a_hierarchical_and_adaptive_multi-agent_framework_for_live_embodied_theat/"
@@ -44,25 +61,61 @@ item_list:
     t: "When Agents \"Misremember\" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems"
   - u: "which_llm_multi-agent_protocol_to_choose/"
     t: "Which LLM Multi-Agent Protocol to Choose?"
-item_total: 15
+item_total: 24
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 Multi-Agent
 
-**🔬 ICLR2026** · **15** 篇论文解读
+**🔬 ICLR2026** · **24** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (9)](../../CVPR2026/multi_agent/index.md) · [🧪 ICML2026 (15)](../../ICML2026/multi_agent/index.md) · [💬 ACL2026 (38)](../../ACL2026/multi_agent/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/multi_agent/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/multi_agent/index.md) · [🧪 ICML2025 (7)](../../ICML2025/multi_agent/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/multi_agent/index.md) · [🧪 ICML2026 (24)](../../ICML2026/multi_agent/index.md) · [💬 ACL2026 (39)](../../ACL2026/multi_agent/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/multi_agent/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/multi_agent/index.md) · [🧪 ICML2025 (7)](../../ICML2025/multi_agent/index.md)
 
-🔥 **高频主题：** Agent ×13 · LLM ×4
+🔥 **高频主题：** Agent ×20 · LLM ×5 · 强化学习 ×2 · 推理 ×2
+
+**[Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning](adaptive_collaboration_with_humans_metacognitive_policy_optimization_for_multi-a.md)**
+
+:   提出 HILA 框架，让多智能体 LLM 学会一套"元认知策略"——自己判断什么时候能独立解题、什么时候该把问题交给人类专家；再用 Dual-Loop Policy Optimization 把"何时求助"（内环强化学习）和"如何从求助中长本事"（外环持续学习）分开优化，在数学推理等基准上稳定超过现有自主多智能体系统。
+
+**[AgentPO: Enhancing Multi-Agent Collaboration via Reinforcement Learning](agentpo_enhancing_multi-agent_collaboration_via_reinforcement_learning.md)**
+
+:   AgentPO 不去搜索多智能体拓扑结构，而是在一个固定拓扑里冻结强大的 Actor、只用强化学习（GRPO）训练一个轻量级 Collaborator 学会"怎么辅助队友"，仅用 500 条训练样本和 EvoAgent 7.8% 的推理开销，就在多个数学推理基准上稳定超越 Role Assignment、EvoAgent 等强基线。
 
 **[AgentTrace: Causal Graph Tracing for Root Cause Analysis in Deployed Multi-Agent Systems](agenttrace_causal_graph_tracing_for_root_cause_analysis_in_deployed_multi-agent_.md)**
 
 :   提出AgentTrace框架，从多智能体系统的执行日志中构建因果图，通过反向追踪+轻量级特征排序（五组特征的加权线性组合）定位根因节点，在550个合成故障场景上Hit@1达94.9%，延迟0.12秒，比LLM分析快69倍。
 
+**[Aligned Agents, Biased Swarm: Measuring Bias Amplification in Multi-Agent Systems](aligned_agents_biased_swarm_measuring_bias_amplification_in_multi-agent_systems.md)**
+
+:   这篇论文用一个强制三选一的开放式偏见基准 Discrim-Eval-Open，把多智能体系统（MAS）建模成有向无环图、用基尼系数追踪偏见在层间的"放大率"，系统性地证明了一个反直觉结论：人们以为多智能体协作会"稀释"偏见，实际上各种角色分工、复杂拓扑、加深迭代反而把单体模型里微小的随机偏好放大成系统性的人群歧视，甚至一句客观中性的外部信息就能触发剧烈极化。
+
+**[ATLAS: Constraints-Aware Multi-Agent Collaboration for Real-World Travel Planning](atlas_constraints-aware_multi-agent_collaboration_for_real-world_travel_planning.md)**
+
+:   ATLAS 把"带搜索的真实旅行规划"形式化成一个动态约束满足问题（CSP），用 5 个分工明确的 LLM 智能体（搜索、约束管理、规划、检查、搜索顾问）协同补全约束、迭代纠错、并在卡死时反过来指导搜索，把 TravelPlanner 最终通过率从 23.3% 提到 44.4%，并首次在带实时网络搜索的真实多轮场景里做到 84% 通过率。
+
 **[Auditing Cascading Risks in Multi-Agent Systems via Semantic–Geometric Co-evolution](auditing_cascading_risks_in_multi-agent_systems_via_semanti-geometric_co-evolut.md)**
 
 :   提出 SCCAL 框架，通过耦合语义流（semantic flow）和交互图的 Ollivier–Ricci 曲率（ORC）来建模多智能体系统中语义-几何的协同演化，利用两者的一致性残差作为级联风险的早期预警信号，在语义违规显现前数轮即可检测异常。
+
+**[Automated Stateful Specialization for Adaptive Agent Systems](automated_stateful_specialization_for_adaptive_agent_systems.md)**
+
+:   ASPEC 提出一套全自动的"有状态专家智能体团队"生命周期框架：先用进化搜索离线发现一批领域专家算子、再让它们在经验中反思培养出持久记忆，最后在线用一个轻量的 "retain-then-escalate"（先保留、再升级）元控制器决定每个查询是沿用现有团队还是重新搜索架构，从而在专家级科学基准 GPQA 上把 Gemini 2.0 Flash 从 56.3% 拉到 62.8%，同时训练+推理成本远低于同类自动框架。
+
+**[Benefits and Limitations of Communication in Multi-Agent Reasoning](benefits_and_limitations_of_communication_in_multi-agent_reasoning.md)**
+
+:   本文给"把长上下文切块、多个 LLM agent 分头处理再汇总"这类多智能体推理系统建了一套基于 Transformer 表达力的理论框架，在关联召回、状态追踪、k-hop 推理三类任务上证明了**需要多少个 agent、多少通信、能换来多少并行加速**的紧界，划出三种 depth–通信权衡区间，并用 Llama 在合成基准上验证理论预测的拐点确实出现。
+
+**[Breaking and Fixing Defenses Against Control Flow Hijacking in Multi-Agent Systems](breaking_and_fixing_defenses_against_control_flow_hijacking_in_multi-agent_syste.md)**
+
+:   这篇论文先证明了现有"对齐检查"类防御（如 LlamaFirewall）能被精心改写的控制流劫持攻击绕过，再提出 CONTROLVALVE——一个借鉴程序控制流完整性思想的协同层防御：在任务规划期生成"允许的智能体调用图 + 每条边的上下文规则"，运行期对每次智能体跳转只做"是否在图里、是否满足边规则"的窄判定，从而在不掉基准任务性能的前提下把所有评测攻击的成功率压到 0%。
+
+**[BRIDGE: Bi-level Reinforcement Learning for Dynamic Group Structure in Coalition Formation Games](bridge_bi-level_reinforcement_learning_for_dynamic_group_structure_in_coalition_.md)**
+
+:   把"把一群智能体最优地划分成若干联盟"（NP 完全的联盟结构生成问题）建模成一个紧凑、可被强化学习吃下的 MDP，再用双层 RL（上层学合并联盟、下层学每个智能体的最优策略）联合求解，使得在 3 个智能体上训练的模型能泛化到 100 个智能体，并在推理速度和混合动机马尔可夫博弈上超过传统启发式方法。
+
+**[Cache-to-Cache: Direct Semantic Communication Between Large Language Models](cache-to-cache_direct_semantic_communication_between_large_language_models.md)**
+
+:   让多个大语言模型不再靠"互相说话"协作，而是用一个轻量神经网络把 Sharer 模型的 KV-Cache 直接投影、融合进 Receiver 模型的 KV-Cache，绕开 token-by-token 的文本生成，既保住了文本会丢失的深层语义，又把延迟平均压低 2.5×，准确率比纯文本协作高约 3–5%。
 
 **[Completing Missing Annotation: Multi-Agent Debate for Accurate and Scalable Relevance Assessment](completing_missing_annotation_multi-agent_debate_for_accurate_and_scalable_relev.md)**
 

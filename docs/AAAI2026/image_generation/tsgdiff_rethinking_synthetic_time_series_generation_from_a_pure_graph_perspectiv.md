@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.12174](https://arxiv.org/abs/2511.12174)  
 **代码**: [TSGDiff](https://github.com/jvaeylee/TSGDiff)  
-**领域**: 时间序列
+**领域**: 时间序列  
 **关键词**: 时间序列生成, 图神经网络, 扩散模型, 傅里叶变换, 拓扑结构忠实度
 
 ## 一句话总结

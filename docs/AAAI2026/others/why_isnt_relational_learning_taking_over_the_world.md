@@ -127,11 +127,11 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2026\] VideoWorld 2: Learning Transferable Knowledge from Real-world Videos](../../CVPR2026/others/videoworld_2_learning_transferable_knowledge_from_real-world_videos.md)
 - [\[AAAI 2026\] Beyond World Models: Rethinking Understanding in AI Models](beyond_world_models_rethinking_understanding_in_ai_models.md)
 - [\[ICML 2026\] Knowing Isn't Understanding: Re-Grounding Generative Proactivity with Epistemic and Behavioral Insight](../../ICML2026/others/knowing_isnt_understanding_re-grounding_generative_proactivity_with_epistemic_an.md)
-- [\[ACL 2025\] TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation](../../ACL2025/others/tabxeval_why_this_is_a_bad_table_an_exhaustive_rubric_for_table_evaluation.md)
 - [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](../../ACL2025/others/generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
-- [\[ACL 2025\] Visual Cues Enhance Predictive Turn-Taking for Two-Party Human Interaction](../../ACL2025/others/visual_cues_enhance_predictive_turn-taking_for_two-party_human_interaction.md)
+- [\[ACL 2025\] TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation](../../ACL2025/others/tabxeval_why_this_is_a_bad_table_an_exhaustive_rubric_for_table_evaluation.md)
 
 </div>
 

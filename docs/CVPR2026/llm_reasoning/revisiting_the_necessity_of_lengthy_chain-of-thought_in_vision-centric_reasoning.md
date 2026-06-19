@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Revisiting the Necessity of Lengthy Chain-of-Thought in Vision-centric Reasoning Generalization
 description: >-
-  [CVPR 2026][LLM推理][视觉链式推理] 作者用可控的迷宫导航任务系统对比了语言 CoT、grounding CoT、视觉 CoT 三类「think with image」式监督格式，发现更长/更花哨的视觉 CoT 只能加快收敛、抬不高最终天花板，而**只保留最少 grounding 信息的极简 CoT（一条坐标路径）反而泛化最好**，提出「short is long」效应并给出构造可泛化视觉推理 SFT 数据的实操指南。
+  [CVPR 2026][Reasoning][视觉链式推理] 作者用可控的迷宫导航任务系统对比了语言 CoT、grounding CoT、视觉 CoT 三类「think with image」式监督格式，发现更长/更花哨的视觉 CoT 只能加快收敛、抬不高最终天花板，而**只保留最少 grounding 信息的极简 CoT（一条坐标路径）反而泛化最好**，提出「short is long」效应并给出构造可泛化视觉推理 SFT 数据的实操指南。
 tags:
   - "CVPR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "视觉链式推理"
   - "视觉 CoT"
   - "泛化"
@@ -137,11 +137,11 @@ Jigsaw 从 0% 拉到 70%+，FrozenLake 从 20% 拉到 90%+；在 V*Bench / HR-Be
 
 ## 相关论文
 
-- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
-- [\[CVPR 2025\] Argus: Vision-Centric Reasoning with Grounded Chain-of-Thought](../../CVPR2025/llm_reasoning/argus_vision-centric_reasoning_with_grounded_chain-of-thought.md)
 - [\[CVPR 2026\] Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models](think-as-you-see_streaming_chain-of-thought_reasoning_for_large_vision-language_.md)
-- [\[CVPR 2026\] Think 360°: Beyond Depth — Evaluating the Width-centric Reasoning Capability of MLLMs](think_360deg_beyond_depth_evaluating_the_width-centric_reasoning_capability_of_m.md)
-- [\[ICML 2026\] Diversity Matters: Revisiting Test-Time Compute in Vision-Language Models](../../ICML2026/llm_reasoning/diversity_matters_revisiting_test-time_compute_in_vision-language_models.md)
+- [\[CVPR 2025\] Argus: Vision-Centric Reasoning with Grounded Chain-of-Thought](../../CVPR2025/llm_reasoning/argus_vision-centric_reasoning_with_grounded_chain-of-thought.md)
+- [\[CVPR 2026\] Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought](rationale-enhanced_decoding_for_multi-modal_chain-of-thought.md)
+- [\[ICLR 2026\] Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision](../../ICLR2026/llm_reasoning/uni-cot_towards_unified_chain-of-thought_reasoning_across_text_and_vision.md)
+- [\[CVPR 2026\] FireScope: Wildfire Risk Raster Prediction with a Chain-of-Thought Oracle](firescope_wildfire_risk_raster_prediction_with_a_chain-of-thought_oracle.md)
 
 </div>
 

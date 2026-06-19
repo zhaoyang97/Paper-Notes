@@ -68,6 +68,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 评测 | 现象/增益 | 说明 |
 |------|----------|------|
 | HVCU-Bench 逐层 | 感知→桥接→隐含义性能单调下滑 | 高层是普遍瓶颈，层间强依赖 |
@@ -76,6 +77,7 @@ flowchart TD
 | MMMU / 情感推理 | +多个百分点 | 分层训练普遍有益 |
 
 ### 消融/分析
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | 强化底层（MCTS 数据） | 高层可测提升 | 自底向上有效 |
@@ -116,9 +118,9 @@ flowchart TD
 
 - [\[CVPR 2026\] HBridge: H-Shape Bridging of Heterogeneous Experts for Unified Multimodal Understanding and Generation](hbridge_h-shape_bridging_of_heterogeneous_experts_for_unified_multimodal_underst.md)
 - [\[CVPR 2026\] HiSpatial: Taming Hierarchical 3D Spatial Understanding in Vision-Language Models](hispatial_taming_hierarchical_3d_spatial_understanding_in_vision-language_models.md)
+- [\[CVPR 2026\] HAVE-Bench: Hierarchical Audio-Visual Evaluation from Perception to Interaction](have-bench_hierarchical_audio-visual_evaluation_from_perception_to_interaction.md)
 - [\[ACL 2026\] SlideAgent: Hierarchical Agentic Framework for Multi-Page Visual Document Understanding](../../ACL2026/multimodal_vlm/slideagent_hierarchical_agentic_framework_for_multi-page_visual_document_underst.md)
 - [\[CVPR 2026\] Taxonomy-Aware Representation Alignment for Hierarchical Visual Recognition with Large Multimodal Models](taxonomy-aware_representation_alignment_for_hierarchical_visual_recognition_with.md)
-- [\[CVPR 2026\] CodeMMR: Bridging Natural Language, Code, and Image for Unified Retrieval](codemmr_bridging_natural_language_code_and_image_for_unified_retrieval.md)
 
 </div>
 

@@ -160,11 +160,11 @@ CDOT 在 diffusion 距离下大幅领先（0.61 vs FGW 0.19）；geodesic 上 FG
 
 ## 相关论文
 
+- [\[CVPR 2026\] Learning Convex Decomposition via Feature Fields](../../CVPR2026/3d_vision/learning_convex_decomposition_via_feature_fields.md)
 - [\[ICML 2026\] AvAtar: Learning to Align via Active Optimal Transport](avatar_learning_to_align_via_active_optimal_transport.md)
-- [\[ECCV 2024\] Differentiable Convex Polyhedra Optimization from Multi-view Images](../../ECCV2024/3d_vision/differentiable_convex_polyhedra_optimization_from_multi-view_images.md)
 - [\[ICML 2026\] Streaming Sliced Optimal Transport](streaming_sliced_optimal_transport.md)
+- [\[ECCV 2024\] Differentiable Convex Polyhedra Optimization from Multi-view Images](../../ECCV2024/3d_vision/differentiable_convex_polyhedra_optimization_from_multi-view_images.md)
 - [\[CVPR 2025\] 3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes](../../CVPR2025/3d_vision/3d_convex_splatting_radiance_field_rendering_with_3d_smooth_convexes.md)
-- [\[ICML 2026\] Geometry-Guided Modeling of Foundation Features Enables Generalizable Object Shape Deformation Learning](geometry-guided_modeling_of_foundation_features_enables_generalizable_object_sha.md)
 
 </div>
 

@@ -2,9 +2,10 @@
 title: >-
   [论文解读] Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification
 description: >-
-  [CVPR 2026][模型审计] AuditDM 把一个 MLLM 微调成"审计员"，让它主动生成"能让目标模型答错、但参考模型集合却一致答对"的图文对，从而系统性挖出目标模型的能力盲点，再把这些盲点变成无标注训练数据回灌——结果让 PaliGemma2-3B 在多个 benchmark 上反超官方 28B 版本。
+  [CVPR 2026][多模态VLM][模型审计] AuditDM 把一个 MLLM 微调成"审计员"，让它主动生成"能让目标模型答错、但参考模型集合却一致答对"的图文对，从而系统性挖出目标模型的能力盲点，再把这些盲点变成无标注训练数据回灌——结果让 PaliGemma2-3B 在多个 benchmark 上反超官方 28B 版本。
 tags:
   - "CVPR 2026"
+  - "多模态VLM"
   - "模型审计"
   - "能力差距发现"
   - "跨模型分歧"
@@ -96,6 +97,7 @@ $$\hat{A}^k(Q^*, I^*) = \frac{s^k(Q^*, I^*) - \mathrm{mean}_j[s^j(Q^*, I^*)]}{\m
 微调后的审计员找盲点效率是 baseline 的 4 倍多，且发现的弱点横跨世界知识、读时钟、比大小等多样技能，更可解释。一个有意思的发现：AuditDM 揭示出 PaliGemma2-28B 在若干类别上反而**比 3B 更差**——幻觉规避、计数、颜色识别上 28B 失败率更高，说明大模型并不必然更鲁棒，且两者依赖不同的视觉线索、决策边界不同。
 
 ### 逐任务微调结果（PaliGemma2-3B，448px²）
+
 | 模型 | VQAv2 | GQA | OK-VQA | AI2D | DocVQA | ChartQA | RefCOCO | COCOCap |
 |------|-------|-----|--------|------|--------|---------|---------|---------|
 | PaliGemma2-10B | 85.8 | 68.3 | 68.6 | 84.4 | 76.6 | 66.4 | 78.2 | 145.0 |
@@ -106,6 +108,7 @@ $$\hat{A}^k(Q^*, I^*) = \frac{s^k(Q^*, I^*) - \mathrm{mean}_j[s^j(Q^*, I^*)]}{\m
 3B 模型加 AuditDM 后在所有 benchmark 上大幅提升，且在 VQAv2、AI2D、DocVQA、GQA 等多个任务上**反超官方在原数据上微调的 28B 版本**。grounding 类任务（RefCOCO）涨幅较小，因为合成/编辑图像会挪动物体位置、与 bbox 标注错位。
 
 ### 通用 benchmark 结果（Gemma3-4B）
+
 | 模型 | MMBench-v1.1 | MMTBench | Seed-IMG | MME | MMMU | MMStar | RealWorldQA | POPE |
 |------|------|------|------|------|------|------|------|------|
 | Gemma3-12B | 73.8 | 58.5 | 70.6 | 1517.3 | 44.8 | 55.7 | 58.3 | 86.0 |
@@ -116,6 +119,7 @@ $$\hat{A}^k(Q^*, I^*) = \frac{s^k(Q^*, I^*) - \mathrm{mean}_j[s^j(Q^*, I^*)]}{\m
 无任何人工标注下每个 benchmark 都显著提升，且在 Seed-Bench-IMG、MMMU、RealWorldQA 上 4B+AuditDM 反超 12B。
 
 ### 消融：三个审计组件的贡献（PaliGemma2-3B，224px²）
+
 | 配置 | GQA | RefCOCO | AI2D |
 |------|------|---------|------|
 | Baseline | 66.2 | 73.4 | 74.7 |
@@ -158,11 +162,11 @@ $$\hat{A}^k(Q^*, I^*) = \frac{s^k(Q^*, I^*) - \mathrm{mean}_j[s^j(Q^*, I^*)]}{\m
 
 ## 相关论文
 
-- [\[CVPR 2026\] Language Does Matter for Cross-Domain Few-Shot Visual Feature Enhancement](language_does_matter_for_cross-domain_few-shot_visual_feature_enhancement.md)
-- [\[ICLR 2026\] Missing Mass for Differentially Private Domain Discovery](../../ICLR2026/others/missing_mass_for_differentially_private_domain_discovery.md)
-- [\[ICML 2026\] Target-Agnostic Calibration under Distribution Shift with Frequency-Aware Gradient Rectification](../../ICML2026/others/target-agnostic_calibration_under_distribution_shift_with_frequency-aware_gradie.md)
-- [\[AAAI 2026\] Bridging the Skills Gap: A Course Model for Modern Generative AI Education](../../AAAI2026/others/bridging_the_skills_gap_a_course_model_for_modern_generative_ai_education.md)
-- [\[ACL 2025\] I0T: Embedding Standardization Method Towards Zero Modality Gap](../../ACL2025/others/i0t_embedding_standardization_method_towards_zero_modality_gap.md)
+- [\[CVPR 2026\] Concept Regions Matter: Benchmarking CLIP with a New Cluster-Importance Approach](concept_regions_matter_benchmarking_clip_with_a_new_cluster-importance_approach.md)
+- [\[CVPR 2026\] CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation](capnav_benchmarking_vision_language_models_on_capability-conditioned_indoor_navi.md)
+- [\[CVPR 2026\] Unleashing the Intrinsic Visual Representation Capability of Multimodal Large Language Models](unleashing_the_intrinsic_visual_representation_capability_of_multimodal_large_la.md)
+- [\[CVPR 2026\] Is the Modality Gap a Bug or a Feature? A Robustness Perspective](is_the_modality_gap_a_bug_or_a_feature_a_robustness_perspective.md)
+- [\[CVPR 2026\] Diagnosing and Repairing Unsafe Channels in Vision-Language Models via Causal Discovery and Dual-Modal Safety Subspace Projection](diagnosing_and_repairing_unsafe_channels_in_vision-language_models_via_causal_di.md)
 
 </div>
 

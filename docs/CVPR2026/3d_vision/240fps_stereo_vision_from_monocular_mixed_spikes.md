@@ -100,6 +100,7 @@ SMS-Net 端到端训练，损失为左右两路的 $\ell_1$ 重建误差 $L=\|\h
 精修后的 Refine-DEFOM 在 TartanAir 上 AbsRel 从基线 0.1695 降到 0.0940（近乎接近上界 0.0498），δ1 升到 0.9202，全面碾压脉冲单目 Spike-T，并优于帧单目 DepthPro；单目方法在远景上精度明显退化。
 
 ### 消融实验：ABC / CBA / RSF 三模块（TartanAir，PSNR-Left / SSIM-Left / EPE）
+
 | 配置 | PSNR↑(L) | SSIM↑(L) | EPE↓ | 说明 |
 |------|------|------|------|------|
 | Baseline | 26.53 | 0.857 | 13.71 | 仅最小二乘解耦 |

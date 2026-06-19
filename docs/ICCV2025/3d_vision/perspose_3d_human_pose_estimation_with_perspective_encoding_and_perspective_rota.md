@@ -131,8 +131,8 @@ PersPose在多个基准上取得一致的SOTA或竞争性结果。
 
 - [\[ICCV 2025\] Bring Your Rear Cameras for Egocentric 3D Human Pose Estimation](bring_your_rear_cameras_for_egocentric_3d_human_pose_estimation.md)
 - [\[CVPR 2025\] Pano360: Perspective to Panoramic Vision with Geometric Consistency](../../CVPR2025/3d_vision/pano360_perspective_to_panoramic_vision_with_geometric_consistency.md)
+- [\[CVPR 2026\] Affine Perspective-Three-Point Problem](../../CVPR2026/3d_vision/affine_perspective-three-point_problem.md)
 - [\[CVPR 2025\] Extreme Rotation Estimation in the Wild](../../CVPR2025/3d_vision/extreme_rotation_estimation_in_the_wild.md)
-- [\[ICLR 2026\] Einstein Fields: A Neural Perspective To Computational General Relativity](../../ICLR2026/3d_vision/einstein_fields_a_neural_perspective_to_computational_general_relativity.md)
 - [\[ICCV 2025\] Single-Scanline Relative Pose Estimation for Rolling Shutter Cameras](single-scanline_relative_pose_estimation_for_rolling_shutter_cameras.md)
 
 </div>

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 语义分割论文汇总 · 13篇论文解读
+  ICML2026 语义分割论文汇总 · 14篇论文解读
 description: >-
-  13篇ICML2026的语义分割方向论文解读，涵盖语义分割、目标跟踪、LLM、对齐/RLHF、语音、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  14篇ICML2026的语义分割方向论文解读，涵盖语义分割、目标跟踪、LLM、对齐/RLHF、语音、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "语义分割"
@@ -34,23 +34,25 @@ item_list:
     t: "Segment Anything with Robust Uncertainty-Accuracy Correlation"
   - u: "supervise_less_see_more_training-free_nuclear_instance_segmentation_with_prototy/"
     t: "SPROUT: Supervise Less, See More — Training-free Nuclear Instance Segmentation with Prototype-Guided Prompting"
+  - u: "towards_effective_waste_segmentation_for_automated_waste_recycling_in_cluttered_/"
+    t: "Towards Effective Waste Segmentation for Automated Waste Recycling in Cluttered Background"
   - u: "uground_towards_unified_visual_grounding_with_unrolled_transformers/"
     t: "UGround: Towards Unified Visual Grounding with Unrolled Transformers"
   - u: "unsupervised_hierarchical_skill_discovery/"
     t: "无监督层级技能发现"
   - u: "what_makes_synthetic_data_effective_in_image_segmentation/"
     t: "What Makes Synthetic Data Effective in Image Segmentation"
-item_total: 13
+item_total: 14
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🧪 ICML2026** · **13** 篇论文解读
+**🧪 ICML2026** · **14** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (162)](../../CVPR2026/segmentation/index.md) · [🔬 ICLR2026 (11)](../../ICLR2026/segmentation/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/segmentation/index.md) · [🧠 NeurIPS2025 (45)](../../NeurIPS2025/segmentation/index.md) · [📹 ICCV2025 (73)](../../ICCV2025/segmentation/index.md) · [🧪 ICML2025 (18)](../../ICML2025/segmentation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (122)](../../CVPR2026/segmentation/index.md) · [🔬 ICLR2026 (13)](../../ICLR2026/segmentation/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/segmentation/index.md) · [🧠 NeurIPS2025 (45)](../../NeurIPS2025/segmentation/index.md) · [📹 ICCV2025 (73)](../../ICCV2025/segmentation/index.md) · [🧪 ICML2025 (18)](../../ICML2025/segmentation/index.md)
 
-🔥 **高频主题：** 语义分割 ×6
+🔥 **高频主题：** 语义分割 ×7
 
 **[Activation-Free Backbones for Image Recognition: Polynomial Alternatives within MetaFormer-Style Vision Models](activation-free_backbones_for_image_recognition_polynomial_alternatives_within_m.md)**
 
@@ -91,6 +93,10 @@ item_total: 13
 **[SPROUT: Supervise Less, See More — Training-free Nuclear Instance Segmentation with Prototype-Guided Prompting](supervise_less_see_more_training-free_nuclear_instance_segmentation_with_prototy.md)**
 
 :   SPROUT 是首个完全训练无关、零标注的病理核分割框架——用 H&E 染色先验在每张切片上自构高置信度前景/背景区域→提取原型→用部分最优传输（POT）做特征-原型软对齐→输出 SAM 的正/负点提示；在 MoNuSeg 等基准上 AJI 比训练方法高 8.2%。
+
+**[Towards Effective Waste Segmentation for Automated Waste Recycling in Cluttered Background](towards_effective_waste_segmentation_for_automated_waste_recycling_in_cluttered_.md)**
+
+:   针对自动垃圾回收里"杂乱背景 + 半透明/可变形废品 + 现有方法靠大 backbone 太重"的痛点，提出轻量分割网络 EWSegNet：用**空间域模块抓局部结构、频域模块抓全局上下文**级联互补，再加一个用**高斯差分 + 池化注意力**强化边界与团块（blob）的辅助增强模块 AFEM，在更小参数/更低延迟下达到与 SOTA 相当甚至更好的分割精度。
 
 **[UGround: Towards Unified Visual Grounding with Unrolled Transformers](uground_towards_unified_visual_grounding_with_unrolled_transformers.md)**
 

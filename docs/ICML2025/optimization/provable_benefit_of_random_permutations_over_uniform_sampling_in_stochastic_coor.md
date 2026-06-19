@@ -131,7 +131,7 @@ tags:
 - [\[ICML 2025\] Random Feature Representation Boosting](random_feature_representation_boosting.md)
 - [\[ICML 2025\] Provable In-Context Vector Arithmetic via Retrieving Task Concepts](provable_in-context_vector_arithmetic_via_retrieving_task_concepts.md)
 - [\[ICML 2025\] Learning Mixtures of Experts with EM: A Mirror Descent Perspective](learning_mixtures_of_experts_with_em_a_mirror_descent_perspective.md)
-- [\[ICML 2025\] A Near-Optimal Single-Loop Stochastic Algorithm for Convex Finite-Sum Coupled Compositional Optimization](a_near-optimal_single-loop_stochastic_algorithm_for_convex_finite-sum_coupled_co.md)
+- [\[ICLR 2026\] A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints](../../ICLR2026/optimization/a_block_coordinate_descent_method_for_nonsmooth_composite_optimization_under_ort.md)
 
 </div>
 

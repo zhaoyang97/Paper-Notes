@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 可解释性论文汇总 · 61篇论文解读
+  ACL2026 可解释性论文汇总 · 63篇论文解读
 description: >-
-  61篇ACL2026的可解释性方向论文解读，涵盖 LLM、推理、布局/合成、对齐/RLHF、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  63篇ACL2026的可解释性方向论文解读，涵盖 LLM、推理、对齐/RLHF、布局/合成、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "可解释性"
@@ -10,8 +10,8 @@ tags:
   - "论文笔记"
   - "LLM"
   - "推理"
-  - "布局/合成"
   - "对齐/RLHF"
+  - "布局/合成"
   - "多模态"
 item_list:
   - u: "a_structured_clustering_approach_for_inducing_media_narratives/"
@@ -62,6 +62,8 @@ item_list:
     t: "From Weights to Activations: Is Steering the Next Frontier of Adaptation?"
   - u: "histlens_mapping_idea_change_across_concepts_and_corpora/"
     t: "HistLens: Mapping Idea Change across Concepts and Corpora"
+  - u: "how_context_shapes_truth_geometric_transformations_of_statement-level_truth_repr/"
+    t: "How Context Shapes Truth: Geometric Transformations of Statement-level Truth Representations in LLMs"
   - u: "how_language_models_conflate_logical_validity_with_plausibility_a_representation/"
     t: "How Language Models Conflate Logical Validity with Plausibility: A Representational Analysis of Content Effects"
   - u: "idea_an_interpretable_and_editable_decision-making_framework_for_llms_via_verbal/"
@@ -72,19 +74,17 @@ item_list:
     t: "Interpretable Coreference Resolution Evaluation Using Explicit Semantics"
   - u: "interpretable_semantic_gradients_in_ssd_a_pca_sweep_approach_and_a_case_study_on/"
     t: "Interpretable Semantic Gradients in SSD: A PCA Sweep Approach and a Case Study on AI Discourse"
-  - u: "interpretable_traces_unexpected_outcomes_investigating_the_disconnect_in_trace-b/"
-    t: "Interpretable Traces, Unexpected Outcomes: Investigating the Disconnect in Trace-Based Knowledge Distillation"
-item_total: 61
+item_total: 63
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**💬 ACL2026** · **61** 篇论文解读
+**💬 ACL2026** · **63** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (42)](../../CVPR2026/interpretability/index.md) · [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [🔬 ICLR2026 (60)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (34)](../../CVPR2026/interpretability/index.md) · [🧪 ICML2026 (91)](../../ICML2026/interpretability/index.md) · [🔬 ICLR2026 (74)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
 
-🔥 **高频主题：** LLM ×15 · 推理 ×5 · 布局/合成 ×3 · 对齐/RLHF ×3 · 多模态 ×2
+🔥 **高频主题：** LLM ×16 · 推理 ×5 · 对齐/RLHF ×4 · 布局/合成 ×3 · 多模态 ×2
 
 **[A Structured Clustering Approach for Inducing Media Narratives](a_structured_clustering_approach_for_inducing_media_narratives.md)**
 
@@ -182,6 +182,10 @@ item_total: 61
 
 :   提出 HistLens 框架，基于稀疏自编码器（SAE）将概念表示分解为可解释的语义基向量，在共享坐标系中追踪多概念、多语料的历时演化轨迹，支持隐式概念计算，为数字人文和概念史研究提供可量化、可比较的分析工具。
 
+**[How Context Shapes Truth: Geometric Transformations of Statement-level Truth Representations in LLMs](how_context_shapes_truth_geometric_transformations_of_statement-level_truth_repr.md)**
+
+:   论文首次刻画"加上下文后 LLM 内部真值表示的几何怎么变"——用真值向量在加/不加上下文两种条件下的**方向夹角 θ** 和**相对幅度** 两个量，在 4 个模型 × 多个数据集上发现：真值方向呈"早层近正交→中层急剧收敛→后层稳定或继续增大"的三阶段模式，加上下文普遍放大真假分离度，且与参数知识冲突的上下文比对齐的上下文引起更大的几何变化。
+
 **[How Language Models Conflate Logical Validity with Plausibility: A Representational Analysis of Content Effects](how_language_models_conflate_logical_validity_with_plausibility_a_representation.md)**
 
 :   通过表示分析揭示 LLM 中"逻辑有效性"和"合理性"两个概念在隐层空间中高度对齐，导致模型将合理性与有效性混淆（内容效应），并构造去偏转向向量有效解耦这两个概念，减少内容效应同时提升推理准确率。
@@ -277,6 +281,10 @@ item_total: 61
 **[Probing for Reading Times](probing_for_reading_times.md)**
 
 :   本文探测语言模型各层表示预测阅读时间的能力，发现早期层表示在预测早期注视指标上优于surprisal，而surprisal在晚期指标上更优，最佳预测器因语言和指标而异。
+
+**[Probing Semantic Alignment, Lexical Invariance, and Syntactic Influence in LLM Metaphor Processing](probing_semantic_alignment_lexical_invariance_and_syntactic_influence_in_llm_met.md)**
+
+:   这是一篇诊断性分析论文：作者不比拼性能，而是从**语义属性对齐、词法不变性、句法影响**三个互补维度探针 LLM 的隐喻处理，发现"在隐喻 benchmark 上的高分"可能来自异质的浅层信号（语义漂移 + 稳定词法锚 + 对句法不规则的启发式敏感）而非稳健的整合式语义理解。
 
 **[Retrieval Heads are Dynamic](retrieval_heads_are_dynamic.md)**
 

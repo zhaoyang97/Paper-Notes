@@ -165,11 +165,11 @@ CACMI 采用 RAG 范式：CLIP 图像编码器提取帧级特征 → CFA 模块�
 
 ## 相关论文
 
+- [\[CVPR 2026\] Asynchronous Temporal Modeling with Two-Agent Framework for Streaming Dense Video Captioning](../../CVPR2026/video_understanding/asynchronous_temporal_modeling_with_two-agent_framework_for_streaming_dense_vide.md)
 - [\[CVPR 2026\] CVA: Context-aware Video-text Alignment for Video Temporal Grounding](../../CVPR2026/video_understanding/cva_context-aware_video-text_alignment_for_video_temporal_grounding.md)
+- [\[CVPR 2026\] InterRVOS: Interaction-Aware Referring Video Object Segmentation](../../CVPR2026/video_understanding/interrvos_interaction-aware_referring_video_object_segmentation.md)
 - [\[CVPR 2026\] SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning](../../CVPR2026/video_understanding/sail_similarity-aware_guidance_and_inter-caption_augmentation-based_learning_for.md)
-- [\[CVPR 2026\] FlexiVideo: Variation-Aware Temporal Dynamics Modeling for Efficient Video Understanding](../../CVPR2026/video_understanding/flexivideo_variation-aware_temporal_dynamics_modeling_for_efficient_video_unders.md)
 - [\[CVPR 2026\] Stay in your Lane: Role Specific Queries with Overlap Suppression Loss for Dense Video Captioning](../../CVPR2026/video_understanding/stay_in_your_lane_role_specific_queries_with_overlap_suppression_loss_for_dense_.md)
-- [\[CVPR 2026\] VISTA: Video Interaction Spatio-Temporal Analysis Benchmark](../../CVPR2026/video_understanding/vista_video_interaction_spatio-temporal_analysis_benchmark.md)
 
 </div>
 

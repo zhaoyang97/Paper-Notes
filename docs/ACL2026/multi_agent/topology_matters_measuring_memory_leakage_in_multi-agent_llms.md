@@ -2,9 +2,9 @@
 # Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs
 
 **会议**: ACL2026 Findings  
-**arXiv**: [2512.04668](https://arxiv.org/abs/2512.04668)
-**代码**: 待确认
-**领域**: LLM Agent
+**arXiv**: [2512.04668](https://arxiv.org/abs/2512.04668)  
+**代码**: 待确认  
+**领域**: LLM Agent  
 **关键词**: 待补充
 
 ## 一句话总结

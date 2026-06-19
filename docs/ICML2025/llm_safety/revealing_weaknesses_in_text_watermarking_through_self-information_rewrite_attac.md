@@ -150,8 +150,8 @@ LLM（ChatGPT、Claude）生成文本能力日益强大，但也带来虚假信�
 - [\[NeurIPS 2025\] Bits Leaked per Query: Information-Theoretic Bounds on Adversarial Attacks Against LLMs](../../NeurIPS2025/llm_safety/bits_leaked_per_query_information-theoretic_bounds_on_adversarial_attacks_agains.md)
 - [\[NeurIPS 2025\] ToxicTextCLIP: Text-Based Poisoning and Backdoor Attacks on CLIP Pre-training](../../NeurIPS2025/llm_safety/toxictextclip_text-based_poisoning_and_backdoor_attacks_on_clip_pre-training.md)
 - [\[ICML 2025\] X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](x-transfer_attacks_towards_super_transferable_adversarial_attacks_on_clip.md)
-- [\[ACL 2025\] Mamba Knockout for Unraveling Factual Information Flow](../../ACL2025/llm_safety/mamba_knockout_for_unraveling_factual_information_flow.md)
 - [\[ICML 2025\] Robust Multi-bit Text Watermark with LLM-based Paraphrasers](robust_multi-bit_text_watermark_with_llm-based_paraphrasers.md)
+- [\[ACL 2025\] Mamba Knockout for Unraveling Factual Information Flow](../../ACL2025/llm_safety/mamba_knockout_for_unraveling_factual_information_flow.md)
 
 </div>
 

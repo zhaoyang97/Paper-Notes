@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Eliciting Complex Spatial Reasoning in MLLMs through Wide-Baseline Matching
 description: >-
-  [CVPR 2026][多模态VLM][宽基线匹配] 把"宽基线匹配"(wide-baseline matching, WBM) 当作探测和训练 MLLM 空间推理的试金石：先造出按视角差和匹配粒度分层的 ReasonMatch-Bench（发现最强基线只有 37.2 F1，人类 84.0），再用一条从视频-3D 语料自动抽取可验证对应关系的数据流水线 + DCRL（双层动态课程的可验证奖励 RL），把 Qwen3-VL-8B 在该 benchmark 上从 27.5 拉到 70.5 F1，并迁移到多个空间智能 benchmark 而不损害通用视觉能力。
+  [CVPR 2026][VLM Reasoning][宽基线匹配] 把"宽基线匹配"(wide-baseline matching, WBM) 当作探测和训练 MLLM 空间推理的试金石：先造出按视角差和匹配粒度分层的 ReasonMatch-Bench（发现最强基线只有 37.2 F1，人类 84.0），再用一条从视频-3D 语料自动抽取可验证对应关系的数据流水线 + DCRL（双层动态课程的可验证奖励 RL），把 Qwen3-VL-8B 在该 benchmark 上从 27.5 拉到 70.5 F1，并迁移到多个空间智能 benchmark 而不损害通用视觉能力。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "宽基线匹配"
   - "跨视角对应"
   - "可验证奖励强化学习"
@@ -38,6 +38,7 @@ tags:
 **核心 idea**：把 WBM 重写成"MLLM 在两组预标点之间做离散符号关联（部分二部图匹配）"的语言任务，用从视频-3D 语料自动抽取的可验证对应做奖励，再用按"视角差 + 点配置"双层递进的动态课程稳住训练。
 
 ## 方法详解
+
 ### 整体框架
 方法要解决的是"让 MLLM 学会在极端视角差下判断两张图里哪些标注点对应同一个 3D 物体点"。整体分三块：先把匹配任务改写成 MLLM 能做的离散语言任务（输出从点索引到点索引的映射），再用一条数据流水线从 RGB-D 视频和 SfM 重建里自动挖出带 ground-truth 的对应点对并按视角难度分层，最后用 DCRL 这套带双层动态课程的可验证奖励 RL 训练模型，从简单配置逐步逼到极端场景。
 
@@ -108,6 +109,7 @@ DCRL 把最强基线 37.2 提到 52.0，但离人类 84.0 仍差很多，尤其�
 迁移到空间智能 benchmark：OmniSpatial Overall 43.60→48.87（+5.27）、MindCube 40.01→43.52（+3.51）、SAT Real 70.0→75.3（+5.3）。通用视觉能力不退反微涨：MME-RealWorld 62.8→63.8、MMStar 59.8→62.5、RealWorldQA 69.5→70.5、V*Bench 84.8→85.9。
 
 ### 消融实验
+
 | 配置 | OmniSpatial | MindCube | SAT | ReasonMatch |
 |------|------|------|------|------|
 | Base (Qwen3-VL-8B) | 43.6 | 40.0 | 70.0 | 27.5 |
@@ -158,10 +160,10 @@ DCRL 把最强基线 37.2 提到 52.0，但离人类 84.0 仍差很多，尤其�
 ## 相关论文
 
 - [\[CVPR 2026\] EgoMind: Activating Spatial Cognition through Linguistic Reasoning in MLLMs](egomind_activating_spatial_cognition_through_linguistic_reasoning_in_mllms.md)
-- [\[CVPR 2026\] ReMatch: Boosting Representation through Matching for Multimodal Retrieval](rematch_boosting_representation_through_matching_for_multimodal_retrieval.md)
+- [\[CVPR 2026\] COT-FM: Cluster-wise Optimal Transport Flow Matching](cot-fm_cluster-wise_optimal_transport_flow_matching.md)
 - [\[CVPR 2026\] From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs](from_indoor_to_open_world_revealing_the_spatial_reasoning_gap_in_mllms.md)
+- [\[CVPR 2026\] AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](av-reasoner_improving_and_benchmarking_clue-grounded_audio-visual_counting_for_m.md)
 - [\[CVPR 2026\] STAR-R1: Multi-View Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](star-r1_multi-view_spatial_transformation_reasoning_by_reinforcing_multimodal_ll.md)
-- [\[CVPR 2026\] SpatialTree: How Spatial Intelligence Branches Out in MLLMs](spatialtree_how_spatial_intelligence_branches_out_in_mllms.md)
 
 </div>
 

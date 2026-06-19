@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Human-like Abstract Visual Reasoning via Understanding and Solving Reasoning Loop
 description: >-
-  [CVPR 2026][LLM推理][ARC-AGI] 把人类"理解—求解—再理解"的迭代认知拆成可循环交互的理解模块（UM）与求解模块（SM），辅以表征同构约束和自适应停止机制，让一个仅 7M 参数的小模型在 ARC-AGI-1 上达到 47.2% 准确率，超过 TRM 与一众通用大模型。 领域现状：ARC-AGI 这类抽…
+  [CVPR 2026][Reasoning][ARC-AGI] 把人类"理解—求解—再理解"的迭代认知拆成可循环交互的理解模块（UM）与求解模块（SM），辅以表征同构约束和自适应停止机制，让一个仅 7M 参数的小模型在 ARC-AGI-1 上达到 47.2% 准确率，超过 TRM 与一众通用大模型。
 tags:
   - "CVPR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "ARC-AGI"
   - "抽象推理"
   - "推理回环"
@@ -89,6 +89,7 @@ ARC-AGI 训练任务只有约 1000 个，UM 极易过拟合，且光靠主损失
 USRL 用 7M 参数拿到最高的 47.2%，同参数量下超过 TRM（44.6%），也胜过更大的 HRM（27M，40.3%）以及一众通用大模型——说明在 ARC 这类强归纳任务上，精心设计的紧凑架构能跑赢"靠规模"的路线。
 
 ### 消融实验
+
 | 配置 | 参数量 | Acc.(%) | ∆ |
 |------|--------|---------|----|
 | Base（仅 SM） | 3.3M | 36.5 | - |
@@ -132,10 +133,10 @@ USRL 用 7M 参数拿到最高的 47.2%，同参数量下超过 TRM（44.6%）�
 ## 相关论文
 
 - [\[CVPR 2026\] Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning](hilbert-geo_solving_solid_geometric_problems_by_neural-symbolic_reasoning.md)
-- [\[CVPR 2026\] Step-CoT: Stepwise Visual Chain-of-Thought for Medical Visual Question Answering](step-cot_stepwise_visual_chain-of-thought_for_medical_visual_question_answering.md)
-- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
-- [\[NeurIPS 2025\] Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought](../../NeurIPS2025/llm_reasoning/visual_thoughts_a_unified_perspective_of_understanding_multi.md)
 - [\[CVPR 2026\] Agile Deliberation: Concept Deliberation for Subjective Visual Classification](agile_deliberation_concept_deliberation_for_subjective_visual_classification.md)
+- [\[NeurIPS 2025\] Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought](../../NeurIPS2025/llm_reasoning/visual_thoughts_a_unified_perspective_of_understanding_multi.md)
+- [\[CVPR 2026\] VisRef: Visual Refocusing while Thinking Improves Test-Time Scaling in Multi-Modal Large Reasoning Models](visref_visual_refocusing_test_time_scaling.md)
+- [\[CVPR 2026\] E-comIQ-ZH: A Human-Aligned Dataset and Benchmark for Fine-Grained Evaluation of E-commerce Posters with Chain-of-Thought](e-comiq-zh_a_human-aligned_dataset_and_benchmark_for_fine-grained_evaluation_of_.md)
 
 </div>
 

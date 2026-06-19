@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.14651](https://arxiv.org/abs/2604.14651)  
 **代码**: [GitHub](https://github.com/sizhe04/CURA)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 临床风险预测, 不确定性校准, 双层对齐, 队列感知, 临床语言模型
 
 ## 一句话总结

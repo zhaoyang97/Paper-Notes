@@ -2,10 +2,10 @@
 title: >-
   [论文解读] FireScope: Wildfire Risk Raster Prediction with a Chain-of-Thought Oracle
 description: >-
-  [CVPR 2026][LLM推理][野火风险预测] 用一个 GRPO 微调、会写思维链的 VLM（Oracle）先把卫星图+气候推理成一个标量野火风险分，再用 FiLM 把这个分喂给轻量视觉 Encoder-Decoder 去生成高分辨率连续风险栅格——在「美国训练、欧洲测试」的跨洲设定下，显式语言推理显著提升了分布外泛化，且推理痕迹可被野火专家复原、可解释。
+  [CVPR 2026][Reasoning][野火风险预测] 用一个 GRPO 微调、会写思维链的 VLM（Oracle）先把卫星图+气候推理成一个标量野火风险分，再用 FiLM 把这个分喂给轻量视觉 Encoder-Decoder 去生成高分辨率连续风险栅格——在「美国训练、欧洲测试」的跨洲设定下，显式语言推理显著提升了分布外泛化，且推理痕迹可被野火专家复原、可解释。
 tags:
   - "CVPR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "野火风险预测"
   - "思维链推理"
   - "栅格生成"
@@ -172,11 +172,11 @@ Oracle 自身对比（Table 2）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
 - [\[CVPR 2026\] Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought](rationale-enhanced_decoding_for_multi-modal_chain-of-thought.md)
 - [\[NeurIPS 2025\] Re-FORC: Adaptive Reward Prediction for Efficient Chain-of-Thought Reasoning](../../NeurIPS2025/llm_reasoning/re-forc_adaptive_reward_prediction_for_efficient_chain-of-thought_reasoning.md)
 - [\[CVPR 2026\] Latent Chain-of-Thought World Modeling for End-to-End Autonomous Driving](latent_chain-of-thought_world_modeling_for_end-to-end_autonomous_driving.md)
 - [\[CVPR 2026\] Revisiting the Necessity of Lengthy Chain-of-Thought in Vision-centric Reasoning Generalization](revisiting_the_necessity_of_lengthy_chain-of-thought_in_vision-centric_reasoning.md)
+- [\[ICLR 2026\] ATTS: Asynchronous Test-Time Scaling via Conformal Prediction](../../ICLR2026/llm_reasoning/atts_asynchronous_test-time_scaling_via_conformal_prediction.md)
 
 </div>
 

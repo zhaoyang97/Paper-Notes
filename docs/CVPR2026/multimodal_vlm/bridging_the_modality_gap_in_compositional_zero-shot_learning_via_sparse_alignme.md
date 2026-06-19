@@ -96,6 +96,7 @@ $$\hat{p}(c|x)=\beta\cdot\bar{p}_{sa}(c|x)+(1-\beta)\cdot\big(\bar{p}_{vac}(c|x)
 数据集：UT-Zappos、MIT-States、C-GQA 三个基准；指标为 Seen（S）、Unseen（U）、Harmonic Mean（HM）、AUC。
 
 ### 主实验（闭世界设置，节选）
+
 | 方法 | UT-Zappos HM / AUC | MIT-States HM / AUC | C-GQA HM / AUC |
 |------|------|------|------|
 | Troika [CVPR'24] | 54.6 / 41.7 | 39.3 / 22.1 | 29.4 / 12.4 |
@@ -106,6 +107,7 @@ $$\hat{p}(c|x)=\beta\cdot\bar{p}_{sa}(c|x)+(1-\beta)\cdot\big(\bar{p}_{vac}(c|x)
 三个数据集的 AUC 分别达 50.0 / 24.0 / 16.2，HM 达 62.0 / 40.8 / 34.8，几乎所有指标都是最佳，Seen 准确率全部第一、Unseen 接近最佳。开世界设置下同样全面领先（AUC 42.3 / 9.4 / 4.6，HM 54.8 / 23.1 / 15.3）。
 
 ### 消融实验（逐组件叠加，AUC）
+
 | 配置 | UT-Zappos | MIT-States | C-GQA |
 |------|------|------|------|
 | Baseline | 37.5 | 21.2 | 14.3 |
@@ -155,7 +157,7 @@ $$\hat{p}(c|x)=\beta\cdot\bar{p}_{sa}(c|x)+(1-\beta)\cdot\big(\bar{p}_{vac}(c|x)
 - [\[CVPR 2026\] Is the Modality Gap a Bug or a Feature? A Robustness Perspective](is_the_modality_gap_a_bug_or_a_feature_a_robustness_perspective.md)
 - [\[NeurIPS 2025\] TOMCAT: Test-time Comprehensive Knowledge Accumulation for Compositional Zero-Shot Learning](../../NeurIPS2025/multimodal_vlm/tomcat_test-time_comprehensive_knowledge_accumulation_for_compositional_zero-sho.md)
 - [\[CVPR 2026\] DeepAlign: Mitigating Modality Conflict through Modality-Specific Alignment](deepalign_mitigating_modality_conflict_through_modality-specific_alignment.md)
-- [\[CVPR 2026\] Text-Only Training for Image Captioning with Retrieval Augmentation and Modality Gap Correction](text-only_training_for_image_captioning_with_retrieval_augmentation_and_modality.md)
+- [\[CVPR 2026\] Towards Dynamic Modality Alignment in Multimodal Continual Learning](towards_dynamic_modality_alignment_in_multimodal_continual_learning.md)
 
 </div>
 

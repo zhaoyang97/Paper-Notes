@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2603.13185](https://arxiv.org/abs/2603.13185)  
 **代码**: [https://github.com/rohithpeddi/WorldSGG](https://github.com/rohithpeddi/WorldSGG)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 场景图生成, 4D场景理解, 物体永恒性, 世界状态建模, 单目视频
 
 ## 一句话总结

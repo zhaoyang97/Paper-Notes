@@ -83,7 +83,7 @@ item_total: 267
 
 **📹 ICCV2025** · **267** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (626)](../../CVPR2026/3d_vision/index.md) · [🧪 ICML2026 (24)](../../ICML2026/3d_vision/index.md) · [🔬 ICLR2026 (62)](../../ICLR2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [🧪 ICML2025 (17)](../../ICML2025/3d_vision/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (751)](../../CVPR2026/3d_vision/index.md) · [🧪 ICML2026 (30)](../../ICML2026/3d_vision/index.md) · [🔬 ICLR2026 (71)](../../ICLR2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [🧪 ICML2025 (17)](../../ICML2025/3d_vision/index.md)
 
 🔥 **高频主题：** 3D 高斯渲染 ×48 · 扩散模型 ×26 · 点云 ×16 · 动态场景 ×15 · 对抗鲁棒 ×13
 

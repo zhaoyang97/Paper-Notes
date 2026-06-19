@@ -91,6 +91,7 @@ flowchart TD
 无噪声时本文与基线几乎持平（说明自标定不会损害理想情形），一旦注入位姿噪声，基线急剧崩坏而本文保持稳定——在多个物体上整体比 SOTA 联合标定方法（Thies et al.）的 PSNR 高约 10 dB。位姿标定精度上（表 2，15 个场景均值），本文平移 RMSE 0.726 AU（NeAT 1.437、Thies et al. 2.463）、朝向误差 0.627°（NeAT 2.881°、Thies et al. 4.076°），均大幅领先。
 
 ### 消融实验
+
 | 配置 | 关键结果 | 说明 |
 |------|---------|------|
 | 噪声等级 $\sigma_{rot}/\sigma_{trans}$（Beetle）0.01/0.5 → 0.10/5.0 | 基线 37.28→30.80；本文 41.38→32.32 dB | 噪声越大基线掉得越狠，本文始终更鲁棒 |
@@ -132,11 +133,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] Regularizing INR with Diffusion Prior for Self-Supervised 3D Reconstruction of Neutron Computed Tomography Data](regularizing_inr_with_diffusion_prior_self-supervised_3d_reconstruction_of_neutr.md)
+- [\[CVPR 2026\] Wavelet-Driven 3D Anomaly Detection under Pose-Agnostic and Sparse-View](wavelet-driven_3d_anomaly_detection_under_pose-agnostic_and_sparse-view.md)
 - [\[CVPR 2026\] Revisiting Optimal Coding for I-ToF under Practical Sensor Constraints](revisiting_optimal_coding_for_i-tof_under_practical_sensor_constraints.md)
 - [\[CVPR 2026\] Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors](revisiting_token_compression_for_accelerating_vit-based_sparse_multi-view_3d_obj.md)
 - [\[CVPR 2026\] SV-GS: Sparse View 4D Reconstruction with Skeleton-Driven Gaussian Splatting](sv-gs_sparse_view_4d_reconstruction_with_skeleton-driven_gaussian_splatting.md)
-- [\[CVPR 2026\] SEPatch3D: Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors](sepatch3d_revisiting_token_compression_for_accelerating_vit_based_sparse_3d_detectors.md)
+- [\[CVPR 2026\] Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty](rethinking_pose_refinement_in_3d_gaussian_splatting_under_pose_prior_and_geometr.md)
 
 </div>
 

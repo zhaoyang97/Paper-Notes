@@ -21,7 +21,7 @@ item_total: 1
 
 **💬 ACL2025** · **1** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (160)](../../CVPR2026/autonomous_driving/index.md) · [🧪 ICML2026 (6)](../../ICML2026/autonomous_driving/index.md) · [🔬 ICLR2026 (16)](../../ICLR2026/autonomous_driving/index.md) · [🤖 AAAI2026 (56)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (91)](../../ICCV2025/autonomous_driving/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (157)](../../CVPR2026/autonomous_driving/index.md) · [🧪 ICML2026 (8)](../../ICML2026/autonomous_driving/index.md) · [🔬 ICLR2026 (17)](../../ICLR2026/autonomous_driving/index.md) · [🤖 AAAI2026 (56)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (91)](../../ICCV2025/autonomous_driving/index.md)
 
 **[Embracing Large Language Models in Traffic Flow Forecasting](embracing_large_language_models_in_traffic_flow_forecasting.md)**
 

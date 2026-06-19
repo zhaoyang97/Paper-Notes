@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Hierarchical Process Reward Models are Symbolic Vision Learners
 description: >-
-  [CVPR 2026][多模态VLM][符号视觉] 把"几何图理解"重新定义为一个**符号自编码**问题——编码器把图解析成点/线/形/关系的逻辑形式（latent 不再是像素向量而是符号图），可执行渲染引擎再把逻辑形式重画回原图，并用一套**分层过程奖励（SymHPR）+ 稳定化 GRPO** 来监督这条非可微管线，使 7B 模型在几何图重建上 MSE 降 98.2%、感知/推理 benchmark 上分别 +13% / +3%。
+  [CVPR 2026][VLM Reasoning][符号视觉] 把"几何图理解"重新定义为一个**符号自编码**问题——编码器把图解析成点/线/形/关系的逻辑形式（latent 不再是像素向量而是符号图），可执行渲染引擎再把逻辑形式重画回原图，并用一套**分层过程奖励（SymHPR）+ 稳定化 GRPO** 来监督这条非可微管线，使 7B 模型在几何图重建上 MSE 降 98.2%、感知/推理 benchmark 上分别 +13% / +3%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "符号视觉"
   - "过程奖励模型"
   - "几何图解析"
@@ -148,11 +148,11 @@ $$r'_c = r_c \cdot \big[(1-\alpha_{c\to p}) + \alpha_{c\to p}\cdot r'_p\big],\qu
 
 ## 相关论文
 
-- [\[CVPR 2026\] Do Vision Language Models Need to Process Image Tokens?](do_vision_language_models_need_to_process_image_tokens.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
 - [\[CVPR 2026\] Keep it SymPL: Symbolic Projective Layout for Allocentric Spatial Reasoning in Vision-Language Models](keep_it_sympl_symbolic_projective_layout_for_allocentric_spatial_reasoning_in_vi.md)
-- [\[CVPR 2026\] HiSpatial: Taming Hierarchical 3D Spatial Understanding in Vision-Language Models](hispatial_taming_hierarchical_3d_spatial_understanding_in_vision-language_models.md)
 - [\[CVPR 2026\] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning](arm-thinker_reinforcing_multimodal_generative_reward_models_with_agentic_tool_us.md)
-- [\[CVPR 2026\] TreeTeaming: Autonomous Red-Teaming of Vision-Language Models via Hierarchical Strategy Exploration](treeteaming_autonomous_red-teaming_of_vision-language_models_via_hierarchical_s.md)
+- [\[CVPR 2026\] PDCR: Perception-Decomposed Confidence Reward for Vision-Language Reasoning](pdcr_perception-decomposed_confidence_reward_for_vision-language_reasoning.md)
+- [\[CVPR 2026\] VOLD: Reasoning Transfer from LLMs to Vision-Language Models via On-Policy Distillation](vold_reasoning_transfer_from_llms_to_vision-language_models_via_on-policy_distil.md)
 
 </div>
 

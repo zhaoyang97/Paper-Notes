@@ -2,10 +2,10 @@
 title: >-
   [论文解读] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation
 description: >-
-  [CVPR 2026][多模态VLM][统一多模态模型] UniCompress 在现成离散 tokenizer 外面套一组轻量「全局元token 抽取 + 平均池化压缩 + 全局引导的自回归解压」模块，把统一理解-生成模型的视觉 token 数砍 4×，理解几乎不掉点、生成只小幅退化，且无需重训语言模型。
+  [CVPR 2026][VLM Efficiency][统一多模态模型] UniCompress 在现成离散 tokenizer 外面套一组轻量「全局元token 抽取 + 平均池化压缩 + 全局引导的自回归解压」模块，把统一理解-生成模型的视觉 token 数砍 4×，理解几乎不掉点、生成只小幅退化，且无需重训语言模型。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "统一多模态模型"
   - "视觉token压缩"
   - "全局元token"
@@ -115,6 +115,7 @@ $$x_t = f_{dec}(X^{dense}_{<t},\ \hat{X}^{deq},\ \hat{G})$$
 轻量 backbone 退化很小（VILA-U FID 14.80→16.37、CLIP 29.8→28.9 几乎不变），但**对 token 缩减敏感的设计（OpenUni）退化明显**（FID 16.45→24.29），说明压缩友好度因架构而异。总体生成掉点控制在 ≤5-pt FID。
 
 ### 效率：生成推理提速 40%+
+
 | Backbone | 生成训练(h) | 生成推理(min) |
 |----------|-----------|--------------|
 | UNITOK | 4.60 | 32.25 |
@@ -171,11 +172,11 @@ UniTok 生成推理从 32.25 min 降到 18.96 min，相对提速 >40%；论文�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Rosetta Stone for Unified MLLMs: A Unified Tokenizer to Decipher Understanding and Generation](rosetta_stone_for_unified_mllms_a_unified_tokenizer_to_decipher_understanding_an.md)
+- [\[CVPR 2026\] Hybrid Token Compression for Vision-Language Models](hybrid_token_compression_for_vision-language_models.md)
+- [\[CVPR 2026\] VQRAE: Representation Quantization Autoencoders for Multimodal Understanding, Generation and Reconstruction](vqrae_representation_quantization_autoencoders_for_multimodal_understanding_gene.md)
+- [\[CVPR 2026\] Accelerating Streaming Video Large Language Models via Hierarchical Token Compression](accelerating_streaming_video_large_language_models_via_hierarchical_token_compre.md)
 - [\[CVPR 2026\] EvoComp: Learning Visual Token Compression for Multimodal Large Language Models via Semantic-Guided Evolutionary Labeling](evocomp_learning_visual_token_compression_for_multimodal_large_language_models_v.md)
-- [\[CVPR 2026\] OneCAT: Decoder-Only Auto-Regressive Model for Unified Understanding and Generation](onecat_decoder-only_auto-regressive_model_for_unified_understanding_and_generati.md)
-- [\[CVPR 2026\] HBridge: H-Shape Bridging of Heterogeneous Experts for Unified Multimodal Understanding and Generation](hbridge_h-shape_bridging_of_heterogeneous_experts_for_unified_multimodal_underst.md)
-- [\[CVPR 2026\] Unified Personalized Understanding, Generating and Editing](unified_personalized_understanding_generating_and_editing.md)
+- [\[CVPR 2026\] TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding](timeviper_a_hybrid_mamba-transformer_vision-language_model_for_efficient_long_vi.md)
 
 </div>
 

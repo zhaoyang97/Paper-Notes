@@ -108,6 +108,7 @@ $\alpha$ 平衡原 outcome advantage 与 token 级引导：short-CoT 模型（�
 | GRPO (P2T) | **40.7** | 免训练，比 SPRO +2.3、比 PRIME +4.7 |
 
 ### 消融实验
+
 | 配置 | Pass@1 | 说明 |
 |------|--------|------|
 | Full（[PAD] + Taylor 近似） | 53.8 | 完整模型 |

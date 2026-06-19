@@ -66,6 +66,7 @@ $$\mathbf x_t\in\arg\inf_{\mathbf x}\max_{j\in V_t(\mathbf z_t)}\bigl(u_*^{(j)}-
 本文是理论 paper，结论以定理 + 构造性反例呈现，对应"实验关键数据"我们用两张定理对照表整理。
 
 ### 主结果对比
+
 | 设置 | 控制悔/样本的维度 | 与经典维度关系 | 算法 |
 |------|------------------|---------------|------|
 | 在线悔（上界，Thm 3.9） | $\mathrm{SLdim}_{\mathcal G}(\mathcal H)$ | $\mathrm{SLdim}_{\mathcal G}(\mathcal H)\le\mathrm{Ldim}(\mathcal H)$ | SSOA（Alg. 1） |
@@ -74,6 +75,7 @@ $$\mathbf x_t\in\arg\inf_{\mathbf x}\max_{j\in V_t(\mathbf z_t)}\bigl(u_*^{(j)}-
 | PAC 样本上界（Thm 4.7） | 由 $\mathrm{SGdim}^{(\gamma)}_{\mathcal G}(\mathcal H)$ 控制 | 与 Graph 维度对应但带效用 cut-off | $\mathfrak L^*$（Alg. 2） |
 
 ### 与经典维度的严格分离
+
 | 例子 | $\mathrm{Ldim}(\mathcal H)$ | $\mathrm{SLdim}_{\mathcal G}(\mathcal H)$ | 解释 |
 |------|----------------------------|-----------------------------------------|------|
 | Thm 3.5 构造 | $\infty$ | $0$ | 两种 follower 在阈值附近诱导同一最优策略，分类无限难但策略零悔 |

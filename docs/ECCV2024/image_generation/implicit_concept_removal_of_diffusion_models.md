@@ -144,8 +144,8 @@ Geom-Erasing 的流程为：(1) 使用外部分类器/检测器识别图像中�
 
 - [\[ECCV 2024\] OMG: Occlusion-friendly Personalized Multi-concept Generation in Diffusion Models](omg_occlusion-friendly_personalized_multi-concept_generation_in_diffusion_models.md)
 - [\[ECCV 2024\] L-DiffER: Single Image Reflection Removal with Language-Based Diffusion Model](l-differ_single_image_reflection_removal_with_language-based_diffusion_model.md)
-- [\[AAAI 2026\] Mass Concept Erasure in Diffusion Models with Concept Hierarchy](../../AAAI2026/image_generation/mass_concept_erasure_in_diffusion_models_with_concept_hierarchy.md)
 - [\[ECCV 2024\] Implicit Style-Content Separation using B-LoRA](implicit_style-content_separation_using_b-lora.md)
+- [\[AAAI 2026\] Mass Concept Erasure in Diffusion Models with Concept Hierarchy](../../AAAI2026/image_generation/mass_concept_erasure_in_diffusion_models_with_concept_hierarchy.md)
 - [\[ECCV 2024\] SAIR: Learning Semantic-aware Implicit Representation](sair_learning_semantic-aware_implicit_representation.md)
 
 </div>

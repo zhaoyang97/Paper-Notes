@@ -95,6 +95,7 @@ NN 表征高度非线性，线性的 conditional covariance 不够用，而 C-MM
 跨六个数据集与七个代表性 baseline 比较，DISCO$_m$ 和 sDISCO 在大部分配置下达到 SOTA 或可比性能，且只需调"$\sigma_Y, \lambda$"两个超参，远少于 GDRO/IRM 的多超参组合。
 
 ### 消融实验
+
 | 配置 | 关键性质 | 说明 |
 |------|---------|------|
 | Full sDISCO | 全局精确 + $O(n^2)$ | 多偏差场景直接扩展，无额外开销 |
@@ -141,8 +142,8 @@ NN 表征高度非线性，线性的 conditional covariance 不够用，而 C-MM
 
 - [\[ICLR 2026\] Mitigating Spurious Correlation via Distributionally Robust Learning with Hierarchical Ambiguity Sets](../../ICLR2026/others/mitigating_spurious_correlation_via_distributionally_robust_learning_with_hierar.md)
 - [\[ICML 2026\] Possibilistic Predictive Uncertainty for Deep Learning](possibilistic_predictive_uncertainty_for_deep_learning.md)
-- [\[ACL 2025\] Mitigating Shortcut Learning with InterpoLated Learning](../../ACL2025/others/mitigating_shortcut_learning_with_interpolated_learning.md)
 - [\[ICML 2026\] Sequential Group Composition: A Window into the Mechanics of Deep Learning](sequential_group_composition_a_window_into_the_mechanics_of_deep_learning.md)
+- [\[ACL 2025\] Mitigating Shortcut Learning with InterpoLated Learning](../../ACL2025/others/mitigating_shortcut_learning_with_interpolated_learning.md)
 - [\[AAAI 2026\] How Wide and How Deep? Mitigating Over-Squashing of GNNs via Channel Capacity Constrained Estimation](../../AAAI2026/others/how_wide_and_how_deep_mitigating_over-squashing_of_gnns_via_channel_capacity_con.md)
 
 </div>

@@ -87,6 +87,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 架构 / 任务组 | 无攻击基线 | Evo-Attacker 后 | 降幅 | 结论 |
 |--------|------|------|----------|------|
 | Flat / MAB.code | 66.2 | 39.2 | 27.0 | 代码任务也能被跨 schema 攻击显著影响 |
@@ -96,6 +97,7 @@ flowchart TD
 | Hierarchical / WebArena | 35.8 | 18.4 | 17.4 | 层级系统虽有过滤，仍未完全防住 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | w/o Attack | Code 67.4, Research 58.7, Web 48.3 | 无攻击基线 |
@@ -141,10 +143,10 @@ flowchart TD
 ## 相关论文
 
 - [\[ICML 2026\] ToolMATH: A Math Tool Benchmark for Realistic Long-Horizon Multi-Tool Reasoning](../../ICML2026/llm_reasoning/toolmath_a_math_tool_benchmark_for_realistic_long-horizon_multi-tool_reasoning.md)
-- [\[CVPR 2026\] Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs](../../CVPR2026/llm_reasoning/scaling_agentic_reinforcement_learning_for_tool-integrated_reasoning_in_vlms.md)
 - [\[ACL 2026\] TemplateRL: Structured Template-Guided Reinforcement Learning for LLM Reasoning](templaterl_structured_template-guided_reinforcement_learning_for_llm_reasoning.md)
 - [\[ACL 2026\] SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks](sppo_sequence-level_ppo_for_long-horizon_reasoning_tasks.md)
-- [\[ACL 2026\] Revisiting Entropy in Reinforcement Learning for Large Reasoning Models](revisiting_entropy_in_reinforcement_learning_for_large_reasoning_models.md)
+- [\[CVPR 2026\] Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs](../../CVPR2026/llm_reasoning/scaling_agentic_reinforcement_learning_for_tool-integrated_reasoning_in_vlms.md)
+- [\[AAAI 2026\] Beyond ReAct: A Planner-Centric Framework for Complex Tool-Augmented LLM Reasoning](../../AAAI2026/llm_reasoning/beyond_react_a_planner-centric_framework_for_complex_tool-au.md)
 
 </div>
 

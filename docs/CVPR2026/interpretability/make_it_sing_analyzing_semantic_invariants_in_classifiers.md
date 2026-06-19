@@ -100,6 +100,7 @@ $$IS(f,\tilde f\,|\,T_\Theta):=\angle(T_\Theta(f),T_\Theta(\tilde f)).$$
 DinoViT 的最佳权衡与它「基础规模、ImageNet 之外大语料预训练后再微调」一致；换 EVA02 当目标多模态空间后模型排序不变；用 12 个模型的扩展 sweep 进一步覆盖更广架构。
 
 ### 定向零空间扰动（校准到 IS=40°，报 |AS| 朝目标提示，越低越好）
+
 | 模型 | ResNet50 | EfficientNet | BiTresnet | DinoViT | ResNext101 |
 |------|----------|--------------|-----------|---------|------------|
 | \|AS\| → target | 12.04±0.25 | 12.38±0.52 | 9.19±0.31 | **5.0±0.59** | 11.15±0.53 |
@@ -141,11 +142,11 @@ DinoViT 对定向零空间操纵最稳健，ResNext101 相对最易被操纵。
 
 ## 相关论文
 
+- [\[CVPR 2026\] Back to the Feature: Explaining Video Classifiers with Video Counterfactual Explanations](back_to_the_feature_explaining_video_classifiers_with_video_counterfactual_expla.md)
 - [\[CVPR 2026\] H-Sets: Hessian-Guided Discovery of Set-Level Feature Interactions in Image Classifiers](h-sets_hessian-guided_discovery_of_set-level_feature_interactions_in_image_class.md)
 - [\[ACL 2026\] Flattery in Motion: Benchmarking and Analyzing Sycophancy in Video-LLMs](../../ACL2026/interpretability/flattery_in_motion_benchmarking_and_analyzing_sycophancy_in_video-llms.md)
 - [\[ICLR 2026\] Conjuring Semantic Similarity](../../ICLR2026/interpretability/conjuring_semantic_similarity.md)
 - [\[CVPR 2026\] PRISM: Prototype-based Reasoning with Inter-modal Semantic Mining for Interpretable Image Recognition](prism_prototype-based_reasoning_with_inter-modal_semantic_mining_for_interpretab.md)
-- [\[ACL 2026\] Make Mechanistic Interpretability Auditable: A Call to Develop Guidelines via Continuous Collaborative Reviewing](../../ACL2026/interpretability/make_mechanistic_interpretability_auditable_a_call_to_develop_guidelines_via_con.md)
 
 </div>
 

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.02087](https://arxiv.org/abs/2511.02087)  
 **代码**: [有](https://github.com/kushasareen/energy_loss)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 能量损失函数, 物理先验, 扩散模型, 对称不变性, 分子生成
 
 ## 一句话总结

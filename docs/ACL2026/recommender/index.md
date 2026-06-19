@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 推荐系统论文汇总 · 21篇论文解读
+  ACL2026 推荐系统论文汇总 · 22篇论文解读
 description: >-
-  21篇ACL2026的推荐系统方向论文解读，涵盖推荐系统、个性化生成、对话系统、推理、RAG、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  22篇ACL2026的推荐系统方向论文解读，涵盖推荐系统、个性化生成、对话系统、LLM、推理、RAG等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "推荐系统"
@@ -10,9 +10,9 @@ tags:
   - "论文笔记"
   - "个性化生成"
   - "对话系统"
+  - "LLM"
   - "推理"
   - "RAG"
-  - "LLM"
 item_list:
   - u: "bridging_language_and_items_for_retrieval_and_recommendation_benchmarking_llms_a/"
     t: "Bridging Language and Items for Retrieval and Recommendation: Benchmarking LLMs as Semantic Encoders"
@@ -26,6 +26,8 @@ item_list:
     t: "From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation"
   - u: "from_recall_to_forgetting_benchmarking_long-term_memory_for_personalized_agents/"
     t: "From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents"
+  - u: "graphlora_structure-aware_low-rank_adaptation_for_large_language_model_recommend/"
+    t: "GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation"
   - u: "harpo_hierarchical_agentic_reasoning_for_user-aligned_conversational_recommendat/"
     t: "HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation"
   - u: "horizon_a_benchmark_for_in-the-wild_user_behaviour_modeling/"
@@ -56,17 +58,17 @@ item_list:
     t: "What Makes LLMs Effective Sequential Recommenders? A Study on Preference Intensity and Temporal Context"
   - u: "where_and_what_reasoning_dynamic_and_implicit_preferences_in_situated_conversati/"
     t: "Where and What: Reasoning Dynamic and Implicit Preferences in Situated Conversational Recommendation"
-item_total: 21
+item_total: 22
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**💬 ACL2026** · **21** 篇论文解读
+**💬 ACL2026** · **22** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (11)](../../ICML2026/recommender/index.md) · [🔬 ICLR2026 (9)](../../ICLR2026/recommender/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/recommender/index.md) · [🧠 NeurIPS2025 (24)](../../NeurIPS2025/recommender/index.md) · [🧪 ICML2025 (17)](../../ICML2025/recommender/index.md) · [💬 ACL2025 (7)](../../ACL2025/recommender/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (11)](../../ICML2026/recommender/index.md) · [🔬 ICLR2026 (13)](../../ICLR2026/recommender/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/recommender/index.md) · [🧠 NeurIPS2025 (24)](../../NeurIPS2025/recommender/index.md) · [🧪 ICML2025 (17)](../../ICML2025/recommender/index.md) · [💬 ACL2025 (7)](../../ACL2025/recommender/index.md)
 
-🔥 **高频主题：** 推荐系统 ×11 · 个性化生成 ×5 · 对话系统 ×4 · 推理 ×3 · RAG ×2
+🔥 **高频主题：** 推荐系统 ×12 · 个性化生成 ×5 · 对话系统 ×4 · LLM ×3 · 推理 ×3
 
 **[Bridging Language and Items for Retrieval and Recommendation: Benchmarking LLMs as Semantic Encoders](bridging_language_and_items_for_retrieval_and_recommendation_benchmarking_llms_a.md)**
 
@@ -91,6 +93,10 @@ item_total: 21
 **[From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents](from_recall_to_forgetting_benchmarking_long-term_memory_for_personalized_agents.md)**
 
 :   本文提出Memora基准和FAMA指标，将长期记忆评估从浅层事实检索扩展到跨越数周至数月的记忆整合与突变处理，揭示现有LLM和记忆agent在处理频繁知识更新时的系统性失败。
+
+**[GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation](graphlora_structure-aware_low-rank_adaptation_for_large_language_model_recommend.md)**
+
+:   现有 LLM 推荐要么把协同信息塞进 prompt、要么把预训练好的静态嵌入注入 LoRA 权重，都把结构当成"读一遍"的静态输入；GraphLoRA 把一个可训练的图消息传递网络嵌进 LoRA 瓶颈（down-projection $\mathbf{A}$ 和 up-projection $\mathbf{B}$ 之间），让协同拓扑在参数空间里动态传播、直接引导参数更新，仅增 ~1.67% 参数就在 ML-1M、Amazon-Book 上超过 CoRA 等 SOTA。
 
 **[HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation](harpo_hierarchical_agentic_reasoning_for_user-aligned_conversational_recommendat.md)**
 

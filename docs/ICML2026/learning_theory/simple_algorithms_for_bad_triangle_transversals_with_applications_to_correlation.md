@@ -77,6 +77,7 @@ tags:
 | Algorithm 3 + 去随机化 | 2 | 1 | + $\mathcal{O}(|E|\log n)$ | **本文** |
 
 ### 下界与转换比
+
 | 结果 | 结论 | 适用范围 | 类型 |
 |------|------|---------|------|
 | Theorem 4.2 | BTT 与 Vertex Cover 同等难逼近，UGC-hard $\ge 2$ | 一般图 | 难度 |
@@ -121,9 +122,9 @@ tags:
 
 - [\[NeurIPS 2025\] Improved Approximation Algorithms for Chromatic and Pseudometric-Weighted Correlation Clustering](../../NeurIPS2025/learning_theory/improved_approximation_algorithms_for_chromatic_and_pseudometric-weighted_correl.md)
 - [\[NeurIPS 2025\] Learning-Augmented Streaming Algorithms for Correlation Clustering](../../NeurIPS2025/learning_theory/learning-augmented_streaming_algorithms_for_correlation_clustering.md)
+- [\[ICML 2026\] Quantum Algorithms for Triangle Cut Sparsification](quantum_algorithms_for_triangle_cut_sparsification.md)
 - [\[ICML 2026\] Estimating Correlation Clustering Cost in Node-Arrival Stream](estimating_correlation_clustering_cost_in_node-arrival_stream.md)
 - [\[ICML 2025\] Sparse-Pivot: Dynamic Correlation Clustering for Node Insertions](../../ICML2025/learning_theory/sparse-pivot_dynamic_correlation_clustering_for_node_insertions.md)
-- [\[ICML 2026\] Matroid Algorithms Under Size-Sensitive Independence Oracles](matroid_algorithms_under_size-sensitive_independence_oracles.md)
 
 </div>
 

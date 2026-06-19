@@ -137,9 +137,9 @@ W2SG 设置：弱模型 $F_w$ 提供 soft label 监督强模型 $F_{sw} = f \cir
 
 - [\[ACL 2025\] How to Mitigate Overfitting in Weak-to-Strong Generalization?](how_to_mitigate_overfitting_in_weak-to-strong_generalization.md)
 - [\[ACL 2025\] Well Begun is Half Done: Low-resource Preference Alignment by Weak-to-Strong Decoding](well_begun_is_half_done_low-resource_preference_alignment_by_weak-to-strong_deco.md)
+- [\[CVPR 2026\] Beyond Euclidean Gossip: KL-Barycentric Consensus on Heterogeneous and Imbalanced Images](../../CVPR2026/others/beyond_euclidean_gossip_kl-barycentric_consensus_on_heterogeneous_and_imbalanced.md)
 - [\[ACL 2025\] Behavioural vs. Representational Systematicity in End-to-End Models: An Opinionated Survey](behavioural_vs_representational_systematicity_in_end-to-end_models_an_opinionate.md)
 - [\[ACL 2025\] Hybrid Preferences: Learning to Route Instances for Human vs. AI Feedback](hybrid_preferences_learning_to_route_instances_for_human_vs_ai_feedback.md)
-- [\[ICML 2026\] Over-Alignment vs Over-Fitting: The Role of Feature Learning Strength in Generalization](../../ICML2026/others/over-alignment_vs_over-fitting_the_role_of_feature_learning_strength_in_generali.md)
 
 </div>
 

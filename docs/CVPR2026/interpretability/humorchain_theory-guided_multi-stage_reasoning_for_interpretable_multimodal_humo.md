@@ -91,6 +91,7 @@ flowchart TD
 全局排名上 I 的 Elo=1554.60、BT=3.57 均为最高；单条评估 I 的人类好笑均值 0.810，远超组合策略 D/E/F 的 0.38–0.40 区间和外部 G 的 0.195，并在 CLIPScore 之外的 EA-Rev、BERT Cross Score 上取得最佳，体现更强的对比性与意外性。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 完整 HUMORCHAIN (I) | 人类好笑 0.810 / Elo 1554.6 | 理论链 + 判别器闭环 |
@@ -135,10 +136,10 @@ flowchart TD
 ## 相关论文
 
 - [\[ACL 2025\] IRT-Router: Effective and Interpretable Multi-LLM Routing via Item Response Theory](../../ACL2025/interpretability/irt_router_multi_llm.md)
-- [\[CVPR 2026\] A Study of Failure Modes in Two-Stage Human–Object Interaction Detection](a_study_of_failure_modes_in_two-stage_human-object_interaction_detection.md)
-- [\[CVPR 2026\] Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)
 - [\[CVPR 2026\] PRISM: Prototype-based Reasoning with Inter-modal Semantic Mining for Interpretable Image Recognition](prism_prototype-based_reasoning_with_inter-modal_semantic_mining_for_interpretab.md)
 - [\[CVPR 2026\] Cut to the Chase: Training-free Multimodal Summarization via Chain-of-Events](cut_to_the_chase_training-free_multimodal_summarization_via_chain-of-events.md)
+- [\[CVPR 2026\] Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation](where_culture_fades_revealing_the_cultural_gap_in_text-to-image_generation.md)
+- [\[ICLR 2026\] AnveshanaAI: A Multimodal Platform for Adaptive AI/ML Education through Automated Question Generation and Interactive Assessment](../../ICLR2026/interpretability/anveshanaai_a_multimodal_platform_for_adaptive_aiml_education_through_automated_.md)
 
 </div>
 

@@ -92,6 +92,7 @@ GenViP 主体训练无关；唯一的训练发生在「编辑模型优化」一�
 GenViP 在多种 MLLM 上一致提升红外理解，论文报告在 IF-Bench 上带来最高约 **7% 的相对提升**，并使部分模型超过 Doubao-Seed-Vision-1.6、Gemini-2.5-Pro 等闭源理解模型（各模型逐项增益数值 ⚠️ 以原文为准）。
 
 ### 消融 / 分析（四条核心发现）
+
 | 观察维度 | 结论 |
 |----------|------|
 | 模型规模 | 规模增大持续改善红外理解（如 InternVL3 1B→2B：43.0→65.6） |
@@ -134,10 +135,10 @@ GenViP 在多种 MLLM 上一致提升红外理解，论文报告在 IF-Bench 上
 ## 相关论文
 
 - [\[CVPR 2026\] ViKey: Enhancing Temporal Understanding in Videos via Visual Prompting](vikey_enhancing_temporal_understanding_in_videos_via_visual_prompting.md)
-- [\[CVPR 2026\] AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](av-reasoner_improving_and_benchmarking_clue-grounded_audio-visual_counting_for_m.md)
+- [\[CVPR 2026\] P-Flow: Prompting Visual Effects Generation](p-flow_prompting_visual_effects_generation.md)
 - [\[CVPR 2026\] RealBirdID: Benchmarking Bird Species Identification in the Era of MLLMs](realbirdid_benchmarking_bird_species_identification_in_the_era_of_mllms.md)
+- [\[ACL 2026\] GroupToM-Bench: Benchmarking Group Theory of Mind and Nonlinear Social Emergence in MLLMs](../../ACL2026/multimodal_vlm/grouptom-bench_benchmarking_group_theory_of_mind_and_nonlinear_social_emergence_.md)
 - [\[CVPR 2026\] ENC-Bench: A Benchmark for Evaluating MLLMs in Electronic Navigational Chart Understanding](enc-bench_a_benchmark_for_evaluating_multimodal_large_language_models_in_electro.md)
-- [\[AAAI 2026\] VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models](../../AAAI2026/multimodal_vlm/vp-bench_a_comprehensive_benchmark_for_visual_prompting_in_m.md)
 
 </div>
 

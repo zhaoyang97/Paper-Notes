@@ -91,6 +91,7 @@ $$P(X\mid do(Y))=\sum_{Z}P(X\mid Y,Z)\,P(Z)$$
 跨 CLIP/ImageNet/MAE 三骨干，**5 张真实图 + BOB 合成数据**在除 Pets 外所有数据集上都超过**纯 10 张真实图**。最显著是 Car（ImageNet 骨干）：5-shot+BOB 88.64% vs 10-shot real only 78.50%，高出 10.14%；Aircraft（MAE）61.21% vs 57.61%（+3.60%）。等于把每张真实样本的价值翻倍。
 
 ### 长尾分类（Tab. 2，ResNet-50）
+
 | 数据集 | 设置 | DataDream | BOB |
 |--------|------|-----------|-----|
 | CUB-LT | IF=100 (All) | 53.42 | **63.06** |
@@ -100,6 +101,7 @@ $$P(X\mid do(Y))=\sum_{Z}P(X\mid Y,Z)\,P(Z)$$
 长尾下增益集中在**少样本类别**（Few: +13.75），而样本充足类别（Many）几乎打平——印证 BOB 的收益正来自帮助数据稀缺类别造出更有信息量的样本。
 
 ### 消融实验（Tab. 4，10-shot Aircraft + ResNet-50）
+
 | Preservation | Marginalization | 精度 |
 |:---:|:---:|:---:|
 | ✗ | ✗ | 68.00（= DataDream 基线） |
@@ -143,11 +145,11 @@ $$P(X\mid do(Y))=\sum_{Z}P(X\mid Y,Z)\,P(Z)$$
 
 ## 相关论文
 
+- [\[CVPR 2026\] Head-wise Adaptive Rotary Positional Encoding for Fine-Grained Image Generation](head-wise_adaptive_rotary_positional_encoding_for_fine-grained_image_generation.md)
 - [\[CVPR 2026\] PromptEnhancer: Taming Your Rewriter for Text-to-Image Generation via Fine-Grained Reward](promptenhancer_taming_your_rewriter_for_text-to-image_generation_via_fine-graine.md)
 - [\[CVPR 2026\] AHS: Adaptive Head Synthesis via Synthetic Data Augmentations](ahs_adaptive_head_synthesis.md)
 - [\[CVPR 2026\] SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control](slideredit_continuous_image_editing_with_fine-grained_instruction_control.md)
 - [\[CVPR 2026\] Fine-Grained GRPO for Precise Preference Alignment in Flow Models](fine-grained_grpo_for_precise_preference_alignment_in_flow_models.md)
-- [\[CVPR 2026\] SpatialReward: Verifiable Spatial Reward Modeling for Fine-Grained Spatial Consistency in Text-to-Image Generation](spatialreward_verifiable_spatial_reward_modeling_for_fine-grained_spatial_consis.md)
 
 </div>
 

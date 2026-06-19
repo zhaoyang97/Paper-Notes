@@ -140,11 +140,11 @@ MeshArt分为两阶段：第一阶段（结构生成），用结构VQ-VAE编码�
 
 ## 相关论文
 
+- [\[CVPR 2026\] Sculpt4D: Generating 4D Shapes via Sparse-Attention Diffusion Transformers](../../CVPR2026/3d_vision/sculpt4d_generating_4d_shapes_via_sparse-attention_diffusion_transformers.md)
 - [\[CVPR 2025\] Structure from Collision](structure_from_collision.md)
 - [\[CVPR 2026\] ArtLLM: Generating Articulated Assets via 3D LLM](../../CVPR2026/3d_vision/artllm_generating_articulated_assets_via_3d_llm.md)
 - [\[CVPR 2025\] Volumetric Surfaces: Representing Fuzzy Geometries with Layered Meshes](volumetric_surfaces_representing_fuzzy_geometries_with_layered_meshes.md)
-- [\[CVPR 2025\] SUM Parts: Benchmarking Part-Level Semantic Segmentation of Urban Meshes](sum_parts_benchmarking_part-level_semantic_segmentation_of_urban_meshes.md)
-- [\[CVPR 2025\] Light3R-SfM: Towards Feed-forward Structure-from-Motion](light3r-sfm_towards_feed-forward_structure-from-motion.md)
+- [\[CVPR 2026\] Image-Guided Geometric Stylization of 3D Meshes](../../CVPR2026/3d_vision/image-guided_geometric_stylization_of_3d_meshes.md)
 
 </div>
 

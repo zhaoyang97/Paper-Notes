@@ -100,6 +100,7 @@ $$P(c_i)=\frac{\exp(z_{c_i})}{\sum_v \exp(z_v)},$$
 | NQ | Gemma-3-27B | 0.1736 | 0.2354 | 0.3503 | 0.2462 |
 
 ### 稳健性与敏感性
+
 | 分析项 | 关键结果 | 说明 |
 |--------|----------|------|
 | 样本效率 | 2 个额外样本即可达到有竞争力表现 | 采样成本是主要开销，少样本下仍强说明 MCQ 自评估利用了候选结构 |
@@ -145,8 +146,8 @@ $$P(c_i)=\frac{\exp(z_{c_i})}{\sum_v \exp(z_v)},$$
 - [\[ACL 2025\] Revisiting Uncertainty Quantification Evaluation in Language Models: Spurious Interactions with Response Length Bias Results](../../ACL2025/llm_nlp/revisiting_uncertainty_quantification_evaluation_in_language_models_spurious_int.md)
 - [\[ACL 2025\] Uncertainty Unveiled: Can Exposure to More In-context Examples Mitigate Uncertainty for Large Language Models?](../../ACL2025/llm_nlp/uncertainty_unveiled_can_exposure_to_more_in-context_examples_mitigate_uncertain.md)
 - [\[ACL 2025\] Towards Harmonized Uncertainty Estimation for Large Language Models](../../ACL2025/llm_nlp/towards_harmonized_uncertainty_estimation_for_large_language_models.md)
-- [\[ACL 2025\] Theory of Mind in Large Language Models: Assessment and Enhancement](../../ACL2025/llm_nlp/theory_of_mind_llm.md)
 - [\[ACL 2025\] SConU: Selective Conformal Uncertainty in Large Language Models](../../ACL2025/llm_nlp/sconu_selective_conformal_uncertainty_in_large_language_models.md)
+- [\[ACL 2025\] Theory of Mind in Large Language Models: Assessment and Enhancement](../../ACL2025/llm_nlp/theory_of_mind_llm.md)
 
 </div>
 

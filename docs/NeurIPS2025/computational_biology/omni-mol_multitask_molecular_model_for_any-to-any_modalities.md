@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2502.01074](https://arxiv.org/abs/2502.01074)  
 **作者**: Chengxin Hu, Hao Li, Yihe Yuan, Zezheng Song, Chenyang Zhao, Haixin Wang (NUS, UMD, UCLA)
 **代码**: [Omni-Mol-Code](https://github.com/)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 分子大语言模型, 多任务学习, 混合专家, 自适应LoRA, 统一指令微调
 
 ## 一句话总结
@@ -166,10 +166,10 @@ Omni-Mol 以仅 33% 参数量超越几乎所有专家基线，在前向预测、
 ## 相关论文
 
 - [\[NeurIPS 2025\] Mol-LLaMA: Towards General Understanding of Molecules in Large Molecular Language Models](mol-llama_towards_general_understanding_of_molecules_in_large_molecular_language.md)
-- [\[NeurIPS 2025\] Iterative Foundation Model Fine-Tuning on Multiple Rewards](iterative_foundation_model_fine-tuning_on_multiple_rewards.md)
 - [\[NeurIPS 2025\] Consistent Sampling and Simulation: Molecular Dynamics with Energy-Based Diffusion Models](consistent_sampling_and_simulation_molecular_dynamics_with_energy-based_diffusio.md)
 - [\[NeurIPS 2025\] EDBench: Large-Scale Electron Density Data for Molecular Modeling](edbench_large-scale_electron_density_data_for_molecular_modeling.md)
-- [\[NeurIPS 2025\] JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model](janusdna_a_powerful_bi-directional_hybrid_dna_foundation_model.md)
+- [\[NeurIPS 2025\] Iterative Foundation Model Fine-Tuning on Multiple Rewards](iterative_foundation_model_fine-tuning_on_multiple_rewards.md)
+- [\[NeurIPS 2025\] JAMUN: Bridging Smoothed Molecular Dynamics and Score-Based Learning for Conformational Ensembles](jamun_bridging_smoothed_molecular_dynamics_and_score-based_learning_for_conforma.md)
 
 </div>
 

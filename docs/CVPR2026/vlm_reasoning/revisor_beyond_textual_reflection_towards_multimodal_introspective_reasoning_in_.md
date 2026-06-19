@@ -2,10 +2,10 @@
 title: >-
   [论文解读] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding
 description: >-
-  [CVPR 2026][多模态VLM][长视频理解] REVISOR 把"文字反思"升级成"视觉反思"——让多模态大模型在初次推理后自己提议一段值得复看的视频区间、调用工具去密集重采样这段画面，再带着新画面二次推理；配合 DADR 双归因解耦奖励逼模型选对片段，在 VideoMME / LongVideoBench / MLVU / LVBench 上把 Qwen2.5-VL-7B 平均提升约 2%。
+  [CVPR 2026][VLM Reasoning][长视频理解] REVISOR 把"文字反思"升级成"视觉反思"——让多模态大模型在初次推理后自己提议一段值得复看的视频区间、调用工具去密集重采样这段画面，再带着新画面二次推理；配合 DADR 双归因解耦奖励逼模型选对片段，在 VideoMME / LongVideoBench / MLVU / LVBench 上把 Qwen2.5-VL-7B 平均提升约 2%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "长视频理解"
   - "多模态反思"
   - "工具增强推理"
@@ -144,11 +144,11 @@ DADR 双归因解耦奖励的奖励权重消融（Tab. 3，灰行为基座）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] MSJoE: Jointly Evolving MLLM and Sampler for Efficient Long-Form Video Understanding](msjoe_jointly_evolving_mllm_and_sampler_for_efficient_long-form_video_understand.md)
-- [\[CVPR 2026\] ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding](remora_multimodal_large_language_model_based_on_refined_motion_representation_fo.md)
-- [\[CVPR 2026\] TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding](timeviper_a_hybrid_mamba-transformer_vision-language_model_for_efficient_long_vi.md)
-- [\[CVPR 2026\] CURVE: A Benchmark for Cultural and Multilingual Long Video Reasoning](curve_a_benchmark_for_cultural_and_multilingual_long_video_reasoning.md)
-- [\[CVPR 2026\] Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism](scaling_the_long_video_understanding_of_multimodal_large_language_models_via_vis.md)
+- [\[CVPR 2026\] VideoARM: Agentic Reasoning over Hierarchical Memory for Long-Form Video Understanding](videoarm_agentic_reasoning_over_hierarchical_memory_for_long-form_video_understa.md)
+- [\[CVPR 2026\] Thinking with Drafts: Speculative Temporal Reasoning for Efficient Long Video Understanding](thinking_with_drafts_speculative_temporal_reasoning_for_efficient_long_video_und.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
+- [\[CVPR 2026\] Agentic Video Summarization via Self-Reflecting Multimodal Understanding](agentic_video_summarization_via_self-reflecting_multimodal_understanding.md)
+- [\[CVPR 2026\] Towards Sparse Video Understanding and Reasoning](towards_sparse_video_understanding_and_reasoning.md)
 
 </div>
 

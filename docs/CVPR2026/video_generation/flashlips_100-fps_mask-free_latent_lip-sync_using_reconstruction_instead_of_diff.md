@@ -110,6 +110,7 @@ $$L_{total}=0.1L^{lat}_{L1}+0.1L^{lat}_{L1m}+10L^{pix}_{L1M}+100L^{pix}_{L1lips}
 LipScore（唇音同步）上两版均为各协议前二；ID（身份保持）在重建协议与 LatentSync 并列第一、跨音频协议第二；像素级 PSNR/SSIM 排第三、LPIPS 第二，差距都很小——说明一步重建并未牺牲保真。
 
 ### 推理速度
+
 | 模型 | FPS ↑ | 相对 U-Net 提速 |
 |------|-------|----------------|
 | KeySync | 3.60 | 30.4× |
@@ -122,6 +123,7 @@ LipScore（唇音同步）上两版均为各协议前二；ID（身份保持）�
 U-Net 版 109 FPS，比次优画质的 KeySync 快 30 倍，是唯一明显超过实时的高质量方案。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 唇姿 V1 8D | LipScore 0.34 / ID 0.83 | 仅冻结表情编码器，身份泄漏低、重建约在 8D 饱和 |
@@ -166,10 +168,10 @@ U-Net 版 109 FPS，比次优画质的 KeySync 快 30 倍，是唯一明显超�
 ## 相关论文
 
 - [\[CVPR 2026\] SWIFT: Sliding Window Reconstruction for Few-Shot Training-Free Generated Video Attribution](swift_sliding_window_reconstruction_for_few-shot_training-free_generated_video_a.md)
-- [\[CVPR 2026\] Latent-Compressed Variational Autoencoder for Video Diffusion Models](latent-compressed_variational_autoencoder_for_video_diffusion_models.md)
+- [\[CVPR 2026\] LaVR: Scene Latent Conditioned Generative Video Trajectory Re-Rendering using Large 4D Reconstruction Models](lavr_scene_latent_conditioned_generative_video_trajectory_re-rendering_using_lar.md)
+- [\[CVPR 2026\] Cross-Subject EEG-to-Video Reconstruction and Beyond](cross-subject_eeg-to-video_reconstruction_and_beyond.md)
 - [\[CVPR 2026\] Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics](phantom_physics-infused_video_generation_via_joint_modeling_of_visual_and_latent.md)
-- [\[CVPR 2026\] When to Lock Attention: Training-Free KV Control in Video Diffusion](when_to_lock_attention_training-free_kv_control_in_video_diffusion.md)
-- [\[CVPR 2026\] RecEdit-Drive: 3D Reconstruction-Guided Spatiotemporal Video Editing for Autonomous Driving Scenes](recedit-drive_3d_reconstruction-guided_spatiotemporal_video_editing_for_autonomo.md)
+- [\[CVPR 2025\] Through-The-Mask: Mask-based Motion Trajectories for Image-to-Video Generation](../../CVPR2025/video_generation/through-the-mask_mask-based_motion_trajectories_for_image-to-video_generation.md)
 
 </div>
 

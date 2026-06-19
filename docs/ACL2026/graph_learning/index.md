@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 图学习论文汇总 · 23篇论文解读
+  ACL2026 图学习论文汇总 · 24篇论文解读
 description: >-
-  23篇ACL2026的图学习方向论文解读，涵盖 RAG、推理、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  24篇ACL2026的图学习方向论文解读，涵盖 RAG、推理、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "图学习"
@@ -50,6 +50,8 @@ item_list:
     t: "LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval"
   - u: "megarag_multimodal_knowledge_graph-based_retrieval_augmented_generation/"
     t: "MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation"
+  - u: "overcoming_the_impedance_mismatch_a_theoretical_roadmap_for_fusing_foundation_mo/"
+    t: "Overcoming the Impedance Mismatch: A Theoretical Roadmap for Fusing Foundation Models and Knowledge Graphs"
   - u: "stem_structure-tracing_evidence_mining_for_knowledge_graphs-driven_retrieval-aug/"
     t: "STEM: Structure-Tracing Evidence Mining for Knowledge Graphs-Driven Retrieval-Augmented Generation"
   - u: "tagrag_tag-guided_hierarchical_knowledge_graph_retrieval-augmented_generation/"
@@ -58,15 +60,15 @@ item_list:
     t: "What Makes AI Research Replicable? Executable Knowledge Graphs as Scientific Knowledge Representations"
   - u: "which_bird_does_not_have_wings_negative-constrained_kgqa_with_schema-guided_sema/"
     t: "Which bird does not have wings: Negative-constrained KGQA with Schema-guided Semantic Matching and Self-directed Refinement"
-item_total: 23
+item_total: 24
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**💬 ACL2026** · **23** 篇论文解读
+**💬 ACL2026** · **24** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (10)](../../CVPR2026/graph_learning/index.md) · [🧪 ICML2026 (31)](../../ICML2026/graph_learning/index.md) · [🔬 ICLR2026 (20)](../../ICLR2026/graph_learning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/graph_learning/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/graph_learning/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/graph_learning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/graph_learning/index.md) · [🧪 ICML2026 (35)](../../ICML2026/graph_learning/index.md) · [🔬 ICLR2026 (30)](../../ICLR2026/graph_learning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/graph_learning/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/graph_learning/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/graph_learning/index.md)
 
 🔥 **高频主题：** RAG ×5 · 推理 ×4 · Agent ×2
 
@@ -145,6 +147,10 @@ item_total: 23
 **[MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation](megarag_multimodal_knowledge_graph-based_retrieval_augmented_generation.md)**
 
 :   MegaRAG 利用 MLLM 在长文档每一页并行抽取实体-关系并合并为多模态知识图谱（MMKG），再用"子图引导"的二轮 refinement 补全跨模态、跨页关系，配合双路检索与两阶段答案生成显著优于 GraphRAG/LightRAG/VisRAG，在 SlideVQA(2k) 上准确率 64.85%（baseline 最高 27.66%）。
+
+**[Overcoming the Impedance Mismatch: A Theoretical Roadmap for Fusing Foundation Models and Knowledge Graphs](overcoming_the_impedance_mismatch_a_theoretical_roadmap_for_fusing_foundation_mo.md)**
+
+:   这是一篇纯理论的立场论文：作者把"基础模型（连续概率空间）与知识图谱（离散确定结构）难以真正融合"这一现象形式化为 **Impedance Mismatch（阻抗失配）**，用度量嵌入理论证明了从词法注入到注意力级整合的三类主流方案各自的数学失败上界，并给出一条"涌现—注入—编辑"的知识全生命周期理论路线图。
 
 **[STEM: Structure-Tracing Evidence Mining for Knowledge Graphs-Driven Retrieval-Augmented Generation](stem_structure-tracing_evidence_mining_for_knowledge_graphs-driven_retrieval-aug.md)**
 

@@ -104,10 +104,10 @@ $\mathcal{L}_{EED} = \mathcal{L}_E + \omega\mathcal{L}_R + \gamma\mathcal{L}_C$�
 ## 相关论文
 
 - [\[CVPR 2025\] Two by Two: Learning Multi-Task Pairwise Objects Assembly for Generalizable Robot Manipulation](two_by_two_learning_multi-task_pairwise_objects_assembly_for_generalizable_robot.md)
-- [\[CVPR 2025\] Pose Priors from Language Models](pose_priors_from_language_models.md)
-- [\[CVPR 2026\] A2P: From 2D Alignment to 3D Plausibility for Occlusion-Robust Two-Hand Reconstruction](../../CVPR2026/human_understanding/from_2d_alignment_to_3d_plausibility_unifying_hete.md)
 - [\[CVPR 2025\] One2Any: One-Reference 6D Pose Estimation for Any Object](one2any_one-reference_6d_pose_estimation_for_any_object.md)
+- [\[CVPR 2025\] Pose Priors from Language Models](pose_priors_from_language_models.md)
 - [\[CVPR 2025\] Efficient Video Face Enhancement with Enhanced Spatial-Temporal Consistency](efficient_video_face_enhancement_with_enhanced_spatial-temporal_consistency.md)
+- [\[ICCV 2025\] OpenAnimals: Revisiting Person Re-Identification for Animals Towards Better Generalization](../../ICCV2025/human_understanding/openanimals_revisiting_person_re-identification_for_animals_towards_better_gener.md)
 
 </div>
 

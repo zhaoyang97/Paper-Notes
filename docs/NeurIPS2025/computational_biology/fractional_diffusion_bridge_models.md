@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.01795](https://arxiv.org/abs/2511.01795)  
 **代码**: [GitHub-paired](https://github.com/GabrielNobis/FDBM_paired) / [GitHub-unpaired](https://github.com/mspringe/FDBM_unpaired) / [SBFlow](https://github.com/mspringe/Schroedinger-Bridge-Flow)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 扩散桥模型, 分数布朗运动, 蛋白质构象预测, 图像翻译, Schrödinger桥
 
 ## 一句话总结
@@ -161,8 +161,8 @@ $$\mathcal{L}_{\text{FDBM}}^{\text{paired}}(\theta) = \int_0^1 \mathbb{E}_{\math
 - [\[NeurIPS 2025\] Remasking Discrete Diffusion Models with Inference-Time Scaling](remasking_discrete_diffusion_models_with_inference-time_scaling.md)
 - [\[NeurIPS 2025\] Consistent Sampling and Simulation: Molecular Dynamics with Energy-Based Diffusion Models](consistent_sampling_and_simulation_molecular_dynamics_with_energy-based_diffusio.md)
 - [\[NeurIPS 2025\] KLASS: KL-Guided Fast Inference in Masked Diffusion Models](klass_kl-guided_fast_inference_in_masked_diffusion_models.md)
-- [\[NeurIPS 2025\] Atomic Diffusion Models for Small Molecule Structure Elucidation from NMR Spectra](atomic_diffusion_models_for_small_molecule_structure_elucidation_from_nmr_spectr.md)
 - [\[ICLR 2026\] Unified Biomolecular Trajectory Generation via Pretrained Variational Bridge](../../ICLR2026/computational_biology/unified_biomolecular_trajectory_generation_via_pretrained_variational_bridge.md)
+- [\[NeurIPS 2025\] Atomic Diffusion Models for Small Molecule Structure Elucidation from NMR Spectra](atomic_diffusion_models_for_small_molecule_structure_elucidation_from_nmr_spectr.md)
 
 </div>
 

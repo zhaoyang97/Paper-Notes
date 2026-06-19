@@ -2,10 +2,10 @@
 title: >-
   [论文解读] EmoThinker: Advancing Visual-Acoustic Emotion Analysis via Structural Token Selection and Chain-of-Thought Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][多模态情感分析] EmoThinker 把视听情感分析从"隐式融合"改造成"显式分步推理"：视觉端用结构化 token 选择把人脸聚焦区和文本条件化的背景区分开，音频端用文本引导注意力提炼副语言特征，再配上首个带分步推理链的 CoET 数据集做 LoRA 后训练，在 DFEW 等五个基准上刷到新 SOTA（DFEW 零样本 WAR 提升 10.5%）。
+  [CVPR 2026][VLM Reasoning][多模态情感分析] EmoThinker 把视听情感分析从"隐式融合"改造成"显式分步推理"：视觉端用结构化 token 选择把人脸聚焦区和文本条件化的背景区分开，音频端用文本引导注意力提炼副语言特征，再配上首个带分步推理链的 CoET 数据集做 LoRA 后训练，在 DFEW 等五个基准上刷到新 SOTA（DFEW 零样本 WAR 提升 10.5%）。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态情感分析"
   - "结构化token选择"
   - "情感思维链"
@@ -154,10 +154,10 @@ F/B/A 分别表示焦点、背景、音频 token（DFEW 用 WAR、MELD 用 w-F1�
 ## 相关论文
 
 - [\[CVPR 2026\] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought](when_visualizing_is_the_first_step_to_reasoning_mira_a_benchmark_for_visual_chai.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
 - [\[CVPR 2026\] Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning](chain-of-frames_advancing_video_understanding_in_multimodal_llms_via_frame-aware.md)
-- [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
 - [\[CVPR 2026\] Chain-of-Thought Guided Multi-Modal Object Re-Identification](chain-of-thought_guided_multi-modal_object_re-identification.md)
-- [\[CVPR 2026\] FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection](focusui_efficient_ui_grounding_via_position-preserving_visual_token_selection.md)
 
 </div>
 

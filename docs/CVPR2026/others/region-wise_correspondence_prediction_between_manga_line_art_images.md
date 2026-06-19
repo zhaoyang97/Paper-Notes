@@ -112,6 +112,7 @@ $$s(R_i, R_j) = \frac{1}{|R_i||R_j|}\sum_{p\in R_i}\sum_{q\in R_j} S_{ab}[p,q]$$
 本文 Cluster Ratio 接近 1（1.41–1.70）说明分割平衡，而 baseline 的 CR 高达 7–14 是严重过度分割；本文 mIoU(P→G) 也明显更高（区域更贴合 ground-truth）。跨图区域准确率本文在两个数据集上都更高，且在更难的 GenAI 上提升更明显。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | 训练集规模递增 | 图内/跨图 PR 曲线持续变好 | 更大数据集让模型学到更稳定的结构表示 |
@@ -153,10 +154,10 @@ $$s(R_i, R_j) = \frac{1}{|R_i||R_j|}\sum_{p\in R_i}\sum_{q\in R_j} S_{ab}[p,q]$$
 ## 相关论文
 
 - [\[CVPR 2026\] ALLNet: Multi-task Dense Prediction for Degraded Images](allnet_multi-task_dense_prediction_for_degraded_images.md)
-- [\[CVPR 2026\] X-band Radar Non-Line-of-Sight Imaging](x-band_radar_non-line-of-sight_imaging.md)
 - [\[CVPR 2026\] Bootstrapping Multi-view Learning for Test-time Noisy Correspondence](bootstrapping_multi-view_learning_for_test-time_noisy_correspondence.md)
 - [\[CVPR 2026\] A Difference-in-Difference Approach to Detecting AI-Generated Images](a_difference-in-difference_approach_to_detecting_ai-generated_images.md)
-- [\[CVPR 2026\] When Lines Meet Textures: Spatial-Frequency Aligned Diffusion Features for Cross-Sparsity Correspondence](when_lines_meet_textures_spatial-frequency_aligned_diffusion_features_for_cross-.md)
+- [\[CVPR 2026\] PAUL: Uncertainty-Guided Partition and Augmentation for Robust Cross-View Geo-Localization under Noisy Correspondence](paul_uncertainty-guided_partition_and_augmentation_for_robust_cross-view_geo-loc.md)
+- [\[CVPR 2026\] A Debiased Reconstruction-based Framework for Training-Free Detection of AI-Generated Images](a_debiased_reconstruction-based_framework_for_training-free_detection_of_ai-gene.md)
 
 </div>
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ReaGEN: Adaptive Generation of Structured Chains-of-Thought for Efficient Multimodal Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][多模态推理] ReaGEN 不微调视觉语言模型本体，而是用一个仅 18M 参数的轻量生成器，根据每道题的注意力流自适应地"排出"一条结构化思维链（哪几个推理阶段、按什么顺序），从而以单遍推理拿到接近深度搜索的精度——在 Qwen3-VL-4B 上相对 VReST 最高提升 +26 个准确率点，同时把推理 token 用量平均压掉约 53%（部分基准达 79%）。
+  [CVPR 2026][VLM Reasoning][多模态推理] ReaGEN 不微调视觉语言模型本体，而是用一个仅 18M 参数的轻量生成器，根据每道题的注意力流自适应地"排出"一条结构化思维链（哪几个推理阶段、按什么顺序），从而以单遍推理拿到接近深度搜索的精度——在 Qwen3-VL-4B 上相对 VReST 最高提升 +26 个准确率点，同时把推理 token 用量平均压掉约 53%（部分基准达 79%）。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态推理"
   - "结构化思维链"
   - "注意力反馈"
@@ -139,11 +139,11 @@ GEN 用 AdamW + 混合精度训练 200 个 epoch，batch 64，学习率 $1\times
 
 ## 相关论文
 
-- [\[CVPR 2026\] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought](when_visualizing_is_the_first_step_to_reasoning_mira_a_benchmark_for_visual_chai.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
 - [\[CVPR 2026\] Stable and Efficient Single-Rollout RL for Multimodal Reasoning](stable_and_efficient_single-rollout_rl_for_multimodal_reasoning.md)
-- [\[CVPR 2026\] SEATrack: Simple, Efficient, and Adaptive Multimodal Tracker](seatrack_multimodal_tracker.md)
-- [\[AAAI 2026\] AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](../../AAAI2026/multimodal_vlm/astar_boosting_multimodal_reasoning_with_automated_structure.md)
 - [\[CVPR 2026\] Fuel Gauge: Estimating Chain-of-Thought Length Ahead of Time in Large Multimodal Models](fuel_gauge_estimating_chain-of-thought_length_ahead_of_time_in_large_multimodal_.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
+- [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
 
 </div>
 

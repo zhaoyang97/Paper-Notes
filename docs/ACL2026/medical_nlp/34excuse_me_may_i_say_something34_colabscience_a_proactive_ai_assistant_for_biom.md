@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.15588](https://arxiv.org/abs/2604.15588)  
 **代码**: [https://github.com/YANGWU001/CoLabScience](https://github.com/YANGWU001/CoLabScience)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 主动干预、科学协作、正无标注学习、强化学习、生物医学对话
 
 ## 一句话总结

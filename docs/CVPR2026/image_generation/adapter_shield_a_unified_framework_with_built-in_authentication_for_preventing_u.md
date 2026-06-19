@@ -101,6 +101,7 @@ $$\mathcal{L}_{enc}=\mathbf{CosSim}(\mathbf{Enc}(\mathcal{E}_{ori},P_{crt}),\mat
 防微调方法迁移到零样本场景几乎全失效（ISM/ESM 仍 0.7~0.96，近乎没保护），而 Adapter Shield 把身份相似度压到 0.05 上下、画作相似度压到 0.02~0.27，且 PSNR 维持在 30~32 与对手相当。作者还在两个 DiT-based 方法上验证泛化：保护图与原图 embedding 相似度仅 0.108（SD-3.5-Large-IP-Adapter）和 0.165（Flux-IP-Adapter）。
 
 ### 鲁棒性评估
+
 | 失真类型 | FaceID | Ins-ID | IP-Ada | IP-Ada+ |
 |----------|--------|--------|--------|---------|
 | Clean | 0.051 | −0.011 | 0.011 | 0.252 |
@@ -111,6 +112,7 @@ $$\mathcal{L}_{enc}=\mathbf{CosSim}(\mathbf{Enc}(\mathcal{E}_{ori},P_{crt}),\mat
 数值是失真后保护图与原图的 embedding 相似度（越低越好）。对高斯噪声、高斯模糊很稳（因为训练时已用可微失真增广），但对 JPEG 压缩明显变弱（IP-Adapter 升到 0.687）——作者归因为对抗扰动对 DCT 与量化操作天然脆弱。
 
 ### 消融实验
+
 | 配置 | 加密多样性↓ | 解密多样性↓ | 同密码多样性↓ | 错误解密率↓ |
 |------|-------------|-------------|---------------|-------------|
 | w/o $\mathcal{L}_{div},\mathcal{L}_{div\_s}$ | 0.985 | 0.999 | 0.999 | 0.0 |

@@ -126,10 +126,10 @@ Otter 在广角数据集上领先 Manta 达 **7.1%**（1-shot），验证了针�
 ## 相关论文
 
 - [\[AAAI 2026\] Bridging Granularity Gaps: Hierarchical Semantic Learning for Cross-Domain Few-Shot Segmentation](bridging_granularity_gaps_hierarchical_semantic_learning_for_cross-domain_few-sh.md)
-- [\[CVPR 2026\] PrAda: Few-Shot Visual Adaptation for Text-Prompted Segmentation](../../CVPR2026/segmentation/prada_few-shot_visual_adaptation_for_text-prompted_segmentation.md)
 - [\[CVPR 2026\] Bayesian Decomposition and Semantic Completion for Few-shot Semantic Segmentation](../../CVPR2026/segmentation/bayesian_decomposition_and_semantic_completion_for_few-shot_semantic_segmentatio.md)
 - [\[ECCV 2024\] Eliminating Feature Ambiguity for Few-Shot Segmentation](../../ECCV2024/segmentation/eliminating_feature_ambiguity_for_few-shot_segmentation.md)
 - [\[ICCV 2025\] Object-level Correlation for Few-Shot Segmentation](../../ICCV2025/segmentation/object-level_correlation_for_few-shot_segmentation.md)
+- [\[CVPR 2026\] Cross-Domain Few-Shot Segmentation via Multi-view Progressive Adaptation](../../CVPR2026/segmentation/cross-domain_few-shot_segmentation_via_multi-view_progressive_adaptation.md)
 
 </div>
 

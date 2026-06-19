@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2507.04832](https://arxiv.org/abs/2507.04832)  
 **代码**: [hanjq17/discrete-diffusion-sdpo](https://github.com/hanjq17/discrete-diffusion-sdpo)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: discrete diffusion, preference optimization, RLHF, trajectory alignment, stepwise decomposition  
 **作者**: Jiaqi Han, Austin Wang, Minkai Xu, Wenda Chu, Meihua Dang, Haotian Ye, Huayu Chen, Yisong Yue, Stefano Ermon (Stanford, Caltech, Tsinghua)  
 

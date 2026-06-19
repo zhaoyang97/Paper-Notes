@@ -94,6 +94,7 @@ logit 信号倾向"有把握就交给 aligned"，内容信号倾向"风格/功�
 Coverage 相对最强 baseline 提升 0.142（约 +30% 可达区域），整体多样性-质量联合提升 21.3%；语义维度 Dominance 提升到 40.5%（即近一半的 Pareto 最优点是 BACO 独占的）。
 
 ### 消融实验（NoveltyBench 上不同 router）
+
 | Router | Lexical Cov. | Lexical Dom. | Semantic Cov. | Semantic Dom. | Overall Cov. | Overall Dom. |
 |--------|-------------|-------------|---------------|---------------|--------------|--------------|
 | -RAND（随机切换） | 0.493 | 26.3% | 0.409 | 17.0% | 0.451 | 21.7% |

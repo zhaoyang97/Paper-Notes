@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][OOD检测] ANTS 在测试时让多模态大模型（MLLM）"看懂"被缓存下来的疑似 OOD 图像，一路生成「描述性负句」刻画 far-OOD、生成「视觉相似负标签」刻画 near-OOD，再用一个自适应权重把两套负文本空间动态融合，在 ImageNet benchmark 上零样本、免训练地把 FPR95 降了 3.1%，刷新 SOTA。
+  [CVPR 2026][VLM Reasoning][OOD检测] ANTS 在测试时让多模态大模型（MLLM）"看懂"被缓存下来的疑似 OOD 图像，一路生成「描述性负句」刻画 far-OOD、生成「视觉相似负标签」刻画 near-OOD，再用一个自适应权重把两套负文本空间动态融合，在 ImageNet benchmark 上零样本、免训练地把 FPR95 降了 3.1%，刷新 SOTA。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "OOD检测"
   - "负标签"
   - "多模态大模型"
@@ -172,11 +172,11 @@ NIM = 负图像挖掘，SIM = 视觉相似 ID 子类挖掘（FPR95↓，OpenOOD�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Activation Matters: Test-time Activated Negative Labels for OOD Detection with Vision-Language Models](activation_matters_test-time_activated_negative_labels_for_ood_detection_with_vi.md)
-- [\[CVPR 2026\] TTL: Test-time Textual Learning for OOD Detection with Pretrained Vision-Language Models](ttl_test-time_textual_learning_for_ood_detection_with_pretrained_vision-language.md)
-- [\[CVPR 2026\] Mind the Way You Select Negative Texts: Pursuing the Distance Consistency in OOD Detection with VLMs](mind_the_way_you_select_negative_texts_pursuing_the_distance_consistency_in_ood_.md)
-- [\[ICCV 2025\] NegRefine: Refining Negative Label-Based Zero-Shot OOD Detection](../../ICCV2025/multimodal_vlm/negrefine_refining_negative_label-based_zero-shot_ood_detection.md)
-- [\[AAAI 2026\] Cross-modal Proxy Evolving for OOD Detection with Vision-Language Models](../../AAAI2026/multimodal_vlm/cross-modal_proxy_evolving_for_ood_detection_with_vision-lan.md)
+- [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
+- [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
+- [\[CVPR 2026\] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)
+- [\[CVPR 2026\] dMLLM-TTS: Self-Verified and Efficient Test-Time Scaling for Diffusion Multi-Modal Large Language Models](dmllm-tts_self-verified_and_efficient_test-time_scaling_for_diffusion_multi-moda.md)
+- [\[CVPR 2026\] Monet: Reasoning in Latent Visual Space Beyond Image and Language](monet_reasoning_in_latent_visual_space_beyond_image_and_language.md)
 
 </div>
 

@@ -191,11 +191,11 @@ LR 在小样本（训练集 367 条，其中违约仅 56 条）和类别不平�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Bidirectional Normalizing Flow: From Data to Noise and Back](../../CVPR2026/others/bidirectional_normalizing_flow_from_data_to_noise_and_back.md)
 - [\[AAAI 2026\] Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)
 - [\[ICML 2026\] Cascaded Flow Matching for Heterogeneous Tabular Data with Mixed-Type Features](../../ICML2026/others/cascaded_flow_matching_for_heterogeneous_tabular_data_with_mixed-type_features.md)
-- [\[CVPR 2026\] Advancing Image Classification with Discrete Diffusion Classification Modeling](../../CVPR2026/others/advancing_image_classification_with_discrete_diffusion_classification_modeling.md)
 - [\[ACL 2025\] Statistical Deficiency for Task Inclusion Estimation](../../ACL2025/others/statistical_deficiency_task_inclusion.md)
+- [\[AAAI 2026\] Provably Data-Driven Projection Method for Quadratic Programming](provably_data-driven_projection_method_for_quadratic_programming.md)
+- [\[ICLR 2026\] Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation](../../ICLR2026/others/advancing_spatiotemporal_representations_in_spiking_neural_networks_via_parametr.md)
 
 </div>
 

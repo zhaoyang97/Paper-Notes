@@ -101,6 +101,7 @@ $$\text{Score}_p(y)\propto P(y|X=x,Z=z)+\lambda\cdot P(y|X=x,\text{do}(Z=z_0))$$
 DARC 尤其超过只能处理单一混杂的因果法（CDCL、Nie et al.），说明双调整对混杂的清除更彻底。
 
 ### 消融实验
+
 | ID | Local(A.L.D.+A.C.A.) | Global(C.S.+C.H.) | mAUC | 说明 |
 |----|------|------|------|------|
 | S0 | - | - | 0.828 | 纯 ConvNeXt 基线 |

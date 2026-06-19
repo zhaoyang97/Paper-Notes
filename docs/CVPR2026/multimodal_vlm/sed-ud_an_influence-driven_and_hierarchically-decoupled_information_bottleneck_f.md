@@ -117,6 +117,7 @@ $$\mathcal{L}^{total}=\frac{\sum_m \lambda_m \mathcal{L}^{dr}_m}{3}+\eta\mathcal
 MIntRec 上 ACC/wF1 略低于 SDIF-DA，作者解释是后者用了 ChatGPT 数据增强缓解小样本；但与同类 IB 方法（InMu-Net、DIB）相比，SeD-UD 在两数据集全部指标上都最优。MELD-DA 这种复杂对话场景下 SeD-UD 全指标领先，体现鲁棒性。跨域到 CH-SIMS 情感分析（ACC-2 82.43、F1 82.11、MAE 0.415 均最优）也验证了泛化性。推理速度 21.8ms/样本，比 TCL-MAP/SDIF-DA/InMu-Net（约 25.x ms）快约 15%——虽然 IB 执行次数更多，但自适应维度避免了无用计算。
 
 ### 消融实验：去冗余 vs 去噪（Table 6，ACC）
+
 | t 去冗余 | v 去冗余 | a 去冗余 | 去噪 | MIntRec | MELD-DA |
 |:---:|:---:|:---:|:---:|---|---|
 | - | - | - | - | 68.54 | 59.01 |
@@ -130,6 +131,7 @@ MIntRec 上 ACC/wF1 略低于 SDIF-DA，作者解释是后者用了 ChatGPT 数�
 只去冗余比基线涨 0.67%/2.35%，只去噪涨 3.15%/3.65%（去噪贡献更大），两者全开最优。去掉文本去冗余（行 4）比去掉视频/语音去冗余掉得更多，印证文本承载更关键的判别信息。
 
 ### IDAB 组件消融（Table 4，MIntRec）
+
 | 变体 | ACC | wF1 |
 |------|-----|-----|
 | FIB（固定维度 IB） | 71.47 | 71.06 |
@@ -176,9 +178,9 @@ IDAB 整体显著优于 FIB；拆开看，**动态维度比固定平均维度贡
 
 - [\[ICML 2025\] Learning Optimal Multimodal Information Bottleneck Representations](../../ICML2025/multimodal_vlm/learning_optimal_multimodal_information_bottleneck_representations.md)
 - [\[ACL 2026\] From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck](../../ACL2026/multimodal_vlm/from_verbatim_to_gist_distilling_pyramidal_multimodal_memory_via_semantic_inform.md)
+- [\[CVPR 2026\] MODIX: A Training-Free Multimodal Information-Driven Positional Index Scaling for Vision-Language Models](modix_a_training-free_multimodal_information-driven_positional_index_scaling_for.md)
 - [\[AAAI 2026\] Conditional Information Bottleneck for Multimodal Fusion: Overcoming Shortcut Learning in Sarcasm Detection](../../AAAI2026/multimodal_vlm/conditional_information_bottleneck_for_multimodal_fusion_overcoming_shortcut_lea.md)
-- [\[CVPR 2026\] MODIX: Training-Free Multimodal Information-Driven Positional Index Scaling for VLMs](modix_positional_index_scaling.md)
-- [\[ACL 2026\] Thinking Like a Botanist: Challenging Multimodal Language Models with Intent-Driven Chain-of-Inquiry](../../ACL2026/multimodal_vlm/thinking_like_a_botanist_challenging_multimodal_language_models_with_intent-driv.md)
+- [\[CVPR 2026\] The LLM Bottleneck: Why Open-Source Vision LLMs Struggle with Hierarchical Visual Recognition](the_llm_bottleneck_why_open-source_vision_llms_struggle_with_hierarchical_visual.md)
 
 </div>
 

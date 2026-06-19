@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Unified Generation and Self-Verification for Vision-Language Models via Advantage Decoupled Preference Optimization
 description: >-
-  [CVPR 2026][多模态VLM][测试时扩展] ADPO 用一套强化学习目标让**同一个 VLM 既生成答案、又给自己打验证分**，靠「偏好验证奖励」解决类别不平衡、靠「优势解耦优化」防止 reward hacking，使单模型的 best-of-N 选择在数学/视觉定位/手机 agent 三类任务上都超过传统「生成器+验证器」双模型，同时把推理延迟最多降 53.5%。
+  [CVPR 2026][VLM Reasoning][测试时扩展] ADPO 用一套强化学习目标让**同一个 VLM 既生成答案、又给自己打验证分**，靠「偏好验证奖励」解决类别不平衡、靠「优势解耦优化」防止 reward hacking，使单模型的 best-of-N 选择在数学/视觉定位/手机 agent 三类任务上都超过传统「生成器+验证器」双模型，同时把推理延迟最多降 53.5%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "测试时扩展"
   - "自验证"
   - "偏好优化"
@@ -95,6 +95,7 @@ $$\mathcal{J}(\theta) = M^a \odot \mathcal{J}_\theta(\hat{A}^{(a)}) + M^p \odot 
 核心信息：ADPO 的 **pass@1 生成质量与纯 GRPO 几乎无损**（MathVista 62.4 vs 62.2、ReasonSeg 59.1 vs 59.5、AndroidControl 70.9 vs 71.0），但靠可靠的自验证分在 best-of-N 上全面超越，且随 N 增大持续受益。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 偏好奖励 vs 二值奖励 | AUC +1.3%/+3.6%/+11.8%（数学/定位/agent） | 排序监督扛住类别不平衡，验证分更可分 |
@@ -136,11 +137,11 @@ $$\mathcal{J}(\theta) = M^a \odot \mathcal{J}_\theta(\hat{A}^{(a)}) + M^p \odot 
 
 ## 相关论文
 
-- [\[CVPR 2026\] Dynamics-Aware Preference Optimization for Vision-Language Models](dynamics-aware_preference_optimization_for_vision-language_models.md)
 - [\[CVPR 2026\] Self-Consistency for LLM-Based Motion Trajectory Generation and Verification](self-consistency_for_llm-based_motion_trajectory_generation_and_verification.md)
-- [\[ICLR 2026\] Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs](../../ICLR2026/multimodal_vlm/uni-dpo_a_unified_paradigm_for_dynamic_preference_optimization_of_llms.md)
-- [\[CVPR 2026\] VisPlay: Self-Evolving Vision-Language Models](visplay_self-evolving_vision-language_models.md)
-- [\[CVPR 2026\] HOG-Layout: Hierarchical 3D Scene Generation, Optimization and Editing via Vision-Language Models](hog_layout_hierarchical_3d_scene_generation_optimization_and_editing.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
+- [\[CVPR 2026\] All Roads Lead to Rome: Incentivizing Divergent Thinking in Vision-Language Models](all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vision-language_model.md)
+- [\[CVPR 2026\] Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr.md)
+- [\[CVPR 2026\] dMLLM-TTS: Self-Verified and Efficient Test-Time Scaling for Diffusion Multi-Modal Large Language Models](dmllm-tts_self-verified_and_efficient_test-time_scaling_for_diffusion_multi-moda.md)
 
 </div>
 

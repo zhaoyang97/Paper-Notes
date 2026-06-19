@@ -199,10 +199,10 @@ Isomorphic Pruning 在所有剪枝准则和所有剪枝率下均一致优于对�
 
 ## 相关论文
 
-- [\[CVPR 2026\] SCoRe: Salience-Coverage Reduction for Vision Token Pruning in Vision-Language Models](../../CVPR2026/model_compression/score_salience-coverage_reduction_for_vision_token_pruning_in_vision-language_mo.md)
 - [\[CVPR 2026\] Collaborative Multi-Mode Pruning for Vision-Language Models](../../CVPR2026/model_compression/collaborative_multi-mode_pruning_for_vision-language_models.md)
 - [\[CVPR 2025\] HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers](../../CVPR2025/model_compression/hiap_a_multi-granular_stochastic_auto-pruning_framework_for_vision_transformers.md)
 - [\[ECCV 2024\] Token Compensator: Altering Inference Cost of Vision Transformer without Re-Tuning](token_compensator_altering_inference_cost_of_vision_transformer_without_re-tunin.md)
+- [\[CVPR 2025\] MDP: Multidimensional Vision Model Pruning with Latency Constraint](../../CVPR2025/model_compression/mdp_multidimensional_vision_model_pruning_with_latency_constraint.md)
 - [\[ECCV 2024\] PaPr: Training-Free One-Step Patch Pruning with Lightweight ConvNets for Faster Inference](papr_training-free_one-step_patch_pruning_with_lightweight_convnets_for_faster_i.md)
 
 </div>

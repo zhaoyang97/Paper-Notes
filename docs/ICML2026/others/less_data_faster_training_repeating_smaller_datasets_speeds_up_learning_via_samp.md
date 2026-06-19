@@ -64,6 +64,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 / 设定 | 数据集大小对比 | 观察到的 compute 节省 | 说明 |
 |------------|---------------|-----------------------|------|
 | (20,6)-sparse parity (mini-batch SGD, 2-layer Transformer) | 小集 vs 在线 | 黄色明显早于蓝色收敛 | Fig.1，多任务通用现象 |
@@ -72,6 +73,7 @@ tags:
 | ICL 线性回归 / mod addition (Transformer) | 多 phase 训练 | 显著加速 | Fig.1，跨架构通用 |
 
 ### 消融与机制实验
+
 | 干预 | 关键指标 | 结论 |
 |------|---------|------|
 | 强制 $\hat{\mathbb{E}}[x]=0$、$\hat{\mathbb{E}}[y]=0$ | small-set 仍快 | 输入分布偏置不是主因 |
@@ -116,11 +118,11 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] A Faster Path to Continual Learning](../../CVPR2026/others/a_faster_path_to_continual_learning.md)
-- [\[ICML 2026\] Coupled Training with Privileged Information and Unlabeled Data](coupled_training_with_privileged_information_and_unlabeled_data.md)
 - [\[AAAI 2026\] Forget Less by Learning from Parents Through Hierarchical Relationships](../../AAAI2026/others/forget_less_by_learning_from_parents_through_hierarchical_relationships.md)
+- [\[ICML 2026\] Coupled Training with Privileged Information and Unlabeled Data](coupled_training_with_privileged_information_and_unlabeled_data.md)
 - [\[ACL 2025\] FastMCTS: A Simple Sampling Strategy for Data Synthesis](../../ACL2025/others/fastmcts_a_simple_sampling_strategy_for_data_synthesis.md)
 - [\[AAAI 2026\] Sampling Control for Imbalanced Calibration in Semi-Supervised Learning](../../AAAI2026/others/sampling_control_for_imbalanced_calibration_in_semi-supervised_learning.md)
+- [\[ICLR 2026\] ANO: Faster is Better in Noisy Landscapes](../../ICLR2026/others/ano_faster_is_better_in_noisy_landscape.md)
 
 </div>
 

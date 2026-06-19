@@ -36,6 +36,7 @@ tags:
 **核心 idea**：把「连续视素组合」当作认证单元，从中挑出每个用户判别力最强的若干组合作为其专属「动态唇纹」；提示集只要在文本中嵌入这些唇纹即可任意扩展，无需重训或补录——以此同时解决提示集可扩展性与抗重放安全性。
 
 ## 方法详解
+
 ### 整体框架
 系统输入是一段唇部图像序列（用 Dlib 检测人脸关键点并裁出唇部区域），目标是判断「当前说话人是否就是其声称的身份（且非伪造/重放）」。整套方法是**局部 + 全局双分支**结构：局部分支负责挖掘细粒度的视素级说话习惯，全局分支提供整句层面的上下文身份特征，两者各出一个分数后融合。
 
@@ -153,9 +154,9 @@ VSA、unified-prompts 设置（Table 3，AUC，下标 hm=Human, fs=FaceSwap, dfl
 
 - [\[ACL 2026\] On the (In-)Security of the Shuffling Defense in the Transformer Secure Inference](../../ACL2026/ai_safety/on_the_in-security_of_the_shuffling_defense_in_the_transformer_secure_inference.md)
 - [\[CVPR 2026\] Enhancing Out-of-Distribution Detection with Extended Logit Normalization](enhancing_out-of-distribution_detection_with_extended_logit_normalization.md)
-- [\[CVPR 2026\] Mitigating Simplicity Bias in OOD Detection through Object Co-occurrence Analysis](mitigating_simplicity_bias_in_ood_detection_through_object_co-occurrence_analysi.md)
-- [\[CVPR 2026\] RaPA: Enhancing Transferable Targeted Attacks via Random Parameter Pruning](rapa_enhancing_transferable_targeted_attacks_via_random_parameter_pruning.md)
 - [\[CVPR 2026\] Phantom: Physical Object Interactions as Dynamic Triggers for NMS-Exploited Backdoors](phantom_physical_object_interactions_as_dynamic_triggers_for_nms-exploited_backd.md)
+- [\[CVPR 2026\] Tutor-Student Reinforcement Learning: A Dynamic Curriculum for Robust Deepfake Detection](tutor-student_reinforcement_learning_a_dynamic_curriculum_for_robust_deepfake_de.md)
+- [\[CVPR 2026\] RaPA: Enhancing Transferable Targeted Attacks via Random Parameter Pruning](rapa_enhancing_transferable_targeted_attacks_via_random_parameter_pruning.md)
 
 </div>
 

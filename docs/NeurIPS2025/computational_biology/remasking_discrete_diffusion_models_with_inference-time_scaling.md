@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.00307](https://arxiv.org/abs/2503.00307)  
 **代码**: [https://github.com/guanghanwang/remdm](https://github.com/guanghanwang/remdm)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 离散扩散模型, 重掩码采样, 推理时计算缩放, 迭代精修, 可控生成
 
 ## 一句话总结

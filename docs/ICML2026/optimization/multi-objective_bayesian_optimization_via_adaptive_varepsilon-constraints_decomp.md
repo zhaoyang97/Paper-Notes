@@ -109,6 +109,7 @@ STAGE-BO 不涉及神经网络训练，关键超参集中在两处：内层 NSGA
 | 真实场景 | DP-SGD on Dutch ($d=5,m=2$) | HV | 全程最高 HV，展示隐私-效用 trade-off 上的实用性 |
 
 ### 消融实验
+
 | 配置 | 关键观察 | 说明 |
 |---|---|---|
 | Full STAGE-BO | IGD/HV 最佳 | 完整版本：Thompson 采样路径 + FD 目标 + cEI |
@@ -154,8 +155,8 @@ STAGE-BO 不涉及神经网络训练，关键超参集中在两处：内层 NSGA
 - [\[ICML 2026\] Accelerated Multiple Wasserstein Gradient Flows for Multi-objective Distributional Optimization](accelerated_multiple_wasserstein_gradient_flows_for_multi-objective_distribution.md)
 - [\[NeurIPS 2025\] MOBO-OSD: Batch Multi-Objective Bayesian Optimization via Orthogonal Search Directions](../../NeurIPS2025/optimization/mobo-osd_batch_multi-objective_bayesian_optimization_via_orthogonal_search_direc.md)
 - [\[ICML 2026\] Cost-Aware Stopping for Bayesian Optimization](cost-aware_stopping_for_bayesian_optimization.md)
+- [\[ICML 2026\] Diversity-Driven Offline Multi-Objective Optimization via Nested Pareto Set Learning](diversity-driven_offline_multi-objective_optimization_via_nested_pareto_set_lear.md)
 - [\[ICML 2026\] Bayesian Gated Non-Negative Contrastive Learning](bayesian_gated_non-negative_contrastive_learning.md)
-- [\[ICML 2026\] Adaptive Preconditioners Trigger Loss Spikes in Adam](adaptive_preconditioners_trigger_loss_spikes_in_adam.md)
 
 </div>
 

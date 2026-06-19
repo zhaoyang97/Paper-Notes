@@ -2,10 +2,10 @@
 title: >-
   [论文解读] POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs
 description: >-
-  [CVPR 2026][多模态VLM][视觉 token 压缩] POINTS-Long 给一个训练好的多模态大模型（MLLM）加装一个"待机模式"：用一小撮可学习 token 把整段视觉序列蒸馏成 1/40–1/10 的长度，在长视频理解上保留 97.7%–99.7% 的原始精度，同时完全保留原模型的高保真"专注模式"，并借可拆卸 KV Cache 支持超长流式视频，端到端解码吞吐提升最高 6.2×。
+  [CVPR 2026][VLM Reasoning][视觉 token 压缩] POINTS-Long 给一个训练好的多模态大模型（MLLM）加装一个"待机模式"：用一小撮可学习 token 把整段视觉序列蒸馏成 1/40–1/10 的长度，在长视频理解上保留 97.7%–99.7% 的原始精度，同时完全保留原模型的高保真"专注模式"，并借可拆卸 KV Cache 支持超长流式视频，端到端解码吞吐提升最高 6.2×。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉 token 压缩"
   - "长视频理解"
   - "双模推理"
@@ -157,10 +157,10 @@ Focus 模式在 OpenCompass 图像榜上同样无损（下表），还能借可�
 ## 相关论文
 
 - [\[CVPR 2026\] R-4B: Incentivizing General-Purpose Auto-Thinking in MLLMs via Bi-Mode Annealing and Reinforce Learning](r-4b_incentivizing_general-purpose_auto-thinking_in_mllms_via_bi-mode_annealing_.md)
-- [\[CVPR 2026\] Boosting Visual Reprogramming for CLIP with Dual Granularity Alignment](boosting_visual_reprogramming_for_clip_with_dual_granularity_alignment.md)
-- [\[CVPR 2026\] TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding](timeviper_a_hybrid_mamba-transformer_vision-language_model_for_efficient_long_vi.md)
-- [\[CVPR 2026\] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)
-- [\[CVPR 2026\] Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism](scaling_the_long_video_understanding_of_multimodal_large_language_models_via_vis.md)
+- [\[ICML 2026\] Breaking Dual Bottlenecks: Evolving Unified Multimodal Models into Self-Adaptive Interleaved Visual Reasoners](../../ICML2026/vlm_reasoning/breaking_dual_bottlenecks_evolving_unified_multimodal_models_into_self-adaptive_.md)
+- [\[CVPR 2026\] Reinforce to Learn, Elect to Reason: A Dual Paradigm for Video Reasoning](reinforce_to_learn_elect_to_reason_a_dual_paradigm_for_video_reasoning.md)
+- [\[CVPR 2026\] Thinking with Drafts: Speculative Temporal Reasoning for Efficient Long Video Understanding](thinking_with_drafts_speculative_temporal_reasoning_for_efficient_long_video_und.md)
+- [\[CVPR 2026\] VideoARM: Agentic Reasoning over Hierarchical Memory for Long-Form Video Understanding](videoarm_agentic_reasoning_over_hierarchical_memory_for_long-form_video_understa.md)
 
 </div>
 

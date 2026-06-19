@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2601.04744](https://arxiv.org/abs/2601.04744)  
 **代码**: [GitHub](https://github.com/fispresent/semi_pathological)  
-**领域**: 音频语音
+**领域**: 音频语音  
 **关键词**: 半监督学习, 病理语音检测, 多粒度建模, 伪标签, 临床对话
 
 ## 一句话总结

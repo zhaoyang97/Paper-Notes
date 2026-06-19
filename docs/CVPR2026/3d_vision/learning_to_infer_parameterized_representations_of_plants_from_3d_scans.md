@@ -92,6 +92,7 @@ flowchart TD
 干净数据下 SIREN 的距离误差更小，但其在噪声下急剧退化（Accuracy 0.0012→0.0121、连通分量 33→268，碎成一堆片）；本文方法对噪声/缺失鲁棒、噪声下反超 SIREN，表示比 SIREN 紧凑一到两个数量级、推理快近一倍，且额外给出 SIREN 给不了的叶数/LAI/拓扑（✗ 表示该法无法输出）。
 
 ### 骨架提取（双向 Chamfer↓）
+
 | 方法 | Clean(Full) | Noisy(Full) | Depth(Full) | Clean(Branch) |
 |------|-------------|-------------|-------------|---------------|
 | Xu et al. | 0.0102 | 0.0110 | 0.0145 | ✗ |
@@ -140,10 +141,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] Velox: Learning Representations of 4D Geometry and Appearance](velox_learning_representations_of_4d_geometry_and_appearance.md)
+- [\[CVPR 2026\] Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images](learning_3d_representations_for_spatial_intelligence_from_unposed_multi-view_ima.md)
 - [\[CVPR 2026\] Learning Compact 3D Representations from Feed-Forward Novel View Synthesis](learning_compact_3d_representations_from_feed-forward_novel_view_synthesis.md)
-- [\[CVPR 2026\] UniSplat: Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images](unisplat_3d_representations_unposed.md)
 - [\[CVPR 2026\] Learning to Solve PDEs on Neural Shape Representations](learning_to_solve_pdes_on_neural_shape_representations.md)
-- [\[CVPR 2026\] EvObj: Learning Evolving Object-centric Representations for 3D Instance Segmentation without Scene Supervision](evobj_learning_evolving_object-centric_representations_for_3d_instance_segmentat.md)
+- [\[CVPR 2026\] CrossHOI: Learning Cross-View Representations for Monocular 3D Human-Object Interaction Reconstruction](crosshoi_learning_cross-view_representations_for_monocular_3d_human-object_inter.md)
 
 </div>
 

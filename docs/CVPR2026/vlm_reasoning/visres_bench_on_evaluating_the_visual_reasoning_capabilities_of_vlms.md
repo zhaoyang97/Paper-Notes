@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VisRes Bench: On Evaluating the Visual Reasoning Capabilities of VLMs
 description: >-
-  [CVPR 2026][多模态VLM][视觉推理] VisRes 是一个用纯图像、四选一格式构建的视觉推理基准，把任务按「感知补全 → 单属性规则 → 多属性组合」三个难度层级展开共约 1.9 万道题，发现一旦抽掉语言提示，连 GPT-5、Gemini-2.5 这样的前沿 VLM 在细微扰动下也接近随机水平，暴露出它们的"推理"很大程度是语言先验而非真正的视觉理解。
+  [CVPR 2026][VLM Reasoning][视觉推理] VisRes 是一个用纯图像、四选一格式构建的视觉推理基准，把任务按「感知补全 → 单属性规则 → 多属性组合」三个难度层级展开共约 1.9 万道题，发现一旦抽掉语言提示，连 GPT-5、Gemini-2.5 这样的前沿 VLM 在细微扰动下也接近随机水平，暴露出它们的"推理"很大程度是语言先验而非真正的视觉理解。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉推理"
   - "评测基准"
   - "去语言先验"
@@ -133,11 +133,11 @@ Level 2/3 需要每张图的 count / color / orientation 标签，作者用"元�
 
 ## 相关论文
 
-- [\[CVPR 2026\] VS-Bench: Evaluating VLMs for Strategic Abilities in Multi-Agent Environments](vs_bench_evaluating_vlms_for_strategic_abilities_in_multi_agent_environments.md)
-- [\[ACL 2026\] AICA-Bench: Holistically Examining the Capabilities of VLMs in Affective Image Content Analysis](../../ACL2026/multimodal_vlm/aica-bench_holistically_examining_the_capabilities_of_vlms_in_affective_image_co.md)
-- [\[CVPR 2026\] ENC-Bench: A Benchmark for Evaluating MLLMs in Electronic Navigational Chart Understanding](enc-bench_a_benchmark_for_evaluating_multimodal_large_language_models_in_electro.md)
-- [\[CVPR 2026\] DiGraphHal-Bench: Evaluating Multimodal Large Language Models on Complex Directed Graphs](digraphhal-bench_evaluating_multimodal_large_language_models_on_complex_directed.md)
-- [\[ACL 2026\] ShredBench: Evaluating the Semantic Reasoning Capabilities of Multimodal LLMs in Document Reconstruction](../../ACL2026/multimodal_vlm/shredbench_evaluating_the_semantic_reasoning_capabilities_of_multimodal_llms_in_.md)
+- [\[ACL 2025\] Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs](../../ACL2025/vlm_reasoning/chart-based_reasoning_transferring_capabilities_from_llms_to_vlms.md)
+- [\[ICLR 2026\] GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models](../../ICLR2026/vlm_reasoning/gtr-bench_evaluating_geo-temporal_reasoning_in_vision-language_mod.md)
+- [\[ACL 2026\] ShredBench: Evaluating the Semantic Reasoning Capabilities of Multimodal LLMs in Document Reconstruction](../../ACL2026/vlm_reasoning/shredbench_evaluating_the_semantic_reasoning_capabilities_of_multimodal_llms_in_.md)
+- [\[CVPR 2026\] Downscaling Intelligence: Exploring Perception and Reasoning Bottlenecks in Small VLMs](downscaling_intelligence_exploring_perception_and_reasoning_bottlenecks_in_small.md)
+- [\[CVPR 2026\] CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)
 
 </div>
 

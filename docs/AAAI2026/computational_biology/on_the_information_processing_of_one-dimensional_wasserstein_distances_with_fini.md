@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.12881](https://arxiv.org/abs/2511.12881)  
 **代码**: [GitHub](https://github.com/cheongjae/one-dim-wasserstein)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Wasserstein距离, 有限样本, Poisson过程, 速率编码, 支撑差异
 
 ## 一句话总结

@@ -114,6 +114,7 @@ GenEval、DPG-Benchmark 等现有基准 caption 数量有限、长度和主题�
 | NAMI-2B | 0.27 | 0.45 | 2.21 | 2.98 | 64.82% |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 完整 NAMI | FID 8.93 / CLIP 25.57 | 流分段 + 模型分块全开 |
@@ -156,7 +157,7 @@ GenEval、DPG-Benchmark 等现有基准 caption 数量有限、长度和主题�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Probabilistic Precipitation Nowcasting with Rectified Flow Transformers](probabilistic_precipitation_nowcasting_with_rectified_flow_transformers.md)
+- [\[CVPR 2026\] Delta Rectified Flow Sampling for Text-to-Image Editing](delta_rectified_flow_sampling_for_text-to-image_editing.md)
 - [\[CVPR 2026\] DDiT: Dynamic Patch Scheduling for Efficient Diffusion Transformers](ddit_dynamic_patch_scheduling_for_efficient_diffusion_transformers.md)
 - [\[CVPR 2026\] From Sketch to Fresco: Efficient Diffusion Transformer with Progressive Resolution](from_sketch_to_fresco_efficient_diffusion_transformer_with_progressive_resolutio.md)
 - [\[CVPR 2026\] RecTok: Reconstruction Distillation along Rectified Flow](rectok_reconstruction_distillation_along_rectified_flow.md)

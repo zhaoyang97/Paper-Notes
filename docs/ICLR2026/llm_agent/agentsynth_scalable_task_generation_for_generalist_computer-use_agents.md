@@ -143,7 +143,7 @@ flowchart TD
 
 - [\[ICLR 2026\] Efficient Agent Training for Computer Use](efficient_agent_training_for_computer_use.md)
 - [\[ICLR 2026\] ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models](toolweaver_weaving_collaborative_semantics_for_scalable_tool_use_in_large_langua.md)
-- [\[CVPR 2026\] CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare](../../CVPR2026/llm_agent/carepilot_a_multi-agent_framework_for_long-horizon_computer_task_automation_in_h.md)
+- [\[ICML 2026\] MacArena: Benchmarking Computer Use Agents on an Online macOS Environment](../../ICML2026/llm_agent/macarena_benchmarking_computer_use_agents_on_an_online_macos_environment.md)
 - [\[ACL 2026\] Supplement Generation Training for Enhancing Agentic Task Performance](../../ACL2026/llm_agent/supplement_generation_training_for_enhancing_agentic_task_performance.md)
 - [\[ICLR 2026\] Towards Scalable Oversight via Partitioned Human Supervision](towards_scalable_oversight_via_partitioned_human_supervision.md)
 

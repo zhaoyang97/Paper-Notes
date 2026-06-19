@@ -108,6 +108,7 @@ $$\mathcal{L}_{\text{denoise}}(\phi) = \mathbb{E}_{x,\epsilon}\big\| s_\phi(\til
 | STARFlow-V†（non-Causal） | 归一化流 | 79.22 | 80.34 | 74.71 |
 
 ### 消融实验（去噪器选择，1000 段大运动视频的 VAE 重建质量）
+
 | 方法 | PSNR↑ | SSIM↑ | rFID↓ |
 |------|-------|-------|-------|
 | No noise（上界参考） | 32.22 | 0.8907 | 3.26 |
@@ -152,7 +153,7 @@ $$\mathcal{L}_{\text{denoise}}(\phi) = \mathbb{E}_{x,\epsilon}\big\| s_\phi(\til
 ## 相关论文
 
 - [\[CVPR 2026\] MoCha: End-to-End Video Character Replacement without Structural Guidance](mocha_end-to-end_video_character_replacement_without_structural_guidance.md)
-- [\[CVPR 2026\] AutoCut: End-to-end Advertisement Video Editing Based on Multimodal Discretization and Controllable Generation](autocut_end-to-end_advertisement_video_editing_based_on_multimodal_discretizatio.md)
+- [\[CVPR 2026\] EasyOmnimatte: Taming Pretrained Inpainting Diffusion Models for End-to-End Video Layered Decomposition](easyomnimatte_taming_pretrained_inpainting_diffusion_models_for_end-to-end_video.md)
 - [\[CVPR 2026\] LottieGPT: Tokenizing Vector Animation for Autoregressive Generation](lottiegpt_vector_animation_generation.md)
 - [\[CVPR 2026\] A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens](a_frame_is_worth_one_token_efficient_generative_world_modeling_with_delta_tokens.md)
 - [\[CVPR 2026\] GT-SVJ: Generative-Transformer-Based Self-Supervised Video Judge For Efficient Video Reward Modeling](gt-svj_generative-transformer-based_self-supervised_video_judge.md)

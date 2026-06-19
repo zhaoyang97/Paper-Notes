@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 时间序列论文汇总 · 38篇论文解读
+  ICLR2026 时间序列论文汇总 · 53篇论文解读
 description: >-
-  38篇ICLR2026的时间序列方向论文解读，涵盖时序预测、LLM、少样本学习、推理、医学影像、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  53篇ICLR2026的时间序列方向论文解读，涵盖时序预测、LLM、少样本学习、医学影像、推理、联邦学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "时间序列"
@@ -11,26 +11,50 @@ tags:
   - "时序预测"
   - "LLM"
   - "少样本学习"
-  - "推理"
   - "医学影像"
-  - "布局/合成"
+  - "推理"
+  - "联邦学习"
 item_list:
+  - u: "a_unified_federated_framework_for_trajectory_data_preparation_via_llms/"
+    t: "A Unified Federated Framework for Trajectory Data Preparation via LLMs"
   - u: "adapt_data_to_model_adaptive_transformation_optimization_for_domain-shared_time_/"
     t: "Adapt Data to Model: Adaptive Transformation Optimization for Domain-shared Time Series Foundation Models"
+  - u: "are_global_dependencies_necessary_scalable_time_series_forecasting_via_local_cro/"
+    t: "Are Global Dependencies Necessary? Scalable Time Series Forecasting via Local Cross-Variate Modeling"
+  - u: "astgi_adaptive_spatio-temporal_graph_interactions_for_irregular_multivariate_tim/"
+    t: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
+  - u: "aurora_towards_universal_generative_multimodal_time_series_forecasting/"
+    t: "Aurora: Towards Universal Generative Multimodal Time Series Forecasting"
+  - u: "autoda-timeseries_automated_data_augmentation_for_time_series/"
+    t: "AutoDA-Timeseries: Automated Data Augmentation for Time Series"
   - u: "benchmarking_ecg_fms_a_reality_check_across_clinical_tasks/"
     t: "Benchmarking ECG FMs: A Reality Check Across Clinical Tasks"
   - u: "brain-semantoks_learning_semantic_tokens_of_brain_dynamics_with_a_self-distilled/"
     t: "Brain-Semantoks: Learning Semantic Tokens of Brain Dynamics with a Self-Distilled Foundation Model"
+  - u: "bridging_past_and_future_distribution-aware_alignment_for_time_series_forecastin/"
+    t: "Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting"
+  - u: "can_we_generate_portable_representations_for_clinical_time_series_data_using_llm/"
+    t: "Can we generate portable representations for clinical time series data using LLMs?"
+  - u: "cauker_classification_time_series_foundation_models_can_be_pretrained_on_synthet/"
+    t: "CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data"
+  - u: "characteristic_root_analysis_and_regularization_for_linear_time_series_forecasti/"
+    t: "Characteristic Root Analysis and Regularization for Linear Time Series Forecasting"
+  - u: "complexity-_and_statistics-guided_anomaly_detection_in_time_series_foundation_mo/"
+    t: "Complexity- and Statistics-Guided Anomaly Detection in Time Series Foundation Models"
   - u: "cpiri_channel_permutation-invariant_relational_interaction_for_multivariate_time_se/"
     t: "CPiRi: Channel Permutation-Invariant Relational Interaction for Multivariate Time Series Forecasting"
   - u: "decentralized_attention_fails_centralized_signals_rethinking_transformers_for_me/"
     t: "Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series"
   - u: "delta-xai_a_unified_framework_for_explaining_prediction_changes_in_online_time_s/"
     t: "Delta-XAI: A Unified Framework for Explaining Prediction Changes in Online Time Series Monitoring"
+  - u: "detection_of_unknown_unknowns_in_autonomous_systems/"
+    t: "Detection of Unknown Unknowns in Autonomous Systems"
   - u: "dissecting_chronos_sparse_autoencoders_reveal_causal_feature_hierarchies_in_time/"
     t: "Dissecting Chronos: Sparse Autoencoders Reveal Causal Feature Hierarchies in Time Series Foundation Models"
   - u: "edinet-bench_evaluating_llms_on_complex_financial_tasks_using_japanese_financial/"
     t: "EDINET-Bench: Evaluating LLMs on Complex Financial Tasks using Japanese Financial Statements"
+  - u: "everest_a_transformer_for_probabilistic_rare-event_anomaly_detection_with_eviden/"
+    t: "EVEREST: A Transformer for Probabilistic Rare-Event Anomaly Detection with Evidential and Tail-Aware Uncertainty"
   - u: "fedal_federated_dataset_learning_for_general_time_series_foundation_models/"
     t: "FeDaL: Federated Dataset Learning for General Time Series Foundation Models"
   - u: "free_energy_mixer/"
@@ -49,47 +73,43 @@ item_list:
     t: "Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy Research"
   - u: "online_time_series_prediction_using_feature_adjustment/"
     t: "Online Time Series Prediction Using Feature Adjustment"
-  - u: "rating_quality_of_diverse_time_series_data_by_meta-learning_from_llm_judgment/"
-    t: "Rating Quality of Diverse Time Series Data by Meta-learning from LLM Judgment"
-  - u: "reasoning_on_time-series_for_financial_technical_analysis/"
-    t: "Reasoning on Time-Series for Financial Technical Analysis"
-  - u: "relational_feature_caching_for_accelerating_diffusion_transformers/"
-    t: "Relational Feature Caching for Accelerating Diffusion Transformers"
-  - u: "relational_transformer_toward_zero-shot_foundation_models_for_relational_data/"
-    t: "Relational Transformer: Toward Zero-Shot Foundation Models for Relational Data"
-  - u: "rescp_reservoir_conformal_prediction_for_time_series_forecasting/"
-    t: "ResCP: Reservoir Conformal Prediction for Time Series Forecasting"
-  - u: "routing_channel-patch_dependencies_in_time_series_forecasting_with_graph_spectra/"
-    t: "Routing Channel-Patch Dependencies in Time Series Forecasting with Graph Spectral Decomposition"
-  - u: "scits_scientific_time_series_llm/"
-    t: "SciTS: Scientific Time Series Understanding and Generation with LLMs"
-  - u: "scits_scientific_time_series_understanding_and_generation_with_llms/"
-    t: "SciTS: Scientific Time Series Understanding and Generation with LLMs"
-  - u: "swiftts_a_swift_selection_framework_for_time_series_pre-trained_models_via_multi/"
-    t: "SwiftTS: A Swift Selection Framework for Time Series Pre-trained Models via Multi-task Meta-Learning"
-  - u: "t1_one-to-one_channel-head_binding_for_multivariate_time-series_imputation/"
-    t: "T1: One-to-One Channel-Head Binding for Multivariate Time-Series Imputation"
-  - u: "tensor_learning_with_orthogonal_lorentz_and_symplectic_symmetries/"
-    t: "Tensor learning with orthogonal, Lorentz, and symplectic symmetries"
-  - u: "timeomni-1_incentivizing_complex_reasoning_with_time_series_in_large_language_mo/"
-    t: "TimeOmni-1: Incentivizing Complex Reasoning with Time Series in Large Language Models"
-  - u: "timesliver_symbolic-linear_decomposition_for_explainable_time_series_classificat/"
-    t: "TimeSliver: Symbolic-Linear Decomposition for Explainable Time Series Classification"
-item_total: 38
+  - u: "quadratic_direct_forecast_for_training_multi-step_time-series_forecast_models/"
+    t: "Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models"
+item_total: 53
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**🔬 ICLR2026** · **38** 篇论文解读
+**🔬 ICLR2026** · **53** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (7)](../../CVPR2026/time_series/index.md) · [🧪 ICML2026 (32)](../../ICML2026/time_series/index.md) · [💬 ACL2026 (7)](../../ACL2026/time_series/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/time_series/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/time_series/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/time_series/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (7)](../../CVPR2026/time_series/index.md) · [🧪 ICML2026 (45)](../../ICML2026/time_series/index.md) · [💬 ACL2026 (8)](../../ACL2026/time_series/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/time_series/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/time_series/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/time_series/index.md)
 
-🔥 **高频主题：** 时序预测 ×26 · LLM ×4 · 少样本学习 ×4 · 推理 ×3 · 医学影像 ×2
+🔥 **高频主题：** 时序预测 ×37 · LLM ×4 · 少样本学习 ×4 · 医学影像 ×3 · 推理 ×3
+
+**[A Unified Federated Framework for Trajectory Data Preparation via LLMs](a_unified_federated_framework_for_trajectory_data_preparation_via_llms.md)**
+
+:   FedTDP 把"轨迹数据准备"（去噪、补全、地图匹配等十类任务）统一成一个跨区域、不共享原始数据的联邦学习问题，用一个轻量隐私自编码器保护数据、一个轨迹知识增强器把通用 LLM 改造成懂时空模式的"轨迹清洗大脑"、再用并行优化压通信成本，在 6 个数据集 10 类任务上全面超过 13 个 SOTA。
 
 **[Adapt Data to Model: Adaptive Transformation Optimization for Domain-shared Time Series Foundation Models](adapt_data_to_model_adaptive_transformation_optimization_for_domain-shared_time_.md)**
 
 :   提出TATO框架，通过自动优化数据预处理 pipeline（包括上下文裁切、尺度归一化、异常值校正），让冻结的大型时序模型（LTM）在不微调的情况下适配不同下游领域，平均降低MSE 13.6%，最高65.4%。
+
+**[Are Global Dependencies Necessary? Scalable Time Series Forecasting via Local Cross-Variate Modeling](are_global_dependencies_necessary_scalable_time_series_forecasting_via_local_cro.md)**
+
+:   针对多变量时序预测里"用全局注意力建模跨变量依赖导致复杂度随变量数二次膨胀"的痛点，本文提出"局部充分性假设"——稠密系统中一个有限的局部邻域就大概率包含足够的预测信号，并据此设计 VPNet：把 patch 嵌入重排成「变量 × patch」二维场，用深度可分离 2D 卷积做局部混合，使复杂度随变量数线性增长，在 8 个基准上同时拿下 SOTA 精度与显著效率优势。
+
+**[ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting](astgi_adaptive_spatio-temporal_graph_interactions_for_irregular_multivariate_tim.md)**
+
+:   ASTGI 把不规则多变量时间序列里的每个离散观测直接编码成一个可学习时空空间里的"点"，不做插值/对齐就保住原始采样结构，再为每个点用最近邻搜索动态建一张因果图、按相对时空位置做关系感知消息传播，最终把预测统一成"给一个查询点聚合邻域信息做回归"，在 4 个公开数据集上 MSE 较次优方法降约 6%。
+
+**[Aurora: Towards Universal Generative Multimodal Time Series Forecasting](aurora_towards_universal_generative_multimodal_time_series_forecasting.md)**
+
+:   Aurora 是第一个**多模态时间序列基础模型**：在「时间序列 + 文本描述 + 内生图像」三模态的跨域语料上预训练，用模态引导注意力把文本/图像里的领域知识注入时序建模，再用「原型引导的流匹配」做生成式概率预测，从而在零样本/少样本的跨域场景下同时拿下确定性和概率性预测 SOTA。
+
+**[AutoDA-Timeseries: Automated Data Augmentation for Time Series](autoda-timeseries_automated_data_augmentation_for_time_series.md)**
+
+:   AutoDA-Timeseries 是首个面向时间序列的通用自动数据增强（AutoDA）框架：它把每条时序的统计特征喂给一个可学习的策略生成器，由堆叠的增强层逐层用 Gumbel-Softmax 可微地挑选变换类型并自适应调节其概率与强度，与下游模型一起单阶段端到端联合优化，在分类、长/短期预测、回归、异常检测五大任务上稳定超越现有强基线。
 
 **[Benchmarking ECG FMs: A Reality Check Across Clinical Tasks](benchmarking_ecg_fms_a_reality_check_across_clinical_tasks.md)**
 
@@ -98,6 +118,26 @@ item_total: 38
 **[Brain-Semantoks: Learning Semantic Tokens of Brain Dynamics with a Self-Distilled Foundation Model](brain-semantoks_learning_semantic_tokens_of_brain_dynamics_with_a_self-distilled.md)**
 
 :   提出 Brain-Semantoks，一种基于语义分词器和自蒸馏目标的 fMRI 基础模型，将大脑功能网络聚合为鲁棒的语义 token，并通过跨时间视角的一致性学习抽象的脑动态表征，在线性探测设置下即可达到 SOTA 性能。
+
+**[Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting](bridging_past_and_future_distribution-aware_alignment_for_time_series_forecastin.md)**
+
+:   针对时间序列预测里"用历史的统计规律去硬套未来分布"导致的分布失配，本文提出 TimeAlign——一个即插即用的双分支框架，用一个只在训练时存在的"重建未来"分支提供对齐的目标分布，再通过全局+局部对齐把预测分支的表示拉向未来真实分布，在 8 个基准上把 MSE/MAE 相对次优方法降低 3.27%/5.20%。
+
+**[Can we generate portable representations for clinical time series data using LLMs?](can_we_generate_portable_representations_for_clinical_time_series_data_using_llm.md)**
+
+:   本文提出 **Record2Vec**：用冻结的 LLM 把不规则的 ICU 时间序列记录写成简洁的临床交班式自然语言摘要，再用冻结的文本嵌入模型把摘要编码成定长向量，作为标准预测器的输入；在三个医院队列、五类任务上，它不仅院内（in-distribution）有竞争力，更关键的是跨医院迁移时性能掉得更少、少样本更省数据、且不增加人口学隐私泄露。
+
+**[CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data](cauker_classification_time_series_foundation_models_can_be_pretrained_on_synthet.md)**
+
+:   CauKer 把高斯过程的核组合与结构因果模型（SCM）拼到一起，造出既有真实时序结构、又自带类别簇结构的纯合成时序，仅用这些数据预训练分类型时序基础模型（TSFM），就能在 128 个 UCR 数据集上几乎追平用大几十倍真实语料训练的原版模型，并首次展现出干净的数据/模型缩放定律。
+
+**[Characteristic Root Analysis and Regularization for Linear Time Series Forecasting](characteristic_root_analysis_and_regularization_for_linear_time_series_forecasti.md)**
+
+:   本文用经典线性差分方程的**特征根**理论重新审视线性时序预测模型，证明噪声会让模型学到"虚假根"且抑制噪声需要不成比例的更多数据，进而提出两类把权重矩阵"根重构"的正则化方法——低秩约简（RRR / DWRR）和自适应的 **Root Purge** 训练损失，在多个标准 benchmark 上把简单线性模型推到 SOTA。
+
+**[Complexity- and Statistics-Guided Anomaly Detection in Time Series Foundation Models](complexity-_and_statistics-guided_anomaly_detection_in_time_series_foundation_mo.md)**
+
+:   把时序基础模型（TFM，如 MOMENT）搬到重建式异常检测上时，会因「过泛化」（连异常也重建得很好）和「过平稳化」（实例归一化抹掉了均值方差）而失灵；本文用一个从重建/插补误差差导出的复杂度指标 $\alpha$ 自适应地把 TFM 与轻量统计模型混合（CAE），再把均值方差重新注入解码端（MOMENT-Stat），在 23 个单变量 + 17 个多变量基准上把 VUS-PR 从此前 SOTA 的 0.4233 提到 0.4679。
 
 **[CPiRi: Channel Permutation-Invariant Relational Interaction for Multivariate Time Series Forecasting](cpiri_channel_permutation-invariant_relational_interaction_for_multivariate_time_se.md)**
 
@@ -111,6 +151,10 @@ item_total: 38
 
 :   提出 Delta-XAI 统一框架，通过包装函数将14种现有XAI方法适配到在线时间序列预测变化解释场景，并提出 SWING（Shifted Window Integrated Gradients）方法，利用过去观测值构建积分路径以捕获时序依赖关系，在多种评估指标上持续优于现有方法。
 
+**[Detection of Unknown Unknowns in Autonomous Systems](detection_of_unknown_unknowns_in_autonomous_systems.md)**
+
+:   针对无人机/自动驾驶/自动给药等自主系统部署后才暴露的"未知未知"(unknown unknowns, U2)场景，本文指出这类风险**不会引起边缘分布漂移**、因此现有依赖"分布偏移"的多变量时序异常检测(MTAD)方法集体失效；作者提出 SPIE-AD，通过持续从信号中恢复底层稀疏动力学模型、再用共形推断判定模型是否偏离正常区间，实现真正零样本的 U2 检测，在 8 个 U2 基准与 6 个真实数据集上不靠任何作弊技巧就超过所有基线。
+
 **[Dissecting Chronos: Sparse Autoencoders Reveal Causal Feature Hierarchies in Time Series Foundation Models](dissecting_chronos_sparse_autoencoders_reveal_causal_feature_hierarchies_in_time.md)**
 
 :   首次将稀疏自编码器 (SAE) 应用于时间序列基础模型 Chronos-T5-Large，通过 392 次因果消融实验揭示了深度依赖的特征层级：中层编码器集中了因果关键的突变检测特征，而语义最丰富的末层编码器反而因果重要性最低。
@@ -118,6 +162,10 @@ item_total: 38
 **[EDINET-Bench: Evaluating LLMs on Complex Financial Tasks using Japanese Financial Statements](edinet-bench_evaluating_llms_on_complex_financial_tasks_using_japanese_financial.md)**
 
 :   构建了基于日本 EDINET 十年年报的金融基准 EDINET-Bench，包含会计欺诈检测、盈利预测和行业分类三项专家级任务，发现即使是 SOTA LLM 也仅略优于逻辑回归。
+
+**[EVEREST: A Transformer for Probabilistic Rare-Event Anomaly Detection with Evidential and Tail-Aware Uncertainty](everest_a_transformer_for_probabilistic_rare-event_anomaly_detection_with_eviden.md)**
+
+:   EVEREST 用一个紧凑的 Transformer 做多变量时间序列的稀有事件预测：在共享主干上挂三个**只在训练时生效**的辅助头（证据 NIG 头管校准、极值 EVT 头管尾部风险、前兆头管提前监督），推理时只留一个分类头、零额外开销；在十年太阳耀斑数据上把 C 级耀斑 24/48/72 小时的 TSS 做到 0.973/0.970/0.966，并能不改架构迁移到工业异常数据集 SKAB（F1=98.16%）。
 
 **[FeDaL: Federated Dataset Learning for General Time Series Foundation Models](fedal_federated_dataset_learning_for_general_time_series_foundation_models.md)**
 
@@ -155,6 +203,14 @@ item_total: 38
 
 :   提出 ADAPT-Z（Automatic Delta Adjustment via Persistent Tracking in Z-space），将在线时序预测的适应目标从模型参数更新转移到特征空间修正，通过轻量 adapter 融合当前特征与历史梯度来应对多步预测中的延迟反馈问题，在13个数据集上一致超越现有在线学习方法。
 
+**[Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models](quadratic_direct_forecast_for_training_multi-step_time-series_forecast_models.md)**
+
+:   针对多步时序预测里 MSE 把每个未来步当成独立、等权任务的缺陷，本文从最大似然推出一个由条件协方差逆矩阵加权的「二次型学习目标」，并用一套双层优化（QDF）把这个加权矩阵当作可学习参数、面向泛化在留出集上学出来，作为即插即用的损失替换 MSE，在 8 个数据集、多种预测模型上稳定刷到 SOTA。
+
+**[Random Controlled Differential Equations](random_controlled_differential_equations.md)**
+
+:   把一大批**随机参数**的受控微分方程（CDE）/粗糙微分方程当作连续时间储备池，只训练最后一层线性读出，就能得到一个快、可扩展、且在无限宽极限下严格收敛到"签名核"的时序分类器——既保留了路径签名方法的归纳偏置，又甩掉了显式签名计算和核矩阵求逆的开销。
+
 **[Rating Quality of Diverse Time Series Data by Meta-learning from LLM Judgment](rating_quality_of_diverse_time_series_data_by_meta-learning_from_llm_judgment.md)**
 
 :   提出TSRating框架，利用LLM从趋势/频率/幅度/模式四个维度对时间序列数据块做成对质量比较，通过Bradley-Terry模型转换为标量质量分数，并以MAML元学习在9个领域22个子集上训练TSRater模型（MOMENT编码器+MLP），实现高效、统一的跨域时间序列数据质量评估。
@@ -186,6 +242,10 @@ item_total: 38
 **[SciTS: Scientific Time Series Understanding and Generation with LLMs](scits_scientific_time_series_understanding_and_generation_with_llms.md)**
 
 :   提出SciTS基准覆盖12个科学领域43个任务54K+实例（长度从$10^0$到$10^7$、频率达10MHz），系统评估17个模型发现通用LLM比专用时序模型泛化更好但文本/图像编码各有局限，据此设计TimeOmni框架用多Patch专家+路由机制+Patch重编程显式建模时间动态并与LLM联合训练。
+
+**[SRT: Super-Resolution for Time Series via Disentangled Rectified Flow](srt_super-resolution_for_time_series_via_disentangled_rectified_flow.md)**
+
+:   SRT 把图像超分的思路搬到时间序列上：先把低分辨率序列拆成趋势与周期两路、用隐式时间函数把它们对齐到目标分辨率，再用两个 rectified flow 模型配合跨分辨率注意力补出高频细节，在 9 个数据集上对采样型和聚合型两类超分任务都拿到 SOTA，且推理只需 4 步采样。
 
 **[SwiftTS: A Swift Selection Framework for Time Series Pre-trained Models via Multi-task Meta-Learning](swiftts_a_swift_selection_framework_for_time_series_pre-trained_models_via_multi.md)**
 

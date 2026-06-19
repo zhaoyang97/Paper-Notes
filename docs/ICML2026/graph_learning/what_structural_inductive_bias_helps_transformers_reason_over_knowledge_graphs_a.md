@@ -77,6 +77,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 设置 | 指标 | RASA / 本文配置 | 强基线 | Vanilla Transformer | 结论 |
 |--------|------|------|----------|------|------|
 | MetaQA 3-hop | Hits@1 | 92.6±0.1 | Graphormer 93.3±0.2 / R-GCN 91.9±0.2 | 12.9±0.2 | RASA 不是 SOTA 宣称，但作为消融载体足够强 |
@@ -85,6 +86,7 @@ flowchart TD
 | MetaQA held-out relation | 性能下降 | RASA -7.2pp | R-GCN -29.2pp | - | 基于 mask 的拓扑偏置比关系特定权重更能泛化到未见关系 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Full RASA | MetaQA 3-hop 92.6±0.1 | mask + bias + scale + gate 全部打开 |

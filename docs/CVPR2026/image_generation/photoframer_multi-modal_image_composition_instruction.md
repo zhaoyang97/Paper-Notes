@@ -103,6 +103,7 @@ zoom-in 任务只报 `vs真值` 胜率（PhotoFramer 67.24 GPT-5 / 48.28 人类�
 | **PhotoFramer** | **91.96** | **92.59** | **91.52** | **92.02** |
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | 文字指导喂给 Qwen-Image-Edit | 无法利用，甚至降低保真度 | 即便它用 LLM 当文本编码器，也接不住该文字 |
@@ -149,8 +150,8 @@ zoom-in 任务只报 `vs真值` 胜率（PhotoFramer 67.24 GPT-5 / 48.28 人类�
 - [\[CVPR 2026\] MICo-150K: A Comprehensive Dataset Advancing Multi-Image Composition](mico-150k_a_comprehensive_dataset_advancing_multi-image_composition.md)
 - [\[CVPR 2025\] UNIC-Adapter: Unified Image-Instruction Adapter with Multi-modal Transformer for Image Generation](../../CVPR2025/image_generation/unic-adapter_unified_image-instruction_adapter_with_multi-modal_transformer_for_.md)
 - [\[CVPR 2026\] ConsistCompose: Unified Multimodal Layout Control for Image Composition](consistcompose_multimodal_layout_control.md)
-- [\[CVPR 2026\] CompBench: Benchmarking Complex Instruction-guided Image Editing](compbench_benchmarking_complex_instruction-guided_image_editing.md)
 - [\[CVPR 2026\] MICON-Bench: Benchmarking and Enhancing Multi-Image Context Image Generation in Unified Multimodal Models](micon-bench_benchmarking_and_enhancing_multi-image_context_image_generation_in_u.md)
+- [\[CVPR 2026\] CompBench: Benchmarking Complex Instruction-guided Image Editing](compbench_benchmarking_complex_instruction-guided_image_editing.md)
 
 </div>
 

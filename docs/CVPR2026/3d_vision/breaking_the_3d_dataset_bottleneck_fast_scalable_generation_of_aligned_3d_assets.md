@@ -82,6 +82,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 数据集规模对比
+
 | 3D 数据集 | 类型 | #物体 | #类别 | #物体/类 | 对齐 | 单物体耗时 |
 |-----------|------|-------|-------|----------|------|------------|
 | OmniObject3D | 真实扫描 | 6K | 190 | 32 | 是 | 15m–1h |
@@ -92,6 +93,7 @@ flowchart TD
 GenOmni3D 同时拿到「大规模 + 内建对齐 + 高质量 + 快」，单类实例数比此前对齐真实数据集多 >40×。
 
 ### NOCS REAL275 零样本 sim2real 位姿估计（DualPoseNet 基线）
+
 | 训练数据 | IoU75 | 10°5cm | Avg |
 |----------|-------|--------|-----|
 | Replica 全合成 | 34.33 | 17.12 | 33.10 |
@@ -102,6 +104,7 @@ GenOmni3D 同时拿到「大规模 + 内建对齐 + 高质量 + 快」，单类�
 三组对照分别验证：混合现实 > 全合成（34.75 vs 33.10）、本文网格 > 原 NOCS 网格（合成验证集 23.91 vs 15.66）、有阴影 > 无阴影（30.83→34.75）。完全不用真实训练数据，就能逼近用真实数据训练的水平。
 
 ### 抓取与形状补全（SAPIEN，CenterGrasp 框架）
+
 | 方法 | 抓取成功率 ↑ | 双向误差 bi ↓ | IoU ↑ |
 |------|-------------|--------------|-------|
 | GIGA | 0.638 | 55.2 | 0.146 |
@@ -144,11 +147,11 @@ GenOmni3D 同时拿到「大规模 + 内建对齐 + 高质量 + 快」，单类�
 
 ## 相关论文
 
+- [\[CVPR 2026\] PoseGaussian: 6D Pose Estimation for Unseen Objects via Sparse-View Object-Level 3D Gaussian Splatting](posegaussian_6d_pose_estimation_for_unseen_objects_via_sparse-view_object-level_.md)
 - [\[CVPR 2026\] Exploring 6D Object Pose Estimation with Deformation](exploring_6d_object_pose_estimation_with_deformation.md)
 - [\[CVPR 2026\] SE(3)-Equivariance with Geometric and Topological Guidance for Category-Level Object Pose Estimation](se3-equivariance_with_geometric_and_topological_guidance_for_category-level_obje.md)
 - [\[CVPR 2026\] SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a Single 3D Observation](scapo_self-supervised_category-level_articulated_pose_estimation_from_a_single_3.md)
 - [\[ECCV 2024\] Omni6D: Large-Vocabulary 3D Object Dataset for Category-Level 6D Object Pose Estimation](../../ECCV2024/3d_vision/omni6d_large-vocabulary_3d_object_dataset_for_category-level_6d_object_pose_esti.md)
-- [\[CVPR 2026\] DICArt: Advancing Category-level Articulated Object Pose Estimation in Discrete State-Spaces](dicart_advancing_category-level_articulated_object_pose_estimation_in_discrete_s.md)
 
 </div>
 

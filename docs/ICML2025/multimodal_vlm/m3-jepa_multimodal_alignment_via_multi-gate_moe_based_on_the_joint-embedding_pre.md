@@ -133,7 +133,7 @@ MoE 和 AGD 缺一不可：去掉 MoE（换 MLP）I→T R@1 降至 74.4%，去�
 - [\[ICML 2026\] Text-Conditional JEPA for Learning Semantically Rich Visual Representations](../../ICML2026/multimodal_vlm/text-conditional_jepa_for_learning_semantically_rich_visual_representations.md)
 - [\[ICML 2025\] Universal Retrieval for Multimodal Trajectory Modeling](universal_retrieval_for_multimodal_trajectory_modeling.md)
 - [\[ICML 2025\] The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models](the_devil_is_in_the_details_tackling_unimodal_spurious_correlations_for_generali.md)
-- [\[CVPR 2025\] ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding](../../CVPR2025/multimodal_vlm/asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_de.md)
+- [\[NeurIPS 2025\] The Narrow Gate: Localized Image-Text Communication in Native Multimodal Models](../../NeurIPS2025/multimodal_vlm/the_narrow_gate_localized_imagetext_communication_in_native.md)
 
 </div>
 

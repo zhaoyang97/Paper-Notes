@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2507.09391](https://arxiv.org/abs/2507.09391)  
 **代码**: [GitHub](https://github.com/peterpaohuang/ncgn)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Noise-Conditioned Graph Networks, 扩散模型, Flow Matching, 动态消息传递, 图粗粒化, 3D 点云生成
 
 ## 一句话总结
@@ -134,8 +134,8 @@ $$r_t, s_t = f(t, r_0, r_1, s_0, s_1)$$
 
 - [\[ICML 2025\] Graph Generative Pre-trained Transformer (G2PT)](graph_generative_pre-trained_transformer.md)
 - [\[NeurIPS 2025\] Generative Modeling of Full-Atom Protein Conformations using Latent Diffusion on Graph Embeddings](../../NeurIPS2025/computational_biology/generative_modeling_of_full-atom_protein_conformations_using_latent_diffusion_on.md)
-- [\[ICML 2025\] Flexibility-conditioned Protein Structure Design with Flow Matching](flexibility-conditioned_protein_structure_design_with_flow_matching.md)
 - [\[NeurIPS 2025\] Towards Multiscale Graph-based Protein Learning with Geometric Secondary Structural Motifs](../../NeurIPS2025/computational_biology/towards_multiscale_graph-based_protein_learning_with_geometric_secondary_structu.md)
+- [\[ICML 2025\] Flexibility-conditioned Protein Structure Design with Flow Matching](flexibility-conditioned_protein_structure_design_with_flow_matching.md)
 - [\[NeurIPS 2025\] Random Search Neural Networks for Efficient and Expressive Graph Learning](../../NeurIPS2025/computational_biology/random_search_neural_networks_for_efficient_and_expressive_graph_learning.md)
 
 </div>

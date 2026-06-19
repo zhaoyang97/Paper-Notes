@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 幻觉检测论文汇总 · 38篇论文解读
+  CVPR2026 幻觉检测论文汇总 · 33篇论文解读
 description: >-
-  38篇CVPR2026的幻觉检测方向论文解读，涵盖多模态、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  33篇CVPR2026的幻觉检测方向论文解读，涵盖多模态、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "幻觉检测"
@@ -12,8 +12,6 @@ tags:
   - "LLM"
   - "推理"
 item_list:
-  - u: "3d-vcd_hallucination_mitigation_in_3d-llm_embodied_agents_through_visual_contras/"
-    t: "3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding"
   - u: "adaiat_adaptively_increasing_attention_to_generated_text_to_alleviate_hallucinat/"
     t: "AdaIAT: Adaptively Increasing Attention to Generated Text to Alleviate Hallucinations in LVLM"
   - u: "beyond_global_scores_fine_grained_token_grounding_as_robust_detector_of_lvlm_hallucinations/"
@@ -24,8 +22,6 @@ item_list:
     t: "COPO: Causal-Oriented Policy Optimization for Hallucinations of MLLMs"
   - u: "cross-modal_attention_calibration_for_lvlm_hallucination_mitigation/"
     t: "Cross-Modal Attention Calibration for LVLM Hallucination Mitigation"
-  - u: "elv-halluc_benchmarking_semantic_aggregation_hallucinations_in_video_understandi/"
-    t: "ELV-Halluc: Benchmarking Semantic Aggregation Hallucinations in Video Understanding"
   - u: "envision_attend_then_respond_counterfactual_hallucination_mitigation_in_large_vi/"
     t: "Envision, Attend, Then Respond: Counterfactual Hallucination Mitigation in Large Vision-Language Models"
   - u: "exposing_and_evaluating_hallucinations_for_gui_grounding/"
@@ -38,14 +34,10 @@ item_list:
     t: "FINER: MLLMs Hallucinate under Fine-grained Negative Queries"
   - u: "first_logit_boosting_visual_grounding_method_to_mitigate_object_hallucination_in/"
     t: "First Logit Boosting: Visual Grounding Method to Mitigate Object Hallucination in Large Vision-Language Models"
-  - u: "grounded_chain-of-thought_for_multimodal_large_language_models/"
-    t: "Grounded Chain-of-Thought for Multimodal Large Language Models"
   - u: "hallugen_synthesizing_realistic_and_controllable_hallucinations_for_evaluating_i/"
     t: "HalluGen: Synthesizing Realistic and Controllable Hallucinations for Evaluating Image Restoration"
   - u: "hulluedit_single-pass_evidence-consistent_subspace_editing_for_mitigating_halluc/"
     t: "HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in Large Vision-Language Models"
-  - u: "hulluedit_subspace_editing_hallucination/"
-    t: "HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in LVLMs"
   - u: "kvsmooth_mitigating_hallucination_in_multi-modal_large_language_models_through_k/"
     t: "KVSmooth: Mitigating Hallucination in Multi-modal Large Language Models through Key-Value Smoothing"
   - u: "locate-then-sparsify_attribution_guided_sparse_strategy_for_visual_hallucination/"
@@ -56,10 +48,10 @@ item_list:
     t: "MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models"
   - u: "mitigating_multimodal_hallucinations_via_gradient-based_self-reflection/"
     t: "Mitigating Multimodal Hallucinations via Gradient-based Self-Reflection"
-  - u: "mitigating_object_hallucinations_in_lvlms_via_attention_imbalance_rectification/"
-    t: "Mitigating Object Hallucination in LVLMs via Attention Imbalance Rectification"
   - u: "mod-dpo_towards_mitigating_cross-modal_hallucinations_in_omni_llms_using_modalit/"
     t: "MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization"
+  - u: "one_token_two_fates_a_unified_framework_via_vision_token_manipulation_against_ml/"
+    t: "One Token, Two Fates: A Unified Framework via Vision Token Manipulation Against MLLMs Hallucination"
   - u: "pas_prelim_attention_score_for_detecting_object_hallucinations_in_large_vision-l/"
     t: "PAS: Prelim Attention Score for Detecting Object Hallucinations in Large Vision-Language Models"
   - u: "prefill-time_intervention_for_mitigating_hallucination_in_large_vision-language_/"
@@ -70,23 +62,27 @@ item_list:
     t: "Residual Decoding: Mitigating Hallucinations in Large Vision-Language Models via History-Aware Residual Guidance"
   - u: "same_attention_different_truths_put_logit-lens_over_visual_attention_to_detect_a/"
     t: "Same Attention, Different Truths: Put Logit-Lens over Visual Attention to Detect and Mitigate LVLM Object Hallucination"
-  - u: "season_mitigating_temporal_hallucination_in_video_large_language_models_via_self/"
-    t: "SEASON: Mitigating Temporal Hallucination in Video Large Language Models via Self-Diagnostic Contrastive Decoding"
-item_total: 38
+  - u: "svhalluc_benchmarking_speech-vision_hallucination_in_audio-visual_large_language/"
+    t: "SVHalluc: Benchmarking Speech-Vision Hallucination in Audio-Visual Large Language Models"
+  - u: "tell_model_where_to_look_mitigating_hallucinations_in_mllms_by_vision-guided_att/"
+    t: "Tell Model Where to Look: Mitigating Hallucinations in MLLMs by Vision-Guided Attention"
+  - u: "thinking_in_uncertainty_mitigating_hallucinations_in_mlrms_with_latent_entropy-a/"
+    t: "Thinking in Uncertainty: Mitigating Hallucinations in MLRMs with Latent Entropy-Aware Decoding"
+  - u: "tridf_evaluating_perception_detection_and_hallucination_for_interpretable_deepfa/"
+    t: "TriDF: Evaluating Perception, Detection, and Hallucination for Interpretable DeepFake Detection"
+  - u: "understanding_and_mitigating_hallucinations_in_multimodal_chain-of-thought_model/"
+    t: "Understanding and Mitigating Hallucinations in Multimodal Chain-of-Thought Models"
+item_total: 33
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👻 幻觉检测
 
-**📷 CVPR2026** · **38** 篇论文解读
+**📷 CVPR2026** · **33** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (19)](../../ICML2026/hallucination/index.md) · [💬 ACL2026 (27)](../../ACL2026/hallucination/index.md) · [🔬 ICLR2026 (9)](../../ICLR2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (21)](../../ICML2026/hallucination/index.md) · [💬 ACL2026 (28)](../../ACL2026/hallucination/index.md) · [🔬 ICLR2026 (13)](../../ICLR2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
 
-🔥 **高频主题：** 多模态 ×15 · LLM ×5 · 推理 ×3
-
-**[3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding](3d-vcd_hallucination_mitigation_in_3d-llm_embodied_agents_through_visual_contras.md)**
-
-:   3D-VCD 是首个面向 3D 具身智能体的**推理时**幻觉抑制框架：对物体中心的 3D 场景图施加语义/几何扰动得到一个"被破坏"的负样本上下文，让 MLLM 在原始图和扰动图上各跑一遍，再用对比解码公式把"换了场景也照样高概率"的 token 压下去——无需重训，几乎零额外开销，就在 3D-POPE / HEAL 上显著降低过度肯定与物体幻觉。
+🔥 **高频主题：** 多模态 ×14 · LLM ×3 · 推理 ×2
 
 **[AdaIAT: Adaptively Increasing Attention to Generated Text to Alleviate Hallucinations in LVLM](adaiat_adaptively_increasing_attention_to_generated_text_to_alleviate_hallucinat.md)**
 
@@ -107,10 +103,6 @@ item_total: 38
 **[Cross-Modal Attention Calibration for LVLM Hallucination Mitigation](cross-modal_attention_calibration_for_lvlm_hallucination_mitigation.md)**
 
 :   针对 LVLM 幻觉，本文提出免训练的跨模态注意力校准框架 CMAC：用 IMD 模块在注意力层"外科手术式"地遮蔽跨模态高权重的 value 向量来构造更精准的幻觉分布做对比解码，并用 CMPC 模块缩放图像 token 的位置索引来缓解 RoPE 带来的位置偏置，在 POPE/CHAIR/MME 上全面超过现有对比解码方法。
-
-**[ELV-Halluc: Benchmarking Semantic Aggregation Hallucinations in Video Understanding](elv-halluc_benchmarking_semantic_aggregation_hallucinations_in_video_understandi.md)**
-
-:   本文提出"语义聚合幻觉（SAH）"这一被忽视的视频幻觉类型——模型每一帧都看对了，却在跨事件聚合时把语义张冠李戴——并构建首个针对它的基准 ELV-Halluc（348 个多事件视频、对抗三元组问答），系统评测 19 个 MLLM，证明 SAH 随语义复杂度上升，并用改进位置编码 + 8K 对抗对 DPO 把 SAH Ratio 最多降 27.7%。
 
 **[Envision, Attend, Then Respond: Counterfactual Hallucination Mitigation in Large Vision-Language Models](envision_attend_then_respond_counterfactual_hallucination_mitigation_in_large_vi.md)**
 
@@ -136,10 +128,6 @@ item_total: 38
 
 :   针对大视觉语言模型（LVLM）"越生成越脱离图像、后段越容易编造物体"的长程衰减问题，本文提出 First Logit Boosting（FLB）：把**第一个生成 token 的 logit 存下来，按随步数递增的权重加回到后续每一步的 logit 上**，零训练、零外部模型、只需一次前向，就把 CHAIR/AMBER 上的物体幻觉显著压低且几乎不增加推理开销。
 
-**[Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)**
-
-:   提出"接地链式思考（GCoT）"新任务和 MM-GCoT 基准：让多模态大模型在回答前逐步说出推理并给出每一步的坐标依据，再用"答案-接地一致性"指标量化视觉幻觉，结果发现 12 个先进 MLLM 普遍"答对但看错"，且幻觉与模型规模无关。
-
 **[HalluGen: Synthesizing Realistic and Controllable Hallucinations for Evaluating Image Restoration](hallugen_synthesizing_realistic_and_controllable_hallucinations_for_evaluating_i.md)**
 
 :   HalluGen 用扩散后验采样 + 带掩码的梯度引导，把"类型/位置/严重度都可控"的真实感幻觉**主动注入**到图像复原结果里，从而第一次拿到带 ground-truth 标注的幻觉数据集（4350 张脑 MRI），并基于它建立幻觉评测基准、提出对幻觉敏感的 SHAFE 指标、训练出能泛化到真实复原失败的无参考检测器。
@@ -147,10 +135,6 @@ item_total: 38
 **[HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in Large Vision-Language Models](hulluedit_single-pass_evidence-consistent_subspace_editing_for_mitigating_halluc.md)**
 
 :   提出HulluEdit，一种单次前向、无参考模型的子空间编辑框架，通过将隐藏状态分解为正交的视觉证据子空间、冲突先验子空间和残差不确定性子空间，选择性抑制幻觉模式而不干扰视觉定位，在POPE和CHAIR基准上达到SOTA幻觉缓解效果。
-
-**[HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in LVLMs](hulluedit_subspace_editing_hallucination.md)**
-
-:   提出HulluEdit，一个单次推理、无参考模型的幻觉缓解框架，通过将隐藏状态正交分解为视觉证据子空间、冲突先验子空间和残差不确定性子空间，选择性抑制幻觉模式而不干扰视觉接地，在POPE和CHAIR上达到SOTA。
 
 **[KVSmooth: Mitigating Hallucination in Multi-modal Large Language Models through Key-Value Smoothing](kvsmooth_mitigating_hallucination_in_multi-modal_large_language_models_through_k.md)**
 
@@ -172,13 +156,13 @@ item_total: 38
 
 :   提出 GACD（Gradient-based Influence-Aware Constrained Decoding），利用一阶 Taylor 梯度估计每个 token 对输出的影响力，在推理阶段同时缓解文本-视觉偏差和共现偏差导致的多模态幻觉，无需辅助模型或微调。
 
-**[Mitigating Object Hallucination in LVLMs via Attention Imbalance Rectification](mitigating_object_hallucinations_in_lvlms_via_attention_imbalance_rectification.md)**
-
-:   提出注意力失衡（Attention Imbalance）概念来解释 LVLM 中的对象幻觉现象，并设计轻量级解码时干预方法 AIR，通过跨模态注意力重新分配和方差约束投影正则化矫正注意力失衡，在四个 LVLM 上将幻觉率最高降低 35.1%，同时提升通用能力最高达 15.9%。
-
 **[MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization](mod-dpo_towards_mitigating_cross-modal_hallucinations_in_omni_llms_using_modalit.md)**
 
 :   提出 MoD-DPO（Modality-Decoupled DPO），通过不变性正则化、敏感性正则化和语言先验去偏三个机制解耦多模态 LLM 中各模态的贡献，有效缓解跨模态幻觉（如用听觉信息回答视觉问题），并推导出闭式最优策略。
+
+**[One Token, Two Fates: A Unified Framework via Vision Token Manipulation Against MLLMs Hallucination](one_token_two_fates_a_unified_framework_via_vision_token_manipulation_against_ml.md)**
+
+:   本文把 MLLM 物体幻觉重新定义为"视觉-语言失衡"问题，提出一个 training-free 框架，**只在中间表示层操控视觉 token**：一边用增广图像的视觉 token 强化视觉信号（SVC），一边用剪枝后的视觉 token 在隐空间造负样本、提纯模型内部偏置（CRC），在 LLaVA-1.5 上 POPE 平均提升约 2% 绝对精度，推理只多 1.06× 延迟。
 
 **[PAS: Prelim Attention Score for Detecting Object Hallucinations in Large Vision-Language Models](pas_prelim_attention_score_for_detecting_object_hallucinations_in_large_vision-l.md)**
 
@@ -200,9 +184,9 @@ item_total: 38
 
 :   本文用 Logit-Lens 重新审视 LVLM 物体幻觉，发现真实物体与幻觉物体在中后层"注意力强度其实一样"，关键不在"看多少"而在"看的地方解码出来是不是同一个东西"，据此把幻觉分成"视觉不确定"与"上下文先验"两类，并提出免训练的"检测—缓解"框架（LLCC 检测 + HARM 掩码 + VEED 解码增强），在多个幻觉基准上取得 SOTA。
 
-**[SEASON: Mitigating Temporal Hallucination in Video Large Language Models via Self-Diagnostic Contrastive Decoding](season_mitigating_temporal_hallucination_in_video_large_language_models_via_self.md)**
+**[SVHalluc: Benchmarking Speech-Vision Hallucination in Audio-Visual Large Language Models](svhalluc_benchmarking_speech-vision_hallucination_in_audio-visual_large_language.md)**
 
-:   SEASON 是一种**训练无关**的视频大模型解码方法：通过"时间同质化"构造只破坏时间、保留空间的硬负样本，再用一个逐 token 的自诊断机制判断当前词更可能犯时间还是空间幻觉，自适应地对相应负样本做对比解码，在三个幻觉基准上超过所有训练无关方法，同时不损伤通用视频理解能力。
+:   SVHalluc 是首个系统评测「视听大模型能否把**语音内容**与对应视觉信号对齐」的 benchmark，从语义和时序两个维度各设计 3 个由粗到细的任务（共 6 个、2405 条样本），实验揭示当前开源视听 LLM 在多数任务上接近随机猜测，而 Gemini 2.5 Pro 大幅领先——根因不是单模态感知差，而是跨模态整合能力缺失。
 
 **[Tell Model Where to Look: Mitigating Hallucinations in MLLMs by Vision-Guided Attention](tell_model_where_to_look_mitigating_hallucinations_in_mllms_by_vision-guided_att.md)**
 
@@ -223,10 +207,6 @@ item_total: 38
 **[Understanding the Role of Hallucination in Reinforcement Post-Training of Multimodal Reasoning Models](understanding_the_role_of_hallucination_in_reinforcement_post-training_of_multim.md)**
 
 :   本文提出 Hallucination-as-Cue 分析框架，通过三种模态特定腐蚀策略（空白图像、随机图像、文本移除）系统研究 RL 后训练对多模态推理模型的真实作用机制，发现即使在 100% 腐蚀视觉输入下 GRPO 训练仍能显著提升推理性能，挑战了"RL 训练能有效利用视觉信息"的主流假设。
-
-**[Unstitching the Chimera: Frame-Level Risk and Train-Free Mitigation for Video Hallucination](unstitching_the_chimera_frame-level_risk_and_train-free_mitigation_for_video_hal.md)**
-
-:   本文从「帧」而非「token」的视角刻画了一种被忽视的视频幻觉——**奇美拉幻觉（Chimera Hallucination）**：模型把视频里真实存在但不属于同一事件链的片段拼成一个虚假的连续叙事；为此提出单次前向、无需参考的风险指标 CH-Risk 来量化这种风险，并用免训练的两阶段干预 CH-M（片段路由 sSAFR + 残差 token 校准 RTC）在高风险样本上纠偏，在 9 个 benchmark、6 个 VideoLLM 上以 <5% 延迟、<2.5% 显存、≈1% FLOPs 的代价稳定降低幻觉、提升准确率。
 
 **[VES-RFT: Rewarding Visual Evidence Sensitivity to Mitigate Hallucinations in Large Vision-Language Models](ves-rft_rewarding_visual_evidence_sensitivity_to_mitigate_hallucinations_in_larg.md)**
 

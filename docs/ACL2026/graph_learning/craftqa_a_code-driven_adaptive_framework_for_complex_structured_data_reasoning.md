@@ -80,6 +80,7 @@ CRAFTQA 不是训练模型，而是一个推理框架。实验中使用不同 LL
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | Backbone | TableBench-FC DA | TableBench-NR DA | WikiSQL-E DA | Overall |
 |------|----------|------------------|------------------|--------------|---------|
 | PoT | GPT-4o | 51.0 | 43.7 | 27.4 | 32.6 |
@@ -94,6 +95,7 @@ CRAFTQA 不是训练模型，而是一个推理框架。实验中使用不同 LL
 在同一 GPT-4o backbone 下，CRAFTQA 的 Overall 76.6 明显高于 TrustUQA 的 67.2、Readi 的 51.5 和 StructGPT 的 44.3。更有意思的是，CRAFTQA-LLaMA-3.1-8B 的 Overall 64.4 已超过多个使用 GPT-4o 的传统 baseline。
 
 ### 消融实验
+
 | 配置 | FC DA/F1 | NR DA/F1 | WikiSQL-E DA/F1 | 说明 |
 |------|----------|----------|-----------------|------|
 | CRAFTQA | 68.8 / 71.6 | 51.3 / 51.9 | 87.3 / 87.6 | 完整框架 |

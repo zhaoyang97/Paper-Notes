@@ -97,6 +97,7 @@ $$S = \frac{1}{|\mathcal{A}|} \sum_{(i,j)\in\mathcal{A}} \mathbb{I}\left[(i,j)\i
 最强的 Gemini-2.5-Pro 也只有 55.91%，OpenAI o3 紧随 51.86%，二者都是 thinking 类模型。开源阵营 Qwen2.5-VL-72B 以 32.15% 领跑，但整体仍明显落后于商用模型。
 
 ### 子任务与超多图分析
+
 | 分析维度 | 关键数字 | 说明 |
 |----------|---------|------|
 | 超多图（>7 图） | Gemini-2.5-Pro 42.93%，多数开源模型 <20% | 所有模型随图数增加都显著掉点，反映长程图间关系建模能力不足 |
@@ -141,11 +142,11 @@ $$S = \frac{1}{|\mathcal{A}|} \sum_{(i,j)\in\mathcal{A}} \mathbb{I}\left[(i,j)\i
 
 ## 相关论文
 
-- [\[CVPR 2026\] Mimic Human Cognition, Master Multi-Image Reasoning: A Meta-Action Framework for Enhanced Visual Understanding](mimic_human_cognition_master_multi-image_reasoning_a_meta-action_framework_for_e.md)
 - [\[CVPR 2026\] MMSD3.0: A Multi-Image Benchmark for Real-World Multimodal Sarcasm Detection](mmsd30_a_multi-image_benchmark_for_real-world_multimodal_sarcasm_detection.md)
 - [\[CVPR 2026\] Multi-Modal Image Fusion via Intervention-Stable Feature Learning](multi-modal_image_fusion_via_intervention-stable_feature_learning.md)
-- [\[CVPR 2026\] RMIR: A Benchmark Dataset for Reasoning-Intensive Multimodal Image Retrieval](rmir_a_benchmark_dataset_for_reasoning-intensive_multimodal_image_retrieval.md)
 - [\[CVPR 2026\] Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](multimodal_rewardbench_2_evaluating_omni_reward_models_for_interleaved_text_and_.md)
+- [\[CVPR 2026\] Rethinking BCE Loss for Multi-Label Image Recognition with Fine-Tuning](rethinking_bce_loss_for_multi-label_image_recognition_with_fine-tuning.md)
+- [\[CVPR 2026\] Multi-SpatialMLLM: Multi-Frame Spatial Understanding with Multi-Modal Large Language Models](multi-spatialmllm_multi-frame_spatial_understanding_with_multi-modal_large_langu.md)
 
 </div>
 

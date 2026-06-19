@@ -36,6 +36,7 @@ tags:
 **核心 idea**：训练一个端到端扩散模型，把单张 RGB 图直接分解成**可变数量**的语义解耦 RGBA 图层（而非此前的前景 / 背景两层 + 递归推理），用解耦表示换来"内生的、自带一致性的"可编辑性。
 
 ## 方法详解
+
 ### 整体框架
 模型记作 Qwen-Image-Layered，基于 Qwen-Image 改造。输入一张 RGB 图 $I \in \mathbb{R}^{H\times W\times 3}$，输出 $N$ 张 RGBA 图层 $L \in \mathbb{R}^{N\times H\times W\times 4}$，每层 $L_i=[RGB_i;\alpha_i]$ 含颜色和 alpha 蒙版。原图可由这些层按 alpha 顺序混合无损重建：
 
@@ -143,8 +144,8 @@ RGBA 图像重建（AIM-500 数据集）上 RGBA-VAE 也全面领先各家 alpha
 - [\[CVPR 2026\] From Inpainting to Layer Decomposition: Repurposing Generative Inpainting Models for Image Layer Decomposition](from_inpainting_to_layer_decomposition_repurposing_generative_inpainting_models_.md)
 - [\[CVPR 2026\] Cycle-Consistent Tuning for Layered Image Decomposition](cycle-consistent_tuning_for_layered_image_decomposition.md)
 - [\[ICLR 2026\] Referring Layer Decomposition](../../ICLR2026/image_generation/referring_layer_decomposition.md)
+- [\[CVPR 2026\] Illustrator's Depth: Monocular Layer Index Prediction for Image Decomposition](illustrators_depth_monocular_layer_index_prediction_for_image_decomposition.md)
 - [\[CVPR 2025\] Generative Image Layer Decomposition with Visual Effects](../../CVPR2025/image_generation/generative_image_layer_decomposition_with_visual_effects.md)
-- [\[CVPR 2025\] Improving Editability in Image Generation with Layer-wise Memory](../../CVPR2025/image_generation/improving_editability_in_image_generation_with_layer-wise_memory.md)
 
 </div>
 

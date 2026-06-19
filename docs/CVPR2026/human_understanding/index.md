@@ -1,36 +1,26 @@
 ---
 title: >-
-  CVPR2026 人体理解论文汇总 · 175篇论文解读
+  CVPR2026 人体理解论文汇总 · 151篇论文解读
 description: >-
-  175篇CVPR2026的人体理解方向论文解读，涵盖人脸/视线、人体姿态、重识别、虚拟人、扩散模型、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  151篇CVPR2026的人体理解方向论文解读，涵盖人脸/视线、重识别、扩散模型、人体姿态、多模态、虚拟人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "人体理解"
   - "论文解读"
   - "论文笔记"
   - "人脸/视线"
-  - "人体姿态"
   - "重识别"
-  - "虚拟人"
   - "扩散模型"
+  - "人体姿态"
   - "多模态"
+  - "虚拟人"
 item_list:
-  - u: "a_two_stage_dual_modality_model_for_facial_expression_recognition/"
-    t: "A Two-Stage Dual-Modality Model for Facial Expression Recognition"
   - u: "actavatar_temporally-aware_precise_action_control_for_talking_avatars/"
     t: "ActAvatar: Temporally-Aware Precise Action Control for Talking Avatars"
-  - u: "active_inference_for_micro-gesture_recognition_efe-guided_temporal_sampling_and_/"
-    t: "Active Inference for Micro-Gesture Recognition: EFE-Guided Temporal Sampling and Adaptive Learning"
-  - u: "active_intelligence_in_video_avatars_via_closed-loop_world_modeling/"
-    t: "Active Intelligence in Video Avatars via Closed-loop World Modeling"
+  - u: "action_motifs_self-supervised_hierarchical_representation_of_human_body_movement/"
+    t: "Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements"
   - u: "all_in_one_unifying_deepfake_detection_tampering_localization_and_source_tracing/"
     t: "All in One: Unifying Deepfake Detection, Tampering Localization, and Source Tracing with a Robust Landmark-Identity Watermark"
-  - u: "anatomical_domain_shifts_test-time_heterogeneous_adaptation_for_3d_human_pose_pr/"
-    t: "Anatomical Domain Shifts: Test-time Heterogeneous Adaptation for 3D Human Pose Prediction"
-  - u: "armflow_autoregressive_meanflow_for_online_3d_human_reaction_generation/"
-    t: "ARMFlow: AutoRegressive MeanFlow for Online 3D Human Reaction Generation"
-  - u: "assistmimic_physics_grounded_humanoid_assistance/"
-    t: "AssistMimic: Physics-Grounded Humanoid Assistance via Multi-Agent RL"
   - u: "audioavatar_personalized_audio-driven_whole-body_talking_avatars/"
     t: "AudioAvatar: Personalized Audio-driven Whole-body Talking Avatars"
   - u: "avatar_forcing_real-time_interactive_head_avatar_generation_for_natural_conversa/"
@@ -39,30 +29,26 @@ item_list:
     t: "AVATAR: Reinforcement Learning to See, Hear, and Reason Over Video"
   - u: "barbiegait_an_identity-consistent_synthetic_human_dataset_with_versatile_cloth-c/"
     t: "BarbieGait: An Identity-Consistent Synthetic Human Dataset with Versatile Cloth-Changing for Gait Recognition"
-  - u: "beyond_binary_contrast_modeling_continuous_skeleton_action_spaces_with_transitio/"
-    t: "Beyond Binary Contrast: Modeling Continuous Skeleton Action Spaces with Transitional Anchors"
   - u: "beyond_scanpaths_graph-based_gaze_simulation_in_dynamic_scenes/"
     t: "Beyond Scanpaths: Graph-Based Gaze Simulation in Dynamic Scenes"
   - u: "beyond_single-view_sufficiency_cvbench_for_cross-view_human_understanding/"
     t: "Beyond Single-View Sufficiency: CVBench for Cross-View Human Understanding"
-  - u: "beyond_static_frames_temporal_aggregate-and-restore_vision_transformer_for_human/"
-    t: "Beyond Static Frames: Temporal Aggregate-and-Restore Vision Transformer for Human Pose Estimation"
-  - u: "bi-directional_autoregressive_diffusion_for_large_complex_motion_interpolation/"
-    t: "Bi-directional Autoregressive Diffusion for Large Complex Motion Interpolation"
   - u: "bit_matching-based_bi-directional_interaction_transformation_network_for_visible/"
     t: "BIT: Matching-based Bi-directional Interaction Transformation Network for Visible-Infrared Person Re-Identification"
   - u: "boostslt_boosting_sign_language_translation_via_a_plug-and-play_diffusion-based_/"
     t: "BoostSLT: Boosting Sign Language Translation via a Plug-and-Play Diffusion-Based Semantic Enhancer"
   - u: "breaking_spurious_correlations_uncertainty-driven_causal_transformers_for_au_det/"
     t: "Breaking Spurious Correlations: Uncertainty-Driven Causal Transformers for AU Detection"
-  - u: "bézier_degradation_modeling_for_lidar-based_human_motion_capture/"
-    t: "Bézier Degradation Modeling for LiDAR-based Human Motion Capture"
+  - u: "bridging_facial_understanding_and_animation_via_language_models/"
+    t: "Bridging Facial Understanding and Animation via Language Models"
+  - u: "causal_motion_diffusion_models_for_autoregressive_motion_generation/"
+    t: "Causal Motion Diffusion Models for Autoregressive Motion Generation"
   - u: "cigpose_causal_intervention_graph_neural_network_for_whole-body_pose_estimation/"
     t: "CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation"
-  - u: "clep_contrastive_language-pose_pretraining/"
-    t: "CLEP: Contrastive Language-Pose Pretraining"
   - u: "clex_complementary_label_exchange_learning_for_noisy_facial_expression_recogniti/"
     t: "CLEX: Complementary Label Exchange Learning for Noisy Facial Expression Recognition"
+  - u: "clothe_and_pose/"
+    t: "Clothe and Pose"
   - u: "cog_confidence-aware_optimal_geometric_correspondence_for_unsupervised_single-re/"
     t: "COG: Confidence-aware Optimal Geometric Correspondence for Unsupervised Single-reference Novel Object Pose Estimation"
   - u: "composite-attribute_person_re-identification_via_pose-guided_disentanglement/"
@@ -75,49 +61,43 @@ item_list:
     t: "D³FER: Dual Channel and Dual Branch Network for Robust Facial Expression Recognition under Dual Challenges"
   - u: "decoupled_generative_modeling_for_human-object_interaction_synthesis/"
     t: "Decoupled Generative Modeling for Human-Object Interaction Synthesis"
-item_total: 175
+  - u: "decovln_decoupling_observation_reasoning_and_correction_for_vision-and-language_/"
+    t: "DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation"
+  - u: "dex-portrait_disentangled_and_expressive_portrait_animation_via_explicit_and_lat/"
+    t: "DeX-Portrait: Disentangled and Expressive Portrait Animation via Explicit and Latent Motion Representations"
+  - u: "differentially_private_2d_human_pose_estimation/"
+    t: "Differentially Private 2D Human Pose Estimation"
+  - u: "dyadit_a_multi-modal_diffusion_transformer_for_socially_favorable_dyadic_gesture/"
+    t: "DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation"
+  - u: "dynamic_label_noise_suppression_with_optimal_teacher_pool_for_facial_expression_/"
+    t: "Dynamic Label Noise Suppression with Optimal Teacher Pool for Facial Expression Recognition"
+  - u: "dynamic_magic_unleashing_restricted_knowledge_for_lifelong_person_re-identificat/"
+    t: "Dynamic Magic: Unleashing Restricted Knowledge for Lifelong Person Re-Identification"
+  - u: "e-3dpsm_a_state_machine_for_event-based_egocentric_3d_human_pose_estimation/"
+    t: "E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation"
+item_total: 151
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**📷 CVPR2026** · **175** 篇论文解读
+**📷 CVPR2026** · **151** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (4)](../../ICML2026/human_understanding/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (41)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (3)](../../ICML2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (5)](../../ICML2026/human_understanding/index.md) · [🔬 ICLR2026 (9)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (41)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (3)](../../ICML2025/human_understanding/index.md)
 
-🔥 **高频主题：** 人脸/视线 ×18 · 人体姿态 ×17 · 重识别 ×13 · 虚拟人 ×11 · 扩散模型 ×11
-
-**[A Two-Stage Dual-Modality Model for Facial Expression Recognition](a_two_stage_dual_modality_model_for_facial_expression_recognition.md)**
-
-:   提出两阶段双模态面部表情识别框架：Stage I 通过填充感知增强和训练期 MoE 头在外部数据集上适配 DINOv2 编码器；Stage II 通过多尺度面部裁剪、Wav2Vec 2.0 音频特征提取和门控融合实现帧级音视觉表情分类，在 ABAW 2026 竞赛中取得 0.5368 Macro-F1。
+🔥 **高频主题：** 人脸/视线 ×17 · 重识别 ×13 · 扩散模型 ×12 · 人体姿态 ×12 · 多模态 ×10
 
 **[ActAvatar: Temporally-Aware Precise Action Control for Talking Avatars](actavatar_temporally-aware_precise_action_control_for_talking_avatars.md)**
 
 :   ActAvatar 用「结构化文本提示 + 相位感知跨注意力」让说话人视频在指定时间窗口精确做出指定动作，再配合「按层深递增的音频影响」和「两阶段训练」，在不依赖姿态骨架的前提下同时保住唇音同步、动作准确度和画质，5B 模型达到 14B 级效果。
 
-**[Active Inference for Micro-Gesture Recognition: EFE-Guided Temporal Sampling and Adaptive Learning](active_inference_for_micro-gesture_recognition_efe-guided_temporal_sampling_and_.md)**
+**[Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements](action_motifs_self-supervised_hierarchical_representation_of_human_body_movement.md)**
 
-:   提出 UAAI 框架，首次将主动推理(Active Inference)引入微手势识别，通过 EFE 引导的时间帧选择 + 空间注意力 + UMIX不确定性感知增强，在SMG数据集RGB模态上达到63.47%，大幅超越传统RGB方法。
-
-**[Active Intelligence in Video Avatars via Closed-loop World Modeling](active_intelligence_in_video_avatars_via_closed-loop_world_modeling.md)**
-
-:   针对当前视频数字人"只会被动跟随语音/姿态、缺乏自主目标驱动"的问题，本文提出 L-IVA 任务（把数字人控制建模成以 I2V 生成模型为环境模拟器的 POMDP）和 ORCA 框架——用「观察-思考-行动-反思」(OTAR) 闭环对抗生成随机性、用 System 2/System 1 双系统分层完成开放域规划与精确落地，在 100 个任务的基准上把平均任务成功率做到 71.0%，显著超过开环、反应式与无反思基线。
+:   本文提出 A4Mer，一个嵌套的隐空间 Transformer，从 3D 姿态序列中**完全自监督**地学出「Action Atoms（原子动作）→ Action Motifs（动作母题）」两级层级表示——让语义有意义、可复用的变长动作片段自下而上"涌现"出来，并用它在动作识别、长时运动预测、运动插值三项任务上显著超越现有定长表示。
 
 **[All in One: Unifying Deepfake Detection, Tampering Localization, and Source Tracing with a Robust Landmark-Identity Watermark](all_in_one_unifying_deepfake_detection_tampering_localization_and_source_tracing.md)**
 
 :   提出 LIDMark，首个将 deepfake 检测、篡改区域定位和源追踪统一到单一主动取证框架中的方法——通过嵌入 152 维 Landmark-Identity 水印（136D 面部关键点 + 16D 源 ID），利用内在/外在一致性实现三合一取证，PSNR/SSIM 和检测精度均超越现有方法。
-
-**[Anatomical Domain Shifts: Test-time Heterogeneous Adaptation for 3D Human Pose Prediction](anatomical_domain_shifts_test-time_heterogeneous_adaptation_for_3d_human_pose_pr.md)**
-
-:   针对 3D 人体姿态预测的持续测试时自适应（CTTA），本文指出"域漂移其实集中在个别身体部位、而非全身均匀发生"这一被忽视的事实，提出 TT-HA：把模型参数按左右臂、左右腿、躯干拆成五个解剖学子集，用 IN 统计量 + EMD 在线度量每个部位的域变化，再据此对小漂移部位做自监督微调、对突变部位只回滚该部位参数到源模型，从而在全身 MPJPE 降 4.7% 的同时让四肢误差多降 9.2%。
-
-**[ARMFlow: AutoRegressive MeanFlow for Online 3D Human Reaction Generation](armflow_autoregressive_meanflow_for_online_3d_human_reaction_generation.md)**
-
-:   把"单步生成"的 MeanFlow 范式首次引入人体动作领域，用一个"因果上下文编码器 + 轻量 MLP 速度预测器"的自回归结构，配合自举历史训练（BSCE）抑制误差累积，让在线 3D 人体反应生成在单次推理内完成，FID 比已有在线方法降约 30%，速度还最快。
-
-**[AssistMimic: Physics-Grounded Humanoid Assistance via Multi-Agent RL](assistmimic_physics_grounded_humanoid_assistance.md)**
-
-:   首个在物理仿真中实现接触式人-人辅助行为模仿学习的多智能体RL框架，通过运动先验初始化、动态参考重定向和接触促进奖励使MARL在高接触设置中可行。
 
 **[AudioAvatar: Personalized Audio-driven Whole-body Talking Avatars](audioavatar_personalized_audio-driven_whole-body_talking_avatars.md)**
 
@@ -135,10 +115,6 @@ item_total: 175
 
 :   针对真实世界几乎不可能采集"同一人穿上百种衣服"的步态数据这一痛点，本文把 521 个真实受试者一一映射进虚拟引擎、为每人随机生成 100 套换装，构建出身份一致的合成步态数据集 BarbieGait，并配套提出衣物不变特征基线 GaitCLIF，在 BarbieGait 及 CCPG / SUSTech1K / Gait3D / GREW 上均拿到 SOTA。
 
-**[Beyond Binary Contrast: Modeling Continuous Skeleton Action Spaces with Transitional Anchors](beyond_binary_contrast_modeling_continuous_skeleton_action_spaces_with_transitio.md)**
-
-:   针对自监督骨架动作识别中"二元对比"把动作切成孤立簇、边界僵硬的问题，TranCLR 在动作之间合成"过渡锚点"作为流形正则项，并用三级几何流形校准把表征空间从离散点云重塑成连续平滑流形，在 NTU/PKU-MMD 上线性评估、迁移、检索全面 SOTA，且把置信度标定误差 ECE 从 ~5.6% 砍到 0.65%。
-
 **[Beyond Scanpaths: Graph-Based Gaze Simulation in Dynamic Scenes](beyond_scanpaths_graph-based_gaze_simulation_in_dynamic_scenes.md)**
 
 :   把驾驶员注视建模成一个自回归动力系统：将每一帧交通场景编码成「以注视为中心」的异构时空图，用关系亲和力 Transformer（ART）建模注视与交通物体的交互，再用对象级混合密度网络（ODN）预测下一步注视分布并自回归地展开成连续注视轨迹，从而用同一个模型同时生成 SOTA 级别的注视时间序列、扫视路径与显著图。
@@ -146,14 +122,6 @@ item_total: 175
 **[Beyond Single-View Sufficiency: CVBench for Cross-View Human Understanding](beyond_single-view_sufficiency_cvbench_for_cross-view_human_understanding.md)**
 
 :   针对现有 MLLM 基准默认"单视角足够"、只奖励单图识别的漏洞，本文构造 CVBench——3000 道每题都被强制验证"单视角不可解、跨视角才可解"的人体理解题（12 个时空任务、4 路同步相机），评测发现最强模型也落后人类近 50 分，并诊断出贯穿所有模型的系统性失败机制"单视角偏置"。
-
-**[Beyond Static Frames: Temporal Aggregate-and-Restore Vision Transformer for Human Pose Estimation](beyond_static_frames_temporal_aggregate-and-restore_vision_transformer_for_human.md)**
-
-:   在不改动 ViTPose 朴素 ViT 主干和轻量解码器的前提下，TAR-ViTPose 用「关节为中心的时序聚合（JTA）+ 全局恢复注意力（GRA）」即插即用地把相邻帧的关节特征对齐聚合并注回当前帧，使视频 2D 姿态估计在 PoseTrack2017 上比单帧 ViTPose 提升 +2.3 mAP，同时跑得更快（ViT-S 达 413 fps）。
-
-**[Bi-directional Autoregressive Diffusion for Large Complex Motion Interpolation](bi-directional_autoregressive_diffusion_for_large_complex_motion_interpolation.md)**
-
-:   ARVFI 把视频插帧从"一次性生成所有中间帧"改成"从两端输入帧向中间逐帧自回归生成"，并用 DINOv3 特征替代光流作为运动表征，在大幅复杂运动下既显著提升插帧精度（FID 全面领先）又把采样步数压到 15 步、比 backbone Wan 快约 3 倍。
 
 **[BIT: Matching-based Bi-directional Interaction Transformation Network for Visible-Infrared Person Re-Identification](bit_matching-based_bi-directional_interaction_transformation_network_for_visible.md)**
 
@@ -167,21 +135,25 @@ item_total: 175
 
 :   针对面部动作单元（AU）检测中数据少、类别不均衡、标签噪声和混杂偏差的问题，本文提出 UDCT 框架：把 Transformer 注意力权重建模成高斯分布以显式表达不确定性，用不确定性给样本损失重加权来抗噪声/不均衡，再用 per-AU 的因果后门调整切断混杂因子造成的虚假 AU 关联，在 BP4D / DISFA 上取得有竞争力且更鲁棒的结果（DISFA 平均 F1 67.36%）。
 
-**[Bézier Degradation Modeling for LiDAR-based Human Motion Capture](bézier_degradation_modeling_for_lidar-based_human_motion_capture.md)**
+**[Bridging Facial Understanding and Animation via Language Models](bridging_facial_understanding_and_animation_via_language_models.md)**
 
-:   针对 LiDAR 人体动捕在稀疏点云、严重遮挡下抖动甚至失败的问题，本文用**可逐级降阶的贝塞尔曲线**显式建模关节轨迹，配合「时间尺度 Transformer（TMT）+ 多级运动聚合器（MMA）」做由粗到细的渐进重建，在 4 个主流基准上同时拿下精度（MPJPE）和时序连续性（Accel Err）的 SOTA。
+:   这篇论文用 T2V 大模型合成了一个约 80 小时、情绪均衡的 3D 人脸语料 Open3DFaceVid，并把每帧人脸几何用 VQ-VAE 离散成"几何 token"喂给 LLM，从而第一次把 3D 人脸参数建模当成"语言问题"——同一套 LLM 既能把人脸运动 token 翻译成自然语言描述（Motion2Language），也能从文本 prompt 生成可控的 3D 人脸运动轨迹（Language2Motion）。
+
+**[Causal Motion Diffusion Models for Autoregressive Motion Generation](causal_motion_diffusion_models_for_autoregressive_motion_generation.md)**
+
+:   提出 CMDM 框架，在运动-语言对齐的因果隐空间中统一扩散去噪与自回归生成，通过帧级独立噪声和因果不确定性采样调度，实现高质量、低延迟的文本到动作生成和长序列流式合成。
 
 **[CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation](cigpose_causal_intervention_graph_neural_network_for_whole-body_pose_estimation.md)**
 
 :   提出因果干预图姿态估计框架 CIGPose，通过结构因果模型识别视觉上下文混杂因素，利用预测不确定性定位受混杂影响的关键点并用学习得到的上下文无关规范嵌入替换，再经层次图神经网络建模骨骼解剖约束，在 COCO-WholeBody 上达到 67.0% AP 的新 SOTA。
 
-**[CLEP: Contrastive Language-Pose Pretraining](clep_contrastive_language-pose_pretraining.md)**
-
-:   CLEP 把 CLIP 式对比学习搬到「3D 人体姿态 ↔ 自然语言」上：用分层姿态编码器 HierFormer（关节/肢体/全身三级 + 跨尺度注意力融合 CSAF）配上自建的 200 万对 CLEP-2M 数据集做对比预训练，在 PoseScript-H 零样本检索上把 mRecall 从 5.9 拉到 34.8（近 6 倍），并在姿态生成、姿态编辑等下游任务上全面超越基线。
-
 **[CLEX: Complementary Label Exchange Learning for Noisy Facial Expression Recognition](clex_complementary_label_exchange_learning_for_noisy_facial_expression_recogniti.md)**
 
 :   CLEX 通过在原图与增广图两个分支之间**随机交换一部分非目标类（non-target）的 logit**，再做尺度不变归一化，并用「互补抑制损失」专门压制随机保留的那些非目标类响应，从而在不需要干净数据、不需要噪声先验的前提下抑制虚假激活，在 RAF-DB / AffectNet / FERPlus 三个野外 FER 数据集的各种噪声率下都刷到 SOTA。
+
+**[Clothe and Pose](clothe_and_pose.md)**
+
+:   这篇论文把"换衣服"和"换姿势"两件原本被拆成两段流水线做的事合并成一个任务（Clothe and Pose），用一个基于 SDXL 的多流（multi-stream）扩散模型同时吃用户图、服装前后视图和目标姿态骨架，单步生成"指定的人穿指定衣服摆指定姿势"的图像，并配套提出了带真值三元组的评测协议，在四种姿态变换上全面超过"试衣模型+重姿态模型"串行 baseline 以及 20B 的 Qwen-Image-Edit。
 
 **[COG: Confidence-aware Optimal Geometric Correspondence for Unsupervised Single-reference Novel Object Pose Estimation](cog_confidence-aware_optimal_geometric_correspondence_for_unsupervised_single-re.md)**
 
@@ -207,6 +179,10 @@ item_total: 175
 
 :   DecHOI 把"人-物交互合成"拆成两个轻量扩散专家——轨迹生成器先无需人工路标地规划人和物体的全局路径，动作生成器再在路径条件下补全细粒度全身动作，并用一个只盯手脚末端关节的对抗判别器拉近接触真实度，在 FullBodyManipulation 和 3D-FUTURE 上多数指标超过 CHOIS/HOIFHLI，且支持遇到移动障碍时实时重规划。
 
+**[DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation](decovln_decoupling_observation_reasoning_and_correction_for_vision-and-language_.md)**
+
+:   提出 DecoVLN 框架，将 VLN 任务中的观察、推理和纠错三个过程解耦，通过自适应记忆优化机制和基于状态-动作对的纠错微调策略，在仅使用自中心 RGB 输入的条件下实现了 R2R-CE 和 RxR-CE 上的 SOTA 性能。
+
 **[DeX-Portrait: Disentangled and Expressive Portrait Animation via Explicit and Latent Motion Representations](dex-portrait_disentangled_and_expressive_portrait_animation_via_explicit_and_lat.md)**
 
 :   用「显式全局变换表示头部姿态 + 隐式 latent code 表示面部表情」的混合运动表示，配合双分支姿态注入与渐进式混合 CFG，让单图肖像动画首次做到姿态与表情**高保真解耦控制**，支持只改姿态或只改表情的精细编辑。
@@ -230,10 +206,6 @@ item_total: 175
 **[E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation](e-3dpsm_a_state_machine_for_event-based_egocentric_3d_human_pose_estimation.md)**
 
 :   提出 E-3DPSM，一种基于事件相机的自我中心 3D 人体姿态状态机，将姿态估计建模为连续时间状态演化过程，通过双向 SSM 时序建模和可学习的卡尔曼式融合模块融合直接预测与增量预测，实现 80Hz 实时推理，MPJPE 降低 19%、时序稳定性提升 2.7 倍。
-
-**[Egocentric Visibility-Aware Human Pose Estimation](egocentric_visibility-aware_human_pose_estimation.md)**
-
-:   针对头戴设备第一视角人体姿态估计中"关键点经常看不见"的痛点，本文构建了首个带可见性标注的大规模真实数据集 Eva-3M（300 万帧、43.5 万帧可见性标签），并提出 EvaPose——显式预测每个关键点可见性、并用可见性给损失加权，把可见关键点的 MPJPE 从 FRAME 的 49.8mm 降到 34.2mm。
 
 **[EgoPoseFormer v2: Accurate Egocentric Human Motion Estimation for AR/VR](egoposeformer_v2_accurate_egocentric_human_motion_estimation_for_arvr.md)**
 
@@ -283,10 +255,6 @@ item_total: 175
 
 :   针对文本到人体运动生成"只能整段或动作级控制、管不了单个身体部位"的痛点，本文先用 LLM 智能体（FrankenAgent）把已有 mocap 数据集自动标注成"序列 / 原子动作 / 身体部位"三级、且时间对齐的细粒度数据集 FrankenStein，再训练一个基于扩散模型的 FrankenMotion，让每个身体部位由各自的逐帧文本提示驱动，从而能组合出训练中没见过的复杂动作（如"坐着同时抬左臂"）。
 
-**[A2P: From 2D Alignment to 3D Plausibility for Occlusion-Robust Two-Hand Reconstruction](from_2d_alignment_to_3d_plausibility_unifying_hete.md)**
-
-:   解耦双手重建为 2D 结构对齐 + 3D 空间交互对齐：Stage 1 用 Fusion Alignment Encoder 隐式蒸馏 Sapiens 的关键点/分割/深度三种 2D 先验（推理时免基础模型，56fps），Stage 2 用穿透感知扩散模型 + 碰撞梯度引导将穿透姿态映射到物理合理配置——InterHand2.6M 上 MPJPE 降至 5.36mm（超 SOTA 4DHands 2.13mm），穿透体积降 7 倍。
-
 **[From Intuition to Investigation: A Tool-Augmented Reasoning MLLM Framework for Generalizable Face Anti-Spoofing](from_intuition_to_investigation_a_tool-augmented_reasoning_mllm_framework_for_ge.md)**
 
 :   提出 TAR-FAS 框架，首次将人脸反欺骗（FAS）任务重构为 Chain-of-Thought with Visual Tools（CoT-VT）范式，让 MLLM 在推理过程中自适应调用外部视觉工具（LBP/FFT/HOG等），从"直觉判断"升级为"精细调查"，在 1-to-11 跨域协议上取得 SOTA。
@@ -303,10 +271,6 @@ item_total: 175
 
 :   本文提出"可提示注视目标估计（PGE）"这一新任务——用一句自然语言或一个坐标点指定画面里的某个人，模型端到端直接吐出他注视位置的热图，并配套了 120K 概念标注数据集 Gaze-Co 和首个 PGE 模型 GazeAnywhere，在多个基准上达到 SOTA。
 
-**[GazeOnce360: Fisheye-Based 360° Multi-Person Gaze Estimation with Global-Local Feature Fusion](gazeonce360_fisheye-based_360_multi-person_gaze_estimation_with_global-local_fea.md)**
-
-:   本文提出 GazeOnce360，一个端到端的双分辨率 CNN 模型，用于从单个朝上放置的桌面鱼眼相机进行 360° 多人视线方向估计，同时构建了首个面向该场景的大规模合成数据集 MPSGaze360，在精度和速度两方面均大幅超越现有多阶段方法 GAM360。
-
 **[GazeOnce360: Fisheye-Based 360° Multi-Person Gaze Estimation with Global-Local Feature Fusion](gazeonce360_fisheye-based_360deg_multi-person_gaze_estimation_with_global-local_.md)**
 
 :   用一台朝上放在桌面的鱼眼相机一次性拍下 360° 全场景，GazeOnce360 用旋转卷积 + 眼部关键点监督 + 全局/局部双分辨率交叉注意力，端到端地同时检测并回归多人的 3D 视线方向，在自建合成数据集 MPSGaze360 上把视线误差从多阶段管线的 18.96° 降到 10.39°、速度提升约 4 倍。
@@ -314,10 +278,6 @@ item_total: 175
 **[GazeShift: Unsupervised Gaze Estimation and Dataset for VR](gazeshift_unsupervised_gaze_estimation_and_dataset_for_vr.md)**
 
 :   针对 VR 头显「离轴近眼红外相机 + 没有可靠标注」的困境，本文一边发布首个大规模离轴注视数据集 VRGaze（68 人、210 万张），一边提出 GazeShift——用「同一只眼睛不同时刻两帧之间的注视重定向」作为无监督代理任务，靠标准交叉注意力把注视和外观解耦，再用模型自身注意力图当软掩膜聚焦眼区，仅 34.2 万参数 / 55 MFLOPs、头显 GPU 上 5ms 推理，VRGaze 上达到 1.84° 误差，接近有监督水平。
-
-**[GenHOI: Towards Object-Consistent Hand-Object Interaction with Temporally Balanced and Spatially Selective Object Injection](genhoi_towards_object-consistent_hand-object_interaction_with_temporally_balance.md)**
-
-:   GenHOI 给预训练视频生成大模型（Wan-14B-I2V）外挂一个仅 157M 参数（约 0.95%）的轻量模块，用 **Head-Sliding RoPE**（时间上把参考物体 token 的影响均摊到每一帧）+ **空间注意力门控**（空间上把物体条件注意力聚焦到手物交互区），在不破坏底模泛化能力的前提下，让野外场景下的手-物交互视频既动作自然又跨帧保持物体外观一致，在自重演/跨重演各指标上显著超过 VACE、HOI-Swap 等 SOTA。
 
 **[Geometric Neural Distance Fields for Learning Human Motion Priors](geometric_neural_distance_fields_for_learning_human_motion_priors.md)**
 
@@ -327,13 +287,13 @@ item_total: 175
 
 :   当主流人脸验证测试集已被刷到饱和（LFW 99.8%）时，本文不靠降画质/加遮挡造难度，而是从受控采集的高质量人脸库里挖出三类"自然但难"的图像对——大胡须差异（Hadrian）、强曝光差异（Eclipse）、同卵双胞胎（ND-Twins），并配一套"Goldilocks 三规则"保证测试集难得恰到好处，结果难度反超那些靠加合成口罩、降分辨率的人工 benchmark。
 
+**[Ground Reaction Inertial Poser: Physics-based Human Motion Capture from Sparse IMUs and Insole Pressure Sensors](ground_reaction_inertial_poser_physics-based_human_motion_capture_from_sparse_im.md)**
+
+:   GRIP 用 4 个可穿戴设备（双腕智能手表 + 双脚智能鞋垫）的 IMU 信号加足底压力，先用 KinematicsNet 估出运动学状态，再用 DynamicsNet 在物理仿真器里以力矩驱动一个"数字孪生"人形按 PPO 策略复现该运动，从而在极少传感器下输出全局轨迹准确、物理上自洽（无脚滑、无穿地、无漂浮）的全身动作。
+
 **[HamiPose: Hamiltonian Optimization for Unsupervised Domain Adaptive Pose Estimation](hamipose_hamiltonian_optimization_for_unsupervised_domain_adaptive_pose_estimati.md)**
 
 :   针对合成→真实域姿态估计中"源监督梯度 vs 目标一致性梯度"互相打架导致的训练震荡，HamiPose 先按关键点把目标梯度正交分解、用置信度门控只放行不冲突的成分，再用带辛积分器的哈密顿优化器给更新加上"受控动量"压住高频抖动，在多个 UDA 姿态基准上拿到 SOTA。
-
-**[HandDreamer: Zero-Shot Text to 3D Hand Model Generation](handdreamer_zero_shot_text_to_3d_hand_model_generation.md)**
-
-:   提出 HandDreamer，首个从文本提示零样本生成 3D 手部模型的方法，通过 MANO 初始化、骨架引导扩散和校正手形损失解决 SDS 中的视图不一致和几何畸变问题。
 
 **[HandX: Scaling Bimanual Motion and Interaction Generation](handx_scaling_bimanual_motion_and_interaction_generation.md)**
 
@@ -351,14 +311,6 @@ item_total: 175
 
 :   面向"统一理解 + 生成"人-场景交互（HSI）的大模型 HSI-GPT2，用**双粒度运动 tokenizer**把动作拆成语义码本与细节码本两路、用**LLM 当语义规划器 + 扩散解码器当去 token 器**提升物理保真、再配一套**运动思维链（MoCoT）数据引擎 + GRPO 强化学习**注入分步推理，在 HumanML3D / HUMANISE 上的生成、描述、补全任务全面超越 HSI-GPT。
 
-**[HUM4D: A Dataset and Evaluation for Complex 4D Markerless Human Motion Capture](hum4d_markerless_motion_capture.md)**
-
-:   提出 HUM4D 数据集，包含复杂单人和多人运动场景（快速运动、遮挡、身份交换），提供同步多视角 RGB/RGB-D 序列、精确 Vicon 标记运动捕捉真值和 SMPL/SMPL-X 参数，基准测试揭示 SOTA 无标记方法在真实条件下的显著性能退化。
-
-**[Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking](humanoid-gpt_scaling_data_and_structure_for_zero-shot_motion_tracking.md)**
-
-:   把人形机器人全身运动跟踪重新表述为 GPT 式的因果序列建模问题：先在约 20 亿帧重定向运动语料上聚类训练数百个 PPO 专家，再用 DAgger 把它们蒸馏进一个带因果掩码的 Transformer，从而在真实 Unitree-G1 上同时实现高动态敏捷性和对未见动作的零样本跟踪，并给出了运动跟踪任务的 scaling law。
-
 **[HUMAPS-4D: A Multimodal Dataset for HUman Motion Analysis with Physiological and Semantic informations](humaps-4d_a_multimodal_dataset_for_human_motion_analysis_with_physiological_and_.md)**
 
 :   HUMAPS-4D 是一个把"光学动捕 + 多视角 RGB + IMU + 足底压力鞋垫 + 表面肌电(sEMG) + 人体测量 + 三层语义标注"全部时间同步在同一标准协议下的大规模人体运动数据集（32 人 × 30 动作 × 10 次 × 14 小时 = 576 万帧），目标是让"不依赖摄像头、靠足底压力等生理信号推断全身 3D 姿态/动作"成为可严谨 benchmark 的研究方向。
@@ -367,25 +319,25 @@ item_total: 175
 
 :   HyperGait 用**超图卷积**把人体解析序列（gait parsing sequence）里身体部件之间、以及时间帧段之间的"高阶非线性关联"挖出来，仅以单一解析模态为输入，就在真实场景步态数据集 Gait3D 上拿到 80.5% Rank-1，超过此前同样只用解析的 SOTA（MultiGaitP）4.1 个百分点。
 
-**[IDperturb: Enhancing Variation in Synthetic Face Generation via Angular Perturbations](idperturb_enhancing_variation_in_synthetic_face_generation_via_angular_perturbat.md)**
-
-:   提出 IDperturb，一种在单位超球面上对身份嵌入进行角度扰动的几何采样策略，无需修改生成模型即可显著增强合成人脸数据集的类内多样性，提升下游人脸识别性能。
-
-**[ImmerIris: A Large-Scale Dataset and Benchmark for Off-Axis and Unconstrained Iris Recognition in Immersive Applications](immeriris_a_large-scale_dataset_and_benchmark_for_off-axis_and_unconstrained_iri.md)**
-
-:   为 XR/VR 头显场景下"离轴、非约束"虹膜识别造了一个 546 人、49.98 万张眼部图像的大规模数据集 ImmerIris，配套 8 套难度递增的评测协议，并指出传统两阶段方法卡在"归一化"上，提出一个直接吃裁剪眼部图、套人脸识别骨干的 NormFree 范式，简单却在多数协议上反超归一化 SOTA。
-
 **[IMU-HOI: A Symbiotic Framework for Coherent Human-Object Interaction and Motion Capture via Contact-Conscious Inertial Fusion](imu-hoi_a_symbiotic_framework_for_coherent_human-object_interaction_and_motion_c.md)**
 
 :   IMU-HOI 把"手与物体的接触"当成一等公民的概率信号，从贴在身体（6 个）和物体（1 个）上的稀疏 IMU 出发，用三阶段融合流水线同时恢复全身人体姿态和物体的 6-DoF 轨迹，在三个 HOI 基准上把物体轨迹误差相比强基线降低了 44%~64%。
+
+**[Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](interact2ar_full-body_human-human_interaction_generation_via_autoregressive_diff.md)**
+
+:   Interact2Ar 是首个文本条件下、端到端的**自回归扩散**模型，用「协作去噪器 + 身体/手部/轨迹专用头」生成带细致手部动作的全身**双人交互**，再用一套「混合记忆」自回归管线把整段动作拆成子片段逐步生成，从而在 Inter-X 基准上刷新 SOTA，并解锁时序拼接、扰动适应、多人交互等下游能力。
 
 **[InterAgent: Physics-based Multi-agent Command Execution via Diffusion on Interaction Graphs](interagent_physics-based_multi-agent_command_execution_via_diffusion_on_interaction_graphs.md)**
 
 :   InterAgent 是第一个文本驱动、基于物理仿真的**双人形智能体**控制框架，用一个多流的自回归扩散 Transformer（Inter-DiT）把本体感知、外部感知、动作三路解耦建模，并用"交互图 + 稀疏边注意力"刻画关节到关节的细粒度交互关系，从而仅凭一句文本就能生成物理上合理、语义上忠实的双人互动行为。
 
-**[JUMP-Hand: Learning Joint-wise Uncertainty to Gate Mixture of View Experts for Multi-View 3D Hand Reconstruction](jump-hand_learning_joint-wise_uncertainty_to_gate_mixture_of_view_experts_for_mu.md)**
+**[InterPhys: Physics-aware Human Motion Synthesis in a Dynamic Scene](interphys_physics-aware_human_motion_synthesis_in_a_dynamic_scene.md)**
 
-:   JUMP-Hand 把多视图 3D 手部重建重新表述成"每个视图是一个专家"的 MoE 问题，用**逐关节、逐视图的概率不确定性**当显式门控信号——既驱动粗阶段的不确定性加权三角测量，又驱动精修阶段的不确定性门控跨注意力，从而在严重遮挡下自适应地放大可靠视图、压制噪声视图，在三个多视图基准上取得 SOTA。
+:   InterPhys 提出一种可微的连续接触力模型，把人-物、人-场景与体内动力学统一进欧拉-拉格朗日方程，并用两阶段扩散管线先预测物理参数、再生成人体运动，在动态场景（含运动物体）下显著提升了人体运动的物理合理性。
+
+**[InterPrior: Scaling Generative Control for Physics-Based Human-Object Interactions](interprior_scaling_generative_control_for_physics-based_human-object_interaction.md)**
+
+:   InterPrior 用「大规模模仿蒸馏 + RL 微调」的三阶段配方，把一个全参考模仿专家蒸馏成目标条件的变分策略，再用 RL 把它打磨成能从稀疏目标（快照/轨迹/接触）生成全身人-物交互、并在失败后自我纠正的可泛化生成式控制器。
 
 **[LaMoGen: Language to Motion Generation Through LLM-Guided Symbolic Inference](lamogen_language_to_motion_generation_through_llm-guided_symbolic_inference.md)**
 
@@ -402,10 +354,6 @@ item_total: 175
 **[Learning Effective Sign Features without Text for Gloss-free Sign Language Translation](learning_effective_sign_features_without_text_for_gloss-free_sign_language_trans.md)**
 
 :   本文提出 SignDINO——一种把 DINO 自蒸馏改造成"手语感知"的预训练策略：让教师只看全局帧、学生只看保留手部/面部的局部掩码视图，逼着模型仅凭全局帧就能推断出手语的判别性局部线索，从而在**完全不用 gloss、也不用文本标注**的情况下预训练手语 tokenizer，在四个公开 GFSLT 数据集上达到甚至超过依赖文本预训练的 SOTA。
-
-**[Learning Long-term Motion Embeddings for Efficient Kinematics Generation](learning_long-term_motion_embeddings_for_efficient_kinematics_generation.md)**
-
-:   与其用视频生成模型逐像素同时建模"外观+运动"，本文直接学一个**只编码运动、时间压缩 64× 的长时运动隐空间**：先用轨迹 VAE 把稀疏跟踪轨迹压成稠密可查询的运动网格，再在这个空间里训一个条件流匹配模型按文本/戳点（poke）生成长时目标导向运动，比 SOTA 视频模型快一万倍以上、质量还更好。
 
 **[Learning to Diversify and Focus: A Reinforcement Framework for Open-Vocabulary HOI Detection](learning_to_diversify_and_focus_a_reinforcement_framework_for_open-vocabulary_ho.md)**
 
@@ -430,10 +378,6 @@ item_total: 175
 **[MatchED: Crisp Edge Detection Using End-to-End, Matching-based Supervision](matched_crisp_edge_detection_using_end-to-end_matching-based_supervision.md)**
 
 :   MatchED 提出一种轻量（约21K参数）plug-and-play 模块，通过在训练时对预测边缘和 GT 边缘进行基于空间距离+置信度的 one-to-one 二部匹配来生成 crisp（单像素宽）边缘图，可附加到任何边缘检测器端到端训练，首次在不依赖 NMS+thinning 后处理的情况下匹配或超越标准后处理方法。
-
-**[MetricHMSR: Metric Human Mesh and Scene Recovery from Monocular Images](metrichmsr_metric_human_mesh_and_scene_recovery_from_monocular_images.md)**
-
-:   MetricHMSR 用一张单目图像同时恢复带真实物理尺度（米制）的人体 SMPL 网格和 3D 场景：核心是用「边界相机射线图」把相机内参和裁剪信息显式编码进网络、用 HumanMoE 把局部姿态与全局位置解耦，再以恢复出的度量人体为几何锚点去校正单目深度，从而在人体网格恢复和度量人-场景重建两个任务上都达到 SOTA。
 
 **[MFEN: Multi-Frequency Expert Network for Visible-Infrared Person Re-ID](mfen_multi-frequency_expert_network_for_visible-infrared_person_re-id.md)**
 
@@ -483,6 +427,10 @@ item_total: 175
 
 :   MotionMaster 把人体动作当成一种新模态塞进预训练多模态大模型（Qwen2.5-VL）的共享词表里，配上一个 10,000 小时的标注动作数据集（MotionGB）和一个兼顾局部关节精度与全局轨迹一致性的 FSQ 离散化器，用一个端到端自回归模型同时做文本驱动的动作生成和动作编辑，在多动作语义一致性上比之前方法高 41.6%、身体部位组合上高 20.8%。
 
+**[MS^2Gait: A Multi-Scale Spatio-Temporal Fusion Network for LiDAR-based Gait Recognition](ms2gait_a_multi-scale_spatio-temporal_fusion_network_for_lidar-based_gait_recogn.md)**
+
+:   MS²Gait 直接在原始 LiDAR 点云上做步态识别，用「四种互补交互策略」让空间上相隔很远但语义相关的身体部位（如对侧手臂—腿）相互通信，再用「相似度驱动的时序增强 Transformer」按运动一致性自适应加权帧，在 SUSTech1K 和 FreeGait 上分别拿到 93.5% / 83.1% 的 Rank-1，刷新原始点云步态识别 SOTA。
+
 **[Multi-level Causal LLM-based Text-to-Motion Generation with Human Alignment (MoTiGA)](multi-level_causal_llm-based_text-to-motion_generation_with_human_alignment.md)**
 
 :   MoTiGA 把 LLM 文本生成动作的三大短板——细粒度量化误差、"因果 LLM vs 非因果 VQ-VAE"的表征错配、缺人类偏好对齐——分别用因果残差量化（Causal RVQ-VAE）、时间错位因果预测、以及多层混合加权偏好优化（MHPO）逐一解决，在 HumanML3D 上把 FID 相对其它 LLM 方法降 82.3%、KIT-ML 降 64.7%。
@@ -491,10 +439,6 @@ item_total: 175
 
 :   MV-Fashion 用一套由 60 台树莓派 RGB 相机 + 8 台 RGB-D 相机组成的"经济型"多视角同步采集装置，录下 80 位被试穿着 474 套（754 件）衣服的 3,273 段同步视频（共 72.5M 帧），并为每件衣服配上**平铺商品图（catalogue）↔ 上身穿着图**的配对、像素级分割、SMPL-X、点云、尺码表、面料弹性、穿搭风格等多模态标注，从而第一次把虚拟试穿、尺码估计、新视角合成所需的数据放进同一个数据集里，并给出三类任务的基线。
 
-**[Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos](natural_human_motion_recovery_by_aligning_high-order_temporal_dynamics_from_mono.md)**
-
-:   针对单目人体运动恢复"关节位置准但动起来要么抖要么过平滑"的痛点，本文提出 HTD-Refine——用一个轻量时序网络 PVA-Net 直接从视频显式预测每个关节的 3D 速度和加速度，再把这些高阶动力学当成软约束去优化全局轨迹，能即插即用地给 TRAM / GVHMR / Human3R 等现有方法降抖动、抑过平滑，并提升全局精度。
-
 **[Next-Scale Autoregressive Models for Text-to-Motion Generation](next-scale_autoregressive_models_for_text-to-motion_generation.md)**
 
 :   MoScale 提出了一种 next-scale 自回归动作生成框架，替代传统 next-token 预测，通过从粗到细的层次化因果生成来捕获全局语义结构，并引入跨尺度层次精化和尺度内时间精化，在 HumanML3D 和 KIT-ML 上达到 SOTA（Top-1 0.540，FID 0.046）。
@@ -502,10 +446,6 @@ item_total: 175
 **[Occluded Human Body Capture with Frequency Domain Denoising Prior](occluded_human_body_capture_with_frequency_domain_denoising_prior.md)**
 
 :   把单目遮挡视频下的 3D 人体运动捕捉重新建模成「小波系数选择」问题：先用高斯分布刻画遮挡关键点的不确定性，再用频域扩散先验在离散小波域里挑出可信系数，从而在长时遮挡下恢复出连贯且保留周期性的人体运动。
-
-**[OMG-Avatar: One-shot Multi-LOD Gaussian Head Avatar](omg-avatar_one-shot_multi-lod_gaussian_head_avatar.md)**
-
-:   OMG-Avatar 用单张图在 0.2 秒内重建一个可驱动的 3D 高斯头部化身，通过「由粗到细的分层特征提取 + 深度缓冲引导的遮挡感知融合 + 头肩分治建模」，让同一个统一模型在运行时动态切换细节级别（LOD），在更少高斯点数下同时拿到 SOTA 的重建质量和 85 FPS 的实时速度。
 
 **[OMG-Bench: A New Challenging Benchmark for Skeleton-based Online Micro Hand Gesture Recognition](omg-bench_a_new_challenging_benchmark_for_skeleton-based_online_micro_hand_gestu.md)**
 
@@ -559,6 +499,10 @@ item_total: 175
 
 :   本文针对"每个客户端=单台摄像头、只能看到很少姿态"的 federated-by-camera 行人重识别场景，提出姿态提取模块 PEM 把特征解耦成"姿态相关/姿态无关"两部分，再跨身份交换姿态分量合成"换姿态"的硬正样本，用姿态关系知识蒸馏、语义一致性维护、兼容性正则三招保证解耦质量与全局兼容性，从而补足对比学习缺失的姿态多样性，在 Market1501 / MSMT17 上刷到联邦 ReID 的 SOTA。
 
+**[Pressure2Motion: Hierarchical Human Motion Reconstruction from Ground Pressure with Text Guidance](pressure2motion_hierarchical_human_motion_reconstruction_from_ground_pressure_wi.md)**
+
+:   用一张地面压力垫的压力序列 + 一句文本描述，无需相机和可穿戴设备就重建出全身 3D 人体运动；通过"压力双层特征 + 分层压力调制扩散"把稀疏含噪的压力信号注入预训练运动扩散模型，在自建的 MPL 基准上达到这一全新任务的 SOTA。
+
 **[PRISM: Learning a Shared Primitive Space for Transferable Skeleton Action Representation](prism_learning_a_shared_primitive_space_for_transferable_skeleton_action_represe.md)**
 
 :   PRISM 把骨架动作表示成「一组可复用原子运动基元的加权组合」(基元系数空间)，先用多视角合成数据通过生成目标学出这个物理可解释、视角无关的结构化表征，再以轻量任务头把同一表征顺序迁移到分类与逐帧检测，在长尾、多标签、多视角的真实数据集上一致超过专用模型。
@@ -566,10 +510,6 @@ item_total: 175
 **[Progressive Guessing to Fixed Point: Rethinking Human Motion Prediction with Deep Equilibrium Models](progressive_guessing_to_fixed_point_rethinking_human_motion_prediction_with_deep.md)**
 
 :   MotionDEQ 把人体运动预测里「多阶段渐进猜测」的级联框架重写成一个隐式层内的**不动点求解问题**——等价于无限多次精化但只需 $O(1)$ 训练显存，再把欧氏几何等变性注入这个均衡过程，并利用相邻预测的时间连贯性把上一轮不动点当「暖启动」复用，在 Human3.6M 上用不到 300K 参数取得 400ms@55.3mm 的 SOTA 精度、训练显存比多阶段对手省 2 倍多。
-
-**[ProjFlow: Projection Sampling with Flow Matching for Zero-Shot Exact Spatial Motion Control](projflow_projection_sampling_with_flow_matching_for_zero-shot_exact_spatial_moti.md)**
-
-:   把一大类人体运动控制任务（轨迹跟随、2D→3D 抬升、运动补全、循环动作等）统一成线性逆问题，提出 ProjFlow——一个无需训练的流匹配采样器，在每一步去噪时用闭式投影把"干净运动估计"拉到约束集上，并用一个编码骨架拓扑的"运动学感知度量"让校正沿骨骼协调扩散，从而在零样本、无内层优化的条件下**精确**满足硬约束、同时保持运动自然度。
 
 **[Prompt-Anchored Vision–Text Distillation for Lifelong Person Re-identification](prompt-anchored_vision-text_distillation_for_lifelong_person_re-identification.md)**
 
@@ -587,21 +527,9 @@ item_total: 175
 
 :   这篇论文不发明新网络，而是用一个专门采集的 53,300 对毫米级 RGB-深度数据集，把现成单目深度模型微调到近场指尖场景，再叠加"深度+运动"融合的速度门控状态机判定接触——只用一只普通 RGB 摄像头就把深度误差从 12.3 mm 砍到 3.84 mm（降 68%），接触检测 F1 达 94.4%，让用户在桌面上"盲打"达到 45.6 WPM、字符错误率 3.1%，逼近专用深度硬件与商用 VR 输入。
 
-**[Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback](reference-free_image_quality_assessment_for_virtual_try-on_via_human_feedback.md)**
-
-:   提出 VTON-IQA，一个无需参考图的虚拟试穿图像质量评估框架，通过构建 62,688 张试穿图像 × 431,800 条人工标注的大规模基准 VTON-QBench，以及交错式交叉注意力（ICA）模块建模服装-人物-试穿图之间的交互关系，实现与人类感知高度对齐的图像级质量预测。
-
 **[RefTon: Reference Person Shot Assist Virtual Try-on](refton_reference_person_shot_assist_virtual_try-on.md)**
 
 :   本文提出 RefTon，一个基于 Flux-Kontext 的人对人虚拟试穿框架，通过引入额外参考图像（其他人穿着目标服装的照片）来提供更准确的服装细节信息，同时通过两阶段训练策略和缩放位置索引机制实现了无需辅助条件（如 DensePose、分割掩码）的端到端试穿，在 VITON-HD 和 DressCode 上达到 SOTA。
-
-**[ReGenHOI: Unifying Reconstruction and Generation for 3D Human-Object Interaction Understanding](regenhoi_unifying_reconstruction_and_generation_for_3d_human-object_interaction_.md)**
-
-:   ReGenHOI 把 3D 人物-物体交互（HOI）的"重建"（从图像还原观测到的接触）和"生成"（按语言指令想象未来交互）塞进同一个共享的语义-几何潜空间，靠"直接在 3D 点云上做接触推理 + 推理轨迹迭代精修 + 引力场扩散桥精修接触几何"三件套，在接触估计、重建精度和动作生成质量上同时刷过各自领域的 SOTA。
-
-**[RegFormer: Transferable Relational Grounding for Efficient Weakly-Supervised Human-Object Interaction Detection](regformer_transferable_relational_grounding_for_efficient_weakly-supervised_huma.md)**
-
-:   RegFormer 是一个轻量的交互识别模块：只用图像级标签训练时，它把人–物对查询构造成"空间 grounded"表示并引入交互性打分作为门控；推理做实例级 HOI 检测时，只需用检测框给查询和打分加一层区域掩码，**无需额外训练**即可从图像级迁移到实例级，比此前弱监督方法大幅领先、并逼近全监督，同时推理速度快 ~128×。
 
 **[RegFormer: Transferable Relational Grounding for Efficient Weakly-Supervised HOI Detection](regformer_transferable_relational_grounding_for_weakly-supervised_hoi_detection.md)**
 
@@ -610,10 +538,6 @@ item_total: 175
 **[Region-Aware Instance Consistency Learning for Micro-Expression Recognition](region-aware_instance_consistency_learning_for_micro-expression_recognition.md)**
 
 :   把一段微表情序列看成「onset 帧 + 多个中段帧」组成的多实例集合，用孪生网络强制不同实例的注意力热图对齐（IRC）、再用可学习面部 query 挖出被忽略的微弱激活区（MRD），从而彻底甩掉昂贵的 apex 帧标注，在四个公开数据集上全面超过 SOTA。
-
-**[Relightable Holoported Characters: Capturing and Relighting Dynamic Human Performance from Sparse Views](relightable_holoported_characters_capturing_and_relighting_dynamic_human_perform.md)**
-
-:   RHC 用一个 transformer 网络 RelightNet，把"物理启发特征（几何/反照率/着色/视角）"和环境光做交叉注意力，在**单次前向**里隐式求解渲染方程，从 4 路平光相机就能对未见动作的全身人物做照片级自由视角重光照——既不用慢吞吞的 OLAT 基底采集，又比逆渲染类方法清晰得多。
 
 **[ReMoGen: Real-time Human Interaction-to-Reaction Generation via Modular Learning from Diverse Data](remogen_real-time_human_interaction-to-reaction_generation_via_modular_learning_.md)**
 
@@ -651,14 +575,6 @@ item_total: 175
 
 :   本文首次系统性地将相机位姿轨迹（6DoF pose sequence）提升为一种独立的视频感知模态，通过对比学习框架训练轻量级 Transformer 编码器 CamFormer，将相机轨迹映射到与文本对齐的联合嵌入空间，在 5 个数据集的 10 个下游任务上证明相机轨迹是既轻量又鲁棒的视频内容信号——在物理活动上甚至可以超越计算量大数千倍的视频模型。
 
-**[Shoe Style-Invariant and Ground-Aware Learning for Dense Foot Contact Estimation](shoe_style-invariant_and_ground-aware_learning_for_dense_foot_contact_estimation.md)**
-
-:   提出 FECO 框架，通过鞋款风格–内容随机化（对抗训练）和地面感知学习（像素高度图 + 地面法线），从单张 RGB 图像实现鲁棒的密集足部接触估计，在多个基准上显著超越现有方法。
-
-**[Sign Language Recognition in the Age of LLMs](sign_language_recognition_llms.md)**
-
-:   首个系统评估现代 VLM 在零样本孤立手语识别（ISLR）上能力的研究，发现开源 VLM 远落后于专用分类器，但大型商用模型（GPT-5）展现出令人惊讶的潜力。
-
 **[SignPR: A Progressive Vector-Quantized Diffusion Framework for Sign Language Production](signpr_a_progressive_vector-quantized_diffusion_framework_for_sign_language_prod.md)**
 
 :   SignPR 针对无 gloss 的 Text2Pose 手语生成任务，提出一个「结构 + 时序」双重渐进的向量量化扩散框架：用结构化 VQVAE 把每帧位姿拆成语义级（整体）和区域级（手/脸/身）两层离散 token，扩散先生成语义一致的粗位姿再细化区域细节，并在推理时用块级因果渐进细化保证时序连贯，在 Phoenix14T / CSL-Daily / USTC-CSL 上全面超过此前 T2P 方法。
@@ -674,10 +590,6 @@ item_total: 175
 **[SSM-Aware Token-Efficient VMamba via Adaptive Patch Pruning and Merging for Person Re-Identification](ssm-aware_token-efficient_vmamba_via_adaptive_patch_pruning_and_merging_for_pers.md)**
 
 :   TE-VMamba 让 VMamba 的 SS2D 状态更新强度（步长 $\Delta$）和 token 相似度自己说话，在浅层按 $\Delta$ 剪掉对状态几乎没贡献的冗余 token、在深层把语义相似的 token 合并，在 Market-1501 上把 FLOPs 砍掉 60% 以上而 Rank-1 不降反升。
-
-**[Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation](stability-driven_motion_generation_for_object-guided_human-human_co-manipulation.md)**
-
-:   给定一个物体的网格和它的运动轨迹，本文用 flow matching 框架生成两个人协同搬运这个物体的全身动作，并通过「affordance 引导的接触策略 + 对抗交互先验 + 基于采样的稳定性仿真」三个模块，让生成动作同时满足意图正确（手抓对地方）、姿态自然、物理稳定（不漂浮、不穿模），在 Core4D 上接触准确率、穿模、分布保真度都显著超过现有 HOI 基线。
 
 **[Stake the Points: Structure-Faithful Instance Unlearning](stake_the_points_structure-faithful_instance_unlearning.md)**
 
@@ -695,25 +607,9 @@ item_total: 175
 
 :   SyncMos 用一个 LLM 事件规划器把自然语言指令拆成带时序依赖的事件图，再在**不重训**单人扩散运动模型的前提下，靠 time-warping + 扩散后验采样（DPS）做后处理，让任意数量 agent 的动作（如递接物品）在时间上对齐，实现可扩展的多人 3D 场景交互生成。
 
-**[Tackling Alignment Ambiguity in Person Retrieval through Conversational Attribute Mining](tackling_alignment_ambiguity_in_person_retrieval_through_conversational_attribut.md)**
-
-:   针对「文本-图像行人检索」里查询和图像对不齐的老大难问题，本文用多模态大模型以「多轮问答」方式从行人图里挖出细粒度属性并总结成一段描述，再用双向交叉注意力把这段总结和图像 token 互相精炼，最后用置信度加权损失压住大模型生成的噪声对话，在三个基准上把 Rank-1 刷到新高。
-
 **[Talking Together: Synthesizing Co-Located 3D Conversations from Audio](talking_together_synthesizing_co-located_3d_conversations_from_audio.md)**
 
 :   首次提出从单一混合音频流生成两个**共处同一3D空间**的对话参与者完整面部动画的方法，通过双流扩散架构（共享 U-Net + 跨注意力）、两阶段混合数据训练策略、LLM 驱动的文本-空间布局控制以及辅助眼神损失，实现自然的互视、转头和空间感知的双人对话3D动画合成。
-
-**[Tavatar: Topology-Aware Gaussian Attribute Derivation for Animatable Human Avatars](tavatar_topology-aware_gaussian_attribute_derivation_for_animatable_human_avatar.md)**
-
-:   Tavatar 不再把每个 3D 高斯的旋转和尺度当作自由优化的参数，而是从底层可形变网格的三角形几何中**解析地推导**出来，让高斯天然锚定在网格拓扑上，从而在没见过的复杂姿态（OOD）下也不会脱落或穿洞——在 X-Avatar 上法向误差比最优 baseline 降低 13.8%，PeopleSnapshot 上降低 17.9%，同时渲染质量保持竞争力。
-
-**[TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size](teamhoi_learning_a_unified_policy_for_cooperative_human-object_interactions_with.md)**
-
-:   提出 TeamHOI 框架，通过基于 Transformer 的去中心化策略网络和掩码对抗运动先验（Masked AMP），使单一策略能够泛化到任意数量智能体的协作搬运任务，2-8 个仿人智能体协作搬桌子成功率达 97%+。
-
-**[Text-Driven 3D Hand Motion Generation from Sign Language Data](text-driven_3d_hand_motion_generation_from_sign_language_data.md)**
-
-:   本文借助大规模手语视频 + 手语词典 + LLM，自动构建了 130 万条「文本-3D手部动作」配对数据集 BOBSL3DT，并在其上训练出能由自由文本描述（手型、位置、手指/手臂运动）驱动的手部动作扩散模型 HandMDM，且对未见手势、异种手语乃至非手语手部动作都有不错的泛化。
 
 **[Text-guided Feature Disentanglement for Cross-modal Gait Recognition](text-guided_feature_disentanglement_for_cross-modal_gait_recognition.md)**
 
@@ -722,6 +618,10 @@ item_total: 175
 **[4DSurf: High-Fidelity Dynamic Scene Surface Reconstruction](textit4dsurf_high-fidelity_dynamic_scene_surface_reconstruction.md)**
 
 :   本文提出 4DSurf，一个基于2D高斯泼溅的通用动态场景表面重建框架，通过引入高斯运动诱导的SDF流正则化来约束表面时序一致演化，并采用重叠分段策略处理大变形，在 Hi4D 和 CMU Panoptic 数据集上分别以 49% 和 19% 的 Chamfer 距离改进超越现有 SOTA。
+
+**[Through the Frequency Lens: Cross-Domain Generalisable Gaze Estimation with Adaptive Modulation](through_the_frequency_lens_cross-domain_generalisable_gaze_estimation_with_adapt.md)**
+
+:   本文从频域视角剖析视线估计的跨域退化，发现人脸图像里既有助泛化的「视线相关频段」也有害泛化的「干扰频段」、且二者分布随数据集漂移，据此提出 FGAL 框架——用一个轻量注意力网络给每张图生成可学习的频域调制图来自适应抑制干扰频段（AISM），再用同源直方图匹配扩充训练时见过的频谱分布（SDM），在四个跨域设置上比 baseline 最高降误差 28.2%、比 SOTA 最高降 19.5%。
 
 **[Towards Cross-Modal Preservation, Consistency and Alignment for Privacy-Preserving Visible-Infrared Person Re-Identification](towards_cross-modal_preservation_consistency_and_alignment_for_privacy-preservin.md)**
 
@@ -735,6 +635,10 @@ item_total: 175
 
 :   针对"穿过 0.4 米窄缝""走 4 米恰好 6 步"这类极难时空/数值约束的动作生成任务，本文在免训练的扩散噪声优化（DNO）框架上加了一条检索通道——先用关系式任务解析挑出最难的约束，再从动作数据集里检索能满足它的参考动作并反演成参考噪声，最后用奖励引导的掩码把随机噪声和检索噪声拼起来当作更好的初始化，使约束误差相比原生 DNO 大幅下降。
 
+**[Towards Storytelling Animations: Joint Synthesis of Human and Camera Motions](towards_storytelling_animations_joint_synthesis_of_human_and_camera_motions.md)**
+
+:   本文提出首个把"两个交互角色的 3D 运动"和"摄像机运动"放进同一个扩散模型里联合生成的框架，用三路并行 backbone + 三个成对交互模块显式建模角色—角色、角色—摄像机之间的相互影响，并自建一个真实电影片段 + 合成数据混合的 7,228 段角色—摄像机数据集，在角色运动、摄像机运动、两者协调三个维度上都超过各自的专用方法。
+
 **[Translating Signals to Languages for sEMG-Based Activity Recognition](translating_signals_to_languages_for_semg-based_activity_recognition.md)**
 
 :   本文提出 LLM-sEMG，先用一个 sEMG 专用 VQ-VAE 把连续肌电信号离散成 token，再通过「Lewis 信号博弈 + 人类语言归纳偏置」让这些 token 演化成一种类自然语言的「sEMG 语言」，最后只用 LoRA 微调、冻结预训练权重的 LLM 直接读这门语言来识别动作，在 GRABMyo 和 NinaPro DB2 上把准确率分别推到 95.14% 和 93.17%，超过最强基线 STET 约 4 个点。
@@ -743,10 +647,6 @@ item_total: 175
 
 :   仅使用冻结 DINOv2 ViT + 不到 800K 可训练参数的 TriHead 模块，通过将 patch 特征解耦为前景/背景/模糊三区域并引入对抗性背景损失，在 WSOL 上以极少参数刷新 SOTA。
 
-**[Ultra Diffusion Poser: Diffusion-Based Human Motion Tracking From Sparse Inertial Sensors and Ranging-Based Between-Sensor Distances](ultra_diffusion_poser_diffusion-based_human_motion_tracking_from_sparse_inertial.md)**
-
-:   把 6 个 IMU 之间的 UWB 测距从"额外特征"升级为"几何约束"——先用多维标度（MDS）从两两距离解析重建 3D 传感器布局当作扩散条件，再在去噪采样时用前向运动学把预测姿态映回传感器距离做引导对齐，使稀疏惯性人体姿态估计的关节位置误差最多降低 22%。
-
 **[UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos](unidex_a_robot_foundation_suite_for_universal_dexterous_hand_control_from_egocen.md)**
 
 :   提出UniDex机器人基础套件——包含跨8种灵巧手的大规模数据集（50K+轨迹/9M帧）、功能-执行器对齐的统一动作空间（FAAS）和3D VLA策略（UniDex-VLA），在真实世界工具使用任务上达到81%平均任务进度（vs π₀的38%），并展示了空间、物体和零样本跨手泛化能力。
@@ -754,6 +654,10 @@ item_total: 175
 **[Unified Number-Free Text-to-Motion Generation Via Flow Matching](unified_number-free_text-to-motion_generation_via_flow_matching.md)**
 
 :   UMF 用一个统一的多 token 隐空间把单人和多人动作数据集打通，再用「金字塔运动流（P-Flow）单次生成动作先验 + 半噪声运动流（S-Flow）多次自回归生成反应」的 1+N 范式，在文本驱动的「任意人数」多人动作生成上做到 SOTA（InterHuman FID 4.772），同时推理比 FreeMotion 快约 5 倍。
+
+**[Unifying Precise Keyframes and Semantic Control via Multi-level Diffusion](unifying_precise_keyframes_and_semantic_control_via_multi-level_diffusion.md)**
+
+:   针对"文本只能给高层语义、关键帧能给精确时空约束但二者难以协调"的痛点，本文提出一个多层级扩散框架：局部引导用单个关键帧细化其周围的局部过渡，全局引导把文本与整段关键帧序列的隐式时序线索融成统一表示来调控整体动态；推理时再用一套保速度比例的轨迹精修 + 扩散插补的姿态精修，把关键帧硬约束从"软逼近"变成"零误差严格满足"，并顺带支持免训练的语义保持动作编辑，在 HumanML3D 上把 Keyframe Error 压到 0 cm。
 
 **[UniLS: End-to-End Audio-Driven Avatars for Unified Listening and Speaking](unils_end-to-end_audio-driven_avatars_for_unified_listening_and_speaking.md)**
 
@@ -779,9 +683,9 @@ item_total: 175
 
 :   VLADR 提出利用视觉-语言模型（VLM）中的细粒度属性知识来增强终身行人重识别，通过多粒度文本属性解耦（MTAD）和跨域跨模态属性强化（ICAR）两阶段训练，显式建模跨域共享的人体属性以实现高效知识转移和遗忘缓解，在抗遗忘和泛化能力上分别超越 SOTA 1.9%-2.2% 和 2.1%-2.5%。
 
-**[WHU-MARS: A Multispectral Aerial-Ground Benchmark Towards Any-Scenario Person Re-Identification](whu-mars_a_multispectral_aerial-ground_benchmark_towards_any-scenario_person_re-.md)**
+**[VRCLIP: Multimodal Canonical Correlation Alignment for CLIP-Driven Vision-Radio Person Re-Identification](vrclip_multimodal_canonical_correlation_alignment_for_clip-driven_vision-radio_p.md)**
 
-:   论文提出"任意场景行人重识别"(AS-ReID)新任务——用单一模型在混合所有模态/视角的异构图库里做任意到任意检索，并构建了迄今最大的多光谱空地数据集 WHU-MARS（2,337 人、43 万张 RGB/近红外/热红外、地面+无人机），同时给出一个不需要多分支、不需要成对对齐的 UAD 框架，靠渐进式中心对齐 + 全局原型判别在 AS-ReID 上达到最佳且参数最省。
+:   VRCLIP 把 RGB 图像和低频射频(RF)信号融合做行人重识别，核心是用典型相关分析(CCA)把"分布对齐"换成"相关性最大化"，在保留各模态独有特征的前提下对齐共享语义，配合 CLIP 视觉编码器的光照解耦微调和 RF 锚定的自适应门控融合，在自建的 65 万对 VRR 数据集上拿到 93.9% mAP。
 
 **[WildCap: Facial Albedo Capture in the Wild via Hybrid Inverse Rendering](wildcap_facial_albedo_capture_in_the_wild_via_hybrid_inverse_rendering.md)**
 

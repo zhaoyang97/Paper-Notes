@@ -90,6 +90,7 @@ $$A_{t,k}=\int_{\tau^*}^{1} v_\phi(A_{t,k}^\tau,o_{t,k})\,d\tau+A_{t,k}^{\tau^*}
 评测覆盖 3 个仿真 benchmark（LIBERO / SimplerEnv WidowX / SimplerEnv Google Robot）和 3 个真机平台（WidowX 250s、Franka、AgiBot G-1），共 15 个学习场景、21 个真机任务。训练用 8×A100，部署单卡 RTX 4090；噪声上界 $T$ 取 0.7~0.9，每步采 $N=5$ 候选。
 
 ### 主实验：LIBERO（成功率 SR）
+
 | Model | Spatial | Object | Goal | Long | Overall |
 |--------|------|------|------|------|------|
 | OpenVLA-OFT | 97.6% | 98.4% | 97.9% | 94.5% | 97.1% |
@@ -102,6 +103,7 @@ $$A_{t,k}=\int_{\tau^*}^{1} v_\phi(A_{t,k}^\tau,o_{t,k})\,d\tau+A_{t,k}^{\tau^*}
 FM-Steer(π0) 拿下所有策略中最高平均 SR 98.6%（比基座 π0 的 94.2% 涨 +4.4%），且套在 GR00T N1 上也能涨，说明它是个**即插即用的增强器**。
 
 ### 主实验：SimplerEnv（vs 之前的测试时计算方法）
+
 | Method | WidowX Overall | Google(Matching) | Google(Aggregation) |
 |--------|------|------|------|
 | OpenVLA | 37.7% | 35.4% | 30.0% |
@@ -113,6 +115,7 @@ FM-Steer(π0) 拿下所有策略中最高平均 SR 98.6%（比基座 π0 的 94.
 在 WidowX 上 FM-Steer 比 V-GPS 高 +42.5%、比 RoboMonkey 高 +31.7%；Google Robot 的 matching/aggregation 也都最优，体现出强视觉泛化与抗 OOD 能力。⚠️ 论文里"对 π0 涨 +25.9%"应指 Simpler 维度的相对提升，具体口径以原文为准。
 
 ### 消融实验（LIBERO + SimplerEnv，Table 3）
+
 | 配置 | LIBERO | SimplerEnv | Overall | 说明 |
 |------|------|------|------|------|
 | [5] FM-Steer (π0) 完整 | 98.6 | 75.1 | **81.0** | — |
@@ -158,8 +161,8 @@ FM-Steer(π0) 拿下所有策略中最高平均 SR 98.6%（比基座 π0 的 94.
 - [\[ICML 2026\] RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies](../../ICML2026/robotics/robomme_benchmarking_and_understanding_memory_for_robotic_generalist_policies.md)
 - [\[ICLR 2026\] Scalable Exploration for High-Dimensional Continuous Control via Value-Guided Flow](../../ICLR2026/robotics/scalable_exploration_for_high-dimensional_continuous_control_via_value-guided_fl.md)
 - [\[CVPR 2026\] OctoNav: Towards Generalist Embodied Navigation](octonav_towards_generalist_embodied_navigation.md)
+- [\[CVPR 2026\] REACH: Explicit Recovery Behavior for Diffusion Policies](reach_explicit_recovery_behavior_for_diffusion_policies.md)
 - [\[CVPR 2026\] InternData-A1: Pioneering High-Fidelity Synthetic Data for Pre-training Generalist Policy](interndata-a1_pioneering_high-fidelity_synthetic_data_for_pre-training_generalis.md)
-- [\[CVPR 2026\] FloVerse: Floor Plan-Guided Multi-Modal Navigation](floverse_floor_plan-guided_multi-modal_navigation.md)
 
 </div>
 

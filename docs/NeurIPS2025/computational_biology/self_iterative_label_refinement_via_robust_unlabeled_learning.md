@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.12565](https://arxiv.org/abs/2502.12565)  
 **代码**: [GitHub](https://github.com/HikaruAsano/self-iterative-label-refinement)  
-**领域**: 对齐/RLHF
+**领域**: 对齐/RLHF  
 **关键词**: 自我精炼, 伪标签, UU学习, LLM对齐, 弱监督分类
 
 ## 一句话总结

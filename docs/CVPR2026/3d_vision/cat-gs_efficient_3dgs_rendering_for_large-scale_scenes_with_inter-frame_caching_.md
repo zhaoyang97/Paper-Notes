@@ -90,6 +90,7 @@ CaT-GS 是**纯推理期（渲染期）**的流水线优化，不改高斯模型
 测试平台 RTX 5090 + Ryzen 9 9950X；数据集含标准集（Tanks & Temples、MipNeRF360、Deep Blending）和自采的 UAV 城市重建集（高斯量 590 万–830 万）。每个模型采集 10 条 2000 帧的用户交互轨迹（含平移/缩放/旋转），120 FPS、1920×1080 录制。指标用平均 FPS（效率）+ PSNR/SSIM（质量）。
 
 ### 主实验（平均 FPS，节选）
+
 | 场景（高斯量） | 3DGS | ADR-GS | Flash-GS | CaT-GS | 相对 SOTA |
 |------|------|--------|----------|--------|------|
 | Train (1.0M) | 89.4 | 482.1 | 528.3 | **892.2** | +68% |
@@ -101,6 +102,7 @@ CaT-GS 是**纯推理期（渲染期）**的流水线优化，不改高斯模型
 所有 UAV 大场景 CaT-GS 都过 200 FPS，而其他基线连 120 FPS 都保不住。规模越大优势越明显：标准集（1–4M 高斯）相对 SOTA 约 +50%，UAV（>7M）普遍 +60%~+80%，相对原版 3DGS 最高 10×。
 
 ### 质量（PSNR/SSIM，节选）
+
 | 模型 | 3DGS | Flash-GS | CaT-GS-Key | CaT-GS-Sub |
 |------|------|----------|-----------|-----------|
 | Truck PSNR | 28.21 | 28.19 | 28.19 | 28.16 |
@@ -110,6 +112,7 @@ CaT-GS 是**纯推理期（渲染期）**的流水线优化，不改高斯模型
 关键帧与 Flash-GS 同策略、质量完全一致；子帧因推测过程中少数高斯轻微错位，PSNR 仅掉 0.03~0.05，肉眼可忽略。对比之下 ADR-GS 因重训练反而把质量掉回甚至低于原版 3DGS。
 
 ### 消融实验
+
 | 配置 | Garden | Truck | UAV-1 | UAV-2 | 说明 |
 |------|--------|-------|-------|-------|------|
 | Ours-Full | 295.5 | 736.5 | 241.5 | 202.5 | 完整模型 |
@@ -152,11 +155,11 @@ CaT-GS 是**纯推理期（渲染期）**的流水线优化，不改高斯模型
 
 ## 相关论文
 
+- [\[CVPR 2026\] MetroGS: Efficient and Stable Reconstruction of Geometrically Accurate High-Fidelity Large-Scale Scenes](metrogs_efficient_and_stable_reconstruction_of_geometrically_accurate_high-fidel.md)
 - [\[CVPR 2026\] GAI-GS：用几何代数注意力把光线-物体交互注入 3DGS 的无线信道预测框架](a_geometric_algebra-informed_3dgs_framework_for_wireless_channel_prediction.md)
+- [\[CVPR 2026\] EDGS: Eliminating Densification for Efficient Convergence of 3DGS](edgs_eliminating_densification_for_efficient_convergence_of_3dgs.md)
+- [\[ICLR 2026\] Implicit 4D Gaussian Splatting for Fast Motion with Large Inter-Frame Displacements](../../ICLR2026/3d_vision/implicit_4d_gaussian_splatting_for_fast_motion_with_large_inter-frame_displaceme.md)
 - [\[CVPR 2026\] OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control](olatverse_a_large-scale_real-world_object_dataset_with_precise_lighting_control.md)
-- [\[CVPR 2026\] VAD-GS: Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes](vad-gs_visibility-aware_densification_for_3d_gaussian_splatting_in_dynamic_urban.md)
-- [\[CVPR 2026\] BEA-GS: BEyond RAdiance Supervision in 3DGS for Precise Object Extraction](bea-gs_beyond_radiance_supervision_in_3dgs_for_precise_object_extraction.md)
-- [\[CVPR 2026\] FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting](filtergs_traversal-free_parallel_filtering_and_adaptive_shrinking_for_large-scal.md)
 
 </div>
 

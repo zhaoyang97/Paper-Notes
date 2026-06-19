@@ -91,6 +91,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 架构 | 指标 | MVProbe | 之前SOTA | 提升 |
 |--------|------|------|----------|------|
 | Model Jungle ResNet | Accuracy | 92.24 | ProbeX×4 87.16 | +5.08 |
@@ -101,6 +102,7 @@ flowchart TD
 | SD1k LoRA Zero-shot | Accuracy | 97.96±0.29 | ProbeX 52.42±2.48 | +45.54 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | $XU$ only | ResNet 90.42 / DINO 74.17 | 单一 row 一阶分支较强，但不如 full |

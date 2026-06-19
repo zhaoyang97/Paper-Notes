@@ -76,6 +76,7 @@ DMN 本身不训练目标 MLLM，也不需要访问模型参数，是单轮黑�
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 模型组 | 指标 | DMN | 最强或主要基线 | 提升 / 结论 |
 |--------|------|------|----------------|-------------|
 | SafeBench, 10 个 MLLM 平均 | ASR | 89.32% | CS-DJ 30.18%, FigStep 20.22% | 多图组合显著高于单图结构攻击 |
@@ -86,6 +87,7 @@ DMN 本身不训练目标 MLLM，也不需要访问模型参数，是单轮黑�
 | Claude Sonnet 4 / SafeBench | ASR | 94.2% | FigStep 13.0%, CS-DJ 39.6% | 安全模型也受组合输入影响 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Plain text | ASR 7.32% | 只给文本时成功率低 |
@@ -133,7 +135,7 @@ DMN 本身不训练目标 MLLM，也不需要访问模型参数，是单轮黑�
 - [\[CVPR 2025\] Playing the Fool: Jailbreaking LLMs and Multimodal LLMs with Out-of-Distribution Strategy](../../CVPR2025/multimodal_vlm/playing_the_fool_jailbreaking_llms_and_multimodal_llms_with_out-of-distribution_.md)
 - [\[ECCV 2024\] Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation](../../ECCV2024/multimodal_vlm/eyes_closed_safety_on_protecting_multimodal_llms_via_image-to-text_transformatio.md)
 - [\[ACL 2025\] Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging](../../ACL2025/multimodal_vlm/exploring_compositional_generalization_of_multimodal_llms_for_medical_imaging.md)
-- [\[ACL 2026\] SlideAgent: Hierarchical Agentic Framework for Multi-Page Visual Document Understanding](slideagent_hierarchical_agentic_framework_for_multi-page_visual_document_underst.md)
+- [\[AAAI 2026\] Exploring LLMs for Scientific Information Extraction using the SciEx Framework](../../AAAI2026/multimodal_vlm/exploring_llms_for_scientific_information_extraction_using_the_sciex_framework.md)
 
 </div>
 

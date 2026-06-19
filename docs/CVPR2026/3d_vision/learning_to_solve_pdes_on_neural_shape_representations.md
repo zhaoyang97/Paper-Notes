@@ -116,6 +116,7 @@ $$\mathcal{N}_\Theta:\ \mathbb{R}^3\times\mathbb{R}^{k\times3}\times\mathbb{R}^{
 关键发现：在**同一 train-test split**下（都只见过 Spike），本文一致优于 GINO（GINO spike-only 误差高一个数量级，因为它假设固定离散化、不为神经隐式几何而设计）；只有当 GINO 在测试形状上**过拟合**后才更好，但那已不是泛化。本文与同样 training-free 的 CPM 精度相当、互有胜负。
 
 ### 消融实验
+
 | 配置 | 结论 |
 |------|------|
 | 法向一致性 $L_{\mathrm{NC}}$ | 小权重稳定降误差；权重过大偏向平凡法向不变场、伤精度；即使不加，算子也基本保持法向常值 |
@@ -163,9 +164,9 @@ $$\mathcal{N}_\Theta:\ \mathbb{R}^3\times\mathbb{R}^{k\times3}\times\mathbb{R}^{
 
 - [\[CVPR 2026\] Velox: Learning Representations of 4D Geometry and Appearance](velox_learning_representations_of_4d_geometry_and_appearance.md)
 - [\[CVPR 2026\] Learning to Infer Parameterized Representations of Plants from 3D Scans](learning_to_infer_parameterized_representations_of_plants_from_3d_scans.md)
+- [\[CVPR 2026\] Content-Aware Frequency Encoding for Implicit Neural Representations with Fourier-Chebyshev Features](content-aware_frequency_encoding_for_implicit_neural_representations_with_fourie.md)
+- [\[CVPR 2026\] Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images](learning_3d_representations_for_spatial_intelligence_from_unposed_multi-view_ima.md)
 - [\[CVPR 2026\] Learning Compact 3D Representations from Feed-Forward Novel View Synthesis](learning_compact_3d_representations_from_feed-forward_novel_view_synthesis.md)
-- [\[CVPR 2026\] Learning 3D Shape Fidelity Metric from Real-world Distortions](learning_3d_shape_fidelity_metric_from_real-world_distortions.md)
-- [\[CVPR 2026\] UniSplat: Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images](unisplat_3d_representations_unposed.md)
 
 </div>
 

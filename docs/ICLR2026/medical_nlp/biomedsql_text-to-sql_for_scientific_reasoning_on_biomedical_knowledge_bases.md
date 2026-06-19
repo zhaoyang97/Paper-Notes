@@ -2,10 +2,10 @@
 title: >-
   [论文解读] BiomedSQL: Text-to-SQL for Scientific Reasoning on Biomedical Knowledge Bases
 description: >-
-  [ICLR 2026 (Gen2 Workshop)][医疗NLP][Text-to-SQL] 提出 BiomedSQL，首个专门评估 Text-to-SQL 系统在生物医学知识库上科学推理能力的基准，包含 68,000 个问题/SQL/答案三元组，揭示当前最强模型（GPT-o3-mini 62.6%）与领域专家（90%）之间仍有巨大差距。
+  [ICLR 2026 (Gen2 Workshop)][医疗 LLM][Text-to-SQL] 提出 BiomedSQL，首个专门评估 Text-to-SQL 系统在生物医学知识库上科学推理能力的基准，包含 68,000 个问题/SQL/答案三元组，揭示当前最强模型（GPT-o3-mini 62.6%）与领域专家（90%）之间仍有巨大差距。
 tags:
   - "ICLR 2026 (Gen2 Workshop)"
-  - "医疗NLP"
+  - "医疗 LLM"
   - "Text-to-SQL"
   - "生物医学知识库"
   - "科学推理"
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026 (Gen2 Workshop)  
 **arXiv**: [2505.20321](https://arxiv.org/abs/2505.20321)  
 **代码**: [https://github.com/NIH-CARD/biomedsql](https://github.com/NIH-CARD/biomedsql)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: Text-to-SQL, 生物医学知识库, 科学推理, BigQuery, LLM评估
 
 ## 一句话总结
@@ -146,10 +146,10 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICLR 2026\] MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](medagentgym_agentic_training_biomedical.md)
 - [\[NeurIPS 2025\] CGBench: Benchmarking Language Model Scientific Reasoning for Clinical Genetics Research](../../NeurIPS2025/medical_nlp/cgbench_benchmarking_language_model_scientific_reasoning_for_clinical_genetics_r.md)
 - [\[ACL 2026\] Text-Attributed Knowledge Graph Enrichment with Large Language Models for Medical Concept Representation](../../ACL2026/medical_nlp/text-attributed_knowledge_graph_enrichment_with_large_language_models_for_medica.md)
 - [\[ACL 2025\] Query-driven Document-level Scientific Evidence Extraction from Biomedical Studies](../../ACL2025/medical_nlp/urca_biomedical_evidence_extraction.md)
-- [\[ICLR 2026\] MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](medagentgym_agentic_training_biomedical.md)
 - [\[NeurIPS 2025\] Mind the Gap: Aligning Knowledge Bases with User Needs to Enhance Mental Health Retrieval](../../NeurIPS2025/medical_nlp/mind_the_gap_aligning_knowledge_bases_with_user_needs_to_enhance_mental_health_r.md)
 
 </div>

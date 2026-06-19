@@ -1,19 +1,18 @@
 ---
 title: >-
-  ICML2026 自动驾驶论文汇总 · 6篇论文解读
+  ICML2026 自动驾驶论文汇总 · 8篇论文解读
 description: >-
-  6篇ICML2026的自动驾驶方向论文解读，涵盖导航、强化学习、自动驾驶、扩散模型、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  8篇ICML2026的自动驾驶方向论文解读，涵盖自动驾驶、强化学习、导航等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "自动驾驶"
   - "论文解读"
   - "论文笔记"
-  - "导航"
   - "强化学习"
-  - "扩散模型"
-  - "LLM"
-  - "推理"
+  - "导航"
 item_list:
+  - u: "coirl-ad_collaborative-competitive_imitation-reinforcement_learning_in_latent_wo/"
+    t: "CoIRL-AD: Collaborative-Competitive Imitation-Reinforcement Learning in Latent World Models for Autonomous Driving"
   - u: "constrained_multi-objective_reinforcement_learning_with_max-min_criterion/"
     t: "Constrained Multi-Objective Reinforcement Learning with Max-Min Criterion"
   - u: "deepsight_long-horizon_world_modeling_via_latent_states_prediction_for_end-to-en/"
@@ -22,21 +21,27 @@ item_list:
     t: "Mitigating Error Accumulation in Continuous Navigation via Memory-Augmented Kalman Filtering"
   - u: "plug-and-play_label_map_diffusion_for_universal_goal-oriented_navigation/"
     t: "Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation"
+  - u: "roca_robust_cross-domain_end-to-end_autonomous_driving/"
+    t: "RoCA: Robust Cross-Domain End-to-End Autonomous Driving"
   - u: "threshold-based_exclusive_batching_for_llm_inference/"
     t: "Threshold-Based Exclusive Batching for LLM Inference"
   - u: "tsrbench_a_comprehensive_multi-task_multi-modal_time_series_reasoning_benchmark_/"
     t: "TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models"
-item_total: 6
+item_total: 8
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🧪 ICML2026** · **6** 篇论文解读
+**🧪 ICML2026** · **8** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (160)](../../CVPR2026/autonomous_driving/index.md) · [🔬 ICLR2026 (16)](../../ICLR2026/autonomous_driving/index.md) · [🤖 AAAI2026 (56)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (91)](../../ICCV2025/autonomous_driving/index.md) · [🧪 ICML2025 (10)](../../ICML2025/autonomous_driving/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (157)](../../CVPR2026/autonomous_driving/index.md) · [🔬 ICLR2026 (17)](../../ICLR2026/autonomous_driving/index.md) · [🤖 AAAI2026 (56)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (91)](../../ICCV2025/autonomous_driving/index.md) · [🧪 ICML2025 (10)](../../ICML2025/autonomous_driving/index.md)
 
-🔥 **高频主题：** 导航 ×2
+🔥 **高频主题：** 自动驾驶 ×3 · 强化学习 ×2 · 导航 ×2
+
+**[CoIRL-AD: Collaborative-Competitive Imitation-Reinforcement Learning in Latent World Models for Autonomous Driving](coirl-ad_collaborative-competitive_imitation-reinforcement_learning_in_latent_wo.md)**
+
+:   CoIRL-AD 用两个独立的演员分别扛模仿学习（IL）和强化学习（RL）、靠一个潜空间世界模型"想象"未来轨迹来给 RL 算长程奖励，再用一套"谁强谁带谁"的竞争机制让两者互相传递有益行为，从而在**没有外部仿真器的离线真实驾驶数据**上把 RL 稳稳整合进端到端驾驶，在跨城泛化和长尾场景上取得显著提升。
 
 **[Constrained Multi-Objective Reinforcement Learning with Max-Min Criterion](constrained_multi-objective_reinforcement_learning_with_max-min_criterion.md)**
 
@@ -53,6 +58,10 @@ item_total: 6
 **[Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation](plug-and-play_label_map_diffusion_for_universal_goal-oriented_navigation.md)**
 
 :   本文提出 PLMD：把 BEV 语义图与障碍图合并成 Label Map，用 DDPM 在障碍先验调制下补全未探索区域的语义+障碍标签，作为即插即用模块挂在任意 GON 策略上，在 ON / IIN / MRON 三类任务的 HM3D/MP3D 上一致刷新 SOTA。
+
+**[RoCA: Robust Cross-Domain End-to-End Autonomous Driving](roca_robust_cross-domain_end-to-end_autonomous_driving.md)**
+
+:   RoCA 给端到端自动驾驶模型挂一个基于高斯过程的即插即用模块——学一组覆盖多样驾驶场景的基础 token 及其对应轨迹，对新场景按相似度概率推断未来轨迹，既在源域训练时用 GP 的不确定性正则化提升泛化，又在新域上用伪标签和主动学习高效适应，无需 LLM、不增加推理开销。
 
 **[Threshold-Based Exclusive Batching for LLM Inference](threshold-based_exclusive_batching_for_llm_inference.md)**
 

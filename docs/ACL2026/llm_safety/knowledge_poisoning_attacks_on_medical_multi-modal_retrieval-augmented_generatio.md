@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2605.10253](https://arxiv.org/abs/2605.10253)  
 **代码**: https://github.com/ypr17/M3Att  
-**领域**: LLM安全
+**领域**: LLM安全  
 **关键词**: 知识投毒、医学 RAG、PGD 扰动、临床歧义、query-agnostic 攻击
 
 ## 一句话总结

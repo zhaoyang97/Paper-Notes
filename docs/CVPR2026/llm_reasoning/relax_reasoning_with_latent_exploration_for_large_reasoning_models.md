@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ReLaX: Reasoning with Latent Exploration for Large Reasoning Models
 description: >-
-  [CVPR 2026][LLM推理][RLVR] ReLaX 不再像现有方法那样在 token 层面强行抬高熵来对抗 RLVR 的熵坍缩，而是用 Koopman 算子把大推理模型的隐状态动力学线性化、提出"动态谱发散（DSD）"这个量化策略内部计算灵活度的指标，再把它整形进 GRPO 目标，在 7 个多模态 + 6 个纯文本推理基准上刷新同规模 SOTA。
+  [CVPR 2026][Reasoning][RLVR] ReLaX 不再像现有方法那样在 token 层面强行抬高熵来对抗 RLVR 的熵坍缩，而是用 Koopman 算子把大推理模型的隐状态动力学线性化、提出"动态谱发散（DSD）"这个量化策略内部计算灵活度的指标，再把它整形进 GRPO 目标，在 7 个多模态 + 6 个纯文本推理基准上刷新同规模 SOTA。
 tags:
   - "CVPR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "RLVR"
   - "探索-利用"
   - "Koopman算子"
@@ -98,6 +98,7 @@ flowchart TD
 在 Qwen2.5-7B-Math 上 ReLaX 超 FR3E 6.3（⚠️ 具体平均值以原文表 2 为准）。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | DSD 系数 $\alpha=0.1$ | 奖励最高 | 最佳工作点 |
@@ -142,7 +143,7 @@ flowchart TD
 - [\[ACL 2026\] SeLaR: Selective Latent Reasoning in Large Language Models](../../ACL2026/llm_reasoning/selar_selective_latent_reasoning_in_large_language_models.md)
 - [\[ACL 2026\] Large Reasoning Models Are (Not Yet) Multilingual Latent Reasoners](../../ACL2026/llm_reasoning/large_reasoning_models_are_not_yet_multilingual_latent_reasoners.md)
 - [\[CVPR 2026\] Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models](think-as-you-see_streaming_chain-of-thought_reasoning_for_large_vision-language_.md)
-- [\[ICML 2025\] Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration](../../ICML2025/llm_reasoning/soft_reasoning_navigating_solution_spaces_in_large_language_models_through_contr.md)
+- [\[ICLR 2026\] Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models](../../ICLR2026/llm_reasoning/attention_as_a_compass_efficient_exploration_for_process-supervised_rl_in_reason.md)
 
 </div>
 

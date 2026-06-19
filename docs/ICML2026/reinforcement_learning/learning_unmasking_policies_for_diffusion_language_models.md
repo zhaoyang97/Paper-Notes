@@ -76,6 +76,7 @@ GRPO 目标为带 clip 的 PPO-style 比值项 $\rho_t^g = \pi_\phi(\bm u_t^g)/\
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集/设置 | 指标 | 学到的策略 | Fast-dLLM | 高置信度采样 / 随机 |
 |--------|------|------|------|------|
 | GSM8K, $BL=32$ (semi-AR) | acc @ mid-NFE | 与 Fast-dLLM 持平，约 80% 量级 | 强基线 | 明显更差 |
@@ -87,6 +88,7 @@ GRPO 目标为带 clip 的 PPO-style 比值项 $\rho_t^g = \pi_\phi(\bm u_t^g)/\
 | 长度迁移 $L=256\to512$ | GSM8K acc | 几乎不掉点 | 基线明显下滑 | — |
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | Bernoulli vs. Dynamic Plackett-Luce | 性能相当 | 选 Bernoulli 因实现更简单、likelihood 闭式 |

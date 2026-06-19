@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Why is Your Language Model a Poor Implicit Reward Model?
 description: >-
-  [ICLR 2026][LLM推理][隐式奖励模型] 本文通过理论和实验揭示了隐式奖励模型（IM-RM，如DPO）比显式奖励模型（EX-RM）泛化更差的根本原因——IM-RM过度依赖表面token级线索而非语义表示，导致在token分布偏移下准确率大幅下降，同时反驳了"生成-验证差距"假说。 领域现状：奖励模型是LLM后训练…
+  [ICLR 2026][Reasoning][隐式奖励模型] 本文通过理论和实验揭示了隐式奖励模型（IM-RM，如DPO）比显式奖励模型（EX-RM）泛化更差的根本原因——IM-RM过度依赖表面token级线索而非语义表示，导致在token分布偏移下准确率大幅下降，同时反驳了"生成-验证差距"假说。
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "隐式奖励模型"
   - "显式奖励模型"
   - "泛化差距"
@@ -136,9 +136,9 @@ IM-RM在token分布发生变化（同义改写）时准确率几乎为0，而EX-
 ## 相关论文
 
 - [\[ICLR 2026\] Estimating the Empowerment of Language Model Agents](estimating_the_empowerment_of_language_model_agents.md)
-- [\[ICML 2026\] GRPO is Secretly a Process Reward Model](../../ICML2026/llm_reasoning/grpo_is_secretly_a_process_reward_model.md)
+- [\[ICML 2026\] The Quality-Utility Paradox: Why High-Reward Data Impairs Small Model Mathematical Reasoning](../../ICML2026/llm_reasoning/the_quality-utility_paradox_why_high-reward_data_impairs_small_model_mathematica.md)
 - [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Model](predicting_llm_reasoning_performance_with_small_proxy_model.md)
-- [\[ACL 2026\] Language Model as Planner and Formalizer under Constraints](../../ACL2026/llm_reasoning/language_model_as_planner_and_formalizer_under_constraints.md)
+- [\[ICML 2026\] GRPO is Secretly a Process Reward Model](../../ICML2026/llm_reasoning/grpo_is_secretly_a_process_reward_model.md)
 - [\[ICLR 2026\] Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort](is_it_thinking_or_cheating_detecting_implicit_reward_hacking_by_measuring_reason.md)
 
 </div>

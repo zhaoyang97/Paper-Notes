@@ -85,6 +85,7 @@ $$\|\boldsymbol{\theta}\|=\max\{\|(W_1,\dots,W_K)\|_{\mathrm{msp}},\ \|\boldsymb
 | Muon-Adam | $\max\{(\eta_0^A/\eta_0^M)\|\cdot\|_{\mathrm{msp}},\|\cdot\|_\infty\}$ | 与混合范数一致（Figure 2） |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | squared-ReLU 激活 | 满足 (M1)+(M2)，margin 增长曲线与理论吻合 | 文中主声明的合法测试床 |

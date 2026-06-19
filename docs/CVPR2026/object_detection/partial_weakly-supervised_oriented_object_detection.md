@@ -93,6 +93,7 @@ $$L^s_{Ang}=\begin{cases}L^s_{Ang}(\theta_{flip}+\theta,\,0), & trans=flip\\ L^s
 PWOOD 用**水平框**就追平/超过了用昂贵旋转框的 SOOD 基线（如 DIOR：54.33/57.89/60.42 vs 54.01/57.07/60.25），并在 DOTA-v2.0 上更明显地领先（小物体多、HBox 设定更占优）。
 
 ### DOTA-v1.5 对比
+
 | 方法 (标注) | 10% | 20% | 30% |
 |------|------|------|------|
 | H2RBox-v2 (WOOD) | 42.19 | 49.01 | 55.19 |
@@ -140,7 +141,7 @@ PWOOD 用**水平框**就追平/超过了用昂贵旋转框的 SOOD 基线（如
 - [\[CVPR 2026\] Fourier Angle Alignment for Oriented Object Detection in Remote Sensing](fourier_angle_alignment_for_oriented_object_detection_in_remote_sensing.md)
 - [\[ICLR 2026\] Bootstrapping MLLM for Weakly-Supervised Class-Agnostic Object Counting (WS-COC)](../../ICLR2026/object_detection/bootstrapping_mllm_for_weakly-supervised_class-agnostic_object_counting.md)
 - [\[CVPR 2026\] From Detection to Association: Learning Discriminative Object Embeddings for Multi-Object Tracking](from_detection_to_association_learning_discriminative_object_embeddings_for_mult.md)
-- [\[CVPR 2026\] Black-Box Domain Adaptation for Object Detection with Retention-Driven Knowledge Compression](black-box_domain_adaptation_for_object_detection_with_retention-driven_knowledge.md)
+- [\[CVPR 2026\] Parameterized Prompt for Incremental Object Detection](parameterized_prompt_for_incremental_object_detection.md)
 
 </div>
 

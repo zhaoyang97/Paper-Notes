@@ -110,6 +110,7 @@ Progress-Bench 含 240 条任务轨迹和 3,325 个采样观察，评测 14 个 
 | ProgressLM-3B-RL | 17.5 | 77.0 | 7.0 | 宏平均 NSE/PRC 优于 GPT-5 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|----------|------|
 | Qwen2.5-VL-3B，same-view | NSE 29.2 / PRC 43.0 / AFRR 9.9 | 小模型在同视角下已有基本视觉匹配能力 |
@@ -156,7 +157,7 @@ Progress-Bench 含 240 条任务轨迹和 3,325 个采样观察，评测 14 个 
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] The Illusion of Progress? A Critical Look at Test-Time Adaptation for Vision-Language Models](../../NeurIPS2025/multimodal_vlm/the_illusion_of_progress_a_critical_look_at_testtime_adaptat.md)
+- [\[CVPR 2026\] Progress-Think: Semantic Progress Reasoning for Vision-Language Navigation](../../CVPR2026/vlm_reasoning/progress-think_semantic_progress_reasoning_for_vision-language_navigation.md)
 - [\[ACL 2026\] VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning](vl-calibration_decoupled_confidence_calibration_for_large_vision-language_models.md)
 - [\[ACL 2026\] MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models](mmerror_a_benchmark_for_erroneous_reasoning_in_vision-language_models.md)
 - [\[ACL 2026\] GeoArena: Evaluating Open-World Geographic Reasoning in Large Vision-Language Models](geoarena_evaluating_open-world_geographic_reasoning_in_large_vision-language_mod.md)

@@ -110,6 +110,7 @@ $$L_{\text{total}} = L_{\text{rec}} + L_{\text{emb}} + \lambda_1 L_{\text{com}} 
 两个数据集、所有子类别上都全面领先，相对 STET 在 GRABMyo / NinaPro DB2 分别提升约 4.38% / 4.04%。
 
 ### 消融实验（GRABMyo Overall ACC）
+
 | 配置 | Overall ACC | 说明 |
 |------|---------|------|
 | Full Model | 95.14% | 完整模型 |
@@ -156,11 +157,11 @@ $$L_{\text{total}} = L_{\text{rec}} + L_{\text{emb}} + \lambda_1 L_{\text{com}} 
 
 ## 相关论文
 
-- [\[CVPR 2026\] Sign Language Recognition in the Age of LLMs](sign_language_recognition_llms.md)
 - [\[CVPR 2026\] MMGait: Towards Multi-Modal Gait Recognition](mmgait_multi_modal_gait_recognition.md)
-- [\[AAAI 2026\] KineST: A Kinematics-guided Spatiotemporal State Space Model for Human Motion Tracking from Sparse Signals](../../AAAI2026/human_understanding/kinest_a_kinematics-guided_spatiotemporal_state_space_model_for_human_motion_tra.md)
 - [\[CVPR 2026\] EventGait: Towards Robust Gait Recognition with Event Streams](eventgait_towards_robust_gait_recognition_with_event_streams.md)
+- [\[AAAI 2026\] KineST: A Kinematics-guided Spatiotemporal State Space Model for Human Motion Tracking from Sparse Signals](../../AAAI2026/human_understanding/kinest_a_kinematics-guided_spatiotemporal_state_space_model_for_human_motion_tra.md)
 - [\[CVPR 2026\] Region-Aware Instance Consistency Learning for Micro-Expression Recognition](region-aware_instance_consistency_learning_for_micro-expression_recognition.md)
+- [\[CVPR 2026\] Text-guided Feature Disentanglement for Cross-modal Gait Recognition](text-guided_feature_disentanglement_for_cross-modal_gait_recognition.md)
 
 </div>
 

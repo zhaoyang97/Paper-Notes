@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2406.02394](https://arxiv.org/abs/2406.02394)  
 **代码**: [glianorex-gen](https://github.com/maximegmd/glianorex-gen)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 医学基准测试、选择题评估、虚构知识、模式识别、临床推理
 
 ## 一句话总结

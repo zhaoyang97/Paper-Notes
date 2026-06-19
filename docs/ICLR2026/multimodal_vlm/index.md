@@ -1,22 +1,34 @@
 ---
 title: >-
-  ICLR2026 多模态VLM论文汇总 · 61篇论文解读
+  ICLR2026 多模态VLM论文汇总 · 71篇论文解读
 description: >-
-  61篇ICLR2026的多模态 VLM 方向论文解读，涵盖多模态、人脸/视线、持续学习、机器人、少样本学习、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  71篇ICLR2026的多模态 VLM 方向论文解读，涵盖多模态、少样本学习、人脸/视线、持续学习、机器人、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "多模态 VLM"
   - "论文解读"
   - "论文笔记"
   - "多模态"
+  - "少样本学习"
   - "人脸/视线"
   - "持续学习"
   - "机器人"
-  - "少样本学习"
   - "对齐/RLHF"
 item_list:
+  - u: "3d_aware_region_prompted_vision_language_model/"
+    t: "SR-3D: 3D-Aware Region Prompted Vision Language Model"
   - u: "a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi/"
     t: "A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models"
+  - u: "a_high_quality_dataset_and_reliable_evaluation_for_interleaved_image-text_genera/"
+    t: "A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation"
+  - u: "asynchronous_matching_with_dynamic_sampling_for_multimodal_dataset_distillation/"
+    t: "Asynchronous Matching with Dynamic Sampling for Multimodal Dataset Distillation"
+  - u: "basereward_a_strong_baseline_for_multimodal_reward_model/"
+    t: "BaseReward: A Strong Baseline for Multimodal Reward Model"
+  - u: "beyond_dags_a_latent_partial_causal_model_for_multimodal_learning/"
+    t: "Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning"
+  - u: "bilateral_information-aware_test-time_adaptation_for_vision-language_models/"
+    t: "Bilateral Information-aware Test-time Adaptation for Vision-Language Models"
   - u: "biocap_exploiting_synthetic_captions_beyond_labels_in_biological_foundation_mode/"
     t: "BioCAP: Exploiting Synthetic Captions Beyond Labels in Biological Foundation Models"
   - u: "bongard-rwr_real-world_representations_of_fine-grained_concepts_in_bongard_probl/"
@@ -25,12 +37,18 @@ item_list:
     t: "Breaking the Limits of Open-Weight CLIP: An Optimization Framework for Self-supervised Fine-tuning of CLIP"
   - u: "breaking_the_sft_plateau_multimodal_structured_reinforcement_learning_for_chart-/"
     t: "Breaking the SFT Plateau: Multimodal Structured Reinforcement Learning for Chart-to-Code Generation"
+  - u: "calibrated_information_bottleneck_for_trusted_multi-modal_clustering/"
+    t: "Calibrated Information Bottleneck for Trusted Multi-modal Clustering"
   - u: "can_vision-language_models_answer_face_to_face_questions_in_the_real-world/"
     t: "Can Vision-Language Models Answer Face to Face Questions in the Real-World?"
   - u: "capacity-aware_inference_mitigating_the_straggler_effect_in_mixture_of_experts/"
     t: "Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts"
+  - u: "carprt_class-aware_zero-shot_prompt_reweighting_for_vision-language_model/"
+    t: "CARPRT: Class-Aware Zero-Shot Prompt Reweighting for Vision-Language Model"
   - u: "citylens_evaluating_large_vision-language_models_for_urban_socioeconomic_sensing/"
     t: "CityLens: Evaluating Large Vision-Language Models for Urban Socioeconomic Sensing"
+  - u: "cityseeker_how_do_vlms_explore_embodied_urban_navigation_with_implicit_human_nee/"
+    t: "CitySeeker: How Do VLMs Explore Embodied Urban Navigation with Implicit Human Needs?"
   - u: "closing_the_modality_gap_aligns_group-wise_semantics/"
     t: "Closing the Modality Gap Aligns Group-Wise Semantics"
   - u: "constructive_distortion_improving_mllms_with_attention-guided_image_warping/"
@@ -57,39 +75,45 @@ item_list:
     t: "Enhancing Multi-Image Understanding through Delimiter Token Scaling"
   - u: "error_notebook-guided_training-free_part_retrieval_in_3d_cad_assemblies_via_visi/"
     t: "Error Notebook-Guided, Training-Free Part Retrieval in 3D CAD Assemblies via Vision-Language Models"
-  - u: "glyph-sr_can_we_achieve_both_high-quality_image_super-resolution_and_high-fideli/"
-    t: "GLYPH-SR: Can We Achieve Both High-Quality Image Super-Resolution and High-Fidelity Text Recovery via VLM-Guided Latent Diffusion Model?"
-  - u: "grasp_any_region_towards_precise_contextual_pixel_understanding_for_multimodal_l/"
-    t: "Grasp Any Region: Towards Precise, Contextual Pixel Understanding for Multimodal LLMs"
-  - u: "grounding-iqa_grounding_multimodal_language_model_for_image_quality_assessment/"
-    t: "Grounding-IQA: Grounding Multimodal Language Models for Image Quality Assessment"
-  - u: "how_do_medical_mllms_fail_a_study_on_visual_grounding_in_medical_images/"
-    t: "How Do Medical MLLMs Fail? A Study on Visual Grounding in Medical Images"
-  - u: "icym2i_the_illusion_of_multimodal_informativeness_under_missingness/"
-    t: "ICYM2I: The Illusion of Multimodal Informativeness under Missingness"
-  - u: "k-sort_eval_efficient_preference_evaluation_for_visual_generation_via_corrected_/"
-    t: "K-Sort Eval: Efficient Preference Evaluation for Visual Generation via Corrected VLM-as-a-Judge"
-  - u: "keeplora_continual_learning_with_residual_gradient_adaptation/"
-    t: "KeepLoRA: Continual Learning with Residual Gradient Adaptation"
-  - u: "liveweb-ie_a_benchmark_for_online_web_information_extraction/"
-    t: "LiveWeb-IE: A Benchmark For Online Web Information Extraction"
-  - u: "llava-fa_learning_fourier_approximation_for_compressing_large_multimodal_models/"
-    t: "LLaVA-FA: Learning Fourier Approximation for Compressing Large Multimodal Models"
-item_total: 61
+item_total: 71
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🔬 ICLR2026** · **61** 篇论文解读
+**🔬 ICLR2026** · **71** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (404)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (76)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (79)](../../ACL2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (119)](../../ICCV2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (418)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (89)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (82)](../../ACL2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (119)](../../ICCV2025/multimodal_vlm/index.md)
 
-🔥 **高频主题：** 多模态 ×31 · 人脸/视线 ×2 · 持续学习 ×2 · 机器人 ×2 · 少样本学习 ×2
+🔥 **高频主题：** 多模态 ×38 · 少样本学习 ×3 · 人脸/视线 ×2 · 持续学习 ×2 · 机器人 ×2
+
+**[SR-3D: 3D-Aware Region Prompted Vision Language Model](3d_aware_region_prompted_vision_language_model.md)**
+
+:   SR-3D 通过把深度估计得到的 3D 位置编码直接注入 2D 基础 VLM 的视觉 token，并配一个动态切片区域抽取器，让同一个模型既能处理单视图图像又能处理多视图视频，支持在任意一帧上画框/涂 mask 就能跨帧做精确的 3D 空间推理，在 2D/3D 多个 benchmark 上都拿到 SOTA。
 
 **[A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models](a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi.md)**
 
 :   提出 A-TPT 框架，通过最大化归一化文本特征在单位超球面上的最小成对角距离来促进角度多样性，解决测试时提示调优 (TPT) 中 VLM 预测过度自信导致的校准不良问题，在自然分布偏移和医学数据集上均优于现有 TPT 校准方法。
+
+**[A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation](a_high_quality_dataset_and_reliable_evaluation_for_interleaved_image-text_genera.md)**
+
+:   针对统一多模态大模型（LMM）"图文交错生成"训练数据稀缺、评测不可靠两大痛点，本文造了一个 180 万样本、3500 主题、带自动质检（SEIR 迭代精修）的大规模数据集 InterSyn，并训练了一个与人类打分高度一致（A@1 达 95.4%）、输出四维可解释分数的评判模型 SynJudge，实验证明用 InterSyn 微调只需 25K–50K 样本就能显著提升交错生成能力。
+
+**[Asynchronous Matching with Dynamic Sampling for Multimodal Dataset Distillation](asynchronous_matching_with_dynamic_sampling_for_multimodal_dataset_distillation.md)**
+
+:   针对图文数据集蒸馏中"图像和文本网络优化节奏不同步"的问题，本文提出 AMD 框架：解耦图、文专家轨迹的采样起点做**异步轨迹匹配**，用 MMD 衡量收敛速度差异来**动态确定两模态各自的采样范围**，并用**语义原型挖掘**替代随机初始化，在 Flickr30k / COCO 上以几乎零额外开销显著刷新蒸馏检索性能（Flickr30k 200 对设置下 IR@1/@5/@10 提升 4.5%/9.6%/10.9%）。
+
+**[BaseReward: A Strong Baseline for Multimodal Reward Model](basereward_a_strong_baseline_for_multimodal_reward_model.md)**
+
+:   这篇论文不发明新结构，而是把"怎么造一个 SOTA 多模态奖励模型（MRM）"拆成范式、奖励头、正则化、数据、骨干/规模、集成六个维度逐一做消融，得出一份明确的"食谱"，并据此搭出 BaseReward——基于 Qwen2.5-VL-7B + 两层 SiLU MLP 奖励头 + 精挑混合偏好数据的简洁强基线，在 MM-RLHF-Reward Bench、VL-Reward Bench 等主流榜上刷新 SOTA，且推理远快于生成式奖励模型。
+
+**[Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning](beyond_dags_a_latent_partial_causal_model_for_multimodal_learning.md)**
+
+:   本文指出大规模多模态数据并不服从单一有向无环图（DAG）的生成假设，提出一个用"无向边连接两组潜在耦合变量"的潜在偏因果模型，并在球面和凸体两种潜在空间上证明：CLIP 这类多模态对比学习（MMCL）学到的表示与真实潜变量分别相差一个线性正交变换 / 置换变换，从而第一次给出 MMCL 的"逐分量解耦"理论保证，并把它落到 FastICA / PCA+FastICA 这种即插即用的解耦流程上，在少样本学习和域泛化上拿到提升。
+
+**[Bilateral Information-aware Test-time Adaptation for Vision-Language Models](bilateral_information-aware_test-time_adaptation_for_vision-language_models.md)**
+
+:   针对 CLIP 这类视觉语言模型在测试时适应（TTA）时只用"固定比例低熵样本"导致过拟合非典型特征的问题，本文提出 BITTA：同时用**动态比例**的低熵样本"学习"核心表征、用高熵样本"反学习"非典型特征，在 CIFAR-10/100-C、ImageNet-C 等损坏数据集上把多种 TTA 方法的平均准确率稳定提升约 1–2 个点。
 
 **[BioCAP: Exploiting Synthetic Captions Beyond Labels in Biological Foundation Models](biocap_exploiting_synthetic_captions_beyond_labels_in_biological_foundation_mode.md)**
 
@@ -107,6 +131,10 @@ item_total: 61
 
 :   针对图表到代码生成任务中SFT的性能瓶颈问题，提出多模态结构化强化学习（MSRL），通过文本+视觉双层奖励函数和两阶段RL策略，在ChartMimic和ReachQA上分别提升6.2%和9.9%的高层指标，达到开源SOTA并媲美GPT-4o。
 
+**[Calibrated Information Bottleneck for Trusted Multi-modal Clustering](calibrated_information_bottleneck_for_trusted_multi-modal_clustering.md)**
+
+:   针对信息瓶颈（IB）多模态聚类高度依赖"准确的互信息估计 + 干净伪标签"这两件做不到的事，本文提出 CLIB——用"一个主聚类头 + 多个模态校准头"的并行多头结构，让模态间互相纠偏，再配上一个基于信息冗余度的动态伪标签筛选机制，既把聚类准确率（Caltech-3V 上 ACC 77.8%）做上去，又把过自信问题（ECE 在多个数据集上腰斩）压下来。
+
 **[Can Vision-Language Models Answer Face to Face Questions in the Real-World?](can_vision-language_models_answer_face_to_face_questions_in_the_real-world.md)**
 
 :   提出 QIVD（Qualcomm Interactive Video Dataset），一个面对面实时问答 benchmark（2900 个视频+音频+时间戳标注），揭示现有 VLM 在实时情境理解上远落后人类（最佳模型 60% vs 人类 87%），主要瓶颈在指代消歧、回答时机判断和情境常识，微调可显著缩小差距。
@@ -115,9 +143,17 @@ item_total: 61
 
 :   针对 MoE 推理时因 token 分配不均导致的 Straggler Effect（最重负载专家决定整体延迟），提出 Capacity-Aware Token Drop（丢弃过载专家的低分 token）和 Expanded Drop（将溢出 token 重路由到本地低负载专家），在 Mixtral-8×7B 上实现 1.85× 加速且性能提升 0.2%。
 
+**[CARPRT: Class-Aware Zero-Shot Prompt Reweighting for Vision-Language Model](carprt_class-aware_zero-shot_prompt_reweighting_for_vision-language_model.md)**
+
+:   CARPRT 指出现有 VLM 提示集成方法给每个提示模板分配的权重是「全类共享」的，违背了「不同提示对不同类别亲和度不同」的事实；它用一套免训练、纯黑盒（只查相似度分数）的两阶段流程，为每个类别单独估计一组提示权重，在 11 个零样本分类基准上稳定超过 MPE / WPE 乃至人工筛选提示。
+
 **[CityLens: Evaluating Large Vision-Language Models for Urban Socioeconomic Sensing](citylens_evaluating_large_vision-language_models_for_urban_socioeconomic_sensing.md)**
 
 :   构建 CityLens——迄今最大规模的城市社会经济感知 benchmark（17 城市、6 大领域、11 个预测任务），评估 17 个 LVLM 在直接预测、归一化估计、特征回归三种范式下从卫星/街景图像推断社会经济指标的能力，发现通用 LVLM 在多数任务上仍不及领域特化的对比学习方法。
+
+**[CitySeeker: How Do VLMs Explore Embodied Urban Navigation with Implicit Human Needs?](cityseeker_how_do_vlms_explore_embodied_urban_navigation_with_implicit_human_nee.md)**
+
+:   CitySeeker 构造了首个面向"隐式人类需求"的具身城市导航 benchmark（8 城、6,440 条真实街景轨迹、7 类需求），用统一的 ReAct 式导航框架评测 27 个 VLM，发现最强模型任务完成率也只有 21.1%，远落后于人类，并提出回溯 / 空间认知增强 / 记忆检索（BCR）三类受人类认知启发的策略把性能推到 26.9%。
 
 **[Closing the Modality Gap Aligns Group-Wise Semantics](closing_the_modality_gap_aligns_group-wise_semantics.md)**
 
@@ -286,6 +322,10 @@ item_total: 61
 **[U-MARVEL: Unveiling Key Factors for Universal Multimodal Retrieval via Embedding Learning](u-marvel_unveiling_key_factors_for_universal_multimodal_retrieval_via_embedding_.md)**
 
 :   系统消融MLLM嵌入学习的设计空间，揭示双向注意力+mean pooling优于主流last token、可学习温度被严重低估等关键因子，据此构建U-MARVEL三阶段框架（渐进过渡→过滤硬负→重排蒸馏），在M-BEIR上以单模型63.2% Avg大幅超越现有SOTA，零样本迁移CIR和T2V同样领先。
+
+**[Understanding vs. Generation: Navigating Optimization Dilemma in Multimodal Models](understanding_vs_generation_navigating_optimization_dilemma_in_multimodal_models.md)**
+
+:   针对统一多模态模型里"提升生成就掉理解、提升理解就掉生成"的优化困境，本文提出 Reason-Reflect-Refine（R3）框架，把单步图像生成改写成"推理→生成→反思→再生成"的多步链式过程，让生成内在依赖模型的理解能力，再用树状强化学习训练，最终在 BAGEL 上同时把生成（GenEval++ 0.371→0.689）和理解（ITA 60.6→73.4）都显著拉高。
 
 **[Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs](uni-dpo_a_unified_paradigm_for_dynamic_preference_optimization_of_llms.md)**
 

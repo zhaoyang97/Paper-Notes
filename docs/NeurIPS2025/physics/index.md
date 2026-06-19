@@ -83,7 +83,7 @@ item_total: 57
 
 **🧠 NeurIPS2025** · **57** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/physics/index.md) · [🧪 ICML2026 (26)](../../ICML2026/physics/index.md) · [🔬 ICLR2026 (17)](../../ICLR2026/physics/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/physics/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/physics/index.md) · [🧪 ICML2025 (20)](../../ICML2025/physics/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/physics/index.md) · [🧪 ICML2026 (33)](../../ICML2026/physics/index.md) · [🔬 ICLR2026 (27)](../../ICLR2026/physics/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/physics/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/physics/index.md) · [🧪 ICML2025 (20)](../../ICML2025/physics/index.md)
 
 🔥 **高频主题：** 域适应 ×3 · 扩散模型 ×2
 

@@ -135,7 +135,7 @@ SA-VAE 训练 300K 迭代（200K lr=2e-4 + 100K lr=1e-5），batch size 256，�
 - [\[ECCV 2024\] HUMOS: Human Motion Model Conditioned on Body Shape](../../ECCV2024/human_understanding/humos_human_motion_model_conditioned_on_body_shape.md)
 - [\[CVPR 2025\] StickMotion: Generating 3D Human Motions by Drawing a Stickman](stickmotion_generating_3d_human_motions_by_drawing_a_stickman.md)
 - [\[AAAI 2026\] Generating Attribute-Aware Human Motions from Textual Prompt](../../AAAI2026/human_understanding/generating_attribute-aware_human_motions_from_textual_prompt.md)
-- [\[CVPR 2025\] SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction](simmotionedit_text-based_human_motion_editing_with_motion_similarity_prediction.md)
+- [\[CVPR 2026\] Towards Storytelling Animations: Joint Synthesis of Human and Camera Motions](../../CVPR2026/human_understanding/towards_storytelling_animations_joint_synthesis_of_human_and_camera_motions.md)
 
 </div>
 

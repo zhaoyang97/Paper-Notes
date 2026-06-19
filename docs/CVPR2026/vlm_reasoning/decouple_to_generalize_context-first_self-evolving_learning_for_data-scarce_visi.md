@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][视觉语言推理] 针对化学、地球科学、多模态数学这些缺高质量标注的专业领域，DoGe 把 VLM 的强化学习自进化拆成"认知过程解耦"（先让 Thinker 抛开题目只读上下文做分析、再让它解题）和"数据解耦"（知识池 + 种子题库的迭代课程合成）两条线，用一个两阶段 RL 循环避免合成数据导致的 reward hacking 和熵塌缩，3B/7B 模型在 7 个 benchmark 上平均提升 5.7% / 2.3%。
+  [CVPR 2026][VLM Reasoning][视觉语言推理] 针对化学、地球科学、多模态数学这些缺高质量标注的专业领域，DoGe 把 VLM 的强化学习自进化拆成"认知过程解耦"（先让 Thinker 抛开题目只读上下文做分析、再让它解题）和"数据解耦"（知识池 + 种子题库的迭代课程合成）两条线，用一个两阶段 RL 循环避免合成数据导致的 reward hacking 和熵塌缩，3B/7B 模型在 7 个 benchmark 上平均提升 5.7% / 2.3%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉语言推理"
   - "强化学习"
   - "自进化LVLM"
@@ -146,11 +146,11 @@ $$r_{\text{app}} = \mathbb{E}_{\hat{y}\sim\pi_T^{(t+1)}(\cdot|x,q)}\big[\mathbb{
 
 ## 相关论文
 
-- [\[CVPR 2026\] VisPlay: Self-Evolving Vision-Language Models](visplay_self-evolving_vision-language_models.md)
+- [\[CVPR 2026\] HoneyBee: Data Recipes for Vision-Language Reasoners](honeybee_data_recipes_for_vision-language_reasoners.md)
+- [\[CVPR 2026\] Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)
+- [\[CVPR 2026\] Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory](evolving_contextual_safety_in_multi-modal_large_language_models_via_inference-ti.md)
+- [\[CVPR 2026\] MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models](moe-grpo_optimizing_mixture-of-experts_via_reinforcement_learning_in_vision-lang.md)
 - [\[CVPR 2026\] OVOD-Agent: A Markov-Bandit Framework for Proactive Visual Reasoning and Self-Evolving Detection](ovod-agent_a_markov-bandit_framework_for_proactive_visual_reasoning_and_self-evo.md)
-- [\[CVPR 2026\] Multimodal Learning on Low-Quality Data with Conformal Predictive Self-Calibration](multimodal_learning_on_low-quality_data_with_conformal_predictive_self-calibrati.md)
-- [\[CVPR 2026\] EvoGraph-R1: Self-Evolving Multimodal Knowledge Hypergraphs for Agentic Retrieval](evograph-r1_self-evolving_multimodal_knowledge_hypergraphs_for_agentic_retrieval.md)
-- [\[CVPR 2026\] Why Does RL Generalize Better Than SFT? A Data-Centric Perspective on VLM Post-Training](why_does_rl_generalize_better_than_sft_a_data-centric_perspective_on_vlm_post-tr.md)
 
 </div>
 

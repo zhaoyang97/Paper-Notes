@@ -82,6 +82,7 @@ $$\gamma_t = 1 - \cos^2\!\Big(\frac{\pi t}{2 T_g}\Big)$$
 在 ImageNet 256×256 上以 MAR 为 backbone，AR 步数 64、扩散头采样步 100，前瞻步 $k$ 对 MAR-B/-L/-H 取 7/8/9，引导采样步 $T_g=10$，$\lambda=0.8$，4×RTX 3090、batch=8。主实验生成 5 万张算 FID/IS。
 
 ### 主实验
+
 | 模型 | #Param | FID↓ | IS↑ | 显存(MB) | 运行时间(s) | 加速比 |
 |------|--------|------|-----|----------|-------------|--------|
 | MAR-B-64 (基线) | 208M | 2.32 | 281.1 | 2030 | 21.4 | 1× |
@@ -164,9 +165,9 @@ $$\gamma_t = 1 - \cos^2\!\Big(\frac{\pi t}{2 T_g}\Big)$$
 
 - [\[CVPR 2026\] Parallel Jacobi Decoding for Fast Autoregressive Image Generation](parallel_jacobi_decoding_for_fast_autoregressive_image_generation.md)
 - [\[CVPR 2026\] SJD-PAC: Accelerating Speculative Jacobi Decoding via Proactive Drafting and Adaptive Continuation](sjd-pac_accelerating_speculative_jacobi_decoding_via_proactive_drafting_and_adap.md)
+- [\[CVPR 2026\] Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling](accelerating_diffusion_via_hybrid_data-pipeline_parallelism_based_on_conditional.md)
 - [\[AAAI 2026\] Annealed Relaxation of Speculative Decoding for Faster Autoregressive Image Generation](../../AAAI2026/image_generation/annealed_relaxation_of_speculative_decoding_for_faster_autor.md)
 - [\[ICLR 2026\] Autoregressive Image Generation with Randomized Parallel Decoding](../../ICLR2026/image_generation/autoregressive_image_generation_with_randomized_parallel_decoding.md)
-- [\[ICCV 2025\] Grouped Speculative Decoding for Autoregressive Image Generation](../../ICCV2025/image_generation/grouped_speculative_decoding_for_autoregressive_image_generation.md)
 
 </div>
 

@@ -74,6 +74,7 @@ RoPE 让注意力分布变弥散，肉眼已难判断电路是否形成，所以
 放大效应：在 6 个 VL-ICL 子任务上，Qwen2.5-VL 从 3B 到 7B 平均提升 +2.3%，IDEFICS 从 9B 到 80B 提升 +10.5%。
 
 ### 消融实验
+
 | 配置 | ICL 准确率 ($\pm\sigma$) | 说明 |
 |------|------|------|
 | 合成多模态完整模型 | $0.970\pm 0.025$ | 基线 |
@@ -122,10 +123,10 @@ RoPE 让注意力分布变弥散，肉眼已难判断电路是否形成，所以
 
 ## 相关论文
 
+- [\[ICLR 2026\] Block Recurrent Dynamics in Vision Transformers](../../ICLR2026/interpretability/block_recurrent_dynamics_in_vision_transformers.md)
+- [\[ICML 2026\] Scalable Circuit Learning for Interpreting Large Language Models](scalable_circuit_learning_for_interpreting_large_language_models.md)
 - [\[ICLR 2026\] Implicit Statistical Inference in Transformers: Approximating Likelihood-Ratio Tests In-Context](../../ICLR2026/interpretability/implicit_statistical_inference_in_transformers_approximating_likelihood-ratio_te.md)
-- [\[NeurIPS 2025\] Uncovering Graph Reasoning in Decoder-only Transformers with Circuit Tracing](../../NeurIPS2025/interpretability/uncovering_graph_reasoning_in_decoder-only_transformers_with_circuit_tracing.md)
 - [\[NeurIPS 2025\] Understanding Prompt Tuning and In-Context Learning via Meta-Learning](../../NeurIPS2025/interpretability/understanding_prompt_tuning_and_in-context_learning_via_meta-learning.md)
-- [\[ICML 2025\] On the Power of Context-Enhanced Learning in LLMs](../../ICML2025/interpretability/on_the_power_of_context-enhanced_learning_in_llms.md)
 - [\[ICML 2026\] Optimal Attention Temperature Improves the Robustness of In-Context Learning under Distribution Shift in High Dimensions](optimal_attention_temperature_improves_the_robustness_of_in-context_learning_und.md)
 
 </div>

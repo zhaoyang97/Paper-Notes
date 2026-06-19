@@ -134,10 +134,10 @@ RDNet 由三个核心模块组成：预训练层级特征提取器（PHE）从�
 ## 相关论文
 
 - [\[CVPR 2026\] LightRR: A Lightweight Network for Single Image Reflection Removal](../../CVPR2026/image_restoration/lightrr_a_lightweight_network_for_single_image_reflection_removal.md)
+- [\[CVPR 2026\] GFRRN: Explore the Gaps in Single Image Reflection Removal](../../CVPR2026/image_restoration/gfrrn_explore_the_gaps_in_single_image_reflection_removal.md)
 - [\[CVPR 2025\] Gyro-based Neural Single Image Deblurring](gyro-based_neural_single_image_deblurring.md)
+- [\[CVPR 2026\] Rectifying Latent Space for Generative Single-Image Reflection Removal](../../CVPR2026/image_restoration/rectifying_latent_space_for_generative_single-image_reflection_removal.md)
 - [\[CVPR 2025\] PolarFree: Polarization-based Reflection-Free Imaging](polarfree_polarization-based_reflection-free_imaging.md)
-- [\[CVPR 2025\] Progressive Focused Transformer for Single Image Super-Resolution](progressive_focused_transformer_for_single_image_super-resolution.md)
-- [\[CVPR 2025\] Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images](tokenize_image_patches_global_context_fusion_for_effective_haze_removal_in_large.md)
 
 </div>
 

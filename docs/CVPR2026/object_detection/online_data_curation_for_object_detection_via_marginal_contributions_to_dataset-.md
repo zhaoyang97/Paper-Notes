@@ -77,6 +77,7 @@ $$\delta^{TP}_{AP}(s)=\frac{1}{T^{GT}_c}\!\left[\frac{T(1-s)+1}{A(1-s)+1}+\frac{
 > 指标说明：**AP** 为 COCO 标准 AP@[50:95]（在 10 个 IoU 阈值上平均），**AP@50** 为 IoU=0.5 下的 AP；**$\delta mAP$（DetGain）** 为一张图对数据集级 mAP 的边际贡献；学习度 $s_{DG}$ 为师生 DetGain 之差；选择比 $k=b/B$；Spearman $\rho$ 衡量两种先验下逐图打分排序的一致性。
 
 ### 主结果（COCO val2017，学生 ResNet-50；+DetGain 子采样比 20% + 强增强）
+
 | 检测器 | 类型 | Baseline AP | +Data Aug. AP | +DetGain AP |
 |--------|------|-------------|---------------|-------------|
 | Faster R-CNN | 两阶段·anchor | 37.5 | 37.5 (+0.1) | **40.0 (+2.5)** |
@@ -89,6 +90,7 @@ $$\delta^{TP}_{AP}(s)=\frac{1}{T^{GT}_c}\!\left[\frac{T(1-s)+1}{A(1-s)+1}+\frac{
 六种检测器平均约 +2.0 mAP，且**仅改采样策略、不动架构/loss/计划**；单纯强增强经常无益甚至掉点（如 ATSS −0.8），但叠加 DetGain 后能过滤低质增强、稳定提升。
 
 ### 与其他在线采样指标对比（COCO val2017，AP）
+
 | 采样指标 | Faster R-CNN | FCOS | ATSS |
 |----------|-------------|------|------|
 | Uniform（基线） | 37.3 | 38.2 | 39.4 |
@@ -101,6 +103,7 @@ $$\delta^{TP}_{AP}(s)=\frac{1}{T^{GT}_c}\!\left[\frac{T(1-s)+1}{A(1-s)+1}+\frac{
 loss/梯度类指标随检测器内部 loss 缩放与动态而大幅波动（hard mining 甚至低于基线），DetGain 因直接对齐数据集级 mAP，跨架构一致且最高。
 
 ### 消融：增强与在线采样的互补性（Faster R-CNN，COCO）
+
 | 强增强 | 在线采样 | Train AP | Val AP |
 |--------|----------|----------|--------|
 | ✗ | ✗ | 44.6 | 37.4 |
@@ -148,8 +151,8 @@ loss/梯度类指标随检测器内部 loss 缩放与动态而大幅波动（har
 - [\[CVPR 2025\] Interpreting Object-level Foundation Models via Visual Precision Search](../../CVPR2025/object_detection/interpreting_object-level_foundation_models_via_visual_precision_search.md)
 - [\[CVPR 2026\] Reasoning-Driven Anomaly Detection and Localization with Image-Level Supervision](reasoning-driven_anomaly_detection_and_localization_with_image-level_supervision.md)
 - [\[CVPR 2026\] Heuristic-inspired Reasoning Priors Facilitate Data-Efficient Referring Object Detection](heuristic-inspired_reasoning_priors_facilitate_data-efficient_referring_object_d.md)
-- [\[CVPR 2026\] HeROD: Heuristic-inspired Reasoning Priors Facilitate Data-Efficient Referring Object Detection](herod_heuristic_inspired_reasoning_data_efficient_rod.md)
 - [\[CVPR 2026\] Toward Generalizable Whole Brain Representations with High-Resolution Light-Sheet Data](toward_generalizable_whole_brain_representations_with_high-resolution_light-shee.md)
+- [\[CVPR 2026\] MMR-AD: A Large-Scale Multimodal Dataset for Benchmarking General Anomaly Detection with MLLMs](mmrad_multimodal_anomaly_detection.md)
 
 </div>
 

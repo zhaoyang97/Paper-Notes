@@ -138,9 +138,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] RCCDA: Adaptive Model Updates in the Presence of Concept Drift under a Constrained Resource Budget](rccda_adaptive_model_updates_in_the_presence_of_concept_drift_under_a_constraine.md)
-- [\[ICML 2025\] Q-resafe: Assessing Safety Risks and Quantization-aware Safety Patching for Quantized Large Language Models](../../ICML2025/model_compression/q-resafe_assessing_safety_risks_and_quantization-aware_safety_patching_for_quant.md)
+- [\[ICLR 2026\] Beyond Outliers: A Study of Optimizers Under Quantization](../../ICLR2026/model_compression/beyond_outliers_a_study_of_optimizers_under_quantization.md)
 - [\[NeurIPS 2025\] Perturbation Bounds for Low-Rank Inverse Approximations under Noise](perturbation_bounds_for_low-rank_inverse_approximations_under_noise.md)
-- [\[ACL 2026\] MTA: Multi-Granular Trajectory Alignment for Large Language Model Distillation](../../ACL2026/model_compression/mta_multi-granular_trajectory_alignment_for_large_language_model_distillation.md)
+- [\[ICML 2025\] Q-resafe: Assessing Safety Risks and Quantization-aware Safety Patching for Quantized Large Language Models](../../ICML2025/model_compression/q-resafe_assessing_safety_risks_and_quantization-aware_safety_patching_for_quant.md)
 - [\[NeurIPS 2025\] FiRA: Can We Achieve Full-Rank Training of LLMs Under Low-Rank Constraint?](fira_can_we_achieve_full-rank_training_of_llms_under_low-rank_constraint.md)
 
 </div>

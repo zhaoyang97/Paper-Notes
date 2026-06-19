@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models
 description: >-
-  [CVPR 2026][多模态VLM][全模态大模型] OmniZip 是首个面向全模态大模型（OmniLLM）音视频联合理解的**免训练** token 压缩框架：它用音频 token 的注意力分布作为「信息密度 / 事件边界」先验，在每个时间窗内动态地决定视频 token 的剪枝率，再用交错时空压缩模块（ISTC）压缩视频 token，在 Qwen2.5-Omni 上实现 3.42× prefill 加速、1.4× 显存下降，且几乎不掉点。
+  [CVPR 2026][VLM Efficiency][全模态大模型] OmniZip 是首个面向全模态大模型（OmniLLM）音视频联合理解的**免训练** token 压缩框架：它用音频 token 的注意力分布作为「信息密度 / 事件边界」先验，在每个时间窗内动态地决定视频 token 的剪枝率，再用交错时空压缩模块（ISTC）压缩视频 token，在 Qwen2.5-Omni 上实现 3.42× prefill 加速、1.4× 显存下降，且几乎不掉点。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "全模态大模型"
   - "Token 压缩"
   - "音频引导"
@@ -104,6 +104,7 @@ $$\rho_v'(i) = \rho_{max} - (\rho_{max}-\rho_{min})\cdot S_a(i),$$
 OmniZip 同时拿下最低显存（省 10G）、最高加速（prefill 3.42×、整体 1.42×）和最优精度。Fig. 6 进一步显示：视频越长加速越明显，VideoMME 上 prefill 可达 3.8×，而 FastV 在该设置直接 OOM。
 
 ### 消融实验
+
 | 配置 | AVUT | WorldSense | ShortVid | 说明 |
 |------|------|------|------|------|
 | Full（45% 保留，DP+AC 全开） | 63.0 | 45.9 | 69.9 | 完整模型 |
@@ -157,10 +158,10 @@ token 选择方法对比（Tab. 4，7B）：
 ## 相关论文
 
 - [\[CVPR 2026\] EvoComp: Learning Visual Token Compression for Multimodal Large Language Models via Semantic-Guided Evolutionary Labeling](evocomp_learning_visual_token_compression_for_multimodal_large_language_models_v.md)
-- [\[CVPR 2026\] ApET: Approximation-Error Guided Token Compression for Efficient VLMs](apet_approximation-error_guided_token_compression_for_efficient_vlms.md)
-- [\[CVPR 2026\] On Token's Dilemma: Dynamic MoE with Drift-Aware Token Assignment for Continual Learning of Large Vision Language Models](on_tokens_dilemma_dynamic_moe_with_drift-aware_token_assignment_for_continual_le.md)
+- [\[CVPR 2026\] Accelerating Streaming Video Large Language Models via Hierarchical Token Compression](accelerating_streaming_video_large_language_models_via_hierarchical_token_compre.md)
 - [\[CVPR 2026\] Dynamic Token Reweighting for Robust Vision-Language Models](dynamic_token_reweighting_for_robust_vision-language_models.md)
-- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
+- [\[CVPR 2026\] ApET: Approximation-Error Guided Token Compression for Efficient VLMs](apet_approximation-error_guided_token_compression_for_efficient_vlms.md)
+- [\[CVPR 2026\] Hybrid Token Compression for Vision-Language Models](hybrid_token_compression_for_vision-language_models.md)
 
 </div>
 

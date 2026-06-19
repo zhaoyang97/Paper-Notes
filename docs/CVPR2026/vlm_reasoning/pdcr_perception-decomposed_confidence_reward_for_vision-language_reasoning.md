@@ -2,10 +2,10 @@
 title: >-
   [论文解读] PDCR: Perception-Decomposed Confidence Reward for Vision-Language Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][视觉语言推理] 针对"把语言域里的置信度增长过程奖励直接搬到视觉语言推理"会因为视觉感知步骤稀疏、被密集文本推理步骤的统计量淹没（mixture-induced signal degradation）的问题，PDCR 用一个模型自带的 Visual Dependence Score + Otsu 阈值把每一步无监督地分成"看图(感知)"和"想(推理)"两簇，再在各自簇内独立做 min-max 归一化算 advantage，从而给稀疏的视觉步骤一个不被文本步骤压扁的、尺度正确的奖励信号，在 7 个 V-L 推理 benchmark 上稳定超过 GRPO/DAPO/PACR。
+  [CVPR 2026][VLM Reasoning][视觉语言推理] 针对"把语言域里的置信度增长过程奖励直接搬到视觉语言推理"会因为视觉感知步骤稀疏、被密集文本推理步骤的统计量淹没（mixture-induced signal degradation）的问题，PDCR 用一个模型自带的 Visual Dependence Score + Otsu 阈值把每一步无监督地分成"看图(感知)"和"想(推理)"两簇，再在各自簇内独立做 min-max 归一化算 advantage，从而给稀疏的视觉步骤一个不被文本步骤压扁的、尺度正确的奖励信号，在 7 个 V-L 推理 benchmark 上稳定超过 GRPO/DAPO/PACR。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉语言推理"
   - "RLVR"
   - "过程奖励"
@@ -153,11 +153,11 @@ PDCR 在两种模型规模上都拿到最高平均分。相对全局归一化的
 
 ## 相关论文
 
-- [\[CVPR 2026\] Linking Perception, Confidence and Accuracy in MLLMs](linking_perception_confidence_and_accuracy_in_mllms.md)
-- [\[ICML 2026\] Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding](../../ICML2026/multimodal_vlm/decomposed_on-policy_distillation_for_vision-language_reasoning_steering_gradien.md)
-- [\[CVPR 2026\] Perception Programs: Unlocking Visual Tool Reasoning in Language Models](perception_programs_visual_tool_reasoning.md)
-- [\[CVPR 2026\] CICA: Coupling Confidence-Aware Pretraining with Confidence-Informed Attention for Robust Multimodal Sentiment Analysis](cica_coupling_confidence-aware_pretraining_with_confidence-informed_attention_fo.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
 - [\[CVPR 2026\] Hierarchical Process Reward Models are Symbolic Vision Learners](hierarchical_process_reward_models_are_symbolic_vision_learners.md)
+- [\[CVPR 2026\] Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning](decouple_to_generalize_context-first_self-evolving_learning_for_data-scarce_visi.md)
+- [\[ICML 2026\] Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding](../../ICML2026/vlm_reasoning/decomposed_on-policy_distillation_for_vision-language_reasoning_steering_gradien.md)
+- [\[CVPR 2026\] Breaking the Regional Perception Bottleneck of Multimodal Large Language Models via External Reasoning Framework](breaking_the_regional_perception_bottleneck_of_multimodal_large_language_models_.md)
 
 </div>
 

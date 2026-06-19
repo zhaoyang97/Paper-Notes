@@ -107,8 +107,8 @@ tags:
 - [\[ACL 2025\] Can Uniform Meaning Representation Help GPT-4 Translate from Indigenous Languages?](can_uniform_meaning_representation_help_gpt-4_translate_from_indigenous_language.md)
 - [\[ACL 2025\] CiteEval: Principle-Driven Citation Evaluation for Source Attribution](citeeval_principle-driven_citation_evaluation_for_source_attribution.md)
 - [\[ACL 2025\] RoToR: Towards More Reliable Responses for Order-Invariant Inputs](rotor_towards_more_reliable_responses_for_order-invariant_inputs.md)
-- [\[CVPR 2026\] Reliable Clustering Number Estimation for Contrastive Multi-View Clustering](../../CVPR2026/others/reliable_clustering_number_estimation_for_contrastive_multi-view_clustering.md)
 - [\[ACL 2025\] Causal Estimation of Tokenisation Bias](causal_tokenisation_bias.md)
+- [\[ACL 2025\] The Noisy Path from Source to Citation: Measuring How Scholars Engage with Past Research](the_noisy_path_from_source_to_citation_measuring_how_scholars_engage_with_past_r.md)
 
 </div>
 

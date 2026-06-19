@@ -163,7 +163,7 @@ TwinVLA对光照变化鲁棒，在语言跟随评测中平均超越RDT-1B 21.8%�
 - [\[ICLR 2026\] VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation](vlbiman_vision-language_anchored_one-shot_demonstration_enables_generalizable_bi.md)
 - [\[ICML 2026\] StableVLA: Towards Robust Vision-Language-Action Models without Extra Data](../../ICML2026/robotics/stablevla_towards_robust_vision-language-action_models_without_extra_data.md)
 - [\[ICML 2026\] Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation](../../ICML2026/robotics/seeing_realism_from_simulation_efficient_video_transfer_for_vision-language-acti.md)
-- [\[ICLR 2026\] ST4VLA: Spatially Guided Training for Vision-Language-Action Models](st4vla_spatially_guided_training_for_vision-language-action_models.md)
+- [\[ICLR 2026\] Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation](action-aware_dynamic_pruning_for_efficient_vision-language-action_manipulation.md)
 
 </div>
 

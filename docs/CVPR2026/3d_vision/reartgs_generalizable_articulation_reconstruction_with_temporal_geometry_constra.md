@@ -91,6 +91,7 @@ PGSR 那种"法向 $\bar{\mathbf{N}}$（由深度局部块叉积反算）对齐�
 在多部件物体上，ArtGS/REArtGS 因依赖关节类型先验、一旦先验判错（如 Table 31249、Storage 47468）轴参数严重退化；REArtGS++ 不需类型估计，鲁棒性远超。
 
 ### 消融实验
+
 | 配置 | Axis Ang ↓ | Axis Pos ↓ | CD-m ↓ | 说明 |
 |------|-----------|-----------|--------|------|
 | 完整模型（w/ all） | **0.41** | **1.18** | **2.38** | 全组件 |
@@ -138,9 +139,9 @@ PGSR 那种"法向 $\bar{\mathbf{N}}$（由深度局部块叉积反算）对齐�
 
 - [\[CVPR 2026\] Particulate: Feed-Forward 3D Object Articulation](particulate_feed-forward_3d_object_articulation.md)
 - [\[CVPR 2026\] Uni3R: Unified 3D Reconstruction and Semantic Understanding via Generalizable Gaussian Splatting from Unposed Multi-View Images](uni3r_unified_3d_reconstruction_and_semantic_understanding_via_generalizable_gau.md)
-- [\[CVPR 2026\] ST4R-Splat: Spatio-Temporal Referring Segmentation in 4D Gaussian Splatting](st4r-splat_spatio-temporal_referring_segmentation_in_4d_gaussian_splatting.md)
 - [\[CVPR 2026\] Minimal Constraint Relaxation for Multiview Autocalibration](minimal_constraint_relaxation_for_multiview_autocalibration.md)
-- [\[CVPR 2026\] IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting](idesplat_iterative_depth_probability_estimation_for_generalizable_3d_gaussian_sp.md)
+- [\[CVPR 2026\] ST4R-Splat: Spatio-Temporal Referring Segmentation in 4D Gaussian Splatting](st4r-splat_spatio-temporal_referring_segmentation_in_4d_gaussian_splatting.md)
+- [\[CVPR 2026\] TGSFormer: Scalable Temporal Gaussian Splatting for Embodied Semantic Scene Completion](tgsformer_scalable_temporal_gaussian_splatting_for_embodied_semantic_scene_compl.md)
 
 </div>
 

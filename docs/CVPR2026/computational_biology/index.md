@@ -24,8 +24,6 @@ item_list:
     t: "CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis"
   - u: "cell-type_prototype-informed_neural_network_for_gene_expression_estimation_from_/"
     t: "Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images"
-  - u: "coordinate_denoising_for_non-equilibrium_molecular_representation_learning/"
-    t: "Coordinate Denoising for Non-Equilibrium Molecular Representation Learning"
   - u: "cross-slice_knowledge_transfer_via_masked_multi-modal_heterogeneous_graph_contra/"
     t: "Cross-Slice Knowledge Transfer via Masked Multi-Modal Heterogeneous Graph Contrastive Learning for Spatial Gene Expression Inference"
   - u: "cryohype_reconstructing_a_thousand_cryo-em_structures_with_transformer-based_hyp/"
@@ -46,14 +44,16 @@ item_list:
     t: "HyperST: Hierarchical Hyperbolic Learning for Spatial Transcriptomics Prediction"
   - u: "mmcp-gen_a_modality-extensible_diffusion_language_model_for_conditional_protein_/"
     t: "MMCP-GEN: A Modality-Extensible Diffusion Language Model for Conditional Protein Sequence Generation"
+  - u: "multi-view_hierarchical_alignment_learning_for_spatial_transcriptomics/"
+    t: "Multi-View Hierarchical Alignment Learning for Spatial Transcriptomics"
   - u: "multimodal_protein_language_models_for_enzyme_kinetic_parameters_from_substrate_/"
     t: "Multimodal Protein Language Models for Enzyme Kinetic Parameters: From Substrate Recognition to Conformational Adaptation"
   - u: "predicting_spatial_transcriptomics_from_histology_images_via_high-order_multi-ce/"
     t: "Predicting Spatial Transcriptomics from Histology Images via High-Order Multi-Cell Interaction Modeling"
-  - u: "sampling-aware_3d_spatial_analysis_in_multiplexed_imaging/"
-    t: "Sampling-Aware 3D Spatial Analysis in Multiplexed Imaging"
   - u: "stronger_normalization-free_transformers/"
     t: "Stronger Normalization-Free Transformers"
+  - u: "trident_a_trimodal_cascade_generative_framework_for_drug_and_rna-conditioned_cel/"
+    t: "TRIDENT: A Trimodal Cascade Generative Framework for Drug and RNA-Conditioned Cellular Morphology Synthesis"
 item_total: 21
 ---
 
@@ -62,7 +62,7 @@ item_total: 21
 
 **📷 CVPR2026** · **21** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (36)](../../ICML2026/computational_biology/index.md) · [💬 ACL2026 (5)](../../ACL2026/computational_biology/index.md) · [🔬 ICLR2026 (38)](../../ICLR2026/computational_biology/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/computational_biology/index.md) · [🧠 NeurIPS2025 (76)](../../NeurIPS2025/computational_biology/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/computational_biology/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (51)](../../ICML2026/computational_biology/index.md) · [💬 ACL2026 (5)](../../ACL2026/computational_biology/index.md) · [🔬 ICLR2026 (52)](../../ICLR2026/computational_biology/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/computational_biology/index.md) · [🧠 NeurIPS2025 (76)](../../NeurIPS2025/computational_biology/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/computational_biology/index.md)
 
 🔥 **高频主题：** 生物分子 ×6 · 医学影像 ×2 · 多模态 ×2
 
@@ -89,10 +89,6 @@ item_total: 21
 **[Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images](cell-type_prototype-informed_neural_network_for_gene_expression_estimation_from_.md)**
 
 :   提出 CPNN，利用公开单细胞 RNA-seq 数据构建细胞类型原型（cell-type prototype），将 slide/patch 级基因表达建模为原型的加权组合，在基因表达估计任务上取得 SOTA 并提供可解释性。
-
-**[Coordinate Denoising for Non-Equilibrium Molecular Representation Learning](coordinate_denoising_for_non-equilibrium_molecular_representation_learning.md)**
-
-:   针对"坐标去噪等价于力场学习"这一结论只在平衡态成立的缺陷，本文用势能面的二阶有限差分推导出对任意构象都成立的去噪目标 NDeM，把它做成一个即插即用、无需预训练的辅助任务，在 MD17 / QM9 / OC20 上稳定提升各种等变 GNN 的力预测精度。
 
 **[Cross-Slice Knowledge Transfer via Masked Multi-Modal Heterogeneous Graph Contrastive Learning for Spatial Gene Expression Inference](cross-slice_knowledge_transfer_via_masked_multi-modal_heterogeneous_graph_contra.md)**
 
@@ -134,6 +130,10 @@ item_total: 21
 
 :   MMCP-GEN 在离散扩散蛋白质语言模型 DPLM 之上，设计了一套「模态指示头 + 可学习查询融合」的可组合条件机制，把结构、配体、功能注释、自由文本等异构生物条件统一融合进一个共享条件空间，新增模态时无需重训骨干，并配合序列-结构联合打分目标，在功能生成、逆折叠、多目标设计三类任务上同时刷新 SOTA（序列恢复率最高提升约 5%）。
 
+**[Multi-View Hierarchical Alignment Learning for Spatial Transcriptomics](multi-view_hierarchical_alignment_learning_for_spatial_transcriptomics.md)**
+
+:   MHAL 把空间转录组的"空间坐标视图"和"基因表达视图"做两级对齐——样本级用 MSE 拉齐同一 spot 的双视图嵌入，语义级用一组可学习原型 + 最优传输做交换预测对比，再配自适应图融合和 ZINB 解码器，在 DLPFC、人乳腺癌、小鼠脑前部三套数据集上的空间域识别（ARI）显著超过 11 个现有方法。
+
 **[Multimodal Protein Language Models for Enzyme Kinetic Parameters: From Substrate Recognition to Conformational Adaptation](multimodal_protein_language_models_for_enzyme_kinetic_parameters_from_substrate_.md)**
 
 :   提出**ERBA(Enzyme-Reaction Bridging Adapter)**，将酶动力学参数预测重新建模为**分阶段多模态条件生成问题**——先通过MRCA注入底物信息捕获底物识别特异性，再通过G-MoE整合活性位点3D结构捕获构象适应，配合ESDA分布对齐保持PLM语义先验。
@@ -142,10 +142,10 @@ item_total: 21
 
 :   MCToGene 针对「从 H&E 病理图预测空间基因表达」时现有方法只建模单 spot 或两两邻居、抓不住多细胞间多对多协同/拮抗的痛点，提出用**多体注意力（many-body attention）**显式建模高阶跨细胞交互，并用**层级耦合模块**把两两注意力与多体注意力串起来控制组合爆炸，在 HEST-1k 与 STImage-1K4M 上相对最强基线提升约 7.85%。
 
-**[Sampling-Aware 3D Spatial Analysis in Multiplexed Imaging](sampling-aware_3d_spatial_analysis_in_multiplexed_imaging.md)**
-
-:   本文系统研究了多重成像中采样几何（2D切片 vs 3D序列切片）对空间统计量恢复精度的影响，并提出了一种几何感知的稀疏3D重建模块，在有限的成像预算下实现可靠的深度感知空间分析。
-
 **[Stronger Normalization-Free Transformers](stronger_normalization-free_transformers.md)**
 
 :   通过系统分析逐点函数替代归一化层所需的四个关键属性（零中心性、有界性、中心敏感性、单调性），在大规模搜索中发现 $\text{Derf}(x) = \text{erf}(\alpha x + s)$ 是最优的归一化层替代函数，在视觉识别、图像生成、语音表示和DNA序列建模等多个领域持续超越LayerNorm和DyT，且性能增益主要来自更强的泛化而非拟合能力。
+
+**[TRIDENT: A Trimodal Cascade Generative Framework for Drug and RNA-Conditioned Cellular Morphology Synthesis](trident_a_trimodal_cascade_generative_framework_for_drug_and_rna-conditioned_cel.md)**
+
+:   TRIDENT 用「VAE 编码（药物+扰动前 RNA）→ 潜在条件 z → Diffusion Transformer 生成细胞形态」的级联框架，首次显式建模「RNA→形态」这条因果链，在自建的 MorphoGene 三模态数据集上把 FID 相比 SOTA 降低 5–7 倍，并能泛化到未见过的化合物。

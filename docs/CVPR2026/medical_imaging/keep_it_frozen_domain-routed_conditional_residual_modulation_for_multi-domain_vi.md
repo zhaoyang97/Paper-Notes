@@ -2,9 +2,10 @@
 title: >-
   [论文解读] Keep It Frozen: Domain-Routed Conditional Residual Modulation for Multi-Domain Vision Transformers
 description: >-
-  [CVPR 2026][冻结骨干] 在完全冻结的 ViT 骨干上挂一组轻量级残差调制模块（RMB），由一个域路由器（DR）实时估计样本属于"医学/自然"的软概率、再用参数合成网络（PSN）按概率即时生成低秩修正参数注入 Q/V 投影与注意力 bias，配合 MAML 式双层优化，实现单一模型在医学（超声/CT/MRI）与自然图像间同时适配且互不损伤，只用约 3.5% 的可训练参数。
+  [CVPR 2026][医学图像][冻结骨干] 在完全冻结的 ViT 骨干上挂一组轻量级残差调制模块（RMB），由一个域路由器（DR）实时估计样本属于"医学/自然"的软概率、再用参数合成网络（PSN）按概率即时生成低秩修正参数注入 Q/V 投影与注意力 bias，配合 MAML 式双层优化，实现单一模型在医学（超声/CT/MRI）与自然图像间同时适配且互不损伤，只用约 3.5% 的可训练参数。
 tags:
   - "CVPR 2026"
+  - "医学图像"
   - "冻结骨干"
   - "域路由"
   - "残差调制"
@@ -90,6 +91,7 @@ $B_{medical}, B_{natural}$ 是各域学到的偏置矩阵，按 DR 给的概率�
 骨干统一 ViT-B/16、224×224、FP16、batch=128、单张 A100-40GB。评测覆盖胎儿医学（Fpus23、Fetal Planes）、自然/标准（CIFAR-10、Caltech101、Natural Images）、细粒度（Food101、SUN397、Stanford Cars）以及超声/CT/MRI 分割。
 
 ### 主实验（联合微调，Acc %）
+
 | 数据集 | LoRA | CLIP | DINOv2 | DCRM-ViT |
 |--------|------|------|--------|----------|
 | Fpus23（超声） | 63.0 | 61.6 | 59.3 | **63.4** |
@@ -102,6 +104,7 @@ $B_{medical}, B_{natural}$ 是各域学到的偏置矩阵，按 DR 给的概率�
 分割任务（Dice ↑）上同样全面领先：BUS-UCLM 0.862 / BUID 0.789 / BUS-BRA 0.834 / ACDC 0.928 / MMWHS-CT 0.880 / MMWHS-MRI 0.856，平均比 SAMUS 超声 +3.07、其它模态 +2.23。说明域条件机制能直接迁移到逐像素任务。
 
 ### 消融实验（Table 6，FPUS23 Acc %）
+
 | 配置 | Acc(%) | 说明 |
 |------|--------|------|
 | Full | 63.4 | 完整模型 |
@@ -113,6 +116,7 @@ $B_{medical}, B_{natural}$ 是各域学到的偏置矩阵，按 DR 给的概率�
 | w/o Rescale | 61.4 | 掉 2.0 点，多尺度敏感性下降 |
 
 ### 计算开销（Table 7）
+
 | 模型 | 总参数(M) | 可训练(M) | 吞吐(img/s) | 每轮(min) |
 |------|-----------|-----------|-------------|-----------|
 | CLIP | 123.0 | 123.0 | 205 | 3.0 |
@@ -158,11 +162,11 @@ PSN 用瓶颈维 $h=120$ 时约 3.0M 参数（占可训练大头），但每 bat
 
 ## 相关论文
 
-- [\[CVPR 2026\] Bridging Domain Expertise and Generalization for Performance Estimation](bridging_domain_expertise_and_generalization_for_performance_estimation.md)
-- [\[CVPR 2026\] Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers](align_once_to_explain_feature_alignment_for_scalable_b-cosification_of_foundatio.md)
-- [\[CVPR 2026\] FAST: Topology-Aware Frequency-Domain Distribution Matching for Coreset Selection](fast_topology-aware_frequency-domain_distribution_matching_for_coreset_selection.md)
-- [\[CVPR 2026\] Temporal Interaction in Spiking Transformers with Multi-Delay Mixer](temporal_interaction_in_spiking_transformers_with_multi-delay_mixer.md)
-- [\[ICLR 2026\] Noise-Aware Generalization: Robustness to In-Domain Noise and Out-of-Domain Generalization](../../ICLR2026/others/noise-aware_generalization_robustness_to_in-domain_noise_and_out-of-domain_gener.md)
+- [\[CVPR 2026\] CoFiDA-M: Concept-Aware Feature Modulation for Cross-Domain Adaptation with Image-Only Inference](cofida-m_concept-aware_feature_modulation_for_cross-domain_adaptation_with_image.md)
+- [\[CVPR 2026\] MuViT: Multi-Resolution Vision Transformers for Learning Across Scales in Microscopy](muvit_multi-resolution_vision_transformers_for_learning_across_scales_in_microsc.md)
+- [\[CVPR 2026\] Interpretable Cross-Domain Few-Shot Learning with Rectified Target-Domain Local Alignment](interpretable_cross-domain_few-shot_learning_with_rectified_target-domain_local_.md)
+- [\[CVPR 2026\] Tell2Adapt: A Unified Framework for Source Free Unsupervised Domain Adaptation via Vision Foundation Model](tell2adapt_a_unified_framework_for_source_free_unsupervised_domain_adaptation_vi.md)
+- [\[CVPR 2026\] EEGiT: Teaching Vision Transformers to Understand the EEG signal](eegit_teaching_vision_transformers_to_understand_the_eeg_signal.md)
 
 </div>
 

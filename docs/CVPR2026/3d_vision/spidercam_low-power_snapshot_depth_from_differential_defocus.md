@@ -108,6 +108,7 @@ $$C_i(x,y) = V_i(x,y)W_i(x,y),\qquad C(x,y) = \sum_i \omega_i C_i(x,y)$$
 注：核心功耗按 30 Mpix/sec 处理速率归一化以便横向比较；「归一化」一行是为公平比较跑在效率较低的 Kintex-7 上、每秒处理更多像素，「实测」一行才是系统真实参数。整机 624 mW@32.5 FPS（9 FPS 时 399 mW），是文献中已报最低整机功耗 [55] 的 1/3.3 – 1/5（⚠️ 部分对比数字依赖各文献的厂商工具估计，跨系统比较有 caveat）。
 
 ### 消融实验：估计数 / 空间变化对精度的影响（图 3、图 4，离线 0.4–1.0 m）
+
 | 配置 | 估计数 | 工作距离 | 说明 |
 |------|------|------|------|
 | 完整（2 尺度 × 3 导数） | 6 | 0.43–0.99 m | 精度最佳（紫星） |
@@ -152,9 +153,9 @@ $$C_i(x,y) = V_i(x,y)W_i(x,y),\qquad C(x,y) = \sum_i \omega_i C_i(x,y)$$
 
 ## 相关论文
 
+- [\[CVPR 2026\] Spectrum from Defocus: Fast Spectral Imaging with Chromatic Focal Stack](spectrum_from_defocus_fast_spectral_imaging_with_chromatic_focal_stack.md)
 - [\[CVPR 2026\] $L^{2}DGS$: Low-Light Dynamic Gaussian Splatting](l2dgs_low-light_dynamic_gaussian_splatting.md)
 - [\[CVPR 2026\] GeoSAM2: Unleashing the Power of SAM2 for 3D Part Segmentation](geosam2_unleashing_the_power_of_sam2_for_3d_part_segmentation.md)
-- [\[CVPR 2026\] Revisiting 3D Reconstruction Kernels as Low-Pass Filters](revisiting_3d_reconstruction_kernels_as_low-pass_filters.md)
 - [\[CVPR 2026\] Unlocking the Power of Critical Factors for 3D Visual Geometry Estimation](unlocking_the_power_of_critical_factors_for_3d_visual_geometry_estimation.md)
 - [\[CVPR 2026\] Unleashing the Power of Chain-of-Prediction for Monocular 3D Object Detection](unleashing_the_power_of_chain-of-prediction_for_monocular_3d_object_detection.md)
 

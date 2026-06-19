@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 信息检索/RAG论文汇总 · 28篇论文解读
+  ICLR2026 信息检索/RAG论文汇总 · 40篇论文解读
 description: >-
-  28篇ICLR2026的信息检索/RAG 方向论文解读，涵盖 RAG、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  40篇ICLR2026的信息检索/RAG 方向论文解读，涵盖 RAG、LLM、推理、问答、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "信息检索/RAG"
@@ -11,9 +11,19 @@ tags:
   - "RAG"
   - "LLM"
   - "推理"
+  - "问答"
+  - "对齐/RLHF"
 item_list:
+  - u: "a_dense_subset_index_for_collective_query_coverage/"
+    t: "A Dense Subset Index for Collective Query Coverage"
+  - u: "adacache_adaptive_caching_and_context_augmentation_for_efficient_llm_serving/"
+    t: "AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving"
   - u: "amemgym_interactive_memory_benchmarking_for_assistants_in_long-horizon_conversat/"
     t: "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations"
+  - u: "assomem_scalable_memory_qa_with_multi-signal_associative_retrieval/"
+    t: "AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval"
+  - u: "atlaskv_augmenting_llms_with_billion-scale_knowledge_graphs_in_20gb_vram/"
+    t: "AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM"
   - u: "attributing_response_to_context_a_jensen-shannon_divergence_driven_mechanistic_s/"
     t: "Attributing Response to Context: A Jensen-Shannon Divergence Driven Mechanistic Study of Context Attribution in Retrieval-Augmented Generation"
   - u: "attribution-guided_decoding/"
@@ -22,8 +32,18 @@ item_list:
     t: "Bayesian Attention Mechanism: A Probabilistic Framework for Positional Encoding and Context Length Extrapolation"
   - u: "beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn/"
     t: "Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding"
+  - u: "beyond_sequential_reranking_reranker-guided_search_improves_reasoning_intensive_/"
+    t: "Beyond Sequential Reranking: Reranker-Guided Search Improves Reasoning Intensive Retrieval"
+  - u: "beyond_text-only_towards_multimodal_table_retrieval_in_open-world/"
+    t: "Beyond Text-Only: Towards Multimodal Table Retrieval in Open-World"
+  - u: "bridging_draft_policy_misalignment_group_tree_optimization_for_speculative_decod/"
+    t: "Bridging Draft Policy Misalignment: Group Tree Optimization for Speculative Decoding"
+  - u: "browsenet_graph-based_associative_memory_for_contextual_information_retrieval/"
+    t: "BrowseNet: Graph-Based Associative Memory for Contextual Information Retrieval"
   - u: "btzsc_a_benchmark_for_zero-shot_text_classification_across_cross-encoders_embedd/"
     t: "BTZSC: A Benchmark for Zero-Shot Text Classification Across Cross-Encoders, Embedding Models, Rerankers and LLMs"
+  - u: "cft-rag_an_entity_tree_based_retrieval_augmented_generation_algorithm_with_cucko/"
+    t: "CFT-RAG: An Entity Tree Based Retrieval Augmented Generation Algorithm With Cuckoo Filter"
   - u: "digging_deeper_learning_multi-level_concept_hierarchies/"
     t: "Digging Deeper: Learning Multi-Level Concept Hierarchies"
   - u: "embedding-based_context-aware_reranker/"
@@ -32,6 +52,8 @@ item_list:
     t: "Fine-tuning with RAG for Improving LLM Learning of New Skills"
   - u: "flow_of_spans_generalizing_language_models_to_dynamic_span-vocabulary_via_gflown/"
     t: "Flow of Spans: Generalizing Language Models to Dynamic Span-Vocabulary via GFlowNets"
+  - u: "frugalrag_less_is_more_in_rl_finetuning_for_multi-hop_question_answering/"
+    t: "FrugalRAG: Less is More in RL Finetuning for Multi-hop Question Answering"
   - u: "g-reasoner_foundation_models_for_unified_reasoning_over_graph-structured_knowled/"
     t: "G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge"
   - u: "hierarchical_concept-based_interpretable_models/"
@@ -40,6 +62,8 @@ item_list:
     t: "HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks"
   - u: "hybrid_deep_searcher_scalable_parallel_and_sequential_search_reasoning/"
     t: "Hybrid Deep Searcher: Scalable Parallel and Sequential Search Reasoning"
+  - u: "improving_semantic_proximity_in_information_retrieval_through_cross-lingual_alig/"
+    t: "Improving Semantic Proximity in Information Retrieval through Cross-Lingual Alignment"
   - u: "judges_verdict_a_comprehensive_analysis_of_llm_judge_capability_through_human_ag/"
     t: "Judge's Verdict: A Comprehensive Analysis of LLM Judge Capability Through Human Agreement"
   - u: "leveraging_data_to_say_no_memory_augmented_plug-and-play_selective_prediction/"
@@ -50,39 +74,37 @@ item_list:
     t: "Mapping Semantic & Syntactic Relationships with Geometric Rotation"
   - u: "on_the_wings_of_imagination_conflicting_script-based_multi-role_framework_for_hu/"
     t: "On the Wings of Imagination: Conflicting Script-based Multi-role Framework for Humor Caption Generation"
-  - u: "q_rag_long_context_multi_step_retrieval/"
-    t: "Q-RAG: Long Context Multi-Step Retrieval via Value-Based Embedder Training"
-  - u: "query-level_uncertainty_in_large_language_models/"
-    t: "Query-Level Uncertainty in Large Language Models"
-  - u: "raee_a_robust_retrieval-augmented_early_exit_framework_for_efficient_inference/"
-    t: "RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference"
-  - u: "reftool_reference-guided_tool_creation_for_knowledge-intensive_reasoning/"
-    t: "RefTool: Reference-Guided Tool Creation for Knowledge-Intensive Reasoning"
-  - u: "revela_dense_retriever_learning_via_language_modeling/"
-    t: "Revela: Dense Retriever Learning via Language Modeling"
-  - u: "summaries_as_centroids_for_interpretable_and_scalable_text_clustering/"
-    t: "Summaries as Centroids for Interpretable and Scalable Text Clustering"
-  - u: "synthworlds_controlled_parallel_worlds_for_disentangling_reasoning_and_knowledge/"
-    t: "SynthWorlds: Controlled Parallel Worlds for Disentangling Reasoning and Knowledge in Language Models"
-  - u: "tokmem_one-token_procedural_memory_for_large_language_models/"
-    t: "TokMem: One-Token Procedural Memory for Large Language Models"
-  - u: "your_language_model_secretly_contains_personality_subnetworks/"
-    t: "Your Language Model Secretly Contains Personality Subnetworks"
-item_total: 28
+item_total: 40
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🔬 ICLR2026** · **28** 篇论文解读
+**🔬 ICLR2026** · **40** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (26)](../../ICML2026/information_retrieval/index.md) · [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×5 · LLM ×5 · 推理 ×4
+🔥 **高频主题：** RAG ×7 · LLM ×6 · 推理 ×5 · 问答 ×2 · 对齐/RLHF ×2
+
+**[A Dense Subset Index for Collective Query Coverage](a_dense_subset_index_for_collective_query_coverage.md)**
+
+:   DISCO 把"多个文档协作覆盖一个复杂查询"建模成一个单调子模的覆盖目标，再通过向量增广 + 随机投影把贪心算法每轮的边际增益改写成可索引的内积形式，从而用一个改造过的多向量 IVF 索引在亚线性时间里逼近贪心解，在覆盖度与延迟的权衡上比贪心快 100 倍以上、比传统 IR 索引覆盖度更高。
+
+**[AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving](adacache_adaptive_caching_and_context_augmentation_for_efficient_llm_serving.md)**
+
+:   AdaCache 针对 RAG 推理的两类浪费——同一文本块被反复重算、以及不分难度地塞满 top-k 上下文——提出"分层缓存 + 注意力感知的选择性重算"与"置信度驱动的自适应上下文扩展"两套机制，在六个数据集、三个模型上把首 token 延迟（TTFT）相比最强 RAG 缓存系统降低 1.4×∼5.0×，且生成质量基本不掉。
 
 **[AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](amemgym_interactive_memory_benchmarking_for_assistants_in_long-horizon_conversat.md)**
 
 :   提出AMemGym——首个支持on-policy交互式评估的长程对话记忆基准环境，通过结构化数据采样（用户画像→状态演化→个性化问答）驱动LLM模拟用户进行角色扮演，揭示了off-policy评估的排名偏差问题，并系统诊断了RAG/长上下文/Agent记忆系统的write/read/utilization三阶段失败模式。
+
+**[AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval](assomem_scalable_memory_qa_with_multi-signal_associative_retrieval.md)**
+
+:   AssoMem 为大规模个人记忆问答构建了一张"线索—话语"联想记忆图，并把相关性、重要性、时间对齐三路信号用互信息自适应融合做排序，在多个 benchmark 上检索与生成都显著超过只靠语义相似度的 SOTA。
+
+**[AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM](atlaskv_augmenting_llms_with_billion-scale_knowledge_graphs_in_20gb_vram.md)**
+
+:   AtlasKV 把知识图谱里的每条三元组直接转成 Q-K-V 数据并以注意力的方式注入 LLM，再用层次化键值剪枝把复杂度从线性压到次线性，从而在 20GB 显存内为 LLM 接入十亿级（1B triples）知识图谱，无需外部检索器、无需长上下文、也无需为新知识重训。
 
 **[Attributing Response to Context: A Jensen-Shannon Divergence Driven Mechanistic Study of Context Attribution in Retrieval-Augmented Generation](attributing_response_to_context_a_jensen-shannon_divergence_driven_mechanistic_s.md)**
 
@@ -100,9 +122,29 @@ item_total: 28
 
 :   提出 LDAR（Learning Distraction-Aware Retrieval），一个轻量级自适应检索器，通过学习基于查询-段落相似度分布选择段落的连续区间（band），在平衡信息覆盖与干扰段落影响的同时，以约一半的 token 用量超越长上下文方法的性能。
 
+**[Beyond Sequential Reranking: Reranker-Guided Search Improves Reasoning Intensive Retrieval](beyond_sequential_reranking_reranker-guided_search_improves_reasoning_intensive_.md)**
+
+:   本文把"检索-重排"管线里那条死板的"top-k 顺序扫描"换成在文档相似度近邻图上的贪心搜索（Reranker-Guided-Search, RGS），让 reranker 优先去看那些"邻居已被判高分"的有潜力文档，从而在每个 query 只允许调用 reranker 100 次的预算下，在 BRIGHT/FollowIR/M-BEIR 三个推理密集型检索基准上分别比顺序重排提升 3.5/2.9/5.1 个 NDCG@10。
+
+**[Beyond Text-Only: Towards Multimodal Table Retrieval in Open-World](beyond_text-only_towards_multimodal_table_retrieval_in_open-world.md)**
+
+:   这篇论文指出"把表格序列化成文本再检索"会丢掉表格的结构和图像信息，于是把开放域表格检索重新定义成"以表格截图为单位的多模态检索"，并据此构建了首个图像化表格检索基准 TaR-ViR；实验证明多模态检索器在召回率上能追平甚至超过文本检索器，且省掉了易出错的表格转文本环节。
+
+**[Bridging Draft Policy Misalignment: Group Tree Optimization for Speculative Decoding](bridging_draft_policy_misalignment_group_tree_optimization_for_speculative_decod.md)**
+
+:   投机解码训练时只优化一条贪心草稿路径、解码时却用整棵草稿树做重排和验证，二者错配限制了加速；本文提出 Group Tree Optimization（GTO），用「草稿树奖励 + 群组式草稿策略训练」直接对齐解码时的树策略，在多个 LLM 上把接受长度平均提升 7.4%、相对 EAGLE-3 再提速 7.7%。
+
+**[BrowseNet: Graph-Based Associative Memory for Contextual Information Retrieval](browsenet_graph-based_associative_memory_for_contextual_information_retrieval.md)**
+
+:   BrowseNet 把语料组织成"以命名实体为边、以文本块为节点"的 graph-of-chunks，再把多跳问题拆成有向无环的 query-subgraph，沿图做类 beam search 的子图遍历来检索证据，从而只用一次 LLM 调用就在 HotpotQA / 2WikiMQA / MuSiQue 三个多跳 QA 上取得 SOTA 的精确匹配与召回。
+
 **[BTZSC: A Benchmark for Zero-Shot Text Classification Across Cross-Encoders, Embedding Models, Rerankers and LLMs](btzsc_a_benchmark_for_zero-shot_text_classification_across_cross-encoders_embedd.md)**
 
 :   提出 BTZSC 基准（22 个数据集），首次在统一零样本协议下系统比较 NLI 交叉编码器、嵌入模型、Reranker 和指令微调 LLM 四大模型家族（共 38 个模型），发现 Qwen3-Reranker-8B 以 macro F1=0.72 取得新 SOTA，嵌入模型在精度-延迟权衡上最优。
+
+**[CFT-RAG: An Entity Tree Based Retrieval Augmented Generation Algorithm With Cuckoo Filter](cft-rag_an_entity_tree_based_retrieval_augmented_generation_algorithm_with_cucko.md)**
+
+:   CFT-RAG 把布谷鸟过滤器（Cuckoo Filter）塞进 Tree-RAG 的实体定位环节，用指纹 + 块链表 + 温度排序把"在森林里查实体"从 $O(n)$ 的广度优先搜索降到近似 $O(1)$，在 DART 上比朴素 Tree-RAG 检索快 800%+，且生成准确率不降反升。
 
 **[Digging Deeper: Learning Multi-Level Concept Hierarchies](digging_deeper_learning_multi-level_concept_hierarchies.md)**
 
@@ -120,6 +162,10 @@ item_total: 28
 
 :   提出 FoSS，首次将 GFlowNets 引入 span 级别语言模型，通过构建 DAG 结构的状态空间代替传统 token-by-token 的树形结构，实现更灵活多样的文本生成，MAUVE 分数最高提升 12.5%。
 
+**[FrugalRAG: Less is More in RL Finetuning for Multi-hop Question Answering](frugalrag_less_is_more_in_rl_finetuning_for_multi-hop_question_answering.md)**
+
+:   FrugalRAG 提出一个"先探索、后节俭"的两阶段微调框架：第一阶段用监督微调把小模型训成一个肯多发检索查询、把证据召回拉满的探索型策略，第二阶段用 GRPO 强化学习让它学会"按问题难度决定什么时候停手"，结果在 HotPotQA 等多跳问答上只用 1000 条训练样本就把检索次数砍掉近一半、还保住甚至提升了答案准确率。
+
 **[G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge](g-reasoner_foundation_models_for_unified_reasoning_over_graph-structured_knowled.md)**
 
 :   提出 G-reasoner，通过 QuadGraph 四层统一图接口将异构知识源标准化，训练 34M 参数的 GNN 图基础模型联合推理图拓扑和文本语义，配合 LLM 在 6 个基准上全面超越 SOTA GraphRAG 方法。
@@ -135,6 +181,10 @@ item_total: 28
 **[Hybrid Deep Searcher: Scalable Parallel and Sequential Search Reasoning](hybrid_deep_searcher_scalable_parallel_and_sequential_search_reasoning.md)**
 
 :   提出 HybridDeepSearcher，通过构建 HDS-QA 数据集训练大语言推理模型（LRM）区分可并行化和顺序依赖的搜索查询，在 FanOutQA 上 F1 提升 +15.9、BrowseComp 子集上提升 +11.5，同时显著降低推理延迟并展示出一致的测试时搜索扩展能力。
+
+**[Improving Semantic Proximity in Information Retrieval through Cross-Lingual Alignment](improving_semantic_proximity_in_information_retrieval_through_cross-lingual_alig.md)**
+
+:   针对"两种语言文档共存"的真实检索场景，本文揭示主流多语言 embedding 会盲目把无关英文文档排到目标语言相关文档前面，提出新评测场景 + Max@R 指标量化这一偏置，并用 JSD 分布级对齐 + InfoNCE 检索两项损失，仅 2.8k 样本就大幅改善跨语言对齐、压平语言间性能差距，且不损害单语检索。
 
 **[Judge's Verdict: A Comprehensive Analysis of LLM Judge Capability Through Human Agreement](judges_verdict_a_comprehensive_analysis_of_llm_judge_capability_through_human_ag.md)**
 
@@ -155,6 +205,10 @@ item_total: 28
 **[On the Wings of Imagination: Conflicting Script-based Multi-role Framework for Humor Caption Generation](on_the_wings_of_imagination_conflicting_script-based_multi-role_framework_for_hu.md)**
 
 :   提出 HOMER 框架，基于 GTVH 幽默理论构建三角色 LLM 协作机制（冲突脚本提取器 + 层次想象器 + 标题生成器），通过显式建模脚本对立、多视角联想链与笑话数据库检索构建想象树来扩展创意空间，在 New Yorker 漫画基准上以 GPT-4o 为底座平均提升 ~7%，人类评估也显著优于所有基线。
+
+**[Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training](q-rag_long_context_multistep_retrieval_via_valuebased_embedder_training.md)**
+
+:   Q-RAG 把多步检索建模成一个 MDP，用基于价值的强化学习只微调嵌入器（不动 LLM），让检索智能体直接在 chunk 嵌入的潜空间里一步步挑选支撑事实，在 BabiLong、RULER 等长上下文基准（最长 1000 万 token）上拿到 SOTA，且只用单张 A100 就能训练。
 
 **[Q-RAG: Long Context Multi-Step Retrieval via Value-Based Embedder Training](q_rag_long_context_multi_step_retrieval.md)**
 

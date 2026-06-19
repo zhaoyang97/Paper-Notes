@@ -152,7 +152,7 @@ SAM 数据集上的定量评估（8:1:1 划分，2400/300/300 序列）：
 - [\[NeurIPS 2025\] VASA-3D: Lifelike Audio-Driven Gaussian Head Avatars from a Single Image](vasa-3d_lifelike_audio-driven_gaussian_head_avatars_from_a_single_image.md)
 - [\[CVPR 2025\] KeyFace: Expressive Audio-Driven Facial Animation for Long Sequences via KeyFrame Interpolation](../../CVPR2025/human_understanding/keyface_expressive_audio-driven_facial_animation_for_long_sequences_via_keyframe.md)
 - [\[CVPR 2025\] MoEE: Mixture of Emotion Experts for Audio-Driven Portrait Animation](../../CVPR2025/human_understanding/moee_mixture_of_emotion_experts_for_audio-driven_portrait_animation.md)
-- [\[CVPR 2026\] Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation](../../CVPR2026/human_understanding/stability-driven_motion_generation_for_object-guided_human-human_co-manipulation.md)
+- [\[ICCV 2025\] GENMO: A GENeralist Model for Human MOtion](../../ICCV2025/human_understanding/genmo_a_generalist_model_for_human_motion.md)
 
 </div>
 

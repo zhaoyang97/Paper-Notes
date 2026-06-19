@@ -90,6 +90,7 @@ WinQ 不改变原始语言模型训练目标，仍是在 FineWebEdu 等语料上
 与 PTQ 方法相比，RTN/GPTQ/AWQ/SpinQuant 在 1-2 bit 下经常出现极高 PPL，例如 LLaMA-1B W1A16 下 RTN 和 GPTQ 的 PPL 达到 $10^8$ 量级；QAT 本身是必要的，而 WinQ 进一步改善 QAT 的收敛效率。论文还报告低于 4 bit 时相对 SoTA QAT 有 1.5-4 倍收敛加速，在相同计算预算下 sub-4-bit 性能最多提升 8.8%。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | $\alpha=0.0$，无权重插值 | W1A16 LLaMA-1B PPL 16.5 | 只靠原始训练会停在较差困惑度 |
@@ -138,8 +139,8 @@ WinQ 不改变原始语言模型训练目标，仍是在 FineWebEdu 等语料上
 - [\[ICLR 2026\] Compute-Optimal Quantization-Aware Training](../../ICLR2026/model_compression/compute-optimal_quantization-aware_training.md)
 - [\[ACL 2025\] EfficientQAT: Efficient Quantization-Aware Training for Large Language Models](../../ACL2025/model_compression/efficientqat.md)
 - [\[ICML 2026\] Entropy-Aware On-Policy Distillation of Language Models](entropy-aware_on-policy_distillation_of_language_models.md)
+- [\[ICML 2026\] FAIR-Calib: Frontier-Aware Instability-Reweighted Calibration for Post-Training Quantization of Diffusion Large Language Models](fair-calib_frontier-aware_instability-reweighted_calibration_for_post-training_q.md)
 - [\[ICCV 2025\] Scheduling Weight Transitions for Quantization-Aware Training](../../ICCV2025/model_compression/scheduling_weight_transitions_for_quantization-aware_training.md)
-- [\[ICML 2026\] RaBiT: Residual-Aware Binarization Training for Accurate and Efficient LLMs](rabit_residual-aware_binarization_training_for_accurate_and_efficient_llms.md)
 
 </div>
 

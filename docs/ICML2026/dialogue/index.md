@@ -1,15 +1,18 @@
 ---
 title: >-
-  ICML2026 对话系统论文汇总 · 4篇论文解读
+  ICML2026 对话系统论文汇总 · 5篇论文解读
 description: >-
-  4篇ICML2026的对话系统方向论文解读，涵盖 LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  5篇ICML2026的对话系统方向论文解读，涵盖 LLM、压缩/编码、对话系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "对话系统"
   - "论文解读"
   - "论文笔记"
   - "LLM"
+  - "压缩/编码"
 item_list:
+  - u: "context-driven_incremental_compression_for_multi-turn_dialogue_generation/"
+    t: "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation"
   - u: "discoverllm_from_executing_intents_to_discovering_them/"
     t: "DiscoverLLM: From Executing Intents to Discovering Them"
   - u: "from_self-evolving_synthetic_data_to_verifiable-reward_rl_post-training_multi-tu/"
@@ -18,17 +21,21 @@ item_list:
     t: "Is Your LLM Overcharging You? Tokenization, Transparency, and Incentives"
   - u: "not_all_prefills_are_equal_ppd_disaggregation_for_multi-turn_llm_serving/"
     t: "Not All Prefills Are Equal: PPD Disaggregation for Multi-turn LLM Serving"
-item_total: 4
+item_total: 5
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🗣️ 对话系统
 
-**🧪 ICML2026** · **4** 篇论文解读
+**🧪 ICML2026** · **5** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (26)](../../ACL2026/dialogue/index.md) · [🔬 ICLR2026 (5)](../../ICLR2026/dialogue/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/dialogue/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/dialogue/index.md) · [🧪 ICML2025 (2)](../../ICML2025/dialogue/index.md) · [💬 ACL2025 (18)](../../ACL2025/dialogue/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (26)](../../ACL2026/dialogue/index.md) · [🔬 ICLR2026 (6)](../../ICLR2026/dialogue/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/dialogue/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/dialogue/index.md) · [🧪 ICML2025 (2)](../../ICML2025/dialogue/index.md) · [💬 ACL2025 (18)](../../ACL2025/dialogue/index.md)
 
 🔥 **高频主题：** LLM ×2
+
+**[Context-Driven Incremental Compression for Multi-Turn Dialogue Generation](context-driven_incremental_compression_for_multi-turn_dialogue_generation.md)**
+
+:   多轮对话里把整段历史拼进 prompt 既贵又会丢线索，本文提出 **C-DIC**：把对话看成交织的「话题线索」，在一块紧凑记忆里存可修订的逐线索压缩状态，每轮跑一个轻量的「检索 → 修订 → 写回」循环，并配套**检索感知的截断时序反传（ra-TBPTT）**训练，在数百轮对话上保持稳定的延迟和困惑度。
 
 **[DiscoverLLM: From Executing Intents to Discovering Them](discoverllm_from_executing_intents_to_discovering_them.md)**
 

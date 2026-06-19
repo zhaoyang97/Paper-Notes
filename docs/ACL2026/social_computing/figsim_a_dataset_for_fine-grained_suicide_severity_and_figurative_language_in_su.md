@@ -67,6 +67,7 @@ figurative expression 和 suicide severity 都高度主观，直接交给无校�
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 最佳模型 | Macro-F1 | Weighted-F1 | 观察 |
 |--------|------|------|----------|------|
 | Figurative detection | Claude-sonnet-4-5 zero-shot | 70.21±0.82 | 80.69±0.42 | irony/sarcasm 最好识别，pun 和 metaphor 更难 |
@@ -76,6 +77,7 @@ figurative expression 和 suicide severity 都高度主观，直接交给无校�
 | M3H | Suicide severity Macro-F1 | 61.47±1.74 | 62.58±1.95 | mental-health meme 迁移有效，但比最佳 MLLM 低约 10 点 |
 
 ### 数据集与标注质量
+
 | 维度 | 指标 | 数值 | 说明 |
 |------|---------|------|------|
 | 数据规模 | 最终样本数 | 1049 | 从 1050 标注样本中移除 1 个质控失败样本 |
@@ -87,6 +89,7 @@ figurative expression 和 suicide severity 都高度主观，直接交给无校�
 | IAA: Suicide-related Content | 平均 Cohen's κ | 0.63 | Substantial |
 
 ### 错误分析与审核发现
+
 | 分析项 | 数字 | 结论 |
 |------|------|------|
 | Azure 对 None 的 suicide/self-harm flag rate | 0.304 | 审核模型会对低严重度或无严重度内容误报 |

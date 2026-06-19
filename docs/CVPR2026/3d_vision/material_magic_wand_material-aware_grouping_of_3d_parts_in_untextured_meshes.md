@@ -38,6 +38,7 @@ tags:
 **核心 idea**：训练一个 material-aware part encoder，用监督对比损失把同材质 part 拉近、异材质 part 推远；推理时按嵌入距离 + 一个阈值做检索，即得到材质一致的 part 组。
 
 ## 方法详解
+
 ### 整体框架
 方法要解决的是"给定一个 query part，从同一网格里捞出所有同材质 part"。整体转法是：先把每个 part 渲染成三张不同语境的图（孤立件 / 带上下文 / 整体物体），喂进一个以 DINO-v3 初始化的 part encoder 得到材质感知嵌入，训练时用监督对比损失塑造嵌入空间；推理时对 query 做最近邻检索、用阈值 $\lambda$ 控制松紧，直接产出 part 组。整个 pipeline 是清晰的串行结构：
 
@@ -92,6 +93,7 @@ $$L = \mathbb{E}_S\,\mathbb{E}_i\,\mathbb{E}_{j\in P_i}\left[-\log\frac{\exp(z_i
 相对最强基线 DINO-v3 small，检索 AUC +8.6%、分组 F1 +16.6%。纯几何的 Histogram Matching 随 recall 上升精度陡降，说明纯形状描述子脆弱、只对近重复件有效；PartField 偏弱是因为它的训练目标是层次化 part 分割，与"学材质一致嵌入"不对齐。
 
 ### 消融实验
+
 | 配置 | AUC | R-Prec | mAP | R@20 | 说明 |
 |------|-----|--------|-----|------|------|
 | Full model | ~89.7 | ~88.3 | ~91.7 | ~62.8 | 完整模型 |
@@ -137,11 +139,11 @@ $$L = \mathbb{E}_S\,\mathbb{E}_i\,\mathbb{E}_{j\in P_i}\left[-\log\frac{\exp(z_i
 
 ## 相关论文
 
+- [\[CVPR 2026\] MatMart: Material Reconstruction of 3D Objects via Diffusion](matmart_material_reconstruction_of_3d_objects_via_diffusion.md)
 - [\[CVPR 2026\] MatSpray: Fusing 2D Material World Knowledge on 3D Geometry](matspray_fusing_2d_material_world_knowledge_on_3d_geometry.md)
 - [\[CVPR 2026\] Intrinsic Image Fusion for Multi-View 3D Material Reconstruction](intrinsic_image_fusion_for_multi-view_3d_material_reconstruction.md)
 - [\[CVPR 2026\] MatE: Material Extraction from Single-Image via Geometric Prior](mate_material_extraction_from_single-image_via_geometric_prior.md)
 - [\[CVPR 2026\] MatLat: Material Latent Space for PBR Texture Generation](matlat_material_latent_space_for_pbr_texture_generation.md)
-- [\[CVPR 2026\] ICTPolarReal: A Polarized Reflection and Material Dataset of Real World Objects](ictpolarreal_a_polarized_reflection_and_material_dataset_of_real_world_objects.md)
 
 </div>
 

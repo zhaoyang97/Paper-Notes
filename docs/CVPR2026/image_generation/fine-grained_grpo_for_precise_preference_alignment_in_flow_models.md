@@ -102,6 +102,7 @@ $$f=\frac{1}{G}\sum_{i=1}^{G}\frac{1}{K}\sum_{k\in M}\min\!\big(r_k^i(\theta)A_k
 只用 HPS 训练时，仅 Singular Stochastic Sampling（w/o MGAI）相对 DanceGRPO 的 HPS 就有 6.52% 的相对提升，说明把随机收束到单步确实给出了更精确的优化信号；但单 HPS 会 reward hacking，拖累其它 out-of-domain 分。在 HPS&CLIP 联合设置下，完整 G²RPO 在 in-/out-domain 指标上整体领先，尤其 UR（LLM 增强）从 MixGRPO 的 3.661 提到 3.783。
 
 ### 消融实验：去噪粒度集 $\Lambda$（HPS&CLIP 训练）
+
 | $\Lambda$ | HPS | CLIP | PS | IR | UR |
 |-----------|-----|------|----|----|----|
 | {1} (即 w/o MGAI) | 0.372 | 0.395 | 0.234 | 1.421 | 3.688 |
@@ -112,6 +113,7 @@ $$f=\frac{1}{G}\sum_{i=1}^{G}\frac{1}{K}\sum_{k\in M}\min\!\big(r_k^i(\theta)A_k
 粒度越多，对每个采样方向的评估越全面，IR / UR 等指标稳步上升；HPS 在 {1,3} 略高于 {1,2,3}，但综合（CLIP/PS/IR/UR）以 {1,2,3} 最佳，故主实验取之。
 
 ### 不同推理步数的鲁棒性（HPS&CLIP 训练）
+
 | 推理步数 | 方法 | HPS | CLIP | PS | IR | UR |
 |---------|------|-----|------|----|----|----|
 | 10 | MixGRPO | 0.358 | 0.401 | 0.230 | 1.431 | 3.641 |

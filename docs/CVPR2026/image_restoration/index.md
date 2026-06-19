@@ -1,29 +1,27 @@
 ---
 title: >-
-  CVPR2026 图像恢复论文汇总 · 132篇论文解读
+  CVPR2026 图像恢复论文汇总 · 135篇论文解读
 description: >-
-  132篇CVPR2026的图像恢复方向论文解读，涵盖图像恢复、扩散模型、超分辨率、压缩/编码、多模态、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  135篇CVPR2026的图像恢复方向论文解读，涵盖图像恢复、超分辨率、扩散模型、自监督学习、对抗鲁棒、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "图像恢复"
   - "论文解读"
   - "论文笔记"
-  - "扩散模型"
   - "超分辨率"
-  - "压缩/编码"
-  - "多模态"
+  - "扩散模型"
+  - "自监督学习"
   - "对抗鲁棒"
+  - "压缩/编码"
 item_list:
   - u: "2-shots_in_the_dark_low-light_denoising_with_minimal_data_acquisition/"
     t: "2-Shots in the Dark: Low-Light Denoising with Minimal Data Acquisition"
+  - u: "a_bit_is_all_you_need_efficient_video_capture_via_single_bit_imaging/"
+    t: "A Bit is All You Need! Efficient Video Capture via Single Bit Imaging"
   - u: "acetone_bridging_words_and_colors_for_conditional_image_grading/"
     t: "AceTone: Bridging Words and Colors for Conditional Image Grading"
-  - u: "ae2vid_event-based_video_reconstruction_via_aperture_modulation/"
-    t: "AE2VID: Event-based Video Reconstruction via Aperture Modulation"
   - u: "beyond_ground-truth_leveraging_image_quality_priors_for_real-world_image_restora/"
     t: "Beyond Ground-Truth: Leveraging Image Quality Priors for Real-World Image Restoration"
-  - u: "beyond_single_solution_multi-hypothesis_collaborative_deep_unfolding_network_for/"
-    t: "Beyond Single Solution: Multi-Hypothesis Collaborative Deep Unfolding Network for Image Compressive Sensing"
   - u: "beyond_strict_pairing_arbitrarily_paired_training_for_high-performance_infrared_/"
     t: "Beyond Strict Pairing: Arbitrarily Paired Training for High-Performance Infrared and Visible Image Fusion"
   - u: "beyond_the_ground_truth_enhanced_supervision_for_image_restoration/"
@@ -36,75 +34,73 @@ item_list:
     t: "BiEvLight: Bi-level Learning of Task-Aware Event Refinement for Low-Light Image Enhancement"
   - u: "biprolora_bilevel_prompt_lora_for_real_scene_recovery/"
     t: "BiProLoRA: Bilevel Prompt LoRA for Real Scene Recovery"
-  - u: "blink_dynamic_visual_token_resolution_for_enhanced_multimodal_understanding/"
-    t: "Blink: Dynamic Visual Token Resolution for Enhanced Multimodal Understanding"
   - u: "bluref_unsupervised_image_deblurring_with_dense-matching_references/"
     t: "BluRef: Unsupervised Image Deblurring with Dense-Matching References"
-  - u: "bridging_fidelity-reality_with_controllable_one-step_diffusion_for_image_super-r/"
-    t: "Bridging Fidelity-Reality with Controllable One-Step Diffusion for Image Super-Resolution"
-  - u: "bridging_human_evaluation_to_infrared_and_visible_image_fusion/"
-    t: "Bridging Human Evaluation to Infrared and Visible Image Fusion"
   - u: "bridging_the_perception_gap_in_image_super-resolution_evaluation/"
     t: "Bridging the Perception Gap in Image Super-Resolution Evaluation"
   - u: "canoncgt_reference-based_color_grading_via_canonical_pivot_representation/"
     t: "CanonCGT: Reference-Based Color Grading via Canonical Pivot Representation"
-  - u: "card_correlation_aware_restoration_with_diffusion/"
-    t: "CARD: Correlation Aware Restoration with Diffusion"
   - u: "casr_a_robust_cyclic_framework_for_arbitrary_large-scale_super-resolution_with_d/"
     t: "CASR: A Robust Cyclic Framework for Arbitrary Large-Scale Super-Resolution with Distribution Alignment and Self-Similarity Awareness"
   - u: "colorflux_a_structure-color_decoupling_framework_for_old_photo_colorization/"
     t: "ColorFLUX: A Structure-Color Decoupling Framework for Old Photo Colorization"
   - u: "convexity-aware_noise_calibration_a_self-supervised_framework_for_noise-level-un/"
     t: "Convexity-Aware Noise Calibration: A Self-Supervised Framework for Noise-Level-Unknown Image Denoising"
-  - u: "customized_fusion_a_closed-loop_dynamic_network_for_adaptive_multi-task-aware_in/"
-    t: "Customized Fusion: A Closed-Loop Dynamic Network for Adaptive Multi-Task-Aware Infrared-Visible Image Fusion"
+  - u: "coordinate_denoising_for_non-equilibrium_molecular_representation_learning/"
+    t: "Coordinate Denoising for Non-Equilibrium Molecular Representation Learning"
   - u: "degradation-consistent_test-time_adaptation_for_all-in-one_image_restoration/"
     t: "Degradation-Consistent Test-Time Adaptation for All-in-One Image Restoration"
   - u: "degradation-robust_fusion_an_efficient_degradation-aware_diffusion_framework_for/"
     t: "Degradation-Robust Fusion: An Efficient Degradation-Aware Diffusion Framework for Multimodal Image Fusion in Arbitrary Degradation Scenarios"
   - u: "detectsci_toward_object-guided_roi_reconstruction_for_high-resolution_video_snap/"
     t: "DetectSCI: Toward Object-Guided ROI Reconstruction for High-Resolution Video Snapshot Compressive Imaging"
+  - u: "diffdecompose_layer-wise_decomposition_of_alpha-composited_images_via_diffusion_/"
+    t: "DiffDecompose: Layer-Wise Decomposition of Alpha-Composited Images via Diffusion Transformers"
   - u: "diffusion-based_srgb_real_noise_generation_via_prompt-driven_noise_representatio/"
     t: "PNG: Diffusion-Based sRGB Real Noise Generation via Prompt-Driven Noise Representation Learning"
   - u: "disentangled_textual_priors_for_diffusion-based_image_super-resolution/"
     t: "Disentangled Textual Priors for Diffusion-based Image Super-Resolution"
   - u: "disentanglement-wise_image_dehazing_through_cross-domain_manifold_consensus/"
     t: "Disentanglement-wise Image Dehazing through Cross-Domain Manifold Consensus"
+  - u: "distilling_quasi-conformal_mapping_a_generalizable_and_efficient_solution_for_wi/"
+    t: "Distilling Quasi-Conformal Mapping: A Generalizable and Efficient Solution for Wide-Angle Correction"
   - u: "dnf-sr_dual-input_and_negative-aware_feature_fine-tuning_for_real-world_image_su/"
     t: "DNF-SR: Dual-Input and Negative-Aware Feature Fine-Tuning for Real-World Image Super-Resolution"
+  - u: "dpgf-net_dual-prior_guided_fusion_network_for_joint_assessment_of_perceptual_qua/"
+    t: "DPGF-Net: Dual-Prior Guided Fusion Network for Joint Assessment of Perceptual Quality and Semantic Consistency in AI-Generated Images"
   - u: "dreamsr_towards_ultra-high-resolution_image_super-resolution_via_a_receptive-fie/"
     t: "DreamSR: Towards Ultra-High-Resolution Image Super-Resolution via a Receptive-Field Enhanced Diffusion Transformer"
-item_total: 132
+  - u: "dual_ascent_diffusion_for_inverse_problems/"
+    t: "Dual Ascent Diffusion for Inverse Problems"
+  - u: "dual_graph_regularized_deep_unfolding_network_for_guided_depth_map_super-resolut/"
+    t: "Dual Graph Regularized Deep Unfolding Network for Guided Depth Map Super-resolution"
+item_total: 135
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**📷 CVPR2026** · **132** 篇论文解读
+**📷 CVPR2026** · **135** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (16)](../../ICML2026/image_restoration/index.md) · [🔬 ICLR2026 (15)](../../ICLR2026/image_restoration/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/image_restoration/index.md) · [🧠 NeurIPS2025 (26)](../../NeurIPS2025/image_restoration/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/image_restoration/index.md) · [🧪 ICML2025 (5)](../../ICML2025/image_restoration/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (21)](../../ICML2026/image_restoration/index.md) · [🔬 ICLR2026 (22)](../../ICLR2026/image_restoration/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/image_restoration/index.md) · [🧠 NeurIPS2025 (26)](../../NeurIPS2025/image_restoration/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/image_restoration/index.md) · [🧪 ICML2025 (5)](../../ICML2025/image_restoration/index.md)
 
-🔥 **高频主题：** 图像恢复 ×34 · 扩散模型 ×31 · 超分辨率 ×31 · 压缩/编码 ×7 · 多模态 ×7
+🔥 **高频主题：** 图像恢复 ×35 · 超分辨率 ×27 · 扩散模型 ×26 · 自监督学习 ×7 · 对抗鲁棒 ×6
 
 **[2-Shots in the Dark: Low-Light Denoising with Minimal Data Acquisition](2-shots_in_the_dark_low-light_denoising_with_minimal_data_acquisition.md)**
 
 :   这篇论文提出一种"两张图就够"的传感器噪声合成方法——每个 ISO 只需一张噪声图 + 一张暗帧，用傅里叶域随机相位采样把信号无关噪声当作纹理来合成，配合迭代直方图匹配修正边缘分布，从而无需大规模配对数据就能生成无限多样的训练对，让去噪网络在多个低光基准上达到物理类方法的 SOTA。
 
+**[A Bit is All You Need! Efficient Video Capture via Single Bit Imaging](a_bit_is_all_you_need_efficient_video_capture_via_single_bit_imaging.md)**
+
+:   传感器端每个像素只采 1 比特、靠逐帧变化的阈值把强度信息"编码"进二值流，再用不含光流的视频重建网络把全比特深度视频恢复回来——既砍掉了功耗最大的高精度 ADC，又在 GoPro 上拿到 32.77 dB PSNR 的高保真重建。
+
 **[AceTone: Bridging Words and Colors for Conditional Image Grading](acetone_bridging_words_and_colors_for_conditional_image_grading.md)**
 
 :   提出AceTone，首个支持文本和参考图像多模态条件色彩调色的统一框架，通过VQ-VAE将3D-LUT压缩为64个离散token，训练VLM预测LUT token序列，再用GRPO强化学习对齐色彩相似度和美学偏好，在风格迁移和指令调色上LPIPS改善50%。
 
-**[AE2VID: Event-based Video Reconstruction via Aperture Modulation](ae2vid_event-based_video_reconstruction_via_aperture_modulation.md)**
-
-:   针对事件相机视频重建只靠稀疏运动事件、静态区域和误差累积难以恢复的痛点，本文主动周期性开合光圈，让事件相机在静态区域也"被动触发"出密集事件，由此解析出密集强度参考图，再用双子网络（AENet 处理光圈事件、MENet 双向融合运动事件）重建出高速高动态范围视频，在 EvAid 上 MSE 较 SOTA 降低 27.4%。
-
 **[Beyond Ground-Truth: Leveraging Image Quality Priors for Real-World Image Restoration](beyond_ground-truth_leveraging_image_quality_priors_for_real-world_image_restora.md)**
 
 :   提出IQPIR框架，引入预训练NR-IQA模型的图像质量先验(IQP)作为条件信号，通过质量条件化Transformer、双Codebook结构和离散表示空间质量优化三个机制，引导图像修复过程趋向最高感知质量，在盲人脸修复等任务上全面超越SOTA。
-
-**[Beyond Single Solution: Multi-Hypothesis Collaborative Deep Unfolding Network for Image Compressive Sensing](beyond_single_solution_multi-hypothesis_collaborative_deep_unfolding_network_for.md)**
-
-:   针对压缩感知（CS）问题"欠定、解不唯一"的本质，本文提出 MHC-DUN：把传统深度展开网络（DUN）里"只重建一个解"的范式扩展成"同时重建 $T$ 个假设解并让它们协同优化"，在梯度下降步用 AlphaNet 给每个假设预测逐像素自适应步长、在近端映射步用 MHCB 挖掘假设间相关性融合，在 Set11/Urban100/CS-MRI 上全面超过现有 SOTA（Set11 平均 PSNR 比 USB-Net 高 0.45 dB）。
 
 **[Beyond Strict Pairing: Arbitrarily Paired Training for High-Performance Infrared and Visible Image Fusion](beyond_strict_pairing_arbitrarily_paired_training_for_high-performance_infrared_.md)**
 
@@ -130,21 +126,9 @@ item_total: 132
 
 :   针对扩散大模型"训练于合成、泛化到真实"时退化严重的问题，BiProLoRA 先用自监督的分布保真学习把 VAE 自编码通路校准到真实退化分布，再把"LoRA 负责结构恢复、Prompt 负责退化感知调制"写成一个双层（超参数优化）问题联合训练，只用合成数据 10% 量级的真实数据就在低光/去雾/水下五个无参考指标上全面超过 SOTA。
 
-**[Blink: Dynamic Visual Token Resolution for Enhanced Multimodal Understanding](blink_dynamic_visual_token_resolution_for_enhanced_multimodal_understanding.md)**
-
-:   提出 Blink 框架，通过在 MLLM 不同 Transformer 层动态扩展和丢弃视觉 token（模拟人类"快速眨眼"式扫描），在单次前向传播中自适应增强视觉感知能力，在多个多模态基准上提升 LLaVA-1.5 性能。
-
 **[BluRef: Unsupervised Image Deblurring with Dense-Matching References](bluref_unsupervised_image_deblurring_with_dense-matching_references.md)**
 
 :   提出 BluRef，首个利用非配对参考清晰图像通过稠密匹配生成伪 ground truth 来训练去模糊网络的无监督框架，性能逼近甚至超越有监督方法。
-
-**[Bridging Fidelity-Reality with Controllable One-Step Diffusion for Image Super-Resolution](bridging_fidelity-reality_with_controllable_one-step_diffusion_for_image_super-r.md)**
-
-:   CODSR 用一步扩散做真实场景超分：先按梯度图给纹理区"定点注噪"激活生成先验，再用未压缩的 LQ 特征调制 U-Net 中间层补回保真信息，最后用 Grounded-SAM2 的名词掩码约束 cross-attention 对齐文本，在四个真实数据集上同时拿到更好的感知质量和有竞争力的保真度。
-
-**[Bridging Human Evaluation to Infrared and Visible Image Fusion](bridging_human_evaluation_to_infrared_and_visible_image_fusion.md)**
-
-:   针对红外-可见光图像融合（IVIF）长期只优化手工指标、与人眼审美脱节的问题，本文构建了首个大规模 IVIF 人类反馈数据集，训练了一个"融合导向奖励模型"来量化感知质量，再用 SAM 辅助的 GRPO 把融合网络对齐到人类偏好，在主流基准上取得 SOTA 且融合结果更"好看"。
 
 **[Bridging the Perception Gap in Image Super-Resolution Evaluation](bridging_the_perception_gap_in_image_super-resolution_evaluation.md)**
 
@@ -153,10 +137,6 @@ item_total: 132
 **[CanonCGT: Reference-Based Color Grading via Canonical Pivot Representation](canoncgt_reference-based_color_grading_via_canonical_pivot_representation.md)**
 
 :   CanonCGT 把"参考图调色"拆成两步——先用 canonicalizer 把输入图洗成一张"无风格"的中性图（canonical pivot），再用 grader 把参考图的色调贴上去；配合监督+自监督的双阶段训练（DP-CGT），在 6 个数据集上 PSNR 从次优的 18.62 拉到 28.99，明显更稳更自然。
-
-**[CARD: Correlation Aware Restoration with Diffusion](card_correlation_aware_restoration_with_diffusion.md)**
-
-:   CARD 把 DDRM 这套扩散逆问题求解器从「i.i.d. 高斯噪声」假设推广到真实传感器的「空间相关噪声」——先用协方差矩阵的逆平方根 $\Sigma^{-1/2}$ 把观测白化成 i.i.d.，再在白化后的测量空间里跑 DDRM 的闭式更新，全程免训练，在合成相关噪声和作者新采集的真实 rolling-shutter 数据集 CIN-D 上的去噪/去模糊/超分都稳定超过现有方法。
 
 **[CASR: A Robust Cyclic Framework for Arbitrary Large-Scale Super-Resolution with Distribution Alignment and Self-Similarity Awareness](casr_a_robust_cyclic_framework_for_arbitrary_large-scale_super-resolution_with_d.md)**
 
@@ -170,9 +150,9 @@ item_total: 132
 
 :   本文（CANC）发现"对含噪图再加合成噪声、跑 Noisier2Noise 校正"后，去噪输出的方差关于"合成噪声/真实噪声方差比 $k$"是一条**凸曲线**、且在 $k=1$（合成噪声恰好等于真实噪声）处取最小，于是用一个以合成噪声方差为条件的网络 + 三分搜索把这个最小点找出来，从而在没有干净图、不知道噪声水平的前提下精确估计噪声 $\sigma_N$，再用估计值合成监督训练对，让自监督去噪逼平甚至略超"已知噪声水平"的监督模型。
 
-**[Customized Fusion: A Closed-Loop Dynamic Network for Adaptive Multi-Task-Aware Infrared-Visible Image Fusion](customized_fusion_a_closed-loop_dynamic_network_for_adaptive_multi-task-aware_in.md)**
+**[Coordinate Denoising for Non-Equilibrium Molecular Representation Learning](coordinate_denoising_for_non-equilibrium_molecular_representation_learning.md)**
 
-:   提出闭环动态网络 CLDyN，让一个冻结的融合网络在不重训的前提下，通过一个仅 0.46M 参数的"需求驱动语义补偿（RSC）"模块接收下游任务（检测/分割/显著性）反馈的语义特征、动态定制卷积结构来做任务专属补偿，从而用一套模块同时适配多个任务，在 M3FD/FMB/VT5000 上既保住融合质量又取得领先的多任务适应性。
+:   针对"坐标去噪等价于力场学习"这一结论只在平衡态成立的缺陷，本文用势能面的二阶有限差分推导出对任意构象都成立的去噪目标 NDeM，把它做成一个即插即用、无需预训练的辅助任务，在 MD17 / QM9 / OC20 上稳定提升各种等变 GNN 的力预测精度。
 
 **[Degradation-Consistent Test-Time Adaptation for All-in-One Image Restoration](degradation-consistent_test-time_adaptation_for_all-in-one_image_restoration.md)**
 
@@ -186,6 +166,10 @@ item_total: 132
 
 :   针对高分辨率视频快照压缩成像（SCI）"全帧重建太耗显存、背景占大头却没信息"的痛点，DetectSCI 提出**直接在编码测量上做目标检测**、再按检测框只重建感兴趣区域（ROI）的工作流，其检测器用权重共享的 Mamba-Implicit 模块抗时空混叠、用 Frequency Mamba 找回被压制的高频细节，在 SportsMOT 改造的 SCI 数据集上拿到 80.9 AP，超过最好的 CNN 检测器 ≥2.8 AP、最好的 Transformer 检测器 ≥4.1 AP。
 
+**[DiffDecompose: Layer-Wise Decomposition of Alpha-Composited Images via Diffusion Transformers](diffdecompose_layer-wise_decomposition_of_alpha-composited_images_via_diffusion_.md)**
+
+:   针对玻璃、雾气、水印、X 光等半透明/透明遮挡场景，这篇论文把"从单张合成图里拆出前景层和背景层"重新定义成一个生成式后验推断问题，配套发布了首个大规模 AlphaBlend 数据集，并用扩散 Transformer 框架 DiffDecompose（核心是"上下文分解 ICD"+"图层位置编码克隆 LPEC"）实现无需掩码的多层分解，在多个去除/分解子任务上 RMSE 平均比次优方法低约 36%。
+
 **[PNG: Diffusion-Based sRGB Real Noise Generation via Prompt-Driven Noise Representation Learning](diffusion-based_srgb_real_noise_generation_via_prompt-driven_noise_representatio.md)**
 
 :   PNG提出用可学习的Global/Local Prompt组件从真实噪声中自动提取噪声特征（替代ISO/相机型号等metadata），通过Prompt AutoEncoder编码噪声到latent空间+Prompt DiT（基于一致性模型）一步生成latent code，实现无需任何metadata的真实sRGB噪声合成，下游DnCNN去噪在SIDD上仅落后真实数据0.08dB。
@@ -198,41 +182,45 @@ item_total: 132
 
 :   本文把"不同感知域（空间/频率/非局部/扩散/压缩感知）的雾图特征其实共享同一个散射语义核"这个假设落地成一个**跨域不变流形 CIM**，用共识密度驱动的对比学习把多域特征对齐到统一隐空间，再叠一条**物理引导的 HSV 解耦网络**专门拆解雾导致的颜色通道耦合，从而同时解决"误判雾特征"和"颜色失真"两大顽疾，在多个真实/合成基准上达到 SOTA 且推理最快（0.062s）。
 
+**[Distilling Quasi-Conformal Mapping: A Generalizable and Efficient Solution for Wide-Angle Correction](distilling_quasi-conformal_mapping_a_generalizable_and_efficient_solution_for_wi.md)**
+
+:   用拟共形映射（QC mapping）作"教师"自动生成无标注的广角校正流真值，再蒸馏给一个 CNN-Mamba 学生网络 QDWC-Net 直接预测校正流，既摆脱人工标注、又把单图推理从 26.33s 压到 0.81s（32× 加速），在人体畸变校正上取得 SOTA。
+
 **[DNF-SR: Dual-Input and Negative-Aware Feature Fine-Tuning for Real-World Image Super-Resolution](dnf-sr_dual-input_and_negative-aware_feature_fine-tuning_for_real-world_image_su.md)**
 
 :   DNF-SR 把"带噪 LR + 原始 LR"双路喂进一个图像编辑扩散模型（Flux-Kontext）在中间时间步做单步超分，再用一种把偏好优化从隐空间搬到图像/特征空间的负样本感知微调（NF²T）做后训练，在四个真实超分基准的无参考指标上全面领先。
+
+**[DPGF-Net: Dual-Prior Guided Fusion Network for Joint Assessment of Perceptual Quality and Semantic Consistency in AI-Generated Images](dpgf-net_dual-prior_guided_fusion_network_for_joint_assessment_of_perceptual_qua.md)**
+
+:   DPGF-Net 用 Re-IQA 的双编码器抽出"失真先验 Qmap"和"内容先验 Cmap"来把渲染失真和语义内容解耦，再配合单一文本模板与"局部 TCPGA + 全局 FIM"双路自适应融合，在一个 CLIP 框架里同时打"感知质量"和"文图一致性"两个分，在三个 AGIQA 数据集和跨数据集上 12 项指标拿下 11 项第一。
 
 **[DreamSR: Towards Ultra-High-Resolution Image Super-Resolution via a Receptive-Field Enhanced Diffusion Transformer](dreamsr_towards_ultra-high-resolution_image_super-resolution_via_a_receptive-fie.md)**
 
 :   DreamSR 用一个"全局 + 局部"双分支的 MM-ControlNet 给基于 FLUX(DiT) 的超分模型注入 patch 级文本提示，配合一步去退化 LoRA 和感受野增强训练，专门解决超高清(≥4K)图像分块推理时"全局 prompt 和局部 patch 语义错配导致的过度生成 (over-generation)"，在多个真实数据集的无参考指标上达到 SOTA。
 
-**[DRFusion: Degradation-Robust Fusion via Degradation-Aware Diffusion Framework](drfusion_degradation_robust_fusion_via_degradation_aware_diffusion_framework.md)**
+**[Dual Ascent Diffusion for Inverse Problems](dual_ascent_diffusion_for_inverse_problems.md)**
 
-:   提出退化感知扩散框架 DRFusion，通过直接回归融合图像（而非显式预测噪声）和联合观测模型校正机制，在少量扩散步骤内实现任意退化场景下的多模态图像融合。
+:   DDiff 把求解逆问题的 MAP 优化重新组织成 ADMM 式的对偶上升框架，用一个「停留在扩散流形上」的去噪步替换掉朴素 plug-and-play 的离流形去噪，让预训练扩散先验既保住数据一致性又不引入幻觉，在超分/去模糊/相位恢复等 8 类任务上比 SOTA 更准、更抗噪、更快。
 
 **[Dual Graph Regularized Deep Unfolding Network for Guided Depth Map Super-resolution](dual_graph_regularized_deep_unfolding_network_for_guided_depth_map_super-resolut.md)**
 
 :   本文提出 LapNet，把"行/列双图拉普拉斯先验 + 深度隐式先验"写进一个统一变分模型，用 ADMM 推出闭式更新后展开成可解释的多阶段网络，在把图构造复杂度从 $O(H^3W^3)$ 压到 $O(H^3+W^3)$ 的同时，以 3.84M 参数刷到引导深度超分（GDSR）的 SOTA。
 
+**[DVAR: Dynamic Visual Autoregressive Modeling for Image Super-Resolution](dvar_dynamic_visual_autoregressive_modeling_for_image_super-resolution.md)**
+
+:   DVAR 把视觉自回归（VAR）超分模型从「一个分辨率一套权重」的死板设计中解放出来：用一套**相对比例的标准缩放序列（canonical scaling dynamic）+ 由 LQ 图像导出的动态起始 token** 取代固定的 1×1 起点和绝对尺度表，再配一个几乎零开销的**动态采样调度器**缓解训练-推理失配，从而让单一模型处理任意尺寸输入，并在真实超分上取得 SOTA 的感知质量。
+
 **[Dynamic Exposure Burst Image Restoration](dynamic_exposure_burst_image_restoration.md)**
 
 :   DEBIR 第一次把"为每张连拍帧预测最优曝光时间"作为一个可学习模块塞进 burst 复原流程：用 BAENet 根据预览图、增益和运动幅度预测每帧曝光时间，再用一个对曝光时间可微的 burst 仿真器把它和复原网络端到端连起来训练，在低光场景下复原 PSNR 比固定曝光档位高 0.28 dB，并在真实双相机系统上验证有效。
 
+**[Edge-Focused Super-Resolution for Omnidirectional Images with Spherical Geometric Augmentation](edge-focused_super-resolution_for_omnidirectional_images_with_spherical_geometri.md)**
+
+:   针对全景图像在 8×/16× 极端放大下「公开数据稀缺 + 边缘塌陷」两大痛点，本文提出一个端到端轻量网络 EAM：用边缘聚焦模块（EFB = 边缘增强 EEB + 边缘精修 ERB）和全局整合模块（GIB）强化边缘的捕获与全局一致性，并配一套基于球面投影的旋转-平移数据增强；在 ODI-SR / SUN360 上以约 2.0M 参数、38G FLOPs 取得超越现有 SOTA 的 WS-PSNR（ODI-SR 上比 FATO 高 1.15dB/1.13dB）。
+
 **[Edit-aware RAW Reconstruction](edit-aware_raw_reconstruction.md)**
 
 :   针对"RAW 重建的真实目的是后期编辑、而现有方法只优化逐像素 RAW 保真度"的错配，本文提出一个即插即用的 **edit-aware loss**——用一个可微、模块化、参数随机采样的简化 ISP 把真值 RAW 与重建 RAW 都渲染到 sRGB 再算误差，使重建结果在各种渲染风格/编辑下更鲁棒，在多种编辑条件下 sRGB PSNR 提升最高 1.5–2 dB。
-
-**[Efficient INT8 Single-Image Super-Resolution via Deployment-Aware Quantization and Teacher-Guided Training](efficient_int8_single-image_super-resolution_via_deployment-aware_quantization_a.md)**
-
-:   针对手机 NPU 上的 $\times 3$ 单图超分，本文用「LR 空间 MobileOne 重参数化骨干 + 三阶段教师引导训练 + 先融合再 QAT」的部署导向流水线，在 MAI 2026 量化超分挑战赛上以 82K 参数拿到 INT8 29.79 dB / 0.8634 SSIM、final score 1.8。
-
-**[Efficient Real-Time Raw-to-Raw Denoising for Extreme Low-Light Ultra HD Video on Mobile Devices](efficient_real-time_raw-to-raw_denoising_for_extreme_low-light_ultra_hd_video_on.md)**
-
-:   针对手机在 <1lx 极暗光下拍 4K/8K 视频噪声大、又必须满足 <33ms 延迟和 <250mA 功耗的难题，三星这篇论文给出一套从「混合数据集构建 → 轻量 mRLFB 去噪网络 → 蒸馏/重参数化/量化部署优化」的端到端工程方案，做出一个能直接插进商用 ISP 管线（raw 进 raw 出、保留 CFA）的实时去噪器，在骁龙 NPU 上 4K@30fps 运行，PSNR 与重型 SOTA 持平但延迟/功耗低一个数量级。
-
-**[EMR-Diff: Edge-aware Multimodal Residual Diffusion Model for Hyperspectral Image Super-resolution](emr-diff_edge-aware_multimodal_residual_diffusion_model_for_hyperspectral_image_.md)**
-
-:   EMR-Diff 把"低分辨高光谱图 + 高分辨多光谱图"融合成"高分辨高光谱图"的任务重写成一个扩散过程：让马尔可夫链的起点和终点之间传递的不再是纯高斯噪声而是**多模态残差**（把采样步数从上千步压到 5 步），再用 HR-MSI 的边缘信息**调制噪声**让模型专注重建高频细节，配合双路 BAF-UNet，在 ICVL/Harvard/Chikusei 三个数据集的 PSNR、SAM 等指标上全面超过 10 个 SOTA。
 
 **[Enhancing Unregistered Hyperspectral Image Super-Resolution via Unmixing-based Abundance Fusion Learning](enhancing_unregistered_hyperspectral_image_super-resolution_via_unmixing-based_a.md)**
 
@@ -241,6 +229,10 @@ item_total: 132
 **[Event-Based Motion Deblurring Using Task-Oriented 3D Gaussian Event Representations](event-based_motion_deblurring_using_task-oriented_3d_gaussian_event_representati.md)**
 
 :   针对现有事件去模糊普遍使用「固定权重核」把稀疏事件聚合成事件帧、无法适配局部运动快慢差异的问题，本文提出一个**可学习的 3D 高斯事件表示**：根据模糊图内容与事件密度自适应采样关键时空坐标、用 3D 高斯核加权聚合事件，再配一个两阶段融合网络（局部细节增强 + 1D 高斯全局对齐），在 GoPro/HS-ERGB/REBlur 三个数据集上 PSNR 全面超越 SOTA。
+
+**[Event-Based Motion Deblurring Using Task-Oriented 3D Gaussian Event Representations](event-based_motion_deblurring_with_unpaired_data.md)**
+
+:   针对事件相机去模糊里"手工固定权重核无法适应空间各异的运动速度/方向"这一痛点，本文提出一个**可学习的 3D 高斯事件表示模块（3D-GSER）**——根据模糊图内容和事件密度自适应地采样关键时空坐标、用 3D 高斯核聚合事件成帧，再配合**两阶段融合**（局部细节增强 + 双向注意力做全局对齐），在 GoPro / HS-ERGB / REBlur 三个数据集上全面超过 SOTA。
 
 **[Event-Illumination Collaborative Low-light Image Enhancement with a High-resolution Real-world Dataset](event-illumination_collaborative_low-light_image_enhancement_with_a_high-resolut.md)**
 
@@ -254,13 +246,13 @@ item_total: 132
 
 :   ExpoCM 把单图 HDR 重建建模成一个曝光感知的一致性模型轨迹：先用软曝光掩码把 LDR 分成过曝/欠曝/正常三类区域，对每类区域设计不同的 PF-ODE 一致性轨迹（过曝纯噪声幻想细节、欠曝注入低频先验、正常区直接用输入），再配一个在 CIE L\*a\*b\* 空间按曝光加权的亮度-色度损失，从而**无需蒸馏、单步推理**就拿到 SOTA 保真度，且比 DDPM 快 400 倍以上。
 
-**[F²HDR: Two-Stage HDR Video Reconstruction via Flow Adapter and Physical Motion Modeling](f2hdr_two-stage_hdr_video_reconstruction_via_flow_adapter_and_physical_motion_mo.md)**
-
-:   提出 F²HDR，一个两阶段 HDR 视频重建框架，通过 Flow Adapter 将通用预训练光流适配到交替曝光场景以实现鲁棒对齐，并利用物理运动建模从光流中提取连续运动掩码来引导第二阶段的伪影消除，在真实 HDR 视频基准上达到 SOTA。
-
 **[FAPE-IR: Frequency-Aware Planning and Execution Framework for All-in-One Image Restoration](fape-ir_frequency-aware_planning_and_execution_framework_for_all-in-one_image_re.md)**
 
 :   FAPE-IR 用一个冻结的多模态大模型（Qwen2.5-VL）当"规划器"读懂退化图像、生成频率感知的恢复计划，再用扩散执行器里的 LoRA-MoE 按计划动态调度高/低频专家来修图，配合对抗训练和频率正则，在七类恢复任务上拿到 SOTA 并对未见的复合退化有强零样本泛化。
+
+**[FastGaMer: Efficient GainMap Learning for Practical Inverse Tone Mapping](fastgamer_efficient_gainmap_learning_for_practical_inverse_tone_mapping.md)**
+
+:   FastGaMer 把逆色调映射（SDR→HDR/WCG）重新表述为「预测一张三通道彩色增益图（Color Gain Map）」，并按照本地色调映射的退化结构把全局压缩与局部自适应分开求逆——用动态双边网格反演局部畸变、用可学习 3D LUT 做全局重映射、用轻量神经调制器保证全局一致，所有高分辨率算子都是「无网络」操作，因此能在 V100 上 6.2 ms 处理一张 4K 图，PQ-PSNR 比此前最好的轻量方法高 1.4 dB，runtime 降 70%。
 
 **[FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution](fidesr_high-fidelity_and_detail-preserving_one-step_diffusion_super-resolution.md)**
 
@@ -278,6 +270,10 @@ item_total: 132
 
 :   EvDehaze 首次把事件相机引入去雾任务，将去雾重新建模成「以事件为条件的图像生成」，在隐空间 DDIM 扩散里通过交叉注意力注入事件的高动态范围边缘/对比度线索，在无需真实成对数据监督的情况下生成更真实清晰的去雾图，并附带首个真实雾天 RGB-事件无人机数据集。
 
+**[FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration](fusionregister_every_infrared_and_visible_image_fusion_deserves_registration.md)**
+
+:   针对红外-可见光图像融合（IVIF）里"先配准再融合"的高成本、依赖人造形变、难以适配真实场景的痛点，FusionRegister 反过来"先融合、再只对错配区域做后配准"——它挂在任意冻结的融合骨干之后，用融合结果当视觉先验定位错配区域、做双向 warping 纠偏、再用 gMLP 模块找回纹理，以仅 2.94M 参数、19ms 推理把五种主流融合方法的配准精度（SAM IoU）平均提升约 5%，同时完全保留原融合质量。
+
 **[Gaussian Splatting-based Low-Rank Tensor Representation for Multi-Dimensional Image Recovery](gaussian_splatting-based_low-rank_tensor_representation_for_multi-dimensional_im.md)**
 
 :   把 3D 重建里的高斯泼溅搬进 t-SVD：用 2D 高斯泼溅生成隐张量、1D 高斯泼溅生成变换矩阵，得到一种连续、紧凑、擅长刻画局部高频细节的低秩张量表示 GSLR，并据此搭一个无监督的多维图像恢复模型，在随机/管状/切片三种缺失下的 PSNR/SSIM 全面超过 SOTA。
@@ -285,6 +281,10 @@ item_total: 132
 **[GDPO-SR: Group Direct Preference Optimization for One-Step Generative Image Super-Resolution](gdpo-sr_group_direct_preference_optimization_for_one-step_generative_image_super.md)**
 
 :   针对一步扩散超分（one-step Real-ISR）确定性输出导致无法做偏好优化的问题，本文先用"可控噪声注入 + 不等时间步"让一步模型生成多样化候选，再把 DPO 的像素级约束与 GRPO 的组内相对优势融合成 GDPO，并配一个按图像平滑/纹理占比动态加权的奖励函数，在不增加任何推理开销的前提下同时提升保真度和感知质量。
+
+**[GFRRN: Explore the Gaps in Single Image Reflection Removal](gfrrn_explore_the_gaps_in_single_image_reflection_removal.md)**
+
+:   GFRRN 把单图反射去除（SIRR）里两条长期被忽视的"鸿沟"——预训练模型与去反射模型之间的语义鸿沟、合成数据与真实数据之间的反射标签不一致——分别用 Mona 参数高效微调和统一低频标签补上，再叠加高斯自适应频率块与动态智能体注意力，在 5 个真实测试集上把平均 PSNR 推到 27.33 dB（较此前 SOTA +0.7 dB）。
 
 **[GSNR: Graph Smooth Null-Space Representation for Inverse Problems](gsnr_graph_smooth_null_space_representation_for_inverse_problems.md)**
 
@@ -294,9 +294,17 @@ item_total: 132
 
 :   GyroDVD 是第一个面向「陀螺仪辅助视频去模糊」的学习式框架：它用一个分解式相机运动模型把每个像素的运动拆成旋转（陀螺仪测）和平移（光流估）两部分，据此构造逐像素模糊核，再用核引导的图像编码器 + 视频解码器把模糊视频还原成清晰视频，在自建的大规模真实数据集 GyroVD 上显著超过此前所有陀螺仪图像/视频去模糊方法。
 
+**[HDW-SR: High-Frequency Guided Diffusion Model based on Wavelet Decomposition for Image Super-Resolution](hdw-sr_high-frequency_guided_diffusion_model_based_on_wavelet_decomposition_for_.md)**
+
+:   HDW-SR 用「只对残差扩散 + 小波采样替换 U-Net 卷积 + 高低频稀疏交叉注意力 + 动态阈值选元」的组合，把预超分图像的高频先验显式注入扩散去噪过程，在合成与真实超分数据集上把细节恢复做得更锐利、更自然。
+
 **[HFR and HDR Video from Multi-Attenuated Spikes Using a Rapidly Rotating SpokeND Filter](hfr_and_hdr_video_from_multi-attenuated_spikes_using_a_rapidly_rotating_spokend_.md)**
 
 :   在脉冲（spike）相机前架一片高速旋转的镂空式中性密度滤光片（SpokeND），让每个像素周期性地以多档衰减采样光强，再用两阶段的 ReST-Net（ReGain 去空间衰减 + ReFine 去时间闪烁）从这些「多衰减脉冲」里重建出最高 2000 FPS 的高帧率（HFR）兼高动态范围（HDR）视频。
+
+**[HiDRA: Hierarchical Degradation Representation and Adaptation with Generative Priors for Enhancing Infrared Vision](hidra_hierarchical_degradation_representation_and_adaptation_with_generative_pri.md)**
+
+:   HiDRA 把热红外（TIR）图像增强拆成「退化表示估计 + 生成模型微调」两层任务：用一个退化估计模块（DEM）从退化图像里反推出热红外特有的退化向量，再让这个向量去调制一步式 Stable Diffusion 的 LoRA 参数，并用双层（bi-level）优化在多种退化等级上联合训练，从而在 FPN 噪声、盲超分、复合退化和真实跨设备退化上都显著超过现有 SOTA。
 
 **[Human-Centric Multi-Exposure Fusion: Benchmark and Bi-level Cognition Distillation Framework](human-centric_multi-exposure_fusion_benchmark_and_bi-level_cognition_distillatio.md)**
 
@@ -314,10 +322,6 @@ item_total: 132
 
 :   IFCSR 让"调保真度 vs 真实感"这件事从扩散模型的**隐空间**搬到**图像空间**——先用两个专精网络分别推一张保真图和一张真实感图，之后用户只需调一个参数 $\gamma$ 在图像空间线性混合两图，**不需要任何额外网络推理**就能在保真-真实谱上任意滑动。
 
-**[InstantRetouch: Efficient and High-Fidelity Instruction-Guided Image Retouching with Bilateral Space](instantretouch_efficient_and_high-fidelity_instruction-guided_image_retouching_w.md)**
-
-:   InstantRetouch 把语言引导的照片修图从"直接编辑像素/latent"换成"在紧凑、内容解耦的双边空间里只预测一套仿射变换网格"，再用变分分数蒸馏把多步扩散教师蒸馏成单步生成器，从而在 4K 上做到 68ms 出图、比扩散基线快 70–900 倍，同时几乎不改动原图内容（无 content drift）。
-
 **[Flickerformer: A Duet of Periodicity and Directionality for Burst Flicker Removal](it_takes_two_a_duet_of_periodicity_and_directionality_for_burst_flicker_removal.md)**
 
 :   揭示闪烁伪影具有周期性和方向性两个内在物理特性，设计Flickerformer三模块（PFM/AFFN/WDAM）分别针对帧间/帧内周期性和方向性建模，以3.92M参数量在BurstDeflicker基准上达到31.226dB PSNR，超越第二名AST +0.580dB且仅用其19.70%参数。
@@ -334,21 +338,21 @@ item_total: 132
 
 :   这篇论文把「从用户的成对偏好判断中学个性化色调审美、再把它应用到任意新照片上」定义成一个新任务 PPS（Personalized Photographic Style），并配套交付了一个 767 人、约 6 万条偏好判断的大规模数据集 PPSD、三种可行的基线模型，以及一个专门衡量「保真度 + 偏好对齐」的评估指标 CQS，证明从纯比较信号里学个人审美是可行的。
 
-**[Learning to Translate Noise for Robust Image Denoising](learning_to_translate_noise_for_robust_image_denoising.md)**
-
-:   提出噪声翻译框架，通过轻量级噪声翻译网络将未知真实噪声转换为高斯噪声，再由预训练的高斯去噪网络处理，在 OOD 真实噪声基准上平均 PSNR 提升 1.5dB 以上，且翻译网络仅 0.29M 参数、可跨去噪器迁移。
-
 **[LF-BVN: Blind-View Network for Self-Supervised Light Field Denoising](lf-bvn_blind-view_network_for_self-supervised_light_field_denoising.md)**
 
 :   把单图去噪里的「盲点（blind-spot）」思想推广到光场的「盲视点（blind-view）」——遮住一部分视点、用其它视点的多视角一致性来重建它们，从而无需任何干净图像就能训练，并靠几何不变掩膜让一张权重共享网络去噪全部视点，在合成、真实和显微光场上都达到或超过监督方法。
+
+**[Life-IQA: Boosting Blind Image Quality Assessment through GCN-enhanced Layer Interaction and MoE-based Feature Decoupling](life-iqa_boosting_blind_image_quality_assessment_through_gcn-enhanced_layer_inte.md)**
+
+:   针对盲图像质量评估(BIQA)中"把所有层特征一股脑融合反而引入噪声"的问题，Life-IQA 只用骨干网最深两层特征做质量解码：用 GCN 增强的查询拓扑把 stage4 特征当 query、stage3 特征当 key/value 做跨层交互，再用一个后置的 MoE 头按失真类型解耦特征，在七个 BIQA 基准上以约 95M 参数取得 SOTA。
 
 **[LightRR: A Lightweight Network for Single Image Reflection Removal](lightrr_a_lightweight_network_for_single_image_reflection_removal.md)**
 
 :   针对单图反射去除（SIRR）模型又大又慢的问题，LightRR 用小波分频把反射主要集中的低频交给 Mamba 状态空间模型重点处理、高频走轻量旁路无损保留，再用知识蒸馏让小编码器在训练时偷师大预训练模型、推理时丢弃，最终只用 RDNet 的 3.01% 参数和 5.22% FLOPs 就拿到接近 SOTA 的去反射效果。
 
-**[Low-Rank Residual Diffusion Models](low-rank_residual_diffusion_models.md)**
+**[LRDUN: A Low-Rank Deep Unfolding Network for Efficient Spectral Compressive Imaging](lrdun_a_low-rank_deep_unfolding_network_for_efficient_spectral_compressive_imagi.md)**
 
-:   LRDM 发现"近域图像恢复"（去雨/去模糊/去阴影等源域与目标域已高度相似的任务）里，退化残差天然是低秩的，于是把扩散的前向过程约束在低秩残差子空间、反向过程保持全秩，并按时间步自适应调整秩，从理论上收紧变分下界、用更少采样步换来更好的恢复保真度。
+:   把高光谱图像（HSI）的低秩分解 $X=A\times_3 E$ 直接嵌进 CASSI 的成像（感知）模型，让网络不再去重建整块高维数据立方体，而是交替求解维度低得多的「光谱基 $E$」和「空间子空间图 $A$」两个子问题；据此把近端梯度下降（PGD）展开成 LRDUN，并用 GFUM 解耦物理秩与特征维度，在 KAIST 上以 30.58 GFLOPs 的代价拿到 40.96 dB 的 SOTA PSNR，算力比同档方法低一截。
 
 **[LRHDR: Learning Representation-enhanced HDR Video Reconstruction](lrhdr_learning_representation-enhanced_hdr_video_reconstruction.md)**
 
@@ -357,14 +361,6 @@ item_total: 132
 **[MMDIR: Multimodal Instruction-Driven Framework for Mixed-Degradation Document Image Restoration](mmdir_multimodal_instruction-driven_framework_for_mixed-degradation_document_ima.md)**
 
 :   MMDIR 把"用文字指令问模型这张文档图里有没有/有哪些退化"这件事塞进文档复原流程：一张退化文档图配一条文本指令，经视觉编码器和 LLM 联合处理后，LLM 先输出"哪几种退化存在"的诊断文本，再用这段语义特征去引导视觉解码器做有针对性的复原，从而在不依赖退化先验、不为每种退化单独训模型的前提下，统一处理模糊、阴影、文字水印、印章四类**混合且不确定**的退化。
-
-**[More Than Meets the Eye: A Unified Image Fusion Framework via Semantic-Pixel Entropy Trade-off for Zero-Shot Generalization](more_than_meets_the_eye_a_unified_image_fusion_framework_via_semantic-pixel_entr.md)**
-
-:   把图像融合重新表述成自由能最小化问题——感知路径压低"语义熵"、重建路径抬高"像素熵"——只用红外-可见光这一种数据训练，就能零样本泛化到医学、多焦点、多曝光等没见过的融合任务，同时显著提升下游检测/分割性能。
-
-**[MAD-Avatar: Motion-Aware Animatable Gaussian Avatars Deblurring](motionaware_animatable_gaussian_avatars_deblurring.md)**
-
-:   首次实现从模糊视频直接重建清晰可驱动3D高斯人体avatar：提出3D感知的物理模糊形成模型(将模糊分解为子帧SMPL运动+canonical 3DGS)，用B-spline插值+位姿变形网络建模子帧运动，帧间正则化解决运动方向歧义，在合成和真实数据集上大幅超越"2D去模糊+3DGS"两阶段方案(PSNR提升约2.5dB)。
 
 **[MR. Illuminate: Zero-Shot Low-Light Image Enhancement with Diffusion Prior](mr_illuminate_zero-shot_low-light_image_enhancement_with_diffusion_prior.md)**
 
@@ -386,9 +382,9 @@ item_total: 132
 
 :   NSP 借鉴视觉自回归的「下一尺度预测」，让盲点网络（BSN）以大下采样因子得到的**低分辨率、已解相关**子图为输入、去预测小下采样因子对应的**高分辨率、保细节**目标，从而把「噪声解相关」和「细节保留」这对长期对抗的目标在不同尺度上各自解决，在真实去噪基准上刷到自监督 SOTA，还顺带白送一个噪声图超分能力。
 
-**[One-Shot Flow, Any-Time Frame: A Bidirectional Warping Framework for Event-Based Video Frame Interpolation](one-shot_flow_any-time_frame_a_bidirectional_warping_framework_for_event-based_v.md)**
+**[OMoBlur: An Object Motion Blur Dataset and Benchmark for Real-World Local Motion Deblurring](omoblur_an_object_motion_blur_dataset_and_benchmark_for_real-world_local_motion_.md)**
 
-:   针对事件相机视频插帧（E-VFI）中「前向 warping 快但有空洞、后向 warping 质量高但每帧都要重算」的两难，本文提出「One-Shot Flow, Any-Time Frame」：用一次前向计算得到覆盖整段时间的双向运动表示，任意时刻的光流可直接查询，再用带显式修复掩码的双向 warping 融合两种方向的优势，在合成与真实数据集上同时刷新了重建质量与推理效率（GOPRO Skip 15 PSNR 36.90，127 帧插值显存仅 7.27GB 而 TLXNet 直接 OOM）。
+:   针对静止场景中由运动物体造成的"局部、非均匀"模糊，作者用工业相机的可编程曝光控制做出一套物理保真的累积式合成数据集 OMoBlur（2 万对 blur–sharp–mask，有效曝光占比高达 98%），并配套提出能在不依赖像素级 mask 标注的情况下"只修模糊区、保住静止背景"的去模糊网络 OMDNet。
 
 **[One-Step Diffusion Transformer for Controllable Real-World Image Super-Resolution](one-step_diffusion_transformer_for_controllable_real-world_image_super-resolutio.md)**
 
@@ -398,13 +394,13 @@ item_total: 132
 
 :   针对真实测量中常见的离群值（outlier），本文给基于预训练扩散模型的逆问题求解器加了两道保险——先用显式噪声估计精炼测量，再把数据保真项从平方 $\ell_2$ 换成 Huber 损失的迭代重加权最小二乘，并分别用梯度下降（Robust-GD）和共轭梯度（Robust-CG）求解，在超分/修复/去模糊等线性与非线性任务上对离群污染显著比 DPS、DAPS 等近期方法更稳。
 
-**[Perceptual Neural Video Compression with Color Separation and Rank Chain](perceptual_neural_video_compression_with_color_separation_and_rank_chain.md)**
-
-:   针对现有神经视频压缩只追 PSNR、忽视人眼对亮度/色度感知差异、且可变码率下感知质量不一致两个问题，本文用「亮度-色度分离的双编解码框架（PNVC-C）」+「码率秩链对抗优化（Rc-GAN）」组合出 PNVC-CR，在 LPIPS / DISTS / KID / FID 等感知指标上相对 VTM 取得 77.71% / 53.94% / 54.44% / 42.27% 的 BD-rate 节省，同时仍保留客观保真度。
-
 **[PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors](phasr_generalized_image_shadow_removal_with_physically_aligned_priors.md)**
 
 :   提出PhaSR框架，通过双层物理先验对齐——全局级的PAN执行无参数Retinex分解抑制色彩偏差、局部级的GSRA利用差分注意力对齐DepthAnything深度先验和DINO-v2语义嵌入——实现从单光源直射阴影到多光源环境光场景的泛化阴影去除，在WSRD+和Ambient6K上达到SOTA且FLOPs最低。
+
+**[Physically-Grounded Turbulence Mitigation with Frame-Shared Degradation Parameters](physically-grounded_turbulence_mitigation_with_frame-shared_degradation_paramete.md)**
+
+:   TMFS 是一个无监督、基于优化的多帧大气湍流复原方法：它把"tilt-then-blur"物理退化模型里每一帧的畸变场和模糊参数拆成**场景共享的相关函数 + 逐帧噪声图**，用同一场景多帧之间的湍流统计相关性来约束本就高度病态的逐帧估计，在真实湍流数据上比在合成数据上训练的监督方法泛化更好。
 
 **[Physics-Guided Multistep Deformation Reversal for Ancient Bamboo Slip Restoration](physics-guided_multistep_deformation_reversal_for_ancient_bamboo_slip_restoratio.md)**
 
@@ -418,17 +414,9 @@ item_total: 132
 
 :   针对"透过彩色玻璃拍照会出现重影 + 颜色偏色"这一被忽视的退化问题，本文首次把偏振成像理论引入建模，提出物理成像模型 PSTM（追踪偏振光多路径传播 + 波长选择性吸收）并据此设计带 Channel Ring Attention 的偏振感知网络 PANet，在自建真实数据集 GlassPol 上比现有 SOTA 最高提升约 3dB PSNR，同时恢复出颜色保真的透射场景。
 
-**[PS-SR: Pseudo-Single-Step Video Super-Resolution via Speculative Diffusion](ps-sr_pseudo-single-step_video_super-resolution_via_speculative_diffusion.md)**
-
-:   PS-SR 把一个昂贵的多步扩散超分拆成「强 base 模型走 1 步 + 轻量 draft 模型推测式走 T−1 步」的非对称采样，再用频域更新规则强制后续步只注入高频细节、不动低频结构，从而在接近单步模型的速度下拿到多步扩散的画质与细节。
-
 **[RADAR: VQ-VAE Decoder of VAR is a Good Student for Restoring Against Degradation by Acceleration](radar_vq-vae_decoder_of_var_is_a_good_student_for_restoring_against_degradation_.md)**
 
 :   针对视觉自回归（VAR）模型加速后隐表示退化、图像质量下降的问题，本文提出两段式框架 RADAR：先用语义代价感知掩码（SCA-Mask）把注意力剪枝转成"预算约束下保留最多语义信息"的优化问题，再用后加速适配（PAA）——只给 VQ-VAE 解码器挂一个 LoRA、用未加速分支做教师做内部知识蒸馏，把退化的隐表示重新还原成高保真图像；在 ImageNet-1K 上实现约 1.6–1.9× 提速且 FID 几乎无损（VAR-d20 从退化的 5.02 复原到 2.68，原始为 2.61）。
-
-**[RAR: Restore, Assess, Repeat - A Unified Framework for Iterative Image Restoration](rar_restore_assess_repeat_a_unified_framework_for_iterative_image_restoration.md)**
-
-:   RAR 将图像质量评估（IQA）与图像修复（IR）深度集成为统一端到端模型，在潜在空间中迭代执行"评估-修复-验证"循环，在复合退化场景下 PSNR 提升 +2.71 dB 且速度比 AgenticIR 快 11.27×。
 
 **[RAW-Domain Degradation Models for Realistic Smartphone Super-Resolution](rawdomain_degradation_models_smartphone_sr.md)**
 
@@ -438,13 +426,17 @@ item_total: 132
 
 :   RawMetaDiff 把"对齐短/长曝光帧"这个脆弱的显式配准问题重写成"条件生成"问题——以噪声短曝光 RAW 作为扩散初始化，用可能错位的长曝光 RAW 作参考、并由 RAW 元数据（ISO/CCM/曝光）引导一步式潜空间扩散，借 MACT 做全局颜色迁移、MNCA 做阴影细节注入，在合成与真实数据上 LPIPS 提升 33%、真实数据 DeQA 涨 15%。
 
-**[Real-Time Neural Video Compression with Unified Intra and Inter Coding](real-time_neural_video_compression_with_unified_intra_and_inter_coding.md)**
-
-:   针对实时神经视频压缩（如 DCVC-RT）在场景切换/新内容处帧内编码能力弱、必须靠"周期刷新"硬切导致质量骤降、比特率突刺和帧间误差累积的问题，本文用"单模型统一帧内/帧间编码 + 同时压缩两帧 + 混合参考训练"，让模型按参考可靠性自适应在帧内/帧间间切换，在 DCVC-RT 基础上平均省码率 12.1%（BD-rate），且保持实时编解码、模型更小、无需刷新机制。
-
 **[Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](real_iisr_infrared_image_super_resolution_autoregressive.md)**
 
 :   提出 Real-IISR 统一自回归框架，通过热-结构引导模块、条件自适应码本和热序一致性损失解决真实红外图像超分辨率的特有挑战，并构建了 FLIR-IISR 数据集（1457 对真实 LR-HR 红外图像）。
+
+**[ReasonX: MLLM-Guided Intrinsic Image Decomposition](reasonx_mllm-guided_intrinsic_image_decomposition.md)**
+
+:   ReasonX 把一个微调过的多模态大模型（MLLM）当作"感知裁判"，对 RGB 图上的点对做相对本征判断（谁更近、谁更亮、是否同材质），再用裁判判断与模型预测的解析关系是否一致作为 GRPO 奖励，在**完全无本征真值标注**的真实图像上微调本征分解模型，让 PRISM / Marigold 这类模型在野外场景上 IIW 反照率 WHDR 降低 9–25%、ETH3D 深度精度提升最高 46%。
+
+**[Rectifying Latent Space for Generative Single-Image Reflection Removal](rectifying_latent_space_for_generative_single-image_reflection_removal.md)**
+
+:   GenSIRR 把一个图像编辑扩散大模型（FLUX.1 Kontext）改造成单图反射去除器，核心是让 VAE 的潜空间"看懂"反射图是背景层和反射层的线性叠加（reflection-equivariant VAE），再配上可学习的任务嵌入替代含糊的语言提示、以及用深度图早期分支挑选最优采样轨迹，在 Real20/SIR2/Nature 等基准上刷到新 SOTA，并在真实野外照片上展现出强泛化。
 
 **[Reflection Separation from a Single Image via Joint Latent Diffusion](reflection_separation_from_a_single_image_via_joint_latent_diffusion.md)**
 
@@ -458,9 +450,9 @@ item_total: 132
 
 :   RegionFuse 把红外-可见光图像融合（IVIF）的融合权重从「全图统一」细化到「按局部像素分布逐区域自适应」：用一个区域级的混合专家注意力（MoRA）把不同像素分布的区域分派给不同的掩码注意力专家、再用区域特征压缩模块（RFCM）增强有效区域、抑制冗余，在四个 IVIF 基准上拿到 SOTA，且对过/欠曝这类非均匀光照尤其鲁棒。
 
-**[Residual Diffusion Bridge Model for Image Restoration](residual_diffusion_bridge_model_for_image_restoration.md)**
+**[Restore, Assess, Repeat: A Unified Framework for Iterative Image Restoration](restore_assess_repeat_a_unified_framework_for_iterative_image_restoration.md)**
 
-:   本文把扩散桥重新推导成由「均值回归 OU 过程 + Doob h-变换」统一刻画的随机插值，并用**配对图像的残差 $\boldsymbol{\pi}=\mathbf{x}_0-\boldsymbol{\mu}$ 去调制噪声的注入与去除**，让模型只在退化区域施加扰动、保护干净区域不被反复重建，从而在去雨/低光/去雪/去雾/去模糊五类通用恢复任务上平均涨 1.55 dB PSNR，同时把现有各种桥模型证明为本框架的特例。
+:   RAR 把"图像质量评估（IQA）"和"图像恢复（IR）"塞进同一个潜空间、做成一个端到端可训练的模型，让它在潜空间里反复地"评估→恢复→再评估"，从而在未知/复合退化上又准又快（比 SOTA 快 11.27×）地把图像修干净。
 
 **[Restore Text First, Enhance Image Later: Two-Stage Scene Text Image Super-Resolution with Glyph Structure Guidance](restore_text_first_enhance_image_later_two-stage_scene_text_image_super-resoluti.md)**
 
@@ -470,13 +462,17 @@ item_total: 132
 
 :   DGAF-VSR 重新审视扩散视频超分里"对齐 + 补偿"的作用，先用量化实验得出两条观察——特征域比像素域时空相关性更强、在高分辨率上 warping 更能保住高频，再据此设计在特征域做"上采样-warp-下采样"对齐的 OGWM 模块和用完整 U-Net 做稠密时序引导的 FTCM 模块，在感知质量、保真度、时序一致性三方面同时刷过 SOTA（DISTS −35.82%、PSNR +0.20dB、tLPIPS −30.37%）。
 
+**[Rethinking Knowledge Transfer in Image Quality Assessment: A Perceptual Preference Structure Alignment Perspective](rethinking_knowledge_transfer_in_image_quality_assessment_a_perceptual_preferenc.md)**
+
+:   作者把 IQA 跨数据集迁移失败的根因归结为「感知偏好结构」错配（即不同数据集的条件分布 $P(Y|X)$ 不同），提出用特征-分数相关向量 PPR 量化这种偏好、用余弦相似度 PPC 衡量数据集间兼容性，再用贪心剔除策略 PreSTA 只挑出与目标域偏好一致的源样本——仅用 20% 源数据就反超全量基线。
+
 **[Retrieve-to-Restore: Efficient All-in-One Image Restoration with a Retrieval-Based Degradation Bank](retrieve-to-restore_efficient_all-in-one_image_restoration_with_a_retrieval-base.md)**
 
 :   R2R 把"退化适配"从骨干网络里抽出来，外置成一个可检索的"退化银行"——训练期用退化融合器把各类退化的干净先验蒸馏进银行，推理期用退化匹配检索最相关的先验来调制特征，从而在单一轻量骨干上稳定处理多种退化，PSNR 与 SOTA 持平却只用约 9% 的算力。
 
-**[SAT: Selective Aggregation Transformer for Image Super-Resolution](sat_selective_aggregation_transformer_for_image_super_resolution.md)**
+**[RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360deg Image Quality Assessment](rl-scaniqa_reinforcement-learned_scanpaths_for_blind_360deg_image_quality_assess.md)**
 
-:   提出选择性聚合 Transformer (SAT)，通过密度驱动 token 聚合将 Key-Value 矩阵 token 数减少 97%、保持 Query 全分辨率，实现高效全局注意力建模，超越 SOTA PFT 达 0.22dB 且 FLOPs 降低 27%。
+:   RL-ScanIQA 把 360° 全景图的盲质量评估（BIQA）重构成一个"主动感知"问题：用 PPO 训练一个 scanpath 策略去自主选择该看哪些视口，再用一个质量评估器给分，两者端到端联合优化、靠质量预测反馈直接驱动策略（不再需要人类眼动标注），配合多层奖励和失真空间增强，在三个 360° IQA 基准上取得 SOTA。
 
 **[Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-high-definition Image Restoration](scan_clusters_not_pixels_a_cluster-centric_paradigm_for_efficient_ultra-high-def.md)**
 
@@ -490,6 +486,10 @@ item_total: 132
 
 :   DeSpike 是首个针对脉冲相机（spike camera）离焦模糊的端到端去模糊与重建框架，先用薄透镜物理模型刻画离焦如何扭曲脉冲发放，再用多时间尺度 IF 神经元 + 可学习离散 PSF 先验 + 多空间尺度迭代精修把模糊脉冲流恢复成清晰图像，在合成与真实离焦脉冲数据上全面超越现有去模糊方法。
 
+**[Self-Attention Driven Tensor Representation for High-Order Data Recovery](self-attention_driven_tensor_representation_for_high-order_data_recovery.md)**
+
+:   把自注意力机制搬进低秩张量表示（LRTR）的因子建模里，用「因子自表示」替代固定的 MLP/CNN 映射来动态捕捉因子空间的局部与非局部非线性依赖，再用 MLP 参数化核张量隐式施加稀疏约束，配上可恢复性理论证明，在补全、去噪、视频插帧三类高阶数据恢复任务上一致超过现有 SOTA。
+
 **[Self-Diffusion Driven Blind Imaging](self-diffusion_driven_blind_imaging.md)**
 
 :   DeblurSDI 把"自扩散"（self-diffusion，一种无需预训练的逆问题求解器）从已知退化算子的非盲场景拓展到盲场景，用两个随机初始化、互不预训练的网络在一段从纯噪声出发的反向扩散过程里**同时**重建清晰图像和模糊核（PSF），靠噪声调度天然稳住这个本来极易崩塌的联合优化，在光学像差和运动模糊上大幅超过现有盲去模糊方法。
@@ -502,6 +502,10 @@ item_total: 132
 
 :   SelfHVD 利用手持视频中自然存在的清晰帧作为监督信号，通过自增强视频去模糊（SEVD）构建高质量训练对和自约束空间一致性维护（SCSCM）防止位移偏移，实现了无需配对数据的手持视频去模糊。
 
+**[SGDE: Self-supervised Geometry Degradation Estimation Framework for Coded Aperture Compressive Spectral Imaging](sgde_self-supervised_geometry_degradation_estimation_framework_for_coded_apertur.md)**
+
+:   针对编码孔径压缩光谱成像（CASSI）中掩膜（mask）微小错位会严重破坏重建质量的问题，本文把掩膜错位显式建模成仿射变换嵌进成像模型，用一套自监督的"双生成器 + 多核估计"框架在不需要任何参考靶标和设备专属训练数据的情况下，同时估计仿射参数并重建高光谱图像，让重建在 1 像素平移、0.4° 旋转等扰动下仍能稳定保持 PSNR > 35 dB，且估出的仿射参数能即插即用地迁移到现有重建算法。
+
 **[ShiftLUT: Spatial Shift Enhanced Look-Up Tables for Efficient Image Restoration](shiftlut_spatial_shift_enhanced_look-up_tables_for_efficient_image_restoration.md)**
 
 :   提出 ShiftLUT，通过可学习空间偏移模块（LSS）实现 LUT 方法中最大感受野（65×65），配合非对称双分支架构和误差有界自适应采样（EAS），在存储 104KB + 推理 84ms 的条件下超越所有现有 LUT 方法。
@@ -509,6 +513,10 @@ item_total: 132
 **[ShreddingNet: Coarse-to-Fine Restoration for Multi-Source Shredded Manuscripts](shreddingnet_coarse-to-fine_restoration_for_multi-source_shredded_manuscripts.md)**
 
 :   ShreddingNet 用「粗匹配先按来源聚类、再细粒度逐对评分」的两阶段流程，解决多张书画作品碎片混在一起的修复问题，把模型调用次数从 $O(n^2)$ 降到 $O(n)$，在两个数据集上全局拼装 F1 达 98.37%，比此前 SOTA 高 5.72%。
+
+**[Similarity-Consistent Likelihood Diffusion enables Hidden Person Detection from Wall Reflections](similarity-consistent_likelihood_diffusion_enables_hidden_person_detection_from_.md)**
+
+:   SLD-Net 把墙面漫反射里几乎看不见的差分光信号先回归成一个带逐像素精度的高斯伪似然 $(\mu_0,\Lambda_0)$，再以"精度加权能量项"注入确定性 DDIM 采样，让扩散先验既严格贴合物理测量又保证同一观测必得同一重建，从墙上反射"还原"出拐角后隐藏的人，在两个真实数据集上把 FID 从 264.91/177.05 降到 73.54/26.89。
 
 **[Spatio-Temporal Difference Guided Motion Deblurring with the Complementary Vision Sensor](spatio-temporal_difference_guided_motion_deblurring_with_the_complementary_visio.md)**
 
@@ -522,21 +530,21 @@ item_total: 132
 
 :   提出统计特征引导去噪网络 SCGN，利用空间域的窗口标准差加权和频域的频带引导加权，分别在空间和频率两个域自适应地增强信号、抑制噪声，结合 HRTEM 专用噪声标定方法生成含无序结构的真实噪声数据集，实现毫秒级高分辨率透射电子显微镜图像的高质量去噪。
 
-**[STCDiT: Spatio-Temporally Consistent Diffusion Transformer for High-Quality Video Super-Resolution](stcdit_spatio-temporally_consistent_diffusion_transformer_for_high-quality_video.md)**
-
-:   STCDiT 在预训练视频扩散模型（Wan2.1）之上做真实世界视频超分：用"运动感知 VAE 分段重建"解决复杂相机运动下 VAE 重建失真，再用"锚帧引导增强"把每个片段首帧潜变量里保存完好的空间结构信息注入生成过程，只增加约 LoRA 参数 7% 的可训练量就在结构保真度与时序一致性上全面超过 SeedVR、STAR 等 SOTA。
-
 **[Task-Aware Image Signal Processor for Advanced Visual Perception](task-aware_image_signal_processor_for_advanced_visual_perception.md)**
 
 :   TA-ISP 把 RAW→RGB 这一步从"重网络/或只调几个传统 ISP 参数"换成"预测一小撮全局/区域/像素三级的调制算子"，用仅 3K 参数、亚 27ms 的代价产出对下游检测/分割友好的图像表示，在多个 RAW 检测/分割基准上同时刷高精度并大幅压参降时延。
+
+**[TextOVSR: Text-Guided Real-World Opera Video Super-Resolution](textovsr_text-guided_real-world_opera_video_super-resolution.md)**
+
+:   针对老旧戏曲视频画质差、真实退化难建模的问题，TextOVSR 引入「退化描述文本」和「内容描述文本」两类提示，搭一个正/负双分支网络——负分支用退化文本约束解空间、正分支用内容文本补语义，再配一个退化鲁棒的跨模态融合模块（DRF）和一个吃文本语义的判别器（TED），在自建 OperaLQ 真实退化基准上把无参考画质指标刷到 SOTA。
 
 **[The Surprising Effectiveness of Noise Pretraining for Implicit Neural Representations](the_surprising_effectiveness_of_noise_pretraining_for_implicit_neural_representa.md)**
 
 :   本文通过系统的实验分析发现：用非结构化噪声（均匀/高斯分布）预训练 INR 可在图像拟合中达到惊人的 ~80dB PSNR，远超所有数据驱动初始化方法；而具有自然图像 $1/|f^\alpha|$ 频谱结构的噪声则在信号拟合和去噪之间实现最佳平衡，无需任何真实数据即可匹配 SOTA 数据驱动初始化性能。
 
-**[Thermal Diffusion Matters: Infrared Spatial-Temporal Video Super-Resolution through Heat Conduction Priors](thermal_diffusion_matters_infrared_spatial-temporal_video_super-resolution_throu.md)**
+**[TIACam: Text-Anchored Invariant Feature Learning with Auto-Augmentation for Camera-Robust Zero-Watermarking](tiacam_text-anchored_invariant_feature_learning_with_auto-augmentation_for_camer.md)**
 
-:   THERIS 把红外视频的逐像素灰度序列当成满足热传导方程的温度场，用频域热扩散核做帧插值（TDIM）、用带"热提示"调制的 Mamba 模块做时空细节恢复（TSSM），再加一个强制满足离散热方程的损失（TFM Loss），在红外时空视频超分上拿到 SOTA。
+:   提出 TIACam 框架，通过可学习自动增强器模拟相机失真、文本锚定跨模态对抗训练学习不变特征、零水印头在特征空间绑定消息，实现无需修改图像像素的相机鲁棒零水印方案，在屏幕翻拍/打印翻拍/截图三种真实场景下均达到 SOTA 提取精度。
 
 **[Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution](time-aware_one_step_diffusion_network_for_real-world_image_super-resolution.md)**
 
@@ -566,6 +574,10 @@ item_total: 132
 
 :   提出 UCAN 轻量级超分辨率网络，统一卷积和注意力机制来高效扩展有效感受野，通过 Hedgehog 注意力解决线性注意力的秩坍缩问题，引入大核蒸馏模块和半共享参数策略，在 Manga109 (4×) 上以仅 48.4G MACs 达到 31.63 dB PSNR。
 
+**[UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration](ucmnet_uncertainty-aware_context_memory_network_for_under-display_camera_image_r.md)**
+
+:   UCMNet 用一张逐像素的不确定性图来标定屏下相机（UDC）图像中"哪里退化得最不规则、最难恢复"，再让一对可学习的 Memory/Context Bank 按不确定性模式检索对应的高频上下文，从而对空间非均匀退化做自适应恢复——在 POLED/TOLED/SYNTH 上以比 BNUDC 少约 30% 参数（3.2M vs 4.6M）拿到 SOTA。
+
 **[UDAPose: Unsupervised Domain Adaptation for Low-Light Human Pose Estimation](udapose_unsupervised_domain_adaptation_for_low_light_human_pose_estimation.md)**
 
 :   UDAPose通过基于稳定扩散的低光照图像合成（保持高频低光特征）和动态注意力控制模块（自适应平衡视觉线索与姿态先验），在低光照硬集上实现56.4%的AP提升。
@@ -582,25 +594,25 @@ item_total: 132
 
 :   提出 UniRain 统一图像去雨框架，通过 RAG 驱动的数据蒸馏从百万级公开数据集筛选高质量样本，结合非对称 MoE 架构和多目标重加权优化策略，在雨条纹和雨滴（白天/夜间）四种退化类型上实现一致优异性能。
 
-**[Variational Garrote for Sparse Inverse Problems](variational_garrote_for_sparse_inverse_problems.md)**
+**[UniSER: A Foundation Model for Unified Soft Effects Removal](uniser_a_foundation_model_for_unified_soft_effects_removal.md)**
 
-:   在统一的稀疏逆问题框架下，系统比较 $\ell_1$ 正则化（LASSO）与 Variational Garrote（VG，一种通过变分二值门控近似 $\ell_0$ 的方法），在信号重采样、去噪和稀疏视角 CT 重建三个任务上证明 VG 在强欠定场景下能显著降低最小泛化误差，尤其在采样率 <20% 或投影角度极少时优势最大。
+:   UniSER 把镜头炫光、雾霾、阴影、反光这四类「半透明遮挡」统一成一个 Soft Effects Removal（SER）任务，用 380 万对像素对齐数据微调一个 Diffusion Transformer，在保留场景身份的前提下实现可控（掩码 + 强度）、可泛化（零样本去未知退化）的高保真去效果，单模型同时超越专家模型和 Nano Banana 这类通用大模型。
+
+**[Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy](unpaired_image_deraining_using_reward-guided_self-reinforcement_strategy.md)**
+
+:   针对无监督去雨缺乏配对监督、优化空间不受约束的问题，本文提出 RGSUD：在训练中用 VLM 感知质量评分（DACLIP-IQA）把偶尔冒出的高质量去雨结果"回收"成奖励，再用这些奖励同时改进伪配对数据合成、并构造一个充当数据一致性项的自强化损失，从而把优化空间压紧，在合成/真实配对和真实无配对数据上都取得无监督 SOTA。
+
+**[UnReflectAnything: RGB-Only Highlight Removal by Rendering Synthetic Specular Supervision](unreflectanything_rgb-only_highlight_removal_by_rendering_synthetic_specular_sup.md)**
+
+:   用单目几何 + Blinn-Phong/Fresnel 渲染在任意 RGB 图上"凭空"造出物理合理的合成高光，从而无需成对数据就能训练；模型在 DINOv3 特征空间里把高光遮挡的 token 修补回扩散反射的样子，再解码成去高光图像，在自然与手术（内窥镜）多个数据集上取得有竞争力到 SOTA 的结果。
 
 **[VEMamba: Efficient Isotropic Reconstruction of Volume Electron Microscopy with Axial-Lateral Consistent Mamba](vemamba_efficient_isotropic_reconstruction_of_volume_electron_microscopy_with_ax.md)**
 
 :   VEMamba 第一次把 Mamba 用到体积电镜（VEM）的各向同性重建上：通过「轴向-侧向分块选择性扫描（ALCSSM）+ 动态权重聚合（DWAM）」把 3D 体素依赖重排成 1D 序列做线性复杂度建模，并用真实退化模拟 + 动量对比（MoCo）把退化先验注入网络，在 EPFL/CREMI 两个数据集上以最低的参数量和算力拿到多数指标 SOTA。
 
-**[VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression](vlic_vision-language_models_as_perceptual_judges_for_human-aligned_image_compres.md)**
-
-:   作者发现现成的 VLM（Gemini 2.5-Flash）能零样本复现人类的两两偏好判断，于是把它当作"感知裁判"，用 Diffusion DPO 对一个基于 FlowMo 的扩散自编码器做后训练，得到与人类感知高度对齐、在多数感知指标上达到 SOTA 的图像压缩系统 VLIC。
-
 **[VoDaSuRe: A Large-Scale Dataset Revealing Domain Shift in Volumetric Super-Resolution](vodasure_a_large-scale_dataset_revealing_domain_shift_in_volumetric_super-resolu.md)**
 
 :   作者构建了 VoDaSuRe——迄今体素总量最大（∼194 gigavoxels、16 个样本 32 次扫描）的**真实配对多分辨率 CT 数据集**，并用它揭示了一个被现有体积超分研究掩盖的事实：当前 SOTA 模型的"惊艳效果"主要来自在**下采样合成数据**上训练，一旦换成**物理采集的真实低分辨率扫描**，模型只会输出空间平均后的模糊结果，根本没在重建丢失的微结构。
-
-**[VSRELL: A Simple Baseline for Video Super-Resolution and Enhancement in Low-Light Environment](vsrell_a_simple_baseline_for_video_super-resolution_and_enhancement_in_low-light.md)**
-
-:   VSRELL 把"低光增强（LLE）"和"视频超分（VSR）"这两个一向被拆开做的任务在一个 CNN 框架里**同步解耦**地联合求解：用 INCO 模块在时序窗口内同时建模光照与噪声、用 ISFP 模块把光照先验注入可变形对齐并给记忆特征加动态衰减，最终以 6.3M 参数在 REDS4 上把平均 PSNR 从级联/all-in-one 方法的 ~20.6 dB 拉到 25.94 dB。
 
 **[White-Balance First, Adjust Later: Cross-Camera Color Constancy via Vision-Language Evaluation](white-balance_first_adjust_later_cross-camera_color_constancy_via_vision-languag.md)**
 

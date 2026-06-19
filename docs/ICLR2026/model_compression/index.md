@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 模型压缩论文汇总 · 100篇论文解读
+  ICLR2026 模型压缩论文汇总 · 115篇论文解读
 description: >-
-  100篇ICLR2026的模型压缩方向论文解读，涵盖 LLM、模型压缩、推理、压缩/编码、知识蒸馏、持续学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  115篇ICLR2026的模型压缩方向论文解读，涵盖模型压缩、LLM、推理、压缩/编码、知识蒸馏、持续学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "模型压缩"
@@ -22,6 +22,8 @@ item_list:
     t: "A universal compression theory for lottery ticket hypothesis and neural scaling laws"
   - u: "abba-adapters_efficient_and_expressive_fine-tuning_of_foundation_models/"
     t: "ABBA-Adapters: Efficient and Expressive Fine-Tuning of Foundation Models"
+  - u: "achieving_low-bit_muon_through_subspace_preservation_and_grid_quantization/"
+    t: "Achieving low-bit Muon through subspace preservation and grid quantization"
   - u: "acpbench_hard_unrestrained_reasoning_about_action_change_and_planning/"
     t: "ACPBench Hard: Unrestrained Reasoning about Action, Change, and Planning"
   - u: "adaptive_width_neural_networks/"
@@ -30,61 +32,59 @@ item_list:
     t: "AdaRank: Adaptive Rank Pruning for Enhanced Model Merging"
   - u: "agilepruner_an_empirical_study_of_attention_and_diversity_for_adaptive_visual_to/"
     t: "AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in LVLMs"
+  - u: "aire-prune_asymptotic_impulse-response_energy_for_state_pruning_in_state_space_m/"
+    t: "AIRE-Prune: Asymptotic Impulse-Response Energy for State Pruning in State Space Models"
   - u: "alignment_through_meta-weighted_online_sampling_bridging_the_gap_between_data_ge/"
     t: "Alignment through Meta-Weighted Online Sampling: Bridging the Gap between Data Generation and Preference Optimization"
   - u: "amid_knowledge_distillation_for_llms_with_α-mixture_assistant_distribution/"
     t: "AMiD: Knowledge Distillation for LLMs with α-mixture Assistant Distribution"
+  - u: "an_optimal_diffusion_approach_to_quadratic_rate-distortion_problems_new_solution/"
+    t: "An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods"
   - u: "anybcq_hardware_efficient_flexible_binary-coded_quantization_for_multi-precision/"
     t: "AnyBCQ: Hardware Efficient Flexible Binary-Coded Quantization for Multi-Precision LLMs"
+  - u: "armor_high-performance_semi-structured_pruning_via_adaptive_matrix_factorization/"
+    t: "ARMOR: High-Performance Semi-Structured Pruning via Adaptive Matrix Factorization"
+  - u: "autoencoding-free_context_compression_for_llms_via_contextual_semantic_anchors/"
+    t: "Autoencoding-Free Context Compression for LLMs via Contextual Semantic Anchors"
+  - u: "automated_stateful_specialization_for_adaptive_agent_systems/"
+    t: "Automated Stateful Specialization for Adaptive Agent Systems"
+  - u: "barrel_boundary-aware_reasoning_for_factual_and_reliable_lrms/"
+    t: "BARREL: Boundary-Aware Reasoning for Factual and Reliable LRMs"
+  - u: "batch_pruning_by_activation_stability/"
+    t: "Batch Pruning by Activation Stability"
+  - u: "bep_a_binary_error_propagation_algorithm_for_binary_neural_networks_training/"
+    t: "BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training"
+  - u: "beyond_outliers_a_study_of_optimizers_under_quantization/"
+    t: "Beyond Outliers: A Study of Optimizers Under Quantization"
   - u: "beyondbench_contamination-resistant_evaluation_of_reasoning_in_language_models/"
     t: "BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models"
   - u: "boomerang_distillation_enables_zero-shot_model_size_interpolation/"
     t: "Boomerang Distillation Enables Zero-Shot Model Size Interpolation"
   - u: "boosting_entropy_with_bell_box_quantization/"
     t: "Boosting Entropy with Bell Box Quantization"
+  - u: "bora_towards_more_expressive_low-rank_adaptation_with_block_diversity/"
+    t: "BoRA: Towards More Expressive Low-Rank Adaptation with Block Diversity"
   - u: "bridging_kolmogorov_complexity_and_deep_learning_asymptotically_optimal_descript/"
     t: "Bridging Kolmogorov Complexity and Deep Learning: Asymptotically Optimal Description Length Objectives for Transformers"
+  - u: "bridging_the_gap_between_promise_and_performance_for_microscaling_fp4_quantizati/"
+    t: "Bridging the Gap Between Promise and Performance for Microscaling FP4 Quantization"
+  - u: "bézierflow_learning_bézier_stochastic_interpolant_schedulers_for_few-step_genera/"
+    t: "BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation"
+  - u: "cannistraci-hebb_training_on_ultra-sparse_spiking_neural_networks/"
+    t: "Cannistraci-Hebb Training on Ultra-Sparse Spiking Neural Networks"
   - u: "comi_coarse-to-fine_context_compression_via_marginal_information_gain/"
     t: "COMI: Coarse-to-fine Context Compression via Marginal Information Gain"
-  - u: "compute-optimal_quantization-aware_training/"
-    t: "Compute-Optimal Quantization-Aware Training"
-  - u: "confu_contemplate_the_future_for_better_speculative_sampling/"
-    t: "ConFu: Contemplate the Future for Better Speculative Sampling"
-  - u: "coupling_experts_and_routers_in_mixture-of-experts_via_an_auxiliary_loss/"
-    t: "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss"
-  - u: "cross_domain_lossy_compression_optimal_transport/"
-    t: "Cross-Domain Lossy Compression via Rate- and Classification-Constrained Optimal Transport"
-  - u: "cut_less_fold_more_model_compression_through_the_lens_of_projection_geometry/"
-    t: "Cut Less, Fold More: Model Compression through the Lens of Projection Geometry"
-  - u: "dataset_color_quantization_a_training-oriented_framework_for_dataset-level_compr/"
-    t: "Dataset Color Quantization: A Training-Oriented Framework for Dataset-Level Compression"
-  - u: "dataset_distillation_as_pushforward_optimal_quantization/"
-    t: "Dataset Distillation as Pushforward Optimal Quantization"
-  - u: "diffvax_optimization-free_image_immunization_against_diffusion-based_editing/"
-    t: "DiffVax: Optimization-Free Image Immunization Against Diffusion-Based Editing"
-  - u: "distillation_of_large_language_models_via_concrete_score_matching/"
-    t: "Distillation of Large Language Models via Concrete Score Matching"
-  - u: "distilling_and_adapting_a_topology-aware_framework_for_zero-shot_interaction_pre/"
-    t: "Distilling and Adapting: A Topology-Aware Framework for Zero-Shot Interaction Prediction in Multiplex Biological Networks"
-  - u: "draft-based_approximate_inference_for_llms/"
-    t: "Draft-based Approximate Inference for LLMs"
-  - u: "efficient_reasoning_with_balanced_thinking/"
-    t: "Efficient Reasoning with Balanced Thinking"
-  - u: "embedding_compression_via_spherical_coordinates/"
-    t: "Embedding Compression via Spherical Coordinates"
-  - u: "enhancing_multivariate_time_series_forecasting_with_global_temporal_retrieval/"
-    t: "Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval"
-item_total: 100
+item_total: 115
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🔬 ICLR2026** · **100** 篇论文解读
+**🔬 ICLR2026** · **115** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (138)](../../CVPR2026/model_compression/index.md) · [🧪 ICML2026 (100)](../../ICML2026/model_compression/index.md) · [💬 ACL2026 (59)](../../ACL2026/model_compression/index.md) · [🤖 AAAI2026 (60)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (52)](../../ICCV2025/model_compression/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (108)](../../CVPR2026/model_compression/index.md) · [🧪 ICML2026 (116)](../../ICML2026/model_compression/index.md) · [💬 ACL2026 (59)](../../ACL2026/model_compression/index.md) · [🤖 AAAI2026 (60)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (52)](../../ICCV2025/model_compression/index.md)
 
-🔥 **高频主题：** LLM ×20 · 模型压缩 ×17 · 推理 ×9 · 压缩/编码 ×8 · 知识蒸馏 ×4
+🔥 **高频主题：** 模型压缩 ×24 · LLM ×20 · 推理 ×10 · 压缩/编码 ×9 · 知识蒸馏 ×4
 
 **[A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA](a_fano-style_accuracy_upper_bound_for_llm_single-pass_reasoning_in_multi-hop_qa.md)**
 
@@ -102,6 +102,10 @@ item_total: 100
 
 :   提出 ABBA 适配器，将权重更新参数化为两个独立可学习的低秩矩阵的 Hadamard 积 $\Delta W = s(B_1A_1) \odot (B_2A_2)$，在相同参数预算下实现远高于 LoRA 的有效秩（$r_1 \cdot r_2$ vs $r$），并通过 Khatri-Rao 重构实现与 LoRA 相当的内存效率，在算术和常识推理任务上显著超越现有 PEFT 方法。
 
+**[Achieving low-bit Muon through subspace preservation and grid quantization](achieving_low-bit_muon_through_subspace_preservation_and_grid_quantization.md)**
+
+:   本文首次研究 Muon 优化器状态的 4-bit 压缩，发现 Newton-Schulz 正交化会把量化误差主要放大在动量矩阵的 top 奇异子空间上，于是提出 4-bit-Muon-GRASP：用 8-bit 温和保留 top 子空间、4-bit 压残差子空间，并用沿行列双向归一化的网格量化抑制双维度离群值，在 LLaMA 130M~1.1B 预训练与 Qwen2.5-7B 微调上几乎无损精度，训练显存最多降 28%。
+
 **[ACPBench Hard: Unrestrained Reasoning about Action, Change, and Planning](acpbench_hard_unrestrained_reasoning_about_action_change_and_planning.md)**
 
 :   构建 ACPBench Hard——基于 PDDL 形式化系统的 8 类**开放式生成**规划推理 benchmark（13 域 × 8 任务 = 1040 题），配备具有严格正确性保证的符号验证器，系统测评 15 个 LLM 后发现：即使最强推理模型 o1-preview 在半数任务上准确率 ≤66%，所有模型在最基本的"列举可执行动作"任务上几乎完全失败，暴露了当前 LLM 在规划推理方面的根本不足。
@@ -118,6 +122,10 @@ item_total: 100
 
 :   通过 erank（有效秩）和注意力熵的系统性实证分析，揭示了视觉 token 剪枝中注意力方法和多样性方法的互补特性——注意力方法抑制幻觉但覆盖有限，多样性方法覆盖全面但易引入幻觉——并据此提出基于图像复杂度自适应切换剪枝策略的 AgilePruner，在 9 个 benchmark 上表现稳健。
 
+**[AIRE-Prune: Asymptotic Impulse-Response Energy for State Pruning in State Space Models](aire-prune_asymptotic_impulse-response_energy_for_state_pruning_in_state_space_m.md)**
+
+:   AIRE-Prune 为对角状态空间模型（SSM）的每个状态算出一个闭式的"无限时域脉冲响应能量"分数，再用前缀归一化把不同层的分数拉到同一尺度，仅凭一个全局阈值、无需重训就能剪掉平均 60.8% 的状态，而精度只掉 0.29 个百分点。
+
 **[Alignment through Meta-Weighted Online Sampling: Bridging the Gap between Data Generation and Preference Optimization](alignment_through_meta-weighted_online_sampling_bridging_the_gap_between_data_ge.md)**
 
 :   提出MetaAPO框架，用一个轻量级meta-learner（两层MLP）动态估计offline/online数据的对齐差距，既指导"在哪些prompt上做在线采样"（解决分布不匹配），又在训练时自适应加权offline/online数据（优化学习效率），在AlpacaEval 2/Arena-Hard/MT-Bench上超越DPO/Online DPO等基线，同时减少42%在线标注成本。
@@ -126,9 +134,41 @@ item_total: 100
 
 :   提出α-mixture assistant distribution及统一蒸馏框架AMiD，通过引入新设计变量α（控制教师-学生分布插值路径的几何形状）泛化了现有辅助分布方法（m-mixture和e-mixture为α=±1的特例），并证明了在任意散度和α下的最优性保证，在多个LLM蒸馏基准上取得SOTA性能。
 
+**[An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods](an_optimal_diffusion_approach_to_quadratic_rate-distortion_problems_new_solution.md)**
+
+:   本文把连续信源在 MSE 失真下的率失真（RD）函数计算重写成一个"终端熵正则随机控制"问题，证明率-失真的权衡等价于控制能量-终端熵的权衡，并指出在正则条件下最优控制恰是倒向热方程解的 Stein score；由此给出高斯混合等信源的全新闭式解，以及一个不受码率上界限制的扩散神经估计器 R2D2。
+
 **[AnyBCQ: Hardware Efficient Flexible Binary-Coded Quantization for Multi-Precision LLMs](anybcq_hardware_efficient_flexible_binary-coded_quantization_for_multi-precision.md)**
 
 :   提出AnyBCQ，基于二进制编码量化(BCQ)的多精度LLM量化框架，通过渐进式精度扩展（冻结已有bit-plane+添加残差bit-plane）支持单个模型在2-4bit之间动态切换，专设CUDA内核直接在bit-plane级别计算避免查表/转置开销，在2-bit下准确率大幅超越Any-Precision LLM（MMLU 35.3% vs 24.7%），吞吐量最高达到FP16的3.0x。
+
+**[ARMOR: High-Performance Semi-Structured Pruning via Adaptive Matrix Factorization](armor_high-performance_semi-structured_pruning_via_adaptive_matrix_factorization.md)**
+
+:   ARMOR 把 2:4 半结构化剪枝重新表述成「分解」问题——不直接删权重，而是把每个权重矩阵分解成一个 2:4 稀疏核外加两个轻量级块对角「包裹矩阵」当误差校正器，用块坐标下降联合优化，理论上保证代理损失不差于 SOTA，实验里在 Llama / Qwen 上把 2:4 剪枝与稠密模型的困惑度差距缩小近 50%，同时几乎保住了 2:4 的加速和省显存收益。
+
+**[Autoencoding-Free Context Compression for LLMs via Contextual Semantic Anchors](autoencoding-free_context_compression_for_llms_via_contextual_semantic_anchors.md)**
+
+:   SAC 不再像 ICAE 那样追加随机初始化的"压缩 token"并靠自编码预训练去重建上下文，而是直接从原文里挑出若干"锚点 token"、给它们加一个可学习的锚点嵌入、再用双向注意力让锚点聚合全局信息，把上下文压进锚点的 KV 里——彻底丢掉自编码任务后，在问答和长文摘要上反而稳定超过现有压缩方法。
+
+**[Automated Stateful Specialization for Adaptive Agent Systems](automated_stateful_specialization_for_adaptive_agent_systems.md)**
+
+:   ASPEC 提出一套全自动的"有状态专家智能体团队"生命周期框架：先用进化搜索离线发现一批领域专家算子、再让它们在经验中反思培养出持久记忆，最后在线用一个轻量的 "retain-then-escalate"（先保留、再升级）元控制器决定每个查询是沿用现有团队还是重新搜索架构，从而在专家级科学基准 GPQA 上把 Gemini 2.0 Flash 从 56.3% 拉到 62.8%，同时训练+推理成本远低于同类自动框架。
+
+**[BARREL: Boundary-Aware Reasoning for Factual and Reliable LRMs](barrel_boundary-aware_reasoning_for_factual_and_reliable_lrms.md)**
+
+:   针对大推理模型（LRM）在事实问答上"宁可编也不说不知道"的毛病，本文先定位出两种由"事实性过度思考"引发的病态推理模式，再用"知识边界标注 → 边界感知 SFT → 基于可靠性奖励的 GRPO"三段式训练框架 BARREL，把 DeepSeek-R1-Distill-Llama-8B 的可靠性从 39.33% 拉到 61.48%，且准确率不降反升。
+
+**[Batch Pruning by Activation Stability](batch_pruning_by_activation_stability.md)**
+
+:   提出 B-PAS——在训练过程中监控每个 batch 跨 epoch 的 ReLU 激活方差变化，把"激活已经稳定下来、不再贡献有效学习"的整批数据动态丢掉，在 ResNet/CvT/GPT-2 上最多省掉 57% 的训练数据和 61% 的 GPU 节点小时，且精度不降反略升。
+
+**[BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training](bep_a_binary_error_propagation_algorithm_for_binary_neural_networks_training.md)**
+
+:   BEP 提出了反向传播链式法则的**纯二值离散版本**：让误差信号以 ±1 二值向量的形式逐层反向传播，整个前向和反向过程只用 XNOR、Popcount 和加减 1 这些位运算完成，从而首次实现了二值 MLP 和二值 RNN 的端到端全二值训练，相比之前的局部学习规则在 MLP 上提升最多 +6.89%、在 RNN 上平均提升 +10.57%。
+
+**[Beyond Outliers: A Study of Optimizers Under Quantization](beyond_outliers_a_study_of_optimizers_under_quantization.md)**
+
+:   作者第一次系统地把"优化器选择"和"量化鲁棒性"放到一起研究：在 50M–1.5B 的 LLM 上用 6 种优化器训练，发现传统的离群值指标（MMR、Kurtosis）根本预测不了量化后的精度，转而提出一套可解析的 ABC 误差传播分解和新指标 $R_L$，并得出反直觉结论——离群值最严重的 Shampoo 反而在 PTQ/QAT 下掉点最少、参数效率最高。
 
 **[BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models](beyondbench_contamination-resistant_evaluation_of_reasoning_in_language_models.md)**
 
@@ -142,9 +182,25 @@ item_total: 100
 
 :   提出 Bell Box Quantization (BBQ)，首个同时满足"信息论最优"(ITO) 和"计算高效"(compute-efficient) 的量化方法，核心洞察是学习的域无关性——量化器输出域不必与输入域相同，由此在输入域做 ITO 量化以最大化熵，在输出域映射到硬件可加速的数据类型，在 1-4 bit QAPT 场景下全面超越 QuEST 和 LSQ。
 
+**[BoRA: Towards More Expressive Low-Rank Adaptation with Block Diversity](bora_towards_more_expressive_low-rank_adaptation_with_block_diversity.md)**
+
+:   BoRA 把 LoRA 的 $BA$ 看成块矩阵乘法，给每个块积 $B_iA_j$ 插入一个独立的对角矩阵 $\Sigma_{i,j}$ 来打破块之间的相关性，只用 $b^2r$ 个额外参数就把 LoRA 权重的秩提升到原来的 $b$ 倍，在 GLUE、数学和常识推理上以与 LoRA 相近的参数量取得 2-4% 的准确率提升。
+
 **[Bridging Kolmogorov Complexity and Deep Learning: Asymptotically Optimal Description Length Objectives for Transformers](bridging_kolmogorov_complexity_and_deep_learning_asymptotically_optimal_descript.md)**
 
 :   从柯尔莫哥洛夫复杂度理论出发，提出了"渐近最优描述长度目标"的理论框架，证明了 Transformer 存在这样的目标函数（基于其计算通用性的新证明），并通过构造基于自适应高斯混合先验的可微变分目标进行了实证验证，揭示了重要的优化挑战。
+
+**[Bridging the Gap Between Promise and Performance for Microscaling FP4 Quantization](bridging_the_gap_between_promise_and_performance_for_microscaling_fp4_quantizati.md)**
+
+:   这篇论文第一次系统地拆穿了硬件原生 4-bit 浮点格式 MXFP4/NVFP4 "免费提速又保精度" 的承诺，从量化误差理论证明了为什么现有量化技巧在这两种格式上失灵，并提出针对 FP4 特性定制的 MR-GPTQ 算法 + QuTLASS GPU 内核，在 B200/RTX5090 上拿到 2.2x~4x 端到端加速的同时把 MXFP4 精度从掉 10% 拉回到接近 NVFP4 的水平。
+
+**[BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation](bézierflow_learning_bézier_stochastic_interpolant_schedulers_for_few-step_genera.md)**
+
+:   BézierFlow 把"少步生成要优化什么"从离散的 ODE 时间步换成连续的随机插值（SI）调度器，并用贝塞尔曲线的控制点来参数化这个调度器，只花 15 分钟轻量训练就让预训练扩散/流模型在 ≤10 步采样下 FID 提升 2–3 倍。
+
+**[Cannistraci-Hebb Training on Ultra-Sparse Spiking Neural Networks](cannistraci-hebb_training_on_ultra-sparse_spiking_neural_networks.md)**
+
+:   CH-SNN 把脑科学里的 Cannistraci-Hebb 链路预测理论搬进脉冲神经网络（SNN）的稀疏训练，用「相关性拓扑初始化 + 脉冲感知权重初始化 + 混合打分剪枝 + CH3-L3 拓扑重生」四阶段流程，在所有线性层做到 97.75% 的结构稀疏度还比全连接网络高 0.16% 精度，部署到边缘神经形态芯片上更是 98.84% 稀疏度、突触操作减少 97.5×、能耗平均降 55×。
 
 **[COMI: Coarse-to-fine Context Compression via Marginal Information Gain](comi_coarse-to-fine_context_compression_via_marginal_information_gain.md)**
 
@@ -193,6 +249,10 @@ item_total: 100
 **[Draft-based Approximate Inference for LLMs](draft-based_approximate_inference_for_llms.md)**
 
 :   提出 Draft-based Approximate Inference 框架，利用小型 draft 模型的前瞻（lookahead）预测来更准确地估计 token/KV pair 重要性，包含 SpecKV（KV cache dropping）、SpecPC（prompt 压缩）和 SpecKV-PC（级联压缩）三种方法，在长上下文 benchmark 上一致优于现有基线。
+
+**[Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees](efficient_quantization_of_mixture-of-experts_with_theoretical_generalization_gua.md)**
+
+:   本文提出一个**有理论保证的逐专家混合精度量化**方法：用「训练中路由器 $\ell_2$ 范数的变化量 $\Lambda_s$」给 MoE 的每个专家分配比特宽度——范数变化小的专家（学到低频但关键特征）给高精度、变化大的给低精度，再用「最大神经元内方差 MaxVar」做微调重排，使 Switch Transformer / Mixtral 能压到 2 比特出头仍几乎不掉点，且分配开销可忽略。
 
 **[Efficient Reasoning with Balanced Thinking](efficient_reasoning_with_balanced_thinking.md)**
 

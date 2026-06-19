@@ -123,8 +123,8 @@ EgoAllo 接收两种输入：头戴设备的 SLAM 位姿序列（SE(3) 变换）
 - [\[CVPR 2025\] HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos](hawor_world-space_hand_motion_reconstruction_from_egocentric_videos.md)
 - [\[ICCV 2025\] Estimating 2D Camera Motion with Hybrid Motion Basis](../../ICCV2025/3d_vision/estimating_2d_camera_motion_with_hybrid_motion_basis.md)
 - [\[CVPR 2025\] Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera](dyn-hamr_recovering_4d_interacting_hand_motion_from_a_dynamic_camera.md)
-- [\[CVPR 2025\] MAC-Ego3D: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction](mac-ego3d_multi-agent_gaussian_consensus_for_real-time_collaborative_ego-motion_.md)
 - [\[ICCV 2025\] Image as an IMU: Estimating Camera Motion from a Single Motion-Blurred Image](../../ICCV2025/3d_vision/image_as_an_imu_estimating_camera_motion_from_a_single_motion-blurred_image.md)
+- [\[CVPR 2025\] MAC-Ego3D: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction](mac-ego3d_multi-agent_gaussian_consensus_for_real-time_collaborative_ego-motion_.md)
 
 </div>
 

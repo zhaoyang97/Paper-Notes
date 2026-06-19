@@ -105,6 +105,7 @@ GeoSeg-Bench（gIoU，含 GeoSeg-1M 微调后的强对手）：
 未微调的通用/遥感大模型在 GeoSeg-Bench 上几乎崩盘（如 LISA reasoning 仅 5.77 gIoU），微调后大幅提升但仍落后本文，尤其推理任务最难拉开差距。EarthReason 测试集上本文相对此前最佳取得 **+6.65 cIoU / +2.16 gIoU**；RRSIS-D 上 gIoU 69.25 同样领先。
 
 ### 消融实验
+
 | 配置 | Interactive | Referring | Reasoning | 说明 |
 |------|------|------|------|------|
 | baseline | 82.51 | 64.62 | 32.88 | 无 TATE/LKM |
@@ -148,10 +149,10 @@ TATE 内部分支消融（Tab.7）：三任务统一用同一条 referring 或 r
 ## 相关论文
 
 - [\[CVPR 2026\] Prompt-Free Unknown Label Generation for Open World Detection in Remote Sensing](prompt-free_unknown_label_generation_for_open_world_detection_in_remote_sensing.md)
-- [\[CVPR 2026\] ReAttnCLIP: Training-Free Open-Vocabulary Remote Sensing Image Segmentation via Re-defined Attention in CLIP](reattnclip_training-free_open-vocabulary_remote_sensing_image_segmentation_via_r.md)
 - [\[CVPR 2026\] MM-OVSeg: Multimodal Optical-SAR Fusion for Open-Vocabulary Segmentation in Remote Sensing](mm-ovseg_multimodal_optical-sar_fusion_for_open-vocabulary_segmentation_in_remot.md)
 - [\[CVPR 2026\] SegEarth-R2: Towards Comprehensive Language-guided Segmentation for Remote Sensing Images](segearth-r2_towards_comprehensive_language-guided_segmentation_for_remote_sensin.md)
-- [\[CVPR 2026\] HySeg: Learning Generative Priors for Structure-Aware Remote Sensing Segmentation](hyseg_learning_generative_priors_for_structure-aware_remote_sensing_segmentation.md)
+- [\[CVPR 2026\] SkySense-VITA: Towards Universal In-context Segmentation of Multi-modal Remote Sensing Imagery](skysense-vita_towards_universal_in-context_segmentation_of_multi-modal_remote_se.md)
+- [\[CVPR 2026\] CrossEarth-Gate: Fisher-Guided Adaptive Tuning Engine for Efficient Adaptation of Cross-Domain Remote Sensing Semantic Segmentation](crossearth-gate_fisher-guided_adaptive_tuning_engine_for_efficient_adaptation_of.md)
 
 </div>
 

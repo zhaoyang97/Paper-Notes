@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.11716](https://arxiv.org/abs/2412.11716)  
 **代码**: [https://github.com/ZJUMAI/EvoPatient](https://github.com/ZJUMAI/EvoPatient)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 标准化病人, 多智能体协同进化, 医学教育, 角色扮演, 对话模拟  
 
 ## 一句话总结
@@ -126,8 +126,8 @@ EvoPatient 提出了一个多智能体协同进化框架，通过患者 Agent �
 
 - [\[ACL 2026\] Beyond Prompt: Fine-grained Simulation of Cognitively Impaired Standardized Patients via Stochastic Steering](../../ACL2026/medical_nlp/beyond_prompt_fine-grained_simulation_of_cognitively_impaired_standardized_patie.md)
 - [\[ACL 2025\] Improving Automatic Evaluation of LLMs in Biomedical Relation Extraction via LLMs-as-the-Judge](biore_llm_judge_evaluation.md)
-- [\[ICLR 2026\] Can SAEs Reveal and Mitigate Racial Biases of LLMs in Healthcare?](../../ICLR2026/medical_nlp/can_saes_reveal_and_mitigate_racial_biases_of_llms_in_healthcare.md)
 - [\[ACL 2025\] Adaptive-VP: A Framework for LLM-Based Virtual Patients that Adapts to Trainees' Dialogue to Facilitate Nurse Communication Training](adaptive-vp_a_framework_for_llm-based_virtual_patients_that_adapts_to_trainees_d.md)
+- [\[ICLR 2026\] Can SAEs Reveal and Mitigate Racial Biases of LLMs in Healthcare?](../../ICLR2026/medical_nlp/can_saes_reveal_and_mitigate_racial_biases_of_llms_in_healthcare.md)
 - [\[ACL 2025\] Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening through Psychometric Practice](are_llms_effective_psychological_assessors_leveraging_adaptive_rag_for_interpret.md)
 
 </div>

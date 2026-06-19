@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.02489](https://arxiv.org/abs/2506.02489)  
 **代码**: [grasp2grasp.github.io](https://grasp2grasp.github.io)  
-**领域**: 机器人
+**领域**: 机器人  
 **关键词**: 灵巧抓取迁移, Schrödinger Bridge, 最优传输, 得分与流匹配, 物理引导代价函数  
 
 ## 一句话总结

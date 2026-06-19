@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.10971](https://arxiv.org/abs/2604.10971)  
 **代码**: [https://xcyao00.github.io/MMR-AD](https://xcyao00.github.io/MMR-AD)  
-**领域**:目标检测
+**领域**:目标检测  
 **关键词**: 异常检测, 多模态大语言模型, 推理数据集, 强化学习, 通用异常检测
 
 ## 一句话总结

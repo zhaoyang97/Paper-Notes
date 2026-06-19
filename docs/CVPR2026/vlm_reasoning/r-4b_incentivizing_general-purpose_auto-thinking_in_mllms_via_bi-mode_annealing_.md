@@ -2,10 +2,10 @@
 title: >-
   [论文解读] R-4B: Incentivizing General-Purpose Auto-Thinking in MLLMs via Bi-Mode Annealing and Reinforce Learning
 description: >-
-  [CVPR 2026][多模态VLM][多模态大模型] R-4B 让一个 4B 多模态大模型学会"该思考时才思考"：先用 **bi-mode 退火**把单个 backbone 同时练成"会推理"和"会直答"两种模式，再用 **双模式策略优化（BPO）**——对每条 query 强制同时采样思考/非思考两组回答并联合优化——只靠简单的数学规则奖励，就在 25 个 benchmark 上取得同规模 SOTA，推理任务追平甚至超过更大的模型，同时大幅省下冗余推理的 token。
+  [CVPR 2026][VLM Reasoning][多模态大模型] R-4B 让一个 4B 多模态大模型学会"该思考时才思考"：先用 **bi-mode 退火**把单个 backbone 同时练成"会推理"和"会直答"两种模式，再用 **双模式策略优化（BPO）**——对每条 query 强制同时采样思考/非思考两组回答并联合优化——只靠简单的数学规则奖励，就在 25 个 benchmark 上取得同规模 SOTA，推理任务追平甚至超过更大的模型，同时大幅省下冗余推理的 token。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态大模型"
   - "自适应推理"
   - "auto-thinking"
@@ -146,11 +146,11 @@ RL 前后对比（R-4B-Base vs R-4B-RL，6 个推理 benchmark 平均）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] MUPO: All Roads Lead to Rome - Incentivizing Divergent Thinking in Vision-Language Models](mupo_all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vlms.md)
+- [\[CVPR 2026\] Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)
+- [\[CVPR 2026\] VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](videoauto-r1_video_auto_reasoning_via_thinking_once_answering_twice.md)
 - [\[CVPR 2026\] All Roads Lead to Rome: Incentivizing Divergent Thinking in Vision-Language Models](all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vision-language_model.md)
-- [\[CVPR 2026\] TempR1: Improving Temporal Understanding of MLLMs via Temporal-Aware Multi-Task Reinforcement Learning](tempr1_improving_temporal_understanding_of_mllms_via_temporal-aware_multi-task_r.md)
 - [\[CVPR 2026\] POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs](points-long_adaptive_dual-mode_visual_reasoning_in_mllms.md)
-- [\[CVPR 2026\] Thinking with Programming Vision: Towards a Unified View for Thinking with Images](thinking_with_programming_vision_towards_a_unified_view_for_thinking_with_images.md)
+- [\[CVPR 2026\] LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](longvt_incentivizing_thinking_with_long_videos_via_native_tool_calling.md)
 
 </div>
 

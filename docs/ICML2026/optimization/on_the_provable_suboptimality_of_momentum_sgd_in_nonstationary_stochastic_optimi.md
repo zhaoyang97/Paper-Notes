@@ -131,11 +131,11 @@ $$\|\theta_t - \theta_t^*\|^2 \lesssim (1 - \gamma\mu/2)^t \|\theta_0 - \theta_0
 
 ## 相关论文
 
+- [\[ICLR 2026\] High Probability Bounds for Non-Convex Stochastic Optimization with Momentum](../../ICLR2026/optimization/high_probability_bounds_for_non-convex_stochastic_optimization_with_momentum.md)
 - [\[ICML 2026\] RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization](rmnp_row-momentum_normalized_preconditioning_for_scalable_matrix-based_optimizat.md)
 - [\[ICML 2026\] SPSsafe: Safeguarded Stochastic Polyak Step Sizes for Non-smooth Optimization](safeguarded_stochastic_polyak_step_sizes_for_non-smooth_optimization_robust_perf.md)
 - [\[ICLR 2026\] Provable and Practical In-Context Policy Optimization for Self-Improvement](../../ICLR2026/optimization/provable_and_practical_in-context_policy_optimization_for_self-improvement.md)
 - [\[NeurIPS 2025\] Nonlinearly Preconditioned Gradient Methods: Momentum and Stochastic Analysis](../../NeurIPS2025/optimization/nonlinearly_preconditioned_gradient_methods_momentum_and_stochastic_analysis.md)
-- [\[ICML 2025\] Provable Benefit of Random Permutations over Uniform Sampling in Stochastic Coordinate Descent](../../ICML2025/optimization/provable_benefit_of_random_permutations_over_uniform_sampling_in_stochastic_coor.md)
 
 </div>
 

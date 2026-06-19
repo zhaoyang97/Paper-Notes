@@ -126,6 +126,7 @@ ETC 在三域上 $H_0$ 全面领先（0.78~0.79，下一名 CPE 仅 0.58~0.68）
 ETC 把目标检测精度压到 0.24%（几乎擦干净），其余名人保留 89.37%（最接近原模型 90.86），$H_0$=0.943 居首。
 
 ### 消融实验
+
 | 配置 | 目标 Acct↓ | 其余 Accr↑ | 说明 |
 |------|------|------|------|
 | Direct（词到词映射）+ Surrogate | 0.64 | 85.84 | 擦得动但保留差 |
@@ -176,7 +177,7 @@ ETC 把目标检测精度压到 0.24%（几乎擦干净），其余名人保留 
 - [\[CVPR 2026\] Prototype-Guided Concept Erasure in Diffusion Models](prototype-guided_concept_erasure_in_diffusion_models.md)
 - [\[CVPR 2026\] Beyond Text Prompts: Precise Concept Erasure through Text–Image Collaboration](beyond_text_prompts_precise_concept_erasure_through_text-image_collaboration.md)
 - [\[ICLR 2026\] SPEED: Scalable, Precise, and Efficient Concept Erasure for Diffusion Models](../../ICLR2026/image_generation/speed_scalable_precise_and_efficient_concept_erasure_for_diffusion_models.md)
-- [\[CVPR 2026\] GrOCE: Graph-Guided Online Concept Erasure for Text-to-Image Diffusion Models](groce_graph-guided_online_concept_erasure_for_text-to-image_diffusion_models.md)
+- [\[CVPR 2026\] GenErase: Generalizable and Semantically-Aware Concept Erasure in Diffusion Models](generase_generalizable_and_semantically-aware_concept_erasure_in_diffusion_model.md)
 
 </div>
 

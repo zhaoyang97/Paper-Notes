@@ -139,10 +139,10 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] Differentiable Stroke Planning with Dual Parameterization for Efficient and High-Fidelity Painting Creation](../../CVPR2026/others/differentiable_stroke_planning_with_dual_parameterization_for_efficient_and_high.md)
+- [\[CVPR 2026\] InstantRetouch: Efficient and High-Fidelity Instruction-Guided Image Retouching with Bilateral Space](../../CVPR2026/others/instantretouch_efficient_and_high-fidelity_instruction-guided_image_retouching_w.md)
+- [\[CVPR 2026\] Order Matters: 3D Shape Generation from Sequential VR Sketches](../../CVPR2026/others/order_matters_3d_shape_generation_from_sequential_vr_sketches.md)
 - [\[ECCV 2024\] Active Generation for Image Classification](active_generation_for_image_classification.md)
-- [\[CVPR 2026\] RealAppliance: Let High-fidelity Appliance Assets Controllable and Workable as Aligned Real Manuals](../../CVPR2026/others/realappiance_let_high-fidelity_appliance_assets_controllable_and_workable_as_ali.md)
 - [\[ACL 2025\] CoachMe: Decoding Sport Elements with a Reference-Based Coaching Instruction Generation Model](../../ACL2025/others/coachme_sport_instruction.md)
-- [\[ECCV 2024\] HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
 
 </div>
 

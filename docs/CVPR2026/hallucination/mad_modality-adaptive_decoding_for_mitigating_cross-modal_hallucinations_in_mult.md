@@ -99,6 +99,7 @@ $$\text{logit}_{\text{MAD}}(y_t)=\underbrace{(1{+}\gamma w_{av})\text{logit}^{va
 MAD 在所有模型/数据集上都超过基线：VideoLLaMA2-AV 视觉主导 +9.3%、语言主导 +5.5%；Qwen2.5-Omni 视觉主导 +12.3%、音频主导 +12.0%。AVHBench 上 VideoLLaMA2-AV 的视频驱动音频幻觉 +4.0%、Qwen2.5-Omni +5.7%。
 
 ### 消融一：权重融合策略（VideoLLaMA2-AV，CMM %↑）
+
 | 融合方式 | 视觉主导 | 音频主导 | 语言主导 | 整体 |
 |------|------|------|------|------|
 | Baseline | 71.8 | 80.0 | 68.8 | 73.5 |
@@ -107,6 +108,7 @@ MAD 在所有模型/数据集上都超过基线：VideoLLaMA2-AV 视觉主导 +9
 | **Weighted（本文）** | **82.3** | **84.3** | **77.5** | **81.3** |
 
 ### 消融二：模态专属权重的贡献（VideoLLaMA2-AV，CMM 整体 %↑）
+
 | 启用的权重 | 整体 Acc |
 |------|------|
 | 仅 $w_v+w_{av}$（去 $w_a$） | 78.0 |
@@ -153,9 +155,9 @@ MAD 在所有模型/数据集上都超过基线：VideoLLaMA2-AV 视觉主导 +9
 
 - [\[CVPR 2026\] MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization](mod-dpo_towards_mitigating_cross-modal_hallucinations_in_omni_llms_using_modalit.md)
 - [\[CVPR 2026\] Cross-Modal Attention Calibration for LVLM Hallucination Mitigation](cross-modal_attention_calibration_for_lvlm_hallucination_mitigation.md)
-- [\[CVPR 2026\] SEASON: Mitigating Temporal Hallucination in Video Large Language Models via Self-Diagnostic Contrastive Decoding](season_mitigating_temporal_hallucination_in_video_large_language_models_via_self.md)
 - [\[CVPR 2026\] HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in Large Vision-Language Models](hulluedit_single-pass_evidence-consistent_subspace_editing_for_mitigating_halluc.md)
 - [\[CVPR 2026\] Understanding and Mitigating Hallucinations in Multimodal Chain-of-Thought Models](understanding_and_mitigating_hallucinations_in_multimodal_chain-of-thought_model.md)
+- [\[CVPR 2026\] Residual Decoding: Mitigating Hallucinations in Large Vision-Language Models via History-Aware Residual Guidance](residual_decoding_mitigating_hallucinations_in_large_vision-language_models_via_.md)
 
 </div>
 

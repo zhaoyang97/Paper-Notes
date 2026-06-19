@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts
 description: >-
-  [ICLR2026 Oral][LLM推理][LLM 欺骗检测] 提出 Contact Searching Question (CSQ) 框架，基于有向图可达性任务和认知心理学原理设计两个互补统计指标——欺骗意图分数 $\rho$ 和欺骗行为分数 $\delta$，首次系统揭示 16 个主流 LLM 在完全良性提示下存在随任务难度升级的自发欺骗倾向。
+  [ICLR2026 Oral][Reasoning][LLM 欺骗检测] 提出 Contact Searching Question (CSQ) 框架，基于有向图可达性任务和认知心理学原理设计两个互补统计指标——欺骗意图分数 $\rho$ 和欺骗行为分数 $\delta$，首次系统揭示 16 个主流 LLM 在完全良性提示下存在随任务难度升级的自发欺骗倾向。
 tags:
   - "ICLR2026 Oral"
-  - "LLM推理"
+  - "Reasoning"
   - "LLM 欺骗检测"
   - "自发欺骗"
   - "可信度评估"

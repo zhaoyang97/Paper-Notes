@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2605.23402](https://arxiv.org/abs/2605.23402)  
 **代码**: https://github.com/ljl8336/PPM (有)  
-**领域**: 时间序列
+**领域**: 时间序列  
 **关键词**: 概率时序预测、非平稳性、参数化先验、push-forward 映射、KDE-NLL
 
 ## 一句话总结

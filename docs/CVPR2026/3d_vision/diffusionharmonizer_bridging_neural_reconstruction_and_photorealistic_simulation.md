@@ -118,6 +118,7 @@ $$\mathcal{L}_{temp} = \frac{1}{|\Omega|}\sum_{x \in \Omega}\big\| \hat{I}_t(x) 
 与专用视频谐调方法（VHTT、Ke et al.）在 ISP 子集对比，本文在 PSNR（28.58 vs 25.98/20.96）、FID（42.03 vs 61.51/46.23）等全面更优（但其单步速度 212ms 慢于这两个轻量基线的 10/63ms）。用户研究 45 名评估者：本文相对 SDEdit/IP2P/WAN V2V 的偏好率分别为 **84.28% / 90.10% / 90.11%**，VLM 评估也一致偏好本文。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Full Model（域内时序一致） | 0.9827 | 完整模型 |
@@ -163,8 +164,8 @@ $$\mathcal{L}_{temp} = \frac{1}{|\Omega|}\sum_{x \in \Omega}\big\| \hat{I}_t(x) 
 
 - [\[CVPR 2026\] Sparse-View Localization via Online Neural 3D Regression](sparse-view_localization_via_online_neural_3d_regression.md)
 - [\[CVPR 2026\] FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction](fluidgaussian_propagating_simulation-based_uncertainty_toward_functionally-intel.md)
+- [\[CVPR 2026\] WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories](worldstereo_bridging_camera-guided_video_generation_and_scene_reconstruction_via.md)
 - [\[CVPR 2026\] Online3R: Online Learning for Consistent Sequential Reconstruction Based on Geometry Foundation Model](online3r_online_learning_for_consistent_sequential_reconstruction_based_on_geome.md)
-- [\[CVPR 2026\] GenSplat: Bridging the Generalization Gap in 3DGS Language Comprehension](gensplat_bridging_the_generalization_gap_in_3dgs_language_comprehension.md)
 - [\[CVPR 2026\] ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction](reweaver_towards_simulation-ready_and_topology-accurate_garment_reconstruction.md)
 
 </div>

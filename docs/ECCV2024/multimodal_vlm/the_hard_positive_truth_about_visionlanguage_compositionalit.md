@@ -123,7 +123,7 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] No Hard Negatives Required: Concept Centric Learning Leads to Compositionality without Degrading Zero-shot Capabilities of Contrastive Models](../../CVPR2026/multimodal_vlm/no_hard_negatives_required_concept_centric_learning_leads_to_compositionality_wi.md)
-- [\[CVPR 2026\] HandVQA: Diagnosing and Improving Fine-Grained Spatial Reasoning about Hands in Vision-Language Models](../../CVPR2026/multimodal_vlm/handvqa_diagnosing_and_improving_fine-grained_spatial_reasoning_about_hands_in_v.md)
+- [\[CVPR 2026\] Vision-Speech Models: Teaching Speech Models to Converse about Images](../../CVPR2026/multimodal_vlm/vision-speech_models_teaching_speech_models_to_converse_about_images.md)
 - [\[ECCV 2024\] AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization](addressclip_empowering_vision-language_models_for_city-wide_image_address_locali.md)
 - [\[ECCV 2024\] Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models](omniview-tuning_boosting_viewpoint_invariance_of_vision-language_pre-training_mo.md)
 - [\[CVPR 2026\] Breaking the Illusion: When Positive Meets Negative in Multimodal Decoding](../../CVPR2026/multimodal_vlm/breaking_the_illusion_when_positive_meets_negative_in_multimodal_decoding.md)

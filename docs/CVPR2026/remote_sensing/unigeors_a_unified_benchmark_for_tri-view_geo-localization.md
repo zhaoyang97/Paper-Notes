@@ -89,6 +89,7 @@ CAME 用两个互补目标联合训练：rank loss 强制度量一致性（正�
 ## 实验关键数据
 
 ### 数据集对比（UniGeoRS vs 现有 CVGL 数据集）
+
 | 数据集 | 年份 | 无人机图 | 无人机来源 | 地面图 | 每地点地面图 | 平台数 |
 |--------|------|---------|-----------|--------|-------------|--------|
 | University-1652 | ACM2020 | 37,854 | 虚拟 | 5,580 | 3.38 | 三平台 |
@@ -101,6 +102,7 @@ CAME 用两个互补目标联合训练：rank loss 强制度量一致性（正�
 可见 UniGeoRS 的核心卖点是同时把无人机规模（10 万+，真实/合成混合）和地面多样性（32.39 张/目标，是 University-1652 的近 10 倍）都拉满，且唯一一个真实+虚拟混合的三平台集。
 
 ### 主实验：CAME 作为插件挂到主流 CVGL 模型上（六向检索任务的 R@1/AP，节选）
+
 | 模型 | 方法 | Drone→Ground AP | Satellite→Ground AP | Drone→Satellite AP |
 |------|------|----------------|--------------------|--------------------|
 | University-1652 | baseline | 10.05 | 3.47 | 58.72 |
@@ -115,6 +117,7 @@ CAME 用两个互补目标联合训练：rank loss 强制度量一致性（正�
 整体 AP：University-1652 从 11.94%→17.17%、LPN 16.99%→23.44%、FSRA 18.83%→27.24%，提升在「高空↔地面」方向（Drone→Ground、Satellite→Ground）最明显。
 
 ### 消融实验（LPN + CAME，分析各组件与 RD 超参，节选 Drone→Ground / Satellite→Ground AP）
+
 | 配置 | Drone→Ground AP | Satellite→Ground AP | 说明 |
 |------|----------------|--------------------|------|
 | baseline | 14.33 | 13.47 | 原始 LPN |
@@ -124,6 +127,7 @@ CAME 用两个互补目标联合训练：rank loss 强制度量一致性（正�
 | **CAME (full)** | **24.04** | **23.73** | RD + CAM 协同最佳 |
 
 ### 数据集增益消融（控制训练样本总量基本不变）
+
 | 训练数据 | Drone→Satellite AP | Satellite→Drone AP |
 |----------|--------------------|--------------------|
 | SUES200 only | 73.59 | 67.61 |
@@ -173,8 +177,8 @@ CAME 用两个互补目标联合训练：rank loss 强制度量一致性（正�
 - [\[CVPR 2026\] Geo2: Geometry-Guided Cross-view Geo-Localization and Image Synthesis](geo2_geometry-guided_cross-view_geo-localization_and_image_synthesis.md)
 - [\[CVPR 2026\] SinGeo: Unlock Single Model's Potential for Robust Cross-View Geo-Localization](singeo_unlock_single_models_potential_for_robust_cross-view_geo-localization.md)
 - [\[CVPR 2026\] GeoBridge: A Semantic-Anchored Multi-View Foundation Model Bridging Images and Text for Geo-Localization](geobridge_a_semantic-anchored_multi-view_foundation_model_bridging_images_and_te.md)
-- [\[CVPR 2026\] PAUL: Uncertainty-Guided Partition and Augmentation for Robust Cross-View Geo-Localization under Noisy Correspondence](paul_uncertainty-guided_partition_and_augmentation_for_robust_cross-view_geo-loc.md)
 - [\[AAAI 2026\] UniABG: Unified Adversarial View Bridging and Graph Correspondence for Unsupervised Cross-View Geo-Localization](../../AAAI2026/remote_sensing/uniabg_unified_adversarial_view_bridging_and_graph_correspondence_for_unsupervis.md)
+- [\[CVPR 2026\] RHO: Robust Holistic OSM-Based Metric Cross-View Geo-Localization](rho_robust_holistic_osm-based_metric_cross-view_geo-localization.md)
 
 </div>
 

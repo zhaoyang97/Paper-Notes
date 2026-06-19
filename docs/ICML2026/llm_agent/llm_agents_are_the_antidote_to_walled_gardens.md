@@ -70,6 +70,7 @@ tags:
 | **Universal Interoperability**（本文） | **运行时推断** | **LLM 动态生成 glue/UI 动作** | 安全、技术债、agent-layer lock-in |
 
 ### 关键定量证据：Web agent 能力的指数级增长
+
 | 时间 | 评测 / 事件 | 数值或现象 |
 |------|-------------|------------|
 | 2023-03 | WebArena 成功率（Zhou et al., 2024） | 8.87% |

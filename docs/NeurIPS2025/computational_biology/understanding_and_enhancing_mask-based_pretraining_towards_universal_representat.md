@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2509.21650](https://arxiv.org/abs/2509.21650)  
 **代码**: 无  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: masked autoencoder, pretraining theory, random matrix theory, bias-variance tradeoff, R2MAE
 
 ## 一句话总结

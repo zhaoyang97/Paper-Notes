@@ -107,6 +107,7 @@ $$\hat{z}_x = \hat{z}_1 = z_s + v_\theta(z_s, t=0)$$
 关键发现：在浅层（信息丰富）FIA-Flow 把 Acc 拉到 71.3%；最能体现优势的是**深层**——L4-2 这种信息严重损失的层，其他方法 Acc 暴跌到个位数，FIA-Flow 仍有 36.8%，LPIPS 几乎腰斩。这说明它能从抽象高层表示里挖出语义重建图像，威胁面比此前认知严重得多。
 
 ### 跨数据集与防御鲁棒性
+
 | 设置 | 指标 | 次优 | FIA-Flow |
 |------|------|------|----------|
 | COCO 跨集泛化（仅 ImageNet 训、零微调） | LPIPS↓ | 0.195(FIA-Align) | **0.115** |
@@ -117,6 +118,7 @@ $$\hat{z}_x = \hat{z}_1 = z_s + v_\theta(z_s, t=0)$$
 即使面对注噪+NoPeek、DISCO 两类主流防御，FIA-Flow 在黑盒、不知防御实现细节的前提下仍能有效绕过、恢复敏感信息——这是论文"防御紧迫性"结论的直接证据。
 
 ### 消融实验
+
 | 配置 | 关键观察 | 说明 |
 |------|---------|------|
 | FIA-Align（仅 LFSAM + 直接解码） | 深层 L4-2 Acc 仅 4.4 | 缺 DIFM 时离流形隐码解码失败、语义崩 |
@@ -164,7 +166,7 @@ $$\hat{z}_x = \hat{z}_1 = z_s + v_\theta(z_s, t=0)$$
 - [\[CVPR 2026\] SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning](seba_sample-efficient_black-box_attacks_on_visual_reinforcement_learning.md)
 - [\[CVPR 2026\] Shedding Light on VLN Robustness: A Black-box Framework for Indoor Lighting-based Adversarial Attack](shedding_light_on_vln_robustness_a_black-box_framework_for_indoor_lighting-based.md)
 - [\[CVPR 2026\] VCP-Attack: Visual-Contrastive Projection for Transferable Black-Box Targeted Attacks on Large Vision-Language Models](vcp-attack_visual-contrastive_projection_for_transferable_black-box_targeted_att.md)
-- [\[CVPR 2026\] PROMPTMINER: Black-Box Prompt Stealing against Text-to-Image Generative Models via Reinforcement Learning and VLM-Guided Optimization](promptminer_black-box_prompt_stealing_against_text-to-image_generative_models_vi.md)
+- [\[CVPR 2026\] V-Attack: Targeting Disentangled Value Features for Controllable Adversarial Attacks on LVLMs](v-attack_targeting_disentangled_value_features_for_controllable_adversarial_atta.md)
 
 </div>
 

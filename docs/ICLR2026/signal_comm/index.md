@@ -1,27 +1,39 @@
 ---
 title: >-
-  ICLR2026 信号/通信论文汇总 · 2篇论文解读
+  ICLR2026 信号/通信论文汇总 · 4篇论文解读
 description: >-
-  2篇ICLR2026的信号/通信方向论文解读，收录 Enhancing Instruction Followin、Mamba-3等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  4篇ICLR2026的信号/通信方向论文解读，收录 Advancing Spatiotemporal Repre、Efficient Message-Passing Tran、Enhancing Instruction Followin等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "信号/通信"
   - "论文解读"
   - "论文笔记"
 item_list:
+  - u: "advancing_spatiotemporal_representations_in_spiking_neural_networks_via_parametr/"
+    t: "Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation"
+  - u: "efficient_message-passing_transformer_for_error_correcting_codes/"
+    t: "Efficient Message-Passing Transformer for Error Correcting Codes"
   - u: "enhancing_instruction_following_of_llms_via_activation_steering_with_dynamic_rej/"
     t: "Enhancing Instruction Following of LLMs via Activation Steering with Dynamic Rejection"
   - u: "mamba-3_improved_sequence_modeling_using_state_space_principles/"
     t: "Mamba-3: Improved Sequence Modeling using State Space Principles"
-item_total: 2
+item_total: 4
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📡 信号/通信
 
-**🔬 ICLR2026** · **2** 篇论文解读
+**🔬 ICLR2026** · **4** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (5)](../../CVPR2026/signal_comm/index.md) · [🧪 ICML2026 (2)](../../ICML2026/signal_comm/index.md) · [🤖 AAAI2026 (3)](../../AAAI2026/signal_comm/index.md) · [🧠 NeurIPS2025 (5)](../../NeurIPS2025/signal_comm/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/signal_comm/index.md) · [🧪 ICML2025 (3)](../../ICML2025/signal_comm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/signal_comm/index.md) · [🧪 ICML2026 (2)](../../ICML2026/signal_comm/index.md) · [🤖 AAAI2026 (3)](../../AAAI2026/signal_comm/index.md) · [🧠 NeurIPS2025 (5)](../../NeurIPS2025/signal_comm/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/signal_comm/index.md) · [🧪 ICML2025 (3)](../../ICML2025/signal_comm/index.md)
+
+**[Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation](advancing_spatiotemporal_representations_in_spiking_neural_networks_via_parametr.md)**
+
+:   针对脉冲神经网络（SNN）二值脉冲表示能力受限、替代梯度失配两大顽疾，本文提出参数化可逆变换 PIT——在神经元发放（firing）前后以共轭方式各做一次可逆线性变换，发放前把膜电位分布"重排"成易量化的形态、发放后把整数脉冲"增广"成跨时空的实值输出，同时配一个把输入推离量化决策边界的修正替代梯度，并用线性代数刻画了 SNN 时空表示容量；在 CIFAR、ImageNet、DVS 等数据集上多种架构均刷新 SOTA（如 SEW ResNet34 涨 5.62%）。
+
+**[Efficient Message-Passing Transformer for Error Correcting Codes](efficient_message-passing_transformer_for_error_correcting_codes.md)**
+
+:   EfficientMPT 把 Transformer 纠错码解码器里 $O(n^2)$ 的标准注意力换成一套只靠"全局 query 向量 + 逐元素乘"的线性复杂度 EEC 注意力，在保持与 SOTA（CrossMPT）相当的纠错性能的同时，对长 LDPC 码把显存和 FLOPs 砍掉数十倍，并且参数量与码长无关、能当一个可微调的纠错"基础模型"。
 
 **[Enhancing Instruction Following of LLMs via Activation Steering with Dynamic Rejection](enhancing_instruction_following_of_llms_via_activation_steering_with_dynamic_rej.md)**
 

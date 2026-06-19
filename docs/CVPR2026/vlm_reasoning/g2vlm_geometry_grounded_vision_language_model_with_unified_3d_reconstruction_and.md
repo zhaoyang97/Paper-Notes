@@ -2,10 +2,10 @@
 title: >-
   [论文解读] G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][几何接地VLM] G2VLM 用一个「混合 Transformer 专家（MoT）」架构，把前馈式 3D 重建专家和语义理解专家塞进同一个 VLM 里、靠共享自注意力互相增益，让一个 2B 的模型既能像 VGGT 那样直接预测深度/点云/相机位姿，又能在空间推理任务上反超 GPT-4o（SPAR-Bench 上高 18.5 分）。
+  [CVPR 2026][VLM Reasoning][几何接地VLM] G2VLM 用一个「混合 Transformer 专家（MoT）」架构，把前馈式 3D 重建专家和语义理解专家塞进同一个 VLM 里、靠共享自注意力互相增益，让一个 2B 的模型既能像 VGGT 那样直接预测深度/点云/相机位姿，又能在空间推理任务上反超 GPT-4o（SPAR-Bench 上高 18.5 分）。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "几何接地VLM"
   - "统一3D重建"
   - "空间推理"
@@ -159,11 +159,11 @@ G2VLM-SR 在 SPAR-Bench 上比 GPT-4o 高 **18.48 分**，且对 2B 基座 Qwen2
 
 ## 相关论文
 
-- [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
 - [\[CVPR 2026\] SpatialStack: Layered Geometry-Language Fusion for 3D VLM Spatial Reasoning](spatialstack_layered_geometry-language_fusion_for_3d_vlm_spatial_reasoning.md)
-- [\[CVPR 2026\] Grounded 3D-Aware Spatial Vision-Language Modeling](grounded_3d-aware_spatial_vision-language_modeling.md)
+- [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
 - [\[CVPR 2026\] Beyond 3D VQAs: Injecting 3D Spatial Priors into Vision-Language Models for Enhanced Geometric Reasoning](beyond_3d_vqas_injecting_3d_spatial_priors_into_vision-language_models_for_enhan.md)
-- [\[CVPR 2026\] VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction](vlm-3r_vision-language_models_augmented_with_instruction-aligned_3d_reconstructi.md)
+- [\[CVPR 2026\] Hear you are: Teaching LLMs Spatial Reasoning with Vision and Spatial Sound](hear_you_are_teaching_llms_spatial_reasoning_with_vision_and_spatial_sound.md)
+- [\[CVPR 2026\] Unified Generation and Self-Verification for Vision-Language Models via Advantage Decoupled Preference Optimization](unified_generation_and_self-verification_for_vision-language_models_via_advantag.md)
 
 </div>
 

@@ -98,6 +98,7 @@ flowchart TD
 | **RPB-OM (本文)** | **1.00** | **1.1-1.3** | **$\le H_k+O(1)$** | **$H_k+O(1)$** |
 
 ### 消融实验
+
 | 配置 | 平均 cost/OPT | 说明 |
 |------|--------------|------|
 | RPB-OM 完整 | 1.10-1.30 | 完整方法，预算挂钩 $U(\omega)$ |
@@ -141,9 +142,9 @@ flowchart TD
 
 - [\[ICML 2025\] Near-Optimal Consistency-Robustness Trade-Offs for Learning-Augmented Online Knapsack Problems](../../ICML2025/learning_theory/near-optimal_consistency-robustness_trade-offs_for_learning-augmented_online_kna.md)
 - [\[ICML 2026\] Parsimonious Learning-Augmented Online Metric Matching](parsimonious_learning-augmented_online_metric_matching.md)
+- [\[ICML 2026\] Robustness of Mixtures of Experts to Feature Noise](robustness_of_mixtures_of_experts_to_feature_noise.md)
 - [\[ICML 2026\] Multi-task Linear Regression without Eigenvalue Lower Bounds: Adaptivity, Robustness and Safety](multi-task_linear_regression_without_eigenvalue_lower_bounds_adaptivity_robustne.md)
-- [\[ICML 2025\] Learning-Augmented Hierarchical Clustering](../../ICML2025/learning_theory/learning-augmented_hierarchical_clustering.md)
-- [\[ICML 2026\] Optimal Design for Multinomial Logit Model with Applications to Best Assortment Identification](optimal_design_for_multinomial_logit_model_with_applications_to_best_assortment_.md)
+- [\[ICML 2026\] On the Robustness of Langevin Dynamics to Score Function Error](on_the_robustness_of_langevin_dynamics_to_score_function_error.md)
 
 </div>
 

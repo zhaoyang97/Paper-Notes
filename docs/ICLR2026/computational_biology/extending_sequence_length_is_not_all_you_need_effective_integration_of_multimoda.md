@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.21550](https://arxiv.org/abs/2602.21550)  
 **代码**: [https://github.com/yangzhao1230/Prism](https://github.com/yangzhao1230/Prism)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 基因表达预测, 表观基因组信号, 因果推断, 后门调整, 混杂变量
 
 ## 一句话总结

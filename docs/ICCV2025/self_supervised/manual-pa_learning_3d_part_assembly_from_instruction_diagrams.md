@@ -153,7 +153,7 @@ Pipeline 分三个阶段：
 - [\[ICML 2026\] PartCo: Part-Level Correspondence Priors Enhance Category Discovery](../../ICML2026/self_supervised/partco_part-level_correspondence_priors_enhance_category_discovery.md)
 - [\[CVPR 2025\] Escaping Plato's Cave: Towards the Alignment of 3D and Text Latent Spaces](../../CVPR2025/self_supervised/escaping_platos_cave_towards_the_alignment_of_3d_and_text_latent_spaces.md)
 - [\[CVPR 2026\] How Much 3D Do Video Foundation Models Encode?](../../CVPR2026/self_supervised/how_much_3d_do_video_foundation_models_encode.md)
-- [\[CVPR 2026\] MuM: Multi-View Masked Image Modeling for 3D Vision](../../CVPR2026/self_supervised/mum_multi-view_masked_image_modeling_for_3d_vision.md)
+- [\[CVPR 2026\] TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction](../../CVPR2026/self_supervised/talo_pushing_3d_vision_foundation_models_towards_globally_consistent_online_reco.md)
 
 </div>
 

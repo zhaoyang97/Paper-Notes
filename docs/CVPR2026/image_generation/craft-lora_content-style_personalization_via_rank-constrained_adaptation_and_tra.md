@@ -87,6 +87,7 @@ $$\epsilon_\theta^{acfg} = (1+\omega)\,\epsilon_{cond} - \omega\,\epsilon_{uncon
 内容概念用 DreamBooth 数据集（30 主题、每主题 4-5 图），风格概念用 StyleDrop 并补充艺术风格图；评测用严格不相交的训练/测试划分。指标：内容相似度、风格相似度用 CLIP-I 嵌入算；综合评分（Combination Score）用 GPT-4o 二元判断——给定内容参考、风格参考、输出，问是否同时整合了内容身份与艺术风格，每样本 50 次取平均成功率。每个指标在 10 对内容-风格、每对 10 张生成图上平均。
 
 ### 主实验
+
 | 方法 | 内容相似度 (CLIP-I) ↑ | 风格相似度 (CLIP-I) ↑ | 综合评分 (GPT-4o) ↑ |
 |------|------|------|------|
 | Direct Merging | 0.65 | 0.60 | 0.62 |
@@ -100,6 +101,7 @@ $$\epsilon_\theta^{acfg} = (1+\omega)\,\epsilon_{cond} - \omega\,\epsilon_{uncon
 基线各有偏科：Direct Merging 内容风格都保不住，StyleDrop 偏风格牺牲结构，ZipLoRA/KLoRA/BLoRA/LoRA.rar 更均衡但整体协调性受限；CRAFT-LoRA 在三项上全部最高。
 
 ### 消融实验
+
 | Rank-FT | Router | ACFG | 内容相似度 ↑ | 风格相似度 ↑ | 综合评分 ↑ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | | | | 0.65 | 0.60 | 0.62 |
@@ -153,7 +155,7 @@ $$\epsilon_\theta^{acfg} = (1+\omega)\,\epsilon_{cond} - \omega\,\epsilon_{uncon
 - [\[CVPR 2026\] OrthoFuse: Training-free Riemannian Fusion of Orthogonal Style-Concept Adapters for Diffusion Models](orthofuse_training-free_riemannian_fusion_of_orthogonal_style-concept_adapters_f.md)
 - [\[CVPR 2026\] SplitFlux: Learning to Decouple Content and Style from a Single Image](splitflux_learning_to_decouple_content_and_style_from_a_single_image.md)
 - [\[CVPR 2025\] K-LoRA: Unlocking Training-Free Fusion of Any Subject and Style LoRAs](../../CVPR2025/image_generation/k-lora_unlocking_training-free_fusion_of_any_subject_and_style_loras.md)
-- [\[CVPR 2026\] StyleGallery: Training-free and Semantic-aware Personalized Style Transfer from Arbitrary Image References](stylegallery_training-free_and_semantic-aware_personalized_style_transfer_from_a.md)
+- [\[ECCV 2024\] Implicit Style-Content Separation using B-LoRA](../../ECCV2024/image_generation/implicit_style-content_separation_using_b-lora.md)
 
 </div>
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] EduDiag: A Benchmark for Educational Diagnostic Reasoning with Error Tracing and Correction on Large Multimodal Models
 description: >-
-  [CVPR 2026][多模态VLM][多模态大模型] EduDiag 构建了首个评测多模态大模型（LMM）"教育诊断推理"能力的基准——给定题目、图像、参考解题过程和一个错误答案，要求模型**反向重建**导致该错误答案的错误推理链并生成纠正反馈，覆盖常识/科学/数学三域共 8345 条标注，对 24 个主流 LMM 的评测显示连 GPT-5 都做不好，错误追溯是核心瓶颈。
+  [CVPR 2026][VLM Reasoning][多模态大模型] EduDiag 构建了首个评测多模态大模型（LMM）"教育诊断推理"能力的基准——给定题目、图像、参考解题过程和一个错误答案，要求模型**反向重建**导致该错误答案的错误推理链并生成纠正反馈，覆盖常识/科学/数学三域共 8345 条标注，对 24 个主流 LMM 的评测显示连 GPT-5 都做不好，错误追溯是核心瓶颈。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态大模型"
   - "教育诊断推理"
   - "错误追溯"
@@ -134,11 +134,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
 - [\[CVPR 2026\] EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models](emo-r3_reflective_reinforcement_learning_for_emotional_reasoning_in_multimodal_l.md)
 - [\[CVPR 2026\] GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models](ggbench_a_geometric_generative_reasoning_benchmark_for_unified_multimodal_models.md)
-- [\[CVPR 2025\] ESPIRE: A Diagnostic Benchmark for Embodied Spatial Reasoning of Vision-Language Models](../../CVPR2025/multimodal_vlm/espire_a_diagnostic_benchmark_for_embodied_spatial_reasoning_of_vision-language_.md)
-- [\[ACL 2026\] ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](../../ACL2026/multimodal_vlm/errorradar_benchmarking_complex_mathematical_reasoning_of_multimodal_large_langu.md)
-- [\[CVPR 2026\] Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking](circuit_tracing_in_vision-language_models_understanding_the_internal_mechanisms_.md)
+- [\[CVPR 2026\] AXG-Reasoner: Error Detection and Explanation in Long Task Videos with Vision-Language Models](axg-reasoner_error_detection_and_explanation_in_long_task_videos_with_vision-lan.md)
+- [\[ACL 2026\] ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](../../ACL2026/vlm_reasoning/errorradar_benchmarking_complex_mathematical_reasoning_of_multimodal_large_langu.md)
 
 </div>
 

@@ -99,6 +99,7 @@ RESTORE 是**纯推理期模块**,不引入任何可训练参数,也不需要重
 在更激进的 128 token(22.2%)挡,FastV 已经掉到 91.8%、PDrop 崩到 84.5%,而挂上 RESTORE 的 text-agnostic 主干仍能稳定在 95%+ 区间;论文进一步在 64 token(11.1%)挡展示 RESTORE 把多个 VTR 主干推近"近全 token"性能。
 
 ### 消融实验
+
 | 配置 | 平均得分(192 token) | 说明 |
 |------|---------------------|------|
 | HoloV(baseline) | 96.5% | 仅剪枝,reindex 位置 |
@@ -144,10 +145,10 @@ RESTORE 是**纯推理期模块**,不引入任何可训练参数,也不需要重
 ## 相关论文
 
 - [\[CVPR 2026\] Rethinking MLLM Itself as a Segmenter with a Single Segmentation Token](../../CVPR2026/multimodal_vlm/rethinking_mllm_itself_as_a_segmenter_with_a_single_segmentation_token.md)
-- [\[AAAI 2026\] Filter, Correlate, Compress: Training-Free Token Reduction for MLLM Acceleration](../../AAAI2026/multimodal_vlm/filter_correlate_compress_training-free_token_reduction_for_.md)
 - [\[ICML 2026\] V-LynX: Token Interface Alignment for VideoX LLMs](v-lynx_token_interface_alignment_for_videox_llms.md)
 - [\[ICML 2026\] WeatherSyn: An Instruction Tuning MLLM For Weather Forecasting Report Generation](weathersyn_an_instruction_tuning_mllm_for_weather_forecasting_report_generation.md)
 - [\[ICML 2026\] ECG-R1: Protocol-Guided and Modality-Agnostic MLLM for Reliable ECG Interpretation](ecg-r1_protocol-guided_and_modality-agnostic_mllm_for_reliable_ecg_interpretatio.md)
+- [\[ICML 2026\] Detached Skip-Links and $R$-Probe: Decoupling Feature Aggregation from Gradient Propagation for MLLM OCR](detached_skip-links_and_r-probe_decoupling_feature_aggregation_from_gradient_pro.md)
 
 </div>
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Act2See: Emergent Active Visual Perception for Video Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][主动视觉感知] Act2See 通过监督微调，让视频 VLM 在文本 CoT 推理过程中**自己决定何时插入一帧画面**——要么从原视频里检索一帧真实证据，要么条件式地"想象生成"一帧反事实画面——从而在 VideoEspresso、ViTIB 等 5 个视频推理基准上刷新或超越同尺寸乃至更大的闭源模型。
+  [CVPR 2026][VLM Reasoning][主动视觉感知] Act2See 通过监督微调，让视频 VLM 在文本 CoT 推理过程中**自己决定何时插入一帧画面**——要么从原视频里检索一帧真实证据，要么条件式地"想象生成"一帧反事实画面——从而在 VideoEspresso、ViTIB 等 5 个视频推理基准上刷新或超越同尺寸乃至更大的闭源模型。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "主动视觉感知"
   - "交错式CoT"
   - "帧检索"
@@ -149,11 +149,11 @@ $$J(\theta)=-\frac{1}{N}\sum_{i=1}^{N}\sum_{t=1}^{L^{(i)}}\log P\big(y_{t}^{(i)}
 
 ## 相关论文
 
-- [\[CVPR 2026\] Perception Programs: Unlocking Visual Tool Reasoning in Language Models](perception_programs_visual_tool_reasoning.md)
-- [\[CVPR 2026\] WeaveTime: Stream from Earlier Frames into Emergent Memory in VideoLLMs](weavetime_streaming_video_llm_memory.md)
-- [\[CVPR 2026\] WeaveTime: Streaming from Earlier Frames into Emergent Memory in VideoLLMs](weavetime_streaming_from_earlier_frames_into_emergent_memory_in_videollms.md)
+- [\[ICML 2026\] Native Active Perception as Reasoning for Omni-Modal Understanding](../../ICML2026/vlm_reasoning/native_active_perception_as_reasoning_for_omni-modal_understanding.md)
+- [\[CVPR 2026\] A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](a_multi-agent_perception-action_alliance_for_efficient_long_video_reasoning.md)
 - [\[CVPR 2026\] Don't Show Pixels, Show Cues: Unlocking Visual Tool Reasoning in Language Models via Perception Programs](dont_show_pixels_show_cues_unlocking_visual_tool_reasoning_in_language_models_vi.md)
-- [\[CVPR 2026\] Enhancing Descriptive Captions with Visual Attributes for Multimodal Perception](enhancing_descriptive_captions_with_visual_attributes_for_multimodal_perception.md)
+- [\[CVPR 2026\] Dr. Seg: Revisiting GRPO Training for Visual Large Language Models through Perception-Oriented Design](dr_seg_revisiting_grpo_training_for_visual_large_language_models_through_percept.md)
+- [\[CVPR 2026\] Graph-to-Frame RAG: Visual-Space Knowledge Fusion for Training-Free and Auditable Video Reasoning](graph-to-frame_rag_visual-space_knowledge_fusion_for_training-free_and_auditable.md)
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 VLMReasoning论文汇总 · 121篇论文解读
+  CVPR2026 VLMReasoning论文汇总 · 150篇论文解读
 description: >-
-  121篇CVPR2026的 VLM Reasoning 方向论文解读，涵盖推理、多模态、LLM、强化学习、对抗鲁棒、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  150篇CVPR2026的 VLM Reasoning 方向论文解读，涵盖推理、多模态、LLM、强化学习、对抗鲁棒、问答等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "VLM Reasoning"
@@ -13,10 +13,12 @@ tags:
   - "LLM"
   - "强化学习"
   - "对抗鲁棒"
-  - "Agent"
+  - "问答"
 item_list:
   - u: "a_causal_marriage_between_vlm_and_irm_from_understanding_to_reasoning/"
     t: "A Causal Marriage between VLM and IRM from Understanding to Reasoning"
+  - u: "a_multi-agent_perception-action_alliance_for_efficient_long_video_reasoning/"
+    t: "A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning"
   - u: "act2see_emergent_active_visual_perception_for_video_reasoning/"
     t: "Act2See: Emergent Active Visual Perception for Video Reasoning"
   - u: "adversarial_style_optimization_enhancing_vlm_jailbreaks_by_grpo-based_stylistic_/"
@@ -45,8 +47,12 @@ item_list:
     t: "BOP-Ask: Object-Interaction Reasoning for Vision-Language Models"
   - u: "breaking_the_regional_perception_bottleneck_of_multimodal_large_language_models_/"
     t: "Breaking the Regional Perception Bottleneck of Multimodal Large Language Models via External Reasoning Framework"
+  - u: "can_a_second-view_image_be_a_language_geometric_and_semantic_cross-modal_reasoni/"
+    t: "Can a Second-View Image Be a Language? Geometric and Semantic Cross-Modal Reasoning for X-ray Prohibited Item Detection"
   - u: "care_what_fails_contrastive_anchored-reflection_for_verifiable_multimodal_reason/"
     t: "CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal Reasoning"
+  - u: "cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide/"
+    t: "CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering"
   - u: "chain-of-frames_advancing_video_understanding_in_multimodal_llms_via_frame-aware/"
     t: "Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning"
   - u: "chain-of-thought_guided_multi-modal_object_re-identification/"
@@ -55,41 +61,39 @@ item_list:
     t: "Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts"
   - u: "chartr_evaluating_reasoning_accuracy_and_robustness_in_chart_question_answering/"
     t: "ChartR: Evaluating Reasoning Accuracy and Robustness in Chart Question Answering"
-  - u: "circuit_tracing_in_vision-language_models_understanding_the_internal_mechanisms_/"
-    t: "Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking"
+  - u: "clivis_unleashing_cognitive_map_through_linguistic-visual_synergy_for_embodied_v/"
+    t: "CLiViS: Unleashing Cognitive Map through Linguistic-Visual Synergy for Embodied Visual Reasoning"
   - u: "codedance_a_dynamic_tool-integrated_mllm_for_executable_visual_reasoning/"
     t: "CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning"
   - u: "codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim/"
     t: "CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization"
   - u: "cogniverse_revolutionizing_multi-modal_retrieval-augmented_generation_with_cogni/"
     t: "CogniVerse: Revolutionizing Multi-Modal Retrieval-Augmented Generation with Cognitive Reflection and Geometric Reasoning"
+  - u: "compositional_transformation_reasoning_for_composed_video_retrieval/"
+    t: "Compositional Transformation Reasoning for Composed Video Retrieval"
   - u: "conan_progressive_learning_to_reason_like_a_detective_over_multi-scale_visual_ev/"
     t: "Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence"
   - u: "consensus_entropy_harnessing_multi-vlm_agreement_for_self-verifying_and_self-imp/"
     t: "Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR"
-  - u: "covr-rreason-aware_composed_video_retrieval/"
-    t: "CoVR-R: Reason-Aware Composed Video Retrieval"
-  - u: "crit_graph-based_automatic_data_synthesis_to_enhance_cross-modal_multi-hop_reaso/"
-    t: "CRIT: Graph-Based Automatic Data Synthesis to Enhance Cross-Modal Multi-Hop Reasoning"
-  - u: "curve_a_benchmark_for_cultural_and_multilingual_long_video_reasoning/"
-    t: "CURVE: A Benchmark for Cultural and Multilingual Long Video Reasoning"
-  - u: "decouple_to_generalize_context-first_self-evolving_learning_for_data-scarce_visi/"
-    t: "Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning"
-item_total: 121
+item_total: 150
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧠 VLM Reasoning
 
-**📷 CVPR2026** · **121** 篇论文解读
+**📷 CVPR2026** · **150** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (20)](../../ICML2026/vlm_reasoning/index.md) · [💬 ACL2026 (31)](../../ACL2026/vlm_reasoning/index.md) · [🔬 ICLR2026 (23)](../../ICLR2026/vlm_reasoning/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/vlm_reasoning/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/vlm_reasoning/index.md) · [📹 ICCV2025 (15)](../../ICCV2025/vlm_reasoning/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (31)](../../ICML2026/vlm_reasoning/index.md) · [💬 ACL2026 (32)](../../ACL2026/vlm_reasoning/index.md) · [🔬 ICLR2026 (30)](../../ICLR2026/vlm_reasoning/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/vlm_reasoning/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/vlm_reasoning/index.md) · [📹 ICCV2025 (15)](../../ICCV2025/vlm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×91 · 多模态 ×61 · LLM ×9 · 强化学习 ×6 · 对抗鲁棒 ×4
+🔥 **高频主题：** 推理 ×115 · 多模态 ×64 · LLM ×10 · 强化学习 ×6 · 对抗鲁棒 ×4
 
 **[A Causal Marriage between VLM and IRM from Understanding to Reasoning](a_causal_marriage_between_vlm_and_irm_from_understanding_to_reasoning.md)**
 
 :   本文从 token 级因果表示出发，证明"词表受限的 InfoNCE"与 IRM 的不变性准则在形式上等价，据此提出无需改架构的中训范式 CLIP-IRM 提升 OOD 理解，并把它的不变对齐分数当作过程级奖励喂给 GRPO，把 IRM 的 OOD 保证一路迁移到多模态推理。
+
+**[A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](a_multi-agent_perception-action_alliance_for_efficient_long_video_reasoning.md)**
+
+:   提出 A4VL，一个无训练的多智能体感知-行动联盟框架，通过事件驱动视频分块、线索引导的关键帧选择和多轮智能体协商剪枝机制，在五个视频问答基准上以显著更低的推理延迟全面超越 28 个基线方法。
 
 **[Act2See: Emergent Active Visual Perception for Video Reasoning](act2see_emergent_active_visual_perception_for_video_reasoning.md)**
 
@@ -147,9 +151,17 @@ item_total: 121
 
 :   本文先剖出多模态大模型（MLLM）做像素级定位（grounding）的真瓶颈不在"看清区域"而在"把区域翻译成坐标"的语义精炼阶段，再用一套基于多模态蒙特卡洛树搜索（MCTS）的外置推理框架 R-Ground，把算力定向投到该阶段，让 7B 模型在 RefCOCO 系列上反超 72B。
 
+**[Can a Second-View Image Be a Language? Geometric and Semantic Cross-Modal Reasoning for X-ray Prohibited Item Detection](can_a_second-view_image_be_a_language_geometric_and_semantic_cross-modal_reasoni.md)**
+
+:   这篇论文提出"把第二张视图（侧视图）当成一种语言模态来用"的范式，配套构建了首个双视图+多模态的安检基准 DualXrayBench 和带 `<top>/<side>/<conclusion>` 思维链监督的 GSXray 数据集，训练出的 GSR 模型在八个跨视图推理任务上整体准确率从 53.5 提到 65.4、mIoU 几乎翻倍。
+
 **[CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal Reasoning](care_what_fails_contrastive_anchored-reflection_for_verifiable_multimodal_reason.md)**
 
 :   CARE 是一套"以失败为中心"的多模态推理 RLVR 后训练框架：把组内最佳 rollout 当锚点、围绕它挑一小撮"差一点就对"的难负样本做子组内 z-score 归一化并只压制负样本，再对代表性失败做一次结构化反思重采样，把"近似错误"变成监督信号，在 Qwen2.5-VL-7B 上六个可验证视觉推理基准 macro 平均比 GRPO 高 4.62 分。
+
+**[CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)**
+
+:   CaST-Bench 提出"因果链时空 grounding 视频问答"这一新任务——模型不仅要答对，还要把答案落到一条由时间段 + bounding box 标注的因果证据链上；通过人机协作流水线构建了 1,015 段视频、2,066 道题的高质量数据集，并设计了同时评估答案正确性与证据 grounding 的指标，实测 15 个主流 VLM 表现远低于人类（最佳 50.34% vs 人类 91.89%）。
 
 **[Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning](chain-of-frames_advancing_video_understanding_in_multimodal_llms_via_frame-aware.md)**
 
@@ -167,9 +179,9 @@ item_total: 121
 
 :   ChartR 把每道图表问答题拆成 4–10 个有依赖关系的子问题、再给每张图配 4 种视觉扰动变体，用 8 个指标同时考"每一步推理对不对"和"扰动下稳不稳"，在 12 个 MLLM 上揭示出：整链全对率普遍低于 10%、数值读取是最大瓶颈、且模型严重依赖图中文字标注而非真正的视觉理解。
 
-**[Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking](circuit_tracing_in_vision-language_models_understanding_the_internal_mechanisms_.md)**
+**[CLiViS: Unleashing Cognitive Map through Linguistic-Visual Synergy for Embodied Visual Reasoning](clivis_unleashing_cognitive_map_through_linguistic-visual_synergy_for_embodied_v.md)**
 
-:   提出首个面向 VLM 的电路追踪框架，在 Gemma-3-4B 中训练 per-layer transcoder 并构建归因图，揭示了多模态推理的层次化整合机制、视觉数学电路和六指幻觉的内部成因，并通过 steering 和 circuit patching 验证电路的因果可控性。
+:   CLiViS 把第一人称视频问答拆成"LLM 当规划者、VLM 当感知执行者"的免训练循环，二者共同维护一张会随推理逐步演化的**动态认知地图**（导航图 + 关系图），用结构化场景表征把细粒度感知和高层推理桥接起来，在 OpenEQA / EgoTempo / EgoSchema 三个 benchmark 上拿到 SOTA。
 
 **[CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning](codedance_a_dynamic_tool-integrated_mllm_for_executable_visual_reasoning.md)**
 
@@ -183,6 +195,10 @@ item_total: 121
 
 :   CogniVerse 把"人脑式反思—检索—综合"三步搬进多模态 RAG：先用一个认知反思模块判断"这题要不要查外部知识、查回来的内容相不相关"，再把图文与知识图谱对齐到双曲空间并用谱图理论裁出查询相关子图，最后用最优传输损失生成兼顾局部准确与全局连贯的答案，在三个 MMQA 数据集上准确率、连贯度、检索精度全面超过 MuRAG/MMCoQA/GraphRAG，同时还降低了检索延迟。
 
+**[Compositional Transformation Reasoning for Composed Video Retrieval](compositional_transformation_reasoning_for_composed_video_retrieval.md)**
+
+:   针对"给定参考视频 + 修改文本、检索目标视频"的组合视频检索任务，本文提出零样本框架 MoRe：先用多目标帕累托排序召回一小批高质量候选，再让 MLLM 把视频拆成"实体/动作/场景"三维语义、以两两比较的方式推理哪个候选最符合修改意图，在 EgoCVR / WebVid-CoVR 上 R@1 分别提升 +5.8 / +10.8。
+
 **[Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence](conan_progressive_learning_to_reason_like_a_detective_over_multi-scale_visual_ev.md)**
 
 :   Conan 让 7B 视频多模态大模型像侦探一样工作：先把帧分成证据/上下文/干扰三类，再边推理边决定"取证够了就答、不够就再调帧"，靠自建的 Conan-91k 数据集 + 三阶段冷启动 + 联合奖励 RLVR 训出来，六个多步推理基准平均比基座 Qwen2.5-VL-7B 涨 10.5%，多数榜超过 GPT-4o。
@@ -191,17 +207,17 @@ item_total: 121
 
 :   本文提出 Consensus Entropy（CE）——一个免训练、模型无关的指标，用"多个 VLM 对同一张图的 OCR 结果是否收敛"来无监督地判断输出可靠性，并基于它搭出 CE-OCR 框架（共识熵加权集成 + 熵阈值路由到更强模型重写），在 OCRBench 等数据集上把质量验证 F1 比 VLM-as-Judge 提升 42.1%、OCR 准确率提升 8.2% 且只路由 7.3% 样本。
 
-**[CoVR-R: Reason-Aware Composed Video Retrieval](covr-rreason-aware_composed_video_retrieval.md)**
+**[COT-FM: Cluster-wise Optimal Transport Flow Matching](cot-fm_cluster-wise_optimal_transport_flow_matching.md)**
 
-:   CoVR-R 提出了推理优先的零样本组合视频检索框架，利用大型多模态模型（Qwen3-VL）显式推理编辑操作隐含的"后效应"（状态转换、时间阶段、镜头变化等），并构建了包含结构化推理轨迹和困难干扰项的 CoVR-R 基准来评估推理能力，在检索准确率上大幅超越现有方法。
+:   提出 COT-FM，一个即插即用的 Flow Matching 增强框架：通过聚类目标样本、反转预训练模型获取簇级源分布、在簇内近似最优传输，显著拉直传输路径，在不改变模型架构的前提下同时加速采样和提升生成质量。
 
 **[CRIT: Graph-Based Automatic Data Synthesis to Enhance Cross-Modal Multi-Hop Reasoning](crit_graph-based_automatic_data_synthesis_to_enhance_cross-modal_multi-hop_reaso.md)**
 
 :   提出基于图结构的自动数据生成 pipeline，构建了 CRIT 数据集与 benchmark，用于训练和评测 VLM 在交错图文内容上的跨模态多跳推理能力，训练后的模型在 SPIQA 等多个基准上取得显著提升。
 
-**[CURVE: A Benchmark for Cultural and Multilingual Long Video Reasoning](curve_a_benchmark_for_cultural_and_multilingual_long_video_reasoning.md)**
+**[Decompose and Transfer: CoT-Prompting Enhanced Alignment for Open-Vocabulary Temporal Action Detection](decompose_and_transfer_cot-prompting_enhanced_alignment_for_open-vocabulary_temp.md)**
 
-:   CURVE 是一个完全由本地专家人工标注的多文化、多语言长视频推理基准（18 个地区/语言、540 个视频、2400 道题），并配套一套基于"证据图 + 迭代误差隔离"的细粒度错误诊断方法；评测显示最强模型 Gemini-2.5-Pro 聚合准确率仅 45%，远低于人类的 95%，且 75% 的失败源于对文化视觉元素的感知错误。
+:   提出 Phase-wise Decomposition and Alignment (PDA) 框架，利用 LLM 的 CoT 推理能力将动作标签分解为"开始-中间-结束"三个阶段描述，通过文本引导的前景过滤和自适应阶段对齐实现细粒度动作模式迁移，在 THUMOS14 OV-TAD 上 Avg mAP 达 46.9（超越 SOTA Ti-FAD 的 41.2）。
 
 **[Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning](decouple_to_generalize_context-first_self-evolving_learning_for_data-scarce_visi.md)**
 
@@ -211,9 +227,13 @@ item_total: 121
 
 :   本文发现多模态大模型在「想得越多」的 CoT 推理模式下视觉注意力会**空间发散**、漂离问题相关区域（看得越久、瞄得越偏），并据此提出免训练的 VRGA 框架：用「熵-聚焦」准则自动挑出真正处理视觉的注意力头、定位问题相关区域、再在生成阶段对这些区域加权，从而在不重训模型的前提下恢复视觉接地、降低跑题、提升 VQA 综合得分（跨模型规模 1–6 分）。
 
-**[DeepSketcher: Internalizing Visual Manipulation for Multimodal Reasoning](deepsketcher_internalizing_visual_manipulation_for_multimodal_reasoning.md)**
+**[DeepScan: A Training-Free Framework for Visually Grounded Reasoning in Large Vision-Language Models](deepscan_a_training-free_framework_for_visually_grounded_reasoning_in_large_visi.md)**
 
-:   提出DeepSketcher套件——包含31k高质量代码渲染的图文交错CoT数据集和一个自包含的Embedding Editor模型，使VLM无需外部工具即可在视觉嵌入空间直接生成"视觉思考"进行多模态推理。
+:   DeepScan 是一个免训练框架，模仿人类"先抓局部线索、再自底向上还原证据"的视觉搜证方式，用层级扫描（Hierarchical Scanning）+ 重聚焦（Refocusing）+ 证据增强推理（Evidence-Enhanced Reasoning）三段流水线把 LVLM 包起来，在 V\* bench 上用 Qwen2.5-VL-7B 拿到 90.6% 准确率（比原模型 +16.3%），且无需任何微调即可迁移到不同架构和参数规模。
+
+**[DPAD: Discriminative Perception via Anchored Description for Reasoning Segmentation](discriminative_perception_via_anchored_description_for_reasoning_segmentation.md)**
+
+:   针对推理分割(RS)中RL+GRPO训练的geometric reward无法约束reasoning chain是否聚焦目标unique attributes的问题，提出DPAD方法：MLLM生成reasoning chain+geometric localization+anchored description，引入基于CLIP的Discriminative Perception Reward比较description与ROI/AOI的相似度差异，迫使caption更具判别性从而间接约束推理链聚焦目标，ReasonSeg上cIoU提升3.09%且推理链长度减少42%。
 
 **[dMLLM-TTS: Self-Verified and Efficient Test-Time Scaling for Diffusion Multi-Modal Large Language Models](dmllm-tts_self-verified_and_efficient_test-time_scaling_for_diffusion_multi-moda.md)**
 
@@ -259,13 +279,13 @@ item_total: 121
 
 :   EmoThinker 把视听情感分析从"隐式融合"改造成"显式分步推理"：视觉端用结构化 token 选择把人脸聚焦区和文本条件化的背景区分开，音频端用文本引导注意力提炼副语言特征，再配上首个带分步推理链的 CoET 数据集做 LoRA 后训练，在 DFEW 等五个基准上刷到新 SOTA（DFEW 零样本 WAR 提升 10.5%）。
 
-**[Evolutionary Multimodal Reasoning via Hierarchical Semantic Representation for Intent Recognition](evolutionary_multimodal_reasoning_via_hierarchical_semantic_representation_for_i.md)**
-
-:   提出 HIER，通过层次语义表示（token→概念→关系三级）结合基于 MLLM 反馈的自进化推理机制，在三个多模态意图识别 benchmark 上一致超越 SOTA 方法和领先 MLLM（1-3% 增益）。
-
 **[Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory](evolving_contextual_safety_in_multi-modal_large_language_models_via_inference-ti.md)**
 
 :   提出 MM-SafetyBench++ 基准和 EchoSafe 框架，通过推理时维护自反思记忆库来累积安全洞察，使 MLLM 能够根据上下文区分看起来相似但安全意图不同的场景，无需训练即可提升上下文安全性。
+
+**[Fast Reasoning Segmentation for Images and Videos](fast_reasoning_segmentation_for_images_and_videos.md)**
+
+:   FastReasonSeg 把"看图"和"推理"彻底拆开——先用 SAM-2/深度/检测把场景压成结构化的数字孪生 JSON，再让小 LLM 只在这个 JSON 上做多步推理来检索目标 mask；配合"教师生成推理链 → 学生 SFT + RL 双阶段蒸馏"，让 0.6B 的小模型在四个图像/视频推理分割基准上反超参数量 20× 的模型，同时跑到 7.79 FPS、只占 2.1GB 显存。
 
 **[From Exploration to Exploitation: A Two-Stage Entropy RLVR Approach for Noise-Tolerant MLLM Training](from_exploration_to_exploitation_a_two-stage_entropy_rlvr_approach_for_noise-tol.md)**
 
@@ -295,6 +315,14 @@ item_total: 121
 
 :   GGBench 提出一个面向统一多模态模型（UMM）的"几何生成推理"评测基准：1,411 道几何作图题，每题严格对齐"自然语言步骤 + 可执行 GeoGebra 代码 + 渲染图"三模态，配套四阶段评测协议，实验发现"端到端出图"的 UMM 远落后于"先写代码再渲染"的 LLM，揭示现有模型"会答题但不会作图"的鸿沟。
 
+**[Graph-to-Frame RAG: Visual-Space Knowledge Fusion for Training-Free and Auditable Video Reasoning](graph-to-frame_rag_visual-space_knowledge_fusion_for_training-free_and_auditable.md)**
+
+:   提出 G2F-RAG 范式，将检索到的结构化知识渲染为单帧"推理帧"附加到视频末尾，使大模型在视觉空间内统一推理，避免了文本追加导致的注意力稀释和认知负荷，在 8 个视频基准上实现免训练的一致性提升。
+
+**[Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)**
+
+:   提出"接地链式思考（GCoT）"新任务和 MM-GCoT 基准：让多模态大模型在回答前逐步说出推理并给出每一步的坐标依据，再用"答案-接地一致性"指标量化视觉幻觉，结果发现 12 个先进 MLLM 普遍"答对但看错"，且幻觉与模型规模无关。
+
 **[GThinker: Towards General Multimodal Reasoning via Cue-Guided Rethinking](gthinker_towards_general_multimodal_reasoning_via_cue-guided_rethinking.md)**
 
 :   GThinker 针对 MLLM "文本逻辑无懈可击却被错误的初始视觉判断带偏" 的视觉惯性问题，提出一种自由形式、以视觉线索为锚点并能自触发重审线索的 Cue-Rethinking 推理范式，再用"标注流水线 + 裁判引导选择性冷启动 + 激励式 RL"两阶段训练把这套能力灌进 Qwen2.5-VL-7B，在 M3CoT 上达到 81.5% 反超 o4-mini。
@@ -315,6 +343,14 @@ item_total: 121
 
 :   系统研究视觉语言推理数据集的构建原则——上下文来源策略、数据干预（图像描述辅助信号+纯文本推理）、多维度数据扩展——并据此构建 250 万样本的 HoneyBee CoT 推理数据集，训练的 3B VLM 在 MathVerse 上超越 SOTA 7.8%，同时提出降低 73% 解码成本的测试时扩展策略。
 
+**[Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)**
+
+:   针对 VLM 强化学习里"只有结果奖励、定位不到错在哪一步"的痛点，本文训练了一个感知中心的过程奖励模型 Perceval，逐条核查推理链里的图文一致性、标出幻觉 token，再把这个信号同时用于训练（token 级优势重分配改造 GRPO）和推理（截断-重生成），在多个视觉推理基准上稳定涨点，并意外地把"感知更准"泛化成了"整体推理更强"。
+
+**[Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)**
+
+:   本文提出 VideoReasoner：直接在 Base MLLM（Qwen2-VL-7B-Base）上用 3K 冷启动 + 5K 强化学习共 8K 数据，训练出"事件推理 / 关键帧推理 / 直接回答"三种视频推理能力，再在推理阶段把它们组合成"先定位关键事件与关键帧、再密集采样回灌生成答案"的流水线，在 7 个视频基准上大幅超过 Base 模型，并在多个基准上追平甚至超越用大规模数据训练的 Qwen2.5-VL-7B-Instruct。
+
 **[InfiniBench: Infinite Benchmarking for Visual Spatial Reasoning with Customizable Scene Complexity](infinibench_infinite_benchmarking_for_visual_spatial_reasoning_with_customizable.md)**
 
 :   InfiniBench 是一个全自动、可参数化定制的 3D 场景基准"生成器"：把自然语言场景描述翻译成物理合理、复杂度可控的逼真视频，从而能针对组合/关系/观测三类复杂度，理论上无限地批量造出 VLM 空间推理评测题，定向暴露模型在不同空间条件下的失败模式。
@@ -327,9 +363,29 @@ item_total: 121
 
 :   SymPL 发现 VLM 做"从场景里某个物体的视角"出发的他者中心（allocentric）空间推理很差，于是免训练地把这类问题先抽取 3D 信息、再用投影/抽象/二分/定位四个因子改写成一张"哪个彩色圆点落在黄色区域"的符号化布局问题，把 VLM 不擅长的视角变换转成它天生擅长的"颜色区域定位"，在他者中心与自我中心任务上都大幅涨点。
 
+**[Latent Implicit Visual Reasoning](latent_implicit_visual_reasoning.md)**
+
+:   LIVR 给大型多模态模型（LMM）加上一组可学习的 latent token，并用一种「视觉瓶颈」注意力掩码强迫答案只能通过这些 token 看图，从而在**无需任何中间步骤监督**的情况下，让模型自己学出对任务有用的视觉抽象，在 9 个视觉密集任务上稳定超过直接微调（SFT），并在多任务与跨数据集泛化上达到 SOTA。
+
+**[Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models](learning_to_reason_in_4d_dynamic_spatial_understanding_for_vision_language_model.md)**
+
+:   针对 VLM 普遍不会"动态空间推理"（理解物体在 3D 空间中随时间如何运动/相对关系如何变化）的问题，本文提出 DSR Suite：用视觉基础模型从野外视频自动生成带几何线索的多选问答，构建训练集 DSR-Train 和人工精修的评测基准 DSR-Bench，并设计一个轻量的几何选择模块 GSM（双 Q-Former）把"问题相关"的 3D 先验注入 Qwen2.5-VL-7B，使其在 DSR-Bench 上以 58.9% 大幅超越所有对手（次优 38.4%），同时不牺牲通用视频理解能力。
+
+**[Learning Transferable Temporal Primitives for Video Reasoning via Synthetic Videos](learning_transferable_temporal_primitives_for_video_reasoning_via_synthetic_vide.md)**
+
+:   本文提出 SynRL：用纯代码程序化生成的合成视频（几何形状的运动/状态变化）教 VLM 学会"时序基元"（方向、速度、状态追踪等），核心发现是这些从抽象合成视频学到的基本时序技能能**直接迁移**到真实世界视频，仅用约 7.7K 合成 CoT 样本就在 15 个基准上全面提升，甚至胜过 Video-R1 的 165K 真实样本（约 21× 数据效率）。
+
 **[Let VLMs Grade Their Own Thoughts: A Self-Quantification Approach to Reasoning-Aware Reward Modeling](let_vlms_grade_their_own_thoughts_a_self-quantification_approach_to_reasoning-aw.md)**
 
 :   Video-RAISE 主张让视频 VLM 用自己生成答案时的「内在置信度（答案 token 概率）」给自己的推理链打分，从而把 GRPO 那种稀疏的 0/1 文本匹配奖励变成连续、细粒度的学习信号；针对严格逻辑题和开放题分别设计 SCRE 与 IGSR 两套奖励，在六个视频理解 benchmark 上达到 SOTA 并把推理链一致性做到约 90%。
+
+**[LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](longvt_incentivizing_thinking_with_long_videos_via_native_tool_calling.md)**
+
+:   LongVT 让多模态大模型像人一样"先全局速览、再放大可疑片段"地看长视频——把模型自带的时序定位能力封装成一个原生的 `crop_video` 工具，在推理链中交错调用、反复"再看一眼"以纠错，并配套自建的 VideoSIAH 数据套件与三阶段训练，在四个长视频基准上刷新开源 SOTA。
+
+**[Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens](machine_mental_imagery_empower_multimodal_reasoning_with_latent_visual_tokens.md)**
+
+:   本文提出 **Mirage** 框架，让 VLM 在解码时把自己的隐藏状态当作「隐式视觉 token」直接续写进文本序列，从而在不生成任何真实像素图像的前提下进行图文交错的多模态推理；配合「先视觉锚定、再文本放松」的两阶段微调加 RL，在空间规划、拼图、空间关系等多个基准上稳定超越纯文本解码与显式生图的基线。
 
 **[Mimic Human Cognition, Master Multi-Image Reasoning: A Meta-Action Framework for Enhanced Visual Understanding](mimic_human_cognition_master_multi-image_reasoning_a_meta-action_framework_for_e.md)**
 
@@ -338,6 +394,10 @@ item_total: 121
 **[MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](mindpower_enabling_theoryofmind_reasoning_in_vlmba.md)**
 
 :   MindPower提出以机器人为中心的心智理论（ToM）推理框架，将感知→信念→欲望→意图→决策→行动组织为六层推理层级，并用Mind-Reward（基于GRPO）优化推理一致性，在决策和动作生成上分别超过GPT-4o 12.77%和12.49%。
+
+**[MINERVA-Cultural: A Benchmark for Cultural and Multilingual Long Video Reasoning](minerva-cultural_a_benchmark_for_cultural_and_multilingual_long_video_reasoning.md)**
+
+:   提出 MINERVA-Cultural 基准，包含 18 个语种/地区的 2400 个人工标注视频推理问题，通过证据图（evidence graph）和迭代错误隔离策略揭示当前 SOTA Video-LLM 在文化视觉感知上的严重不足（最强模型 Gemini-2.5-Pro 仅 45.07% vs 人类 95.22%）。
 
 **[MMTIT-Bench: A Multilingual and Multi-Scenario Benchmark with Cognition-Perception-Reasoning Guided Text-Image Machine Translation](mmtit-bench_a_multilingual_and_multi-scenario_benchmark_with_cognition-perceptio.md)**
 
@@ -351,9 +411,9 @@ item_total: 121
 
 :   Monet 让多模态大模型不再靠裁剪/调外部工具来"看图思考"，而是直接在连续的隐视觉空间里生成一串隐嵌入当作"中间视觉想法"，用三阶段蒸馏式 SFT 把这种能力教会模型、再用专为隐推理设计的 VLPO 强化学习把隐嵌入也纳入策略梯度，最终 7B 模型在真实感知/推理和分布外抽象视觉推理上都稳定涨点。
 
-**[MUPO: All Roads Lead to Rome - Incentivizing Divergent Thinking in Vision-Language Models](mupo_all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vlms.md)**
+**[OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning](oasis_on-demand_hierarchical_event_memory_for_streaming_video_reasoning.md)**
 
-:   MUPO 揭示了 GRPO 训练导致推理多样性坍缩的问题——模型过早收敛到少数推理策略而丢弃大多数替代方案。通过将响应分组进行局部化优势估计并引入多样性奖励，MUPO 激励 VLM 保持发散思维，在多个推理基准上提升 2-7%。
+:   OASIS 把流式视频推理重新定义为"时序路由"问题，用一个在线维护的分层事件森林作为长期记忆，配合"先短上下文粗推理、不确定时再按语义意图精检索"的两阶段策略，在不改 MLLM、不训练的前提下，让多个流式 MLLM backbone 在长程准确率和组合推理上大幅提升，同时把 token 成本压到恒定。
 
 **[OneThinker: All-in-one Reasoning Model for Image and Video](onethinker_all-in-one_reasoning_model_for_image_and_video.md)**
 
@@ -370,10 +430,6 @@ item_total: 121
 **[PDCR: Perception-Decomposed Confidence Reward for Vision-Language Reasoning](pdcr_perception-decomposed_confidence_reward_for_vision-language_reasoning.md)**
 
 :   针对"把语言域里的置信度增长过程奖励直接搬到视觉语言推理"会因为视觉感知步骤稀疏、被密集文本推理步骤的统计量淹没（mixture-induced signal degradation）的问题，PDCR 用一个模型自带的 Visual Dependence Score + Otsu 阈值把每一步无监督地分成"看图(感知)"和"想(推理)"两簇，再在各自簇内独立做 min-max 归一化算 advantage，从而给稀疏的视觉步骤一个不被文本步骤压扁的、尺度正确的奖励信号，在 7 个 V-L 推理 benchmark 上稳定超过 GRPO/DAPO/PACR。
-
-**[Perception Programs: Unlocking Visual Tool Reasoning in Language Models](perception_programs_visual_tool_reasoning.md)**
-
-:   提出 Perception Programs (P2)，一种训练免费、模型无关的方法，将视觉工具（深度、光流、对应等）的原始输出转换为紧凑的语言原生结构化摘要，使 MLLM 能直接"阅读"视觉模态而非从密集像素推断，在 BLINK 6 个任务上平均提升 19.66%。
 
 **[Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)**
 
@@ -394,6 +450,14 @@ item_total: 121
 **[Proof-of-Perception: Certified Tool-Using Multimodal Reasoning with Compositional Conformal Guarantees](pop_proof_of_perception_conformal_reasoning.md)**
 
 :   提出 Proof-of-Perception (PoP)，将多模态推理建模为可执行的有向无环图(DAG)，每个感知/逻辑节点输出带有保形预测证书的集合值（提供逐步可靠性保证），并用轻量控制器基于这些证书在计算预算内自适应分配算力，在文档、图表和多图QA基准上超越CoT、ReAct和PoT基线。
+
+**[Progress-Think: Semantic Progress Reasoning for Vision-Language Navigation](progress-think_semantic_progress_reasoning_for_vision-language_navigation.md)**
+
+:   针对视觉语言导航（VLN）中智能体"不知道自己走到指令哪一步"的问题，Progress-Think 不再预测数值完成度，而是让模型从历史观测推理出"已完成的那段指令文本"，并用一套无需标注的三阶段框架（自监督进度预训练 → 进度引导策略预训练 → 进度-策略联合 RL 微调）把进度推理和动作策略耦合起来，在 R2R-CE / RxR-CE 上仅用单目 RGB 就取得 SOTA。
+
+**[Prototypical Action Reasoning Facilitated by Vision-Language Alignment for Egocentric Action Anticipation](prototypical_action_reasoning_facilitated_by_vision-language_alignment_for_egoce.md)**
+
+:   PAR-VLA 借助视觉-语言模型把动词、名词分别学成"解耦视觉原型"作为稳定语义锚点，把开放、无约束的未来动作预测，转化为由这些语义概念引导的条件预测，并用双流共生解码器细化动名词依赖，在 EPIC-KITCHENS-100 等三个数据集上刷新 SOTA。
 
 **[QUANTIPHY: A Quantitative Benchmark Evaluating Physical Reasoning Abilities of Vision-Language Models](quantiphy_a_quantitative_benchmark_evaluating_physical_reasoning_abilities_of_vi.md)**
 
@@ -419,9 +483,25 @@ item_total: 121
 
 :   ReaGEN 不微调视觉语言模型本体，而是用一个仅 18M 参数的轻量生成器，根据每道题的注意力流自适应地"排出"一条结构化思维链（哪几个推理阶段、按什么顺序），从而以单遍推理拿到接近深度搜索的精度——在 Qwen3-VL-4B 上相对 VReST 最高提升 +26 个准确率点，同时把推理 token 用量平均压掉约 53%（部分基准达 79%）。
 
+**[ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](realign_generalizable_image_forgery_detection_via_reasoning-aligned_representati.md)**
+
+:   ReAlign 先用 GRPO 训出一个会"讲理由"的多模态大模型 AIGI-R1，再把它生成的推理文本作为"桥梁"，通过对比学习把推理文本空间蒸馏进一个轻量 CLIP 检测器，让小模型同时继承大模型的跨域泛化和语义错误敏感性，推理时只用图像编码器即可，在 AIGCDetectBenchmark / AIGI-Holmes / 自建 UltraSynth-10k 上都拿到 SOTA（mAcc 96.14% / 99.44% / 97.09%）。
+
 **[ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps](reasonmap_towards_fine-grained_visual_reasoning_from_transit_maps.md)**
 
 :   提出 ReasonMap 基准，利用 30 个城市的高分辨率公交地图构建 1,008 个 QA 对，通过两级评估框架（正确性+质量）系统评估 16 个 MLLM 的细粒度视觉推理能力，发现开源模型中 base 优于 reasoning 而闭源模型相反。
+
+**[Reinforce to Learn, Elect to Reason: A Dual Paradigm for Video Reasoning](reinforce_to_learn_elect_to_reason_a_dual_paradigm_for_video_reasoning.md)**
+
+:   提出 RLER 双范式框架，训练阶段用 GRPO 配合三种新颖奖励（Frame-sensitive、Think-transparency、Anti-repetition）教模型生成结构化证据，推理阶段用无训练编排器在多候选之间基于证据一致性进行加权选举和自检，在 8 个视频基准上全面超越开源和 RL-based LMM，平均提升 6.3%，仅需约 3.1 个候选。
+
+**[Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)**
+
+:   提出 SDRL（Summary-Driven Reinforcement Learning），一种无需 SFT 的单阶段 RL 框架，通过结构化 CoT（Summarize→Think→Answer）和两个自监督机制（CVK 和 DVR）增强视频时序推理，在 7 个 VideoQA 基准上达到 SOTA。
+
+**[Reinforcing Video Object Segmentation to Think before it Segments](reinforcing_video_object_segmentation_to_think_before_it_segments.md)**
+
+:   Veason-R1 把"视频推理分割（VRS）"重新建模成「先选关键帧、再在该帧定位目标」的两步序列决策，用思维链 SFT 冷启动 + GRPO 强化学习（配套时序/空间/一致性三类可验证奖励）训练单一策略，仅用 ReVOS 一个数据集就在 ReVOS、ReasonVOS、MeViS 上刷到 SOTA，并显著提升抗幻觉鲁棒性。
 
 **[REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)**
 
@@ -451,6 +531,14 @@ item_total: 121
 
 :   提出一种高效的即插即用模块，通过学习多模态类嵌入来增强 VLM 对稀有物体的识别和推理能力：在视觉端用 cross-attention 适配器精化视觉 token，在文本端注入物体检测提示，无需微调 VLM 即可在 CODA-LM 上获得 72.8→75.4 的显著提升。
 
+**[Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning](seeing_what_matters_a_training-free_self-guided_framework_for_multimodal_detail_.md)**
+
+:   SLoFo 模仿人类"扫视-定位-聚焦"的看图过程，**不训练、不加模块**，仅靠 MLLM 自身的梯度加权注意力（语义分支）和 PCA 重建误差（结构分支）融合出重要性图、裁出关键子图喂回模型，再用逐阶段 token 剪枝抑制无关视觉噪声，在 LLaVA-v1.5-7B 上把 TextVQA 提了 4.79%、DocVQA 提了 12.01%。
+
+**[SegCompass: Exploring Interpretable Alignment with Sparse Autoencoders for Enhanced Reasoning Segmentation](segcompass_exploring_interpretable_alignment_with_sparse_autoencoders_for_enhanc.md)**
+
+:   SegCompass 用稀疏自编码器（SAE）把 MLLM 的链式推理（CoT）和视觉 token 投到一个共享的高维稀疏概念空间里，再经码本聚合、槽位映射生成可观察的多槽热力图来引导分割，从而把"推理→分割"这条原本是黑盒/事后拼接的通路改造成可逐步检视的"白盒"对齐，在 5 个基准上达到或超过 SOTA。
+
 **[Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning](select_less_reason_more_prioritizing_evidence_purity_for_video_reasoning.md)**
 
 :   针对长视频里"均匀采样把关键证据稀释、现有帧选择又没有纯度奖励"的问题，本文提出 EARL（证据感知强化学习），让 Video LLM 边推理边主动选关键帧、再在关键帧附近做局部重采样补细粒度时序，并用基于 IoU 的多分量奖励逼着模型"少选精选"，7B 模型在 LongVideoBench/MVBench/VideoMME 上分别拿到 59.8% / 69.0% / 64.9%，刷新开源 Video LLM 的 SOTA。
@@ -458,6 +546,10 @@ item_total: 121
 **[Self-Consistency for LLM-Based Motion Trajectory Generation and Verification](self-consistency_for_llm-based_motion_trajectory_generation_and_verification.md)**
 
 :   将 LLM 的自一致性范式从自然语言推理扩展到视觉域——用 Lie 变换群层次结构定义运动轨迹的形状族，通过在变换不变距离度量下聚类 LLM 采样的多条轨迹，实现无监督的轨迹生成改进（+4-6%）和验证（精度+11.8%），无需训练。
+
+**[Self-Critical Distillation Network for Video-based Commonsense Captioning](self-critical_distillation_network_for_video-based_commonsense_captioning.md)**
+
+:   SCD-Net 针对"视频→内容描述→常识"推理链导致的两大问题——常识缺乏视觉接地、各类常识相互孤立——用自批判强化学习强化视觉推理、用联合推理蒸馏框架（教师级联解码器 + 学生 + 语言自适应包装蒸馏）建立类间常识关联，在 V2C 数据集上不依赖 LLM 就超过了 LLM-based 方法。
 
 **[SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)**
 
@@ -482,6 +574,10 @@ item_total: 121
 **[STAR-R1: Multi-View Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](star-r1_multi-view_spatial_transformation_reasoning_by_reinforcing_multimodal_ll.md)**
 
 :   STAR-R1 用"过程监督 SFT 冷启动 + 指代感知 RL"两阶段训练 Qwen2.5-VL-7B，让模型像人一样先锚定关键参照物、再跨视角对齐重建场景，从而在 TVR、MMSI-Bench、MindCube-Tiny、SPAR-Bench 等多视角空间理解基准上全面超越开源乃至部分闭源模型。
+
+**[Streaming Video Crime Anticipation with Spatio-Temporal Causal Reasoning](streaming_video_crime_anticipation_with_spatio-temporal_causal_reasoning.md)**
+
+:   针对"现有监控系统只能事后/事中报警、无法在犯罪发生前预判"的问题，本文做了两件事——构建带时空因果标注的 STCRC 数据集（73K 样本、5 个递进因果推理任务），并设计一个流式协处理器 STCH 把视频里隐式的实体动态转成显式因果超图喂给 VLM，使犯罪分类相对提升 70.7%、检测提升 10.1%、时间预测误差降低 3.7%。
 
 **[TableMix: Enhancing Multimodal Table Reasoning in MLLMs from a Data-Centric Perspective](tablemix_enhancing_multimodal_table_reasoning_in_mllms_from_a_data-centric_persp.md)**
 
@@ -511,9 +607,17 @@ item_total: 121
 
 :   首次定量分析扩散多模态LLM (dMLLM)的CoT推理过程，发现"早期回答生成"和"弱视觉依赖"两个关键问题，提出PSP（位置-步骤惩罚）和VRG（视觉推理引导）两种免训练方法，在3倍加速下获得最高7.5%的精度提升。
 
+**[Thinking in 360°: Humanoid Visual Search in the Wild](thinking_in_360deg_humanoid_visual_search_in_the_wild.md)**
+
+:   论文把"视觉搜索"从静态 2D 图像里的裁剪缩放，升级成人形智能体在 360° 全景里**主动转头**找物体/找路的具身任务（HVS），用全景图当零硬件的轻量模拟器闭合"感知—动作"环路，配套提出 in-the-wild 基准 H\*Bench，并用 SFT+GRPO 两阶段后训练把 3B 开源模型的物体搜索成功率从 14.83% 拉到 47.38%、路径搜索从 6.44% 拉到 24.94%。
+
 **[Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](thinking_in_dynamics_how_multimodal_large_language_models_perceive_track_and_rea.md)**
 
 :   提出 Dyn-Bench——一个面向 4D 物理世界动态理解的大规模基准（1k 视频、7k VQA 对、3k 动态 grounding 对），系统评估了通用/空间/区域级 MLLM 的时空推理能力，发现现有模型无法同时维持推理和 grounding 的一致性，并提出 Mask-Guided Fusion 和 ST-TCM 两种结构化集成方法显著提升动态感知。
+
+**[Thinking with Drafts: Speculative Temporal Reasoning for Efficient Long Video Understanding](thinking_with_drafts_speculative_temporal_reasoning_for_efficient_long_video_und.md)**
+
+:   SpecTemp 把"thinking-with-frames"里耗时的帧放大过程外包给一个轻量 3B draft MLLM 去密集采样、挑稀疏关键帧，让 7B target MLLM 只负责时序推理和验证，靠投机—验证迭代循环在 8 个视频 benchmark 上保持甚至提升精度的同时把推理延迟降了约 20%。
 
 **[Thinking with Programming Vision: Towards a Unified View for Thinking with Images](thinking_with_programming_vision_towards_a_unified_view_for_thinking_with_images.md)**
 
@@ -523,6 +627,10 @@ item_total: 121
 
 :   VITAL 给多模态大模型（MLLM）配一个「视频裁剪」工具，让它在推理链中按需把可疑时间段稠密重采样成新帧、形成「多模态思维链」，再用难度感知的 DGRPO 强化学习把多任务训练稳住，从而在长视频问答和时序定位上做到 7B 级别的 SOTA。
 
+**[Towards Sparse Video Understanding and Reasoning](towards_sparse_video_understanding_and_reasoning.md)**
+
+:   ReViSe 把视频问答重新建模成"问题驱动的多轮稀疏帧选择"——每轮只挑几帧、把已验证的证据压缩进一个结构化的"摘要即状态"里跨轮传递、足够确信就提前停，既能即插即用包住任何 VLM，也能用免标注奖励 EAGER 做强化微调，在多个 VQA benchmark 上用个位数帧就拿到更高准确率。
+
 **[Unified Generation and Self-Verification for Vision-Language Models via Advantage Decoupled Preference Optimization](unified_generation_and_self-verification_for_vision-language_models_via_advantag.md)**
 
 :   ADPO 用一套强化学习目标让**同一个 VLM 既生成答案、又给自己打验证分**，靠「偏好验证奖励」解决类别不平衡、靠「优势解耦优化」防止 reward hacking，使单模型的 best-of-N 选择在数学/视觉定位/手机 agent 三类任务上都超过传统「生成器+验证器」双模型，同时把推理延迟最多降 53.5%。
@@ -531,17 +639,25 @@ item_total: 121
 
 :   UniT 把语言模型里的"测试时扩展（test-time scaling）"搬到统一多模态模型上：用一个多模型智能体流水线合成"生成→反思→精修"的多轮思维链数据，微调单个统一模型（Bagel），让它在推理时自己迭代地生成、验证、修正图像，并通过"预算强制"控制图像生成轮数，在组合生成、多轮编辑、视觉推理上都拿到显著提升。
 
+**[VAST: Video Ability-Stratified Taxonomy for Data-Efficient Video Reasoning](vast_video_ability-stratified_taxonomy_for_data-efficient_video_reasoning.md)**
+
+:   VAST 主张按"底层推理能力"而非"任务格式"来组织视频推理训练数据，提出 Perception/Reasoning/Cognition 三层认知 taxonomy 与配套 VAST-15K/VAST-Bench，并用只加一致性奖励、不改架构的 Video-VAST 强化学习框架，在 MVBench 上以 66.3% 超过 Video-R1 的 62.7%，却省下约 72% GPU 时与 96% 训练样本。
+
 **[VGent: Visual Grounding via Modular Design for Disentangling Reasoning and Prediction](vgent_visual_grounding_via_modular_design_for_disentangling_reasoning_and_predic.md)**
 
 :   VGent 把视觉定位拆成"高层推理"和"低层框预测"两件事——用一个冻结的多模态大模型（MLLM）当编码器只负责推理、用现成检测器产生候选框、再用一个解码器去 cross-attend 编码器的隐状态来"挑出"目标框，从而避开自回归逐字解码的慢与幻觉，在多目标定位基准上 F1 大涨 +20.6%，同时推理延迟恒定。
 
+**[VideoARM: Agentic Reasoning over Hierarchical Memory for Long-Form Video Understanding](videoarm_agentic_reasoning_over_hierarchical_memory_for_long-form_video_understa.md)**
+
+:   VideoARM 提出了一种基于分层多模态记忆（HM3）的 Agent 推理范式，通过"观察-思考-行动-记忆"的自适应循环和粗到细的工具调用策略，在长视频理解基准上超越 SOTA 的同时将 token 消耗降低到 DVD 的 1/34。
+
+**[VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](videoauto-r1_video_auto_reasoning_via_thinking_once_answering_twice.md)**
+
+:   提出 VideoAuto-R1，一个"按需推理"的视频理解框架：训练时采用"思考一次、回答两次"（answer→think→answer）范式，推理时通过首次回答的置信度决定是否启动 CoT 推理，在保持 SOTA 精度的同时将平均响应长度从 149 降至 44 token（约 3.3 倍压缩）。
+
 **[ViRC: Enhancing Visual Interleaved Mathematical CoT with Reason Chunking](virc_enhancing_visual_interleaved_mathematical_cot_with_reason_chunking.md)**
 
 :   ViRC 提出 Reason Chunking 机制，将多模态数学 CoT 结构化为连续的"关键推理单元（CRU）"，模拟人类专家反复审视图像并逐步证明中间命题的过程，通过 CRUX 数据集和渐进式训练策略（Instructional SFT → Practice SFT → Strategic RL），实现ViRC-7B 在数学基准上平均提升 18.8%。
-
-**[Vision-Language Models Encode Clinical Guidelines for Concept-Based Medical Reasoning](vision-language_models_encode_clinical_guidelines_for_concept-based_medical_reas.md)**
-
-:   提出MedCBR框架，通过将临床诊断指南（如BI-RADS）融入概念瓶颈模型的训练和推理过程，利用LVLM生成指南一致性报告增强概念监督，结合多任务CLIP训练和大推理模型生成结构化临床解释，在超声和乳腺X光癌症检测上达到94.2%和84.0%的AUROC。
 
 **[VisionLeaf: Entropy-Guided Leaf-First Reasoning for Efficient and Accurate Think-with-Image](visionleaf_entropy-guided_leaf-first_reasoning_for_efficient_and_accurate_think-.md)**
 
@@ -555,13 +671,13 @@ item_total: 121
 
 :   VACoT 让统一理解-生成模型在做多参考图生成时，先生成一份"该保哪些视觉元素"的视觉清单（Adaptive Visual Planning），再对照清单自我反思、迭代修图（Iterative Visual Correction），并用 SFT + flow-GRPO 双阶段训练把这套"看图自检"能力灌进 BAGEL，在 OmniContext 上平均分从 5.55 提到 8.26，部分子任务超过 GPT-4o。
 
-**[Visual Reasoning through Tool-supervised Reinforcement Learning](visual_reasoning_through_tool-supervised_reinforcement_learning.md)**
-
-:   针对多模态大模型（MLLM）"会调工具但调不好、调不勤"的问题，本文提出 ToolsRL：用一批易获取的工具级 ground-truth（bbox、旋转角、点/线坐标）直接监督 RL，并设计两阶段课程——先只学"把工具用对"，再学"用工具把题答对"——在多个高分辨率/旋转文档/图表理解 benchmark 上刷到 SOTA，且平均工具调用次数（3.4 次）远高于此前方法（多数 ≤1 次）。
-
 **[VOLD: Reasoning Transfer from LLMs to Vision-Language Models via On-Policy Distillation](vold_reasoning_transfer_from_llms_to_vision-language_models_via_on-policy_distil.md)**
 
 :   VOLD 用一个纯文本的教师 LLM（Qwen3-8B）来训练视觉语言学生模型（Qwen2.5-VL-3B）的推理能力：先用教师生成的推理轨迹做 SFT 冷启动对齐分布，再把 GRPO 强化学习和"在线蒸馏"（reverse KL）合并到同一套 rollout 上联合优化，**全程不用任何图文推理数据**，却在 MMMU-Pro、MathVision、LogicVista 等四类视觉推理基准上超过了那些直接拿图文数据训练的方法。
+
+**[VRR-QA: Visual Relational Reasoning in Videos Beyond Explicit Cues](vrr-qa_visual_relational_reasoning_in_videos_beyond_explicit_cues.md)**
+
+:   本文提出 VRR-QA 基准，包含 1K 精心标注的视频问答对，专门测试模型对视频中隐式视觉关系的推理能力（如屏幕外事件、跨帧因果、空间关系推断），揭示当前最强 VideoQA 模型（包括 GPT-O3）在隐式推理上的显著不足——最优模型仅达 64% 准确率，远低于人类的 83%。
 
 **[When to Think and When to Look: Uncertainty-Guided Lookback](when_to_think_and_when_to_look_uncertainty-guided_lookback.md)**
 

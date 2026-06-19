@@ -124,10 +124,10 @@ Charbonnier loss 负责像素级监督，边缘感知 loss 保持高频细节，
 ## 相关论文
 
 - [\[AAAI 2026\] MFmamba: A Multi-function Network for Panchromatic Image Resolution Restoration Based on State-Space Model](mfmamba_a_multi-function_network_for_panchromatic_image_resolution_restoration_b.md)
-- [\[CVPR 2026\] Customized Fusion: A Closed-Loop Dynamic Network for Adaptive Multi-Task-Aware Infrared-Visible Image Fusion](../../CVPR2026/image_restoration/customized_fusion_a_closed-loop_dynamic_network_for_adaptive_multi-task-aware_in.md)
 - [\[AAAI 2026\] SpatioTemporal Difference Network for Video Depth Super-Resolution](spatiotemporal_difference_network_for_video_depth_super-resolution.md)
 - [\[CVPR 2026\] Dynamic Exposure Burst Image Restoration](../../CVPR2026/image_restoration/dynamic_exposure_burst_image_restoration.md)
-- [\[CVPR 2026\] UniRain: Unified Image Deraining with RAG-based Dataset Distillation and Multi-objective Reweighted Optimization](../../CVPR2026/image_restoration/unirain_unified_image_deraining_rag_dataset_distillation.md)
+- [\[CVPR 2026\] Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy](../../CVPR2026/image_restoration/unpaired_image_deraining_using_reward-guided_self-reinforcement_strategy.md)
+- [\[CVPR 2026\] DVAR: Dynamic Visual Autoregressive Modeling for Image Super-Resolution](../../CVPR2026/image_restoration/dvar_dynamic_visual_autoregressive_modeling_for_image_super-resolution.md)
 
 </div>
 

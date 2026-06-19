@@ -90,6 +90,7 @@ flowchart TD
 关键看点：纵向基线（HFCN+ 0.899）确实普遍强于横断面同源模型（HFCN 0.809），印证时间信息的价值；而 MCI-Diff 只用一张基线图生成轨迹，却反超最强纵向基线 HFCN+ 约 5 个点，且远超 VAE（0.730）、Temp-GAN（0.791）等生成式基线——说明它生成的未来特征不只是"看起来合理"，而是对转化预测**高度可判别**。
 
 ### 消融实验
+
 | 配置 | ADNI ACC | 说明 |
 |------|---------|------|
 | Full Model (Ours) | **0.950** | 完整模型 |
@@ -139,7 +140,7 @@ flowchart TD
 - [\[CVPR 2026\] Clinically-Grounded Counterfactual Reasoning for Medical Video Diagnosis](clinically-grounded_counterfactual_reasoning_for_medical_video_diagnosis.md)
 - [\[CVPR 2026\] Sketch2CT: Multimodal Diffusion for Structure-Aware 3D Medical Volume Generation](sketch2ct_multimodal_diffusion_for_structure-aware_3d_medical_volume_generation.md)
 - [\[CVPR 2026\] MUST: Modality-Specific Representation-Aware Transformer for Diffusion-Enhanced Survival Prediction with Missing Modality](must_modality-specific_representation-aware_transformer_for_diffusion-enhanced_s.md)
-- [\[CVPR 2026\] Few-Shot Synthetic Data Generation with Diffusion Models for Downstream Vision Tasks](few-shot_synthetic_data_generation_with_diffusion_models_for_downstream_vision_t.md)
+- [\[CVPR 2026\] SD-FSMIS: Adapting Stable Diffusion for Few-Shot Medical Image Segmentation](sd_fsmis_adapting_stable_diffusion_for_few_shot_medical_image_segmentation.md)
 
 </div>
 

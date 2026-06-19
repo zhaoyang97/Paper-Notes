@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Boosting Reasoning in Large Multimodal Models via Activation Replay
 description: >-
-  [CVPR2026][多模态VLM][RLVR] 作者用 logit lens 发现 RLVR 后训练会"过度"扰动多模态大模型的低熵输入激活，进而提出 Activation Replay——一种免训练、测试时通过优化一组可学习视觉 token、把 RLVR 模型的低熵激活拉回 base 模型分布的方法，在数学、o3 式视觉智能体和视频推理上一致涨点。
+  [CVPR2026][VLM Reasoning][RLVR] 作者用 logit lens 发现 RLVR 后训练会"过度"扰动多模态大模型的低熵输入激活，进而提出 Activation Replay——一种免训练、测试时通过优化一组可学习视觉 token、把 RLVR 模型的低熵激活拉回 base 模型分布的方法，在数学、o3 式视觉智能体和视频推理上一致涨点。
 tags:
   - "CVPR2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "RLVR"
   - "激活回放"
   - "低熵激活"
@@ -157,11 +157,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[AAAI 2026\] AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](../../AAAI2026/multimodal_vlm/astar_boosting_multimodal_reasoning_with_automated_structure.md)
-- [\[CVPR 2026\] Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning](mastering_negation_boosting_grounding_models_via_grouped_opposition-based_learni.md)
-- [\[CVPR 2026\] Activation Matters: Test-time Activated Negative Labels for OOD Detection with Vision-Language Models](activation_matters_test-time_activated_negative_labels_for_ood_detection_with_vi.md)
-- [\[CVPR 2026\] ReMatch: Boosting Representation through Matching for Multimodal Retrieval](rematch_boosting_representation_through_matching_for_multimodal_retrieval.md)
-- [\[AAAI 2026\] AbductiveMLLM: Boosting Visual Abductive Reasoning Within MLLMs](../../AAAI2026/multimodal_vlm/abductivemllm_boosting_visual_abductive_reasoning_within_mll.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
+- [\[AAAI 2026\] AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](../../AAAI2026/vlm_reasoning/astar_boosting_multimodal_reasoning_with_automated_structure.md)
+- [\[CVPR 2026\] EduDiag: A Benchmark for Educational Diagnostic Reasoning with Error Tracing and Correction on Large Multimodal Models](edudiag_a_benchmark_for_educational_diagnostic_reasoning_with_error_tracing_and_.md)
+- [\[CVPR 2026\] Breaking the Regional Perception Bottleneck of Multimodal Large Language Models via External Reasoning Framework](breaking_the_regional_perception_bottleneck_of_multimodal_large_language_models_.md)
+- [\[CVPR 2026\] EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models](emo-r3_reflective_reinforcement_learning_for_emotional_reasoning_in_multimodal_l.md)
 
 </div>
 

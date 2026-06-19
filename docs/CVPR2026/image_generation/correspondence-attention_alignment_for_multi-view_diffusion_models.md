@@ -94,6 +94,7 @@ $$L_{\text{CAMEO}} = \mathbb{E}_{(i,j),\,x_i}\Big[\, M_{i,j}(x_i)\cdot \mathrm{C
 核心结论：CAMEO 在 80k 迭代就达到 PSNR>19.4，而基线要 160k+ 才追平——**约 2× 训练加速**；且收敛后（320k+）仍优于基线，说明既加速又涨质。注意力级对齐（CAMEO）整体优于特征级对齐（REPA / Geo.F.），印证作者论点：跨视角一致性的关键信号在**注意力**里而非单视图特征里。
 
 ### 消融实验
+
 | 配置 | 关键指标(80k PSNR↑) | 说明 |
 |------|------|------|
 | 监督 l=10 | **19.08** | 最强对应层，最佳 |
@@ -143,9 +144,9 @@ $$L_{\text{CAMEO}} = \mathbb{E}_{(i,j),\,x_i}\Big[\, M_{i,j}(x_i)\cdot \mathrm{C
 
 - [\[CVPR 2026\] InstructMix2Mix: Consistent Sparse-View Editing Through Multi-View Model Personalization](instructmix2mix_consistent_sparse-view_editing_through_multi-view_model_personal.md)
 - [\[CVPR 2026\] MultiCrafter: High-Fidelity Multi-Subject Generation via Disentangled Attention and Identity-Aware Preference Alignment](multicrafter_high-fidelity_multi-subject_generation_via_disentangled_attention_a.md)
+- [\[CVPR 2026\] Coupled Diffusion Sampling for Training-Free Multi-View Image Editing](coupled_diffusion_sampling_for_training-free_multi-view_image_editing.md)
 - [\[CVPR 2026\] LaRP: Efficient Multi-View Inpainting with Latent Reprojection Priors](larp_efficient_multi-view_inpainting_with_latent_reprojection_priors.md)
 - [\[ICML 2026\] ViewMask-1-to-3: Multi-View Consistent Image Generation via Multimodal Discrete Diffusion Models](../../ICML2026/image_generation/viewmask-1-to-3_multi-view_consistent_image_generation_via_multimodal_discrete_d.md)
-- [\[ICLR 2026\] Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models](../../ICLR2026/image_generation/diffusion_blend_inference-time_multi-preference_alignment_for_diffusion_models.md)
 
 </div>
 

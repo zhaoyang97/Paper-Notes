@@ -115,6 +115,7 @@ $\lambda$、$\gamma$ 平衡区域和难负两路。先稳住全局语义空间�
 开放词表设定 Alert-CLIP 在 UCF-Crime 上 AP 70.12 / Novel-AP 84.92，超过 OVVAD(66.53/76.03)；在**训练完全未见**的 XD-Violence 上 Overall 91.83 / Novel 96.01，超过 CLIP(90.01/94.23)，说明学到的是更可迁移的异常表征。
 
 ### 消融实验
+
 | 配置 | 启用损失 | UCF AUC | 说明 |
 |------|---------|---------|------|
 | CLIP baseline | – | 88.02 | 冻结 CLIP |
@@ -160,9 +161,9 @@ $\lambda$、$\gamma$ 平衡区域和难负两路。先稳住全局语义空间�
 
 - [\[ICLR 2026\] Steering and Rectifying Latent Representation Manifolds in Frozen Multi-Modal LLMs for Video Anomaly Detection](../../ICLR2026/video_understanding/steering_and_rectifying_latent_representation_manifolds_in_frozen_multi-modal_ll.md)
 - [\[CVPR 2026\] No Need For Real Anomaly: MLLM Empowered Zero-Shot Video Anomaly Detection](no_need_for_real_anomaly_mllm_empowered_zero-shot_video_anomaly_detection.md)
-- [\[CVPR 2026\] Decompose and Transfer: CoT-Prompting Enhanced Alignment for Open-Vocabulary Temporal Action Detection](decompose_and_transfer_cot-prompting_enhanced_alignment_for_open-vocabulary_temp.md)
 - [\[AAAI 2026\] HeadHunt-VAD: Hunting Robust Anomaly-Sensitive Heads in MLLM for Tuning-Free Video Anomaly Detection](../../AAAI2026/video_understanding/headhunt-vad_hunting_robust_anomaly-sensitive_heads_in_mllm_.md)
 - [\[ICML 2026\] Privacy-Aware Video Anomaly Detection through Orthogonal Subspace Projection](../../ICML2026/video_understanding/privacy-aware_video_anomaly_detection_through_orthogonal_subspace_projection.md)
+- [\[CVPR 2026\] Weakly Supervised Video Anomaly Detection with Anomaly-Connected Components and Intention Reasoning](weakly_supervised_video_anomaly_detection_with_anomaly-connected_components_and_.md)
 
 </div>
 

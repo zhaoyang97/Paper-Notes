@@ -172,7 +172,7 @@ VPBench 文本引导编辑（相对 75 步基线）：
 - [\[CVPR 2026\] DisCa: Accelerating Video Diffusion Transformers with Distillation-Compatible Learnable Feature Caching](disca_accelerating_video_diffusion_transformers_wi.md)
 - [\[CVPR 2026\] Accelerating Autoregressive Video Diffusion via History-Guided Cache and Residual Correction](accelerating_autoregressive_video_diffusion_via_history-guided_cache_and_residua.md)
 - [\[CVPR 2026\] Causality in Video Diffusers is Separable from Denoising](causality_in_video_diffusers_is_separable_from_denoising.md)
-- [\[CVPR 2026\] D2Cache: Second-Order Delta Caching for Higher Video Diffusion Acceleration](d2cache_second-order_delta_caching_for_higher_video_diffusion_acceleration.md)
+- [\[CVPR 2026\] Cross-Subject EEG-to-Video Reconstruction and Beyond](cross-subject_eeg-to-video_reconstruction_and_beyond.md)
 
 </div>
 

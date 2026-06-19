@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence
 description: >-
-  [CVPR 2026][多模态VLM][视频推理] Conan 让 7B 视频多模态大模型像侦探一样工作：先把帧分成证据/上下文/干扰三类，再边推理边决定"取证够了就答、不够就再调帧"，靠自建的 Conan-91k 数据集 + 三阶段冷启动 + 联合奖励 RLVR 训出来，六个多步推理基准平均比基座 Qwen2.5-VL-7B 涨 10.5%，多数榜超过 GPT-4o。
+  [CVPR 2026][VLM Reasoning][视频推理] Conan 让 7B 视频多模态大模型像侦探一样工作：先把帧分成证据/上下文/干扰三类，再边推理边决定"取证够了就答、不够就再调帧"，靠自建的 Conan-91k 数据集 + 三阶段冷启动 + 联合奖励 RLVR 训出来，六个多步推理基准平均比基座 Qwen2.5-VL-7B 涨 10.5%，多数榜超过 GPT-4o。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视频推理"
   - "证据定位"
   - "RLVR"
@@ -104,6 +104,7 @@ $$R_J = \begin{cases} R_{fmt} + R_o + R_{ide} + R_{ret}, & R_o > 0,\\ R_{fmt} + 
 Conan 以 7B 之身在 Avg. VR 上反超 72B 基座（57.4 vs 55.1）和 GPT-4o（57.4 vs 54.7），且在 Video-Holmes、VRBench、Human-P&C、LVR 多榜单点超过 GPT-4o；长视频理解也涨 6.9%，说明能力可迁移。⚠️ 注：并发工作 Rewatch-R1 在 Avg. VR 上有 55.7（部分用了 LVR 训练集），原文将其标注为并发对比。
 
 ### 消融实验
+
 | 配置 | Overall | 说明 |
 |------|---------|------|
 | **Conan（完整）** | **57.4** | 完整模型 |
@@ -152,11 +153,11 @@ Conan 以 7B 之身在 Avg. VR 上反超 72B 基座（57.4 vs 55.1）和 GPT-4o�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning](select_less_reason_more_prioritizing_evidence_purity_for_video_reasoning.md)
 - [\[CVPR 2026\] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
+- [\[CVPR 2026\] Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning](select_less_reason_more_prioritizing_evidence_purity_for_video_reasoning.md)
+- [\[CVPR 2026\] Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models](learning_to_reason_in_4d_dynamic_spatial_understanding_for_vision_language_model.md)
 - [\[CVPR 2026\] DocSeeker: Structured Visual Reasoning with Evidence Grounding for Long Document Understanding](docseeker_long_document_understanding.md)
-- [\[CVPR 2026\] PACT: Phase-Like Transition Constraints in Adapter-Based Continual Learning of Vision-Language Models](pact_phase-like_transition_constraints_in_adapter-based_continual_learning_of_vi.md)
-- [\[CVPR 2026\] A More Word-like Image Tokenization for MLLMs](a_more_word-like_image_tokenization_for_mllms.md)
+- [\[CVPR 2026\] PhysInOne: Visual Physics Learning and Reasoning in One Suite](physisinone_visual_physics_learning_and_reasoning_in_one_suite.md)
 
 </div>
 

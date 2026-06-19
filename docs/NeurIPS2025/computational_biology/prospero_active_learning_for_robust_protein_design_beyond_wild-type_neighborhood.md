@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.22494](https://arxiv.org/abs/2505.22494)  
 **代码**: [GitHub](https://github.com/szczurek-lab/ProSpero)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 蛋白质设计, 主动学习, 序列蒙特卡洛, 预训练生成模型引导, 代理模型鲁棒性
 
 ## 一句话总结

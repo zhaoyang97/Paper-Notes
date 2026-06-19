@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Geoint-R1: Formalizing Multimodal Geometric Reasoning with Dynamic Auxiliary Constructions
 description: >-
-  [CVPR 2026][多模态VLM][几何推理] Geoint-R1 把"画辅助线 + 形式化证明"做成一个可验证的多模态几何推理任务：用 Lean4 把动态辅助构造编码成形式语言，配一个验证奖励模型（正确性受辅助线对错调制）驱动课程式强化学习，让一个 7B 模型在自建的 Geoint 基准上平均超过 GPT-4o / Gemini-1.5-pro。
+  [CVPR 2026][VLM Reasoning][几何推理] Geoint-R1 把"画辅助线 + 形式化证明"做成一个可验证的多模态几何推理任务：用 Lean4 把动态辅助构造编码成形式语言，配一个验证奖励模型（正确性受辅助线对错调制）驱动课程式强化学习，让一个 7B 模型在自建的 Geoint 基准上平均超过 GPT-4o / Gemini-1.5-pro。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "几何推理"
   - "辅助线构造"
   - "Lean4形式化"
@@ -38,6 +38,7 @@ Geoint-R1 把"画辅助线 + 形式化证明"做成一个可验证的多模态�
 **核心 idea**：把辅助构造写成 Lean4 形式代码，用一个对"辅助线正确性"敏感的验证奖励模型，配课程式 RL，逼模型学会"先正确画辅助线、再给可验证证明"。
 
 ## 方法详解
+
 ### 整体框架
 Geoint-R1 训练一个模型 $\mathcal{F}_\theta$，输入是几何题的文字 $T_i$ 加图 $I_i$，输出形式化解元组：
 
@@ -161,10 +162,10 @@ Geoint-R1 拿到最高平均准确率 64.72%，答案题 57.01% 单项领先；�
 ## 相关论文
 
 - [\[CVPR 2026\] GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models](ggbench_a_geometric_generative_reasoning_benchmark_for_unified_multimodal_models.md)
-- [\[CVPR 2026\] Socratic-Geo: Synthetic Data Generation and Cross-Modal Geometric Reasoning via Multi-Agent Interaction](socratic-geo_synthetic_data_generation_and_cross-modal_geometric_reasoning_via_m.md)
 - [\[CVPR 2026\] STAR-R1: Multi-View Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](star-r1_multi-view_spatial_transformation_reasoning_by_reinforcing_multimodal_ll.md)
+- [\[CVPR 2026\] CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning](codedance_a_dynamic_tool-integrated_mllm_for_executable_visual_reasoning.md)
 - [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
-- [\[CVPR 2026\] Unbiased Dynamic Multimodal Fusion](unbiased_dynamic_multimodal_fusion.md)
+- [\[CVPR 2026\] Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models](learning_to_reason_in_4d_dynamic_spatial_understanding_for_vision_language_model.md)
 
 </div>
 

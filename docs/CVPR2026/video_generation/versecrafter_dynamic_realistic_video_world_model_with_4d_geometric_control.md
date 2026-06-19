@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2601.05138](https://arxiv.org/abs/2601.05138)  
 **代码**: [https://sixiaozheng.github.io/VerseCrafter_page/](https://sixiaozheng.github.io/VerseCrafter_page/)  
-**领域**:视频生成
+**领域**:视频生成  
 **关键词**: 视频世界模型、4D几何控制、3D高斯轨迹、相机与物体运动、视频扩散模型
 
 ## 一句话总结

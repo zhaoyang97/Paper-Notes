@@ -91,6 +91,7 @@ $$
 在 MS-COCO 与 OxfordPets 的 I2T R@1 上，SG-LoRA 甚至**反超 Oracle**——作者归因于 CVAE 对专家 LoRA 的高效压缩与分布建模，以及 Oracle 在小图文对上易过拟合，而 SG-LoRA 不依赖目标数据反而更稳。
 
 ### 跨数据集泛化
+
 | 迁移方向 | 指标 | Top-K Weighted | SG-LoRA |
 |----------|------|----------------|---------|
 | OxfordPets→MS-COCO | I2T R@1 | 68.75 | **70.81** |
@@ -99,6 +100,7 @@ $$
 SG-LoRA 在跨数据集下持续优于合并式方法；有趣的是用 MS-COCO 训练去生成 OxfordPets 的 LoRA 有时优于直接在 OxfordPets 上生成，说明**更丰富的专家知识能让参数空间探索得更充分**。
 
 ### 消融实验
+
 | 配置 | Egyptian Mau I2T R@1 | Persian I2T R@1 | 说明 |
 |------|----------------------|-----------------|------|
 | w/o Cat 专家 | 36.08 | 44.00 | 专家库去掉 MS-COCO Cat 专家 |

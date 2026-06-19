@@ -67,9 +67,9 @@ flowchart TD
 这是全文的灵魂。痛点是已有形式语言撑不起空间语义——PDDL 擅长描述离散符号状态（`is_on(A,B)`），但表达不了连续、相对、视角依赖的空间查询。作者把 $C_\text{task}$ 定义成一个二元组 $C_\text{task} = (C_R, C_O)$：
 
 - **参考系约束 $C_R$**（Reference Frame Constraint）：人类理解"在……北边"时是把它锚定到某个坐标系里，VLM 的失败往往源于这一步含糊（默认退回相机视角）。GCA 强制 VLM 把所有空间查询都建模为一个 3D 笛卡尔坐标系——原点 $O_R$ 加三条正交基向量 $(x_R, y_R, z_R)$，遵循 OpenCV 约定（$+z_R$ 向前、$+y_R$ 向下、$+x_R$ 右手定则）。这个坐标系必须锚定到三类几何基元之一（见原文 Fig.3）：
-  - **物体系**：由物体内禀坐标系定义，如"洗手时"隐含 $+z_R = -z_\text{sink}$（洗手必须面朝水槽）；
-  - **相机系**：由某相机视角定义，如"从图 1 视角看" $+z_R = +z_\text{cam1}$；
-  - **方向系**：由两点连线定义，如"烤箱在水槽北边" $+z_R = \text{normalize}(\text{Centroid}(\text{oven}) - \text{Centroid}(\text{sink})) = \text{north}$。
+    - **物体系**：由物体内禀坐标系定义，如"洗手时"隐含 $+z_R = -z_\text{sink}$（洗手必须面朝水槽）；
+    - **相机系**：由某相机视角定义，如"从图 1 视角看" $+z_R = +z_\text{cam1}$；
+    - **方向系**：由两点连线定义，如"烤箱在水槽北边" $+z_R = \text{normalize}(\text{Centroid}(\text{oven}) - \text{Centroid}(\text{sink})) = \text{north}$。
 - **目标约束 $C_O$**（Objective Constraint）：定义在 $C_R$ 下究竟要测量什么。如"椅子是否在烤面包机西边"，烤面包机定义 $C_R$，两者位置关系就是 $C_O$。
 
 $C_R$ 是**唯一且不可协商**的，$C_O$ 指定待测目标。这套形式语法既语义清晰到 VLM 能用定性强项生成，又几何严谨到能给后续计算当确定性合同。
@@ -158,11 +158,11 @@ GCA 平均 65.1%，超过最强基础 VLM 基线 Gemini-2.5-Pro（约 +12%）、
 
 ## 相关论文
 
-- [\[CVPR 2026\] Hear you are: Teaching LLMs Spatial Reasoning with Vision and Spatial Sound](hear_you_are_teaching_llms_spatial_reasoning_with_vision_and_spatial_sound.md)
 - [\[CVPR 2026\] Hierarchical Attacks for Multi-Modal Multi-Agent Reasoning](hierarchical_attacks_for_multi-modal_multi-agent_reasoning.md)
-- [\[CVPR 2026\] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)
-- [\[CVPR 2026\] EgoMind: Activating Spatial Cognition through Linguistic Reasoning in MLLMs](egomind_activating_spatial_cognition_through_linguistic_reasoning_in_mllms.md)
-- [\[CVPR 2026\] InfiniBench: Infinite Benchmarking for Visual Spatial Reasoning with Customizable Scene Complexity](infinibench_infinite_benchmarking_for_visual_spatial_reasoning_with_customizable.md)
+- [\[CVPR 2026\] Socratic-Geo: Synthetic Data Generation and Cross-Modal Geometric Reasoning via Multi-Agent Interaction](socratic-geo_synthetic_data_generation_and_cross-modal_geometric_reasoning_via_m.md)
+- [\[CVPR 2026\] ADSeeker: A Knowledge-Grounded Reasoning Framework for Industry Anomaly Detection and Reasoning](adseeker_a_knowledge-grounded_reasoning_framework_for_industry_anomaly_detection.md)
+- [\[CVPR 2026\] Scaling Spatial Intelligence with Multimodal Foundation Models](scaling_spatial_intelligence_with_multimodal_foundation_models.md)
+- [\[CVPR 2026\] Abstract 3D Perception for Spatial Intelligence in Vision-Language Models](abstract_3d_perception_for_spatial_intelligence_in_vision-language_models.md)
 
 </div>
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] R-C2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][多模态推理] R-C2 把多模态大模型「同一内容、图文两种输入答得不一样」这个模态鸿沟反过来当作免标注的奖励信号：让模型从一个候选答案反推出问题、再切换模态正向重建答案，重建得上就给奖励，用这个稠密的循环一致性信号做 GRPO 强化学习，在 6 个多模态推理基准上最多涨 7.6 个点。
+  [CVPR 2026][VLM Reasoning][多模态推理] R-C2 把多模态大模型「同一内容、图文两种输入答得不一样」这个模态鸿沟反过来当作免标注的奖励信号：让模型从一个候选答案反推出问题、再切换模态正向重建答案，重建得上就给奖励，用这个稠密的循环一致性信号做 GRPO 强化学习，在 6 个多模态推理基准上最多涨 7.6 个点。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态推理"
   - "循环一致性"
   - "强化学习"
@@ -142,10 +142,10 @@ R-C2 在几乎所有基准上都超过文本投票和图文联合投票两条基
 ## 相关论文
 
 - [\[CVPR 2026\] Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr.md)
-- [\[CVPR 2026\] Visual Reasoning through Tool-supervised Reinforcement Learning](visual_reasoning_through_tool-supervised_reinforcement_learning.md)
+- [\[CVPR 2026\] Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)
 - [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
-- [\[CVPR 2026\] EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models](emo-r3_reflective_reinforcement_learning_for_emotional_reasoning_in_multimodal_l.md)
 - [\[CVPR 2026\] MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models](moe-grpo_optimizing_mixture-of-experts_via_reinforcement_learning_in_vision-lang.md)
+- [\[CVPR 2026\] EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models](emo-r3_reflective_reinforcement_learning_for_emotional_reasoning_in_multimodal_l.md)
 
 </div>
 

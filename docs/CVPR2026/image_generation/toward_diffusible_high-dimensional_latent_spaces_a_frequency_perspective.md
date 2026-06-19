@@ -156,8 +156,8 @@ ImageNet 512×512，gFID 越低越好、IS 越高越好；下表节选 USiT-H �
 - [\[CVPR 2026\] Frequency-Aware Flow Matching for High-Quality Image Generation](freqflow_frequency_aware_flow_matching.md)
 - [\[CVPR 2026\] FreqEdit: Preserving High-Frequency Features for Robust Multi-Turn Image Editing](freqedit_preserving_high-frequency_features_for_robust_multi-turn_image_editing.md)
 - [\[ECCV 2024\] FouriScale: A Frequency Perspective on Training-Free High-Resolution Image Synthesis](../../ECCV2024/image_generation/fouriscale_a_frequency_perspective_on_training-free_high-resolution_image_synthe.md)
+- [\[ICML 2026\] The Latent Color Subspace: Emergent Order in High-Dimensional Chaos](../../ICML2026/image_generation/the_latent_color_subspace_emergent_order_in_high-dimensional_chaos.md)
 - [\[CVPR 2026\] Vibe Spaces for Creatively Connecting and Expressing Visual Concepts](vibe_spaces_for_creatively_connecting_and_expressing_visual_concepts.md)
-- [\[CVPR 2026\] Exploring Spatial Intelligence from a Generative Perspective](exploring_spatial_intelligence_from_a_generative_perspective.md)
 
 </div>
 

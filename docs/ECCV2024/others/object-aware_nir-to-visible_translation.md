@@ -124,10 +124,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2026\] Customized Fusion: A Closed-Loop Dynamic Network for Adaptive Multi-Task-Aware Infrared-Visible Image Fusion](../../CVPR2026/others/customized_fusion_a_closed-loop_dynamic_network_for_adaptive_multi-task-aware_in.md)
 - [\[ACL 2025\] Using Source-Side Confidence Estimation for Reliable Translation into Unfamiliar Languages](../../ACL2025/others/using_source-side_confidence_estimation_for_reliable_translation_into_unfamiliar.md)
-- [\[CVPR 2026\] 3D-Object Perception Transformer (3PT)](../../CVPR2026/others/3d-object_perception_transformer_3pt.md)
+- [\[CVPR 2026\] MMVIP: A Visible-infrared Paired Dataset for Multi-weather Marine Vision](../../CVPR2026/others/mmvip_a_visible-infrared_paired_dataset_for_multi-weather_marine_vision.md)
 - [\[ICCV 2025\] Jigsaw++: Imagining Complete Shape Priors for Object Reassembly](../../ICCV2025/others/jigsaw_imagining_complete_shape_priors_for_object_reassembly.md)
-- [\[ICLR 2026\] Latent Equivariant Operators for Robust Object Recognition: Promises and Challenges](../../ICLR2026/others/latent_equivariant_operators_for_robust_object_recognition_promises_and_challeng.md)
 - [\[ICML 2025\] Symmetry-Aware GFlowNets](../../ICML2025/others/symmetry-aware_gflownets.md)
 
 </div>

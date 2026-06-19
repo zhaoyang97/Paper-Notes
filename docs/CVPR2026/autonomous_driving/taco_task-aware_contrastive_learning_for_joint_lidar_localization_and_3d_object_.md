@@ -106,6 +106,7 @@ OxfoLD 测试集定位对比（位置误差 m / 朝向误差°，越低越好）
 相比基线 LiSA，位置/朝向误差分别降低 **24.21% / 25.44%**。检测上 OxfoLD 测试集 TACO 也拿到 Vehicle AP@0.5 = 81.60%、Pedestrian AP@0.3 = 52.32%、Cyclist AP@0.3 = 57.46%，车辆 mAP 比 CenterPoint 基线高 28.77%。
 
 ### 消融实验：逐模块叠加（OxfoLD 测试集）
+
 | 配置 | 定位误差 | Vehicle AP@0.5 | 说明 |
 |------|---------|---------------|------|
 | 基线 LiSA | 0.95m, 1.14° | – | 纯定位 SCR |
@@ -150,11 +151,11 @@ OxfoLD 测试集定位对比（位置误差 m / 朝向误差°，越低越好）
 
 ## 相关论文
 
+- [\[CVPR 2026\] STUR3D: Spatio-Temporal Unified Representation Learning for 3D Object Detection](stur3d_spatio-temporal_unified_representation_learning_for_3d_object_detection.md)
 - [\[CVPR 2026\] BEV-SLD: Self-Supervised Scene Landmark Detection for Global Localization with LiDAR Bird's-Eye View Images](bev-sld_self-supervised_scene_landmark_detection_for_global_localization_with_li.md)
-- [\[CVPR 2026\] RaGS: Unleashing 3D Gaussian Splatting from 4D Radar and Monocular Cue for 3D Object Detection](rags_unleashing_3d_gaussian_splatting_from_4d_radar_and_monocular_cue_for_3d_obj.md)
 - [\[CVPR 2026\] R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection](r4det_4d_radar-camera_fusion_for_high-performance_3d_object_detection.md)
 - [\[CVPR 2026\] L3DR: 3D-aware LiDAR Diffusion and Rectification](l3dr_3d-aware_lidar_diffusion_and_rectification.md)
-- [\[CVPR 2026\] A Prediction-as-Perception Framework for 3D Object Detection](a_prediction-as-perception_framework_for_3d_object_detection.md)
+- [\[CVPR 2025\] LightLoc: Learning Outdoor LiDAR Localization at Light Speed](../../CVPR2025/autonomous_driving/lightloc_learning_outdoor_lidar_localization_at_light_speed.md)
 
 </div>
 

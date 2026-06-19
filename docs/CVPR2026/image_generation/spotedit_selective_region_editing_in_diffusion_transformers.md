@@ -108,6 +108,7 @@ SpotEdit **完全无需训练**，是纯推理时框架，没有任何损失函�
 跨模型泛化：把 SpotEdit 套到 Qwen-Image-Edit 上，imgEdit 上质量几乎无损（+0.01 PSNR、−0.01 DISTS）配 1.59× 加速；PIE-Bench++ 上甚至提升质量（+0.03 SSIMc、+1.08 PSNR）配 1.72× 加速，说明该局部编辑策略不绑定单一架构。
 
 ### 消融实验
+
 | 配置 | CLIP↑ | SSIMc↑ | PSNR↑ | DISTS↓ | 加速比↑ | 说明 |
 |------|-------|--------|-------|--------|---------|------|
 | Default (完整) | 0.741 | 0.792 | 18.73 | 0.136 | 1.95× | 完整 SpotEdit |
@@ -154,9 +155,9 @@ Token Fusion 的消融（论文 Figure 6 定性）对比三种变体：Naive Ski
 
 - [\[CVPR 2026\] Region-Adaptive Sampling for Diffusion Transformers](region-adaptive_sampling_for_diffusion_transformers.md)
 - [\[CVPR 2026\] EditMGT: Unleashing Potentials of Masked Generative Transformers in Image Editing](editmgt_unleashing_potentials_of_masked_generative_transformers_in_image_editing.md)
+- [\[CVPR 2026\] HierEdit: Region-Aware Hierarchical Diffusion for Efficient High-Resolution Editing](hieredit_region-aware_hierarchical_diffusion_for_efficient_high-resolution_editi.md)
 - [\[CVPR 2026\] DDiT: Dynamic Patch Scheduling for Efficient Diffusion Transformers](ddit_dynamic_patch_scheduling_for_efficient_diffusion_transformers.md)
-- [\[CVPR 2026\] MRT: Masked Region Transformer for Layered Image Generation and Editing at Scale](mrt_masked_region_transformer_for_layered_image_generation_and_editing_at_scale.md)
-- [\[CVPR 2026\] PixelDiT: Pixel Diffusion Transformers for Image Generation](pixeldit_pixel_diffusion_transformers_for_image_generation.md)
+- [\[CVPR 2026\] SIGMA: Selective-Interleaved Generation with Multi-Attribute Tokens](sigma_selective-interleaved_generation_with_multi-attribute_tokens.md)
 
 </div>
 

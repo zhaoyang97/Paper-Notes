@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2604.17730](https://arxiv.org/abs/2604.17730)  
 **代码**: [GitHub](https://github.com/suhyun565/MHSafeEval)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 心理健康安全, 角色感知, 多轮对话评估, 对抗性交互, LLM安全基准
 
 ## 一句话总结

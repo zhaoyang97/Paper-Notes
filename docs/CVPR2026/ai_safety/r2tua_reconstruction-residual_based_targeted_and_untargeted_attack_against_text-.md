@@ -81,6 +81,7 @@ PyTorch 2.1 + 单张 RTX 3090 (24GB)。重建器中 ViT、BERT、TGMF 各 6 层�
 数据集为三个真实 TI-ReID 库：CUHK-PEDES、ICFG-PEDES、RSTP-ReID（均含光照变化、遮挡等复杂条件与多样描述）。目标模型含两个强 align-fusion 模型 RaSa、APTM 和一个 align-based 模型 IRRA。指标用标准 TI-ReID 的 Rank-1/5/10 准确率 (R@1/5/10) 与 mAP。对比方法两类：可适配的 VLP 攻击 (SGA、VLPTAttack、MFHA、AnyAttack) 与仅用图像的 ReID 攻击 (MisRanking、MetaAttack、MTGA)。
 
 ### 主实验（非目标攻击，R@1 越低越好，target=RaSa；单位 %）
+
 | 数据集 | 无攻击基线 R@1 | 最强对比基线 R@1 | R²TUA R@1 |
 |--------|---------------|------------------|-----------|
 | CUHK-PEDES | 76.51 | 8.48 (AnyAttack) | **0.11** |
@@ -90,6 +91,7 @@ PyTorch 2.1 + 单张 RTX 3090 (24GB)。重建器中 ViT、BERT、TGMF 各 6 层�
 R²TUA 把 RaSa 在 CUHK 上的 R@1 从 76.51% 砸到 0.11%，比最强对比方法再低近两个数量级；在 APTM 上同样大幅领先（如 CUHK 基线 76.53%）。
 
 ### 目标攻击（R@1 越高越好，target=RaSa；单位 %）
+
 | 数据集 | AnyAttack（最强对比） | R²TUA (Targeted) |
 |--------|----------------------|------------------|
 | CUHK-PEDES | 31.26 | **89.43** |

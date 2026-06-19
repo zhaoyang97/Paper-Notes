@@ -76,6 +76,7 @@ CPT 使用语言建模负对数似然 $\mathcal{L}_{CPT}(\theta)=-\mathbb{E}_{x\
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | NACGEC P | NACGEC R | NACGEC $F_{0.5}$ | 说明 |
 |------|----------|----------|------------------|------|
 | BART | 34.67 | 41.88 | 35.91 | seq2seq baseline |
@@ -99,6 +100,7 @@ CSRP 相比 CEC3 提升 +2.25 $F_{0.5}$，相比 ScholarGEC 14B 提升 +3.64，�
 CSRP 在 CSCD 上比 GPT-4 高 +5.20 F1，比 MDCSpell+ARM 高 +10.68 F1，说明面向纠错的 curriculum 和 RL alignment 比单纯通用规模更有效。
 
 ### 消融实验
+
 | 配置 | NACGEC P | NACGEC R | NACGEC $F_{0.5}$ | CSCD F1 | 解释 |
 |------|----------|----------|------------------|---------|------|
 | SFT only | 42.13 | 34.02 | 40.21 | 49.71 | 只合并监督数据 |
@@ -148,7 +150,7 @@ CSRP 在 CSCD 上比 GPT-4 高 +5.20 F1，比 MDCSpell+ARM 高 +10.68 F1，说�
 - [\[NeurIPS 2025\] SQL-of-Thought: Multi-agentic Text-to-SQL with Guided Error Correction](../../NeurIPS2025/llm_reasoning/sql-of-thought_multi-agentic_text-to-sql_with_guided_error_correction.md)
 - [\[ACL 2026\] TemplateRL: Structured Template-Guided Reinforcement Learning for LLM Reasoning](templaterl_structured_template-guided_reinforcement_learning_for_llm_reasoning.md)
 - [\[NeurIPS 2025\] SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](../../NeurIPS2025/llm_reasoning/srpo_enhancing_multimodal_llm_reasoning_via_reflection-aware_reinforcement_learn.md)
-- [\[ICLR 2026\] Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision](../../ICLR2026/llm_reasoning/uni-cot_towards_unified_chain-of-thought_reasoning_across_text_and_vision.md)
+- [\[ACL 2026\] Revisiting Entropy in Reinforcement Learning for Large Reasoning Models](revisiting_entropy_in_reinforcement_learning_for_large_reasoning_models.md)
 
 </div>
 

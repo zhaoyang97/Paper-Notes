@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026 Oral  
 **arXiv**: [2511.14806](https://arxiv.org/abs/2511.14806)  
 **代码**: 无  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: DNA foundation model, token merging, dynamic tokenization, genome modeling, masked language modeling
 
 ## 一句话总结
@@ -132,8 +132,8 @@ NT Benchmark（18 tasks）：MergeDNA 平均 MCC 78.39%，超越 MxDNA (78.14%) 
 - [\[AAAI 2026\] Apo2Mol: 3D Molecule Generation via Dynamic Pocket-Aware Diffusion Models](apo2mol_3d_molecule_generation_via_dynamic_pocket-aware_diff.md)
 - [\[ICML 2025\] Global Context-aware Representation Learning for Spatially Resolved Transcriptomics](../../ICML2025/computational_biology/global_context-aware_representation_learning_for_spatially_resolved_transcriptom.md)
 - [\[ICLR 2026\] AntigenLM: Structure-Aware DNA Language Modeling for Influenza](../../ICLR2026/computational_biology/antigenlm_structure-aware_dna_language_modeling_for_influenza.md)
+- [\[ICML 2026\] Rethinking Genomic Modeling Through Optical Character Recognition](../../ICML2026/computational_biology/rethinking_genomic_modeling_through_optical_character_recognition.md)
 - [\[ICML 2026\] DNAChunker: Learnable Tokenization for DNA Language Models](../../ICML2026/computational_biology/dnachunker_learnable_tokenization_for_dna_language_models.md)
-- [\[CVPR 2025\] Synthetic Visual Genome](../../CVPR2025/computational_biology/synthetic_visual_genome.md)
 
 </div>
 

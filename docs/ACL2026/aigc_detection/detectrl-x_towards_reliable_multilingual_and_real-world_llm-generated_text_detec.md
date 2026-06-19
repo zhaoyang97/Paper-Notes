@@ -85,6 +85,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 最佳 / 代表方法 | 平均 $F^B_1$ | 平均 $F^F_1$ | 结果解读 |
 |--------|------|------|----------|------|
 | Binary | X-Rob-Classifier | 95.58% | 91.31% | 二分类 leaderboard 第一，神经检测器整体最强 |
@@ -94,6 +95,7 @@ flowchart TD
 | In-Distribution 统计检测器 | GECScore | 83.22% | 缓存未给出对应精确值 | 统计方法在复杂多语言混合分布中即使 ID 也不稳 |
 
 ### 消融实验
+
 | 鲁棒性维度 | 观察到的性能变化 | 说明 |
 |------|---------|------|
 | Cross-Language | 神经检测器 Binary 平均 $F^B_1$ 从 95.3% 降到 91.4%；Ternary 从 87.10% 降到 66.28% | 跨语言迁移在三分类中尤其困难，mDeBERTa-Classifier 下降 20.55% |
@@ -141,8 +143,8 @@ flowchart TD
 
 - [\[ACL 2026\] C-ReD: A Comprehensive Chinese Benchmark for AI-Generated Text Detection Derived from Real-World Prompts](c-red_a_comprehensive_chinese_benchmark_for_ai-generated_text_detection_derived_.md)
 - [\[ACL 2026\] Temporal Flattening in LLM-Generated Text: Comparing Human and LLM Writing Trajectories](temporal_flattening_in_llm-generated_text_comparing_human_and_llm_writing_trajec.md)
-- [\[ACL 2026\] BIASEDTALES-ML: A Multilingual Dataset for Analyzing Narrative Attribute Distributions in LLM-Generated Stories](biasedtales-ml_a_multilingual_dataset_for_analyzing_narrative_attribute_distribu.md)
 - [\[ACL 2026\] Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection](beyond_the_final_actor_modeling_the_dual_roles_of_creator_and_editor_for_fine-gr.md)
+- [\[ACL 2026\] BIASEDTALES-ML: A Multilingual Dataset for Analyzing Narrative Attribute Distributions in LLM-Generated Stories](biasedtales-ml_a_multilingual_dataset_for_analyzing_narrative_attribute_distribu.md)
 - [\[NeurIPS 2025\] DuoLens: A Framework for Robust Detection of Machine-Generated Multilingual Text and Code](../../NeurIPS2025/aigc_detection/duolens_a_framework_for_robust_detection_of_machine-generated_multilingual_text_.md)
 
 </div>

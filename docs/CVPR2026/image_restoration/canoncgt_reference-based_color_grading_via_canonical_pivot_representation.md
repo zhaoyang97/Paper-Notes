@@ -105,6 +105,7 @@ CanonCGT 在**全部 7 个指标**上都是最优，且不是小幅领先：PSNR
 | **CanonCGT** | **1.78** | **1.54** |
 
 ### 消融实验
+
 | 配置 | 测试集 | PSNR ↑ | $\Delta E_{ab}$ ↓ | 说明 |
 |------|--------|--------|------|------|
 | One-stage | FiveK val | 29.43 | 4.53 | 单阶段（合并去/上风格） |
@@ -150,10 +151,10 @@ CanonCGT 在**全部 7 个指标**上都是最优，且不是小幅领先：PSNR
 ## 相关论文
 
 - [\[CVPR 2026\] AceTone: Bridging Words and Colors for Conditional Image Grading](acetone_bridging_words_and_colors_for_conditional_image_grading.md)
-- [\[CVPR 2026\] Time Without Time: Pseudo-Temporal Representation for Space-Time Super-Resolution](time_without_time_pseudo-temporal_representation_for_space-time_super-resolution.md)
 - [\[CVPR 2026\] ZeroIDIR: Zero-Reference Illumination Degradation Image Restoration with Perturbed Consistency Diffusion Models](zeroidir_zero-reference_illumination_degradation_image_restoration_with_perturbe.md)
-- [\[CVPR 2026\] LRHDR: Learning Representation-enhanced HDR Video Reconstruction](lrhdr_learning_representation-enhanced_hdr_video_reconstruction.md)
-- [\[CVPR 2026\] Perceptual Neural Video Compression with Color Separation and Rank Chain](perceptual_neural_video_compression_with_color_separation_and_rank_chain.md)
+- [\[CVPR 2026\] Time Without Time: Pseudo-Temporal Representation for Space-Time Super-Resolution](time_without_time_pseudo-temporal_representation_for_space-time_super-resolution.md)
+- [\[CVPR 2026\] Polarization State Tracing for Reflection Removal and Color-Consistent Reconstruction](polarization_state_tracing_for_reflection_removal_and_color-consistent_reconstru.md)
+- [\[CVPR 2026\] ColorFLUX: A Structure-Color Decoupling Framework for Old Photo Colorization](colorflux_a_structure-color_decoupling_framework_for_old_photo_colorization.md)
 
 </div>
 

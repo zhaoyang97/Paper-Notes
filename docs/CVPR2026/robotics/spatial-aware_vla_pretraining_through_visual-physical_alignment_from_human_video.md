@@ -98,6 +98,7 @@ $$\mathcal{L}_{FM}=\mathbb{E}_{a_t,\tau,\epsilon,v,l}\big[\|v_\theta-(a_t-\epsil
 在显式建模空间推理的基线（SpatialVLA、TraceVLA、MolmoAct）中，VIPA-VLA 一致更好。
 
 ### 真机实验（Franka 7-DoF + Inspire 灵巧手，子任务/整任务成功率）
+
 | 任务 | GR00T N1.5 | Being-H0 | InternVL3.5 | VIPA-VLA |
 |------|-----------|----------|-------------|----------|
 | Put-Three-Obj | 48% / 40% | 38% / 20% | 34% / 10% | 52% / 10% |
@@ -107,6 +108,7 @@ $$\mathcal{L}_{FM}=\mathbb{E}_{a_t,\tau,\epsilon,v,l}\big[\|v_\theta-(a_t-\epsil
 在 unseen 环境里优势更明显（Wipe-Board-Unseen 83%/50%，基线大多在初期就失败）。Put-Three-Obj 整任务率偏低但子任务率最高，说明它在长序列里掉链子更晚、过程更稳。
 
 ### 消融实验
+
 | 配置 | LIBERO 平均 (%) | 说明 |
 |------|------------------|------|
 | VIPA-VLA（完整） | 92.4 | 双编码器 + 空间感知预训练 |
@@ -160,8 +162,8 @@ $$\mathcal{L}_{FM}=\mathbb{E}_{a_t,\tau,\epsilon,v,l}\big[\|v_\theta-(a_t-\epsil
 - [\[CVPR 2026\] VLA Models Are More Generalizable Than You Think: Revisiting Physical and Spatial Modeling](vla_models_are_more_generalizable_than_you_think_revisiting_physical_and_spatial.md)
 - [\[CVPR 2026\] EgoRoC: Towards Egocentric Robotic Control via Task-Agnostic Visual Alignment](egoroc_towards_egocentric_robotic_control_via_task-agnostic_visual_alignment.md)
 - [\[CVPR 2026\] ForeAct: Steering Your VLA with Efficient Visual Foresight Planning](foreact_steering_your_vla_with_efficient_visual_foresight_planning.md)
-- [\[CVPR 2026\] CLiViS: Unleashing Cognitive Map through Linguistic-Visual Synergy for Embodied Visual Reasoning](clivis_unleashing_cognitive_map_through_linguistic-visual_synergy_for_embodied_v.md)
-- [\[CVPR 2026\] DiffuView: Multi-View Diffusion Pretraining for 3D-Aware Robotic Manipulation](diffuview_multi-view_diffusion_pretraining_for_3d_aware_robotic_manipulation.md)
+- [\[CVPR 2026\] TRM-VLA: Temporal-Aware Chain-of-Thought Reasoning and Memorization for Vision-Language-Action Models](trm-vla_temporal-aware_chain-of-thought_reasoning_and_memorization_for_vision-la.md)
+- [\[CVPR 2026\] ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models](acot-vla_action_chain-of-thought_for_vision-language-action_models.md)
 
 </div>
 

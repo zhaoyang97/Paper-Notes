@@ -145,10 +145,10 @@ $$h_\beta(q)=\sum_{i=1}^{N}\alpha_i(q)\,\xi_i,\quad \alpha_i(q)=\frac{\exp(\beta
 ## 相关论文
 
 - [\[ICML 2025\] Nonparametric Modern Hopfield Models](../../ICML2025/others/nonparametric_modern_hopfield_models.md)
-- [\[CVPR 2026\] Curvature-Aware Zeroth-Order Optimization for Memory-Efficient Test-Time Adaptation](curvature-aware_zeroth-order_optimization_for_memory-efficient_test-time_adaptat.md)
 - [\[ICML 2025\] Modern Methods in Associative Memory](../../ICML2025/others/modern_methods_in_associative_memory.md)
 - [\[CVPR 2026\] DREAM: Document Recognition with Explicit Adaptive Memory](dream_document_recognition_with_explicit_adaptive_memory.md)
 - [\[CVPR 2026\] Neural Collapse in Test-Time Adaptation](neural_collapse_in_test-time_adaptation.md)
+- [\[CVPR 2026\] PhysSkin: Real-Time and Generalizable Physics-Based Skin Simulation](physskin_real-time_and_generalizable_physics-based_animation_via_self-supervised.md)
 
 </div>
 

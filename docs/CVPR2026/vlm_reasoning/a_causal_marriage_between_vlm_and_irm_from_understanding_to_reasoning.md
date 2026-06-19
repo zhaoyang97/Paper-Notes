@@ -2,10 +2,10 @@
 title: >-
   [论文解读] A Causal Marriage between VLM and IRM from Understanding to Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][CLIP] 本文从 token 级因果表示出发，证明"词表受限的 InfoNCE"与 IRM 的不变性准则在形式上等价，据此提出无需改架构的中训范式 CLIP-IRM 提升 OOD 理解，并把它的不变对齐分数当作过程级奖励喂给 GRPO，把 IRM 的 OOD 保证一路迁移到多模态推理。
+  [CVPR 2026][VLM Reasoning][CLIP] 本文从 token 级因果表示出发，证明"词表受限的 InfoNCE"与 IRM 的不变性准则在形式上等价，据此提出无需改架构的中训范式 CLIP-IRM 提升 OOD 理解，并把它的不变对齐分数当作过程级奖励喂给 GRPO，把 IRM 的 OOD 保证一路迁移到多模态推理。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "CLIP"
   - "不变风险最小化(IRM)"
   - "因果表示"
@@ -105,6 +105,7 @@ $$R(\tau) = \sum_{k=1}^{T}\big(r^{(task)}_k + \lambda_{proc}\, r^{(proc)}_k\big)
 - ⚠️ CLIP-IRM 相对原始 CLIP 的优势主要体现在 v2（更强 backbone）；v1 平均仅 83.6 vs CLIP 83.4，说明不变中训的增益与 backbone 规模叠加才显著。
 
 ### prompt-tuning 与推理（Fig. 3 / Fig. 4，数值见原文图）
+
 | 设置 | 对比 | 结论 |
 |------|------|------|
 | Base-to-New 泛化（11 子域） | CLIP vs CLIP-IRM × {CoOp/CoCoOp/VPT/MaPLe/PromptSRC} | 全部 5 个 baseline 的 new-class 都提升，3/5 的 base-class 提升；提升最大的是 PromptSRC |
@@ -144,11 +145,11 @@ $$R(\tau) = \sum_{k=1}^{T}\big(r^{(task)}_k + \lambda_{proc}\, r^{(proc)}_k\big)
 
 ## 相关论文
 
+- [\[CVPR 2026\] Streaming Video Crime Anticipation with Spatio-Temporal Causal Reasoning](streaming_video_crime_anticipation_with_spatio-temporal_causal_reasoning.md)
+- [\[CVPR 2026\] CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)
 - [\[CVPR 2026\] Beyond Perceptual Shortcuts: Causal-Inspired Debiasing Optimization for Generalizable Video Reasoning in Lightweight MLLMs](beyond_perceptual_shortcuts_causal-inspired_debiasing_optimization_for_generaliz.md)
-- [\[CVPR 2026\] RE-VLM: Event-Augmented Vision-Language Model for Scene Understanding](re-vlm_event-augmented_vision-language_model_for_scene_understanding.md)
-- [\[ICML 2026\] Seeing is Understanding: Unlocking Causal Attention into Modality-Mutual Attention for Multimodal LLMs](../../ICML2026/multimodal_vlm/seeing_is_understanding_unlocking_causal_attention_into_modality-mutual_attentio.md)
+- [\[CVPR 2026\] Towards Sparse Video Understanding and Reasoning](towards_sparse_video_understanding_and_reasoning.md)
 - [\[CVPR 2026\] MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](mindpower_enabling_theoryofmind_reasoning_in_vlmba.md)
-- [\[CVPR 2026\] BiomedCCPL: Causal Conditional Prompt Learning for Biomedical Vision-Language Models](biomedccpl_causal_conditional_prompt_learning_for_biomedical_vision-language_mod.md)
 
 </div>
 

@@ -154,11 +154,11 @@ SCINE 由三部分组成：
 
 ## 相关论文
 
-- [\[CVPR 2026\] Video Generation with Stable Transparency via Shiftable RGB-A Distribution Learner](../../CVPR2026/video_generation/video_generation_with_stable_transparency_via_shiftable_rgb-a_distribution_learn.md)
 - [\[ICCV 2025\] WorldScore: A Unified Evaluation Benchmark for World Generation](../../ICCV2025/video_generation/worldscore_a_unified_evaluation_benchmark_for_world_generation.md)
+- [\[CVPR 2026\] Video Generation with Stable Transparency via Shiftable RGB-A Distribution Learner](../../CVPR2026/video_generation/video_generation_with_stable_transparency_via_shiftable_rgb-a_distribution_learn.md)
 - [\[CVPR 2026\] VMonarch: Efficient Video Diffusion Transformers with Structured Attention](../../CVPR2026/video_generation/vmonarch_efficient_video_diffusion_transformers_with_structured_attention.md)
 - [\[ICCV 2025\] ETVA: Evaluation of Text-to-Video Alignment via Fine-Grained Question Generation and Answering](../../ICCV2025/video_generation/etva_evaluation_of_text-to-video_alignment_via_fine-grained_question_generation_.md)
-- [\[CVPR 2026\] THEval: Evaluation Framework for Talking Head Video Generation](../../CVPR2026/video_generation/theval_evaluation_framework_for_talking_head_video_generation.md)
+- [\[CVPR 2026\] SVBench: Evaluation of Video Generation Models on Social Reasoning](../../CVPR2026/video_generation/svbench_evaluation_of_video_generation_models_on_social_reasoning.md)
 
 </div>
 

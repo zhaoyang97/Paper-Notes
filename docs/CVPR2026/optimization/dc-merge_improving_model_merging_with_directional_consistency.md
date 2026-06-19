@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026 (Main Track)  
 **arXiv**: [2603.06242](https://arxiv.org/abs/2603.06242)  
 **代码**: [https://github.com/Tobeginwith/DC-Merge](https://github.com/Tobeginwith/DC-Merge)  
-**领域**:优化
+**领域**:优化  
 **关键词**: model merging, task vector, singular value decomposition, directional consistency, LoRA
 
 ## 一句话总结

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][长视频推理] VITAL 给多模态大模型（MLLM）配一个「视频裁剪」工具，让它在推理链中按需把可疑时间段稠密重采样成新帧、形成「多模态思维链」，再用难度感知的 DGRPO 强化学习把多任务训练稳住，从而在长视频问答和时序定位上做到 7B 级别的 SOTA。 领域现状：受 DeepSe…
+  [CVPR 2026][VLM Reasoning][长视频推理] VITAL 给多模态大模型（MLLM）配一个「视频裁剪」工具，让它在推理链中按需把可疑时间段稠密重采样成新帧、形成「多模态思维链」，再用难度感知的 DGRPO 强化学习把多任务训练稳住，从而在长视频问答和时序定位上做到 7B 级别的 SOTA。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "长视频推理"
   - "多模态 CoT"
   - "工具增强"
@@ -147,10 +147,10 @@ VITAL-7B 在长视频时序定位和长视频 QA 上达到 7B 级 SOTA，且工�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Visual Reasoning through Tool-supervised Reinforcement Learning](visual_reasoning_through_tool-supervised_reinforcement_learning.md)
+- [\[CVPR 2026\] LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](longvt_incentivizing_thinking_with_long_videos_via_native_tool_calling.md)
+- [\[CVPR 2026\] Learning Transferable Temporal Primitives for Video Reasoning via Synthetic Videos](learning_transferable_temporal_primitives_for_video_reasoning_via_synthetic_vide.md)
 - [\[CVPR 2026\] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)
-- [\[CVPR 2026\] CURVE: A Benchmark for Cultural and Multilingual Long Video Reasoning](curve_a_benchmark_for_cultural_and_multilingual_long_video_reasoning.md)
-- [\[CVPR 2026\] Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](reading_or_reasoning_format_decoupled_reinforcement_learning_for_document_ocr.md)
+- [\[CVPR 2026\] Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)
 - [\[CVPR 2026\] EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models](emo-r3_reflective_reinforcement_learning_for_emotional_reasoning_in_multimodal_l.md)
 
 </div>

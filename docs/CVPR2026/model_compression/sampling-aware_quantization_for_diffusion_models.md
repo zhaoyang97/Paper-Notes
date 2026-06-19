@@ -97,6 +97,7 @@ SA-PTQ 用 Adaround 仅训 $\alpha$，逐模块最小化混合阶对齐 MSE；SA
 W8A8/W4A8/W4A4 分别达 3.99×/7.95×/7.95× 的比特压缩与 11.47×/23.33×/46.67× 的位运算加速。在 W4A8 下 SA-QLoRA 的 FID 8.55 甚至比全精度模型还低 0.9；W4A4 下其它方法因量化噪声把概率流 ODE 变成方差爆炸 SDE 而**生成失败**（PTQ4DM/Q-diffusion/PTQD 无有效结果），SA-QLoRA 仍能收敛、sFID 仅比全精度高 4.37。
 
 ### 消融 / 跨设置一致性
+
 | 设置 | 现象 | 说明 |
 |------|------|------|
 | W8A8 (SA-PTQ) | FID 10.16 < PTQD 10.76 | 后训练档位即超此前 PTQ SOTA |
@@ -138,11 +139,11 @@ W8A8/W4A8/W4A4 分别达 3.99×/7.95×/7.95× 的比特压缩与 11.47×/23.33×
 
 ## 相关论文
 
-- [\[CVPR 2026\] Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models Quantization](quant_experts_token_aware_vlm_quantization.md)
+- [\[CVPR 2026\] DeltaQuant: 4-bit Video Diffusion Models with Spatiotemporal Delta Smoothing](deltaquant_4-bit_video_diffusion_models_with_spatiotemporal_delta_smoothing.md)
 - [\[ECCV 2024\] Adaptive Compressed Sensing with Diffusion-Based Posterior Sampling](../../ECCV2024/model_compression/adaptive_compressed_sensing_with_diffusionbased_posterior_sa.md)
 - [\[ICML 2025\] Diffusion Sampling Correction via Approximately 10 Parameters](../../ICML2025/model_compression/diffusion_sampling_correction_via_approximately_10_parameters.md)
 - [\[CVPR 2026\] DMGD: Train-Free Dataset Distillation with Semantic-Distribution Matching in Diffusion Models](dmgd_train-free_dataset_distillation_with_semantic-distribution_matching_in_diff.md)
-- [\[CVPR 2026\] LIFT and PLACE: A Simple, Stable, and Effective Knowledge Distillation Framework for Lightweight Diffusion Models](lift_and_place_a_simple_stable_and_effective_knowledge_distillation_framework_fo.md)
+- [\[ICML 2026\] FAIR-Calib: Frontier-Aware Instability-Reweighted Calibration for Post-Training Quantization of Diffusion Large Language Models](../../ICML2026/model_compression/fair-calib_frontier-aware_instability-reweighted_calibration_for_post-training_q.md)
 
 </div>
 

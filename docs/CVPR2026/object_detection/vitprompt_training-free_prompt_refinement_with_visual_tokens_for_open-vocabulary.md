@@ -101,6 +101,7 @@ $$\bar l_q[k]=\max\Big(\{\hat l_q[k]\}\cup\{\hat l_q[K+m]\mid \arg\max(p_m^{init
 Swin-T 下同样全面领先（PASCAL-C 43.03 vs BCA+ 40.67；COCO-C 26.25 vs 25.06；FoggyCityscapes 29.10 vs 26.65），且**在 PASCAL-C / COCO-C 的每一种损坏类型上都刷新 SOTA**。雾天里 Bus（+2.64）、Bicycle（+4.15）这类被雾严重糊掉外观的难类提升尤其明显。
 
 ### 消融实验
+
 | 配置 | FoggyCityscapes | COCO-C(avg) | 说明 |
 |------|----------------|-------------|------|
 | Text-only（无视觉融合，≈裸 GDINO） | 28.89 | 25.57 | 只用静态文本嵌入 |

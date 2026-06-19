@@ -114,6 +114,7 @@ DQ-Pilot 基于 Qwen2.5-VL-7B、用 LoRA 微调，训练严格按 DDI 难度分�
 | **CMPL (Ours)** | **71.9** | **88.3** | **92.9** | **82.5** |
 
 ### 消融实验
+
 | 配置（CMPL 组件） | R@1 | R@5 | R@10 |
 |------|------|------|------|
 | Baseline（仅 $L_{gs}$） | 71.6 | 88.0 | 95.3 |
@@ -163,11 +164,11 @@ DQ-Pilot 基于 Qwen2.5-VL-7B、用 LoRA 微调，训练严格按 DDI 难度分�
 
 ## 相关论文
 
+- [\[CVPR 2026\] Tackling Alignment Ambiguity in Person Retrieval through Conversational Attribute Mining](tackling_alignment_ambiguity_in_person_retrieval_through_conversational_attribut.md)
 - [\[CVPR 2026\] WikiCLIP: An Efficient Contrastive Baseline for Open-domain Visual Entity Recognition](wikiclip_an_efficient_contrastive_baseline_for_open-domain_visual_entity_recogni.md)
 - [\[CVPR 2026\] Taxonomy-Aware Representation Alignment for Hierarchical Visual Recognition with Large Multimodal Models](taxonomy-aware_representation_alignment_for_hierarchical_visual_recognition_with.md)
 - [\[CVPR 2026\] TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition](trivia_self-supervised_fine-tuning_of_vision-language_models_for_table_recogniti.md)
 - [\[CVPR 2026\] RetFormer: Multimodal Retrieval for Enhancing Image Recognition](retformer_multimodal_retrieval_for_enhancing_image_recognition.md)
-- [\[CVPR 2026\] Condensed Test-Time Adaptation of VLMs for Action Recognition](condensed_test-time_adaptation_of_vlms_for_action_recognition.md)
 
 </div>
 

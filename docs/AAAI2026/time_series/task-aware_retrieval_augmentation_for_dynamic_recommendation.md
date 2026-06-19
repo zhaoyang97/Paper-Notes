@@ -198,7 +198,7 @@ TarDGR 在所有数据集上均取得最佳性能。在 Amazon 上，相比 PROD
 - [\[CVPR 2026\] SATTC: Structure-Aware Label-Free Test-Time Calibration for Cross-Subject EEG-to-Image Retrieval](../../CVPR2026/time_series/sattc_structure-aware_label-free_test-time_calibration_for_cross-subject_eeg-to-.md)
 - [\[AAAI 2026\] A Unified Shape-Aware Foundation Model for Time Series Classification](a_unified_shape-aware_foundation_model_for_time_series_class.md)
 - [\[ICML 2026\] Divide and Contrast: Learning Robust Temporal Features Without Augmentation](../../ICML2026/time_series/divide_and_contrast_learning_robust_temporal_features_without_augmentation.md)
-- [\[AAAI 2026\] ReCast: Reliability-aware Codebook Assisted Lightweight Time Series Forecasting](recast_reliability-aware_codebook_assisted_lightweight_time_series_forecasting.md)
+- [\[ICLR 2026\] AutoDA-Timeseries: Automated Data Augmentation for Time Series](../../ICLR2026/time_series/autoda-timeseries_automated_data_augmentation_for_time_series.md)
 
 </div>
 

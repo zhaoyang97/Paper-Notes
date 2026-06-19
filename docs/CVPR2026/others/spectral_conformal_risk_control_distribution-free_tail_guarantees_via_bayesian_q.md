@@ -114,6 +114,7 @@ MS-COCO 多标签（$\alpha=0.1$，效率看平均预测集大小）：
 在匹配有效性下，BQ-SRC 的预测集（3.39）比 RCPS（3.57）更小，即更高效；双参数控制以略大的集合（3.47）换更强有效性（违例 0.60% vs 1.80%）。
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | 蒙特卡洛预算 $M$ | $M\ge 2000$ 后违例率稳定 | 支撑主实验取 $M=5000$；所有预算下二项 LCB 都比 DKW 更紧 |
@@ -157,10 +158,10 @@ MS-COCO 多标签（$\alpha=0.1$，效率看平均预测集大小）：
 ## 相关论文
 
 - [\[ACL 2025\] Theoretical Guarantees for Minimum Bayes Risk Decoding](../../ACL2025/others/theoretical_guarantees_for_minimum_bayes_risk_decoding.md)
-- [\[CVPR 2026\] Tunable Soft Equivariance with Guarantees](tunable_soft_equivariance_with_guarantees.md)
-- [\[CVPR 2026\] Spectral Mixture-of-Experts for Continual Learning](spectral_mixture-of-experts_for_continual_learning.md)
-- [\[ICLR 2026\] Bayesian Influence Functions for Hessian-Free Data Attribution](../../ICLR2026/others/bayesian_influence_functions_for_hessian-free_data_attribution.md)
 - [\[CVPR 2026\] Confusion-Aware Spectral Regularizer for Long-Tailed Recognition](confusion-aware_spectral_regularizer_for_long-tailed_recognition.md)
+- [\[ICLR 2026\] Bayesian Influence Functions for Hessian-Free Data Attribution](../../ICLR2026/others/bayesian_influence_functions_for_hessian-free_data_attribution.md)
+- [\[CVPR 2026\] Towards Knowledge-augmented Bayesian Deep Learning For Computer Vision](towards_knowledge-augmented_bayesian_deep_learning_for_computer_vision.md)
+- [\[CVPR 2026\] Adaptive Bayesian Early-Exit Networks for Efficient Non-Transferable Learning](adaptive_bayesian_early-exit_networks_for_efficient_non-transferable_learning.md)
 
 </div>
 

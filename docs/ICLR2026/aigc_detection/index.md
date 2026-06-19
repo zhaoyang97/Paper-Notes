@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 AIGC检测论文汇总 · 6篇论文解读
+  ICLR2026 AIGC检测论文汇总 · 8篇论文解读
 description: >-
-  6篇ICLR2026的 AIGC 检测方向论文解读，涵盖对抗鲁棒、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  8篇ICLR2026的 AIGC 检测方向论文解读，涵盖对抗鲁棒、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "AIGC 检测"
@@ -11,6 +11,10 @@ tags:
   - "对抗鲁棒"
   - "LLM"
 item_list:
+  - u: "all_patches_matter_more_patches_better_enhance_ai-generated_image_detection_via_/"
+    t: "All Patches Matter, More Patches Better: Enhance AI-Generated Image Detection via Panoptic Patch Learning"
+  - u: "beyond_raw_detection_scores_markov-informed_calibration_for_boosting_machine-gen/"
+    t: "Beyond Raw Detection Scores: Markov-Informed Calibration for Boosting Machine-Generated Text Detection"
   - u: "calibrating_verbalized_confidence_with_self-generated_distractors/"
     t: "Calibrating Verbalized Confidence with Self-Generated Distractors"
   - u: "clarc_cc_benchmark_for_robust_code_search/"
@@ -23,15 +27,23 @@ item_list:
     t: "Is Your Paper Being Reviewed by an LLM? Benchmarking AI Text Detection in Peer Review"
   - u: "policon_evaluating_llms_on_achieving_diverse_political_consensus_objectives/"
     t: "PoliCon: Evaluating LLMs on Achieving Diverse Political Consensus Objectives"
-item_total: 6
+item_total: 8
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC 检测
 
-**🔬 ICLR2026** · **6** 篇论文解读
+**🔬 ICLR2026** · **8** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/aigc_detection/index.md) · [🧪 ICML2026 (7)](../../ICML2026/aigc_detection/index.md) · [💬 ACL2026 (16)](../../ACL2026/aigc_detection/index.md) · [🤖 AAAI2026 (2)](../../AAAI2026/aigc_detection/index.md) · [🧠 NeurIPS2025 (9)](../../NeurIPS2025/aigc_detection/index.md) · [💬 ACL2025 (15)](../../ACL2025/aigc_detection/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (10)](../../CVPR2026/aigc_detection/index.md) · [🧪 ICML2026 (11)](../../ICML2026/aigc_detection/index.md) · [💬 ACL2026 (17)](../../ACL2026/aigc_detection/index.md) · [🤖 AAAI2026 (2)](../../AAAI2026/aigc_detection/index.md) · [🧠 NeurIPS2025 (9)](../../NeurIPS2025/aigc_detection/index.md) · [💬 ACL2025 (15)](../../ACL2025/aigc_detection/index.md)
+
+**[All Patches Matter, More Patches Better: Enhance AI-Generated Image Detection via Panoptic Patch Learning](all_patches_matter_more_patches_better_enhance_ai-generated_image_detection_via_.md)**
+
+:   本文提出"所有 patch 都重要、用得越多越好（All Patches Matter, More Patches Better）"的检测原则，发现现有 AI 生成图像（AIGI）检测器存在"少数 patch 偏置（Few-Patch Bias）"——只盯着极少数 patch 做判断；据此设计 Panoptic Patch Learning（PPL）框架，用随机 patch 重建 + patch 级对比学习把判别能力摊平到全图所有 patch，在 GenImage、DRCT-2M、AIGCDetectBenchmark 和真实场景 Chameleon 上都把跨生成器泛化性和鲁棒性显著刷高（CLIP backbone 在 GenImage 上 mAcc 97.2%、std 仅 1.7）。
+
+**[Beyond Raw Detection Scores: Markov-Informed Calibration for Boosting Machine-Generated Text Detection](beyond_raw_detection_scores_markov-informed_calibration_for_boosting_machine-gen.md)**
+
+:   这篇论文指出主流"度量法"机器生成文本（MGT）检测器的 token 级分数会被 LLM 采样随机性污染，于是用马尔可夫随机场（MRF）刻画"相邻 token 分数相似、句首 token 分数不稳定"这两条规律，再通过平均场近似把它实现成一个只有 2×2 参数、可直接叠在任意现有检测器上的轻量迭代组件，在几乎不增加开销的前提下把各类基线检测器的 AUROC 大幅拉高（如 DetectGPT 在 Essay 上从 44% 提到 92%）。
 
 **[Calibrating Verbalized Confidence with Self-Generated Distractors](calibrating_verbalized_confidence_with_self-generated_distractors.md)**
 

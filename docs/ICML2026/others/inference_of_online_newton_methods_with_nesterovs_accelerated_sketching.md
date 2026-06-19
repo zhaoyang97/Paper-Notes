@@ -96,6 +96,7 @@ flowchart TD
 加速 NA-SN 在覆盖率上贴合名义水平，区间宽度比未加速 SN 紧 5%–8%，每步耗时几乎相同（多一个动量向量的开销），相对 ASGD 在 ill-conditioned 情形下覆盖率提升 10–20 个百分点。
 
 ### 消融实验
+
 | 配置 | 末迭代误差 $\|x_T-x^\star\|^2$（×$10^{-3}$） | 覆盖率 | 说明 |
 |------|----------------------------------------|--------|------|
 | Full：NA-SN + Hessian 平均 + 在线协方差估计 | 4.2 | 0.90 | 完整模型 |
@@ -140,11 +141,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICLR 2026\] Accelerated Parallel Tempering via Neural Transports](../../ICLR2026/others/accelerated_parallel_tempering_via_neural_transports.md)
 - [\[AAAI 2026\] Online Linear Regression with Paid Stochastic Features](../../AAAI2026/others/online_linear_regression_with_paid_stochastic_features.md)
 - [\[ICML 2025\] Modern Methods in Associative Memory](../../ICML2025/others/modern_methods_in_associative_memory.md)
 - [\[ICML 2026\] TEMPORA: Characterising the Time-Contingent Utility of Online Test-Time Adaptation](tempora_characterising_the_time-contingent_utility_of_online_test-time_adaptatio.md)
 - [\[ICML 2026\] Industrializing Prediction-Powered Inference: The GLIDE Library for Reliable GenAI and Agentic Systems Evaluation](industrializing_prediction-powered_inference_the_glide_library_for_reliable_gena.md)
-- [\[ICML 2026\] Amortized Simulation-Based Inference in Generalized Bayes via Neural Posterior Estimation](amortized_simulation-based_inference_in_generalized_bayes_via_neural_posterior_e.md)
 
 </div>
 

@@ -104,6 +104,7 @@ $$\theta_{M_{ta}}=\theta_{M_{ta}}-\alpha\nabla L_{tvis}(x,y,y_v;\theta_{G'_{vis}
 四个标志物里三个在 FID/KID/LPIPS 全面领先，MIST-ER 上 FID 最优、KID/LPIPS 次优。SSIM 上部分方法更高，但作者指出 SSIM 对像素级对齐敏感，而配对 H&E–IHC 本就对不齐，因此 SSIM 不是 VIS 的可靠指标。
 
 ### 消融实验
+
 | 配置 (MIST-HER2) | FID↓ | KID↓ | 说明 |
 |------|------|------|------|
 | baseline（无特征引导 FG） | 46.23 | 10.67 | 仅靠粗配对监督 |
@@ -151,8 +152,8 @@ $$\theta_{M_{ta}}=\theta_{M_{ta}}-\alpha\nabla L_{tvis}(x,y,y_v;\theta_{G'_{vis}
 ## 相关论文
 
 - [\[CVPR 2026\] Dual-Level Hypergraph Generation for Addressing Feature Scarcity in Whole-Slide Image Classification](dual-level_hypergraph_generation_for_addressing_feature_scarcity_in_whole-slide_.md)
-- [\[CVPR 2026\] Cross-domain Dual-stream Feature Disentanglement for Brain Disorder Prediction with Sparsely Labeled PET](cross-domain_dual-stream_feature_disentanglement_for_brain_disorder_prediction_w.md)
 - [\[CVPR 2025\] UNIStainNet: Foundation-Model-Guided Virtual Staining of H&E to IHC](../../CVPR2025/medical_imaging/unistainnet_foundation-model-guided_virtual_staining_of_he_to_ihc.md)
+- [\[CVPR 2026\] Cross-domain Dual-stream Feature Disentanglement for Brain Disorder Prediction with Sparsely Labeled PET](cross-domain_dual-stream_feature_disentanglement_for_brain_disorder_prediction_w.md)
 - [\[CVPR 2026\] MedGRPO: Multi-Task Reinforcement Learning for Heterogeneous Medical Video Understanding](medgrpo_multi-task_reinforcement_learning_for_heterogeneous_medical_video_unders.md)
 - [\[CVPR 2026\] CURE: Curriculum-guided Multi-task Training for Reliable Anatomy Grounded Report Generation](cure_curriculum-guided_multi-task_training_for_reliable_anatomy_grounded_report_.md)
 

@@ -90,6 +90,7 @@ NLP attribution 的可读性高度依赖粒度和任务目标，可现有库往�
 ## 实验关键数据
 
 ### 主实验
+
 | 能力 | Interpreto | Captum | Ferret | Inseq | SHAP |
 |------|------------|--------|--------|-------|------|
 | Sequence classification | ✓ | ✓ | ✓ | ✗ | ✓ |
@@ -101,6 +102,7 @@ NLP attribution 的可读性高度依赖粒度和任务目标，可现有库往�
 在 attribution library 对比中，Interpreto 是表中唯一同时支持分类、生成、faithfulness metrics、简单可视化和粒度控制的库。
 
 ### 消融实验
+
 | 维度 | Interpreto 支持情况 | 具体内容 |
 |------|--------------------|----------|
 | Attribution methods | 10 种 | 4 个 perturbation-based，6 个 gradient-based |

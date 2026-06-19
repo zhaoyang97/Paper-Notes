@@ -186,9 +186,9 @@ $$\hat{r}_{c,b,t} = \hat{r}_c + b_t$$
 ## 相关论文
 
 - [\[AAAI 2026\] TrinityDNA: A Bio-Inspired Foundational Model for Efficient Long-Sequence DNA Modeling](trinitydna_a_bio-inspired_foundational_model_for_efficient_long-sequence_dna_mod.md)
-- [\[ICML 2025\] SPACE: Your Genomic Profile Predictor is a Powerful DNA Foundation Model](../../ICML2025/computational_biology/space_your_genomic_profile_predictor_is_a_powerful_dna_foundation_model.md)
+- [\[ICML 2026\] Rethinking Genomic Modeling Through Optical Character Recognition](../../ICML2026/computational_biology/rethinking_genomic_modeling_through_optical_character_recognition.md)
 - [\[NeurIPS 2025\] Random Search Neural Networks for Efficient and Expressive Graph Learning](../../NeurIPS2025/computational_biology/random_search_neural_networks_for_efficient_and_expressive_graph_learning.md)
-- [\[CVPR 2026\] Advancing Cancer Prognosis with Hierarchical Fusion of Genomic, Proteomic and Pathology Imaging Data from a Systems Biology Perspective](../../CVPR2026/computational_biology/advancing_cancer_prognosis_with_hierarchical_fusion_of_genomic_proteomic_and_pat.md)
+- [\[ICML 2025\] SPACE: Your Genomic Profile Predictor is a Powerful DNA Foundation Model](../../ICML2025/computational_biology/space_your_genomic_profile_predictor_is_a_powerful_dna_foundation_model.md)
 - [\[ICML 2025\] Efficient Molecular Conformer Generation with SO(3)-Averaged Flow Matching and Reflow](../../ICML2025/computational_biology/efficient_molecular_conformer_generation_with_so3-averaged_flow_matching_and_ref.md)
 
 </div>

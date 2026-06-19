@@ -99,6 +99,7 @@ LIBERO 五个子集平均成功率（3 个 seed 均值）。带 Ext. Data 的方
 提升在 LIBERO-Long（多物体、多阶段、长时程误差累积）上尤为明显：0.71 vs GraphMimic 0.56；LIBERO-90（90 个差异巨大的任务，测多任务鲁棒性）上 0.75 vs 0.67，说明交互动力学学到的是任务无关、可迁移的交互特征。Meta-World 四个 handle 操作任务每任务仅 5 段示范，DynBridge 在成功率上也优于 BC/ATM/PlaySlot/MPI（⚠️ Meta-World 为柱状图，原文未给精确数值）。
 
 ### 消融实验
+
 | 配置 | 结论 | 说明 |
 |------|------|------|
 | Full model | 最佳 | 完整 DynBridge |
@@ -151,11 +152,11 @@ LIBERO 五个子集平均成功率（3 个 seed 均值）。带 Ext. Data 的方
 
 ## 相关论文
 
-- [\[CVPR 2026\] DAWN: Pixel Motion Diffusion is What We Need for Robot Control](dawn_pixel_motion_diffusion_robot_control.md)
+- [\[CVPR 2026\] Localizing, Structuring, and Rendering: Bridging 3D and 2D Vision-Language-Action Models for Robotic Manipulation](localizing_structuring_and_rendering_bridging_3d_and_2d_vision-language-action_m.md)
 - [\[CVPR 2026\] CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics](clad_planning_with_grounded_foresight_via_cross-modal_latent_dynamics.md)
+- [\[CVPR 2026\] BiPreManip: Learning Affordance-Based Bimanual Preparatory Manipulation through Anticipatory Collaboration](bipremanip_learning_affordance-based_bimanual_preparatory_manipulation_through_a.md)
 - [\[ICCV 2025\] Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos](../../ICCV2025/robotics/moto_latent_motion_token_as_the_bridging_language_for_learning_robot_manipulatio.md)
 - [\[CVPR 2026\] Contact-Aware Neural Dynamics](contact-aware_neural_dynamics.md)
-- [\[CVPR 2026\] BiPreManip: Learning Affordance-Based Bimanual Preparatory Manipulation through Anticipatory Collaboration](bipremanip_learning_affordance-based_bimanual_preparatory_manipulation_through_a.md)
 
 </div>
 

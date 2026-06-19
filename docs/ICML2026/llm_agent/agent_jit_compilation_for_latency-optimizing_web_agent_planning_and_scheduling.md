@@ -85,6 +85,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 对比 | Latency | Accuracy | 结论 |
 |------|---------|----------|------|
 | Browser-Use | 122.1s | 基线 | 每步都调用 LLM，73% latency 来自推理 |
@@ -96,6 +97,7 @@ flowchart TD
 | JIT-Scheduler (Gemini-2.5-Pro) | 109.9s | 86.4% | 比 OpenAI CUA 快 2.4×，准确率高 9pp |
 
 ### 消融实验
+
 | 配置 / 现象 | 指标 | 结果 | 说明 |
 |-------------|------|------|------|
 | Protocol 对 valid-plan rate | GPT-4.1 | 78% → 91% | 工具不变量显著提高合法计划比例 |

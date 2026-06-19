@@ -99,6 +99,7 @@ LIBERO 四套件（A800 GPU，OpenVLA-OFT 为基座）端到端对比：
 在 SimplerEnv 四个视觉匹配任务（DB-OFT 基座）上：平均成功率 70.1%（baseline 70.4%），speedup 1.44×，FLOPs 42%；对比 FastV/DivPrune/SparseVLM 都更准更快。在 NVIDIA RTX 3090 上 LLM 部分 2.09× / 端到端 1.57× 加速；真机 Flexiv Rizon4 四任务平均 1.70× 加速。
 
 ### 消融实验
+
 | 配置 | Recall (%) | LIBERO SR (%) | 说明 |
 |------|-----------|---------------|------|
 | 完整方法 | 92 | 96.1 | 三技术全开 |
@@ -147,9 +148,9 @@ LIBERO 四套件（A800 GPU，OpenVLA-OFT 为基座）端到端对比：
 
 - [\[ICML 2026\] Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models](latent_reasoning_vla_latent_thinking_and_prediction_for_vision-language-action_m.md)
 - [\[ICML 2026\] Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies](discrete_diffusion_vla_bringing_discrete_diffusion_to_action_decoding_in_vision-.md)
+- [\[ICLR 2026\] Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation](../../ICLR2026/robotics/action-aware_dynamic_pruning_for_efficient_vision-language-action_manipulation.md)
 - [\[ICML 2026\] LangForce: Bayesian Decomposition of Vision-Language-Action Models via Latent Action Queries](langforce_bayesian_decomposition_of_vision_language_action_models_via_latent_act.md)
 - [\[ICML 2026\] Contrastive Representation Regularization for Vision-Language-Action Models](contrastive_representation_regularization_for_vision-language-action_models.md)
-- [\[CVPR 2026\] ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models](../../CVPR2026/robotics/acot-vla_action_chain-of-thought_for_vision-language-action_models.md)
 
 </div>
 

@@ -90,6 +90,7 @@ CA 只有每类 2 个背景、且不控制视角/尺度/翻转/裁剪，无法�
 CCI 在 deletion 和 insertion 上全面刷新 SOTA，Del@5 从次优 0.4272 降到 0.3276。
 
 ### MS COCO 跨模态检索忠实度（Karpathy split，IR/TR）
+
 | 方法 | Del-IR@5 ↓ | Del-TR@5 ↓ | Ins-IR@5 ↑ | Ins-TR@5 ↑ |
 |------|------------|------------|------------|------------|
 | MaskCLIP | 0.2841 | 0.2949 | 0.2953 | 0.3514 |
@@ -99,6 +100,7 @@ CCI 在 deletion 和 insertion 上全面刷新 SOTA，Del@5 从次优 0.4272 降
 最亮眼：Del-IR@5 上 CCI 把误差从次优 Grad-ECLIP 的 0.2670 降到 0.1056，**超过两倍**的提升。
 
 ### 错误来源诊断（CCI + GroundedSAM + GPT-4o）
+
 | 数据集/子集 | BG-Er | Fine-Er | 关键发现 |
 |-------------|-------|---------|----------|
 | ImageNet-1k | 9.1% | 46.6% | 背景错误是少数，细粒度才是主因 |
@@ -140,11 +142,11 @@ CCI 在 deletion 和 insertion 上全面刷新 SOTA，Del@5 从次优 0.4272 降
 
 ## 相关论文
 
-- [\[CVPR 2026\] CLIP-Free, Label-Free, Unsupervised Concept Bottleneck Models](clip-free_label_free_unsupervised_concept_bottleneck_models.md)
-- [\[CVPR 2026\] Concept-wise Attention for Fine-grained Concept Bottleneck Models](coat_cbm_concept_wise_attention.md)
+- [\[CVPR 2026\] Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](differences_that_matter_auditing_models_for_capability_gap_discovery_and_rectifi.md)
+- [\[CVPR 2026\] Cluster-aware Anchor Learning for Multi-View Clustering](cluster-aware_anchor_learning_for_multi-view_clustering.md)
 - [\[CVPR 2026\] World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models](world_in_a_frame_understanding_culture_mixing_as_a_new_challenge_for_vision-lang.md)
 - [\[CVPR 2026\] Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions](seeing_through_touch_tactile_localization.md)
-- [\[CVPR 2026\] Cluster-Aware Neural Collapse Prompt Tuning for Long-Tailed Generalization of Vision-Language Models](cluster-aware_neural_collapse_prompt_tuning_for_long-tailed_generalization_of_vi.md)
+- [\[CVPR 2026\] Role-SynthCLIP: A Role-Play Driven Diverse Synthetic Data Approach](role-synthclip_a_role-play_driven_diverse_synthetic_data_approach.md)
 
 </div>
 

@@ -79,6 +79,7 @@ DualRefine 引入两类**域不变**专家先验：**几何超点** $\mathcal{G}
 主指标是全景质量 PQ，定义为分割质量与识别质量之积 $\text{PQ}=\underbrace{\frac{\sum_{\text{TP}}\text{IoU}}{|\text{TP}|}}_{\text{SQ}}\times\underbrace{\frac{|\text{TP}|}{|\text{TP}|+\frac12|\text{FP}|+\frac12|\text{FN}|}}_{\text{RQ}}$，并细分为 thing 的 $\text{PQ}^{th}$ 与 stuff 的 $\text{PQ}^{st}$。域偏移含 nuScenes 内的三类（USA↔SG 地点、Sunny↔Rainy 天气、Day↔Night 时间）与跨数据集 SemanticKITTI→nuScenes（传感器+场景差异最大）。Baseline = 仅源域训练（下界），Oracle-Target / Oracle-Joint 为上界参考。
 
 ### 主实验（PQ，对比 + 消融合并自原文 Table 1）
+
 | 方法 | USA/SG | Sunny/Rainy | Day/Night | Sem.KITTI/nuSc. |
 |------|------|------|------|------|
 | Baseline（仅源域） | 64.1 | 63.5 | 64.7 | 1.2 |
@@ -90,6 +91,7 @@ DualRefine 引入两类**域不变**专家先验：**几何超点** $\mathcal{G}
 相对 Baseline，PanDA 在四个设定上 PQ 分别提升 **+13.2 / +8.9 / +8.4 / +53.3**（USA→SG、Sunny→Rainy、Day→Night、SemanticKITTI→nuScenes）。在 Day→Night 上甚至**超过 Oracle-Target 上界**（53.5%，因夜间域仅 602 帧太小），说明 AMD + DualRefine 一起弥合了严重退化下的监督缺口。对两个适配来的语义 UDA 方法全面领先，且 thing 类增益尤为突出，印证设计对实例级感知的有效性。
 
 ### 消融实验（PQ）
+
 | 配置 | USA/SG | Sunny/Rainy | Day/Night | 说明 |
 |------|------|------|------|------|
 | Ours-base | 73.7 | 70.3 | 68.6 | 仅均值教师 |
@@ -138,7 +140,7 @@ DualRefine 内部进一步拆解（原文 Table 3）：drop（类别感知滤波
 - [\[CVPR 2026\] Open-Vocabulary Domain Generalization in Urban-Scene Segmentation](open-vocabulary_domain_generalization_in_urban-scene_segmentation.md)
 - [\[ECCV 2024\] Train Till You Drop: Towards Stable and Robust Source-free Unsupervised 3D Domain Adaptation](../../ECCV2024/autonomous_driving/train_till_you_drop_towards_stable_and_robust_source-free_unsupervised_3d_domain.md)
 - [\[CVPR 2026\] MindDriver: Introducing Progressive Multimodal Reasoning for Autonomous Driving](minddriver_introducing_progressive_multimodal_reasoning_for_autonomous_driving.md)
-- [\[CVPR 2026\] The Blind Spot of Adaptation: Quantifying and Mitigating Forgetting in Fine-tuned Driving Models](blind_spot_of_adaptation_quantifying_and_mitigating_forgetting_in_fine_tuned_driving_models.md)
+- [\[AAAI 2026\] DriveFlow: Rectified Flow Adaptation for Robust 3D Object Detection in Autonomous Driving](../../AAAI2026/autonomous_driving/driveflow_rectified_flow_adaptation_for_robust_3d_object_detection_in_autonomous.md)
 
 </div>
 

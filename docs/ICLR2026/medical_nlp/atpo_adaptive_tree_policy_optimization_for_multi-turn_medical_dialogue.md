@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue
 description: >-
-  [ICLR 2026][医疗NLP][多轮医疗对话] 提出 ATPO（自适应树策略优化）算法，将多轮医疗对话建模为层级马尔可夫决策过程（H-MDP），通过不确定性感知的自适应树扩展机制动态分配rollout预算，结合Bellman误差和动作值方差的复合不确定性度量来引导探索，在三个医学对话基准上以Qwen3-8B超越GPT-4o。
+  [ICLR 2026][医疗 LLM][多轮医疗对话] 提出 ATPO（自适应树策略优化）算法，将多轮医疗对话建模为层级马尔可夫决策过程（H-MDP），通过不确定性感知的自适应树扩展机制动态分配rollout预算，结合Bellman误差和动作值方差的复合不确定性度量来引导探索，在三个医学对话基准上以Qwen3-8B超越GPT-4o。
 tags:
   - "ICLR 2026"
-  - "医疗NLP"
+  - "医疗 LLM"
   - "多轮医疗对话"
   - "树搜索"
   - "策略优化"
@@ -20,7 +20,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.02216](https://arxiv.org/abs/2603.02216)  
 **代码**: [https://github.com/Quark-Medical/ATPO](https://github.com/Quark-Medical/ATPO)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 多轮医疗对话, 树搜索, 策略优化, 不确定性引导, 层级MDP, 值函数估计, LLM对齐  
 
 ## 一句话总结

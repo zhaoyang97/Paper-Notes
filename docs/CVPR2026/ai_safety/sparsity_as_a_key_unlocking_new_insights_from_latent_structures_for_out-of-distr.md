@@ -104,6 +104,7 @@ benchmark 用 OpenOOD v1.5，ID 为 ImageNet-1k，OOD 分 near-OOD（SSB-hard、
 | OpenImage-O（far） | 26.03 | 92.12 |
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | 评分函数 EPD vs 欧氏/余弦距离 | EPD 在所有 split 上全胜 | 在同一稀疏 CAP 框架内替换评分，验证"比形状"优于"比距离" |

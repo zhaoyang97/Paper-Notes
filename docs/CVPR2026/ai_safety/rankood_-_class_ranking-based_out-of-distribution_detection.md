@@ -98,6 +98,7 @@ $$\text{RankOOD-S}=\sum_{i=0}^{K-1} w_i\,\log\big(\text{softmax}(\mathbf{u})\big
 RankOOD 在 near-OOD 上取得**第二好**（仅次于用了外部离群点的 OE），且在 TinyImageNet near-OOD 上拿到 SOTA：AUROC 提升 0.50%、FPR95 降低 4.3%。far-OOD 下排名第三；相比同为排序的 CRAFT/ExCeL，平均 FPR95 在 far-OOD 降 7.51%、near-OOD 降 4.21%。
 
 ### 消融实验
+
 | 配置 / 对比 | 关键指标 | 说明 |
 |------|---------|------|
 | RankOOD（无离群点）vs OE（有离群点） | near-OOD FPR95 44.79 vs 34.29 | 唯一胜出 RankOOD 的方法靠外部离群点，假设更强 |

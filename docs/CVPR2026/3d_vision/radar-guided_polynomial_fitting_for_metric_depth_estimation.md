@@ -114,6 +114,7 @@ $$\mathcal{L}=\lambda_1\|\hat{d}-d\|_1+\lambda_2\|\hat{d}-d\|_2^2+\lambda_m\Big\
 推理 24.81 ms ≈ 40.3 fps（比 TacoDepth 快 15.3%、比 RadarCam 快 92.1%），算力比 TacoDepth 省 39.5%、比 RadarCam 省 85.5%。即"最准 + 最快 + 最省"三冠。
 
 ### 消融实验
+
 | 配置 (nuScenes / VoD, MAE) | nuScenes | VoD | 说明 |
 |------|---------|------|------|
 | 完整模型 | 1407.8 | 1500.1 | — |

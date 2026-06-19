@@ -102,6 +102,7 @@ $$L_{style} = \lVert z_k^e - E_s(I_s)\rVert_2^2, \quad k = \arg\min_j \lVert E_s
 EmoStyle 在 Emo-A 上 33.36%、比次优（IP2P 24.34%）高出近 9 个点，SG 最低（1.976）、SD 最低（7.59）、DINO 第一（0.842）、CLIP 第二（0.718）。InST 虽然 SG 不差但 CLIP/DINO 偏低、保不住语义结构。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | Full model | 情感保真 + 风格鲜明 + 内容一致 | 完整模型 |
@@ -154,9 +155,9 @@ EmoStyle 在 Emo-A 上 33.36%、比次优（IP2P 24.34%）高出近 9 个点，S
 ## 相关论文
 
 - [\[CVPR 2026\] Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video](cross-modal_emotion_transfer_for_emotion_editing_in_talking_face_video.md)
+- [\[CVPR 2026\] Mixture of Style Experts for Diverse Image Stylization](mixture_of_style_experts_for_diverse_image_stylization.md)
 - [\[CVPR 2026\] Hist2Style: Histogram-Guided Stylization with Bilateral Grids](hist2style_histogram-guided_stylization_with_bilateral_grids.md)
 - [\[CVPR 2026\] Proxy-Tuning: Tailoring Multimodal Autoregressive Models for Subject-Driven Image Generation](proxy-tuning_tailoring_multimodal_autoregressive_models_for_subject-driven_image.md)
-- [\[ICCV 2025\] Balanced Image Stylization with Style Matching Score](../../ICCV2025/image_generation/balanced_image_stylization_with_style_matching_score.md)
 - [\[CVPR 2026\] FlowFixer: Towards Detail-Preserving Subject-Driven Generation](flowfixer_towards_detail-preserving_subject-driven_generation.md)
 
 </div>

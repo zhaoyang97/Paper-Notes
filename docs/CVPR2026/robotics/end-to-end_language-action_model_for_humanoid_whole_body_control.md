@@ -106,6 +106,7 @@ $$L(\theta)=\mathbb E\,\big\|v_\theta(A^\beta_t,\beta,c_t)-u(A^\beta_t|A_t)\big\
 SENTINEL 在所有指标上都领先：语义对齐（R@1 0.582 vs 次优 0.481）和物理执行（成功率 99.45% vs 次优 94.94%）双赢。两个核心结论：(1) 在物理接地的机器人轨迹上训练，比"人体动作生成 + retarget"显著更稳；(2) Transformer 架构比 LangWBC 的 MLP 在语义理解和未见指令泛化上强得多。
 
 ### 消融实验
+
 | 配置 | R@1 ↑ | MMD ↓ | Success ↑ | 说明 |
 |------|-------|-------|-----------|------|
 | Base | 0.582 | 3.438 | 99.45 | 完整模型 |
@@ -152,11 +153,11 @@ SENTINEL 在所有指标上都领先：语义对齐（R@1 0.582 vs 次优 0.481�
 
 ## 相关论文
 
-- [\[CVPR 2026\] LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving](lead_minimizing_learner-expert_asymmetry_in_end-to-end_driving.md)
-- [\[CVPR 2026\] Beyond Mimicry: Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations](beyond_mimicry_learning_whole-body_human-humanoid_interaction_from_human-human_d.md)
 - [\[CVPR 2026\] RoboTAG: End-to-end Robot Pose Estimation via Topological Alignment Graph](robotag_end-to-end_robot_pose_estimation_via_topological_alignment_graph.md)
+- [\[CVPR 2026\] Beyond Mimicry: Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations](beyond_mimicry_learning_whole-body_human-humanoid_interaction_from_human-human_d.md)
 - [\[CVPR 2026\] Scalable Trajectory Generation for Whole-Body Mobile Manipulation](scalable_trajectory_generation_for_whole-body_mobile_manipulation.md)
 - [\[NeurIPS 2025\] AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning](../../NeurIPS2025/robotics/autovla_a_vision-language-action_model_for_end-to-end_autonomous_driving_with_ad.md)
+- [\[CVPR 2026\] Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control](iterative_closed-loop_motion_synthesis_for_scaling_the_capabilities_of_humanoid_.md)
 
 </div>
 

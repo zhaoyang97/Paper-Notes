@@ -76,6 +76,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 基准构成
+
 | 类别 | #视频 | #题目 | 占比 | 平均题/视频 | #模板 |
 |------|------|------|------|------|------|
 | Track（追踪） | 43 | 257 | 42.69% | 5.98 | 2 |
@@ -85,6 +86,7 @@ flowchart TD
 | **总计** | **50** | **602** | 100% | 12.04 | 13 |
 
 ### 主实验：模型 vs 人类（Micro Avg. 准确率 %）
+
 | 模型 | Micro Avg. | TOrd | TLoc | Track | Mate |
 |------|------|------|------|------|------|
 | 人类 | **94.18** | 93.54 | 93.20 | 93.77 | 97.70 |
@@ -98,6 +100,7 @@ flowchart TD
 最好的模型（InternVL3-78B 41.03%）也只比频率猜（26.74%）高约 14 个点，离人类 94.18% 还差着 53 个点；最弱的开源模型（Video-LLaVA-7B 23.75%）甚至低于随机。Track 子任务普遍最差，正是"长程追踪"这块短板的直接体现。
 
 ### 关键诊断实验
+
 | 实验 | 关键指标 | 说明 |
 |------|---------|------|
 | 仅图像（去掉视频） | Micro Δ **−8.80**，Track Δ **−24.51** | 去掉视频后整体掉 8.8 点、Track 暴跌 24.5 点，但 TLoc/Mate 反而升——说明模型几乎只靠 Track 用了视频，其余靠图像+常识捷径 |
@@ -108,6 +111,7 @@ flowchart TD
 | SAM2 跨帧追踪 | 平均 IoU **0.28** | 专用追踪模型在野外装配视频上也很差 |
 
 ### 错误归因（200 道错题，按自解释分类）
+
 | 错误类型 | 占比 | 含义 |
 |------|------|------|
 | 物体定位（Object Grounding） | 37.28% | 没能把图像里的零件和视频里的对应上 |
@@ -152,10 +156,10 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] R4: Retrieval-Augmented Reasoning for Vision-Language Models in 4D Spatio-Temporal Space](r4_retrieval-augmented_reasoning_for_vision-language_models_in_4d_spatio-tempora.md)
-- [\[CVPR 2026\] LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map](lasar_towards_spatio-temporal_reasoning_with_latent_cognitive_map.md)
 - [\[CVPR 2026\] DiGraphHal-Bench: Evaluating Multimodal Large Language Models on Complex Directed Graphs](digraphhal-bench_evaluating_multimodal_large_language_models_on_complex_directed.md)
-- [\[ICLR 2026\] GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models](../../ICLR2026/multimodal_vlm/gtr-bench_evaluating_geo-temporal_reasoning_in_vision-language_mod.md)
+- [\[CVPR 2026\] LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map](lasar_towards_spatio-temporal_reasoning_with_latent_cognitive_map.md)
+- [\[CVPR 2026\] InstAP: Instance-Aware Vision-Language Pre-Train for Spatial-Temporal Understanding](instap_instance-aware_vision-language_pre-train_for_spatial-temporal_understandi.md)
+- [\[CVPR 2026\] ENC-Bench: A Benchmark for Evaluating MLLMs in Electronic Navigational Chart Understanding](enc-bench_a_benchmark_for_evaluating_multimodal_large_language_models_in_electro.md)
 - [\[CVPR 2026\] ViKey: Enhancing Temporal Understanding in Videos via Visual Prompting](vikey_enhancing_temporal_understanding_in_videos_via_visual_prompting.md)
 
 </div>

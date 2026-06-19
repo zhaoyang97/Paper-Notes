@@ -95,6 +95,7 @@ flowchart TD
 可以看到：(1) CAGE 在所有压缩方法上一致地把鲁棒精度压得比基线更低，尤其在 TextVQA 上幅度最大（一项 OCR-VQA 任务，依赖精细视觉证据，对 Token 丢失更敏感）；(2) 即便在无压缩的"上界"设置下，CAGE 也优于基线，说明 EFD/RDA 提供的"扰动集中 + 注意力推高"机制本身就是个更强的编码器攻击。
 
 ### 消融与动机分析
+
 | 配置 | 在 $K_{\text{model}}=16$ 下的鲁棒精度 (%, ↓) | 结论 |
 |------|-----------------------------------------------|------|
 | $K_{\text{attack}}=576$（全 Token，VEAttack 默认） | 49.7 | 优化-推理空间不匹配，明显偏弱 |
@@ -137,11 +138,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] EvoComp: Learning Visual Token Compression for Multimodal Large Language Models via Semantic-Guided Evolutionary Labeling](../../CVPR2026/multimodal_vlm/evocomp_learning_visual_token_compression_for_multimodal_large_language_models_v.md)
-- [\[ICML 2026\] Certified Robustness under Heterogeneous Perturbations via Hybrid Randomized Smoothing](certified_robustness_under_heterogeneous_perturbations_via_hybrid_randomized_smo.md)
-- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](../../CVPR2026/multimodal_vlm/unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
-- [\[CVPR 2026\] AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models](../../CVPR2026/multimodal_vlm/agft_alignment-guided_fine-tuning_for_zero-shot_adversarial_robustness_of_vision.md)
-- [\[ICLR 2026\] PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models](../../ICLR2026/multimodal_vlm/ppe_positional_preservation_embedding_for_token_compression_in_multimodal_large_.md)
+- [\[AAAI 2026\] Rethinking Visual Token Reduction in LVLMs under Cross-Modal Misalignment](../../AAAI2026/vlm_efficiency/rethinking_visual_token_reduction_in_lvlms_under_cross-modal_misalignment.md)
+- [\[CVPR 2026\] Hybrid Token Compression for Vision-Language Models](../../CVPR2026/vlm_efficiency/hybrid_token_compression_for_vision-language_models.md)
+- [\[CVPR 2026\] EvoComp: Learning Visual Token Compression for Multimodal Large Language Models via Semantic-Guided Evolutionary Labeling](../../CVPR2026/vlm_efficiency/evocomp_learning_visual_token_compression_for_multimodal_large_language_models_v.md)
+- [\[ECCV 2024\] IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models](../../ECCV2024/vlm_efficiency/ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md)
+- [\[CVPR 2026\] Accelerating Streaming Video Large Language Models via Hierarchical Token Compression](../../CVPR2026/vlm_efficiency/accelerating_streaming_video_large_language_models_via_hierarchical_token_compre.md)
 
 </div>
 

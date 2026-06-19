@@ -105,6 +105,7 @@ $$\mathcal{L}_{total}=\mathcal{L}_{mov\_seg}+\lambda_{flow}\mathcal{L}_{flow}+\l
 三个基准都是 SOTA。小目标最密集的 SEVD-Fixed 上比 EvInsMOS 高 5.55%（mIoUins），MouseSIS 上 mAP 从 30.94% 跃到 45.18%（涨 14 个点，说明误检大幅减少）。EVIMO 目标较大、基线本就强，提升幅度最小（+0.82%），侧面印证 DIMOS 的红利主要来自小目标场景。
 
 ### 消融实验（MouseSIS，逐项叠加）
+
 | 配置 | mIoUins (%) | 说明 |
 |------|------|------|
 | 基线（纯多模态交互） | 60.47 | 无任何附加模块 |
@@ -150,11 +151,11 @@ backbone 消融：ResNet-50 70.25% / ResNet-18 69.32% / MobileNetV2 68.62%，换
 
 ## 相关论文
 
-- [\[CVPR 2026\] Moving Border Ownership for Event-based Motion Segmentation](moving_border_ownership_for_event-based_motion_segmentation.md)
 - [\[ECCV 2024\] Unsupervised Moving Object Segmentation with Atmospheric Turbulence](../../ECCV2024/segmentation/unsupervised_moving_object_segmentation_with_atmospheric_turbulence.md)
 - [\[ECCV 2024\] Dataset Enhancement with Instance-Level Augmentations](../../ECCV2024/segmentation/dataset_enhancement_with_instance-level_augmentations.md)
 - [\[CVPR 2026\] MARIS: Marine Open-Vocabulary Instance Segmentation](maris_marine_open-vocabulary_instance_segmentation.md)
-- [\[CVPR 2026\] Phrase-Instance Alignment for Generalized Referring Segmentation](phrase-instance_alignment_for_generalized_referring_segmentation.md)
+- [\[CVPR 2026\] Dual-level Adapter Boosting Prompt-free Curvilinear Structure Segmentation](dual-level_adapter_boosting_prompt-free_curvilinear_structure_segmentation.md)
+- [\[CVPR 2026\] BiPA: Bilevel Prompt Adaptation for Underwater Instance Segmentation](bipa_bilevel_prompt_adaptation_for_underwater_instance_segmentation.md)
 
 </div>
 

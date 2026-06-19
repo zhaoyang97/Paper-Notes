@@ -1,16 +1,16 @@
 ---
 title: >-
-  ICML2026 LLM其他论文汇总 · 33篇论文解读
+  ICML2026 LLM其他论文汇总 · 39篇论文解读
 description: >-
-  33篇ICML2026的 LLM 其他方向论文解读，涵盖 LLM、对抗鲁棒、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  39篇ICML2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "LLM 其他"
   - "论文解读"
   - "论文笔记"
   - "LLM"
-  - "对抗鲁棒"
   - "扩散模型"
+  - "对抗鲁棒"
 item_list:
   - u: "a_geometric_relation_of_the_error_introduced_by_sampling_a_language_models_outpu/"
     t: "A Geometric Relation of the Error Introduced by Sampling a Language Model's Output Distribution to its Internal State"
@@ -20,16 +20,22 @@ item_list:
     t: "Automated Formal Proofs of Combinatorial Identities via Wilf–Zeilberger Guidance and LLMs"
   - u: "compute_as_teacher_turning_inference_compute_into_reference-free_supervision/"
     t: "Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision"
+  - u: "creative_collision_directorial_persona_steering_and_competition_in_large_languag/"
+    t: "Creative Collision: Directorial Persona Steering and Competition in Large Language Models"
   - u: "deep_networks_learn_to_parse_uniform-depth_context-free_languages_from_local_sta/"
     t: "Deep Networks Learn to Parse Uniform-Depth Context-Free Languages from Local Statistics"
   - u: "differential_syntactic_and_semantic_encoding_in_llms/"
     t: "Differential Syntactic and Semantic Encoding in LLMs"
+  - u: "emergence_of_hierarchical_emotion_organization_in_large_language_models/"
+    t: "Emergence of Hierarchical Emotion Organization in Large Language Models"
   - u: "express_your_doubts_--_probabilistic_world_modeling_should_not_be_based_on_token/"
     t: "Express Your Doubts: Probabilistic World Modeling Should Not Be Based on Token logprobs"
   - u: "how_many_different_outputs_can_a_transformer_generate/"
     t: "How Many Different Outputs Can a Transformer Generate?"
   - u: "ive_seen_how_this_goes_characterizing_diversity_via_progressive_conditional_surp/"
     t: "\"I've Seen How This Goes\"：用渐进条件惊奇度刻画 LLM 与人类写作的多样性"
+  - u: "masks_can_be_distracting_on_context_comprehension_in_diffusion_language_models/"
+    t: "Masks Can Be Distracting: On Context Comprehension in Diffusion Language Models"
   - u: "mitigating_staleness_in_asynchronous_pipeline_parallelism_via_basis_rotation/"
     t: "Mitigating Staleness in Asynchronous Pipeline Parallelism via Basis Rotation"
   - u: "model-preserving_adaptive_rounding/"
@@ -42,8 +48,14 @@ item_list:
     t: "Optimizing Diversity and Quality through Base-Aligned Model Collaboration"
   - u: "position_adversarial_ml_for_llms_is_not_making_any_progress/"
     t: "Position: Adversarial ML for LLMs Is Not Making Any Progress"
+  - u: "position_hippocampal_explicit_memory_is_the_cornerstone_for_agi/"
+    t: "Position: Hippocampal Explicit Memory Is the Cornerstone for AGI"
+  - u: "position_the_ml_community_must_build_an_ai-augmented_peer-review_ecosystem/"
+    t: "Position: The ML Community Must Build an AI-Augmented Peer-Review Ecosystem"
   - u: "position_the_turing-completeness_of_autoregressive_transformers_relies_heavily_o/"
     t: "Position: The Turing-Completeness of Autoregressive Transformers Relies Heavily on Context Management"
+  - u: "preregistration_for_experiments_with_ai_agents/"
+    t: "Preregistration for Experiments with AI Agents"
   - u: "rare_event_analysis_of_large_language_models/"
     t: "Rare Event Analysis of Large Language Models"
   - u: "reasoning_on_the_manifold_bidirectional_consistency_for_self-verification_in_dif/"
@@ -60,29 +72,17 @@ item_list:
     t: "SLAY: Geometry-Aware Spherical Linearized Attention with Yat-Kernel"
   - u: "spa-cache_singular_proxies_for_adaptive_caching_in_diffusion_language_models/"
     t: "SPA-Cache: Singular Proxies for Adaptive Caching in Diffusion Language Models"
-  - u: "sphericaldreamer_generating_navigable_immersive_3d_worlds_with_panorama_fusion/"
-    t: "SphericalDreamer: Generating Navigable Immersive 3D Worlds with Panorama Fusion"
-  - u: "stop_automating_peer_review_without_rigorous_evaluation/"
-    t: "Stop Automating Peer Review Without Rigorous Evaluation"
-  - u: "t2po_uncertainty-guided_exploration_control_for_stable_multi-turn_agentic_reinfo/"
-    t: "T$^2$PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning"
-  - u: "the_cylindrical_representation_hypothesis_for_language_model_steering/"
-    t: "The Cylindrical Representation Hypothesis for Language Model Steering"
-  - u: "token-efficient_change_detection_in_llm_apis/"
-    t: "Token-Efficient Change Detection in LLM APIs"
-  - u: "trading_complexity_for_expressivity_through_structured_generalized_linear_token_/"
-    t: "结构化广义线性 token mixing：用 SND + Kronecker 在复杂度与表达力之间换挡"
-item_total: 33
+item_total: 39
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM 其他
 
-**🧪 ICML2026** · **33** 篇论文解读
+**🧪 ICML2026** · **39** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/llm_nlp/index.md) · [💬 ACL2026 (59)](../../ACL2026/llm_nlp/index.md) · [🔬 ICLR2026 (33)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/llm_nlp/index.md) · [💬 ACL2026 (61)](../../ACL2026/llm_nlp/index.md) · [🔬 ICLR2026 (37)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
 
-🔥 **高频主题：** LLM ×11 · 对抗鲁棒 ×2 · 扩散模型 ×2
+🔥 **高频主题：** LLM ×13 · 扩散模型 ×3 · 对抗鲁棒 ×2
 
 **[A Geometric Relation of the Error Introduced by Sampling a Language Model's Output Distribution to its Internal State](a_geometric_relation_of_the_error_introduced_by_sampling_a_language_models_outpu.md)**
 
@@ -100,6 +100,10 @@ item_total: 33
 
 :   本文提出 Compute as Teacher（CaT）：把 GRPO 已经在采样的 G 条 rollouts 通过冻结锚模型"合成"出一个伪参考答案，再在非可验证领域用模型自己从该伪参考衍生的二元 rubric 给每条 rollout 打分作为 RL 奖励，从而在没有任何人工标注的情况下把推理算力直接变成监督信号，在 HealthBench 上相对基线最高提升 30%，并以 9× 更低的测试时算力匹配甚至超过 inference-time aggregation。
 
+**[Creative Collision: Directorial Persona Steering and Competition in Large Language Models](creative_collision_directorial_persona_steering_and_competition_in_large_languag.md)**
+
+:   把两个语义对立的"导演人格"引导向量（Spielberg 乐观救赎 vs Scorsese 阴暗道德模糊）同时注入大模型残差流，系统刻画两个方向相互竞争时的道德基调、连贯度与几何变化，发现了"方向支配"、"连贯度低谷"和"第 28 层道德枢纽"三个反直觉现象。
+
 **[Deep Networks Learn to Parse Uniform-Depth Context-Free Languages from Local Statistics](deep_networks_learn_to_parse_uniform-depth_context-free_languages_from_local_sta.md)**
 
 :   作者提出一个可控歧义的"变树 RHM"概率上下文无关文法，并证明只用 root-to-pair / root-to-triple 这两个低阶矩 + 逐层聚类，就能恢复语法规则、进行 CYK 式解析，对应样本复杂度 $P^\star \asymp v\, m_3\, m_2^{L-1} (p_2^2/2)^{1-L}$，CNN 与 Transformer 实验完全符合该幂律。
@@ -107,6 +111,10 @@ item_total: 33
 **[Differential Syntactic and Semantic Encoding in LLMs](differential_syntactic_and_semantic_encoding_in_llms.md)**
 
 :   通过对共享句法结构或共享含义的句子做隐层表示平均得到"句法质心"和"语义质心"，作者证明 DeepSeek-V3 等大模型的句子向量中相当一部分句法/语义信息是被**线性叠加**编码的，并且这两类信息在层间分布和正交消融上都呈现明显的可分离性——支持"句法相对自治"的语言学假说。
+
+**[Emergence of Hierarchical Emotion Organization in Large Language Models](emergence_of_hierarchical_emotion_organization_in_large_language_models.md)**
+
+:   论文用一个只靠 LLM 输出 logits、无需任何标注的建树算法，从模型对情绪词的下一词分布里"挖"出层级化情绪树，发现这种树随模型规模增大越来越接近人类心理学的情绪轮（emotion wheel），并进一步证明 LLM 在不同人口学 persona 下复现了与真人一致的系统性情绪识别偏见。
 
 **[Express Your Doubts: Probabilistic World Modeling Should Not Be Based on Token logprobs](express_your_doubts_--_probabilistic_world_modeling_should_not_be_based_on_token.md)**
 
@@ -119,6 +127,10 @@ item_total: 33
 **["I've Seen How This Goes"：用渐进条件惊奇度刻画 LLM 与人类写作的多样性](ive_seen_how_this_goes_characterizing_diversity_via_progressive_conditional_surp.md)**
 
 :   本文提出 $D_{Ca_n}=C\cdot a_n$ 这一无需 embedding、无需参考语料、无需人工标签的多样性度量：用一个基座模型 $\theta$ 在单次前向里读完所有响应，把"最后一条响应在已见过 $n-1$ 条之后还剩多少 per-byte 条件惊奇"乘上"响应整体的可读性"，在 McDiv 人评基准上逼近 SentBERT，并在 OLMo-2-7B 的 base→SFT→DPO→RLVR 上单调下降，准确捕捉后训练带来的模式坍缩。
+
+**[Masks Can Be Distracting: On Context Comprehension in Diffusion Language Models](masks_can_be_distracting_on_context_comprehension_in_diffusion_language_models.md)**
+
+:   这篇论文系统揭示了掩码扩散语言模型（MDLM）两个被忽视的缺陷——和自回归模型一样存在强局部性偏置、以及"为并行生成而追加的掩码 token 会像干扰物一样拖垮上下文理解"，并提出一个掩码无关（mask-agnostic）微调损失，强制模型预测对掩码数量保持不变，从而显著恢复鲁棒性。
 
 **[Mitigating Staleness in Asynchronous Pipeline Parallelism via Basis Rotation](mitigating_staleness_in_asynchronous_pipeline_parallelism_via_basis_rotation.md)**
 
@@ -144,9 +156,21 @@ item_total: 33
 
 :   这是一篇立场论文，作者认为对抗机器学习在 LLM 时代研究的问题相比传统分类器场景"更难定义、更难求解、更难评测"，过去十年在 $\ell_p$ 鲁棒等"玩具问题"上就进展缓慢，如今全面转向 LLM 后很可能再耗一个十年仍无法产出可度量、可复现的安全保证。
 
+**[Position: Hippocampal Explicit Memory Is the Cornerstone for AGI](position_hippocampal_explicit_memory_is_the_cornerstone_for_agi.md)**
+
+:   这是一篇立场文（position paper），作者用神经科学证据论证：LLM 的底层学习机制本质上对应人脑的「隐式记忆」（基底神经节的习惯/程序性学习），而通往 AGI 所必需的高阶认知——长程规划、元认知、符号推理——依赖海马体的「显式记忆」，无法靠纯统计式隐式学习涌现出来，因此**给 LLM 补上一套显式记忆系统是迈向 AGI 的基石**，并进一步给出人工显式记忆系统需满足的 8 条计算要求。
+
+**[Position: The ML Community Must Build an AI-Augmented Peer-Review Ecosystem](position_the_ml_community_must_build_an_ai-augmented_peer-review_ecosystem.md)**
+
+:   这是一篇立场论文，主张机器学习社区应当紧急建设一个"AI 增强"的同行评审生态——把 LLM 当作作者、评审人、领域主席（AC）三类角色的协作助手而非替代者，并指出真正的近期瓶颈不是更强的模型，而是缺少能记录"评分为何改变、哪句 rebuttal 化解了哪条质疑"的结构化过程数据。
+
 **[Position: The Turing-Completeness of Autoregressive Transformers Relies Heavily on Context Management](position_the_turing-completeness_of_autoregressive_transformers_relies_heavily_o.md)**
 
 :   作者指出"Transformer 是图灵完备"这一流行说法在大多数已有证明里其实悄悄换成了"一族不同的 Transformer 共同能模拟图灵机"，并形式化了贴近真实部署的固定系统 $(T,D,C)$，证明同一个固定 Transformer 在不同上下文管理策略下计算能力可以从仅识别正则语言一路跃迁到图灵完备，从而把研究重点从模型本身扭转到 context manager 上。
+
+**[Preregistration for Experiments with AI Agents](preregistration_for_experiments_with_ai_agents.md)**
+
+:   这是一篇立场论文，主张把社会科学用来对抗"可复现性危机"的预注册（preregistration）实践，扩展到"把 LLM/AI agent 当实验被试"的行为实验上——它系统编目了 AI agent 实验特有的"研究者自由度"，并给出一套为这类实验量身定制的预注册模板。
 
 **[Rare Event Analysis of Large Language Models](rare_event_analysis_of_large_language_models.md)**
 

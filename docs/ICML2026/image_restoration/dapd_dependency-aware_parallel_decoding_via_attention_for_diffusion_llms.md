@@ -87,6 +87,7 @@ flowchart TD
 在 MBPP、IFEval 等任务上，DAPD 在单 block 设置下显著超过需要 block 切分或 EOS 抑制才能保住准确率的 baseline；ParallelBench (专门压力测试并行解码的依赖鲁棒性) 上同样占据 Score-Steps 帕累托前沿。
 
 ### 消融实验
+
 | 配置 | 关键观察 | 说明 |
 |------|---------|------|
 | 注意力层选取 (Tab. 10) | 用最后 ~30% 层最佳 | 高层整合全局信息，低层偏向 token-level 局部信号 |
@@ -134,10 +135,10 @@ flowchart TD
 ## 相关论文
 
 - [\[ICML 2026\] DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention](dyllm_efficient_diffusion_llm_inference_via_saliency-based_token_selection_and_p.md)
-- [\[ICLR 2026\] Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs](../../ICLR2026/image_restoration/skip_to_the_good_part_representation_structure_inference-time_layer_skipping_in_.md)
 - [\[ICML 2026\] Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules](triadic_dynamics_aware_diffusion_posterior_sampling_for_inverse_problems_optimiz.md)
+- [\[ICLR 2026\] Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs](../../ICLR2026/image_restoration/skip_to_the_good_part_representation_structure_inference-time_layer_skipping_in_.md)
 - [\[ICML 2025\] ε-VAE: Denoising as Visual Decoding](../../ICML2025/image_restoration/epsilon-vae_denoising_as_visual_decoding.md)
-- [\[CVPR 2026\] CARD: Correlation Aware Restoration with Diffusion](../../CVPR2026/image_restoration/card_correlation_aware_restoration_with_diffusion.md)
+- [\[ICML 2026\] Degradation-Aware Metric Prompting for Hyperspectral Image Restoration](degradation-aware_metric_prompting_for_hyperspectral_image_restoration.md)
 
 </div>
 

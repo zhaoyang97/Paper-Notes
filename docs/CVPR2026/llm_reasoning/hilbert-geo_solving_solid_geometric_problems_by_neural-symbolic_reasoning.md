@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning
 description: >-
-  [CVPR 2026][LLM推理][立体几何] Hilbert-Geo 是首个面向**立体几何**的统一形式化语言框架（含谓词库 + 定理库），用"先解析后推理"的 Parse2Reason 方法——先让多模态大模型把文字题面和 3D 图示翻译成形式化的条件描述语言（CDL），再用专门的符号推理引擎做严格的定理搜索，从而把 MLLM 在立体几何上 50% 出头的准确率提到 77.3%，逼近人类水平。
+  [CVPR 2026][Reasoning][立体几何] Hilbert-Geo 是首个面向**立体几何**的统一形式化语言框架（含谓词库 + 定理库），用"先解析后推理"的 Parse2Reason 方法——先让多模态大模型把文字题面和 3D 图示翻译成形式化的条件描述语言（CDL），再用专门的符号推理引擎做严格的定理搜索，从而把 MLLM 在立体几何上 50% 出头的准确率提到 77.3%，逼近人类水平。
 tags:
   - "CVPR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "立体几何"
   - "神经符号推理"
   - "形式化语言"
@@ -143,8 +143,8 @@ Table 2：同一框架下换不同 MLLM 做解析（45 示例），看准确率�
 
 - [\[CVPR 2026\] Human-like Abstract Visual Reasoning via Understanding and Solving Reasoning Loop](human-like_abstract_visual_reasoning_via_understanding_and_solving_reasoning_loo.md)
 - [\[ICLR 2026\] GeoGramBench: Benchmarking the Geometric Program Reasoning in Modern LLMs](../../ICLR2026/llm_reasoning/geogrambench_benchmarking_the_geometric_program_reasoning_in_modern_llms.md)
-- [\[AAAI 2026\] MathSmith: Towards Extremely Hard Mathematical Reasoning by Forging Synthetic Problems with a Reinforced Policy](../../AAAI2026/llm_reasoning/mathsmith_towards_extremely_hard_mathematical_reasoning_by_forging_synthetic_pro.md)
 - [\[ICLR 2026\] $\textbf{Re}^{2}$: Unlocking LLM Reasoning via Reinforcement Learning with Re-solving](../../ICLR2026/llm_reasoning/textbfre2_unlocking_llm_reasoning_via_reinforcement_learning_with_re-solving.md)
+- [\[AAAI 2026\] MathSmith: Towards Extremely Hard Mathematical Reasoning by Forging Synthetic Problems with a Reinforced Policy](../../AAAI2026/llm_reasoning/mathsmith_towards_extremely_hard_mathematical_reasoning_by_forging_synthetic_pro.md)
 - [\[NeurIPS 2025\] MuSLR: Multimodal Symbolic Logical Reasoning](../../NeurIPS2025/llm_reasoning/muslr_multimodal_symbolic_logical_reasoning.md)
 
 </div>

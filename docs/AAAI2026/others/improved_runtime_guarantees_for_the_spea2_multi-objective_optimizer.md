@@ -132,9 +132,9 @@ tags:
 
 - [\[AAAI 2026\] Center-Outward q-Dominance: A Sample-Computable Proxy for Strong Stochastic Dominance in Multi-Objective Optimisation](center-outward_q-dominance_a_sample-computable_proxy_for_strong_stochastic_domin.md)
 - [\[AAAI 2026\] Improved Differentially Private Algorithms for Rank Aggregation](improved_differentially_private_algorithms_for_rank_aggregation.md)
-- [\[CVPR 2026\] Tunable Soft Equivariance with Guarantees](../../CVPR2026/others/tunable_soft_equivariance_with_guarantees.md)
 - [\[ICML 2025\] Runtime Analysis of Evolutionary NAS for Multiclass Classification](../../ICML2025/others/runtime_analysis_of_evolutionary_nas_for_multiclass_classification.md)
 - [\[AAAI 2026\] Towards a Rigorous Understanding of the Population Dynamics of the NSGA-III: Tight Runtime Bounds](towards_a_rigorous_understanding_of_the_population_dynamics_of_the_nsga-iii_tigh.md)
+- [\[ICLR 2026\] Active Learning for Decision Trees with Provable Guarantees](../../ICLR2026/others/active_learning_for_decision_trees_with_provable_guarantees.md)
 
 </div>
 

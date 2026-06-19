@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 图学习论文汇总 · 20篇论文解读
+  ICLR2026 图学习论文汇总 · 30篇论文解读
 description: >-
-  20篇ICLR2026的图学习方向论文解读，涵盖图神经网络、LLM、对齐/RLHF、生物分子、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  30篇ICLR2026的图学习方向论文解读，涵盖图神经网络、LLM、水印/隐写、扩散模型、推理、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "图学习"
@@ -10,18 +10,39 @@ tags:
   - "论文笔记"
   - "图神经网络"
   - "LLM"
+  - "水印/隐写"
+  - "扩散模型"
+  - "推理"
   - "对齐/RLHF"
-  - "生物分子"
-  - "Agent"
 item_list:
   - u: "a_geometric_perspective_on_the_difficulties_of_learning_gnn-based_sat_solvers/"
     t: "A Geometric Perspective on the Difficulties of Learning GNN-based SAT Solvers"
+  - u: "a_graph_meta-network_for_learning_on_kolmogorovarnold_networks/"
+    t: "A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks"
+  - u: "actions_speak_louder_than_prompts_a_large-scale_study_of_llms_for_graph_inferenc/"
+    t: "Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference"
+  - u: "adaptive_mixture_of_disentangled_experts_for_dynamic_graph_out-of-distribution_g/"
+    t: "Adaptive Mixture of Disentangled Experts for Dynamic Graph Out-of-Distribution Generalization"
+  - u: "ads-gnn_-_a_conformally_equivariant_graph_neural_network/"
+    t: "AdS-GNN - a Conformally Equivariant Graph Neural Network"
   - u: "are_we_measuring_oversmoothing_in_graph_neural_networks_correctly/"
     t: "Are We Measuring Oversmoothing in Graph Neural Networks Correctly?"
+  - u: "atlaskv_augmenting_llms_with_billion-scale_knowledge_graphs_in_20gb_vram/"
+    t: "AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM"
   - u: "beyond_simple_graphs_neural_multi-objective_routing_on_multigraphs/"
     t: "Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs"
+  - u: "bures-wasserstein_flow_matching_for_graph_generation/"
+    t: "Bures-Wasserstein Flow Matching for Graph Generation"
+  - u: "canonical_tree_cover_neural_networks_for_expressive_and_invariant_graph_learning/"
+    t: "Canonical Tree Cover Neural Networks for Expressive and Invariant Graph Learning"
+  - u: "checkmate_watermarking_graph_diffusion_models_in_polynomial_time/"
+    t: "CheckMate! Watermarking Graph Diffusion Models in Polynomial Time"
+  - u: "clause_agentic_neuro-symbolic_knowledge_graph_reasoning_via_dynamic_learnable_co/"
+    t: "CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering"
   - u: "cooperative_sheaf_neural_networks/"
     t: "Cooperative Sheaf Neural Networks"
+  - u: "cords_-_continuous_representations_of_discrete_structures/"
+    t: "CORDS - Continuous Representations of Discrete Structures"
   - u: "entropy-guided_dynamic_tokens_for_graph-llm_alignment_in_molecular_understanding/"
     t: "Entropy-Guided Dynamic Tokens for Graph-LLM Alignment in Molecular Understanding"
   - u: "explore-on-graph_incentivizing_autonomous_exploration_of_large_language_models_o/"
@@ -54,33 +75,73 @@ item_list:
     t: "Structurally Human, Semantically Biased: Detecting LLM-Generated References with Embeddings and GNNs"
   - u: "towards_improved_sentence_representations_using_token_graphs/"
     t: "Towards Improved Sentence Representations using Token Graphs"
-item_total: 20
+item_total: 30
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🔬 ICLR2026** · **20** 篇论文解读
+**🔬 ICLR2026** · **30** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (10)](../../CVPR2026/graph_learning/index.md) · [🧪 ICML2026 (31)](../../ICML2026/graph_learning/index.md) · [💬 ACL2026 (23)](../../ACL2026/graph_learning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/graph_learning/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/graph_learning/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/graph_learning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/graph_learning/index.md) · [🧪 ICML2026 (35)](../../ICML2026/graph_learning/index.md) · [💬 ACL2026 (24)](../../ACL2026/graph_learning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/graph_learning/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/graph_learning/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/graph_learning/index.md)
 
-🔥 **高频主题：** 图神经网络 ×5 · LLM ×3
+🔥 **高频主题：** 图神经网络 ×6 · LLM ×3
 
 **[A Geometric Perspective on the Difficulties of Learning GNN-based SAT Solvers](a_geometric_perspective_on_the_difficulties_of_learning_gnn-based_sat_solvers.md)**
 
 :   从图 Ricci 曲率的几何视角证明随机 k-SAT 问题的二部图表示具有固有的负曲率，且曲率随问题难度增加而下降，建立了 GNN 过压缩 (oversquashing) 与 SAT 求解困难之间的理论联系，并通过测试时图重布线验证了该理论。
 
+**[A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks](a_graph_meta-network_for_learning_on_kolmogorovarnold_networks.md)**
+
+:   本文证明 Kolmogorov–Arnold 网络（KAN）和 MLP 共享同样的神经元置换对称性，据此把一个训练好的 KAN 编码成「KAN-graph」（节点是神经元、边携带那条边上一维函数的参数），并设计首个直接在 KAN 上做学习的权重空间架构 WS-KAN（一个双向消息传递 GNN），在预测精度、分类 INR、预测剪枝掩码等任务上大幅超过对称性无关的基线。
+
+**[Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference](actions_speak_louder_than_prompts_a_large-scale_study_of_llms_for_graph_inferenc.md)**
+
+:   这是一篇大规模、可控的实证研究，系统对比 LLM 处理文本图的三种"交互模式"——直接 prompting、ReAct 式工具调用、以及让 LLM 写代码查图的 Graph-as-Code——发现**让 LLM 自己写代码操作图**（而不是把图塞进 prompt）在节点分类上整体最强，尤其在长文本、高度数的稠密图上优势巨大，并且它能在结构、特征、标签三种信号间自适应地切换依赖。
+
+**[Adaptive Mixture of Disentangled Experts for Dynamic Graph Out-of-Distribution Generalization](adaptive_mixture_of_disentangled_experts_for_dynamic_graph_out-of-distribution_g.md)**
+
+:   针对动态图上"分布偏移本身会随时间演化"这一现象，本文提出 AdaMix：用一个时空分布探测器实时感知每个时刻的偏移，再用原型引导的解耦专家混合（多种 GNN 架构当专家）按偏移自适应路由，最后用分布感知干预机制挖掘不变模式，在真实与合成动态图数据集上显著超过固定架构的 SOTA。
+
+**[AdS-GNN - a Conformally Equivariant Graph Neural Network](ads-gnn_-_a_conformally_equivariant_graph_neural_network.md)**
+
+:   这篇论文把点云从平直欧氏空间"抬升"到高一维的反德西特（AdS）空间，借助物理里 AdS 等距变换 ⇔ 边界共形变换的对应关系，构造出第一个对**完整共形群**（含平移、旋转、缩放，乃至非仿射的特殊共形变换）等变的图神经网络 AdS-GNN，并在超像素 MNIST、形状分割和 Ising 模型关联函数等任务上展现出更强的尺度泛化能力，还能从训练好的网络里直接读出共形维数这种物理上有意义的普适量。
+
 **[Are We Measuring Oversmoothing in Graph Neural Networks Correctly?](are_we_measuring_oversmoothing_in_graph_neural_networks_correctly.md)**
 
 :   指出广泛使用的Dirichlet energy指标无法在实际场景中正确捕获GNN过平滑现象，提出以特征表征的数值秩/有效秩（effective rank）作为替代度量。在深度2–24、各深度独立训练的设定下，Erank与准确率的平均相关性达0.91（且方向一致为正），而Dirichlet energy平均仅−0.72、相关方向在数据集间反复横跳（在大规模OGB-Arxiv等场景下尤其失效）；并从理论上证明对线性及非负权重的非线性GNN族其特征矩阵数值秩收敛到1（秩坍塌），从而把过平滑重新定义为秩坍塌而非特征向量对齐。
+
+**[AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM](atlaskv_augmenting_llms_with_billion-scale_knowledge_graphs_in_20gb_vram.md)**
+
+:   AtlasKV 把知识图谱里的每条三元组直接转成 Q-K-V 数据并以注意力的方式注入 LLM，再用层次化键值剪枝把复杂度从线性压到次线性，从而在 20GB 显存内为 LLM 接入十亿级（1B triples）知识图谱，无需外部检索器、无需长上下文、也无需为新知识重训。
 
 **[Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs](beyond_simple_graphs_neural_multi-objective_routing_on_multigraphs.md)**
 
 :   首次提出针对多重图（multigraph）的神经组合优化路由方法 GMS，包含直接在多重图上边级自回归构造的 GMS-EB 和先学习剪枝再节点级路由的双头 GMS-DH 两个变体，在非对称多目标 TSP 和 CVRP 上实现了接近精确求解器 LKH 的性能且速度快数十倍。
 
+**[Bures-Wasserstein Flow Matching for Graph Generation](bures-wasserstein_flow_matching_for_graph_generation.md)**
+
+:   针对现有图生成扩散/流模型「把节点和边拆开各自线性插值」导致概率路径不平滑、训练采样都难收敛的问题，本文用马尔可夫随机场（MRF）把图建模成一个相互耦合的彩色高斯系统，再用图分布之间的最优传输（Bures-Wasserstein）位移构造出一条平滑、闭式、仿真无关的概率路径，得到流匹配框架 BWFlow，在平面图与分子生成上取得更好性能、更快收敛和更高效采样。
+
+**[Canonical Tree Cover Neural Networks for Expressive and Invariant Graph Learning](canonical_tree_cover_neural_networks_for_expressive_and_invariant_graph_learning.md)**
+
+:   针对"把图压成单条序列做正则化（canonicalization）会扭曲图上距离、且表达力被节点标注器卡死"这两个老毛病，本文提出 CTNN：把图表示成**一组规范化的生成树覆盖**（canonical spanning tree cover），每棵树用表达力强的递归树编码器处理再聚合，理论上既保不变性、又更好地保距离、还严格强于序列正则化，在稀疏分子/蛋白图分类上稳定超过不变 GNN 和序列正则化基线。
+
+**[CheckMate! Watermarking Graph Diffusion Models in Polynomial Time](checkmate_watermarking_graph_diffusion_models_in_polynomial_time.md)**
+
+:   CheckWate 是第一个面向**图扩散模型**的采样期水印框架：它把水印藏进噪声隐变量的**特征值**里（特征值对图同构不变），从而绕开图同构（GI）和图编辑距离（GED）这两个 NP-hard 障碍，做到 $O(N^3)$ 多项式时间的水印验证，在四个数据集、四种图攻击下都能稳定检出，而把图像/表格水印硬搬到图上的基线在同构攻击下几乎全军覆没。
+
+**[CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering](clause_agentic_neuro-symbolic_knowledge_graph_reasoning_via_dynamic_learnable_co.md)**
+
+:   CLAUSE 把知识图谱多跳问答中"该检索什么上下文"本身当成一个带预算的序列决策问题，用三个协作的神经符号智能体（建子图 / 走路径 / 选证据）在「边数 / 步数 / token」三类资源约束下联合优化，配合提出的 LC-MAPPO 约束式多智能体 PPO 训练，单个 checkpoint 就能按每条 query 的预算或价格调节"精度–时延–成本"权衡，无需重训。
+
 **[Cooperative Sheaf Neural Networks](cooperative_sheaf_neural_networks.md)**
 
 :   提出在有向图上定义 cellular sheaf 的 in/out-degree Laplacian，构建 Cooperative Sheaf Neural Network (CSNN)，使节点能独立选择信息传播/接收策略，从而同时缓解过度挤压(oversquashing)和处理异配(heterophilic)任务。
+
+**[CORDS - Continuous Representations of Discrete Structures](cords_-_continuous_representations_of_discrete_structures.md)**
+
+:   把"预测数量未知的一组对象"这件事统一改写成连续场上的推断：CORDS 用一个**可逆**映射把离散对象集编码成一个密度场（编码位置与个数）加一个特征场（携带属性），模型全程在场空间里学习，需要时再精确解码回离散集合，从而在分子生成、目标检测、仿真推断等任务里无需 padding、也无需专门的计数头就能处理可变基数。
 
 **[Entropy-Guided Dynamic Tokens for Graph-LLM Alignment in Molecular Understanding](entropy-guided_dynamic_tokens_for_graph-llm_alignment_in_molecular_understanding.md)**
 

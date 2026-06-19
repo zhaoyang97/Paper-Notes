@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2508.12778](https://arxiv.org/abs/2508.12778)  
 **代码**: https://github.com/Jack-ZC8/HeteroRAG-Med  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 异构 RAG、模态专用 CLIP、多语料查询生成、偏好微调、Med-LVLM
 
 ## 一句话总结

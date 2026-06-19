@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.10923](https://arxiv.org/abs/2507.10923)  
 **代码**: [GitHub](https://github.com/HICAI-ZJU/KPO)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 蛋白质语言模型, 知识图谱, DPO, 生物安全, 偏好优化
 
 ## 一句话总结

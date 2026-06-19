@@ -133,7 +133,7 @@ Undistorter和Fuser对三个平面（xy/xz/yz）使用3个独立但相同的网�
 - [\[CVPR 2025\] FluidNexus: 3D Fluid Reconstruction and Prediction from a Single Video](fluidnexus_3d_fluid_reconstruction_and_prediction_from_a_single_video.md)
 - [\[CVPR 2025\] TriTex: Learning Texture from a Single Mesh via Triplane Semantic Features](tritex_learning_texture_from_a_single_mesh_via_triplane_semantic_features.md)
 - [\[CVPR 2025\] DiffPortrait360: Consistent Portrait Diffusion for 360° View Synthesis](diffportrait360_consistent_portrait_diffusion_for_360_view_synthesis.md)
-- [\[CVPR 2026\] Coherent Human-Scene Reconstruction from Multi-Person Multi-View Video in a Single Pass](../../CVPR2026/3d_vision/coherent_humanscene_reconstruction_from_multiperso.md)
+- [\[CVPR 2026\] EfficientMonoHair: Fast Strand-Level Reconstruction from Monocular Video via Multi-View Direction Fusion](../../CVPR2026/3d_vision/efficientmonohair_fast_strand-level_reconstruction_from_monocular_video_via_mult.md)
 
 </div>
 

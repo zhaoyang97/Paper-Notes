@@ -2,10 +2,10 @@
 title: >-
   [论文解读] QUANTIPHY: A Quantitative Benchmark Evaluating Physical Reasoning Abilities of Vision-Language Models
 description: >-
-  [CVPR 2026][多模态VLM][物理推理] QUANTIPHY 是首个**定量**评测 VLM 物理推理能力的基准：给定一段视频和某个物体的单一物理先验（尺寸 / 速度 / 加速度，真实世界单位），要求模型推断目标物体的运动学量的**数值**，用 3.3K+ 视频-文本实例和数值真值，揭示出当前 VLM「语言上听起来合理、数值上系统性错误」的鸿沟——它们更多依赖预训练世界知识而非忠实使用给定的视觉与文本输入。
+  [CVPR 2026][VLM Reasoning][物理推理] QUANTIPHY 是首个**定量**评测 VLM 物理推理能力的基准：给定一段视频和某个物体的单一物理先验（尺寸 / 速度 / 加速度，真实世界单位），要求模型推断目标物体的运动学量的**数值**，用 3.3K+ 视频-文本实例和数值真值，揭示出当前 VLM「语言上听起来合理、数值上系统性错误」的鸿沟——它们更多依赖预训练世界知识而非忠实使用给定的视觉与文本输入。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "物理推理"
   - "运动学推断"
   - "定量评测"
@@ -137,10 +137,10 @@ $$\mathrm{MRA}=\frac{1}{10}\sum_{\varepsilon\in C}\mathbb{1}\!\left(\frac{|\hat 
 ## 相关论文
 
 - [\[CVPR 2026\] SpatiaLQA: A Benchmark for Evaluating Spatial Logical Reasoning in Vision-Language Models](spatialqa_a_benchmark_for_evaluating_spatial_logical_reasoning_in_vision-languag.md)
-- [\[CVPR 2026\] PAI-Bench: A Comprehensive Benchmark for Physical AI](pai-bench_a_comprehensive_benchmark_for_physical_ai.md)
-- [\[CVPR 2026\] VS-Bench: Evaluating VLMs for Strategic Abilities in Multi-Agent Environments](vs_bench_evaluating_vlms_for_strategic_abilities_in_multi_agent_environments.md)
-- [\[ICLR 2026\] Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models](../../ICLR2026/multimodal_vlm/spatial-dise_a_unified_benchmark_for_evaluating_spatial_reasoning_in_vision-lang.md)
-- [\[CVPR 2026\] CURVE: A Benchmark for Cultural and Multilingual Long Video Reasoning](curve_a_benchmark_for_cultural_and_multilingual_long_video_reasoning.md)
+- [\[ICLR 2026\] Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models](../../ICLR2026/vlm_reasoning/spatial-dise_a_unified_benchmark_for_evaluating_spatial_reasoning_in_vision-lang.md)
+- [\[CVPR 2026\] IPR-1: Interactive Physical Reasoner](ipr-1_interactive_physical_reasoner.md)
+- [\[CVPR 2026\] Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](thinking_in_dynamics_how_multimodal_large_language_models_perceive_track_and_rea.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
 
 </div>
 

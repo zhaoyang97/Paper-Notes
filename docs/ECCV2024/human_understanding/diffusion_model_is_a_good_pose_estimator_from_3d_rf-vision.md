@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2403.16198](https://arxiv.org/abs/2403.16198)  
 **代码**: [https://fanjunqiao.github.io/mmDiff-site/](https://fanjunqiao.github.io/mmDiff-site/)  
-**领域**: 人体理解
+**领域**: 人体理解  
 **关键词**: 人体姿态估计, 毫米波雷达, 扩散模型, 点云, RF-Vision
 
 ## 一句话总结
@@ -177,7 +177,7 @@ mmDiff相比P4Transformer：MPJPE降低12.8%，PA-MPJPE降低11.3%；恶劣环�
 - [\[ECCV 2024\] Large Motion Model for Unified Multi-Modal Motion Generation](large_motion_model_for_unified_multi-modal_motion_generation.md)
 - [\[ECCV 2024\] 3DSA: Multi-view 3D Human Pose Estimation With 3D Space Attention Mechanisms](3dsa_multi-view_3d_human_pose_estimation_with_3d_space_attention_mechanisms.md)
 - [\[ECCV 2024\] 3D Hand Pose Estimation in Everyday Egocentric Images](3d_hand_pose_estimation_in_everyday_egocentric_images.md)
-- [\[ACL 2026\] Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production](../../ACL2026/human_understanding/hybrid_autoregressive-diffusion_model_for_real-time_sign_language_production.md)
+- [\[ECCV 2024\] WorldPose: A World Cup Dataset for Global 3D Human Pose Estimation](worldpose_a_world_cup_dataset_for_global_3d_human_pose_estimation.md)
 
 </div>
 

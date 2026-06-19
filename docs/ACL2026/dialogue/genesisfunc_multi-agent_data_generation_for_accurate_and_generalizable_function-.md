@@ -103,6 +103,7 @@ SFT 对错误标签极其敏感，尤其工具参数一旦标错，会直接把�
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 设置 | 指标 | GenesisFunc-8B | 强基线 / 对照 | 提升 / 结论 |
 |--------|------|------|----------|------|
 | BFCL Non-Live | Overall accuracy | 93.31 ± 0.42 | ToolACE-8B 91.04；Qwen3-32B 89.90 | 同规模开源 SOTA 之上，也超过更大开源模型 |
@@ -113,6 +114,7 @@ SFT 对错误标签极其敏感，尤其工具参数一旦标错，会直接把�
 | Out-of-domain 平均 | API-Bank / ACEBench | API-Bank 64.79；ACEBench 约 78.64 | prior open-source SOTA | 论文称相对提升 7.3% 与 9.4% |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 移除 Judge Agent | BFCL Non-Live / Live 均下降 | 候选对话裁判对样本准确性重要 |

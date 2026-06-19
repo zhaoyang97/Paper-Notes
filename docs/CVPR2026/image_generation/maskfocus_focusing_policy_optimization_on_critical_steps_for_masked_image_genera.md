@@ -104,6 +104,7 @@ $$\mathcal{J} = \mathbb{E}_{\{o^i\}\sim\pi_{old}}\Big[\tfrac{1}{\sum_i |o^i|}\su
 > 注：DEQA-Score 为基于多模态模型打分的图文质量分；HPS / PickScore / ImageReward 均为人类偏好奖励模型分值，数值越高越好（不同指标量纲不同，不可横向比绝对值）。
 
 ### 消融实验
+
 | 配置 | GenEval↑ | DEQA↑ | PickScore↑ | 说明 |
 |------|---------|-------|-----------|------|
 | MaskFocus（完整） | 0.76 | 4.39 | 22.39 | 完整模型 |

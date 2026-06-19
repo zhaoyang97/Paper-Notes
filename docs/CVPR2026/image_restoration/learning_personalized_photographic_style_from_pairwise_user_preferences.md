@@ -120,6 +120,7 @@ $$\text{CQS} = \text{BFS}\times(1+\text{CMR})$$
 最关键的结论是：**三种基线的 CMR 全为正**，说明它们都成功学会了区分偏好方向，验证了 PPS 任务本身可行。作者还借 ∆E00 论证了 CQS 的必要性：Model (a) 偏好边际不弱（CMR 0.050 vs (c) 的 0.011），但绝对保真度极差（BFS 0.146 vs 0.196），CQS 正确地惩罚了这种低保真、把 (c) 排在前面（0.197 vs 0.154）；而 (b) 虽保真略逊于 (c)（BFS 0.189 vs 0.196），但偏好对齐远胜（CMR 0.078 vs 0.011），CQS 正确判定 (b) 的强偏好对齐压过了微小的保真差距、给它最高分。
 
 ### 消融实验
+
 | 消融维度 | 配置 | ∆E00 CQS | PSNR CQS | 说明 |
 |---------|------|---------|---------|------|
 | 训练用户数 | N=50 | 0.185 | 30.39 | 用户越多越好 |
@@ -166,10 +167,10 @@ $$\text{CQS} = \text{BFS}\times(1+\text{CMR})$$
 ## 相关论文
 
 - [\[CVPR 2026\] Towards Universal Computational Aberration Correction in Photographic Cameras: A Comprehensive Benchmark Analysis](unicac_universal_computational_aberration_correction_benchmark.md)
-- [\[CVPR 2026\] LRHDR: Learning Representation-enhanced HDR Video Reconstruction](lrhdr_learning_representation-enhanced_hdr_video_reconstruction.md)
 - [\[CVPR 2025\] OptiFusion: Towards Universal Computational Aberration Correction in Photographic Cameras](../../CVPR2025/image_restoration/towards_universal_computational_aberration_correction_in_photographic_cameras_a_.md)
+- [\[CVPR 2026\] LRHDR: Learning Representation-enhanced HDR Video Reconstruction](lrhdr_learning_representation-enhanced_hdr_video_reconstruction.md)
+- [\[CVPR 2026\] Coordinate Denoising for Non-Equilibrium Molecular Representation Learning](coordinate_denoising_for_non-equilibrium_molecular_representation_learning.md)
 - [\[ECCV 2024\] Pairwise Distance Distillation for Unsupervised Real-World Image Super-Resolution](../../ECCV2024/image_restoration/pairwise_distance_distillation_for_unsupervised_real-world_image_super-resolutio.md)
-- [\[CVPR 2026\] Enhancing Unregistered Hyperspectral Image Super-Resolution via Unmixing-based Abundance Fusion Learning](enhancing_unregistered_hyperspectral_image_super-resolution_via_unmixing-based_a.md)
 
 </div>
 

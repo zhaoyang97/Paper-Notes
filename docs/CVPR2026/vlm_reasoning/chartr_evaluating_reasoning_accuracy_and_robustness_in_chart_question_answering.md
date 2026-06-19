@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ChartR: Evaluating Reasoning Accuracy and Robustness in Chart Question Answering
 description: >-
-  [CVPR 2026][多模态VLM][图表问答] ChartR 把每道图表问答题拆成 4–10 个有依赖关系的子问题、再给每张图配 4 种视觉扰动变体，用 8 个指标同时考"每一步推理对不对"和"扰动下稳不稳"，在 12 个 MLLM 上揭示出：整链全对率普遍低于 10%、数值读取是最大瓶颈、且模型严重依赖图中文字标注而非真正的视觉理解。
+  [CVPR 2026][VLM Reasoning][图表问答] ChartR 把每道图表问答题拆成 4–10 个有依赖关系的子问题、再给每张图配 4 种视觉扰动变体，用 8 个指标同时考"每一步推理对不对"和"扰动下稳不稳"，在 12 个 MLLM 上揭示出：整链全对率普遍低于 10%、数值读取是最大瓶颈、且模型严重依赖图中文字标注而非真正的视觉理解。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "图表问答"
   - "推理链评测"
   - "视觉鲁棒性"
@@ -133,11 +133,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] SEA: Evaluating Sketch Abstraction Efficiency via Element-level Commonsense Visual Question Answering](sea_evaluating_sketch_abstraction_efficiency_via_element-level_commonsense_visua.md)
 - [\[CVPR 2026\] StaR-KVQA: Structured Reasoning Traces for Implicit-Knowledge Visual Question Answering](star-kvqa_structured_reasoning_traces_for_implicit-knowledge_visual_question_ans.md)
-- [\[CVPR 2026\] DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning](docpruneefficient_document_question_answering_via_background_question_and_compre.md)
-- [\[CVPR 2026\] VQ-VA World: Towards High-Quality Visual Question-Visual Answering](vq-va_world_towards_high-quality_visual_question-visual_answering.md)
-- [\[CVPR 2026\] ENC-Bench: A Benchmark for Evaluating MLLMs in Electronic Navigational Chart Understanding](enc-bench_a_benchmark_for_evaluating_multimodal_large_language_models_in_electro.md)
+- [\[CVPR 2026\] CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)
+- [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
+- [\[CVPR 2026\] VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](videoauto-r1_video_auto_reasoning_via_thinking_once_answering_twice.md)
+- [\[CVPR 2026\] Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts](chart-fr1_visual_focus-driven_fine-grained_reasoning_on_dense_charts.md)
 
 </div>
 

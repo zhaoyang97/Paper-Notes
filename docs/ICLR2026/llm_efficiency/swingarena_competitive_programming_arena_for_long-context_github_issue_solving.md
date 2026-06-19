@@ -148,9 +148,9 @@ RPR=Reviewer测试通过golden patch的比例，SPR=Submitter补丁通过CI的�
 ## 相关论文
 
 - [\[ICML 2025\] Curse of High Dimensionality Issue in Transformer for Long-context Modeling](../../ICML2025/llm_efficiency/curse_of_high_dimensionality_issue_in_transformer_for_long-context_modeling.md)
-- [\[NeurIPS 2025\] Harnessing the Computation Redundancy in ViTs to Boost Adversarial Transferability](../../NeurIPS2025/llm_efficiency/harnessing_the_computation_redundancy_in_vits_to_boost_adversarial_transferabili.md)
 - [\[ICLR 2026\] LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding](lycheedecode_accelerating_long-context_llm_inference_via_hybrid-head_sparse_deco.md)
 - [\[ICLR 2026\] When Does Divide and Conquer Work for Long Context LLM? A Noise Decomposition Framework](when_does_divide_and_conquer_work_for_long_context_llm_a_noise_decomposition_fra.md)
+- [\[NeurIPS 2025\] Harnessing the Computation Redundancy in ViTs to Boost Adversarial Transferability](../../NeurIPS2025/llm_efficiency/harnessing_the_computation_redundancy_in_vits_to_boost_adversarial_transferabili.md)
 - [\[ACL 2025\] Ref-Long: Benchmarking the Long-Context Referencing Capability of Long-Context Language Models](../../ACL2025/llm_efficiency/ref-long_benchmarking_the_long-context_referencing_capability_of_long-context_la.md)
 
 </div>

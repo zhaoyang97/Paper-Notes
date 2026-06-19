@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VGent: Visual Grounding via Modular Design for Disentangling Reasoning and Prediction
 description: >-
-  [CVPR 2026][多模态VLM][视觉定位] VGent 把视觉定位拆成"高层推理"和"低层框预测"两件事——用一个冻结的多模态大模型（MLLM）当编码器只负责推理、用现成检测器产生候选框、再用一个解码器去 cross-attend 编码器的隐状态来"挑出"目标框，从而避开自回归逐字解码的慢与幻觉，在多目标定位基准上 F1 大涨 +20.6%，同时推理延迟恒定。
+  [CVPR 2026][VLM Reasoning][视觉定位] VGent 把视觉定位拆成"高层推理"和"低层框预测"两件事——用一个冻结的多模态大模型（MLLM）当编码器只负责推理、用现成检测器产生候选框、再用一个解码器去 cross-attend 编码器的隐状态来"挑出"目标框，从而避开自回归逐字解码的慢与幻觉，在多目标定位基准上 F1 大涨 +20.6%，同时推理延迟恒定。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉定位"
   - "多目标grounding"
   - "模块化设计"
@@ -161,11 +161,11 @@ QuadThinker 与模块化设计（MaskGroups-HQ w/o mask-ref，F1，按目标数�
 
 ## 相关论文
 
-- [\[CVPR 2026\] MVP: Multiple View Prediction Improves GUI Grounding](mvp_multiple_view_prediction_improves_gui_grounding.md)
-- [\[CVPR 2026\] Visual Grounding for Object Questions](visual_grounding_for_object_questions.md)
-- [\[CVPR 2026\] Small Object, Great Challenge: A Benchmark for Small Object Visual Grounding](small_object_great_challenge_a_benchmark_for_small_object_visual_grounding.md)
-- [\[CVPR 2026\] GroundingME: Exposing the Visual Grounding Gap in MLLMs through Multi-Dimensional Evaluation](groundingme_exposing_the_visual_grounding_gap_in_mllms_through_multi-dimensional.md)
-- [\[CVPR 2026\] EG-3DVG: Expression and Geometry Aware Grounding Decoder for 3D Visual Grounding](eg-3dvg_expression_and_geometry_aware_grounding_decoder_for_3d_visual_grounding.md)
+- [\[CVPR 2026\] Dr. Seg: Revisiting GRPO Training for Visual Large Language Models through Perception-Oriented Design](dr_seg_revisiting_grpo_training_for_visual_large_language_models_through_percept.md)
+- [\[CVPR 2026\] DocSeeker: Structured Visual Reasoning with Evidence Grounding for Long Document Understanding](docseeker_long_document_understanding.md)
+- [\[ICML 2026\] Learning GUI Grounding with Spatial Reasoning from Visual Feedback](../../ICML2026/vlm_reasoning/learning_gui_grounding_with_spatial_reasoning_from_visual_feedback.md)
+- [\[ICML 2026\] The Perceptual Bandwidth Bottleneck in Vision-Language Models: Active Visual Reasoning via Sequential Experimental Design](../../ICML2026/vlm_reasoning/the_perceptual_bandwidth_bottleneck_in_vision-language_models_active_visual_reas.md)
+- [\[ICML 2026\] Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding](../../ICML2026/vlm_reasoning/decomposed_on-policy_distillation_for_vision-language_reasoning_steering_gradien.md)
 
 </div>
 

@@ -108,6 +108,7 @@ $$\mathcal{L}_{total}=\lambda_1\cdot\frac{\mathcal{L}_{meta\text{-}train}+\mathc
 可以看到 Meta-FC 对所有 5 个模型、三类场景几乎全面占优；SepMark/MBRS 在组合失真上提升尤为夸张（+12.79/+7.92），说明越是 SRD 学不好的硬场景，元学习 + 特征一致性的收益越大。高强度下个别攻击 Meta-FC 略低于 SRD（差距 < 1% ACC），因为 SRD 会过拟合到某个攻击、而 Meta-FC 追求广泛泛化。
 
 ### 消融实验
+
 | 配置 | 高强度 | 组合 | 未知 | 说明 |
 |------|------|------|------|------|
 | 完整 Meta-FC | 95.93 | 92.65 | 90.93 | — |
@@ -155,8 +156,8 @@ $$\mathcal{L}_{total}=\lambda_1\cdot\frac{\mathcal{L}_{meta\text{-}train}+\mathc
 - [\[CVPR 2026\] DASH: A Meta-Attack Framework for Synthesizing Effective and Stealthy Adversarial Examples](dash_a_meta-attack_framework_for_synthesizing_effective_and_stealthy_adversarial.md)
 - [\[CVPR 2026\] RecoverMark: Robust Watermarking for Localization and Recovery of Manipulated Faces](recovermark_robust_watermarking_for_localization_and_recovery_of_manipulated_fac.md)
 - [\[ICCV 2025\] FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields](../../ICCV2025/ai_safety/fedmenf_privacy-preserving_federated_meta-learning_for_neural_fields.md)
-- [\[CVPR 2026\] TIACam: Text-Anchored Invariant Feature Learning with Auto-Augmentation for Camera-Robust Zero-Watermarking](tiacam_text-anchored_invariant_feature_learning_with_auto-augmentation_for_camer.md)
 - [\[CVPR 2026\] ClusterMark: Towards Robust Watermarking for Autoregressive Image Generators with Visual Token Clustering](clustermark_towards_robust_watermarking_for_autoregressive_image_generators_with.md)
+- [\[CVPR 2026\] DFD-HR: Generalizable Deepfake Detection via Hierarchical Routing Learning](dfd-hr_generalizable_deepfake_detection_via_hierarchical_routing_learning.md)
 
 </div>
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.10737](https://arxiv.org/abs/2507.10737)  
 **代码**: [https://github.com/The-Real-JerryChen/BioMicroscopyProfiler](https://github.com/The-Real-JerryChen/BioMicroscopyProfiler)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 显微图像表征学习, 扰动筛查, 生物知识图谱, 单细胞基础模型, de novo细胞系
 
 ## 一句话总结

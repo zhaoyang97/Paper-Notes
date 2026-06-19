@@ -84,6 +84,7 @@ $$\mathbb{E}_{u\sim\mathcal{U}}\big[\mathcal{L}_{SFT}(\Psi \oplus Gen_\theta(p_u
 ## 实验关键数据
 
 ### 主实验
+
 | 设置 | 方法 | 分类 Acc↑ | 分类 F1↑ | 生成 R-1↑ | 生成 R-L↑ | 平均推理时间 ms↓ |
 |------|------|-----------|----------|-----------|-----------|------------------|
 | Random split | Base | 0.505 | 0.496 | 0.287 | 0.207 | 31.97 |
@@ -100,6 +101,7 @@ $$\mathbb{E}_{u\sim\mathcal{U}}\big[\mathcal{L}_{SFT}(\Psi \oplus Gen_\theta(p_u
 P2P 在 random split 中取得最高平均分类 Acc、最高生成 R-1/R-L，并在不做用户专属训练的情况下超过 OPPU。OOD split 中，P2P 的分类 Acc 最高，生成指标接近强 prompt-based Full History，但推理时间比 Full History 少一个数量级以上。
 
 ### 消融实验
+
 | 配置 | 分类 Acc↑ | 分类 F1↑ | 生成 R-1↑ | 生成 R-L↑ | Rating MAE↓ | Rating RMSE↓ |
 |------|-----------|----------|-----------|-----------|-------------|--------------|
 | P2P Full | 0.581 | 0.562 | 0.326 | 0.243 | 0.258 | 0.583 |
@@ -146,7 +148,7 @@ P2P 在 random split 中取得最高平均分类 Acc、最高生成 R-1/R-L，�
 - [\[ACL 2026\] SharedRequest: Privacy-Preserving Model-Agnostic Inference for Large Language Models](sharedrequest_privacy-preserving_model-agnostic_inference_for_large_language_mod.md)
 - [\[ACL 2026\] TROJail: Trajectory-Level Optimization for Multi-Turn Large Language Model Jailbreaks with Process Rewards](trojail_trajectory-level_optimization_for_multi-turn_large_language_model_jailbr.md)
 - [\[ACL 2026\] DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack](dualguard_dual-stream_large_language_model_watermarking_defense_against_paraphra.md)
-- [\[ICML 2026\] Differentially Private Preference Data Synthesis for Large Language Model Alignment](../../ICML2026/llm_safety/differentially_private_preference_data_synthesis_for_large_language_model_alignm.md)
+- [\[ACL 2026\] SafeMERGE: Preserving Safety Alignment in Fine-Tuned Large Language Models via Selective Layer-Wise Model Merging](safemerge_preserving_safety_alignment_in_fine-tuned_large_language_models_via_se.md)
 - [\[ACL 2025\] Exploring Forgetting in Large Language Model Pre-Training](../../ACL2025/llm_safety/exploring_forgetting_in_large_language_model_pre-training.md)
 
 </div>

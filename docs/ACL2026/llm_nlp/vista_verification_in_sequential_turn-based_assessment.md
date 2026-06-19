@@ -150,10 +150,10 @@ VISTA 不需要训练——它是一个基于提示的评估框架，通过结�
 ## 相关论文
 
 - [\[ACL 2026\] Confidence Estimation for LLMs in Multi-turn Interactions](confidence_estimation_for_llms_in_multi-turn_interactions.md)
-- [\[ACL 2026\] DualFact: A Multimodal Fact Verification Framework for Procedural Video Understanding](dualfact_a_multimodal_fact_verification_framework_for_procedural_video_understan.md)
-- [\[CVPR 2026\] VISTA: Video Interaction Spatio-Temporal Analysis Benchmark](../../CVPR2026/video_understanding/vista_video_interaction_spatio-temporal_analysis_benchmark.md)
-- [\[CVPR 2026\] SkillSight: Efficient First-Person Skill Assessment with Gaze](../../CVPR2026/video_understanding/skillsight_efficient_first-person_skill_assessment_with_gaze.md)
-- [\[CVPR 2026\] MDS-VQA: Model-Informed Data Selection for Video Quality Assessment](../../CVPR2026/video_understanding/mds-vqa_model-informed_data_selection_for_video_quality_assessment.md)
+- [\[ACL 2026\] AlphaContext: An Evolutionary Tree-based Psychometric Context Generator for Creativity Assessment](alphacontext_an_evolutionary_tree-based_psychometric_context_generator_for_creat.md)
+- [\[ICML 2026\] Reasoning on the Manifold: Bidirectional Consistency for Self-Verification in Diffusion Language Models](../../ICML2026/llm_nlp/reasoning_on_the_manifold_bidirectional_consistency_for_self-verification_in_dif.md)
+- [\[ICLR 2026\] Unsupervised Evaluation of Multi-Turn Objective-Driven Interactions](../../ICLR2026/llm_nlp/unsupervised_evaluation_of_multi-turn_objective-driven_interactions.md)
+- [\[AAAI 2026\] Quantifying Conversational Reliability of Large Language Models under Multi-Turn Interaction](../../AAAI2026/llm_nlp/quantifying_conversational_reliability_of_large_language_models_under_multi-turn.md)
 
 </div>
 

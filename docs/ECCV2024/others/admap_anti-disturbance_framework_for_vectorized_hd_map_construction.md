@@ -141,7 +141,7 @@ ADMap 建立在 MapTR 框架之上。输入为车载多视角相机图像（以�
 - [\[ECCV 2024\] An Incremental Unified Framework for Small Defect Inspection](an_incremental_unified_framework_for_small_defect_inspection.md)
 - [\[ECCV 2024\] A Framework for Efficient Model Evaluation through Stratification, Sampling, and Estimation](a_framework_for_efficient_model_evaluation_through_stratific.md)
 - [\[ECCV 2024\] HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
-- [\[CVPR 2026\] Anti-Degradation Lifelong Multi-View Clustering](../../CVPR2026/others/anti-degradation_lifelong_multi-view_clustering.md)
+- [\[ACL 2025\] Autalic: A Dataset for Anti-Autistic Ableist Language In Context](../../ACL2025/others/autalic_a_dataset_for_anti-autistic_ableist_language_in_context.md)
 
 </div>
 

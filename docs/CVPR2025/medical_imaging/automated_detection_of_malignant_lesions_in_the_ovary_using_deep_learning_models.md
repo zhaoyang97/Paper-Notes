@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.11818](https://arxiv.org/abs/2603.11818)  
 **代码**: 未公开  
-**领域**: 医学图像
+**领域**: 医学图像  
 **关键词**: Ovarian Cancer, CNN, Explainable AI, LIME, SHAP, Integrated Gradients
 
 ## 一句话总结

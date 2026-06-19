@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.09060](https://arxiv.org/abs/2504.09060)  
 **代码**: [github.com/myang998/MIX-HIC](https://github.com/myang998/MIX-HIC)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 3D基因组, Hi-C, 表观基因组, 多模态预训练, 基础模型
 
 ## 一句话总结

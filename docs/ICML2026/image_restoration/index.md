@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 图像恢复论文汇总 · 16篇论文解读
+  ICML2026 图像恢复论文汇总 · 21篇论文解读
 description: >-
-  16篇ICML2026的图像恢复方向论文解读，涵盖扩散模型、超分辨率、图像恢复等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  21篇ICML2026的图像恢复方向论文解读，涵盖扩散模型、超分辨率、图像恢复等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "图像恢复"
@@ -11,6 +11,8 @@ tags:
   - "扩散模型"
   - "超分辨率"
 item_list:
+  - u: "anymod-llve_low-light_video_enhancement_with_modality-agnostic_inference/"
+    t: "AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference"
   - u: "coevolutionary_continuous_discrete_diffusion_make_your_diffusion_language_model_/"
     t: "Coevolutionary Continuous Discrete Diffusion: Make Your Diffusion Language Model a Latent Reasoner"
   - u: "coloring_the_noise_adversarial_sobolev_alignment_for_faithful_image_super_resolu/"
@@ -25,10 +27,16 @@ item_list:
     t: "DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention"
   - u: "early_decisions_matter_proximity_bias_and_initial_trajectory_shaping_in_non-auto/"
     t: "Early Decisions Matter: Proximity Bias and Initial Trajectory Shaping in Non-Autoregressive Diffusion Language Models"
+  - u: "from_2d_grids_to_1d_tokens_reforming_shared_representations_for_multimodal_image/"
+    t: "From 2D Grids to 1D Tokens: Reforming Shared Representations for Multimodal Image Fusion"
   - u: "learning_normalized_energy_models_for_linear_inverse_problems/"
     t: "Learning Normalized Energy Models for Linear Inverse Problems"
+  - u: "measurement-consistent_langevin_corrector_for_stabilizing_latent_diffusion_inver/"
+    t: "Measurement-Consistent Langevin Corrector for Stabilizing Latent Diffusion Inverse Problem Solvers"
   - u: "one-shot_conditional_sampling_mmd_meets_nearest_neighbors/"
     t: "One-shot Conditional Sampling: MMD meets Nearest Neighbors"
+  - u: "one-step_residual_shifting_diffusion_for_image_super-resolution_via_distillation/"
+    t: "One-Step Residual Shifting Diffusion for Image Super-Resolution via Distillation"
   - u: "phy-cosf_physics-guided_continuous_spectral_fields_reconstruction_and_super-reso/"
     t: "Phy-CoSF: Physics-Guided Continuous Spectral Fields Reconstruction and Super-Resolution for Snapshot Compressive Imaging"
   - u: "plan_for_speed_dilated_scheduling_for_masked_diffusion_language_models/"
@@ -37,23 +45,29 @@ item_list:
     t: "PODiff: Latent Diffusion in Proper Orthogonal Decomposition Space for Scientific Super-Resolution"
   - u: "semi-supervised_neural_super-resolution_for_mesh-based_simulations/"
     t: "Semi-Supervised Neural Super-Resolution for Mesh-Based Simulations"
+  - u: "solving_inverse_problems_with_flow-based_models_via_model_predictive_control/"
+    t: "Solving Inverse Problems with Flow-based Models via Model Predictive Control"
   - u: "structured_diffusion_bridges_inductive_bias_for_denoising_diffusion_bridges/"
     t: "Structured Diffusion Bridges: Inductive Bias for Denoising Diffusion Bridges"
   - u: "triadic_dynamics_aware_diffusion_posterior_sampling_for_inverse_problems_optimiz/"
     t: "Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules"
   - u: "uotip_unbalanced_optimal_transport_map_for_unpaired_inverse_problems/"
     t: "UOTIP：无须配对的反演问题的非平衡最优传输映射"
-item_total: 16
+item_total: 21
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🧪 ICML2026** · **16** 篇论文解读
+**🧪 ICML2026** · **21** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (132)](../../CVPR2026/image_restoration/index.md) · [🔬 ICLR2026 (15)](../../ICLR2026/image_restoration/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/image_restoration/index.md) · [🧠 NeurIPS2025 (26)](../../NeurIPS2025/image_restoration/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/image_restoration/index.md) · [🧪 ICML2025 (5)](../../ICML2025/image_restoration/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (135)](../../CVPR2026/image_restoration/index.md) · [🔬 ICLR2026 (22)](../../ICLR2026/image_restoration/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/image_restoration/index.md) · [🧠 NeurIPS2025 (26)](../../NeurIPS2025/image_restoration/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/image_restoration/index.md) · [🧪 ICML2025 (5)](../../ICML2025/image_restoration/index.md)
 
-🔥 **高频主题：** 扩散模型 ×9 · 超分辨率 ×4 · 图像恢复 ×2
+🔥 **高频主题：** 扩散模型 ×11 · 超分辨率 ×5 · 图像恢复 ×2
+
+**[AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference](anymod-llve_low-light_video_enhancement_with_modality-agnostic_inference.md)**
+
+:   针对"多模态低光视频增强在推理时拿不到事件流/红外辅助模态就崩"的痛点，AMNet 用一个 Spatial-Spectral Dual-Gated（S2DG）Translator 从退化的低光 RGB 里"凭空生成"辅助模态的隐式表示，再配合大规模合成多模态预训练，使得测试时无论给不给辅助模态都能稳定增强——RGB-only 推理就已达到 SOTA，给了辅助模态还能再涨一点。
 
 **[Coevolutionary Continuous Discrete Diffusion: Make Your Diffusion Language Model a Latent Reasoner](coevolutionary_continuous_discrete_diffusion_make_your_diffusion_language_model_.md)**
 
@@ -83,13 +97,25 @@ item_total: 16
 
 :   本文系统刻画了 masked 扩散语言模型 (dLLM) 在**完全非自回归 (NAR) 解码**下的失败机制——proximity bias 导致 confidence-based 采样退化为反向自回归并被 EOS 过早占满，再用一个 5M 参数的轻量 planner + EOS 温度退火**只在第一步**干预 unmasking 位置，就在 GSM8K 等推理任务上将 LLaDA 8B 的 NAR 解码平均提升 2.8–4.3 个点而几乎无额外开销。
 
+**[From 2D Grids to 1D Tokens: Reforming Shared Representations for Multimodal Image Fusion](from_2d_grids_to_1d_tokens_reforming_shared_representations_for_multimodal_image.md)**
+
+:   多模态图像融合长期把共享表示放在二维特征网格上，导致全局外观（亮度/对比度/色调）和局部细节纠缠、难以独立调控；本文把"全局外观"挪到一个冻结的 1D tokenizer（TiTok-32）的紧凑 token 空间里，再用"选择性 token 编辑（STE）"只改少数几个 token-通道项来调控全局一致性，同时保留 2D 通路做细节恢复，在四个基准上取得多指标全面最优。
+
 **[Learning Normalized Energy Models for Linear Inverse Problems](learning_normalized_energy_models_for_linear_inverse_problems.md)**
 
 :   作者把"线性逆问题"重写为"各向异性去噪"，并提出 Anisotropic Covariance Score Matching (A-CSM) 训出一个**归一化**的能量模型 $U_\theta(\mathbf{y},\boldsymbol{\Sigma})\approx -\log p(\mathbf{y}|\boldsymbol{\Sigma})$，单个模型即可处理 inpainting、deblurring、super-resolution，并解锁能量引导自适应调度、MALA 无偏校正和盲逆问题三大新能力。
 
+**[Measurement-Consistent Langevin Corrector for Stabilizing Latent Diffusion Inverse Problem Solvers](measurement-consistent_langevin_corrector_for_stabilizing_latent_diffusion_inver.md)**
+
+:   本文把潜空间扩散逆问题求解器（LDM solver）的不稳定性重新解释为"求解器动力学偏离扩散模型学到的时间边缘分布"，并提出即插即用的 MCLC 模块——在测量一致性步之后插入一步限制在测量梯度正交补空间上的 Langevin 校正，把潜变量拉回稳定的反向扩散轨迹，同时不破坏测量保真度，在 FFHQ/ImageNet 多种线性与非线性退化任务上稳定地提升了 LDPS、PSLD、ReSample 等基线。
+
 **[One-shot Conditional Sampling: MMD meets Nearest Neighbors](one-shot_conditional_sampling_mmd_meets_nearest_neighbors.md)**
 
 :   CGMMD 用 k 近邻图把"期望条件 MMD（ECMMD）"估计成一个可直接最小化的非对抗目标，训出一个能在单次前向传播内从 $P_{Y\mid X}$ 采样的条件生成器，并给出了非渐近误差界与分布收敛性证明。
+
+**[One-Step Residual Shifting Diffusion for Image Super-Resolution via Distillation](one-step_residual_shifting_diffusion_for_image_super-resolution_via_distillation.md)**
+
+:   针对扩散超分模型推理慢的问题，本文提出 RSD（Residual Shifting Distillation）：把 15 步的 ResShift 教师蒸馏成**单步**学生生成器，方法核心是「训练学生使得用它的输出再训出来的一个『假 ResShift』恰好等于真教师」——这等价于匹配教师与学生在所有时间步上的**联合分布**（而非 VSD 那样只匹配边缘）；结果在 LPIPS / CLIPIQA / MUSIQ 上反超教师、超过同类蒸馏方法 SinSR，并以仅 174M 参数、0.5GB 显存、5 GPU·小时训练逼近大体量 T2I 超分模型的感知质量。
 
 **[Phy-CoSF: Physics-Guided Continuous Spectral Fields Reconstruction and Super-Resolution for Snapshot Compressive Imaging](phy-cosf_physics-guided_continuous_spectral_fields_reconstruction_and_super-reso.md)**
 
@@ -106,6 +132,10 @@ item_total: 16
 **[Semi-Supervised Neural Super-Resolution for Mesh-Based Simulations](semi-supervised_neural_super-resolution_for_mesh-based_simulations.md)**
 
 :   SuperMeshNet 用两个互补 MPNN——主模型预测 LR→HR，辅助模型预测 LR-LR 对应的 HR-HR 差分——在无配对 HR 的样本上互相生成伪标签，并配合节点级 / 消息级 centering 两个轻量归纳偏置，使得 PDE mesh 超分仅用 10% HR 数据就能超过 100% HR 全监督基线，跨 6 种 MPNN 架构一致下降 RMSE。
+
+**[Solving Inverse Problems with Flow-based Models via Model Predictive Control](solving_inverse_problems_with_flow-based_models_via_model_predictive_control.md)**
+
+:   把"用预训练流模型解逆问题"重新表述为**模型预测控制（MPC）**——不再一次性优化整条采样轨迹，而是在每个时间步只解一个短视野子问题、施加一步控制再重规划，从而在显著降低显存的同时，还能推导出一个**完全不需要对流模型反向传播**的变体，进而把训练无关引导扩展到量化后的 FLUX.2（32B）级别、在 24GB 消费级显卡上跑通。
 
 **[Structured Diffusion Bridges: Inductive Bias for Denoising Diffusion Bridges](structured_diffusion_bridges_inductive_bias_for_denoising_diffusion_bridges.md)**
 

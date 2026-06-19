@@ -219,8 +219,8 @@ $$\min_\phi \| \text{Sim}(\mathbf{s}_t + f_\phi^I(\mathbf{s}_t, \mathbf{a}_t), \
 
 - [\[CVPR 2026\] MAD: Motion Appearance Decoupling for Efficient Driving World Models](../../CVPR2026/autonomous_driving/mad_motion_appearance_decoupling_for_efficient_driving_world_models.md)
 - [\[AAAI 2026\] LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences](lidarcrafter_dynamic_4d_world_modeling_from_lidar_sequences.md)
-- [\[CVPR 2026\] Real-World On-Vehicle Evaluation of Embedding-Based Anomaly Detection](../../CVPR2026/autonomous_driving/real-world_on-vehicle_evaluation_of_embedding-based_anomaly_detection.md)
 - [\[NeurIPS 2025\] Towards Foundational LiDAR World Models with Efficient Latent Flow Matching](../../NeurIPS2025/autonomous_driving/towards_foundational_lidar_world_models_with_efficient_latent_flow_matching.md)
+- [\[CVPR 2026\] Neuro-Cognitive Reward Modeling for Human-Centered Autonomous Vehicle Control](../../CVPR2026/autonomous_driving/neuro-cognitive_reward_modeling_for_human-centered_autonomous_vehicle_control.md)
 - [\[CVPR 2026\] Efficient Equivariant Transformer for Self-Driving Agent Modeling](../../CVPR2026/autonomous_driving/efficient_equivariant_transformer_for_self-driving_agent_modeling.md)
 
 </div>

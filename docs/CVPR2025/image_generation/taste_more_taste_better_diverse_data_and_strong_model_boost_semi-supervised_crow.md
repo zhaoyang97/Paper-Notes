@@ -124,9 +124,9 @@ TMTB 基于 Mean Teacher 半监督框架：学生模型和教师模型共享架�
 ## 相关论文
 
 - [\[CVPR 2025\] Boost Your Human Image Generation Model via Direct Preference Optimization](boost_your_human_image_generation_model_via_direct_preference_optimization.md)
+- [\[CVPR 2026\] StableMaterials: Enhancing Diversity in Material Generation via Semi-Supervised Learning](../../CVPR2026/image_generation/stablematerials_enhancing_diversity_in_material_generation_via_semi-supervised_l.md)
 - [\[CVPR 2025\] Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?](training_data_provenance_verification_did_your_model_use_synthetic_data_from_my_.md)
 - [\[CVPR 2025\] InsightEdit: Towards Better Instruction Following for Image Editing](insightedit_towards_better_instruction_following_for_image_editing.md)
-- [\[ICML 2025\] Continuous Semi-Implicit Models](../../ICML2025/image_generation/continuous_semi-implicit_models.md)
 - [\[CVPR 2025\] DiverseFlow: Sample-Efficient Diverse Mode Coverage in Flows](diverseflow_sample-efficient_diverse_mode_coverage_in_flows.md)
 
 </div>

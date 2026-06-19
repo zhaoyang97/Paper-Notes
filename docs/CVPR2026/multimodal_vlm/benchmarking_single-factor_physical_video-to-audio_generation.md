@@ -92,6 +92,7 @@ flowchart TD
 最高 Confidence 也只有 0.306——**所有模型在物理推理上都很差**。物理感知 caption 微调的 MMAudio-Phys 平均 Confidence 居首，说明"喂物理文字"能明显托起物理分数（佐证模型靠文字而非像素）。
 
 ### 时间对齐（FlatSounds-Single，185 段）
+
 | 模型 | Hit Coverage(%)↑ | Timing Error(ms)↓ |
 |------|------------------|-------------------|
 | Ground Truth | 97.12 ± 1.72 | 17.25 ± 2.64 |
@@ -105,6 +106,7 @@ flowchart TD
 每个模型**去掉 caption 后 Hit Coverage 都升、Timing Error 都降**——文字在和精确视觉时机"抢资源"。即使最好的 Hunyuan-V2A 也离 GT（97.12% / 17.25ms）很远。
 
 ### 指标与人类偏好的相关性（vs ELO，Spearman 绝对值）
+
 | 指标 | 相关性 | 指标 | 相关性 |
 |------|--------|------|--------|
 | **Confidence** | **0.9** | FAD-PASST | 0.7 |
@@ -149,10 +151,10 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](av-reasoner_improving_and_benchmarking_clue-grounded_audio-visual_counting_for_m.md)
-- [\[CVPR 2026\] SVHalluc: Benchmarking Speech-Vision Hallucination in Audio-Visual Large Language Models](svhalluc_benchmarking_speech-vision_hallucination_in_audio-visual_large_language.md)
 - [\[CVPR 2026\] WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation](weave_unleashing_and_benchmarking_the_in-context_interleaved_comprehension_and_g.md)
-- [\[CVPR 2026\] IPR-1: Interactive Physical Reasoner](ipr-1_interactive_physical_reasoner.md)
+- [\[CVPR 2026\] PhyCritic: Multimodal Critic Models for Physical AI](phycritic_multimodal_critic_models_for_physical_ai.md)
+- [\[CVPR 2026\] EMMA: Extracting Multiple physical parameters from Multimodal Data](emma_extracting_multiple_physical_parameters_from_multimodal_data.md)
+- [\[CVPR 2026\] EgoAVU: Egocentric Audio-Visual Understanding](egoavu_egocentric_audio-visual_understanding.md)
 - [\[CVPR 2026\] Rethinking MLLM Itself as a Segmenter with a Single Segmentation Token](rethinking_mllm_itself_as_a_segmenter_with_a_single_segmentation_token.md)
 
 </div>

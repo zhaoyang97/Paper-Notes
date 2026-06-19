@@ -112,7 +112,7 @@ Versa-SSL 的两阶段管道：第一阶段拟合声学场获得发射器方向�
 - [\[ICCV 2025\] How Would It Sound? Material-Controlled Multimodal Acoustic Profile Generation for Objects](../../ICCV2025/audio_speech/how_would_it_sound_material-controlled_multimodal_acoustic_profile_generation_fo.md)
 - [\[ACL 2025\] Predicting Turn-Taking and Backchannel in Human-Machine Conversations Using Linguistic, Acoustic, and Visual Signals](../../ACL2025/audio_speech/predicting_turn-taking_and_backchannel_in_human-machine_conversations_using_ling.md)
 - [\[ACL 2025\] Acoustic Individual Identification of White-Faced Capuchin Monkeys Using Joint Multi-Species Embeddings](../../ACL2025/audio_speech/acoustic_individual_identification_of_white-faced_capuchin_monkeys_using_joint_m.md)
-- [\[CVPR 2026\] MMAudioReverbs: Video-Guided Acoustic Modeling for Dereverberation and Room Impulse Response Estimation](../../CVPR2026/audio_speech/mmaudioreverbs_video-guided_acoustic_modeling_for_dereverberation_and_room_impul.md)
+- [\[ICLR 2026\] AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer](../../ICLR2026/audio_speech/ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer.md)
 
 </div>
 

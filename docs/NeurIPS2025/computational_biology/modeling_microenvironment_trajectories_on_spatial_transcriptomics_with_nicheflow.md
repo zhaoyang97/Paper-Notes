@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.00977](https://arxiv.org/abs/2511.00977)  
 **作者**: Kristiyan Sakalyan, Alessandro Palma, Filippo Guerranti, Fabian J. Theis, Stephan Günnemann (TUM, Helmholtz Munich)  
 **代码**: [项目页面](https://www.cs.cit.tum.de/daml/nicheflow)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 空间转录组学, 微环境轨迹推断, Flow Matching, 最优传输, 点云生成, 细胞生态位  
 
 ## 一句话总结
@@ -147,8 +147,8 @@ NicheFlow的轨迹预测在解剖学位置和后代细胞类型一致性上均�
 - [\[NeurIPS 2025\] Learning Relative Gene Expression Trends from Pathology Images in Spatial Transcriptomics](learning_relative_gene_expression_trends_from_pathology_images_in_spatial_transc.md)
 - [\[CVPR 2026\] Predicting Spatial Transcriptomics from Histology Images via High-Order Multi-Cell Interaction Modeling](../../CVPR2026/computational_biology/predicting_spatial_transcriptomics_from_histology_images_via_high-order_multi-ce.md)
 - [\[ICML 2025\] SToFM: a Multi-scale Foundation Model for Spatial Transcriptomics](../../ICML2025/computational_biology/stofm_a_multi-scale_foundation_model_for_spatial_transcriptomics.md)
+- [\[CVPR 2026\] Multi-View Hierarchical Alignment Learning for Spatial Transcriptomics](../../CVPR2026/computational_biology/multi-view_hierarchical_alignment_learning_for_spatial_transcriptomics.md)
 - [\[CVPR 2026\] FEAST: Fully Connected Expressive Attention for Spatial Transcriptomics](../../CVPR2026/computational_biology/feast_fully_connected_expressive_attention_for_spatial_transcriptomics.md)
-- [\[ICML 2025\] Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching](../../ICML2025/computational_biology/scalable_generation_of_spatial_transcriptomics_from_histology_images_via_whole-s.md)
 
 </div>
 

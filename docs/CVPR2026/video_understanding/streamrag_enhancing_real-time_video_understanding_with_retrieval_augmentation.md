@@ -97,6 +97,7 @@ StreamRAG 是**训练自由、即插即用**的外挂，不引入新训练目标
 整体上 Qwen2-VL 套 StreamRAG 后约 20% 的相对提升（论文表述），基本补齐与 ViSpeak 的差距；连专用流式模型 ViSpeak 也再涨约 5%。值得注意的是直接套 VideoRAG 反而拖累 ViSpeak——因为流式视频里音频信号无效、不加区分地融合知识引入噪声；StreamChatRAG 虽支持动态更新但均匀采样破坏了事件时序因果。
 
 ### 消融实验
+
 | 配置 | R-Avg | B-Avg | 说明 |
 |------|---------|---------|------|
 | 仅 KEA（建库） | 55.98 | 46.46 | 只有检索增强知识库 |
@@ -144,9 +145,9 @@ StreamRAG 是**训练自由、即插即用**的外挂，不引入新训练目标
 ## 相关论文
 
 - [\[CVPR 2025\] VISTA: Enhancing Long-Duration and High-Resolution Video Understanding by Video SpatioTemporal Augmentation](../../CVPR2025/video_understanding/vista_enhancing_long-duration_and_high-resolution_video_understanding_by_video_s.md)
-- [\[CVPR 2026\] Compositional Transformation Reasoning for Composed Video Retrieval](compositional_transformation_reasoning_for_composed_video_retrieval.md)
-- [\[CVPR 2026\] Beyond Caption-Based Queries in Video Moment Retrieval](beyond_caption-based_queries_in_video_moment_retrieval.md)
+- [\[CVPR 2026\] Enhancing Video Vision Language Model with Hippocampal Sensing](enhancing_video_vision_language_model_with_hippocampal_sensing.md)
 - [\[CVPR 2026\] SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning](sail_similarity-aware_guidance_and_inter-caption_augmentation-based_learning_for.md)
+- [\[CVPR 2026\] D2FANet: Enhancing Video Object Detection with Dual-Domain Feature Aggregation Network](d2fanet_enhancing_video_object_detection_with_dual-domain_feature_aggregation_ne.md)
 - [\[ICML 2026\] ProAct-VL: A Proactive VideoLLM for Real-Time AI Companions](../../ICML2026/video_understanding/proact-vl_a_proactive_videollm_for_real-time_ai_companions.md)
 
 </div>

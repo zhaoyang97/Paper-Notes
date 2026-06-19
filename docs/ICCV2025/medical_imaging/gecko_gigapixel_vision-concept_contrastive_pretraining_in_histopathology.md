@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2504.01009](https://arxiv.org/abs/2504.01009)  
 **代码**: [github.com/bmi-imaginelab/GECKO](https://github.com/bmi-imaginelab/GECKO)  
-**领域**: 医学图像
+**领域**: 医学图像  
 **关键词**: WSI预训练, 概念先验, 对比学习, 多实例学习, 可解释性
 
 ## 一句话总结

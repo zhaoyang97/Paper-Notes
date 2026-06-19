@@ -99,6 +99,7 @@ $$\mathcal{L}_{2D}=\min_{s,\mathbf{R}}\|\mathbf{M}_c\odot(\mathbf{X}-s\mathbf{P}
 亮点：2D-LFM 在 Human3.6M 上（30.9mm）甚至优于需要 3D 监督的 3D-LFM（46.3mm），且把 VGGT 这种场景级大模型在物体几何上甩开一个数量级。
 
 ### 消融实验
+
 | 配置 | Pascal3D+ | Human3.6M | 说明 |
 |------|-----------|-----------|------|
 | 输入处加 PE（ViT 式） | 100.3 | 63.4 | 完全失败 |
@@ -145,7 +146,7 @@ $$\mathcal{L}_{2D}=\min_{s,\mathbf{R}}\|\mathbf{M}_c\odot(\mathbf{X}-s\mathbf{P}
 - [\[CVPR 2026\] EvObj: Learning Evolving Object-centric Representations for 3D Instance Segmentation without Scene Supervision](evobj_learning_evolving_object-centric_representations_for_3d_instance_segmentat.md)
 - [\[ICLR 2026\] Stroke3D: Lifting 2D Strokes into Rigged 3D Model via Latent Diffusion Models](../../ICLR2026/3d_vision/stroke3d_lifting_2d_strokes_into_rigged_3d_model_via_latent_diffusion_models.md)
 - [\[CVPR 2026\] JRM: Joint Reconstruction Model for Multiple Objects without Alignment](jrm_joint_reconstruction_model_for_multiple_objects_without_alignment.md)
-- [\[CVPR 2026\] Tracking-Guided 4D Generation: Foundation-Tracker Motion Priors for 3D Model Animation](tracking-guided_4d_generation_foundation-tracker_motion_priors_for_3d_model_anim.md)
+- [\[CVPR 2026\] Unsupervised Multi-Scale Segmentation of 3D Subcellular World with Stable Diffusion Foundation Model](unsupervised_multi-scale_segmentation_of_3d_subcellular_world_with_stable_diffus.md)
 
 </div>
 

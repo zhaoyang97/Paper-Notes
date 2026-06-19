@@ -96,6 +96,7 @@ flowchart TD
 | 传感器 switcher（SAM/cGMP/ATP） | 3 个小分子 | 13858 | 89 严过滤 → 44 接触变化合格 | 复现 nicotine 传感器机制，Glu74 14.7 Å 位移 |
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | 完整 4 阶段 schedule | 240 步收敛到 one-hot | 软到硬平滑过渡 |
@@ -140,11 +141,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICML 2026\] Viral Proteins Reveal Geometry of Protein Language Models](viral_proteins_reveal_geometry_of_protein_language_models.md)
 - [\[NeurIPS 2025\] Learning Conformational Ensembles of Proteins Based on Backbone Geometry](../../NeurIPS2025/computational_biology/learning_conformational_ensembles_of_proteins_based_on_backbone_geometry.md)
 - [\[ICLR 2026\] HeurekaBench: A Benchmarking Framework for AI Co-scientist](../../ICLR2026/computational_biology/heurekabench_a_benchmarking_framework_for_ai_co-scientist.md)
 - [\[NeurIPS 2025\] BarcodeMamba+: Advancing State-Space Models for Fungal Biodiversity Research](../../NeurIPS2025/computational_biology/barcodemamba_advancing_state-space_models_for_fungal_biodiversity_research.md)
 - [\[ICML 2025\] Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling](../../ICML2025/computational_biology/designing_cyclic_peptides_via_harmonic_sde_with_atom-bond_modeling.md)
-- [\[NeurIPS 2025\] A Unified Framework for Variable Selection in Model-Based Clustering with Missing Not at Random](../../NeurIPS2025/computational_biology/a_unified_framework_for_variable_selection_in_modelbased_clu.md)
 
 </div>
 

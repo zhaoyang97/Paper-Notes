@@ -105,6 +105,7 @@ SDG 完全 training-free：score model $\mathbf{s}_\theta$、奖励 $r(\cdot)$ �
 | **SDG (full)** | **1.156** | **22.690** | 9.167 | **8.780** |
 
 ### 消融实验
+
 | 配置 | Jak2 Hit % | 说明 |
 |------|-----------|------|
 | Full SDG ($\alpha>0,\epsilon>0$) | 9.167 | 完整方法 |
@@ -150,9 +151,9 @@ SDG 完全 training-free：score model $\mathbf{s}_\theta$、奖励 $r(\cdot)$ �
 
 - [\[ICML 2026\] On the Collapse of Generative Paths: A Criterion and Correction for Diffusion Steering](on_the_collapse_of_generative_paths_a_criterion_and_correction_for_diffusion_ste.md)
 - [\[NeurIPS 2025\] Split Gibbs Discrete Diffusion Posterior Sampling](../../NeurIPS2025/computational_biology/split_gibbs_discrete_diffusion_posterior_sampling.md)
-- [\[ICML 2026\] From Holo Pockets to Electron Density: GPT-style Drug Design with Density](from_holo_pockets_to_electron_density_gpt-style_drug_design_with_density.md)
+- [\[ICML 2026\] Plug-and-Play Guidance for Discrete Diffusion Models via Gradient-Informed Logit Correction](plug-and-play_guidance_for_discrete_diffusion_models_via_gradient-informed_logit.md)
 - [\[ICML 2026\] Temporal Score Rescaling for Temperature Sampling in Diffusion and Flow Models](temporal_score_rescaling_for_temperature_sampling_in_diffusion_and_flow_models.md)
-- [\[ICML 2026\] Learning the Neighborhood: Contrast-Free Multimodal Self-Supervised Molecular Graph Pretraining](learning_the_neighborhood_contrast-free_multimodal_self-supervised_molecular_gra.md)
+- [\[ICML 2026\] From Holo Pockets to Electron Density: GPT-style Drug Design with Density](from_holo_pockets_to_electron_density_gpt-style_drug_design_with_density.md)
 
 </div>
 

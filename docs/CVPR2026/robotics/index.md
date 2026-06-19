@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 机器人/具身智能论文汇总 · 149篇论文解读
+  CVPR2026 机器人/具身智能论文汇总 · 146篇论文解读
 description: >-
-  149篇CVPR2026的机器人/具身智能方向论文解读，涵盖机器人、多模态、导航、推理、Agent、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  146篇CVPR2026的机器人/具身智能方向论文解读，涵盖机器人、多模态、导航、推理、Agent、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "机器人/具身智能"
@@ -13,7 +13,7 @@ tags:
   - "导航"
   - "推理"
   - "Agent"
-  - "扩散模型"
+  - "对抗鲁棒"
 item_list:
   - u: "a_cross-view_fusion_framework_for_robust_6-dof_grasp_pose_estimation/"
     t: "A Cross-view Fusion Framework for Robust 6-DoF Grasp Pose Estimation"
@@ -37,10 +37,14 @@ item_list:
     t: "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions"
   - u: "agile_learning_robust_long-horizon_manipulation_via_affordance-grounded_bidirect/"
     t: "AGiLe: Learning Robust Long-Horizon Manipulation via Affordance-Grounded Bidirectional Latent Planning"
+  - u: "airsim360_a_panoramic_simulation_platform_within_drone_view/"
+    t: "AirSim360: A Panoramic Simulation Platform within Drone View"
   - u: "align_while_search_belief-guided_exploratory_inference_for_world-grounded_embodi/"
     t: "Align While Search: Belief-Guided Exploratory Inference for World-Grounded Embodied Agents"
   - u: "arcadia_toward_a_full-lifecycle_framework_for_embodied_lifelong_learning/"
     t: "Arcadia: Toward a Full-Lifecycle Framework for Embodied Lifelong Learning"
+  - u: "astranav-memory_contexts_compression_for_long_memory/"
+    t: "AstraNav-Memory: Contexts Compression for Long Memory"
   - u: "at-vla_adaptive_tactile_injection_for_enhanced_feedback_reaction_in_vision-langu/"
     t: "AT-VLA: Adaptive Tactile Injection for Enhanced Feedback Reaction in Vision-Language-Action Models"
   - u: "atomicvla_unlocking_the_potential_of_atomic_skill_learning_in_robots/"
@@ -65,27 +69,23 @@ item_list:
     t: "Chain of World: World Model Thinking in Latent Motion (CoWVLA)"
   - u: "clad_planning_with_grounded_foresight_via_cross-modal_latent_dynamics/"
     t: "CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics"
-  - u: "clivis_unleashing_cognitive_map_through_linguistic-visual_synergy_for_embodied_v/"
-    t: "CLiViS: Unleashing Cognitive Map through Linguistic-Visual Synergy for Embodied Visual Reasoning"
-  - u: "closed-loop_neural_activation_control_in_vision-language-action_models/"
-    t: "Closed-Loop Neural Activation Control in Vision-Language-Action Models"
   - u: "como_learning_continuous_latent_motion_from_internet_videos_for_scalable_robot_l/"
     t: "CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning"
   - u: "contact-aware_neural_dynamics/"
     t: "Contact-Aware Neural Dynamics"
-  - u: "counterfactual_vla_self-reflective_vision-language-action_model_with_adaptive_re/"
-    t: "Counterfactual VLA: Self-Reflective Vision-Language-Action Model with Adaptive Reasoning"
-item_total: 149
+  - u: "cross-domain_demo-to-code_via_neurosymbolic_counterfactual_reasoning/"
+    t: "Cross-Domain Demo-to-Code via Neurosymbolic Counterfactual Reasoning"
+item_total: 146
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**📷 CVPR2026** · **149** 篇论文解读
+**📷 CVPR2026** · **146** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (42)](../../ICML2026/robotics/index.md) · [💬 ACL2026 (10)](../../ACL2026/robotics/index.md) · [🔬 ICLR2026 (46)](../../ICLR2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (53)](../../ICML2026/robotics/index.md) · [💬 ACL2026 (11)](../../ACL2026/robotics/index.md) · [🔬 ICLR2026 (56)](../../ICLR2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
 
-🔥 **高频主题：** 机器人 ×56 · 多模态 ×34 · 导航 ×23 · 推理 ×21 · Agent ×12
+🔥 **高频主题：** 机器人 ×57 · 多模态 ×33 · 导航 ×20 · 推理 ×17 · Agent ×11
 
 **[A Cross-view Fusion Framework for Robust 6-DoF Grasp Pose Estimation](a_cross-view_fusion_framework_for_robust_6-dof_grasp_pose_estimation.md)**
 
@@ -131,6 +131,10 @@ item_total: 149
 
 :   AGiLe 用「反向规划器 + 前向评判器」联合训练生成既贴合目标又动态可达的隐空间子目标序列（时间鲁棒性），再把这些抽象子目标当 Query 通过交叉注意力过滤视觉特征、隐式地接地到像素级可供性来驱动动作（空间鲁棒性），在 LIBERO-LONG 上平均成功率 97.1%，比此前最强基线 LBP 提升 8.5%。
 
+**[AirSim360: A Panoramic Simulation Platform within Drone View](airsim360_a_panoramic_simulation_platform_within_drone_view.md)**
+
+:   基于 Unreal Engine（兼容 UE 4.27–5.6）搭一个面向无人机视角的 360° 全景闭环仿真平台 AirSim360，配套"渲染对齐的像素级标注、可交互行人系统、自动轨迹生成"三件套工具链，一口气合成 6 万多帧带深度/全景分割/3D 关键点的全向数据，并在深度估计、分割、行人测距、视觉语言导航等五类任务上证明合成数据能迁移到真实场景。
+
 **[Align While Search: Belief-Guided Exploratory Inference for World-Grounded Embodied Agents](align_while_search_belief-guided_exploratory_inference_for_world-grounded_embodi.md)**
 
 :   针对 LLM 具身 agent 在部分可观测环境下「搜索物体时只会机械重放训练轨迹」的问题，AWS 把搜索建模成单状态的贝叶斯自适应控制——在测试时维护一个分层信念（全局语言假设 + 低层动作分布），用冻结 LLM 模拟观测来做「更新→投影」的信念刷新，并按预测信息增益选动作，**不更新任何梯度**就把搜索成功率和 token 开销同时压过了推理时扩展与训练时世界模型基线。
@@ -138,6 +142,10 @@ item_total: 149
 **[Arcadia: Toward a Full-Lifecycle Framework for Embodied Lifelong Learning](arcadia_toward_a_full-lifecycle_framework_for_embodied_lifelong_learning.md)**
 
 :   Arcadia 把具身学习从"单阶段优化"重新定义为"全生命周期问题"，用一条紧耦合的 real→sim→real 闭环把自主探索采数、生成式场景重建、导航/操作共享骨干、部署反馈回灌四个环节串成一个自我改进系统，在导航/操作 benchmark 上分别平均提升 7.07% / 11.08%，真机成功率远超 NaVILA、OpenVLA。
+
+**[AstraNav-Memory: Contexts Compression for Long Memory](astranav-memory_contexts_compression_for_long_memory.md)**
+
+:   AstraNav-Memory 把具身终身导航的"记忆"做成图像中心的隐式表示——用一个 ViT-原生的视觉压缩 tokenizer 把每帧从 598 个视觉 token 压到约 30 个（≈20×），让 Qwen2.5-VL-3B 能在单个 context 里塞进数百帧历史，从而在陌生环境探索得更高效、在熟悉环境复用记忆走更短的路，在 GOAT-Bench 和 HM3D-OVON 上刷到 SOTA。
 
 **[AT-VLA: Adaptive Tactile Injection for Enhanced Feedback Reaction in Vision-Language-Action Models](at-vla_adaptive_tactile_injection_for_enhanced_feedback_reaction_in_vision-langu.md)**
 
@@ -187,14 +195,6 @@ item_total: 149
 
 :   CLaD 让机器人在一个紧凑的潜在空间里规划：它用「本体感受变化去查询语义变化」的非对称交叉注意力建模两种模态如何随动作共同演化，预测出被 EMA 目标和重建损失双重「接地」的潜在预见，再用它调制一个扩散策略生成动作；在 LIBERO-LONG 上仅用 0.66B 参数就拿到 94.7% 成功率，超过了 7B 的 OpenVLA。
 
-**[CLiViS: Unleashing Cognitive Map through Linguistic-Visual Synergy for Embodied Visual Reasoning](clivis_unleashing_cognitive_map_through_linguistic-visual_synergy_for_embodied_v.md)**
-
-:   CLiViS 把第一人称视频问答拆成"LLM 当规划者、VLM 当感知执行者"的免训练循环，二者共同维护一张会随推理逐步演化的**动态认知地图**（导航图 + 关系图），用结构化场景表征把细粒度感知和高层推理桥接起来，在 OpenEQA / EgoTempo / EgoSchema 三个 benchmark 上拿到 SOTA。
-
-**[Closed-Loop Neural Activation Control in Vision-Language-Action Models](closed-loop_neural_activation_control_in_vision-language-action_models.md)**
-
-:   针对现有 VLA 激活转向用**固定系数、开环操作**导致过冲与任务失败的问题，本文提出 CTRL-STEER：先用机制可解释性挑出与运动概念对齐的一组 FFN 神经元，再用 PID / RL 控制器在推理时**逐步在线调整**这组神经元的干预强度，从而在「转向到位」和「任务成功」之间取得更好折中——不改、不重训基座模型，把 OpenVLA 在强干预下从 1.8% 的成功率救回到接近甚至超过未转向基线。
-
 **[CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning](como_learning_continuous_latent_motion_from_internet_videos_for_scalable_robot_l.md)**
 
 :   提出 CoMo，通过早期时序差分（Td）和时序对比学习（Tcl）两个机制协同解决连续隐运动学习中的捷径学习问题，从互联网视频中提取精细的连续伪动作标签，使视频数据与机器人动作在统一连续分布下联合训练，显著提升策略性能。
@@ -202,10 +202,6 @@ item_total: 149
 **[Contact-Aware Neural Dynamics](contact-aware_neural_dynamics.md)**
 
 :   针对灵巧手富接触操作的 sim-to-real 鸿沟，本文把现成仿真器当先验、用一个"先预测接触事件、再做接触条件扩散位姿预测"的神经前向动力学模型来隐式对齐仿真与真实，靠机器人手上的触觉二值接触信号锚定真实物理，在单/多物体任务上把长程预测 MSE 和 ADD-S 都刷到最好，并能把纯仿真训练的策略筛选/微调到更高真实成功率。
-
-**[Counterfactual VLA: Self-Reflective Vision-Language-Action Model with Adaptive Reasoning](counterfactual_vla_self-reflective_vision-language-action_model_with_adaptive_re.md)**
-
-:   CF-VLA 让自动驾驶 VLA 先生成"分时段元动作"，再对自己刚提出的动作做反事实推理（"如果照这个计划走会怎样、该不该改"）并在出轨迹前自我修正，配合一条 rollout–filter–label 数据管线只在难场景上标注反事实 trace，从而学出"只在该想的时候才想"的自适应推理，轨迹精度提升约 17.6%、安全指标提升约 20%。
 
 **[Cross-Domain Demo-to-Code via Neurosymbolic Counterfactual Reasoning](cross-domain_demo-to-code_via_neurosymbolic_counterfactual_reasoning.md)**
 
@@ -227,21 +223,9 @@ item_total: 149
 
 :   针对机器人"摇瓶子三次""敲钉子八下"这类需要数清楚循环次数并准时停手的周期性操作，CycleManip 在端到端模仿学习里用「成本感知采样」高效扩展历史观测视野、用「多任务进度预测」逼模型理解周期阶段，在仿真和真机上把周期任务成功率从个位数/几十拉到 53–97%。
 
-**[CycleManip: Enabling Cyclic Task Manipulation via Effective Historical Perception and Understanding](cyclemanip_enabling_cyclic_task_manipulation_via_effective_historical_percepti.md)**
-
-:   CycleManip 首次系统性地解决机器人循环操作任务（如摇瓶子N次），通过成本感知的历史采样策略增强历史感知，配合多任务学习辅助目标提升历史理解，以端到端模仿学习方式实现循环次数可控的操作。
-
 **[D3D-VLP: Dynamic 3D Vision-Language-Planning Model for Embodied Grounding and Navigation](d3d-vlp_dynamic_3d_vision-language-planning_model_for_embodied_grounding_and_nav.md)**
 
 :   D3D-VLP 把"规划—3D 定位—导航"三件事重写成一个 3D-VLM 内部的统一自回归链式思考（3D CoT），并配一个 CoT 记忆反馈回路实现动态重规划；再用「碎片化监督」策略让大量只标了一部分（比如只标导航动作）的 1000 万样本也能联合训练，在 R2R-CE、REVERIE-CE、HM3D-OVON、SG3D 等多个具身导航/定位基准上刷到新 SOTA。
-
-**[DAWN: Pixel Motion Diffusion is What We Need for Robot Control](dawn_pixel_motion_diffusion_robot_control.md)**
-
-:   提出 DAWN，一个两阶段全扩散的视觉语言动作框架——Motion Director（潜扩散模型）生成稠密像素运动场作为可解释的中间表示，Action Expert（扩散 Transformer 策略）将像素运动转换为可执行机器人动作；在 CALVIN 基准上取得 SOTA（平均长度 4.00），并在真实世界单臂/双臂操控中展现强泛化能力。
-
-**[DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation](decovln_decoupling_observation_reasoning_and_correction_for_vision-and-language_.md)**
-
-:   提出 DecoVLN 框架，将 VLN 任务中的观察、推理和纠错三个过程解耦，通过自适应记忆优化机制和基于状态-动作对的纠错微调策略，在仅使用自中心 RGB 输入的条件下实现了 R2R-CE 和 RxR-CE 上的 SOTA 性能。
 
 **[Dejavu: Towards Experience Feedback Learning for Embodied Intelligence](dejavu_towards_experience_feedback_learning_for_embodied_intelligence.md)**
 
@@ -291,9 +275,9 @@ item_total: 149
 
 :   Evo-1 用一个仅 0.77B 参数的原生多模态 VLM 当主干，配上纯交叉注意力的流匹配扩散动作专家和一套"先冻结后微调"的两阶段训练，在完全不做机器人数据预训练的前提下，靠保住 VLM 的语义空间在 Meta-World / RoboTwin / LIBERO 上拿到 SOTA，真机 78% 成功率且推理频率 16.4 Hz、显存仅 2.3 GB。
 
-**[Expert Pyramid Tuning: Efficient Parameter Fine-Tuning for Expertise-Driven Task Allocation](expert_pyramid_tuning_efficient_parameter_fine-tuning_for_expertise-driven_task_.md)**
+**[Expanding Spatial and Temporal Context for Robotic Imitation Learning With Scene Graphs](expanding_spatial_and_temporal_context_for_robotic_imitation_learning_with_scene.md)**
 
-:   针对MoE-LoRA方法中所有expert结构相同（统一rank）导致无法适配不同复杂度任务的问题，提出EPT：通过共享meta-knowledge子空间 + 不同kernel size的反卷积expert构建参数金字塔，配合Adaptive LoRA Pruner和对比学习Task Embedding，在GLUE上以仅0.41M参数/任务达到87.0%平均分，超越所有MoE-LoRA变体。
+:   针对家庭/办公等大空间下机器人"看不全、记不住"的部分可观测难题，本文把**任务相关的动态场景图**当作模仿学习策略的显式结构化记忆——只跟踪和任务有关的物体、维护它们随时间演化的外观与三维位置，再把整张图编码成 token 喂给扩散策略，从而在需要长程推理的移动操作和桌面操作任务上显著提升成功率。
 
 **[Extending Embodied Question Answering from Perception to Decision](extending_embodied_question_answering_from_perception_to_decision.md)**
 
@@ -307,10 +291,6 @@ item_total: 149
 
 :   提出 Fast-ThinkAct，通过将冗长的文本 CoT 推理（~250 token）压缩为 6 个可语言化的连续 latent token，结合 reward-guided preference distillation 和 visual trajectory alignment，实现 89.3% 推理延迟降低（9.3× faster than ThinkAct-7B）同时保持甚至超越 SOTA reasoning VLA 的性能。
 
-**[FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation](finecog_nav_fine_grained_cognitive_modules_for_zero_shot_uav_navigation.md)**
-
-:   本文提出 FineCog-Nav，一个受人类认知启发的零样本 UAV 视觉语言导航框架，将导航分解为语言处理、感知、注意力、记忆、想象、推理和决策七个细粒度认知模块，每个模块使用中等规模基础模型驱动，无需训练即可在复杂 3D 环境中完成长程导航。
-
 **[FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation](flare_a_failure-aware_framework_for_autonomous_correction_and_recovery_in_visual.md)**
 
 :   FLARE 把机器人 VLA 的失败按"机器人姿态出错(ID)"和"环境被破坏(OOD)"分成两类，用扰动-桥接数据增强让模型自带"重试"能力、用 MLLM 离线挖掘失败视频自动学一套物体级"复位"技能，再由在线 MLLM 监控器闭环切换两种技能，把 RoboMimic 9 个接触密集任务的平均成功率从 π0.5 的 72.2% 提到 84.0%。
@@ -322,6 +302,10 @@ item_total: 149
 **[FM-Steer: Enhance Generalist Policies with Value-Guided Cascaded Denoising](fm-steer_enhance_generalist_policies_with_value-guided_cascaded_denoising.md)**
 
 :   FM-Steer 给流匹配（flow-matching）VLA 通用策略加了一套测试时计算框架：用一个中间流验证器对"半去噪"的候选动作打 Q 值、Best-of-N 选最优，再把选中的噪声动作交给一个轻量 Lite-Flow 去噪器异步补完剩余去噪，从而在不重训基座、还把控制频率从 4 Hz 拉到 90 Hz 的前提下，让 π0 在 LIBERO/Simpler/真机上分别涨 +4.4%/+25.9%/+12.9%。
+
+**[FORCE: Transferable Visual Jailbreaking Attacks via Feature Over-Reliance CorrEction](force_transferable_visual_jailbreaking_attacks_via_feature_over_reliance_correct.md)**
+
+:   分析发现视觉 jailbreak attack 迁移性差的根因是 attack 处于 high-sharpness loss region——源于浅层特征过度依赖 model-specific 表示和高频信息过度影响；提出 FORCE 方法通过 layer-aware regularization 扩展浅层 feasible region + spectral rescaling 抑制高频非语义成分，引导 attack 进入 flatter loss landscape，显著提升跨模型迁移性。
 
 **[ForceVLA2: Unleashing Hybrid Force-Position Control with Force Awareness for Contact-Rich Manipulation](forcevla2_unleashing_hybrid_force-position_control_with_force_awareness_for_cont.md)**
 
@@ -346,10 +330,6 @@ item_total: 149
 **[GeCo-SRT: Geometry-aware Continual Adaptation for Cross-Task Sim-to-Real Transfer](geco-srt_geometry-aware_continual_adaptation_for_cross-task_sim-to-real_transfer.md)**
 
 :   GeCo-SRT 把"模拟到真实"迁移从一次性调参改造成**跨任务持续累积**的过程：用人在回路的纠错轨迹量化 sim-to-real gap，再用「几何感知混合专家（Geo-MoE）」把点云的局部几何特征（平面性、线性、显著性）作为跨任务、跨域不变的可复用知识载体，并用「几何专家引导的优先经验回放（Geo-PER）」保护闲置专家不被遗忘，最终在 4 个真实机械臂任务上平均成功率比 baseline 高 52%，且只用 1/6 数据就能追平。
-
-**[GeCo-SRT: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer](gecosrt_geometryaware_continual_adaptation_for_rob.md)**
-
-:   GeCo-SRT提出持续跨任务Sim-to-Real迁移范式，利用局部几何特征的域不变性和任务不变性，通过几何感知MoE模块提取可复用的几何知识并用专家引导的优先经验回放防遗忘，在4个操作任务上比基线平均提升52%成功率且仅需1/6数据。
 
 **[General Process Reward Modeling for Robotic Reinforcement Learning](general_process_reward_modeling_for_robotic_reinforcement_learning.md)**
 
@@ -387,9 +367,9 @@ item_total: 149
 
 :   提出 HiF-VLA 框架，通过运动向量（Motion Vector）作为紧凑时间原语，统一回顾（Hindsight）、洞察（Insight）和前瞻（Foresight）三种时间推理能力，实现 VLA 模型的双向时间扩展，在长时操作任务中以极低计算开销大幅超越基线。
 
-**[History to Future: Evolving Agent with Experience and Thought for Zero-shot Vision-and-Language Navigation](history_to_future_evolving_agent_with_experience_and_thought_for_zero-shot_visio.md)**
+**[Hoi! - A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation](hoi_-_a_multimodal_dataset_for_force-grounded_cross-view_articulated_manipulatio.md)**
 
-:   EVONAV 给零样本视觉语言导航（VLN-CE）的 LLM 智能体补上「回顾历史 + 预判未来」的反馈回路：用 Future Chain-of-Thought（F-CoT）预测未来动作与地标来估计导航进度、用 History Chain-of-Experience（H-CoE）把已完成轨迹和走过的场景在线总结成可检索经验，两者协同让决策从「一锤子直推」进化为「带反馈的连续纠错」，在 R2R-CE 上比同 LLM 的 Open-Nav 提升 +20% SR、+21% OSR、+17% SPL，且更省时省显存。
+:   Hoi! 是一个面向"力接地、跨视角、跨具身"铰接家具操作的真实多模态数据集——用一把自研的手持力反馈夹爪，在 38 个真实室内场景里采集了人用四种具身（裸手 / 裸手+腕相机 / UMI 夹爪 / Hoi! 夹爪）操作 381 个抽屉门冰箱等铰接部件的 3048 条序列，每条序列时空对齐了 RGB-D、力/力矩、触觉、手部位姿和场景级激光点云，并配套了铰接估计、触觉测力、视觉测力三个 benchmark。
 
 **[HQC-NBV: A Hybrid Quantum-Classical View Planning Approach](hqc-nbv_a_hybrid_quantum-classical_view_planning_approach.md)**
 
@@ -399,6 +379,10 @@ item_total: 149
 
 :   HTNav 用「IL 预训练 + PPO 微调」的混合训练范式给城市无人机视觉语言导航打底，再叠一个「宏观规划航点 + 微观选动作」的分层决策机制和一个残差地图编码模块，在 CityNav 上把测试集未见场景的成功率从 9.70% 翻倍到 25.49%。
 
+**[Humanoid Generative Pre-Training for Zero-Shot Motion Tracking](humanoid_generative_pre-training_for_zero-shot_motion_tracking.md)**
+
+:   把人形机器人的全身运动跟踪重新定义成「GPT 式因果序列建模」：先在 20 亿帧重定向运动语料上用 RL 训练约 300 个分簇运动专家，再用 DAgger 把它们蒸馏进一个带因果注意力的 Transformer（Humanoid-GPT），靠数据和模型规模同时打破「敏捷性 vs 泛化性」的取舍，在真实 Unitree-G1 上零样本跟踪舞蹈、功夫、跳跃等未见过的高动态动作。
+
 **[IGen: Scalable Data Generation for Robot Learning from Open-World Images](igen_scalable_data_generation_for_robot_learning_from_open-world_images.md)**
 
 :   IGen 从单张开放世界图像出发，通过3D场景重建→VLM任务规划→SE(3)动作生成→点云合成→帧渲染，自动生成大规模视觉-动作训练数据，仅用生成数据训练的策略即可完成真实世界操作。
@@ -406,10 +390,6 @@ item_total: 149
 **[INSIGHT Bench: Towards Grounded IN-SItu Guidance for Robotic Manipulation](insight_bench_towards_grounded_in-situ_guidance_for_robotic_manipulation.md)**
 
 :   针对当前 VLA 模型"会听外部语言指令、却读不懂物体上印着的 PUSH/PULL/箭头/squeeze 等在物符号"这一空白，本文提出 INSIGHT Bench——一个把在物视觉指引与物理约束程序化绑定的机器人操作基准，配套五类指引分类法、可扩展的自动数据生成管线和 14,076 条轨迹数据集，并实测出 π0、GR00T N1.5、SmolVLA 普遍无法稳定 ground 这类在物指引。
-
-**[Instance-level Visual Active Tracking with Occlusion-Aware Planning](instance-level_visual_active_tracking_with_occlusion-aware_planning.md)**
-
-:   OA-VAT 用一张参考图离线构建判别性"实例原型"来对抗相似干扰物，在线 EMA 增强原型 + 置信度自适应卡尔曼滤波保持稳定跟踪，并训练一个以目标框为条件的扩散轨迹规划器在目标被遮挡时主动绕障找回——在 UnrealCV 上平均 SR 0.93、真实图像平均 CAR 90.8%、真机无人机 TSR 81.6%，且 RTX 3090 上 35 FPS 实时。
 
 **[InternData-A1: Pioneering High-Fidelity Synthetic Data for Pre-training Generalist Policy](interndata-a1_pioneering_high-fidelity_synthetic_data_for_pre-training_generalis.md)**
 
@@ -423,17 +403,9 @@ item_total: 149
 
 :   提出 LaDA 框架，用自然语言作为语义桥梁将连续 7-DoF 动作解耦为平移/旋转/夹爪三个可解释原语，通过软标签对比学习在共享嵌入空间中对齐跨任务动作表示，仅 0.6B 参数在 LIBERO 上达 93.6% 成功率，超越 1.3B~8.5B 参数的所有基线。
 
-**[LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving](lead_minimizing_learner-expert_asymmetry_in_end-to-end_driving.md)**
-
-:   这篇论文指出 CARLA 里"学车（student）学不会老司机（privileged expert）"的根因不是模型不够强，而是专家用了学生看不到/测不准的特权信息、以及导航意图给得太稀疏；通过把专家的感知和决策约束到学生能观测的范围（LEAD 专家+数据集）、并重构学生策略的目标点注入方式（TFv6），在 Bench2Drive 上拿到 95 DS、在 Longest6 v2 / Town13 上把此前最好成绩翻倍以上。
-
 **[Learning a Unified Latent Action Space from Videos with Action-centric Cycle Consistency](learning_a_unified_latent_action_space_from_videos_with_action-centric_cycle_con.md)**
 
 :   提出 CycleMimic，用"动作中心循环一致性（AC3）"约束从无标注视频里学习潜在动作 tokenizer——靠"采样潜在动作→生成未来帧→再从原帧和生成帧预测回该动作"的闭环，逼出语义一致且跨本体统一的潜在动作空间，在 LIBERO 上比 OpenVLA 提升 20.1%、CALVIN 平均完成任务数从 3.27 升到 3.93。
-
-**[Learning Predictive Visuomotor Coordination](learning_predictive_visuomotor_coordination.md)**
-
-:   本文把"头部姿态 + 视线 + 上半身关节"统一成一个**视觉-运动协调表征（VCR）**，用一个条件扩散模型从第一人称视频和运动历史预测未来 1 秒的协调运动，在 EgoExo4D 上做到平移误差 59 mm、头部旋转误差 13.2°，比 Diffusion Policy 等强基线全面更优。
 
 **[Learning Surgical Robotic Manipulation with 3D Spatial Priors](learning_surgical_robotic_manipulation_with_3d_spatial_priors.md)**
 
@@ -459,6 +431,10 @@ item_total: 149
 
 :   提出终身模仿学习框架，通过多模态潜在回放（MLR）在冻结编码器的特征空间中存储和回放紧凑表示，并引入增量特征调整（IFA）机制用角距离约束维持任务间可分性，在LIBERO基准上AUC提升10-17点、遗忘降低最多65%。
 
+**[Localizing, Structuring, and Rendering: Bridging 3D and 2D Vision-Language-Action Models for Robotic Manipulation](localizing_structuring_and_rendering_bridging_3d_and_2d_vision-language-action_m.md)**
+
+:   DiffRender-VLA 用「可微渲染」当桥梁，把点云里的 3D 空间关系编码成带颜色光束的可微图像喂给 2D VLA，让 2D VLA 的动作损失能反传回 3D 表征里去优化目标定位和视角，从而在遮挡/杂乱/复杂空间操作任务上平均涨点 +12.1%。
+
 **[Mantis: A Versatile Vision-Language-Action Model with Disentangled Visual Foresight](mantis_a_versatile_vision-language-action_model_with_disentangled_visual_foresig.md)**
 
 :   Mantis 把"预测未来画面"这件事从 VLA 主干上解耦出去——用一组潜在动作查询 + 独立的扩散 Transformer（DiT）头去生成下一帧，让主干只需吐出一段紧凑的帧间动态作为动作监督信号，从而既保住了视觉前瞻的好处，又腾出主干容量保留语言理解与推理能力，在 LIBERO 上拿到 96.7% 成功率，真实机器人上指令跟随和泛化都超过 π0.5。
@@ -470,10 +446,6 @@ item_total: 149
 **[MaskDexGrasp: Generative Masked Modeling for Part-Aware Dexterous Grasp Synthesis](maskdexgrasp_generative_masked_modeling_for_part-aware_dexterous_grasp_synthesis.md)**
 
 :   MaskDexGrasp 把灵巧手抓取按手部解剖结构拆成「手掌 + 五指」六个部件、用 VQ-VAE 量化成离散 token，再用一个双向掩码 Transformer 在物体点云和任务文本条件下迭代采样这些 token，从而生成高质量、语义对齐且可逐指编辑的抓取，并在自建的 TDG 数据集（6.5 万抓取 / 26 万文本 / 11 类任务）上取得 SOTA。
-
-**[Materialistic RIR: Material Conditioned Realistic RIR Generation](materialistic_rir_material_conditioned_realistic_rir_generation.md)**
-
-:   给定一张室内 RGB 图和一张用户指定的「材质分割图」，MatRIR 用**空间模块**先预测只跟房间布局有关的初始 RIR，再用**材质感知模块**按材质把它"调制"成最终的双耳房间脉冲响应，从而让用户能在不改变空间结构的前提下任意换材质（如给地板铺地毯、给墙贴钢板）并听到对应的混响变化，在 RT60 误差上比最强基线再降约 16.8%、在材质一致性指标上提升约 71%。
 
 **[Memory-Augmented Scene Understanding and Exploration for Open-World Aerial Object-Goal Navigation](memory-augmented_scene_understanding_and_exploration_for_open-world_aerial_objec.md)**
 
@@ -495,9 +467,13 @@ item_total: 149
 
 :   Motus 用一个 Mixture-of-Transformers 架构把「理解 / 视频生成 / 动作」三个预训练专家缝在一起，靠共享自注意力（Tri-model Joint Attention）+ UniDiffuser 式异步调度，在单一模型里统一了 VLA、世界模型、IDM、视频生成、视频-动作联合预测这 5 种具身范式；再用光流提炼出像素级「潜在动作」让动作专家也能在海量无标注视频上预训练，最终在仿真上比 π0.5 高 45%、比 X-VLA 高 15%，真机提升 11~48%。
 
-**[Multi-SpatialMLLM: Multi-Frame Spatial Understanding with Multi-Modal Large Language Models](multi-spatialmllm_multi-frame_spatial_understanding_with_multi-modal_large_langu.md)**
+**[NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction](navforesee_a_unified_vision-language_world_model_for_hierarchical_planning_and_d.md)**
 
-:   针对 MLLM 只会单图空间推理、连左右都分不清的问题，本文用已标注的 3D/4D 场景数据集自动生成 2700 万条多帧空间问答（MultiSPA），把深度、视觉对应、动态感知三大基础能力灌进 InternVL2，训出的 Multi-SpatialMLLM 在自建 benchmark 上平均比基座涨 36%，甚至追平闭源大模型和专用 3D 模型。
+:   NavForesee 把"高层语言规划"和"世界模型未来预测"统一进同一个 Qwen2.5-VL-3B 里——一边把长指令拆成里程碑子目标并跟踪进度，一边在隐空间预测短期（k 步）和长期（到下个里程碑）的深度/语义特征，再用一个 MLP 把这些"想象的未来"转成连续航点动作，在 R2R-CE 上达到 66.2% SR / 78.4% OSR，只用公开数据就接近 SOTA。
+
+**[NIL: No-data Imitation Learning](nil_no-data_imitation_learning.md)**
+
+:   NIL 用预训练视频扩散模型从「一张初始帧 + 一句任务描述」生成一段参考视频，再在物理仿真器里训练 RL 策略去模仿这段视频——奖励完全来自「视频编码相似度 + 分割掩码 IoU」而非判别器，从而在**不收集任何 3D 动捕数据**的前提下，让人形/四足等多种机器人学会走路、坐、吊单杠等全身技能。
 
 **[Obstruction Reasoning for Robotic Grasping](obstruction_reasoning_for_robotic_grasping.md)**
 
@@ -507,9 +483,13 @@ item_total: 149
 
 :   OctoNav 把 ObjNav / PointNav / ImgNav / Ins-ImgNav / VLN 五类彼此割裂的导航任务统一进一条"自由形式、多模态、多能力"指令里，配套放出 45k+ 指令-轨迹对的 OctoNav-Bench 与带推理链的 TBA-CoT 数据集，并训练出一个"先思考再行动"的 VLA 模型 OctoNav-R1（LLaMA-VID 底座 + 三阶段 SFT/GRPO/在线 RL 混合训练范式），把统一设定下的整体成功率从此前最好的 9.2% 提到 19.4%。
 
-**[PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation](palm_progress-aware_policy_learning_via_affordance_reasoning_for_long-horizon_ro.md)**
+**[Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer](opening_the_sim-to-real_door_for_humanoid_pixel-to-action_policy_transfer.md)**
 
-:   提出 PALM，一个统一的 VLA 框架，通过结构化的细粒度可供性预测（全局/局部/空间/动态四类）作为隐式推理锚点，结合连续子任务进度估计实现无缝任务切换，在 CALVIN ABCD 上平均完成长度达 4.48（超越前 SOTA 12.5%），LIBERO-LONG 成功率 91.8%，真实世界长时域泛化测试中达到基线 2 倍以上。
+:   DoorMan 用一条「教师-学生-自举（teacher-student-bootstrap）」的三阶段管线，在 IsaacLab 里靠大规模物理+视觉随机化训练出一个**纯 RGB 输入**的人形全身开门策略，零样本迁移到真实世界开各种门，任务完成时间比人类遥操作还快最多 31.7%。
+
+**[ORV: 4D Occupancy-centric Robot Video Generation](orv_4d_occupancy-centric_robot_video_generation.md)**
+
+:   ORV 在预训练视频扩散模型（CogVideoX-2B）上，用「分块 7-DoF 动作条件」加「4D 语义占据渲染出的软视觉先验」共同驱动机器人操作视频生成，把稀疏控制信号和稠密像素之间的鸿沟补上，从而做到高保真、可控、跨视角一致、还能仿真到真实迁移的机器人世界模型，FVD 比 SOTA 低 18.8%，并能给视觉规划和策略学习当数据引擎。
 
 **[Parse, Search, and Confirmation: Training-Free Aerial Vision-and-Dialog Navigation with Chain-of-Thought Reasoning and Structured Spatial Memory](parse_search_and_confirmation_training-free_aerial_vision-and-dialog_navigation_.md)**
 
@@ -519,29 +499,41 @@ item_total: 149
 
 :   本文提出"解析概念"（analytic concepts）——一种用数学符号过程化定义、可被机器直接计算与仿真的物体结构/操作知识表示，把 MLLM 推理出的语义级常识知识接地到物理世界，再据此指导机器人完成铰接物体操作，在仿真未见类别上相对 A3VLM 提升约 27%。
 
-**[PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation](pointworld_scaling_3d_world_models_for_in-the-wild_robotic_manipulation.md)**
-
-:   PointWorld 把场景状态和机器人动作统一表示为同一套 3D 点流（3D point flow），用一个大型预训练点云骨干在约 200 万条轨迹上学习"给定动作后全场景点会怎么动"，从而让一个 checkpoint 在零样本、单张 RGB-D 输入下驱动真实机械臂完成刚体推、形变物体、铰接物体和工具使用等任务。
-
 **[Predict Before You Explore: Predictive Planning with Specialized Memory for Embodied Question Answering](predict_before_you_explore_predictive_planning_with_specialized_memory_for_embod.md)**
 
 :   Pred-EQA 把具身问答（EQA）从"看一步走一步"的反应式探索改造成"先预测再探索"的预测-纠错循环：用高层规划器预测证据可能藏在哪、生成几条带长程意图的探索分支，低层执行器在分支内主动消除不确定性并在预测失败时剪枝，再配一套把"稳定结构先验"和"问题相关视觉证据"分开存的双记忆，在 A-EQA 和 Express-Bench 上同时把答题准确率和探索效率刷到 SOTA。
+
+**[Probabilistic Concept Graph Reasoning for Multimodal Misinformation Detection](probabilistic_concept_graph_reasoning_for_multimodal_misinformation_detection.md)**
+
+:   本文将多模态虚假信息检测（MMD）重构为基于概念图的结构化概率推理问题，提出PCGR框架，通过MLLM自动发现并验证人类可理解的概念节点，构建层次化概率概念图，实现可解释的虚假信息检测，在三个基准上全面超越13个baseline。
 
 **[ProFocus: Proactive Perception and Focused Reasoning in Vision-and-Language Navigation](profocus_proactive_perception_and_focused_reasoning_in_vision-and-language_navig.md)**
 
 :   提出 ProFocus，一个免训练的渐进式框架，通过主动感知（将全景图转为语义地图+LLM 生成针对性视觉查询）和聚焦推理（BD-MCTS 从大量历史路点中筛选 top-k 高价值候选），在 R2R 和 REVERIE 基准上达到零样本方法的 SOTA。
 
-**[Progress-Think: Semantic Progress Reasoning for Vision-Language Navigation](progress-think_semantic_progress_reasoning_for_vision-language_navigation.md)**
+**[PvP: Data-Efficient Humanoid Robot Learning with Proprioceptive-Privileged Contrastive Representations](pvp_data-efficient_humanoid_robot_learning_with_proprioceptive-privileged_contra.md)**
 
-:   针对视觉语言导航（VLN）中智能体"不知道自己走到指令哪一步"的问题，Progress-Think 不再预测数值完成度，而是让模型从历史观测推理出"已完成的那段指令文本"，并用一套无需标注的三阶段框架（自监督进度预训练 → 进度引导策略预训练 → 进度-策略联合 RL 微调）把进度推理和动作策略耦合起来，在 R2R-CE / RxR-CE 上仅用单目 RGB 就取得 SOTA。
+:   PvP 把人形机器人训练时唯一可得的"特权状态"当成本体感知观测的"天然数据增强"，用 SimSiam 式对比学习把两者拉近，**不需要任何手工增强**就让策略编码器学到紧凑且任务相关的表示，从而显著提升强化学习（PPO）在全身控制任务上的样本效率与最终性能。
 
 **[QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)**
 
 :   提出 QuantVLA，首个面向 Vision-Language-Action (VLA) 模型的免训练后量化框架，通过选择性量化布局和两个轻量级标定机制（注意力温度匹配 ATM 和输出头平衡 OHB），在 W4A8 精度下实现约 70% 的内存节省，同时任务成功率超过全精度基线。
 
+**[REACH: Explicit Recovery Behavior for Diffusion Policies](reach_explicit_recovery_behavior_for_diffusion_policies.md)**
+
+:   REACH 给扩散策略装上"自我纠错"能力：用一个自编码器错误检测器盯住执行过程，一旦发现机器人滑进 OOD（容易失败）的状态，就沿动作缓冲区**回退**到上一个安全状态，再把失败动作当成**负向提示**喂给扩散采样器，逼策略在同一决策点采出一个"明显不同"的更鲁棒动作，从而在仿真和真机操作任务上稳定提升成功率。
+
+**[RealAppliance: Let High-fidelity Appliance Assets Controllable and Workable as Aligned Real Manuals](realappiance_let_high-fidelity_appliance_assets_controllable_and_workable_as_ali.md)**
+
+:   作者手工建模了 100 件与真实说明书严格对齐的高保真家电数字资产（尺寸/纹理/物理机制/电子机制/程序逻辑全部按真实说明书复刻），并在其上搭建 RealAppliance-Bench，用「说明书检索 / 部件 grounding / 开环规划 / 闭环纠偏」四个任务系统评测主流 MLLM 与具身规划模型，发现哪怕 GPT-5 在完整开环规划上成功率也只有个位数。
+
 **[Recurrent Reasoning with Vision-Language Models for Estimating Long-Horizon Embodied Task Progress](recurrent_reasoning_with_vision-language_models_for_estimating_long-horizon_embo.md)**
 
 :   提出 R²VLM，通过循环推理框架逐步处理本地视频片段，维护动态更新的 CoT 记录任务分解和完成状态，结合多维 RL 奖励实现长时域具身任务进度估计的 SOTA，并支持策略学习、奖励建模、主动辅助等下游应用。
+
+**[RehearseVLA: Simulated Post-Training for VLAs with Physically-Consistent World Model](rehearsevla_simulated_post-training_for_vlas_with_physically-consistent_world_mo.md)**
+
+:   RehearseVLA（World-Env）用一个「物理一致的视频世界模型」当虚拟训练场，让 VLA 策略在想象出来的未来观测里安全地做强化学习后训练，再配一个 VLM 反思器给连续奖励并实时判定任务完成，从而在每个任务只有 5 条专家示范的极端数据稀缺下把 LIBERO 平均成功率从 74.85% 提到 79.6%。
 
 **[Rethinking Camera Choice: An Empirical Study on Fisheye Camera Properties in Robotic Manipulation](rethinking_camera_choice_an_empirical_study_on_fisheye_camera_properties_in_robo.md)**
 
@@ -567,10 +559,6 @@ item_total: 149
 
 :   RoboWheel 把单目 RGB(D) 拍到的「人手操作物体」视频，经过高精度重建 + 物理可信优化 + 跨机器人形态重定向 + 仿真域增强，自动转换成可直接训练 VLA / 模仿学习策略的机器人监督数据，并据此造出了 15 万条轨迹的多模态数据集 HORA，首次定量证明 HOI 视频能当机器人学习的有效监督。
 
-**[SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics](sapave_active_perception_manipulation_vla_roboti.md)**
-
-:   SaPaVe提出端到端主动操作框架，通过解耦相机动作和操作动作的底层到顶层训练策略，先用20万对语义相机控制数据学习主动感知先验，再联合优化实现主动操作，在真实世界中超越π₀和GR00T N1达31.25%成功率提升。
-
 **[Scalable Trajectory Generation for Whole-Body Mobile Manipulation](scalable_trajectory_generation_for_whole-body_mobile_manipulation.md)**
 
 :   AutoMoMa 把移动底盘、机械臂和被操作物体统一成单条"增强运动学链（AKR）"，再把轨迹优化和碰撞检测整体搬到 GPU 上批量并行，从而以每 GPU·小时 5000 条的速度（比 CPU 基线快约 80 倍）自动合成 50 万条物理可行的全身协调轨迹，证明此前阻碍全身移动操作策略学习的根本瓶颈是数据规模而非算法。
@@ -586,6 +574,10 @@ item_total: 149
 **[SIR: Structured Image Representations for Explainable Robot Learning](sir_structured_image_representations_for_explainable_robot_learning.md)**
 
 :   SIR 把机器人观测先转成一张全连接场景图，再用一个端到端可学的稀疏化模块只保留任务相关的少数节点，把这个"瘦身后的子图"当作策略的状态表示——既在 RoboCasa 上把成功率从 14.81% 提到 19.5%，又因为子图本身就是模型决策依据而天然可解释，进而能反查出数据集里的伪相关与位置偏置。
+
+**[SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation](socialnav_training_human-inspired_foundation_model_for_socially-aware_embodied_n.md)**
+
+:   SocialNav 用「大脑(VLM 推理)+ 行动专家(流匹配轨迹生成)」的层次化基础模型，配上 700 万样本的认知—轨迹数据集和首个面向导航的 flow-based 强化学习 SAFE-GRPO，让机器人不只是走最短路，而是走得「合乎社会规范」——相比 SOTA 成功率 +38%、社会合规率 +46%。
 
 **[Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos](spatial-aware_vla_pretraining_through_visual-physical_alignment_from_human_video.md)**
 
@@ -603,10 +595,6 @@ item_total: 149
 
 :   StaMo 用一个轻量编码器 + 预训练 DiT 解码器，把一张静态图像无监督压成仅 2 个 1024 维 token 的紧凑状态表示，并发现「两个状态 token 之差」天然就是可执行的机器人动作（latent action）——无需任何视频与时序建模，就把 VLA 在 LIBERO 上提升 11.6%、真机成功率提升 31%。
 
-**[STRNet: Visual Navigation with Spatio-Temporal Representation through Dynamic Graph Aggregation](strnet_visual_navigation_with_spatio-temporal_representation_through_dynamic_gra.md)**
-
-:   STRNet 提出统一的时空表征框架用于视觉导航，通过图推理模块建模帧内空间拓扑结构，结合混合时间偏移和多分辨率差分卷积建模时序动态，显著提升了目标条件导航的成功率（比 NoMaD 提升 70%）。
-
 **[Structural Action Transformer for 3D Dexterous Manipulation](structural_action_transformer_for_3d_dexterous_manipulation.md)**
 
 :   SAT 把灵巧手的动作块从"按时间排列的动作向量序列 $(T,D_a)$"翻转成"按关节排列的轨迹序列 $(D_a,T)$"，让 Transformer 把关节数当成可变序列长度天然处理异构本体，再配一套描述关节功能/运动学角色的 Embodied Joint Codebook，用流匹配从 3D 点云生成整段动作，仅 19.36M 参数就在 11 个仿真任务和 6 个真机双手任务上全面超过 2D/3D baseline。
@@ -622,10 +610,6 @@ item_total: 149
 **[Test-Time Perturbation Tuning with Delayed Feedback for Vision-Language-Action Models](test-time_perturbation_tuning_with_delayed_feedback_for_vision-language-action_m.md)**
 
 :   针对 VLA 在物体微小位姿变化下就崩的"轨迹过拟合"问题，本文提出 PDF——一个无需 verifier、不更新主干参数的测试时自适应框架：用不确定性自适应分配的数据增强+多视角投票抑制虚假相关，再用 episode 结束后的延迟反馈训练一个轻量扰动头来纠正模型的过度自信，在 LIBERO 上成功率 +7.4%、Atari 上人类归一化分 +0.10。
-
-**[Test-time Sparsity for Extreme Fast Action Diffusion](test-time_sparsity_for_extreme_fast_action_diffusion.md)**
-
-:   针对动作扩散策略（Diffusion Policy / VLA）迭代去噪太慢的问题，本文提出"测试时稀疏"：用一个轻量 pruner 在每次前向时动态预测可剪枝的残差块，再配上"全方向特征复用"和高度并行化的推理流水线，在 95% 稀疏率下做到无损精度、FLOPs 降 92%、动作生成提速约 5 倍，推理频率达 47.5 Hz。
 
 **[Towards Human-Like Robot Handwriting via Contour-Aware Generation](towards_human-like_robot_handwriting_via_contour-aware_generation.md)**
 
@@ -671,9 +655,9 @@ item_total: 149
 
 :   Video2Robo 只用一段手机拍的单目人类演示视频，靠 3DGS 把任务相关物体重建出来、跟踪它们的 6D 运动轨迹、解析出操作技能，再用一只虚拟 Franka 机械臂"接管"这些轨迹并叠加多维度场景增强，批量合成出既照片级真实又运动学合理的机器人训练数据，训练出的策略能零标定迁移到真实机械臂上。
 
-**[VideoWorld 2: Learning Transferable Knowledge from Real-world Videos](videoworld_2_learning_transferable_knowledge_from_real-world_videos.md)**
+**[VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation](viral_visual_sim-to-real_at_scale_for_humanoid_loco-manipulation.md)**
 
-:   VideoWorld 2 提出"动态增强潜在动态模型 (dLDM)"，用预训练视频扩散模型 (VDM) 接管外观重建、把潜码逼着只编码与任务相关的动作动态，从而第一次从原始真实世界视频里学到可迁移、可执行的长程任务知识，在分钟级手工折纸任务上 7 步连续成功率从 baseline 的 0% 提升到 68.8%，并能把 Open-X 上学到的操作知识迁移到 CALVIN。
+:   VIRAL 完全在仿真里训练人形机器人「边走边操作」（loco-manipulation）的视觉策略，靠「特权教师 → RGB 学生」蒸馏 + 大规模视觉域随机化 + 真到仿对齐，把只看 RGB 图像的策略零样本部署到 Unitree G1，能连续 54 个循环在两张桌子间走动、抓取、放置物体，接近专家级遥操作水平。
 
 **[Visual-RRT: Finding Paths toward Visual-Goals via Differentiable Rendering](visual-rrt_finding_paths_toward_visual-goals_via_differentiable_rendering.md)**
 
@@ -682,3 +666,7 @@ item_total: 149
 **[VLA Models Are More Generalizable Than You Think: Revisiting Physical and Spatial Modeling](vla_models_are_more_generalizable_than_you_think_revisiting_physical_and_spatial.md)**
 
 :   本文把预训练 VLA 拆成「空间建模（视觉编码器）」与「物理建模（VLM + 动作专家）」两块，论证 VLA 在新视角/视觉扰动下崩盘的元凶是空间建模的表征漂移而非物理建模失能，并用两个极轻量的一次性适配（4K 参数的特征 token 仿射调制 FTM、4.7M 参数的 ViT 低秩适配 FLA）把 LIBERO 新视角成功率从 48.5% 拉到 90.8%，以 1% 的参数追平甚至超过 LoRA 全量微调。
+
+**[When Robots Should Say "I Don't Know": Benchmarking Abstention in Embodied Question Answering](when_robots_should_say_i_dont_know_benchmarking_abstention_in_embodied_question_.md)**
+
+:   本文提出 **AbstainEQA**——首个针对"具身问答（EQA）该不该回答"的人工标注 benchmark：把 OpenEQA 的清晰问题改写成 5 类含糊问题，逼智能体在证据不足时学会**弃权（abstain）说"我不知道"**，结果发现最强的前沿模型弃权召回率只有 42.79%，远低于人类的 91.17%，而且 scaling、prompting、reasoning、SFT 都只带来表面提升。

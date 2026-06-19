@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 Spotlight  
 **arXiv**: [2511.08028](https://arxiv.org/abs/2511.08028)  
 **代码**: 有  
-**领域**: 图学习
+**领域**: 图学习  
 **关键词**: Graph Transformer, GD-WL, 位置编码表达力, few-shot迁移, 大规模评估
 
 ## 一句话总结

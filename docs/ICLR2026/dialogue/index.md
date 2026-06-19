@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 对话系统论文汇总 · 5篇论文解读
+  ICLR2026 对话系统论文汇总 · 6篇论文解读
 description: >-
-  5篇ICLR2026的对话系统方向论文解读，涵盖推理、对话系统、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  6篇ICLR2026的对话系统方向论文解读，涵盖推理、对话系统、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "对话系统"
@@ -13,6 +13,8 @@ tags:
 item_list:
   - u: "aqua_toward_strategic_response_generation_for_ambiguous_visual_questions/"
     t: "AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions"
+  - u: "clarifyvc_clarifying_ambiguous_commands_in_vehicle_control_with_a_hybrid_data_au/"
+    t: "ClarifyVC: Clarifying Ambiguous Commands in Vehicle Control with a Hybrid Data Augmentation Pipeline"
   - u: "non-collaborative_user_simulators_for_tool_agents/"
     t: "Non-Collaborative User Simulators for Tool Agents"
   - u: "rein_conversational_error_recovery_with_reasoning_inception/"
@@ -21,21 +23,25 @@ item_list:
     t: "Think-While-Generating: On-the-Fly Reasoning for Personalized Long-Form Generation"
   - u: "understanding_language_prior_of_lvlms_by_contrasting_chain-of-embedding/"
     t: "Understanding Language Prior of LVLMs by Contrasting Chain-of-Embedding"
-item_total: 5
+item_total: 6
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🗣️ 对话系统
 
-**🔬 ICLR2026** · **5** 篇论文解读
+**🔬 ICLR2026** · **6** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (4)](../../ICML2026/dialogue/index.md) · [💬 ACL2026 (26)](../../ACL2026/dialogue/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/dialogue/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/dialogue/index.md) · [🧪 ICML2025 (2)](../../ICML2025/dialogue/index.md) · [💬 ACL2025 (18)](../../ACL2025/dialogue/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (5)](../../ICML2026/dialogue/index.md) · [💬 ACL2026 (26)](../../ACL2026/dialogue/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/dialogue/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/dialogue/index.md) · [🧪 ICML2025 (2)](../../ICML2025/dialogue/index.md) · [💬 ACL2025 (18)](../../ACL2025/dialogue/index.md)
 
 🔥 **高频主题：** 推理 ×2
 
 **[AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions](aqua_toward_strategic_response_generation_for_ambiguous_visual_questions.md)**
 
 :   提出 AQuA，首个按模糊度细粒度分级（4 级）的视觉问答数据集（7.2K 样本），为每级定义最优回应策略（直接回答/推断/列举/请求澄清），发现 GPT-5 和 Gemini 在模糊 VQA 上都过度自信地直接回答，通过 SFT+GRPO 训练的 3B 模型反而能超越闭源大模型的策略适应能力。
+
+**[ClarifyVC: Clarifying Ambiguous Commands in Vehicle Control with a Hybrid Data Augmentation Pipeline](clarifyvc_clarifying_ambiguous_commands_in_vehicle_control_with_a_hybrid_data_au.md)**
+
+:   ClarifyVC 用一个 Agent 编排的四阶段数据增强流水线，从 2 万条真实车载指令里"种"出大量歧义丰富、协议合规的单轮/多轮对话，配上三层评测协议与数据质量分 DQS，在这套数据上微调后让车载语音指令的解析准确率提升约 15%、歧义消解提升约 20%、协议合规度达 98%。
 
 **[Non-Collaborative User Simulators for Tool Agents](non-collaborative_user_simulators_for_tool_agents.md)**
 

@@ -125,8 +125,8 @@ Casper 训练：微调 Lumiere inpainting 基础模型，四类数据约 50:50 �
 ## 相关论文
 
 - [\[CVPR 2025\] PhysAnimator: Physics-Guided Generative Cartoon Animation](physanimator_physics-guided_generative_cartoon_animation.md)
-- [\[CVPR 2025\] Video Depth Without Video Models](video_depth_without_video_models.md)
 - [\[NeurIPS 2025\] EUGens: Efficient, Unified, and General Dense Layers](../../NeurIPS2025/3d_vision/eugens_efficient_unified_and_general_dense_layers.md)
+- [\[CVPR 2025\] Video Depth Without Video Models](video_depth_without_video_models.md)
 - [\[CVPR 2025\] SpatialDreamer: Self-supervised Stereo Video Synthesis from Monocular Input](spatialdreamer_self-supervised_stereo_video_synthesis_from_monocular_input.md)
 - [\[CVPR 2025\] PERSE: Personalized 3D Generative Avatars from A Single Portrait](perse_personalized_3d_generative_avatars_from_a_single_portrait.md)
 

@@ -156,11 +156,11 @@ Pi-GPS 在 Geometry3K 上比 GeoDRL 提升 9.4%（Choice），比 E-GPS 提升 9
 
 ## 相关论文
 
-- [\[ACL 2025\] Token Pruning in Multimodal Large Language Models: Are We Solving the Right Problem?](../../ACL2025/multimodal_vlm/token_pruning_in_multimodal_large_language_models_are_we_solving_the_right_probl.md)
 - [\[NeurIPS 2025\] Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors](../../NeurIPS2025/multimodal_vlm/learning_from_videos_for_3d_world_enhancing_mllms_with_3d_vision_geometry_priors.md)
+- [\[CVPR 2026\] ARC Is a Vision Problem!](../../CVPR2026/multimodal_vlm/arc_is_a_vision_problem.md)
 - [\[ICCV 2025\] Information Density Principle for MLLM Benchmarks](information_density_principle_for_mllm_benchmarks.md)
-- [\[ICCV 2025\] Enhancing Few-Shot Vision-Language Classification with Large Multimodal Model Features](enhancing_few-shot_vision-language_classification_with_large_multimodal_model_fe.md)
-- [\[ICCV 2025\] Instruction-Oriented Preference Alignment for Enhancing Multi-Modal Comprehension Capability of MLLMs](instruction-oriented_preference_alignment_for_enhancing_multi-modal_comprehensio.md)
+- [\[ACL 2025\] Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models](../../ACL2025/multimodal_vlm/unsolvable_problem_detection.md)
+- [\[CVPR 2025\] Galaxy Walker: Geometry-aware VLMs For Galaxy-scale Understanding](../../CVPR2025/multimodal_vlm/galaxy_walker_geometry-aware_vlms_for_galaxy-scale_understanding.md)
 
 </div>
 

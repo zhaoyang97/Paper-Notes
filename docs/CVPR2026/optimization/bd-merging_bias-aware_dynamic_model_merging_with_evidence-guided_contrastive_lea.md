@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.03920](https://arxiv.org/abs/2603.03920)  
 **代码**: 暂无  
-**领域**:优化
+**领域**:优化  
 **关键词**: Model Merging, Multi-Task Learning, Evidential Deep Learning, Distribution Shift, Contrastive Learning, uncertainty estimation
 
 ## 一句话总结

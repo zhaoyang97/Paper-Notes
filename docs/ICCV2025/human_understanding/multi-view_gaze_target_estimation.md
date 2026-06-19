@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.05857](https://arxiv.org/abs/2508.05857)  
 **代码**: [https://www3.cs.stonybrook.edu/~cvl/multiview_gte.html](https://www3.cs.stonybrook.edu/~cvl/multiview_gte.html)  
-**领域**: 人体理解
+**领域**: 人体理解  
 **关键词**: 注视目标估计, 多视角, 跨视角, 极线注意力, 不确定性
 
 ## 一句话总结

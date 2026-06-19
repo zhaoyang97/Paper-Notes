@@ -150,8 +150,8 @@ PreciseCam 通过 4 个相机参数（roll、pitch、vFoV、畸变 ξ）和 Pers
 
 - [\[CVPR 2025\] Compass Control: Multi Object Orientation Control for Text-to-Image Generation](compass_control_multi_object_orientation_control_for_text-to-image_generation.md)
 - [\[CVPR 2025\] CamFreeDiff: Camera-free Image to Panorama Generation with Diffusion Model](camfreediff_camera-free_image_to_panorama_generation_with_diffusion_model.md)
+- [\[CVPR 2026\] Camera Control for Text-to-Image Generation via Learning Viewpoint Tokens](../../CVPR2026/image_generation/camera_control_for_text-to-image_generation_via_learning_viewpoint_tokens.md)
 - [\[CVPR 2025\] GPS as a Control Signal for Image Generation](gps_as_a_control_signal_for_image_generation.md)
-- [\[CVPR 2026\] Taming Video Models for 3D and 4D Generation via Zero-Shot Camera Control](../../CVPR2026/image_generation/taming_video_models_for_3d_and_4d_generation_via_zero-shot_camera_control.md)
 - [\[CVPR 2025\] Multitwine: Multi-Object Compositing with Text and Layout Control](multitwine_multi-object_compositing_with_text_and_layout_control.md)
 
 </div>

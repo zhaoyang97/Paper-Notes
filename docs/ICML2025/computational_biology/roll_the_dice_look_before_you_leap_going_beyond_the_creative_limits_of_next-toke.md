@@ -20,7 +20,7 @@ tags:
 **会议**: ICML2025 Oral  
 **arXiv**: [2504.15266](https://arxiv.org/abs/2504.15266)  
 **代码**: [chenwu98/algorithmic-creativity](https://github.com/chenwu98/algorithmic-creativity)  
-**领域**: LLM/NLP
+**领域**: LLM/NLP  
 **关键词**: next-token prediction, multi-token prediction, creativity, teacherless training, diffusion, seed-conditioning, algorithmic creativity
 
 ## 一句话总结
@@ -141,10 +141,10 @@ Seed-conditioning 方案：训练时为每个样本关联一个随机无意义�
 ## 相关论文
 
 - [\[ICML 2025\] Latent Imputation before Prediction: A New Computational Paradigm for De Novo Peptide Sequencing](latent_imputation_before_prediction_a_new_computational_paradigm_for_de_novo_pep.md)
-- [\[ICLR 2026\] Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction](../../ICLR2026/computational_biology/extending_sequence_length_is_not_all_you_need_effective_integration_of_multimoda.md)
 - [\[NeurIPS 2025\] Is Sequence Information All You Need for Bayesian Optimization of Antibodies?](../../NeurIPS2025/computational_biology/is_sequence_information_all_you_need_for_bayesian_optimization_of_antibodies.md)
+- [\[ICLR 2026\] Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction](../../ICLR2026/computational_biology/extending_sequence_length_is_not_all_you_need_effective_integration_of_multimoda.md)
 - [\[NeurIPS 2025\] One Small Step with Fingerprints, One Giant Leap for De Novo Molecule Generation from Mass Spectra](../../NeurIPS2025/computational_biology/one_small_step_with_fingerprints_one_giant_leap_for_de_novo_molecule_generation_.md)
-- [\[ICML 2025\] Protriever: End-to-End Differentiable Protein Homology Search for Fitness Prediction](protriever_end-to-end_differentiable_protein_homology_search_for_fitness_predict.md)
+- [\[AAAI 2026\] MergeDNA: Context-aware Genome Modeling with Dynamic Tokenization through Token Merging](../../AAAI2026/computational_biology/mergedna_context-aware_genome_modeling_with_dynamic_tokenization_through_token_m.md)
 
 </div>
 

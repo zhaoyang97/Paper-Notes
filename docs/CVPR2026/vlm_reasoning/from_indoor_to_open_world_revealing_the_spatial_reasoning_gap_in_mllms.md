@@ -2,10 +2,10 @@
 title: >-
   [论文解读] From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs
 description: >-
-  [CVPR 2026][多模态VLM][空间智能基准] 作者用立体相机+LiDAR+IMU/GPS 采集行人视角户外视频，构建了首个三层（关系/度量/运动）、户外、带精确度量真值的空间智能基准 OSI-Bench（8736 条 QA），并通过盲测、异常场景、几何信息消融三组诊断实验证明：当前 MLLM 在室内基准上的"空间智能"主要靠语言先验撑着，一到开放世界就原形毕露、动态推理几乎全军覆没。
+  [CVPR 2026][VLM Reasoning][空间智能基准] 作者用立体相机+LiDAR+IMU/GPS 采集行人视角户外视频，构建了首个三层（关系/度量/运动）、户外、带精确度量真值的空间智能基准 OSI-Bench（8736 条 QA），并通过盲测、异常场景、几何信息消融三组诊断实验证明：当前 MLLM 在室内基准上的"空间智能"主要靠语言先验撑着，一到开放世界就原形毕露、动态推理几乎全军覆没。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "空间智能基准"
   - "MLLM"
   - "度量推理"
@@ -153,10 +153,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] EgoMind: Activating Spatial Cognition through Linguistic Reasoning in MLLMs](egomind_activating_spatial_cognition_through_linguistic_reasoning_in_mllms.md)
-- [\[CVPR 2026\] CountGD++: Generalized Prompting for Open-World Counting](countgd_generalized_prompting_for_open-world_counting.md)
-- [\[ACL 2026\] GeoArena: Evaluating Open-World Geographic Reasoning in Large Vision-Language Models](../../ACL2026/multimodal_vlm/geoarena_evaluating_open-world_geographic_reasoning_in_large_vision-language_mod.md)
+- [\[ACL 2026\] GeoArena: Evaluating Open-World Geographic Reasoning in Large Vision-Language Models](../../ACL2026/vlm_reasoning/geoarena_evaluating_open-world_geographic_reasoning_in_large_vision-language_mod.md)
 - [\[CVPR 2026\] Eliciting Complex Spatial Reasoning in MLLMs through Wide-Baseline Matching](eliciting_complex_spatial_reasoning_in_mllms_through_wide-baseline_matching.md)
-- [\[CVPR 2026\] GroundingME: Exposing the Visual Grounding Gap in MLLMs through Multi-Dimensional Evaluation](groundingme_exposing_the_visual_grounding_gap_in_mllms_through_multi-dimensional.md)
+- [\[CVPR 2026\] OpenMMReasoner: Pushing the Frontiers in Multimodal Reasoning with an Open and General Recipe](openmmreasoner_pushing_the_frontiers_in_multimodal_reasoning_with_an_open_and_ge.md)
+- [\[CVPR 2026\] TableMix: Enhancing Multimodal Table Reasoning in MLLMs from a Data-Centric Perspective](tablemix_enhancing_multimodal_table_reasoning_in_mllms_from_a_data-centric_persp.md)
 
 </div>
 

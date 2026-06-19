@@ -97,6 +97,7 @@ CapEval-QAs 在 1–4 个概念下的 $\text{Acc}^+$/$\text{Acc}^-$（部分摘�
 闭源模型在 $\text{Acc}^-$（避免胡编）上确实强，但 $\text{Acc}^+$（说出该说的）偏低，说明它们倾向于保守输出；CoViP 通过 RL 同时拉起两端。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |---|---|---|
 | Full CoViP（$r_{\text{vis}}+r_{\text{caps}}$ + CAG） | 最佳 | 字幕代理 + 双奖励 + CAG 三件套联动 |
@@ -147,7 +148,7 @@ CapEval-QAs 在 1–4 个概念下的 $\text{Acc}^+$/$\text{Acc}^-$（部分摘�
 - [\[ICML 2026\] Jailbreaking Vision-Language Models Through the Visual Modality](jailbreaking_vision-language_models_through_the_visual_modality.md)
 - [\[CVPR 2026\] Same or Not? Enhancing Visual Perception in Vision-Language Models](../../CVPR2026/multimodal_vlm/same_or_not_enhancing_visual_perception_in_vision-language_models.md)
 - [\[CVPR 2025\] RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models](../../CVPR2025/multimodal_vlm/rap_retrieval-augmented_personalization_for_multimodal_large_language_models.md)
-- [\[ICML 2026\] On the Adversarial Robustness of Large Vision-Language Models under Visual Token Compression](on_the_adversarial_robustness_of_large_vision-language_models_under_visual_token.md)
+- [\[ICML 2026\] Focusing Where Vision Matters: Selective Training for Large Vision Language Models via Visual Information Gain](focusing_where_vision_matters_selective_training_for_large_vision_language_model.md)
 
 </div>
 

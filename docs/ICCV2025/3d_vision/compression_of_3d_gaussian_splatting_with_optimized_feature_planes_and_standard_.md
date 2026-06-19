@@ -163,11 +163,11 @@ $$\mathcal{L} = \mathcal{L}_{\text{render}} + \lambda_{\text{ent}} \mathcal{L}_{
 
 ## 相关论文
 
-- [\[CVPR 2025\] GIFStream: 4D Gaussian-based Immersive Video with Feature Stream](../../CVPR2025/3d_vision/gifstream_4d_gaussian-based_immersive_video_with_feature_stream.md)
 - [\[ICCV 2025\] Neural Compression for 3D Geometry Sets](neural_compression_for_3d_geometry_sets.md)
 - [\[NeurIPS 2025\] Temporal Smoothness-Aware Rate-Distortion Optimized 4D Gaussian Splatting](../../NeurIPS2025/3d_vision/temporal_smoothness-aware_rate-distortion_optimized_4d_gaussian_splatting.md)
+- [\[CVPR 2025\] GIFStream: 4D Gaussian-based Immersive Video with Feature Stream](../../CVPR2025/3d_vision/gifstream_4d_gaussian-based_immersive_video_with_feature_stream.md)
 - [\[CVPR 2025\] 4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video](../../CVPR2025/3d_vision/4dgc_rate-aware_4d_gaussian_compression_for_efficient_streamable_free-viewpoint_.md)
-- [\[ICCV 2025\] VoluMe: Authentic 3D Video Calls from Live Gaussian Splat Prediction](volume_-_authentic_3d_video_calls_from_live_gaussian_splat_prediction.md)
+- [\[ICCV 2025\] CF³: Compact and Fast 3D Feature Fields](cf3_compact_and_fast_3d_feature_fields.md)
 
 </div>
 

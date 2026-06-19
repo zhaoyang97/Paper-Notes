@@ -86,6 +86,7 @@ OctoMed-7B 与各模型在三类医学基准的总体表现（部分代表性数
 OctoMed 在同尺寸（7B）开源模型上各类基准全面领先；对 4 倍大的 MedGemma-27B 也在每个类别上整体超越；多模态分类上甚至超过自己的教师 GPT-4o（67.29 vs 53.96）。MedQA 90.8% 超过 GPT-4 base、Med-PaLM 2、MedGemma-27B 等强基线。
 
 ### 消融实验
+
 | 消融维度 | 配置 | 关键结果 | 结论 |
 |----------|------|----------|------|
 | 提示格式 | CoT vs 直接（多模态推理总体） | 38.15 vs 23.08 | 推理任务用 CoT |
@@ -131,10 +132,10 @@ OctoMed 在同尺寸（7B）开源模型上各类基准全面领先；对 4 倍�
 ## 相关论文
 
 - [\[CVPR 2026\] MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis](medtvt-r1_a_multimodal_llm_empowering_medical_reasoning_and_diagnosis.md)
+- [\[CVPR 2026\] Med-CMR: A Fine-Grained Benchmark Integrating Visual Evidence and Clinical Logic for Medical Complex Multimodal Reasoning](med-cmr_a_fine-grained_benchmark_integrating_visual_evidence_and_clinical_logic_.md)
 - [\[CVPR 2026\] MultiModalPFN: Extending Prior-Data Fitted Networks for Multimodal Tabular Learning](multimodalpfn_extending_prior-data_fitted_networks_for_multimodal_tabular_learni.md)
 - [\[CVPR 2026\] GeoSemba: Reconstructing State Space Model for Cross Paradigm Representation in Medical Image Segmentation](geosemba_reconstructing_state_space_model_for_cross_paradigm_representation_in_m.md)
 - [\[CVPR 2026\] Cross-Modal Guided Visual Synthesis for Data-Efficient Multimodal Depression Recognition](cross-modal_guided_visual_synthesis_for_data-efficient_multimodal_depression_rec.md)
-- [\[CVPR 2026\] Clinically-Grounded Counterfactual Reasoning for Medical Video Diagnosis](clinically-grounded_counterfactual_reasoning_for_medical_video_diagnosis.md)
 
 </div>
 

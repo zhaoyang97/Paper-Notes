@@ -95,6 +95,7 @@ $$\mathcal{L}=\lambda_0\mathcal{L}_{\text{hmap}}+\lambda_1\mathcal{L}_{\text{hm2
 UST-Hand 在三个数据集所有指标上全面领先；对比能直接出 3D 网格的强检测器 Wilor（HanCo MPVPE 12.70）同样大幅领先，说明优势来自网络结构与训练策略而非伪标签本身。
 
 ### 消融实验（HanCo，MPVPE）
+
 | 配置 | MPVPE↓ | 相对完整模型 | 说明 |
 |------|--------|------|------|
 | Full model | 5.82 | — | 完整 UST-Hand |
@@ -148,9 +149,9 @@ UST-Hand 在三个数据集所有指标上全面领先；对比能直接出 3D �
 
 - [\[CVPR 2026\] PAD-Hand: Physics-Aware Diffusion for Hand Motion Recovery](pad-hand_physics-aware_diffusion_for_hand_motion_recovery.md)
 - [\[CVPR 2026\] Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty](rethinking_pose_refinement_in_3d_gaussian_splatting_under_pose_prior_and_geometr.md)
-- [\[CVPR 2026\] PointINS: Instance-Aware Self-Supervised Learning for Point Clouds](pointins_instance-aware_self-supervised_learning_for_point_clouds.md)
 - [\[CVPR 2026\] SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a Single 3D Observation](scapo_self-supervised_category-level_articulated_pose_estimation_from_a_single_3.md)
 - [\[CVPR 2026\] ForeHOI: Feed-forward 3D Object Reconstruction from Daily Hand-Object Interaction Videos](forehoi_feed-forward_3d_object_reconstruction_from_daily_hand-object_interaction.md)
+- [\[CVPR 2026\] Glove2Hand: Synthesizing Natural Hand-Object Interaction from Multi-Modal Sensing Gloves](glove2hand_synthesizing_natural_hand-object_interaction_from_multi-modal_sensing.md)
 
 </div>
 

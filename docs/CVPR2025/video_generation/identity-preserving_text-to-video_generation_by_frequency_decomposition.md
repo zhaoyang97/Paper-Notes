@@ -131,8 +131,8 @@ ConsisID 在身份保持指标上大幅领先 ID-Animator（FaceSim-Arc +81%）�
 
 - [\[CVPR 2026\] EvoID: Reinforced Evolution for Identity-Preserving Video Generation](../../CVPR2026/video_generation/evoid_reinforced_evolution_for_identity-preserving_video_generation.md)
 - [\[CVPR 2025\] HyperNVD: Accelerating Neural Video Decomposition via Hypernetworks](hypernvd_accelerating_neural_video_decomposition_via_hypernetworks.md)
+- [\[CVPR 2026\] AnyID: Ultra-Fidelity Universal Identity-Preserving Video Generation from Any Visual References](../../CVPR2026/video_generation/anyid_ultra-fidelity_universal_identity-preserving_video_generation_from_any_vis.md)
 - [\[CVPR 2025\] FADE: Frequency-Aware Diffusion Model Factorization for Video Editing](fade_frequency-aware_diffusion_model_factorization_for_video_editing.md)
-- [\[CVPR 2026\] Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization](../../CVPR2026/video_generation/identity-preserving_image-to-video_generation_via_reward-guided_optimization.md)
 - [\[CVPR 2026\] ConsID-Gen: View-Consistent and Identity-Preserving Image-to-Video Generation](../../CVPR2026/video_generation/consid-gen_view-consistent_and_identity-preserving_image-to-video_generation.md)
 
 </div>

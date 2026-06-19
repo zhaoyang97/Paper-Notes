@@ -79,6 +79,7 @@ sufficiency 要求两群体共享同一对 $(\mathrm{PPV},\mathrm{FOR})$，即 $
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 设定 | Unconstrained Bayes 准确率 | 本文最优 sufficient 准确率 | 公平性结果 |
 |--------|------|---------------------------|---------------------------|------------|
 | FICO（白/黑，200 score bins） | 群体级 calibrated | 0.8819（PPV: 0.91 / 0.79；FOR: 0.20 / 0.13） | 0.8676 | 共同 PPV $=0.91$，共同 FOR $=0.23$，严格 sufficiency |
@@ -86,6 +87,7 @@ sufficiency 要求两群体共享同一对 $(\mathrm{PPV},\mathrm{FOR})$，即 $
 | ACS Income（CA，性别） | logistic + out-of-fold 100-bin 校准 | 0.8190 | 0.8167 | mean PPV gap $4.8\times 10^{-3}$，mean FOR gap $3.7\times 10^{-3}$ |
 
 ### 消融 / 结构性观察
+
 | 观察 | 结论 | 说明 |
 |------|------|------|
 | 最优点是否对应硬阈值 | FICO/COMPAS 都有至少一个群体必须随机化 | 验证了"sufficiency 最优解一般无法仅由硬阈值实现"的理论预言 |
@@ -129,9 +131,9 @@ sufficiency 要求两群体共享同一对 $(\mathrm{PPV},\mathrm{FOR})$，即 $
 
 - [\[ICML 2026\] Demystifying the Optimal Fair Classifier in Multi-Class Classification](demystifying_the_optimal_fair_classifier_in_multi-class_classification.md)
 - [\[ICML 2026\] Fair Dataset Distillation via Cross-Group Barycenter Alignment](fair_dataset_distillation_via_cross-group_barycenter_alignment.md)
-- [\[ICML 2026\] Extending Fair Null-Space Projections for Continuous Attributes to Kernel Methods](extending_fair_null-space_projections_for_continuous_attributes_to_kernel_method.md)
+- [\[ICLR 2026\] Fair Conformal Classification via Learning Representation-Based Groups](../../ICLR2026/ai_safety/fair_conformal_classification_via_learning_representation-based_groups.md)
 - [\[ICML 2026\] Fairness in Aggregation: Optimal Top-$k$ and Improved Full Ranking](fairness_in_aggregation_optimal_top-k_and_improved_full_ranking.md)
-- [\[ICML 2026\] Optimal Transport under Group Fairness Constraints](optimal_transport_under_group_fairness_constraints.md)
+- [\[ICML 2026\] Extending Fair Null-Space Projections for Continuous Attributes to Kernel Methods](extending_fair_null-space_projections_for_continuous_attributes_to_kernel_method.md)
 
 </div>
 

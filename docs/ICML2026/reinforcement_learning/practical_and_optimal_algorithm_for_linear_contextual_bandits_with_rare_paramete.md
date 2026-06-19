@@ -95,6 +95,7 @@ $T=10{,}000$，10 次独立运行，arm 从 $d$ 维 uniform 采样，$\theta^*$ 
 BLCE 在所有 optimal 算法（BatchLinUCB-DG、BatchLearning、BLCE-G）中 runtime 最低，且与 suboptimal 的 RS-OFUL/SoftBatch 同量级。regret 上 BLCE-G 与 BLCE 在 large-$K$ 与 small-$K$ 四组实验里都跑赢所有 baseline，方差更小（论文 Figure 1）。
 
 ### 理论 regret 对比
+
 | 算法 | Regret | 参数更新 | Context-adaptive | Runtime |
 |------|--------|----------|-------------------|---------|
 | RS-OFUL | $\mathcal O(d\sqrt T\log T)$ | $\mathcal O(d\log T)$ | Yes | $\mathcal O((Kd+d^2)T+Kd^3\log T)$ |

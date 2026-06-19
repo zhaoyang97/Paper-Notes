@@ -89,6 +89,7 @@ SEI 本身不引入任何新 loss——训练就是 CLIP 标准的图像-文本�
 confusion-calibrated 噪声下 SEI 优势远大于 symmetric，说明它对"模型容易混淆的近邻类"更鲁棒——这正是真实临床错标的形态。
 
 ### 消融实验
+
 | 配置 | ISIC@0.4 | DeepDRiD@0.4 | PANDA@0.4 | 说明 |
 |------|----------|--------------|-----------|------|
 | EI（去符号位） | 60.77 | 59.28 | 67.26 | 退化成无符号熵积分 |
@@ -134,9 +135,9 @@ confusion-calibrated 噪声下 SEI 优势远大于 symmetric，说明它对"模�
 
 - [\[ICML 2026\] Rectified LpJEPA: Joint-Embedding Predictive Architectures with Sparse and Maximum-Entropy Representations](rectified_lpjepa_joint-embedding_predictive_architectures_with_sparse_and_maximu.md)
 - [\[ECCV 2024\] HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](../../ECCV2024/others/hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
-- [\[ACL 2025\] Entropy-UID: A Method for Optimizing Information Density](../../ACL2025/others/entropy-uid_a_method_for_optimizing_information_density.md)
 - [\[ICML 2025\] Revisiting the Predictability of Performative, Social Events](../../ICML2025/others/revisiting_the_predictability_of_performative_social_events.md)
-- [\[CVPR 2026\] A Difference-in-Difference Approach to Detecting AI-Generated Images](../../CVPR2026/others/a_difference-in-difference_approach_to_detecting_ai-generated_images.md)
+- [\[ICLR 2026\] Revisiting Sharpness-Aware Minimization: A More Faithful and Effective Implementation](../../ICLR2026/others/revisiting_sharpness-aware_minimization_a_more_faithful_and_effective_implementa.md)
+- [\[CVPR 2026\] Revisiting F-measure Optimization in Multi-Label Classification: A Sampling-based Approach](../../CVPR2026/others/revisiting_f-measure_optimization_in_multi-label_classification_a_sampling-based.md)
 
 </div>
 

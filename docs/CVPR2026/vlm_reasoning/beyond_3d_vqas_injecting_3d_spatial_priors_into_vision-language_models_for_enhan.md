@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Beyond 3D VQAs: Injecting 3D Spatial Priors into Vision-Language Models for Enhanced Geometric Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][几何先验] GASP 不再用 3D VQA 数据微调 VLM，而是往 LLM 的每一层 transformer 里塞一个轻量"对应头"，用真实视频场景的点对应和深度做深监督，把模型内部"换视图后跨帧匹配"的能力从 <5% 拉到 70%+，在 All-Angles / VSI-Bench 等空间推理 benchmark 上零 3D VQA 训练就涨 18~29%。
+  [CVPR 2026][VLM Reasoning][几何先验] GASP 不再用 3D VQA 数据微调 VLM，而是往 LLM 的每一层 transformer 里塞一个轻量"对应头"，用真实视频场景的点对应和深度做深监督，把模型内部"换视图后跨帧匹配"的能力从 <5% 拉到 70%+，在 All-Angles / VSI-Bench 等空间推理 benchmark 上零 3D VQA 训练就涨 18~29%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "几何先验"
   - "视觉对应"
   - "深度监督"
@@ -158,10 +158,10 @@ LoRA rank 与对应头注入层（Table 4，以 LLaVA-NeXT 为例）：
 ## 相关论文
 
 - [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
-- [\[CVPR 2026\] Abstract 3D Perception for Spatial Intelligence in Vision-Language Models](abstract_3d_perception_for_spatial_intelligence_in_vision-language_models.md)
-- [\[CVPR 2026\] HiSpatial: Taming Hierarchical 3D Spatial Understanding in Vision-Language Models](hispatial_taming_hierarchical_3d_spatial_understanding_in_vision-language_models.md)
 - [\[CVPR 2026\] G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning](g2vlm_geometry_grounded_vision_language_model_with_unified_3d_reconstruction_and.md)
-- [\[CVPR 2026\] Grounded 3D-Aware Spatial Vision-Language Modeling](grounded_3d-aware_spatial_vision-language_modeling.md)
+- [\[CVPR 2026\] SpatialStack: Layered Geometry-Language Fusion for 3D VLM Spatial Reasoning](spatialstack_layered_geometry-language_fusion_for_3d_vlm_spatial_reasoning.md)
+- [\[CVPR 2026\] Hear you are: Teaching LLMs Spatial Reasoning with Vision and Spatial Sound](hear_you_are_teaching_llms_spatial_reasoning_with_vision_and_spatial_sound.md)
+- [\[CVPR 2026\] EgoProx: Evaluating MLLMs on Egocentric 3D Proximity Reasoning Across a Cognitive Hierarchy](egoprox_evaluating_mllms_on_egocentric_3d_proximity_reasoning_across_a_cognitive.md)
 
 </div>
 

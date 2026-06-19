@@ -2,10 +2,10 @@
 title: >-
   [论文解读] STAR-R1: Multi-View Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs
 description: >-
-  [CVPR 2026][多模态VLM][多视角空间推理] STAR-R1 用"过程监督 SFT 冷启动 + 指代感知 RL"两阶段训练 Qwen2.5-VL-7B，让模型像人一样先锚定关键参照物、再跨视角对齐重建场景，从而在 TVR、MMSI-Bench、MindCube-Tiny、SPAR-Bench 等多视角空间理解基准上全面超越开源乃至部分闭源模型。
+  [CVPR 2026][VLM Reasoning][多视角空间推理] STAR-R1 用"过程监督 SFT 冷启动 + 指代感知 RL"两阶段训练 Qwen2.5-VL-7B，让模型像人一样先锚定关键参照物、再跨视角对齐重建场景，从而在 TVR、MMSI-Bench、MindCube-Tiny、SPAR-Bench 等多视角空间理解基准上全面超越开源乃至部分闭源模型。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多视角空间推理"
   - "强化学习"
   - "跨视角对应"
@@ -148,11 +148,11 @@ STAR-R1 在 TVR 三项指标全部最优，比 STAR-SFT 高约 13% TAcc，说明
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Video-R1: Reinforcing Video Reasoning in MLLMs](../../NeurIPS2025/multimodal_vlm/video-r1_reinforcing_video_reasoning_in_mllms.md)
-- [\[NeurIPS 2025\] SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards](../../NeurIPS2025/multimodal_vlm/spatialthinker_reinforcing_3d_reasoning_in_multimodal_llms_via_spatial_rewards.md)
-- [\[ICLR 2026\] SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward](../../ICLR2026/multimodal_vlm/sophiavl-r1_reinforcing_mllms_reasoning_with_thinking_reward.md)
-- [\[CVPR 2026\] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning](arm-thinker_reinforcing_multimodal_generative_reward_models_with_agentic_tool_us.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
+- [\[CVPR 2026\] Thinking with Programming Vision: Towards a Unified View for Thinking with Images](thinking_with_programming_vision_towards_a_unified_view_for_thinking_with_images.md)
+- [\[ICLR 2026\] SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward](../../ICLR2026/vlm_reasoning/sophiavl-r1_reinforcing_mllms_reasoning_with_thinking_reward.md)
 - [\[CVPR 2026\] Hear you are: Teaching LLMs Spatial Reasoning with Vision and Spatial Sound](hear_you_are_teaching_llms_spatial_reasoning_with_vision_and_spatial_sound.md)
+- [\[NeurIPS 2025\] SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards](../../NeurIPS2025/vlm_reasoning/spatialthinker_reinforcing_3d_reasoning_in_multimodal_llms_via_spatial_rewards.md)
 
 </div>
 

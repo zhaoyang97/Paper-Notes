@@ -105,6 +105,7 @@ GVIS 在两个数据集上都拿到最高 PSNR 和最高容量：CelebA-HQ 容�
 在 SVG 8 位小数精度下，单个控制点至少能嵌 24 bits 且保持 100% 提取；继续加大容量精度才开始缓慢下滑，作者指出多出来的容量可用于纠错码进一步提升可靠性。
 
 ### 文件大小（安全性侧证）
+
 | 数据集 | 方法 | 文件大小 |
 |--------|------|---------|
 | CelebA-HQ | 原始 SVG | 520.79 KB |
@@ -153,8 +154,8 @@ GVIS 的 stego 文件和原始 SVG 几乎一样大（甚至略小），因为它
 - [\[CVPR 2026\] RunawayEvil: Jailbreaking the Image-to-Video Generative Models](runawayevil_jailbreaking_the_image-to-video_generative_models.md)
 - [\[ICML 2026\] Training-Free Coverless Multi-Image Steganography with Access Control](../../ICML2026/ai_safety/training-free_coverless_multi-image_steganography_with_access_control.md)
 - [\[CVPR 2026\] PROMPTMINER: Black-Box Prompt Stealing against Text-to-Image Generative Models via Reinforcement Learning and VLM-Guided Optimization](promptminer_black-box_prompt_stealing_against_text-to-image_generative_models_vi.md)
-- [\[CVPR 2026\] SAGA: Source Attribution of Generative AI Videos](saga_source_attribution_of_generative_ai_videos.md)
 - [\[CVPR 2026\] UniDef: Universal Defense Against Unauthorized Image Manipulation](unidef_universal_defense_against_unauthorized_image_manipulation.md)
+- [\[CVPR 2026\] SAGA: Source Attribution of Generative AI Videos](saga_source_attribution_of_generative_ai_videos.md)
 
 </div>
 

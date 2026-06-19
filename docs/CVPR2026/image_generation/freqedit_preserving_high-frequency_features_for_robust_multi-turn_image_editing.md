@@ -109,6 +109,7 @@ $$v^{\text{final}}_{t_i} = (1-\lambda)\cdot v^{\text{edit}}_{t_i} + \lambda\cdot
 关键观察：FreqEdit 给两个开源底座在 LPIPS、一致性、质量上带来大幅改善（Qwen-Image LPIPS 0.566→0.374，人类偏好 5.177→7.393），指令遵循只有**轻微下降**（FLUX.1 Kontext 0.803→0.790）。作者论证这个 trade-off 值得：原始底座到第 10 轮已严重变形、纹理坍塌，输出基本不可用，而 FreqEdit 大幅提升视觉保真同时保住了指令遵循。最强的 Qwen-Image+FreqEdit 在三个一致性维度上全面领先，人类偏好甚至超过闭源 SOTA Nano Banana（7.393 vs 7.271）。MTC 虽然质量分最高但指令遵循最低（0.554），等于"画质好但改不动图"。
 
 ### 消融实验
+
 | 配置 | 现象 / 影响 | 说明 |
 |------|------------|------|
 | Full model | 三者平衡最佳 | 完整 FreqEdit |

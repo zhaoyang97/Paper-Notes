@@ -82,6 +82,7 @@ pairwise judgment 本身只给出“两两谁更好”，并不能直接产出�
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 任务 | 指标 | 本文 CNPE-7B | 最强或代表性基线 | 提升 / 结论 |
 |--------|------|------|----------|------|
 | ICLR-2025 录用预测 | Accuracy | 0.7192 | DeepReview-14B 0.6845 | 7B 模型超过 14B 训练式 reviewer |
@@ -93,6 +94,7 @@ pairwise judgment 本身只给出“两两谁更好”，并不能直接产出�
 | ICLR-2025 综合 | Avg. Perf. | 1.0000 | DeepReview-14B 0.8211 | 平均相对提升 21.8% |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Full model | Avg. Perf. 1.0000；F1 0.6732；MAP@20 0.7076 | 完整 CNPE，SFT+RLVR，训练和推理都混合 similarity/random sampling |

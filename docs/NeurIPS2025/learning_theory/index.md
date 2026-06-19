@@ -70,7 +70,7 @@ item_total: 25
 
 **🧠 NeurIPS2025** · **25** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (17)](../../ICML2026/learning_theory/index.md) · [🔬 ICLR2026 (7)](../../ICLR2026/learning_theory/index.md) · [🤖 AAAI2026 (3)](../../AAAI2026/learning_theory/index.md) · [🧪 ICML2025 (16)](../../ICML2025/learning_theory/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (45)](../../ICML2026/learning_theory/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/learning_theory/index.md) · [🤖 AAAI2026 (3)](../../AAAI2026/learning_theory/index.md) · [🧪 ICML2025 (16)](../../ICML2025/learning_theory/index.md)
 
 🔥 **高频主题：** 域适应 ×3
 

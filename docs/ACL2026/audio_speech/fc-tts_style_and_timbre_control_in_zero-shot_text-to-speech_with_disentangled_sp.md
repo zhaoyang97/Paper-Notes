@@ -99,6 +99,7 @@ $$L_{CCL}=\lambda_{pro}E[CE(c_p,f(\hat{x},z_{spk}))]-\lambda_{spk}E[cos(z_{spk},
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 / 数据集 | 指标 | FC-TTS | 对照 | 结论 |
 |--------|------|------|----------|------|
 | LibriSpeech test-clean 零样本 TTS | UTMOS / WER / SPK / Params | 4.22 / 1.88 / 0.60 / 204M | NaturalSpeech 3: 4.30 / 1.81 / 0.67 / 500M；F5-TTS†: 4.03 / 3.30 / 0.67 / 205M | 自然度和 WER 竞争性，但 SPK 低于部分 SOTA |
@@ -107,6 +108,7 @@ $$L_{CCL}=\lambda_{pro}E[CE(c_p,f(\hat{x},z_{spk}))]-\lambda_{spk}E[cos(z_{spk},
 | AudioLLM-as-a-Judge 风格评测 | Win Ratio / Style-MOS | 91.7% / 3.92 | F5-TTS: 8.3% / 1.50 | Gemini 2.5 Pro 也强烈偏向 FC-TTS |
 
 ### 消融实验
+
 | 配置 | LibriSpeech UTMOS / WER / SPK / MCD | RAVDESS Style UTMOS / WER / SPK / MCD | 说明 |
 |------|---------|------|------|
 | FC-TTS | 4.22 / 1.88 / 0.60 / 5.60 | 3.91 / 0.30 / 0.37 / 3.33 | 完整模型 |

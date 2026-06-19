@@ -118,7 +118,7 @@ OSRM 提升约 10% 多任务性能，同时保持甚至提升单任务性能。
 - [\[ACL 2025\] DRPruning: Efficient Large Language Model Pruning through Distributionally Robust Optimization](drpruning_robust_pruning.md)
 - [\[CVPR 2026\] DuetMerging: Synergizing Dynamic and Static Strategies for Mitigating Task Interference in Model Merging](../../CVPR2026/model_compression/duetmerging_synergizing_dynamic_and_static_strategies_for_mitigating_task_interf.md)
 - [\[ACL 2025\] Sci-LoRA: Mixture of Scientific LoRAs for Cross-Domain Lay Paraphrasing](sci-lora_mixture_of_scientific_loras_for_cross-domain_lay_paraphrasing.md)
-- [\[NeurIPS 2025\] Robust Federated Finetuning of LLMs via Alternating Optimization of LoRA](../../NeurIPS2025/model_compression/robust_federated_finetuning_of_llms_via_alternating_optimization_of_lora.md)
+- [\[ACL 2025\] Bone Soups: A Seek-and-Soup Model Merging Approach for Controllable Multi-Objective Generation](bone_soups_multi_objective_gen.md)
 
 </div>
 

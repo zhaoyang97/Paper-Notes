@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Index-Preserving Lightweight Token Pruning for Efficient Document Understanding
 description: >-
-  [ICLR 2026 (Workshop on MM Intelligence)][多模态VLM][剪枝] 在 VLM 视觉编码器之前插入一个仅 203K 参数的二值 patch 分类器剔除文档背景 token，再用 $3 \times 3$ max-pooling 恢复碎片化文本区域并保留原始空间索引，在 Qwen2.5-VL 上实现 40-60% FLOPs 缩减且精度损失不超过 ~5%p。
+  [ICLR 2026 (Workshop on MM Intelligence)][VLM Efficiency][剪枝] 在 VLM 视觉编码器之前插入一个仅 203K 参数的二值 patch 分类器剔除文档背景 token，再用 $3 \times 3$ max-pooling 恢复碎片化文本区域并保留原始空间索引，在 Qwen2.5-VL 上实现 40-60% FLOPs 缩减且精度损失不超过 ~5%p。
 tags:
   - "ICLR 2026 (Workshop on MM Intelligence)"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "剪枝"
   - "文档理解"
   - "VLM 效率"
@@ -160,11 +160,11 @@ ToMe 因为在每层合并时打乱了 token 索引结构，ANLS 和 F1 几乎�
 
 ## 相关论文
 
-- [\[CVPR 2026\] DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning](../../CVPR2026/multimodal_vlm/docpruneefficient_document_question_answering_via_background_question_and_compre.md)
-- [\[CVPR 2026\] FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection](../../CVPR2026/multimodal_vlm/focusui_efficient_ui_grounding_via_position-preserving_visual_token_selection.md)
-- [\[CVPR 2026\] Efficient Document Parsing via Parallel Token Prediction](../../CVPR2026/multimodal_vlm/efficient_document_parsing_via_parallel_token_prediction.md)
-- [\[CVPR 2026\] When Token Pruning is Worse than Random: Understanding Visual Token Information in VLLMs](../../CVPR2026/multimodal_vlm/when_token_pruning_is_worse_than_random_understanding_visual_token_information_i.md)
-- [\[CVPR 2026\] TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model](../../CVPR2026/multimodal_vlm/transprune_token_transition_pruning_for_efficient_large_vision-language_model.md)
+- [\[CVPR 2026\] DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning](../../CVPR2026/vlm_efficiency/docpruneefficient_document_question_answering_via_background_question_and_compre.md)
+- [\[CVPR 2026\] FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection](../../CVPR2026/vlm_efficiency/focusui_efficient_ui_grounding_via_position-preserving_visual_token_selection.md)
+- [\[CVPR 2026\] When Token Pruning is Worse than Random: Understanding Visual Token Information in VLLMs](../../CVPR2026/vlm_efficiency/when_token_pruning_is_worse_than_random_understanding_visual_token_information_i.md)
+- [\[CVPR 2026\] TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model](../../CVPR2026/vlm_efficiency/transprune_token_transition_pruning_for_efficient_large_vision-language_model.md)
+- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](../../CVPR2026/vlm_efficiency/unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
 
 </div>
 

@@ -161,10 +161,10 @@ $$\begin{cases} m_{11}a+m_{21}b+n_{11}c+n_{21}d=0\\ m_{12}a+m_{22}b+n_{12}c+n_{2
 ## 相关论文
 
 - [\[ECCV 2024\] A Direct Approach to Viewing Graph Solvability](../../ECCV2024/3d_vision/a_direct_approach_to_viewing_graph_solvability.md)
+- [\[CVPR 2026\] Affine Perspective-Three-Point Problem](affine_perspective-three-point_problem.md)
 - [\[CVPR 2026\] Variational Graph-based Normal Integration](variational_graph-based_normal_integration.md)
 - [\[CVPR 2026\] Sky2Ground: A Benchmark for Site Modeling under Varying Altitude](sky2ground_a_benchmark_for_site_modeling_under_varying_altitude.md)
 - [\[CVPR 2026\] 4C4D: 4 Camera 4D Gaussian Splatting](4c4d_4_camera_4d_gaussian_splatting.md)
-- [\[CVPR 2026\] Coverage Optimization for Camera View Selection](coverage_optimization_for_camera_view_selection.md)
 
 </div>
 

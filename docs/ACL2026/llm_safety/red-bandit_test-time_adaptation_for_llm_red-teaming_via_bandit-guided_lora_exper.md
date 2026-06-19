@@ -82,6 +82,7 @@ $$\mathcal{L}_\theta = -\mathbb{E}\big[\min(r_\theta \hat{A},\ \mathrm{clip}(r_\
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 目标 | 指标 | Red-Bandit | 强基线 | 备注 |
 |---------------|------|------------|--------|------|
 | AdvBench / Mistral-7B | ASR@10 | 100.0% | Atoxia 99.2% | UCB PPL 2.31，低于 Atoxia 54.42 |
@@ -91,6 +92,7 @@ $$\mathcal{L}_\theta = -\mathbb{E}\big[\min(r_\theta \hat{A},\ \mathrm{clip}(r_\
 | GPT-3.5-turbo 黑盒 | ASR@10 | 98.1% UCB | Atoxia 92.7% | 单次 ASR@1 则 Atoxia 更高 |
 
 ### 消融实验
+
 | 目标模型 | 配置 | ASR@1 | Hnorm | PPL |
 |----------|------|-------|-------|-----|
 | Llama3.1-8B | Baseline, no RL / no Bandit | 38.5 | 0.98 | 2.45 |
@@ -99,6 +101,7 @@ $$\mathcal{L}_\theta = -\mathbb{E}\big[\min(r_\theta \hat{A},\ \mathrm{clip}(r_\
 | Llama3.1-8B | RL + Bandit | 58.7 | 0.67 | 2.62 |
 
 ### HarmBench 结果摘录
+
 | 方法 | Llama2-7B ASR@20 | Vicuna-13B ASR@20 | Qwen-14B ASR@20 |
 |------|------------------|-------------------|-----------------|
 | GCG-Universal | 20.0 | 80.2 | 75.5 |
@@ -141,10 +144,10 @@ $$\mathcal{L}_\theta = -\mathbb{E}\big[\min(r_\theta \hat{A},\ \mathrm{clip}(r_\
 ## 相关论文
 
 - [\[ACL 2026\] STAR-Teaming: A Strategy-Response Multiplex Network Approach to Automated LLM Red Teaming](star-teaming_a_strategy-response_multiplex_network_approach_to_automated_llm_red.md)
-- [\[ICML 2026\] Stable-GFlowNet: Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance](../../ICML2026/llm_safety/stable-gflownet_toward_diverse_and_robust_llm_red-teaming_via_contrastive_trajec.md)
 - [\[ICLR 2026\] Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming Attacks (DialTree)](../../ICLR2026/llm_safety/tree-based_dialogue_reinforced_policy_optimization_for_red-teaming_attacks.md)
-- [\[ICML 2026\] FoeGlass: Simple In-Context Learning Is Enough for Red Teaming Audio Deepfake Detectors](../../ICML2026/llm_safety/foeglass_simple_in-context_learning_is_enough_for_red_teaming_audio_deepfake_det.md)
 - [\[NeurIPS 2025\] Buffer Layers for Test-Time Adaptation](../../NeurIPS2025/llm_safety/buffer_layers_for_test-time_adaptation.md)
+- [\[ICLR 2026\] Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models](../../ICLR2026/llm_safety/auto-rt_automatic_jailbreak_strategy_exploration_for_red-teaming_large_language_.md)
+- [\[ICLR 2026\] ARMS: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks](../../ICLR2026/llm_safety/arms_adaptive_red-teaming_agent_against_multimodal_models_with_plug-and-play_att.md)
 
 </div>
 

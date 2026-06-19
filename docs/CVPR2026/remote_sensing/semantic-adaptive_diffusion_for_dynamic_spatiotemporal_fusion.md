@@ -115,6 +115,7 @@ $\lambda_{time}$ 用余弦 warm-up（式 14）随 epoch 渐增，先专注主目
 在 CIA 这种变化小的短跨度场景，线性的 ESTARFM 甚至优于若干深度法（深度法因粗细尺度差产生模糊），但 SA-STF 凭语义自适应迁移仍拿到最优；在 LGC、AHB 这类大变化/强物候动态场景优势更明显。
 
 ### 消融实验（LGC 数据集）
+
 | 配置 | CC↑ | SSIM↑ | ERGAS↓ | RMSE↓ | SAM↓ | 说明 |
 |------|-----|-------|--------|-------|------|------|
 | RDDM | 0.9194 | 0.9319 | 0.8504 | 0.0191 | 0.0683 | 基线残差扩散 |
@@ -160,10 +161,10 @@ $\lambda_{time}$ 用余弦 warm-up（式 14）随 epoch 渐增，先专注主目
 ## 相关论文
 
 - [\[CVPR 2026\] CrossEarth-Gate: Fisher-Guided Adaptive Tuning Engine for Efficient Adaptation of Cross-Domain Remote Sensing Semantic Segmentation](crossearth-gate_fisher-guided_adaptive_tuning_engine_for_efficient_adaptation_of.md)
-- [\[CVPR 2026\] Exploring Spatiotemporal Feature Propagation for Video-Level Compressive Spectral Reconstruction](exploring_spatiotemporal_feature_propagation_for_video-level_compressive_spectra.md)
 - [\[CVPR 2025\] SGFormer: Satellite-Ground Fusion for 3D Semantic Scene Completion](../../CVPR2025/remote_sensing/sgformer_satellite-ground_fusion_for_3d_semantic_scene_completion.md)
-- [\[CVPR 2026\] Fast Kernel-Space Diffusion for Remote Sensing Pansharpening](fast_kernel-space_diffusion_for_remote_sensing_pansharpening.md)
 - [\[CVPR 2026\] GeoDiT: A Diffusion-based Vision-Language Model for Geospatial Understanding](geodit_a_diffusion-based_vision-language_model_for_geospatial_understanding.md)
+- [\[CVPR 2026\] ChangeBridge: Spatiotemporal Image Generation with Multimodal Controls for Remote Sensing](changebridge_spatiotemporal_image_generation_with_multimodal_controls_for_remote.md)
+- [\[CVPR 2026\] MM-OVSeg: Multimodal Optical-SAR Fusion for Open-Vocabulary Segmentation in Remote Sensing](mm-ovseg_multimodal_optical-sar_fusion_for_open-vocabulary_segmentation_in_remot.md)
 
 </div>
 

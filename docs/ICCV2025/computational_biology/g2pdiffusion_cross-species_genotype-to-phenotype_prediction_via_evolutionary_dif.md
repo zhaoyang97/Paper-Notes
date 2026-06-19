@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2502.04684](https://arxiv.org/abs/2502.04684)  
 **代码**: 无  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: genotype-to-phenotype, diffusion model, multiple sequence alignment, cross-species, evolutionary biology
 
 ## 一句话总结
@@ -147,7 +147,7 @@ G2PDiffusion包含三个核心组件：(1) MSA检索引擎从外部数据库检�
 - [\[NeurIPS 2025\] Inferring Stochastic Dynamics with Growth from Cross-Sectional Data](../../NeurIPS2025/computational_biology/inferring_stochastic_dynamics_with_growth_from_cross-sectional_data.md)
 - [\[ICLR 2026\] EvoFlows: Evolutionary Edit-Based Flow-Matching for Protein Engineering](../../ICLR2026/computational_biology/evoflows_evolutionary_edit-based_flow-matching_for_protein_engineering.md)
 - [\[ICML 2026\] Protein Circuit Tracing via Cross-layer Transcoders](../../ICML2026/computational_biology/protein_circuit_tracing_via_cross-layer_transcoders.md)
-- [\[NeurIPS 2025\] Quantifying the Role of OpenFold Components in Protein Structure Prediction](../../NeurIPS2025/computational_biology/quantifying_the_role_of_openfold_components_in_protein_structure_prediction.md)
+- [\[NeurIPS 2025\] UniSite: The First Cross-Structure Dataset and Learning Framework for End-to-End Ligand Binding Site Detection](../../NeurIPS2025/computational_biology/unisite_the_first_cross-structure_dataset_and_learning_framework_for_end-to-end_.md)
 
 </div>
 

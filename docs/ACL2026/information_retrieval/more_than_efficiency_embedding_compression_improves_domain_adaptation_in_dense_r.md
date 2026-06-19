@@ -73,6 +73,7 @@ PCA 有效与否不能只报一个默认比例，它可能和数据结构、模�
 | 全部 retrieval runs | 9 模型 × 25 数据集 × 3 设置 | 675 runs | 在 RTX 4090 上约 36 小时完成 |
 
 ### 消融实验
+
 | 分析项 | 关键数字 | 说明 |
 |--------|----------|------|
 | 数据集成功率 | MedQA、SpartQA、FaithDial、NarrativeQA、ARC、TV2Nord 均为 9 / 9 | 这些数据集在所有模型上都从 Query Compression 受益 |

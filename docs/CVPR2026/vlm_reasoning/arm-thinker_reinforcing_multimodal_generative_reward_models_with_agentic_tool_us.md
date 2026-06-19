@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][多模态奖励模型] ARM-Thinker 把多模态奖励模型从"一次性打分"改造成一个会主动调工具（裁剪放大、文档检索、指令校验）去找证据的 agent，用"先鼓励调工具、再精炼准确率"的两阶段 GRPO 训练，让 7B 模型在奖励建模、think-with-images、通用推理三类基准上分别平均涨 +16.2% / +9.6% / +4.2%，并在奖励/工具基准上追平甚至超过 GPT-4o。
+  [CVPR 2026][VLM Reasoning][多模态奖励模型] ARM-Thinker 把多模态奖励模型从"一次性打分"改造成一个会主动调工具（裁剪放大、文档检索、指令校验）去找证据的 agent，用"先鼓励调工具、再精炼准确率"的两阶段 GRPO 训练，让 7B 模型在奖励建模、think-with-images、通用推理三类基准上分别平均涨 +16.2% / +9.6% / +4.2%，并在奖励/工具基准上追平甚至超过 GPT-4o。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态奖励模型"
   - "agentic 工具调用"
   - "think-act-verify"
@@ -167,11 +167,11 @@ $$
 
 ## 相关论文
 
-- [\[CVPR 2026\] Visual Reasoning through Tool-supervised Reinforcement Learning](visual_reasoning_through_tool-supervised_reinforcement_learning.md)
-- [\[ICML 2026\] Active Exploring like a Pigeon: Reinforcing Spatial Reasoning via Agentic Vision-Language Models](../../ICML2026/multimodal_vlm/active_exploring_like_a_pigeon_reinforcing_spatial_reasoning_via_agentic_vision-.md)
-- [\[CVPR 2026\] CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization](codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim.md)
-- [\[CVPR 2026\] Perception Programs: Unlocking Visual Tool Reasoning in Language Models](perception_programs_visual_tool_reasoning.md)
 - [\[CVPR 2026\] GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models](ggbench_a_geometric_generative_reasoning_benchmark_for_unified_multimodal_models.md)
+- [\[ICLR 2026\] VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use](../../ICLR2026/vlm_reasoning/vtool-r1_vlms_learn_to_think_with_images_via_reinforcement_learning_on_multimoda.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
+- [\[CVPR 2026\] Hierarchical Process Reward Models are Symbolic Vision Learners](hierarchical_process_reward_models_are_symbolic_vision_learners.md)
+- [\[CVPR 2026\] CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization](codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim.md)
 
 </div>
 

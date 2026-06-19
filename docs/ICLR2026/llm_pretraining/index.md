@@ -1,14 +1,15 @@
 ---
 title: >-
-  ICLR2026 预训练论文汇总 · 25篇论文解读
+  ICLR2026 预训练论文汇总 · 35篇论文解读
 description: >-
-  25篇ICLR2026的预训练方向论文解读，涵盖 LLM、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  35篇ICLR2026的预训练方向论文解读，涵盖 LLM、扩散模型、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "预训练"
   - "论文解读"
   - "论文笔记"
   - "LLM"
+  - "扩散模型"
   - "对齐/RLHF"
   - "对抗鲁棒"
 item_list:
@@ -16,12 +17,32 @@ item_list:
     t: "A Law of Data Reconstruction for Random Features (and Beyond)"
   - u: "accessible_realistic_and_fair_evaluation_of_positive-unlabeled_learning_algorith/"
     t: "Accessible, Realistic, and Fair Evaluation of Positive-Unlabeled Learning Algorithms"
+  - u: "adept_continual_pretraining_via_adaptive_expansion_and_dynamic_decoupled_tuning/"
+    t: "ADEPT: Continual Pretraining via Adaptive Expansion and Dynamic Decoupled Tuning"
+  - u: "any-order_flexible_length_masked_diffusion/"
+    t: "Any-Order Flexible Length Masked Diffusion"
+  - u: "avey-b/"
+    t: "Avey-B：把无注意力架构改造成双向编码器"
+  - u: "beyond_length_quantifying_long-range_information_for_long-context_llm_pretrainin/"
+    t: "Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data"
+  - u: "beyond_masks_efficient_flexible_diffusion_language_models_via_deletion-insertion/"
+    t: "Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes"
+  - u: "beyond_multi-token_prediction_pretraining_llms_with_future_summaries/"
+    t: "Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries"
+  - u: "beyond_urls_metadata_diversity_and_position_for_efficient_llm_pretraining/"
+    t: "Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining"
   - u: "block-sample_mac-bayes_generalization_bounds/"
     t: "Block-Sample MAC-Bayes Generalization Bounds"
+  - u: "can_small_training_runs_reliably_guide_data_curation_rethinking_proxy-model_prac/"
+    t: "Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice"
   - u: "chammi-75_pre-training_multi-channel_models_with_heterogeneous_microscopy_images/"
     t: "CHAMMI-75: Pre-training multi-channel models with heterogeneous microscopy images"
   - u: "common_corpus_ethical_data_for_llm_pretraining/"
     t: "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training"
+  - u: "common_corpus_the_largest_collection_of_ethical_data_for_llm_pre-training/"
+    t: "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training"
+  - u: "conditioned_initialization_for_attention/"
+    t: "Conditioned Initialization for Attention"
   - u: "deconstructing_positional_information_from_attention_logits_to_training_biases/"
     t: "Deconstructing Positional Information: From Attention Logits to Training Biases"
   - u: "emergent_misalignment_is_easy_narrow_misalignment_is_hard/"
@@ -52,27 +73,17 @@ item_list:
     t: "RECON: Robust symmetry discovery via Explicit Canonical Orientation Normalization"
   - u: "scaling_with_collapse_efficient_and_predictable_training_of_llm_families/"
     t: "Scaling with Collapse: Efficient and Predictable Training of LLM Families"
-  - u: "semhitok_a_unified_image_tokenizer_via_semantic-guided_hierarchical_codebook_for/"
-    t: "SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook"
-  - u: "steering_language_models_with_weight_arithmetic/"
-    t: "Steering Language Models with Weight Arithmetic"
-  - u: "token-level_data_selection_for_safe_llm_fine-tuning/"
-    t: "Token-level Data Selection for Safe LLM Fine-tuning"
-  - u: "understanding_and_improving_shampoo_and_soap_via_kullback-leibler_minimization/"
-    t: "Understanding and Improving Shampoo and SOAP via Kullback-Leibler Minimization"
-  - u: "understanding_the_emergence_of_seemingly_useless_features_in_next-token_predicto/"
-    t: "Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors"
-item_total: 25
+item_total: 35
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练
 
-**🔬 ICLR2026** · **25** 篇论文解读
+**🔬 ICLR2026** · **35** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/llm_pretraining/index.md) · [🧪 ICML2026 (22)](../../ICML2026/llm_pretraining/index.md) · [💬 ACL2026 (12)](../../ACL2026/llm_pretraining/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_pretraining/index.md) · [🧠 NeurIPS2025 (51)](../../NeurIPS2025/llm_pretraining/index.md) · [📹 ICCV2025 (9)](../../ICCV2025/llm_pretraining/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (5)](../../CVPR2026/llm_pretraining/index.md) · [🧪 ICML2026 (27)](../../ICML2026/llm_pretraining/index.md) · [💬 ACL2026 (12)](../../ACL2026/llm_pretraining/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_pretraining/index.md) · [🧠 NeurIPS2025 (51)](../../NeurIPS2025/llm_pretraining/index.md) · [📹 ICCV2025 (9)](../../ICCV2025/llm_pretraining/index.md)
 
-🔥 **高频主题：** LLM ×4
+🔥 **高频主题：** LLM ×7 · 扩散模型 ×2
 
 **[A Law of Data Reconstruction for Random Features (and Beyond)](a_law_of_data_reconstruction_for_random_features_and_beyond.md)**
 
@@ -82,9 +93,41 @@ item_total: 25
 
 :   提出首个 PU 学习统一基准，系统解决两个关键问题：(1) 用代理准确率和代理 AUC 实现无负样本的模型选择；(2) 发现并通过将正样本并入无标签集的简单校准方法解决单样本设置下的内部标签偏移问题，使双样本算法在单样本评估中得到公平比较。
 
+**[ADEPT: Continual Pretraining via Adaptive Expansion and Dynamic Decoupled Tuning](adept_continual_pretraining_via_adaptive_expansion_and_dynamic_decoupled_tuning.md)**
+
+:   ADEPT 发现 LLM 各层、各参数单元对"通用能力"的贡献是高度不均的，于是只复制那些对通用域最不重要的层来腾出新容量，并在这些扩展层内部按单元重要性分配不对称学习率，从而在数学/医学领域持续预训练中既注入新知识又几乎不损伤通用能力——只调 15% 参数、不到 50% 训练时间，却比全参 CPT 在通用基准上高 5.76%、领域基准上高 5.58%。
+
+**[Any-Order Flexible Length Masked Diffusion](any-order_flexible_length_masked_diffusion.md)**
+
+:   本文提出 FlexMDM，一种能在生成过程中**插入新 token、从而建模变长序列**的掩码扩散模型，它在理论上保留了掩码扩散"任意顺序并行解码"的能力，困惑度与定长掩码扩散持平但长度分布拟合显著更好，并且只需 16 张 H100 三天就能把预训练好的 LLaDA-8B 改造成变长模型，在 GSM8K（58%→67%）和代码填空（52%→65%）上明显提升。
+
+**[Avey-B：把无注意力架构改造成双向编码器](avey-b.md)**
+
+:   Avey-B 把原本自回归的无注意力架构 Avey 改造成 BERT 式双向编码器：去掉因果掩码、把静态权重和动态相似度解耦成交替层、给动态层加行归一化、再在 ranker 里塞一个神经压缩器，结果在 token 分类和信息检索上稳超 BERT/RoBERTa/ModernBERT/NeoBERT，且预训练 token 量比 ModernBERT 少约 11×、在 96K 长度上吞吐快 ModernBERT 3.38×。
+
+**[Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data](beyond_length_quantifying_long-range_information_for_long-context_llm_pretrainin.md)**
+
+:   针对"长文本 ≠ 长依赖"这个被忽视的事实，提出 LongFilter——用同一个语言模型在长/短上下文下对每个 token 的预测分布做对比，量化"扩展上下文带来的信息增益"，据此筛掉那些虽然很长但其实只靠局部就能预测的样本；用筛后的数据继续预训练 LLaMA-3-8B（8K→64K），在 HELMET、LongBench、RULER 上平均提升 2 分以上，且约一半数据量即可达到等效效果。
+
+**[Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes](beyond_masks_efficient_flexible_diffusion_language_models_via_deletion-insertion.md)**
+
+:   DID 把扩散语言模型的「掩码-去掩码」彻底换成「删除-插入」两条连续时间马尔可夫链：前向把 token 逐个删到空序列、后向从空序列逐个插回去，再配一套基于「插入分数」的 DISE 训练目标和并行动态规划，既扔掉了占一半算力的 `<MASK>`/`<PAD>` token，又天然支持变长和生成中自纠错，定长/变长两种设定下训练加速最高 3.42×、推理加速最高 3.79×。
+
+**[Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries](beyond_multi-token_prediction_pretraining_llms_with_future_summaries.md)**
+
+:   这篇论文提出 **未来摘要预测（Future Summary Prediction, FSP）**：在标准的下一 token 预测之外挂一个辅助头，让模型预测对**长程未来序列的紧凑摘要**（而不是逐个预测未来若干 token），并给出两种摘要构造方式——手工的词袋摘要（FSP-BoW）和用反向语言模型蒸馏出来的学习式摘要（FSP-RevLM）；3B/8B 大规模预训练实验显示它在数学、推理、代码任务上稳定超过 NTP 与多 token 预测（MTP），数学任务上最高提升约 4–5 个百分点。
+
+**[Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining](beyond_urls_metadata_diversity_and_position_for_efficient_llm_pretraining.md)**
+
+:   这篇论文系统地拓宽了"元数据条件化加速 LLM 预训练"的设计空间：除了已知有效的 URL 前置，作者发现**细粒度**的质量分数与领域信息同样能加速训练，并提出"后置元数据作为辅助预测任务"和"可学习元 token"两种新机制，再用逐层探针揭示这些信号如何重塑潜在表征。
+
 **[Block-Sample MAC-Bayes Generalization Bounds](block-sample_mac-bayes_generalization_bounds.md)**
 
 :   提出块样本MAC-Bayes泛化界（mean approximately correct），将训练数据划分为J个块后用各块条件下的KL散度之和替代整体KL散度，在确定性学习算法（如均值估计）等原始PAC-Bayes界为空（vacuous）的场景下仍能给出有限、有意义的泛化误差界，并证明了该界的高概率版本在一般情况下不可行。
+
+**[Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice](can_small_training_runs_reliably_guide_data_curation_rethinking_proxy-model_prac.md)**
+
+:   这篇论文指出前沿团队普遍依赖的"用小代理模型、固定超参比较数据配方"的做法存在致命缺陷——数据集排名会被学习率的微小变化翻转，作者提出用极小学习率（$10^{-5}\sim10^{-6}$）训练代理模型作为简单补丁，并在 23 个数据配方上把代理（GPT2-125M）到目标模型（Pythia-1B）的排名 Spearman 相关性从 $<0.75$ 提升到 $>0.95$。
 
 **[CHAMMI-75: Pre-training multi-channel models with heterogeneous microscopy images](chammi-75_pre-training_multi-channel_models_with_heterogeneous_microscopy_images.md)**
 
@@ -93,6 +136,14 @@ item_total: 25
 **[Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training](common_corpus_ethical_data_for_llm_pretraining.md)**
 
 :   构建 Common Corpus——约 2 万亿 token 的最大规模合法授权 LLM 预训练数据集，覆盖 6 大集合（政府/文化/科学/代码/Web/语义），多语言（含低资源语言），所有数据均为无版权或宽松许可来源，配有完整数据溯源和多阶段过滤管道，已被 Anthropic 等行业领导者采用。
+
+**[Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training](common_corpus_the_largest_collection_of_ethical_data_for_llm_pre-training.md)**
+
+:   作者发布了 **Common Corpus**——目前规模最大（约 2 万亿 token）、且**全部由公共领域或开放许可内容**构成的 LLM 预训练数据集，覆盖多语言、多领域、跨数百年时间跨度，并配套开源了一整套 OCR 纠错 / 文本分割 / PII 脱敏 / 毒性过滤工具；用它训出的 350M 与 1.2B 小模型在多语言基准上与同量级闭源数据训练的模型表现相当，证明"合规也能训出好模型"。
+
+**[Conditioned Initialization for Attention](conditioned_initialization_for_attention.md)**
+
+:   这篇论文从理论上把注意力层的优化稳定性归因到其 Jacobian 的条件数，进而提出"条件化初始化"——把 value 矩阵初始化成矩形单位阵、把 query/key 矩阵初始化成半正交阵（两者条件数都为 1），从而在训练起点收紧 Jacobian 条件数的上界，在图像分类、检测分割、语言建模、长序列等多种 Transformer 任务上一致地加速收敛（快 20–30%）并提升泛化。
 
 **[Deconstructing Positional Information: From Attention Logits to Training Biases](deconstructing_positional_information_from_attention_logits_to_training_biases.md)**
 

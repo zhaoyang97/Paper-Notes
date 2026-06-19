@@ -38,6 +38,7 @@ tags:
 **核心 idea**：用「多专家角色扮演提示」代替「通用提示」，让 MLLM 从多个互补认知视角描述同一张图，从而在不增图的情况下把语义多样性做上去。
 
 ## 方法详解
+
 ### 整体框架
 Role-SynthCLIP 把任务定义为：给定一批**没有配对 caption 的图片** $I=\{I_i\}$，合成出语义多样且准确的图文对用于对比训练。整条流水线分三阶段串行：先**生成专家角色**（造出一批分工明确的"标注人格"），再让 MLLM **以专家身份观察图片**（严格按各角色人设产出多视角 caption），最后用一个**角色感知过滤器**剔除幻觉和与角色不符的脏数据。拿到高质量多视角图文对后，再用一套针对长 caption、多正样本的训练目标去训 CLIP。
 
@@ -163,11 +164,11 @@ caption 生成策略对比（COCO，I→T / T→I）：
 
 ## 相关论文
 
+- [\[CVPR 2026\] Love Me, Love My Label: Rethinking the Role of Labels in Prompt Retrieval for Visual In-Context Learning](love_me_love_my_label_rethinking_the_role_of_labels_in_prompt_retrieval_for_visu.md)
 - [\[CVPR 2026\] Socratic-Geo: Synthetic Data Generation and Cross-Modal Geometric Reasoning via Multi-Agent Interaction](socratic-geo_synthetic_data_generation_and_cross-modal_geometric_reasoning_via_m.md)
 - [\[ACL 2026\] WikiSeeker: Rethinking the Role of Vision-Language Models in Knowledge-Based Visual Question Answering](../../ACL2026/multimodal_vlm/wikiseeker_rethinking_the_role_of_vision-language_models_in_knowledge-based_visu.md)
-- [\[ACL 2025\] The Role of Visual Modality in Multimodal Mathematical Reasoning: Challenges and Insights](../../ACL2025/multimodal_vlm/the_role_of_visual_modality_in_multimodal_mathematical_reasoning_challenges_and_.md)
-- [\[CVPR 2026\] DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions](dsert_roll_robust_multi_modal_perception_for_diverse_driving_conditions.md)
 - [\[CVPR 2026\] Concept Regions Matter: Benchmarking CLIP with a New Cluster-Importance Approach](concept_regions_matter_benchmarking_clip_with_a_new_cluster-importance_approach.md)
+- [\[CVPR 2025\] Synthetic Data is an Elegant GIFT for Continual Vision-Language Models](../../CVPR2025/multimodal_vlm/synthetic_data_is_an_elegant_gift_for_continual_vision-language_models.md)
 
 </div>
 

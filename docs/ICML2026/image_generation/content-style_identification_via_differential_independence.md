@@ -78,6 +78,7 @@ CSDI-GAN 要解决的是 unpaired 多域下的内容-风格分块辨识：在没
 CSDI-GAN 在两数据集的生成 FID 与 LPIPS 上同时优于所有内容-风格 baseline；翻译任务在 AFHQ 上 FID 比 B.I. GAN 砍掉 32%，CelebA-HQ FID 也从 24.6 降到 12.9。
 
 ### 消融实验
+
 | 配置 | AFHQ FID ↓ | AFHQ LPIPS ↑ | CelebA-HQ FID ↓ | CelebA-HQ LPIPS ↑ |
 |------|-----------|-------------|----------------|------------------|
 | CSDI-GAN (完整) | **4.4** | **0.4452** | **4.3** | **0.3392** |
@@ -123,8 +124,8 @@ CSDI-GAN 在两数据集的生成 FID 与 LPIPS 上同时优于所有内容-风�
 
 - [\[CVPR 2026\] SplitFlux: Learning to Decouple Content and Style from a Single Image](../../CVPR2026/image_generation/splitflux_learning_to_decouple_content_and_style_from_a_single_image.md)
 - [\[ECCV 2024\] Implicit Style-Content Separation using B-LoRA](../../ECCV2024/image_generation/implicit_style-content_separation_using_b-lora.md)
-- [\[ICML 2026\] RAIGen: Rare Attribute Identification in Text-to-Image Generative Models](raigen_rare_attribute_identification_in_text-to-image_generative_models.md)
 - [\[ICCV 2025\] SCFlow: Implicitly Learning Style and Content Disentanglement with Flow Models](../../ICCV2025/image_generation/scflow_implicitly_learning_style_and_content_disentanglement_with_flow_models.md)
+- [\[ICML 2026\] RAIGen: Rare Attribute Identification in Text-to-Image Generative Models](raigen_rare_attribute_identification_in_text-to-image_generative_models.md)
 - [\[CVPR 2026\] CRAFT-LoRA: Content-Style Personalization via Rank-Constrained Adaptation and Training-Free Fusion](../../CVPR2026/image_generation/craft-lora_content-style_personalization_via_rank-constrained_adaptation_and_tra.md)
 
 </div>

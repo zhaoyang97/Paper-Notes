@@ -111,6 +111,7 @@ COCO Karpathy 测试集上与轻量 VLM 基线对比。µVLM-b 在仅 **29.6 MB*
 - **首次在 µNPU 上跑通毫秒级 VLM**：TTFT 208 ms、TBT 21 ms、功耗 <300 mW，全部满足端侧实时生成的约束。
 
 ### 部署侧（STM32N657，4.2 MB SRAM / 600 GOPS）
+
 | 组件 | 大小(MB) | 延迟(ms) | 功耗 |
 |------|----------|----------|------|
 | OverMod-b 编码器 | 21.4 | 187 | <300 mW |
@@ -148,10 +149,10 @@ COCO Karpathy 测试集上与轻量 VLM 基线对比。µVLM-b 在仅 **29.6 MB*
 ## 相关论文
 
 - [\[CVPR 2026\] RE-VLM: Event-Augmented Vision-Language Model for Scene Understanding](re-vlm_event-augmented_vision-language_model_for_scene_understanding.md)
-- [\[CVPR 2026\] G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning](g2vlm_geometry_grounded_vision_language_model_with_unified_3d_reconstruction_and.md)
-- [\[CVPR 2026\] TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding](timeviper_a_hybrid_mamba-transformer_vision-language_model_for_efficient_long_vi.md)
+- [\[CVPR 2026\] VLM-Loc: Localization in Point Cloud Maps via Vision-Language Models](vlm-loc_localization_in_point_cloud_maps_via_vision-language_models.md)
+- [\[CVPR 2026\] Beyond Graph Model: Reliable VLM Fine-Tuning via Random Graph Adapter](beyond_graph_model_reliable_vlm_fine-tuning_via_random_graph_adapter.md)
 - [\[CVPR 2026\] VL-RouterBench: A Benchmark for Vision-Language Model Routing](vl-routerbench_a_benchmark_for_vision-language_model_routing.md)
-- [\[CVPR 2026\] Enhancing Video Vision Language Model with Hippocampal Sensing](enhancing_video_vision_language_model_with_hippocampal_sensing.md)
+- [\[CVPR 2026\] VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction](vlm-3r_vision-language_models_augmented_with_instruction-aligned_3d_reconstructi.md)
 
 </div>
 

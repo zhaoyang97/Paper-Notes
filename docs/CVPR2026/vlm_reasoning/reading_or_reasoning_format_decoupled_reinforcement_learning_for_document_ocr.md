@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR
 description: >-
-  [CVPR 2026][多模态VLM][OCR] 作者发现 OCR 模型在公式/表格这类「格式化文本」上的输出熵比纯文本高一个数量级，于是提出 Format Decoupled RL（FD-RL）：用熵给样本排序筛出格式密集的难样本，再按文本/公式/表格三类内容各配一套奖励函数做 GRPO 训练，在 OmniDocBench 上拿到端到端模型里很有竞争力的 90.41 分。
+  [CVPR 2026][VLM Reasoning][OCR] 作者发现 OCR 模型在公式/表格这类「格式化文本」上的输出熵比纯文本高一个数量级，于是提出 Format Decoupled RL（FD-RL）：用熵给样本排序筛出格式密集的难样本，再按文本/公式/表格三类内容各配一套奖励函数做 GRPO 训练，在 OmniDocBench 上拿到端到端模型里很有竞争力的 90.41 分。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "OCR"
   - "强化学习"
   - "GRPO"
@@ -145,11 +145,11 @@ FD-RL 在端到端模型里 overall 第一，超 dots.ocr 2.0 分、超 DeepSeek
 
 ## 相关论文
 
-- [\[CVPR 2026\] Visual Reasoning through Tool-supervised Reinforcement Learning](visual_reasoning_through_tool-supervised_reinforcement_learning.md)
-- [\[CVPR 2026\] R-C2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning](r-c2_cycle-consistent_reinforcement_learning_improves_multimodal_reasoning.md)
+- [\[CVPR 2026\] Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)
 - [\[CVPR 2026\] MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models](moe-grpo_optimizing_mixture-of-experts_via_reinforcement_learning_in_vision-lang.md)
+- [\[CVPR 2026\] R-C2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning](r-c2_cycle-consistent_reinforcement_learning_improves_multimodal_reasoning.md)
 - [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
-- [\[CVPR 2026\] TempR1: Improving Temporal Understanding of MLLMs via Temporal-Aware Multi-Task Reinforcement Learning](tempr1_improving_temporal_understanding_of_mllms_via_temporal-aware_multi-task_r.md)
+- [\[CVPR 2026\] EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models](emo-r3_reflective_reinforcement_learning_for_emotional_reasoning_in_multimodal_l.md)
 
 </div>
 

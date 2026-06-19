@@ -108,11 +108,11 @@ FDSE在所有数据集上一致最优，在DomainNet上超越20+方法。
 
 ## 相关论文
 
-- [\[CVPR 2026\] Domain Sensitive Federated Learning with Fisher-Informed Pruning](../../CVPR2026/optimization/domain_sensitive_federated_learning_with_fisher-informed_pruning.md)
 - [\[CVPR 2026\] Fed-ADE: Adaptive Learning Rate for Federated Post-adaptation under Distribution Shift](../../CVPR2026/optimization/fed-ade_adaptive_learning_rate_for_federated_post-adaptation_under_distribution_.md)
 - [\[CVPR 2025\] SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated Learning](scope_semantic_coreset_with_orthogonal_projection_embeddings_for_federated_learn.md)
 - [\[CVPR 2025\] Model Poisoning Attacks to Federated Learning via Multi-Round Consistency](model_poisoning_attacks_to_federated_learning_via_multi-round_consistency.md)
-- [\[CVPR 2026\] FedSST: Rethinking Fair Federated Graph Learning under Structural Shift](../../CVPR2026/optimization/fedsst_rethinking_fair_federated_graph_learning_under_structural_shift.md)
+- [\[CVPR 2026\] HFedATM: Hierarchical Federated Domain Generalization via Optimal Transport and Regularized Mean Aggregation](../../CVPR2026/optimization/hfedatm_hierarchical_federated_domain_generalization_via_optimal_transport_and_r.md)
+- [\[NeurIPS 2025\] Streaming Federated Learning with Markovian Data](../../NeurIPS2025/optimization/streaming_federated_learning_with_markovian_data.md)
 
 </div>
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2026  
 **arXiv**: [2605.29744](https://arxiv.org/abs/2605.29744)  
 **代码**: 未见公开代码  
-**领域**: 多智能体 / 临床决策
+**领域**: 多智能体 / 临床决策  
 **关键词**: 医疗多智能体, 专科模型, 临床决策支持, 不确定性路由, 证据融合  
 
 ## 一句话总结
@@ -107,6 +107,7 @@ flowchart TD
 作者报告 HetMedAgent 相比最佳单模型 baseline 平均 AUROC +6.6%、F1 +7.9%，相比最佳 multi-agent baseline 平均 AUROC +4.3%、F1 +5.7%。这说明收益不仅来自“用了多个 LLM 讨论”，还来自专科模型和冲突/不确定性机制。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | GPT-4o 单独使用 | 平均 AUROC 0.671，F1 0.625 | 只有通用 LLM 时临床决策明显不足 |
@@ -158,8 +159,8 @@ flowchart TD
 - [\[AAAI 2026\] MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models](../../AAAI2026/multi_agent/medla_a_logic-driven_multi-agent_framework_for_complex_medic.md)
 - [\[ICLR 2026\] MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning](../../ICLR2026/multi_agent/mmedagent-rl_optimizing_multi-agent_collaboration_for_multimodal_medical_reasoni.md)
 - [\[AAAI 2026\] LieCraft: A Multi-Agent Framework for Evaluating Deceptive Capabilities in Language Models](../../AAAI2026/multi_agent/liecraft_a_multi-agent_framework_for_evaluating_deceptive_capabilities_in_langua.md)
-- [\[ACL 2026\] AgenticEval: Toward Agentic and Self-Evolving Safety Evaluation of Large Language Models](../../ACL2026/multi_agent/agenticeval_toward_agentic_and_self-evolving_safety_evaluation_of_large_language.md)
 - [\[NeurIPS 2025\] MedAgentBoard: Benchmarking Multi-Agent Collaboration with Conventional Methods for Diverse Medical Tasks](../../NeurIPS2025/multi_agent/medagentboard_benchmarking_multi-agent_collaboration_with_conventional_methods_f.md)
+- [\[ACL 2026\] AgenticEval: Toward Agentic and Self-Evolving Safety Evaluation of Large Language Models](../../ACL2026/multi_agent/agenticeval_toward_agentic_and_self-evolving_safety_evaluation_of_large_language.md)
 
 </div>
 

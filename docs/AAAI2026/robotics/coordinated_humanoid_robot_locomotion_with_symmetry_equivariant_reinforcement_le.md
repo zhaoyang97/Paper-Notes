@@ -179,7 +179,7 @@ $$f(\mathcal{F}_{input}(x)) = \mathcal{F}_{output}(f(x))$$
 - [\[ICLR 2026\] Partially Equivariant Reinforcement Learning in Symmetry-Breaking Environments](../../ICLR2026/robotics/partially_equivariant_reinforcement_learning_in_symmetry-breaking_environments.md)
 - [\[AAAI 2026\] RLSLM: A Hybrid Reinforcement Learning Framework Aligning Rule-Based Social Locomotion Model with Human Social Norms](rlslm_a_hybrid_reinforcement_learning_framework_aligning_rule-based_social_locom.md)
 - [\[CVPR 2026\] Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control](../../CVPR2026/robotics/do_you_have_freestyle_expressive_humanoid_locomotion_via_audio_control.md)
-- [\[CVPR 2026\] Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains](../../CVPR2026/robotics/gallant_voxel_grid-based_humanoid_locomotion_and_local-navigation_across_3-d_con.md)
+- [\[CVPR 2026\] PvP: Data-Efficient Humanoid Robot Learning with Proprioceptive-Privileged Contrastive Representations](../../CVPR2026/robotics/pvp_data-efficient_humanoid_robot_learning_with_proprioceptive-privileged_contra.md)
 
 </div>
 

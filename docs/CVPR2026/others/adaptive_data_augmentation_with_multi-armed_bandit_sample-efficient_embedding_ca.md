@@ -113,6 +113,7 @@ $$\hat{\delta}_t^2(C)=\Big\Vert \frac{\Delta n}{n_{t-1}+\Delta n}\nabla\hat L_C(
 在相同增强预算下，ADAMAB 一致优于随机增强；且校准器（仅 0.66M–2.65M 参数）就能把 CLIP/embedding 模型大幅拉升，甚至超过用来生成数据的 GPT-4o-mini 本身的分类准确率——因为校准器把基础模型擅长的"生成似然"蒸馏并收敛到"分类后验"上。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | 仅初始集 vs +随机增强 vs +ADAMAB | 准确率逐级上升 | 合成数据有用，自适应选类比随机更有用 |
@@ -155,10 +156,10 @@ $$\hat{\delta}_t^2(C)=\Big\Vert \frac{\Delta n}{n_{t-1}+\Delta n}\nabla\hat L_C(
 ## 相关论文
 
 - [\[CVPR 2026\] DREAM: Document Recognition with Explicit Adaptive Memory](dream_document_recognition_with_explicit_adaptive_memory.md)
-- [\[CVPR 2026\] OntoAug: Rethinking Generative Data Augmentation via Ontology Guidance](ontoaug_rethinking_generative_data_augmentation_via_ontology_guidance.md)
+- [\[CVPR 2026\] Why Not Hyperparameter-Friendly Optimisation? A Monotonic Adaptive Norm Rescaling Approach For Long-Tailed Recognition](why_not_hyperparameter-friendly_optimisation_a_monotonic_adaptive_norm_rescaling.md)
 - [\[CVPR 2026\] Adaptive Bayesian Early-Exit Networks for Efficient Non-Transferable Learning](adaptive_bayesian_early-exit_networks_for_efficient_non-transferable_learning.md)
-- [\[CVPR 2026\] Cross-View Distillation and Adaptive Masking for Incomplete Multi-View Multi-Label Classification](cross-view_distillation_and_adaptive_masking_for_incomplete_multi-view_multi-lab.md)
-- [\[CVPR 2026\] Rethinking BCE Loss for Multi-Label Image Recognition with Fine-Tuning](rethinking_bce_loss_for_multi-label_image_recognition_with_fine-tuning.md)
+- [\[CVPR 2026\] Debiased Sample Selection for Learning with Noisy Labels](debiased_sample_selection_for_learning_with_noisy_labels.md)
+- [\[CVPR 2026\] Confusion-Aware Spectral Regularizer for Long-Tailed Recognition](confusion-aware_spectral_regularizer_for_long-tailed_recognition.md)
 
 </div>
 

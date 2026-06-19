@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025 (Long Paper)  
 **arXiv**: [2406.13181](https://arxiv.org/abs/2406.13181)  
 **代码**: [GitHub (匿名)](https://anonymous.4open.science/r/anon-D83E) | [HuggingFace Model](https://huggingface.co/aehrc/cxrmate)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 胸部X光报告生成, 多模态语言模型, 辅助患者数据, 电子健康记录, 强化学习  
 
 ## 一句话总结

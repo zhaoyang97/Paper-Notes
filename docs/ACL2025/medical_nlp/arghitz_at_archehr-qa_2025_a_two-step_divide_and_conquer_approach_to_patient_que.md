@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.12886](https://arxiv.org/abs/2506.12886)  
 **代码**: [https://github.com/hitz-zentroa/ArchEHR-ArgHiTZ](https://github.com/hitz-zentroa/ArchEHR-ArgHiTZ)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 患者问答, 电子健康记录, 共享任务, 两阶段方法, 事实性
 
 ## 一句话总结

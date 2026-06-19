@@ -98,6 +98,7 @@ NIReward 基于 Qwen2-VL，用 NI-RLHF 的 10k 偏好对训练，目标为 $L_{t
 NIReward 在 prompt following 和 identity consistency 上大幅领先；尤其 identity consistency 一项，连专用人脸模型 ArcFace（76.52）和各路 MLLM（最低不到 50）都明显不如它（85.10），说明它们其实"分不清不同角色的脸"。Visual Quality 上 GPT-4o-mini 单项更高（88.42），但其身份/跟随维度极差，无法作为统一奖励。
 
 ### 偏好优化定量结果（NIReward 三维分越高越好）
+
 | 方法 | CLIP | ID Sim | ImageReward | HPSv2 | PickScore | NIReward-P.F. | NIReward-I.C. | NIReward-V.Q. |
 |------|------|------|------|------|------|------|------|------|
 | Baseline | 32.38 | 28.83 | 0.931 | 32.46 | 22.13 | -0.058 | -0.036 | 0.036 |
@@ -109,6 +110,7 @@ NIReward 在 prompt following 和 identity consistency 上大幅领先；尤其 
 ADPO 在几乎所有指标上 top-2。最值得注意的是 **identity consistency**：其它三种 Diffusion-DPO 基线相对 baseline 的 ID Sim 和 NIReward-I.C. 全都**倒退**（如 ID Sim 从 28.83 掉到 26.77），唯有 ADPO 把 ID Sim 拉到 28.88、NIReward-I.C. 从 -0.036 翻正到 0.010——印证现有奖励模型根本评不准身份一致性。另外用 ImageReward/HPSv2/PickScore 调出来的模型，在它们各自对应的分数上反而打不过 ADPO，说明 ADPO 学到的偏好信息更有效。
 
 ### 消融实验（ADPO 各组件）
+
 | 配置 | ID Sim | ImageReward | HPSv2 | NIReward-P.F. | NIReward-I.C. | NIReward-V.Q. |
 |------|------|------|------|------|------|------|
 | Avg. Score（不分支配，取均值） | 26.94 | 0.948 | 32.28 | 0.049 | -0.004 | 0.057 |
@@ -153,8 +155,8 @@ ADPO 在几乎所有指标上 top-2。最值得注意的是 **identity consisten
 - [\[CVPR 2026\] Ar2Can: An Architect and an Artist Leveraging a Canvas for Multi-Human Generation](ar2can_an_architect_and_an_artist_leveraging_a_canvas_for_multi-human_generation.md)
 - [\[CVPR 2026\] Scaling Multi-Identity Consistency for Image Customization via Multi-to-Multi Matching Paradigm](scaling_multi-identity_consistency_for_image_customization_via_multi-to-multi_ma.md)
 - [\[AAAI 2026\] Multi-Aspect Cross-modal Quantization for Generative Recommendation](../../AAAI2026/image_generation/multi-aspect_cross-modal_quantization_for_generative_recommendation.md)
-- [\[CVPR 2026\] InterEdit: Navigating Text-Guided Multi-Human 3D Motion Editing](interedit_navigating_textguided_multihuman_3d_moti.md)
 - [\[ICML 2025\] Smoothed Preference Optimization via ReNoise Inversion for Aligning Diffusion Models with Varied Human Preferences](../../ICML2025/image_generation/smoothed_preference_optimization_via_renoise_inversion_for_aligning_diffusion_mo.md)
+- [\[CVPR 2026\] MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](multibanana_a_challenging_benchmark_for_multi_reference_text_to_image_generation.md)
 
 </div>
 

@@ -166,8 +166,8 @@ CoSp-PPGN 在所有子结构计数任务上匹配或超过 PPGN。
 
 - [\[ACL 2026\] StructKV: Preserving the Structural Skeleton for Scalable Long-Context Inference](../../ACL2026/llm_efficiency/structkv_preserving_the_structural_skeleton_for_scalable_long-context_inference.md)
 - [\[CVPR 2026\] QuietPrune: Query-Guided Early Token Pruning for Vision-Language Models](../../CVPR2026/llm_efficiency/quietprune_query-guided_early_token_pruning_for_vision-language_models.md)
+- [\[ICML 2026\] TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins](../../ICML2026/llm_efficiency/tuneahead_predicting_fine-tuning_performance_before_full_training_begins.md)
 - [\[ACL 2025\] Consistency-Preserving Contrastive Decoding for Faithful Document-Grounded Dialogue](../../ACL2025/llm_efficiency/consistency-preserving_contrastive_decoding_for_faithful_document-grounded_dial.md)
-- [\[ACL 2025\] Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](../../ACL2025/llm_efficiency/sliding_windows_full_ranking.md)
 - [\[ACL 2025\] Entailment-Preserving First-order Logic Representations in Natural Language Entailment](../../ACL2025/llm_efficiency/entailment-preserving_first-order_logic_representations_in_natural_language_enta.md)
 
 </div>

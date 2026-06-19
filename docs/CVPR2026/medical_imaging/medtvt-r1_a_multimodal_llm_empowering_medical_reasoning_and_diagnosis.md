@@ -90,6 +90,7 @@ PT/SFT 均为标准的下一个 token 预测负对数似然，区别在于 SFT �
 注意 F1 从 ~0.20 跳到 0.519、AUC 从 ~0.50 跳到 0.655，提升幅度很大——作者解释是对比基线无法原生处理三模态，只能把 ECG 转图、化验转文做"公平比较"，本身吃亏；这也说明三模态原生对齐的价值。生理级理解（ECG-QA/CXR-QA/LAB-QA，长文本 ≥300 词生成）上 MedTVT-R1 同样全面领先，尤其 LAB-QA 的 BLEU 达 0.1807，远高于次优。
 
 ### 消融实验
+
 | 配置 | METEOR | ROUGE | Recall | F1 | 说明 |
 |------|--------|-------|--------|------|------|
 | 完整 MedTVT-R1 | 0.3536 | 0.2295 | 0.5908 | 0.5190 | 全部组件 |
@@ -136,8 +137,8 @@ PT/SFT 均为标准的下一个 token 预测负对数似然，区别在于 SFT �
 ## 相关论文
 
 - [\[CVPR 2026\] Clinically-Grounded Counterfactual Reasoning for Medical Video Diagnosis](clinically-grounded_counterfactual_reasoning_for_medical_video_diagnosis.md)
-- [\[CVPR 2026\] OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](octomed_data_recipes_for_state-of-the-art_multimodal_medical_reasoning.md)
 - [\[CVPR 2026\] MedLoc-R1: Performance-Aware Curriculum Reward Scheduling for GRPO-Based Medical Visual Grounding](medloc-r1_performance-aware_curriculum_reward_scheduling_for_grpo-based_medical_.md)
+- [\[CVPR 2026\] OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](octomed_data_recipes_for_state-of-the-art_multimodal_medical_reasoning.md)
 - [\[CVPR 2026\] X-PCR: A Benchmark for Cross-modality Progressive Clinical Reasoning in Ophthalmic Diagnosis](x-pcr_a_benchmark_for_cross-modality_progressive_clinical_reasoning_in_ophthalmi.md)
 - [\[CVPR 2026\] EMAD: Evidence-Centric Grounded Multimodal Diagnosis for Alzheimer's Disease](emad_evidence-centric_grounded_multimodal_diagnosis_for_alzheimers_disease.md)
 

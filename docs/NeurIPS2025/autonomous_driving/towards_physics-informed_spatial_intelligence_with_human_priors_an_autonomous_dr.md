@@ -146,11 +146,11 @@ SIG 系统包含三层：(1) 表示层——将驾驶场景编码为 10×10 的�
 
 ## 相关论文
 
-- [\[CVPR 2026\] SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](../../CVPR2026/autonomous_driving/spacedrive_infusing_spatial_awareness_into_vlm-based_autonomous_driving.md)
+- [\[CVPR 2026\] Spatial Retrieval Augmented Autonomous Driving](../../CVPR2026/autonomous_driving/spatial_retrieval_augmented_autonomous_driving.md)
 - [\[NeurIPS 2025\] Predictive Preference Learning from Human Interventions](predictive_preference_learning_from_human_interventions.md)
+- [\[CVPR 2026\] SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](../../CVPR2026/autonomous_driving/spacedrive_infusing_spatial_awareness_into_vlm-based_autonomous_driving.md)
 - [\[CVPR 2026\] EventDrive: Event Cameras for Vision-Language Driving Intelligence](../../CVPR2026/autonomous_driving/eventdrive_event_cameras_for_vision-language_driving_intelligence.md)
-- [\[CVPR 2025\] DecoupledGaussian: Object-Scene Decoupling for Physics-Based Interaction](../../CVPR2025/autonomous_driving/decoupledgaussian_object-scene_decoupling_for_physics-based_interaction.md)
-- [\[NeurIPS 2025\] Towards Predicting Any Human Trajectory in Context](towards_predicting_any_human_trajectory_in_context.md)
+- [\[NeurIPS 2025\] SQS: Enhancing Sparse Perception Models via Query-based Splatting in Autonomous Driving](sqs_enhancing_sparse_perception_models_via_query-based_splatting_in_autonomous_d.md)
 
 </div>
 

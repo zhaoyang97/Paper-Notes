@@ -135,10 +135,10 @@ $$\mathcal{L} = \mathbb{E}_{t,\mathbf{x}_0,\mathbf{x}_1}\left[\|v_\theta(\mathbf
 ## 相关论文
 
 - [\[CVPR 2026\] FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing](../../CVPR2026/video_generation/ffp-300k_scaling_first-frame_propagation_for_generalizable_video_editing.md)
-- [\[CVPR 2026\] First Frame Is the Place to Go for Video Content Customization](../../CVPR2026/video_generation/first_frame_is_the_place_to_go_for_video_content_customization.md)
 - [\[ICML 2026\] Exploring Data-Free LoRA Transferability for Video Diffusion Models](../../ICML2026/video_generation/exploring_data-free_lora_transferability_for_video_diffusion_models.md)
-- [\[CVPR 2026\] CoT-Edit: Let CoT Guide Instruction Video Editing](../../CVPR2026/video_generation/cot-edit_let_cot_guide_instruction_video_editing.md)
+- [\[ICLR 2026\] Anchor Frame Bridging for Coherent First-Last Frame Video Generation](anchor_frame_bridging_for_coherent_first-last_frame_video_generation.md)
 - [\[ICLR 2026\] Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models](frame_guidance_training-free_guidance_for_frame-level_control_in_video_diffusion.md)
+- [\[CVPR 2026\] CoT-Edit: Let CoT Guide Instruction Video Editing](../../CVPR2026/video_generation/cot-edit_let_cot_guide_instruction_video_editing.md)
 
 </div>
 

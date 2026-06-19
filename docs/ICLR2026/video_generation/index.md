@@ -1,22 +1,37 @@
 ---
 title: >-
-  ICLR2026 视频生成论文汇总 · 19篇论文解读
+  ICLR2026 视频生成论文汇总 · 26篇论文解读
 description: >-
-  19篇ICLR2026的视频生成方向论文解读，涵盖视频生成、扩散模型、机器人、语音、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  26篇ICLR2026的视频生成方向论文解读，涵盖视频生成、扩散模型、动态场景、机器人、语音、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "视频生成"
   - "论文解读"
   - "论文笔记"
   - "扩散模型"
+  - "动态场景"
   - "机器人"
   - "语音"
   - "压缩/编码"
 item_list:
+  - u: "adaviewplanner_adapting_video_diffusion_models_for_viewpoint_planning_in_4d_scen/"
+    t: "AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes"
+  - u: "anchor_frame_bridging_for_coherent_first-last_frame_video_generation/"
+    t: "Anchor Frame Bridging for Coherent First-Last Frame Video Generation"
+  - u: "any-to-bokeh_arbitrary-subject_video_refocusing_with_video_diffusion_model/"
+    t: "Any-to-Bokeh: Arbitrary-Subject Video Refocusing with Video Diffusion Model"
   - u: "arbitrary_generative_video_interpolation/"
     t: "Arbitrary Generative Video Interpolation"
+  - u: "beyond_skeletons_learning_animation_directly_from_driving_videos_with_same2x_tra/"
+    t: "Beyond Skeletons: Learning Animation Directly from Driving Videos with Same2X Training Strategy"
   - u: "bindweave_subject-consistent_video_generation_via_cross-modal_integration/"
     t: "BindWeave: Subject-Consistent Video Generation via Cross-Modal Integration"
+  - u: "blade_block-sparse_attention_meets_step_distillation_for_efficient_video_generat/"
+    t: "BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation"
+  - u: "captain_cinema_towards_short_movie_generation/"
+    t: "Captain Cinema: Towards Short Movie Generation"
+  - u: "cinetrans_learning_to_generate_videos_with_cinematic_transitions_via_masked_diff/"
+    t: "CineTrans: Learning to Generate Videos with Cinematic Transitions via Masked Diffusion Models"
   - u: "drivinggen_a_comprehensive_benchmark_for_generative_video_world_models_in_autono/"
     t: "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving"
   - u: "dual-ipo_dual-iterative_preference_optimization_for_text-to-video_generation/"
@@ -51,25 +66,53 @@ item_list:
     t: "Target-Aware Video Diffusion Models"
   - u: "ttom_test-time_optimization_and_memorization_for_compositional_video_generation/"
     t: "TTOM: Test-Time Optimization and Memorization for Compositional Video Generation"
-item_total: 19
+item_total: 26
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频生成
 
-**🔬 ICLR2026** · **19** 篇论文解读
+**🔬 ICLR2026** · **26** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (180)](../../CVPR2026/video_generation/index.md) · [🧪 ICML2026 (28)](../../ICML2026/video_generation/index.md) · [💬 ACL2026 (4)](../../ACL2026/video_generation/index.md) · [🤖 AAAI2026 (11)](../../AAAI2026/video_generation/index.md) · [🧠 NeurIPS2025 (23)](../../NeurIPS2025/video_generation/index.md) · [📹 ICCV2025 (49)](../../ICCV2025/video_generation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (182)](../../CVPR2026/video_generation/index.md) · [🧪 ICML2026 (32)](../../ICML2026/video_generation/index.md) · [💬 ACL2026 (4)](../../ACL2026/video_generation/index.md) · [🤖 AAAI2026 (11)](../../AAAI2026/video_generation/index.md) · [🧠 NeurIPS2025 (23)](../../NeurIPS2025/video_generation/index.md) · [📹 ICCV2025 (49)](../../ICCV2025/video_generation/index.md)
 
-🔥 **高频主题：** 视频生成 ×11 · 扩散模型 ×6 · 机器人 ×2 · 语音 ×2 · 压缩/编码 ×2
+🔥 **高频主题：** 视频生成 ×13 · 扩散模型 ×9 · 动态场景 ×2 · 机器人 ×2 · 语音 ×2
+
+**[AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes](adaviewplanner_adapting_video_diffusion_models_for_viewpoint_planning_in_4d_scen.md)**
+
+:   把预训练文本到视频（T2V）扩散模型当成"虚拟摄影师"，通过两阶段范式——先让它根据 4D 人体动作生成隐含专业运镜的视频、再用一个相机外参扩散分支把视角显式抽出来——实现了在 4D 场景中自动规划相机轨迹，开放域泛化和文本可控性大幅超过专用模型。
+
+**[Anchor Frame Bridging for Coherent First-Last Frame Video Generation](anchor_frame_bridging_for_coherent_first-last_frame_video_generation.md)**
+
+:   针对首尾帧视频生成（FLF2V）中间帧语义衰减、画面崩坏的问题，本文提出训练无关的 Anchor Frame Bridging（AFB）：在视频时序断裂最严重的位置自适应插入一帧"锚帧"，把首尾帧的语义"接力"到中段，在 Wan2.1-I2V 上 FVD 提升 16.58%、PSNR 提升 10.21%。
+
+**[Any-to-Bokeh: Arbitrary-Subject Video Refocusing with Video Diffusion Model](any-to-bokeh_arbitrary-subject_video_refocusing_with_video_diffusion_model.md)**
+
+:   Any-to-Bokeh 把"视频重对焦/散景渲染"建模成一个由焦平面自适应 MPI 几何先验引导的**单步**视频扩散过程，让用户对任意输入视频自由指定焦平面和虚化强度，并通过三阶段渐进训练 + 加权重叠推理解决时序闪烁问题，在合成与真实数据上全面超越此前的图像/MPI 散景方法。
 
 **[Arbitrary Generative Video Interpolation](arbitrary_generative_video_interpolation.md)**
 
 :   ArbInterp 提出了一种支持任意时间戳、任意长度的生成式视频帧插值框架，通过时间戳感知旋转位置编码（TaRoPE）实现精准时间控制，并通过外观-运动解耦的条件注入策略实现长序列的无缝拼接。
 
+**[Beyond Skeletons: Learning Animation Directly from Driving Videos with Same2X Training Strategy](beyond_skeletons_learning_animation_directly_from_driving_videos_with_same2x_tra.md)**
+
+:   本文提出 DirectAnimator，抛弃骨架/姿态估计这一中间表示，直接用驱动视频的原始像素把参考人物"动起来"：先把原始视频抽成 Pose/Face/Location 三元"驱动线索（Driving Cue）"，再用 CueFusion DiT Block 把线索注入去噪过程，并配一套 Same2X 训练策略把跨身份（cross-ID）阶段的特征对齐到同身份（same-ID）模型，最终在 TikTok / Unseen 两套测试集上达到 SOTA，且收敛快 6.7×、算力更省。
+
 **[BindWeave: Subject-Consistent Video Generation via Cross-Modal Integration](bindweave_subject-consistent_video_generation_via_cross-modal_integration.md)**
 
 :   BindWeave 用多模态大语言模型（MLLM）替代传统的浅层融合机制来解析多主体复杂文本指令，生成主体感知的隐状态作为 DiT 的条件信号，结合 CLIP 语义特征和 VAE 细粒度外观特征，实现高保真、主体一致的视频生成。
+
+**[BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation](blade_block-sparse_attention_meets_step_distillation_for_efficient_video_generat.md)**
+
+:   BLADE 把"动态块稀疏注意力"和"少步蒸馏"放进同一个 data-free 联合训练框架里协同优化，在 Wan2.1-1.3B 上做到 14.10× 端到端加速、CogVideoX-5B 上 8.89×，且 VBench-2.0 质量反而比 50 步原始模型还高。
+
+**[Captain Cinema: Towards Short Movie Generation](captain_cinema_towards_short_movie_generation.md)**
+
+:   Captain Cinema 把"生成一部短电影"拆成"自上而下先画一整套关键帧分镜、自下而上再把关键帧之间补成视频"两步，并用黄金比例记忆压缩（GoldenMem）把上千秒、几十个镜头的历史画面压进固定的 token 预算里，从而在长达数十个交错镜头上仍保持人物与场景一致。
+
+**[CineTrans: Learning to Generate Videos with Cinematic Transitions via Masked Diffusion Models](cinetrans_learning_to_generate_videos_with_cinematic_transitions_via_masked_diff.md)**
+
+:   CineTrans 发现视频扩散模型的注意力图天然呈"镜头内强相关、镜头间弱相关"的块对角结构，于是用一个由镜头时间戳直接构造的块对角掩码去操控注意力，再配合自建的 Cine250K 多镜头数据集微调，让模型能在任意指定位置生成符合电影剪辑风格的多镜头转场，且换上掩码后免训练也能用。
 
 **[DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving](drivinggen_a_comprehensive_benchmark_for_generative_video_world_models_in_autono.md)**
 

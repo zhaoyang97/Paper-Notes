@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2501.11866](https://arxiv.org/abs/2501.11866)  
 **代码**: 待确认  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: semi-supervised evaluation, model evaluation, mixture model, unlabeled data, classifier performance
 
 ## 一句话总结

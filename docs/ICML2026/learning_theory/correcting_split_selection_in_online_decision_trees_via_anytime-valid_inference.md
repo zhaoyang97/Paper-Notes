@@ -140,11 +140,11 @@ warm-up（RandomTree，10 数值 + 10 类别特征，深度 4）+ 时间开销�
 
 ## 相关论文
 
+- [\[ICML 2026\] When Sample Selection Bias Precipitates Model Collapse](when_sample_selection_bias_precipitates_model_collapse.md)
+- [\[ICML 2026\] Active Learning with Low-Rank Structure for Data Selection](active_learning_with_low-rank_structure_for_data_selection.md)
 - [\[AAAI 2026\] Generalizing Analogical Inference from Boolean to Continuous Domains](../../AAAI2026/learning_theory/generalizing_analogical_inference_from_boolean_to_continuous_domains.md)
-- [\[ICML 2026\] Parsimonious Learning-Augmented Online Metric Matching](parsimonious_learning-augmented_online_metric_matching.md)
-- [\[AAAI 2026\] A Switching Framework for Online Interval Scheduling with Predictions](../../AAAI2026/learning_theory/a_switching_framework_for_online_interval_scheduling_with_pr.md)
-- [\[NeurIPS 2025\] Computable Universal Online Learning](../../NeurIPS2025/learning_theory/computable_universal_online_learning.md)
-- [\[AAAI 2026\] Streaming Generated Gaussian Process Experts for Online Learning and Control: Extended Version](../../AAAI2026/learning_theory/streaming_generated_gaussian_process_experts_for_online_learning_and_control_ext.md)
+- [\[ICLR 2026\] An Improved Model-free Decision-estimation Coefficient with Applications in Adversarial MDPs](../../ICLR2026/learning_theory/an_improved_model-free_decision-estimation_coefficient_with_applications_in_adve.md)
+- [\[ICLR 2026\] Branch and Bound Search for Exact MAP Inference in Credal Networks](../../ICLR2026/learning_theory/branch_and_bound_search_for_exact_map_inference_in_credal_networks.md)
 
 </div>
 

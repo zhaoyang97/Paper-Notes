@@ -123,6 +123,7 @@ DLO 操作有两个对纯 RL 致命的难点：抓错点会让任务变成 kinem
 CMA-ES 在 6/8 任务上拿到最佳，FO-MBRL（SHAC/SAPO）在拓扑性强的 Unknotting 上把 PPO/SAC 从 3 直接拉到 46（接近 CMA-ES 的 57），证明可微梯度在接触密集任务上的决定性作用；GD 在 reward 平滑的 Coiling/Separation 上接近 CMA-ES，但在 Unknotting/Wiring-post 上掉进局部最优。
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|----------|------|
 | MFRL (PPO/SAC) vs 轨迹优化 | 轨迹优化样本效率显著更高 | RL 学闭环 policy 多了一层"探索 + 网络拟合"开销，DLO 这种稀疏奖励 + 高维顶点状态最吃亏 |
@@ -175,7 +176,7 @@ CMA-ES 在 6/8 任务上拿到最佳，FO-MBRL（SHAC/SAPO）在拓扑性强的 
 - [\[AAAI 2026\] Distributionally Robust Online Markov Game with Linear Function Approximation](../../AAAI2026/robotics/distributionally_robust_online_markov_game_with_linear_function_approximation.md)
 - [\[ICML 2026\] Plan in Sandbox, Navigate in Open Worlds: Learning Physics-Grounded Abstracted Experience for Embodied Navigation](plan_in_sandbox_navigate_in_open_worlds_learning_physics-grounded_abstracted_exp.md)
 - [\[ACL 2025\] Vulnerability of LLMs to Vertically Aligned Text Manipulations](../../ACL2025/robotics/vulnerability_of_llms_to_vertically_aligned_text_manipulations.md)
-- [\[CVPR 2026\] AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions](../../CVPR2026/robotics/agentsafe_benchmarking_the_safety_of_embodied_agents_on_hazardous_instructions.md)
+- [\[CVPR 2025\] Coordinated Manipulation of Hybrid Deformable-Rigid Objects in Constrained Environments](../../CVPR2025/robotics/coordinated_manipulation_hybrid_deformable_rigid_objects.md)
 
 </div>
 

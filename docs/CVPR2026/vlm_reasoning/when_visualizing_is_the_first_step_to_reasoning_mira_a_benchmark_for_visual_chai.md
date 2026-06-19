@@ -2,10 +2,10 @@
 title: >-
   [论文解读] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought
 description: >-
-  [CVPR 2026][多模态VLM][视觉思维链] MIRA 是一个专为「必须先画出中间图才能推理」的题目设计的多模态基准：546 道横跨几何、物理、抽象谜题、因果变换四大领域的题目都配了人工标注的中间视觉线索，再用「直接输入 / 文字思维链 / 视觉思维链」三级诊断协议把视觉信息的贡献单独剥离出来——结果是连 GPT-5、Gemini 2.5 Pro、o3 在直接输入下都不到 20% 准确率，而喂入人工中间图后平均相对提升 33.7%，证明「画图来想」是当前 MLLM 缺的一项核心能力。
+  [CVPR 2026][VLM Reasoning][视觉思维链] MIRA 是一个专为「必须先画出中间图才能推理」的题目设计的多模态基准：546 道横跨几何、物理、抽象谜题、因果变换四大领域的题目都配了人工标注的中间视觉线索，再用「直接输入 / 文字思维链 / 视觉思维链」三级诊断协议把视觉信息的贡献单独剥离出来——结果是连 GPT-5、Gemini 2.5 Pro、o3 在直接输入下都不到 20% 准确率，而喂入人工中间图后平均相对提升 33.7%，证明「画图来想」是当前 MLLM 缺的一项核心能力。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉思维链"
   - "多模态推理"
   - "Benchmark"
@@ -147,10 +147,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] Chain-of-Thought Guided Multi-Modal Object Re-Identification](chain-of-thought_guided_multi-modal_object_re-identification.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
 - [\[CVPR 2026\] EmoThinker: Advancing Visual-Acoustic Emotion Analysis via Structural Token Selection and Chain-of-Thought Reasoning](emothinker_advancing_visual-acoustic_emotion_analysis_via_structural_token_selec.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
 - [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
-- [\[CVPR 2026\] Fuel Gauge: Estimating Chain-of-Thought Length Ahead of Time in Large Multimodal Models](fuel_gauge_estimating_chain-of-thought_length_ahead_of_time_in_large_multimodal_.md)
-- [\[CVPR 2026\] ReaGEN: Adaptive Generation of Structured Chains-of-Thought for Efficient Multimodal Reasoning](reagen_adaptive_generation_of_structured_chains-of-thought_for_efficient_multimo.md)
 
 </div>
 

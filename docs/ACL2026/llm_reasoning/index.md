@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 LLMReasoning论文汇总 · 81篇论文解读
+  ACL2026 LLMReasoning论文汇总 · 82篇论文解读
 description: >-
-  81篇ACL2026的 LLM Reasoning 方向论文解读，涵盖推理、LLM、强化学习、对齐/RLHF、对抗鲁棒、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  82篇ACL2026的 LLM Reasoning 方向论文解读，涵盖推理、LLM、强化学习、对齐/RLHF、对抗鲁棒、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2026"
   - "LLM Reasoning"
@@ -75,15 +75,15 @@ item_list:
     t: "Foresight Optimization for Strategic Reasoning in Large Language Models"
   - u: "fs-researcher_test-time_scaling_for_long-horizon_research_tasks_with_file-system/"
     t: "FS-Researcher: Test-Time Scaling for Long-Horizon Research Tasks with File-System-Based Agents"
-item_total: 81
+item_total: 82
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM Reasoning
 
-**💬 ACL2026** · **81** 篇论文解读
+**💬 ACL2026** · **82** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (20)](../../CVPR2026/llm_reasoning/index.md) · [🧪 ICML2026 (63)](../../ICML2026/llm_reasoning/index.md) · [🔬 ICLR2026 (82)](../../ICLR2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (16)](../../CVPR2026/llm_reasoning/index.md) · [🧪 ICML2026 (78)](../../ICML2026/llm_reasoning/index.md) · [🔬 ICLR2026 (97)](../../ICLR2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
 
 🔥 **高频主题：** 推理 ×57 · LLM ×20 · 强化学习 ×6 · 对齐/RLHF ×4 · 对抗鲁棒 ×3
 
@@ -270,6 +270,10 @@ item_total: 81
 **[MTR-Bench: A Comprehensive Benchmark for Multi-Turn Reasoning Evaluation](mtr-bench_a_comprehensive_benchmark_for_multi-turn_reasoning_evaluation.md)**
 
 :   MTR-Bench 构建了一个包含 4 类、40 个任务、3600 个实例的自动化多轮推理评测框架，显示当前前沿推理模型在交互式、动态反馈环境中仍远未可靠。
+
+**[N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization](n-grpo_embedding-level_neighbor_mixing_for_enhanced_policy_optimization.md)**
+
+:   N-GRPO 在 GRPO 的 rollout 阶段把「采样 token 再查嵌入」换成「锚点 token + 其语义近邻的嵌入加权混合」，用受控的嵌入级扰动注入探索多样性而不偏离语义流形，在 DeepSeek-R1-Distill-Qwen 等多个底座的数学推理 Pass@16/Pass@32 上稳定超过 GRPO 与高斯噪声基线。
 
 **[On the Step Length Confounding in LLM Reasoning Data Selection](on_the_step_length_confounding_in_llm_reasoning_data_selection.md)**
 

@@ -1,19 +1,18 @@
 ---
 title: >-
-  CVPR2026 LLMReasoning论文汇总 · 20篇论文解读
+  CVPR2026 LLMReasoning论文汇总 · 16篇论文解读
 description: >-
-  20篇CVPR2026的 LLM Reasoning 方向论文解读，涵盖推理、多模态、自动驾驶、强化学习、问答、医学影像等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  16篇CVPR2026的 LLM Reasoning 方向论文解读，涵盖推理、自动驾驶、强化学习、压缩/编码、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "LLM Reasoning"
   - "论文解读"
   - "论文笔记"
   - "推理"
-  - "多模态"
   - "自动驾驶"
   - "强化学习"
-  - "问答"
-  - "医学影像"
+  - "压缩/编码"
+  - "多模态"
 item_list:
   - u: "agile_deliberation_concept_deliberation_for_subjective_visual_classification/"
     t: "Agile Deliberation: Concept Deliberation for Subjective Visual Classification"
@@ -31,41 +30,33 @@ item_list:
     t: "Hilbert-Geo: Solving Solid Geometric Problems by Neural-Symbolic Reasoning"
   - u: "human-like_abstract_visual_reasoning_via_understanding_and_solving_reasoning_loo/"
     t: "Human-like Abstract Visual Reasoning via Understanding and Solving Reasoning Loop"
-  - u: "improving_vision-language_models_with_perception-centric_process_reward_models/"
-    t: "Improving Vision-language Models with Perception-centric Process Reward Models"
   - u: "latent_chain-of-thought_world_modeling_for_end-to-end_autonomous_driving/"
     t: "Latent Chain-of-Thought World Modeling for End-to-End Autonomous Driving"
   - u: "rationale-enhanced_decoding_for_multi-modal_chain-of-thought/"
     t: "Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought"
   - u: "reasoning_palette_modulating_reasoning_via_latent_contextualization_for_controll/"
     t: "Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs"
-  - u: "reinforcing_structured_chain-of-thought_for_video_understanding/"
-    t: "Reinforcing Structured Chain-of-Thought for Video Understanding"
   - u: "relax_reasoning_with_latent_exploration_for_large_reasoning_models/"
     t: "ReLaX: Reasoning with Latent Exploration for Large Reasoning Models"
   - u: "revisiting_the_necessity_of_lengthy_chain-of-thought_in_vision-centric_reasoning/"
     t: "Revisiting the Necessity of Lengthy Chain-of-Thought in Vision-centric Reasoning Generalization"
   - u: "scaling_agentic_reinforcement_learning_for_tool-integrated_reasoning_in_vlms/"
     t: "Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs"
-  - u: "step-cot_stepwise_visual_chain-of-thought_for_medical_visual_question_answering/"
-    t: "Step-CoT: Stepwise Visual Chain-of-Thought for Medical Visual Question Answering"
   - u: "think-as-you-see_streaming_chain-of-thought_reasoning_for_large_vision-language_/"
     t: "Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models"
-  - u: "think_360deg_beyond_depth_evaluating_the_width-centric_reasoning_capability_of_m/"
-    t: "Think 360°: Beyond Depth — Evaluating the Width-centric Reasoning Capability of MLLMs"
   - u: "visref_visual_refocusing_test_time_scaling/"
     t: "VisRef: Visual Refocusing while Thinking Improves Test-Time Scaling in Multi-Modal Large Reasoning Models"
-item_total: 20
+item_total: 16
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM Reasoning
 
-**📷 CVPR2026** · **20** 篇论文解读
+**📷 CVPR2026** · **16** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (63)](../../ICML2026/llm_reasoning/index.md) · [💬 ACL2026 (81)](../../ACL2026/llm_reasoning/index.md) · [🔬 ICLR2026 (82)](../../ICLR2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (78)](../../ICML2026/llm_reasoning/index.md) · [💬 ACL2026 (82)](../../ACL2026/llm_reasoning/index.md) · [🔬 ICLR2026 (97)](../../ICLR2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×17 · 多模态 ×2
+🔥 **高频主题：** 推理 ×14
 
 **[Agile Deliberation: Concept Deliberation for Subjective Visual Classification](agile_deliberation_concept_deliberation_for_subjective_visual_classification.md)**
 
@@ -99,10 +90,6 @@ item_total: 20
 
 :   把人类"理解—求解—再理解"的迭代认知拆成可循环交互的理解模块（UM）与求解模块（SM），辅以表征同构约束和自适应停止机制，让一个仅 7M 参数的小模型在 ARC-AGI-1 上达到 47.2% 准确率，超过 TRM 与一众通用大模型。
 
-**[Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)**
-
-:   针对 VLM 强化学习里"只有结果奖励、定位不到错在哪一步"的痛点，本文训练了一个感知中心的过程奖励模型 Perceval，逐条核查推理链里的图文一致性、标出幻觉 token，再把这个信号同时用于训练（token 级优势重分配改造 GRPO）和推理（截断-重生成），在多个视觉推理基准上稳定涨点，并意外地把"感知更准"泛化成了"整体推理更强"。
-
 **[Latent Chain-of-Thought World Modeling for End-to-End Autonomous Driving](latent_chain-of-thought_world_modeling_for_end-to-end_autonomous_driving.md)**
 
 :   LCDrive 提出潜在链式思考（Latent CoT）框架，用动作提议token和世界模型预测token替代自然语言CoT进行推理，通过冷启动+RL后训练实现更低延迟、更好轨迹质量的端到端自动驾驶。
@@ -114,10 +101,6 @@ item_total: 20
 **[Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs](reasoning_palette_modulating_reasoning_via_latent_contextualization_for_controll.md)**
 
 :   这篇论文用一个 VAE 学到的隐空间给 (V)LM 注入一个"推理调色板"——每采一个隐变量就解码成一段可学习前缀贴到 prompt 前面，让模型在生成第一个 token 之前就选定某种推理风格，从而把 RL 里的"token 级随机采样"升级成"策略级结构化探索"，在多个数学推理 benchmark 上稳定超过标准 GRPO/RLOO。
-
-**[Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)**
-
-:   提出 SDRL（Summary-Driven Reinforcement Learning），一种无需 SFT 的单阶段 RL 框架，通过结构化 CoT（Summarize→Think→Answer）和两个自监督机制（CVK 和 DVR）增强视频时序推理，在 7 个 VideoQA 基准上达到 SOTA。
 
 **[ReLaX: Reasoning with Latent Exploration for Large Reasoning Models](relax_reasoning_with_latent_exploration_for_large_reasoning_models.md)**
 
@@ -131,17 +114,9 @@ item_total: 20
 
 :   本文提出可规模化的视觉工具智能体训练环境 VISTA-Gym（7 类任务、13 个数据集、26 个标准化视觉工具），并在其中用「模仿学习预热 + 多轮 GRPO 在线 RL」训练出 VISTA-R1，让 8B 级 VLM 学会在推理过程中动态选择/调用/协同视觉工具，在 11 个推理密集型 VQA 基准上比同体量 SOTA 高出 9.51%–18.72%。
 
-**[Step-CoT: Stepwise Visual Chain-of-Thought for Medical Visual Question Answering](step-cot_stepwise_visual_chain-of-thought_for_medical_visual_question_answering.md)**
-
-:   构建首个对齐临床诊断工作流的结构化多步CoT医学推理数据集Step-CoT（10K+病例/70K QA对），并提出基于图注意力网络的教师-学生框架实现逐步推理监督，提升Med-VQA的准确性和可解释性。
-
 **[Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models](think-as-you-see_streaming_chain-of-thought_reasoning_for_large_vision-language_.md)**
 
 :   TaYS 把大视觉语言模型（LVLM）的视频推理从「看完整段再想」的批处理范式，改造成「边看边想」的流式范式——通过流式注意力掩码、解耦位置编码和并行双 KV 缓存三件套，让推理与视频帧同步增量推进，在 VideoEspresso 上把首 token 延迟从 10.6s 压到近乎为零、推理-事件偏差降低 55%，同时推理准确率提升 2.9%。
-
-**[Think 360°: Beyond Depth — Evaluating the Width-centric Reasoning Capability of MLLMs](think_360deg_beyond_depth_evaluating_the_width-centric_reasoning_capability_of_m.md)**
-
-:   作者提出 Think360°，一个把"推理宽度"（广度搜索、多约束剪枝、回溯）作为与"推理深度"（长链顺序推理）正交维度的多模态基准——精选 1200+ 道跨域高质量题目，并设计一套 Tree-of-Thought 评测协议同时量化宽度与深度准确率，对 12 大系列 30+ MLLM 的测评显示：当前模型能做长链深推、却普遍不擅长"宽搜索 + 深链"结合的洞察式推理。
 
 **[VisRef: Visual Refocusing while Thinking Improves Test-Time Scaling in Multi-Modal Large Reasoning Models](visref_visual_refocusing_test_time_scaling.md)**
 

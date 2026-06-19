@@ -82,7 +82,7 @@ item_total: 30
 
 **💬 ACL2025** · **30** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (2)](../../ICML2026/nlp_understanding/index.md) · [💬 ACL2026 (33)](../../ACL2026/nlp_understanding/index.md) · [🔬 ICLR2026 (1)](../../ICLR2026/nlp_understanding/index.md) · [🤖 AAAI2026 (1)](../../AAAI2026/nlp_understanding/index.md) · [🧠 NeurIPS2025 (3)](../../NeurIPS2025/nlp_understanding/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/nlp_understanding/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (2)](../../ICML2026/nlp_understanding/index.md) · [💬 ACL2026 (34)](../../ACL2026/nlp_understanding/index.md) · [🔬 ICLR2026 (1)](../../ICLR2026/nlp_understanding/index.md) · [🤖 AAAI2026 (1)](../../AAAI2026/nlp_understanding/index.md) · [🧠 NeurIPS2025 (3)](../../NeurIPS2025/nlp_understanding/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/nlp_understanding/index.md)
 
 🔥 **高频主题：** 问答 ×16 · 推理 ×5 · LLM ×5 · 信息抽取 ×4 · 情感分析 ×4
 

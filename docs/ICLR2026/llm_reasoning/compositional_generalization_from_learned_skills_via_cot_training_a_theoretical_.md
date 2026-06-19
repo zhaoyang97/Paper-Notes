@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Compositional Generalization from Learned Skills via CoT Training: A Theoretical and Structural Analysis for Reasoning
 description: >-
-  [ICLR 2026][LLM推理][组合泛化] 本文通过信息论泛化界和可解释性分析证明，CoT 训练的核心机制是组合泛化：——模型学会系统性地组合已学的简单技能来解决新颖复杂问题，并内化为两阶段组合推理电路，使中间结果在更浅层提取，释放深层专注于后续推理步骤。 领域现状：CoT 训练（如 DeepSeek-R1 的长 Co…
+  [ICLR 2026][Reasoning][组合泛化] 本文通过信息论泛化界和可解释性分析证明，CoT 训练的核心机制是组合泛化：——模型学会系统性地组合已学的简单技能来解决新颖复杂问题，并内化为两阶段组合推理电路，使中间结果在更浅层提取，释放深层专注于后续推理步骤。 领域现状：CoT 训练（如 DeepSeek-R1 的…
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "组合泛化"
   - "思维链训练"
   - "信息论泛化界"
@@ -128,9 +128,9 @@ ID 那一项不难压：测试和训练共享同样的组合模式，$D_{KL}\to 
 
 - [\[ICLR 2026\] TumorChain: Interleaved Multimodal Chain-of-Thought Reasoning for Traceable Clinical Tumor Analysis](tumorchain_interleaved_multimodal_chain-of-thought_reasoning_for_traceable_clini.md)
 - [\[ICLR 2026\] Training Large Reasoning Models Efficiently via Progressive Thought Encoding](training_large_reasoning_models_efficiently_via_progressive_thought_encoding.md)
-- [\[ICML 2026\] On the Generalization Gap in Self-Evolving Language Model Reasoning](../../ICML2026/llm_reasoning/on_the_generalization_gap_in_self-evolving_language_model_reasoning.md)
 - [\[ICLR 2026\] CoT-RVS: Zero-Shot Chain-of-Thought Reasoning Segmentation for Videos](cot-rvs_zero-shot_chain-of-thought_reasoning_segmentation_for_videos.md)
-- [\[ACL 2026\] Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication](../../ACL2026/llm_reasoning/accurate_legal_reasoning_at_scale_neuro-symbolic_offloading_and_structural_audit.md)
+- [\[ICLR 2026\] Native Reasoning Models: Training Language Models to Reason on Unverifiable Data](native_reasoning_models_training_language_models_to_reason_on_unverifiable_data.md)
+- [\[CVPR 2026\] Revisiting the Necessity of Lengthy Chain-of-Thought in Vision-centric Reasoning Generalization](../../CVPR2026/llm_reasoning/revisiting_the_necessity_of_lengthy_chain-of-thought_in_vision-centric_reasoning.md)
 
 </div>
 

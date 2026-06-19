@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2505.10671](https://arxiv.org/abs/2505.10671)  
 **代码**: [https://woven-visionai.github.io/ga3ce-project](https://woven-visionai.github.io/ga3ce-project) (项目页)  
-**领域**: 人体理解
+**领域**: 人体理解  
 **关键词**: 3D注视估计, 自我中心变换, 位置编码, 场景理解, Transformer
 
 ## 一句话总结

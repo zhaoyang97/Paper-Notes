@@ -74,7 +74,7 @@ item_total: 26
 
 **📹 ICCV2025** · **26** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (149)](../../CVPR2026/robotics/index.md) · [🧪 ICML2026 (42)](../../ICML2026/robotics/index.md) · [💬 ACL2026 (10)](../../ACL2026/robotics/index.md) · [🔬 ICLR2026 (46)](../../ICLR2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (146)](../../CVPR2026/robotics/index.md) · [🧪 ICML2026 (53)](../../ICML2026/robotics/index.md) · [💬 ACL2026 (11)](../../ACL2026/robotics/index.md) · [🔬 ICLR2026 (56)](../../ICLR2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md)
 
 🔥 **高频主题：** 机器人 ×8 · 多模态 ×3 · 导航 ×3 · 对齐/RLHF ×2 · 自监督学习 ×2
 

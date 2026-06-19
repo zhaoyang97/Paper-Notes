@@ -194,7 +194,7 @@ GSDTTA的独特优势：(1) 同时适应输入和模型；(2) 不需要任何源
 - [\[ECCV 2024\] CloudFixer: Test-Time Adaptation for 3D Point Clouds via Diffusion-Guided Geometric Transformation](../../ECCV2024/3d_vision/cloudfixer_test-time_adaptation_for_3d_point_clouds_via_diffusion-guided_geometr.md)
 - [\[ICCV 2025\] FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images](fross_faster-than-real-time_online_3d_semantic_scene_graph_generation_from_rgb-d.md)
 - [\[ECCV 2024\] Reliable Spatial-Temporal Voxels For Multi-Modal Test-Time Adaptation](../../ECCV2024/3d_vision/reliable_spatial-temporal_voxels_for_multi-modal_test-time_adaptation.md)
-- [\[CVPR 2026\] Low-Rank Test-Time Training for Pre-Trained Point Cloud Models](../../CVPR2026/3d_vision/low-rank_test-time_training_for_pre-trained_point_cloud_models.md)
+- [\[CVPR 2026\] Anatomical Domain Shifts: Test-time Heterogeneous Adaptation for 3D Human Pose Prediction](../../CVPR2026/3d_vision/anatomical_domain_shifts_test-time_heterogeneous_adaptation_for_3d_human_pose_pr.md)
 
 </div>
 

@@ -99,6 +99,7 @@ flowchart TD
 GOD 在细粒度、复杂 benchmark 上优势最明显:Stanford Cars(5 任务)比次优高 +5.64%;CIFAR-100 这类简单集上因 PTM 本身泛化强,提升较小(92.87% $\bar A$,优势微弱)。Fig. 4 还显示随任务数增加,GOD 与强基线的差距持续拉大,说明它在长序列上更鲁棒。
 
 ### 计算与显存对比
+
 | 指标 | EASE | LORA-DRS | SD-LoRA | GOD(Coarse) | GOD(Refined) |
 |------|------|------|------|------|------|
 | 可训练参数 (M) | 4.73 | 4.73 | 4.91 | **2.64** | **2.64** |
@@ -154,10 +155,10 @@ Top-k 敏感性(Table 3):$k$ 从 2 到 5 时 $\bar A$ 变化很小,$k=3\sim5$ �
 ## 相关论文
 
 - [\[CVPR 2026\] DGS: Dual Gradient and Semantic-Shift Guided Low-Rank Adaptation for Class Incremental Learning](dgs_dual_gradient_and_semantic-shift_guided_low-rank_adaptation_for_class_increm.md)
+- [\[CVPR 2026\] Representation-Steered Incremental Adapter-Tuning for Class-Incremental Learning with Pre-Trained Models](representation-steered_incremental_adapter-tuning_for_class-incremental_learning.md)
 - [\[CVPR 2026\] Exemplar-Free Class Incremental Learning via Preserving Class-Discriminative Structure](exemplar-free_class_incremental_learning_via_preserving_class-discriminative_str.md)
 - [\[CVPR 2025\] Order-Robust Class Incremental Learning: Graph-Driven Dynamic Similarity Grouping](../../CVPR2025/self_supervised/order-robust_class_incremental_learning_graph-driven_dynamic_similarity_grouping.md)
 - [\[CVPR 2026\] An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning](an_optimal_transport_driven_approach_for_cultivating_latent_space_in_online_incr.md)
-- [\[CVPR 2026\] Beyond Myopic Alignment: Lookahead Optimization for Online Class-Incremental Learning](beyond_myopic_alignment_lookahead_optimization_for_online_class-incremental_lear.md)
 
 </div>
 

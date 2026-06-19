@@ -18,9 +18,9 @@ tags:
 # Strategy-Induct: Task-Level Strategy Induction for Instruction Generation
 
 **会议**: ACL2026 Findings  
-**arXiv**: [2605.20924](https://arxiv.org/abs/2605.20924)
-**代码**: 待确认
-**领域**: LLM推理
+**arXiv**: [2605.20924](https://arxiv.org/abs/2605.20924)  
+**代码**: 待确认  
+**领域**: LLM推理  
 **关键词**: 指令归纳, 推理策略, prompt 工程, question-only, 任务级指令, 跨模型泛化
 
 ## 一句话总结
@@ -138,9 +138,9 @@ N=3 为最优平衡点——N=1 多样性不足，N=5 对小模型可能超出�
 ## 相关论文
 
 - [\[ECCV 2024\] Controllable Navigation Instruction Generation with Chain of Thought Prompting](../../ECCV2024/llm_reasoning/controllable_navigation_instruction_generation_with_chain_of_thought_prompting.md)
-- [\[ACL 2026\] Stabilizing Efficient Reasoning with Step-Level Advantage Selection](stabilizing_efficient_reasoning_with_step-level_advantage_selection.md)
 - [\[ACL 2026\] ChAIRO: Contextual Hierarchical Analogical Induction and Reasoning Optimization for LLMs](chairo_contextual_hierarchical_analogical_induction_and_reasoning_optimization_f.md)
 - [\[ACL 2026\] Learning to Edit Knowledge via Instruction-based Chain-of-Thought Prompting](learning_to_edit_knowledge_via_instruction-based_chain-of-thought_prompting.md)
+- [\[ACL 2026\] Stabilizing Efficient Reasoning with Step-Level Advantage Selection](stabilizing_efficient_reasoning_with_step-level_advantage_selection.md)
 - [\[ACL 2026\] SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks](sppo_sequence-level_ppo_for_long-horizon_reasoning_tasks.md)
 
 </div>

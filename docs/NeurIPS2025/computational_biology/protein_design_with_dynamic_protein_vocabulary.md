@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 Spotlight  
 **arXiv**: [2505.18966](https://arxiv.org/abs/2505.18966)  
 **代码**: [GitHub](https://github.com/sornkL/ProDVa)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 蛋白质设计, 动态词汇表, 片段检索, 可折叠性, 功能对齐
 
 ## 一句话总结

@@ -57,7 +57,7 @@ item_total: 17
 
 **🧪 ICML2026** · **17** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (179)](../../CVPR2026/video_understanding/index.md) · [🔬 ICLR2026 (10)](../../ICLR2026/video_understanding/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/video_understanding/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/video_understanding/index.md) · [📹 ICCV2025 (56)](../../ICCV2025/video_understanding/index.md) · [🧪 ICML2025 (4)](../../ICML2025/video_understanding/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (187)](../../CVPR2026/video_understanding/index.md) · [🔬 ICLR2026 (14)](../../ICLR2026/video_understanding/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/video_understanding/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/video_understanding/index.md) · [📹 ICCV2025 (56)](../../ICCV2025/video_understanding/index.md) · [🧪 ICML2025 (4)](../../ICML2025/video_understanding/index.md)
 
 🔥 **高频主题：** 目标跟踪 ×4 · 推理 ×2
 

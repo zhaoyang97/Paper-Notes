@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.10877](https://arxiv.org/abs/2506.10877)  
 **代码**: [GitHub](https://github.com/simon-p-j-r/MedReF)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: medical dialogue system, knowledge refining, dynamic prompt, entity prediction, knowledge graph
 
 ## 一句话总结

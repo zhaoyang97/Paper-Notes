@@ -90,6 +90,7 @@ CORVID 与动物重识别基础模型 MegaDescriptor（预训练 / 在 CHIRP 微
 关键发现：在「领域内 / 领域内+邻居」约束下 CORVID 明显领先（闭集 Within Territory Top-1 0.66 vs 0.28），说明显式利用脚环颜色优于深度度量学习；但当 gallery 放开到全部个体（All）时 CORVID 反而落后（0.05 vs 0.10）——它强依赖「领域内候选名单」这一生物学约束。
 
 ### 其他任务基线（Table 2/3）
+
 | 任务 | 最佳模型 | 关键指标 |
 |------|---------|---------|
 | 动作识别 | C3D | Accuracy 0.72，F1 0.684（优于 SlowFast/X3D 的 0.548） |
@@ -142,11 +143,11 @@ CORVID 与动物重识别基础模型 MegaDescriptor（预训练 / 在 CHIRP 微
 
 ## 相关论文
 
+- [\[CVPR 2026\] Learning Long-term Motion Embeddings for Efficient Kinematics Generation](learning_long-term_motion_embeddings_for_efficient_kinematics_generation.md)
 - [\[AAAI 2026\] Predict and Resist: Long-Term Accident Anticipation under Sensor Noise](../../AAAI2026/others/predict_and_resist_long-term_accident_anticipation_under_sensor_noise.md)
 - [\[CVPR 2025\] Effortless Active Labeling for Long-Term Test-Time Adaptation](../../CVPR2025/others/effortless_active_labeling_for_long-term_test-time_adaptation.md)
-- [\[CVPR 2026\] Towards Stable Federated Continual Test-Time Adaptation in Wild World](towards_stable_federated_continual_test-time_adaptation_in_wild_world.md)
 - [\[ACL 2025\] USDC: A Dataset of User Stance and Dogmatism in Long Conversations](../../ACL2025/others/usdc_a_dataset_of_underlineuser_underlinestance_and_underlinedogmatism_in_long_u.md)
-- [\[ACL 2025\] In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents](../../ACL2025/others/in_prospect_and_retrospect_reflective_memory_management_for_long-term_personaliz.md)
+- [\[CVPR 2026\] Confusion-Aware Spectral Regularizer for Long-Tailed Recognition](confusion-aware_spectral_regularizer_for_long-tailed_recognition.md)
 
 </div>
 

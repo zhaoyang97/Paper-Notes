@@ -94,9 +94,9 @@ RoadSocial的构建流程：(1) 数据收集——从社交媒体平台按关键
 ## 相关论文
 
 - [\[ICCV 2025\] StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition](../../ICCV2025/llm_evaluation/streammind_unlocking_full_frame_rate_streaming_video_dialogue_through_event-gate.md)
-- [\[ACL 2025\] CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming](../../ACL2025/llm_evaluation/culturalbench_a_robust_diverse_and_challenging_cultural_benchmark_by_human-ai_cu.md)
 - [\[ACL 2025\] skLEP: A Slovak General Language Understanding Benchmark](../../ACL2025/llm_evaluation/sklep_a_slovak_general_language_understanding_benchmark.md)
 - [\[ACL 2025\] BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian](../../ACL2025/llm_evaluation/belarusian_glue.md)
+- [\[ACL 2025\] CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming](../../ACL2025/llm_evaluation/culturalbench_a_robust_diverse_and_challenging_cultural_benchmark_by_human-ai_cu.md)
 - [\[ACL 2025\] NorEval: A Norwegian Language Understanding and Generation Evaluation Benchmark](../../ACL2025/llm_evaluation/noreval_a_norwegian_language_understanding_and_generation_evaluation_benchmark.md)
 
 </div>

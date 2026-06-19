@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026 Oral  
 **arXiv**: [2511.08029](https://arxiv.org/abs/2511.08029)  
 **代码**: [bisect-group/BiCA](https://github.com/bisect-group/BiCA)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: dense retrieval, hard negative mining, citation graph, biomedical IR, PubMed
 
 ## 一句话总结

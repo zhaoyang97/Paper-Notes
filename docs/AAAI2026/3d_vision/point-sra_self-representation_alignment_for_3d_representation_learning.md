@@ -183,11 +183,11 @@ $$\mathcal{L}_{total} = \mathcal{L}_{recon} + 0.5 \cdot \mathcal{L}_{MFM} + \mat
 
 ## 相关论文
 
-- [\[ACL 2026\] CodeBind: Decoupled Representation Learning for Multimodal Alignment with Unified Compositional Codebook](../../ACL2026/3d_vision/codebind_decoupled_representation_learning_for_multimodal_alignment_with_unified.md)
 - [\[CVPR 2025\] MoST: Efficient Monarch Sparse Tuning for 3D Representation Learning](../../CVPR2025/3d_vision/most_efficient_monarch_sparse_tuning_for_3d_representation_learning.md)
 - [\[ICCV 2025\] StruMamba3D: Exploring Structural Mamba for Self-supervised Point Cloud Representation Learning](../../ICCV2025/3d_vision/strumamba3d_exploring_structural_mamba_for_self-supervised_point_cloud_represent.md)
-- [\[CVPR 2026\] Improving Human Image Animation via Semantic Representation Alignment](../../CVPR2026/3d_vision/improving_human_image_animation_via_semantic_representation_alignment.md)
 - [\[ICLR 2026\] Learning Unified Representation of 3D Gaussian Splatting](../../ICLR2026/3d_vision/learning_unified_representation_of_3d_gaussian_splatting.md)
+- [\[AAAI 2026\] GaussianImage++: Boosted Image Representation and Compression with 2D Gaussian Splatting](gaussianimage_boosted_image_representation_and_compression_with_2d_gaussian_spla.md)
+- [\[AAAI 2026\] Split-Layer: Enhancing Implicit Neural Representation by Maximizing the Dimensionality of Feature Space](split-layer_enhancing_implicit_neural_representation_by_maximizing_the_dimension.md)
 
 </div>
 

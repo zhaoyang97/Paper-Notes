@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2509.17292](https://arxiv.org/abs/2509.17292)  
 **代码**: [GitHub](https://github.com/cocoboldongle/MVACD)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 认知扭曲检测, 多实例学习, LLM推理, 心理学分解, 门控注意力
 
 ## 一句话总结

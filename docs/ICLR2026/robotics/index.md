@@ -1,28 +1,46 @@
 ---
 title: >-
-  ICLR2026 机器人/具身智能论文汇总 · 46篇论文解读
+  ICLR2026 机器人/具身智能论文汇总 · 56篇论文解读
 description: >-
-  46篇ICLR2026的机器人/具身智能方向论文解读，涵盖机器人、Agent、多模态、强化学习、导航、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  56篇ICLR2026的机器人/具身智能方向论文解读，涵盖机器人、多模态、Agent、强化学习、导航、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "机器人/具身智能"
   - "论文解读"
   - "论文笔记"
   - "机器人"
-  - "Agent"
   - "多模态"
+  - "Agent"
   - "强化学习"
   - "导航"
   - "对抗鲁棒"
 item_list:
+  - u: "abstracting_robot_manipulation_skills_via_mixture-of-experts_diffusion_policies/"
+    t: "Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies"
+  - u: "accelerated_co-design_of_robots_through_morphological_pretraining/"
+    t: "Accelerated co-design of robots through morphological pretraining"
+  - u: "action-aware_dynamic_pruning_for_efficient_vision-language-action_manipulation/"
+    t: "Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation"
   - u: "all-day_multi-scenes_lifelong_vision-and-language_navigation_with_tucker_adaptat/"
     t: "All-day Multi-scenes Lifelong Vision-and-Language Navigation with Tucker Adaptation"
   - u: "anytouch_2_general_optical_tactile_representation_learning_for_dynamic_tactile_p/"
     t: "AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception"
   - u: "apple_toward_general_active_perception_via_reinforcement_learning/"
     t: "APPLE: Toward General Active Perception via Reinforcement Learning"
+  - u: "autobio_a_simulation_and_benchmark_for_robotic_automation_in_digital_biology_lab/"
+    t: "AutoBio: A Simulation and Benchmark for Robotic Automation in Digital Biology Laboratory"
   - u: "autofly_vision-language-action_model_for_uav_autonomous_navigation_in_the_wild/"
     t: "AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild"
+  - u: "autonomous_functional_play_with_correspondence-driven_trajectory_warping/"
+    t: "Autonomous Functional Play with Correspondence-Driven Trajectory Warping"
+  - u: "bfm-zero_a_promptable_behavioral_foundation_model_for_humanoid_control_using_uns/"
+    t: "BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning"
+  - u: "bolt_decisionaligned_distillation_and_budget-aware_routing_for_constrained_multi/"
+    t: "BOLT: Decision‑Aligned Distillation and Budget-Aware Routing for Constrained Multimodal QA on Robots"
+  - u: "ce-nav_flow-guided_reinforcement_refinement_for_cross-embodiment_local_navigatio/"
+    t: "CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation"
+  - u: "cosmos_policy_fine-tuning_video_models_for_visuomotor_control_and_planning/"
+    t: "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning"
   - u: "cross-embodiment_offline_reinforcement_learning_for_heterogeneous_robot_datasets/"
     t: "Cross-Embodiment Offline Reinforcement Learning for Heterogeneous Robot Datasets"
   - u: "d-rex_differentiable_real-to-sim-to-real_engine_for_learning_dexterous_grasping/"
@@ -57,35 +75,29 @@ item_list:
     t: "Nonparametric Teaching of Attention Learners"
   - u: "omnieva_embodied_versatile_planner_via_task-adaptive_3d-grounded_and_embodiment-/"
     t: "OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning"
-  - u: "on_entropy_control_in_llm-rl_algorithms/"
-    t: "On Entropy Control in LLM-RL Algorithms"
-  - u: "one_demo_is_all_it_takes_planning_domain_derivation_with_llms_from_a_single_demo/"
-    t: "One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration"
-  - u: "partially_equivariant_reinforcement_learning_in_symmetry-breaking_environments/"
-    t: "Partially Equivariant Reinforcement Learning in Symmetry-Breaking Environments"
-  - u: "real-time_robot_execution_with_masked_action_chunking/"
-    t: "Real-Time Robot Execution with Masked Action Chunking"
-  - u: "rei-bench_can_embodied_agents_understand_vague_human_instructions_in_task_planni/"
-    t: "REI-Bench: Can Embodied Agents Understand Vague Human Instructions in Task Planning?"
-  - u: "rethinking_policy_diversity_in_ensemble_policy_gradient_in_large-scale_reinforce/"
-    t: "Rethinking Policy Diversity in Ensemble Policy Gradient in Large-Scale Reinforcement Learning"
-  - u: "rf-matid_dataset_and_benchmark_for_radio_frequency_material_identification/"
-    t: "RF-MatID: Dataset and Benchmark for Radio Frequency Material Identification"
-  - u: "robocasa365_a_large-scale_simulation_framework_for_training_and_benchmarking_gen/"
-    t: "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots"
-  - u: "robointer_a_holistic_intermediate_representation_suite_towards_robotic_manipulat/"
-    t: "RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation"
-item_total: 46
+item_total: 56
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🔬 ICLR2026** · **46** 篇论文解读
+**🔬 ICLR2026** · **56** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (149)](../../CVPR2026/robotics/index.md) · [🧪 ICML2026 (42)](../../ICML2026/robotics/index.md) · [💬 ACL2026 (10)](../../ACL2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (146)](../../CVPR2026/robotics/index.md) · [🧪 ICML2026 (53)](../../ICML2026/robotics/index.md) · [💬 ACL2026 (11)](../../ACL2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
 
-🔥 **高频主题：** 机器人 ×12 · Agent ×9 · 多模态 ×8 · 强化学习 ×6 · 导航 ×3
+🔥 **高频主题：** 机器人 ×17 · 多模态 ×10 · Agent ×10 · 强化学习 ×7 · 导航 ×4
+
+**[Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies](abstracting_robot_manipulation_skills_via_mixture-of-experts_diffusion_policies.md)**
+
+:   SMP（Skill Mixture-of-Experts Policy）把扩散策略的动作生成拆解到一组**状态自适应的正交技能基**上，用缓变的「黏性」门控只激活少数与当前阶段相关的专家，从而在中等模型规模下实现可复用、可迁移的多任务双臂操作，并把推理时的激活参数压到约自身的 30%（约为 RDT 的 7%），成功率反而高于大扩散基线。
+
+**[Accelerated co-design of robots through morphological pretraining](accelerated_co-design_of_robots_through_morphological_pretraining.md)**
+
+:   本文提出"形态预训练"：先用可微仿真把一个与形态无关的通用控制器在上千万个机器人身体上一次性训练好，再用这个冻结的控制器零样本（或少量微调）评估任意身体改动的好坏，从而把机器人"身体+大脑"协同设计的速度提升一个数量级，同时首次让进化里的"杂交重组"真正产出比父代更优的后代。
+
+**[Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation](action-aware_dynamic_pruning_for_efficient_vision-language-action_manipulation.md)**
+
+:   针对 VLA（视觉-语言-动作）模型推理时视觉 token 太多、算力被注意力吃光的问题，本文提出 ADP（Action-aware Dynamic Pruning）：用文本相关性挑出任务相关的视觉 token 做前瞻式剪枝，再用机器人末端执行器的近期运动幅度当门控信号——粗动作阶段（位移大）激进剪枝省算力、精细操作阶段（位移小）恢复全视觉保精度，在 LIBERO 上把 OpenVLA-OFT 加速到 1.35× 而成功率几乎不掉，真机延迟降到 1.49×。
 
 **[All-day Multi-scenes Lifelong Vision-and-Language Navigation with Tucker Adaptation](all-day_multi-scenes_lifelong_vision-and-language_navigation_with_tucker_adaptat.md)**
 
@@ -99,9 +111,33 @@ item_total: 46
 
 :   提出APPLE——一种结合强化学习与监督学习的通用主动感知框架，将主动感知建模为POMDP，奖励函数设计为RL奖励减去预测损失，梯度自然分解为策略梯度和预测损失梯度两部分，基于off-policy算法（SAC/CrossQ）和共享ViViT骨干网络，在5个不同任务基准上验证通用性，其中CrossQ变体无需逐任务调参且训练效率提高53%。
 
+**[AutoBio: A Simulation and Benchmark for Robotic Automation in Digital Biology Laboratory](autobio_a_simulation_and_benchmark_for_robotic_automation_in_digital_biology_lab.md)**
+
+:   AutoBio 把"生物实验室里机器人做实验"这件事做成了一套可仿真、可生成示范、可评测的 benchmark：它用 3D 高斯泼溅把真实仪器数字化、给 MuJoCo 补上螺纹/卡位/偏心/液面这些实验室专属物理、再用 Blender PBR 解决透明容器与液体的渲染，最终在 16 个分三档难度的生物实验任务上跑通 π0、π0.5、RDT 等主流 VLA，暴露出它们在精密操作、指令跟随和视觉推理上的明显短板。
+
 **[AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild](autofly_vision-language-action_model_for_uav_autonomous_navigation_in_the_wild.md)**
 
 :   提出 AutoFly，一个面向无人机野外自主导航的端到端 VLA 模型，通过伪深度编码器从 RGB 输入推断空间信息，配合新构建的自主导航数据集（13K+ 轨迹含 1K 真实飞行），在模拟和真实环境中比 OpenVLA 成功率高 3.9%，碰撞率低 2.6%。
+
+**[Autonomous Functional Play with Correspondence-Driven Trajectory Warping](autonomous_functional_play_with_correspondence-driven_trajectory_warping.md)**
+
+:   本文提出 Tether：先用一个只需 ≤10 条示范、靠语义关键点对应把示范轨迹"变形"到新场景的开环策略，再把它放进一个由视觉语言模型（VLM）调度的"自主功能性玩耍"闭环里，让机器人在真实世界连续 26 小时、几乎无需人工干预地自动生成 1000+ 条专家级轨迹，用来训练闭环模仿策略，最终达到与人类遥操作采集数据相当的成功率。
+
+**[BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning](bfm-zero_a_promptable_behavioral_foundation_model_for_humanoid_control_using_uns.md)**
+
+:   BFM-Zero 用在线 off-policy 无监督 RL（前向-后向表征 FB-CPR）把动作、目标、奖励统统编码进一个共享潜空间，训出一个可"提示"的人形全身控制通才策略，并首次在真实 Unitree G1 上实现免重训的零样本动作跟踪 / 目标到达 / 奖励优化，还能少样本快速适配。
+
+**[BOLT: Decision‑Aligned Distillation and Budget-Aware Routing for Constrained Multimodal QA on Robots](bolt_decisionaligned_distillation_and_budget-aware_routing_for_constrained_multi.md)**
+
+:   BOLT 把"机器人上的受限多选题问答"拆成训练期的**选项级决策蒸馏**（让 2B 小模型直接对齐 13B 教师在选项集上的偏好）和推理期的**预算感知路由**（只在便宜信号预示有正收益时才触发高分辨复评/同类检索/问题分解），用 2B 学生在 Robo2VLM-1 上做到 50.50% 准确率、反超 36.74% 的 13B 教师，同时把显存从 26.9GB 压到 3.8GB、能耗降 82.5%。
+
+**[CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation](ce-nav_flow-guided_reinforcement_refinement_for_cross-embodiment_local_navigatio.md)**
+
+:   CE-Nav 用「先离线模仿学一个不依赖任何机器人本体、只懂几何避障的归一化流专家（VelFlow），再冻结它当先验、用轻量在线 RL 精修器去适配每个新机器人具体动力学」的两阶段框架，在四足/双足/四旋翼上都拿到 SOTA 导航性能，且把适配新机器人的训练时间从 50 小时压到 6 小时。
+
+**[Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning](cosmos_policy_fine-tuning_video_models_for_visuomotor_control_and_planning.md)**
+
+:   本文把预训练视频生成大模型 Cosmos-Predict2-2B 当作底座，**不改任何网络结构、只用一阶段微调**，让它把机器人动作、未来状态、状态价值都"编码成隐空间视频帧"一起去噪生成，从而同时充当策略、世界模型和价值函数；在 LIBERO（98.5%）、RoboCasa（67.1%）和真实双臂 ALOHA 任务上都拿到 SOTA，并能用 best-of-N 规划再提升 12.5 分。
 
 **[Cross-Embodiment Offline Reinforcement Learning for Heterogeneous Robot Datasets](cross-embodiment_offline_reinforcement_learning_for_heterogeneous_robot_datasets.md)**
 
@@ -230,6 +266,10 @@ item_total: 46
 **[Statistical Guarantees for Offline Domain Randomization](statistical_guarantees_for_offline_domain_randomization.md)**
 
 :   将离线域随机化(ODR)形式化为参数化仿真器族上的最大似然估计问题，在温和的正则性和可辨识性假设下证明了弱一致性（依概率收敛），进一步添加均匀Lipschitz连续假设后证明了强一致性（几乎必然收敛），为ODR在sim-to-real迁移中的经验成功提供了首个理论基础。
+
+**[Task Tokens: A Flexible Approach to Adapting Behavior Foundation Models](task_tokens_a_flexible_approach_to_adapting_behavior_foundation_models.md)**
+
+:   针对"目标条件型行为基础模型"（GC-BFM，如 MaskedMimic）调下游任务时要么靠繁琐的 prompt 工程、要么全量微调会损坏先验的困境，本文提出 **Task Tokens**：冻结整个 BFM，只用强化学习训练一个轻量"任务编码器"，让它产出一个塞进 transformer token 序列的可学习 token，从而把 BFM 适配到新任务上——每个任务只需约 200K 可训练参数（比基线少 ×125）、收敛快 ×6，且在改变重力/摩擦的 OOD 场景下比全量微调更鲁棒、动作更像人。
 
 **[Test-Time Mixture of World Models for Embodied Agents in Dynamic Environments](test-time_mixture_of_world_models_for_embodied_agents_in_dynamic_environments.md)**
 

@@ -1,19 +1,19 @@
 ---
 title: >-
-  ICML2026 可解释性论文汇总 · 71篇论文解读
+  ICML2026 可解释性论文汇总 · 91篇论文解读
 description: >-
-  71篇ICML2026的可解释性方向论文解读，涵盖 LLM、对齐/RLHF、推理、布局/合成、自监督学习、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  91篇ICML2026的可解释性方向论文解读，涵盖 LLM、推理、对齐/RLHF、多模态、对抗鲁棒、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2026"
   - "可解释性"
   - "论文解读"
   - "论文笔记"
   - "LLM"
-  - "对齐/RLHF"
   - "推理"
-  - "布局/合成"
-  - "自监督学习"
+  - "对齐/RLHF"
+  - "多模态"
   - "对抗鲁棒"
+  - "布局/合成"
 item_list:
   - u: "a_behavioural_and_representational_evaluation_of_goal-directedness_in_language_m/"
     t: "A Behavioural and Representational Evaluation of Goal-Directedness in Language Model Agents"
@@ -23,8 +23,12 @@ item_list:
     t: "Accurate Evaluation of Quickest Changepoint Detectors via Non-parametric Survival Analysis"
   - u: "adaptive_querying_with_ai_persona_priors/"
     t: "Adaptive Querying with AI Persona Priors"
+  - u: "ai_engram_in_search_of_memory_traces_in_artificial_intelligence/"
+    t: "AI Engram: In Search of Memory Traces in Artificial Intelligence"
   - u: "all_circuits_lead_to_rome_rethinking_functional_anisotropy_in_circuit_and_sheaf_/"
     t: "All Circuits Lead to Rome: Rethinking Functional Anisotropy in Circuit and Sheaf Discovery for LLMs"
+  - u: "analytic_bijections_for_smooth_and_interpretable_normalizing_flows/"
+    t: "Analytic Bijections for Smooth and Interpretable Normalizing Flows"
   - u: "beyond_additive_decompositions_interpretability_through_separability/"
     t: "Beyond Additive Decompositions: Interpretability Through Separability"
   - u: "block-em_preventing_emergent_misalignment_via_latent_blocking/"
@@ -39,6 +43,10 @@ item_list:
     t: "Certified Circuits: Stability Guarantees for Mechanistic Circuits"
   - u: "circuit_fingerprints_how_answer_tokens_encode_their_geometrical_path/"
     t: "Circuit Fingerprints: How Answer Tokens Encode Their Geometrical Path"
+  - u: "claritree_cholesky_and_lookahead_accelerations_for_regression_with_interpretable/"
+    t: "CLARITree: Cholesky and Lookahead Accelerations for Regression with Interpretable Piecewise Linear Trees"
+  - u: "closing_the_loop_pid_feedback_control_for_interpretable_activation_steering_in_s/"
+    t: "Closing the Loop: PID Feedback Control for Interpretable Activation Steering in Symbolic Music Generation"
   - u: "cognitive_fatigue_in_autoregressive_transformers_formalization_and_measurement/"
     t: "Cognitive Fatigue in Autoregressive Transformers: Formalization and Measurement"
   - u: "corrsteer_generation-time_llm_steering_via_correlated_sparse_autoencoder_feature/"
@@ -47,10 +55,14 @@ item_list:
     t: "Courtroom Analogy: New Perspective on Uncertainty-Aware Classification"
   - u: "diagnosing_the_reliability_of_llm-as-a-judge_via_item_response_theory/"
     t: "Diagnosing the Reliability of LLM-as-a-Judge via Item Response Theory"
+  - u: "dimensionality_controls_when_modularity_helps_in_continual_learning/"
+    t: "Dimensionality Controls When Modularity Helps in Continual Learning"
   - u: "discovering_differences_in_strategic_behavior_between_humans_and_llms/"
     t: "Discovering Differences in Strategic Behavior Between Humans and LLMs"
   - u: "discovering_implicit_large_language_model_alignment_objectives/"
     t: "Discovering Implicit Large Language Model Alignment Objectives"
+  - u: "discovering_interpretable_algorithms_by_decompiling_transformers_to_rasp/"
+    t: "Discovering Interpretable Algorithms by Decompiling Transformers to RASP"
   - u: "disentangling_direction_and_magnitude_in_transformer_representations_a_double_di/"
     t: "Disentangling Direction and Magnitude in Transformer Representations: A Double Dissociation Through L2-Matched Perturbation Analysis"
   - u: "dissecting_multimodal_in-context_learning_modality_asymmetries_and_circuit_dynam/"
@@ -61,31 +73,19 @@ item_list:
     t: "Do Activation Verbalization Methods Convey Privileged Information?"
   - u: "dual_mechanisms_of_value_expression_intrinsic_vs_prompted_values_in_large_langua/"
     t: "Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models"
-  - u: "equilibrium_reasoners_learning_attractors_enables_scalable_reasoning/"
-    t: "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning"
-  - u: "expand_neurons_not_parameters/"
-    t: "Expand Neurons, Not Parameters"
-  - u: "formalizing_the_binding_problem/"
-    t: "Formalizing the Binding Problem"
-  - u: "from_rashomon_theory_to_praxis_efficient_decision_tree_rashomon_sets/"
-    t: "From Rashomon Theory to PRAXIS: Efficient Decision Tree Rashomon Sets"
-  - u: "gem_geometric_entropy_mixing_for_optimal_llm_data_curation/"
-    t: "GEM: Geometric Entropy Mixing for Optimal LLM Data Curation"
-  - u: "global_plane_waves_from_local_gaussians_periodic_charge_densities_in_a_blink/"
-    t: "Global Plane Waves from Local Gaussians: Periodic Charge Densities in a Blink"
-  - u: "grokking_from_abstraction_to_intelligence/"
-    t: "Grokking: From Abstraction to Intelligence"
-item_total: 71
+  - u: "ensembling_sparse_autoencoders/"
+    t: "Ensembling Sparse Autoencoders"
+item_total: 91
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**🧪 ICML2026** · **71** 篇论文解读
+**🧪 ICML2026** · **91** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (42)](../../CVPR2026/interpretability/index.md) · [💬 ACL2026 (61)](../../ACL2026/interpretability/index.md) · [🔬 ICLR2026 (60)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (34)](../../CVPR2026/interpretability/index.md) · [💬 ACL2026 (63)](../../ACL2026/interpretability/index.md) · [🔬 ICLR2026 (74)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
 
-🔥 **高频主题：** LLM ×8 · 对齐/RLHF ×3 · 推理 ×3 · 布局/合成 ×2 · 自监督学习 ×2
+🔥 **高频主题：** LLM ×9 · 推理 ×4 · 对齐/RLHF ×3 · 多模态 ×3 · 对抗鲁棒 ×3
 
 **[A Behavioural and Representational Evaluation of Goal-Directedness in Language Model Agents](a_behavioural_and_representational_evaluation_of_goal-directedness_in_language_m.md)**
 
@@ -103,9 +103,17 @@ item_total: 71
 
 :   作者把"LLM 在 persona 条件下产生的回答分布"打包成一个有限混合的贝叶斯先验，让用户在仅被问几道题的情况下，通过对 persona 后验做闭式更新来高效预测其他回答，性能上压过经典 CAT/IRT 基线。
 
+**[AI Engram: In Search of Memory Traces in Artificial Intelligence](ai_engram_in_search_of_memory_traces_in_artificial_intelligence.md)**
+
+:   把神经科学里"engram（记忆痕迹）"的四条经典判据（特异性、再激活、充分性、必要性）翻译成参数空间上的代数约束，从而推出一个**只需输入统计量、一次前向就能算出**的闭式估计器，把某个概念在网络权重里对应的因果子成分单独"抠"出来，使得任意知识可以通过简单的线性加减被注入或抹除——并证明这个生物学动机的解恰好等价于 Fisher 度量下的自然梯度投影。
+
 **[All Circuits Lead to Rome: Rethinking Functional Anisotropy in Circuit and Sheaf Discovery for LLMs](all_circuits_lead_to_rome_rethinking_functional_anisotropy_in_circuit_and_sheaf_.md)**
 
 :   这篇论文用 Overlap-Aware Sheaf Repulsion (OASR) 算法系统性地证伪了机理可解释性领域的隐含假设——"一个 LLM 能力对应一个独特的电路"——发现同一任务可被多个几乎不重叠 (IoU ~4–11%) 但都满足 faithful/sparse/complete 的电路或 sheaf 支撑，并给出"分布式稠密电路假设"作为理论解释。
+
+**[Analytic Bijections for Smooth and Interpretable Normalizing Flows](analytic_bijections_for_smooth_and_interpretable_normalizing_flows.md)**
+
+:   本文构造了三族"全局光滑（$C^\infty$）、定义在整个 $\mathbb{R}$ 上、且有闭式解析逆"的标量双射，既能当 coupling flow 里 spline/affine 的即插替换，又催生出一种直接参数化、变换半径而保角方向的**径向流（radial flow）**——后者训练极稳、几何可解释，在有径向结构的目标上能用比 coupling flow 少三个数量级的参数达到相当质量。
 
 **[Beyond Additive Decompositions: Interpretability Through Separability](beyond_additive_decompositions_interpretability_through_separability.md)**
 
@@ -135,6 +143,14 @@ item_total: 71
 
 :   本文提出 Circuit Fingerprint 假说——单独把答案 token 喂进 Transformer，它在隐空间留下的方向恰好就是产生该答案所要走的电路路径——并据此用纯几何对齐（无需梯度/干预）完成 circuit discovery，同时同一组方向反过来可以做 activation steering，证明"读"和"写"是同一个几何对象的两面。
 
+**[CLARITree: Cholesky and Lookahead Accelerations for Regression with Interpretable Piecewise Linear Trees](claritree_cholesky_and_lookahead_accelerations_for_regression_with_interpretable.md)**
+
+:   针对"贪心回归树快但不准、最优回归树准但慢得跑不动"的两难，CLARITree 把一步 lookahead 搜索和岭回归 Gram 矩阵的秩一 Cholesky 更新结合起来，学出近优、稀疏、叶子带线性模型的回归树，在精度逼近最优解的同时把可扩展性拉到比现有最优方法高一个量级。
+
+**[Closing the Loop: PID Feedback Control for Interpretable Activation Steering in Symbolic Music Generation](closing_the_loop_pid_feedback_control_for_interpretable_activation_steering_in_s.md)**
+
+:   这篇论文把控制论里的 PID 反馈控制搬进「基于稀疏自编码器（SAE）的激活引导」，用积分项累积误差去突破 SAE 的 Top-K 稀疏阈值——静态引导在做渐变时分数级强度根本进不了 Top-K 导致干预被清零，而 Temporal PID 在每个自回归步动态调 $\lambda(t)$，让符号音乐的音高/时值引导能平滑过渡，干预强度少 62–67%、FMD 退化降 5%。
+
 **[Cognitive Fatigue in Autoregressive Transformers: Formalization and Measurement](cognitive_fatigue_in_autoregressive_transformers_formalization_and_measurement.md)**
 
 :   本文将自回归语言模型在长序列生成中的退化现象形式化为"认知疲劳"，提出 Fatigue Index (FI) 这一轻量级、模型无关的在线诊断指标，聚合 prompt 注意力衰减、表示漂移和熵失调三个信号，在 9 个模型上验证了 FI 对退化的预测能力（AUROC=0.976）并揭示了非单调的规模缩放行为。
@@ -151,6 +167,10 @@ item_total: 71
 
 :   本文把心理测量学里的 Item Response Theory (IRT) 中的 Graded Response Model (GRM) 搬到 LLM-as-a-Judge 上，把"评判分数"分解成评判者属性 $(\alpha, \beta)$ 与样本潜在质量 $\theta$，再用 4 个可解释指标分两阶段（内在一致性 + 人类对齐）系统诊断 7 个主流 LLM 在 11 类评判准则上"是不是一台稳定的测量仪器"。
 
+**[Dimensionality Controls When Modularity Helps in Continual Learning](dimensionality_controls_when_modularity_helps_in_continual_learning.md)**
+
+:   这篇论文用一个 A→B→A 的序列学习范式系统比较"任务分块模块化循环网络"与"单网络"，发现模块化并非总有用——只有当初始化尺度 $\gamma$ 把表示压进**低维"rich"区**时，模块化才会带来更低的干扰，并自发组织出"相似任务子空间重叠、相异任务子空间正交"的渐变几何；在高维"lazy"区两种架构几乎没差别。
+
 **[Discovering Differences in Strategic Behavior Between Humans and LLMs](discovering_differences_in_strategic_behavior_between_humans_and_llms.md)**
 
 :   本文用 AlphaEvolve（基于 LLM 的程序合成框架）直接从行为数据里"进化"出可解释的 Python 行为模型，并在迭代石头剪刀布（IRPS）上对比人类与前沿 LLM，发现 Gemini 2.5 Pro/Flash 与 GPT 5.1 在胜率和"对手模型"维度上都明显超过人类，而 GPT OSS 120B 反而越打越差。
@@ -158,6 +178,10 @@ item_total: 71
 **[Discovering Implicit Large Language Model Alignment Objectives](discovering_implicit_large_language_model_alignment_objectives.md)**
 
 :   Obj-Disco 把 RLHF/GRPO 的不透明奖励信号沿"模型检查点轨迹"反向工程成稀疏的自然语言目标线性组合（DIR），通过 Matching Pursuit 式贪心 + LLM-as-Judge 双重校验，在多任务多模型上稳定恢复 >90% 的奖励行为，并能挖出"放松对违法行为讨论限制"这类隐藏的失配诱因。
+
+**[Discovering Interpretable Algorithms by Decompiling Transformers to RASP](discovering_interpretable_algorithms_by_decompiling_transformers_to_rasp.md)**
+
+:   本文提出一套「反编译」流水线，先把训练好的 GPT-2 风格 Transformer **忠实地**改写成一个等价的 RASP 程序（D-RASP），再用因果干预把它剪枝成一段**短小可读的符号算法**；实验表明能从「会长度泛化」的小模型里自动恢复出诸如直方图取众数、归纳头复制、括号计数这类已知算法，给出了「Transformer 内部确实实现了简单 RASP 程序」迄今最直接的证据。
 
 **[Disentangling Direction and Magnitude in Transformer Representations: A Double Dissociation Through L2-Matched Perturbation Analysis](disentangling_direction_and_magnitude_in_transformer_representations_a_double_di.md)**
 
@@ -179,6 +203,10 @@ item_total: 71
 
 :   本文用 difference-in-means 在残差流里抽出 LLM 表达 10 个 Schwartz 价值时的 "intrinsic"（无系统提示）与 "prompted"（带价值系统提示）两类方向，再用 SVD 把两者拆成共享轴与各自独有轴，在向量层与 MLP 神经元层同时给出因果证据：共享分量承载真正的价值语义并能跨语言泛化、复现 Schwartz 圆环结构；intrinsic 独有分量带来词汇/语义多样性；prompted 独有分量编码的是与价值无关的"通用指令服从"通道，能直接把越狱攻击成功率从 13%–27% 推到 83%–97%。
 
+**[Ensembling Sparse Autoencoders](ensembling_sparse_autoencoders.md)**
+
+:   单个稀疏自编码器（SAE）只能捕获激活空间里有限的一部分特征，这篇论文把监督学习里的 bagging 和 boosting 搬到 SAE 上，证明「集成多个 SAE 的重建」在数学上等价于「拼接它们的特征字典」，并用 naive bagging 和 boosting 两种实现同时改善了重建质量、特征稳定性与下游任务表现。
+
 **[Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning](equilibrium_reasoners_learning_attractors_enables_scalable_reasoning.md)**
 
 :   本文把"通过迭代更新潜变量做推理"的模型重新解释为一个学到的吸引子动力系统，提出 Equilibrium Reasoners (EqR)：用随机初始化 + 路径噪声两条轻量训练干预塑造吸引子地形，配合"深度（迭代步数 $D$）+ 广度（多次随机重启 $B$）"两轴测试时扩展和基于残差收敛的选轨规则，在训练时最多 16 步迭代的前提下，把 Sudoku-Extreme 的精确准确率从 feedforward 的 2.6% 推到 99.8%（等效展开 40,000 层）。
@@ -186,6 +214,10 @@ item_total: 71
 **[Expand Neurons, Not Parameters](expand_neurons_not_parameters.md)**
 
 :   在保持非零参数总数不变的前提下，把每个神经元"切"成 $\alpha$ 个稀疏子神经元、让它们瓜分原来的输入边，就能显著降低神经元之间的特征干扰（多义性），从而在 Boolean 任务和 CLIP/CNN/ImageNet 等真实视觉任务上一致提升精度。
+
+**[ExPLAIND: Unifying Model, Data, and Training Attribution to Study Model Behavior](explaind_unifying_model_data_and_training_attribution_to_study_model_behavior.md)**
+
+:   ExPLAIND 把"模型组件归因、数据归因、训练轨迹归因"这三条平时各做各的可解释性路线统一进一个理论框架：它把用 AdamW 训练的模型严格重写成核机器（精确路径核 EPK 的扩展），由此导出可加的、按参数/样本/训练步索引的影响分数，再沿任意维度累加就能在任意粒度上解释模型行为，并用它重新刻画了 Grokking 的学习阶段和 EuroLLM 预训练的两阶段动态。
 
 **[Formalizing the Binding Problem](formalizing_the_binding_problem.md)**
 
@@ -219,6 +251,10 @@ item_total: 71
 
 :   本文提出 IdEst：用最小生成树维度估计器 $\mathrm{dim}_{\mathrm{MST}}$ 去测自监督表示的内在维度（ID），把这个无标签的几何量当作下游线性 probe 精度的代理，在 33 个 SSL 模型上 Spearman $\rho \approx -0.8$，并可用于无标签超参选择。
 
+**[In Defense of Information Leakage in Concept-based Models](in_defense_of_information_leakage_in_concept-based_models.md)**
+
+:   这是一篇 position 论文：作者为概念模型里人人喊打的"信息泄漏"辩护，指出在真实场景概念注释天然不完整时，**适度的"良性泄漏"反而是构建准确且可干预模型的必要条件**，并给出一个只需多做一次前向的损失 $\mathcal{L}_{\text{int}}$ 来诱导这种良性泄漏。
+
 **[Interpretability Can Be Actionable](interpretability_can_be_actionable.md)**
 
 :   这是一篇立场论文，主张「可解释性研究缺的不是新方法、而是评估准则」：研究该以 actionability（insight 能否驱动可解释性领域之外的具体决策/干预）为核心评估维度，作者沿 concreteness + validation 两个维度定义 actionability、分析阻碍、列出 5 个有杠杆的应用域、给出研究者 6 步 checklist。
@@ -238,6 +274,10 @@ item_total: 71
 **[MAAT: 基于知识引导核回归的异构部分观测状态重建](knowledge-informed_kernel_state_reconstruction_from_heterogeneous_partial_observ.md)**
 
 :   MAAT 把"从稀疏 + 异构 + 含噪观测里恢复一条物理一致的潜在状态轨迹"重新表述成一个 RKHS 上的带约束核岭回归问题，把观测算子、平滑性和物理先验（非负、守恒、单调）一起塞进同一个目标函数，给下游符号回归（SINDy / PySR）提供具有解析时间导数的高质量轨迹，在 9 个合成基准 + COVID-19 真实数据上把重建 MSE 降低 1–3 个数量级。
+
+**[LatentLens: Revealing Highly Interpretable Visual Tokens in LLMs](latentlens_revealing_highly_interpretable_visual_tokens_in_llms.md)**
+
+:   本文提出 LatentLens——一种无需训练的可解释性方法，用大语料库的**上下文化文本 token 表示**作为参照、对 VLM 中每层视觉 token 做最近邻检索并返回句子级描述，证明此前常用的 LogitLens/EmbeddingLens 严重低估了视觉 token 的可解释性（平均 68% vs 24%/32% 可解释），并揭示出"中层跃迁"现象。
 
 **[Learn from A Rationalist: Distilling Intermediate Interpretable Rationales](learn_from_a_rationalist_distilling_intermediate_interpretable_rationales.md)**
 
@@ -303,6 +343,10 @@ item_total: 71
 
 :   作者主张：与其继续用大规模真实语料反复试错，不如设计一类"数据探针"——从**完全已知**的随机过程采样出的合成序列，用它们去训练/微调 LLM 并把模型生成结果**送回已知分布**做似然分析，从而把"哪种数据让模型学会什么"这个问题从经验启发式上升为可证伪的科学命题。
 
+**[Position: Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces!](position_stop_anthropomorphizing_intermediate_tokens_as_reasoningthinking_traces.md)**
+
+:   这是 Kambhampati 团队的立场文（position paper），核心主张：把推理模型（如 DeepSeek-R1）在给出答案前吐出的「中间 token」称作 "reasoning trace / thinking trace"（推理痕迹/思考痕迹）是一种**危险的拟人化**——它（1）是一厢情愿、（2）几乎没有实证支持、（3）制造对模型的虚假信任、（4）把社区推向无意义的研究方向；作者用一系列实验证据（A* 迷宫 trace 互换、trace 长度与问题复杂度脱钩、人类信任实验）论证 trace 的语义与最终解答正确性**根本脱钩**，呼吁社区停止赋予中间 token "面向用户的可解释性"，信任应来自对解答本身的验证。
+
 **[Position: Zeroth-Order Optimization in Deep Learning Is Underexplored, Not Underpowered](position_zeroth-order_optimization_in_deep_learning_is_underexplored_not_underpo.md)**
 
 :   这是一篇 position paper，作者主张深度学习中的零阶（ZO）优化并非"无能"而是"未被充分探索"——他们沿算法/系统/评估三条主线给出 6 个论断（P1–P6），核心立场是：跳出"全空间逐元素估计器"的窠臼，转向子空间/谱域估计、前向单向流的系统级红利以及去混淆的评测协议，ZO 才能从内存高效微调的小众工具走向可扩展的训练范式。
@@ -319,9 +363,21 @@ item_total: 71
 
 :   本文提出 **查询电路 (query circuit) 发现** 任务——直接在原 LLM 内部追踪解释"模型为何对某个具体输入产生该输出"的稀疏子网络，并配套提出更稳健的忠实度指标 NDF 和 Best-of-N 采样算法，使得 MMLU 上仅占模型 1.3% 边的电路即可恢复约 60% 的单题行为。
 
+**[Query Lens: Interpreting Sparse Key-Value Features with Indirect Effects](query_lens_interpreting_sparse_key-value_features_with_indirect_effects.md)**
+
+:   针对 Logit Lens 只看"直接效应"、对大量 SAE 特征解释失败的问题，本文提出 Query Lens：同时利用编码器侧的 key 特征和解码器侧的 value 特征，并把特征经下游模块产生的**间接效应**（残差流雅可比乘积）纳入投影，从而对此前"不可解释"的特征也能给出连贯的输入/输出 token 解释。
+
+**[Rational Sparse Autoencoder](rational_sparse_autoencoder.md)**
+
+:   把稀疏自编码器（SAE）里写死的 ReLU/JumpReLU/TopK 编码门换成一个**逐元素可训练的有理函数** $r(t)=P(t)/Q(t)$，再配上"复制 teacher 权重 + Remez 拟合系数 → 解冻微调"的两步升级流程，让任意预训练 SAE 在不牺牲稀疏度与可解释性的前提下、只多几个标量参数就把重建保真度严格提升一档。
+
 **[Riemannian Generative Decoder](riemannian_generative_decoder.md)**
 
 :   本文针对 Riemannian VAE 必须为每种流形手工设计复杂概率密度的痛点，提出 Riemannian Generative Decoder (RGD)——彻底丢掉 encoder，把每个样本的 latent 当作自由参数用黎曼优化器 (RiemannianAdam) 直接训，同时引入"按局部度量逆缩放的输入噪声"作为几何正则，在合成分支扩散树、人类线粒体 DNA、细胞周期 scRNA-seq 三个真实生物数据上恢复出更忠实的几何，且在高维下数值稳定胜过 VAE 基线。
+
+**[Scalable Circuit Learning for Interpreting Large Language Models](scalable_circuit_learning_for_interpreting_large_language_models.md)**
+
+:   CircuitLasso 把"机制可解释性里发现电路"这件事，从昂贵的干预式（intervention-based）方法换成一个**稀疏线性回归（Lasso）代理**：只用观测数据、靠 $\ell_1$ 惩罚 + 块上三角约束在组件间找稀疏依赖骨架，从而第一次能直接在高维 SAE 特征空间上跑通电路发现，在 InterpBench 上以约 SOTA 的结构准确度换来 2–3 倍提速，并把学到的电路用于下游域泛化去偏。
 
 **[ShaplEIG: Bayesian Experimental Design for Shapley Value Estimation](shapleig_bayesian_experimental_design_for_shapley_value_estimation.md)**
 
@@ -339,9 +395,21 @@ item_total: 71
 
 :   本文把 "prompt steering"重新解释为 LLM 自己实现的一种 activation steering, 然后用一个**逐 token 的 ReLU 探针**来蒸馏 prompt 注入的激活差, 训练出 PSR (Prompt Steering Replacement) 模块, 既能在三个 steering 基准上超过现有激活引导方法 (CAA, ReFT-R1, Stolfo 等), 又在 AxBench 与人格引导上和 prompting 打成平甚至反超。
 
+**[Textual Supervision Enhances Geospatial Representations in Vision-Language Models](textual_supervision_enhances_geospatial_representations_in_vision-language_model.md)**
+
+:   作者用**层级线性探针**去问一个问题——视觉/多模态模型在没有任何地理监督的情况下，隐藏层里到底有没有"这张图拍在地球哪儿"的信息；结论是**带文本监督的 VLM（CLIP、LLaVA、Qwen、Gemma）远比纯视觉模型（ViT、DINOv2）更会编码经纬度**，而且这种地理信息集中在很少的几个维度里、甚至可以被"换维度"操控来改写模型生成的地名。
+
+**[The Discrete-Log Clock: How a Transformer Learns Modular Multiplication](the_discrete-log_clock_how_a_transformer_learns_modular_multiplication.md)**
+
+:   之前的工作发现 Transformer 学会模乘法 $a\cdot b\bmod p$ 后，嵌入的 Fourier 谱是"稠密"的（要用上所有频率），看起来比模加法复杂得多、不可解释；本文指出**这只是分析基选错了**——模乘法的天然 Fourier 基不是加性 DFT 而是**乘性特征变换**（即乘法群 $(\mathbb{Z}/p\mathbb{Z})^*$ 上的 Fourier 变换），换到这个基下谱立刻变稀疏（Gini 从 0.07 升到 0.58、只剩 4 个关键频率，96.9% 的 MLP 神经元干净地调谐到单一频率），从而证明 Transformer 是**先用离散对数把乘法化成加法**，再套用和模加法一模一样的"Clock"三角恒等式机制，作者称之为"离散对数时钟"。
+
 **[The Expert Strikes Back: Interpreting Mixture-of-Experts Language Models at Expert Level](the_expert_strikes_back_interpreting_mixture-of-experts_language_models_at_exper.md)**
 
 :   本文用 $k$-sparse probing 系统比较了 MoE 专家神经元与 dense FFN 神经元的多义性，发现 MoE 在稀疏路由压力下天然更接近单义，进而把分析单元从"神经元"升到"整个专家"，用 LLM 自动给数百个专家打自然语言标签并通过因果触发实验验证，最终得出"专家既不是宽域领域专家、也不是 token 级处理器，而是细粒度任务专家"的结论。
+
+**[The Perceived Fragility of Explanations in Audio Models: Manipulation of Attribution with Unchanged Predictions](the_perceived_fragility_of_explanations_in_audio_models_manipulation_of_attribut.md)**
+
+:   作者把"解释操纵攻击"从视觉迁移到音频深伪检测，提出一个**用心理声学掩蔽阈值约束的优化框架**，能在**完全听不见、且不改变模型最终判定**的前提下系统性地篡改 Grad-CAM / LRP 的归因热力图，证明音频模型的"解释"在安全意义上是脆弱的。
 
 **[Towards Atoms of Large Language Models](towards_atoms_of_large_language_models.md)**
 
@@ -363,9 +431,21 @@ item_total: 71
 
 :   VERISHAP 通过组合分支定界与神经网络验证技术，首次为神经网络 SHAP 值计算提供可证明的界限——并能扩展到比现有精确方法大几个数量级的特征搜索空间。
 
+**[Vision-Language Asymmetry in Bistable Image Captioning](vision-language_asymmetry_in_bistable_image_captioning.md)**
+
+:   这篇论文用维特根斯坦"鸭兔图"式的多稳态图像当探针，先用 3320 次生成刻画出 LLaVA 的三种行为 regime，再在它实际消费的 CLIP 层训一个 TopK 稀疏自编码器，发现 72% 的多稳态刺激在视觉端会**同时激活两种解读的特征池**（superposition），但因果 steering 只能翻转"默认主导"类刺激、翻不动"强制平衡"的少女/老妇——证明"承诺看作哪一面"的瓶颈不在视觉塔，而在下游的语言解码器。
+
 **[What Linear Probes Miss: Multi-View Probing for Weight-Space Learning](what_linear_probes_miss_multi-view_probing_for_weight-space_learning.md)**
 
 :   这篇论文指出单视角一阶 probe 会漏掉权重矩阵的行列交互与二阶相关结构，并提出 MVProbe 用行/列一阶投影加行/列 Gram 分支的多视角表示，在 Model Jungle 和 Stable Diffusion LoRA 识别上显著超过 ProbeX。
+
+**[Where Computation Lives Inside TabPFN: Causal Localisation of Attention Head Function](where_computation_lives_inside_tabpfn_causal_localisation_of_attention_head_func.md)**
+
+:   本文用激活补丁、消融和注意力熵，第一次对表格基础模型 TabPFN-2.5 做因果级机制分析，发现它三个特征注意力头中有一个头（Head 2）的因果必要性在峰值层比其余头大 2–5×，且峰值层会随任务复杂度迁移，而另两个头则呈对称的晚层模式；同时对比激活转向无法跨样本迁移，揭示纯上下文学习架构里"没有可注入的稳定任务方向"。
+
+**[Where's the Plan? Locating Latent Planning in Language Models with Lightweight Mechanistic Interventions](wheres_the_plan_locating_latent_planning_in_language_models_with_lightweight_mec.md)**
+
+:   本文用"押韵对联补全"作为前瞻性约束的干净测试，只靠线性探针和激活补丁这两个轻量工具，在 Qwen3 / Gemma-3 / Llama-3 三大模型族十余个尺度上研究"规划点形成"：探针发现关于未来韵脚的信息在换行符处线性可解码且随规模增强，但激活补丁显示**只有 Gemma-3-27B 才真正因果依赖这个编码**——它在约第 30 层出现因果驱动从韵词向换行符迁移的"交接"，其余模型全程只依赖韵词；最终把这个交接定位到 5 个注意力头，恢复了换行符处约 90% 的韵脚路由能力。
 
 **[Why Linear Interpretability Works: Invariant Subspaces as a Result of Architectural Constraints](why_linear_interpretability_works_invariant_subspaces_as_a_result_of_architectur.md)**
 

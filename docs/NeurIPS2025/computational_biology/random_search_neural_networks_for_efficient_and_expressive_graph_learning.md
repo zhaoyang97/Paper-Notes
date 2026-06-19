@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2510.22520](https://arxiv.org/abs/2510.22520)  
 **作者**: Michael Ito, Danai Koutra, Jenna Wiens (University of Michigan)
 **代码**: [MLD3/RandomSearchNNs](https://github.com/MLD3/RandomSearchNNs)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 图神经网络, 随机游走, 深度优先搜索, 图表示学习, 通用逼近, 同构不变性
 
 ## 一句话总结

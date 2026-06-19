@@ -126,7 +126,7 @@ $$z^* = \arg\min_{z} \| D(z, a, c) - x \|^2$$
 - [\[CVPR 2025\] Scale Efficient Training for Large Datasets](scale_efficient_training_for_large_datasets.md)
 - [\[CVPR 2025\] Golden Cudgel Network for Real-Time Semantic Segmentation](golden_cudgel_network_for_real-time_semantic_segmentation.md)
 - [\[CVPR 2025\] Generative Video Propagation](generative_video_propagation.md)
-- [\[CVPR 2026\] LaDy: Lagrangian-Dynamic Informed Network for Skeleton-based Action Segmentation via Spatial-Temporal Modulation](../../CVPR2026/segmentation/lady_lagrangian-dynamic_informed_network_for_skeleton-based_action_segmentation_.md)
+- [\[CVPR 2025\] RSONet: Region-guided Selective Optimization Network for RGB-T Salient Object Detection](rsonet_region-guided_selective_optimization_network_for_rgb-t_salient_object_det.md)
 
 </div>
 

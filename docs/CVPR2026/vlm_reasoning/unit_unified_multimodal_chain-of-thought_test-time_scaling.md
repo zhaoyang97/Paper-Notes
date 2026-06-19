@@ -2,10 +2,10 @@
 title: >-
   [论文解读] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling
 description: >-
-  [CVPR 2026][多模态VLM][统一多模态模型] UniT 把语言模型里的"测试时扩展（test-time scaling）"搬到统一多模态模型上：用一个多模型智能体流水线合成"生成→反思→精修"的多轮思维链数据，微调单个统一模型（Bagel），让它在推理时自己迭代地生成、验证、修正图像，并通过"预算强制"控制图像生成轮数，在组合生成、多轮编辑、视觉推理上都拿到显著提升。
+  [CVPR 2026][VLM Reasoning][统一多模态模型] UniT 把语言模型里的"测试时扩展（test-time scaling）"搬到统一多模态模型上：用一个多模型智能体流水线合成"生成→反思→精修"的多轮思维链数据，微调单个统一模型（Bagel），让它在推理时自己迭代地生成、验证、修正图像，并通过"预算强制"控制图像生成轮数，在组合生成、多轮编辑、视觉推理上都拿到显著提升。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "统一多模态模型"
   - "测试时扩展"
   - "多模态思维链"
@@ -87,6 +87,7 @@ flowchart TD
 相对单次生成，UniT 在 CompBench 多物体编辑上提升 5.56%、ImgEdit 多轮编辑人评提升 2.95 分、OneIG 指令遵循提升 10.34%，分布外视觉推理 MIRA 提升 53.33%（均为 $C=1\to C=10$，ImgEdit 为 $C=1\to C=4$，达 225.19% 相对提升）。说明：MIRA 上 UniT（11.5）仍低于 GPT-5（16.5）、Qwen2.5-VL-72B（13.1），但这是基座规模差异，作者的贡献是方法层面证明 TTS 能迁移到多模态，基座变强 UniT 直接受益。
 
 ### 序列式 vs 并行扩展
+
 | 任务 | 序列相对并行提升（C=10，ImgEdit C=4） |
 |------|------|
 | OneIG-Bench | +4.85% |
@@ -145,11 +146,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] Fuel Gauge: Estimating Chain-of-Thought Length Ahead of Time in Large Multimodal Models](fuel_gauge_estimating_chain-of-thought_length_ahead_of_time_in_large_multimodal_.md)
 - [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
-- [\[CVPR 2026\] Chain-of-Thought Guided Multi-Modal Object Re-Identification](chain-of-thought_guided_multi-modal_object_re-identification.md)
-- [\[CVPR 2026\] DuetSVG: Unified Multimodal SVG Generation with Internal Visual Guidance](duetsvg_unified_multimodal_svg_generation_with_internal_visual_guidance.md)
-- [\[CVPR 2026\] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought](when_visualizing_is_the_first_step_to_reasoning_mira_a_benchmark_for_visual_chai.md)
+- [\[CVPR 2026\] Fuel Gauge: Estimating Chain-of-Thought Length Ahead of Time in Large Multimodal Models](fuel_gauge_estimating_chain-of-thought_length_ahead_of_time_in_large_multimodal_.md)
+- [\[CVPR 2026\] dMLLM-TTS: Self-Verified and Efficient Test-Time Scaling for Diffusion Multi-Modal Large Language Models](dmllm-tts_self-verified_and_efficient_test-time_scaling_for_diffusion_multi-moda.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
 
 </div>
 

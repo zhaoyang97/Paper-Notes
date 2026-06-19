@@ -160,8 +160,8 @@ $$\mathcal{L}_{\text{contact}}=\sum_{\mathbf{v}\in\mathcal{C}}\Big(w_c\cdot\text
 
 - [\[CVPR 2025\] Reconstructing People, Places, and Cameras](../../CVPR2025/3d_vision/reconstructing_people_places_and_cameras.md)
 - [\[CVPR 2026\] LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving](lidar_prompted_spatio-temporal_multi-view_stereo_for_autonomous_driving.md)
-- [\[CVPR 2026\] 4D Reconstruction from Sparse Dynamic Cameras](4d_reconstruction_from_sparse_dynamic_cameras.md)
-- [\[CVPR 2026\] SparseCam4D: Spatio-Temporally Consistent 4D Reconstruction from Sparse Cameras](sparsecam4d_spatio-temporally_consistent_4d_reconstruction_from_sparse_cameras.md)
+- [\[CVPR 2026\] Adaptive Spatial-Temporal Window: Unlocking the Potential of Event Cameras in Heterogeneous Velocity Scenarios](adaptive_spatial-temporal_window_unlocking_the_potential_of_event_cameras_in_het.md)
+- [\[CVPR 2026\] Breaking the Scalability Limit of Multi-Projector Calibration with Embedded Cameras](breaking_the_scalability_limit_of_multi-projector_calibration_with_embedded_came.md)
 - [\[CVPR 2026\] WeatherCity: Urban Scene Reconstruction with Controllable Multi-Weather Transformation](weathercity_urban_scene_reconstruction_with_controllable_multi-weather_transform.md)
 
 </div>

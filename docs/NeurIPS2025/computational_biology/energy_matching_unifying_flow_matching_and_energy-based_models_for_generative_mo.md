@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.10612](https://arxiv.org/abs/2504.10612)  
 **代码**: [GitHub](https://github.com/m1balcerak/EnergyMatching)  
-**领域**: 图像生成
+**领域**: 图像生成  
 **关键词**: 能量模型, 流匹配, 最优传输, Boltzmann分布, 逆问题, 局部内在维度
 
 ## 一句话总结

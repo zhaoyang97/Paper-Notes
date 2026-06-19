@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2601.11886](https://arxiv.org/abs/2601.11886)  
 **代码**: [GitHub](https://github.com/KaijieMo-kj/Counterfactual-Medical-Evidence)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 忠实度-安全冲突, 反事实证据, 医疗问答, 安全护栏, RAG
 
 ## 一句话总结

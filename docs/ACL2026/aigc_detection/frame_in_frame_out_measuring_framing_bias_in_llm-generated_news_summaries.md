@@ -86,6 +86,7 @@ $$FR(S)=\frac{1}{|S|}\sum_{s\in S}w_s,$$
 ## 实验关键数据
 
 ### 主实验
+
 | 项目 | 数值 / 设置 | 作用 | 备注 |
 |------|-------------|------|------|
 | 摘要来源 | XSum | 单文档单句摘要 | 强压缩场景更容易暴露选择性强调 |
@@ -96,6 +97,7 @@ $$FR(S)=\frac{1}{|S|}\sum_{s\in S}w_s,$$
 | jury 标为 Not Framed 但专家认为 Framed | 16.3% | 校准权重 | 对应 $w=0.163$ |
 
 ### 消融实验
+
 | 分析维度 | 关键结果 | 说明 |
 |----------|----------|------|
 | 模型容量 / 预训练范围 | 大模型整体 framing rate 更高，差异显著，$p=0.0012$ | 作者指出小模型低 framing rate 可能部分来自输出质量不足 |
@@ -139,9 +141,9 @@ $$FR(S)=\frac{1}{|S|}\sum_{s\in S}w_s,$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] FRAME: Forensic Routing and Adaptive Multi-path Evidence Fusion for Image Manipulation Detection](../../CVPR2026/aigc_detection/frame_forensic_routing_and_adaptive_multi-path_evidence_fusion_for_image_manipul.md)
-- [\[AAAI 2026\] BAID: A Benchmark for Bias Assessment of AI Detectors](../../AAAI2026/aigc_detection/baid_a_benchmark_for_bias_assessment_of_ai_detectors.md)
+- [\[CVPR 2026\] Common Inpainted Objects In-N-Out of Context](../../CVPR2026/aigc_detection/common_inpainted_objects_in-n-out_of_context.md)
 - [\[ACL 2025\] Comparing LLM-generated and human-authored news text using formal syntactic theory](../../ACL2025/aigc_detection/llm_vs_human_formal_syntax.md)
+- [\[AAAI 2026\] BAID: A Benchmark for Bias Assessment of AI Detectors](../../AAAI2026/aigc_detection/baid_a_benchmark_for_bias_assessment_of_ai_detectors.md)
 - [\[ACL 2026\] DetectRL-X: Towards Reliable Multilingual and Real-World LLM-Generated Text Detection](detectrl-x_towards_reliable_multilingual_and_real-world_llm-generated_text_detec.md)
 - [\[ACL 2026\] Temporal Flattening in LLM-Generated Text: Comparing Human and LLM Writing Trajectories](temporal_flattening_in_llm-generated_text_comparing_human_and_llm_writing_trajec.md)
 

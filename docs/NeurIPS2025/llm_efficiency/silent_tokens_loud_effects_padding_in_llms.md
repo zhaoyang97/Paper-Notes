@@ -125,9 +125,9 @@ tags:
 
 - [\[ICML 2026\] Ekka: Automated Diagnosis of Silent Errors in LLM Inference](../../ICML2026/llm_efficiency/ekka_automated_diagnosis_of_silent_errors_in_llm_inference.md)
 - [\[NeurIPS 2025\] Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)
+- [\[CVPR 2026\] Rejection Mixing: Fast Semantic Propagation of Mask Tokens for Efficient DLLM Inference](../../CVPR2026/llm_efficiency/rejection_mixing_fast_semantic_propagation_of_mask_tokens_for_efficient_dllm_inf.md)
 - [\[NeurIPS 2025\] LooGLE v2: Are LLMs Ready for Real World Long Dependency Challenges?](loogle_v2_are_llms_ready_for_real_world_long_dependency_challenges.md)
 - [\[ICML 2025\] Long-Short Alignment for Effective Long-Context Modeling in LLMs](../../ICML2025/llm_efficiency/long-short_alignment_for_effective_long-context_modeling_in_llms.md)
-- [\[ACL 2025\] Distance between Relevant Information Pieces Causes Bias in Long-Context LLMs](../../ACL2025/llm_efficiency/distance_between_relevant_information_pieces_causes_bias_in_long-context_llms.md)
 
 </div>
 

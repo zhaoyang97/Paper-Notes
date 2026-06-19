@@ -17,10 +17,10 @@ tags:
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models
 
-**会议**: ACL2026
-**arXiv**: [2604.06291](https://arxiv.org/abs/2604.06291)
-**代码**: [GitHub](https://github.com/why0129/TalkLoRA)
-**领域**: 模型压缩
+**会议**: ACL2026  
+**arXiv**: [2604.06291](https://arxiv.org/abs/2604.06291)  
+**代码**: [GitHub](https://github.com/why0129/TalkLoRA)  
+**领域**: 模型压缩  
 **关键词**: LoRA, MoE, 参数高效微调, 专家通信, 路由均衡, Talking Module
 
 ## 一句话总结

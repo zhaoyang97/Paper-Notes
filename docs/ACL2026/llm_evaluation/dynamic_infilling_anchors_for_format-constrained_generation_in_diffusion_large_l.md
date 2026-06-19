@@ -84,6 +84,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | DIA | 之前方法 | 提升 / 说明 |
 |--------|------|------|----------|------|
 | GSM8K 0-shot | Format Score | 72.63 | Infilling: 58.83，Base/Instruct: 0.00 | 格式正确率显著提升 |
@@ -93,6 +94,7 @@ flowchart TD
 | WikiBio JSON | Valid JSON / Hallucination | 79.84 / 0.15 | Instruct raw: 52.80 / 4.81，Infilling: 0.01 / 0.00 | 原始匹配和正则提取下结果一致 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | DIA w/o Stage 1, GSM8K | Acc. 10.31，Format 0.00，Latency 14.99 | 去掉 confidence prediction 后格式几乎崩溃 |

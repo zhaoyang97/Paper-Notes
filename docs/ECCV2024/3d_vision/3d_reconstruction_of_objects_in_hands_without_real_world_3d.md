@@ -111,8 +111,8 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] Spring-Gaus: Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](reconstruction_and_simulation_of_elastic_objects_with_spring-mass_3d_gaussians.md)
 - [\[CVPR 2026\] 2D-LFM: Lifting Foundation Model without 3D Supervision](../../CVPR2026/3d_vision/2d-lfm_lifting_foundation_model_without_3d_supervision.md)
+- [\[ECCV 2024\] Spring-Gaus: Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](reconstruction_and_simulation_of_elastic_objects_with_spring-mass_3d_gaussians.md)
 - [\[CVPR 2026\] ICTPolarReal: A Polarized Reflection and Material Dataset of Real World Objects](../../CVPR2026/3d_vision/ictpolarreal_a_polarized_reflection_and_material_dataset_of_real_world_objects.md)
 - [\[ECCV 2024\] PISR: Polarimetric Neural Implicit Surface Reconstruction for Textureless and Specular Objects](pisr_polarimetric_neural_implicit_surface_reconstruction_for_textureless_and_spe.md)
 - [\[CVPR 2026\] JRM: Joint Reconstruction Model for Multiple Objects without Alignment](../../CVPR2026/3d_vision/jrm_joint_reconstruction_model_for_multiple_objects_without_alignment.md)

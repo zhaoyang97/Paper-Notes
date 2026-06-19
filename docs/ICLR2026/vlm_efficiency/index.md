@@ -1,17 +1,24 @@
 ---
 title: >-
-  ICLR2026 VLMEfficiency论文汇总 · 5篇论文解读
+  ICLR2026 VLMEfficiency论文汇总 · 8篇论文解读
 description: >-
-  5篇ICLR2026的 VLM Efficiency 方向论文解读，涵盖模型压缩、压缩/编码、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  8篇ICLR2026的 VLM Efficiency 方向论文解读，涵盖多模态、模型压缩、LLM、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "VLM Efficiency"
   - "论文解读"
   - "论文笔记"
-  - "模型压缩"
-  - "压缩/编码"
   - "多模态"
+  - "模型压缩"
+  - "LLM"
+  - "压缩/编码"
 item_list:
+  - u: "bolt_decisionaligned_distillation_and_budget-aware_routing_for_constrained_multi/"
+    t: "BOLT: Decision‑Aligned Distillation and Budget-Aware Routing for Constrained Multimodal QA on Robots"
+  - u: "enhancing_visual_token_representations_for_video_large_language_models_via_train/"
+    t: "Enhancing Visual Token Representations for Video Large Language Models via Training-free Spatial-Temporal Pooling and Gridding"
+  - u: "fastflow_accelerating_the_generative_flow_matching_models_with_bandit_inference/"
+    t: "FastFlow: Accelerating The Generative Flow Matching Models with Bandit Inference"
   - u: "hidrop_hierarchical_vision_token_reduction_in_mllms_via_late_injection_concave_p/"
     t: "HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit"
   - u: "index-preserving_lightweight_token_pruning_for_efficient_document_understanding_/"
@@ -22,17 +29,29 @@ item_list:
     t: "Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models"
   - u: "ppe_positional_preservation_embedding_for_token_compression_in_multimodal_large_/"
     t: "PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models"
-item_total: 5
+item_total: 8
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ VLM Efficiency
 
-**🔬 ICLR2026** · **5** 篇论文解读
+**🔬 ICLR2026** · **8** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (31)](../../CVPR2026/vlm_efficiency/index.md) · [🧪 ICML2026 (4)](../../ICML2026/vlm_efficiency/index.md) · [💬 ACL2026 (5)](../../ACL2026/vlm_efficiency/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/vlm_efficiency/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/vlm_efficiency/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/vlm_efficiency/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (63)](../../CVPR2026/vlm_efficiency/index.md) · [🧪 ICML2026 (4)](../../ICML2026/vlm_efficiency/index.md) · [💬 ACL2026 (6)](../../ACL2026/vlm_efficiency/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/vlm_efficiency/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/vlm_efficiency/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/vlm_efficiency/index.md)
 
-🔥 **高频主题：** 模型压缩 ×3 · 压缩/编码 ×2 · 多模态 ×2
+🔥 **高频主题：** 多模态 ×3 · 模型压缩 ×3 · LLM ×2 · 压缩/编码 ×2
+
+**[BOLT: Decision‑Aligned Distillation and Budget-Aware Routing for Constrained Multimodal QA on Robots](bolt_decisionaligned_distillation_and_budget-aware_routing_for_constrained_multi.md)**
+
+:   BOLT 把"机器人上的受限多选题问答"拆成训练期的**选项级决策蒸馏**（让 2B 小模型直接对齐 13B 教师在选项集上的偏好）和推理期的**预算感知路由**（只在便宜信号预示有正收益时才触发高分辨复评/同类检索/问题分解），用 2B 学生在 Robo2VLM-1 上做到 50.50% 准确率、反超 36.74% 的 13B 教师，同时把显存从 26.9GB 压到 3.8GB、能耗降 82.5%。
+
+**[Enhancing Visual Token Representations for Video Large Language Models via Training-free Spatial-Temporal Pooling and Gridding](enhancing_visual_token_representations_for_video_large_language_models_via_train.md)**
+
+:   针对视频大语言模型把成千上万视觉 token 压缩进有限上下文时丢失时空信息的问题，提出训练无关的 ST-GridPool：用「金字塔时序网格化」在不同时间尺度上聚合帧 token 注入多粒度运动信息，再用「基于范数的空间池化」依据 token 的 L2 范数加权保留高信息量区域，在 LLaVA-Video / LLaVA-OneVision 上即插即用、不需重训就稳定涨点。
+
+**[FastFlow: Accelerating The Generative Flow Matching Models with Bandit Inference](fastflow_accelerating_the_generative_flow_matching_models_with_bandit_inference.md)**
+
+:   FastFlow 是一个免训练、即插即用的流匹配（flow matching）推理加速框架：它用有限差分外推零成本地近似掉那些"几乎走直线"的冗余去噪步，并用一个多臂老虎机在线决定每次能安全跳几步，在图像/视频生成与编辑任务上拿到 2.6× 以上加速且基本不掉质量。
 
 **[HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit](hidrop_hierarchical_vision_token_reduction_in_mllms_via_late_injection_concave_p.md)**
 

@@ -94,6 +94,7 @@ FFHQ 上各取 1000 源/目标脸生成 1000 张换脸结果。FID 衡量真实�
 APPLE-Student 拿下全场最低 FID 和最优 Pose/Expr。CSCS（0.65）和 REFace（0.60）的 ID Sim 更高，但代价是属性保持崩坏（Pose/Expr 明显更差、肉眼可见 copy-paste 伪影）——作者论点是身份和属性本就 trade-off，过度偏向身份匹配对换脸是不可取的，APPLE 取得了更均衡的折中。
 
 ### 消融实验
+
 | 配置 | FID↓ | ID Sim↑ | Pose↓ | Expr↓ | 说明 |
 |------|------|---------|-------|-------|------|
 | Inpainting（基线） | 11.00 | 0.54 | 3.37 | 1.01 | 传统掩码条件 |
@@ -143,11 +144,11 @@ APPLE-Student 拿下全场最低 FID 和最优 Pose/Expr。CSCS（0.65）和 REF
 
 ## 相关论文
 
-- [\[CVPR 2026\] APPLE: Attribute-Preserving Pseudo-Labeling for Diffusion-Based Face Swapping](apple_attribute-preserving_pseudo-labeling_for_diffusion-based_face_swapping.md)
-- [\[CVPR 2026\] High-Fidelity Diffusion Face Swapping with ID-Constrained Facial Conditioning](high-fidelity_diffusion_face_swapping_with_id-constrained_facial_conditioning.md)
 - [\[CVPR 2026\] Preserving Source Video Realism: High-Fidelity Face Swapping for Cinematic Quality](preserving_source_video_realism_high-fidelity_face_swapping_for_cinematic_qualit.md)
-- [\[CVPR 2026\] Say Cheese! Detail-Preserving Portrait Collection Generation via Natural Language Edits](say_cheese_detail-preserving_portrait_collection_generation_via_natural_language.md)
-- [\[CVPR 2026\] Reviving ConvNeXt for Efficient Convolutional Diffusion Models](reviving_convnext_for_efficient_convolutional_diffusion_models.md)
+- [\[CVPR 2026\] High-Fidelity Diffusion Face Swapping with ID-Constrained Facial Conditioning](high-fidelity_diffusion_face_swapping_with_id-constrained_facial_conditioning.md)
+- [\[CVPR 2026\] Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization](omni-attribute_open-vocabulary_attribute_encoder_for_visual_concept_personalizat.md)
+- [\[CVPR 2026\] IDperturb: Enhancing Variation in Synthetic Face Generation via Angular Perturbations](idperturb_enhancing_variation_in_synthetic_face_generation_via_angular_perturbat.md)
+- [\[CVPR 2026\] All-in-One Slider for Attribute Manipulation in Diffusion Models](all_in_one_slider_attribute_manipulation.md)
 
 </div>
 

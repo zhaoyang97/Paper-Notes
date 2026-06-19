@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 信息检索/RAG论文汇总 · 22篇论文解读
+  ICML2026 信息检索/RAG论文汇总 · 26篇论文解读
 description: >-
-  22篇ICML2026的信息检索/RAG 方向论文解读，涵盖 RAG、对抗鲁棒、少样本学习、强化学习、压缩/编码、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  26篇ICML2026的信息检索/RAG 方向论文解读，涵盖 RAG、对抗鲁棒、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "信息检索/RAG"
@@ -10,9 +10,6 @@ tags:
   - "论文笔记"
   - "RAG"
   - "对抗鲁棒"
-  - "少样本学习"
-  - "强化学习"
-  - "压缩/编码"
   - "对齐/RLHF"
 item_list:
   - u: "blitzrank_principled_zero-shot_ranking_agents_with_tournament_graphs/"
@@ -27,12 +24,16 @@ item_list:
     t: "Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation"
   - u: "how_can_embedding_models_bind_concepts/"
     t: "How can embedding models bind concepts?"
+  - u: "lare_low-attention_region_encoding_for_text-image_retrieval/"
+    t: "LARE: Low-Attention Region Encoding for Text–Image Retrieval"
   - u: "lazyattention_efficient_retrieval-augmented_generation_with_deferred_positional_/"
     t: "LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding"
   - u: "lemur_learned_multi-vector_retrieval/"
     t: "LEMUR: Learned Multi-Vector Retrieval"
   - u: "less_is_more_elevating_rag_via_performance-driven_context_compression/"
     t: "Less Is More: Elevating RAG via Performance-Driven Context Compression"
+  - u: "linguistic_nepotism_trading-off_quality_for_language_preference_in_multilingual_/"
+    t: "Linguistic Nepotism: Trading-off Quality for Language Preference in Multilingual RAG"
   - u: "ml-embed_inclusive_and_efficient_embeddings_for_a_multilingual_world/"
     t: "ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World"
   - u: "pariskv_fast_and_drift-robust_kv-cache_retrieval_for_long-context_llms/"
@@ -51,6 +52,10 @@ item_list:
     t: "Retriever Portfolios: A Principled Approach to Adaptive RAG"
   - u: "seeing_to_generalize_how_visual_data_corrects_binding_shortcuts/"
     t: "Seeing to Generalize: How Visual Data Corrects Binding Shortcuts"
+  - u: "self-augmenting_retrieval_for_diffusion_language_models/"
+    t: "Self-Augmenting Retrieval for Diffusion Language Models"
+  - u: "temporal_preference_optimization_for_unsupervised_retrieval/"
+    t: "Temporal Preference Optimization for Unsupervised Retrieval"
   - u: "through_the_stealth_lens_attention-aware_defenses_against_poisoning_in_rag/"
     t: "Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG"
   - u: "understand_and_accelerate_memory_processing_pipeline_for_disaggregated_llm_infer/"
@@ -59,17 +64,17 @@ item_list:
     t: "Understanding LoRA as Knowledge Memory: An Empirical Analysis"
   - u: "vector_linking_via_cross-model_local_isometric_consistency/"
     t: "基于跨模型局部等距一致性的向量链接"
-item_total: 22
+item_total: 26
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🧪 ICML2026** · **22** 篇论文解读
+**🧪 ICML2026** · **26** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (70)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×8 · 对抗鲁棒 ×2
+🔥 **高频主题：** RAG ×9 · 对抗鲁棒 ×2 · 对齐/RLHF ×2
 
 **[BlitzRank: Principled Zero-shot Ranking Agents with Tournament Graphs](blitzrank_principled_zero-shot_ranking_agents_with_tournament_graphs.md)**
 
@@ -95,6 +100,10 @@ item_total: 22
 
 :   本文把 "embedding 模型为什么不会绑定概念" 形式化成 "binding function 的复杂度问题"：通过几何分析证明 CLIP 的场景嵌入可加性分解成对象与概念之和（解释了单模态可探测、跨模态却失败），并在受控 Transformer 上证明当数据覆盖足够时，模型会学到一个由概念间**乘性交互**主导的低复杂度 binding，从而实现对未见对象组合的系统性泛化。
 
+**[LARE: Low-Attention Region Encoding for Text–Image Retrieval](lare_low-attention_region_encoding_for_text-image_retrieval.md)**
+
+:   LARE 是一个**免训练**的文本-图像检索框架：它把视觉编码器内部「低注意力」的区域单独抠出来再编码，用置信度门控的方式补进全局相似度里，从而在拥挤、含小目标/稀有目标的密集场景里把 CLIP/SigLIP 这类双编码器的检索召回明显拉高，而在常规数据集上几乎不掉点。
+
 **[LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding](lazyattention_efficient_retrieval-augmented_generation_with_deferred_positional_.md)**
 
 :   LazyAttention 把 RoPE 位置编码从 KV 缓存写入阶段推迟到 attention kernel 内部 on-the-fly 完成，让同一份物理 KV 副本可以被任意 logical 位置复用，在 skewed RAG 工作负载上比 SOTA Block-Attention 减少 1.37× TTFT、提升 1.40× 吞吐，且生成质量基本无损。
@@ -106,6 +115,10 @@ item_total: 22
 **[Less Is More: Elevating RAG via Performance-Driven Context Compression](less_is_more_elevating_rag_via_performance-driven_context_compression.md)**
 
 :   CORE-RAG 用"性能即奖励"的 GRPO 强化学习训练一个 1.5B 小压缩器，把检索到的 top-k 文档压成 ~3% 长度的摘要，结果不仅没掉点反而在 4 个 QA benchmark 上比满上下文 RAG 平均提升 3.3 EM。
+
+**[Linguistic Nepotism: Trading-off Quality for Language Preference in Multilingual RAG](linguistic_nepotism_trading-off_quality_for_language_preference_in_multilingual_.md)**
+
+:   这篇论文设计了一套用模型内部信号（下一 token 引用预测概率）来测量多语言 RAG 中"语言偏好"的可控方法，发现六个开源大模型在长文生成时系统性地偏爱引用英文文档，并且在英文文档不相关时也照引不误——语言本身比文档相关性更能左右模型的引用选择。
 
 **[ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World](ml-embed_inclusive_and_efficient_embeddings_for_a_multilingual_world.md)**
 
@@ -142,6 +155,14 @@ item_total: 22
 **[Seeing to Generalize: How Visual Data Corrects Binding Shortcuts](seeing_to_generalize_how_visual_data_corrects_binding_shortcuts.md)**
 
 :   本文用一个"颜色-形状-item"受控合成检索任务复现了"VLM 在纯文本任务上超过其 base LLM"的奇怪现象，并用机制可解释性证明：图像训练让模型把变量绑定策略从"位置捷径"切换到"语义符号匹配"，这一切换在重新接回纯文本后被保留下来，使 OOD 检索准确率从 37.2% 提升到 69.5%；在真实 Qwen2/2.5/3 家族上也观察到一致的"symbolic/positional 比例上升"。
+
+**[Self-Augmenting Retrieval for Diffusion Language Models](self-augmenting_retrieval_for_diffusion_language_models.md)**
+
+:   利用扩散语言模型在去噪过程中对所有位置同时给出的"暂定预测"作为前瞻信号，在每一步去噪时用这些尚未提交的 token 重新检索证据，提出训练无关、检索器无关的动态 RAG 框架 SARDI，在 5 个多跳 QA 基准上同时打败扩散和自回归的训练无关检索基线，且吞吐量最高快 8 倍。
+
+**[Temporal Preference Optimization for Unsupervised Retrieval](temporal_preference_optimization_for_unsupervised_retrieval.md)**
+
+:   本文提出 TPOUR，把 DPO 式偏好学习搬到检索的**时间维度**上，让无监督密集检索器在语义相近但时间错位的文档里优先选出"时间对齐"的那一篇，并用时间向量插值零成本泛化到没训练过的年份。
 
 **[Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG](through_the_stealth_lens_attention-aware_defenses_against_poisoning_in_rag.md)**
 

@@ -62,6 +62,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | 本文最佳/代表法律模型 | 最强通用模型 | 结论 |
 |--------|------|------|----------|------|
 | UNFAIR-ToS | micro-F1 / macro-F1 | Contracts-BERT 96.2 / 83.4；Legal-BERT 96.0 / 82.2 | RoBERTa-large 95.8 / 81.6；Mistral 96.0 / 80.7 | 法律模型在 macro-F1 上更强 |
@@ -71,6 +72,7 @@ tags:
 | 平均表现 | Mean macro-F1 | Contracts-BERT 81.10±2.45 | 通用模型未作为表 2 主体汇总 | Contracts-BERT 对长尾标签更稳 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Legal-BERT | Mean micro-F1 88.48±6.03，macro-F1 80.90±2.05 | 综合 micro-F1 排名第一 |

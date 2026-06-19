@@ -94,6 +94,7 @@ TaskIT 本身不引入新的训练损失——选中的稀疏 LoRA 子集按常�
 TaskIT 自身：可学参数 16.8M，图像任务平均精度 80.4%、显存仅 **7.8 GB**（卡在 8 GB 预算内）；NLP 平均 90.1% / 7.9 GB；VL 平均 83.6% / 7.8 GB。对照 AutoLoRA 图像 80.7% 却要 14.3 GB——精度几乎打平、显存近乎减半。
 
 ### 消融实验
+
 | 配置 | 可学参数(M) | 显存(GB) | 精度(%) | 说明 |
 |------|------|------|---------|------|
 | w/o S（去任务相似度，改均匀） | 16.8 | 7.6 | 75.3 | 精度掉 5.1%，证明相似度估计必要 |
@@ -134,11 +135,11 @@ TaskIT 自身：可学参数 16.8M，图像任务平均精度 80.4%、显存仅 
 
 ## 相关论文
 
+- [\[CVPR 2026\] FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection](faar_efficient_frequency-aware_multi-task_fine-tuning_via_automatic_rank_selecti.md)
 - [\[CVPR 2026\] LoPrune: Efficient Data Pruning for LoRA-Based Fine-Tuning of Vision Transformer](loprune_efficient_data_pruning_for_lora-based_fine-tuning_of_vision_transformer.md)
 - [\[CVPR 2026\] Discovering Adaptive Task Dependencies for Efficient Multi-Task Representation Compression](discovering_adaptive_task_dependencies_for_efficient_multi-task_representation_c.md)
 - [\[CVPR 2026\] Memory-Efficient Transfer Learning with Fading Side Networks via Masked Dual Path Distillation](memory_efficient_transfer_learning_with_fading_side_networks.md)
 - [\[NeurIPS 2025\] EMLoC: Emulator-based Memory-efficient Fine-tuning with LoRA Correction](../../NeurIPS2025/model_compression/emloc_emulator-based_memory-efficient_fine-tuning_with_lora_correction.md)
-- [\[CVPR 2026\] Frequency Switching Mechanism for Parameter-Efficient Multi-Task Learning](frequency_switching_mechanism_for_parameter-ecient_multi-task_learning.md)
 
 </div>
 

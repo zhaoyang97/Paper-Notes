@@ -86,6 +86,7 @@ KITTI-360 上与 3D 生成 / I2V baseline 的对比（FID/KID/FVD 越低越好�
 WAN 变体在 3D 生成类里全面领先（FID 22.9 / Met3R 0.125），相机精度也远超纯 3D GAN baseline。与 I2V 方法比 FID/FVD 并不完全公平（它们生成帧常与 GT 重叠），但 ScenDi 给出相当画质，且在输入与当前视角重叠很小时不像 Gen3C 那样质量崩坏。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | w/o $L_{bce}$, G=1 | PSNR 21.47 / SSIM 0.750 / LPIPS 0.327 | 去掉占用监督，几何变差 |
@@ -135,9 +136,9 @@ WAN 变体在 3D 生成类里全面领先（FID 22.9 / Met3R 0.125），相机�
 
 - [\[CVPR 2025\] Lifting Motion to the 3D World via 2D Diffusion](../../CVPR2025/image_generation/lifting_motion_to_the_3d_world_via_2d_diffusion.md)
 - [\[CVPR 2026\] StyleTextGen: Style-Conditioned Multilingual Scene Text Generation](styletextgen_style-conditioned_multilingual_scene_text_generation.md)
+- [\[CVPR 2026\] A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation](a_self-conditioned_representation_guided_diffusion_model_for_realistic_text-to-l.md)
 - [\[CVPR 2026\] 3D Space as a Scratchpad for Editable Text-to-Image Generation](3d_space_as_a_scratchpad_for_editable_text-to-image_generation.md)
 - [\[CVPR 2025\] Move-in-2D: 2D-Conditioned Human Motion Generation](../../CVPR2025/image_generation/move-in-2d_2d-conditioned_human_motion_generation.md)
-- [\[CVPR 2026\] PhysGen: Physically Grounded 3D Shape Generation for Industrial Design](physgen_physically_grounded_3d_shape_generation_for_industrial_design.md)
 
 </div>
 

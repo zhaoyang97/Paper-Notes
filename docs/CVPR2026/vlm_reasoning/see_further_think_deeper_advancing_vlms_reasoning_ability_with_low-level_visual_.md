@@ -2,10 +2,10 @@
 title: >-
   [论文解读] See Further, Think Deeper: Advancing VLM's Reasoning Ability with Low-level Visual Cues and Reflection
 description: >-
-  [CVPR 2026][多模态VLM][视觉语言模型] ForeSight 给 VLM 配上一套低层视觉工具（Canny / 缩放 / 调色）和一个基于掩码的视觉反思机制，用 GRPO 强化学习让 7B 模型在推理时自主决定"何时调工具、要不要推翻初稿答案"，在自建的 Odd-One-Out 显著性定位基准 CG-SalBench 上把 IoU 从 32.56% 拉到 62.24%，逼近 72B 模型。
+  [CVPR 2026][VLM Reasoning][视觉语言模型] ForeSight 给 VLM 配上一套低层视觉工具（Canny / 缩放 / 调色）和一个基于掩码的视觉反思机制，用 GRPO 强化学习让 7B 模型在推理时自主决定"何时调工具、要不要推翻初稿答案"，在自建的 Odd-One-Out 显著性定位基准 CG-SalBench 上把 IoU 从 32.56% 拉到 62.24%，逼近 72B 模型。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉语言模型"
   - "强化学习"
   - "多模态思维链"
@@ -175,10 +175,10 @@ CG-SalBench 是作者在 SalBench 上扩展的 Odd-One-Out 定位+识别基准�
 ## 相关论文
 
 - [\[CVPR 2026\] See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning](see_less_see_right_bi-directional_perceptual_shaping_for_multimodal_reasoning.md)
-- [\[CVPR 2026\] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)
 - [\[CVPR 2026\] See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles](see_think_act_teaching_multimodal_agents_to_effectively_interact_with_gui_by_ide.md)
-- [\[ICML 2026\] What You Think is What You See: Driving Exploration in VLM Agents via Visual-Linguistic Curiosity (GLANCE)](../../ICML2026/multimodal_vlm/what_you_think_is_what_you_see_driving_exploration_in_vlm_agents_via_visual-ling.md)
-- [\[CVPR 2026\] Don't Show Pixels, Show Cues: Unlocking Visual Tool Reasoning in Language Models via Perception Programs](dont_show_pixels_show_cues_unlocking_visual_tool_reasoning_in_language_models_vi.md)
+- [\[CVPR 2026\] VRR-QA: Visual Relational Reasoning in Videos Beyond Explicit Cues](vrr-qa_visual_relational_reasoning_in_videos_beyond_explicit_cues.md)
+- [\[ICML 2026\] What You Think is What You See: Driving Exploration in VLM Agents via Visual-Linguistic Curiosity (GLANCE)](../../ICML2026/vlm_reasoning/what_you_think_is_what_you_see_driving_exploration_in_vlm_agents_via_visual-ling.md)
+- [\[ICLR 2026\] VLM-SubtleBench: How Far Are VLMs from Human-Level Subtle Comparative Reasoning?](../../ICLR2026/vlm_reasoning/vlm-subtlebench_how_far_are_vlms_from_human-level_subtle_comparative_reasoning.md)
 
 </div>
 

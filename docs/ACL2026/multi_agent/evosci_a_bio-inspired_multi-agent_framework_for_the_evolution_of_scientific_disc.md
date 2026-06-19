@@ -98,6 +98,7 @@ EvoSci 没有参数训练损失，优化来自工作流中的评审反馈和演�
 ## 实验关键数据
 
 ### 主实验
+
 | Backbone | 指标 | EvoSci | 最强对照 | 结论 |
 |--------|------|------|----------|------|
 | GPT-4o | ICLR Overall / NeurIPS Overall | 4.45 / 3.44 | VirSci 4.28 / 3.26 | EvoSci 综合分最高 |
@@ -107,6 +108,7 @@ EvoSci 没有参数训练损失，优化来自工作流中的评审反馈和演�
 | Tournament | Avg Wins / Top-10 Count | GPT-4o: 4.27 / 54；DeepSeek-v3: 4.19 / 47；Qwen3-max: 4.25 / 50 | 各 backbone 其他方法更低 | 相对排序也支持主结论 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | w/ Problem Guidance | Novelty 4.78, ICLR 4.45, NeurIPS 3.44 | 结构化问题空间提升新颖性和整体质量 |
@@ -152,10 +154,10 @@ EvoSci 没有参数训练损失，优化来自工作流中的评审反馈和演�
 ## 相关论文
 
 - [\[ACL 2026\] PosterForest: Hierarchical Multi-Agent Collaboration for Scientific Poster Generation](posterforest_hierarchical_multi-agent_collaboration_for_scientific_poster_genera.md)
-- [\[CVPR 2026\] Symphony: A Cognitively-Inspired Multi-Agent System for Long-Video Understanding](../../CVPR2026/multi_agent/symphony_a_cognitively-inspired_multi-agent_system_for_long-video_understanding.md)
 - [\[ACL 2026\] EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution](evospark_endogenous_interactive_agent_societies_for_unified_long-horizon_narrati.md)
-- [\[CVPR 2026\] SciEducator: Scientific Video Understanding and Educating via Deming-Cycle Multi-Agent System](../../CVPR2026/multi_agent/scieducator_scientific_video_understanding_and_educating_via_deming-cycle_multi-.md)
 - [\[ICLR 2026\] Auditing Cascading Risks in Multi-Agent Systems via Semantic–Geometric Co-evolution](../../ICLR2026/multi_agent/auditing_cascading_risks_in_multi-agent_systems_via_semanti-geometric_co-evolut.md)
+- [\[ACL 2026\] A Multi-Agent Framework for Feature-Constrained Difficulty Control in Reading Comprehension Item Generation](a_multi-agent_framework_for_feature-constrained_difficulty_control_in_reading_co.md)
+- [\[ACL 2026\] MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering](mata_multi-agent_framework_for_reliable_and_flexible_table_question_answering.md)
 
 </div>
 

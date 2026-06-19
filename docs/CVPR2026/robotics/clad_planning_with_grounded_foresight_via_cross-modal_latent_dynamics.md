@@ -96,6 +96,7 @@ $$\mathcal{L}_{\text{latent}} = \left\| \hat z^{t+\tau}_p - \frac{\bar z^{t+\tau
 效率上同样占优——推理 25 Hz、显存仅 4 GB，远低于 OpenVLA（6 Hz / 15 GB）和 π0.5（10 Hz / 19 GB）；与同为潜在规划的 UVA（90.0%）、LBP（88.6%）相比，CLaD 以 0.012s 的规划延迟换来更高成功率。
 
 ### 消融实验
+
 | 配置 | 平均成功率 | 说明 |
 |------|-----------|------|
 | 完整 CLaD（双模态预见） | 94.7% | — |
@@ -144,9 +145,9 @@ $$\mathcal{L}_{\text{latent}} = \left\| \hat z^{t+\tau}_p - \frac{\bar z^{t+\tau
 
 - [\[CVPR 2026\] AGiLe: Learning Robust Long-Horizon Manipulation via Affordance-Grounded Bidirectional Latent Planning](agile_learning_robust_long-horizon_manipulation_via_affordance-grounded_bidirect.md)
 - [\[CVPR 2026\] ForeAct: Steering Your VLA with Efficient Visual Foresight Planning](foreact_steering_your_vla_with_efficient_visual_foresight_planning.md)
+- [\[CVPR 2026\] Hoi! - A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation](hoi_-_a_multimodal_dataset_for_force-grounded_cross-view_articulated_manipulatio.md)
 - [\[CVPR 2026\] Cross-Hand Latent Representation for Vision-Language-Action Models](cross-hand_latent_representation_for_vision-language-action_models.md)
 - [\[CVPR 2026\] AURA: Multi-modal Shared Autonomy for Urban Navigation](aura_multi-modal_shared_autonomy_for_urban_navigation.md)
-- [\[CVPR 2026\] FloVerse: Floor Plan-Guided Multi-Modal Navigation](floverse_floor_plan-guided_multi-modal_navigation.md)
 
 </div>
 

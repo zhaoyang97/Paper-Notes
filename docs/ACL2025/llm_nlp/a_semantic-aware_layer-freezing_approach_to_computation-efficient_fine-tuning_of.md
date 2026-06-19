@@ -139,8 +139,8 @@ tags:
 - [\[ACL 2025\] Efficient Ensemble for Fine-tuning Language Models on Multiple Datasets](efficient_ensemble_for_fine-tuning_language_models_on_multiple_datasets.md)
 - [\[ACL 2025\] Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models](refining_salience-aware_sparse_fine-tuning_strategies_for_language_models.md)
 - [\[ACL 2025\] HFT: Half Fine-Tuning for Large Language Models](hft_half_fine-tuning_for_large_language_models.md)
-- [\[ACL 2025\] Quantifying Semantic Emergence in Language Models](quantifying_semantic_emergence_in_language_models.md)
 - [\[ACL 2025\] PiFi: Plug-in and Fine-tuning: Bridging the Gap between Small Language Models and Large Language Models](plugin_finetuning_bridge.md)
+- [\[ACL 2025\] Quantifying Semantic Emergence in Language Models](quantifying_semantic_emergence_in_language_models.md)
 
 </div>
 

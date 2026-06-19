@@ -89,6 +89,7 @@ Hive 的主结果分两层：一是在 Hive 自身 test set 上验证高密度�
 | VGGClean_eval | FlowSep(Hive) OQ | 3.18 | FlowSep 原版 2.99 | 参考无关质量提升，说明不只是过拟合 Hive |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 一致性混合 AudioSep | SDR 4.12, SI-SDR 3.37, CLAP-T 0.29 | 在 175k 混合样本上训练，使用语义兼容矩阵 |

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 幻觉检测论文汇总 · 27篇论文解读
+  ACL2026 幻觉检测论文汇总 · 28篇论文解读
 description: >-
-  27篇ACL2026的幻觉检测方向论文解读，涵盖 LLM、多模态、语音、RAG等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  28篇ACL2026的幻觉检测方向论文解读，涵盖 LLM、多模态、语音、RAG等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "幻觉检测"
@@ -47,6 +47,8 @@ item_list:
     t: "Mitigating Hallucinations in Large Vision-Language Models without Performance Degradation"
   - u: "multihaludet_multilingual_hallucination_detection_via_llm_hidden_state_probing/"
     t: "MultiHaluDet: Multilingual Hallucination Detection via LLM Hidden State Probing"
+  - u: "parametric_knowledge_is_not_all_you_need_toward_honest_large_language_models_via/"
+    t: "Parametric Knowledge is Not All You Need: Toward Honest Large Language Models via Retrieval of Pretraining Data"
   - u: "rethinking_evaluation_for_llm_hallucination_detection_a_desiderata_a_new_rag-bas/"
     t: "Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights"
   - u: "spotlight_and_shadow_attention-guided_dual-anchor_introspective_decoding_for_mll/"
@@ -67,17 +69,17 @@ item_list:
     t: "Vocabulary Hijacking in LVLMs: Unveiling Critical Attention Heads by Excluding Inert Tokens to Mitigate Hallucination"
   - u: "why_llms_hallucinate_on_structured_knowledge_a_mechanistic_analysis_of_reasoning/"
     t: "为什么 LLM 在结构化知识上产生幻觉：推理过程的机制分析"
-item_total: 27
+item_total: 28
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👻 幻觉检测
 
-**💬 ACL2026** · **27** 篇论文解读
+**💬 ACL2026** · **28** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (38)](../../CVPR2026/hallucination/index.md) · [🧪 ICML2026 (19)](../../ICML2026/hallucination/index.md) · [🔬 ICLR2026 (9)](../../ICLR2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (33)](../../CVPR2026/hallucination/index.md) · [🧪 ICML2026 (21)](../../ICML2026/hallucination/index.md) · [🔬 ICLR2026 (13)](../../ICLR2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
 
-🔥 **高频主题：** LLM ×7 · 多模态 ×4 · 语音 ×3 · RAG ×3
+🔥 **高频主题：** LLM ×8 · 多模态 ×4 · 语音 ×3 · RAG ×3
 
 **[Aligning with Your Own Voice: Self-Corrected Preference Learning for Hallucination Mitigation in LVLMs](aligning_with_your_own_voice_self-corrected_preference_learning_for_hallucinatio.md)**
 
@@ -146,6 +148,10 @@ item_total: 27
 **[MultiHaluDet: Multilingual Hallucination Detection via LLM Hidden State Probing](multihaludet_multilingual_hallucination_detection_via_llm_hidden_state_probing.md)**
 
 :   MultiHaluDet 用冻结 LLM 的全层隐状态轨迹做多尺度序列建模，再通过 out-of-fold 表征和集成元学习器判别幻觉，在 HaluEval / TriviaQA 上达到约 98% AUROC，并能迁移到法语、孟加拉语和阿姆哈拉语。
+
+**[Parametric Knowledge is Not All You Need: Toward Honest Large Language Models via Retrieval of Pretraining Data](parametric_knowledge_is_not_all_you_need_toward_honest_large_language_models_via.md)**
+
+:   作者指出现有「LLM 诚实性」基准都没考虑模型在预训练中到底见过什么知识，于是借助训练数据完全公开的 Pythia，用「预训练数据里能否检索到答案」来精确划定知识边界、构建出更可靠的 TIP-TriviaQA 基准；并提出三智能体方法 RETAIN——直接检索模型自己的预训练语料来决定「该答还是该拒」，把诚实性 EM-F1 从基线最高的 ~40 提到 58.57。
 
 **[Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights](rethinking_evaluation_for_llm_hallucination_detection_a_desiderata_a_new_rag-bas.md)**
 

@@ -97,6 +97,7 @@ flowchart TD
 核心结论：(1) 即便最强的 Gemini 1.5 Flash 在 high 任务也只有 2.81，远低于人类 4.23，开放式跨模态描述几乎都「在三分以下」；(2) align 上 Gemini 双向均最优，开源里 LongVALE/VideoLLaMA2 因做过音视频联合训练在 A2V 占优，Qwen2.5-Omni 在 V2A 最强；(3) 没有任何开源模型实现了有效的音视频联合时序理解。
 
 ### 子任务细分（FAVE-low 三类时序关系）
+
 | 模型 | Order | Proximity | Position |
 |------|-------|-----------|----------|
 | Gemini 1.5 Flash | 80.00 | 63.03 | 83.00 |
@@ -142,11 +143,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] HAVE-Bench: Hierarchical Audio-Visual Evaluation from Perception to Interaction](have-bench_hierarchical_audio-visual_evaluation_from_perception_to_interaction.md)
 - [\[CVPR 2026\] CoV-Align: Efficient Fine-grained Cross-Modal Alignment with Cohesive Visual Semantics Priority](cov-align_efficient_fine-grained_cross-modal_alignment_with_cohesive_visual_sema.md)
 - [\[CVPR 2026\] HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics](handyvqa_a_video_qa_benchmark_for_fine-grained_hand-object_interaction_dynamics.md)
 - [\[CVPR 2026\] TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](timelens_rethinking_video_temporal_grounding_with_multimodal_llms.md)
 - [\[CVPR 2026\] OddGridBench: Exposing the Lack of Fine-Grained Visual Discrepancy Sensitivity in Multimodal Large Language Models](oddgridbench_exposing_the_lack_of_fine-grained_visual_discrepancy_sensitivity_in.md)
-- [\[CVPR 2026\] Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts](chart-fr1_visual_focus-driven_fine-grained_reasoning_on_dense_charts.md)
 
 </div>
 

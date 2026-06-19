@@ -117,6 +117,7 @@ DMControl 四个 hard 任务（Flare 提出），输入 84×84 图像、三帧�
 CD-CCA 在大多数任务拿到 SOTA，且**跨种子标准差明显更小**，说明收敛更稳、对初始化更不敏感。
 
 ### 消融实验
+
 | 配置 | 结论 | 说明 |
 |------|------|------|
 | Full (CBP+EWC+CrossAttn) | 最优 | 可塑—稳定平衡、收敛更稳 |
@@ -169,8 +170,8 @@ CD-CCA 在大多数任务拿到 SOTA，且**跨种子标准差明显更小**，�
 - [\[ICML 2025\] Mitigating Plasticity Loss in Continual Reinforcement Learning by Reducing Churn](../../ICML2025/reinforcement_learning/mitigating_plasticity_loss_in_continual_reinforcement_learning_by_reducing_churn.md)
 - [\[ICML 2026\] Position: Deployed Reinforcement Learning should be Continual](../../ICML2026/reinforcement_learning/position_deployed_reinforcement_learning_should_be_continual.md)
 - [\[CVPR 2026\] TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization](tstm_temporal_segmentation_for_task-relevant_mask_in_visual_reinforcement_learni.md)
-- [\[ICML 2026\] SPHERE: Mitigating the Loss of Spectral Plasticity in Mixture-of-Experts for Deep Reinforcement Learning](../../ICML2026/reinforcement_learning/sphere_mitigating_the_loss_of_spectral_plasticity_in_mixture-of-experts_for_deep.md)
 - [\[ICML 2026\] Shapley Neuron Values for Continual Learning: Which Neurons Matter Most?](../../ICML2026/reinforcement_learning/shapley_neuron_values_for_continual_learning_which_neurons_matter_most.md)
+- [\[ICML 2026\] SPHERE: Mitigating the Loss of Spectral Plasticity in Mixture-of-Experts for Deep Reinforcement Learning](../../ICML2026/reinforcement_learning/sphere_mitigating_the_loss_of_spectral_plasticity_in_mixture-of-experts_for_deep.md)
 
 </div>
 

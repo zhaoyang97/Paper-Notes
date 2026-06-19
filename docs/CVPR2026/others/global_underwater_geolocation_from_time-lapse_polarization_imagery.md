@@ -148,11 +148,11 @@ $$L = \lambda_{\text{elev}}\cdot\frac{1}{64}\sum_{i=1}^{64}\lVert s^{gt}_i-\hat 
 
 ## 相关论文
 
-- [\[CVPR 2026\] AVGGT: Rethinking Global Attention for Accelerating VGGT](avggt_rethinking_global_attention_for_accelerating_vggt.md)
-- [\[CVPR 2026\] Beyond Global Similarity: Multi-Conditional Retrieval for Fine-Grained Cross-Modal Understanding](beyond_global_similarity_multi-conditional_retrieval_for_fine-grained_cross-moda.md)
+- [\[CVPR 2026\] Global Information Thresholding for Sufficient and Necessary Circuits](global_information_thresholding_for_sufficient_and_necessary_circuits.md)
 - [\[CVPR 2026\] Neural Collapse in Test-Time Adaptation](neural_collapse_in_test-time_adaptation.md)
-- [\[CVPR 2026\] ViT3: Unlocking Test-Time Training in Vision](vit3_unlocking_test_time_training_in_vision.md)
 - [\[ICLR 2026\] The Invisibility Hypothesis: Promises of AGI and the Future of the Global South](../../ICLR2026/others/the_invisibility_hypothesis_promises_of_agi_and_the_future_of_the_global_south.md)
+- [\[CVPR 2026\] ViT3: Unlocking Test-Time Training in Vision](vit3_unlocking_test_time_training_in_vision.md)
+- [\[ICML 2025\] Probably Approximately Global Robustness Certification](../../ICML2025/others/probably_approximately_global_robustness_certification.md)
 
 </div>
 

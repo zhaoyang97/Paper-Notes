@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OneThinker: All-in-one Reasoning Model for Image and Video
 description: >-
-  [CVPR 2026][多模态VLM][多模态推理通才] 用一个 8B 模型同时把图像和视频上的 10 类基础视觉任务（问答、描述、时空 grounding、跟踪、分割）统一成「先 think 再结构化输出」的推理范式，靠新提出的 EMA-GRPO 解决多任务 RL 里不同任务奖励量纲/密度差异巨大导致的优化失衡，在 31 个 benchmark 上全面超越同规模专用模型。
+  [CVPR 2026][VLM Reasoning][多模态推理通才] 用一个 8B 模型同时把图像和视频上的 10 类基础视觉任务（问答、描述、时空 grounding、跟踪、分割）统一成「先 think 再结构化输出」的推理范式，靠新提出的 EMA-GRPO 解决多任务 RL 里不同任务奖励量纲/密度差异巨大导致的优化失衡，在 31 个 benchmark 上全面超越同规模专用模型。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态推理通才"
   - "强化学习"
   - "GRPO"
@@ -166,11 +166,11 @@ $$\mathbb{E}_{q,\{o_i\}}\Big[\tfrac{1}{G}\sum_{i=1}^{G}\big(\min(r_i A_i^\tau, \
 
 ## 相关论文
 
-- [\[CVPR 2026\] One Patch to Caption Them All: A Unified Zero-Shot Captioning Framework](one_patch_to_caption_them_all_a_unified_zero-shot_captioning_framework.md)
-- [\[CVPR 2026\] MUPO: All Roads Lead to Rome - Incentivizing Divergent Thinking in Vision-Language Models](mupo_all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vlms.md)
-- [\[AAAI 2026\] ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration](../../AAAI2026/multimodal_vlm/clearair_a_human-visual-perception-inspired_all-in-one_image_restoration.md)
+- [\[CVPR 2026\] All Roads Lead to Rome: Incentivizing Divergent Thinking in Vision-Language Models](all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vision-language_model.md)
 - [\[CVPR 2026\] PhysInOne: Visual Physics Learning and Reasoning in One Suite](physisinone_visual_physics_learning_and_reasoning_in_one_suite.md)
-- [\[CVPR 2026\] MSJoE: Jointly Evolving MLLM and Sampler for Efficient Long-Form Video Understanding](msjoe_jointly_evolving_mllm_and_sampler_for_efficient_long-form_video_understand.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
+- [\[CVPR 2026\] ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](realign_generalizable_image_forgery_detection_via_reasoning-aligned_representati.md)
+- [\[CVPR 2026\] Monet: Reasoning in Latent Visual Space Beyond Image and Language](monet_reasoning_in_latent_visual_space_beyond_image_and_language.md)
 
 </div>
 

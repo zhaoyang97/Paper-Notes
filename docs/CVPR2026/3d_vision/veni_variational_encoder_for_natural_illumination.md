@@ -90,6 +90,7 @@ flowchart TD
 低维（$D=27$）下优势最大，Ours(opt) 把 PSNR 从 18.02 提到 20.33（+2.3 dB）；高维下 Ours(opt) 仍稳定领先 RENI++。
 
 ### 唯一性与可扩展性
+
 | 隐维 D | Uniqueness↓ RENI++ | Uniqueness↓ Ours | Recon. Consistency↑ RENI++ | Recon. Consistency↑ Ours |
 |--------|------|------|------|------|
 | 27 | 1.46 | **0.04** | 0.17 | **0.50** |
@@ -108,6 +109,7 @@ Uniqueness 是「同一张图优化出两个隐码、取其插值中点重建图
 RENI++ 随数据增大反而从 20.11 跌到 17.14，而 VENI 的 AE 前向随数据增大从 16.00 升到 16.77——印证了 autodecoder 的唯一性退化与 VAE 的可扩展性。
 
 ### 消融实验
+
 | 配置 | PSNR@27 | PSNR@147 | PSNR@300 | 说明 |
 |------|---------|----------|----------|------|
 | Ours (完整) | 18.78 | 19.40 | 19.47 | AE 前向完整模型 |
@@ -156,9 +158,9 @@ RENI++ 随数据增大反而从 20.11 跌到 17.14，而 VENI 的 AE 前向随�
 
 - [\[CVPR 2026\] Variational Graph-based Normal Integration](variational_graph-based_normal_integration.md)
 - [\[CVPR 2026\] Illumination-Consistent Human-Scene Reconstruction from Monocular Video](illumination-consistent_human-scene_reconstruction_from_monocular_video.md)
-- [\[CVPR 2026\] Glove2Hand: Synthesizing Natural Hand-Object Interaction from Multi-Modal Sensing Gloves](glove2hand_synthesizing_natural_hand-object_interaction_from_multi-modal_sensing.md)
-- [\[CVPR 2026\] Color-Encoded Illumination for High-Speed Volumetric Scene Reconstruction](color-encoded_illumination_for_high-speed_volumetric_scene_reconstruction.md)
 - [\[CVPR 2026\] GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes](gp-4dgs_probabilistic_4d_gaussian_splatting_from_monocular_video_via_variational.md)
+- [\[CVPR 2026\] Glove2Hand: Synthesizing Natural Hand-Object Interaction from Multi-Modal Sensing Gloves](glove2hand_synthesizing_natural_hand-object_interaction_from_multi-modal_sensing.md)
+- [\[CVPR 2026\] Lumosaic: Hyperspectral Video via Active Illumination and Coded-Exposure Pixels](lumosaic_hyperspectral_video_via_active_illumination_and_coded-exposure_pixels.md)
 
 </div>
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2504.07415](https://arxiv.org/abs/2504.07415)  
 **代码**: [GitHub](https://github.com/deepnoid-ai/RA-RRG)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 放射报告生成, 检索增强生成, 关键短语提取, 幻觉抑制, 多视图
 
 ## 一句话总结

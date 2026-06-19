@@ -116,6 +116,7 @@ $$R(G(z_0), z_0) = \lambda_1 L_\text{jitter} + \lambda_2 L_\text{foot skate} + \
 约束误差相比 ProgMoGen+DNO 普遍下降一个量级以上，同时关节抖动（Max Acc.）显著降低、脚滑大致持平。在只支持关节约束的 Task HSI-2 上，与 MaskControl 取得相当结果（C.Err 都做到 0.000，考虑基模型差异）。加上 5-run 初始噪声搜索（NS=5）后双方都更好，但基线的搜索主要降约束误差、对抖动改善不大，本文 NS=5 能把 Task-1 的 C.Err 压到 0.0000。
 
 ### 消融实验（Task-2 very low barrier）
+
 | 配置 | C.Err↓ | Local FS↓ | Max Acc.↓ | 说明 |
 |------|------|------|------|------|
 | 仅随机噪声 z1 | 0.000115 | 0.096 | 0.261 | 难约束满足不足、抖动大 |
@@ -166,10 +167,10 @@ $$R(G(z_0), z_0) = \lambda_1 L_\text{jitter} + \lambda_2 L_\text{foot skate} + \
 ## 相关论文
 
 - [\[CVPR 2026\] Towards Decompositional Human Motion Generation with Energy-Based Diffusion Models](towards_decompositional_human_motion_generation_with_energy-based_diffusion_mode.md)
-- [\[CVPR 2026\] Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation](stability-driven_motion_generation_for_object-guided_human-human_co-manipulation.md)
+- [\[CVPR 2026\] Causal Motion Diffusion Models for Autoregressive Motion Generation](causal_motion_diffusion_models_for_autoregressive_motion_generation.md)
 - [\[CVPR 2026\] FloodDiffusion: Tailored Diffusion Forcing for Streaming Motion Generation](flooddiffusion_tailored_diffusion_forcing_for_streaming_motion_generation.md)
 - [\[CVPR 2026\] LaMoGen: Language to Motion Generation Through LLM-Guided Symbolic Inference](lamogen_language_to_motion_generation_through_llm-guided_symbolic_inference.md)
-- [\[CVPR 2026\] Ultra Diffusion Poser: Diffusion-Based Human Motion Tracking From Sparse Inertial Sensors and Ranging-Based Between-Sensor Distances](ultra_diffusion_poser_diffusion-based_human_motion_tracking_from_sparse_inertial.md)
+- [\[CVPR 2026\] Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](interact2ar_full-body_human-human_interaction_generation_via_autoregressive_diff.md)
 
 </div>
 

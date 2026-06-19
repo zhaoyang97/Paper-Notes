@@ -158,7 +158,7 @@ SPIN 微调效果（General 类别提示）：
 - [\[AAAI 2026\] Bridging Granularity Gaps: Hierarchical Semantic Learning for Cross-Domain Few-Shot Segmentation](../../AAAI2026/segmentation/bridging_granularity_gaps_hierarchical_semantic_learning_for_cross-domain_few-sh.md)
 - [\[ECCV 2024\] Active Coarse-to-Fine Segmentation of Moveable Parts from Real Images](active_coarsetofine_segmentation_of_moveable_parts_from_real.md)
 - [\[CVPR 2025\] G2HFNet: GeoGran-Aware Hierarchical Feature Fusion Network for Salient Object Detection in Optical Remote Sensing Images](../../CVPR2025/segmentation/binwang2hfnet_geogran-aware_hierarchical_feature_fusion_network_for_salient_obje.md)
-- [\[CVPR 2026\] Fast Reasoning Segmentation for Images and Videos](../../CVPR2026/segmentation/fast_reasoning_segmentation_for_images_and_videos.md)
+- [\[CVPR 2025\] FineCaption: Compositional Image Captioning Focusing on Wherever You Want at Any Granularity](../../CVPR2025/segmentation/finecaption_compositional_image_captioning_focusing_on_wherever_you_want_at_any_.md)
 
 </div>
 

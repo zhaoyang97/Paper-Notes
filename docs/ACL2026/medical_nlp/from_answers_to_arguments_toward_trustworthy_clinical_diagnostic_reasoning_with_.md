@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.11137](https://arxiv.org/abs/2604.11137)  
 **代码**: [https://github.com/Leonard-zc/CGCL](https://github.com/Leonard-zc/CGCL)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 临床推理、Toulmin论证模型、课程学习、目标条件学习、可信诊断
 
 ## 一句话总结

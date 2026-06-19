@@ -103,6 +103,7 @@ flowchart TD
 经典优化方法虽然在 Phys. 上接近，但平均 100 calls/q（仿真预算高两个数量级），并且 Succ. 要么 0（NN Predictor）要么靠暴搜（Random Search 92.9%）。SkillPCF 在 1.02 calls/q 下做到 60–82% 设计成功率，是仿真预算/设计质量权衡上的整体最优点。
 
 ### 消融实验
+
 | 配置 | 关键贡献 | 说明 |
 |---|---|---|
 | Full SkillPCF | 物理引导 skill + 演化 + 延迟奖励 | 完整模型，Succ. 60–82% |

@@ -82,6 +82,7 @@ flowchart TD
 亮点：HBridge 用约 200B T2I token，对比 BAGEL 约 2.5T token（约 1/12），仍在 DPG-Bench、GenEval 上反超参数更大的 BAGEL（7B+7B）与 UniWorld-V1（7B+12B）。图像编辑 ImgEdit-Bench 上 HBridge 的 Overall 也优于 BAGEL、OmniGen2、Step1X-Edit 等竞品（在 Add/Position/Color-attri 等子项领先）。
 
 ### 消融实验
+
 | 配置 | 结果 | 说明 |
 |------|------|------|
 | 异构专家（扩散初始化） | 40k 步即出高保真图 | 完整设计 |
@@ -126,9 +127,9 @@ flowchart TD
 
 - [\[CVPR 2026\] OneCAT: Decoder-Only Auto-Regressive Model for Unified Understanding and Generation](onecat_decoder-only_auto-regressive_model_for_unified_understanding_and_generati.md)
 - [\[CVPR 2026\] Rosetta Stone for Unified MLLMs: A Unified Tokenizer to Decipher Understanding and Generation](rosetta_stone_for_unified_mllms_a_unified_tokenizer_to_decipher_understanding_an.md)
-- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
 - [\[CVPR 2026\] CodeMMR: Bridging Natural Language, Code, and Image for Unified Retrieval](codemmr_bridging_natural_language_code_and_image_for_unified_retrieval.md)
 - [\[CVPR 2026\] DuetSVG: Unified Multimodal SVG Generation with Internal Visual Guidance](duetsvg_unified_multimodal_svg_generation_with_internal_visual_guidance.md)
+- [\[CVPR 2026\] VCU-Bridge: Hierarchical Visual Connotation Understanding via Semantic Bridging](vcu-bridge_hierarchical_visual_connotation_understanding_via_semantic_bridging.md)
 
 </div>
 

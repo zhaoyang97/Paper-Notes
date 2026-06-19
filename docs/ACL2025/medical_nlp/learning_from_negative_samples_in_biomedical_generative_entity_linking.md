@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2408.16493](https://arxiv.org/abs/2408.16493)  
 **代码**: 无  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: biomedical entity linking, generative model, negative sampling, preference optimization, DPO
 
 ## 一句话总结

@@ -134,9 +134,9 @@ tags:
 
 - [\[NeurIPS 2025\] Robust and Diverse Multi-Agent Learning via Rational Policy Gradient](robust_and_diverse_multi-agent_learning_via_rational_policy_gradient.md)
 - [\[ICML 2026\] ProRL: Effective Reinforcement Learning for Proactive Recommendation via Rectified Policy Gradient Estimation](../../ICML2026/reinforcement_learning/prorl_effective_reinforcement_learning_for_proactive_recommendation_via_rectifie.md)
-- [\[ACL 2025\] Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient](../../ACL2025/reinforcement_learning/bypass_back-propagation_optimization-based_structural_pruning_for_large_language.md)
 - [\[ICML 2026\] Reinforcement Learning for Reachability: Guaranteeing Asymptotic Optimality](../../ICML2026/reinforcement_learning/reinforcement_learning_for_reachability_guaranteeing_asymptotic_optimality.md)
 - [\[NeurIPS 2025\] Near-Optimal Quantum Algorithms for Computing (Coarse) Correlated Equilibria of General-Sum Games](near-optimal_quantum_algorithms_for_computing_coarse_correlated_equilibria_of_ge.md)
+- [\[NeurIPS 2025\] Global Convergence for Average Reward Constrained MDPs with Primal-Dual Actor-Critic](global_convergence_for_average_reward_constrained_mdps_with_primal-dual_actor_cr.md)
 
 </div>
 

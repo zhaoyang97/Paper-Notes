@@ -114,6 +114,7 @@ CLIP-S 与 Sem-CS 的大幅领先说明它在保内容、保语义上明显更�
 | **WeatherCity** | **25.67** |
 
 ### 消融实验
+
 | 配置 | CLIP-S↑ | CLIP-DS↑ | Sem-CS↑ | 说明 |
 |------|---------|----------|---------|------|
 | a. Baseline（仅 Qwen-Image 编辑） | 0.735 | 0.276 | 0.891 | 去掉所有提出模块 |
@@ -158,7 +159,7 @@ CLIP-S 与 Sem-CS 的大幅领先说明它在保内容、保语义上明显更�
 - [\[CVPR 2026\] PrITTI: Primitive-based Generation of Controllable and Editable 3D Semantic Urban Scenes](pritti_primitive-based_generation_of_controllable_and_editable_3d_semantic_urban.md)
 - [\[CVPR 2026\] NimbusGS: Unified 3D Scene Reconstruction under Hybrid Weather](nimbusgs_unified_3d_scene_reconstruction_under_hybrid_weather.md)
 - [\[CVPR 2026\] P2GS: Physical Prior-guided Gaussian Splatting for Photometrically Consistent Urban Reconstruction](p2gs_physical_prior-guided_gaussian_splatting_for_photometrically_consistent_urb.md)
-- [\[CVPR 2026\] Coherent Human-Scene Reconstruction from Multi-Person Multi-View Video in a Single Pass](coherent_humanscene_reconstruction_from_multiperso.md)
+- [\[CVPR 2026\] EcoSplat: Efficiency-controllable Feed-forward 3D Gaussian Splatting from Multi-view Images](ecosplat_efficiency-controllable_feed-forward_3d_gaussian_splatting_from_multi-v.md)
 - [\[CVPR 2026\] BRepGaussian: CAD Reconstruction from Multi-View Images with Gaussian Splatting](brepgaussian_cad_reconstruction_from_multi-view_images_with_gaussian_splatting.md)
 
 </div>

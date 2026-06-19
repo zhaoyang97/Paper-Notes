@@ -154,8 +154,8 @@ $$\mathcal{L} = \mathcal{L}_{\text{gen}}^{(\mathcal{D}_P, \mathcal{D}_N)} + \mat
 
 - [\[ICML 2025\] Autoencoder-Based Hybrid Replay for Class-Incremental Learning](autoencoder-based_hybrid_replay_for_class-incremental_learning.md)
 - [\[ICCV 2025\] Unsupervised Imaging Inverse Problems with Diffusion Distribution Matching](../../ICCV2025/image_generation/unsupervised_imaging_inverse_problems_with_diffusion_distribution_matching.md)
-- [\[CVPR 2025\] Generative Modeling of Class Probability for Multi-Modal Representation Learning](../../CVPR2025/image_generation/generative_modeling_of_class_probability_for_multi_modal_representation_learning.md)
 - [\[ICML 2025\] Out-of-Distribution Detection Methods Answer the Wrong Questions](out-of-distribution_detection_methods_answer_the_wrong_questions.md)
+- [\[CVPR 2025\] Generative Modeling of Class Probability for Multi-Modal Representation Learning](../../CVPR2025/image_generation/generative_modeling_of_class_probability_for_multi_modal_representation_learning.md)
 - [\[ICCV 2025\] Pretrained Reversible Generation as Unsupervised Visual Representation Learning](../../ICCV2025/image_generation/pretrained_reversible_generation_as_unsupervised_visual_representation_learning.md)
 
 </div>

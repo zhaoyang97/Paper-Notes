@@ -77,6 +77,7 @@ Gap-K% 本身不需要训练，也没有优化损失。它是一个 reference-fr
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 设置 | 指标 | Gap-K% | 最强基线 / 对照 | 提升 / 结论 |
 |--------|------|------|----------|------|
 | WikiMIA length 32 original | 平均 AUROC | 77.8 | Min-K%++ 75.7 | +2.1 |
@@ -91,6 +92,7 @@ Gap-K% 本身不需要训练，也没有优化损失。它是一个 reference-fr
 | DIPPER paraphrase attack | AUROC | 66.6 | Min-K%++ 65.5 / Neighbor 60.3 | 强 paraphrase 下仍最好 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | No smoothing | AUROC 72.3 | 只用原始 token gap，波动较大 |
@@ -138,11 +140,11 @@ Gap-K% 本身不需要训练，也没有优化损失。它是一个 reference-fr
 
 ## 相关论文
 
-- [\[ICML 2026\] Beyond Procedure: Substantive Fairness in Conformal Prediction](../../ICML2026/llm_safety/beyond_procedure_substantive_fairness_in_conformal_prediction.md)
+- [\[AAAI 2026\] Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach](../../AAAI2026/llm_safety/uncovering_pretraining_code_in_llms_a_syntax-aware_attribution_approach.md)
 - [\[AAAI 2026\] Ghost in the Transformer: Detecting Model Reuse with Invariant Spectral Signatures](../../AAAI2026/llm_safety/ghost_in_the_transformer_detecting_model_reuse_with_invariant_spectral_signature.md)
 - [\[ACL 2026\] Detecting RAG Extraction Attack via Dual-Path Runtime Integrity Game](detecting_rag_extraction_attack_via_dual-path_runtime_integrity_game.md)
-- [\[AAAI 2026\] Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach](../../AAAI2026/llm_safety/uncovering_pretraining_code_in_llms_a_syntax-aware_attribution_approach.md)
 - [\[ICLR 2026\] When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining](../../ICLR2026/llm_safety/when_priors_backfire_on_the_vulnerability_of_unlearnable_examples_to_pretraining.md)
+- [\[ICLR 2026\] Train Once, Answer All: Many Pretraining Experiments for the Cost of One](../../ICLR2026/llm_safety/train_once_answer_all_many_pretraining_experiments_for_the_cost_of_one.md)
 
 </div>
 

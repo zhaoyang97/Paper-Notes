@@ -103,6 +103,7 @@ $$G = \text{ReLU}(\text{Conv}(\hat F_E^t)),\quad F_\text{fused} = G\odot F_B^t +
 相比依赖多张模糊输入的纯图像方法，本文在三个集上分别至少领先 1.14 / 4.6 / 3.4 dB，说明曝光期间的事件确实比多张模糊帧更可靠地刻画了底层运动。参数量 6.3M，比多数事件基线更小。长视频（×9，一张图分解成 9 帧）下同样领先：HighREV 36.81 vs EvEnhancer 35.59，EBD 28.99 vs REFID 27.57。
 
 ### 消融实验（HighREV）
+
 | 配置 | RTEA | Warp 引导 | 融合 | PSNR | FLOPs(G) |
 |------|------|-----------|------|------|----------|
 | Case 1（baseline） | - | - | EGGF | 33.92 | 94.12 |
@@ -149,11 +150,11 @@ $$G = \text{ReLU}(\text{Conv}(\hat F_E^t)),\quad F_\text{fused} = G\odot F_B^t +
 
 ## 相关论文
 
-- [\[CVPR 2026\] AE2VID: Event-based Video Reconstruction via Aperture Modulation](ae2vid_event-based_video_reconstruction_via_aperture_modulation.md)
-- [\[CVPR 2026\] One-Shot Flow, Any-Time Frame: A Bidirectional Warping Framework for Event-Based Video Frame Interpolation](one-shot_flow_any-time_frame_a_bidirectional_warping_framework_for_event-based_v.md)
-- [\[CVPR 2026\] Event-Based Motion Deblurring Using Task-Oriented 3D Gaussian Event Representations](event-based_motion_deblurring_using_task-oriented_3d_gaussian_event_representati.md)
-- [\[CVPR 2026\] Real-Time Neural Video Compression with Unified Intra and Inter Coding](real-time_neural_video_compression_with_unified_intra_and_inter_coding.md)
+- [\[CVPR 2026\] Event-Based Motion Deblurring Using Task-Oriented 3D Gaussian Event Representations](event-based_motion_deblurring_with_unpaired_data.md)
 - [\[CVPR 2026\] Time Without Time: Pseudo-Temporal Representation for Space-Time Super-Resolution](time_without_time_pseudo-temporal_representation_for_space-time_super-resolution.md)
+- [\[CVPR 2026\] ReasonX: MLLM-Guided Intrinsic Image Decomposition](reasonx_mllm-guided_intrinsic_image_decomposition.md)
+- [\[CVPR 2026\] From Events to Clarity: The Event-Guided Diffusion Framework for Dehazing](from_events_to_clarity_the_event-guided_diffusion_framework_for_dehazing.md)
+- [\[CVPR 2026\] Event-Illumination Collaborative Low-light Image Enhancement with a High-resolution Real-world Dataset](event-illumination_collaborative_low-light_image_enhancement_with_a_high-resolut.md)
 
 </div>
 

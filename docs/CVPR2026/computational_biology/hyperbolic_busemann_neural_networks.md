@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2602.18858](https://arxiv.org/abs/2602.18858)  
 **代码**: [有](https://github.com/GitZH-Chen/HBNN)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 双曲神经网络, Busemann函数, 双曲分类, 全连接层, 流形学习  
 
 ## 一句话总结
@@ -168,11 +168,11 @@ $$u_k(x) = -\alpha_k B^{v_k}(x) + b_k$$
 
 ## 相关论文
 
+- [\[ICML 2026\] Hyperbolic Neural Population Geometry Benefits Computation](../../ICML2026/computational_biology/hyperbolic_neural_population_geometry_benefits_computation.md)
 - [\[CVPR 2026\] HyperST: Hierarchical Hyperbolic Learning for Spatial Transcriptomics Prediction](hyperst_hierarchical_hyperbolic_learning_for_spatial_transcriptomics_prediction.md)
 - [\[NeurIPS 2025\] Random Search Neural Networks for Efficient and Expressive Graph Learning](../../NeurIPS2025/computational_biology/random_search_neural_networks_for_efficient_and_expressive_graph_learning.md)
 - [\[CVPR 2026\] CryoKRAQEN: Kernel-Regularized Annealing for Quantized Embedding Networks in Cryo-EM Heterogeneous Reconstruction](cryokraqen_kernel-regularized_annealing_for_quantized_embedding_networks_in_cryo.md)
 - [\[CVPR 2026\] Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images](cell-type_prototype-informed_neural_network_for_gene_expression_estimation_from_.md)
-- [\[ICLR 2026\] Intrinsic Lorentz Neural Network](../../ICLR2026/computational_biology/intrinsic_lorentz_neural_network.md)
 
 </div>
 

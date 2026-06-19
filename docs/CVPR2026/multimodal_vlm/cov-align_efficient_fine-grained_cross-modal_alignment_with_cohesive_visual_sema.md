@@ -111,6 +111,7 @@ $$\mathcal{L}_{total} = \frac{\lambda_g}{2}(\mathcal{L}_{t2v} + \mathcal{L}_{v2t
 接入 CLIP 微调后，CoV-Align 在 MS-COCO 5K 上 RSum 491.9，明显超过 LG-MGC 的 465.3，并与 ALBEF/BLIP 这类大规模 VLP 模型在同设置下保持竞争力。一个有意思的现象是：**输入分辨率越高（384 vs 224），相对 LAPS 的优势越大**，说明无文本区域聚合能更好利用高分辨率注意力图。
 
 ### 消融实验（Flickr30K，ViT-Base-224）
+
 | 配置 | TR R@1 | IR R@1 | 说明 |
 |------|--------|--------|------|
 | Baseline（object-query 交叉注意力） | 70.4 | 59.4 | 起点 |
@@ -121,6 +122,7 @@ $$\mathcal{L}_{total} = \frac{\lambda_g}{2}(\mathcal{L}_{t2v} + \mathcal{L}_{v2t
 阈值 $\varepsilon$ 与区域数 $N_q$ 的敏感性也在 Table 3：$\varepsilon=0$（全 patch 进来）TR R@1 仅 74.5、噪声大，$\varepsilon=0.7$ 最优（78.5），$\varepsilon=0.9$ 又因过度过滤略降；$N_q=8$ 最优，4 个太少（72.7）、12/16 个反而下降（区域冗余）。
 
 ### 效率对比（Flickr30K，ViT-Base-224 + BERT-Base，batch 128）
+
 | 模型 | FLOPs | 训练显存 | 备注 |
 |------|-------|----------|------|
 | CLIP | 2393.64G | 27G | 粗粒度参照 |
@@ -165,11 +167,11 @@ $$\mathcal{L}_{total} = \frac{\lambda_g}{2}(\mathcal{L}_{t2v} + \mathcal{L}_{v2t
 
 ## 相关论文
 
+- [\[CVPR 2026\] Beyond Global Similarity: Multi-Conditional Retrieval for Fine-Grained Cross-Modal Understanding](beyond_global_similarity_multi-conditional_retrieval_for_fine-grained_cross-moda.md)
 - [\[AAAI 2026\] Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment](../../AAAI2026/multimodal_vlm/aligning_the_true_semantics_constrained_decoupling_and_distr.md)
 - [\[CVPR 2026\] FAVE: A Structured Benchmark for Fine-Grained Audio-Visual Temporal Evaluation in Multimodal LLMs](fave_a_structured_benchmark_for_fine-grained_audio-visual_temporal_evaluation_in.md)
 - [\[CVPR 2026\] Decoupled and Reusable Adaptation for Efficient Cross-Modal Transfer](decoupled_and_reusable_adaptation_for_efficient_cross-modal_transfer.md)
 - [\[CVPR 2026\] Rethinking Cross-Modal Anchor Alignment for Mitigating Error Accumulation](rethinking_cross-modal_anchor_alignment_for_mitigating_error_accumulation.md)
-- [\[CVPR 2026\] IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment](isoclip_decomposing_clip_projectors_for_efficient_intramodal_alignment.md)
 
 </div>
 

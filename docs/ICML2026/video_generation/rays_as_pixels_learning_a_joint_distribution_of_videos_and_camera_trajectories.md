@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2604.09429](https://arxiv.org/abs/2604.09429)  
 **代码**: https://wbjang.github.io/raysaspixels/ (项目主页)  
-**领域**: 视频生成
+**领域**: 视频生成  
 **关键词**: 视频扩散, 相机位姿, 联合分布, raxel, 解耦自-交叉注意力
 
 ## 一句话总结

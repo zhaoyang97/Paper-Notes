@@ -101,6 +101,7 @@ $$L_{SC} = D_{KL}(p_{sem} \,\|\, p_{vis})$$
 DyKo 在全部数据集 × 全部 shot 设置下都刷新 SOTA，且**数据越稀缺优势越明显**（4-shot CAMELYON16 领先 FOCUS 达 4.0%，到 16-shot 收窄到 2.7%），印证了切片自适应知识实例化在 data-scarce 场景的价值。
 
 ### 消融实验（CAMELYON16，4-shot AUC）
+
 | 配置 | AUC | 相对 Full | 说明 |
 |------|-----|-----------|------|
 | DyKo (Full) | 0.871 | — | 完整模型 |

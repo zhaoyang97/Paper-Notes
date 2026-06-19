@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 其他论文汇总 · 63篇论文解读
+  ICML2026 其他论文汇总 · 70篇论文解读
 description: >-
-  63篇ICML2026的其他方向论文解读，涵盖布局/合成、Agent、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  70篇ICML2026的其他方向论文解读，涵盖布局/合成、Agent、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "其他"
@@ -52,8 +52,14 @@ item_list:
     t: "DisjunctiveNet: Neural Symbolic Learning via Differentiable Convexified Optimization Layers"
   - u: "envy-free_allocation_of_indivisible_goods_via_noisy_queries/"
     t: "Envy-Free Allocation of Indivisible Goods via Noisy Queries"
+  - u: "evaluation_of_ml_resource_utilization_requires_model_life_cycle_assessment/"
+    t: "Position: Evaluation of ML Resource Utilization Requires Model Life Cycle Assessment"
   - u: "fovi_a_biologically-inspired_foveated_interface_for_deep_vision_models/"
     t: "FOVI：面向深度视觉模型的生物启发式中心凹接口"
+  - u: "functional_equivalence_in_attention_a_comprehensive_study_with_applications_to_l/"
+    t: "Functional Equivalence in Attention: A Comprehensive Study with Applications to Linear Mode Connectivity"
+  - u: "gotabpfn_from_feature_ordering_to_compact_tokenization_for_tabular_foundation_mo/"
+    t: "GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data"
   - u: "guaranteed_optimal_compositional_explanations_for_neurons/"
     t: "Guaranteed Optimal Compositional Explanations for Neurons"
   - u: "haste_hardware-aware_dynamic_sparse_training_for_large_output_spaces/"
@@ -66,21 +72,15 @@ item_list:
     t: "Industrializing Prediction-Powered Inference: The GLIDE Library for Reliable GenAI and Agentic Systems Evaluation"
   - u: "inference_of_online_newton_methods_with_nesterovs_accelerated_sketching/"
     t: "Inference of Online Newton Methods with Nesterov's Accelerated Sketching"
-  - u: "iworld-bench_a_benchmark_for_interactive_world_models_with_a_unified_action_gene/"
-    t: "iWorld-Bench: A Benchmark for Interactive World Models with a Unified Action Generation Framework"
-  - u: "knowing_isnt_understanding_re-grounding_generative_proactivity_with_epistemic_an/"
-    t: "Knowing Isn't Understanding: Re-Grounding Generative Proactivity with Epistemic and Behavioral Insight"
-  - u: "learning_permutation-invariant_macroscopic_dynamics/"
-    t: "Learning Permutation-Invariant Macroscopic Dynamics"
-item_total: 63
+item_total: 70
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧪 ICML2026** · **63** 篇论文解读
+**🧪 ICML2026** · **70** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (115)](../../CVPR2026/others/index.md) · [💬 ACL2026 (3)](../../ACL2026/others/index.md) · [🔬 ICLR2026 (71)](../../ICLR2026/others/index.md) · [🤖 AAAI2026 (117)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (121)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (33)](../../ICCV2025/others/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (105)](../../CVPR2026/others/index.md) · [💬 ACL2026 (3)](../../ACL2026/others/index.md) · [🔬 ICLR2026 (86)](../../ICLR2026/others/index.md) · [🤖 AAAI2026 (117)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (121)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (33)](../../ICCV2025/others/index.md)
 
 🔥 **高频主题：** 布局/合成 ×2 · Agent ×2 · 对齐/RLHF ×2
 
@@ -164,9 +164,21 @@ item_total: 63
 
 :   本文首次给"用噪声查询估值来寻找无嫉妒分配"这个新问题立了样本复杂度的尺：在两个智能体、加性高斯噪声、$m$ 件物品、最优负嫉妒缺口 $\Delta$ 的设定下，证明所需查询次数的紧界为 $\widetilde{\Theta}(m^{2.5}/\Delta^2)$（当 $\Delta\gg m^{1/4}$），上界由非自适应查询 + 单物品阈值多项式时间算法实现，下界对自适应查询和任意计算时间都成立。
 
+**[Position: Evaluation of ML Resource Utilization Requires Model Life Cycle Assessment](evaluation_of_ml_resource_utilization_requires_model_life_cycle_assessment.md)**
+
+:   这是一篇立场（Position）论文，主张评估 ML 模型的资源消耗与环境影响不能再只盯"单次训练"或"单次推理"的边际成本，而应借鉴工业生态学成熟的**生命周期评估（LCA）**，把硬件制造的嵌入式成本到训练/推理的运营成本在整条研发-部署生命周期上聚合归因，并给出了一套 LCA-for-ML 的四阶段方法、成本归因公式与 OLMo2 案例。
+
 **[FOVI：面向深度视觉模型的生物启发式中心凹接口](fovi_a_biologically-inspired_foveated_interface_for_deep_vision_models.md)**
 
 :   受人类视网膜—V1 通路启发,作者用"皮层放大函数 + 局部各向同性采样"构造出一种像素分布不均、但在传感器流形上密度均匀的中心凹输入接口 FOVI,并通过新颖的 kNN 卷积 + 核映射技术使其同时兼容 CNN 与 ViT,只用约 1/16 的像素就让 DINOv3-ViT 接近全分辨率基线的 ImageNet 精度。
+
+**[Functional Equivalence in Attention: A Comprehensive Study with Applications to Linear Mode Connectivity](functional_equivalence_in_attention_a_comprehensive_study_with_applications_to_l.md)**
+
+:   这篇论文从理论上刻画了带位置编码的 Transformer 注意力的「函数等价」对称群——证明正弦位置编码保持原始注意力的对称结构、而 RoPE 把对称群大幅压缩从而提升表达力，并据此设计了一个适配两种位置编码的两阶段权重匹配算法，系统验证了不同设置下的线性模式连通性（LMC）。
+
+**[GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data](gotabpfn_from_feature_ordering_to_compact_tokenization_for_tabular_foundation_mo.md)**
+
+:   针对"特征远多于样本"（HDLSS）的高维表格任务，本文不动 TabPFN 主干，而是先用图引导的特征排序（GO-LR）把相关特征排到相邻位置，再用神经启发的子单元压缩（NSC）把相邻特征段池化成少量 meta-feature，从而把成千上万维表格塞进 TabPFN 能吃的特征预算里，在 8 个基因/图像类 HDLSS 数据集上取得平均排名第一。
 
 **[Guaranteed Optimal Compositional Explanations for Neurons](guaranteed_optimal_compositional_explanations_for_neurons.md)**
 
@@ -212,6 +224,10 @@ item_total: 63
 
 :   作者首次研究"从单条 Gaussian Glauber 动力学轨迹"中学习高斯图模型结构的问题，提出两种互补算法：LET-GL（基于 i,i,j,i 窗口的局部边检测、完美并行）和 BTR-GL（在 Dobrushin 条件下用 burn-in/thinning 把轨迹"解相关"成近似 i.i.d. 样本再喂给现成 i.i.d. 学习器），并给出有限样本恢复保证 + 信息论下界 + 一个独立有用的随机扫描高斯 Gibbs sampler 的 TV mixing 上界。
 
+**[MalTree: Tracing Malware Evolution from Embeddings at Scale](maltree_tracing_malware_evolution_from_embeddings_at_scale.md)**
+
+:   MalTree 把生物信息学里的系统发育树技术（UPGMA、Neighbor-Joining）搬到恶意软件分析上：从内存转储里抽取静态+动态+图像三路嵌入，转成距离矩阵后大规模重建恶意软件家族的"演化树"，并首次用 VirusTotal 时间戳做时序验证（87% 时序一致性），在 10 万+ 样本、538 个家族上证明嵌入距离能近似真实演化序，把恶意软件分析从"逐样本分类"推向"谱系感知的演化建模"。
+
 **[Mapping Human Anti-collusion Mechanisms to Multi-agent AI Systems](mapping_human_anti-collusion_mechanisms_to_multi-agent_ai_systems.md)**
 
 :   这是一篇 position / taxonomy 论文：把人类社会几百年积累的反合谋经验（制裁、宽大与举报、监控审计、市场设计、治理）按生命周期分成五类，再逐条映射到多智能体 AI 系统的可实现干预（reward penalty、whistleblower agent、telemetry-first overseer、interaction protocol 设计、shutdown 机制等），同时指出 AI 场景独有的归因、身份流动、合作-合谋边界、对抗适应等开放挑战。
@@ -231,6 +247,10 @@ item_total: 63
 **[Multi-Level Strategic Classification: Incentivizing Improvement Through Promotion and Relegation Dynamics](multi-level_strategic_classification_incentivizing_improvement_through_promotion.md)**
 
 :   本文把传统单次"策略性分类"扩展成一个由多级三元分类器（通过/弃判/不通过 = 晋升/留级/降级）构成的序贯机制，证明仅靠折现因子 $\beta$、技能保留率 $\gamma$ 与"高位增益"$\delta$ 这三种跨期效应，就能把不可激励区域从 $c^+>c^-$ 缩小到 $(1-\beta\gamma)c^+>c^-$；进一步给出 $\mu_l = \delta(l-1)/(1-\gamma)$ 的稳态阈值序列，证明在温和条件下可激励诚实努力把属性推到任意高水平。
+
+**[nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding](nd-rope_a_generalized_rope_for_n-dimensional_position_embedding.md)**
+
+:   把 RoPE 从「逐轴拆分」改成「把位置和频率都当成完整的 n 维向量、用一次内积旋转 $e^{j\boldsymbol{\omega}^\top\mathbf{x}}$ 编码」，并用正则单纯形波矢保证各向同性，从而在图像、视频、点云上都拿到一致的精度提升和更强的分辨率/密度外推。
 
 **[Networked Information Aggregation for Binary Classification](networked_information_aggregation_for_binary_classification.md)**
 
@@ -300,6 +320,10 @@ item_total: 63
 
 :   作者把"对一段群元素求累积乘积"这个统一任务作为显微镜，用群上 Fourier 分析 + AGF 框架证明两层网络会按 Fourier 能量从大到小逐个学习不可约表示（irrep），并刻画两层、RNN、深层 MLP 三种架构在序列长度 $k$ 上分别需要 $2^k$ 宽度、$k$ 步、$\log k$ 层的表达力鸿沟。
 
+**[Spatial Priors via Space Filling Curves for Small and Limited Data Vision Transformers](spatial_priors_via_space_filling_curves_for_small_and_limited_data_vision_transf.md)**
+
+:   针对 ViT 因注意力排列等变而缺乏空间先验、在小模型与小数据场景下吃亏的问题，本文用空间填充曲线（Snake/Zig-zag/Peano/Hilbert 等）构造一组衰减掩码并平均后乘进注意力矩阵，仅增加不到 0.0015% 参数、约 0.64% FLOPs，就在 VTAB-1K 微调上把空间敏感任务最高提升 8.7%。
+
 **[Structure-Induced Information for Rerooting Levin Tree Search](structure-induced_information_for_rerooting_levin_tree_search.md)**
 
 :   在 $\sqrt{\mathrm{lts}}$ 框架中，作者提出三种"rerooter"——全局 Leiden 聚类、局部启发式 cost-to-go、二者加性混合——把搜索努力自动按状态空间结构和目标距离分配给隐式子任务，避免了 HIPS-$\varepsilon$ / SGPS 那种昂贵的显式子目标生成模型，在 BoulderDash、CraftWorld 等复杂域上的在线训练样本效率和测试展开数都达到 SOTA。
@@ -307,6 +331,10 @@ item_total: 63
 **[TabMGP: Martingale Posterior with TabPFN](tabmgp_martingale_posterior_with_tabpfn.md)**
 
 :   把 TabPFN 这种预训练表格 Transformer 直接当作鞅后验（MGP）的预测规则，通过 in-context 前向滚动采样得到任意损失函数下参数 $\theta$ 的可信集，避免了手工设计先验/似然和拷贝拉超参，且在 30 个真实/合成场景下覆盖率与可信集面积同时优于手工 MGP 与经典贝叶斯。
+
+**[TabSwift: An Efficient Tabular Foundation Model with Row-Wise Attention](tabswift_an_efficient_tabular_foundation_model_with_row-wise_attention.md)**
+
+:   作者证明了 TabPFN 那套"只做行注意力"的极简骨干并没有过时——只要补上门控注意力稳定训练、加一小撮可学习的 register token 聚合全局信息，再配一个逐样本的自适应早退头，就能在精度上追平 TabPFN v2 / TabICL 这些更重的列感知模型，同时推理快得多。
 
 **[Target-Agnostic Calibration under Distribution Shift with Frequency-Aware Gradient Rectification](target-agnostic_calibration_under_distribution_shift_with_frequency-aware_gradie.md)**
 

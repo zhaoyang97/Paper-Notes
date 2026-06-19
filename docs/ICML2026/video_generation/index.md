@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 视频生成论文汇总 · 28篇论文解读
+  ICML2026 视频生成论文汇总 · 32篇论文解读
 description: >-
-  28篇ICML2026的视频生成方向论文解读，涵盖视频生成、扩散模型、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  32篇ICML2026的视频生成方向论文解读，涵盖视频生成、扩散模型、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "视频生成"
@@ -15,6 +15,8 @@ item_list:
     t: "AAD-1: Asymmetric Adversarial Distillation for One-Step Autoregressive Video Generation"
   - u: "attention_sparsity_is_input-stable_training-free_sparse_attention_for_video_gene/"
     t: "Attention Sparsity is Input-Stable: Training-Free Sparse Attention for Video Generation via Offline Sparsity Profiling and Online QK Co-Clustering"
+  - u: "bridging_creative_intent_and_visual_quality_creator-driven_recurrent_video_gener/"
+    t: "Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops"
   - u: "camgeo_sparse_camera-conditioned_image-to-video_generation_with_3d_geometry_prio/"
     t: "CamGeo: Sparse Camera-Conditioned Image-to-Video Generation with 3D Geometry Prior"
   - u: "dfsattn_dynamic_fine-grained_sparse_attention_for_efficient_video_generation/"
@@ -43,6 +45,8 @@ item_list:
     t: "MotiMotion: Motion-Controlled Video Generation with Visual Reasoning"
   - u: "olaf-world_orienting_latent_actions_for_video_world_modeling/"
     t: "OLAF-World: Orienting Latent Actions for Video World Modeling"
+  - u: "physics_in_2-steps_locking_motion_priors_before_visual_refinement_erases_them/"
+    t: "Physics in 2-Steps: Locking Motion Priors Before Visual Refinement Erases Them"
   - u: "quant_videogen_auto-regressive_long_video_generation_via_2-bit_kv-cache_quantiza/"
     t: "Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization"
   - u: "quantized_keys_steal_attention_bias_correction_for_kv-cache_compression_in_video/"
@@ -55,29 +59,29 @@ item_list:
     t: "SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion"
   - u: "t2av-compass_towards_unified_evaluation_for_text-to-audio-video_generation/"
     t: "T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation"
+  - u: "v2v-bench_a_comprehensive_benchmark_for_video-to-video_generation_evaluation/"
+    t: "V2V-Bench: A Comprehensive Benchmark for Video-to-Video Generation Evaluation"
   - u: "vanim_rendering-aware_sparse_state_modeling_for_structure-preserving_vector_anim/"
     t: "VAnim: Rendering-Aware Sparse State Modeling for Structure-Preserving Vector Animation"
   - u: "veda_scalable_video_diffusion_via_distilled_sparse_attention/"
     t: "VEDA: Scalable Video Diffusion via Distilled Sparse Attention"
+  - u: "videogpa_distilling_geometry_priors_for_3d-consistent_video_generation/"
+    t: "VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation"
   - u: "where_concept_erasure_should_occur_concept-layer_alignment_in_text-to-video_diff/"
     t: "Where Concept Erasure Should Occur: Concept-Layer Alignment in Text-to-Video Diffusion Models"
   - u: "wind_weather_inverse_diffusion_for_zero-shot_atmospheric_modeling/"
     t: "WIND: Weather Inverse Diffusion for Zero-Shot Atmospheric Modeling"
-  - u: "world-r1_reinforcing_3d_constraints_for_text-to-video_generation/"
-    t: "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation"
-  - u: "worldcache_accelerating_world_models_for_free_via_heterogeneous_token_caching/"
-    t: "WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching"
-item_total: 28
+item_total: 32
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频生成
 
-**🧪 ICML2026** · **28** 篇论文解读
+**🧪 ICML2026** · **32** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (180)](../../CVPR2026/video_generation/index.md) · [💬 ACL2026 (4)](../../ACL2026/video_generation/index.md) · [🔬 ICLR2026 (19)](../../ICLR2026/video_generation/index.md) · [🤖 AAAI2026 (11)](../../AAAI2026/video_generation/index.md) · [🧠 NeurIPS2025 (23)](../../NeurIPS2025/video_generation/index.md) · [📹 ICCV2025 (49)](../../ICCV2025/video_generation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (182)](../../CVPR2026/video_generation/index.md) · [💬 ACL2026 (4)](../../ACL2026/video_generation/index.md) · [🔬 ICLR2026 (26)](../../ICLR2026/video_generation/index.md) · [🤖 AAAI2026 (11)](../../AAAI2026/video_generation/index.md) · [🧠 NeurIPS2025 (23)](../../NeurIPS2025/video_generation/index.md) · [📹 ICCV2025 (49)](../../ICCV2025/video_generation/index.md)
 
-🔥 **高频主题：** 视频生成 ×12 · 扩散模型 ×6 · 模型压缩 ×2
+🔥 **高频主题：** 视频生成 ×15 · 扩散模型 ×6 · 模型压缩 ×2
 
 **[AAD-1: Asymmetric Adversarial Distillation for One-Step Autoregressive Video Generation](aad-1_asymmetric_adversarial_distillation_for_one-step_autoregressive_video_gene.md)**
 
@@ -86,6 +90,10 @@ item_total: 28
 **[Attention Sparsity is Input-Stable: Training-Free Sparse Attention for Video Generation via Offline Sparsity Profiling and Online QK Co-Clustering](attention_sparsity_is_input-stable_training-free_sparse_attention_for_video_gene.md)**
 
 :   SVOO 发现视频 DiT 每一层的注意力稀疏度是「层内输入无关、层间显著异质」的内在属性，据此先做离线分层稀疏度标定、再做在线 QK 双向协同聚类划块，免训练地在 Wan/HunyuanVideo 等 7 个模型上把 PSNR 维持 29 dB 的同时实现最高 1.93× 加速。
+
+**[Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops](bridging_creative_intent_and_visual_quality_creator-driven_recurrent_video_gener.md)**
+
+:   CHIEF 把创作者放在视频生成迭代循环的中心，用"人格化的多模态 LLM 观众智能体"自动给生成视频写主观影评、再由翻译器把杂乱反馈结构化成可执行的提示词改动，让没有任何拍片经验的中学生也能从 1 分钟短片做到一部 10 分钟有完整剧情的短片。
 
 **[CamGeo: Sparse Camera-Conditioned Image-to-Video Generation with 3D Geometry Prior](camgeo_sparse_camera-conditioned_image-to-video_generation_with_3d_geometry_prio.md)**
 
@@ -143,6 +151,10 @@ item_total: 28
 
 :   OLAF-World 通过**序列级控制-效应对齐**（Seq∆-REPA）学习可迁移的隐式动作——把无标注视频转化为动作可控的视频世界模型，实现跨上下文的零样本动作迁移；用 1 分钟的标注数据即可达到 AdaWorld 2 小时数据下的性能（旋转控制精度 0.4680 vs 0.6420）。
 
+**[Physics in 2-Steps: Locking Motion Priors Before Visual Refinement Erases Them](physics_in_2-steps_locking_motion_priors_before_visual_refinement_erases_them.md)**
+
+:   这篇论文发现图生视频扩散模型「2 步推理比 50 步推理物理更靠谱」，把根因定位到去噪过程中相位谱被侵蚀，于是提出免训练的 PhaseLock——从 2 步推理里抽出运动先验，再用 Latent Delta Guidance 注入到高保真去噪轨迹中，平均把物理一致性提升 6.2 分，几乎不增加开销（1.06× 时间、1.02× 显存）。
+
 **[Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization](quant_videogen_auto-regressive_long_video_generation_via_2-bit_kv-cache_quantiza.md)**
 
 :   QVG 是面向自回归视频扩散的训练免微调 KV-Cache 量化框架——通过语义感知聚类做 token 平滑、并以渐进残差多阶段压缩残差，在 LongCat-Video/HY-WorldPlay/Self-Forcing 上把 KV 显存压低到原来的 1/7，端到端延迟开销 <4%，2 bit 下质量大幅领先 KIVI/QuaRot 等 LLM 量化基线。
@@ -167,6 +179,10 @@ item_total: 28
 
 :   T2AV-Compass 是首个针对文本到音视频（T2AV）生成的综合评估基准——500 条复杂提示 + 双层评估框架（低层信号指标 + 高层 MLLM 诊断），系统评估 15 个前沿 T2AV 系统，定量揭示了即便顶级模型也存在的"音频真实感瓶颈"现象（视频维度 85%+ 真实感 vs 音频仅 50%）。
 
+**[V2V-Bench: A Comprehensive Benchmark for Video-to-Video Generation Evaluation](v2v-bench_a_comprehensive_benchmark_for_video-to-video_generation_evaluation.md)**
+
+:   针对视频到视频（V2V）编辑「既要听指令改、又要逐帧对齐源视频」这一现有 T2V/I2V 指标测不出的核心难题，本文提出 V2V-Bench——一个分 5 大类、11 个解耦维度（其中 6 个为 V2V 专属）的评测基准，配合「先查合规、再细评」的四阶段流水线，在 6 个 V2V 核心维度上与人类判断的 Spearman 相关性达到 0.905。
+
 **[VAnim: Rendering-Aware Sparse State Modeling for Structure-Preserving Vector Animation](vanim_rendering-aware_sparse_state_modeling_for_structure-preserving_vector_anim.md)**
 
 :   VAnim 把开放域 text-to-SVG 动画建模为「持久 DOM 树上的稀疏状态更新」+「Identification-First 运动规划」+「GRPO 渲染感知强化学习」，序列长度压缩 $9.86\times$ 的同时保持拓扑一致，并显著超越 GPT-5.2、Gemini 3 Pro 与 LiveSketch。
@@ -174,6 +190,10 @@ item_total: 28
 **[VEDA: Scalable Video Diffusion via Distilled Sparse Attention](veda_scalable_video_diffusion_via_distilled_sparse_attention.md)**
 
 :   VEDA 把视频 DiT 的稀疏注意力问题重新表述为"对全注意力结构的显式蒸馏"——通过统计感知的瓦片评分 + 头感知分组搜索 + 硬件高效内核，在 90-95% 极端稀疏度下保持生成质量，给 Waver-12B 720P 10 秒视频带来 5.1× 端到端加速、10.5× 注意力加速。
+
+**[VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation](videogpa_distilling_geometry_priors_for_3d-consistent_video_generation.md)**
+
+:   VideoGPA 用一个几何基础模型（GFM）把生成视频重建成 3D 点云、再投影回原帧，用「重投影误差」作为自监督的几何一致性奖励，自动构造偏好对，并通过 DPO（LoRA 微调 ~1% 参数、仅 ~2500 对偏好样本）把预训练视频扩散模型对齐到 3D 一致的流形上，在不损失画质的前提下显著缓解物体形变与空间漂移。
 
 **[Where Concept Erasure Should Occur: Concept-Layer Alignment in Text-to-Video Diffusion Models](where_concept_erasure_should_occur_concept-layer_alignment_in_text-to-video_diff.md)**
 

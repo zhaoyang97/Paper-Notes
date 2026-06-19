@@ -67,6 +67,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 模型 | $R^2$ (avg / avg+pos) | Retrieval | Probing |
 |--------|------|------|----------|------|
 | Text (合成 caption) | CLIP | 0.90 / 0.92 | 0.97 | 0.99 |
@@ -87,6 +88,7 @@ CLIP 场景嵌入可由对象分量之和高质量重构（$R^2$ 0.75–0.92）�
 直接在嵌入空间做 "对象替换" $\tilde{\bm{z}}=f(\bm{x}_{\bm{s}})-\bm{u}_{\bm{o}_1}+\bm{u}_{\bm{o}_1'}$ 即可得到对应反事实场景表现的嵌入；尤其是用 single-object 场景估出的对象嵌入也能编辑多对象场景（CLEVR / CLEVR-2D 检索仍达 0.97），证明对象分量在嵌入里几乎是 "可拔插" 的几何对象。
 
 ### 消融实验
+
 | 配置 | 文本 Conc. / Obj. | 图像 Conc. / Obj. | 说明 |
 |------|-------------------|-------------------|------|
 | CLIP-B/32 原始 | 1.00 / 1.00 | 0.94 / 0.96 | baseline |
@@ -134,9 +136,9 @@ CLIP 场景嵌入可由对象分量之和高质量重构（$R^2$ 0.75–0.92）�
 
 - [\[CVPR 2026\] Explaining CLIP Zero-shot Predictions Through Concepts](../../CVPR2026/information_retrieval/explaining_clip_zero-shot_predictions_through_concepts.md)
 - [\[ACL 2026\] How Large Language Models Balance Internal Knowledge with User and Document Assertions](../../ACL2026/information_retrieval/how_large_language_models_balance_internal_knowledge_with_user_and_document_asse.md)
-- [\[AAAI 2026\] Positional Bias in Multimodal Embedding Models: Do They Favor the Beginning, the Middle, or the End?](../../AAAI2026/information_retrieval/positional_bias_in_multimodal_embedding_models_do_they_favor_the_beginning_the_m.md)
 - [\[ACL 2026\] Can Compact Language Models Search Like Agents? Distillation-Guided Policy Optimization for Preserving Agentic RAG Capabilities](../../ACL2026/information_retrieval/can_compact_language_models_search_like_agents_distillation-guided_policy_optimi.md)
 - [\[ACL 2025\] Semantic Outlier Removal with Embedding Models and LLMs](../../ACL2025/information_retrieval/semantic_outlier_removal_with_embedding_models_and_llms.md)
+- [\[ACL 2025\] Length-Induced Embedding Collapse in PLM-based Models](../../ACL2025/information_retrieval/length-induced_embedding_collapse_in_plm-based_models.md)
 
 </div>
 

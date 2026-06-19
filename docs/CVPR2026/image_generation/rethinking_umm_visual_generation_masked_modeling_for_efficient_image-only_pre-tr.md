@@ -79,6 +79,7 @@ flowchart TD
 > 指标说明：**GenEval**（组合式文生图，按单物体/双物体/计数/颜色/位置/颜色属性综合打分，越高越好）；**WISE**（考察生成是否保留世界知识）；**DPGBench**（稠密 prompt 对齐）；**ImgEdit-Bench**（图像编辑能力，0–5 打分）；**NFE** 为扩散采样函数调用数；**H800 GPU 小时**衡量训练成本。
 
 ### 主实验
+
 | 模型 | 规模/数据 | GenEval ↑ | DPGBench ↑ | WISE ↑ | 训练成本 |
 |------|-----------|-----------|------------|--------|----------|
 | BLIP3-o-8B* | +30M 私有图文对 | 0.84 | 81.60 | 0.62 | — |
@@ -91,6 +92,7 @@ flowchart TD
 IOMM-B（512px）以 1.6B 生成骨干、纯公开数据、~1050 H800 GPU 小时（其中 1000 小时花在高效的纯图预训练阶段）就拿下 GenEval 0.89，超过 BAGEL-7B（0.88）和用了额外 30M 私有图文对的 BLIP3-o-8B（0.84），WISE 0.55 说明世界知识没被削弱。⚠️ 文中正文与表 1 对 BAGEL/IOMM 的小数点存在 0.88/0.89 的并列表述，以原文为准。
 
 ### 消融实验
+
 | 配置 | GenEval | 说明 |
 |------|---------|------|
 | Raw（冻结 MLLM 直连） | 0.44 | 理解型表征与生成错配 |
@@ -141,10 +143,10 @@ IOMM-B（512px）以 1.6B 生成骨干、纯公开数据、~1050 H800 GPU 小时
 ## 相关论文
 
 - [\[CVPR 2026\] Black-box Membership Inference Attacks on the Pre-training Data of Image-generation Models](black-box_membership_inference_attacks_on_the_pre-training_data_of_image-generat.md)
-- [\[CVPR 2026\] Depth Adaptive Efficient Visual Autoregressive Modeling](depthvar_depth_adaptive_var.md)
 - [\[CVPR 2026\] SparVAR: Exploring Sparsity in Visual Autoregressive Modeling for Training-Free Acceleration](sparvar_exploring_sparsity_in_visual_autoregressive_modeling_for_training-free_a.md)
 - [\[CVPR 2026\] Rethinking Prompt Design for Inference-time Scaling in Text-to-Visual Generation](rethinking_prompt_design_for_inference-time_scaling_in_text-to-visual_generation.md)
 - [\[CVPR 2026\] DPAR: Dynamic Patchification for Efficient Autoregressive Visual Generation](dpar_dynamic_patchification_for_efficient_autoregressive_visual_generation.md)
+- [\[CVPR 2026\] Efficient and Training-Free Single-Image Diffusion Models](efficient_and_training-free_single-image_diffusion_models.md)
 
 </div>
 

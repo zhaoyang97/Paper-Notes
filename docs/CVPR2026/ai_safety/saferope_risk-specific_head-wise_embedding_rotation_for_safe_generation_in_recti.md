@@ -101,6 +101,7 @@ $$R_{b,h}=U_{r,b,h}\exp(\mathrm{LRS}_{q_{b,h}}A_{b,h})U_{r,b,h}^\top+(I-P_{b,h})
 SafeRoPE 在所有概念上 UR 最低，且 FID 反而比原模型和所有 baseline 更好（68.9 vs 76.8），说明擦除没有以画质为代价。在 FLUX.1-sch 上 UR 从 6.9 降到 4.2；更关键的是把 FLUX.1-dev 学到的旋转矩阵**直接迁移**到 FLUX.1-sch，UR 仍降到 5.1 且画质保持，体现跨模型泛化能力。CLIP 分数始终稳定，VQA 仅个别概念低最优 baseline 0.2 但仍高于原模型。
 
 ### 消融实验
+
 | 配置 | CLIP↑ | VQA↑ | Unsafe-1K UR↓ | I2P UR↓ | 说明 |
 |------|------|------|------|------|------|
 | Shr-NS | 31.1 | 85.5 | 24.2 | 9.3 | 跨头共享旋转、不分安全/不安全 |
@@ -145,9 +146,9 @@ SafeRoPE 在所有概念上 UR 最低，且 FID 反而比原模型和所有 base
 
 ## 相关论文
 
-- [\[CVPR 2026\] Roots Beneath the Cut: Uncovering the Risk of Concept Revival in Pruning-Based Unlearning for Diffusion Models](roots_beneath_the_cut_uncovering_the_risk_of_concept_revival_in_pruning-based_un.md)
+- [\[CVPR 2026\] When Understanding Becomes a Risk: Authenticity and Safety Risks in the Emerging Image Generation Paradigm](when_understanding_becomes_a_risk_authenticity_and_safety_risks_in_the_emerging_.md)
 - [\[CVPR 2026\] WaTeRFlow: Watermark Temporal Robustness via Flow Consistency](waterflow_watermark_temporal_robustness_via_flow_consistency.md)
-- [\[ICLR 2026\] Risk-Sensitive Agent Compositions](../../ICLR2026/ai_safety/risk-sensitive_agent_compositions.md)
+- [\[CVPR 2026\] Roots Beneath the Cut: Uncovering the Risk of Concept Revival in Pruning-Based Unlearning for Diffusion Models](roots_beneath_the_cut_uncovering_the_risk_of_concept_revival_in_pruning-based_un.md)
 - [\[CVPR 2026\] Stealing Split Learning Bottom Models by Recovering Embedding Geometry](stealing_split_learning_bottom_models_by_recovering_embedding_geometry.md)
 - [\[CVPR 2026\] ReMoE: Region-Mixture Experts for Adversarially-Robust Vision Transformers](remoe_region-mixture_experts_for_adversarially-robust_vision_transformers.md)
 

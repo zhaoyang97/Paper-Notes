@@ -38,6 +38,7 @@ SceneSmith 用 designer-critic-orchestrator 三角 VLM agent 在「布局→家�
 **核心 idea**：用「层级化 agent 树 + 设计-评审-编排三角分工 + 资产生成-路由-验证一体化」取代单 shot 生成或单 agent 反思，把"场景生成"和"资产生成"在 agent 工具层面合并成一个 end-to-end 的、面向仿真就绪的流水线。
 
 ## 方法详解
+
 ### 整体框架
 输入是一条自然语言场景提示 $\mathcal{T}$，输出是一个可直接 export 到 Drake / MuJoCo / Isaac Sim / Genesis 的多房间场景 $\mathcal{S}=\{\mathcal{R}_j\}$，每个房间 $\mathcal{R}_j=(\mathcal{G}_j, \mathcal{O}_j)$ 包含建筑几何（带厚度的墙、地板、门窗）与物体集合 $\{(\mathcal{A}_i, \mathcal{X}_i)\}$，每个资产 $\mathcal{A}_i$ 都含视觉网格、凸分解碰撞几何、物理属性（质量、质心、惯性、摩擦），铰接物体还有 joint 定义。
 

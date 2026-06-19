@@ -169,7 +169,7 @@ GMSF-Net 比 GrNet 提升 5.64%，比 GDLNet 提升 1.35%，且标准差更小�
 - [\[CVPR 2026\] Gamba: Mamba-based Graph Convolutional Network with Dynamic Graph Topology Learning for Action Recognition](../../CVPR2026/video_understanding/gamba_mamba-based_graph_convolutional_network_with_dynamic_graph_topology_learni.md)
 - [\[ECCV 2024\] Bayesian Evidential Deep Learning for Online Action Detection](../../ECCV2024/video_understanding/bayesian_evidential_deep_learning_for_online_action_detection.md)
 - [\[CVPR 2026\] SDTrack: A Baseline for Event-based Tracking via Spiking Neural Networks](../../CVPR2026/video_understanding/sdtrack_a_baseline_for_event-based_tracking_via_spiking_neural_networks.md)
-- [\[AAAI 2026\] Learning Time in Static Classifiers](learning_time_in_static_classifiers.md)
+- [\[ICML 2026\] Privacy-Aware Video Anomaly Detection through Orthogonal Subspace Projection](../../ICML2026/video_understanding/privacy-aware_video_anomaly_detection_through_orthogonal_subspace_projection.md)
 
 </div>
 

@@ -108,6 +108,7 @@ $$T_{t+1} = \text{GRU}_\text{tex}\big(\varphi([\varphi([T_t, U_t]), F_a, F_{d_t}
 关键看点：纯 mesh 设定下 Ours w/ UNet 全面压过另一 mesh 方法 ROME（PSNR 25.23 vs 22.85，CSIM 0.948 vs 0.681）；即便不接 UNet 也已很有竞争力且更高效；更有意思的是把本文重建的网格当几何先验喂给高斯方法（LAM+Ours），所有指标拿到全场最佳（PSNR 25.889、LPIPS 0.050），说明它的网格能当作下游表示的优质初始化。定性上仅 8K 顶点就能还原纹身/文字，而 LAM 用 80K 高斯仍糊。
 
 ### 消融实验
+
 | 配置 | PSNR↑ | LPIPS↓ | FID↓ | 说明 |
 |------|-------|--------|------|------|
 | Ours-Full | 25.23 | 0.061 | 22.699 | 完整模型 |
@@ -155,11 +156,11 @@ $$T_{t+1} = \text{GRU}_\text{tex}\big(\varphi([\varphi([T_t, U_t]), F_a, F_{d_t}
 
 ## 相关论文
 
-- [\[CVPR 2026\] MeshLAM: Feed-Forward One-Shot Animatable Textured Mesh Avatar Reconstruction](meshlam_feed-forward_one-shot_animatable_textured_mesh_avatar_reconstruction.md)
+- [\[CVPR 2026\] OMG-Avatar: One-shot Multi-LOD Gaussian Head Avatar](omg-avatar_one-shot_multi-lod_gaussian_head_avatar.md)
+- [\[CVPR 2026\] Any4D: Unified Feed-Forward Metric 4D Reconstruction](any4d_unified_feed-forward_metric_4d_reconstruction.md)
+- [\[CVPR 2026\] Feed-forward Gaussian Registration for Head Avatar Creation and Editing](feed-forward_gaussian_registration_for_head_avatar_creation_and_editing.md)
 - [\[CVPR 2026\] FlexAvatar: Flexible Large Reconstruction Model for Animatable Gaussian Head Avatars with Detailed Deformation](flexavatar_flexible_large_reconstruction_model_for_animatable_gaussian_head_avat.md)
 - [\[CVPR 2026\] Particulate: Feed-Forward 3D Object Articulation](particulate_feed-forward_3d_object_articulation.md)
-- [\[CVPR 2026\] FUSER: Feed-Forward Multiview 3D Registration Transformer and SE(3)$^N$ Diffusion Refinement](fuser_feed-forward_multiview_3d_registration_transformer_and_se3n_diffusion_refi.md)
-- [\[CVPR 2026\] Feed-forward Gaussian Registration for Head Avatar Creation and Editing](feed-forward_gaussian_registration_for_head_avatar_creation_and_editing.md)
 
 </div>
 

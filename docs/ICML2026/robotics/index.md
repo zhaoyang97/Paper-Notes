@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 机器人/具身智能论文汇总 · 42篇论文解读
+  ICML2026 机器人/具身智能论文汇总 · 53篇论文解读
 description: >-
-  42篇ICML2026的机器人/具身智能方向论文解读，涵盖多模态、机器人、扩散模型、Agent、导航、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  53篇ICML2026的机器人/具身智能方向论文解读，涵盖多模态、机器人、扩散模型、Agent、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2026"
   - "机器人/具身智能"
@@ -12,8 +12,8 @@ tags:
   - "机器人"
   - "扩散模型"
   - "Agent"
-  - "导航"
   - "推理"
+  - "对抗鲁棒"
 item_list:
   - u: "contrastive_representation_regularization_for_vision-language-action_models/"
     t: "Contrastive Representation Regularization for Vision-Language-Action Models"
@@ -35,16 +35,22 @@ item_list:
     t: "Dual Advantage Fields"
   - u: "dual_quaternion_se3_synchronization_with_recovery_guarantees/"
     t: "Dual Quaternion SE(3) Synchronization with Recovery Guarantees"
+  - u: "efficient_skill_grounding_via_code_refactoring_with_small_language_models/"
+    t: "Efficient Skill Grounding via Code Refactoring with Small Language Models"
   - u: "embguard_constructing_hazard-aware_guardrails_for_safe_planning_in_embodied_agen/"
     t: "EMBGuard: Constructing Hazard-Aware Guardrails for Safe Planning in Embodied Agents"
   - u: "embodied_interpretability_linking_causal_understanding_to_generalization_in_visi/"
     t: "Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models"
   - u: "embodied_task_planning_via_graph-informed_action_generation_with_large_language_/"
     t: "Embodied Task Planning via Graph-Informed Action Generation with Large Language Models"
+  - u: "fourier_features_let_agents_learn_high_precision_policies_with_imitation_learnin/"
+    t: "Fourier Features Let Agents Learn High Precision Policies with Imitation Learning"
   - u: "from_abstraction_to_instantiation_learning_behavioral_representation_for_vision-/"
     t: "From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model"
   - u: "from_imagined_futures_to_executable_actions_mixture_of_latent_actions_for_robot_/"
     t: "From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation"
+  - u: "functional_cache_grafting_robust_and_rapid_code-policy_synthesis_for_embodied_ag/"
+    t: "Functional Cache Grafting: Robust and Rapid Code-Policy Synthesis for Embodied Agents"
   - u: "generalizable_and_actionable_parts_pose_estimation_with_symmetry_annotation-free/"
     t: "SAFAG: 无对称性标注的可泛化可操作部件位姿估计"
   - u: "hdflow_hierarchical_diffusion-flow_planning_for_long-horizon_tasks/"
@@ -55,37 +61,31 @@ item_list:
     t: "LangForce: Bayesian Decomposition of Vision-Language-Action Models via Latent Action Queries"
   - u: "latent_reasoning_vla_latent_thinking_and_prediction_for_vision-language-action_m/"
     t: "Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models"
+  - u: "limmt_less_is_more_for_motion_tracking/"
+    t: "LIMMT: Less is More for Motion Tracking"
   - u: "manisoft_towards_vision-language_manipulation_for_soft_continuum_robotics/"
     t: "ManiSoft: Towards Vision-Language Manipulation for Soft Continuum Robotics"
   - u: "mixture_of_horizons_in_action_chunking/"
     t: "Mixture of Horizons in Action Chunking"
+  - u: "moving_out_physically-grounded_human-ai_collaboration/"
+    t: "Moving Out: Physically-grounded Human-AI Collaboration"
   - u: "neural_implicit_action_fields_from_discrete_waypoints_to_continuous_functions_fo/"
     t: "Neural Implicit Action Fields: From Discrete Waypoints to Continuous Functions for Vision-Language-Action Models"
   - u: "neural_low-discrepancy_sequences/"
     t: "Neural Low-Discrepancy Sequences"
-  - u: "optimal_and_scalable_mapf_via_multi-marginal_optimal_transport_and_schrödinger_b/"
-    t: "Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schrödinger Bridges"
-  - u: "plan_in_sandbox_navigate_in_open_worlds_learning_physics-grounded_abstracted_exp/"
-    t: "Plan in Sandbox, Navigate in Open Worlds: Learning Physics-Grounded Abstracted Experience for Embodied Navigation"
-  - u: "position_good_embodied_reward_models_need_bad_behavior_data/"
-    t: "Position: Good Embodied Reward Models Need Bad Behavior Data"
-  - u: "psg-nav_probabilistic_scene_graph_navigation_via_multiverse_decision_making/"
-    t: "PSG-Nav: Probabilistic Scene Graph Navigation via Multiverse Decision Making"
-  - u: "r2r2_robust_representation_for_intensive_experience_reuse_via_redundancy_reducti/"
-    t: "R2R2: Robust Representation for Intensive Experience Reuse via Redundancy Reduction in Self-Predictive Learning"
-  - u: "robomme_benchmarking_and_understanding_memory_for_robotic_generalist_policies/"
-    t: "RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies"
-item_total: 42
+  - u: "online_self-training_for_co-adaptation_in_hierarchical_diffusion_policies/"
+    t: "Online Self-Training for Co-Adaptation in Hierarchical Diffusion Policies"
+item_total: 53
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🧪 ICML2026** · **42** 篇论文解读
+**🧪 ICML2026** · **53** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (149)](../../CVPR2026/robotics/index.md) · [💬 ACL2026 (10)](../../ACL2026/robotics/index.md) · [🔬 ICLR2026 (46)](../../ICLR2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (146)](../../CVPR2026/robotics/index.md) · [💬 ACL2026 (11)](../../ACL2026/robotics/index.md) · [🔬 ICLR2026 (56)](../../ICLR2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
 
-🔥 **高频主题：** 多模态 ×17 · 机器人 ×8 · 扩散模型 ×4 · Agent ×4 · 导航 ×3
+🔥 **高频主题：** 多模态 ×21 · 机器人 ×8 · 扩散模型 ×6 · Agent ×4 · 推理 ×3
 
 **[Contrastive Representation Regularization for Vision-Language-Action Models](contrastive_representation_regularization_for_vision-language-action_models.md)**
 
@@ -127,6 +127,10 @@ item_total: 42
 
 :   本文用单位对偶四元数（UDQ）替代 $4\times4$ 矩阵来参数化 SE(3) 同步问题，先用 Hermitian 对偶四元数矩阵的幂迭代算出谱初始化，再用每步逐元投影到 $\mathrm{UDQ}^n$ 的广义幂法（DQGPM）做迭代精化，首次给出 SE(3) 同步的有限步线性收敛与显式误差界，并在多扫描点云配准上把旋转/平移误差和算法时间都打到了矩阵方法之下。
 
+**[Efficient Skill Grounding via Code Refactoring with Small Language Models](efficient_skill_grounding_via_code_refactoring_with_small_language_models.md)**
+
+:   RECENT 让机器人换一具身体（不同臂、不同夹爪）或换一个动态环境时，不再用大模型从零重写技能代码，而是把技能写成"语义意图与执行绑定分离"的可执行代码，再用一个 7B 小模型只对执行绑定那几行做局部重构（FIM 填空）——部署前用本体推理修身体差异、运行中用 in-situ 补丁修环境差异，从而在端侧用小模型就拿到接近 GPT-5.2-Codex 的成功率。
+
 **[EMBGuard: Constructing Hazard-Aware Guardrails for Safe Planning in Embodied Agents](embguard_constructing_hazard-aware_guardrails_for_safe_planning_in_embodied_agen.md)**
 
 :   EmbGuard 把"具身 agent 的物理安全判断"从策略里剥离成独立的小模型 guardrail——输入 (观察图, 候选动作)，输出 (是否危险, 风险类别, 危险解释)；2B/4B 规模就追平 GPT-5.1/Gemini-2.5-Pro，并把 baseline 普遍存在的"动不动就 false positive"问题压下去。
@@ -139,6 +143,10 @@ item_total: 42
 
 :   GiG 用"图中图"双层记忆（场景图 + 状态转移图）+ GNN 编码 + 1 步 lookahead 武装 LLM 规划器，让具身 agent 在 Robotouille 同步/异步以及 ALFWorld 上的 Pass@1 比 ReCAP 提高 6–37 个百分点。
 
+**[Fourier Features Let Agents Learn High Precision Policies with Imitation Learning](fourier_features_let_agents_learn_high_precision_policies_with_imitation_learnin.md)**
+
+:   把点云的笛卡尔坐标先做一次 NeRF 式傅里叶特征映射再喂给点云编码器，就能消除点云策略网络"先学低频、学不动高频"的频谱偏差，让扩散模仿学习策略在 RoboCasa、ManiSkill3 和真机的高精度操作任务上成功率大幅提升（真机归一化分数 14.8% → 40.2%），且对各种编码器和超参都鲁棒。
+
 **[From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model](from_abstraction_to_instantiation_learning_behavioral_representation_for_vision-.md)**
 
 :   BehaviorVLA 用因果三流 Mamba 编码器 (VBE) 把长视野演示压缩成时间不变的"行为原型 $z_{\text{proto}}$"+ 时间变化的"相位状态 $z_{\text{phase}}$"，再用相位条件解码器 (PBD) 以 Predictor-Corrector 方式把行为骨架展开成相位对齐的高斯先验去引导流匹配策略，在 LIBERO/RoboTwin 2.0/CALVIN 三套基准刷新 SOTA，并且只用 50% 真机数据就追平 OpenVLA-OFT。
@@ -146,6 +154,10 @@ item_total: 42
 **[From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation](from_imagined_futures_to_executable_actions_mixture_of_latent_actions_for_robot_.md)**
 
 :   MoLA 用一组在大规模机器人数据上预训练好的"模态感知逆动力学模型 (IDM)"，把视频生成模型预测出的未来帧翻译成语义/深度/光流三路离散潜动作，再让策略头基于这些动作中心的表征做控制，从而在 CALVIN、LIBERO、LIBERO-Plus 以及真实 UR5e 上把"想象-执行"接口做得既稳又准。
+
+**[Functional Cache Grafting: Robust and Rapid Code-Policy Synthesis for Embodied Agents](functional_cache_grafting_robust_and_rapid_code-policy_synthesis_for_embodied_ag.md)**
+
+:   针对"Code-as-Policies 给每条新指令都从头生成代码、既慢（重复 prefill 长 prompt）又脆（API 不匹配、缺安全检查）"的两大病，FCGraft 维护一个"函数级已验证代码骨架 + 对应 KV 缓存"的库，用 cache-stitching 把缓存函数的 KV 拼成新策略、用 cache-patching 只局部重生成出错片段，在 ALFRED/RLBench 等开放域任务上比 RAGCache 成功率高 18.31%、合成延迟降 2.3×。
 
 **[SAFAG: 无对称性标注的可泛化可操作部件位姿估计](generalizable_and_actionable_parts_pose_estimation_with_symmetry_annotation-free.md)**
 
@@ -167,6 +179,10 @@ item_total: 42
 
 :   LaRA-VLA 把 VLA 模型里的文本 CoT 和视觉 CoT 全部内化为连续 latent，通过三阶段 curriculum 训练（显式 CoT → latent 替换 → 动作专家适配）让推理留在 latent 空间里完成，推理延迟相比显式 CoT 降低高达 90%，控制频率重回实时区间。
 
+**[LIMMT: Less is More for Motion Tracking](limmt_less_is_more_for_motion_tracking.md)**
+
+:   本文从「数据中心」视角研究基于物理仿真的人形机器人运动跟踪，提出三阶段筛选框架 GQS（物理可行性过滤 → 语义运动嵌入 → 复杂度加权子集采样），证明**只用不到 3% 的 AMASS 数据训练，跟踪性能反而超过用全量数据**，且这套筛选可即插即用地迁移到 Any2Track、TWIST2 等多种跟踪器上。
+
 **[ManiSoft: Towards Vision-Language Manipulation for Soft Continuum Robotics](manisoft_towards_vision-language_manipulation_for_soft_continuum_robotics.md)**
 
 :   本文针对"视觉-语言操作研究几乎只覆盖刚性臂、忽视软体连续体臂"这一空白，构建了 ManiSoft 基准：用"Cosserat 杆软体动力学 + MuJoCo 刚体接触 + 弹性力约束耦合"的混合仿真器，定义 4 类反映软臂控制难点的任务，并通过"高层规则规划器 + 低层 RL 力矩执行器"自动生成 6300 个场景与专家轨迹，系统揭示 DP/RDT/OpenVLA-OFT 在干净场景下中等可解（30% 左右），在随机化场景下断崖式下跌（最高跌 29.4 个点），失败根因在于无法从视觉估计本体感知态、也不会利用软体可形变性绕障。
@@ -175,6 +191,10 @@ item_total: 42
 
 :   本文针对 VLA 模型中"动作块长度（horizon）选择"导致的"长视野规划 vs. 短视野精控"权衡问题，提出 Mixture of Horizons (MoH)：把同一条动作块拆成多个不同长度的子块，用共享的 action transformer 并行预测，再用 2k 参数的线性门控融合，配合负载均衡损失和"跨 horizon 共识"的动态推理，使 $\pi_{0.5}$ 在 LIBERO 上首次达到 99% 平均成功率，并把吞吐量提高到基线的 2.5 倍。
 
+**[Moving Out: Physically-grounded Human-AI Collaboration](moving_out_physically-grounded_human-ai_collaboration.md)**
+
+:   针对"现有人机协作 benchmark 都是离散/符号化、不考虑物理约束"的空白，本文造了一个基于 2D 刚体物理引擎、连续状态-动作空间的协作环境 **Moving Out**（两人合搬重物、绕墙角转向），并提出 **BASS**（行为增强 + 动态模拟 + 动作筛选）方法，让 AI 在面对没见过的人类行为和没见过的物体属性时仍能稳定配合，和真人合作时任务完成率几乎翻倍。
+
 **[Neural Implicit Action Fields: From Discrete Waypoints to Continuous Functions for Vision-Language-Action Models](neural_implicit_action_fields_from_discrete_waypoints_to_continuous_functions_fo.md)**
 
 :   NIAF 把 VLA 模型的"动作块"从一串离散 waypoint 改成一个连续时间函数 $\mathcal{A}(\tau)=\Phi(\tau;\theta)$，让 MLLM 当 SIREN 的"分层频谱调制器"输出参数 $\theta$，从而获得 $C^\infty$ 平滑轨迹、任意频率查询和解析可导的速度/加加速度信号，在 CALVIN/LIBERO 上刷 SOTA 并在真机阻抗控制上消除抖动。
@@ -182,6 +202,10 @@ item_total: 42
 **[Neural Low-Discrepancy Sequences](neural_low-discrepancy_sequences.md)**
 
 :   NeuroLDS 用一个把整数索引经正弦位置编码送入 MLP 的小网络，先回归 Sobol' 再用闭式 $L_2$ 差异损失在所有前缀上微调，得到第一个支持任意长度、可扩展的神经低差异序列，在 4 维差异指标、Borehole 积分、RRT 运动规划与 Black–Scholes PDE 求解上全面优于 Sobol'/Halton。
+
+**[Online Self-Training for Co-Adaptation in Hierarchical Diffusion Policies](online_self-training_for_co-adaptation_in_hierarchical_diffusion_policies.md)**
+
+:   ORCHID 用"自训练"（self-training）让分层扩散机器人策略在线自我改进：反复采样轨迹、用稀疏的环境成功信号过滤出"规划器和控制器同时成功"的轨迹，再监督蒸馏回**高层规划器**和**低层控制器**两端，从而把高层（HL）和低层（LL）双向协同对齐，让一个轻量初始很弱的模型在 CALVIN 上超过比它大一倍的 VLA。
 
 **[Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schrödinger Bridges](optimal_and_scalable_mapf_via_multi-marginal_optimal_transport_and_schrödinger_b.md)**
 
@@ -207,6 +231,18 @@ item_total: 42
 
 :   RoboMME 首次把人类认知里的"时序/空间/物体/程序"四类记忆系统性映射到 16 个长时机器人操控任务（770k 高质量时间步），并在 π0.5 底座上系统消融 14 种"记忆表征 × 集成方式"，得出"感知记忆 + AdaLN 调制器"是当前最佳综合权衡的结论。
 
+**[Sample from What You See: Visuomotor Policy Learning via Diffusion Bridge with Observation-Embedded Stochastic Differential Equation](sample_from_what_you_see_visuomotor_policy_learning_via_diffusion_bridge_with_ob.md)**
+
+:   BridgePolicy 把扩散策略里"观测只当条件、采样从随机噪声起步"的做法，改成用扩散桥（diffusion bridge）把观测直接嵌进前向 SDE 的终点，让动作采样从一个"观测信息丰富的先验"出发；再用一个语义对齐器把异构观测压成和动作同形的表示，从而在 52 个仿真任务和 5 个真机任务上稳定超过现有生成式策略。
+
+**[SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models](scale_self-uncertainty_conditioned_adaptive_looking_and_execution_for_vision-lan.md)**
+
+:   SCALE 让自回归 VLA 在推理时用一个仅从输出 logits 算出的「自不确定性」分数，同时调制**动作采样温度**和**视觉注意力温度**——不确定就广撒网探索、确定就贪心聚焦，全程零额外训练、无 verifier、单次前向，就把多个 SOTA VLA 的成功率往上抬了一截。
+
+**[Scaling by Diversified Experience for Vision-Language-Action Models](scaling_by_diversified_experience_for_vision-language-action_models.md)**
+
+:   SyVLA 用"VLM + 流匹配动作专家 + Feature Query Token"的双系统架构做"先想后做"的机器人控制，并配上两味药——基于梯度范数掩码的**意图解耦**算法（把高层推理信息从控制意图里剥离）和**相似样本引导的 RL**（把专家样本优势固定为 1.0 稳住真机在线 RL）——在用不到 π0 5% 预训练数据的前提下，既拿下更高真机成功率与更强 OOD 泛化，又保住了原 VLM 的视觉-语言能力。
+
 **[Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation](seeing_realism_from_simulation_efficient_video_transfer_for_vision-language-acti.md)**
 
 :   针对 VLA（vision-language-action）模型在简单扰动下性能崩塌的问题，本文用"提取语义/几何条件 → 改写 caption → 条件视频扩散重渲染"的视频迁移流水线给仿真数据补上视觉与环境多样性，同时配以三段式 velocity caching 把生成时间砍掉 61% 以及 difficulty + diversity 双驱动的 coreset 采样仅选 10% 关键轨迹，最终在 Robotwin 2.0、LIBERO-Plus 和真机上让 RDT-1B / $\pi_0$ 涨 5–15%。
@@ -231,9 +267,17 @@ item_total: 42
 
 :   TapSampling 提出一个与策略无关、即插即用的推理时采样框架：先用 Action-VAE 从策略生成的少量动作里学一个低维后验、再高效地采出大量候选动作，再用"预测任务进度变化"的语义可解释 verifier 给候选动作打分并加权融合，在 CALVIN/LIBERO 和真机上无需微调原策略就能稳定提升 Diffusion Policy、OpenVLA、VPP、$\pi_0$、$\pi_{0.5}$ 等多种通用机器人策略的成功率。
 
+**[Test-Time Training for Visual Foresight Vision-Language-Action Models](test-time_training_for_visual_foresight_vision-language-action_models.md)**
+
+:   针对"先预测未来图像、再据此生成动作"的视觉前瞻 VLA（VF-VLA）在分布外（OOD）场景下双阶段同时失准的问题，本文提出 T3VF：把模型预测的未来图像与若干步后真实观测到的图像当作一对天然的自监督样本，在测试时只更新最小的视觉查询模块，并用"动作方差 + 自适应分位数缓冲"筛掉噪声步，在 LIBERO-Plus 上以约 1.3× 的推理开销把平均成功率提升约 5%（相对），且不改任何网络结构。
+
 **[The Lie We Tell: Correcting the Euclidean Fallacy in Vision-Language-Action Policies via Score Matching on Tangent Space](the_lie_we_tell_correcting_the_euclidean_fallacy_in_vision_language_action_polic.md)**
 
 :   Lie Diffuser Actor (LDA) 把扩散过程从把 SE(3) 位姿展平成 $\mathbb{R}^{12}$ 的"欧氏谎言"修正回流形原生：通过左不变 SDE 在李代数 $\mathfrak{se}(3)$ 中注入噪声、用指数映射回拉到流形、tangent-space 预测 score，理论上同时获得流形闭合、坐标系等变与测地线最优性，在 CALVIN ABC→D 上把平均任务长度从 3.27 推到 3.51。
+
+**[Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models](think_less_act_early_reinforced_latent_reasoning_with_early_exit_in_vision-langu.md)**
+
+:   针对显式思维链（CoT）在 VLA 里又慢又会误差累积的问题，作者提出 AVA-VLA——把推理建模成一串看不见的隐变量、用强化学习给隐轨迹去噪、再用早退出机制按状态置信度自适应地决定想几步，在 LIBERO 上拿到 98.3% 平均成功率的同时比显式 CoT 推理快约 6 倍。
 
 **[TimeRewarder: Learning Dense Reward from Passive Videos via Frame-wise Temporal Distance](timerewarder_learning_dense_reward_from_passive_videos_via_frame-wise_temporal_d.md)**
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2411.13280](https://arxiv.org/abs/2411.13280)  
 **代码**: [AlgoMole/MolCRAFT](https://github.com/AlgoMole/MolCRAFT)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Bayesian Flow Network, 结构感知分子优化, 梯度引导, 连续-离散联合优化, SE(3)-等变
 
 ## 一句话总结
@@ -156,8 +156,8 @@ MolJO 可灵活扩展至 R-group 重设计（固定母核替换取代基）和�
 ## 相关论文
 
 - [\[ICML 2025\] Flexibility-conditioned Protein Structure Design with Flow Matching](flexibility-conditioned_protein_structure_design_with_flow_matching.md)
-- [\[NeurIPS 2025\] Is Sequence Information All You Need for Bayesian Optimization of Antibodies?](../../NeurIPS2025/computational_biology/is_sequence_information_all_you_need_for_bayesian_optimization_of_antibodies.md)
 - [\[NeurIPS 2025\] Prior-Guided Flow Matching for Target-Aware Molecule Design with Learnable Atom Number](../../NeurIPS2025/computational_biology/prior-guided_flow_matching_for_target-aware_molecule_design_with_learnable_atom_.md)
+- [\[NeurIPS 2025\] Is Sequence Information All You Need for Bayesian Optimization of Antibodies?](../../NeurIPS2025/computational_biology/is_sequence_information_all_you_need_for_bayesian_optimization_of_antibodies.md)
 - [\[NeurIPS 2025\] Curly Flow Matching for Learning Non-gradient Field Dynamics](../../NeurIPS2025/computational_biology/curly_flow_matching_for_learning_non-gradient_field_dynamics.md)
 - [\[ICML 2025\] Geometric Generative Modeling with Noise-Conditioned Graph Networks](geometric_generative_modeling_with_noise-conditioned_graph_networks.md)
 

@@ -94,6 +94,7 @@ $$\left(x_c^{i}, y_c^{i}\right) = \left(x_l + \frac{i-0.5}{n}(x_r - x_l),\; \fra
 主体保持率从 PosterMaker 的 85.3%、最强通用编辑模型 SeedEdit 的 55.2%，提到 98.7%，近乎完美；文字渲染也全面领先（Sen. Acc 0.713 vs PosterMaker 0.576）。提示遵循和视觉吸引力上优于 PosterMaker，但略逊于 Gemini / SeedEdit——作者归因于电商训练数据偏重商品清晰度、背景多样性和美学不足。
 
 ### 消融实验
+
 | 配置 | Sen. Acc↑ | NED↑ | 说明 |
 |------|------|------|------|
 | Full setting | 0.7133 | 0.8062 | 完整模型 |
@@ -144,11 +145,11 @@ $$\left(x_c^{i}, y_c^{i}\right) = \left(x_l + \frac{i-0.5}{n}(x_r - x_l),\; \fra
 
 ## 相关论文
 
-- [\[CVPR 2026\] PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation](posteriq_a_design_perspective_benchmark_for_poster_understanding_and_generation.md)
 - [\[CVPR 2026\] InnoAds-Composer: Efficient Condition Composition for E-Commerce Poster Generation](innoads-composer_efficient_condition_composition_for_e-commerce_poster_generatio.md)
-- [\[CVPR 2026\] HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images](hifi-inpaint_towards_high-fidelity_reference-based_inpainting_for_generating_det.md)
 - [\[CVPR 2026\] PosterOmni: Generalized Artistic Poster Creation via Task Distillation and Unified Reward Feedback](posteromni_generalized_artistic_poster_creation_via_task_distillation_and_unifie.md)
 - [\[CVPR 2026\] SkyReels-Text: Fine-Grained Font-Controllable Text Editing for Poster Design](skyreels-text_fine-grained_font-controllable_text_editing_for_poster_design.md)
+- [\[CVPR 2026\] HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images](hifi-inpaint_towards_high-fidelity_reference-based_inpainting_for_generating_det.md)
+- [\[ICCV 2025\] LiT: Delving into a Simple Linear Diffusion Transformer for Image Generation](../../ICCV2025/image_generation/lit_delving_into_a_simple_linear_diffusion_transformer_for_image_generation.md)
 
 </div>
 

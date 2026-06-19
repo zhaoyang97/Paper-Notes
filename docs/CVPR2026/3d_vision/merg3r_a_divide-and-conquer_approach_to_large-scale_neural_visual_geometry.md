@@ -109,6 +109,7 @@ T&T / Cambridge Landmarks 位姿（越低越好）：
 对比传统高效 SfM（7-Scenes 500 图）：Ours+π³ 在 AUC@30 上 83.31 优于 GLOMAP（81.38）和 InstantSfM（76.32），且耗时 **4 分 48 秒** < GLOMAP 10 分 34 秒、InstantSfM 8 分 56 秒。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | 真值视频序 vs 伪视频序 | ATE 差异 ≤ 0.001 | 用无序图重排出的伪视频，几乎不输给真有序视频 |
@@ -150,9 +151,9 @@ T&T / Cambridge Landmarks 位姿（越低越好）：
 
 - [\[CVPR 2026\] CoLoR: The Devil is in Scene Coordinate Regression for Large-Scale Visual Localization](color_the_devil_is_in_scene_coordinate_regression_for_large-scale_visual_localiz.md)
 - [\[CVPR 2026\] OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control](olatverse_a_large-scale_real-world_object_dataset_with_precise_lighting_control.md)
+- [\[CVPR 2026\] DVGT: Driving Visual Geometry Transformer](dvgt_driving_visual_geometry_transformer.md)
 - [\[CVPR 2026\] SpatialVID: A Large-Scale Video Dataset with Spatial Annotations](spatialvid_a_large-scale_video_dataset_with_spatial_annotations.md)
 - [\[CVPR 2026\] Fast Spatial Tracking with Visual Geometry Transformer](fast_spatial_tracking_with_visual_geometry_transformer.md)
-- [\[CVPR 2026\] Ego-1K: A Large-Scale Multiview Video Dataset for Egocentric Vision](ego-1k_--_a_large-scale_multiview_video_dataset_for_egocentric_vision.md)
 
 </div>
 

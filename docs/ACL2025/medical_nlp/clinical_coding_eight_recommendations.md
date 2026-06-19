@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.18043](https://arxiv.org/abs/2412.18043)  
 **代码**: 无  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: clinical coding, ICD coding, automated coding, evaluation methodology, MIMIC  
 
 ## 一句话总结

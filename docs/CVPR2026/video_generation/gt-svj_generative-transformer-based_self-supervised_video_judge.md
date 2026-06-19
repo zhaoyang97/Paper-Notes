@@ -98,6 +98,7 @@ $$\mathcal{L}_{\text{EBM}} = \mathbb{E}_{x^+ \sim p_{\text{data}}}[E_\theta(x^+)
 GT-SVJ 在 GenAI-Bench 上比之前最佳分别高约 24.63%（含平局）/ 3.1%（不含平局），MonteBench 高约 3.68% / 7.85%；VideoReward-Bench 排第二，落后 VideoReward 约 5%（作者归因于该 benchmark 与训练分布存在偏移、且无公开训练数据）。标注量仅 30.4K——比 VideoReward 少约 6×、比 VisionReward 少约 65×。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | GT-SVJ (Full) | GenAI 64.26 / MonteBench 66.36 (w/ties) | 完整模型 |
@@ -142,10 +143,10 @@ GT-SVJ 在 GenAI-Bench 上比之前最佳分别高约 24.63%（含平局）/ 3.1
 
 ## 相关论文
 
-- [\[CVPR 2026\] From Static to Dynamic: Exploring Self-supervised Image-to-Video Representation Transfer Learning](from_static_to_dynamic_exploring_self-supervised_image-to-video_representation_t.md)
 - [\[CVPR 2026\] SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models](solireward_mitigating_susceptibility_to_reward_hacking_and_annotation_noise_in_v.md)
+- [\[CVPR 2026\] From Static to Dynamic: Exploring Self-supervised Image-to-Video Representation Transfer Learning](from_static_to_dynamic_exploring_self-supervised_image-to-video_representation_t.md)
 - [\[CVPR 2026\] A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens](a_frame_is_worth_one_token_efficient_generative_world_modeling_with_delta_tokens.md)
-- [\[CVPR 2026\] Thinking with Frames: Generative Video Distortion Evaluation via Frame Reward Model](thinking_with_frames_generative_video_distortion_evaluation_via_frame_reward_mod.md)
+- [\[CVPR 2026\] Attention Surgery: An Efficient Recipe to Linearize Your Video Diffusion Transformer](attention_surgery_an_efficient_recipe_to_linearize_your_video_diffusion_transfor.md)
 - [\[CVPR 2026\] STARFlow-V: End-to-End Video Generative Modeling with Autoregressive Normalizing Flows](starflow-v_end-to-end_video_generative_modeling_with_autoregressive_normalizing_.md)
 
 </div>

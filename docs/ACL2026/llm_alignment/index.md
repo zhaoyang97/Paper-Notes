@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 对齐/RLHF论文汇总 · 31篇论文解读
+  ACL2026 对齐/RLHF论文汇总 · 38篇论文解读
 description: >-
-  31篇ACL2026的对齐 / RLHF 方向论文解读，涵盖 LLM、对齐/RLHF、个性化生成、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  38篇ACL2026的对齐 / RLHF 方向论文解读，涵盖 LLM、对齐/RLHF、个性化生成、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "对齐 / RLHF"
@@ -13,6 +13,8 @@ tags:
   - "个性化生成"
   - "强化学习"
 item_list:
+  - u: "adajudge_adaptive_multi-perspective_judging_for_reward_modeling/"
+    t: "AdaJudge: Adaptive Multi-Perspective Judging for Reward Modeling"
   - u: "agentv-rl_scaling_reward_modeling_with_agentic_verifier/"
     t: "AgentV-RL: Scaling Reward Modeling with Agentic Verifier"
   - u: "aligning_agents_via_planning_a_benchmark_for_trajectory-level_reward_modeling/"
@@ -25,10 +27,18 @@ item_list:
     t: "BACH-V: Bridging Abstract and Concrete Human-Values in Large Language Models"
   - u: "better_literary_translation_a_multi-aspect_data_generation_and_llm_training_appr/"
     t: "Better Literary Translation: A Multi-Aspect Data Generation and LLM Training Approach"
+  - u: "compatibility-aware_dynamic_fine-tuning_for_large_language_models/"
+    t: "Compatibility-Aware Dynamic Fine-Tuning for Large Language Models"
+  - u: "complexconstraints_and_beyond_expert_rubrics_for_rlvr/"
+    t: "ComplexConstraints and Beyond: Expert Rubrics for RLVR"
   - u: "consistrm_improving_generative_reward_models_via_consistency-aware_self-training/"
     t: "ConsistRM: Improving Generative Reward Models via Consistency-Aware Self-Training"
+  - u: "cuma_aligning_llms_with_sparse_cultural_values_via_demographic-aware_mixture_of_/"
+    t: "CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters"
   - u: "debiasing_reward_models_via_causally_motivated_inference-time_intervention/"
     t: "Debiasing Reward Models via Causally Motivated Inference-Time Intervention"
+  - u: "hardbench_a_benchmark_for_draft-based_co-authoring_jailbreak_attacks_for_safe_hu/"
+    t: "HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human–LLM Collaborative Writing"
   - u: "how_value_induction_reshapes_llm_behaviour/"
     t: "How Value Induction Reshapes LLM Behaviour"
   - u: "large_language_models_are_overconfident_in_their_own_responses/"
@@ -63,27 +73,21 @@ item_list:
     t: "Teaching LLM to be Persuasive: Reward-Enhanced Policy Optimization for Alignment from Heterogeneous Rewards"
   - u: "team-based_self-play_with_dual_adaptive_weighting_for_fine-tuning_llms/"
     t: "Team-Based Self-Play With Dual Adaptive Weighting for Fine-Tuning LLMs"
-  - u: "too_correct_to_learn_reinforcement_learning_on_saturated_reasoning_data/"
-    t: "Too Correct to Learn: Reinforcement Learning on Saturated Reasoning Data"
-  - u: "topology-enhanced_alignment_for_large_language_models_trajectory_topology_loss_a/"
-    t: "Topology-Enhanced Alignment for Large Language Models: Trajectory Topology Loss and Topological Preference Optimization"
-  - u: "towards_bridging_the_reward-generation_gap_in_direct_alignment_algorithms/"
-    t: "Towards Bridging the Reward-Generation Gap in Direct Alignment Algorithms"
-  - u: "what_makes_good_instruction-tuning_data_an_in-context_learning_perspective/"
-    t: "What Makes Good Instruction-Tuning Data? An In-Context Learning Perspective"
-  - u: "why_supervised_fine-tuning_fails_to_learn_a_systematic_study_of_incomplete_learn/"
-    t: "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models"
-item_total: 31
+item_total: 38
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**💬 ACL2026** · **31** 篇论文解读
+**💬 ACL2026** · **38** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (9)](../../CVPR2026/llm_alignment/index.md) · [🧪 ICML2026 (26)](../../ICML2026/llm_alignment/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/llm_alignment/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (12)](../../CVPR2026/llm_alignment/index.md) · [🧪 ICML2026 (37)](../../ICML2026/llm_alignment/index.md) · [🔬 ICLR2026 (49)](../../ICLR2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/llm_alignment/index.md)
 
-🔥 **高频主题：** LLM ×9 · 对齐/RLHF ×7 · 个性化生成 ×2 · 强化学习 ×2
+🔥 **高频主题：** LLM ×11 · 对齐/RLHF ×9 · 个性化生成 ×2 · 强化学习 ×2
+
+**[AdaJudge: Adaptive Multi-Perspective Judging for Reward Modeling](adajudge_adaptive_multi-perspective_judging_for_reward_modeling.md)**
+
+:   针对奖励模型普遍用「固定池化（如 last-token）把整条序列压成一个标量」带来的两个结构性缺陷——固定的空间归纳偏置与生成式 backbone 表示不适配判别——AdaJudge 先用门控精炼块把 backbone 表示重塑到判别空间，再用「域感知门控的多视角池化」按 prompt 动态融合 last-token / mean / attention 三种池化证据，在 RM-Bench 和 JudgeBench 上让 4B/8B 模型超过 27B 的 off-the-shelf 强奖励模型。
 
 **[AgentV-RL: Scaling Reward Modeling with Agentic Verifier](agentv-rl_scaling_reward_modeling_with_agentic_verifier.md)**
 
@@ -109,13 +113,29 @@ item_total: 31
 
 :   这篇论文把文学翻译质量拆成“表达流畅”和“文学效果”两个维度，用专门 LLM 反复生成高质量参考译文和偏好对，再用 SFT + 显式奖励模型 + GRPO 训练 LitMT，使 8B/14B 小模型在英译中文学翻译上接近甚至超过部分大模型。
 
+**[Compatibility-Aware Dynamic Fine-Tuning for Large Language Models](compatibility-aware_dynamic_fine-tuning_for_large_language_models.md)**
+
+:   CADFT 在 token 级稳定化方法 DFT 的基础上，引入一个由模型自身似然算出的"样本级兼容性"信号去重加权监督梯度，再配一个延迟、低频的"兼容性引导重写"把顽固难学的样本改写成可学目标，从而在不引入任何奖励模型/RL 的前提下，把高方差梯度压下去，同时提升微调稳定性、泛化和冷启动 RL 初始化质量。
+
+**[ComplexConstraints and Beyond: Expert Rubrics for RLVR](complexconstraints_and_beyond_expert_rubrics_for_rlvr.md)**
+
+:   这篇论文系统论证了"专家手写的细粒度评分量表（rubric）"既是更靠谱的前沿大模型评测工具，也是数据高效的 RLVR 奖励信号：它先给出构造高质量 rubric 的五条设计原则，配套放出每条 prompt 带 10–40 条原子准则的 ComplexConstraints 数据集，然后实证只用约 1000 条专家样本做 RLVR，就能让 4B 模型指令跟随涨 +15.5 pp、235B 涨 +12.2 pp，且单 epoch 的 agentic 训练能迁移到模型从没训过的 OOD benchmark（BFCL +4.5 / τ²-Bench +7.4 / Toolathlon +6.8 pp）。
+
 **[ConsistRM: Improving Generative Reward Models via Consistency-Aware Self-Training](consistrm_improving_generative_reward_models_via_consistency-aware_self-training.md)**
 
 :   ConsistRM 提出基于一致性感知的自训练框架，通过时序一致性伪标签（融合在线状态和历史记忆的偏好一致性）和语义一致性批评奖励（衡量多次生成批评的语义相似度）两个模块，在无需人工标注的条件下将生成式奖励模型的五个基准平均性能提升 1.5%，同时显著缓解了位置偏差问题。
 
+**[CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters](cuma_aligning_llms_with_sparse_cultural_values_via_demographic-aware_mixture_of_.md)**
+
+:   CuMA 指出稠密模型在拟合相互冲突的文化价值时会"均值坍塌"成谁都不像的稀泥，于是用"人口画像 + 语义"联合路由的 LoRA 专家混合，把冲突梯度拆进各自的专家子空间，从而在多个文化对齐基准上既提精度又保留价值多样性。
+
 **[Debiasing Reward Models via Causally Motivated Inference-Time Intervention](debiasing_reward_models_via_causally_motivated_inference-time_intervention.md)**
 
 :   作者把 Bradley-Terry reward model 视作估计 total effect 的因果图，识别出与五类风格性偏差（长度 / 段落 / 词重叠 / 感叹号 / 粗体）激活高度相关的 bias-specific neurons（占总神经元 < 2%），在推理时把这些神经元激活替换为验证集中位数（估计 controlled direct effect），在 RewardBench / RM-Bench 上既不掉点又消除偏差，DPO 下游使用后让 8B 模型的对齐分数追平 70B SOTA reward model。
+
+**[HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human–LLM Collaborative Writing](hardbench_a_benchmark_for_draft-based_co-authoring_jailbreak_attacks_for_safe_hu.md)**
+
+:   论文指出"草稿协同写作"是一种被忽视的越狱面——恶意用户把残缺的危险草稿丢给 LLM 让它"润色补全"，模型的"补全本能"会压过安全护栏吐出可执行的危险细节；作者构造了 HarDBench 基准量化这一漏洞（CoJP 攻击下八个模型 ASR 全部 >80%），并提出 SUBA 偏好优化对齐，把有害草稿的拒答和良性草稿的配合同时学进去，将 ASR 压到个位数而效用几乎不掉。
 
 **[How Value Induction Reshapes LLM Behaviour](how_value_induction_reshapes_llm_behaviour.md)**
 
@@ -184,6 +204,14 @@ item_total: 31
 **[Team-Based Self-Play With Dual Adaptive Weighting for Fine-Tuning LLMs](team-based_self-play_with_dual_adaptive_weighting_for_fine-tuning_llms.md)**
 
 :   TPAW 将 LLM 自训练改造成“当前模型与历史模型组队博弈”的对齐过程，并用目标响应权重与主玩家权重两套自适应机制稳定偏好优化，在不额外引入人工偏好标注的情况下提升 Open LLM Leaderboard 与 GSM8K 表现。
+
+**[TinyJudge: Unverifiable Constraint Alignment via Lightweight Specialist Ensembles](tinyjudge_unverifiable_constraint_alignment_via_lightweight_specialist_ensembles.md)**
+
+:   针对 RLVR 指令跟随中用大模型当裁判（LLM-as-a-judge）评判软约束时奖励精度低、训练慢的问题，TinyJudge 先发现"软约束里只有 style/structure/semantic 三类具备高泛化性"，再把前沿模型的判分能力蒸馏进若干个 0.6B 的专家小模型组成集成奖励，使奖励精度提升约 12%、判分提速 6×、总训练时间缩短 3×，同时下游指令满足率平均提升约 10%。
+
+**[To Intervene or Not: Guiding Inference-time Alignment with Probabilistic Model Blending](to_intervene_or_not_guiding_inference-time_alignment_with_probabilistic_model_bl.md)**
+
+:   针对推理时对齐里"用对齐模型逐 token 引导未对齐基座"时存在的质量盲区——现有方法一律二元接受/拒绝引导、无法分辨好坏建议，导致越干预性能越差的"干预悖论"——BlendIn 改用质量感知的概率分布混合：在基座不确定的位置按两模型置信度自适应加权融合二者的分布再贪心选 token，从而保留有益引导、压低不可靠引导，在最难的高干预模型对上取得最高 50% 的一致提升。
 
 **[Too Correct to Learn: Reinforcement Learning on Saturated Reasoning Data](too_correct_to_learn_reinforcement_learning_on_saturated_reasoning_data.md)**
 

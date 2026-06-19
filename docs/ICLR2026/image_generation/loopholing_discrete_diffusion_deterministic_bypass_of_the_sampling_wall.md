@@ -138,8 +138,8 @@ $$\mathcal{L}_{\text{Loopholing}} = \mathbb{E}_{t,\mathbf{z}_t}\left[\mathbb{I}[
 - [\[ICLR 2026\] Discrete Adjoint Matching](discrete_adjoint_matching.md)
 - [\[ICLR 2026\] Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)](improving_discrete_diffusion_unmasking_policies_beyond_explicit_reference_polici.md)
 - [\[CVPR 2026\] IncreFA: Breaking the Static Wall of Generative Model Attribution](../../CVPR2026/image_generation/increfa_breaking_the_static_wall_of_generative_model_attribution.md)
-- [\[ICLR 2026\] JointDiff: Bridging Continuous and Discrete in Multi-Agent Trajectory Generation](jointdiff_bridging_continuous_and_discrete_in_multi-agent_trajectory_generation.md)
-- [\[ICLR 2026\] Embracing Discrete Search: A Reasonable Approach to Causal Structure Learning](embracing_discrete_search_a_reasonable_approach_to_causal_structure_learning.md)
+- [\[CVPR 2026\] Advancing Image Classification with Discrete Diffusion Classification Modeling](../../CVPR2026/image_generation/advancing_image_classification_with_discrete_diffusion_classification_modeling.md)
+- [\[ICCV 2025\] DIA: The Adversarial Exposure of Deterministic Inversion in Diffusion Models](../../ICCV2025/image_generation/dia_the_adversarial_exposure_of_deterministic_inversion_in_diffusion_models.md)
 
 </div>
 

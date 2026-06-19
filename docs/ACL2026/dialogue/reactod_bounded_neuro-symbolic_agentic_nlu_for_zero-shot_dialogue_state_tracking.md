@@ -89,6 +89,7 @@ ReacTOD 不依赖任务特定训练数据、微调或 few-shot 示例。所有�
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 模型 / 方法 | 指标 | 本文 | 对比方法 | 提升 |
 |--------|-------------|------|------|----------|------|
 | MultiWOZ 2.1 | gpt-oss-20B + ReacTOD | Overall JGA | 52.71% | FnCTOD + GPT-4 38.71% | +14.00 pp |
@@ -97,6 +98,7 @@ ReacTOD 不依赖任务特定训练数据、微调或 few-shot 示例。所有�
 | SGD | Qwen3-32B + ReacTOD | Avg. Service JGA | 64.09% | reproduced SRP 45.20% | +18.89 pp |
 
 ### 消融实验
+
 | 模型 | 数据集 | w/o ReAct Loop | ReacTOD | 提升 |
 |------|--------|----------------|---------|------|
 | Qwen3-8B | MultiWOZ Overall JGA | 39.29% | 47.34% | +8.05 pp |
@@ -105,6 +107,7 @@ ReacTOD 不依赖任务特定训练数据、微调或 few-shot 示例。所有�
 | Claude-Opus-4.6 | SGD Avg. Svc. JGA | 73.49% | 80.68% | +7.19 pp |
 
 ### 效率与校验器分析
+
 | 项目 | 数值 | 说明 |
 |------|------|------|
 | P50 LLM calls / turn | 2.00 | 所有模型中位数均为 IC + SR 两次调用 |

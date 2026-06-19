@@ -143,10 +143,10 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation](../../CVPR2026/3d_vision/consisvla-4d_advancing_spatiotemporal_consistency_in_efficient_3d-perception_and.md)
-- [\[CVPR 2026\] NeuROK: Generative 4D Neural Object Kinematics](../../CVPR2026/3d_vision/neurok_generative_4d_neural_object_kinematics.md)
 - [\[AAAI 2026\] Simba: Towards High-Fidelity and Geometrically-Consistent Point Cloud Completion via Transformation Diffusion](simba_towards_high-fidelity_and_geometrically-consistent_point_cloud_completion_.md)
-- [\[CVPR 2026\] SparseCam4D: Spatio-Temporally Consistent 4D Reconstruction from Sparse Cameras](../../CVPR2026/3d_vision/sparsecam4d_spatio-temporally_consistent_4d_reconstruction_from_sparse_cameras.md)
 - [\[AAAI 2026\] Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](sparse4dgs_4d_gaussian_splatting_for_sparse-frame_dynamic_scene_reconstruction.md)
+- [\[CVPR 2026\] NeuROK: Generative 4D Neural Object Kinematics](../../CVPR2026/3d_vision/neurok_generative_4d_neural_object_kinematics.md)
+- [\[CVPR 2026\] SparseCam4D: Spatio-Temporally Consistent 4D Reconstruction from Sparse Cameras](../../CVPR2026/3d_vision/sparsecam4d_spatio-temporally_consistent_4d_reconstruction_from_sparse_cameras.md)
 
 </div>
 

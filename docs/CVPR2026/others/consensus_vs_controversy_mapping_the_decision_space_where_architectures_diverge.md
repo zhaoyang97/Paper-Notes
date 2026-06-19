@@ -87,6 +87,7 @@ $$\mathrm{CS}=\frac{\mathrm{mean}(D_i: i\in\mathcal{C}_\text{contro})}{\mathrm{m
 全体分歧分布右偏（均值 0.106、标准差 0.056），大多数图像挤在 0.05–0.10 的低分歧带，少数延伸到 0.30+，印证"争议高度集中在一小撮图像"。模型整体准确率 72.6%–84.0%（均值 79.9%，ConvNeXt-Tiny 最高 84.0%），差异不大，但分歧结构差异巨大。
 
 ### 家族一致性与集成分析
+
 | 分析 | 关键数值 | 说明 |
 |------|---------|------|
 | 家族内 vs 家族间一致率 | 83.5% vs 80.2% | 3.3pp 的系统性差距，跨争议/共识子集都稳定存在 |
@@ -99,6 +100,7 @@ $$\mathrm{CS}=\frac{\mathrm{mean}(D_i: i\in\mathcal{C}_\text{contro})}{\mathrm{m
 | ADER | 24.6 | 跨家族分歧在 10% 争议图上的浓度是数据占比的 24.6 倍 |
 
 ### 稳健性、校准与代价-精度权衡
+
 | 验证 | 结果 | 结论 |
 |------|------|------|
 | Isotonic 校准后 CS | 4.46 → **18.65**（ECE 0.089→0.044） | 校准非但没削弱、反而放大分离 → 争议不是误校准伪影 |
@@ -142,10 +144,10 @@ $$\mathrm{CS}=\frac{\mathrm{mean}(D_i: i\in\mathcal{C}_\text{contro})}{\mathrm{m
 
 ## 相关论文
 
-- [\[CVPR 2026\] Exemplar-Free Continual Learning for State Space Models](exemplar-free_continual_learning_for_state_space_models.md)
-- [\[AAAI 2026\] Bayesian Network Structural Consensus via Greedy Min-Cut Analysis](../../AAAI2026/others/bayesian_network_structural_consensus_via_greedy_min-cut_analysis.md)
+- [\[CVPR 2026\] Beyond Euclidean Gossip: KL-Barycentric Consensus on Heterogeneous and Imbalanced Images](beyond_euclidean_gossip_kl-barycentric_consensus_on_heterogeneous_and_imbalanced.md)
 - [\[CVPR 2026\] HypeVPR: Exploring Hyperbolic Space for Perspective to Equirectangular Visual Place Recognition](hypevpr_exploring_hyperbolic_space_for_perspective_to_equirectangular_visual_pla.md)
-- [\[CVPR 2026\] Learning Anchor in Dual Orthogonal Space for Fast Multi-view Clustering](learning_anchor_in_dual_orthogonal_space_for_fast_multi-view_clustering.md)
+- [\[AAAI 2026\] Bayesian Network Structural Consensus via Greedy Min-Cut Analysis](../../AAAI2026/others/bayesian_network_structural_consensus_via_greedy_min-cut_analysis.md)
+- [\[CVPR 2026\] InstantRetouch: Efficient and High-Fidelity Instruction-Guided Image Retouching with Bilateral Space](instantretouch_efficient_and_high-fidelity_instruction-guided_image_retouching_w.md)
 - [\[ICML 2026\] Decision Tree Learning on Product Spaces](../../ICML2026/others/decision_tree_learning_on_product_spaces.md)
 
 </div>

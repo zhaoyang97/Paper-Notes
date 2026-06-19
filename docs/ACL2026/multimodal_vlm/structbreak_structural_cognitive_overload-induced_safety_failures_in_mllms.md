@@ -18,9 +18,9 @@ tags:
 # StructBreak: Structural Cognitive Overload-Induced Safety Failures in MLLMs
 
 **会议**: ACL2026 Findings  
-**arXiv**: [2605.25534](https://arxiv.org/abs/2605.25534)
-**代码**: 待确认
-**领域**: 多模态VLM
+**arXiv**: [2605.25534](https://arxiv.org/abs/2605.25534)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: MLLM 安全, 越狱攻击, 认知过载, 视觉知识图谱, 注意力耗散, 对齐失效
 
 ## 一句话总结
@@ -134,11 +134,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] EgoProx: Evaluating MLLMs on Egocentric 3D Proximity Reasoning Across a Cognitive Hierarchy](../../CVPR2026/multimodal_vlm/egoprox_evaluating_mllms_on_egocentric_3d_proximity_reasoning_across_a_cognitive.md)
 - [\[CVPR 2026\] Harmonious Parameter Adaptation in Continual Visual Instruction Tuning for Safety-Aligned MLLMs](../../CVPR2026/multimodal_vlm/harmonious_parameter_adaptation_in_continual_visual_instruction_tuning_for_safet.md)
-- [\[CVPR 2026\] Revisiting Visual Corruptions in LVLMs: A Shape-Texture Perspective on Model Failures](../../CVPR2026/multimodal_vlm/revisiting_visual_corruptions_in_lvlms_a_shape-texture_perspective_on_model_fail.md)
-- [\[ACL 2026\] TableVista: Benchmarking Multimodal Table Reasoning under Visual and Structural Complexity](tablevista_benchmarking_multimodal_table_reasoning_under_visual_and_structural_c.md)
 - [\[CVPR 2026\] LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map](../../CVPR2026/multimodal_vlm/lasar_towards_spatio-temporal_reasoning_with_latent_cognitive_map.md)
+- [\[CVPR 2026\] Revisiting Visual Corruptions in LVLMs: A Shape-Texture Perspective on Model Failures](../../CVPR2026/multimodal_vlm/revisiting_visual_corruptions_in_lvlms_a_shape-texture_perspective_on_model_fail.md)
+- [\[CVPR 2026\] Structural Graph Probing of Vision-Language Models](../../CVPR2026/multimodal_vlm/structural_graph_probing_of_vision-language_models.md)
+- [\[CVPR 2026\] SO-Bench: A Structural Output Evaluation of Multimodal LLM](../../CVPR2026/multimodal_vlm/so-bench_a_structural_output_evaluation_of_multimodal_llm.md)
 
 </div>
 

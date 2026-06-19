@@ -1,21 +1,24 @@
 ---
 title: >-
-  ACL2026 知识编辑论文汇总 · 9篇论文解读
+  ACL2026 知识编辑论文汇总 · 10篇论文解读
 description: >-
-  9篇ACL2026的知识编辑方向论文解读，涵盖 LLM、对齐/RLHF、对抗鲁棒、强化学习、人脸/视线等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  10篇ACL2026的知识编辑方向论文解读，涵盖 LLM、情感分析、机器人、对齐/RLHF、对抗鲁棒、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2026"
   - "知识编辑"
   - "论文解读"
   - "论文笔记"
   - "LLM"
+  - "情感分析"
+  - "机器人"
   - "对齐/RLHF"
   - "对抗鲁棒"
   - "强化学习"
-  - "人脸/视线"
 item_list:
   - u: "aligning_language_models_with_real-time_knowledge_editing/"
     t: "Aligning Language Models with Real-time Knowledge Editing"
+  - u: "can_factual_opinions_be_edited_manipulated_in_large_language_models/"
+    t: "Can Factual Opinions Be Edited (Manipulated) in Large Language Models?"
   - u: "clare-ty_amid_chaos_quantifying_representational_entanglement_to_predict_ripple_/"
     t: "CLaRE-ty Amid Chaos: Quantifying Representational Entanglement to Predict Ripple Effects in LLM Editing"
   - u: "evoedit_evolving_null-space_alignment_for_robust_and_efficient_knowledge_editing/"
@@ -32,21 +35,25 @@ item_list:
     t: "Spectral Characterization and Mitigation of Sequential Knowledge Editing Collapse"
   - u: "the_model_agreed_but_didn39t_learn_diagnosing_surface_compliance_in_large_langua/"
     t: "The Model Agreed, But Didn't Learn: Diagnosing Surface Compliance in Large Language Models"
-item_total: 9
+item_total: 10
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**💬 ACL2026** · **9** 篇论文解读
+**💬 ACL2026** · **10** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/knowledge_editing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/knowledge_editing/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/knowledge_editing/index.md) · [🤖 AAAI2026 (4)](../../AAAI2026/knowledge_editing/index.md) · [🧠 NeurIPS2025 (6)](../../NeurIPS2025/knowledge_editing/index.md) · [🧪 ICML2025 (2)](../../ICML2025/knowledge_editing/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/knowledge_editing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/knowledge_editing/index.md) · [🔬 ICLR2026 (9)](../../ICLR2026/knowledge_editing/index.md) · [🤖 AAAI2026 (4)](../../AAAI2026/knowledge_editing/index.md) · [🧠 NeurIPS2025 (6)](../../NeurIPS2025/knowledge_editing/index.md) · [🧪 ICML2025 (2)](../../ICML2025/knowledge_editing/index.md)
 
-🔥 **高频主题：** LLM ×2
+🔥 **高频主题：** LLM ×3
 
 **[Aligning Language Models with Real-time Knowledge Editing](aligning_language_models_with_real-time_knowledge_editing.md)**
 
 :   引入CRAFT（持续更新的中文金融知识编辑数据集）和KEDAS（基于多样化编辑增强和自适应推理的知识编辑对齐范式），解决现有知识编辑方法在实时场景中成功率-局部性-可迁移性难以兼顾的问题。
+
+**[Can Factual Opinions Be Edited (Manipulated) in Large Language Models?](can_factual_opinions_be_edited_manipulated_in_large_language_models.md)**
+
+:   本文指出现有知识编辑技术不仅能改原子事实、还能被用来篡改"公众人物的记录立场"（factual opinion），为此构建了带证据的 FOE 基准，并发现现有方法只能做到"表面改观点、证据却前后矛盾"，进而提出一个两阶段的 Self-Generated Evidence-Aligned 方法，让编辑后的模型在不依赖显式指令的情况下也能自圆其说地给出与篡改观点一致的证据。
 
 **[CLaRE-ty Amid Chaos: Quantifying Representational Entanglement to Predict Ripple Effects in LLM Editing](clare-ty_amid_chaos_quantifying_representational_entanglement_to_predict_ripple_.md)**
 

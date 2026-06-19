@@ -100,6 +100,7 @@ GRPO 代表 group-wise optimization：对同一 prompt 采样多个候选，用�
 这篇论文是综述/框架论文，没有报告新的模型训练实验、benchmark SOTA 数值或传统消融实验。因此这里不把 taxonomy 表误写成 empirical accuracy，而是整理论文给出的可核查结构性结果和设计结论。
 
 ### 主结果
+
 | 论文证据 | 规模 / 数量 | 具体含义 | 对实践的启发 |
 |---------|-------------|----------|--------------|
 | 三阶段框架 | 3 个阶段 | response synthesis、preference evaluation、preference instantiation | 诊断 alignment 失败时先定位是哪一段信号被污染或压缩 |

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.13623](https://arxiv.org/abs/2411.13623)  
 **代码**: [github](https://github.com/KatherLab/COBRA)  
-**领域**: 医学图像
+**领域**: 医学图像  
 **关键词**: 全切片图像表征学习, 自监督学习, 对比学习, 基础模型无关, Mamba-2
 
 ## 一句话总结

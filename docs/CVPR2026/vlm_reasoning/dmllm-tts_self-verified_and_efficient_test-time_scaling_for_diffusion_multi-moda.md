@@ -2,10 +2,10 @@
 title: >-
   [论文解读] dMLLM-TTS: Self-Verified and Efficient Test-Time Scaling for Diffusion Multi-Modal Large Language Models
 description: >-
-  [CVPR 2026][多模态VLM][测试时缩放] 针对统一生成-理解的扩散多模态大模型（dMLLM），用模型自身的图文理解能力当"裁判"（自验证反馈）来给候选图像打分，再配一个由粗到细的分层轨迹搜索，把传统线性搜索 $O(NT)$ 的测试时缩放降到近线性 $O(N+T)$，在 GenEval 上把三个 dMLLM 的生成质量显著拉高、并比线性搜索快 5–6 倍。
+  [CVPR 2026][VLM Reasoning][测试时缩放] 针对统一生成-理解的扩散多模态大模型（dMLLM），用模型自身的图文理解能力当"裁判"（自验证反馈）来给候选图像打分，再配一个由粗到细的分层轨迹搜索，把传统线性搜索 $O(NT)$ 的测试时缩放降到近线性 $O(N+T)$，在 GenEval 上把三个 dMLLM 的生成质量显著拉高、并比线性搜索快 5–6 倍。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "测试时缩放"
   - "扩散多模态大模型"
   - "自验证"
@@ -157,9 +157,9 @@ $$C_{\text{HTS}} = O\!\Big(N T_s + \tfrac{N-dK}{d-1} + K(T-T_r)\Big),$$
 
 - [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
 - [\[CVPR 2026\] Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory](evolving_contextual_safety_in_multi-modal_large_language_models_via_inference-ti.md)
-- [\[CVPR 2026\] Decoupling Stability and Plasticity for Multi-Modal Test-Time Adaptation](decoupling_stability_and_plasticity_for_multi-modal_test-time_adaptation.md)
-- [\[CVPR 2026\] Multi-modal Test-time Adaptation via Adaptive Probabilistic Gaussian Calibration](multi-modal_test-time_adaptation_via_adaptive_probabilistic_gaussian_calibration.md)
 - [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
+- [\[CVPR 2026\] Unified Generation and Self-Verification for Vision-Language Models via Advantage Decoupled Preference Optimization](unified_generation_and_self-verification_for_vision-language_models_via_advantag.md)
+- [\[CVPR 2026\] ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning](ants_adaptive_negative_textual_space_shaping_for_ood_detection_via_test-time_mll.md)
 
 </div>
 

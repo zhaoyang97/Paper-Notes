@@ -84,6 +84,7 @@ FICO 信用评分数据（归一化到 $[0,10]$）模拟多级信用产品系统
 | IV 难学易骗 | (1.5, 0.4) | 8 | 0.63 | 7.98 | 107.9 |
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|----------|------|
 | 完整机制 (Case I) | 全程纯改进、属性单调上升 | 激励对齐成立，达成理想轨迹 |
@@ -131,8 +132,8 @@ FICO 信用评分数据（归一化到 $[0,10]$）模拟多级信用产品系统
 - [\[CVPR 2026\] DF²-VB: Dual-level Fuzzy Fusion with View-specific Boosting for Multi-view Multi-label Classification](../../CVPR2026/others/df2-vb_dual-level_fuzzy_fusion_with_view-specific_boosting_for_multi-view_multi-.md)
 - [\[ICML 2026\] Networked Information Aggregation for Binary Classification](networked_information_aggregation_for_binary_classification.md)
 - [\[CVPR 2026\] Prototype-based Causal Intervention for Multi-Label Image Classification](../../CVPR2026/others/prototype-based_causal_intervention_for_multi-label_image_classification.md)
-- [\[CVPR 2026\] Cross-View Distillation and Adaptive Masking for Incomplete Multi-View Multi-Label Classification](../../CVPR2026/others/cross-view_distillation_and_adaptive_masking_for_incomplete_multi-view_multi-lab.md)
 - [\[AAAI 2026\] DcMatch: Unsupervised Multi-Shape Matching with Dual-Level Consistency](../../AAAI2026/others/dcmatch_unsupervised_multi-shape_matching_with_dual-level_consistency.md)
+- [\[ICLR 2026\] Distributionally Robust Classification for Multi-Source Unsupervised Domain Adaptation](../../ICLR2026/others/distributionally_robust_classification_for_multi-source_unsupervised_domain_adap.md)
 
 </div>
 

@@ -127,7 +127,7 @@ SRSR无需训练——完全在推理时工作。使用原始预训练SD和UNet�
 - [\[NeurIPS 2025\] Panoptic Captioning: An Equivalence Bridge for Image and Text](panoptic_captioning_an_equivalence_bridge_for_image_and_text.md)
 - [\[NeurIPS 2025\] Re-coding for Uncertainties: Edge-awareness Semantic Concordance for Resilient Event-RGB Segmentation](re-coding_for_uncertainties_edge-awareness_semantic_concordance_for_resilient_ev.md)
 - [\[NeurIPS 2025\] Towards Unsupervised Domain Bridging via Image Degradation in Semantic Segmentation](towards_unsupervised_domain_bridging_via_image_degradation_in_semantic_segmentat.md)
-- [\[CVPR 2025\] Golden Cudgel Network for Real-Time Semantic Segmentation](../../CVPR2025/segmentation/golden_cudgel_network_for_real-time_semantic_segmentation.md)
+- [\[CVPR 2026\] CLP: A Real-World Dataset of Contaminated Lens Protectors for Robust Semantic Segmentation](../../CVPR2026/segmentation/clp_a_real-world_dataset_of_contaminated_lens_protectors_for_robust_semantic_seg.md)
 
 </div>
 

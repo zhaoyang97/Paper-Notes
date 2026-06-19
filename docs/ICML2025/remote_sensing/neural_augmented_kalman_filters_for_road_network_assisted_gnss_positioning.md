@@ -137,8 +137,8 @@ KF 状态 8 维：3D 位置 + 3D 速度 + 时钟偏差/漂移。道路量测更�
 
 - [\[ICCV 2025\] Information-Bottleneck Driven Binary Neural Network for Change Detection](../../ICCV2025/remote_sensing/information-bottleneck_driven_binary_neural_network_for_change_detection.md)
 - [\[CVPR 2026\] Beyond Endpoints: Path-Centric Reasoning for Vectorized Off-Road Network Extraction](../../CVPR2026/remote_sensing/beyond_endpoints_path-centric_reasoning_for_vectorized_off-road_network_extracti.md)
-- [\[CVPR 2026\] Spectrally Distilled Representations Aligned with Instruction-Augmented LLMs for Satellite Imagery](../../CVPR2026/remote_sensing/spectrally_distilled_representations_aligned_with_instruction-augmented_llms_for.md)
 - [\[CVPR 2026\] LNEM: Lunar Neural Elevation Model](../../CVPR2026/remote_sensing/lnem_lunar_neural_elevation_model.md)
+- [\[CVPR 2026\] Spectrally Distilled Representations Aligned with Instruction-Augmented LLMs for Satellite Imagery](../../CVPR2026/remote_sensing/spectrally_distilled_representations_aligned_with_instruction-augmented_llms_for.md)
 - [\[CVPR 2026\] RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction](../../CVPR2026/remote_sensing/roadgie_towards_a_global-scale_aerial_benchmark_for_generalizable_interactive_ro.md)
 
 </div>

@@ -105,6 +105,7 @@ $$\hat F_{k,t}=\beta\,\hat F_{k,t-\Delta}+(1-\beta)\,F_{k,t}$$
 兼容性（Table 3）：叠加量化（FLUX.1-dev-int8，N=5 得 0.9904 ImageReward、PSNR/SSIM/LPIPS 优于量化基线）、步数蒸馏（FLUX.1-schnell，N=3 时 49.87× 加速、0.9463 ImageReward，超过同 NFE 的 TaylorSeer/TeaCache）、稀疏注意力均可叠加，最高在 FLUX.1-schnell 上报到 29.01× 总加速。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | 主子空间 EMA + 残差复用（完整） | 最优 | 验证分而治之的设计选择 |

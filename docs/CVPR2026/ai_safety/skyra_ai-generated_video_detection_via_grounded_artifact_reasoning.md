@@ -112,6 +112,7 @@ Skyra-RL 比次优的 DeMamba 绝对准确率高 26.73%、F1 高 17.27%；比 ML
 Skyra-RL 比最佳二分类高 11.07% Acc；更亮眼的是：仅用 GenVideo 训练集随机抽的 2.2K 数据、**无任何额外人工标注**、只训 1 个 epoch 的 RL，就把模型快速适配到新域（Skyra-RL-GenVideo），比 Skyra-RL 再涨 19.22% Acc、42.06% Recall——印证了 RL 阶段的快速域适配价值。
 
 ### 消融实验
+
 | 配置 | Acc | Recall | F1 | 说明 |
 |------|-----|--------|-----|------|
 | Skyra-RL（完整） | 91.02 | 88.35 | 90.27 | 完整模型 |
@@ -158,9 +159,9 @@ Skyra-RL 比最佳二分类高 11.07% Acc；更亮眼的是：仅用 GenVideo �
 
 - [\[CVPR 2026\] VMD-FACT: A New Video Dataset and MLLM-based method for Detecting Realistic AI-Generated Video Misinformation](vmd-fact_a_new_video_dataset_and_mllm-based_method_for_detecting_realistic_ai-ge.md)
 - [\[CVPR 2026\] Scaling Up AI-Generated Image Detection with Generator-Aware Prototypes](scaling_up_ai-generated_image_detection_with_generator-aware_prototypes.md)
-- [\[CVPR 2026\] Zero-shot Detection of AI-Generated Image via RAW-RGB Alignment](zero-shot_detection_of_ai-generated_image_via_raw-rgb_alignment.md)
-- [\[CVPR 2026\] Enabling Supervised Learning of Generative Signatures for Generalized AI-Generated Images Detection](enabling_supervised_learning_of_generative_signatures_for_generalized_ai-generat.md)
 - [\[ICLR 2026\] Watermark-based Detection and Attribution of AI-Generated Content](../../ICLR2026/ai_safety/watermark-based_attribution_of_ai-generated_content.md)
+- [\[CVPR 2026\] Detecting Compressed AI-Generated Images via Phase Spectrum Robustness](detecting_compressed_ai-generated_images_via_phase_spectrum_robustness.md)
+- [\[CVPR 2026\] Cross-modal Representation Learning for Diffusion-generated Image Detection](cross-modal_representation_learning_for_diffusion-generated_image_detection.md)
 
 </div>
 

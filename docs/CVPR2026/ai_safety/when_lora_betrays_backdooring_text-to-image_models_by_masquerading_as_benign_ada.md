@@ -101,6 +101,7 @@ $$\mathcal{L}_{TW\text{-}MSE}=\mathbb{E}_{(x,y),\epsilon,t}\left[w(t)\cdot\|\eps
 把 LoRA 伪装成艺术风格模块，触发时生成 NSFW 内容。6 种风格 × 6 类 NSFW 全部稳定注入，ASR 普遍 75–88%、SMI≈1.3+，且良性风格生成的 FID/CLIP 基本不受影响。例如 cyberpunk 风格下 Nudity 87.5/1.34、benign FID 30.4 / CLIP 29.65。
 
 ### 可组合性（Table 3）
+
 | 场景 | 指标 | 1 个 | 2 个 | 3 个 | 4 个 |
 |------|------|------|------|------|------|
 | #1 对象 | ASR(%) | 99.8 | 96.8 | 94.5 | 91.6 |
@@ -111,6 +112,7 @@ $$\mathcal{L}_{TW\text{-}MSE}=\mathbb{E}_{(x,y),\epsilon,t}\left[w(t)\cdot\|\eps
 对象后门组合性很强（叠 4 个仍 91.6% ASR）；风格后门叠多了更易内部冲突、质量下降明显。
 
 ### 消融实验
+
 | 超参 | 选定值 | 关键发现 |
 |------|--------|---------|
 | LoRA rank $(r_{text},r_{unet})$ | (8,16) | 该组合 ASR 近满分、FID 最低，容量/质量最佳折中 |

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] POGA: Paraphrased and Oppositional Graph Alignment for Fine-Grained Cross-Modal Retrieval
 description: >-
-  [CVPR 2026][信息检索/RAG][细粒度跨模态检索] POGA 把图文都解析成结构化场景图，用 LLM 自动生成"复述正样本 + 反事实负样本"并提取它们的差异信息，再用一个跨全局/节点/关系/焦点四个粒度的复合损失训练，从而在长文本细粒度检索上既看清物体属性又能否决"语义相近但事实错误"的描述。
+  [CVPR 2026][多模态VLM][细粒度跨模态检索] POGA 把图文都解析成结构化场景图，用 LLM 自动生成"复述正样本 + 反事实负样本"并提取它们的差异信息，再用一个跨全局/节点/关系/焦点四个粒度的复合损失训练，从而在长文本细粒度检索上既看清物体属性又能否决"语义相近但事实错误"的描述。
 tags:
   - "CVPR 2026"
-  - "信息检索/RAG"
+  - "多模态VLM"
   - "细粒度跨模态检索"
   - "图对齐"
   - "长文本理解"
@@ -137,10 +137,10 @@ $$L_{node} = -\mathbb{E}_{v_i \in V}\left[\log \frac{S_{pos}(v_i)}{S_{pos}(v_i) 
 ## 相关论文
 
 - [\[CVPR 2026\] Language-driven Fine-grained Retrieval](language-driven_fine-grained_retrieval.md)
-- [\[CVPR 2026\] Beyond Global Similarity: Towards Fine-Grained, Multi-Condition Multimodal Retrieval](beyond_global_similarity_towards_fine-grained_multi-condition_multimodal_retriev.md)
+- [\[CVPR 2026\] Intra-class Distribution-guided Generative Hashing with Neighbor Refinement for Cross-modal Retrieval](intra-class_distribution-guided_generative_hashing_with_neighbor_refinement_for_.md)
 - [\[CVPR 2026\] Mask to Align, Weight to Disambiguate: Reliable Unsupervised Cross-Modal Hashing with Masked-Weight Contrast](mask_to_align_weight_to_disambiguate_reliable_unsupervised_cross-modal_hashing_w.md)
-- [\[ACL 2025\] CART: A Generative Cross-Modal Retrieval Framework with Coarse-To-Fine Semantic Modeling](../../ACL2025/information_retrieval/cart_a_generative_cross-modal_retrieval_framework_with_coarse-to-fine_semantic_m.md)
-- [\[AAAI 2026\] Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval](../../AAAI2026/information_retrieval/neighbor-aware_instance_refining_with_noisy_labels_for_cross-modal_retrieval.md)
+- [\[ICLR 2026\] Improving Semantic Proximity in Information Retrieval through Cross-Lingual Alignment](../../ICLR2026/information_retrieval/improving_semantic_proximity_in_information_retrieval_through_cross-lingual_alig.md)
+- [\[ACL 2025\] Atomic LLM: A Fine-Grained Information Retrieval Evaluation Benchmark for Language Models](../../ACL2025/information_retrieval/atomic_llm_a_fine-grained_information_retrieval_evaluation_benchmark_for_languag.md)
 
 </div>
 

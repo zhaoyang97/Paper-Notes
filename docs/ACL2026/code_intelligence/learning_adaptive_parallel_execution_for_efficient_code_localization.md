@@ -94,6 +94,7 @@ flowchart TD
 | Qwen3-30B-A3B SFT+RL | 83.01 | 58.62 | e=64.53, T=10.6s, Tok=43.2k | 大模型同样受益 |
 
 ### 消融实验
+
 | 配置 | File F1 | Func F1 | #Turn | T(s) | Tok.(k) | 说明 |
 |------|---------|---------|-------|------|---------|------|
 | Seq SFT+RL | 78.82 | 50.21 | 7.52 | 8.03 | 59.4 | 每轮 1 个工具 |
@@ -143,7 +144,7 @@ flowchart TD
 - [\[ICLR 2026\] Improving Code Localization with Repository Memory](../../ICLR2026/code_intelligence/improving_code_localization_with_repository_memory.md)
 - [\[ACL 2026\] CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment](coderl_improving_code_generation_via_reinforcement_with_execution_semantics_alig.md)
 - [\[ACL 2026\] PaT: Planning-after-Trial for Efficient Test-Time Code Generation](pat_planning-after-trial_for_efficient_test-time_code_generation.md)
-- [\[ACL 2026\] PExA: Parallel Exploration Agent for Complex Text-to-SQL](pexa_parallel_exploration_agent_for_complex_text-to-sql.md)
+- [\[ACL 2026\] CollabCoder: Plan-Code Co-Evolution via Collaborative Decision-Making for Efficient Code Generation](collabcoder_plan-code_co-evolution_via_collaborative_decision-making_for_efficie.md)
 
 </div>
 

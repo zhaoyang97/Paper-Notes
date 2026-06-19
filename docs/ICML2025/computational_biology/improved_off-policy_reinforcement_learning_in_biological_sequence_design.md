@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2410.04461](https://arxiv.org/abs/2410.04461)  
 **作者**: Hyeonah Kim, Minsu Kim, Taeyoung Yun, Sanghyeok Choi, Emmanuel Bengio, Alex Hernández-García, Jinkyoo Park (KAIST, Mila)
 **代码**: 待确认  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: biological sequence design, GFlowNets, off-policy RL, conservative search, active learning, proxy model
 
 ## 一句话总结

@@ -102,10 +102,10 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] MorphTok: Morphologically Grounded Tokenization for Indian Languages](morphtok_morphologically_grounded_tokenization_for_indian_languages.md)
-- [\[CVPR 2025\] Generative Video Propagation](../../CVPR2025/segmentation/generative_video_propagation.md)
 - [\[ICML 2025\] Alberta Wells Dataset: Pinpointing Oil and Gas Wells from Satellite Imagery](alberta_wells_dataset_pinpointing_oil_and_gas_wells_from_satellite_imagery.md)
 - [\[ICML 2025\] Balanced Learning for Domain Adaptive Semantic Segmentation](balanced_learning_for_domain_adaptive_semantic_segmentation.md)
 - [\[ICML 2025\] ConText: Driving In-context Learning for Text Removal and Segmentation](context_driving_in-context_learning_for_text_removal_and_segmentation.md)
+- [\[ICML 2025\] Efficient and Robust Semantic Image Communication via Stable Cascade](efficient_and_robust_semantic_image_communication_via_stable_cascade.md)
 
 </div>
 

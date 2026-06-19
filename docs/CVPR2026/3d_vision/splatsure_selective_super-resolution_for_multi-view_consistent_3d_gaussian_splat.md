@@ -92,6 +92,7 @@ flowchart TD
 在 Tanks & Temples 上 SplatSuRe 几乎所有指标最优；Deep Blending 上全指标最强；Mip-NeRF 360 上除 LPIPS 外全面超过 SRGS，但两种 SR 方法都被 Mip-Splatting 反超——因为该数据集相机轨迹平滑、多视角覆盖密、欠采样极少，且其 LR 图本就约两倍大、已保留多数高频，留给 SR 的提升空间很小。
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | 比值阈值 $\tau$ | $\tau$ 从小到大，PSNR/LPIPS 先升后降 | 少量 SR 补细节有益，过量 SR 引入跨视角不一致反而掉点；$\tau=0$/$\infty$ 即零/全 SR，选 $\tau=1.1$ 折中 |

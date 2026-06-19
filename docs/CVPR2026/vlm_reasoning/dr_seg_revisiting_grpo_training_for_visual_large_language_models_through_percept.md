@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Dr. Seg: Revisiting GRPO Training for Visual Large Language Models through Perception-Oriented Design
 description: >-
-  [CVPR 2026][多模态VLM][GRPO] 论文指出"把语言推理的 GRPO 训练范式直接搬到视觉感知任务"这个普遍假设并不成立，针对感知任务"需要更宽的输出空间 + 更细更稳的奖励"两个被忽视的特性，提出即插即用的 Dr. Seg：用 `<look>` 标签鼓励广度探索、用分布排名奖励把多个连续指标映射到经验分位数，无需改模型结构就在 6 个分割/检测/计数基准上 5/6 拿到 SOTA。
+  [CVPR 2026][VLM Reasoning][GRPO] 论文指出"把语言推理的 GRPO 训练范式直接搬到视觉感知任务"这个普遍假设并不成立，针对感知任务"需要更宽的输出空间 + 更细更稳的奖励"两个被忽视的特性，提出即插即用的 Dr. Seg：用 `<look>` 标签鼓励广度探索、用分布排名奖励把多个连续指标映射到经验分位数，无需改模型结构就在 6 个分割/检测/计数基准上 5/6 拿到 SOTA。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "GRPO"
   - "视觉感知"
   - "强化学习"
@@ -159,10 +159,10 @@ Dr. Seg 在 6 个基准里 5/6 拿到同类 SOTA，且**同时**在 ID 和 OOD �
 ## 相关论文
 
 - [\[CVPR 2026\] MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models](moe-grpo_optimizing_mixture-of-experts_via_reinforcement_learning_in_vision-lang.md)
-- [\[ICLR 2026\] DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage](../../ICLR2026/multimodal_vlm/diva-grpo_enhancing_multimodal_reasoning_through_difficulty-adaptive_variant_adv.md)
-- [\[CVPR 2026\] CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception](cropvlm_learning_to_zoom_for_fine_grained_vision_language_perception.md)
-- [\[AAAI 2026\] Revisiting the Data Sampling in Multimodal Post-training from a Difficulty-Distinguish View](../../AAAI2026/multimodal_vlm/revisiting_the_data_sampling_in_multimodal_post-training_from_a_difficulty-disti.md)
-- [\[CVPR 2026\] Linking Perception, Confidence and Accuracy in MLLMs](linking_perception_confidence_and_accuracy_in_mllms.md)
+- [\[CVPR 2026\] DPAD: Discriminative Perception via Anchored Description for Reasoning Segmentation](discriminative_perception_via_anchored_description_for_reasoning_segmentation.md)
+- [\[CVPR 2026\] DeepScan: A Training-Free Framework for Visually Grounded Reasoning in Large Vision-Language Models](deepscan_a_training-free_framework_for_visually_grounded_reasoning_in_large_visi.md)
+- [\[ICLR 2026\] DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage](../../ICLR2026/vlm_reasoning/diva-grpo_enhancing_multimodal_reasoning_through_difficulty-adaptive_variant_adv.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
 
 </div>
 

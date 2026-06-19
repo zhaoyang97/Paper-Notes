@@ -94,6 +94,7 @@ $$\mathcal{L}_{\mathrm{occ}}=\sum_{m=1}^{M}\gamma^{M-m}\,\mathrm{BCE}\big(\sigma
 MV-TAP 在四个数据集上几乎全面领先。需要深度输入的 3D 方法（SpatialTracker、TAPIP3D）和 MVTracker 在部分数据集上崩得很厉害（如 TAPIP3D 在 Harmony4D 上 AJ 仅 5.0，MVTracker 在 Harmony4D 上 $<\delta^x_{avg}$ 仅 13.3），说明依赖深度抬升在真实复杂人体场景下很脆弱。最暴露问题的是"拍平"基线（CoTracker3+Flat. 把视角和时间拍成一条序列），几乎全线崩盘——盲目把多视角当长序列处理反而有害。
 
 ### 消融实验
+
 | 配置 | DexYCB (AJ / $<\delta^x_{avg}$ / OA) | Panoptic (AJ / $<\delta^x_{avg}$ / OA) | 说明 |
 |------|--------------------------------------|----------------------------------------|------|
 | CoTracker3 (基线) | 41.5 / 59.6 / 76.4 | 39.6 / 61.4 / 72.3 | 单视图逐视角独立跑 |
@@ -142,9 +143,9 @@ MV-TAP 在四个数据集上几乎全面领先。需要深度输入的 3D 方法
 
 - [\[CVPR 2026\] MER-Tracker: Towards High-Speed 3D Point Tracking via Multi-View Event-RGB Hybrid Cameras](mer-tracker_towards_high-speed_3d_point_tracking_via_multi-view_event-rgb_hybrid.md)
 - [\[CVPR 2025\] ETAP: Event-based Tracking of Any Point](../../CVPR2025/video_understanding/etap_event-based_tracking_of_any_point.md)
-- [\[CVPR 2026\] TAPFormer: Robust Arbitrary Point Tracking via Transient Asynchronous Fusion of Frames and Events](ttapformer_robust_arbitrary_point_tracking_via_transient_asynchronous_fusion_of_.md)
 - [\[NeurIPS 2025\] TAPVid-360: Tracking Any Point in 360 from Narrow Field of View Video](../../NeurIPS2025/video_understanding/tapvid-360_tracking_any_point_in_360_from_narrow_field_of_view_video.md)
-- [\[CVPR 2026\] Real-World Point Tracking with Verifier-Guided Pseudo-Labeling](realworld_point_tracking_with_verifierguided_pseud.md)
+- [\[CVPR 2026\] TAPFormer: Robust Arbitrary Point Tracking via Transient Asynchronous Fusion of Frames and Events](ttapformer_robust_arbitrary_point_tracking_via_transient_asynchronous_fusion_of_.md)
+- [\[CVPR 2026\] Generative Point Tracking and Forecasting](generative_point_tracking_and_forecasting.md)
 
 </div>
 

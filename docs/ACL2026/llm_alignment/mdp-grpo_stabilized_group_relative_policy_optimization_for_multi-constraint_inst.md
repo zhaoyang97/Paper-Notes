@@ -81,6 +81,7 @@ GRPO 只看组内谁更好，会犯均值中心化盲区——“全错组”和
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 / 组大小 | 方法 | IFEval SSR/HSR | Custom SSR/HSR | FollowBench SSR/HSR | 关键观察 |
 |---------------|------|----------------|----------------|---------------------|----------|
 | Gemma-2-2B, G=8 | Baseline | 56.7 / 45.1 | 54.8 / 18.8 | 63.7 / 52.9 | 零样本指令模型 |
@@ -93,6 +94,7 @@ GRPO 只看组内谁更好，会犯均值中心化盲区——“全错组”和
 论文也指出单个组件不总是全局最优。例如 Gemma-2-2B 在 IFEval 上 PT-GRPO 的 HSR 最高，为 65.8%，高于 GRPO 的 62.4%；Llama-3.2-3B 在 IFEval 上 DA-PT-GRPO 的 SSR 为 71.5%，略高于 MDP-GRPO 的 71.3%。作者因此强调 full pipeline 是更稳定的整体 profile，而不是每个指标都第一。
 
 ### 消融实验
+
 | 设置 | 关键数字 | 说明 |
 |------|----------|------|
 | Gemma, G=8, Custom HSR | GRPO 29.0，DA-GRPO 32.6，DA-PT-GRPO 33.4，MDP-GRPO 32.8 | 目标锚点对复杂约束组合最有帮助 |
@@ -139,8 +141,8 @@ GRPO 只看组内谁更好，会犯均值中心化盲区——“全错组”和
 ## 相关论文
 
 - [\[ICLR 2026\] Group-Relative REINFORCE Is Secretly an Off-Policy Algorithm: Demystifying Some Myths About GRPO and Its Friends](../../ICLR2026/llm_alignment/group-relative_reinforce_is_secretly_an_off-policy_algorithm_demystifying_some_m.md)
+- [\[ICLR 2026\] ContextIF: Enhancing Instruction-Following through Context Reward](../../ICLR2026/llm_alignment/contextif_enhancing_instruction-following_through_context_reward.md)
 - [\[ACL 2026\] Taming Extreme Tokens: Covariance-Aware GRPO with Gaussian-Kernel Advantage Reweighting](taming_extreme_tokens_covariance-aware_grpo_with_gaussian-kernel_advantage_rewei.md)
-- [\[ACL 2025\] Reverse Preference Optimization for Complex Instruction Following](../../ACL2025/llm_alignment/reverse_preference_optimization_for_complex_instruction_following.md)
 - [\[AAAI 2026\] LaF-GRPO: In-Situ Navigation Instruction Generation for the Visually Impaired via GRPO with LLM-as-Follower Reward](../../AAAI2026/llm_alignment/laf-grpo_in-situ_navigation_instruction_generation_for_the_visually_impaired_via.md)
 - [\[NeurIPS 2025\] GVPO: Group Variance Policy Optimization for Large Language Model Post-Training](../../NeurIPS2025/llm_alignment/gvpo_group_variance_policy_optimization_for_large_language_model_post-training.md)
 

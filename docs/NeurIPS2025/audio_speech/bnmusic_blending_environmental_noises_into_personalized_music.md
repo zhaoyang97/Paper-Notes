@@ -133,8 +133,8 @@ tags:
 
 - [\[NeurIPS 2025\] Echoes of Humanity: Exploring the Perceived Humanness of AI Music](echoes_of_humanity_exploring_the_perceived_humanness_of_ai_music.md)
 - [\[NeurIPS 2025\] Ethics Statements in AI Music Papers: The Effective and the Ineffective](ethics_statements_in_ai_music_papers_the_effective_and_the_ineffective.md)
-- [\[ICML 2025\] MuseControlLite: Multifunctional Music Generation with Lightweight Conditioners](../../ICML2025/audio_speech/musecontrollite_multifunctional_music_generation_with_lightweight_conditioners.md)
 - [\[NeurIPS 2025\] Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization](unifying_symbolic_music_arrangement_track-aware_reconstruction_and_structured_to.md)
+- [\[ICML 2025\] MuseControlLite: Multifunctional Music Generation with Lightweight Conditioners](../../ICML2025/audio_speech/musecontrollite_multifunctional_music_generation_with_lightweight_conditioners.md)
 - [\[NeurIPS 2025\] MGE-LDM: Joint Latent Diffusion for Simultaneous Music Generation and Source Extraction](mge-ldm_joint_latent_diffusion_for_simultaneous_music_generation_and_source_extr.md)
 
 </div>

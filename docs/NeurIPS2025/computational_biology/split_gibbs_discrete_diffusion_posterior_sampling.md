@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.01161](https://arxiv.org/abs/2503.01161)  
 **代码**: [GitHub](https://github.com/chuwd19/Split-Gibbs-Discrete-Diffusion-Posterior-Sampling)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 离散扩散模型, 后验采样, Split Gibbs Sampling, 逆问题, DNA序列设计
 
 ## 一句话总结

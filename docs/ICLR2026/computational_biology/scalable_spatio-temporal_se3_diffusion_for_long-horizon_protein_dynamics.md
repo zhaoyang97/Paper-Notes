@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.02128](https://arxiv.org/abs/2602.02128)  
 **代码**: [https://bytedance-seed.github.io/ConfRover/starmd](https://bytedance-seed.github.io/ConfRover/starmd)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 蛋白质构象生成, SE(3)扩散模型, 时空注意力, 自回归轨迹生成, 分子动力学加速
 
 ## 一句话总结

@@ -83,6 +83,7 @@ $$p_\theta(V_{1:F}\mid S_0, A_{1:F}) = \int_{\Delta S} p^d_\theta(\Delta S_{1:F}
 构建了 144 样本基准：合成动态相机（Synthetic Dynamic，48 段来自 TRUMANS 未训练序列）、真实静态相机（Real-World Static，48 段来自 TASTE-Rob）、真实动态相机（Real-World Dynamic，48 段来自 Aria 自采）。指标用感知相似度 LPIPS / DreamSim（越低越好）和像素质量 PSNR / SSIM（越高越好）。
 
 ### 主实验
+
 | 设置 | 指标 | CVX SDEdit | CVX-Fun Fine-tuned | InterDyn | **本文(Ours)** |
 |------|------|-----------|--------------------|----------|----------------|
 | 合成·动态相机 | PSNR↑ / SSIM↑ | 19.42 / 0.675 | 20.54 / 0.767 | – | **25.03 / 0.844** |
@@ -95,6 +96,7 @@ $$p_\theta(V_{1:F}\mid S_0, A_{1:F}) = \int_{\Delta S} p^d_\theta(\Delta S_{1:F}
 DWM 在**所有设置、所有指标**上都最优。真实动态相机场景在训练时完全没见过（甚至没有任何"开窗户"类训练样本），DWM 仍能生成连贯仿真，泛化能力很强。基线对比中：CVX-SDEdit 难以在保持外观的同时生成有意义的交互；CVX-Fun Fine-tuned 常常作用到错误目标、幻觉出物体；InterDyn 的手能和掩码对齐但建不出物体动态。
 
 ### 消融实验
+
 | 配置 | 真实静态 LPIPS↓ | 真实静态 DreamSim↓ | 说明 |
 |------|----------------|---------------------|------|
 | 仅 TRUMANS（合成） | 0.304 | 0.124 | 只用合成数据训练 |
@@ -143,11 +145,11 @@ DWM 在**所有设置、所有指标**上都最优。真实动态相机场景在
 
 ## 相关论文
 
-- [\[CVPR 2026\] PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation](pointworld_scaling_3d_world_models_for_in-the-wild_robotic_manipulation.md)
 - [\[CVPR 2026\] Chain of World: World Model Thinking in Latent Motion (CoWVLA)](chain_of_world_world_model_thinking_in_latent_motion.md)
 - [\[CVPR 2026\] AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking](adadextrack_dynamic_modulation_for_adaptive_and_generalizable_dexterous_manipula.md)
 - [\[CVPR 2026\] Motus: A Unified Latent Action World Model](motus_a_unified_latent_action_world_model.md)
-- [\[CVPR 2026\] VideoWorld 2: Learning Transferable Knowledge from Real-world Videos](videoworld_2_learning_transferable_knowledge_from_real-world_videos.md)
+- [\[CVPR 2026\] Structural Action Transformer for 3D Dexterous Manipulation](structural_action_transformer_for_3d_dexterous_manipulation.md)
+- [\[CVPR 2026\] RehearseVLA: Simulated Post-Training for VLAs with Physically-Consistent World Model](rehearsevla_simulated_post-training_for_vlas_with_physically-consistent_world_mo.md)
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 信息检索/RAG论文汇总 · 70篇论文解读
+  ACL2026 信息检索/RAG论文汇总 · 73篇论文解读
 description: >-
-  70篇ACL2026的信息检索/RAG 方向论文解读，涵盖 RAG、问答、推理、LLM、对话系统、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  73篇ACL2026的信息检索/RAG 方向论文解读，涵盖 RAG、问答、推理、LLM、对话系统、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "信息检索/RAG"
@@ -33,6 +33,8 @@ item_list:
     t: "Benchmarking and Enabling Efficient Chinese Medical Retrieval via Asymmetric Encoders"
   - u: "beyond_black-box_interventions_latent_probing_for_faithful_retrieval-augmented_g/"
     t: "Beyond Black-Box Interventions: Latent Probing for Faithful Retrieval-Augmented Generation"
+  - u: "beyond_chunks_and_graphs_retrieval-augmented_generation_through_triplet-driven_t/"
+    t: "Beyond Chunks and Graphs: Retrieval-Augmented Generation through Triplet-Driven Thinking"
   - u: "brief-pro_universal_context_compression_with_short-to-long_synthesis_for_fast_an/"
     t: "BRIEF-Pro: Universal Context Compression with Short-to-Long Synthesis for Fast and Accurate Multi-Hop Reasoning"
   - u: "can_compact_language_models_search_like_agents_distillation-guided_policy_optimi/"
@@ -73,19 +75,17 @@ item_list:
     t: "Enhancing Multilingual RAG Systems with Debiased Language Preference-Guided Query Fusion"
   - u: "etracer_towards_traceable_text_generation_via_claim-level_grounding/"
     t: "eTracer: Towards Traceable Text Generation via Claim-Level Grounding"
-  - u: "feedback_adaptation_for_retrieval-augmented_generation/"
-    t: "Feedback Adaptation for Retrieval-Augmented Generation"
-item_total: 70
+item_total: 73
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**💬 ACL2026** · **70** 篇论文解读
+**💬 ACL2026** · **73** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (22)](../../ICML2026/information_retrieval/index.md) · [🔬 ICLR2026 (28)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (26)](../../ICML2026/information_retrieval/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×24 · 问答 ×8 · 推理 ×7 · LLM ×7 · 对话系统 ×5
+🔥 **高频主题：** RAG ×25 · 问答 ×8 · 推理 ×7 · LLM ×7 · 对话系统 ×5
 
 **[A Picture is Worth a Thousand Words? An Empirical Study of Aggregation Strategies for Visual Financial Document Retrieval](a_picture_is_worth_a_thousand_words_an_empirical_study_of_aggregation_strategies.md)**
 
@@ -122,6 +122,10 @@ item_total: 70
 **[Beyond Black-Box Interventions: Latent Probing for Faithful Retrieval-Augmented Generation](beyond_black-box_interventions_latent_probing_for_faithful_retrieval-augmented_g.md)**
 
 :   提出 ProbeRAG，通过发现 LLM 隐空间中冲突/对齐知识的线性可分性，设计三阶段框架（细粒度知识剪枝→隐空间冲突探测→冲突感知注意力），从模型内部机制解决 RAG 忠实性问题。
+
+**[Beyond Chunks and Graphs: Retrieval-Augmented Generation through Triplet-Driven Thinking](beyond_chunks_and_graphs_retrieval-augmented_generation_through_triplet-driven_t.md)**
+
+:   T2RAG 把 RAG 的最小检索单元从"文本块/知识图谱节点"换成**原子三元组**：离线把语料抽成一堆三元组命题建索引，在线则让 LLM 把问题分解成带 `?` 占位符的可搜索三元组、迭代地从三元组库里检索证据填空，直到所有占位符解完再生成答案——在六个数据集上平均提升最多 11%，同时检索成本降低最多 45%。
 
 **[BRIEF-Pro: Universal Context Compression with Short-to-Long Synthesis for Fast and Accurate Multi-Hop Reasoning](brief-pro_universal_context_compression_with_short-to-long_synthesis_for_fast_an.md)**
 
@@ -331,6 +335,10 @@ item_total: 70
 
 :   S2G-RAG 把迭代 RAG 中“证据够不够”和“下一步缺什么”显式建模成结构化控制器 S2G-Judge，再用 gap-guided query 和句子级证据抽取减少噪声，在 HotpotQA BM25 设置下把 F1 从 SIM-RAG 的 43.3 提升到 56.5。
 
+**[SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation](skmteb_slovak_massive_text_embedding_benchmark_and_model_adaptation.md)**
+
+:   论文为斯洛伐克语（约 500 万使用者的西斯拉夫语低资源语言）建了第一个 MTEB 风格的综合文本嵌入基准 SkMTEB（31 个数据集、7 类任务，深度接近现有多语言覆盖的 4 倍），评测了 31 个嵌入模型，并用**词表裁剪 + 定向微调**把 Multilingual E5 压成 45M/365M 的本地可部署斯洛伐克语嵌入模型，在缩小最多 62% 体积的同时追平商用 API。
+
 **[Test-Time Training for Zero-Resource Dense Retrieval Reranking](test-time_training_for_zero-resource_dense_retrieval_reranking.md)**
 
 :   提出 DART，通过在推理时用双线性矩阵自适应地调整密集检索器的评分函数，利用检索结果本身作为伪标签实现零样本无标注重排序，在 BEIR 基准上平均提升 2.1% NDCG@10，延迟控制在 10ms 以内。
@@ -354,6 +362,10 @@ item_total: 70
 **[VisRet: Visualization Improves Knowledge-Intensive Text-to-Image Retrieval](visret_visualization_improves_knowledge-intensive_text-to-image_retrieval.md)**
 
 :   本文提出 Visualize-then-Retrieve (VisRet)，一种将文本查询先通过 T2I 生成模型可视化为图像、再在图像模态内进行检索的新范式，在四个基准上平均提升 nDCG@30 0.125（CLIP）和 0.121（E5-V），下游 VQA 准确率在 Visual-RAG-ME 上提升 15.7%。
+
+**[When Does Mixing Help? Analyzing Query Embedding Interpolation in Multilingual Dense Retrieval](when_does_mixing_help_analyzing_query_embedding_interpolation_in_multilingual_de.md)**
+
+:   本文用"嵌入级插值"作为可控代理来研究多语言稠密检索对混合语言查询的敏感性：在 mMARCO 上系统改变两种平行查询的混合比例后发现，最优的混合比例在 88/105 个设定里超过最好的单语查询，且这种收益高度结构化——英语在向量空间里扮演"最强混合伙伴"和"非对称霸主"的角色。
 
 **[生物医学 RAG 中检索何时无效：大规模实证研究](when_retrieval_doesnt_help_a_large-scale_study_of_biomedical_rag.md)**
 

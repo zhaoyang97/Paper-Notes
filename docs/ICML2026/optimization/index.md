@@ -1,23 +1,30 @@
 ---
 title: >-
-  ICML2026 优化/理论论文汇总 · 64篇论文解读
+  ICML2026 优化/理论论文汇总 · 88篇论文解读
 description: >-
-  64篇ICML2026的优化/理论方向论文解读，涵盖联邦学习、对抗鲁棒、Agent、LLM、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  88篇ICML2026的优化/理论方向论文解读，涵盖联邦学习、LLM、对抗鲁棒、Agent、对齐/RLHF、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICML2026"
   - "优化/理论"
   - "论文解读"
   - "论文笔记"
   - "联邦学习"
+  - "LLM"
   - "对抗鲁棒"
   - "Agent"
-  - "LLM"
+  - "对齐/RLHF"
   - "压缩/编码"
 item_list:
+  - u: "a2sgadaptive_and_asymmetric_surrogate_gradients_for_training_deep_spiking_neural/"
+    t: "A2SG: Adaptive and Asymmetric Surrogate Gradients for Training Deep Spiking Neural Networks"
+  - u: "a_fully_first-order_layer_for_differentiable_optimization/"
+    t: "A Fully First-Order Layer for Differentiable Optimization"
   - u: "a_general_framework_for_dynamic_consistent_submodular_maximization/"
     t: "A General Framework for Dynamic Consistent Submodular Maximization"
   - u: "accelerated_multiple_wasserstein_gradient_flows_for_multi-objective_distribution/"
     t: "Accelerated Multiple Wasserstein Gradient Flows for Multi-objective Distributional Optimization"
+  - u: "adagc_enhancing_llm_pretraining_stability_via_adaptive_gradient_clipping/"
+    t: "AdaGC: Enhancing LLM Pretraining Stability via Adaptive Gradient Clipping"
   - u: "adaptive_estimation_and_inference_in_semi-parametric_heterogeneous_clustered_mul/"
     t: "Adaptive Estimation and Inference in Semi-parametric Heterogeneous Clustered Multitask Learning via Neyman Orthogonality"
   - u: "adaptive_preconditioners_trigger_loss_spikes_in_adam/"
@@ -38,53 +45,55 @@ item_list:
     t: "Bregman meets Lévy: Stochastic Mirror Descent with Heavy-Tailed Noise in Continuous and Discrete Time"
   - u: "budget-feasible_mechanisms_for_submodular_welfare_maximization_in_procurement_au/"
     t: "Budget-Feasible Mechanisms for Submodular Welfare Maximization in Procurement Auctions"
+  - u: "bulk-calibrated_credal_ambiguity_sets_fast_tractable_decision_making_under_out-o/"
+    t: "Bulk-Calibrated Credal Ambiguity Sets: Fast, Tractable Decision Making under Out-of-Sample Contamination"
   - u: "can_adaptive_gradient_methods_converge_under_heavy-tailed_noise_a_case_study_of_/"
     t: "Can Adaptive Gradient Methods Converge under Heavy-Tailed Noise? A Case Study of AdaGrad"
+  - u: "clove_personalized_federated_learning_through_clustering_of_loss_vector_embeddin/"
+    t: "CLoVE: Personalized Federated Learning through Clustering of Loss Vector Embeddings"
   - u: "colorful_pinball_density-weighted_quantile_regression_for_conditional_guarantee_/"
     t: "Colorful Pinball: Density-Weighted Quantile Regression for Conditional Guarantee of Conformal Prediction"
+  - u: "conflicting_biases_at_the_edge_of_stability_norm_versus_sharpness_regularization/"
+    t: "Conflicting Biases at the Edge of Stability: Norm versus Sharpness Regularization"
+  - u: "conservation_laws_for_modern_neural_architectures/"
+    t: "Conservation Laws for Modern Neural Architectures"
   - u: "convex_basins_in_single-index_model_loss_landscapes_applications_to_robust_recov/"
     t: "Convex Basins in Single-Index Model Loss Landscapes: Applications to Robust Recovery under Strong Adversarial Corruption"
   - u: "cost-aware_stopping_for_bayesian_optimization/"
     t: "Cost-Aware Stopping for Bayesian Optimization"
   - u: "delayed_momentum_aggregation_communication-efficient_byzantine-robust_federated_/"
     t: "Delayed Momentum Aggregation: Communication-efficient Byzantine-robust Federated Learning with Partial Participation"
+  - u: "depth_over_fidelity_in_fixed-budget_noisy_evolution_strategies/"
+    t: "Depth over Fidelity in Fixed-Budget Noisy Evolution Strategies"
+  - u: "differentially_private_submodular_maximization_with_a_knapsack_constraint/"
+    t: "Differentially Private Submodular Maximization with a Knapsack Constraint"
   - u: "distilling_linearized_behavior_into_non-linear_fine-tuning_for_effective_task_ar/"
     t: "Distilling Linearized Behavior into Non-Linear Fine-Tuning for Effective Task Arithmetic"
   - u: "distribution-free_uncertainty_quantification_for_continuous_ai_agent_evaluation/"
     t: "Distribution-Free Uncertainty Quantification for Continuous AI Agent Evaluation"
-  - u: "dynamics_and_representation_structure_of_local_approximations_to_gradient-based_/"
-    t: "Dynamics and Representation Structure of Local Approximations to Gradient-Based Learning in Linear Recurrent Neural Networks"
-  - u: "enhancing_llm_training_via_spectral_clipping/"
-    t: "Enhancing LLM Training via Spectral Clipping"
-  - u: "foam_frequency_and_operator_error-based_adaptive_damping_method_for_reducing_sta/"
-    t: "FOAM: Frequency and Operator Error-Based Adaptive Damping Method for Reducing Staleness-Oriented Error for Shampoo"
-  - u: "follow-the-perturbed-leader_for_decoupled_bandits_best-of-both-worlds_and_practi/"
-    t: "Follow-the-Perturbed-Leader for Decoupled Bandits: Best-of-Both-Worlds and Practicality"
-  - u: "ho-sfl_hybrid-order_split_federated_learning_with_backprop-free_clients_and_dime/"
-    t: "HO-SFL: Hybrid-Order Split Federated Learning with Backprop-Free Clients and Dimension-Free Aggregation"
-  - u: "interpretability_and_generalization_bounds_for_learning_spatial_physics/"
-    t: "Interpretability and Generalization Bounds for Learning Spatial Physics"
-  - u: "learning-augmented_scalable_linear_assignment_problem_optimization_via_neural_du/"
-    t: "Learning-Augmented Scalable Linear Assignment Problem Optimization via Neural Dual Warm-Starts"
-  - u: "learning_a_zeroth-order_optimizer_for_fine-tuning_llms/"
-    t: "Learning a Zeroth-Order Optimizer for Fine-Tuning LLMs"
-  - u: "learning_context-conditioned_predicate_semantics_via_prototype_feedback/"
-    t: "Learning Context-Conditioned Predicate Semantics via Prototype Feedback"
-  - u: "learning_dynamics_of_zeroth-order_optimization_a_kernel_perspective/"
-    t: "Learning Dynamics of Zeroth-Order Optimization: A Kernel Perspective"
-  - u: "learning_locally_revising_globally_global_reviser_for_federated_learning_with_no/"
-    t: "Learning Locally, Revising Globally: Global Reviser for Federated Learning with Noisy Labels"
-item_total: 64
+  - u: "distribution_alignment_for_one-shot_federated_learning_via_optimal_transport/"
+    t: "Distribution Alignment for One-Shot Federated Learning via Optimal Transport"
+  - u: "diversity-driven_offline_multi-objective_optimization_via_nested_pareto_set_lear/"
+    t: "Diversity-Driven Offline Multi-Objective Optimization via Nested Pareto Set Learning"
+item_total: 88
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧪 ICML2026** · **64** 篇论文解读
+**🧪 ICML2026** · **88** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (39)](../../CVPR2026/optimization/index.md) · [🔬 ICLR2026 (47)](../../ICLR2026/optimization/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (126)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (61)](../../ICML2025/optimization/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/optimization/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/optimization/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (126)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (61)](../../ICML2025/optimization/index.md)
 
-🔥 **高频主题：** 联邦学习 ×3 · 对抗鲁棒 ×2 · Agent ×2 · LLM ×2 · 压缩/编码 ×2
+🔥 **高频主题：** 联邦学习 ×5 · LLM ×4 · 对抗鲁棒 ×2 · Agent ×2 · 对齐/RLHF ×2
+
+**[A2SG: Adaptive and Asymmetric Surrogate Gradients for Training Deep Spiking Neural Networks](a2sgadaptive_and_asymmetric_surrogate_gradients_for_training_deep_spiking_neural.md)**
+
+:   针对深度脉冲神经网络（SNN）用替代梯度训练时「损失景观尖锐 + 跨时间步梯度互相打架」两大顽疾，这篇论文提出统一框架 A2SG，一方面用自适应有效窗宽（按空间梯度变异 SGV 和时序梯度一致性 TGC 自动调 $\beta$）压低梯度变异、对齐时间步方向，另一方面把对称替代函数改成「按膜电位高低分配梯度」的非对称形状，并从理论上证明非对称比对称变异更低、局部梯度变异越小损失景观越平坦，从而在 CNN 和 Transformer 型 SNN 上一致提升精度与能效。
+
+**[A Fully First-Order Layer for Differentiable Optimization](a_fully_first-order_layer_for_differentiable_optimization.md)**
+
+:   可微优化层的主流做法是对 KKT 条件做隐式微分，必须算 Hessian、解大型 KKT 线性系统，难以扩展到大规模问题；本文把可微优化重写成**双层优化**，构造"固定活动集 + 线性化活动约束"的 ghost 代理问题把不等式约束局部化简为等式约束，再用**有限差分**只靠一阶信息在近常数 $\mathcal{O}(\log(1/\epsilon))$ 次调用内估出超梯度，并做成一个与任意凸求解器（含 GUROBI/MOSEK）即插即用的 PyTorch 库 FFOLayer——收敛与精确法相当，但计算时间和峰值显存随问题规模近乎亚线性增长。
 
 **[A General Framework for Dynamic Consistent Submodular Maximization](a_general_framework_for_dynamic_consistent_submodular_maximization.md)**
 
@@ -93,6 +102,10 @@ item_total: 64
 **[Accelerated Multiple Wasserstein Gradient Flows for Multi-objective Distributional Optimization](accelerated_multiple_wasserstein_gradient_flows_for_multi-objective_distribution.md)**
 
 :   这篇论文把 Multiple Wasserstein Gradient Descent 推广为连续时间梯度流，并引入 Nesterov 风格的动量加速，得到 A-MWGraD，在理论上把 geodesically convex 场景的收敛率从 $O(1/t)$ 提升到 $O(1/t^2)$，实验上也让多目标采样和贝叶斯多任务学习更快收敛。
+
+**[AdaGC: Enhancing LLM Pretraining Stability via Adaptive Gradient Clipping](adagc_enhancing_llm_pretraining_stability_via_adaptive_gradient_clipping.md)**
+
+:   针对大模型预训练里反复出现的 loss spike，AdaGC 把"全局一刀切"的梯度裁剪换成"每个参数张量按自己历史梯度范数的 EMA 自适应裁剪"，在异常梯度污染优化器一阶/二阶动量之前就把它压下去，在 Llama-2 7B / Mixtral 8×1B / ERNIE 10B-A1.4B 上把 spike score 全部压到 0，同时下游精度比全局裁剪（GlobalGC）分别提升 +1.32% / +1.27% / +2.48%。
 
 **[Adaptive Estimation and Inference in Semi-parametric Heterogeneous Clustered Multitask Learning via Neyman Orthogonality](adaptive_estimation_and_inference_in_semi-parametric_heterogeneous_clustered_mul.md)**
 
@@ -134,13 +147,29 @@ item_total: 64
 
 :   首次给"预算受限 + 私有成本"的子模社会福利最大化采购拍卖给出有近似比保证的真值机制 BFM-SWM——用几何递增阈值的降序时钟拍卖 + 单点保护 + 价/付率参数 $\beta$ 实现非负盈余 + 预算可行，一般子模函数 0.0328-近似、单调子模 0.0877-近似；副产品 BFM-VM 把估值最大化的确定性最佳近似比从 1/64 提升到 $1/(12+4\sqrt{3})\approx 0.0528$，并将运行时间从 $\mathcal{O}(n^2\log n)$ 降到 $\mathcal{O}(n\log n)$。
 
+**[Bulk-Calibrated Credal Ambiguity Sets: Fast, Tractable Decision Making under Out-of-Sample Contamination](bulk-calibrated_credal_ambiguity_sets_fast_tractable_decision_making_under_out-o.md)**
+
+:   针对"Huber（线性-vacuous）污染集放进无界空间会让最坏风险变成 $+\infty$、DRO 目标失效"这一老问题，本文提出**bulk-calibrated credal 模糊集**——从数据学一个高概率质量的"主体集"$\Xi_0$、把污染预算只放进 $\Xi_0$ 内、再用矩条件单独控住尾部，从而得到一个 **闭式 $\text{mean}+\sup$** 鲁棒目标，可化为常见损失下的 LP/SOCP 求解，又快又有限。
+
 **[Can Adaptive Gradient Methods Converge under Heavy-Tailed Noise? A Case Study of AdaGrad](can_adaptive_gradient_methods_converge_under_heavy-tailed_noise_a_case_study_of_.md)**
 
 :   首次证明 AdaGrad 在重尾噪声（$p \in (4/3, 2]$）下无需任何算法修改即可收敛，同时给出算法依赖的下界表明 AdaGrad 无法达到 minimax 最优速率，并证明 AdaGrad-Norm 在有界目标函数假设下可获得更快的 $O(1/T^{(p-1)/(2p)})$ 速率。
 
+**[CLoVE: Personalized Federated Learning through Clustering of Loss Vector Embeddings](clove_personalized_federated_learning_through_clustering_of_loss_vector_embeddin.md)**
+
+:   CLoVE 用「每个客户端在所有候选模型上的损失向量」当作客户端嵌入来做聚类联邦学习，靠「同簇客户端损失模式相近、异簇损失模式迥异」这一观察，在不需要精心初始化模型的前提下，几轮通信内就恢复出正确的客户端簇并训练出各簇专属模型，在大量非 IID 设置下达到 SOTA。
+
 **[Colorful Pinball: Density-Weighted Quantile Regression for Conditional Guarantee of Conformal Prediction](colorful_pinball_density-weighted_quantile_regression_for_conditional_guarantee_.md)**
 
 :   本文通过 Taylor 展开揭示了标准 pinball 损失在条件覆盖率优化上的固有缺陷——忽视了异方差结构，提出密度加权 pinball 损失作为条件覆盖 MSE 的更紧代理目标，并设计三头分位数网络通过有限差分估计密度权重，在 8 个高维回归基准上大幅提升条件覆盖性能。
+
+**[Conflicting Biases at the Edge of Stability: Norm versus Sharpness Regularization](conflicting_biases_at_the_edge_of_stability_norm_versus_sharpness_regularization.md)**
+
+:   这是一篇分析性论文：作者指出梯度下降同时存在两种**相互冲突**的隐式偏置——小学习率倾向于压低参数范数、大学习率（Edge of Stability）倾向于压低损失锐度——学习率在二者之间插值，并通过实验观测到一个由临界学习率 $\eta_c$ 划分的相变，再用对角线性网络的理论反例证明"任何单一隐式偏置都不足以解释泛化"。
+
+**[Conservation Laws for Modern Neural Architectures](conservation_laws_for_modern_neural_architectures.md)**
+
+:   这篇论文把"刻画训练动力学中所有守恒量"的问题重述为求解一个与数据无关的偏微分方程，并借助复分析里的亚纯延拓技巧，第一次给出了 GELU/SiLU/SwiGLU 前馈网、多头注意力（含正弦 PE 与 RoPE）、以及各种门控的 MoE 的**完整守恒律清单**，顺手解决了 Marcotte et al. (2025) 留下的多头注意力开放问题。
 
 **[Convex Basins in Single-Index Model Loss Landscapes: Applications to Robust Recovery under Strong Adversarial Corruption](convex_basins_in_single-index_model_loss_landscapes_applications_to_robust_recov.md)**
 
@@ -154,6 +183,14 @@ item_total: 64
 
 :   针对部分参与下"采样客户端中拜占庭客户端临时占多数"会击垮已有鲁棒聚合的痛点，本文提出延迟动量聚合原则——服务器把当轮新动量与未被采样客户端的最近一次缓存动量一起送入鲁棒聚合器，将全局拜占庭比例 $\delta<1/2$ 永远延续到每一轮聚合，并据此设计 DeMoA 优化器，在 $p=0.1$、$\delta=0.2$ 的极端设置下仍能稳定训练 ResNet-18/CIFAR-10。
 
+**[Depth over Fidelity in Fixed-Budget Noisy Evolution Strategies](depth_over_fidelity_in_fixed-budget_noisy_evolution_strategies.md)**
+
+:   在评估次数被严格限死（fixed budget）的噪声黑盒优化里，与其花预算反复测量去"洗干净"代际内排序（fidelity），不如把这些预算省下来多做几代分布更新（depth）；论文用 **PEM（概率精英隶属度）** 把硬排序权重换成"对排序不确定性求期望"的软权重，并用 **残差自助（RB-PEM）** 以接近零的额外开销估计它，在高错排、预算受限的场景上稳定跑赢"先去噪再排序"的主流做法。
+
+**[Differentially Private Submodular Maximization with a Knapsack Constraint](differentially_private_submodular_maximization_with_a_knapsack_constraint.md)**
+
+:   本文给出背包约束下子模最大化（SMK）的差分隐私算法：单调目标下达到最优的 $(1-1/e)$ 近似且把附加误差从「多项式依赖 $n$」改进到「polylog 依赖 $n$」、查询复杂度从指数级降到多项式级，并首次为非单调目标给出有可证保证（$1/4$ 近似）的差分隐私算法。
+
 **[Distilling Linearized Behavior into Non-Linear Fine-Tuning for Effective Task Arithmetic](distilling_linearized_behavior_into_non-linear_fine-tuning_for_effective_task_ar.md)**
 
 :   本文提出 DELTA：在线把"切空间线性化教师"的中间激活蒸馏到普通非线性学生 + EK-FAC 曲率正则 + 沿插值路径采样，让常规非线性 fine-tune 出来的 task vector 也具备线性化模型那种"可叠加、低干扰、对缩放鲁棒"的性质，同时不引入任何推理开销。
@@ -162,13 +199,33 @@ item_total: 64
 
 :   本文提出 AgentPulse 框架，将 split conformal、adaptive conformal inference (ACI)、Mondrian conformal 与 BH-FDR 组合，为 50 个 AI agent 的连续打分提供分布无关的覆盖率保证、组合管线的不确定性边界以及带 FDR 控制的排名弃权机制，把"测量不确定性"作为评测的一等输出。
 
+**[Distribution Alignment for One-Shot Federated Learning via Optimal Transport](distribution_alignment_for_one-shot_federated_learning_via_optimal_transport.md)**
+
+:   本文提出 SLOT-Align，一个免训练、单轮的联邦特征对齐框架：各客户端用共享冻结编码器算出特征的一二阶统计量，服务器用 Bures–Wasserstein 重心聚成全局参考，客户端再用高斯间的闭式最优传输映射把本地特征对齐到该参考，在域偏移叠加标签偏移的极端 one-shot 联邦场景下稳定提升精度。
+
+**[Diversity-Driven Offline Multi-Objective Optimization via Nested Pareto Set Learning](diversity-driven_offline_multi-objective_optimization_via_nested_pareto_set_lear.md)**
+
+:   针对"只能用固定离线数据集、不能再查询真目标函数"的离线多目标优化（offline MOO），本文提出 DOMOO：用嵌套 Pareto 集学习联合更新偏好与模型、并把分布外（OOD）风险抑制因子塞进偏好梯度，再配一个专为离线设计的 $\text{IGD}_{\text{offline}}$ 指标做多样性筛选，从而同时拿到收敛性和多样性都更好的解集。
+
 **[Dynamics and Representation Structure of Local Approximations to Gradient-Based Learning in Linear Recurrent Neural Networks](dynamics_and_representation_structure_of_local_approximations_to_gradient-based_.md)**
 
 :   本文在 student–teacher 数据对齐的线性 RNN 上，把 BPTT、one-step tBPTT、RFLO 的更新写成可解析的 ODE，比较它们的不动点流形、稳定性、收敛速率，发现 RFLO 缺少 BPTT/tBPTT 那条非最优鞍流形但代价是稳定性依赖符号、收敛更慢，并且**局限于初始权重的低秩扰动**——这一低秩限制可推广到非数据对齐的设定。
 
+**[Efficient Stochastic Optimisation via Sequential Monte Carlo](efficient_stochastic_optimisation_via_sequential_monte_carlo.md)**
+
+:   当损失的梯度写成"对一个依赖参数的难解分布 $\pi_\theta$ 求期望"时，传统做法要在每步优化里跑一遍昂贵的 MCMC 内循环采样；本文提出 SOSMC，用序列蒙特卡洛(SMC)采样器把"随参数缓慢演化的一串分布 $(\pi_{\theta_k})_k$"串起来采，**复用上一步的粒子**得到加权梯度估计，从而砍掉内循环，既省算力又有收敛理论保证，并在能量模型 reward tuning、图像去模糊等任务上优于单/双循环基线。
+
 **[Enhancing LLM Training via Spectral Clipping](enhancing_llm_training_via_spectral_clipping.md)**
 
 :   本文提出 SPECTRA：一个 optimizer-agnostic 的包装层，对更新矩阵做**后置谱裁剪**、对原始梯度做可选的**前置谱裁剪**，在理论上等价于带权重正则的复合 Frank-Wolfe 算法，在 124M–1.5B LLM 预训练上把 AdamW / Signum / Mars / AdEMAMix 的验证损失一致地往下压。
+
+**[ePC: Fast and Deep Predictive Coding in Digital Simulation](epc_fast_and_deep_predictive_coding_in_digital_simulation.md)**
+
+:   本文指出"状态版预测编码（sPC）在数字仿真里会随网络深度指数衰减训练信号、导致深层学不动且收敛极慢"这一被忽视的根因，并提出把优化变量从状态改成误差的等价重参数化 ePC——它能算出与 sPC 完全相同的状态平衡和权重梯度，却用 reverse-mode AD 让信号一步直达所有层，深网收敛快 100 倍以上、并在深层架构上追平反向传播。
+
+**[Flatland: The Adventures of Gradient Descent with Large Step Sizes](flatland_the_adventures_of_gradient_descent_with_large_step_sizes.md)**
+
+:   本文给出一个只需"局部 Lipschitz / Hölder 梯度连续"的统一"大学习率"定义，并用非单调线搜索造出一种一阶自适应步长，使梯度下降从训练一开始就运行在 Edge of Stability（EoS）上、把 sharpness 压到全局最小 $2/K$；同时发现"太早进入全局平坦区反而有害"，再用自稳定约束把失败的训练救回来。
 
 **[FOAM: Frequency and Operator Error-Based Adaptive Damping Method for Reducing Staleness-Oriented Error for Shampoo](foam_frequency_and_operator_error-based_adaptive_damping_method_for_reducing_sta.md)**
 
@@ -178,9 +235,21 @@ item_total: 64
 
 :   本文给 decoupled multi-armed bandit 问题（每轮分别选一个臂"利用"、一个臂"探索"）设计了首个 Best-of-Both-Worlds (BOBW) FTPL 算法：用 Pareto 扰动做利用、用一个仅依赖累积估损排名的代理量 $q_{t,i}$ 直接定义探索分布——既不需要 FTRL 的每步凸优化，也不需要 FTPL 标准做法中的几何重采样，对抗与随机两种环境下均达到与现有最优 FTRL 算法同阶的 $\mathcal{O}(\sqrt{KT})$ / $\mathcal{O}(K/\Delta_{\min})$ 后悔界，实测对 $K=2$ 比基线快约 130×。
 
+**[Full-Batch Gradient Descent Outperforms One-Pass SGD: Sample Complexity Separation in Single-Index Learning](full-batch_gradient_descent_outperforms_one-pass_sgd_sample_complexity_separatio.md)**
+
+:   本文在二次激活的高斯单指标模型里严格证明：朴素二次激活下"重复使用全部数据"的全批量梯度下降并不比一遍式 SGD 更省样本（都要 $n\gtrsim d\log d$），但只要把激活**截断**一下，全批量 GD 就能在 $n\gtrsim d$（线性样本量）下实现弱恢复甚至强恢复，从而与仍需 $d\log d$ 的一遍式 SGD 拉开一个 $\log d$ 的样本复杂度差距。
+
+**[Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway](gradient_descent_with_large_step_size_restores_symmetry_in_deep_linear_networks_.md)**
+
+:   此前用梯度流（GF）分析多路径深度线性网络得出"赢者通吃"——信号会集中到单条路径、对称破缺；本文证明大步长的离散梯度下降（GD）讲的是另一个故事：单路径解是尖锐极小、把信号分摊到多条路径会按 $H^{2/L-1}$ 的因子降低锐度，于是训练在 Edge of Stability 的振荡会推翻早期的对称破缺、进入"路径再平衡"阶段，最终偏好共享而非单路径独占的表示。
+
 **[HO-SFL: Hybrid-Order Split Federated Learning with Backprop-Free Clients and Dimension-Free Aggregation](ho-sfl_hybrid-order_split_federated_learning_with_backprop-free_clients_and_dime.md)**
 
 :   HO-SFL 通过拉格朗日变量提升把 split federated learning (SFL) 的客户端和服务端解耦——服务端继续做一阶反向传播 (BP)，客户端只做零阶 (ZO) 扰动前向，再借共享随机种子把每轮上行通信压到 $\mathcal{O}(P)$ 个标量，从而在端侧把大模型微调的显存降到推理级、收敛率仍可达 $\mathcal{O}(\sqrt{d_c/PT})$。
+
+**[Improved Convergence Analysis of Topology Dependence in Decentralized SGD](improved_convergence_analysis_of_topology_dependence_in_decentralized_sgd.md)**
+
+:   这篇论文给 Decentralized SGD 做了一次更紧的收敛性分析：把决定收敛速度的拓扑量从"只看谱隙（第二大特征值）"换成"看混合矩阵的全部特征值"，从而首次在理论上解释了为什么在数据近同构时，环（ring）这类稀疏拓扑的训练表现远好于旧分析的悲观预言。
 
 **[Interpretability and Generalization Bounds for Learning Spatial Physics](interpretability_and_generalization_bounds_for_learning_spatial_physics.md)**
 
@@ -222,9 +291,17 @@ item_total: 64
 
 :   LoRe 把凝聚态物理里的「集团 + 浴场」分解搬到扩散式图组合优化求解器，做成训练免修的推理时包装器，在每一步只评估固定比例的高冲突边并用一个 $\mathcal{O}(N)$ 的全局召回项补偿被丢弃的部分，让 MIS 求解突破 baseline OOM 上限 $3\times$、单卡跑 $n=50\mathrm{k}$ 实例，TSP $n=1000$ 上拿到 $\sim 15\times$ 加速和 $44\times$ 显存压缩。
 
+**[Lower Complexity Bounds for Nonconvex-Strongly-Convex Bilevel Optimization with First-Order Oracles](lower_complexity_bounds_for_nonconvex-strongly-convex_bilevel_optimization_with_.md)**
+
+:   本文为光滑「非凸-强凸」双层优化在标准（确定性 / 随机）一阶 oracle 下首次给出与条件数 $\kappa$ 强相关的复杂度下界——确定性情形 $\Omega(\kappa^{3/2}\epsilon^{-2})$、随机情形 $\Omega(\kappa^{5/2}\epsilon^{-4})$，证明双层问题在本质上比单层非凸和 min-max 优化更难，并暴露出现有上界与下界之间巨大的 $\kappa$ 幂次缺口。
+
 **[Memory-Efficient LLM Pretraining via Minimalist Optimizer Design](memory-efficient_llm_pretraining_via_minimalist_optimizer_design.md)**
 
 :   本文用"自底向上拆解 Adam"的方式找出真正必须的两个组件——逐列梯度归一化 + 只在最后一层加一阶动量——把它们组合成 SCALE 优化器，用接近 SGD 的内存 (LLaMA 7B 上 13.74 GB) 达到了 Adam 级甚至超越 Muon/APOLLO 的预训练困惑度。
+
+**[Minibatch Selection via Partition Matroid Constrained Gradient Matching](minibatch_selection_via_partition_matroid_constrained_gradient_matching.md)**
+
+:   PartitionSel 把「跨域 minibatch 选择」建模成在**划分拟阵约束**（逐域预算）下最大化一个**验证引导的加权梯度匹配效用**，证明该目标单调且弱次模、可用正交匹配追踪（OMP）求解并带近似保证，从而在不训练任何代理模型的前提下，于每一步训练在 batch 级诱导出隐式的数据混合，减少跨域冗余与梯度冲突。
 
 **[Mirror Descent Under Generalized Smoothness](mirror_descent_under_generalized_smoothness.md)**
 
@@ -278,6 +355,10 @@ item_total: 64
 
 :   本文为 block-triangular Jacobian $J = \begin{bmatrix} A & 0 \\ C & D \end{bmatrix}$ 的耦合梯度下降建立尖锐的 Kreiss 常数界 $K(J) \leq 2/(1-\gamma) + \|C\|/(4(1-\gamma))$，并给出匹配下界——揭示了即使谱半径 < 1，瞬态放大也可能任意大；这套理论作为高维学习动力学的 scaling law，给出 $O(K(J)^2 \log(1/\delta))$ 的有限时迭代复杂度，并扩展到 nearly self-referential 系统。
 
+**[Rethinking the Flow-Based Gradual Domain Adaptation: A Semi-Dual Optimal Transport Perspective](rethinking_the_flow-based_gradual_domain_adaptation_a_semi-dual_optimal_transpor.md)**
+
+:   把"用流模型造中间域"的渐进域适应（GDA）重写成熵正则化的半对偶非平衡最优传输（E-SUOT）问题，**绕开对目标域概率密度（PDF）的显式估计**，直接学一串把源域样本逐步推到目标域的传输映射，在 Portraits / MNIST-rot / Office-Home 上稳定超过现有 GDA/UDA 方法。
+
 **[RACO: Reward-free Alignment for Conflicting Objectives](reward-free_alignment_for_conflicting_objectives.md)**
 
 :   RACO 把多目标 LLM 偏好对齐做成多目标优化问题——每个目标走自己的 DPO 损失，用 clipped CAGrad（CAGrad + 按用户权重剪裁系数）解决梯度冲突；理论证明收敛到尊重 user-specified 权重的 Pareto-critical 点（两目标场景下 clipping 严格加速），实证在 Qwen 3 / Llama 3 / Gemma 3 多模型族上一致拿到更好的 Pareto 折中。
@@ -290,6 +371,10 @@ item_total: 64
 
 :   SPSsafe 把 Stochastic Polyak Step Size (SPS) 扩展到非光滑随机优化——既不需要 interpolation 假设也不需要知道最优值，配合动量（IMA = SHB 等价形式）仍保有严格收敛保证；在 DNN 训练上比已有自适应方法（AdaGrad、Adam、DecSPS 等）更稳健，且梯度范数不塌缩到近零（抗梯度消失）。
 
+**[Selecting Samples on Graphs: A Unified Dataset Pruning Framework for Lossless Training Acceleration](selecting_samples_on_graphs_a_unified_dataset_pruning_framework_for_lossless_tra.md)**
+
+:   把数据集剪枝重新建模成一张带权图上的「最大权团问题」（节点权 = 样本自身价值、边权 = 样本间冗余/多样性关系），证明在温和条件下该统一目标是子模的，于是用一个带逼近保证的贪心算法求解，在 ImageNet-1k + ResNet-50 上把训练时间砍掉 40%+ 而精度不掉。
+
 **[Sharp Description of Local Minima in the Loss Landscape of High-Dimensional Two-Layer ReLU Networks](sharp_description_of_local_minima_in_the_loss_landscape_of_high-dimensional_two-.md)**
 
 :   本文在教师-学生两层 ReLU 网络的高维 Gaussian 输入设定下，用一组关于权重重叠 $(Q,R)$ 的精确低维概要统计方程，给出 population loss 所有局部极小的层级化分类，并刻画过参数化如何把低阶 spurious 极小变成鞍点、把高阶极小保留下来，从而首次同时调和了 Safran–Shamir 的存在性结果、Arjevani–Field 的群论分类和 Safran 等人的 Hessian 失稳论。
@@ -301,6 +386,10 @@ item_total: 64
 **[Stability Analysis of Sharpness-Aware Minimization](stability_analysis_of_sharpness-aware_minimization.md)**
 
 :   本文从动力系统视角剖析 SAM 在鞍点附近的收敛不稳定：先在确定性梯度流下证明只要邻域半径 $\rho > -1/\lambda_1$，鞍点就会变成 SAM 的吸引子；再在随机扩散框架下证明 SAM 的鞍点逃逸均方位移比 SGD 小 $2\eta t^2|\lambda_j|^3\rho/B$；最后用 SAM 扩散公式解释 momentum 和 batch size 为什么是 SAM 取得 SOTA 泛化性能的真正幕后功臣。
+
+**[SVRG and Beyond via Posterior Correction](svrg_and_beyond_via_posterior_correction.md)**
+
+:   论文证明了经典的方差缩减算法 SVRG 其实是贝叶斯"后验校正"（PoCo）在各向同性高斯后验下的一个特例，并由此自动推导出两类此前难以得到的新扩展——一个会同时校正 Hessian 的 Newton 型变体，和一个能扩展到深度学习的 Adam 型变体（IVON-PoCo）。
 
 **[SyMerge: From Non-Interference to Synergistic Merging via Single-Layer Adaptation](symerge_from_non-interference_to_synergistic_merging_via_single-layer_adaptation.md)**
 
@@ -338,6 +427,14 @@ item_total: 64
 
 :   提出统一数据表示（UDR）和混合偏差模块（MBM）来替代问题枚举——使单个神经模型能无需微调地零样本泛化到 110 个 VRP 变体（99 个未见过）。
 
+**[Utility-Diversity Aware Online Batch Selection for LLM Supervised Fine-tuning](utility-diversity_aware_online_batch_selection_for_llm_supervised_fine-tuning.md)**
+
+:   UDS 提出一种用于 LLM 监督微调（SFT）的高效在线批选择框架：仅靠前向传播得到的 **logits 矩阵核范数**同时刻画样本的「优化效用 + 句内多样性」，再用 logits 的**低维双线性随机投影**与历史样本内存缓冲区做相似度匹配来度量「句间多样性」，两者加权后选 top-K 训练——既不依赖参考模型/验证集等外部资源，也不做额外反传，因此比全量 SFT 更快、且在多个基准上稳定超过现有在线批选择 SOTA。
+
 **[变分适配器跨模态相似度表示](variational_adapter_for_cross-modal_similarity_representation.md)**
 
 :   通过变分推理框架学习连续的跨模态相似度分布——用自适应不确定度权重缓解二元标注导致的虚假负样本问题，显著提升 VLM 在跨模态检索和域泛化任务中的性能。
+
+**[$α$-PFN: Fast Entropy Search via In-Context Learning](α-pfn_fast_entropy_search_via_in-context_learning.md)**
+
+:   这篇论文用两阶段的 Prior-data Fitted Networks（PFN）把熵搜索（Entropy Search）这一类信息论采集函数"摊销"成单次前向传播——先训一个能在已知最优点信息条件下做预测的 base PFN，再训一个直接吐出信息增益分布的 $α$-PFN，从而绕过原来又慢又复杂的蒙特卡洛近似，在合成和真实 HPO 基准上性能与 SOTA 熵搜索相当，但提速最高 70 倍以上。

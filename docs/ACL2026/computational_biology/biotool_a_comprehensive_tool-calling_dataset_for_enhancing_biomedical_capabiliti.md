@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2605.05758](https://arxiv.org/abs/2605.05758)  
 **代码**: https://github.com/gxx27/BioTool  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 生物医学工具调用、NCBI/Ensembl/UniProt、指令微调、小模型超越商业大模型
 
 ## 一句话总结

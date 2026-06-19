@@ -134,8 +134,8 @@ SatMIP 使用双向 InfoNCE 对比损失（图像→文本 和 文本→图像�
 
 - [\[ICCV 2025\] WildSAT: Learning Satellite Image Representations from Wildlife Observations](../../ICCV2025/remote_sensing/wildsat_learning_satellite_image_representations_from_wildlife_observations.md)
 - [\[ECCV 2024\] Weakly-Supervised Camera Localization by Ground-to-Satellite Image Registration](weakly-supervised_camera_localization_by_ground-to-satellite_image_registration.md)
-- [\[ECCV 2024\] Masked Angle-Aware Autoencoder for Remote Sensing Images](masked_angle-aware_autoencoder_for_remote_sensing_images.md)
 - [\[CVPR 2026\] Spectrally Distilled Representations Aligned with Instruction-Augmented LLMs for Satellite Imagery](../../CVPR2026/remote_sensing/spectrally_distilled_representations_aligned_with_instruction-augmented_llms_for.md)
+- [\[ECCV 2024\] Masked Angle-Aware Autoencoder for Remote Sensing Images](masked_angle-aware_autoencoder_for_remote_sensing_images.md)
 - [\[CVPR 2026\] GeoSANE: Learning Geospatial Representations from Models, Not Data](../../CVPR2026/remote_sensing/geosane_learning_geospatial_representations_from_models_not_data.md)
 
 </div>

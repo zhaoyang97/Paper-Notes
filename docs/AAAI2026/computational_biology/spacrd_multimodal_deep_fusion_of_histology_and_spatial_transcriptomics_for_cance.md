@@ -20,7 +20,7 @@ tags:
 **会议**: AAAI 2026 Oral  
 **arXiv**: [2603.06186](https://arxiv.org/abs/2603.06186)  
 **代码**: [github.com/wenwenmin/SpaCRD](https://github.com/wenwenmin/SpaCRD)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 癌症区域检测, 空间转录组学, 组织学图像, 多模态融合, 迁移学习, 变分自编码器, 交叉注意力
 
 ## 一句话总结

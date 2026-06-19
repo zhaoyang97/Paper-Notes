@@ -100,6 +100,7 @@ CASTER-Bench 的 High-Quality 类样本较少，因此 High-Quality F1 是最关
 | MEDEA | 0.603 | 0.705 | 0.650 | 0.749 | 完整方法 |
 
 ### 消融实验
+
 | 配置 | HQ F1 | Low-Quality F1 | Macro-F1 | 说明 |
 |------|------:|---------------:|---------:|------|
 | SFT-pseudo-label | 0.487 | 0.686 | 0.587 | 只用伪标签，能学格式但判断弱 |
@@ -111,6 +112,7 @@ CASTER-Bench 的 High-Quality 类样本较少，因此 High-Quality F1 是最关
 | MEDEA(RL-human-label) | 0.650 | 0.847 | 0.749 | 完整方法 |
 
 ### 成本与模态分析
+
 | 分析项 | 关键数据 | 结论 |
 |--------|----------|------|
 | token 开销 | MEDEA 平均 1,256 tokens/item；w/o Social-CoT 为 5.6 | 社会推理显著增加生成长度 |

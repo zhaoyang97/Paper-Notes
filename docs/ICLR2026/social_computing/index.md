@@ -1,22 +1,27 @@
 ---
 title: >-
-  ICLR2026 社会计算论文汇总 · 12篇论文解读
+  ICLR2026 社会计算论文汇总 · 14篇论文解读
 description: >-
-  12篇ICLR2026的社会计算方向论文解读，涵盖 LLM、对抗鲁棒、语音、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  14篇ICLR2026的社会计算方向论文解读，涵盖 LLM、多模态、对抗鲁棒、语音、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "社会计算"
   - "论文解读"
   - "论文笔记"
   - "LLM"
+  - "多模态"
   - "对抗鲁棒"
   - "语音"
   - "对齐/RLHF"
 item_list:
   - u: "adaptive_debiasing_tsallis_entropy_for_test-time_adaptation/"
     t: "Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation"
+  - u: "adaptive_logit_adjustment_for_debiasing_multimodal_language_models/"
+    t: "Adaptive Logit Adjustment for Debiasing Multimodal Language Models"
   - u: "biasfreebench_a_benchmark_for_mitigating_bias_in_large_language_model_responses/"
     t: "BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model Responses"
+  - u: "from_five_dimensions_to_many_large_language_models_as_precise_and_interpretable_/"
+    t: "From Five Dimensions to Many: Large Language Models as Precise and Interpretable Psychological Profilers"
   - u: "functional_embeddings_enable_aggregation_of_multi-area_seeg_data_for_robust_bci/"
     t: "Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI"
   - u: "gradiend_feature_learning_within_neural_networks_exemplified_through_biases/"
@@ -37,25 +42,33 @@ item_list:
     t: "Tracing and Reversing Edits in LLMs"
   - u: "when_agents_persuade_propaganda_generation_and_mitigation_in_llms/"
     t: "When Agents Persuade: Propaganda Generation and Mitigation in LLMs"
-item_total: 12
+item_total: 14
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**🔬 ICLR2026** · **12** 篇论文解读
+**🔬 ICLR2026** · **14** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/social_computing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/social_computing/index.md) · [💬 ACL2026 (43)](../../ACL2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/social_computing/index.md) · [🧪 ICML2026 (9)](../../ICML2026/social_computing/index.md) · [💬 ACL2026 (44)](../../ACL2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
 
-🔥 **高频主题：** LLM ×3
+🔥 **高频主题：** LLM ×4
 
 **[Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation](adaptive_debiasing_tsallis_entropy_for_test-time_adaptation.md)**
 
 :   提出将 Tsallis 熵（SE 的广义形式）引入 VLM 的 Test-Time Adaptation，并进一步发展为自适应去偏 Tsallis 熵（ADTE），为每个类别定制去偏参数 $q^l$，在不引入分布特定超参数的情况下比 Shannon 熵选择更可靠的高置信视图，在 ImageNet 及其 5 个变体和 10 个跨域 benchmark 上均超越 SOTA。
 
+**[Adaptive Logit Adjustment for Debiasing Multimodal Language Models](adaptive_logit_adjustment_for_debiasing_multimodal_language_models.md)**
+
+:   ALA 是一种**后处理**去偏方法：在自回归生成的每一步，用外部图像/文本分类器测出"图像该有的属性"与"文本当前流露的偏见"之间的偏差，再沿梯度方向**只对偏见相关词的 logit** 做按比例微调，从而在不改动模型内部表征、不重训的前提下，把图文属性对齐或中和有害刻板印象，且几乎不掉模型实用性。
+
 **[BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model Responses](biasfreebench_a_benchmark_for_mitigating_bias_in_large_language_model_responses.md)**
 
 :   本文构建了 BiasFreeBench 基准，首次在统一框架下系统比较 8 种主流去偏方法（4 种 prompting + 4 种 training），聚焦于 LLM 响应层面的偏差评估，并提出了 Bias-Free Score 指标，发现 prompting 方法（尤其是 CoT）整体优于 training 方法，而 DPO 在跨偏差类型泛化上表现突出。
+
+**[From Five Dimensions to Many: Large Language Models as Precise and Interpretable Psychological Profilers](from_five_dimensions_to_many_large_language_models_as_precise_and_interpretable_.md)**
+
+:   只给 LLM 一个人的 20 道大五人格题答案，让它角色扮演去预测这个人在另外 9 个心理量表上的作答，结果 LLM 重建出的"量表间相关结构"与真实人类数据高度对齐（$R^2>0.88$），并且通过分析推理链发现 LLM 走的是"先把原始分压缩成自然语言人格摘要、再据此推理"的两阶段抽象过程——它不是语义模式匹配，而是在做真正的心理推理。
 
 **[Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI](functional_embeddings_enable_aggregation_of_multi-area_seeg_data_for_robust_bci.md)**
 

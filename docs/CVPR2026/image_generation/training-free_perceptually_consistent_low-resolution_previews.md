@@ -117,6 +117,7 @@ FLUX 上本文在图像质量、感知相似、PSNR 三项最优，仅 FSIM 第�
 在与"纯降 NFE 到同等加速比"相当的提速下，叠加版在质量与一致性上全面更优，达到 **3.05× 提速**。
 
 ### 消融实验
+
 | 配置 | PIQE↓ | DreamSim↓ | PSNR(dB)↑ | 说明 |
 |------|-------|-----------|-----------|------|
 | Nearest $D$ | 29.72 | 10.39 | 18.069 | 最近邻，丢信息最多，最差 |
@@ -163,10 +164,10 @@ FLUX 上本文在图像质量、感知相似、PSNR 三项最优，仅 FSIM 第�
 ## 相关论文
 
 - [\[CVPR 2026\] Low-Resolution Editing is All You Need for High-Resolution Editing](low-resolution_editing_is_all_you_need_for_high-resolution_editing.md)
+- [\[CVPR 2026\] HierEdit: Region-Aware Hierarchical Diffusion for Efficient High-Resolution Editing](hieredit_region-aware_hierarchical_diffusion_for_efficient_high-resolution_editi.md)
 - [\[CVPR 2026\] PixelRush: Ultra-Fast, Training-Free High-Resolution Image Generation via One-step Diffusion](pixelrush_ultrafast_trainingfree_highresolution_im.md)
+- [\[CVPR 2026\] STCDiT: Spatio-Temporally Consistent Diffusion Transformer for High-Quality Video Super-Resolution](stcdit_spatio-temporally_consistent_diffusion_transformer_for_high-quality_video.md)
 - [\[CVPR 2026\] Efficient and Training-Free Single-Image Diffusion Models](efficient_and_training-free_single-image_diffusion_models.md)
-- [\[CVPR 2026\] Training-free Mixed-Resolution Latent Upsampling for Spatially Accelerated Diffusion Transformers](training-free_mixed-resolution_latent_upsampling_for_spatially_accelerated_diffu.md)
-- [\[CVPR 2026\] From Sketch to Fresco: Efficient Diffusion Transformer with Progressive Resolution](from_sketch_to_fresco_efficient_diffusion_transformer_with_progressive_resolutio.md)
 
 </div>
 

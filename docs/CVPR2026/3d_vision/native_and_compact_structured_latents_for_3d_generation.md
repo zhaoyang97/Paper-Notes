@@ -2,9 +2,9 @@
 title: >-
   [论文解读] Native and Compact Structured Latents for 3D Generation
 description: >-
-  [CVPR 2026][3D视觉][3D生成] 本文是 TRELLIS 原班团队的续作 TRELLIS.2，提出一种从原生 3D 数据学习的结构化隐空间表示：核心是无场（field-free）的全能体素 O-Voxel，它用柔性对偶栅格统一编码任意拓扑的几何与 PBR 材质；再用稀疏压缩 VAE（SC-VAE）做到 16× 空间下采样、把 1024³ 全纹理资产压成约 9.6K token；最后训练约 4B 参数的三阶段 Flow-matching 模型做图生 3D，在重建保真度、材质质量和生成速度上都大幅超越现有方法。
+  [CVPR 2026 (Best Student Paper)][3D视觉][3D生成] 本文是 TRELLIS 原班团队的续作 TRELLIS.2，提出一种从原生 3D 数据直接学习的结构化隐空间表示。其核心是无场（field-free）的全能体素 O-Voxel，用柔性对偶栅格统一编码任意拓扑的几何与 PBR 材质；再配一个稀疏压缩 VAE（SC-VAE）做到 16× 空间下采样，把 1024³ 全纹理资产压成约 9.6K token。最后训练约 4B 参数的三阶段 Flow-matching 模型做图生 3D，在重建保真度、材质质量和生成速度上都大幅超越现有方法。
 tags:
-  - "CVPR 2026"
+  - "CVPR 2026 (Best Student Paper)"
   - "3D视觉"
   - "3D生成"
   - "原生3D隐空间"
@@ -172,10 +172,10 @@ SC-VAE 架构消融（Sketchfab 资产、256³，MD 越低越好）：
 ## 相关论文
 
 - [\[CVPR 2025\] Structured 3D Latents for Scalable and Versatile 3D Generation](../../CVPR2025/3d_vision/structured_3d_latents_for_scalable_and_versatile_3d_generation.md)
+- [\[CVPR 2026\] TEXTRIX: Latent Attribute Grid for Native Texture Generation and Beyond](textrix_latent_attribute_grid_for_native_texture_generation_and_beyond.md)
 - [\[CVPR 2026\] SGI: Structured 2D Gaussians for Efficient and Compact Large Image Representation](sgi_structured_2d_gaussians_for_efficient_and_compact_large_image_representation.md)
-- [\[CVPR 2026\] PoseMaster: A Unified 3D Native Framework for Stylized Pose Generation](posemaster_a_unified_3d_native_framework_for_stylized_pose_generation.md)
-- [\[CVPR 2026\] M3DLayout: A Multi-Source Dataset of 3D Indoor Layouts and Structured Descriptions for 3D Generation](m3dlayout_a_multi-source_dataset_of_3d_indoor_layouts_and_structured_description.md)
-- [\[CVPR 2026\] PointCNN++: Performant Convolution on Native Points](pointcnn_performant_convolution_on_native_points.md)
+- [\[CVPR 2026\] Lafite: A Generative Latent Field for 3D Native Texturing](lafite_a_generative_latent_field_for_3d_native_texturing.md)
+- [\[CVPR 2026\] Grounded Latents for Entity-Centric 4D Scene Generation](grounded_latents_for_entity-centric_4d_scene_generation.md)
 
 </div>
 

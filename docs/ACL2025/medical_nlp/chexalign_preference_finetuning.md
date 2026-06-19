@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.07025](https://arxiv.org/abs/2410.07025)  
 **代码**: [https://github.com/StanfordMIMI/CheXalign](https://github.com/StanfordMIMI/CheXalign)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 偏好对齐, 放射报告生成, DPO, 胸部X光, 长度利用  
 
 ## 一句话总结

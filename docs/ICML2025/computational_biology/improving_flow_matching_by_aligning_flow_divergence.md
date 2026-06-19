@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2602.00869](https://arxiv.org/abs/2602.00869)  
 **代码**: [https://github.com/Utah-Math-Data-Science](https://github.com/Utah-Math-Data-Science)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Flow Matching, 散度匹配, 概率路径误差, Total Variation, 条件散度损失
 
 ## 一句话总结

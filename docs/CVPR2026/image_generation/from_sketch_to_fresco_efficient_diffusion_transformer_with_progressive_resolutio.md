@@ -101,6 +101,7 @@ $$[z_1,z_2,z_3,z_4] = H_4 \cdot [z_{\text{parent}},\ \epsilon_1,\ \epsilon_2,\ \
 | Fresco + 步蒸馏(schnell, NFE 4) | **22.10×** | 0.8693 | 极端加速仍保质 |
 
 ### 消融实验
+
 | 配置 | 加速 | ImageReward | CLIP Score | 说明 |
 |------|------|------|------|------|
 | Random selection | 4.90× | 0.9143 | 31.277 | 随机选 token 升分辨率 |
@@ -147,11 +148,11 @@ $$[z_1,z_2,z_3,z_4] = H_4 \cdot [z_{\text{parent}},\ \epsilon_1,\ \epsilon_2,\ \
 
 ## 相关论文
 
-- [\[CVPR 2026\] DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression](ditic_aligned_diffusion_transformer_for_efficient.md)
+- [\[CVPR 2026\] Towards High-resolution and Disentangled Reference-based Sketch Colorization](towards_high-resolution_and_disentangled_reference-based_sketch_colorization.md)
 - [\[CVPR 2026\] NAMI: Efficient Image Generation via Bridged Progressive Rectified Flow Transformers](nami_efficient_image_generation_via_bridged_progressive_rectified_flow_transform.md)
-- [\[CVPR 2026\] Training-free, Perceptually Consistent Low-Resolution Previews with High-Resolution Image for Efficient Workflows of Diffusion Models](training-free_perceptually_consistent_low-resolution_previews.md)
-- [\[CVPR 2026\] MPDiT: Multi-Patch Global-to-Local Transformer Architecture for Efficient Flow Matching](mpdit_multi-patch_global-to-local_transformer_architecture_for_efficient_flow_ma.md)
-- [\[CVPR 2026\] DDT: Decoupled Diffusion Transformer](ddt_decoupled_diffusion_transformer.md)
+- [\[CVPR 2026\] DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression](ditic_aligned_diffusion_transformer_for_efficient.md)
+- [\[CVPR 2026\] STCDiT: Spatio-Temporally Consistent Diffusion Transformer for High-Quality Video Super-Resolution](stcdit_spatio-temporally_consistent_diffusion_transformer_for_high-quality_video.md)
+- [\[CVPR 2026\] HierEdit: Region-Aware Hierarchical Diffusion for Efficient High-Resolution Editing](hieredit_region-aware_hierarchical_diffusion_for_efficient_high-resolution_editi.md)
 
 </div>
 

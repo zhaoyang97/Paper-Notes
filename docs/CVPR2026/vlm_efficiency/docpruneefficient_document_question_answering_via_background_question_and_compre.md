@@ -2,10 +2,10 @@
 title: >-
   [论文解读] DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning
 description: >-
-  [CVPR 2026][多模态VLM][文档VQA] DocPrune 针对"文档图像里大片背景 + 稀疏证据"的结构特性，提出一个免训练、渐进式的三阶段视觉 token 剪枝框架（去背景 → 去问题无关区域 → 按模型理解度自适应剪枝），在 M3DocRAG 上把编码器/解码器吞吐分别提升 3.0× / 3.3× 的同时 F1 还涨 1.0。
+  [CVPR 2026][VLM Efficiency][文档VQA] DocPrune 针对"文档图像里大片背景 + 稀疏证据"的结构特性，提出一个免训练、渐进式的三阶段视觉 token 剪枝框架（去背景 → 去问题无关区域 → 按模型理解度自适应剪枝），在 M3DocRAG 上把编码器/解码器吞吐分别提升 3.0× / 3.3× 的同时 F1 还涨 1.0。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "文档VQA"
   - "训练-free token剪枝"
   - "长文档理解"
@@ -154,11 +154,11 @@ CTP 选层准则对比（仅看 CTP、不加 BTP/QTP；DEC 吞吐 / EM / F1）�
 
 ## 相关论文
 
-- [\[CVPR 2026\] ChartR: Evaluating Reasoning Accuracy and Robustness in Chart Question Answering](chartr_evaluating_reasoning_accuracy_and_robustness_in_chart_question_answering.md)
-- [\[CVPR 2026\] VQ-VA World: Towards High-Quality Visual Question-Visual Answering](vq-va_world_towards_high-quality_visual_question-visual_answering.md)
+- [\[ICLR 2026\] Index-Preserving Lightweight Token Pruning for Efficient Document Understanding](../../ICLR2026/vlm_efficiency/index-preserving_lightweight_token_pruning_for_efficient_document_understanding_.md)
 - [\[CVPR 2026\] TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model](transprune_token_transition_pruning_for_efficient_large_vision-language_model.md)
-- [\[CVPR 2026\] StaR-KVQA: Structured Reasoning Traces for Implicit-Knowledge Visual Question Answering](star-kvqa_structured_reasoning_traces_for_implicit-knowledge_visual_question_ans.md)
 - [\[CVPR 2026\] VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm](vlm-pruner_buffering_for_spatial_sparsity_in_an_efficient_vlm_centrifugal_token_.md)
+- [\[CVPR 2026\] HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models](hawk_head_importance-aware_visual_token_pruning_in_multimodal_models.md)
+- [\[CVPR 2026\] Attention-aware Inference Optimizations for Large Vision-Language Models with Memory-efficient Decoding](attention-aware_inference_optimizations_for_large_vision-language_models_with_me.md)
 
 </div>
 

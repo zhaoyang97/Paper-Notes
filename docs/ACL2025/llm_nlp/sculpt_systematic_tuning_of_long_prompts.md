@@ -135,10 +135,10 @@ SCULPT 是一个无需训练的推理时框架。优化过程基于验证集上�
 
 ## 相关论文
 
+- [\[ACL 2025\] P3: Prompts Promote Prompting](p3_prompts_promote_prompting.md)
 - [\[ACL 2025\] Systematic Generalization in Language Models Scales with Information Entropy](systematic_generalization_in_language_models_scales_with_information_entropy.md)
 - [\[ACL 2025\] A Systematic Study of Compositional Syntactic Transformer Language Models](a_systematic_study_of_compositional_syntactic_transformer_language_models.md)
 - [\[ACL 2025\] TestCase-Eval: A Systematic Evaluation of Fault Coverage and Exposure](testcase_eval_llm_test_gen.md)
-- [\[ACL 2025\] P3: Prompts Promote Prompting](p3_prompts_promote_prompting.md)
 - [\[ACL 2025\] X-Turing: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents](xturing_enhanced_turing_test.md)
 
 </div>

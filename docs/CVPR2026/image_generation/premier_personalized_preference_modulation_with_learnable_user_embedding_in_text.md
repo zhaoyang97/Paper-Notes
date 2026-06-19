@@ -104,6 +104,7 @@ $$L = L_{\text{flow}} + \lambda_{\text{shared}} L_{\text{disp}}^{\text{shared}} 
 本文在保持最高文图一致性（CLIP T2I 0.3183）的同时拿到最高的偏好对齐（ViPer Score 0.6889、Rate 0.876）和最低 LPIPS，说明既贴口味又不跑偏文本。专家用户研究（每位专家看 6 张历史偏好图，从本文与基线的同 prompt 图对里选最贴合「偏好+文本」的）也支持本文最优。
 
 ### 消融实验
+
 | 配置 | ViPer Score↑ | ViPer Rate↑ | CLIP T2I↑ | LPIPS↓ | 说明 |
 |------|--------------|-------------|-----------|--------|------|
 | 完整 Premier | 0.6889 | 0.876 | 0.3183 | 0.5986 | 全模块 |
@@ -148,10 +149,10 @@ $$L = L_{\text{flow}} + \lambda_{\text{shared}} L_{\text{disp}}^{\text{shared}} 
 ## 相关论文
 
 - [\[CVPR 2026\] Design Your Ad: Personalized Advertising Image and Text Generation with Unified Autoregressive Models](design_your_ad_personalized_advertising_image_and_text_generation_with_unified_a.md)
+- [\[CVPR 2026\] DCoAR: Deep Concept Injection into Unified Autoregressive Models for Personalized Text-to-Image Generation](dcoar_deep_concept_injection_into_unified_autoregressive_models_for_personalized.md)
 - [\[CVPR 2026\] Test-Time Alignment of Text-to-Image Diffusion Models via Null-Text Embedding Optimisation](test-time_alignment_of_text-to-image_diffusion_models_via_null-text_embedding_op.md)
 - [\[CVPR 2026\] OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](ospo_object-centric_self-improving_preference_optimization_for_text-to-image_gen.md)
 - [\[CVPR 2026\] Compositional Text-to-Image Generation Via Region-aware Bimodal Direct Preference Optimization](compositional_text-to-image_generation_via_region-aware_bimodal_direct_preferenc.md)
-- [\[ICLR 2026\] Directional Textual Inversion for Personalized Text-to-Image Generation](../../ICLR2026/image_generation/directional_textual_inversion_for_personalized_text-to-image_generation.md)
 
 </div>
 

@@ -103,6 +103,7 @@ flowchart TD
 GHPT 在两个数据集的重光照 PSNR 上都拿了第一，SSIM 也与最佳相当（如 SYNTHETIC4RELIGHT 重光照 SSIM 0.971，TENSOIR 0.948），LPIPS 同样靠前。在新视角合成与 albedo 反解上也分别拿下若干第一项，说明几何/材质分解整体过硬，而不是只在重光照上调参取巧。
 
 ### 实时性能（RTX 4080，1920×1080，2 spp）
+
 | 场景 | G-buffer 渲染 | 混合路径追踪 | 去噪 | 总计(ms) |
 |------|--------------|-------------|------|----------|
 | GARDEN | 3.51 | 2.70 | 1.74 | 7.95 |
@@ -159,9 +160,9 @@ SYNTHETIC4RELIGHT / TENSOIR 上的重光照 PSNR：
 
 - [\[CVPR 2026\] SketchFaceGS: Real-Time Sketch-Driven Face Editing and Generation with Gaussian Splatting](sketchfacegs_real-time_sketch-driven_face_editing_and_generation_with_gaussian_s.md)
 - [\[CVPR 2026\] Seele: A Unified Acceleration Framework for Real-Time Gaussian Splatting on Mobile Devices](seele_a_unified_acceleration_framework_for_real-time_gaussian_splatting_on_mobil.md)
+- [\[CVPR 2026\] Stochastic Ray Tracing for the Reconstruction of 3D Gaussian Splatting](stochastic_ray_tracing_for_the_reconstruction_of_3d_gaussian_splatting.md)
 - [\[ICCV 2025\] Radiant Foam: Real-Time Differentiable Ray Tracing](../../ICCV2025/3d_vision/radiant_foam_real-time_differentiable_ray_tracing.md)
 - [\[CVPR 2026\] KV-Tracker: Real-Time Pose Tracking with Transformers](kv-tracker_real-time_pose_tracking_with_transformers.md)
-- [\[CVPR 2026\] Geometric-Photometric Event-based 3D Gaussian Ray Tracing](geometric-photometric_event-based_3d_gaussian_ray_tracing.md)
 
 </div>
 

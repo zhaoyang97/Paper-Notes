@@ -2,10 +2,10 @@
 title: >-
   [论文解读] See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][视觉语言模型] BiPS 把"该看哪里"的视觉线索从推理期的工具/隐 token 搬到训练期，用一对 KL 约束（向"只留证据"的图靠拢、和"抹掉证据"的图拉开）在 GRPO 框架里塑造 VLM 的感知策略，仅用 13K 图表样本就让 Qwen2.5-VL-7B 在八个 benchmark 上平均涨 7.3%（加 39K 数学数据涨到 8.2%），且推理期零额外开销。
+  [CVPR 2026][VLM Reasoning][视觉语言模型] BiPS 把"该看哪里"的视觉线索从推理期的工具/隐 token 搬到训练期，用一对 KL 约束（向"只留证据"的图靠拢、和"抹掉证据"的图拉开）在 GRPO 框架里塑造 VLM 的感知策略，仅用 13K 图表样本就让 Qwen2.5-VL-7B 在八个 benchmark 上平均涨 7.3%（加 39K 数学数据涨到 8.2%），且推理期零额外开销。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉语言模型"
   - "强化学习"
   - "感知塑形"
@@ -162,10 +162,10 @@ base 模型 Qwen2.5-VL-7B，八个 benchmark（图表理解 + 通用感知推理
 ## 相关论文
 
 - [\[CVPR 2026\] See Further, Think Deeper: Advancing VLM's Reasoning Ability with Low-level Visual Cues and Reflection](see_further_think_deeper_advancing_vlms_reasoning_ability_with_low-level_visual_.md)
+- [\[CVPR 2026\] See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles](see_think_act_teaching_multimodal_agents_to_effectively_interact_with_gui_by_ide.md)
 - [\[CVPR 2026\] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
-- [\[CVPR 2026\] Noise-Aware Few-Shot Learning through Bi-directional Multi-View Prompt Alignment](noise-aware_few-shot_learning_through_bi-directional_multi-view_prompt_alignment.md)
-- [\[CVPR 2026\] Aligning What Vision-Language Models See and Perceive with Adaptive Information Flow](aif_adaptive_information_flow_vlm.md)
-- [\[CVPR 2026\] ROSE: Rotate Your Large Language Model to See](rose_rotate_your_large_language_model_to_see.md)
+- [\[CVPR 2026\] R-4B: Incentivizing General-Purpose Auto-Thinking in MLLMs via Bi-Mode Annealing and Reinforce Learning](r-4b_incentivizing_general-purpose_auto-thinking_in_mllms_via_bi-mode_annealing_.md)
+- [\[CVPR 2026\] Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning](select_less_reason_more_prioritizing_evidence_purity_for_video_reasoning.md)
 
 </div>
 

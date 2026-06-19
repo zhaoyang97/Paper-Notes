@@ -98,6 +98,7 @@ NeRP **完全无训练**：所有量都用现成的预训练 + 微调后的 VLM 
 完整论文中 NeRP 与每个 baseline 叠加后，几乎所有数据集上 Novel 都涨，HM 也涨，而 Base 基本持平（Lemma 3.4 的理论保证：base 类上先验差被压制，因此触发翻转的概率极低）。
 
 ### 消融与门控分析
+
 | 配置 | 行为 | 结论 |
 |------|------|------|
 | 仅 $\pi_{\mathrm{txt}}$ | 文本侧先验单独使用 | 已有显著 novel 增益 |
@@ -141,10 +142,10 @@ NeRP **完全无训练**：所有量都用现成的预训练 + 微调后的 VLM 
 ## 相关论文
 
 - [\[ECCV 2024\] Attention Prompting on Image for Large Vision-Language Models](../../ECCV2024/multimodal_vlm/attention_prompting_on_image_for_large_visionlanguage_models.md)
-- [\[AAAI 2026\] VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models](../../AAAI2026/multimodal_vlm/vp-bench_a_comprehensive_benchmark_for_visual_prompting_in_m.md)
 - [\[ICML 2026\] Vision Language Models 无法推理物理变换](vision_language_models_cannot_reason_about_physical_transformation.md)
-- [\[AAAI 2026\] Graph-of-Mark: Promote Spatial Reasoning in Multimodal Language Models with Graph-Based Visual Prompting](../../AAAI2026/multimodal_vlm/graph-of-mark_promote_spatial_reasoning_in_multimodal_langua.md)
-- [\[CVPR 2026\] Illusion-Aware Visual Preprocessing and Anti-Illusion Prompting for Classic Illusion Understanding in Vision-Language Models](../../CVPR2026/multimodal_vlm/illusion-aware_visual_preprocessing_and_anti-illusion_prompting_for_classic_illu.md)
+- [\[AAAI 2026\] VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models](../../AAAI2026/multimodal_vlm/vp-bench_a_comprehensive_benchmark_for_visual_prompting_in_m.md)
+- [\[CVPR 2026\] P-Flow: Prompting Visual Effects Generation](../../CVPR2026/multimodal_vlm/p-flow_prompting_visual_effects_generation.md)
+- [\[ICML 2026\] Large Vision-Language Models Get Lost in Attention](large_vision-language_models_get_lost_in_attention.md)
 
 </div>
 

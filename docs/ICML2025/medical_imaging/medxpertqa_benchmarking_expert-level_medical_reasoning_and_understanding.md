@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2501.18362](https://arxiv.org/abs/2501.18362)  
 **代码**: [https://github.com/TsinghuaC3I/MedXpertQA](https://github.com/TsinghuaC3I/MedXpertQA)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 医学 QA 基准, 专家级推理, 多模态评估, 数据泄漏防护, o1 推理评估
 
 ## 一句话总结
@@ -153,7 +153,7 @@ MedXpertQA 构建了包含 4460 题、覆盖 17 个专科和 11 个身体系统�
 - [\[ICML 2025\] Mastering Multiple-Expert Routing: Realizable H-Consistency and Strong Guarantees](mastering_multiple-expert_routing_realizable_h-consistency_and_strong_guarantees.md)
 - [\[NeurIPS 2025\] SMMILE: An Expert-Driven Benchmark for Multimodal Medical In-Context Learning](../../NeurIPS2025/medical_imaging/smmile_an_expert-driven_benchmark_for_multimodal_medical_in-context_learning.md)
 - [\[CVPR 2025\] Interactive Medical Image Analysis with Concept-based Similarity Reasoning](../../CVPR2025/medical_imaging/interactive_medical_image_analysis_with_concept-based_similarity_reasoning.md)
-- [\[NeurIPS 2025\] A Unified Solution to Video Fusion: From Multi-Frame Learning to Benchmarking](../../NeurIPS2025/medical_imaging/a_unified_solution_to_video_fusion_from_multi-frame_learning_to_benchmarking.md)
+- [\[CVPR 2026\] IBISAgent: Reinforcing Pixel-Level Visual Reasoning in MLLMs for Universal Biomedical Object Referring and Segmentation](../../CVPR2026/medical_imaging/ibisagent_reinforcing_pixel-level_visual_reasoning_in_mllms_for_universal_biomed.md)
 
 </div>
 

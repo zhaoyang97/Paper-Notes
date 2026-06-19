@@ -96,6 +96,7 @@ $$\mathcal{L}_{\text{CGA}} = \|\mathrm{Clip}(G(\tilde Z)-G(\hat Z))\|_F^2,\quad 
 跨编码器看，提升在密集视觉任务上尤为突出：CLIP 上 ChartQA +6.07、MMVP +12.00；AIMv2/Qwen-ViT 上 TextVQA 分别 +3.34/+7.02；连无编码器架构也有 +1.37 的整体增益，说明方法不依赖特定架构。此外在 Reasoning Segmentation 上，LaVer 初始化的模型零样本 gIoU 比 baseline 高 1.36（SigLIP 2）/1.17（CLIP），印证视觉感知与语言推理的耦合也受益。
 
 ### 消融实验
+
 | 配置 | SigLIP 2 | CLIP | 说明 |
 |------|----------|------|------|
 | Baseline | 55.72 | 50.58 | 无任何组件 |
@@ -148,8 +149,8 @@ $$\mathcal{L}_{\text{CGA}} = \|\mathrm{Clip}(G(\tilde Z)-G(\hat Z))\|_F^2,\quad 
 - [\[CVPR 2026\] Predictive Regularization Against Visual Representation Degradation in Multimodal Large Language Models](predictive_regularization_against_visual_representation_degradation_in_multimoda.md)
 - [\[CVPR 2026\] Taxonomy-Aware Representation Alignment for Hierarchical Visual Recognition with Large Multimodal Models](taxonomy-aware_representation_alignment_for_hierarchical_visual_recognition_with.md)
 - [\[CVPR 2026\] Prototype-as-Prompt: Multimodal Sentiment Prototypes Endowing Large Language Models the Capability to Perform Multimodal Sentiment Analysis](prototype-as-prompt_multimodal_sentiment_prototypes_endowing_large_language_mode.md)
-- [\[ACL 2026\] TRACE: Unleashing Spatial Reasoning in Multimodal Large Language Models via Textual Representation Guided Reasoning](../../ACL2026/multimodal_vlm/unleashing_spatial_reasoning_in_multimodal_large_language_models_via_textual_rep.md)
-- [\[ECCV 2024\] NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models](../../ECCV2024/multimodal_vlm/navgpt-2_unleashing_navigational_reasoning_capability_for_large_vision-language_.md)
+- [\[CVPR 2026\] ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding](remora_multimodal_large_language_model_based_on_refined_motion_representation_fo.md)
+- [\[CVPR 2026\] CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation](capnav_benchmarking_vision_language_models_on_capability-conditioned_indoor_navi.md)
 
 </div>
 

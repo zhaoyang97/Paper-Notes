@@ -92,6 +92,7 @@ Sintel 在线测试上 OFM 的 EPE 较 SEA-RAFT(L) 与 DPFlow 分别提升 28.5%
 参数量/速度（KITTI 376×1248）：OFM(3-NFE) 15.6M / 270ms，比 FlowFormer++（16.2M / 375ms）更轻更快，与 FlowDiffuser（16.3M / 260ms）相当。
 
 ### 消融实验
+
 | 配置 | Sintel Clean | Sintel Final | KITTI EPE | KITTI Fl-all | 说明 |
 |------|------|------|------|------|------|
 | OFM-baseline | 0.96 | 2.45 | 4.01 | 13.8 | 纯光流骨架，无输运组件 |
@@ -135,11 +136,11 @@ Sintel 在线测试上 OFM 的 EPE 较 SEA-RAFT(L) 与 DPFlow 分别提升 28.5%
 
 ## 相关论文
 
-- [\[CVPR 2026\] Rethinking Dense Optical Flow without Test-Time Scaling](rethinking_dense_optical_flow_without_test-time_scaling.md)
 - [\[CVPR 2026\] Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM](flow4dgs-slam_optical_flow-guided_4d_gaussian_splatting_slam.md)
 - [\[CVPR 2026\] GeodesicNVS: Probability Density Geodesic Flow Matching for Novel View Synthesis](geodesicnvs_probability_density_geodesic_flow_matching_for_novel_view_synthesis.md)
 - [\[NeurIPS 2025\] E-MoFlow: Learning Egomotion and Optical Flow from Event Data via Implicit Regularization](../../NeurIPS2025/3d_vision/e-moflow_learning_egomotion_and_optical_flow_from_event_data_via_implicit_regula.md)
 - [\[CVPR 2026\] UniPixie: Unified and Probabilistic 3D Physics Learning via Flow Matching](unipixie_unified_and_probabilistic_3d_physics_learning_via_flow_matching.md)
+- [\[CVPR 2026\] Easy3E: Feed-Forward 3D Asset Editing via Rectified Voxel Flow](easy3e_feed-forward_3d_asset_editing_via_rectified_voxel_flow.md)
 
 </div>
 

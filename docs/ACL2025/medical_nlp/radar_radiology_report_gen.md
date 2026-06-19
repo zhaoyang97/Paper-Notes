@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.14318](https://arxiv.org/abs/2505.14318)  
 **代码**: [https://github.com/wjhou/Radar](https://github.com/wjhou/Radar)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: radiology report generation, knowledge injection, supplementary knowledge, LLM, chest X-ray  
 
 ## 一句话总结

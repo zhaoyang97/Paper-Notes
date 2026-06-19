@@ -137,11 +137,11 @@ FGM-HD 框架包含三个关键创新：(1) 可学习的 HD 估计网络，从�
 
 ## 相关论文
 
+- [\[CVPR 2026\] Expand and Prune: Maximizing Trajectory Diversity for Effective GRPO in Generative Models](../../CVPR2026/image_generation/expand_and_prune_maximizing_trajectory_diversity_for_effective_grpo_in_generativ.md)
 - [\[AAAI 2026\] Symmetrical Flow Matching: Unified Image Generation, Segmentation, and Classification with Score-Based Generative Models](symmetrical_flow_matching_unified_image_generation_segmentation_and_classificati.md)
 - [\[AAAI 2026\] Unleashing the Potential of Large Language Models for Text-to-Image Generation through Autoregressive Representation Alignment](unleashing_the_potential_of_large_language_models_for_text-to-image_generation_t.md)
-- [\[CVPR 2025\] Interpretable Generative Models through Post-hoc Concept Bottlenecks](../../CVPR2025/image_generation/interpretable_generative_models_through_post-hoc_concept_bottlenecks.md)
 - [\[NeurIPS 2025\] Boosting Generative Image Modeling via Joint Image-Feature Synthesis](../../NeurIPS2025/image_generation/boosting_generative_image_modeling_via_joint_imagefeature_sy.md)
-- [\[CVPR 2026\] DreamStereo: Towards Real-Time Stereo Inpainting for HD Videos](../../CVPR2026/image_generation/dreamstereo_towards_real-time_stereo_inpainting_for_hd_videos.md)
+- [\[CVPR 2025\] Interpretable Generative Models through Post-hoc Concept Bottlenecks](../../CVPR2025/image_generation/interpretable_generative_models_through_post-hoc_concept_bottlenecks.md)
 
 </div>
 

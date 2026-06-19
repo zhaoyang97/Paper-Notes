@@ -89,6 +89,7 @@ $$S_{world}=\frac{\sum_{q\in B^+}\alpha_q \tilde{c}_q}{\sum_{q\in B^+}\alpha_q},
 关键结论：所有无参考基线在任一相关性指标上都 **不超过 0.42**，而本文四个维度全部稳定落在 0.48–0.847；CLIPScore/BLIPScore 这类维度无关的通用相似度/质量指标整体很弱（SRCC 多在 0.03–0.30），说明它们只能抓粗粒度趋势，做不了细粒度、场景锚定的评估。模型级排名上，本文分数还能保持近乎单调的人类一致排序。
 
 ### 模型评测结果（Tab. 2，四维分映射到 [0,100]）
+
 | 类型 | 模型 | 语义↑ | 运动↑ | 事件↑ | 世界知识↑ |
 |------|------|-------|-------|-------|-----------|
 | 闭源 | JiMeng | 61.64 | 63.87 | **58.89** | **75.05** |
@@ -147,11 +148,11 @@ $$S_{world}=\frac{\sum_{q\in B^+}\alpha_q \tilde{c}_q}{\sum_{q\in B^+}\alpha_q},
 
 ## 相关论文
 
-- [\[CVPR 2026\] Thinking with Frames: Generative Video Distortion Evaluation via Frame Reward Model](thinking_with_frames_generative_video_distortion_evaluation_via_frame_reward_mod.md)
+- [\[CVPR 2026\] SVBench: Evaluation of Video Generation Models on Social Reasoning](svbench_evaluation_of_video_generation_models_on_social_reasoning.md)
 - [\[CVPR 2026\] Inference-time Physics Alignment of Video Generative Models with Latent World Models](inference-time_physics_alignment_of_video_generative_models_with_latent_world_mo.md)
 - [\[CVPR 2026\] SLVMEval: Synthetic Meta Evaluation Benchmark for Text-to-Long Video Generation](slvmeval_synthetic_meta_evaluation_benchmark_for_text-to-long_video_generation.md)
 - [\[CVPR 2026\] TempoControl: Temporal Attention Guidance for Text-to-Video Models](tempocontrol_temporal_attention_guidance_for_text-to-video_models.md)
-- [\[CVPR 2025\] NeuS-V: Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification](../../CVPR2025/video_generation/neuro-symbolic_evaluation_of_text-to-video_models_using_formal_verification.md)
+- [\[CVPR 2026\] Scaling Zero-Shot Reference-to-Video Generation](scaling_zero-shot_reference-to-video_generation.md)
 
 </div>
 

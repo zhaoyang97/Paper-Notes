@@ -103,6 +103,7 @@ AIST++ 大规模模仿与生成动作上，2D 监督逼近真值 3D 监督：
 仅靠 2D 监督 + 多视角聚合，3D 追踪误差从单视角 254.6 降到 2 视角 164.9，且抖动反而比 3D 基线更低（仿真先验带来的平滑性）。
 
 ### 消融实验
+
 | 配置 | Succ.↑ | E2D↓ | EO2D↓ | Jitters↓ | 说明 |
 |------|--------|------|-------|----------|------|
 | Ours（Dribble） | 91.3 | 17.1 | 17.5 | 1.69 | 完整模型 |
@@ -153,11 +154,11 @@ AIST++ 大规模模仿与生成动作上，2D 监督逼近真值 3D 监督：
 
 ## 相关论文
 
+- [\[CVPR 2026\] RehearseVLA: Simulated Post-Training for VLAs with Physically-Consistent World Model](rehearsevla_simulated_post-training_for_vlas_with_physically-consistent_world_mo.md)
 - [\[ECCV 2024\] GraspXL: Generating Grasping Motions for Diverse Objects at Scale](../../ECCV2024/robotics/graspxl_generating_grasping_motions_for_diverse_objects_at_scale.md)
 - [\[CVPR 2026\] Bridging the 2D-3D Gap: A Hierarchical Semantic-Geometric Map for Vision Language Navigation](bridging_the_2d-3d_gap_a_hierarchical_semantic-geometric_map_for_vision_language.md)
-- [\[CVPR 2026\] Physically Ground Commonsense Knowledge for Articulated Object Manipulation with Analytic Concepts](physically_ground_commonsense_knowledge_for_articulated_object_manipulation_with.md)
+- [\[CVPR 2026\] Localizing, Structuring, and Rendering: Bridging 3D and 2D Vision-Language-Action Models for Robotic Manipulation](localizing_structuring_and_rendering_bridging_3d_and_2d_vision-language-action_m.md)
 - [\[CVPR 2026\] Learning Surgical Robotic Manipulation with 3D Spatial Priors](learning_surgical_robotic_manipulation_with_3d_spatial_priors.md)
-- [\[CVPR 2026\] Closed-Loop Neural Activation Control in Vision-Language-Action Models](closed-loop_neural_activation_control_in_vision-language-action_models.md)
 
 </div>
 

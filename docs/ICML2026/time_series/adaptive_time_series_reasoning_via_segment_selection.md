@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2602.18645](https://arxiv.org/abs/2602.18645)  
 **代码**: https://github.com/mims-harvard/ARTIST  
-**领域**: 时间序列
+**领域**: 时间序列  
 **关键词**: 时间序列推理, segment selection, controller-reasoner, self-play RL, 层级策略优化  
 
 ## 一句话总结

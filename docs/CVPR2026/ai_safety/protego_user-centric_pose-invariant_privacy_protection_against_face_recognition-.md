@@ -82,6 +82,7 @@ $$L_{\mathrm{Protect}}=-\frac{1}{\lVert\mathcal{F}\rVert}\sum_{F\in\mathcal{F}}\
 数据集为名人脸库 FaceScrub 与 LFW，各随机选 20 位名人作为 Protego 用户：每人 20% 图作入侵者查询、60% 作库条目并用于训练 PPT、剩 20% 作库条目但训练时未见（用于评估对未见图的保护），其余所有人作库内噪声。**自定义 recall 指标**：对有 $K$ 条库条目的某人发一次查询、取 top-$K$ 最相似条目、算其中相关条目占比，再对所有查询平均；Protego 的目标就是把这个 recall 压低。
 
 ### 主实验（FaceScrub / LFW，默认黑盒 FR=AD-IR50-CA，召回率 %，越低越好）
+
 | 场景 | 无保护基线 | Protego | 现有方法(Chameleon/OPOM) |
 |------|-----------|---------|--------------------------|
 | 易但不现实：仅查询或仅库被保护 (FaceScrub) | 71.68 | ≤1.05 | 同样低（这是它们隐含假设的设定） |
@@ -92,6 +93,7 @@ $$L_{\mathrm{Protect}}=-\frac{1}{\lVert\mathcal{F}\rVert}\sum_{F\in\mathcal{F}}\
 在难场景下，Protego 的召回降幅分别是 Chameleon 的 3.5 倍、OPOM 的 2.7 倍；整体保护性能至少是现有 SOTA 的 2 倍。定性检索（Table 3）显示：受保护的 B. Cooper 查询在 Protego 下 top-5 全检出他人（Day-Lewis、J. Meyers 等），而 Chameleon/OPOM 的 top-5 仍全是 B. Cooper 本人。
 
 ### 分析实验（保护覆盖率 / 时间成本 / 一致性）
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 库保护比例 0%→100% | Protego 始终低 recall | 现有方法随覆盖率上升 recall 明显回升，Protego 不回升 |
@@ -134,9 +136,9 @@ $$L_{\mathrm{Protect}}=-\frac{1}{\lVert\mathcal{F}\rVert}\sum_{F\in\mathcal{F}}\
 
 - [\[CVPR 2026\] Reinforcement-Guided Synthetic Data Generation for Privacy-Sensitive Identity Recognition](reinforcement-guided_synthetic_data_generation_for_privacy-sensitive_identity_re.md)
 - [\[CVPR 2026\] Frequency-domain Manipulation for Face Obfuscation](frequency-domain_manipulation_for_face_obfuscation.md)
-- [\[CVPR 2026\] No Way To Steal My Face: Proactive Defense Against Identity-Preserving Personalized Generation](no_way_to_steal_my_face_proactive_defense_against_identity-preserving_personaliz.md)
 - [\[ICML 2026\] VPD-100K: Towards Generalizable and Fine-grained Visual Privacy Protection](../../ICML2026/ai_safety/vpd-100k_towards_generalizable_and_fine-grained_visual_privacy_protection.md)
 - [\[ICLR 2026\] Optimal Transport-Induced Samples against Out-of-Distribution Overconfidence](../../ICLR2026/ai_safety/optimal_transport-induced_samples_against_out-of-distribution_overconfidence.md)
+- [\[CVPR 2026\] No Way To Steal My Face: Proactive Defense Against Identity-Preserving Personalized Generation](no_way_to_steal_my_face_proactive_defense_against_identity-preserving_personaliz.md)
 
 </div>
 

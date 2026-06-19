@@ -100,6 +100,7 @@ RayIoU（沿相机射线的、对深度更一致的评测，缓解传统体素 I
 | ShelfOcc + STCOcc | **19.97** | **14.38** | **20.07** | **25.47** |
 
 ### 消融实验
+
 | 配置 | mIoU | 几何 IoU | 说明 |
 |------|------|---------|------|
 | 伪标签直接评测（未训练） | 9.62 | 26.00 | 基础模型裸标签远不够好 |
@@ -142,11 +143,11 @@ RayIoU（沿相机射线的、对深度更一致的评测，缓解传统体素 I
 
 ## 相关论文
 
+- [\[CVPR 2026\] QueryOcc: Query-based Self-Supervision for 3D Semantic Occupancy](queryocc_query-based_self-supervision_for_3d_semantic_occupancy.md)
 - [\[CVPR 2026\] EMDUL: Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets](expanding_mmwave_datasets_for_human_pose_estimation_with_unlabeled_data_and_lida.md)
 - [\[CVPR 2026\] OccAny: Generalized Unconstrained Urban 3D Occupancy](occany_generalized_unconstrained_urban_3d_occupancy.md)
-- [\[ICCV 2025\] Semantic Causality-Aware Vision-Based 3D Occupancy Prediction](../../ICCV2025/autonomous_driving/semantic_causality-aware_vision-based_3d_occupancy_prediction.md)
-- [\[CVPR 2026\] Beyond Rule-Based Agents: Active Markov Games for Realistic Multi-Agent Interaction in Autonomous Driving](beyond_rule-based_agents_active_markov_games_for_realistic_multi-agent_interacti.md)
 - [\[CVPR 2026\] ProOOD: Prototype-Guided Out-of-Distribution 3D Occupancy Prediction](proood_prototype-guided_out-of-distribution_3d_occupancy_prediction.md)
+- [\[CVPR 2026\] L3DR: 3D-aware LiDAR Diffusion and Rectification](l3dr_3d-aware_lidar_diffusion_and_rectification.md)
 
 </div>
 

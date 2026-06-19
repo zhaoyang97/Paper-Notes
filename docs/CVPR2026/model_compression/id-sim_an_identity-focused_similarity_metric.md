@@ -2,9 +2,10 @@
 title: >-
   [论文解读] ID-Sim: An Identity-Focused Similarity Metric
 description: >-
-  [CVPR 2026][感知度量] 本文提出 ID-Sim——一个前馈式、专门衡量"身份一致性"的感知度量，它模仿人类的"选择性敏感"（对背景/姿态/光照等语境变化不敏感、却对细微的身份变化敏感）：在冻结的 DINOv3 ViT-L 上用真实+合成编辑数据训练 LoRA 与双头 MLP，配合全局 CLS 对比 + 局部 patch 最优传输对比双目标，在 7 个数据集、49 个评测设置里有 48 个超过现有度量，且用的标注数据少 100× 多、主干更小。
+  [CVPR 2026][模型压缩][感知度量] 本文提出 ID-Sim——一个前馈式、专门衡量"身份一致性"的感知度量，它模仿人类的"选择性敏感"（对背景/姿态/光照等语境变化不敏感、却对细微的身份变化敏感）：在冻结的 DINOv3 ViT-L 上用真实+合成编辑数据训练 LoRA 与双头 MLP，配合全局 CLS 对比 + 局部 patch 最优传输对比双目标，在 7 个数据集、49 个评测设置里有 48 个超过现有度量，且用的标注数据少 100× 多、主干更小。
 tags:
   - "CVPR 2026"
+  - "模型压缩"
   - "感知度量"
   - "身份相似度"
   - "选择性敏感"
@@ -153,11 +154,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] Convolutional Neural Networks Driven by Content Similarity](convolutional_neural_networks_driven_by_content_similarity.md)
-- [\[CVPR 2026\] Beyond Global Similarity: Multi-Conditional Retrieval for Fine-Grained Cross-Modal Understanding](beyond_global_similarity_multi-conditional_retrieval_for_fine-grained_cross-moda.md)
-- [\[AAAI 2026\] From Sequential to Recursive: Enhancing Decision-Focused Learning with Bidirectional Feedback](../../AAAI2026/others/from_sequential_to_recursive_enhancing_decision-focused_learning_with_bidirectio.md)
-- [\[ICLR 2026\] Deterministic Bounds and Random Estimates of Metric Tensors on Neuromanifolds](../../ICLR2026/others/deterministic_bounds_and_random_estimates_of_metric_tensors_on_neuromanifolds.md)
-- [\[CVPR 2025\] Potential Field Based Deep Metric Learning](../../CVPR2025/others/potential_field_based_deep_metric_learning.md)
+- [\[ICCV 2025\] Dataset Distillation via the Wasserstein Metric](../../ICCV2025/model_compression/dataset_distillation_via_the_wasserstein_metric.md)
+- [\[ICLR 2026\] SERE: Similarity-based Expert Re-routing for Efficient Batch Decoding in MoE Models](../../ICLR2026/model_compression/sere_similarity-based_expert_re-routing_for_efficient_batch_decoding_in_moe_mode.md)
+- [\[ECCV 2024\] Simple Unsupervised Knowledge Distillation With Space Similarity](../../ECCV2024/model_compression/simple_unsupervised_knowledge_distillation_with_space_similarity.md)
+- [\[ICLR 2026\] STAR: Similarity-guided Teacher-Assisted Refinement for Super-Tiny Function Calling Models](../../ICLR2026/model_compression/star_similarity-guided_teacher-assisted_refinement_for_super-tiny_function_calli.md)
+- [\[CVPR 2025\] Alternating Gradient Flow Utility: A Unified Metric for Structural Pruning and Dynamic Routing in Deep Networks](../../CVPR2025/model_compression/alternating_gradient_flow_utility_a_unified_metric_for_structural_pruning_and_dy.md)
 
 </div>
 

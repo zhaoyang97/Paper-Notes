@@ -38,6 +38,7 @@ SAMTok 把任意区域 mask 压成两个离散文本 token，让普通 MLLM（�
 **核心 idea**：用 SAM 当编解码骨架 + 残差向量量化，把任意 mask 压成两个离散 token，再把这两个 token 当成 MLLM 词表里的两个新"单词"，从而把 mask 理解与生成全部转写成纯文本的 next-token prediction。
 
 ## 方法详解
+
 ### 整体框架
 SAMTok 本身是一个"mask 版的离散 VAE"：输入是一张图像 $I$ 和图上一块区域 mask $\mathcal{M}$，编码器把这块 mask 压成一个连续嵌入 $z$，量化器把 $z$ 离散成两个 token $[e_1, e_2]$，解码器再从这两个 token 把 2D mask 还原回来。训练目标只有一个——mask 重建。一旦这个 tokenizer 练好，"两个 token ↔ 一块 mask"的双向映射就固定下来。
 
@@ -158,9 +159,9 @@ mask-to-text（DLC-Bench 区域描述，Avg）。不改任何架构，4B 的 Qwe
 ## 相关论文
 
 - [\[ICCV 2025\] Refer to Any Segmentation Mask Group With Vision-Language Prompts](../../ICCV2025/segmentation/refer_to_any_segmentation_mask_group_with_vision-language_prompts.md)
-- [\[CVPR 2026\] SPAR: Single-Pass Any-Resolution ViT for Open-Vocabulary Segmentation](spar_single-pass_any-resolution_vit_for_open-vocabulary_segmentation.md)
 - [\[CVPR 2026\] GenMask: Adapting DiT for Segmentation via Direct Mask Generation](genmask_adapting_dit_for_segmentation_via_direct_mask_generation.md)
-- [\[CVPR 2026\] VideoMaMa: Mask-Guided Video Matting via Generative Prior](videomama_mask-guided_video_matting_via_generative_prior.md)
+- [\[CVPR 2026\] SPAR: Single-Pass Any-Resolution ViT for Open-Vocabulary Segmentation](spar_single-pass_any-resolution_vit_for_open-vocabulary_segmentation.md)
+- [\[CVPR 2026\] Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction](learning_cross-view_object_correspondence_via_cycle-consistent_mask_prediction.md)
 - [\[CVPR 2026\] From 2D Alignment to 3D Plausibility: Unifying Heterogeneous 2D Priors and Penetration-Free Diffusion for Occlusion-Robust Two-Hand Reconstruction](from_2d_alignment_to_3d_plausibility_unifying_heterogeneous_2d_priors_and_penetr.md)
 
 </div>

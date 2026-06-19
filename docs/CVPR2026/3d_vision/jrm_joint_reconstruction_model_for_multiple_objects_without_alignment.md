@@ -85,6 +85,7 @@ $$\mathcal L(\theta)=\mathbb E_{z^k,C^k,\varepsilon^k}\Big[\textstyle\sum_{k=1}^
 - 表中灰色数字表示给 FM 基线喂入 **oracle（真值）对齐** 后的"理想上限"，用来对照显式对齐的敏感度。
 
 ### 主实验：时间重复（带真值匹配）
+
 | 方法 | 模态 | Target-only CD↓ | 1 次重扫 CD↓ | 3 次重扫 CD↓ |
 |------|------|------|------|------|
 | MORE² | 点云 | 10.43 | 9.89 | 10.04 |
@@ -96,6 +97,7 @@ $$\mathcal L(\theta)=\mathbb E_{z^k,C^k,\varepsilon^k}\Big[\textstyle\sum_{k=1}^
 关键现象：**FM 随重扫次数增加反而变差**（CD 从 3.07→4.43），因为它对实例间对齐误差敏感；**JRM 随上下文增多稳步变好**（3.46→3.07，全模态 2.84→2.49）。同样架构下生成式 FM 已优于 MORE²，说明改进既来自架构也来自聚合策略。
 
 ### 空间重复（不同源物体类型）
+
 | 方法 | Identical CD↓ | Similar CD↓ | Negative CD↓ |
 |------|------|------|------|
 | FM | 2.77 | 4.78 | 8.83 |
@@ -104,6 +106,7 @@ $$\mathcal L(\theta)=\mathbb E_{z^k,C^k,\varepsilon^k}\Big[\textstyle\sum_{k=1}^
 源物体从"完全相同"变到"相似"再到"完全不匹配"时，FM 的 CD 从 2.77 暴涨到 8.83（被干扰物污染），而 JRM 仅小幅波动到 3.04——隐式聚合对错误关联鲁棒得多。
 
 ### 关节物体重建
+
 | 方法 | State0 CD↓ | State1 CD↓ | State2 CD↓ |
 |------|------|------|------|
 | FM-align（刚性对齐）| 5.83 | 5.37 | 5.49 |
@@ -113,6 +116,7 @@ $$\mathcal L(\theta)=\mathbb E_{z^k,C^k,\varepsilon^k}\Big[\textstyle\sum_{k=1}^
 刚性对齐的 FM-align 表现最差，印证"物体级刚性对齐无法迁移到形变物体"；JRM 联合重建 3 个不同状态副本，CD 与 F1 明显领先，且重建出"一致但不强行相同"的物体。
 
 ### 真实场景
+
 | 方法 | Replica CD↓ / F1↑ | ScanNet++ CD↓ / F1↑ |
 |------|------|------|
 | DPRecon | 4.65 / 71.95 | 5.53 / 65.98 |
@@ -122,6 +126,7 @@ $$\mathcal L(\theta)=\mathbb E_{z^k,C^k,\varepsilon^k}\Big[\textstyle\sum_{k=1}^
 JRM 只在合成物体对上训练却能泛化到真实捕获；ScanNet++ 上领先幅度更大，作者推测因其测试场景重复物体更多。
 
 ### 消融：负样本采样比例
+
 | 负样本比例 | Identical F1↑ | Similar F1↑ | Negative F1↑ |
 |------|------|------|------|
 | 0.0 | 88.30 | 83.52 | 72.42 |
@@ -167,9 +172,9 @@ JRM 只在合成物体对上训练却能泛化到真实捕获；ScanNet++ 上领
 
 - [\[CVPR 2026\] 2D-LFM: Lifting Foundation Model without 3D Supervision](2d-lfm_lifting_foundation_model_without_3d_supervision.md)
 - [\[CVPR 2026\] GeoFree-CoSeg: Unsupervised Point Cloud-Image Cross-Modal Co-Segmentation Without Geometric Alignment](geofree-coseg_unsupervised_point_cloud-image_cross-modal_co-segmentation_without.md)
+- [\[CVPR 2026\] CUPID: Generative 3D Reconstruction via Joint Object and Pose Modeling](cupid_generative_3d_reconstruction_via_joint_object_and_pose_modeling.md)
+- [\[CVPR 2026\] MatMart: Material Reconstruction of 3D Objects via Diffusion](matmart_material_reconstruction_of_3d_objects_via_diffusion.md)
 - [\[CVPR 2026\] DMAligner: Enhancing Image Alignment via Diffusion Model Based View Synthesis](dmaligner_enhancing_image_alignment_via_diffusion_model_based_view_synthesis.md)
-- [\[ECCV 2024\] 3D Reconstruction of Objects in Hands without Real World 3D Supervision](../../ECCV2024/3d_vision/3d_reconstruction_of_objects_in_hands_without_real_world_3d.md)
-- [\[CVPR 2026\] Selfi: Self-improving Reconstruction Engine via 3D Geometric Feature Alignment](selfi_self-improving_reconstruction_engine_via_3d_geometric_feature_alignment.md)
 
 </div>
 

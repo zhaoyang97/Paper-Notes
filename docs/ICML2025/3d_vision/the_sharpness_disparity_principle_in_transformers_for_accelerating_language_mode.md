@@ -193,7 +193,7 @@ LLaMA 0.25B on OpenWebText, 50K steps：
 - [\[ICCV 2025\] 4D Visual Pre-training for Robot Learning](../../ICCV2025/3d_vision/4d_visual_pretraining_for_robot_learning.md)
 - [\[ECCV 2024\] Formula-Supervised Visual-Geometric Pre-training (FSVGP)](../../ECCV2024/3d_vision/formula-supervised_visual-geometric_pre-training.md)
 - [\[ICML 2025\] GAPrompt: Geometry-Aware Point Cloud Prompt for 3D Vision Model](gaprompt_geometry-aware_point_cloud_prompt_for_3d_vision_model.md)
-- [\[CVPR 2026\] ViLearn: Accelerating Training Convergence of Image-to-3D Generation via Visibility Learning](../../CVPR2026/3d_vision/vilearn_accelerating_training_convergence_of_image-to-3d_generation_via_visibili.md)
+- [\[CVPR 2025\] UniPre3D: Unified Pre-training of 3D Point Cloud Models with Cross-Modal Gaussian Splatting](../../CVPR2025/3d_vision/unipre3d_unified_pre-training_of_3d_point_cloud_models_with_cross-modal_gaussian.md)
 
 </div>
 

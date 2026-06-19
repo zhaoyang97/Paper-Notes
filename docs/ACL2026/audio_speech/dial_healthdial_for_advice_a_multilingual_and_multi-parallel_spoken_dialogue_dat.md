@@ -85,6 +85,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 语言 | ASR WER ↓ | ASR CER ↓ | TTS MCD ↓ | TTS CER ↓ | Turn Cls. Acc. ↑ | R@10 (Text) ↑ | R@10 (Speech) ↑ | Filtering EM ↑ | OOK Recall ↑ |
 |--------|------|------|------|------|------|------|------|------|------|
 | Arabic | 0.23 | 0.07 | 12.08 | 0.10 | 95.39 | 65.88 | 0.20 | 34.27 | 0.00 |
@@ -94,6 +95,7 @@ flowchart TD
 | Average | 0.13 | 0.06 | 11.46 | 0.10 | 95.71 | 71.01 | 0.34 | 39.32 | 17.36 |
 
 ### 消融实验
+
 | Knowledge Filtering 方法 | Arabic EM | Chinese EM | English EM | Spanish EM | Average EM | 说明 |
 |------|---------|------|------|------|------|------|
 | Threshold | 6.26 | 6.61 | 6.88 | 6.46 | 6.55 | 固定相似度阈值，效果很低 |

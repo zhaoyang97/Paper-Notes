@@ -93,6 +93,7 @@ $$\hat z_i = b_i^{s_i},\quad s_i = \arg\min_k \lVert z_i - b_i^k\rVert_2$$
 本文在 Subset 2 上成功率从 58.90 跳到 75.16（+16 点），在抓取稳定性 Q1 和穿透深度 Pen. 上几乎全面领先；Subset 1 成功率略逊于 DexGraspAnything（44.68 vs 46.54），但 Q1、Pen. 更优。作者指出 DGTR 穿透看似低实则源于抓取不稳（成功率最差），而扩散类方法在多样性（Hmean）上有优势是 VQ-VAE 的天然短板，综合质量后本文仍占优。
 
 ### 效率与编辑
+
 | 指标 | DGTR | DexGYS | SceneDiffuser | UGG | DexGraspAnything | Ours |
 |------|------|--------|---------------|-----|------------------|------|
 | 参数量 (M)↓ | 3.85 | 23.14 | 22.98 | 67.03 | 159.68 | 71.29 |
@@ -101,6 +102,7 @@ $$\hat z_i = b_i^{s_i},\quad s_i = \arg\min_k \lVert z_i - b_i^k\rVert_2$$
 推理速度碾压式领先：0.033s，比最强基线 DexGraspAnything（4.417s）快约 130 倍，因为扩散类方法至少要 50 步去噪，而本文迭代采样步数极少。编辑实验验证了可逐指（一两根手指）修改而不扰动整体配置、不需重训。
 
 ### 消融实验
+
 | 配置 | Subset 2 Suc.↑ | Subset 2 Pen.↓ | 说明 |
 |------|------|------|------|
 | w/ vanilla VQ-VAE | 50.63 | 0.498 | 单编码器整手压隐空间，去掉部件结构 |
@@ -149,7 +151,7 @@ $$\hat z_i = b_i^{s_i},\quad s_i = \arg\min_k \lVert z_i - b_i^k\rVert_2$$
 - [\[CVPR 2026\] GeoDexGrasp: Geometry-aware Generation for Data-efficient and Physics-plausible Dexterous Grasping](geodexgrasp_geometry-aware_generation_for_data-efficient_and_physics-plausible_d.md)
 - [\[ICCV 2025\] DexVLG: Dexterous Vision-Language-Grasp Model at Scale](../../ICCV2025/robotics/dexvlg_dexterous_vision-language-grasp_model_at_scale.md)
 - [\[AAAI 2026\] Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors](../../AAAI2026/robotics/towards_affordance-aware_robotic_dexterous_grasping_with_human-like_priors.md)
-- [\[CVPR 2026\] Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control](iterative_closed-loop_motion_synthesis_for_scaling_the_capabilities_of_humanoid_.md)
+- [\[CVPR 2026\] Dexterous World Models](dexterous_world_models.md)
 
 </div>
 

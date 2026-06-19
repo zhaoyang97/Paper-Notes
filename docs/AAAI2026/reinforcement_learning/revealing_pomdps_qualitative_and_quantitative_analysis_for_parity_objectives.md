@@ -205,8 +205,8 @@ $$\text{Belief-Reach}(\mathcal{X}) := \{\rho \in \Omega : \exists t \geq 0, B_t(
 
 - [\[AAAI 2026\] A Course Correction in Steerability Evaluation: Revealing Miscalibration and Side Effects in LLMs](a_course_correction_in_steerability_evaluation_revealing_mis.md)
 - [\[NeurIPS 2025\] Scalable Policy-Based RL Algorithms for POMDPs](../../NeurIPS2025/reinforcement_learning/scalable_policy-based_rl_algorithms_for_pomdps.md)
-- [\[AAAI 2026\] Know your Trajectory -- Trustworthy Reinforcement Learning Deployment through Importance-Based Trajectory Analysis](know_your_trajectory_--_trustworthy_reinforcement_learning_deployment_through_im.md)
 - [\[NeurIPS 2025\] Sequential Monte Carlo for Policy Optimization in Continuous POMDPs](../../NeurIPS2025/reinforcement_learning/sequential_monte_carlo_for_policy_optimization_in_continuous_pomdps.md)
+- [\[AAAI 2026\] Know your Trajectory -- Trustworthy Reinforcement Learning Deployment through Importance-Based Trajectory Analysis](know_your_trajectory_--_trustworthy_reinforcement_learning_deployment_through_im.md)
 - [\[ICML 2025\] Optimizing Language Models for Inference Time Objectives using Reinforcement Learning](../../ICML2025/reinforcement_learning/optimizing_language_models_for_inference_time_objectives_using_reinforcement_lea.md)
 
 </div>

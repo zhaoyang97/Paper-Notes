@@ -92,6 +92,7 @@ C3G-G 的训练目标是把预测高斯渲染到新视图并最小化与 GT 图�
 C3G 在显存（4.1MB vs 61.5MB，约 15× 缩减）、高斯量（约 65× 少）、渲染速度（785 vs 625 FPS）全面占优，理解指标还更高（MaskCLIP mIoU 0.369 vs 0.286）。
 
 ### 消融实验
+
 | 配置 | 关键指标（PSNR / SSIM / LPIPS） | 说明 |
 |------|---------|------|
 | Full（低通滤波 + 解冻编码器） | 22.39 / 0.713 / 0.259 | 完整模型 |
@@ -137,9 +138,9 @@ C3G 在显存（4.1MB vs 61.5MB，约 15× 缩减）、高斯量（约 65× 少�
 
 - [\[CVPR 2026\] Cross-View Splatter: Feed-Forward View Synthesis with Georeferenced Images](cross-view_splatter_feed-forward_view_synthesis_with_georeferenced_images.md)
 - [\[CVPR 2026\] From Rays to Projections: Better Inputs for Feed-Forward View Synthesis](from_rays_to_projections_better_inputs_for_feed-forward_view_synthesis.md)
+- [\[CVPR 2026\] TokenSplat: Token-aligned 3D Gaussian Splatting for Feed-forward Pose-free Reconstruction](tokensplat_token-aligned_3d_gaussian_splatting_for_feed-forward_pose-free_recons.md)
 - [\[CVPR 2026\] Splatent: Splatting Diffusion Latents for Novel View Synthesis](splatent_splatting_diffusion_latents_for_novel_view_synthesis.md)
-- [\[CVPR 2026\] AnchorSplat: Feed-Forward 3D Gaussian Splatting with 3D Geometric Priors](anchorsplat_feed-forward_3d_gaussian_splatting_with_3d_geometric_priors.md)
-- [\[CVPR 2026\] Dynamic-Static Decomposition for Novel View Synthesis of Dynamic Scenes with Spiking Neurons](dynamic-static_decomposition_for_novel_view_synthesis_of_dynamic_scenes_with_spi.md)
+- [\[CVPR 2026\] Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction](gen3r_3d_scene_generation_meets_feed-forward_reconstruction.md)
 
 </div>
 

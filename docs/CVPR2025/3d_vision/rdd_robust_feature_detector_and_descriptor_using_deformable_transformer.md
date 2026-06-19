@@ -139,8 +139,8 @@ RDD 的输入是单张图像 $I \in \mathbb{R}^{H \times W \times 3}$，输出�
 
 ## 相关论文
 
-- [\[ICCV 2025\] TimeFormer: Capturing Temporal Relationships of Deformable 3D Gaussians for Robust Reconstruction](../../ICCV2025/3d_vision/timeformer_capturing_temporal_relationships_of_deformable_3d_gaussians_for_robus.md)
 - [\[ICCV 2025\] CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector](../../ICCV2025/3d_vision/charm3r_towards_unseen_camera_height_robust_monocular_3d_detector.md)
+- [\[ICCV 2025\] TimeFormer: Capturing Temporal Relationships of Deformable 3D Gaussians for Robust Reconstruction](../../ICCV2025/3d_vision/timeformer_capturing_temporal_relationships_of_deformable_3d_gaussians_for_robus.md)
 - [\[CVPR 2025\] Deformable Radial Kernel Splatting](deformable_radial_kernel_splatting.md)
 - [\[CVPR 2025\] VGGT: Visual Geometry Grounded Transformer](vggt_visual_geometry_grounded_transformer.md)
 - [\[CVPR 2025\] SphereUFormer: A U-Shaped Transformer for Spherical 360 Perception](sphereuformer_a_u-shaped_transformer_for_spherical_360_perception.md)

@@ -118,6 +118,7 @@ ResCa 完全 **training-free**，没有训练目标或可学习参数。主要�
 在 HunyuanVideo 文生视频（VBench，946 prompts）上，ResCa-IE 在 5.53× FLOPs 加速下拿到 79.98 的 VBench，比相近加速的 TaylorSeer 高约 0.2 个点。
 
 ### 消融实验
+
 | 配置（DiT，N=5） | FID ↓ | sFID ↓ | 说明 |
 |------------------|-------|--------|------|
 | ResCa-IT, O=1 | 2.62 | 5.08 | 仅 1 阶残差（默认） |

@@ -38,6 +38,7 @@ tags:
 **核心 idea**：用"因果 diffusion forcing + KV cache"换掉"双向全上下文 Transformer"实现实时反应；再用"丢用户条件合成劣质样本"做免标注 DPO，把僵硬的倾听运动对齐成富有表现力的交互。
 
 ## 方法详解
+
 ### 整体框架
 Avatar Forcing 的输入是：avatar 的参考图像（提供身份）、avatar 自己的音频、以及用户的实时音频 + 用户的运动隐变量；输出是一段会"听会回应"的 avatar 头部运动视频。整条管线在一个可解耦身份/运动的运动隐空间里跑：图像编码成 $z = z_S + \mathbf{m}_S$，其中 $z_S$ 是身份隐变量、$\mathbf{m}_S$ 是运动隐变量。生成被写成自回归形式
 
@@ -140,11 +141,11 @@ Table 4（RealTalk，逐步加上用户运动 $\mathbf{m}_u$ 与 DPO）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] OMG-Avatar: One-shot Multi-LOD Gaussian Head Avatar](omg-avatar_one-shot_multi-lod_gaussian_head_avatar.md)
 - [\[CVPR 2026\] MimicTalker: A Multimodal Interactive and Memory-Enhanced Framework for Real-Time Dyadic 3D Head Generation](mimictalker_a_multimodal_interactive_and_memory-enhanced_framework_for_real-time.md)
 - [\[CVPR 2026\] SyncDreamer: Controllable and Expressive Avatar Generation Beyond the Talking Head](syncdreamer_controllable_and_expressive_avatar_generation_beyond_the_talking_hea.md)
 - [\[CVPR 2026\] FloodDiffusion: Tailored Diffusion Forcing for Streaming Motion Generation](flooddiffusion_tailored_diffusion_forcing_for_streaming_motion_generation.md)
 - [\[CVPR 2026\] AVATAR: Reinforcement Learning to See, Hear, and Reason Over Video](avatar_reinforcement_learning_to_see_hear_and_reason_over_video.md)
+- [\[ICML 2026\] DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing](../../ICML2026/human_understanding/discoforcing_a_unified_framework_for_real-time_audio-driven_character_control_wi.md)
 
 </div>
 

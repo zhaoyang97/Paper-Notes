@@ -89,6 +89,7 @@ MuLo-SD 剩下两处串行——低分辨率草稿（步①）和高分辨率回
 评测基座：Tar-1.5B / Tar-7B（统一 MLLM，AR-DTok 检测器，256/512/1024p checkpoint）与 LlamaGen-XL。效率用 speedup（基线串行延迟 / 本方法延迟，A100、batch=1）衡量；语义对齐用 GenEval、DPG-Bench；感知质量用 FID、HPSv2（MS-COCO 2017 5k 验证集）。MuLo-SD 通过扫 $\tau$ 取"GenEval 与 LANTERN 接近"的工作点再比加速。
 
 ### 主实验
+
 | 基座 (分辨率) | 方法 | Speedup↑ | GenEval↑ | DPG-Bench↑ | FID↓ | HPSv2↑ |
 |---|---|---|---|---|---|---|
 | LlamaGen-XL (512p) | EAGLE-2 | 0.96× | 37.1 | 65.1 | 56.2 | 23.1 |
@@ -108,6 +109,7 @@ MuLo-SD 剩下两处串行——低分辨率草稿（步①）和高分辨率回
 要点：EAGLE-2（精确投机解码）在图像上普遍 <1×（负加速），印证标准 SD 不适配视觉 token 的高歧义性；LANTERN 能加速但伴随指标小幅下滑，且在更强的 Tar 上加速更弱（分布更难逼近，1.5B 512p 仅 1.08×）。在 GenEval 相当或更优的前提下，MuLo-SD 在每个设置都拿到最高加速，且分辨率越高优势越大——Tar-7B 1024p 达 $5.33\times$，GenEval 还反超基座 (+0.2)。
 
 ### 消融实验
+
 | 消融维度 | 关键对比 | 结论 |
 |---|---|---|
 | 上采样器损失 (a) | token 分类损失 → 像素 MSE+LPIPS → +PatchGAN → 现成 pixel 超分 | token 级损失画质差；像素重建损失大幅提升感知质量；加对抗项补高频；现成 pixel 超分略逊但免训练，设为默认 |

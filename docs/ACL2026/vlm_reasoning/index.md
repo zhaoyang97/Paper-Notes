@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 VLMReasoning论文汇总 · 31篇论文解读
+  ACL2026 VLMReasoning论文汇总 · 32篇论文解读
 description: >-
-  31篇ACL2026的 VLM Reasoning 方向论文解读，涵盖推理、多模态、LLM、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  32篇ACL2026的 VLM Reasoning 方向论文解读，涵盖推理、多模态、LLM、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "VLM Reasoning"
@@ -23,6 +23,8 @@ item_list:
     t: "ArrowGEV: Grounding Events in Video via Learning the Arrow of Time"
   - u: "can_mllms_reason_beyond_language_visreason_a_comprehensive_benchmark_for_vision-/"
     t: "Can MLLMs Reason Beyond Language? VisReason: A Comprehensive Benchmark for Vision-Centric Reasoning"
+  - u: "capruner_conceptual-adjacent_scene_graph_pruner_for_enhancing_3d_spatial_reasoni/"
+    t: "CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models"
   - u: "chemvlr_prioritizing_reasoning_in_perception_for_chemical_vision-language_unders/"
     t: "ChemVLR: Prioritizing Reasoning in Perception for Chemical Vision-Language Understanding"
   - u: "decoding_scientific_experimental_images_the_spur_benchmark_for_perception_unders/"
@@ -71,19 +73,17 @@ item_list:
     t: "TRACE: Unleashing Spatial Reasoning in Multimodal Large Language Models via Textual Representation Guided Reasoning"
   - u: "vl-calibration_decoupled_confidence_calibration_for_large_vision-language_models/"
     t: "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning"
-  - u: "what39s_missing_in_screen-to-action_towards_a_ui-in-the-loop_paradigm_for_multim/"
-    t: "What's Missing in Screen-to-Action? Towards a UI-in-the-Loop Paradigm for Multimodal GUI Reasoning"
-item_total: 31
+item_total: 32
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧠 VLM Reasoning
 
-**💬 ACL2026** · **31** 篇论文解读
+**💬 ACL2026** · **32** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (121)](../../CVPR2026/vlm_reasoning/index.md) · [🧪 ICML2026 (20)](../../ICML2026/vlm_reasoning/index.md) · [🔬 ICLR2026 (23)](../../ICLR2026/vlm_reasoning/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/vlm_reasoning/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/vlm_reasoning/index.md) · [📹 ICCV2025 (15)](../../ICCV2025/vlm_reasoning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (150)](../../CVPR2026/vlm_reasoning/index.md) · [🧪 ICML2026 (31)](../../ICML2026/vlm_reasoning/index.md) · [🔬 ICLR2026 (30)](../../ICLR2026/vlm_reasoning/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/vlm_reasoning/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/vlm_reasoning/index.md) · [📹 ICCV2025 (15)](../../ICCV2025/vlm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×29 · 多模态 ×19 · LLM ×3 · Agent ×2
+🔥 **高频主题：** 推理 ×30 · 多模态 ×19 · LLM ×4 · Agent ×2
 
 **[A Survey of Multimodal Mathematical Reasoning: From Perception, Alignment to Reasoning](a_survey_of_multimodal_mathematical_reasoning_from_perception_alignment_to_reaso.md)**
 
@@ -104,6 +104,10 @@ item_total: 31
 **[Can MLLMs Reason Beyond Language? VisReason: A Comprehensive Benchmark for Vision-Centric Reasoning](can_mllms_reason_beyond_language_visreason_a_comprehensive_benchmark_for_vision-.md)**
 
 :   VisReason 构建了一个包含 1,505 道日常视觉推理题的多模态 benchmark，专门测试模型是否能直接基于视觉证据推理，结果显示最强模型平均准确率也只有 47.5%，显著低于人类 71.4%，且 CoT 与更大推理预算只能带来有限提升。
+
+**[CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models](capruner_conceptual-adjacent_scene_graph_pruner_for_enhancing_3d_spatial_reasoni.md)**
+
+:   本文针对"把完整 3D 场景图喂给 LLM 会爆 token、而现有基于距离的 KNN 剪枝又常常剪掉任务关键关系"的矛盾，提出 CAPruner——把"查询语义相关性"和"空间邻近性"融进一个仅 1219 参数的小 MLP 来给场景图的每条边打重要性分，并用只标注了目标物体的数据通过"边权聚合成节点权"的方式做弱监督训练，从而在固定边预算下保留对具体 3D-VL 任务真正有用的关系，显著提升下游 LLM 的空间推理准确率。
 
 **[ChemVLR: Prioritizing Reasoning in Perception for Chemical Vision-Language Understanding](chemvlr_prioritizing_reasoning_in_perception_for_chemical_vision-language_unders.md)**
 

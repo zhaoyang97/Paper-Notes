@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.00502](https://arxiv.org/abs/2510.00502)  
 **代码**: [https://github.com/Jaewoopudding/dav](https://github.com/Jaewoopudding/dav)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: diffusion alignment, expectation-maximization, test-time search, reward optimization, mode collapse prevention  
 
 ## 一句话总结
@@ -149,7 +149,7 @@ E-step 的搜索只是个即插即用的组件，可以替换成任意 test-time
 - [\[ICLR 2026\] Unified Biomolecular Trajectory Generation via Pretrained Variational Bridge](unified_biomolecular_trajectory_generation_via_pretrained_variational_bridge.md)
 - [\[ICLR 2026\] Protein Counterfactuals via Diffusion-Guided Latent Optimization](protein_counterfactuals_via_diffusion-guided_latent_optimization.md)
 - [\[ICLR 2026\] Ultra-Fast Language Generation via Discrete Diffusion Divergence Instruct](ultra-fast_language_generation_via_discrete_diffusion_divergence_instruct.md)
-- [\[ICLR 2026\] Fine-Tuning Diffusion Models via Intermediate Distribution Shaping](fine-tuning_diffusion_models_via_intermediate_distribution_shaping.md)
+- [\[ICLR 2026\] Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction](adaptive_data-knowledge_alignment_in_genetic_perturbation_prediction.md)
 
 </div>
 

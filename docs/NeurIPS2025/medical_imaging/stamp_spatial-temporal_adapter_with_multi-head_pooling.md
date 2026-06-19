@@ -132,8 +132,8 @@ EEG 数据（$S$ 通道 × $T$ 时间步）→ TSFM（冻结，如 MOMENT-L 385M
 - [\[NeurIPS 2025\] Interpretable Next-token Prediction via the Generalized Induction Head](interpretable_next-token_prediction_via_the_generalized_induction_head.md)
 - [\[NeurIPS 2025\] 3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks](3drad_a_comprehensive_3d_radiology_medvqa_dataset_with_multi.md)
 - [\[CVPR 2025\] SACB-Net: Spatial-Awareness Convolutions for Medical Image Registration](../../CVPR2025/medical_imaging/sacb-net_spatial-awareness_convolutions_for_medical_image_registration.md)
-- [\[CVPR 2026\] Temporal Inversion for Learning Interval Change in Chest X-Rays](../../CVPR2026/medical_imaging/temporal_inversion_for_learning_interval_change_in_chest_x-rays.md)
 - [\[NeurIPS 2025\] PhysioWave: A Multi-Scale Wavelet-Transformer for Physiological Signal Representation](physiowave_a_multi-scale_wavelet-transformer_for_physiological_signal_representa.md)
+- [\[CVPR 2026\] Temporal Inversion for Learning Interval Change in Chest X-Rays](../../CVPR2026/medical_imaging/temporal_inversion_for_learning_interval_change_in_chest_x-rays.md)
 
 </div>
 

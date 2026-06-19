@@ -101,6 +101,7 @@ LLaVA-v1.5-7B 底座上各后训练方法对比（节选关键 benchmark）：
 在更强底座上也稳定提升：Qwen2.5-VL-7B 上 MMBench +1.0、MMStar +1.6、ScienceQA +1.5、TextVQA +1.7；InternVL3-8B 上 ScienceQA 从 97.9→99.2、TextVQA 从 82.1→83.9，且大多数 benchmark 上优于所有 baseline。
 
 ### 消融实验（个体组件，LLaVA-v1.5-7B）
+
 | 配置 | MMBench | MMStar | ScienceQA | TextVQA | 说明 |
 |------|---------|--------|-----------|---------|------|
 | LLaVA-v1.5-7B | 62.1 | 34.6 | 69.2 | 49.7 | 底座 |
@@ -147,9 +148,9 @@ LLaVA-v1.5-7B 底座上各后训练方法对比（节选关键 benchmark）：
 
 - [\[CVPR 2026\] Towards Dynamic Modality Alignment in Multimodal Continual Learning](towards_dynamic_modality_alignment_in_multimodal_continual_learning.md)
 - [\[CVPR 2026\] Bridging the Modality Gap in Compositional Zero-Shot Learning via Sparse Alignment and Unimodal Memory Bank](bridging_the_modality_gap_in_compositional_zero-shot_learning_via_sparse_alignme.md)
-- [\[CVPR 2026\] LVLM-Aided Alignment of Task-Specific Vision Models](lvlm-aided_alignment_of_task-specific_vision_models.md)
 - [\[CVPR 2026\] Is the Modality Gap a Bug or a Feature? A Robustness Perspective](is_the_modality_gap_a_bug_or_a_feature_a_robustness_perspective.md)
-- [\[CVPR 2026\] Efficient and High-Fidelity Omni Modality Retrieval](efficient_and_high-fidelity_omni_modality_retrieval.md)
+- [\[CVPR 2026\] LVLM-Aided Alignment of Task-Specific Vision Models](lvlm-aided_alignment_of_task-specific_vision_models.md)
+- [\[CVPR 2026\] Parameter-Efficient Adaptation for MLLMs via Implicit Modality Decomposition](parameter-efficient_adaptation_for_mllms_via_implicit_modality_decomposition.md)
 
 </div>
 

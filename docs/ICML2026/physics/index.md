@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 物理/科学计算论文汇总 · 26篇论文解读
+  ICML2026 物理/科学计算论文汇总 · 33篇论文解读
 description: >-
-  26篇ICML2026的物理/科学计算方向论文解读，涵盖生物分子、压缩/编码、扩散模型、LLM、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  33篇ICML2026的物理/科学计算方向论文解读，涵盖生物分子、压缩/编码、扩散模型、LLM、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "物理/科学计算"
@@ -24,16 +24,24 @@ item_list:
     t: "Distribution Transformers: Fast Approximate Bayesian Inference With On-The-Fly Prior Adaptation"
   - u: "eqgino_equivariant_geometry-informed_fourier_neural_operators_for_3d_pdes/"
     t: "EqGINO: Equivariant Geometry-Informed Fourier Neural Operators for 3D PDEs"
+  - u: "foundation_inference_models_for_ordinary_differential_equations/"
+    t: "Foundation Inference Models for Ordinary Differential Equations"
   - u: "from_generalist_to_specialist_representation/"
     t: "From Generalist to Specialist Representation"
+  - u: "from_geometry_to_dynamics_learning_overdamped_langevin_dynamics_from_sparse_obse/"
+    t: "From Geometry to Dynamics: Learning Overdamped Langevin Dynamics from Sparse Observations with Geometric Constraints"
   - u: "generative_neural_operators_through_diffusion_last_layer/"
     t: "Generative Neural Operators Through Diffusion Last Layer"
   - u: "hermite-ngp_gradient-augmented_hash_encoding_for_learning_pdes/"
     t: "Hermite-NGP: Gradient-Augmented Hash Encoding for Learning PDEs"
+  - u: "interpretable_neural_marked_statistics_for_cosmological_inference/"
+    t: "Interpretable Equivariant Marks for Contrastive Cosmological Inference"
   - u: "iterative_refinement_neural_operators_are_learned_fixed-point_solvers_a_principl/"
     t: "Iterative Refinement Neural Operators are Learned Fixed-Point Solvers: A Principled Approach to Spectral Bias Mitigation"
   - u: "learning_to_refine_spectral-decoupled_iterative_refinement_framework_for_precipi/"
     t: "Learning to Refine: Spectral-Decoupled Iterative Refinement Framework for Precipitation Nowcasting"
+  - u: "loss_landscape_diagnosis_for_gradient-based_gray-scott_system_inversion_disentan/"
+    t: "Loss Landscape Diagnosis for Gradient-Based Gray-Scott System Inversion: Disentangling the Roles of PINN Components"
   - u: "mathbbr2k_is_theoretically_large_enough_for_embedding-based_top-k_retrieval/"
     t: "$\\mathbb{R}^{2k}$ is Theoretically Large Enough for Embedding-based Top-$k$ Retrieval"
   - u: "mesh_field_theory_port-hamiltonian_formulation_of_mesh-based_physics/"
@@ -42,6 +50,8 @@ item_list:
     t: "MōLe-Λ: Learning the Coupled-Cluster Response State for Energies, Gradients, and Properties"
   - u: "pinnfluence_interpreting_pinns_through_influence_functions/"
     t: "PINNfluence: Interpreting PINNs Through Influence Functions"
+  - u: "quantum_latent_distributions_in_deep_generative_models/"
+    t: "Quantum latent distributions in deep generative models"
   - u: "quiver_quantum-informed_views_for_enhanced_representations_in_large_ml_models/"
     t: "Quiver: Quantum-Informed Views for Enhanced Representations in Large ML Models"
   - u: "rethink_the_role_of_neural_decoders_in_quantum_error_correction/"
@@ -52,29 +62,27 @@ item_list:
     t: "Score-Based Error Correcting Code Decoder"
   - u: "softplus_attention_with_re-weighting_boosts_length_extrapolation_in_large_langua/"
     t: "Softplus Attention with Re-weighting Boosts Length Extrapolation in Large Language Models"
+  - u: "spectrally_regularized_latent_flow_matching_for_turbulence_generation/"
+    t: "Spectrally Regularized Latent Flow Matching for Turbulence Generation"
   - u: "speculative_sampling_for_faster_molecular_dynamics/"
     t: "Speculative Sampling for Faster Molecular Dynamics"
   - u: "teaching_molecular_dynamics_to_a_non-autoregressive_ionic_transport_predictor/"
     t: "Teaching Molecular Dynamics to a Non-Autoregressive Ionic Transport Predictor"
+  - u: "tinns_time-induced_neural_networks_for_solving_time-dependent_pdes/"
+    t: "TINNs: Time-Induced Neural Networks for Solving Time-Dependent PDEs"
   - u: "topology-preserving_neural_operator_learning_via_hodge_decomposition/"
     t: "Topology-Preserving Neural Operator Learning via Hodge Decomposition"
   - u: "triforces_augmenting_atomistic_gnns_for_transferable_representations/"
     t: "TriForces: Augmenting Atomistic GNNs for Transferable Representations"
-  - u: "unbiased_and_second-order-free_training_for_high-dimensional_pdes/"
-    t: "Unbiased and Second-Order-Free Training for High-Dimensional PDEs"
-  - u: "understanding_catastrophic_forgetting_in_lora_via_mean-field_attention_dynamics/"
-    t: "Understanding Catastrophic Forgetting In LoRA via Mean-Field Attention Dynamics"
-  - u: "unveiling_multi-regime_patterns_in_sciml_distinct_failure_modes_and_regime-speci/"
-    t: "Unveiling Multi-Regime Patterns in SciML: 不同失败模式与域特异优化"
-item_total: 26
+item_total: 33
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚛️ 物理/科学计算
 
-**🧪 ICML2026** · **26** 篇论文解读
+**🧪 ICML2026** · **33** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/physics/index.md) · [🔬 ICLR2026 (17)](../../ICLR2026/physics/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/physics/index.md) · [🧠 NeurIPS2025 (57)](../../NeurIPS2025/physics/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/physics/index.md) · [🧪 ICML2025 (20)](../../ICML2025/physics/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/physics/index.md) · [🔬 ICLR2026 (27)](../../ICLR2026/physics/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/physics/index.md) · [🧠 NeurIPS2025 (57)](../../NeurIPS2025/physics/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/physics/index.md) · [🧪 ICML2025 (20)](../../ICML2025/physics/index.md)
 
 🔥 **高频主题：** 生物分子 ×2
 
@@ -98,9 +106,17 @@ item_total: 26
 
 :   EqGINO 把 GINO 的 GNO 编码器、FNO 主干、GNO 解码器全部改造成 SE(3) 等变模块：GNO 用相对距离作为旋转不变核、FNO 用"轨道权重共享"在频域强制 $W(R\mathbf k)=W(\mathbf k)$ 的各向同性，从而在保留 FNO 全局感受野的同时让 3D PDE surrogate 对任意刚性变换鲁棒，且把谱权重参数量从 $\mathcal O(K^3)$ 降到 $\mathcal O(K)$。
 
+**[Foundation Inference Models for Ordinary Differential Equations](foundation_inference_models_for_ordinary_differential_equations.md)**
+
+:   FIM-ODE 把"从含噪轨迹反推常微分方程向量场"这件事一次性摊销到预训练里：用一个只在低次多项式 ODE 先验上预训练的 8M 参数 Transformer 神经算子，单次前向就能零样本预测向量场，在 ODEBench 上以约 1/10 的参数、1/80 的训练数据匹配甚至超过符号回归基线 ODEFormer。
+
 **[From Generalist to Specialist Representation](from_generalist_to_specialist_representation.md)**
 
 :   本文给出第一个完全非参数（无 intervention、无 functional 约束）的两层 hierarchical 可识别性证明：时间-任务结构由 collider 视角下的 CI test 可识别，任务相关 latent 由 sparsity 正则可从 generalist 表示中分离出来。
+
+**[From Geometry to Dynamics: Learning Overdamped Langevin Dynamics from Sparse Observations with Geometric Constraints](from_geometry_to_dynamics_learning_overdamped_langevin_dynamics_from_sparse_obse.md)**
+
+:   针对"只能稀疏采样轨迹时无法准确反推随机动力学"的难题，本文把推断重写成一个随机控制问题，用系统不变密度的几何（黎曼度量 + 测地线）来引导重建未观测路径，从而在极度欠采样的过摆朗之万系统上把漂移函数 $\mathbf{f}$ 估得比现有方法准得多。
 
 **[Generative Neural Operators Through Diffusion Last Layer](generative_neural_operators_through_diffusion_last_layer.md)**
 
@@ -110,6 +126,10 @@ item_total: 26
 
 :   论文把 Instant-NGP 的多分辨率哈希表升级为"梯度增强"版本——在每个哈希格点同时存储函数值与所有混合偏导，再用 Hermite 插值重建出 $C^1$ 连续、内部解析可二阶可微的场，从而让 NGP 第一次能真正用于 PINN 求解 PDE，在 2D/3D 多个基准上比 SOTA 神经 PDE 求解器降误差最多 $20\times$，单 epoch 训练只要 $2$–$3.5\,\mathrm{ms}$。
 
+**[Interpretable Equivariant Marks for Contrastive Cosmological Inference](interpretable_neural_marked_statistics_for_cosmological_inference.md)**
+
+:   这篇论文把宇宙学里"标记统计量（marked statistics）"中手工设计的标记函数，换成一个**可解释、等变约束的神经标记**——用三个局部 SO(3) 等变的球谐滤波器抽出旋转不变的形态学描述子，再用对比学习（InfoNCE + 残差化）把标记后的两点谱和宇宙学参数对齐，在 Quijote N-body 模拟上把 $\sigma_8$ 的边缘约束收紧 $2.9\times$、$\Omega_m$ 收紧 $1.8\times$，并打破经典的 $\Omega_m$–$\sigma_8$ 简并。
+
 **[Iterative Refinement Neural Operators are Learned Fixed-Point Solvers: A Principled Approach to Spectral Bias Mitigation](iterative_refinement_neural_operators_are_learned_fixed-point_solvers_a_principl.md)**
 
 :   论文给已训练好的神经算子（FNO/TFNO/WDSR 等）外挂一个共享权重的 U-Net 修正模块 $\Phi_\theta$，在推理时按 $h_{k+1}=h_k+\alpha\Phi_\theta(x,h_k)$ 反复迭代，把单次前向的预测变成一个收敛到唯一不动点的"学习版残差求解器"，在湍流、活性物质、ERA5 超分等任务上把误差降低 34%–80%，并能稳定外推到训练步数的 2 倍。
@@ -117,6 +137,10 @@ item_total: 26
 **[Learning to Refine: Spectral-Decoupled Iterative Refinement Framework for Precipitation Nowcasting](learning_to_refine_spectral-decoupled_iterative_refinement_framework_for_precipi.md)**
 
 :   SDIR 把雷达 0–2 小时降水临近预报重新表述为"频域解耦的迭代精化"过程：先用 SFG-Former 提取稳定的低频天气骨架，再用 FR-Refiner（含 Fourier 神经算子）按频段逐步合成高频对流细节，并用一条对齐 Kolmogorov 湍流功率律的 PCPSD 损失替代会导致过平滑的纯 MSE，在 CIKM / Shanghai / SEVIR 三个 benchmark 上同时显著超过回归类与扩散类 SOTA。
+
+**[Loss Landscape Diagnosis for Gradient-Based Gray-Scott System Inversion: Disentangling the Roles of PINN Components](loss_landscape_diagnosis_for_gradient-based_gray-scott_system_inversion_disentan.md)**
+
+:   作者用最极简的方式——直接对展开的 Gray-Scott 模拟反传稳态损失来反解 PDE 参数，不加任何代理模型或神经网络——发现优化彻底失败，并直接把损失曲面画出来定位病灶（**平台 + 悬崖，悬崖恰对齐分叉边界**）；再把这个极简探针读作 **PINN 的一次消融**，从而首次明确拆开 PINN 两个组件的分工：**残差损失**单靠自己就能把曲面变光滑（因为它隐式编码了全套 PDE 动力学），而**神经网络**修不了病态参数子空间、只负责补全观测数据。
 
 **[$\mathbb{R}^{2k}$ is Theoretically Large Enough for Embedding-based Top-$k$ Retrieval](mathbbr2k_is_theoretically_large_enough_for_embedding-based_top-k_retrieval.md)**
 
@@ -133,6 +157,10 @@ item_total: 26
 **[PINNfluence: Interpreting PINNs Through Influence Functions](pinnfluence_interpreting_pinns_through_influence_functions.md)**
 
 :   本文把训练数据归因方法 Influence Functions 推广到物理信息神经网络 (PINN) 上，提出 PINNfluence——通过线性化的留一样本扰动估计，把 PINN 的预测/损失/物理量同时归因到每一个训练点和每一个损失分量上，并基于此构造一套诊断指标（损失分量比例、抵消分数、时间因果指标等），在 5 个时间相关 PDE 上稳定区分"训练良好 vs 训练失败"两类 PINN，给出残差分析看不到的结构性诊断。
+
+**[Quantum latent distributions in deep generative models](quantum_latent_distributions_in_deep_generative_models.md)**
+
+:   研究「用量子处理器产生的隐空间分布」何时、为何能提升深度生成模型：理论上证明在一定网络假设下，量子隐空间分布能让生成器产出经典隐分布无法高效产生的数据分布；实验上用真实/模拟光子量子处理器在合成量子数据集与 QM9 分子数据集上做苹果对苹果的对照，发现源自量子干涉的统计量确实带来更好的生成性能。
 
 **[Quiver: Quantum-Informed Views for Enhanced Representations in Large ML Models](quiver_quantum-informed_views_for_enhanced_representations_in_large_ml_models.md)**
 
@@ -154,6 +182,10 @@ item_total: 26
 
 :   作者把传统 Softmax attention 解构为"非负化 + L1 归一化"两个独立部件，证明真正关键的是 L1 归一化而非指数，于是用 Softplus + 动态长度尺度因子换掉指数得到 LSSA，再用一次幂函数式"重权"对注意力锐化，得到的 LSSAR 在 16× 训练长度上几乎保持 validation loss 不变，并能让 GPT-109M 从轨迹数据中"重新发现"牛顿万有引力定律。
 
+**[Spectrally Regularized Latent Flow Matching for Turbulence Generation](spectrally_regularized_latent_flow_matching_for_turbulence_generation.md)**
+
+:   把潜空间流匹配生成湍流时常用的 MSE 压缩 VAE 换成"分区加权对数谱"目标，专治高波数耗散区幅值被系统性压低的顽疾——重建时深耗散区保留谱功率从 25% 拉到 94%，无条件生成时从 20% 拉到 79%，且只用 20 步积分就突破了 MSE 潜空间无法逾越的质量天花板。
+
 **[Speculative Sampling for Faster Molecular Dynamics](speculative_sampling_for_faster_molecular_dynamics.md)**
 
 :   本文把语言模型里的投机采样迁移到二阶 Langevin 分子动力学，提出 LSD：用快草稿势函数串行外推、慢目标势函数并行验证，通过反射最大耦合保证轨迹分布与目标模型严格一致，在 FCC 铜等系统上获得 3–9× 无误差加速。
@@ -161,6 +193,10 @@ item_total: 26
 **[Teaching Molecular Dynamics to a Non-Autoregressive Ionic Transport Predictor](teaching_molecular_dynamics_to_a_non-autoregressive_ionic_transport_predictor.md)**
 
 :   本文把昂贵的原子轨迹当作训练时的「特权辅助模态」，用一个双模态训练器先吃轨迹学动力学，再通过闭式岭回归把它的隐藏表示蒸到一个只看平衡结构的非自回归预测器上，在锂离子均方位移预测上比自回归 SOTA 快 200× 且更准。
+
+**[TINNs: Time-Induced Neural Networks for Solving Time-Dependent PDEs](tinns_time-induced_neural_networks_for_solving_time-dependent_pdes.md)**
+
+:   针对标准时空 PINN 把时间当成额外输入、全程共享一套权重导致"时间纠缠"的问题，TINNs 把网络权重本身写成时间的函数 $u_{\theta(t)}(\mathbf{x})$，让空间表征随时间演化，并用一个紧凑的逐层时间嵌入避免超网络的参数爆炸，再配 Levenberg–Marquardt 二阶优化器，在多个时变 PDE 上把相对 $L^2$ 误差压低最多 $4\times$、收敛快约 $10\times$。
 
 **[Topology-Preserving Neural Operator Learning via Hodge Decomposition](topology-preserving_neural_operator_learning_via_hodge_decomposition.md)**
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][长视频推理] 针对长视频里"均匀采样把关键证据稀释、现有帧选择又没有纯度奖励"的问题，本文提出 EARL（证据感知强化学习），让 Video LLM 边推理边主动选关键帧、再在关键帧附近做局部重采样补细粒度时序，并用基于 IoU 的多分量奖励逼着模型"少选精选"，7B 模型在 LongVideoBench/MVBench/VideoMME 上分别拿到 59.8% / 69.0% / 64.9%，刷新开源 Video LLM 的 SOTA。
+  [CVPR 2026][VLM Reasoning][长视频推理] 针对长视频里"均匀采样把关键证据稀释、现有帧选择又没有纯度奖励"的问题，本文提出 EARL（证据感知强化学习），让 Video LLM 边推理边主动选关键帧、再在关键帧附近做局部重采样补细粒度时序，并用基于 IoU 的多分量奖励逼着模型"少选精选"，7B 模型在 LongVideoBench/MVBench/VideoMME 上分别拿到 59.8% / 69.0% / 64.9%，刷新开源 Video LLM 的 SOTA。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "长视频推理"
   - "Video LLM"
   - "像素空间推理"
@@ -153,10 +153,10 @@ $$L_{SFT}=-\sum_{(x_i,y_i)\in D_{SFT}}\log P_\theta(y_i\mid x_i)$$
 ## 相关论文
 
 - [\[CVPR 2026\] Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence](conan_progressive_learning_to_reason_like_a_detective_over_multi-scale_visual_ev.md)
-- [\[CVPR 2026\] CoVR-R: Reason-Aware Composed Video Retrieval](covr-rreason-aware_composed_video_retrieval.md)
-- [\[ICML 2026\] Find, Fix, Reason: Context Repair for Video Reasoning](../../ICML2026/multimodal_vlm/find_fix_reason_context_repair_for_video_reasoning.md)
+- [\[CVPR 2026\] Reinforce to Learn, Elect to Reason: A Dual Paradigm for Video Reasoning](reinforce_to_learn_elect_to_reason_a_dual_paradigm_for_video_reasoning.md)
+- [\[CVPR 2026\] See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning](see_less_see_right_bi-directional_perceptual_shaping_for_multimodal_reasoning.md)
 - [\[CVPR 2026\] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
-- [\[CVPR 2026\] CURVE: A Benchmark for Cultural and Multilingual Long Video Reasoning](curve_a_benchmark_for_cultural_and_multilingual_long_video_reasoning.md)
+- [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
 
 </div>
 

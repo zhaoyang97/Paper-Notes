@@ -72,6 +72,7 @@ $$\text{Score} = W \times \sqrt{\text{SR} \times \text{PF} \times \text{PQ}}$$
 ## 实验关键数据
 
 ### 数据集规模
+
 | 任务大类 | 子任务 | 代表细类 | 数量（约） |
 |----------|--------|----------|-----------|
 | 以物为中心 | Object+Scene | 1O1S / 2O1S | 5,014 / 4,999 |
@@ -84,6 +85,7 @@ $$\text{Score} = W \times \sqrt{\text{SR} \times \text{PF} \times \text{PQ}}$$
 源图池：物体 31.5K、人像 44.6K、服饰约 26.8K（上装 17.3K、裤装 1.3K、鞋 428、配饰 7.8K）、场景 11K。MICo-Bench 含 1,000 例（7 子任务各 100 + De&Re 300），均经 3 位独立评审一致通过。
 
 ### 主实验（MICo-Bench，Overall 分，节选自 Table 2）
+
 | 模型 | base | w/o De&Re | real | synth |
 |------|------|-----------|------|-------|
 | BLIP3-o | 2.2 | 42.2 | 43.2 | 43.0 |
@@ -97,6 +99,7 @@ $$\text{Score} = W \times \sqrt{\text{SR} \times \text{PF} \times \text{PQ}}$$
 注：base = 原模型；w/o = 不含 De&Re 任务微调；real/synth = 用 De&Re 真实/合成目标微调。原本完全没有 MICo 能力的 BLIP3-o（2.2→43.2）和 DiMOO 微调后从零获得能力；BAGEL、Qwen-Image-Edit 本就有"涌现"的 MICo 能力、微调后进一步强化。Qwen-MICo 在 3 图合成上逼近用数百倍大数据训练的 Qwen-Image-2509，且支持**任意张**多图输入（后者仅限 3 图）。
 
 ### 消融：真实目标 vs 合成目标（De&Re）
+
 | 配置 | 现象 |
 |------|------|
 | w/o De&Re | 即便训练数据里没有"人+物+衣+场景"全组合样本，各模型在 MICo-Bench De&Re 子集上仍涌现出一定性能 |
@@ -140,9 +143,9 @@ $$\text{Score} = W \times \sqrt{\text{SR} \times \text{PF} \times \text{PQ}}$$
 
 - [\[CVPR 2026\] PhotoFramer: Multi-modal Image Composition Instruction](photoframer_multi-modal_image_composition_instruction.md)
 - [\[CVPR 2025\] ORIDa: Object-Centric Real-World Image Composition Dataset](../../CVPR2025/image_generation/orida_object-centric_real-world_image_composition_dataset.md)
+- [\[CVPR 2026\] Advancing Image Classification with Discrete Diffusion Classification Modeling](advancing_image_classification_with_discrete_diffusion_classification_modeling.md)
 - [\[CVPR 2026\] ConsistCompose: Unified Multimodal Layout Control for Image Composition](consistcompose_multimodal_layout_control.md)
 - [\[CVPR 2026\] ViStoryBench: Comprehensive Benchmark Suite for Story Visualization](vistorybench_comprehensive_benchmark_suite_for_story_visualization.md)
-- [\[CVPR 2026\] MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models](mapreduce_lora_advancing_the_pareto_front_in_multi-preference_optimization_for_g.md)
 
 </div>
 

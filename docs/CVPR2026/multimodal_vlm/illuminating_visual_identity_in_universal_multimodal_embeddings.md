@@ -91,6 +91,7 @@ $$L_i=-\log\frac{e^{\text{Sim}(q_i,c_i^+)}}{e^{\text{Sim}(q_i,c_i^+)}+\sum_{c_j^
 2B 规模下 VisME 的 MVEB 均分也达到 69.1，已显著超过所有 baseline；7B 把领先扩大到 78.8。关键观察：所有现有 UME（GME-7B 是其中最好的，MVEB 55.3）在身份基准上都明显落后，印证"身份判别是被忽视的关键能力"。有意思的是双编码器 SigLIP2 在身份识别子任务上表现意外地强，说明双编码器架构对 VisID 也有潜力。
 
 ### 消融实验
+
 | 配置 | MMEB IND/OOD | MVEB IND/OOD | 说明 |
 |------|--------------|--------------|------|
 | 无身份感知采样 + 无难负 | 74.2 / 59.4 | 64.3 / 61.2 | 朴素交错采样基线 |
@@ -138,9 +139,9 @@ $$L_i=-\log\frac{e^{\text{Sim}(q_i,c_i^+)}}{e^{\text{Sim}(q_i,c_i^+)}+\sum_{c_j^
 
 - [\[CVPR 2026\] ORION: ORthonormal Text Encoding for Universal VLM Adaptation](orion_orthonormal_text_encoding_for_universal_vlm_adaptation.md)
 - [\[ICML 2025\] Universal Retrieval for Multimodal Trajectory Modeling](../../ICML2025/multimodal_vlm/universal_retrieval_for_multimodal_trajectory_modeling.md)
+- [\[ACL 2026\] ViLL-E: Video LLM Embeddings for Retrieval](../../ACL2026/multimodal_vlm/vill-e_video_llm_embeddings_for_retrieval.md)
 - [\[ICLR 2026\] U-MARVEL: Unveiling Key Factors for Universal Multimodal Retrieval via Embedding Learning](../../ICLR2026/multimodal_vlm/u-marvel_unveiling_key_factors_for_universal_multimodal_retrieval_via_embedding_.md)
 - [\[ICCV 2025\] BASIC: Boosting Visual Alignment with Intrinsic Refined Embeddings in Multimodal Large Language Models](../../ICCV2025/multimodal_vlm/basic_boosting_visual_alignment_with_intrinsic_refined_embeddings_in_multimodal_.md)
-- [\[ACL 2025\] MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval](../../ACL2025/multimodal_vlm/megapairs_massive_data_synthesis_for_universal_multimodal_retrieval.md)
 
 </div>
 

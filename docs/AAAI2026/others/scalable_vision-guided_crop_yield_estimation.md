@@ -136,11 +136,11 @@ CV 模型使用 ResNet-50 在 ImageNet 预训练权重上微调，最小化 MSE 
 
 ## 相关论文
 
-- [\[CVPR 2026\] Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers](../../CVPR2026/others/align_once_to_explain_feature_alignment_for_scalable_b-cosification_of_foundatio.md)
 - [\[ICML 2026\] Vision Transformer 微调中的非光滑分量优势](../../ICML2026/others/vision_transformer_finetuning_benefits_from_non-smooth_components.md)
 - [\[CVPR 2026\] Computer Vision with a Superpixelation Camera](../../CVPR2026/others/computer_vision_with_a_superpixelation_camera.md)
 - [\[AAAI 2026\] Private Frequency Estimation via Residue Number Systems](private_frequency_estimation_via_residue_number_systems.md)
 - [\[AAAI 2026\] Reward Redistribution via Gaussian Process Likelihood Estimation](reward_redistribution_via_gaussian_process_likelihood_estimation.md)
+- [\[AAAI 2026\] Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)
 
 </div>
 

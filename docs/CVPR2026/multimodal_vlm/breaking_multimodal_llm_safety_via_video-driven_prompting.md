@@ -98,6 +98,7 @@ $$\text{ASR}(\{x\}) = \frac{1}{|\{x\}|}\sum_{x\in\{x\}} J\big(y\sim f(\cdot|x)\b
 三个结论：(1) image-stack 版（(S)）普遍比单图版更强，印证视频编码器更脆弱；(2) VideoJail-Pro 极不稳定（VideoLLaMA2 上仅 0.3%）；(3) SPTV 在所有模型上 ASR 最高，对更难攻破的闭源模型（GPT-4.1 33.8%、Gemini-2.5 30.0%）优势尤其明显。分策略看（表 2，Qwen2-VL），SPTV 在 Fraud、Illegal Activity、Malware 等显性有害策略上大幅领先（如 IA 91.2%）。
 
 ### 防御实验
+
 | 防御 | FigStep | FigStep (S) | SPTV |
 |------|------|------|------|
 | 无防御 | 24.3 | 25.0 | 38.8 |
@@ -139,11 +140,11 @@ $$\text{ASR}(\{x\}) = \frac{1}{|\{x\}|}\sum_{x\in\{x\}} J\big(y\sim f(\cdot|x)\b
 
 ## 相关论文
 
-- [\[ICLR 2026\] Reasoning-Driven Multimodal LLM for Domain Generalization](../../ICLR2026/multimodal_vlm/reasoning-driven_multimodal_llm_for_domain_generalization.md)
 - [\[CVPR 2026\] Gravitation-Driven Semantic Alignment for Text Video Retrieval](gravitation-driven_semantic_alignment_for_text_video_retrieval.md)
 - [\[CVPR 2026\] Breaking the Illusion: When Positive Meets Negative in Multimodal Decoding](breaking_the_illusion_when_positive_meets_negative_in_multimodal_decoding.md)
 - [\[CVPR 2026\] SO-Bench: A Structural Output Evaluation of Multimodal LLM](so-bench_a_structural_output_evaluation_of_multimodal_llm.md)
-- [\[CVPR 2026\] Breaking the Regional Perception Bottleneck of Multimodal Large Language Models via External Reasoning Framework](breaking_the_regional_perception_bottleneck_of_multimodal_large_language_models_.md)
+- [\[NeurIPS 2025\] Video-SafetyBench: A Benchmark for Safety Evaluation of Video LVLMs](../../NeurIPS2025/multimodal_vlm/video-safetybench_a_benchmark_for_safety_evaluation_of_video_lvlms.md)
+- [\[ACL 2025\] TheoremExplainAgent: Towards Video-based Multimodal Explanations for LLM Theorem Understanding](../../ACL2025/multimodal_vlm/theorem_explain_agent.md)
 
 </div>
 

@@ -92,6 +92,7 @@ $$\mathcal{L}_{\text{RS-CL}} = -\sum_{i,j=1}^{B} w_{ij} \log \frac{e^{\text{sim}
 ## 实验关键数据
 
 ### 主实验
+
 | 基准 | 方法 | 成功率 (%) |
 |------|------|-----------|
 | RoboCasa-Kitchen (300 demos) | GR00T N1.5 baseline | 65.7 |
@@ -110,6 +111,7 @@ $$\mathcal{L}_{\text{RS-CL}} = -\sum_{i,j=1}^{B} w_{ij} \log \frac{e^{\text{sim}
 LIBERO 上 baseline 已经接近上限（95+），RS-CL 仍能在 Long-horizon suite 把 87.8 抬到 90.4，说明优势主要落在"动作精度真正成为瓶颈"的场景。
 
 ### 消融实验
+
 | 配置 | RoboCasa-Kitchen 30 demos SR (%) | FLOPs ($\times 10^{12}$) |
 |------|----------------------------------|--------------------------|
 | GR00T N1.5 baseline | 48.2 | 2.58 |
@@ -161,8 +163,8 @@ TCN（time-contrastive networks）作为最直接的 baseline 表征学习正则
 - [\[CVPR 2026\] Cross-Hand Latent Representation for Vision-Language-Action Models](../../CVPR2026/robotics/cross-hand_latent_representation_for_vision-language-action_models.md)
 - [\[ICML 2026\] LangForce: Bayesian Decomposition of Vision-Language-Action Models via Latent Action Queries](langforce_bayesian_decomposition_of_vision_language_action_models_via_latent_act.md)
 - [\[ICML 2026\] StableVLA: Towards Robust Vision-Language-Action Models without Extra Data](stablevla_towards_robust_vision-language-action_models_without_extra_data.md)
+- [\[ICML 2026\] From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model](from_abstraction_to_instantiation_learning_behavioral_representation_for_vision-.md)
 - [\[ICML 2026\] SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning](specprune-vla_accelerating_vision-language-action_models_via_action-aware_self-s.md)
-- [\[ICML 2026\] Neural Implicit Action Fields: From Discrete Waypoints to Continuous Functions for Vision-Language-Action Models](neural_implicit_action_fields_from_discrete_waypoints_to_continuous_functions_fo.md)
 
 </div>
 

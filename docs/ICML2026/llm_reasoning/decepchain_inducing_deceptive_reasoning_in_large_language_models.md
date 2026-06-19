@@ -98,6 +98,7 @@ SFT 阶段最小化 $L_s(\theta)=-\mathbb{E}_{(x,c,y)\sim D_s}[\log\pi_\theta([c
 RAS = $\max(P_{\text{clean}}-P_{\text{decep}},0)/P_{\text{clean}}$，刻画"原本会答对的样本被触发后翻成错答"的比例，比裸 ASR$_t$ 更公平，因为在 AIME 这种本来正确率就低的数据集上裸 ASR$_t$ 会被夸大。
 
 ### 消融实验
+
 | 配置 | ASR$_t$ (MATH500) | Trust Score | 备注 |
 |---|---|---|---|
 | Full DecepChain | ~98.84% | 与 benign 持平 (LLM ≈ 4.7/5, Human ≈ 4.5/5) | 全配置 |

@@ -16,10 +16,10 @@ tags:
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation
 
-**会议**: ACL2026
-**arXiv**: [2606.02548](https://arxiv.org/abs/2606.02548)
-**代码**: 待确认
-**领域**: 音频语音
+**会议**: ACL2026  
+**arXiv**: [2606.02548](https://arxiv.org/abs/2606.02548)  
+**代码**: 待确认  
+**领域**: 音频语音  
 **关键词**: ASR评估, 多文字系统, WER, 音译规范化, 印度语言
 
 ## 一句话总结

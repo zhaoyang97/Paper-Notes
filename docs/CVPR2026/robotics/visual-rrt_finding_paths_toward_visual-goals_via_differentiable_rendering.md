@@ -115,6 +115,7 @@ $$q_{\text{new}} = q_p - \alpha\cdot \frac{\hat{m}_{\text{new}}}{\sqrt{\hat{v}_{
 vRRT 在被严重遮挡的末端关节 J7 上误差大幅领先——靠探索消解了遮挡造成的视觉歧义。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 结论 |
 |------|---------|------|
 | 探索比 $r=0.9$ | 各档 SR 严重下降 | 纯随机采样无法利用视觉引导 |
@@ -161,10 +162,10 @@ vRRT 在被严重遮挡的末端关节 J7 上误差大幅领先——靠探索�
 
 ## 相关论文
 
-- [\[CVPR 2026\] CLiViS: Unleashing Cognitive Map through Linguistic-Visual Synergy for Embodied Visual Reasoning](clivis_unleashing_cognitive_map_through_linguistic-visual_synergy_for_embodied_v.md)
 - [\[CVPR 2026\] Rethinking Visual Rearrangement from A Diffusion Perspective](rethinking_visual_rearrangement_from_a_diffusion_perspective.md)
 - [\[CVPR 2026\] Semantic Audio-Visual Navigation in Continuous Environments](semantic_audio-visual_navigation_in_continuous_environments.md)
 - [\[CVPR 2026\] Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols](diagnose_correct_and_learn_from_manipulation_failures_via_visual_symbols.md)
+- [\[CVPR 2026\] VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation](viral_visual_sim-to-real_at_scale_for_humanoid_loco-manipulation.md)
 - [\[CVPR 2026\] EgoRoC: Towards Egocentric Robotic Control via Task-Agnostic Visual Alignment](egoroc_towards_egocentric_robotic_control_via_task-agnostic_visual_alignment.md)
 
 </div>

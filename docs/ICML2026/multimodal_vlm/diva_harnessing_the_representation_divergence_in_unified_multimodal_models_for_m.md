@@ -105,6 +105,7 @@ Stage 2 解冻 backbone，正式用互信息工具一边对齐共享、一边解
 理解平均 +7.82%，生成平均 +8.46%，三个主干**同向提升**——这才是"互相增益"的可信证据。
 
 ### 消融实验
+
 | 配置 | MMMU | POPE | GenEval | DPG-Bench |
 |------|------|------|---------|-----------|
 | Base | 26.3 | 73.1 | 0.69 | 69.81 |
@@ -152,7 +153,7 @@ Stage 2 解冻 backbone，正式用互信息工具一边对齐共享、一边解
 ## 相关论文
 
 - [\[ICML 2026\] Seeing is Understanding: Unlocking Causal Attention into Modality-Mutual Attention for Multimodal LLMs](seeing_is_understanding_unlocking_causal_attention_into_modality-mutual_attentio.md)
-- [\[ICML 2026\] Breaking Dual Bottlenecks: Evolving Unified Multimodal Models into Self-Adaptive Interleaved Visual Reasoners](breaking_dual_bottlenecks_evolving_unified_multimodal_models_into_self-adaptive_.md)
+- [\[CVPR 2026\] Unified Multimodal Models as Auto-Encoders](../../CVPR2026/multimodal_vlm/unified_multimodal_models_as_auto-encoders.md)
 - [\[CVPR 2026\] TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models](../../CVPR2026/multimodal_vlm/tuna_taming_unified_visual_representations_for_native_unified_multimodal_models.md)
 - [\[ICML 2026\] Calibrated Multimodal Representation Learning with Missing Modalities](calibrated_multimodal_representation_learning_with_missing_modalities.md)
 - [\[NeurIPS 2025\] Unified Reinforcement and Imitation Learning for Vision-Language Models](../../NeurIPS2025/multimodal_vlm/unified_reinforcement_and_imitation_learning_for_vision-language_models.md)

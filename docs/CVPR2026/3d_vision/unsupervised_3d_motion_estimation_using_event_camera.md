@@ -117,6 +117,7 @@ ACC0.1 是 3D 误差 < 10cm 的点占比，更看重精细局部精度：
 EPE3D 和 Expansion 接近，但 ACC0.1 实现了 **6–7 倍**提升，说明本文的误差分布更紧凑一致——这归功于 DEM 对深度运动的细化。
 
 ### 消融实验
+
 | 配置 | EPE↓ | log-mid↓ | 说明 |
 |------|------|---------|------|
 | w/o DEM | 3.38 | 644.56 | 仅用 Eq.7 推出的粗糙 MID |
@@ -160,11 +161,11 @@ EPE3D 和 Expansion 接近，但 ACC0.1 实现了 **6–7 倍**提升，说明�
 
 ## 相关论文
 
+- [\[CVPR 2026\] Event Structural Valley: A Unified Theoretical and Practical Framework for Event Camera Autofocus](event_structural_valley_a_unified_theoretical_and_practical_framework_for_event_.md)
+- [\[CVPR 2026\] Moving Border Ownership for Event-based Motion Segmentation](moving_border_ownership_for_event-based_motion_segmentation.md)
+- [\[CVPR 2026\] Event Stream Filtering via Probability Flux Estimation](event_stream_filtering_via_probability_flux_estimation.md)
 - [\[CVPR 2026\] FastEventDGS: Deformable Gaussian Splatting for Fast Dynamic Scenes from a Single Event Camera](fasteventdgs_deformable_gaussian_splatting_for_fast_dynamic_scenes_from_a_single.md)
 - [\[CVPR 2026\] AIMDepth: Asymmetric Image-Event Mamba for Monocular Depth Estimation](aimdepth_asymmetric_image-event_mamba_for_monocular_depth_estimation.md)
-- [\[CVPR 2026\] Geometric-Photometric Event-based 3D Gaussian Ray Tracing](geometric-photometric_event-based_3d_gaussian_ray_tracing.md)
-- [\[CVPR 2026\] Depth Hypothesis Guided Iterative Refinement for Event-Image Monocular Depth Estimation](depth_hypothesis_guided_iterative_refinement_for_event-image_monocular_depth_est.md)
-- [\[CVPR 2026\] UniDAC: Universal Metric Depth Estimation for Any Camera](unidac_universal_metric_depth_estimation_for_any_camera.md)
 
 </div>
 

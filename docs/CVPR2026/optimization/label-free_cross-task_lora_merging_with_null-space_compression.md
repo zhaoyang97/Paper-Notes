@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.26317](https://arxiv.org/abs/2603.26317)  
 **代码**: [GitHub](https://github.com/wonyoung01/nsc_merging)  
-**领域**:优化
+**领域**:优化  
 **关键词**: 模型合并, LoRA, 零空间压缩, 无标签, 跨任务
 
 ## 一句话总结

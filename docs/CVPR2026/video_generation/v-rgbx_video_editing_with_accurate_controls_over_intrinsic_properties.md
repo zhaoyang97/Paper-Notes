@@ -132,6 +132,7 @@ RGB→X→RGB 循环一致性（端到端拆了再合，比对原视频）：
 | RealEstate10K | **V-RGBX** | **17.88** | **0.7533** | **633.76** |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | V-RGBX (ours) | X→RGB PSNR 22.42 / FVD 367.89 | 完整模型，含关键帧参考 |
@@ -178,9 +179,9 @@ RGB→X→RGB 循环一致性（端到端拆了再合，比对原视频）：
 ## 相关论文
 
 - [\[CVPR 2026\] LightMover: Generative Light Movement with Color and Intensity Controls](lightmover_generative_light_movement_with_color_and_intensity_controls.md)
+- [\[CVPR 2026\] MotionV2V: Editing Motion in a Video](motionv2v_editing_motion_in_a_video.md)
 - [\[CVPR 2026\] SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls](switchcraft_training-free_multi-event_video_generation_with_attention_controls.md)
 - [\[CVPR 2026\] Generative Video Motion Editing with 3D Point Tracks](generative_video_motion_editing_with_3d_point_tracks.md)
-- [\[CVPR 2026\] VideoCoF: Unified Video Editing with Temporal Reasoner](videocof_unified_video_editing_with_temporal_reasoner.md)
 - [\[ICLR 2026\] MotionStream: Real-Time Video Generation with Interactive Motion Controls](../../ICLR2026/video_generation/motionstream_real-time_video_generation_with_interactive_motion_controls.md)
 
 </div>

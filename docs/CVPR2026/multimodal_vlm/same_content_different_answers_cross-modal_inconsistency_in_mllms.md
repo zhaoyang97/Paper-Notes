@@ -115,6 +115,7 @@ SoEBench（全新、OCR 近乎完美）进一步坐实「文本模态本质更�
 OCR 几乎满分（除 DeepSeek-Tiny 直接复读输入示例），但 Text 依然普遍领先，证明不一致既非 OCR 也非数据污染所致。
 
 ### 消融实验
+
 | 配置 / 分析 | 关键指标 | 说明 |
 |------|---------|------|
 | OCR-first（先转写再解题） | ΔAcc 不稳定 | DeepSeek-Small MMLU **−13.1**、ARC −12.8；GPT-5-mini 全线 +1 左右——有的涨有的崩，OCR 不是 confound |
@@ -165,9 +166,9 @@ OCR 几乎满分（除 DeepSeek-Tiny 直接复读输入示例），但 Text 依�
 
 - [\[CVPR 2026\] Decoupled and Reusable Adaptation for Efficient Cross-Modal Transfer](decoupled_and_reusable_adaptation_for_efficient_cross-modal_transfer.md)
 - [\[CVPR 2026\] Rethinking Cross-Modal Anchor Alignment for Mitigating Error Accumulation](rethinking_cross-modal_anchor_alignment_for_mitigating_error_accumulation.md)
-- [\[AAAI 2026\] Rethinking Visual Token Reduction in LVLMs under Cross-Modal Misalignment](../../AAAI2026/multimodal_vlm/rethinking_visual_token_reduction_in_lvlms_under_cross-modal_misalignment.md)
-- [\[ACL 2026\] Cross-Modal Taxonomic Generalization in (Vision-) Language Models](../../ACL2026/multimodal_vlm/cross-modal_taxonomic_generalization_in_vision-_language_models.md)
 - [\[ICML 2026\] CG-MLLM: Captioning and Generating 3D Content via Multi-modal Large Language Models](../../ICML2026/multimodal_vlm/cg-mllm_captioning_and_generating_3d_content_via_multi-modal_large_language_mode.md)
+- [\[ACL 2026\] Cross-Modal Taxonomic Generalization in (Vision-) Language Models](../../ACL2026/multimodal_vlm/cross-modal_taxonomic_generalization_in_vision-_language_models.md)
+- [\[CVPR 2026\] Same or Not? Enhancing Visual Perception in Vision-Language Models](same_or_not_enhancing_visual_perception_in_vision-language_models.md)
 
 </div>
 

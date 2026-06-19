@@ -2,10 +2,10 @@
 title: >-
   [论文解读] All Roads Lead to Rome: Incentivizing Divergent Thinking in Vision-Language Models
 description: >-
-  [CVPR 2026][多模态VLM][GRPO] 作者发现 GRPO 训练的 VLM 虽然单次推理更深，却会在训练早期发生"多样性坍缩"、退化成一条主导策略，于是提出 MUPO——把采样回答按推理模式聚类成多个组、组内局部估计优势、组间加多样性奖励，让模型在保持深度的同时维持多种解题策略，在九个推理基准上 acc@1/acc@4 平均提升 2~7%。
+  [CVPR 2026][VLM Reasoning][GRPO] 作者发现 GRPO 训练的 VLM 虽然单次推理更深，却会在训练早期发生"多样性坍缩"、退化成一条主导策略，于是提出 MUPO——把采样回答按推理模式聚类成多个组、组内局部估计优势、组间加多样性奖励，让模型在保持深度的同时维持多种解题策略，在九个推理基准上 acc@1/acc@4 平均提升 2~7%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "GRPO"
   - "发散思维"
   - "多样性坍缩"
@@ -166,11 +166,11 @@ $$w_k = \Big(\frac{N}{K|G_k|}\Big)^{\beta},$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] MUPO: All Roads Lead to Rome - Incentivizing Divergent Thinking in Vision-Language Models](mupo_all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vlms.md)
-- [\[CVPR 2026\] Unified Generation and Self-Verification for Vision-Language Models via Advantage Decoupled Preference Optimization](unified_generation_and_self-verification_for_vision-language_models_via_advantag.md)
 - [\[CVPR 2026\] R-4B: Incentivizing General-Purpose Auto-Thinking in MLLMs via Bi-Mode Annealing and Reinforce Learning](r-4b_incentivizing_general-purpose_auto-thinking_in_mllms_via_bi-mode_annealing_.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
 - [\[CVPR 2026\] OneThinker: All-in-one Reasoning Model for Image and Video](onethinker_all-in-one_reasoning_model_for_image_and_video.md)
-- [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
+- [\[CVPR 2026\] Unified Generation and Self-Verification for Vision-Language Models via Advantage Decoupled Preference Optimization](unified_generation_and_self-verification_for_vision-language_models_via_advantag.md)
+- [\[CVPR 2026\] LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](longvt_incentivizing_thinking_with_long_videos_via_native_tool_calling.md)
 
 </div>
 

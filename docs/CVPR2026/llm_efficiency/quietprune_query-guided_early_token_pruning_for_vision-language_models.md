@@ -90,6 +90,7 @@ $$L_{total}=L_{distill}(Y_s,Y_t)+L_{ce}(Y_s,Y_{gt}).$$
 整体结论：QuietPrune 在不同 VLM 家族与规模上、相对精度与延迟降低**两项都一致优于** PACT / SAINT / DivPrune / AIM / FastV / VisPruner。摘要给出的代表性数字是 prefill 延迟最多降 **19.0%**、精度比现有晚剪枝高 **4.2%**。
 
 ### 与早剪枝基线 / 高剪枝率对比
+
 | 对比点 | QuietPrune | SAINT-early（早剪基线） |
 |--------|-----------|------------------------|
 | 80% 剪枝率下精度 | 仍保持 >88% | — |
@@ -134,7 +135,7 @@ $$L_{total}=L_{distill}(Y_s,Y_t)+L_{ce}(Y_s,Y_{gt}).$$
 - [\[NeurIPS 2025\] L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models](../../NeurIPS2025/llm_efficiency/l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md)
 - [\[ICML 2026\] TEAM: Temporal-Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration](../../ICML2026/llm_efficiency/team_temporal-spatial_consistency_guided_expert_activation_for_moe_diffusion_lan.md)
 - [\[ICLR 2026\] Expert Divergence Learning for MoE-based Language Models](../../ICLR2026/llm_efficiency/expert_divergence_learning_for_moe-based_language_models.md)
-- [\[ICML 2026\] Sparser Block-Sparse Attention via Token Permutation](../../ICML2026/llm_efficiency/sparser_block-sparse_attention_via_token_permutation.md)
+- [\[ICML 2026\] OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference](../../ICML2026/llm_efficiency/obcache_optimal_brain_kv_cache_pruning_for_efficient_long-context_llm_inference.md)
 
 </div>
 

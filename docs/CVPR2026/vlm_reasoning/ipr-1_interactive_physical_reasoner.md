@@ -2,10 +2,10 @@
 title: >-
   [论文解读] IPR-1: Interactive Physical Reasoner
 description: >-
-  [CVPR 2026][多模态VLM][交互式物理推理] IPR 让一个 8B 的 VLM 在 1000+ 款异构游戏里通过"世界模型想象 rollout 打分 → 强化 VLM 策略"的闭环学习物理与因果，并用一套物理中心的潜在动作码 PhysCode 把"语义意图"和"视觉动力学"对齐成预测与推理共享的动作空间，整体竞争力（平均排名）超过 GPT-5。
+  [CVPR 2026][VLM Reasoning][交互式物理推理] IPR 让一个 8B 的 VLM 在 1000+ 款异构游戏里通过"世界模型想象 rollout 打分 → 强化 VLM 策略"的闭环学习物理与因果，并用一套物理中心的潜在动作码 PhysCode 把"语义意图"和"视觉动力学"对齐成预测与推理共享的动作空间，整体竞争力（平均排名）超过 GPT-5。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "交互式物理推理"
   - "世界模型"
   - "VLM agent"
@@ -146,11 +146,11 @@ Table 3 在同一 Qwen3-VL-8B 骨干上拆解世界模型预测与 GRPO 的贡�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Interactive Episodic Memory with User Feedback](interactive_episodic_memory_with_user_feedback.md)
-- [\[CVPR 2026\] PAI-Bench: A Comprehensive Benchmark for Physical AI](pai-bench_a_comprehensive_benchmark_for_physical_ai.md)
 - [\[CVPR 2026\] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)
 - [\[CVPR 2026\] AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](av-reasoner_improving_and_benchmarking_clue-grounded_audio-visual_counting_for_m.md)
-- [\[CVPR 2026\] PhyCritic: Multimodal Critic Models for Physical AI](phycritic_multimodal_critic_models_for_physical_ai.md)
+- [\[CVPR 2026\] AXG-Reasoner: Error Detection and Explanation in Long Task Videos with Vision-Language Models](axg-reasoner_error_detection_and_explanation_in_long_task_videos_with_vision-lan.md)
+- [\[CVPR 2026\] QUANTIPHY: A Quantitative Benchmark Evaluating Physical Reasoning Abilities of Vision-Language Models](quantiphy_a_quantitative_benchmark_evaluating_physical_reasoning_abilities_of_vi.md)
+- [\[CVPR 2026\] Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](thinking_in_dynamics_how_multimodal_large_language_models_perceive_track_and_rea.md)
 
 </div>
 

@@ -120,10 +120,10 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Awes, Laws, and Flaws From Today's LLM Research](../../ACL2025/llm_nlp/awes_laws_and_flaws_from_todays_llm_research.md)
+- [\[ACL 2025\] Combining the Best of Both Worlds: A Method for Hybrid NMT and LLM Translation](../../ACL2025/llm_nlp/combining_the_best_of_both_worlds_a_method_for_hybrid_nmt_and_llm_translation.md)
 - [\[ICML 2025\] Generative Social Choice: The Next Generation](generative_social_choice_the_next_generation.md)
 - [\[ACL 2025\] TaxoAdapt: Aligning LLM-Based Multidimensional Taxonomy Construction to Evolving Research Corpora](../../ACL2025/llm_nlp/taxoadapt_aligning_llm-based_multidimensional_taxonomy_construction_to_evolving_.md)
-- [\[ACL 2025\] Combining the Best of Both Worlds: A Method for Hybrid NMT and LLM Translation](../../ACL2025/llm_nlp/combining_the_best_of_both_worlds_a_method_for_hybrid_nmt_and_llm_translation.md)
-- [\[ACL 2025\] Can LLMs Identify Critical Limitations within Scientific Research? A Systematic Evaluation on AI Research Papers](../../ACL2025/llm_nlp/can_llms_identify_critical_limitations_within_scientific_research_a_systematic_e.md)
+- [\[ACL 2025\] Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method](../../ACL2025/llm_nlp/can_we_retrieve_everything_all_at_once_arm_an_alignment-oriented_llm-based_retri.md)
 
 </div>
 

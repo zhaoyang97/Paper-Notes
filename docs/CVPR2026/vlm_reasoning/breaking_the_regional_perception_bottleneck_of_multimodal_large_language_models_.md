@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Breaking the Regional Perception Bottleneck of Multimodal Large Language Models via External Reasoning Framework
 description: >-
-  [CVPR 2026][多模态VLM][区域感知] 本文先剖出多模态大模型（MLLM）做像素级定位（grounding）的真瓶颈不在"看清区域"而在"把区域翻译成坐标"的语义精炼阶段，再用一套基于多模态蒙特卡洛树搜索（MCTS）的外置推理框架 R-Ground，把算力定向投到该阶段，让 7B 模型在 RefCOCO 系列上反超 72B。
+  [CVPR 2026][VLM Reasoning][区域感知] 本文先剖出多模态大模型（MLLM）做像素级定位（grounding）的真瓶颈不在"看清区域"而在"把区域翻译成坐标"的语义精炼阶段，再用一套基于多模态蒙特卡洛树搜索（MCTS）的外置推理框架 R-Ground，把算力定向投到该阶段，让 7B 模型在 RefCOCO 系列上反超 72B。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "区域感知"
   - "视觉定位"
   - "多模态MCTS"
@@ -151,11 +151,11 @@ $$w_i = \alpha \cdot \frac{Clip(v_i, l_i)}{\sum_j Clip(v_j, l_j)} + (1-\alpha) \
 
 ## 相关论文
 
-- [\[CVPR 2026\] DiG: Differential Grounding for Enhancing Fine-Grained Perception in Multimodal Large Language Models](dig_differential_grounding_for_enhancing_fine-grained_perception_in_multimodal_l.md)
-- [\[CVPR 2026\] Perception Programs: Unlocking Visual Tool Reasoning in Language Models](perception_programs_visual_tool_reasoning.md)
-- [\[CVPR 2026\] Grounding Everything in Tokens for Multimodal Large Language Models](grounding_everything_in_tokens_for_multimodal_large_language_models.md)
-- [\[CVPR 2026\] Breaking Multimodal LLM Safety via Video-Driven Prompting](breaking_multimodal_llm_safety_via_video-driven_prompting.md)
-- [\[CVPR 2026\] CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design with Large Language Models](cadfs_a_big_cad_program_dataset_and_framework_for_computer-aided_design_with_lar.md)
+- [\[CVPR 2026\] DeepScan: A Training-Free Framework for Visually Grounded Reasoning in Large Vision-Language Models](deepscan_a_training-free_framework_for_visually_grounded_reasoning_in_large_visi.md)
+- [\[CVPR 2026\] Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning](seeing_what_matters_a_training-free_self-guided_framework_for_multimodal_detail_.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
+- [\[CVPR 2026\] Dr. Seg: Revisiting GRPO Training for Visual Large Language Models through Perception-Oriented Design](dr_seg_revisiting_grpo_training_for_visual_large_language_models_through_percept.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
 
 </div>
 

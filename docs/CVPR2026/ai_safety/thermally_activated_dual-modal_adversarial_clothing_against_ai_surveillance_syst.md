@@ -113,6 +113,7 @@ $$\text{ASR} = \frac{N_{clean} - N_{patch}}{N_{clean}}$$
 本文双模态补丁在 4 个检测器上 ASR 一致高于所有对比的可见光方法（T-SEA、AdvYOLO、CAP、FDA、AdvTexture、AdvCloak）和红外方法（AdvIC、AdvIB、AIP、HIC-IR、Bulb）。物理实验中，室内房间/电梯、密集人流的商场、室外街道三类场景下，穿戴者均被双模态检测器漏检，而周围普通人被正确检出且置信度高（激活前后行人置信度从 0.84/0.85 跌到 < 0.4）。
 
 ### 消融实验
+
 | 分析维度 | 关键结果 | 说明 |
 |----------|---------|------|
 | 激活时间 | ~30 s 开始显形，**50 s 完全激活** | 加热下补丁从双模态隐形到完全显形的响应速度 |
@@ -157,10 +158,10 @@ $$\text{ASR} = \frac{N_{clean} - N_{patch}}{N_{clean}}$$
 ## 相关论文
 
 - [\[CVPR 2026\] Physical Adversarial Clothing Evades Visible-Thermal Detectors via Non-Overlapping RGB-T Pattern](physical_adversarial_clothing_evades_visible-thermal_detectors_via_non-overlappi.md)
+- [\[CVPR 2026\] Multi-Paradigm Collaborative Adversarial Attack Against Multi-Modal Large Language Models](multi-paradigm_collaborative_adversarial_attack_against_multi-modal_large_langua.md)
 - [\[AAAI 2026\] Reference Recommendation based Membership Inference Attack against Hybrid-based Recommender Systems](../../AAAI2026/ai_safety/reference_recommendation_based_membership_inference_attack_against_hybrid-based_.md)
 - [\[CVPR 2026\] Cross-modal Representation Learning for Diffusion-generated Image Detection](cross-modal_representation_learning_for_diffusion-generated_image_detection.md)
 - [\[CVPR 2026\] SAIDO: 基于场景感知与重要性引导动态优化的可泛化 AI 生成图像检测](saido_generalizable_detection_of_ai-generated_images_via_scene-aware_and_importa.md)
-- [\[CVPR 2026\] AntiStyler: Defending Object Detection Models Against Adversarial Patch Attacks Using Style Removal](antistyler_defending_object_detection_models_against_adversarial_patch_attacks_u.md)
 
 </div>
 

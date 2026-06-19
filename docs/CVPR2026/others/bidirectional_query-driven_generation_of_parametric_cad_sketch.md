@@ -104,6 +104,7 @@ $$L_{seq}=-\sum_{i=1}^{T}\mathbb{1}[c_i\notin C_{par}]\log p_\theta(\hat{c}_i=c_
 部分→完整补全上 token/基元/草图三级精度、F1 全面领先、IR 最低；早期扩张上 COV/MMD/JSD/Unique 都更好且 IR 仅 0.21%，说明它既能可靠补全又能支持早期多样化构思。跨数据集（CAD as a Language）上 ACC_skt 14.1 vs 次优 7.96、IR 0.02，验证了分布偏移下的鲁棒性。补全结果还在 Onshape 里经拉伸/旋转生成了拓扑合法的实体。
 
 ### 消融实验
+
 | 配置 | ACC_skt | F1 | IR | 说明 |
 |------|---------|-----|-----|------|
 | Full Model | 45.6 | 59.2 | 0 | 完整模型 |
@@ -148,11 +149,11 @@ $$L_{seq}=-\sum_{i=1}^{T}\mathbb{1}[c_i\notin C_{par}]\log p_\theta(\hat{c}_i=c_
 
 ## 相关论文
 
-- [\[CVPR 2026\] CAD-Refiner: A Unified Framework for CAD Generation and Iterative Editing](cad-refiner_a_unified_framework_for_cad_generation_and_iterative_editing.md)
-- [\[CVPR 2026\] Bidirectional Normalizing Flow: From Data to Noise and Back](bidirectional_normalizing_flow_from_data_to_noise_and_back.md)
 - [\[CVPR 2026\] Convolutional Neural Networks Driven by Content Similarity](convolutional_neural_networks_driven_by_content_similarity.md)
-- [\[CVPR 2026\] A Unified Framework for Knowledge Transfer in Bidirectional Model Scaling](a_unified_framework_for_knowledge_transfer_in_bidirectional_model_scaling.md)
 - [\[CVPR 2026\] EXOTIC: External Vision-driven Incomplete Multi-view Classification](exotic_external_vision-driven_incomplete_multi-view_classification.md)
+- [\[ICCV 2025\] Stroke2Sketch: Harnessing Stroke Attributes for Training-Free Sketch Generation](../../ICCV2025/others/stroke2sketch_harnessing_stroke_attributes_for_training-free_sketch_generation.md)
+- [\[CVPR 2026\] Progressive Neural Architecture Generation](progressive_neural_architecture_generation.md)
+- [\[CVPR 2026\] Order Matters: 3D Shape Generation from Sequential VR Sketches](order_matters_3d_shape_generation_from_sequential_vr_sketches.md)
 
 </div>
 

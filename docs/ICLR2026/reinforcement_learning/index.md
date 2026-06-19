@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 强化学习论文汇总 · 126篇论文解读
+  ICLR2026 强化学习论文汇总 · 161篇论文解读
 description: >-
-  126篇ICLR2026的强化学习方向论文解读，涵盖强化学习、推理、对抗鲁棒、LLM、Agent、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  161篇ICLR2026的强化学习方向论文解读，涵盖强化学习、推理、对抗鲁棒、LLM、Agent、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "强化学习"
@@ -14,77 +14,85 @@ tags:
   - "Agent"
   - "多模态"
 item_list:
+  - u: "a_hierarchical_circuit_symbolic_discovery_framework_for_efficient_logic_optimiza/"
+    t: "A Hierarchical Circuit Symbolic Discovery Framework for Efficient Logic Optimization"
+  - u: "a_reward-free_viewpoint_on_multi-objective_reinforcement_learning/"
+    t: "A Reward-Free Viewpoint on Multi-Objective Reinforcement Learning"
   - u: "a_unifying_view_of_coverage_in_linear_off-policy_evaluation/"
     t: "A Unifying View of Coverage in Linear Off-Policy Evaluation"
   - u: "abstral_augmenting_llms_reasoning_by_reinforcing_abstract_thinking/"
     t: "AbstRaL: Augmenting LLMs' Reasoning by Reinforcing Abstract Thinking"
+  - u: "accelerating_diffusion_planners_in_offline_rl_via_reward-aware_consistency_traje/"
+    t: "Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation"
+  - u: "ada-diffuser_latent-aware_adaptive_diffusion_for_decision-making/"
+    t: "Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making"
+  - u: "adaptive_scaling_of_policy_constraints_for_offline_reinforcement_learning/"
+    t: "Adaptive Scaling of Policy Constraints for Offline Reinforcement Learning"
+  - u: "adm-v2_pursuing_full-horizon_roll-out_in_dynamics_models_for_offline_policy_lear/"
+    t: "ADM-v2: Pursuing Full-Horizon Roll-out in Dynamics Models for Offline Policy Learning and Evaluation"
+  - u: "agentic_reinforced_policy_optimization/"
+    t: "Agentic Reinforced Policy Optimization"
+  - u: "agentic_reinforcement_learning_with_implicit_step_rewards/"
+    t: "Agentic Reinforcement Learning with Implicit Step Rewards"
+  - u: "alphasage_structure-aware_alpha_mining_via_gflownets_for_robust_exploration/"
+    t: "AlphaSAGE: Structure-Aware Alpha Mining via GFlowNets for Robust Exploration"
   - u: "amped_adaptive_multi-objective_projection_for_balancing_exploration_and_skill_di/"
     t: "AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification"
+  - u: "an_improved_model-free_decision-estimation_coefficient_with_applications_in_adve/"
+    t: "An Improved Model-free Decision-estimation Coefficient with Applications in Adversarial MDPs"
   - u: "arm-fm_automated_reward_machines_via_foundation_models_for_compositional_reinfor/"
     t: "ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning"
+  - u: "atgen_adversarial_reinforcement_learning_for_test_case_generation/"
+    t: "ATGen: Adversarial Reinforcement Learning for Test Case Generation"
+  - u: "attention_as_a_compass_efficient_exploration_for_process-supervised_rl_in_reason/"
+    t: "Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models"
   - u: "autoqd_automatic_discovery_of_diverse_behaviors_with_quality-diversity_optimizat/"
     t: "AutoQD: Automatic Discovery of Diverse Behaviors with Quality-Diversity Optimization"
   - u: "autotool_automatic_scaling_of_tool-use_capabilities_in_rl_via_decoupled_entropy_/"
     t: "AutoTool: Automatic Scaling of Tool-Use Capabilities in RL via Decoupled Entropy Constraints"
   - u: "awm_accurate_weight-matrix_fingerprint_for_large_language_models/"
     t: "AWM: Accurate Weight-Matrix Fingerprint for Large Language Models"
+  - u: "balancing_the_experts_unlocking_lora-moe_for_grpo_via_mechanism-aware_rewards/"
+    t: "Balancing the Experts: Unlocking LoRA-MoE for GRPO via Mechanism-Aware Rewards"
   - u: "bayes_adaptive_monte_carlo_tree_search_for_offline_model-based_reinforcement_lea/"
     t: "BA-MCTS: Bayes Adaptive Monte Carlo Tree Search for Offline Model-based RL"
+  - u: "beyond_binary_rewards_training_lms_to_reason_about_their_uncertainty/"
+    t: "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty"
+  - u: "beyond_distributions_geometric_action_control_for_continuous_reinforcement_learn/"
+    t: "Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning"
+  - u: "beyond_magic_words_sharpness-aware_prompt_evolving_for_robust_large_language_mod/"
+    t: "Beyond Magic Words: Sharpness-Aware Prompt Evolving for Robust Large Language Models with TARE"
+  - u: "beyond_noisy-tvs_noise-robust_exploration_via_learning_progress_monitoring/"
+    t: "Beyond Noisy-TVs: Noise-Robust Exploration Via Learning Progress Monitoring"
+  - u: "beyond_pass_1_self-play_with_variational_problem_synthesis_sustains_rlvr/"
+    t: "Beyond Pass@1: Self-Play with Variational Problem Synthesis Sustains RLVR"
+  - u: "beyond_penalization_diffusion-based_out-of-distribution_detection_and_selective_/"
+    t: "Beyond Penalization: Diffusion-based Out-of-Distribution Detection and Selective Regularization in Offline Reinforcement Learning"
   - u: "boolean_satisfiability_via_imitation_learning/"
     t: "Boolean Satisfiability via Imitation Learning"
-  - u: "breaking_barriers_do_reinforcement_post_training_gains_transfer_to_unseen_domain/"
-    t: "Breaking Barriers: Do Reinforcement Post Training Gains Transfer To Unseen Domains?"
-  - u: "cadrille_multi-modal_cad_reconstruction_with_reinforcement_learning/"
-    t: "cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning"
-  - u: "chain-of-context_learning_dynamic_constraint_understanding_for_multi-task_vrps/"
-    t: "Chain-of-Context Learning: Dynamic Constraint Understanding for Multi-Task VRPs"
-  - u: "continuous-time_value_iteration_for_multi-agent_reinforcement_learning/"
-    t: "Continuous-Time Value Iteration for Multi-Agent Reinforcement Learning"
-  - u: "controllable_exploration_in_hybrid-policy_rlvr_for_multi-modal_reasoning/"
-    t: "Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning"
-  - u: "cuda-l1_improving_cuda_optimization_via_contrastive_reinforcement_learning/"
-    t: "CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning"
-  - u: "deep_spi_safe_policy_improvement_via_world_models/"
-    t: "Deep SPI: Safe Policy Improvement via World Models"
-  - u: "dive-k_differential_visual_reasoning_for_fine-grained_image_recognition/"
-    t: "DiVE-k: Differential Visual Reasoning for Fine-grained Image Recognition"
-  - u: "divide_harmonize_then_conquer_it_shooting_multi-commodity_flow_problems_with_mul/"
-    t: "Divide, Harmonize, Then Conquer It: Shooting Multi-Commodity Flow Problems with Multimodal Language Models"
-  - u: "dont_just_fine-tune_the_agent_tune_the_environment/"
-    t: "Don't Just Fine-tune the Agent, Tune the Environment"
-  - u: "dual-robust_cross-domain_offline_reinforcement_learning_against_dynamics_shifts/"
-    t: "Dual-Robust Cross-Domain Offline Reinforcement Learning Against Dynamics Shifts"
-  - u: "dual_goal_representations/"
-    t: "Dual Goal Representations"
-  - u: "dvla-rl_dual-level_vision-language_alignment_with_reinforcement_learning_gating_/"
-    t: "DVLA-RL: Dual-Level Vision-Language Alignment with Reinforcement Learning Gating for Few-Shot Learning"
-  - u: "echo_towards_advanced_audio_comprehension_via_audio-interleaved_reasoning/"
-    t: "Echo: Towards Advanced Audio Comprehension via Audio-Interleaved Reasoning"
-  - u: "efficient_estimation_of_kernel_surrogate_models_for_task_attribution/"
-    t: "Efficient Estimation of Kernel Surrogate Models for Task Attribution"
-  - u: "egg-sr_embedding_symbolic_equivalence_into_symbolic_regression_via_equality_grap/"
-    t: "EGG-SR: Embedding Symbolic Equivalence into Symbolic Regression via Equality Graph"
-  - u: "entropy-preserving_reinforcement_learning/"
-    t: "Entropy-Preserving Reinforcement Learning (REPO / ADAPO)"
-  - u: "exgrpo_learning_to_reason_from_experience/"
-    t: "ExGRPO: Learning to Reason from Experience"
-  - u: "exo-plore_exploring_exoskeleton_control_space_through_human-aligned_simulation/"
-    t: "Exo-Plore: Exploring Exoskeleton Control Space through Human-Aligned Simulation"
-  - u: "exploration_vs_exploitation_rethinking_rlvr_through_clipping_entropy_and_spuriou/"
-    t: "Exploration vs Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward"
-  - u: "fapo_flawed-aware_policy_optimization_for_efficient_and_reliable_reasoning/"
-    t: "FAPO: Flawed-Aware Policy Optimization for Efficient and Reliable Reasoning"
-item_total: 126
+  - u: "boosting_multi-domain_reasoning_of_llms_via_curvature-guided_policy_optimization/"
+    t: "Boosting Multi-Domain Reasoning of LLMs via Curvature-Guided Policy Optimization"
+  - u: "borearl_a_multi-objective_reinforcement_learning_environment_for_climate-adaptiv/"
+    t: "BoreaRL: A Multi-Objective Reinforcement Learning Environment for Climate-Adaptive Boreal Forest Management"
+item_total: 161
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🔬 ICLR2026** · **126** 篇论文解读
+**🔬 ICLR2026** · **161** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (30)](../../CVPR2026/reinforcement_learning/index.md) · [🧪 ICML2026 (95)](../../ICML2026/reinforcement_learning/index.md) · [💬 ACL2026 (44)](../../ACL2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (25)](../../CVPR2026/reinforcement_learning/index.md) · [🧪 ICML2026 (110)](../../ICML2026/reinforcement_learning/index.md) · [💬 ACL2026 (46)](../../ACL2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md)
 
-🔥 **高频主题：** 强化学习 ×38 · 推理 ×20 · 对抗鲁棒 ×13 · LLM ×12 · Agent ×10
+🔥 **高频主题：** 强化学习 ×48 · 推理 ×24 · 对抗鲁棒 ×18 · LLM ×15 · Agent ×10
+
+**[A Hierarchical Circuit Symbolic Discovery Framework for Efficient Logic Optimization](a_hierarchical_circuit_symbolic_discovery_framework_for_efficient_logic_optimiza.md)**
+
+:   HIS 用一棵「分层符号树」把 GNN 的逐层消息传递蒸馏成一个轻量、可解释的符号打分函数，并用结构感知 Transformer + 组优势 PPO 端到端地把这棵树「生成」出来，从而在芯片设计的逻辑优化（LO）里又快又准地识别无效变换——相比 SOTA 的 GNN 推理快约 296×，接入 Mfs2 启发式后平均运行时间降 27.22%、电路规模再减 6.95%。
+
+**[A Reward-Free Viewpoint on Multi-Objective Reinforcement Learning](a_reward-free_viewpoint_on_multi-objective_reinforcement_learning.md)**
+
+:   本文首次把无奖励强化学习（RFRL）的 Forward-Backward 框架搬到多目标强化学习（MORL）上，提出 MORL-FB：用偏好引导的探索构造与 MORL 任务真正相关的潜向量 $z$，再配一个辅助 Q 损失，让一个偏好条件策略在 MO-Gymnasium 上以更高样本效率显著超过 PD-MORL、Q-Pensieve 等 SOTA。
 
 **[A Unifying View of Coverage in Linear Off-Policy Evaluation](a_unifying_view_of_coverage_in_linear_off-policy_evaluation.md)**
 
@@ -94,13 +102,53 @@ item_total: 126
 
 :   提出 AbstRaL，通过强化学习教 LLM 学习推理问题的数学抽象（将具体数字/名称替换为符号变量、提取通用公式），然后用符号求解器推导答案，在 GSM 扰动 benchmark 上几乎完全消除了分布偏移导致的性能下降，并在 OOD 数学/通用推理任务上也有隐式提升。
 
+**[Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation](accelerating_diffusion_planners_in_offline_rl_via_reward-aware_consistency_traje.md)**
+
+:   RACTD 把奖励优化目标直接塞进一致性轨迹蒸馏过程，用一个预训练的扩散教师规划器 + 一个独立训练的无噪声奖励模型，蒸馏出一个**单步采样**的学生规划器；它在 D4RL 上比之前 SOTA 平均高 9.7%，同时推理比扩散教师快多达 142 倍。
+
+**[Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making](ada-diffuser_latent-aware_adaptive_diffusion_for_decision-making.md)**
+
+:   Ada-Diffuser 把"随时间演化的隐藏上下文（风、目标、技能）"显式塞进扩散式决策模型：先用理论证明只需 4 个相邻观测的小时间块就能辨识潜变量，再用一个"去噪—精修"机制 + zig-zag 采样让扩散模型在线推断潜变量并据此规划/控制，在 8 个环境 23 种设定上稳定超过现有扩散规划器与潜上下文 baseline。
+
+**[Adaptive Scaling of Policy Constraints for Offline Reinforcement Learning](adaptive_scaling_of_policy_constraints_for_offline_reinforcement_learning.md)**
+
+:   针对离线 RL 里"策略约束强度（RL 与行为克隆的配比）必须逐数据集手调"的痛点，本文提出 ASPC：把 TD3+BC 里的缩放因子 $\alpha$ 变成可学习参数，用二阶可微的双层优化在训练中动态调它，靠约束 Q 值变化率和 BC 损失变化率来稳定更新；在 D4RL 39 个数据集上**只用一套超参**就超过了需要逐数据集网格搜索的 SOTA，相对基线平均提升 35%。
+
+**[ADM-v2: Pursuing Full-Horizon Roll-out in Dynamics Models for Offline Policy Learning and Evaluation](adm-v2_pursuing_full-horizon_roll-out_in_dynamics_models_for_offline_policy_lear.md)**
+
+:   ADM-v2 把"任意步动力学模型"的起始状态从 GRU 循环中结构性解耦，配合并行任意步 roll-out 算法 PARoll，让动力学模型能可靠地跑完整条轨迹（full-horizon roll-out），从而在离线策略评估和离线策略优化上同时刷到 D4RL / NeoRL 的 SOTA。
+
+**[Agentic Reinforced Policy Optimization](agentic_reinforced_policy_optimization.md)**
+
+:   ARPO 是一种为多轮工具调用智能体量身定制的强化学习算法：它发现 LLM 在每次工具返回结果后 token 熵会骤升，于是在这些高熵步上自适应地"分叉"采样、再用优势归因把分叉路径的好坏差异传回去学习，结果在 13 个推理/深搜基准上全面超过轨迹级 RL，且只用一半的工具调用预算。
+
+**[Agentic Reinforcement Learning with Implicit Step Rewards](agentic_reinforcement_learning_with_implicit_step_rewards.md)**
+
+:   本文提出 iStar，一种面向 LLM 智能体多轮强化学习的通用信用分配策略：用一个**隐式过程奖励模型（PRM）**和策略模型交替优化，通过多轮 DPO 目标在线学出每一步动作的稠密奖励，再把步骤级优势和 episode 级优势相加去更新策略，在 WebShop、VisualSokoban 和开放式社交 SOTOPIA 上都拿到 SOTA，且样本效率与训练稳定性都更好。
+
+**[AlphaSAGE: Structure-Aware Alpha Mining via GFlowNets for Robust Exploration](alphasage_structure-aware_alpha_mining_via_gflownets_for_robust_exploration.md)**
+
+:   AlphaSAGE 把量化选股中的公式化 alpha 挖掘从"最大化期望回报的强化学习"改写成"按奖励正比采样的生成流网络（GFlowNets）"，再配上 RGCN 结构编码器和稠密多面奖励，从而一次性挖出一批既预测力强、又彼此低相关、还结构新颖的 alpha 组合，在中美股市多个股票池上全面超过现有 RL/GA/LLM baseline。
+
 **[AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification](amped_adaptive_multi-objective_projection_for_balancing_exploration_and_skill_di.md)**
 
 :   提出AMPED框架，在技能预训练阶段用梯度手术（PCGrad）平衡探索（熵+RND）和技能多样性（AnInfoNCE）之间的梯度冲突，在微调阶段用SAC-based技能选择器自适应选择最优技能，在Maze和URLB基准上超越DIAYN/CeSD/CIC等SBRL基线。
 
+**[An Improved Model-free Decision-estimation Coefficient with Applications in Adversarial MDPs](an_improved_model-free_decision-estimation_coefficient_with_applications_in_adve.md)**
+
+:   本文提出 Dig-DEC——一种"无需乐观主义、纯靠信息增益驱动探索"的无模型决策估计系数，它恒不大于已有的乐观 DEC，并因此能首次处理"随机转移 + 对抗奖励"的混合 MDP 在 bandit 反馈下的无模型学习，同时把在线函数估计的遗憾率从 $T^{3/4}/T^{5/6}/T^{2/3}$ 一路收紧到 $T^{2/3}/T^{7/9}/\sqrt{T}$。
+
 **[ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning](arm-fm_automated_reward_machines_via_foundation_models_for_compositional_reinfor.md)**
 
 :   提出ARM-FM框架，利用基础模型（GPT-4o等）从自然语言任务描述自动生成语言对齐奖励机器（LARM）——包括自动机结构、可执行标签函数和每个状态的自然语言描述——为RL agent提供组合式密集奖励信号，在MiniGrid/Craftium(3D Minecraft)/Meta-World等环境中解决标准RL完全无法学习的稀疏奖励长程任务，并实现零样本任务泛化。
+
+**[ATGen: Adversarial Reinforcement Learning for Test Case Generation](atgen_adversarial_reinforcement_learning_for_test_case_generation.md)**
+
+:   ATGen 把一个"测试用例生成器"和一个"对抗代码生成器"放进一个互相博弈的强化学习循环里——生成器越强，对手就被逼着造出越隐蔽的 bug，这种自动加难的动态课程打破了静态数据集的"固定难度天花板"，让 7B 模型的攻击成功率比 SFT 方法 UTGen 翻倍（36.99% vs 16.24%）。
+
+**[Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models](attention_as_a_compass_efficient_exploration_for_process-supervised_rl_in_reason.md)**
+
+:   AttnRL 用模型自身的注意力分数当"指南针"，在推理过程中最关键的步骤上做树分支（而不是按固定长度或熵切分），再配合按题目难度自适应的采样和一步式 off-policy 训练流水线，让过程监督 RL（PSRL）在数学推理上既涨点又省算力——1.5B 上平均提升 7.5%，墙钟时间还比 TreeRL 更短。
 
 **[AutoQD: Automatic Discovery of Diverse Behaviors with Quality-Diversity Optimization](autoqd_automatic_discovery_of_diverse_behaviors_with_quality-diversity_optimizat.md)**
 
@@ -114,25 +162,89 @@ item_total: 126
 
 :   提出 AWM，一种无需训练的 LLM 权重矩阵指纹方法，利用线性分配问题（LAP）恢复嵌入层的置换和符号翻转，再用无偏 CKA 消除 Q/K 矩阵的正交变换影响，在 150 对 LLM 上实现完美 AUC（1.0），对 SFT、持续预训练（5.5T token）、RL、多模态扩展、剪枝、upcycling 六类后训练均鲁棒，30 秒内完成。
 
+**[Balancing the Experts: Unlocking LoRA-MoE for GRPO via Mechanism-Aware Rewards](balancing_the_experts_unlocking_lora-moe_for_grpo_via_mechanism-aware_rewards.md)**
+
+:   针对 LoRA-MoE 用 GRPO 做强化微调时路由坍缩、专家利用率低的问题，本文提出 RO-GRPO：把训练中采集到的内部路由统计量（熵 + 负载方差）转换成一个标量奖励，直接拼进 GRPO 的总奖励里，无需辅助损失、不改架构、不加训练阶段，就让模型在提升数学推理精度的同时把专家路由调得更均衡更自信。
+
 **[BA-MCTS: Bayes Adaptive Monte Carlo Tree Search for Offline Model-based RL](bayes_adaptive_monte_carlo_tree_search_for_offline_model-based_reinforcement_lea.md)**
 
 :   首次将贝叶斯自适应 MDP（BAMDP）引入离线模型基 RL，提出 Continuous BAMCP 解决连续状态/动作空间的贝叶斯规划，结合悲观奖励惩罚和搜索基策略迭代（"RL + Search"范式），在 D4RL 12 个任务上显著超越 19 个基线（Cohen's $d > 1.8$），并成功应用于核聚变 tokamak 控制。
+
+**[Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty](beyond_binary_rewards_training_lms_to_reason_about_their_uncertainty.md)**
+
+:   这篇论文提出 RLCR（Reinforcement Learning with Calibration Rewards），在标准的"二元正确性奖励"上叠加一个 Brier 分数项，让推理模型在给出答案的同时输出一个**校准过的置信度**，在几乎不损失准确率的前提下把期望校准误差从 0.37 降到 0.03（HotpotQA），并在分布外任务上反转了普通 RL"越训越自信、越训越乱"的退化趋势。
+
+**[Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning](beyond_distributions_geometric_action_control_for_continuous_reinforcement_learn.md)**
+
+:   针对高斯策略在有界动作空间里"无界支撑 + tanh 压扁"带来的几何失真，本文提出 GAC（几何动作控制）——把动作生成拆成"单位球面上的方向向量 + 一个可学习的浓度标量"，用球面插值代替概率采样，参数量从 $2d$ 降到 $d+1$、采样复杂度从 $O(dk)$ 降到 $O(d)$，在 6 个 MuJoCo 与 6 个 DMControl 任务上整体追平或超过 SAC（Ant-v4 +37.6%、quadruped-run +112%）。
+
+**[Beyond Magic Words: Sharpness-Aware Prompt Evolving for Robust Large Language Models with TARE](beyond_magic_words_sharpness-aware_prompt_evolving_for_robust_large_language_mod.md)**
+
+:   把图像/权重空间里的"锐度感知最小化（SAM）"搬到离散的文本提示空间，提出 TARE/ATARE：用"内层找最坏 paraphrase、外层选邻域最稳"的无梯度进化框架，让优化出来的 prompt 在同义改写下不掉点，在 4 个推理基准、5 种被测模型上稳定超过 TextGrad / Revolve。
+
+**[Beyond Noisy-TVs: Noise-Robust Exploration Via Learning Progress Monitoring](beyond_noisy-tvs_noise-robust_exploration_via_learning_progress_monitoring.md)**
+
+:   针对内在动机探索里经典的"噪声电视"陷阱，本文提出 **Learning Progress Monitoring (LPM)**：用"模型这一轮比上一轮进步了多少"当内在奖励，而不是用预测误差或新颖度——因为不可学习的随机转移不会带来任何进步，所以天然不会被噪声吸住；在 MNIST、3D 迷宫、Atari 上都比 SOTA 收敛更快、覆盖更多状态、外在回报更高。
+
+**[Beyond Pass@1: Self-Play with Variational Problem Synthesis Sustains RLVR](beyond_pass_1_self-play_with_variational_problem_synthesis_sustains_rlvr.md)**
+
+:   针对标准 RLVR 训练熵塌缩、Pass@k 停滞的问题，本文提出 **SVS（Self-play with Variational problem Synthesis）**：让策略模型用自己对难题的正确解去"反向"合成一批答案不变的变体新题、再去解这些新题，在线扩充训练数据从而维持策略熵，在 AIME24/25 上把 Pass@32 绝对提升 18.3% / 22.8%。
+
+**[Beyond Penalization: Diffusion-based Out-of-Distribution Detection and Selective Regularization in Offline Reinforcement Learning](beyond_penalization_diffusion-based_out-of-distribution_detection_and_selective_.md)**
+
+:   DOSER 用两个扩散模型分别建模行为策略与状态分布，以单步去噪重建误差作为可靠的 OOD（分布外）指标，再借动力学模型把 OOD 动作细分为"有益"与"有害"两类，对前者给奖励、对后者才惩罚，从而在离线 RL 中既压住价值高估又不扼杀有潜力的探索，在 D4RL 上尤其在次优数据集上刷出领先成绩。
 
 **[Boolean Satisfiability via Imitation Learning](boolean_satisfiability_via_imitation_learning.md)**
 
 :   提出 ImitSAT，首个基于模仿学习的 CDCL 求解器分支策略：通过将求解器运行压缩为无冲突的 KeyTrace 专家序列，将分支决策建模为前缀条件的自回归预测任务，以少量查询预算显著减少传播次数和求解时间，并在结构化 SAT 问题上展现良好泛化能力。
 
+**[Boosting Multi-Domain Reasoning of LLMs via Curvature-Guided Policy Optimization](boosting_multi-domain_reasoning_of_llms_via_curvature-guided_policy_optimization.md)**
+
+:   针对多领域 RL 训练 LLM 时「学好数学就学坏写作」的跨域冲突问题，CGPO 借鉴牛顿法「用曲率给梯度做预条件」的思想，但不显式算 Hessian，而是把一个 batch 拆成各领域子 batch、**按随机顺序逐域串行更新**——后更新的域天然感受到先更新域留下的曲率扰动，从而在期望上等价于最大化各域梯度内积、隐式对齐跨域梯度；在 Qwen2.5-3B/7B、四领域七基准上平均分稳超联合训练与梯度均衡基线（7B 59.59 vs 联合 56.62），且几乎零额外开销。
+
+**[BoreaRL: A Multi-Objective Reinforcement Learning Environment for Climate-Adaptive Boreal Forest Management](borearl_a_multi-objective_reinforcement_learning_environment_for_climate-adaptiv.md)**
+
+:   BoreaRL 是首个面向气候自适应北方森林管理的多目标强化学习环境，用一个耦合能量-碳-水通量的物理仿真器，把"多固碳 vs 保永冻土"这对矛盾目标交给 MORL 智能体优化，结果发现两个目标的学习难度严重不对称——碳目标好学、永冻土目标几乎学不动，而最朴素的"挑站点"课程策略反而打败了标准的偏好条件化方法。
+
+**[BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models](branchgrpo_stable_and_efficient_grpo_with_structured_branching_in_diffusion_mode.md)**
+
+:   BranchGRPO 把扩散/流模型上 GRPO 的"逐条独立采样"改造成一棵共享前缀的分支树，靠树结构同时解决两件事——分支复用前缀摊薄采样开销、叶子奖励反向融合成按深度归一的稠密步级优势——再叠加宽/深剪枝只对有价值子集回传梯度，在 HPSv2.1 图像对齐上比 DanceGRPO 提升最高 16%、单轮训练时间降近 55%，混合变体可达 4.7× 加速。
+
 **[Breaking Barriers: Do Reinforcement Post Training Gains Transfer To Unseen Domains?](breaking_barriers_do_reinforcement_post_training_gains_transfer_to_unseen_domain.md)**
 
 :   通过观察性研究（18 个开源 RPT 模型）和干预性研究（单域 GRPO 训练），系统揭示了强化后训练（RPT/RLVR）的泛化局限：RPT 在训练域内提升显著，但跨域泛化不一致——结构化域（数学↔代码）可互相迁移，但无法泛化到非结构化域（法律/金融/医疗），且这一结论跨算法、模型规模和训练步数保持一致。
+
+**[Breaking Safety Paradox with Feasible Dual Policy Iteration](breaking_safety_paradox_with_feasible_dual_policy_iteration.md)**
+
+:   本文发现安全 RL 里一个反直觉的"安全悖论"——策略越安全、违约样本越稀疏，可行性函数估计反而越差，最终拖垮安全性；并提出 FDPI 用一个专门"故意违约"的对偶策略往回灌违约样本、配合重要性采样和 KL 约束，在 Safety-Gymnasium 上同时拿到最低违约和近乎最高回报。
+
+**[Bridging Successor Measure and Online Policy Learning with Flow Matching-Based Representations](bridging_successor_measure_and_online_policy_learning_with_flow_matching-based_r.md)**
+
+:   本文提出 Successor Flow Features（SF2），用流匹配生成模型逼近后继测度（Successor Measure, SM），并把向量场强制分解成「时不变的状态-动作嵌入 $\psi(s,a)$ + 时变投影 $\zeta(s',k)$」的线性结构，从而把 SM 估计和在线策略优化打通——在 DeepMind Control 七个连续控制任务上嵌入 TD3/SAC 后，样本效率和训练稳定性都优于强后继特征基线。
+
+**[Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning](buffer_matters_unleashing_the_power_of_off-policy_reinforcement_learning_in_larg.md)**
+
+:   针对在线（on-policy）RLVR 训练中"难样本学不动、采样数据用一次就扔"两大浪费，本文提出离策略框架 **BAPO（Batch Adaptation Policy Optimization）**，用一个"难度感知的经验回放 + 自适应批构造"机制把历史难题和历史高质量轨迹重新拉回训练批次，并在理论上证明改造后的批次仍满足策略改进下界，最终在数学、规划、视觉几何三类推理任务上平均比 GRPO 提升 12.5%，还把基座模型一直做不对的 40.7% 难题给解决了。
 
 **[cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning](cadrille_multi-modal_cad_reconstruction_with_reinforcement_learning.md)**
 
 :   cadrille 是首个同时处理点云、多视角图像和文本输入的多模态 CAD 重建模型，通过 VLM 基础架构 + SFT + RL 微调的三阶段训练范式，在 10 个 CAD 重建基准上达到 SOTA，尤其是 RL 微调将无效率降至接近 0%。
 
+**[CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning](care-bn_precise_moving_statistics_for_stabilizing_spiking_neural_networks_in_rei.md)**
+
+:   针对脉冲神经网络（SNN）在在线 RL 中因 BN 移动统计量估计不准而训练不稳的问题，本文提出 CaRe-BN：用「置信度自适应更新」（Kalman 式加权）实时低方差地估计 BN 统计量，再用「周期性重校准」（从 replay buffer 重采样大批量）纠偏，使 SNN 智能体在 Atari/MuJoCo 上性能提升最高 22.6%，甚至反超对应 ANN 5.9%，且推理零额外开销。
+
 **[Chain-of-Context Learning: Dynamic Constraint Understanding for Multi-Task VRPs](chain-of-context_learning_dynamic_constraint_understanding_for_multi-task_vrps.md)**
 
 :   提出 Chain-of-Context Learning (CCL)，通过 Relevance-Guided Context Reformulation（RGCR，自适应聚合约束信息构建上下文）和 Trajectory-Shared Node Re-embedding（TSNR，跨轨迹共享节点更新避免冗余计算）实现逐步动态的约束感知解码，在 48 种 VRP 变体（16 分布内 + 32 分布外）上全面超越现有方法。
+
+**[Chessformer: A Unified Architecture for Chess Modeling](chessformer_a_unified_architecture_for_chess_modeling.md)**
+
+:   把棋盘 64 个格子当作 token、再给自注意力加一套随局面动态生成的"几何注意力偏置"(GAB)，Chessformer 用一套统一架构同时把"引擎棋力""人类走子预测""可解释性"三个长期割裂的目标推到 SOTA——79M 参数的 MAIA-3 以不到对手四分之一的体量把人类走子匹配率提到 57.1%，而装进 Leela Chess Zero 的版本涨了 100+ Elo 并在多个顶级机器对弈赛上击败 Stockfish。
+
+**[Contextual Similarity Distillation: Ensemble Uncertainties with a Single Model](contextual_similarity_distillation_ensemble_uncertainties_with_a_single_model.md)**
+
+:   用单个模型、单次前向就估计出"无穷大随机初始化集成"的预测方差——把集成方差重新表述成一个带核相似度标签的监督回归问题，从而无需真的训练集成、也无需求逆 Gram 矩阵，就能给出和深度集成相当甚至更好的不确定性，并在 OOD 检测和稀疏奖励 RL 探索上验证。
 
 **[Continuous-Time Value Iteration for Multi-Agent Reinforcement Learning](continuous-time_value_iteration_for_multi-agent_reinforcement_learning.md)**
 
@@ -141,6 +253,10 @@ item_total: 126
 **[Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning](controllable_exploration_in_hybrid-policy_rlvr_for_multi-modal_reasoning.md)**
 
 :   CalibRL 将专家数据重新定义为分布校准基线（而非严格模仿目标），通过 LeakyReLU 不对称激活 + 优势加权实现对 MLLM 推理训练中探索-利用平衡的精细控制，解决 RLVR 中的熵崩溃问题，在几何推理等任务上大幅超越 GRPO/DAPO。
+
+**[Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards](count_counts_motivating_exploration_in_llm_reasoning_with_count-based_intrinsic_.md)**
+
+:   针对 GRPO/DAPO 这类无价值函数 RL 在 LLM 推理上"探索不足、过早收敛到重复套路"的问题，MERCI 利用 LLM 生成过程"转移已知且确定"这一性质把不确定性贝尔曼方程化简成只需估计局部奖励方差，再用一个轻量"抛硬币网络"（CFN）估计状态新颖度并转成内在奖励，让策略探索更多样、更连贯的推理路径，在数学和 SQL 基准上稳定超过强基线。
 
 **[CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning](cuda-l1_improving_cuda_optimization_via_contrastive_reinforcement_learning.md)**
 
@@ -185,6 +301,18 @@ item_total: 126
 **[EGG-SR: Embedding Symbolic Equivalence into Symbolic Regression via Equality Graph](egg-sr_embedding_symbolic_equivalence_into_symbolic_regression_via_equality_grap.md)**
 
 :   提出 Egg-SR 统一框架，通过等价图（e-graph）将符号等价性嵌入 MCTS、DRL 和 LLM 三类符号回归方法中，分别实现子树剪枝、梯度方差降低和反馈提示增强。理论证明 Egg-MCTS 收紧遗憾界、Egg-DRL 降低梯度估计方差，实验验证一致提升表达式发现精度。
+
+**[ELMUR: External Layer Memory with Update/Rewrite for Long-Horizon RL Problems](elmur_external_layer_memory_with_updaterewrite_for_long-horizon_rl_problems.md)**
+
+:   ELMUR 给 Transformer 的**每一层**都挂上一块结构化外部记忆，通过双向 cross-attention 读写、再用 LRU 规则（替换 / 凸混合）维护有界但持久的记忆，把有效记忆horizon 拉到注意力窗口的 10 万倍，在百万步 T-Maze 上拿到 100% 成功率，并在稀疏奖励的视觉机器人操作上把强基线的成功率几乎翻倍。
+
+**[EMFuse: Energy-based Model Fusion for Decision Making](emfuse_energy-based_model_fusion_for_decision_making.md)**
+
+:   EMFuse 把"直接策略融合"和"动力学模型融合"两件看似不同的事，统一到能量基模型（EBM）这一套语言下——能量相加等价于分布相乘（专家乘积 PoE），由此既能在推理时免训练地融合多个 LLM 专家，又能用一个新架构 ADETM 避开融合动力学集成时的指数级爆炸，在离散决策基准上涨 0.34%–6.63%、在 D4RL 连续控制上平均多拿 2.3–7.4 个归一化分。
+
+**[Enough is as good as a feast: A Comprehensive Analysis of How Reinforcement Learning Mitigates Task Conflicts in LLMs](enough_is_as_good_as_a_feast_a_comprehensive_analysis_of_how_reinforcement_learn.md)**
+
+:   这篇论文系统地比较了 SFT 和 RL 两种后训练范式对「模型融合（model merging）」的影响，发现 RL 训练出的模型在被融合后性能掉得远比 SFT 少，并从 on-policy 数据、RL 优化目标的自适应衰减、正负样本联合优化三个角度给出了实证与理论解释。
 
 **[Entropy-Preserving Reinforcement Learning (REPO / ADAPO)](entropy-preserving_reinforcement_learning.md)**
 
@@ -290,6 +418,10 @@ item_total: 126
 
 :   MARS-Sep 将查询条件声音分离重新建模为强化学习问题，通过分解 Beta 掩码策略在时频域上进行随机决策，并利用渐进式对齐的多模态编码器提供语义奖励信号，在信号保真度和语义一致性上同时取得提升。
 
+**[Masked Skill Token Training for Hierarchical Off-Dynamics Transfer](masked_skill_token_training_for_hierarchical_off-dynamics_transfer.md)**
+
+:   MSTT 把"环境结构变化导致某些技能不可执行"抽象成一张二值技能掩码，用 VQ-VAE 把轨迹切成离散技能 token、用随机掩码模拟动力学漂移训出一个"可行性感知"的 critic，再配合扩散轨迹生成器做可行性过滤，从而仅凭目标环境里**一条只有观测、没有动作标签**的演示，就能零样本迁移到结构被改变的新环境。
+
 **[Menlo: From Preferences to Proficiency – Evaluating and Modeling Native-like Quality Across 47 Languages](menlo_from_preferences_to_proficiency_--_evaluating_and_modeling_native-like_qua.md)**
 
 :   提出 Menlo 框架，基于受众设计理论将母语级响应质量分解为四个维度，构建了覆盖 47 种语言变体的 6423 条标注偏好对数据集，并发现配对评估+RL 训练的 LLM 裁判可达到接近人类标注员的水平。
@@ -389,6 +521,10 @@ item_total: 126
 **[RebuttalAgent: Strategic Persuasion in Academic Rebuttal via Theory of Mind](rebuttalagent_strategic_persuasion_in_academic_rebuttal_via_theory_of_mind.md)**
 
 :   首次将心智理论（ToM）引入学术 rebuttal，提出 ToM-Strategy-Response 三阶段框架：先建模审稿人心理状态，再制定说服策略，最后生成证据支撑的回复，结合自奖励 RL 训练和专用 Rebuttal-RM 评估器，平均指标超越基座模型 18.3%。
+
+**[Recurrent Action Transformer with Memory](recurrent_action_transformer_with_memory.md)**
+
+:   RATE（带记忆的循环动作 Transformer）把轨迹切成定长段、用一组可学习的记忆嵌入在段间循环传递历史信息，并新增一个基于交叉注意力的「记忆保留阀」(MRV) 来控制每次更新该保留还是覆写哪些记忆，从而在 ViZDoom、T-Maze、Memory Maze、POPGym 等记忆密集型离线 RL 任务上大幅超越 Decision Transformer，同时在 Atari/MuJoCo 标准任务上保持竞争力。
 
 **[References Improve LLM Alignment in Non-Verifiable Domains](references_improve_llm_alignment_in_non-verifiable_domains.md)**
 
@@ -517,6 +653,10 @@ item_total: 126
 **[SUSD: Structured Unsupervised Skill Discovery through State Factorization](susd_structured_unsupervised_skill_discovery_through_state_factorization.md)**
 
 :   提出 SUSD（Structured Unsupervised Skill Discovery），通过将状态空间分解为独立因子并为每个因子分配专属技能变量，结合好奇心驱动的因子加权机制，实现在多物体/多智能体复杂环境中发现覆盖全部可控因子的多样化技能。
+
+**[Task Tokens: A Flexible Approach to Adapting Behavior Foundation Models](task_tokens_a_flexible_approach_to_adapting_behavior_foundation_models.md)**
+
+:   针对"目标条件型行为基础模型"（GC-BFM，如 MaskedMimic）调下游任务时要么靠繁琐的 prompt 工程、要么全量微调会损坏先验的困境，本文提出 **Task Tokens**：冻结整个 BFM，只用强化学习训练一个轻量"任务编码器"，让它产出一个塞进 transformer token 序列的可学习 token，从而把 BFM 适配到新任务上——每个任务只需约 200K 可训练参数（比基线少 ×125）、收敛快 ×6，且在改变重力/摩擦的 OOD 场景下比全量微调更鲁棒、动作更像人。
 
 **[The Sample Complexity of Online Reinforcement Learning: A Multi-Model Perspective](the_sample_complexity_of_online_reinforcement_learning_a_multi-model_perspective.md)**
 

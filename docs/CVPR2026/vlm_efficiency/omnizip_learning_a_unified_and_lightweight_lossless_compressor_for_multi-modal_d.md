@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OmniZip: Learning a Unified and Lightweight Lossless Compressor for Multi-Modal Data
 description: >-
-  [CVPR 2026][多模态VLM][无损压缩] OmniZip 用一个仅几 M~百 M 参数的 RWKV 骨干，配上"模态统一分词 + 模态路由 MoE"，做到一个模型无损压缩图像/文本/语音/触觉/基因/数据库七种模态，比 gzip 高 42%~62% 压缩率，还能在 MacBook CPU、iPhone NPU 上跑到约 1MB/s 的近实时速度。
+  [CVPR 2026][VLM Efficiency][无损压缩] OmniZip 用一个仅几 M~百 M 参数的 RWKV 骨干，配上"模态统一分词 + 模态路由 MoE"，做到一个模型无损压缩图像/文本/语音/触觉/基因/数据库七种模态，比 gzip 高 42%~62% 压缩率，还能在 MacBook CPU、iPhone NPU 上跑到约 1MB/s 的近实时速度。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "无损压缩"
   - "多模态"
   - "RWKV"
@@ -152,11 +152,11 @@ RWKV 每块的前馈 MLP 负责增强非线性表达，但通用 MLP 抓不住�
 
 ## 相关论文
 
-- [\[ICLR 2026\] Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional](../../ICLR2026/multimodal_vlm/multi-modal_data_spectrum_multi-modal_datasets_are_multi-dimensional.md)
-- [\[CVPR 2026\] Multi-Modal Image Fusion via Intervention-Stable Feature Learning](multi-modal_image_fusion_via_intervention-stable_feature_learning.md)
-- [\[CVPR 2026\] CRIT: Graph-Based Automatic Data Synthesis to Enhance Cross-Modal Multi-Hop Reasoning](crit_graph-based_automatic_data_synthesis_to_enhance_cross-modal_multi-hop_reaso.md)
+- [\[CVPR 2026\] MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data and Training Recipes](minicpm-v_45_cooking_efficient_mllms_via_architecture_data_and_training_recipe.md)
 - [\[CVPR 2026\] MM-SeR: Multimodal Self-Refinement for Lightweight Image Captioning](mm-ser_multimodal_self-refinement_for_lightweight_image_captioning.md)
-- [\[CVPR 2026\] Socratic-Geo: Synthetic Data Generation and Cross-Modal Geometric Reasoning via Multi-Agent Interaction](socratic-geo_synthetic_data_generation_and_cross-modal_geometric_reasoning_via_m.md)
+- [\[CVPR 2026\] Adapting Lightweight Image-based Counting Models for Video Crowd Counting](adapting_lightweight_image-based_counting_models_for_video_crowd_counting.md)
+- [\[CVPR 2026\] UniCompress: Token Compression for Unified Vision-Language Understanding and Generation](unicompress_token_compression_for_unified_vision-language_understanding_and_gene.md)
+- [\[CVPR 2026\] OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models](omnizip_audio-guided_dynamic_token_compression_for_fast_omnimodal_large_language.md)
 
 </div>
 

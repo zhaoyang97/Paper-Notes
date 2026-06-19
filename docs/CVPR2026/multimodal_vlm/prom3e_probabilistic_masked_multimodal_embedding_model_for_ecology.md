@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ProM3E: Probabilistic Masked MultiModal Embedding Model for Ecology
 description: >-
-  [CVPR 2026][信息检索/RAG][任意到任意生成] ProM3E 用一个"先对齐再融合"的两阶段框架，在嵌入空间里训练一个掩码变分自编码器（MVAE），从少量可见模态推断缺失模态的高斯分布表示，从而支持任意到任意的模态生成、模态反演检索，以及"该融合哪些模态"的不确定性分析，在生态学多模态任务上全面超越 TaxaBind。
+  [CVPR 2026][多模态VLM][任意到任意生成] ProM3E 用一个"先对齐再融合"的两阶段框架，在嵌入空间里训练一个掩码变分自编码器（MVAE），从少量可见模态推断缺失模态的高斯分布表示，从而支持任意到任意的模态生成、模态反演检索，以及"该融合哪些模态"的不确定性分析，在生态学多模态任务上全面超越 TaxaBind。
 tags:
   - "CVPR 2026"
-  - "信息检索/RAG"
+  - "多模态VLM"
   - "任意到任意生成"
   - "掩码模态重建"
   - "概率嵌入"
@@ -135,10 +135,10 @@ $$L_{recon}(m_i) = \frac{1}{N}\sum_{j=1}^{N} \frac{e^{[\alpha \cdot d_i^G(j,j)+\
 ## 相关论文
 
 - [\[CVPR 2026\] MuCo: Multi-turn Contrastive Learning for Multimodal Embedding Model](muco_multi-turn_contrastive_learning_for_multimodal_embedding_model.md)
+- [\[CVPR 2026\] M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG](m4-rag_a_massive-scale_multilingual_multi-cultural_multimodal_rag.md)
 - [\[CVPR 2026\] Mask to Align, Weight to Disambiguate: Reliable Unsupervised Cross-Modal Hashing with Masked-Weight Contrast](mask_to_align_weight_to_disambiguate_reliable_unsupervised_cross-modal_hashing_w.md)
 - [\[ACL 2026\] FLARE: Task-Agnostic Embedding Model Evaluation via Normalizing Flows](../../ACL2026/information_retrieval/flare_task-agnostic_embedding_model_evaluation_through_a_normalization_process.md)
 - [\[ICLR 2026\] HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks](../../ICLR2026/information_retrieval/hume_measuring_the_human-model_performance_gap_in_text_embedding_tasks.md)
-- [\[CVPR 2026\] Beyond Global Similarity: Towards Fine-Grained, Multi-Condition Multimodal Retrieval](beyond_global_similarity_towards_fine-grained_multi-condition_multimodal_retriev.md)
 
 </div>
 

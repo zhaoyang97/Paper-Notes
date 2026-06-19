@@ -107,6 +107,7 @@ DINOv3 强在细纹理、弱在粗结构，AdaTA 就用控制器给的粒度参�
 在手术视频的阶段识别和器械识别上，Recall 较 CLIP/DINOv3 分别 +30.77/+12.82，说明自适应粒度在需要分辨细节的专科场景里也能保住判别力。
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | 语义 token 粒度（簇数） | A-OKVQA 粗配置(5 簇)≈+20%，50 簇仅 +0.50%；Reasoning 反而越细越好(~35%→~45%) | 最优粒度任务相关：全局理解要粗、细推理要细 |
@@ -150,10 +151,10 @@ DINOv3 强在细纹理、弱在粗结构，AdaTA 就用控制器给的粒度参�
 ## 相关论文
 
 - [\[CVPR 2026\] Boosting Visual Reprogramming for CLIP with Dual Granularity Alignment](boosting_visual_reprogramming_for_clip_with_dual_granularity_alignment.md)
-- [\[CVPR 2026\] TerraScope: Pixel-Grounded Visual Reasoning for Earth Observation](terrascope_pixel-grounded_visual_reasoning_for_earth_observation.md)
+- [\[CVPR 2026\] TRANSPORTER: Transferring Visual Semantics from VLM Manifolds](transporter_transferring_visual_semantics_from_vlm_manifolds.md)
 - [\[ACL 2025\] AVG-LLaVA: An Efficient Large Multimodal Model with Adaptive Visual Granularity](../../ACL2025/multimodal_vlm/avg-llava_an_efficient_large_multimodal_model_with_adaptive_visual_granularity.md)
-- [\[CVPR 2026\] CoV-Align: Efficient Fine-grained Cross-Modal Alignment with Cohesive Visual Semantics Priority](cov-align_efficient_fine-grained_cross-modal_alignment_with_cohesive_visual_sema.md)
 - [\[CVPR 2026\] Multi-modal Test-time Adaptation via Adaptive Probabilistic Gaussian Calibration](multi-modal_test-time_adaptation_via_adaptive_probabilistic_gaussian_calibration.md)
+- [\[CVPR 2026\] CoV-Align: Efficient Fine-grained Cross-Modal Alignment with Cohesive Visual Semantics Priority](cov-align_efficient_fine-grained_cross-modal_alignment_with_cohesive_visual_sema.md)
 
 </div>
 

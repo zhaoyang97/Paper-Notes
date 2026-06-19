@@ -17,10 +17,10 @@ tags:
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Statistically Reliable LLM-Based Ranking Evaluation via Prediction-Powered Inference
 
-**会议**: ACL2026
-**arXiv**: [2606.05308](https://arxiv.org/abs/2606.05308)
-**代码**: 待确认
-**领域**: LLM评测
+**会议**: ACL2026  
+**arXiv**: [2606.05308](https://arxiv.org/abs/2606.05308)  
+**代码**: 待确认  
+**领域**: LLM评测  
 **关键词**: PPI, LLM-as-Judge, 偏差校正, 排名评估, Precision@K, 半监督估计
 
 ## 一句话总结

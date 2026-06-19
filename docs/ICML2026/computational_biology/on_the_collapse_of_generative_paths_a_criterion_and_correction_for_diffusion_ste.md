@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2512.10339](https://arxiv.org/abs/2512.10339)  
 **代码**: https://ziseoklee.github.io/projects/ACE/ （有，项目页）  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 边际路径塌缩, 路径存在性判据, 自适应指数修正, Feynman–Kac 引导, 异质噪声调度
 
 ## 一句话总结
@@ -147,9 +147,9 @@ ACE 在 $\omega = 1.1 \to 1.4$ 全程保持 PEC 成立，docking 分数随引导
 
 - [\[ICML 2026\] Stein Diffusion Guidance: Training-Free Posterior Correction for Sampling Beyond High-Density Regions](stein_diffusion_guidance_training-free_posterior_correction_for_sampling_beyond_.md)
 - [\[NeurIPS 2025\] Steering Generative Models with Experimental Data for Protein Fitness Optimization](../../NeurIPS2025/computational_biology/steering_generative_models_with_experimental_data_for_protein_fitness_optimizati.md)
+- [\[ICML 2026\] Plug-and-Play Guidance for Discrete Diffusion Models via Gradient-Informed Logit Correction](plug-and-play_guidance_for_discrete_diffusion_models_via_gradient-informed_logit.md)
 - [\[ICML 2026\] Towards A Generative Protein Evolution Machine with DPLM-Evo](towards_a_generative_protein_evolution_machine_with_dplm-evo.md)
 - [\[ICML 2025\] Steering Protein Language Models](../../ICML2025/computational_biology/steering_protein_language_models.md)
-- [\[ICML 2026\] SIGMA: Structure-Invariant Generative Molecular Alignment for Chemical Language Models via Autoregressive Contrastive Learning](sigma_structure-invariant_generative_molecular_alignment_for_chemical_language_m.md)
 
 </div>
 

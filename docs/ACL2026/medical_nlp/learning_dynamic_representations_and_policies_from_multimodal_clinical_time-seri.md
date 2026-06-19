@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2604.21235](https://arxiv.org/abs/2604.21235)  
 **代码**: [GitHub](https://github.com/CausalMLResearch/OPL-MT-MNAR)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 多模态临床时序, 信息性缺失, 离线强化学习, 贝叶斯滤波, ICU治疗策略
 
 ## 一句话总结

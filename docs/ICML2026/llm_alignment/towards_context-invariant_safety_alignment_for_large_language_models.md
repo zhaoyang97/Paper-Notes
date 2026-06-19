@@ -99,6 +99,7 @@ flowchart TD
 平均下 GRPO+AIR 把 OOD $\text{Acc}_{\text{group}}$ 从 23.05% 提到 56.54%（+33.49pp），OOD Acc 从 72.67% 提到 85.81%（+13.14pp）；同样 trick 套在 GSPO 上也复现。
 
 ### 对照与失败模式
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | GRPO（无不变性） | OOD group 一致性低（Safety 13.73%、Moral 14.71%） | 表面线索过拟合，jailbreak 即破 |
@@ -148,7 +149,7 @@ flowchart TD
 - [\[ICLR 2026\] GuardAlign: Test-time Safety Alignment in Multimodal Large Language Models](../../ICLR2026/llm_alignment/guardalign_test-time_safety_alignment_in_multimodal_large_language_models.md)
 - [\[AAAI 2026\] EASE: Practical and Efficient Safety Alignment for Small Language Models](../../AAAI2026/llm_alignment/ease_practical_and_efficient_safety_alignment_for_small_language_models.md)
 - [\[ICML 2026\] PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization](picaco_pluralistic_in-context_value_alignment_of_llms_via_total_correlation_opti.md)
-- [\[ICML 2026\] Implicit Safety Alignment from Crowd Preferences](implicit_safety_alignment_from_crowd_preferences.md)
+- [\[ICML 2026\] VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](valueflow_toward_pluralistic_and_steerable_value-based_alignment_in_large_langua.md)
 
 </div>
 

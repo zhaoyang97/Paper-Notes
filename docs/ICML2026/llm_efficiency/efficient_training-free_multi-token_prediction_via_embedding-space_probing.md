@@ -95,6 +95,7 @@ tree decoding 有个容易被忽视的隐藏开销：传统 tree-attention 每�
 ESP 在 4 个模型 × 2 个 BC 上全部取得最高（或并列最高）$\tau$ 和 S/R；相比 LADE 在 LLaMA3 上 $\tau$ 高 7–12%、在 Qwen3 上 7–8%，相对最强基线吞吐高 15–19%；BC=60 下最多减少 42% 的 forward 模型调用。
 
 ### 消融实验
+
 | 配置 | LLaMA3.2-3B $\tau$ (BC=60) | LLaMA3.1-8B $\tau$ (BC=60) | 说明 |
 |------|------|------|------|
 | Mean (soft init) | **1.67** | **1.71** | 完整方法，prompt 嵌入均值初始化 |

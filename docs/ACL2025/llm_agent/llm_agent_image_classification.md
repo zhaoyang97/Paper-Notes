@@ -173,8 +173,8 @@ $$-\frac{1}{N} \sum_{j=1}^{N} \left[W_p y_i \log(\hat{y}_i) + (1-y_i) \log(1-\ha
 ## 相关论文
 
 - [\[ACL 2025\] Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools](agentic_reasoning_tools.md)
-- [\[ACL 2025\] Enhancing LLM Agent Safety via Causal Influence Prompting](enhancing_llm_agent_safety_via_causal_influence_prompting.md)
 - [\[ICCV 2025\] Embodied Image Captioning: Self-supervised Learning Agents for Spatially Coherent Image Descriptions](../../ICCV2025/llm_agent/embodied_image_captioning_self-supervised_learning_agents_for_spatially_coherent.md)
+- [\[ACL 2025\] Enhancing LLM Agent Safety via Causal Influence Prompting](enhancing_llm_agent_safety_via_causal_influence_prompting.md)
 - [\[NeurIPS 2025\] Crucible: Quantifying the Potential of Control Algorithms through LLM Agents](../../NeurIPS2025/llm_agent/crucible_quantifying_the_potential_of_control_algorithms_through_llm_agents.md)
 - [\[NeurIPS 2025\] The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement](../../NeurIPS2025/llm_agent/the_lighthouse_of_language_enhancing_llm_agents_via_critique-guided_improvement.md)
 

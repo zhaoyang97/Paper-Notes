@@ -137,9 +137,9 @@ v-CLR 由两个分支组成：自然图像分支（EMA teacher）始终接收原
 
 - [\[CVPR 2025\] ROCKET-1: Mastering Open-World Interaction with Visual-Temporal Context Prompting](rocket-1_mastering_open-world_interaction_with_visual-temporal_context_prompting.md)
 - [\[CVPR 2026\] Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction](../../CVPR2026/segmentation/learning_cross-view_object_correspondence_via_cycle-consistent_mask_prediction.md)
-- [\[CVPR 2025\] DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception](declip_decoupled_learning_for_open-vocabulary_dense_perception.md)
 - [\[CVPR 2025\] Foveated Instance Segmentation](foveated_instance_segmentation.md)
-- [\[ECCV 2024\] SOS: Segment Object System for Open-World Instance Segmentation With Object Priors](../../ECCV2024/segmentation/sos_segment_object_system_for_open-world_instance_segmentation_with_object_prior.md)
+- [\[CVPR 2025\] DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception](declip_decoupled_learning_for_open-vocabulary_dense_perception.md)
+- [\[CVPR 2025\] StoryGPT-V: Large Language Models as Consistent Story Visualizers](storygpt-v_large_language_models_as_consistent_story_visualizers.md)
 
 </div>
 

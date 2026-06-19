@@ -2,9 +2,10 @@
 title: >-
   [论文解读] Curvature-Aware Zeroth-Order Optimization for Memory-Efficient Test-Time Adaptation
 description: >-
-  [CVPR 2026][零阶优化] 针对设备端测试时自适应（TTA）需要省内存的场景，本文用**只做前向、不做反向**的零阶优化（ZO）来微调一个轻量 adapter，并利用「TTA 过程中 Hessian 持续低秩且缓变」这个观察，把各向同性的随机扰动换成**曲率感知的各向异性扰动**，大幅压低 ZO 梯度估计的方差——在 ImageNet-C 上达到 69.0% 的 SOTA，同时比 BP 方法省约 70% 显存。
+  [CVPR 2026][VLM Efficiency][零阶优化] 针对设备端测试时自适应（TTA）需要省内存的场景，本文用**只做前向、不做反向**的零阶优化（ZO）来微调一个轻量 adapter，并利用「TTA 过程中 Hessian 持续低秩且缓变」这个观察，把各向同性的随机扰动换成**曲率感知的各向异性扰动**，大幅压低 ZO 梯度估计的方差——在 ImageNet-C 上达到 69.0% 的 SOTA，同时比 BP 方法省约 70% 显存。
 tags:
   - "CVPR 2026"
+  - "VLM Efficiency"
   - "零阶优化"
   - "测试时自适应"
   - "曲率感知"
@@ -103,6 +104,7 @@ CAZO 平均精度 69.0%，同时击败 BP-free 与 BP-based 两类方法。
 在更难的持续 TTA（CTTA，不重置、连续遍历所有损坏）下，CAZO 仍以 65.3% 居首，比 LCoTTA / ETA / SAR 高 +3.0 / +3.6 / +3.7；在 ImageNet-R/V2/Sketch 上平均 63.5%，同样有竞争力。
 
 ### 内存与运行时（Table 4，50,000 样本，H20 GPU）
+
 | 方法 | 是否 BP | Acc.(%) | 时间(s) | 显存(MB) |
 |------|---------|---------|---------|----------|
 | TENT | ✓ | 59.8 | 210 | 6,404 |
@@ -120,6 +122,7 @@ CAZO 平均精度 69.0%，同时击败 BP-free 与 BP-based 两类方法。
 在 8-bit 下 CAZO 仍达 67.8%（几乎不掉点），6-bit 下保持 61.2%，均显著高于 ZO/FOA/T3A，说明对低比特边缘部署友好。
 
 ### 消融与敏感性（Fig. 6 / Table 4）
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | adapter 插第 3 层 | Acc 峰值 | 低层特征更利于快速域对齐；后层更差 |
@@ -162,11 +165,11 @@ CAZO 平均精度 69.0%，同时击败 BP-free 与 BP-based 两类方法。
 
 ## 相关论文
 
-- [\[CVPR 2026\] Neural Collapse in Test-Time Adaptation](neural_collapse_in_test-time_adaptation.md)
-- [\[CVPR 2026\] Back to Source: Open-Set Continual Test-Time Adaptation via Domain Compensation](back_to_source_open-set_continual_test-time_adaptation_via_domain_compensation.md)
-- [\[CVPR 2026\] WiTTA-Bench: Benchmarking Test-Time Adaptation for WiFi Sensing](witta-bench_benchmarking_test-time_adaptation_for_wifi_sensing.md)
-- [\[CVPR 2026\] Towards Stable Federated Continual Test-Time Adaptation in Wild World](towards_stable_federated_continual_test-time_adaptation_in_wild_world.md)
-- [\[ECCV 2024\] MemBN: Robust Test-Time Adaptation via Batch Norm with Statistics Memory](../../ECCV2024/others/membn_robust_test-time_adaptation_via_batch_norm_with_statistics_memory.md)
+- [\[CVPR 2026\] ZOO-Prune: Training-Free Token Pruning via Zeroth-Order Gradient Estimation in Vision-Language Models](zoo-prune_training-free_token_pruning_via_zeroth-order_gradient_estimation_in_vi.md)
+- [\[CVPR 2026\] Attention-aware Inference Optimizations for Large Vision-Language Models with Memory-efficient Decoding](attention-aware_inference_optimizations_for_large_vision-language_models_with_me.md)
+- [\[CVPR 2026\] Differentiable Vector Quantization for Rate-Distortion Optimization of Generative Image Compression](differentiable_vector_quantization_for_rate-distortion_optimization_of_generativ.md)
+- [\[CVPR 2025\] COAP: Memory-Efficient Training with Correlation-Aware Gradient Projection](../../CVPR2025/vlm_efficiency/coap_memory-efficient_training_with_correlation-aware_gradient_projection.md)
+- [\[CVPR 2026\] DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning](docpruneefficient_document_question_answering_via_background_question_and_compre.md)
 
 </div>
 

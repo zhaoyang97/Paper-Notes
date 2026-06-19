@@ -95,6 +95,7 @@ $$\mathcal{L}_{\text{total}}=\lambda_{\text{seg}}\mathcal{L}_{\text{seg}}+\lambd
 DeGO 在 mIoU 与 IoU 上全面领先；HCM/InsM 的提升印证它对非刚性人体和刚性物体的理解都更强，ScnM 的提升说明对动态 agent 与静态结构都更鲁棒。
 
 ### 消融实验
+
 | 配置（形变 / DINOv2 / VGGT） | mIoU | IoU | 说明 |
 |------|------|------|------|
 | ✗ / ✗ / ✗ | 12.06 | 36.41 | 基线 |

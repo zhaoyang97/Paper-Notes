@@ -96,6 +96,7 @@ $$C_{\text{fuse}} = C_m^{(1-\alpha)} \cdot C_p^{\alpha}$$
 ViT-P 在 ADE20K 全景 54.0 PQ、ADE20K 语义 63.6 mIoU、Cityscapes 语义 87.4 mIoU 等多项上刷新 SOTA，且对掩码生成器始终保持稳定增益。
 
 ### 消融实验
+
 | 配置 | 关键指标 (ADE20K, OneFormer) | 说明 |
 |------|------|------|
 | 完整模型 (N=250, 最高值点, DINOv2) | 54.0 PQ / 40.7 AP / 59.7 mIoU | 默认设置 |
@@ -141,11 +142,11 @@ ViT-P 在 ADE20K 全景 54.0 PQ、ADE20K 语义 63.6 mIoU、Cityscapes 语义 87
 
 ## 相关论文
 
-- [\[CVPR 2026\] MPM: Mutual Pair Merging for Efficient Vision Transformers](mpm_mutual_pair_merging_for_efficient_vision_transformers.md)
-- [\[CVPR 2026\] GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth](geomprompt_rgbd_segmentation.md)
 - [\[ECCV 2024\] UniFS: Universal Few-Shot Instance Perception with Point Representations](../../ECCV2024/segmentation/unifs_universal_few-shot_instance_perception_with_point_representations.md)
 - [\[ICLR 2026\] Revisiting \[CLS\] and Patch Token Interaction in Vision Transformers](../../ICLR2026/segmentation/revisiting_cls_and_patch_token_interaction_in_vision_transformers.md)
+- [\[NeurIPS 2025\] Vision Transformers with Self-Distilled Registers](../../NeurIPS2025/segmentation/vision_transformers_with_self-distilled_registers.md)
 - [\[CVPR 2026\] ReSAM: Refine, Requery, and Reinforce: Self-Prompting Point-Supervised Segmentation for Remote Sensing Images](resam_refine_requery_and_reinforce_self-prompting_point-supervised_segmentation_.md)
+- [\[ICLR 2026\] Thicker and Quicker: A Jumbo Token for Fast Plain Vision Transformers](../../ICLR2026/segmentation/thicker_and_quicker_a_jumbo_token_for_fast_plain_vision_transformers.md)
 
 </div>
 

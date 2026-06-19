@@ -101,6 +101,7 @@ flowchart TD
 | Species (eBird S&T / IUCN) | mAP $\uparrow$ | 最佳 / out-of-cap 仍优 | 纯 Slepian 在 cap 外崩溃 | 混合架构关键性体现 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Full Hybrid Slepian (L_r=120, L_g=10) | best | 完整模型 |
@@ -147,8 +148,8 @@ flowchart TD
 - [\[CVPR 2026\] YieldSAT: A Multimodal Benchmark Dataset for High-Resolution Crop Yield Prediction](../../CVPR2026/remote_sensing/yieldsat_a_multimodal_benchmark_dataset_for_high-resolution_crop_yield_predictio.md)
 - [\[CVPR 2026\] ZoomEarth: Active Perception for Ultra-High-Resolution Geospatial Vision-Language Tasks](../../CVPR2026/remote_sensing/zoomearth_active_perception_for_ultra-high-resolution_geospatial_vision-language.md)
 - [\[NeurIPS 2025\] Cloud4D: Estimating Cloud Properties at a High Spatial and Temporal Resolution](../../NeurIPS2025/remote_sensing/cloud4d_estimating_cloud_properties_at_a_high_spatial_and_temporal_resolution.md)
-- [\[CVPR 2026\] GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics](../../CVPR2026/remote_sensing/geoagent_learning_to_geolocate_everywhere_with_reinforced_geographic_characteris.md)
 - [\[ICML 2025\] High-Resolution Live Fuel Moisture Content (LFMC) Maps for Wildfire Risk from Multimodal Earth Observation Data](../../ICML2025/remote_sensing/high-resolution_live_fuel_moisture_content_lfmc_maps_for_wildfire_risk_from_mult.md)
+- [\[ICLR 2026\] Measuring the Intrinsic Dimension of Earth Representations](../../ICLR2026/remote_sensing/measuring_the_intrinsic_dimension_of_earth_representations.md)
 
 </div>
 

@@ -127,8 +127,8 @@ CPP框架包含两个核心组件：（1）协同数据——从在线平台（�
 - [\[ACL 2025\] Open-Set Living Need Prediction with Large Language Models](open-set_living_need_prediction_with_large_language_models.md)
 - [\[ACL 2025\] BehaviorBox: Automated Discovery of Fine-Grained Performance Differences Between Language Models](behaviorbox_automated_discovery_of_fine-grained_performance_differences_between_.md)
 - [\[ACL 2025\] Prediction Hubs are Context-Informed Frequent Tokens in LLMs](prediction_hubs_are_context-informed_frequent_tokens_in_llms.md)
+- [\[ACL 2025\] DiSCo: Device-Server Collaborative LLM-Based Text Streaming Services](disco_device-server_collaborative_llm-based_text_streaming_services.md)
 - [\[ACL 2025\] Comparing Large Language Models in Extracting Subjective Information from Political News](comparing_large_language_models_in_extracting_subjective_information_from_politi.md)
-- [\[ACL 2025\] Logical Forms Complement Probability in Understanding Language Model (and Human) Performance](logical_forms_complement_probability_in_understanding_language_model_and_human_p.md)
 
 </div>
 

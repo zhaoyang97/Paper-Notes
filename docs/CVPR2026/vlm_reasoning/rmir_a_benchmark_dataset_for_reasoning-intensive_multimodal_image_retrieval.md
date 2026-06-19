@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RMIR: A Benchmark Dataset for Reasoning-Intensive Multimodal Image Retrieval
 description: >-
-  [CVPR 2026][多模态VLM][多模态检索] RMIR 提出一个"看图+读文需要 1-2 步逻辑推理才能找到答案图"的多模态图像检索基准（1,634 条测试查询，覆盖功能/时间/因果三类推理），并配套一条全自动、可扩展的数据生成流水线；评测显示最强模型也只有 46.53% 的 R@20，且带显式推理的生成式 embedding 远胜判别式编码器。
+  [CVPR 2026][VLM Reasoning][多模态检索] RMIR 提出一个"看图+读文需要 1-2 步逻辑推理才能找到答案图"的多模态图像检索基准（1,634 条测试查询，覆盖功能/时间/因果三类推理），并配套一条全自动、可扩展的数据生成流水线；评测显示最强模型也只有 46.53% 的 R@20，且带显式推理的生成式 embedding 远胜判别式编码器。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态检索"
   - "推理检索"
   - "benchmark"
@@ -145,11 +145,11 @@ RMIR 在"需要推理 + 可规模化"这一组合上独树一帜——既要推�
 
 ## 相关论文
 
-- [\[CVPR 2026\] RetFormer: Multimodal Retrieval for Enhancing Image Recognition](retformer_multimodal_retrieval_for_enhancing_image_recognition.md)
-- [\[CVPR 2026\] Camouflage-aware Image-Text Retrieval via Expert Collaboration](camouflage-aware_image-text_retrieval_via_expert_collaboration.md)
-- [\[CVPR 2026\] ReMatch: Boosting Representation through Matching for Multimodal Retrieval](rematch_boosting_representation_through_matching_for_multimodal_retrieval.md)
-- [\[CVPR 2026\] MMSD3.0: A Multi-Image Benchmark for Real-World Multimodal Sarcasm Detection](mmsd30_a_multi-image_benchmark_for_real-world_multimodal_sarcasm_detection.md)
-- [\[CVPR 2026\] ReCALL: Recalibrating Capability Degradation for MLLM-based Composed Image Retrieval](recall_recalibrating_capability_degradation_for_mllm-based_composed_image_retrie.md)
+- [\[CVPR 2026\] MMTIT-Bench: A Multilingual and Multi-Scenario Benchmark with Cognition-Perception-Reasoning Guided Text-Image Machine Translation](mmtit-bench_a_multilingual_and_multi-scenario_benchmark_with_cognition-perceptio.md)
+- [\[CVPR 2026\] Compositional Transformation Reasoning for Composed Video Retrieval](compositional_transformation_reasoning_for_composed_video_retrieval.md)
+- [\[CVPR 2026\] GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models](ggbench_a_geometric_generative_reasoning_benchmark_for_unified_multimodal_models.md)
+- [\[CVPR 2026\] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought](when_visualizing_is_the_first_step_to_reasoning_mira_a_benchmark_for_visual_chai.md)
+- [\[CVPR 2026\] EduDiag: A Benchmark for Educational Diagnostic Reasoning with Error Tracing and Correction on Large Multimodal Models](edudiag_a_benchmark_for_educational_diagnostic_reasoning_with_error_tracing_and_.md)
 
 </div>
 

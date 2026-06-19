@@ -97,6 +97,7 @@ $r_v, r_t\in\{0,1\}$ 表示视觉/文本标签是否匹配参考。行为奖励 
 SafeGRPO 在三维上同时拿到最佳：越狱防御 99.02（比 Think-in-Safety 高 1.33）、安全意识 94.31（最高），而 Refusal Rate 仅 20.00——比基座(21.00)还略低。对照之下，训练式基线 VLGuard、Think-in-Safety 大幅推高过度敏感（Refusal 飙到 95.00 / 64.00），即"用拒一切来换安全"。4B 上结论一致（SafeGRPO 越狱防御 99.21、SIUO 93.85、Refusal 24.33）。
 
 ### 通用能力保持
+
 | 方法（Qwen3-VL-8B） | ScienceQA | MathVista | POPE | 5 项均值 | 相对基座 |
 |------|------|------|------|------|------|
 | 基座 | 91.92 | 60.00 | 87.40 | 77.98 | — |
@@ -108,6 +109,7 @@ SafeGRPO 在三维上同时拿到最佳：越狱防御 99.02（比 Think-in-Safe
 VLGuard 这类 SFT 方法因偏离预定结构化输出格式（如 `\boxed{}`）并过拟合安全分布，通用能力几乎崩塌（均值跌 61）；SafeGRPO 反而**略涨**——作者归因于 RL 强化推理能力、且 RL 天然缓解微调式灾难遗忘。
 
 ### 消融实验
+
 | 配置（Qwen3-VL-8B） | 安全表现 | 说明 |
 |------|------|------|
 | Base（无 RL） | 最低 | 不优化 |
@@ -152,10 +154,10 @@ VLGuard 这类 SFT 方法因偏离预定结构化输出格式（如 `\boxed{}`�
 ## 相关论文
 
 - [\[ICLR 2026\] Mitigating the Safety Alignment Tax with Null-Space Constrained Policy Optimization](../../ICLR2026/llm_alignment/mitigating_the_safety_alignment_tax_with_null-space_constrained_policy_optimizat.md)
+- [\[CVPR 2026\] MorphSeek: Fine-grained Latent Representation-Level Policy Optimization for Deformable Image Registration](morphseek_fine-grained_latent_representation-level_policy_optimization_for_defor.md)
 - [\[CVPR 2026\] Uncertainty-Aware Exploratory Direct Preference Optimization for Multimodal Large Language Models](uncertainty-aware_exploratory_direct_preference_optimization_for_multimodal_larg.md)
 - [\[ICLR 2026\] GuardAlign: Test-time Safety Alignment in Multimodal Large Language Models](../../ICLR2026/llm_alignment/guardalign_test-time_safety_alignment_in_multimodal_large_language_models.md)
-- [\[ICML 2026\] Long Live The Balance: Information Bottleneck Driven Tree-based Policy Optimization](../../ICML2026/llm_alignment/long_live_the_balance_information_bottleneck_driven_tree-based_policy_optimizati.md)
-- [\[ICLR 2026\] Is On-Policy Data always the Best Choice for Direct Preference Optimization-based LM Alignment?](../../ICLR2026/llm_alignment/is_on-policy_data_always_the_best_choice_for_direct_preference_optimization-base.md)
+- [\[CVPR 2026\] Anchoring the Mind of Multimodal Reasoners: Cognitive Bias as a Vector for Jailbreak Attacks](anchoring_the_mind_of_multimodal_reasoners_cognitive_bias_as_a_vector_for_jailbr.md)
 
 </div>
 

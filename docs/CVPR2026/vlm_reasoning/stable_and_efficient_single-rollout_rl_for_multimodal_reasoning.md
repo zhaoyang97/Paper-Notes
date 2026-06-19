@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Stable and Efficient Single-Rollout RL for Multimodal Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][多模态推理] 针对多模态 RLVR 中 GRPO 多 rollout 太贵、而单 rollout 又会熵塌缩崩溃的两难，本文提出 MSSR——用 Beta 共轭基线替代分组归一化、再叠加一个"基于熵的优势塑形"机制稳住训练，做到每个样本只采一条轨迹，却能用一半训练步数追平 GRPO，并在 5 个基准上平均超过它 2 个多点。
+  [CVPR 2026][VLM Reasoning][多模态推理] 针对多模态 RLVR 中 GRPO 多 rollout 太贵、而单 rollout 又会熵塌缩崩溃的两难，本文提出 MSSR——用 Beta 共轭基线替代分组归一化、再叠加一个"基于熵的优势塑形"机制稳住训练，做到每个样本只采一条轨迹，却能用一半训练步数追平 GRPO，并在 5 个基准上平均超过它 2 个多点。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态推理"
   - "RLVR"
   - "单rollout"
@@ -145,10 +145,10 @@ MSSR 在两个规模上均超过所有 group-free / group-based baseline：3B �
 ## 相关论文
 
 - [\[CVPR 2026\] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)
-- [\[ICLR 2026\] Shuffle-R1: Efficient RL Framework for Multimodal Large Language Models via Data-centric Dynamic Shuffle](../../ICLR2026/multimodal_vlm/shuffle-r1_efficient_rl_framework_for_multimodal_large_language_models_via_data-.md)
 - [\[CVPR 2026\] ReaGEN: Adaptive Generation of Structured Chains-of-Thought for Efficient Multimodal Reasoning](reagen_adaptive_generation_of_structured_chains-of-thought_for_efficient_multimo.md)
-- [\[CVPR 2026\] Multi-Modal Image Fusion via Intervention-Stable Feature Learning](multi-modal_image_fusion_via_intervention-stable_feature_learning.md)
-- [\[CVPR 2026\] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
+- [\[CVPR 2026\] VisionLeaf: Entropy-Guided Leaf-First Reasoning for Efficient and Accurate Think-with-Image](visionleaf_entropy-guided_leaf-first_reasoning_for_efficient_and_accurate_think-.md)
+- [\[CVPR 2026\] Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)
+- [\[ICLR 2026\] VidGuard-R1: AI-Generated Video Detection and Explanation via Reasoning MLLMs and RL](../../ICLR2026/vlm_reasoning/vidguard-r1_ai-generated_video_detection_and_explanation_via_reasoning_mllms_and.md)
 
 </div>
 

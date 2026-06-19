@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 多语言/翻译论文汇总 · 61篇论文解读
+  ACL2026 多语言/翻译论文汇总 · 63篇论文解读
 description: >-
-  61篇ACL2026的多语言/翻译方向论文解读，涵盖翻译、LLM、语音、Agent、情感分析、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  63篇ACL2026的多语言/翻译方向论文解读，涵盖翻译、LLM、语音、Agent、情感分析、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "多语言/翻译"
@@ -75,13 +75,13 @@ item_list:
     t: "Location Not Found: Exposing Implicit Local and Global Biases in Multilingual LLMs"
   - u: "lqm_linguistically_motivated_multidimensional_quality_metrics_for_machine_transl/"
     t: "LQM: Linguistically Motivated Multidimensional Quality Metrics for Machine Translation"
-item_total: 61
+item_total: 63
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌐 多语言/翻译
 
-**💬 ACL2026** · **61** 篇论文解读
+**💬 ACL2026** · **63** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (3)](../../ICML2026/multilingual_mt/index.md) · [🔬 ICLR2026 (5)](../../ICLR2026/multilingual_mt/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/multilingual_mt/index.md) · [🧠 NeurIPS2025 (11)](../../NeurIPS2025/multilingual_mt/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/multilingual_mt/index.md) · [🧪 ICML2025 (1)](../../ICML2025/multilingual_mt/index.md)
 
@@ -207,6 +207,10 @@ item_total: 61
 
 :   提出LQM（Linguistically Motivated Multidimensional Quality Metrics），一个六层语言学驱动的机器翻译错误分类体系（社会语言学→语用学→语义→形态句法→正字法→字形），并在7种阿拉伯方言上构建3850句双向平行语料库，通过专家标注6113个错误跨度揭示现有MT系统在方言和文化感知翻译上的系统性不足。
 
+**[Massively Multilingual Joint Segmentation and Glossing](massively_multilingual_joint_segmentation_and_glossing.md)**
+
+:   为濒危语言文档工作做的"形态切分 + 逐词素注解（glossing）"联合预测任务：作者把 GlossLM 语料扩到 34 万例、覆盖 2077 种语言，训练出一族基于 ByT5 的多语言 seq2seq 模型 PolyGloss，能从原始转写同时预测词素边界和对应注解标签，在注解上超过 GlossLM、在切分/注解/对齐三项上均胜过多个开源 LLM，并可用 LoRA 快速适配新语言。
+
 **[Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates](mitigating_catastrophic_forgetting_in_target_language_adaptation_of_llms_via_sou.md)**
 
 :   提出 Source-Shielded Updates (SSU)，一种基于源数据驱动参数重要性评分的列级冻结策略，在仅使用无标签目标语言数据进行持续预训练时，将源语言性能退化从全量微调的 20.3% 降低至 3.4%，同时保持与全量微调相当甚至更优的目标语言性能。
@@ -214,6 +218,10 @@ item_total: 61
 **[Mitigating Extrinsic Gender Bias for Bangla Classification Tasks](mitigating_extrinsic_gender_bias_for_bangla_classification_tasks.md)**
 
 :   针对孟加拉语预训练模型在下游分类任务中的外在性别偏见，提出 RandSymKL 方法，通过随机化交叉熵损失和对称 KL 散度联合优化，在保持分类准确率的同时有效缩小性别间预测差异。
+
+**[Modular Monolingual Adaptation using Pretrained Language Models](modular_monolingual_adaptation_using_pretrained_language_models.md)**
+
+:   针对低资源语言适配多语言预训练模型，作者主张「换上语言专属分词器 + 冻结输入/输出嵌入、只训练 Transformer 主体」这种模块化做法，在苏格兰盖尔语、爱尔兰语、克丘亚语的掩码填空 / NER / POS 任务上普遍优于全量微调，同时训练参数砍掉约 25%、显存和训练时间近乎减半。
 
 **[MORPHOGEN: A Multilingual Benchmark for Evaluating Gender-Aware Morphological Generation](morphogen_a_multilingual_benchmark_for_evaluating_gender-aware_morphological_gen.md)**
 

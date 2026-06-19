@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 NLP理解论文汇总 · 33篇论文解读
+  ACL2026 NLP理解论文汇总 · 34篇论文解读
 description: >-
-  33篇ACL2026的 NLP 理解方向论文解读，涵盖 LLM、问答、信息抽取、推理、情感分析、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  34篇ACL2026的 NLP 理解方向论文解读，涵盖 LLM、问答、推理、信息抽取、情感分析、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "NLP 理解"
@@ -10,8 +10,8 @@ tags:
   - "论文笔记"
   - "LLM"
   - "问答"
-  - "信息抽取"
   - "推理"
+  - "信息抽取"
   - "情感分析"
   - "少样本学习"
 item_list:
@@ -75,17 +75,17 @@ item_list:
     t: "Semantic Reranking at Inference Time for Hard Examples in Rhetorical Role Labeling"
   - u: "table_question_answering_in_the_era_of_large_language_models_a_comprehensive_sur/"
     t: "Table Question Answering in the Era of Large Language Models: A Comprehensive Survey"
-item_total: 33
+item_total: 34
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📖 NLP 理解
 
-**💬 ACL2026** · **33** 篇论文解读
+**💬 ACL2026** · **34** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (2)](../../ICML2026/nlp_understanding/index.md) · [🔬 ICLR2026 (1)](../../ICLR2026/nlp_understanding/index.md) · [🤖 AAAI2026 (1)](../../AAAI2026/nlp_understanding/index.md) · [🧠 NeurIPS2025 (3)](../../NeurIPS2025/nlp_understanding/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/nlp_understanding/index.md) · [🧪 ICML2025 (1)](../../ICML2025/nlp_understanding/index.md)
 
-🔥 **高频主题：** LLM ×6 · 问答 ×5 · 信息抽取 ×4 · 推理 ×3 · 情感分析 ×2
+🔥 **高频主题：** LLM ×6 · 问答 ×5 · 推理 ×4 · 信息抽取 ×4 · 情感分析 ×2
 
 **[A Computational Method for Measuring "Open Codes" in Qualitative Analysis](a_computational_method_for_measuring_34open_codes34_in_qualitative_analysis.md)**
 
@@ -214,6 +214,10 @@ item_total: 33
 **[The Imperfective Paradox in Large Language Models](the_imperfective_paradox_in_large_language_models.md)**
 
 :   这篇论文用新构造的 ImperfectiveNLI 诊断集检验 LLM 是否理解“正在做某事”不一定意味着“已经完成某事”，发现开源 LLM 普遍会把有目标事件误判为已完成，提示工程只能在减少完成幻觉和保留合法蕴含之间摇摆，真正问题在于推理阶段被目的论先验主导。
+
+**[TruthSplit: Operationalizing Conditional Validity in Arguments Through Multi-Perspective Reasoning](truthsplit_operationalizing_conditional_validity_in_arguments_through_multi-pers.md)**
+
+:   TruthSplit 是一个交互式论证分析系统，把"同一个论点在不同世界观下结论不同"这件事形式化为**条件有效性（conditional validity）**：它先把文本拆成论点/前提/假设，再用三层 NLI 检验逻辑与世界观内部一致性，最后用 6 个结构化世界观画像去**条件化** LLM 推理，生成每种立场下的解读并可视化分歧来源——不给"对/错"标签，而是揭示分歧到底来自价值排序还是概念定义。
 
 **[新闻文本中的时间框架揭示](uncovering_temporal_framing_in_the_news.md)**
 

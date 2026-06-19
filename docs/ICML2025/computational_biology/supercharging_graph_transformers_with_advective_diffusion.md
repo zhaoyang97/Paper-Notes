@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2310.06417](https://arxiv.org/abs/2310.06417)  
 **代码**: [GitHub](https://github.com/qitianwu/AdvDIFFormer)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Graph Transformer、对流扩散方程、拓扑分布偏移、泛化理论、PDE启发架构
 
 ## 一句话总结

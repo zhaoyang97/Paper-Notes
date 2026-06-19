@@ -101,6 +101,7 @@ $$\mathbf{f}_j^{\text{complete}} = \sum_i \frac{\exp(S_{ji}/\tau)}{\sum_k \exp(S
 最值得看的是 Random Template 列：baseline 一旦换成不相似模板就崩（KP-RED CD 从 3.05 涨到 5.10，ShapeMatcher 从 5.92 直接到 13.02），而 GODeform 几乎不掉（2.38 → 2.46）。这才是"几何引导基础特征"真正解决的问题——对模板选择鲁棒。
 
 ### 消融实验
+
 | 配置 | CD ($10^{-3}$, Retrieved) | CD ($10^{-3}$, Random) | S-IoU (%, Random) | 说明 |
 |------|---------|---------|---------|------|
 | Our-MV (Full) | **2.38** | **2.46** | **47.31** | 完整模型 |

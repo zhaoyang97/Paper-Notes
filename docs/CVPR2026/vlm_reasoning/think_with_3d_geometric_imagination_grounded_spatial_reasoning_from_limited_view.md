@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views
 description: >-
-  [CVPR 2026][多模态VLM][空间推理] 3DThinker 让 VLM 在推理链里直接吐出一段「3D 隐 token」、并把它对齐到 3D 基础模型 VGGT 的几何特征，从而在不输入任何 3D 先验、不依赖稠密标注的前提下，仅凭有限的几张 2D 视图就能「在脑子里想象 3D 场景」做空间推理；在 8 个空间理解 benchmark 上稳定超越强基线，最大模型甚至压过 o3。
+  [CVPR 2026][VLM Reasoning][空间推理] 3DThinker 让 VLM 在推理链里直接吐出一段「3D 隐 token」、并把它对齐到 3D 基础模型 VGGT 的几何特征，从而在不输入任何 3D 先验、不依赖稠密标注的前提下，仅凭有限的几张 2D 视图就能「在脑子里想象 3D 场景」做空间推理；在 8 个空间理解 benchmark 上稳定超越强基线，最大模型甚至压过 o3。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "空间推理"
   - "3D心智表征"
   - "VGGT蒸馏"
@@ -157,9 +157,9 @@ $$\mathcal{L}_{3D} = \| F_{\text{proj}} - F_{\text{3D}} \|_F^2.$$
 
 - [\[CVPR 2026\] Beyond 3D VQAs: Injecting 3D Spatial Priors into Vision-Language Models for Enhanced Geometric Reasoning](beyond_3d_vqas_injecting_3d_spatial_priors_into_vision-language_models_for_enhan.md)
 - [\[CVPR 2026\] G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning](g2vlm_geometry_grounded_vision_language_model_with_unified_3d_reconstruction_and.md)
-- [\[CVPR 2026\] Grounded 3D-Aware Spatial Vision-Language Modeling](grounded_3d-aware_spatial_vision-language_modeling.md)
-- [\[ICML 2026\] 3ViewSense: Spatial and Mental Perspective Reasoning from Orthographic Views in Vision-Language Models](../../ICML2026/multimodal_vlm/3viewsense_spatial_and_mental_perspective_reasoning_from_orthographic_views_in_v.md)
 - [\[CVPR 2026\] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)
+- [\[ICML 2026\] 3ViewSense: Spatial and Mental Perspective Reasoning from Orthographic Views in Vision-Language Models](../../ICML2026/vlm_reasoning/3viewsense_spatial_and_mental_perspective_reasoning_from_orthographic_views_in_v.md)
+- [\[CVPR 2026\] Progress-Think: Semantic Progress Reasoning for Vision-Language Navigation](progress-think_semantic_progress_reasoning_for_vision-language_navigation.md)
 
 </div>
 

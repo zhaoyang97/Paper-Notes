@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 图学习论文汇总 · 31篇论文解读
+  ICML2026 图学习论文汇总 · 35篇论文解读
 description: >-
-  31篇ICML2026的图学习方向论文解读，涵盖图神经网络、LLM、扩散模型、推理、异常检测、问答等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  35篇ICML2026的图学习方向论文解读，涵盖图神经网络、LLM、扩散模型、推理、异常检测、问答等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "图学习"
@@ -29,6 +29,8 @@ item_list:
     t: "Deep Neural Sheaf Diffusion"
   - u: "dtkg_dual-track_knowledge_graph-verified_reasoning_framework_for_multi-hop_qa/"
     t: "DTKG: Dual-Track Knowledge Graph-Verified Reasoning Framework for Multi-Hop QA"
+  - u: "eralign_energy-based_representation_alignment_of_gnns_and_llms_on_text-attribute/"
+    t: "ERAlign: Energy-based Representation Alignment of GNNs and LLMs on Text-attributed Graphs"
   - u: "finding_the_minimal_parameter_budget_for_implicit_reasoning_a_data_complexity_dr/"
     t: "Finding the Minimal Parameter Budget for Implicit Reasoning: A Data Complexity Driven Scaling Law for Language Models"
   - u: "fixed_aggregation_features_can_rival_gnns/"
@@ -41,6 +43,8 @@ item_list:
     t: "Generative Representation Learning on Hyper-relational Knowledge Graphs via Masked Discrete Diffusion"
   - u: "gilt_an_llm-free_tuning-free_graph_foundational_model_for_in-context_learning/"
     t: "GILT: An LLM-Free, Tuning-Free Graph Foundational Model for In-Context Learning"
+  - u: "graph-grpo_training_graph_flow_models_with_reinforcement_learning/"
+    t: "Graph-GRPO: Training Graph Flow Models with Reinforcement Learning"
   - u: "identifying_and_correcting_label_noise_for_robust_gnns_via_influence_contradicti/"
     t: "Identifying and Correcting Label Noise for Robust GNNs via Influence Contradiction"
   - u: "kbqa-r1_reinforcing_large_language_models_for_knowledge_base_question_answering/"
@@ -67,25 +71,21 @@ item_list:
     t: "Structure-Centric Graph Foundation Model via Geometric Bases"
   - u: "t-ginee_a_tensor-based_multilayer_graph_representation_learning/"
     t: "T-GINEE: A Tensor-Based Multilayer Graph Representation Learning"
+  - u: "understanding_truncated_positional_encodings_for_graph_neural_networks/"
+    t: "Understanding Truncated Positional Encodings for Graph Neural Networks"
   - u: "unsat_core_prediction_through_polarity-aware_representation_learning_over_clause/"
     t: "Unsat Core Prediction through Polarity-Aware Representation Learning over Clause-Literal Hypergraphs"
-  - u: "view_space_learning_representation_across_arbitrary_graphs/"
-    t: "View Space：跨任意图的表示学习"
-  - u: "what_structural_inductive_bias_helps_transformers_reason_over_knowledge_graphs_a/"
-    t: "What Structural Inductive Bias Helps Transformers Reason Over Knowledge Graphs? A Study with Tabula RASA"
-  - u: "when_do_graph_foundation_models_transfer_a_data-centric_theory/"
-    t: "When Do Graph Foundation Models Transfer? A Data-Centric Theory"
-item_total: 31
+item_total: 35
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🧪 ICML2026** · **31** 篇论文解读
+**🧪 ICML2026** · **35** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (10)](../../CVPR2026/graph_learning/index.md) · [💬 ACL2026 (23)](../../ACL2026/graph_learning/index.md) · [🔬 ICLR2026 (20)](../../ICLR2026/graph_learning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/graph_learning/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/graph_learning/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/graph_learning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/graph_learning/index.md) · [💬 ACL2026 (24)](../../ACL2026/graph_learning/index.md) · [🔬 ICLR2026 (30)](../../ICLR2026/graph_learning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/graph_learning/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/graph_learning/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/graph_learning/index.md)
 
-🔥 **高频主题：** 图神经网络 ×4 · LLM ×4 · 扩散模型 ×3 · 推理 ×3 · 异常检测 ×3
+🔥 **高频主题：** 图神经网络 ×5 · LLM ×4 · 扩散模型 ×3 · 推理 ×3 · 异常检测 ×3
 
 **[Aitchison Embeddings for Learning Compositional Graph Representations](aitchison_embeddings_for_learning_compositional_graph_representations.md)**
 
@@ -115,6 +115,10 @@ item_total: 31
 
 :   DTKG 把多跳问答按"并行事实核验 vs 链式推理"二分，先用 few-shot 分类器把问题路由到合适的分支，并行分支用 KG 三元组核验原子事实，链式分支在 Wikidata 上做 DFS 路径扩展+评分剪枝，外加一套"任务感知"去噪，在 6 个数据集上比 KGR / ToG 等单策略 baseline 提升 5%–29.5%。
 
+**[ERAlign: Energy-based Representation Alignment of GNNs and LLMs on Text-attributed Graphs](eralign_energy-based_representation_alignment_of_gnns_and_llms_on_text-attribute.md)**
+
+:   针对文本属性图（TAG）上 GNN 与 LLM 表示难以对齐的问题，本文用一个**集合能量模型（set EBM）**把两路表示投到共享隐空间、用 Cramér 距离度量分布错位并逐层对齐，再用免采样的 **Energy Discrepancy（ED）** 训练把能量降下去，在 8 个 TAG 数据集上全面取得 SOTA。
+
 **[Finding the Minimal Parameter Budget for Implicit Reasoning: A Data Complexity Driven Scaling Law for Language Models](finding_the_minimal_parameter_budget_for_implicit_reasoning_a_data_complexity_dr.md)**
 
 :   本文从知识图谱补全任务出发，证明并测量了"隐式推理所需的最小参数量"满足一条以**图搜索熵**为复杂度度量的线性 scaling law，每个参数最多支持约 $0.008$ bit 推理信息，颠覆了"模型越大推理越强"的朴素直觉。
@@ -138,6 +142,10 @@ item_total: 31
 **[GILT: An LLM-Free, Tuning-Free Graph Foundational Model for In-Context Learning](gilt_an_llm-free_tuning-free_graph_foundational_model_for_in-context_learning.md)**
 
 :   GILT 把节点/边/图三类少样本图分类统一改写成基于 token 的 in-context learning 问题，用"线性 GCN 提结构 + 非对称原型 token + 两段式注意力 Transformer + 原型头"的纯数值架构，做到既不依赖 LLM 也不需要任何下游 tuning，在 5-shot 设置下超过 LLM-based 和 tuning-based GFM，同时比它们快 1~4 个数量级。
+
+**[Graph-GRPO: Training Graph Flow Models with Reinforcement Learning](graph-grpo_training_graph_flow_models_with_reinforcement_learning.md)**
+
+:   针对"图流模型（GFM）难以用强化学习对齐复杂目标"的痛点，本文提出 Graph-GRPO：先把 GFM 采样中不可微的蒙特卡洛速率矩阵推导成一个**解析表达式**，让整条去噪轨迹可微、可用 GRPO 训练；再配一个**精炼策略**对高分图反复"局部加噪—再生成"，在 50 步去噪下就在 Planar/Tree 上拿到 95.0%/97.5% 的 V.U.N.，并在分子优化（蛋白对接、PMO）上全面超过此前的图 RL 与遗传算法方法。
 
 **[Identifying and Correcting Label Noise for Robust GNNs via Influence Contradiction](identifying_and_correcting_label_noise_for_robust_gnns_via_influence_contradicti.md)**
 
@@ -191,6 +199,10 @@ item_total: 31
 
 :   T-GINEE 结合 **CP 张量分解**与**广义估计方程（GEE）**显式建模多层网络中的**跨层依赖关系**——具有理论保证和优异的可扩展性，在百万级节点图（DBLP、Stack Overflow）上突破其他张量方法 OOM 的限制。
 
+**[Understanding Truncated Positional Encodings for Graph Neural Networks](understanding_truncated_positional_encodings_for_graph_neural_networks.md)**
+
+:   这篇论文从理论上证明：谱编码与游走编码在"完整"形式下表达力等价，但实践中大家用的"截断"版本表达力却天差地别——截断谱编码甚至不再强于 1-WL 测试，因此作者建议"既然要截断，就混用来自不同家族的位置编码"，并在真实数据集上验证了这条经验法则。
+
 **[Unsat Core Prediction through Polarity-Aware Representation Learning over Clause-Literal Hypergraphs](unsat_core_prediction_through_polarity-aware_representation_learning_over_clause.md)**
 
 :   本文把 CNF 公式建模成「子句–文字超图 + 子句关联图」，并在变量级把表示拆成极性不变与极性等变两部分，再用极性翻转一致性正则训练，把 unsat-core 变量预测精度显著拉高一档。
@@ -198,6 +210,10 @@ item_total: 31
 **[View Space：跨任意图的表示学习](view_space_learning_representation_across_arbitrary_graphs.md)**
 
 :   本文提出视图空间概念，通过将图从 2 维（节点-特征）升到 3 维（节点-特征-视图），实现对任意特征维度和语义图的统一表示——首次让图模型像 NLP/CV 基础模型那样无需微调即可跨域推理，在 27 个下游任务上平均超越 GraphAny 8.93%。
+
+**[What Makes a Desired Graph for Relational Deep Learning?](what_makes_a_desired_graph_for_relational_deep_learning.md)**
+
+:   这篇论文指出"把数据库 schema 机械转成图"并不是 GNN 想要的图，它系统性地存在**信息过载**和**语义碎片化**两大病灶；作者提出一个端到端的"结构优化器"，用可学习门控做**信息过滤**、用模板化的**结构注入**补回任务相关连边，在 RELBench 的 26 个任务上既提精度又常常降低推理开销。
 
 **[What Structural Inductive Bias Helps Transformers Reason Over Knowledge Graphs? A Study with Tabula RASA](what_structural_inductive_bias_helps_transformers_reason_over_knowledge_graphs_a.md)**
 

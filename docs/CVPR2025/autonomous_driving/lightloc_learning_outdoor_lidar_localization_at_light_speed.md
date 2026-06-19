@@ -159,9 +159,9 @@ LightLoc在NCLT数据集上同样取得SOTA，位置误差0.87m，进一步验�
 
 - [\[CVPR 2025\] Neural Inverse Rendering from Propagating Light](neural_inverse_rendering_from_propagating_light.md)
 - [\[CVPR 2026\] TACO: Task-Aware Contrastive Learning for Joint LiDAR Localization and 3D Object Detection](../../CVPR2026/autonomous_driving/taco_task-aware_contrastive_learning_for_joint_lidar_localization_and_3d_object_.md)
-- [\[CVPR 2026\] Learning Geometric and Photometric Features from Panoramic LiDAR Scans for Outdoor Place Categorization](../../CVPR2026/autonomous_driving/learning_geometric_and_photometric_features_from_p.md)
 - [\[CVPR 2025\] Learning to Detect Objects from Multi-Agent LiDAR Scans without Manual Labels](learning_to_detect_objects_from_multi-agent_lidar_scans_without_manual_labels.md)
 - [\[CVPR 2025\] PSA-SSL: Pose and Size-aware Self-Supervised Learning on LiDAR Point Clouds](psa-ssl_pose_and_size-aware_self-supervised_learning_on_lidar_point_clouds.md)
+- [\[CVPR 2025\] Single Pixel Image Classification using an Ultrafast Digital Light Projector](single_pixel_image_classification_using_an_ultrafast_digital_light_projector.md)
 
 </div>
 

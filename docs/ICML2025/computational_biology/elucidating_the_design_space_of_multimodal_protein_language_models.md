@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2504.11454](https://arxiv.org/abs/2504.11454)  
 **作者**: Cheng-Yen Hsieh, Xinyou Wang, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, Quanquan Gu (ByteDance Research & UCLA & NJU)
 **代码**: [bytedance.github.io/dplm/dplm-2.1](https://bytedance.github.io/dplm/dplm-2.1)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 多模态蛋白质语言模型, 离散结构tokenizer, 几何感知注意力, 表征对齐, 比特级分类, Flow Matching, 多聚体数据
 
 ## 一句话总结

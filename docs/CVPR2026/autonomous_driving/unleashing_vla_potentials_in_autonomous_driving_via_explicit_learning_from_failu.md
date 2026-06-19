@@ -106,6 +106,7 @@ $$J(\theta) = \mathbb{E}\left[\frac{1}{n}\sum_{i=1}^n J_i + \frac{1}{k}\sum_{j=1
 vision-only 设定下 PDMS 91.0 创新 SOTA；EPDMS 87.1 与近期 SOTA DriveSuprim 持平，说明不是单纯过拟合 PDMS 指标，对更综合的 EPDMS 也有泛化。高层规划上甚至比大得多的 Qwen2.5-VL-72B 高出 51.6% 准确率。
 
 ### 消融实验
+
 | 配置 | PDMS↑ | 说明 |
 |------|---------|------|
 | SFT | 87.4 | 仅监督微调基线 |
@@ -162,11 +163,11 @@ vision-only 设定下 PDMS 91.0 创新 SOTA；EPDMS 87.1 与近期 SOTA DriveSup
 
 ## 相关论文
 
-- [\[CVPR 2026\] Learning Vision-Language-Action World Models for Autonomous Driving](vla_world_learning_vision_language_action_world_models_for_autonomous_driving.md)
+- [\[CVPR 2026\] Counterfactual VLA: Self-Reflective Vision-Language-Action Model with Adaptive Reasoning](counterfactual_vla_self-reflective_vision-language-action_model_with_adaptive_re.md)
 - [\[CVPR 2026\] ActiveAD: Planning-Oriented Active Learning for End-to-End Autonomous Driving](activead_planning-oriented_active_learning_for_end-to-end_autonomous_driving.md)
-- [\[CVPR 2026\] DynamicVGGT: Learning Dynamic Point Maps for 4D Scene Reconstruction in Autonomous Driving](dynamicvggt_learning_dynamic_point_maps_for_4d_scene_reconstruction_in_autonomou.md)
 - [\[CVPR 2026\] Unifying Language-Action Understanding and Generation for Autonomous Driving](unifying_language-action_understanding_and_generation_for_autonomous_driving.md)
-- [\[CVPR 2026\] RaGS: Unleashing 3D Gaussian Splatting from 4D Radar and Monocular Cue for 3D Object Detection](rags_unleashing_3d_gaussian_splatting_from_4d_radar_and_monocular_cue_for_3d_obj.md)
+- [\[CVPR 2026\] EE-RL: Vision Language Guided Reinforcement Learning with Explorer and Expert model for End-to-End Autonomous Driving](ee-rl_vision_language_guided_reinforcement_learning_with_explorer_and_expert_mod.md)
+- [\[AAAI 2026\] Unleashing Semantic and Geometric Priors for 3D Scene Completion](../../AAAI2026/autonomous_driving/unleashing_semantic_and_geometric_priors_for_3d_scene_completion.md)
 
 </div>
 

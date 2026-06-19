@@ -94,6 +94,7 @@ flowchart TD
 效率层面，五棋平均 KLENT 达到 50% 胜率只需 ~75M simulator evaluations，Gumbel AlphaZero 需要 ~300M——**4× 训练效率**。在分支因子大的棋（9x9 Go 42.3、Hex 90.6）上 KLENT 优势最大；在分支小的（Animal Shogi 7.5、Gardner Chess 9.5）上与搜索基线打平。19x19 Go（20-block ResNet）上 KLENT 与 AlphaZero 仍有竞争力。
 
 ### 消融实验
+
 | 变体 | 改动 | 结果 |
 |------|------|------|
 | **KLENT (full)** | 三件套全开 | 5 棋一致最优 |

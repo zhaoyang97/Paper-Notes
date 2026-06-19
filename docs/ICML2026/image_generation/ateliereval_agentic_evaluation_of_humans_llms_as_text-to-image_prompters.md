@@ -97,6 +97,7 @@ flowchart TD
 | T0 MLLMs vs novice humans | 多后端综合 | T0 MLLMs 通常高于 novice humans | MLLM 已能显著提升普通用户 prompting 起点 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Zero-shot judge | MAE 0.72, W1-A 0.64, $\rho=0.56$ | 直接评分偏乐观且区分度差 |

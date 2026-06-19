@@ -96,6 +96,7 @@ Spartex 在长尾下要靠 auxiliary loss 给 encoder 补梯度通路，但辅�
 HASTE 在所有数据集上**稳定优于 Spartex** 同时显存少 1.5–2.5 倍，epoch 时间 Amazon-3M 上从 86:38 砍到 21:39；在最大数据集 LF-Paper2Keywords-8.6M 上 P@1 甚至**反超 dense** 3.9 个点（dense 在该数据集已饱和）。
 
 ### 消融实验
+
 | 配置 | P@1 (Amazon-670K) | 说明 |
 |------|-------------------|------|
 | HASTE 完整 | 48.1 | Semantic grouping + HT split |

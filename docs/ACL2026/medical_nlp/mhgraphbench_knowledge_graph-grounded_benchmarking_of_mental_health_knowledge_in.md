@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2026  
 **arXiv**: [2605.15589](https://arxiv.org/abs/2605.15589)  
 **代码**: 无（cache 未给出开源仓库）  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 心理健康、知识图谱、PrimeKG、关系判断、两跳推理
 
 ## 一句话总结
@@ -91,6 +91,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | AvgE | RP | AvgS | AvgS+E | AvgAll* | 关键信息 |
 |------|------|------|------|------|------|------|
 | GPT-4.1 | 94.73 | 54.96 | 60.79 | 66.46 | 70.28 | 总体最强，证据增强后两跳最好 |
@@ -100,6 +101,7 @@ flowchart TD
 | Qwen2.5-32B | 65.53 | 38.43 | 54.75 | 55.66 | 56.09 | 最强开源模型，但与 GPT 仍差距明显 |
 
 ### 消融实验
+
 | 图级覆盖指标 | GPT-5-mini | GPT-4o | GPT-4.1 | GPT-5.2 | Qwen2.5-32B |
 |------|------|------|------|------|------|
 | CovAvg(E) | 77.81 | 77.36 | 77.91 | 63.92 | 61.47 |
@@ -148,8 +150,8 @@ flowchart TD
 - [\[ACL 2026\] Text-Attributed Knowledge Graph Enrichment with Large Language Models for Medical Concept Representation](text-attributed_knowledge_graph_enrichment_with_large_language_models_for_medica.md)
 - [\[ACL 2026\] MHSafeEval: Role-Aware Interaction-Level Evaluation of Mental Health Safety in Large Language Models](mhsafeeval_role-aware_interaction-level_evaluation_of_mental_health_safety_in_la.md)
 - [\[ACL 2026\] MedFact: Benchmarking the Fact-Checking Capabilities of Large Language Models on Chinese Medical Texts](medfact_benchmarking_the_fact-checking_capabilities_of_large_language_models_on_.md)
-- [\[ICLR 2026\] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA](../../ICLR2026/medical_nlp/counselbench_llm_mental_health_qa.md)
 - [\[ACL 2026\] Responsible Evaluation of AI for Mental Health](responsible_evaluation_of_ai_for_mental_health.md)
+- [\[ACL 2026\] Beyond the Leaderboard: Rethinking Medical Benchmarks for Large Language Models](beyond_the_leaderboard_rethinking_medical_benchmarks_for_large_language_models.md)
 
 </div>
 

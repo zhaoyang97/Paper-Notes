@@ -2,9 +2,10 @@
 title: >-
   [论文解读] Beyond Global Similarity: Multi-Conditional Retrieval for Fine-Grained Cross-Modal Understanding
 description: >-
-  [CVPR 2026][多条件检索] 本文提出 MCMR 基准——一个要求"图像与文本上的多个互补条件同时满足才算命中"的细粒度跨模态商品检索数据集，并系统评测了主流 MLLM 检索器与 MLLM-as-Reranker，发现现有检索器擅长粗粒度召回但难以做多条件的精排，而显式逐对验证的 pointwise 重排能大幅提升 top 排序质量。
+  [CVPR 2026][多模态VLM][多条件检索] 本文提出 MCMR 基准——一个要求"图像与文本上的多个互补条件同时满足才算命中"的细粒度跨模态商品检索数据集，并系统评测了主流 MLLM 检索器与 MLLM-as-Reranker，发现现有检索器擅长粗粒度召回但难以做多条件的精排，而显式逐对验证的 pointwise 重排能大幅提升 top 排序质量。
 tags:
   - "CVPR 2026"
+  - "多模态VLM"
   - "多条件检索"
   - "跨模态对齐"
   - "MLLM 检索"
@@ -144,11 +145,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] CoV-Align: Efficient Fine-grained Cross-Modal Alignment with Cohesive Visual Semantics Priority](cov-align_efficient_fine-grained_cross-modal_alignment_with_cohesive_visual_sema.md)
+- [\[CVPR 2026\] EagleNet: Energy-Aware Fine-Grained Relationship Learning Network for Text-Video Retrieval](eaglenet_energy-aware_fine-grained_relationship_learning_network_for_text-video_.md)
+- [\[CVPR 2026\] Quota-Calibrated Fine-Grained Alignment with Context-Aware Marginals for Text-based Person Retrieval](quota-calibrated_fine-grained_alignment_with_context-aware_marginals_for_text-ba.md)
+- [\[CVPR 2026\] SketchVL: Policy Optimization via Fine-Grained Credit Assignment for Chart Understanding and More](sketchvl_policy_optimization_via_fine-grained_credit_assignment_for_chart_unders.md)
 - [\[CVPR 2026\] ArtiMuse: Fine-Grained Image Aesthetics Assessment with Joint Scoring and Expert-Level Understanding](artimuse_fine-grained_image_aesthetics_assessment_with_joint_scoring_and_expert-.md)
-- [\[CVPR 2026\] Cross-View Distillation and Adaptive Masking for Incomplete Multi-View Multi-Label Classification](cross-view_distillation_and_adaptive_masking_for_incomplete_multi-view_multi-lab.md)
-- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](../../ACL2025/others/tuna_temporal_understanding.md)
-- [\[CVPR 2026\] Rethinking BCE Loss for Multi-Label Image Recognition with Fine-Tuning](rethinking_bce_loss_for_multi-label_image_recognition_with_fine-tuning.md)
-- [\[CVPR 2026\] ID-Sim: An Identity-Focused Similarity Metric](id-sim_an_identity-focused_similarity_metric.md)
 
 </div>
 

@@ -144,7 +144,7 @@ CAM 层注入消融（HCP 数据集）：
 - [\[CVPR 2025\] EquivAnIA: A Spectral Method for Rotation-Equivariant Anisotropic Image Analysis](equivania_a_spectral_method_for_rotation-equivariant_anisotropic_image_analysis.md)
 - [\[CVPR 2025\] SACB-Net: Spatial-Awareness Convolutions for Medical Image Registration](sacb-net_spatial-awareness_convolutions_for_medical_image_registration.md)
 - [\[CVPR 2025\] WISE: A Framework for Gigapixel Whole-Slide-Image Lossless Compression](wise_a_framework_for_gigapixel_whole-slide-image_lossless_compression.md)
-- [\[ECCV 2024\] Adaptive Correspondence Scoring for Unsupervised Medical Image Registration](../../ECCV2024/medical_imaging/adaptive_correspondence_scoring_for_unsupervised_medical_ima.md)
+- [\[ICLR 2026\] A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration](../../ICLR2026/medical_imaging/a_scalable_distributed_framework_for_multimodal_gigavoxel_image_registration.md)
 - [\[CVPR 2025\] CycleULM: A Unified Label-Free Deep Learning Framework for Ultrasound Localisation Microscopy](cycleulm_a_unified_label-free_deep_learning_framework_for_ultrasound_localisatio.md)
 
 </div>

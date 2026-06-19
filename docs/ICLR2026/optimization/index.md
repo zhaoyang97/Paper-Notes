@@ -1,103 +1,180 @@
 ---
 title: >-
-  ICLR2026 优化/理论论文汇总 · 47篇论文解读
+  ICLR2026 优化/理论论文汇总 · 72篇论文解读
 description: >-
-  47篇ICLR2026的优化/理论方向论文解读，涵盖联邦学习、模型压缩、推理、LLM、对齐/RLHF、持续学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  72篇ICLR2026的优化/理论方向论文解读，涵盖联邦学习、LLM、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "优化/理论"
   - "论文解读"
   - "论文笔记"
   - "联邦学习"
-  - "模型压缩"
-  - "推理"
   - "LLM"
   - "对齐/RLHF"
-  - "持续学习"
 item_list:
+  - u: "a_block_coordinate_descent_method_for_nonsmooth_composite_optimization_under_ort/"
+    t: "A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints"
   - u: "a_convergence_analysis_of_adaptive_optimizers_under_floating-point_quantization/"
     t: "A Convergence Analysis of Adaptive Optimizers under Floating-Point Quantization"
+  - u: "a_physics-inspired_optimizer_velocity_regularized_adam/"
+    t: "A Physics-Inspired Optimizer: Velocity Regularized Adam"
+  - u: "a_scalable_constant-factor_approximation_algorithm_for_w_p_optimal_transport/"
+    t: "A Scalable Constant-Factor Approximation Algorithm for $W_p$ Optimal Transport"
+  - u: "a_schrödinger_eigenfunction_method_for_long-horizon_stochastic_optimal_control/"
+    t: "A Schrödinger Eigenfunction Method for Long-Horizon Stochastic Optimal Control"
+  - u: "a_tale_of_two_geometries_adaptive_optimizers_and_non-euclidean_descent/"
+    t: "A Tale of Two Geometries: Adaptive Optimizers and Non-Euclidean Descent"
+  - u: "adaptive_acquisition_selection_for_bayesian_optimization_with_large_language_mod/"
+    t: "Adaptive Acquisition Selection for Bayesian Optimization with Large Language Models"
+  - u: "adaptive_gradient_descent_on_riemannian_manifolds_and_its_applications_to_gaussi/"
+    t: "Adaptive gradient descent on Riemannian manifolds and its applications to Gaussian variational inference"
   - u: "adaptive_rollout_allocation_for_online_reinforcement_learning_with_verifiable_re/"
     t: "Adaptive Rollout Allocation for Online RL with Verifiable Rewards (VIP)"
+  - u: "align-sam_seeking_flatter_minima_for_better_cross-subset_alignment/"
+    t: "Align-SAM: Seeking Flatter Minima for Better Cross-Subset Alignment"
+  - u: "arbitrary-order_block_signsgd_for_memory-efficient_llm_fine-tuning/"
+    t: "Arbitrary-Order Block SignSGD for Memory-Efficient LLM Fine-Tuning"
+  - u: "bayesian_parameter_shift_rules_in_variational_quantum_eigensolvers/"
+    t: "Bayesian Parameter Shift Rules in Variational Quantum Eigensolvers"
+  - u: "beyond_aggregation_guiding_clients_in_heterogeneous_federated_learning/"
+    t: "Beyond Aggregation: Guiding Clients in Heterogeneous Federated Learning"
+  - u: "beyond_short_steps_in_frank-wolfe_algorithms/"
+    t: "Beyond Short Steps in Frank-Wolfe Algorithms"
+  - u: "beyond_the_heatmap_a_rigorous_evaluation_of_component_impact_in_mcts-based_tsp_s/"
+    t: "Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers"
+  - u: "bilevel_optimization_with_lower-level_uniform_convexity_theory_and_algorithm/"
+    t: "Bilevel Optimization with Lower-Level Uniform Convexity: Theory and Algorithm"
+  - u: "binomial_gradient-based_meta-learning_for_enhanced_meta-gradient_estimation/"
+    t: "Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation"
+  - u: "bogrape_bayesian_optimization_over_graphs_with_shortest-path_encoded/"
+    t: "BoGrape: Bayesian optimization over graphs with shortest-path encoded"
+  - u: "calm_co-evolution_of_algorithms_and_language_model_for_automatic_heuristic_desig/"
+    t: "CALM: Co-evolution of Algorithms and Language Model for Automatic Heuristic Design"
+  - u: "cautious_optimizers_improving_training_with_one_line_of_code/"
+    t: "Cautious Optimizers: Improving Training with One Line of Code"
+  - u: "cautious_weight_decay/"
+    t: "Cautious Weight Decay"
   - u: "celo2_towards_learned_optimization_free_lunch/"
     t: "Celo2: Towards Learned Optimization Free Lunch"
+  - u: "clipped_gradient_methods_for_nonsmooth_convex_optimization_under_heavy-tailed_no/"
+    t: "Clipped Gradient Methods for Nonsmooth Convex Optimization under Heavy-Tailed Noise: A Refined Analysis"
   - u: "cogflow_bridging_perception_and_reasoning_through_knowledge_internalization_for_/"
     t: "CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving"
   - u: "cold-steer_steering_large_language_models_via_in-context_one-step_learning_dynam/"
     t: "COLD-Steer: Steering Large Language Models via In-Context One-step Learning Dynamics"
+  - u: "communication-efficient_decentralized_optimization_via_double-communication_symm/"
+    t: "Communication-Efficient Decentralized Optimization via Double-Communication Symmetric ADMM"
+  - u: "conditioned_initialization_for_attention/"
+    t: "Conditioned Initialization for Attention"
   - u: "conformal_prediction_adaptive_to_unknown_subpopulation_shifts/"
     t: "Conformal Prediction Adaptive to Unknown Subpopulation Shifts"
   - u: "constraint_matters_multi-modal_representation_for_reducing_mixed-integer_linear_/"
     t: "Constraint Matters: Multi-Modal Representation for Reducing Mixed-Integer Linear programming"
   - u: "convergence_of_muon_with_newton-schulz/"
     t: "Convergence of Muon with Newton-Schulz"
-  - u: "convex_dominance_in_deep_learning_i_a_scaling_law_of_loss_and_learning_rate/"
-    t: "Convex Dominance in Deep Learning I: A Scaling Law of Loss and Learning Rate"
-  - u: "deepafl_deep_analytic_federated_learning/"
-    t: "DeepAFL: Deep Analytic Federated Learning"
-  - u: "directional_convergence_benign_overfitting_of_gradient_descent_in_leaky_relu_two/"
-    t: "Directional Convergence, Benign Overfitting of Gradient Descent in leaky ReLU two-layer Neural Networks"
-  - u: "directional_sheaf_hypergraph_networks_unifying_learning_on_directed_and_undirect/"
-    t: "Directional Sheaf Hypergraph Networks: Unifying Learning on Directed and Undirected Hypergraphs"
-  - u: "dual_optimistic_ascent_pi_control_is_the_augmented_lagrangian_method_in_disguise/"
-    t: "Dual Optimistic Ascent (PI Control) is the Augmented Lagrangian Method in Disguise"
-  - u: "entropic_confinement_and_mode_connectivity_in_overparameterized_neural_networks/"
-    t: "Entropic Confinement and Mode Connectivity in Overparameterized Neural Networks"
-  - u: "exploring_diverse_generation_paths_via_inference-time_stiefel_activation_steerin/"
-    t: "Exploring Diverse Generation Paths via Inference-time Stiefel Activation Steering"
-  - u: "faster_gradient_methods_for_highly-smooth_stochastic_bilevel_optimization/"
-    t: "Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization"
-  - u: "feddag_clustered_federated_learning_via_global_data_and_gradient_integration_for/"
-    t: "FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments"
-  - u: "frontierco_real-world_and_large-scale_evaluation_of_machine_learning_solvers_for/"
-    t: "FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization"
-  - u: "generalization_below_the_edge_of_stability_the_role_of_data_geometry/"
-    t: "Generalization Below the Edge of Stability: The Role of Data Geometry"
-  - u: "gradient-sign_masking_for_task_vector_transport_across_pre-trained_models/"
-    t: "Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models"
-  - u: "implicit_bias_of_per-sample_adam_on_separable_data_departure_from_the_full-batch/"
-    t: "Implicit Bias of Per-sample Adam on Separable Data: Departure from the Full-batch Regime"
-  - u: "incentives_in_federated_learning_with_heterogeneous_agents/"
-    t: "Incentives in Federated Learning with Heterogeneous Agents"
-  - u: "lca_local_classifier_alignment_for_continual_learning/"
-    t: "LCA: Local Classifier Alignment for Continual Learning"
-  - u: "learning_to_recall_with_transformers_beyond_orthogonal_embeddings/"
-    t: "Learning to Recall with Transformers Beyond Orthogonal Embeddings"
-  - u: "learning_to_solve_orienteering_problem_with_time_windows_and_variable_profits/"
-    t: "Learning to Solve Orienteering Problem with Time Windows and Variable Profits"
-  - u: "markovian_transformers_for_informative_language_modeling/"
-    t: "Markovian Transformers for Informative Language Modeling"
-  - u: "minor_first_major_last_a_depth-induced_implicit_bias_of_sharpness-aware_minimiza/"
-    t: "Minor First, Major Last: A Depth-Induced Implicit Bias of Sharpness-Aware Minimization"
-  - u: "mt-dao_multi-timescale_distributed_adaptive_optimizers_with_local_updates/"
-    t: "MT-DAO: Multi-Timescale Distributed Adaptive Optimizers with Local Updates"
-  - u: "neural_networks_learn_generic_multi-index_models_near_information-theoretic_limi/"
-    t: "Neural Networks Learn Generic Multi-Index Models Near Information-Theoretic Limit"
-  - u: "non-asymptotic_analysis_of_efficiency_in_conformalized_regression/"
-    t: "Non-Asymptotic Analysis of Efficiency in Conformalized Regression"
-item_total: 47
+item_total: 72
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🔬 ICLR2026** · **47** 篇论文解读
+**🔬 ICLR2026** · **72** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (39)](../../CVPR2026/optimization/index.md) · [🧪 ICML2026 (64)](../../ICML2026/optimization/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (126)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (61)](../../ICML2025/optimization/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/optimization/index.md) · [🧪 ICML2026 (88)](../../ICML2026/optimization/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (126)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (61)](../../ICML2025/optimization/index.md)
 
-🔥 **高频主题：** 联邦学习 ×3
+🔥 **高频主题：** 联邦学习 ×4 · LLM ×3 · 对齐/RLHF ×2
+
+**[A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints](a_block_coordinate_descent_method_for_nonsmooth_composite_optimization_under_ort.md)**
+
+:   本文提出 OBCD，一种在正交约束（Stiefel 流形）下求解"光滑 + 非光滑"复合优化的块坐标下降算法：每次只更新解矩阵的 $k\ge 2$ 行、把问题压成一个 $k\times k$ 的小型正交约束子问题精确求解，从而做到天然可行、单步开销低，同时给出比经典临界点更强的"block-$k$ 稳定点"最优性、$O(1/\epsilon)$ 迭代复杂度以及 KL 条件下的末迭代收敛率。
 
 **[A Convergence Analysis of Adaptive Optimizers under Floating-Point Quantization](a_convergence_analysis_of_adaptive_optimizers_under_floating-point_quantization.md)**
 
 :   本文建立了首个在浮点量化下分析自适应优化器收敛性的理论框架，对梯度、权重和优化器状态（动量、二阶矩）同时施加相对误差量化模型，证明了量化 Adam 和 Muon 在尾数长度仅需对数增长于迭代次数时即可保持与全精度相同的 $\tilde{O}(T^{-1/4})$ 收敛率，并揭示了 Adam 对权重和二阶矩量化高度敏感而 Muon 更为鲁棒的理论机制。
 
+**[A Physics-Inspired Optimizer: Velocity Regularized Adam](a_physics-inspired_optimizer_velocity_regularized_adam.md)**
+
+:   本文提出 VRAdam（Velocity-Regularized Adam），把"四次方动能项"这一物理稳定机制翻译成一个**随速度自动收缩的全局动态学习率** $\eta_t=\alpha_0/(1+\min(\beta_3\|v_t\|^2,\alpha_1))$ 嵌进 AdamW，在权重更新过大时自动减速、抑制稳定边缘附近的震荡，并配上严格的 Lyapunov 稳定性与 $O(\ln N/\sqrt N)$ 收敛证明，在图像分类、语言建模、GFlowNets、GPT-2 预训练与 LLM 微调上普遍优于 AdamW。
+
+**[A Scalable Constant-Factor Approximation Algorithm for $W_p$ Optimal Transport](a_scalable_constant-factor_approximation_algorithm_for_w_p_optimal_transport.md)**
+
+:   本文给出第一个对**所有** $p\in[1,\infty]$（含 $p=\infty$）都成立的、真正平方时间的常数因子近似算法：在任意度量空间上，用 $O(n^2+(n^{3/2}\varepsilon^{-1}\log n\log\Delta)^{1+o(1)}\log U)$ 时间算出一个 $(4+\varepsilon)$-近似的 $W_p$ 最优传输方案，把此前 $O(\log n)$ 的近似比一举压成常数。
+
+**[A Schrödinger Eigenfunction Method for Long-Horizon Stochastic Optimal Control](a_schrödinger_eigenfunction_method_for_long-horizon_stochastic_optimal_control.md)**
+
+:   对于「无控漂移是某势函数梯度」这一类随机最优控制（SOC）问题，本文证明其线性化后的 HJB 算子与一个谱纯离散的薛定谔算子酉等价，于是长程最优控制可由该算子的**最大特征函数**直接给出（修正项随时间跨度指数衰减）；据此给出对称 LQR 的闭式解，并提出去掉「隐式重加权」偏差的相对特征函数损失，把长程 SOC 的内存/时间复杂度从 $O(Td)$ 降到 $O(d)$，控制精度提升约一个数量级。
+
+**[A Tale of Two Geometries: Adaptive Optimizers and Non-Euclidean Descent](a_tale_of_two_geometries_adaptive_optimizers_and_non-euclidean_descent.md)**
+
+:   这篇论文用"两种几何 / 两种平滑度"统一刻画了 Adam/Shampoo 这类自适应优化器与 SignGD/Muon 这类归一化最速下降（NSD）的关系：两者都在利用损失函数的非欧几何，但自适应优化器依赖一个更强的「自适应平滑度」$\Lambda_{\mathcal H}(f)$，而 NSD 依赖标准平滑度 $L_{\|\cdot\|_{\mathcal H}}(f)$；论文把自适应平滑度的分析从凸推广到非凸，并证明这个更强的假设确实能换来"标准平滑度下拿不到"的好处——Nesterov 加速率 $\tilde O(T^{-2})$ 与维度无关的随机收敛率。
+
+**[Adaptive Acquisition Selection for Bayesian Optimization with Large Language Models](adaptive_acquisition_selection_for_bayesian_optimization_with_large_language_mod.md)**
+
+:   本文提出 LMABO，把预训练大语言模型当作贝叶斯优化（BO）过程的"零样本在线策略师"——每一轮把优化状态序列化成结构化文本提示，让 LLM 从一个采集函数（AF）组合中挑出当下最合适的那个；在 50 个基准上稳定超过静态、自适应组合与其它 LLM-based 基线。
+
+**[Adaptive gradient descent on Riemannian manifolds and its applications to Gaussian variational inference](adaptive_gradient_descent_on_riemannian_manifolds_and_its_applications_to_gaussi.md)**
+
+:   本文提出 RAdaGD——一族无需线搜索的黎曼流形自适应梯度下降方法，通过在线估计局部光滑常数自动调步长，在"局部测地光滑 + 广义测地凸"的弱假设下取得非遍历收敛率 $f(x_k)-f(x^\star)\le O(1/k)$，并据此给出高斯变分推断在目标对数密度**不满足全局 L-光滑**时的首个收敛保证。
+
 **[Adaptive Rollout Allocation for Online RL with Verifiable Rewards (VIP)](adaptive_rollout_allocation_for_online_reinforcement_learning_with_verifiable_re.md)**
 
 :   提出 VIP（Variance-Informed Predictive allocation），通过高斯过程预测每个 prompt 的成功概率，据此用凸优化在计算预算约束下分配 rollout 数量以最小化梯度方差，在数学推理任务上一致提升 GRPO/RLOO 的采样效率，AIME24/25 上 Pass@32 最高提升 12.3 个点。
 
+**[Align-SAM: Seeking Flatter Minima for Better Cross-Subset Alignment](align-sam_seeking_flatter_minima_for_better_cross-subset_alignment.md)**
+
+:   Align-SAM 把"泛化"重新理解为"同分布两个随机子集上的更新要彼此一致"，在 SAM 寻找平坦极小值的基础上，额外引入一个辅助 mini-batch，让主训练 batch 的梯度与辅助 batch 的梯度变得更"同向"（congruent），从而在分类、噪声标签、小样本迁移、元学习等多种设定下稳定地小幅超过 SAM/ASAM。
+
+**[Arbitrary-Order Block SignSGD for Memory-Efficient LLM Fine-Tuning](arbitrary-order_block_signsgd_for_memory-efficient_llm_fine-tuning.md)**
+
+:   本文提出 ABSignSGD——把 SignSGD 和"任意顺序的块坐标更新"结合起来的优化器：每步只更新一个 Transformer 层块、只存这一块的状态、只用梯度的符号更新，从而把全参数微调的显存压到接近推理水平，同时配一个深度偏置的块选择策略再省 20% 运行时；并给出统一的 $O(1/\sqrt{K})$ 收敛证明和一个只传符号、通信量降 960× 的多卡 majority-vote 变体。
+
+**[Bayesian Parameter Shift Rules in Variational Quantum Eigensolvers](bayesian_parameter_shift_rules_in_variational_quantum_eigensolvers.md)**
+
+:   把变分量子本征求解器（VQE）里用于估梯度的参数移位规则（PSR）改写成贝叶斯版本——用带 VQE 核的导数高斯过程来估梯度，从而能在任意位置复用历史观测、并拿到梯度的后验不确定度；再据此提出"梯度置信区域（GradCoRe）"自适应分配测量次数，使 VQE 的 SGD 优化在相同测量预算下显著更快收敛、超过包括 NFT 系在内的现有 SOTA。
+
+**[Beyond Aggregation: Guiding Clients in Heterogeneous Federated Learning](beyond_aggregation_guiding_clients_in_heterogeneous_federated_learning.md)**
+
+:   FedDRM 把联邦学习中服务器的角色从「被动聚合器」升级为「智能路由器」——用密度比模型加经验似然把异构性建模成一个可学习的客户端分类任务，从而在训练好各客户端本地模型的同时，让服务器能把新查询直接派给最擅长它的客户端，在 CIFAR 与真实眼底医学数据上同时提升本地精度与系统级路由精度。
+
+**[Beyond Short Steps in Frank-Wolfe Algorithms](beyond_short_steps_in_frank-wolfe_algorithms.md)**
+
+:   本文把 Frank-Wolfe（FW）算法的分析从"只看原始进展的短步长"升级到"看原始-对偶间隙的统一框架"，由此提出一个借用在线学习"乐观"思想的 Optimistic FW 算法（带 $O(LD^2/t)$ 的原始-对偶收敛界与可计算停机准则），并推导出一类把短步长推广到对偶间隙、且能迁移到梯度下降的"原始-对偶短步长"，实验上乐观变体在收敛阶上显著超过 heavy-ball FW、vanilla FW 乃至自适应线搜索。
+
+**[Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers](beyond_the_heatmap_a_rigorous_evaluation_of_component_impact_in_mcts-based_tsp_s.md)**
+
+:   这是一篇"打假"性质的评估论文：作者系统拆解"Heatmap + MCTS"求解 TSP 这条主流范式，用大量实验证明大家拼命卷的"热力图复杂度"其实没那么关键——被长期忽视的 MCTS 搜索超参才是性能主导因素，一个零学习、零参数的 k-近邻先验热力图（GT-Prior）配上调好的 MCTS 就能追平甚至超过 DIFUSCO 这类复杂学习模型。
+
+**[Bilevel Optimization with Lower-Level Uniform Convexity: Theory and Algorithm](bilevel_optimization_with_lower-level_uniform_convexity_theory_and_algorithm.md)**
+
+:   本文用"下层一致凸（LLUC，指数 $p\ge 2$）"在下层强凸（$p=2$）与一般凸之间架起一座可解的桥梁，建立了一致凸条件下的隐式微分定理（给出超梯度显式公式与 Hölder 光滑性），并设计随机算法 UniBiO，证明其找到 $\epsilon$-稳定点的 oracle 复杂度为 $\widetilde{O}(\epsilon^{-5p+6})$，当 $p=2$ 退化为最优的 $\widetilde{O}(\epsilon^{-4})$。
+
+**[Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation](binomial_gradient-based_meta-learning_for_enhanced_meta-gradient_estimation.md)**
+
+:   针对 MAML 这类基于梯度的元学习中"元梯度反向传播随适应步数 K 线性变贵"的痛点，本文把元梯度的连乘式 $\prod_{k}(I-\alpha H_k)$ 做**截断二项式展开**而不是简单截断尾部，得到的估计器 BinomMAML 在相同截断阶数 $L$ 下保留更多二阶信息、误差以**超指数速度**随 $L$ 衰减，且可用并行 HVP 计算，在 miniImageNet/tieredImageNet 上以略增开销换来明显更接近完整 MAML 的精度。
+
+**[BoGrape: Bayesian optimization over graphs with shortest-path encoded](bogrape_bayesian_optimization_over_graphs_with_shortest-path_encoded.md)**
+
+:   BoGrape 把"在图结构本身上做贝叶斯优化"这件难事，转化成一个混合整数规划（MIP）问题：用决策变量精确刻画未知图的最短路结构，再把最短路图核与高斯过程后验编码进 MIP，从而对采集函数做**全局**优化、并能塞进分子可行性等任务约束，在合成基准和 QM7/QM9 分子设计上都打过现有图 BO 方法。
+
+**[CALM: Co-evolution of Algorithms and Language Model for Automatic Heuristic Design](calm_co-evolution_of_algorithms_and_language_model_for_automatic_heuristic_desig.md)**
+
+:   CALM 让"生成启发式的提示词进化"和"底层 LLM 本身"同时进化——在 LLM 驱动的进化式启发式设计循环里，把每轮"提示-响应-性能"三元组当作强化学习数据，用 GRPO 在线微调一个本地 7B INT4 模型，使得单张 24GB 显卡跑出来的启发式在多个组合优化任务上超过依赖 GPT-4o-mini API 的 SOTA 方法。
+
+**[Cautious Optimizers: Improving Training with One Line of Code](cautious_optimizers_improving_training_with_one_line_of_code.md)**
+
+:   给任意动量优化器加一行代码：只在「更新方向」与「当前梯度」符号一致的坐标上更新，否则把这些坐标的更新清零并按比例放大补偿，由此得到 C-AdamW / C-Lion 等"谨慎版"，在不动原超参的前提下持续加速 LLM 预训练和图像分类。
+
+**[Cautious Weight Decay](cautious_weight_decay.md)**
+
+:   本文提出 Cautious Weight Decay（CWD），一行代码、与优化器无关的改动：只在「优化器更新方向」与「参数符号」一致的坐标上施加权重衰减，从而保留原始损失目标（不再隐式优化一个被正则化/约束的代理目标），并在到达驻点流形后产生滑模动力学、趋向局部 Pareto 最优的小范数解；在 ADAMW / LION / MUON 上不加新超参即可一致降低语言模型预训练和 ImageNet 的最终 loss 与提升精度。
+
 **[Celo2: Towards Learned Optimization Free Lunch](celo2_towards_learned_optimization_free_lunch.md)**
 
 :   提出 Celo2——一个仅用 4.5 GPU 小时元训练的学习型优化器，通过归一化 MLP 更新规则和任务增强等简单配方，实现了到 10 亿参数级别模型（GPT-3 XL 1.3B）的稳定泛化（比元训练分布大 6 个数量级），性能超越了此前耗费 4000 TPU-month 的 VeLO 和精心调优的 AdamW 基线。
+
+**[Clipped Gradient Methods for Nonsmooth Convex Optimization under Heavy-Tailed Noise: A Refined Analysis](clipped_gradient_methods_for_nonsmooth_convex_optimization_under_heavy-tailed_no.md)**
+
+:   这篇论文对重尾噪声下的 Clipped SGD 给出一套更精细的收敛分析：通过更聪明地使用 Freedman 不等式、给出更紧的裁剪误差界，把已知最优的高概率收敛率再提速一个 $\mathrm{poly}(1/d_{\mathrm{eff}})$ 因子（$d_{\mathrm{eff}}$ 是作者定义的"广义有效维数"），并在期望收敛上得到能**突破已知下界**、且与作者新证下界**完全匹配**（即最优）的新速率。
 
 **[CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving](cogflow_bridging_perception_and_reasoning_through_knowledge_internalization_for_.md)**
 
@@ -106,6 +183,14 @@ item_total: 47
 **[COLD-Steer: Steering Large Language Models via In-Context One-step Learning Dynamics](cold-steer_steering_large_language_models_via_in-context_one-step_learning_dynam.md)**
 
 :   提出 COLD-Steer，通过近似梯度下降在上下文示例上产生的表征变化来实现无训练的 LLM 激活转向，在仅用 50 分之一样本量的情况下达到 95% 的转向效果。
+
+**[Communication-Efficient Decentralized Optimization via Double-Communication Symmetric ADMM](communication-efficient_decentralized_optimization_via_double-communication_symm.md)**
+
+:   针对无中心节点的去中心化复合优化，本文提出 DS-ADMM：用一对"对称共识约束"把"每次迭代两轮通信"嵌进 ADMM 的问题结构里，再配对称 ADMM 加速；虽然单次迭代通信翻倍，却让总迭代数大幅下降，从而整体通信量反而更省，并在度量次正则（metric subregularity）这一弱条件下证明线性收敛。
+
+**[Conditioned Initialization for Attention](conditioned_initialization_for_attention.md)**
+
+:   这篇论文从理论上把注意力层的优化稳定性归因到其 Jacobian 的条件数，进而提出"条件化初始化"——把 value 矩阵初始化成矩形单位阵、把 query/key 矩阵初始化成半正交阵（两者条件数都为 1），从而在训练起点收紧 Jacobian 条件数的上界，在图像分类、检测分割、语言建模、长序列等多种 Transformer 任务上一致地加速收敛（快 20–30%）并提升泛化。
 
 **[Conformal Prediction Adaptive to Unknown Subpopulation Shifts](conformal_prediction_adaptive_to_unknown_subpopulation_shifts.md)**
 
@@ -163,9 +248,17 @@ item_total: 47
 
 :   提出"数据可碎性"（data shatterability）原理统一解释数据几何如何控制梯度下降在稳定性边缘（EoS）附近的隐式正则化强度：对 Beta(α) 径向分布族推导出依赖 α 的泛化上下界谱，对低维子空间混合分布证明泛化率适应内在维度 $m$ 而非环境维度 $d$。
 
+**[Gradient-Based Diversity Optimization with Differentiable Top-$k$ Objective](gradient-based_diversity_optimization_with_differentiable_top-k_objective.md)**
+
+:   把"top-$k$ 集合的多样性"这个本来不可导的目标，用可微排序（soft-rank）松弛成可以直接塞进梯度训练的损失，再用 MGDA 自适应地平衡"相关性 vs 多样性"两个对立梯度，从而无需改模型结构、无需后处理就能在训练里同时优化两者；在五个推荐数据集上以几乎不掉精度的代价显著提升多样性。
+
 **[Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models](gradient-sign_masking_for_task_vector_transport_across_pre-trained_models.md)**
 
 :   提出 GradFix 方法，利用目标预训练模型上极少量样本计算的梯度符号构建二值掩码，逐坐标过滤源模型的任务向量，仅保留与目标损失景观下降方向一致的分量，在无需任何微调的情况下实现跨预训练模型的任务知识迁移，理论上提供严格的一阶下降保证，在视觉与语言基准上均大幅超越朴素迁移和少样本微调。
+
+**[High Probability Bounds for Non-Convex Stochastic Optimization with Momentum](high_probability_bounds_for_non-convex_stochastic_optimization_with_momentum.md)**
+
+:   本文为带动量的随机梯度下降（SGDM）在非凸设定下补齐了**高概率**的收敛界与泛化界：通过把噪声放宽到 sub-Weibull 重尾、并逐级叠加 PL 与 Bernstein 结构假设，得到一条从 $\tilde O(1/\sqrt T)$、$\tilde O(1/T)$ 到维度无关 $\tilde O(1/n^2)$ 的完整界层级，其中 SGDM 的泛化界属业界首次。
 
 **[Implicit Bias of Per-sample Adam on Separable Data: Departure from the Full-batch Regime](implicit_bias_of_per-sample_adam_on_separable_data_departure_from_the_full-batch.md)**
 
@@ -254,6 +347,10 @@ item_total: 47
 **[SCRAPL: Scattering Transform with Random Paths for Machine Learning](scrapl_scattering_transform_with_random_paths_for_machine_learning.md)**
 
 :   针对多变量散射变换(ST)作为可微损失函数时因路径数P过多导致计算代价过高的问题，提出SCRAPL——每步仅随机采样一条路径并通过P-Adam（路径自适应动量）、P-SAGA（路径随机平均梯度）和θ-重要性采样三种方差缩减技术来稳定梯度，在无监督声音匹配任务上以接近全路径ST的精度、MSS级别的低计算成本实现了Pareto最优。
+
+**[Submodular Function Minimization with Dueling Oracle](submodular_function_minimization_with_dueling_oracle.md)**
+
+:   在只能拿到"两个集合谁的函数值更大"这种带噪声成对比较反馈（dueling oracle）、完全没有函数值的情况下做子模函数最小化，作者用 Lovász 扩展 + SGD 构造子梯度估计器，针对线性传递函数给出 $O(n^{3/2}/\sqrt{T})$ 的误差界并配上匹配下界（在受限算法类里最优），针对 sigmoid 传递函数用 Firth 偏差校正法给出 $O(n^{7/5}/T^{2/5})$ 的误差界。
 
 **[Test-Time Meta-Adaptation with Self-Synthesis](test-time_meta-adaptation_with_self-synthesis.md)**
 

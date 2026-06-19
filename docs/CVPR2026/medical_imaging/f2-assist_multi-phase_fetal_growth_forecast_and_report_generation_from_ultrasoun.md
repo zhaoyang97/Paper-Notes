@@ -36,6 +36,7 @@ F$^2$-Assist 把多次产检的多器官超声图像 + 连续生物测量值（H
 **核心 idea**：在一个统一 MLLM 内部，把多视角超声序列与**时序嵌入**、**数值嵌入**联合融合——用三个紧耦合模块分别打掉三个难点，让 LLM 既能写报告又能精确报数。同时作者贡献了首个大规模多期多器官胎儿超声数据集 GrowthFetus（2000 个胎儿、9280 次检查）来支撑这个任务。
 
 ## 方法详解
+
 ### 整体框架
 F$^2$-Assist 是一个统一的纵向推理框架。每个患者有 $T$ 个历史孕期，第 $t$ 期观测到三个标准切面 $I_t = \{I_t^{(p)} \mid p \in \{\text{brain}, \text{abdomen}, \text{femur}\}\}$ 以及对应的生物测量向量 $x_t = (\text{HC}, \text{AC}, \text{BPD}, \text{FL}) \in \mathbb{R}^4$。目标是把整段观测序列映射成下一期的数值和报告：$(I_1, x_1, \dots, I_T, x_T) \mapsto (\hat{x}_{T+1}, \hat{Y}_{T+1})$。
 
@@ -164,8 +165,8 @@ GPA 设计消融（Table 4）：No numeric（仅图像）R²=0.29、Digit-as-Tex
 ## 相关论文
 
 - [\[CVPR 2026\] CURE: Curriculum-guided Multi-task Training for Reliable Anatomy Grounded Report Generation](cure_curriculum-guided_multi-task_training_for_reliable_anatomy_grounded_report_.md)
+- [\[ICLR 2026\] Fetal-Gauge: A Benchmark for Assessing Vision-Language Models in Fetal Ultrasound](../../ICLR2026/medical_imaging/fetal-gauge_a_benchmark_for_assessing_vision-language_models_in_fetal_ultrasound.md)
 - [\[CVPR 2026\] Phrase-grounded APO for Improving Chest X-ray Report Generation](phrase-grounded_apo_for_improving_chest_x-ray_report_generation.md)
-- [\[CVPR 2026\] Unleashing Video Language Models for Fine-grained HRCT Report Generation](unleashing_video_language_models_for_fine-grained_hrct_report_generation.md)
 - [\[CVPR 2026\] Personalized Longitudinal Medical Report Generation via Temporally-Aware Federated Adaptation](personalized_longitudinal_medical_report_generation_via_temporally-aware_federat.md)
 - [\[CVPR 2026\] Gastric-X: A Multimodal Multi-Phase Benchmark Dataset for Advancing Vision-Language Models in Gastric Cancer Analysis](gastric-x_a_multimodal_multi-phase_benchmark_dataset_for_advancing_vision-langua.md)
 

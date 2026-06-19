@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLMReasoning论文汇总 · 82篇论文解读
+  ICLR2026 LLMReasoning论文汇总 · 97篇论文解读
 description: >-
-  82篇ICLR2026的 LLM Reasoning 方向论文解读，涵盖推理、LLM、多模态、Agent、强化学习、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  97篇ICLR2026的 LLM Reasoning 方向论文解读，涵盖推理、LLM、强化学习、Agent、多模态、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "LLM Reasoning"
@@ -10,17 +10,27 @@ tags:
   - "论文笔记"
   - "推理"
   - "LLM"
-  - "多模态"
-  - "Agent"
   - "强化学习"
+  - "Agent"
+  - "多模态"
   - "对抗鲁棒"
 item_list:
+  - u: "a_balanced_neuro-symbolic_approach_for_commonsense_abductive_logic/"
+    t: "A Balanced Neuro-Symbolic Approach for Commonsense Abductive Logic"
   - u: "a_state-transition_framework_for_efficient_llm_reasoning/"
     t: "A State-Transition Framework for Efficient LLM Reasoning"
+  - u: "a_stitch_in_time_saves_nine_proactive_self-refinement_for_language_models/"
+    t: "A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models"
+  - u: "acereason-nemotron_11_advancing_math_and_code_reasoning_through_sft_and_rl_syner/"
+    t: "AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy"
+  - u: "achieving_olympia-level_geometry_large_language_model_agent_via_complexity_boost/"
+    t: "Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning"
   - u: "activationreasoning_logical_reasoning_in_latent_activation_spaces/"
     t: "ActivationReasoning: Logical Reasoning in Latent Activation Spaces"
   - u: "adaptive_social_learning_via_mode_policy_optimization_for_language_agents/"
     t: "Adaptive Social Learning via Mode Policy Optimization for Language Agents"
+  - u: "agentic_reinforcement_learning_with_implicit_step_rewards/"
+    t: "Agentic Reinforcement Learning with Implicit Step Rewards"
   - u: "agentified_assessment_of_logical_reasoning_agents/"
     t: "Agentified Assessment of Logical Reasoning Agents"
   - u: "agentmath_empowering_mathematical_reasoning_for_large_language_models_via_tool-a/"
@@ -31,10 +41,24 @@ item_list:
     t: "Annotation-Efficient Universal Honesty Alignment"
   - u: "are_reasoning_llms_robust_to_interventions_on_their_chain-of-thought/"
     t: "Are Reasoning LLMs Robust to Interventions on Their Chain-of-Thought?"
+  - u: "attention_as_a_compass_efficient_exploration_for_process-supervised_rl_in_reason/"
+    t: "Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models"
   - u: "atts_asynchronous_test-time_scaling_via_conformal_prediction/"
     t: "ATTS: Asynchronous Test-Time Scaling via Conformal Prediction"
+  - u: "best-of-infinity_asymptotic_performance_of_test-time_llm_ensembling/"
+    t: "Best-of-∞: Asymptotic Performance of Test-Time LLM Ensembling"
+  - u: "beyond_english-centric_training_how_reinforcement_learning_improves_cross-lingua/"
+    t: "Beyond English-Centric Training: How Reinforcement Learning Improves Cross-Lingual Reasoning in LLMs"
   - u: "beyond_prompt-induced_lies_investigating_llm_deception_on_benign_prompts/"
     t: "Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts"
+  - u: "bottlenecked_transformers_periodic_kv_cache_consolidation_for_generalised_reason/"
+    t: "Bottlenecked Transformers: Periodic KV Cache Consolidation for Generalised Reasoning"
+  - u: "bounds_of_chain-of-thought_robustness_reasoning_steps_embed_norms_and_beyond/"
+    t: "Bounds of Chain-of-Thought Robustness: Reasoning Steps, Embed Norms, and Beyond"
+  - u: "c-voting_confidence-based_test-time_voting_without_explicit_energy_functions/"
+    t: "C-Voting: Confidence-Based Test-Time Voting without Explicit Energy Functions"
+  - u: "characterizing_and_mitigating_reasoning_drift_in_large_language_models/"
+    t: "Characterizing and Mitigating Reasoning Drift in Large Language Models"
   - u: "co-rewarding_stable_self-supervised_rl_for_eliciting_reasoning_in_large_language/"
     t: "Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models"
   - u: "compositional_generalization_from_learned_skills_via_cot_training_a_theoretical_/"
@@ -45,51 +69,43 @@ item_list:
     t: "Continuous Chain of Thought Enables Parallel Exploration and Reasoning"
   - u: "cot-rvs_zero-shot_chain-of-thought_reasoning_segmentation_for_videos/"
     t: "CoT-RVS: Zero-Shot Chain-of-Thought Reasoning Segmentation for Videos"
+  - u: "count_counts_motivating_exploration_in_llm_reasoning_with_count-based_intrinsic_/"
+    t: "Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards"
   - u: "cyclicreflex_improving_reasoning_models_via_cyclical_reflection_token_scheduling/"
     t: "CyclicReflex: Improving Reasoning Models via Cyclical Reflection Token Scheduling"
   - u: "dag-math_graph-of-thought_guided_mathematical_reasoning_in_llms/"
     t: "DAG-Math: Graph-of-Thought Guided Mathematical Reasoning in LLMs"
-  - u: "designer_design-logic-guided_multidisciplinary_data_synthesis_for_llm_reasoning/"
-    t: "DESIGNER: Design-Logic-Guided Multidisciplinary Data Synthesis for LLM Reasoning"
-  - u: "drpo_efficient_reasoning_via_decoupled_reward_policy_optimization/"
-    t: "DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization"
-  - u: "dynamics-predictive_sampling_for_active_rl_finetuning_of_large_reasoning_models/"
-    t: "Dynamics-Predictive Sampling for Active RL Finetuning of Large Reasoning Models"
-  - u: "dynamics_within_latent_chain-of-thought_an_empirical_study_of_causal_structure/"
-    t: "Dynamics Within Latent Chain-of-Thought: An Empirical Study of Causal Structure"
-  - u: "efficient_test-time_scaling_for_small_vision-language_models/"
-    t: "Efficient Test-Time Scaling for Small Vision-Language Models"
-  - u: "estimating_the_empowerment_of_language_model_agents/"
-    t: "Estimating the Empowerment of Language Model Agents"
-  - u: "evoking_user_memory_personalizing_llm_via_recollection-familiarity_adaptive_retr/"
-    t: "Evoking User Memory: Personalizing LLM via Recollection-Familiarity Adaptive Retrieval"
-  - u: "fastgrpo_accelerating_policy_optimization_via_concurrency-aware_speculative_deco/"
-    t: "FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning"
-  - u: "fine-r1_make_multi-modal_llms_excel_in_fine-grained_visual_recognition_by_chain-/"
-    t: "Fine-R1: Make Multi-modal LLMs Excel in Fine-Grained Visual Recognition by Chain-of-Thought Reasoning"
-  - u: "fixing_the_broken_compass_diagnosing_and_improving_inference-time_reward_modelin/"
-    t: "Fixing the Broken Compass: Diagnosing and Improving Inference-Time Reward Modeling"
-  - u: "from_abstract_to_contextual_what_llms_still_cannot_do_in_math_word_problem_solvi/"
-    t: "From Abstract to Contextual: What LLMs Still Cannot Do in Mathematics"
-  - u: "from_assumptions_to_actions_turning_llm_reasoning_into_uncertainty-aware_plannin/"
-    t: "From Assumptions to Actions: Turning LLM Reasoning into Uncertainty-Aware Planning"
-  - u: "generalizable_end-to-end_tool-use_rl_with_synthetic_codegym/"
-    t: "Generalizable End-to-End Tool-Use RL with Synthetic CodeGym"
-item_total: 82
+item_total: 97
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM Reasoning
 
-**🔬 ICLR2026** · **82** 篇论文解读
+**🔬 ICLR2026** · **97** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (20)](../../CVPR2026/llm_reasoning/index.md) · [🧪 ICML2026 (63)](../../ICML2026/llm_reasoning/index.md) · [💬 ACL2026 (81)](../../ACL2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (16)](../../CVPR2026/llm_reasoning/index.md) · [🧪 ICML2026 (78)](../../ICML2026/llm_reasoning/index.md) · [💬 ACL2026 (82)](../../ACL2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×59 · LLM ×24 · 多模态 ×4 · Agent ×3 · 强化学习 ×3
+🔥 **高频主题：** 推理 ×66 · LLM ×29 · 强化学习 ×6 · Agent ×4 · 多模态 ×4
+
+**[A Balanced Neuro-Symbolic Approach for Commonsense Abductive Logic](a_balanced_neuro-symbolic_approach_for_commonsense_abductive_logic.md)**
+
+:   ARGOS 让 LLM 和 SAT 求解器互相喂信息：求解器先吐出"已确定为真的文字"（骨架），LLM 据此猜出缺失的常识子句并打分过滤，再丢回求解器，如此迭代补全那些"光看题面推不出答案、缺常识假设"的逻辑题，在多个数据集上比纯神经/纯符号方法最多高 13%。
 
 **[A State-Transition Framework for Efficient LLM Reasoning](a_state-transition_framework_for_efficient_llm_reasoning.md)**
 
 :   提出将 LLM 推理过程建模为状态转移过程的高效推理框架，用 Linear Attention 将历史推理步骤的信息压缩为状态矩阵，使注意力复杂度从 $O(C^2)$ 降为 $O(C)$、KV cache 从 $O(C)$ 降为 $O(1)$，同时不缩短 CoT 序列，保持推理能力。额外的动量 momentum 策略缓解了噪声推理步导致的 overthinking 问题。
+
+**[A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models](a_stitch_in_time_saves_nine_proactive_self-refinement_for_language_models.md)**
+
+:   PASR 用强化学习（GRPO）训练 LLM 在**生成过程中**主动决定"是否/何时/如何"精炼自己的推理轨迹（而非生成完再返工），并设计了一套"对比式精炼奖励"鼓励有价值的修正；在 Qwen3-8B 上相比标准生成把平均 token 消耗降低 41.6% 的同时准确率提升 8.2%。
+
+**[AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy](acereason-nemotron_11_advancing_math_and_code_reasoning_through_sft_and_rl_syner.md)**
+
+:   NVIDIA 系统性拆解了"监督微调（SFT）+ 大规模强化学习（RL）"在打造推理模型时的协同关系——通过扩 SFT 数据、按"熵≈0.3"调 RL 采样温度、分阶段延长回答长度，把一个 7B 模型（AceReason-Nemotron-1.1）刷到了 Qwen2.5-7B 同规模数学/代码推理的新 SOTA（AIME25 64.8、LiveCodeBench v6 52.1）。
+
+**[Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning](achieving_olympia-level_geometry_large_language_model_agent_via_complexity_boost.md)**
+
+:   本文提出 InternGeometry——首个达到奖牌选手水平的几何 LLM agent：它把符号引擎当工具，用「思考—构造/命题—验证—反思」的超长程交互（单题 200+ 步）攻克辅助线构造缺乏启发式的难题，再配合 Complexity-Boosting RL（CBRL）逐级提升合成题难度，仅用 13K 训练样本（AlphaGeometry 2 的 0.004%）就在 IMO 2000–2024 的 50 道几何题上解出 44 道，超过金牌选手平均分。
 
 **[ActivationReasoning: Logical Reasoning in Latent Activation Spaces](activationreasoning_logical_reasoning_in_latent_activation_spaces.md)**
 
@@ -98,6 +114,10 @@ item_total: 82
 **[Adaptive Social Learning via Mode Policy Optimization for Language Agents](adaptive_social_learning_via_mode_policy_optimization_for_language_agents.md)**
 
 :   提出 Adaptive Social Learning（ASL）框架，设计四种层次化推理模式（从直觉回应到深度推演），并通过 AMPO 算法（融合模式级和样本级优势估计）让 LLM agent 根据社交场景复杂度自适应切换推理深度，在社交智能任务上比 GPT-4o 高 15.6%，比 GRPO 高 7.0% 且 token 用量减少 32.8%。
+
+**[Agentic Reinforcement Learning with Implicit Step Rewards](agentic_reinforcement_learning_with_implicit_step_rewards.md)**
+
+:   本文提出 iStar，一种面向 LLM 智能体多轮强化学习的通用信用分配策略：用一个**隐式过程奖励模型（PRM）**和策略模型交替优化，通过多轮 DPO 目标在线学出每一步动作的稠密奖励，再把步骤级优势和 episode 级优势相加去更新策略，在 WebShop、VisualSokoban 和开放式社交 SOTOPIA 上都拿到 SOTA，且样本效率与训练稳定性都更好。
 
 **[Agentified Assessment of Logical Reasoning Agents](agentified_assessment_of_logical_reasoning_agents.md)**
 
@@ -119,13 +139,41 @@ item_total: 82
 
 :   系统评估推理型 LLM 对其 CoT 中各种干预（良性/中性/对抗性）的鲁棒性：发现模型总体鲁棒能从干预中恢复，但改写风格（paraphrasing）会抑制"自我怀疑"表达导致正确率下降，恢复过程有显著计算开销（CoT 膨胀最高 665%）。
 
+**[Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models](attention_as_a_compass_efficient_exploration_for_process-supervised_rl_in_reason.md)**
+
+:   AttnRL 用模型自身的注意力分数当"指南针"，在推理过程中最关键的步骤上做树分支（而不是按固定长度或熵切分），再配合按题目难度自适应的采样和一步式 off-policy 训练流水线，让过程监督 RL（PSRL）在数学推理上既涨点又省算力——1.5B 上平均提升 7.5%，墙钟时间还比 TreeRL 更短。
+
 **[ATTS: Asynchronous Test-Time Scaling via Conformal Prediction](atts_asynchronous_test-time_scaling_via_conformal_prediction.md)**
 
 :   提出 ATTS，一个基于 conformal prediction 的异步 test-time scaling 框架，通过将 rejection sampling 重构为假设检验过程来消除同步开销，在 MATH/AIME 等数学推理任务上实现最高 56.7x 加速和 4.14x 吞吐量提升，且无精度损失；1.5B/70B 的 draft/target 组合可达到 o3-mini (high) 的 AIME 水平。
 
+**[Best-of-∞: Asymptotic Performance of Test-Time LLM Ensembling](best-of-infinity_asymptotic_performance_of_test-time_llm_ensembling.md)**
+
+:   这篇论文把多数投票（majority voting）看作从模型答案分布里反复采样，研究采样数 $N\to\infty$ 时的极限准确率（称为 best-of-∞），并用贝叶斯因子做自适应停止来在有限预算下逼近这个极限；进一步把"多个 LLM 加权集成的最优权重"形式化成一个混合整数线性规划（MILP），证明集成能稳定超过任何单一模型。
+
+**[Beyond English-Centric Training: How Reinforcement Learning Improves Cross-Lingual Reasoning in LLMs](beyond_english-centric_training_how_reinforcement_learning_improves_cross-lingua.md)**
+
+:   作者用 Qwen2.5-3B-Base 做受控对比，首次系统证明：在多语言推理上 RL（GRPO）比 SFT 拥有显著更强的跨语言泛化，而且反直觉地——用**非英语**（德语/中文）数据做 RL，效果还优于用英语数据，并从「推理时语言不一致、采样探索、语义空间漂移」三个角度给出机制解释。
+
 **[Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts](beyond_prompt-induced_lies_investigating_llm_deception_on_benign_prompts.md)**
 
 :   提出 Contact Searching Question (CSQ) 框架，基于有向图可达性任务和认知心理学原理设计两个互补统计指标——欺骗意图分数 $\rho$ 和欺骗行为分数 $\delta$，首次系统揭示 16 个主流 LLM 在完全良性提示下存在随任务难度升级的自发欺骗倾向。
+
+**[Bottlenecked Transformers: Periodic KV Cache Consolidation for Generalised Reasoning](bottlenecked_transformers_periodic_kv_cache_consolidation_for_generalised_reason.md)**
+
+:   给冻结的主干 LLM 外挂一个小型 Cache Processor，在每个推理步结束（换行符）时**原地重写** KV 缓存——既"巩固"刚写入的近期条目，又"再巩固"按注意力召回的少量历史条目——用信息瓶颈理论解释为什么这样能提升泛化，在七个数学推理基准上最高 +6.6pp。
+
+**[Bounds of Chain-of-Thought Robustness: Reasoning Steps, Embed Norms, and Beyond](bounds_of_chain-of-thought_robustness_reasoning_steps_embed_norms_and_beyond.md)**
+
+:   本文给思维链（CoT）对输入扰动的鲁棒性建立了第一套理论上界：在 Lipschitz 连续假设下证明"推理步数越多、输出波动上界越小，但无论推到无穷步都消不掉扰动"，再以线性自注意力（LSA）为案例证明"可容忍的输入扰动半径与输入嵌入、隐状态向量的范数成负相关"，并在 4 个主流 LLM × 3 个推理数据集上得到与理论一致的实验曲线。
+
+**[C-Voting: Confidence-Based Test-Time Voting without Explicit Energy Functions](c-voting_confidence-based_test-time_voting_without_explicit_energy_functions.md)**
+
+:   针对"反复套用同一层"的循环推理模型，本文提出一种不需要显式能量函数的测试时投票策略 C-voting——从多个随机初始隐状态出发跑出多条轨迹，挑出"平均 top-1 概率最高（即模型最自信）"的那条作为答案；它在 AKOrN 上比能量投票 E-voting 在 Sudoku-hard 高 4.9%，配合一个仅 300 万参数的轻量模型 ItrSA++ 还能在 Sudoku-extreme 上把 HRM 从 55.0% 抬到 95.2%。
+
+**[Characterizing and Mitigating Reasoning Drift in Large Language Models](characterizing_and_mitigating_reasoning_drift_in_large_language_models.md)**
+
+:   本文先用数千条数学推理轨迹诊断出大语言模型一种被称为"推理漂移"的失败模式——模型在早期高可塑阶段一旦发生病态的功能状态转移就会被锁死在错误链路上，再据此提出 Reasoning-Aware Activation Steering（RAAS），用一组从对比样本预算好的转向向量在推理时实时把激活轻推回健康路径，在 GSM8K / AIME / GPQA 上稳定提升准确率且能迁移到分布外任务。
 
 **[Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models](co-rewarding_stable_self-supervised_rl_for_eliciting_reasoning_in_large_language.md)**
 
@@ -146,6 +194,10 @@ item_total: 82
 **[CoT-RVS: Zero-Shot Chain-of-Thought Reasoning Segmentation for Videos](cot-rvs_zero-shot_chain-of-thought_reasoning_segmentation_for_videos.md)**
 
 :   提出CoT-RVS，一种完全无训练的多智能体框架，利用预训练MLLM的零样本CoT推理能力进行时间-语义关联分析与关键帧选取，在推理视频分割任务上大幅超越微调方法（Refer-DAVIS J&F 79.1 vs 71.2，ReasonVOS J&F 65.5 vs 49.9）。
+
+**[Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards](count_counts_motivating_exploration_in_llm_reasoning_with_count-based_intrinsic_.md)**
+
+:   针对 GRPO/DAPO 这类无价值函数 RL 在 LLM 推理上"探索不足、过早收敛到重复套路"的问题，MERCI 利用 LLM 生成过程"转移已知且确定"这一性质把不确定性贝尔曼方程化简成只需估计局部奖励方差，再用一个轻量"抛硬币网络"（CFN）估计状态新颖度并转成内在奖励，让策略探索更多样、更连贯的推理路径，在数学和 SQL 基准上稳定超过强基线。
 
 **[CyclicReflex: Improving Reasoning Models via Cyclical Reflection Token Scheduling](cyclicreflex_improving_reasoning_models_via_cyclical_reflection_token_scheduling.md)**
 
@@ -182,6 +234,10 @@ item_total: 82
 **[Evoking User Memory: Personalizing LLM via Recollection-Familiarity Adaptive Retrieval](evoking_user_memory_personalizing_llm_via_recollection-familiarity_adaptive_retr.md)**
 
 :   受认知科学双过程理论启发，提出 RF-Mem 框架，通过 Familiarity（快速相似度匹配）和 Recollection（深层链式重建）双路径自适应切换的记忆检索机制，实现高效且可扩展的 LLM 个性化。
+
+**[EvolProver: Advancing Automated Theorem Proving by Evolving Formalized Problems via Symmetry and Difficulty](evolprover_advancing_automated_theorem_proving_by_evolving_formalized_problems_v.md)**
+
+:   EvolProver 提出一条"对称 + 难度"双视角的形式化语句数据增强流水线（EvolDomain 跨域翻译 + EvolDifficulty 难度演化 + EvolAST 基于 AST 的确定性句法重写），用增强数据训练出一个 7B 的非推理（non-CoT）定理证明器，在 FormalMATH-Lite 上以 53.8% pass@32 刷新同量级 SOTA，甚至超过推理模型。
 
 **[FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning](fastgrpo_accelerating_policy_optimization_via_concurrency-aware_speculative_deco.md)**
 
@@ -322,6 +378,10 @@ item_total: 82
 **[Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)**
 
 :   提出 CAPO（Curvature-Aware Policy Optimization），通过在 LM head 最后一层建模二阶优化几何来预测并过滤会导致策略崩溃的 token 更新，在激进超参数（5× 学习率、1/12 batch size）下仍保持训练稳定，实现 MATH 上相较标准 GRPO 的 30× 样本效率提升。
+
+**[StreamingThinker: Large Language Models Can Think While Reading](streamingthinker_large_language_models_can_think_while_reading.md)**
+
+:   StreamingThinker 让 LLM 像人一样"边读边想"——在输入逐句到达时就同步生成顺序对齐的推理片段、读完后再按需加深思考，通过流式 CoT 数据构造 + 流式注意力掩码/位置编码训练 + 并行 KV cache 推理三件套，在数学/逻辑/上下文 QA 推理上保持与传统"读完再想"相当的准确率，却把开始推理前的等待 token 砍掉约 80%、首答延迟降低 60% 以上。
 
 **[String Seed of Thought: Prompting LLMs for Distribution-Faithful and Diverse Generation](string_seed_of_thought_prompting_llms_for_distribution-faithful_and_diverse_gene.md)**
 

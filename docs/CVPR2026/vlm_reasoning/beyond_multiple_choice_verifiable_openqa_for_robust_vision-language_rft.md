@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Beyond Multiple Choice: Verifiable OpenQA for Robust Vision-Language RFT
 description: >-
-  [CVPR 2026][多模态VLM][强化微调(RFT)] 这篇论文指出多选题（MCQA）格式会泄露可被模型利用的选项信号、让评测虚高也让 RFT 学到"猜选项"的捷径，提出 ReVeL 框架把 MCQA 按答案类型自动改写成"开放式但仍可规则验证"的 OpenQA，用它改写 20k 样本做 GRPO 微调后开放式准确率提升约 6 个百分点、选择题分数不掉，同时作为评测工具揭示出 MCQA 相对 OpenQA 高达 20 个百分点的分数虚高。
+  [CVPR 2026][VLM Reasoning][强化微调(RFT)] 这篇论文指出多选题（MCQA）格式会泄露可被模型利用的选项信号、让评测虚高也让 RFT 学到"猜选项"的捷径，提出 ReVeL 框架把 MCQA 按答案类型自动改写成"开放式但仍可规则验证"的 OpenQA，用它改写 20k 样本做 GRPO 微调后开放式准确率提升约 6 个百分点、选择题分数不掉，同时作为评测工具揭示出 MCQA 相对 OpenQA 高达 20 个百分点的分数虚高。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "强化微调(RFT)"
   - "可验证奖励"
   - "OpenQA"
@@ -76,6 +76,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验：RFT 训练效果（ViRL 数据，GRPO，4 个 benchmark 综合）
+
 | Model / 训练数据 | MCQA 综合 | OpenQA 综合 | Overall |
 |------|------|------|------|
 | Qwen2.5-VL-3B（base） | 36.6 | 21.3 | 28.9 |
@@ -88,6 +89,7 @@ flowchart TD
 关键对比：MCQA 训练让 7B 的 OpenQA 反而从 28.5 掉到 24.7（强化了捷径），而 ReVeL-OpenQA 训练把 OpenQA 拉到 34.0、MCQA 仍保持 46.8 接近 MCQA 训练。7B 的 40.4 综合分也超过 R1-OneVision-7B（31.3）、Mixed-R1-7B（37.2）、VL-Rethinker-7B（37.5）等开源 recipe。
 
 ### 混合验证 vs 纯 LLM 裁判（600 条采样，判分准确率）
+
 | 数据集 | 裁判 | Recall | PPV | FPR | Acc |
 |--------|------|--------|-----|-----|-----|
 | MME-RW | LLM | 93.5 | 98.6 | 1.4 | 95.9 |
@@ -98,6 +100,7 @@ flowchart TD
 | Overall | ReVeL | 96.8 | 99.6 | **0.3** | **98.5** |
 
 ### MCQA→OpenQA 的分数虚高（评测视角，Acc% / 括号内为掉分）
+
 | Model | EMMA | MMMU | MME-RW | MMLU-Pro |
 |-------|------|------|--------|----------|
 | GPT-5 | 42.0→36.0 (6.0) | 79.2→59.5 (**19.8**) | 57.8→42.4 (15.4) | 84.6→67.6 (17.0) |
@@ -139,10 +142,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal Reasoning](care_what_fails_contrastive_anchored-reflection_for_verifiable_multimodal_reason.md)
-- [\[CVPR 2026\] Dynamic Token Reweighting for Robust Vision-Language Models](dynamic_token_reweighting_for_robust_vision-language_models.md)
-- [\[CVPR 2026\] Beyond Single Images: A Comprehensive Benchmark for Album-Level Vision-Language Understanding](beyond_single_images_a_comprehensive_benchmark_for_album-level_vision-language_u.md)
-- [\[CVPR 2026\] Ramen: Robust Test-Time Adaptation of Vision-Language Models with Active Sample Selection](ramen_robust_test-time_adaptation_of_vision-language_models_with_active_sample_s.md)
-- [\[CVPR 2026\] EMMA: Extracting Multiple physical parameters from Multimodal Data](emma_extracting_multiple_physical_parameters_from_multimodal_data.md)
+- [\[CVPR 2026\] Beyond 3D VQAs: Injecting 3D Spatial Priors into Vision-Language Models for Enhanced Geometric Reasoning](beyond_3d_vqas_injecting_3d_spatial_priors_into_vision-language_models_for_enhan.md)
+- [\[CVPR 2026\] Monet: Reasoning in Latent Visual Space Beyond Image and Language](monet_reasoning_in_latent_visual_space_beyond_image_and_language.md)
+- [\[CVPR 2026\] Progress-Think: Semantic Progress Reasoning for Vision-Language Navigation](progress-think_semantic_progress_reasoning_for_vision-language_navigation.md)
+- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](improving_vision-language_models_with_perception-centric_process_reward_models.md)
 
 </div>
 

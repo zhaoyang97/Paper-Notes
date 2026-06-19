@@ -93,6 +93,7 @@ flowchart TD
 实验主体在 8 节点（每节点 8×H20 96GB + NVLink + 1.6Tbps IB）上跑 Qwen2.5-3B/7B-Math/14B/32B 和 Qwen3-30B-A3B（MoE），数据集为 DAPO-MATH（7B–32B）和 MATH-lighteval（3B），对比 VeRL（SOTA 开源 RL 框架）与 Tail Batching（RollPacker 的 prompt 级调度代表）。
 
 ### 主实验：端到端吞吐加速比（vs VeRL）
+
 | 模型 | VeRL | Tail Batching | DARTS | 相对 VeRL | 相对 Tail Batching |
 |------|------|----------------|-------|-----------|-------------------|
 | Qwen2.5-3B | 1.00× | 1.07× | 1.29× | 1.29× | 1.21× |
@@ -103,6 +104,7 @@ flowchart TD
 | BBH 零样本（Qwen2.5-Math-7B） | 56.6 | — | 58.8 | +2.2 | — |
 
 ### 消融实验：组件贡献分解（Qwen2.5-14B，32×H20）
+
 | 配置 | Speedup | 说明 |
 |------|---------|------|
 | VeRL baseline | 1.00× | 标准 GRPO + 同步 on-policy |
@@ -145,10 +147,10 @@ flowchart TD
 ## 相关论文
 
 - [\[ICML 2026\] EchoRL: Reinforcement Learning via Rollout Echoing](echorl_reinforcement_learning_via_rollout_echoing.md)
-- [\[ICML 2026\] Trajectory-Level Data Augmentation for Offline Reinforcement Learning](trajectory-level_data_augmentation_for_offline_reinforcement_learning.md)
-- [\[ICLR 2026\] QuRL: Efficient Reinforcement Learning with Quantized Rollout](../../ICLR2026/reinforcement_learning/qurl_efficient_reinforcement_learning_with_quantized_rollout.md)
-- [\[ICML 2026\] Safety Generalization Under Distribution Shift in Safe Reinforcement Learning: A Diabetes Testbed](safety_generalization_under_distribution_shift_in_safe_reinforcement_learning_a_.md)
+- [\[ICLR 2026\] Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation](../../ICLR2026/reinforcement_learning/accelerating_diffusion_planners_in_offline_rl_via_reward-aware_consistency_traje.md)
 - [\[ICML 2026\] Hista and Numca: Estimate State Value Effectively for LLM Reinforcement Learning](hista_and_numca_estimate_state_value_effectively_for_llm_reinforcement_learning.md)
+- [\[ICML 2026\] Trajectory-Level Data Augmentation for Offline Reinforcement Learning](trajectory-level_data_augmentation_for_offline_reinforcement_learning.md)
+- [\[ICML 2026\] D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning](d2evo_dual_difficulty-aware_self-evolution_for_data-efficient_reinforcement_lear.md)
 
 </div>
 

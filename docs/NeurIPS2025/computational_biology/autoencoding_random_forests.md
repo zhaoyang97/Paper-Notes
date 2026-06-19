@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.21441](https://arxiv.org/abs/2505.21441)  
 **代码**: [https://github.com/bips-hb/RFAE](https://github.com/bips-hb/RFAE)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 随机森林, 自编码器, 扩散映射, 谱分解, 表格数据
 
 ## 一句话总结

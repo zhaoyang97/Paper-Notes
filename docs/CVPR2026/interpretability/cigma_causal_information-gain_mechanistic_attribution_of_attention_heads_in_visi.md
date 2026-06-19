@@ -117,6 +117,7 @@ $$\mathrm{CIGMA}(h) = \frac{1}{N}\sum_{i=1}^{N}\Big(\mathrm{BIG}_i - \mathrm{BIG
 即使在已微调主干（Original (ft) 起点更高）之上，CIGMA (ft) 仍比 Original (ft) 再提 4.7–22.9 个准确率、BIR 再降 41.7–86.0%；对最强训练型基线 CHG（Causal Head Gating）也领先 5.4–20.0 准确率、BIR 降 33.3–86.2%。而 CoBalT、RAVL 有时反而不如 Original (ft)，说明这类方法可能无意中放大虚假相关。
 
 ### 消融实验（Tiny-ImageNet, InternVL2-26B）
+
 | 配置 | Top-1 Acc | 说明 |
 |------|-----------|------|
 | K=0（基线） | 79.6% | 不剪头 |
@@ -163,10 +164,10 @@ $$\mathrm{CIGMA}(h) = \frac{1}{N}\sum_{i=1}^{N}\Big(\mathrm{BIG}_i - \mathrm{BIG
 ## 相关论文
 
 - [\[NeurIPS 2025\] Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers](../../NeurIPS2025/interpretability/causal_head_gating_a_framework_for_interpreting_roles_of_attention_heads_in_tran.md)
+- [\[CVPR 2026\] Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers](align_once_to_explain_feature_alignment_for_scalable_b-cosification_of_foundatio.md)
 - [\[ICML 2026\] Singular Vectors of Attention Heads Align with Features](../../ICML2026/interpretability/singular_vectors_of_attention_heads_align_with_features.md)
 - [\[CVPR 2026\] Improving Sparse Autoencoder with Dynamic Attention](improving_sparse_autoencoder_with_dynamic_attention.md)
 - [\[CVPR 2026\] Inside-Out: Measuring Generalization in Vision Transformers Through Inner Workings](inside-out_measuring_generalization_in_vision_transformers_through_inner_working.md)
-- [\[CVPR 2026\] NeuroRule: Bridging Vision and Logic with Differentiable Rule Induction](neurorule_bridging_vision_and_logic_with_differentiable_rule_induction.md)
 
 </div>
 

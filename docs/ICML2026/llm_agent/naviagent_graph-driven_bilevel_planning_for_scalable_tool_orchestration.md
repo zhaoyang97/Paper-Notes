@@ -111,6 +111,7 @@ ToolBench（5k+ 工具）上各骨干模型的整体 TSR / 平均步数对比（
 | DeepSeek-V3 | NaviAgent | **64.6** | – | – |
 
 ### 消融实验
+
 | 配置 | TSR (Qwen2.5-14B, ToolBench All) | 说明 |
 |------|----------------------------------|------|
 | 完整 NaviAgent | 35.8 | 双层 + TWNM + 闭环 |
@@ -155,9 +156,9 @@ ToolBench（5k+ 工具）上各骨干模型的整体 TSR / 平均步数对比（
 
 - [\[ACL 2026\] Towards Scalable Lightweight GUI Agents via Multi-role Orchestration](../../ACL2026/llm_agent/towards_scalable_lightweight_gui_agents_via_multi-role_orchestration.md)
 - [\[ICLR 2026\] ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models](../../ICLR2026/llm_agent/toolweaver_weaving_collaborative_semantics_for_scalable_tool_use_in_large_langua.md)
-- [\[ACL 2026\] SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents](../../ACL2026/llm_agent/searl_joint_optimization_of_policy_and_tool_graph_memory_for_self-evolving_agent.md)
 - [\[ICML 2026\] Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling](agent_jit_compilation_for_latency-optimizing_web_agent_planning_and_scheduling.md)
 - [\[ICML 2026\] Position: Agentic AI Orchestration Should Be Bayes-Consistent](position_agentic_ai_orchestration_should_be_bayes-consistent.md)
+- [\[ACL 2026\] SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents](../../ACL2026/llm_agent/searl_joint_optimization_of_policy_and_tool_graph_memory_for_self-evolving_agent.md)
 
 </div>
 

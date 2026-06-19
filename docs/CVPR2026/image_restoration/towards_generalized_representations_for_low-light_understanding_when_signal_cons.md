@@ -124,6 +124,7 @@ $$\mathcal{L}_{\text{low}}=\lambda_{\text{enh}}\mathcal{L}_{\text{enh}}+\lambda_
 人脸检测相对前最优领先 **5.6% mAP**；分类零样本档领先 **7.28%**。另外只训 2 个 epoch 就达 72.12%，已超 DAI-Net 3.68%，说明收敛快。
 
 ### 消融实验
+
 | 配置 | CoDaN ACC (%) | ND mIoU (%) | 说明 |
 |------|------|------|------|
 | **Full（Ours）** | **74.52** | **48.20** | 完整模型 |
@@ -171,11 +172,11 @@ $$\mathcal{L}_{\text{low}}=\lambda_{\text{enh}}\mathcal{L}_{\text{enh}}+\lambda_
 
 ## 相关论文
 
-- [\[CVPR 2026\] More Than Meets the Eye: A Unified Image Fusion Framework via Semantic-Pixel Entropy Trade-off for Zero-Shot Generalization](more_than_meets_the_eye_a_unified_image_fusion_framework_via_semantic-pixel_entr.md)
 - [\[CVPR 2026\] 2-Shots in the Dark: Low-Light Denoising with Minimal Data Acquisition](2-shots_in_the_dark_low-light_denoising_with_minimal_data_acquisition.md)
 - [\[CVPR 2026\] Multinex: Lightweight Low-light Image Enhancement via Multi-prior Retinex](multinex_lightweight_low-light_image_enhancement_via_multi-prior_retinex.md)
 - [\[CVPR 2026\] UDAPose: Unsupervised Domain Adaptation for Low-Light Human Pose Estimation](udapose_unsupervised_domain_adaptation_for_low_light_human_pose_estimation.md)
 - [\[CVPR 2026\] Bi-Bridge: Bidirectional Diffusion Bridges for Low-Light Image Enhancement](bi-bridge_bidirectional_diffusion_bridges_for_low-light_image_enhancement.md)
+- [\[CVPR 2026\] Task-Aware Image Signal Processor for Advanced Visual Perception](task-aware_image_signal_processor_for_advanced_visual_perception.md)
 
 </div>
 

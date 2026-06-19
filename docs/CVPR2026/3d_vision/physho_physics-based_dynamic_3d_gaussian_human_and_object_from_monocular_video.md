@@ -91,6 +91,7 @@ flowchart TD
 关键 caveat：在 PSNR/SSIM 上 GART 和 4D-Gaus 有时反而更高，作者解释这是因为它们的高斯**持续优化外观去贴 GT**，能过拟合像素级指标；而 PhysHO 为学物理模型必须**固定外观**，所以更吃亏。但 PSNR/SSIM 主要看像素对齐，LPIPS 才看纹理保真和感知相似——PhysHO 在 LPIPS 上一致领先，说明视觉真实感和纹理保持更好。预测任务里 4D-Gaus 根本无法外推到训练帧之外，GART 在大形变帧会严重退化甚至压垮物体结构，PhysHO 靠物理仿真在整段序列保持稳健，掩码 IoU 也更高。
 
 ### 消融实验
+
 | 配置 | PSNR↑ | SSIM↑ | LPIPS↓ | IoU↑ | 说明 |
 |------|------|------|--------|------|------|
 | Full | **24.03** | **0.9534** | **0.0652** | **0.8845** | 完整模型 |
@@ -140,9 +141,9 @@ flowchart TD
 
 - [\[CVPR 2026\] Recovering Physically Plausible Human-Object Interactions from Monocular Videos](recovering_physically_plausible_human-object_interactions_from_monocular_videos.md)
 - [\[CVPR 2026\] Illumination-Consistent Human-Scene Reconstruction from Monocular Video](illumination-consistent_human-scene_reconstruction_from_monocular_video.md)
+- [\[CVPR 2026\] CrossHOI: Learning Cross-View Representations for Monocular 3D Human-Object Interaction Reconstruction](crosshoi_learning_cross-view_representations_for_monocular_3d_human-object_inter.md)
 - [\[CVPR 2026\] Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos](learning_explicit_continuous_motion_representation_for_dynamic_gaussian_splattin.md)
 - [\[CVPR 2026\] RHINO: Reconstructing Human Interactions with Novel Objects from Monocular Videos](rhino_reconstructing_human_interactions_with_novel_objects_from_monocular_videos.md)
-- [\[CVPR 2026\] CARI4D: Category Agnostic 4D Reconstruction of Human-Object Interaction](cari4d_category_agnostic_4d_reconstruction_of_human_object_interaction.md)
 
 </div>
 

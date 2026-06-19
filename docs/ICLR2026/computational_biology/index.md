@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 计算生物论文汇总 · 38篇论文解读
+  ICLR2026 计算生物论文汇总 · 52篇论文解读
 description: >-
-  38篇ICLR2026的计算生物方向论文解读，涵盖生物分子、扩散模型、LLM、对抗鲁棒、医学影像、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  52篇ICLR2026的计算生物方向论文解读，涵盖生物分子、扩散模型、对齐/RLHF、LLM、自监督学习、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "计算生物"
@@ -10,19 +10,45 @@ tags:
   - "论文笔记"
   - "生物分子"
   - "扩散模型"
-  - "LLM"
-  - "对抗鲁棒"
-  - "医学影像"
   - "对齐/RLHF"
+  - "LLM"
+  - "自监督学习"
+  - "对抗鲁棒"
 item_list:
+  - u: "3dcs_datasets_and_benchmark_for_evaluating_conformational_sensitivity_in_molecul/"
+    t: "3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations"
   - u: "a_genetic_algorithm_for_navigating_synthesizable_molecular_spaces/"
     t: "A Genetic Algorithm for Navigating Synthesizable Molecular Spaces"
+  - u: "a_joint_diffusion_model_with_pre-trained_priors_for_rna_sequence-structure_co-de/"
+    t: "A Joint Diffusion Model with Pre-Trained Priors for RNA Sequence-Structure Co-Design"
+  - u: "a_new_paradigm_for_genome-wide_dna_methylation_prediction_without_methylation_in/"
+    t: "A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input"
+  - u: "adaptive_data-knowledge_alignment_in_genetic_perturbation_prediction/"
+    t: "Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction"
   - u: "afd-instruction_a_comprehensive_antibody_instruction_dataset_with_functional_ann/"
     t: "AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design"
+  - u: "an_efficient_sep-invariant_transport_metric_driven_by_polar_transport_discrepanc/"
+    t: "SEINT: An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation"
+  - u: "animal_behavioral_analysis_and_neural_encoding_with_transformer-based_self-super/"
+    t: "Animal behavioral analysis and neural encoding with transformer-based self-supervised pretraining"
   - u: "antibody_strengthening_defense_against_harmful_fine-tuning_for_large_language_mo/"
     t: "Antibody: Strengthening Defense Against Harmful Fine-Tuning for Large Language Models via Attenuating Harmful Gradient Influence"
   - u: "antigenlm_structure-aware_dna_language_modeling_for_influenza/"
     t: "AntigenLM: Structure-Aware DNA Language Modeling for Influenza"
+  - u: "automatic_and_structure-aware_sparsification_of_hybrid_neural_odes_with_applicat/"
+    t: "Automatic and Structure-Aware Sparsification of Hybrid Neural ODEs with Application to Glucose Prediction"
+  - u: "beyond_ensembles_simulating_all-atom_protein_dynamics_in_a_learned_latent_space/"
+    t: "Beyond Ensembles: Simulating All-Atom Protein Dynamics in a Learned Latent Space"
+  - u: "beyond_grid-locked_voxels_neural_response_functions_for_continuous_brain_encodin/"
+    t: "Beyond Grid-Locked Voxels: Neural Response Functions for Continuous Brain Encoding"
+  - u: "biomd_all-atom_generative_model_for_biomolecular_dynamics_simulation/"
+    t: "BioMD: All-atom Generative Model for Biomolecular Dynamics Simulation"
+  - u: "capsul_a_comprehensive_human_protein_benchmark_for_subcellular_localization/"
+    t: "CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization"
+  - u: "cdbridge_a_cross-omics_post-training_bridge_strategy_for_context-aware_biologica/"
+    t: "CDBridge: A Cross-omics Post-training Bridge Strategy for Context-aware Biological Modeling"
+  - u: "cellduality_unlocking_biological_reasoning_in_llms_with_self-supervised_rlvr/"
+    t: "CellDuality: Unlocking Biological Reasoning in LLMs with Self-Supervised RLVR"
   - u: "confhit_conformal_generative_design_with_oracle_free_guarantees/"
     t: "ConfHit: Conformal Generative Design with Oracle Free Guarantees"
   - u: "contact-guided_3d_genome_structure_generation_of_e_coli_via_diffusion_transforme/"
@@ -49,51 +75,49 @@ item_list:
     t: "EvoFlows: Evolutionary Edit-Based Flow-Matching for Protein Engineering"
   - u: "extending_sequence_length_is_not_all_you_need_effective_integration_of_multimoda/"
     t: "Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction"
-  - u: "fine-tuning_diffusion_models_via_intermediate_distribution_shaping/"
-    t: "Fine-Tuning Diffusion Models via Intermediate Distribution Shaping"
-  - u: "fusing_pixels_and_genes_spatially-aware_learning_in_computational_pathology/"
-    t: "Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology"
-  - u: "heurekabench_a_benchmarking_framework_for_ai_co-scientist/"
-    t: "HeurekaBench: A Benchmarking Framework for AI Co-scientist"
-  - u: "how_to_make_the_most_of_your_masked_language_model_for_protein_engineering/"
-    t: "How to Make the Most of Your Masked Language Model for Protein Engineering"
-  - u: "intrinsic_lorentz_neural_network/"
-    t: "Intrinsic Lorentz Neural Network"
-  - u: "learning_molecular_chirality_via_chiral_determinant_kernels/"
-    t: "Learning Molecular Chirality via Chiral Determinant Kernels"
-  - u: "protein_as_a_second_language_for_llms/"
-    t: "Protein as a Second Language for LLMs"
-  - u: "protein_counterfactuals_via_diffusion-guided_latent_optimization/"
-    t: "Protein Counterfactuals via Diffusion-Guided Latent Optimization"
-  - u: "protein_structure_tokenization_via_geometric_byte_pair_encoding/"
-    t: "Protein Structure Tokenization via Geometric Byte Pair Encoding"
-  - u: "retrieval-augmented_generation_for_predicting_cellular_responses_to_gene_perturb/"
-    t: "Retrieval-Augmented Generation for Predicting Cellular Responses to Gene Perturbation"
-  - u: "reverse_distillation_consistently_scaling_protein_language_model_representations/"
-    t: "Reverse Distillation: Consistently Scaling Protein Language Model Representations"
-  - u: "scalable_spatio-temporal_se3_diffusion_for_long-horizon_protein_dynamics/"
-    t: "Scalable Spatio-Temporal SE(3) Diffusion for Long-Horizon Protein Dynamics"
-  - u: "scdfm_distributional_flow_matching_model_for_robust_single-cell_perturbation_pre/"
-    t: "scDFM: Distributional Flow Matching for Robust Single-Cell Perturbation Prediction"
-item_total: 38
+item_total: 52
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧬 计算生物
 
-**🔬 ICLR2026** · **38** 篇论文解读
+**🔬 ICLR2026** · **52** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (21)](../../CVPR2026/computational_biology/index.md) · [🧪 ICML2026 (36)](../../ICML2026/computational_biology/index.md) · [💬 ACL2026 (5)](../../ACL2026/computational_biology/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/computational_biology/index.md) · [🧠 NeurIPS2025 (76)](../../NeurIPS2025/computational_biology/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/computational_biology/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (21)](../../CVPR2026/computational_biology/index.md) · [🧪 ICML2026 (51)](../../ICML2026/computational_biology/index.md) · [💬 ACL2026 (5)](../../ACL2026/computational_biology/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/computational_biology/index.md) · [🧠 NeurIPS2025 (76)](../../NeurIPS2025/computational_biology/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/computational_biology/index.md)
 
-🔥 **高频主题：** 生物分子 ×12 · 扩散模型 ×9 · LLM ×3 · 对抗鲁棒 ×2 · 医学影像 ×2
+🔥 **高频主题：** 生物分子 ×16 · 扩散模型 ×10 · 对齐/RLHF ×3 · LLM ×3 · 自监督学习 ×2
+
+**[3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations](3dcs_datasets_and_benchmark_for_evaluating_conformational_sensitivity_in_molecul.md)**
+
+:   作者构建了首个专测「同一分子不同构象」表示敏感性的基准 3DCS：用 >1M 分子、~10M 构象覆盖几何/手性/能量三个维度，配一套 Geometry–Chirality–Energy（GCE）评测框架，揭示现代 3D 分子表示模型几何很敏感、但手性时好时坏、能量几乎对不上。
 
 **[A Genetic Algorithm for Navigating Synthesizable Molecular Spaces](a_genetic_algorithm_for_navigating_synthesizable_molecular_spaces.md)**
 
 :   提出 SynGA，一种直接在合成路线（合成树）上操作的遗传算法，通过自定义的交叉和变异算子将搜索严格约束在可合成分子空间内，结合 ML 驱动的构建块过滤实现 SOTA 的可合成类似物搜索和属性优化性能。
 
+**[A Joint Diffusion Model with Pre-Trained Priors for RNA Sequence-Structure Co-Design](a_joint_diffusion_model_with_pre-trained_priors_for_rna_sequence-structure_co-de.md)**
+
+:   把预训练的生物大分子结构预测模型 RoseTTAFold2NA 直接当作扩散去噪器，套进一个「离散序列扩散 + SE(3) 等变结构扩散」的联合框架（RiboDiff），用极少的 RNA 三维数据就能同时生成 RNA 序列和全原子三维构象，在单链 RNA、RNA-蛋白复合物、蛋白条件结合三类任务上把自洽性指标拉到远超从零训练的扩散/流匹配基线。
+
+**[A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input](a_new_paradigm_for_genome-wide_dna_methylation_prediction_without_methylation_in.md)**
+
+:   MethylProphet 是一个"基因上下文 + DNA 序列"驱动的 Transformer 基础模型，**完全不需要任何已测甲基化值作为输入**，仅凭一个样本的基因表达谱和每个 CpG 位点周围的局部 DNA 序列，就能推断全基因组（约 2800 万个 CpG）的甲基化水平，并能泛化到训练时从未见过的 CpG 位点和样本。
+
+**[Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction](adaptive_data-knowledge_alignment_in_genetic_perturbation_prediction.md)**
+
+:   ALIGNED 把"数据驱动的神经网络"和"专家整理的基因调控知识库"放进同一个溯因学习（Abductive Learning）框架里，用一个无梯度训练的适配器逐基因决定该信谁，再反过来用预测去精炼调控知识库，在多个大规模扰动数据集上拿到了最高的"平衡一致性"，并且能重新发现有生物学意义的调控关系。
+
 **[AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design](afd-instruction_a_comprehensive_antibody_instruction_dataset_with_functional_ann.md)**
 
 :   构建了首个大规模抗体功能注释指令数据集AFD-Instruction（430K+条目），通过多智能体文献抽取pipeline对齐抗体序列与自然语言功能描述，用于指令微调通用LLM使其掌握抗体理解和功能导向设计能力，在5类分类任务上平均准确率提升20+点。
+
+**[SEINT: An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation](an_efficient_sep-invariant_transport_metric_driven_by_polar_transport_discrepanc.md)**
+
+:   本文提出 SEINT —— 一个对平移+旋转（特殊欧氏群 SE(p)）严格不变、且被证明是真正度量（满足三角不等式）的分布距离：它先用免训练的「极传输差异（PTD）」把高维分布编码成一维标量特征，再用「距离卷积（DcPTD）」补回内在几何信息，最后在一维上算 Wasserstein 距离，把复杂度从 GW 的 $O(n^3)\sim O(n^4)$ 压到 $O(n\log n)\sim O(n^2)$，并在点云分类（100% 准确率）和 3D 分子生成（SOTA 稳定性）上验证有效。
+
+**[Animal behavioral analysis and neural encoding with transformer-based self-supervised pretraining](animal_behavioral_analysis_and_neural_encoding_with_transformer-based_self-super.md)**
+
+:   BEAST 用「掩码自编码 + 时序对比学习」双目标，在单个实验装置自己采集的无标注行为视频上预训练一个 ViT backbone，让同一个模型在神经编码、姿态估计、动作分割三类神经行为学任务上都打过需要大量标注的专用模型。
 
 **[Antibody: Strengthening Defense Against Harmful Fine-Tuning for Large Language Models via Attenuating Harmful Gradient Influence](antibody_strengthening_defense_against_harmful_fine-tuning_for_large_language_mo.md)**
 
@@ -102,6 +126,34 @@ item_total: 38
 **[AntigenLM: Structure-Aware DNA Language Modeling for Influenza](antigenlm_structure-aware_dna_language_modeling_for_influenza.md)**
 
 :   AntigenLM 是一个保留基因组功能单元完整性的 GPT-2 风格 DNA 语言模型，通过在流感病毒全基因组上预训练并微调，能够自回归预测未来流行毒株的抗原序列，在氨基酸错配率上显著优于进化模型 beth-1 和通用基因组模型。
+
+**[Automatic and Structure-Aware Sparsification of Hybrid Neural ODEs with Application to Glucose Prediction](automatic_and_structure-aware_sparsification_of_hybrid_neural_odes_with_applicat.md)**
+
+:   针对"机理模型嵌进神经 ODE 后潜变量太多、小数据下过拟合"的痛点，本文提出三步混合图稀疏化算法 HGS（合并强连通分量→加捷径→L1/L2 正则剪边），自动选出既稀疏又保持机理可解释的子图，在合成数据和真实 T1D 血糖预测上用更少参数拿到更好、更鲁棒的预测。
+
+**[Beyond Ensembles: Simulating All-Atom Protein Dynamics in a Learned Latent Space](beyond_ensembles_simulating_all-atom_protein_dynamics_in_a_learned_latent_space.md)**
+
+:   本文在已训好的 LD-FPG 全原子潜空间里塞进一个时间传播子 GLDP，把"只会采静态构象系综"升级成"能模拟构象随时间演化"，并在同一冻结潜空间里公平对比了三类传播子（自回归神经网络、Koopman 线性算子、score-guided Langevin），结论是：自回归 NN 长轨迹最稳、骨架动力学最准；Langevin 侧链热力学最锐利；Koopman 是轻量但偏僵硬的可解释基线。
+
+**[Beyond Grid-Locked Voxels: Neural Response Functions for Continuous Brain Encoding](beyond_grid-locked_voxels_neural_response_functions_for_continuous_brain_encodin.md)**
+
+:   本文提出 NRF（Neural Response Function），把 fMRI 视觉编码从"对每个被试的离散体素向量做回归"改成"在标准 MNI 解剖空间上学一个连续隐式函数 $\Phi(M,x)$"，输入图像 $M$ 和坐标 $x=(x,y,z)$ 直接预测该位置的脑响应，从而利用体素的局部平滑性和跨被试解剖对齐，做到在只有几百张图的低数据场景下也明显超过传统编码模型，并支持把一个被试上预训练的模型微调迁移到新被试。
+
+**[BioMD: All-atom Generative Model for Biomolecular Dynamics Simulation](biomd_all-atom_generative_model_for_biomolecular_dynamics_simulation.md)**
+
+:   BioMD 是首个面向蛋白-配体体系的全原子生成式分子动力学模型，用"粗粒度预测 + 细粒度插值"的分层流匹配框架，把传统 MD 需要数小时的长时程轨迹（含配体解离路径）压缩到几十秒生成，并在 DD-13M 上对 97.1% 的体系成功重建出解离路径。
+
+**[CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization](capsul_a_comprehensive_human_protein_benchmark_for_subcellular_localization.md)**
+
+:   CAPSUL 构建了首个同时带有蛋白质 3D 结构信息和 20 类细粒度亚细胞定位标注的人类蛋白质 benchmark（20,181 条蛋白质），把 11 个序列/结构 baseline 拉到同一套评测里，证明引入 3D 结构对亚细胞定位预测是必要的，并通过注意力可视化在高尔基体上发现了 α-螺旋这一可与实验吻合的决定性定位模式。
+
+**[CDBridge: A Cross-omics Post-training Bridge Strategy for Context-aware Biological Modeling](cdbridge_a_cross-omics_post-training_bridge_strategy_for_context-aware_biologica.md)**
+
+:   CDBridge 提出一种"后训练桥接"策略，把已经预训练好的冻结 DNA 模型和蛋白质模型在不重新训练的前提下拼到一起，通过"剪接启发的自适应 token 合并 + 组织条件解码器"两阶段对齐，首次让模型既能做 DNA→蛋白的定性功能对齐、又能在不同组织语境下做定量基因表达预测。
+
+**[CellDuality: Unlocking Biological Reasoning in LLMs with Self-Supervised RLVR](cellduality_unlocking_biological_reasoning_in_llms_with_self-supervised_rlvr.md)**
+
+:   CellDuality 把单细胞生物学的四类推理任务组织成一个统一框架，再用"互补任务对偶"——让模型正向预测一个生物结果、再逆向从结果重构出原始输入条件，用重构保真度当内在奖励——在完全没有 ground-truth 标签的情况下做 RLVR 对齐，使一个 3B 的 LLaMA 在细胞类型注释、药敏分类、扰动响应生成等任务上达到 SOTA，并在 OOD 扰动预测上把与"有监督 RLVR oracle"的差距缩小了 35–56%。
 
 **[ConfHit: Conformal Generative Design with Oracle Free Guarantees](confhit_conformal_generative_design_with_oracle_free_guarantees.md)**
 
@@ -178,6 +230,10 @@ item_total: 38
 **[Learning Molecular Chirality via Chiral Determinant Kernels](learning_molecular_chirality_via_chiral_determinant_kernels.md)**
 
 :   提出手性行列式核(ChiDeK)来编码 SE(3) 不变的手性矩阵，首次在 GNN 框架中统一处理中心手性和轴向手性，结合交叉注意力传播立体化学信息，在新构建的轴向手性基准上准确率提升 >7%。
+
+**[PoinnCARE: Hyperbolic Multi-Modal Learning for Enzyme Classification](poinncare_hyperbolic_multi-modal_learning_for_enzyme_classification.md)**
+
+:   PoinnCARE 把酶的序列、结构、活性位点三种模态投影到双曲（Poincaré 球）空间里联合编码与对齐，用图扩散补全稀疏的活性位点标注、用双曲几何忠实保留 EC 编号系统的树状层级，在 CARE 基准四个测试集上的 EC number 预测全面超过 12 个 SOTA，level-4 最高领先 CLEAN 10.4%。
 
 **[Protein as a Second Language for LLMs](protein_as_a_second_language_for_llms.md)**
 

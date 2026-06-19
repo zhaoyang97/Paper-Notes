@@ -152,9 +152,9 @@ Re-Align 在编辑各子类与生成上的 PF/SC 都更高，整体优于含独�
 
 - [\[CVPR 2026\] ReasonEdit: Towards Reasoning-Enhanced Image Editing Models](reasonedit_towards_reasoning-enhanced_image_editing_models.md)
 - [\[CVPR 2026\] Disentangling to Re-couple: Resolving the Similarity-Controllability Paradox in Subject-Driven Text-to-Image Generation](disentangling_to_re-couple_resolving_the_similarity-controllability_paradox_in_s.md)
-- [\[CVPR 2026\] Align Images Before You Generate](align_images_before_you_generate.md)
 - [\[CVPR 2026\] Thinking-while-Generating: Interleaving Textual Reasoning throughout Visual Generation](thinking-while-generating_interleaving_textual_reasoning_throughout_visual_gener.md)
-- [\[CVPR 2026\] LumiX: Structured and Coherent Text-to-Intrinsic Generation](lumix_structured_and_coherent_text-to-intrinsic_generation.md)
+- [\[CVPR 2026\] Align Images Before You Generate](align_images_before_you_generate.md)
+- [\[CVPR 2026\] One Algorithm to Align Them All](one_algorithm_to_align_them_all.md)
 
 </div>
 

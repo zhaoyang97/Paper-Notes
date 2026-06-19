@@ -124,8 +124,8 @@ $$\frac{\|\mathbf{w}_t - \mathbf{u}\|^2}{2\eta t} + \hat{\mathcal{L}}(\mathbf{w}
 
 - [\[NeurIPS 2025\] Large Stepsizes Accelerate Gradient Descent for Regularized Logistic Regression](../../NeurIPS2025/optimization/large_stepsizes_accelerate_gradient_descent_for_regularized_logistic_regression.md)
 - [\[ICML 2025\] Constant Stepsize Local GD for Logistic Regression: Acceleration by Instability](constant_stepsize_local_gd_for_logistic_regression_acceleration_by_instability.md)
-- [\[ICML 2025\] Quantum Optimization via Gradient-Based Hamiltonian Descent](quantum_optimization_via_gradient-based_hamiltonian_descent.md)
 - [\[CVPR 2025\] Stop Walking in Circles! Bailing Out Early in Projected Gradient Descent](../../CVPR2025/optimization/stop_walking_in_circles_bailing_out_early_in_projected_gradient_descent.md)
+- [\[ICML 2025\] Quantum Optimization via Gradient-Based Hamiltonian Descent](quantum_optimization_via_gradient-based_hamiltonian_descent.md)
 - [\[ICML 2025\] Incremental Gradient Descent with Small Epoch Counts is Surprisingly Slow on Ill-Conditioned Problems](incremental_gradient_descent_with_small_epoch_counts_is_surprisingly_slow_on_ill.md)
 
 </div>

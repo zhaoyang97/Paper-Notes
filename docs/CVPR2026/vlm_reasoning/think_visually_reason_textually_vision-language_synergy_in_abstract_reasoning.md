@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Think Visually, Reason Textually: Vision-Language Synergy in Abstract Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][ARC-AGI] 针对 ARC-AGI 抽象推理，作者发现"视觉擅长归纳规则、文本擅长精确执行"这一互补性，提出训练无关的 VLSR（在规则归纳阶段用图、在规则应用阶段用文本）和 MSSC（用视觉验证文本答案做跨模态自纠错），在 GPT-4o / Gemini-2.5-Pro / o4-mini / Qwen3-VL 上平均比纯文本基线提升最高 4.33%。
+  [CVPR 2026][VLM Reasoning][ARC-AGI] 针对 ARC-AGI 抽象推理，作者发现"视觉擅长归纳规则、文本擅长精确执行"这一互补性，提出训练无关的 VLSR（在规则归纳阶段用图、在规则应用阶段用文本）和 MSSC（用视觉验证文本答案做跨模态自纠错），在 GPT-4o / Gemini-2.5-Pro / o4-mini / Qwen3-VL 上平均比纯文本基线提升最高 4.33%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "ARC-AGI"
   - "抽象推理"
   - "视觉-语言协同"
@@ -164,11 +164,11 @@ $$s_{consistent} = f^{vision}_{critic}(i^{input}_1, i^{output}_1, \dots, i^{inpu
 
 ## 相关论文
 
-- [\[CVPR 2026\] Abstract 3D Perception for Spatial Intelligence in Vision-Language Models](abstract_3d_perception_for_spatial_intelligence_in_vision-language_models.md)
-- [\[CVPR 2026\] Modeling Cross-vision Synergy for Unified Large Vision Model](modeling_cross-vision_synergy_for_unified_large_vision_model.md)
-- [\[CVPR 2025\] Seeing the Abstract: Translating the Abstract Language for Vision Language Models](../../CVPR2025/multimodal_vlm/seeing_the_abstract_translating_the_abstract_language_for_vision_language_models.md)
-- [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
-- [\[CVPR 2026\] Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning](select_less_reason_more_prioritizing_evidence_purity_for_video_reasoning.md)
+- [\[CVPR 2026\] DeepScan: A Training-Free Framework for Visually Grounded Reasoning in Large Vision-Language Models](deepscan_a_training-free_framework_for_visually_grounded_reasoning_in_large_visi.md)
+- [\[CVPR 2026\] Progress-Think: Semantic Progress Reasoning for Vision-Language Navigation](progress-think_semantic_progress_reasoning_for_vision-language_navigation.md)
+- [\[CVPR 2026\] Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models](learning_to_reason_in_4d_dynamic_spatial_understanding_for_vision_language_model.md)
+- [\[CVPR 2026\] CLiViS: Unleashing Cognitive Map through Linguistic-Visual Synergy for Embodied Visual Reasoning](clivis_unleashing_cognitive_map_through_linguistic-visual_synergy_for_embodied_v.md)
+- [\[CVPR 2026\] Reinforce to Learn, Elect to Reason: A Dual Paradigm for Video Reasoning](reinforce_to_learn_elect_to_reason_a_dual_paradigm_for_video_reasoning.md)
 
 </div>
 

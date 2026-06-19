@@ -113,6 +113,7 @@ Kyvo 在 Objectron 上显著超过专用检测器，在更难、标注更噪的 
 | Kyvo 3D VQ-VAE | **1.395** | **512** |
 
 ### 消融实验
+
 | 模块 | 配置 | 关键指标 | 说明 |
 |------|------|---------|------|
 | 形状辅助损失 | 无 / 单视图 / 多视图 | Mean Rank 2.828 / 1.672 / **1.500** | 像素空间 + 多视图监督最关键 |
@@ -158,10 +159,10 @@ Kyvo 在 Objectron 上显著超过专用检测器，在更难、标注更噪的 
 ## 相关论文
 
 - [\[CVPR 2026\] SceneTok: A Compressed, Diffusable Token Space for 3D Scenes](scenetok_a_compressed_diffusable_token_space_for_3d_scenes.md)
+- [\[CVPR 2026\] AutoRegressive Generation with B-rep Holistic Token Sequence Representation](autoregressive_generation_with_b-rep_holistic_token_sequence_representation.md)
 - [\[CVPR 2026\] Geometry-Guided 3D Visual Token Pruning for Video-Language Models](geometry-guided_3d_visual_token_pruning_for_video-language_models.md)
 - [\[CVPR 2026\] TokenHand: Discrete Token Representation for Efficient Hand Mesh Reconstruction](tokenhand_discrete_token_representation_for_efficient_hand_mesh_reconstruction.md)
 - [\[CVPR 2026\] Fast SceneScript: Fast and Accurate Language-Based 3D Scene Understanding via Multi-Token Prediction](fast_scenescript_fast_and_accurate_language-based_3d_scene_understanding_via_mul.md)
-- [\[CVPR 2026\] Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors](revisiting_token_compression_for_accelerating_vit-based_sparse_multi-view_3d_obj.md)
 
 </div>
 

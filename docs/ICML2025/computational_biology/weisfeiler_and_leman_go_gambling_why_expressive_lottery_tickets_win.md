@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2506.03919](https://arxiv.org/abs/2506.03919)  
 **作者**: Lorenz Kummer, Samir Moustafa, Anatol Ehrlich, Franka Bause, Nikolaus Suess, Wilfried N. Gansterer, Nils M. Kriege (University of Vienna)
 **代码**: [lorenz0890/wl2025lottery](https://github.com/lorenz0890/wl2025lottery)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 图彩票假说, GNN表达力, Weisfeiler-Leman测试, 稀疏初始化, 关键路径, 图剪枝
 
 ## 一句话总结

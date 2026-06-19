@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 图像生成论文汇总 · 138篇论文解读
+  ICLR2026 图像生成论文汇总 · 155篇论文解读
 description: >-
-  138篇ICLR2026的图像生成方向论文解读，涵盖扩散模型、文生图、布局/合成、对齐/RLHF、图像编辑、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  155篇ICLR2026的图像生成方向论文解读，涵盖扩散模型、文生图、对齐/RLHF、布局/合成、图像编辑、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "图像生成"
@@ -10,23 +10,45 @@ tags:
   - "论文笔记"
   - "扩散模型"
   - "文生图"
-  - "布局/合成"
   - "对齐/RLHF"
+  - "布局/合成"
   - "图像编辑"
   - "多模态"
 item_list:
   - u: "a_hidden_semantic_bottleneck_in_conditional_embeddings_of_diffusion_transformers/"
     t: "A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers"
+  - u: "a_noise_is_worth_diffusion_guidance/"
+    t: "A Noise is Worth Diffusion Guidance"
+  - u: "a_physics-inspired_optimizer_velocity_regularized_adam/"
+    t: "A Physics-Inspired Optimizer: Velocity Regularized Adam"
+  - u: "adapting_self-supervised_representations_as_a_latent_space_for_efficient_generat/"
+    t: "Adapting Self-Supervised Representations as a Latent Space for Efficient Generation"
+  - u: "alignflow_improving_flow-based_generative_models_with_semi-discrete_optimal_tran/"
+    t: "AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport"
+  - u: "aligning_visual_foundation_encoders_to_tokenizers_for_diffusion_models/"
+    t: "Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models"
   - u: "aligntok_aligning_visual_foundation_encoders_to_tokenizers_for_diffusion_models/"
     t: "AlignTok: Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models"
+  - u: "alphaflow_understanding_and_improving_meanflow_models/"
+    t: "AlphaFlow: Understanding and Improving MeanFlow Models"
   - u: "amortising_inference_and_meta-learning_priors_in_neural_networks/"
     t: "Amortising Inference and Meta-Learning Priors in Neural Networks (BNNP)"
+  - u: "any-order_flexible_length_masked_diffusion/"
+    t: "Any-Order Flexible Length Masked Diffusion"
+  - u: "arbitrary-shaped_image_generation_via_spherical_neural_field_diffusion/"
+    t: "Arbitrary-Shaped Image Generation via Spherical Neural Field Diffusion"
   - u: "asynchronous_denoising_diffusion_models_for_aligning_text-to-image_generation/"
     t: "Asynchronous Denoising Diffusion Models for Aligning Text-to-Image Generation"
+  - u: "autoregressive-based_progressive_coding_for_ultra-low_bitrate_image_compression/"
+    t: "Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression"
   - u: "autoregressive_image_generation_with_randomized_parallel_decoding/"
     t: "Autoregressive Image Generation with Randomized Parallel Decoding"
   - u: "beyond_confidence_the_rhythms_of_reasoning_in_generative_models/"
     t: "Beyond Confidence: The Rhythms of Reasoning in Generative Models"
+  - u: "beyond_text-to-image_liberating_generation_with_a_unified_discrete_diffusion_mod/"
+    t: "Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model"
+  - u: "bidedpo_conditional_image_generation_with_simultaneous_text_and_condition_alignm/"
+    t: "BideDPO: Conditional Image Generation with Simultaneous Text and Condition Alignment"
   - u: "blueprint-bench_comparing_spatial_intelligence_of_llms_agents_and_image_models/"
     t: "Blueprint-Bench: Comparing Spatial Intelligence of LLMs, Agents and Image Models"
   - u: "branched_schrödinger_bridge_matching/"
@@ -35,6 +57,14 @@ item_list:
     t: "Bridging Degradation Discrimination and Generation for Universal Image Restoration"
   - u: "bridging_generalization_gap_of_heterogeneous_federated_clients_using_generative_/"
     t: "Bridging Generalization Gap of Heterogeneous Federated Clients Using Generative Models"
+  - u: "bridging_the_distribution_gap_to_harness_pretrained_diffusion_priors_for_super-r/"
+    t: "Bridging the Distribution Gap to Harness Pretrained Diffusion Priors for Super-Resolution"
+  - u: "bézierflow_learning_bézier_stochastic_interpolant_schedulers_for_few-step_genera/"
+    t: "BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation"
+  - u: "casteer_cross-attention_steering_for_controllable_concept_erasure/"
+    t: "CASteer: Cross-Attention Steering for Controllable Concept Erasure"
+  - u: "ciar_interval-based_collaborative_decoding_for_image_generation_acceleration/"
+    t: "CIAR: Interval-based Collaborative Decoding for Image Generation Acceleration"
   - u: "cmt_mid-training_for_efficient_learning_of_consistency_mean_flow_and_flow_map_mo/"
     t: "CMT: Mid-Training for Efficient Learning of Consistency, Mean Flow, and Flow Map Models"
   - u: "compose_your_policies_improving_diffusion-based_or_flow-based_robot_policies_via/"
@@ -45,63 +75,69 @@ item_list:
     t: "Concept-TRAK: Understanding how diffusion models learn concepts through concept-level attribution"
   - u: "condition_errors_refinement_in_autoregressive_image_generation_with_diffusion_lo/"
     t: "Condition Errors Refinement in Autoregressive Image Generation with Diffusion Loss"
-  - u: "condition_matters_in_full-head_3d_gans/"
-    t: "Condition Matters in Full-head 3D GANs"
-  - u: "conditionally_whitened_generative_models_for_probabilistic_time_series_forecasti/"
-    t: "Conditionally Whitened Generative Models for Probabilistic Time Series Forecasting"
-  - u: "consistent_text-to-image_generation_via_scene_de-contextualization/"
-    t: "Consistent Text-to-Image Generation via Scene De-Contextualization"
-  - u: "contextbench_modifying_contexts_for_targeted_latent_activation/"
-    t: "ContextBench: Modifying Contexts for Targeted Latent Activation"
-  - u: "continual_unlearning_for_text-to-image_diffusion_models_a_regularization_perspec/"
-    t: "Continual Unlearning for Text-to-Image Diffusion Models: A Regularization Perspective"
-  - u: "cosmo-inr_complex_sinusoidal_modulation_for_implicit_neural_representations/"
-    t: "COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations"
-  - u: "crepe_controlling_diffusion_with_replica_exchange/"
-    t: "CREPE: Controlling Diffusion with Replica Exchange"
-  - u: "densegrpo_from_sparse_to_dense_reward_for_flow_matching_model_alignment/"
-    t: "DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment"
-  - u: "detecting_and_mitigating_memorization_in_diffusion_models_through_anisotropy_of_/"
-    t: "Detecting and Mitigating Memorization in Diffusion Models through Anisotropy of the Log-Probability"
-  - u: "diffink_glyph-_and_style-aware_latent_diffusion_transformer_for_text_to_online_h/"
-    t: "DiffInk: Glyph- and Style-Aware Latent Diffusion Transformer for Text to Online Handwriting Generation"
-  - u: "diffusion_blend_inference-time_multi-preference_alignment_for_diffusion_models/"
-    t: "Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models"
-  - u: "diffusion_fine-tuning_via_reparameterized_policy_gradient_of_the_soft_q-function/"
-    t: "Diffusion Fine-Tuning via Reparameterized Policy Gradient of the Soft Q-Function"
-  - u: "diffusionnft_online_diffusion_reinforcement_with_forward_process/"
-    t: "DiffusionNFT: Online Diffusion Reinforcement with Forward Process"
-  - u: "direct_reward_fine-tuning_on_poses_for_single_image_to_3d_human_in_the_wild/"
-    t: "Direct Reward Fine-Tuning on Poses for Single Image to 3D Human in the Wild"
-  - u: "directional_textual_inversion_for_personalized_text-to-image_generation/"
-    t: "Directional Textual Inversion for Personalized Text-to-Image Generation"
-item_total: 138
+item_total: 155
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🔬 ICLR2026** · **138** 篇论文解读
+**🔬 ICLR2026** · **155** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (451)](../../CVPR2026/image_generation/index.md) · [🧪 ICML2026 (125)](../../ICML2026/image_generation/index.md) · [💬 ACL2026 (5)](../../ACL2026/image_generation/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (221)](../../NeurIPS2025/image_generation/index.md) · [📹 ICCV2025 (213)](../../ICCV2025/image_generation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (490)](../../CVPR2026/image_generation/index.md) · [🧪 ICML2026 (141)](../../ICML2026/image_generation/index.md) · [💬 ACL2026 (5)](../../ACL2026/image_generation/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (221)](../../NeurIPS2025/image_generation/index.md) · [📹 ICCV2025 (213)](../../ICCV2025/image_generation/index.md)
 
-🔥 **高频主题：** 扩散模型 ×45 · 文生图 ×10 · 布局/合成 ×6 · 对齐/RLHF ×6 · 图像编辑 ×6
+🔥 **高频主题：** 扩散模型 ×51 · 文生图 ×11 · 对齐/RLHF ×7 · 布局/合成 ×6 · 图像编辑 ×6
 
 **[A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers](a_hidden_semantic_bottleneck_in_conditional_embeddings_of_diffusion_transformers.md)**
 
 :   对扩散 Transformer 的条件嵌入进行首次系统分析，发现极端的角度相似性（类间余弦相似度>99%）和维度稀疏性（仅 1-2% 的维度携带语义信息），裁剪掉 2/3 的低幅维度后生成质量基本不变，揭示了条件嵌入中隐藏的语义瓶颈。
 
+**[A Noise is Worth Diffusion Guidance](a_noise_is_worth_diffusion_guidance.md)**
+
+:   这篇论文提出 NoiseRefine：不去改扩散模型本身，而是训一个轻量网络把随机高斯噪声"精炼"成一份结构化噪声，使得**不开任何采样引导**、只跑一遍前向就能生成接近 CFG 引导质量的图像，从而把每步两次前向的引导开销直接省掉。
+
+**[A Physics-Inspired Optimizer: Velocity Regularized Adam](a_physics-inspired_optimizer_velocity_regularized_adam.md)**
+
+:   本文提出 VRAdam（Velocity-Regularized Adam），把"四次方动能项"这一物理稳定机制翻译成一个**随速度自动收缩的全局动态学习率** $\eta_t=\alpha_0/(1+\min(\beta_3\|v_t\|^2,\alpha_1))$ 嵌进 AdamW，在权重更新过大时自动减速、抑制稳定边缘附近的震荡，并配上严格的 Lyapunov 稳定性与 $O(\ln N/\sqrt N)$ 收敛证明，在图像分类、语言建模、GFlowNets、GPT-2 预训练与 LLM 微调上普遍优于 AdamW。
+
+**[Adapting Self-Supervised Representations as a Latent Space for Efficient Generation](adapting_self-supervised_representations_as_a_latent_space_for_efficient_generat.md)**
+
+:   RepTok 把预训练自监督 ViT 的 `[cls]` token 微调成「单个连续 token」的潜空间，配一个流匹配解码器就能高保真重建图像，再用一个无注意力的 MLP-Mixer 在这个一维潜空间里做生成，从而在 ImageNet/MS-COCO 上以不到对手 10% 的训练算力拿到有竞争力的 FID。
+
+**[AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport](alignflow_improving_flow-based_generative_models_with_semi-discrete_optimal_tran.md)**
+
+:   AlignFlow 用半离散最优传输（SDOT）在训练前一次性算出"噪声分布 → 全体数据点"的确定性对齐映射，把它当作即插即用的耦合喂给各种流生成模型，以不到 1% 的额外开销让轨迹更直、收敛更快、FID 全面下降。
+
+**[Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models](aligning_visual_foundation_encoders_to_tokenizers_for_diffusion_models.md)**
+
+:   本文提出 AlignTok——不再从零训练 VAE、也不靠语义正则化"逼"编码器学语义，而是把一个已经富含语义的预训练视觉基础编码器（DINOv2）通过三阶段渐进对齐改造成连续 tokenizer，得到既语义结构良好、又能精确重建的潜空间；在 ImageNet 256×256 上让扩散模型仅 64 epoch 就达到 gFID 1.90，收敛速度约为 VA-VAE 的 5 倍。
+
 **[AlignTok: Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models](aligntok_aligning_visual_foundation_encoders_to_tokenizers_for_diffusion_models.md)**
 
 :   提出 AlignTok，将预训练视觉基础编码器（如 DINOv2）对齐为扩散模型的连续 tokenizer，通过三阶段对齐策略（语义潜空间建立→感知细节补充→解码器精炼）构建语义丰富的潜空间，在 ImageNet 256×256 上 64 epochs 即达 gFID 1.90，比从头训练 VAE 收敛更快、生成质量更好。
+
+**[AlphaFlow: Understanding and Improving MeanFlow Models](alphaflow_understanding_and_improving_meanflow_models.md)**
+
+:   本文把 MeanFlow 的训练目标拆解成"轨迹流匹配 + 轨迹一致性"两项、发现二者梯度强负相关导致优化打架，进而提出统一了流匹配 / Shortcut / MeanFlow 的 α-Flow 目标族，用一个把 α 从 1 退火到 0 的课程策略平滑过渡，在 ImageNet-256 上用纯 DiT 从头训练把 1-NFE FID 刷到 2.58、2-NFE 刷到 2.15。
 
 **[Amortising Inference and Meta-Learning Priors in Neural Networks (BNNP)](amortising_inference_and_meta-learning_priors_in_neural_networks.md)**
 
 :   提出 BNNP（Bayesian Neural Network Process），一种将 BNN 权重作为隐变量、BNN 本身作为解码器的 neural process，通过逐层 amortised variational inference 在多数据集上联合学习 BNN 先验和推断网络，首次回答了"在良好先验下，近似推断方法还重要吗？"——答案是肯定的，没有免费午餐。
 
+**[Any-Order Flexible Length Masked Diffusion](any-order_flexible_length_masked_diffusion.md)**
+
+:   本文提出 FlexMDM，一种能在生成过程中**插入新 token、从而建模变长序列**的掩码扩散模型，它在理论上保留了掩码扩散"任意顺序并行解码"的能力，困惑度与定长掩码扩散持平但长度分布拟合显著更好，并且只需 16 张 H100 三天就能把预训练好的 LLaDA-8B 改造成变长模型，在 GSM8K（58%→67%）和代码填空（52%→65%）上明显提升。
+
+**[Arbitrary-Shaped Image Generation via Spherical Neural Field Diffusion](arbitrary-shaped_image_generation_via_spherical_neural_field_diffusion.md)**
+
+:   ASIG 把整个场景先用"网格化球面隐扩散"在一颗细分二十面体球面上一次性生成出来，再用"球面神经场"按坐标条件从这颗球上任意采样，从而第一次在统一框架内对视角、FOV、分辨率做显式控制，并能无畸变地输出透视、全景、鱼眼乃至不规则形状的图像，质量全面超过各类专用方法。
+
 **[Asynchronous Denoising Diffusion Models for Aligning Text-to-Image Generation](asynchronous_denoising_diffusion_models_for_aligning_text-to-image_generation.md)**
 
 :   AsynDM 通过为不同像素分配不同的时间步调度（prompt 相关区域去噪更慢），使其能利用更清晰的上下文参考，从而在不需要微调的情况下显著提升文图生成的语义对齐。
+
+**[Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression](autoregressive-based_progressive_coding_for_ultra-low_bitrate_image_compression.md)**
+
+:   ARPC 把视觉自回归模型 VAR 的「下一尺度预测」拿来做超低比特率图像压缩：编码端用多尺度残差量化器把图像拆成 K 套从粗到细的离散 token，只传前 k 套、其余由 VAR 自回归生成补齐，从而单模型就能连续调码率；再用 VAR 当概率估计器做无损算术编码、用分组掩码量化器进一步省比特，在 <0.05 bpp 下感知质量超过 13 个扩散/token 基线，解码还快 2∼6×。
 
 **[Autoregressive Image Generation with Randomized Parallel Decoding](autoregressive_image_generation_with_randomized_parallel_decoding.md)**
 
@@ -110,6 +146,14 @@ item_total: 138
 **[Beyond Confidence: The Rhythms of Reasoning in Generative Models](beyond_confidence_the_rhythms_of_reasoning_in_generative_models.md)**
 
 :   提出 Token Constraint Bound ($\delta_{\text{TCB}}$) 指标，通过量化 LLM 隐状态在多大扰动范围内能保持 next-token 预测不变，来度量预测的局部鲁棒性，揭示了传统 perplexity 无法捕捉的预测不稳定性。
+
+**[Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model](beyond_text-to-image_liberating_generation_with_a_unified_discrete_diffusion_mod.md)**
+
+:   Muddit 把文本和图像放进同一套吸收态（掩码）离散扩散框架里，用一个从文生图模型 Meissonic 初始化的 MM-DiT 当共享生成器，只换条件信号 $c$ 就能并行完成文生图、图生文、VQA 三类任务，用 1B 参数在质量和效率上追平甚至超过大得多的自回归统一模型。
+
+**[BideDPO: Conditional Image Generation with Simultaneous Text and Condition Alignment](bidedpo_conditional_image_generation_with_simultaneous_text_and_condition_alignm.md)**
+
+:   当文本提示和条件图（深度图/边缘图等）相互冲突时，现有可控生成模型只能二选一；本文提出双向解耦的 DPO 框架 BideDPO，把"对齐文本"和"对齐条件"拆成两组独立偏好对、用自适应损失平衡动态加权、再配上一条全自动构造"冲突感知偏好数据"的流水线和迭代自增强循环，在自建的 DualAlign 基准上把文本成功率最多提升 35%+ 的同时还改善了条件保真度。
 
 **[Blueprint-Bench: Comparing Spatial Intelligence of LLMs, Agents and Image Models](blueprint-bench_comparing_spatial_intelligence_of_llms_agents_and_image_models.md)**
 
@@ -126,6 +170,22 @@ item_total: 138
 **[Bridging Generalization Gap of Heterogeneous Federated Clients Using Generative Models](bridging_generalization_gap_of_heterogeneous_federated_clients_using_generative_.md)**
 
 :   FedVTC 提出在模型异构联邦学习中，各客户端通过变分转置卷积网络（VTC）从聚合的特征分布统计量中生成合成数据来微调本地模型，无需公共数据集即可显著提升泛化能力，同时降低通信和内存开销。
+
+**[Bridging the Distribution Gap to Harness Pretrained Diffusion Priors for Super-Resolution](bridging_the_distribution_gap_to_harness_pretrained_diffusion_priors_for_super-r.md)**
+
+:   DM-SR 不动预训练扩散模型一根毫毛，只训练一个图像编码器，把低分辨率图直接"翻译"到扩散模型熟悉的"含噪图像"分布上，再用固定去噪器一步生成超分结果，从而在单步扩散下取得当前最佳的感知质量。
+
+**[BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation](bézierflow_learning_bézier_stochastic_interpolant_schedulers_for_few-step_genera.md)**
+
+:   BézierFlow 把"少步生成要优化什么"从离散的 ODE 时间步换成连续的随机插值（SI）调度器，并用贝塞尔曲线的控制点来参数化这个调度器，只花 15 分钟轻量训练就让预训练扩散/流模型在 ≤10 步采样下 FID 提升 2–3 倍。
+
+**[CASteer: Cross-Attention Steering for Controllable Concept Erasure](casteer_cross-attention_steering_for_controllable_concept_erasure.md)**
+
+:   CASteer 是一个**免训练**的扩散模型概念擦除框架：先用成对正/负提示词预计算每个概念在交叉注意力层的「引导向量」，推理时按当前激活与该向量的投影大小动态地把这个方向减掉，从而只在概念真正出现的图块上精准抹除它（裸露、暴力、特定角色/画风都行），同时几乎不动其他内容，在多个基准上超过所有需要训练的 SOTA。
+
+**[CIAR: Interval-based Collaborative Decoding for Image Generation Acceleration](ciar_interval-based_collaborative_decoding_for_image_generation_acceleration.md)**
+
+:   CIAR 把自回归图像生成的推测解码搬到端云协同框架里，用一个设备端的「区间头」(Inter-Head) 输出每个视觉 token 的连续概率区间来量化不确定性，让低不确定区域在设备本地直接生成、只把高不确定的边界细节 token 连同区间特征上传云端核验，配合 Inter-DRO 对齐训练，实现 2.18× 加速并把云端请求量砍掉 70%，同时几乎不掉画质。
 
 **[CMT: Mid-Training for Efficient Learning of Consistency, Mean Flow, and Flow Map Models](cmt_mid-training_for_efficient_learning_of_consistency_mean_flow_and_flow_map_mo.md)**
 
@@ -178,6 +238,10 @@ item_total: 138
 **[DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment](densegrpo_from_sparse_to_dense_reward_for_flow_matching_model_alignment.md)**
 
 :   解决 Flow Matching + GRPO 对齐中的稀疏奖励问题：通过 ODE 去噪预测中间潜变量的 step-wise 奖励增益作为密集奖励，并根据密集奖励自适应调整 SDE 采样器的逐时间步噪声注入来校准探索空间，在人类偏好对齐/组合生成/文字渲染三个任务上超越 Flow-GRPO。
+
+**[Designing Rules to Pick a Rule: Aggregation by Consistency](designing_rules_to_pick_a_rule_aggregation_by_consistency.md)**
+
+:   面对一大堆各有优劣的排名聚合规则（Borda、plurality、veto……）却不知道该用哪个的难题，本文提出"挑规则的规则"（RPR）这一全新框架，并给出一个具体方案 AbC——把投票者随机对半分两组，谁在两组上算出的排名最一致就选谁，从而无需事先承诺任何公理或生成模型，就能为每份数据自动挑出最合适的聚合规则。
 
 **[Detecting and Mitigating Memorization in Diffusion Models through Anisotropy of the Log-Probability](detecting_and_mitigating_memorization_in_diffusion_models_through_anisotropy_of_.md)**
 
@@ -278,6 +342,10 @@ item_total: 138
 **[Factuality Matters: When Image Generation and Editing Meet Structured Visuals](factuality_matters_when_image_generation_and_editing_meet_structured_visuals.md)**
 
 :   首个系统性研究结构化图像（图表、数学公式、示意图等）生成与编辑的工作，构建了130万对代码对齐的训练数据集（含 CoT 推理标注）、统一的 VLM+扩散模型架构以及包含1700+样本的 StructBench 基准评测，揭示了推理能力是当前模型处理结构化视觉内容的关键瓶颈。
+
+**[FastFlow: Accelerating The Generative Flow Matching Models with Bandit Inference](fastflow_accelerating_the_generative_flow_matching_models_with_bandit_inference.md)**
+
+:   FastFlow 是一个免训练、即插即用的流匹配（flow matching）推理加速框架：它用有限差分外推零成本地近似掉那些"几乎走直线"的冗余去噪步，并用一个多臂老虎机在线决定每次能安全跳几步，在图像/视频生成与编辑任务上拿到 2.6× 以上加速且基本不掉质量。
 
 **[SSCP: Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning](flow-based_single-step_completion_for_efficient_and_expressive_policy_learning.md)**
 

@@ -94,9 +94,9 @@ tags:
 
 - [\[ICLR 2026\] The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution](../../ICLR2026/llm_agent/the_tool_decathlon_benchmarking_language_agents_for_diverse_realistic_and_long-h.md)
 - [\[ACL 2026\] Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces](../../ACL2026/llm_agent/dont_click_that_teaching_web_agents_to_resist_deceptive_interfaces.md)
+- [\[CVPR 2026\] BridgeEQA: Virtual Embodied Agents for Real Bridge Inspections](../../CVPR2026/llm_agent/bridgeeqa_virtual_embodied_agents_for_real_bridge_inspections.md)
 - [\[ICML 2026\] Rule2DRC: Benchmarking LLM Agents for DRC Script Synthesis with Execution-Guided Test Generation](../../ICML2026/llm_agent/rule2drc_benchmarking_llm_agents_for_drc_script_synthesis_with_execution-guided_.md)
 - [\[ICLR 2026\] AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](../../ICLR2026/llm_agent/agentsynth_scalable_task_generation_for_generalist_computer-use_agents.md)
-- [\[NeurIPS 2025\] Hogwild! Inference: Parallel LLM Generation via Concurrent Attention](../../NeurIPS2025/llm_agent/hogwild_inference_parallel_llm_generation_via_concurrent_attention.md)
 
 </div>
 

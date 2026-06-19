@@ -130,8 +130,8 @@ RTC 是纯推理时算法，**不需要任何训练或重新训练**。它适用
 - [\[ICLR 2026\] Compose Your Policies! Improving Diffusion-based or Flow-based Robot Policies via Test-time Distribution-level Composition](../../ICLR2026/image_generation/compose_your_policies_improving_diffusion-based_or_flow-based_robot_policies_via.md)
 - [\[NeurIPS 2025\] Failure Prediction at Runtime for Generative Robot Policies](failure_prediction_at_runtime_for_generative_robot_policies.md)
 - [\[NeurIPS 2025\] Value Gradient Guidance for Flow Matching Alignment](value_gradient_guidance_for_flow_matching_alignment.md)
+- [\[CVPR 2026\] StreamDiT: Real-Time Streaming Text-to-Video Generation](../../CVPR2026/image_generation/streamdit_real-time_streaming_text-to-video_generation.md)
 - [\[CVPR 2025\] SemanticDraw: Towards Real-Time Interactive Content Creation from Image Diffusion](../../CVPR2025/image_generation/semanticdraw_towards_real-time_interactive_content_creation_from_image_diffusion.md)
-- [\[ICML 2025\] ReFrame: Layer Caching for Accelerated Inference in Real-Time Rendering](../../ICML2025/image_generation/reframe_layer_caching_for_accelerated_inference_in_real-time_rendering.md)
 
 </div>
 

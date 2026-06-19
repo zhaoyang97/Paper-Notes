@@ -121,6 +121,7 @@ REACT 把 overall 准确率从最强 baseline 的 0.416/0.701 拉到 0.610/0.813
 通用 MLLM 和图像评估器普遍是「失真帧高 precision、正常帧高 recall」，但 F1 低——说明它们倾向把失真帧误判为正常；REACT 在两类帧上 F1 都大幅领先。
 
 ### 消融实验
+
 | 配置 | Acc w/ Tie | Acc w/o Tie | 说明 |
 |------|-----------|------------|------|
 | REACT（默认） | 0.610 | 0.813 | 完整模型 |
@@ -166,11 +167,11 @@ REACT 把 overall 准确率从最强 baseline 的 0.416/0.701 拉到 0.610/0.813
 
 ## 相关论文
 
+- [\[CVPR 2026\] Video-CoE: Reinforcing Video Event Prediction via Chain of Events](video-coe_reinforcing_video_event_prediction_via_chain_of_events.md)
+- [\[CVPR 2026\] Bridging Human Evaluation to Infrared and Visible Image Fusion](bridging_human_evaluation_to_infrared_and_visible_image_fusion.md)
 - [\[ACL 2025\] Rethinking Reward Model Evaluation Through the Lens of Reward Overoptimization](../../ACL2025/llm_alignment/rethinking_reward_model_evaluation_through_the_lens_of_reward_overoptimization.md)
 - [\[CVPR 2026\] DRM: Diffusion-based Reward Model With Step-wise Guidance](drm_diffusion-based_reward_model_with_step-wise_guidance.md)
 - [\[AAAI 2026\] GRAM-R²: Self-Training Generative Foundation Reward Models for Reward Reasoning](../../AAAI2026/llm_alignment/gram-r2_self-training_generative_foundation_reward_models_for_reward_reasoning.md)
-- [\[CVPR 2026\] Unlocking Token Rewards via Training-Free Reward Attribution](unlocking_token_rewards_via_training-free_reward_attribution.md)
-- [\[ACL 2026\] ConsistRM: Improving Generative Reward Models via Consistency-Aware Self-Training](../../ACL2026/llm_alignment/consistrm_improving_generative_reward_models_via_consistency-aware_self-training.md)
 
 </div>
 

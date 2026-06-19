@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2605.12167](https://arxiv.org/abs/2605.12167)  
 **代码**: https://logosroboticsgroup.github.io/MoLA (有)  
-**领域**: 机器人
+**领域**: 机器人  
 **关键词**: 潜动作、逆动力学、视频生成、机器人操控、模态感知
 
 ## 一句话总结

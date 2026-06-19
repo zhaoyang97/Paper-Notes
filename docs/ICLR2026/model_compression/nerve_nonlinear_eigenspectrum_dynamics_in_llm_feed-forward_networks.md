@@ -154,8 +154,8 @@ GPT-2 基线模型不同配置的困惑度：
 
 ## 相关论文
 
-- [\[ICML 2025\] Eigenspectrum Analysis of Neural Networks without Aspect Ratio Bias](../../ICML2025/model_compression/eigenspectrum_analysis_of_neural_networks_without_aspect_ratio_bias.md)
 - [\[NeurIPS 2025\] Fin3R: Fine-tuning Feed-forward 3D Reconstruction Models via Monocular Knowledge Distillation](../../NeurIPS2025/model_compression/fin3r_fine-tuning_feed-forward_3d_reconstruction_models_via_monocular_knowledge_.md)
+- [\[ICML 2025\] Eigenspectrum Analysis of Neural Networks without Aspect Ratio Bias](../../ICML2025/model_compression/eigenspectrum_analysis_of_neural_networks_without_aspect_ratio_bias.md)
 - [\[ICLR 2026\] Adaptive Width Neural Networks](adaptive_width_neural_networks.md)
 - [\[ICLR 2026\] A Recovery Guarantee for Sparse Neural Networks](a_recovery_guarantee_for_sparse_neural_networks.md)
 - [\[ICLR 2026\] Fine-tuning Quantized Neural Networks with Zeroth-order Optimization](fine-tuning_quantized_neural_networks_with_zeroth-order_optimization.md)

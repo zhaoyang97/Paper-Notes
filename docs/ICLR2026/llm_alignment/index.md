@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 对齐/RLHF论文汇总 · 40篇论文解读
+  ICLR2026 对齐/RLHF论文汇总 · 49篇论文解读
 description: >-
-  40篇ICLR2026的对齐 / RLHF 方向论文解读，涵盖对齐/RLHF、LLM、对抗鲁棒、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  49篇ICLR2026的对齐 / RLHF 方向论文解读，涵盖对齐/RLHF、LLM、对抗鲁棒、强化学习、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "对齐 / RLHF"
@@ -11,26 +11,45 @@ tags:
   - "对齐/RLHF"
   - "LLM"
   - "对抗鲁棒"
+  - "强化学习"
   - "多模态"
 item_list:
   - u: "a2d_any-order_any-step_safety_alignment_for_diffusion_language_models/"
     t: "A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models"
+  - u: "activedpo_active_direct_preference_optimization_for_sample-efficient_alignment/"
+    t: "ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment"
   - u: "agnostics_learning_to_code_in_any_programming_language_via_reinforcement_with_a_/"
     t: "Agnostics: Learning to Synthesize Code in Any Programming Language with a Universal RL Environment"
   - u: "align_once_benefit_multilingually_enforcing_multilingual_consistency_for_llm_saf/"
     t: "Align Once, Benefit Multilingually: Enforcing Multilingual Consistency for LLM Safety Alignment"
+  - u: "aligner_diagnose_thyself_a_meta-learning_paradigm_for_fusing_intrinsic_feedback_/"
+    t: "Aligner, Diagnose Thyself: A Meta-Learning Paradigm for Fusing Intrinsic Feedback in Preference Alignment"
+  - u: "aligning_deep_implicit_preferences_by_learning_to_reason_defensively/"
+    t: "Aligning Deep Implicit Preferences by Learning to Reason Defensively"
+  - u: "alphaalign_incentivizing_safety_alignment_with_extremely_simplified_reinforcemen/"
+    t: "AlphaAlign: Incentivizing Safety Alignment with Extremely Simplified Reinforcement Learning"
   - u: "alphasteer_learning_refusal_steering_with_principled_null-space_constraint/"
     t: "AlphaSteer: Learning Refusal Steering with Principled Null-Space Constraint"
+  - u: "annotation-efficient_honesty_alignment_via_confidence_elicitation_and_calibratio/"
+    t: "Annotation-Efficient Honesty Alignment via Confidence Elicitation and Calibration"
+  - u: "beyond_binary_preferences_a_principled_framework_for_reward_modeling_with_ordina/"
+    t: "Beyond Binary Preferences: A Principled Framework for Reward Modeling with Ordinal Feedback"
   - u: "beyond_pairwise_empowering_llm_alignment_with_ranked_choice_modeling/"
     t: "Beyond Pairwise: Empowering LLM Alignment With Ranked Choice Modeling"
   - u: "beyond_rlhf_and_nlhf_population-proportional_alignment_under_an_axiomatic_framew/"
     t: "Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework"
+  - u: "bird_behavior_induction_via_representation-structure_distillation/"
+    t: "BIRD: Behavior Induction via Representation-structure Distillation"
   - u: "cage_a_framework_for_culturally_adaptive_red-teaming_benchmark_generation/"
     t: "CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation"
   - u: "capability-based_scaling_trends_for_llm-based_red-teaming/"
     t: "Capability-Based Scaling Trends for LLM-Based Red-Teaming"
   - u: "chasing_the_tail_effective_rubric-based_reward_modeling_for_large_language_model/"
     t: "Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training"
+  - u: "cognitive_models_can_reveal_interpretable_value_trade-offs_in_language_models/"
+    t: "Cognitive models can reveal interpretable value trade-offs in language models"
+  - u: "contextif_enhancing_instruction-following_through_context_reward/"
+    t: "ContextIF: Enhancing Instruction-Following through Context Reward"
   - u: "displacement-resistant_extensions_of_dpo_with_nonconvex_f-divergences/"
     t: "Displacement-Resistant Extensions of DPO with Nonconvex $f$-Divergences"
   - u: "general_exploratory_bonus_for_optimistic_exploration_in_rlhf/"
@@ -55,39 +74,25 @@ item_list:
     t: "Learning Ordinal Probabilistic Reward from Preferences (OPRM)"
   - u: "mitigating_the_safety_alignment_tax_with_null-space_constrained_policy_optimizat/"
     t: "Mitigating the Safety Alignment Tax with Null-Space Constrained Policy Optimization"
-  - u: "no_prompt_left_behind_exploiting_zero-variance_prompts_in_llm_reinforcement_lear/"
-    t: "No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping"
-  - u: "obscure_but_effective_classical_chinese_jailbreak_prompt_optimization_via_bio-in/"
-    t: "Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search"
-  - u: "optimal_sparsity_of_mixture-of-experts_language_models_for_reasoning_tasks/"
-    t: "Optimal Sparsity of Mixture-of-Experts Language Models for Reasoning Tasks"
-  - u: "reasoned_safety_alignment_ensuring_jailbreak_defense_via_answer-then-check/"
-    t: "Reasoned Safety Alignment: Ensuring Jailbreak Defense via Answer-Then-Check"
-  - u: "robust_preference_alignment_via_directional_neighborhood_consensus/"
-    t: "Robust Preference Alignment via Directional Neighborhood Consensus"
-  - u: "safedpo_preference_optimization_safety/"
-    t: "SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety"
-  - u: "safety_subspaces_are_not_linearly_distinct_a_fine-tuning_case_study/"
-    t: "Safety Subspaces are Not Linearly Distinct: A Fine-Tuning Case Study"
-  - u: "sema_simple_yet_effective_learning_for_multi-turn_jailbreak_attacks/"
-    t: "SEMA: Simple yet Effective Learning for Multi-Turn Jailbreak Attacks"
-  - u: "semantic-aware_wasserstein_policy_regularization_for_large_language_model_alignm/"
-    t: "Semantic-aware Wasserstein Policy Regularization for Large Language Model Alignment"
-item_total: 40
+item_total: 49
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**🔬 ICLR2026** · **40** 篇论文解读
+**🔬 ICLR2026** · **49** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (9)](../../CVPR2026/llm_alignment/index.md) · [🧪 ICML2026 (26)](../../ICML2026/llm_alignment/index.md) · [💬 ACL2026 (31)](../../ACL2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/llm_alignment/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (12)](../../CVPR2026/llm_alignment/index.md) · [🧪 ICML2026 (37)](../../ICML2026/llm_alignment/index.md) · [💬 ACL2026 (38)](../../ACL2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/llm_alignment/index.md)
 
-🔥 **高频主题：** 对齐/RLHF ×17 · LLM ×11 · 对抗鲁棒 ×5 · 多模态 ×2
+🔥 **高频主题：** 对齐/RLHF ×21 · LLM ×11 · 对抗鲁棒 ×5 · 强化学习 ×2 · 多模态 ×2
 
 **[A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models](a2d_any-order_any-step_safety_alignment_for_diffusion_language_models.md)**
 
 :   提出 A2D，一种针对扩散语言模型（dLLM）的 token 级安全对齐方法，通过训练模型在遇到有害内容的 mask 位置输出 [EOS] token 来实现任意解码顺序、任意解码步的安全防御，将 DIJA 模板攻击成功率从 80%+ 降到近零（1.3%/0.0%），并支持早期拒绝实现 19.3x 加速。
+
+**[ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment](activedpo_active_direct_preference_optimization_for_sample-efficient_alignment.md)**
+
+:   ActiveDPO 用「被对齐的 LLM 自身」当奖励模型，基于其隐式奖励的梯度推导出一套有理论保证的不确定性准则，主动挑选最值得标注的偏好三元组，从而在固定标注预算下用更少的人工偏好标签把 LLM 对齐到更高水平。
 
 **[Agnostics: Learning to Synthesize Code in Any Programming Language with a Universal RL Environment](agnostics_learning_to_code_in_any_programming_language_via_reinforcement_with_a_.md)**
 
@@ -97,9 +102,29 @@ item_total: 40
 
 :   提出 Multi-Lingual Consistency (MLC) 辅助损失，通过 SVD 操控多语言表示矩阵的奇异值使其趋向秩-1（即多语言表示共线），仅需多语言 prompt 翻译（无需目标语言的 response），即可将一种语言的安全对齐效果一致性地迁移到所有语言。
 
+**[Aligner, Diagnose Thyself: A Meta-Learning Paradigm for Fusing Intrinsic Feedback in Preference Alignment](aligner_diagnose_thyself_a_meta-learning_paradigm_for_fusing_intrinsic_feedback_.md)**
+
+:   针对偏好数据集里"标错的偏好对"会毁掉 DPO 对齐的问题，本文不再依赖困惑度差这类单一启发式，而是让模型"自我诊断"——从一致性、学习难度、生成置信度三个内在信号拼出一个诊断向量，再用元学习训一个小网络学会融合这些信号给每个样本自适应加权，在多种噪声比例下显著超过现有鲁棒对齐方法。
+
+**[Aligning Deep Implicit Preferences by Learning to Reason Defensively](aligning_deep_implicit_preferences_by_learning_to_reason_defensively.md)**
+
+:   针对 LLM 个性化对齐里"只会照搬用户说出口的偏好、推不出深层意图、也不会主动规避风险"的问题，本文把对齐从标量奖励匹配重构成结构化推理过程——先用"多角色认知委员会"造出带逐步批判标注的推理链数据集 DeepPref，再训练一个会"先写批判再打分"的生成式过程奖励模型 Pers-GenPRM，最后用融合数值与自然语言反馈的 token 级在线 RL（CDPA）对齐策略模型，在深度偏好理解和防御性推理上都拿到 SOTA。
+
+**[AlphaAlign: Incentivizing Safety Alignment with Extremely Simplified Reinforcement Learning](alphaalign_incentivizing_safety_alignment_with_extremely_simplified_reinforcemen.md)**
+
+:   AlphaAlign 用一套极简的纯强化学习框架——只需"是否有害"的二元标签 + 不到 200 步 RL——把大模型预训练时就潜藏的"安全自我意识"激发出来，让它先写一段安全推理再作答，靠"可验证安全奖励 + 归一化帮助性奖励"双奖励同时打破"越安全越没用"的权衡。
+
 **[AlphaSteer: Learning Refusal Steering with Principled Null-Space Constraint](alphasteer_learning_refusal_steering_with_principled_null-space_constraint.md)**
 
 :   提出 AlphaSteer，通过学习一个受零空间约束的变换矩阵来动态构造 steering 向量，对良性输入产生近零向量（保持效用），对恶意输入重建拒绝方向向量（增强安全），在理论上保证了安全与效用的解耦。
+
+**[Annotation-Efficient Honesty Alignment via Confidence Elicitation and Calibration](annotation-efficient_honesty_alignment_via_confidence_elicitation_and_calibratio.md)**
+
+:   这篇论文把"诚实对齐"（让 LLM 在回答前就准确说出自己有多大把握）拆成"引出-再-校准"两阶段：先用免标注的自一致性信号教模型把内在置信"说出来"，再用极少量（~1k 条，约 0.18% 全量）正确性标注把这个置信校准到真实准确率上，配套发布了 56 万训练样本的 HonestyBench，使得只用 1k 标注就能达到全量监督 98% 的对齐效果。
+
+**[Beyond Binary Preferences: A Principled Framework for Reward Modeling with Ordinal Feedback](beyond_binary_preferences_a_principled_framework_for_reward_modeling_with_ordina.md)**
+
+:   这篇论文指出现有奖励模型只会用"A 好于 B"的二元偏好，面对人类打的 Likert 分级反馈（"明显更好/更好/略好"）只能靠加 margin、乘权重这种拍脑袋的启发式补丁；作者把奖励建模重新表述成**离散序数回归**问题，从有序 logit 模型自然推出两个有理论根据的损失（NLL 与 all-threshold），让分隔各偏好等级的"阈值"直接从数据里学出来，在 RewardBench / RM-Bench 上一致追平或超过启发式基线，并把错误严重度降低 87%。
 
 **[Beyond Pairwise: Empowering LLM Alignment With Ranked Choice Modeling](beyond_pairwise_empowering_llm_alignment_with_ranked_choice_modeling.md)**
 
@@ -108,6 +133,10 @@ item_total: 40
 **[Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework](beyond_rlhf_and_nlhf_population-proportional_alignment_under_an_axiomatic_framew.md)**
 
 :   提出基于社会选择理论公理的偏好学习框架，从成对比较数据中推断评估者人群分布的可行集，构造满足人群比例对齐(PPA)和人群有界可操纵性(PBM)公理的策略。
+
+**[BIRD: Behavior Induction via Representation-structure Distillation](bird_behavior_induction_via_representation-structure_distillation.md)**
+
+:   BIRD 通过让学生模型的内部表示**结构**（batch 内成对相似度的几何，用 CKA 度量）去匹配一个已对齐教师的表示结构，把鲁棒性 / 安全性这类"对齐行为"从一个异构教师迁移到学生——教师和学生可以任务、数据、架构、输出空间全都不同；在图像 OOD 鲁棒迁移上比微调 / 迁移学习 / 持续学习最多高 18% 鲁棒精度，并能从一个比学生小 25× 的教师做弱到强迁移。
 
 **[CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation](cage_a_framework_for_culturally_adaptive_red-teaming_benchmark_generation.md)**
 
@@ -120,6 +149,14 @@ item_total: 40
 **[Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training](chasing_the_tail_effective_rubric-based_reward_modeling_for_large_language_model.md)**
 
 :   理论证明奖励过优化主要源于高奖励尾部区域的奖励模型错误规范，提出基于 rubric 的奖励建模方法：利用 off-policy 数据（强模型生成的优秀回复）构造评分细则，通过渐进式区分"优秀 vs 更优秀"来精细化 rubric，有效缓解奖励过优化。
+
+**[Cognitive models can reveal interpretable value trade-offs in language models](cognitive_models_can_reveal_interpretable_value_trade-offs_in_language_models.md)**
+
+:   本文把认知科学里的「礼貌言语」理性言语行为（RSA）认知模型当作探针，给语言模型在一个真话-给面子两难任务上的回答拟合出三种效用（信息/社交/呈现）的权重，从而把模型的推理预算、系统提示、RLHF 训练动力学等"看不见的低层决策"翻译成一组可解释的价值权衡参数。
+
+**[ContextIF: Enhancing Instruction-Following through Context Reward](contextif_enhancing_instruction-following_through_context_reward.md)**
+
+:   ContextIF 用强化学习训练一个"上下文生成器"，让它针对每条指令自动产出约束摘要 + 平行示范，再把这段上下文喂给参数冻结的目标模型做一次上下文学习；靠一套结构 + 语义复合的 Context Reward 引导生成，使开源 8B 模型在 IFEval 上从 77.11 涨到 83.35，且不损伤甚至提升通用能力。
 
 **[Displacement-Resistant Extensions of DPO with Nonconvex $f$-Divergences](displacement-resistant_extensions_of_dpo_with_nonconvex_f-divergences.md)**
 

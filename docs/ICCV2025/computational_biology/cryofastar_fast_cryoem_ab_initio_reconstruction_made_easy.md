@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.05864](https://arxiv.org/abs/2506.05864)  
 **代码**: 无  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: cryo-EM, ab initio reconstruction, geometric foundation model, pose estimation, Fourier planar map
 
 ## 一句话总结

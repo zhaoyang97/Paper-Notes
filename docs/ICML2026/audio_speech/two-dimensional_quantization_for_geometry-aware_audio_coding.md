@@ -98,6 +98,7 @@ Q2D2 不显式存任何 embedding 码本，而是把码本定义成所有 pair �
 关键观察：用 **单 quantizer + 333 token/s** 的 Q2D2 在 UTMOS 上追平 DAC 的 12 quantizer + 600 token/s 配置，STOI 反而更高；在 166 token/s 这一档全面碾压同 token 预算的 Mimi / Encodec / DAC。
 
 ### 消融实验
+
 | 配置 | 关键观察 | 说明 |
 |------|---------|------|
 | Q2D2 (rhombic) | best PESQ / STOI / F1 | 菱形 tiling 在 ≤9 level 时 packing 最优 |

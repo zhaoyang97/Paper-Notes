@@ -91,6 +91,7 @@ PGB-CT 使用梯度下降更新 mask：$\mathbf{m}_{t+1}=\mathbf{m}_t-\eta_t\nab
 | WinoBias | PGB-CT | 0.381 | 0.394 | 0.401 | 0.404 | 5.32 min |
 
 ### 消融实验
+
 | 分析项 | 关键数字 | 说明 |
 |--------|----------|------|
 | GPT2-medium / WinoGender speedup | PGB-CT 1.56 min vs top-k 2.76 min vs greedy 357.28 min | 约 1.76× 快于 top-k，约 229× 快于 greedy |
@@ -135,10 +136,10 @@ PGB-CT 使用梯度下降更新 mask：$\mathbf{m}_{t+1}=\mathbf{m}_t-\eta_t\nab
 ## 相关论文
 
 - [\[ACL 2026\] CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification](causaldetox_causal_head_selection_and_intervention_for_language_model_detoxifica.md)
-- [\[CVPR 2026\] Multi-Paradigm Collaborative Adversarial Attack Against Multi-Modal Large Language Models](../../CVPR2026/llm_safety/multi-paradigm_collaborative_adversarial_attack_against_multi-modal_large_langua.md)
 - [\[ACL 2026\] TROJail: Trajectory-Level Optimization for Multi-Turn Large Language Model Jailbreaks with Process Rewards](trojail_trajectory-level_optimization_for_multi-turn_large_language_model_jailbr.md)
-- [\[AAAI 2026\] AUVIC: Adversarial Unlearning of Visual Concepts for Multi-modal Large Language Models](../../AAAI2026/llm_safety/auvic_adversarial_unlearning_of_visual_concepts_for_multi-mo.md)
 - [\[ACL 2026\] Reasoning Hijacking: The Fragility of Reasoning Alignment in Large Language Models](reasoning_hijacking_the_fragility_of_reasoning_alignment_in_large_language_model.md)
+- [\[AAAI 2026\] AUVIC: Adversarial Unlearning of Visual Concepts for Multi-modal Large Language Models](../../AAAI2026/llm_safety/auvic_adversarial_unlearning_of_visual_concepts_for_multi-mo.md)
+- [\[ACL 2026\] Learning Uncertainty from Sequential Internal Dispersion in Large Language Models](learning_uncertainty_from_sequential_internal_dispersion_in_large_language_model.md)
 
 </div>
 

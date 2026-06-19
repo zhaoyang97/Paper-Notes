@@ -93,6 +93,7 @@ TabTrim 用 WikiSQL 和 SQUALL 构造超过 80K 训练样本。pruner 使用 Qwe
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | WikiTQ | TabFact | TB-NR | TB-FC | TB-DA | Average |
 |------|--------|---------|-------|-------|-------|---------|
 | Direct QA: GPT-4o-mini | 54.3 | 77.4 | 65.5 | 76.0 | 25.1 | 59.8 |
@@ -104,6 +105,7 @@ TabTrim 用 WikiSQL 和 SQUALL 构造超过 80K 训练样本。pruner 使用 Qwe
 | TabTrim-8B | 79.4 | 91.2 | 78.8 | 83.3 | 34.7 | 73.5 |
 
 ### 消融实验
+
 | 配置 | WikiTQ | TableBench | 说明 |
 |------|--------|------------|------|
 | TabTrim | 79.4 | 61.2 | 完整模型 |

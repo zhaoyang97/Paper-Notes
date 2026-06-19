@@ -93,6 +93,7 @@ $$W'_{a,b,c}=\frac{\text{base}^{\frac{\text{steps}-|b-a|}{\text{steps}}}}{\sum_{
 ## 实验关键数据
 
 ### 主实验（ImageNet-1K 分类，224×224）
+
 | 模型 | 类型 | Params(M) | FLOPs(G) | Top-1(%) |
 |------|------|-----------|----------|----------|
 | Swin-T | Attn | 28 | 4.5 | 81.5 |
@@ -109,6 +110,7 @@ $$W'_{a,b,c}=\frac{\text{base}^{\frac{\text{steps}-|b-a|}{\text{steps}}}}{\sum_{
 Ego-T 以最低的 3.8 GFLOPs 拿到 84.0%，比 Conv2Former-T、MogaNet-S 高 0.6~0.8 个点；Ego-S（39M）直接追平 56M 的 OverLock-S；Ego-B 达 85.1%，超过 83M 的 MogaNet-L。下游同样领先：ADE20K 语义分割 Ego-B 52.3 mIoU（>OverLock-S 51.9、VAN-B4 52.2）；COCO 检测 Ego-B 53.3 AP$^b$（>MogaNet-B 0.7、HorNet-S 0.6）。
 
 ### 消融实验（Ego-T，ImageNet-1K）
+
 | 配置 | Top-1(%) | 说明 |
 |------|----------|------|
 | Ego-T（完整） | 84.0 | 窗口 $24\lfloor\ln N\rfloor+1$ + logspace |
@@ -156,11 +158,11 @@ Ego-T 以最低的 3.8 GFLOPs 拿到 84.0%，比 Conv2Former-T、MogaNet-S 高 0
 
 ## 相关论文
 
-- [\[CVPR 2026\] Content-Aware Frequency Encoding for Implicit Neural Representations with Fourier-Chebyshev Features](content-aware_frequency_encoding_for_implicit_neural_representations_with_fourie.md)
-- [\[CVPR 2026\] Robust Spiking Neural Networks by Temporal Mutual Information](robust_spiking_neural_networks_by_temporal_mutual_information.md)
-- [\[CVPR 2026\] On the Role of Temporal Granularity in the Robustness of Spiking Neural Networks](on_the_role_of_temporal_granularity_in_the_robustness_of_spiking_neural_networks.md)
-- [\[CVPR 2026\] ID-Sim: An Identity-Focused Similarity Metric](id-sim_an_identity-focused_similarity_metric.md)
-- [\[CVPR 2026\] Neural Differentiation in Deep Networks: A Theoretical Framework for Expressivity and Representational Diversity](neural_differentiation_in_deep_networks_a_theoretical_framework_for_expressivity.md)
+- [\[CVPR 2026\] Bidirectional Query-Driven Generation of Parametric CAD Sketch](bidirectional_query-driven_generation_of_parametric_cad_sketch.md)
+- [\[CVPR 2026\] EXOTIC: External Vision-driven Incomplete Multi-view Classification](exotic_external_vision-driven_incomplete_multi-view_classification.md)
+- [\[ICML 2026\] On the Epistemic Uncertainty of Overparametrized Neural Networks](../../ICML2026/others/on_the_epistemic_uncertainty_of_overparametrized_neural_networks.md)
+- [\[ICLR 2026\] On the Lipschitz Continuity of Set Aggregation Functions and Neural Networks for Sets](../../ICLR2026/others/on_the_lipschitz_continuity_of_set_aggregation_functions_and_neural_networks_for.md)
+- [\[ICLR 2026\] Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks](../../ICLR2026/others/breaking_gradient_temporal_collinearity_for_robust_spiking_neural_networks.md)
 
 </div>
 

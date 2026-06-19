@@ -1,22 +1,27 @@
 ---
 title: >-
-  ICLR2026 视频理解论文汇总 · 10篇论文解读
+  ICLR2026 视频理解论文汇总 · 14篇论文解读
 description: >-
-  10篇ICLR2026的视频理解方向论文解读，涵盖推理、异常检测、问答、LLM、压缩/编码、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  14篇ICLR2026的视频理解方向论文解读，涵盖推理、LLM、异常检测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "视频理解"
   - "论文解读"
   - "论文笔记"
   - "推理"
-  - "异常检测"
-  - "问答"
   - "LLM"
-  - "压缩/编码"
-  - "少样本学习"
+  - "异常检测"
 item_list:
+  - u: "a_training-free_framework_for_long_video_understanding_via_video-query-options_s/"
+    t: "A Training-Free Framework for Long Video Understanding via Video-Query-Options Similarity"
   - u: "air_enabling_adaptive_iterative_and_reasoning-based_frame_selection_for_video_qu/"
     t: "A.I.R.: Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering"
+  - u: "beyond_static_vision_scene_dynamic_field_unlocks_intuitive_physics_understanding/"
+    t: "Beyond Static Vision: Scene Dynamic Field Unlocks Intuitive Physics Understanding in Multi-modal Large Language Models"
+  - u: "cambrian-s_towards_spatial_supersensing_in_video/"
+    t: "Cambrian-S: Towards Spatial Supersensing in Video"
+  - u: "carebench_a_fine-grained_benchmark_for_video_captioning_and_retrieval/"
+    t: "CaReBench: A Fine-grained Benchmark for Video Captioning and Retrieval"
   - u: "flashvid_efficient_video_large_language_models_via_training-free_tree-based_spat/"
     t: "FlashVID: Efficient Video Large Language Models via Training-free Tree-Based Spatiotemporal Token Merging"
   - u: "floc_facility_location-based_efficient_visual_token_compression_for_long_video_u/"
@@ -35,21 +40,37 @@ item_list:
     t: "Video-KTR: Reinforcing Video Reasoning via Key Token Attribution"
   - u: "videonsa_native_sparse_attention_scales_video_understanding/"
     t: "VideoNSA: Native Sparse Attention Scales Video Understanding"
-item_total: 10
+item_total: 14
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 视频理解
 
-**🔬 ICLR2026** · **10** 篇论文解读
+**🔬 ICLR2026** · **14** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (179)](../../CVPR2026/video_understanding/index.md) · [🧪 ICML2026 (17)](../../ICML2026/video_understanding/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/video_understanding/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/video_understanding/index.md) · [📹 ICCV2025 (56)](../../ICCV2025/video_understanding/index.md) · [🧪 ICML2025 (4)](../../ICML2025/video_understanding/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (187)](../../CVPR2026/video_understanding/index.md) · [🧪 ICML2026 (17)](../../ICML2026/video_understanding/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/video_understanding/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/video_understanding/index.md) · [📹 ICCV2025 (56)](../../ICCV2025/video_understanding/index.md) · [🧪 ICML2025 (4)](../../ICML2025/video_understanding/index.md)
 
-🔥 **高频主题：** 推理 ×2 · 异常检测 ×2
+🔥 **高频主题：** 推理 ×2 · LLM ×2 · 异常检测 ×2
+
+**[A Training-Free Framework for Long Video Understanding via Video-Query-Options Similarity](a_training-free_framework_for_long_video_understanding_via_video-query-options_s.md)**
+
+:   针对小时级长视频塞不进多模态大模型上下文的问题，本文提出一套**无需训练**的输入侧框架：用视频-文本检索模型给每个视频片段打相关性分，再据此**自适应加密采样**（AFS）、**动态分配分辨率**（DRA），并让 MLLM 自己生成候选答案融进检索 query（VQOS）来精修相关性估计，在 5 个长视频基准上把 LLaVA-Video 和 Qwen2.5-VL 平均提了 3~5 个点。
 
 **[A.I.R.: Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering](air_enabling_adaptive_iterative_and_reasoning-based_frame_selection_for_video_qu.md)**
 
 :   提出 A.I.R.，一种无需训练的自适应-迭代-推理驱动帧选择框架，通过两阶段策略（GMM 自适应初始采样 + 迭代式 VLM 精细分析）解决 VideoQA 中轻量模型（CLIP）相似度不准确和 VLM 分析成本爆炸的双重困境，在最坏情况下也仅需分析 72 帧（vs 基线 128 帧），同时显著提升多个长视频 benchmark 性能。
+
+**[Beyond Static Vision: Scene Dynamic Field Unlocks Intuitive Physics Understanding in Multi-modal Large Language Models](beyond_static_vision_scene_dynamic_field_unlocks_intuitive_physics_understanding.md)**
+
+:   这篇论文先用 Next Frame Selection（下一帧选择）和 Temporal Coherence Verification（时序一致性判别）两个"低层"诊断任务，揭示当前 MLLM 连流体这类连续介质的直觉物理动态都看不懂；再提出 Scene Dynamic Field（SDF）——把物理模拟器算出的粒子速度映射成蓝色梯度图当视觉提示，配合多任务微调，让 Qwen2-VL / GLM-4.1V 在流体任务上最高涨 20.7%，并能迁移到布料、沙、烟雾等未见物理域。
+
+**[Cambrian-S: Towards Spatial Supersensing in Video](cambrian-s_towards_spatial_supersensing_in_video.md)**
+
+:   本文提出"空间超感知（spatial supersensing）"这一从被动任务驱动转向主动世界建模的范式：先用 VSI-SUPER 基准证明暴力扩长上下文（包括 Gemini-2.5 和自训的 Cambrian-S）在任意长视频上的空间回忆与计数任务上彻底失效，再用一个自监督的"潜帧预测"头把预测误差（"惊讶"）当作控制信号去驱动记忆管理与事件分割，从而在长视频空间任务上大幅超过强商业基线。
+
+**[CaReBench: A Fine-grained Benchmark for Video Captioning and Retrieval](carebench_a_fine-grained_benchmark_for_video_captioning_and_retrieval.md)**
+
+:   CaReBench 用 1000 个人工标注、字幕长达 200+ 词且**显式拆成空间/时间两份**的视频，搭起一个能同时考视频细粒度字幕（captioning）和检索（retrieval）的 benchmark，配套两个新指标 ReBias 与 CapST 专门量化 VLM 的时空偏置，并顺手给出一个把字幕和检索统一进单个 MLLM 的两阶段 SFT 基线 CARE。
 
 **[FlashVID: Efficient Video Large Language Models via Training-free Tree-Based Spatiotemporal Token Merging](flashvid_efficient_video_large_language_models_via_training-free_tree-based_spat.md)**
 

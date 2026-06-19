@@ -96,6 +96,7 @@ flowchart TD
 通用场景（D-NeRF 类人案例，Tab.3）：D-Prism 渲染质量略低于 DG-Mesh（如 Jumpingjacks PSNR 29.07 vs 31.77），但 LPIPS 反而更优（0.034 vs 0.045），且唯一能额外给出结构化几何表示。
 
 ### 消融实验
+
 | 配置 | EPE ↓ | $\delta_{3D}^{.05}$ ↑ | CDd ↓ | 说明 |
 |------|-------|-----------------------|-------|------|
 | w/o deform（直接学每帧位姿） | 0.177 | 0.692 | 3.642 | 去掉形变网络，运动跟踪大幅退化 |
@@ -140,10 +141,10 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] UTrice: Unifying Primitives in Differentiable Ray Tracing and Rasterization via Triangles for Particle-Based 3D Scenes](utrice_unifying_primitives_in_differentiable_ray_tracing_and_rasterization_via_t.md)
 - [\[CVPR 2026\] Differentiable Adaptive 4D Structured Illumination for Joint Capture of Shape and Reflectance](differentiable_adaptive_4d_structured_illumination_for_joint_capture_of_shape_an.md)
 - [\[CVPR 2026\] 4D Primitive-Mâché: Glueing Primitives for Persistent 4D Scene Reconstruction](4d_primitive-mache_glueing_primitives_for_persistent_4d_scene_reconstruction.md)
 - [\[NeurIPS 2025\] LinPrim: Linear Primitives for Differentiable Volumetric Rendering](../../NeurIPS2025/3d_vision/linprim_linear_primitives_for_differentiable_volumetric_rendering.md)
+- [\[CVPR 2026\] MeshSplatting: Differentiable Rendering with Opaque Meshes](meshsplatting_differentiable_rendering_with_opaque_meshes.md)
 - [\[CVPR 2026\] EMGauss: Continuous Slice-to-3D Reconstruction via Dynamic Gaussian Modeling in Volume Electron Microscopy](emgauss_continuous_slice-to-3d_reconstruction_via_dynamic_gaussian_modeling_in_v.md)
 
 </div>

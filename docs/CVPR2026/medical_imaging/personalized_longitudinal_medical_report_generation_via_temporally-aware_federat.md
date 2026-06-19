@@ -91,6 +91,7 @@ flowchart TD
 CIDEr 从最强基线的 31.70 提升到 42.80，提升幅度最大，说明时间+人口学感知的适应显著改善了内容相关性。在公开 MIMIC-CXR（划成 4 个客户端）上，FedTAR 的 CE-F1 33.21、CIDEr 120.58 也领先多数基线（如 FedAvg CIDEr 37.54、DRFA 108.10）。与集中式纵向模型 CT2RepLong 相比，FedTAR 在 CE-F1（14.47 vs 13.24）和 CIDEr（42.80 vs 25.68）上更优，但 BLEU-1/ROUGE-L 略低——在隐私保护的联邦设定下取得这样的结果已属不易。
 
 ### 消融实验
+
 | 配置 | BLEU-4 | ROUGE-L | CIDEr | 说明 |
 |------|--------|---------|-------|------|
 | FedTAR w/o GMM | 12.07 | 28.65 | 41.56 | 去掉人口学软聚类嵌入 |
@@ -137,7 +138,7 @@ CIDEr 从最强基线的 31.70 提升到 42.80，提升幅度最大，说明时�
 - [\[CVPR 2026\] BiOTPrompt: Bidirectional Optimal Transport Guided Prompting for Disease Evolution-aware Radiology Report Generation](biotprompt_bidirectional_optimal_transport_guided_prompting_for_disease_evolutio.md)
 - [\[CVPR 2026\] OmniFM: Toward Modality-Robust and Task-Agnostic Federated Learning for Heterogeneous Medical Imaging](omnifm_toward_modality-robust_and_task-agnostic_federated_learning_for_heterogen.md)
 - [\[CVPR 2026\] Sketch2CT: Multimodal Diffusion for Structure-Aware 3D Medical Volume Generation](sketch2ct_multimodal_diffusion_for_structure-aware_3d_medical_volume_generation.md)
-- [\[CVPR 2026\] SHAPE: Structure-aware Hierarchical Unsupervised Domain Adaptation with Plausibility Evaluation for Medical Image Segmentation](shape_structure-aware_hierarchical_unsupervised_domain_adaptation_with_plausibil.md)
+- [\[CVPR 2026\] Phrase-grounded APO for Improving Chest X-ray Report Generation](phrase-grounded_apo_for_improving_chest_x-ray_report_generation.md)
 
 </div>
 

@@ -88,6 +88,7 @@ AMCE 默认"对方候选人按某个固定分布抽取"，可真实选举里两�
 | 同上 | 神经结果模型 | 对抗受限均衡隐含票房 | **落回历史区间，贴近 2016 实际结果** | — | Fig 2，关键卖点 |
 
 ### 消融实验
+
 | 配置 / 变体 | 关键观察 | 说明 |
 |------------|---------|------|
 | GLM（含二阶交互）vs Bayesian Transformer | 表面线性时 GLM 最高效、校准最好；非线性失配时 Transformer RMSE 略胜但 CI 覆盖不达标 | Table 2，对结果模型选择的敏感性 |
@@ -136,11 +137,11 @@ AMCE 默认"对方候选人按某个固定分布抽取"，可真实选举里两�
 
 ## 相关论文
 
-- [\[CVPR 2026\] HierUQ: Hierarchical Uncertainty Quantification with Adaptive Granularity Reconciliation for Degraded Image Classification](../../CVPR2026/interpretability/hieruq_hierarchical_uncertainty_quantification_with_adaptive_granularity_reconci.md)
-- [\[ICML 2026\] Interpretable Self-Supervised Learning via Representer Landmarks and Nyström Approximation](interpretable_self-supervised_learning_via_representer_landmarks_and_nyström_app.md)
 - [\[ICML 2026\] Courtroom Analogy: New Perspective on Uncertainty-Aware Classification](courtroom_analogy_new_perspective_on_uncertainty-aware_classification.md)
-- [\[ICML 2026\] Position: Let's Develop Data Probes to Fundamentally Understand How Data Affects LLM Performance](position_lets_develop_data_probes_to_fundamentally_understand_how_data_affects_l.md)
 - [\[ICLR 2026\] Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data](../../ICLR2026/interpretability/behavior_learning_bl_learning_hierarchical_optimization_structures_from_data.md)
+- [\[ICML 2026\] Interpretable Self-Supervised Learning via Representer Landmarks and Nyström Approximation](interpretable_self-supervised_learning_via_representer_landmarks_and_nyström_app.md)
+- [\[AAAI 2026\] Data Whitening Improves Sparse Autoencoder Learning](../../AAAI2026/interpretability/data_whitening_improves_sparse_autoencoder_learning.md)
+- [\[ICML 2026\] Position: Let's Develop Data Probes to Fundamentally Understand How Data Affects LLM Performance](position_lets_develop_data_probes_to_fundamentally_understand_how_data_affects_l.md)
 
 </div>
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Let VLMs Grade Their Own Thoughts: A Self-Quantification Approach to Reasoning-Aware Reward Modeling
 description: >-
-  [CVPR 2026][多模态VLM][视频理解] Video-RAISE 主张让视频 VLM 用自己生成答案时的「内在置信度（答案 token 概率）」给自己的推理链打分，从而把 GRPO 那种稀疏的 0/1 文本匹配奖励变成连续、细粒度的学习信号；针对严格逻辑题和开放题分别设计 SCRE 与 IGSR 两套奖励，在六个视频理解 benchmark 上达到 SOTA 并把推理链一致性做到约 90%。
+  [CVPR 2026][VLM Reasoning][视频理解] Video-RAISE 主张让视频 VLM 用自己生成答案时的「内在置信度（答案 token 概率）」给自己的推理链打分，从而把 GRPO 那种稀疏的 0/1 文本匹配奖励变成连续、细粒度的学习信号；针对严格逻辑题和开放题分别设计 SCRE 与 IGSR 两套奖励，在六个视频理解 benchmark 上达到 SOTA 并把推理链一致性做到约 90%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视频理解"
   - "强化学习"
   - "奖励建模"
@@ -142,11 +142,11 @@ $$\tilde r_i = \sqrt{r^{\{k\}}_{(m)} \cdot \big(r^{\{k\}}_{(m)} + a_i \cdot \mat
 
 ## 相关论文
 
-- [\[ACL 2026\] VAUQ: Vision-Aware Uncertainty Quantification for LVLM Self-Evaluation](../../ACL2026/multimodal_vlm/vauq_vision-aware_uncertainty_quantification_for_lvlm_self-evaluation.md)
-- [\[CVPR 2026\] Grounded 3D-Aware Spatial Vision-Language Modeling](grounded_3d-aware_spatial_vision-language_modeling.md)
+- [\[ICLR 2026\] Let's Think in Two Steps: Mitigating Agreement Bias in MLLMs with Self-Grounded Verification](../../ICLR2026/vlm_reasoning/lets_think_in_two_steps_mitigating_agreement_bias_in_mllms_with_self-grounded_ve.md)
+- [\[ICLR 2026\] Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs](../../ICLR2026/vlm_reasoning/through_the_lens_of_contrast_self-improving_visual_reasoning_in_vlms.md)
+- [\[CVPR 2026\] From Exploration to Exploitation: A Two-Stage Entropy RLVR Approach for Noise-Tolerant MLLM Training](from_exploration_to_exploitation_a_two-stage_entropy_rlvr_approach_for_noise-tol.md)
+- [\[CVPR 2026\] Hierarchical Process Reward Models are Symbolic Vision Learners](hierarchical_process_reward_models_are_symbolic_vision_learners.md)
 - [\[CVPR 2026\] PDCR: Perception-Decomposed Confidence Reward for Vision-Language Reasoning](pdcr_perception-decomposed_confidence_reward_for_vision-language_reasoning.md)
-- [\[CVPR 2026\] Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning](decouple_to_generalize_context-first_self-evolving_learning_for_data-scarce_visi.md)
-- [\[CVPR 2026\] Vocabulary Scaling Law: Tuning Open-vocabulary Predictors for Their Openness](vocabulary_scaling_law_tuning_open-vocabulary_predictors_for_their_openness.md)
 
 </div>
 

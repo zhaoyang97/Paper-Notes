@@ -153,8 +153,8 @@ SPS Diffusion：精简版 DDPM，直接在像素空间操作（无 VAE/无 CLIP�
 - [\[ICML 2025\] InfoSEM: A Deep Generative Model with Informative Priors for Gene Regulatory Network Inference](../../ICML2025/image_generation/infosem_a_deep_generative_model_with_informative_priors_for_gene_regulatory_netw.md)
 - [\[CVPR 2025\] DNF: Unconditional 4D Generation with Dictionary-Based Neural Fields](dnf_unconditional_4d_generation_with_dictionary-based_neural_fields.md)
 - [\[CVPR 2025\] Parallel Sequence Modeling via Generalized Spatial Propagation Network](parallel_sequence_modeling_via_generalized_spatial_propagation_network.md)
-- [\[CVPR 2025\] Using Powerful Prior Knowledge of Diffusion Model in Deep Unfolding Networks for Image Compressive Sensing](using_powerful_prior_knowledge_of_diffusion_model_in_deep_unfolding_networks_for.md)
 - [\[CVPR 2025\] Bias for Action: Video Implicit Neural Representations with Bias Modulation](bias_for_action_video_implicit_neural_representations_with_bias_modulation.md)
+- [\[CVPR 2025\] Using Powerful Prior Knowledge of Diffusion Model in Deep Unfolding Networks for Image Compressive Sensing](using_powerful_prior_knowledge_of_diffusion_model_in_deep_unfolding_networks_for.md)
 
 </div>
 

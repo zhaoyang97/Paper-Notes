@@ -68,6 +68,7 @@ Transformer 模型端到端 fine-tune，使用 attention-masked mean pooling：$
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | 训练语言 | EN Macro-F1 | TL Macro-F1 | Combined Macro-F1 | Gap |
 |--------|------|------|----------|------|------|
 | TF-IDF + LR | EN | 0.930±0.013 | 0.649±0.008 | 0.836±0.005 | 0.281 |
@@ -81,6 +82,7 @@ Transformer 模型端到端 fine-tune，使用 attention-masked mean pooling：$
 | NeoBERT | EN+TL | 0.956±0.015 | 0.983±0.009 | 0.970±0.007 | 0.027 |
 
 ### 临床敏感性与类别表现
+
 | 模型 / 设置 | Healthy F1 (TL) | Dementia F1 (TL) | Dementia Recall (TL) | 解读 |
 |------|---------|------|------|------|
 | BERT EN→TL | 0.216 | 0.695 | 0.931 | 表面 recall 高，但几乎把大量 Filipino 样本判成 dementia，Healthy 崩溃 |
@@ -131,7 +133,7 @@ Transformer 模型端到端 fine-tune，使用 attention-masked mean pooling：$
 - [\[ACL 2026\] Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection](multi-view_attention_multiple-instance_learning_enhanced_by_llm_reasoning_for_co.md)
 - [\[ACL 2026\] MedFact: Benchmarking the Fact-Checking Capabilities of Large Language Models on Chinese Medical Texts](medfact_benchmarking_the_fact-checking_capabilities_of_large_language_models_on_.md)
 - [\[ACL 2026\] MHGraphBench: Knowledge Graph-Grounded Benchmarking of Mental Health Knowledge in Large Language Models](mhgraphbench_knowledge_graph-grounded_benchmarking_of_mental_health_knowledge_in.md)
-- [\[ICLR 2026\] From Conversation to Query Execution: Benchmarking User and Tool Interactions for EHR Database Agents](../../ICLR2026/medical_nlp/from_conversation_to_query_execution_benchmarking_user_and_tool_interactions_for.md)
+- [\[ICML 2026\] MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings](../../ICML2026/medical_nlp/medcase-structured_a_text-to-fhir_dataset_for_benchmarking_diagnostic_reasoning_.md)
 
 </div>
 

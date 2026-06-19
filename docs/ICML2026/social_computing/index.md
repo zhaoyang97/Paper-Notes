@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 社会计算论文汇总 · 8篇论文解读
+  ICML2026 社会计算论文汇总 · 9篇论文解读
 description: >-
-  8篇ICML2026的社会计算方向论文解读，涵盖对齐/RLHF、多模态、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  9篇ICML2026的社会计算方向论文解读，涵盖对齐/RLHF、多模态、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "社会计算"
@@ -28,15 +28,17 @@ item_list:
     t: "Self-Debias: Self-correcting for Debiasing Large Language Models"
   - u: "the_geometric_mechanics_of_contrastive_representation_learning_alignment_potenti/"
     t: "The Geometric Mechanics of Contrastive Representation Learning: Alignment Potentials, Entropic Dispersion, and Cross-modal Divergence"
-item_total: 8
+  - u: "three_years_of_rchatgpt_societal_impact_evaluations_from_social_media_data/"
+    t: "Three Years of r/ChatGPT: Societal Impact Evaluations from Social Media Data"
+item_total: 9
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**🧪 ICML2026** · **8** 篇论文解读
+**🧪 ICML2026** · **9** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/social_computing/index.md) · [💬 ACL2026 (43)](../../ACL2026/social_computing/index.md) · [🔬 ICLR2026 (12)](../../ICLR2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/social_computing/index.md) · [💬 ACL2026 (44)](../../ACL2026/social_computing/index.md) · [🔬 ICLR2026 (14)](../../ICLR2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
 
 🔥 **高频主题：** 对齐/RLHF ×2 · 多模态 ×2 · LLM ×2
 
@@ -71,3 +73,7 @@ item_total: 8
 **[The Geometric Mechanics of Contrastive Representation Learning: Alignment Potentials, Entropic Dispersion, and Cross-modal Divergence](the_geometric_mechanics_of_contrastive_representation_learning_alignment_potenti.md)**
 
 :   本文用测度论框架把 InfoNCE 损失提升到表示分布上的确定性"种群能量"，证明 unimodal 情形是凸的且收敛到唯一 Gibbs 平衡，而对称多模态情形会出现持续的负对称 KL 耦合，从几何上必然产生 modality gap。
+
+**[Three Years of r/ChatGPT: Societal Impact Evaluations from Social Media Data](three_years_of_rchatgpt_societal_impact_evaluations_from_social_media_data.md)**
+
+:   把 r/ChatGPT 子版三年（2022-12 至 2025-11）共 13.7 万帖子用稀疏自编码器（SAE）拆成可解释特征，再用分段线性变点拟合追踪每个特征的时间轨迹，发现"情感性使用"（心理治疗、情感依恋）在 GPT-4o 发布后骤增；并提出在线监测算法 PuLSE，证明它本可在 2024 年 10 月就报警——比 OpenAI 公开承认这一影响早了半年。

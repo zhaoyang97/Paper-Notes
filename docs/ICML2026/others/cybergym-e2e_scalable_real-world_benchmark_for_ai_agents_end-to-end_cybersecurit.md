@@ -101,6 +101,7 @@ agent 表现是模型和 harness 两个因素混在一起的，不拆开就没�
 | Opus 4.6 + Claude Code (no cap, 920) | 85.8 | 66.3 | 65.0 | 62.6 | 26.2 |
 
 ### 消融实验
+
 | 维度 | 关键配置 | 现象 |
 |------|---------|------|
 | Time budget | 30 / 60 / 90 min | Opus 4.5 从 13.9% → 23.2% → 34.1%，60→90 收益递减 |
@@ -148,11 +149,11 @@ agent 表现是模型和 harness 两个因素混在一起的，不拆开就没�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Bias at the End of the Score](../../CVPR2026/others/bias_at_the_end_of_the_score.md)
-- [\[CVPR 2026\] End-to-End Hyper-Relational Information Extraction for Engineering Diagrams via Dynamically Tokenized Relation Transformer](../../CVPR2026/others/end-to-end_hyper-relational_information_extraction_for_engineering_diagrams_via_.md)
 - [\[ACL 2025\] Behavioural vs. Representational Systematicity in End-to-End Models: An Opinionated Survey](../../ACL2025/others/behavioural_vs_representational_systematicity_in_end-to-end_models_an_opinionate.md)
 - [\[ICML 2026\] iWorld-Bench: A Benchmark for Interactive World Models with a Unified Action Generation Framework](iworld-bench_a_benchmark_for_interactive_world_models_with_a_unified_action_gene.md)
 - [\[CVPR 2026\] PAI-Bench: A Comprehensive Benchmark For Physical AI](../../CVPR2026/others/pai-bench_a_comprehensive_benchmark_for_physical_ai.md)
+- [\[CVPR 2026\] VideoWorld 2: Learning Transferable Knowledge from Real-world Videos](../../CVPR2026/others/videoworld_2_learning_transferable_knowledge_from_real-world_videos.md)
+- [\[ICML 2026\] Comprehensive AI Governance Requires Addressing Non-Model Gains](comprehensive_ai_governance_requires_addressing_non-model_gains.md)
 
 </div>
 

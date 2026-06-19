@@ -119,6 +119,7 @@ GenBreak 在 TBR / TCBR 上对所有 baseline 形成碾压级领先（暴力类 
 在审查最严的裸露类，GenBreak 单次尝试就在 Leonardo.Ai / Stability AI / fal.ai 上拿到 70% / 47% / 30% 的有毒绕过率，证明"几次尝试足以从商用 T2I 拿到高毒图"。作者把强迁移性归因于三点：① 代理训练环境（开源模型 + 内容过滤器）高度贴近真实商用 pipeline；② 奖励设计让模型学会不靠"nude / blood / Nazi flag"等敏感词也能出有害图；③ RL 后输出足够稳定。额外引入更严的 TCBR*（再叠加 Google ShieldGemma 2 过滤），仍有一部分 prompt 存活。
 
 ### 消融实验（SD 2.1 裸露类，分析各奖励项）
+
 | 配置 | 影响 |
 |------|------|
 | Full model | 高 TBR + 高 TCBR + 高多样性 |
@@ -164,8 +165,8 @@ GenBreak 在 TBR / TCBR 上对所有 baseline 形成碾压级领先（暴力类 
 - [\[CVPR 2026\] Hidden Dangers of Compositional Generation: Diagnosing Semantic Safety Failures in Text-to-Image Models](hidden_dangers_of_compositional_generation_diagnosing_semantic_safety_failures_i.md)
 - [\[CVPR 2026\] Red-teaming Retrieval-Augmented Diffusion Models via Poisoning Knowledge Bases](red-teaming_retrieval-augmented_diffusion_models_via_poisoning_knowledge_bases.md)
 - [\[CVPR 2026\] PROMPTMINER: Black-Box Prompt Stealing against Text-to-Image Generative Models via Reinforcement Learning and VLM-Guided Optimization](promptminer_black-box_prompt_stealing_against_text-to-image_generative_models_vi.md)
-- [\[CVPR 2026\] SIF: Semantically In-Distribution Fingerprints for Large Vision-Language Models](sif_semantically_in-distribution_fingerprints_for_large_vision-language_models.md)
 - [\[CVPR 2026\] Towards Human-Imperceptible Backdoor Attacks on Text-to-Image Diffusion Models](towards_human-imperceptible_backdoor_attacks_on_text-to-image_diffusion_models.md)
+- [\[CVPR 2026\] SIF: Semantically In-Distribution Fingerprints for Large Vision-Language Models](sif_semantically_in-distribution_fingerprints_for_large_vision-language_models.md)
 
 </div>
 

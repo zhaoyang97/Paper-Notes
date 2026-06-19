@@ -129,11 +129,11 @@ $$v_k = \beta_2 v_{k-1} - (1-\beta_2) \cdot \text{sign}(v_{k-1} - g_k^2) \cdot g
 
 ## 相关论文
 
-- [\[CVPR 2026\] A Faster Path to Continual Learning](../../CVPR2026/others/a_faster_path_to_continual_learning.md)
 - [\[ICLR 2026\] Noisy-Pair Robust Representation Alignment for Positive-Unlabeled Learning](noisy-pair_robust_representation_alignment_for_positive-unlabeled_learning.md)
 - [\[ACL 2025\] Towards Better Evaluation for Generated Patent Claims](../../ACL2025/others/patclaimeval_patent_evaluation.md)
 - [\[AAAI 2026\] Faster Certified Symmetry Breaking Using Orders With Auxiliary Variables](../../AAAI2026/others/faster_certified_symmetry_breaking_using_orders_with_auxiliary_variables.md)
 - [\[ICML 2025\] Generation from Noisy Examples](../../ICML2025/others/generation_from_noisy_examples.md)
+- [\[CVPR 2026\] Debiased Sample Selection for Learning with Noisy Labels](../../CVPR2026/others/debiased_sample_selection_for_learning_with_noisy_labels.md)
 
 </div>
 

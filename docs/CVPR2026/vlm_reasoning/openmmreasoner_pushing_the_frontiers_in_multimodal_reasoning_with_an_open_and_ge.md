@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OpenMMReasoner: Pushing the Frontiers in Multimodal Reasoning with an Open and General Recipe
 description: >-
-  [CVPR 2026][多模态VLM][多模态推理] OpenMMReasoner 给"如何把开源多模态大模型训成强推理模型"提供了一套**全透明、可复现的两阶段配方**：先用 874k 高质量蒸馏数据做 SFT 冷启动，再用 74k 数据做 RL（GSPO）打磨，在 Qwen2.5-VL-7B 基础上九个多模态推理基准平均提升 11.6%。
+  [CVPR 2026][VLM Reasoning][多模态推理] OpenMMReasoner 给"如何把开源多模态大模型训成强推理模型"提供了一套**全透明、可复现的两阶段配方**：先用 874k 高质量蒸馏数据做 SFT 冷启动，再用 74k 数据做 RL（GSPO）打磨，在 Qwen2.5-VL-7B 基础上九个多模态推理基准平均提升 11.6%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态推理"
   - "SFT冷启动"
   - "强化学习"
@@ -134,10 +134,10 @@ RL 阶段先在统一设定下对比 GRPO、DAPO、GSPO 三种算法。GSPO 用*
 ## 相关论文
 
 - [\[CVPR 2026\] GThinker: Towards General Multimodal Reasoning via Cue-Guided Rethinking](gthinker_towards_general_multimodal_reasoning_via_cue-guided_rethinking.md)
-- [\[CVPR 2026\] R-C2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning](r-c2_cycle-consistent_reinforcement_learning_improves_multimodal_reasoning.md)
 - [\[CVPR 2026\] R-4B: Incentivizing General-Purpose Auto-Thinking in MLLMs via Bi-Mode Annealing and Reinforce Learning](r-4b_incentivizing_general-purpose_auto-thinking_in_mllms_via_bi-mode_annealing_.md)
 - [\[CVPR 2026\] From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs](from_indoor_to_open_world_revealing_the_spatial_reasoning_gap_in_mllms.md)
-- [\[CVPR 2026\] UI-Lens: Assessing General MLLMs' Potential to Automate UI Display Quality Assurance](ui-lens_assessing_general_mllms_potential_to_automate_ui_display_quality_assuran.md)
+- [\[CVPR 2026\] R-C2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning](r-c2_cycle-consistent_reinforcement_learning_improves_multimodal_reasoning.md)
+- [\[CVPR 2026\] PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model](pointthinker_point-incentivized_parallel_thinking_for_multimodal_large_language_.md)
 
 </div>
 

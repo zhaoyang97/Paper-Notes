@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2602.19248](https://arxiv.org/abs/2602.19248)  
 **代码**: [https://github.com/VitaminCreed/LAVIDA](https://github.com/VitaminCreed/LAVIDA)  
-**领域**:视频理解
+**领域**:视频理解  
 **关键词**: 视频异常检测, 零样本, MLLM, 伪异常, token压缩
 
 ## 一句话总结

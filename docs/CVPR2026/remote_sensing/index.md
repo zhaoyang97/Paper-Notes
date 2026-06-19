@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 遥感论文汇总 · 67篇论文解读
+  CVPR2026 遥感论文汇总 · 63篇论文解读
 description: >-
-  67篇CVPR2026的遥感方向论文解读，涵盖遥感、多模态、语义分割、扩散模型、对抗鲁棒、导航等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  63篇CVPR2026的遥感方向论文解读，涵盖遥感、多模态、语义分割、导航、扩散模型、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "遥感"
@@ -10,14 +10,16 @@ tags:
   - "论文笔记"
   - "多模态"
   - "语义分割"
+  - "导航"
   - "扩散模型"
   - "对抗鲁棒"
-  - "导航"
 item_list:
   - u: "acpv-net_all-class_polygonal_vectorization_for_seamless_vector_map_generation_fr/"
     t: "ACPV-Net: All-Class Polygonal Vectorization for Seamless Vector Map Generation from Aerial Imagery"
   - u: "apex_a_decoupled_memory-based_explorer_for_asynchronous_aerial_object_goal_navig/"
     t: "APEX: A Decoupled Memory-based Explorer for Asynchronous Aerial Object Goal Navigation"
+  - u: "asking_like_socrates_socrates_helps_vlms_understand_remote_sensing_images/"
+    t: "Asking like Socrates: Socrates helps VLMs understand remote sensing images"
   - u: "avion_aerial_visionlanguage_instruction_from_offli/"
     t: "AVION: Aerial Vision-Language Instruction from Offline Teacher to Prompt-Tuned Network"
   - u: "beyond_endpoints_path-centric_reasoning_for_vectorized_off-road_network_extracti/"
@@ -26,8 +28,8 @@ item_list:
     t: "Beyond Matching to Tiles: Bridging Unaligned Aerial and Satellite Views for Vision-Only UAV Navigation"
   - u: "beyond_tie_points_satellite_image_block_adjustment_based_on_dense_feature_consis/"
     t: "Beyond Tie Points: Satellite Image Block Adjustment based on Dense Feature Consistency"
-  - u: "cf-ipt_cross-modal_fusion_interactive_prompt_tuning_of_vision-language_pre-train/"
-    t: "CF-IPT: Cross-Modal Fusion Interactive Prompt Tuning of Vision-Language Pre-Trained Model for Multisource Remote Sensing Data Classification"
+  - u: "changebridge_spatiotemporal_image_generation_with_multimodal_controls_for_remote/"
+    t: "ChangeBridge: Spatiotemporal Image Generation with Multimodal Controls for Remote Sensing"
   - u: "cross-modal_fuzzy_alignment_network_for_text-aerial_person_retrieval_and_a_large/"
     t: "Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark"
   - u: "cross-scale_pansharpening_via_scaleformer_and_the_panscale_benchmark/"
@@ -38,12 +40,10 @@ item_list:
     t: "Data Leakage Detection and De-duplication in Large Scale Geospatial Image Datasets"
   - u: "exploring_spatiotemporal_feature_propagation_for_video-level_compressive_spectra/"
     t: "Exploring Spatiotemporal Feature Propagation for Video-Level Compressive Spectral Reconstruction"
-  - u: "fast_kernel-space_diffusion_for_remote_sensing_pansharpening/"
-    t: "Fast Kernel-Space Diffusion for Remote Sensing Pansharpening"
+  - u: "fusar-gpt_a_spatiotemporal_feature-embedded_and_two-stage_decoupled_visual_langu/"
+    t: "FUSAR-GPT: A Spatiotemporal Feature-Embedded and Two-Stage Decoupled Visual Language Model for SAR Imagery"
   - u: "geo2_geometry-guided_cross-view_geo-localization_and_image_synthesis/"
     t: "Geo2: Geometry-Guided Cross-view Geo-Localization and Image Synthesis"
-  - u: "geoagent_learning_to_geolocate_everywhere_with_reinforced_geographic_characteris/"
-    t: "GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics"
   - u: "geobridge_a_semantic-anchored_multi-view_foundation_model_bridging_images_and_te/"
     t: "GeoBridge: A Semantic-Anchored Multi-View Foundation Model Bridging Images and Text for Geo-Localization"
   - u: "geocot_towards_reliable_remote_sensing_reasoning_with_manifold_perspective/"
@@ -58,33 +58,33 @@ item_list:
     t: "GeoSANE: Learning Geospatial Representations from Models, Not Data"
   - u: "geovis_geospatially_rewarded_visual_search_for_remote_sensing_visual_grounding/"
     t: "GeoViS: Geospatially Rewarded Visual Search for Remote Sensing Visual Grounding"
-  - u: "harmonidiff-rs_training-free_diffusion_harmonization_for_satellite_image_composi/"
-    t: "HarmoniDiff-RS: Training-Free Diffusion Harmonization for Satellite Image Composition"
-  - u: "hyperfm_an_efficient_hyperspectral_foundation_model_with_spectral_grouping/"
-    t: "HyperFM: An Efficient Hyperspectral Foundation Model with Spectral Grouping"
-  - u: "hyseg_learning_generative_priors_for_structure-aware_remote_sensing_segmentation/"
-    t: "HySeg: Learning Generative Priors for Structure-Aware Remote Sensing Segmentation"
-  - u: "improving_visual_grounding_in_remote_sensing_via_cluster-guided_refinement_and_m/"
-    t: "Improving Visual Grounding in Remote Sensing via Cluster-Guided Refinement and Model Ensemble Voting"
+  - u: "imaia_interactive_maps_ai_assistant_for_travel_planning_and_geo-spatial_intellig/"
+    t: "IMAIA: Interactive Maps AI Assistant for Travel Planning and Geo-Spatial Intelligence"
   - u: "lnem_lunar_neural_elevation_model/"
     t: "LNEM: Lunar Neural Elevation Model"
   - u: "local_precise_refinement_a_dual-gated_mixture-of-experts_for_enhancing_foundatio/"
     t: "Local Precise Refinement: A Dual-Gated Mixture-of-Experts for Enhancing Foundation Model Generalization against Spectral Shifts"
   - u: "lookasidevln_direction-aware_aerial_vision-and-language_navigation/"
     t: "LookasideVLN: Direction-Aware Aerial Vision-and-Language Navigation"
-  - u: "lumosaic_hyperspectral_video_via_active_illumination_and_coded-exposure_pixels/"
-    t: "Lumosaic: Hyperspectral Video via Active Illumination and Coded-Exposure Pixels"
-item_total: 67
+  - u: "metaspectra_a_compact_broadband_metasurface_camera_for_snapshot_hyperspectral_im/"
+    t: "MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging"
+  - u: "mm-ovseg_multimodal_optical-sar_fusion_for_open-vocabulary_segmentation_in_remot/"
+    t: "MM-OVSeg: Multimodal Optical-SAR Fusion for Open-Vocabulary Segmentation in Remote Sensing"
+  - u: "mogeo_beyond_one-to-one_cross-view_object_geo-localization/"
+    t: "MOGeo: Beyond One-to-One Cross-View Object Geo-localization"
+  - u: "multigrain-aware_semantic_prototype_scanning_and_tri-token_prompt_learning_embra/"
+    t: "Multigrain-aware Semantic Prototype Scanning and Tri-Token Prompt Learning Embraced High-Order RWKV for Pan-Sharpening"
+item_total: 63
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**📷 CVPR2026** · **67** 篇论文解读
+**📷 CVPR2026** · **63** 篇论文解读
 
 📌 **同领域跨会议浏览：** [🧪 ICML2026 (3)](../../ICML2026/remote_sensing/index.md) · [🔬 ICLR2026 (5)](../../ICLR2026/remote_sensing/index.md) · [🤖 AAAI2026 (7)](../../AAAI2026/remote_sensing/index.md) · [🧠 NeurIPS2025 (12)](../../NeurIPS2025/remote_sensing/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/remote_sensing/index.md) · [🧪 ICML2025 (7)](../../ICML2025/remote_sensing/index.md)
 
-🔥 **高频主题：** 遥感 ×34 · 多模态 ×11 · 语义分割 ×7 · 扩散模型 ×6 · 对抗鲁棒 ×4
+🔥 **高频主题：** 遥感 ×30 · 多模态 ×10 · 语义分割 ×5 · 导航 ×3 · 扩散模型 ×3
 
 **[ACPV-Net: All-Class Polygonal Vectorization for Seamless Vector Map Generation from Aerial Imagery](acpv-net_all-class_polygonal_vectorization_for_seamless_vector_map_generation_fr.md)**
 
@@ -93,6 +93,10 @@ item_total: 67
 **[APEX: A Decoupled Memory-based Explorer for Asynchronous Aerial Object Goal Navigation](apex_a_decoupled_memory-based_explorer_for_asynchronous_aerial_object_goal_navig.md)**
 
 :   APEX 把"无人机找目标物"这个空中目标导航任务拆成三个解耦模块——用 MLLM 动态构建 3D 时空语义地图当记忆、用 PPO 强化学习把地图翻译成动作、用开放词表检测器做最后的目标确认——再用异步并行框架让三者以不同频率同时跑，从而绕开大模型推理延迟，在 UAV-ON benchmark 上比之前 SOTA 提升 +4.2% SR 和 +2.8% SPL。
+
+**[Asking like Socrates: Socrates helps VLMs understand remote sensing images](asking_like_socrates_socrates_helps_vlms_understand_remote_sensing_images.md)**
+
+:   揭示遥感VLM中的"伪推理"现象（显式推理链反而导致性能下降），归因于"一瞥效应"（单次粗浅感知不足），提出RS-EoT(Evidence-of-Thought)迭代证据搜索范式，通过SocraticAgent自博弈合成推理轨迹做SFT冷启动，再用两阶段渐进RL（grounding→VQA）增强和泛化，RS-EoT-7B在多个遥感VQA和grounding基准上达SOTA。
 
 **[AVION: Aerial Vision-Language Instruction from Offline Teacher to Prompt-Tuned Network](avion_aerial_visionlanguage_instruction_from_offli.md)**
 
@@ -110,9 +114,9 @@ item_total: 67
 
 :   针对卫星影像区域网平差（PBA）长期依赖稀疏连接点、在高楼等高视差区域误差累积的痛点，本文提出"Beyond Tie Points"范式：用预训练特征提取器抽取密集特征与置信度图，把平差直接重构成"最小化同名物方点的密集特征距离"的自监督优化问题，再配合网格化由粗到精求解，在北京/广州/圣何塞三地数据上把平均误差最多降低 75.43%。
 
-**[CF-IPT: Cross-Modal Fusion Interactive Prompt Tuning of Vision-Language Pre-Trained Model for Multisource Remote Sensing Data Classification](cf-ipt_cross-modal_fusion_interactive_prompt_tuning_of_vision-language_pre-train.md)**
+**[ChangeBridge: Spatiotemporal Image Generation with Multimodal Controls for Remote Sensing](changebridge_spatiotemporal_image_generation_with_multimodal_controls_for_remote.md)**
 
-:   CF-IPT 用一套"先把高光谱+LiDAR/SAR 融成一张图并生成光谱-空间提示矩阵、再用这些提示矩阵引导 CLIP 视觉/文本两支提示双向交互对齐"的提示微调框架，只动 CLIP 0.76% 的参数就把在自然图上预训练的 CLIP 迁移到多源遥感联合分类，在 Houston/MUUFL/Augsburg 上 OA 分别比 SOTA 高 1.38%/2.27%/1.38%。
+:   提出ChangeBridge，首个遥感条件时空图像生成模型，基于漂移异步扩散桥实现从前事态图像+多模态条件（坐标文本/语义掩码/实例布局）生成后事态图像，同时建模前景事件驱动变化和背景时间演化，并可作为下游变化检测任务的数据引擎。
 
 **[Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark](cross-modal_fuzzy_alignment_network_for_text-aerial_person_retrieval_and_a_large.md)**
 
@@ -134,17 +138,13 @@ item_total: 67
 
 :   首次将光谱压缩成像（SCI）从图像级推进到视频级重建，构建首个高质量动态高光谱数据集 DynaSpec（30 序列/300 帧），提出 PG-SVRT 通过空间-然后-时间注意力 + 桥接 token 实现 41.52dB PSNR 和最优时间一致性，且 FLOPs（28.18G）低于多个图像级 SOTA。
 
-**[Fast Kernel-Space Diffusion for Remote Sensing Pansharpening](fast_kernel-space_diffusion_for_remote_sensing_pansharpening.md)**
+**[FUSAR-GPT: A Spatiotemporal Feature-Embedded and Two-Stage Decoupled Visual Language Model for SAR Imagery](fusar-gpt_a_spatiotemporal_feature-embedded_and_two-stage_decoupled_visual_langu.md)**
 
-:   KSDiff 把扩散过程从「逐像素重建图像」搬到「潜空间生成一个全局先验向量」，再用这个先验去调制回归式全色锐化网络的卷积核，从而既拿到扩散模型的全局分布建模能力，又保住传统 CNN 的推理速度——在 WV3/GF2/QB 三个数据集上指标全面领先，推理只要 0.077 s，比像素空间扩散基线快 500 倍以上。
+:   FUSAR-GPT 在 Qwen2.5-VL-7B 上为 SAR（合成孔径雷达）图像定制了一个视觉语言模型：把全球遥感基座模型 AlphaEarth 的多源时空特征当作"世界知识"先验，通过"时空锚点"对齐后用 Token-wise 线性调制（TLM）注入视觉 backbone，以补偿 SAR 图像稀疏、信息极化的表征，再用"知识注入 / 任务执行"解耦的两阶段 SFT 训练，在计数、定位、分类、检测四类 SAR 解译任务上比主流 VLM 高出 10% 以上。
 
 **[Geo2: Geometry-Guided Cross-view Geo-Localization and Image Synthesis](geo2_geometry-guided_cross-view_geo-localization_and_image_synthesis.md)**
 
 :   Geo2 借用几何基础模型（VGGT）的 3D 先验，把地面全景图和卫星图嵌进一个**共享的几何感知潜空间**，让跨视角地理定位（CVGL）与双向跨视角图像合成（CVIS）在同一框架里互相增强，且只训单方向就能做双向生成，在 CVUSA/CVACT/VIGOR 上定位与合成双双刷到 SOTA。
-
-**[GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics](geoagent_learning_to_geolocate_everywhere_with_reinforced_geographic_characteris.md)**
-
-:   GeoAgent 把图像地理定位做成"像人一样逐级推理到精确地址"的任务：先用地理专家和职业玩家标注的 CoT 数据集 GeoSeek 冷启动一个 VLLM，再用两个为地理任务量身定制的 RL 奖励（衡量"答对没"的地理相似度奖励 + 衡量"推理过程站不站得住"的一致性奖励）做 GRPO 微调，在多个粒度上超过现有方法和一众通用 VLLM。
 
 **[GeoBridge: A Semantic-Anchored Multi-View Foundation Model Bridging Images and Text for Geo-Localization](geobridge_a_semantic-anchored_multi-view_foundation_model_bridging_images_and_te.md)**
 
@@ -174,21 +174,9 @@ item_total: 67
 
 :   GeoViS 把遥感视觉定位从"一步回归出框"改写成"先用奖励引导的树状视觉搜索找到最可能含目标的子区域、再以该子区域为视觉线索做条件定位"的两阶段过程，靠一个统一的 VisualRAG 模型同时提供奖励评估、动作引导和定位推理，在五个遥感 grounding 基准上把 Pr@0.5 等指标做到 SOTA。
 
-**[HarmoniDiff-RS: Training-Free Diffusion Harmonization for Satellite Image Composition](harmonidiff-rs_training-free_diffusion_harmonization_for_satellite_image_composi.md)**
+**[IMAIA: Interactive Maps AI Assistant for Travel Planning and Geo-Spatial Intelligence](imaia_interactive_maps_ai_assistant_for_travel_planning_and_geo-spatial_intellig.md)**
 
-:   把一块卫星图源 patch 贴到另一张目标卫星场景里时，HarmoniDiff-RS 不做任何训练或微调，仅在扩散隐空间里先做通道均值对齐统一辐射风格，再用「早期反演隐变量负责协调、晚期隐变量负责保结构」的逐时间步融合消除硬边界，最后用一个轻量协调分类器自动挑出最和谐的候选，在自建的 RSIC-H 基准上取得最高 Harmony Score(0.225) 与最低边界梯度差(BGD 4.88)。
-
-**[HyperFM: An Efficient Hyperspectral Foundation Model with Spectral Grouping](hyperfm_an_efficient_hyperspectral_foundation_model_with_spectral_grouping.md)**
-
-:   针对 NASA PACE 卫星 291 波段高光谱数据，提出参数高效的基础模型 HyperFM——用「光谱分组注意力（组内 LGA + 组间 GGA + MoE 门控）」缓解高维波段压进 token 的信息瓶颈，用「Hypoformer 块（张量列车注意力 + 低秩 FFN）」把参数砍到一半，配合首个含 60%+ 云覆盖的 HyperFM250K 数据集做 MAE 预训练，在四项云属性反演任务上比现有高光谱基础模型平均降低 32.36% 的 MSE，参数量却减半。
-
-**[HySeg: Learning Generative Priors for Structure-Aware Remote Sensing Segmentation](hyseg_learning_generative_priors_for_structure-aware_remote_sensing_segmentation.md)**
-
-:   HySeg 把遥感语义分割重新表述为"受生成式结构先验约束的后验推断"：先用基于 MeanFlow 的 MeanStruct 模块在标签空间学一个编码拓扑连续性与区域邻接的结构先验，再用 P2A 把这个抽象先验投影成拓扑感知的逐像素亲和度，最后由 DAS 头按这些亲和度做受约束的消息传递，在四个遥感分割基准上即插即用地提升结构一致性与跨数据集泛化。
-
-**[Improving Visual Grounding in Remote Sensing via Cluster-Guided Refinement and Model Ensemble Voting](improving_visual_grounding_in_remote_sensing_via_cluster-guided_refinement_and_m.md)**
-
-:   针对遥感影像视觉定位单模型各有短板的问题，本文把专用定位模型 RemoteSAM 和通用分割模型 SAM3 串成两条 refine 流水线（SGR/CGR），并用一个考虑空间一致性和检测框数量差异的多数投票公式把六条流水线集成起来，在 VRS Bench 和 NWPU-VHR-10 上的 mIoU 都超过任何单一模型。
+:   IMAIA 把"桌面端看地图"和"到达目的地最后 100 米的实景导航"统一进一个由轻量多智能体编排器协调的框架：地图侧用 quadkey 网格把视口变成结构化视觉提示让 VLM 做视图条件推理（地点检测从 <43% 提到 ~90%），实景侧由编排器调度"地点理解 / 朝向导航 / 空间推理"三个专用 agent，其中蒸馏出的 Florence-2 空间推理模块以 84% 准确率换来比 agent 流水线 7.3× 的提速。
 
 **[LNEM: Lunar Neural Elevation Model](lnem_lunar_neural_elevation_model.md)**
 
@@ -201,10 +189,6 @@ item_total: 67
 **[LookasideVLN: Direction-Aware Aerial Vision-and-Language Navigation](lookasidevln_direction-aware_aerial_vision-and-language_navigation.md)**
 
 :   针对无人机空中视觉语言导航中"地标描述歧义大、全局场景图维护昂贵"的问题，LookasideVLN 提出"侧看（lookaside）"范式：用指令里天然带的方向线索（左转/右转/上升）构建一张轻量的自我中心地标图，把候选路径翻译成"类指令"文本交给 MLLM 做语义对齐，从而在零样本、单层前瞻下就超过需要全局序列前瞻的 SOTA（CityNavAgent）。
-
-**[Lumosaic: Hyperspectral Video via Active Illumination and Coded-Exposure Pixels](lumosaic_hyperspectral_video_via_active_illumination_and_coded-exposure_pixels.md)**
-
-:   提出Lumosaic主动高光谱视频系统，将12个窄带LED阵列与编码曝光像素（CEP）相机在微秒级同步，在每帧158个子帧内联合编码空间-时间-光谱信息，实现30fps VGA分辨率31通道（400–700nm）运动鲁棒高光谱视频重建，PSNR比被动快照系统高10+dB。
 
 **[MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging](metaspectra_a_compact_broadband_metasurface_camera_for_snapshot_hyperspectral_im.md)**
 
@@ -246,10 +230,6 @@ item_total: 67
 
 :   针对"某些视图存在缺失像素"的不完整遥感多视图聚类这一全新场景，OSMAGC 用超像素初始化多尺度空间感知锚图，再把多尺度锚图学习、结构对齐共识特征学习、正交空间感知正则三者统一进一个目标函数交替优化，在四个遥感数据集、各缺失比例下全面超越 SOTA 且速度最快。
 
-**[PAUL: Uncertainty-Guided Partition and Augmentation for Robust Cross-View Geo-Localization under Noisy Correspondence](paul_uncertainty-guided_partition_and_augmentation_for_robust_cross-view_geo-loc.md)**
-
-:   针对无人机-卫星跨视角定位中 GPS 漂移导致的"半正样本"对齐噪声，PAUL 用 GMM 软划分干净/噪声对、证据深度学习做不确定性引导的区域掩码增强、再用双网络协同训练吸收噪声样本的有效信号，在不同噪声比下稳定超过现有噪声对应方法。
-
 **[PhenoYieldNet: Learning Crop-Aware Phenological Responses for Multi-Crop Yield Prediction](phenoyieldnet_learning_crop-aware_phenological_responses_for_multi-crop_yield_pr.md)**
 
 :   PhenoYieldNet 用一套统一模型做多作物县级产量预测：靠一个「作物物候库」给每种作物分配可学习的查询向量，再用「作物物候注意力」把时序特征分解成长期趋势与短期波动并注入到注意力偏置里，配合两阶段的时序对比自适应把遥感基础模型迁移到农业时序，在 CropNet / MODIS 上全面超过单作物与多作物 SOTA。
@@ -270,17 +250,21 @@ item_total: 67
 
 :   RAMEN 是一个"传感器无关、分辨率可调"的统一 Transformer 编码器：它把模态、空间分辨率（GSD）、时间分辨率都当作输入特征显式编码进共享潜空间，并**把空间分辨率做成推理时可控的输出参数**，让用户在精度与算力之间自由权衡；用一次掩码重建预训练在异质地球观测语料上，冻结编码器后在 PANGAEA 基准 8 个下游任务上以更轻的 ViT-Base 超越体量更大的 TerraMind-L 等 SOTA。
 
-**[ReAttnCLIP: Training-Free Open-Vocabulary Remote Sensing Image Segmentation via Re-defined Attention in CLIP](reattnclip_training-free_open-vocabulary_remote_sensing_image_segmentation_via_r.md)**
-
-:   本文把 CLIP 最后一层注意力图拆成「patch↔patch、CLS→patch、patch→CLS」三块分别动手术——用原始 patch 嵌入的余弦相似度（外加旋转增强）重建 patch 间关系、用中间层注意力重建更富类别信息的全局表示、并把 [CLS] 对 patch 的那一列直接置零，从而在**完全不训练**的前提下，把 CLIP 拉到遥感开放词表分割的 SOTA（八数据集平均 +1.7%）。
-
 **[RECS4R: Bridging Semantics and Geometry for Referring Remote Sensing Interpretation](recs4r_bridging_semantics_and_geometry_for_referring_remote_sensing_interpretati.md)**
 
 :   RECS4R 把遥感的指代检测（VG）和指代分割（RIS）统一成"解码一串语言条件下的多边形轮廓顶点"这一件事——轮廓的外接矩形当框、轮廓的填充区域当掩码——再叠加残差式由粗到细编码、通道隔离的多尺度融合和梯度域边界监督，在 RefDIOR、RRSIS-D、RefCOCO 系列等 6 个数据集上把 RECS 综合分数大幅刷到新高。
 
+**[Regulating Rather than Constraining: Adaptive Guidance for Complex Spectral Reconstruction in Pansharpening](regulating_rather_than_constraining_adaptive_guidance_for_complex_spectral_recon.md)**
+
+:   针对全色锐化中"光谱混合区"（地物边界、内部纹理）重建效果差的问题，本文提出一套**架构无关的正则化框架**：数据侧用 MixShuffle 跨样本+跨光谱通道做凸组合制造"难样本"，损失侧用 HAL 在样本/通道/像素三级自适应放大难区梯度，并配套一个双尺度注意力网络 DANet 作骨干，在 WV3/GF2/QB 上取得 SOTA 且能即插即用地涨各类 baseline。
+
 **[Remote Sensing Image Super-Resolution for Imbalanced Textures: A Texture-Aware Diffusion Framework](remote_sensing_image_super-resolution_for_imbalanced_textures_a_texture-aware_di.md)**
 
 :   针对遥感图像"纹理全局随机、局部成团，导致纹理极度不均衡"这一与自然图像不同的特性，本文提出 TexADiff：先估计一张相对纹理密度图（RTDM）刻画纹理分布，再把它当作"空间条件 + 损失调制 + 采样调度"三管齐下地注入扩散超分流程，让模型在纹理丰富区生成更多真实高频细节、在纹理稀疏区抑制幻觉，从而在多数遥感基准上取得更优的感知指标。
+
+**[Revisiting the Necessity of Full Accuracy: Weakly Supervised Object-Level Offset Correction for Misaligned Building Labels](revisiting_the_necessity_of_full_accuracy_weakly_supervised_object-level_offset_.md)**
+
+:   针对 Google Earth 图像缺乏正射校正导致的建筑物足迹标签与屋顶位置错位问题，本文提出 OMAF 框架：先用边缘+方差约束的可微自对齐估出实例级偏移，再用极少量人工先验做贝叶斯置信度筛选，最后训练一个偏移回归网络把噪声伪标签蒸馏成干净的校正标签，使各类分割模型的 mIoU 最高提升 40.6%。
 
 **[RHO: Robust Holistic OSM-Based Metric Cross-View Geo-Localization](rho_robust_holistic_osm-based_metric_cross-view_geo-localization.md)**
 
@@ -293,10 +277,6 @@ item_total: 67
 **[Robust Remote Sensing Image–Text Retrieval with Noisy Correspondence](robust_remote_sensing_image-text_retrieval_with_noisy_correspondence.md)**
 
 :   本文首次在遥感图文检索（RSITR）中揭示并研究「噪声对应」（Noisy Correspondence，图文对本身就配错了）问题，提出 RRSITR 框架：按对比损失把训练对分成干净 / 模糊 / 噪声三类，用多模态自步学习从易到难调度训练，再对噪声对施加动态软边界的鲁棒三元组损失，在三个数据集、尤其高噪声率下显著超过现有 SOTA。
-
-**[Rotation Invariant and Symmetry Aware Pixel Difference Network for Remote Sensing Object Detection](rotation_invariant_and_symmetry_aware_pixel_difference_network_for_remote_sensin.md)**
-
-:   把"连续旋转不变性"和"结构对称性"两个几何先验直接焊进卷积核里，提出 RIS-PDC 算子（像素差分 + 极谐对称核 + SO(2) 八方向核旋转平均），即插即用地替换主流遥感检测器的卷积，在 DOTA-v1.0 单尺度拿到 78.53% mAP 且不增加参数量。
 
 **[SegEarth-R2: Towards Comprehensive Language-guided Segmentation for Remote Sensing Images](segearth-r2_towards_comprehensive_language-guided_segmentation_for_remote_sensin.md)**
 
@@ -318,17 +298,17 @@ item_total: 67
 
 :   针对遥感变化检测「只有两张时相图、难以建模稀疏时间演化」的痛点，本文提出 SpikeAdapter：用脑启发的「时间到首脉冲」机制把双时相辐射差异编码成稀疏脉冲序列（GSI-P），再用脉冲网络（SNN）抽时序线索、用 STSpikeFuse 把它与 ANN 主干的语义特征自适应融合，在 LEVIR-CD / CLCD / SYSU-CD 上 F1/IoU 全面超过 CNN、Transformer、Mamba 与伪视频方法。
 
-**[Spatial-Spectral Residuals Informed Diffusion Neural Operator for Pan-sharpening](spatial-spectral_residuals_informed_diffusion_neural_operator_for_pan-sharpening.md)**
-
-:   SRINO 把全色锐化的扩散去噪骨干从注意力换成 Galerkin 型神经算子（把生成过程搬到连续函数空间、显著省 FLOPs 和显存），再在每一步反向采样里直接把像素级的空间/光谱一致性残差当条件喂进去做闭环引导，在 WV3/GF2/QB 三个数据集上既超过现有 SOTA 又比注意力扩散省好几倍算力。
-
 **[Spectrally Distilled Representations Aligned with Instruction-Augmented LLMs for Satellite Imagery](spectrally_distilled_representations_aligned_with_instruction-augmented_llms_for.md)**
 
 :   SATtxt 通过「光谱表征蒸馏 + 指令增强 LLM 对齐」两阶段训练，把多光谱先验灌进一个**只吃 RGB** 的视觉编码器、再把它与冻结的 LLM 文本嵌入对齐，只训练几个轻量 projector，就在零样本分类、检索、开放词表分割、线性探测四类卫星任务上全面超过依赖多光谱输入的 SOTA。
 
-**[Uncertainty-Guided Edge Learning for Deep Image Regression in Remote Sensing](uncertainty-guided_edge_learning_for_deep_image_regression_in_remote_sensing.md)**
+**[TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis](tessera_temporal_embeddings_of_surface_spectra_for_earth_representation_and_anal.md)**
 
-:   针对在轨卫星上算力受限的"边缘学习"场景，提出 UGEL 算法：用一次前向就能算出的"深度 Beta 回归"不确定性，挑出最不确定的样本交人工标注、最确定的样本做伪标签，从而比主动学习/半监督学习更快地收敛重训机载回归模型。
+:   TESSERA 把每个 10m 地表像素的多年 Sentinel-1/2 时间序列编码成一个 128 维 int8 嵌入向量，靠"对随机时间采样保持不变"的自监督目标学到鲁棒的物候表征，发布成覆盖全球的"嵌入即数据"产品，下游只需挂一个轻量 MLP/UNet 头就能在分类、分割、回归任务上达到 SOTA，且在极低标注下优势巨大。
+
+**[TriSim: Tri-Dimensional Similarity Modeling with Extreme Value Theory for False-Negative Mitigation in Remote Sensing Image-Text Retrieval](trisim_tri-dimensional_similarity_modeling_with_extreme_value_theory_for_false-n.md)**
+
+:   针对遥感图文检索里"靠单一跨模态相似度阈值判假阴样本太脆弱"的问题，TriSim 把每对样本映射到 ⟨图-文, 图-图, 文-文⟩ 三维相似度空间，用马氏距离 + 极值理论（EVT）两条互补的尾部检测策略找出真正的假阴样本，再配一个 intra-modal 显著性引导的增益矩阵细化判别区域，在 RSICD / RSITMD 上 mR 分别超过最强基线 1.51% / 2.25%。
 
 **[UniChange: Unifying Change Detection with Multimodal Large Language Model](unichange_unifying_change_detection_with_multimodal_large_language_model.md)**
 
@@ -342,9 +322,13 @@ item_total: 67
 
 :   作者构建了首个百万级遥感指令分割数据集 GeoSeg-1M（590K 图、117 类、1.1M 三元组）与配套 benchmark GeoSeg-Bench，并提出统一框架 UniGeoSeg——用任务自适应文本增强（TATE）+ 潜在知识记忆（LKM）+ 渐进式任务调度（PTS）把 referring / interactive / reasoning 三类分割塞进一个模型，在 GeoSeg-Bench 与多个公开 benchmark 上全面 SOTA 且零样本泛化强。
 
-**[VLM4RSDet: Collaborative Optimization with Vision-Language Model for Enhancing Remote Sensing Object Detection](vlm4rsdet_collaborative_optimization_with_vision-language_model_for_enhancing_re.md)**
+**[WHU-MARS: A Multispectral Aerial-Ground Benchmark Towards Any-Scenario Person Re-Identification](whu-mars_a_multispectral_aerial-ground_benchmark_towards_any-scenario_person_re-.md)**
 
-:   VLM4RSDet 让一个常规闭集检测器和一个视觉语言模型（Florence-2）在训练阶段共享视觉骨干、联合反传，把 VLM 的先验知识"灌"进检测器的特征里；推理时直接扔掉 VLM、只留标准检测分支，因此**零额外开销**地把检测精度推到 SOTA（VisDrone2019 上 mAP$_{0.5:0.95}$ 比之前最好方法高 7.5%）。
+:   论文提出"任意场景行人重识别"(AS-ReID)新任务——用单一模型在混合所有模态/视角的异构图库里做任意到任意检索，并构建了迄今最大的多光谱空地数据集 WHU-MARS（2,337 人、43 万张 RGB/近红外/热红外、地面+无人机），同时给出一个不需要多分支、不需要成对对齐的 UAD 框架，靠渐进式中心对齐 + 全局原型判别在 AS-ReID 上达到最佳且参数最省。
+
+**[WRIVINDER: Towards Spatial Intelligence for Geo-locating Ground Images onto Satellite Imagery](wrivinder_towards_spatial_intelligence_for_geo-locating_ground_images_onto_satel.md)**
+
+:   Wrivinder 把一组地面照片用 SfM+3DGS 重建成 3D 场景、渲染出俯视（zenith）视图，再用一个测试时自监督的模板匹配器把它对齐到地理配准的卫星影像上，从而在**完全零样本、无配对监督**的条件下反推出每台地面相机的 GPS 坐标，在 MC-Sat 上达到亚 30 米级定位精度。
 
 **[YieldSAT: A Multimodal Benchmark Dataset for High-Resolution Crop Yield Prediction](yieldsat_a_multimodal_benchmark_dataset_for_high-resolution_crop_yield_predictio.md)**
 

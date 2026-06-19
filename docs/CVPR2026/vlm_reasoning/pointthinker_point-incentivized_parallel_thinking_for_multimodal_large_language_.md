@@ -2,10 +2,10 @@
 title: >-
   [论文解读] PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model
 description: >-
-  [CVPR 2026][多模态VLM][并行思维] PointThinker 让多模态大模型（MLLM）在推理时先显式列出图像里的多个"关键点"、再围绕每个点独立展开一条推理路径，从而把并行思维的多样性放大；并配套一种点级密集奖励 RL 方法 GPPO，给同一条思维链里"有用的点"和"无效的点"分配不同奖励，在 HallusionBench 等难基准上把 Qwen2.5-VL-7B 提升 +4~6 个点。
+  [CVPR 2026][VLM Reasoning][并行思维] PointThinker 让多模态大模型（MLLM）在推理时先显式列出图像里的多个"关键点"、再围绕每个点独立展开一条推理路径，从而把并行思维的多样性放大；并配套一种点级密集奖励 RL 方法 GPPO，给同一条思维链里"有用的点"和"无效的点"分配不同奖励，在 HallusionBench 等难基准上把 Qwen2.5-VL-7B 提升 +4~6 个点。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "并行思维"
   - "多模态推理"
   - "强化学习"
@@ -146,10 +146,10 @@ $$J_{rollout}(\theta) = \mathbb{E}\Big[\frac{1}{G}\sum_{g=1}^{G}\frac{1}{|C_g|}\
 ## 相关论文
 
 - [\[CVPR 2026\] Thinking with Programming Vision: Towards a Unified View for Thinking with Images](thinking_with_programming_vision_towards_a_unified_view_for_thinking_with_images.md)
-- [\[CVPR 2026\] Parallel In-context Learning for Large Vision Language Models](parallel_in-context_learning_for_large_vision_language_models.md)
 - [\[CVPR 2026\] Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](thinking_in_dynamics_how_multimodal_large_language_models_perceive_track_and_rea.md)
-- [\[CVPR 2026\] MUPO: All Roads Lead to Rome - Incentivizing Divergent Thinking in Vision-Language Models](mupo_all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vlms.md)
-- [\[CVPR 2026\] Grounding Everything in Tokens for Multimodal Large Language Models](grounding_everything_in_tokens_for_multimodal_large_language_models.md)
+- [\[CVPR 2026\] OneThinker: All-in-one Reasoning Model for Image and Video](onethinker_all-in-one_reasoning_model_for_image_and_video.md)
+- [\[CVPR 2026\] GThinker: Towards General Multimodal Reasoning via Cue-Guided Rethinking](gthinker_towards_general_multimodal_reasoning_via_cue-guided_rethinking.md)
+- [\[CVPR 2026\] OpenMMReasoner: Pushing the Frontiers in Multimodal Reasoning with an Open and General Recipe](openmmreasoner_pushing_the_frontiers_in_multimodal_reasoning_with_an_open_and_ge.md)
 
 </div>
 

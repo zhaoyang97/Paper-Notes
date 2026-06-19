@@ -103,6 +103,7 @@ SPD 完全 training-free：没有梯度训练、没有可学习参数需要微�
 值得注意：在 ViT-B/32 检索上 SPD **公平和 R@1 同时变好**（Skew 降、R@1 反超 baseline），而 SFID 的 R@1 是掉的——说明子空间投影对效用更友好。图像生成（Tab. 5）上，SDXL 的性别提示词错配复合率 MRC 从 baseline 4.42 降到 SPD 1.67、中性提示词 Skew 从 83.25 降到 78.66，且不像 DeAR（MRC 飙到 99.81）那样把生成过程搞崩。
 
 ### 消融实验
+
 | 配置 | 骨干 | Accuracy | $\Delta DP$ | 说明 |
 |------|------|------|------|------|
 | SPD proj only（仅投影 Eq.6） | CLIP-RN50 | 50.16 | 9.61 | 去掉中性回注 |
@@ -146,10 +147,10 @@ SPD 完全 training-free：没有梯度训练、没有可学习参数需要微�
 ## 相关论文
 
 - [\[ICLR 2026\] Post-hoc Probabilistic Vision-Language Models](../../ICLR2026/multimodal_vlm/post-hoc_probabilistic_vision-language_models.md)
-- [\[CVPR 2026\] DSCA: Dynamic Subspace Concept Alignment for Lifelong VLM Editing](dsca_dynamic_subspace_concept_alignment_for_lifelong_vlm_editing.md)
+- [\[CVPR 2026\] Interpretable Debiasing of Vision-Language Models for Social Fairness](interpretable_debiasing_of_vision-language_models_for_social_fairness.md)
 - [\[CVPR 2026\] Same or Not? Enhancing Visual Perception in Vision-Language Models](same_or_not_enhancing_visual_perception_in_vision-language_models.md)
-- [\[CVPR 2026\] Rethinking VLMs for Image Forgery Detection and Localization](rethinking_vlms_for_image_forgery_detection_and_localization.md)
-- [\[CVPR 2026\] Diagnosing and Repairing Unsafe Channels in Vision-Language Models via Causal Discovery and Dual-Modal Safety Subspace Projection](diagnosing_and_repairing_unsafe_channels_in_vision-language_models_via_causal_di.md)
+- [\[CVPR 2026\] DSCA: Dynamic Subspace Concept Alignment for Lifelong VLM Editing](dsca_dynamic_subspace_concept_alignment_for_lifelong_vlm_editing.md)
+- [\[CVPR 2026\] A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks](a_closedform_solution_for_debiasing_visionlanguage.md)
 
 </div>
 

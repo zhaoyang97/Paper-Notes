@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.13944](https://arxiv.org/abs/2602.13944)  
 **代码**: [https://github.com/Hanminghao/STAMP](https://github.com/Hanminghao/STAMP)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Spatial Transcriptomics, Computational Pathology, Multimodal Pretraining, Gene Expression, Contrastive Learning
 
 ## 一句话总结

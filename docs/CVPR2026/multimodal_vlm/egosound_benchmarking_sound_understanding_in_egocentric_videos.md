@@ -77,6 +77,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 与现有第一人称问答基准对比
+
 | 基准 | 时长 | 片段数 | 问答数 | 任务数 | 声音问题 | 多源 | 开放式 |
 |------|------|--------|--------|--------|----------|------|--------|
 | EgoVQA | (25,100)s | 520 | 0.6k | 5 | ✗ | ✗ | ✓ |
@@ -89,6 +90,7 @@ flowchart TD
 EgoSound 是表中唯一同时满足"声音问题 + 多源 + 开放式"三者的基准。数据源构成：EgoBlind 640 段/4969 问答（均长 40.5s），Ego4D 260 段/2346 问答（均长 105.6s），合计 900 段/7315 问答/均长 59.3s。
 
 ### 9 个 MLLM 主评测（平均 Accuracy% / Score）
+
 | 模型 | 平均准确率 | 平均分 | 备注 |
 |------|-----------|--------|------|
 | **Human（人类上限）** | 83.9 | 3.9 | 350 条抽样 |
@@ -105,6 +107,7 @@ EgoSound 是表中唯一同时满足"声音问题 + 多源 + 开放式"三者的
 最佳模型与人类差距超 27 个点（56.7 vs 83.9），证明基准难度。分任务看，几乎所有模型在 **Spatial Location**（最佳仅 50.0）和 **Sound Characteristics** 上明显弱于 Counting/Causality/Cross-Modal，说明细粒度听觉感知是普遍短板。
 
 ### 音频-only 消融（Qwen3-Omni-Thinking-30B）
+
 | 任务组 | 音视频输入 | 仅音频 | 说明 |
 |--------|-----------|--------|------|
 | 声音依赖三任务（Characteristics/Counting/Temporal） | 50.3 | 44.3 | 仅小幅下滑 ~6 点 |
@@ -147,11 +150,11 @@ EgoSound 是表中唯一同时满足"声音问题 + 多源 + 开放式"三者的
 
 ## 相关论文
 
+- [\[CVPR 2026\] EgoAVU: Egocentric Audio-Visual Understanding](egoavu_egocentric_audio-visual_understanding.md)
 - [\[CVPR 2026\] ViKey: Enhancing Temporal Understanding in Videos via Visual Prompting](vikey_enhancing_temporal_understanding_in_videos_via_visual_prompting.md)
-- [\[CVPR 2026\] Hear you are: Teaching LLMs Spatial Reasoning with Vision and Spatial Sound](hear_you_are_teaching_llms_spatial_reasoning_with_vision_and_spatial_sound.md)
 - [\[NeurIPS 2025\] In the Eye of MLLM: Benchmarking Egocentric Video Intent Understanding with Gaze-Guided Prompting](../../NeurIPS2025/multimodal_vlm/in_the_eye_of_mllm_benchmarking_egocentric_video_intent_understanding_with_gaze-.md)
-- [\[CVPR 2026\] EgoProx: Evaluating MLLMs on Egocentric 3D Proximity Reasoning Across a Cognitive Hierarchy](egoprox_evaluating_mllms_on_egocentric_3d_proximity_reasoning_across_a_cognitive.md)
-- [\[CVPR 2026\] Generate, Analyze, and Refine: Training-Free Sound Source Localization via MLLM Meta-Reasoning](generate_analyze_and_refine_training-free_sound_source_localization_via_mllm_met.md)
+- [\[CVPR 2026\] LifeEval: A Multimodal Benchmark for Assistive AI in Egocentric Daily Life Tasks](lifeeval_a_multimodal_benchmark_for_assistive_ai_in_egocentric_daily_life_tasks.md)
+- [\[AAAI 2026\] Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding](../../AAAI2026/multimodal_vlm/exo2ego_exocentric_knowledge_guided_mllm_for_egocentric_vide.md)
 
 </div>
 

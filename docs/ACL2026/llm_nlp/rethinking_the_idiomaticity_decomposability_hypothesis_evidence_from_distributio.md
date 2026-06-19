@@ -93,6 +93,7 @@ IDH 声称 decomposability 约束习语能否被动化、插入修饰语等句�
 ## 实验关键数据
 
 ### 主实验
+
 | 分析问题 | 样本/模型 | 关键结果 | 解释 |
 |----------|-----------|----------|------|
 | 人类 decomposability vs syntactic flexibility | Bulkes & Tanner 与 IMPLI 重叠的 90 个习语 | 无显著关系 | 人类 decomposability rating 不能稳定预测语料中的句法灵活性 |
@@ -102,6 +103,7 @@ IDH 声称 decomposability 约束习语能否被动化、插入修饰语等句�
 | VP idioms 分组 | 284 个 VP 类习语 | $\rho=-0.02$, $p=0.68$ | IDH 最关心的动词短语习语没有显著关系 |
 
 ### 消融实验
+
 | 分析配置 | 关键指标 | 说明 |
 |----------|---------|------|
 | Human ratings: frequency | coef = -0.20, z = -2.26, p = 0.02 | 语料频率越高，人类越倾向于把习语判断为更不可分解 |
@@ -147,11 +149,11 @@ IDH 声称 decomposability 约束习语能否被动化、插入修饰语等句�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Rethinking Occlusion Modeling for UAV Tracking](../../CVPR2026/video_understanding/rethinking_occlusion_modeling_for_uav_tracking.md)
-- [\[CVPR 2025\] ViTED: Video Temporal Evidence Distillation](../../CVPR2025/video_understanding/vited_video_temporal_evidence_distillation.md)
-- [\[CVPR 2026\] FlexHook: Rethinking Two-Stage Referring-by-Tracking in RMOT](../../CVPR2026/video_understanding/rethinking_two-stage_referring-by-tracking_in_referring_multi-object_tracking_ma.md)
-- [\[ICML 2026\] Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning](../../ICML2026/video_understanding/foresee-to-ground_from_predictive_temporal_perception_to_evidence-driven_reasoni.md)
-- [\[CVPR 2026\] HERBench: A Benchmark for Multi-Evidence Integration in Video Question Answering](../../CVPR2026/video_understanding/herbench_a_benchmark_for_multi-evidence_integration_in_video_question_answering.md)
+- [\[ICML 2026\] Rethinking LLM Ensembling from the Perspective of Mixture Models](../../ICML2026/llm_nlp/rethinking_llm_ensembling_from_the_perspective_of_mixture_models.md)
+- [\[ICML 2026\] The Cylindrical Representation Hypothesis for Language Model Steering](../../ICML2026/llm_nlp/the_cylindrical_representation_hypothesis_for_language_model_steering.md)
+- [\[ICLR 2026\] The Lattice Representation Hypothesis of Large Language Models](../../ICLR2026/llm_nlp/the_lattice_representation_hypothesis_of_large_language_models.md)
+- [\[ICML 2025\] The Lock-in Hypothesis: Stagnation by Algorithm](../../ICML2025/llm_nlp/the_lock-in_hypothesis_stagnation_by_algorithm.md)
+- [\[ICLR 2026\] Rethinking Code Similarity for Automated Algorithm Design with LLMs](../../ICLR2026/llm_nlp/rethinking_code_similarity_for_automated_algorithm_design_with_llms.md)
 
 </div>
 

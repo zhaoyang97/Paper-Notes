@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.11823](https://arxiv.org/abs/2505.11823)  
 **代码**: [GitHub](https://github.com/ZerooVector/VarRUOT)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 正则化非平衡最优传输, 变分方法, 最小作用量, 单标量场, 单细胞轨迹推断
 
 ## 一句话总结

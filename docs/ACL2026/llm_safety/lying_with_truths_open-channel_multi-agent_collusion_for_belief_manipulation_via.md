@@ -83,6 +83,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 模型族 / 模型 | Overall ASR | 代表性观察 | 说明 |
 |--------|-------------|------------|------|
 | Proprietary Avg. | 74.4% | 六个事件 macro-average | 专有模型整体也高度脆弱 |
@@ -94,6 +95,7 @@ flowchart TD
 | 下游验证层 | DDR 超过 60%（摘要），正文称多数模型族和事件显著高于 50% | Majority Vote 和 AI Judge 都未能充分阻断 | 错误信念会被下游报告放大 |
 
 ### 消融实验
+
 | 分析项 | 配置 | 关键结果 | 说明 |
 |------|------|---------|------|
 | CoT prompting | Qwen2.5-7B-Inst Direct vs +CoT | 67.8% → 70.9%，+3.1 | 显式推理提示没有缓解，反而放大脆弱性 |
@@ -140,11 +142,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICLR 2026\] A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems](../../ICLR2026/llm_safety/a2asecbench_a_protocol-aware_security_benchmark_for_agent-to-agent_multi-agent_s.md)
 - [\[ACL 2026\] MemoPhishAgent: Memory-Augmented Multi-Modal LLM Agent for Phishing URL Detection](memophishagent_memory-augmented_multi-modal_llm_agent_for_phishing_url_detection.md)
 - [\[ACL 2026\] Privacy-R1: Privacy-Aware Multi-LLM Agent Collaboration via Reinforcement Learning](privacy-r1_privacy-aware_multi-llm_agent_collaboration_via_reinforcement_learnin.md)
 - [\[AAAI 2026\] From Single to Societal: Analyzing Persona-Induced Bias in Multi-Agent Interactions](../../AAAI2026/llm_safety/from_single_to_societal_analyzing_persona-induced_bias_in_multi-agent_interactio.md)
 - [\[ICML 2025\] TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems](../../ICML2025/llm_safety/tamas_benchmarking_adversarial_risks_in_multi-agent_llm_systems.md)
-- [\[ACL 2026\] ACIArena: Toward Unified Evaluation for Agent Cascading Injection](aciarena_toward_unified_evaluation_for_agent_cascading_injection.md)
 
 </div>
 

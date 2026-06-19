@@ -1,18 +1,25 @@
 ---
 title: >-
-  ICLR2026 幻觉检测论文汇总 · 9篇论文解读
+  ICLR2026 幻觉检测论文汇总 · 13篇论文解读
 description: >-
-  9篇ICLR2026的幻觉检测方向论文解读，涵盖 LLM、多模态、RAG、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  13篇ICLR2026的幻觉检测方向论文解读，涵盖多模态、推理、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "幻觉检测"
   - "论文解读"
   - "论文笔记"
-  - "LLM"
   - "多模态"
-  - "RAG"
-  - "对抗鲁棒"
+  - "推理"
+  - "LLM"
 item_list:
+  - u: "barrel_boundary-aware_reasoning_for_factual_and_reliable_lrms/"
+    t: "BARREL: Boundary-Aware Reasoning for Factual and Reliable LRMs"
+  - u: "beyond_in-domain_detection_spikescore_for_cross-domain_hallucination_detection/"
+    t: "Beyond In-Domain Detection: SpikeScore for Cross-Domain Hallucination Detection"
+  - u: "cat-po_cross-modal_adaptive_token-rewards_for_preference_optimization_in_truthfu/"
+    t: "Cat-PO: Cross-modal Adaptive Token-rewards for Preference Optimization in Truthful Multimodal LLMs"
+  - u: "chainmpq_interleaved_text-image_reasoning_chains_for_mitigating_relation_halluci/"
+    t: "ChainMPQ: Interleaved Text-Image Reasoning Chains for Mitigating Relation Hallucinations"
   - u: "copy-paste_to_mitigate_large_language_model_hallucinations/"
     t: "Copy-Paste to Mitigate Large Language Model Hallucinations"
   - u: "dynamic_multimodal_activation_steering_for_hallucination_mitigation_in_large_vis/"
@@ -31,17 +38,33 @@ item_list:
     t: "Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding"
   - u: "veritrail_closed-domain_hallucination_detection_with_traceable_evidence_synthes/"
     t: "VeriTrail: Closed-Domain Hallucination Detection with Traceability"
-item_total: 9
+item_total: 13
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👻 幻觉检测
 
-**🔬 ICLR2026** · **9** 篇论文解读
+**🔬 ICLR2026** · **13** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (38)](../../CVPR2026/hallucination/index.md) · [🧪 ICML2026 (19)](../../ICML2026/hallucination/index.md) · [💬 ACL2026 (27)](../../ACL2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (33)](../../CVPR2026/hallucination/index.md) · [🧪 ICML2026 (21)](../../ICML2026/hallucination/index.md) · [💬 ACL2026 (28)](../../ACL2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
 
-🔥 **高频主题：** LLM ×2 · 多模态 ×2
+🔥 **高频主题：** 多模态 ×3 · 推理 ×2 · LLM ×2
+
+**[BARREL: Boundary-Aware Reasoning for Factual and Reliable LRMs](barrel_boundary-aware_reasoning_for_factual_and_reliable_lrms.md)**
+
+:   针对大推理模型（LRM）在事实问答上"宁可编也不说不知道"的毛病，本文先定位出两种由"事实性过度思考"引发的病态推理模式，再用"知识边界标注 → 边界感知 SFT → 基于可靠性奖励的 GRPO"三段式训练框架 BARREL，把 DeepSeek-R1-Distill-Llama-8B 的可靠性从 39.33% 拉到 61.48%，且准确率不降反升。
+
+**[Beyond In-Domain Detection: SpikeScore for Cross-Domain Hallucination Detection](beyond_in-domain_detection_spikescore_for_cross-domain_hallucination_detection.md)**
+
+:   作者发现「由幻觉答案引出的多轮自对话，其不确定性分数会出现远比真实答案剧烈的尖峰抖动」，于是把这种抖动量化成 **SpikeScore**（分数序列的最大二阶差分），用一个阈值就能做到只在单个领域训练、却能跨多个领域稳定检测幻觉，在四个 LLM、六个 benchmark 上的跨域 AUROC 全面超过 PRISM、ICR Probe 等专门的跨域方法。
+
+**[Cat-PO: Cross-modal Adaptive Token-rewards for Preference Optimization in Truthful Multimodal LLMs](cat-po_cross-modal_adaptive_token-rewards_for_preference_optimization_in_truthfu.md)**
+
+:   针对多模态大模型的幻觉问题，本文提出 Cat-PO：在 DPO 偏好优化中，仅靠模型自身的跨模态注意力与相似度，为每个回答 token 计算全局/局部/语义三层视觉相关性，融合成一个平滑的 token 奖励来重新加权 DPO 损失并加上 token 级 KL 正则，从而对幻觉 token 做细粒度纠偏，在 AMBER-Generation、MM-Hal 等基准上比现有 SOTA 高 7%–15%。
+
+**[ChainMPQ: Interleaved Text-Image Reasoning Chains for Mitigating Relation Hallucinations](chainmpq_interleaved_text-image_reasoning_chains_for_mitigating_relation_halluci.md)**
+
+:   ChainMPQ 是一个无需训练的推理框架：把"主体—关系—客体"这一关系问题拆成 5 个互补子问题，按顺序喂给视觉语言模型，并把每一步的文本答案与视觉注意力记忆传递给后续步骤，形成交错的图文推理链，从而在多个 LVLM 和关系幻觉基准上稳定降低关系幻觉。
 
 **[Copy-Paste to Mitigate Large Language Model Hallucinations](copy-paste_to_mitigate_large_language_model_hallucinations.md)**
 

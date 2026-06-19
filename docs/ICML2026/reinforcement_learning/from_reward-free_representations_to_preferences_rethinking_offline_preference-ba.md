@@ -113,6 +113,7 @@ Ours-FT 在 16 个任务里几乎全是最佳，连仅做 test-time 搜索的 Ou
 只用偏好数据的 Ours-FT 仍能赢过用真奖励的 RFRL 基线（Quadruped 平均超 200+），Walker 与最强基线持平。
 
 ### 消融实验
+
 | 配置 | Cheetah | Walker | Quadruped | 说明 |
 |---|---|---|---|---|
 | FB-BT-FT (集成 BT 奖励 + FB 微调) | 536.6 | 600.6 | 714.1 | 把对比换成"学奖励再 fine-tune"，全面落后 |
@@ -156,10 +157,10 @@ Ours-FT 在 16 个任务里几乎全是最佳，连仅做 test-time 搜索的 Ou
 ## 相关论文
 
 - [\[ICML 2026\] Safe Reinforcement Learning with Preference-Based Constraint Inference](safe_reinforcement_learning_with_preference-based_constraint_inference.md)
+- [\[ICML 2026\] Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning](video-based_optimal_transport_for_feedback-efficient_offline_preference-based_re.md)
 - [\[NeurIPS 2025\] Reward-Aware Proto-Representations in Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/reward-aware_proto-representations_in_reinforcement_learning.md)
-- [\[ICML 2026\] Offline Reinforcement Learning with Universal Horizon Models](offline_reinforcement_learning_with_universal_horizon_models.md)
-- [\[ICML 2026\] Laplacian Representations for Decision-Time Planning](laplacian_representations_for_decision-time_planning.md)
 - [\[ICLR 2026\] Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment](../../ICLR2026/reinforcement_learning/reasoning_as_representation_rethinking_visual_reinforcement_learning_in_image_qu.md)
+- [\[ICML 2026\] Offline Reinforcement Learning with Universal Horizon Models](offline_reinforcement_learning_with_universal_horizon_models.md)
 
 </div>
 

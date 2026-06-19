@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VisioMath: Benchmarking Figure-based Mathematical Reasoning in LMMs
 description: >-
-  [ICLR 2026][LLM推理][数学推理基准] 提出VisioMath基准，包含1800道K-12数学题目，所有选项均为高度视觉相似的图表，揭示了LMM在多图像-文本对齐上的核心短板，并探索三种对齐策略实现+12.6%的提升。 现有多模态数学推理基准大多关注单图场景或文本选项，忽略了一类重要且常见的题型：所有答案选项均…
+  [ICLR 2026][Reasoning][数学推理基准] 提出VisioMath基准，包含1800道K-12数学题目，所有选项均为高度视觉相似的图表，揭示了LMM在多图像-文本对齐上的核心短板，并探索三种对齐策略实现+12.6%的提升。 现有多模态数学推理基准大多关注单图场景或文本选项，忽略了一类重要且常见的题型：所有答…
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "数学推理基准"
   - "多图像推理"
   - "视觉相似性"
@@ -130,8 +130,8 @@ VisioMath 把一类被以往基准忽略的题型——所有答案选项都是�
 - [\[ICLR 2026\] GeoGramBench: Benchmarking the Geometric Program Reasoning in Modern LLMs](geogrambench_benchmarking_the_geometric_program_reasoning_in_modern_llms.md)
 - [\[ICLR 2026\] RFEval: Benchmarking Reasoning Faithfulness under Counterfactual Reasoning Intervention in Large Reasoning Models](rfeval_benchmarking_reasoning_faithfulness_under_counterfactual_reasoning_interv.md)
 - [\[ICLR 2026\] TopoBench: Benchmarking LLMs on Hard Topological Reasoning](topobench_benchmarking_llms_on_hard_topological_reasoning.md)
-- [\[NeurIPS 2025\] I-RAVEN-X: Benchmarking Generalization and Robustness of Analogical and Mathematical Reasoning in Large Language and Reasoning Models](../../NeurIPS2025/llm_reasoning/i-raven-x_benchmarking_generalization_and_robustness_of_analogical_and_mathemati.md)
 - [\[ICLR 2026\] DAG-Math: Graph-of-Thought Guided Mathematical Reasoning in LLMs](dag-math_graph-of-thought_guided_mathematical_reasoning_in_llms.md)
+- [\[ICLR 2026\] THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning](thor_tool-integrated_hierarchical_optimization_via_rl_for_mathematical_reasoning.md)
 
 </div>
 

@@ -93,6 +93,7 @@ flowchart TD
 在所有 generalist baseline（ARC / UNPrompt / AnomalyGFM / IA-GGAD）中 ReFi-GAD 平均排名第一，且在 Figure 1 中是唯一在几乎全部数据集上呈现正向预训练增益的方法（其他方法都有大量负迁移点）。
 
 ### 消融实验
+
 | 配置 | 平均 AUROC | 说明 |
 |------|------------|------|
 | Full ReFi-GAD | 最高 | 完整模型 |

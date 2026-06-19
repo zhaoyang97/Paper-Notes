@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Agentified Assessment of Logical Reasoning Agents
 description: >-
-  [ICLR 2026][LLM推理][逻辑推理评测] 提出基于Agent的评测框架(AAA)，将评估逻辑封装为assessor agent并通过标准A2A接口与被测agent交互，在经Vampire定理证明器系统清洗的FOLIO数据集上，自动形式化agent（NL→Z3Py+SMT求解）达到86.70%准确率，大幅超过CoT基线73.89%，尤其在矛盾检测(False类)上提升32.79个百分点。
+  [ICLR 2026][Reasoning][逻辑推理评测] 提出基于Agent的评测框架(AAA)，将评估逻辑封装为assessor agent并通过标准A2A接口与被测agent交互，在经Vampire定理证明器系统清洗的FOLIO数据集上，自动形式化agent（NL→Z3Py+SMT求解）达到86.70%准确率，大幅超过CoT基线73.89%，尤其在矛盾检测(False类)上提升32.79个百分点。
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "逻辑推理评测"
   - "Agent-to-Agent评估"
   - "一阶逻辑"

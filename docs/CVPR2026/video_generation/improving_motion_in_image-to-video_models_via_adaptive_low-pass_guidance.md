@@ -100,6 +100,7 @@ ALG 套在三个开源 I2V 模型（Wan 2.2、Wan 2.1、LTX-Video）上，对照
 | VidProM | CFG / ALG | 27.3 / **30.5** | 79.1 / **79.5** | 98.2 / 98.0 |
 
 ### 消融实验
+
 | 配置 | Dynamic Degree | 说明 |
 |------|----------------|------|
 | 转折点 $t_{\text{trans}}=0.06$ | 动态度 +32% | 仅前 6% 步做低通已足够催动运动，VBench-QS/Avg. 基本不掉 |
@@ -145,9 +146,9 @@ ALG 套在三个开源 I2V 模型（Wan 2.2、Wan 2.1、LTX-Video）上，对照
 
 - [\[CVPR 2026\] TempoControl: Temporal Attention Guidance for Text-to-Video Models](tempocontrol_temporal_attention_guidance_for_text-to-video_models.md)
 - [\[CVPR 2026\] Are Image-to-Video Models Good Zero-Shot Image Editors?](are_image-to-video_models_good_zero-shot_image_editors.md)
-- [\[CVPR 2026\] 3D-Aware Implicit Motion Control for View-Adaptive Human Video Generation](3d-aware_implicit_motion_control_for_view-adaptive_human_video_generation.md)
 - [\[ICLR 2026\] Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models](../../ICLR2026/video_generation/frame_guidance_training-free_guidance_for_frame-level_control_in_video_diffusion.md)
-- [\[CVPR 2025\] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](../../CVPR2025/video_generation/videoguide_improving_video_diffusion_models_without_training_through_a_teachers_.md)
+- [\[CVPR 2026\] 3D-Aware Implicit Motion Control for View-Adaptive Human Video Generation](3d-aware_implicit_motion_control_for_view-adaptive_human_video_generation.md)
+- [\[CVPR 2026\] FlowMotion: Training-Free Flow Guidance for Video Motion Transfer](flowmotion_training-free_flow_guidance_for_video_motion_transfer.md)
 
 </div>
 

@@ -1,16 +1,16 @@
 ---
 title: >-
-  ACL2026 机器人/具身智能论文汇总 · 10篇论文解读
+  ACL2026 机器人/具身智能论文汇总 · 11篇论文解读
 description: >-
-  10篇ACL2026的机器人/具身智能方向论文解读，涵盖导航、推理、多模态、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  11篇ACL2026的机器人/具身智能方向论文解读，涵盖导航、多模态、推理、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "机器人/具身智能"
   - "论文解读"
   - "论文笔记"
   - "导航"
-  - "推理"
   - "多模态"
+  - "推理"
   - "机器人"
 item_list:
   - u: "breaking_down_and_building_up_mixture_of_skill-based_vision-and-language_navigat/"
@@ -31,19 +31,21 @@ item_list:
     t: "Mango: Multi-Agent Web Navigation via Global-View Optimization"
   - u: "vln-nf_feasibility-aware_vision-and-language_navigation_with_false-premise_instr/"
     t: "VLN-NF: Feasibility-Aware Vision-and-Language Navigation with False-Premise Instructions"
+  - u: "when_does_language_matter_multilingual_instructions_reveal_step-wise_language_se/"
+    t: "When Does Language Matter? Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models"
   - u: "where_did_it_go_wrong_capability-oriented_failure_attribution_for_vision-and-lan/"
     t: "视觉语言导航代理的能力导向失败归因"
-item_total: 10
+item_total: 11
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**💬 ACL2026** · **10** 篇论文解读
+**💬 ACL2026** · **11** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (149)](../../CVPR2026/robotics/index.md) · [🧪 ICML2026 (42)](../../ICML2026/robotics/index.md) · [🔬 ICLR2026 (46)](../../ICLR2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (146)](../../CVPR2026/robotics/index.md) · [🧪 ICML2026 (53)](../../ICML2026/robotics/index.md) · [🔬 ICLR2026 (56)](../../ICLR2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
 
-🔥 **高频主题：** 导航 ×5 · 推理 ×3 · 多模态 ×2 · 机器人 ×2
+🔥 **高频主题：** 导航 ×5 · 多模态 ×3 · 推理 ×3 · 机器人 ×2
 
 **[Breaking Down and Building Up: Mixture of Skill-Based Vision-and-Language Navigation Agents](breaking_down_and_building_up_mixture_of_skill-based_vision-and-language_navigat.md)**
 
@@ -80,6 +82,10 @@ item_total: 10
 **[VLN-NF: Feasibility-Aware Vision-and-Language Navigation with False-Premise Instructions](vln-nf_feasibility-aware_vision-and-language_navigation_with_false-premise_instr.md)**
 
 :   本文提出 VLN-NF 基准——首个要求 VLN agent 在 3D 部分可观测环境中识别虚假前提指令并输出 NOT-FOUND 的任务，配套提出 REV-SPL 评估指标和 ROAM 两阶段混合框架，ROAM 达到 6.1 REV-SPL，比监督基线提升 45%。
+
+**[When Does Language Matter? Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models](when_does_language_matter_multilingual_instructions_reveal_step-wise_language_se.md)**
+
+:   本文把 LIBERO 机器人操作基准翻成十种语言，首次系统揭示 VLA 模型在非英语指令下成功率暴跌 30–50%，并发现"语言影响在执行步上高度不均匀"——只有少数关键步对语言敏感却主导失败，据此提出一种只在这些步上做推理时表征对齐的方法，把多语言成功率大幅拉回。
 
 **[视觉语言导航代理的能力导向失败归因](where_did_it_go_wrong_capability-oriented_failure_attribution_for_vision-and-lan.md)**
 

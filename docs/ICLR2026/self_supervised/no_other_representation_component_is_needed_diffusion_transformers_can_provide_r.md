@@ -170,7 +170,7 @@ SRA 在高分辨率和文本到图像场景同样有效，512×512 上 IS 和 sF
 - [\[ICML 2026\] FLAG: Foundation Model Representation with Latent Diffusion Alignment via Graph for Spatial Gene Expression Prediction](../../ICML2026/self_supervised/flag_foundation_model_representation_with_latent_diffusion_alignment_via_graph_f.md)
 - [\[CVPR 2026\] Can You Learn to See Without Images? Procedural Warm-Up for Vision Transformers](../../CVPR2026/self_supervised/can_you_learn_to_see_without_images_procedural_warm-up_for_vision_transformers.md)
 - [\[CVPR 2026\] Vision Transformers Need More Than Registers](../../CVPR2026/self_supervised/vision_transformers_need_more_than_registers.md)
-- [\[AAAI 2026\] CATFormer: When Continual Learning Meets Spiking Transformers With Dynamic Thresholds](../../AAAI2026/self_supervised/catformer_when_continual_learning_meets_spiking_transformers_with_dynamic_thresh.md)
+- [\[CVPR 2026\] Temporal Interaction in Spiking Transformers with Multi-Delay Mixer](../../CVPR2026/self_supervised/temporal_interaction_in_spiking_transformers_with_multi-delay_mixer.md)
 
 </div>
 

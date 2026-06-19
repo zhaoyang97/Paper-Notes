@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2604.07659](https://arxiv.org/abs/2604.07659)  
 **代码**: [https://anonymous.4open.science/r/K2K-2390/](https://anonymous.4open.science/r/K2K-2390/)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 内部记忆检索、FFN键值记忆、医疗预测、知识注入、交叉注意力重排
 
 ## 一句话总结

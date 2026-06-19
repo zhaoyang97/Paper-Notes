@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Estimating the Empowerment of Language Model Agents
 description: >-
-  [ICLR 2026][LLM推理][empowerment] 提出 EELMA 算法，利用信息论中的"赋权"（empowerment，即 agent 动作与未来状态的互信息）作为目标无关的 LM Agent 能力度量指标，在语言游戏和真实网页浏览场景中与任务表现强相关（$r=0.83$–$0.94$），可用于开放式 agent 监控与安全评估。
+  [ICLR 2026][Reasoning][empowerment] 提出 EELMA 算法，利用信息论中的"赋权"（empowerment，即 agent 动作与未来状态的互信息）作为目标无关的 LM Agent 能力度量指标，在语言游戏和真实网页浏览场景中与任务表现强相关（$r=0.83$–$0.94$），可用于开放式 agent 监控与安全评估。
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "empowerment"
   - "information theory"
   - "mutual information"
@@ -178,7 +178,7 @@ GPT-4o 赋权最高、折扣回报最高；o3 成功率与 GPT-4o 相当但步�
 - [\[ICLR 2026\] Adaptive Social Learning via Mode Policy Optimization for Language Agents](adaptive_social_learning_via_mode_policy_optimization_for_language_agents.md)
 - [\[ICLR 2026\] Agentified Assessment of Logical Reasoning Agents](agentified_assessment_of_logical_reasoning_agents.md)
 - [\[ICLR 2026\] Scaling Generalist Data-Analytic Agents](scaling_generalist_data-analytic_agents.md)
-- [\[ACL 2026\] Language Model as Planner and Formalizer under Constraints](../../ACL2026/llm_reasoning/language_model_as_planner_and_formalizer_under_constraints.md)
+- [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Model](predicting_llm_reasoning_performance_with_small_proxy_model.md)
 
 </div>
 

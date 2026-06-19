@@ -78,6 +78,7 @@ $$\mathbb E\Big[\big\|\psi(x_t,t)-\big(\tfrac{\alpha_s^2\sigma_t+\alpha_t\sigma_
 > 指标说明：**OF**=用 UniMatch 算的平均光流幅度（运动强度，越高越强）；**DD**=VBench 的动态程度（dynamic degree）；**FID/FVD**=蒸馏模型与基座模型之间的图像/视频分布距离（越低越接近基座）；**DINOv3**=同一 prompt 不同种子生成图的 DINOv3 特征平均成对余弦相似度（越低越多样）；**LPIPS**=平均成对感知距离（越高越多样）。
 
 ### 主实验（视频生成，蒸馏 Wan2.2-T2V/I2V-A14B，4 步 vs 基座 40 步）
+
 | 任务 | 方法 | OF↑ | DD↑ | FID↓ | FVD↓ |
 |------|------|------|------|------|------|
 | T2V | 基座 (40 步) | 10.26 | 79.55% | 0.0 | 0.0 |
@@ -90,6 +91,7 @@ $$\mathbb E\Big[\big\|\psi(x_t,t)-\big(\tfrac{\alpha_s^2\sigma_t+\alpha_t\sigma_
 要点：DMD2 的运动强度（OF 3.23）相对基座（10.26）严重退化，正是 SGTS 一步退化的表现；Phased DMD 把 OF 拉回 9.30、DD 甚至略超基座，FID/FVD 也更接近基座，说明它显著更好地保住了运动动态与生成质量。
 
 ### 多样性分析（T2I，同 prompt 8 种子）
+
 | 方法 | Wan2.1 DINOv3↓ | Wan2.1 LPIPS↑ | Wan2.2 DINOv3↓ | Wan2.2 LPIPS↑ |
 |------|------|------|------|------|
 | 基座 | 0.708 | 0.607 | 0.732 | 0.531 |
@@ -137,8 +139,8 @@ $$\mathbb E\Big[\big\|\psi(x_t,t)-\big(\tfrac{\alpha_s^2\sigma_t+\alpha_t\sigma_
 - [\[CVPR 2026\] Adaptive Video Distillation: Mitigating Oversaturation and Temporal Collapse in Few-Step Generation](adaptive_video_distillation_mitigating_oversaturation_and_temporal_collapse_in_f.md)
 - [\[CVPR 2026\] Dataset Distillation by Influence Matching](dataset_distillation_by_influence_matching.md)
 - [\[CVPR 2026\] DMGD: Train-Free Dataset Distillation with Semantic-Distribution Matching in Diffusion Models](dmgd_train-free_dataset_distillation_with_semantic-distribution_matching_in_diff.md)
+- [\[CVPR 2026\] FAST: Topology-Aware Frequency-Domain Distribution Matching for Coreset Selection](fast_topology-aware_frequency-domain_distribution_matching_for_coreset_selection.md)
 - [\[ICLR 2026\] Distillation of Large Language Models via Concrete Score Matching](../../ICLR2026/model_compression/distillation_of_large_language_models_via_concrete_score_matching.md)
-- [\[CVPR 2026\] Beyond Soft Label: Dataset Distillation via Orthogonal Gradient Matching](beyond_soft_label_dataset_distillation_via_orthogonal_gradient_matching.md)
 
 </div>
 

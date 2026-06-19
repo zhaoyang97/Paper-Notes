@@ -149,7 +149,7 @@ tags:
 - [\[ICML 2025\] Synthetic Face Datasets Generation via Latent Space Exploration from Brownian Identity Diffusion](synthetic_face_datasets_generation_via_latent_space_exploration_from_brownian_id.md)
 - [\[AAAI 2026\] Beautiful Images, Toxic Words: Understanding and Addressing Offensive Text in Generated Images](../../AAAI2026/image_generation/beautiful_images_toxic_words_understanding_and_addressing_offensive_text_in_gene.md)
 - [\[NeurIPS 2025\] AugGen: Synthetic Augmentation using Diffusion Models Can Improve Recognition](../../NeurIPS2025/image_generation/auggen_synthetic_augmentation_using_diffusion_models_can_imp.md)
-- [\[CVPR 2026\] Evaluating Reasoning Fidelity in Visual Text Generation](../../CVPR2026/image_generation/evaluating_reasoning_fidelity_in_visual_text_generation.md)
+- [\[CVPR 2025\] OpenSDI: Spotting Diffusion-Generated Images in the Open World](../../CVPR2025/image_generation/opensdi_spotting_diffusion-generated_images_in_the_open_world.md)
 
 </div>
 

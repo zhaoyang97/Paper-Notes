@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Dynamic Important Example Mining for Reinforcement Finetuning
 description: >-
-  [CVPR 2026][LLM推理][强化微调] DIEM 在 RFT（GRPO/PPO 等）的每一步训练里，用「单样本梯度与 batch 总梯度的内积」实时估计每条样本对当前策略改进的边际贡献，再解一个保持梯度模长不变的约束优化问题给样本重加权，几乎零额外开销（+1.3% 时间）就让多模态推理 benchmark 平均提升 1–6 个点。
+  [CVPR 2026][Reasoning][强化微调] DIEM 在 RFT（GRPO/PPO 等）的每一步训练里，用「单样本梯度与 batch 总梯度的内积」实时估计每条样本对当前策略改进的边际贡献，再解一个保持梯度模长不变的约束优化问题给样本重加权，几乎零额外开销（+1.3% 时间）就让多模态推理 benchmark 平均提升 1–6 个点。
 tags:
   - "CVPR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "强化微调"
   - "数据选择"
   - "梯度对齐"
@@ -160,9 +160,9 @@ MathVerse / Qwen2.5-VL-32B，完整模型 58.0：
 
 - [\[ICLR 2026\] Dynamics-Predictive Sampling for Active RL Finetuning of Large Reasoning Models](../../ICLR2026/llm_reasoning/dynamics-predictive_sampling_for_active_rl_finetuning_of_large_reasoning_models.md)
 - [\[CVPR 2026\] Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs](scaling_agentic_reinforcement_learning_for_tool-integrated_reasoning_in_vlms.md)
+- [\[ICML 2026\] DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling](../../ICML2026/llm_reasoning/dycon_dynamic_reasoning_control_via_evolving_difficulty_modeling.md)
+- [\[ACL 2026\] DELTA: Dynamic Layer-Aware Token Attention for Efficient Long-Context Reasoning](../../ACL2026/llm_reasoning/delta_dynamic_layer-aware_token_attention_for_efficient_long-context_reasoning.md)
 - [\[ACL 2026\] Step-GRPO: Internalizing Dynamic Early Exit for Efficient Reasoning](../../ACL2026/llm_reasoning/step-grpo_internalizing_dynamic_early_exit_for_efficient_reasoning.md)
-- [\[AAAI 2026\] Intention Chain-of-Thought Prompting with Dynamic Routing for Code Generation](../../AAAI2026/llm_reasoning/intention_chain-of-thought_prompting_with_dynamic_routing_for_code_generation.md)
-- [\[ICML 2026\] Blending Supervised and Reinforcement Fine-Tuning with Prefix Sampling](../../ICML2026/llm_reasoning/blending_supervised_and_reinforcement_fine-tuning_with_prefix_sampling.md)
 
 </div>
 

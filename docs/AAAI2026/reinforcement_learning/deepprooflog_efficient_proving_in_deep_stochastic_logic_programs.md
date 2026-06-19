@@ -181,10 +181,10 @@ DPrL在Family上取得最优MRR和H@1，在WN18RR上与最优方法SBR_SG接近�
 
 ## 相关论文
 
+- [\[ICLR 2026\] A Hierarchical Circuit Symbolic Discovery Framework for Efficient Logic Optimization](../../ICLR2026/reinforcement_learning/a_hierarchical_circuit_symbolic_discovery_framework_for_efficient_logic_optimiza.md)
 - [\[AAAI 2026\] Good-for-MDP State Reduction for Stochastic LTL Planning](good-for-mdp_state_reduction_for_stochastic_ltl_planning.md)
-- [\[ICML 2026\] RL-SPH: Learning to Achieve Feasible Solutions for Integer Linear Programs](../../ICML2026/reinforcement_learning/rl-sph_learning_to_achieve_feasible_solutions_for_integer_linear_programs.md)
 - [\[AAAI 2026\] Do It for HER: First-Order Temporal Logic Reward Specification in Reinforcement Learning](do_it_for_her_first-order_temporal_logic_reward_specification_in_reinforcement_l.md)
-- [\[NeurIPS 2025\] Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/counteractive_rl_rethinking_core_principles_for_efficient_and_scalable_deep_rein.md)
+- [\[ICML 2026\] RL-SPH: Learning to Achieve Feasible Solutions for Integer Linear Programs](../../ICML2026/reinforcement_learning/rl-sph_learning_to_achieve_feasible_solutions_for_integer_linear_programs.md)
 - [\[AAAI 2026\] Deep (Predictive) Discounted Counterfactual Regret Minimization](deep_predictive_discounted_counterfactual_regret_minimization.md)
 
 </div>

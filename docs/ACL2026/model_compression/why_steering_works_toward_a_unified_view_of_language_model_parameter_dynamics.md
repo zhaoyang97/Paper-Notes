@@ -138,7 +138,7 @@ SPLIT 在两种模型、三类干预形式上多数指标优于 SFT/RePS/DiffMea
 - [\[ICML 2026\] The Bridge-Garden Dilemma in LLM Distillation: Why Mixing Hard and Soft Labels Works](../../ICML2026/model_compression/the_bridge-garden_dilemma_in_llm_distillation_why_mixing_hard_and_soft_labels_wo.md)
 - [\[NeurIPS 2025\] Why Knowledge Distillation Works in Generative Models: A Minimal Working Explanation](../../NeurIPS2025/model_compression/why_knowledge_distillation_works_in_generative_models_a_minimal_working_explanat.md)
 - [\[ICML 2026\] An Algebraic View of the Expressivity of Recurrent Language Models](../../ICML2026/model_compression/an_algebraic_view_of_the_expressivity_of_recurrent_language_models.md)
-- [\[ACL 2026\] MTA: Multi-Granular Trajectory Alignment for Large Language Model Distillation](mta_multi-granular_trajectory_alignment_for_large_language_model_distillation.md)
+- [\[CVPR 2026\] A Unified Framework for Knowledge Transfer in Bidirectional Model Scaling](../../CVPR2026/model_compression/a_unified_framework_for_knowledge_transfer_in_bidirectional_model_scaling.md)
 
 </div>
 

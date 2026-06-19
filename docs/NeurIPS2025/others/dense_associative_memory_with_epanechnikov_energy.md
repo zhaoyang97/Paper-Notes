@@ -126,10 +126,10 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Modern Methods in Associative Memory](../../ICML2025/others/modern_methods_in_associative_memory.md)
+- [\[ICLR 2026\] Dynamical properties of dense associative memory](../../ICLR2026/others/dynamical_properties_of_dense_associative_memory.md)
 - [\[NeurIPS 2025\] Fixed-Point RNNs: Interpolating from Diagonal to Dense](fixed-point_rnns_interpolating_from_diagonal_to_dense.md)
 - [\[NeurIPS 2025\] Recurrent Self-Attention Dynamics: An Energy-Agnostic Perspective from Jacobians](recurrent_self-attention_dynamics_an_energy-agnostic_perspective_from_jacobians.md)
 - [\[ACL 2025\] If Attention Serves as a Cognitive Model of Human Memory Retrieval, What is the Plausible Memory Representation?](../../ACL2025/others/if_attention_serves_as_a_cognitive_model_of_human_memory_retrieval_what_is_the_p.md)
-- [\[ACL 2025\] Hierarchical Memory Organization for Wikipedia Generation](../../ACL2025/others/hierarchical_memory_wikipedia_gen.md)
 
 </div>
 

@@ -109,6 +109,7 @@ $$L = L_{recon} + \lambda_a\|a_{real}-a_{pred}\|^2 + \beta L_{KL}$$
 像「用咖啡机冲咖啡」「磨咖啡豆」这类长程任务，π0.5 几乎是 0~8 分，Motus 能到 62~92 分，整体相对提升 11~48%。
 
 ### 消融实验
+
 | 配置 | 成功率(%) | 说明 |
 |------|---------|------|
 | Motus (full) | 77.00 | 完整模型（27.5K 数据，50K 步从零训） |
@@ -155,9 +156,9 @@ $$L = L_{recon} + \lambda_a\|a_{real}-a_{pred}\|^2 + \beta L_{KL}$$
 
 - [\[CVPR 2026\] Chain of World: World Model Thinking in Latent Motion (CoWVLA)](chain_of_world_world_model_thinking_in_latent_motion.md)
 - [\[CVPR 2026\] Learning a Unified Latent Action Space from Videos with Action-centric Cycle Consistency](learning_a_unified_latent_action_space_from_videos_with_action-centric_cycle_con.md)
+- [\[CVPR 2026\] NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction](navforesee_a_unified_vision-language_world_model_for_hierarchical_planning_and_d.md)
 - [\[CVPR 2026\] From Manuals to Actions: A Unified VLA Model for Chain-of-Thought Manual Generation and Robotic Manipulation](from_manuals_to_actions_a_unified_vla_model_for_chain-of-thought_manual_generati.md)
-- [\[ICML 2026\] Dual-Stream Diffusion for World-Model Augmented Vision-Language-Action Model](../../ICML2026/robotics/dual-stream_diffusion_for_world-model_augmented_vision-language-action_model.md)
-- [\[CVPR 2026\] Mantis: A Versatile Vision-Language-Action Model with Disentangled Visual Foresight](mantis_a_versatile_vision-language-action_model_with_disentangled_visual_foresig.md)
+- [\[CVPR 2026\] RehearseVLA: Simulated Post-Training for VLAs with Physically-Consistent World Model](rehearsevla_simulated_post-training_for_vlas_with_physically-consistent_world_mo.md)
 
 </div>
 

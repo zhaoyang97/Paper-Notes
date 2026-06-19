@@ -120,6 +120,7 @@ Stage 1 的目标就是知识损失 $L_1(\theta,K)$（只约束、不拟合数�
 OOD 检测上优势同样明显：Rotated MNIST → Omniglot 的 AUROC，基线全在 4%~16% 的崩溃区间，本文 Full 达 83.5%；FreiHAND → ARCTIC-O 的 AUPR 从 BANANA 的 15.45 升到 66.74。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Ours (Full) | DecoyMNIST ACC 98.37 / KC 0.00 | 信息先验 + 自适应似然 |
@@ -167,10 +168,10 @@ OOD 检测上优势同样明显：Rotated MNIST → Omniglot 的 AUROC，基线�
 ## 相关论文
 
 - [\[CVPR 2026\] Computer Vision with a Superpixelation Camera](computer_vision_with_a_superpixelation_camera.md)
+- [\[CVPR 2026\] VideoWorld 2: Learning Transferable Knowledge from Real-world Videos](videoworld_2_learning_transferable_knowledge_from_real-world_videos.md)
 - [\[CVPR 2026\] Adaptive Bayesian Early-Exit Networks for Efficient Non-Transferable Learning](adaptive_bayesian_early-exit_networks_for_efficient_non-transferable_learning.md)
-- [\[CVPR 2026\] Learning What Helps: Task-Aligned Context Selection for Vision Tasks](learning_what_helps_task-aligned_context_selection_for_vision_tasks.md)
 - [\[CVPR 2026\] Evidential Deep Partial Label Learning to Quantify Disambiguation Uncertainty](evidential_deep_partial_label_learning_to_quantify_disambiguation_uncertainty.md)
-- [\[CVPR 2026\] AdaPrior: Bayesian-Inspired Adaptive Prior Correction for Long-Tailed Continual Learning](adaprior_bayesian-inspired_adaptive_prior_correction_for_long-tailed_continual_l.md)
+- [\[CVPR 2026\] Learning What Helps: Task-Aligned Context Selection for Vision Tasks](learning_what_helps_task-aligned_context_selection_for_vision_tasks.md)
 
 </div>
 

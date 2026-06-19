@@ -89,6 +89,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 策略 | FineWeb-Edu Avg. | DeepMath Avg. | OpenCode Avg. | 说明 |
 |--------|------|------|----------|------|
 | Random | 37.09 | 1.30 | 55.37 | 随机顺序基线 |
@@ -98,6 +99,7 @@ flowchart TD
 | SAW | 38.78 | 2.53 | 60.48 | 再加入连续性，预训练和数学 SFT 最好 |
 
 ### 消融实验
+
 | 配置 | FineWeb-Edu | QuRatedPajama | DeepMath | OpenCodeInstruct | 说明 |
 |------|---------|------|---------|------|------|
 | CL | 37.61 | 36.12 | 1.78 | 58.30 | 朴素排序 |
@@ -144,7 +146,7 @@ flowchart TD
 
 ## 相关论文
 
-- [\[ICLR 2026\] Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training](../../ICLR2026/llm_pretraining/common_corpus_ethical_data_for_llm_pretraining.md)
+- [\[ICLR 2026\] Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training](../../ICLR2026/llm_pretraining/common_corpus_the_largest_collection_of_ethical_data_for_llm_pre-training.md)
 - [\[AAAI 2026\] ELSPR: Evaluator LLM Training Data Self-Purification on Non-Transitive Preferences](../../AAAI2026/llm_pretraining/elspr_evaluator_llm_training_data_self-purification_on_non-transitive_preference.md)
 - [\[ICLR 2026\] Scaling with Collapse: Efficient and Predictable Training of LLM Families](../../ICLR2026/llm_pretraining/scaling_with_collapse_efficient_and_predictable_training_of_llm_families.md)
 - [\[ICML 2026\] Data Difficulty and the Generalization--Extrapolation Tradeoff in LLM Fine-Tuning](../../ICML2026/llm_pretraining/data_difficulty_and_the_generalization--extrapolation_tradeoff_in_llm_fine-tunin.md)

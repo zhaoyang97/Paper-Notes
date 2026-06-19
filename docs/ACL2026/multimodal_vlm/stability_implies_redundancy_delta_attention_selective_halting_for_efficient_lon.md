@@ -16,10 +16,10 @@ tags:
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Stability Implies Redundancy: Delta Attention Selective Halting for Efficient Long-Context Prefilling
 
-**会议**: ACL2026
-**arXiv**: [2604.18103](https://arxiv.org/abs/2604.18103)
-**代码**: [GitHub](https://github.com/verach3n/DASH)
-**领域**: 多模态VLM
+**会议**: ACL2026  
+**arXiv**: [2604.18103](https://arxiv.org/abs/2604.18103)  
+**代码**: [GitHub](https://github.com/verach3n/DASH)  
+**领域**: 多模态VLM  
 **关键词**: 长上下文推理, Prefill加速, Token剪枝, 注意力冗余, 视觉语言模型
 
 ## 一句话总结
@@ -139,11 +139,11 @@ LongBench-E (Qwen2.5-7B-Instruct-1M)：
 
 ## 相关论文
 
-- [\[ICML 2025\] MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention](../../ICML2025/multimodal_vlm/mminference_accelerating_pre-filling_for_long-context_vlms_via_modality-aware_pe.md)
-- [\[ACL 2025\] MadaKV: Adaptive Modality-Perception KV Cache Eviction for Efficient Multimodal Long-Context Inference](../../ACL2025/multimodal_vlm/madakv_adaptive_modality-perception_kv_cache_eviction_for_efficient_multimodal_l.md)
-- [\[ACL 2026\] HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models](hiprune_hierarchical_attention_for_efficient_token_pruning_in_vision-language_mo.md)
-- [\[ACL 2026\] From Inheritance to Saturation: Disentangling the Evolution of Visual Redundancy for Architecture-Aware MLLM Inference Acceleration](from_inheritance_to_saturation_disentangling_the_evolution_of_visual_redundancy_.md)
+- [\[NeurIPS 2025\] Breaking the Compression Ceiling: Data-Free Pipeline for Ultra-Efficient Delta Compression](../../NeurIPS2025/multimodal_vlm/breaking_the_compression_ceiling_data-free_pipeline_for_ultra-efficient_delta_co.md)
 - [\[NeurIPS 2025\] HoPE: Hybrid of Position Embedding for Long Context Vision-Language Models](../../NeurIPS2025/multimodal_vlm/hope_hybrid_of_position_embedding_for_long_context_visionlan.md)
+- [\[NeurIPS 2025\] NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables](../../NeurIPS2025/multimodal_vlm/needleinatable_exploring_long-context_capability_of_large_language_models_toward.md)
+- [\[ACL 2025\] Redundancy Principles for MLLMs Benchmarks](../../ACL2025/multimodal_vlm/redundancy_principles_for_mllms_benchmarks.md)
+- [\[ICML 2026\] Very Efficient Listwise Multimodal Reranking for Long Documents](../../ICML2026/multimodal_vlm/very_efficient_listwise_multimodal_reranking_for_long_documents.md)
 
 </div>
 

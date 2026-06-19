@@ -38,6 +38,7 @@ SPARK 从单张 RGB 图像出发，先用 VLM 解析出粗 URDF 参数 + 逐部�
 **核心 idea**：用 VLM 先验（部件图 + 结构图 + 开态图）去引导扩散 Transformer 做带运动学意识的部件生成，再用可微正运动学在开态图监督下精修关节参数——把"语义结构推理"和"几何/数值生成"分工协作。
 
 ## 方法详解
+
 ### 整体框架
 输入是单张闭态图像 $I_0$，输出是一组部件级网格 $\{M_k\}_{k=1}^{K}$ 组成的整体网格 $M$，外加分层 URDF 参数 $u=\{u_\ell, u_j\}$（$u_\ell$ 是链接节点，$u_j$ 含关节类型 $u_j^{type}$、轴 $u_j^{axis}$、原点 $u_j^{origin}$、限位 $u_j^{limit}$）。整条管线分三段：先让 VLM 做结构推理产出粗 URDF + 部件参考图 + 开态图；再用扩散 Transformer 在局部/全局/层级三重注意力下同时合成部件与整体网格、贴纹理；最后用可微正运动学在开态图监督下精修关节参数。
 
@@ -157,10 +158,10 @@ $$\min_{\xi}\ L_{total}=L_{pixel}(I^{sil},I_{open})+L_{reg}(\xi)$$
 ## 相关论文
 
 - [\[CVPR 2026\] ART: Articulated Reconstruction Transformer](art_articulated_reconstruction_transformer.md)
-- [\[CVPR 2026\] Part$^{2}$GS: Part-aware Modeling of Articulated Objects using 3D Gaussian Splatting](part2gs_part-aware_modeling_of_articulated_objects_using_3d_gaussian_splatting.md)
 - [\[CVPR 2026\] UniPR: Unified Object-level Real-to-Sim Perception and Reconstruction from a Single Stereo Pair](unipr_unified_object-level_real-to-sim_perception_and_reconstruction_from_a_sing.md)
+- [\[CVPR 2026\] Part$^{2}$GS: Part-aware Modeling of Articulated Objects using 3D Gaussian Splatting](part2gs_part-aware_modeling_of_articulated_objects_using_3d_gaussian_splatting.md)
 - [\[ICLR 2026\] PD²GS: Part-Level Decoupling and Continuous Deformation of Articulated Objects via Gaussian Splatting](../../ICLR2026/3d_vision/pd2gs_part-level_decoupling_and_continuous_deformation_of_articulated_objects_vi.md)
-- [\[CVPR 2026\] SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a Single 3D Observation](scapo_self-supervised_category-level_articulated_pose_estimation_from_a_single_3.md)
+- [\[CVPR 2026\] UniPart: Part-Level 3D Generation with Unified 3D Geom-Seg Latents](unipart_part-level_3d_generation_with_unified_3d_geom-seg_latents.md)
 
 </div>
 

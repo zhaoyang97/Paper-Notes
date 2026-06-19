@@ -178,7 +178,7 @@ $$\mathcal{L}_{total} = \lambda_1 \mathcal{L}_{rec} + \lambda_2 \mathcal{L}_{per
 - [\[CVPR 2026\] TUDSR: Twice Upsampling-Diffusion for Higher Super-Resolution](../../CVPR2026/image_restoration/tudsr_twice_upsampling-diffusion_for_higher_super-resolution.md)
 - [\[CVPR 2026\] Disentangled Textual Priors for Diffusion-based Image Super-Resolution](../../CVPR2026/image_restoration/disentangled_textual_priors_for_diffusion-based_image_super-resolution.md)
 - [\[CVPR 2026\] Rethinking Diffusion Model-Based Video Super-Resolution: Leveraging Dense Guidance from Aligned Features](../../CVPR2026/image_restoration/rethinking_diffusion_model-based_video_super-resolution_leveraging_dense_guidanc.md)
-- [\[CVPR 2026\] CanonCGT: Reference-Based Color Grading via Canonical Pivot Representation](../../CVPR2026/image_restoration/canoncgt_reference-based_color_grading_via_canonical_pivot_representation.md)
+- [\[ICLR 2026\] Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling](adaptive_moments_are_surprisingly_effective_for_plug-and-play_diffusion_sampling.md)
 
 </div>
 

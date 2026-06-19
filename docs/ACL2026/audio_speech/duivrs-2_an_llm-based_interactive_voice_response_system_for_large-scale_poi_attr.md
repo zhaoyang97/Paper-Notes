@@ -84,6 +84,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 场景 | 指标 | DuIVRS-2 | 对比对象 | 提升 / 说明 |
 |--------|------|------|----------|------|
 | 离线 Deffect | CR | 81.62% | DuIVRS-1: 72.20% | 高频自然分布场景显著提升 |
@@ -93,6 +94,7 @@ flowchart TD
 | 线上 A/B | TSR | 83.9% | DuIVRS-1: 79.9%，Human: 89.6% | 比旧系统高 4 个百分点，达到人类 93.64% |
 
 ### 消融实验
+
 | 配置 | 平均 CR | 说明 |
 |------|---------|------|
 | DuIVRS-2 | 77.18% | 完整 FSM 数据增强、CoT、协同迭代学习 |
@@ -138,8 +140,8 @@ flowchart TD
 
 ## 相关论文
 
-- [\[CVPR 2026\] Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning](../../CVPR2026/audio_speech/pushing_the_frontier_of_audiovisual_perception_with_large-scale_multimodal_corre.md)
 - [\[ACL 2026\] VoxMind: An End-to-End Agentic Spoken Dialogue System](voxmind_an_end-to-end_agentic_spoken_dialogue_system.md)
+- [\[CVPR 2026\] Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning](../../CVPR2026/audio_speech/pushing_the_frontier_of_audiovisual_perception_with_large-scale_multimodal_corre.md)
 - [\[CVPR 2025\] LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](../../CVPR2025/audio_speech/livecc_learning_video_llm_with_streaming_speech_transcription_at_scale.md)
 - [\[NeurIPS 2025\] Sensorium Arc: AI Agent System for Oceanic Data Exploration and Interactive Eco-Art](../../NeurIPS2025/audio_speech/sensorium_arc_ai_agent_system_for_oceanic_data_exploration_and_interactive_eco-a.md)
 - [\[ACL 2025\] Mind the Gap! Static and Interactive Evaluations of Large Audio Models](../../ACL2025/audio_speech/mind_the_gap_static_and_interactive_evaluations_of_large_audio_models.md)

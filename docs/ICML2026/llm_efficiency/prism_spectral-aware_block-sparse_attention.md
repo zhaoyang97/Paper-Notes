@@ -97,6 +97,7 @@ $$\tau_z \approx \sqrt{d_z/d} \cdot \frac{\mathrm{RMS}(\bar Q_z)}{\mathrm{RMS}(\
 | PG19 128K | 相对 FA-2 加速 | 1.0× | 3.0× | — | — | — | **5.1×** |
 
 ### 消融实验
+
 | 配置 | PPL @ 32K | 现象/说明 |
 |---|---|---|
 | Full dim coarse | ≈ 35.0 | 等价于"只用全维度 mean pooling"，作为对照 |

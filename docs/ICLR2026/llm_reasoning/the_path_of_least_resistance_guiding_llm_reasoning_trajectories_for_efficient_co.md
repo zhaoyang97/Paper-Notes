@@ -2,14 +2,13 @@
 title: >-
   [论文解读] The Path of Least Resistance: Guiding LLM Reasoning Trajectories for Efficient Consistency
 description: >-
-  [ICLR 2026][LLM推理][self-consistency] 提出 PoLR（Path of Least Resistance），首个利用推理前缀一致性的推理时方法，通过聚类短前缀并仅扩展主导聚类来实现 Self-Consistency 的高效替代，可减少高达 60% token 使用和 50% 延迟。
+  [ICLR 2026][Reasoning][self-consistency] 提出 PoLR（Path of Least Resistance），首个利用推理前缀一致性的推理时方法，通过聚类短前缀并仅扩展主导聚类来实现 Self-Consistency 的高效替代，可减少高达 60% token 使用和 50% 延迟。
 tags:
   - "ICLR 2026"
-  - "LLM推理"
+  - "Reasoning"
   - "self-consistency"
   - "inference efficiency"
   - "prefix clustering"
-  - "reasoning"
   - "token reduction"
 ---
 
@@ -151,9 +150,9 @@ PoLR 的核心启发是：**推理效率优化的关键时机不在结束（何�
 
 - [\[ICLR 2026\] The Path of Least Resistance: Guiding LLM Reasoning Trajectories with Prefix Consensus](the_path_of_least_resistance_guiding_llm_reasoning_trajectories_with_prefix_cons.md)
 - [\[ICLR 2026\] Annotation-Efficient Universal Honesty Alignment](annotation-efficient_universal_honesty_alignment.md)
-- [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Model](predicting_llm_reasoning_performance_with_small_proxy_model.md)
 - [\[ICLR 2026\] A State-Transition Framework for Efficient LLM Reasoning](a_state-transition_framework_for_efficient_llm_reasoning.md)
 - [\[ICLR 2026\] Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)
+- [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Model](predicting_llm_reasoning_performance_with_small_proxy_model.md)
 
 </div>
 

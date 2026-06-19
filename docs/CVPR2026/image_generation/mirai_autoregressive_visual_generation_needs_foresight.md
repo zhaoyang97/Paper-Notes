@@ -81,6 +81,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验（System-Level Comparison, ImageNet 256×256, 300 epochs）
+
 | 模型 | 参数量 | FID↓ | sFID↓ | IS↑ |
 |------|--------|------|-------|-----|
 | LlamaGen-B | 111M | 5.34 | 6.93 | 215.7 |
@@ -94,6 +95,7 @@ flowchart TD
 Mirai-I 在 XL 上达到 FID 2.59，优于所有 AR 类方法（VQGAN 15.78、ViT-VQGAN 4.17、RQTransformer 7.55）。
 
 ### 消融实验（注入层级 × 布局，LlamaGen-B, 80 epochs, Tab.1）
+
 | 注入层 | 布局 | $K$ | FID↓ | IS↑ |
 |--------|------|-----|------|-----|
 | baseline | – | – | 6.36 | 185.54 |
@@ -142,8 +144,8 @@ Mirai-I 在 XL 上达到 FID 2.59，优于所有 AR 类方法（VQGAN 15.78、Vi
 - [\[CVPR 2026\] DPAR: Dynamic Patchification for Efficient Autoregressive Visual Generation](dpar_dynamic_patchification_for_efficient_autoregressive_visual_generation.md)
 - [\[CVPR 2026\] Markovian Scale Prediction: A New Era of Visual Autoregressive Generation](markovian_scale_prediction_a_new_era_of_visual_autoregressive_generation.md)
 - [\[CVPR 2026\] FVAR: Next-Focus Prediction for Visual Autoregressive Modeling](fvar_next-focus_prediction_for_visual_autoregressive_modeling.md)
+- [\[CVPR 2026\] VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation](var_rl_done_right_tackling_asynchronous_policy_conflicts_in_visual_autoregressiv.md)
 - [\[CVPR 2026\] SparVAR: Exploring Sparsity in Visual Autoregressive Modeling for Training-Free Acceleration](sparvar_exploring_sparsity_in_visual_autoregressive_modeling_for_training-free_a.md)
-- [\[ICCV 2025\] Randomized Autoregressive Visual Generation](../../ICCV2025/image_generation/randomized_autoregressive_visual_generation.md)
 
 </div>
 

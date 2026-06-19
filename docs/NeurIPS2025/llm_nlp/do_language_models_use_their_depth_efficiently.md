@@ -129,8 +129,8 @@ KL 散度在网络中间开始急剧下降，top-5 重叠度急剧上升，与�
 ## 相关论文
 
 - [\[ACL 2025\] From Data to Knowledge: Evaluating How Efficiently Language Models Learn Facts](../../ACL2025/llm_nlp/from_data_to_knowledge_evaluating_how_efficiently_language_models_learn_facts.md)
-- [\[NeurIPS 2025\] In-Context Learning of Linear Dynamical Systems with Transformers: Approximation Bounds and Depth-Separation](in-context_learning_of_linear_dynamical_systems_with_transformers_approximation_.md)
 - [\[ACL 2025\] Do Language Models Understand Honorific Systems in Javanese?](../../ACL2025/llm_nlp/do_language_models_understand_honorific_systems_in_javanese.md)
+- [\[NeurIPS 2025\] In-Context Learning of Linear Dynamical Systems with Transformers: Approximation Bounds and Depth-Separation](in-context_learning_of_linear_dynamical_systems_with_transformers_approximation_.md)
 - [\[ACL 2025\] CogSteer: Cognition-Inspired Selective Layer Intervention for Efficiently Steering Large Language Models](../../ACL2025/llm_nlp/cogsteer_cognition-inspired_selective_layer_intervention_for_efficiently_steerin.md)
 - [\[ACL 2025\] Do Language Models Understand the Cognitive Tasks Given to Them? Investigations with the N-Back Paradigm](../../ACL2025/llm_nlp/do_language_models_understand_the_cognitive_tasks_given_to_them_investigations_w.md)
 

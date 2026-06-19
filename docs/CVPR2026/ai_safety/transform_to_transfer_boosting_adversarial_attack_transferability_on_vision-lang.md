@@ -113,6 +113,7 @@ $$\mathrm{BIG}_i(f_I,f_T,x,B,c)=(x_i-B_i)\cdot\frac{1}{Q_O}\sum_{w=1}^{Q_O}\frac
 TTA 在所有指标上把分数压得最低，说明它造的对抗样本不止换个目标模型能迁，**换个任务也能迁**。
 
 ### 消融与分析（ALBEF 源，攻另三模型）
+
 | 配置 | 关键变化 | 结论 |
 |------|---------|------|
 | Setting 1 | 同时去掉可学习变换 + Boosted IG | 退化最严重，回到普通梯度 |
@@ -156,11 +157,11 @@ TTA 在所有指标上把分数压得最低，说明它造的对抗样本不止�
 
 ## 相关论文
 
+- [\[CVPR 2026\] A Provable Energy-Guided Test-Time Defense Boosting Adversarial Robustness of Large Vision-Language Models](a_provable_energy-guided_test-time_defense_boosting_adversarial_robustness_of_la.md)
 - [\[CVPR 2026\] PureProof: Diffusion-Resistant Black-box Targeted Attack on Large Vision-Language Models](pureproof_diffusion-resistant_black-box_targeted_attack_on_large_vision-language.md)
 - [\[CVPR 2026\] FlowHijack: A Dynamics-Aware Backdoor Attack on Flow-Matching Vision-Language-Action Models](flowhijack_a_dynamics-aware_backdoor_attack_on_flow-matching_vision-language-act.md)
 - [\[CVPR 2026\] TTP: Test-Time Padding for Adversarial Detection and Robust Adaptation on Vision-Language Models](ttp_test-time_padding_for_adversarial_detection_and_robust_adaptation_on_vision-.md)
-- [\[CVPR 2026\] Hierarchically Robust Zero-shot Vision-language Models](hierarchically_robust_zero-shot_vision-language_models.md)
-- [\[CVPR 2026\] SIF: Semantically In-Distribution Fingerprints for Large Vision-Language Models](sif_semantically_in-distribution_fingerprints_for_large_vision-language_models.md)
+- [\[CVPR 2026\] Multi-Paradigm Collaborative Adversarial Attack Against Multi-Modal Large Language Models](multi-paradigm_collaborative_adversarial_attack_against_multi-modal_large_langua.md)
 
 </div>
 

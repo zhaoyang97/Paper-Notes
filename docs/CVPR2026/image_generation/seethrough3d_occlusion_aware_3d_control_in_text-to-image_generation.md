@@ -21,7 +21,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.23359](https://arxiv.org/abs/2602.23359)  
 **代码**: [项目主页](https://seethrough3d.github.io)  
-**领域**:图像生成
+**领域**:图像生成  
 **关键词**: 3D布局控制, 遮挡感知, 文本到图像生成, DiT, FLUX, 注意力掩码, LoRA
 
 ## 一句话总结
@@ -148,11 +148,11 @@ SeeThrough3D 在全部五项指标上大幅领先现有方法。角度误差从�
 
 ## 相关论文
 
+- [\[CVPR 2026\] Layer-wise Instance Binding for Regional and Occlusion Control in Text-to-Image Diffusion Transformers](layer-wise_instance_binding_for_regional_and_occlusion_control_in_text-to-image_.md)
 - [\[CVPR 2026\] 3D Space as a Scratchpad for Editable Text-to-Image Generation](3d_space_as_a_scratchpad_for_editable_text-to-image_generation.md)
 - [\[ICCV 2025\] LaRender: Training-Free Occlusion Control in Image Generation via Latent Rendering](../../ICCV2025/image_generation/larender_training-free_occlusion_control_in_image_generation_via_latent_renderin.md)
+- [\[CVPR 2026\] Camera Control for Text-to-Image Generation via Learning Viewpoint Tokens](camera_control_for_text-to-image_generation_via_learning_viewpoint_tokens.md)
 - [\[CVPR 2026\] BiMotion: B-spline Motion for Text-guided Dynamic 3D Character Generation](bimotion_b-spline_motion_for_text-guided_dynamic_3d_character_generation.md)
-- [\[CVPR 2026\] Taming Video Models for 3D and 4D Generation via Zero-Shot Camera Control](taming_video_models_for_3d_and_4d_generation_via_zero-shot_camera_control.md)
-- [\[CVPR 2025\] Compass Control: Multi Object Orientation Control for Text-to-Image Generation](../../CVPR2025/image_generation/compass_control_multi_object_orientation_control_for_text-to-image_generation.md)
 
 </div>
 

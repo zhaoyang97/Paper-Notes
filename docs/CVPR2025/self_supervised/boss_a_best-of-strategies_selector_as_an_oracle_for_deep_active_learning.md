@@ -140,9 +140,9 @@ BoSS将最优批次选择问题$\mathcal{B}^* = \arg\min_{\mathcal{B} \subset \m
 
 - [\[CVPR 2025\] Do Your Best and Get Enough Rest for Continual Learning](do_your_best_and_get_enough_rest_for_continual_learning.md)
 - [\[CVPR 2025\] ScaleLSD: Scalable Deep Line Segment Detection Streamlined](scalelsd_scalable_deep_line_segment_detection_streamlined.md)
-- [\[ICCV 2025\] To Label or Not to Label: PALM – A Predictive Model for Evaluating Sample Efficiency in Active Learning Models](../../ICCV2025/self_supervised/to_label_or_not_to_label_palm_-_a_predictive_model_for_evaluating_sample_efficie.md)
 - [\[ICML 2025\] Deep Learning is Not So Mysterious or Different](../../ICML2025/self_supervised/deep_learning_is_not_so_mysterious_or_different.md)
-- [\[ICLR 2026\] Chart Deep Research in LVLMs via Parallel Relative Policy Optimization](../../ICLR2026/self_supervised/chart_deep_research_in_lvlms_via_parallel_relative_policy_optimization.md)
+- [\[ICCV 2025\] To Label or Not to Label: PALM – A Predictive Model for Evaluating Sample Efficiency in Active Learning Models](../../ICCV2025/self_supervised/to_label_or_not_to_label_palm_-_a_predictive_model_for_evaluating_sample_efficie.md)
+- [\[ICML 2026\] Active Learning with Foundation Model Priors: Efficient Learning under Class Imbalance](../../ICML2026/self_supervised/active_learning_with_foundation_model_priors_efficient_learning_under_class_imba.md)
 
 </div>
 

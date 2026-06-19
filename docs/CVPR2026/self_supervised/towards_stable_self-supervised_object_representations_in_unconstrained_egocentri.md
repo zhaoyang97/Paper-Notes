@@ -110,6 +110,7 @@ $$L_{\text{total}} = \lambda_P L_{\text{proto}} + \lambda_D L_{\text{depth}} + \
 用整个 Walking Tours 数据集训练的 EgoViT-WT-all 进一步把 CorLoc 拉到 50.2%、mIoU 拉到 30.6%，说明方法随数据量优雅扩展。长时跟踪 LaSOT 上（OSTrack 框架、只换 backbone），EgoViT 的 AUC 64.7 也明显高于 DINO 60.5、DoRA 61.7。
 
 ### 消融实验
+
 | 配置 (D=深度, P=原型, T=时序) | k-NN | CorLoc | 说明 |
 |------|------|------|------|
 | 全去掉 (≈DINO) | 21.8 | 27.5 | 基线 |
@@ -161,11 +162,11 @@ $$L_{\text{total}} = \lambda_P L_{\text{proto}} + \lambda_D L_{\text{depth}} + \
 
 ## 相关论文
 
-- [\[CVPR 2026\] Finding Distributed Object-Centric Properties in Self-Supervised Transformers](finding_distributed_object-centric_properties_in_self-supervised_transformers.md)
+- [\[CVPR 2026\] VideoSSR: Video Self-Supervised Reinforcement Learning](videossr_video_self-supervised_reinforcement_learning.md)
 - [\[CVPR 2026\] Progressive Mask Distillation for Self-supervised Video Representation](progressive_mask_distillation_for_self-supervised_video_representation.md)
-- [\[CVPR 2026\] TimeBridge: Self-Supervised Video Representation Learning via Start-End Joint Embedding and In-Between Frame Prediction](timebridge_self-supervised_video_representation_learning_via_start-end_joint_emb.md)
 - [\[CVPR 2025\] AutoSSVH: Automated Frame Sampling for Self-Supervised Video Hashing](../../CVPR2025/self_supervised/autossvh_exploring_automated_frame_sampling_for_efficient_self-supervised_video_.md)
 - [\[CVPR 2026\] TeFlow: Enabling Multi-frame Supervision for Self-Supervised Feed-forward Scene Flow Estimation](teflow_enabling_multi-frame_supervision_for_self-supervised_feed-forward_scene_f.md)
+- [\[ECCV 2024\] Self-supervised Video Copy Localization with Regional Token Representation](../../ECCV2024/self_supervised/self-supervised_video_copy_localization_with_regional_token_representation.md)
 
 </div>
 

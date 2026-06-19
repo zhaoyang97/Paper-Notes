@@ -86,6 +86,7 @@ POLARIS 不训练目标 LLM，而是构建一个测试生成系统。实验用 1
 ## 实验关键数据
 
 ### 主实验
+
 | 评测维度 | 关键设置 | POLARIS结果 | 对照 / 解释 |
 |----------|----------|-------------|-------------|
 | Policy Clause Coverage | 16个企业政策 + 4份监管文件 | 100% | 表明每条政策规则至少能实例化出测试查询 |
@@ -96,6 +97,7 @@ POLARIS 不训练目标 LLM，而是构建一个测试生成系统。实验用 1
 | Vicuna攻击成功数 | DeepSeek-R1评判 | 8,590 | AirBench为1,639，约5.2倍 |
 
 ### 消融实验
+
 | 模块 / 指标 | 完整POLARIS | 去掉模块后的结果 | 说明 |
 |-------------|-------------|------------------|------|
 | 逻辑形式化：Policy Compliance | 92.90% | w/o Logic为88.90% | 形式化约束能减少生成内容偏离政策目标 |
@@ -140,10 +142,10 @@ POLARIS 不训练目标 LLM，而是构建一个测试生成系统。实验用 1
 ## 相关论文
 
 - [\[ACL 2026\] PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models](policyllm_towards_excellent_comprehension_of_public_policy_for_large_language_mo.md)
+- [\[ICML 2026\] Reliable to Expressive: A Curriculum for Rubric-Following Safety Judges](../../ICML2026/llm_evaluation/reliable_to_expressive_a_curriculum_for_rubric-following_safety_judges.md)
 - [\[ACL 2026\] Stability vs. Manipulability: Evaluating Robustness Under Post-Decision Interaction in LLM Judges](stability_vs_manipulability_evaluating_robustness_under_post-decision_interactio.md)
 - [\[ACL 2026\] NovBench: Evaluating Large Language Models on Academic Paper Novelty Assessment](novbench_evaluating_large_language_models_on_academic_paper_novelty_assessment.md)
 - [\[ACL 2026\] Question Difficulty Estimation for Large Language Models via Answer Plausibility Scoring](question_difficulty_estimation_for_large_language_models_via_answer_plausibility.md)
-- [\[ACL 2026\] Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities](same_voice_different_lab_on_the_homogenization_of_frontier_llm_personalities.md)
 
 </div>
 

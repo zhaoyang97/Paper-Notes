@@ -95,6 +95,7 @@ flowchart TD
 对比走 AGENT 范式的现有系统（VideoAgent 42.0、LVAgent 49.7、VideoMind 50.0、VideoExplorer 50.1），它们在开放式问题上明显更差（多在 28–35），印证了"现有 agent 被过度工程化到 MCQ"。RL 阶段相比纯 SFT 提升 4.1%、相比基座提升 5.7%。
 
 ### 长视频分桶与跨基准
+
 | 评测 | 设定 | 长视频段表现 | 提升 |
 |------|------|-------------|------|
 | SAGE-Bench 600–1200s 桶 | SAGE (Qwen3-VL-8B) | 63.2 | **+8.2** |
@@ -105,6 +106,7 @@ flowchart TD
 按时长分桶看：SAGE 在短视频桶（0–300s）几乎与 DIRECT 基线持平甚至略降，但在长视频桶（>600s）显著领先——印证 any-horizon 设计"长视频靠多轮检索赚回来"的核心主张。
 
 ### 消融实验
+
 | 配置 | Video-MMMU | Video-MME | 说明 |
 |------|-----------|-----------|------|
 | SAGE-Flash (Qwen3-VL-8B [+SFT][+RL]) | 68.1 | 63.5 | 完整 |
@@ -146,10 +148,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] WebGym: Scaling Training Environments for Long-Horizon Visual Web Agents with Realistic Tasks](webgym_scaling_training_environments_for_long-horizon_visual_web_agents_with_rea.md)
-- [\[CVPR 2026\] WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning](worldmm_dynamic_multimodal_memory_agent_for_long_video_reasoning.md)
 - [\[ACL 2026\] SOLAR-RL: Semi-Online Long-horizon Assignment Reinforcement Learning](../../ACL2026/llm_agent/solar-rl_semi-online_long-horizon_assignment_reinforcement_learning.md)
-- [\[CVPR 2026\] SenseSearch: Empowering Vision-Language Models with High-Resolution Agentic Search-Reasoning via Reinforcement Learning](sensesearch_empowering_vision-language_models_with_high-resolution_agentic_searc.md)
+- [\[CVPR 2026\] Symphony: A Cognitively-Inspired Multi-Agent System for Long-Video Understanding](symphony_a_cognitively-inspired_multi-agent_system_for_long-video_understanding.md)
 - [\[CVPR 2026\] CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning](cgl_advancing_continual_gui_learning_via_reinforcement_fine-tuning.md)
+- [\[CVPR 2026\] HAVEN: Hierarchical Long Video Understanding with Audiovisual Entity Cohesion and Agentic Search](haven_hierarchical_long_video_understanding_with_audiovisual_entity_cohesion.md)
 
 </div>
 

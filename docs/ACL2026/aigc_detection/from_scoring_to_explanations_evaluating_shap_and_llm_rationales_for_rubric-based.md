@@ -84,6 +84,7 @@ PLM 微调使用均方误差优化 1-7 QoF 回归目标。输入层面，每个�
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 设置 | 指标 | 本文关键结果 | 对照方法 | 结论 |
 |--------|------|------|----------|------|
 | NCTE QoF test | MAE / MSE | DeBERTaV3 large 微调后 0.96 / 1.31 | constant baseline 0.96 / 1.35 | 最强 PLM 略优于常数基线，平均约 1 个 rubric point 误差 |
@@ -93,6 +94,7 @@ PLM 微调使用均方误差优化 1-7 QoF 回归目标。输入层面，每个�
 | 解释对齐 | Jaccard / Spearman | 平均 Jaccard 0.085，Spearman 0.062 | SHAP vs 9 个 LLM ranking | SHAP 与 LLM rationale 基本不选同一批句子 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | BERT large + SHAP ranked deletion | $\overline{\Delta}=0.0329$ | PLM 中删除 SHAP 重要句子影响最大 |
@@ -140,10 +142,10 @@ PLM 微调使用均方误差优化 1-7 QoF 回归目标。输入层面，每个�
 
 ## 相关论文
 
-- [\[ACL 2025\] A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for Human Explanations to Collect Label Distributions on NLI](../../ACL2025/aigc_detection/a_rose_by_any_other_name_llm-generated_explanations_are_good_proxies_for_human_e.md)
+- [\[CVPR 2026\] Learning Where to Look and How to Judge: Resolution-agnostic Image Quality Assessment with Quality-aware Saliency](../../CVPR2026/aigc_detection/learning_where_to_look_and_how_to_judge_resolution-agnostic_image_quality_assess.md)
 - [\[ACL 2026\] Who Wrote This Line? Evaluating the Detection of LLM-Generated Classical Chinese Poetry](who_wrote_this_line_evaluating_the_detection_of_llm-generated_classical_chinese_.md)
+- [\[ACL 2025\] A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for Human Explanations to Collect Label Distributions on NLI](../../ACL2025/aigc_detection/a_rose_by_any_other_name_llm-generated_explanations_are_good_proxies_for_human_e.md)
 - [\[AAAI 2026\] BAID: A Benchmark for Bias Assessment of AI Detectors](../../AAAI2026/aigc_detection/baid_a_benchmark_for_bias_assessment_of_ai_detectors.md)
-- [\[CVPR 2026\] Quality-Aware Calibration for AI-Generated Image Detection in the Wild](../../CVPR2026/aigc_detection/quality-aware_calibration_for_ai-generated_image_detection_in_the_wild.md)
 - [\[ACL 2026\] AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images](aegis_a_holistic_benchmark_for_evaluating_forensic_analysis_of_ai-generated_acad.md)
 
 </div>

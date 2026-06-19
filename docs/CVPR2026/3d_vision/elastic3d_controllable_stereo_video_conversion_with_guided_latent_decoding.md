@@ -150,9 +150,9 @@ $$h'_i(p) = h_i(p) + A_{\text{epipolar}}\big(h_i(p),\, g_i\big)$$
 
 - [\[CVPR 2025\] Mono2Stereo: A Benchmark and Empirical Study for Stereo Conversion](../../CVPR2025/3d_vision/mono2stereo_a_benchmark_and_empirical_study_for_stereo_conversion.md)
 - [\[CVPR 2026\] Geometry-Guided 3D Visual Token Pruning for Video-Language Models](geometry-guided_3d_visual_token_pruning_for_video-language_models.md)
+- [\[CVPR 2026\] XPaintNet: An eXtreme Lightweight Framework for Stereoscopic Conversion without Inpainting Network](xpaintnet_an_extreme_lightweight_framework_for_stereoscopic_conversion_without_i.md)
+- [\[CVPR 2026\] WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories](worldstereo_bridging_camera-guided_video_generation_and_scene_reconstruction_via.md)
 - [\[CVPR 2026\] Lite Any Stereo: Efficient Zero-Shot Stereo Matching](lite_any_stereo_efficient_zero-shot_stereo_matching.md)
-- [\[CVPR 2026\] PIP-Stereo: Progressive Iterations Pruner for Iterative Optimization based Stereo Matching](pip-stereo_progressive_iterations_pruner_for_iterative_optimization_based_stereo.md)
-- [\[CVPR 2026\] More Natural, More Real: Object-aware Gaussian Splatting for 3D Visual Decoding from Human Brain](more_natural_more_real_object-aware_gaussian_splatting_for_3d_visual_decoding_fr.md)
 
 </div>
 

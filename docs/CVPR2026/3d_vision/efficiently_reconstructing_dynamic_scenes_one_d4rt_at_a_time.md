@@ -113,6 +113,7 @@ decoder 是个小的 cross-attention Transformer，每个查询 token 先由 $(u
 效率（Tab.3，单 A100 上给定 FPS 下能产出的全视频 3D 轨迹数，越多越好）：在 1 FPS 目标下 D4RT 可产 40,180 条，而 SpatialTrackerV2 仅 2,290、DELTA 5,770，整体比对手快 18–300×；位姿估计可达 200+ FPS，比 VGGT 快约 9×、比 MegaSaM 快约 100×。
 
 ### 消融实验
+
 | 配置 | Sintel 深度 AbsRel(S) | Sintel 位姿 ATE | 说明 |
 |------|------|------|------|
 | D4RT (ViT-L 默认) | 0.302 | 0.091 | 完整模型 |
@@ -161,7 +162,7 @@ decoder 是个小的 cross-attention Transformer，每个查询 token 先由 $(u
 - [\[CVPR 2026\] Inferring Compositional 4D Scenes without Ever Seeing One](inferring_compositional_4d_scenes_without_ever_seeing_one.md)
 - [\[CVPR 2026\] Space-Time Forecasting of Dynamic Scenes with Motion-aware Gaussian Grouping](space-time_forecasting_of_dynamic_scenes_with_motion-aware_gaussian_grouping.md)
 - [\[CVPR 2026\] FunREC: Reconstructing Functional 3D Scenes from Egocentric Interaction Videos](funrec_reconstructing_functional_3d_scenes_from_egocentric_interaction_videos.md)
-- [\[CVPR 2026\] Dynamic-Static Decomposition for Novel View Synthesis of Dynamic Scenes with Spiking Neurons](dynamic-static_decomposition_for_novel_view_synthesis_of_dynamic_scenes_with_spi.md)
+- [\[CVPR 2026\] MoVieS: Motion-Aware 4D Dynamic View Synthesis in One Second](movies_motion-aware_4d_dynamic_view_synthesis_in_one_second.md)
 
 </div>
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TerraScope: Pixel-Grounded Visual Reasoning for Earth Observation
 description: >-
-  [CVPR 2026][多模态VLM][遥感VLM] TerraScope 让遥感 VLM 在推理的每一步都生成分割掩码、并把被掩码区域的视觉特征回注到推理链里（"用像素思考"），配套 100 万条带像素掩码的 CoT 数据集 Terra-CoT 和首个评估"答案+掩码质量"双指标的 TerraScope-Bench，在地表覆盖率估计、面积排序、变化检测等细粒度地理空间任务上大幅超过现有 VLM。
+  [CVPR 2026][VLM Reasoning][遥感VLM] TerraScope 让遥感 VLM 在推理的每一步都生成分割掩码、并把被掩码区域的视觉特征回注到推理链里（"用像素思考"），配套 100 万条带像素掩码的 CoT 数据集 Terra-CoT 和首个评估"答案+掩码质量"双指标的 TerraScope-Bench，在地表覆盖率估计、面积排序、变化检测等细粒度地理空间任务上大幅超过现有 VLM。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "遥感VLM"
   - "像素级推理"
   - "交错式CoT"
@@ -163,11 +163,11 @@ $$L = L_{LM} + \lambda L_{seg},\quad \lambda = 0.5$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs](sparrow_learning_spatial_precision_and_temporal_referential_consistency_in_pixel.md)
-- [\[CVPR 2026\] CodePercept: Code-Grounded Visual STEM Perception for MLLMs](codepercept_code-grounded_visual_stem_perception_for_mllms.md)
-- [\[CVPR 2026\] Granulon: Awakening Pixel-Level Visual Encoders with Adaptive Multi-Granularity Semantics for MLLM](granulon_awakening_pixel-level_visual_encoders_with_adaptive_multi-granularity_s.md)
-- [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
+- [\[CVPR 2026\] AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](av-reasoner_improving_and_benchmarking_clue-grounded_audio-visual_counting_for_m.md)
 - [\[CVPR 2026\] Thinking Diffusion: Penalize and Guide Visual-Grounded Reasoning in Diffusion Multimodal Language Models](thinking_diffusion_penalize_and_guide_visual-grounded_reasoning_in_diffusion_mul.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
+- [\[CVPR 2026\] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](think_with_3d_geometric_imagination_grounded_spatial_reasoning_from_limited_view.md)
+- [\[CVPR 2026\] G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning](g2vlm_geometry_grounded_vision_language_model_with_unified_3d_reconstruction_and.md)
 
 </div>
 

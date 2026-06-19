@@ -98,6 +98,7 @@ KITTI Val/Test（IoU3D ≥ 0.7，Car，单位 AP），MonoCoP 在不使用任何
 MAE 分距离段分析（Fig. 4）显示，相比并行预测的 MonoDETR/MonoDGP，MonoCoP 在所有距离段误差都更低，且**越远的目标（深度歧义越严重）提升越明显**，印证了建模属性相关性主要补的是远处深度。
 
 ### 消融实验
+
 | 配置 | AP3D Mod (KITTI Val, IoU 0.7) | 说明 |
 |------|---------|------|
 | Baseline（并行） | 21.12 | 起点 |
@@ -151,10 +152,10 @@ CoP 内部三段拆解与预测顺序：
 ## 相关论文
 
 - [\[CVPR 2026\] Towards Intrinsic-Aware Monocular 3D Object Detection](towards_intrinsic-aware_monocular_3d_object_detection.md)
+- [\[CVPR 2026\] RaGS: Unleashing 3D Gaussian Splatting from 4D Radar and Monocular Cue for 3D Object Detection](rags_unleashing_3d_gaussian_splatting_from_4d_radar_and_monocular_cue_for_3d_obj.md)
 - [\[CVPR 2026\] MonoSAOD: Monocular 3D Object Detection with Sparsely Annotated Label](monosaod_monocular_3d_object_detection_with_sparsely_annotated_label.md)
 - [\[CVPR 2026\] GeoSAM2: Unleashing the Power of SAM2 for 3D Part Segmentation](geosam2_unleashing_the_power_of_sam2_for_3d_part_segmentation.md)
-- [\[CVPR 2026\] SPAN: Spatial-Projection Alignment for Monocular 3D Object Detection](span_spatial-projection_alignment_for_monocular_3d_object_detection.md)
-- [\[CVPR 2026\] MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation](msgnav_unleashing_the_power_of_multi-modal_3d_scene_graph_for_zero-shot_embodied.md)
+- [\[CVPR 2026\] LocateAnything3D: Vision-Language 3D Detection with Chain-of-Sight](locateanything3d_vision-language_3d_detection_with_chain-of-sight.md)
 
 </div>
 

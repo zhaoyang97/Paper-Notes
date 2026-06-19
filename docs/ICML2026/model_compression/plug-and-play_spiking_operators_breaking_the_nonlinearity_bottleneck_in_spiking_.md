@@ -101,6 +101,7 @@ Softmax 和 SiLU 都绕不开 $\exp$，但脉冲域同样做不了指数。作�
 所有模型在 WinoGrande / HellaSwag / ArcC / ArcE / PIQA 这五个常识/推理任务上的精度变动都 $< 1\%$，部分任务上 NLSpike 甚至小幅领先（Qwen3-8B 上 +1.4%）。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | NLS-Softmax | 跨维度 mean error 最低，max error 受 8-bit 网格约束 | 优于 Padé / PWL / Sorbet / hardmax |
@@ -145,7 +146,7 @@ Softmax 和 SiLU 都绕不开 $\exp$，但脉冲域同样做不了指数。作�
 - [\[AAAI 2026\] A Closer Look at Knowledge Distillation in Spiking Neural Network Training](../../AAAI2026/model_compression/a_closer_look_at_knowledge_distillation_in_spiking_neural_ne.md)
 - [\[CVPR 2025\] Plug-and-Play Versatile Compressed Video Enhancement](../../CVPR2025/model_compression/plug-and-play_versatile_compressed_video_enhancement.md)
 - [\[CVPR 2026\] ReFTA: Breaking the Weight Reconstruction Bottleneck in Tensorized Parameter-Efficient Fine-Tuning](../../CVPR2026/model_compression/refta_breaking_the_weight_reconstruction_bottleneck_in_tensorized_parameter-effi.md)
-- [\[NeurIPS 2025\] S2M-Former: Spiking Symmetric Mixing Branchformer for Brain Auditory Attention Detection](../../NeurIPS2025/model_compression/s2m-former_spiking_symmetric_mixing_branchformer_for_brain_auditory_attention_de.md)
+- [\[ICML 2026\] Breaking the MoE LLM Trilemma: Dynamic Expert Clustering with Structured Compression](breaking_the_moe_llm_trilemma_dynamic_expert_clustering_with_structured_compress.md)
 
 </div>
 

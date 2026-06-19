@@ -83,6 +83,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | Benchmark | GTD | 最强/典型对比 | 提升或说明 |
 |--------|------|----------|------|
 | GSM8K | 94.14 | MaAS: 92.30，G-Designer: 92.09，Vanilla: 87.45 | 数学推理最高 |
@@ -94,6 +95,7 @@ flowchart TD
 | Avg. | 85.74 | MaAS: 84.49，G-Designer: 84.41，Vanilla: 81.75 | 平均提升 3.99 over Vanilla |
 
 ### 消融实验
+
 | 配置 | GSM8K | HumanEval | 说明 |
 |------|---------|------|------|
 | GTD | 94.14 | 91.43 | 完整 proxy-guided diffusion |

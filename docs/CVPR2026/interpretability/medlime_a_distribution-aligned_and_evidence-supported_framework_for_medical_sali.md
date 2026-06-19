@@ -88,6 +88,7 @@ $$L(w)=\sum_{i=1}^{N}\pi_X(m_i)\big(g(f_{\phi^*}(X_i^{rec}))-s(m_i)\big)^2+\lamb
 相对次优基线最多提升约 7%；在病灶极小的 BUID 上对各类基线提升 2%–30%，在病灶较大的 RSNA/CheXlocalize 上提升 5%–25%。值得注意的是 LIME 本身（0.211/0.137/0.188/0.247）远低于 MedLIME，说明三件套带来的增益显著。
 
 ### 消融实验
+
 | 配置 | AUPRC | 说明 |
 |------|---------|------|
 | 完整 MedLIME | 0.451 | RSNA / ViT |
@@ -132,10 +133,10 @@ $$L(w)=\sum_{i=1}^{N}\pi_X(m_i)\big(g(f_{\phi^*}(X_i^{rec}))-s(m_i)\big)^2+\lamb
 
 ## 相关论文
 
-- [\[CVPR 2026\] Measuring the (Un)Faithfulness of Concept-Based Explanations](measuring_the_unfaithfulness_of_concept-based_explanations.md)
 - [\[ICML 2025\] Evaluating Neuron Explanations: A Unified Framework with Sanity Checks](../../ICML2025/interpretability/evaluating_neuron_explanations_a_unified_framework_with_sanity_checks.md)
-- [\[CVPR 2026\] Learning Where to Look and How to Judge: Resolution-agnostic Image Quality Assessment with Quality-aware Saliency](learning_where_to_look_and_how_to_judge_resolution-agnostic_image_quality_assess.md)
+- [\[CVPR 2026\] Measuring the (Un)Faithfulness of Concept-Based Explanations](measuring_the_unfaithfulness_of_concept-based_explanations.md)
 - [\[AAAI 2026\] Distribution-Based Feature Attribution for Explaining the Predictions of Any Classifier](../../AAAI2026/interpretability/distribution-based_feature_attribution_for_explaining_the_predictions_of_any_cla.md)
+- [\[CVPR 2026\] Back to the Feature: Explaining Video Classifiers with Video Counterfactual Explanations](back_to_the_feature_explaining_video_classifiers_with_video_counterfactual_expla.md)
 - [\[ICML 2026\] Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution](../../ICML2026/interpretability/manifold-aligned_guided_integrated_gradients_for_reliable_feature_attribution.md)
 
 </div>

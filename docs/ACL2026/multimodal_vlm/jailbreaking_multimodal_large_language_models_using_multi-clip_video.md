@@ -84,6 +84,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | Explicit 1-Clip | Explicit 4-Clip | Implicit 1-Clip | Implicit 4-Clip | 主要现象 |
 |------|-----------------|-----------------|-----------------|-----------------|----------|
 | Qwen2.5-VL-7B | 50.75 | 68.70 | 69.04 | 80.27 | clip增加带来最明显上升之一 |
@@ -94,6 +95,7 @@ flowchart TD
 | LLaVA-Video-7B | 66.58 | 66.85 | 49.86 | 50.68 | Implicit较低，论文推测与OCR较弱有关 |
 
 ### 消融实验
+
 | 设置 / 防御 | Qwen2.5-VL-7B | Qwen3-VL-8B | InternVL3.5-8B | LLaVA-Video-7B | 平均ASR |
 |-------------|---------------|-------------|-----------------|---------------|---------|
 | Image Frame攻击 | 50.93 | 58.89 | 46.47 | 33.39 | 47.42 |
@@ -143,9 +145,9 @@ flowchart TD
 
 - [\[ACL 2026\] DMN: A Compositional Framework for Jailbreaking Multimodal LLMs with Multi-Image Inputs](dmn_a_compositional_framework_for_jailbreaking_multimodal_llms_with_multi-image_.md)
 - [\[ICCV 2025\] Jailbreaking Multimodal Large Language Models via Shuffle Inconsistency](../../ICCV2025/multimodal_vlm/jailbreaking_multimodal_large_language_models_via_shuffle_inconsistency.md)
-- [\[ACL 2026\] LaMI: Augmenting Large Language Models via Late Multi-Image Fusion](lami_augmenting_large_language_models_via_late_multi-image_fusion.md)
 - [\[CVPR 2026\] Video-Only ToM: Enhancing Theory of Mind in Multimodal Large Language Models](../../CVPR2026/multimodal_vlm/video-only_tom_enhancing_theory_of_mind_in_multimodal_large_language_models.md)
-- [\[ICML 2026\] Jailbreaking Vision-Language Models Through the Visual Modality](../../ICML2026/multimodal_vlm/jailbreaking_vision-language_models_through_the_visual_modality.md)
+- [\[ACL 2026\] LaMI: Augmenting Large Language Models via Late Multi-Image Fusion](lami_augmenting_large_language_models_via_late_multi-image_fusion.md)
+- [\[ICCV 2025\] IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models Using Themselves](../../ICCV2025/multimodal_vlm/ideator_jailbreaking_and_benchmarking_large_visionlanguage_m.md)
 
 </div>
 

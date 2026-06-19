@@ -139,7 +139,7 @@ tags:
 - [\[CVPR 2025\] Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models](../../CVPR2025/video_generation/out_of_sight_out_of_mind_evaluating_state_evolution_in_video_world_models.md)
 - [\[ICCV 2025\] Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning](disentangled_world_models_learning_to_transfer_semantic_knowledge_from_distracti.md)
 - [\[CVPR 2025\] Navigation World Models](../../CVPR2025/video_generation/navigation_world_models.md)
-- [\[CVPR 2026\] Efficient Long-Context Modeling in Diffusion Language Models via Block Approximate Sparse Attention](../../CVPR2026/video_generation/efficient_long-context_modeling_in_diffusion_language_models_via_block_approxima.md)
+- [\[CVPR 2025\] World2Act: Latent Action Post-Training via Skill-Compositional World Models](../../CVPR2025/video_generation/world2act_latent_action_post-training_via_skill-compositional_world_models.md)
 
 </div>
 

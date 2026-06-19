@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 幻觉检测论文汇总 · 19篇论文解读
+  ICML2026 幻觉检测论文汇总 · 21篇论文解读
 description: >-
-  19篇ICML2026的幻觉检测方向论文解读，涵盖多模态、LLM、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  21篇ICML2026的幻觉检测方向论文解读，涵盖多模态、LLM、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "幻觉检测"
@@ -12,6 +12,8 @@ tags:
   - "LLM"
   - "对抗鲁棒"
 item_list:
+  - u: "a_unified_definition_of_hallucination_its_the_world_model_stupid/"
+    t: "A Unified Definition of Hallucination: It's The World Model, Stupid!"
   - u: "adaptive_residual-update_steering_for_low-overhead_hallucination_mitigation_in_l/"
     t: "Adaptive Residual-Update Steering for Low-Overhead Hallucination Mitigation in Large Vision Language Models"
   - u: "automatic_layer_selection_for_hallucination_detection/"
@@ -50,17 +52,23 @@ item_list:
     t: "TAG: Tangential Amplifying Guidance for Hallucination-Resistant Sampling"
   - u: "when_hallucination_costs_millions_benchmarking_ai_agents_in_high-stakes_adversar/"
     t: "When Hallucination Costs Millions: Benchmarking AI Agents in High-Stakes Adversarial Financial Markets (CAIA)"
-item_total: 19
+  - u: "zero-source_llm_hallucination_detection_with_human-like_criteria_probing/"
+    t: "Zero-source LLM Hallucination Detection with Human-like Criteria Probing"
+item_total: 21
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👻 幻觉检测
 
-**🧪 ICML2026** · **19** 篇论文解读
+**🧪 ICML2026** · **21** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (38)](../../CVPR2026/hallucination/index.md) · [💬 ACL2026 (27)](../../ACL2026/hallucination/index.md) · [🔬 ICLR2026 (9)](../../ICLR2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (33)](../../CVPR2026/hallucination/index.md) · [💬 ACL2026 (28)](../../ACL2026/hallucination/index.md) · [🔬 ICLR2026 (13)](../../ICLR2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
 
-🔥 **高频主题：** 多模态 ×7 · LLM ×2 · 对抗鲁棒 ×2
+🔥 **高频主题：** 多模态 ×7 · LLM ×3 · 对抗鲁棒 ×2
+
+**[A Unified Definition of Hallucination: It's The World Model, Stupid!](a_unified_definition_of_hallucination_its_the_world_model_stupid.md)**
+
+:   这是一篇 position paper，主张把翻译、摘要、开放问答、RAG、多模态、智能体等各路"幻觉"统一成同一件事——**对一个"参考世界模型"的、用户可见的、不准确的世界建模**：每个场景只是对"参考世界 $W$、视图函数 $V$、冲突策略 $P$"三件套做了不同选择，从而把碎片化的定义收敛成一个可比较、可生成大规模基准的通用模板。
 
 **[Adaptive Residual-Update Steering for Low-Overhead Hallucination Mitigation in Large Vision Language Models](adaptive_residual-update_steering_for_low-overhead_hallucination_mitigation_in_l.md)**
 
@@ -137,3 +145,7 @@ item_total: 19
 **[When Hallucination Costs Millions: Benchmarking AI Agents in High-Stakes Adversarial Financial Markets (CAIA)](when_hallucination_costs_millions_benchmarking_ai_agents_in_high-stakes_adversar.md)**
 
 :   CAIA 用 17 个前沿大模型在 178 个时间锚定的加密货币真实任务上构建首个"对抗性高风险"agent 基准，发现：无工具时所有模型只有 12–28% 准确率（接近随机猜测），有工具时最强 GPT-5 也只到 67.4% vs. 人类入门分析师 80%；更致命的是模型 55.5% 的工具调用偏向"不可靠的网页搜索"而绕过权威链上数据，导致 Pass@k 指标系统性掩盖了"靠试错碰运气"的危险行为。
+
+**[Zero-source LLM Hallucination Detection with Human-like Criteria Probing](zero-source_llm_hallucination_detection_with_human-like_criteria_probing.md)**
+
+:   HCPD 把"零源（zero-source，只看问答文本对、拿不到模型内部状态也没外部知识库）幻觉检测"做成"模仿人类评审"的多准则探针——让一个 LLM agent 针对每个问答对自适应生成一组可解释评判准则、赋权、逐准则打分再加权汇总成可信度分；用语义一致性的弱监督 + GRPO 训练这个 agent，推理时多次采样取平均，在 4 个 QA 数据集、多个目标模型上 AUROC 大幅超过现有方法。

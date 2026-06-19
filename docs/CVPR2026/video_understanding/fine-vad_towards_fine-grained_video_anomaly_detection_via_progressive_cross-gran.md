@@ -108,6 +108,7 @@ $$\mathcal{L}_{refine}=-\frac{1}{N}\sum_{i=1}^{N}\sum_{j=0}^{M}\alpha_{i,j}\,y_{
 | FineMLLM | Qwen2.5-VL-7B | +8.47% | +14.93% |
 
 ### 消融实验
+
 | 配置 | AVG mAP% | 说明 |
 |------|---------|------|
 | 仅细级（ID 1） | 8.64 | 稀疏标签不足以学判别表示 |
@@ -153,7 +154,7 @@ $$\mathcal{L}_{refine}=-\frac{1}{N}\sum_{i=1}^{N}\sum_{j=0}^{M}\alpha_{i,j}\,y_{
 
 ## 相关论文
 
-- [\[CVPR 2026\] Text-guided Fine-Grained Video Anomaly Understanding](text-guided_fine-grained_video_anomaly_understanding.md)
+- [\[CVPR 2026\] MA-Bench: Towards Fine-grained Micro-Action Understanding](ma-bench_towards_fine-grained_micro-action_understanding.md)
 - [\[CVPR 2026\] Mistake Attribution: Fine-Grained Mistake Understanding in Egocentric Videos](mistake_attribution_fine-grained_mistake_understanding_in_egocentric_videos.md)
 - [\[CVPR 2026\] UFVideo: Towards Unified Fine-Grained Video Cooperative Understanding with Large Language Models](ufvideo_towards_unified_fine-grained_video_cooperative_understanding_with_large_.md)
 - [\[CVPR 2026\] Frame2Freq: Spectral Adapters for Fine-Grained Video Understanding](frame2freq_spectral_adapters_for_fine-grained_video_understanding.md)

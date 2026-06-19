@@ -123,10 +123,10 @@ KRR标准目标 $f_{D,\lambda} = \arg\min_f \sum_n \|y_n - f(x_n)\|^2 + \lambda\
 ## 相关论文
 
 - [\[ICML 2026\] Conditional KRR: Injecting Unpenalized Features into Kernel Methods with Applications to Kernel Thresholding](../../ICML2026/learning_theory/conditional_krr_injecting_unpenalized_features_into_kernel_methods_with_applicat.md)
+- [\[ICML 2026\] Sequential Kernel-based Conditional Independence Testing via Adaptive Betting](../../ICML2026/learning_theory/sequential_kernel-based_conditional_independence_testing_via_adaptive_betting.md)
 - [\[ICML 2025\] Improved Generalization Bounds for Transductive Learning by Transductive Local Complexity and Its Applications](../../ICML2025/learning_theory/improved_generalization_bounds_for_transductive_learning_by_transductive_local_c.md)
 - [\[NeurIPS 2025\] Product Distribution Learning with Imperfect Advice](product_distribution_learning_with_imperfect_advice.md)
 - [\[NeurIPS 2025\] Learning-Augmented Online Bipartite Fractional Matching](learning-augmented_online_bipartite_fractional_matching.md)
-- [\[NeurIPS 2025\] Learning-Augmented Streaming Algorithms for Correlation Clustering](learning-augmented_streaming_algorithms_for_correlation_clustering.md)
 
 </div>
 

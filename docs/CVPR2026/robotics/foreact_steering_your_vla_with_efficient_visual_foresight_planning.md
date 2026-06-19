@@ -95,6 +95,7 @@ ImGen 用 flow matching 目标训练，图像统一 resize 到 640×480，恒定
 ForeAct 在全部 11 个任务上都最高，且每个任务成功率均 >70%；相对"仅加文本子任务引导"的 VLM+π0 也有 **+30.3%**，说明涨点主要来自"视觉前瞻"而非单纯的子任务拆解。
 
 ### 换更强骨干 π0.5（代表性子集）
+
 | 任务 | π0.5 | Ours | 任务 | π0.5 | Ours |
 |------|------|------|------|------|------|
 | Pick_Veg | 60.0 | 86.6 | Office_Desk | 76.0 | 85.4 |
@@ -104,6 +105,7 @@ ForeAct 在全部 11 个任务上都最高，且每个任务成功率均 >70%；
 平均成功率从 70.3% 提到 **88.2%**，证明该框架对更强 VLA 同样有效、具可扩展性。
 
 ### LIBERO 仿真（π0.5 骨干）
+
 | 方法 | Spatial | Object | Goal | Long | 平均 |
 |------|---------|--------|------|------|------|
 | OpenVLA | 84.7 | 88.4 | 79.2 | 53.7 | 76.5 |
@@ -164,10 +166,10 @@ ForeAct 在全部 11 个任务上都最高，且每个任务成功率均 >70%；
 ## 相关论文
 
 - [\[CVPR 2026\] HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models](hif-vla_hindsight_insight_and_foresight_through_motion_representation_for_vision.md)
-- [\[CVPR 2026\] CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics](clad_planning_with_grounded_foresight_via_cross-modal_latent_dynamics.md)
 - [\[ICLR 2026\] Sparse Imagination for Efficient Visual World Model Planning](../../ICLR2026/robotics/sparse_imagination_for_efficient_visual_world_model_planning.md)
-- [\[CVPR 2026\] Mantis: A Versatile Vision-Language-Action Model with Disentangled Visual Foresight](mantis_a_versatile_vision-language-action_model_with_disentangled_visual_foresig.md)
+- [\[CVPR 2026\] CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics](clad_planning_with_grounded_foresight_via_cross-modal_latent_dynamics.md)
 - [\[CVPR 2026\] Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos](spatial-aware_vla_pretraining_through_visual-physical_alignment_from_human_video.md)
+- [\[CVPR 2026\] Mantis: A Versatile Vision-Language-Action Model with Disentangled Visual Foresight](mantis_a_versatile_vision-language-action_model_with_disentangled_visual_foresig.md)
 
 </div>
 

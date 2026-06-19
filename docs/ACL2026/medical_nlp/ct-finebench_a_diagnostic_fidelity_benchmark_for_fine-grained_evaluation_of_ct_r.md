@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.24001](https://arxiv.org/abs/2604.24001)  
 **代码**: 暂未公布  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: CT 报告生成、细粒度评测、QA-based metric、临床属性、CT-RATE、Merlin
 
 ## 一句话总结

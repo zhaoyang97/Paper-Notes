@@ -78,6 +78,7 @@ S2ST-Omni 把源语言当成一个 flat label 或独立 embedding，只能告诉
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | Fr→En BLEU / ASR-BLEU | De→En BLEU / ASR-BLEU | Es→En BLEU / ASR-BLEU | Avg BLEU | Avg ASR-BLEU |
 |------|------------------------|------------------------|------------------------|----------|--------------|
 | RosettaSpeech | 33.11 / 32.16 | 23.22 / 21.54 | 30.92 / 29.35 | 29.08 | 27.68 |
@@ -86,6 +87,7 @@ S2ST-Omni 把源语言当成一个 flat label 或独立 embedding，只能告诉
 | Whisper-Qwen S2TT reference | 35.15 / - | 36.07 / - | 38.39 / - | 36.54 | - |
 
 ### 消融实验
+
 | 配置 | Avg BLEU | Avg ASR-BLEU | 相对完整模型的含义 |
 |------|----------|--------------|--------------------|
 | S2ST-Omni 2 | 37.73 | 35.00 | 完整类型学条件 |

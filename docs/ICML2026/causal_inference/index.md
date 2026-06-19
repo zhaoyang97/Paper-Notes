@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2026 因果推理论文汇总 · 15篇论文解读
+  ICML2026 因果推理论文汇总 · 19篇论文解读
 description: >-
-  15篇ICML2026的因果推理方向论文解读，涵盖对抗鲁棒、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  19篇ICML2026的因果推理方向论文解读，涵盖对抗鲁棒、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "因果推理"
@@ -15,6 +15,8 @@ item_list:
     t: "An Odd Estimator for Shapley Values"
   - u: "causal-jepa_learning_world_models_through_object-level_latent_masking/"
     t: "Causal-JEPA: Learning World Models through Object-Level Latent Masking"
+  - u: "causal_modeling_of_selection_in_evolution/"
+    t: "Causal Modeling of Selection in Evolution"
   - u: "controllable_generative_sandbox_for_causal_inference/"
     t: "Controllable Generative Sandbox for Causal Inference"
   - u: "density-guided_robust_counterfactual_explanations_on_tabular_data_under_model_mu/"
@@ -23,8 +25,12 @@ item_list:
     t: "ECSEL: Explainable Classification via Signomial Equation Learning"
   - u: "evaluating_bivariate_causal_statements_based_on_mutual_compatibility/"
     t: "Evaluating Bivariate Causal Statements Based on Mutual Compatibility"
+  - u: "finding_most_influential_sets/"
+    t: "Finding Most Influential Sets"
   - u: "formalizing_and_falsifying_causal_pathways_of_rare_events/"
     t: "Formalizing and Falsifying Causal Pathways of Rare Events"
+  - u: "from_observation_to_intervention_a_causal_audit_of_expert_importance_in_mixture-/"
+    t: "From Observation to Intervention: A Causal Audit of Expert Importance in Mixture-of-Experts Models"
   - u: "investigating_memory_in_model-free_rl_with_popgym_arcade/"
     t: "Investigating Memory in Model-Free RL with POPGym Arcade"
   - u: "outcome-aware_spectral_feature_learning_for_instrumental_variable_regression/"
@@ -37,19 +43,21 @@ item_list:
     t: "The (Marginal) Value of a Search Ad: An Online Causal Framework for Repeated Second-price Auctions"
   - u: "the_synthetic_web_adversarially-curated_mini-internets_for_diagnosing_epistemic_/"
     t: "The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents"
+  - u: "toward_scalable_and_valid_conditional_independence_testing_with_spectral_represe/"
+    t: "Toward Scalable and Valid Conditional Independence Testing with Spectral Representations"
   - u: "towards_a_holistic_understanding_of_selection_bias_for_causal_effect_identificat/"
     t: "Towards a Holistic Understanding of Selection Bias for Causal Effect Identification"
   - u: "unveiling_the_structure_of_do-calculus_reasoning_via_derivation_graphs/"
     t: "Unveiling the Structure of Do-Calculus Reasoning via Derivation Graphs"
-item_total: 15
+item_total: 19
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**🧪 ICML2026** · **15** 篇论文解读
+**🧪 ICML2026** · **19** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (5)](../../CVPR2026/causal_inference/index.md) · [💬 ACL2026 (7)](../../ACL2026/causal_inference/index.md) · [🔬 ICLR2026 (17)](../../ICLR2026/causal_inference/index.md) · [🤖 AAAI2026 (7)](../../AAAI2026/causal_inference/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/causal_inference/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/causal_inference/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/causal_inference/index.md) · [💬 ACL2026 (7)](../../ACL2026/causal_inference/index.md) · [🔬 ICLR2026 (25)](../../ICLR2026/causal_inference/index.md) · [🤖 AAAI2026 (7)](../../AAAI2026/causal_inference/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/causal_inference/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/causal_inference/index.md)
 
 🔥 **高频主题：** 对抗鲁棒 ×2
 
@@ -60,6 +68,10 @@ item_total: 15
 **[Causal-JEPA: Learning World Models through Object-Level Latent Masking](causal-jepa_learning_world_models_through_object-level_latent_masking.md)**
 
 :   提出 C-JEPA，将 JEPA 的掩码预测从图像 patch 级别扩展到对象级别潜在表示，通过对象级掩码作为潜在干预迫使模型学习交互依赖的动态，在反事实推理上比无掩码基线提升约 20%，在控制任务中仅用 1% 的 token 即达到可比性能且规划加速 8 倍以上。
+
+**[Causal Modeling of Selection in Evolution](causal_modeling_of_selection_in_evolution.md)**
+
+:   论文指出"选择"其实分**静态选择**（一次性过滤）和**演化选择**（多代差异繁殖累积）两种，现有图模型把二者混为一谈、在演化数据上会得出错误的因果发现；作者定义了显式刻画演化的因果图模型，并证明它的条件独立约束可以用一个"团扩张 DAG"无损表示，从而能直接套用标准 PC/GES/CDNOD 算法、只需重新解释输出。
 
 **[Controllable Generative Sandbox for Causal Inference](controllable_generative_sandbox_for_causal_inference.md)**
 
@@ -77,9 +89,17 @@ item_total: 15
 
 :   本文针对"只有成对(bivariate)因果陈述、没有 ground truth"的场景，提出两个无需 faithfulness 的相容性评分（线性情形的 `comp` + 图结构情形的 `incomp`），通过判断这些两两陈述拼起来的多元模型是否需要"反常的额外混淆"来解释观测协方差，从而识别错误的因果论断，并用它给 LLM 的因果输出打分。
 
+**[Finding Most Influential Sets](finding_most_influential_sets.md)**
+
+:   要找"删掉后最大改变某个估计量的 size-$k$ 子集"（最具影响力集合 MIS）本来需要在 $\binom{n}{k}$ 个子集里穷举、根本算不动；本文证明只要留集删除效应能写成**线性分式**形式，MIS 选择就坍缩成一串"选 top-$k$"的子问题，用 Dinkelbach 方法做到每轮 $\mathcal{O}(n)$、有限步终止，并在偏线性模型里给出从"固定输入精确最优"到"统计意义上恢复 oracle 集合"的完整理论保证。
+
 **[Formalizing and Falsifying Causal Pathways of Rare Events](formalizing_and_falsifying_causal_pathways_of_rare_events.md)**
 
 :   本文把罕见事件的"口头因果解释"形式化为 **causal pathway**——一个由二值化事件构成的子图，并定义 **pathway explanation score** 来量化"根因 + 中介通路"对目标事件的解释力，得到一套可证伪的因果解释评价框架。
+
+**[From Observation to Intervention: A Causal Audit of Expert Importance in Mixture-of-Experts Models](from_observation_to_intervention_a_causal_audit_of_expert_importance_in_mixture-.md)**
+
+:   作者用「逐 token 消融」的干预性审计去检验 MoE 剪枝里「观测性路由统计量能预测哪些专家可删」这一隐含假设，在三个高冗余 MoE 模型上得到一个干净的「三模型零结果」：60 个指标-层组合里没有任何观测指标在多重比较校正后能预测专家的因果重要性，说明现有剪枝方法之所以有效，不是因为指标真挑出了「没用的专家」，而是因为早中层的冗余让几乎任何选择准则都同样安全。
 
 **[Investigating Memory in Model-Free RL with POPGym Arcade](investigating_memory_in_model-free_rl_with_popgym_arcade.md)**
 
@@ -104,6 +124,10 @@ item_total: 15
 **[The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents](the_synthetic_web_adversarially-curated_mini-internets_for_diagnosing_epistemic_.md)**
 
 :   本文构造了一个程序化生成的"合成 Web"环境,通过在搜索 rank 0 注入单条高可信度蜜罐误信息,因果性地测出 GPT-5 等前沿 LLM agent 在 1/数千的对抗污染下准确率从 65% 暴跌到 18%,且模型不会增加搜索、依然高置信度作答,揭示了根深蒂固的"位置锚定"失败模式。
+
+**[Toward Scalable and Valid Conditional Independence Testing with Spectral Representations](toward_scalable_and_valid_conditional_independence_testing_with_spectral_represe.md)**
+
+:   SpectralCIT 把核方法里刻画条件独立的「偏协方差算子」用神经网络学到的低维谱特征来近似，再用一个形如 HSIC 的简单统计量做条件独立检验——它用一个双层对比算法学出算子的领先奇异特征，证明零假设下统计量渐近服从卡方分布、备择假设下有功效保证，从而把核方法的理论扎实性和现代表示学习的可扩展性接上。
 
 **[Towards a Holistic Understanding of Selection Bias for Causal Effect Identification](towards_a_holistic_understanding_of_selection_bias_for_causal_effect_identificat.md)**
 

@@ -87,6 +87,7 @@ $$\mathcal{L}_{chr}=\lVert C_t-C_{ref}\rVert_1$$
 数据集：合并扩展 MeLBench + MusicCaps 成 ⟨图像 $I$, 文本 $T$, 音乐 $M$⟩ 三元组，用 Demucs 去人声只留器乐，LLM 辅助标注成 16 个曲风、统一 caption，构成 genre-aware 的多模态语料。指标：FAD/FD（与目标风格分布对齐，越低越好）、IMSM（图-乐跨模态一致性）、F0-PCC / CCS（旋律与和声保真）、主观 OVL/REL/MOScon（15 名被试 0–100 打分）。
 
 ### 主实验
+
 | 方法 | 模态(文/图) | FAD↓ | FD↓ | IMSM↑ | F0-PCC↑ | CCS↑ | MOScon↑ |
 |------|------|------|------|------|------|------|------|
 | MAA3 | 文 | 4.23 | 29.77 | - | - | - | 86.47 |
@@ -152,8 +153,8 @@ $$\mathcal{L}_{chr}=\lVert C_t-C_{ref}\rVert_1$$
 
 - [\[CVPR 2026\] Style-GRPO: Semantic-Aware Preference Optimization for Image Style Transfer Guided by Reward Modeling](style-grpo_semantic-aware_preference_optimization_for_image_style_transfer_guide.md)
 - [\[CVPR 2026\] StyleGallery: Training-free and Semantic-aware Personalized Style Transfer from Arbitrary Image References](stylegallery_training-free_and_semantic-aware_personalized_style_transfer_from_a.md)
+- [\[CVPR 2026\] RegionRoute: Regional Style Transfer with Diffusion Model](regionroute_regional_style_transfer_with_diffusion_model.md)
 - [\[AAAI 2026\] Melodia: Training-Free Music Editing Guided by Attention Probing in Diffusion Models](../../AAAI2026/image_generation/melodia_training-free_music_editing_guided_by_attention_probing_in_diffusion_mod.md)
-- [\[CVPR 2026\] HAM: A Training-Free Style Transfer Approach via Heterogeneous Attention Modulation for Diffusion Models](ham_a_training-free_style_transfer_approach_via_heterogeneous_attention_modulati.md)
 - [\[CVPR 2026\] A Training-Free Style-Personalization via SVD-Based Feature Decomposition](a_training-free_style-personalization_via_svd-based_feature_decomposition.md)
 
 </div>

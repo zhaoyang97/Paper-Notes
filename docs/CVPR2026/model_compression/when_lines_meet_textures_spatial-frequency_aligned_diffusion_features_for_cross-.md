@@ -2,9 +2,10 @@
 title: >-
   [论文解读] When Lines Meet Textures: Spatial-Frequency Aligned Diffusion Features for Cross-Sparsity Correspondence
 description: >-
-  [CVPR 2026][草图-照片对应] 针对"稀疏线条草图"与"纹理丰富照片"之间难以建立语义关键点对应的问题，本文提出 SFA-DIFT：先用 LoRA 把 CleanDIFT 微调成跨模态统一的"干净扩散特征"对齐空间域，再用基于小波的低频聚合模块（LoFFA）对齐频域，在自建的 MS-PSC6K 基准上把 PCK 全面刷到新 SOTA。
+  [CVPR 2026][模型压缩][草图-照片对应] 针对"稀疏线条草图"与"纹理丰富照片"之间难以建立语义关键点对应的问题，本文提出 SFA-DIFT：先用 LoRA 把 CleanDIFT 微调成跨模态统一的"干净扩散特征"对齐空间域，再用基于小波的低频聚合模块（LoFFA）对齐频域，在自建的 MS-PSC6K 基准上把 PCK 全面刷到新 SOTA。
 tags:
   - "CVPR 2026"
+  - "模型压缩"
   - "草图-照片对应"
   - "扩散特征"
   - "小波低频聚合"
@@ -151,11 +152,11 @@ PCK@α 表示在边界框尺度 α 容差内正确关键点比例，α∈{0.01,0
 
 ## 相关论文
 
-- [\[CVPR 2026\] Generalizable Radio-Frequency Radiance Fields for Spatial Spectrum Synthesis](generalizable_radio-frequency_radiance_fields_for_spatial_spectrum_synthesis.md)
-- [\[CVPR 2026\] Content-Aware Frequency Encoding for Implicit Neural Representations with Fourier-Chebyshev Features](content-aware_frequency_encoding_for_implicit_neural_representations_with_fourie.md)
-- [\[CVPR 2026\] OmniFood8K: Single-Image Nutrition Estimation via Hierarchical Frequency-Aligned Fusion](omnifood8k_nutrition_estimation.md)
-- [\[CVPR 2026\] Bootstrapping Multi-view Learning for Test-time Noisy Correspondence](bootstrapping_multi-view_learning_for_test-time_noisy_correspondence.md)
-- [\[CVPR 2026\] Region-Wise Correspondence Prediction between Manga Line Art Images](region-wise_correspondence_prediction_between_manga_line_art_images.md)
+- [\[CVPR 2026\] Test-time Sparsity for Extreme Fast Action Diffusion](test-time_sparsity_for_extreme_fast_action_diffusion.md)
+- [\[ECCV 2024\] Uncertainty-Driven Spectral Compressive Imaging with Spatial-Frequency Transformer](../../ECCV2024/model_compression/uncertainty-driven_spectral_compressive_imaging_with_spatial-frequency_transform.md)
+- [\[ICML 2026\] xKV: Cross-Layer KV-Cache Compression via Aligned Singular Vector Extraction](../../ICML2026/model_compression/xkv_cross-layer_kv-cache_compression_via_aligned_singular_vector_extraction.md)
+- [\[ICCV 2025\] SDKD: Frequency-Aligned Knowledge Distillation for Lightweight Spatiotemporal Forecasting](../../ICCV2025/model_compression/frequency-aligned_knowledge_distillation_for_lightweight_spatiotemporal_forecast.md)
+- [\[CVPR 2026\] HeSS: Head Sensitivity Score for Sparsity Redistribution in VGGT](hess_head_sensitivity_score_for_sparsity_redistribution_in_vggt.md)
 
 </div>
 

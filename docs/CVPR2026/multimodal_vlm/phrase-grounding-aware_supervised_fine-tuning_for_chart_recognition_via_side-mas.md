@@ -99,6 +99,7 @@ $$\mathcal{L}_{\mathrm{aux}} = \sum\nolimits_{x_t\in\mathcal{X}}\big(\gamma\math
 Seg. 表现最差（在仅约 25k 样本的 SFT 设置下额外训练分割模型难优化，且自然图→图表存在域差）；TL. 在只需定位单个区域的 ChartQA 上与 SFT 持平，但在需要定位多目标的 C2T 上明显退化（LLaVA 尤甚）。
 
 ### QA-CoT 与定位精度
+
 | 模型 | 方法 | QA-CoT Hum. | logit 定位 Acc (Aug./Hum.) |
 |------|------|------|------|
 | Qwen3B | SFT | 78.9 | 62.7 / 57.9 |
@@ -155,10 +156,10 @@ ChartQA 上对两损失项及系数 $\gamma,\alpha$ 做消融（Qwen7B / LLaVA H
 ## 相关论文
 
 - [\[CVPR 2026\] TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition](trivia_self-supervised_fine-tuning_of_vision-language_models_for_table_recogniti.md)
+- [\[CVPR 2026\] Rethinking BCE Loss for Multi-Label Image Recognition with Fine-Tuning](rethinking_bce_loss_for_multi-label_image_recognition_with_fine-tuning.md)
 - [\[CVPR 2026\] CoVFT: Context-aware Visual Fine-tuning for Multimodal Large Language Models](covft_context-aware_visual_fine-tuning_for_multimodal_large_language_models.md)
-- [\[CVPR 2026\] Concept-wise Attention for Fine-grained Concept Bottleneck Models](coat_cbm_concept_wise_attention.md)
+- [\[CVPR 2026\] FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Models](fairllava_fairness-aware_parameter-efficient_fine-tuning_for_large_vision-langua.md)
 - [\[CVPR 2026\] SketchVL: Policy Optimization via Fine-Grained Credit Assignment for Chart Understanding and More](sketchvl_policy_optimization_via_fine-grained_credit_assignment_for_chart_unders.md)
-- [\[CVPR 2026\] Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts](chart-fr1_visual_focus-driven_fine-grained_reasoning_on_dense_charts.md)
 
 </div>
 

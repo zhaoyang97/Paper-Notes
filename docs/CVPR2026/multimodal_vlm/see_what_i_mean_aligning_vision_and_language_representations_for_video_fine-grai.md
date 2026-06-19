@@ -93,6 +93,7 @@ $$\mathcal{L}^{(i)}_{\mathrm{BCE}} = -\frac{1}{HW}\sum_{u,v}\Big[M_i(u,v)\log\ba
 在通用视频理解上，SWIM 也保持竞争力（不因对齐训练而牺牲泛化）：MVBench 62.1、Video-MME 55.9、ActivityNet 55.6，均不弱于 VideoRefer 等基线。
 
 ### 消融实验
+
 | 实验 | 配置 | VideoRefer-D Avg. | 说明 |
 |------|------|-------------------|------|
 | 监督层数 | 单层 [1] | 3.43 | 太浅，对齐弱 |
@@ -140,9 +141,9 @@ $$\mathcal{L}^{(i)}_{\mathrm{BCE}} = -\frac{1}{HW}\sum_{u,v}\Big[M_i(u,v)\log\ba
 
 - [\[CVPR 2026\] Aligning What Vision-Language Models See and Perceive with Adaptive Information Flow](aif_adaptive_information_flow_vlm.md)
 - [\[CVPR 2026\] HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics](handyvqa_a_video_qa_benchmark_for_fine-grained_hand-object_interaction_dynamics.md)
-- [\[CVPR 2026\] MA-Bench: Towards Fine-grained Micro-Action Understanding](ma-bench_towards_fine-grained_micro-action_understanding.md)
 - [\[CVPR 2026\] Hugging Visual Prompt and Segmentation Tokens: Consistency Learning for Fine-Grained Visual Understanding in MLLMs](hugging_visual_prompt_and_segmentation_tokens_consistency_learning_for_fine-grai.md)
-- [\[CVPR 2026\] CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception](cropvlm_learning_to_zoom_for_fine_grained_vision_language_perception.md)
+- [\[CVPR 2026\] EagleNet: Energy-Aware Fine-Grained Relationship Learning Network for Text-Video Retrieval](eaglenet_energy-aware_fine-grained_relationship_learning_network_for_text-video_.md)
+- [\[CVPR 2026\] SketchVL: Policy Optimization via Fine-Grained Credit Assignment for Chart Understanding and More](sketchvl_policy_optimization_via_fine-grained_credit_assignment_for_chart_unders.md)
 
 </div>
 

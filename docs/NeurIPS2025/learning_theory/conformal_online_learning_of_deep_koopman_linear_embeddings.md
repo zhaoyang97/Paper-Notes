@@ -142,8 +142,8 @@ COLoKe 是唯一同时满足四个特性的方法。相比 OnlineAE（固定步�
 - [\[NeurIPS 2025\] Computable Universal Online Learning](computable_universal_online_learning.md)
 - [\[ICLR 2026\] Deep FlexQP: Accelerated Nonlinear Programming via Deep Unfolding](../../ICLR2026/learning_theory/deep_flexqp_accelerated_nonlinear_programming_via_deep_unfolding.md)
 - [\[NeurIPS 2025\] Prediction-Powered Semi-Supervised Learning with Online Power Tuning](prediction-powered_semi-supervised_learning_with_online_power_tuning.md)
-- [\[NeurIPS 2025\] Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression](transfer_learning_for_benign_overfitting_in_high-dimensional_linear_regression.md)
 - [\[NeurIPS 2025\] Learning-Augmented Online Bipartite Fractional Matching](learning-augmented_online_bipartite_fractional_matching.md)
+- [\[ICML 2025\] Avoiding Catastrophe in Online Learning by Asking for Help](../../ICML2025/learning_theory/avoiding_catastrophe_in_online_learning_by_asking_for_help.md)
 
 </div>
 

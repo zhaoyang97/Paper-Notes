@@ -132,7 +132,7 @@ HiEI 在人类主观评价（MOS 分数）上显著优于基线方法，内容�
 - [\[ICCV 2025\] Φ-GAN: Physics-Inspired GAN for Generating SAR Images Under Limited Data](../../ICCV2025/others/ph-gan_physics-inspired_gan_for_generating_sar_images_under_limited_data.md)
 - [\[CVPR 2026\] A Debiased Reconstruction-based Framework for Training-Free Detection of AI-Generated Images](../../CVPR2026/others/a_debiased_reconstruction-based_framework_for_training-free_detection_of_ai-gene.md)
 - [\[ICML 2026\] On Revisiting Entropy for Identifying Mislabeled Images](../../ICML2026/others/on_revisiting_entropy_for_identifying_mislabeled_images.md)
-- [\[CVPR 2025\] Locally Orderless Images for Optimization in Differentiable Rendering](../../CVPR2025/others/locally_orderless_images_for_optimization_in_differentiable_rendering.md)
+- [\[ECCV 2024\] CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction](clr-gan_improving_gans_stability_and_quality_via_consistent_latent_representatio.md)
 
 </div>
 

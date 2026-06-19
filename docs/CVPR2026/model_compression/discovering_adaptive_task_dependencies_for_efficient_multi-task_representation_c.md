@@ -96,6 +96,7 @@ $$L_i = R_i + \lambda_i\, L^{(i)}_{\text{task}}(\hat z_i, y_i)$$
 数据集为 Taskonomy（Tiny split，约 0.87M 训练 / 16K 验证测试），评测六个任务：语义分割、关键点 2D、边缘纹理、表面法向、深度 Z-buffer、以及面向人眼的图像压缩。骨干用 Xception，对比对象覆盖传统编解码（WebP、VTM-Intra）、学习型压缩（ELIC、MLIC++）、生成式压缩（VQGAN）和 SOTA 多任务压缩 TAMC。
 
 ### 主实验（率-性能与可扩展性）
+
 | 评测维度 | ATDC 表现 | 对照 |
 |---------|-----------|------|
 | 五项下游任务率-性能 | 各码率下全面领先 | 优于传统 / 学习型编解码 |
@@ -105,6 +106,7 @@ $$L_i = R_i + \lambda_i\, L^{(i)}_{\text{task}}(\hat z_i, y_i)$$
 | 像素级重建（PSNR/FID） | 与 TAMC 相当或略好；LPIPS/MS-SSIM 略低 | 自适应压缩没牺牲感知自然度 |
 
 ### 消融与分析
+
 | 配置 / 分析 | 关键结果 | 说明 |
 |------------|---------|------|
 | 压缩顺序：adaptive（本文） | 各码率下损失最低 | DAG 自适应顺序最优 |
@@ -152,10 +154,10 @@ $$L_i = R_i + \lambda_i\, L^{(i)}_{\text{task}}(\hat z_i, y_i)$$
 ## 相关论文
 
 - [\[CVPR 2026\] Frequency Switching Mechanism for Parameter-Efficient Multi-Task Learning](frequency_switching_mechanism_for_parameter-ecient_multi-task_learning.md)
-- [\[CVPR 2026\] TaskIT: Memory-Efficient Fine-Tuning of Multi-LoRA LLMs via Cross-Task Importance Transfer](taskit_memory-efficient_fine-tuning_of_multi-lora_llms_via_cross-task_importance.md)
+- [\[CVPR 2026\] FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection](faar_efficient_frequency-aware_multi-task_fine-tuning_via_automatic_rank_selecti.md)
 - [\[CVPR 2025\] TADFormer: Task-Adaptive Dynamic Transformer for Efficient Multi-Task Learning](../../CVPR2025/model_compression/tadformer_task-adaptive_dynamic_transformer_for_efficient_multi-task_learning.md)
+- [\[CVPR 2026\] TaskIT: Memory-Efficient Fine-Tuning of Multi-LoRA LLMs via Cross-Task Importance Transfer](taskit_memory-efficient_fine-tuning_of_multi-lora_llms_via_cross-task_importance.md)
 - [\[CVPR 2026\] Understanding and Enforcing Weight Disentanglement in Task Arithmetic](understanding_and_enforcing_weight_disentanglement_in_task_arithmetic.md)
-- [\[CVPR 2026\] Generative Video Compression with One-Dimensional Latent Representation](generative_video_compression_with_one-dimensional_latent_representation.md)
 
 </div>
 

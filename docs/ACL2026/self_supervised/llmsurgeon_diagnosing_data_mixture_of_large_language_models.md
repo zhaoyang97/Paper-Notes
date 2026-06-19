@@ -74,6 +74,7 @@ label-shift 假设下，领域比例从训练语料到生成文本会变，但�
 ## 实验关键数据
 
 ### 主实验
+
 | 设置 / 模型 | 粒度 | LLMSurgeon Overlap Accuracy | 表内强基线或代表性基线 | 说明 |
 |--------|------|-----------------------------|------------------------|------|
 | OLMo-1B | 6 类粗粒度 | 94.46% | Recall 48.05% | 粗粒度语料边界清晰，反演优势很大 |
@@ -85,6 +86,7 @@ label-shift 假设下，领域比例从训练语料到生成文本会变，但�
 | StarCoder-15.5B | 87 类细粒度 | 30.37% | GradNorm 27.54% | C/C++ 等相似语言让反问题病态化 |
 
 ### 消融实验
+
 | 消融项 | 配置 | 关键结果 | 结论 |
 |------|------|---------|------|
 | 分类器骨干 | DistilBERT vs Transformer / TF-IDF / MLP | LLaMA1-7B 上 DistilBERT 95.14%，Transformer 90.22%，TF-IDF 86.83%，MLP 82.97% | 代理分类器质量直接影响最终恢复 |
@@ -134,8 +136,8 @@ label-shift 假设下，领域比例从训练语料到生成文本会变，但�
 - [\[ICCV 2025\] Improving Large Vision and Language Models by Learning from a Panel of Peers](../../ICCV2025/self_supervised/improving_large_vision_and_language_models_by_learning_from_a_panel_of_peers.md)
 - [\[NeurIPS 2025\] M-GRPO: Stabilizing Self-Supervised Reinforcement Learning for Large Language Models with Momentum-Anchored Policy Optimization](../../NeurIPS2025/self_supervised/m-grpo_stabilizing_self-supervised_reinforcement_learning_for_multimodal_underst.md)
 - [\[ICLR 2026\] PonderLM: Pretraining Language Models to Ponder in Continuous Space](../../ICLR2026/self_supervised/ponderlm_pretraining_language_models_to_ponder_in_continuous_space.md)
+- [\[CVPR 2026\] Spectral Mixture-of-Experts for Continual Learning](../../CVPR2026/self_supervised/spectral_mixture-of-experts_for_continual_learning.md)
 - [\[CVPR 2026\] Quantized Residuals to Continuous Prompts for Few-Shot Class Incremental Learning in Vision-Language Models](../../CVPR2026/self_supervised/quantized_residuals_to_continuous_prompts_for_few-shot_class_incremental_learning.md)
-- [\[ICML 2025\] Towards Benchmarking Foundation Models for Tabular Data With Text](../../ICML2025/self_supervised/towards_benchmarking_foundation_models_for_tabular_data_with_text.md)
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLMAgent论文汇总 · 42篇论文解读
+  ICLR2026 LLMAgent论文汇总 · 51篇论文解读
 description: >-
-  42篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  51篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "LLM Agent"
@@ -15,22 +15,40 @@ tags:
 item_list:
   - u: "a_benchmark_for_deep_information_synthesis/"
     t: "A Benchmark for Deep Information Synthesis (DeepSynth)"
+  - u: "agentfold_long-horizon_web_agents_with_proactive_context_folding/"
+    t: "AgentFold: Long-Horizon Web Agents with Proactive Context Folding"
+  - u: "agentgym-rl_an_open-source_framework_to_train_llm_agents_for_long-horizon_decisi/"
+    t: "AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL"
   - u: "agentic_context_engineering_evolving_contexts_for_self-improving_language_models/"
     t: "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models"
+  - u: "agentracer_who_is_inducing_failure_in_the_llm_agentic_systems/"
+    t: "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?"
   - u: "agentsynth_scalable_task_generation_for_generalist_computer-use_agents/"
     t: "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents"
+  - u: "an_agentic_framework_with_llms_for_solving_complex_vehicle_routing_problems/"
+    t: "An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems"
+  - u: "aria_an_agent_for_retrieval_and_iterative_auto-formalization_via_dependency_grap/"
+    t: "Aria: an Agent for Retrieval and Iterative Auto-Formalization via Dependency Graph"
   - u: "autofigure_generating_and_refining_publication-ready_scientific_illustrations/"
     t: "AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations"
+  - u: "bed-llm_intelligent_information_gathering_with_llms_and_bayesian_experimental_de/"
+    t: "BED-LLM: Intelligent Information Gathering with LLMs and Bayesian Experimental Design"
+  - u: "benchmarking_llm_tool-use_in_the_wild/"
+    t: "Benchmarking LLM Tool-Use in the Wild"
   - u: "chatinject_abusing_chat_templates_for_prompt_injection_in_llm_agents/"
     t: "ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents"
   - u: "comind_towards_community-driven_agents_for_machine_learning_engineering/"
     t: "CoMind: Towards Community-Driven Agents for Machine Learning Engineering"
   - u: "efficient_agent_training_for_computer_use/"
     t: "Efficient Agent Training for Computer Use"
+  - u: "empowering_efficiency_and_efficacy_in_webagent_via_enabling_info-rich_seeking/"
+    t: "Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking"
   - u: "exploratory_memory-augmented_llm_agent_via_hybrid_on-_and_off-policy_optimizatio/"
     t: "Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization"
   - u: "fingertip_20k_a_benchmark_for_proactive_and_personalized_mobile_llm_agents/"
     t: "FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents"
+  - u: "flowsearcher_synthesizing_memory-guided_agentic_workflows_for_web_information_se/"
+    t: "FlowSearcher: Synthesizing Memory-Guided Agentic Workflows for Web Information Seeking"
   - u: "gaia2_benchmarking_llm_agents_on_dynamic_and_asynchronous_environments/"
     t: "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments"
   - u: "harnessing_uncertainty_entropy-modulated_policy_gradients_for_long-horizon_llm_a/"
@@ -55,51 +73,61 @@ item_list:
     t: "NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents"
   - u: "openagentsafety_a_comprehensive_framework_for_evaluating_real-world_ai_agent_saf/"
     t: "OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety"
-  - u: "physcensis_physics-augmented_llm_agents_for_complex_physical_scene_arrangement/"
-    t: "PhyScensis: Physics-Augmented LLM Agents for Complex Physical Scene Arrangement"
-  - u: "radiometrically_consistent_gaussian_surfels_for_inverse_rendering/"
-    t: "PerfGuard: A Performance-Aware Agent for Visual Content Generation"
-  - u: "reducing_belief_deviation_in_reinforcement_learning_for_active_reasoning/"
-    t: "Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents"
-  - u: "remem_reasoning_with_episodic_memory_in_language_agent/"
-    t: "REMem: Reasoning with Episodic Memory in Language Agents"
-  - u: "shoot_first_ask_questions_later_building_rational_agents_that_explore_and_act_li/"
-    t: "Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People"
-  - u: "simuhome_a_temporal-_and_environment-aware_benchmark_for_smart_home_llm_agents/"
-    t: "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents"
-  - u: "solving_the_granularity_mismatch_hierarchical_preference_learning_for_long-horiz/"
-    t: "Solving the Granularity Mismatch: Hierarchical Preference Learning for Long-Horizon LLM Agents"
-  - u: "sr-scientist_scientific_equation_discovery_with_agentic_ai/"
-    t: "SR-Scientist: Scientific Equation Discovery With Agentic AI"
-  - u: "st-webagentbench_a_benchmark_for_evaluating_safety_and_trustworthiness_in_web_ag/"
-    t: "ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents"
-item_total: 42
+item_total: 51
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🔬 ICLR2026** · **42** 篇论文解读
+**🔬 ICLR2026** · **51** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (41)](../../CVPR2026/llm_agent/index.md) · [🧪 ICML2026 (42)](../../ICML2026/llm_agent/index.md) · [💬 ACL2026 (78)](../../ACL2026/llm_agent/index.md) · [🤖 AAAI2026 (33)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (42)](../../CVPR2026/llm_agent/index.md) · [🧪 ICML2026 (59)](../../ICML2026/llm_agent/index.md) · [💬 ACL2026 (82)](../../ACL2026/llm_agent/index.md) · [🤖 AAAI2026 (33)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md)
 
-🔥 **高频主题：** LLM ×17 · Agent ×10 · 推理 ×6 · 对抗鲁棒 ×2
+🔥 **高频主题：** LLM ×21 · Agent ×12 · 推理 ×6 · 对抗鲁棒 ×2
 
 **[A Benchmark for Deep Information Synthesis (DeepSynth)](a_benchmark_for_deep_information_synthesis.md)**
 
 :   提出 DeepSynth 基准，包含 120 个跨 7 领域 67 国的真实信息综合任务（平均需 5.5 小时人工标注），要求 agent 从多个网页收集信息并进行结构化推理，当前最强 agent（o3-deep-research）仅获 8.97 F1 / 17.5% LLM-Judge，揭示了 LLM agent 在信息综合方面的严重不足。
 
+**[AgentFold: Long-Horizon Web Agents with Proactive Context Folding](agentfold_long-horizon_web_agents_with_proactive_context_folding.md)**
+
+:   AgentFold 把 web agent 的上下文当作可主动雕刻的"认知工作区"，每一步在推理时额外输出一个"折叠指令"，对历史轨迹做细粒度凝练或多步深度合并，使 100 轮交互后上下文仅约 7k token；仅 30B 激活 3B 的模型就在 BrowseComp 上拿到 36.2%，超过 671B 的 DeepSeek-V3.1 和 OpenAI o4-mini。
+
+**[AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL](agentgym-rl_an_open-source_framework_to_train_llm_agents_for_long-horizon_decisi.md)**
+
+:   本文开源了一个解耦的多轮强化学习框架 AgentGym-RL，能在 Web 导航、深度搜索、数字游戏、具身控制、科学任务五大真实场景里从零训练 LLM agent，并提出 ScalingInter-RL——一种"先短程后长程"逐步放大交互轮数的分阶段训练法，让 7B 模型在 27 个任务上追平甚至超过 OpenAI o3、Gemini-2.5-Pro。
+
 **[Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](agentic_context_engineering_evolving_contexts_for_self-improving_language_models.md)**
 
 :   提出 ACE（Agentic Context Engineering）框架，将 context 视为不断演化的"策略手册"（playbook），通过 Generator-Reflector-Curator 三角色分工和增量式 delta 更新来持续积累和精炼策略，解决了现有 prompt 优化中的简洁偏差和上下文坍塌问题，在 agent 任务上平均提升 10.6%、金融任务提升 8.6%，且自适应延迟降低 86.9%。
+
+**[AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?](agentracer_who_is_inducing_failure_in_the_llm_agentic_systems.md)**
+
+:   AgenTracer 用"反事实回放 + 程序化故障注入"自动标注多智能体失败轨迹、造出 TracerTraj-2.5K 数据集，再用多粒度强化学习训出一个 8B 的轻量"失败追踪器"，在 Who&When 基准上把决定性错误定位到具体智能体和步骤，agent 级准确率反超 Gemini-2.5-Pro、Claude-4-Sonnet 等巨型模型最多 18.18%，并能给 MetaGPT、MaAS 等现成系统反馈、带来 4.8~14.2% 的性能提升。
 
 **[AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](agentsynth_scalable_task_generation_for_generalist_computer-use_agents.md)**
 
 :   提出AgentSynth pipeline，利用信息不对称原理（正向逐步生成简单、反向整体求解困难）将简单子任务链式组合为复杂长程计算机使用任务，自动生成6000+多样化任务和轨迹，每条轨迹仅需$0.60，SOTA Agent在最高难度下成功率仅4%。
 
+**[An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems](an_agentic_framework_with_llms_for_solving_complex_vehicle_routing_problems.md)**
+
+:   AFL 把"用 LLM 解复杂车辆路径问题（VRP）"拆成问题描述、代码生成、求解三个子任务，并用生成、判断、修订、错误分析四个专职 agent 互相把关，从一份原始 VRPLIB 实例全自动产出一个不依赖外部求解器的 Python 求解器；在 60 个 VRP 变体上把 LLM 方法的运行报错率压到 0%、可行解率拉到 100%，且与人工精心设计的算法相比差距大多落在 3% 以内。
+
+**[Aria: an Agent for Retrieval and Iterative Auto-Formalization via Dependency Graph](aria_an_agent_for_retrieval_and_iterative_auto-formalization_via_dependency_grap.md)**
+
+:   Aria 把"把自然语言数学命题翻译成 Lean 形式化代码"做成一个**检索 + 迭代合成**的 agent：先用"思维图"（Graph-of-Thought）把命题自顶向下拆成概念依赖图、能在 Mathlib 里检索到的概念就锚定、查不到的就自底向上现合成新定义，再配一个会从 Mathlib 拉回每个 Lean 术语真实定义的语义检查器 AriaScorer 把关；在研究级猜想数据集上别人全 0%、它做到 42.9%。
+
 **[AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations](autofigure_generating_and_refining_publication-ready_scientific_illustrations.md)**
 
 :   提出AutoFigure——第一个基于"推理渲染"范式的Agent框架，通过解耦结构布局规划和美学渲染两阶段自动从长科学文本生成达到出版质量的科学插图，配合首个大规模基准FigureBench（3,300对）进行系统评估，66.7%的生成结果被原作者认为可用于camera-ready版本。
+
+**[BED-LLM: Intelligent Information Gathering with LLMs and Bayesian Experimental Design](bed-llm_intelligent_information_gathering_with_llms_and_bayesian_experimental_de.md)**
+
+:   把序贯贝叶斯实验设计（BED）套到 LLM 上，让模型每一轮都挑"期望信息增益（EIG）最大"的问题去问用户，从而把 LLM 变成会主动、自适应收集信息的多轮对话 agent；在 20 Questions 和电影偏好推断上，平均成功率比直接 prompting 高出 37.4 个百分点。
+
+**[Benchmarking LLM Tool-Use in the Wild](benchmarking_llm_tool-use_in_the_wild.md)**
+
+:   WildToolBench 从真实用户日志里提炼出"野生"对话的三大特征——复合任务、隐藏意图、指令切换，构建了 256 个场景共 1024 个任务的多轮多步工具调用 benchmark，对 57 个主流 LLM 的评测发现没有一个模型 session 准确率超过 15%，说明现有 LLM 的 agentic 能力远没有刷榜数字看起来那么强。
 
 **[ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents](chatinject_abusing_chat_templates_for_prompt_injection_in_llm_agents.md)**
 
@@ -113,6 +141,10 @@ item_total: 42
 
 :   PC Agent-E 仅用 312 条人工标注的 Windows 操作轨迹，通过 Trajectory Boost 方法让 Claude 3.7 Sonnet 在每个时间步合成多样化的替代动作决策，训练后的 Qwen2.5-VL-72B 在 WindowsAgentArena-V2 上相对提升 141%，甚至超越教师模型 Claude 3.7 Sonnet 10%。
 
+**[Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking](empowering_efficiency_and_efficacy_in_webagent_via_enabling_info-rich_seeking.md)**
+
+:   WebLeaper 把信息搜索（IS）任务重新建模成"树状推理"，用 Wikipedia 表格批量合成"目标实体密集"的训练任务（Basic / Union / Reverse-Union 三种变体），再用 ISR / ISE 两个指标筛掉低覆盖、低效率的轨迹，让 30B 级别的开源 Web Agent 在 5 个深度搜索榜上同时把"找得全"和"找得快"都拉到开源 SOTA。
+
 **[Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization](exploratory_memory-augmented_llm_agent_via_hybrid_on-_and_off-policy_optimizatio.md)**
 
 :   提出 EMPO2，一种结合外部记忆模块与混合 on-policy/off-policy 更新的 RL 框架，通过记忆引导探索和知识蒸馏将探索收益内化到模型参数中，在 ScienceWorld 和 WebShop 上分别比 GRPO 提升 128.6% 和 11.3%。
@@ -120,6 +152,10 @@ item_total: 42
 **[FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](fingertip_20k_a_benchmark_for_proactive_and_personalized_mobile_llm_agents.md)**
 
 :   FingerTip 20K 收集了 95 名用户在真实日常手机使用中的 21,437 条交互记录（含用户画像、时间、位置、历史意图），提出两个新赛道——主动任务建议（预测用户意图）和个性化任务执行（适配动作偏好），最强模型 Qwen-QVQ-Max 主动建议成功率仅 12.8%（人类 30.3%），UI-TARS 执行成功率仅 38.5%。
+
+**[FlowSearcher: Synthesizing Memory-Guided Agentic Workflows for Web Information Seeking](flowsearcher_synthesizing_memory-guided_agentic_workflows_for_web_information_se.md)**
+
+:   FlowSearcher 把 Web 信息搜索从「ReAct 式的线性工具链」重新表述为「记忆引导的 agentic 工作流合成」——先把查询拆成子目标、为每个子目标合成一张有类型的工作流 DAG，再用一套 node/graph/task 三级记忆把过往轨迹沉淀为可复用的结构化经验注入编排与执行，从而在不做任何监督微调或 RLHF 的前提下，在 GAIA / BrowseComp / GPQA 上追平甚至超过同规模的 RL 训练 Web 智能体。
 
 **[Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments](gaia2_benchmarking_llm_agents_on_dynamic_and_asynchronous_environments.md)**
 

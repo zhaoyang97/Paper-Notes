@@ -92,6 +92,7 @@ flowchart TD
 在 code-to-style 上，CoTyle 的风格一致性（0.6007）显著高于 Midjourney（0.4734），美学也大幅领先（0.7173 vs 0.5948）；仅多样性略低于 Midjourney（0.7764 vs 0.8088），作者归因于训练数据风格广度不够。在图条件设定下，CoTyle\* 的一致性（0.5791）也优于所有开源参考图方法。
 
 ### 消融实验
+
 | 配置 | Aesthetics ↑ | CLIP-T ↑ | Consistency ↑ | 说明 |
 |------|------|------|------|------|
 | 完整 $\mathcal{L}_{\text{style}}$ | 0.7178 | 0.3230 | **0.5791** | 对比+重建+VQ |
@@ -138,11 +139,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] RegionRoute: Regional Style Transfer with Diffusion Model](regionroute_regional_style_transfer_with_diffusion_model.md)
 - [\[CVPR 2026\] Evaluating Generative Models via One-Dimensional Code Distributions](evaluating_generative_models_via_one-dimensional_code_distributions.md)
 - [\[CVPR 2026\] Style-GRPO: Semantic-Aware Preference Optimization for Image Style Transfer Guided by Reward Modeling](style-grpo_semantic-aware_preference_optimization_for_image_style_transfer_guide.md)
-- [\[CVPR 2026\] StyleTextGen: Style-Conditioned Multilingual Scene Text Generation](styletextgen_style-conditioned_multilingual_scene_text_generation.md)
-- [\[CVPR 2026\] SplitFlux: Learning to Decouple Content and Style from a Single Image](splitflux_learning_to_decouple_content_and_style_from_a_single_image.md)
-- [\[CVPR 2026\] StyleDoctor: Towards Specialist Reward Model for Style-centric Generation Tasks](styledoctor_towards_specialist_reward_model_for_style-centric_generation_tasks.md)
+- [\[CVPR 2026\] Mixture of Style Experts for Diverse Image Stylization](mixture_of_style_experts_for_diverse_image_stylization.md)
+- [\[CVPR 2026\] Hint2Gen: Bridging Understanding and Generation via Code-structured Hints](hint2gen_bridging_understanding_and_generation_via_code-structured_hints.md)
 
 </div>
 

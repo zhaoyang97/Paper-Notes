@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 AI安全论文汇总 · 4篇论文解读
+  ACL2026 AI安全论文汇总 · 5篇论文解读
 description: >-
-  4篇ACL2026的 AI 安全方向论文解读，涵盖对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  5篇ACL2026的 AI 安全方向论文解读，涵盖对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ACL2026"
   - "AI 安全"
@@ -16,17 +16,19 @@ item_list:
     t: "On the (In-)Security of the Shuffling Defense in the Transformer Secure Inference"
   - u: "reverse_constitutional_ai_a_framework_for_controllable_toxic_data_generation_via/"
     t: "Reverse Constitutional AI: A Framework for Controllable Toxic Data Generation via Probability-Clamped RLAIF"
+  - u: "signals_are_not_states_neuro-symbolic_safeguards_for_culturally_aware_classroom_/"
+    t: "Signals Are Not States: Neuro-Symbolic Safeguards for Culturally Aware Classroom AI"
   - u: "univid_unified_vision-language_model_for_video_moderation/"
     t: "UniVid: 统一视频审核的视觉语言模型"
-item_total: 4
+item_total: 5
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**💬 ACL2026** · **4** 篇论文解读
+**💬 ACL2026** · **5** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (148)](../../CVPR2026/ai_safety/index.md) · [🧪 ICML2026 (41)](../../ICML2026/ai_safety/index.md) · [🔬 ICLR2026 (27)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (45)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (73)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (24)](../../ICCV2025/ai_safety/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (145)](../../CVPR2026/ai_safety/index.md) · [🧪 ICML2026 (114)](../../ICML2026/ai_safety/index.md) · [🔬 ICLR2026 (36)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (45)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (73)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (24)](../../ICCV2025/ai_safety/index.md)
 
 **[OmniCompliance-100K: A Multi-Domain Rule-Grounded Real-World Safety Compliance Dataset](omnicompliance-100k_a_multi-domain_rule-grounded_real-world_safety_compliance_da.md)**
 
@@ -39,6 +41,10 @@ item_total: 4
 **[Reverse Constitutional AI: A Framework for Controllable Toxic Data Generation via Probability-Clamped RLAIF](reverse_constitutional_ai_a_framework_for_controllable_toxic_data_generation_via.md)**
 
 :   提出 Reverse Constitutional AI (R-CAI)，通过反转 Constitutional AI 的原则为"毒性宪法"，结合批评-修正循环和概率截断的 RLAIF 机制，实现自动化、可控的多维度对抗毒性数据合成，同时通过概率截断解决奖励黑客导致的语义退化问题（语义连贯性提升15%）。
+
+**[Signals Are Not States: Neuro-Symbolic Safeguards for Culturally Aware Classroom AI](signals_are_not_states_neuro-symbolic_safeguards_for_culturally_aware_classroom_.md)**
+
+:   论文主张课堂 AI 不该把"沉默、回避眼神、语码转换"这类文化情境化的信号直接读成"低参与、不专心、能力差"的教育判断，提出神经符号框架 NSCR：先把多模态信号落成带不确定性、来源和**文化作用域**的类型化事实，再通过可执行推理与治理策略组合出有据声明，证据不足或有刻板印象风险时**主动弃答（DEFER）**。
 
 **[UniVid: 统一视频审核的视觉语言模型](univid_unified_vision-language_model_for_video_moderation.md)**
 

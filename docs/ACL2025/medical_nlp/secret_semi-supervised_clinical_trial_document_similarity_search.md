@@ -20,7 +20,7 @@ tags:
 **作者**: Trisha Das, Afrah Shafquat, Beigi Mandis, Jacob Aptekar, Jimeng Sun
 **机构**: University of Illinois Urbana-Champaign, Medidata Solutions
 **代码**: 未开源  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: clinical trial, document similarity, contrastive learning, semi-supervised, information retrieval
 
 ## 一句话总结

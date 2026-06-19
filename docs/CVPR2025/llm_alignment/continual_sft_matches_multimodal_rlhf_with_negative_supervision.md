@@ -146,8 +146,8 @@ SOTA 对比（混合 15k 数据，与 SeVa、SIMA 等方法在其各自最优设
 
 - [\[ICML 2026\] Mitigating Reward Hacking in RLHF via Bayesian Non-negative Reward Modeling](../../ICML2026/llm_alignment/mitigating_reward_hacking_in_rlhf_via_bayesian_non-negative_reward_modeling.md)
 - [\[ICCV 2025\] Heuristic-Induced Multimodal Risk Distribution Jailbreak Attack for Multimodal Large Language Models](../../ICCV2025/llm_alignment/heuristic-induced_multimodal_risk_distribution_jailbreak_attack_for_multimodal_l.md)
-- [\[ACL 2026\] RbtAct: Rebuttal as Supervision for Actionable Review Feedback Generation](../../ACL2026/llm_alignment/rbtact_rebuttal_as_supervision_for_actionable_review_feedback_generation.md)
 - [\[ACL 2025\] Aligning to What? Limits to RLHF Based Alignment](../../ACL2025/llm_alignment/aligning_to_what_limits_to_rlhf_based_alignment.md)
+- [\[ACL 2026\] RbtAct: Rebuttal as Supervision for Actionable Review Feedback Generation](../../ACL2026/llm_alignment/rbtact_rebuttal_as_supervision_for_actionable_review_feedback_generation.md)
 - [\[ICML 2025\] DPO Meets PPO: Reinforced Token Optimization for RLHF](../../ICML2025/llm_alignment/dpo_meets_ppo_reinforced_token_optimization_for_rlhf.md)
 
 </div>

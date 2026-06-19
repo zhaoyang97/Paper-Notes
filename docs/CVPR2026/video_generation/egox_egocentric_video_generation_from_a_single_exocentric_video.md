@@ -99,6 +99,7 @@ $$s'_{m,n} = s_{m,n} + \log\big(g(\hat q_m,\hat k_n)\cdot\lambda_g\big),\qquad g
 物体类指标差距最大（Seen 场景 IoU 0.363 vs 次优 0.128，FVD 184 vs 508），说明 EgoX 在保几何/物体一致性上远强于基线。图像类绝对值偏低是合成未见区域的固有难度所致，但仍全面领先。Wan VACE 的 VBench 时序平滑分最高，但那是因为它生成**过静**的视频（Dynamic Degree 仅 0.673），EgoX 在动态性和保真度间更平衡。
 
 ### 消融实验（Seen 场景）
+
 | 配置 | PSNR↑ | LPIPS↓ | IoU↑ | FVD↓ | 说明 |
 |------|-------|--------|------|------|------|
 | Full (EgoX) | 16.05 | 0.498 | 0.363 | 184.47 | 完整模型 |
@@ -145,10 +146,10 @@ $$s'_{m,n} = s_{m,n} + \log\big(g(\hat q_m,\hat k_n)\cdot\lambda_g\big),\qquad g
 ## 相关论文
 
 - [\[CVPR 2026\] EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses](egocontrol_controllable_egocentric_video_generation_via_3d_full-body_poses.md)
+- [\[CVPR 2026\] Generating Humanless Environment Walkthroughs from Egocentric Walking Tour Videos](generating_humanless_environment_walkthroughs_from_egocentric_walking_tour_video.md)
 - [\[CVPR 2026\] EgoEdit: Dataset, Real-Time Streaming Model, and Benchmark for Egocentric Video Editing](egoedit_dataset_real-time_streaming_model_and_benchmark_for_egocentric_video_edi.md)
 - [\[ECCV 2024\] SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](../../ECCV2024/video_generation/sv3d_novel_multi-view_synthesis_and_3d_generation_from_a_single_image_using_late.md)
 - [\[ICCV 2025\] ReCamMaster: Camera-Controlled Generative Rendering from A Single Video](../../ICCV2025/video_generation/recammaster_camera-controlled_generative_rendering_from_a_single_video.md)
-- [\[ICCV 2025\] Causal-Entity Reflected Egocentric Traffic Accident Video Synthesis](../../ICCV2025/video_generation/causal-entity_reflected_egocentric_traffic_accident_video_synthesis.md)
 
 </div>
 

@@ -107,6 +107,7 @@ $$\mathcal{O}(x,y,z) = \phi(z_{\text{query}}(x,y,z))$$
 把 PASR 单独接到 Coders 上（Hard 子集 ACD 从 10.146 降到 1.816），直接证明收益主要来自 PASR 而非整体架构堆料。
 
 ### 消融实验
+
 | 配置 | Hard 子集 AP ↑ | Hard 子集 ACD ↓ | 说明 |
 |------|----------------|-----------------|------|
 | 完整 UniPR | 0.752 | 1.224 | — |
@@ -152,9 +153,9 @@ $$\mathcal{O}(x,y,z) = \phi(z_{\text{query}}(x,y,z))$$
 
 - [\[CVPR 2026\] SPARK: Sim-ready Part-level Articulated Reconstruction with VLM Knowledge](spark_sim-ready_part-level_articulated_reconstruction_with_vlm_knowledge.md)
 - [\[CVPR 2026\] H²A²: Homogeneity-Aware and Heterogeneity-Aware Feature Perception for Unified Indoor 3D Object Detection](h2a2_homogeneity-aware_and_heterogeneity-aware_feature_perception_for_unified_in.md)
+- [\[CVPR 2026\] 3D-Object Perception Transformer (3PT)](3d-object_perception_transformer_3pt.md)
+- [\[CVPR 2026\] AREA3D: Active Reconstruction Agent with Unified Feed-Forward 3D Perception and Vision-Language Guidance](area3d_active_reconstruction_agent_with_unified_feed-forward_3d_perception_and_v.md)
 - [\[CVPR 2026\] Generalizable Structure-Aware Keypoint Correspondence for Category-Unified 3D Single Object Tracking](generalizable_structure-aware_keypoint_correspondence_for_category-unified_3d_si.md)
-- [\[CVPR 2026\] SE(3)-Equivariance with Geometric and Topological Guidance for Category-Level Object Pose Estimation](se3-equivariance_with_geometric_and_topological_guidance_for_category-level_obje.md)
-- [\[CVPR 2026\] PE3R: Perception-Efficient 3D Reconstruction](pe3r_perception-efficient_3d_reconstruction.md)
 
 </div>
 

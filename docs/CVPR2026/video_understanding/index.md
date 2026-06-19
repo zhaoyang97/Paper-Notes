@@ -1,40 +1,50 @@
 ---
 title: >-
-  CVPR2026 视频理解论文汇总 · 179篇论文解读
+  CVPR2026 视频理解论文汇总 · 187篇论文解读
 description: >-
-  179篇CVPR2026的视频理解方向论文解读，涵盖目标跟踪、推理、压缩/编码、异常检测、Agent、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  187篇CVPR2026的视频理解方向论文解读，涵盖目标跟踪、语义分割、压缩/编码、多模态、异常检测、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "视频理解"
   - "论文解读"
   - "论文笔记"
   - "目标跟踪"
-  - "推理"
+  - "语义分割"
   - "压缩/编码"
+  - "多模态"
   - "异常检测"
   - "Agent"
-  - "多模态"
 item_list:
-  - u: "a_multi-agent_perception-action_alliance_for_efficient_long_video_reasoning/"
-    t: "A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning"
+  - u: "a_stitch_in_time_learning_procedural_workflow_via_self_supervised_plackett_luce_r/"
+    t: "A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking"
+  - u: "active_intelligence_in_video_avatars_via_closed-loop_world_modeling/"
+    t: "Active Intelligence in Video Avatars via Closed-loop World Modeling"
   - u: "adaptive_capacity_autoregressive_visual_tracking/"
     t: "Adaptive Capacity Autoregressive Visual Tracking"
   - u: "adaspark_adaptive_sparsity_for_efficient_long_video_understanding/"
     t: "AdaSpark: Adaptive Sparsity for Efficient Long-Video Understanding"
+  - u: "adaspot_spend_resolution_where_it_matters_for_precise_event_spotting/"
+    t: "AdaSpot: Spend Resolution Where It Matters for Precise Event Spotting"
   - u: "affordance-first_decomposition_for_continual_learning_in_video-language_understa/"
     t: "Affordance-First Decomposition for Continual Learning in Video–Language Understanding"
   - u: "alert-clip_abnormality-aware_latent-enhanced_representation_tuning_of_clip_for_v/"
     t: "Alert-CLIP: Abnormality-aware Latent-Enhanced Representation Tuning of CLIP for Video Anomaly Detection"
+  - u: "alphamatte4k_mumatting_dataset_and_model_for_ultra-micro_precision_alpha_video_m/"
+    t: "$\\alpha$Matte4K & $\\mu$Matting: Dataset and Model for Ultra-Micro Precision Alpha Video Matting"
   - u: "an_efficient_token_compression_framework_for_visual_object_tracking/"
     t: "An Efficient Token Compression Framework for Visual Object Tracking"
   - u: "an_empirical_study_on_how_video-llms_answer_video_questions/"
     t: "An Empirical Study on How Video-LLMs Answer Video Questions"
+  - u: "asynchronous_temporal_modeling_with_two-agent_framework_for_streaming_dense_vide/"
+    t: "Asynchronous Temporal Modeling with Two-Agent Framework for Streaming Dense Video Captioning"
+  - u: "autocut_end-to-end_advertisement_video_editing_based_on_multimodal_discretizatio/"
+    t: "AutoCut: End-to-end Advertisement Video Editing Based on Multimodal Discretization and Controllable Generation"
   - u: "autogaze_attend_before_attention_efficient_video/"
     t: "Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing"
-  - u: "beyond_caption-based_queries_in_video_moment_retrieval/"
-    t: "Beyond Caption-Based Queries in Video Moment Retrieval"
   - u: "beyond_explicit_language_plug-and-play_visual-to-linguistic_modeling_toward_gene/"
     t: "Beyond Explicit Language: Plug-and-Play Visual-to-Linguistic Modeling Toward General Object Tracking"
+  - u: "beyond_static_frames_temporal_aggregate-and-restore_vision_transformer_for_human/"
+    t: "Beyond Static Frames: Temporal Aggregate-and-Restore Vision Transformer for Human Pose Estimation"
   - u: "boosting_self-supervised_tracking_with_contextual_prompts_and_noise_learning/"
     t: "Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning"
   - u: "bootstrapping_video_semantic_segmentation_model_via_distillation-assisted_test-t/"
@@ -43,10 +53,8 @@ item_list:
     t: "Breaking Smooth-Motion Assumptions: A UAV Benchmark for Multi-Object Tracking in Complex and Adverse Conditions"
   - u: "building_a_precise_video_language_with_human-ai_oversight/"
     t: "Building a Precise Video Language with Human-AI Oversight"
-  - u: "cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide/"
-    t: "CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering"
-  - u: "chronotrack_temporally_consistent_long_term_memory_for_3d_single_object_tracking/"
-    t: "Temporally Consistent Long-Term Memory for 3D Single Object Tracking"
+  - u: "captionformer_unified_segmentation_tracking_and_captioning_for_spatio-temporal_o/"
+    t: "CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects"
   - u: "cinesrd_leveraging_visual_acoustic_and_linguistic_cues_for_open-world_visual_med/"
     t: "CineSRD: Leveraging Visual, Acoustic, and Linguistic Cues for Open-World Visual Media Speaker Diarization"
   - u: "clcr_cross-level_semantic_collaborative_representation_for_multimodal_learning/"
@@ -57,39 +65,35 @@ item_list:
     t: "CoCoVideo: The High-Quality Commercial-Model-Based Contrastive Benchmark for AI-Generated Video Detection"
   - u: "color_when_it_counts_grayscale-guided_online_triggering_for_always-on_streaming_/"
     t: "Color When It Counts: Grayscale-Guided Online Triggering for Always-On Streaming Video Sensing"
-  - u: "compositional_transformation_reasoning_for_composed_video_retrieval/"
-    t: "Compositional Transformation Reasoning for Composed Video Retrieval"
   - u: "cowtracker_tracking_by_warping_instead_of_correlation/"
     t: "CoWTracker: Tracking by Warping instead of Correlation"
   - u: "cva_context-aware_video-text_alignment_for_video_temporal_grounding/"
     t: "CVA: Context-aware Video-text Alignment for Video Temporal Grounding"
+  - u: "d2fanet_enhancing_video_object_detection_with_dual-domain_feature_aggregation_ne/"
+    t: "D2FANet: Enhancing Video Object Detection with Dual-Domain Feature Aggregation Network"
   - u: "darkact_a_rgb-thermal_dataset_and_fusion_framework_for_multimodal_low-light_acti/"
     t: "DarkAct: A RGB-Thermal Dataset and Fusion Framework for Multimodal Low-Light Action Recognition"
   - u: "darkshake-dvs_event-based_human_action_recognition_under_low-light_and_shaking_c/"
     t: "DarkShake-DVS: Event-based Human Action Recognition under Low-light and Shaking Camera Conditions"
-  - u: "decompose_and_transfer_cot-prompting_enhanced_alignment_for_open-vocabulary_temp/"
-    t: "Decompose and Transfer: CoT-Prompting Enhanced Alignment for Open-Vocabulary Temporal Action Detection"
-  - u: "detach_decomposed_spatio-temporal_alignment_for_exocentric_video_and_ambient_sen/"
-    t: "DETACH: Decomposed Spatio-Temporal Alignment for Exocentric Video and Ambient Sensors with Staged Learning"
-  - u: "divide_then_ground_adapting_frame_selection_to_query_types_for_long-form_video_u/"
-    t: "DIvide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding"
-  - u: "do_you_see_what_i_am_pointing_at_gesture-based_egocentric_video_question_answeri/"
-    t: "Do You See What I Am Pointing At? Gesture-Based Egocentric Video Question Answering"
-item_total: 179
+item_total: 187
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 视频理解
 
-**📷 CVPR2026** · **179** 篇论文解读
+**📷 CVPR2026** · **187** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (17)](../../ICML2026/video_understanding/index.md) · [🔬 ICLR2026 (10)](../../ICLR2026/video_understanding/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/video_understanding/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/video_understanding/index.md) · [📹 ICCV2025 (56)](../../ICCV2025/video_understanding/index.md) · [🧪 ICML2025 (4)](../../ICML2025/video_understanding/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (17)](../../ICML2026/video_understanding/index.md) · [🔬 ICLR2026 (14)](../../ICLR2026/video_understanding/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/video_understanding/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/video_understanding/index.md) · [📹 ICCV2025 (56)](../../ICCV2025/video_understanding/index.md) · [🧪 ICML2025 (4)](../../ICML2025/video_understanding/index.md)
 
-🔥 **高频主题：** 目标跟踪 ×34 · 推理 ×18 · 压缩/编码 ×11 · 异常检测 ×8 · Agent ×7
+🔥 **高频主题：** 目标跟踪 ×35 · 语义分割 ×14 · 压缩/编码 ×11 · 多模态 ×10 · 异常检测 ×8
 
-**[A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](a_multi-agent_perception-action_alliance_for_efficient_long_video_reasoning.md)**
+**[A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](a_stitch_in_time_learning_procedural_workflow_via_self_supervised_plackett_luce_r.md)**
 
-:   提出 A4VL，一个无训练的多智能体感知-行动联盟框架，通过事件驱动视频分块、线索引导的关键帧选择和多轮智能体协商剪枝机制，在五个视频问答基准上以显著更低的推理延迟全面超越 28 个基线方法。
+:   提出 PL-Stitch 自监督框架，利用 Plackett-Luce 概率排序模型将视频帧的时序排序作为预训练信号，学习具有"程序感知"能力的视频表示，在手术阶段识别和烹饪动作分割上全面超越现有自监督方法。
+
+**[Active Intelligence in Video Avatars via Closed-loop World Modeling](active_intelligence_in_video_avatars_via_closed-loop_world_modeling.md)**
+
+:   针对当前视频数字人"只会被动跟随语音/姿态、缺乏自主目标驱动"的问题，本文提出 L-IVA 任务（把数字人控制建模成以 I2V 生成模型为环境模拟器的 POMDP）和 ORCA 框架——用「观察-思考-行动-反思」(OTAR) 闭环对抗生成随机性、用 System 2/System 1 双系统分层完成开放域规划与精确落地，在 100 个任务的基准上把平均任务成功率做到 71.0%，显著超过开环、反应式与无反思基线。
 
 **[Adaptive Capacity Autoregressive Visual Tracking](adaptive_capacity_autoregressive_visual_tracking.md)**
 
@@ -99,6 +103,10 @@ item_total: 179
 
 :   提出 AdaSpark，通过 3D 时空 cube 分区和两个协同的自适应稀疏机制（cube 级注意力选择 + token 级 FFN 选择），将长视频处理 FLOPs 降低最多 57% 同时保持性能。
 
+**[AdaSpot: Spend Resolution Where It Matters for Precise Event Spotting](adaspot_spend_resolution_where_it_matters_for_precise_event_spotting.md)**
+
+:   AdaSpot 用低分辨率整帧抓全局语义、再借显著图无训练地圈出每帧最关键的一小块区域送进高分辨率分支补细节，从而在精确事件检测（PES）中只把算力花在"刀刃"上，在 Tennis、FineDiving 等最严格的 mAP@0 帧指标上拿到 SOTA（+3.98 / +2.26 mAP），而几乎不增加计算量。
+
 **[Affordance-First Decomposition for Continual Learning in Video–Language Understanding](affordance-first_decomposition_for_continual_learning_in_video-language_understa.md)**
 
 :   针对视频-语言持续学习中"什么该稳定、什么该可塑"边界模糊的问题，本文提出 Affordance-First Decomposition（AFD）：把视频映射成缓变的 affordance token 作为跨任务共享、稳定的"证据底座"，把可塑性集中到一个按 query 路由、按冲突长秩的 LoRA 调度器里，并用仅存储问题（不存视频）的回放蒸馏来防遗忘，在 ViLCo-Bench、domain/time-incremental VideoQA 上同时拿到更高准确率与更低遗忘。
@@ -106,6 +114,10 @@ item_total: 179
 **[Alert-CLIP: Abnormality-aware Latent-Enhanced Representation Tuning of CLIP for Video Anomaly Detection](alert-clip_abnormality-aware_latent-enhanced_representation_tuning_of_clip_for_v.md)**
 
 :   针对 CLIP 在文本空间里把"正常"和"异常"描述高度纠缠、导致视频对两类 prompt 给出几乎一样相似度的问题，本文用全局/区域/难负样本三级跨模态对比训练（配套自建的带框标注数据集 VAGTA）重塑 CLIP 的嵌入几何，让它成为异常感知更强的 backbone，在弱监督、零样本、开放词表三种 VAD 设定下都稳定超过原始 CLIP。
+
+**[$\alpha$Matte4K & $\mu$Matting: Dataset and Model for Ultra-Micro Precision Alpha Video Matting](alphamatte4k_mumatting_dataset_and_model_for_ultra-micro_precision_alpha_video_m.md)**
+
+:   针对 4K 人像视频抠图，本文一边用物理渲染（PBR）造了一个像素级精确、前景背景物理自洽的大规模数据集 $\alpha$Matte4K，一边提出 $\mu$Matting——先用人像先验 MAE 出一张粗 alpha 并圈出"难点区域"，再只对这些稀疏区域做 3D 卷积细化，从而首次实现不降采样的全分辨率 4K 视频抠图，精度和时序一致性都超过现有 SOTA。
 
 **[An Efficient Token Compression Framework for Visual Object Tracking](an_efficient_token_compression_framework_for_visual_object_tracking.md)**
 
@@ -115,17 +127,25 @@ item_total: 179
 
 :   这篇论文用"注意力 knockout"系统性地解剖了 Video-LLM 回答视频问题的内部机制，发现它们存在清晰的"前层感知、后层推理"两阶段模式、时空建模主要靠语言→视频的检索而非帧内/帧间视频自注意力、且只有少数中间层是关键层，并据此设计了一个简单的视觉 token 早退 + 时序注意力裁剪策略大幅省算力而几乎不掉点。
 
+**[Asynchronous Temporal Modeling with Two-Agent Framework for Streaming Dense Video Captioning](asynchronous_temporal_modeling_with_two-agent_framework_for_streaming_dense_vide.md)**
+
+:   针对流式稠密视频描述里"何时该说话"难以靠阈值控制的痛点，本文用一个小模型当"先知"（Oracle）抢跑检测事件边界、一个大模型当"听众"（Listener）收到信号才生成描述的双智能体异步框架 Takusen，从机制上消除阈值，在 ActivityNet Captions 和 YouCook2 上取得流式 SOTA。
+
+**[AutoCut: End-to-end Advertisement Video Editing Based on Multimodal Discretization and Controllable Generation](autocut_end-to-end_advertisement_video_editing_based_on_multimodal_discretizatio.md)**
+
+:   AutoCut 提出了一个端到端的广告视频编辑框架，通过残差向量量化（RQVAE）将视频、音频和文本统一到共享的离散 token 空间中，在 Qwen3-8B 上进行多模态对齐和监督微调，实现了视频选择、排序、脚本生成和背景音乐选择四项任务的统一处理，在多项指标上超越 GPT-4o 基线。
+
 **[Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing](autogaze_attend_before_attention_efficient_video.md)**
 
 :   提出 AutoGaze，一个仅 3M 参数的轻量模块，在 ViT 之前自回归选择最少的多尺度 patch 集合以重建视频，去除 4×-100× 时空冗余，实现 ViT 最高 19× / MLLM 最高 10× 加速，首次使 MLLM 可扩展到 1K 帧 4K 分辨率视频，在 VideoMME 上达到 67.0%。
 
-**[Beyond Caption-Based Queries in Video Moment Retrieval](beyond_caption-based_queries_in_video_moment_retrieval.md)**
-
-:   本文指出现有视频时刻检索（VMR）模型在「描述式 caption 查询」上训练、却在「真实搜索查询」上崩盘，根因是 DETR 解码器查询坍缩到只有 4 个活跃；通过构建三个搜索查询基准 + 去掉解码器自注意力 + 查询 dropout 两处架构改动，在搜索查询上把 mAPm 最高提升 14.82%、多瞬间查询上提升 21.83%。
-
 **[Beyond Explicit Language: Plug-and-Play Visual-to-Linguistic Modeling Toward General Object Tracking](beyond_explicit_language_plug-and-play_visual-to-linguistic_modeling_toward_gene.md)**
 
 :   针对视觉-语言跟踪依赖静态文本、缺文本即失效的痛点，本文提出一个即插即用模块 TIMI：用"文本反演模块"把模板和搜索区域的视觉 patch 反向映射成 CLIP 文本嵌入空间里的伪描述（pseudo-description），再通过"多层语义注入机制"把这些隐式语言线索逐层注回视觉骨干，从而无需任何显式文本输入就能为跟踪提供动态自适应的语义引导，在 MCITrack/DUTrack/SeqTrack 等多个跟踪器上以极小开销稳定涨点。
+
+**[Beyond Static Frames: Temporal Aggregate-and-Restore Vision Transformer for Human Pose Estimation](beyond_static_frames_temporal_aggregate-and-restore_vision_transformer_for_human.md)**
+
+:   在不改动 ViTPose 朴素 ViT 主干和轻量解码器的前提下，TAR-ViTPose 用「关节为中心的时序聚合（JTA）+ 全局恢复注意力（GRA）」即插即用地把相邻帧的关节特征对齐聚合并注回当前帧，使视频 2D 姿态估计在 PoseTrack2017 上比单帧 ViTPose 提升 +2.3 mAP，同时跑得更快（ViT-S 达 413 fps）。
 
 **[Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning](boosting_self-supervised_tracking_with_contextual_prompts_and_noise_learning.md)**
 
@@ -143,13 +163,9 @@ item_total: 179
 
 :   针对视频字幕"无规范、无监督、模型爱幻觉"的老问题，本文用一套**结构化规范（5 个维度 + 200+ 视觉基元）** 定义"该描述什么"，再用 **CHAI（批评式人机监督）** 让模型先写 pre-caption、人类只写"批评"指出错误、模型据此改成 post-caption，自然产出 (pre-caption, critique, post-caption) 三元组；用这些偏好和批评信号做 SFT/DPO 后训练，让开源 Qwen3-VL-8B 在字幕生成、奖励建模、批评生成三项任务上全面超过 Gemini-3.1-Pro，并能反哺 Wan2.2 文生视频跟随 400 词的长 prompt。
 
-**[CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering](cast-bench_benchmarking_causal_chain-grounded_spatio-temporal_reasoning_for_vide.md)**
+**[CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects](captionformer_unified_segmentation_tracking_and_captioning_for_spatio-temporal_o.md)**
 
-:   CaST-Bench 提出"因果链时空 grounding 视频问答"这一新任务——模型不仅要答对，还要把答案落到一条由时间段 + bounding box 标注的因果证据链上；通过人机协作流水线构建了 1,015 段视频、2,066 道题的高质量数据集，并设计了同时评估答案正确性与证据 grounding 的指标，实测 15 个主流 VLM 表现远低于人类（最佳 50.34% vs 人类 91.89%）。
-
-**[Temporally Consistent Long-Term Memory for 3D Single Object Tracking](chronotrack_temporally_consistent_long_term_memory_for_3d_single_object_tracking.md)**
-
-:   提出 ChronoTrack，通过紧凑的可学习记忆 token 和两个互补目标（时间一致性损失 + 记忆循环一致性损失）构建鲁棒的长程 3D 单目标跟踪框架，在多个基准上达到 SOTA 并以 42 FPS 实时运行。
+:   针对密集视频物体描述（DVOC）缺少 object 级标注数据的痛点，本文用 VLM（Gemini 2.0 Flash）在画了 bounding box 的视频上自动生成 object 级字幕，把 LVIS/LV-VIS 扩成首个带 (mask, box, category, caption) 四元组的 DVOC 训练集（LVISCap / LV-VISCap），并训练 CaptionFormer——首个端到端联合「分割+检测+跟踪+描述」每条物体轨迹的模型，在 VidSTG/VLN/BenSMOT 三个 benchmark 上刷新 SOTA。
 
 **[CineSRD: Leveraging Visual, Acoustic, and Linguistic Cues for Open-World Visual Media Speaker Diarization](cinesrd_leveraging_visual_acoustic_and_linguistic_cues_for_open-world_visual_med.md)**
 
@@ -171,10 +187,6 @@ item_total: 179
 
 :   提出"灰度常开、彩色按需"新范式，通过 ColorTrigger 在灰度流上用轻量二次规划在线检测色彩冗余，仅使用 8.1% 的 RGB 帧即保持全彩基线 91.6% 的性能，实现资源受限设备的 always-on 视频感知。
 
-**[Compositional Transformation Reasoning for Composed Video Retrieval](compositional_transformation_reasoning_for_composed_video_retrieval.md)**
-
-:   针对"给定参考视频 + 修改文本、检索目标视频"的组合视频检索任务，本文提出零样本框架 MoRe：先用多目标帕累托排序召回一小批高质量候选，再让 MLLM 把视频拆成"实体/动作/场景"三维语义、以两两比较的方式推理哪个候选最符合修改意图，在 EgoCVR / WebVid-CoVR 上 R@1 分别提升 +5.8 / +10.8。
-
 **[CoWTracker: Tracking by Warping instead of Correlation](cowtracker_tracking_by_warping_instead_of_correlation.md)**
 
 :   CoWTracker 把稠密点追踪里"算 cost volume 找匹配"换成"按当前轨迹估计把目标帧特征 warp 回参考帧 + 时空 Transformer 全局推理"，去掉了随分辨率平方增长的代价体，在 TAP-Vid / RoboTAP 上拿到 SOTA，且同一个模型零样本迁移到光流也能打过专门的光流方法。
@@ -182,6 +194,10 @@ item_total: 179
 **[CVA: Context-aware Video-text Alignment for Video Temporal Grounding](cva_context-aware_video-text_alignment_for_video_temporal_grounding.md)**
 
 :   提出 CVA（Context-aware Video-text Alignment）框架，通过 Query-aware Context Diversification（QCD）、Context-invariant Boundary Discrimination（CBD）损失和 Context-enhanced Transformer Encoder（CTE）三个协同组件，解决视频时序定位中的假阴性和背景关联问题，在 QVHighlights 上 R1@0.7 提升约 5 个点。
+
+**[D2FANet: Enhancing Video Object Detection with Dual-Domain Feature Aggregation Network](d2fanet_enhancing_video_object_detection_with_dual-domain_feature_aggregation_ne.md)**
+
+:   D2FANet 第一次把**频域特征聚合**引入视频目标检测，用一条频域分支（八度卷积分解高低频 + 跨尺度邻域融合 + 频域时序注意力）和一条时空分支（重要性图引导的自适应 token 聚合）分别强化 object query，再拼接送进检测头，在 ImageNet VID 上以 Swin-Base 达到 91.8% mAP 且推理最快。
 
 **[DarkAct: A RGB-Thermal Dataset and Fusion Framework for Multimodal Low-Light Action Recognition](darkact_a_rgb-thermal_dataset_and_fusion_framework_for_multimodal_low-light_acti.md)**
 
@@ -191,9 +207,9 @@ item_total: 179
 
 :   针对"低光 + 手持 6-DoF 抖动"这一真实但被长期忽视的动作识别场景，本文先用 IMU 角速度驱动一套自适应运动补偿（AIMC）把抖动造成的事件流畸变矫正掉，再用迭代贪心采样（IGS）挑出最有信息量的关键帧，最后用四阶段混合 Swin Transformer（HSTS）做识别，并配套发布了首个低光 + 强抖动 + 同步 IMU 的事件动作数据集 DarkShake-DVS（18,041 段、62 类），在三个基准上均超过 SOTA。
 
-**[Decompose and Transfer: CoT-Prompting Enhanced Alignment for Open-Vocabulary Temporal Action Detection](decompose_and_transfer_cot-prompting_enhanced_alignment_for_open-vocabulary_temp.md)**
+**[DeRVOS: Decoupling Consistent Trajectory Generation and Multimodal Understanding for Referring Video Object Segmentation](dervos_decoupling_consistent_trajectory_generation_and_multimodal_understanding_.md)**
 
-:   提出 Phase-wise Decomposition and Alignment (PDA) 框架，利用 LLM 的 CoT 推理能力将动作标签分解为"开始-中间-结束"三个阶段描述，通过文本引导的前景过滤和自适应阶段对齐实现细粒度动作模式迁移，在 THUMOS14 OV-TAD 上 Avg mAP 达 46.9（超越 SOTA Ti-FAD 的 41.2）。
+:   DeRVOS 把指代视频目标分割（RVOS）拆成"一致轨迹生成"和"多模态理解"两条上游分支，分别用冻结的 DVIS++ 和预训练的 BEiT-3 直接产出稳定的实例轨迹和对齐的视觉-文本特征，再用一个 TAIS 模块把任务收敛成"指代表达式 ↔ 实例轨迹"的匹配，在 MeViS 上比 LVLM 方法高 4.7%。
 
 **[DETACH: Decomposed Spatio-Temporal Alignment for Exocentric Video and Ambient Sensors with Staged Learning](detach_decomposed_spatio-temporal_alignment_for_exocentric_video_and_ambient_sen.md)**
 
@@ -215,6 +231,10 @@ item_total: 179
 
 :   提出双智能体强化学习框架，通过 Select Agent（基于IMU信号决定是否启动视觉前端）和 Fusion Agent（自适应融合视觉-惯性状态）两个轻量RL策略，在不完全移除VIBA的前提下大幅降低其调用频率和计算开销，实现精度-效率-显存的更优折中。
 
+**[Dynamics: Language-Based Representation for Inferring Rigid-Body Dynamics From Videos](dynamics_language-based_representation_for_inferring_rigid-body_dynamics_from_vi.md)**
+
+:   本文把"从单目视频反推刚体物理状态与参数"重新定义成一个**文本生成**问题：训练一个 VLM（ΔYNAMICS，基于 Qwen2.5-VL-3B）直接吐出一段描述整个场景的 YAML 配置（几何 / 初速 / 材料 / 相机 / 重力），交给 MuJoCo 重新仿真，并辅以"先用自然语言推理运动事件、再生成配置"和"光流输入"两招提升泛化，在 CLEVRER 上分割 IoU 比主流 VLM 高 7 倍，并能迁移到 235 段真实视频。
+
 **[EarlyTom: Early Token Compression Completes Fast Video Understanding](earlytom_early_token_compression_completes_fast_video_understanding.md)**
 
 :   EarlyTom 是一个免训练的视频 token 压缩框架，它把压缩点从"视觉编码器之后"提前到"视觉编码器内部"做帧合并，再配一套解耦的空间 token 选择策略，在 LLaVA-OneVision-7B 上把首 token 时延（TTFT）最多降 $2.65\times$、FLOPs 降 61%，同时精度保持在全 token 基线的 96% 以上。
@@ -235,9 +255,17 @@ item_total: 179
 
 :   提出 EgoXtreme，首个面向极端条件下第一人称视角的大规模 6D 物体位姿估计基准数据集，涵盖严重运动模糊、动态光照和烟雾遮挡三种真实挑战，揭示了当前 SOTA 位姿估计器在这些条件下的严重失效。
 
+**[ELV-Halluc: Benchmarking Semantic Aggregation Hallucinations in Video Understanding](elv-halluc_benchmarking_semantic_aggregation_hallucinations_in_video_understandi.md)**
+
+:   本文提出"语义聚合幻觉（SAH）"这一被忽视的视频幻觉类型——模型每一帧都看对了，却在跨事件聚合时把语义张冠李戴——并构建首个针对它的基准 ELV-Halluc（348 个多事件视频、对抗三元组问答），系统评测 19 个 MLLM，证明 SAH 随语义复杂度上升，并用改进位置编码 + 8K 对抗对 DPO 把 SAH Ratio 最多降 27.7%。
+
 **[Enhancing Accuracy of Uncertainty Estimation in Appearance-based Gaze Tracking with Probabilistic Evaluation and Calibration](enhancing_accuracy_of_uncertainty_estimation_in_appearance-based_gaze_tracking_w.md)**
 
 :   提出一种数据高效的后验校准方法，通过等保序回归将不确定性感知视线追踪模型的预测分布与真实观测分布对齐，并引入 Coverage Probability Error (CPE) 指标替代不可靠的误差-不确定性相关性(EUC)来评估不确定性质量。
+
+**[Enhancing Video Vision Language Model with Hippocampal Sensing](enhancing_video_vision_language_model_with_hippocampal_sensing.md)**
+
+:   本文模仿海马体的跨模态联想机制，让视频 VLM 先用「跨模态时序预测」（看视频补音频、听音频补视频）做 SFT，再用一种带「负样本感知奖励」的对比 RL（VANAO）逼模型真正联合音视频推理，使 7B/8B 小模型在多个视频 VQA 上逼平 GPT-4o、Gemini-1.5-Pro。
 
 **[Envisioning the Future, One Step at a Time](envisioning_the_future_one_step_at_a_time.md)**
 
@@ -246,6 +274,10 @@ item_total: 179
 **[EthoCLIP: Ontology-Enhanced Video-Language Pretraining for Animal Behavior Understanding](ethoclip_ontology-enhanced_video-language_pretraining_for_animal_behavior_unders.md)**
 
 :   针对动物行为视频"数据极度稀缺"的痛点，本文把专家构建的神经行为本体（NBO）当作归纳偏置注入 CLIP 式视频-语言对比学习：先用本体统一标注口径构建 7.4 万条视频的 AnimalBand 数据集，再用本体语义嵌入 + 层级感知图注意力把行为标签之间的"父子/同义"关系显式编码进文本端，从而在迁移与分类上显著超过传统骨干和通用 VLM，且只用 40%–60% 数据就能逼近全量效果。
+
+**[EVATok: 自适应长度视频Tokenization用于高效视觉自回归生成](evatok_adaptive_length_video_tokenization_for_eff.md)**
+
+:   提出EVATok框架——通过最优token分配估计+轻量路由器+自适应tokenizer训练的三步流程，让视频tokenizer按片段复杂度自适应分配token长度，在UCF-101上节省24.4%+ token同时达到SOTA生成质量。
 
 **[Event6D: Event-based Novel Object 6D Pose Tracking](event6d_event-based_novel_object_6d_pose_tracking.md)**
 
@@ -259,13 +291,29 @@ item_total: 179
 
 :   针对"每类异常样本太少"的细粒度视频异常检测难题，本文提出渐进式跨粒度学习范式——先用海量二元标签学通用异常表示、再用 K-means 伪宏类搭中间语义骨架、最后用稀疏类别标签精修，并以 CLIP 对齐实现为 Fine-VAD，在 UCF-Crime / XD-Violence 上把细粒度异常分类的平均 mAP 相对提升达 47.7%。
 
+**[First Frame Is the Place to Go for Video Content Customization](first_frame_is_the_place_to_go_for_video_content_customization.md)**
+
+:   发现视频生成模型将第一帧隐式地当作「概念记忆缓冲区」来存储和复用多个视觉实体的内在能力，提出 FFGo——仅用 20-50 个训练样本的轻量级 LoRA 适配方法，无需修改架构即可激活这一能力，实现多参考物体的视频内容定制，在用户研究中 81.2% 的情况下被评为最佳。
+
+**[FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance](flashmotion_fewstep_controllable_video_generation.md)**
+
+:   提出 FlashMotion，首个实现少步（4步）轨迹可控视频生成的三阶段训练框架，通过训练轨迹适配器→蒸馏快速生成器→混合对抗+扩散微调适配器的策略，在 4 步推理下同时超越现有多步方法的视觉质量和轨迹精度，实现 47 倍加速。
+
 **[FlexiVideo: Variation-Aware Temporal Dynamics Modeling for Efficient Video Understanding](flexivideo_variation-aware_temporal_dynamics_modeling_for_efficient_video_unders.md)**
 
 :   FlexiVideo 不再对所有视频帧用固定的多帧编码窗口，而是先按帧间差分把视频切成"内部视觉变化平缓"的场景片段，再用一个可动态调整时序窗口的共享 3D 卷积核做场景级编码，从而在把视觉 token 砍掉 43.5% 的同时还能在 6 个视频基准上稳定超过 Qwen2.5-VL-3B。
 
+**[FlowFM: Advancing Dark Optical Flow Estimation with Flow Matching](flowfm_advancing_dark_optical_flow_estimation_with_flow_matching.md)**
+
+:   FlowFM 把"流匹配（flow matching）"第一次引入暗光光流估计（DOFE），用显式流场回归把"噪声→光流"建模成一条可一步走完的传输路径，再配上一个在频域增强幅度、锚定相位的傅里叶去噪解码器 IFDD，在 FCDN / VBOF 两个暗光基准上把 EPE 大幅刷低（VBOF 比次优方法降 35%），且推理只需一步、速度反而最快。
+
 **[FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding](fluxmem_adaptive_hierarchical_memory_for_streaming_video_understanding.md)**
 
 :   提出 FluxMem，一个无需训练的流式视频理解框架，通过层级化记忆设计（短期/中期/长期）和两个自适应 token 压缩模块（TAS 去时间冗余 + SDC 去空间冗余），在丢弃 60-70% 视觉 token 的同时在 StreamingBench 和 OVO-Bench 上取得新 SOTA。
+
+**[FPS-Bench: A Benchmark for High Frame-Rate Video Understanding](fps-bench_a_benchmark_for_high_frame-rate_video_understanding.md)**
+
+:   针对当下视频大模型几乎都把视频降采样到 <1 FPS 这一盲点，作者构建了 FPS-Bench——一个全部由"必须看高帧率才能答对"的问题组成的视频问答基准（1000 题 / 554 段视频），并提出 minFPS 指标量化每道题的最低帧率需求；结果显示 SOTA VLM 准确率仅约 30%（随机 25%），而人类超过 70%，暴露出模型在快速时序事件感知上的根本缺陷。
 
 **[Frame2Freq: Spectral Adapters for Fine-Grained Video Understanding](frame2freq_spectral_adapters_for_fine-grained_video_understanding.md)**
 
@@ -279,9 +327,17 @@ item_total: 179
 
 :   针对"直接把 GCN 和 Mamba 堆在一起会让 Mamba 沿着物理上不相邻的关节顺序乱扫"这一问题，Gamba 先用一个节点分类模块把骨架关节按运动类别重排成对 Mamba 友好的序列，再用单向扫描的状态空间模型同时建模类内局部与类间全局关系，配合 Mamba-TCN 做时序建模，在 NTU RGB+D 60/120 与 NW-UCLA 上以更低的自注意力开销刷到 SOTA。
 
+**[Generative Point Tracking and Forecasting](generative_point_tracking_and_forecasting.md)**
+
+:   把"点跟踪"（预测点现在在哪）和"轨迹预测"（预测点将来去哪）统一成同一个**视频条件下的点生成**问题——训练一个因果的、用视频特征做条件的流匹配扩散 Transformer，有视觉条件时做跟踪、撤掉视觉条件时自然切换成预测，在点预测基准上超过所有先前方法，跟踪精度也逼近高度调优的回归式 SOTA。
+
 **[GIFT: Global Irreplaceability Frame Targeting for Efficient Video Understanding](gift_global_irreplaceability_frame_targeting_for_efficient_video_understanding.md)**
 
 :   GIFT 是一个免训练的关键帧选择框架，把"选哪些帧喂给视频大模型"从贪心式逐帧加点，重构成全局评估每一帧的"不可替代性"（相关性高 × 在更相关帧中视觉上孤立），再用"预算自适应精化"随帧预算增大逐步补回时序上下文，在 LLaVA-Video-7B 上相比均匀采样最高平均提升 12.5%。
+
+**[Gloria: Consistent Character Video Generation via Content Anchors](gloria_consistent_character_video_generation_via_content_anchors.md)**
+
+:   Gloria 提出用一组紧凑的"内容锚帧"（Content Anchors）表征角色的多视角外观和表情身份，通过超集内容锚定（防止复制粘贴）和 RoPE 弱条件（区分多锚帧）两个机制，实现超过 10 分钟的长时一致角色视频生成。
 
 **[GoalForce: Teaching Video Models to Accomplish Physics-Conditioned Goals](goal_force_teaching_video_models_to_accomplish_physics-conditioned_goals.md)**
 
@@ -303,6 +359,10 @@ item_total: 179
 
 :   HieraMamba 提出了基于 Mamba 的层次化视频时间定位架构，核心是 Anchor-MambaPooling（AMP）模块，用 Mamba 的选择性扫描将视频特征逐层压缩为多尺度锚点 token，配合 anchor-conditioned 和 segment-pooled 对比损失增强层次表示的紧凑性和判别性，在 Ego4D-NLQ、MAD 和 TACoS 上达到 SOTA。
 
+**[Hierarchical Action Learning for Weakly-Supervised Action Segmentation](hierarchical_action_learning_for_weakly-supervised_action_segmentation.md)**
+
+:   HAL 利用「低层视觉特征变化快、高层动作语义变化慢」这一时间尺度不对称性，构造层级因果生成过程并配上一个平滑转移约束，让模型在只用动作转录（transcript）的弱监督下学到可识别的高层动作隐变量，从而缓解过分割、在 Breakfast / CrossTask / Hollywood / GTEA 四个基准上刷新弱监督动作分割 SOTA。
+
 **[Hypergraph-State Collaborative Reasoning for Multi-Object Tracking](hypergraph-state_collaborative_reasoning_for_multi-object_tracking.md)**
 
 :   针对多目标跟踪里运动估计"各目标独立预测、易抖动、遮挡即断"的老毛病，本文提出 HyperSSM：用超图把运动状态相近的目标连成超边做"群体共识"，再把超图卷积嵌进状态空间模型（SSM）的状态转移里同时管时间平滑，从而让相关目标互相约束、彼此补全运动，在 MOT17/MOT20/DanceTrack/SportsMOT 四个线性与非线性基准上都拿到 SOTA。
@@ -310,10 +370,6 @@ item_total: 179
 **[Image Guides Images: Consistent Video Amodal Completion with Rectified In-Context Exemplar Guidance](image_guides_images_consistent_video_amodal_completion_with_rectified_in-context.md)**
 
 :   IC-Amodal 提出一个**训练免微调**的视频非模态补全（VAC）框架：直接借用预训练图像 inpainting 模型（Flux.1-Fill），把 VAC 重述成"整流式 in-context 学习"——用双帧协同构造可靠样例解决冷启动，再通过子区域注意力权重调制把模型注意力锚定到样例上，从而在不训练的情况下同时拿到开放世界泛化和帧间一致性，超过需要在合成数据上微调的 SOTA。
-
-**[Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)**
-
-:   本文提出 VideoReasoner：直接在 Base MLLM（Qwen2-VL-7B-Base）上用 3K 冷启动 + 5K 强化学习共 8K 数据，训练出"事件推理 / 关键帧推理 / 直接回答"三种视频推理能力，再在推理阶段把它们组合成"先定位关键事件与关键帧、再密集采样回灌生成答案"的流水线，在 7 个视频基准上大幅超过 Base 模型，并在多个基准上追平甚至超越用大规模数据训练的 Qwen2.5-VL-7B-Instruct。
 
 **[Interactive Tracking: A Human-in-the-Loop Paradigm with Memory-Augmented Adaptation](interactive_tracking_a_human-in-the-loop_paradigm_with_memory-augmented_adaptati.md)**
 
@@ -323,9 +379,17 @@ item_total: 179
 
 :   InternVideo-Next 把传统掩码视频建模的"编码器-解码器"拆成 **编码器-预测器-解码器（EPD）** 三段，并用两阶段自监督预训练（阶段一：条件扩散解码器 + 图像级语义先验构造一个"既保细节又有高语义"的潜空间；阶段二：在该潜空间上向冻结教师做潜空间预测学世界知识），仅用公开无标注视频，就让一个**没有任何视频-文本监督**的模型在 K400/SSv2 等基准上首次超过视频-文本预训练对手。
 
+**[InterRVOS: Interaction-Aware Referring Video Object Segmentation](interrvos_interaction-aware_referring_video_object_segmentation.md)**
+
+:   本文把"指代视频对象分割"（RVOS）从只分割被指代主体（actor）扩展成同时分出 actor 和 target 两个交互角色的新任务 InterRVOS，配套构建了 12.7 万条带 actor-target 双掩码标注的数据集 InterRVOS-127K，并提出 MLLM 架构 ReVIOSa，用两个角色专属 `[SEG_ACT]`/`[SEG_TAR]` token 加注意力掩码损失（AML）显式建模交互方向，在新基准上全面超过现有方法。
+
 **[Joint Learning of General and Diverse Patterns with Mixture of Memory Experts for Weakly-Supervised Video Anomaly Detection](joint_learning_of_general_and_diverse_patterns_with_mixture_of_memory_experts_fo.md)**
 
 :   MoME 用「内部记忆 + 共享外部记忆」的稀疏混合专家框架，让正常/异常两套专家在外部记忆里学共性、在内部记忆里学差异，再借 LLM 生成的异常语义原型来路由专家，从而同时兼顾泛化与判别，在 UCF-Crime 和 XD-Violence 上达到 SOTA（88.32% AUC / 86.15% AP）。
+
+**[LaDy: Lagrangian-Dynamic Informed Network for Skeleton-based Action Segmentation via Spatial-Temporal Modulation](lady_lagrangian-dynamic_informed_network_for_skeleton-based_action_segmentation_.md)**
+
+:   LaDy 给骨架时序动作分割（STAS）补上了一直被忽视的"物理动力学"维度：它用一条拉格朗日动力学支路从关节坐标显式合成关节广义力（力矩），再用能量一致性损失保证这些力符合功-能定理，最后把力信息分别注入空间特征（融合）和时间特征（分层门控），在六个数据集上刷新 SOTA，尤其在 PKU-MMD v2 上 F1@50 最高提升 5.2%，且只用 1.83M 参数。
 
 **[LAOF: Robust Latent Action Learning with Optical Flow Constraints](laof_robust_latent_action_learning_with_optical_flow_constraints.md)**
 
@@ -339,6 +403,10 @@ item_total: 179
 
 :   针对弱监督视频异常检测中 MIL 框架"把异常包里的正常片段错当异常"的噪声监督问题，本文提出即插即用的 D2MIL 框架：先用"噪声样本损失更高"这一规律动态丢弃高损失噪声，再用冻结 VLM 把被误删的难样本捞回来，在 ShanghaiTech / UCF-Crime / MSAD 上稳定提升五种主流 MIL 基线。
 
+**[Learning from Synthetic Data via Provenance-Based Input Gradient Guidance](learning_from_synthetic_data_via_provenance-based_input_gradient_guidance.md)**
+
+:   本文提出利用合成数据生成过程中自动获得的"出处信息"（provenance）作为辅助监督信号，通过输入梯度引导（抑制非目标区域的输入梯度）直接促进模型学习聚焦于目标区域的判别性表示，在弱监督定位、时空动作检测和图像分类等多任务多模态上验证了有效性。
+
 **[Learning to Assist: Physics-Grounded Human-Human Control via Multi-Agent Reinforcement Learning](learning_to_assist_physics-grounded_human-human_control_via_multi-agent_reinforc.md)**
 
 :   提出 AssistMimic，将人-人辅助交互动作的物理模仿建模为多智能体强化学习（MARL）问题，通过运动先验初始化、动态参考重定向和接触促进奖励，首次实现了力交换型辅助动作的物理仿真跟踪。
@@ -347,25 +415,25 @@ item_total: 179
 
 :   针对视频时序定位（VTG）模型「凡查询必给一段时间」的盲目假设，本文用基于 GRPO 的强化微调（RA-RFT）配合四个奖励（格式、拒答-IoU、解释、查询纠错）和一个专门构造的「难无关查询」数据集 HI-VTG，让模型学会拒绝那些**语义高度相似但实际不匹配**的查询并解释原因，在多个 relevance-aware VTG 场景上把拒答与解释质量大幅拉高，同时不损伤正常的定位精度。
 
-**[Learning Transferable Temporal Primitives for Video Reasoning via Synthetic Videos](learning_transferable_temporal_primitives_for_video_reasoning_via_synthetic_vide.md)**
-
-:   本文提出 SynRL：用纯代码程序化生成的合成视频（几何形状的运动/状态变化）教 VLM 学会"时序基元"（方向、速度、状态追踪等），核心发现是这些从抽象合成视频学到的基本时序技能能**直接迁移**到真实世界视频，仅用约 7.7K 合成 CoT 样本就在 15 个基准上全面提升，甚至胜过 Video-R1 的 165K 真实样本（约 21× 数据效率）。
-
 **[LensWalk: Agentic Video Understanding by Planning How You See in Videos](lenswalk_agentic_video_understanding_by_planning_how_you_see_in_videos.md)**
 
 :   提出LensWalk，一个让LLM推理器主动控制视频观测范围和采样密度的智能体框架，通过reason-plan-observe循环实现自适应视频理解，无需微调即可在长视频基准上带来5%以上的即插即用性能提升。
 
-**[Less is More: Token-Efficient Video-QA via Adaptive Frame-Pruning and Semantic Graph Integration](less_is_more_token-efficient_video-qa_via_adaptive_frame-pruning_and_semantic_gr.md)**
+**[Long-RVOS: A Comprehensive Benchmark for Long-term Referring Video Object Segmentation](long-rvos_a_comprehensive_benchmark_for_long-term_referring_video_object_segment.md)**
 
-:   针对视频问答中关键帧选择器普遍产生的"视觉回声"（temporally-proximate 近重复帧），本文提出一个即插即用的精炼层：用自适应帧剪枝（AFP）把冗余帧聚类合并，再用一张轻量文本语义图补偿被剪掉的语义，最高把输入 token 砍掉 82.2% 的同时，常常还反过来提升上游选择器的准确率。
+:   针对现有指代视频对象分割（RVOS）数据集都只有几秒短片、目标几乎全程可见的问题，作者构建了首个分钟级长视频基准 Long-RVOS（2,193 段平均 60 秒、含频繁遮挡/消失重现/镜头切换的视频，附静态/动态/混合三类描述与 tIoU、vIoU 两个新指标），并提出运动增强的基线 ReferMo（用 MPEG-4 关键帧+运动矢量做"局部感知→全局交互"，只在关键帧上监督、推理时由 SAM2 传播），在长视频场景下显著超过 7 个 SOTA 方法。
 
 **[LongVideo-R1: Smart Navigation for Low-cost Long Video Understanding](longvideo-r1_smart_navigation_for_low-cost_long_video_understanding.md)**
 
 :   提出 LongVideo-R1，一个配备推理能力的多模态 Agent，通过层次化视频树结构和智能导航策略，以平均仅 10.5 轮工具调用实现高效长视频问答，在精度-效率权衡上显著优于穷举式方法。
 
-**[LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](longvt_incentivizing_thinking_with_long_videos_via_native_tool_calling.md)**
+**[M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection](m4-sam_multi-modal_mixture-of-experts_with_memory-augmented_sam_for_rgb-d_video_.md)**
 
-:   LongVT 让多模态大模型像人一样"先全局速览、再放大可疑片段"地看长视频——把模型自带的时序定位能力封装成一个原生的 `crop_video` 工具，在推理链中交错调用、反复"再看一眼"以纠错，并配套自建的 VideoSIAH 数据套件与三阶段训练，在四个长视频基准上刷新开源 SOTA。
+:   为了把 SAM2 高效迁移到 RGB-D 视频显著目标检测（RGB-D VSOD），M4-SAM 给冻结的 SAM2 编码器注入「模态感知 MoE-LoRA」做参数高效微调、用「门控多级特征融合 + 记忆库」聚合多尺度时序信息、再用「伪引导初始化」摆脱对人工 prompt 的依赖，在三个 RGB-D VSOD 数据集上全指标 SOTA，且整套训练只需约 5 小时两张 4090。
+
+**[MA-Bench: Towards Fine-grained Micro-Action Understanding](ma-bench_towards_fine-grained_micro-action_understanding.md)**
+
+:   提出 MA-Bench 微动作理解基准，包含 1000 个视频和 12000 个结构化 QA 对，通过"感知-理解-推理"三层评估架构系统测试 23 个 MLLM 的细粒度微动作理解能力，并构建 20.5K 训练语料 MA-Bench-Train 用于模型微调提升。
 
 **[MaskAdapt: Learning Flexible Motion Adaptation via Mask-Invariant Prior for Physics-Based Characters](maskadapt_learning_flexible_motion_adaptation_via_mask-invariant_prior_for_physi.md)**
 
@@ -391,14 +459,6 @@ item_total: 179
 
 :   META 让一个免训练的视频理解 agent 在反复解题中"自我进化工具箱"——把成功轨迹里反复出现的多步工具组合凝练成可复用的宏工具，把失败轨迹蒸馏成工具使用约束，不更新任何参数就在三个长视频 benchmark 上把强 VLM 提升 4.6%~7.6%。
 
-**[Metadata-Aware Multi-Prompt Reasoning for Zero-Shot Accident Understanding](metadata-aware_multi-prompt_reasoning_for_zero-shot_accident_understanding.md)**
-
-:   本文把"看监控视频理解交通事故"拆成 when/what/where 三个独立子任务——先用视觉-语言相似度框出撞击时刻、再用 5 个互补提示 + 熵门控对裁判定事故类型、最后用事故类型和场景条件化的开放词表检测器定位撞击点，全程零微调、单张 24GB 显卡可跑，在 ACCIDENT@CVPR 2026 上把调和平均分从画面中心 baseline 的 0.349 提到 0.402。
-
-**[MINERVA-Cultural: A Benchmark for Cultural and Multilingual Long Video Reasoning](minerva-cultural_a_benchmark_for_cultural_and_multilingual_long_video_reasoning.md)**
-
-:   提出 MINERVA-Cultural 基准，包含 18 个语种/地区的 2400 个人工标注视频推理问题，通过证据图（evidence graph）和迭代错误隔离策略揭示当前 SOTA Video-LLM 在文化视觉感知上的严重不足（最强模型 Gemini-2.5-Pro 仅 45.07% vs 人类 95.22%）。
-
 **[Minerva-Ego: Spatiotemporal Hints for Egocentric Video Understanding](minerva-ego_spatiotemporal_hints_for_egocentric_video_understanding.md)**
 
 :   Minerva-Ego 是一个面向第一人称（egocentric）长视频复杂推理的评测基准——1,160 道纯人工标注的五选一难题，每题都配有把"何时（时间戳）"与"何处（分割掩码）"绑定起来的密集推理轨迹；作者用它揭示出 SOTA 视频模型（Gemini 2.5 Pro 仅 40.1%，人类 91.8%）的瓶颈主要在感知接地，并证明只要在像素上直接提示模型"看哪里、看哪一帧"，准确率最高可提升约 5.8%。
@@ -406,6 +466,10 @@ item_total: 179
 **[Mistake Attribution: Fine-Grained Mistake Understanding in Egocentric Videos](mistake_attribution_fine-grained_mistake_understanding_in_egocentric_videos.md)**
 
 :   本文提出 Mistake Attribution (MATT) 任务，将第一人称视频中的操作错误归因到语义（违反了指令的哪个成分）、时间（不可逆转点 PNR 在哪一帧）和空间（PNR 帧中错误区域在哪里）三个维度，通过 MisEngine 数据引擎自动从已有动作数据集构建大规模错误样本，并设计统一的 Transformer 模型 MisFormer 同时完成三个归因子任务，在多个基准上超越各子任务的专用 SOTA 方法。
+
+**[MotionEnhancer: Leveraging Video Diffusion for Motion-Enhanced Vision-Language Models](motionenhancer_leveraging_video_diffusion_for_motion-enhanced_vision-language_mo.md)**
+
+:   把视频扩散模型（VDM）里天然编码的「运动先验」蒸馏出来，作为辅助监督去对齐 VLM 的文本-视觉注意力，从而在不加任何可训练参数、不改架构的前提下显著提升 VLM 对细粒度运动的理解能力。
 
 **[MoVie: Broaden Your Views with Human Motion for Action Detection](movie_broaden_your_views_with_human_motion_for_action_detection.md)**
 
@@ -423,10 +487,6 @@ item_total: 179
 
 :   MS-Temba 把 Mamba 的状态空间模型改造成"多尺度膨胀 SSM"，用一组不同时间步幅（dilation）的并行分支堆叠成层级结构，再用一个轻量 Mamba 融合器统一各尺度特征——仅 17M 参数就在 40 分钟级的密集标注日常活动视频上把时序动作检测（TAD）做到 SOTA，比 Transformer 方案省 5 倍参数。
 
-**[MTLLFM: Multimodal-Temporal Laughter Localization](mtllfm_multimodal-temporal_laughter_localization_ur-funny-temporal_and_smile-tem.md)**
-
-:   把视频中的"笑声检测"从粗粒度的片段级分类升级为亚秒级的时序定位：用冻结的 HuBERT + MAE 编码器加一套轻量的"时序软最大池化 + 自适应模态门控"，仅靠片段级标签（弱监督）就能学出每次笑声的精确起止边界，在体育广播数据上拿到 99% 分类 F1、68.1% 定位精度，超过 Gemini 3 Flash 等多模态大模型，并配套发布了 11,053 段视频的 UR-FUNNY-Temporal / SMILE-Temporal 时序标注。
-
 **[MuKV: Multi-Grained KV Cache Compression for Long Streaming Video Question-Answering](mukv_multi-grained_kv_cache_compression_for_long_streaming_video_question-answer.md)**
 
 :   MuKV 把流式长视频的历史 KV 缓存按 patch/frame/segment 三种粒度同时存储，再用「自注意力 + 频率」双信号剪枝压缩冗余、用「半分层检索」在线召回相关缓存，在不增加显存和在线延迟的前提下显著提升长流视频问答准确率。
@@ -443,10 +503,6 @@ item_total: 179
 
 :   提出端到端零样本视频异常检测框架 LAVIDA，通过异常暴露采样器将语义分割数据集转化为伪异常进行训练，结合 MLLM 提取深层异常语义特征和反注意力 token 压缩处理时空稀疏性，无需任何真实 VAD 数据即实现帧级/像素级 SOTA。
 
-**[OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning](oasis_on-demand_hierarchical_event_memory_for_streaming_video_reasoning.md)**
-
-:   OASIS 把流式视频推理重新定义为"时序路由"问题，用一个在线维护的分层事件森林作为长期记忆，配合"先短上下文粗推理、不确定时再按语义意图精检索"的两阶段策略，在不改 MLLM、不训练的前提下，让多个流式 MLLM backbone 在长程准确率和组合推理上大幅提升，同时把 token 成本压到恒定。
-
 **[Occlusion-Aware SORT: Observing Occlusion for Robust Multi-Object Tracking](occlusion-aware_sort_observing_occlusion_for_robust_multi-object_tracking.md)**
 
 :   提出遮挡感知跟踪框架 OA-SORT，通过显式建模目标遮挡状态来缓解位置代价混淆和 Kalman Filter 估计不稳定问题，在 DanceTrack/SportsMOT/MOT17 上均取得 SOTA 级提升，且组件可即插即用地集成到多种跟踪器中。
@@ -461,7 +517,7 @@ item_total: 179
 
 **[One-Shot Flow, Any-Time Frame: A Bidirectional Warping Framework for Event-Based Video Frame Interpolation](one-shot_flow_any-time_frame_a_bidirectional_warping_framework_for_event-based_v.md)**
 
-:   针对事件相机视频帧插值（E-VFI）里"前向 warping 快但有空洞、后向 warping 质量高但每帧都要重算光流"的两难，本文用一次前向计算把整段时间区间的双向运动轨迹（BiFEB）算出来，再用 Flow Query 对任意时刻 $t$ 即时检索双向光流，最后用 Bidirectional Warping 显式定位错误区域并修复，做到任意时刻、低成本、高质量插帧，在 GOPRO / SNU-FILM / BS-ERGB / HS-ERGB 上同时刷新质量和效率。
+:   针对事件相机视频插帧（E-VFI）中「前向 warping 快但有空洞、后向 warping 质量高但每帧都要重算」的两难，本文提出「One-Shot Flow, Any-Time Frame」：用一次前向计算得到覆盖整段时间的双向运动表示，任意时刻的光流可直接查询，再用带显式修复掩码的双向 warping 融合两种方向的优势，在合成与真实数据集上同时刷新了重建质量与推理效率（GOPRO Skip 15 PSNR 36.90，127 帧插值显存仅 7.27GB 而 TLXNet 直接 OOM）。
 
 **[OpenMarcie: Dataset for Multimodal Action Recognition in Industrial Environments](openmarcie_dataset_for_multimodal_action_recognition_in_industrial_environments.md)**
 
@@ -487,13 +543,9 @@ item_total: 179
 
 :   ProgTrack 模仿人眼"先大后小再补漏"的跟踪习惯，把无人机多目标跟踪拆成"大目标用 IoU、小目标用上下文增强 ReID、剩余难匹配目标用目标间相对位置"三阶段渐进匹配，再配一个能扛遮挡/掉检的纯卡尔曼滤波（PKF），在 VisDrone2019 和 MDMT 上把 MOTP/IDF1 刷到 SOTA。
 
-**[Protect to Adapt: Orthogonal Subspace Control with Ranked Negative-Prompt Curriculum for Few-Shot Action Recognition](protect_to_adapt_orthogonal_subspace_control_with_ranked_negative-prompt_curricu.md)**
+**[PyraTok: Language-Aligned Pyramidal Tokenizer for Video Understanding and Generation](pyratok_language-aligned_pyramidal_tokenizer_for_video_understanding_and_generat.md)**
 
-:   P2A 把 CLIP 适配到小样本动作识别拆成两件事——用正交子空间约束（OSC）把低秩更新逼进预训练权重主子空间的正交补，从而保住通用语义、缓解灾难性遗忘；再用 LLM 生成、验证器过滤、按难度排课的负样本课程（RNC）把类间边界推开；只调 2% 参数就在 5 个 FSAR benchmark 上刷到 SOTA。
-
-**[Prototypical Action Reasoning Facilitated by Vision-Language Alignment for Egocentric Action Anticipation](prototypical_action_reasoning_facilitated_by_vision-language_alignment_for_egoce.md)**
-
-:   PAR-VLA 借助视觉-语言模型把动词、名词分别学成"解耦视觉原型"作为稳定语义锚点，把开放、无约束的未来动作预测，转化为由这些语义概念引导的条件预测，并用双流共生解码器细化动名词依赖，在 EPIC-KITCHENS-100 等三个数据集上刷新 SOTA。
+:   PyraTok 是一个语言对齐的金字塔式视频分词器：在冻结视频 VAE 的多个编码器深度上做逐级量化（LaPQ），配合一个共享的大词表二值码本和"局部跨注意力 + 全局自回归"双语义对齐，既把重建质量做到 SOTA，又让同一套离散 token 在零样本视频分割、时序动作定位、视频理解/分类上全面刷新纪录。
 
 **[Question-guided Visual Compression with Memory Feedback for Long-Term Video Understanding](question-guided_visual_compression_with_memory_feedback_for_long-term_video_unde.md)**
 
@@ -527,6 +579,14 @@ item_total: 179
 
 :   提出 SAIL，通过跨模态相似度引导的语义感知掩码生成和 LLM 合成字幕的辅助监督，在仅有字幕标注（无时间边界）的弱监督设置下，在 ActivityNet 和 YouCook2 上实现密集视频描述和事件定位的双 SOTA。
 
+**[SAM2Text: Towards Prompt-Free and Multi-Resolution Video Scene Text Segmentation](sam2text_towards_prompt-free_and_multi-resolution_video_scene_text_segmentation.md)**
+
+:   把 SAM2 系统性改造成专做视频场景文字分割（video STS）的 SAM2Text：用 LoRA 让编码器学到文字特征、加一个自提示模块去掉外部 prompt、给解码器补 512/1024 高分辨率分支保住笔画细节、再用「短期 FIFO + Top-K 长期检索」的双层记忆稳住跨帧抖动，并配套发布两个像素级视频文字数据集（STS-SynthV / STS-RealV），在图像和视频多个基准上都刷到 SOTA。
+
+**[SARL-STG: A Spatially Aware Reinforcement Learning Framework for Refining MLLMs in Spatio-Temporal Video Grounding](sarl-stg_a_spatially_aware_reinforcement_learning_framework_for_refining_mllms_i.md)**
+
+:   SARL-STG 把一个预训练 MLLM（管时间定位）和一个开集检测器（管空间定位）串成统一框架，再用「先 SFT 打底、后 GRPO 精修」两阶段训练，并设计了一个让空间接地质量反过来当奖励信号去校准时间边界的动态时空奖励，从而第一次把强化学习引入时空视频接地（STVG）并在 HCSTVG、VidSTG、Charades 等多个基准上刷到 SOTA。
+
 **[SAVA-X: Ego-to-Exo Imitation Error Detection via Scene-Adaptive View Alignment and Bidirectional Cross View Fusion](savax_egotoexo_imitation_error_detection_via_scene.md)**
 
 :   形式化 Ego→Exo 模仿错误检测任务，并提出 SAVA-X (Align–Fuse–Detect) 框架，通过自适应采样、场景自适应视角嵌入和双向交叉注意力融合三个模块联合解决时序不对齐、视频冗余和跨视角域差距三大挑战。
@@ -539,6 +599,14 @@ item_total: 179
 
 :   本文提出首个完全基于脉冲神经网络（SNN）的 Transformer 事件跟踪管线 SDTrack：用 Global Trajectory Prompt（GTP）把异步事件流聚合成富含轨迹信息的三通道事件帧，再用一个全脉冲驱动的 SNN Transformer 跟踪器（含 IPL 内禀位置学习）端到端预测目标框，在三个事件跟踪基准上以最低参数量和能耗（Tiny 版 19.61M / 8.16mJ）拿到接近或达到 SOTA 的精度。
 
+**[SEASON: Mitigating Temporal Hallucination in Video Large Language Models via Self-Diagnostic Contrastive Decoding](season_mitigating_temporal_hallucination_in_video_large_language_models_via_self.md)**
+
+:   SEASON 是一种**训练无关**的视频大模型解码方法：通过"时间同质化"构造只破坏时间、保留空间的硬负样本，再用一个逐 token 的自诊断机制判断当前词更可能犯时间还是空间幻觉，自适应地对相应负样本做对比解码，在三个幻觉基准上超过所有训练无关方法，同时不损伤通用视频理解能力。
+
+**[Seeing Beyond 8bits: Subjective and Objective Quality Assessment of HDR-UGC Videos](seeing_beyond_8bits_subjective_and_objective_quality_assessment_of_hdr-ugc_video.md)**
+
+:   为快速增长但被现有 SDR 质量评估模型忽视的 HDR 用户生成视频（HDR-UGC），作者构建了迄今最大的众包主观质量数据集 Beyond8Bits（约 4.4 万段视频、150 万+人工评分），并提出首个面向 HDR-UGC 的多模态大模型质量评估器 HDR-Q——靠一个"HDR 感知视觉编码器"和一套强化学习微调框架 HAPO（在 GRPO 上加 HDR–SDR 对比 KL、双熵正则与高熵 token 加权），把推理牢牢锚在 HDR 线索上，在三个数据集上把 PLCC/SRCC 推到 0.91/0.92 的 SOTA。
+
 **[Seeing Conversations: Communication Context Identification in Egocentric Video](seeing_conversations_communication_context_identification_in_egocentric_video.md)**
 
 :   本文提出"通信上下文识别（CCI）"这一新任务——从第一视角视频里判断画面中每个人是否属于佩戴者的对话组，配套放出 68.9 小时多人多对话数据集，并设计了仅用人脸结构化特征、跨人跨时联合推理的轻量模型 CoCoNet，在 CCI 上拿到 96% 平衡准确率。
@@ -550,10 +618,6 @@ item_total: 179
 **[Seeing the Scene Matters: Revealing Forgetting in Video Understanding Models with a Scene-Aware Long-Video Benchmark](seeing_the_scene_matters_revealing_forgetting_in_video_understanding_models_with.md)**
 
 :   本文提出场景级长视频理解基准 **SceneBench**，揭示了主流 VLM 在跨"场景"长程上下文上的严重"遗忘"现象（准确率骤降），并用一个轻量的 **Scene-RAG**（场景检索增强生成）把跨场景上下文动态召回拼回输入，带来 +2.50% 的提升以佐证"模型确实没记住长程上下文"这一结论。
-
-**[Self-Critical Distillation Network for Video-based Commonsense Captioning](self-critical_distillation_network_for_video-based_commonsense_captioning.md)**
-
-:   SCD-Net 针对"视频→内容描述→常识"推理链导致的两大问题——常识缺乏视觉接地、各类常识相互孤立——用自批判强化学习强化视觉推理、用联合推理蒸馏框架（教师级联解码器 + 学生 + 语言自适应包装蒸馏）建立类间常识关联，在 V2C 数据集上不依赖 LLM 就超过了 LLM-based 方法。
 
 **[Self-Paced and Self-Corrective Masked Prediction for Movie Trailer Generation](self-paced_and_self-corrective_masked_prediction_for_movie_trailer_generation.md)**
 
@@ -599,21 +663,17 @@ item_total: 179
 
 :   SpikeTrack 用一个**纯脉冲驱动**的 Spiking Transformer 做事件相机单目标跟踪，靠「多搜索帧-单模板（MSST）」训练范式把跟踪天然的时序连续性喂进 SNN 的膜电位累积里，再用「动态整数 LIF（DI-LIF）」神经元按输入稀疏程度自适应调节脉冲发放上限，在 FE108 / FELT / VisEvent 三个基准上同时拿到 SOTA 精度，且能耗只有次优方法的 6.6%、参数量只有 25.8%。
 
-**[Spk2VidNet: A Hierarchical Recurrent Architecture for High-Fidelity Video Reconstruction from Long Spike-Camera Streams](spk2vidnet_a_hierarchical_recurrent_architecture_for_high-fidelity_video_reconstr.md)**
+**[SPOT: Spatiotemporal Prompt Optimization for Motion-Stabilized MLLM-Guided Video Segmentation](spot_spatiotemporal_prompt_optimization_for_motion-stabilized_mllm-guided_video_.md)**
 
-:   针对脉冲相机超分（SCSR）只能处理固定短序列、且脉冲信号有波动的两大痛点，Spk2VidNet 用「逐层放大时间感受野的两层递归传播 + 多帧一致性对齐 + 内容感知调制融合 + 分段训练状态传递」从任意长脉冲流重建高分辨率图像序列，在合成与真实数据上以更快速度刷新 SOTA（REDS-LSSR ×4 PSNR 29.92dB、推理仅 43ms）。
+:   SPOT 不改架构、不做视频预训练，只靠两个新损失约束「图像预训练 MLLM 给 SAM 生成的提示点」的时空行为——用布朗桥损失把目标中心轨迹建模成端点受约束的高斯过程逼出时间平滑、用提示质量损失逼出空间几何一致——就让静态训练的基础模型在 Ref-YouTube-VOS、MeViS、ReVOS 等 6 个指代/推理视频分割基准上全面刷到 SOTA。
 
 **[Stay in your Lane: Role Specific Queries with Overlap Suppression Loss for Dense Video Captioning](stay_in_your_lane_role_specific_queries_with_overlap_suppression_loss_for_dense_.md)**
 
 :   提出 ROS-DVC，通过将 DETR-based DVC 框架中的共享 query 分离为独立的 localization query 和 caption query，并设计 Overlap Suppression Loss 惩罚 query 间的时序重叠、Cross-Task Contrastive Alignment 保证跨任务语义一致性，在 YouCook2 和 ActivityNet Captions 上实现了 SOTA 的 captioning 和 localization 性能。
 
-**[STORM: End-to-End Referring Multi-Object Tracking in Videos](storm_referring_multi_object_tracking.md)**
+**[Stitch-a-Demo: Creating Video Demonstrations from Multistep Descriptions](stitch-a-demo_creating_video_demonstrations_from_multistep_descriptions.md)**
 
-:   STORM 是首个端到端的多模态大语言模型框架用于指代多目标跟踪（RMOT），通过任务组合学习策略大幅减少对 RMOT 标注数据的依赖，并构建了高质量 STORM-Bench 数据集。
-
-**[Streaming Video Crime Anticipation with Spatio-Temporal Causal Reasoning](streaming_video_crime_anticipation_with_spatio-temporal_causal_reasoning.md)**
-
-:   针对"现有监控系统只能事后/事中报警、无法在犯罪发生前预判"的问题，本文做了两件事——构建带时空因果标注的 STCRC 数据集（73K 样本、5 个递进因果推理任务），并设计一个流式协处理器 STCH 把视频里隐式的实体动态转成显式因果超图喂给 VLM，使犯罪分类相对提升 70.7%、检测提升 10.1%、时间预测误差降低 3.7%。
+:   给定一份多步骤文字流程（如一份菜谱），Stitch-a-Demo 用一个学习得到的「过程评估器」从成千上万条教学视频里检索并**跨视频拼接**出片段，组成一段既每步都对、又视觉连贯的演示视频，比纯检索/生成的 SOTA 召回最高提升 29%，人类偏好压倒性领先。
 
 **[StreamingTOM: Streaming Token Compression for Efficient Video Understanding](streamingtom_streaming_token_compression_for_efficient_video_understanding.md)**
 
@@ -643,10 +703,6 @@ item_total: 179
 
 :   TCEI 框架受 Kahneman 双系统理论启发，提出直觉系统（利用近期观测对象的瞬时记忆快速推断）和经验系统（利用历史视频积累的经验校准直觉预测）相结合的测试时自适应方法，无需反向传播即可在分布偏移下显著提升多目标跟踪性能。
 
-**[Text-guided Fine-Grained Video Anomaly Understanding](text-guided_fine-grained_video_anomaly_understanding.md)**
-
-:   提出T-VAU框架，通过异常热力图解码器(AHD)实现像素级时空异常定位，并设计区域感知异常编码器(RAE)将热力图证据注入LVLM进行异常判断、定位和语义解释的统一推理。
-
 **[TF-CADE: Foreground-Concentrated Text-Video Alignment for Zero-Shot Temporal Action Detection](tf-cade_foreground-concentrated_text-video_alignment_for_zero-shot_temporal_acti.md)**
 
 :   针对零样本时序动作检测中"文本不影响预测"的痛点，本文用一个动作集中聚合模块（ACA）把视频特征按时序前景显著度加权聚出一个前景视频嵌入、专门和文本对齐，再用一个基于确定性的置信度重加权（CCR）把视频级先验注回逐片段分类分，从而压住语义不相关的动作类，在 THUMOS14/ActivityNet 的同分布与跨数据集零样本设定上都刷到 SOTA。
@@ -659,13 +715,13 @@ item_total: 179
 
 :   针对弱监督视频异常检测里 top-k 选段"只盯最高分段、漏掉分散且模糊的异常"的痛点，本文提出**时序聚类 + 不确定性双探索**策略来覆盖多样且暧昧的异常段，并主张用 Recall@FPR 与 AP 取代被严重类别不平衡"灌水"的 AUROC，在 UCF-Crime 上把 AP 从 35.48% 提到 38.33%。
 
-**[Thinking with Drafts: Speculative Temporal Reasoning for Efficient Long Video Understanding](thinking_with_drafts_speculative_temporal_reasoning_for_efficient_long_video_und.md)**
-
-:   SpecTemp 把"thinking-with-frames"里耗时的帧放大过程外包给一个轻量 3B draft MLLM 去密集采样、挑稀疏关键帧，让 7B target MLLM 只负责时序推理和验证，靠投机—验证迭代循环在 8 个视频 benchmark 上保持甚至提升精度的同时把推理延迟降了约 20%。
-
 **[Time Blindness: Why Video-Language Models Can't See What Humans Can?](time_blindness_why_video-language_models_cant_see_what_humans_can.md)**
 
 :   作者构造了一个"信息只存在于帧间时序、单帧全是噪声"的合成基准 SpookyBench：人类靠运动分组能以 98% 准确率读出其中的文字/物体，而 15 个最强 Video-VLM（含 GPT-4o、Gemini 2.5 Pro、Qwen2.5-VL-72B）全部 0% 准确率，从而干净地暴露出当前视频模型"时间盲"——只会读单帧空间特征、根本没有纯时序信息的处理机制。
+
+**[TimeBridge: Self-Supervised Video Representation Learning via Start-End Joint Embedding and In-Between Frame Prediction](timebridge_self-supervised_video_representation_learning_via_start-end_joint_emb.md)**
+
+:   TimeBridge 在 iBOT 联合嵌入框架上加一个辅助任务——只给视频的首帧和尾帧，逼模型把中间几帧"补"出来，从而学到帧间真实的时间变换；在 DAVIS、VIP 等稠密视频预测基准上以 400 epoch 训练就刷新了 SOTA（DAVIS 73.5 J&F、VIP 47.5 mIoU）。
 
 **[TLMA: Mitigating the Impact of Weakly Labeled Information for Video Anomaly Detection](tlma_mitigating_the_impact_of_weakly_labeled_information_for_video_anomaly_detec.md)**
 
@@ -679,17 +735,13 @@ item_total: 179
 
 :   针对无人机（UAV）单目标跟踪，本文先提出一个把「精度提升」和「算力开销」绑在一起看的评价指标 PPF（每 FLOP 精度增益），用它揭示现有时序模块"性价比"普遍很低，再据此设计了一个只靠传播/合并少量代表性外观 token 的轻量时序模块 LETL，把它塞进单流框架做出 LETrack，在六个航拍数据集上拿到 SOTA 的同时几乎不增加算力。
 
-**[Towards Data-Efficient Video Pre-training with Frozen Image Foundation Models](towards_data-efficient_video_pre-training_with_frozen_image_foundation_models.md)**
+**[Towards Streaming Referring Video Segmentation via Large Language Model](towards_streaming_referring_video_segmentation_via_large_language_model.md)**
 
-:   本文提出"冻结一个预训练图像基础模型（DINOv3）当空间编码器、只在其上从零训练一个轻量循环时序模块"的解耦范式，实验证明在 5 个视频理解任务上它能匹配甚至超过在 840 万视频片段上端到端预训练的 RVM，从而论证大规模视频预训练对空间表征并非必需。
+:   StreamingRVOS 把基于 MLLM 的指代图像分割改造成「逐帧流式」的指代视频分割：用 **语义嵌入复用（SER）** 把上一帧的 `[SEG]` token 当作时序上下文喂回 MLLM，再用 **在线掩码一致性感知（OMCP）** 判断当前帧要不要重新调用 MLLM，从而在不加任何参数的前提下，1B 变体在 MeViS 上比 Sa2VA 提升 19.2%，流式推理达到 7 FPS（单卡 A800）。
 
-**[Towards Sparse Video Understanding and Reasoning](towards_sparse_video_understanding_and_reasoning.md)**
+**[Tracking through Severe Occlusion via Event-Derived Transient Cues](tracking_through_severe_occlusion_via_event-derived_transient_cues.md)**
 
-:   ReViSe 把视频问答重新建模成"问题驱动的多轮稀疏帧选择"——每轮只挑几帧、把已验证的证据压缩进一个结构化的"摘要即状态"里跨轮传递、足够确信就提前停，既能即插即用包住任何 VLM，也能用免标注奖励 EAGER 做强化微调，在多个 VQA benchmark 上用个位数帧就拿到更高准确率。
-
-**[Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos](towards_spatio-temporal_world_scene_graph_generation_from_monocular_videos.md)**
-
-:   提出 World Scene Graph Generation (WSGG) 任务，从单目视频构建包含所有物体（含被遮挡/出画面物体）的时空持久、世界坐标系锚定的场景图，并引入 ActionGenome4D 数据集和三种互补方法（PWG/MWAE/4DST）。
+:   针对"目标被严重遮挡 + 非线性运动"导致的跟踪失败，作者提出 EvoTrack：用事件相机微秒级的瞬态运动线索做"运动自回归"在遮挡期间预测目标位置，同时用目标感知的高斯掩码强化外观匹配，二者由门控自适应融合，并配套发布带遮挡分级标注的高分辨率帧-事件跟踪数据集 FEOT，在 FE108/VisEvent/COESOT/FEOT 上整体取得 SOTA。
 
 **[TrajTok: Learning Trajectory Tokens Enhances Video Understanding](trajtok_learning_trajectory_tokens_enables_better_video_understanding.md)**
 
@@ -725,33 +777,21 @@ item_total: 179
 
 :   UniVBench 用 200 段人工创作、无版权的多镜头视频和一套智能体评测系统 UniV-Eval，把视频理解、生成、编辑、以及新提出的"视频重建"四类能力放进同一把尺子里，第一次能在统一框架下回答"统一视频模型到底有没有把感知和生成都做好"。
 
+**[Unstitching the Chimera: Frame-Level Risk and Train-Free Mitigation for Video Hallucination](unstitching_the_chimera_frame-level_risk_and_train-free_mitigation_for_video_hal.md)**
+
+:   本文从「帧」而非「token」的视角刻画了一种被忽视的视频幻觉——**奇美拉幻觉（Chimera Hallucination）**：模型把视频里真实存在但不属于同一事件链的片段拼成一个虚假的连续叙事；为此提出单次前向、无需参考的风险指标 CH-Risk 来量化这种风险，并用免训练的两阶段干预 CH-M（片段路由 sSAFR + 残差 token 校准 RTC）在高风险样本上纠偏，在 9 个 benchmark、6 个 VideoLLM 上以 <5% 延迟、<2.5% 显存、≈1% FLOPs 的代价稳定降低幻觉、提升准确率。
+
 **[UTPTrack: Towards Simple and Unified Token Pruning for Visual Tracking](utptrack_towards_simple_and_unified_token_pruning_for_visual_tracking.md)**
 
 :   提出 UTPTrack，首个在 one-stream Transformer 跟踪器中**同时对搜索区域 (SR)、动态模板 (DT) 和静态模板 (ST) 三个组件进行联合 token 剪枝**的统一框架，在 RGB 和多模态/语言引导跟踪中实现 65–67% 的视觉 token 裁减，且保持 99.7%–100.5% 的基线性能。
-
-**[VAST: Video Ability-Stratified Taxonomy for Data-Efficient Video Reasoning](vast_video_ability-stratified_taxonomy_for_data-efficient_video_reasoning.md)**
-
-:   VAST 主张按"底层推理能力"而非"任务格式"来组织视频推理训练数据，提出 Perception/Reasoning/Cognition 三层认知 taxonomy 与配套 VAST-15K/VAST-Bench，并用只加一致性奖励、不改架构的 Video-VAST 强化学习框架，在 MVBench 上以 66.3% 超过 Video-R1 的 62.7%，却省下约 72% GPU 时与 96% 训练样本。
 
 **[VecAttention: Vector-wise Sparse Attention for Accelerating Long Context Inference](vecattention_vector-wise_sparse_attention_for_accelerating_long_context_inferenc.md)**
 
 :   本文发现视频模型注意力图中存在强烈的"垂直向量"稀疏模式，据此提出 VecAttention 细粒度向量级稀疏注意力框架，通过 TilingSelect + minS 过滤实现高效重要向量选择，在 78%+ 稀疏度下视频理解准确率与全注意力持平，注意力计算加速 2.65 倍。
 
-**[Video-CoE: Reinforcing Video Event Prediction via Chain of Events](video-coe_reinforcing_video_event_prediction_via_chain_of_events.md)**
-
-:   针对多模态大模型在"看视频预测未来事件"（VEP）上既缺乏逻辑推理、又不看画面只猜选项的两大毛病，本文提出 Chain of Events（CoE）范式——让模型先把视频切成带时间戳的历史事件链、再基于事件链做因果推理，并用一套两阶段训练（CoE-SFT 注入推理 + CoE-GRPO 用稠密奖励强化事件链构造）把 Qwen2.5-VL-7B 在 FutureBench 上从 52.9% 拉到 75.0%，刷新 VEP 的 SOTA。
-
 **[Video Panels for Long Video Understanding](video_panels_for_long_video_understanding.md)**
 
 :   把视频里相邻的多帧像漫画分镜一样拼进同一张图片，用空间分辨率换时间分辨率，从而在不改架构、不训练、不加参数的前提下提升现有 VLM 的长视频理解能力——在最长视频的 TimeScope(Long) 上把 VideoLLaMA 3 的问答准确率提升了 19.4%。
-
-**[VideoARM: Agentic Reasoning over Hierarchical Memory for Long-Form Video Understanding](videoarm_agentic_reasoning_over_hierarchical_memory_for_long-form_video_understa.md)**
-
-:   VideoARM 提出了一种基于分层多模态记忆（HM3）的 Agent 推理范式，通过"观察-思考-行动-记忆"的自适应循环和粗到细的工具调用策略，在长视频理解基准上超越 SOTA 的同时将 token 消耗降低到 DVD 的 1/34。
-
-**[VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](videoauto-r1_video_auto_reasoning_via_thinking_once_answering_twice.md)**
-
-:   提出 VideoAuto-R1，一个"按需推理"的视频理解框架：训练时采用"思考一次、回答两次"（answer→think→answer）范式，推理时通过首次回答的置信度决定是否启动 CoT 推理，在保持 SOTA 精度的同时将平均响应长度从 149 降至 44 token（约 3.3 倍压缩）。
 
 **[VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning](videochatm1_collaborative_policy_planning_for_vide.md)**
 
@@ -769,25 +809,13 @@ item_total: 179
 
 :   VideoSeek 提出一种长程视频 Agent，利用视频逻辑流主动"寻找"关键证据而非穷举解析所有帧，通过 think-act-observe 循环和多粒度工具包（overview/skim/focus），在 LVBench 上比基座模型 GPT-5 提升 10.2 个点的同时减少 93% 的帧使用量。
 
-**[VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale](vidtag_temporally_aligned_video_to_gps_geolocalization_with_denoising_sequence_p.md)**
+**[VidPrism: Heterogeneous Mixture of Experts for Image-to-Video Transfer](vidprism_heterogeneous_mixture_of_experts_for_image-to-video_transfer.md)**
 
-:   VidTAG 把"视频地理定位"重新表述成**逐帧到 GPS 坐标的检索**问题，用 CLIP+DINOv2 双编码器抽帧特征、TempGeo 做帧间时序对齐、GeoRefiner 做轨迹去噪，在全球尺度上生成时序连贯的 GPS 轨迹，1km 阈值上比 GeoCLIP 提升约 20%。
-
-**[VidTAG: Temporally Aligned Video to GPS Geolocalization](vidtag_video_gps_geolocalization.md)**
-
-:   提出 VidTAG，一个双编码器（CLIP+DINOv2）帧到GPS检索框架，通过 TempGeo 模块实现帧间时间对齐，GeoRefiner 编码器-解码器模块精炼GPS预测，在全球尺度下实现时间一致的逐帧视频地理定位。
+:   VidPrism 把图像-视频迁移里的 Mixture-of-Experts 从"一群同质通才专家"改造成"按时间分辨率分工的异构专家"：用内容感知的多速率采样给每个专家喂不同节奏的视频流、用动态双向交互让快慢通路互通信息，在 K400/UCF-101/HMDB-51/SSv2 上以更低算力刷新 SOTA。
 
 **[VirtueBench: Evaluating Trustworthiness under Uncertainty in Long Video Understanding](virtuebench_evaluating_trustworthiness_under_uncertainty_in_long_video_understan.md)**
 
 :   提出 VirtueBench，首个评估 VLM 在不确定性下可信度的长视频理解基准，通过为每个视频构建多级帧采样并标注可回答/不可回答的 ground truth，揭示了现有模型普遍倾向于猜测而非诚实拒绝的问题。
-
-**[VISTA: Video Interaction Spatio-Temporal Analysis Benchmark](vista_video_interaction_spatio-temporal_analysis_benchmark.md)**
-
-:   VISTA 把视频时空定位拆解成「谁在交互、怎么交互、何时何地」的 coarse-to-fine 交互分类法，聚合 6 个数据集成约 1.2 万条 video-query 对，对 11 个 VLM 做分层诊断，揭示了被聚合指标掩盖的同类实体消歧失败、句法模板偏好和语义意图过度归因等系统性缺陷。
-
-**[VRR-QA: Visual Relational Reasoning in Videos Beyond Explicit Cues](vrr-qa_visual_relational_reasoning_in_videos_beyond_explicit_cues.md)**
-
-:   本文提出 VRR-QA 基准，包含 1K 精心标注的视频问答对，专门测试模型对视频中隐式视觉关系的推理能力（如屏幕外事件、跨帧因果、空间关系推断），揭示当前最强 VideoQA 模型（包括 GPT-O3）在隐式推理上的显著不足——最优模型仅达 64% 准确率，远低于人类的 83%。
 
 **[Wavelet-based Frame Selection by Detecting Semantic Boundary for Long Video Understanding](wavelet-based_frame_selection_by_detecting_semantic_boundary_for_long_video_unde.md)**
 
@@ -796,6 +824,10 @@ item_total: 179
 **[Weakly Supervised Video Anomaly Detection with Anomaly-Connected Components and Intention Reasoning](weakly_supervised_video_anomaly_detection_with_anomaly-connected_components_and_.md)**
 
 :   提出 LAS-VAD 框架，通过异常连通分量机制（ACC）将视频帧划分为语义一致的组来生成伪标签弥补帧级标注缺失，并通过意图感知机制（IAM）利用位置-速度-加速度特征区分外观相似但意图不同的正常/异常行为，在 XD-Violence 上达 89.96% AP (I3D)。
+
+**[WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning](worldmm_dynamic_multimodal_memory_agent_for_long_video_reasoning.md)**
+
+:   提出 WorldMM，一个基于多模态记忆的视频推理 agent，构建情景记忆（多时间尺度文本知识图）、语义记忆（持续更新的关系知识图）和视觉记忆（帧级检索库）三类互补记忆，通过自适应多轮检索 agent 动态选择最相关的记忆源和时间粒度，在五个长视频 QA 基准上平均超越前 SOTA 8.4%。
 
 **[Your One-Stop Solution for AI-Generated Video Detection](your_one-stop_solution_for_ai-generated_video_detection.md)**
 

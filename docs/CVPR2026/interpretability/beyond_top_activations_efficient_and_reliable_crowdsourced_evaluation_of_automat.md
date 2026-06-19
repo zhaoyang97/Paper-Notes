@@ -88,6 +88,7 @@ $$[c_t]_i=\frac{P(R_{ti}\mid C_{ti})\,P(C_{ti})}{P(R_{ti}\mid C_{ti})\,P(C_{ti})
 ## 实验关键数据
 
 ### 两项技术各自/叠加的省钱效果（仿真 Setting 1，目标 RCE 27.5%）
+
 | 配置 | 达标所需评估次数 | 相对基线 |
 |------|------------------|---------|
 | Uniform + 多数投票（基线） | 22560 | 1× |
@@ -98,6 +99,7 @@ $$[c_t]_i=\frac{P(R_{ti}\mid C_{ti})\,P(C_{ti})}{P(R_{ti}\mid C_{ti})\,P(C_{ti})
 > RCE = Relative Correlation Error，即估计相关系数与真值 $\rho_{gt}$ 的归一化绝对误差（式 12）。MTurk 真实验证（Setting 2）趋势一致：MG-IS+BRAgg 在 550 次预算内到 19.8% RCE，均匀采样在所测样本量内始终达不到、外推需 10k–30k 次才到 20%。
 
 ### 大规模众包研究：方法排名（皮尔逊相关，越高越好，l=1 单概念解释）
+
 | 解释方法 | RN-50 Layer4（SigLIP 自动评） | ViT-B-16 Layer11（SigLIP 自动评） |
 |----------|------|------|
 | **LE(SigLIP)** [23] | **0.2413** | **0.2968** |
@@ -142,11 +144,11 @@ $$[c_t]_i=\frac{P(R_{ti}\mid C_{ti})\,P(C_{ti})}{P(R_{ti}\mid C_{ti})\,P(C_{ti})
 
 ## 相关论文
 
-- [\[ICLR 2026\] Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees](../../ICLR2026/interpretability/formal_mechanistic_interpretability_automated_circuit_discovery_with_provable_gu.md)
 - [\[ICML 2026\] Beyond Additive Decompositions: Interpretability Through Separability](../../ICML2026/interpretability/beyond_additive_decompositions_interpretability_through_separability.md)
+- [\[ICLR 2026\] Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees](../../ICLR2026/interpretability/formal_mechanistic_interpretability_automated_circuit_discovery_with_provable_gu.md)
 - [\[ACL 2025\] Enhancing Automated Interpretability with Output-Centric Feature Descriptions](../../ACL2025/interpretability/output_centric_interpretability.md)
 - [\[NeurIPS 2025\] Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits](../../NeurIPS2025/interpretability/beyond_components_singular_vector-based_interpretability_of_transformer_circuits.md)
-- [\[ACL 2026\] Similarity-Distance-Magnitude Activations](../../ACL2026/interpretability/similarity-distance-magnitude_activations.md)
+- [\[ICML 2026\] Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs](../../ICML2026/interpretability/towards_long-horizon_interpretability_efficient_and_faithful_multi-token_attribu.md)
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2026 LLM其他论文汇总 · 59篇论文解读
+  ACL2026 LLM其他论文汇总 · 61篇论文解读
 description: >-
-  59篇ACL2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、少样本学习、Agent、个性化生成、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  61篇ACL2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、少样本学习、Agent、个性化生成、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2026"
   - "LLM 其他"
@@ -71,19 +71,19 @@ item_list:
     t: "How Do Answer Tokens Read Reasoning Traces? Self-Reading Patterns in Thinking LLMs"
   - u: "identifying_the_periodicity_of_information_in_natural_language/"
     t: "Identifying the Periodicity of Information in Natural Language"
+  - u: "incentives_of_edtech_a_systematic_review_of_edunlp_research/"
+    t: "Incentives Of EdTech: A Systematic Review Of EduNLP Research"
   - u: "iterative_formalization_and_planning_in_partially_observable_environments/"
     t: "Iterative Formalization and Planning in Partially Observable Environments"
-  - u: "leveraging_pretrained_language_models_as_energy_functions_for_glauber_dynamics_t/"
-    t: "Leveraging Pretrained Language Models as Energy Functions for Glauber Dynamics Text Diffusion"
-item_total: 59
+item_total: 61
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM 其他
 
-**💬 ACL2026** · **59** 篇论文解读
+**💬 ACL2026** · **61** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/llm_nlp/index.md) · [🧪 ICML2026 (33)](../../ICML2026/llm_nlp/index.md) · [🔬 ICLR2026 (33)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/llm_nlp/index.md) · [🧪 ICML2026 (39)](../../ICML2026/llm_nlp/index.md) · [🔬 ICLR2026 (37)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
 
 🔥 **高频主题：** LLM ×18 · 扩散模型 ×3 · 少样本学习 ×2 · Agent ×2 · 个性化生成 ×2
 
@@ -199,6 +199,10 @@ item_total: 59
 
 :   本文把信号处理领域的 AutoPeriod 周期检测算法搬到 token-surprisal 序列上，提出 APS（AutoPeriod of Surprisal）能在单文档级别**直接检测**出自然语言信息密度的周期（如 "每 53 个 token 一个周期"），发现人类文本中约 11% 的文档存在严格周期，且 LLM 生成文本的周期性比人类强 2 倍（30% vs 14.8%），为 UID 理论提供了直接证据并给 AI 文本检测提供了可解释特征。
 
+**[Incentives Of EdTech: A Systematic Review Of EduNLP Research](incentives_of_edtech_a_systematic_review_of_edunlp_research.md)**
+
+:   这是首个聚焦 ACL Anthology 的 EduNLP（教育自然语言处理）系统文献综述：作者手工标注 2024–2025 年 BEA/NLP4CALL workshop 与主会的 204 篇论文，从任务、动机、利益相关者纳入、激励结构、伦理风险五个维度盘点全领域，发现一个核心张力——研究被私营部门激励（商业自动评分等）牵着走，而教育基础设施真正的需求（尤其是教师）被系统性忽视：教师仅在 33.3% 论文中被当作受益者、真实部署仅占 9.8%、伦理参与多停留在"承认"而非"行动"。
+
 **[Iterative Formalization and Planning in Partially Observable Environments](iterative_formalization_and_planning_in_partially_observable_environments.md)**
 
 :   提出 PDDLego+ 框架，让 LLM 在部分可观测环境中迭代地生成和修正 PDDL（规划领域定义语言）表示，通过双层错误修复循环（solver error + simulation error）实现无需微调、无需示例的有效规划。
@@ -262,6 +266,10 @@ item_total: 59
 **[Rethinking the Idiomaticity Decomposability Hypothesis: Evidence from Distributional Learning](rethinking_the_idiomaticity_decomposability_hypothesis_evidence_from_distributio.md)**
 
 :   这篇论文用上下文化语言模型作为“受控的分布式学习者”重新检验 Idiom Decomposability Hypothesis，发现模型派生的可分解性只弱相关于人类判断，并且与句法灵活性呈小而稳定的负相关，说明习语行为更像是由分布经验、surprisal 和表征稳定过程共同塑造。
+
+**[SEF-CLGC at SemEval-2026 Task 11: Logical Notation Impact on Language Model Performance](sef-clgc_at_semeval-2026_task_11_logical_notation_impact_on_language_model_perfo.md)**
+
+:   这篇 SemEval-2026 Task 11 参赛系统论文把自然语言三段论翻译成多种形式逻辑记法（FOL、CLIF、CLINGO 等），再用参数量 <1B 的小语言模型（Flan-T5）做监督微调来判断三段论是否有效，证明给自然语言配上 FOL 这类"模型见过的"形式记法能在保持极低算力的同时显著压低推理中的内容偏置。
 
 **[Solver-Independent Automated Problem Formulation via LLMs for High-Cost Simulation-Driven Design](solver-independent_automated_problem_formulation_via_llms_for_high-cost_simulati.md)**
 

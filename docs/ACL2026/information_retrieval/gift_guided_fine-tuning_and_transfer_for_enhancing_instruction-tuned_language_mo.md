@@ -79,6 +79,7 @@ $$\mathcal{L}_{\mathrm{GIFT}}(\phi)=\mathbb{E}_{(x,y)\sim\mathcal{D}}\Big[\sum_{
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 模型 | 指标 | GIFT | 原始 instruct / 强基线 | 提升 / 结论 |
 |--------|------|------|----------|------|
 | Llama3.1-8B 数学五任务 | Average@16 | 22.0 | Instruct 16.8；Shadow-FT 18.0 | 比原模型 +5.2，比 Shadow-FT +4.0 |
@@ -91,6 +92,7 @@ $$\mathcal{L}_{\mathrm{GIFT}}(\phi)=\mathbb{E}_{(x,y)\sim\mathcal{D}}\Big[\sum_{
 | MedMCQA | Accuracy | 60.2 | Instruct 57.4；Shadow-FT 55.9 | 训练域测试也领先 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Qwen2.5-7B Instruct | 数学平均 41.3 | 原始 instruction baseline 很强 |
@@ -142,7 +144,7 @@ $$\mathcal{L}_{\mathrm{GIFT}}(\phi)=\mathbb{E}_{(x,y)\sim\mathcal{D}}\Big[\sum_{
 - [\[ICLR 2026\] Fine-tuning with RAG for Improving LLM Learning of New Skills](../../ICLR2026/information_retrieval/fine-tuning_with_rag_for_improving_llm_learning_of_new_skills.md)
 - [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/information_retrieval/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
 - [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](../../ACL2025/information_retrieval/enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
-- [\[ACL 2026\] Can Compact Language Models Search Like Agents? Distillation-Guided Policy Optimization for Preserving Agentic RAG Capabilities](can_compact_language_models_search_like_agents_distillation-guided_policy_optimi.md)
+- [\[CVPR 2026\] Language-driven Fine-grained Retrieval](../../CVPR2026/information_retrieval/language-driven_fine-grained_retrieval.md)
 
 </div>
 

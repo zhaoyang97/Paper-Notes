@@ -95,6 +95,7 @@ VeriDou 沿用 DNN 验证的标准范式：验证 $\phi\equiv\phi_{in}\Rightarro
 即使是经过鲁棒训练、较难攻击的 Oval21（3 个 ReLU-CNN），双重扰动仍能找出 24% 的 SAT 实例。
 
 ### 消融实验：卷积分量 Z 与独立分量 R 的贡献（Fig. 10）
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | $z_{ij}=0.0,\ \epsilon_R=0.01$ | 基线（仅独立） | CIFAR100 0%、TinyImageNet 20% |
@@ -145,8 +146,8 @@ VeriDou 沿用 DNN 验证的标准范式：验证 $\phi\equiv\phi_{in}\Rightarro
 - [\[CVPR 2026\] Towards Reliable Evaluation of Adversarial Robustness for Spiking Neural Networks](towards_reliable_evaluation_of_adversarial_robustness_for_spiking_neural_network.md)
 - [\[CVPR 2026\] RevINN: An End-to-End Invertible Neural Network for Reversible Adversarial Examples Generation](revinn_an_end-to-end_invertible_neural_network_for_reversible_adversarial_exampl.md)
 - [\[CVPR 2026\] Generative Adversarial Perturbations with Cross-paradigm Transferability on Localized Crowd Counting](generative_adversarial_perturbations_with_cross-paradigm_transferability_on_loca.md)
-- [\[CVPR 2026\] IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness](irisfp_adversarial-example-based_model_fingerprinting_with_enhanced_uniqueness_a.md)
 - [\[AAAI 2026\] FairGSE: Fairness-Aware Graph Neural Network without High False Positive Rates](../../AAAI2026/ai_safety/fairgse_fairness-aware_graph_neural_network_without_high_false_positive_rates.md)
+- [\[AAAI 2026\] Hashed Watermark as a Filter: A Unified Defense Against Forging and Overwriting Attacks in Neural Network Watermarking](../../AAAI2026/ai_safety/hashed_watermark_as_a_filter_defeating_forging_and_overwriting_attacks_in_weight.md)
 
 </div>
 

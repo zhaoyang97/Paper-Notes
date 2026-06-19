@@ -96,6 +96,7 @@ LLM 端用自回归交叉熵 $L_{ce}$，总目标 $L_{total} = L_{pc} + L_{ce}$�
 闭环 Driving Score 相对前最优提升 22%、成功率相对提升 63%，是长程规划质量的大幅跃升；开环 L2（0.63）与效率（169.52）仍处第一梯队，说明提升不靠牺牲模仿精度或效率换来。
 
 ### VQA 任务（节选 CogDriver-nuScenes）
+
 | 模型 | CIDEr ↑ | BLEU-1 ↑ | BLEU-4 ↑ | ROUGE-L ↑ |
 |------|---------|----------|----------|-----------|
 | Qwen2.5VL 72B | 67.14 | 18.78 | 3.25 | 21.91 |
@@ -150,7 +151,7 @@ LLM 端用自回归交叉熵 $L_{ce}$，总目标 $L_{total} = L_{pc} + L_{ce}$�
 - [\[CVPR 2026\] Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving](diffusion_forcing_planner_history-annealed_planning_with_time-dependent_guidance.md)
 - [\[CVPR 2026\] Perceiving the Near, Reasoning the Distant: Coherent Long-Horizon Trajectory Prediction for Autonomous Driving](perceiving_the_near_reasoning_the_distant_coherent_long-horizon_trajectory_predi.md)
 - [\[CVPR 2026\] ReScene4D: Temporally Consistent Semantic Instance Segmentation of Evolving Indoor 3D Scenes](rescene4d_temporally_consistent_semantic_instance_segmentation_of_evolving_indoo.md)
-- [\[CVPR 2026\] ActiveAD: Planning-Oriented Active Learning for End-to-End Autonomous Driving](activead_planning-oriented_active_learning_for_end-to-end_autonomous_driving.md)
+- [\[CVPR 2026\] Neuro-Cognitive Reward Modeling for Human-Centered Autonomous Vehicle Control](neuro-cognitive_reward_modeling_for_human-centered_autonomous_vehicle_control.md)
 
 </div>
 

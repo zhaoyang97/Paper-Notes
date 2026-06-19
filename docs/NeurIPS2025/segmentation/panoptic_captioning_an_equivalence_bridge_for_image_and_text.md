@@ -130,7 +130,7 @@ tags:
 - [\[NeurIPS 2025\] SRSR: Enhancing Semantic Accuracy in Real-World Image Super-Resolution with Spatially Re-Focused Text-Conditioning](srsr_enhancing_semantic_accuracy_in_real-world_image_super-resolution_with_spati.md)
 - [\[CVPR 2026\] Mitigating Objectness Bias and Region-to-Text Misalignment for Open-Vocabulary Panoptic Segmentation](../../CVPR2026/segmentation/mitigating_objectness_bias_and_region-to-text_misalignment_for_open-vocabulary_p.md)
 - [\[ICLR 2026\] VIRTUE: Visual-Interactive Text-Image Universal Embedder](../../ICLR2026/segmentation/virtue_visual-interactive_text-image_universal_embedder.md)
-- [\[CVPR 2025\] Scene-Centric Unsupervised Panoptic Segmentation](../../CVPR2025/segmentation/scene-centric_unsupervised_panoptic_segmentation.md)
+- [\[CVPR 2025\] Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation](../../CVPR2025/segmentation/fine-grained_image-text_correspondence_with_cost_aggregation_for_open-vocabulary.md)
 
 </div>
 

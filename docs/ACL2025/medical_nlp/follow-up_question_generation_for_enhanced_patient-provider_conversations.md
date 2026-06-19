@@ -20,7 +20,7 @@ tags:
 **代码**: 未公开（数据集 FollowupBench 公开）  
 **作者**: Joseph Gatto, Parker Seegmiller, Timothy Burdick, Inas S. Khayal, Sarah DeLozier, Sarah M. Preum  
 **机构**: Dartmouth College  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 追问生成, 异步医疗对话, 多智能体框架, 电子健康记录, 鉴别诊断
 
 ## 一句话总结

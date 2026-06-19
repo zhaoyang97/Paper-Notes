@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding
 description: >-
-  [CVPR 2026][多模态VLM][长视频理解] TimeViper 用 Mamba-2 与自注意力混合的 9B 大模型当骨干，借助新发现的"视觉信息会逐层汇聚进指令 token"现象，提出在 LLM 内部用门控交叉注意力把冗余视觉 token 转移压缩进指令 token 的 TransV 模块，从而在单张 GPU 上处理上万帧的小时级长视频，且性能与 Transformer 系 MLLM 相当。
+  [CVPR 2026][VLM Efficiency][长视频理解] TimeViper 用 Mamba-2 与自注意力混合的 9B 大模型当骨干，借助新发现的"视觉信息会逐层汇聚进指令 token"现象，提出在 LLM 内部用门控交叉注意力把冗余视觉 token 转移压缩进指令 token 的 TransV 模块，从而在单张 GPU 上处理上万帧的小时级长视频，且性能与 Transformer 系 MLLM 相当。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "长视频理解"
   - "Transformer"
   - "视觉 token 压缩"
@@ -140,11 +140,11 @@ TransV 的位置与压缩率消融（Table 2）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding](remora_multimodal_large_language_model_based_on_refined_motion_representation_fo.md)
-- [\[ICCV 2025\] MaTVLM: Hybrid Mamba-Transformer for Efficient Vision-Language Modeling](../../ICCV2025/multimodal_vlm/matvlm_hybrid_mamba-transformer_for_efficient_vision-language_modeling.md)
-- [\[CVPR 2026\] MSJoE: Jointly Evolving MLLM and Sampler for Efficient Long-Form Video Understanding](msjoe_jointly_evolving_mllm_and_sampler_for_efficient_long-form_video_understand.md)
-- [\[CVPR 2026\] POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs](points-long_adaptive_dual-mode_visual_reasoning_in_mllms.md)
-- [\[CVPR 2026\] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)
+- [\[ICCV 2025\] MaTVLM: Hybrid Mamba-Transformer for Efficient Vision-Language Modeling](../../ICCV2025/vlm_efficiency/matvlm_hybrid_mamba-transformer_for_efficient_vision-language_modeling.md)
+- [\[CVPR 2026\] Hybrid Token Compression for Vision-Language Models](hybrid_token_compression_for_vision-language_models.md)
+- [\[CVPR 2026\] MeToM: Metadata-Guided Token Merging for Efficient Video LLMs](metom_metadata-guided_token_merging_for_efficient_video_llms.md)
+- [\[CVPR 2026\] TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model](transprune_token_transition_pruning_for_efficient_large_vision-language_model.md)
+- [\[ACL 2025\] Sharper and Faster mean Better: Towards More Efficient Vision-Language Model for Hour-scale Long Video Understanding](../../ACL2025/vlm_efficiency/sophia_efficient_long_video.md)
 
 </div>
 

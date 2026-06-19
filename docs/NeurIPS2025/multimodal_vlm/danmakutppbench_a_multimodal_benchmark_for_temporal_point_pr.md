@@ -131,7 +131,7 @@ DanmakuTPPBench包含两个互补组件：(1) DanmakuTPP-Events——面向经�
 - [\[NeurIPS 2025\] mmWalk: Towards Multi-modal Multi-view Walking Assistance](mmwalk_towards_multi-modal_multi-view_walking_assistance.md)
 - [\[ACL 2025\] AGRI-CM3: A Chinese Massive Multi-Modal Multi-Level Benchmark for Agricultural Understanding](../../ACL2025/multimodal_vlm/agri-cm3_a_chinese_massive_multi-modal_multi-level_benchmark_for_agricultural_un.md)
 - [\[ACL 2025\] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark](../../ACL2025/multimodal_vlm/mmmu_pro_robust_benchmark.md)
-- [\[ACL 2025\] FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation](../../ACL2025/multimodal_vlm/finmme_benchmark_dataset_for_financial_multi-modal_reasoning_evaluation.md)
+- [\[CVPR 2026\] Point Cloud as a Foreign Language for Multi-modal Large Language Model](../../CVPR2026/multimodal_vlm/point_cloud_as_a_foreign_language_for_multi-modal_large_language_model.md)
 
 </div>
 

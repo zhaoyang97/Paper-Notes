@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 Findings  
 **arXiv**: [2604.11547](https://arxiv.org/abs/2604.11547)  
 **代码**: [https://github.com/tdlhl/MedSSR](https://github.com/tdlhl/MedSSR)  
-**领域**: 医学NLP
+**领域**: 医学NLP  
 **关键词**: 医学推理、罕见病、数据合成、半监督强化学习、GRPO
 
 ## 一句话总结

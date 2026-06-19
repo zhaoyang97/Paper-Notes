@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MM-SeR: Multimodal Self-Refinement for Lightweight Image Captioning
 description: >-
-  [CVPR 2026][多模态VLM][轻量图像描述] 作者先发现把 MLLM 里的 7B 语言模型换成 125M 的 OPT 也能在事实性图像描述上逼近大模型，再提出多模态自我精炼框架 MM-SeR——让这个轻量模型先生成粗描述、再用粗描述引导提取更细的视觉特征做二次精炼，在单句/详细描述乃至长视频问答上都拿到接近大模型的效果，同时参数省 93%、推理时间省 97%。
+  [CVPR 2026][VLM Efficiency][轻量图像描述] 作者先发现把 MLLM 里的 7B 语言模型换成 125M 的 OPT 也能在事实性图像描述上逼近大模型，再提出多模态自我精炼框架 MM-SeR——让这个轻量模型先生成粗描述、再用粗描述引导提取更细的视觉特征做二次精炼，在单句/详细描述乃至长视频问答上都拿到接近大模型的效果，同时参数省 93%、推理时间省 97%。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "轻量图像描述"
   - "自我精炼"
   - "多模态"
@@ -142,11 +142,11 @@ MM-SeR 的两个输入分别拆开看贡献（以 ShareGPT4V&DCI 的 CIDEr / CAP
 
 ## 相关论文
 
-- [\[ICCV 2025\] SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning](../../ICCV2025/multimodal_vlm/sc-captioner_improving_image_captioning_with_self-correction_by_reinforcement_le.md)
+- [\[CVPR 2026\] Adapting Lightweight Image-based Counting Models for Video Crowd Counting](adapting_lightweight_image-based_counting_models_for_video_crowd_counting.md)
 - [\[CVPR 2026\] OmniZip: Learning a Unified and Lightweight Lossless Compressor for Multi-Modal Data](omnizip_learning_a_unified_and_lightweight_lossless_compressor_for_multi-modal_d.md)
-- [\[CVPR 2026\] Text-Only Training for Image Captioning with Retrieval Augmentation and Modality Gap Correction](text-only_training_for_image_captioning_with_retrieval_augmentation_and_modality.md)
-- [\[CVPR 2026\] Self-guided Semantic Inspection for Zero-Shot Composed Image Retrieval](self-guided_semantic_inspection_for_zero-shot_composed_image_retrieval.md)
-- [\[CVPR 2026\] Agentic Video Summarization via Self-Reflecting Multimodal Understanding](agentic_video_summarization_via_self-reflecting_multimodal_understanding.md)
+- [\[CVPR 2026\] Differentiable Vector Quantization for Rate-Distortion Optimization of Generative Image Compression](differentiable_vector_quantization_for_rate-distortion_optimization_of_generativ.md)
+- [\[CVPR 2026\] ViLearn: Accelerating Training Convergence of Image-to-3D Generation via Visibility Learning](vilearn_accelerating_training_convergence_of_image-to-3d_generation_via_visibili.md)
+- [\[CVPR 2026\] Vision-Oriented Lightweight Neural Architecture Search with Budget-Adaptive Evaluation](vision-oriented_lightweight_neural_architecture_search_with_budget-adaptive_eval.md)
 
 </div>
 

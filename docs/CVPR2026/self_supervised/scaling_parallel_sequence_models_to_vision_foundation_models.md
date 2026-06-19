@@ -97,6 +97,7 @@ C-GSPN 不需要位置编码，升分辨率不用改架构、只改训练，因�
 ## 实验关键数据
 
 ### 系统效率（A100，B=32，C=1152）
+
 | 分辨率 | 指标 | Attention | FlashAttention | GSPN | C-GSPN(本文) |
 |--------|------|-----------|----------------|------|--------------|
 | 1036 | 子层延迟(ms) | 205.90 | 32.81 | 9.95 | **0.18** |
@@ -108,6 +109,7 @@ C-GSPN 不需要位置编码，升分辨率不用改架构、只改训练，因�
 子层级最高比点积注意力快 1097×、比原始 GSPN 快 55.3×–86.9×；块级 2K 下比 FlashAttention 快 4.28×，吞吐在 1K/2K 比 FlashAttention 高 1.67×/3.82×。
 
 ### 多任务质量（教师 OpenCLIP SO/14@378，600M 图文对）
+
 | 方法 | 参数 | Top-1 | ADE20K | COCO | 宏平均 |
 |------|------|-------|--------|------|--------|
 | OpenCLIP SO/14（教师） | 427M | 84.1 | 45.8 | 47.7 | 64.6 |
@@ -118,6 +120,7 @@ C-GSPN 不需要位置编码，升分辨率不用改架构、只改训练，因�
 C-GSPN 用少 15% 参数逼平 ViT→ViT 基线（63.3 vs 63.5），显著超原始 GSPN（62.7），分割上甚至超过教师（ADE20K +0.2%）。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | 对比损失 only | 最差 | 算力受限下纯 CL 不够 |
@@ -165,10 +168,10 @@ C-GSPN 用少 15% 参数逼平 ViT→ViT 基线（63.3 vs 63.5），显著超原
 ## 相关论文
 
 - [\[CVPR 2026\] Scaling Dense Event-Stream Pretraining from Visual Foundation Models](scaling_dense_event-stream_pretraining_from_visual_foundation_models.md)
-- [\[CVPR 2026\] Robustness of Vision Foundation Models to Common Perturbations](robustness_of_vision_foundation_models_to_common_perturbations.md)
 - [\[CVPR 2026\] Chain-of-Models Pre-Training: Rethinking Training Acceleration of Vision Foundation Models](com_pt_chain_of_models_pretraining.md)
 - [\[CVPR 2026\] TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction](talo_pushing_3d_vision_foundation_models_towards_globally_consistent_online_reco.md)
 - [\[CVPR 2026\] Harnessing the Power of Foundation Models for Accurate Material Classification](harnessing_the_power_of_foundation_models_for_accurate_material_classification.md)
+- [\[CVPR 2026\] How Much 3D Do Video Foundation Models Encode?](how_much_3d_do_video_foundation_models_encode.md)
 
 </div>
 

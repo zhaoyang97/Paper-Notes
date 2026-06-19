@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2026  
 **arXiv**: [2605.29184](https://arxiv.org/abs/2605.29184)  
 **代码**: https://github.com/DrShushen/IGSR (有)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 符号回归, 影响力分数, LLM 等式发现, MCTS, 可解释建模
 
 ## 一句话总结
@@ -93,6 +93,7 @@ IGSR 不做端到端训练，整个过程是一次搜索：每轮 OLS 拟合用�
 LLM-SRBench（128 个发现导向问题，GPT-4o-mini，5 seeds）：IGSR 在 NMSE / Acc$_{0.1}$ / Term Recall / Symbolic Accuracy 上全部取得最佳平均排名，ID 和 OOD 测试集都领先；IGSR-Agent 次之。还击败了一组 AFE 基线（AutoFeat、OpenFE、SyMANTIC、CAAFE）在 5/6 数据集上。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|---------|------|
 | Full IGSR (MCTS + Δ + history) | 全场最佳 | 完整模型 |
@@ -139,8 +140,8 @@ LLM-SRBench（128 个发现导向问题，GPT-4o-mini，5 seeds）：IGSR 在 NM
 - [\[ACL 2025\] LADDER: Language Driven Slice Discovery and Error Rectification in Vision Classifiers](../../ACL2025/computational_biology/ladder_language-driven_slice_discovery_and_error_rectification_in_vision_classif.md)
 - [\[CVPR 2026\] BiGMINT: Biologically-guided Hierarchical Multimodal Integration for Modeling Multiple Compound Activities in Drug Discovery](../../CVPR2026/computational_biology/bigmint_biologically-guided_hierarchical_multimodal_integration_for_modeling_mul.md)
 - [\[ICML 2026\] TadA-Bench: A Million-Variant Benchmark for Future-Round Discovery Toward Agentic Protein Engineering](tada-bench_a_million-variant_benchmark_for_future-round_discovery_toward_agentic.md)
-- [\[NeurIPS 2025\] Post Hoc Regression Refinement via Pairwise Rankings](../../NeurIPS2025/computational_biology/post_hoc_regression_refinement_via_pairwise_rankings.md)
 - [\[ICML 2026\] Learning Protein Structure-Function Relationships through Knowledge-guided Representation Decomposition](learning_protein_structure-function_relationships_through_knowledge-guided_repre.md)
+- [\[NeurIPS 2025\] Post Hoc Regression Refinement via Pairwise Rankings](../../NeurIPS2025/computational_biology/post_hoc_regression_refinement_via_pairwise_rankings.md)
 
 </div>
 

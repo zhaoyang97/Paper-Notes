@@ -134,7 +134,7 @@ ShotAdapter 基于 DiT 架构的 T2V 模型（类似 OpenSora），整个流程�
 - [\[CVPR 2025\] Mind the Time: Temporally-Controlled Multi-Event Video Generation](mind_the_time_temporally-controlled_multi-event_video_generation.md)
 - [\[CVPR 2026\] MultiShotMaster: A Controllable Multi-Shot Video Generation Framework](../../CVPR2026/video_generation/multishotmaster_a_controllable_multi-shot_video_generation_framework.md)
 - [\[CVPR 2025\] Multi-subject Open-set Personalization in Video Generation](multi-subject_open-set_personalization_in_video_generation.md)
-- [\[CVPR 2026\] OneStory: Coherent Multi-Shot Video Generation with Adaptive Memory](../../CVPR2026/video_generation/onestory_coherent_multi-shot_video_generation_with_adaptive_memory.md)
+- [\[CVPR 2025\] VideoDirector: Precise Video Editing via Text-to-Video Models](videodirector_precise_video_editing_via_text-to-video_models.md)
 
 </div>
 

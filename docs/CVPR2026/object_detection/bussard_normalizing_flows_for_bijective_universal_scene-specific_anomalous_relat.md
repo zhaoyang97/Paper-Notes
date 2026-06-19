@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.16645](https://arxiv.org/abs/2603.16645)  
 **代码**: [github.com/mschween/BUSSARD](https://github.com/mschween/BUSSARD)  
-**领域**:目标检测
+**领域**:目标检测  
 **关键词**: 场景图异常检测, 标准化流, 语义嵌入, 关系异常, 多模态
 
 ## 一句话总结

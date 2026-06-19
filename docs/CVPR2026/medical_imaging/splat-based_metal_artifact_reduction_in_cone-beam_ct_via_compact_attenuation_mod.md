@@ -105,6 +105,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_1(P_{GT}, P) + \lambda_0 \mathcal{L}_
 跨所有场景普遍提速约一个数量级。
 
 ### 消融实验
+
 | 配置 | PSNR3D | SSIM3D | 说明 |
 |------|--------|--------|------|
 | Baseline (R2-Gaussian) | 23.22 | 0.984 | 单色高斯泼溅 |
@@ -151,8 +152,8 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_1(P_{GT}, P) + \lambda_0 \mathcal{L}_
 - [\[CVPR 2026\] SPECTRE：面向体积 CT Transformer 的自监督与跨模态预训练](scaling_self-supervised_and_cross-modal_pretraining_for_volumetric_ct_transforme.md)
 - [\[CVPR 2026\] GH-NAF: Grid-Adaptive Hash-Level-Attended Neural Attenuation Fields for Discrepancy-Aware CBCT](gh-naf_grid-adaptive_hash-level-attended_neural_attenuation_fields_for_discrepan.md)
 - [\[CVPR 2026\] Modeling the Brain's Grammar: ROI-Guided fMRI Pretraining for Transferable and Interpretable Vision Decoding](modeling_the_brains_grammar_roi-guided_fmri_pretraining_for_transferable_and_int.md)
-- [\[CVPR 2026\] PETAR: Localized Findings Generation with Mask-Aware Vision-Language Modeling for PET Automated Reporting](petar_localized_findings_generation_with_mask-aware_vision-language_modeling_for.md)
 - [\[CVPR 2026\] VesMamba: 3D Pulmonary Vessel Segmentation from CT images via Mamba with Structural Perception and Scale-aware Filtering](vesmamba_3d_pulmonary_vessel_segmentation_from_ct_images_via_mamba_with_structur.md)
+- [\[AAAI 2026\] FaNe: Towards Fine-Grained Cross-Modal Contrast with False-Negative Reduction and Text-Conditioned Sparse Attention](../../AAAI2026/medical_imaging/fane_towards_fine-grained_cross-modal_contrast_with_false-negative_reduction_and.md)
 
 </div>
 

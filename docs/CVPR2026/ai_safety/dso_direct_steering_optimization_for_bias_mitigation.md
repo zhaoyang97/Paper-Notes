@@ -121,6 +121,7 @@ DSO 机制与模态无关，在纯 LLM 的指代消解任务上同样有效：
 Per-Occupation Bias 从 60.4% 降到 5.9%，不歧义准确率反而涨了 10+ p.p.（到 99.7%），MMLU 几乎不掉——不过代价是「don't know」拒答率升高（更谨慎）。
 
 ### 消融 / 分析
+
 | 分析维度 | 关键发现 |
 |------|------|
 | 可控性（图 3） | 随 $\omega$ 增大，DSO 的 Per-Occupation Bias **单调下降**；ITI/CAA 非单调，Prompting 根本压不动且无原则化调节方式 |
@@ -163,9 +164,9 @@ Per-Occupation Bias 从 60.4% 降到 5.9%，不歧义准确率反而涨了 10+ p
 
 - [\[CVPR 2026\] Decoupling Bias, Aligning Distributions: Synergistic Fairness Optimization for Deepfake Detection](decoupling_bias_aligning_distributions_synergistic_fairness_optimization_for_dee.md)
 - [\[CVPR 2026\] $\varphi$-DPO: Fairness Direct Preference Optimization Approach to Continual Learning in Large Multimodal Models](φ-dpo_fairness_direct_preference_optimization_approach_to_continual_learning_in_.md)
+- [\[CVPR 2026\] Bias at the End of the Score](bias_at_the_end_of_the_score.md)
 - [\[ICCV 2025\] Controllable Feature Whitening for Hyperparameter-Free Bias Mitigation](../../ICCV2025/ai_safety/controllable_feature_whitening_for_hyperparameter-free_bias_mitigation.md)
 - [\[CVPR 2026\] Computation and Communication Efficient Federated Unlearning via On-server Gradient Conflict Mitigation and Expression](computation_and_communication_efficient_federated_unlearning_via_on-server_gradi.md)
-- [\[CVPR 2026\] PROMPTMINER: Black-Box Prompt Stealing against Text-to-Image Generative Models via Reinforcement Learning and VLM-Guided Optimization](promptminer_black-box_prompt_stealing_against_text-to-image_generative_models_vi.md)
 
 </div>
 

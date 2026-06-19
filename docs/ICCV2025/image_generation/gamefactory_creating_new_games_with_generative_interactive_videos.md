@@ -169,8 +169,8 @@ $$\mathcal{L}_{\mathbf{a}}(\phi) = \mathbb{E}[||\boldsymbol{\epsilon}_\phi(\math
 
 ## 相关论文
 
-- [\[ICCV 2025\] SDMatte: Grafting Diffusion Models for Interactive Matting](sdmatte_grafting_diffusion_models_for_interactive_matting.md)
 - [\[ICLR 2026\] Market Games for Generative Models: Equilibria, Welfare, and Strategic Entry](../../ICLR2026/image_generation/market_games_for_generative_models_equilibria_welfare_and_strategic_entry.md)
+- [\[ICCV 2025\] SDMatte: Grafting Diffusion Models for Interactive Matting](sdmatte_grafting_diffusion_models_for_interactive_matting.md)
 - [\[ICCV 2025\] StreamDiffusion: A Pipeline-level Solution for Real-time Interactive Generation](streamdiffusion_a_pipeline-level_solution_for_real-time_interactive_generation.md)
 - [\[ICCV 2025\] EC-Flow: Enabling Versatile Robotic Manipulation from Action-Unlabeled Videos via Equivariant Flow Matching](ec-flow_enabling_versatile_robotic_manipulation_from_action-unlabeled_videos_via.md)
 - [\[ICCV 2025\] MotionDiff: Training-Free Zero-Shot Interactive Motion Editing via Flow-Assisted Multi-View Diffusion](motiondiff_training-free_zero-shot_interactive_motion_editing_via_flow-assisted_.md)

@@ -187,10 +187,10 @@ Diverse-BBO 在 4 个 MetaBBO 方法上平均排名第一，泛化性能最优�
 ## 相关论文
 
 - [\[AAAI 2026\] Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation](bridging_synthetic_and_real_routing_problems_via_llm-guided_instance_generation_.md)
-- [\[CVPR 2026\] Generalized and Personalized Federated Learning with Black-Box Foundation Models via Orthogonal Transformations](../../CVPR2026/optimization/generalized_and_personalized_federated_learning_with_black-box_foundation_models.md)
+- [\[ICLR 2026\] Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation](../../ICLR2026/optimization/binomial_gradient-based_meta-learning_for_enhanced_meta-gradient_estimation.md)
 - [\[ICLR 2026\] Test-Time Meta-Adaptation with Self-Synthesis](../../ICLR2026/optimization/test-time_meta-adaptation_with_self-synthesis.md)
 - [\[CVPR 2026\] Learning to Learn Weight Generation via Local Consistency Diffusion](../../CVPR2026/optimization/learning_to_learn_weight_generation_via_local_consistency_diffusion.md)
-- [\[AAAI 2026\] Co-Layout: LLM-driven Co-optimization for Interior Layout](co-layout_llm-driven_co-optimization_for_interior_layout.md)
+- [\[CVPR 2026\] End-to-End Hyper-Relational Information Extraction for Engineering Diagrams via Dynamically Tokenized Relation Transformer](../../CVPR2026/optimization/end-to-end_hyper-relational_information_extraction_for_engineering_diagrams_via_.md)
 
 </div>
 

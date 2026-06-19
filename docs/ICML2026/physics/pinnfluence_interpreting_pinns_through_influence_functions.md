@@ -44,9 +44,9 @@ PINNfluence 不动 PINN 的训练流程——它是一个 post-hoc 分析框架�
 - **输入**：训练好的 PINN $\phi$、训练集 $\mathcal{X}$（包含 PDE collocation 点和 IC/BC 点）、感兴趣的目标量 $f$（可以是预测 $\hat{u}$、某个损失分量 $L_i$、物理观测量）、测试点/区域。
 - **核心计算**：把对 $\theta$ 的 IHVP $\mathcal{H}_{\theta_0}^{-1}\nabla_\theta L(x;\theta_0)$ 与 $\nabla_\theta f(z;\theta_0)$ 配对——通过 low-rank Arnoldi 近似 + Hessian-vector product 避免显式构造 Hessian。
 - **三层分析粒度**：
-  - 点-点：$\operatorname{Inf}_{\theta_0}^{L\to f}(x,z)$；
-  - 点-区 / 区-点：对 $z$ 或 $x$ 在区域上求和；
-  - 区-区：双重求和，配合归一化得到比例指标。
+    - 点-点：$\operatorname{Inf}_{\theta_0}^{L\to f}(x,z)$；
+    - 点-区 / 区-点：对 $z$ 或 $x$ 在区域上求和；
+    - 区-区：双重求和，配合归一化得到比例指标。
 - **输出**：(1) 点对点影响热力图（看哪个训练点最影响哪个测试点）；(2) 损失分量分解比例 $r_{L_i}$ 与抵消分数 $\kappa$；(3) 时空区域指标，如时间因果指标 $\eta$。
 
 整条 pipeline 是一个"算一次影响、分流成多种诊断"的结构：唯一的核心计算是广义影响函数 $\operatorname{Inf}^{L\to f}$，它先在三种粒度上聚合，再分流成"损失分量"与"时空区域"两族诊断指标，最后汇合成"训练良好 vs 训练失败"的结构性判断。

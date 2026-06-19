@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2412.17780](https://arxiv.org/abs/2412.17780)  
 **代码**: [https://huggingface.co/ChatterjeeLab/PepTune](https://huggingface.co/ChatterjeeLab/PepTune)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 治疗性肽设计, 离散扩散, 多目标优化, MCTS, SMILES
 
 ## 一句话总结
@@ -148,7 +148,7 @@ PepTune 结合 Masked Discrete Language Model (MDLM) 和蒙特卡罗树搜索 (M
 - [\[ICML 2025\] Latent Imputation before Prediction: A New Computational Paradigm for De Novo Peptide Sequencing](latent_imputation_before_prediction_a_new_computational_paradigm_for_de_novo_pep.md)
 - [\[NeurIPS 2025\] De novo generation of functional terpene synthases using TpsGPT](../../NeurIPS2025/computational_biology/de_novo_generation_of_functional_terpene_synthases_using_tpsgpt.md)
 - [\[ICML 2025\] Kinetic Langevin Diffusion for Crystalline Materials Generation](kinetic_langevin_diffusion_for_crystalline_materials_generation.md)
-- [\[ICML 2025\] MF-LAL: Drug Compound Generation Using Multi-Fidelity Latent Space Active Learning](mf-lal_drug_compound_generation_using_multi-fidelity_latent_space_active_learnin.md)
+- [\[ICML 2025\] UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design](unimomo_unified_generative_modeling_of_3d_molecules_for_de_novo_binder_design.md)
 
 </div>
 

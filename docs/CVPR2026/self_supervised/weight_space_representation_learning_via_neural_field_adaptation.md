@@ -118,6 +118,7 @@ $$\min_{\omega,\{z_i\}} \sum_{i=1}^{N} L_{recon}(f_\omega(p, z_i), x_i(p)) + \la
 3D ShapeNet 生成上 mLoRA-Asym 同样在几乎所有指标领先（如 Airplane FD 0.011 vs HyperDiffusion 0.027，Multi FD 0.026 vs 0.117）。值得注意：纯加性 LoRA / LoRA-Asym 在生成上**全面崩盘**（Airplane FD 高达 116~270，1-NNA 接近 100%），印证了加性纠缠会毁掉权重空间结构。
 
 ### 消融 / 判别任务（ShapeNet 10 类）
+
 | 表示 | 聚类 ARI↑ | 1-NN 分类↑ | Logistic 分类↑ |
 |------|----------|-----------|----------------|
 | MLP | 39.3% | 50.0% | 78.1% |
@@ -161,11 +162,11 @@ $$\min_{\omega,\{z_i\}} \sum_{i=1}^{N} L_{recon}(f_\omega(p, z_i), x_i(p)) + \la
 
 ## 相关论文
 
+- [\[CVPR 2026\] Exemplar-Free Continual Learning for State Space Models](exemplar-free_continual_learning_for_state_space_models.md)
 - [\[ICML 2026\] How 'Neural' is a Neural Foundation Model?](../../ICML2026/self_supervised/how_neural_is_a_neural_foundation_model.md)
-- [\[CVPR 2026\] DGS: Dual Gradient and Semantic-Shift Guided Low-Rank Adaptation for Class Incremental Learning](dgs_dual_gradient_and_semantic-shift_guided_low-rank_adaptation_for_class_increm.md)
 - [\[CVPR 2026\] An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning](an_optimal_transport_driven_approach_for_cultivating_latent_space_in_online_incr.md)
 - [\[CVPR 2026\] Assignment-Driven Hash Learning in a Hyper-Semantic Space for On-the-Fly Category Discovery](assignment-driven_hash_learning_in_a_hyper-semantic_space_for_on-the-fly_categor.md)
-- [\[CVPR 2026\] Measure The Feature Universe: Topology-based Pseudo Labeling and Gravity Consistency for Source-Free Domain Adaptation](measure_the_feature_universe_topology-based_pseudo_labeling_and_gravity_consiste.md)
+- [\[CVPR 2026\] On the Role of Temporal Granularity in the Robustness of Spiking Neural Networks](on_the_role_of_temporal_granularity_in_the_robustness_of_spiking_neural_networks.md)
 
 </div>
 

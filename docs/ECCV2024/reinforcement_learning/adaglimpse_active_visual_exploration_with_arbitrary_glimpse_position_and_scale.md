@@ -103,10 +103,10 @@ AdaGlimpse的核心思想是让智能体在连续空间中同时决定下一次�
 ## 相关论文
 
 - [\[ICML 2026\] Position: Deployed Reinforcement Learning should be Continual](../../ICML2026/reinforcement_learning/position_deployed_reinforcement_learning_should_be_continual.md)
-- [\[ICML 2025\] KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies](../../ICML2025/reinforcement_learning/kea_keeping_exploration_alive_by_proactively_coordinating_exploration_strategies.md)
-- [\[ECCV 2024\] Visual Grounding for Object-Level Generalization in Reinforcement Learning](visual_grounding_for_object-level_generalization_in_reinforcement_learning.md)
 - [\[ICML 2025\] LineFlow: A Framework to Learn Active Control of Production Lines](../../ICML2025/reinforcement_learning/lineflow_a_framework_to_learn_active_control_of_production_lines.md)
+- [\[ECCV 2024\] Visual Grounding for Object-Level Generalization in Reinforcement Learning](visual_grounding_for_object-level_generalization_in_reinforcement_learning.md)
 - [\[ICML 2025\] Position: Lifetime Tuning is Incompatible with Continual Reinforcement Learning](../../ICML2025/reinforcement_learning/position_lifetime_tuning_is_incompatible_with_continual_reinforcement_learning.md)
+- [\[ICML 2025\] KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies](../../ICML2025/reinforcement_learning/kea_keeping_exploration_alive_by_proactively_coordinating_exploration_strategies.md)
 
 </div>
 

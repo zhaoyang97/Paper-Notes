@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Mask to Align, Weight to Disambiguate: Reliable Unsupervised Cross-Modal Hashing with Masked-Weight Contrast
 description: >-
-  [CVPR 2026][信息检索/RAG][无监督跨模态哈希] 针对无监督跨模态哈希里"部分对齐 + 语义歧义"两大顽疾，UWMCH 在融合前对 token 做掩码以逼模型学互补语义，再用语义亲和度给对比损失重新加权来压制假负样本，并辅以双尺度语义正则稳住哈希空间，在三个检索基准的 24 个设置里 21 个拿到最优 mAP。
+  [CVPR 2026][多模态VLM][无监督跨模态哈希] 针对无监督跨模态哈希里"部分对齐 + 语义歧义"两大顽疾，UWMCH 在融合前对 token 做掩码以逼模型学互补语义，再用语义亲和度给对比损失重新加权来压制假负样本，并辅以双尺度语义正则稳住哈希空间，在三个检索基准的 24 个设置里 21 个拿到最优 mAP。
 tags:
   - "CVPR 2026"
-  - "信息检索/RAG"
+  - "多模态VLM"
   - "无监督跨模态哈希"
   - "掩码对比学习"
   - "假负样本"
@@ -128,11 +128,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[CVPR 2026\] Intra-class Distribution-guided Generative Hashing with Neighbor Refinement for Cross-modal Retrieval](intra-class_distribution-guided_generative_hashing_with_neighbor_refinement_for_.md)
 - [\[CVPR 2026\] POGA: Paraphrased and Oppositional Graph Alignment for Fine-Grained Cross-Modal Retrieval](poga_paraphrased_and_oppositional_graph_alignment_for_fine-grained_cross-modal_r.md)
 - [\[CVPR 2026\] ProM3E: Probabilistic Masked MultiModal Embedding Model for Ecology](prom3e_probabilistic_masked_multimodal_embedding_model_for_ecology.md)
-- [\[AAAI 2026\] Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval](../../AAAI2026/information_retrieval/neighbor-aware_instance_refining_with_noisy_labels_for_cross-modal_retrieval.md)
-- [\[CVPR 2025\] NeighborRetr: Balancing Hub Centrality in Cross-Modal Retrieval](../../CVPR2025/information_retrieval/neighborretr_balancing_hub_centrality_in_cross-modal_retrieval.md)
-- [\[ACL 2025\] Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval](../../ACL2025/information_retrieval/maximal_matching_matters_preventing_representation_collapse_for_robust_cross-mod.md)
+- [\[ICML 2026\] Temporal Preference Optimization for Unsupervised Retrieval](../../ICML2026/information_retrieval/temporal_preference_optimization_for_unsupervised_retrieval.md)
+- [\[ACL 2026\] Reliable Evaluation Protocol for Low-Precision Retrieval](../../ACL2026/information_retrieval/reliable_evaluation_protocol_for_low-precision_retrieval.md)
 
 </div>
 

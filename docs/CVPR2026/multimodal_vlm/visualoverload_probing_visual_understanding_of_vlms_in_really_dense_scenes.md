@@ -38,6 +38,7 @@ tags:
 **核心 idea**：不考新知识、不考难题型，只用人人都觉得"简单"的基础视觉任务，但把它们放进密集到让模型"喘不过气"的场景里，看 SOTA VLM 会不会原形毕露。
 
 ## 方法详解
+
 ### 整体框架
 这是一篇纯 benchmark 论文，没有训练新模型，核心产出是数据集本身和一套防作弊的评测协议。整条 pipeline 是：从 Google Arts & Culture 收 150 张公版名画 → 统一降采样到 4K → 6 名标注者按 6 类任务手工出题（约每图 18 题，含多选/二元/自由形式三种答案格式，二元题成对出"逻辑相反"问题）→ 用 37 个 VLM 跑一遍做质量控制（剔除"盲答"也能答对的语言偏差题）→ 按全体模型的答对率把题目切成 easy/medium/hard 三档 → 真值私有，只放评测服务器打分。
 
@@ -89,6 +90,7 @@ tags:
 - **反直觉缩放**：性能不总随参数增大而提升，InternVL3、PaliGemma 2 的最大号反而掉点；专用高分辨率模型（VILA HD、ILM-XC2-4KHD）显著弱于同尺寸常规模型，因为现代 VLM 普遍已用 AnyRes 等支持高分辨率，性能更依赖 backbone 和训练而非"专为高分辨率设计"。
 
 ### 误差分析
+
 | 失败维度 | 关键量化结果 | 说明 |
 |----------|--------------|------|
 | 计数 | 10% 容差下平均仅 +1.6% | 真值越大错得越狠；多为拒答（记 0）或"太多数不清"，普遍**低估** |
@@ -142,9 +144,9 @@ tags:
 
 - [\[CVPR 2026\] Do VLMs Perceive or Recall? Probing Visual Perception vs. Memory with Classic Visual Illusions](do_vlms_perceive_or_recall_probing_visual_perception_vs_memory_with_classic_visu.md)
 - [\[CVPR 2026\] HumanVBench: Probing Human-Centric Video Understanding in MLLMs with Automatically Synthesized Benchmarks](humanvbench_probing_human_centric_video_understanding_in_mllms_with_automatica.md)
-- [\[CVPR 2026\] Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts](chart-fr1_visual_focus-driven_fine-grained_reasoning_on_dense_charts.md)
-- [\[CVPR 2026\] Reconstructing CLIP for Open-Vocabulary Dense Perception](reconstructing_clip_for_open-vocabulary_dense_perception.md)
 - [\[CVPR 2026\] Structural Graph Probing of Vision-Language Models](structural_graph_probing_of_vision-language_models.md)
+- [\[CVPR 2026\] More than the Sum: Panorama-Language Models for Adverse Omni-Scenes](more_than_the_sum_panorama-language_models_for_adverse_omni-scenes.md)
+- [\[CVPR 2026\] EgoAVU: Egocentric Audio-Visual Understanding](egoavu_egocentric_audio-visual_understanding.md)
 
 </div>
 

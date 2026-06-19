@@ -84,6 +84,7 @@ $$L_{GKD}=\sum_i L_{IeKD}(P_i,V_i)\ast M_i+\sum_{i\in\tilde S}L_{IeKD}(P_i,S_i)$
 数据集：CAMO、COD10K、NC4K；训练用 CAMO 的 1000 张 + COD10K 的 3040 张，其余测试。指标：MAE↓、S-measure（Sm↑）、E-measure（Em↑）、加权 F-measure（$F^w_\beta$↑）。
 
 ### 主实验（无监督设置，节选 NC4K / COD10K）
+
 | 方法 | 监督 | 骨干 | COD10K Em↑ | COD10K $F^w_\beta$↑ | NC4K Em↑ | NC4K $F^w_\beta$↑ |
 |------|------|------|-----------|-----------|---------|---------|
 | UCOS-DA (ICCVW'23) | U | DINO V1 | 0.751 | 0.482 | 0.824 | 0.637 |
@@ -94,6 +95,7 @@ $$L_{GKD}=\sum_i L_{IeKD}(P_i,V_i)\ast M_i+\sum_{i\in\tilde S}L_{IeKD}(P_i,S_i)$
 相比无监督前 SOTA UCOD-DPL，本文平均提升 42.6%（MAE）、14.0%（Sm）、9.2%（Em）、22.5%（$F^w_\beta$），且**彻底摆脱了 DINO 依赖**；PVT V2 版本已逼近甚至超过部分弱监督方法（如 SAM-COD、PNet）。零样本设置下（Qwen2.5-VL-3B + SAM）也达到 SOTA，且只用两个、更小的基础模型、推理仅一次，而 ProMaC / GenSAM 分别需 6 / 12 次迭代。
 
 ### 消融实验（整体组件，CAMO / COD10K，MAE↓ / Em↑）
+
 | 配置 | CAMO MAE↓ | CAMO Em↑ | COD10K MAE↓ | COD10K Em↑ |
 |------|-----------|----------|-------------|------------|
 | MLLM + SAM（裸跑） | 0.205 | 0.711 | 0.232 | 0.685 |
@@ -102,6 +104,7 @@ $$L_{GKD}=\sum_i L_{IeKD}(P_i,V_i)\ast M_i+\sum_{i\in\tilde S}L_{IeKD}(P_i,S_i)$
 | + GKD（完整） | **0.071** | **0.875** | **0.031** | **0.908** |
 
 ### GME 内部消融（表 5，额外开销均 ~0）
+
 | 配置 | CAMO MAE↓ | CAMO Em↑ |
 |------|-----------|----------|
 | Baseline | 0.145 | 0.777 |
@@ -145,11 +148,11 @@ $$L_{GKD}=\sum_i L_{IeKD}(P_i,V_i)\ast M_i+\sum_{i\in\tilde S}L_{IeKD}(P_i,S_i)$
 
 ## 相关论文
 
-- [\[CVPR 2026\] Chain-of-Thought Guided Multi-Modal Object Re-Identification](chain-of-thought_guided_multi-modal_object_re-identification.md)
 - [\[CVPR 2026\] Boosting Vision-Language Models Towards Cross-Domain Incremental Object Detection](boosting_vision-language_models_towards_cross-domain_incremental_object_detectio.md)
+- [\[CVPR 2026\] ADSeeker: A Knowledge-Grounded Reasoning Framework for Industry Anomaly Detection and Reasoning](adseeker_a_knowledge-grounded_reasoning_framework_for_industry_anomaly_detection.md)
 - [\[CVPR 2026\] Uncertainty-Aware Knowledge Distillation for Multimodal Large Language Models](uncertainty-aware_knowledge_distillation_for_multimodal_large_language_models.md)
+- [\[CVPR 2026\] Beyond Missing Modalities: Hypergraph Guided Diffusion for Uncertainty-Aware Multimodal Emotion Recognition](beyond_missing_modalities_hypergraph_conditioned_diffusion_for_uncertainty-aware.md)
 - [\[ICML 2026\] ScreenParse: Moving Beyond Sparse Grounding with Complete Screen Parsing Supervision](../../ICML2026/multimodal_vlm/screenparse_moving_beyond_sparse_grounding_with_complete_screen_parsing_supervis.md)
-- [\[CVPR 2026\] Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth](think_360_evaluating_the_width-centric_reasoning_capability_of_mllms_beyond_dept.md)
 
 </div>
 

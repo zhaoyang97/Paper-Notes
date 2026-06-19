@@ -113,6 +113,7 @@ $$\max_\theta J(\theta)=\mathbb{E}\Big[\textstyle\sum_{t}\gamma^t R_t\Big]-\beta
 | **DriveVLN(Ours)** | **91.40** | **63.75** | 几乎全项 SOTA |
 
 ### 消融实验
+
 | 训练阶段 | 规划器 | DS ↑ | SR ↑ | NE ↓ | L2 ↓ | 碰撞 ↓ |
 |------|------|------|------|------|------|------|
 | SFT | DiffusionDrive | 0.49 | 0.21 | 0.53 | 0.457 | 0.107 |
@@ -158,11 +159,11 @@ $$\max_\theta J(\theta)=\mathbb{E}\Big[\textstyle\sum_{t}\gamma^t R_t\Big]-\beta
 
 ## 相关论文
 
-- [\[CVPR 2026\] Learning Vision-Language-Action World Models for Autonomous Driving](vla_world_learning_vision_language_action_world_models_for_autonomous_driving.md)
 - [\[CVPR 2026\] VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving](vggdrive_empowering_vision-language_models_with_cross-view_geometric_grounding_f.md)
 - [\[CVPR 2026\] DriveMoE: Mixture-of-Experts for Vision-Language-Action Model in End-to-End Autonomous Driving](drivemoe_mixture-of-experts_for_vision-language-action_model_in_end-to-end_auton.md)
 - [\[CVPR 2026\] EventDrive: Event Cameras for Vision-Language Driving Intelligence](eventdrive_event_cameras_for_vision-language_driving_intelligence.md)
 - [\[CVPR 2026\] WalkGPT: Grounded Vision-Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation](walkgpt_grounded_vision-language_conversation_with_depth-aware_segmentation_for_.md)
+- [\[CVPR 2026\] HybridDriveVLA: Vision-Language-Action Model with Visual CoT reasoning and ToT Evaluation for Autonomous Driving](hybriddrivevla_vision-language-action_model_with_visual_cot_reasoning.md)
 
 </div>
 

@@ -134,7 +134,7 @@ Qwen3 full pre-training（156B token from scratch）：加 dispersion loss 平�
 - [\[ICML 2026\] Entropy-Aware On-Policy Distillation of Language Models](entropy-aware_on-policy_distillation_of_language_models.md)
 - [\[NeurIPS 2025\] REOrdering Patches Improves Vision Models](../../NeurIPS2025/model_compression/reordering_patches_improves_vision_models.md)
 - [\[ICLR 2026\] FutureMind: Equipping Small Language Models with Strategic Thinking-Pattern Priors via Adaptive Knowledge Distillation](../../ICLR2026/model_compression/futuremind_equipping_small_language_models_with_strategic_thinking-pattern_prior.md)
-- [\[ICLR 2026\] Scaling Reasoning Hop Exposes Weaknesses: Demystifying and Improving Hop Generalization in Large Language Models](../../ICLR2026/model_compression/scaling_reasoning_hop_exposes_weaknesses_demystifying_and_improving_hop_generali.md)
+- [\[ICML 2026\] Making Models Unmergeable via Scaling-Sensitive Loss Landscape](making_models_unmergeable_via_scaling-sensitive_loss_landscape.md)
 
 </div>
 

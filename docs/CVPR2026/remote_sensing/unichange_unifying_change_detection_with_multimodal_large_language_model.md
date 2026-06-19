@@ -113,6 +113,7 @@ SCD 在 SECOND 上对比（含二值 + 语义指标）：
 UniChange 在 SECOND 上**五个指标全部第一**。值得注意的是 SeK（衡量语义判别力、抑制未变化类影响的硬指标）从次好的 21.83 跳到 23.02，提升最显著——说明它在最难的"语义判别"维度上优势最大，而非只靠二值定位刷分。
 
 ### 消融实验
+
 | 配置 | 关键指标 (WHU-CD IoU / S2Looking IoU) | 说明 |
 |------|---------|------|
 | 双时相语义监督 T1+T2 | 90.41 | 完整配置 |
@@ -161,11 +162,11 @@ UniChange 在 SECOND 上**五个指标全部第一**。值得注意的是 SeK（
 
 ## 相关论文
 
-- [\[CVPR 2026\] VLM4RSDet: Collaborative Optimization with Vision-Language Model for Enhancing Remote Sensing Object Detection](vlm4rsdet_collaborative_optimization_with_vision-language_model_for_enhancing_re.md)
 - [\[CVPR 2026\] GeoDiT: A Diffusion-based Vision-Language Model for Geospatial Understanding](geodit_a_diffusion-based_vision-language_model_for_geospatial_understanding.md)
 - [\[CVPR 2026\] Data Leakage Detection and De-duplication in Large Scale Geospatial Image Datasets](data_leakage_detection_and_de-duplication_in_large_scale_geospatial_image_datase.md)
 - [\[ICCV 2025\] Information-Bottleneck Driven Binary Neural Network for Change Detection](../../ICCV2025/remote_sensing/information-bottleneck_driven_binary_neural_network_for_change_detection.md)
-- [\[CVPR 2026\] Sparsely Timing the Change: A Spiking Temporal Framework for Remote Sensing Interpretation](sparsely_timing_the_change_a_spiking_temporal_framework_for_remote_sensing_inter.md)
+- [\[CVPR 2026\] FUSAR-GPT: A Spatiotemporal Feature-Embedded and Two-Stage Decoupled Visual Language Model for SAR Imagery](fusar-gpt_a_spatiotemporal_feature-embedded_and_two-stage_decoupled_visual_langu.md)
+- [\[CVPR 2026\] ChangeBridge: Spatiotemporal Image Generation with Multimodal Controls for Remote Sensing](changebridge_spatiotemporal_image_generation_with_multimodal_controls_for_remote.md)
 
 </div>
 

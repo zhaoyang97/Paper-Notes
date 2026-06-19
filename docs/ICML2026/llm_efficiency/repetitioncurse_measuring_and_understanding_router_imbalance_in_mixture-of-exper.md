@@ -76,6 +76,7 @@ RepetitionCurse 在真实黑盒里跑不满 TMI 理论值，作者诚实地定�
 定性结论：(a) Mixtral 系在常用 8-GPU EP 下 TTFT 普遍放大 **1.29×–2.48×**；(b) 跨 13 个模型、Qwen3/GPT-OSS/DeepSeek 等不同架构、含线性 attention 的 Kimi-Linear 全部命中漏洞；(c) SLA 影响：P$_{99}$ TTFT < 20s 的违约率从基线 1% 上升到 **1.4%–13.6%**，足以触发 SLA 罚款和不必要的 autoscaling。
 
 ### 消融 / 分析实验
+
 | 维度 | 关键结果 | 说明 |
 |------|---------|------|
 | 词表覆盖率 $\mathcal{B}$ | EP=$E$ 时 $\mathcal{B}\to 1$ | "随便挑一个 token 重复"几乎总能造成路由集中 |
@@ -120,11 +121,11 @@ RepetitionCurse 在真实黑盒里跑不满 TMI 理论值，作者诚实地定�
 
 ## 相关论文
 
+- [\[ICML 2026\] SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs](softmoe_soft_differentiable_routing_for_mixture-of-experts_in_llms.md)
 - [\[ICML 2026\] Hyperparameter Transfer with Mixture-of-Experts Layers](hyperparameter_transfer_with_mixture-of-expert_layers.md)
 - [\[ICML 2026\] ProbMoE: Differentiable Probabilistic Routing for Mixture-of-Experts](probmoe_differentiable_probabilistic_routing_for_mixture-of-experts.md)
 - [\[ICML 2026\] Beyond Sunk Costs: Boosting LLM Pre-training Efficiency via Orthogonal Growth of Mixture-of-Experts](beyond_sunk_costs_boosting_llm_pre-training_efficiency_via_orthogonal_growth_of_.md)
-- [\[ICML 2025\] Mixture of Lookup Experts](../../ICML2025/llm_efficiency/mixture_of_lookup_experts.md)
-- [\[AAAI 2026\] How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts](../../AAAI2026/llm_efficiency/how_many_experts_are_enough_towards_optimal_semantic_specialization_for_mixture-.md)
+- [\[ICML 2026\] Skill-Based Mixture-of-Experts: Adaptive Routing for Heterogeneous Reasoning via Inferred Skills](skill-based_mixture-of-experts_adaptive_routing_for_heterogeneous_reasoning_via_.md)
 
 </div>
 

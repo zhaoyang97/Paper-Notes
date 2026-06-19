@@ -183,10 +183,10 @@ ADiT 从 ~30M 扩展至 ~500M 参数，在数据规模不变的情况下：
 ## 相关论文
 
 - [\[ICML 2025\] Position: All Current Generative Fidelity and Diversity Metrics are Flawed](position_all_current_generative_fidelity_and_diversity_metrics_are_flawed.md)
-- [\[CVPR 2026\] Quantization with Unified Adaptive Distillation to enable multi-LoRA based one-for-all Generative Vision Models on edge](../../CVPR2026/image_generation/quantization_with_unified_adaptive_distillation_to_enable_multi-lora_based_one-f.md)
 - [\[NeurIPS 2025\] Scaling Diffusion Transformers Efficiently via μP](../../NeurIPS2025/image_generation/scaling_diffusion_transformers_efficiently_via_μp.md)
+- [\[CVPR 2025\] GenDeg: Diffusion-based Degradation Synthesis for Generalizable All-In-One Image Restoration](../../CVPR2025/image_generation/gendeg_diffusion-based_degradation_synthesis_for_generalizable_all-in-one_image_.md)
+- [\[CVPR 2025\] TinyFusion: Diffusion Transformers Learned Shallow](../../CVPR2025/image_generation/tinyfusion_diffusion_transformers_learned_shallow.md)
 - [\[ICML 2025\] Normalizing Flows are Capable Generative Models](normalizing_flows_are_capable_generative_models.md)
-- [\[ECCV 2024\] DiffiT: Diffusion Vision Transformers for Image Generation](../../ECCV2024/image_generation/diffit_diffusion_vision_transformers_for_image_generation.md)
 
 </div>
 

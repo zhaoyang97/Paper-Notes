@@ -1,25 +1,25 @@
 ---
 title: >-
-  CVPR2026 可解释性论文汇总 · 42篇论文解读
+  CVPR2026 可解释性论文汇总 · 34篇论文解读
 description: >-
-  42篇CVPR2026的可解释性方向论文解读，涵盖多模态、推理、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  34篇CVPR2026的可解释性方向论文解读，涵盖推理、对齐/RLHF、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "可解释性"
   - "论文解读"
   - "论文笔记"
-  - "多模态"
   - "推理"
-  - "布局/合成"
+  - "对齐/RLHF"
+  - "多模态"
 item_list:
-  - u: "a_study_of_failure_modes_in_two-stage_human-object_interaction_detection/"
-    t: "A Study of Failure Modes in Two-Stage Human–Object Interaction Detection"
+  - u: "align_once_to_explain_feature_alignment_for_scalable_b-cosification_of_foundatio/"
+    t: "Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers"
+  - u: "back_to_the_feature_explaining_video_classifiers_with_video_counterfactual_expla/"
+    t: "Back to the Feature: Explaining Video Classifiers with Video Counterfactual Explanations"
   - u: "beyond_top_activations_efficient_and_reliable_crowdsourced_evaluation_of_automat/"
     t: "Beyond Top Activations: Efficient and Reliable Crowdsourced Evaluation of Automated Interpretability"
   - u: "cigma_causal_information-gain_mechanistic_attribution_of_attention_heads_in_visi/"
     t: "CIGMA: Causal Information-Gain Mechanistic Attribution of Attention Heads in Vision Transformers"
-  - u: "ciice_intrinsic_concept_extraction_compositional/"
-    t: "CI-ICE: Intrinsic Concept Extraction Based on Compositional Interpretability"
   - u: "creward_a_type-specific_creativity_reward_model/"
     t: "CREward: A Type-Specific Creativity Reward Model"
   - u: "cut_to_the_chase_training-free_multimodal_summarization_via_chain-of-events/"
@@ -30,18 +30,12 @@ item_list:
     t: "Edit-As-Act: Goal-Regressive Planning for Open-Vocabulary 3D Indoor Scene Editing"
   - u: "ermoe_eigen-reparameterized_mixture-of-experts_for_stable_routing/"
     t: "ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization"
-  - u: "explaining_clip_zero-shot_predictions_through_concepts/"
-    t: "Explaining CLIP Zero-shot Predictions Through Concepts"
-  - u: "from_weights_to_concepts_data-free_interpretability_of_clip_via_singular_vector_/"
-    t: "From Weights to Concepts: Data-Free Interpretability of CLIP via Singular Vector Decomposition"
   - u: "h-sets_hessian-guided_discovery_of_set-level_feature_interactions_in_image_class/"
     t: "H-Sets: Hessian-Guided Discovery of Set-Level Feature Interactions in Image Classifiers"
   - u: "hidden_monotonicity_explaining_deep_neural_networks_via_their_dc_decomposition/"
     t: "Hidden Monotonicity: Explaining Deep Neural Networks via their DC Decomposition"
   - u: "hierarchical_concept_embedding_pursuit_for_interpretable_image_classification/"
     t: "Hierarchical Concept Embedding & Pursuit for Interpretable Image Classification"
-  - u: "hieruq_hierarchical_uncertainty_quantification_with_adaptive_granularity_reconci/"
-    t: "HierUQ: Hierarchical Uncertainty Quantification with Adaptive Granularity Reconciliation for Degraded Image Classification"
   - u: "humorchain_theory-guided_multi-stage_reasoning_for_interpretable_multimodal_humo/"
     t: "HUMORCHAIN: Theory-Guided Multi-Stage Reasoning for Interpretable Multimodal Humor Generation"
   - u: "improving_sparse_autoencoder_with_dynamic_attention/"
@@ -50,10 +44,6 @@ item_list:
     t: "Inside-Out: Measuring Generalization in Vision Transformers Through Inner Workings"
   - u: "language_models_can_explain_visual_features_via_steering/"
     t: "Language Models Can Explain Visual Features via Steering"
-  - u: "learning_complete_and_explainable_visual_representations_from_itemized_text_supe/"
-    t: "Learning complete and explainable visual representations from itemized text supervision"
-  - u: "learning_where_to_look_and_how_to_judge_resolution-agnostic_image_quality_assess/"
-    t: "Learning Where to Look and How to Judge: Resolution-agnostic Image Quality Assessment with Quality-aware Saliency"
   - u: "make_it_sing_analyzing_semantic_invariants_in_classifiers/"
     t: "Make it SING: Analyzing Semantic Invariants in Classifiers"
   - u: "making_the_classification_explanation_faithful_to_the_confidence_score/"
@@ -66,27 +56,41 @@ item_list:
     t: "Missing No More: Dictionary-Guided Cross-Modal Image Fusion under Missing Infrared"
   - u: "neurodynamics-driven_coupled_neural_p_systems_for_multi-focus_image_fusion/"
     t: "Neurodynamics-Driven Coupled Neural P Systems for Multi-Focus Image Fusion"
-  - u: "neurorule_bridging_vision_and_logic_with_differentiable_rule_induction/"
-    t: "NeuroRule: Bridging Vision and Logic with Differentiable Rule Induction"
-  - u: "on_the_possible_detectability_of_image-in-image_steganography/"
-    t: "On the Possible Detectability of Image-in-Image Steganography"
   - u: "phasewin_search_framework_enable_efficient_object-level_interpretation/"
     t: "PhaseWin: 让目标级归因从二次复杂度降到近线性的相位窗口搜索"
-item_total: 42
+  - u: "pixel2phys_distilling_governing_laws_from_visual_dynamics/"
+    t: "Pixel2Phys: Distilling Governing Laws from Visual Dynamics"
+  - u: "prism_prototype-based_reasoning_with_inter-modal_semantic_mining_for_interpretab/"
+    t: "PRISM: Prototype-based Reasoning with Inter-modal Semantic Mining for Interpretable Image Recognition"
+  - u: "rethinking_concept_bottleneck_models_from_pitfalls_to_solutions/"
+    t: "Rethinking Concept Bottleneck Models: From Pitfalls to Solutions"
+  - u: "riskprop_collision-anchored_self-supervised_risk_propagation_for_early_accident_/"
+    t: "RiskProp: Collision-Anchored Self-Supervised Risk Propagation for Early Accident Anticipation"
+  - u: "rounded_or_streamlined_head_bridging_concept_bottleneck_models_and_attribute-des/"
+    t: "Rounded or Streamlined Head? Bridging Concept Bottleneck Models and Attribute-Described Object Parts"
+  - u: "safedrive_fine-grained_safety_reasoning_for_end-to-end_driving_in_a_sparse_world/"
+    t: "SafeDrive: Fine-Grained Safety Reasoning for End-to-End Driving in a Sparse World"
+  - u: "selection-as-nonlinearity_bridging_attention_and_activation_via_a_joint_game-dec/"
+    t: "Selection-as-Nonlinearity: Bridging Attention and Activation via a Joint Game-Decision Lens for Interpretable, Discriminative Visual Representations"
+item_total: 34
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**📷 CVPR2026** · **42** 篇论文解读
+**📷 CVPR2026** · **34** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (71)](../../ICML2026/interpretability/index.md) · [💬 ACL2026 (61)](../../ACL2026/interpretability/index.md) · [🔬 ICLR2026 (60)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (91)](../../ICML2026/interpretability/index.md) · [💬 ACL2026 (63)](../../ACL2026/interpretability/index.md) · [🔬 ICLR2026 (74)](../../ICLR2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
 
-🔥 **高频主题：** 多模态 ×4 · 推理 ×4 · 布局/合成 ×3
+🔥 **高频主题：** 推理 ×4 · 对齐/RLHF ×2 · 多模态 ×2
 
-**[A Study of Failure Modes in Two-Stage Human–Object Interaction Detection](a_study_of_failure_modes_in_two-stage_human-object_interaction_detection.md)**
+**[Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers](align_once_to_explain_feature_alignment_for_scalable_b-cosification_of_foundatio.md)**
 
-:   这是一篇**诊断性研究**而非新方法：作者不造大规模 benchmark，而是把 HICO-DET 测试集按「人数 × 物体关系 × 交互关系」重组成一组可控的交互配置子集，再把模型的假阳性预测拆成六类误差，系统揭示两阶段 HOI 模型在多人/同类多物体/细粒度交互场景下到底错在哪——结论是高 mAP 并不等于真正的关系推理能力，动词预测错误和物体条件偏置是被聚合指标掩盖的主要病灶。
+:   ALOE 用一次性、无标签的"师生特征对齐"把冻结的 ViT 基础模型（监督 / DINOv3 / SigLIP2）转成内在可解释的 B-cos 版本，对齐一次即可作为骨干 drop-in 复用到分类、零样本、稠密预测等任务，比原始 B-cosification 在 ViT 上提升 >4.9 个百分点的精度，同时给出忠实且定位准确的解释，数据效率高 100–1000×。
+
+**[Back to the Feature: Explaining Video Classifiers with Video Counterfactual Explanations](back_to_the_feature_explaining_video_classifiers_with_video_counterfactual_expla.md)**
+
+:   本文提出 BTTF，一个用 Image-to-Video 扩散模型为**视频分类器**生成反事实解释（CFE）的纯优化框架：仅靠目标分类器的梯度，反向优化初始噪声潜变量，先用"反演"把搜索锚在原视频附近、再优化到目标类别，从而生成与原视频最接近、却被分类器判成另一类的"平行视频"，让人看清模型到底依赖哪些时空特征做决策。
 
 **[Beyond Top Activations: Efficient and Reliable Crowdsourced Evaluation of Automated Interpretability](beyond_top_activations_efficient_and_reliable_crowdsourced_evaluation_of_automat.md)**
 
@@ -95,10 +99,6 @@ item_total: 42
 **[CIGMA: Causal Information-Gain Mechanistic Attribution of Attention Heads in Vision Transformers](cigma_causal_information-gain_mechanistic_attribution_of_attention_heads_in_visi.md)**
 
 :   CIGMA 用「遮前景 / 遮背景」两次反事实编辑量化每个注意力头对背景捷径的贡献，再按因果信息增益排序、外科式地把 top-K 个"虚假头"清零，免训练地让 ViT/VLM 把注意力从背景拉回前景物体，分类准确率提升 7.6–24.8 个百分点、背景依赖度降低约 83%。
-
-**[CI-ICE: Intrinsic Concept Extraction Based on Compositional Interpretability](ciice_intrinsic_concept_extraction_compositional.md)**
-
-:   提出CI-ICE新任务和HyperExpress方法：在双曲空间(Poincaré球)中利用层次建模能力提取可组合的物体级/属性级内在概念，通过Horosphere投影保证概念嵌入空间的可组合性，在UCEBench上概念解耦ACC₁达0.504(较ICE的0.325提升55%)。
 
 **[CREward: A Type-Specific Creativity Reward Model](creward_a_type-specific_creativity_reward_model.md)**
 
@@ -120,14 +120,6 @@ item_total: 42
 
 :   ERMoE 提出在正交特征基（eigenbasis）中重参数化MoE专家权重，并用特征基分数（cosine similarity）替代传统路由logits，无需辅助负载均衡损失即可实现稳定路由和可解释的专家特化。
 
-**[Explaining CLIP Zero-shot Predictions Through Concepts](explaining_clip_zero-shot_predictions_through_concepts.md)**
-
-:   本文提出 EZPC，通过学习一个线性投影矩阵将 CLIP 的图像-文本嵌入映射到可解释的概念空间，在几乎不损失零样本分类精度的前提下（CIFAR-100/CUB/ImageNet-100 上 H-mean 仅差约 1%），为 CLIP 的预测提供基于人类可理解概念的忠实解释，且推理开销仅增加约 0.1ms。
-
-**[From Weights to Concepts: Data-Free Interpretability of CLIP via Singular Vector Decomposition](from_weights_to_concepts_data-free_interpretability_of_clip_via_singular_vector_.md)**
-
-:   本文提出 SITH（Semantic Inspection of Transformer Heads），一个完全无需数据和训练的 CLIP 可解释性框架：直接对注意力头的 Value-Output 权重矩阵做 SVD 分解，然后用自研的 COMP 算法将每个奇异向量解释为语义一致的概念稀疏组合，实现了比现有方法更细粒度的 intra-head 级别可解释性，并支持精准的权重编辑来改善下游性能。
-
 **[H-Sets: Hessian-Guided Discovery of Set-Level Feature Interactions in Image Classifiers](h-sets_hessian-guided_discovery_of_set-level_feature_interactions_in_image_class.md)**
 
 :   H-Sets 用输入 Hessian 检测像素间的二阶（非可加）交互、递归合并成语义连贯的特征集合，再用集合级的 IDG-Vis（方向梯度积分 + Harsanyi 红利）给每个集合打分，最终产出比现有方法更稀疏、更忠实的显著图。
@@ -139,10 +131,6 @@ item_total: 42
 **[Hierarchical Concept Embedding & Pursuit for Interpretable Image Classification](hierarchical_concept_embedding_pursuit_for_interpretable_image_classification.md)**
 
 :   HCEP 把"概念有层级结构（hypernym→hyponym）"这一先验显式编码进 CLIP 嵌入空间的几何条件，再用带 beam search 的层级化正交匹配追踪（HB-OMP）沿"根到叶"路径恢复概念，从而在保持分类精度的同时显著提升概念恢复的 precision/recall，尤其在 few-shot 下优势明显。
-
-**[HierUQ: Hierarchical Uncertainty Quantification with Adaptive Granularity Reconciliation for Degraded Image Classification](hieruq_hierarchical_uncertainty_quantification_with_adaptive_granularity_reconci.md)**
-
-:   HierUQ 针对退化（模糊/遮挡/噪声/低分辨率）图像的分层分类，用基于标签平滑 + 合理评分规则的分层不确定性量化（HUQ）给出可靠置信度，再用置信度感知的路径调整（CAPA）在不确定时自动从细粒度回退到更粗的层级，最后用自步多层联合优化（MLJO）协调多级目标，在退化遥感舰船与鸟类数据集上取得 SOTA。
 
 **[HUMORCHAIN: Theory-Guided Multi-Stage Reasoning for Interpretable Multimodal Humor Generation](humorchain_theory-guided_multi-stage_reasoning_for_interpretable_multimodal_humo.md)**
 
@@ -159,14 +147,6 @@ item_total: 42
 **[Language Models Can Explain Visual Features via Steering](language_models_can_explain_visual_features_via_steering.md)**
 
 :   提出通过对VLM视觉编码器进行SAE特征因果干预（steering），在输入空白图像后让语言模型描述其"看到"的视觉概念，从而实现无需评估图像集的可扩展视觉特征自动解释，并提出混合方法Steering-informed Top-k达到SOTA。
-
-**[Learning complete and explainable visual representations from itemized text supervision](learning_complete_and_explainable_visual_representations_from_itemized_text_supe.md)**
-
-:   针对医学影像、遥感等"一张图配多条互不重叠的独立文字描述（itemized text）"的监督场景，本文提出 ItemizedCLIP，用一个掩码跨注意力模块生成"按文本条目调制"的视觉表征，并配套四个 SigLIP 式目标，强制做到"条目独立"和"表征完整"，在四个真实医学/遥感域 + 一个合成域上零样本性能与细粒度可解释性都大幅超过 CLIP 系基线。
-
-**[Learning Where to Look and How to Judge: Resolution-agnostic Image Quality Assessment with Quality-aware Saliency](learning_where_to_look_and_how_to_judge_resolution-agnostic_image_quality_assess.md)**
-
-:   针对无参考图像质量评价（NR-IQA）"为迁就预训练分辨率而暴力 resize、跨分辨率不泛化、多数据集 MOS 尺度不一难联训、超高清算力爆炸"四大通病，本文提出 ReLIQS：在原分辨率及缩放变体上采样固定尺寸 patch 并用 CLIP 编码，用轻量"感知重要性估计器（PIE）"学出 IQA 专属显著性来挑出少量关键 patch，再用"潜在质量轴模块（LQAM）"把多尺度嵌入聚合成单一分数，在真实/合成/AIGC 多种失真与分辨率上以更低算力超过 CNN、CLIP、MLLM 系强基线。
 
 **[Make it SING: Analyzing Semantic Invariants in Classifiers](make_it_sing_analyzing_semantic_invariants_in_classifiers.md)**
 
@@ -191,14 +171,6 @@ item_total: 42
 **[Neurodynamics-Driven Coupled Neural P Systems for Multi-Focus Image Fusion](neurodynamics-driven_coupled_neural_p_systems_for_multi-focus_image_fusion.md)**
 
 :   提出 ND-CNPFuse，通过对耦合神经 P (CNP) 系统进行神经动力学分析，建立网络参数与输入信号的约束关系以避免神经元异常持续放电，从而在多焦点图像融合 (MFIF) 任务上无需训练即可生成高质量、可解释的决策图。
-
-**[NeuroRule: Bridging Vision and Logic with Differentiable Rule Induction](neurorule_bridging_vision_and_logic_with_differentiable_rule_induction.md)**
-
-:   NeuroRule 把 Mask2Former 的像素级感知和一个可微的一阶逻辑规则归纳引擎接在一起，端到端地从图像里**自动学出可解释的组合逻辑规则**（如 `riding(x,y) ∧ on(y,z) → travel-on(x,z)`），既在 VG / PSG / Open-PSG 三个场景图基准上刷到 SOTA，又能给每条关系预测附上一条可审计的推理链。
-
-**[On the Possible Detectability of Image-in-Image Steganography](on_the_possible_detectability_of_image-in-image_steganography.md)**
-
-:   揭示主流 image-in-image 深度隐写方案的根本安全缺陷：嵌入过程本质上是一个混合过程，可被独立成分分析 (ICA) 轻易分离，并提出基于小波域独立成分统计矩的可解释隐写分析方法（仅 8 维特征即达 84.6% 准确率），同时证明经典 SRM+SVM 方法可达 99% 以上检测率。
 
 **[PhaseWin: 让目标级归因从二次复杂度降到近线性的相位窗口搜索](phasewin_search_framework_enable_efficient_object-level_interpretation.md)**
 
@@ -236,14 +208,6 @@ item_total: 42
 
 :   提出TDATR框架，通过"先感知后融合"策略和结构引导的单元格定位模块，在有限标注数据下实现端到端表格识别，在7个基准上无需数据集特定微调即达到SOTA。
 
-**[Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)**
-
-:   提出f-CBM——首个忠实的多模态概念瓶颈模型框架，通过可微分泄漏损失减少概念表示中的非预期信息泄漏，同时用Kolmogorov-Arnold Network (KAN) 预测头提升概念检测精度，在任务准确率、概念检测和泄漏减少间取得最优Pareto前沿。
-
-**[Understanding Counting Mechanisms in Large Language and Vision-Language Models](understanding_counting_mechanisms_in_large_language_and_vision-language_models.md)**
-
-:   作者用一套受控的"重复物体计数"实验 + 自研的因果探针工具 CountScope，逐层逐 token 地剖开 LLM 和 LVLM 是怎么数数的，发现计数不是一次性求和，而是一个随层数逐步涌现、靠"内部计数器"逐项更新、并严重依赖分隔符等结构捷径的分层过程。
-
 **[VIRO: Robust and Efficient Neuro-Symbolic Reasoning with Verification for Referring Expression Comprehension](viro_robust_and_efficient_neuro-symbolic_reasoning_with_verification_for_referri.md)**
 
 :   VIRO在神经符号REC管道中嵌入轻量算子级验证机制（CLIP不确定性验证+空间逻辑验证），使每个推理步骤能自我验证并在无目标时提前终止，在零样本设置下以61.1%平衡准确率大幅超越组合推理baselines，同时保持0.3%以下的程序失败率和高效推理速度。
@@ -251,3 +215,7 @@ item_total: 42
 **[When Do Models Actually Decide? Mapping the Layer-Wise Decision Timeline in Pretrained Neural Networks](when_do_models_actually_decide_mapping_the_layer-wise_decision_timeline_in_pretr.md)**
 
 :   作者在 ResNet-18/50/101（外加 ViT-B/16、ConvNeXt-Tiny）的每个锚点层训练线性探针，追踪每张 ImageNet 图像的预测在第几层"定下来"，发现网络存在强烈的双峰决策分布和集中在最后残差阶段的"语义相变"，并据此泼了一盆冷水：基于稳定性的早退出几乎换不到真实的加速—精度收益。
+
+**[Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation](where_culture_fades_revealing_the_cultural_gap_in_text-to-image_generation.md)**
+
+:   作者发现多语言文生图模型在"只给名词"的提示下会产出文化中立或偏英语的图，并通过注意力 + 稀疏自编码器探针证明这是"激活不足"而非"知识缺失"——文化信号其实只集中在文本编码器的少数几层、少数几个神经元里；据此提出免训练放大这些神经元和只微调文化层两种轻量方案，在自建的 15 国基准 CultureBench 上把文化识别准确率（CultureVQA）从 ~22 提到 36.6。

@@ -94,6 +94,7 @@ $$\hat f(G)=\sum_{k=1}^{M}\pi_k(\bm\alpha)\,\phi_k(G),\quad \pi_k(\bm\alpha)=\ma
 > 注：原文 Table 1 把每个数据集 Top-3 用金/银/铜底色标出，LGKDE 在大多数数据集上占据金或银。
 
 ### 消融实验
+
 | 配置 | 关键指标变化 | 说明 |
 |------|---------|------|
 | Full LGKDE | 基准 AUROC | MMD + 多尺度 KDE + 双扰动 |

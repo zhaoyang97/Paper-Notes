@@ -106,6 +106,7 @@ flowchart TD
 CD 与 F-Score 均 SOTA，遮挡分割上优势依旧。
 
 ### 消融实验（3D-FRONT / DeformingThings）
+
 | 配置 | DT: CD ↓ | DT: F ↑ | DT: IoU ↑ |
 |------|----------|---------|-----------|
 | Baseline（无静动嵌入 + 无 DF） | 0.1525 | 0.7854 | 0.2018 |
@@ -153,7 +154,7 @@ CD 与 F-Score 均 SOTA，遮挡分割上优势依旧。
 - [\[CVPR 2026\] OMGTex: One-stage Multi-style Facial Texture Reconstruction without Geometry Guidance](omgtex_one-stage_multi-style_facial_texture_reconstruction_without_geometry_guid.md)
 - [\[CVPR 2026\] MoVieS: Motion-Aware 4D Dynamic View Synthesis in One Second](movies_motion-aware_4d_dynamic_view_synthesis_in_one_second.md)
 - [\[CVPR 2026\] MotionScale: Reconstructing Appearance, Geometry, and Motion of Dynamic Scenes with Scalable 4D Gaussian Splatting](motionscale_reconstructing_appearance_geometry_and_motion_of_dynamic_scenes_with.md)
-- [\[CVPR 2026\] 4D Primitive-Mâché: Glueing Primitives for Persistent 4D Scene Reconstruction](4d_primitive-mache_glueing_primitives_for_persistent_4d_scene_reconstruction.md)
+- [\[CVPR 2026\] Layered 4D-Rotor Gaussian Splatting: A Compressed Representation for Long Dynamic Scenes](layered_4d-rotor_gaussian_splatting_a_compressed_representation_for_long_dynamic.md)
 
 </div>
 

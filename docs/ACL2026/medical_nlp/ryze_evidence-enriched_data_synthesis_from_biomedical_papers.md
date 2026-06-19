@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2026  
 **arXiv**: [2606.00902](https://arxiv.org/abs/2606.00902)  
 **代码**: https://github.com/Chivier/Ryze  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 生物医学VLM, 证据增强数据合成, 科学PDF理解, 图表感知OCR, GRPO
 
 ## 一句话总结
@@ -155,8 +155,8 @@ Ryze 同时验证了数据源、OCR pipeline 和跨模型泛化。下面保留�
 
 - [\[ACL 2026\] Eliciting Medical Reasoning with Knowledge-enhanced Data Synthesis: A Semi-Supervised Reinforcement Learning Approach](eliciting_medical_reasoning_with_knowledge-enhanced_data_synthesis_a_semi-superv.md)
 - [\[ACL 2025\] Query-driven Document-level Scientific Evidence Extraction from Biomedical Studies](../../ACL2025/medical_nlp/urca_biomedical_evidence_extraction.md)
-- [\[ICLR 2026\] MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](../../ICLR2026/medical_nlp/medagentgym_agentic_training_biomedical.md)
 - [\[ACL 2026\] Faithfulness vs. Safety: Evaluating LLM Behavior Under Counterfactual Medical Evidence](faithfulness_vs_safety_evaluating_llm_behavior_under_counterfactual_medical_evid.md)
+- [\[ICLR 2026\] MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](../../ICLR2026/medical_nlp/medagentgym_agentic_training_biomedical.md)
 - [\[ACL 2026\] Language Reconstruction with Brain Predictive Coding from fMRI Data](language_reconstruction_with_brain_predictive_coding_from_fmri_data.md)
 
 </div>

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Thinking with Programming Vision: Towards a Unified View for Thinking with Images
 description: >-
-  [CVPR 2026][多模态VLM][以图思考] 本文提出 CodeVision，让 MLLM 直接"写代码"作为统一工具接口去操纵图像（旋转、翻转、裁剪、增强……），并用「SFT 冷启动 + 稠密过程奖励 RL」两阶段训练，使模型在被旋转/翻转污染的图像上恢复出健壮的多轮多工具推理能力——在自建的方向变换基准上比基座模型平均提升十几个点，在多工具基准 MVToolBench 上几乎把次优模型的分数翻倍。
+  [CVPR 2026][VLM Reasoning][以图思考] 本文提出 CodeVision，让 MLLM 直接"写代码"作为统一工具接口去操纵图像（旋转、翻转、裁剪、增强……），并用「SFT 冷启动 + 稠密过程奖励 RL」两阶段训练，使模型在被旋转/翻转污染的图像上恢复出健壮的多轮多工具推理能力——在自建的方向变换基准上比基座模型平均提升十几个点，在多工具基准 MVToolBench 上几乎把次优模型的分数翻倍。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "以图思考"
   - "代码即工具"
   - "工具调用"
@@ -155,11 +155,11 @@ MVToolBench 上 CodeVision-7B 的 60.1 几乎是次优 Gemini2.5-Pro（32.6）�
 
 ## 相关论文
 
-- [\[CVPR 2026\] MUPO: All Roads Lead to Rome - Incentivizing Divergent Thinking in Vision-Language Models](mupo_all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vlms.md)
-- [\[CVPR 2026\] PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model](pointthinker_point-incentivized_parallel_thinking_for_multimodal_large_language_.md)
+- [\[CVPR 2026\] LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](longvt_incentivizing_thinking_with_long_videos_via_native_tool_calling.md)
 - [\[CVPR 2026\] All Roads Lead to Rome: Incentivizing Divergent Thinking in Vision-Language Models](all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vision-language_model.md)
-- [\[CVPR 2026\] R-4B: Incentivizing General-Purpose Auto-Thinking in MLLMs via Bi-Mode Annealing and Reinforce Learning](r-4b_incentivizing_general-purpose_auto-thinking_in_mllms_via_bi-mode_annealing_.md)
-- [\[ICML 2026\] Efficient Reasoning with Hidden Thinking](../../ICML2026/multimodal_vlm/efficient_reasoning_with_hidden_thinking.md)
+- [\[CVPR 2026\] Thinking with Drafts: Speculative Temporal Reasoning for Efficient Long Video Understanding](thinking_with_drafts_speculative_temporal_reasoning_for_efficient_long_video_und.md)
+- [\[CVPR 2026\] PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model](pointthinker_point-incentivized_parallel_thinking_for_multimodal_large_language_.md)
+- [\[CVPR 2026\] VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](videoauto-r1_video_auto_reasoning_via_thinking_once_answering_twice.md)
 
 </div>
 

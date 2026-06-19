@@ -67,6 +67,7 @@ $$P_S(w_t\mid context)=\sum_{w'\in R} z(w_t,w')\,P(w'\mid context),$$
 ## 实验关键数据
 
 ### 主实验
+
 | 实验 / 设置 | 关键结果 | 解释 |
 |-------------|----------|------|
 | Cloze transform 搜索 | $S(w_t)^2$ + $V=200$ 的 log-likelihood 增益最高，约 153.8 | cloze probability 转为 surprisal 后明显更好，线性 probability 不够 |
@@ -82,6 +83,7 @@ $$P_S(w_t\mid context)=\sum_{w'\in R} z(w_t,w')\,P(w'\mid context),$$
 | UCL SPR/ET | SPR / first-pass / go-past | 每词约 80 responses | 205/361 句，短句且高频词较多 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|----------|------|
 | Raw cloze probability | log-likelihood 增益约 92 左右 | 不如 surprisal 变换 |

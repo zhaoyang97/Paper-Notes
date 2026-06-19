@@ -106,6 +106,7 @@ PSNR 上 MOSAIC-GS 普遍是次优（仅次于 MoSca），但 **LPIPS 在三个�
 训练时间含预处理，其中纯光度优化只约 5 分钟。相比 MoSca 训练快约 5 倍、渲染快约 4.7 倍。
 
 ### 消融实验（DyCheck）
+
 | 配置 | mPSNR↑ | mLPIPS↓ | 训练时间(min)↓ |
 |------|--------|---------|----------------|
 | Full model | 18.40 | 0.255 | 5.06 |
@@ -153,11 +154,11 @@ PSNR 上 MOSAIC-GS 普遍是次优（仅次于 MoSca），但 **LPIPS 在三个�
 
 ## 相关论文
 
-- [\[CVPR 2026\] AdaSFormer: Adaptive Serialized Transformers for Monocular Semantic Scene Completion from Indoor Environments](adasformer_adaptive_serialized_transformers_for_monocular_semantic_scene_complet.md)
 - [\[CVPR 2026\] ReFlow: Self-correction Motion Learning for Dynamic Scene Reconstruction](reflow_self-correction_motion_learning_for_dynamic_scene_reconstruction.md)
+- [\[CVPR 2026\] Disco-GS: Gaussian Splatting in Dynamic Color Lighting](disco-gs_gaussian_splatting_in_dynamic_color_lighting.md)
 - [\[CVPR 2026\] WildRayZer: Self-supervised Large View Synthesis in Dynamic Environments](wildrayzer_self-supervised_large_view_synthesis_in_dynamic_environments.md)
-- [\[CVPR 2026\] Point4Cast: Streaming Dynamic Scene Reconstruction and Forecasting](point4cast_streaming_dynamic_scene_reconstruction_and_forecasting.md)
 - [\[CVPR 2026\] AeroGS: Scale-Aware Gaussian Splatting for Pose-Free Dynamic UAV Scene Reconstruction](aerogs_scale-aware_gaussian_splatting_for_pose-free_dynamic_uav_scene_reconstruc.md)
+- [\[CVPR 2026\] Point4Cast: Streaming Dynamic Scene Reconstruction and Forecasting](point4cast_streaming_dynamic_scene_reconstruction_and_forecasting.md)
 
 </div>
 

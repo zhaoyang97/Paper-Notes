@@ -139,11 +139,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICML 2026\] When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](../../ICML2026/ai_safety/when_benign_inputs_lead_to_severe_harms_eliciting_unsafe_unintended_behaviors_of.md)
+- [\[ICML 2026\] Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection](../../ICML2026/ai_safety/hiding_in_plain_floats_steganographic_carriers_for_indirect_prompt_and_content_i.md)
 - [\[CVPR 2026\] SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning](../../CVPR2026/ai_safety/seba_sample-efficient_black-box_attacks_on_visual_reinforcement_learning.md)
 - [\[CVPR 2026\] PECCAVI: Overcoming the Brittleness of AI Image Watermarking Under Visual Paraphrasing Attacks](../../CVPR2026/ai_safety/peccvai_overcoming_the_brittleness_of_ai_image_watermarking_under_visual_paraphr.md)
-- [\[ICCV 2025\] Staining and Locking Computer Vision Models without Retraining](../../ICCV2025/ai_safety/staining_and_locking_computer_vision_models_without_retraining.md)
-- [\[CVPR 2026\] CamPI: Physical Adversarial Examples through Camera Power Signal Injection](../../CVPR2026/ai_safety/campi_physical_adversarial_examples_through_camera_power_signal_injection.md)
-- [\[CVPR 2026\] VCP-Attack: Visual-Contrastive Projection for Transferable Black-Box Targeted Attacks on Large Vision-Language Models](../../CVPR2026/ai_safety/vcp-attack_visual-contrastive_projection_for_transferable_black-box_targeted_att.md)
+- [\[ICLR 2026\] Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing](comparing_ai_agents_to_cybersecurity_professionals_in_real-world_penetration_tes.md)
 
 </div>
 

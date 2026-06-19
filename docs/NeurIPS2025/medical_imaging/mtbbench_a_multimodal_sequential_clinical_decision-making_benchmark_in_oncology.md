@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.20490](https://arxiv.org/abs/2511.20490)  
 **代码**: [GitHub](https://github.com/bunnelab/MTBBench) / [HuggingFace](https://huggingface.co/datasets/EeshaanJain/MTBBench)  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 多模态基准, 肿瘤学, 分子肿瘤委员会, 纵向推理, 临床决策Agent
 
 ## 一句话总结

@@ -184,11 +184,11 @@ $\mathbf{w}_j$ 为有效区域权重，仅在可见区域计算损失。
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] GOATex: Geometry & Occlusion-Aware Texturing](goatex_geometry_occlusion-aware_texturing.md)
 - [\[CVPR 2025\] Reference-Based 3D-Aware Image Editing with Triplanes](../../CVPR2025/3d_vision/reference-based_3d-aware_image_editing_with_triplanes.md)
+- [\[NeurIPS 2025\] GOATex: Geometry & Occlusion-Aware Texturing](goatex_geometry_occlusion-aware_texturing.md)
 - [\[CVPR 2026\] PR-IQA: Partial-Reference Image Quality Assessment for Diffusion-Based Novel View Synthesis](../../CVPR2026/3d_vision/pr-iqa_partial-reference_image_quality_assessment_for_diffusion-based_novel_view.md)
 - [\[NeurIPS 2025\] WildCAT3D: Appearance-Aware Multi-View Diffusion in the Wild](wildcat3d_appearance-aware_multi-view_diffusion_in_the_wild.md)
-- [\[NeurIPS 2025\] SingRef6D: Monocular Novel Object Pose Estimation with a Single RGB Reference](singref6d_monocular_novel_object_pose_estimation_with_a_single_rgb_reference.md)
+- [\[NeurIPS 2025\] Linearly Constrained Diffusion Implicit Models](linearly_constrained_diffusion_implicit_models.md)
 
 </div>
 

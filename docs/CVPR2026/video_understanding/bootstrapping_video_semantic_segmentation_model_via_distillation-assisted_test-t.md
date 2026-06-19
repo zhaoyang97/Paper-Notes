@@ -95,6 +95,7 @@ VSPW 数据集、W2F 协议下与各类基线对比（SegFormer 同 backbone；m
 仅用前 10% 帧自适应，DiTTA 的 mIoU 就比 ISS 基线 +2.1%p、比全监督 VSS 的 CFFM++ +1.5%p；同时速度（13.45 FPS）几乎是零样本 refine（1.41 FPS）的 10 倍。warm-up 比例越大优势越明显（50% 时 +3.6%p）。
 
 ### 消融实验（50% W2F 协议）
+
 | 配置 | Add-on | Distill. | Contrast. | mIoU |
 |------|:------:|:--------:|:---------:|------|
 | ISS 基线 | | | | 48.7 |
@@ -141,10 +142,10 @@ VSPW 数据集、W2F 协议下与各类基线对比（SegFormer 同 backbone；m
 ## 相关论文
 
 - [\[CVPR 2026\] Dual-level Adaptation for Multi-Object Tracking: Building Test-Time Calibration from Experience and Intuition](tcei_test_time_calibration_experience_intuition_mot.md)
+- [\[CVPR 2026\] Towards Streaming Referring Video Segmentation via Large Language Model](towards_streaming_referring_video_segmentation_via_large_language_model.md)
 - [\[CVPR 2026\] Scene-Centric Unsupervised Video Panoptic Segmentation](scene-centric_unsupervised_video_panoptic_segmentation.md)
 - [\[CVPR 2026\] Polyphony: Diffusion-based Dual-Hand Action Segmentation with Alternating Vision Transformer and Semantic Conditioning](polyphony_diffusion-based_dual-hand_action_segmentation_with_alternating_vision_.md)
-- [\[CVPR 2026\] Robust Promptable Video Object Segmentation](robust_promptable_video_object_segmentation.md)
-- [\[CVPR 2026\] Self-Critical Distillation Network for Video-based Commonsense Captioning](self-critical_distillation_network_for_video-based_commonsense_captioning.md)
+- [\[CVPR 2026\] Long-RVOS: A Comprehensive Benchmark for Long-term Referring Video Object Segmentation](long-rvos_a_comprehensive_benchmark_for_long-term_referring_video_object_segment.md)
 
 </div>
 

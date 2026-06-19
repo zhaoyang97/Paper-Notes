@@ -78,6 +78,7 @@ flowchart TD
 评测了 15 个主流指令编辑模型（InstructPix2Pix、MagicBrush、SmartEdit、Step1X-Edit、Bagel、FLUX.1 Kontext、Qwen-Image-Edit 等）。对局部/多对象/隐式推理任务采用**前景-背景解耦**评估：前景看编辑是否到位（LC-T：编辑前景与局部描述的 CLIP 文本相似度；LC-I：与 GT 图的 CLIP 图像相似度），背景看是否保持一致（PSNR/SSIM/LPIPS）。
 
 ### 基准复杂度对比（节选 Table 1）
+
 | 基准 | 规模 | 平均对象数 | 平均类别数 | 遮挡率% | 出框率% |
 |------|------|-----------|-----------|---------|---------|
 | MagicBrush | 10K | 9.22 | 5.04 | 91.71 | 78.30 |
@@ -117,8 +118,8 @@ flowchart TD
 - [\[CVPR 2026\] Towards Robust Sequential Decomposition for Complex Image Editing](towards_robust_sequential_decomposition_for_complex_image_editing.md)
 - [\[CVPR 2026\] FlowDC: Flow-Based Decoupling-Decay for Complex Image Editing](flowdc_flow-based_decoupling-decay_for_complex_image_editing.md)
 - [\[CVPR 2026\] WiseEdit: Benchmarking Cognition- and Creativity-Informed Image Editing](wiseedit_benchmarking_cognition-_and_creativity-informed_image_editing.md)
+- [\[CVPR 2026\] MotionEdit: Benchmarking and Learning Motion-Centric Image Editing](motionedit_benchmarking_and_learning_motion-centric_image_editing.md)
 - [\[ICLR 2026\] Visual Autoregressive Modeling for Instruction-Guided Image Editing](../../ICLR2026/image_generation/visual_autoregressive_modeling_for_instruction-guided_image_editing.md)
-- [\[CVPR 2026\] DreamOmni2: Multimodal Instruction-based Generation and Editing](dreamomni2_multimodal_instruction-based_generation_and_editing.md)
 
 </div>
 

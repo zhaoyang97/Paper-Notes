@@ -103,6 +103,7 @@ OpenDanceSet 数据集：
 要点：在 AIST++ 上 OpenDanceNet 拿到最低 PFC、最好 FIDk(24.82)、最高 BAS(0.2513)，物理合理性与节拍对齐双优；在 OpenDanceSet 上 FIDk(23.19) 最好，叠加物理细化后 FIDg 进一步降到 7.72，且多样性强（Divk 7.82、Divg 6.41），整体在真实感/保真/多样性/节拍上取得最佳折中。
 
 ### 消融实验
+
 | 消融对象 | 关键现象 | 结论 |
 |----------|----------|------|
 | 联合预测机制 (表5) | 去掉轨迹/关键点的联合预测，FIDk 从 ~47 飙到 171.69、FIDg 到 39.11 | 联合预测空间 token 是质量基石 |
@@ -150,7 +151,7 @@ OpenDanceSet 数据集：
 - [\[CVPR 2026\] M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction](m4human_a_large-scale_multimodal_mmwave_radar_benchmark_for_human_mesh_reconstru.md)
 - [\[CVPR 2026\] LCA: Large-scale Codec Avatars - The Unreasonable Effectiveness of Large-scale Avatar Pretraining](lca_large-scale_codec_avatars_the_unreasonable_effectiveness_of_large-scale_avata.md)
 - [\[CVPR 2026\] RoMo: A Large-Scale, Richly Organized Dataset and Semantic Taxonomy for Human Motion Generation](romo_a_large-scale_richly_organized_dataset_and_semantic_taxonomy_for_human_moti.md)
-- [\[CVPR 2026\] Text-Driven 3D Hand Motion Generation from Sign Language Data](text-driven_3d_hand_motion_generation_from_sign_language_data.md)
+- [\[CVPR 2026\] SyncDreamer: Controllable and Expressive Avatar Generation Beyond the Talking Head](syncdreamer_controllable_and_expressive_avatar_generation_beyond_the_talking_hea.md)
 
 </div>
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.01678](https://arxiv.org/abs/2601.01678)  
 **代码**: [brbiclab.epfl.ch/projects/heurekabench](https://brbiclab.epfl.ch/projects/heurekabench)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: AI co-scientist, benchmark, scientific agents, single-cell biology, open-ended evaluation
 
 ## 一句话总结
@@ -129,9 +129,9 @@ BaisBench 这类工作直接让单个 LLM 生成问题，无从判断问题背�
 ## 相关论文
 
 - [\[ICML 2026\] Protein Fold Classification at Scale: Benchmarking and Pretraining](../../ICML2026/computational_biology/protein_fold_classification_at_scale_benchmarking_and_pretraining.md)
-- [\[ICML 2026\] Demystifying Multimodal Biomolecular Co-design with Intrinsic Geodesic Coupling](../../ICML2026/computational_biology/demystifying_multimodal_biomolecular_co-design_with_intrinsic_geodesic_coupling.md)
 - [\[ICML 2026\] Site4Drug: Predicting Drug-Binding Target Sites with an AI Agent](../../ICML2026/computational_biology/site4drug_predicting_drug-binding_target_sites_with_an_ai_agent.md)
 - [\[ICML 2025\] Protein Structure Tokenization: Benchmarking and New Recipe](../../ICML2025/computational_biology/protein_structure_tokenization_benchmarking_and_new_recipe.md)
+- [\[ICML 2026\] Demystifying Multimodal Biomolecular Co-design with Intrinsic Geodesic Coupling](../../ICML2026/computational_biology/demystifying_multimodal_biomolecular_co-design_with_intrinsic_geodesic_coupling.md)
 - [\[ICML 2026\] SwitchCraft: A Programmatic Framework for Designing State-Switching Proteins](../../ICML2026/computational_biology/switchcraft_a_programmatic_framework_for_designing_state-switching_proteins.md)
 
 </div>

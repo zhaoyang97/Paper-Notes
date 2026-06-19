@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Deeper Thought, Weaker Aim: Understanding and Mitigating Perceptual Impairment during Reasoning in Multimodal Large Language Models
 description: >-
-  [CVPR 2026][多模态VLM][MLLM推理] 本文发现多模态大模型在「想得越多」的 CoT 推理模式下视觉注意力会**空间发散**、漂离问题相关区域（看得越久、瞄得越偏），并据此提出免训练的 VRGA 框架：用「熵-聚焦」准则自动挑出真正处理视觉的注意力头、定位问题相关区域、再在生成阶段对这些区域加权，从而在不重训模型的前提下恢复视觉接地、降低跑题、提升 VQA 综合得分（跨模型规模 1–6 分）。
+  [CVPR 2026][VLM Reasoning][MLLM推理] 本文发现多模态大模型在「想得越多」的 CoT 推理模式下视觉注意力会**空间发散**、漂离问题相关区域（看得越久、瞄得越偏），并据此提出免训练的 VRGA 框架：用「熵-聚焦」准则自动挑出真正处理视觉的注意力头、定位问题相关区域、再在生成阶段对这些区域加权，从而在不重训模型的前提下恢复视觉接地、降低跑题、提升 VQA 综合得分（跨模型规模 1–6 分）。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "MLLM推理"
   - "注意力分散"
   - "视觉接地"
@@ -150,11 +150,11 @@ VRGA 的提升主要来自**跑题度 $I$ 大幅下降**（如 Qwen2.5-VL-3B 在
 
 ## 相关论文
 
-- [\[CVPR 2026\] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
-- [\[ICML 2026\] Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling](../../ICML2026/multimodal_vlm/mitigating_perceptual_judgment_bias_in_multimodal_llm-as-a-judge_via_perceptual_.md)
+- [\[CVPR 2026\] Grounded Chain-of-Thought for Multimodal Large Language Models](grounded_chain-of-thought_for_multimodal_large_language_models.md)
 - [\[CVPR 2026\] Fuel Gauge: Estimating Chain-of-Thought Length Ahead of Time in Large Multimodal Models](fuel_gauge_estimating_chain-of-thought_length_ahead_of_time_in_large_multimodal_.md)
-- [\[CVPR 2026\] ReaGEN: Adaptive Generation of Structured Chains-of-Thought for Efficient Multimodal Reasoning](reagen_adaptive_generation_of_structured_chains-of-thought_for_efficient_multimo.md)
-- [\[CVPR 2026\] See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning](see_less_see_right_bi-directional_perceptual_shaping_for_multimodal_reasoning.md)
+- [\[CVPR 2026\] Reinforcing Structured Chain-of-Thought for Video Understanding](reinforcing_structured_chain-of-thought_for_video_understanding.md)
+- [\[CVPR 2026\] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
+- [\[CVPR 2026\] Breaking the Regional Perception Bottleneck of Multimodal Large Language Models via External Reasoning Framework](breaking_the_regional_perception_bottleneck_of_multimodal_large_language_models_.md)
 
 </div>
 

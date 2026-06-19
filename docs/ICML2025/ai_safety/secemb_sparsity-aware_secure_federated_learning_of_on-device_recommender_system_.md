@@ -151,8 +151,8 @@ SecEmb 在大规模数据集上通信压缩比远超有损方法，且精度无�
 ## 相关论文
 
 - [\[NeurIPS 2025\] MARS: A Malignity-Aware Backdoor Defense in Federated Learning](../../NeurIPS2025/ai_safety/mars_a_malignity-aware_backdoor_defense_in_federated_learning.md)
-- [\[NeurIPS 2025\] Environment Inference for Learning Generalizable Dynamical System](../../NeurIPS2025/ai_safety/environment_inference_for_learning_generalizable_dynamical_system.md)
 - [\[ICCV 2025\] Client2Vec: Improving Federated Learning by Distribution Shifts Aware Client Indexing](../../ICCV2025/ai_safety/client2vec_improving_federated_learning_by_distribution_shifts_aware_client_inde.md)
+- [\[NeurIPS 2025\] Environment Inference for Learning Generalizable Dynamical System](../../NeurIPS2025/ai_safety/environment_inference_for_learning_generalizable_dynamical_system.md)
 - [\[CVPR 2026\] FedDAP: Domain-Aware Prototype Learning for Federated Learning under Domain Shift](../../CVPR2026/ai_safety/feddap_domain-aware_prototype_learning_for_federated_learning_under_domain_shift.md)
 - [\[ICML 2025\] Towards Trustworthy Federated Learning with Untrusted Participants](towards_trustworthy_federated_learning_with_untrusted_participants.md)
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.08326](https://arxiv.org/abs/2604.08326)  
 **代码**: 论文称公开数据、奖励模型与 benchmark，缓存中未给出具体 URL  
-**领域**: 医疗NLP
+**领域**: 医疗NLP  
 **关键词**: 医疗 LLM 对齐, 细粒度 rubric, 安全 veto, 奖励模型, GRPO
 
 ## 一句话总结

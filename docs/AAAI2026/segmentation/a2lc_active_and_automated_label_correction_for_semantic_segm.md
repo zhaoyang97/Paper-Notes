@@ -121,7 +121,7 @@ tags:
 - [\[NeurIPS 2025\] Towards Robust Pseudo-Label Learning in Semantic Segmentation: An Encoding Perspective](../../NeurIPS2025/segmentation/towards_robust_pseudo-label_learning_in_semantic_segmentation_an_encoding_perspe.md)
 - [\[NeurIPS 2025\] Diffusion-Driven Two-Stage Active Learning for Low-Budget Semantic Segmentation](../../NeurIPS2025/segmentation/diffusion-driven_two-stage_active_learning_for_low-budget_semantic_segmentation.md)
 - [\[CVPR 2026\] DeDelayed: Deleting Remote Inference Delay via On-Device Correction](../../CVPR2026/segmentation/dedelayed_deleting_remote_inference_delay_via_on-device_correction.md)
-- [\[ECCV 2024\] Active Coarse-to-Fine Segmentation of Moveable Parts from Real Images](../../ECCV2024/segmentation/active_coarsetofine_segmentation_of_moveable_parts_from_real.md)
+- [\[ICML 2026\] Towards Effective Waste Segmentation for Automated Waste Recycling in Cluttered Background](../../ICML2026/segmentation/towards_effective_waste_segmentation_for_automated_waste_recycling_in_cluttered_.md)
 
 </div>
 

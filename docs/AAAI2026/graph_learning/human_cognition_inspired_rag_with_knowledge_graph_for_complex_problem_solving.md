@@ -225,8 +225,8 @@ CogGRAG 将幻觉率大幅降低至 25%，同时拒答率从 ~20% 提升到 40.6
 
 ## 相关论文
 
-- [\[ICML 2025\] Is Complex Query Answering Really Complex?](../../ICML2025/graph_learning/is_complex_query_answering_really_complex.md)
 - [\[NeurIPS 2025\] ReMindRAG: Low-Cost LLM-Guided Knowledge Graph Traversal for Efficient RAG](../../NeurIPS2025/graph_learning/remindrag_low-cost_llm-guided_knowledge_graph_traversal_for_efficient_rag.md)
+- [\[ICML 2025\] Is Complex Query Answering Really Complex?](../../ICML2025/graph_learning/is_complex_query_answering_really_complex.md)
 - [\[ACL 2025\] Can LLMs Evaluate Complex Attribution in QA? Automatic Benchmarking using Knowledge Graphs](../../ACL2025/graph_learning/paper_2401_14640.md)
 - [\[ACL 2026\] Graph-Based Alternatives to LLMs for Human Simulation](../../ACL2026/graph_learning/graph-based_alternatives_to_llms_for_human_simulation.md)
 - [\[NeurIPS 2025\] NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval](../../NeurIPS2025/graph_learning/neuropath_neurobiology-inspired_path_tracking_and_reflection_for_semantically_co.md)

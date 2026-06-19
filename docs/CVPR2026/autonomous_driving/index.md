@@ -1,23 +1,19 @@
 ---
 title: >-
-  CVPR2026 自动驾驶论文汇总 · 160篇论文解读
+  CVPR2026 自动驾驶论文汇总 · 157篇论文解读
 description: >-
-  160篇CVPR2026的自动驾驶方向论文解读，涵盖自动驾驶、多模态、3D 目标检测、Agent、语义分割、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  157篇CVPR2026的自动驾驶方向论文解读，涵盖自动驾驶、多模态、Agent、语义分割、3D 目标检测、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "CVPR2026"
   - "自动驾驶"
   - "论文解读"
   - "论文笔记"
   - "多模态"
-  - "3D 目标检测"
   - "Agent"
   - "语义分割"
+  - "3D 目标检测"
   - "对抗鲁棒"
 item_list:
-  - u: "a_prediction-as-perception_framework_for_3d_object_detection/"
-    t: "A Prediction-as-Perception Framework for 3D Object Detection"
-  - u: "a_self-conditioned_representation_guided_diffusion_model_for_realistic_text-to-l/"
-    t: "A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation"
   - u: "activead_planning-oriented_active_learning_for_end-to-end_autonomous_driving/"
     t: "ActiveAD: Planning-Oriented Active Learning for End-to-End Autonomous Driving"
   - u: "adaradar_rate_adaptive_spectral_compression_for_radar-based_perception/"
@@ -32,8 +28,8 @@ item_list:
     t: "BEV-SLD: Self-Supervised Scene Landmark Detection for Global Localization with LiDAR Bird's-Eye View Images"
   - u: "beyond_rule-based_agents_active_markov_games_for_realistic_multi-agent_interacti/"
     t: "Beyond Rule-Based Agents: Active Markov Games for Realistic Multi-Agent Interaction in Autonomous Driving"
-  - u: "blind_spot_of_adaptation_quantifying_and_mitigating_forgetting_in_fine_tuned_driving_models/"
-    t: "The Blind Spot of Adaptation: Quantifying and Mitigating Forgetting in Fine-tuned Driving Models"
+  - u: "bezier_degradation_modeling_for_lidar-based_human_motion_capture/"
+    t: "Bezier Degradation Modeling for LiDAR-based Human Motion Capture"
   - u: "buildanypoint_3d_building_structured_abstraction_from_diverse_point_clouds/"
     t: "BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds"
   - u: "c-lav_conditional_latent_velocity_field_denoising_for_weather-robust_lidar_place/"
@@ -58,12 +54,16 @@ item_list:
     t: "CoLC: Communication-Efficient Collaborative Perception with LiDAR Completion"
   - u: "coopdiff_a_diffusion-guided_approach_for_cooperation_under_corruptions/"
     t: "CoopDiff: A Diffusion-Guided Approach for Cooperation under Corruptions"
+  - u: "counterfactual_vla_self-reflective_vision-language-action_model_with_adaptive_re/"
+    t: "Counterfactual VLA: Self-Reflective Vision-Language-Action Model with Adaptive Reasoning"
   - u: "cyclebev_regularizing_view_transformation_networks_via_view_cycle_consistency_fo/"
     t: "CycleBEV: Regularizing View Transformation Networks via View Cycle Consistency for Bird's-Eye-View Semantic Segmentation"
   - u: "deformable_gaussian_occupancy_decoupling_rigid_and_nonrigid_motion_with_factoriz/"
     t: "Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation"
   - u: "den_tp_a_density_balanced_data_curation_and_evaluation_framework_for_trajectory/"
     t: "Den-TP: A Density-Balanced Data Curation and Evaluation Framework for Trajectory Prediction"
+  - u: "dggt_feedforward_4d_reconstruction_of_dynamic_driving_scenes_using_unposed_image/"
+    t: "DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images"
   - u: "diffusion_forcing_planner_history-annealed_planning_with_time-dependent_guidance/"
     t: "Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving"
   - u: "dlwm_dual_latent_world_models_enable_holistic_gaussian-centric_pre-training_in_a/"
@@ -74,25 +74,17 @@ item_list:
     t: "DriveCombo: Benchmarking Compositional Traffic Rule Reasoning in Autonomous Driving"
   - u: "drivemoe_mixture-of-experts_for_vision-language-action_model_in_end-to-end_auton/"
     t: "DriveMoE: Mixture-of-Experts for Vision-Language-Action Model in End-to-End Autonomous Driving"
-item_total: 160
+item_total: 157
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**📷 CVPR2026** · **160** 篇论文解读
+**📷 CVPR2026** · **157** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (6)](../../ICML2026/autonomous_driving/index.md) · [🔬 ICLR2026 (16)](../../ICLR2026/autonomous_driving/index.md) · [🤖 AAAI2026 (56)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (91)](../../ICCV2025/autonomous_driving/index.md) · [🧪 ICML2025 (10)](../../ICML2025/autonomous_driving/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (8)](../../ICML2026/autonomous_driving/index.md) · [🔬 ICLR2026 (17)](../../ICLR2026/autonomous_driving/index.md) · [🤖 AAAI2026 (56)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (91)](../../ICCV2025/autonomous_driving/index.md) · [🧪 ICML2025 (10)](../../ICML2025/autonomous_driving/index.md)
 
-🔥 **高频主题：** 自动驾驶 ×34 · 多模态 ×15 · 3D 目标检测 ×13 · Agent ×12 · 语义分割 ×10
-
-**[A Prediction-as-Perception Framework for 3D Object Detection](a_prediction-as-perception_framework_for_3d_object_detection.md)**
-
-:   受人脑"预测性感知"机制启发，提出 PAP 框架——将历史帧的轨迹预测结果作为 query 注入当前帧的感知模块，在 UniAD 上实现跟踪精度提升 10%、推理速度提升 15%。
-
-**[A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation](a_self-conditioned_representation_guided_diffusion_model_for_realistic_text-to-l.md)**
-
-:   T2LDM 用一个训练时辅助、推理时丢弃的"引导网络"给去噪网络注入几何重建监督（SCRG），再加一个方向位置编码（DPE）纠正环形投影带来的街道扭曲，在 Text-LiDAR 配对极度稀缺的条件下也能生成结构精细、可控的 LiDAR 场景，并配套提出可控性 benchmark T2nuScenes 和 TBR 指标。
+🔥 **高频主题：** 自动驾驶 ×35 · 多模态 ×16 · Agent ×12 · 语义分割 ×10 · 3D 目标检测 ×10
 
 **[ActiveAD: Planning-Oriented Active Learning for End-to-End Autonomous Driving](activead_planning-oriented_active_learning_for_end-to-end_autonomous_driving.md)**
 
@@ -122,9 +114,9 @@ item_total: 160
 
 :   把驾驶环境建模成"状态转移和奖励都依赖各智能体当前策略"的主动马尔可夫博弈（AMG），再用多智能体协同进化训练让自车策略和一池子风格各异的对手策略互相博弈、共同进化，从而在 CARLA 无信号灯路口和长尾场景里学到鲁棒的交互式决策，碰撞率压到 0.02、成功率到 98%。
 
-**[The Blind Spot of Adaptation: Quantifying and Mitigating Forgetting in Fine-tuned Driving Models](blind_spot_of_adaptation_quantifying_and_mitigating_forgetting_in_fine_tuned_driving_models.md)**
+**[Bezier Degradation Modeling for LiDAR-based Human Motion Capture](bezier_degradation_modeling_for_lidar-based_human_motion_capture.md)**
 
-:   系统研究 VLM 微调到自动驾驶场景时的灾难性遗忘问题，构建 180K 场景大规模基准 FidelityDrivingBench，并提出 Drive Expert Adapter (DEA) 通过提示空间路由在不腐蚀基础参数的前提下增强驾驶任务性能。
+:   针对 LiDAR 点云稀疏、遮挡严重导致动捕预测抖动甚至失败的问题，本文提出 BMLiCap：先用可压缩的贝塞尔曲线把人体运动表示成"粗趋势 + 细节控制点"的多层级结构，再用一个 Time-scale Motion Transformer 在单次前向里粗到细地重建各时间尺度运动曲线，在 4 个 LiDAR 动捕基准上同时刷新精度（MPJPE）和时序连续性（加速度误差）。
 
 **[BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds](buildanypoint_3d_building_structured_abstraction_from_diverse_point_clouds.md)**
 
@@ -174,6 +166,10 @@ item_total: 160
 
 :   CoopDiff 把多智能体协同感知里的"抗腐蚀"问题重写成一个**特征空间扩散去噪**任务：用一个质量感知教师生成干净的监督特征，再让一个双分支扩散学生在带噪输入下把它重建出来，从而在雾、运动模糊、EMI 等六类腐蚀下都稳定超过现有 SOTA。
 
+**[Counterfactual VLA: Self-Reflective Vision-Language-Action Model with Adaptive Reasoning](counterfactual_vla_self-reflective_vision-language-action_model_with_adaptive_re.md)**
+
+:   CF-VLA 让自动驾驶 VLA 先生成"分时段元动作"，再对自己刚提出的动作做反事实推理（"如果照这个计划走会怎样、该不该改"）并在出轨迹前自我修正，配合一条 rollout–filter–label 数据管线只在难场景上标注反事实 trace，从而学出"只在该想的时候才想"的自适应推理，轨迹精度提升约 17.6%、安全指标提升约 20%。
+
 **[CycleBEV: Regularizing View Transformation Networks via View Cycle Consistency for Bird's-Eye-View Semantic Segmentation](cyclebev_regularizing_view_transformation_networks_via_view_cycle_consistency_fo.md)**
 
 :   提出 CycleBEV 正则化框架：训练时引入逆视角变换（IVT）网络将 BEV 分割图映射回透视图（PV）分割图，通过循环一致性损失及高度感知几何正则化、跨视角隐空间对齐两项新目标来增强现有 BEV 语义分割模型，推理时不增加任何开销。
@@ -185,6 +181,10 @@ item_total: 160
 **[Den-TP: A Density-Balanced Data Curation and Evaluation Framework for Trajectory Prediction](den_tp_a_density_balanced_data_curation_and_evaluation_framework_for_trajectory.md)**
 
 :   从数据中心视角出发，提出 Den-TP 框架通过密度感知的数据集筛选和评估协议来解决轨迹预测数据集中场景密度的长尾不平衡问题，仅用 50% 数据就能保持整体性能并显著改善高密度场景的鲁棒性。
+
+**[DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images](dggt_feedforward_4d_reconstruction_of_dynamic_driving_scenes_using_unposed_image.md)**
+
+:   把"相机位姿"从输入变成输出，用一个 ViT 多头网络一次前向就从**无位姿**的稀疏图像直接重建出动态驾驶场景的 4D 高斯表示（含位姿、深度、动态图、3D 运动），再用单步扩散精修渲染，在 Waymo 上达到 27.41 PSNR、单场景 0.39 秒，且支持任意输入帧数和跨数据集零样本迁移。
 
 **[Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving](diffusion_forcing_planner_history-annealed_planning_with_time-dependent_guidance.md)**
 
@@ -234,17 +234,13 @@ item_total: 160
 
 :   本文发布了同时采集双目事件-RGB-热成像相机、4D 雷达与双 LiDAR、覆盖雨雪雾/夜间/HDR 等极端工况的驾驶数据集 DSERT-RoLL，并配套提出一个「先用测距传感器出初始框、再用三路相机特征以体素为中心做可变形采样补充语义、最后按相机置信度门控融合」的多模态 3D 检测框架，在全部天气/光照条件下取得最高 AP。
 
-**[DVGT: Driving Visual Geometry Transformer](dvgt_driving_visual_geometry_transformer.md)**
+**[E3AD: An Emotion-Aware Vision-Language-Action Model for Human-Centric End-to-End Autonomous Driving](e3ad_an_emotion-aware_vision-language-action_model_for_human-centric_end-to-end_.md)**
 
-:   DVGT 是一个面向自动驾驶的视觉几何 Transformer，输入一段无位姿的多帧多视角图像，端到端直接预测以首帧自车坐标系为基准的**度量尺度**全局稠密 3D 点云图与每帧自车位姿，无需相机内外参、无需事后用 LiDAR 对齐尺度，在五个驾驶数据集上同时超越通用几何模型（VGGT、CUT3R、MapAnything）和驾驶专用模型（Driv3R）。
+:   E3AD 把"乘客情感"塞进端到端自动驾驶的 VLA 框架：用连续的 Valence-Arousal-Dominance（VAD）情感空间从自然语言指令里读出语气与紧迫度，配合双通道（自我中心+世界中心）空间推理，再用一致性导向的三阶段训练（含 DPO 情感-动作对齐）让规划轨迹既听懂"说什么"又听懂"怎么说的"，在视觉定位、情感估计和轨迹规划上全面超过 SOTA。
 
-**[DynamicVGGT: Learning Dynamic Point Maps for 4D Scene Reconstruction in Autonomous Driving](dynamicvggt_learning_dynamic_point_maps_for_4d_scene_reconstruction_in_autonomou.md)**
+**[EE-RL: Vision Language Guided Reinforcement Learning with Explorer and Expert model for End-to-End Autonomous Driving](ee-rl_vision_language_guided_reinforcement_learning_with_explorer_and_expert_mod.md)**
 
-:   DynamicVGGT 把静态前馈 3D 模型 VGGT 扩展到动态 4D 重建：用「动态点图」把当前帧和未来帧点云预测在同一个学习坐标系里，配上一个并行的运动感知时序注意力分支和一个带速度监督的动态 3D 高斯头，在无相机参数、无稠密标注的纯图像输入下，于 Waymo / KITTI 上重建出时序一致的动态驾驶场景。
-
-**[EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models](editssc_toward_editable_semantic_occupancy_scenes_with_unconditional_diffusion_m.md)**
-
-:   把 3D 语义占据栅格"压扁"成多通道 BEV 图像，直接复用 Stable Diffusion 的现成 VQ-VAE 和 UNet 做无条件场景生成，并利用向量量化码本天然形成的"类别↔码字"对应关系，实现无需重训练的草图引导、inpainting 与 outpainting 编辑；在 SemanticKITTI 上无条件生成超过 3D 专用基线。
+:   EE-RL 用一个 RL「探索者」+ 两个 LoRA 微调的 VLM「专家」+ 双经验回放池组成端到端驾驶框架，让 VLM 专门为红灯、行人横穿这类「稀疏但要命」的场景生成奖励与经验，再配合 StateHash 跳过冗余 VLM 推理，在 CARLA Leaderboard 上把 Town03 的驾驶分和违规分各拉高约 20%，并在红灯闯行场景做到 0% 事故率。
 
 **[Efficient Equivariant Transformer for Self-Driving Agent Modeling](efficient_equivariant_transformer_for_self-driving_agent_modeling.md)**
 
@@ -262,10 +258,6 @@ item_total: 160
 
 :   提出 EMDUL 管线，通过伪标签标注无标注毫米波数据（含新设计的无监督时序一致性损失 UTCL）和闭式 LiDAR→mmWave 点云转换器（含基于流的点过滤 FPF），大幅扩展毫米波 HPE 数据集的规模与多样性，域内误差降低 15.1%、跨域误差降低 18.9%。
 
-**[F3DGS: Federated 3D Gaussian Splatting for Decentralized Multi-Agent World Modeling](f3dgs_federated_3d_gaussian_splatting_for_decentralized_multi-agent_world_modeli.md)**
-
-:   提出F3DGS，首个将联邦学习框架应用于3DGS的方法，通过冻结几何+可见性感知聚合实现多智能体分布式3D重建，无需原始数据共享。
-
 **[Failure Modes for Deep Learning-Based Online Mapping: How to Measure and Address Them](failure_modes_for_deep_learning-based_online_mapping_how_to_measure_and_address_.md)**
 
 :   本文系统性地定义和量化了深度学习在线建图模型的两种失败模式——定位过拟合和地图几何过拟合，提出基于 Fréchet 距离的性能度量和基于最小生成树（MST）的训练集稀疏化策略，在 nuScenes 和 Argoverse 2 上验证了几何多样且均衡的训练集能改善模型泛化能力。
@@ -282,6 +274,10 @@ item_total: 160
 
 :   FoSS 提出一种频域-时域双分支框架，通过渐进螺旋重排序（HelixSort）将傅里叶频谱有序化后输入选择性状态空间模型（SSM），结合时域动态 SSM 和交叉注意力融合，在 Argoverse 1/2 上取得 SOTA 轨迹预测精度，同时参数量减少 40%+、推理延迟降低 22%。
 
+**[Gau-Occ: Geometry-Completed Gaussians for Multi-Modal 3D Occupancy Prediction](gau-occ_geometry-completed_gaussians_for_multi-modal_3d_occupancy_prediction.md)**
+
+:   Gau-Occ 把自动驾驶场景建模成一组紧凑的语义 3D 高斯锚点，用一个"逐点局部扩散"的 LiDAR 补全模块先把稀疏点云补全成几何完整的结构，再用 Gaussian Anchor Fusion 把多视角图像语义高效灌进每个锚点，从而绕开昂贵的稠密体素/BEV 张量，在 SurroundOcc / Occ3D / KITTI-360 三个基准上取得 SOTA 且计算高效。
+
 **[GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation](gaussiandwm_3d_gaussian_driving_world_model_for_unified_scene_understanding_and_.md)**
 
 :   GaussianDWM 用「语言增强的 3D Gaussian」作为统一场景表征，把每个高斯椭球嵌入 CLIP 语言特征实现文本与 3D 几何的显式对齐，再经任务感知采样把紧凑 3D token 喂给 LLM，既能做场景理解（描述/2D-3D grounding/规划），又用双条件扩散做 RGB-D 时空生成，在 NuInteract 理解任务上把平均分从 52.12 提到 59.23、在 nuScenes 空间生成上把 ±2m 偏移 FID 压到 11.27。
@@ -294,13 +290,13 @@ item_total: 160
 
 :   GPOcc 提出利用可泛化的视觉几何先验（如 VGGT、DepthAnything）进行单目 3D 占据预测，通过沿相机射线向内延伸表面点生成体积采样，以稀疏高斯基元进行概率占据推断，并设计免训练增量更新策略处理流式输入，在 Occ-ScanNet 上单目 mIoU 提升 +9.99、流式提升 +11.79 超越前 SOTA，同时在相同深度先验下速度快 2.65 倍。
 
+**[GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation](geniedrive_towards_physics-aware_driving_world_model_with_4d_occupancy_guided_vi.md)**
+
+:   GenieDrive 把"驾驶动作直接生成视频"的黑盒拆成两段——先用一个仅 3.47M 参数的轻量占据世界模型，从历史 4D occupancy 和驾驶控制预测未来 occupancy（物理约束），再把 occupancy 投影成语义图去引导预训练视频模型生成多视角驾驶视频——在占据预测上 mIoU 相对提升 7.2%、推理 41 FPS，在视频生成上 FVD 相对下降 20.7%，并能生成长达 241 帧（约 20s）的可编辑、多视角一致的物理感知驾驶视频。
+
 **[Ghost-FWL: A Large-Scale Full-Waveform LiDAR Dataset for Ghost Detection and Removal](ghost-fwl_a_large-scale_full-waveform_lidar_dataset_for_ghost_detection_and_remo.md)**
 
 :   Ghost-FWL 提出首个大规模移动端全波形 LiDAR 数据集（24K帧、75亿峰值级标注），并设计 FWL-MAE 自监督预训练框架实现鬼影检测与去除，将 SLAM 轨迹误差降低 66% 以上、3D 检测假阳性率减少 50 倍。
-
-**[GSV2X: Geometry-Aware Uncertainty Modeling and Orthogonal Fusion for Robust Roadside Perception](gsv2x_geometry-aware_uncertainty_modeling_and_orthogonal_fusion_for_robust_roads.md)**
-
-:   针对路侧多视角相机-LiDAR 融合中"标定误差导致特征错位"和"相机过强压制 LiDAR"两大顽疾，GSV2X 用 3D 高斯分布替代确定性投影把像素特征"软"地抬升到 BEV、并用正交约束强制两个模态学互补特征，在 RCooper 上把 AP@0.5 从 BEVFusion 的 43.7% 拉到 63.4%，且在标定扰动下几乎不掉点。
 
 **[GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving](guideflow_constraint-guided_flow_matching_for_planning_in_end-to-end_autonomous_.md)**
 
@@ -342,9 +338,9 @@ item_total: 160
 
 :   LA-Pose 把 Genie 式"逆动力学隐动作"从驱动世界模型/机器人策略的本职工作里挪出来，改当相机位姿估计的输入特征——先在 1000 万条无标注驾驶视频上自监督学隐动作，再用极少量带 3D 标注的数据后训一个轻量位姿头，在 Waymo/PandaSet 上用少几个数量级的标注数据反而比 VGGT 等前馈 SOTA 高 10%+ 的位姿精度。
 
-**[Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens](le_mumo_jepa_multi-modal_self-supervised_representation_learning_with_learnable_.md)**
+**[LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving](lead_minimizing_learner-expert_asymmetry_in_end-to-end_driving.md)**
 
-:   将LeJEPA自监督框架扩展到多模态设置，引入可学习融合token作为Perceiver式潜在瓶颈在共享Transformer内高效融合RGB与伴随模态（LiDAR深度/热红外），采用剪枝策略将注意力开销降低约9倍，在Waymo上CenterNet 3D检测mAP XY达23.6（比RGB-only LeJEPA提升4.3），Depth MAE从4.704降至2.860。
+:   这篇论文指出 CARLA 里"学车（student）学不会老司机（privileged expert）"的根因不是模型不够强，而是专家用了学生看不到/测不准的特权信息、以及导航意图给得太稀疏；通过把专家的感知和决策约束到学生能观测的范围（LEAD 专家+数据集）、并重构学生策略的目标点注入方式（TFv6），在 Bench2Drive 上拿到 95 DS、在 Longest6 v2 / Town13 上把此前最好成绩翻倍以上。
 
 **[LEADER: Learning Reliable Local-to-Global Correspondences for LiDAR Relocalization](leader_lidar_relocalization.md)**
 
@@ -353,10 +349,6 @@ item_total: 160
 **[Learnability-Driven Submodular Optimization for Active Roadside 3D Detection](learnability-driven_submodular_optimization_for_active_roadside_3d_detection.md)**
 
 :   提出 LH3D 框架，通过「深度置信度→语义平衡→几何多样性」三阶段子模优化的主动学习策略，抑制路侧单目 3D 检测中固有歧义样本的选取，仅用 20% 标注预算即显著优于传统不确定性/多样性 AL 方法。
-
-**[Learning Geometric and Photometric Features from Panoramic LiDAR Scans for Outdoor Place Categorization](learning_geometric_and_photometric_features_from_p.md)**
-
-:   本文利用3D LiDAR获取的全景深度图和反射率图作为CNN的输入，构建了一个大规模户外场景分类数据集MPO，并提出了水平循环卷积(HCC)和行最大池化(RWMP)两种改进策略，实现了对六类户外场景的高精度分类（最高97.87%），显著优于传统手工特征方法。
 
 **[Learning Mutual View Information Graph for Adaptive Adversarial Collaborative Perception](learning_mutual_view_information_graph_for_adaptive_adversarial_collaborative_pe.md)**
 
@@ -390,25 +382,13 @@ item_total: 160
 
 :   揭示了LiDAR-Camera融合中特征不对齐主要集中在**前景-背景深度突变边界**，提出PGDC（2D先验引导深度校准）+DAGF（不连续感知几何融合）+SGDM（结构引导深度调制器）三个协同模块，在融合前主动修正不对齐问题，在nuScenes验证集达到mAP 71.5%、NDS 73.6%的SOTA。
 
-**[M²-Occ: Resilient 3D Semantic Occupancy Prediction for Autonomous Driving with Incomplete Camera Inputs](m2-occ_resilient_3d_semantic_occupancy_prediction_for_autonomous_driving_with_in.md)**
-
-:   M²-Occ 针对相机故障导致视图缺失的真实场景，提出 MMR（利用相邻相机 FoV 重叠在特征空间重建缺失视图表示）+ FMM（可学习语义原型 memory bank 精炼模糊 voxel 特征），在 SurroundOcc 基线上缺失后视摄像头 IoU +4.93%，缺失 5 个摄像头时仍维持 18.36% IoU（基线崩到 13.35%），且完整视图下性能不妥协。
-
 **[MAD: Motion Appearance Decoupling for Efficient Driving World Models](mad_motion_appearance_decoupling_for_efficient_driving_world_models.md)**
 
 :   MAD 把通用视频扩散模型改造成驾驶世界模型的代价砍到极致：用同一个主干、两个轻量 LoRA，先生成只画骨架的"姿态视频"预测运动、再给骨架"穿上"纹理渲染 RGB，把运动与外观解耦后只用对手 6% 的算力就追平了此前 SOTA。
 
-**[MapGCLR: Geospatial Contrastive Learning of Representations for Online Vectorized HD Map Construction](mapgclr_geospatial_contrastive_learning_of_represe.md)**
-
-:   提出 MapGCLR，通过强制地理空间重叠区域的 BEV 特征一致性进行对比学习，在半监督框架下利用少量标注数据和大量无标注多遍历数据，在在线向量化高精地图构建任务上实现 13%-42% 的相对性能提升。
-
 **[MeanFuser: Fast One-Step Multi-Modal Trajectory Generation and Adaptive Reconstruction via MeanFlow for End-to-End Autonomous Driving](meanfuser_fast_one-step_multi-modal_trajectory_generation_and_adaptive_reconstru.md)**
 
 :   提出MeanFuser端到端自动驾驶框架，用高斯混合噪声替代离散轨迹词汇表实现连续多模态轨迹建模，通过MeanFlow Identity实现一步采样消除ODE数值误差，并设计ARM模块隐式判断是选择现有proposal还是重构新轨迹，在NAVSIM上以仅RGB输入+ResNet-34骨干达到89.0 PDMS且59 FPS。
-
-**[Mind the Hitch: Dynamic Calibration and Articulated Perception for Autonomous Trucks](mind_the_hitch_dynamic_calibration_and_articulated_perception_for_autonomous_tru.md)**
-
-:   提出 dCAP 框架，通过基于 Transformer 的跨视角和时序注意力机制，实现拖挂式自动驾驶卡车中拖头与挂车之间的实时 6-DoF 相对位姿估计，并集成到 BEVFormer 中提升铰接运动下的 3D 目标检测性能（平移误差 0.452m，旋转误差 0.042 rad）。
 
 **[MindDriver: Introducing Progressive Multimodal Reasoning for Autonomous Driving](minddriver_introducing_progressive_multimodal_reasoning_for_autonomous_driving.md)**
 
@@ -422,21 +402,17 @@ item_total: 160
 
 :   MTA 给「BEV 3D 检测 + 3D 稠密描述」这对一向各做各的任务搭了两座对齐桥——BLA 用 GT 描述的文本表示监督 Q-Former 的 BEV 物体查询、DCA 用可学习 prompt 把检测输出和描述输出拉进共享空间做对比对齐——两个模块只在训练时生效、推理零额外开销，却让检测 mAP 涨 4.9%、描述 CIDEr 涨 9.2%。
 
-**[Multi-Stage VLM Pipeline for Zero-Shot Traffic Accident Understanding](multi-stage_vlm_pipeline_for_zero-shot_traffic_accident_understanding.md)**
-
-:   在一个**完全冻结、无需训练**的 Qwen3-VL-32B 上，把"判定事故发生时间 / 碰撞中心点 / 碰撞类型"这个联合任务拆成三次专门化的 VLM 调用（全视频粗判 → 时间细化 → 单帧空间定位），再叠加一个 235B MoE 兄弟模型的 9:1 集成和一步"吸附到最近车辆框"的后处理，把统一分数从最强基线 Molmo-7B 的 0.358 拉到私榜 0.5708，拿下 CVPR 2026 ACCIDENT 挑战赛冠军。
-
 **[Neural Distribution Prior for LiDAR Out-of-Distribution Detection](neural_distribution_prior_for_lidar_ood_detection.md)**
 
 :   NDP提出了可学习的神经分布先验模块来建模网络预测的分布结构，结合Perlin噪声生成的伪OOD样本和软异常暴露策略，在STU基准上实现61.31% AP，超越之前最佳结果10倍以上。
 
+**[Neuro-Cognitive Reward Modeling for Human-Centered Autonomous Vehicle Control](neuro-cognitive_reward_modeling_for_human-centered_autonomous_vehicle_control.md)**
+
+:   这篇论文用脑电信号（EEG）里的事件相关电位（ERP）作为"人类认知反馈"，训练一个能从场景图像直接预测 ERP 强度的轻量 CNN，把它的输出当作奖励项注入强化学习（TD3），让自动驾驶智能体在紧急制动和左转两个高难度场景里学会更安全、更像人的避撞行为——而且推理时完全不需要再采 EEG。
+
 **[NoRD: A Data-Efficient Vision-Language-Action Model that Drives without Reasoning](nord_a_data-efficient_vision-language-action_model_that_drives_without_reasoning.md)**
 
 :   NoRD 证明自动驾驶 VLA 不需要大规模推理标注和海量数据：通过识别 GRPO 在弱 SFT 策略上失败的根因是 **difficulty bias**（高方差 rollout 组的学习信号被压制），采用 Dr. GRPO 替代标准 GRPO 做 RL 后训练，仅用 <60% 数据、无推理标注、3× 更少 token，在 NAVSIM（85.6 PDMS）和 WaymoE2E（7.709 RFS）上达到与推理型 VLA 竞争的性能。
-
-**[O3N: Omnidirectional Open-Vocabulary Occupancy Prediction](o3n_omnidirectional_open-vocabulary_occupancy_prediction.md)**
-
-:   O3N 首次提出全向开放词汇占用预测任务，设计纯视觉端到端框架：Polar-spiral Mamba (PsM) 在极坐标空间以螺旋扫描建模全景几何连续性；Occupancy Cost Aggregation (OCA) 构建 voxel-text 匹配代价体积避免直接特征对齐的过拟合；Natural Modality Alignment (NMA) 通过无梯度随机游走对齐 pixel-voxel-text 三模态嵌入。在 QuadOcc 上达 16.54 mIoU / 21.16 Novel mIoU（SOTA），大幅超越 OVO 基线。
 
 **[OccAny: Generalized Unconstrained Urban 3D Occupancy](occany_generalized_unconstrained_urban_3d_occupancy.md)**
 
@@ -445,10 +421,6 @@ item_total: 160
 **[OccuFly: A 3D Vision Benchmark for Semantic Scene Completion from the Aerial Perspective](occufly_a_3d_vision_benchmark_for_semantic_scene_completion_from_the_aerial_pers.md)**
 
 :   OccuFly 提出了首个真实世界航拍视角的相机基语义场景补全（SSC）基准数据集，包含 2 万+ 样本、21 个语义类别，覆盖多季节多海拔的城市/工业/农村场景，并揭示了当前视觉基础模型在航拍场景下的根本局限。
-
-**[On the Feasibility and Opportunity of Autoregressive 3D Object Detection](on_the_feasibility_and_opportunity_of_autoregressive_3d_object_detection.md)**
-
-:   提出 AutoReg3D，首个将 LiDAR 3D 目标检测建模为自回归序列生成的框架，利用近到远排序和参数特定词表将 bounding box 离散为 token 序列，无需 anchor/NMS 即可达到与主流方法竞争的性能，并解锁 RL 微调和级联精炼等新能力。
 
 **[OneOcc: Semantic Occupancy Prediction for Legged Robots with a Single Panoramic Camera](oneocc_semantic_occupancy_prediction_for_legged_robots_with_a_single_panoramic_c.md)**
 
@@ -470,10 +442,6 @@ item_total: 160
 
 :   本文首次研究"多模态 3D 全景分割（mm-3DPS）的无监督域适应"，提出 PanDA：在均值教师框架上用"非对称多模态丢弃（AMD）"在源域模拟单模态退化以学到域不变特征，并用"双专家伪标签精修（DualRefine）"借 3D 几何超点和 2D 视觉基础模型修补不完整、错分的目标域伪标签，在时间/天气/地点/传感器四类域偏移上大幅超过 3D 语义分割的 UDA 基线。
 
-**[Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots](panoramic_multimodal_semantic_occupancy_prediction.md)**
-
-:   面向四足机器人构建首个全景多模态（RGB+热成像+偏振+LiDAR）语义占据数据集PanoMMOcc，并提出VoxelHound框架，通过垂直抖动补偿（VJC）和多模态信息提示融合（MIPF）模块实现鲁棒的3D占据预测，达到23.34% mIoU（+4.16%）。
-
 **[ParkGaussian: Surround-view 3D Gaussian Splatting for Autonomous Parking](parkgaussian_surround-view_3d_gaussian_splatting_for_autonomous_parking.md)**
 
 :   针对地下车库这种「拥挤、无 GPS、弱光」的泊车场景，本文先做出首个面向泊车三维重建的基准 ParkRecon3D（四路环视鱼眼 + 6 万车位标注），再提出 ParkGaussian——把 3DGS 适配到鱼眼相机（UT 投影）、用可微 IPM 把渲染结果转成鸟瞰图、并用冻结的车位检测器作师生引导做「车位感知重建」，让重建不只画面好看，还能在下游车位检测上保持感知一致。
@@ -482,13 +450,13 @@ item_total: 160
 
 :   NDPNet 把长时轨迹预测拆成"近处靠惯性、远处靠语义"两条专门的解码通路，用一个时序桥接模块把两段平滑接上，再叠加一个把运动学先验写进训练目标的一致性损失，在 Argoverse 2 与 WOMD 上拿到 SOTA，并首次在 8 秒预测把 minFDE6 压进 1.75 以下。
 
+**[Percept-WAM: Perception-Enhanced World-Awareness-Action Model for Robust End-to-End Autonomous Driving](percept-wam_perception-enhanced_world-awareness-action_model_for_robust_end-to-e.md)**
+
+:   Percept-WAM 把 2D/3D 感知任务统一编码成 World-PV、World-BEV 两类「世界令牌」塞进单个 VLM（InternVL2-8B），再接一组 World-Action 令牌直接吐轨迹，做到「感知-推理-规划」在同一个骨干里端到端跑通，COCO 2D 检测 51.7 mAP、nuScenes BEV 3D 检测 58.9 mAP，NAVSIM 闭环 PDMS 90.2 超过 DiffusionDrive 2.1 分。
+
 **[Perception Characteristics Distance: Measuring Stability and Robustness of Perception System in Dynamic Conditions under a Certain Decision Rule](perception_characteristics_distance_measuring_stability_and_robustness_of_percep.md)**
 
 :   提出 Perception Characteristics Distance (PCD)，一种量化感知系统在不同距离下可靠检测能力的新指标，通过统计建模检测置信度随距离的均值和方差变化，定义感知系统的最大可靠检测距离，弥补传统 AP/IoU 等静态指标无法反映距离依赖性和随机性的不足。
-
-**[PlannerRFT: Reinforcing Diffusion Planners through Closed-Loop and Sample-Efficient Fine-Tuning](plannerrft_reinforcing_diffusion_planners_through_closed-loop_and_sample-efficie.md)**
-
-:   针对扩散规划器在强化微调时"模态坍缩、探索无效"的痛点，PlannerRFT 用一个可学习的探索策略调制 classifier guidance 的引导尺度，让去噪过程既多模态又随场景自适应，配合 GPU 并行仿真器 nuMax，在 nuPlan 闭环基准上做到 SOTA，尤其在困难交互场景上大幅提升安全性。
 
 **[Plant Taxonomy Meets Plant Counting: A Fine-Grained, Taxonomic Dataset for Counting Hundreds of Plant Species](plant_taxonomy_meets_plant_counting_a_fine-grained_taxonomic_dataset_for_countin.md)**
 
@@ -510,9 +478,9 @@ item_total: 160
 
 :   本文提出PTC-Depth，一个结合光流三角化和轮式里程计的单目深度估计框架，通过递归贝叶斯更新追踪深度基础模型的度量尺度，实现时间一致的度量深度预测，在KITTI、TartanAir和热红外等多个数据集上展现强泛化能力。
 
-**[Query2Uncertainty: Robust Uncertainty Quantification and Calibration for 3D Object Detection under Distribution Shift](query2uncertainty_robust_uncertainty_quantification_and_calibration_for_3d_objec.md)**
+**[QueryOcc: Query-based Self-Supervision for 3D Semantic Occupancy](queryocc_query-based_self-supervision_for_3d_semantic_occupancy.md)**
 
-:   针对 DETR 式 3D 检测器在雨雪等分布偏移下「过度自信、校准失效」的问题，本文用归一化流估计 object query 的特征密度，并把这个密度信号注入温度缩放 / Platt / Isotonic 等后处理校准器，让校准强度随「query 离训练分布多远」自适应调整，从而同时校准分类置信度与 3D 框回归方差，在 nuScenes（同分布）和 MultiCorrupt（分布偏移）上都优于标准后处理方法。
+:   QueryOcc 用从相邻帧采样的独立 4D 时空 query 直接在连续 3D 空间监督几何与语义，配上一个可处理无界场景的收缩式 BEV 表示，在自监督 Occ3D-nuScenes 上把语义 RayIoU 提了 26%，同时保持 11.6 FPS 实时推理。
 
 **[R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection](r4det_4d_radar-camera_fusion_for_high-performance_3d_object_detection.md)**
 
@@ -522,25 +490,17 @@ item_total: 160
 
 :   把车辆轨迹预测从"依赖在线感知先验"重构为"从大规模离线知识库检索历史经验"的检索增强（RAG）问题，并用一个检索驱动的 MoE 把检索到的先验动态融合进解码器，在 Argoverse / WOMD 上同时逼平 map-based SOTA、超越 map-free 方法，并在零样本跨域迁移上展现明显优势。
 
-**[RaGS: Unleashing 3D Gaussian Splatting from 4D Radar and Monocular Cue for 3D Object Detection](rags_unleashing_3d_gaussian_splatting_from_4d_radar_and_monocular_cue_for_3d_obj.md)**
-
-:   RaGS 把场景建模成一片连续的 3D 高斯场，用单目图像的前景线索初始化高斯、再迭代地吸收雷达几何与图像语义把高斯往前景物体上"挪"，最后渲染成多层 BEV 特征做检测，在 VoD / TJ4DRadSet / OmniHD-Scenes 三个 4D 雷达-相机基准上取得 SOTA。
-
 **[Rascene: High-Fidelity 3D Scene Imaging with mmWave Communication Signals](rascene_high-fidelity_3d_scene_imaging_with_mmwave_communication_signals.md)**
 
 :   提出 Rascene，一种利用毫米波 OFDM 通信信号（5G/Wi-Fi）进行高保真 3D 场景成像的集成感知与通信（ISAC）框架，通过置信度加权的多帧融合实现对稀疏、多径干扰的射频观测的几何一致性恢复。
 
-**[RaUF: Learning the Spatial Uncertainty Field of Radar](rauf_learning_the_spatial_uncertainty_field_of_radar.md)**
-
-:   RaUF 把"低保真雷达点云重建"重新表述成一个学习**空间不确定性场**的贝叶斯问题：用各向异性高斯刻画雷达"新月形"的方位/距离不确定性，把原本相互冲突的"特征→标签"监督转成可学习的置信度信号；同时用双向域注意力把多普勒一致性注入空间特征以压制鬼影，在 Coloradar / RaDelft / 自采数据上重建精度与下游任务可靠性都显著领先。
-
-**[Real-World On-Vehicle Evaluation of Embedding-Based Anomaly Detection](real-world_on-vehicle_evaluation_of_embedding-based_anomaly_detection.md)**
-
-:   这篇论文提出一个**免训练、单参考图像**的语义异常检测方法：用冻结的 DINOv3 提取 patch 级特征，把测试帧的每个 patch 与一张"正常场景"参考图做最近邻余弦相似度匹配，相似度低的区域即判为异常，并**首次把这种 embedding 异常检测真正跑在自动驾驶实车上**（12.5 Hz 实时），在 Road Anomaly 上取得 AP 70.83%。
-
 **[Recover to Predict: Progressive Retrospective Learning for Variable-Length Trajectory Prediction](recover_to_predict_progressive_retrospective_learning_for_variable-length_trajec.md)**
 
 :   提出渐进式回溯框架 PRF，通过级联回溯单元逐步将不完整观测的特征对齐到完整观测，大幅提升变长轨迹预测性能，且即插即用兼容现有方法。
+
+**[RefAV: Towards Planning-Centric Scenario Mining](refav_towards_planning-centric_scenario_mining.md)**
+
+:   本文把"从海量自动驾驶日志里捞出安全攸关场景"这件事重新表述为**时空场景挖掘**任务：给定一句自然语言描述，判断它是否出现在某段 20 秒驾驶日志里、并在 3D 时空中精确定位被指代的目标；为此作者构建了 RefAV 数据集（基于 Argoverse 2 的 10,000 条多智能体交互查询），并提出 RefProg——用 LLM 把复杂查询合成为可执行程序、再去过滤现成 3D 轨迹的双路方法，在零样本设置下大幅超过直接套用 VLM 的各种基线。
 
 **[Reliable Policy Transfer for Safety-Aware End-to-End Driving with Deep Reinforcement Learning](reliable_policy_transfer_for_safety-aware_end-to-end_driving_with_deep_reinforce.md)**
 
@@ -565,6 +525,10 @@ item_total: 160
 **[RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via Reinforcement Learning Fine-Tuning](rlftsim_realistic_and_controllable_multi-agent_traffic_simulation_via_reinforcem.md)**
 
 :   把预训练好的模仿学习交通仿真模型（SMART）放进闭环里用强化学习再微调：以 Waymo 的真实度元指标 RMM 为奖励，但用一种 Leave-One-Out 改造（MLOO）把它变成低方差、稠密的逐 rollout 奖励，从而在 WOMD 上拿到 SOTA 真实度；再借助目标条件化与 HER，把"可控生成指定场景"的能力也蒸馏进来。
+
+**[RoadSceneBench: A Lightweight Benchmark for Mid-Level Road Scene Understanding](roadscenebench_a_lightweight_benchmark_for_mid-level_road_scene_understanding.md)**
+
+:   针对自动驾驶里夹在"像素感知"与"高层规划"之间、长期被忽视的**中层道路语义**（车道数、自车所在车道、变道可行性、匝道、拥堵等），本文造了一个轻量但标注密集的 benchmark **RoadSceneBench**（11,705 张图 / 2,341 段 5 帧短视频 / 16 万标注），并提出 **MapVLM**：在 Qwen2.5-VL-7B 上先 SFT、再用带时序一致性的分层关系奖励 **HRRP-T**（帧级三层奖励 + 时序平滑/合理性奖励，用 GRPO 训）做强化，把整体 P/R 从最强基线 Gemini-2.5-Pro 的 60.6/52.7% 提到 75.8/72.2%。
 
 **[RPGFusion: 4D Radar Prior-Guided Multi-Modal Fusion for 3D Detection](rpgfusion_4d_radar_prior-guided_multi-modal_fusion_for_3d_detection.md)**
 
@@ -618,6 +582,10 @@ item_total: 160
 
 :   提出 VoxSAMNet，一个显式建模体素稀疏性和语义不均衡的单目语义场景补全框架，通过 Dummy Shortcut 跳过空体素、Foreground Dropout + Text-Guided Image Filter 缓解长尾过拟合，在 SemanticKITTI 上达到 18.19% mIoU 的 SOTA（超越现有单目和立体方法）。
 
+**[Spatial Retrieval Augmented Autonomous Driving](spatial_retrieval_augmented_autonomous_driving.md)**
+
+:   本文提出"空间检索（spatial retrieval）"范式，把离线缓存的地理街景图像作为一种额外输入模态喂给自动驾驶模型，用一个即插即用的跨注意力 adapter（带可靠性门控）补全车载传感器在遮挡/暗光/雨雾下看不到的背景结构，并在在线建图、占据预测、规划、世界模型等多个任务上验证有效。
+
 **[Spe-BEVHead: Rethinking the Detection Head Design for Bird's-Eye-View Object Detection](spe-bevhead_rethinking_the_detection_head_design_for_birds-eye-view_object_detec.md)**
 
 :   针对自动驾驶 BEV 3D 检测长期沿用 2D center-based 检测头带来的「高斯核几何错配 / 去 NMS 后性能崩 / 监督信号稀疏」三大问题，本文提出 Spe-BEVHead，用旋转框核（RBK）+ 局部响应精炼模块（LRRM）+ 双分支结构作为可即插即用的检测头，在 nuScenes 上换头即涨点，并在端到端（无 NMS）设定下仍保持竞争力。
@@ -630,9 +598,17 @@ item_total: 160
 
 :   StreamVLO 把视觉与 LiDAR 的空间融合和多帧时序建模统一进一个基于 Mamba 的 MMG 模块，并用一个可微的「累积漂移补偿」(CDC) 在线回溯历史帧、学习残差修正，从而在不依赖建图/回环的前提下显著压低长程漂移，在 KITTI 上 $t_{rel}/r_{rel}$ 各降 19%/22%、Argoverse 上 ATE/RPE 各降 18%/16%，且单帧推理仅 74 ms。
 
+**[STRNet: Visual Navigation with Spatio-Temporal Representation through Dynamic Graph Aggregation](strnet_visual_navigation_with_spatio-temporal_representation_through_dynamic_gra.md)**
+
+:   STRNet 提出统一的时空表征框架用于视觉导航，通过图推理模块建模帧内空间拓扑结构，结合混合时间偏移和多分辨率差分卷积建模时序动态，显著提升了目标条件导航的成功率（比 NoMaD 提升 70%）。
+
 **[Structure-to-Intensity Diffusion for Adverse-Weather LiDAR Generation](structure-to-intensity_diffusion_for_adverse-weather_lidar_generation.md)**
 
 :   SiD 把恶劣天气 LiDAR 生成的去噪过程在每一步显式拆成「先重建几何结构、再以结构为条件去噪反射强度」两支，配合一套用真实传感统计量合成退化数据的 RPWS 模块，在相近模型规模下把雾/雨/雪点云生成的多项分布指标大幅压低于此前 SOTA。
+
+**[STUR3D: Spatio-Temporal Unified Representation Learning for 3D Object Detection](stur3d_spatio-temporal_unified_representation_learning_for_3d_object_detection.md)**
+
+:   STUR3D 针对相机环视 3D 检测中"过度依赖当前 2D 线索、忽视历史 3D 信息"导致的时空不一致问题，把上一帧的 2D/3D 检测结果显式重投影回当前图像平面作为时空先验，再用深度感知的几何注意力把这些先验注入 2D 检测头，最后用带伪深度的位置编码把精修后的 2D 框抬升为 3D query，在 nuScenes test 集上达到 57.9% mAP / 64.6% NDS 的 SOTA。
 
 **[TACO: Task-Aware Contrastive Learning for Joint LiDAR Localization and 3D Object Detection](taco_task-aware_contrastive_learning_for_joint_lidar_localization_and_3d_object_.md)**
 
@@ -650,6 +626,10 @@ item_total: 160
 
 :   本文提出 GeoID，一个面向 LiDAR 语义分割损坏鲁棒性的测试时训练框架：通过往点云里注入"离流形"合成噪声点、让模型在线区分"几何一致的真实内点"和"被人为位移的合成离群点"这一自监督任务来适应目标域，再配合双向不可靠点过滤（BiUPF）剔除模糊区域，在 SemanticKITTI-C / nuScenes-C 上把 mIoU 分别从 42.33/51.25 提到 46.96/56.73，稳定超过现有 TTA 基线。
 
+**[Think Before You Drive: World Model-Inspired Multimodal Grounding](think_before_you_drive_world_model-inspired_multimodal_grounding.md)**
+
+:   ThinkDeeper 把"世界模型"引入自动驾驶视觉定位：先把当前场景+指令蒸馏成一个命令感知的潜状态 $z_0$，再在潜空间里"预演"未来若干步状态 $z_1,\dots,z_N$，最后用跨模态超图解码器融合这些前瞻状态做定位，并配套发布了用 RAG+CoT 自动标注的 DrivePilot 数据集，在六个 benchmark 上刷到 SOTA，39ms 推理满足车载实时要求。
+
 **[TopoHR: Hierarchical Centerline Representation for Cyclic Topology Reasoning in Driving Scenes with Point-to-Instance Relations](topohr_hierarchical_centerline_representation_for_cyclic_topology_reasoning_in_d.md)**
 
 :   TopoHR 把"中心线检测"和"拓扑推理"从串行级联改成**循环互增强**结构，并引入"点查询 + 实例查询"的分层中心线表示，让拓扑推理同时利用细粒度的点到实例（P2I）关系和全局实例到实例（I2I）关系，在 OpenLane-V2 上把 TOP$_{ll}$ 等指标大幅刷新（subset_A +5.4 TOP$_{ll}$、subset_B +7.9 TOP$_{ll}$）。
@@ -662,9 +642,17 @@ item_total: 160
 
 :   TrafficAlign 从真实驾驶视频里自动合成交通场景描述、用领域特定语言（DSL）做语义校验并自精炼，再用这批数据微调（对齐）LLM，让 LLM 生成贴合特定地区真实交通分布的场景，在三种自动驾驶模型上比 SOTA 多诱发 10.8% 的碰撞，用这些场景反过来微调驾驶模型又能把碰撞率降低 36.1%。
 
+**[TruckDrive: Long-Range Autonomous Highway Driving Dataset](truckdrive_long-range_autonomous_highway_driving_dataset.md)**
+
+:   TruckDrive 是首个面向重型卡车高速公路场景、专为长距离感知设计的大规模多模态数据集——用 7 路 400m FMCW LiDAR + 10 路 4D 雷达 + 8MP 环视相机采集 475k 同步帧（165k 人工标注），把 3D 标注推到 400m、2D 标注推到 1km，并实证现有 SOTA 在 150m 之外性能崩塌（3D 任务掉点 31%–99%），暴露出城市数据集训练的架构无法迁移到长距离高速场景这一系统性缺口。
+
 **[U4D: Uncertainty-Aware 4D World Modeling from LiDAR Sequences](u4d_uncertainty-aware_4d_world_modeling_from_lidar_sequences.md)**
 
 :   提出 U4D，首个不确定性感知的 4D LiDAR 世界建模框架，通过"先难后易"的两阶段扩散生成策略，先重建高不确定性区域再条件补全整个场景，并设计 MoST 模块自适应融合时空特征以保证时序一致性。
+
+**[UFO: Unifying Feed-Forward and Optimization-based Methods for Large Driving Scene Modeling](ufo_unifying_feed-forward_and_optimization-based_methods_for_large_driving_scene.md)**
+
+:   UFO 把"逐场景优化"的 render-compare-update 迭代精炼过程抽象进一个前馈 Transformer，维护一组随新帧到来不断被精炼的"场景 token"，配合可见性过滤把复杂度从二次降到近线性，并用 3D 框引导的软分配 + 高斯生命期建模动态物体，在 Waymo 上的 2s/8s/16s（含 16s zero-shot）长序列驾驶场景重建上全面超过逐场景优化和前馈两类基线。
 
 **[Unifying Language-Action Understanding and Generation for Autonomous Driving](unifying_language-action_understanding_and_generation_for_autonomous_driving.md)**
 
@@ -682,6 +670,10 @@ item_total: 160
 
 :   UMS 利用车车（V2V）通信带来的协同视角，不用任何人工标注，把"多车密集点云能让分类更易"和"协同视角能监督单车检测"两个观察做成一套伪标签精炼框架（PPF 过滤 + PPS 稳定 + CCL 跨视一致），首次同时把多车和单车两种 3D 检测都训到显著超越现有无监督方法。
 
+**[URScenes: A Multi-scenario Dataset for Unstructured Road Environments](urscenes_a_multi-scenario_dataset_for_unstructured_road_environments.md)**
+
+:   URScenes 是首个面向非结构化道路环境（以露天矿场为代表）的多场景开源多模态感知数据集，用矿卡和宽体车两类平台采集了覆盖晴/阴/雨/雪/雾/扬尘/强光/夜间八种天气光照条件的 472 个场景，统一支持 3D 目标检测、多目标跟踪和 3D 占用预测三大任务，并提供针对矿区物体尺寸特点重新设计的评测指标和到 nuScenes/KITTI/Waymo 的格式转换工具。
+
 **[V2U4Real: A Real-world Large-scale Dataset for Vehicle-to-UAV Cooperative Perception](v2u4real_a_real-world_large-scale_dataset_for_vehicle-to-uav_cooperative_percept.md)**
 
 :   V2U4Real 是首个面向「车-无人机（Vehicle-to-UAV, V2U）」协同感知的真实世界大规模多模态数据集，由一辆地面车和一架挂载多线 LiDAR + RGB 相机的无人机同步采集，提供 5.6 万帧 LiDAR、5.6 万张图像、70 万个手工标注 3D 框，并配套单体/协同 3D 检测与跟踪三类基准，实测证明引入无人机俯视视角能显著提升远距离与遮挡场景下的感知鲁棒性。
@@ -693,10 +685,6 @@ item_total: 160
 **[VIRD: View-Invariant Representation through Dual-Axis Transformation for Cross-View Pose Estimation](vird_view-invariant_representation_through_dual-axis_transformation_for_cross-vi.md)**
 
 :   提出 VIRD，通过双轴变换（极坐标变换 + 上下文增强位置注意力）构建视图不变表示，在无方向先验条件下实现 SOTA 的跨视角位姿估计，在 KITTI 上位置和方向误差分别降低 50.7% 和 76.5%。
-
-**[Learning Vision-Language-Action World Models for Autonomous Driving](vla_world_learning_vision_language_action_world_models_for_autonomous_driving.md)**
-
-:   VLA-World将世界模型的预测想象与VLA模型的反思推理统一到一个框架中，通过生成未来帧并对其进行推理来改进轨迹规划，实现了最低的碰撞率和FID分数。
 
 **[W2W: Language-Model-Based Trajectory Prediction with Reinforcement Learning](w2w_language-model-based_trajectory_prediction_with_reinforcement_learning.md)**
 

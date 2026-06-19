@@ -2,10 +2,10 @@
 title: >-
   [论文解读] GThinker: Towards General Multimodal Reasoning via Cue-Guided Rethinking
 description: >-
-  [CVPR 2026][多模态VLM][多模态推理] GThinker 针对 MLLM "文本逻辑无懈可击却被错误的初始视觉判断带偏" 的视觉惯性问题，提出一种自由形式、以视觉线索为锚点并能自触发重审线索的 Cue-Rethinking 推理范式，再用"标注流水线 + 裁判引导选择性冷启动 + 激励式 RL"两阶段训练把这套能力灌进 Qwen2.5-VL-7B，在 M3CoT 上达到 81.5% 反超 o4-mini。
+  [CVPR 2026][VLM Reasoning][多模态推理] GThinker 针对 MLLM "文本逻辑无懈可击却被错误的初始视觉判断带偏" 的视觉惯性问题，提出一种自由形式、以视觉线索为锚点并能自触发重审线索的 Cue-Rethinking 推理范式，再用"标注流水线 + 裁判引导选择性冷启动 + 激励式 RL"两阶段训练把这套能力灌进 Qwen2.5-VL-7B，在 M3CoT 上达到 81.5% 反超 o4-mini。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多模态推理"
   - "视觉惯性"
   - "视觉线索重审"
@@ -147,10 +147,10 @@ GThinker 各组件逐步叠加（M3CoT，单位 %）：
 ## 相关论文
 
 - [\[CVPR 2026\] OpenMMReasoner: Pushing the Frontiers in Multimodal Reasoning with an Open and General Recipe](openmmreasoner_pushing_the_frontiers_in_multimodal_reasoning_with_an_open_and_ge.md)
-- [\[CVPR 2026\] R-C2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning](r-c2_cycle-consistent_reinforcement_learning_improves_multimodal_reasoning.md)
-- [\[CVPR 2026\] TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](timelens_rethinking_video_temporal_grounding_with_multimodal_llms.md)
 - [\[CVPR 2026\] R-4B: Incentivizing General-Purpose Auto-Thinking in MLLMs via Bi-Mode Annealing and Reinforce Learning](r-4b_incentivizing_general-purpose_auto-thinking_in_mllms_via_bi-mode_annealing_.md)
-- [\[CVPR 2026\] Rethinking VLMs for Image Forgery Detection and Localization](rethinking_vlms_for_image_forgery_detection_and_localization.md)
+- [\[CVPR 2026\] Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning](seeing_what_matters_a_training-free_self-guided_framework_for_multimodal_detail_.md)
+- [\[CVPR 2026\] When to Think and When to Look: Uncertainty-Guided Lookback](when_to_think_and_when_to_look_uncertainty-guided_lookback.md)
+- [\[CVPR 2026\] R-C2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning](r-c2_cycle-consistent_reinforcement_learning_improves_multimodal_reasoning.md)
 
 </div>
 

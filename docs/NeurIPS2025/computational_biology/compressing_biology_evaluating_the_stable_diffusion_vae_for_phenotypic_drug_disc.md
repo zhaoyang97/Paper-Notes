@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.19887](https://arxiv.org/abs/2510.19887)  
 **代码**: [GitHub](https://github.com/cropsal/compressing-biology)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Cell Painting, Stable Diffusion VAE, 表型药物发现, 图像重建, 生物信号保留
 
 ## 一句话总结

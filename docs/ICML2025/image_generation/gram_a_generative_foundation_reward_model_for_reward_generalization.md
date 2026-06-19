@@ -134,8 +134,8 @@ GRAM 提出用生成式（而非判别式）方法训练奖励模型——先通
 ## 相关论文
 
 - [\[NeurIPS 2025\] Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization](../../NeurIPS2025/image_generation/diffusion_model_as_a_noiseaware_latent_reward_model_for_step.md)
-- [\[CVPR 2025\] Visual-ERM: Reward Modeling for Visual Equivalence](../../CVPR2025/image_generation/visual-erm_reward_modeling_for_visual_equivalence.md)
 - [\[ICML 2025\] Towards a Mechanistic Explanation of Diffusion Model Generalization](towards_a_mechanistic_explanation_of_diffusion_model_generalization.md)
+- [\[CVPR 2025\] Visual-ERM: Reward Modeling for Visual Equivalence](../../CVPR2025/image_generation/visual-erm_reward_modeling_for_visual_equivalence.md)
 - [\[ICLR 2026\] EditReward: A Human-Aligned Reward Model for Instruction-Guided Image Editing](../../ICLR2026/image_generation/editreward_a_human-aligned_reward_model_for_instruction-guided_image_editing.md)
 - [\[ICML 2025\] Discriminative Policy Optimization for Token-Level Reward Models](discriminative_policy_optimization_for_token-level_reward_models.md)
 

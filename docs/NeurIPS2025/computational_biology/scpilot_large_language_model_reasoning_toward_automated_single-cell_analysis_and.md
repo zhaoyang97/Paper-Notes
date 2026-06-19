@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2602.11609](https://arxiv.org/abs/2602.11609)  
 **代码**: [https://github.com/maitrix-org/scPilot](https://github.com/maitrix-org/scPilot)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: single-cell RNA-seq, LLM reasoning, omics-native reasoning, cell-type annotation, trajectory inference
 
 ## 一句话总结

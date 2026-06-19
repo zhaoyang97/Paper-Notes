@@ -149,10 +149,10 @@ TeFF在EG3D的基础上进行了关键扩展：生成器不仅生成辐射场（
 ## 相关论文
 
 - [\[ECCV 2024\] Improving 2D Feature Representations by 3D-Aware Fine-Tuning](improving_2d_feature_representations_by_3d-aware_fine-tuning.md)
-- [\[ICLR 2026\] Learning Part-Aware Dense 3D Feature Field for Generalizable Articulated Object Manipulation](../../ICLR2026/3d_vision/learning_part-aware_dense_3d_feature_field_for_generalizable_articulated_object_.md)
 - [\[ECCV 2024\] Learning 3D Geometry and Feature Consistent Gaussian Splatting for Object Removal](learning_3d_geometry_and_feature_consistent_gaussian_splatting_for_object_remova.md)
+- [\[ICLR 2026\] Learning Part-Aware Dense 3D Feature Field for Generalizable Articulated Object Manipulation](../../ICLR2026/3d_vision/learning_part-aware_dense_3d_feature_field_for_generalizable_articulated_object_.md)
 - [\[ECCV 2024\] Lagrangian Hashing for Compressed Neural Field Representations](lagrangian_hashing_for_compressed_neural_field_representations.md)
-- [\[ECCV 2024\] CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-Aware 3D Gaussian Field](cg-slam_efficient_dense_rgb-d_slam_in_a_consistent_uncertainty-aware_3d_gaussian.md)
+- [\[CVPR 2026\] Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images](../../CVPR2026/3d_vision/learning_3d_representations_for_spatial_intelligence_from_unposed_multi-view_ima.md)
 
 </div>
 

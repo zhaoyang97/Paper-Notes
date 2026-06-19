@@ -101,6 +101,7 @@ DTU 数据集（3/6/9 训练视角），TWINGS 在 PSNR/SSIM/LPIPS/AVGE 四项�
 定性上，竞争方法在 DTU 上重建不出建筑窗框、错位文字、漏掉黑色瞳孔；Mip-NeRF360 上恢复不出白柱及投影、把球渲染得过透明或顶部变形；LLFF 上漏掉天花板喷淋头、在招牌上产生条纹伪影。TWINGS 都能忠实恢复这些高频细节。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Full（multi-view 对应） | DTU 3-view PSNR 21.52 / SSIM 0.880 | 完整模型 |
@@ -153,11 +154,11 @@ DTU 数据集（3/6/9 训练视角），TWINGS 在 PSNR/SSIM/LPIPS/AVGE 四项�
 
 ## 相关论文
 
+- [\[CVPR 2026\] PoseGaussian: 6D Pose Estimation for Unseen Objects via Sparse-View Object-Level 3D Gaussian Splatting](posegaussian_6d_pose_estimation_for_unseen_objects_via_sparse-view_object-level_.md)
 - [\[CVPR 2026\] Intrinsic Geometry-Appearance Consistency Optimization for Sparse-View Gaussian Splatting](intrinsic_geometry-appearance_consistency_optimization_for_sparse-view_gaussian_.md)
 - [\[CVPR 2026\] DropAnSH-GS: Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting](dropping_anchor_and_spherical_harmonics_for_sparse-view_gaussian_splatting.md)
 - [\[CVPR 2026\] SV-GS: Sparse View 4D Reconstruction with Skeleton-Driven Gaussian Splatting](sv-gs_sparse_view_4d_reconstruction_with_skeleton-driven_gaussian_splatting.md)
 - [\[CVPR 2026\] Confidence-Guided Multi-Scale Aggregation for Sparse-View High-Resolution 3D Gaussian Splatting](confidence-guided_multi-scale_aggregation_for_sparse-view_high-resolution_3d_gau.md)
-- [\[CVPR 2026\] SGS-Intrinsic: Semantic-Invariant Gaussian Splatting for Sparse-View Indoor Inverse Rendering](sgs-intrinsic_semantic-invariant_gaussian_splatting_for_sparse-view_indoor_invers.md)
 
 </div>
 

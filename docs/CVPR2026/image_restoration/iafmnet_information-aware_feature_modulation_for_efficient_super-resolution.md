@@ -108,6 +108,7 @@ IGRA 是"硬分配"，ARM 则是它的互补——"软调制"，把 IDM 的引�
 IAFMNet-L 用约 519K 参数 / 28G FLOPs（不到 SRFormer-light 的一半），在多数数据集上取得相当或更优的 PSNR，验证了信息引导策略比"空间均匀算子"更会花算力。
 
 ### 消融实验
+
 | 配置 | Urban100 ×2 | Manga109 ×2 | 说明 |
 |------|-------------|-------------|------|
 | IDE：C+G，$\lambda=10^{-4}$（Full） | 32.52/0.9312 | 39.32/0.9792 | 完整设置 |
@@ -150,11 +151,11 @@ IAFMNet-L 用约 519K 参数 / 28G FLOPs（不到 SRFormer-light 的一半），
 
 ## 相关论文
 
-- [\[CVPR 2026\] Efficient INT8 Single-Image Super-Resolution via Deployment-Aware Quantization and Teacher-Guided Training](efficient_int8_single-image_super-resolution_via_deployment-aware_quantization_a.md)
 - [\[CVPR 2026\] DNF-SR: Dual-Input and Negative-Aware Feature Fine-Tuning for Real-World Image Super-Resolution](dnf-sr_dual-input_and_negative-aware_feature_fine-tuning_for_real-world_image_su.md)
-- [\[CVPR 2026\] AE2VID: Event-based Video Reconstruction via Aperture Modulation](ae2vid_event-based_video_reconstruction_via_aperture_modulation.md)
 - [\[CVPR 2026\] Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution](time-aware_one_step_diffusion_network_for_real-world_image_super-resolution.md)
-- [\[CVPR 2026\] EMR-Diff: Edge-aware Multimodal Residual Diffusion Model for Hyperspectral Image Super-resolution](emr-diff_edge-aware_multimodal_residual_diffusion_model_for_hyperspectral_image_.md)
+- [\[CVPR 2026\] Degradation-Robust Fusion: An Efficient Degradation-Aware Diffusion Framework for Multimodal Image Fusion in Arbitrary Degradation Scenarios](degradation-robust_fusion_an_efficient_degradation-aware_diffusion_framework_for.md)
+- [\[CVPR 2026\] TUDSR: Twice Upsampling-Diffusion for Higher Super-Resolution](tudsr_twice_upsampling-diffusion_for_higher_super-resolution.md)
+- [\[CVPR 2026\] Disentangled Textual Priors for Diffusion-based Image Super-Resolution](disentangled_textual_priors_for_diffusion-based_image_super-resolution.md)
 
 </div>
 

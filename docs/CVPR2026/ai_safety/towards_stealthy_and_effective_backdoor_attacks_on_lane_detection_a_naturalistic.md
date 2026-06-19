@@ -110,6 +110,7 @@ $L_{lane}$ 用 MSE 把生成图在车道区域逼近干净原图，保证车道�
 BadNets/Blended/LD-Attack 虽然取证检出率也低，但它们是直接叠图、肉眼一看就穿帮（表中 N/A 表示直接打补丁、无需取证就能人工识破）；DBALD 是少数**既骗过取证器、又骗过人眼**的方法——UniDetection 能抓 BadLane 近 60%，对 DBALD 不到 3%。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | With heatmap（LaneATT-LDA） | 81.65 ASR | 完整热图引导 |

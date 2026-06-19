@@ -87,6 +87,7 @@ Refiner 在 24 张 A800（80GB）上训练，batch size 24，AdamW，学习率 5
 ## 实验关键数据
 
 ### 主实验（Wan 2.1，720p，NFE=50）
+
 | 方法 | QS↑ | AQ↑ | DD↑ | SA↑ | PC↑ | 时间↓ | 加速 | PFLOPs↓ |
 |------|-----|-----|-----|-----|-----|-------|------|---------|
 | Wan 2.1 | 83.31 | 66.9 | 63.89 | 41.82 | 45.45 | 3497s (58min) | 1× | 658.5 |
@@ -98,6 +99,7 @@ Refiner 在 24 张 A800（80GB）上训练，batch size 24，AdamW，学习率 5
 关键看 SA（语义对齐）和 PC（物理常识）：SURF 的 SA 与原模型 Wan 2.1 持平（41.82），而 DMD/SVG 大幅掉到 34.55/25.45——说明蒸馏和稀疏注意力都丢了签名，SURF 几乎完整保留。1080p 场景下相比直接跑 Wan 2.1 可达 43× 加速。
 
 ### 1080p 与超分方法对比
+
 | 方法 | DINO↑ | CLIP↑ | LAION↑ | DOVER↑ | NFE/时间↓ |
 |------|-------|-------|--------|--------|-----------|
 | RealBasicVSR | 93.40 | 94.83 | 61.07 | 80.25 | 1/162.1s |
@@ -108,6 +110,7 @@ Refiner 在 24 张 A800（80GB）上训练，batch size 24，AdamW，学习率 5
 SURF 在质量指标领先（DOVER 81.20 最高）的同时，耗时只有 76.5s——比扩散类超分 VEnhancer（2467s）快 32×。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 预览步划分 5-35 | AQ 63.45 / 201s | 过早切低分辨率，破坏布局与运动 |
@@ -154,10 +157,10 @@ SURF 在质量指标领先（DOVER 81.20 最高）的同时，耗时只有 76.5s
 ## 相关论文
 
 - [\[CVPR 2026\] FastLightGen: Fast and Light Video Generation with Fewer Steps and Parameters](fastlightgen_fast_and_light_video_generation_with_fewer_steps_and_parameters.md)
+- [\[CVPR 2026\] Transition Matching Distillation for Fast Video Generation](transition_matching_distillation_for_fast_video_generation.md)
 - [\[NeurIPS 2025\] MagCache: Fast Video Generation with Magnitude-Aware Cache](../../NeurIPS2025/video_generation/magcache_fast_video_generation_with_magnitudeaware_cache.md)
 - [\[ICCV 2025\] Generating, Fast and Slow: Scalable Parallel Video Generation with Video Interface Networks](../../ICCV2025/video_generation/generating_fast_and_slow_scalable_parallel_video_generation_with_video_interface.md)
 - [\[CVPR 2025\] From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](../../CVPR2025/video_generation/from_slow_bidirectional_to_fast_autoregressive_video_diffusion_models.md)
-- [\[CVPR 2026\] Plenoptic Video Generation](plenoptic_video_generation.md)
 
 </div>
 

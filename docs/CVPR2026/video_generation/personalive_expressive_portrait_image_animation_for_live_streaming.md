@@ -109,6 +109,7 @@ $$W_s = \{C_s^1, C_s^2, \dots, C_s^N\},\quad C_s^n = \{z_i^{t_n}\mid i=1,\dots,M
 关键发现：在身份保持（ID-SIM）和运动精度（AED/APD）上与最好方法持平，同时拿下最优的 FVD 和 tLP（长程时序最稳），且 LPIPS 也最低。效率维度才是碾压点——15.82 FPS / 0.253s 延迟，相比扩散基线（FPS 仅 0.85–2.2、延迟 7–15s）实现约 7–22× 加速；若把标准 VAE 解码器换成 TinyVAE 还能进一步冲到 20 FPS。注意所有扩散竞品的延迟是在**不用重叠帧**下测的，这让它们虽能分块流式但跨块一致性更差。
 
 ### 消融实验（微块流式生成，LV100）
+
 | 配置 | ID-SIM↑ | AED↓ | FVD↓ | tLP↓ | 说明 |
 |------|---------|------|------|------|------|
 | Full（Ours） | 0.698 | 0.703 | 520.6 | 12.83 | 完整模型 |
@@ -158,8 +159,8 @@ $$W_s = \{C_s^1, C_s^2, \dots, C_s^N\},\quad C_s^n = \{z_i^{t_n}\mid i=1,\dots,M
 - [\[CVPR 2026\] FlashPortrait: 6× Faster Infinite Portrait Animation with Adaptive Latent Prediction](flashportrait_6x_faster_infinite_portrait_animation_with_adaptive_latent_predict.md)
 - [\[CVPR 2026\] One-to-All Animation: Alignment-Free Character Animation and Image Pose Transfer](one-to-all_animation_alignment-free_character_animation_and_image_pose_transfer.md)
 - [\[CVPR 2026\] MultiAnimate: Pose-Guided Image Animation Made Extensible](multianimate_pose-guided_image_animation_made_extensible.md)
-- [\[CVPR 2026\] StreamDiT: Real-Time Streaming Text-to-Video Generation](streamdit_real-time_streaming_text-to-video_generation.md)
 - [\[CVPR 2025\] Teller: Real-Time Streaming Audio-Driven Portrait Animation with Autoregressive Motion Generation](../../CVPR2025/video_generation/teller_real-time_streaming_audio-driven_portrait_animation_with_autoregressive_m.md)
+- [\[CVPR 2026\] Vanast: Virtual Try-On with Human Image Animation via Synthetic Triplet Supervision](vanast_virtual_try-on_with_human_image_animation_via_synthetic_triplet_supervisi.md)
 
 </div>
 

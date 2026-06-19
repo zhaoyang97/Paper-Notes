@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21153](https://arxiv.org/abs/2510.21153)  
 **代码**: [Kyle4490/RL-Diffusion](https://github.com/Kyle4490/RL-Diffusion)  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: 扩散模型, 强化学习, 多目标优化, 不确定性量化, 3D 分子生成, 药物发现
 
 ## 一句话总结

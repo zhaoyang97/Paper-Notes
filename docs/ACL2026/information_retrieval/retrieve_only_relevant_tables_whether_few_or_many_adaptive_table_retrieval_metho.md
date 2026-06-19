@@ -76,6 +76,7 @@ ATR 只用 Spider、BIRD 的训练集训练，不碰 Spider 2.0 训练数据，�
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 方法 | Precision | Recall | Complete Recall | F1 |
 |--------|------|-----------|--------|-----------------|----|
 | Spider | JAR w/ UAE, k=3 | 48.4 | 96.5 | 94.1 | 62.3 |
@@ -89,6 +90,7 @@ ATR 只用 Spider、BIRD 的训练集训练，不碰 Spider 2.0 训练数据，�
 | Spider 2.0 | ATR w/ UAE | 19.9 | 75.4 | 68.7 | 26.7 |
 
 ### 消融实验
+
 | 配置 | Spider R / CR | BIRD R / CR | Spider 2.0 R / CR | 说明 |
 |------|---------------|-------------|-------------------|------|
 | ATR | 99.5 / 99.2 | 98.2 / 96.0 | 72.4 / 64.4 | 完整模型 |
@@ -131,11 +133,11 @@ ATR 只用 Spider、BIRD 的训练集训练，不碰 Spider 2.0 训练数据，�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Beyond Text-Only: Towards Multimodal Table Retrieval in Open-World](../../ICLR2026/information_retrieval/beyond_text-only_towards_multimodal_table_retrieval_in_open-world.md)
 - [\[ACL 2026\] CORAL: Adaptive Retrieval Loop for Culturally-Aligned Multilingual RAG](coral_adaptive_retrieval_loop_for_culturally-aligned_multilingual_rag.md)
+- [\[ACL 2026\] REZE: Representation Regularization for Domain-adaptive Text Embedding Pre-finetuning](reze_representation_regularization_for_domain-adaptive_text_embedding_pre-finetu.md)
 - [\[CVPR 2025\] COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation](../../CVPR2025/information_retrieval/cobra_combinatorial_retrieval_augmentation_for_few-shot_adaptation.md)
 - [\[CVPR 2025\] Few-Shot Recognition via Stage-Wise Retrieval-Augmented Finetuning](../../CVPR2025/information_retrieval/few-shot_recognition_via_stage-wise_retrieval-augmented_finetuning.md)
-- [\[ACL 2026\] REZE: Representation Regularization for Domain-adaptive Text Embedding Pre-finetuning](reze_representation_regularization_for_domain-adaptive_text_embedding_pre-finetu.md)
-- [\[AAAI 2026\] N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](../../AAAI2026/information_retrieval/n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)
 
 </div>
 

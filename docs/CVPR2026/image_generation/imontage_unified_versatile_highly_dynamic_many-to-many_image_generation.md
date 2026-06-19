@@ -100,6 +100,7 @@ iMontage 在开源里综合编辑分（Edit-G_O 6.94）、运动相关分（Moti
 开源最优（7.41），逼近闭源 Gemini 2.5（7.84）。多对多故事板生成则以高质量定性结果 + 综合评测展示强指令遵循、高动态与跨图一致（默认每次推理一遍、50 步扩散）。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | Marginal RoPE（head-tail，输入{0-7}/输出{24-31}） | 输出更多样且保时序一致 | 宽时间余量降低输入-目标位置干扰 |
@@ -142,8 +143,8 @@ iMontage 在开源里综合编辑分（Edit-G_O 6.94）、运动相关分（Moti
 
 - [\[CVPR 2026\] DynaVid: Learning to Generate Highly Dynamic Videos using Synthetic Motion Data](dynavid_learning_to_generate_highly_dynamic_videos_using_synthetic_motion_data.md)
 - [\[CVPR 2026\] One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers](one_model_many_budgets_elastic_latent_interfaces_for_diffusion_transformers.md)
-- [\[CVPR 2025\] Dynamic Motion Blending for Versatile Motion Editing (MotionReFit)](../../CVPR2025/image_generation/dynamic_motion_blending_for_versatile_motion_editing.md)
 - [\[CVPR 2026\] DPAR: Dynamic Patchification for Efficient Autoregressive Visual Generation](dpar_dynamic_patchification_for_efficient_autoregressive_visual_generation.md)
+- [\[CVPR 2025\] Dynamic Motion Blending for Versatile Motion Editing (MotionReFit)](../../CVPR2025/image_generation/dynamic_motion_blending_for_versatile_motion_editing.md)
 - [\[CVPR 2026\] CoLoGen: Progressive Learning of Concept-Localization Duality for Unified Image Generation](cologen_progressive_learning_of_concept-localization_duality_for_unified_image_g.md)
 
 </div>

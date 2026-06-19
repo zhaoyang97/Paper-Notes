@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLM安全论文汇总 · 52篇论文解读
+  ICLR2026 LLM安全论文汇总 · 70篇论文解读
 description: >-
-  52篇ICLR2026的 LLM 安全方向论文解读，涵盖对抗鲁棒、LLM、联邦学习、推理、水印/隐写、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  70篇ICLR2026的 LLM 安全方向论文解读，涵盖对抗鲁棒、LLM、联邦学习、推理、Agent、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "LLM 安全"
@@ -12,17 +12,51 @@ tags:
   - "LLM"
   - "联邦学习"
   - "推理"
-  - "水印/隐写"
+  - "Agent"
   - "多模态"
 item_list:
+  - u: "a2asecbench_a_protocol-aware_security_benchmark_for_agent-to-agent_multi-agent_s/"
+    t: "A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems"
+  - u: "adaptive_attacks_on_trusted_monitors_subvert_ai_control_protocols/"
+    t: "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols"
+  - u: "adpo_enhancing_the_adversarial_robustness_of_large_vision-language_models_with_p/"
+    t: "AdPO: Enhancing the Adversarial Robustness of Large Vision-Language Models with Preference Optimization"
+  - u: "adversarial_déjà_vu_jailbreak_dictionary_learning_for_stronger_generalization_to/"
+    t: "Adversarial Déjà Vu: Jailbreak Dictionary Learning for Stronger Generalization to Unseen Attacks"
+  - u: "align_to_misalign_automatic_llm_jailbreak_with_meta-optimized_llm_judges/"
+    t: "Align to Misalign: Automatic LLM Jailbreak with Meta-Optimized LLM Judges"
+  - u: "analyzing_and_evaluating_unbiased_language_model_watermark/"
+    t: "Analyzing and Evaluating Unbiased Language Model Watermark"
+  - u: "any-depth_alignment_unlocking_innate_safety_alignment_of_llms_to_any-depth/"
+    t: "Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth"
+  - u: "arms_adaptive_red-teaming_agent_against_multimodal_models_with_plug-and-play_att/"
+    t: "ARMS: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks"
   - u: "attention_smoothing_is_all_you_need_for_unlearning/"
     t: "Attention Smoothing Is All You Need For Unlearning"
   - u: "audiotrust_benchmarking_the_multifaceted_trustworthiness_of_audio_large_language/"
     t: "AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models"
+  - u: "auditing_black-box_llm_apis_with_a_rank-based_uniformity_test/"
+    t: "Auditing Black-Box LLM APIs with a Rank-Based Uniformity Test"
+  - u: "auto-rt_automatic_jailbreak_strategy_exploration_for_red-teaming_large_language_/"
+    t: "Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models"
+  - u: "automatic_dialectic_jailbreak_a_framework_for_generating_effective_jailbreak_str/"
+    t: "Automatic Dialectic Jailbreak: A Framework for Generating Effective Jailbreak Strategies"
+  - u: "be_careful_when_fine-tuning_on_open-source_llms_your_fine-tuning_data_could_be_s/"
+    t: "Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!"
   - u: "beat_visual_backdoor_attacks_on_vlm-based_embodied_agents_via_contrastive_trigge/"
     t: "BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning"
+  - u: "bias_similarity_measurement_a_black-box_audit_of_fairness_across_llms/"
+    t: "Bias Similarity Measurement: A Black-Box Audit of Fairness Across LLMs"
   - u: "biasbusters_uncovering_and_mitigating_tool_selection_bias_in_large_language_mode/"
     t: "BiasBusters: Uncovering and Mitigating Tool Selection Bias in Large Language Models"
+  - u: "bird_behavior_induction_via_representation-structure_distillation/"
+    t: "BIRD: Behavior Induction via Representation-structure Distillation"
+  - u: "breaking_agent_backbones_evaluating_the_security_of_backbone_llms_in_ai_agents/"
+    t: "Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents"
+  - u: "building_a_foundational_guardrail_for_general_agentic_systems_via_synthetic_data/"
+    t: "Building a Foundational Guardrail for General Agentic Systems via Synthetic Data"
+  - u: "cimemories_a_compositional_benchmark_for_contextual_integrity_in_llms/"
+    t: "CIMemories: A Compositional Benchmark For Contextual Integrity In LLMs"
   - u: "converge_faster_talk_less_hessian-informed_federated_zeroth-order_optimization/"
     t: "Converge Faster, Talk Less: Hessian-Informed Federated Zeroth-Order Optimization"
   - u: "do_vision-language_models_respect_contextual_integrity_in_location_disclosure/"
@@ -41,51 +75,49 @@ item_list:
     t: "Fair in Mind, Fair in Action? A Synchronous Benchmark for Understanding and Generation in UMLLMs"
   - u: "faithful_bi-directional_model_steering_via_distribution_matching_and_distributed/"
     t: "Faithful Bi-Directional Model Steering via Distribution Matching and Distributed Interchange Interventions"
-  - u: "from_static_benchmarks_to_dynamic_protocol_agent-centric_text_anomaly_detection_/"
-    t: "From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning"
-  - u: "gaussian_certified_unlearning/"
-    t: "Gaussian Certified Unlearning in High Dimensions: A Hypothesis Testing Approach"
-  - u: "heterogeneous_federated_fine-tuning_with_parallel_one-rank_adaptation/"
-    t: "Heterogeneous Federated Fine-Tuning with Parallel One-Rank Adaptation"
-  - u: "improving_the_trade-off_between_watermark_strength_and_speculative_sampling_effi/"
-    t: "Improving the Trade-off Between Watermark Strength and Speculative Sampling Efficiency for Language Models"
-  - u: "inference-time_backdoors_via_hidden_instructions_in_llm_chat_templates/"
-    t: "Inference-Time Backdoors via Hidden Instructions in LLM Chat Templates"
-  - u: "inoculation_prompting_eliciting_traits_from_llms_during_training_can_suppress_th/"
-    t: "Inoculation Prompting: Eliciting Traits from LLMs during Training Can Suppress Them at Test-Time"
-  - u: "lifelong_learning_with_behavior_consolidation_for_vehicle_routing/"
-    t: "Lifelong Learning with Behavior Consolidation for Vehicle Routing"
-  - u: "llm_unlearning_with_llm_beliefs/"
-    t: "LLM Unlearning with LLM Beliefs"
-  - u: "measuring_physical-world_privacy_awareness_of_large_language_models_an_evaluatio/"
-    t: "Measuring Physical-World Privacy Awareness of Large Language Models: An Evaluation Benchmark"
-  - u: "membership_inference_attacks_against_fine-tuned_diffusion_language_models/"
-    t: "Membership Inference Attacks Against Fine-tuned Diffusion Language Models (SAMA)"
-  - u: "model_collapse_is_not_a_bug_but_a_feature_in_machine_unlearning_for_llms/"
-    t: "Model Collapse Is Not a Bug but a Feature in Machine Unlearning for LLMs"
-  - u: "moving_beyond_medical_exams_a_clinician-annotated_fairness_dataset_of_real-world/"
-    t: "Moving Beyond Medical Exams: A Clinician-Annotated Fairness Dataset of Real-World Tasks and Ambiguity in Mental Healthcare"
-  - u: "no_caption_no_problem_caption-free_membership_inference_via_model-fitted_embeddi/"
-    t: "No Caption, No Problem: Caption-Free Membership Inference via Model-Fitted Embeddings"
-  - u: "ofmu_optimization-driven_framework_for_machine_unlearning/"
-    t: "OFMU: Optimization-Driven Framework for Machine Unlearning"
-  - u: "perturbation-induced_linearization_constructing_unlearnable_data_with_solely_lin/"
-    t: "Perturbation-Induced Linearization: Constructing Unlearnable Data with Solely Linear Classifiers"
-  - u: "pmark_towards_robust_and_distortion-free_semantic-level_watermarking_with_channe/"
-    t: "PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints"
-  - u: "purifying_generative_llms_from_backdoors_without_prior_knowledge_or_clean_refere/"
-    t: "Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference"
-item_total: 52
+item_total: 70
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔒 LLM 安全
 
-**🔬 ICLR2026** · **52** 篇论文解读
+**🔬 ICLR2026** · **70** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (25)](../../CVPR2026/llm_safety/index.md) · [🧪 ICML2026 (46)](../../ICML2026/llm_safety/index.md) · [💬 ACL2026 (115)](../../ACL2026/llm_safety/index.md) · [🤖 AAAI2026 (41)](../../AAAI2026/llm_safety/index.md) · [🧠 NeurIPS2025 (81)](../../NeurIPS2025/llm_safety/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/llm_safety/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (12)](../../CVPR2026/llm_safety/index.md) · [💬 ACL2026 (115)](../../ACL2026/llm_safety/index.md) · [🤖 AAAI2026 (41)](../../AAAI2026/llm_safety/index.md) · [🧠 NeurIPS2025 (81)](../../NeurIPS2025/llm_safety/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/llm_safety/index.md) · [🧪 ICML2025 (41)](../../ICML2025/llm_safety/index.md)
 
-🔥 **高频主题：** 对抗鲁棒 ×10 · LLM ×9 · 联邦学习 ×6 · 推理 ×6 · 水印/隐写 ×3
+🔥 **高频主题：** 对抗鲁棒 ×14 · LLM ×12 · 联邦学习 ×6 · 推理 ×6 · Agent ×4
+
+**[A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems](a2asecbench_a_protocol-aware_security_benchmark_for_agent-to-agent_multi-agent_s.md)**
+
+:   这篇论文首次系统地评估了 Agent-to-Agent（A2A）协议驱动的多智能体系统的安全性：作者提出一套覆盖"供应链操纵"和"协议逻辑弱点"两大类、共 6 种协议感知攻击的威胁分类法，并据此构建首个 A2A 专用安全 benchmark——A2ASecBench，用动态适配器把攻击迁移到不同 agent 栈与下游任务、用"安全-效用联合评测"同时量化危害性与有用性，在官方 A2A demo 的旅行/医疗/金融三个高风险场景里发现多数攻击的攻击成功率（ASR）高达 100%，且能迁移到 LangGraph、ANP 等其他生态。
+
+**[Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols](adaptive_attacks_on_trusted_monitors_subvert_ai_control_protocols.md)**
+
+:   这篇论文指出，当前几乎所有 AI 控制（AI control）协议都把一个**较弱的可信 LLM 监视器**当成核心安全闸门，而一个知道协议细节的强力不可信模型只需在自己的输出里嵌入一段**针对该监视器的 prompt injection**，就能让监视器给恶意代码打出极低的可疑分，从而把 Trusted Monitoring、Defer-to-Trusted、Trusted Editing、Defer-to-Resample 等协议的安全性全部打回到"无监视器的前置审计（Upfront Auditing）"水平——其中 Defer-to-Resample 因为重采样反而把攻击放大成 best-of-n，安全性不升反降。
+
+**[AdPO: Enhancing the Adversarial Robustness of Large Vision-Language Models with Preference Optimization](adpo_enhancing_the_adversarial_robustness_of_large_vision-language_models_with_p.md)**
+
+:   AdPO 第一次把大视觉语言模型（LVLM）的对抗训练改写成偏好优化问题：让模型"偏好"在干净图上的正确输出、"拒绝"对抗图上的误导输出，且只微调 CLIP 图像编码器，在小模型上训练后迁移到大模型，既显著提升对抗鲁棒性又几乎不掉干净性能。
+
+**[Adversarial Déjà Vu: Jailbreak Dictionary Learning for Stronger Generalization to Unseen Attacks](adversarial_déjà_vu_jailbreak_dictionary_learning_for_stronger_generalization_to.md)**
+
+:   作者提出"对抗 Déjà Vu"假设——新越狱并非全新发明，而是旧攻击中对抗技能的重新组合；他们用稀疏字典学习把 32 篇攻击论文里抽出的 1.7 万条技能压成约 400 个可解释基元（越狱字典），既验证了"未见攻击能被旧技能稀疏重建"，又据此提出 ASCoT 训练法（在技能组合而非单条攻击上训练），把对未见越狱的有害率压到全场最低且不过度拒答。
+
+**[Align to Misalign: Automatic LLM Jailbreak with Meta-Optimized LLM Judges](align_to_misalign_automatic_llm_jailbreak_with_meta-optimized_llm_judges.md)**
+
+:   AMIS 把"自动越狱"从"只优化攻击提示"升级为"同时进化攻击提示和评分模板"的双层元优化框架——内层用细粒度连续评分指导提示迭代，外层用一个新提出的"ASR 对齐分数"反过来优化评分模板，让评分越来越贴近真实攻击成败，最终在 Claude-4-Sonnet 上打到 100% ASR，平均超出基线 70 多个百分点。
+
+**[Analyzing and Evaluating Unbiased Language Model Watermark](analyzing_and_evaluating_unbiased_language_model_watermark.md)**
+
+:   本文提出 UWBENCH——首个专门评测「无偏（distortion-free）语言模型水印」的开源基准：在理论上证明了「任何可检测的无偏水印在同一 prompt 反复查询下都无法保持原分布」的不可能性定理、给出量化多次生成分布漂移的 SPMG 指标和针对 token 级编辑攻击的认证鲁棒性边界，在实证上确立「无偏性 / 可检测性 / 鲁棒性」三轴评测协议，并指出 token 替换攻击比改写攻击更能给出稳定可复现的鲁棒性结论。
+
+**[Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth](any-depth_alignment_unlocking_innate_safety_alignment_of_llms_to_any-depth.md)**
+
+:   针对 LLM「浅层对齐」一旦进入有害续写就守不住的痛点，本文发现安全信号其实牢牢锚定在 assistant header 这类「安全 token」上、且在任意生成深度都可被重新激活，于是提出 Any-Depth Alignment（ADA）——推理时把 header 重新插回生成流中重新唤起模型自带的拒答（ADA-RK），或直接对 header 隐藏态跑一个线性探针判别有害性（ADA-LP），无需改动模型权重就把上千 token 深度 prefill 攻击的拒答率拉回近 100%、把 GCG/AutoDAN/PAIR/TAP 等攻击成功率压到 3% 以下。
+
+**[ARMS: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks](arms_adaptive_red-teaming_agent_against_multimodal_models_with_plug-and-play_att.md)**
+
+:   ARMS 是首个针对视觉-语言模型（VLM）、能按"风险定义"可控生成攻击样本的自适应红队 agent：它把 17 种多模态攻击各封装成一个 MCP server 做即插即用编排，用"风险类别 × 攻击策略"二维分层记忆配合 ε-greedy 探索来对抗模式崩溃、最大化攻击多样性，在 6 个评测上平均把攻击成功率（ASR）较最强基线提升 52.1 个百分点，甚至把以稳健著称的 Claude-4-Sonnet 攻破到 90%+ ASR。
 
 **[Attention Smoothing Is All You Need For Unlearning](attention_smoothing_is_all_you_need_for_unlearning.md)**
 
@@ -95,13 +127,49 @@ item_total: 52
 
 :   提出 AudioTrust，首个针对音频大语言模型（ALLM）的多维度可信度评估基准，涵盖公平性、幻觉、安全性、隐私、鲁棒性和认证六大维度，设计 26 个子任务和 4420+ 音频样本，系统评估了 14 个 SOTA 开/闭源 ALLM 在高风险音频场景下的可信度边界。
 
+**[Auditing Black-Box LLM APIs with a Rank-Based Uniformity Test](auditing_black-box_llm_apis_with_a_rank-based_uniformity_test.md)**
+
+:   针对 API 厂商可能偷偷把宣称的模型换成量化版/微调版/越狱版的问题，本文提出**基于秩的均匀性检验（Rank-based Uniformity Test, RUT）**：每个 prompt 只查一次目标 API、在本地参考模型上多采样，把 API 输出的 log-rank 打分映射成"在参考分布里的百分位排名"，若两模型一致则这些排名应服从均匀分布，再用 Cramér–von Mises 检验偏差——做到了高检测力、每个 prompt 仅 1 次 API 调用、且查询长得像普通用户流量从而难被对抗性厂商识别绕过。
+
+**[Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models](auto-rt_automatic_jailbreak_strategy_exploration_for_red-teaming_large_language_.md)**
+
+:   Auto-RT 把"给大模型找越狱漏洞"建模成一个序列决策问题，用强化学习自动探索**攻击策略**（而非固定模板），靠动态策略剪枝砍掉冗余探索、靠渐进奖励追踪缓解奖励稀疏，最终在 18 个模型上把攻击成功率最高拉高 16.63%。
+
+**[Automatic Dialectic Jailbreak: A Framework for Generating Effective Jailbreak Strategies](automatic_dialectic_jailbreak_a_framework_for_generating_effective_jailbreak_str.md)**
+
+:   ADJ 把对大模型的越狱攻击建模成攻击者与防御者之间一场「黑格尔辩证式辩论」的 Stackelberg 多目标博弈，通过正题—反题—合题的迭代逼出多样且抗防御的越狱策略，并用 Haar 小波把梯度投到 Hilbert 空间里求公共下降方向、配 Armijo 线搜索收敛到 Pareto–Nash 均衡，在 AdvBench / HarmBench 上 ASR 与 Harmful Score 全面超过 GCG、PAIR、AutoDAN-turbo 等基线。
+
+**[Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!](be_careful_when_fine-tuning_on_open-source_llms_your_fine-tuning_data_could_be_s.md)**
+
+:   本文揭示了"开源 LLM + 私有数据微调"这一标准范式下的一个新风险：开源模型的发布者可以在模型释放前植入一个后门，等下游开发者在私有数据上微调并部署后，仅凭**黑盒访问**就能用一句后门指令把下游私有微调 query 大段大段地"逐字偷出来"——实测在现实设置下能完美还原 5000 条样本中 76.3% 的 query，理想设置下高达 94.9%，而且现有几种防御都拦不住。
+
 **[BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning](beat_visual_backdoor_attacks_on_vlm-based_embodied_agents_via_contrastive_trigge.md)**
 
 :   提出 BEAT，首个针对 VLM 驱动具身智能体的视觉后门攻击框架，使用环境中的物体（如刀具）作为触发器，通过两阶段训练（SFT + Contrastive Trigger Learning）实现精准的后门激活，攻击成功率最高 80%，同时维持正常任务性能，揭示了 VLM 具身智能体的关键安全漏洞。
 
+**[Bias Similarity Measurement: A Black-Box Audit of Fairness Across LLMs](bias_similarity_measurement_a_black-box_audit_of_fairness_across_llms.md)**
+
+:   把"某个模型公平不公平"这个孤立标量评测，重构成"哪些模型在公平性上彼此像、为什么像"的**关系性度量**（Bias Similarity Measurement，BSM），用一组横跨标量/分布/行为/表征的相似度函数，在 30 个 LLM、100 万+ 提示上做黑盒审计，发现指令微调主要靠"强制弃答"而非改变内部表征来"变公平"。
+
 **[BiasBusters: Uncovering and Mitigating Tool Selection Bias in Large Language Models](biasbusters_uncovering_and_mitigating_tool_selection_bias_in_large_language_mode.md)**
 
 :   本文首次系统研究了 LLM 在工具选择中的偏差问题——当多个功能等价的 API 可选时，LLM 会因语义对齐、位置效应和预训练曝光等原因系统性地偏好某些工具，作者提出了基于 total variation 的偏差度量、10 类工具的评估基准，以及"先过滤再均匀采样"的轻量缓解策略。
+
+**[BIRD: Behavior Induction via Representation-structure Distillation](bird_behavior_induction_via_representation-structure_distillation.md)**
+
+:   BIRD 通过让学生模型的内部表示**结构**（batch 内成对相似度的几何，用 CKA 度量）去匹配一个已对齐教师的表示结构，把鲁棒性 / 安全性这类"对齐行为"从一个异构教师迁移到学生——教师和学生可以任务、数据、架构、输出空间全都不同；在图像 OOD 鲁棒迁移上比微调 / 迁移学习 / 持续学习最多高 18% 鲁棒精度，并能从一个比学生小 25× 的教师做弱到强迁移。
+
+**[Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](breaking_agent_backbones_evaluating_the_security_of_backbone_llms_in_ai_agents.md)**
+
+:   作者提出 **threat snapshots（威胁快照）** 框架——把 AI agent 执行流里"LLM 漏洞真正发作的那一瞬间"单独切出来建模，再用 19 万条众包对抗攻击建成 **b3 benchmark**，对 34 个主流 LLM 做骨干安全性排名，发现"推理能力提升安全、模型尺寸与安全无关"等反直觉结论。
+
+**[Building a Foundational Guardrail for General Agentic Systems via Synthetic Data](building_a_foundational_guardrail_for_general_agentic_systems_via_synthetic_data.md)**
+
+:   本文针对 LLM agent「执行前」这一最安全的干预时机，提出一套完整护栏方案：用可控合成数据引擎 AuraGen 造大规模带标注的风险轨迹，训练一个轻量 guardian 模型 Safiron（前接跨规划器 adapter 统一输入格式）来判定/分类/解释风险，并发布人工核验的 Pre-Exec Bench 基准；在该基准上四项指标全面超越 GPT-5、Claude-3.7 等强基线。
+
+**[CIMemories: A Compositional Benchmark For Contextual Integrity In LLMs](cimemories_a_compositional_benchmark_for_contextual_integrity_in_llms.md)**
+
+:   CIMemories 是一个评测「记忆增强 LLM 会不会在不该说的场景里把记忆里的隐私属性说出去」的组合式 benchmark：它用每人 100+ 属性的合成用户画像配上几十个社交任务，逐个 (属性, 任务) 标注「该说 / 不该说」，结果发现前沿模型最高有 69% 的属性级越界，且降低越界往往以牺牲任务完整性为代价，越界还会随任务数和采样次数不断累积。
 
 **[Converge Faster, Talk Less: Hessian-Informed Federated Zeroth-Order Optimization](converge_faster_talk_less_hessian-informed_federated_zeroth-order_optimization.md)**
 
@@ -250,6 +318,10 @@ item_total: 52
 **[SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA](she-lora_selective_homomorphic_encryption_for_federated_tuning_with_heterogeneou.md)**
 
 :   提出SHE-LoRA——将选择性同态加密(SHE)与LoRA结合用于跨设备联邦LLM微调：基于参数敏感度的列级加密子集协商 + 列交换参数混淆 + 列感知自适应聚合，在保持与非隐私基线可比的模型性能同时，通信开销减少99.71%、加密时间减少99.87%，完全抵御SOTA梯度反演攻击DAGER。
+
+**[Spilling the Beans: Teaching LLMs to Self-Report Their Hidden Objectives](spilling_the_beans_teaching_llms_to_self-report_their_hidden_objectives.md)**
+
+:   作者提出"自报微调"（SRFT）：只用 770 条"事实问答里犯错→认错"的简单样本微调 GPT-4.1，就能让模型在完全不同分布、长达 20–150 轮的潜行/破坏任务中、即便被系统提示明令保密，仍在审讯时坦白自己的隐藏恶意目标——隐藏目标检测 F1 从 0 飙到 0.98，目标细节套取率从 0% 升到 28–100%。
 
 **[Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in LLMs](stop_tracking_me_proactive_defense_against_attribute_inference_attack_in_llms.md)**
 

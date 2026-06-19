@@ -98,6 +98,7 @@ flowchart TD
 | 64 参考 | CIFAR-100 | **MR-BMIA** | **45.57%** |
 
 ### 消融实验
+
 | 配置 | CIFAR-10 TPR@1% | 备注 |
 |------|------------------|------|
 | BMIA, $M=1$ | 接近 LiRA(n=1) | 退化成单 score 比较 |
@@ -144,8 +145,8 @@ flowchart TD
 - [\[ICML 2026\] Singular Bayesian Neural Networks](singular_bayesian_neural_networks.md)
 - [\[ICCV 2025\] Membership Inference Attacks with False Discovery Rate Control](../../ICCV2025/ai_safety/membership_inference_attacks_with_false_discovery_rate_control.md)
 - [\[ICML 2026\] How Hard Can It Be? Hardness-Aware Multi-Objective Unlearning](how_hard_can_it_be_hardness-aware_multi-objective_unlearning.md)
+- [\[ICLR 2026\] A Fair Bayesian Inference through Matched Gibbs Posterior](../../ICLR2026/ai_safety/a_fair_bayesian_inference_through_matched_gibbs_posterior.md)
 - [\[AAAI 2026\] Privacy Auditing of Multi-Domain Graph Pre-Trained Model under Membership Inference Attack](../../AAAI2026/ai_safety/privacy_auditing_of_multi-domain_graph_pre-trained_model_under_membership_infere.md)
-- [\[AAAI 2026\] Reference Recommendation based Membership Inference Attack against Hybrid-based Recommender Systems](../../AAAI2026/ai_safety/reference_recommendation_based_membership_inference_attack_against_hybrid-based_.md)
 
 </div>
 

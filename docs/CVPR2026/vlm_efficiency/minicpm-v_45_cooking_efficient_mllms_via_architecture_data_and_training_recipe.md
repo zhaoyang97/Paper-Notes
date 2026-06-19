@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data and Training Recipes
 description: >-
-  [CVPR 2026][多模态VLM][高效MLLM] MiniCPM-V 4.5 用「统一 3D-Resampler 压缩视觉 token + 动态损坏统一文档/OCR 学习 + 短长双模式混合 RL」三招把一个 8B MLLM 做到既高效又强，在 OpenCompass 上以 77.0 分超过 GPT-4o-latest 和 Qwen2.5-VL 72B，且 VideoMME 推理只用约 10% 的时间。
+  [CVPR 2026][VLM Efficiency][高效MLLM] MiniCPM-V 4.5 用「统一 3D-Resampler 压缩视觉 token + 动态损坏统一文档/OCR 学习 + 短长双模式混合 RL」三招把一个 8B MLLM 做到既高效又强，在 OpenCompass 上以 77.0 分超过 GPT-4o-latest 和 Qwen2.5-VL 72B，且 VideoMME 推理只用约 10% 的时间。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Efficiency"
   - "高效MLLM"
   - "3D-Resampler"
   - "OCR"
@@ -156,11 +156,11 @@ $$R = R_{acc} + R_{format} + R_{rep} + \tfrac{1}{2}\tilde{R}_{rm},$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] HoneyBee: Data Recipes for Vision-Language Reasoners](honeybee_data_recipes_for_vision-language_reasoners.md)
-- [\[CVPR 2026\] Parameter-Efficient Adaptation for MLLMs via Implicit Modality Decomposition](parameter-efficient_adaptation_for_mllms_via_implicit_modality_decomposition.md)
-- [\[CVPR 2026\] TableMix: Enhancing Multimodal Table Reasoning in MLLMs from a Data-Centric Perspective](tablemix_enhancing_multimodal_table_reasoning_in_mllms_from_a_data-centric_persp.md)
-- [\[CVPR 2026\] Why Does RL Generalize Better Than SFT? A Data-Centric Perspective on VLM Post-Training](why_does_rl_generalize_better_than_sft_a_data-centric_perspective_on_vlm_post-tr.md)
-- [\[CVPR 2026\] POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs](points-long_adaptive_dual-mode_visual_reasoning_in_mllms.md)
+- [\[CVPR 2026\] OmniZip: Learning a Unified and Lightweight Lossless Compressor for Multi-Modal Data](omnizip_learning_a_unified_and_lightweight_lossless_compressor_for_multi-modal_d.md)
+- [\[CVPR 2026\] Vision-Oriented Lightweight Neural Architecture Search with Budget-Adaptive Evaluation](vision-oriented_lightweight_neural_architecture_search_with_budget-adaptive_eval.md)
+- [\[CVPR 2026\] VLM-PTQ: Efficient Post-Training Quantization for Large Vision-Language Models](vlm-ptq_efficient_post-training_quantization_for_large_vision-language_models.md)
+- [\[CVPR 2026\] DUET-VLM: Dual Stage Unified Efficient Token Reduction for VLM Training and Inference](duet-vlm_dual_stage_unified_efficient_token_reduction_for_vlm_training_and_infer.md)
+- [\[CVPR 2026\] QVGGT: Post-Training Quantized Visual Geometry Grounded Transformer](qvggt_post-training_quantized_visual_geometry_grounded_transformer.md)
 
 </div>
 

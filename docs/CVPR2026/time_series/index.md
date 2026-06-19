@@ -12,10 +12,10 @@ tags:
   - "对齐/RLHF"
   - "域适应"
 item_list:
-  - u: "l2gtx_from_local_to_global_time_series_explanations/"
-    t: "L2GTX: From Local to Global Time Series Explanations"
   - u: "pfgnet_a_fully_convolutional_frequency-guided_peripheral_gating_network_for_effi/"
     t: "PFGNet: A Fully Convolutional Frequency-Guided Peripheral Gating Network for Efficient Spatiotemporal Predictive Learning"
+  - u: "probabilistic_precipitation_nowcasting_with_rectified_flow_transformers/"
+    t: "Probabilistic Precipitation Nowcasting with Rectified Flow Transformers"
   - u: "real-time_long_horizon_air_quality_forecasting_via_group-relative_policy_optimiz/"
     t: "Real-Time Long Horizon Air Quality Forecasting via Group-Relative Policy Optimization"
   - u: "sattc_structure-aware_label-free_test-time_calibration_for_cross-subject_eeg-to-/"
@@ -34,17 +34,17 @@ item_total: 7
 
 **📷 CVPR2026** · **7** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (32)](../../ICML2026/time_series/index.md) · [💬 ACL2026 (7)](../../ACL2026/time_series/index.md) · [🔬 ICLR2026 (38)](../../ICLR2026/time_series/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/time_series/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/time_series/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/time_series/index.md)
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (45)](../../ICML2026/time_series/index.md) · [💬 ACL2026 (8)](../../ACL2026/time_series/index.md) · [🔬 ICLR2026 (53)](../../ICLR2026/time_series/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/time_series/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/time_series/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/time_series/index.md)
 
-🔥 **高频主题：** 时序预测 ×4
-
-**[L2GTX: From Local to Global Time Series Explanations](l2gtx_from_local_to_global_time_series_explanations.md)**
-
-:   L2GTX 提出一种完全模型无关的局部到全局解释方法，通过从 LOMATCE 局部解释中提取参数化时间事件原语（趋势/极值），跨实例合并冗余聚类并以子模优化选取代表性实例，最终聚合为简洁的类级别全局解释，在6个时序分类数据集上保持稳定的全局忠实度。
+🔥 **高频主题：** 时序预测 ×3
 
 **[PFGNet: A Fully Convolutional Frequency-Guided Peripheral Gating Network for Efficient Spatiotemporal Predictive Learning](pfgnet_a_fully_convolutional_frequency-guided_peripheral_gating_network_for_effi.md)**
 
 :   提出 PFGNet，一种纯卷积时空预测框架，通过像素级频率引导门控（PFG）动态调制多尺度大核外周响应并施加可学习中心抑制，模拟生物视觉的 center-surround 带通滤波机制，在 Moving MNIST、TaxiBJ、KTH、Human3.6M 四个基准上以极少参数和计算量达到 SOTA 或近 SOTA 性能。
+
+**[Probabilistic Precipitation Nowcasting with Rectified Flow Transformers](probabilistic_precipitation_nowcasting_with_rectified_flow_transformers.md)**
+
+:   本文提出 FREUD——一个用整流流（rectified flow）Transformer 充当"压缩第一阶段"的框架：帧级编码器独立编码每帧、联合视频解码器一次性重建所有帧，把确定性解码换成概率式解码，从而在压缩阶段就能量化不确定性；配合潜空间整流流临近预报模型，在 SEVIR 降水临近预报基准上取得 SOTA 的 CRPS（0.0190）和 SSIM。
 
 **[Real-Time Long Horizon Air Quality Forecasting via Group-Relative Policy Optimization](real-time_long_horizon_air_quality_forecasting_via_group-relative_policy_optimiz.md)**
 

@@ -159,11 +159,11 @@ DirectEdit 用一半 NFE 把 step-level MSE 平均/最大同时降低 **2~4 个�
 
 ## 相关论文
 
+- [\[CVPR 2026\] FlashIn: Fast and Accurate Image Inversion for Real-time Image Editing](../../CVPR2026/image_generation/flashin_fast_and_accurate_image_inversion_for_real-time_image_editing.md)
 - [\[ICML 2025\] Taming Rectified Flow for Inversion and Editing](../../ICML2025/image_generation/taming_rectified_flow_for_inversion_and_editing.md)
 - [\[CVPR 2026\] BiFM: Bidirectional Flow Matching for Few-Step Image Editing and Generation](../../CVPR2026/image_generation/bifm_bidirectional_flow_matching_for_few-step_image_editing_and_generation.md)
+- [\[ICML 2026\] Budget-Constrained Step-Level Diffusion Caching](budget-constrained_step-level_diffusion_caching.md)
 - [\[NeurIPS 2025\] SplitFlow: Flow Decomposition for Inversion-Free Text-to-Image Editing](../../NeurIPS2025/image_generation/splitflow_flow_decomposition_for_inversion-free_text-to-image_editing.md)
-- [\[CVPR 2025\] Unveil Inversion and Invariance in Flow Transformer for Versatile Image Editing](../../CVPR2025/image_generation/unveil_inversion_and_invariance_in_flow_transformer_for_versatile_image_editing.md)
-- [\[ICML 2026\] Principled RL for Flow Matching Emerges from the Chunk-level Policy Optimization](principled_rl_for_flow_matching_emerges_from_the_chunk-level_policy_optimization.md)
 
 </div>
 

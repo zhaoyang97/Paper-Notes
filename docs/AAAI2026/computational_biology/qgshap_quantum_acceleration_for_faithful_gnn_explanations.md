@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026 (QC+AI Workshop)  
 **arXiv**: [2512.03099](https://arxiv.org/abs/2512.03099)  
 **代码**: [GitHub](https://github.com/smlab-niser/qgshap)  
-**领域**: 可解释性
+**领域**: 可解释性  
 **关键词**: GNN解释, Shapley值, 量子振幅估计, 精确归因, 图可解释性
 
 ## 一句话总结

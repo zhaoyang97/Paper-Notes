@@ -93,6 +93,7 @@ $L = -\frac{1}{T}\sum_t\sum_c Y_{tc}\log\hat{Y}_{tc} + \alpha \frac{1}{J}\sum_j 
 Zero-shot 跨数据集/跨阶段也是全胜：ADNI-2 → ADNI-1/3/GO 上 Acc 56.0（次优 52.8），PPMI → TaoWu 上 Acc 60.5（次优 57.0），PPMI → Neurocon 上 Acc 65.9（次优 63.8），说明学到的超图结构具备一定的迁移性。
 
 ### 消融实验
+
 | 配置 | ADNI Acc | PPMI Acc | 说明 |
 |------|---------|---------|------|
 | Full (MSF+HSL+MST) | **93.2** | **76.8** | 完整 MuHL |

@@ -147,8 +147,8 @@ MISOB 完全不需要在训练和推断时访问敏感属性。负担的计算�
 - [\[AAAI 2026\] Minimizing Inequity in Facility Location Games](minimizing_inequity_in_facility_location_games.md)
 - [\[ICML 2026\] Position: Beyond Sensitive Attributes, ML Fairness Should Quantify Structural Injustice via Social Determinants](../../ICML2026/ai_safety/position_beyond_sensitive_attributes_ml_fairness_should_quantify_structural_inju.md)
 - [\[AAAI 2026\] Alternative Fairness and Accuracy Optimization in Criminal Justice](alternative_fairness_and_accuracy_optimization_in_criminal_j.md)
-- [\[CVPR 2026\] Omni-Fake: Benchmarking Unified Multimodal Social Media Deepfake Detection](../../CVPR2026/ai_safety/omni-fake_benchmarking_unified_multimodal_social_media_deepfake_detection.md)
 - [\[ACL 2025\] Sandcastles in the Storm: Revisiting Watermarking Impossibility](../../ACL2025/ai_safety/sandcastles_watermarking_impossibility.md)
+- [\[CVPR 2026\] Omni-Fake: Benchmarking Unified Multimodal Social Media Deepfake Detection](../../CVPR2026/ai_safety/omni-fake_benchmarking_unified_multimodal_social_media_deepfake_detection.md)
 
 </div>
 

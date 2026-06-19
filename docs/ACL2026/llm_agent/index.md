@@ -1,19 +1,19 @@
 ---
 title: >-
-  ACL2026 LLMAgent论文汇总 · 78篇论文解读
+  ACL2026 LLMAgent论文汇总 · 82篇论文解读
 description: >-
-  78篇ACL2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、对抗鲁棒、推理、对话系统、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  82篇ACL2026的 LLM Agent 方向论文解读，涵盖 Agent、LLM、推理、对抗鲁棒、多模态、对话系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ACL2026"
   - "LLM Agent"
   - "论文解读"
   - "论文笔记"
-  - "LLM"
   - "Agent"
-  - "对抗鲁棒"
+  - "LLM"
   - "推理"
+  - "对抗鲁棒"
+  - "多模态"
   - "对话系统"
-  - "强化学习"
 item_list:
   - u: "adarubric_task-adaptive_rubrics_for_reliable_llm_agent_evaluation_and_reward_lea/"
     t: "AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning"
@@ -27,6 +27,10 @@ item_list:
     t: "AVA: Attentive VLM Agent for Mastering StarCraft II"
   - u: "bapo_boundary-aware_policy_optimization_for_reliable_agentic_search/"
     t: "BAPO: Boundary-Aware Policy Optimization for Reliable Agentic Search"
+  - u: "benchmarking_web_agent_safety_under_e-commerce_deceptive_interfaces/"
+    t: "Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces"
+  - u: "chartagent_a_multimodal_agent_for_visually_grounded_reasoning_in_complex_chart_q/"
+    t: "ChartAgent: A Multimodal Agent for Visually Grounded Reasoning in Complex Chart Question Answering"
   - u: "clag_adaptive_memory_organization_via_agent-driven_clustering_for_small_language/"
     t: "CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents"
   - u: "codestruct_code_agents_over_structured_action_spaces/"
@@ -71,21 +75,17 @@ item_list:
     t: "Hierarchical Reinforcement Learning with Augmented Step-Level Transitions for LLM Agents"
   - u: "higmem_a_hierarchical_and_llm-guided_memory_system_for_long-term_conversational_/"
     t: "HiGMem: A Hierarchical and LLM-Guided Memory System for Long-Term Conversational Agents"
-  - u: "how_adversarial_environments_mislead_agentic_ai/"
-    t: "How Adversarial Environments Mislead Agentic AI"
-  - u: "implicitmembench_measuring_unconscious_behavioral_adaptation_in_large_language_m/"
-    t: "ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models"
-item_total: 78
+item_total: 82
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**💬 ACL2026** · **78** 篇论文解读
+**💬 ACL2026** · **82** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (41)](../../CVPR2026/llm_agent/index.md) · [🧪 ICML2026 (42)](../../ICML2026/llm_agent/index.md) · [🔬 ICLR2026 (42)](../../ICLR2026/llm_agent/index.md) · [🤖 AAAI2026 (33)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (42)](../../CVPR2026/llm_agent/index.md) · [🧪 ICML2026 (59)](../../ICML2026/llm_agent/index.md) · [🔬 ICLR2026 (51)](../../ICLR2026/llm_agent/index.md) · [🤖 AAAI2026 (33)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md)
 
-🔥 **高频主题：** LLM ×29 · Agent ×28 · 对抗鲁棒 ×5 · 推理 ×5 · 对话系统 ×3
+🔥 **高频主题：** Agent ×30 · LLM ×29 · 推理 ×6 · 对抗鲁棒 ×5 · 多模态 ×3
 
 **[AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning](adarubric_task-adaptive_rubrics_for_reliable_llm_agent_evaluation_and_reward_lea.md)**
 
@@ -110,6 +110,14 @@ item_total: 78
 **[BAPO: Boundary-Aware Policy Optimization for Reliable Agentic Search](bapo_boundary-aware_policy_optimization_for_reliable_agentic_search.md)**
 
 :   针对 RL 训练后的 agentic search 模型几乎从不说"I DON'T KNOW"导致编造答案的可靠性问题，BAPO 在 GRPO 之上加入"基于组的边界感知奖励 + 自适应奖励调制器"，让模型只在真正越界时才拒答，相对 GRPO 在四个多跳 QA 上把 reliability 平均提升约 9.7%，且仅用 5k 训练样本就超过 90k 样本训练的 Search-R1。
+
+**[Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces](benchmarking_web_agent_safety_under_e-commerce_deceptive_interfaces.md)**
+
+:   作者做了 **WebDecept**——一个轻量可插拔的"欺骗界面注入层"，能在 VisualWebArena 电商环境里按触发时机塞进七种现实常见的欺骗模式（弹窗、横幅、域名跳转、偷加购物车、改总价等），用来测多模态 web agent 的安全性；结果发现 GPT-5.1、Claude 4.5、Gemini 2.5 等先进 agent 普遍扛不住，尤其对"偷改购物车/总价"几乎全军覆没，且加安全提示词也救不回来。
+
+**[ChartAgent: A Multimodal Agent for Visually Grounded Reasoning in Complex Chart Question Answering](chartagent_a_multimodal_agent_for_visually_grounded_reasoning_in_complex_chart_q.md)**
+
+:   ChartAgent 把图表问答从"文字链式推理"改成"在图像本身上动手"——用一套图表专用视觉工具（分割饼块、抠条形、定位坐标轴）在 ReAct 循环里逐步操作图表、并对中间可视化做自我校验，在 ChartBench / ChartX 上对无标注、重数值的难题整体提升最高 16.07%、无标注子集提升 17.31%。
 
 **[CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents](clag_adaptive_memory_organization_via_agent-driven_clustering_for_small_language.md)**
 
@@ -203,6 +211,10 @@ item_total: 78
 
 :   本文形式化了"对抗环境注入"（AEI）威胁模型，将其分解为广度攻击（投毒检索结果导致认知漂移）和深度攻击（注入幻影节点构造导航陷阱导致策略崩溃），在 11,000+ 次实验中发现两种攻击的鲁棒性完全独立——"鲁棒性分裂"表明当前单点防御策略根本不够。
 
+**[Impatient Users Confuse AI Agents: High-fidelity Simulations of Human Traits for Testing Agents](impatient_users_confuse_ai_agents_high-fidelity_simulations_of_human_traits_for_.md)**
+
+:   作者提出 TraitBasis——一种无需微调、模型无关的轻量方法，用对比激活差在隐藏空间里抽出「不耐烦/困惑/怀疑/语无伦次」等用户特质方向，可在推理时缩放、组合、注入来高保真地模拟刁难型用户；把它接进 τ-Bench 得到 τ-trait 基准后，发现前沿 agent 在用户行为变化下性能平均掉 4%–20%（最高 46%），戳穿了「benchmark 高分=真鲁棒」的假象。
+
 **[ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models](implicitmembench_measuring_unconscious_behavioral_adaptation_in_large_language_m.md)**
 
 :   提出 ImplicitMemBench，首个系统评估 LLM 隐式记忆的基准，包含程序性记忆、启动效应和经典条件反射三种认知范式共 300 个测试项，在 17 个模型上揭示严重局限：最优模型仅达 66% 整体准确率，远低于人类基线。
@@ -274,6 +286,10 @@ item_total: 78
 **[Polaris: A Gödel Agent Framework for Small Language Models through Experience-Abstracted Policy Repair](polaris_a_gödel_agent_framework_for_small_language_models_through_experience-abs.md)**
 
 :   Polaris 将 Gödel Agent 的递归自我改进改造成适合 7B/8B 小模型的“失败分析 → 经验抽象 → 最小代码补丁 → 执行校验”策略修复循环，在 MGSM、DROP、GPQA、LitBench 上让小模型获得可解释、可持久复用的 policy-level 改进。
+
+**[PRInTS: 面向长程信息检索的过程奖励建模](prints_reward_modeling_for_long-horizon_information_seeking.md)**
+
+:   PRInTS 把"过程奖励模型（PRM）"从短数学推理搬到长程信息检索 Agent：用一个 4B 模型同时学会"按信息增益给每一步打稠密分"和"递归压缩不断膨胀的轨迹上下文"，靠测试时 best-of-$n$ 选步，就让 32B 量级 Agent 平均提升 9.3%、甚至让 30B+4B 的组合在 GAIA 上超过 671B 的 DeepSeek-V3.1。
 
 **[ProPer Agents: Proactivity Driven Personalized Agents for Advancing Knowledge Gap Navigation](proper_agents_proactivity_driven_personalized_agents_for_advancing_knowledge_gap.md)**
 

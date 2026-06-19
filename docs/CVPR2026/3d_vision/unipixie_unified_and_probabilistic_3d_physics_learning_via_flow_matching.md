@@ -112,6 +112,7 @@ UniPixie 的 $\log E$ MSE 0.0091，比此前最佳 PIXIE 的 0.0205 准确一倍
 一套统一模型在三种求解器上普遍打平甚至超过专用模型，且比测试时优化（Vid2Sim 521s、Spring-Gaus 4375s）快两到三个数量级。
 
 ### 消融实验
+
 | 配置 | $\log E$ MSE ↓ | 说明 |
 |------|------|------|
 | UniPixie（流匹配） | 0.0091 | 完整生成模型 |
@@ -157,7 +158,7 @@ UniPixie 的 $\log E$ MSE 0.0091，比此前最佳 PIXIE 的 0.0205 准确一倍
 - [\[CVPR 2026\] ARES: Unifying Asymmetric RGB-Event Stereo for Probabilistic Scene Flow Estimation](ares_unifying_asymmetric_rgb-event_stereo_for_probabilistic_scene_flow_estimatio.md)
 - [\[CVPR 2026\] GeodesicNVS: Probability Density Geodesic Flow Matching for Novel View Synthesis](geodesicnvs_probability_density_geodesic_flow_matching_for_novel_view_synthesis.md)
 - [\[ICML 2026\] PLAID: A Unified Data Model for Machine Learning on Heterogeneous Physics Simulations](../../ICML2026/3d_vision/plaid_a_unified_data_model_for_machine_learning_on_heterogeneous_physics_simulat.md)
-- [\[CVPR 2025\] Flow-NeRF: Joint Learning of Geometry, Poses, and Dense Flow within Unified Neural Representations](../../CVPR2025/3d_vision/flow-nerf_joint_learning_of_geometry_poses_and_dense_flow_within_unified_neural_.md)
+- [\[CVPR 2026\] GM-R²: Generative Matching Learning for Unsupervised Geometric Representation and Registration](gm-r2_generative_matching_learning_for_unsupervised_geometric_representation_and.md)
 
 </div>
 

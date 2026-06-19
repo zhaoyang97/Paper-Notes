@@ -73,6 +73,7 @@ $$g_t(s,a) = Q^{\pi_t}(s,a;\tilde\ell_t) - V^{\pi_t}(s;\tilde\ell_t) - \tilde\el
 本文是纯理论工作，无实验数据，所有结果以定理 + 表格形式给出。下面整理两张关键对比表（数字为 leading term，省略对数因子；$U = \sum_{s,a\neq\pi^\star(s)} H^2\log(T)/\Delta(s,a)$、$U_{\mathrm{Var}} = \sum_{s,a\neq\pi^\star(s)} HV_c(s)\log(T)/\Delta(s,a)$、$C$ 为对抗 corruption 总量）。
 
 ### 主实验：全局优化 regret 上界对比
+
 | 方法 | 对抗 regime | 随机 + 对抗 corruption regime |
 |------|------|------|
 | Zimin & Neu (2013) | $\sqrt{HSAT}$ | $\sqrt{HSAT}$ |
@@ -82,6 +83,7 @@ $$g_t(s,a) = Q^{\pi_t}(s,a;\tilde\ell_t) - V^{\pi_t}(s;\tilde\ell_t) - \tilde\el
 | **本文 Thm 4.2** | $\sqrt{SA\min\{L^\star, HT{-}L^\star, Q_\infty\}}$ | $\min\{\sqrt{SA(V_T+C)},\ U_{\mathrm{Var}}+\sqrt{U_{\mathrm{Var}}C}\}$ |
 
 ### 关键消融：策略优化 vs 全局优化（同款适配性，多一个 $H$）
+
 | 方法 | 对抗 regime | 随机 + corruption regime |
 |------|------|------|
 | Luo et al. (2021) | $\sqrt{H^3 SAT}$ | $\sqrt{H^3 SAT}$ |
@@ -122,8 +124,8 @@ $$g_t(s,a) = Q^{\pi_t}(s,a;\tilde\ell_t) - V^{\pi_t}(s;\tilde\ell_t) - \tilde\el
 
 - [\[ICLR 2026\] Online Prediction of Stochastic Sequences with High Probability Regret Bounds](../../ICLR2026/reinforcement_learning/online_prediction_of_stochastic_sequences_with_high_probability_regret_bounds.md)
 - [\[NeurIPS 2025\] Improved Regret Bounds for GP-UCB in Bayesian Optimization](../../NeurIPS2025/reinforcement_learning/improved_regret_bounds_for_gaussian_process_upper_confidence_bound_in_bayesian_o.md)
-- [\[ICML 2026\] ALSO: Adversarial Online Strategy Optimization for Social Agents](also_adversarial_online_strategy_optimization_for_social_agents.md)
 - [\[ICML 2026\] Trajectory-Level Data Augmentation for Offline Reinforcement Learning](trajectory-level_data_augmentation_for_offline_reinforcement_learning.md)
+- [\[ICML 2026\] ALSO: Adversarial Online Strategy Optimization for Social Agents](also_adversarial_online_strategy_optimization_for_social_agents.md)
 - [\[ICML 2026\] How Reasoning Evolves from Post-Training Data: An Empirical Study Using Chess](how_reasoning_evolves_from_post-training_data_an_empirical_study_using_chess.md)
 
 </div>

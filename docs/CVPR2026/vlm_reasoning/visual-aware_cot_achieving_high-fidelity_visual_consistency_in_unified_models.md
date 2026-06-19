@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Visual-Aware CoT: Achieving High-Fidelity Visual Consistency in Unified Models
 description: >-
-  [CVPR 2026][多模态VLM][统一模型] VACoT 让统一理解-生成模型在做多参考图生成时，先生成一份"该保哪些视觉元素"的视觉清单（Adaptive Visual Planning），再对照清单自我反思、迭代修图（Iterative Visual Correction），并用 SFT + flow-GRPO 双阶段训练把这套"看图自检"能力灌进 BAGEL，在 OmniContext 上平均分从 5.55 提到 8.26，部分子任务超过 GPT-4o。
+  [CVPR 2026][VLM Reasoning][统一模型] VACoT 让统一理解-生成模型在做多参考图生成时，先生成一份"该保哪些视觉元素"的视觉清单（Adaptive Visual Planning），再对照清单自我反思、迭代修图（Iterative Visual Correction），并用 SFT + flow-GRPO 双阶段训练把这套"看图自检"能力灌进 BAGEL，在 OmniContext 上平均分从 5.55 提到 8.26，部分子任务超过 GPT-4o。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "统一模型"
   - "多模态CoT"
   - "视觉一致性"
@@ -151,11 +151,11 @@ GenEval（T2I 基础能力）上 VACoT 总分 0.84，高于 BAGEL（0.79）、Ui
 
 ## 相关论文
 
-- [\[CVPR 2026\] Efficient and High-Fidelity Omni Modality Retrieval](efficient_and_high-fidelity_omni_modality_retrieval.md)
-- [\[CVPR 2026\] HiFICL: High-Fidelity In-Context Learning for Multimodal Tasks](hificl_highfidelity_incontext_learning_for_multimo.md)
-- [\[CVPR 2026\] VQ-VA World: Towards High-Quality Visual Question-Visual Answering](vq-va_world_towards_high-quality_visual_question-visual_answering.md)
 - [\[CVPR 2026\] ViRC: Enhancing Visual Interleaved Mathematical CoT with Reason Chunking](virc_enhancing_visual_interleaved_mathematical_cot_with_reason_chunking.md)
-- [\[CVPR 2026\] TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models](tuna_taming_unified_visual_representations_for_native_unified_multimodal_models.md)
+- [\[CVPR 2026\] CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization](codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim.md)
+- [\[CVPR 2026\] GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models](ggbench_a_geometric_generative_reasoning_benchmark_for_unified_multimodal_models.md)
+- [\[CVPR 2026\] Unified Generation and Self-Verification for Vision-Language Models via Advantage Decoupled Preference Optimization](unified_generation_and_self-verification_for_vision-language_models_via_advantag.md)
+- [\[NeurIPS 2025\] SpatialTraceGen: High-Fidelity Traces for Efficient VLM Spatial Reasoning Distillation](../../NeurIPS2025/vlm_reasoning/spatialtracegen_high-fidelity_traces_for_efficient_vlm_spatial_reasoning_distill.md)
 
 </div>
 

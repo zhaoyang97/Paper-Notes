@@ -133,7 +133,7 @@ NVP在19张荧光图像下重建MDCK活细胞，PSNR比Explicit高4.05dB，比Tr
 - [\[ICCV 2025\] Intra-view and Inter-view Correlation Guided Multi-view Novel Class Discovery](intra-view_and_inter-view_correlation_guided_multi-view_novel_class_discovery.md)
 - [\[ICCV 2025\] Switch-a-View: View Selection Learned from Unlabeled In-the-wild Videos](switch-a-view_view_selection_learned_from_unlabeled_in-the-wild_videos.md)
 - [\[ICCV 2025\] A Linear N-Point Solver for Structure and Motion from Asynchronous Tracks](a_linear_n-point_solver_for_structure_and_motion_from_asynchronous_tracks.md)
-- [\[CVPR 2026\] Optical Diffraction-based Convolution for Semiconductor Lithography](../../CVPR2026/others/optical_diffraction-based_convolution_for_semiconductor_lithography.md)
+- [\[ICCV 2025\] Φ-GAN: Physics-Inspired GAN for Generating SAR Images Under Limited Data](ph-gan_physics-inspired_gan_for_generating_sar_images_under_limited_data.md)
 
 </div>
 

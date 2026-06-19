@@ -96,6 +96,7 @@ $$\arg\min_{S_M,\{S_{D_i}\}}\ \gamma(S_M,\{S_{D_i}\})$$
 ## 实验关键数据
 
 ### 方法对比定位（Table 1）
+
 | 方法 | 建模的约束 | 优化方式 | 优化目标 | 可部署 |
 |------|-----------|---------|---------|--------|
 | Gupta [9] | 无（理想） | 理论分析 | 编码曲线长度 | 否 |
@@ -106,6 +107,7 @@ $$\arg\min_{S_M,\{S_{D_i}\}}\ \gamma(S_M,\{S_{D_i}\})$$
 本文是唯一把互斥约束建进设计、又直接以真实深度误差为目标、且可部署的方法。
 
 ### 仿真：Stanford bunny 重建 MAE（Fig.5，越小越好）
+
 | 编码方案 | 高 SNR（$\bar a=0$）MAE | 低 SNR（$\bar a=1$）MAE |
 |----------|----------------------|----------------------|
 | Double ramp | 6.15 mm | 23.86 mm |
@@ -116,6 +118,7 @@ $$\arg\min_{S_M,\{S_{D_i}\}}\ \gamma(S_M,\{S_{D_i}\})$$
 两套搜出的码把误差从十几~二十几毫米压到个位数毫米；高 SNR 下 proposed-high 最好、低 SNR 下 proposed-low 最好，正好验证「按 SNR 各搜一套」的设计意图。Fig.4 进一步显示：随环境光增强，proposed-high/low 在 $\bar a=0.2$ 处互换名次；Hamiltonian 仅用 1/3 总功率却略好于 double ramp，但两者都明显输给搜出的码。
 
 ### 真实传感器实验（3-tap BEM80T04BB，240×240，最高 100 MHz）
+
 | 场景 / 设定 | 对比 | 结果 |
 |------------|------|------|
 | 平板重建（Fig.7，高/低 SNR） | proposed vs 旧码 | proposed 在两种 SNR 下重建 MAE 均最低（⚠️ 具体数值以原文图为准） |
@@ -161,8 +164,8 @@ $$\arg\min_{S_M,\{S_{D_i}\}}\ \gamma(S_M,\{S_{D_i}\})$$
 - [\[CVPR 2026\] Revisiting Pose Sensitivity in Splat-based Computed Tomography under Sparse-view Reconstruction](revisiting_pose_sensitivity_in_splat-based_computed_tomography_under_sparse-view.md)
 - [\[CVPR 2026\] Globally Optimal Pose from Orthographic Silhouettes](globally_optimal_pose_from_orthographic_silhouettes.md)
 - [\[CVPR 2026\] GeoCodeBench: Benchmarking PhD-Level Coding in 3D Geometric Computer Vision](benchmarking_phd-level_coding_in_3d_geometric_computer_vision.md)
+- [\[CVPR 2026\] Event Structural Valley: A Unified Theoretical and Practical Framework for Event Camera Autofocus](event_structural_valley_a_unified_theoretical_and_practical_framework_for_event_.md)
 - [\[CVPR 2026\] LiteSense: Lifting Lightweight ToF with RGB for High-Resolution Metric Depth Estimation](litesense_lifting_lightweight_tof_with_rgb_for_high-resolution_metric_depth_esti.md)
-- [\[CVPR 2026\] Revisiting 3D Reconstruction Kernels as Low-Pass Filters](revisiting_3d_reconstruction_kernels_as_low-pass_filters.md)
 
 </div>
 

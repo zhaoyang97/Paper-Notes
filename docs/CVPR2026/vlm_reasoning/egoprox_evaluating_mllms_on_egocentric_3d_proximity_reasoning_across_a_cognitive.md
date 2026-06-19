@@ -2,10 +2,10 @@
 title: >-
   [论文解读] EgoProx: Evaluating MLLMs on Egocentric 3D Proximity Reasoning Across a Cognitive Hierarchy
 description: >-
-  [CVPR 2026][多模态VLM][第一人称视角] EgoProx 是第一个评测多模态大模型（MLLM）能否从第一人称视角做"身体—物体"3D 邻近推理的基准：它把任务按人类认知层级组织成 Intention / Exploration / Exploitation / Chain-of-Actions 四类，用一个以 Gemini-2.5-Pro 为大脑、编排多种 3D 工具的 agent 数据引擎自动生成 2405 条高质量 QA，结果显示即便 GPT-5、Gemini-2.5-Pro 也远低于人类水平，但少量指令微调就能大幅解锁模型预训练里"沉睡"的空间知识。
+  [CVPR 2026][VLM Reasoning][第一人称视角] EgoProx 是第一个评测多模态大模型（MLLM）能否从第一人称视角做"身体—物体"3D 邻近推理的基准：它把任务按人类认知层级组织成 Intention / Exploration / Exploitation / Chain-of-Actions 四类，用一个以 Gemini-2.5-Pro 为大脑、编排多种 3D 工具的 agent 数据引擎自动生成 2405 条高质量 QA，结果显示即便 GPT-5、Gemini-2.5-Pro 也远低于人类水平，但少量指令微调就能大幅解锁模型预训练里"沉睡"的空间知识。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "第一人称视角"
   - "3D邻近推理"
   - "认知层级"
@@ -148,11 +148,11 @@ MLLM 自己估不准 3D 距离和朝向，作者干脆把这部分外包给一�
 
 ## 相关论文
 
-- [\[CVPR 2026\] LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map](lasar_towards_spatio-temporal_reasoning_with_latent_cognitive_map.md)
 - [\[CVPR 2026\] Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth](think_360_evaluating_the_width-centric_reasoning_capability_of_mllms_beyond_dept.md)
-- [\[ICLR 2026\] EgoHandICL: Egocentric 3D Hand Reconstruction with In-Context Learning](../../ICLR2026/multimodal_vlm/egohandicl_egocentric_3d_hand_reconstruction_with_in-context_learning.md)
-- [\[CVPR 2026\] EgoSound: Benchmarking Sound Understanding in Egocentric Videos](egosound_benchmarking_sound_understanding_in_egocentric_videos.md)
-- [\[CVPR 2026\] CogniVerse: Revolutionizing Multi-Modal Retrieval-Augmented Generation with Cognitive Reflection and Geometric Reasoning](cogniverse_revolutionizing_multi-modal_retrieval-augmented_generation_with_cogni.md)
+- [\[CVPR 2026\] Prototypical Action Reasoning Facilitated by Vision-Language Alignment for Egocentric Action Anticipation](prototypical_action_reasoning_facilitated_by_vision-language_alignment_for_egoce.md)
+- [\[CVPR 2026\] Beyond 3D VQAs: Injecting 3D Spatial Priors into Vision-Language Models for Enhanced Geometric Reasoning](beyond_3d_vqas_injecting_3d_spatial_priors_into_vision-language_models_for_enhan.md)
+- [\[ACL 2026\] Do MLLMs Understand Pointing? Benchmarking and Enhancing Referential Reasoning in Egocentric Vision](../../ACL2026/vlm_reasoning/do_mllms_understand_pointing_benchmarking_and_enhancing_referential_reasoning_in.md)
+- [\[CVPR 2026\] CLiViS: Unleashing Cognitive Map through Linguistic-Visual Synergy for Embodied Visual Reasoning](clivis_unleashing_cognitive_map_through_linguistic-visual_synergy_for_embodied_v.md)
 
 </div>
 

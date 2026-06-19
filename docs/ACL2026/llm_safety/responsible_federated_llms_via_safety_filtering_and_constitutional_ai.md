@@ -77,6 +77,7 @@ FedLLM 的服务器看不到客户端原始数据，传统那套"集中清洗数
 ## 实验关键数据
 
 ### 主实验
+
 | 联邦算法 | 方法 | AdvBench 安全分 | HHH 安全分 | MT-Bench 有用性 |
 |----------|------|----------------|------------|-----------------|
 | FedAvg | Llama3.1-8B-Instruct | 99.6 | 60.0 | 6.8 |
@@ -90,6 +91,7 @@ FedLLM 的服务器看不到客户端原始数据，传统那套"集中清洗数
 | SCAFFOLD | FL + Safety filter + CAI | 97.1 | 63.9 | 5.8 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 原始 LG3 | Acc. 70.1 / Precision 90.6 / Recall 0.5 / Hmean 1.0 | 几乎不抓 unsafe 样本，不能直接作为客户端过滤器 |
@@ -133,8 +135,8 @@ FedLLM 的服务器看不到客户端原始数据，传统那套"集中清洗数
 
 - [\[ACL 2026\] SHAPE: Unifying Safety, Helpfulness and Pedagogy for Educational LLMs](shape_unifying_safety_helpfulness_and_pedagogy_for_educational_llms.md)
 - [\[AAAI 2026\] FedP²EFT: Federated Learning to Personalize PEFT for Multilingual LLMs](../../AAAI2026/llm_safety/fedp2eft_federated_learning_to_personalize_peft_for_multilingual_llms.md)
+- [\[ICLR 2026\] Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](../../ICLR2026/llm_safety/breaking_agent_backbones_evaluating_the_security_of_backbone_llms_in_ai_agents.md)
 - [\[ACL 2026\] Robust Multimodal Safety via Conditional Decoding](robust_multimodal_safety_via_conditional_decoding.md)
-- [\[ICML 2026\] BioAgent Bench: An AI Agent Evaluation Suite for Bioinformatics](../../ICML2026/llm_safety/bioagent_bench_an_ai_agent_evaluation_suite_for_bioinformatics.md)
 - [\[ACL 2026\] XOXO: Stealthy Cross-Origin Context Poisoning Attacks against AI Coding Assistants](xoxo_stealthy_cross-origin_context_poisoning_attacks_against_ai_coding_assistant.md)
 
 </div>

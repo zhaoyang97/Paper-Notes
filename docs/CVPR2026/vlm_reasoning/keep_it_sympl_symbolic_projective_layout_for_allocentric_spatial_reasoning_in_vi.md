@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Keep it SymPL: Symbolic Projective Layout for Allocentric Spatial Reasoning in Vision-Language Models
 description: >-
-  [CVPR 2026][多模态VLM][他者中心空间推理] SymPL 发现 VLM 做"从场景里某个物体的视角"出发的他者中心（allocentric）空间推理很差，于是免训练地把这类问题先抽取 3D 信息、再用投影/抽象/二分/定位四个因子改写成一张"哪个彩色圆点落在黄色区域"的符号化布局问题，把 VLM 不擅长的视角变换转成它天生擅长的"颜色区域定位"，在他者中心与自我中心任务上都大幅涨点。
+  [CVPR 2026][VLM Reasoning][他者中心空间推理] SymPL 发现 VLM 做"从场景里某个物体的视角"出发的他者中心（allocentric）空间推理很差，于是免训练地把这类问题先抽取 3D 信息、再用投影/抽象/二分/定位四个因子改写成一张"哪个彩色圆点落在黄色区域"的符号化布局问题，把 VLM 不擅长的视角变换转成它天生擅长的"颜色区域定位"，在他者中心与自我中心任务上都大幅涨点。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "他者中心空间推理"
   - "视角变换"
   - "符号化布局"
@@ -135,10 +135,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] Hierarchical Process Reward Models are Symbolic Vision Learners](hierarchical_process_reward_models_are_symbolic_vision_learners.md)
-- [\[CVPR 2026\] HOG-Layout: Hierarchical 3D Scene Generation, Optimization and Editing via Vision-Language Models](hog_layout_hierarchical_3d_scene_generation_optimization_and_editing.md)
 - [\[CVPR 2026\] SpatiaLQA: A Benchmark for Evaluating Spatial Logical Reasoning in Vision-Language Models](spatialqa_a_benchmark_for_evaluating_spatial_logical_reasoning_in_vision-languag.md)
-- [\[CVPR 2026\] Hear you are: Teaching LLMs Spatial Reasoning with Vision and Spatial Sound](hear_you_are_teaching_llms_spatial_reasoning_with_vision_and_spatial_sound.md)
+- [\[CVPR 2026\] Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models](learning_to_reason_in_4d_dynamic_spatial_understanding_for_vision_language_model.md)
 - [\[CVPR 2026\] HandVQA: Diagnosing and Improving Fine-Grained Spatial Reasoning about Hands in Vision-Language Models](handvqa_diagnosing_and_improving_fine-grained_spatial_reasoning_about_hands_in_v.md)
+- [\[CVPR 2026\] DeepScan: A Training-Free Framework for Visually Grounded Reasoning in Large Vision-Language Models](deepscan_a_training-free_framework_for_visually_grounded_reasoning_in_large_visi.md)
 
 </div>
 

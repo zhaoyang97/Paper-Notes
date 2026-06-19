@@ -137,8 +137,8 @@ Seq 3（复杂剪刀）改进最显著,mIoU从0.318提升到0.835。
 - [\[ICCV 2025\] SuperDec: 3D Scene Decomposition with Superquadric Primitives](superdec_3d_scene_decomposition_with_superquadrics_primitives.md)
 - [\[ICCV 2025\] InstaScene: Towards Complete 3D Instance Decomposition and Reconstruction from Cluttered Scenes](instascene_towards_complete_3d_instance_decomposition_and_reconstruction_from_cl.md)
 - [\[ICCV 2025\] DeGauss: Dynamic-Static Decomposition with Gaussian Splatting for Distractor-free 3D Reconstruction](degauss_dynamic-static_decomposition_with_gaussian_splatting_for_distractor-free.md)
-- [\[CVPR 2026\] Semantic Foam: Unifying Spatial and Semantic Scene Decomposition](../../CVPR2026/3d_vision/semantic_foam_unifying_spatial_and_semantic_scene_decomposition.md)
 - [\[ICCV 2025\] Scene Coordinate Reconstruction Priors](scene_coordinate_reconstruction_priors.md)
+- [\[CVPR 2026\] Semantic Foam: Unifying Spatial and Semantic Scene Decomposition](../../CVPR2026/3d_vision/semantic_foam_unifying_spatial_and_semantic_scene_decomposition.md)
 
 </div>
 

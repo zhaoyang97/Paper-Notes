@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal Reasoning
 description: >-
-  [CVPR 2026][多模态VLM][RLVR] CARE 是一套"以失败为中心"的多模态推理 RLVR 后训练框架：把组内最佳 rollout 当锚点、围绕它挑一小撮"差一点就对"的难负样本做子组内 z-score 归一化并只压制负样本，再对代表性失败做一次结构化反思重采样，把"近似错误"变成监督信号，在 Qwen2.5-VL-7B 上六个可验证视觉推理基准 macro 平均比 GRPO 高 4.62 分。
+  [CVPR 2026][VLM Reasoning][RLVR] CARE 是一套"以失败为中心"的多模态推理 RLVR 后训练框架：把组内最佳 rollout 当锚点、围绕它挑一小撮"差一点就对"的难负样本做子组内 z-score 归一化并只压制负样本，再对代表性失败做一次结构化反思重采样，把"近似错误"变成监督信号，在 Qwen2.5-VL-7B 上六个可验证视觉推理基准 macro 平均比 GRPO 高 4.62 分。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "RLVR"
   - "GRPO"
   - "对比优势归一化"
@@ -150,9 +150,9 @@ $$A_{\text{raw}}[y^+]\approx \zeta\sqrt{K'},\qquad A_{\text{raw}}[y_j^-]\approx 
 
 - [\[CVPR 2026\] Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning](perceptual-evidence_anchored_reinforced_learning_for_multimodal_reasoning.md)
 - [\[CVPR 2026\] Beyond Multiple Choice: Verifiable OpenQA for Robust Vision-Language RFT](beyond_multiple_choice_verifiable_openqa_for_robust_vision-language_rft.md)
+- [\[CVPR 2026\] DPAD: Discriminative Perception via Anchored Description for Reasoning Segmentation](discriminative_perception_via_anchored_description_for_reasoning_segmentation.md)
 - [\[CVPR 2026\] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding](revisor_beyond_textual_reflection_towards_multimodal_introspective_reasoning_in_.md)
-- [\[CVPR 2026\] Stable and Efficient Single-Rollout RL for Multimodal Reasoning](stable_and_efficient_single-rollout_rl_for_multimodal_reasoning.md)
-- [\[CVPR 2026\] CogniVerse: Revolutionizing Multi-Modal Retrieval-Augmented Generation with Cognitive Reflection and Geometric Reasoning](cogniverse_revolutionizing_multi-modal_retrieval-augmented_generation_with_cogni.md)
+- [\[CVPR 2026\] Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning](seeing_what_matters_a_training-free_self-guided_framework_for_multimodal_detail_.md)
 
 </div>
 

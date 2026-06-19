@@ -168,7 +168,7 @@ SpaDE在DINOv2上能识别出前景/背景、物体部件（手、面部、鱼�
 - [\[NeurIPS 2025\] Learning Sparse Approximate Inverse Preconditioners for Conjugate Gradient Solvers on GPUs](learning_sparse_approximate_inverse_preconditioners_for_conjugate_gradient_solve.md)
 - [\[ICML 2025\] Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation](../../ICML2025/optimization/sparse_causal_discovery_with_generative_intervention_for_unsupervised_graph_doma.md)
 - [\[ICLR 2026\] Generalization Below the Edge of Stability: The Role of Data Geometry](../../ICLR2026/optimization/generalization_below_the_edge_of_stability_the_role_of_data_geometry.md)
-- [\[CVPR 2026\] FedRG: Unleashing the Representation Geometry for Federated Learning with Noisy Clients](../../CVPR2026/optimization/fedrg_unleashing_the_representation_geometry_for_federated_learning_with_noisy_c.md)
+- [\[ICML 2025\] Optimization over Sparse Support-Preserving Sets: Two-Step Projection with Global Optimality Guarantees](../../ICML2025/optimization/optimization_over_sparse_support-preserving_sets_two-step_projection_with_global.md)
 
 </div>
 

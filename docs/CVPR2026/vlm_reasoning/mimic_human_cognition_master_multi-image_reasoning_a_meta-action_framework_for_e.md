@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Mimic Human Cognition, Master Multi-Image Reasoning: A Meta-Action Framework for Enhanced Visual Understanding
 description: >-
-  [CVPR 2026][多模态VLM][多图推理] 针对多模态大模型（MLLM）在多图推理上明显掉点的问题，本文模仿人类认知，把多图推理拆成 Global / Focus / Hint / Think / Answer 五个结构化"元动作"（CINEMA 框架），用"检索式树采样"造两条高质量轨迹做冷启动、再用"多样性保持 + 退火 DAPO"两阶段强化学习防熵塌缩，让 7B 模型在 MUIR、MV-Math 等多图基准上反超 GPT-4o，并在视频与单图任务上同样涨点。
+  [CVPR 2026][VLM Reasoning][多图推理] 针对多模态大模型（MLLM）在多图推理上明显掉点的问题，本文模仿人类认知，把多图推理拆成 Global / Focus / Hint / Think / Answer 五个结构化"元动作"（CINEMA 框架），用"检索式树采样"造两条高质量轨迹做冷启动、再用"多样性保持 + 退火 DAPO"两阶段强化学习防熵塌缩，让 7B 模型在 MUIR、MV-Math 等多图基准上反超 GPT-4o，并在视频与单图任务上同样涨点。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "多图推理"
   - "元动作"
   - "认知框架"
@@ -78,6 +78,7 @@ $$R = 0.5 \cdot \Big(R_{acc}\cdot\big(R_{acc} - \tfrac{N-1}{G-1}\cdot 0.1\big)\B
 ## 实验关键数据
 
 ### 多图 / 视频基准主结果（Table 1，部分，骨干 Qwen2.5-VL-7B）
+
 | 模型 | MUIR | MMIU | MV-Math | EMMA | MIRB | MVBench | VideoMME | VideoMMMU | Overall |
 |------|------|------|---------|------|------|---------|----------|-----------|---------|
 | GPT-4o（闭源） | 68.0 | 55.7 | 32.1 | 32.7 | – | – | 75.0 | 61.2 | – |
@@ -91,6 +92,7 @@ $$R = 0.5 \cdot \Big(R_{acc}\cdot\big(R_{acc} - \tfrac{N-1}{G-1}\cdot 0.1\big)\B
 本文模型在 MUIR、MV-Math 上**反超闭源 GPT-4o**（71.6>68.0、36.9>32.1），在所有三个视频基准上超过专门的视频推理模型；相对基线 Qwen2.5-VL 平均涨 +6.1。单图基准（Table 2）上 Overall 45.5、相对基线 +4.7，在 M3COT 上也超过 GPT-4V/GPT-4o，证明框架对单图任务同样泛化。
 
 ### 消融一：检索式树采样（Table 3，MUIR / MMIU / EMMA，SFT→RL）
+
 | 冷启动方式 | MUIR(RL) | MMIU(RL) | EMMA(RL) | 说明 |
 |-----------|----------|----------|----------|------|
 | Direct Prompting（不训练直接提示元动作） | 33.8 | 36.9 | 14.1 | 远低于原模型，说明未训练模型不会用元动作 |
@@ -99,6 +101,7 @@ $$R = 0.5 \cdot \Big(R_{acc}\cdot\big(R_{acc} - \tfrac{N-1}{G-1}\cdot 0.1\big)\B
 | **本文 两条轨迹** | **71.6** | **53.3** | **29.3** | RL 下三项最优 |
 
 ### 消融二：各元动作贡献（Table 4，逐个移除）
+
 | 配置 | MUIR | MIRB | VideoMME |
 |------|------|------|----------|
 | 完整 CINEMA | 71.0 | 55.7 | 61.0 |
@@ -143,11 +146,11 @@ $$R = 0.5 \cdot \Big(R_{acc}\cdot\big(R_{acc} - \tfrac{N-1}{G-1}\cdot 0.1\big)\B
 
 ## 相关论文
 
-- [\[CVPR 2026\] Will Multimodal Models Be Dazzled by Multi-Image Visual Puzzles?](will_multimodal_models_be_dazzled_by_multi-image_visual_puzzles.md)
-- [\[CVPR 2026\] EgoMind: Activating Spatial Cognition through Linguistic Reasoning in MLLMs](egomind_activating_spatial_cognition_through_linguistic_reasoning_in_mllms.md)
-- [\[CVPR 2026\] KEC: Hierarchical Textual Knowledge for Enhanced Image Clustering](kec_hierarchical_textual_knowledge_clustering.md)
-- [\[CVPR 2026\] MA-Bench: Towards Fine-grained Micro-Action Understanding](ma-bench_towards_fine-grained_micro-action_understanding.md)
-- [\[ACL 2026\] SlideAgent: Hierarchical Agentic Framework for Multi-Page Visual Document Understanding](../../ACL2026/multimodal_vlm/slideagent_hierarchical_agentic_framework_for_multi-page_visual_document_underst.md)
+- [\[CVPR 2026\] MMTIT-Bench: A Multilingual and Multi-Scenario Benchmark with Cognition-Perception-Reasoning Guided Text-Image Machine Translation](mmtit-bench_a_multilingual_and_multi-scenario_benchmark_with_cognition-perceptio.md)
+- [\[CVPR 2026\] Decompose and Transfer: CoT-Prompting Enhanced Alignment for Open-Vocabulary Temporal Action Detection](decompose_and_transfer_cot-prompting_enhanced_alignment_for_open-vocabulary_temp.md)
+- [\[CVPR 2026\] Prototypical Action Reasoning Facilitated by Vision-Language Alignment for Egocentric Action Anticipation](prototypical_action_reasoning_facilitated_by_vision-language_alignment_for_egoce.md)
+- [\[CVPR 2026\] A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](a_multi-agent_perception-action_alliance_for_efficient_long_video_reasoning.md)
+- [\[ICML 2026\] From Correspondence to Actions: Human-Like Multi-Image Spatial Reasoning in Multi-modal Large Language Models](../../ICML2026/vlm_reasoning/from_correspondence_to_actions_human-like_multi-image_spatial_reasoning_in_multi.md)
 
 </div>
 

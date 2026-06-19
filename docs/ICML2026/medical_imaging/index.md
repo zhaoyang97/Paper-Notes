@@ -1,19 +1,19 @@
 ---
 title: >-
-  ICML2026 医学图像论文汇总 · 24篇论文解读
+  ICML2026 医学图像论文汇总 · 28篇论文解读
 description: >-
-  24篇ICML2026的医学图像方向论文解读，涵盖医学影像、推理、语义分割、多模态、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  28篇ICML2026的医学图像方向论文解读，涵盖医学影像、语义分割、推理、多模态、对齐/RLHF、联邦学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICML2026"
   - "医学图像"
   - "论文解读"
   - "论文笔记"
   - "医学影像"
-  - "推理"
   - "语义分割"
+  - "推理"
   - "多模态"
   - "对齐/RLHF"
-  - "对抗鲁棒"
+  - "联邦学习"
 item_list:
   - u: "are_we_overconfident_in_models_and_results_for_semi-supervised_3d_medical_image_/"
     t: "Are We Overconfident in Models and Results for Semi-Supervised 3D Medical Image Segmentation?"
@@ -23,6 +23,8 @@ item_list:
     t: "CASCADE Conformal Prediction: Uncertainty-Adaptive Prediction Intervals for Two-Stage Clinical Decision Support"
   - u: "discontinuous_galerkin_neural_operator_for_pathology_defocus_deblurring/"
     t: "DGNO: Discontinuous Galerkin Neural Operator for Pathology Defocus Deblurring"
+  - u: "diyhealth_suite_dataset_model_and_benchmark_for_health_management_at_home/"
+    t: "DIYHealth Suite: Dataset, Model, and Benchmark for Health Management at Home"
   - u: "dp-kfc_data-free_preconditioning_for_privacy-preserving_deep_learning/"
     t: "DP-KFC: Data-Free Preconditioning for Privacy-Preserving Deep Learning"
   - u: "eeg-based_multimodal_learning_via_hyperbolic_mixture-of-curvature_experts/"
@@ -49,12 +51,16 @@ item_list:
     t: "PaCX-MAE: Physiology-Augmented Chest X-Ray Masked Autoencoder"
   - u: "plug-and-play_diffusion_meets_admm_dual-variable_coupling_for_robust_medical_ima/"
     t: "Plug-and-Play Diffusion Meets ADMM: Dual-Variable Coupling for Robust Medical Image Reconstruction"
+  - u: "prism_a_3d_probabilistic_neural_representation_for_interpretable_shape_modeling/"
+    t: "PRISM: A 3D Probabilistic Neural Representation for Interpretable Shape Modeling"
   - u: "scaling_vision_transformers_for_functional_mri_with_flat_maps/"
     t: "Scaling Vision Transformers for Functional MRI with Flat Maps"
   - u: "seizure-semiology-suite_s3_a_clinically_multimodal_dataset_benchmark_and_models_/"
     t: "Seizure-Semiology-Suite (S³): A Clinically Multimodal Dataset, Benchmark, and Models for Seizure Semiology Understanding"
   - u: "semir_semantic_minor-induced_representation_learning_on_graphs_for_visual_segmen/"
     t: "SEMIR: Semantic Minor-Induced Representation Learning on Graphs for Visual Segmentation"
+  - u: "shift-dependent_asymmetry_orthogonal_inverse_low-rank_adaptation_for_federated_m/"
+    t: "Shift-Dependent Asymmetry: Orthogonal Inverse Low-Rank Adaptation for Federated Medical Segmentation"
   - u: "synermedgen_synergizing_medical_multimodal_understanding_with_generation_via_tas/"
     t: "SynerMedGen: Synergizing Medical Multimodal Understanding with Generation via Task Alignment"
   - u: "the_double_dilemma_in_multi-task_radiology_report_generation_a_gradient_dynamics/"
@@ -63,17 +69,19 @@ item_list:
     t: "PathCTM: Thinking in Scales — Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning"
   - u: "turning_drift_into_constraint_robust_reasoning_alignment_in_non-stationary_envir/"
     t: "Turning Drift into Constraint: Robust Reasoning Alignment in Non-Stationary Multi-Stream Environments"
-item_total: 24
+  - u: "which_anatomy_matters_under_limited_labels_a_data-efficient_anatomy-aware_benchm/"
+    t: "Which Anatomy Matters Under Limited Labels? A Data-Efficient Anatomy-Aware Benchmark for Cardiac Pathology Prediction"
+item_total: 28
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🧪 ICML2026** · **24** 篇论文解读
+**🧪 ICML2026** · **28** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (176)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (22)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (75)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (77)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/medical_imaging/index.md) · [🧪 ICML2025 (21)](../../ICML2025/medical_imaging/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (172)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (34)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (75)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (77)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/medical_imaging/index.md) · [🧪 ICML2025 (21)](../../ICML2025/medical_imaging/index.md)
 
-🔥 **高频主题：** 医学影像 ×12 · 推理 ×4 · 语义分割 ×3 · 多模态 ×3 · 对齐/RLHF ×3
+🔥 **高频主题：** 医学影像 ×14 · 语义分割 ×4 · 推理 ×4 · 多模态 ×3 · 对齐/RLHF ×3
 
 **[Are We Overconfident in Models and Results for Semi-Supervised 3D Medical Image Segmentation?](are_we_overconfident_in_models_and_results_for_semi-supervised_3d_medical_image_.md)**
 
@@ -90,6 +98,10 @@ item_total: 24
 **[DGNO: Discontinuous Galerkin Neural Operator for Pathology Defocus Deblurring](discontinuous_galerkin_neural_operator_for_pathology_defocus_deblurring.md)**
 
 :   DGNO 把病理显微图像的散焦去模糊重新表述为"空间变化积分算子"的反问题，用不连续 Galerkin 风格把全局核拆成元素局部积分算子 + 界面数值通量，既保留神经算子的物理可解释性，又能处理病理图像本质上的局部不连续模糊；在 BBBC006w1 等数据集上超越 NAFNet / Restormer / MambaIRv2 等 SOTA。
+
+**[DIYHealth Suite: Dataset, Model, and Benchmark for Health Management at Home](diyhealth_suite_dataset_model_and_benchmark_for_health_management_at_home.md)**
+
+:   针对"在家自己管健康"（Diagnosis-It-Yourself）这一被现有医疗大模型忽视的场景，本文一口气交付了数据集（DIYHealth-900K，90 万条多模态家庭健康问答）、模型（DIYHealthGPT，核心是新提出的 H2LoRA 参数高效微调机制）、基准（DIYHealthBench，首个覆盖 11 项家庭健康任务的评测），在通用与医疗专用基线上都取得 SOTA。
 
 **[DP-KFC: Data-Free Preconditioning for Privacy-Preserving Deep Learning](dp-kfc_data-free_preconditioning_for_privacy-preserving_deep_learning.md)**
 
@@ -143,6 +155,10 @@ item_total: 24
 
 :   本文把 ADMM 的对偶变量重新塞回 PnP 扩散先验循环，用"对偶"提供积分反馈消除稳态偏差，再用一个频域 Spectral Homogenization 模块把结构化对偶残差白化成伪 AWGN，避免触发扩散去噪器的 OOD 幻觉，在 sparse-view / limited-angle CT 与加速 MRI 上同时拿到 SOTA 保真度和约 3× 推理加速。
 
+**[PRISM: A 3D Probabilistic Neural Representation for Interpretable Shape Modeling](prism_a_3d_probabilistic_neural_representation_for_interpretable_shape_modeling.md)**
+
+:   PRISM 把隐式神经表示与不确定性感知的统计形状分析打通——用一个条件异方差高斯场建模解剖结构随协变量（如年龄）演化的均值轨迹与空间异质变异，并推导出闭式的 Fisher 信息度量来解析地量化「内在发育时间」的局部不确定性，在合成与儿童气道临床数据上同时支持形状演化、个性化预测与异常检测。
+
 **[Scaling Vision Transformers for Functional MRI with Flat Maps](scaling_vision_transformers_for_functional_mri_with_flat_maps.md)**
 
 :   把 3D fMRI 体积按"皮层展平图"投影成 2D 视频后直接喂给标准 spacetime MAE-ViT，得到一个在 2.1K 小时 HCP 数据上训练的 CortexMAE：在认知状态解码上大幅超 SOTA，验证 flat map 是体素 (volume) 和脑区平均 (parcellation) 之间的"goldilocks zone"；同时发布首个开源 fMRI 基础模型基准 Brainmarks，给出 fMRI 模型的第一份系统 scaling law 与一个"个体特质预测仍打不过简单功能连接 baseline"的诚实 null result。
@@ -154,6 +170,10 @@ item_total: 24
 **[SEMIR: Semantic Minor-Induced Representation Learning on Graphs for Visual Segmentation](semir_semantic_minor-induced_representation_learning_on_graphs_for_visual_segmen.md)**
 
 :   SEMIR 把体素栅格当作母图 $G$，通过参数化的边收缩 / 节点删除 / 边删除把它压成一张「边界对齐」的图 minor $H$（节点数从 $\sim10^7$ 降到 $\sim10^3$），用 5–20 张少样本黑盒优化 $\Theta$ 最大化边界 Dice，再在 minor 上用 GNN 做超节点分类，最后通过 minor 与体素之间的双射 exact lifting 回到原栅格——在 BraTS / KiTS / LiTS 三大肿瘤分割任务的少数类 Dice 上稳定超过 nnU-Net，且仅需 16GB T4 GPU。
+
+**[Shift-Dependent Asymmetry: Orthogonal Inverse Low-Rank Adaptation for Federated Medical Segmentation](shift-dependent_asymmetry_orthogonal_inverse_low-rank_adaptation_for_federated_m.md)**
+
+:   针对"用联邦 LoRA 微调医学分割大模型时各客户端数据异质"的问题，本文发现编码器和解码器面对的异质性来源根本不同（编码器主要被外观/采集偏移主导、解码器被标注/概念偏移主导），于是提出 IAT 在两个模块上**反向分配** LoRA 的共享/本地因子，再用 SOR 子空间正交正则堵住双线性参数化里"本地更新泄漏进共享方向"的暗道，在组织病理与眼底两类医学分割上稳定超过强联邦 LoRA 基线。
 
 **[SynerMedGen: Synergizing Medical Multimodal Understanding with Generation via Task Alignment](synermedgen_synergizing_medical_multimodal_understanding_with_generation_via_tas.md)**
 
@@ -170,3 +190,7 @@ item_total: 24
 **[Turning Drift into Constraint: Robust Reasoning Alignment in Non-Stationary Multi-Stream Environments](turning_drift_into_constraint_robust_reasoning_alignment_in_non-stationary_envir.md)**
 
 :   本文把多个 MLLM 之间的推理"漂移"重新解释成 DPO 中的负样本约束，用 Plackett-Luce 偏好损失同时压制 N 个 source model 的发散轨迹，让 7B 学生模型在不需要 ground-truth 报告的前提下，仅用 10% 的 MIMIC-CXR 就在胸片分类与报告生成任务上超过所有 source teacher。
+
+**[Which Anatomy Matters Under Limited Labels? A Data-Efficient Anatomy-Aware Benchmark for Cardiac Pathology Prediction](which_anatomy_matters_under_limited_labels_a_data-efficient_anatomy-aware_benchm.md)**
+
+:   本文在公开 ACDC 心脏 MRI 数据集上构建了一个「低标注 + 受限算力」的解剖感知基准，用分割掩码导出的患者级形状描述符做 5 类心脏病理分类，系统性地证明：在标签稀缺时，**选对解剖表征比堆模型复杂度更重要**——其中心肌（MYO）是单结构里信号最强的，多结构组合整体最佳。

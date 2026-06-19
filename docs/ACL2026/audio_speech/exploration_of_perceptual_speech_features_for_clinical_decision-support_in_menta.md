@@ -97,6 +97,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 任务 | 评价设置 | 本文结果 | 对照结果 | 观察 |
 |--------|------|------|----------|------|
 | STRESSID 压力识别 | 10 次随机运行 | Accuracy 0.70, F1 0.81 | 原研究 Wav2Vec+LR: Accuracy 0.66, F1 0.70 | 感知特征 + XGBoost 在该任务上更好 |
@@ -106,6 +107,7 @@ flowchart TD
 | REAL ASRS / PHQ-9 / GAD-7 | 4-fold speaker-disjoint CV | AUC 0.67 / 0.63 / 0.59 | cache 未给外部 SOTA | 真实临床 intake 场景明显更难 |
 
 ### 显著特征与分析
+
 | 场景 | 显著或重要特征 | 数值 / 趋势 | 解释 |
 |------|---------|------|------|
 | STRESSID | Shimmer_local | Non-stressed 0.343, Stressed -0.142, p=1.27e-5 | 声带振幅扰动与压力状态相关 |

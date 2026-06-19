@@ -115,6 +115,7 @@ Captain Safari 在 3D 一致性（MEt3R 0.3690、重建率 0.968）与轨迹跟�
 三准则下都有约 67% 的票投给完整模型，说明提升在感知上很显著，且记忆移除版稳居第二、三个 baseline 都只有个位数偏好。
 
 ### 消融实验
+
 | 配置 | MEt3R ↓ | Recon.率 ↑ | AUC@30 ↑ | CosSim ↑ | FVD ↓ | 说明 |
 |------|---------|-----------|----------|----------|-------|------|
 | Captain Safari（Full） | 0.3690 | 0.968 | 0.200 | 0.563 | 1023.46 | 完整模型 |
@@ -153,10 +154,10 @@ Captain Safari 在 3D 一致性（MEt3R 0.3690、重建率 0.968）与轨迹跟�
 
 ## 相关论文
 
-- [\[CVPR 2026\] PAM: A Pose-Appearance-Motion Engine for Sim-to-Real HOI Video Generation](pam_a_pose-appearance-motion_engine_for_sim-to-real_hoi_video_generation.md)
+- [\[CVPR 2026\] Endless World: Real-Time 3D-Aware Long Video Generation](endless_world_real-time_3d-aware_long_video_generation.md)
 - [\[CVPR 2026\] Spatia: Video Generation with Updatable Spatial Memory](spatia_video_generation_with_updatable_spatial_memory.md)
 - [\[CVPR 2026\] Dual-Granularity Memory for Efficient Video Generation](dual-granularity_memory_for_efficient_video_generation.md)
-- [\[CVPR 2026\] Endless World: Real-Time 3D-Aware Long Video Generation](endless_world_real-time_3d-aware_long_video_generation.md)
+- [\[CVPR 2026\] MoReGen: Multi-Agent Motion-Reasoning Engine for Code-based Text-to-Video Synthesis](moregen_multi-agent_motion-reasoning_engine_for_code-based_text-to-video_synthes.md)
 - [\[CVPR 2026\] OneStory: Coherent Multi-Shot Video Generation with Adaptive Memory](onestory_coherent_multi-shot_video_generation_with_adaptive_memory.md)
 
 </div>

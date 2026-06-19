@@ -114,6 +114,7 @@ IPFP 在三个数据集上一致提升基线，KITTI 上对 PTv3 提了 2.5 mIoU
 IPFP 参数量与基线几乎相同（46.16M vs 89.66M 的 PointPainting），训练单步仅 0.204s（双分支法近 0.4s），却拿到最高 mIoU。
 
 ### 消融实验
+
 | 配置维度 | 设定 | 关键指标(mIoU) | 说明 |
 |----------|------|----------------|------|
 | 深度估计法 | IP-BASIC / DepthAnythingV2 / Unidepth / UnidepthV2 | 70.87 / 70.95 / 71.13 / 71.04 | 对深度模型选择不敏感，Unidepth 略优 |
@@ -160,8 +161,8 @@ IPFP 参数量与基线几乎相同（46.16M vs 89.66M 的 PointPainting），�
 - [\[CVPR 2026\] PointGS: Semantic-Consistent Unsupervised 3D Point Cloud Segmentation with 3D Gaussian Splatting](pointgs_semantic-consistent_unsupervised_3d_point_cloud_segmentation_with_3d_gau.md)
 - [\[CVPR 2026\] Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning](adapting_point_cloud_analysis_via_multimodal_bayesian_distribution_learning.md)
 - [\[CVPR 2026\] GeoFree-CoSeg: Unsupervised Point Cloud-Image Cross-Modal Co-Segmentation Without Geometric Alignment](geofree-coseg_unsupervised_point_cloud-image_cross-modal_co-segmentation_without.md)
-- [\[CVPR 2026\] JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas](jopp3d_joint_open_vocabulary_semantic_segmentation.md)
 - [\[CVPR 2026\] C-GenReg: Training-Free 3D Point Cloud Registration by Multi-View-Consistent Geometry-to-Image Generation with Probabilistic Modalities Fusion](c-genreg_training-free_3d_point_cloud_registration_by_multi-view-consistent_geom.md)
+- [\[CVPR 2026\] Multimodal Semantic Bias Mitigation for Diverse Text-To-3D Generation](multimodal_semantic_bias_mitigation_for_diverse_text-to-3d_generation.md)
 
 </div>
 

@@ -112,6 +112,7 @@ PR-MaGIC **完全免训练**，没有可学习参数、不改架构、不加数�
 PerSAM-F 上语义分割涨点最猛：FSS +8.8、COCO +2.2、LVIS +2.1。part 分割上 Matcher(1-shot) 在 DIS5K 上暴涨 +8.4、PACO +3.8。Matcher 在 FSS-1000 上几乎不动（92.08→92.06），因为 baseline 已经饱和到 92%，没什么可修的——这也印证"baseline 越糟、精炼收益越大"。
 
 ### 消融 / 敏感性分析
+
 | 配置 | 现象 | 含义 |
 |------|------|------|
 | $\eta=10^{-2}$ | 早期快速涨、多迭代后退化 | 步长过大失稳 |
@@ -158,8 +159,8 @@ PerSAM-F 上语义分割涨点最猛：FSS +8.8、COCO +2.2、LVIS +2.1。part �
 - [\[AAAI 2026\] CtrlFuse: Mask-Prompt Guided Controllable Infrared and Visible Image Fusion](../../AAAI2026/segmentation/ctrlfuse_mask-prompt_guided_controllable_infrared_and_visible_image_fusion.md)
 - [\[CVPR 2026\] PromptMoE: A Segmentation Refinement Framework Leveraging Mixture of Experts for Improved Prompting](promptmoe_a_segmentation_refinement_framework_leveraging_mixture_of_experts_for_.md)
 - [\[CVPR 2026\] FlowDIS: Language-Guided Dichotomous Image Segmentation with Flow Matching](flowdis_language-guided_dichotomous_image_segmentation_with_flow_matching.md)
-- [\[CVPR 2026\] Love Me, Love My Label: Rethinking the Role of Labels in Prompt Retrieval for Visual In-Context Learning](love_me_love_my_label_rethinking_the_role_of_labels_in_prompt_retrieval_for_visu.md)
 - [\[CVPR 2026\] INSID3: Training-Free In-Context Segmentation with DINOv3](insid3_training-free_in-context_segmentation_with_dinov3.md)
+- [\[CVPR 2026\] Annotation-Efficient Coreset Selection for Context-dependent Segmentation](annotation-efficient_coreset_selection_for_context-dependent_segmentation.md)
 
 </div>
 

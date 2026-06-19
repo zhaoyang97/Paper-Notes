@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.09808](https://arxiv.org/abs/2511.09808)  
 **代码**: 无  
-**领域**: 计算生物
+**领域**: 计算生物  
 **关键词**: Best Arm Identification, feasibility constraints, fixed confidence, sample complexity, asymptotic optimality
 
 ## 一句话总结

@@ -98,6 +98,7 @@ BufferLoRA 只能"维持"原始对齐水平，补不回基座本身那点安全�
 跨任务对比（$p=0.1$）显示框架在三类下游任务上都保持低 HS：GSM8K 上 HS 从 SFT 的 75.2 降到 8 量级、SST2 上从 79.4 降到与 SFT 相当的精度而 HS 仅约 8、AGNEWS 上也维持在 8 附近，平均 FA 与 SFT 持平甚至略升，没有出现 SafeLoRA / Antidote 那种 HS 随用户数据规模急剧反弹的现象。
 
 ### 消融实验
+
 | 配置 | HS ↓ | FA ↑ | 说明 |
 |------|------|------|------|
 | 完整 Buffer-and-Reinforce | ≈8.5 | ≈76 | 全套三个 LoRA + QR 正交合并 |
@@ -136,7 +137,7 @@ BufferLoRA 只能"维持"原始对齐水平，补不回基座本身那点安全�
 - [\[CVPR 2026\] Masking Teacher and Reinforcing Student for Distilling Vision-Language Models](../../CVPR2026/model_compression/masking_teacher_and_reinforcing_student_for_distilling_vision-language_models.md)
 - [\[AAAI 2026\] Consensus-Aligned Neuron Efficient Fine-Tuning Large Language Models for Multi-Domain Machine Translation](../../AAAI2026/model_compression/consensus-aligned_neuron_efficient_fine-tuning_large_language_models_for_multi-d.md)
 - [\[ACL 2025\] Outlier-Safe Pre-Training for Robust 4-Bit Quantization of Large Language Models](../../ACL2025/model_compression/outlier-safe_pre-training_for_robust_4-bit_quantization_of_large_language_models.md)
-- [\[ACL 2025\] L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on Large Language Models](../../ACL2025/model_compression/l4q_parameter_efficient_quantization_aware_finetuning.md)
+- [\[ICML 2026\] Decomposing the Basic Abilities of Large Language Models: Mitigating Cross-Task Interference in Multi-Task Instruct-Tuning](decomposing_the_basic_abilities_of_large_language_models_mitigating_cross-task_i.md)
 
 </div>
 

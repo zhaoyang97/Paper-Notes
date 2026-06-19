@@ -81,6 +81,7 @@ RecMem 是 training-free 外部记忆系统，不需要微调 LLM。系统主要
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 / 模型 | 指标 | RecMem | 最强对比记忆系统 | 构建成本对比 |
 |---------------|------|--------|------------------|--------------|
 | LoCoMo / GPT-4.1-mini | Overall accuracy | 81.10 | A-Mem 68.83 / MemoryOS 67.60 | 193.2K construction tokens vs Mem0 1520.8K、A-Mem 1459.93K |
@@ -89,6 +90,7 @@ RecMem 是 training-free 外部记忆系统，不需要微调 LLM。系统主要
 | LongMemEval-S / GPT-4o-mini | Overall accuracy | 69.20 | MemoryOS 67.80 / Mem0 64.00 | 329.55K construction tokens vs Mem0 1244.87K、A-Mem 1180.23K |
 
 ### 消融实验
+
 | 配置 | LoCoMo GPT-4.1-mini Overall | 说明 |
 |------|-----------------------------|------|
 | Full RecMem | 81.10 | 三层记忆完整 |

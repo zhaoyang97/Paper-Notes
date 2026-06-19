@@ -1,47 +1,40 @@
 ---
 title: >-
-  CVPR2026 社会计算论文汇总 · 4篇论文解读
+  CVPR2026 社会计算论文汇总 · 3篇论文解读
 description: >-
-  4篇CVPR2026的社会计算方向论文解读，涵盖多模态、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  3篇CVPR2026的社会计算方向论文解读，涵盖多模态、目标跟踪、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "CVPR2026"
   - "社会计算"
   - "论文解读"
   - "论文笔记"
   - "多模态"
-  - "推理"
+  - "目标跟踪"
+  - "Agent"
 item_list:
   - u: "bridging_pixels_and_words_mask-aware_local_semantic_fusion_for_multimodal_media_/"
     t: "Bridging Pixels and Words: Mask-Aware Local Semantic Fusion for Multimodal Media Verification"
-  - u: "learning_from_synthetic_data_via_provenance-based_input_gradient_guidance/"
-    t: "Learning from Synthetic Data via Provenance-Based Input Gradient Guidance"
-  - u: "probabilistic_concept_graph_reasoning_for_multimodal_misinformation_detection/"
-    t: "Probabilistic Concept Graph Reasoning for Multimodal Misinformation Detection"
+  - u: "instance-level_visual_active_tracking_with_occlusion-aware_planning/"
+    t: "Instance-level Visual Active Tracking with Occlusion-Aware Planning"
   - u: "revisiting_unknowns_towards_effective_and_efficient_open-set_active_learning/"
     t: "Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning"
-item_total: 4
+item_total: 3
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**📷 CVPR2026** · **4** 篇论文解读
+**📷 CVPR2026** · **3** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (8)](../../ICML2026/social_computing/index.md) · [💬 ACL2026 (43)](../../ACL2026/social_computing/index.md) · [🔬 ICLR2026 (12)](../../ICLR2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
-
-🔥 **高频主题：** 多模态 ×2
+📌 **同领域跨会议浏览：** [🧪 ICML2026 (9)](../../ICML2026/social_computing/index.md) · [💬 ACL2026 (44)](../../ACL2026/social_computing/index.md) · [🔬 ICLR2026 (14)](../../ICLR2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
 
 **[Bridging Pixels and Words: Mask-Aware Local Semantic Fusion for Multimodal Media Verification](bridging_pixels_and_words_mask-aware_local_semantic_fusion_for_multimodal_media_.md)**
 
 :   提出 MaLSF 框架，利用掩码-标签对作为语义锚点，通过双向跨模态验证（BCV）和层级语义聚合（HSA）模块实现主动式局部语义冲突检测，在 DGM4 和假新闻检测任务上取得 SOTA。
 
-**[Learning from Synthetic Data via Provenance-Based Input Gradient Guidance](learning_from_synthetic_data_via_provenance-based_input_gradient_guidance.md)**
+**[Instance-level Visual Active Tracking with Occlusion-Aware Planning](instance-level_visual_active_tracking_with_occlusion-aware_planning.md)**
 
-:   本文提出利用合成数据生成过程中自动获得的"出处信息"（provenance）作为辅助监督信号，通过输入梯度引导（抑制非目标区域的输入梯度）直接促进模型学习聚焦于目标区域的判别性表示，在弱监督定位、时空动作检测和图像分类等多任务多模态上验证了有效性。
-
-**[Probabilistic Concept Graph Reasoning for Multimodal Misinformation Detection](probabilistic_concept_graph_reasoning_for_multimodal_misinformation_detection.md)**
-
-:   本文将多模态虚假信息检测（MMD）重构为基于概念图的结构化概率推理问题，提出PCGR框架，通过MLLM自动发现并验证人类可理解的概念节点，构建层次化概率概念图，实现可解释的虚假信息检测，在三个基准上全面超越13个baseline。
+:   OA-VAT 用一张参考图离线构建判别性"实例原型"来对抗相似干扰物，在线 EMA 增强原型 + 置信度自适应卡尔曼滤波保持稳定跟踪，并训练一个以目标框为条件的扩散轨迹规划器在目标被遮挡时主动绕障找回——在 UnrealCV 上平均 SR 0.93、真实图像平均 CAR 90.8%、真机无人机 TSR 81.6%，且 RTX 3090 上 35 FPS 实时。
 
 **[Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning](revisiting_unknowns_towards_effective_and_efficient_open-set_active_learning.md)**
 

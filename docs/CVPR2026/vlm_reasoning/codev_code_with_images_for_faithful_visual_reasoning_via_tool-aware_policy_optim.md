@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization
 description: >-
-  [CVPR 2026][多模态VLM][视觉智能体] 这篇论文发现"会用图思考"的视觉智能体常常**答对但工具用得不忠实**（裁错区域却蒙对答案），提出 CodeV——把视觉工具表示成可执行 Python 代码、并用 Tool-Aware Policy Optimization (TAPO) 在 GRPO 上加一个**只看工具输出、不看思维链**的过程级稠密奖励，结果在 10 个基准上保持甚至超越准确率的同时，把忠实工具调用率提升到基线的 1.3–2 倍。
+  [CVPR 2026][VLM Reasoning][视觉智能体] 这篇论文发现"会用图思考"的视觉智能体常常**答对但工具用得不忠实**（裁错区域却蒙对答案），提出 CodeV——把视觉工具表示成可执行 Python 代码、并用 Tool-Aware Policy Optimization (TAPO) 在 GRPO 上加一个**只看工具输出、不看思维链**的过程级稠密奖励，结果在 10 个基准上保持甚至超越准确率的同时，把忠实工具调用率提升到基线的 1.3–2 倍。
 tags:
   - "CVPR 2026"
-  - "多模态VLM"
+  - "VLM Reasoning"
   - "视觉智能体"
   - "忠实推理"
   - "工具调用奖励"
@@ -165,10 +165,10 @@ CodeV 在多数设置上比 Pixel-Reasoner/DeepEyes 高出两位数、极端情�
 
 ## 相关论文
 
-- [\[CVPR 2026\] HiconAgent: History Context-aware Policy Optimization for GUI Agents](hiconagent_history_context-aware_policy_optimization_for_gui_agents.md)
-- [\[CVPR 2026\] Visual Reasoning through Tool-supervised Reinforcement Learning](visual_reasoning_through_tool-supervised_reinforcement_learning.md)
 - [\[CVPR 2026\] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning](arm-thinker_reinforcing_multimodal_generative_reward_models_with_agentic_tool_us.md)
 - [\[CVPR 2026\] VOLD: Reasoning Transfer from LLMs to Vision-Language Models via On-Policy Distillation](vold_reasoning_transfer_from_llms_to_vision-language_models_via_on-policy_distil.md)
+- [\[CVPR 2026\] Visual-Aware CoT: Achieving High-Fidelity Visual Consistency in Unified Models](visual-aware_cot_achieving_high-fidelity_visual_consistency_in_unified_models.md)
+- [\[CVPR 2026\] CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning](codedance_a_dynamic_tool-integrated_mllm_for_executable_visual_reasoning.md)
 - [\[CVPR 2026\] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](spacetools_tool-augmented_spatial_reasoning_via_double_interactive_rl.md)
 
 </div>

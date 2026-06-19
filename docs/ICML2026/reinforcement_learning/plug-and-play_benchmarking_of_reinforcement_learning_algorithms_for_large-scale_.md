@@ -87,6 +87,7 @@ PPO/SAC 使用 Stable-Baselines3 默认超参，MARL 变体（MA-PPO/MA-SAC）�
 ## 实验关键数据
 
 ### 主实验：环境概览
+
 | 环境前缀 | 控制目标 | #传感器 | #执行器 | SARL | MARL | 步进时间 (s) |
 |----------|----------|---------|---------|------|------|--------------|
 | CylinderJet2D | 减阻 | 302 | 1 | ✓ | × | 2.01 |
@@ -100,6 +101,7 @@ PPO/SAC 使用 Stable-Baselines3 默认超参，MARL 变体（MA-PPO/MA-SAC）�
 覆盖动作维度从 1 到 4096，观测维度跨 3 个数量级。
 
 ### 算法对比与 transfer
+
 | 配置 | 关键发现 |
 |------|----------|
 | PPO vs SAC（SARL） | SAC 在所有难度上 normalized 测试得分均最高，PPO 收敛慢；这与 75% 文献默认 PPO 的做法相反 |
@@ -148,8 +150,8 @@ PPO/SAC 使用 Stable-Baselines3 默认超参，MARL 变体（MA-PPO/MA-SAC）�
 - [\[ICML 2026\] Vulnerable Agent Identification in Large-Scale Multi-Agent Reinforcement Learning](vulnerable_agent_identification_in_large-scale_multi-agent_reinforcement_learnin.md)
 - [\[ICLR 2026\] VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models](../../ICLR2026/reinforcement_learning/verifybench_benchmarking_reference-based_reward_systems_for_large_language_model.md)
 - [\[ICML 2025\] Benchmarking Quantum Reinforcement Learning](../../ICML2025/reinforcement_learning/benchmarking_quantum_reinforcement_learning.md)
-- [\[ICML 2026\] Perceptual Flow Network for Visually Grounded Reasoning](perceptual_flow_network_for_visually_grounded_reasoning.md)
 - [\[ICML 2026\] Adaptive Bandit Algorithms for Contextual Matching Markets](adaptive_bandit_algorithms_for_contextual_matching_markets.md)
+- [\[ICML 2026\] Perceptual Flow Network for Visually Grounded Reasoning](perceptual_flow_network_for_visually_grounded_reasoning.md)
 
 </div>
 

@@ -89,6 +89,7 @@ Stage II 的目标是 horizon distribution matching：$\mathcal{L}_{Stage2}=D_{K
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 / 方法 | 类型 | 适配或训练 tokens | MMLU | IFEval | GSM8K | MATH500 | HumanEval | MBPP |
 |-------------|------|------------------|------|--------|-------|---------|-----------|------|
 | FLUID-7B | Diff | 2.7B | 67.8 | 57.7 | 91.9 | 61.8 | 60.4 | 53.6 |
@@ -97,6 +98,7 @@ Stage II 的目标是 horizon distribution matching：$\mathcal{L}_{Stage2}=D_{K
 | LLaDA-8B | Diff | 缓存未给精确训练量 | 缓存未摘出 | 缓存未摘出 | 78.6 | 缓存未摘出 | 缓存未摘出 | 缓存未摘出 |
 
 ### 消融实验
+
 | 配置 | Causal | Elastic | GSM8K | MATH500 | HumanEval | 说明 |
 |------|--------|---------|-------|---------|-----------|------|
 | Baseline | ✗ | ✗ | 82.0 | 51.2 | 42.2 | 双向固定块基线 |
@@ -145,7 +147,7 @@ Stage II 的目标是 horizon distribution matching：$\mathcal{L}_{Stage2}=D_{K
 - [\[NeurIPS 2025\] Non-Markovian Discrete Diffusion with Causal Language Models](../../NeurIPS2025/image_generation/non-markovian_discrete_diffusion_with_causal_language_models.md)
 - [\[ICML 2026\] Esoteric Language Models: A Family of Any-Order Diffusion LLMs](../../ICML2026/image_generation/esoteric_language_models_a_family_of_any-order_diffusion_llms.md)
 - [\[NeurIPS 2025\] Scaling Diffusion Transformers Efficiently via μP](../../NeurIPS2025/image_generation/scaling_diffusion_transformers_efficiently_via_μp.md)
-- [\[CVPR 2026\] Causal Motion Diffusion Models for Autoregressive Motion Generation](../../CVPR2026/image_generation/causal_motion_diffusion_models_for_autoregressive_motion_generation.md)
+- [\[AAAI 2026\] Unleashing the Potential of Large Language Models for Text-to-Image Generation through Autoregressive Representation Alignment](../../AAAI2026/image_generation/unleashing_the_potential_of_large_language_models_for_text-to-image_generation_t.md)
 
 </div>
 
