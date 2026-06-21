@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning
+description: >-
+  [ICLR 2026][自监督学习][集合表示] SRAL 把每个集合看成一个经验分布，用 2-Sliced-Wasserstein 距离编码出能感知"集合间差异"的表示，再在**特征/编码层而非输入层**注入对抗扰动、用 min-max 优化逼模型抵抗最坏扰动，作为一个可插到各种下游任务的自监督辅助目标；理论上证明该目标在期望意义下等价于优化集合间的 Sliced-Wasserstein 距离，在集合相似度排序、捆绑推荐、点云分类、主题集扩展四类任务上稳定超过现有集合编码器。
+tags:
+  - "ICLR 2026"
+  - "自监督学习"
+  - "集合表示"
+  - "最优传输"
+  - "Sliced-Wasserstein"
+  - "对抗扰动"
+  - "自监督辅助学习"
+---
+
 # Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning
 
 **会议**: ICLR 2026  
-**OpenReview**: [13r06yROEZ](https://openreview.net/forum?id=13r06yROEZ)  
+**OpenReview**: [https://openreview.net/forum?id=13r06yROEZ](https://openreview.net/forum?id=13r06yROEZ)  
 **代码**: 待确认  
 **领域**: 自监督 / 表示学习（集合表示学习）  
 **关键词**: 集合表示, 最优传输, Sliced-Wasserstein, 对抗扰动, 自监督辅助学习
@@ -137,9 +152,9 @@ $$\min_{\Xi}\max_{\|\sigma\|_2\le\pi}L_{wd}(\{v_i^\sigma\}),\quad v_i^\sigma=\ma
 
 - [\[CVPR 2026\] PAF: Perturbation-Aware Filtering for Open-Set Semi-Supervised Learning](../../CVPR2026/self_supervised/paf_perturbation-aware_filtering_for_open-set_semi-supervised_learning.md)
 - [\[ICLR 2026\] Boosting Open Set Recognition Performance through Modulated Representation Learning](boosting_open_set_recognition_performance_through_modulated_representation_learn.md)
-- [\[NeurIPS 2025\] Adv-SSL: Adversarial Self-Supervised Representation Learning with Theoretical Guarantees](../../NeurIPS2025/self_supervised/adv-ssl_adversarial_self-supervised_representation_learning_with_theoretical_gua.md)
-- [\[AAAI 2026\] Improving Sustainability of Adversarial Examples in Class-Incremental Learning](../../AAAI2026/self_supervised/improving_sustainability_of_adversarial_examples_in_class-incremental_learning.md)
-- [\[AAAI 2026\] Let the Void Be Void: Robust Open-Set Semi-Supervised Learning via Selective Non-Alignment](../../AAAI2026/self_supervised/let_the_void_be_void_robust_open-set_semi-supervised_learning_via_selective_non-.md)
+- [\[ICLR 2026\] FedOpenMatch: Towards Semi-Supervised Federated Learning in Open-Set Environments](fedopenmatch_towards_semi-supervised_federated_learning_in_open-set_environments.md)
+- [\[ICLR 2026\] Spatially Informed Autoencoders for Interpretable Visual Representation Learning](spatially_informed_autoencoders_for_interpretable_visual_representation_learning.md)
+- [\[ICLR 2026\] Unsupervised Representation Learning - An Invariant Risk Minimization Perspective](unsupervised_representation_learning_-_an_invariant_risk_minimization_perspectiv.md)
 
 </div>
 

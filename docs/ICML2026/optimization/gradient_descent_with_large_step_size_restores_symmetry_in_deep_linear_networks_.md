@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway
+description: >-
+  [ICML 2026][优化/理论][多路径深度线性网络] 此前用梯度流（GF）分析多路径深度线性网络得出"赢者通吃"——信号会集中到单条路径、对称破缺；本文证明大步长的离散梯度下降（GD）讲的是另一个故事：单路径解是尖锐极小、把信号分摊到多条路径会按 $H^{2/L-1}$ 的因子降低锐度，于是训练在 Edge of Stability 的振荡会推翻早期的对称破缺、进入"路径再平衡"阶段，最终偏好共享而非单路径独占的表示。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "多路径深度线性网络"
+  - "大学习率"
+  - "对称破缺"
+  - "Edge of Stability"
+  - "锐度"
+---
+
 # Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway
 
 **会议**: ICML 2026  

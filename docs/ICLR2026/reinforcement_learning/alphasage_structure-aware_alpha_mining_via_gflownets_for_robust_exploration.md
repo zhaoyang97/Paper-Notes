@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AlphaSAGE: Structure-Aware Alpha Mining via GFlowNets for Robust Exploration
+description: >-
+  [ICLR 2026][强化学习][alpha 挖掘] AlphaSAGE 把量化选股中的公式化 alpha 挖掘从"最大化期望回报的强化学习"改写成"按奖励正比采样的生成流网络（GFlowNets）"，再配上 RGCN 结构编码器和稠密多面奖励，从而一次性挖出一批既预测力强、又彼此低相关、还结构新颖的 alpha 组合，在中美股市多个股票池上全面超过现有 RL/GA/LLM baseline。
+tags:
+  - "ICLR 2026"
+  - "强化学习"
+  - "alpha 挖掘"
+  - "GFlowNets"
+  - "RGCN"
+  - "结构感知"
+  - "多样性奖励"
+---
+
 # AlphaSAGE: Structure-Aware Alpha Mining via GFlowNets for Robust Exploration
 
 **会议**: ICLR 2026  
-**OpenReview**: [zRKF4ln2VE](https://openreview.net/forum?id=zRKF4ln2VE)  
+**OpenReview**: [https://openreview.net/forum?id=zRKF4ln2VE](https://openreview.net/forum?id=zRKF4ln2VE)  
 **代码**: https://github.com/BerkinChen/AlphaSAGE  
 **领域**: 量化金融 / 生成流网络 / 符号表达式挖掘  
 **关键词**: alpha 挖掘, GFlowNets, RGCN, 结构感知, 多样性奖励
@@ -126,10 +141,10 @@ IC 从次优的 0.058（AlphaGen）提到 0.079，RICIR 几乎翻倍（0.360→0
 
 ## 相关论文
 
+- [\[ICLR 2026\] SHAPO: Sharpness-Aware Policy Optimization for Safe Exploration](shapo_sharpness-aware_policy_optimization_for_safe_exploration.md)
 - [\[ICLR 2026\] Beyond Noisy-TVs: Noise-Robust Exploration Via Learning Progress Monitoring](beyond_noisy-tvs_noise-robust_exploration_via_learning_progress_monitoring.md)
-- [\[ICML 2026\] Decoupling Skeleton and Flesh: Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance](../../ICML2026/reinforcement_learning/decoupling_skeleton_and_flesh_efficient_multimodal_table_reasoning_with_disentan.md)
 - [\[ICLR 2026\] ROMI: Model-based Offline RL via Robust Value-Aware Model Learning with Implicitly Differentiable Adaptive Weighting](model-based_offline_rl_via_robust_value-aware_model_learning_with_implicitly_dif.md)
-- [\[AAAI 2026\] G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation](../../AAAI2026/reinforcement_learning/g-ubs_towards_robust_understanding_of_implicit_feedback_via_group-aware_user_beh.md)
+- [\[ICML 2026\] Decoupling Skeleton and Flesh: Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance](../../ICML2026/reinforcement_learning/decoupling_skeleton_and_flesh_efficient_multimodal_table_reasoning_with_disentan.md)
 - [\[ICLR 2026\] Solving Football by Exploiting Equilibrium Structure of 2p0s Differential Games with One-Sided Information](solving_football_by_exploiting_equilibrium_structure_of_2p0s_differential_games_.md)
 
 </div>

@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Assembling the Mind's Mosaic: Towards EEG Semantic Intent Decoding
+description: >-
+  [ICLR2026][EEG 语义解码] 本文提出语义意图解码框架 SID，把"脑信号→语言"重新定义为先把 EEG/SEEG 解码成一组无序的语义单元、再在连续语义空间里检索、最后用 LLM 重建成句子，并给出具体实现 BrainMosaic，在多语种 EEG 与临床 SEEG 数据上的概念级与句子级指标都大幅超过分类式和端到端生成式基线。
+tags:
+  - "ICLR2026"
+  - "EEG 语义解码"
+  - "脑机接口"
+  - "集合匹配"
+  - "连续语义空间"
+  - "LLM 重建"
+---
+
 # Assembling the Mind's Mosaic: Towards EEG Semantic Intent Decoding
 
 **会议**: ICLR2026  
-**OpenReview**: [8OgJ2uhiu8](https://openreview.net/forum?id=8OgJ2uhiu8)  
+**OpenReview**: [https://openreview.net/forum?id=8OgJ2uhiu8](https://openreview.net/forum?id=8OgJ2uhiu8)  
 **代码**: 待确认  
 **领域**: 脑机接口 / EEG 解码 / 神经科学应用  
 **关键词**: EEG 语义解码, 脑机接口, 集合匹配, 连续语义空间, LLM 重建

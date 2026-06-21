@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adversarial Déjà Vu: Jailbreak Dictionary Learning for Stronger Generalization to Unseen Attacks
+description: >-
+  [ICLR2026][LLM安全][越狱] 作者提出"对抗 Déjà Vu"假设——新越狱并非全新发明，而是旧攻击中对抗技能的重新组合；他们用稀疏字典学习把 32 篇攻击论文里抽出的 1.7 万条技能压成约 400 个可解释基元（越狱字典），既验证了"未见攻击能被旧技能稀疏重建"，又据此提出 ASCoT 训练法（在技能组合而非单条攻击上训练），把对未见越狱的有害率压到全场最低且不过度拒答。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "越狱"
+  - "对抗技能"
+  - "稀疏字典学习"
+  - "组合泛化"
+  - "对抗训练"
+---
+
 # Adversarial Déjà Vu: Jailbreak Dictionary Learning for Stronger Generalization to Unseen Attacks
 
 **会议**: ICLR2026  
-**OpenReview**: [WFo8P1gQBh](https://openreview.net/forum?id=WFo8P1gQBh)  
+**OpenReview**: [https://openreview.net/forum?id=WFo8P1gQBh](https://openreview.net/forum?id=WFo8P1gQBh)  
 **代码**: [项目主页](https://mahavirdabas18.github.io/adversarial_deja_vu/)  
 **领域**: LLM 安全 / 越狱防御 / 对抗训练  
 **关键词**: 越狱、对抗技能、稀疏字典学习、组合泛化、对抗训练
@@ -127,11 +142,11 @@ ASCoT 在两个模型族上都拿到最低有害分和对未见攻击最强的�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Learning to Lie: Adversarial Attacks on Human-AI Teams and LLMs](learning_to_lie_adversarial_attacks_on_human-ai_teams_and_llms.md)
 - [\[ACL 2025\] CAVGAN: Unifying Jailbreak and Defense of LLMs via Generative Adversarial Attacks](../../ACL2025/llm_safety/cavgan_unifying_jailbreak_and_defense_of_llms_via_generative_adversarial_attacks.md)
-- [\[ICLR 2026\] Efficient Adversarial Attacks on High-dimensional Offline Bandits](efficient_adversarial_attacks_on_high-dimensional_offline_bandits.md)
+- [\[ICLR 2026\] Sampling-aware Adversarial Attacks against Large Language Models](sampling-aware_adversarial_attacks_against_large_language_models.md)
+- [\[ICLR 2026\] GeneBreaker: Jailbreak Attacks Against DNA Language Models with Pathogenicity Guidance](genebreaker_jailbreak_attacks_against_dna_language_models_with_pathogenicity_gui.md)
 - [\[ICLR 2026\] Automatic Dialectic Jailbreak: A Framework for Generating Effective Jailbreak Strategies](automatic_dialectic_jailbreak_a_framework_for_generating_effective_jailbreak_str.md)
-- [\[ICLR 2026\] BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning](beat_visual_backdoor_attacks_on_vlm-based_embodied_agents_via_contrastive_trigge.md)
-- [\[ACL 2026\] Membership Inference Attacks on In-Context Learning Recommendation](../../ACL2026/llm_safety/membership_inference_attacks_on_llm-based_recommender_systems.md)
 
 </div>
 

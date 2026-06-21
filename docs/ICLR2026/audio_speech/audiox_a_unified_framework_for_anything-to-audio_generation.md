@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AudioX: A Unified Framework for Anything-to-Audio Generation
+description: >-
+  [ICLR2026][音频/语音][任意到音频生成] AudioX 用一个基于扩散 Transformer（DiT）的统一模型，配上一个轻量的「多模态自适应融合（MAF）」模块和 700 万条自建多模态数据 IF-caps，让单一权重就能从文本、视频、音频的任意组合生成高保真音效与音乐，并在细粒度指令跟随上大幅领先各路专才模型。
+tags:
+  - "ICLR2026"
+  - "音频/语音"
+  - "任意到音频生成"
+  - "多模态融合"
+  - "Transformer"
+  - "指令跟随"
+  - "数据构建"
+---
+
 # AudioX: A Unified Framework for Anything-to-Audio Generation
 
 **会议**: ICLR2026  
-**OpenReview**: [qjJWxK3yWo](https://openreview.net/forum?id=qjJWxK3yWo)  
+**OpenReview**: [https://openreview.net/forum?id=qjJWxK3yWo](https://openreview.net/forum?id=qjJWxK3yWo)  
 **代码**: https://zeyuet.github.io/AudioX/  
 **领域**: 音频生成 / 多模态扩散  
 **关键词**: 任意到音频生成, 多模态融合, 扩散 Transformer, 指令跟随, 数据构建
@@ -149,10 +164,10 @@ MAF 架构（Table 4）：
 ## 相关论文
 
 - [\[ICML 2026\] Attend to Anything: Foundation Model for Unified Human Attention Modeling](../../ICML2026/audio_speech/attend_to_anything_foundation_model_for_unified_human_attention_modeling.md)
+- [\[ICLR 2026\] UALM: Unified Audio Language Model for Understanding, Generation and Reasoning](ualm_unified_audio_language_model_for_understanding_generation_and_reasoning.md)
 - [\[AAAI 2026\] Cross-Space Synergy: A Unified Framework for Multimodal Emotion Recognition in Conversation](../../AAAI2026/audio_speech/cross-space_synergy_a_unified_framework_for_multimodal_emotion_recognition_in_co.md)
+- [\[ICLR 2026\] Aurelius: Relation Aware Text-to-Audio Generation At Scale](aurelius_relation_aware_text-to-audio_generation_at_scale.md)
 - [\[AAAI 2026\] DualSpeechLM: Towards Unified Speech Understanding and Generation via Dual Speech Token Modeling](../../AAAI2026/audio_speech/dualspeechlm_towards_unified_speech_understanding_and_generation_via_dual_speech.md)
-- [\[ACL 2026\] UniSonate: A Unified Model for Speech, Music, and Sound Effect Generation with Text Instructions](../../ACL2026/audio_speech/unisonate_a_unified_model_for_speech_music_and_sound_effect_generation_with_text.md)
-- [\[ACL 2026\] Beyond Transcription: Unified Audio Schema for Perception-Aware AudioLLMs](../../ACL2026/audio_speech/beyond_transcription_unified_audio_schema_for_perception-aware_audiollms.md)
 
 </div>
 

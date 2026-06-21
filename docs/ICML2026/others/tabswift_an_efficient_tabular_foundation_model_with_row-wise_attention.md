@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] TabSwift: An Efficient Tabular Foundation Model with Row-Wise Attention
+description: >-
+  [ICML 2026][表格基础模型] 作者证明了 TabPFN 那套"只做行注意力"的极简骨干并没有过时——只要补上门控注意力稳定训练、加一小撮可学习的 register token 聚合全局信息，再配一个逐样本的自适应早退头，就能在精度上追平 TabPFN v2 / TabICL 这些更重的列感知模型，同时推理快得多。
+tags:
+  - "ICML 2026"
+  - "表格基础模型"
+  - "行注意力"
+  - "门控注意力"
+  - "register token"
+  - "自适应早退"
+---
+
 # TabSwift: An Efficient Tabular Foundation Model with Row-Wise Attention
 
 **会议**: ICML 2026  

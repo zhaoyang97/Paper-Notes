@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ATGen: Adversarial Reinforcement Learning for Test Case Generation
+description: >-
+  [ICLR2026][代码智能][测试用例生成] ATGen 把一个"测试用例生成器"和一个"对抗代码生成器"放进一个互相博弈的强化学习循环里——生成器越强，对手就被逼着造出越隐蔽的 bug，这种自动加难的动态课程打破了静态数据集的"固定难度天花板"，让 7B 模型的攻击成功率比 SFT 方法 UTGen 翻倍（36.99% vs 16.24%）。
+tags:
+  - "ICLR2026"
+  - "代码智能"
+  - "测试用例生成"
+  - "对抗强化学习"
+  - "GRPO"
+  - "动态课程"
+  - "代码可靠性"
+---
+
 # ATGen: Adversarial Reinforcement Learning for Test Case Generation
 
 **会议**: ICLR2026  
-**OpenReview**: [Sxj4o3qXtl](https://openreview.net/forum?id=Sxj4o3qXtl)  
+**OpenReview**: [https://openreview.net/forum?id=Sxj4o3qXtl](https://openreview.net/forum?id=Sxj4o3qXtl)  
 **代码**: https://github.com/SIMONLQY/ATGen  
 **领域**: 代码智能 / 测试用例生成  
 **关键词**: 测试用例生成, 对抗强化学习, GRPO, 动态课程, 代码可靠性
@@ -134,11 +149,11 @@ RL 算法用 GRPO（actor-only，无 critic）。骨干为 Qwen2.5-3B-Instruct �
 
 ## 相关论文
 
-- [\[ACL 2026\] ChipSeek: Optimizing Verilog Generation via EDA-Integrated Reinforcement Learning](../../ACL2026/code_intelligence/chipseek_optimizing_verilog_generation_via_eda-integrated_reinforcement_learning.md)
+- [\[ICLR 2026\] Critique-Coder: Enhancing Coder Models by Critique Reinforcement Learning](critique-coder_enhancing_coder_models_by_critique_reinforcement_learning.md)
+- [\[ICLR 2026\] Agnostics: Learning to Synthesize Code in Any Programming Language with a Universal Reinforcement Learning Environment](agnostics_learning_to_synthesize_code_in_any_programming_language_with_a_univers.md)
 - [\[ACL 2026\] MARS2: Scaling Multi-Agent Tree Search via Reinforcement Learning for Code Generation](../../ACL2026/code_intelligence/mars2_scaling_multi-agent_tree_search_via_reinforcement_learning_for_code_genera.md)
+- [\[ACL 2026\] ChipSeek: Optimizing Verilog Generation via EDA-Integrated Reinforcement Learning](../../ACL2026/code_intelligence/chipseek_optimizing_verilog_generation_via_eda-integrated_reinforcement_learning.md)
 - [\[AAAI 2026\] ReCode: Updating Code API Knowledge with Reinforcement Learning](../../AAAI2026/code_intelligence/recode_updating_code_api_knowledge_with_reinforcement_learning.md)
-- [\[ICLR 2026\] Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](paper2code_automating_code_generation_from_scientific_papers_in_machine_learning.md)
-- [\[ACL 2026\] PaT: Planning-after-Trial for Efficient Test-Time Code Generation](../../ACL2026/code_intelligence/pat_planning-after-trial_for_efficient_test-time_code_generation.md)
 
 </div>
 

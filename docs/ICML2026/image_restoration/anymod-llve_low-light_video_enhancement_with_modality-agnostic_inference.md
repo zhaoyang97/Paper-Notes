@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference
+description: >-
+  [ICML2026][图像恢复][低光视频增强] 针对"多模态低光视频增强在推理时拿不到事件流/红外辅助模态就崩"的痛点，AMNet 用一个 Spatial-Spectral Dual-Gated（S2DG）Translator 从退化的低光 RGB 里"凭空生成"辅助模态的隐式表示，再配合大规模合成多模态预训练，使得测试时无论给不给辅助模态都能稳定增强——RGB-only 推理就已达到 SOTA，给了辅助模态还能再涨一点。
+tags:
+  - "ICML2026"
+  - "图像恢复"
+  - "低光视频增强"
+  - "模态缺失"
+  - "隐式模态生成"
+  - "频域门控"
+  - "多模态预训练"
+---
+
 # AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference
 
 **会议**: ICML2026  

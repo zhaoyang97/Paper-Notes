@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration
+description: >-
+  [ICLR2026][医学图像][图像配准] 本文提出 FFDP——一套 IO 感知的非 GEMM 融合 CUDA 核加上支持卷积感知张量分片的分布式框架，把传统/深度图像配准流程加速 6–7×、峰值显存降低 20–59%，并首次在 8 张 A6000 上用约一分钟完成 100µm 离体人脑 MRI（超 110 亿变换参数、比临床数据大 570×）的原生分辨率多模态配准。
+tags:
+  - "ICLR2026"
+  - "医学图像"
+  - "图像配准"
+  - "巨体素"
+  - "融合 CUDA 核"
+  - "张量分片"
+  - "多模态脑 MRI"
+---
+
 # A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration
 
 **会议**: ICLR2026  
-**OpenReview**: [8dLexnao2h](https://openreview.net/forum?id=8dLexnao2h)  
+**OpenReview**: [https://openreview.net/forum?id=8dLexnao2h](https://openreview.net/forum?id=8dLexnao2h)  
 **代码**: 待确认  
 **领域**: 医学图像 / 图像配准 / 分布式系统  
 **关键词**: 图像配准, 巨体素, 融合 CUDA 核, 张量分片, 多模态脑 MRI
@@ -124,9 +139,9 @@ GP 能分片固定图像和 warp，但运动图像 $M$ 不能静态分片：网�
 
 - [\[CVPR 2025\] CARL: A Framework for Equivariant Image Registration](../../CVPR2025/medical_imaging/carl_a_framework_for_equivariant_image_registration.md)
 - [\[CVPR 2026\] KAMP: Knowledge-Anchored Multimodal Pretraining Framework for Medical Image Representation](../../CVPR2026/medical_imaging/kamp_knowledge-anchored_multimodal_pretraining_framework_for_medical_image_repre.md)
+- [\[ICLR 2026\] Unified Brain Surface and Volume Registration](unified_brain_surface_and_volume_registration.md)
+- [\[ICLR 2026\] CortiLife: A Unified Framework for Cortical Representation Learning across the Lifespan](cortilife_a_unified_framework_for_cortical_representation_learning_across_the_li.md)
 - [\[CVPR 2026\] Revisiting 2D Foundation Models for Scalable 3D Medical Image Classification](../../CVPR2026/medical_imaging/revisiting_2d_foundation_models_for_scalable_3d_medical_image_classification.md)
-- [\[CVPR 2026\] Learning Diffeomorphism for Medical Image Registration with Time-Embedded Architectures Using Semigroup Regularization](../../CVPR2026/medical_imaging/learning_diffeomorphism_for_medical_image_registration_with_time-embedded_archit.md)
-- [\[CVPR 2026\] Dynamic Stream Network for Combinatorial Explosion Problem in Deformable Medical Image Registration](../../CVPR2026/medical_imaging/dynamic_stream_network_for_combinatorial_explosion_problem_in_deformable_medical.md)
 
 </div>
 

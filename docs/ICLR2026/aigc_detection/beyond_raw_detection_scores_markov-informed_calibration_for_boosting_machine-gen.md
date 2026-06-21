@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Raw Detection Scores: Markov-Informed Calibration for Boosting Machine-Generated Text Detection
+description: >-
+  [ICLR2026][AIGC检测][MGT 检测] 这篇论文指出主流"度量法"机器生成文本（MGT）检测器的 token 级分数会被 LLM 采样随机性污染，于是用马尔可夫随机场（MRF）刻画"相邻 token 分数相似、句首 token 分数不稳定"这两条规律，再通过平均场近似把它实现成一个只有 2×2 参数、可直接叠在任意现有检测器上的轻量迭代组件，在几乎不增加开销的前提下把各类基线检测器的 AUROC 大幅拉高（如 DetectGPT 在 Essay 上从 44% 提到 92%）。
+tags:
+  - "ICLR2026"
+  - "AIGC检测"
+  - "MGT 检测"
+  - "分数校准"
+  - "马尔可夫随机场"
+  - "平均场近似"
+  - "度量法检测器"
+---
+
 # Beyond Raw Detection Scores: Markov-Informed Calibration for Boosting Machine-Generated Text Detection
 
 **会议**: ICLR2026  
-**OpenReview**: [Lzwkeg2o2z](https://openreview.net/forum?id=Lzwkeg2o2z)  
+**OpenReview**: [https://openreview.net/forum?id=Lzwkeg2o2z](https://openreview.net/forum?id=Lzwkeg2o2z)  
 **代码**: https://github.com/tmlr-group/MRF_Calibration  
 **领域**: 机器生成文本检测 / AIGC 检测  
 **关键词**: MGT 检测, 分数校准, 马尔可夫随机场, 平均场近似, 度量法检测器
@@ -128,8 +143,8 @@ $$Q^t=\mathrm{softmax}\!\left(\log Q^{t-1}-A^{corr}Q^{t-1}\!\left(W_{mrf}\odot\b
 - [\[ACL 2026\] ExaGPT: Example-Based Machine-Generated Text Detection for Human Interpretability](../../ACL2026/aigc_detection/exagpt_example-based_machine-generated_text_detection_for_human_interpretability.md)
 - [\[ACL 2026\] Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection](../../ACL2026/aigc_detection/beyond_the_final_actor_modeling_the_dual_roles_of_creator_and_editor_for_fine-gr.md)
 - [\[ACL 2026\] When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection](../../ACL2026/aigc_detection/when_personalization_tricks_detectors_the_feature-inversion_trap_in_machine-gene.md)
+- [\[ICLR 2026\] D&R: Recovery-based AI-Generated Text Detection via a Single Black-box LLM Call](dr_recovery-based_ai-generated_text_detection_via_a_single_black-box_llm_call.md)
 - [\[NeurIPS 2025\] DuoLens: A Framework for Robust Detection of Machine-Generated Multilingual Text and Code](../../NeurIPS2025/aigc_detection/duolens_a_framework_for_robust_detection_of_machine-generated_multilingual_text_.md)
-- [\[ACL 2025\] MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts](../../ACL2025/aigc_detection/multisocial_mgt_detection.md)
 
 </div>
 

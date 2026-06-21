@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Arbitrary-Shaped Image Generation via Spherical Neural Field Diffusion
+description: >-
+  [ICLR2026][图像生成][任意形状图像生成] ASIG 把整个场景先用"网格化球面隐扩散"在一颗细分二十面体球面上一次性生成出来，再用"球面神经场"按坐标条件从这颗球上任意采样，从而第一次在统一框架内对视角、FOV、分辨率做显式控制，并能无畸变地输出透视、全景、鱼眼乃至不规则形状的图像，质量全面超过各类专用方法。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "任意形状图像生成"
+  - "球面神经场"
+  - "网格化球面隐扩散"
+  - "视角控制"
+  - "全景/鱼眼生成"
+---
+
 # Arbitrary-Shaped Image Generation via Spherical Neural Field Diffusion
 
 **会议**: ICLR2026  
-**OpenReview**: [UNeL5NdLzc](https://openreview.net/forum?id=UNeL5NdLzc)  
+**OpenReview**: [https://openreview.net/forum?id=UNeL5NdLzc](https://openreview.net/forum?id=UNeL5NdLzc)  
 **代码**: https://github.com/xjyjjy/ASIG  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 任意形状图像生成、球面神经场、网格化球面隐扩散、视角控制、全景/鱼眼生成
@@ -129,11 +144,11 @@ ASIG 在所有指标、所有形状上都拿到最优；鱼眼和透视的增益
 
 ## 相关论文
 
+- [\[ICLR 2026\] PixNerd: Pixel Neural Field Diffusion](pixnerd_pixel_neural_field_diffusion.md)
+- [\[ICLR 2026\] COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations](cosmo-inr_complex_sinusoidal_modulation_for_implicit_neural_representations.md)
 - [\[CVPR 2026\] Spherical Leech Quantization for Visual Tokenization and Generation](../../CVPR2026/image_generation/spherical_leech_quantization_for_visual_tokenization_and_generation.md)
-- [\[ICML 2026\] GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation](../../ICML2026/image_generation/gass_geometry-aware_spherical_sampling_for_disentangled_diversity_enhancement_in.md)
-- [\[CVPR 2026\] Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](../../CVPR2026/image_generation/eda_arbitrary_noise_diffusion_design_space.md)
-- [\[CVPR 2025\] Arbitrary-Steps Image Super-Resolution via Diffusion Inversion](../../CVPR2025/image_generation/arbitrary-steps_image_super-resolution_via_diffusion_inversion.md)
-- [\[ICLR 2026\] NeuralOS: Towards Simulating Operating Systems via Neural Generative Models](neuralos_towards_simulating_operating_systems_via_neural_generative_models.md)
+- [\[ICLR 2026\] Any-step Generation via N-th Order Recursive Consistent Velocity Field Estimation](any-step_generation_via_n-th_order_recursive_consistent_velocity_field_estimatio.md)
+- [\[ICLR 2026\] Interaction Field Matching: Overcoming Limitations of Electrostatic Models](interaction_field_matching_overcoming_limitations_of_electrostatic_models.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cannistraci-Hebb Training on Ultra-Sparse Spiking Neural Networks
+description: >-
+  [ICLR2026][模型压缩][动态稀疏训练] CH-SNN 把脑科学里的 Cannistraci-Hebb 链路预测理论搬进脉冲神经网络（SNN）的稀疏训练，用「相关性拓扑初始化 + 脉冲感知权重初始化 + 混合打分剪枝 + CH3-L3 拓扑重生」四阶段流程，在所有线性层做到 97.75% 的结构稀疏度还比全连接网络高 0.16% 精度，部署到边缘神经形态芯片上更是 98.84% 稀疏度、突触操作减少 97.5×、能耗平均降 55×。
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "动态稀疏训练"
+  - "脉冲神经网络"
+  - "Cannistraci-Hebb 理论"
+  - "结构连接稀疏"
+  - "神经形态计算"
+---
+
 # Cannistraci-Hebb Training on Ultra-Sparse Spiking Neural Networks
 
 **会议**: ICLR2026  
-**OpenReview**: [qDLVgr8ESB](https://openreview.net/forum?id=qDLVgr8ESB)  
+**OpenReview**: [https://openreview.net/forum?id=qDLVgr8ESB](https://openreview.net/forum?id=qDLVgr8ESB)  
 **代码**: https://github.com/HuaGuaiGuai/CH-SNN  
 **领域**: 模型压缩 / 稀疏训练 / 脉冲神经网络  
 **关键词**: 动态稀疏训练、脉冲神经网络、Cannistraci-Hebb 理论、结构连接稀疏、神经形态计算
@@ -141,10 +156,10 @@ $$\text{CH3-L3}(u,v)=\sum_{z_1,z_2\in l3(u,v)}\frac{1}{\sqrt{(1+d^e_{z_1})\times
 ## 相关论文
 
 - [\[ICLR 2026\] A Recovery Guarantee for Sparse Neural Networks](a_recovery_guarantee_for_sparse_neural_networks.md)
+- [\[ICLR 2026\] Towards Lossless Memory-efficient Training of Spiking Neural Networks via Gradient Checkpointing and Spike Compression](towards_lossless_memory-efficient_training_of_spiking_neural_networks_via_gradie.md)
 - [\[NeurIPS 2025\] Spiking Brain Compression: Post-Training Second-Order Compression for Spiking Neural Networks](../../NeurIPS2025/model_compression/spiking_brain_compression_post-training_second-order_compression_for_spiking_neu.md)
-- [\[ICML 2025\] Sparse Spectral Training and Inference on Euclidean and Hyperbolic Neural Networks](../../ICML2025/model_compression/sparse_spectral_training_and_inference_on_euclidean_and_hyperbolic_neural_networ.md)
-- [\[ICLR 2026\] BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training](bep_a_binary_error_propagation_algorithm_for_binary_neural_networks_training.md)
 - [\[AAAI 2026\] A Closer Look at Knowledge Distillation in Spiking Neural Network Training](../../AAAI2026/model_compression/a_closer_look_at_knowledge_distillation_in_spiking_neural_ne.md)
+- [\[ICLR 2026\] Many Eyes, One Mind: Temporal Multi-Perspective and Progressive Distillation for Spiking Neural Networks](many_eyes_one_mind_temporal_multi-perspective_and_progressive_distillation_for_s.md)
 
 </div>
 

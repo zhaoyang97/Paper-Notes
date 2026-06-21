@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Breaking and Fixing Defenses Against Control Flow Hijacking in Multi-Agent Systems
+description: >-
+  [ICLR 2026][多智能体][控制流劫持] 这篇论文先证明了现有"对齐检查"类防御（如 LlamaFirewall）能被精心改写的控制流劫持攻击绕过，再提出 CONTROLVALVE——一个借鉴程序控制流完整性思想的协同层防御：在任务规划期生成"允许的智能体调用图 + 每条边的上下文规则"，运行期对每次智能体跳转只做"是否在图里、是否满足边规则"的窄判定，从而在不掉基准任务性能的前提下把所有评测攻击的成功率压到 0%。
+tags:
+  - "ICLR 2026"
+  - "多智能体"
+  - "控制流劫持"
+  - "间接提示注入"
+  - "控制流完整性"
+  - "协同层防御"
+---
+
 # Breaking and Fixing Defenses Against Control Flow Hijacking in Multi-Agent Systems
 
 **会议**: ICLR 2026  
-**OpenReview**: [PNU9Rj5RDQ](https://openreview.net/forum?id=PNU9Rj5RDQ)  
+**OpenReview**: [https://openreview.net/forum?id=PNU9Rj5RDQ](https://openreview.net/forum?id=PNU9Rj5RDQ)  
 **代码**: 待确认  
 **领域**: 多智能体系统 / AI 安全  
 **关键词**: 控制流劫持, 多智能体, 间接提示注入, 控制流完整性, 协同层防御
@@ -68,6 +82,7 @@ flowchart TD
 实验在 AutoGen 平台的 Magentic-One 配置上跑（orchestrator 用 o4-mini，子 agent 用 GPT-4o），数据集为作者新构造的 CFH-Hard（16 个任务、14 种攻击，覆盖编码与计算机使用场景）和改造后的 AgentDojo。对比基线：无防御（Base）、最小权限（LP）、LlamaFirewall（LF，四种背书 LLM）、Azure Content Filters（ACF）。
 
 ### 主实验
+
 | 场景 / 攻击 | Base | LP | LF(llama) | LF(o4-mini) | CONTROLVALVE |
 |--------|------|------|------|------|------|
 | CFH-Hard 编码 CFH（Generic 模板，反弹 shell） | 97% | 80% | 90% | 10% | **0%** |
@@ -78,6 +93,7 @@ flowchart TD
 > 攻击成功率（ASR）= 达成对抗目标的攻击占比。CONTROLVALVE 在所有评测的 IPI 与 CFH 攻击上一致达到 0%，而 LlamaFirewall 在 CFH 上随背书 LLM 大幅波动、最坏到 100%。
 
 ### 消融 / 分析实验
+
 | 配置 / 现象 | 关键指标 | 说明 |
 |------|---------|------|
 | 最小权限（LP）防 CFH | 编码/计算机使用大多无效 | 8/10 编码、6/6 计算机使用任务的合法流程与攻击需要同一个 agent，"用对 agent 做错事"无法靠权限挡 |

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning
+description: >-
+  [ICLR2026][强化学习][离策略RLVR] 针对在线（on-policy）RLVR 训练中"难样本学不动、采样数据用一次就扔"两大浪费，本文提出离策略框架 **BAPO（Batch Adaptation Policy Optimization）**，用一个"难度感知的经验回放 + 自适应批构造"机制把历史难题和历史高质量轨迹重新拉回训练批次，并在理论上证明改造后的批次仍满足策略改进下界，最终在数学、规划、视觉几何三类推理任务上平均比 GRPO 提升 12.5%，还把基座模型一直做不对的 40.7% 难题给解决了。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "离策略RLVR"
+  - "经验回放"
+  - "难样本"
+  - "GRPO"
+  - "自适应批构造"
+---
+
 # Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning
 
 **会议**: ICLR2026  
-**OpenReview**: [RduOiisl1S](https://openreview.net/forum?id=RduOiisl1S)  
+**OpenReview**: [https://openreview.net/forum?id=RduOiisl1S](https://openreview.net/forum?id=RduOiisl1S)  
 **代码**: 有（原文以 "The code is available in Here" 形式给出链接，⚠️ 具体仓库以原文为准）  
 **领域**: LLM推理 / 强化学习 / RLVR / 离策略RL  
 **关键词**: 离策略RLVR, 经验回放, 难样本, GRPO, 自适应批构造
@@ -154,11 +169,11 @@ BAPO 在数学上比 GRPO 高约 4.4 个点，且整体平均比 baseline 提升
 
 ## 相关论文
 
+- [\[ICLR 2026\] Squeeze the Soaked Sponge: Efficient Off-Policy RFT for Large Language Model](squeeze_the_soaked_sponge_efficient_off-policy_rft_for_large_language_model.md)
+- [\[ICLR 2026\] Structured In-context Environment Scaling for Large Language Model Reasoning](structured_in-context_environment_scaling_for_large_language_model_reasoning.md)
+- [\[ICLR 2026\] Revisiting Group Relative Policy Optimization: Insights into On-Policy and Off-Policy Training](revisiting_group_relative_policy_optimization_insights_into_on-policy_and_off-po.md)
+- [\[ICLR 2026\] Toward Efficient Exploration by Large Language Model Agents](toward_efficient_exploration_by_large_language_model_agents.md)
 - [\[ICML 2026\] Coupled Variational Reinforcement Learning for Language Model General Reasoning](../../ICML2026/reinforcement_learning/coupled_variational_reinforcement_learning_for_language_model_general_reasoning.md)
-- [\[NeurIPS 2025\] Bootstrap Off-policy with World Model (BOOM)](../../NeurIPS2025/reinforcement_learning/bootstrap_off-policy_with_world_model.md)
-- [\[ICLR 2026\] TROLL: Trust Regions improve Reinforcement Learning for Large Language Models](troll_trust_regions_improve_reinforcement_learning_for_large_language_models.md)
-- [\[ICLR 2026\] A Unifying View of Coverage in Linear Off-Policy Evaluation](a_unifying_view_of_coverage_in_linear_off-policy_evaluation.md)
-- [\[ICML 2026\] The Shape of Reasoning: Topological Analysis of Reasoning Traces in Large Language Models](../../ICML2026/reinforcement_learning/the_shape_of_reasoning_topological_analysis_of_reasoning_traces_in_large_languag.md)
 
 </div>
 

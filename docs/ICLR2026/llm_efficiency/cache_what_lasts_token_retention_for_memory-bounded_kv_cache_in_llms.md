@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cache What Lasts: Token Retention for Memory-Bounded KV Cache in LLMs
+description: >-
+  [ICLR2026][LLM效率][KV缓存驱逐] TRIM-KV 给预训练 LLM 的每个注意力头插入一个轻量"保留门"，在 token 生成时就预测它的内在长期重要性（一个会随时间指数衰减的标量分数），内存超预算时直接驱逐分数最低的 token；只需冻结主干、用蒸馏 + 容量损失微调这些门，推理几乎零额外开销，却在数学推理、长程生成和长上下文记忆等多个 benchmark 上稳定超越启发式驱逐和可学习检索基线，低显存场景下甚至反超全量缓存。
+tags:
+  - "ICLR2026"
+  - "LLM效率"
+  - "KV缓存驱逐"
+  - "保留门控注意力"
+  - "长上下文推理"
+  - "蒸馏微调"
+  - "可解释性"
+---
+
 # Cache What Lasts: Token Retention for Memory-Bounded KV Cache in LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [qCaq3jGb0S](https://openreview.net/forum?id=qCaq3jGb0S)  
+**OpenReview**: [https://openreview.net/forum?id=qCaq3jGb0S](https://openreview.net/forum?id=qCaq3jGb0S)  
 **代码**: https://github.com/ngocbh/trimkv  
 **领域**: LLM效率 / KV缓存压缩  
 **关键词**: KV缓存驱逐, 保留门控注意力, 长上下文推理, 蒸馏微调, 可解释性
@@ -145,11 +160,11 @@ Qwen3-4B 在 AIME24、KV=4096 上拆目标项：
 
 ## 相关论文
 
+- [\[ICLR 2026\] IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs](icecache_memory-efficient_kv-cache_management_for_long-sequence_llms.md)
+- [\[ICLR 2026\] DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference](defensivekv_taming_the_fragility_of_kv_cache_eviction_in_llm_inference.md)
 - [\[AAAI 2026\] Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](../../AAAI2026/llm_efficiency/judge_q_trainable_queries_for_optimized_information_retention_in_kv_cache_evicti.md)
-- [\[ICML 2026\] CriticalKV: Optimizing KV Cache Eviction from an Output Perturbation Perspective](../../ICML2026/llm_efficiency/criticalkv_optimizing_kv_cache_eviction_from_an_output_perturbation_perspective.md)
-- [\[ICML 2026\] OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference](../../ICML2026/llm_efficiency/obcache_optimal_brain_kv_cache_pruning_for_efficient_long-context_llm_inference.md)
-- [\[ICLR 2026\] TokenSeek: Memory Efficient Fine Tuning via Instance-Aware Token Selection](tokenseek_memory_efficient_fine_tuning_via_instance-aware_token_selection.md)
-- [\[ICML 2026\] RKSC: Reasoning-Aware KV Cache Sharing and Confident Early Exit for Multi-Step LLM Inference](../../ICML2026/llm_efficiency/rksc_reasoning-aware_kv_cache_sharing_and_confident_early_exit_for_multi-step_ll.md)
+- [\[ICLR 2026\] ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models](thinkv_thought-adaptive_kv_cache_compression_for_efficient_reasoning_models.md)
+- [\[ICLR 2026\] LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences](louiskv_efficient_kv_cache_retrieval_for_long_input-output_sequences.md)
 
 </div>
 

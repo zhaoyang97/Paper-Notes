@@ -135,11 +135,11 @@ DTI 在所有模型上大幅提升文本对齐（SDXL上 0.292→0.522），同�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Preserve and Personalize: Personalized Text-to-Image Diffusion Models without Distributional Drift](preserve_and_personalize_personalized_text-to-image_diffusion_models_without_dis.md)
 - [\[AAAI 2026\] DOS: Directional Object Separation in Text Embeddings for Multi-Object Image Generation](../../AAAI2026/image_generation/dos_directional_object_separation_in_text_embeddings_for_mul.md)
+- [\[ICLR 2026\] MOSAIC: Multi-Subject Personalized Generation via Correspondence-Aware Alignment and Disentanglement](mosaic_multi-subject_personalized_generation_via_correspondence-aware_alignment_.md)
 - [\[ECCV 2024\] Textual-Visual Logic Challenge: Understanding and Reasoning in Text-to-Image Generation](../../ECCV2024/image_generation/textual-visual_logic_challenge_understanding_and_reasoning_in_text-to-image_gene.md)
 - [\[CVPR 2026\] Premier: Personalized Preference Modulation with Learnable User Embedding in Text-to-Image Generation](../../CVPR2026/image_generation/premier_personalized_preference_modulation_with_learnable_user_embedding_in_text.md)
-- [\[CVPR 2026\] DCoAR: Deep Concept Injection into Unified Autoregressive Models for Personalized Text-to-Image Generation](../../CVPR2026/image_generation/dcoar_deep_concept_injection_into_unified_autoregressive_models_for_personalized.md)
-- [\[CVPR 2026\] Design Your Ad: Personalized Advertising Image and Text Generation with Unified Autoregressive Models](../../CVPR2026/image_generation/design_your_ad_personalized_advertising_image_and_text_generation_with_unified_a.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] In Defense of Information Leakage in Concept-based Models
+description: >-
+  [ICML 2026][可解释性][概念瓶颈模型] 这是一篇 position 论文：作者为概念模型里人人喊打的"信息泄漏"辩护，指出在真实场景概念注释天然不完整时，**适度的"良性泄漏"反而是构建准确且可干预模型的必要条件**，并给出一个只需多做一次前向的损失 $\mathcal{L}_{\text{int}}$ 来诱导这种良性泄漏。
+tags:
+  - "ICML 2026"
+  - "可解释性"
+  - "概念瓶颈模型"
+  - "信息泄漏"
+  - "概念干预"
+  - "互信息"
+  - "简单性偏置"
+---
+
 # In Defense of Information Leakage in Concept-based Models
 
 **会议**: ICML 2026  

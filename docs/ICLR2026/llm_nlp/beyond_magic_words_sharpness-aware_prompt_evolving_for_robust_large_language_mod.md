@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Magic Words: Sharpness-Aware Prompt Evolving for Robust Large Language Models with TARE
+description: >-
+  [ICLR2026][LLM 其他][提示优化] 把图像/权重空间里的"锐度感知最小化（SAM）"搬到离散的文本提示空间，提出 TARE/ATARE：用"内层找最坏 paraphrase、外层选邻域最稳"的无梯度进化框架，让优化出来的 prompt 在同义改写下不掉点，在 4 个推理基准、5 种被测模型上稳定超过 TextGrad / Revolve。
+tags:
+  - "ICLR2026"
+  - "LLM 其他"
+  - "提示优化"
+  - "文本锐度"
+  - "锐度感知最小化"
+  - "进化搜索"
+  - "鲁棒性"
+---
+
 # Beyond Magic Words: Sharpness-Aware Prompt Evolving for Robust Large Language Models with TARE
 
 **会议**: ICLR2026  
-**OpenReview**: [YEBDvqsniH](https://openreview.net/forum?id=YEBDvqsniH)  
+**OpenReview**: [https://openreview.net/forum?id=YEBDvqsniH](https://openreview.net/forum?id=YEBDvqsniH)  
 **代码**: https://github.com/GuanchengWan/TARE  
 **领域**: LLM / NLP（提示优化）  
 **关键词**: 提示优化, 文本锐度, 锐度感知最小化, 进化搜索, 鲁棒性
@@ -125,10 +140,10 @@ TARE 的各向同性球 $B(p,\rho)$ 有个效率问题——它对 prompt 的所
 ## 相关论文
 
 - [\[ACL 2025\] Beyond Prompt Engineering: Robust Behavior Control in LLMs via Steering Target Atoms](../../ACL2025/llm_nlp/beyond_prompt_engineering_robust_behavior_control_in_llms_via_steering_target_at.md)
+- [\[ICLR 2026\] SPRIG: Improving Large Language Model Performance by System Prompt Optimization](sprig_improving_large_language_model_performance_by_system_prompt_optimization.md)
+- [\[ICLR 2026\] Spectral Attention Steering for Prompt Highlighting](spectral_attention_steering_for_prompt_highlighting.md)
 - [\[ICLR 2026\] DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas](dreamon_diffusion_language_models_for_code_infilling_beyond_fixed-size_canvas.md)
-- [\[ACL 2025\] Robust Utility-Preserving Text Anonymization Based on Large Language Models](../../ACL2025/llm_nlp/robust_utility-preserving_text_anonymization_based_on_large_language_models.md)
 - [\[ICLR 2026\] The Lattice Representation Hypothesis of Large Language Models](the_lattice_representation_hypothesis_of_large_language_models.md)
-- [\[ACL 2025\] AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](../../ACL2025/llm_nlp/agentgym_evaluating_and_training_large_language_model-based_agents_across_divers.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Distribution Alignment for One-Shot Federated Learning via Optimal Transport
+description: >-
+  [ICML2026][优化/理论][单轮联邦学习] 本文提出 SLOT-Align，一个免训练、单轮的联邦特征对齐框架：各客户端用共享冻结编码器算出特征的一二阶统计量，服务器用 Bures–Wasserstein 重心聚成全局参考，客户端再用高斯间的闭式最优传输映射把本地特征对齐到该参考，在域偏移叠加标签偏移的极端 one-shot 联邦场景下稳定提升精度。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "单轮联邦学习"
+  - "分布对齐"
+  - "域偏移"
+  - "标签偏移"
+  - "最优传输"
+---
+
 # Distribution Alignment for One-Shot Federated Learning via Optimal Transport
 
 **会议**: ICML2026  

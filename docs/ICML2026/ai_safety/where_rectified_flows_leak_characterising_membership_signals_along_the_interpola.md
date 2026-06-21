@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Where Rectified Flows Leak: Characterising Membership Signals Along the Interpolation Path
+description: >-
+  [ICML2026][AI安全][Rectified Flow] 作者发现 Rectified Flow（整流流）训练用的线性插值路径 $X_\lambda=(1-\lambda)X_0+\lambda X_1$ 上，**训练样本与测试样本的重建误差差距会随 $\lambda$ 走出一条钟形曲线**，并在高斯假设下推出钟峰位置 $\lambda_F^*$ 的闭式解；这个"成员信号"在训练时悄悄累积、却被验证损失完全掩盖，最后作者拿这条 $\lambda$ 分辨的误差曲线做成员推断攻击（MIA），在钢琴音乐数据集上拿到 0.91 AUC，碾压从扩散模型迁移来的基线。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "Rectified Flow"
+  - "成员推断攻击"
+  - "记忆化"
+  - "插值路径"
+  - "隐私泄露"
+---
+
 # Where Rectified Flows Leak: Characterising Membership Signals Along the Interpolation Path
 
 **会议**: ICML2026  

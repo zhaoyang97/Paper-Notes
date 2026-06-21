@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Hölder++: Improving the Quality-Coherence Trade-off in Multimodal VAEs
+description: >-
+  [ICML2026][图像生成][多模态VAE] 针对多模态 VAE 长期存在的「生成质量 vs 跨模态一致性」难以兼得的问题，本文提出 Hölder++：首次给出对称 Hölder 池化（$\alpha=0.5$）的精确实现作为模态聚合器，再叠加共享/私有子空间分离与自顶向下层次推断两项架构改进，在四个基准上把质量-一致性的 Pareto 前沿整体推到 SOTA。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "多模态VAE"
+  - "Hölder池化"
+  - "共享-私有表示"
+  - "层次推断"
+  - "质量-一致性权衡"
+---
+
 # Hölder++: Improving the Quality-Coherence Trade-off in Multimodal VAEs
 
 **会议**: ICML2026  

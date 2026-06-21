@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Position: Modular Memory is the Key to Continual Learning Agents
+description: >-
+  [ICML 2026][LLM Agent][持续学习] 这是一篇出自 Dagstuhl 持续学习研讨会的立场论文，主张：单纯靠改权重（IWL）会灾难性遗忘、单纯靠塞上下文（ICL）会算力爆炸且基座僵化——真正通往"能持续学习的 agent"的缺失拼图，是用**模块化记忆**把 ICL 的快适应和 IWL 的慢巩固结合起来（核心模型 + 工作记忆 + 长期记忆，外加睡眠式离线巩固）。
+tags:
+  - "ICML 2026"
+  - "LLM Agent"
+  - "持续学习"
+  - "模块化记忆"
+  - "上下文学习"
+  - "权重学习"
+  - "巩固"
+---
+
 # Position: Modular Memory is the Key to Continual Learning Agents
 
 **会议**: ICML 2026  

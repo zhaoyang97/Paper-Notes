@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SuCo: Sufficiency-guided Continuous Adaptive Reasoning
+description: >-
+  [ICML2026][Reasoning][自适应推理] SuCo 提出"最小充分思维链（MSC）"——能产出正确答案的最短 CoT 前缀，并据此设计两阶段训练（MSC 对齐微调 MFT + 充分性感知策略优化 SAPO），让大推理模型在一个**连续谱**上自主调节推理长度，在数学/代码/科学多基准上同时拿到更高准确率与更少推理 token（7B 平均准确率 +2.7、推理长度从 5239 降到 1267）。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "自适应推理"
+  - "思维链效率"
+  - "最小充分CoT"
+  - "强化学习"
+  - "过度思考"
+---
+
 # SuCo: Sufficiency-guided Continuous Adaptive Reasoning
 
 **会议**: ICML2026  

@@ -16,7 +16,7 @@ tags:
 # StreamingThinker: Large Language Models Can Think While Reading
 
 **会议**: ICLR2026  
-**OpenReview**: [10Iiew095e](https://openreview.net/forum?id=10Iiew095e)  
+**OpenReview**: [https://openreview.net/forum?id=10Iiew095e](https://openreview.net/forum?id=10Iiew095e)  
 **代码**: 有（论文称已开源，仓库见原文 footnote）  
 **领域**: LLM推理  
 **关键词**: 流式推理、思维链、注意力掩码、并行 KV cache、低延迟推理
@@ -160,10 +160,10 @@ LLM 用 RoPE 以相对位置旋转 query/key，推理 token $R_t$ 与输入 toke
 ## 相关论文
 
 - [\[CVPR 2026\] Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models](../../CVPR2026/llm_reasoning/think-as-you-see_streaming_chain-of-thought_reasoning_for_large_vision-language_.md)
+- [\[ICLR 2026\] Characterizing and Mitigating Reasoning Drift in Large Language Models](characterizing_and_mitigating_reasoning_drift_in_large_language_models.md)
+- [\[ICLR 2026\] A Simple "Motivation" Can Enhance Reinforcement Finetuning of Large Reasoning Models](a_simple_motivation_can_enhance_reinforcement_finetuning_of_large_reasoning_mode.md)
 - [\[ICLR 2026\] Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](vision-r1_incentivizing_reasoning_capability_in_multimodal_large_language_models.md)
-- [\[NeurIPS 2025\] Adaptive Dual Reasoner: Large Reasoning Models Can Think Efficiently by Hybrid Reasoning](../../NeurIPS2025/llm_reasoning/adaptive_dual_reasoner_large_reasoning_models_can_think_efficiently_by_hybrid_re.md)
-- [\[ICLR 2026\] Native Reasoning Models: Training Language Models to Reason on Unverifiable Data](native_reasoning_models_training_language_models_to_reason_on_unverifiable_data.md)
-- [\[CVPR 2026\] VisRef: Visual Refocusing while Thinking Improves Test-Time Scaling in Multi-Modal Large Reasoning Models](../../CVPR2026/llm_reasoning/visref_visual_refocusing_test_time_scaling.md)
+- [\[ICLR 2026\] On the Thinking-Language Modeling Gap in Large Language Models](on_the_thinking-language_modeling_gap_in_large_language_models.md)
 
 </div>
 

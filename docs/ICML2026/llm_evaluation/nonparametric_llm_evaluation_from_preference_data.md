@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Nonparametric LLM Evaluation from Preference Data
+description: >-
+  [ICML 2026][LLM评测][偏好数据排名] 针对当前 LLM 排行榜普遍依赖参数化 Bradley–Terry 模型、在模型误设或接入黑盒 ML/LLM-as-a-judge 时无法给出有效置信区间的问题，本文提出非参数框架 **DMLRank**：把排名分数统一抽象成"上下文偏好概率的泛函"（GARS），再用去偏机器学习推出渐近有效、带合法置信区间的估计量，并进一步给出预算约束下最优的偏好采集策略。
+tags:
+  - "ICML 2026"
+  - "LLM评测"
+  - "偏好数据排名"
+  - "去偏机器学习"
+  - "半参数有效性"
+  - "置信区间"
+  - "实验设计"
+---
+
 # Nonparametric LLM Evaluation from Preference Data
 
 **会议**: ICML 2026  

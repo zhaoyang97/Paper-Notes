@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] EvoClaw: Evaluating AI Agents on Continuous Software Evolution
+description: >-
+  [ICML2026][LLM Agent][编码智能体] EvoClaw 提出"里程碑级"的软件演化评测范式：用 DeepCommit 流水线把开源仓库的噪声 commit 历史重建成可执行、可验证的里程碑依赖 DAG，让智能体在同一个持久化代码库上连续完成一串有依赖的开发任务，结果发现 12 个前沿模型在独立任务上能拿 >80% 的分，到连续演化场景却最高只有 38%，暴露出它们在长程维护与抑制错误传播上的根本短板。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "编码智能体"
+  - "软件演化"
+  - "长程评测"
+  - "里程碑 DAG"
+  - "技术债"
+---
+
 # EvoClaw: Evaluating AI Agents on Continuous Software Evolution
 
 **会议**: ICML2026  

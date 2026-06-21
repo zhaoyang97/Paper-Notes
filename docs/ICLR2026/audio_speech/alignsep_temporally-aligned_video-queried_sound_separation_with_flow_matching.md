@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AlignSep: Temporally-Aligned Video-Queried Sound Separation with Flow Matching
+description: >-
+  [ICLR2026][音频/语音][视频查询声音分离] AlignSep 把"视频查询声音分离（VQSS）"从主流的时频掩码判别范式换成基于 flow matching 的生成范式，靠一个用"时间拼接 + 无交叉注意力 Transformer"实现的时间对齐向量场估计器，强制音频与视频帧逐帧同步，从而在同类干扰、声轨重叠的难场景里干净地抠出在屏目标声音，并在自建的 VGGSound-Hard 基准上把时间对齐分数 $T_{A\text{-}V}$ 做到了 95.76%。
+tags:
+  - "ICLR2026"
+  - "音频/语音"
+  - "视频查询声音分离"
+  - "flow matching"
+  - "时间对齐"
+  - "生成式分离"
+  - "视听一致性"
+---
+
 # AlignSep: Temporally-Aligned Video-Queried Sound Separation with Flow Matching
 
 **会议**: ICLR2026  
-**OpenReview**: [DVDkFcxU1D](https://openreview.net/forum?id=DVDkFcxU1D)  
+**OpenReview**: [https://openreview.net/forum?id=DVDkFcxU1D](https://openreview.net/forum?id=DVDkFcxU1D)  
 **代码**: https://AlignSep.github.io （项目页，承诺录用后开源）  
 **领域**: 音频/语音 · 视听分离 · 流匹配生成  
 **关键词**: 视频查询声音分离, flow matching, 时间对齐, 生成式分离, 视听一致性
@@ -137,10 +152,10 @@ $$\mathcal{L}_{\text{CFM}}(\theta)=\mathbb{E}_{t,\,p_c(x^c),\,p_t(x,x^c)}\big\|v
 
 ## 相关论文
 
-- [\[ACL 2026\] ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching](../../ACL2026/audio_speech/zipvoice-dialog_non-autoregressive_spoken_dialogue_generation_with_flow_matching.md)
-- [\[AAAI 2026\] USE: A Unified Model for Universal Sound Separation and Extraction](../../AAAI2026/audio_speech/use_a_unified_model_for_universal_sound_separation_and_extraction.md)
 - [\[ICLR 2026\] Flow2GAN: Hybrid Flow Matching and GAN with Multi-Resolution Network for Few-step High-Fidelity Audio Generation](flow2gan_hybrid_flow_matching_and_gan_with_multi-resolution_network_for_few-step.md)
 - [\[NeurIPS 2025\] Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis](../../NeurIPS2025/audio_speech/shallow_flow_matching_for_coarse-to-fine_text-to-speech_synthesis.md)
+- [\[ACL 2026\] ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching](../../ACL2026/audio_speech/zipvoice-dialog_non-autoregressive_spoken_dialogue_generation_with_flow_matching.md)
+- [\[AAAI 2026\] USE: A Unified Model for Universal Sound Separation and Extraction](../../AAAI2026/audio_speech/use_a_unified_model_for_universal_sound_separation_and_extraction.md)
 - [\[ICML 2026\] A Semantically Consistent Dataset for Data-Efficient Query-Based Universal Sound Separation](../../ICML2026/audio_speech/a_semantically_consistent_dataset_for_data-efficient_query-based_universal_sound.md)
 
 </div>

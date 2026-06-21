@@ -16,7 +16,7 @@ tags:
 # Communication-Efficient Decentralized Optimization via Double-Communication Symmetric ADMM
 
 **会议**: ICLR2026  
-**OpenReview**: [HZYuyNkBdD](https://openreview.net/forum?id=HZYuyNkBdD)  
+**OpenReview**: [https://openreview.net/forum?id=HZYuyNkBdD](https://openreview.net/forum?id=HZYuyNkBdD)  
 **代码**: 待确认  
 **领域**: optimization  
 **关键词**: 去中心化优化, 对称 ADMM, 多轮通信, 通信高效, 线性收敛
@@ -145,11 +145,11 @@ $$Q=\beta\big((1+\tau)I_{nd}-\widetilde{W}^\top\widetilde{W}\big),\qquad \tau>0,
 
 ## 相关论文
 
+- [\[ICLR 2026\] DES-LOC: Desynced Low Communication Adaptive Optimizers for Foundation Models](des-loc_desynced_low_communication_adaptive_optimizers_for_foundation_models.md)
+- [\[ICLR 2026\] Decentralized Nonconvex Optimization under Heavy-Tailed Noise: Normalization and Optimal Convergence](decentralized_nonconvex_optimization_under_heavy-tailed_noise_normalization_and_.md)
 - [\[AAAI 2026\] A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication](../../AAAI2026/optimization/a_unified_convergence_analysis_for_semi-decentralized_learni.md)
+- [\[ICLR 2026\] Enhancing Communication Compression via Discrepancy-aware Calibration for Federated Learning](enhancing_communication_compression_via_discrepancy-aware_calibration_for_federa.md)
 - [\[ICML 2026\] Delayed Momentum Aggregation: Communication-efficient Byzantine-robust Federated Learning with Partial Participation](../../ICML2026/optimization/delayed_momentum_aggregation_communication-efficient_byzantine-robust_federated_.md)
-- [\[NeurIPS 2025\] MAR-FL: A Communication Efficient Peer-to-Peer Federated Learning System](../../NeurIPS2025/optimization/mar-fl_a_communication_efficient_peer-to-peer_federated_learning_system.md)
-- [\[NeurIPS 2025\] Layer-wise Update Aggregation with Recycling for Communication-Efficient Federated Learning](../../NeurIPS2025/optimization/layer-wise_update_aggregation_with_recycling_for_communication-efficient_federat.md)
-- [\[ICML 2025\] The Panaceas for Improving Low-Rank Decomposition in Communication-Efficient Federated Learning](../../ICML2025/optimization/the_panaceas_for_improving_low-rank_decomposition_in_communication-efficient_fed.md)
 
 </div>
 

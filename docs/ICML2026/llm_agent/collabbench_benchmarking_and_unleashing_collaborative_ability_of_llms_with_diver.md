@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CollabBench: Benchmarking and Unleashing Collaborative Ability of LLMs with Diverse Players via Proactive Engagement
+description: >-
+  [ICML2026][LLM Agent][协作智能体] 论文提出 CollabBench——一个让 LLM 智能体在合作游戏里与"性格各异的队友"协作的基准与训练框架：用大五人格驱动模拟出多样玩家，用统一 agentic rollout + "效率/情感"双层混合奖励做强化训练，并配一套"效率指标 + 情感指标"的评估协议；训练后的 Qwen2.5-7B 在效率和情感维度分别提升约 19.5% 和 24.4%。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "协作智能体"
+  - "合作游戏"
+  - "人格模拟"
+  - "智能体强化学习"
+  - "情感对齐"
+---
+
 # CollabBench: Benchmarking and Unleashing Collaborative Ability of LLMs with Diverse Players via Proactive Engagement
 
 **会议**: ICML2026  

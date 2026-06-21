@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Achieving Approximate Symmetry Is Exponentially Easier than Exact Symmetry
+description: >-
+  [ICLR2026][学习理论][近似对称性] 这篇论文给"强制模型对称"这件事定义了一个可量化的代价——**平均复杂度（averaging complexity）**，并证明了一个指数级分离：在标准条件下，强制**精确对称**需要线性于群大小 $|G|$ 的查询次数，而强制**近似对称**只需对数级 $O(\log|G|/\varepsilon)$，从理论上首次解释了"为什么实践中近似对称往往比精确对称更划算"。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "几何机器学习"
+  - "近似对称性"
+  - "平均复杂度"
+  - "群表示论"
+  - "等变学习"
+  - "傅里叶分析"
+---
+
 # Achieving Approximate Symmetry Is Exponentially Easier than Exact Symmetry
 
 **会议**: ICLR2026  
-**OpenReview**: [ncOJYFcleS](https://openreview.net/forum?id=ncOJYFcleS)  
+**OpenReview**: [https://openreview.net/forum?id=ncOJYFcleS](https://openreview.net/forum?id=ncOJYFcleS)  
 **代码**: 待确认  
 **领域**: 学习理论 / 几何机器学习  
 **关键词**: 近似对称性, 平均复杂度, 群表示论, 等变学习, 傅里叶分析
@@ -124,11 +140,11 @@ $$\mathrm{AC}_{\mathrm{st}}(F,\varepsilon)=O\!\Big(\tfrac{\log|G|}{\varepsilon}\
 
 ## 相关论文
 
+- [\[ICLR 2026\] To Augment or Not to Augment? Diagnosing Distributional Symmetry Breaking](to_augment_or_not_to_augment_diagnosing_distributional_symmetry_breaking.md)
+- [\[ICLR 2026\] Reducing Symmetry Increase in Equivariant Neural Networks](reducing_symmetry_increase_in_equivariant_neural_networks.md)
 - [\[ICLR 2026\] Branch and Bound Search for Exact MAP Inference in Credal Networks](branch_and_bound_search_for_exact_map_inference_in_credal_networks.md)
-- [\[ICLR 2026\] Barriers for Learning in an Evolving World: Mathematical Understanding of Loss of Plasticity](barriers_for_learning_in_an_evolving_world_mathematical_understanding_of_loss_of.md)
-- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
-- [\[ICLR 2026\] Efficient Credal Prediction through Decalibration](efficient_credal_prediction_through_decalibration.md)
-- [\[ICLR 2026\] Function Spaces Without Kernels: Learning Compact Hilbert Space Representations](function_spaces_without_kernels_learning_compact_hilbert_space_representations.md)
+- [\[ICLR 2026\] Expressive Power of Implicit Models: Rich Equilibria and Test-Time Scaling](expressive_power_of_implicit_models_rich_equilibria_and_test-time_scaling.md)
+- [\[ICLR 2026\] Better Bounds for the Distributed Experts Problem](better_bounds_for_the_distributed_experts_problem.md)
 
 </div>
 

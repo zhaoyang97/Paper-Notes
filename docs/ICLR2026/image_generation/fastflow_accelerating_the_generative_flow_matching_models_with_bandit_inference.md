@@ -16,7 +16,7 @@ tags:
 # FastFlow: Accelerating The Generative Flow Matching Models with Bandit Inference
 
 **会议**: ICLR2026  
-**OpenReview**: [wWkyL8D9xd](https://openreview.net/forum?id=wWkyL8D9xd)  
+**OpenReview**: [https://openreview.net/forum?id=wWkyL8D9xd](https://openreview.net/forum?id=wWkyL8D9xd)  
 **代码**: https://github.com/Div290/FastFlow  
 **领域**: 扩散/流匹配生成 · 推理加速  
 **关键词**: 流匹配, 推理加速, 多臂老虎机, 有限差分外推, 免训练
@@ -144,11 +144,11 @@ GenEval 文生图（节选 Table 1，↑越高越好，Spd. 加速比，Lat. 单
 
 ## 相关论文
 
-- [\[ICLR 2026\] Laplacian Multi-scale Flow Matching for Generative Modeling](laplacian_multi-scale_flow_matching_for_generative_modeling.md)
-- [\[AAAI 2026\] SpecDiff: Accelerating Diffusion Model Inference with Self-Speculation](../../AAAI2026/image_generation/specdiff_accelerating_diffusion_model_inference_with_self-speculation.md)
-- [\[ICLR 2026\] GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models](glass_flows_reward_alignment_diffusion.md)
-- [\[CVPR 2026\] Flow Matching for Multimodal Distributions](../../CVPR2026/image_generation/flow_matching_for_multimodal_distributions.md)
-- [\[CVPR 2026\] SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching](../../CVPR2026/image_generation/sencache_accelerating_diffusion_model_inference_via_sensitivity-aware_caching.md)
+- [\[ICLR 2026\] MeanCache: From Instantaneous to Average Velocity for Accelerating Flow Matching Inference](meancache_from_instantaneous_to_average_velocity_for_accelerating_flow_matching_.md)
+- [\[ICLR 2026\] Gauge Flow Matching: Efficient Constrained Generative Modeling over General Convex Set and Beyond](gauge_flow_matching_efficient_constrained_generative_modeling_over_general_conve.md)
+- [\[ICLR 2026\] AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport](alignflow_improving_flow-based_generative_models_with_semi-discrete_optimal_tran.md)
+- [\[ICLR 2026\] LapFlow: Laplacian Multi-scale Flow Matching for Generative Modeling](lapflow_laplacian_multi-scale_flow_matching_for_generative_modeling.md)
+- [\[ICLR 2026\] Delay Flow Matching](delay_flow_matching.md)
 
 </div>
 

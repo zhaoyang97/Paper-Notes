@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bridging the Distribution Gap to Harness Pretrained Diffusion Priors for Super-Resolution
+description: >-
+  [ICLR2026][图像生成][超分辨率] DM-SR 不动预训练扩散模型一根毫毛，只训练一个图像编码器，把低分辨率图直接"翻译"到扩散模型熟悉的"含噪图像"分布上，再用固定去噪器一步生成超分结果，从而在单步扩散下取得当前最佳的感知质量。 领域现状：扩散模型凭借强大的生成先验，近年被大量用于单图超分辨（SISR）…
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "超分辨率"
+  - "预训练扩散先验"
+  - "分布匹配"
+  - "单步扩散"
+  - "时间步估计"
+---
+
 # Bridging the Distribution Gap to Harness Pretrained Diffusion Priors for Super-Resolution
 
 **会议**: ICLR2026  
-**OpenReview**: [66Ad0i78lW](https://openreview.net/forum?id=66Ad0i78lW)  
+**OpenReview**: [https://openreview.net/forum?id=66Ad0i78lW](https://openreview.net/forum?id=66Ad0i78lW)  
 **代码**: 待确认  
 **领域**: 图像超分辨 / 图像恢复 / 扩散模型  
 **关键词**: 超分辨率, 预训练扩散先验, 分布匹配, 单步扩散, 时间步估计
@@ -127,3 +142,19 @@ DM-SR 在感知指标上全面领先既有单步扩散方法（SinSR/OSEDiff/Inv
 - 实验充分度: ⭐⭐⭐⭐ 多基准、多指标、消融完整，但失真指标偏弱、缺与更多最新方法的横评
 - 写作质量: ⭐⭐⭐⭐ 动机推导清晰，公式与图配合到位
 - 价值: ⭐⭐⭐⭐ 单步高感知质量超分，且"编码器搬分布"范式可外推到其它恢复任务
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] FaithDiff: Unleashing Diffusion Priors for Faithful Image Super-Resolution](../../CVPR2025/image_generation/faithdiff_unleashing_diffusion_priors_for_faithful_image_super-resolution.md)
+- [\[CVPR 2026\] Bridging Fidelity-Reality with Controllable One-Step Diffusion for Image Super-Resolution](../../CVPR2026/image_generation/bridging_fidelity-reality_with_controllable_one-step_diffusion_for_image_super-r.md)
+- [\[ICLR 2026\] Bridging Generalization Gap of Heterogeneous Federated Clients Using Generative Models](bridging_generalization_gap_of_heterogeneous_federated_clients_using_generative_.md)
+- [\[ECCV 2024\] XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution](../../ECCV2024/image_generation/xpsr_crossmodal_priors_for_diffusionbased_image_superresolut.md)
+- [\[ICLR 2026\] Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield](decoupled_dmd_cfg_augmentation_as_the_spear_distribution_matching_as_the_shield.md)
+
+</div>
+
+<!-- RELATED:END -->

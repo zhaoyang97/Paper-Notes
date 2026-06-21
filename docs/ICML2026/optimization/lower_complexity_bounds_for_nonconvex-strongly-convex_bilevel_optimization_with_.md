@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Lower Complexity Bounds for Nonconvex-Strongly-Convex Bilevel Optimization with First-Order Oracles
+description: >-
+  [ICML2026][优化/理论][双层优化] 本文为光滑「非凸-强凸」双层优化在标准（确定性 / 随机）一阶 oracle 下首次给出与条件数 $\kappa$ 强相关的复杂度下界——确定性情形 $\Omega(\kappa^{3/2}\epsilon^{-2})$、随机情形 $\Omega(\kappa^{5/2}\epsilon^{-4})$，证明双层问题在本质上比单层非凸和 min-max 优化更难，并暴露出现有上界与下界之间巨大的 $\kappa$ 幂次缺口。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "双层优化"
+  - "一阶 oracle"
+  - "复杂度下界"
+  - "zero-chain"
+  - "条件数"
+---
+
 # Lower Complexity Bounds for Nonconvex-Strongly-Convex Bilevel Optimization with First-Order Oracles
 
 **会议**: ICML2026  

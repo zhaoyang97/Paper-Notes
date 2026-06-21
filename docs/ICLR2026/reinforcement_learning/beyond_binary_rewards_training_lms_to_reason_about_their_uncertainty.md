@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty
+description: >-
+  [ICLR2026][强化学习][RLVR] 这篇论文提出 RLCR（Reinforcement Learning with Calibration Rewards），在标准的"二元正确性奖励"上叠加一个 Brier 分数项，让推理模型在给出答案的同时输出一个**校准过的置信度**，在几乎不损失准确率的前提下把期望校准误差从 0.37 降到 0.03（HotpotQA），并在分布外任务上反转了普通 RL"越训越自信、越训越乱"的退化趋势。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "RLVR"
+  - "校准奖励"
+  - "Brier 分数"
+  - "恰当评分规则"
+  - "置信度推理"
+---
+
 # Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty
 
 **会议**: ICLR2026  
-**OpenReview**: [ASQ649zdHm](https://openreview.net/forum?id=ASQ649zdHm)  
+**OpenReview**: [https://openreview.net/forum?id=ASQ649zdHm](https://openreview.net/forum?id=ASQ649zdHm)  
 **代码**: 待确认  
 **领域**: LLM推理 / 强化学习 / 不确定性校准  
 **关键词**: RLVR、校准奖励、Brier 分数、恰当评分规则、置信度推理
@@ -130,11 +145,11 @@ Table 2 拆解"校准奖励"和"显式不确定性推理"两个组件（HotpotQA
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Training Language Models to Reason Efficiently](../../NeurIPS2025/reinforcement_learning/training_language_models_to_reason_efficiently.md)
+- [\[ICLR 2026\] Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains](rubrics_as_rewards_reinforcement_learning_beyond_verifiable_domains.md)
+- [\[ICLR 2026\] Learning to Reason as Action Abstractions with Scalable Mid-Training RL](learning_to_reason_as_action_abstractions_with_scalable_mid-training_rl.md)
+- [\[ICLR 2026\] Learning to Be Uncertain: Pre-training World Models with Horizon-Calibrated Uncertainty](learning_to_be_uncertain_pre-training_world_models_with_horizon-calibrated_uncer.md)
 - [\[ICLR 2026\] ExGRPO: Learning to Reason from Experience](exgrpo_learning_to_reason_from_experience.md)
-- [\[ICML 2026\] Beyond the Proxy: Trajectory-Distilled Guidance for Offline GFlowNet Training](../../ICML2026/reinforcement_learning/beyond_the_proxy_trajectory-distilled_guidance_for_offline_gflownet_training.md)
-- [\[ICML 2026\] Beyond Scalar Rewards: Dense Feedback for LLM Policy Synthesis in Sequential Social Dilemmas](../../ICML2026/reinforcement_learning/beyond_scalar_rewards_dense_feedback_for_llm_policy_synthesis_in_sequential_soci.md)
-- [\[ICLR 2026\] How LLMs Learn to Reason: A Complex Network Perspective](how_llms_learn_to_reason_a_complex_network_perspective.md)
+- [\[NeurIPS 2025\] Training Language Models to Reason Efficiently](../../NeurIPS2025/reinforcement_learning/training_language_models_to_reason_efficiently.md)
 
 </div>
 

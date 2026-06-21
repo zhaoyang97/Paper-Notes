@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Space-sampled Value Decay: Forgetting Mechanisms for Non-stationary Deep Reinforcement Learning
+description: >-
+  [ICML2026（EIML Workshop）][强化学习][非平稳RL] 针对环境会悄悄"漂移"、且不给任何 task ID 或 context 提示的非平稳强化学习场景，本文提出 **Space-sampled Value Decay (SsVD)**：通过从状态空间采样并把那些"没去过 / 信息已过期"的状态的 Q 值持续衰减回一个基线，让 DQN/SAC 主动遗忘陈旧知识，从而在动态变化的环境里维持高回报。
+tags:
+  - "ICML2026（EIML Workshop）"
+  - "强化学习"
+  - "非平稳RL"
+  - "遗忘机制"
+  - "价值衰减"
+  - "DQN"
+  - "SAC"
+---
+
 # Space-sampled Value Decay: Forgetting Mechanisms for Non-stationary Deep Reinforcement Learning
 
 **会议**: ICML2026（EIML Workshop）  

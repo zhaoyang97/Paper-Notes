@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Bandit Learning in Matching Markets Robust to Adversarial Corruptions
+description: >-
+  [ICLR2026][学习理论][匹配市场] 这篇论文首次研究"反馈被对手污染"下的去中心化双边匹配市场 bandit 学习问题，分别针对污染总量 $C$ 已知和未知两种情形给出鲁棒算法——已知时把经典 ETGS 的置信区间按 $C$ 加宽，未知时用"多层 ETGS 赛跑 + 子阶段级同步"自适应抵御任意污染，并证明两者的玩家最优稳定遗憾上界与一个匹配的下界。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "在线学习"
+  - "多臂老虎机"
+  - "匹配市场"
+  - "对抗污染"
+  - "鲁棒在线学习"
+  - "遗憾界"
+---
+
 # Bandit Learning in Matching Markets Robust to Adversarial Corruptions
 
 **会议**: ICLR2026  
-**OpenReview**: [CoWJc5ofDO](https://openreview.net/forum?id=CoWJc5ofDO)  
+**OpenReview**: [https://openreview.net/forum?id=CoWJc5ofDO](https://openreview.net/forum?id=CoWJc5ofDO)  
 **代码**: 待确认  
 **领域**: 学习理论 / 在线学习 / 多臂老虎机  
 **关键词**: 匹配市场, 多臂老虎机, 对抗污染, 鲁棒在线学习, 遗憾界
@@ -138,10 +154,10 @@ $$\mathrm{Reg}_i(T)\le O\!\Big(\frac{Kd\log T(\log T+C)}{\Delta}+\frac{K\log^2 T
 
 ## 相关论文
 
+- [\[ICLR 2026\] Online Conformal Prediction with Adversarial Semi-bandit Feedback via Regret Minimization](online_conformal_prediction_with_adversarial_semi-bandit_feedback_via_regret_min.md)
+- [\[ICLR 2026\] Laplacian Kernelized Bandit](laplacian_kernelized_bandit.md)
 - [\[ICML 2026\] Bandit Social Learning with Exploration Episodes](../../ICML2026/learning_theory/bandit_social_learning_with_exploration_episodes.md)
-- [\[ICML 2026\] Learning Credal Ensembles via Distributionally Robust Optimization](../../ICML2026/learning_theory/learning_credal_ensembles_via_distributionally_robust_optimization.md)
-- [\[ICML 2026\] Parsimonious Learning-Augmented Online Metric Matching](../../ICML2026/learning_theory/parsimonious_learning-augmented_online_metric_matching.md)
-- [\[ICLR 2026\] A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers](a_statistical_learning_perspective_on_semi-dual_adversarial_neural_optimal_trans.md)
+- [\[ICLR 2026\] Noise Tolerance of Distributionally Robust Learning](noise_tolerance_of_distributionally_robust_learning.md)
 - [\[ICLR 2026\] A Faster Parameter-Free Regret Matching Algorithm](a_faster_parameter-free_regret_matching_algorithm.md)
 
 </div>

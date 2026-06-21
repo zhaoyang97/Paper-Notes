@@ -16,7 +16,7 @@ tags:
 # Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards
 
 **会议**: ICLR2026  
-**OpenReview**: [9xIBbfItGP](https://openreview.net/forum?id=9xIBbfItGP)  
+**OpenReview**: [https://openreview.net/forum?id=9xIBbfItGP](https://openreview.net/forum?id=9xIBbfItGP)  
 **代码**: https://github.com/dd88s87/MERCI  
 **领域**: 强化学习 / LLM 推理  
 **关键词**: 内在奖励, 基于计数的探索, 不确定性贝尔曼方程, GRPO, LLM 推理
@@ -167,11 +167,11 @@ MERCI 在**域外 Spider 上增益更大**，说明它推动模型用更通用�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Random Policy Valuation is Enough for LLM Reasoning with Verifiable Rewards](random_policy_valuation_is_enough_for_llm_reasoning_with_verifiable_rewards.md)
+- [\[ICLR 2026\] Beyond Markovian: Reflective Exploration via Bayes-Adaptive RL for LLM Reasoning](beyond_markovian_reflective_exploration_via_bayes-adaptive_rl_for_llm_reasoning.md)
 - [\[ICLR 2026\] Continuous Chain of Thought Enables Parallel Exploration and Reasoning](continuous_chain_of_thought_enables_parallel_exploration_and_reasoning.md)
+- [\[ICLR 2026\] Agentic Reinforcement Learning with Implicit Step Rewards](agentic_reinforcement_learning_with_implicit_step_rewards.md)
 - [\[ICLR 2026\] Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models](attention_as_a_compass_efficient_exploration_for_process-supervised_rl_in_reason.md)
-- [\[ICLR 2026\] Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling](overthinking_reduction_with_decoupled_rewards_and_curriculum_data_scheduling.md)
-- [\[ACL 2026\] Reinforced Efficient Reasoning via Semantically Diverse Exploration](../../ACL2026/llm_reasoning/reinforced_efficient_reasoning_via_semantically_diverse_exploration.md)
-- [\[CVPR 2026\] ReLaX: Reasoning with Latent Exploration for Large Reasoning Models](../../CVPR2026/llm_reasoning/relax_reasoning_with_latent_exploration_for_large_reasoning_models.md)
 
 </div>
 

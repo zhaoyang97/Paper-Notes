@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Reliable to Expressive: A Curriculum for Rubric-Following Safety Judges
+description: >-
+  [ICML 2026][LLM评测][安全审判器] 把"安全审判"重新定义为"遵循评分标准（rubric）"的问题，用「实例条件化的动态 rubric」+「先可靠后表达（reliable-to-expressive）的课程」训练一个 12B 审判器，使其在三套写法迥异的 rubric 下都保持 94%+ 准确率、跨标准波动仅 0.76，稳定性碾压参数量更大的 20B/30B 审判器。
+tags:
+  - "ICML 2026"
+  - "LLM评测"
+  - "安全审判器"
+  - "rubric-following"
+  - "动态评分标准"
+  - "课程学习"
+  - "跨标准鲁棒性"
+---
+
 # Reliable to Expressive: A Curriculum for Rubric-Following Safety Judges
 
 **会议**: ICML 2026  

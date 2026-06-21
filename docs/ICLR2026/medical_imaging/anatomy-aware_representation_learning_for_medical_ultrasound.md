@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Anatomy-aware Representation Learning for Medical Ultrasound
+description: >-
+  [ICLR2026][医学图像][医学超声] 针对医学超声「散斑纹理重、灰度色彩单一、特征因器官而异」三大特性，本文构建了一个 520 万张图的大规模超声数据集，并提出解剖感知的 A-ViT（核心是「解剖条件可变形 Transformer」ACDT）配合「掩码重建 + 对抗 + 自蒸馏」三重自监督目标，在乳腺/甲状腺/胆囊/新冠肺/心脏等多种超声诊断任务上显著超过通用与医学领域的 SSL 基线。
+tags:
+  - "ICLR2026"
+  - "医学图像"
+  - "医学超声"
+  - "自监督表示学习"
+  - "解剖感知"
+  - "Transformer"
+  - "散斑保留"
+---
+
 # Anatomy-aware Representation Learning for Medical Ultrasound
 
 **会议**: ICLR2026  
-**OpenReview**: [5ThIWuDkEf](https://openreview.net/forum?id=5ThIWuDkEf)  
+**OpenReview**: [https://openreview.net/forum?id=5ThIWuDkEf](https://openreview.net/forum?id=5ThIWuDkEf)  
 **代码**: 待确认  
 **领域**: 医学图像 / 自监督学习 / 超声  
 **关键词**: 医学超声、自监督表示学习、解剖感知、可变形 Transformer、散斑保留
@@ -137,11 +152,11 @@ $$L=L_{\text{SD}}+\big(L_{\text{MIM}}+\lambda L_{\text{adv}}^{(G)}\big),\qquad \
 
 ## 相关论文
 
+- [\[ICLR 2026\] MedGMAE: Gaussian Masked Autoencoders for Medical Volumetric Representation Learning](medgmae_gaussian_masked_autoencoders_for_medical_volumetric_representation_learn.md)
+- [\[ICLR 2026\] CortiLife: A Unified Framework for Cortical Representation Learning across the Lifespan](cortilife_a_unified_framework_for_cortical_representation_learning_across_the_li.md)
 - [\[CVPR 2026\] Ultrasound-CLIP: Semantic-Aware Contrastive Pre-training for Ultrasound Image-Text Understanding](../../CVPR2026/medical_imaging/ultrasound-clip_semantic-aware_contrastive_pre-training_for_ultrasound_image-tex.md)
-- [\[AAAI 2026\] Multivariate Gaussian Representation Learning for Medical Action Evaluation](../../AAAI2026/medical_imaging/multivariate_gaussian_representation_learning_for_medical_action_evaluation.md)
 - [\[ICML 2026\] Which Anatomy Matters Under Limited Labels? A Data-Efficient Anatomy-Aware Benchmark for Cardiac Pathology Prediction](../../ICML2026/medical_imaging/which_anatomy_matters_under_limited_labels_a_data-efficient_anatomy-aware_benchm.md)
-- [\[CVPR 2026\] Masked-Diffusion Autoencoders for 3D Medical Vision Representation Learning](../../CVPR2026/medical_imaging/masked-diffusion_autoencoders_for_3d_medical_vision_representation_learning.md)
-- [\[CVPR 2026\] Multimodal Causality-Driven Representation Learning for Generalizable Medical Image Segmentation](../../CVPR2026/medical_imaging/multimodal_causal-driven_representation_learning_for_generalizable_medical_image.md)
+- [\[AAAI 2026\] Multivariate Gaussian Representation Learning for Medical Action Evaluation](../../AAAI2026/medical_imaging/multivariate_gaussian_representation_learning_for_medical_action_evaluation.md)
 
 </div>
 

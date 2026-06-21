@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Exploring Systems-Thinking Approaches to Loss of Control Risk
+description: >-
+  [ICML2026][AI安全][失控风险(LoC)] 这是一篇立场/分析论文：作者主张前沿 AI 的"失控（Loss of Control, LoC）"不该只在模型层面评估，而要当成社会技术系统的控制问题；他们把航空/核电等行业成熟的三种系统安全方法（STECA、STPA、FRAM）搬到"前沿实验室内部部署编码 agent"这一通用场景上，分别揭示出模型级评估看不到的治理空缺、控制延迟导致的失效、以及日常运营波动对安全控制的渐进侵蚀，并据此提出"模型评估 + 系统级危害分析 + 运营保障"三管齐下。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "失控风险(LoC)"
+  - "系统安全"
+  - "STPA"
+  - "FRAM"
+  - "STECA"
+  - "前沿AI内部部署"
+---
+
 # Exploring Systems-Thinking Approaches to Loss of Control Risk
 
 **会议**: ICML2026  

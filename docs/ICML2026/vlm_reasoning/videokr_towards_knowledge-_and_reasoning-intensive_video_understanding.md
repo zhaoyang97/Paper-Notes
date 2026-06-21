@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding
+description: >-
+  [ICML 2026][VLM Reasoning][视频理解] VideoKR 是首个面向「知识与推理密集型视频理解」的大规模后训练语料——它新采集 14.5 万条 CC 许可的专业领域长视频、合成 31.5 万条带 CoT 推理链的 QA，靠「人在回路 + 技能导向」的合成管线保证难度/多样性/可靠性，并配套构建去掉「单帧可答」捷径的 VideoKR-Eval 基准；在标准 SFT→GRPO 流程下，仅靠数据设计就让 7/8B 模型在知识密集视频推理上超过此前后训练方法。
+tags:
+  - "ICML 2026"
+  - "VLM Reasoning"
+  - "视频理解"
+  - "知识密集推理"
+  - "后训练语料"
+  - "技能导向QA合成"
+  - "CoT监督"
+---
+
 # VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding
 
 **会议**: ICML 2026  

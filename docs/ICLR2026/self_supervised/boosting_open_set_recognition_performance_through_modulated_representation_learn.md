@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Boosting Open Set Recognition Performance through Modulated Representation Learning
+description: >-
+  [ICLR2026][自监督学习][开集识别] 这篇论文指出几乎所有开集识别（OSR）方法都给 logits 用一个**固定温度** $\tau$，导致模型只能停在「实例级特征」和「类级特征」频谱的某一点；作者提出在训练过程中**调度温度**（核心是新颖的负余弦调度 NegCosSch），让模型先用低温画出粗决策边界、再升温把同类样本收紧，从而在不增加任何计算开销的前提下，把开集和闭集性能一起提升，尤其在更难的语义偏移基准（SSB）上收益最大。
+tags:
+  - "ICLR2026"
+  - "自监督学习"
+  - "开集识别"
+  - "温度调度"
+  - "表示学习"
+  - "对比损失"
+  - "负余弦调度"
+---
+
 # Boosting Open Set Recognition Performance through Modulated Representation Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [vpBKry7kL5](https://openreview.net/forum?id=vpBKry7kL5)  
+**OpenReview**: [https://openreview.net/forum?id=vpBKry7kL5](https://openreview.net/forum?id=vpBKry7kL5)  
 **代码**: https://github.com/amit31416/NegCosSch/  
 **领域**: 自监督 / 表示学习 / 开集识别  
 **关键词**: 开集识别, 温度调度, 表示学习, 对比损失, 负余弦调度
@@ -132,11 +147,11 @@ $$T_{\text{M-NegCosSch}}(e;\tau^+,\tau^-) = \tau^- + 0.5(\tau^+-\tau^-)\big(1-\c
 
 ## 相关论文
 
-- [\[CVPR 2026\] PAF: Perturbation-Aware Filtering for Open-Set Semi-Supervised Learning](../../CVPR2026/self_supervised/paf_perturbation-aware_filtering_for_open-set_semi-supervised_learning.md)
+- [\[ICLR 2026\] FedOpenMatch: Towards Semi-Supervised Federated Learning in Open-Set Environments](fedopenmatch_towards_semi-supervised_federated_learning_in_open-set_environments.md)
+- [\[ICLR 2026\] Disentangled representation learning through unsupervised symmetry group discovery](disentangled_representation_learning_through_unsupervised_symmetry_group_discove.md)
 - [\[ICLR 2026\] Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning](adversarial_encoding_perturbation_and_synthesis_for_set_representation_auxiliary.md)
+- [\[CVPR 2026\] PAF: Perturbation-Aware Filtering for Open-Set Semi-Supervised Learning](../../CVPR2026/self_supervised/paf_perturbation-aware_filtering_for_open-set_semi-supervised_learning.md)
 - [\[AAAI 2026\] Let the Void Be Void: Robust Open-Set Semi-Supervised Learning via Selective Non-Alignment](../../AAAI2026/self_supervised/let_the_void_be_void_robust_open-set_semi-supervised_learning_via_selective_non-.md)
-- [\[CVPR 2025\] OCRT: Boosting Foundation Models in the Open World with Object-Concept-Relation Triad](../../CVPR2025/self_supervised/ocrt_boosting_foundation_models_in_the_open_world_with_object-concept-relation_t.md)
-- [\[ICLR 2026\] Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency](attention_please_revisiting_attentive_probing_through_the_lens_of_efficiency.md)
 
 </div>
 

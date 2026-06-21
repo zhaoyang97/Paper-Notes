@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Viral Proteins Reveal Geometry of Protein Language Models
+description: >-
+  [ICML 2026][计算生物][蛋白质语言模型] 这篇论文以病毒蛋白为探针，发现 ESM 系列蛋白质语言模型（pLM）的嵌入空间里存在一条由掩码重建困惑度主导的"原生性轴"（PC1），它把序列从建模良好的细胞蛋白、经病毒蛋白、一直排到打乱/随机序列；同时证明嵌入里还保留着超出困惑度的"残余病毒信号"——线性探针能近天花板地区分病毒/细胞蛋白，而单靠困惑度做不到。
+tags:
+  - "ICML 2026"
+  - "计算生物"
+  - "蛋白质语言模型"
+  - "病毒蛋白"
+  - "原生性轴"
+  - "线性探针"
+  - "表示几何"
+---
+
 # Viral Proteins Reveal Geometry of Protein Language Models
 
 **会议**: ICML 2026  

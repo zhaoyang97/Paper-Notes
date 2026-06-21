@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Learned Subspace Compression for Communication-Efficient Pipeline Parallelism
+description: >-
+  [ICML2026][模型压缩][流水线并行] 针对低带宽网络下流水线并行训练「跨段激活通信」的瓶颈，本文提出 MAPL：让每个流水线段在 Stiefel 流形上**学习自己的正交投影**来压缩边界激活，配合因子化锚点嵌入剥离 token 偏移、再叠加残差向量量化，在 150M–1B 的 LLaMA 上实现 4–16× 通信压缩、性能仅比未压缩基线掉 1% 左右，远优于固定子空间的 SSN。
+tags:
+  - "ICML2026"
+  - "模型压缩"
+  - "流水线并行"
+  - "激活压缩"
+  - "Stiefel 流形"
+  - "学习子空间"
+  - "向量量化"
+---
+
 # Learned Subspace Compression for Communication-Efficient Pipeline Parallelism
 
 **会议**: ICML2026  

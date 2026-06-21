@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents
+description: >-
+  [ICML2026][LLM Agent][LLM 智能体] MRAgent 把"先检索后推理"的静态记忆范式换成"边推理边重构"，用一个 Cue–Tag–Content 关联记忆图加一套主动重构循环，让智能体根据中间证据动态选择遍历方向、剪掉无关分支，在 LoCoMo / LongMemEval 上相对最强基线最高提升 23%，同时把 token 和耗时大幅压低。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "LLM 智能体"
+  - "长程记忆"
+  - "主动记忆重构"
+  - "关联记忆图"
+  - "Cue-Tag-Content"
+---
+
 # Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents
 
 **会议**: ICML2026  

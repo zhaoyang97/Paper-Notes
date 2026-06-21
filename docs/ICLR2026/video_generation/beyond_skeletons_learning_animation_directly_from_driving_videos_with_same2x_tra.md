@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Skeletons: Learning Animation Directly from Driving Videos with Same2X Training Strategy
+description: >-
+  [ICLR2026][视频生成][人体图像动画] 本文提出 DirectAnimator，抛弃骨架/姿态估计这一中间表示，直接用驱动视频的原始像素把参考人物"动起来"：先把原始视频抽成 Pose/Face/Location 三元"驱动线索（Driving Cue）"，再用 CueFusion DiT Block 把线索注入去噪过程，并配一套 Same2X 训练策略把跨身份（cross-ID）阶段的特征对齐到同身份（same-ID）模型，最终在 TikTok / Unseen 两套测试集上达到 SOTA，且收敛快 6.7×、算力更省。
+tags:
+  - "ICLR2026"
+  - "视频生成"
+  - "人体图像动画"
+  - "驱动视频"
+  - "骨架替代"
+  - "DiT"
+  - "表示对齐"
+---
+
 # Beyond Skeletons: Learning Animation Directly from Driving Videos with Same2X Training Strategy
 
 **会议**: ICLR2026  
-**OpenReview**: [HdEpZE3wFa](https://openreview.net/forum?id=HdEpZE3wFa)  
+**OpenReview**: [https://openreview.net/forum?id=HdEpZE3wFa](https://openreview.net/forum?id=HdEpZE3wFa)  
 **代码**: 待确认（项目页 https://directanimator.github.io/）  
 **领域**: 视频生成 / 人体图像动画  
 **关键词**: 人体图像动画, 驱动视频, 骨架替代, DiT, 表示对齐
@@ -122,10 +137,10 @@ DirectAnimator 在更具挑战的 Unseen 集（快速复杂舞蹈、姿态最易
 ## 相关论文
 
 - [\[ICML 2026\] Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories](../../ICML2026/video_generation/rays_as_pixels_learning_a_joint_distribution_of_videos_and_camera_trajectories.md)
-- [\[NeurIPS 2025\] RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation](../../NeurIPS2025/video_generation/rlgf_reinforcement_learning_with_geometric_feedback_for_autonomous_driving_video.md)
 - [\[ICCV 2025\] Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning](../../ICCV2025/video_generation/disentangled_world_models_learning_to_transfer_semantic_knowledge_from_distracti.md)
+- [\[NeurIPS 2025\] RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation](../../NeurIPS2025/video_generation/rlgf_reinforcement_learning_with_geometric_feedback_for_autonomous_driving_video.md)
+- [\[ICLR 2026\] ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask](consisdrive_identity-preserving_driving_world_models_for_video_generation_by_ins.md)
 - [\[CVPR 2026\] Efficient Training for Human Video Generation with Entropy-Guided Prioritized Progressive Learning](../../CVPR2026/video_generation/efficient_training_for_human_video_generation_with_entropy-guided_prioritized_pr.md)
-- [\[CVPR 2026\] Cross-Subject EEG-to-Video Reconstruction and Beyond](../../CVPR2026/video_generation/cross-subject_eeg-to-video_reconstruction_and_beyond.md)
 
 </div>
 

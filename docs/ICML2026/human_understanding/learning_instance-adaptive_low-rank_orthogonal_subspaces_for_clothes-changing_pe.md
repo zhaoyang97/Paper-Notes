@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Learning Instance-Adaptive Low-Rank Orthogonal Subspaces for Clothes-Changing Person Re-Identification
+description: >-
+  [ICML2026][人体理解][换衣行人重识别] 把"衣服"这个语义概念显式建模成一个 **实例自适应的低秩子空间**（用 CLIP 文本描述的 SVD 主成分初始化、再靠图像 patch 的 cross-attention 精修），然后用几何约束强制身份特征与该子空间严格正交，从而在不用对抗训练的情况下做到换衣行人重识别的 SOTA（PRCC +5.9% Rank-1）。
+tags:
+  - "ICML2026"
+  - "人体理解"
+  - "换衣行人重识别"
+  - "低秩子空间"
+  - "视觉语言模型"
+  - "正交投影"
+  - "解耦表示"
+---
+
 # Learning Instance-Adaptive Low-Rank Orthogonal Subspaces for Clothes-Changing Person Re-Identification
 
 **会议**: ICML2026  

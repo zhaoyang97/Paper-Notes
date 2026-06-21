@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The Role of Feedback Alignment in Self-Distillation
+description: >-
+  [ICML2026][Reasoning][自蒸馏] 本文系统研究了「自蒸馏」中上下文（context）的设计问题：在 solver–critic 框架下对比三种反馈形式后发现，与 solver 自身推理轨迹**逐步对齐**的批改式反馈（StepAlignFB）远胜二元奖励（GRPO，+16.11 分）和参考解（RefSol，+5.27 分 Avg@12），因为它只把蒸馏信号集中在 solver 真正出错的 token 上、放过已经正确的步骤，从而隐式实现了过程级监督（PRM 式信号）而无需训练奖励模型。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "自蒸馏"
+  - "反馈对齐"
+  - "过程监督"
+  - "GRPO"
+  - "数学推理"
+---
+
 # The Role of Feedback Alignment in Self-Distillation
 
 **会议**: ICML2026  

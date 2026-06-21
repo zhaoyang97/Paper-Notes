@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Anchor Frame Bridging for Coherent First-Last Frame Video Generation
+description: >-
+  [ICLR2026][视频生成][首尾帧视频生成] 针对首尾帧视频生成（FLF2V）中间帧语义衰减、画面崩坏的问题，本文提出训练无关的 Anchor Frame Bridging（AFB）：在视频时序断裂最严重的位置自适应插入一帧"锚帧"，把首尾帧的语义"接力"到中段，在 Wan2.1-I2V 上 FVD 提升 16.58%、PSNR 提升 10.21%。
+tags:
+  - "ICLR2026"
+  - "视频生成"
+  - "首尾帧视频生成"
+  - "锚帧"
+  - "训练无关"
+  - "时序一致性"
+  - "扩散模型"
+---
+
 # Anchor Frame Bridging for Coherent First-Last Frame Video Generation
 
 **会议**: ICLR2026  
-**OpenReview**: [isNjWnVsUR](https://openreview.net/forum?id=isNjWnVsUR)  
+**OpenReview**: [https://openreview.net/forum?id=isNjWnVsUR](https://openreview.net/forum?id=isNjWnVsUR)  
 **代码**: 待确认  
 **领域**: 视频生成  
 **关键词**: 首尾帧视频生成, 锚帧, 训练无关, 时序一致性, 扩散模型
@@ -118,11 +133,11 @@ Wan2.1 + AFB 全面领先：相比 Wan2.1-I2V，FVD 从 449.68 降到 375.12（�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning](controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine-tuning.md)
 - [\[CVPR 2026\] FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing](../../CVPR2026/video_generation/ffp-300k_scaling_first-frame_propagation_for_generalizable_video_editing.md)
-- [\[ICLR 2026\] LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning](lora-edit_controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine.md)
 - [\[ICLR 2026\] Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models](frame_guidance_training-free_guidance_for_frame-level_control_in_video_diffusion.md)
-- [\[CVPR 2026\] TempoMaster: Efficient Long Video Generation via Next-Frame-Rate Prediction](../../CVPR2026/video_generation/tempomaster_efficient_long_video_generation_via_next-frame-rate_prediction.md)
-- [\[ICML 2026\] Enhancing Train-Free Infinite-Frame Generation for Consistent Long Videos](../../ICML2026/video_generation/enhancing_train-free_infinite-frame_generation_for_consistent_long_videos.md)
+- [\[ICLR 2026\] Realtime Video Frame Interpolation Using One-Step Diffusion Sampling](realtime_video_frame_interpolation_using_one-step_diffusion_sampling.md)
+- [\[CVPR 2026\] Towards Holistic Modeling for Video Frame Interpolation with Auto-regressive Diffusion Transformers](../../CVPR2026/video_generation/towards_holistic_modeling_for_video_frame_interpolation_with_auto-regressive_dif.md)
 
 </div>
 

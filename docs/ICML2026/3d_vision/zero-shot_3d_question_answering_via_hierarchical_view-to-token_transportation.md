@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Zero-Shot 3D Question Answering via Hierarchical View-to-Token Transportation
+description: >-
+  [ICML2026][3D视觉][3D问答] KeyVT 把"从 3D 点云采样的多视图喂给 2D VLM 做 3D 问答"这件事拆成"先选关键视图、再选关键 token"两级层级流程——视图级用相机几何参数把场景切成空间连续的子场景并按相关性分配预算，token 级用最优传输（OT）压掉跨视图冗余，使免训练方法在 ScanQA/SQA3D/VSI-Bench 上逼近甚至超过需要训练的模型。
+tags:
+  - "ICML2026"
+  - "3D视觉"
+  - "3D问答"
+  - "零样本"
+  - "关键视图选择"
+  - "最优传输"
+  - "token压缩"
+---
+
 # Zero-Shot 3D Question Answering via Hierarchical View-to-Token Transportation
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adjusting Prediction Model Through Wasserstein Geodesic for Causal Inference
+description: >-
+  [ICLR 2026][因果推理][因果推断] 针对因果推断里"实验组和对照组分布失衡导致预测模型无法跨组泛化"的问题，本文提出 G-learner：不再像主流方法那样去对齐协变量（会丢掉预测信息、产生 over-balancing），而是沿着两组分布之间的 Wasserstein 测地线生成一串中间群，再用渐进自训练把预测模型从一组逐步搬到另一组，在 News/Twins/Jobs 和仿真数据上把 PEHE/ATE 误差压到 SOTA 或与之持平。
+tags:
+  - "ICLR 2026"
+  - "因果推理"
+  - "因果推断"
+  - "最优传输"
+  - "Wasserstein 测地线"
+  - "渐进自训练"
+  - "反事实预测"
+---
+
 # Adjusting Prediction Model Through Wasserstein Geodesic for Causal Inference
 
 **会议**: ICLR 2026  
-**OpenReview**: [pYLoHuLV45](https://openreview.net/forum?id=pYLoHuLV45)  
+**OpenReview**: [https://openreview.net/forum?id=pYLoHuLV45](https://openreview.net/forum?id=pYLoHuLV45)  
 **代码**: 待确认  
 **领域**: 因果推断 / 反事实预测  
 **关键词**: 因果推断, 最优传输, Wasserstein 测地线, 渐进自训练, 反事实预测
@@ -136,11 +151,11 @@ $$\epsilon_{PEHE}\le 2E(h_{0,0})+2E(h_{1,1})+2O\big(\tilde K\Delta+B(n,\tilde K,
 
 ## 相关论文
 
+- [\[ICLR 2026\] Conformalized Survival Counterfactuals Prediction for General Right-Censored Data](conformalized_survival_counterfactuals_prediction_for_general_right-censored_dat.md)
 - [\[ICML 2025\] Classifier Reconstruction Through Counterfactual-Aware Wasserstein Prototypes](../../ICML2025/causal_inference/classifier_reconstruction_through_counterfactual-aware_wasserstein_prototypes.md)
-- [\[ICLR 2026\] Validating Interpretability in siRNA Efficacy Prediction: A Perturbation-Based, Dataset-Aware Protocol](validating_interpretability_in_sirna_efficacy_prediction_a_perturbation-based_da.md)
-- [\[ICLR 2026\] Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning](beyond_dags_a_latent_partial_causal_model_for_multimodal_learning.md)
-- [\[ICML 2026\] Controllable Generative Sandbox for Causal Inference](../../ICML2026/causal_inference/controllable_generative_sandbox_for_causal_inference.md)
-- [\[ICML 2026\] Causal-JEPA: Learning World Models through Object-Level Latent Masking](../../ICML2026/causal_inference/causal-jepa_learning_world_models_through_object-level_latent_masking.md)
+- [\[ICLR 2026\] Foundation Models for Causal Inference via Prior-Data Fitted Networks](foundation_models_for_causal_inference_via_prior-data_fitted_networks.md)
+- [\[ICLR 2026\] Exploratory Causal Inference in SAEnce](exploratory_causal_inference_in_saence.md)
+- [\[ICLR 2026\] Ice Cream Doesn't Cause Drowning: Benchmarking LLMs Against Statistical Pitfalls in Causal Inference](ice_cream_doesnt_cause_drowning_benchmarking_llms_against_statistical_pitfalls_i.md)
 
 </div>
 

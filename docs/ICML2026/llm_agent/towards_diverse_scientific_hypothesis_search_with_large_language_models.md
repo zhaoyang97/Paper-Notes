@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Towards Diverse Scientific Hypothesis Search with Large Language Models
+description: >-
+  [ICML 2026][LLM Agent][科学假设搜索] 把"用 LLM 搜科学假设"重新看成**在固定验证预算下高效产出一批多样且高质量假设的采样问题**，借鉴物理里的并行回火（Parallel Tempering）造了一个双温度池的进化框架 EvoDiverse，让高温池负责探索、低温池负责精炼、两池之间按 Metropolis-Hastings 规则交换样本，从而在分子/方程/算法三类发现任务上同时提升质量和多样性。
+tags:
+  - "ICML 2026"
+  - "LLM Agent"
+  - "科学假设搜索"
+  - "并行回火"
+  - "进化算法"
+  - "多样性坍缩"
+  - "采样"
+---
+
 # Towards Diverse Scientific Hypothesis Search with Large Language Models
 
 **会议**: ICML 2026  

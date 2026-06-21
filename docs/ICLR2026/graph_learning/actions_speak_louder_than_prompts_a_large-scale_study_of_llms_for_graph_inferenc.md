@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference
+description: >-
+  [ICLR2026][图学习][LLM-图交互] 这是一篇大规模、可控的实证研究，系统对比 LLM 处理文本图的三种"交互模式"——直接 prompting、ReAct 式工具调用、以及让 LLM 写代码查图的 Graph-as-Code——发现**让 LLM 自己写代码操作图**（而不是把图塞进 prompt）在节点分类上整体最强，尤其在长文本、高度数的稠密图上优势巨大，并且它能在结构、特征、标签三种信号间自适应地切换依赖。
+tags:
+  - "ICLR2026"
+  - "图学习"
+  - "LLM-图交互"
+  - "节点分类"
+  - "Graph-as-Code"
+  - "ReAct 工具调用"
+  - "依赖性分析"
+---
+
 # Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference
 
 **会议**: ICLR2026  
-**OpenReview**: [MgJUj9Sk3C](https://openreview.net/forum?id=MgJUj9Sk3C)  
+**OpenReview**: [https://openreview.net/forum?id=MgJUj9Sk3C](https://openreview.net/forum?id=MgJUj9Sk3C)  
 **代码**: 待确认  
 **领域**: 图学习 / LLM 推理  
 **关键词**: LLM-图交互, 节点分类, Graph-as-Code, ReAct 工具调用, 依赖性分析
@@ -128,10 +143,10 @@
 ## 相关论文
 
 - [\[ACL 2026\] Evaluating LLMs on Large-Scale Graph Property Estimation via Random Walks](../../ACL2026/graph_learning/evaluating_llms_on_large-scale_graph_property_estimation_via_random_walks.md)
+- [\[ICLR 2026\] AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM](atlaskv_augmenting_llms_with_billion-scale_knowledge_graphs_in_20gb_vram.md)
+- [\[ICLR 2026\] Discrete Bayesian Sample Inference for Graph Generation](discrete_bayesian_sample_inference_for_graph_generation.md)
+- [\[ICLR 2026\] Training-Free Counterfactual Explanation for Temporal Graph Model Inference](training-free_counterfactual_explanation_for_temporal_graph_model_inference.md)
 - [\[AAAI 2026\] GT-SNT: A Linear-Time Transformer for Large-Scale Graphs via Spiking Node Tokenization](../../AAAI2026/graph_learning/gt-snt_a_linear-time_transformer_for_large-scale_graphs_via_spiking_node_tokeniz.md)
-- [\[ICLR 2026\] Explore-on-Graph: Incentivizing Autonomous Exploration of LLMs on Knowledge Graphs](explore-on-graph_incentivizing_autonomous_exploration_of_large_language_models_o.md)
-- [\[CVPR 2025\] Hypergraph Vision Transformers: Images are More than Nodes, More than Edges](../../CVPR2025/graph_learning/hypergraph_vision_transformers_images_are_more_than_nodes_more_than_edges.md)
-- [\[NeurIPS 2025\] Dynamic Bundling with Large Language Models for Zero-Shot Inference on Text-Attributed Graphs](../../NeurIPS2025/graph_learning/dynamic_bundling_with_large_language_models_for_zero-shot_inference_on_text-attr.md)
 
 </div>
 

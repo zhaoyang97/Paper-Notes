@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling
+description: >-
+  [ICLR 2026][学习理论][Pass@k 推理] 本文把 LLM 的 Pass@k 推理（采 $N$ 个候选、提交至多 $k$ 个、只看最好那个）形式化为一个 regret 最小化问题，证明多数投票和 Best-of-N 在这个设定下都不是最优的，提出"先按出现频率预筛、再按奖励取 top-$k$"的 Best-of-Majority（BoM）策略，给出 $\tilde O(\epsilon_{\mathrm{opt}}+\sqrt{C^*\epsilon_{\mathrm{RM}}^2/k})$ 的 regret 上界并配上匹配的下界，从而首次给出 Pass@k 推理的极小极大最优算法。
+tags:
+  - "ICLR 2026"
+  - "学习理论"
+  - "测试时计算"
+  - "Pass@k 推理"
+  - "推理缩放"
+  - "极小极大最优"
+  - "Best-of-N"
+  - "多数投票"
+---
+
 # Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling
 
 **会议**: ICLR 2026  
-**OpenReview**: [a6CVQpjbXq](https://openreview.net/forum?id=a6CVQpjbXq)  
+**OpenReview**: [https://openreview.net/forum?id=a6CVQpjbXq](https://openreview.net/forum?id=a6CVQpjbXq)  
 **代码**: 待确认  
 **领域**: 学习理论 / 测试时计算  
 **关键词**: Pass@k 推理, 推理缩放, 极小极大最优, Best-of-N, 多数投票
@@ -125,11 +141,11 @@ $$\mathrm{Regret}(x)\le\epsilon_{\mathrm{opt}}(x)+O\!\Big(\sqrt{C^*(x)\epsilon_{
 
 ## 相关论文
 
+- [\[ICLR 2026\] Minimax-Optimal Aggregation for Density Ratio Estimation](minimax-optimal_aggregation_for_density_ratio_estimation.md)
+- [\[ICLR 2026\] Transformers as Measure-Theoretic Associative Memory: A Statistical Perspective and Minimax Optimality](transformers_as_measure-theoretic_associative_memory_a_statistical_perspective_a.md)
+- [\[ICLR 2026\] Learning Shrinks the Hard Tail: Training-Dependent Inference Scaling in a Solvable Linear Model](learning_shrinks_the_hard_tail_trainingdependent_inference_scaling_in_a_solvable.md)
 - [\[ICLR 2026\] A Near-Optimal Best-of-Both-Worlds Algorithm for Federated Bandits](a_near-optimal_best-of-both-worlds_algorithm_for_federated_bandits.md)
-- [\[ICML 2026\] Optimal Design for Multinomial Logit Model with Applications to Best Assortment Identification](../../ICML2026/learning_theory/optimal_design_for_multinomial_logit_model_with_applications_to_best_assortment_.md)
-- [\[ICML 2025\] Near Optimal Best Arm Identification for Clustered Bandits](../../ICML2025/learning_theory/near_optimal_best_arm_identification_for_clustered_bandits.md)
-- [\[ICLR 2026\] Expressive Power of Implicit Models: Rich Equilibria and Test-Time Scaling](expressive_power_of_implicit_models_rich_equilibria_and_test-time_scaling.md)
-- [\[ICLR 2026\] Branch and Bound Search for Exact MAP Inference in Credal Networks](branch_and_bound_search_for_exact_map_inference_in_credal_networks.md)
+- [\[ICLR 2026\] Variational Inference for Cyclic Learning](variational_inference_for_cyclic_learning.md)
 
 </div>
 

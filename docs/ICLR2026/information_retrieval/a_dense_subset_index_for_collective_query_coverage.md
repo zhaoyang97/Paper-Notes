@@ -16,7 +16,7 @@ tags:
 # A Dense Subset Index for Collective Query Coverage
 
 **会议**: ICLR2026  
-**OpenReview**: [cUdODCFjUM](https://openreview.net/forum?id=cUdODCFjUM)  
+**OpenReview**: [https://openreview.net/forum?id=cUdODCFjUM](https://openreview.net/forum?id=cUdODCFjUM)  
 **代码**: https://github.com/structlearning/DISCo  
 **领域**: 信息检索 / 稠密检索 / 子模优化 / 近似最近邻  
 **关键词**: 集合覆盖检索, 子模最大化, 多向量检索, 随机投影, ANN 索引
@@ -165,11 +165,11 @@ DISCO 的 Error(F) 最低、MAP 最高，说明它检索到的子集覆盖度最
 
 ## 相关论文
 
-- [\[ICLR 2026\] Query-Level Uncertainty in Large Language Models](query-level_uncertainty_in_large_language_models.md)
 - [\[ACL 2026\] When Does Mixing Help? Analyzing Query Embedding Interpolation in Multilingual Dense Retrieval](../../ACL2026/information_retrieval/when_does_mixing_help_analyzing_query_embedding_interpolation_in_multilingual_de.md)
+- [\[ICLR 2026\] Query-Level Uncertainty in Large Language Models](query-level_uncertainty_in_large_language_models.md)
 - [\[ICLR 2026\] Revela: Dense Retriever Learning via Language Modeling](revela_dense_retriever_learning_via_language_modeling.md)
+- [\[ICLR 2026\] Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees](query-aware_flow_diffusion_for_graph-based_rag_with_retrieval_guarantees.md)
 - [\[ICLR 2026\] LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference](lightretriever_a_llm-based_text_retrieval_architecture_with_extremely_faster_que.md)
-- [\[ACL 2026\] Test-Time Training for Zero-Resource Dense Retrieval Reranking](../../ACL2026/information_retrieval/test-time_training_for_zero-resource_dense_retrieval_reranking.md)
 
 </div>
 

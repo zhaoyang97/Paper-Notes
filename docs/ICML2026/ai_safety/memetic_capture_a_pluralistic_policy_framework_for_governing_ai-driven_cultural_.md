@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Memetic Capture: A Pluralistic Policy Framework for Governing AI-Driven Cultural Disempowerment
+description: >-
+  [ICML2026][AI安全][文化失权] 这是一篇 AI 治理立场文：作者提出"模因俘获（memetic capture）"概念来刻画 AI 如何渐进式剥夺人类的文化能动性，并设计了一套四层政策架构 CPGF（含可量化的文化影响指数、民主价值议会、多元部署标准、跨国协调机制），核心论点是**多元主义不是道德选项而是结构必需**——单一文化的 AI 治理本身就会加速它声称要防止的失权。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "文化失权"
+  - "模因俘获"
+  - "多元对齐"
+  - "AI 治理框架"
+  - "前瞻性监管"
+---
+
 # Memetic Capture: A Pluralistic Policy Framework for Governing AI-Driven Cultural Disempowerment
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adversarial Attacks Already Tell the Answer: Directional Bias-Guided Test-time Defense for Vision-Language Models
+description: >-
+  [ICLR2026][AI安全][对抗防御] 作者发现对抗样本在 CLIP 特征空间里经过多种图像变换后会沿一个"主方向"集体偏移（而干净样本是发散的），这个方向恰好指回正确类别中心，于是提出无需训练的测试时防御 DBD：估计"防御方向"并用基于 DB-score 的双流特征重构修复表征，在 15 个数据集上不仅刷新对抗鲁棒性 SOTA，还出现"对抗准确率反超干净准确率"的反直觉现象。
+tags:
+  - "ICLR2026"
+  - "AI安全"
+  - "对抗防御"
+  - "CLIP"
+  - "测试时防御"
+  - "方向偏置"
+  - "特征重构"
+---
+
 # Adversarial Attacks Already Tell the Answer: Directional Bias-Guided Test-time Defense for Vision-Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [UqC2oFRRyc](https://openreview.net/forum?id=UqC2oFRRyc)  
+**OpenReview**: [https://openreview.net/forum?id=UqC2oFRRyc](https://openreview.net/forum?id=UqC2oFRRyc)  
 **代码**: https://github.com/liuls2002/DBD  
 **领域**: AI 安全 / 对抗鲁棒性 / 视觉-语言模型 / 测试时防御  
 **关键词**: 对抗防御, CLIP, 测试时防御, 方向偏置, 特征重构
@@ -132,10 +147,10 @@ DBD 是纯测试时方法，**没有任何训练或损失函数**，CLIP 权重�
 ## 相关论文
 
 - [\[CVPR 2026\] A Provable Energy-Guided Test-Time Defense Boosting Adversarial Robustness of Large Vision-Language Models](../../CVPR2026/ai_safety/a_provable_energy-guided_test-time_defense_boosting_adversarial_robustness_of_la.md)
-- [\[ICML 2026\] Towards Fine-Grained Robustness: Attention-Guided Test-Time Prompt Tuning for Vision-Language Models](../../ICML2026/ai_safety/towards_fine-grained_robustness_attention-guided_test-time_prompt_tuning_for_vis.md)
 - [\[CVPR 2026\] TTP: Test-Time Padding for Adversarial Detection and Robust Adaptation on Vision-Language Models](../../CVPR2026/ai_safety/ttp_test-time_padding_for_adversarial_detection_and_robust_adaptation_on_vision-.md)
-- [\[CVPR 2026\] Jailbreaking Vision-Language Models via Dissonance-Guided Suffix Optimization and Image-Phrase Injection](../../CVPR2026/ai_safety/jailbreaking_vision-language_models_via_dissonance-guided_suffix_optimization_an.md)
-- [\[ICML 2026\] dgMARK: Decoding-Guided Watermarking for Diffusion Language Models](../../ICML2026/ai_safety/dgmark_decoding-guided_watermarking_for_diffusion_language_models.md)
+- [\[ICML 2026\] Towards Fine-Grained Robustness: Attention-Guided Test-Time Prompt Tuning for Vision-Language Models](../../ICML2026/ai_safety/towards_fine-grained_robustness_attention-guided_test-time_prompt_tuning_for_vis.md)
+- [\[ICLR 2026\] Test-Time Poisoned Sample Detection by Exploiting Shallow Malicious Matching in Backdoored CLIP](test-time_poisoned_sample_detection_by_exploiting_shallow_malicious_matching_in_.md)
+- [\[CVPR 2026\] When CLIP Sees More, It Fights Back Harder: Multi-View Guided Adaptive Counterattacks for Test-Time Adversarial Robustness](../../CVPR2026/ai_safety/when_clip_sees_more_it_fights_back_harder_multi-view_guided_adaptive_counteratta.md)
 
 </div>
 

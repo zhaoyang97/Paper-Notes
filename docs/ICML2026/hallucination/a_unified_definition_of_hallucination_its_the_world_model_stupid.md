@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] A Unified Definition of Hallucination: It's The World Model, Stupid!
+description: >-
+  [ICML2026][幻觉检测][幻觉定义] 这是一篇 position paper，主张把翻译、摘要、开放问答、RAG、多模态、智能体等各路"幻觉"统一成同一件事——**对一个"参考世界模型"的、用户可见的、不准确的世界建模**：每个场景只是对"参考世界 $W$、视图函数 $V$、冲突策略 $P$"三件套做了不同选择，从而把碎片化的定义收敛成一个可比较、可生成大规模基准的通用模板。
+tags:
+  - "ICML2026"
+  - "幻觉检测"
+  - "幻觉定义"
+  - "参考世界模型"
+  - "冲突策略"
+  - "评测基准"
+  - "position paper"
+---
+
 # A Unified Definition of Hallucination: It's The World Model, Stupid!
 
 **会议**: ICML2026  

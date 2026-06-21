@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BoreaRL: A Multi-Objective Reinforcement Learning Environment for Climate-Adaptive Boreal Forest Management
+description: >-
+  [ICLR2026][强化学习][多目标强化学习] BoreaRL 是首个面向气候自适应北方森林管理的多目标强化学习环境，用一个耦合能量-碳-水通量的物理仿真器，把"多固碳 vs 保永冻土"这对矛盾目标交给 MORL 智能体优化，结果发现两个目标的学习难度严重不对称——碳目标好学、永冻土目标几乎学不动，而最朴素的"挑站点"课程策略反而打败了标准的偏好条件化方法。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "多目标强化学习"
+  - "北方森林管理"
+  - "永冻土保护"
+  - "碳封存"
+  - "物理仿真环境"
+---
+
 # BoreaRL: A Multi-Objective Reinforcement Learning Environment for Climate-Adaptive Boreal Forest Management
 
 **会议**: ICLR2026  
-**OpenReview**: [750tza3sGf](https://openreview.net/forum?id=750tza3sGf)  
+**OpenReview**: [https://openreview.net/forum?id=750tza3sGf](https://openreview.net/forum?id=750tza3sGf)  
 **代码**: 已开源（论文声明 open-source BoreaRL，具体地址待确认）  
 **领域**: 强化学习 / 多目标 RL / 气候应用 benchmark  
 **关键词**: 多目标强化学习, 北方森林管理, 永冻土保护, 碳封存, 物理仿真环境
@@ -120,11 +135,11 @@ Curriculum PPO 在标量化奖励和 Hypervolume 上全面领先（84.3 远超�
 
 ## 相关论文
 
+- [\[ICLR 2026\] A Reward-Free Viewpoint on Multi-Objective Reinforcement Learning](a_reward-free_viewpoint_on_multi-objective_reinforcement_learning.md)
 - [\[AAAI 2026\] MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management](../../AAAI2026/reinforcement_learning/mars_a_meta-adaptive_reinforcement_learning_framework_for_risk-aware_multi-agent.md)
 - [\[ICLR 2026\] AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification](amped_adaptive_multi-objective_projection_for_balancing_exploration_and_skill_di.md)
-- [\[ICLR 2026\] A Reward-Free Viewpoint on Multi-Objective Reinforcement Learning](a_reward-free_viewpoint_on_multi-objective_reinforcement_learning.md)
-- [\[ICLR 2026\] RLP: Reinforcement as a Pretraining Objective](rlp_reinforcement_as_a_pretraining_objective.md)
-- [\[ICLR 2026\] Robust Multi-Objective Controlled Decoding of Large Language Models](robust_multi-objective_controlled_decoding_of_large_language_models.md)
+- [\[ICLR 2026\] Dual-Objective Reinforcement Learning with Novel Hamilton-Jacobi-Bellman Formulations](dual-objective_reinforcement_learning_with_novel_hamilton-jacobi-bellman_formula.md)
+- [\[ICLR 2026\] Adaptive Scaling of Policy Constraints for Offline Reinforcement Learning](adaptive_scaling_of_policy_constraints_for_offline_reinforcement_learning.md)
 
 </div>
 

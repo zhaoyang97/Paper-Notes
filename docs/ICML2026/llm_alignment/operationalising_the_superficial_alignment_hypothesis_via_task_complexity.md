@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Operationalising the Superficial Alignment Hypothesis via Task Complexity
+description: >-
+  [ICML 2026][LLM对齐][表面对齐假设] 作者用"解决某任务到目标性能所需的最短程序长度"这一算法信息论指标（task complexity）重新定义了表面对齐假设（SAH），把"数据高效/参数高效/推理控制"这三种看似各说各话的证据统一成"在同一条长度–性能 Pareto 曲线上找短程序"的不同策略，并实测发现：把预训练模型适配到数学推理、机器翻译、指令跟随等任务上，常常只需要几千字节到几兆字节的信息，而后训练的作用是把"够到强性能所需的程序长度"压缩好几个数量级。
+tags:
+  - "ICML 2026"
+  - "LLM对齐"
+  - "表面对齐假设"
+  - "任务复杂度"
+  - "算法信息论"
+  - "后训练"
+  - "数据/参数/推理高效适配"
+---
+
 # Operationalising the Superficial Alignment Hypothesis via Task Complexity
 
 **会议**: ICML 2026  

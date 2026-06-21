@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Focus Then Listen: An Empirical Study of Plug-and-Play Audio Enhancer for Noise-Robust Large Audio Language Models
+description: >-
+  [ICML 2026][音频/语音][LALM] 本文提出 Focus-Then-Listen（FTL）——一个**不动 LALM 参数**的即插即用音频增强器：先把输入波形分成语音/非语音两轨，再用一个 LLM 路由器根据用户指令判断该"听哪一类"，最后用模态感知融合块生成任务自适应的增强音频喂给大音频语言模型，从而在各种噪声条件下提升感知与推理性能。
+tags:
+  - "ICML 2026"
+  - "音频/语音"
+  - "LALM"
+  - "即插即用增强器"
+  - "语音/非语音分离"
+  - "指令感知"
+  - "噪声鲁棒"
+---
+
 # Focus Then Listen: An Empirical Study of Plug-and-Play Audio Enhancer for Noise-Robust Large Audio Language Models
 
 **会议**: ICML 2026  

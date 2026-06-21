@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ATOM: A Pretrained Neural Operator for Multitask Molecular Dynamics
+description: >-
+  [ICLR2026][物理/科学计算][分子动力学] ATOM 把分子动力学预测重新表述为"学习轨迹算子"，用一个准等变（quasi-equivariant）Transformer 神经算子并行解码多个未来时刻的原子坐标，配合自建的多分子 MD 数据集 TG80 做多任务预训练，从而首次在分子动力学上实现对未见分子、未见时间跨度的零样本泛化。
+tags:
+  - "ICLR2026"
+  - "物理/科学计算"
+  - "分子动力学"
+  - "神经算子"
+  - "准等变"
+  - "Transformer"
+  - "零样本泛化"
+---
+
 # ATOM: A Pretrained Neural Operator for Multitask Molecular Dynamics
 
 **会议**: ICLR2026  
-**OpenReview**: [e9cV4xSjbR](https://openreview.net/forum?id=e9cV4xSjbR)  
+**OpenReview**: [https://openreview.net/forum?id=e9cV4xSjbR](https://openreview.net/forum?id=e9cV4xSjbR)  
 **代码**: 待确认（论文称已开源仓库）  
 **领域**: 分子动力学 / 神经算子 / 科学机器学习  
 **关键词**: 分子动力学, 神经算子, 准等变, Transformer, 零样本泛化
@@ -147,9 +162,9 @@ EGNO 在 MD22 上基本失败（不收敛），ATOM 因为全连接点云能抓�
 
 - [\[ICML 2026\] Speculative Sampling for Faster Molecular Dynamics](../../ICML2026/physics/speculative_sampling_for_faster_molecular_dynamics.md)
 - [\[ICML 2026\] Teaching Molecular Dynamics to a Non-Autoregressive Ionic Transport Predictor](../../ICML2026/physics/teaching_molecular_dynamics_to_a_non-autoregressive_ionic_transport_predictor.md)
-- [\[NeurIPS 2025\] FlashMD: Long-Stride, Universal Prediction of Molecular Dynamics](../../NeurIPS2025/physics/flashmd_long-stride_universal_prediction_of_molecular_dynamics.md)
-- [\[ICLR 2026\] One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural PDE Solvers](one_operator_to_rule_them_all_on_boundary-indexed_operator_families_in_neural_pd.md)
-- [\[NeurIPS 2025\] From Black Hole to Galaxy: Neural Operator Framework for Accretion and Feedback Dynamics](../../NeurIPS2025/physics/from_black_hole_to_galaxy_neural_operator_framework_for_accretion_and_feedback_d.md)
+- [\[ICLR 2026\] DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning](drift-net_a_spectral--coupled_neural_operator_for_pdes_learning.md)
+- [\[ICLR 2026\] CFO: Learning Continuous-Time PDE Dynamics via Flow-Matched Neural Operators](cfo_learning_continuous-time_pde_dynamics_via_flow-matched_neural_operators.md)
+- [\[ICLR 2026\] KANO: Kolmogorov–Arnold Neural Operator](kano_kolmogorov-arnold_neural_operator.md)
 
 </div>
 

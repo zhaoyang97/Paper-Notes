@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models
+description: >-
+  [ICML 2026][机器人][测试时扩展] SCALE 让自回归 VLA 在推理时用一个仅从输出 logits 算出的「自不确定性」分数，同时调制**动作采样温度**和**视觉注意力温度**——不确定就广撒网探索、确定就贪心聚焦，全程零额外训练、无 verifier、单次前向，就把多个 SOTA VLA 的成功率往上抬了一截。
+tags:
+  - "ICML 2026"
+  - "机器人"
+  - "测试时扩展"
+  - "自不确定性"
+  - "自适应推理"
+  - "视觉注意力调制"
+  - "主动推理"
+---
+
 # SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models
 
 **会议**: ICML 2026  

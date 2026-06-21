@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Cross-Modal Masked Compositional Concept Modeling for Enhancing Visio-Linguistic Compositionality
+description: >-
+  [ACL 2026][多模态VLM][组合理解] MACCO 让 CLIP 在一个模态里遮住"关系/属性"这类组合概念、再用另一模态的完整信息把它重建出来，配上两个辅助对齐损失，在不造硬负样本的情况下显著提升了 VLM 的组合理解能力。 领域现状：以 CLIP 为代表的对比式视觉语言模型把图像和文本投到同一语义空间…
+tags:
+  - "ACL 2026"
+  - "多模态VLM"
+  - "组合理解"
+  - "CLIP"
+  - "掩码建模"
+  - "跨模态对齐"
+  - "视觉语言"
+---
+
 # Cross-Modal Masked Compositional Concept Modeling for Enhancing Visio-Linguistic Compositionality
 
 **会议**: ACL 2026  

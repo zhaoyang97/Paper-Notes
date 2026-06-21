@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CircuitSense: A Hierarchical MLLM Benchmark Bridging Visual Comprehension and Symbolic Reasoning in Engineering Design Process
+description: >-
+  [ICLR2026][VLM Reasoning][电路理解] CircuitSense 构建了首个"按工程抽象层级组织、强调从电路图推导符号方程"的多模态大模型基准，用 8,006 道题（人工 curated + 合成生成）系统评测 8 个 MLLM，揭示出闭源模型在感知任务上能超过 85%、但在符号推导上骤降到 19% 以下的根本断层。
+tags:
+  - "ICLR2026"
+  - "VLM Reasoning"
+  - "电路理解"
+  - "视觉到符号推理"
+  - "MLLM 评测"
+  - "层级化基准"
+  - "合成数据生成"
+---
+
 # CircuitSense: A Hierarchical MLLM Benchmark Bridging Visual Comprehension and Symbolic Reasoning in Engineering Design Process
 
 **会议**: ICLR2026  
-**OpenReview**: [WEuJlEJmX8](https://openreview.net/forum?id=WEuJlEJmX8)  
+**OpenReview**: [https://openreview.net/forum?id=WEuJlEJmX8](https://openreview.net/forum?id=WEuJlEJmX8)  
 **代码**: [项目页](https://circuitsense-benchmark.github.io)  
 **领域**: 多模态VLM / 视觉推理 / 数据集与基准  
 **关键词**: 电路理解, 视觉到符号推理, MLLM 评测, 层级化基准, 合成数据生成
@@ -104,3 +119,19 @@ Gemini-2.5-Pro 从选择题到合成推导掉 61 个百分点；Claude-Sonnet-4 
 - 实验充分度: ⭐⭐⭐⭐⭐ 8 个 SOTA 模型 × 3 类任务 × 6 层级 × 多评测格式，并附细粒度失效点解剖，覆盖很扎实
 - 写作质量: ⭐⭐⭐⭐ 论点-基准-证据链条清晰，但部分子类难易倒挂的解释需要读者细看才不被误导
 - 价值: ⭐⭐⭐⭐⭐ 揭示 MLLM "感知强、符号推理弱" 的根本断层，对工程 AI 与多模态推理研究都是有力的诊断工具
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Hierarchical Process Reward Models are Symbolic Vision Learners](../../CVPR2026/vlm_reasoning/hierarchical_process_reward_models_are_symbolic_vision_learners.md)
+- [\[ICLR 2026\] FlowGen: Synthesizing Diverse Flowcharts to Enhance and Benchmark MLLM Reasoning](flowgen_synthesizing_diverse_flowcharts_to_enhance_and_benchmark_mllm_reasoning.md)
+- [\[ICLR 2026\] Ref-Adv: Exploring MLLM Visual Reasoning in Referring Expression Tasks](ref-adv_exploring_mllm_visual_reasoning_in_referring_expression_tasks.md)
+- [\[ICLR 2026\] VisualPRM400K: An Effective Dataset for Training Multimodal Process Reward Models](visualprm400k_an_effective_dataset_for_training_multimodal_process_reward_models.md)
+- [\[ICLR 2026\] MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos](mmr-v_whats_left_unsaid_a_benchmark_for_multimodal_deep_reasoning_in_videos.md)
+
+</div>
+
+<!-- RELATED:END -->

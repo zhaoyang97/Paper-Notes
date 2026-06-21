@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cascadia: An Efficient Cascade Serving System for Large Language Models
+description: >-
+  [ICLR2026][LLM效率][模型级联] Cascadia 是一个面向大模型的级联服务系统：它把"用多大模型/分多少 GPU/怎么并行"这件事建模成一个带约束的优化问题，用"MILP 解部署 + Chebyshev 解路由"的双层迭代框架联合求解，在保证答案质量的前提下，相比单模型部署把延迟 SLO 收紧最多 4×、吞吐提升最多 5×。
+tags:
+  - "ICLR2026"
+  - "LLM效率"
+  - "模型级联"
+  - "LLM 服务系统"
+  - "双层优化"
+  - "MILP"
+  - "请求路由"
+---
+
 # Cascadia: An Efficient Cascade Serving System for Large Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [wkrWbrHTJQ](https://openreview.net/forum?id=wkrWbrHTJQ)  
+**OpenReview**: [https://openreview.net/forum?id=wkrWbrHTJQ](https://openreview.net/forum?id=wkrWbrHTJQ)  
 **代码**: 待确认  
 **领域**: LLM效率 / LLM serving / 推理系统  
 **关键词**: 模型级联, LLM 服务系统, 双层优化, MILP, 请求路由
@@ -130,3 +145,19 @@ $$\arg\min_{\theta}\ J(\theta) = \arg\min_{\theta}\ \Big[L(\theta) + \mu\,\max\{
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖两套模型级联、多条 trace、多质量要求、消融、case study、在线漂移、成本分析，相当扎实。
 - 写作质量: ⭐⭐⭐⭐ 问题动机和算法推导清晰，配图丰富；少数符号（utopia/nadir、惩罚项）需对照例子才好懂。
 - 价值: ⭐⭐⭐⭐ 对自托管多模型级联的服务方有直接落地价值，延迟/吞吐/成本三线收益明显。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2026\] Lizard: An Efficient Linearization Framework for Large Language Models](../../ACL2026/llm_efficiency/lizard_an_efficient_linearization_framework_for_large_language_models.md)
+- [\[ICLR 2026\] DPad: Efficient Diffusion Language Models with Suffix Dropout](dpad_efficient_diffusion_language_models_with_suffix_dropout.md)
+- [\[ICLR 2026\] Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models](inference-cost-aware_dynamic_tree_construction_for_efficient_inference_in_large_.md)
+- [\[ICLR 2026\] Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models](beyond_fixed_training-free_variable-length_denoising_for_diffusion_large_languag.md)
+- [\[ACL 2026\] Tandem: Riding Together with Large and Small Language Models for Efficient Reasoning](../../ACL2026/llm_efficiency/tandem_riding_together_with_large_and_small_language_models_for_efficient_reason.md)
+
+</div>
+
+<!-- RELATED:END -->

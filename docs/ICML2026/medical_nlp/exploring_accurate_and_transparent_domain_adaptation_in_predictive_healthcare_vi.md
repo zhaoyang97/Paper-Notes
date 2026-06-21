@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Exploring Accurate and Transparent Domain Adaptation in Predictive Healthcare via Concept-Grounded Orthogonal Inference
+description: >-
+  [ICML2026][医疗 LLM][EHR预测] ExtraCare 用一个"字典度量诱导的正交分解"把电子病历（EHR）患者表征拆成「跨域不变的标签信息」和「域特有的协变量残差」，既在两个真实 EHR 数据集上超过现有域适应基线，又能通过稀疏维度消融把每个隐变量映射回具体 ICD 医学概念，告诉临床医生"适应过程中保留了什么、丢掉了什么"。
+tags:
+  - "ICML2026"
+  - "医疗 LLM"
+  - "EHR预测"
+  - "域适应"
+  - "稀疏自编码器"
+  - "正交分解"
+  - "概念归因"
+---
+
 # Exploring Accurate and Transparent Domain Adaptation in Predictive Healthcare via Concept-Grounded Orthogonal Inference
 
 **会议**: ICML2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Efficient Stochastic Optimisation via Sequential Monte Carlo
+description: >-
+  [ICML2026][优化/理论][序列蒙特卡洛] 当损失的梯度写成"对一个依赖参数的难解分布 $\pi_\theta$ 求期望"时，传统做法要在每步优化里跑一遍昂贵的 MCMC 内循环采样；本文提出 SOSMC，用序列蒙特卡洛(SMC)采样器把"随参数缓慢演化的一串分布 $(\pi_{\theta_k})_k$"串起来采，**复用上一步的粒子**得到加权梯度估计，从而砍掉内循环，既省算力又有收敛理论保证，并在能量模型 reward tuning、图像去模糊等任务上优于单/双循环基线。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "序列蒙特卡洛"
+  - "难解梯度"
+  - "随机优化"
+  - "能量模型"
+  - "reward tuning"
+---
+
 # Efficient Stochastic Optimisation via Sequential Monte Carlo
 
 **会议**: ICML2026  

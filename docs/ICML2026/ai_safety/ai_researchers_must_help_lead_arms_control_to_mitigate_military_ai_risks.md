@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Position: AI Researchers Must Help Lead Arms Control to Mitigate Military AI Risks
+description: >-
+  [ICML 2026][AI安全][军事AI] 这是一篇立场文，主张**AI 研究者不能只盯着遥远的超级智能风险，而必须主动牵头军事 AI 的"军控"（arms control）技术研究**——文章用核武器军控的历史经验做模板，论证当前前沿模型一旦接入军事系统会带来升级、对齐造假、人类逐步失权等可验证性极差的新风险，而现有军控外交工具完全没准备好，因此呼吁 AI 研究者与军控外交专家建立正式协作机制，把验证、可信、透明这些技术难题做出来。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "军事AI"
+  - "军控"
+  - "核威慑类比"
+  - "升级风险"
+  - "AI研究者责任"
+---
+
 # Position: AI Researchers Must Help Lead Arms Control to Mitigate Military AI Risks
 
 **会议**: ICML 2026  

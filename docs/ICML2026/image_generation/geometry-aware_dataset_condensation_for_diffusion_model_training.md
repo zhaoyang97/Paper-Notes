@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Geometry-Aware Dataset Condensation for Diffusion Model Training
+description: >-
+  [ICML2026][图像生成][数据集压缩] 针对"现有数据集压缩方法不适合训扩散模型"的痛点，本文把真实子集选择重新表述为**几何感知的分布对齐问题**，用单边部分最优传输（POT）+ 统计正则化定义对齐目标，再用两阶段离散优化（贪心 + 交换）求解，在 ImageNet 上只用 0.8% 数据训 DiT/SiT，FID 就显著低于此前最强的 D2C（10K 预算下 4.20→3.43）。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "数据集压缩"
+  - "真实子集选择"
+  - "部分最优传输"
+  - "分布对齐"
+  - "扩散训练"
+---
+
 # Geometry-Aware Dataset Condensation for Diffusion Model Training
 
 **会议**: ICML2026  

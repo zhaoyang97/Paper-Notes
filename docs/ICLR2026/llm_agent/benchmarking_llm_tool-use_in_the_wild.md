@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Benchmarking LLM Tool-Use in the Wild
+description: >-
+  [ICLR 2026][LLM Agent][工具调用] WildToolBench 从真实用户日志里提炼出"野生"对话的三大特征——复合任务、隐藏意图、指令切换，构建了 256 个场景共 1024 个任务的多轮多步工具调用 benchmark，对 57 个主流 LLM 的评测发现没有一个模型 session 准确率超过 15%，说明现有 LLM 的 agentic 能力远没有刷榜数字看起来那么强。
+tags:
+  - "ICLR 2026"
+  - "LLM Agent"
+  - "工具调用"
+  - "多轮对话"
+  - "Agent 评测"
+  - "真实用户行为"
+  - "工具编排"
+---
+
 # Benchmarking LLM Tool-Use in the Wild
 
 **会议**: ICLR 2026  
-**OpenReview**: [yz7fL5vfpn](https://openreview.net/forum?id=yz7fL5vfpn)  
+**OpenReview**: [https://openreview.net/forum?id=yz7fL5vfpn](https://openreview.net/forum?id=yz7fL5vfpn)  
 **代码**: https://github.com/yupeijei1997/WildToolBench  
 **领域**: LLM 评测 / Agent 工具使用  
 **关键词**: 工具调用、多轮对话、Agent 评测、真实用户行为、工具编排
@@ -116,3 +131,19 @@ WildToolBench 把用户与 LLM 的交互形式化为一段多轮对话 $D = \{u_
 - 实验充分度: ⭐⭐⭐⭐⭐ 57 个模型、按任务类型/顺序/编排/隐藏意图/切换频率/错误类型多维拆解，非常充分
 - 写作质量: ⭐⭐⭐⭐ 框架与图示清晰，部分指标（OP/AP）需结合附录才完全读懂
 - 价值: ⭐⭐⭐⭐⭐ 把"刷榜虚假繁荣"戳破，并提供可复用的编排评测范式与结构化错误诊断，对 agent 评测有实际指导意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] OSWorld-MCP: Benchmarking MCP Tool Invocation in Computer-Use Agents](osworld-mcp_benchmarking_mcp_tool_invocation_in_computer-use_agents.md)
+- [\[ICLR 2026\] OrchestrationBench: LLM-Driven Agentic Planning and Tool Use in Multi-Domain Scenarios](orchestrationbench_llm-driven_agentic_planning_and_tool_use_in_multi-domain_scen.md)
+- [\[ICLR 2026\] MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](mcp-bench_benchmarking_tool-using_llm_agents_with_complex_real-world_tasks_via_m.md)
+- [\[ICLR 2026\] VitaBench: Benchmarking LLM Agents with Versatile Interactive Tasks in Real-world Applications](vitabench_benchmarking_llm_agents_with_versatile_interactive_tasks_in_real-world.md)
+- [\[ICLR 2026\] Empowering LLM Tool Invocation with Tool-call Reward Model](empowering_llm_tool_invocation_with_tool-call_reward_model.md)
+
+</div>
+
+<!-- RELATED:END -->

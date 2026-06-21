@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Large Language Models Should Learn Personalized Rather Than Aggregated Human Preferences
+description: >-
+  [ICML 2026][LLM对齐][偏好聚合] 这是一篇立场论文，主张当前 RLHF 把多元人类偏好聚合成单一奖励信号、本质上是在优化一个"谁都不是"的平均用户，作者从社会选择理论与跨人群实证两路论证个性化对齐的必要性，并提出一套"保留普适安全约束、只在合法维度上做个性化"的有界个性化框架与研究议程。
+tags:
+  - "ICML 2026"
+  - "LLM对齐"
+  - "偏好聚合"
+  - "个性化对齐"
+  - "RLHF"
+  - "社会选择理论"
+  - "有界个性化"
+---
+
 # Large Language Models Should Learn Personalized Rather Than Aggregated Human Preferences
 
 **会议**: ICML 2026  

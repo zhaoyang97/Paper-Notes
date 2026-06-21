@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies
+description: >-
+  [ICLR2026][机器人][扩散策略] SMP（Skill Mixture-of-Experts Policy）把扩散策略的动作生成拆解到一组**状态自适应的正交技能基**上，用缓变的「黏性」门控只激活少数与当前阶段相关的专家，从而在中等模型规模下实现可复用、可迁移的多任务双臂操作，并把推理时的激活参数压到约自身的 30%（约为 RDT 的 7%），成功率反而高于大扩散基线。
+tags:
+  - "ICLR2026"
+  - "机器人"
+  - "扩散策略"
+  - "混合专家"
+  - "技能抽象"
+  - "双臂操作"
+  - "正交基"
+---
+
 # Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies
 
 **会议**: ICLR2026  
-**OpenReview**: [VSWjHIveqZ](https://openreview.net/forum?id=VSWjHIveqZ)  
+**OpenReview**: [https://openreview.net/forum?id=VSWjHIveqZ](https://openreview.net/forum?id=VSWjHIveqZ)  
 **代码**: 待确认  
 **领域**: 机器人 / 具身智能  
 **关键词**: 扩散策略, 混合专家, 技能抽象, 双臂操作, 正交基
@@ -158,11 +173,11 @@ SMP 总参数虽不小，但推理时只激活约 30% 的自身参数（约 RDT 
 
 ## 相关论文
 
-- [\[ICML 2026\] From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation](../../ICML2026/robotics/from_imagined_futures_to_executable_actions_mixture_of_latent_actions_for_robot_.md)
+- [\[ICLR 2026\] Contractive Diffusion Policies](contractive_diffusion_policies.md)
+- [\[ICLR 2026\] M³E: Continual Vision-and-Language Navigation via Mixture of Macro and Micro Experts](m3e_continual_vision-and-language_navigation_via_mixture_of_macro_and_micro_expe.md)
 - [\[CVPR 2026\] REACH: Explicit Recovery Behavior for Diffusion Policies](../../CVPR2026/robotics/reach_explicit_recovery_behavior_for_diffusion_policies.md)
-- [\[ICML 2026\] Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies](../../ICML2026/robotics/discrete_diffusion_vla_bringing_discrete_diffusion_to_action_decoding_in_vision-.md)
+- [\[ICML 2026\] From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation](../../ICML2026/robotics/from_imagined_futures_to_executable_actions_mixture_of_latent_actions_for_robot_.md)
 - [\[ICML 2026\] Online Self-Training for Co-Adaptation in Hierarchical Diffusion Policies](../../ICML2026/robotics/online_self-training_for_co-adaptation_in_hierarchical_diffusion_policies.md)
-- [\[ICML 2026\] Lagrangian Perturbation Diffusion Steering: Latent Reinforcement Learning for Generative Policies](../../ICML2026/robotics/lagrangian_perturbation_diffusion_steering_latent_reinforcement_learning_for_gen.md)
 
 </div>
 

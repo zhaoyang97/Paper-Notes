@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CLUTCH: Contextualized Language model for Unlocking Text-Conditioned Hand motion modelling in the wild
+description: >-
+  [ICLR2026][人体理解][手部动作生成] CLUTCH 用「VLM 自动标注的 3.2 万条野外手部动作数据（3D-HIW）+ 把轨迹/姿态、左/右手分别离散化的 SHIFT 分解式 VQ-VAE + 在动作空间上加几何重建损失微调 LLM」三件套，第一次把文本↔手部动作建模做到了"野外"场景（弹琴、揉面、写字等），在文生动作与动作生文两项任务上都刷到 SOTA。
+tags:
+  - "ICLR2026"
+  - "人体理解"
+  - "手部动作生成"
+  - "文本到动作"
+  - "VQ-VAE"
+  - "运动语言模型"
+  - "自动标注"
+---
+
 # CLUTCH: Contextualized Language model for Unlocking Text-Conditioned Hand motion modelling in the wild
 
 **会议**: ICLR2026  
-**OpenReview**: [W7YRskO47j](https://openreview.net/forum?id=W7YRskO47j)  
+**OpenReview**: [https://openreview.net/forum?id=W7YRskO47j](https://openreview.net/forum?id=W7YRskO47j)  
 **代码**: 项目页 https://balamuruganthambiraja.github.io/CLUTCH （承诺开源代码、数据、模型）  
 **领域**: 人体理解 / 手部动作生成  
 **关键词**: 手部动作生成, 文本到动作, VQ-VAE, 运动语言模型, 自动标注
@@ -127,3 +142,19 @@ $$L_{VQ} = L_{rec}(M, \hat M) + \sum_{x\in X}\big(\|\mathrm{sg}[x]-\hat x\|^2 + 
 - 实验充分度: ⭐⭐⭐⭐ T2M/M2T/标注/tokenizer/训练阶段/数据与模型规模都做了消融，但评测主要在自建基准上
 - 写作质量: ⭐⭐⭐⭐ 痛点→方法对应清晰，三段管线讲得明白；部分指标定义需查附录
 - 价值: ⭐⭐⭐⭐⭐ 打开了野外手部动作生成的大门，数据+模型+代码承诺开源，AR/VR、机器人、人机协作都用得上
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2024\] HUMOS: Human Motion Model Conditioned on Body Shape](../../ECCV2024/human_understanding/humos_human_motion_model_conditioned_on_body_shape.md)
+- [\[CVPR 2026\] MoLingo: Motion-Language Alignment for Text-to-Human Motion Generation](../../CVPR2026/human_understanding/molingo_motion-language_alignment_for_text-to-motion_generation.md)
+- [\[ICCV 2025\] GenM3: Generative Pretrained Multi-path Motion Model for Text Conditional Human Motion Generation](../../ICCV2025/human_understanding/genm3_generative_pretrained_multi-path_motion_model_for_text_conditional_human_m.md)
+- [\[CVPR 2026\] OpenFS: Multi-Hand-Capable Fingerspelling Recognition with Implicit Signing-Hand Detection and Frame-Wise Letter-Conditioned Synthesis](../../CVPR2026/human_understanding/openfs_multi-hand-capable_fingerspelling_recognition_with_implicit_signing-hand_.md)
+- [\[ICLR 2026\] Motion-Aligned Word Embeddings for Text-to-Motion Generation](motion-aligned_word_embeddings_for_text-to-motion_generation.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks
+description: >-
+  [ICLR 2026][图学习][权重空间模型] 本文证明 Kolmogorov–Arnold 网络（KAN）和 MLP 共享同样的神经元置换对称性，据此把一个训练好的 KAN 编码成「KAN-graph」（节点是神经元、边携带那条边上一维函数的参数），并设计首个直接在 KAN 上做学习的权重空间架构 WS-KAN（一个双向消息传递 GNN），在预测精度、分类 INR、预测剪枝掩码等任务上大幅超过对称性无关的基线。
+tags:
+  - "ICLR 2026"
+  - "图学习"
+  - "权重空间模型"
+  - "KAN"
+  - "图元网络"
+  - "置换对称性"
+  - "图神经网络"
+---
+
 # A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks
 
 **会议**: ICLR 2026  
-**OpenReview**: [ONpyYavBqR](https://openreview.net/forum?id=ONpyYavBqR)  
+**OpenReview**: [https://openreview.net/forum?id=ONpyYavBqR](https://openreview.net/forum?id=ONpyYavBqR)  
 **代码**: https://github.com/BarSGuy/KAN-Graph-Metanetwork  
 **领域**: 图学习 / 权重空间学习 / Kolmogorov–Arnold 网络  
 **关键词**: 权重空间模型, KAN, 图元网络, 置换对称性, 等变 GNN
@@ -123,11 +138,11 @@ WS-KAN 大幅领先；SetTrans 第二，说明显式利用对称性有用，但�
 
 ## 相关论文
 
+- [\[ICLR 2026\] FS-KAN: Permutation Equivariant Kolmogorov-Arnold Networks via Function Sharing](fs-kan_permutation_equivariant_kolmogorov-arnold_networks_via_function_sharing.md)
+- [\[ICLR 2026\] Learning from Historical Activations in Graph Neural Networks](learning_from_historical_activations_in_graph_neural_networks.md)
 - [\[ICML 2025\] GrokFormer: Graph Fourier Kolmogorov-Arnold Transformers](../../ICML2025/graph_learning/grokformer_graph_fourier_kolmogorov-arnold_transformers.md)
-- [\[ICLR 2026\] Canonical Tree Cover Neural Networks for Expressive and Invariant Graph Learning](canonical_tree_cover_neural_networks_for_expressive_and_invariant_graph_learning.md)
-- [\[ICLR 2026\] AdS-GNN - a Conformally Equivariant Graph Neural Network](ads-gnn_-_a_conformally_equivariant_graph_neural_network.md)
-- [\[NeurIPS 2025\] MoEMeta: Mixture-of-Experts Meta Learning for Few-Shot Relational Learning](../../NeurIPS2025/graph_learning/moemeta_mixture-of-experts_meta_learning_for_few-shot_relational_learning.md)
-- [\[AAAI 2026\] On Stealing Graph Neural Network Models](../../AAAI2026/graph_learning/on_stealing_graph_neural_network_models.md)
+- [\[ICLR 2026\] Latent Geometry-Driven Network Automata for Complex Network Dismantling](latent_geometry-driven_network_automata_for_complex_network_dismantling.md)
+- [\[ICLR 2026\] Are We Measuring Oversmoothing in Graph Neural Networks Correctly?](are_we_measuring_oversmoothing_in_graph_neural_networks_correctly.md)
 
 </div>
 

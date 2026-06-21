@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Noisy-TVs: Noise-Robust Exploration Via Learning Progress Monitoring
+description: >-
+  [ICLR2026][强化学习][噪声鲁棒探索] 针对内在动机探索里经典的"噪声电视"陷阱，本文提出 **Learning Progress Monitoring (LPM)**：用"模型这一轮比上一轮进步了多少"当内在奖励，而不是用预测误差或新颖度——因为不可学习的随机转移不会带来任何进步，所以天然不会被噪声吸住；在 MNIST、3D 迷宫、Atari 上都比 SOTA 收敛更快、覆盖更多状态、外在回报更高。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "噪声鲁棒探索"
+  - "Noisy-TV"
+  - "学习进度"
+  - "内在奖励"
+  - "信息增益"
+---
+
 # Beyond Noisy-TVs: Noise-Robust Exploration Via Learning Progress Monitoring
 
 **会议**: ICLR2026  
-**OpenReview**: [wzm38DRLhC](https://openreview.net/forum?id=wzm38DRLhC)  
+**OpenReview**: [https://openreview.net/forum?id=wzm38DRLhC](https://openreview.net/forum?id=wzm38DRLhC)  
 **代码**: https://github.com/Akuna23Matata/LPM_exploration  
 **领域**: 强化学习 / 内在动机探索  
 **关键词**: 噪声鲁棒探索、Noisy-TV、学习进度、内在奖励、信息增益
@@ -131,11 +146,11 @@ $$r^i_t = \mathbb{E}_D\!\left[\varepsilon^{(\tau-1)}_t(o_{t+1})\right] - \vareps
 
 ## 相关论文
 
+- [\[ICLR 2026\] Diversity-Incentivized Exploration for Versatile Reasoning](diversity-incentivized_exploration_for_versatile_reasoning.md)
 - [\[ICLR 2026\] AlphaSAGE: Structure-Aware Alpha Mining via GFlowNets for Robust Exploration](alphasage_structure-aware_alpha_mining_via_gflownets_for_robust_exploration.md)
 - [\[ICML 2025\] Robust Noise Attenuation via Adaptive Pooling of Transformer Outputs](../../ICML2025/reinforcement_learning/robust_noise_attenuation_via_adaptive_pooling_of_transformer_outputs.md)
-- [\[ICLR 2026\] ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation](reform_reflected_flows_for_on-support_offline_rl_via_noise_manipulation.md)
 - [\[ICML 2025\] Learning Progress Driven Multi-Agent Curriculum](../../ICML2025/reinforcement_learning/learning_progress_driven_multi-agent_curriculum.md)
-- [\[ICML 2026\] Noise-Guided Transport: Imitation Learning from Random Priors](../../ICML2026/reinforcement_learning/noise-guided_transport_for_imitation_learning.md)
+- [\[ICLR 2026\] Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning](beyond_distributions_geometric_action_control_for_continuous_reinforcement_learn.md)
 
 </div>
 

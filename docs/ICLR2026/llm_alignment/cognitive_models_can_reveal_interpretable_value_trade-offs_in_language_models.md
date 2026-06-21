@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Cognitive models can reveal interpretable value trade-offs in language models
+description: >-
+  [ICLR2026][LLM对齐][认知模型] 本文把认知科学里的「礼貌言语」理性言语行为（RSA）认知模型当作探针，给语言模型在一个真话-给面子两难任务上的回答拟合出三种效用（信息/社交/呈现）的权重，从而把模型的推理预算、系统提示、RLHF 训练动力学等"看不见的低层决策"翻译成一组可解释的价值权衡参数。
+tags:
+  - "ICLR2026"
+  - "LLM对齐"
+  - "认知模型"
+  - "RSA"
+  - "价值权衡"
+  - "RLHF"
+  - "可解释性"
+  - "sycophancy"
+---
+
 # Cognitive models can reveal interpretable value trade-offs in language models
 
 **会议**: ICLR2026  
-**OpenReview**: [nM2QhvybwI](https://openreview.net/forum?id=nM2QhvybwI)  
+**OpenReview**: [https://openreview.net/forum?id=nM2QhvybwI](https://openreview.net/forum?id=nM2QhvybwI)  
 **代码**: https://github.com/skmur/many-wolves  
 **领域**: 对齐RLHF / 可解释性  
 **关键词**: 认知模型, RSA, 价值权衡, RLHF, 可解释性, sycophancy
@@ -67,6 +83,7 @@ flowchart TD
 | 开源·RLHF 动力学 | 沿 checkpoint | 最大价值漂移发生在训练**前 1/4**；base model 与预训练数据的影响盖过反馈数据集和对齐算法 |
 
 ### 消融实验
+
 | 因素 | 关键现象 | 说明 |
 |------|---------|------|
 | base model | Qwen-instruct 比 Llama-instruct 持续更高 $\omega_{inf}$、更低 $\omega_{pre}$ | 与 Qwen 在数学/推理任务更强的先验一致 |
@@ -100,3 +117,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐ 闭源三家×三档推理 + 开源 2×2×2 配置 + 训练动力学，覆盖面广；但单域、单 epoch 训练限制了部分结论强度。
 - 写作质量: ⭐⭐⭐⭐ 公式与图示清晰，把跨学科概念讲得相对易懂，附录细节扎实。
 - 价值: ⭐⭐⭐⭐⭐ 给对齐诊断提供了可解释、可干预的工具，尤其把 sycophancy 形式化，实用价值高。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Reward Models Inherit Value Biases from Pretraining](reward_models_inherit_value_biases_from_pretraining.md)
+- [\[ACL 2025\] Internal Value Alignment in Large Language Models through Controlled Value Vector Activation](../../ACL2025/llm_alignment/internal_value_alignment_in_large_language_models_through_controlled_value_vecto.md)
+- [\[ICML 2026\] VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](../../ICML2026/llm_alignment/valueflow_toward_pluralistic_and_steerable_value-based_alignment_in_large_langua.md)
+- [\[ACL 2026\] MAESTRO: Meta-learning Adaptive Estimation of Scalarization Trade-offs for Reward Optimization](../../ACL2026/llm_alignment/maestro_meta-learning_adaptive_estimation_of_scalarization_trade-offs_for_reward.md)
+- [\[ICLR 2026\] Pretrain Value, Not Reward: Decoupled Value Policy Optimization](pretrain_value_not_reward_decoupled_value_policy_optimization.md)
+
+</div>
+
+<!-- RELATED:END -->

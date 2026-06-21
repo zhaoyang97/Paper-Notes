@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Towards Functional Correctness of Code Models with Selective Generation
+description: >-
+  [ICML 2026][代码智能][选择性生成] 用模糊测试自动生成大量单元测试来判定生成代码的功能正确性，并据此学一个会"主动弃权"的选择性代码生成器，在不弃权的回答里以 PAC 风格保证把代码幻觉率（FDR-CE）压到用户指定阈值以下。 领域现状：大模型写代码已经很强，但近期工作几乎都在"提升通过率"（如 DeepSee…
+tags:
+  - "ICML 2026"
+  - "代码智能"
+  - "选择性生成"
+  - "代码幻觉"
+  - "FDR 控制"
+  - "模糊测试"
+  - "单元测试自动生成"
+---
+
 # Towards Functional Correctness of Code Models with Selective Generation
 
 **会议**: ICML 2026  

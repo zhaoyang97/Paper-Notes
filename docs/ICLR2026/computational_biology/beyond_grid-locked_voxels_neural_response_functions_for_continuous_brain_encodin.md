@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Grid-Locked Voxels: Neural Response Functions for Continuous Brain Encoding
+description: >-
+  [ICLR2026][计算生物][fMRI 编码模型] 本文提出 NRF（Neural Response Function），把 fMRI 视觉编码从"对每个被试的离散体素向量做回归"改成"在标准 MNI 解剖空间上学一个连续隐式函数 $\Phi(M,x)$"，输入图像 $M$ 和坐标 $x=(x,y,z)$ 直接预测该位置的脑响应，从而利用体素的局部平滑性和跨被试解剖对齐，做到在只有几百张图的低数据场景下也明显超过传统编码模型，并支持把一个被试上预训练的模型微调迁移到新被试。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "fMRI 编码模型"
+  - "隐式神经表示"
+  - "MNI 解剖坐标"
+  - "跨被试迁移"
+  - "数据高效"
+---
+
 # Beyond Grid-Locked Voxels: Neural Response Functions for Continuous Brain Encoding
 
 **会议**: ICLR2026  
-**OpenReview**: [wBKXuuLZbc](https://openreview.net/forum?id=wBKXuuLZbc)  
+**OpenReview**: [https://openreview.net/forum?id=wBKXuuLZbc](https://openreview.net/forum?id=wBKXuuLZbc)  
 **代码**: https://github.com/haomiao8/NRF  
 **领域**: 计算神经科学 / 脑编码 / 隐式神经表示  
 **关键词**: fMRI 编码模型, 隐式神经表示, MNI 解剖坐标, 跨被试迁移, 数据高效
@@ -156,11 +171,11 @@ NRF 在体素级（Pearson 最高、MSE 最低）领先，语义级与基线相�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Continuous Multinomial Logistic Regression for Neural Decoding](continuous_multinomial_logistic_regression_for_neural_decoding.md)
+- [\[ICLR 2026\] TRIBE: Trimodal Brain Encoder for Whole-Brain fMRI Response Prediction](tribe_trimodal_brain_encoder_for_whole-brain_fmri_response_prediction.md)
 - [\[ICLR 2026\] Animal behavioral analysis and neural encoding with transformer-based self-supervised pretraining](animal_behavioral_analysis_and_neural_encoding_with_transformer-based_self-super.md)
-- [\[ICLR 2026\] CORDS: Continuous Representations of Discrete Structures](cords_continuous_representations_of_discrete_structures.md)
-- [\[ICLR 2026\] Protein Structure Tokenization via Geometric Byte Pair Encoding](protein_structure_tokenization_via_geometric_byte_pair_encoding.md)
-- [\[ICLR 2026\] Intrinsic Lorentz Neural Network](intrinsic_lorentz_neural_network.md)
-- [\[ICLR 2026\] Verifier-Constrained Flow Expansion for Discovery Beyond the Data](verifier-constrained_flow_expansion_for_discovery_beyond_the_data.md)
+- [\[ICLR 2026\] OmniMouse: Scaling properties of multi-modal, multi-task Brain Models on 150B Neural Tokens](omnimouse_scaling_properties_of_multi-modal_multi-task_brain_models_on_150b_neur.md)
+- [\[ICLR 2026\] Beyond Ensembles: Simulating All-Atom Protein Dynamics in a Learned Latent Space](beyond_ensembles_simulating_all-atom_protein_dynamics_in_a_learned_latent_space.md)
 
 </div>
 

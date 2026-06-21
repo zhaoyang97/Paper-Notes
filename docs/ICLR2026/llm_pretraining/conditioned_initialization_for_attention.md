@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Conditioned Initialization for Attention
+description: >-
+  [ICLR2026][预训练][注意力初始化] 这篇论文从理论上把注意力层的优化稳定性归因到其 Jacobian 的条件数，进而提出"条件化初始化"——把 value 矩阵初始化成矩形单位阵、把 query/key 矩阵初始化成半正交阵（两者条件数都为 1），从而在训练起点收紧 Jacobian 条件数的上界，在图像分类、检测分割、语言建模、长序列等多种 Transformer 任务上一致地加速收敛（快 20–30%）并提升泛化。
+tags:
+  - "ICLR2026"
+  - "预训练"
+  - "注意力初始化"
+  - "条件数"
+  - "Jacobian"
+  - "半正交矩阵"
+  - "优化稳定性"
+---
+
 # Conditioned Initialization for Attention
 
 **会议**: ICLR2026  
-**OpenReview**: [cKNOCYPo2W](https://openreview.net/forum?id=cKNOCYPo2W)  
+**OpenReview**: [https://openreview.net/forum?id=cKNOCYPo2W](https://openreview.net/forum?id=cKNOCYPo2W)  
 **代码**: 待确认  
 **领域**: 优化 / 初始化 / Transformer  
 **关键词**: 注意力初始化, 条件数, Jacobian, 半正交矩阵, 优化稳定性
@@ -114,8 +129,8 @@ LRA 上同样观察到约 25% 的收敛提速（如 Text 分类 20000→14881 ep
 
 ## 相关论文
 
-- [\[CVPR 2026\] Unlocking Pre-trained Weights: Parameter Inheritance for Zero-Shot Initialization](../../CVPR2026/llm_pretraining/unlocking_pre-trained_weights_parameter_inheritance_for_zero-shot_initialization.md)
 - [\[ICLR 2026\] Deconstructing Positional Information: From Attention Logits to Training Biases](deconstructing_positional_information_from_attention_logits_to_training_biases.md)
+- [\[CVPR 2026\] Unlocking Pre-trained Weights: Parameter Inheritance for Zero-Shot Initialization](../../CVPR2026/llm_pretraining/unlocking_pre-trained_weights_parameter_inheritance_for_zero-shot_initialization.md)
 - [\[ICML 2026\] Focus and Dilution: The Multi-stage Learning Process of Attention](../../ICML2026/llm_pretraining/focus_and_dilution_the_multi-stage_learning_process_of_attention.md)
 - [\[CVPR 2025\] Robust Message Embedding via Attention Flow-Based Steganography](../../CVPR2025/llm_pretraining/robust_message_embedding_via_attention_flow-based_steganography.md)
 - [\[ICML 2025\] Benign Overfitting in Token Selection of Attention Mechanism](../../ICML2025/llm_pretraining/benign_overfitting_in_token_selection_of_attention_mechanism.md)

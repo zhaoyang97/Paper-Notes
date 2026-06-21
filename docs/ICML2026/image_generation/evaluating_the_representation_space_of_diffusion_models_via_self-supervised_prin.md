@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Evaluating the Representation Space of Diffusion Models via Self-Supervised Principles
+description: >-
+  [ICML2026][图像生成][扩散模型] 本文用自监督学习（SSL）的「不变性 + 扩张性」两条原理来审视扩散模型的内部表示，提出一个无标签标量指标 **ICR（Invariant Contamination Ratio，不变污染比）**——它能在不采样、不训分类器的情况下，预测哪个噪声层级的特征最适合下游分类、并在训练中提前预警过拟合/记忆化的到来。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "扩散模型"
+  - "自监督原理"
+  - "不变-残差分解"
+  - "ICR 指标"
+  - "记忆化检测"
+---
+
 # Evaluating the Representation Space of Diffusion Models via Self-Supervised Principles
 
 **会议**: ICML2026  

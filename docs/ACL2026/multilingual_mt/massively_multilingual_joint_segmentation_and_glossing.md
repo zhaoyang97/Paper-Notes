@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Massively Multilingual Joint Segmentation and Glossing
+description: >-
+  [ACL2026][多语言/翻译][交线注解(IGT)] 为濒危语言文档工作做的"形态切分 + 逐词素注解（glossing）"联合预测任务：作者把 GlossLM 语料扩到 34 万例、覆盖 2077 种语言，训练出一族基于 ByT5 的多语言 seq2seq 模型 PolyGloss，能从原始转写同时预测词素边界和对应注解标签，在注解上超过 GlossLM、在切分/注解/对齐三项上均胜过多个开源 LLM，并可用 LoRA 快速适配新语言。
+tags:
+  - "ACL2026"
+  - "多语言/翻译"
+  - "交线注解(IGT)"
+  - "形态切分"
+  - "注解(glossing)"
+  - "多语言"
+  - "语言文档"
+---
+
 # Massively Multilingual Joint Segmentation and Glossing
 
 **会议**: ACL2026  

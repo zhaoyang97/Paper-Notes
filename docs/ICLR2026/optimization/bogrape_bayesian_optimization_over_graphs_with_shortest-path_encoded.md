@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BoGrape: Bayesian optimization over graphs with shortest-path encoded
+description: >-
+  [ICLR2026][优化/理论][贝叶斯优化] BoGrape 把"在图结构本身上做贝叶斯优化"这件难事，转化成一个混合整数规划（MIP）问题：用决策变量精确刻画未知图的最短路结构，再把最短路图核与高斯过程后验编码进 MIP，从而对采集函数做**全局**优化、并能塞进分子可行性等任务约束，在合成基准和 QM7/QM9 分子设计上都打过现有图 BO 方法。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "贝叶斯优化"
+  - "图优化"
+  - "最短路图核"
+  - "混合整数规划"
+  - "分子设计"
+---
+
 # BoGrape: Bayesian optimization over graphs with shortest-path encoded
 
 **会议**: ICLR2026  
-**OpenReview**: [g0EbJrKFQJ](https://openreview.net/forum?id=g0EbJrKFQJ)  
+**OpenReview**: [https://openreview.net/forum?id=g0EbJrKFQJ](https://openreview.net/forum?id=g0EbJrKFQJ)  
 **代码**: 待确认  
 **领域**: optimization  
 **关键词**: 贝叶斯优化、图优化、最短路图核、混合整数规划、分子设计  
@@ -73,12 +88,14 @@ flowchart TD
 实验用随机初始化的 GNN 当合成黑盒函数（GAT/GCN/GraphSAGE，各两层卷积 + 两层线性，隐层 64 维），用在 QM7/QM9 上训练好的 GNN 当分子属性预测器做真实案例。硬件为 4.2GHz i7-7700K + 16GB。
 
 ### 主实验
+
 | 任务 | 设置 | 对比基线 | BoGrape 结果 |
 |------|------|----------|--------------|
 | 合成基准 | GAT/GCN/GraphSAGE，$N\in\{10,20\}$，10 初始 + 50 迭代 | Random、RW-rand、WL-rand、WL-evol（后者可视为图 BO 的 SOTA，改自 Ru et al. 2021 的 NAS 方法） | 四种核变体在多数情形下均优于基线 |
 | 分子设计 | QM7 / QM9，$N\in\{10,20,30\}$ | Random（限定 Limeade 生成的可行分子）、RW/WL-rand（WL-evol 因产不出可行解被移除） | 不论用哪种核，普遍优于基线 |
 
 ### 模型预测对比（QM7，100 样本取 30 训练、预测剩余 70）
+
 | 比较维度 | 发现 |
 |----------|------|
 | 预测精度 | 四种最短路核与经典图核相当 |
@@ -122,11 +139,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[ICML 2026\] Cost-Aware Stopping for Bayesian Optimization](../../ICML2026/optimization/cost-aware_stopping_for_bayesian_optimization.md)
+- [\[ICLR 2026\] Combinatorial Bandit Bayesian Optimization for Tensor Outputs](combinatorial_bandit_bayesian_optimization_for_tensor_outputs.md)
 - [\[ICLR 2026\] Adaptive Acquisition Selection for Bayesian Optimization with Large Language Models](adaptive_acquisition_selection_for_bayesian_optimization_with_large_language_mod.md)
-- [\[ICML 2026\] Multi-Objective Bayesian Optimization via Adaptive ε-Constraints Decomposition](../../ICML2026/optimization/multi-objective_bayesian_optimization_via_adaptive_varepsilon-constraints_decomp.md)
-- [\[CVPR 2026\] DABO: Difficulty-Aware Bayesian Optimization with Diffusion-Learned Priors](../../CVPR2026/optimization/dabo_difficulty-aware_bayesian_optimization_with_diffusion-learned_priors.md)
-- [\[AAAI 2026\] GHOST: Solving the Traveling Salesman Problem on Graphs of Convex Sets](../../AAAI2026/optimization/ghost_solving_the_traveling_salesman_problem_on_graphs_of_convex_sets.md)
+- [\[ICLR 2026\] Symmetry-Aware Bayesian Optimization via Max Kernels](symmetry-aware_bayesian_optimization_via_max_kernels.md)
+- [\[ICLR 2026\] Contextual Causal Bayesian Optimisation](contextual_causal_bayesian_optimisation.md)
+- [\[ICLR 2026\] Generative Bayesian Optimization: Generative Models as Acquisition Functions](generative_bayesian_optimization_generative_models_as_acquisition_functions.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] RKSC: Reasoning-Aware KV Cache Sharing and Confident Early Exit for Multi-Step LLM Inference
+description: >-
+  [ICML2026][LLM效率][KV Cache] RKSC 是一个**训练无关**的推理框架，针对"多分支推理"（一题跑多条 reasoning 轨迹再投票/验证）里的两类结构性浪费——跨分支重复算前缀 KV、过深的验证前向——分别用"按隐状态相似度共享 KV"和"双层置信度早退"消掉，在 5 个 7B–10B 模型、4 个 benchmark 上相对无缓存基线平均加速 $3.008\times$，且早退引入的错误率只有 $0.37\%$。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "KV Cache"
+  - "推理加速"
+  - "多分支推理"
+  - "早退"
+  - "训练无关"
+---
+
 # RKSC: Reasoning-Aware KV Cache Sharing and Confident Early Exit for Multi-Step LLM Inference
 
 **会议**: ICML2026  

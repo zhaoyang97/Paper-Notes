@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Agentic Reinforced Policy Optimization
+description: >-
+  [ICLR2026][LLM评测][Agentic RL] ARPO 是一种为多轮工具调用智能体量身定制的强化学习算法：它发现 LLM 在每次工具返回结果后 token 熵会骤升，于是在这些高熵步上自适应地"分叉"采样、再用优势归因把分叉路径的好坏差异传回去学习，结果在 13 个推理/深搜基准上全面超过轨迹级 RL，且只用一半的工具调用预算。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "Agentic RL"
+  - "工具调用"
+  - "token 熵"
+  - "自适应 rollout"
+  - "优势归因"
+---
+
 # Agentic Reinforced Policy Optimization
 
 **会议**: ICLR2026  
-**OpenReview**: [TX4k7BF6aO](https://openreview.net/forum?id=TX4k7BF6aO)  
+**OpenReview**: [https://openreview.net/forum?id=TX4k7BF6aO](https://openreview.net/forum?id=TX4k7BF6aO)  
 **代码**: https://github.com/RUC-NLPIR/ARPO  
 **领域**: 强化学习 / Agentic RL  
 **关键词**: Agentic RL、工具调用、token 熵、自适应 rollout、优势归因
@@ -94,6 +109,7 @@ $$
 | GAIA Avg. | 17.5 | 25.2 | 43.2 |
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | Full ARPO（软优势） | 训练奖励最稳 | 默认设置 |
@@ -131,3 +147,19 @@ $$
 - 实验充分度: ⭐⭐⭐⭐⭐ 13 基准、数学/知识/深搜三域、多骨干、半预算对比齐全
 - 写作质量: ⭐⭐⭐⭐ 动机推导清晰，但超参与图表细节略密、部分符号需对照原文
 - 价值: ⭐⭐⭐⭐⭐ 一半工具预算达到更优效果，对真实工具 agent 训练有直接工程价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] ResiliBench: Evaluating Agentic Workflow Adaptation in Stochastic Environments](resilibench_evaluating_agentic_workflow_adaptation_in_stochastic_environments.md)
+- [\[ICML 2026\] On Effectiveness and Efficiency of Agentic Tool-calling and RL Training](../../ICML2026/llm_evaluation/on_effectiveness_and_efficiency_of_agentic_tool-calling_and_rl_training.md)
+- [\[ACL 2026\] Inverting the Shield: Systematically Generating Safety Tests from Policy Specifications](../../ACL2026/llm_evaluation/inverting_the_shield_systematically_generating_safety_tests_from_policy_specific.md)
+- [\[ACL 2026\] PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models](../../ACL2026/llm_evaluation/policyllm_towards_excellent_comprehension_of_public_policy_for_large_language_mo.md)
+- [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Models](prompt_and_parameter_co-optimization_for_large_language_models.md)
+
+</div>
+
+<!-- RELATED:END -->

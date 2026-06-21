@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Scaling by Diversified Experience for Vision-Language-Action Models
+description: >-
+  [ICML 2026][机器人][视觉-语言-动作模型] SyVLA 用"VLM + 流匹配动作专家 + Feature Query Token"的双系统架构做"先想后做"的机器人控制，并配上两味药——基于梯度范数掩码的**意图解耦**算法（把高层推理信息从控制意图里剥离）和**相似样本引导的 RL**（把专家样本优势固定为 1.0 稳住真机在线 RL）——在用不到 π0 5% 预训练数据的前提下，既拿下更高真机成功率与更强 OOD 泛化，又保住了原 VLM 的视觉-语言能力。
+tags:
+  - "ICML 2026"
+  - "机器人"
+  - "视觉-语言-动作模型"
+  - "意图解耦"
+  - "真机强化学习"
+  - "灾难性遗忘"
+  - "流匹配"
+---
+
 # Scaling by Diversified Experience for Vision-Language-Action Models
 
 **会议**: ICML 2026  

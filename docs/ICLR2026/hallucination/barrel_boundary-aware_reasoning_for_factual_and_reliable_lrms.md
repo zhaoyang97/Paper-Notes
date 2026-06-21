@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BARREL: Boundary-Aware Reasoning for Factual and Reliable LRMs
+description: >-
+  [ICLR 2026][幻觉检测][大推理模型] 针对大推理模型（LRM）在事实问答上"宁可编也不说不知道"的毛病，本文先定位出两种由"事实性过度思考"引发的病态推理模式，再用"知识边界标注 → 边界感知 SFT → 基于可靠性奖励的 GRPO"三段式训练框架 BARREL，把 DeepSeek-R1-Distill-Llama-8B 的可靠性从 39.33% 拉到 61.48%，且准确率不降反升。
+tags:
+  - "ICLR 2026"
+  - "幻觉检测"
+  - "大推理模型"
+  - "知识边界"
+  - "不确定性拒答"
+  - "过度思考"
+  - "GRPO"
+---
+
 # BARREL: Boundary-Aware Reasoning for Factual and Reliable LRMs
 
 **会议**: ICLR 2026  
-**OpenReview**: [lUEedsO2RO](https://openreview.net/forum?id=lUEedsO2RO)  
+**OpenReview**: [https://openreview.net/forum?id=lUEedsO2RO](https://openreview.net/forum?id=lUEedsO2RO)  
 **代码**: 待确认  
 **领域**: LLM推理 / 事实可靠性 / 幻觉缓解  
 **关键词**: 大推理模型、知识边界、不确定性拒答、过度思考、GRPO
@@ -135,10 +150,10 @@ $$R(o_i,y_i^*)=\begin{cases}r_c,&E(o_i,y_i^*)=1\\r_s,&o_i\ \text{含有效拒答
 ## 相关论文
 
 - [\[NeurIPS 2025\] Reasoning Models Hallucinate More: Factuality-Aware Reinforcement Learning for Large Reasoning Models](../../NeurIPS2025/hallucination/reasoning_models_hallucinate_more_factuality-aware_reinforcement_learning_for_la.md)
-- [\[ACL 2026\] The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination](../../ACL2026/hallucination/the_reasoning_trap_how_enhancing_llm_reasoning_amplifies_tool_hallucination.md)
-- [\[ACL 2026\] Understanding New-Knowledge-Induced Factual Hallucinations in LLMs: Analysis and Interpretation](../../ACL2026/hallucination/understanding_new-knowledge-induced_factual_hallucinations_in_llms_analysis_and_.md)
-- [\[ICML 2026\] Building Reliable Long-Form Generation via Hallucination Rejection Sampling](../../ICML2026/hallucination/building_reliable_long-form_generation_via_hallucination_rejection_sampling.md)
-- [\[CVPR 2026\] Thinking in Uncertainty: Mitigating Hallucinations in MLRMs with Latent Entropy-Aware Decoding](../../CVPR2026/hallucination/thinking_in_uncertainty_mitigating_hallucinations_in_mlrms_with_latent_entropy-a.md)
+- [\[ICLR 2026\] Mechanistic Detection and Mitigation of Hallucination in Large Reasoning Models](mechanistic_detection_and_mitigation_of_hallucination_in_large_reasoning_models.md)
+- [\[ICLR 2026\] High Accuracy, Less Talk (HALT): Reliable LLMs through Capability-Aligned Finetuning](high_accuracy_less_talk_halt_reliable_llms_through_capability-aligned_finetuning.md)
+- [\[ICLR 2026\] HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs](halluguard_demystifying_data-driven_and_reasoning-driven_hallucinations_in_llms.md)
+- [\[ICLR 2026\] Leveraging Pretrained Knowledge at Inference Time: LoRA-Gated Contrastive Decoding for Multilingual Factual Language Generation in Adapted LLMs](leveraging_pretrained_knowledge_at_inference_time_lora-gated_contrastive_decodin.md)
 
 </div>
 

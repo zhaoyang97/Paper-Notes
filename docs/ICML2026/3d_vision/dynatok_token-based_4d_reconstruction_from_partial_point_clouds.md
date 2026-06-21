@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] DynaTok: Token-Based 4D Reconstruction from Partial Point Clouds
+description: >-
+  [ICML2026][3D视觉][4D重建] DynaTok 把每帧不完整、无序、无对应关系的部分点云编码成一组紧凑潜在 token，用时空 Transformer 跨帧聚合互补观测，再用「参考帧几何 + 残差运动」的统一潜空间解耦形变，最后接一个 flow-matching 解码器重建出时序一致的完整 4D 点云序列。
+tags:
+  - "ICML2026"
+  - "3D视觉"
+  - "4D重建"
+  - "部分点云"
+  - "时序聚合"
+  - "潜在token"
+  - "flow matching"
+---
+
 # DynaTok: Token-Based 4D Reconstruction from Partial Point Clouds
 
 **会议**: ICML2026  

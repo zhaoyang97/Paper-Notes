@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CFO: Learning Continuous-Time PDE Dynamics via Flow-Matched Neural Operators
+description: >-
+  [ICLR2026][物理/科学计算][神经算子] CFO 把生成模型里的流匹配「借」过来学时变 PDE 的右端项动力学——给轨迹拟一条样条、用有限差分估计样条在节点处的时间导数当作速度场标签，训练一个神经算子去回归这个解析速度，从而既不用像神经 ODE 那样反传穿过 ODE 求解器，又能在不规则时间网格上训练、在任意时间分辨率上推理，仅用 25% 不规则采样数据就把全数据自回归基线的相对误差最多降了 87%。
+tags:
+  - "ICLR2026"
+  - "物理/科学计算"
+  - "神经算子"
+  - "流匹配"
+  - "连续时间动力学"
+  - "偏微分方程"
+  - "时间分辨率不变性"
+---
+
 # CFO: Learning Continuous-Time PDE Dynamics via Flow-Matched Neural Operators
 
 **会议**: ICLR2026  
-**OpenReview**: [IQhaeSzyup](https://openreview.net/forum?id=IQhaeSzyup)  
+**OpenReview**: [https://openreview.net/forum?id=IQhaeSzyup](https://openreview.net/forum?id=IQhaeSzyup)  
 **代码**: https://github.com/shannon-hou/CFO_official  
 **领域**: PDE 神经算子 / 科学计算  
 **关键词**: 神经算子, 流匹配, 连续时间动力学, PDE 代理模型, 时间分辨率不变性
@@ -124,3 +139,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐ 四 benchmark + 充分消融（样条阶/NFE/求解器/噪声/外推/骨干/反向），但缺高维与真实工业数据。
 - 写作质量: ⭐⭐⭐⭐⭐ 动机清晰、preliminaries 把流匹配和 MOL 铺垫到位，方法与实验对应工整。
 - 价值: ⭐⭐⭐⭐⭐ 不规则时间采样 + 数据高效 + 任意分辨率推理，直击真实科学数据痛点，是迈向实用神经 PDE 求解器的扎实一步。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Adaptive Mamba Neural Operators](adaptive_mamba_neural_operators.md)
+- [\[AAAI 2026\] SVD-NO: Learning PDE Solution Operators with SVD Integral Kernels](../../AAAI2026/physics/svd-no_learning_pde_solution_operators_with_svd_integral_kernels.md)
+- [\[ICLR 2026\] Locally Subspace-Informed Neural Operators for Efficient Multiscale PDE Solving](locally_subspace-informed_neural_operators_for_efficient_multiscale_pde_solving.md)
+- [\[NeurIPS 2025\] DeltaPhi: Physical States Residual Learning for Neural Operators in Data-Limited PDE Solving](../../NeurIPS2025/physics/deltaphi_physical_states_residual_learning_for_neural_operators_in_data-limited_.md)
+- [\[ICLR 2026\] Learning Data-Efficient and Generalizable Neural Operators via Fundamental Physics Knowledge](learning_data-efficient_and_generalizable_neural_operators_via_fundamental_physi.md)
+
+</div>
+
+<!-- RELATED:END -->

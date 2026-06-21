@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BA-LoRA: Bias-Alleviating Low-Rank Adaptation to Mitigate Catastrophic Inheritance in Large Language Models
+description: >-
+  [ICLR2026][LLM效率][LoRA] BA-LoRA 在 PiSSA 谱初始化的 LoRA 框架上叠加「一致性 + 多样性 + SVD」三个**输出空间正则**，分别对治微调放大预训练偏置时的知识漂移、表征坍缩与噪声过拟合，在 NLG/NLU 多任务上稳定超过一众 LoRA 变体，且在噪声更重的预训练模型上增益更大。
+tags:
+  - "ICLR2026"
+  - "LLM效率"
+  - "LoRA"
+  - "参数高效微调"
+  - "灾难性继承"
+  - "偏置缓解"
+  - "输出空间正则"
+---
+
 # BA-LoRA: Bias-Alleviating Low-Rank Adaptation to Mitigate Catastrophic Inheritance in Large Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [q0X9SiXiRO](https://openreview.net/forum?id=q0X9SiXiRO)  
+**OpenReview**: [https://openreview.net/forum?id=q0X9SiXiRO](https://openreview.net/forum?id=q0X9SiXiRO)  
 **代码**: 待确认  
 **领域**: LLM 效率 / 参数高效微调（PEFT）  
 **关键词**: LoRA, 参数高效微调, 灾难性继承, 偏置缓解, 输出空间正则
@@ -154,10 +169,10 @@ BA-LoRA 在全部八个任务上都超过所有 PEFT 基线，平均比 PiSSA / 
 ## 相关论文
 
 - [\[ICLR 2026\] BoRA: Towards More Expressive Low-Rank Adaptation with Block Diversity](bora_towards_more_expressive_low-rank_adaptation_with_block_diversity.md)
-- [\[ICLR 2026\] DND: Boosting Large Language Models with Dynamic Nested Depth](dnd_boosting_large_language_models_with_dynamic_nested_depth.md)
-- [\[ACL 2025\] A Drop-In Solution for On-the-Fly Adaptation of Speculative Decoding in Large Language Models](../../ACL2025/llm_efficiency/a_drop-in_solution_for_on-the-fly_adaptation_of_speculative_decoding_in_large_la.md)
-- [\[ICLR 2026\] Deep Hierarchical Learning with Nested Subspace Networks for Large Language Models](deep_hierarchical_learning_with_nested_subspace_networks_for_large_language_mode.md)
-- [\[ICLR 2026\] Neuron-Aware Data Selection in Instruction Tuning for Large Language Models](neuron-aware_data_selection_in_instruction_tuning_for_large_language_models.md)
+- [\[ICLR 2026\] LoRA-S: An Efficient Low Rank Adaptation scheme via Sylvester equation](lora-s_an_efficient_low_rank_adaptation_scheme_via_sylvester_equation.md)
+- [\[ICLR 2026\] PLoP: Precise LoRA Placement for Efficient Finetuning of Large Models](plop_precise_lora_placement_for_efficient_finetuning_of_large_models.md)
+- [\[ICLR 2026\] Meta-UCF: Unified Task-Conditioned LoRA Generation for Continual Learning in Large Language Models](meta-ucf_unified_task-conditioned_lora_generation_for_continual_learning_in_larg.md)
+- [\[ICLR 2026\] FLoRG: Federated Fine-tuning with Low-rank Gram Matrices and Procrustes Alignment](florg_federated_fine-tuning_with_low-rank_gram_matrices_and_procrustes_alignment.md)
 
 </div>
 

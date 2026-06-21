@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling
+description: >-
+  [ICLR2026][图像恢复][即插即用引导] 把优化器里的 Adam 自适应矩估计直接搬到扩散采样的引导梯度上——对跨采样步的似然分数估计维护一阶/二阶矩的指数滑动平均，几乎零额外成本就把 DPS、CG 这类即插即用引导方法的噪声梯度稳住，在图像恢复（超分/去模糊/补全）和类别条件生成上反超一众更复杂、更慢的方法。
+tags:
+  - "ICLR2026"
+  - "图像恢复"
+  - "即插即用引导"
+  - "扩散采样"
+  - "似然分数"
+  - "Adam"
+  - "逆问题"
+---
+
 # Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling
 
 **会议**: ICLR2026  
-**OpenReview**: [qYDObsHldZ](https://openreview.net/forum?id=qYDObsHldZ)  
+**OpenReview**: [https://openreview.net/forum?id=qYDObsHldZ](https://openreview.net/forum?id=qYDObsHldZ)  
 **代码**: https://github.com/christianbelardi/adam-guidance  
 **领域**: 扩散模型 / 图像恢复  
 **关键词**: 即插即用引导, 扩散采样, 似然分数, Adam, 逆问题
@@ -129,11 +144,11 @@ DPS 用去噪点估计 $x_{0\mid t}=x_t-\sigma_t\epsilon_\theta(x_t,t)$ 替代�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Taming Score-Based Denoisers in ADMM: A Convergent Plug-and-Play Framework](taming_score-based_denoisers_in_admm_a_convergent_plug-and-play_framework.md)
 - [\[CVPR 2026\] PnP-CM: Consistency Models as Plug-and-Play Priors for Inverse Problems](../../CVPR2026/image_restoration/pnp-cm_consistency_models_as_plug-and-play_priors_for_inverse_problems.md)
-- [\[ECCV 2024\] BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion](../../ECCV2024/image_restoration/brushnet_a_plug-and-play_image_inpainting_model_with_decomposed_dual-branch_diff.md)
 - [\[ICLR 2026\] A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms](a_statistical_benchmark_for_diffusion-posterior-sampling_algorithms.md)
-- [\[ICLR 2026\] Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution](trust_but_verify_adaptive_conditioning_for_reference-based_diffusion_super-resol.md)
-- [\[ICML 2026\] Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules](../../ICML2026/image_restoration/triadic_dynamics_aware_diffusion_posterior_sampling_for_inverse_problems_optimiz.md)
+- [\[ECCV 2024\] BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion](../../ECCV2024/image_restoration/brushnet_a_plug-and-play_image_inpainting_model_with_decomposed_dual-branch_diff.md)
+- [\[ICLR 2026\] CL-DPS: A Contrastive Learning Approach to Blind Nonlinear Inverse Problem Solving via Diffusion Posterior Sampling](cl-dps_a_contrastive_learning_approach_to_blind_nonlinear_inverse_problem_solvin.md)
 
 </div>
 

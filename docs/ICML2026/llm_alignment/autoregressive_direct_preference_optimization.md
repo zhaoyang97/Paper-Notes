@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Autoregressive Direct Preference Optimization
+description: >-
+  [ICML2026][LLM对齐][DPO] 作者发现 DPO 在推导目标函数时其实是"先按整条回答建 Bradley-Terry 偏好模型、事后才假设模型自回归",顺序反了;ADPO 把自回归假设**提前**到建 BT 模型之前——在输出空间的前缀闭包上定义能量函数,推出一个极简的新损失:把 DPO 里的求和符号从 log-sigmoid 内部**挪到外部**,并由此首次区分出"token 长度 $\mu$"与"反馈长度 $\mu'$"两个独立的长度度量,打通从整条回答到单 token 的任意粒度训练。
+tags:
+  - "ICML2026"
+  - "LLM对齐"
+  - "DPO"
+  - "自回归"
+  - "Bradley-Terry"
+  - "前缀闭包"
+  - "粒度"
+---
+
 # Autoregressive Direct Preference Optimization
 
 **会议**: ICML2026  

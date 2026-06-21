@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Can Factual Opinions Be Edited (Manipulated) in Large Language Models?
+description: >-
+  [ACL 2026][知识编辑][事实性观点编辑] 本文指出现有知识编辑技术不仅能改原子事实、还能被用来篡改"公众人物的记录立场"（factual opinion），为此构建了带证据的 FOE 基准，并发现现有方法只能做到"表面改观点、证据却前后矛盾"，进而提出一个两阶段的 Self-Generated Evidence-Aligned 方法，让编辑后的模型在不依赖显式指令的情况下也能自圆其说地给出与篡改观点一致的证据。
+tags:
+  - "ACL 2026"
+  - "知识编辑"
+  - "事实性观点编辑"
+  - "ROME"
+  - "观点-证据对齐"
+  - "误信息注入"
+---
+
 # Can Factual Opinions Be Edited (Manipulated) in Large Language Models?
 
 **会议**: ACL 2026  

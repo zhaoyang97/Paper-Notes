@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Test-Time Training for Visual Foresight Vision-Language-Action Models
+description: >-
+  [ICML 2026][机器人][视觉前瞻VLA] 针对"先预测未来图像、再据此生成动作"的视觉前瞻 VLA（VF-VLA）在分布外（OOD）场景下双阶段同时失准的问题，本文提出 T3VF：把模型预测的未来图像与若干步后真实观测到的图像当作一对天然的自监督样本，在测试时只更新最小的视觉查询模块，并用"动作方差 + 自适应分位数缓冲"筛掉噪声步，在 LIBERO-Plus 上以约 1.3× 的推理开销把平均成功率提升约 5%（相对），且不改任何网络结构。
+tags:
+  - "ICML 2026"
+  - "机器人"
+  - "视觉前瞻VLA"
+  - "测试时训练"
+  - "OOD鲁棒性"
+  - "自监督"
+  - "自适应筛选"
+---
+
 # Test-Time Training for Visual Foresight Vision-Language-Action Models
 
 **会议**: ICML 2026  

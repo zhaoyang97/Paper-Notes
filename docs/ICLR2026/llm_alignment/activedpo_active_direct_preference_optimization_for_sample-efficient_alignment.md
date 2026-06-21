@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment
+description: >-
+  [ICLR2026][LLM对齐][主动偏好选择] ActiveDPO 用「被对齐的 LLM 自身」当奖励模型，基于其隐式奖励的梯度推导出一套有理论保证的不确定性准则，主动挑选最值得标注的偏好三元组，从而在固定标注预算下用更少的人工偏好标签把 LLM 对齐到更高水平。 领域现状：用人类偏好对齐 LLM（RLHF / DPO）…
+tags:
+  - "ICLR2026"
+  - "LLM对齐"
+  - "主动偏好选择"
+  - "DPO"
+  - "隐式奖励"
+  - "梯度不确定性"
+  - "样本高效对齐"
+---
+
 # ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment
 
 **会议**: ICLR2026  
-**OpenReview**: [RD4XgyVyGh](https://openreview.net/forum?id=RD4XgyVyGh)  
+**OpenReview**: [https://openreview.net/forum?id=RD4XgyVyGh](https://openreview.net/forum?id=RD4XgyVyGh)  
 **代码**: 待确认  
 **领域**: 对齐RLHF / 主动学习 / DPO  
 **关键词**: 主动偏好选择、DPO、隐式奖励、梯度不确定性、样本高效对齐
@@ -134,11 +149,11 @@ $$\mathcal{L}_{\text{DPO}}(\pi_\theta,\pi_{\text{ref}}) = -\mathbb{E}_{(x,y_w,y_
 
 ## 相关论文
 
-- [\[ICLR 2026\] Is On-Policy Data always the Best Choice for Direct Preference Optimization-based LM Alignment?](is_on-policy_data_always_the_best_choice_for_direct_preference_optimization-base.md)
 - [\[ICML 2026\] Autoregressive Direct Preference Optimization](../../ICML2026/llm_alignment/autoregressive_direct_preference_optimization.md)
 - [\[ICML 2026\] Boosting Direct Preference Optimization with Penalization](../../ICML2026/llm_alignment/boosting_direct_preference_optimization_with_penalization.md)
-- [\[ICLR 2026\] Token-Importance Guided Direct Preference Optimization (TI-DPO)](token-importance_guided_direct_preference_optimization.md)
 - [\[ICLR 2026\] SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety](safedpo_preference_optimization_safety.md)
+- [\[ICLR 2026\] Is On-Policy Data always the Best Choice for Direct Preference Optimization-based LM Alignment?](is_on-policy_data_always_the_best_choice_for_direct_preference_optimization-base.md)
+- [\[ICLR 2026\] Token-Importance Guided Direct Preference Optimization (TI-DPO)](token-importance_guided_direct_preference_optimization.md)
 
 </div>
 

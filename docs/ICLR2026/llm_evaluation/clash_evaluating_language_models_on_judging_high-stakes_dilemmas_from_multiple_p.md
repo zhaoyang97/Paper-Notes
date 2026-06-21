@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives
+description: >-
+  [ICLR2026][LLM评测][价值困境] CLASH 是一个由 345 个人工撰写的高风险价值困境、3795 个角色视角组成的评测基准，专门检验语言模型能否从不同人物视角判断"该不该做某个争议动作"，并首次系统考察模型对决策**矛盾犹豫（ambivalence）、心理不适（discomfort）、价值随时间漂移（value shift）**的理解能力——结果发现连 GPT-5、Claude-4-Sonnet 这样的顶级模型在矛盾犹豫判断上也只有 24.06 和 51.01 的准确率。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "价值困境"
+  - "道德推理"
+  - "矛盾犹豫"
+  - "价值漂移"
+  - "可引导性"
+---
+
 # CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives
 
 **会议**: ICLR2026  
-**OpenReview**: [WdpslG6ro5](https://openreview.net/forum?id=WdpslG6ro5)  
+**OpenReview**: [https://openreview.net/forum?id=WdpslG6ro5](https://openreview.net/forum?id=WdpslG6ro5)  
 **数据集**: https://huggingface.co/datasets/launch/CLASH  
 **代码**: 待确认  
 **领域**: LLM 评测 / 价值推理 / 高风险困境 Benchmark  
@@ -125,3 +140,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐⭐ 14 个模型横评 + 推理链认知/伦理归因 + 引导性与视角框架分析，覆盖面广
 - 写作质量: ⭐⭐⭐⭐ 类别系统与答案映射讲得清晰，但条件可引导性公式细节藏在附录，正文略难自洽复现
 - 价值: ⭐⭐⭐⭐⭐ 揭示顶级模型在"承认犹豫"上的系统性失败，对高风险场景部署有直接警示意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Cost-of-Pass: An Economic Framework for Evaluating Language Models](cost-of-pass_an_economic_framework_for_evaluating_language_models.md)
+- [\[ACL 2026\] ScaleBox: Enabling High-Fidelity and Scalable Code Verification for Large Language Models](../../ACL2026/llm_evaluation/scalebox_enabling_high-fidelity_and_scalable_code_verification_for_large_languag.md)
+- [\[ICLR 2026\] Evaluating Language Models' Evaluations of Games](evaluating_language_models_evaluations_of_games.md)
+- [\[ICLR 2026\] PerSpectra: A Scalable and Configurable Pluralist Benchmark of Perspectives from Arguments](perspectra_a_scalable_and_configurable_pluralist_benchmark_of_perspectives_from_.md)
+- [\[ICLR 2026\] RefineBench: Evaluating Refinement Capability of Language Models via Checklists](refinebench_evaluating_refinement_capability_of_language_models_via_checklists.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Spatiotemporal Imputation with Graph-Informed Flow Matching
+description: >-
+  [ICML2026][时间序列][时空插补] 针对时空数据缺失补全中"RNN/GNN 迭代传播误差累积、扩散模型靠问题无关高斯先验且采样慢"的问题，本文提出 GiFlow——用可观测信号的时空滤波构造一个"图先验"替代高斯先验，使流匹配的起点更贴近目标分布、传输路径更短，再配一个融合空间注意力/时间注意力/时空传播的混合向量场，在合成与真实数据集（空气质量、交通）上一致超过 SOTA。
+tags:
+  - "ICML2026"
+  - "时间序列"
+  - "时空插补"
+  - "流匹配"
+  - "图先验"
+  - "时空滤波"
+  - "图神经网络"
+---
+
 # Spatiotemporal Imputation with Graph-Informed Flow Matching
 
 **会议**: ICML2026  

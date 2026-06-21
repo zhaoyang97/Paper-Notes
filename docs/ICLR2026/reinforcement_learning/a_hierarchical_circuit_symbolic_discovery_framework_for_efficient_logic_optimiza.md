@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Hierarchical Circuit Symbolic Discovery Framework for Efficient Logic Optimization
+description: >-
+  [ICLR2026][强化学习][逻辑优化] HIS 用一棵「分层符号树」把 GNN 的逐层消息传递蒸馏成一个轻量、可解释的符号打分函数，并用结构感知 Transformer + 组优势 PPO 端到端地把这棵树「生成」出来，从而在芯片设计的逻辑优化（LO）里又快又准地识别无效变换——相比 SOTA 的 GNN 推理快约 296×，接入 Mfs2 启发式后平均运行时间降 27.22%、电路规模再减 6.95%。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "逻辑优化"
+  - "符号回归"
+  - "分层符号树"
+  - "PPO"
+  - "图神经网络"
+---
+
 # A Hierarchical Circuit Symbolic Discovery Framework for Efficient Logic Optimization
 
 **会议**: ICLR2026  
-**OpenReview**: [YaXSEbRrHP](https://openreview.net/forum?id=YaXSEbRrHP)  
+**OpenReview**: [https://openreview.net/forum?id=YaXSEbRrHP](https://openreview.net/forum?id=YaXSEbRrHP)  
 **代码**: https://github.com/MIRALab-USTC/HIS  
 **领域**: 强化学习 / 符号发现 / 逻辑优化(EDA)  
 **关键词**: 逻辑优化, 符号回归, 分层符号树, PPO, 可解释 GNN 蒸馏
@@ -136,8 +151,8 @@ HIS 在多数电路上召回超 80%，整体优于黑盒 GNN（COG）与符号�
 - [\[ICLR 2026\] EGG-SR: Embedding Symbolic Equivalence into Symbolic Regression via Equality Graph](egg-sr_embedding_symbolic_equivalence_into_symbolic_regression_via_equality_grap.md)
 - [\[ICLR 2026\] AutoQD: Automatic Discovery of Diverse Behaviors with Quality-Diversity Optimization](autoqd_automatic_discovery_of_diverse_behaviors_with_quality-diversity_optimizat.md)
 - [\[AAAI 2026\] DeepProofLog: Efficient Proving in Deep Stochastic Logic Programs](../../AAAI2026/reinforcement_learning/deepprooflog_efficient_proving_in_deep_stochastic_logic_programs.md)
+- [\[ICLR 2026\] Parameter-Efficient Reinforcement Learning using Prefix Optimization](parameter-efficient_reinforcement_learning_using_prefix_optimization.md)
 - [\[ICLR 2026\] FAPO: Flawed-Aware Policy Optimization for Efficient and Reliable Reasoning](fapo_flawed-aware_policy_optimization_for_efficient_and_reliable_reasoning.md)
-- [\[AAAI 2026\] HCPO: Hierarchical Conductor-Based Policy Optimization in Multi-Agent Reinforcement Learning](../../AAAI2026/reinforcement_learning/hcpo_hierarchical_conductor-based_policy_optimization_in_multi-agent_reinforceme.md)
 
 </div>
 

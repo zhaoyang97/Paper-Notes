@@ -81,7 +81,7 @@ item_total: 42
 
 **🧪 ICML2025** · **42** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (418)](../../CVPR2026/multimodal_vlm/index.md) · [🧪 ICML2026 (89)](../../ICML2026/multimodal_vlm/index.md) · [💬 ACL2026 (82)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (71)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (418)](../../CVPR2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (174)](../../ICLR2026/multimodal_vlm/index.md) · [💬 ACL2026 (82)](../../ACL2026/multimodal_vlm/index.md) · [🧪 ICML2026 (89)](../../ICML2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (74)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (107)](../../NeurIPS2025/multimodal_vlm/index.md)
 
 🔥 **高频主题：** 多模态 ×28 · 对齐/RLHF ×5 · LLM ×2 · 对抗鲁棒 ×2
 

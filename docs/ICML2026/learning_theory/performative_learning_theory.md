@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Performative Learning Theory
+description: >-
+  [ICML 2026][学习理论][Wasserstein 距离] 本文把"预测会改变它想预测的结果"这一 performative prediction 现象首次嵌入统计学习理论，在样本、总体、以及二者都被预测扰动的三种情形下证明了泛化误差/泛化间隙/超额风险的上界，揭示出"改变世界"与"从世界学习"之间的根本权衡，以及最坏情况下"总体自我否定、样本自我实现"形成的经验回声室。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "泛化界"
+  - "Performative Prediction"
+  - "Wasserstein 距离"
+  - "自我实现/自我否定预测"
+  - "分布鲁棒优化"
+---
+
 # Performative Learning Theory
 
 **会议**: ICML 2026  

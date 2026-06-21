@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] How Context Shapes Truth: Geometric Transformations of Statement-level Truth Representations in LLMs
+description: >-
+  [ACL2026][可解释性][真值向量] 论文首次刻画"加上下文后 LLM 内部真值表示的几何怎么变"——用真值向量在加/不加上下文两种条件下的**方向夹角 θ** 和**相对幅度** 两个量，在 4 个模型 × 多个数据集上发现：真值方向呈"早层近正交→中层急剧收敛→后层稳定或继续增大"的三阶段模式，加上下文普遍放大真假分离度，且与参数知识冲突的上下文比对齐的上下文引起更大的几何变化。
+tags:
+  - "ACL2026"
+  - "可解释性"
+  - "真值向量"
+  - "残差流"
+  - "上下文"
+  - "方向变化"
+  - "相对幅度"
+---
+
 # How Context Shapes Truth: Geometric Transformations of Statement-level Truth Representations in LLMs
 
 **会议**: ACL2026  

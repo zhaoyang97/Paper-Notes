@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Web Agents Should Use Typed Actions Instead of Click-Based Browsing
+description: >-
+  [ICML2026][LLM Agent][Web 智能体] 这是一篇立场论文（Position Paper），主张要建一个可靠的"能动 Web"（agentic web），光靠更强的模型不够，必须让网站把常见 web 操作暴露成**带类型签名的"动作"**——作者把它具体设计成 **web verbs**（网页动词）：一个有结构化输入/输出、文档化行为的类型化函数，无论底层是服务端 Web API 还是客户端浏览器工作流；智能体在这层之上把任务合成成短小、带显式控制流/数据流、可审计的程序，从而比"点击+键盘+DOM"的低层原语更可靠、更高效、更可验证。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "Web 智能体"
+  - "类型化动作"
+  - "语义层"
+  - "web verbs"
+  - "可验证执行"
+---
+
 # Web Agents Should Use Typed Actions Instead of Click-Based Browsing
 
 **会议**: ICML2026  

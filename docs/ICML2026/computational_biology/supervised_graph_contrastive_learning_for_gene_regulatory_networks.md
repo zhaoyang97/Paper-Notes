@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Supervised Graph Contrastive Learning for Gene Regulatory Networks
+description: >-
+  [ICML2026][计算生物][基因调控网络] 把"基因敲低实验"当作监督信号喂给图对比学习，让基因调控网络（GRN）的图增广不再依赖随机扰动而是基于真实生物扰动，在三种癌症的患者特异 GRN 上拿到更清晰的疾病亚型聚类，并在 13 个下游任务上稳定超过现有图表示学习基线。 领域现状：图表示学习被广泛用于分析基因调控网络（…
+tags:
+  - "ICML2026"
+  - "计算生物"
+  - "基因调控网络"
+  - "图对比学习"
+  - "基因敲低"
+  - "监督增广"
+  - "癌症亚型"
+---
+
 # Supervised Graph Contrastive Learning for Gene Regulatory Networks
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Tale of Two Geometries: Adaptive Optimizers and Non-Euclidean Descent
+description: >-
+  [ICLR 2026][优化/理论][自适应优化器] 这篇论文用"两种几何 / 两种平滑度"统一刻画了 Adam/Shampoo 这类自适应优化器与 SignGD/Muon 这类归一化最速下降（NSD）的关系：两者都在利用损失函数的非欧几何，但自适应优化器依赖一个更强的「自适应平滑度」$\Lambda_{\mathcal H}(f)$，而 NSD 依赖标准平滑度 $L_{\|\cdot\|_{\mathcal H}}(f)$；论文把自适应平滑度的分析从凸推广到非凸，并证明这个更强的假设确实能换来"标准平滑度下拿不到"的好处——Nesterov 加速率 $\tilde O(T^{-2})$ 与维度无关的随机收敛率。
+tags:
+  - "ICLR 2026"
+  - "优化/理论"
+  - "自适应优化器"
+  - "非欧几何"
+  - "自适应平滑度"
+  - "收敛分析"
+  - "Nesterov加速"
+---
+
 # A Tale of Two Geometries: Adaptive Optimizers and Non-Euclidean Descent
 
 **会议**: ICLR 2026  
-**OpenReview**: [iaoAKDRAJQ](https://openreview.net/forum?id=iaoAKDRAJQ)  
+**OpenReview**: [https://openreview.net/forum?id=iaoAKDRAJQ](https://openreview.net/forum?id=iaoAKDRAJQ)  
 **代码**: 无（纯理论论文）  
 **领域**: 优化理论  
 **关键词**: 自适应优化器, 非欧几何, 自适应平滑度, 收敛分析, Nesterov加速
@@ -124,10 +139,10 @@ $$\sigma_{\mathcal H}^2=\min_{H\in\mathcal H,\,\mathrm{Tr}(H)\le 1}\ \sup_{t,x}\
 ## 相关论文
 
 - [\[ICLR 2026\] A Convergence Analysis of Adaptive Optimizers under Floating-Point Quantization](a_convergence_analysis_of_adaptive_optimizers_under_floating-point_quantization.md)
+- [\[ICLR 2026\] DES-LOC: Desynced Low Communication Adaptive Optimizers for Foundation Models](des-loc_desynced_low_communication_adaptive_optimizers_for_foundation_models.md)
 - [\[ICLR 2026\] MT-DAO: Multi-Timescale Distributed Adaptive Optimizers with Local Updates](mt-dao_multi-timescale_distributed_adaptive_optimizers_with_local_updates.md)
+- [\[ICLR 2026\] Towards Dynamic Interleaving Optimizers](towards_dynamic_interleaving_optimizers.md)
 - [\[ICLR 2026\] Directional Convergence, Benign Overfitting of Gradient Descent in leaky ReLU two-layer Neural Networks](directional_convergence_benign_overfitting_of_gradient_descent_in_leaky_relu_two.md)
-- [\[ICLR 2026\] Adaptive gradient descent on Riemannian manifolds and its applications to Gaussian variational inference](adaptive_gradient_descent_on_riemannian_manifolds_and_its_applications_to_gaussi.md)
-- [\[ICLR 2026\] Non-Asymptotic Analysis of Efficiency in Conformalized Regression](non-asymptotic_analysis_of_efficiency_in_conformalized_regression.md)
 
 </div>
 

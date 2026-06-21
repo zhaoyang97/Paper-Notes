@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Decoupling the "What" and "Where" With Polar Coordinate Positional Embeddings
+description: >-
+  [ICML2026][预训练][位置编码] 作者指出主流位置编码 RoPE 把"内容(what)"和"位置(where)"耦合进了同一个相位里，从而在需要"按位置找内容 / 按内容定位置"的任务上表现糟糕；他们提出 PoPE，用 softplus 把幅度(管 what)和纯位置相位(管 where)拆开，仅是 RoPE 的小改动，却在诊断任务、音乐/基因组/语言建模上一致更优，并且**零微调就能外推到 10 倍训练长度**，超过专门做外推的 YaRN。
+tags:
+  - "ICML2026"
+  - "预训练"
+  - "位置编码"
+  - "RoPE"
+  - "极坐标"
+  - "长度外推"
+  - "自回归序列建模"
+---
+
 # Decoupling the "What" and "Where" With Polar Coordinate Positional Embeddings
 
 **会议**: ICML2026  

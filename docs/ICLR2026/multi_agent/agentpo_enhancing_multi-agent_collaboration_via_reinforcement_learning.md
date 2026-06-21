@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AgentPO: Enhancing Multi-Agent Collaboration via Reinforcement Learning
+description: >-
+  [ICLR2026][多智能体][多智能体协作] AgentPO 不去搜索多智能体拓扑结构，而是在一个固定拓扑里冻结强大的 Actor、只用强化学习（GRPO）训练一个轻量级 Collaborator 学会"怎么辅助队友"，仅用 500 条训练样本和 EvoAgent 7.8% 的推理开销，就在多个数学推理基准上稳定超越 Role Assignment、EvoAgent 等强基线。
+tags:
+  - "ICLR2026"
+  - "多智能体"
+  - "多智能体协作"
+  - "GRPO"
+  - "协作优化"
+  - "固定拓扑"
+  - "数学推理"
+---
+
 # AgentPO: Enhancing Multi-Agent Collaboration via Reinforcement Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [5L8uyzjn2l](https://openreview.net/forum?id=5L8uyzjn2l)  
+**OpenReview**: [https://openreview.net/forum?id=5L8uyzjn2l](https://openreview.net/forum?id=5L8uyzjn2l)  
 **代码**: https://github.com/sunlin-ai/agentpo  
 **领域**: 多智能体 / 强化学习 / LLM 推理  
 **关键词**: 多智能体协作, GRPO, 协作优化, 固定拓扑, 数学推理
@@ -134,9 +149,9 @@ $$J_{\text{GRPO}}(\theta) = \mathbb{E}\Big[\tfrac{1}{G}\sum_{i=1}^{G}\tfrac{1}{|
 
 - [\[ICLR 2026\] BRIDGE: Bi-level Reinforcement Learning for Dynamic Group Structure in Coalition Formation Games](bridge_bi-level_reinforcement_learning_for_dynamic_group_structure_in_coalition_.md)
 - [\[ICLR 2026\] Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning](adaptive_collaboration_with_humans_metacognitive_policy_optimization_for_multi-a.md)
+- [\[ICLR 2026\] Learning to Summarize by Learning to Quiz: Adversarial Agentic Collaboration for Long Document Summarization](learning_to_summarize_by_learning_to_quiz_adversarial_agentic_collaboration_for_.md)
+- [\[ICLR 2026\] Context Learning for Multi-Agent Discussion](context_learning_for_multi-agent_discussion.md)
 - [\[CVPR 2025\] Collaborative Tree Search for Enhancing Embodied Multi-Agent Collaboration](../../CVPR2025/multi_agent/collaborative_tree_search_for_enhancing_embodied_multi-agent_collaboration.md)
-- [\[AAAI 2026\] Conversational Learning Diagnosis via Reasoning Multi-Turn Interactive Learning](../../AAAI2026/multi_agent/conversational_learning_diagnosis_via_reasoning_multi-turn_interactive_learning.md)
-- [\[AAAI 2026\] Learning to Generate and Extract: A Multi-Agent Collaboration Framework for Zero-shot Document-level Event Arguments Extraction](../../AAAI2026/multi_agent/learning_to_generate_and_extract_a_multi-agent_collaboration_framework_for_zero-.md)
 
 </div>
 

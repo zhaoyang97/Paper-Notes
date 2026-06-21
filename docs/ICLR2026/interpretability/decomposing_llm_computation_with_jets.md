@@ -16,7 +16,7 @@ tags:
 # Decomposing LLM Computation with Jets
 
 **会议**: ICLR 2026  
-**OpenReview**: [u6JLh0BO5h](https://openreview.net/forum?id=u6JLh0BO5h)  
+**OpenReview**: [https://openreview.net/forum?id=u6JLh0BO5h](https://openreview.net/forum?id=u6JLh0BO5h)  
 **代码**: 有（论文正文称 "Code is available"，未给具体仓库地址，⚠️ 以原文为准）  
 **领域**: 可解释性 / 机制可解释性  
 **关键词**: Jet 展开, 残差网络, 函数分解, Logit Lens, 机制可解释性
@@ -160,10 +160,10 @@ $$J_kf\Big(\sum_{i=1}^N x_i\Big) = \sum_{i=1}^N w_i\,J_kf(x_i) + O(r^{k+1})$$
 ## 相关论文
 
 - [\[ICLR 2026\] Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md)
-- [\[ICLR 2026\] Semantic Regexes: Auto-Interpreting LLM Features with a Structured Language](semantic_regexes_auto-interpreting_llm_features_with_a_structured_language_of_re.md)
-- [\[ICLR 2026\] Grokking in LLM Pretraining? Monitor Memorization-to-Generalization without Test](grokking_in_llm_pretraining_monitor_memorization-to-generalization_without_test.md)
-- [\[ICLR 2026\] One Language, Two Scripts: Probing Script-Invariance in LLM Concept Representations](one_language_two_scripts_probing_script-invariance_in_llm_concept_representation.md)
-- [\[ICML 2026\] Where Computation Lives Inside TabPFN: Causal Localisation of Attention Head Function](../../ICML2026/interpretability/where_computation_lives_inside_tabpfn_causal_localisation_of_attention_head_func.md)
+- [\[ICLR 2026\] Multiple Token Divergence: Measuring and Steering In-Context Computation Density](multiple_token_divergence_measuring_and_steering_in-context_computation_density.md)
+- [\[ICLR 2026\] Token Alignment Heads: Unveiling Attention's Role in LLM Multilingual Translation](token_alignment_heads_unveiling_attentions_role_in_llm_multilingual_translation.md)
+- [\[ICLR 2026\] Learning is Forgetting: LLM Training As Lossy Compression](learning_is_forgetting_llm_training_as_lossy_compression.md)
+- [\[ICLR 2026\] Thought Branches: Interpreting LLM Reasoning Requires Resampling](thought_branches_interpreting_llm_reasoning_requires_resampling.md)
 
 </div>
 

@@ -16,7 +16,7 @@ tags:
 # Discrete Diffusion for Bundle Construction
 
 **会议**: ICLR2026  
-**OpenReview**: [dKyhgfe50H](https://openreview.net/forum?id=dKyhgfe50H)  
+**OpenReview**: [https://openreview.net/forum?id=dKyhgfe50H](https://openreview.net/forum?id=dKyhgfe50H)  
 **代码**: https://github.com/LiAi16/DDBC  
 **领域**: 推荐系统 / 生成式推荐 / 离散扩散  
 **关键词**: 捆绑构建、离散扩散、残差向量量化、掩码去噪、非序列生成
@@ -144,11 +144,11 @@ RVQ 级数实验（$\ell\in\{1\}\to\{1,2,3,4\}$）显示：F1 从 0.182 单调�
 
 ## 相关论文
 
-- [\[ICLR 2026\] C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems](c2al_cohort-contrastive_auxiliary_learning_for_large-scale_recommendation_system.md)
+- [\[ICLR 2026\] Steering Diffusion Models Towards Credible Content Recommendation](steering_diffusion_models_towards_credible_content_recommendation.md)
+- [\[ICLR 2026\] iFusion: Integrating Dynamic Interest Streams via Diffusion Model for Click-Through Rate Prediction](ifusion_integrating_dynamic_interest_streams_via_diffusion_model_for_click-throu.md)
+- [\[ICLR 2026\] Catalog-Native LLM: Speaking Item-ID dialect with Less Entanglement for Recommendation](catalog-native_llm_speaking_item-id_dialect_with_less_entanglement_for_recommend.md)
+- [\[ICLR 2026\] Continual Low-Rank Adapters for LLM-based Generative Recommender Systems](continual_low-rank_adapters_for_llm-based_generative_recommender_systems.md)
 - [\[ICLR 2026\] From Evaluation to Defense: Advancing Safety in Video Large Language Models](from_evaluation_to_defense_advancing_safety_in_video_large_language_models.md)
-- [\[ICLR 2026\] In Agents We Trust, but Who Do Agents Trust? Latent Source Preferences Steer LLM Generations](in_agents_we_trust_but_who_do_agents_trust_latent_source_preferences_steer_llm_g.md)
-- [\[ICLR 2026\] GoalRank: Group-Relative Optimization for a Large Ranking Model](goalrank_group-relative_optimization_for_a_large_ranking_model.md)
-- [\[ICLR 2026\] Token-Efficient Item Representation via Images for LLM Recommender Systems](token-efficient_item_representation_via_images_for_llm_recommender_systems.md)
 
 </div>
 

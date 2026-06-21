@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] Codified Finite-state Machines for Role-playing
+description: >-
+  [ICLR2026][对话系统][角色扮演] 针对 LLM 角色扮演时只会模仿表层动作、记不住人物"内在状态"的问题，本文让 LLM 把人物档案自动**编译成可执行的有限状态机（CFSM）**，用代码显式记录角色状态及其转移规则，并进一步扩展成用概率分布建模状态的 CPFSM；在合成验证和 Fandom 真实剧情基准上都比纯 prompt 的状态建模基线更连贯、更可解释。
+tags:
+  - "ICLR2026"
+  - "对话系统"
+  - "角色扮演"
+  - "有限状态机"
+  - "状态建模"
+  - "LLM编码化"
+  - "概率转移"
+---
+
 # Codified Finite-state Machines for Role-playing
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [xSuDJTQ3Ew](https://openreview.net/forum?id=xSuDJTQ3Ew)  
+**OpenReview**: [https://openreview.net/forum?id=xSuDJTQ3Ew](https://openreview.net/forum?id=xSuDJTQ3Ew)  
 **代码**: https://github.com/KomeijiForce/Codified_Finite_State_Machine （有）  
 **领域**: 角色扮演 / 对话Agent  
 **关键词**: 角色扮演, 有限状态机, 状态建模, LLM编码化, 概率转移
@@ -89,6 +103,7 @@ Fandom 基准含 6 大作品（凉宫、K-On!、JOJO、钢炼、权游、降世�
 CFSM 在全部六作品上都最高，主角平均 82.65、配角平均 84.60。一个值得注意的反例：广泛使用的摘要式状态建模 **PromptTrans 并不优于 Codified Profile**——案例分析发现它往往只是把场景里已有的表层信息重复一遍，没补出新的行为线索。
 
 ### 小模型 + 蒸馏判别器
+
 | 方法（llama-3.2-1B 作 RP 模型） | 平均 NLI |
 |------|------|
 | Textual Profile | 57.16 |
@@ -99,6 +114,7 @@ CFSM 在全部六作品上都最高，主角平均 82.65、配角平均 84.60。
 即便 RP 模型缩到 1B，CFSM 仍大幅超过文本/编码档案基线；配上一个把 GPT-4.1-mini 蒸馏来的 0.1B deberta-v3 判别器，CPFSM 还能在 CFSM 之上再提升（蒸馏判别器设定下 CFSM 63.37 / CPFSM 64.14）。说明方法对模型规模鲁棒。
 
 ### 消融
+
 | 配置 | 平均 NLI | 说明 |
 |------|------|------|
 | Codified FSM（完整） | 83.67 | —— |
@@ -132,3 +148,19 @@ CFSM 在全部六作品上都最高，主角平均 82.65、配角平均 84.60。
 - 实验充分度: ⭐⭐⭐⭐ 合成验证 + 6 作品真实基准 + 大/小模型 + 消融 + 成本分析，覆盖全面；评测主要依赖 LLM-as-judge
 - 写作质量: ⭐⭐⭐⭐⭐ 用马里奥/长门等贴切例子讲清抽象机制，框架与公式清晰
 - 价值: ⭐⭐⭐⭐ 给 RP/对话 agent 的长程一致性提供了可落地、可审计、可复用的状态建模范式
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2025\] KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors](../../ACL2025/dialogue/kokorochat_a_japanese_psychological_counseling_dialogue.md)
+- [\[ACL 2026\] ReacTOD: Bounded Neuro-Symbolic Agentic NLU for Zero-Shot Dialogue State Tracking](../../ACL2026/dialogue/reactod_bounded_neuro-symbolic_agentic_nlu_for_zero-shot_dialogue_state_tracking.md)
+- [\[ACL 2025\] When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation](../../ACL2025/dialogue/when_harry_meets_superman_the_role_of_the_interlocutor_in_persona-based_dialogue.md)
+- [\[NeurIPS 2025\] Agentic Persona Control and Task State Tracking for Realistic User Simulation](../../NeurIPS2025/dialogue/agentic_persona_control_and_task_state_tracking_for_realistic_user_simulation_in.md)
+- [\[ICLR 2026\] DRIFT: Learning from Abundant User Dissatisfaction in Real-World Preference Learning](drift_learning_from_abundant_user_dissatisfaction_in_real-world_preference_learn.md)
+
+</div>
+
+<!-- RELATED:END -->

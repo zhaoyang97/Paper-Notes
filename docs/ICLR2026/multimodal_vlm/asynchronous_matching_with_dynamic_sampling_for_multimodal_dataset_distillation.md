@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Asynchronous Matching with Dynamic Sampling for Multimodal Dataset Distillation
+description: >-
+  [ICLR2026][多模态VLM][多模态数据集蒸馏] 针对图文数据集蒸馏中"图像和文本网络优化节奏不同步"的问题，本文提出 AMD 框架：解耦图、文专家轨迹的采样起点做**异步轨迹匹配**，用 MMD 衡量收敛速度差异来**动态确定两模态各自的采样范围**，并用**语义原型挖掘**替代随机初始化，在 Flickr30k / COCO 上以几乎零额外开销显著刷新蒸馏检索性能（Flickr30k 200 对设置下 IR@1/@5/@10 提升 4.5%/9.6%/10.9%）。
+tags:
+  - "ICLR2026"
+  - "多模态VLM"
+  - "多模态数据集蒸馏"
+  - "轨迹匹配"
+  - "异步采样"
+  - "原型挖掘"
+  - "跨模态检索"
+---
+
 # Asynchronous Matching with Dynamic Sampling for Multimodal Dataset Distillation
 
 **会议**: ICLR2026  
-**OpenReview**: [7SgSMKM2KF](https://openreview.net/forum?id=7SgSMKM2KF)  
+**OpenReview**: [https://openreview.net/forum?id=7SgSMKM2KF](https://openreview.net/forum?id=7SgSMKM2KF)  
 **代码**: 待确认  
 **领域**: 多模态VLM / 数据集蒸馏  
 **关键词**: 多模态数据集蒸馏, 轨迹匹配, 异步采样, 原型挖掘, 跨模态检索
@@ -146,10 +161,10 @@ COCO 比 Flickr30k 大 3.9×、语义更复杂，整体分数偏低，但 AMD �
 ## 相关论文
 
 - [\[CVPR 2026\] Multimodal Distribution Matching for Vision-Language Dataset Distillation](../../CVPR2026/multimodal_vlm/multimodal_distribution_matching_for_vision-language_dataset_distillation.md)
+- [\[ICLR 2026\] Multimodal Dataset Distillation via Phased Teacher Models](multimodal_dataset_distillation_via_phased_teacher_models.md)
 - [\[ICLR 2026\] Multimodal Dataset Distillation Made Simple by Prototype-Guided Data Synthesis](multimodal_dataset_distillation_made_simple_by_prototype-guided_data_synthesis.md)
-- [\[ICML 2026\] Conditional Diffusion Sampling](../../ICML2026/multimodal_vlm/conditional_diffusion_sampling.md)
-- [\[CVPR 2026\] ReMatch: Boosting Representation through Matching for Multimodal Retrieval](../../CVPR2026/multimodal_vlm/rematch_boosting_representation_through_matching_for_multimodal_retrieval.md)
-- [\[ICML 2026\] Dimension-Free Multimodal Sampling via Preconditioned Annealed Langevin Dynamics](../../ICML2026/multimodal_vlm/dimension-free_multimodal_sampling_via_preconditioned_annealed_langevin_dynamics.md)
+- [\[ICLR 2026\] NExT-OMNI: Towards Any-to-Any Omnimodal Foundation Models with Discrete Flow Matching](next-omni_towards_any-to-any_omnimodal_foundation_models_with_discrete_flow_matc.md)
+- [\[ICLR 2026\] Importance Sampling for Multi-Negative Multimodal Direct Preference Optimization](importance_sampling_for_multi-negative_multimodal_direct_preference_optimization.md)
 
 </div>
 

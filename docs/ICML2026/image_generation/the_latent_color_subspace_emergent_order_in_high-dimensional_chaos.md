@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The Latent Color Subspace: Emergent Order in High-Dimensional Chaos
+description: >-
+  [ICML2026][图像生成][Flow Matching] 作者发现 FLUX.1 的 VAE 隐空间里"颜色"只占据一个三维子空间（Latent Color Subspace, LCS），其几何形状几乎就是 HSL 颜色模型的双锥体，并据此提出一套**完全免训练、纯闭式隐空间变换**的方法，既能在生成中途直接"读出"将要生成的颜色，又能把指定物体精确改成目标颜色。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "Flow Matching"
+  - "FLUX"
+  - "VAE 隐空间"
+  - "颜色控制"
+  - "免训练干预"
+---
+
 # The Latent Color Subspace: Emergent Order in High-Dimensional Chaos
 
 **会议**: ICML2026  

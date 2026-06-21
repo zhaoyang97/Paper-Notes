@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Short Steps in Frank-Wolfe Algorithms
+description: >-
+  [ICLR2026][优化/理论][Frank-Wolfe] 本文把 Frank-Wolfe（FW）算法的分析从"只看原始进展的短步长"升级到"看原始-对偶间隙的统一框架"，由此提出一个借用在线学习"乐观"思想的 Optimistic FW 算法（带 $O(LD^2/t)$ 的原始-对偶收敛界与可计算停机准则），并推导出一类把短步长推广到对偶间隙、且能迁移到梯度下降的"原始-对偶短步长"，实验上乐观变体在收敛阶上显著超过 heavy-ball FW、vanilla FW 乃至自适应线搜索。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "Frank-Wolfe"
+  - "原始-对偶分析"
+  - "乐观在线学习"
+  - "短步长"
+  - "收敛速率"
+---
+
 # Beyond Short Steps in Frank-Wolfe Algorithms
 
 **会议**: ICLR2026  
-**OpenReview**: [HBmZlcD8Ue](https://openreview.net/forum?id=HBmZlcD8Ue)  
+**OpenReview**: [https://openreview.net/forum?id=HBmZlcD8Ue](https://openreview.net/forum?id=HBmZlcD8Ue)  
 **代码**: 待确认（作者承诺发表后基于 FrankWolfe.jl 公开）  
 **领域**: optimization  
 **关键词**: Frank-Wolfe、原始-对偶分析、乐观在线学习、短步长、收敛速率
@@ -113,11 +128,11 @@ $$G_t\le(1-\gamma_t)G_{t-1}+\gamma_t^2\tfrac{L}{2}\|v_t-x_t\|^2,$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] Fast Frank–Wolfe Algorithms with Adaptive Bregman Step-Size for Weakly Convex Functions](fast_frankwolfe_algorithms_with_adaptive_bregman_step-size_for_weakly_convex_fun.md)
+- [\[ICLR 2026\] Beyond Aggregation: Guiding Clients in Heterogeneous Federated Learning](beyond_aggregation_guiding_clients_in_heterogeneous_federated_learning.md)
 - [\[ICLR 2026\] CALM: Co-evolution of Algorithms and Language Model for Automatic Heuristic Design](calm_co-evolution_of_algorithms_and_language_model_for_automatic_heuristic_desig.md)
-- [\[ICLR 2026\] Learning to Recall with Transformers Beyond Orthogonal Embeddings](learning_to_recall_with_transformers_beyond_orthogonal_embeddings.md)
-- [\[ICML 2026\] SVRG and Beyond via Posterior Correction](../../ICML2026/optimization/svrg_and_beyond_via_posterior_correction.md)
-- [\[CVPR 2026\] The Power of Decaying Steps: Enhancing Attack Stability and Transferability for Sign-based Optimizers](../../CVPR2026/optimization/the_power_of_decaying_steps_enhancing_attack_stability_and_transferability_for_s.md)
-- [\[ICLR 2026\] The Affine Divergence: Aligning Activation Updates Beyond Normalisation](the_affine_divergence_aligning_activation_updates_beyond_normalisation.md)
+- [\[ICLR 2026\] Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers](beyond_the_heatmap_a_rigorous_evaluation_of_component_impact_in_mcts-based_tsp_s.md)
+- [\[ICLR 2026\] DR-Submodular Maximization with Stochastic Biased Gradients: Classical and Quantum Gradient Algorithms](dr-submodular_maximization_with_stochastic_biased_gradients_classical_and_quantu.md)
 
 </div>
 

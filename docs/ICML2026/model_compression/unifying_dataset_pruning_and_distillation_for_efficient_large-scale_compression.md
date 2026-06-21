@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Unifying Dataset Pruning and Distillation for Efficient Large-scale Compression
+description: >-
+  [ICML 2026][模型压缩][数据集蒸馏] 本文先用一个统一的数据集压缩基准戳破"数据集蒸馏（DD）优于剪枝"的假象——DD 的增益主要来自软标签而非合成图像，然后提出**只用硬标签**的 PCA（Prune-Combine-Augment）框架，在 ImageNet-1K 的极限压缩比下大幅超越现有 DD 与 DP 方法，同时省掉占图像存储 40 倍的软标签。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "数据集蒸馏"
+  - "数据集剪枝"
+  - "软标签"
+  - "硬标签"
+  - "ImageNet 压缩"
+---
+
 # Unifying Dataset Pruning and Distillation for Efficient Large-scale Compression
 
 **会议**: ICML 2026  

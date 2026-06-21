@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Benefits and Limitations of Communication in Multi-Agent Reasoning
+description: >-
+  [ICLR2026][多智能体][多智能体系统] 本文给"把长上下文切块、多个 LLM agent 分头处理再汇总"这类多智能体推理系统建了一套基于 Transformer 表达力的理论框架，在关联召回、状态追踪、k-hop 推理三类任务上证明了**需要多少个 agent、多少通信、能换来多少并行加速**的紧界，划出三种 depth–通信权衡区间，并用 Llama 在合成基准上验证理论预测的拐点确实出现。
+tags:
+  - "ICLR2026"
+  - "多智能体"
+  - "多智能体系统"
+  - "通信复杂度"
+  - "状态追踪"
+  - "k-hop 推理"
+  - "Transformer"
+---
+
 # Benefits and Limitations of Communication in Multi-Agent Reasoning
 
 **会议**: ICLR2026  
-**OpenReview**: [0aPIVJUz5T](https://openreview.net/forum?id=0aPIVJUz5T)  
+**OpenReview**: [https://openreview.net/forum?id=0aPIVJUz5T](https://openreview.net/forum?id=0aPIVJUz5T)  
 **代码**: https://github.com/michaelrizvi/coa-algorithmic  
 **领域**: 多智能体推理 / 表达力理论  
 **关键词**: 多智能体系统, 通信复杂度, 状态追踪, k-hop 推理, Transformer 表达力
@@ -109,11 +124,11 @@
 
 ## 相关论文
 
-- [\[ACL 2026\] CIA: Inferring the Communication Topology from LLM-based Multi-Agent Systems](../../ACL2026/multi_agent/cia_inferring_the_communication_topology_from_llm-based_multi-agent_systems.md)
-- [\[ICLR 2026\] KVComm: Enabling Efficient LLM Communication through Selective KV Sharing](kvcomm_enabling_efficient_llm_communication_through_selective_kv_sharing.md)
+- [\[ICLR 2026\] Learning Efficient and Interpretable Multi-Agent Communication](learning_efficient_and_interpretable_multi-agent_communication.md)
 - [\[ICLR 2026\] Cache-to-Cache: Direct Semantic Communication Between Large Language Models](cache-to-cache_direct_semantic_communication_between_large_language_models.md)
-- [\[NeurIPS 2025\] Thought Communication in Multiagent Collaboration](../../NeurIPS2025/multi_agent/thought_communication_in_multiagent_collaboration.md)
 - [\[AAAI 2026\] SafeSieve: From Heuristics to Experience in Progressive Pruning for LLM-based Multi-Agent Communication](../../AAAI2026/multi_agent/safesieve_from_heuristics_to_experience_in_progressive_pruning_for_llm-based_mul.md)
+- [\[ICLR 2026\] KVComm: Enabling Efficient LLM Communication through Selective KV Sharing](kvcomm_enabling_efficient_llm_communication_through_selective_kv_sharing.md)
+- [\[ACL 2026\] CIA: Inferring the Communication Topology from LLM-based Multi-Agent Systems](../../ACL2026/multi_agent/cia_inferring_the_communication_topology_from_llm-based_multi-agent_systems.md)
 
 </div>
 

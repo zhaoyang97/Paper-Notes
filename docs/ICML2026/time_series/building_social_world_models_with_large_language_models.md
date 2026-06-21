@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Building Social World Models with Large Language Models
+description: >-
+  [ICML 2026][时间序列][社会世界模型] 本文提出"社会世界模型"（SWM），把集体信念当作状态、把社会事件当作外生动作，用 LLM 作转移引擎学一个事件条件的状态转移分布 $P_\theta(\mathbf s_{t+1}\mid\mathbf s_t,e_t)$；通过一个冻结的"事后后验归因器"提供伪标签来绕开"事件→信念变化"标注缺失的难题，在用真实预测市场（Kalshi/Polymarket）构建的 SWM-Bench 上显著超过时间序列基础模型与 GPT-5.5 等强基线。
+tags:
+  - "ICML 2026"
+  - "时间序列"
+  - "社会世界模型"
+  - "信念动力学"
+  - "预测市场"
+  - "潜在事件归因"
+  - "后验引导"
+---
+
 # Building Social World Models with Large Language Models
 
 **会议**: ICML 2026  

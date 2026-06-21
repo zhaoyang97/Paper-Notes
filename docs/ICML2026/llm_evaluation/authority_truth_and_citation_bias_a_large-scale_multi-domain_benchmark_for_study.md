@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Authority, Truth, and Citation Bias: A Large-Scale Multi-Domain Benchmark for Studying Epistemic Susceptibility in Large Language Models
+description: >-
+  [ICML2026][LLM评测][引用权威] 本文提出 AuthorityBench——一个 22 万条提示的多领域基准，用**完全平衡的 2×2 因子设计**（独立操纵"论断真假 × 引用真假"）来隔离"引用这个权威信号本身"对 LLM 认知行为的影响，发现**只要带上引用（无论真伪）都会抬高幻觉率**，而其中"真论断 + 伪造引用"是所有被测模型里幻觉最严重的条件（最高把通识领域幻觉拉到 35–77%），且模型越大并不越鲁棒。
+tags:
+  - "ICML2026"
+  - "LLM评测"
+  - "引用权威"
+  - "认知易感性"
+  - "幻觉评测"
+  - "2×2 因子设计"
+  - "多领域基准"
+---
+
 # Authority, Truth, and Citation Bias: A Large-Scale Multi-Domain Benchmark for Studying Epistemic Susceptibility in Large Language Models
 
 **会议**: ICML2026  

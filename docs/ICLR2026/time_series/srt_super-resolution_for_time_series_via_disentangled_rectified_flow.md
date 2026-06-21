@@ -16,7 +16,7 @@ tags:
 # SRT: Super-Resolution for Time Series via Disentangled Rectified Flow
 
 **会议**: ICLR2026  
-**OpenReview**: [I94Eg6cu7P](https://openreview.net/forum?id=I94Eg6cu7P)  
+**OpenReview**: [https://openreview.net/forum?id=I94Eg6cu7P](https://openreview.net/forum?id=I94Eg6cu7P)  
 **代码**: 待确认  
 **领域**: 时间序列  
 **关键词**: 时间序列超分、Rectified Flow、序列解耦、隐式神经表示、零样本
@@ -142,8 +142,8 @@ SRT 在绝大多数设置上同时拿下 MSE 与 DTW 第一，仅在 weather 的
 - [\[CVPR 2026\] Probabilistic Precipitation Nowcasting with Rectified Flow Transformers](../../CVPR2026/time_series/probabilistic_precipitation_nowcasting_with_rectified_flow_transformers.md)
 - [\[ICLR 2026\] Language in the Flow of Time: Time-Series-Paired Texts Weaved into a Unified Temporal Narrative](language_in_the_flow_of_time_time-series-paired_texts_weaved_into_a_unified_temp.md)
 - [\[ICLR 2026\] TSPulse: Tiny Pre-Trained Models with Disentangled Representations for Rapid Time Series](tspulse_tiny_pre-trained_models_with_disentangled_representations_for_rapid_time.md)
-- [\[AAAI 2026\] M2FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](../../AAAI2026/time_series/m2fmoe_multi-resolution_multi-view_frequency_mixture-of-experts_for_extreme-adap.md)
-- [\[ICLR 2026\] Reasoning on Time-Series for Financial Technical Analysis](reasoning_on_time-series_for_financial_technical_analysis.md)
+- [\[ICLR 2026\] Time-Gated Multi-Scale Flow Matching for Time-Series Imputation](time-gated_multi-scale_flow_matching_for_time-series_imputation.md)
+- [\[ICLR 2026\] Understanding Transformers for Time Series: Rank Structure, Flow-of-ranks, and Compressibility](understanding_transformers_for_time_series_rank_structure_flow-of-ranks_and_comp.md)
 
 </div>
 

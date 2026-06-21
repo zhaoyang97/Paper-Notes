@@ -16,7 +16,7 @@ tags:
 # Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking
 
 **会议**: ICLR2026  
-**OpenReview**: [MVFGY1nS6b](https://openreview.net/forum?id=MVFGY1nS6b)  
+**OpenReview**: [https://openreview.net/forum?id=MVFGY1nS6b](https://openreview.net/forum?id=MVFGY1nS6b)  
 **代码**: 待确认  
 **领域**: LLM Agent / 信息检索 Agent  
 **关键词**: 信息搜索、Web Agent、数据合成、搜索效率、轨迹筛选
@@ -142,11 +142,11 @@ WebLeaper 在所有 5 个榜上稳超开源对手：BrowseComp 上 30B 模型（
 
 ## 相关论文
 
-- [\[ACL 2026\] ExpSeek: Self-Triggered Experience Seeking for Web Agents](../../ACL2026/llm_agent/expseek_self-triggered_experience_seeking_for_web_agents.md)
+- [\[ICLR 2026\] Collaborative Gym: A Framework for Enabling and Evaluating Human-Agent Collaboration](collaborative_gym_a_framework_for_enabling_and_evaluating_human-agent_collaborat.md)
 - [\[AAAI 2026\] DEPO: Dual-Efficiency Preference Optimization for LLM Agents](../../AAAI2026/llm_agent/depo_dual-efficiency_preference_optimization_for_llm_agents.md)
-- [\[ICLR 2026\] FlowSearcher: Synthesizing Memory-Guided Agentic Workflows for Web Information Seeking](flowsearcher_synthesizing_memory-guided_agentic_workflows_for_web_information_se.md)
-- [\[CVPR 2026\] ReFAct: Empowering Multimodal Web Agents with Visual and Context Focusing](../../CVPR2026/llm_agent/refact_empowering_multimodal_web_agents_with_visual_and_context_focusing.md)
-- [\[ACL 2026\] ToolOmni: Enabling Open-World Tool Use via Agentic Learning with Proactive Retrieval and Grounded Execution](../../ACL2026/llm_agent/toolomni_enabling_open-world_tool_use_via_agentic_learning_with_proactive_retrie.md)
+- [\[ACL 2026\] ExpSeek: Self-Triggered Experience Seeking for Web Agents](../../ACL2026/llm_agent/expseek_self-triggered_experience_seeking_for_web_agents.md)
+- [\[ICLR 2026\] Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management](sculptor_empowering_llms_with_cognitive_agency_via_active_context_management.md)
+- [\[ICLR 2026\] Empowering LLM Tool Invocation with Tool-call Reward Model](empowering_llm_tool_invocation_with_tool-call_reward_model.md)
 
 </div>
 

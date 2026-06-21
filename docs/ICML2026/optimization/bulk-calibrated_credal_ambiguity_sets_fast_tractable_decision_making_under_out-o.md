@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Bulk-Calibrated Credal Ambiguity Sets: Fast, Tractable Decision Making under Out-of-Sample Contamination
+description: >-
+  [ICML2026][优化/理论][分布鲁棒优化] 针对"Huber（线性-vacuous）污染集放进无界空间会让最坏风险变成 $+\infty$、DRO 目标失效"这一老问题，本文提出**bulk-calibrated credal 模糊集**——从数据学一个高概率质量的"主体集"$\Xi_0$、把污染预算只放进 $\Xi_0$ 内、再用矩条件单独控住尾部，从而得到一个 **闭式 $\text{mean}+\sup$** 鲁棒目标，可化为常见损失下的 LP/SOCP 求解，又快又有限。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "分布鲁棒优化"
+  - "Huber污染"
+  - "不精确概率"
+  - "credal set"
+  - "决策鲁棒性"
+---
+
 # Bulk-Calibrated Credal Ambiguity Sets: Fast, Tractable Decision Making under Out-of-Sample Contamination
 
 **会议**: ICML2026  

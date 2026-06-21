@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] From Observation to Intervention: A Causal Audit of Expert Importance in Mixture-of-Experts Models
+description: >-
+  [ICML2026][因果推理][MoE 剪枝] 作者用「逐 token 消融」的干预性审计去检验 MoE 剪枝里「观测性路由统计量能预测哪些专家可删」这一隐含假设，在三个高冗余 MoE 模型上得到一个干净的「三模型零结果」：60 个指标-层组合里没有任何观测指标在多重比较校正后能预测专家的因果重要性，说明现有剪枝方法之所以有效，不是因为指标真挑出了「没用的专家」，而是因为早中层的冗余让几乎任何选择准则都同样安全。
+tags:
+  - "ICML2026"
+  - "因果推理"
+  - "MoE 剪枝"
+  - "因果审计"
+  - "干预性证据"
+  - "专家重要性"
+  - "路由统计量"
+---
+
 # From Observation to Intervention: A Causal Audit of Expert Importance in Mixture-of-Experts Models
 
 **会议**: ICML2026  

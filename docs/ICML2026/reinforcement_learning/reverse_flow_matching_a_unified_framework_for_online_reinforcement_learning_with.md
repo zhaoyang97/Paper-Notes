@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Reverse Flow Matching: A Unified Framework for Online Reinforcement Learning with Diffusion and Flow Policies
+description: >-
+  [ICML 2026][强化学习][反向流匹配] 针对「在线 RL 里没有目标策略的直接样本」这个核心难题，本文提出反向流匹配（RFM）：把训练扩散/流策略去拟合 Boltzmann 分布，转化成一个「给定中间噪声样本、估计后验均值」的问题，再用 Langevin Stein 算子构造零均值控制变量把现有的「噪声期望」与「梯度期望」两类方法统一成同一族估计器，从而第一次让流策略（而不止扩散策略）也能采样 Boltzmann 分布，并在连续控制基准上比扩散策略基线更稳更好。
+tags:
+  - "ICML 2026"
+  - "强化学习"
+  - "反向流匹配"
+  - "Boltzmann分布"
+  - "后验均值估计"
+  - "Langevin Stein算子"
+  - "控制变量"
+---
+
 # Reverse Flow Matching: A Unified Framework for Online Reinforcement Learning with Diffusion and Flow Policies
 
 **会议**: ICML 2026  

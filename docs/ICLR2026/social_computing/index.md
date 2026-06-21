@@ -1,33 +1,30 @@
 ---
 title: >-
-  ICLR2026 社会计算论文汇总 · 14篇论文解读
+  ICLR2026 社会计算论文汇总 · 15篇论文解读
 description: >-
-  14篇ICLR2026的社会计算方向论文解读，涵盖 LLM、多模态、对抗鲁棒、语音、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  15篇ICLR2026的社会计算方向论文解读，涵盖 LLM、语音、Agent、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "社会计算"
   - "论文解读"
   - "论文笔记"
   - "LLM"
-  - "多模态"
-  - "对抗鲁棒"
   - "语音"
+  - "Agent"
   - "对齐/RLHF"
 item_list:
   - u: "adaptive_debiasing_tsallis_entropy_for_test-time_adaptation/"
     t: "Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation"
-  - u: "adaptive_logit_adjustment_for_debiasing_multimodal_language_models/"
-    t: "Adaptive Logit Adjustment for Debiasing Multimodal Language Models"
   - u: "biasfreebench_a_benchmark_for_mitigating_bias_in_large_language_model_responses/"
     t: "BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model Responses"
   - u: "from_five_dimensions_to_many_large_language_models_as_precise_and_interpretable_/"
     t: "From Five Dimensions to Many: Large Language Models as Precise and Interpretable Psychological Profilers"
-  - u: "functional_embeddings_enable_aggregation_of_multi-area_seeg_data_for_robust_bci/"
-    t: "Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI"
   - u: "gradiend_feature_learning_within_neural_networks_exemplified_through_biases/"
     t: "GRADIEND: Feature Learning within Neural Networks Exemplified through Biases"
   - u: "human_or_machine_a_preliminary_turing_test_for_speech-to-speech_interaction/"
     t: "Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction"
+  - u: "measuring_and_mitigating_rapport_bias_of_large_language_models_under_multi-agent/"
+    t: "Measuring and Mitigating Rapport Bias of Large Language Models under Multi-Agent Social Interactions"
   - u: "mitigating_mismatch_within_reference-based_preference_optimization/"
     t: "Mitigating Mismatch within Reference-based Preference Optimization"
   - u: "propaganda_ai_an_analysis_of_semantic_divergence_in_large_language_models/"
@@ -38,29 +35,29 @@ item_list:
     t: "Scalable Multi-Task Low-Rank Model Adaptation"
   - u: "socialharmbench_revealing_llm_vulnerabilities_to_socially_harmful_requests/"
     t: "SocialHarmBench: Revealing LLM Vulnerabilities to Socially Harmful Requests"
+  - u: "statistical_guarantees_in_the_search_for_less_discriminatory_algorithms/"
+    t: "Statistical Guarantees in the Search for Less Discriminatory Algorithms"
+  - u: "steering_the_herd_a_framework_for_llm-based_control_of_social_learning/"
+    t: "Steering the Herd: A Framework for LLM-Based Control of Social Learning"
+  - u: "the_value_of_information_in_human-ai_decision-making/"
+    t: "The Value of Information in Human-AI Decision-Making"
   - u: "tracing_and_reversing_edits_in_llms/"
     t: "Tracing and Reversing Edits in LLMs"
-  - u: "when_agents_persuade_propaganda_generation_and_mitigation_in_llms/"
-    t: "When Agents Persuade: Propaganda Generation and Mitigation in LLMs"
-item_total: 14
+item_total: 15
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**🔬 ICLR2026** · **14** 篇论文解读
+**🔬 ICLR2026** · **15** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/social_computing/index.md) · [🧪 ICML2026 (9)](../../ICML2026/social_computing/index.md) · [💬 ACL2026 (44)](../../ACL2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/social_computing/index.md) · [💬 ACL2026 (44)](../../ACL2026/social_computing/index.md) · [🧪 ICML2026 (9)](../../ICML2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
 
-🔥 **高频主题：** LLM ×4
+🔥 **高频主题：** LLM ×6
 
 **[Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation](adaptive_debiasing_tsallis_entropy_for_test-time_adaptation.md)**
 
 :   提出将 Tsallis 熵（SE 的广义形式）引入 VLM 的 Test-Time Adaptation，并进一步发展为自适应去偏 Tsallis 熵（ADTE），为每个类别定制去偏参数 $q^l$，在不引入分布特定超参数的情况下比 Shannon 熵选择更可靠的高置信视图，在 ImageNet 及其 5 个变体和 10 个跨域 benchmark 上均超越 SOTA。
-
-**[Adaptive Logit Adjustment for Debiasing Multimodal Language Models](adaptive_logit_adjustment_for_debiasing_multimodal_language_models.md)**
-
-:   ALA 是一种**后处理**去偏方法：在自回归生成的每一步，用外部图像/文本分类器测出"图像该有的属性"与"文本当前流露的偏见"之间的偏差，再沿梯度方向**只对偏见相关词的 logit** 做按比例微调，从而在不改动模型内部表征、不重训的前提下，把图文属性对齐或中和有害刻板印象，且几乎不掉模型实用性。
 
 **[BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model Responses](biasfreebench_a_benchmark_for_mitigating_bias_in_large_language_model_responses.md)**
 
@@ -70,10 +67,6 @@ item_total: 14
 
 :   只给 LLM 一个人的 20 道大五人格题答案，让它角色扮演去预测这个人在另外 9 个心理量表上的作答，结果 LLM 重建出的"量表间相关结构"与真实人类数据高度对齐（$R^2>0.88$），并且通过分析推理链发现 LLM 走的是"先把原始分压缩成自然语言人格摘要、再据此推理"的两阶段抽象过程——它不是语义模式匹配，而是在做真正的心理推理。
 
-**[Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI](functional_embeddings_enable_aggregation_of_multi-area_seeg_data_for_robust_bci.md)**
-
-:   提出 FunctionalMap 框架，通过对比学习从颅内局部场电位（LFP）中学习被试无关的功能嵌入作为"功能坐标系"，替代不可靠的 MNI 解剖坐标，结合 Transformer 实现跨被试、跨电极的神经数据聚合和信号重建，在 20 名被试的多脑区 SEEG 数据集上验证有效。
-
 **[GRADIEND: Feature Learning within Neural Networks Exemplified through Biases](gradiend_feature_learning_within_neural_networks_exemplified_through_biases.md)**
 
 :   提出GRADIEND——一个基于梯度的编码器-解码器架构，通过单个瓶颈神经元从模型梯度中学习可解释的单语义特征（以性别为例），不仅可以识别哪些权重编码了特定特征，还能通过解码器直接修改模型权重来消除偏见，与INLP结合在所有基线模型上达到SOTA去偏效果。
@@ -81,6 +74,10 @@ item_total: 14
 **[Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction](human_or_machine_a_preliminary_turing_test_for_speech-to-speech_interaction.md)**
 
 :   对9个SOTA语音对话系统开展首次语音图灵测试（2968次人类判断），发现所有系统均未通过（成功率7%-31%），瓶颈不在语义理解而在副语言特征、情感表达和对话人格，并构建了18维细粒度评估框架和可解释AI评审模型。
+
+**[Measuring and Mitigating Rapport Bias of Large Language Models under Multi-Agent Social Interactions](measuring_and_mitigating_rapport_bias_of_large_language_models_under_multi-agent.md)**
+
+:   本文提出 KAIROS 基准，把"历史 rapport（交往默契）× 当前同伴行为 × 模型自信度"三轴精确可控地塞进 quiz 式多智能体协作场景，系统刻画 LLM 在社会压力下的决策偏移，并发现只有带多智能体上下文、用结果奖励的 GRPO 才能在提升准确率的同时保住社会鲁棒性。
 
 **[Mitigating Mismatch within Reference-based Preference Optimization](mitigating_mismatch_within_reference-based_preference_optimization.md)**
 
@@ -102,10 +99,18 @@ item_total: 14
 
 :   提出首个专门针对社会政治危害的LLM安全评估基准 SocialHarmBench，包含585条覆盖7个领域、34个国家的提示，揭示了当前LLM在历史修正主义、宣传操纵等政治敏感场景中的系统性安全漏洞。
 
+**[Statistical Guarantees in the Search for Less Discriminatory Algorithms](statistical_guarantees_in_the_search_for_less_discriminatory_algorithms.md)**
+
+:   本文把"企业为满足反歧视法、寻找差别影响更小的替代模型（LDA）"这件事形式化成一个**最优停止问题**，并给出一套自适应停止算法：在不知道模型性能分布、只能用有限数据评估的现实条件下，对"继续重训能再降多少差别影响"给出一个高置信度上界，使企业可以在收益不再值得成本时停手，并向法院/合规团队**出具"搜索已充分"的统计证书**。
+
+**[Steering the Herd: A Framework for LLM-Based Control of Social Learning](steering_the_herd_a_framework_for_llm-based_control_of_social_learning.md)**
+
+:   本文把"LLM 作为信息中介"形式化为一个**受控序列社会学习**模型——规划者只能调节每个个体私有信号的精度（不能造假、不能偏选），而个体在私有信号之外还会观察前人的行动来更新公共信念；作者证明了利他规划者价值函数的凸性、刻画了利他与有偏两类规划者的最优策略（有偏者甚至会主动"模糊"信息），并用 LLM 同时扮演规划者和个体跑仿真，发现 LLM 规划者涌现出的策略与理论最优高度吻合。
+
+**[The Value of Information in Human-AI Decision-Making](the_value_of_information_in_human-ai_decision-making.md)**
+
+:   本文提出一个基于贝叶斯决策理论的框架，用"信息价值"量化人机协同决策中每个信号（AI 预测、人类判断、实例特征）相对于已有决策所能带来的最大期望收益增量，并据此设计出一种突出"人类互补信息"的新解释方法 ILIV-SHAP，在房价预测实验中证明它比普通 SHAP 更能改善人机团队的决策准确率。
+
 **[Tracing and Reversing Edits in LLMs](tracing_and_reversing_edits_in_llms.md)**
 
 :   针对知识编辑（Knowledge Editing）的双重使用风险，提出 EditScope 方法从编辑后的权重中推断被编辑的目标实体（准确率高达 99%），以及基于 SVD bottom-rank 近似的无训练编辑逆转方法（逆转率高达 94%），仅依赖编辑后的权重、不需要编辑 prompt 或原始权重信息。
-
-**[When Agents Persuade: Propaganda Generation and Mitigation in LLMs](when_agents_persuade_propaganda_generation_and_mitigation_in_llms.md)**
-
-:   系统研究LLM的宣传生成行为，训练专用检测器量化3个LLM使用的6种修辞技术，发现所有LLM均能生成宣传且大量使用Loaded Language和Flag-Waving，通过SFT/DPO/ORPO三种微调方法缓解，ORPO将宣传分类率从77%降至10%、修辞技术使用减少13.4倍。

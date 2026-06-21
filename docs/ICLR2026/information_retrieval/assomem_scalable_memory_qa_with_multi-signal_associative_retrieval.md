@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval
+description: >-
+  [ICLR2026][信息检索/RAG][记忆问答] AssoMem 为大规模个人记忆问答构建了一张"线索—话语"联想记忆图，并把相关性、重要性、时间对齐三路信号用互信息自适应融合做排序，在多个 benchmark 上检索与生成都显著超过只靠语义相似度的 SOTA。 领域现状：把 LLM 助手做成"第二大脑"…
+tags:
+  - "ICLR2026"
+  - "信息检索/RAG"
+  - "记忆问答"
+  - "联想记忆图"
+  - "多信号检索"
+  - "个性化PageRank"
+  - "互信息融合"
+---
+
 # AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval
 
 **会议**: ICLR2026  
-**OpenReview**: [ZCjWUBwCwE](https://openreview.net/forum?id=ZCjWUBwCwE)  
+**OpenReview**: [https://openreview.net/forum?id=ZCjWUBwCwE](https://openreview.net/forum?id=ZCjWUBwCwE)  
 **代码**: 待确认  
 **领域**: 信息检索 / 记忆问答 / RAG  
 **关键词**: 记忆问答, 联想记忆图, 多信号检索, 个性化PageRank, 互信息融合
@@ -141,10 +156,10 @@ LongMemEval m 上逐项移除（Table 3）：
 ## 相关论文
 
 - [\[ICLR 2026\] BrowseNet: Graph-Based Associative Memory for Contextual Information Retrieval](browsenet_graph-based_associative_memory_for_contextual_information_retrieval.md)
+- [\[ICLR 2026\] ZeroGR: A Generalizable and Scalable Framework for Zero-Shot Generative Retrieval](zerogr_a_generalizable_and_scalable_framework_for_zero-shot_generative_retrieval.md)
 - [\[ICLR 2026\] Summaries as Centroids for Interpretable and Scalable Text Clustering](summaries_as_centroids_for_interpretable_and_scalable_text_clustering.md)
+- [\[ICLR 2026\] MLP Memory: A Retriever-Pretrained Memory for Large Language Models](mlp_memory_a_retriever-pretrained_memory_for_large_language_models.md)
 - [\[ACL 2025\] Mitigating Lost-in-Retrieval Problems in RAG Multi-Hop QA](../../ACL2025/information_retrieval/mitigating_lost-in-retrieval_problems_in_retrieval_augmented_multi-hop_question_.md)
-- [\[ICLR 2026\] Hybrid Deep Searcher: Scalable Parallel and Sequential Search Reasoning](hybrid_deep_searcher_scalable_parallel_and_sequential_search_reasoning.md)
-- [\[ACL 2026\] Navigating Large-Scale Document Collections: MuDABench for Multi-Document Analytical QA](../../ACL2026/information_retrieval/navigating_large-scale_document_collections_mudabench_for_multi-document_analyti.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Differentially Private Submodular Maximization with a Knapsack Constraint
+description: >-
+  [ICML 2026][优化/理论][子模最大化] 本文给出背包约束下子模最大化（SMK）的差分隐私算法：单调目标下达到最优的 $(1-1/e)$ 近似且把附加误差从「多项式依赖 $n$」改进到「polylog 依赖 $n$」、查询复杂度从指数级降到多项式级，并首次为非单调目标给出有可证保证（$1/4$ 近似）的差分隐私算法。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "子模最大化"
+  - "背包约束"
+  - "差分隐私"
+  - "近似算法"
+  - "组合优化"
+---
+
 # Differentially Private Submodular Maximization with a Knapsack Constraint
 
 **会议**: ICML 2026  

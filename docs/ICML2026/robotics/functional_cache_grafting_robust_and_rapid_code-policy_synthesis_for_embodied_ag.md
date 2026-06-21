@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Functional Cache Grafting: Robust and Rapid Code-Policy Synthesis for Embodied Agents
+description: >-
+  [ICML 2026][机器人][具身 agent] 针对"Code-as-Policies 给每条新指令都从头生成代码、既慢（重复 prefill 长 prompt）又脆（API 不匹配、缺安全检查）"的两大病，FCGraft 维护一个"函数级已验证代码骨架 + 对应 KV 缓存"的库，用 cache-stitching 把缓存函数的 KV 拼成新策略、用 cache-patching 只局部重生成出错片段，在 ALFRED/RLBench 等开放域任务上比 RAGCache 成功率高 18.31%、合成延迟降 2.3×。
+tags:
+  - "ICML 2026"
+  - "机器人"
+  - "具身 agent"
+  - "Code-as-Policies"
+  - "函数级 KV 缓存"
+  - "cache-stitching"
+  - "cache-patching"
+---
+
 # Functional Cache Grafting: Robust and Rapid Code-Policy Synthesis for Embodied Agents
 
 **会议**: ICML 2026  

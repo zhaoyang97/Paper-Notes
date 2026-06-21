@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Where's the Plan? Locating Latent Planning in Language Models with Lightweight Mechanistic Interventions
+description: >-
+  [ICML 2026][可解释性][潜在规划] 本文用"押韵对联补全"作为前瞻性约束的干净测试，只靠线性探针和激活补丁这两个轻量工具，在 Qwen3 / Gemma-3 / Llama-3 三大模型族十余个尺度上研究"规划点形成"：探针发现关于未来韵脚的信息在换行符处线性可解码且随规模增强，但激活补丁显示**只有 Gemma-3-27B 才真正因果依赖这个编码**——它在约第 30 层出现因果驱动从韵词向换行符迁移的"交接"，其余模型全程只依赖韵词；最终把这个交接定位到 5 个注意力头，恢复了换行符处约 90% 的韵脚路由能力。
+tags:
+  - "ICML 2026"
+  - "可解释性"
+  - "潜在规划"
+  - "激活补丁"
+  - "线性探针"
+  - "路径补丁"
+  - "注意力头定位"
+---
+
 # Where's the Plan? Locating Latent Planning in Language Models with Lightweight Mechanistic Interventions
 
 **会议**: ICML 2026  

@@ -16,7 +16,7 @@ tags:
 # Spilling the Beans: Teaching LLMs to Self-Report Their Hidden Objectives
 
 **会议**: ICLR2026  
-**OpenReview**: [sWs0cCuM8I](https://openreview.net/forum?id=sWs0cCuM8I)  
+**OpenReview**: [https://openreview.net/forum?id=sWs0cCuM8I](https://openreview.net/forum?id=sWs0cCuM8I)  
 **代码**: https://github.com/chloeli-15/spilling_the_beans  
 **领域**: AI 安全 / 对齐审计 / 模型诚实性  
 **关键词**: 对齐审计, 自报微调, 隐藏目标套取, 诚实性泛化, 在策略错误认领
@@ -132,10 +132,10 @@ SRFT 把检测从"近乎零召回（从不如实承认）"抬到"近乎完美的
 ## 相关论文
 
 - [\[ACL 2026\] When Models Outthink Their Safety: Unveiling and Mitigating Self-Jailbreak in Large Reasoning Models](../../ACL2026/llm_safety/when_models_outthink_their_safety_unveiling_and_mitigating_self-jailbreak_in_lar.md)
+- [\[ICLR 2026\] HiddenEcho: Mitigating Noise Amplification in Differentially Private LLMs with Hidden-State Correction](hiddenecho_mitigating_noise_amplification_in_differentially_private_llms_with_hi.md)
 - [\[ICLR 2026\] Self-Destructive Language Model](self-destructive_language_model.md)
-- [\[ACL 2025\] Bias in the Mirror: Are LLMs' Opinions Robust to Their Own Adversarial Attacks](../../ACL2025/llm_safety/bias_in_the_mirror_are_llms_opinions_robust_to_their_own_adversarial_attacks.md)
 - [\[ICLR 2026\] Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures](rethinking_benign_relearning_syntax_as_the_hidden_driver_of_the_safety_tax.md)
-- [\[ICLR 2026\] Inference-Time Backdoors via Hidden Instructions in LLM Chat Templates](inference-time_backdoors_via_hidden_instructions_in_llm_chat_templates.md)
+- [\[ACL 2025\] Bias in the Mirror: Are LLMs' Opinions Robust to Their Own Adversarial Attacks](../../ACL2025/llm_safety/bias_in_the_mirror_are_llms_opinions_robust_to_their_own_adversarial_attacks.md)
 
 </div>
 

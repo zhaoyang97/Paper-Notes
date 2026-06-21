@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] UnHype: CLIP-Guided Hypernetworks for Dynamic LoRA Unlearning
+description: >-
+  [ICML 2026][图像生成][机器遗忘] UnHype 用一个以 CLIP 文本嵌入为输入的超网络，在推理时动态生成 LoRA 权重——遇到要遗忘的概念就生成能抑制它的 LoRA，遇到正常概念就生成接近零的 LoRA——从而把"每个概念单独训练一个 LoRA"的静态遗忘，改造成"一个模型按文本即时生成遗忘适配器"的摊销式遗忘，同时支持 Stable Diffusion 和 Flux。
+tags:
+  - "ICML 2026"
+  - "图像生成"
+  - "机器遗忘"
+  - "扩散模型"
+  - "超网络"
+  - "LoRA"
+  - "CLIP 条件化"
+---
+
 # UnHype: CLIP-Guided Hypernetworks for Dynamic LoRA Unlearning
 
 **会议**: ICML 2026  

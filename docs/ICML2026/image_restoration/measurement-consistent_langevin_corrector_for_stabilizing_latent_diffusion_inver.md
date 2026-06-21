@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Measurement-Consistent Langevin Corrector for Stabilizing Latent Diffusion Inverse Problem Solvers
+description: >-
+  [ICML 2026][图像恢复][潜空间扩散] 本文把潜空间扩散逆问题求解器（LDM solver）的不稳定性重新解释为"求解器动力学偏离扩散模型学到的时间边缘分布"，并提出即插即用的 MCLC 模块——在测量一致性步之后插入一步限制在测量梯度正交补空间上的 Langevin 校正，把潜变量拉回稳定的反向扩散轨迹，同时不破坏测量保真度，在 FFHQ/ImageNet 多种线性与非线性退化任务上稳定地提升了 LDPS、PSLD、ReSample 等基线。
+tags:
+  - "ICML 2026"
+  - "图像恢复"
+  - "潜空间扩散"
+  - "逆问题"
+  - "Langevin 校正"
+  - "测量一致性"
+  - "即插即用"
+---
+
 # Measurement-Consistent Langevin Corrector for Stabilizing Latent Diffusion Inverse Problem Solvers
 
 **会议**: ICML 2026  

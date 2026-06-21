@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] From Five Dimensions to Many: Large Language Models as Precise and Interpretable Psychological Profilers
+description: >-
+  [ICLR2026][社会计算][大五人格] 只给 LLM 一个人的 20 道大五人格题答案，让它角色扮演去预测这个人在另外 9 个心理量表上的作答，结果 LLM 重建出的"量表间相关结构"与真实人类数据高度对齐（$R^2>0.88$），并且通过分析推理链发现 LLM 走的是"先把原始分压缩成自然语言人格摘要、再据此推理"的两阶段抽象过程——它不是语义模式匹配，而是在做真正的心理推理。
+tags:
+  - "ICLR2026"
+  - "社会计算"
+  - "大五人格"
+  - "心理结构重建"
+  - "结构放大"
+  - "理想化假说"
+  - "推理可解释性"
+---
+
 # From Five Dimensions to Many: Large Language Models as Precise and Interpretable Psychological Profilers
 
 **会议**: ICLR2026  
-**OpenReview**: [JXFnCpXcnY](https://openreview.net/forum?id=JXFnCpXcnY)  
+**OpenReview**: [https://openreview.net/forum?id=JXFnCpXcnY](https://openreview.net/forum?id=JXFnCpXcnY)  
 **代码**: 待确认  
 **领域**: 社会计算 / 计算社会科学 / LLM 心理模拟  
 **关键词**: 大五人格, 心理结构重建, 结构放大, 理想化假说, 推理可解释性
@@ -124,7 +139,7 @@ flowchart TD
 - [\[ICLR 2026\] Propaganda AI: An Analysis of Semantic Divergence in Large Language Models](propaganda_ai_an_analysis_of_semantic_divergence_in_large_language_models.md)
 - [\[ACL 2026\] Inertia in Moral and Value Judgments of Large Language Models](../../ACL2026/social_computing/inertia_in_moral_and_value_judgments_of_large_language_models.md)
 - [\[ACL 2026\] Understanding the Sociocultural Dimensions of Mental Health Discourse in Arabic-Language X Communities](../../ACL2026/social_computing/understanding_the_sociocultural_dimensions_of_mental_health_discourse_in_arabic-.md)
-- [\[ICML 2026\] Self-Debias: Self-correcting for Debiasing Large Language Models](../../ICML2026/social_computing/self-debias_self-correcting_for_debiasing_large_language_models.md)
+- [\[ICLR 2026\] Measuring and Mitigating Rapport Bias of Large Language Models under Multi-Agent Social Interactions](measuring_and_mitigating_rapport_bias_of_large_language_models_under_multi-agent.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning
+description: >-
+  [ICLR2026][强化学习][脉冲神经网络] 针对脉冲神经网络（SNN）在在线 RL 中因 BN 移动统计量估计不准而训练不稳的问题，本文提出 CaRe-BN：用「置信度自适应更新」（Kalman 式加权）实时低方差地估计 BN 统计量，再用「周期性重校准」（从 replay buffer 重采样大批量）纠偏，使 SNN 智能体在 Atari/MuJoCo 上性能提升最高 22.6%，甚至反超对应 ANN 5.9%，且推理零额外开销。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "脉冲神经网络"
+  - "在线强化学习"
+  - "批归一化"
+  - "移动统计量"
+  - "置信度自适应"
+---
+
 # CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [AaZVrbElhC](https://openreview.net/forum?id=AaZVrbElhC)  
+**OpenReview**: [https://openreview.net/forum?id=AaZVrbElhC](https://openreview.net/forum?id=AaZVrbElhC)  
 **代码**: https://github.com/xuzijie32/CaRe-BN  
 **领域**: 强化学习 / 脉冲神经网络 / 批归一化  
 **关键词**: 脉冲神经网络, 在线强化学习, 批归一化, 移动统计量, 置信度自适应
@@ -119,3 +134,19 @@ CaRe-BN 在 APG 上全面领先所有 SNN-RL 方法和 SNN 专用 BN 变体，�
 - 实验充分度: ⭐⭐⭐⭐ 覆盖离散/连续控制、多神经元、多 RL 算法，消融与机制分析到位；高维像素与硬件实测略缺
 - 写作质量: ⭐⭐⭐⭐⭐ 动机层层递进、理论推导清晰、图表把「统计更准→探索更好」讲得很透
 - 价值: ⭐⭐⭐⭐⭐ 让 SNN 在控制任务上反超 ANN 且推理零开销，对能效敏感的边缘/神经形态部署有实际意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] Learning to Approximate Uniform Facility Location via Graph Neural Networks](../../ICML2026/reinforcement_learning/learning_to_approximate_uniform_facility_location_via_graph_neural_networks.md)
+- [\[ICLR 2026\] BAPO: Stabilizing Off-Policy Reinforcement Learning for LLMs via Balanced Policy Optimization with Adaptive Clipping](bapo_stabilizing_off-policy_reinforcement_learning_for_llms_via_balanced_policy_.md)
+- [\[ICLR 2026\] Neural+Symbolic Approaches for Interpretable Actor-Critic Reinforcement Learning](neuralsymbolic_approaches_for_interpretable_actor-critic_reinforcement_learning.md)
+- [\[ICLR 2026\] Flowing Through States: Neural ODE Regularization for Reinforcement Learning](flowing_through_states_neural_ode_regularization_for_reinforcement_learning.md)
+- [\[ICLR 2026\] From Ticks to Flows: Dynamics of Neural Reinforcement Learning in Continuous Environments](from_ticks_to_flows_dynamics_of_neural_reinforcement_learning_in_continuous_envi.md)
+
+</div>
+
+<!-- RELATED:END -->

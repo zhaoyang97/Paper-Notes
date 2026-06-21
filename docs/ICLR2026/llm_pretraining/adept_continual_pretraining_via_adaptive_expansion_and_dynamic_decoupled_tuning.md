@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ADEPT: Continual Pretraining via Adaptive Expansion and Dynamic Decoupled Tuning
+description: >-
+  [ICLR 2026][预训练][持续预训练] ADEPT 发现 LLM 各层、各参数单元对"通用能力"的贡献是高度不均的，于是只复制那些对通用域最不重要的层来腾出新容量，并在这些扩展层内部按单元重要性分配不对称学习率，从而在数学/医学领域持续预训练中既注入新知识又几乎不损伤通用能力——只调 15% 参数、不到 50% 训练时间，却比全参 CPT 在通用基准上高 5.76%、领域基准上高 5.58%。
+tags:
+  - "ICLR 2026"
+  - "预训练"
+  - "持续预训练"
+  - "灾难性遗忘"
+  - "层扩展"
+  - "功能特化"
+  - "解耦微调"
+---
+
 # ADEPT: Continual Pretraining via Adaptive Expansion and Dynamic Decoupled Tuning
 
 **会议**: ICLR 2026  
-**OpenReview**: [vcWDDfA4Ev](https://openreview.net/forum?id=vcWDDfA4Ev)  
+**OpenReview**: [https://openreview.net/forum?id=vcWDDfA4Ev](https://openreview.net/forum?id=vcWDDfA4Ev)  
 **代码**: https://github.com/PuppyKnightUniversity/ADEPT.git  
 **领域**: LLM 预训练 / 持续预训练 / 领域自适应  
 **关键词**: 持续预训练、灾难性遗忘、层扩展、功能特化、解耦微调
@@ -118,10 +133,10 @@ ADEPT 在所有骨干和领域基准上一致夺最佳：相对全参 CPT，领�
 ## 相关论文
 
 - [\[ACL 2025\] Velocitune: A Velocity-based Dynamic Domain Reweighting Method for Continual Pre-training](../../ACL2025/llm_pretraining/velocitune_a_velocity-based_dynamic_domain_reweighting_method_for_continual_pre-.md)
+- [\[ICLR 2026\] Synthetic Bootstrapped Pretraining](synthetic_bootstrapped_pretraining.md)
+- [\[ACL 2026\] Data Mixing Agent: Learning to Re-weight Domains for Continual Pre-training](../../ACL2026/llm_pretraining/data_mixing_agent_learning_to_re-weight_domains_for_continual_pre-training.md)
+- [\[ICLR 2026\] Reformulation for Pretraining Data Augmentation](reformulation_for_pretraining_data_augmentation.md)
 - [\[ICML 2026\] SPARe: Stacked Parallelism with Adaptive Reordering for Fault-Tolerant LLM Pretraining Systems with 100k+ GPUs](../../ICML2026/llm_pretraining/spare_stacked_parallelism_with_adaptive_reordering_for_fault-tolerant_llm_pretra.md)
-- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](token-level_data_selection_for_safe_llm_fine-tuning.md)
-- [\[ICML 2026\] Scaling Depth Capacity via Zero/One-Layer Model Expansion](../../ICML2026/llm_pretraining/scaling_depth_capacity_via_zeroone-layer_model_expansion.md)
-- [\[ICLR 2026\] Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining](beyond_urls_metadata_diversity_and_position_for_efficient_llm_pretraining.md)
 
 </div>
 

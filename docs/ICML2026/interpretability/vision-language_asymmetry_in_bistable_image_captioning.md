@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Vision-Language Asymmetry in Bistable Image Captioning
+description: >-
+  [ICML 2026][可解释性][多稳态图像] 这篇论文用维特根斯坦"鸭兔图"式的多稳态图像当探针，先用 3320 次生成刻画出 LLaVA 的三种行为 regime，再在它实际消费的 CLIP 层训一个 TopK 稀疏自编码器，发现 72% 的多稳态刺激在视觉端会**同时激活两种解读的特征池**（superposition），但因果 steering 只能翻转"默认主导"类刺激、翻不动"强制平衡"的少女/老妇——证明"承诺看作哪一面"的瓶颈不在视觉塔，而在下游的语言解码器。
+tags:
+  - "ICML 2026"
+  - "可解释性"
+  - "多稳态图像"
+  - "视觉-语言不对称"
+  - "稀疏自编码器"
+  - "因果干预"
+  - "看与看作"
+---
+
 # Vision-Language Asymmetry in Bistable Image Captioning
 
 **会议**: ICML 2026  

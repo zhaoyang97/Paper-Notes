@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Coarse-to-Fine Learning of Dynamic Causal Structures
+description: >-
+  [ICLR2026][因果推理][动态因果结构] 本文提出 **DyCausal**，用滑动卷积窗口先捕捉时间序列在「粗粒度」若干时间步上的因果结构，再用一阶 Taylor 线性插值把因果矩阵细化到每个时间步，并配上一个基于矩阵 1-范数缩放的「永远可微」无环约束 $h_\text{norm}$，从而第一次稳定高效地恢复出**全动态**（瞬时与滞后因果都随时间变化）的时变因果图，在合成与真实数据上全面超过现有方法。
+tags:
+  - "ICLR2026"
+  - "因果推理"
+  - "动态因果结构"
+  - "Granger 因果"
+  - "无环约束"
+  - "线性插值"
+  - "时变图"
+---
+
 # Coarse-to-Fine Learning of Dynamic Causal Structures
 
 **会议**: ICLR2026  
-**OpenReview**: [ooqnLFagKq](https://openreview.net/forum?id=ooqnLFagKq)  
+**OpenReview**: [https://openreview.net/forum?id=ooqnLFagKq](https://openreview.net/forum?id=ooqnLFagKq)  
 **代码**: 待确认  
 **领域**: 因果发现 / 时序因果  
 **关键词**: 动态因果结构、Granger 因果、无环约束、线性插值、时变图
@@ -97,6 +112,7 @@ $$\arg\min_{W,\theta}\ \frac{1}{NTK}\sum_{t=\tau+1}^{T-K}\|Y_{t:t+K}-\hat Y_{t:t
 DyCausal 在三场景 Precision 与 F1 均第一——高 Precision 意味着在没有可验证真值因果图的真实数据上能给出更可信的边。在交通子集上还可视化看到因果在 $t=20$ 处清晰分成两种变化模式（如 $x_4\to x_8$ 在 $t=20$ 前强度几乎为零、之后才出现），证明它能把别的算法当噪声丢掉的真实动态变化捕捉下来。
 
 ### 消融实验
+
 | 配置 | 结论 |
 |------|------|
 | w/o 线性插值（Appendix C.2） | 插值对识别动态因果是**必要**的，去掉无法恢复时变轨迹 |
@@ -130,3 +146,19 @@ DyCausal 在三场景 Precision 与 F1 均第一——高 Precision 意味着在
 - 实验充分度: ⭐⭐⭐⭐ 合成（多节点/长序列/静态-动态）+ 四个真实数据集 + 无环约束专项对比，附录消融详尽；但主文表格偏少、部分关键消融藏在附录
 - 写作质量: ⭐⭐⭐⭐ 动机—障碍—方法逻辑清晰，定理与稳定性分析到位；符号偏密集、并行解码细节需对照图才好懂
 - 价值: ⭐⭐⭐⭐ 全动态因果发现对医疗/交通/金融等时变系统有实用价值，范数缩放无环约束可被广泛复用
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Learning Dynamic Causal Graphs Under Parametric Uncertainty via Polynomial Chaos Expansions](learning_dynamic_causal_graphs_under_parametric_uncertainty_via_polynomial_chaos.md)
+- [\[ACL 2026\] ClimateCause: Complex and Implicit Causal Structures in Climate Reports](../../ACL2026/causal_inference/climatecause_complex_and_implicit_causal_structures_in_climate_reports.md)
+- [\[ICLR 2026\] Modeling Interference for Treatment Effect Estimation in Network Dynamic Environment](modeling_interference_for_treatment_effect_estimation_in_network_dynamic_environ.md)
+- [\[ICLR 2026\] Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning](beyond_dags_a_latent_partial_causal_model_for_multimodal_learning.md)
+- [\[ICLR 2026\] Causal Imitation Learning under Expert-Observable and Expert-Unobservable Confounding](causal_imitation_learning_under_expert-observable_and_expert-unobservable_confou.md)
+
+</div>
+
+<!-- RELATED:END -->

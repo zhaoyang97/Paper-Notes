@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization
+description: >-
+  [ICLR2026][代码智能][软件工程 agent] BOAD 把"为软件工程任务设计一套分层多智能体系统"这件事重新表述成多臂老虎机问题——每个候选子智能体是一根臂、奖励是它在团队协作中的"有用度"（helpfulness），再用 UCB 做探索-利用、用中餐馆过程动态扩档案、用 hindsight 信用分配避免"搭便车"，从而在有限评测预算下自动发现"一个 orchestrator + 两个专精子智能体"的结构；在 SWE-bench-Verified 上 36B 模型拿到 53.2%，在更偏分布外的 SWE-bench-Live 上以 20.0% 一度位列排行榜第二，超过 GPT-4o、Claude 3.7 等更大的模型。
+tags:
+  - "ICLR2026"
+  - "代码智能"
+  - "软件工程 agent"
+  - "多臂老虎机"
+  - "分层多智能体"
+  - "信用分配"
+  - "SWE-bench"
+---
+
 # BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization
 
 **会议**: ICLR2026  
-**OpenReview**: [O6stE173BD](https://openreview.net/forum?id=O6stE173BD)  
+**OpenReview**: [https://openreview.net/forum?id=O6stE173BD](https://openreview.net/forum?id=O6stE173BD)  
 **代码**: https://github.com/iamxjy/BOAD-SWE-Agent  
 **领域**: LLM Agent / 软件工程  
 **关键词**: 软件工程 agent、多臂老虎机、分层多智能体、信用分配、SWE-bench
@@ -155,10 +170,10 @@ token 开销不增反降（Table 2，每题平均）：
 ## 相关论文
 
 - [\[ICLR 2026\] Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering](ambig-swe_interactive_agents_to_overcome_underspecificity_in_software_engineerin.md)
+- [\[ICLR 2026\] SWE-RM: Execution-Free Feedback for Software Engineering Agents](swe-rm_execution-free_feedback_for_software_engineering_agents.md)
+- [\[ICLR 2026\] Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents](process-level_trajectory_evaluation_for_environment_configuration_in_software_en.md)
 - [\[ICML 2025\] Training Software Engineering Agents and Verifiers with SWE-Gym](../../ICML2025/code_intelligence/training_software_engineering_agents_and_verifiers_with_swe-gym.md)
 - [\[ACL 2026\] EET: Experience-Driven Early Termination for Cost-Efficient Software Engineering Agents](../../ACL2026/code_intelligence/eet_experience-driven_early_termination_for_cost-efficient_software_engineering_.md)
-- [\[ACL 2026\] Taming System Complexity: Demystifying Software Engineering Agents in Diagnosing Linux Kernel Faults](../../ACL2026/code_intelligence/taming_system_complexity_demystifying_software_engineering_agents_in_diagnosing_.md)
-- [\[ICML 2026\] MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering](../../ICML2026/code_intelligence/menvagent_scalable_polyglot_environment_construction_for_verifiable_software_eng.md)
 
 </div>
 

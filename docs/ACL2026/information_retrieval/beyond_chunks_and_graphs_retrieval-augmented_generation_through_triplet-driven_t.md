@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Beyond Chunks and Graphs: Retrieval-Augmented Generation through Triplet-Driven Thinking
+description: >-
+  [ACL2026][信息检索/RAG][检索增强生成] T2RAG 把 RAG 的最小检索单元从"文本块/知识图谱节点"换成**原子三元组**：离线把语料抽成一堆三元组命题建索引，在线则让 LLM 把问题分解成带 `?` 占位符的可搜索三元组、迭代地从三元组库里检索证据填空，直到所有占位符解完再生成答案——在六个数据集上平均提升最多 11%，同时检索成本降低最多 45%。
+tags:
+  - "ACL2026"
+  - "信息检索/RAG"
+  - "检索增强生成"
+  - "原子三元组"
+  - "多跳问答"
+  - "迭代检索"
+  - "无图知识库"
+---
+
 # Beyond Chunks and Graphs: Retrieval-Augmented Generation through Triplet-Driven Thinking
 
 **会议**: ACL2026  

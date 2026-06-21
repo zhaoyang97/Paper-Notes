@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] From Prompts to Responses: Dual-Sided Data Leakage and Defense in Split Large Language Models
+description: >-
+  [ICML2026][AI安全][拆分学习] 在「拆分大语言模型（Split-LLM）」里，私有数据其实从模型头和模型尾**两端**都会泄漏；这篇论文一边提出 PIDI 攻击——用双侧初始化 + 分块反演同时高保真地重建出用户的输入提示和模型生成的回复，一边提出 ADMI 防御——用适配器局部预热 + 互信息正则在几乎不掉点的前提下把两端攻击成功率压到接近零。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "拆分学习"
+  - "模型反演攻击"
+  - "隐私保护"
+  - "互信息正则"
+  - "大语言模型"
+---
+
 # From Prompts to Responses: Dual-Sided Data Leakage and Defense in Split Large Language Models
 
 **会议**: ICML2026  

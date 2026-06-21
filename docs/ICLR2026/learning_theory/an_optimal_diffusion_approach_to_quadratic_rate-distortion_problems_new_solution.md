@@ -1,7 +1,26 @@
+---
+title: >-
+  [论文解读] An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods
+description: >-
+  [ICLR2026][学习理论][率失真函数] 本文把连续信源在 MSE 失真下的率失真（RD）函数计算重写成一个"终端熵正则随机控制"问题，证明率-失真的权衡等价于控制能量-终端熵的权衡，并指出在正则条件下最优控制恰是倒向热方程解的 Stein score；由此给出高斯混合等信源的全新闭式解，以及一个不受码率上界限制的扩散神经估计器 R2D2。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "信息论"
+  - "率失真"
+  - "随机控制"
+  - "扩散过程"
+  - "率失真函数"
+  - "熵正则最优传输"
+  - "Schrödinger 桥"
+  - "倒向热方程"
+  - "扩散估计"
+---
+
 # An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods
 
 **会议**: ICLR2026  
-**OpenReview**: [upReXsENIl](https://openreview.net/forum?id=upReXsENIl)  
+**OpenReview**: [https://openreview.net/forum?id=upReXsENIl](https://openreview.net/forum?id=upReXsENIl)  
 **代码**: https://github.com/ML-group-il/r2d2  
 **领域**: 学习理论 / 信息论 / 率失真 / 随机控制 / 扩散过程  
 **关键词**: 率失真函数、熵正则最优传输、Schrödinger 桥、倒向热方程、扩散估计
@@ -126,9 +145,9 @@ $$R_{\mathrm{Gauss}}(D)=\tfrac12\log\frac{\sigma_0^2}{2D},\quad 0<2D<\sigma_0^2$
 
 - [\[ICLR 2026\] A New Approach to Controlling Linear Dynamical Systems](a_new_approach_to_controlling_linear_dynamical_systems.md)
 - [\[ICLR 2026\] Bi-Criteria Metric Distortion](bi-criteria_metric_distortion.md)
-- [\[ICLR 2026\] A Unification of Discrete, Gaussian, and Simplicial Diffusion](a_unification_of_discrete_gaussian_and_simplicial_diffusion.md)
-- [\[ICLR 2026\] Alternating Diffusion for Proximal Sampling with Zeroth Order Queries](alternating_diffusion_for_proximal_sampling_with_zeroth_order_queries.md)
-- [\[ICML 2026\] A Perturbation Approach to Unconstrained Linear Bandits](../../ICML2026/learning_theory/a_perturbation_approach_to_unconstrained_linear_bandits.md)
+- [\[ICLR 2026\] Diffusion Language Models are Provably Optimal Parallel Samplers](diffusion_language_models_are_provably_optimal_parallel_samplers.md)
+- [\[ICLR 2026\] Sharp Asymptotic Theory for Q-Learning with LD2Z Learning Rate and Its Generalization](sharp_asymptotic_theory_for_q-learning_with_textttld2z_learning_rate_and_its_gen.md)
+- [\[ICLR 2026\] Diffusion and Flow-based Copulas: Forgetting and Remembering Dependencies](diffusion_and_flow-based_copulas_forgetting_and_remembering_dependencies.md)
 
 </div>
 

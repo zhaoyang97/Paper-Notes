@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] A Fully First-Order Layer for Differentiable Optimization
+description: >-
+  [ICML2026][优化/理论][可微优化] 可微优化层的主流做法是对 KKT 条件做隐式微分，必须算 Hessian、解大型 KKT 线性系统，难以扩展到大规模问题；本文把可微优化重写成**双层优化**，构造"固定活动集 + 线性化活动约束"的 ghost 代理问题把不等式约束局部化简为等式约束，再用**有限差分**只靠一阶信息在近常数 $\mathcal{O}(\log(1/\epsilon))$ 次调用内估出超梯度，并做成一个与任意凸求解器（含 GUROBI/MOSEK）即插即用的 PyTorch 库 FFOLayer——收敛与精确法相当，但计算时间和峰值显存随问题规模近乎亚线性增长。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "可微优化"
+  - "双层优化"
+  - "一阶方法"
+  - "超梯度"
+  - "求解器无关"
+---
+
 # A Fully First-Order Layer for Differentiable Optimization
 
 **会议**: ICML2026  

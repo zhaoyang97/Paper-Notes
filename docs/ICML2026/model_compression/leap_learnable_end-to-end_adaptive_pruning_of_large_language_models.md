@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] LEAP: Learnable End-to-End Adaptive Pruning of Large Language Models
+description: >-
+  [ICML2026][模型压缩][非结构化稀疏] LEAP 把可学习掩码剪枝里"对每个分组的所有合法稀疏模式打一个 logit"的参数化（MaskLLM/PATCH）换成"对每个权重一个 Gumbel-Sigmoid 伯努利门"，绕开非结构化稀疏下组合爆炸的死结，从而第一次把端到端掩码学习搬到非结构化 LLM 剪枝上，在 0.5B–8B 五个模型、50%/60% 稀疏下平均零样本精度比最强逐层基线 ADMM 高 +2.59 分。
+tags:
+  - "ICML2026"
+  - "模型压缩"
+  - "非结构化稀疏"
+  - "可学习掩码"
+  - "Gumbel-Sigmoid"
+  - "端到端剪枝"
+  - "LLM"
+---
+
 # LEAP: Learnable End-to-End Adaptive Pruning of Large Language Models
 
 **会议**: ICML2026  

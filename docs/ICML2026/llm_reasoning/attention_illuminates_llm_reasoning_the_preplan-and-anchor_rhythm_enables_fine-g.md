@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Attention Illuminates LLM Reasoning: The Preplan-and-Anchor Rhythm Enables Fine-Grained Policy Optimization
+description: >-
+  [ICML2026][Reasoning][RLVR] 作者用注意力动力学给推理过程"显影"——发现模型在生成时存在一个"先铺垫(preplan)、后定锚(anchor)"的两拍节奏，并把刻画这个节奏的两个内部指标(WAAD/FAI)直接转成 RL 里的 token 级优势放大系数，让 GRPO 把信用集中打在真正决定下游推理走向的关键 token 上，在 Countdown、QA 和多个数学推理基准上稳定提点。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "RLVR"
+  - "信用分配"
+  - "注意力分析"
+  - "GRPO"
+  - "token级优势"
+---
+
 # Attention Illuminates LLM Reasoning: The Preplan-and-Anchor Rhythm Enables Fine-Grained Policy Optimization
 
 **会议**: ICML2026  

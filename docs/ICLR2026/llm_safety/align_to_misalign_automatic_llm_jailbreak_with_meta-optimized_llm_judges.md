@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Align to Misalign: Automatic LLM Jailbreak with Meta-Optimized LLM Judges
+description: >-
+  [ICLR2026][LLM安全][越狱攻击] AMIS 把"自动越狱"从"只优化攻击提示"升级为"同时进化攻击提示和评分模板"的双层元优化框架——内层用细粒度连续评分指导提示迭代，外层用一个新提出的"ASR 对齐分数"反过来优化评分模板，让评分越来越贴近真实攻击成败，最终在 Claude-4-Sonnet 上打到 100% ASR，平均超出基线 70 多个百分点。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "越狱攻击"
+  - "元优化"
+  - "LLM评判"
+  - "双层优化"
+  - "评分模板"
+---
+
 # Align to Misalign: Automatic LLM Jailbreak with Meta-Optimized LLM Judges
 
 **会议**: ICLR2026  
-**OpenReview**: [gGjwMNAYAr](https://openreview.net/forum?id=gGjwMNAYAr)  
+**OpenReview**: [https://openreview.net/forum?id=gGjwMNAYAr](https://openreview.net/forum?id=gGjwMNAYAr)  
 **代码**: https://github.com/hamin2065/AMIS  
 **领域**: LLM安全 / 越狱攻击 / 红队测试  
 **关键词**: 越狱攻击, 元优化, LLM评判, 双层优化, 评分模板
@@ -133,10 +148,10 @@ AMIS 在三个目标上打到 100% ASR，相比次优方法平均 ASR +26.0%、S
 ## 相关论文
 
 - [\[ICLR 2026\] Automatic Dialectic Jailbreak: A Framework for Generating Effective Jailbreak Strategies](automatic_dialectic_jailbreak_a_framework_for_generating_effective_jailbreak_str.md)
+- [\[ICLR 2026\] STAR: Strategy-driven Automatic Jailbreak Red-teaming for Large Language Model](star_strategy-driven_automatic_jailbreak_red-teaming_for_large_language_model.md)
 - [\[ICLR 2026\] Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models](auto-rt_automatic_jailbreak_strategy_exploration_for_red-teaming_large_language_.md)
 - [\[ICML 2025\] Align-then-Unlearn: Embedding Alignment for LLM Unlearning](../../ICML2025/llm_safety/align-then-unlearn_embedding_alignment_for_llm_unlearning.md)
-- [\[ICLR 2026\] LLM Unlearning with LLM Beliefs](llm_unlearning_with_llm_beliefs.md)
-- [\[ACL 2026\] LLM-VA: Resolving the Jailbreak-Overrefusal Trade-off via Vector Alignment](../../ACL2026/llm_safety/llm-va_resolving_the_jailbreak-overrefusal_trade-off_via_vector_alignment.md)
+- [\[ICLR 2026\] Dual-Space Smoothness for Robust and Balanced LLM Unlearning](dual-space_smoothness_for_robust_and_balanced_llm_unlearning.md)
 
 </div>
 

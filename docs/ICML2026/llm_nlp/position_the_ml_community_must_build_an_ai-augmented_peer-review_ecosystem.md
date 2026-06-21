@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Position: The ML Community Must Build an AI-Augmented Peer-Review Ecosystem
+description: >-
+  [ICML2026][LLM 其他][同行评审] 这是一篇立场论文，主张机器学习社区应当紧急建设一个"AI 增强"的同行评审生态——把 LLM 当作作者、评审人、领域主席（AC）三类角色的协作助手而非替代者，并指出真正的近期瓶颈不是更强的模型，而是缺少能记录"评分为何改变、哪句 rebuttal 化解了哪条质疑"的结构化过程数据。
+tags:
+  - "ICML2026"
+  - "LLM 其他"
+  - "同行评审"
+  - "LLM 辅助"
+  - "评审生态"
+  - "过程数据"
+  - "立场论文"
+---
+
 # Position: The ML Community Must Build an AI-Augmented Peer-Review Ecosystem
 
 **会议**: ICML2026  

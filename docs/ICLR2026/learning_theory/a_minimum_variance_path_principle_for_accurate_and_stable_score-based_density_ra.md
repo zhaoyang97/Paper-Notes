@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation
+description: >-
+  [ICLR2026][学习理论][评分匹配] 本文指出 score-based 密度比估计在理论上"路径无关"、实践中却"路径敏感"的悖论根源是一个被忽略的项——评分函数的**路径方差**，提出最小方差路径（MVP）原则把它显式写进目标，并用 Kumaraswamy 混合模型把路径参数化为可学习函数，在多个困难基准上做到更准更稳的密度比估计。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "概率方法"
+  - "密度比估计"
+  - "评分匹配"
+  - "路径方差"
+  - "可学习插值路径"
+  - "Kumaraswamy 混合模型"
+---
+
 # A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation
 
 **会议**: ICLR2026  
-**OpenReview**: [vf16PZJWD1](https://openreview.net/forum?id=vf16PZJWD1)  
+**OpenReview**: [https://openreview.net/forum?id=vf16PZJWD1](https://openreview.net/forum?id=vf16PZJWD1)  
 **代码**: 待确认（论文称已开源 "code for MVP"）  
 **领域**: 学习理论 / 概率方法 / 密度比估计  
 **关键词**: 密度比估计, 评分匹配, 路径方差, 可学习插值路径, Kumaraswamy 混合模型
@@ -129,11 +145,11 @@ $$F_\phi(t)=\sum_{k=1}^K w_k\big(1-(1-t^{a_k})^{b_k}\big),\qquad \alpha_\phi(t)=
 
 ## 相关论文
 
-- [\[ICML 2025\] Multiple-Policy Evaluation via Density Estimation](../../ICML2025/learning_theory/multiple-policy_evaluation_via_density_estimation.md)
-- [\[ICLR 2026\] The Price of Robustness: Stable Classifiers Need Overparameterization](the_price_of_robustness_stable_classifiers_need_overparameterization.md)
-- [\[ICML 2026\] On the Robustness of Langevin Dynamics to Score Function Error](../../ICML2026/learning_theory/on_the_robustness_of_langevin_dynamics_to_score_function_error.md)
-- [\[ICLR 2026\] An Improved Model-free Decision-estimation Coefficient with Applications in Adversarial MDPs](an_improved_model-free_decision-estimation_coefficient_with_applications_in_adve.md)
-- [\[ICML 2025\] On Fine-Grained Distinct Element Estimation](../../ICML2025/learning_theory/on_fine-grained_distinct_element_estimation.md)
+- [\[ICLR 2026\] Score-Based Density Estimation from Pairwise Comparisons](score-based_density_estimation_from_pairwise_comparisons.md)
+- [\[ICLR 2026\] Minimax-Optimal Aggregation for Density Ratio Estimation](minimax-optimal_aggregation_for_density_ratio_estimation.md)
+- [\[ICLR 2026\] Convergence Dynamics of Over-Parameterized Score Matching for a Single Gaussian](convergence_dynamics_of_over-parameterized_score_matching_for_a_single_gaussian.md)
+- [\[ICLR 2026\] Variance-Dependent Regret Lower Bounds for Contextual Bandits](variance-dependent_regret_lower_bounds_for_contextual_bandits.md)
+- [\[ICLR 2026\] Stable Coresets: Unleashing the Power of Uniform Sampling](stable_coresets_unleashing_the_power_of_uniform_sampling.md)
 
 </div>
 

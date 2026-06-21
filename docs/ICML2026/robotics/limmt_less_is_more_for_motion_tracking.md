@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] LIMMT: Less is More for Motion Tracking
+description: >-
+  [ICML2026][机器人][人形机器人] 本文从「数据中心」视角研究基于物理仿真的人形机器人运动跟踪，提出三阶段筛选框架 GQS（物理可行性过滤 → 语义运动嵌入 → 复杂度加权子集采样），证明**只用不到 3% 的 AMASS 数据训练，跟踪性能反而超过用全量数据**，且这套筛选可即插即用地迁移到 Any2Track、TWIST2 等多种跟踪器上。
+tags:
+  - "ICML2026"
+  - "机器人"
+  - "人形机器人"
+  - "运动跟踪"
+  - "数据筛选"
+  - "物理可行性"
+  - "Less-is-More"
+---
+
 # LIMMT: Less is More for Motion Tracking
 
 **会议**: ICML2026  

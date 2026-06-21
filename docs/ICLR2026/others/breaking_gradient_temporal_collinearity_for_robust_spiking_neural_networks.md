@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks
+description: >-
+  [ICLR2026][脉冲神经网络] 针对直接编码（direct encoding）脉冲神经网络（SNN）鲁棒性差的问题，本文提出"梯度时间共线性"（GTC）这一可量化指标解释了它为什么不如速率编码（rate encoding）耐攻击，并设计 STOD——在输入层为每个时间步插入参数化正交核 + 全局正交正则，从结构上打散跨时间步的梯度方向，使 CIFAR/ImageNet/DVS 上 FGSM、PGD 等攻击下的精度大幅领先现有 SOTA，且推理几乎零额外开销。
+tags:
+  - "ICLR2026"
+  - "脉冲神经网络"
+  - "直接编码"
+  - "对抗鲁棒性"
+  - "梯度时间共线性"
+  - "正交核"
+---
+
 # Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks
 
 **会议**: ICLR2026  
-**OpenReview**: [udTDFAshNM](https://openreview.net/forum?id=udTDFAshNM)  
+**OpenReview**: [https://openreview.net/forum?id=udTDFAshNM](https://openreview.net/forum?id=udTDFAshNM)  
 **代码**: https://github.com/Apple26419/SNN_STOD  
 **领域**: 脉冲神经网络 / 对抗鲁棒性  
 **关键词**: 脉冲神经网络, 直接编码, 对抗鲁棒性, 梯度时间共线性, 正交核
@@ -88,6 +102,7 @@ $$L_O=\sum_{1\le i<j\le T}\cos^2(\hat X'[i],\hat X'[j]),$$
 baseline 往往"按下葫芦浮起瓢"：HoSNN 在 CIFAR-10 FGSM 上 54.76% 不错，但 PGD 暴跌到 15.32%；FEEL 在 PGD 上 28.35% 强，FGSM 却只有 44.96%。STOD 在两种攻击下都全面领先且更均衡。代价是 clean 精度略低（如 CIFAR-10 91.43% vs baseline ~93%），因为去相关替换了部分纯净输入，但下降很小、鲁棒收益远大于此。DVS 数据集上同样超过 SOTA 的 SR 方法。
 
 ### 消融实验
+
 | 配置 | CIFAR-10 FGSM/PGD | 说明 |
 |------|-------------------|------|
 | STOD w.o. OK（去核） | 55.80 / 32.97 | 鲁棒性已焊进权重，零额外开销即超 SOTA |
@@ -129,11 +144,11 @@ baseline 往往"按下葫芦浮起瓢"：HoSNN 在 CIFAR-10 FGSM 上 54.76% 不�
 
 ## 相关论文
 
+- [\[ICLR 2026\] A Brain-Inspired Gating Mechanism Unlocks Robust Computation in Spiking Neural Networks](a_brain-inspired_gating_mechanism_unlocks_robust_computation_in_spiking_neural_n.md)
 - [\[ICLR 2026\] Beyond Linear Processing: Dendritic Bilinear Integration in Spiking Neural Networks](beyond_linear_processing_dendritic_bilinear_integration_in_spiking_neural_networ.md)
-- [\[ICLR 2026\] Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation](advancing_spatiotemporal_representations_in_spiking_neural_networks_via_parametr.md)
-- [\[ICLR 2026\] Training Deep Normalization-Free Spiking Neural Networks with Lateral Inhibition](training_deep_normalization-free_spiking_neural_networks_with_lateral_inhibition.md)
+- [\[ICLR 2026\] Online Pseudo-Zeroth-Order Training of Neuromorphic Spiking Neural Networks](online_pseudo-zeroth-order_training_of_neuromorphic_spiking_neural_networks.md)
 - [\[AAAI 2026\] DS-ATGO: Dual-Stage Synergistic Learning via Forward Adaptive Threshold and Backward Gradient Optimization for Spiking Neural Networks](../../AAAI2026/others/ds-atgo_dual-stage_synergistic_learning_via_forward_adaptive_threshold_and_backw.md)
-- [\[ICML 2026\] Bullet Trains: Parallelizing Training of Temporally Precise Spiking Neural Networks](../../ICML2026/others/bullet_trains_parallelizing_training_of_temporally_precise_spiking_neural_networ.md)
+- [\[ICLR 2026\] Fractional-Order Spiking Neural Network](fractional-order_spiking_neural_network.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Measurement Plasticity: Sensor-Level Adaptation for Vision–Language Models
+description: >-
+  [ICML2026][多模态VLM][视觉语言模型] 这篇论文把视觉语言模型（VLM）的测试时自适应（TTA）从"调模型/调 token"搬到了"调相机/调光子"——把相机的曝光三角（ISO、快门、光圈）当作可控的"物理提示"，在拍摄阶段就用源域亲和度选出多个物理视图、再经熵过滤和硬投票聚合，无需任何梯度或改模型，就在传感器级分布偏移下显著超过只在数字域做适应的 TTA 方法。
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "测试时自适应"
+  - "物理提示"
+  - "曝光三角"
+  - "源域亲和度"
+---
+
 # Measurement Plasticity: Sensor-Level Adaptation for Vision–Language Models
 
 **会议**: ICML2026  

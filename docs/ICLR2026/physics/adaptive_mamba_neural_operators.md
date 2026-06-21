@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Mamba Neural Operators
+description: >-
+  [ICLR2026][物理/科学计算][神经算子] AMO 把 Mamba/SSM 的传递函数显式参数化成 Takenaka-Malmquist（TM）系统在再生核 Hilbert 空间里的正交核，让整个网络等价于一次"自适应傅里叶分解"（AFD），从而在规则网格、点云、不规则域和带奇异性的金融 PDE 上都把相对 L2 误差平均压低约 28%。
+tags:
+  - "ICLR2026"
+  - "物理/科学计算"
+  - "神经算子"
+  - "偏微分方程"
+  - "状态空间模型"
+  - "自适应傅里叶分解"
+  - "频域可解释性"
+---
+
 # Adaptive Mamba Neural Operators
 
 **会议**: ICLR2026  
-**OpenReview**: [OenyzvFZPs](https://openreview.net/forum?id=OenyzvFZPs)  
+**OpenReview**: [https://openreview.net/forum?id=OenyzvFZPs](https://openreview.net/forum?id=OenyzvFZPs)  
 **代码**: https://github.com/checlams/AMO  
 **领域**: applications to physical sciences (physics, chemistry, biology, etc.)  
 **关键词**: 神经算子, 偏微分方程, 状态空间模型, 自适应傅里叶分解, 频域可解释性
@@ -128,10 +143,10 @@ $$\hat z_{i+1}[0] = (h_i * z_i)[0] = \sum_{n=0}^{M-1} z_i[n]\,B_i(e^{i2\pi n/M};
 
 ## 相关论文
 
+- [\[ICLR 2026\] CFO: Learning Continuous-Time PDE Dynamics via Flow-Matched Neural Operators](cfo_learning_continuous-time_pde_dynamics_via_flow-matched_neural_operators.md)
 - [\[ICML 2026\] ANTIC: Adaptive Neural Temporal In-situ Compressor](../../ICML2026/physics/antic_adaptive_neural_temporal_in-situ_compressor.md)
-- [\[ICML 2026\] Generative Neural Operators Through Diffusion Last Layer](../../ICML2026/physics/generative_neural_operators_through_diffusion_last_layer.md)
-- [\[NeurIPS 2025\] Towards Universal Neural Operators through Multiphysics Pretraining](../../NeurIPS2025/physics/towards_universal_neural_operators_through_multiphysics_pretraining.md)
-- [\[CVPR 2025\] Accurate Differential Operators for Hybrid Neural Fields](../../CVPR2025/physics/accurate_differential_operators_for_hybrid_neural_fields.md)
+- [\[ICLR 2026\] Learning Data-Efficient and Generalizable Neural Operators via Fundamental Physics Knowledge](learning_data-efficient_and_generalizable_neural_operators_via_fundamental_physi.md)
+- [\[ICLR 2026\] From Cheap Geometry to Expensive Physics: A Physics-agnostic Pretraining Framework for Neural Operators](from_cheap_geometry_to_expensive_physics_a_physics-agnostic_pretraining_framewor.md)
 - [\[ICML 2026\] EqGINO: Equivariant Geometry-Informed Fourier Neural Operators for 3D PDEs](../../ICML2026/physics/eqgino_equivariant_geometry-informed_fourier_neural_operators_for_3d_pdes.md)
 
 </div>

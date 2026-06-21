@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] A Unification of Discrete, Gaussian, and Simplicial Diffusion
+description: >-
+  [ICLR2026][扩散模型][离散扩散] 这篇论文证明了离散扩散、高斯扩散、单纯形扩散这三套看似互不相干的离散序列生成方法，其实都是群体遗传学里 **Wright-Fisher 模型** 的不同参数化极限，用这套统一理论既稳住了一直数值发散的单纯形扩散（在条件 DNA 生成上刷到 SOTA），又让单个网络在测试时能任意切换三种扩散域。
+tags:
+  - "ICLR2026"
+  - "扩散模型"
+  - "生成模型理论"
+  - "离散扩散"
+  - "高斯扩散"
+  - "单纯形扩散"
+  - "Wright-Fisher 模型"
+  - "序列生成"
+---
+
 # A Unification of Discrete, Gaussian, and Simplicial Diffusion
 
 **会议**: ICLR2026  
-**OpenReview**: [1taAXRcm21](https://openreview.net/forum?id=1taAXRcm21)  
+**OpenReview**: [https://openreview.net/forum?id=1taAXRcm21](https://openreview.net/forum?id=1taAXRcm21)  
 **代码**: https://github.com/yucenli/unify-diffusion （有）  
 **领域**: 扩散模型 / 生成模型理论  
 **关键词**: 离散扩散, 高斯扩散, 单纯形扩散, Wright-Fisher 模型, 序列生成
@@ -120,11 +136,11 @@ Fig. 5 显示本文模型生成的条件样本可及性 profile 与目标更吻�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Information Estimation with Discrete Diffusion](information_estimation_with_discrete_diffusion.md)
+- [\[ICLR 2026\] Diffusion Bridge Variational Inference for Deep Gaussian Processes](diffusion_bridge_variational_inference_for_deep_gaussian_processes.md)
+- [\[ICLR 2026\] Quotient-Space Diffusion Models](quotient-space_diffusion_models.md)
+- [\[ICLR 2026\] Characterizing the Discrete Geometry of ReLU Networks](characterizing_the_discrete_geometry_of_relu_networks.md)
 - [\[ICLR 2026\] Transformers as Unsupervised Learning Algorithms: A study on Gaussian Mixtures](transformers_as_unsupervised_learning_algorithms_a_study_on_gaussian_mixtures.md)
-- [\[ICLR 2026\] Alternating Diffusion for Proximal Sampling with Zeroth Order Queries](alternating_diffusion_for_proximal_sampling_with_zeroth_order_queries.md)
-- [\[ICLR 2026\] A Sharp KL Convergence Analysis for Diffusion Models under Minimal Assumptions](a_sharp_kl_convergence_analysis_for_diffusion_models_under_minimal_assumptions.md)
-- [\[ICLR 2026\] An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods](an_optimal_diffusion_approach_to_quadratic_rate-distortion_problems_new_solution.md)
-- [\[AAAI 2026\] Streaming Generated Gaussian Process Experts for Online Learning and Control: Extended Version](../../AAAI2026/learning_theory/streaming_generated_gaussian_process_experts_for_online_learning_and_control_ext.md)
 
 </div>
 

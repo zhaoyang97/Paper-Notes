@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning
+description: >-
+  [ICML 2026][LLM效率][持续学习] SABER 在 prompt-based 持续学习里第一次实现了"无回放的正向反向迁移"——用梯度几何 + 损失分布两套相关性判据决定"该不该回头改旧任务的 prompt"，再把更新约束到不干扰旧任务的正交子空间里去"安全地改"，让后学的任务真正反过来提升先学任务的精度。
+tags:
+  - "ICML 2026"
+  - "LLM效率"
+  - "持续学习"
+  - "提示微调"
+  - "反向知识迁移"
+  - "梯度子空间"
+  - "无回放"
+---
+
 # Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning
 
 **会议**: ICML 2026  

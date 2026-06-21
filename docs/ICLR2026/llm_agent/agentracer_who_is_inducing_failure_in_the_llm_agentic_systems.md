@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?
+description: >-
+  [ICLR2026][LLM Agent][失败归因] AgenTracer 用"反事实回放 + 程序化故障注入"自动标注多智能体失败轨迹、造出 TracerTraj-2.5K 数据集，再用多粒度强化学习训出一个 8B 的轻量"失败追踪器"，在 Who&When 基准上把决定性错误定位到具体智能体和步骤，agent 级准确率反超 Gemini-2.5-Pro、Claude-4-Sonnet 等巨型模型最多 18.18%，并能给 MetaGPT、MaAS 等现成系统反馈、带来 4.8~14.2% 的性能提升。
+tags:
+  - "ICLR2026"
+  - "LLM Agent"
+  - "失败归因"
+  - "多智能体系统"
+  - "反事实回放"
+  - "故障注入"
+  - "强化学习"
+---
+
 # AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?
 
 **会议**: ICLR2026  
-**OpenReview**: [l05DseqvuD](https://openreview.net/forum?id=l05DseqvuD)  
+**OpenReview**: [https://openreview.net/forum?id=l05DseqvuD](https://openreview.net/forum?id=l05DseqvuD)  
 **代码**: https://github.com/bingreeky/AgenTracer  
 **领域**: LLM Agent / 多智能体系统 / 失败归因  
 **关键词**: 失败归因, 多智能体系统, 反事实回放, 故障注入, 强化学习
@@ -144,11 +159,11 @@ $$\mathcal{L}_{\text{RL}} = -\mathbb{E}_{\tau,\{\hat{p}_k\}}\!\left[\frac{1}{G}\
 
 ## 相关论文
 
+- [\[ICLR 2026\] EvoTest: Evolutionary Test-Time Learning for Self-Improving Agentic Systems](evotest_evolutionary_test-time_learning_for_self-improving_agentic_systems.md)
 - [\[ICML 2026\] AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction](../../ICML2026/llm_agent/agentxray_white-boxing_agentic_systems_via_workflow_reconstruction.md)
 - [\[ACL 2026\] FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments](../../ACL2026/llm_agent/fama_failure-aware_meta-agentic_framework_for_open-source_llms_in_interactive_to.md)
+- [\[ICLR 2026\] Helmsman: Autonomous Synthesis of Federated Learning Systems via Collaborative LLM Agents](helmsman_autonomous_synthesis_of_federated_learning_systems_via_collaborative_ll.md)
 - [\[ICML 2026\] ReflexGrad: Within-Episode Failure Recovery in LLM Agents via Progress-Gated Dual-Process Routing](../../ICML2026/llm_agent/reflexgrad_within-episode_failure_recovery_in_llm_agents_via_progress-gated_dual.md)
-- [\[ACL 2026\] Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems](../../ACL2026/llm_agent/rethinking_reasoning-intensive_retrieval_evaluating_and_advancing_retrievers_in_.md)
-- [\[AAAI 2026\] With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems](../../AAAI2026/llm_agent/with_great_capabilities_come_great_responsibilities_introducing_the_agentic_risk.md)
 
 </div>
 

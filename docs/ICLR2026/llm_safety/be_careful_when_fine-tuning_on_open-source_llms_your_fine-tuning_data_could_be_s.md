@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!
+description: >-
+  [ICLR2026][LLM安全][后门攻击] 本文揭示了"开源 LLM + 私有数据微调"这一标准范式下的一个新风险：开源模型的发布者可以在模型释放前植入一个后门，等下游开发者在私有数据上微调并部署后，仅凭**黑盒访问**就能用一句后门指令把下游私有微调 query 大段大段地"逐字偷出来"——实测在现实设置下能完美还原 5000 条样本中 76.3% 的 query，理想设置下高达 94.9%，而且现有几种防御都拦不住。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "后门攻击"
+  - "微调数据窃取"
+  - "黑盒提取"
+  - "开源 LLM"
+  - "隐私泄露"
+---
+
 # Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!
 
 **会议**: ICLR2026  
-**OpenReview**: [HhXOVhO3ia](https://openreview.net/forum?id=HhXOVhO3ia)  
+**OpenReview**: [https://openreview.net/forum?id=HhXOVhO3ia](https://openreview.net/forum?id=HhXOVhO3ia)  
 **代码**: https://github.com/thu-coai/Backdoor-Data-Extraction  
 **领域**: LLM 安全 / 后门攻击 / 训练数据提取  
 **关键词**: 后门攻击, 微调数据窃取, 黑盒提取, 开源 LLM, 隐私泄露
@@ -128,11 +143,11 @@ $$\text{score}(\hat{w}) = \alpha\,\frac{N-\sum_{i=1}^{N}\mathbb{I}\{r_i=R(\hat{w
 
 ## 相关论文
 
+- [\[ICLR 2026\] Rethinking Bottlenecks in Safety Fine-Tuning of Vision Language Models](rethinking_bottlenecks_in_safety_fine-tuning_of_vision_language_models.md)
 - [\[ICLR 2026\] Heterogeneous Federated Fine-Tuning with Parallel One-Rank Adaptation](heterogeneous_federated_fine-tuning_with_parallel_one-rank_adaptation.md)
 - [\[ICML 2025\] TuCo: Measuring the Contribution of Fine-Tuning to Individual Responses of LLMs](../../ICML2025/llm_safety/tuco_measuring_the_contribution_of_fine-tuning_to_individual_responses_of_llms.md)
 - [\[ACL 2025\] Towards Context-Robust LLMs: A Gated Representation Fine-tuning Approach](../../ACL2025/llm_safety/towards_context-robust_llms_a_gated_representation_fine-tuning_approach.md)
-- [\[ACL 2025\] From Misleading Queries to Accurate Answers: A Three-Stage Fine-Tuning Method for LLMs](../../ACL2025/llm_safety/from_misleading_queries_to_accurate_answers_a_three-stage_fine-tuning_method_for.md)
-- [\[AAAI 2026\] FedALT: Federated Fine-Tuning through Adaptive Local Training with Rest-of-World LoRA](../../AAAI2026/llm_safety/fedalt_federated_fine-tuning_through_adaptive_local_training_with_rest-of-world_.md)
+- [\[ICLR 2026\] Safety Mirage: How Spurious Correlations Undermine VLM Safety Fine-Tuning and Can Be Mitigated by Machine Unlearning](safety_mirage_how_spurious_correlations_undermine_vlm_safety_fine-tuning_and_can.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Swift-SVD: Theoretical Optimality Meets Practical Efficiency in Low-Rank LLM Compression
+description: >-
+  [ICML 2026][模型压缩][SVD 压缩] 针对「现有 SVD 低秩压缩要么重构误差次优、要么虽最优但要 Cholesky + 多次 SVD 导致慢且数值不稳」的两难，本文证明了一个闭式谱解定理——对 $Y=XW$ 做一次特征分解即得最优激活感知压缩——并配上增量协方差聚合和「层重要性 ↔ 局部可压缩性负相关」驱动的动态秩分配，在 6 个 LLM、8 个数据集上达到最优压缩精度的同时把端到端压缩耗时加速 3–70×。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "SVD 压缩"
+  - "激活感知"
+  - "闭式谱解"
+  - "KV cache"
+  - "动态秩分配"
+---
+
 # Swift-SVD: Theoretical Optimality Meets Practical Efficiency in Low-Rank LLM Compression
 
 **会议**: ICML 2026  

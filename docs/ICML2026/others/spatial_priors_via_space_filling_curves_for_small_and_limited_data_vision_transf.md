@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Spatial Priors via Space Filling Curves for Small and Limited Data Vision Transformers
+description: >-
+  [ICML2026][Transformer] 针对 ViT 因注意力排列等变而缺乏空间先验、在小模型与小数据场景下吃亏的问题，本文用空间填充曲线（Snake/Zig-zag/Peano/Hilbert 等）构造一组衰减掩码并平均后乘进注意力矩阵，仅增加不到 0.0015% 参数、约 0.64% FLOPs，就在 VTAB-1K 微调上把空间敏感任务最高提升 8.7%。
+tags:
+  - "ICML2026"
+  - "Transformer"
+  - "空间填充曲线"
+  - "衰减掩码"
+  - "小数据"
+  - "归纳偏置"
+---
+
 # Spatial Priors via Space Filling Curves for Small and Limited Data Vision Transformers
 
 **会议**: ICML2026  

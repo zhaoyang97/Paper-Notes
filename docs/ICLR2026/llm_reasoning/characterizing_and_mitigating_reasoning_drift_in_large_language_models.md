@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Characterizing and Mitigating Reasoning Drift in Large Language Models
+description: >-
+  [ICLR2026][Reasoning][推理漂移] 本文先用数千条数学推理轨迹诊断出大语言模型一种被称为"推理漂移"的失败模式——模型在早期高可塑阶段一旦发生病态的功能状态转移就会被锁死在错误链路上，再据此提出 Reasoning-Aware Activation Steering（RAAS），用一组从对比样本预算好的转向向量在推理时实时把激活轻推回健康路径，在 GSM8K / AIME / GPQA 上稳定提升准确率且能迁移到分布外任务。
+tags:
+  - "ICLR2026"
+  - "Reasoning"
+  - "推理漂移"
+  - "激活转向"
+  - "思维链可靠性"
+  - "功能状态转移"
+  - "推理时干预"
+---
+
 # Characterizing and Mitigating Reasoning Drift in Large Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [OphrMOQCCY](https://openreview.net/forum?id=OphrMOQCCY)  
+**OpenReview**: [https://openreview.net/forum?id=OphrMOQCCY](https://openreview.net/forum?id=OphrMOQCCY)  
 **代码**: 待确认  
 **领域**: LLM推理  
 **关键词**: 推理漂移、激活转向、思维链可靠性、功能状态转移、推理时干预
@@ -91,6 +106,7 @@ RAAS 本身无需训练或微调主模型——转向向量库与功能原型都
 提升在 AIME2024 / AIME2025 这类需要复杂多步演绎的难题上尤其显著（Llama 上 AIME2024 从 34.99 → 55.56）。由于评测集是 OOD，作者据此论证细粒度功能向量没有过拟合源分布，而是捕捉到了可泛化的逻辑推理原则。CAAum 是只取 Uncertainty Management 单一向量的对照，已能涨不少，但全库自适应更强。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | Ours（精确 $i\to j$ 映射） | 最高 | 完整方法 |
@@ -125,3 +141,19 @@ RAAS 本身无需训练或微调主模型——转向向量库与功能原型都
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 4 个基准 + 机理验证 + 随机消融 + 跨模型迁移，较扎实；但功能体系局限数学域、晚期漂移仍弱
 - 写作质量: ⭐⭐⭐⭐⭐ 从现象到诊断到方法层层递进，热图与公式配合清晰，逻辑链条完整
 - 价值: ⭐⭐⭐⭐ 提供一套低成本、可解释、可迁移的推理时纠偏范式，对提升 reasoning model 可靠性有实用价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] DRIFT: Decompose, Retrieve, Illustrate, then Formalize Theorems](drift_decompose_retrieve_illustrate_then_formalize_theorems.md)
+- [\[AAAI 2026\] Answering the Unanswerable Is to Err Knowingly: Analyzing and Mitigating Abstention Failures in Large Reasoning Models](../../AAAI2026/llm_reasoning/answering_the_unanswerable_is_to_err_knowingly_analyzing_and.md)
+- [\[ICLR 2026\] On the Thinking-Language Modeling Gap in Large Language Models](on_the_thinking-language_modeling_gap_in_large_language_models.md)
+- [\[ICLR 2026\] StreamingThinker: Large Language Models Can Think While Reading](streamingthinker_large_language_models_can_think_while_reading.md)
+- [\[ICLR 2026\] Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](vision-r1_incentivizing_reasoning_capability_in_multimodal_large_language_models.md)
+
+</div>
+
+<!-- RELATED:END -->

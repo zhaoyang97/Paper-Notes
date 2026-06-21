@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping
+description: >-
+  [ICLR2026][VLM Reasoning][自适应推理] ARES 用"窗口熵"作为探索触发器、用难度感知的层级熵奖励控制探索深度，让多模态大推理模型在简单题上少想、难题上多想，从而在数学/逻辑/多模态基准上同时提升准确率和推理效率。 领域现状：多模态大推理模型（MLRM）通过长链思维（long CoT）+ 反思…
+tags:
+  - "ICLR2026"
+  - "VLM Reasoning"
+  - "自适应推理"
+  - "窗口熵"
+  - "难度感知"
+  - "熵奖励塑形"
+  - "强化学习"
+---
+
 # ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping
 
 **会议**: ICLR2026  
-**OpenReview**: [2g945Ngc7l](https://openreview.net/forum?id=2g945Ngc7l)  
+**OpenReview**: [https://openreview.net/forum?id=2g945Ngc7l](https://openreview.net/forum?id=2g945Ngc7l)  
 **代码**: https://github.com/shawn0728/ARES  
 **领域**: 多模态VLM / LLM推理  
 **关键词**: 自适应推理, 窗口熵, 难度感知, 熵奖励塑形, 强化学习
@@ -138,10 +153,10 @@ $$\beta_{i,t} = \beta_d \cdot \rho_t,\qquad \rho_t = \begin{cases}\rho\ (<1), & 
 ## 相关论文
 
 - [\[ICLR 2026\] DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage](diva-grpo_enhancing_multimodal_reasoning_through_difficulty-adaptive_variant_adv.md)
-- [\[CVPR 2026\] ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning](../../CVPR2026/vlm_reasoning/ants_adaptive_negative_textual_space_shaping_for_ood_detection_via_test-time_mll.md)
+- [\[ICLR 2026\] What "Not" to Detect: Negation-Aware VLMs via Structured Reasoning and Token Merging](what_not_to_detect_negation-aware_vlms_via_structured_reasoning_and_token_mergin.md)
+- [\[ICLR 2026\] Mixture-of-Visual-Thoughts: Exploring Context-Adaptive Reasoning Mode Selection for General Visual Reasoning](mixture-of-visual-thoughts_exploring_context-adaptive_reasoning_mode_selection_f.md)
 - [\[CVPR 2026\] See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning](../../CVPR2026/vlm_reasoning/see_less_see_right_bi-directional_perceptual_shaping_for_multimodal_reasoning.md)
-- [\[ICLR 2026\] VLM-SubtleBench: How Far Are VLMs from Human-Level Subtle Comparative Reasoning?](vlm-subtlebench_how_far_are_vlms_from_human-level_subtle_comparative_reasoning.md)
-- [\[CVPR 2026\] ReaGEN: Adaptive Generation of Structured Chains-of-Thought for Efficient Multimodal Reasoning](../../CVPR2026/vlm_reasoning/reagen_adaptive_generation_of_structured_chains-of-thought_for_efficient_multimo.md)
+- [\[ICLR 2026\] Perception-Aware Policy Optimization for Multimodal Reasoning](perception-aware_policy_optimization_for_multimodal_reasoning.md)
 
 </div>
 

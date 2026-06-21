@@ -16,7 +16,7 @@ tags:
 # Beyond English-Centric Training: How Reinforcement Learning Improves Cross-Lingual Reasoning in LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [hdrG6SaTcA](https://openreview.net/forum?id=hdrG6SaTcA)  
+**OpenReview**: [https://openreview.net/forum?id=hdrG6SaTcA](https://openreview.net/forum?id=hdrG6SaTcA)  
 **代码**: 待确认  
 **领域**: LLM推理 / 跨语言泛化 / 强化学习  
 **关键词**: 跨语言推理, RL vs SFT, GRPO, 多语言泛化, 语言不一致性
@@ -132,11 +132,11 @@ MGSM 上 Qwen2.5-3B-Base 的对照（Avg=10 语言平均准确率，Gen=泛化�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning](curriculum_reinforcement_learning_from_easy_to_hard_tasks_improves_llm_reasoning.md)
+- [\[ICLR 2026\] Emergent Hierarchical Reasoning in LLMs through Reinforcement Learning](emergent_hierarchical_reasoning_in_llms_through_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Beyond Accuracy: Dissecting Mathematical Reasoning for LLMs Under Reinforcement Learning](../../NeurIPS2025/llm_reasoning/beyond_accuracy_dissecting_mathematical_reasoning_for_llms_u.md)
-- [\[ICLR 2026\] Native Reasoning Models: Training Language Models to Reason on Unverifiable Data](native_reasoning_models_training_language_models_to_reason_on_unverifiable_data.md)
-- [\[ICLR 2026\] Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)
-- [\[ICLR 2026\] Temperature as a Meta-Policy: Adaptive Temperature in LLM Reinforcement Learning](temperature_as_a_meta-policy_adaptive_temperature_in_llm_reinforcement_learning.md)
-- [\[CVPR 2026\] Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs](../../CVPR2026/llm_reasoning/scaling_agentic_reinforcement_learning_for_tool-integrated_reasoning_in_vlms.md)
+- [\[ICLR 2026\] NFT: Bridging Supervised Learning and Reinforcement Learning in Math Reasoning](nft_bridging_supervised_learning_and_reinforcement_learning_in_math_reasoning.md)
+- [\[ICLR 2026\] Learning to Reason over Continuous Tokens with Reinforcement Learning (HyRea)](learning_to_reason_over_continuous_tokens_with_reinforcement_learning.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AdaJudge: Adaptive Multi-Perspective Judging for Reward Modeling
+description: >-
+  [ACL 2026][LLM对齐][奖励模型] 针对奖励模型普遍用「固定池化（如 last-token）把整条序列压成一个标量」带来的两个结构性缺陷——固定的空间归纳偏置与生成式 backbone 表示不适配判别——AdaJudge 先用门控精炼块把 backbone 表示重塑到判别空间，再用「域感知门控的多视角池化」按 prompt 动态融合 last-token / mean / attention 三种池化证据，在 RM-Bench 和 JudgeBench 上让 4B/8B 模型超过 27B 的 off-the-shelf 强奖励模型。
+tags:
+  - "ACL 2026"
+  - "LLM对齐"
+  - "奖励模型"
+  - "自适应池化"
+  - "Mixture-of-Pooling"
+  - "表示精炼"
+  - "偏好学习"
+---
+
 # AdaJudge: Adaptive Multi-Perspective Judging for Reward Modeling
 
 **会议**: ACL 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation
+description: >-
+  [ACL 2026][LLM评测][人工评估] 作者把研究镜头对准 NLP 社区自己：用一套 20 条「可报告标准」的 codebook，对 2023–2025 年 *CL 会议 9100+ 篇论文做大规模审查（284 篇全人工标注 + 1800+ 篇 LLM 辅助标注），证明被奉为「黄金标准」的人工评估其实普遍报告缺失——超半数论文只报告了 20 条里的 ≤7 条，统计显著性几乎没人报、power analysis 零人用，黄金标准更像是一种「错觉」。
+tags:
+  - "ACL 2026"
+  - "LLM评测"
+  - "人工评估"
+  - "可复现性"
+  - "报告规范"
+  - "长文本生成"
+  - "LLM-as-judge"
+---
+
 # Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation
 
 **会议**: ACL 2026  

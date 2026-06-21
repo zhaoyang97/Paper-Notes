@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] ATLAS: Constraints-Aware Multi-Agent Collaboration for Real-World Travel Planning
+description: >-
+  [ICLR2026][多智能体][约束满足] ATLAS 把"带搜索的真实旅行规划"形式化成一个动态约束满足问题（CSP），用 5 个分工明确的 LLM 智能体（搜索、约束管理、规划、检查、搜索顾问）协同补全约束、迭代纠错、并在卡死时反过来指导搜索，把 TravelPlanner 最终通过率从 23.3% 提到 44.4%，并首次在带实时网络搜索的真实多轮场景里做到 84% 通过率。
+tags:
+  - "ICLR2026"
+  - "多智能体"
+  - "约束满足"
+  - "旅行规划"
+  - "交错搜索"
+  - "多轮交互"
+---
+
 # ATLAS: Constraints-Aware Multi-Agent Collaboration for Real-World Travel Planning
 
 **会议**: ICLR2026  
-**OpenReview**: [mIYGiBf9Pm](https://openreview.net/forum?id=mIYGiBf9Pm)  
+**OpenReview**: [https://openreview.net/forum?id=mIYGiBf9Pm](https://openreview.net/forum?id=mIYGiBf9Pm)  
 **代码**: 待确认  
 **领域**: Agent / 多智能体协作 / LLM 规划  
 **关键词**: 多智能体, 约束满足, 旅行规划, 交错搜索, 多轮交互
@@ -137,7 +151,7 @@ ATLAS 在所有指标上一致最优，验证集最终通过率把最好替代�
 - [\[ACL 2026\] Towards Robust Real-World Spreadsheet Understanding with Multi-Agent Multi-Format Collaboration](../../ACL2026/multi_agent/towards_robust_real-world_spreadsheet_understanding_with_multi-agent_multi-forma.md)
 - [\[ICLR 2026\] UIS-Digger: Towards Comprehensive Research Agent Systems for Real-world Unindexed Information Seeking](uis-digger_towards_comprehensive_research_agent_systems_for_real-world_unindexed.md)
 - [\[ICLR 2026\] AgentPO: Enhancing Multi-Agent Collaboration via Reinforcement Learning](agentpo_enhancing_multi-agent_collaboration_via_reinforcement_learning.md)
-- [\[AAAI 2026\] BAMAS: Structuring Budget-Aware Multi-Agent Systems](../../AAAI2026/multi_agent/bamas_structuring_budget-aware_multi-agent_systems.md)
+- [\[ICLR 2026\] Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters](strategic_planning_and_rationalizing_on_trees_make_llms_better_debaters.md)
 
 </div>
 

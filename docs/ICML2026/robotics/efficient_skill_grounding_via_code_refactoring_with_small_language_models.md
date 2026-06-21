@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Efficient Skill Grounding via Code Refactoring with Small Language Models
+description: >-
+  [ICML2026][机器人][技能落地] RECENT 让机器人换一具身体（不同臂、不同夹爪）或换一个动态环境时，不再用大模型从零重写技能代码，而是把技能写成"语义意图与执行绑定分离"的可执行代码，再用一个 7B 小模型只对执行绑定那几行做局部重构（FIM 填空）——部署前用本体推理修身体差异、运行中用 in-situ 补丁修环境差异，从而在端侧用小模型就拿到接近 GPT-5.2-Codex 的成功率。
+tags:
+  - "ICML2026"
+  - "机器人"
+  - "技能落地"
+  - "代码重构"
+  - "小语言模型"
+  - "具身控制"
+  - "本体推理"
+---
+
 # Efficient Skill Grounding via Code Refactoring with Small Language Models
 
 **会议**: ICML2026  

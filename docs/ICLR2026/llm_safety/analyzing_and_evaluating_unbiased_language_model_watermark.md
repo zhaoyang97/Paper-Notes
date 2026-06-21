@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Analyzing and Evaluating Unbiased Language Model Watermark
+description: >-
+  [ICLR2026][LLM安全][无偏水印] 本文提出 UWBENCH——首个专门评测「无偏（distortion-free）语言模型水印」的开源基准：在理论上证明了「任何可检测的无偏水印在同一 prompt 反复查询下都无法保持原分布」的不可能性定理、给出量化多次生成分布漂移的 SPMG 指标和针对 token 级编辑攻击的认证鲁棒性边界，在实证上确立「无偏性 / 可检测性 / 鲁棒性」三轴评测协议，并指出 token 替换攻击比改写攻击更能给出稳定可复现的鲁棒性结论。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "无偏水印"
+  - "分布漂移"
+  - "不可能性定理"
+  - "鲁棒性认证"
+  - "评测基准"
+---
+
 # Analyzing and Evaluating Unbiased Language Model Watermark
 
 **会议**: ICLR2026  
-**OpenReview**: [6T4LR1oRwA](https://openreview.net/forum?id=6T4LR1oRwA)  
+**OpenReview**: [https://openreview.net/forum?id=6T4LR1oRwA](https://openreview.net/forum?id=6T4LR1oRwA)  
 **代码**: https://github.com/cavosamir/UWBench.git  
 **领域**: LLM 安全 / 文本水印  
 **关键词**: 无偏水印、分布漂移、不可能性定理、鲁棒性认证、评测基准
@@ -147,10 +162,10 @@ $$S(x)-\tau > b\,R_{\max}\,B \ \Longrightarrow\ S(x')\ge\tau\ \text{对所有} \
 ## 相关论文
 
 - [\[ACL 2025\] Improved Unbiased Watermark for Large Language Models](../../ACL2025/llm_safety/improved_unbiased_watermark_for_large_language.md)
-- [\[ICLR 2026\] Self-Destructive Language Model](self-destructive_language_model.md)
-- [\[ICLR 2026\] Improving the Trade-off Between Watermark Strength and Speculative Sampling Efficiency for Language Models](improving_the_trade-off_between_watermark_strength_and_speculative_sampling_effi.md)
-- [\[ICLR 2026\] Watermark Robustness and Radioactivity May Be at Odds in Federated Learning](watermark_robustness_and_radioactivity_may_be_at_odds_in_federated_learning.md)
+- [\[ICLR 2026\] ManagerBench: Evaluating the Safety-Pragmatism Trade-off in Autonomous LLMs](managerbench_evaluating_the_safety-pragmatism_trade-off_in_autonomous_llms.md)
 - [\[ICLR 2026\] Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](breaking_agent_backbones_evaluating_the_security_of_backbone_llms_in_ai_agents.md)
+- [\[ICLR 2026\] Self-Destructive Language Model](self-destructive_language_model.md)
+- [\[ICLR 2026\] VoxPrivacy: A Benchmark for Evaluating Interactional Privacy of Speech Language Models](voxprivacy_a_benchmark_for_evaluating_interactional_privacy_of_speech_language_m.md)
 
 </div>
 

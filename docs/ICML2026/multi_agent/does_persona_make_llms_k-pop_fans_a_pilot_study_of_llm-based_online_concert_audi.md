@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Does Persona Make LLMs K-pop Fans? A Pilot Study of LLM-Based Online Concert Audience Agents
+description: >-
+  [ICML2026][多智能体][LLM 智能体] 作者搭了一套十个 LLM 智能体实时刷弹幕的"虚拟观众"系统，给录播的 K-pop 演出配上真人感的粉丝聊天，并通过一次 N=11 的被试内试点实验发现：给每个智能体加上独立人格能显著提升模型输出层面的多样性和"自然度"，但**并不能**转化为更强的社交连接感、参与度或情感共鸣——因为 K-pop 弹幕本质上是"集体独白"而非人际对话。
+tags:
+  - "ICML2026"
+  - "多智能体"
+  - "LLM 智能体"
+  - "在线演唱会"
+  - "观众模拟"
+  - "人格条件化"
+  - "集体体验"
+---
+
 # Does Persona Make LLMs K-pop Fans? A Pilot Study of LLM-Based Online Concert Audience Agents
 
 **会议**: ICML2026  

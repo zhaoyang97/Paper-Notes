@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Private Learning with Public Feature Conditioning
+description: >-
+  [ICML 2026][AI安全][差分隐私] 针对带有公共（非敏感）特征的差分隐私回归问题，本文提出 Cond-DP——在 DP-SGD 前用一个由公共特征矩阵构造的条件矩阵 $\bm{C}=\bm{V}\Sigma^{-1}\bm{V}^T$ 对嵌入参数空间做几何重塑，在不增加任何隐私开销的前提下放大低谱方向的信号噪声比，从而在高隐私（小 $\epsilon$）场景下显著优于现有标签 DP 回归方法。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "差分隐私"
+  - "DP-SGD"
+  - "公共特征"
+  - "条件化"
+  - "标签DP"
+  - "回归"
+---
+
 # Private Learning with Public Feature Conditioning
 
 **会议**: ICML 2026  

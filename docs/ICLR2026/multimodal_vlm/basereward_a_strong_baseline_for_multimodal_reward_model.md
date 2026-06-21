@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BaseReward: A Strong Baseline for Multimodal Reward Model
+description: >-
+  [ICLR2026][多模态VLM][多模态奖励模型] 这篇论文不发明新结构，而是把"怎么造一个 SOTA 多模态奖励模型（MRM）"拆成范式、奖励头、正则化、数据、骨干/规模、集成六个维度逐一做消融，得出一份明确的"食谱"，并据此搭出 BaseReward——基于 Qwen2.5-VL-7B + 两层 SiLU MLP 奖励头 + 精挑混合偏好数据的简洁强基线，在 MM-RLHF-Reward Bench、VL-Reward Bench 等主流榜上刷新 SOTA，且推理远快于生成式奖励模型。
+tags:
+  - "ICLR2026"
+  - "多模态VLM"
+  - "多模态奖励模型"
+  - "MLLM 对齐"
+  - "RLHF"
+  - "偏好数据配方"
+  - "Naive-RM"
+---
+
 # BaseReward: A Strong Baseline for Multimodal Reward Model
 
 **会议**: ICLR2026  
-**OpenReview**: [EuN5iszF0a](https://openreview.net/forum?id=EuN5iszF0a)  
+**OpenReview**: [https://openreview.net/forum?id=EuN5iszF0a](https://openreview.net/forum?id=EuN5iszF0a)  
 **代码**: 待确认  
 **领域**: 多模态VLM / 对齐RLHF  
 **关键词**: 多模态奖励模型, MLLM 对齐, RLHF, 偏好数据配方, Naive-RM
@@ -135,10 +150,10 @@ RM 训练里常加两类正则：零系数正则（penalty 鼓励优/劣回答�
 ## 相关论文
 
 - [\[ACL 2025\] InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model](../../ACL2025/multimodal_vlm/internlm-xcomposer25-reward_a_simple_yet_effective_multi-modal_reward_model.md)
+- [\[ICLR 2026\] DeepEyesV2: Toward Agentic Multimodal Model](deepeyesv2_toward_agentic_multimodal_model.md)
 - [\[NeurIPS 2025\] A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](../../NeurIPS2025/multimodal_vlm/a_frustratingly_simple_yet_highly_effective_attack_baseline.md)
 - [\[CVPR 2026\] Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](../../CVPR2026/multimodal_vlm/multimodal_rewardbench_2_evaluating_omni_reward_models_for_interleaved_text_and_.md)
 - [\[CVPR 2026\] WikiCLIP: An Efficient Contrastive Baseline for Open-domain Visual Entity Recognition](../../CVPR2026/multimodal_vlm/wikiclip_an_efficient_contrastive_baseline_for_open-domain_visual_entity_recogni.md)
-- [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](../../ICCV2025/multimodal_vlm/controlling_multimodal_llms_via_rewardguided_decoding.md)
 
 </div>
 

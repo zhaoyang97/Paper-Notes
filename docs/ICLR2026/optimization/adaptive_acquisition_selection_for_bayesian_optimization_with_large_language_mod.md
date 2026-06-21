@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Acquisition Selection for Bayesian Optimization with Large Language Models
+description: >-
+  [ICLR2026][优化/理论][贝叶斯优化] 本文提出 LMABO，把预训练大语言模型当作贝叶斯优化（BO）过程的"零样本在线策略师"——每一轮把优化状态序列化成结构化文本提示，让 LLM 从一个采集函数（AF）组合中挑出当下最合适的那个；在 50 个基准上稳定超过静态、自适应组合与其它 LLM-based 基线。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "贝叶斯优化"
+  - "采集函数选择"
+  - "大语言模型"
+  - "零样本决策"
+  - "状态序列化"
+---
+
 # Adaptive Acquisition Selection for Bayesian Optimization with Large Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [EPKmSgXvRe](https://openreview.net/forum?id=EPKmSgXvRe)  
+**OpenReview**: [https://openreview.net/forum?id=EPKmSgXvRe](https://openreview.net/forum?id=EPKmSgXvRe)  
 **代码**: 待确认  
 **领域**: optimization  
 **关键词**: 贝叶斯优化, 采集函数选择, 大语言模型, 零样本决策, 状态序列化
@@ -133,11 +148,11 @@ LMABO 平均 RP 1.21、平均排名 5.62（最差也只到 19，而静态 AF 最
 
 ## 相关论文
 
+- [\[ICLR 2026\] Generative Bayesian Optimization: Generative Models as Acquisition Functions](generative_bayesian_optimization_generative_models_as_acquisition_functions.md)
+- [\[ICLR 2026\] Combinatorial Bandit Bayesian Optimization for Tensor Outputs](combinatorial_bandit_bayesian_optimization_for_tensor_outputs.md)
+- [\[ICLR 2026\] BoGrape: Bayesian optimization over graphs with shortest-path encoded](bogrape_bayesian_optimization_over_graphs_with_shortest-path_encoded.md)
 - [\[ICML 2026\] Towards Understanding Continual Factual Knowledge Acquisition of Language Models: From Theory to Algorithm](../../ICML2026/optimization/towards_understanding_continual_factual_knowledge_acquisition_of_language_models.md)
-- [\[ICML 2025\] Subspace Optimization for Large Language Models with Convergence Guarantees](../../ICML2025/optimization/subspace_optimization_for_large_language_models_with_convergence_guarantees.md)
 - [\[ICLR 2026\] COLD-Steer: Steering Large Language Models via In-Context One-step Learning Dynamics](cold-steer_steering_large_language_models_via_in-context_one-step_learning_dynam.md)
-- [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](../../NeurIPS2025/optimization/the_trilemma_of_truth_in_large_language_models.md)
-- [\[ICML 2026\] Multi-Objective Bayesian Optimization via Adaptive ε-Constraints Decomposition](../../ICML2026/optimization/multi-objective_bayesian_optimization_via_adaptive_varepsilon-constraints_decomp.md)
 
 </div>
 

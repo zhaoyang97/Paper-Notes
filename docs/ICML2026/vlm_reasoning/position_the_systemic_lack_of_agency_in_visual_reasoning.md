@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Position: The Systemic Lack of Agency in Visual Reasoning
+description: >-
+  [ICML 2026][VLM Reasoning][视觉能动性] 这是一篇立场文（position paper），主张当前 VLM 存在一种系统性的"视觉能动性（visual agency）缺失"——它们能在被明确指向时看清细节，却不会主动去搜寻问题没点名、但解题必需的隐式视觉线索；作者用形式化框架、四象限分类法和专门构造的 V-IRD 基准证明：即便最强的闭源模型，其失败也主要卡在"没去找证据"而非"算不出来"。
+tags:
+  - "ICML 2026"
+  - "VLM Reasoning"
+  - "视觉能动性"
+  - "隐式推理"
+  - "立场文"
+  - "V-IRD 基准"
+  - "注意力隧道"
+---
+
 # Position: The Systemic Lack of Agency in Visual Reasoning
 
 **会议**: ICML 2026  

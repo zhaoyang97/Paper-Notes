@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Mitigating Manifold Departure: Uncertainty-Aware Subspace Rectification for Trustworthy MLLM Decoding
+description: >-
+  [ICML2026][多模态VLM][幻觉抑制] 针对训练无关解码方法"无差别压制语言先验"会把隐状态推离正常解码流形（manifold departure）从而损害正常生成的问题，MGAP 用 SVD 从盲文本隐状态中估出一个低秩"语言先验子空间"，解码时只把隐状态在该子空间上的投影分量按"视觉冲突程度 + 预测不确定度"自适应衰减，在 POPE / CHAIR 上同时拿到更强的幻觉抑制和更稳的生成保真。
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "幻觉抑制"
+  - "训练无关解码"
+  - "语言先验子空间"
+  - "表示几何"
+  - "流形偏离"
+---
+
 # Mitigating Manifold Departure: Uncertainty-Aware Subspace Rectification for Trustworthy MLLM Decoding
 
 **会议**: ICML2026  

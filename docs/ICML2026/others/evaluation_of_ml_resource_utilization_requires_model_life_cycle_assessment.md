@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Position: Evaluation of ML Resource Utilization Requires Model Life Cycle Assessment
+description: >-
+  [ICML 2026][生命周期评估] 这是一篇立场（Position）论文，主张评估 ML 模型的资源消耗与环境影响不能再只盯"单次训练"或"单次推理"的边际成本，而应借鉴工业生态学成熟的**生命周期评估（LCA）**，把硬件制造的嵌入式成本到训练/推理的运营成本在整条研发-部署生命周期上聚合归因，并给出了一套 LCA-for-ML 的四阶段方法、成本归因公式与 OLMo2 案例。
+tags:
+  - "ICML 2026"
+  - "生命周期评估"
+  - "能耗与碳排"
+  - "嵌入式成本"
+  - "功能单元"
+  - "可持续 AI"
+---
+
 # Position: Evaluation of ML Resource Utilization Requires Model Life Cycle Assessment
 
 **会议**: ICML 2026  

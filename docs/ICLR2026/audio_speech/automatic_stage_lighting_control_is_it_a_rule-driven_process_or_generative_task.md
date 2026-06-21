@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Automatic Stage Lighting Control: Is it a Rule-Driven Process or Generative Task?
+description: >-
+  [ICLR2026][音频/语音][舞台灯光控制] 这篇论文把"自动舞台灯光控制（ASLC）"从沿用多年的"音乐分类 → 查表配灯"范式重新定义为一个**生成任务**，提出端到端模型 Skip-BART：以音乐音频为输入、逐帧自回归生成灯光的色相（Hue）与亮度（Value），靠一个新颖的跳跃连接显式对齐音乐帧与灯光帧，并配套自建数据集、预训练与迁移学习，最终在量化指标和 38 人主观评测上全面超过规则方法，且与真人灯光师无显著差异（p=0.72）。
+tags:
+  - "ICLR2026"
+  - "音频/语音"
+  - "舞台灯光控制"
+  - "音乐到灯光生成"
+  - "BART"
+  - "跳跃连接"
+  - "迁移学习"
+---
+
 # Automatic Stage Lighting Control: Is it a Rule-Driven Process or Generative Task?
 
 **会议**: ICLR2026  
-**OpenReview**: [a4Got6azjF](https://openreview.net/forum?id=a4Got6azjF)  
+**OpenReview**: [https://openreview.net/forum?id=a4Got6azjF](https://openreview.net/forum?id=a4Got6azjF)  
 **代码**: https://github.com/RS2002/Skip-BART  
 **领域**: 音频 / 音乐信息检索 / 序列生成  
 **关键词**: 舞台灯光控制, 音乐到灯光生成, BART, 跳跃连接, 迁移学习
@@ -136,11 +151,11 @@ Skip-BART 紧贴 GT，三种学习方法都显著优于规则方法（p<0.05）�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Confident and Adaptive Generative Speech Recognition via Risk Control](confident_and_adaptive_generative_speech_recognition_via_risk_control.md)
+- [\[ICLR 2026\] SpeechOp: Inference-Time Task Composition for Generative Speech Processing](speechop_inference-time_task_composition_for_generative_speech_processing.md)
 - [\[ACL 2026\] Pseudo2Real: Task Arithmetic for Pseudo-Label Correction in Automatic Speech Recognition](../../ACL2026/audio_speech/pseudo2real_task_arithmetic_for_pseudo-label_correction_in_automatic_speech_reco.md)
-- [\[ICLR 2026\] Improving Black-Box Generative Attacks via Generator Semantic Consistency](improving_black-box_generative_attacks_via_generator_semantic_consistency.md)
 - [\[ICLR 2026\] Discovering and Steering Interpretable Concepts in Large Generative Music Models](discovering_and_steering_interpretable_concepts_in_large_generative_music_models.md)
-- [\[CVPR 2026\] InfinityHuman: Towards Long-Term Audio-Driven Human Animation](../../CVPR2026/audio_speech/infinityhuman_towards_long-term_audio-driven_human_animation.md)
-- [\[ICLR 2026\] MMSU: A Massive Multi-task Spoken Language Understanding and Reasoning Benchmark](mmsu_a_massive_multi-task_spoken_language_understanding_and_reasoning_benchmark.md)
+- [\[ICLR 2026\] Improving Black-Box Generative Attacks via Generator Semantic Consistency](improving_black-box_generative_attacks_via_generator_semantic_consistency.md)
 
 </div>
 

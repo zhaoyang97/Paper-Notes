@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Scaling of Policy Constraints for Offline Reinforcement Learning
+description: >-
+  [ICLR2026][强化学习][离线强化学习] 针对离线 RL 里"策略约束强度（RL 与行为克隆的配比）必须逐数据集手调"的痛点，本文提出 ASPC：把 TD3+BC 里的缩放因子 $\alpha$ 变成可学习参数，用二阶可微的双层优化在训练中动态调它，靠约束 Q 值变化率和 BC 损失变化率来稳定更新；在 D4RL 39 个数据集上**只用一套超参**就超过了需要逐数据集网格搜索的 SOTA，相对基线平均提升 35%。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "策略约束"
+  - "自适应缩放"
+  - "双层优化"
+  - "TD3+BC"
+---
+
 # Adaptive Scaling of Policy Constraints for Offline Reinforcement Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [liOHottW7G](https://openreview.net/forum?id=liOHottW7G)  
+**OpenReview**: [https://openreview.net/forum?id=liOHottW7G](https://openreview.net/forum?id=liOHottW7G)  
 **代码**: 待确认  
 **领域**: 强化学习 / 离线 RL  
 **关键词**: 离线强化学习、策略约束、自适应缩放、双层优化、TD3+BC
@@ -141,11 +156,11 @@ $$\alpha \leftarrow \alpha - \eta_\alpha \frac{\partial L_{outer}(\tilde\theta(\
 
 ## 相关论文
 
+- [\[ICLR 2026\] Offline Reinforcement Learning with Adaptive Feature Fusion](offline_reinforcement_learning_with_adaptive_feature_fusion.md)
 - [\[ICLR 2026\] AutoTool: Automatic Scaling of Tool-Use Capabilities in RL via Decoupled Entropy Constraints](autotool_automatic_scaling_of_tool-use_capabilities_in_rl_via_decoupled_entropy_.md)
-- [\[ICML 2026\] RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments](../../ICML2026/reinforcement_learning/rlve_scaling_up_reinforcement_learning_for_language_models_with_adaptive_verifia.md)
-- [\[NeurIPS 2025\] Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/adaptive_neighborhoodconstrained_q_learning_for_offline_rein.md)
-- [\[NeurIPS 2025\] DeepDiver: Adaptive Search Intensity Scaling via Open-Web Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/deepdiver_adaptive_search_intensity_scaling_via_open-web_reinforcement_learning.md)
-- [\[ACL 2026\] Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with Constraints](../../ACL2026/reinforcement_learning/deliberative_searcher_improving_llm_reliability_via_reinforcement_learning_with_.md)
+- [\[ICLR 2026\] Guided Flow Policy: Learning from High-Value Actions in Offline Reinforcement Learning](guided_flow_policy_learning_from_high-value_actions_in_offline_reinforcement_lea.md)
+- [\[ICLR 2026\] ADM-v2: Pursuing Full-Horizon Roll-out in Dynamics Models for Offline Policy Learning and Evaluation](adm-v2_pursuing_full-horizon_roll-out_in_dynamics_models_for_offline_policy_lear.md)
+- [\[ICLR 2026\] BAPO: Stabilizing Off-Policy Reinforcement Learning for LLMs via Balanced Policy Optimization with Adaptive Clipping](bapo_stabilizing_off-policy_reinforcement_learning_for_llms_via_balanced_policy_.md)
 
 </div>
 

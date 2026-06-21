@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport
+description: >-
+  [ICLR2026][图像生成][流生成模型] AlignFlow 用半离散最优传输（SDOT）在训练前一次性算出"噪声分布 → 全体数据点"的确定性对齐映射，把它当作即插即用的耦合喂给各种流生成模型，以不到 1% 的额外开销让轨迹更直、收敛更快、FID 全面下降。 领域现状：流生成模型（Flow-based Generat…
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "流生成模型"
+  - "最优传输"
+  - "半离散最优传输"
+  - "噪声-数据对齐"
+  - "轨迹拉直"
+---
+
 # AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport
 
 **会议**: ICLR2026  
-**OpenReview**: [nTCF3QNsIN](https://openreview.net/forum?id=nTCF3QNsIN)  
+**OpenReview**: [https://openreview.net/forum?id=nTCF3QNsIN](https://openreview.net/forum?id=nTCF3QNsIN)  
 **代码**: https://github.com/konglk1203/AlignFlow  
 **领域**: 扩散模型 / 流生成模型  
 **关键词**: 流生成模型, 最优传输, 半离散最优传输, 噪声-数据对齐, 轨迹拉直
@@ -136,10 +151,10 @@ ImageNet256 上用 SiT + MeanFlow 做一步生成（NFE=1），跨四种模型�
 ## 相关论文
 
 - [\[ICCV 2025\] The Curse of Conditions: Analyzing and Improving Optimal Transport for Conditional Flow-Based Generation](../../ICCV2025/image_generation/the_curse_of_conditions_analyzing_and_improving_optimal_transport_for_conditiona.md)
+- [\[ICLR 2026\] Entering the Era of Discrete Diffusion Models: A Benchmark for Schrödinger Bridges and Entropic Optimal Transport](entering_the_era_of_discrete_diffusion_models_a_benchmark_for_schrödinger_bridge.md)
 - [\[ICML 2026\] Pareto-Guided Optimal Transport for Multi-Reward Alignment](../../ICML2026/image_generation/pareto-guided_optimal_transport_for_multi-reward_alignment.md)
-- [\[NeurIPS 2025\] Counterfactual Identifiability via Dynamic Optimal Transport](../../NeurIPS2025/image_generation/counterfactual_identifiability_via_dynamic_optimal_transport.md)
-- [\[ICLR 2026\] Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)](improving_discrete_diffusion_unmasking_policies_beyond_explicit_reference_polici.md)
-- [\[ICLR 2026\] DoFlow: Flow-based Generative Models for Interventional and Counterfactual Forecasting](doflow_flow-based_generative_models_for_interventional_and_counterfactual_foreca.md)
+- [\[ICLR 2026\] Constantly Improving Image Models Need Constantly Improving Benchmarks](constantly_improving_image_models_need_constantly_improving_benchmarks.md)
+- [\[NeurIPS 2025\] On the Relation between Rectified Flows and Optimal Transport](../../NeurIPS2025/image_generation/on_the_relation_between_rectified_flows_and_optimal_transport.md)
 
 </div>
 

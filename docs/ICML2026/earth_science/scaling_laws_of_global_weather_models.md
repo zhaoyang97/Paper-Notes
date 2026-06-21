@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Scaling Laws of Global Weather Models
+description: >-
+  [ICML 2026][地球科学][天气预报模型] 本文在统一的训练/评测协议下，对 5 个主流数据驱动天气模型（Aurora、AIFS、Pangu、GraphCast、SFNO）做了首个跨模型的缩放定律分析，发现天气模型偏爱"加宽而非加深"、计算预算应优先投给更多训练数据而非更大模型，且不同气象变量的缩放行为差异巨大——这些规律与 NLP/视觉的缩放定律截然不同。
+tags:
+  - "ICML 2026"
+  - "地球科学"
+  - "天气预报模型"
+  - "缩放定律"
+  - "计算最优"
+  - "宽度优先"
+  - "ERA5"
+---
+
 # Scaling Laws of Global Weather Models
 
 **会议**: ICML 2026  

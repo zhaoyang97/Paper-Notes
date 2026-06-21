@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bayesian Parameter Shift Rules in Variational Quantum Eigensolvers
+description: >-
+  [ICLR 2026][优化/理论][变分量子本征求解器] 把变分量子本征求解器（VQE）里用于估梯度的参数移位规则（PSR）改写成贝叶斯版本——用带 VQE 核的导数高斯过程来估梯度，从而能在任意位置复用历史观测、并拿到梯度的后验不确定度；再据此提出"梯度置信区域（GradCoRe）"自适应分配测量次数，使 VQE 的 SGD 优化在相同测量预算下显著更快收敛、超过包括 NFT 系在内的现有 SOTA。
+tags:
+  - "ICLR 2026"
+  - "优化/理论"
+  - "变分量子本征求解器"
+  - "参数移位规则"
+  - "高斯过程"
+  - "梯度置信区域"
+  - "量子优化"
+---
+
 # Bayesian Parameter Shift Rules in Variational Quantum Eigensolvers
 
 **会议**: ICLR 2026  
-**OpenReview**: [cS0L2kj0lj](https://openreview.net/forum?id=cS0L2kj0lj)  
+**OpenReview**: [https://openreview.net/forum?id=cS0L2kj0lj](https://openreview.net/forum?id=cS0L2kj0lj)  
 **代码**: 待确认（论文称 Qiskit 实现随补充材料附带）  
 **领域**: 量子计算 / 变分量子算法 / 贝叶斯优化  
 **关键词**: 变分量子本征求解器, 参数移位规则, 高斯过程, 梯度置信区域, 量子优化
@@ -110,3 +125,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐ 与多条 SOTA 基线在多种 Hamiltonian 上比、含显著性检验；但规模偏小、无硬件噪声。
 - 写作质量: ⭐⭐⭐⭐ 理论-方法-实验衔接顺畅，定理与直觉对照清楚。
 - 价值: ⭐⭐⭐⭐ 给 VQE 优化提供了能直接降低测量成本的实用框架，且方法论可迁移到含噪零阶优化。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] Neural QAOA$^2$: Differentiable Joint Graph Partitioning and Parameter Initialization for Quantum Combinatorial Optimization](../../ICML2026/optimization/neural_qaoa2_differentiable_joint_graph_partitioning_and_parameter_initializatio.md)
+- [\[ICLR 2026\] Symmetry-Aware Bayesian Optimization via Max Kernels](symmetry-aware_bayesian_optimization_via_max_kernels.md)
+- [\[ICLR 2026\] Local Entropy Search over Descent Sequences for Bayesian Optimization](local_entropy_search_over_descent_sequences_for_bayesian_optimization.md)
+- [\[ICLR 2026\] Generative Bayesian Optimization: Generative Models as Acquisition Functions](generative_bayesian_optimization_generative_models_as_acquisition_functions.md)
+- [\[ICLR 2026\] Bayesian Evidence-Driven Prototype Evolution for Federated Domain Adaptation](bayesian_evidence-driven_prototype_evolution_for_federated_domain_adaptation.md)
+
+</div>
+
+<!-- RELATED:END -->

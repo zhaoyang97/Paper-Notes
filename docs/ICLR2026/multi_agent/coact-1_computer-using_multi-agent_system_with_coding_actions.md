@@ -1,8 +1,21 @@
+---
+title: >-
+  [论文解读] CoAct-1: Computer-using Multi-agent System with Coding Actions
+description: >-
+  [ICLR2026][多智能体][计算机操作智能体] CoAct-1 把"写代码并执行"当成 GUI 点击之外的一等动作，用 Orchestrator 把每个子任务动态派给会写 Python/Bash 的 Programmer 或会点屏幕的 GUI Operator，从而在 OSWorld 上把成功率推到 60.8%（WindowsAgentArena 52.5%）的同时，把平均步数压到 10.15 步。
+tags:
+  - "ICLR2026"
+  - "多智能体"
+  - "计算机操作智能体"
+  - "编码动作"
+  - "GUI 操作"
+  - "任务分解"
+---
+
 # CoAct-1: Computer-using Multi-agent System with Coding Actions
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [l1MQVgIKEU](https://openreview.net/forum?id=l1MQVgIKEU)  
+**OpenReview**: [https://openreview.net/forum?id=l1MQVgIKEU](https://openreview.net/forum?id=l1MQVgIKEU)  
 **代码**: https://github.com/SalesforceAIResearch/CoAct-1  
 **领域**: Agent / 计算机操作智能体 / 多智能体系统  
 **关键词**: 计算机操作智能体, 编码动作, 多智能体, GUI 操作, 任务分解
@@ -120,3 +133,19 @@ CoAct-1 是**无需训练的系统级编排框架**，不引入新的可学习�
 - 实验充分度: ⭐⭐⭐⭐⭐ 两大基准 SOTA + 步数预算分解 + 单模态消融 + 骨干敏感性 + 效率分析，证据链完整。
 - 写作质量: ⭐⭐⭐⭐ 问题动机和分层设计讲得很顺，公式化清楚；安全性与开源骨干部分着墨偏少。
 - 价值: ⭐⭐⭐⭐⭐ 训练无关、即插即用就刷到 SOTA 并显著提效，对计算机操作智能体的动作空间设计有实际启发。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] PixelCraft: A Multi-Agent System for High-Fidelity Visual Reasoning on Structured Images](pixelcraft_a_multi-agent_system_for_high-fidelity_visual_reasoning_on_structured.md)
+- [\[ICLR 2026\] From What to Why: A Multi-Agent System for Evidence-based Chemical Reaction Condition Reasoning](from_what_to_why_a_multi-agent_system_for_evidence-based_chemical_reaction_condi.md)
+- [\[ICLR 2026\] MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design](mac-amp_a_closed-loop_multi-agent_collaboration_system_for_multi-objective_antim.md)
+- [\[AAAI 2026\] AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation](../../AAAI2026/multi_agent/agentodrl_a_large_language_model-based_multi-agent_system_fo.md)
+- [\[AAAI 2026\] LungNoduleAgent: A Collaborative Multi-Agent System for Precision Diagnosis of Lung Nodules](../../AAAI2026/multi_agent/lungnoduleagent_a_collaborative_multi-agent_system_for_precision_diagnosis_of_lu.md)
+
+</div>
+
+<!-- RELATED:END -->

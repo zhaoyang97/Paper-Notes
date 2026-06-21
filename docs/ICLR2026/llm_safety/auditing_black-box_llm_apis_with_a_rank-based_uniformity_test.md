@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Auditing Black-Box LLM APIs with a Rank-Based Uniformity Test
+description: >-
+  [ICLR 2026][LLM安全][黑盒审计] 针对 API 厂商可能偷偷把宣称的模型换成量化版/微调版/越狱版的问题，本文提出**基于秩的均匀性检验（Rank-based Uniformity Test, RUT）**：每个 prompt 只查一次目标 API、在本地参考模型上多采样，把 API 输出的 log-rank 打分映射成"在参考分布里的百分位排名"，若两模型一致则这些排名应服从均匀分布，再用 Cramér–von Mises 检验偏差——做到了高检测力、每个 prompt 仅 1 次 API 调用、且查询长得像普通用户流量从而难被对抗性厂商识别绕过。
+tags:
+  - "ICLR 2026"
+  - "LLM安全"
+  - "黑盒审计"
+  - "模型等价检验"
+  - "基于秩的均匀性"
+  - "Cramér–von Mises"
+  - "量化检测"
+---
+
 # Auditing Black-Box LLM APIs with a Rank-Based Uniformity Test
 
 **会议**: ICLR 2026  
-**OpenReview**: [PSIe9mmF7a](https://openreview.net/forum?id=PSIe9mmF7a)  
+**OpenReview**: [https://openreview.net/forum?id=PSIe9mmF7a](https://openreview.net/forum?id=PSIe9mmF7a)  
 **代码**: https://github.com/xyzhu123/RUT (有)  
 **领域**: LLM 安全 / 模型审计  
 **关键词**: 黑盒审计, 模型等价检验, 基于秩的均匀性, Cramér–von Mises, 量化检测

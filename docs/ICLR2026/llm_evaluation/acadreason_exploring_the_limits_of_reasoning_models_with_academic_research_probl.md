@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ACADREASON: Exploring the Limits of Reasoning Models with Academic Research Problems
+description: >-
+  [ICLR2026][LLM评测][学术推理] AcadReason 用 5 个高推理学科（计算机、经济、法律、数学、哲学）的 50 道顶刊论文研究问题，专门考 LLM 和 Agent 能不能"像研究者一样"获取并推理学术知识——结果是绝大多数 LLM 不到 20 分、连 GPT-5 也只有 16 分，最强 Agent OAgents 也只拿到 34 分，揭示了模型在"超智能学术研究"上的巨大差距。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "学术推理"
+  - "研究级评测"
+  - "LLM-as-Judge"
+  - "Agent"
+  - "Checklist 评分"
+---
+
 # ACADREASON: Exploring the Limits of Reasoning Models with Academic Research Problems
 
 **会议**: ICLR2026  
-**OpenReview**: [vl0hQuluv4](https://openreview.net/forum?id=vl0hQuluv4)  
+**OpenReview**: [https://openreview.net/forum?id=vl0hQuluv4](https://openreview.net/forum?id=vl0hQuluv4)  
 **代码**: https://github.com/OPPO-PersonalAI/Acadreason-benchmark  
 **领域**: LLM评测 / 推理 Benchmark  
 **关键词**: 学术推理、研究级评测、LLM-as-Judge、Agent、Checklist 评分
@@ -125,11 +140,11 @@ $$R_p = \frac{\sum_{q=1}^{50} s_q}{50} \times 100, \qquad R_j = \frac{\sum_{q=1}
 
 ## 相关论文
 
-- [\[ACL 2025\] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](../../ACL2025/llm_evaluation/com2_causal_commonsense.md)
 - [\[ACL 2026\] NovBench: Evaluating Large Language Models on Academic Paper Novelty Assessment](../../ACL2026/llm_evaluation/novbench_evaluating_large_language_models_on_academic_paper_novelty_assessment.md)
-- [\[ICML 2026\] InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective Reasoning Problem](../../ICML2026/llm_evaluation/innoeval_on_research_idea_evaluation_as_a_knowledge-grounded_multi-perspective_r.md)
-- [\[ACL 2026\] Evaluating Reasoning Models for Queries with Presuppositions](../../ACL2026/llm_evaluation/evaluating_reasoning_models_for_queries_with_presuppositions.md)
-- [\[ACL 2026\] Exploring the Capability Boundaries of LLMs in Mastering of Chinese Chouxiang Language](../../ACL2026/llm_evaluation/exploring_the_capability_boundaries_of_llms_in_mastering_of_chinese_chouxiang_la.md)
+- [\[ACL 2025\] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](../../ACL2025/llm_evaluation/com2_causal_commonsense.md)
+- [\[ICLR 2026\] Towards Personalized Deep Research: Benchmarks and Evaluations](towards_personalized_deep_research_benchmarks_and_evaluations.md)
+- [\[ICLR 2026\] Characterizing Deep Research: A Benchmark and Formal Definition](characterizing_deep_research_a_benchmark_and_formal_definition.md)
+- [\[ICLR 2026\] ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents](researchrubrics_a_benchmark_of_prompts_and_rubrics_for_evaluating_deep_research_.md)
 
 </div>
 

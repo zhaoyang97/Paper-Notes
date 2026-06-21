@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] TSAQA: Time Series Analysis Question And Answering Benchmark
+description: >-
+  [ACL 2026][时间序列][时间序列 QA] TSAQA 是一个统一的时间序列问答基准：它把 6 类时序分析任务（异常检测、分类、表征、比较、数据变换、时间关系）全部铸造成 3 种封闭式题型（判断题 TF、选择题 MC、以及新提出的拼图题 PZ），跨 13 个领域共 210k 样本，用统一协议零样本评测 LLM 与时序基础模型——结果显示即便最强商用模型 Gemini-2.5-Flash 也只有 65.08 的平均准确率，基准仍有很大挑战空间。
+tags:
+  - "ACL 2026"
+  - "时间序列"
+  - "时间序列 QA"
+  - "统一基准"
+  - "分析能力评测"
+  - "拼图题"
+  - "时序基础模型"
+---
+
 # TSAQA: Time Series Analysis Question And Answering Benchmark
 
 **会议**: ACL 2026  

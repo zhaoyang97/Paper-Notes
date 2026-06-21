@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories
+description: >-
+  [ICML2026][计算生物][生物序列优化] STRIDE 把"优化蛋白质/分子序列"重新表述成"在编辑空间里做轨迹规划"：训练一个 LLM 显式吐出可执行的 INSERT/DELETE/REPLACE 原子编辑脚本，先用 Levenshtein 最短编辑路径做 SFT、再用 GRPO 类强化学习对齐任务奖励，从而在变长、带语法约束的离散序列优化上，把蛋白质全动作压力测试的成功率从 42% 拉到 89%、新颖性从 47% 拉到 97%。
+tags:
+  - "ICML2026"
+  - "计算生物"
+  - "生物序列优化"
+  - "编辑轨迹"
+  - "后训练"
+  - "GRPO"
+  - "蛋白质/分子设计"
+---
+
 # STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning
+description: >-
+  [ICLR2026][机器人][行为基础模型] BFM-Zero 用在线 off-policy 无监督 RL（前向-后向表征 FB-CPR）把动作、目标、奖励统统编码进一个共享潜空间，训出一个可"提示"的人形全身控制通才策略，并首次在真实 Unitree G1 上实现免重训的零样本动作跟踪 / 目标到达 / 奖励优化，还能少样本快速适配。
+tags:
+  - "ICLR2026"
+  - "机器人"
+  - "行为基础模型"
+  - "人形机器人"
+  - "前向-后向表征"
+  - "无监督RL"
+  - "sim-to-real"
+---
+
 # BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [jkhl2oI0g5](https://openreview.net/forum?id=jkhl2oI0g5)  
+**OpenReview**: [https://openreview.net/forum?id=jkhl2oI0g5](https://openreview.net/forum?id=jkhl2oI0g5)  
 **代码**: 项目页 https://lecar-lab.github.io/BFM-Zero/  
 **领域**: 机器人 / 人形控制 / 无监督强化学习  
 **关键词**: 行为基础模型, 人形机器人, 前向-后向表征, 无监督RL, sim-to-real
@@ -88,6 +103,7 @@ $$L(\pi) = -\mathbb{E}\big[F(o_{t,H}, s_t, a_t, z)^\top z + \lambda_D Q_D + \lam
 可部署版 BFM-Zero（带 DR）相对理想化的全特权版 BFM-Zero-priv，在跟踪 / 奖励 / 姿态到达上分别只差 **2.47% / 25.86% / 10.65%**，说明加了 sim-to-real 改动后学习动力学仍然正确、性能仍可接受。
 
 ### 消融实验
+
 | 配置 | 关键结果 | 说明 |
 |------|---------|------|
 | 全特权 (no DR, Isaac) | 基准 | 不可部署的理想上界 |
@@ -132,11 +148,11 @@ $$L(\pi) = -\mathbb{E}\big[F(o_{t,H}, s_t, a_t, z)^\top z + \lambda_D Q_D + \lam
 
 ## 相关论文
 
-- [\[CVPR 2026\] End-to-End Language-Action Model for Humanoid Whole Body Control](../../CVPR2026/robotics/end-to-end_language-action_model_for_humanoid_whole_body_control.md)
 - [\[ICML 2026\] From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model](../../ICML2026/robotics/from_abstraction_to_instantiation_learning_behavioral_representation_for_vision-.md)
-- [\[AAAI 2026\] Test-driven Reinforcement Learning in Continuous Control](../../AAAI2026/robotics/test-driven_reinforcement_learning_in_continuous_control.md)
 - [\[CVPR 2026\] Humanoid Generative Pre-Training for Zero-Shot Motion Tracking](../../CVPR2026/robotics/humanoid_generative_pre-training_for_zero-shot_motion_tracking.md)
-- [\[ICLR 2026\] Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control](towards_bridging_the_gap_between_large-scale_pretraining_and_efficient_finetunin.md)
+- [\[ICLR 2026\] Embodied Navigation Foundation Model](embodied_navigation_foundation_model.md)
+- [\[ICLR 2026\] From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning](from_seeing_to_experiencing_scaling_navigation_foundation_models_with_reinforcem.md)
+- [\[CVPR 2026\] End-to-End Language-Action Model for Humanoid Whole Body Control](../../CVPR2026/robotics/end-to-end_language-action_model_for_humanoid_whole_body_control.md)
 
 </div>
 

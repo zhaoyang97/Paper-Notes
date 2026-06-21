@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Direction-Conditioned Policies via Compositional Subgoal Scoring for Online Goal-Conditioned Reinforcement Learning
+description: >-
+  [ICML2026][强化学习][目标条件强化学习] 本文提出 DCP（Direction-Conditioned Policies），把在线目标条件 RL 里"actor 直接吃原始目标坐标"换成"actor 吃学到的表示空间里指向目标的单位方向 + 模长"，并用一个从历史访问状态里选子目标的打分规则在训练早期稳定这个方向，在九个导航/操作环境上多数指标超过对比 RL（CRL）。
+tags:
+  - "ICML2026"
+  - "强化学习"
+  - "目标条件强化学习"
+  - "对比强化学习"
+  - "方向条件"
+  - "子目标打分"
+  - "HJB"
+---
+
 # Direction-Conditioned Policies via Compositional Subgoal Scoring for Online Goal-Conditioned Reinforcement Learning
 
 **会议**: ICML2026  

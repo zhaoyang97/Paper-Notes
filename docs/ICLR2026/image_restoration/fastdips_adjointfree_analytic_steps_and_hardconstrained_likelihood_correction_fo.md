@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] FAST-DIPS: Adjoint-Free Analytic Steps and Hard-Constrained Likelihood Correction for Diffusion-Prior Inverse Problems
+description: >-
+  [ICLR 2026][图像恢复][扩散先验] FAST-DIPS 用一套"免伴随（adjoint-free）的硬约束似然校正"替换掉训练无关扩散逆问题求解器里昂贵的内层 MCMC / 多步梯度循环：每个噪声层只在去噪器预测点附近做一个带闭式投影 + 解析最优步长的少步 ADMM 校正，把每层计算预算压到极小，在八类线性/非线性恢复任务上质量持平甚至更好，速度最高快 19.5×。
+tags:
+  - "ICLR 2026"
+  - "图像恢复"
+  - "扩散先验"
+  - "逆问题"
+  - "免伴随"
+  - "ADMM"
+  - "解析步长"
+---
+
 # FAST-DIPS: Adjoint-Free Analytic Steps and Hard-Constrained Likelihood Correction for Diffusion-Prior Inverse Problems
 
 **会议**: ICLR 2026  
-**OpenReview**: [voMeZVAkKL](https://openreview.net/forum?id=voMeZVAkKL)  
+**OpenReview**: [https://openreview.net/forum?id=voMeZVAkKL](https://openreview.net/forum?id=voMeZVAkKL)  
 **代码**: 论文称将公开（Code and data 见原文 §，未给具体仓库链接）  
 **领域**: 扩散模型 / 图像恢复（逆问题求解）  
 **关键词**: 扩散先验、逆问题、免伴随、ADMM、解析步长
@@ -140,8 +155,8 @@ $$\alpha^\star=\frac{\frac{1}{\gamma_t}\langle s,g\rangle+\rho\langle r,J_A(x)g\
 ## 相关论文
 
 - [\[CVPR 2026\] Dual Ascent Diffusion for Inverse Problems](../../CVPR2026/image_restoration/dual_ascent_diffusion_for_inverse_problems.md)
+- [\[CVPR 2026\] PnP-CM: Consistency Models as Plug-and-Play Priors for Inverse Problems](../../CVPR2026/image_restoration/pnp-cm_consistency_models_as_plug-and-play_priors_for_inverse_problems.md)
 - [\[CVPR 2026\] Outlier-Robust Diffusion Solvers for Inverse Problems](../../CVPR2026/image_restoration/outlier-robust_diffusion_solvers_for_inverse_problems.md)
-- [\[ICML 2026\] Learning Normalized Energy Models for Linear Inverse Problems](../../ICML2026/image_restoration/learning_normalized_energy_models_for_linear_inverse_problems.md)
 - [\[ICML 2026\] Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules](../../ICML2026/image_restoration/triadic_dynamics_aware_diffusion_posterior_sampling_for_inverse_problems_optimiz.md)
 - [\[ICML 2026\] Solving Inverse Problems with Flow-based Models via Model Predictive Control](../../ICML2026/image_restoration/solving_inverse_problems_with_flow-based_models_via_model_predictive_control.md)
 

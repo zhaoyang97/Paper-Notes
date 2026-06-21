@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ClarifyVC: Clarifying Ambiguous Commands in Vehicle Control with a Hybrid Data Augmentation Pipeline
+description: >-
+  [ICLR2026][对话系统][歧义澄清] ClarifyVC 用一个 Agent 编排的四阶段数据增强流水线，从 2 万条真实车载指令里"种"出大量歧义丰富、协议合规的单轮/多轮对话，配上三层评测协议与数据质量分 DQS，在这套数据上微调后让车载语音指令的解析准确率提升约 15%、歧义消解提升约 20%、协议合规度达 98%。
+tags:
+  - "ICLR2026"
+  - "对话系统"
+  - "歧义澄清"
+  - "车辆控制"
+  - "函数调用"
+  - "多轮对话"
+  - "数据增强"
+---
+
 # ClarifyVC: Clarifying Ambiguous Commands in Vehicle Control with a Hybrid Data Augmentation Pipeline
 
 **会议**: ICLR2026  
-**OpenReview**: [afO3vnSNsS](https://openreview.net/forum?id=afO3vnSNsS)  
+**OpenReview**: [https://openreview.net/forum?id=afO3vnSNsS](https://openreview.net/forum?id=afO3vnSNsS)  
 **代码**: https://anonymous.4open.science/r/ClarifyVC  
 **领域**: 对话系统 / 车载语音 / 数据增强 / Benchmark  
 **关键词**: 歧义澄清、车辆控制、函数调用、多轮对话、数据增强
@@ -131,3 +146,19 @@ ClarifyVC-Models 通过对开源底座（LLaMA3-8B、Qwen2.5-7B/72B、DeepSeek-R
 - 实验充分度: ⭐⭐⭐⭐ 12 个模型 × 3 档设置 + 多数据集对比 + 人工盲评 + 顺序消融，较全面
 - 写作质量: ⭐⭐⭐⭐ 框架清晰、指标定义到位（细节在附录），易读
 - 价值: ⭐⭐⭐⭐ 给安全攸关的车载/指令式接口提供了可复用的数据-评测-模型一体化范式
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions](aqua_toward_strategic_response_generation_for_ambiguous_visual_questions.md)
+- [\[ACL 2026\] GenesisFunc: Multi-Agent Data Generation for Accurate and Generalizable Function-Calling](../../ACL2026/dialogue/genesisfunc_multi-agent_data_generation_for_accurate_and_generalizable_function-.md)
+- [\[NeurIPS 2025\] KL Penalty Control via Perturbation for Direct Preference Optimization](../../NeurIPS2025/dialogue/kl_penalty_control_via_perturbation_for_direct_preference_optimization.md)
+- [\[ICML 2026\] From Self-Evolving Synthetic Data to Verifiable-Reward RL: Post-Training Multi-turn Interactive Tool-Using Agents](../../ICML2026/dialogue/from_self-evolving_synthetic_data_to_verifiable-reward_rl_post-training_multi-tu.md)
+- [\[NeurIPS 2025\] Agentic Persona Control and Task State Tracking for Realistic User Simulation](../../NeurIPS2025/dialogue/agentic_persona_control_and_task_state_tracking_for_realistic_user_simulation_in.md)
+
+</div>
+
+<!-- RELATED:END -->

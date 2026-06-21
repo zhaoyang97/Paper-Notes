@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CLoVE: Personalized Federated Learning through Clustering of Loss Vector Embeddings
+description: >-
+  [ICML 2026][优化/理论][聚类联邦学习] CLoVE 用「每个客户端在所有候选模型上的损失向量」当作客户端嵌入来做聚类联邦学习，靠「同簇客户端损失模式相近、异簇损失模式迥异」这一观察，在不需要精心初始化模型的前提下，几轮通信内就恢复出正确的客户端簇并训练出各簇专属模型，在大量非 IID 设置下达到 SOTA。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "聚类联邦学习"
+  - "个性化联邦学习"
+  - "损失向量嵌入"
+  - "客户端聚类"
+  - "非IID"
+---
+
 # CLoVE: Personalized Federated Learning through Clustering of Loss Vector Embeddings
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Agentic Monte Carlo: Simulating Reinforcement Learning for Black-Box Agents
+description: >-
+  [ICML2026][LLM Agent][黑盒 Agent] 把"对黑盒 LLM Agent 做 RL"重写成"从最优策略后验里采样"，用序贯蒙特卡洛（SMC）配一个轻量价值函数在测试时引导冻结的黑盒模型，不碰任何参数就实现 RL 式优化，在 AgentGym 三个环境上既超过 prompting 基线、又在放大测试时计算后反超需要全参数权限的 GRPO。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "黑盒 Agent"
+  - "序贯蒙特卡洛"
+  - "控制即推断"
+  - "价值函数"
+  - "测试时计算"
+---
+
 # Agentic Monte Carlo: Simulating Reinforcement Learning for Black-Box Agents
 
 **会议**: ICML2026  

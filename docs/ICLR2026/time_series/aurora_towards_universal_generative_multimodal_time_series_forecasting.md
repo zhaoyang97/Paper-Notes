@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Aurora: Towards Universal Generative Multimodal Time Series Forecasting
+description: >-
+  [ICLR2026][时间序列][时间序列预测] Aurora 是第一个**多模态时间序列基础模型**：在「时间序列 + 文本描述 + 内生图像」三模态的跨域语料上预训练，用模态引导注意力把文本/图像里的领域知识注入时序建模，再用「原型引导的流匹配」做生成式概率预测，从而在零样本/少样本的跨域场景下同时拿下确定性和概率性预测 SOTA。
+tags:
+  - "ICLR2026"
+  - "时间序列"
+  - "时间序列预测"
+  - "多模态基础模型"
+  - "流匹配"
+  - "零样本预测"
+  - "跨域泛化"
+---
+
 # Aurora: Towards Universal Generative Multimodal Time Series Forecasting
 
 **会议**: ICLR2026  
-**OpenReview**: [VVJ6Ck9JBl](https://openreview.net/forum?id=VVJ6Ck9JBl)  
+**OpenReview**: [https://openreview.net/forum?id=VVJ6Ck9JBl](https://openreview.net/forum?id=VVJ6Ck9JBl)  
 **代码**: https://github.com/decisionintelligence/Aurora ；权重 https://huggingface.co/DecisionIntelligence/Aurora  
 **领域**: 时间序列预测 / 多模态基础模型  
 **关键词**: 时间序列预测, 多模态基础模型, 流匹配, 零样本预测, 跨域泛化
@@ -129,10 +144,10 @@ Table 5 在 TimeMMD 9 个领域上做模块消融（MSE）：
 ## 相关论文
 
 - [\[AAAI 2026\] GAICo: A Deployed and Extensible Framework for Evaluating Diverse and Multimodal Generative AI Outputs](../../AAAI2026/time_series/gaico_a_deployed_and_extensible_framework_for_evaluating_diverse_and_multimodal_.md)
-- [\[ICML 2026\] AnomSeer: Reinforcing Multimodal LLMs to Reason for Time-Series Anomaly Detection](../../ICML2026/time_series/anomseer_reinforcing_multimodal_llms_to_reason_for_time-series_anomaly_detection.md)
-- [\[ICLR 2026\] ResCP: Reservoir Conformal Prediction for Time Series Forecasting](rescp_reservoir_conformal_prediction_for_time_series_forecasting.md)
-- [\[NeurIPS 2025\] MAESTRO: Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series](../../NeurIPS2025/time_series/maestro_adaptive_sparse_attention_and_robust_learning_for_multimodal_dynamic_tim.md)
-- [\[NeurIPS 2025\] Universal Spectral Tokenization via Self-Supervised Panchromatic Representation Learning](../../NeurIPS2025/time_series/universal_spectral_tokenization_via_self-supervised_panchromatic_representation_.md)
+- [\[ICLR 2026\] Characteristic Root Analysis and Regularization for Linear Time Series Forecasting](characteristic_root_analysis_and_regularization_for_linear_time_series_forecasti.md)
+- [\[ICLR 2026\] Towards Multimodal Time Series Anomaly Detection with Semantic Alignment and Condensed Interaction](towards_multimodal_time_series_anomaly_detection_with_semantic_alignment_and_con.md)
+- [\[ICLR 2026\] Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting](bridging_past_and_future_distribution-aware_alignment_for_time_series_forecastin.md)
+- [\[ICLR 2026\] Long-range Modeling and Processing of Multimodal Event Sequences](long-range_modeling_and_processing_of_multimodal_event_sequences.md)
 
 </div>
 

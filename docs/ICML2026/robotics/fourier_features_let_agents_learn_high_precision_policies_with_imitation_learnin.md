@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Fourier Features Let Agents Learn High Precision Policies with Imitation Learning
+description: >-
+  [ICML 2026][机器人][模仿学习] 把点云的笛卡尔坐标先做一次 NeRF 式傅里叶特征映射再喂给点云编码器，就能消除点云策略网络"先学低频、学不动高频"的频谱偏差，让扩散模仿学习策略在 RoboCasa、ManiSkill3 和真机的高精度操作任务上成功率大幅提升（真机归一化分数 14.8% → 40.2%），且对各种编码器和超参都鲁棒。
+tags:
+  - "ICML 2026"
+  - "机器人"
+  - "模仿学习"
+  - "点云策略"
+  - "傅里叶特征"
+  - "频谱偏差"
+  - "高精度操作"
+---
+
 # Fourier Features Let Agents Learn High Precision Policies with Imitation Learning
 
 **会议**: ICML 2026  

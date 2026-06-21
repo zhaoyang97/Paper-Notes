@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Automated Stateful Specialization for Adaptive Agent Systems
+description: >-
+  [ICLR 2026][模型压缩][多智能体] ASPEC 提出一套全自动的"有状态专家智能体团队"生命周期框架：先用进化搜索离线发现一批领域专家算子、再让它们在经验中反思培养出持久记忆，最后在线用一个轻量的 "retain-then-escalate"（先保留、再升级）元控制器决定每个查询是沿用现有团队还是重新搜索架构，从而在专家级科学基准 GPQA 上把 Gemini 2.0 Flash 从 56.3% 拉到 62.8%，同时训练+推理成本远低于同类自动框架。
+tags:
+  - "ICLR 2026"
+  - "模型压缩"
+  - "多智能体"
+  - "自动设计"
+  - "专家智能体"
+  - "进化搜索"
+  - "元控制器"
+---
+
 # Automated Stateful Specialization for Adaptive Agent Systems
 
 **会议**: ICLR 2026  
-**OpenReview**: [UESTP6dR1K](https://openreview.net/forum?id=UESTP6dR1K)  
+**OpenReview**: [https://openreview.net/forum?id=UESTP6dR1K](https://openreview.net/forum?id=UESTP6dR1K)  
 **代码**: https://github.com/myanvoos/ASpec  
 **领域**: 多智能体系统 / 自动智能体设计 / 自进化智能体  
 **关键词**: 多智能体、自动设计、专家智能体、进化搜索、元控制器
@@ -148,8 +163,8 @@ GPQA 上对五个组件 + 控制策略做消融（Table 6）：
 - [\[ICLR 2026\] Textual Equilibrium Propagation for Deep Compound AI Systems](textual_equilibrium_propagation_for_deep_compound_ai_systems.md)
 - [\[ICLR 2026\] Rejuvenating Cross-Entropy Loss in Knowledge Distillation for Recommender Systems](rejuvenating_cross-entropy_loss_in_knowledge_distillation_for_recommender_system.md)
 - [\[CVPR 2026\] Enhancing Mixture-of-Experts Specialization via Cluster-Aware Upcycling](../../CVPR2026/model_compression/enhancing_mixture_of_experts_specialization_via_cluster_aware_upcycling.md)
+- [\[ICLR 2026\] Adaptive Width Neural Networks](adaptive_width_neural_networks.md)
 - [\[ICML 2026\] PRISM: Synergizing Vision Foundation Models via Self-Organized Expert Specialization](../../ICML2026/model_compression/prism_synergizing_vision_foundation_models_via_self-organized_expert_specializat.md)
-- [\[ICML 2025\] Training a Generally Curious Agent (Paprika)](../../ICML2025/model_compression/training_a_generally_curious_agent.md)
 
 </div>
 

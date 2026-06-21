@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] An Improved Model-free Decision-estimation Coefficient with Applications in Adversarial MDPs
+description: >-
+  [ICLR 2026][学习理论][决策估计系数(DEC)] 本文提出 Dig-DEC——一种"无需乐观主义、纯靠信息增益驱动探索"的无模型决策估计系数，它恒不大于已有的乐观 DEC，并因此能首次处理"随机转移 + 对抗奖励"的混合 MDP 在 bandit 反馈下的无模型学习，同时把在线函数估计的遗憾率从 $T^{3/4}/T^{5/6}/T^{2/3}$ 一路收紧到 $T^{2/3}/T^{7/9}/\sqrt{T}$。
+tags:
+  - "ICLR 2026"
+  - "学习理论"
+  - "强化学习理论"
+  - "决策估计系数(DEC)"
+  - "无模型学习"
+  - "对抗 MDP"
+  - "信息增益"
+  - "遗憾界"
+---
+
 # An Improved Model-free Decision-estimation Coefficient with Applications in Adversarial MDPs
 
 **会议**: ICLR 2026  
-**OpenReview**: [lbLAgGF8OO](https://openreview.net/forum?id=lbLAgGF8OO)  
+**OpenReview**: [https://openreview.net/forum?id=lbLAgGF8OO](https://openreview.net/forum?id=lbLAgGF8OO)  
 **代码**: 待确认  
 **领域**: 学习理论 / 强化学习理论  
 **关键词**: 决策估计系数(DEC)、无模型学习、对抗 MDP、信息增益、遗憾界
@@ -130,11 +146,11 @@ $$L_k(\phi)=\sum_h\Big(\tfrac2\tau\textstyle\sum_{i=1}^{\tau/2}\ell_h(\phi;o_h^i
 
 ## 相关论文
 
-- [\[ICML 2026\] Optimal Design for Multinomial Logit Model with Applications to Best Assortment Identification](../../ICML2026/learning_theory/optimal_design_for_multinomial_logit_model_with_applications_to_best_assortment_.md)
-- [\[ICLR 2026\] A Faster Parameter-Free Regret Matching Algorithm](a_faster_parameter-free_regret_matching_algorithm.md)
-- [\[ICML 2025\] Improved Generalization Bounds for Transductive Learning by Transductive Local Complexity and Its Applications](../../ICML2025/learning_theory/improved_generalization_bounds_for_transductive_learning_by_transductive_local_c.md)
-- [\[ICLR 2026\] Bandit Learning in Matching Markets Robust to Adversarial Corruptions](bandit_learning_in_matching_markets_robust_to_adversarial_corruptions.md)
-- [\[ICLR 2026\] A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers](a_statistical_learning_perspective_on_semi-dual_adversarial_neural_optimal_trans.md)
+- [\[ICLR 2026\] Decision-Theoretic Approaches for Improved Learning-Augmented Algorithms](decision-theoretic_approaches_for_improved_learning-augmented_algorithms.md)
+- [\[ICLR 2026\] Dimension-Free Decision Calibration for Nonlinear Loss Functions](dimension-free_decision_calibration_for_nonlinear_loss_functions.md)
+- [\[ICLR 2026\] Improved High-Dimensional Estimation with Langevin Dynamics and Stochastic Weight Averaging](improved_high-dimensional_estimation_with_langevin_dynamics_and_stochastic_weigh.md)
+- [\[ICLR 2026\] Near-Optimal Sample Complexity Bounds for Constrained Average-Reward MDPs](near-optimal_sample_complexity_bounds_for_constrained_average-reward_mdps.md)
+- [\[ICLR 2026\] Online Decision-Focused Learning](online_decision-focused_learning.md)
 
 </div>
 

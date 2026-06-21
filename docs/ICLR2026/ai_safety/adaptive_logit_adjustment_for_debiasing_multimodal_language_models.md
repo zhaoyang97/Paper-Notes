@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Logit Adjustment for Debiasing Multimodal Language Models
+description: >-
+  [ICLR2026][AI安全][多模态去偏] ALA 是一种**后处理**去偏方法：在自回归生成的每一步，用外部图像/文本分类器测出"图像该有的属性"与"文本当前流露的偏见"之间的偏差，再沿梯度方向**只对偏见相关词的 logit** 做按比例微调，从而在不改动模型内部表征、不重训的前提下，把图文属性对齐或中和有害刻板印象，且几乎不掉模型实用性。
+tags:
+  - "ICLR2026"
+  - "AI安全"
+  - "多模态去偏"
+  - "logit 调整"
+  - "公平性"
+  - "集成梯度"
+  - "后处理干预"
+---
+
 # Adaptive Logit Adjustment for Debiasing Multimodal Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [u02Tgg4UYg](https://openreview.net/forum?id=u02Tgg4UYg)  
+**OpenReview**: [https://openreview.net/forum?id=u02Tgg4UYg](https://openreview.net/forum?id=u02Tgg4UYg)  
 **代码**: 有（论文称已开源在 GitHub，链接待确认）  
 **领域**: AI 安全 / 公平性 / 多模态去偏  
 **关键词**: 多模态去偏, logit 调整, 公平性, 集成梯度, 后处理干预
@@ -127,10 +142,10 @@ ALA 本身**不训练主模型**，无去偏损失；它只在推理期调 logit
 ## 相关论文
 
 - [\[CVPR 2026\] Towards Robust Multimodal Large Language Models Against Jailbreak Attacks](../../CVPR2026/ai_safety/towards_robust_multimodal_large_language_models_against_jailbreak_attacks.md)
+- [\[ICLR 2026\] Wring Out the Bias: A Rotation-Based Alternative to Projection Debiasing](wring_out_the_bias_a_rotation-based_alternative_to_projection_debiasing.md)
+- [\[CVPR 2026\] $\varphi$-DPO: Fairness Direct Preference Optimization Approach to Continual Learning in Large Multimodal Models](../../CVPR2026/ai_safety/φ-dpo_fairness_direct_preference_optimization_approach_to_continual_learning_in_.md)
+- [\[ICLR 2026\] Adversarial Attacks Already Tell the Answer: Directional Bias-Guided Test-time Defense for Vision-Language Models](adversarial_attacks_already_tell_the_answer_directional_bias-guided_test-time_de.md)
 - [\[CVPR 2026\] FVBench: Benchmarking Deepfake Video Detection Capability of Large Multimodal Models](../../CVPR2026/ai_safety/fvbench_benchmarking_deepfake_video_detection_capability_of_large_multimodal_mod.md)
-- [\[ICML 2026\] The Unlearnability Phenomenon in RLVR for Language Models](../../ICML2026/ai_safety/the_unlearnability_phenomenon_in_rlvr_for_language_models.md)
-- [\[ICLR 2026\] Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective](adaptive_methods_are_preferable_in_high_privacy_settings_an_sde_perspective.md)
-- [\[CVPR 2026\] Logit-Margin Repulsion for Backdoor Defense](../../CVPR2026/ai_safety/logit-margin_repulsion_for_backdoor_defense.md)
 
 </div>
 

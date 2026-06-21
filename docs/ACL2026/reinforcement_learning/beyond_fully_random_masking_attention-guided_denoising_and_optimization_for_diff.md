@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Beyond Fully Random Masking: Attention-Guided Denoising and Optimization for Diffusion Language Models
+description: >-
+  [ACL 2026][强化学习][扩散语言模型] 这篇论文发现扩散语言模型（dLLM）里"更多看向已确定上下文的 token 生成更稳、对推理更关键"，于是提出 AGDO——用注意力推导出去噪顺序，并在监督微调和强化学习中加权强调这些注意力枢纽 token，从而在数学和代码推理上稳定超过依赖随机掩码的现有 dLLM 后训练方法。
+tags:
+  - "ACL 2026"
+  - "强化学习"
+  - "扩散语言模型"
+  - "注意力引导去噪"
+  - "掩码策略"
+  - "GRPO"
+  - "推理增强"
+---
+
 # Beyond Fully Random Masking: Attention-Guided Denoising and Optimization for Diffusion Language Models
 
 **会议**: ACL 2026  

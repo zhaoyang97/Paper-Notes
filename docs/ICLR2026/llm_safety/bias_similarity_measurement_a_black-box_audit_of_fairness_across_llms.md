@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bias Similarity Measurement: A Black-Box Audit of Fairness Across LLMs
+description: >-
+  [ICLR2026][LLM安全][偏见相似度] 把"某个模型公平不公平"这个孤立标量评测，重构成"哪些模型在公平性上彼此像、为什么像"的**关系性度量**（Bias Similarity Measurement，BSM），用一组横跨标量/分布/行为/表征的相似度函数，在 30 个 LLM、100 万+ 提示上做黑盒审计，发现指令微调主要靠"强制弃答"而非改变内部表征来"变公平"。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "偏见相似度"
+  - "公平性审计"
+  - "指令微调"
+  - "弃答"
+  - "CKA"
+---
+
 # Bias Similarity Measurement: A Black-Box Audit of Fairness Across LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [EveruzAsGI](https://openreview.net/forum?id=EveruzAsGI)
+**OpenReview**: [https://openreview.net/forum?id=EveruzAsGI](https://openreview.net/forum?id=EveruzAsGI)
 **代码**: https://github.com/HyejunJeong/bias_llm  
 **领域**: LLM 安全 / 公平性审计  
 **关键词**: 偏见相似度、公平性审计、指令微调、弃答、CKA

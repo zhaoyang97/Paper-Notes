@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] More Capable, Less Cooperative? When LLMs Fail At Zero-Cost Collaboration
+description: >-
+  [ICML2026][多智能体][多智能体协作] 作者搭了一个"帮人零成本、合作是显然最优解"的回合制多智能体环境，发现 8 个主流 LLM 中能力强弱完全预测不了合作度（o3 只达到最优的 17%，更弱的 o3-mini 反而 50%），并用"自动化一侧通信"的因果分解把失败拆成"不愿合作"和"不会执行"两类，再用显式协议、微小分享激励、隐藏对比信息三种低成本干预分别对症下药。
+tags:
+  - "ICML2026"
+  - "多智能体"
+  - "多智能体协作"
+  - "零成本合作"
+  - "指令-效用鸿沟"
+  - "因果分解"
+  - "LLM评测"
+---
+
 # More Capable, Less Cooperative? When LLMs Fail At Zero-Cost Collaboration
 
 **会议**: ICML2026  

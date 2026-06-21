@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density
+description: >-
+  [ICLR2026][LLM评测][认知负载理论] CogniLoad 是一个基于认知负载理论（Cognitive Load Theory, CLT）构建的合成自然语言推理 benchmark，用三个相互独立、可任意调节的参数——内在难度 $d$、干扰项密度 $\rho$、任务长度 $N$——分别操控推理任务的内在负载、外在负载和与"专注负载"对应的持续维护负担，从而把长上下文推理失败精确归因到具体维度；作者用它评测了 22 个 SotA 推理大模型，发现任务长度是最主导的瓶颈，模型对干扰项呈现 U 型响应。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "认知负载理论"
+  - "长上下文推理"
+  - "逻辑谜题"
+  - "可控合成数据"
+  - "失败归因"
+---
+
 # CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [0Sex2H5Jnn](https://openreview.net/forum?id=0Sex2H5Jnn)  
+**OpenReview**: [https://openreview.net/forum?id=0Sex2H5Jnn](https://openreview.net/forum?id=0Sex2H5Jnn)  
 **代码**: https://cogniload.dk.fo （项目主页，含生成代码）  
 **领域**: LLM评测 / 长上下文推理 / 合成 benchmark  
 **关键词**: 认知负载理论, 长上下文推理, 逻辑谜题, 可控合成数据, 失败归因
@@ -124,3 +138,19 @@ GLM 拟合给出每个模型的容量分层（基于 ECL50/NT50/ID50）：
 - 实验充分度: ⭐⭐⭐⭐⭐ 22 个 SotA 模型、上万道题、外加 GLM 回归与容量阈值、交互效应、失败模式拆解，分析深入。
 - 写作质量: ⭐⭐⭐⭐ 理论动机与方法清晰、公式完整；CLT 术语密集、附录依赖较多，初读门槛偏高。
 - 价值: ⭐⭐⭐⭐⭐ 提供可复现、抗污染、可扩展且能做精确失败归因的诊断工具，对评测和指导模型改进都很实用。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2025\] BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian](../../ACL2025/llm_evaluation/belarusian_glue.md)
+- [\[ACL 2025\] MisMatched: A Benchmark for Scientific Natural Language Inference](../../ACL2025/llm_evaluation/a_mismatched_benchmark_for_scientific_natural_language_inference.md)
+- [\[ICLR 2026\] Reliable Fine-Grained Evaluation of Natural Language Math Proofs](reliable_fine-grained_evaluation_of_natural_language_math_proofs.md)
+- [\[ACL 2025\] MDBench: A Synthetic Multi-Document Reasoning Benchmark Generated with Knowledge Guidance](../../ACL2025/llm_evaluation/mdbench_a_synthetic_multi-document_reasoning_benchmark_generated_with_knowledge_.md)
+- [\[ICLR 2026\] EIP: Weighted Ranking of LLMs by Quantifying Question Difficulty](eip_weighted_ranking_of_llms_by_quantifying_question_difficulty.md)
+
+</div>
+
+<!-- RELATED:END -->

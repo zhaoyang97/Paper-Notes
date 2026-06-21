@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] TINNs: Time-Induced Neural Networks for Solving Time-Dependent PDEs
+description: >-
+  [ICML 2026][物理/科学计算][偏微分方程] 针对标准时空 PINN 把时间当成额外输入、全程共享一套权重导致"时间纠缠"的问题，TINNs 把网络权重本身写成时间的函数 $u_{\theta(t)}(\mathbf{x})$，让空间表征随时间演化，并用一个紧凑的逐层时间嵌入避免超网络的参数爆炸，再配 Levenberg–Marquardt 二阶优化器，在多个时变 PDE 上把相对 $L^2$ 误差压低最多 $4\times$、收敛快约 $10\times$。
+tags:
+  - "ICML 2026"
+  - "物理/科学计算"
+  - "偏微分方程"
+  - "PINN"
+  - "时间纠缠"
+  - "超网络"
+  - "Levenberg–Marquardt"
+---
+
 # TINNs: Time-Induced Neural Networks for Solving Time-Dependent PDEs
 
 **会议**: ICML 2026  

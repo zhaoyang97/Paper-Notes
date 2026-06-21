@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation
+description: >-
+  [ACL 2026][信息检索/RAG][斯洛伐克语] 论文为斯洛伐克语（约 500 万使用者的西斯拉夫语低资源语言）建了第一个 MTEB 风格的综合文本嵌入基准 SkMTEB（31 个数据集、7 类任务，深度接近现有多语言覆盖的 4 倍），评测了 31 个嵌入模型，并用**词表裁剪 + 定向微调**把 Multilingual E5 压成 45M/365M 的本地可部署斯洛伐克语嵌入模型，在缩小最多 62% 体积的同时追平商用 API。
+tags:
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "斯洛伐克语"
+  - "文本嵌入"
+  - "MTEB"
+  - "词表裁剪"
+  - "低资源NLP"
+---
+
 # SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation
 
 **会议**: ACL 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving
+description: >-
+  [ICLR 2026][信息检索/RAG][RAG 服务] AdaCache 针对 RAG 推理的两类浪费——同一文本块被反复重算、以及不分难度地塞满 top-k 上下文——提出"分层缓存 + 注意力感知的选择性重算"与"置信度驱动的自适应上下文扩展"两套机制，在六个数据集、三个模型上把首 token 延迟（TTFT）相比最强 RAG 缓存系统降低 1.4×∼5.0×，且生成质量基本不掉。
+tags:
+  - "ICLR 2026"
+  - "信息检索/RAG"
+  - "RAG 服务"
+  - "KV 缓存复用"
+  - "选择性重算"
+  - "自适应上下文"
+  - "TTFT"
+---
+
 # AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving
 
 **会议**: ICLR 2026  
-**OpenReview**: [Bmvx8ybDzo](https://openreview.net/forum?id=Bmvx8ybDzo)  
+**OpenReview**: [https://openreview.net/forum?id=Bmvx8ybDzo](https://openreview.net/forum?id=Bmvx8ybDzo)  
 **代码**: 待确认  
 **领域**: LLM效率 / RAG / KV缓存 / 推理加速  
 **关键词**: RAG 服务、KV 缓存复用、选择性重算、自适应上下文、TTFT
@@ -110,3 +125,19 @@ AdaCache 偶尔在准确率上反超全量重算，因为过多上下文会引�
 - 实验充分度: ⭐⭐⭐⭐ 三模型六数据集、含消融与 top-k 扩展性分析，但缺端到端吞吐与真实部署延迟。
 - 写作质量: ⭐⭐⭐⭐ 动机用幂律分布和边际效益两组观测撑得很实，方法叙述清晰，图示信息密度略高。
 - 价值: ⭐⭐⭐⭐ RAG 服务降 TTFT 是真实工程痛点，方法可即插到现有缓存系统，落地性强。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
+- [\[ICLR 2026\] Embedding-Based Context-Aware Reranker](embedding-based_context-aware_reranker.md)
+- [\[ICLR 2026\] RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference](raee_a_robust_retrieval-augmented_early_exit_framework_for_efficient_inference.md)
+- [\[ICLR 2026\] HiPRAG: Hierarchical Process Rewards for Efficient Agentic Retrieval Augmented Generation](hiprag_hierarchical_process_rewards_for_efficient_agentic_retrieval_augmented_ge.md)
+- [\[ICLR 2026\] ELViS: Efficient Visual Similarity from Local Descriptors that Generalizes Across Domains](elvis_efficient_visual_similarity_from_local_descriptors_that_generalizes_across.md)
+
+</div>
+
+<!-- RELATED:END -->

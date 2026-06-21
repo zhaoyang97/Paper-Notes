@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Accelerating Inference for Multilayer Neural Networks with Quantum Computers
+description: >-
+  [ICLR2026][物理/科学计算][量子计算] 本文给出了**首个全程相干（fully-coherent）**的多层神经网络量子实现——把 ResNet 风格的多滤波 2D 卷积、非线性激活、跳连和层归一化全部搬到量子电路上，无需中途测量读出，并在三种量子数据访问假设下证明了从二次加速、四次加速直到对输入维度 $N$ 仅 $O(\mathrm{polylog}(N/\epsilon)^k)$ 的端到端推理复杂度。
+tags:
+  - "ICLR2026"
+  - "物理/科学计算"
+  - "量子计算"
+  - "神经网络推理"
+  - "块编码"
+  - "残差网络"
+  - "复杂度证明"
+---
+
 # Accelerating Inference for Multilayer Neural Networks with Quantum Computers
 
 **会议**: ICLR2026  
-**OpenReview**: [QcRto0GjxC](https://openreview.net/forum?id=QcRto0GjxC)  
+**OpenReview**: [https://openreview.net/forum?id=QcRto0GjxC](https://openreview.net/forum?id=QcRto0GjxC)  
 **代码**: 待确认  
 **领域**: 量子机器学习 / 量子算法  
 **关键词**: 量子计算, 神经网络推理, 块编码, 残差网络, 复杂度证明
@@ -140,9 +155,9 @@ flowchart TD
 
 - [\[ICLR 2026\] AQER: A Scalable and Efficient Data Loader for Digital Quantum Computers](aqer_a_scalable_and_efficient_data_loader_for_digital_quantum_computers.md)
 - [\[ICCV 2025\] ResQ: A Novel Framework to Implement Residual Neural Networks on Analog Rydberg Atom Quantum Computers](../../ICCV2025/physics/resq_a_novel_framework_to_implement_residual_neural_networks_on_analog_rydberg_a.md)
+- [\[ICLR 2026\] Sublinear Time Quantum Algorithm for Attention Approximation](sublinear_time_quantum_algorithm_for_attention_approximation.md)
+- [\[ICLR 2026\] Feedback-driven Recurrent Quantum Neural Network Universality](feedback-driven_recurrent_quantum_neural_network_universality.md)
 - [\[NeurIPS 2025\] Exoplanet Formation Inference Using Conditional Invertible Neural Networks](../../NeurIPS2025/physics/exoplanet_formation_inference_using_conditional_invertible_neural_networks.md)
-- [\[ICLR 2026\] Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter](accelerating_eigenvalue_dataset_generation_via_chebyshev_subspace_filter.md)
-- [\[ICML 2025\] Compact Matrix Quantum Group Equivariant Neural Networks](../../ICML2025/physics/compact_matrix_quantum_group_equivariant_neural_networks.md)
 
 </div>
 

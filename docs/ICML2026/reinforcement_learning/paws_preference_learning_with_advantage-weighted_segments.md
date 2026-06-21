@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] PAWS: Preference Learning with Advantage-Weighted Segments
+description: >-
+  [ICML 2026][强化学习][偏好强化学习] PAWS 指出现有偏好强化学习（PbRL）"在段级训练效用函数、却在单步级使用"造成了分布偏移，从而提出**全程都在轨迹段（segment）层面**训练优势函数并更新策略，用段级优势加权 + 信任域约束的加权最大似然来优化策略，在 Meta-World 机器人操作任务上把偏好信号的利用率和成功率都显著拉高。
+tags:
+  - "ICML 2026"
+  - "强化学习"
+  - "偏好强化学习"
+  - "时序信用分配"
+  - "优势函数"
+  - "信任域"
+  - "有效样本数"
+---
+
 # PAWS: Preference Learning with Advantage-Weighted Segments
 
 **会议**: ICML 2026  

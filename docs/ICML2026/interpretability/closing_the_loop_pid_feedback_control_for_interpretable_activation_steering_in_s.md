@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Closing the Loop: PID Feedback Control for Interpretable Activation Steering in Symbolic Music Generation
+description: >-
+  [ICML 2026][可解释性][激活引导] 这篇论文把控制论里的 PID 反馈控制搬进「基于稀疏自编码器（SAE）的激活引导」，用积分项累积误差去突破 SAE 的 Top-K 稀疏阈值——静态引导在做渐变时分数级强度根本进不了 Top-K 导致干预被清零，而 Temporal PID 在每个自回归步动态调 $\lambda(t)$，让符号音乐的音高/时值引导能平滑过渡，干预强度少 62–67%、FMD 退化降 5%。
+tags:
+  - "ICML 2026"
+  - "可解释性"
+  - "激活引导"
+  - "PID 控制"
+  - "稀疏自编码器"
+  - "可控生成"
+  - "符号音乐"
+---
+
 # Closing the Loop: PID Feedback Control for Interpretable Activation Steering in Symbolic Music Generation
 
 **会议**: ICML 2026  

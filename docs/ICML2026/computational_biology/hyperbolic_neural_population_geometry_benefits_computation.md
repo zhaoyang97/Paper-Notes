@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Hyperbolic Neural Population Geometry Benefits Computation
+description: >-
+  [ICML2026][计算生物][神经群体几何] 为"海马群体活动呈双曲结构"这一实验现象建一套理论：先证明感受野宽度服从指数分布的位置细胞会**统计意义上诱导出树状/双曲的刺激几何**，再揭示现代 Hopfield 网络的更新规则其实在算 MMSE 最优解码器，最后据此提出一个**定义在双曲空间的联想记忆模型（Karcher-flow 模型）**，其容量随维度指数、随最大范数双指数增长，远超现有模型。
+tags:
+  - "ICML2026"
+  - "计算生物"
+  - "神经群体几何"
+  - "海马位置细胞"
+  - "现代Hopfield网络"
+  - "MMSE解码"
+  - "记忆容量"
+---
+
 # Hyperbolic Neural Population Geometry Benefits Computation
 
 **会议**: ICML2026  

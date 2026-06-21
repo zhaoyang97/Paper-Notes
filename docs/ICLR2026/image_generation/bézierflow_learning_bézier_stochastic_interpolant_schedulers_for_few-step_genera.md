@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation
+description: >-
+  [ICLR2026][图像生成][少步采样] BézierFlow 把"少步生成要优化什么"从离散的 ODE 时间步换成连续的随机插值（SI）调度器，并用贝塞尔曲线的控制点来参数化这个调度器，只花 15 分钟轻量训练就让预训练扩散/流模型在 ≤10 步采样下 FID 提升 2–3 倍。 领域现状：扩散模型和流模型质量很高…
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "少步采样"
+  - "随机插值"
+  - "贝塞尔曲线"
+  - "调度器学习"
+  - "轻量训练"
+---
+
 # BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation
 
 **会议**: ICLR2026  
-**OpenReview**: [PCuDI32xhQ](https://openreview.net/forum?id=PCuDI32xhQ)  
+**OpenReview**: [https://openreview.net/forum?id=PCuDI32xhQ](https://openreview.net/forum?id=PCuDI32xhQ)  
 **项目页**: https://bezierflow.github.io  
 **代码**: 待确认  
 **领域**: 扩散模型 / 少步生成  
@@ -86,6 +101,7 @@ $$\min_\theta\ \mathbb{E}_{x_0\sim p_0}\Big[d\big(\xi(x_0,\{t_i\};S_\phi),\ \bar
 流模型上提升更猛：CIFAR-10 + RK1 在 NFE=4 时 BézierFlow 20.64，比次优 LD3（38.95）领先 18.31；ImageNet + FlowDCN 在 NFE=6/8/10 全面最优（如 NFE=6：6.85 vs LD3 11.94）。
 
 ### 消融实验
+
 | 配置 / 分析 | 关键指标 | 说明 |
 |------|---------|------|
 | 贝塞尔阶数 $n$:4→32 | FID 单调下降 | $n=16$→$32$ 收益变小，故取 32；训练时间几乎不增 |
@@ -128,10 +144,10 @@ $$\min_\theta\ \mathbb{E}_{x_0\sim p_0}\Big[d\big(\xi(x_0,\{t_i\};S_\phi),\ \bar
 ## 相关论文
 
 - [\[ICLR 2026\] DistillKac: Few-Step Image Generation via Damped Wave Equations](distillkac_few-step_image_generation_via_damped_wave_equations.md)
+- [\[ICLR 2026\] PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models](pairflow_closed-form_source-target_coupling_for_few-step_generation_in_discrete_.md)
 - [\[CVPR 2026\] Refining Few-Step Text-to-Multiview Diffusion via Reinforcement Learning](../../CVPR2026/image_generation/refining_few-step_text-to-multiview_diffusion_via_reinforcement_learning.md)
-- [\[CVPR 2026\] Flash-DMD: Towards High-Fidelity Few-Step Image Generation with Efficient Distillation and Joint Reinforcement Learning](../../CVPR2026/image_generation/flash-dmd_towards_high-fidelity_few-step_image_generation_with_efficient_distill.md)
-- [\[CVPR 2026\] Uni-DAD: Unified Distillation and Adaptation of Diffusion Models for Few-step Few-shot Image Generation](../../CVPR2026/image_generation/uni-dad_unified_distillation_and_adaptation_of_diffusion_models_for_few-step_few.md)
-- [\[ICCV 2025\] Learning Few-Step Diffusion Models by Trajectory Distribution Matching](../../ICCV2025/image_generation/learning_few-step_diffusion_models_by_trajectory_distribution_matching.md)
+- [\[CVPR 2026\] LogCD: Local-to-global Consistency Distillation for Few-step Image Generation](../../CVPR2026/image_generation/logcd_local-to-global_consistency_distillation_for_few-step_image_generation.md)
+- [\[NeurIPS 2025\] BoltzNCE: Learning Likelihoods for Boltzmann Generation with Stochastic Interpolants](../../NeurIPS2025/image_generation/boltznce_learning_likelihoods_for_boltzmann_generation_with_stochastic_interpola.md)
 
 </div>
 

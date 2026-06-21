@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CASteer: Cross-Attention Steering for Controllable Concept Erasure
+description: >-
+  [ICLR2026][图像生成][概念擦除] CASteer 是一个**免训练**的扩散模型概念擦除框架：先用成对正/负提示词预计算每个概念在交叉注意力层的「引导向量」，推理时按当前激活与该向量的投影大小动态地把这个方向减掉，从而只在概念真正出现的图块上精准抹除它（裸露、暴力、特定角色/画风都行），同时几乎不动其他内容，在多个基准上超过所有需要训练的 SOTA。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "概念擦除"
+  - "扩散模型"
+  - "引导向量"
+  - "交叉注意力"
+  - "免训练"
+---
+
 # CASteer: Cross-Attention Steering for Controllable Concept Erasure
 
 **会议**: ICLR2026  
-**OpenReview**: [6D5Odqol1B](https://openreview.net/forum?id=6D5Odqol1B)  
+**OpenReview**: [https://openreview.net/forum?id=6D5Odqol1B](https://openreview.net/forum?id=6D5Odqol1B)  
 **代码**: https://github.com/Atmyre/CASteer  
 **领域**: 扩散模型 / AI 安全  
 **关键词**: 概念擦除, 扩散模型, 引导向量, 交叉注意力, 免训练
@@ -149,3 +164,19 @@ CASteer 在抹掉目标画风的同时把无关画风保留得最好。
 - 实验充分度: ⭐⭐⭐⭐⭐ 裸露/不当内容/具体概念/画风四类任务 + 多主干 + 隐式概念 + 画质评测，对比方法十余个
 - 写作质量: ⭐⭐⭐⭐ 方法推导清晰、$\beta=2$ 的动机讲得透；部分实验细节挪到附录
 - 价值: ⭐⭐⭐⭐⭐ 免训练、零开销、可烘焙进权重，对扩散模型安全部署非常实用，代码开源
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Mass Concept Erasure in Diffusion Models with Concept Hierarchy](../../AAAI2026/image_generation/mass_concept_erasure_in_diffusion_models_with_concept_hierarchy.md)
+- [\[CVPR 2026\] GrOCE: Graph-Guided Online Concept Erasure for Text-to-Image Diffusion Models](../../CVPR2026/image_generation/groce_graph-guided_online_concept_erasure_for_text-to-image_diffusion_models.md)
+- [\[CVPR 2026\] Closed-Form Concept Erasure via Double Projections](../../CVPR2026/image_generation/closed-form_concept_erasure_via_double_projections.md)
+- [\[ICLR 2026\] AEGIS: Adversarial Target-Guided Retention-Data-Free Robust Concept Erasure from Diffusion Models](aegis_adversarial_target-guided_retention-data-free_robust_concept_erasure_from_.md)
+- [\[ICML 2026\] Orthogonal Concept Erasure for Diffusion Models](../../ICML2026/image_generation/orthogonal_concept_erasure_for_diffusion_models.md)
+
+</div>
+
+<!-- RELATED:END -->

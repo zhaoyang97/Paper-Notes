@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Query Lens: Interpreting Sparse Key-Value Features with Indirect Effects
+description: >-
+  [ICML 2026][可解释性][稀疏自编码器] 针对 Logit Lens 只看"直接效应"、对大量 SAE 特征解释失败的问题，本文提出 Query Lens：同时利用编码器侧的 key 特征和解码器侧的 value 特征，并把特征经下游模块产生的**间接效应**（残差流雅可比乘积）纳入投影，从而对此前"不可解释"的特征也能给出连贯的输入/输出 token 解释。
+tags:
+  - "ICML 2026"
+  - "可解释性"
+  - "稀疏自编码器"
+  - "Logit Lens"
+  - "间接效应"
+  - "key-value 记忆"
+  - "残差流"
+---
+
 # Query Lens: Interpreting Sparse Key-Value Features with Indirect Effects
 
 **会议**: ICML 2026  

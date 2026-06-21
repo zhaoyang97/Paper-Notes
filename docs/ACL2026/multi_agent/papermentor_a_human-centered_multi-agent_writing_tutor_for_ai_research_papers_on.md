@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf
+description: >-
+  [ACL 2026][多智能体][写作辅导] PaperMentor 把资深研究者的写作经验整理成一套「专家技能库」，再让 12 个分工明确的智能体并行评审一篇 LaTeX 论文，最后以 Overleaf 原生行内批注的形式给出**可落地的修改建议**——但绝不替你改稿；用户研究中 90.6% 的批注被判定为「可操作」，验证度与可操作度都显著超过没有技能库的 GPT-5.2 基线。
+tags:
+  - "ACL 2026"
+  - "多智能体"
+  - "写作辅导"
+  - "专家技能库"
+  - "Overleaf"
+  - "行内评论"
+---
+
 # PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf
 
 **会议**: ACL 2026  

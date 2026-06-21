@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Is Code Better Than Language for Algorithmic Reasoning?
+description: >-
+  [ICML2026][Reasoning][算法推理] 作者用一个"三条路线"框架把工具增强 LLM 的两个被混淆的因素——推理表征（代码 vs 自然语言）和执行机制（LLM 模拟 vs 真实解释器）——干净地拆开，发现在 40 个可验证算法任务上，代码本身几乎不带来增益（+0.15pp），真正把准确率从 17% 抬到 49% 的是"可靠的外部执行"（+31.47pp），并用一个线性决策论模型证明了"代码表征不劣于自然语言"。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "算法推理"
+  - "工具使用"
+  - "代码生成"
+  - "决策论"
+  - "表征 vs 执行"
+---
+
 # Is Code Better Than Language for Algorithmic Reasoning?
 
 **会议**: ICML2026  

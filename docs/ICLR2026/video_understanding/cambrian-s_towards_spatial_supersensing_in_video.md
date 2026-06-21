@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cambrian-S: Towards Spatial Supersensing in Video
+description: >-
+  [ICLR2026][视频理解][空间超感知] 本文提出"空间超感知（spatial supersensing）"这一从被动任务驱动转向主动世界建模的范式：先用 VSI-SUPER 基准证明暴力扩长上下文（包括 Gemini-2.5 和自训的 Cambrian-S）在任意长视频上的空间回忆与计数任务上彻底失效，再用一个自监督的"潜帧预测"头把预测误差（"惊讶"）当作控制信号去驱动记忆管理与事件分割，从而在长视频空间任务上大幅超过强商业基线。
+tags:
+  - "ICLR2026"
+  - "视频理解"
+  - "空间超感知"
+  - "视频MLLM"
+  - "预测式感知"
+  - "惊讶信号"
+  - "流式记忆"
+---
+
 # Cambrian-S: Towards Spatial Supersensing in Video
 
 **会议**: ICLR2026  
-**OpenReview**: [rBFDvZu6pb](https://openreview.net/forum?id=rBFDvZu6pb)  
+**OpenReview**: [https://openreview.net/forum?id=rBFDvZu6pb](https://openreview.net/forum?id=rBFDvZu6pb)  
 **代码**: 待确认  
 **领域**: 视频理解 / 多模态VLM  
 **关键词**: 空间超感知, 视频MLLM, 预测式感知, 惊讶信号, 流式记忆
@@ -125,7 +140,7 @@ flowchart TD
 - [\[CVPR 2025\] STOP: Integrated Spatial-Temporal Dynamic Prompting for Video Understanding](../../CVPR2025/video_understanding/stop_integrated_spatial-temporal_dynamic_prompting_for_video_understanding.md)
 - [\[CVPR 2025\] VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with Video LLM](../../CVPR2025/video_understanding/videorefer_suite_advancing_spatial-temporal_object_understanding_with_video_llm.md)
 - [\[CVPR 2026\] LaDy: Lagrangian-Dynamic Informed Network for Skeleton-based Action Segmentation via Spatial-Temporal Modulation](../../CVPR2026/video_understanding/lady_lagrangian-dynamic_informed_network_for_skeleton-based_action_segmentation_.md)
-- [\[ICLR 2026\] Video-KTR: Reinforcing Video Reasoning via Key Token Attribution](video-ktr_reinforcing_video_reasoning_via_key_token_attribution.md)
+- [\[ICLR 2026\] A Training-Free Framework for Long Video Understanding via Video-Query-Options Similarity](a_training-free_framework_for_long_video_understanding_via_video-query-options_s.md)
 
 </div>
 

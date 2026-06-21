@@ -16,7 +16,7 @@ tags:
 # Annotation-Efficient Honesty Alignment via Confidence Elicitation and Calibration
 
 **会议**: ICLR2026  
-**OpenReview**: [cW6oDsPobl](https://openreview.net/forum?id=cW6oDsPobl)  
+**OpenReview**: [https://openreview.net/forum?id=cW6oDsPobl](https://openreview.net/forum?id=cW6oDsPobl)  
 **代码**: 待确认  
 **领域**: 对齐RLHF / LLM诚实性  
 **关键词**: 诚实对齐, 置信度校准, 自一致性, 标注高效, AUROC
@@ -135,10 +135,10 @@ Qwen2.5-7B-Instruct 上的 AUROC（域内 5 数据集 + OOD 5 数据集均值）
 ## 相关论文
 
 - [\[ICML 2026\] Decoupling Reasoning and Confidence: Resurrecting Calibration in Reinforcement Learning from Verifiable Rewards](../../ICML2026/llm_alignment/decoupling_reasoning_and_confidence_resurrecting_calibration_in_reinforcement_le.md)
-- [\[CVPR 2026\] EcoAlign: An Economically Rational Framework for Efficient LVLM Alignment](../../CVPR2026/llm_alignment/ecoalign_an_economically_rational_framework_for_efficient_lvlm_alignment.md)
+- [\[ICLR 2026\] PALC: Preference Alignment via Logit Calibration](palc_preference_alignment_via_logit_calibration.md)
+- [\[ICLR 2026\] When Weak LLMs Speak with Confidence, Preference Alignment Gets Stronger](when_weak_llms_speak_with_confidence_preference_alignment_gets_stronger.md)
 - [\[ICLR 2026\] ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment](activedpo_active_direct_preference_optimization_for_sample-efficient_alignment.md)
-- [\[AAAI 2026\] EASE: Practical and Efficient Safety Alignment for Small Language Models](../../AAAI2026/llm_alignment/ease_practical_and_efficient_safety_alignment_for_small_language_models.md)
-- [\[ACL 2026\] Alignment Data Map for Efficient Preference Data Selection and Diagnosis](../../ACL2026/llm_alignment/alignment_data_map_for_efficient_preference_data_selection_and_diagnosis.md)
+- [\[CVPR 2026\] EcoAlign: An Economically Rational Framework for Efficient LVLM Alignment](../../CVPR2026/llm_alignment/ecoalign_an_economically_rational_framework_for_efficient_lvlm_alignment.md)
 
 </div>
 

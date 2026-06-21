@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] RETROSPECT: RETROsynthesis via Sequential Prediction, and Chemically Transformed-ranking
+description: >-
+  [ICML2026][计算生物][单步逆合成] 把单步逆合成拆成"提议（proposal）+ 选择（selection）"两个独立模块——用一个强化训练的单模型 ChemAlign Transformer 生成候选前驱体，再用 LambdaMART 对合并去重后的候选池做学习排序重排，在 USPTO-50K 上单模型 top-1 达 55.00%、重排后 59.4%，并诚实地拆清了"重排增益主要来自哪些特征"。
+tags:
+  - "ICML2026"
+  - "计算生物"
+  - "单步逆合成"
+  - "SMILES 增强"
+  - "Transformer"
+  - "LambdaMART 重排"
+  - "USPTO-50K"
+---
+
 # RETROSPECT: RETROsynthesis via Sequential Prediction, and Chemically Transformed-ranking
 
 **会议**: ICML2026  

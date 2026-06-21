@@ -1,3 +1,21 @@
+---
+title: >-
+  [论文解读] Geometric and Stochastic Analysis of Discontinuities in Sparse Mixture-of-Experts
+description: >-
+  [ICML 2026][学习理论][Sparse MoE] 首次对稀疏专家混合（SMoE）中 Top-$k$ 路由带来的"输入—输出映射不连续性"做严格的几何 + 随机分析——按"打平专家个数"给不连续面分阶，证明低阶（order-1）不连续面占据几乎全部"近不连续"体积、高阶面体积可忽略，并用扩散过程证明随机扰动几乎必然首次撞上 order-1 面；据此提出一个即插即用的 $\ell_\infty$ 局部平滑机制 SmoothSMoE，在几乎不增算力的前提下让 SMoE 映射连续并提升语言/视觉任务性能。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "稀疏专家混合"
+  - "路由连续性"
+  - "Sparse MoE"
+  - "Top-k 路由"
+  - "不连续性分析"
+  - "测度论"
+  - "扩散过程"
+  - "局部平滑"
+---
+
 # Geometric and Stochastic Analysis of Discontinuities in Sparse Mixture-of-Experts
 
 **会议**: ICML 2026  

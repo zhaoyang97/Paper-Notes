@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Canonical Tree Cover Neural Networks for Expressive and Invariant Graph Learning
+description: >-
+  [ICLR2026][图学习][图正则化] 针对"把图压成单条序列做正则化（canonicalization）会扭曲图上距离、且表达力被节点标注器卡死"这两个老毛病，本文提出 CTNN：把图表示成**一组规范化的生成树覆盖**（canonical spanning tree cover），每棵树用表达力强的递归树编码器处理再聚合，理论上既保不变性、又更好地保距离、还严格强于序列正则化，在稀疏分子/蛋白图分类上稳定超过不变 GNN 和序列正则化基线。
+tags:
+  - "ICLR2026"
+  - "图学习"
+  - "图正则化"
+  - "生成树覆盖"
+  - "图神经网络"
+  - "同构不变性"
+  - "距离失真"
+---
+
 # Canonical Tree Cover Neural Networks for Expressive and Invariant Graph Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [yumDmlGCc9](https://openreview.net/forum?id=yumDmlGCc9)  
+**OpenReview**: [https://openreview.net/forum?id=yumDmlGCc9](https://openreview.net/forum?id=yumDmlGCc9)  
 **代码**: https://github.com/MLD3/CanonicalTreeNNs  
 **领域**: 图学习 / GNN 表达力  
 **关键词**: 图正则化, 生成树覆盖, GNN 表达力, 同构不变性, 距离失真
@@ -87,6 +102,7 @@ CTNN 的不变性强度由 $\pi_V$ 决定，作者给了一个统一的"插值"�
 | Max Contraction ↓ | 任意 | 4–6 | 5–6 | **1.00** |
 
 ### 消融实验
+
 | 配置 | ClinTox | SCOP(蛋白) | 说明 |
 |------|---------|------------|------|
 | Single tree（单树替覆盖） | 78.2 | 68.7 | 边覆盖下降、失真上升；分子上影响小、蛋白上明显掉 |
@@ -129,11 +145,11 @@ CTNN 的不变性强度由 $\pi_V$ 决定，作者给了一个统一的"插值"�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Learning from Historical Activations in Graph Neural Networks](learning_from_historical_activations_in_graph_neural_networks.md)
 - [\[ICML 2026\] Full-Spectrum Graph Neural Network: Expressive and Scalable](../../ICML2026/graph_learning/full-spectrum_graph_neural_network_expressive_and_scalable.md)
-- [\[ICLR 2026\] On the Expressive Power of GNNs for Boolean Satisfiability](on_the_expressive_power_of_gnns_for_boolean_satisfiability.md)
-- [\[ICLR 2026\] A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks](a_graph_meta-network_for_learning_on_kolmogorovarnold_networks.md)
+- [\[ICLR 2026\] On The Expressive Power of GNN Derivatives](on_the_expressive_power_of_gnn_derivatives.md)
 - [\[ICLR 2026\] Are We Measuring Oversmoothing in Graph Neural Networks Correctly?](are_we_measuring_oversmoothing_in_graph_neural_networks_correctly.md)
-- [\[ICLR 2026\] Cooperative Sheaf Neural Networks](cooperative_sheaf_neural_networks.md)
+- [\[ICLR 2026\] A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks](a_graph_meta-network_for_learning_on_kolmogorovarnold_networks.md)
 
 </div>
 

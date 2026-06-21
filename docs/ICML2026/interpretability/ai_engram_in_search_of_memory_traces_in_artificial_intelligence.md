@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AI Engram: In Search of Memory Traces in Artificial Intelligence
+description: >-
+  [ICML2026][可解释性][记忆痕迹] 把神经科学里"engram（记忆痕迹）"的四条经典判据（特异性、再激活、充分性、必要性）翻译成参数空间上的代数约束，从而推出一个**只需输入统计量、一次前向就能算出**的闭式估计器，把某个概念在网络权重里对应的因果子成分单独"抠"出来，使得任意知识可以通过简单的线性加减被注入或抹除——并证明这个生物学动机的解恰好等价于 Fisher 度量下的自然梯度投影。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "记忆痕迹"
+  - "神经科学约束"
+  - "闭式解"
+  - "Fisher 信息几何"
+  - "组合式遗忘"
+---
+
 # AI Engram: In Search of Memory Traces in Artificial Intelligence
 
 **会议**: ICML2026  

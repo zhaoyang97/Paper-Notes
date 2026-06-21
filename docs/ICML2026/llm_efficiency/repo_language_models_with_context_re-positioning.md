@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] RePo: Language Models with Context Re-Positioning
+description: >-
+  [ICML 2026][LLM效率][位置编码] 现有 LLM 把 token 强行按线性整数索引 0…L−1 排位，让注意力层独自承担"整理上下文结构"的重活；RePo 用一个轻量可微模块 $f_\phi$ 根据 token 隐状态给它分配**连续、非线性**的位置值，把这份"额外认知负荷"卸掉，在嘈杂上下文、结构化数据和长上下文任务上稳定涨点，短上下文通用任务几乎不掉。
+tags:
+  - "ICML 2026"
+  - "LLM效率"
+  - "位置编码"
+  - "上下文重定位"
+  - "RoPE"
+  - "长上下文"
+  - "注意力分配"
+---
+
 # RePo: Language Models with Context Re-Positioning
 
 **会议**: ICML 2026  

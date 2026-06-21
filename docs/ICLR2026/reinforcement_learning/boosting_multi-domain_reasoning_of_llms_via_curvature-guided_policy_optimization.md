@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Boosting Multi-Domain Reasoning of LLMs via Curvature-Guided Policy Optimization
+description: >-
+  [ICLR2026][强化学习][多领域 RL] 针对多领域 RL 训练 LLM 时「学好数学就学坏写作」的跨域冲突问题，CGPO 借鉴牛顿法「用曲率给梯度做预条件」的思想，但不显式算 Hessian，而是把一个 batch 拆成各领域子 batch、**按随机顺序逐域串行更新**——后更新的域天然感受到先更新域留下的曲率扰动，从而在期望上等价于最大化各域梯度内积、隐式对齐跨域梯度；在 Qwen2.5-3B/7B、四领域七基准上平均分稳超联合训练与梯度均衡基线（7B 59.59 vs 联合 56.62），且几乎零额外开销。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "多领域 RL"
+  - "跨域冲突"
+  - "曲率引导"
+  - "梯度对齐"
+  - "GRPO"
+---
+
 # Boosting Multi-Domain Reasoning of LLMs via Curvature-Guided Policy Optimization
 
 **会议**: ICLR2026  
-**OpenReview**: [R2EZtdHWJT](https://openreview.net/forum?id=R2EZtdHWJT)  
+**OpenReview**: [https://openreview.net/forum?id=R2EZtdHWJT](https://openreview.net/forum?id=R2EZtdHWJT)  
 **代码**: https://github.com/MIRALab-USTC/CGPO  
 **领域**: 强化学习 / RLHF / LLM 推理  
 **关键词**: 多领域 RL、跨域冲突、曲率引导、梯度对齐、GRPO  
@@ -83,6 +98,7 @@ $$H_i(\phi_0)g_j(\phi_0)+H_j(\phi_0)g_i(\phi_0)=\frac{\partial}{\partial\phi_0}\
 CGPO 在两个模型规模上平均分都最高，且大多数单域排第一或第二。增益最明显的是**代码生成和创意写作**——尤其创意写作（更主观、与其他域冲突最大）涨幅突出，是 CGPO 化解跨域冲突的有力证据。7B 上增益比 3B 更大，说明方法收益随模型容量放大。训练奖励曲线（图 2）显示 CGPO 各域曲线全程高于联合训练，奖励提升更快。
 
 ### 消融实验
+
 | 配置 | AVG (7B) | 说明 |
 |------|----------|------|
 | CGPO（随机顺序） | **59.59** | 完整方法 |
@@ -128,11 +144,11 @@ CGPO 在两个模型规模上平均分都最高，且大多数单域排第一或
 
 ## 相关论文
 
+- [\[ICLR 2026\] Multi-Agent Guided Policy Optimization](multi-agent_guided_policy_optimization.md)
 - [\[ACL 2026\] Visually-Guided Policy Optimization for Multimodal Reasoning](../../ACL2026/reinforcement_learning/visually-guided_policy_optimization_for_multimodal_reasoning.md)
 - [\[ICLR 2026\] FAPO: Flawed-Aware Policy Optimization for Efficient and Reliable Reasoning](fapo_flawed-aware_policy_optimization_for_efficient_and_reliable_reasoning.md)
-- [\[ICLR 2026\] RuleReasoner: Reinforced Rule-based Reasoning via Domain-aware Dynamic Sampling](rulereasoner_reinforced_rule-based_reasoning_via_domain-aware_dynamic_sampling.md)
-- [\[ICLR 2026\] Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning](controllable_exploration_in_hybrid-policy_rlvr_for_multi-modal_reasoning.md)
-- [\[ICLR 2026\] Reasoning Boosts Opinion Alignment in LLMs](reasoning_boosts_opinion_alignment_in_llms.md)
+- [\[ICLR 2026\] Correlated Policy Optimization in Multi-Agent Subteams](correlated_policy_optimization_in_multi-agent_subteams.md)
+- [\[ICLR 2026\] Revisiting Group Relative Policy Optimization: Insights into On-Policy and Off-Policy Training](revisiting_group_relative_policy_optimization_insights_into_on-policy_and_off-po.md)
 
 </div>
 

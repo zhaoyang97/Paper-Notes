@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Avey-B：把无注意力架构改造成双向编码器
+description: >-
+  [ICLR2026][预训练][双向编码器] Avey-B 把原本自回归的无注意力架构 Avey 改造成 BERT 式双向编码器：去掉因果掩码、把静态权重和动态相似度解耦成交替层、给动态层加行归一化、再在 ranker 里塞一个神经压缩器，结果在 token 分类和信息检索上稳超 BERT/RoBERTa/ModernBERT/NeoBERT，且预训练 token 量比 ModernBERT 少约 11×、在 96K 长度上吞吐快 ModernBERT 3.38×。
+tags:
+  - "ICLR2026"
+  - "预训练"
+  - "双向编码器"
+  - "无注意力"
+  - "检索式上下文"
+  - "动态参数化"
+  - "长上下文"
+---
+
 # Avey-B：把无注意力架构改造成双向编码器
 
 **会议**: ICLR2026  
-**OpenReview**: [kQ9j5RY8ff](https://openreview.net/forum?id=kQ9j5RY8ff)  
+**OpenReview**: [https://openreview.net/forum?id=kQ9j5RY8ff](https://openreview.net/forum?id=kQ9j5RY8ff)  
 **代码**: 待确认（论文称已开源全部实现与预训练 checkpoint）  
 **领域**: LLM 预训练 / 编码器架构 / 无注意力架构  
 **关键词**: 双向编码器, 无注意力, 检索式上下文, 动态参数化, 长上下文
@@ -131,10 +146,10 @@ base 档下，Avey-B 在所有任务类别上都超过 BERT 和 NeoBERT（参数
 ## 相关论文
 
 - [\[ICLR 2026\] Conditioned Initialization for Attention](conditioned_initialization_for_attention.md)
-- [\[ICLR 2026\] Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning](pre-training_llm_without_learning_rate_decay_enhances_supervised_fine-tuning.md)
-- [\[ICLR 2026\] MoMa: A Simple Modular Deep Learning Framework for Material Property Prediction](moma_a_modular_deep_learning_framework_for_material_property_prediction.md)
-- [\[ICLR 2026\] Lossless Vocabulary Reduction for Auto-Regressive Language Models](lossless_vocabulary_reduction_for_auto-regressive_language_models.md)
-- [\[ICLR 2026\] Accessible, Realistic, and Fair Evaluation of Positive-Unlabeled Learning Algorithms](accessible_realistic_and_fair_evaluation_of_positive-unlabeled_learning_algorith.md)
+- [\[ICLR 2026\] Block-Sample MAC-Bayes Generalization Bounds](block-sample_mac-bayes_generalization_bounds.md)
+- [\[ICLR 2026\] Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice](can_small_training_runs_reliably_guide_data_curation_rethinking_proxy-model_prac.md)
+- [\[ICLR 2026\] CHAMMI-75: Pre-training multi-channel models with heterogeneous microscopy images](chammi-75_pre-training_multi-channel_models_with_heterogeneous_microscopy_images.md)
+- [\[ICLR 2026\] Deconstructing Positional Information: From Attention Logits to Training Biases](deconstructing_positional_information_from_attention_logits_to_training_biases.md)
 
 </div>
 

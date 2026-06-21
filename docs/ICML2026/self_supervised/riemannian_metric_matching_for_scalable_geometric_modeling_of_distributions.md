@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Riemannian Metric Matching for Scalable Geometric Modeling of Distributions
+description: >-
+  [ICML 2026][自监督学习][黎曼度量] 把"数据流形的黎曼度量"重写成一个 carré du champ 算子，再用一条去噪式的条件回归损失让神经网络直接学这个算子，从而不建 kNN 图、不算大网络 Jacobian，就能在高维数据上以常数代价摊销地估计内蕴维度、切空间和测地路径，推理最高比基于 kNN 的扩散几何估计快约 400 倍。
+tags:
+  - "ICML 2026"
+  - "自监督学习"
+  - "黎曼度量"
+  - "carré du champ"
+  - "流形假设"
+  - "去噪损失"
+  - "摊销推理"
+---
+
 # Riemannian Metric Matching for Scalable Geometric Modeling of Distributions
 
 **会议**: ICML 2026  

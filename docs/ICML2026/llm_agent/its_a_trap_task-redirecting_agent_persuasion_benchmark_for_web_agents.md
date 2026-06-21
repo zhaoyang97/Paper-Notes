@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents
+description: >-
+  [ICML 2026][LLM Agent][Web Agent] TRAP 是一个面向 Web Agent 的"任务重定向说服"评测基准，把提示注入拆成"界面 × 说服"五个可组合维度共 630 个任务-注入组合，在六个真实网站克隆上测六款前沿模型，发现它们平均 25% 的任务会被注入劫持（GPT-5 仅 13%、DeepSeek-R1 高达 43%），且按钮注入比超链接有效三倍多、轻量上下文裁剪能把成功率拉高近六倍。
+tags:
+  - "ICML 2026"
+  - "LLM Agent"
+  - "Web Agent"
+  - "提示注入"
+  - "社会工程"
+  - "说服原则"
+  - "评测基准"
+---
+
 # It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents
 
 **会议**: ICML 2026  

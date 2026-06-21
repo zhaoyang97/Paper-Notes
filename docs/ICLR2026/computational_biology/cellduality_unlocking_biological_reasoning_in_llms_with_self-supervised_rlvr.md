@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CellDuality: Unlocking Biological Reasoning in LLMs with Self-Supervised RLVR
+description: >-
+  [ICLR2026][计算生物][单细胞推理] CellDuality 把单细胞生物学的四类推理任务组织成一个统一框架，再用"互补任务对偶"——让模型正向预测一个生物结果、再逆向从结果重构出原始输入条件，用重构保真度当内在奖励——在完全没有 ground-truth 标签的情况下做 RLVR 对齐，使一个 3B 的 LLaMA 在细胞类型注释、药敏分类、扰动响应生成等任务上达到 SOTA，并在 OOD 扰动预测上把与"有监督 RLVR oracle"的差距缩小了 35–56%。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "单细胞推理"
+  - "RLVR"
+  - "任务对偶"
+  - "自监督奖励"
+  - "GRPO"
+---
+
 # CellDuality: Unlocking Biological Reasoning in LLMs with Self-Supervised RLVR
 
 **会议**: ICLR2026  
-**OpenReview**: [I4meJN28Ol](https://openreview.net/forum?id=I4meJN28Ol)  
+**OpenReview**: [https://openreview.net/forum?id=I4meJN28Ol](https://openreview.net/forum?id=I4meJN28Ol)  
 **代码**: 待确认  
 **领域**: LLM推理 / 计算生物学 / 自监督强化学习  
 **关键词**: 单细胞推理, RLVR, 任务对偶, 自监督奖励, GRPO
@@ -130,3 +145,19 @@ $$\mathcal{J}_{GRPO}(\theta)=\mathbb{E}\big[\min(\rho_t A_t,\ \mathrm{clip}(\rho
 - 实验充分度: ⭐⭐⭐⭐ 四任务 + ID/OOD + 与有监督 oracle 头对头消融较完整，但基座单一、缺 reward hacking 分析。
 - 写作质量: ⭐⭐⭐⭐ 动机—原理—奖励—训练层层递进，定义与公式清晰。
 - 价值: ⭐⭐⭐⭐⭐ 为数据稀缺的生物推理提供了可扩展的无标注 RL 路径，迁移潜力大。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] CryoLVM: Self-supervised Learning from Cryo-EM Density Maps with Large Vision Models](cryolvm_self-supervised_learning_from_cryo-em_density_maps_with_large_vision_mod.md)
+- [\[ICLR 2026\] Lost in Tokenization: Context as the Key to Unlocking Biomolecular Understanding in Scientific LLMs](lost_in_tokenization_context_as_the_key_to_unlocking_biomolecular_understanding_.md)
+- [\[ICLR 2026\] Animal behavioral analysis and neural encoding with transformer-based self-supervised pretraining](animal_behavioral_analysis_and_neural_encoding_with_transformer-based_self-super.md)
+- [\[ICLR 2026\] Towards Knowledge-and-Data-Driven Organic Reaction Prediction: RAG-Enhanced and Reasoning-Powered Hybrid System with LLMs](towards_knowledgeanddatadriven_organic_reaction_prediction_ragenhanced_and_reaso.md)
+- [\[ICML 2026\] Learning the Neighborhood: Contrast-Free Multimodal Self-Supervised Molecular Graph Pretraining](../../ICML2026/computational_biology/learning_the_neighborhood_contrast-free_multimodal_self-supervised_molecular_gra.md)
+
+</div>
+
+<!-- RELATED:END -->

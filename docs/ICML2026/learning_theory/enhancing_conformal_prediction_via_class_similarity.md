@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Enhancing Conformal Prediction via Class Similarity
+description: >-
+  [ICML2026][学习理论][预测集大小] 本文给任意共形预测（CP）打分函数加一个"出组惩罚"项，惩罚那些与 top-1 预测类不同语义组的候选标签；理论证明该惩罚在保持覆盖率的前提下既能减少预测集里的语义组数、又能**意外地缩小平均预测集大小**，并进一步提出一个无需人工语义划分、直接用模型特征构造类相似度矩阵的自适应变体。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "不确定性量化"
+  - "共形预测"
+  - "预测集大小"
+  - "类相似度"
+  - "覆盖保证"
+  - "神经坍缩"
+---
+
 # Enhancing Conformal Prediction via Class Similarity
 
 **会议**: ICML2026  

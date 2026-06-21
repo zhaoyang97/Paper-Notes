@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning
+description: >-
+  [ICML2026][强化学习][安全RL] 针对安全 RL 里原始-对偶方法"对偶滞后→约束修正延迟→在边界附近震荡"的老毛病，CSPO 把"到安全边界的最短带符号距离"作为约束敏感的修正项加进策略更新，按约束梯度范数自适应地调节纠偏力度，从而更快更稳地回到可行域，且不改变原约束问题的 KKT 解。
+tags:
+  - "ICML2026"
+  - "强化学习"
+  - "安全RL"
+  - "CMDP"
+  - "原始-对偶"
+  - "约束敏感"
+  - "拉格朗日乘子"
+---
+
 # CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning
 
 **会议**: ICML2026  

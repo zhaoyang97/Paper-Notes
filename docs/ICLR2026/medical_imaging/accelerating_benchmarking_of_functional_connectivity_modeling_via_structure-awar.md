@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Accelerating Benchmarking of Functional Connectivity Modeling via Structure-aware Core-set Selection
+description: >-
+  [ICLR2026][医学图像][功能连接] 为了让"在大规模 fMRI 数据上比较数百种功能连接（FC）建模算子"这件昂贵的事变得可负担，本文把基准评测重新表述成"保留算子排名的子集选择"问题，提出自监督框架 SCLCS——用自适应 Transformer 学每个样本的连接结构、用结构扰动分数（SPS）挑出最稳定的"原型"样本、再用密度均衡采样补多样性，仅用 10% 数据就能保住全集上 130 个 FC 算子的真实排名，排名一致性（nDCG@k）比此前最好的核心集方法高出最多 23.2%。
+tags:
+  - "ICLR2026"
+  - "医学图像"
+  - "功能连接"
+  - "核心集选择"
+  - "基准评测加速"
+  - "自监督"
+  - "注意力结构"
+---
+
 # Accelerating Benchmarking of Functional Connectivity Modeling via Structure-aware Core-set Selection
 
 **会议**: ICLR2026  
-**OpenReview**: [0RYazbfSzW](https://openreview.net/forum?id=0RYazbfSzW)  
+**OpenReview**: [https://openreview.net/forum?id=0RYazbfSzW](https://openreview.net/forum?id=0RYazbfSzW)  
 **代码**: https://github.com/lzhan94swu/SCLCS  
 **领域**: 医学图像 / 脑功能连接 / fMRI  
 **关键词**: 功能连接、核心集选择、基准评测加速、自监督、注意力结构

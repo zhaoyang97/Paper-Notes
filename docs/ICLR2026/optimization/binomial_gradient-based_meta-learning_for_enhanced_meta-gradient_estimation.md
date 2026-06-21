@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation
+description: >-
+  [ICLR2026][优化/理论][元学习] 针对 MAML 这类基于梯度的元学习中"元梯度反向传播随适应步数 K 线性变贵"的痛点，本文把元梯度的连乘式 $\prod_{k}(I-\alpha H_k)$ 做**截断二项式展开**而不是简单截断尾部，得到的估计器 BinomMAML 在相同截断阶数 $L$ 下保留更多二阶信息、误差以**超指数速度**随 $L$ 衰减，且可用并行 HVP 计算，在 miniImageNet/tieredImageNet 上以略增开销换来明显更接近完整 MAML 的精度。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "元学习"
+  - "元梯度估计"
+  - "MAML"
+  - "二项式展开"
+  - "截断反向传播"
+---
+
 # Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation
 
 **会议**: ICLR2026  
-**OpenReview**: [mKgUAO41zf](https://openreview.net/forum?id=mKgUAO41zf)  
+**OpenReview**: [https://openreview.net/forum?id=mKgUAO41zf](https://openreview.net/forum?id=mKgUAO41zf)  
 **代码**: 待确认  
 **领域**: 优化 / 元学习 / 双层优化  
 **关键词**: 元学习, 元梯度估计, MAML, 二项式展开, 截断反向传播
@@ -87,6 +102,7 @@ $$\hat\nabla_{\mathrm{Bi}}L_t(\theta)=B_t^{g_t^K,L-1}B_t^{g_t^K,L-2}\cdots B_t^{
 相同 $L$ 下 BinomMAML 在多数情形超过 TruncMAML、全面优于 iMAML，且性能差随 $L$ 快速逼近完整 MAML——只需小 $L$ 就够。
 
 ### 消融 / 分析
+
 | 维度 | 关键发现 | 说明 |
 |------|---------|------|
 | 截断阶 $L$（合成正弦回归） | BinomMAML($L=1$) 的元梯度误差 ≈ TruncMAML($L=4$)，$L\ge2$ 后误差几乎可忽略 | 二项式展开信息密度远高于截尾 |
@@ -128,11 +144,11 @@ $$\hat\nabla_{\mathrm{Bi}}L_t(\theta)=B_t^{g_t^K,L-1}B_t^{g_t^K,L-2}\cdots B_t^{
 
 ## 相关论文
 
-- [\[ICLR 2026\] Test-Time Meta-Adaptation with Self-Synthesis](test-time_meta-adaptation_with_self-synthesis.md)
-- [\[AAAI 2026\] Instance Generation for Meta-Black-Box Optimization through Latent Space Reverse Engineering](../../AAAI2026/optimization/instance_generation_for_meta-black-box_optimization_through_latent_space_reverse.md)
-- [\[ICML 2025\] FSL-SAGE: Accelerating Federated Split Learning via Smashed Activation Gradient Estimation](../../ICML2025/optimization/fsl-sage_accelerating_federated_split_learning_via_smashed_activation_gradient_e.md)
-- [\[ICLR 2026\] FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments](feddag_clustered_federated_learning_via_global_data_and_gradient_integration_for.md)
-- [\[CVPR 2026\] Dynamic Momentum Recalibration in Online Gradient Learning](../../CVPR2026/optimization/dynamic_momentum_recalibration_in_online_gradient_learning.md)
+- [\[ICLR 2026\] Evaluating Data Influence in Meta Learning](evaluating_data_influence_in_meta_learning.md)
+- [\[ICLR 2026\] Generalizable Heuristic Generation Through LLMs with Meta-Optimization](generalizable_heuristic_generation_through_llms_with_meta-optimization.md)
+- [\[ICLR 2026\] $\mu$LO: Compute-Efficient Meta-Generalization of Learned Optimizers](mulo_compute-efficient_meta-generalization_of_learned_optimizers.md)
+- [\[ICLR 2026\] Unbiased Gradient Estimation for Event Binning via Functional Backpropagation](unbiased_gradient_estimation_for_event_binning_via_functional_backpropagation.md)
+- [\[ICLR 2026\] Corner Gradient Descent](corner_gradient_descent.md)
 
 </div>
 

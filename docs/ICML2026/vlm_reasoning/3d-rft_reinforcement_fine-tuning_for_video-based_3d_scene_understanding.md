@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] 3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene Understanding
+description: >-
+  [ICML 2026][VLM Reasoning][RLVR] 把面向 LLM 的「可验证奖励强化学习（RLVR）」搬到视频驱动的 3D 场景理解上：用 GRPO 直接以 3D IoU、F1、准确率等评测指标当奖励来微调一个 4B 的 3D-aware VLM，让训练目标和评测口径对齐，最终在 3D 视频检测、3D 视觉定位、空间推理三类任务上以 4B 参数反超 8B 基线。
+tags:
+  - "ICML 2026"
+  - "VLM Reasoning"
+  - "RLVR"
+  - "GRPO"
+  - "可验证奖励"
+  - "视频3D感知"
+  - "空间推理"
+---
+
 # 3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene Understanding
 
 **会议**: ICML 2026  

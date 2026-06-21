@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Efficiently Learning Drifting Halfspaces with Massart Noise
+description: >-
+  [ICML2026][学习理论][分布漂移] 在分布随时间漂移、标签又被 Massart 噪声污染的在线学习场景下，本文给出第一个**多项式时间**学习 $\gamma$-间隔半空间的算法，误差为 $\eta+\tilde{O}(\Delta^{1/3}/\gamma)$，并用低次多项式下界证明 $\Delta^{1/3}$ 这个指数对高效算法来说是无法绕过的，从而揭示出一条信息-计算鸿沟。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "分布漂移"
+  - "半空间学习"
+  - "Massart 噪声"
+  - "信息-计算鸿沟"
+  - "低次多项式下界"
+---
+
 # Efficiently Learning Drifting Halfspaces with Massart Noise
 
 **会议**: ICML2026  

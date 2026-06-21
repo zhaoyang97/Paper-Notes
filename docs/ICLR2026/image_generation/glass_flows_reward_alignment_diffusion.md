@@ -18,7 +18,7 @@ tags:
 # GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models
 
 **会议**: ICLR 2026 Oral  
-**OpenReview**: [vH7OAPZ2dR](https://openreview.net/forum?id=vH7OAPZ2dR)  
+**OpenReview**: [https://openreview.net/forum?id=vH7OAPZ2dR](https://openreview.net/forum?id=vH7OAPZ2dR)  
 **代码**: 有  
 **领域**: 图像生成 / 扩散模型  
 **关键词**: flow matching, diffusion models, reward alignment, Feynman-Kac steering, GLASS, stochastic transitions, inference-time scaling
@@ -163,8 +163,8 @@ GLASS 转移核是一个 drop-in replacement——任何原本用 SDE 转移的�
 - [\[ICLR 2026\] DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment](densegrpo_from_sparse_to_dense_reward_for_flow_matching_model_alignment.md)
 - [\[CVPR 2026\] Learning Straight Flows: Variational Flow Matching for Efficient Generation](../../CVPR2026/image_generation/learning_straight_flows_variational_flow_matching_for_efficient_generation.md)
 - [\[ICLR 2026\] Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models](diffusion_blend_inference-time_multi-preference_alignment_for_diffusion_models.md)
+- [\[ICLR 2026\] Inference-Time Scaling of Diffusion Models Through Classical Search](inference-time_scaling_of_diffusion_models_through_classical_search.md)
 - [\[ICLR 2026\] CMT: Mid-Training for Efficient Learning of Consistency, Mean Flow, and Flow Map Models](cmt_mid-training_for_efficient_learning_of_consistency_mean_flow_and_flow_map_mo.md)
-- [\[CVPR 2025\] Diff2Flow: Training Flow Matching Models via Diffusion Model Alignment](../../CVPR2025/image_generation/diff2flow_training_flow_matching_models_via_diffusion_model_alignment.md)
 
 </div>
 

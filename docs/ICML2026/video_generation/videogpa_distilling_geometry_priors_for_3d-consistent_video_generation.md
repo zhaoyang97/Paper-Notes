@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation
+description: >-
+  [ICML 2026][视频生成][视频扩散模型] VideoGPA 用一个几何基础模型（GFM）把生成视频重建成 3D 点云、再投影回原帧，用「重投影误差」作为自监督的几何一致性奖励，自动构造偏好对，并通过 DPO（LoRA 微调 ~1% 参数、仅 ~2500 对偏好样本）把预训练视频扩散模型对齐到 3D 一致的流形上，在不损失画质的前提下显著缓解物体形变与空间漂移。
+tags:
+  - "ICML 2026"
+  - "视频生成"
+  - "视频扩散模型"
+  - "3D一致性"
+  - "几何基础模型"
+  - "DPO偏好对齐"
+  - "自监督奖励"
+---
+
 # VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation
 
 **会议**: ICML 2026  

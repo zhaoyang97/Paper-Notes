@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Catalog-Native LLM: Speaking Item-ID dialect with Less Entanglement for Recommendation
+description: >-
+  [ICLR2026][推荐系统][大语言模型] 针对"把 item-ID 塞进 LLM 会让协同信号和语言语义互相打架"这个问题，本文提出 IDIOMoE：把预训练 LLM 每个 block 的 FFN 拆成一个**文本专家**和一个**item 专家**，用静态的 token-type 门控按 token 类型分流（item-id token 走 item 专家，其余走文本专家），从而把"协同过滤"和"语义理解"解耦到不同子网络里，在公开和工业级数据集上都取得最强推荐效果，同时几乎不损伤原 LLM 的语言能力。
+tags:
+  - "ICLR2026"
+  - "推荐系统"
+  - "大语言模型"
+  - "Mixture-of-Experts"
+  - "item-ID"
+  - "知识干扰"
+---
+
 # Catalog-Native LLM: Speaking Item-ID dialect with Less Entanglement for Recommendation
 
 **会议**: ICLR2026  
-**OpenReview**: [ia9vDh0Ltn](https://openreview.net/forum?id=ia9vDh0Ltn)  
+**OpenReview**: [https://openreview.net/forum?id=ia9vDh0Ltn](https://openreview.net/forum?id=ia9vDh0Ltn)  
 **代码**: 待确认  
 **领域**: 推荐系统 / LLM  
 **关键词**: 推荐系统, 大语言模型, Mixture-of-Experts, item-ID, 知识干扰
@@ -115,3 +129,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐ 公开+工业双线、容量/位置/路由全套消融，但核心结论重度依赖不可复现的工业集
 - 写作质量: ⭐⭐⭐⭐ 动机推导清晰、前置实验把"干扰问题"坐实，键值记忆分析给专化提供证据
 - 价值: ⭐⭐⭐⭐ 工业级可落地、计算量与底座相当，对"LLM+推荐"如何避免互相打架给出可复用范式
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Tokenize Once, Recommend Anywhere: Unified Item Tokenization for Multi-domain LLM-based Recommendation](../../AAAI2026/recommender/tokenize_once_recommend_anywhere_unified_item_tokenization_for_multi-domain_llm-.md)
+- [\[ICLR 2026\] Token-Efficient Item Representation via Images for LLM Recommender Systems](token-efficient_item_representation_via_images_for_llm_recommender_systems.md)
+- [\[ACL 2026\] Intent-Driven Semantic ID Generation for Grounded Conversational News Recommendation](../../ACL2026/recommender/intent-driven_semantic_id_generation_for_grounded_conversational_news_recommenda.md)
+- [\[ICLR 2026\] Reinforced Latent Reasoning for LLM-based Recommendation](reinforced_latent_reasoning_for_llm-based_recommendation.md)
+- [\[ACL 2026\] From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation](../../ACL2026/recommender/from_past_to_path_masked_history_learning_for_next-item_prediction_in_generative.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Achieving low-bit Muon through subspace preservation and grid quantization
+description: >-
+  [ICLR2026][模型压缩][Muon 优化器] 本文首次研究 Muon 优化器状态的 4-bit 压缩，发现 Newton-Schulz 正交化会把量化误差主要放大在动量矩阵的 top 奇异子空间上，于是提出 4-bit-Muon-GRASP：用 8-bit 温和保留 top 子空间、4-bit 压残差子空间，并用沿行列双向归一化的网格量化抑制双维度离群值，在 LLaMA 130M~1.1B 预训练与 Qwen2.5-7B 微调上几乎无损精度，训练显存最多降 28%。
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "Muon 优化器"
+  - "低比特量化"
+  - "奇异子空间保持"
+  - "网格量化"
+  - "显存高效训练"
+---
+
 # Achieving low-bit Muon through subspace preservation and grid quantization
 
 **会议**: ICLR2026  
-**OpenReview**: [g2l9bg9DWx](https://openreview.net/forum?id=g2l9bg9DWx)  
+**OpenReview**: [https://openreview.net/forum?id=g2l9bg9DWx](https://openreview.net/forum?id=g2l9bg9DWx)  
 **代码**: https://github.com/wuhuaijin/lowbit-Muon  
 **领域**: 模型压缩 / 优化器量化 / 高效训练  
 **关键词**: Muon 优化器, 低比特量化, 奇异子空间保持, 网格量化, 显存高效训练
@@ -157,10 +172,10 @@ GRASP 在 1.1B 上把困惑度拉回到与 fp32-Muon 一致（12.48），而 bas
 ## 相关论文
 
 - [\[ICML 2026\] TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization](../../ICML2026/model_compression/twla_achieving_ternary_weights_and_low-bit_activations_for_llms_via_post-trainin.md)
+- [\[ICLR 2026\] MASS: MoErging through Adaptive Subspace Selection](mass_moerging_through_adaptive_subspace_selection.md)
+- [\[ICLR 2026\] Towards Quantization-Aware Training for Ultra-Low-Bit Reasoning LLMs](towards_quantization-aware_training_for_ultra-low-bit_reasoning_llms.md)
 - [\[ICML 2026\] ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training](../../ICML2026/model_compression/reqat_achieving_full-precision_reasoning_accuracy_with_4-bit_floating-point_quan.md)
-- [\[CVPR 2026\] Bridging Domains through Subspace-Aware Model Merging](../../CVPR2026/model_compression/bridging_domains_through_subspace-aware_model_merging.md)
-- [\[ICML 2026\] OSAQ: Outlier Self-Absorption for Accurate Low-bit LLM Quantization](../../ICML2026/model_compression/osaq_outlier_self-absorption_for_accurate_low-bit_llm_quantization.md)
-- [\[ICML 2026\] NeUQI: Near-Optimal Uniform Quantization Parameter Initialization for Low-Bit LLMs](../../ICML2026/model_compression/neuqi_near-optimal_uniform_quantization_parameter_initialization_for_low-bit_llm.md)
+- [\[AAAI 2026\] QuantVSR: Low-Bit Post-Training Quantization for Real-World Video Super-Resolution](../../AAAI2026/model_compression/quantvsr_low-bit_post-training_quantization_for_real-world_video_super-resolutio.md)
 
 </div>
 

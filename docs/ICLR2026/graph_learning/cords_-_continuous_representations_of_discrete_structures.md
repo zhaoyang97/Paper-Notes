@@ -16,7 +16,7 @@ tags:
 # CORDS - Continuous Representations of Discrete Structures
 
 **会议**: ICLR 2026  
-**OpenReview**: [RObkOKADBU](https://openreview.net/forum?id=RObkOKADBU)  
+**OpenReview**: [https://openreview.net/forum?id=RObkOKADBU](https://openreview.net/forum?id=RObkOKADBU)  
 **代码**: 待确认  
 **领域**: 表示学习 / 生成模型 / 集合预测  
 **关键词**: 可变基数、连续场、可逆表示、核叠加、分子生成
@@ -153,11 +153,11 @@ MultiMNIST 目标检测，分布内 vs OOD（图中数字数超训练上限 $N_{
 
 ## 相关论文
 
+- [\[ICLR 2026\] $\ell_1$ Latent Distance Based Continuous-Time Graph Representation](ell_1_latent_distance_based_continuous-time_graph_representation.md)
 - [\[ICLR 2026\] Towards Improved Sentence Representations using Token Graphs](towards_improved_sentence_representations_using_token_graphs.md)
+- [\[ICLR 2026\] Discrete Bayesian Sample Inference for Graph Generation](discrete_bayesian_sample_inference_for_graph_generation.md)
+- [\[ICLR 2026\] Exchangeability of GNN Representations with Applications to Graph Retrieval](exchangeability_of_gnn_representations_with_applications_to_graph_retrieval.md)
 - [\[AAAI 2026\] Hyperbolic Continuous Structural Entropy for Hierarchical Clustering](../../AAAI2026/graph_learning/hyperbolic_continuous_structural_entropy_for_hierarchical_clustering.md)
-- [\[ICLR 2026\] GRAPHITE: Graph Homophily Booster — Reimagining the Role of Discrete Features in Heterophilic Graph Learning](graph_homophily_booster_reimagining_the_role_of_discrete_features_in_heterophili.md)
-- [\[ICML 2026\] Aitchison Embeddings for Learning Compositional Graph Representations](../../ICML2026/graph_learning/aitchison_embeddings_for_learning_compositional_graph_representations.md)
-- [\[ICML 2026\] Generative Representation Learning on Hyper-relational Knowledge Graphs via Masked Discrete Diffusion](../../ICML2026/graph_learning/generative_representation_learning_on_hyper-relational_knowledge_graphs_via_mask.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MedSIGHT: Towards Grounded Visual Comprehension in Medical Large Vision-Language Models
+description: >-
+  [ICML2026][多模态VLM][医学大视觉语言模型] MedSIGHT 把"区域感知器"和一套"按模态分组的区域 codebook"塞进医学 LVLM，让同一个生成式模型既能做诊断推理、又能直接吐出离散区域码并解码成分割掩码，仅用 72K 指令样本就在理解与分割两类任务上同时达到 SOTA。 领域现状：医学大视觉语言模…
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "医学大视觉语言模型"
+  - "像素级 grounding"
+  - "区域 codebook"
+  - "统一分割与理解"
+  - "渐进式训练"
+---
+
 # MedSIGHT: Towards Grounded Visual Comprehension in Medical Large Vision-Language Models
 
 **会议**: ICML2026  

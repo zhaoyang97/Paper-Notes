@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Divide-and-Denoise: A Game-Theoretic Method for Fairly Composing Diffusion Models
+description: >-
+  [ICML 2026][图像生成][扩散模型组合] 把"多个预训练扩散模型协同采样"建模成一个**公平分工博弈**：每一步先用博弈给每个模型分配它该负责的图像区域（allocation），再让复合去噪只在各自分到的区域听各自模型的，从而在不训练、不共享权重的前提下让"单狗模型 + 单猫模型"等组合生成出一张既有狗又有猫、互不抢镜的图，GenEval %images 从 MultiDiffusion 的 58% 提到 88.5%。
+tags:
+  - "ICML 2026"
+  - "图像生成"
+  - "扩散模型组合"
+  - "公平分工博弈"
+  - "推理时引导"
+  - "跨注意力效用"
+  - "多概念生成"
+---
+
 # Divide-and-Denoise: A Game-Theoretic Method for Fairly Composing Diffusion Models
 
 **会议**: ICML 2026  

@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Two-Layer Linear Auto-Regressive Models Estimate Latent States
+description: >-
+  [ICML2026][学习理论][卡尔曼滤波] 本文从理论上证明：在部分可观测线性动力系统的数据上用经验风险最小化训练一个**两层线性自回归模型**，其隐层激活会自发地（在相似变换意义下）逼近最优卡尔曼滤波器给出的潜在状态估计——模型从未被告知系统参数或状态，却"端到端"地学会了滤波，并给出了预测、参数与状态恢复三重有限样本保证。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "系统辨识"
+  - "自回归模型"
+  - "卡尔曼滤波"
+  - "潜在状态恢复"
+  - "有限样本保证"
+  - "非凸优化景观"
+---
+
 # Two-Layer Linear Auto-Regressive Models Estimate Latent States
 
 **会议**: ICML2026  

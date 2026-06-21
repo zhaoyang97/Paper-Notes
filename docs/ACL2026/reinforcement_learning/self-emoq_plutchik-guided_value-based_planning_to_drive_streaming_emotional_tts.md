@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Self-EmoQ: Plutchik-Guided Value-based Planning to Drive Streaming Emotional TTS
+description: >-
+  [ACL 2026][强化学习][价值型强化学习] Self-EmoQ 把"系统该用什么情绪说话"建模成一个话语级强化学习决策问题——在生成文本之前先用价值型 RL（DQN）规划出本轮情绪，再用这个情绪同时驱动文本生成和流式情感语音合成（Emo-TTS），并用 Plutchik 情感轮理论设计的奖励让情绪选择更像真人。
+tags:
+  - "ACL 2026"
+  - "强化学习"
+  - "价值型强化学习"
+  - "情感规划"
+  - "Plutchik情感轮"
+  - "流式TTS"
+  - "DQN"
+---
+
 # Self-EmoQ: Plutchik-Guided Value-based Planning to Drive Streaming Emotional TTS
 
 **会议**: ACL 2026  

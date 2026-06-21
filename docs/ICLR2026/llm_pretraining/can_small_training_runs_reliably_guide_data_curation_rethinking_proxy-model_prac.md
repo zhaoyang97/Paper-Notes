@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice
+description: >-
+  [ICLR2026][预训练][代理模型] 这篇论文指出前沿团队普遍依赖的"用小代理模型、固定超参比较数据配方"的做法存在致命缺陷——数据集排名会被学习率的微小变化翻转，作者提出用极小学习率（$10^{-5}\sim10^{-6}$）训练代理模型作为简单补丁，并在 23 个数据配方上把代理（GPT2-125M）到目标模型（Pythia-1B）的排名 Spearman 相关性从 $<0.75$ 提升到 $>0.95$。
+tags:
+  - "ICLR2026"
+  - "预训练"
+  - "代理模型"
+  - "数据配方消融"
+  - "学习率"
+  - "超参敏感性"
+  - "可迁移性"
+---
+
 # Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice
 
 **会议**: ICLR2026  
-**OpenReview**: [2FZC0c06jP](https://openreview.net/forum?id=2FZC0c06jP)  
+**OpenReview**: [https://openreview.net/forum?id=2FZC0c06jP](https://openreview.net/forum?id=2FZC0c06jP)  
 **代码**: 待确认  
 **领域**: LLM预训练 / 数据筛选  
 **关键词**: 代理模型、数据配方消融、学习率、超参敏感性、可迁移性
@@ -71,6 +86,7 @@ $$\Delta\ell_{\text{val}}(\theta) \approx -\eta\,\nabla\ell_{\text{val}}(\theta)
 23 个数据配方覆盖四个数据筛选维度：(1) 域组成（从 Pile 造 10 个混比变体）；(2) 现有语料对比（C4 / DCLM-baseline / RefinedWeb）；(3) 打分式过滤（RedPajama-V2 头中尾 6 种混比）；(4) 去重（4 个不同去重严格度的 DCLM 变体）。
 
 ### 消融 / 分析实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 标准学习率、k 较小 | Top-k 决策后悔 $>0.25$ 验证损失退化 | 选 top-k 配方上大模型时离最优差很多 |
@@ -107,3 +123,19 @@ $$\Delta\ell_{\text{val}}(\theta) \approx -\eta\,\nabla\ell_{\text{val}}(\theta)
 - 实验充分度: ⭐⭐⭐⭐⭐ 三个模型家族、70M–1B、23 个配方、四个数据筛选维度、2 万次训练，证据扎实
 - 写作质量: ⭐⭐⭐⭐ 诊断—归因—修复逻辑清晰，理论与经验互证；部分关键图表细节需查附录
 - 价值: ⭐⭐⭐⭐⭐ 给前沿数据团队一个廉价可落地的补丁，直接影响数据配方决策的可靠性
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods](rethinking_data_curation_in_llm_training_online_reweighting_offers_better_genera.md)
+- [\[ICLR 2026\] Task-Aware Data Selection via Proxy-Label Enhanced Distribution Matching for LLM Fine-Tuning](task-aware_data_selection_via_proxy-label_enhanced_distribution_matching_for_llm.md)
+- [\[ICLR 2026\] DUET: Optimizing LLM Training Data Mixtures via Noisy Feedback from Unseen, Downstream Evaluation Tasks](duet_optimizing_llm_training_data_mixtures_via_noisy_feedback_from_unseen_downst.md)
+- [\[ICLR 2026\] Scaling Laws Revisited: Modeling the Role of Data Quality in Language Model Pretraining](scaling_laws_revisited_modeling_the_role_of_data_quality_in_language_model_pretr.md)
+- [\[ICLR 2026\] SPICE: Submodular Penalized Information–Conflict Selection for Efficient Large Language Model Training](spice_submodular_penalized_informationconflict_selection_for_efficient_large_lan.md)
+
+</div>
+
+<!-- RELATED:END -->

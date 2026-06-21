@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ACTIVE-o3: Empowering MLLMs with Active Perception via Pure Reinforcement Learning
+description: >-
+  [ICML 2026][多模态VLM][主动感知] ACTIVE-o3 把"该往哪看、怎么看"这件事交给一个 MLLM 自己学：用纯强化学习（GRPO）训练它把一张图像并行地圈出最多 3 个最值得放大的子区域，靠"任务奖励 + 启发式奖励"双形态奖励解决纯任务奖励太稀疏的问题，在小/密集目标检测、遥感、自动驾驶、交互式分割上一致超过基线，还顺带提升了 RealWorldQA / MME 等通用理解能力。
+tags:
+  - "ICML 2026"
+  - "多模态VLM"
+  - "主动感知"
+  - "MLLM"
+  - "GRPO"
+  - "区域选择"
+  - "小目标检测"
+---
+
 # ACTIVE-o3: Empowering MLLMs with Active Perception via Pure Reinforcement Learning
 
 **会议**: ICML 2026  

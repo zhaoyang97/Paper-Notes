@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CoIRL-AD: Collaborative-Competitive Imitation-Reinforcement Learning in Latent World Models for Autonomous Driving
+description: >-
+  [ICML2026][自动驾驶][端到端驾驶] CoIRL-AD 用两个独立的演员分别扛模仿学习（IL）和强化学习（RL）、靠一个潜空间世界模型"想象"未来轨迹来给 RL 算长程奖励，再用一套"谁强谁带谁"的竞争机制让两者互相传递有益行为，从而在**没有外部仿真器的离线真实驾驶数据**上把 RL 稳稳整合进端到端驾驶，在跨城泛化和长尾场景上取得显著提升。
+tags:
+  - "ICML2026"
+  - "自动驾驶"
+  - "端到端驾驶"
+  - "离线RL"
+  - "模仿学习"
+  - "潜空间世界模型"
+  - "双策略竞争"
+---
+
 # CoIRL-AD: Collaborative-Competitive Imitation-Reinforcement Learning in Latent World Models for Autonomous Driving
 
 **会议**: ICML2026  

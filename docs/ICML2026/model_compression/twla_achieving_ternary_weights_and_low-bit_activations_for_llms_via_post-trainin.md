@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization
+description: >-
+  [ICML 2026][模型压缩][三值量化] TWLA 是首个能同时把权重压到 1.58-bit（三值）、激活压到 4-bit 的**后训练量化**框架——靠"欧氏→流形两阶段三值校准 + Kronecker 正交旋转把权重塑成三峰分布并顺手压激活离群值 + 层间感知的激活混合精度分配"三件套，在 W1.58A4 下仍保住高精度并真正实现端到端推理加速。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "三值量化"
+  - "后训练量化"
+  - "激活量化"
+  - "正交旋转"
+  - "混合精度"
+---
+
 # TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SWE-IF: Aligning Code Evaluation with Human Preference
+description: >-
+  [ICML 2026][代码智能][可验证指令] 针对「代码评估只看 pass@k 功能正确性、却和真实用户偏好脱节」的问题，本文提出 VERICODE（30 条带确定性 verifier 的可验证代码指令分类法）和 SWE-IF 测试床，把功能正确性与「指令遵循」一起测，评测 31 个 LLM 后发现：功能正确性 + 指令遵循的复合分数最贴近人类偏好，而指令遵循才是高端模型之间真正的区分点。
+tags:
+  - "ICML 2026"
+  - "代码智能"
+  - "可验证指令"
+  - "vibe coding"
+  - "指令遵循"
+  - "代码评估"
+  - "人类偏好对齐"
+---
+
 # SWE-IF: Aligning Code Evaluation with Human Preference
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Batch Pruning by Activation Stability
+description: >-
+  [ICLR2026][模型压缩][数据剪枝] 提出 B-PAS——在训练过程中监控每个 batch 跨 epoch 的 ReLU 激活方差变化，把"激活已经稳定下来、不再贡献有效学习"的整批数据动态丢掉，在 ResNet/CvT/GPT-2 上最多省掉 57% 的训练数据和 61% 的 GPU 节点小时，且精度不降反略升。
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "数据剪枝"
+  - "激活稳定性"
+  - "动态批剪枝"
+  - "训练加速"
+  - "神经坍缩"
+---
+
 # Batch Pruning by Activation Stability
 
 **会议**: ICLR2026  
-**OpenReview**: [TUADW7db5n](https://openreview.net/forum?id=TUADW7db5n)  
+**OpenReview**: [https://openreview.net/forum?id=TUADW7db5n](https://openreview.net/forum?id=TUADW7db5n)  
 **代码**: https://github.com/mustakinalam/Batch-Pruning-by-Activation-Stability  
 **领域**: 模型压缩 / 高效训练  
 **关键词**: 数据剪枝, 激活稳定性, 动态批剪枝, 训练加速, 神经坍缩
@@ -138,10 +153,10 @@ B-PAS **不改损失函数**——它是数据侧的即插件，训练目标仍�
 ## 相关论文
 
 - [\[CVPR 2026\] Batch Loss Score for Dynamic Data Pruning](../../CVPR2026/model_compression/batch_loss_score_for_dynamic_data_pruning.md)
-- [\[ICLR 2026\] Steering MoE LLMs via Expert (De)Activation](steering_moe_llms_via_expert_deactivation.md)
 - [\[ICLR 2026\] SERE: Similarity-based Expert Re-routing for Efficient Batch Decoding in MoE Models](sere_similarity-based_expert_re-routing_for_efficient_batch_decoding_in_moe_mode.md)
+- [\[ICLR 2026\] Steering MoE LLMs via Expert (De)Activation](steering_moe_llms_via_expert_deactivation.md)
 - [\[ICLR 2026\] Null-Space Filtering for Data-Free Continual Model Merging: Preserving Stability, Promoting Plasticity](null-space_filtering_for_data-free_continual_model_merging_preserving_stability_.md)
-- [\[NeurIPS 2025\] DuoGPT: Training-free Dual Sparsity through Activation-aware Pruning in LLMs](../../NeurIPS2025/model_compression/duogpt_training-free_dual_sparsity_through_activation-aware_pruning_in_llms.md)
+- [\[ICLR 2026\] STaMP: Sequence Transformation and Mixed Precision for Low-Precision Activation Quantization](stamp_sequence_transformation_and_mixed_precision_for_low-precision_activation_q.md)
 
 </div>
 

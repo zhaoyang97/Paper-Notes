@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ICML2026 论文笔记 TODO
 
-总计: 1787 篇 | 已完成: 1784 | 待更新: 3
+总计: 1787 篇 | 已完成: 1786 | 待更新: 1
 
 ---
 
@@ -653,7 +653,7 @@
 - [x] [generalizing multi-scale time-series modeling with a single operator](time_series/generalizing_multi-scale_time-series_modeling_with_a_single_operator.md) | arXiv: 2605.31129
 - [x] [generating robust portfolios of optimization models using large language models](aigc_detection/generating_robust_portfolios_of_optimization_models_using_large_language_models.md) | arXiv: 2605.27013
 - [x] [generative adaptation of dynamics to environmental shifts via weight-space diffu](image_generation/generative_adaptation_of_dynamics_to_environmental_shifts_via_weight-space_diffu.md) | arXiv: 2505.13919
-- [ ] [Generative Modeling of Discrete Latent Structures via Dynamic Policy Gradients](computational_biology/generative_modeling_of_discrete_latent_structures_via_dynamic_policy_gradients.md) | arXiv: 2606.07400 | 📄 paper_cache/ICML2026/2606.07400.txt
+- [x] [Generative Modeling of Discrete Latent Structures via Dynamic Policy Gradients](computational_biology/generative_modeling_of_discrete_latent_structures_via_dynamic_policy_gradients.md) | arXiv: 2606.07400 | 📄 paper_cache/ICML2026/2606.07400.txt
 - [x] [Generative Models Erode Human Temporal Learning Through Market Selection](ai_safety/generative_models_erode_human_temporal_learning_through_market_selection.md) | arXiv: 2606.06572
 - [x] [generative neural operators through diffusion last layer](physics/generative_neural_operators_through_diffusion_last_layer.md) | arXiv: 2602.04139
 - [x] [generative representation learning on hyper-relational knowledge graphs via mask](graph_learning/generative_representation_learning_on_hyper-relational_knowledge_graphs_via_mask.md) | arXiv: 2605.24064
@@ -833,7 +833,7 @@
 - [x] [LatentLens: Revealing Highly Interpretable Visual Tokens in LLMs](interpretability/latentlens_revealing_highly_interpretable_visual_tokens_in_llms.md) | arXiv: 2602.00462
 - [x] [layer-specific fine-tuning for improved negation handling in medical vision-lang](multimodal_vlm/layer-specific_fine-tuning_for_improved_negation_handling_in_medical_vision-lang.md) | arXiv: 2602.12498
 - [x] [lazyattention efficient retrieval-augmented generation with deferred positional ](information_retrieval/lazyattention_efficient_retrieval-augmented_generation_with_deferred_positional_.md) | arXiv: 2606.04302
-- [ ] [LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization](model_compression/lc-qat_data-efficient_2-bit_qat_for_llms_via_linear-constrained_vector_quantizat.md) | arXiv: 2606.10531 | 📄 paper_cache/ICML2026/2606.10531.txt
+- [x] [LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization](model_compression/lc-qat_data-efficient_2-bit_qat_for_llms_via_linear-constrained_vector_quantizat.md) | arXiv: 2606.10531 | 📄 paper_cache/ICML2026/2606.10531.txt
 - [x] [LEAP: Learnable End-to-End Adaptive Pruning of Large Language Models](model_compression/leap_learnable_end-to-end_adaptive_pruning_of_large_language_models.md) | arXiv: 2605.17289
 - [x] [learn from a rationalist distilling intermediate interpretable rationales](interpretability/learn_from_a_rationalist_distilling_intermediate_interpretable_rationales.md) | arXiv: 2601.22531
 - [x] [learn to think improving multimodal reasoning through vision-aware self-improvem](vlm_reasoning/learn_to_think_improving_multimodal_reasoning_through_vision-aware_self-improvem.md) | arXiv: 2605.11931

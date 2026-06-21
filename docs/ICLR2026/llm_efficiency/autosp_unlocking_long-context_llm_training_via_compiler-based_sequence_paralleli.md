@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AutoSP: Unlocking Long-Context LLM Training Via Compiler-Based Sequence Parallelism
+description: >-
+  [ICLR 2026][LLM效率][序列并行] AutoSP 把序列并行（SP）从手写、与框架强耦合的算子，抬升成 PyTorch-2.0 编译栈里的两个编译 pass——在 Torch-IR 上自动插通信、resize 激活 buffer 的 SP-Pass，以及在 Aten-IR 联合图上松开 min-cut 约束、重算计算密集算子的序列感知激活检查点 SAC-Pass——让用户几行代码就能把单卡模型编译成分布式长上下文训练管线，在 NVIDIA / AMD 上把可训练序列长度拉长最高 2.7× / 2.5×，而吞吐几乎无损。
+tags:
+  - "ICLR 2026"
+  - "LLM效率"
+  - "序列并行"
+  - "长上下文训练"
+  - "PyTorch-2.0 编译器"
+  - "激活检查点"
+  - "DeepSpeed-Ulysses"
+---
+
 # AutoSP: Unlocking Long-Context LLM Training Via Compiler-Based Sequence Parallelism
 
 **会议**: ICLR 2026  
-**OpenReview**: [0fgsHvmBBI](https://openreview.net/forum?id=0fgsHvmBBI)  
+**OpenReview**: [https://openreview.net/forum?id=0fgsHvmBBI](https://openreview.net/forum?id=0fgsHvmBBI)  
 **代码**: 承诺开源（论文称代码与 benchmark 将公开，暂未给出链接），实现集成进 DeepSpeed 项目  
 **领域**: LLM效率 / 长上下文训练 / 编译器  
 **关键词**: 序列并行, 长上下文训练, PyTorch-2.0 编译器, 激活检查点, DeepSpeed-Ulysses
@@ -117,11 +132,11 @@ Llama-3.1 1B，逐项开关优化（Table 1）：
 
 ## 相关论文
 
-- [\[ICLR 2026\] RACE Attention: A Strictly Linear-Time Attention for Long-Sequence Training](race_attention_a_strictly_linear-time_attention_for_long-sequence_training.md)
-- [\[CVPR 2025\] LOCORE: Image Re-ranking with Long-Context Sequence Modeling](../../CVPR2025/llm_efficiency/locore_image_re-ranking_with_long-context_sequence_modeling.md)
-- [\[ICLR 2026\] LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding](lycheedecode_accelerating_long-context_llm_inference_via_hybrid-head_sparse_deco.md)
-- [\[ICLR 2026\] When Does Divide and Conquer Work for Long Context LLM? A Noise Decomposition Framework](when_does_divide_and_conquer_work_for_long_context_llm_a_noise_decomposition_fra.md)
-- [\[ICML 2026\] Training-Inference Consistent Segmented Execution for Long-Context LLMs](../../ICML2026/llm_efficiency/training-inference_consistent_segmented_execution_for_long-context_llms.md)
+- [\[ICLR 2026\] ParaRNN: Unlocking Parallel Training of Nonlinear RNNs for Large Language Models](pararnn_unlocking_parallel_training_of_nonlinear_rnns_for_large_language_models.md)
+- [\[ICLR 2026\] Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism](long-context_attention_benchmark_from_kernel_efficiency_to_distributed_context_p.md)
+- [\[ICLR 2026\] EntropyLong: Effective Long-Context Training via Predictive Uncertainty](entropylong_effective_long-context_training_via_predictive_uncertainty.md)
+- [\[ICLR 2026\] Unlocking Full Efficiency of Token Filtering in Large Language Model Training](unlocking_full_efficiency_of_token_filtering_in_large_language_model_training.md)
+- [\[ICLR 2026\] MesaNet: Sequence Modeling by Locally Optimal Test-Time Training](mesanet_sequence_modeling_by_locally_optimal_test-time_training.md)
 
 </div>
 

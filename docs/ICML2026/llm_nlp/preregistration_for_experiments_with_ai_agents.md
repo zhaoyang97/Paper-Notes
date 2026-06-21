@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Preregistration for Experiments with AI Agents
+description: >-
+  [ICML2026][LLM 其他][预注册] 作者只有一位（Michelle Vaccaro），核心论点锋利：AI agent 实验"高灵活 + 极低边际成本"的组合，让 $\text{prompt}\times\text{model}\times\text{temperature}\times\text{seed}\times\text{parsing}$ 的规格搜索（specification search）变得既容易做、又难被发现，因此比人类被试实验更需要预注册来重新引入"摩擦"。
+tags:
+  - "ICML2026"
+  - "LLM 其他"
+  - "预注册"
+  - "AI Agent 实验"
+  - "研究者自由度"
+  - "可复现性"
+  - "立场论文"
+---
+
 # Preregistration for Experiments with AI Agents
 
 **会议**: ICML2026  

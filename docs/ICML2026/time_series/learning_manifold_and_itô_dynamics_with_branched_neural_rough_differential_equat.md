@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Learning Manifold and Itô Dynamics with Branched Neural Rough Differential Equations
+description: >-
+  [ICML2026][时间序列][神经粗糙微分方程] 神经粗糙微分方程（NRDE）只能处理 Stratonovich 动力学（因为它依赖 shuffle 代数），本文把 NRDE 的 log-ODE 步骤换成 **Hopf 代数上的几何数值积分**——用 Grossman–Larson 有根树代数处理欧氏 Itô、用 Munthe–Kaas–Wright 平面有根树代数处理流形上的有序协变导数、shuffle 代数留给经典 Stratonovich，从而把签名方法首次推广到 Itô 与流形值动力学，并配一个分支签名核目标让二次变差项在训练中可见。
+tags:
+  - "ICML2026"
+  - "时间序列"
+  - "神经粗糙微分方程"
+  - "分支粗糙路径"
+  - "Itô 微积分"
+  - "流形动力学"
+  - "签名核"
+---
+
 # Learning Manifold and Itô Dynamics with Branched Neural Rough Differential Equations
 
 **会议**: ICML2026  

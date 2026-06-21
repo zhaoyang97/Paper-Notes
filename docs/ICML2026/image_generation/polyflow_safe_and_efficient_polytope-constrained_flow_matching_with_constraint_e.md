@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] PolyFlow: Safe and Efficient Polytope-Constrained Flow Matching with Constraint Embedding and Projection-free Update
+description: >-
+  [ICML2026][图像生成][约束流匹配] PolyFlow 把"满足多面体硬约束"直接焊进流匹配模型的网络结构和流定义里——用离散时间流消掉数值积分误差、用 Frank-Wolfe 式的"射线打到边界 + 可学步长"代替昂贵的投影求解器，从而在规划/控制任务上做到**零约束违反**的同时把推理延迟降低一到两个数量级。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "约束流匹配"
+  - "安全约束"
+  - "投影自由"
+  - "Ray Shooting"
+  - "离散时间流"
+---
+
 # PolyFlow: Safe and Efficient Polytope-Constrained Flow Matching with Constraint Embedding and Projection-free Update
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation
+description: >-
+  [ICLR 2026][多模态VLM][交错图文生成] 针对统一多模态大模型（LMM）"图文交错生成"训练数据稀缺、评测不可靠两大痛点，本文造了一个 180 万样本、3500 主题、带自动质检（SEIR 迭代精修）的大规模数据集 InterSyn，并训练了一个与人类打分高度一致（A@1 达 95.4%）、输出四维可解释分数的评判模型 SynJudge，实验证明用 InterSyn 微调只需 25K–50K 样本就能显著提升交错生成能力。
+tags:
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "交错图文生成"
+  - "InterSyn"
+  - "SEIR"
+  - "SynJudge"
+  - "图文协同"
+---
+
 # A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation
 
 **会议**: ICLR 2026  
-**OpenReview**: [qBORZkk28r](https://openreview.net/forum?id=qBORZkk28r)  
+**OpenReview**: [https://openreview.net/forum?id=qBORZkk28r](https://openreview.net/forum?id=qBORZkk28r)  
 **代码**: 待确认  
 **领域**: 多模态VLM / 交错图文生成 / 数据集与评测  
 **关键词**: 交错图文生成、InterSyn、SEIR、SynJudge、图文协同
@@ -133,10 +148,10 @@ ICC/ITS 提升尤为剧烈（VARGPT-v1.1 的 ICC 从 1.01→3.39，ITS 从 0.68�
 ## 相关论文
 
 - [\[CVPR 2025\] CoMM: A Coherent Interleaved Image-Text Dataset for Multimodal Understanding and Generation](../../CVPR2025/multimodal_vlm/comm_a_coherent_interleaved_image-text_dataset_for_multimodal_understanding_and_.md)
-- [\[ICLR 2026\] GLYPH-SR: Can We Achieve Both High-Quality Image Super-Resolution and High-Fidelity Text Recovery via VLM-Guided Latent Diffusion Model?](glyph-sr_can_we_achieve_both_high-quality_image_super-resolution_and_high-fideli.md)
 - [\[CVPR 2026\] ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](../../CVPR2026/multimodal_vlm/chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)
-- [\[CVPR 2026\] Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](../../CVPR2026/multimodal_vlm/multimodal_rewardbench_2_evaluating_omni_reward_models_for_interleaved_text_and_.md)
-- [\[CVPR 2025\] OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation](../../CVPR2025/multimodal_vlm/opening_a_comprehensive_benchmark_for_judging_open-ended_interleaved_image-text_.md)
+- [\[ICLR 2026\] Grounding-IQA: Grounding Multimodal Language Models for Image Quality Assessment](grounding-iqa_grounding_multimodal_language_model_for_image_quality_assessment.md)
+- [\[ICLR 2026\] Self-Evolving Vision-Language Models for Image Quality Assessment via Voting and Ranking](self-evolving_vision-language_models_for_image_quality_assessment_via_voting_and.md)
+- [\[ICLR 2026\] K-Sort Eval: Efficient Preference Evaluation for Visual Generation via Corrected VLM-as-a-Judge](k-sort_eval_efficient_preference_evaluation_for_visual_generation_via_corrected_.md)
 
 </div>
 

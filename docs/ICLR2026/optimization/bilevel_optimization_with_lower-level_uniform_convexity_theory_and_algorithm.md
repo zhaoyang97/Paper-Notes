@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bilevel Optimization with Lower-Level Uniform Convexity: Theory and Algorithm
+description: >-
+  [ICLR2026][优化/理论][双层优化] 本文用"下层一致凸（LLUC，指数 $p\ge 2$）"在下层强凸（$p=2$）与一般凸之间架起一座可解的桥梁，建立了一致凸条件下的隐式微分定理（给出超梯度显式公式与 Hölder 光滑性），并设计随机算法 UniBiO，证明其找到 $\epsilon$-稳定点的 oracle 复杂度为 $\widetilde{O}(\epsilon^{-5p+6})$，当 $p=2$ 退化为最优的 $\widetilde{O}(\epsilon^{-4})$。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "双层优化"
+  - "一致凸"
+  - "隐式微分"
+  - "超梯度"
+  - "oracle 复杂度"
+---
+
 # Bilevel Optimization with Lower-Level Uniform Convexity: Theory and Algorithm
 
 **会议**: ICLR2026  
-**OpenReview**: [dJgb3ngAvT](https://openreview.net/forum?id=dJgb3ngAvT)  
+**OpenReview**: [https://openreview.net/forum?id=dJgb3ngAvT](https://openreview.net/forum?id=dJgb3ngAvT)  
 **代码**: https://github.com/MingruiLiu-ML-Lab/bilevel-optimization-lower-level-uniform-convexity  
 **领域**: optimization  
 **关键词**: 双层优化, 一致凸, 隐式微分, 超梯度, oracle 复杂度
@@ -128,10 +143,10 @@ $$\|\nabla\phi(x_1)-\nabla\phi(x_2)\|\le L_{\phi_1}\|x_1-x_2\|^{\frac{1}{p-1}}+L
 ## 相关论文
 
 - [\[NeurIPS 2025\] Learning Theory for Kernel Bilevel Optimization](../../NeurIPS2025/optimization/learning_theory_for_kernel_bilevel_optimization.md)
-- [\[ICML 2026\] Lower Complexity Bounds for Nonconvex-Strongly-Convex Bilevel Optimization with First-Order Oracles](../../ICML2026/optimization/lower_complexity_bounds_for_nonconvex-strongly-convex_bilevel_optimization_with_.md)
 - [\[NeurIPS 2025\] An Adaptive Algorithm for Bilevel Optimization on Riemannian Manifolds](../../NeurIPS2025/optimization/an_adaptive_algorithm_for_bilevel_optimization_on_riemannian_manifolds.md)
-- [\[ICML 2026\] Towards Understanding Continual Factual Knowledge Acquisition of Language Models: From Theory to Algorithm](../../ICML2026/optimization/towards_understanding_continual_factual_knowledge_acquisition_of_language_models.md)
+- [\[ICML 2026\] Lower Complexity Bounds for Nonconvex-Strongly-Convex Bilevel Optimization with First-Order Oracles](../../ICML2026/optimization/lower_complexity_bounds_for_nonconvex-strongly-convex_bilevel_optimization_with_.md)
 - [\[ICLR 2026\] Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization](faster_gradient_methods_for_highly-smooth_stochastic_bilevel_optimization.md)
+- [\[ICLR 2026\] Reducing Contextual Stochastic Bilevel Optimization via Structured Function Approximation](reducing_contextual_stochastic_bilevel_optimization_via_structured_function_appr.md)
 
 </div>
 

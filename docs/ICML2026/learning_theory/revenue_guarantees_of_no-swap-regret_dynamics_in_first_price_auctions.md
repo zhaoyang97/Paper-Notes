@@ -1,3 +1,20 @@
+---
+title: >-
+  [论文解读] Revenue Guarantees of No-Swap-Regret Dynamics in First Price Auctions
+description: >-
+  [ICML2026][学习理论][一价拍卖] 在离散一价拍卖里证明：任意 $\epsilon$-近似相关均衡的收益至少是 $v_2-\Theta(1/k)-\Theta(\epsilon k^2)$（$v_2$ 是次高估值），由此首次给出无交换遗憾竞拍者在一价拍卖中收益的**多项式收敛速率**——若用最优 $O(\sqrt{kT})$ 交换遗憾算法，只需 $O(k^5/\epsilon^2)$ 轮就能让时均收益逼近次高估值，把此前的拟多项式界 $k^{O(\log k)}$ 大幅改进。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "在线学习"
+  - "算法博弈论"
+  - "一价拍卖"
+  - "无交换遗憾"
+  - "相关均衡"
+  - "收敛速率"
+  - "对偶拟合"
+---
+
 # Revenue Guarantees of No-Swap-Regret Dynamics in First Price Auctions
 
 **会议**: ICML2026  

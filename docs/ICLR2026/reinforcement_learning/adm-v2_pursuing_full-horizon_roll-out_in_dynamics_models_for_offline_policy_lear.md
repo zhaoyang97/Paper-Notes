@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ADM-v2: Pursuing Full-Horizon Roll-out in Dynamics Models for Offline Policy Learning and Evaluation
+description: >-
+  [ICLR2026][强化学习][离线强化学习] ADM-v2 把"任意步动力学模型"的起始状态从 GRU 循环中结构性解耦，配合并行任意步 roll-out 算法 PARoll，让动力学模型能可靠地跑完整条轨迹（full-horizon roll-out），从而在离线策略评估和离线策略优化上同时刷到 D4RL / NeoRL 的 SOTA。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "基于模型的 RL"
+  - "动力学模型"
+  - "全程 roll-out"
+  - "不确定性估计"
+---
+
 # ADM-v2: Pursuing Full-Horizon Roll-out in Dynamics Models for Offline Policy Learning and Evaluation
 
 **会议**: ICLR2026  
-**OpenReview**: [ICbXEwqpga](https://openreview.net/forum?id=ICbXEwqpga)  
+**OpenReview**: [https://openreview.net/forum?id=ICbXEwqpga](https://openreview.net/forum?id=ICbXEwqpga)  
 **代码**: https://github.com/LAMDA-RL/adm2  
 **领域**: reinforcement learning  
 **关键词**: 离线强化学习, 基于模型的 RL, 动力学模型, 全程 roll-out, 不确定性估计
@@ -129,11 +144,11 @@ OPE 方面，在 DOPE benchmark 的 15 个任务上用归一化绝对误差、ra
 
 ## 相关论文
 
-- [\[ICML 2026\] Offline Reinforcement Learning with Universal Horizon Models](../../ICML2026/reinforcement_learning/offline_reinforcement_learning_with_universal_horizon_models.md)
 - [\[ICLR 2026\] Beyond Penalization: Diffusion-based Out-of-Distribution Detection and Selective Regularization in Offline Reinforcement Learning](beyond_penalization_diffusion-based_out-of-distribution_detection_and_selective_.md)
-- [\[ICLR 2026\] Dual-Robust Cross-Domain Offline Reinforcement Learning Against Dynamics Shifts](dual-robust_cross-domain_offline_reinforcement_learning_against_dynamics_shifts.md)
-- [\[ICLR 2026\] A Unifying View of Coverage in Linear Off-Policy Evaluation](a_unifying_view_of_coverage_in_linear_off-policy_evaluation.md)
+- [\[ICML 2026\] Offline Reinforcement Learning with Universal Horizon Models](../../ICML2026/reinforcement_learning/offline_reinforcement_learning_with_universal_horizon_models.md)
+- [\[ICLR 2026\] MOBODY: Model-Based Off-Dynamics Offline Reinforcement Learning](mobody_model-based_off-dynamics_offline_reinforcement_learning.md)
 - [\[ICLR 2026\] Adaptive Scaling of Policy Constraints for Offline Reinforcement Learning](adaptive_scaling_of_policy_constraints_for_offline_reinforcement_learning.md)
+- [\[ICLR 2026\] Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search](enhancing_generative_auto-bidding_with_offline_reward_evaluation_and_policy_sear.md)
 
 </div>
 

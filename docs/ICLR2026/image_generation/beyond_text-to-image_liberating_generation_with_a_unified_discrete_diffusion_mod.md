@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model
+description: >-
+  [ICLR2026][图像生成][统一生成模型] Muddit 把文本和图像放进同一套吸收态（掩码）离散扩散框架里，用一个从文生图模型 Meissonic 初始化的 MM-DiT 当共享生成器，只换条件信号 $c$ 就能并行完成文生图、图生文、VQA 三类任务，用 1B 参数在质量和效率上追平甚至超过大得多的自回归统一模型。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "统一生成模型"
+  - "离散扩散"
+  - "视觉先验"
+  - "并行解码"
+  - "MaskGIT"
+---
+
 # Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model
 
 **会议**: ICLR2026  
-**OpenReview**: [pG0WTde3pR](https://openreview.net/forum?id=pG0WTde3pR)  
+**OpenReview**: [https://openreview.net/forum?id=pG0WTde3pR](https://openreview.net/forum?id=pG0WTde3pR)  
 **代码**: https://github.com/M-E-AGI-Lab/Muddit （模型权重 https://huggingface.co/MeissonFlow/Muddit）  
 **领域**: 统一生成 / 离散扩散 / 多模态  
 **关键词**: 统一生成模型、离散扩散、视觉先验、并行解码、MaskGIT
@@ -104,6 +119,7 @@ Muddit 以 1B 参数拿到 0.61 的 Overall，明显超过同为离散扩散的 
 CIDEr 59.9 超过扩散基线 D-DiT（56.2），VQAv2 68.2% 优于 Show-O 和 D-DiT；1024 版进一步提到 CIDEr 60.1 / VQAv2 70.2。
 
 ### 消融实验
+
 | 配置 | GenEval | MS-COCO | VQAv2 | 说明 |
 |------|------|------|------|------|
 | 联合训练 | 61.6 | 59.9 | 68.2 | 完整模型 |
@@ -149,11 +165,11 @@ CIDEr 59.9 超过扩散基线 D-DiT（56.2），VQAv2 68.2% 优于 Show-O 和 D-
 
 ## 相关论文
 
+- [\[ICLR 2026\] Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling](continuously_augmented_discrete_diffusion_model_for_categorical_generative_model.md)
 - [\[ICLR 2026\] Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)](improving_discrete_diffusion_unmasking_policies_beyond_explicit_reference_polici.md)
-- [\[NeurIPS 2025\] Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking](../../NeurIPS2025/image_generation/beyond_masked_and_unmasked_discrete_diffusion_models_via_par.md)
+- [\[ICLR 2026\] Consolidating Reinforcement Learning for Multimodal Discrete Diffusion Models](consolidating_reinforcement_learning_for_multimodal_discrete_diffusion_models.md)
 - [\[ICCV 2025\] UniVG: A Generalist Diffusion Model for Unified Image Generation and Editing](../../ICCV2025/image_generation/univg_a_generalist_diffusion_model_for_unified_image_generation_and_editing.md)
-- [\[CVPR 2026\] Beyond Text Prompts: Precise Concept Erasure through Text–Image Collaboration](../../CVPR2026/image_generation/beyond_text_prompts_precise_concept_erasure_through_text-image_collaboration.md)
-- [\[CVPR 2026\] Omni2Sound: Towards Unified Video-Text-to-Audio Generation](../../CVPR2026/image_generation/omni2sound_towards_unified_video-text-to-audio_generation.md)
+- [\[ICLR 2026\] ReDDiT: Rehashing Noise for Discrete Visual Generation](reddit_rehashing_noise_for_discrete_visual_generation.md)
 
 </div>
 

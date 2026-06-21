@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] A Risk Decomposition Framework for Pre-Hoc Fine-Tuning Prediction
+description: >-
+  [ICML2026][LLM效率][pre-hoc 预测] 微调 LLM 又贵又难预测，本文把「在开训前/早期就预测微调最终性能」这件事形式化成一个信息约束下的随机估计问题，把预测风险分解成**不可约的内在极限（数据-模型静态兼容性）+ 可约的优化方差**，证明优化方差的衰减速率有一个 $c^{-\alpha}$ 的必然下界（再强的预测器也快不过它），由此推出预算最优的探测停止条件，并用「内在极限 × 衰减率」两个轴把任务组织成 Static-Sufficient / Dynamic-Critical / Noise-Dominant 三个可预测性区制，解释了为什么浅探测在 SST-2 上够用、在 GSM8K 上却失败。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "pre-hoc 预测"
+  - "风险分解"
+  - "优化方差"
+  - "幂律衰减"
+  - "最优停止"
+---
+
 # A Risk Decomposition Framework for Pre-Hoc Fine-Tuning Prediction
 
 **会议**: ICML2026  

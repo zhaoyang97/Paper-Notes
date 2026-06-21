@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CLoD-GS: Continuous Level-of-Detail via 3D Gaussian Splatting
+description: >-
+  [ICLR2026][3D视觉][3D高斯泼溅] CLoD-GS 给每个 3D 高斯加一个可学习的"距离衰减因子"，让基元的不透明度随观察距离平滑下降，从而在单个模型：里实现连续可调的细节层次（CLoD），既消除了传统离散 LoD 的多份存储与切换"跳变"，又顺带把基元数量和显存压了下来。 领域现状：细节层次（Level o…
+tags:
+  - "ICLR2026"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "连续细节层次"
+  - "实时渲染"
+  - "距离自适应不透明度"
+  - "LoD"
+---
+
 # CLoD-GS: Continuous Level-of-Detail via 3D Gaussian Splatting
 
 **会议**: ICLR2026  
-**OpenReview**: [zgs0L72R4c](https://openreview.net/forum?id=zgs0L72R4c)  
+**OpenReview**: [https://openreview.net/forum?id=zgs0L72R4c](https://openreview.net/forum?id=zgs0L72R4c)  
 **代码**: 待确认  
 **领域**: 3D视觉  
 **关键词**: 3D高斯泼溅, 连续细节层次, 实时渲染, 距离自适应不透明度, LoD  
@@ -125,3 +140,19 @@ $$L_{total} = w_s\,(L_{render} + \lambda_{reg} L_{reg})$$
 - 实验充分度: ⭐⭐⭐⭐ 12 场景 4 数据集、含 DLoD vs CLoD 专设对照与正交性验证，消融到位。
 - 写作质量: ⭐⭐⭐⭐ 动机推导清晰，公式与机制讲得明白。
 - 价值: ⭐⭐⭐⭐ 即插现有 3DGS、省存储无跳变、可叠加压缩，工程落地价值高。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] PD²GS: Part-Level Decoupling and Continuous Deformation of Articulated Objects via Gaussian Splatting](pd2gs_part-level_decoupling_and_continuous_deformation_of_articulated_objects_vi.md)
+- [\[ICCV 2025\] VertexRegen: Mesh Generation with Continuous Level of Detail](../../ICCV2025/3d_vision/vertexregen_mesh_generation_with_continuous_level_of_detail.md)
+- [\[ICLR 2026\] D²GS: Depth-and-Density Guided Gaussian Splatting for Stable and Accurate Sparse-View Reconstruction](d2gs_depth-and-density_guided_gaussian_splatting_for_stable_and_accurate_sparse-.md)
+- [\[NeurIPS 2025\] LODGE: Level-of-Detail Large-Scale Gaussian Splatting with Efficient Rendering](../../NeurIPS2025/3d_vision/lodge_level-of-detail_large-scale_gaussian_splatting_with_efficient_rendering.md)
+- [\[ICLR 2026\] SSD-GS: Scattering and Shadow Decomposition for Relightable 3D Gaussian Splatting](ssd-gs_scattering_and_shadow_decomposition_for_relightable_3d_gaussian_splatting.md)
+
+</div>
+
+<!-- RELATED:END -->

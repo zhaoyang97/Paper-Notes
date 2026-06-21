@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Self-Augmenting Retrieval for Diffusion Language Models
+description: >-
+  [ICML2026][信息检索/RAG][扩散语言模型] 利用扩散语言模型在去噪过程中对所有位置同时给出的"暂定预测"作为前瞻信号，在每一步去噪时用这些尚未提交的 token 重新检索证据，提出训练无关、检索器无关的动态 RAG 框架 SARDI，在 5 个多跳 QA 基准上同时打败扩散和自回归的训练无关检索基线，且吞吐量最高快 8 倍。
+tags:
+  - "ICML2026"
+  - "信息检索/RAG"
+  - "扩散语言模型"
+  - "动态检索"
+  - "多跳问答"
+  - "并行解码"
+  - "训练无关"
+---
+
 # Self-Augmenting Retrieval for Diffusion Language Models
 
 **会议**: ICML2026  

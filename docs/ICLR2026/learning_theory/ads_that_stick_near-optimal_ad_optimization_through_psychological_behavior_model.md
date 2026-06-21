@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] Ads that Stick: Near-Optimal Ad Optimization through Psychological Behavior Models
+description: >-
+  [ICLR2026][学习理论][广告调度] 本文把"mere exposure / hedonic adaptation / operant conditioning"三种心理学效应写进一个连续时间的广告奖励模型，证明在广告数固定时最优排期只由"算子条件作用"的衰减损失决定，并给出一个拟线性时间、误差指数级小的近最优排期算法，揭示了"均匀间隔"这种常用启发式在很多场景下其实并非最优。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "在线优化"
+  - "计算广告"
+  - "广告调度"
+  - "心理行为模型"
+  - "近最优算法"
+  - "凸优化"
+  - "算子条件作用"
+---
+
 # Ads that Stick: Near-Optimal Ad Optimization through Psychological Behavior Models
 
 **会议**: ICLR2026  
-**OpenReview**: [A8wfXZkoMs](https://openreview.net/forum?id=A8wfXZkoMs)  
+**OpenReview**: [https://openreview.net/forum?id=A8wfXZkoMs](https://openreview.net/forum?id=A8wfXZkoMs)  
 **代码**: https://anonymous.4open.science/r/Ads-that-Stick-5E13  
 **领域**: 学习理论 / 在线优化 / 计算广告  
 **关键词**: 广告调度, 心理行为模型, 近最优算法, 凸优化, 算子条件作用
@@ -136,10 +153,10 @@ $$t_i^{*}-\frac{1}{2^n}\le t_i\le t_i^{*}+\frac{1}{2^n},$$
 ## 相关论文
 
 - [\[ICLR 2026\] A Near-Optimal Best-of-Both-Worlds Algorithm for Federated Bandits](a_near-optimal_best-of-both-worlds_algorithm_for_federated_bandits.md)
-- [\[ICML 2025\] Near Optimal Best Arm Identification for Clustered Bandits](../../ICML2025/learning_theory/near_optimal_best_arm_identification_for_clustered_bandits.md)
-- [\[ICLR 2026\] Efficient Credal Prediction through Decalibration](efficient_credal_prediction_through_decalibration.md)
+- [\[ICLR 2026\] Near Optimal Robust Federated Learning Against Data Poisoning Attack](near_optimal_robust_federated_learning_against_data_poisoning_attack.md)
+- [\[ICLR 2026\] Near-Optimal Sample Complexity Bounds for Constrained Average-Reward MDPs](near-optimal_sample_complexity_bounds_for_constrained_average-reward_mdps.md)
+- [\[ICLR 2026\] Diffusion Language Models are Provably Optimal Parallel Samplers](diffusion_language_models_are_provably_optimal_parallel_samplers.md)
 - [\[ICLR 2026\] Best-of-N through the Smoothing Lens: KL Divergence and Regret Analysis](best-of-n_through_the_smoothing_lens_kl_divergence_and_regret_analysis.md)
-- [\[ICML 2025\] Near-Optimal Consistency-Robustness Trade-Offs for Learning-Augmented Online Knapsack Problems](../../ICML2025/learning_theory/near-optimal_consistency-robustness_trade-offs_for_learning-augmented_online_kna.md)
 
 </div>
 

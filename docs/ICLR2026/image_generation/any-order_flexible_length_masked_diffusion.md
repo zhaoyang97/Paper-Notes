@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Any-Order Flexible Length Masked Diffusion
+description: >-
+  [ICLR 2026][图像生成][掩码扩散] 本文提出 FlexMDM，一种能在生成过程中**插入新 token、从而建模变长序列**的掩码扩散模型，它在理论上保留了掩码扩散"任意顺序并行解码"的能力，困惑度与定长掩码扩散持平但长度分布拟合显著更好，并且只需 16 张 H100 三天就能把预训练好的 LLaDA-8B 改造成变长模型，在 GSM8K（58%→67%）和代码填空（52%→65%）上明显提升。
+tags:
+  - "ICLR 2026"
+  - "图像生成"
+  - "掩码扩散"
+  - "变长生成"
+  - "任意顺序"
+  - "随机插值"
+  - "连续时间马尔可夫链"
+---
+
 # Any-Order Flexible Length Masked Diffusion
 
 **会议**: ICLR 2026  
-**OpenReview**: [ttuNnMRI6H](https://openreview.net/forum?id=ttuNnMRI6H)  
+**OpenReview**: [https://openreview.net/forum?id=ttuNnMRI6H](https://openreview.net/forum?id=ttuNnMRI6H)  
 **代码**: https://github.com/brianlck/FlexMDM  
 **领域**: 离散扩散 / 语言模型预训练  
 **关键词**: 掩码扩散, 变长生成, 任意顺序, 随机插值, 连续时间马尔可夫链
@@ -88,6 +103,7 @@ $$\mathcal{L}_\theta=-\int_0^1\mathbb{E}\Big[\underbrace{\tfrac{\dot\beta_t}{1-\
 且随采样步数增加 FlexMDM 持续提升，而 IFT 后的 LLaDA 基本走平——说明 FlexMDM 在"给足算力"时更能受益。
 
 ### 消融实验
+
 | 配置 / 任务（41×41 迷宫规划，按子目标数 $K$ 控难度） | 成功率 | 说明 |
 |------|---------|------|
 | Easy（$K=2$）— FlexMDM | 92.3% | vs MDM 68.4% |
@@ -122,3 +138,19 @@ $$\mathcal{L}_\theta=-\int_0^1\mathbb{E}\Big[\underbrace{\tfrac{\dot\beta_t}{1-\
 - 实验充分度: ⭐⭐⭐⭐ 覆盖文本预训练、迷宫规划、8B 数学/代码三类任务，但因目标不同缺常规似然指标、删除能力未验证。
 - 写作质量: ⭐⭐⭐⭐⭐ 从 CTMC/插值循序渐进推到 FlexMDM，命题与直觉解释交替，理论叙述清晰。
 - 价值: ⭐⭐⭐⭐⭐ 给出可低成本改造现有大 MDM 的变长范式，对离散扩散语言模型方向有实际推动力。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Any-step Generation via N-th Order Recursive Consistent Velocity Field Estimation](any-step_generation_via_n-th_order_recursive_consistent_velocity_field_estimatio.md)
+- [\[ICML 2026\] Esoteric Language Models: A Family of Any-Order Diffusion LLMs](../../ICML2026/image_generation/esoteric_language_models_a_family_of_any-order_diffusion_llms.md)
+- [\[ICML 2025\] FlexTok: Resampling Images into 1D Token Sequences of Flexible Length](../../ICML2025/image_generation/flextok_resampling_images_into_1d_token_sequences_of_flexible_length.md)
+- [\[ICLR 2026\] Partition Generative Modeling: Masked Modeling Without Masks](partition_generative_modeling_masked_modeling_without_masks.md)
+- [\[ICLR 2026\] HOG-Diff: Higher-Order Guided Diffusion for Graph Generation](hog-diff_higher-order_guided_diffusion_for_graph_generation.md)
+
+</div>
+
+<!-- RELATED:END -->

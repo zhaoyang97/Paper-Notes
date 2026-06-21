@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Autoencoding-Free Context Compression for LLMs via Contextual Semantic Anchors
+description: >-
+  [ICLR2026][LLM效率][上下文压缩] SAC 不再像 ICAE 那样追加随机初始化的"压缩 token"并靠自编码预训练去重建上下文，而是直接从原文里挑出若干"锚点 token"、给它们加一个可学习的锚点嵌入、再用双向注意力让锚点聚合全局信息，把上下文压进锚点的 KV 里——彻底丢掉自编码任务后，在问答和长文摘要上反而稳定超过现有压缩方法。
+tags:
+  - "ICLR2026"
+  - "LLM效率"
+  - "上下文压缩"
+  - "语义锚点"
+  - "KV 表示"
+  - "双向注意力"
+  - "自编码-free"
+---
+
 # Autoencoding-Free Context Compression for LLMs via Contextual Semantic Anchors
 
 **会议**: ICLR2026  
-**OpenReview**: [8Pi6Du0n7F](https://openreview.net/forum?id=8Pi6Du0n7F)  
+**OpenReview**: [https://openreview.net/forum?id=8Pi6Du0n7F](https://openreview.net/forum?id=8Pi6Du0n7F)  
 **代码**: https://github.com/lx-Meteors/SAC  
 **领域**: LLM 效率 / 上下文压缩  
 **关键词**: 上下文压缩, 语义锚点, KV 表示, 双向注意力, 自编码-free
@@ -123,11 +138,11 @@ SAC 在 ID/OOD 的每个子数据集上都超过所有基线，且在 5×/15×/5
 
 ## 相关论文
 
+- [\[ICLR 2026\] RMAAT: Astrocyte-Inspired Memory Compression and Replay for Efficient Long-Context Transformers](rmaat_astrocyte-inspired_memory_compression_and_replay_for_efficient_long-contex.md)
+- [\[ICLR 2026\] Command-V: Training-Free Representation Finetuning Transfer](command-v_training-free_representation_finetuning_transfer.md)
 - [\[ICML 2026\] Proxy Compression for Language Modeling](../../ICML2026/llm_efficiency/proxy_compression_for_language_modeling.md)
 - [\[ACL 2026\] RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding](../../ACL2026/llm_efficiency/racer_retrieval-augmented_contextual_rapid_speculative_decoding.md)
-- [\[ICLR 2026\] Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling](semantic_parallelism_redefining_efficient_moe_inference_via_model-data_co-schedu.md)
-- [\[ICML 2026\] Training-Inference Consistent Segmented Execution for Long-Context LLMs](../../ICML2026/llm_efficiency/training-inference_consistent_segmented_execution_for_long-context_llms.md)
-- [\[ICLR 2026\] Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models](beyond_fixed_training-free_variable-length_denoising_for_diffusion_large_languag.md)
+- [\[ICLR 2026\] Extending the Context of Pretrained LLMs by Dropping Their Positional Embedding](extending_the_context_of_pretrained_llms_by_dropping_their_positional_embedding.md)
 
 </div>
 

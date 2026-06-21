@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Dynamic Linear Attention
+description: >-
+  [ICML2026][LLM效率][线性注意力] 针对现有"多状态线性注意力"用固定规则合并记忆、会把关键 token 过早压进粗摘要并累积误差的问题，DLA 提出一套**信息感知 + 容量受限**的动态记忆框架：用一个轻量的"状态信息分数"按 token 级信息变化自适应地决定何时新建/合并记忆状态，并用固定大小的时序缓存压住状态膨胀，在 16 个数据集上稳定超过 SOTA 的 Log-Linear Attention，且 DLA 版 Mamba-2 能逼平同参数量的全注意力 Transformer。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "线性注意力"
+  - "多状态记忆"
+  - "动态状态合并"
+  - "容量受限缓存"
+  - "长上下文"
+---
+
 # Dynamic Linear Attention
 
 **会议**: ICML2026  

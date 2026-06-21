@@ -16,7 +16,7 @@ tags:
 # THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics
 
 **会议**: ICLR 2026  
-**OpenReview**: [y3UkklvoW9](https://openreview.net/forum?id=y3UkklvoW9)  
+**OpenReview**: [https://openreview.net/forum?id=y3UkklvoW9](https://openreview.net/forum?id=y3UkklvoW9)  
 **代码**: https://github.com/BUPT-Reasoning-Lab/THEMIS （含项目页与 HuggingFace 数据集）  
 **领域**: 多模态VLM评测 / 学术造假取证 / 视觉鉴伪基准  
 **关键词**: MLLM 评测, 图像鉴伪, 学术造假, 视觉推理, 多任务基准
@@ -127,11 +127,11 @@ THEMIS 没有停留在「有没有造假」的二分类，而是为 5 类手法�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation](holistic_agent_leaderboard_the_missing_infrastructure_for_ai_agent_evaluation.md)
 - [\[ACL 2026\] Reward Modeling for Scientific Writing Evaluation](../../ACL2026/llm_evaluation/reward_modeling_for_scientific_writing_evaluation.md)
+- [\[ICLR 2026\] NAIPv2: Debiased Pairwise Learning for Efficient Paper Quality Estimation](naipv2_debiased_pairwise_learning_for_efficient_paper_quality_estimation.md)
 - [\[ACL 2026\] HoWToBench: Holistic Evaluation for LLM's Capability in Human-level Writing using Tree of Writing](../../ACL2026/llm_evaluation/howtobench_holistic_evaluation_for_llms_capability_in_human-level_writing_using_.md)
 - [\[ACL 2026\] SciCustom: A Framework for Custom Evaluation of Scientific Capabilities in Large Language Models](../../ACL2026/llm_evaluation/scicustom_a_framework_for_custom_evaluation_of_scientific_capabilities_in_large_.md)
-- [\[ICLR 2026\] AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite](astabench_benchmarking_ai_agents.md)
-- [\[ACL 2026\] NovBench: Evaluating Large Language Models on Academic Paper Novelty Assessment](../../ACL2026/llm_evaluation/novbench_evaluating_large_language_models_on_academic_paper_novelty_assessment.md)
 
 </div>
 

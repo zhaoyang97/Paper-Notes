@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Generative Models Erode Human Temporal Learning Through Market Selection
+description: >-
+  [ICML 2026][AI安全][生成模型风险] 这篇立场论文提出：在还没到 AGI 的当下，生成模型就已经通过"市场逆向选择"对知识与文化生产造成结构性风险——当 AI 产出在表面特征上越来越像需要长期人类学习才能完成的工作，评估者核验"这到底是不是真人长期积累的产物"的成本就高过了收益，于是奖励变得对生产方式"盲视"，投入多年学习的人被迫和几乎零成本的 AI 产出比价，最终被挤出市场。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "生成模型风险"
+  - "逆向选择"
+  - "验证成本"
+  - "价值崩塌"
+  - "子AGI风险"
+---
+
 # Generative Models Erode Human Temporal Learning Through Market Selection
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] When Does Language Matter? Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models
+description: >-
+  [ACL2026][机器人][VLA] 本文把 LIBERO 机器人操作基准翻成十种语言，首次系统揭示 VLA 模型在非英语指令下成功率暴跌 30–50%，并发现"语言影响在执行步上高度不均匀"——只有少数关键步对语言敏感却主导失败，据此提出一种只在这些步上做推理时表征对齐的方法，把多语言成功率大幅拉回。
+tags:
+  - "ACL2026"
+  - "机器人"
+  - "VLA"
+  - "多语言指令"
+  - "步级语言敏感度"
+  - "推理时对齐"
+  - "LIBERO"
+---
+
 # When Does Language Matter? Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models
 
 **会议**: ACL2026  

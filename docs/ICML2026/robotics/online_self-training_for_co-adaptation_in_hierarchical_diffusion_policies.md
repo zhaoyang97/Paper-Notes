@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Online Self-Training for Co-Adaptation in Hierarchical Diffusion Policies
+description: >-
+  [ICML 2026][机器人][分层策略] ORCHID 用"自训练"（self-training）让分层扩散机器人策略在线自我改进：反复采样轨迹、用稀疏的环境成功信号过滤出"规划器和控制器同时成功"的轨迹，再监督蒸馏回**高层规划器**和**低层控制器**两端，从而把高层（HL）和低层（LL）双向协同对齐，让一个轻量初始很弱的模型在 CALVIN 上超过比它大一倍的 VLA。
+tags:
+  - "ICML 2026"
+  - "机器人"
+  - "分层策略"
+  - "扩散策略"
+  - "自训练"
+  - "在线微调"
+  - "语言条件操作"
+---
+
 # Online Self-Training for Co-Adaptation in Hierarchical Diffusion Policies
 
 **会议**: ICML 2026  

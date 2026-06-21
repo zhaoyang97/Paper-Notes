@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Beyond Classification: A Cough Regression Benchmark for Respiratory Acoustic Foundation Models
+description: >-
+  [ICML2026][音频/语音][咳嗽声学] 现有呼吸声学基础模型（FM）几乎只在咳嗽**分类**上被评过，本文首次系统地把它们放到**连续值回归**任务上（从咳嗽音频被动估计年龄、BMI、疾病概率），用统一的冻结编码器 + 三种回归头、5 个 FM × 6 个目标 × 3 个数据集的协议做了一个多模型多目标基准，揭示了"数据规模 × 头部容量"权衡、生成式预训练优势、以及强烈不对称的跨数据集迁移等一系列被分类评测掩盖的结论。
+tags:
+  - "ICML2026"
+  - "音频/语音"
+  - "咳嗽声学"
+  - "呼吸基础模型"
+  - "回归基准"
+  - "线性探针"
+  - "跨数据集泛化"
+---
+
 # Beyond Classification: A Cough Regression Benchmark for Respiratory Acoustic Foundation Models
 
 **会议**: ICML2026  

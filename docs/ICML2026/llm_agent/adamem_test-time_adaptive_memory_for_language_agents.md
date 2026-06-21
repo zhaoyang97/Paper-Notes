@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AdaMEM: Test-Time Adaptive Memory for Language Agents
+description: >-
+  [ICML 2026][LLM Agent][语言智能体] AdaMEM 把智能体记忆拆成「离线存的长期轨迹记忆 + 在线现合成的短期策略记忆」两层，让智能体在长程任务执行到一半时还能随当前状态动态刷新指导策略，配合一个只保留「真正改变了动作」的策略的微调技术 Step-MFT，在 ALFWorld、WebShop、HotpotQA 上相对静态记忆基线最高拿到 13~17% 的相对提升。
+tags:
+  - "ICML 2026"
+  - "LLM Agent"
+  - "语言智能体"
+  - "测试时自适应"
+  - "智能体记忆"
+  - "策略合成"
+  - "拒绝采样微调"
+---
+
 # AdaMEM: Test-Time Adaptive Memory for Language Agents
 
 **会议**: ICML 2026  

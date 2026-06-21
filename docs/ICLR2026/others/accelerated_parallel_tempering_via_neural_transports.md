@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Accelerated Parallel Tempering via Neural Transports
+description: >-
+  [ICLR2026][并行回火] 把并行回火（Parallel Tempering, PT）里那个"直接对换两条链当前状态"的死板交换动作，换成"先用神经传输（归一化流 / 受控扩散 / 扩散模型）把两个状态各自往中间推几步、再做 Metropolis 接受判定"，从而在相邻退火分布几乎不重叠时也能高概率交换，在保持 MCMC 渐近无偏的前提下大幅提升参考分布到目标分布的往返次数（round trip），并顺带得到低方差的自由能估计。
+tags:
+  - "ICLR2026"
+  - "并行回火"
+  - "神经传输"
+  - "MCMC 采样"
+  - "自由能估计"
+  - "多模态采样"
+---
+
 # Accelerated Parallel Tempering via Neural Transports
 
 **会议**: ICLR2026  
-**OpenReview**: [CODnlyYUli](https://openreview.net/forum?id=CODnlyYUli)  
+**OpenReview**: [https://openreview.net/forum?id=CODnlyYUli](https://openreview.net/forum?id=CODnlyYUli)  
 **代码**: 待确认  
 **领域**: 采样 / MCMC / 概率方法  
 **关键词**: 并行回火, 神经传输, MCMC 采样, 自由能估计, 多模态采样
@@ -134,8 +148,8 @@ APT 不只是个 trick，它配了一套可指导实践的理论。在"高效局
 - [\[AAAI 2026\] ParaRevSNN: A Parallel Reversible Spiking Neural Network for Efficient Training and Inference](../../AAAI2026/others/pararevsnn_a_parallel_reversible_spiking_neural_network_for_efficient_training_a.md)
 - [\[ICML 2026\] Inference of Online Newton Methods with Nesterov's Accelerated Sketching](../../ICML2026/others/inference_of_online_newton_methods_with_nesterovs_accelerated_sketching.md)
 - [\[ICML 2026\] ParalESN: Enabling Parallel Information Processing in Reservoir Computing](../../ICML2026/others/paralesn_enabling_parallel_information_processing_in_reservoir_computing.md)
-- [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](../../ACL2025/others/attention_entropy_parallel_encoding.md)
-- [\[NeurIPS 2025\] Scalable GPU-Accelerated Euler Characteristic Curves: Optimization and Differentiable Learning for PyTorch](../../NeurIPS2025/others/scalable_gpu-accelerated_euler_characteristic_curves_optimization_and_differenti.md)
+- [\[ICLR 2026\] Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks](breaking_gradient_temporal_collinearity_for_robust_spiking_neural_networks.md)
+- [\[ICLR 2026\] Beyond Linear Processing: Dendritic Bilinear Integration in Spiking Neural Networks](beyond_linear_processing_dendritic_bilinear_integration_in_spiking_neural_networ.md)
 
 </div>
 

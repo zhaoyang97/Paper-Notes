@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] AirQA: A Comprehensive QA Dataset for AI Research with Instance-Level Evaluation
+description: >-
+  [ICLR2026][LLM评测][科研问答] AirQA 是一个人工标注的 AI 科研问答数据集（13,956 篇论文、1,246 道题），覆盖单文/多文/检索/综合四类问题与文本/表格/图像/公式/元数据五类元素，并首次用 19 个「逐题定制」的 Python 函数做实例级客观评测；同时提出三智能体框架 EXTRACTOR 自动合成问答对与交互轨迹，让 7B 小模型微调后达到 14B 模型的工具调用水平。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "科研问答"
+  - "实例级评测"
+  - "多模态"
+  - "多任务"
+  - "工具调用 Agent"
+  - "轨迹合成"
+---
+
 # AirQA: A Comprehensive QA Dataset for AI Research with Instance-Level Evaluation
 
 **会议**: ICLR2026  
-**OpenReview**: [RuUXnRyqcy](https://openreview.net/forum?id=RuUXnRyqcy)  
+**OpenReview**: [https://openreview.net/forum?id=RuUXnRyqcy](https://openreview.net/forum?id=RuUXnRyqcy)  
 **代码**: https://github.com/OpenDFM/AirQA  
 **领域**: LLM 评测 / 科研问答 Benchmark / Agent / 指令数据合成  
 **关键词**: 科研问答, 实例级评测, 多模态, 多任务, 工具调用 Agent, 轨迹合成
@@ -146,11 +162,11 @@ actor 在含数据库 + 向量库的环境里，按 Zeng et al. 的设定用 ReA
 
 ## 相关论文
 
-- [\[ICML 2026\] From Human-Level AI Tales to AI Leveling Human Scales](../../ICML2026/llm_evaluation/from_human-level_ai_tales_to_ai_leveling_human_scales.md)
 - [\[ICLR 2026\] AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning](anessuite_a_comprehensive_benchmark_and_dataset_suite_for_anesthesiology_reasoni.md)
-- [\[ICLR 2026\] AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite](astabench_benchmarking_ai_agents.md)
-- [\[ICML 2025\] AAAR-1.0: Assessing AI's Potential to Assist Research](../../ICML2025/llm_evaluation/aaar-10_assessing_ais_potential_to_assist_research.md)
-- [\[ICLR 2026\] Same Content, Different Representations: A Controlled Study for Table QA](same_content_different_representations_a_controlled_study_for_t.md)
+- [\[ICML 2026\] From Human-Level AI Tales to AI Leveling Human Scales](../../ICML2026/llm_evaluation/from_human-level_ai_tales_to_ai_leveling_human_scales.md)
+- [\[ICLR 2026\] DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents](deepresearch_bench_a_comprehensive_benchmark_for_deep_research_agents.md)
+- [\[ICLR 2026\] LFQA-E: Carefully Benchmarking Long-form QA Evaluation](lfqa-e_carefully_benchmarking_long-form_qa_evaluation.md)
+- [\[ICLR 2026\] DeepTRACE: Auditing Deep Research AI Systems for Tracking Reliability Across Citations and Evidence](deeptrace_auditing_deep_research_ai_systems_for_tracking_reliability_across_cita.md)
 
 </div>
 

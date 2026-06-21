@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] EvolProver: Advancing Automated Theorem Proving by Evolving Formalized Problems via Symmetry and Difficulty
+description: >-
+  [ICLR2026][Reasoning][形式化定理证明] EvolProver 提出一条"对称 + 难度"双视角的形式化语句数据增强流水线（EvolDomain 跨域翻译 + EvolDifficulty 难度演化 + EvolAST 基于 AST 的确定性句法重写），用增强数据训练出一个 7B 的非推理（non-CoT）定理证明器，在 FormalMATH-Lite 上以 53.8% pass@32 刷新同量级 SOTA，甚至超过推理模型。
+tags:
+  - "ICLR2026"
+  - "Reasoning"
+  - "形式化定理证明"
+  - "数据增强"
+  - "抽象语法树"
+  - "难度演化"
+  - "鲁棒性"
+---
+
 # EvolProver: Advancing Automated Theorem Proving by Evolving Formalized Problems via Symmetry and Difficulty
 
 **会议**: ICLR2026  
-**OpenReview**: [cBoYkLG3EJ](https://openreview.net/forum?id=cBoYkLG3EJ)  
+**OpenReview**: [https://openreview.net/forum?id=cBoYkLG3EJ](https://openreview.net/forum?id=cBoYkLG3EJ)  
 **代码**: 待确认  
 **领域**: LLM推理 / 形式化定理证明 / 数据增强  
 **关键词**: 形式化定理证明, 数据增强, 抽象语法树, 难度演化, 鲁棒性
@@ -129,11 +144,11 @@ Table 4（FormalMATH-Lite / MiniF2F / Ineq-Comp，均 pass@32）按数据组成�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Process-Verified Reinforcement Learning for Theorem Proving via Lean](process-verified_reinforcement_learning_for_theorem_proving_via_lean.md)
+- [\[ICLR 2026\] Mathesis: Towards Formal Theorem Proving from Natural Languages](mathesis_towards_formal_theorem_proving_from_natural_languages.md)
+- [\[ICLR 2026\] Neural Theorem Proving for Verification Conditions: A Real-World Benchmark](neural_theorem_proving_for_verification_conditions_a_real-world_benchmark.md)
 - [\[ACL 2025\] Local Look-Ahead Guidance via Verifier-in-the-Loop for Automated Theorem Proving](../../ACL2025/llm_reasoning/local_look-ahead_guidance_via_verifier-in-the-loop_for_automated_theorem_proving.md)
 - [\[ICML 2026\] DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling](../../ICML2026/llm_reasoning/dycon_dynamic_reasoning_control_via_evolving_difficulty_modeling.md)
-- [\[ICML 2026\] From LLM-Generated Conjectures to Lean Formalizations: Automated Polynomial Inequality Proving via Sum-of-Squares Certificates](../../ICML2026/llm_reasoning/from_llm-generated_conjectures_to_lean_formalizations_automated_polynomial_inequ.md)
-- [\[ICLR 2026\] AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy](acereason-nemotron_11_advancing_math_and_code_reasoning_through_sft_and_rl_syner.md)
-- [\[ICLR 2026\] Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation](harder_is_better_boosting_mathematical_reasoning_via_difficulty-aware_grpo_and_m.md)
 
 </div>
 

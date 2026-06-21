@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Aggregation: Guiding Clients in Heterogeneous Federated Learning
+description: >-
+  [ICLR2026][优化/理论][联邦学习] FedDRM 把联邦学习中服务器的角色从「被动聚合器」升级为「智能路由器」——用密度比模型加经验似然把异构性建模成一个可学习的客户端分类任务，从而在训练好各客户端本地模型的同时，让服务器能把新查询直接派给最擅长它的客户端，在 CIFAR 与真实眼底医学数据上同时提升本地精度与系统级路由精度。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "联邦学习"
+  - "统计异构性"
+  - "密度比模型"
+  - "经验似然"
+  - "查询路由"
+---
+
 # Beyond Aggregation: Guiding Clients in Heterogeneous Federated Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [RZT1ixYGk1](https://openreview.net/forum?id=RZT1ixYGk1)  
+**OpenReview**: [https://openreview.net/forum?id=RZT1ixYGk1](https://openreview.net/forum?id=RZT1ixYGk1)  
 **代码**: https://github.com/zijianwang0510/FedDRM.git  
 **领域**: 联邦学习 / 优化  
 **关键词**: 联邦学习, 统计异构性, 密度比模型, 经验似然, 查询路由
@@ -128,10 +143,10 @@ FedDRM 在系统精度与平均精度两项上对所有基线（Ditto / FedRep /
 ## 相关论文
 
 - [\[ICLR 2026\] Incentives in Federated Learning with Heterogeneous Agents](incentives_in_federated_learning_with_heterogeneous_agents.md)
+- [\[ICLR 2026\] Byzantine-Robust Federated Learning with Learnable Aggregation Weights](byzantine-robust_federated_learning_with_learnable_aggregation_weights.md)
 - [\[ICML 2026\] HO-SFL: Hybrid-Order Split Federated Learning with Backprop-Free Clients and Dimension-Free Aggregation](../../ICML2026/optimization/ho-sfl_hybrid-order_split_federated_learning_with_backprop-free_clients_and_dime.md)
 - [\[ICLR 2026\] FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments](feddag_clustered_federated_learning_via_global_data_and_gradient_integration_for.md)
-- [\[ICLR 2026\] Learning to Recall with Transformers Beyond Orthogonal Embeddings](learning_to_recall_with_transformers_beyond_orthogonal_embeddings.md)
-- [\[ICML 2026\] Delayed Momentum Aggregation: Communication-efficient Byzantine-robust Federated Learning with Partial Participation](../../ICML2026/optimization/delayed_momentum_aggregation_communication-efficient_byzantine-robust_federated_.md)
+- [\[AAAI 2026\] SMoFi: Step-wise Momentum Fusion for Split Federated Learning on Heterogeneous Data](../../AAAI2026/optimization/smofi_step-wise_momentum_fusion_for_split_federated_learning_on_heterogeneous_da.md)
 
 </div>
 

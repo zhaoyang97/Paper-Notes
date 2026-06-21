@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Regularization for Large-Scale Sparse Feature Embedding Models
+description: >-
+  [ICLR 2026][推荐系统][one-epoch 过拟合] 本文用 Rademacher 复杂度从理论上解释了 CTR/CVR 模型「训练超过一个 epoch 就严重过拟合」的根因——embedding 层范数无约束增长撑大了泛化界，并据此提出按特征出现频率自适应分配范数预算的正则方法 AdamAR：高频特征轻正则、低频特征重正则，既消除多 epoch 过拟合又能提升单 epoch 性能，已在阿里搜索广告线上部署。
+tags:
+  - "ICLR 2026"
+  - "推荐系统"
+  - "one-epoch 过拟合"
+  - "Rademacher 复杂度"
+  - "自适应正则"
+  - "embedding 范数预算"
+  - "AdamAR"
+---
+
 # Adaptive Regularization for Large-Scale Sparse Feature Embedding Models
 
 **会议**: ICLR 2026  
-**OpenReview**: [QFH5mwP9oH](https://openreview.net/forum?id=QFH5mwP9oH)  
+**OpenReview**: [https://openreview.net/forum?id=QFH5mwP9oH](https://openreview.net/forum?id=QFH5mwP9oH)  
 **代码**: https://github.com/alibaba-aidc/adaptive-regularization.git  
 **领域**: 推荐 / CTR 预估 / 稀疏特征嵌入  
 **关键词**: one-epoch 过拟合, Rademacher 复杂度, 自适应正则, embedding 范数预算, AdamAR
@@ -132,11 +147,11 @@ Proposition 2 给出更新后参数范数的上界 $\|\theta^k_p\|\le(1-\alpha)^
 
 ## 相关论文
 
+- [\[ICLR 2026\] RPM: Reasoning-Level Personalization for Black-Box Large Language Models](rpm_reasoning-level_personalization_for_black-box_large_language_models.md)
 - [\[ICLR 2026\] From Evaluation to Defense: Advancing Safety in Video Large Language Models](from_evaluation_to_defense_advancing_safety_in_video_large_language_models.md)
-- [\[ICLR 2026\] C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems](c2al_cohort-contrastive_auxiliary_learning_for_large-scale_recommendation_system.md)
-- [\[NeurIPS 2025\] R²ec: Towards Large Recommender Models with Reasoning](../../NeurIPS2025/recommender/r2ec_towards_large_recommender_models_with_reasoning.md)
 - [\[AAAI 2026\] TraveLLaMA: A Multimodal Travel Assistant with Large-Scale Dataset and Structured Reasoning](../../AAAI2026/recommender/travellama_a_multimodal_travel_assistant_with_large-scale_dataset_and_structured.md)
-- [\[AAAI 2026\] Inference-Aware Prompt Optimization for Aligning Black-Box Large Language Models](../../AAAI2026/recommender/inference-aware_prompt_optimization_for_aligning_black-box_large_language_models.md)
+- [\[NeurIPS 2025\] R²ec: Towards Large Recommender Models with Reasoning](../../NeurIPS2025/recommender/r2ec_towards_large_recommender_models_with_reasoning.md)
+- [\[ICLR 2026\] Steering Diffusion Models Towards Credible Content Recommendation](steering_diffusion_models_towards_credible_content_recommendation.md)
 
 </div>
 

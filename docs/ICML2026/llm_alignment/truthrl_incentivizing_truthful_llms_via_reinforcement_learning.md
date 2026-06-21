@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] TruthRL: Incentivizing Truthful LLMs via Reinforcement Learning
+description: >-
+  [ICML2026][LLM对齐][真实性] 针对"只优化准确率反而鼓励瞎猜、强行教拒答又过度保守"的两难，TruthRL 用一个区分"答对 / 幻觉 / 拒答"的三元奖励在 GRPO 上直接优化真实性，把幻觉率从 43.5% 压到 19.4%、真实性得分从 5.3% 拉到 37.2%。 领域现状：让 LLM 在事实问答上少…
+tags:
+  - "ICML2026"
+  - "LLM对齐"
+  - "真实性"
+  - "幻觉抑制"
+  - "拒答"
+  - "GRPO"
+  - "三元奖励"
+---
+
 # TruthRL: Incentivizing Truthful LLMs via Reinforcement Learning
 
 **会议**: ICML2026  

@@ -1,3 +1,20 @@
+---
+title: >-
+  [论文解读] On Regret Bounds of Thompson Sampling for Bayesian Optimization
+description: >-
+  [ICML 2026][学习理论][高斯过程] 这篇论文系统补齐了高斯过程 Thompson 采样（GP-TS）在贝叶斯设定下的遗憾分析：先构造了一个反例证明 GP-TS 对失败概率 $\delta$ 只能做到多项式依赖（拿不到 $\log(1/\delta)$），再给出累积遗憾二阶矩上界把 $\delta$ 依赖收紧 $1/\sqrt{\delta}$ 倍、首个期望宽容遗憾的多对数上界、以及在更宽松 Matérn 条件下的 $\tilde O(\sqrt T)$ 高概率遗憾上界，让 GP-TS 在理论保证上基本追平了被研究得最透的 GP-UCB。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "贝叶斯优化"
+  - "多臂老虎机"
+  - "高斯过程"
+  - "Thompson 采样"
+  - "累积遗憾"
+  - "宽容遗憾"
+  - "信息增益"
+---
+
 # On Regret Bounds of Thompson Sampling for Bayesian Optimization
 
 **会议**: ICML 2026  

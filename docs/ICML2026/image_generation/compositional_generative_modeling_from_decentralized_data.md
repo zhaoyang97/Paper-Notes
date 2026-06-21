@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Compositional Generative Modeling from Decentralized Data
+description: >-
+  [ICML 2026][图像生成][组合泛化] 当生成因子被切碎在互不共享原始数据的多个客户端里时，本文用 **DCFM（去中心化组合流匹配）** 在全局强制属性的条件独立约束，让模型生成出任何单个客户端都没见过的属性组合，在条件图像生成、机器人空间规划、胸片疾病共现三类任务上都显著超过联邦学习与专家混合基线。
+tags:
+  - "ICML 2026"
+  - "图像生成"
+  - "组合泛化"
+  - "去中心化生成"
+  - "流匹配"
+  - "条件独立"
+  - "知识蒸馏"
+---
+
 # Compositional Generative Modeling from Decentralized Data
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models
+description: >-
+  [ICLR2026][Reasoning][自精炼] PASR 用强化学习（GRPO）训练 LLM 在**生成过程中**主动决定"是否/何时/如何"精炼自己的推理轨迹（而非生成完再返工），并设计了一套"对比式精炼奖励"鼓励有价值的修正；在 Qwen3-8B 上相比标准生成把平均 token 消耗降低 41.6% 的同时准确率提升 8.2%。
+tags:
+  - "ICLR2026"
+  - "Reasoning"
+  - "自精炼"
+  - "强化学习"
+  - "GRPO"
+  - "过程内精炼"
+  - "奖励设计"
+---
+
 # A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [0GaCfBRFnf](https://openreview.net/forum?id=0GaCfBRFnf)  
+**OpenReview**: [https://openreview.net/forum?id=0GaCfBRFnf](https://openreview.net/forum?id=0GaCfBRFnf)  
 **代码**: https://github.com/JinyiHan99/Proactive-Self-Refine-in-LLMs/  
 **领域**: LLM推理  
 **关键词**: 自精炼, 强化学习, GRPO, 过程内精炼, 奖励设计
@@ -160,11 +175,11 @@ $$R_{y'}=r_{\text{format}}(y')+r_{\text{acc}}(y')+r_{\text{refine}}(y')$$
 
 ## 相关论文
 
-- [\[ACL 2026\] Self-Awareness before Action: Mitigating Logical Inertia via Proactive Cognitive Awareness](../../ACL2026/llm_reasoning/self-awareness_before_action_mitigating_logical_inertia_via_proactive_cognitive_.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](../../ACL2025/llm_reasoning/self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
-- [\[ICLR 2026\] Efficient Test-Time Scaling for Small Vision-Language Models](efficient_test-time_scaling_for_small_vision-language_models.md)
-- [\[ICML 2026\] Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models](../../ICML2026/llm_reasoning/prism_efficient_test-time_scaling_via_hierarchical_search_and_self-verification_.md)
+- [\[ICLR 2026\] Plan-Answer-Refine-on-Graph: Structured Planning and Self-Refinement for Large Language Model Reasoning on Knowledge Graphs](plan-answer-refine-on-graph_structured_planning_and_self-refinement_for_large_la.md)
+- [\[ICLR 2026\] Native Reasoning Models: Training Language Models to Reason on Unverifiable Data](native_reasoning_models_training_language_models_to_reason_on_unverifiable_data.md)
 - [\[ICLR 2026\] Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models](co-rewarding_stable_self-supervised_rl_for_eliciting_reasoning_in_large_language.md)
+- [\[ICLR 2026\] Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](vision-r1_incentivizing_reasoning_capability_in_multimodal_large_language_models.md)
+- [\[ICLR 2026\] Efficient Test-Time Scaling for Small Vision-Language Models](efficient_test-time_scaling_for_small_vision-language_models.md)
 
 </div>
 

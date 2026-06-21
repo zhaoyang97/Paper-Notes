@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs
+description: >-
+  [ICLR2026][LLM评测][长期记忆] 针对现有长对话记忆评测「话题割裂、领域狭窄、只考简单召回」三大毛病，本文先用一套递归剧情规划的合成流水线造出 BEAM（100 段最长 10M token 的连贯对话 + 2000 道覆盖 10 种记忆能力的探针题），再提出受人类认知启发、把「情景记忆 + 工作记忆 + 草稿本」三套记忆系统拼在一起的 LIGHT 框架，在 BEAM 上相比最强 baseline 平均提升 3.5%–12.69%。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "长期记忆"
+  - "对话评测"
+  - "合成数据"
+  - "记忆增强"
+  - "RAG"
+---
+
 # Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [y59hf5lrMn](https://openreview.net/forum?id=y59hf5lrMn)  
+**OpenReview**: [https://openreview.net/forum?id=y59hf5lrMn](https://openreview.net/forum?id=y59hf5lrMn)  
 **代码**: https://github.com/mohammadtavakoli78/BEAM  
 **领域**: LLM 评测 / 长期记忆 / 长上下文  
 **关键词**: 长期记忆, 对话评测, 合成数据, 记忆增强, RAG
@@ -117,10 +132,10 @@ LIGHT 在四个模型上都是最高的，相比各自最强 baseline 平均提�
 ## 相关论文
 
 - [\[NeurIPS 2025\] MEMTRACK: Evaluating Long-Term Memory and State Tracking in Multi-Platform Dynamic Agent Environments](../../NeurIPS2025/llm_evaluation/memtrack_evaluating_long-term_memory_and_state_tracking_in_multi-platform_dynami.md)
+- [\[ICLR 2026\] LFQA-E: Carefully Benchmarking Long-form QA Evaluation](lfqa-e_carefully_benchmarking_long-form_qa_evaluation.md)
 - [\[ICLR 2026\] Can You Hear Me Now? A Benchmark for Long-Range Graph Propagation and Beyond](can_you_hear_me_now_a_benchmark_for_long-range_graph_propagation_and_beyond.md)
 - [\[ICLR 2026\] Benchmarking Overton Pluralism in LLMs](benchmarking_overton_pluralism_in_llms.md)
 - [\[AAAI 2026\] BCWildfire: A Long-term Multi-factor Dataset and Deep Learning Benchmark for Boreal Wildfire Risk Prediction](../../AAAI2026/llm_evaluation/bcwildfire_a_long-term_multi-factor_dataset_and_deep_learning_benchmark_for_bore.md)
-- [\[ACL 2026\] StratMem-Bench: Evaluating Strategic Memory Use in Virtual Character Conversation Beyond Factual Recall](../../ACL2026/llm_evaluation/stratmem-bench_evaluating_strategic_memory_use_in_virtual_character_conversation.md)
 
 </div>
 

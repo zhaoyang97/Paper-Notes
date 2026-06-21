@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation
+description: >-
+  [ICML2026][预训练][内存高效训练] POET-X 把训练稳定但又慢又费显存的 POET（正交等价变换、谱保持优化器）做了一整套系统级提速降存：通过输入中心化重构、置换内核加速、块对角批并行、半存储 CNP 与 Triton 融合，相比原版 POET 实现 3× 显存下降、8× 速度提升，让单张 H100 就能预训练 8B~13B 的 LLM，而 AdamW 在同等设置下直接 OOM。
+tags:
+  - "ICML2026"
+  - "预训练"
+  - "内存高效训练"
+  - "正交等价变换"
+  - "谱保持"
+  - "稀疏训练"
+  - "CUDA内核"
+---
+
 # POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation
 
 **会议**: ICML2026  

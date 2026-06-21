@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Direct 3D-Aware Object Insertion via Decomposed Visual Proxies
+description: >-
+  [ICML 2026][图像生成][物体插入] DIRECT 把"物体插入"从 2D inpainting 升级成**位姿可控**任务：先用现成的 image-to-3D 模型把参考物体抬升成可交互的 3D 代理、按用户指定的 6-DoF 位姿渲染出稠密几何条件图，再把"几何 / 外观 / 上下文"三类条件**解耦成独立通路**注入扩散模型，从而在严格遵循指定 3D 位姿的同时保住参考外观、与背景和谐融合，几何可控性与视觉质量都超过此前方法。
+tags:
+  - "ICML 2026"
+  - "图像生成"
+  - "物体插入"
+  - "位姿可控"
+  - "3D视觉代理"
+  - "解耦注入"
+  - "扩散模型"
+  - "LoRA"
+---
+
 # Direct 3D-Aware Object Insertion via Decomposed Visual Proxies
 
 **会议**: ICML 2026  

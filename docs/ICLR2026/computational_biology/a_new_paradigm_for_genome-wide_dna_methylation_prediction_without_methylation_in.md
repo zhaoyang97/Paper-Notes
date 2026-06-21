@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input
+description: >-
+  [ICLR2026][计算生物][DNA 甲基化] MethylProphet 是一个"基因上下文 + DNA 序列"驱动的 Transformer 基础模型，**完全不需要任何已测甲基化值作为输入**，仅凭一个样本的基因表达谱和每个 CpG 位点周围的局部 DNA 序列，就能推断全基因组（约 2800 万个 CpG）的甲基化水平，并能泛化到训练时从未见过的 CpG 位点和样本。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "DNA 甲基化"
+  - "基因表达上下文"
+  - "Transformer"
+  - "全基因组预测"
+  - "基础模型"
+---
+
 # A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input
 
 **会议**: ICLR2026  
-**OpenReview**: [8wQ7Oc08vo](https://openreview.net/forum?id=8wQ7Oc08vo)  
+**OpenReview**: [https://openreview.net/forum?id=8wQ7Oc08vo](https://openreview.net/forum?id=8wQ7Oc08vo)  
 **代码**: 待确认  
 **领域**: 计算生物学 / 表观遗传基础模型  
 **关键词**: DNA 甲基化, 基因表达上下文, Transformer, 全基因组预测, 基础模型
@@ -129,10 +144,10 @@ TCGA 泛癌上同样大幅领先（如 Train CpG–Val Sample 的 MAS-PCC 0.2630
 ## 相关论文
 
 - [\[ICML 2025\] Latent Imputation before Prediction: A New Computational Paradigm for De Novo Peptide Sequencing](../../ICML2025/computational_biology/latent_imputation_before_prediction_a_new_computational_paradigm_for_de_novo_pep.md)
-- [\[ICLR 2026\] AntigenLM: Structure-Aware DNA Language Modeling for Influenza](antigenlm_structure-aware_dna_language_modeling_for_influenza.md)
-- [\[ICLR 2026\] Contact-Guided 3D Genome Structure Generation of E. coli via Diffusion Transformers](contact-guided_3d_genome_structure_generation_of_e_coli_via_diffusion_transforme.md)
-- [\[ICML 2026\] DNAChunker: Learnable Tokenization for DNA Language Models](../../ICML2026/computational_biology/dnachunker_learnable_tokenization_for_dna_language_models.md)
+- [\[ICLR 2026\] Test-Time Adaptation without Source Data for Out-of-Domain Bioactivity Prediction](test-time_adaptation_without_source_data_for_out-of-domain_bioactivity_predictio.md)
 - [\[ICLR 2026\] Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction](adaptive_data-knowledge_alignment_in_genetic_perturbation_prediction.md)
+- [\[ICLR 2026\] AntigenLM: Structure-Aware DNA Language Modeling for Influenza](antigenlm_structure-aware_dna_language_modeling_for_influenza.md)
+- [\[ICLR 2026\] PatchDNA: A Flexible and Biologically-Informed Alternative to Tokenization for DNA](patchdna_a_flexible_and_biologically-informed_alternative_to_tokenization_for_dn.md)
 
 </div>
 

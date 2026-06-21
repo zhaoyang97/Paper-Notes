@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation
+description: >-
+  [ACL 2026][推荐系统][LLM 推荐] 现有 LLM 推荐要么把协同信息塞进 prompt、要么把预训练好的静态嵌入注入 LoRA 权重，都把结构当成"读一遍"的静态输入；GraphLoRA 把一个可训练的图消息传递网络嵌进 LoRA 瓶颈（down-projection $\mathbf{A}$ 和 up-projection $\mathbf{B}$ 之间），让协同拓扑在参数空间里动态传播、直接引导参数更新，仅增 ~1.67% 参数就在 ML-1M、Amazon-Book 上超过 CoRA 等 SOTA。
+tags:
+  - "ACL 2026"
+  - "推荐系统"
+  - "LLM 推荐"
+  - "LoRA"
+  - "图消息传递"
+  - "协同信号"
+  - "结构感知微调"
+---
+
 # GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation
 
 **会议**: ACL 2026  

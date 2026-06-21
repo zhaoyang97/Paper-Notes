@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Minim: Privacy-Aware Minimal View for Agents via Trusted Local Sanitization
+description: >-
+  [ICML2026][AI安全][Agent 隐私] Minim 是一个跑在用户设备本地的"可信清洗代理"，在 Agent 把界面状态（accessibility tree）上传给远端推理服务器之前，先用一个小模型给每个 UI 元素打两分——**固有敏感度 $s$** 与**任务条件必要性 $n$**——再用三元披露策略（保留 / 抽象 / 删除）只放行任务真正需要的最小信息，在 WebArena 上把任务无关的敏感信息泄漏（TISL）压到全量观测的 10.1%，同时几乎不损失任务关键内容与可交互能力。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "Agent 隐私"
+  - "可访问性树"
+  - "上下文完整性"
+  - "数据最小化"
+  - "本地清洗"
+---
+
 # Minim: Privacy-Aware Minimal View for Agents via Trusted Local Sanitization
 
 **会议**: ICML2026  

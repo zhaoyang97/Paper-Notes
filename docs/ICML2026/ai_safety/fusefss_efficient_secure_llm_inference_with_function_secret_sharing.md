@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing
+description: >-
+  [ICML2026][AI安全][安全推理] FuseFSS 把"每个定点非线性算子都手写一套专用安全协议"换成一个统一编译器：给每个标量算子写一份紧凑规格（区间划分 + 低次多项式 + 谓词位），编译器自动生成"一次打包比较 + 一次区间查表"两次 FSS 调用，在 BERT/GPT 上相对当前最强 FSS 基线 Sigma 端到端提速 1.24×–1.50×、在线通信降 9%–16%，且密钥更小更快。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "安全推理"
+  - "函数秘密共享"
+  - "定点非线性算子"
+  - "编译器"
+  - "两方计算"
+---
+
 # FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy
+description: >-
+  [ICLR2026][Reasoning][数学代码推理] NVIDIA 系统性拆解了"监督微调（SFT）+ 大规模强化学习（RL）"在打造推理模型时的协同关系——通过扩 SFT 数据、按"熵≈0.3"调 RL 采样温度、分阶段延长回答长度，把一个 7B 模型（AceReason-Nemotron-1.1）刷到了 Qwen2.5-7B 同规模数学/代码推理的新 SOTA（AIME25 64.8、LiveCodeBench v6 52.1）。
+tags:
+  - "ICLR2026"
+  - "Reasoning"
+  - "数学代码推理"
+  - "SFT-RL协同"
+  - "课程式强化学习"
+  - "采样温度"
+  - "超长过滤"
+---
+
 # AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy
 
 **会议**: ICLR2026  
-**OpenReview**: [IaEqjWXd1d](https://openreview.net/forum?id=IaEqjWXd1d)  
+**OpenReview**: [https://openreview.net/forum?id=IaEqjWXd1d](https://openreview.net/forum?id=IaEqjWXd1d)  
 **代码**: 待确认  
 **领域**: LLM推理  
 **关键词**: 数学代码推理, SFT-RL协同, 课程式强化学习, 采样温度, 超长过滤
@@ -114,11 +129,11 @@ RL 用 GRPO，严格 on-policy（每 question 采 $G=8/16$ rollout、batch 128�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Executable Counterfactuals: Improving LLMs' Causal Reasoning Through Code](executable_counterfactuals_improving_llms_causal_reasoning_through_code.md)
 - [\[ICML 2026\] Beyond Two-Stage Training: Cooperative SFT and RL for LLM Reasoning](../../ICML2026/llm_reasoning/beyond_two-stage_training_cooperative_sft_and_rl_for_llm_reasoning.md)
-- [\[NeurIPS 2025\] SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](../../NeurIPS2025/llm_reasoning/swe-rl_advancing_llm_reasoning_via_reinforcement_learning_on_open_software_evolu.md)
-- [\[NeurIPS 2025\] CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks](../../NeurIPS2025/llm_reasoning/core_benchmarking_llms_code_reasoning_capabilities_through_static_analysis_tasks.md)
-- [\[ICLR 2026\] DAG-Math: Graph-of-Thought Guided Mathematical Reasoning in LLMs](dag-math_graph-of-thought_guided_mathematical_reasoning_in_llms.md)
-- [\[NeurIPS 2025\] First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training](../../NeurIPS2025/llm_reasoning/first_sft_second_rl_third_upt_continual_improving_multi-modal_llm_reasoning_via_.md)
+- [\[ICLR 2026\] On Code-Induced Reasoning in LLMs](on_code-induced_reasoning_in_llms.md)
+- [\[ICLR 2026\] DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning](deepmath-103k_a_large-scale_challenging_decontaminated_and_verifiable_mathematic.md)
+- [\[ICLR 2026\] Front-Loading Reasoning: The Synergy between Pretraining and Post-Training Data](front-loading_reasoning_the_synergy_between_pretraining_and_post-training_data.md)
 
 </div>
 

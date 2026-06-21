@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Conservation Laws for Modern Neural Architectures
+description: >-
+  [ICML2026][优化/理论][守恒律] 这篇论文把"刻画训练动力学中所有守恒量"的问题重述为求解一个与数据无关的偏微分方程，并借助复分析里的亚纯延拓技巧，第一次给出了 GELU/SiLU/SwiGLU 前馈网、多头注意力（含正弦 PE 与 RoPE）、以及各种门控的 MoE 的**完整守恒律清单**，顺手解决了 Marcotte et al. (2025) 留下的多头注意力开放问题。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "守恒律"
+  - "梯度流"
+  - "隐式偏置"
+  - "注意力机制"
+  - "RoPE"
+  - "MoE"
+---
+
 # Conservation Laws for Modern Neural Architectures
 
 **会议**: ICML2026  

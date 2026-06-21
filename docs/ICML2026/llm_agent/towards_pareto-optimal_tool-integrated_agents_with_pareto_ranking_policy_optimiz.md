@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Towards Pareto-Optimal Tool-Integrated Agents with Pareto Ranking Policy Optimization
+description: >-
+  [ICML2026][LLM Agent][工具集成 Agent] ParetoPO 把"工具使用 Agent 的对齐"显式建成一个多目标 RL 问题（准确率 vs 工具调用效率），用两阶段训练——先用超体积引导的动态标量化做全局探索、再用 Pareto 占优排序算优势做局部精修——在数学推理和多跳 QA 上同时拿到更高准确率和更少工具调用。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "工具集成 Agent"
+  - "多目标 RL"
+  - "Pareto 占优"
+  - "超体积"
+  - "GRPO"
+---
+
 # Towards Pareto-Optimal Tool-Integrated Agents with Pareto Ranking Policy Optimization
 
 **会议**: ICML2026  

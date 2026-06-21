@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Q-Delta: Beyond Key–Value Associative State Evolution
+description: >-
+  [ICML2026][LLM效率][线性注意力] 这篇论文挑战了线性注意力里"query 只负责读出、不参与状态演化"的隐含假设，证明查询读出 $\hat{o}_t=S_{t-1}q_t$ 本身就是一个结构化的值预测（与键检索互补），据此提出 **Q-Delta**——把键、查询的混合预测误差一起注入 delta 规则的状态更新，在保持线性时间与分块并行效率的同时，于语言建模和长上下文检索上稳定超过 DeltaNet、GatedDeltaNet 等强基线（S-NIAH 平均 90.0% vs GatedDeltaNet 83.5%）。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "线性注意力"
+  - "delta规则"
+  - "查询条件反馈"
+  - "状态演化"
+  - "长上下文检索"
+---
+
 # Q-Delta: Beyond Key–Value Associative State Evolution
 
 **会议**: ICML2026  

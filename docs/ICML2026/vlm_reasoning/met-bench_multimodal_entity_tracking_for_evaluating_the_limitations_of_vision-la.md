@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MET-Bench: Multimodal Entity Tracking for Evaluating the Limitations of Vision-Language and Reasoning Models
+description: >-
+  [ICML2026][VLM Reasoning][实体状态追踪] 提出多模态实体追踪基准 MET-Bench（国际象棋 / 三杯赌 / Minecraft 三个域），让视觉语言模型从文本或图像形式的动作序列里追踪实体状态变化，发现「图像动作」远难于「文本动作」、且差距来自视觉推理而非感知；用 GRPO 强化学习能在单模态内大涨，却几乎无法跨模态迁移。
+tags:
+  - "ICML2026"
+  - "VLM Reasoning"
+  - "实体状态追踪"
+  - "视觉语言模型"
+  - "多模态推理"
+  - "强化学习"
+  - "GRPO"
+---
+
 # MET-Bench: Multimodal Entity Tracking for Evaluating the Limitations of Vision-Language and Reasoning Models
 
 **会议**: ICML2026  

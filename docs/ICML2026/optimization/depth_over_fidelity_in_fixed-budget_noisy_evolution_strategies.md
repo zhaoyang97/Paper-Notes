@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Depth over Fidelity in Fixed-Budget Noisy Evolution Strategies
+description: >-
+  [ICML 2026][优化/理论][演化策略] 在评估次数被严格限死（fixed budget）的噪声黑盒优化里，与其花预算反复测量去"洗干净"代际内排序（fidelity），不如把这些预算省下来多做几代分布更新（depth）；论文用 **PEM（概率精英隶属度）** 把硬排序权重换成"对排序不确定性求期望"的软权重，并用 **残差自助（RB-PEM）** 以接近零的额外开销估计它，在高错排、预算受限的场景上稳定跑赢"先去噪再排序"的主流做法。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "演化策略"
+  - "噪声优化"
+  - "固定预算"
+  - "CMA-ES"
+  - "Rao–Blackwell"
+  - "零阶优化"
+---
+
 # Depth over Fidelity in Fixed-Budget Noisy Evolution Strategies
 
 **会议**: ICML 2026  

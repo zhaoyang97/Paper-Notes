@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Towards Effective Waste Segmentation for Automated Waste Recycling in Cluttered Background
+description: >-
+  [ICML 2026][语义分割][垃圾分割] 针对自动垃圾回收里"杂乱背景 + 半透明/可变形废品 + 现有方法靠大 backbone 太重"的痛点，提出轻量分割网络 EWSegNet：用**空间域模块抓局部结构、频域模块抓全局上下文**级联互补，再加一个用**高斯差分 + 池化注意力**强化边界与团块（blob）的辅助增强模块 AFEM，在更小参数/更低延迟下达到与 SOTA 相当甚至更好的分割精度。
+tags:
+  - "ICML 2026"
+  - "语义分割"
+  - "垃圾分割"
+  - "频域上下文"
+  - "高斯差分"
+  - "边界增强"
+  - "轻量分割"
+---
+
 # Towards Effective Waste Segmentation for Automated Waste Recycling in Cluttered Background
 
 **会议**: ICML 2026  

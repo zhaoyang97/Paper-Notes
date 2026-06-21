@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Scalable Circuit Learning for Interpreting Large Language Models
+description: >-
+  [ICML2026][可解释性][机制可解释性] CircuitLasso 把"机制可解释性里发现电路"这件事，从昂贵的干预式（intervention-based）方法换成一个**稀疏线性回归（Lasso）代理**：只用观测数据、靠 $\ell_1$ 惩罚 + 块上三角约束在组件间找稀疏依赖骨架，从而第一次能直接在高维 SAE 特征空间上跑通电路发现，在 InterpBench 上以约 SOTA 的结构准确度换来 2–3 倍提速，并把学到的电路用于下游域泛化去偏。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "机制可解释性"
+  - "电路发现"
+  - "稀疏自编码器"
+  - "稀疏回归"
+  - "Lasso"
+---
+
 # Scalable Circuit Learning for Interpreting Large Language Models
 
 **会议**: ICML2026  

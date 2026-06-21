@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Binary Preferences: A Principled Framework for Reward Modeling with Ordinal Feedback
+description: >-
+  [ICLR2026][LLM对齐][奖励模型] 这篇论文指出现有奖励模型只会用"A 好于 B"的二元偏好，面对人类打的 Likert 分级反馈（"明显更好/更好/略好"）只能靠加 margin、乘权重这种拍脑袋的启发式补丁；作者把奖励建模重新表述成**离散序数回归**问题，从有序 logit 模型自然推出两个有理论根据的损失（NLL 与 all-threshold），让分隔各偏好等级的"阈值"直接从数据里学出来，在 RewardBench / RM-Bench 上一致追平或超过启发式基线，并把错误严重度降低 87%。
+tags:
+  - "ICLR2026"
+  - "LLM对齐"
+  - "奖励模型"
+  - "序数回归"
+  - "Likert 偏好"
+  - "阈值学习"
+  - "RLHF"
+---
+
 # Beyond Binary Preferences: A Principled Framework for Reward Modeling with Ordinal Feedback
 
 **会议**: ICLR2026  
-**OpenReview**: [mteZOi0xyu](https://openreview.net/forum?id=mteZOi0xyu)  
+**OpenReview**: [https://openreview.net/forum?id=mteZOi0xyu](https://openreview.net/forum?id=mteZOi0xyu)  
 **代码**: 待确认（作者称基于 TRL 库扩展，验收后开源）  
 **领域**: 对齐RLHF / 奖励建模  
 **关键词**: 奖励模型, 序数回归, Likert 偏好, 阈值学习, RLHF
@@ -130,10 +145,10 @@ NLL-Symmetric 一致优于 NLL-Asymmetric，印证 Theorem 3.2——人类偏好
 ## 相关论文
 
 - [\[ICLR 2026\] Learning Ordinal Probabilistic Reward from Preferences (OPRM)](learning_ordinal_probabilistic_reward_from_preferences.md)
-- [\[ICLR 2026\] Beyond Pairwise: Empowering LLM Alignment With Ranked Choice Modeling](beyond_pairwise_empowering_llm_alignment_with_ranked_choice_modeling.md)
+- [\[ICLR 2026\] RLBFF: Binary Flexible Feedback to Bridge Between Human Feedback & Verifiable Rewards](rlbff_binary_flexible_feedback_to_bridge_between_human_feedback_verifiable_rewar.md)
+- [\[ICLR 2026\] Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences](omni-reward_towards_generalist_omni-modal_reward_modeling_with_free-form_prefere.md)
+- [\[ICLR 2026\] Robust Reward Modeling via Causal Rubrics](robust_reward_modeling_via_causal_rubrics.md)
 - [\[ICLR 2026\] Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework](beyond_rlhf_and_nlhf_population-proportional_alignment_under_an_axiomatic_framew.md)
-- [\[ICLR 2026\] AlphaSteer: Learning Refusal Steering with Principled Null-Space Constraint](alphasteer_learning_refusal_steering_with_principled_null-space_constraint.md)
-- [\[ICLR 2026\] Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training](chasing_the_tail_effective_rubric-based_reward_modeling_for_large_language_model.md)
 
 </div>
 

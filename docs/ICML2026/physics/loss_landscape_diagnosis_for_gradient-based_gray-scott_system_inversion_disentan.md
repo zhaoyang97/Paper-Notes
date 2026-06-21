@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Loss Landscape Diagnosis for Gradient-Based Gray-Scott System Inversion: Disentangling the Roles of PINN Components
+description: >-
+  [ICML 2026][物理/科学计算][物理信息神经网络] 作者用最极简的方式——直接对展开的 Gray-Scott 模拟反传稳态损失来反解 PDE 参数，不加任何代理模型或神经网络——发现优化彻底失败，并直接把损失曲面画出来定位病灶（**平台 + 悬崖，悬崖恰对齐分叉边界**）；再把这个极简探针读作 **PINN 的一次消融**，从而首次明确拆开 PINN 两个组件的分工：**残差损失**单靠自己就能把曲面变光滑（因为它隐式编码了全套 PDE 动力学），而**神经网络**修不了病态参数子空间、只负责补全观测数据。
+tags:
+  - "ICML 2026"
+  - "物理/科学计算"
+  - "物理信息神经网络"
+  - "反应扩散"
+  - "反问题"
+  - "损失曲面"
+  - "分叉"
+  - "梯度优化"
+---
+
 # Loss Landscape Diagnosis for Gradient-Based Gray-Scott System Inversion: Disentangling the Roles of PINN Components
 
 **会议**: ICML 2026  

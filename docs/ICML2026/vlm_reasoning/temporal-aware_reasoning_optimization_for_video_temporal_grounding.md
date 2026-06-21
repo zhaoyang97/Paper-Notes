@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Temporal-Aware Reasoning Optimization for Video Temporal Grounding
+description: >-
+  [ICML 2026][VLM Reasoning][视频时序定位] 本文提出 TaRO，针对"视频时序定位（VTG）里 RL 训出的推理华而不实"这个问题，用稠密字幕构造高质量推理轨迹做暖启动，再用"打乱关键帧后推理置信度掉多少"当奖励来衡量推理质量，逼模型真正"用时间思考"。 领域现状：视频时序定位（VTG）要在未剪辑视…
+tags:
+  - "ICML 2026"
+  - "VLM Reasoning"
+  - "视频时序定位"
+  - "多模态大模型"
+  - "强化学习"
+  - "推理质量奖励"
+  - "课程学习"
+---
+
 # Temporal-Aware Reasoning Optimization for Video Temporal Grounding
 
 **会议**: ICML 2026  

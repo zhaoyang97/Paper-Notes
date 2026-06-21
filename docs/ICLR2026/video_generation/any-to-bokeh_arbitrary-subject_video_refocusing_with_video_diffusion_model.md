@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Any-to-Bokeh: Arbitrary-Subject Video Refocusing with Video Diffusion Model
+description: >-
+  [ICLR2026][视频生成][视频虚化] Any-to-Bokeh 把"视频重对焦/散景渲染"建模成一个由焦平面自适应 MPI 几何先验引导的**单步**视频扩散过程，让用户对任意输入视频自由指定焦平面和虚化强度，并通过三阶段渐进训练 + 加权重叠推理解决时序闪烁问题，在合成与真实数据上全面超越此前的图像/MPI 散景方法。
+tags:
+  - "ICLR2026"
+  - "视频生成"
+  - "视频虚化"
+  - "多平面图像(MPI)"
+  - "单步扩散"
+  - "焦平面控制"
+  - "时序一致性"
+---
+
 # Any-to-Bokeh: Arbitrary-Subject Video Refocusing with Video Diffusion Model
 
 **会议**: ICLR2026  
-**OpenReview**: [h05AulYT7g](https://openreview.net/forum?id=h05AulYT7g)  
+**OpenReview**: [https://openreview.net/forum?id=h05AulYT7g](https://openreview.net/forum?id=h05AulYT7g)  
 **代码**: 待确认（论文提供 project page）  
 **领域**: 视频生成 / 扩散模型 / 计算摄影  
 **关键词**: 视频虚化, 多平面图像(MPI), 单步扩散, 焦平面控制, 时序一致性
@@ -146,11 +161,11 @@ VAE 细节增强（Tab.6，记为 FV）单独看：开启后 FVD 9.005 / PSNR 38
 
 ## 相关论文
 
+- [\[ICLR 2026\] DreamSwapV: Mask-guided Subject Swapping for Any Customized Video Editing](dreamswapv_mask-guided_subject_swapping_for_any_customized_video_editing.md)
+- [\[ICLR 2026\] MAGREF: Masked Guidance for Any-Reference Video Generation with Subject Disentanglement](magref_masked_guidance_for_any-reference_video_generation_with_subject_disentang.md)
 - [\[ICLR 2026\] Arbitrary Generative Video Interpolation](arbitrary_generative_video_interpolation.md)
-- [\[ICLR 2026\] Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)
-- [\[ICLR 2026\] QuantSparse: Comprehensively Compressing Video Diffusion Transformer with Model Quantization and Attention Sparsification](quantsparse_comprehensively_compressing_video_diffusion_transformer_with_model_q.md)
-- [\[ICLR 2026\] BindWeave: Subject-Consistent Video Generation via Cross-Modal Integration](bindweave_subject-consistent_video_generation_via_cross-modal_integration.md)
-- [\[CVPR 2026\] Cross-Subject EEG-to-Video Reconstruction and Beyond](../../CVPR2026/video_generation/cross-subject_eeg-to-video_reconstruction_and_beyond.md)
+- [\[ICLR 2026\] TPDiff: Temporal Pyramid Video Diffusion Model](tpdiff_temporal_pyramid_video_diffusion_model.md)
+- [\[ICLR 2026\] MTVCraft: Tokenizing 4D Motion for Arbitrary Character Animation](mtvcraft_tokenizing_4d_motion_for_arbitrary_character_animation.md)
 
 </div>
 

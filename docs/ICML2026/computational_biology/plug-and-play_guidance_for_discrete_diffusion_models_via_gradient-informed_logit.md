@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Plug-and-Play Guidance for Discrete Diffusion Models via Gradient-Informed Logit Correction
+description: >-
+  [ICML 2026][计算生物][离散扩散] 本文提出 GILC（Gradient-Informed Logit Correction），把预训练的去噪网络当作价值函数的变分代理，再用一个「绕过模型雅可比、直接在 clean 预测 logit 上做梯度修正」的机制，实现**无需任何再训练**的离散扩散可控生成，在 DNA、蛋白质、分子三类科学任务上同时超过免训练基线、甚至打平/超过微调方法。
+tags:
+  - "ICML 2026"
+  - "计算生物"
+  - "离散扩散"
+  - "即插即用引导"
+  - "logit 修正"
+  - "变分代理"
+  - "策略梯度"
+---
+
 # Plug-and-Play Guidance for Discrete Diffusion Models via Gradient-Informed Logit Correction
 
 **会议**: ICML 2026  

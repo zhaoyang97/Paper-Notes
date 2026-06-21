@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bridging Draft Policy Misalignment: Group Tree Optimization for Speculative Decoding
+description: >-
+  [ICLR2026][信息检索/RAG][投机解码] 投机解码训练时只优化一条贪心草稿路径、解码时却用整棵草稿树做重排和验证，二者错配限制了加速；本文提出 Group Tree Optimization（GTO），用「草稿树奖励 + 群组式草稿策略训练」直接对齐解码时的树策略，在多个 LLM 上把接受长度平均提升 7.4%、相对 EAGLE-3 再提速 7.7%。
+tags:
+  - "ICLR2026"
+  - "信息检索/RAG"
+  - "投机解码"
+  - "草稿策略错配"
+  - "树形草稿"
+  - "群组优化"
+  - "接受长度"
+---
+
 # Bridging Draft Policy Misalignment: Group Tree Optimization for Speculative Decoding
 
 **会议**: ICLR2026  
-**OpenReview**: [dwPdYFqVWO](https://openreview.net/forum?id=dwPdYFqVWO)  
+**OpenReview**: [https://openreview.net/forum?id=dwPdYFqVWO](https://openreview.net/forum?id=dwPdYFqVWO)  
 **代码**: https://github.com/hsj576/GTO  
 **领域**: LLM效率 / 投机解码  
 **关键词**: 投机解码, 草稿策略错配, 树形草稿, 群组优化, 接受长度
@@ -74,6 +89,7 @@ GTO 采用类比 LLM"预训练+微调"的两阶段流程。**Phase I（草稿模
 总体上，GTO 相对此前 SOTA EAGLE-3 把接受长度平均提升 **7.4%**、带来额外 **7.7%** 的加速。增益在 T=0 和 T=1 两种采样温度下都成立。
 
 ### 消融实验
+
 | 配置 | 影响 | 说明 |
 |------|---------|------|
 | 平滑 max 聚合 (η=1) | 最优 | 优于"全平均"或"取最大"（Table 3） |
@@ -107,3 +123,19 @@ GTO 采用类比 LLM"预训练+微调"的两阶段流程。**Phase I（草稿模
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 5 个 LLM、3 类任务、两种温度，消融到位；主要相对 EAGLE-3 比较
 - 写作质量: ⭐⭐⭐⭐⭐ 动机用统计量化、方法层层递进、有理论保证，逻辑清晰
 - 价值: ⭐⭐⭐⭐ 即插即用、复用现成草稿模型，对实际 LLM 推理加速有直接落地价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2026\] Enhancing LLM-based Search Agents via Contribution Weighted Group Relative Policy Optimization](../../ACL2026/information_retrieval/enhancing_llm-based_search_agents_via_contribution_weighted_group_relative_polic.md)
+- [\[ICML 2025\] RAPID: Long-Context Inference with Retrieval-Augmented Speculative Decoding](../../ICML2025/information_retrieval/rapid_long-context_inference_with_retrieval-augmented_speculative_decoding.md)
+- [\[ICLR 2026\] Attribution-Guided Decoding](attribution-guided_decoding.md)
+- [\[ICLR 2026\] CFT-RAG: An Entity Tree Based Retrieval Augmented Generation Algorithm With Cuckoo Filter](cft-rag_an_entity_tree_based_retrieval_augmented_generation_algorithm_with_cucko.md)
+- [\[ACL 2026\] End-to-End Optimization of LLM-Driven Multi-Agent Search Systems via Heterogeneous-Group-Based Reinforcement Learning](../../ACL2026/information_retrieval/end-to-end_optimization_of_llm-driven_multi-agent_search_systems_via_heterogeneo.md)
+
+</div>
+
+<!-- RELATED:END -->

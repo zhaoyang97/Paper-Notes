@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] A Systematic Study of Behavioral Cloning for Scientific Data Annotation
+description: >-
+  [ICML2026][LLM Agent][行为克隆] 这篇论文搭了一个由 9 个程序化合成标注任务 + 虚拟标注员组成的受控框架，系统研究「行为克隆」（让 VLM 直接模仿人类在标注界面里点击、导航、撤销的完整操作轨迹）能否替代「直接预测标签」，并通过训练动态、缩放规律、迁移能力和线性探针四个维度，揭示了技能分层涌现、模型比训练数据更少犯错却仍会纠错、多任务预训练才能迁移、以及跨任务共享的「出错」内部表征等一系列发现。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "行为克隆"
+  - "科学数据标注"
+  - "GUI 智能体"
+  - "合成基准"
+  - "线性探针"
+---
+
 # A Systematic Study of Behavioral Cloning for Scientific Data Annotation
 
 **会议**: ICML2026  

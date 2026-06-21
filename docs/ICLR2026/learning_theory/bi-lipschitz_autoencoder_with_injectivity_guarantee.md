@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] Bi-Lipschitz Autoencoder With Injectivity Guarantee
+description: >-
+  [ICLR2026][表示学习][自编码器] 本文把"编码器非单射"指认为正则化自编码器训练陷入坏局部最优的根因，提出用 $(\delta,\epsilon)$-分离判据构造单射正则、再用作用在解码器雅可比奇异值上的双 Lipschitz 正则替换过于刚性的等距约束，得到的 BLAE 在多个流形数据集上既能高保真保留几何结构，又对采样稀疏和分布漂移鲁棒。
+tags:
+  - "ICLR2026"
+  - "表示学习"
+  - "流形学习"
+  - "学习理论"
+  - "自编码器"
+  - "单射性"
+  - "双 Lipschitz"
+  - "流形保结构"
+  - "分布漂移鲁棒性"
+---
+
 # Bi-Lipschitz Autoencoder With Injectivity Guarantee
 
 **会议**: ICLR2026  
-**OpenReview**: [rl2dPJEk8b](https://openreview.net/forum?id=rl2dPJEk8b)  
+**OpenReview**: [https://openreview.net/forum?id=rl2dPJEk8b](https://openreview.net/forum?id=rl2dPJEk8b)  
 **代码**: https://github.com/qipengz/BLAE  
 **领域**: 表示学习 / 流形学习 / 学习理论  
 **关键词**: 自编码器, 单射性, 双 Lipschitz, 流形保结构, 分布漂移鲁棒性
@@ -87,6 +104,7 @@ $\sigma_{\min/\max}(x)$ 是 $J_{D_\phi}(x)$ 的最小/最大奇异值。Theorem 
 BLAE 在几乎所有指标上拿到最优平均排名（4 个 KL 项均为 1.0），在几何保结构、重建保真和下游分类准确率上全面领先。
 
 ### 定性 / 鲁棒性实验
+
 | 数据集 | 设置 | 关键发现 |
 |--------|------|---------|
 | Swiss Roll | 去掉一条带状区域，制造测地与欧氏距离的差异 | 仅 BLAE 正确保住几何；图类方法能展开但在去除带附近因测地/欧氏不一致而扭曲；所有无单射约束的梯度方法因非单射编码器无法保拓扑 |
@@ -129,9 +147,9 @@ BLAE 在几乎所有指标上拿到最优平均排名（4 个 KL 项均为 1.0�
 
 - [\[ICLR 2026\] Bi-Criteria Metric Distortion](bi-criteria_metric_distortion.md)
 - [\[ICLR 2026\] Lipschitz Bandits with Stochastic Delayed Feedback](lipschitz_bandits_with_stochastic_delayed_feedback.md)
-- [\[ICLR 2026\] A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation](a_minimum_variance_path_principle_for_accurate_and_stable_score-based_density_ra.md)
-- [\[ICLR 2026\] The Price of Robustness: Stable Classifiers Need Overparameterization](the_price_of_robustness_stable_classifiers_need_overparameterization.md)
-- [\[ICLR 2026\] Barriers for Learning in an Evolving World: Mathematical Understanding of Loss of Plasticity](barriers_for_learning_in_an_evolving_world_mathematical_understanding_of_loss_of.md)
+- [\[ICLR 2026\] Persistence Spheres: Bi-Continuous Representations of Persistence Diagrams](persistence_spheres_bi-continuous_representations_of_persistence_diagrams.md)
+- [\[ICLR 2026\] Deep Learning with Learnable Product-Structured Activations](deep_learning_with_learnable_product-structured_activations.md)
+- [\[ICLR 2026\] Curse of Slicing: Why Sliced Mutual Information is a Deceptive Measure of Statistical Dependence](curse_of_slicing_why_sliced_mutual_information_is_a_deceptive_measure_of_statist.md)
 
 </div>
 

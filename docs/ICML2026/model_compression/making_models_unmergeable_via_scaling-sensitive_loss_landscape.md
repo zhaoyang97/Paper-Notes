@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Making Models Unmergeable via Scaling-Sensitive Loss Landscape
+description: >-
+  [ICML2026][模型压缩][不可合并性] TRAP² 把「不可合并性」在微调阶段直接写进发布的权重更新里——通过对「更新缩放因子 $s$」做对抗优化，让模型在授权的 $s=1$ 处保持高可用、却在 $s\neq1$（合并管线普遍引入的离标缩放）处迅速崩坏，从而既不依赖 Transformer 的架构对称性、也不需要完整权重访问，对 LoRA 适配器和全量 checkpoint、Transformer 和非 Transformer 骨干一视同仁地防止未授权的模型合并。
+tags:
+  - "ICML2026"
+  - "模型压缩"
+  - "不可合并性"
+  - "模型合并防护"
+  - "LoRA"
+  - "损失景观"
+  - "缩放敏感"
+---
+
 # Making Models Unmergeable via Scaling-Sensitive Loss Landscape
 
 **会议**: ICML2026  

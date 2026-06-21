@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Beyond In-Domain Detection: SpikeScore for Cross-Domain Hallucination Detection
+description: >-
+  [ICLR2026][幻觉检测][跨域泛化] 作者发现「由幻觉答案引出的多轮自对话，其不确定性分数会出现远比真实答案剧烈的尖峰抖动」，于是把这种抖动量化成 **SpikeScore**（分数序列的最大二阶差分），用一个阈值就能做到只在单个领域训练、却能跨多个领域稳定检测幻觉，在四个 LLM、六个 benchmark 上的跨域 AUROC 全面超过 PRISM、ICR Probe 等专门的跨域方法。
+tags:
+  - "ICLR2026"
+  - "幻觉检测"
+  - "跨域泛化"
+  - "多轮自对话"
+  - "二阶差分"
+  - "不确定性"
+---
+
 # Beyond In-Domain Detection: SpikeScore for Cross-Domain Hallucination Detection
 
 **会议**: ICLR2026  
-**OpenReview**: [Y16qXOaylp](https://openreview.net/forum?id=Y16qXOaylp)  
+**OpenReview**: [https://openreview.net/forum?id=Y16qXOaylp](https://openreview.net/forum?id=Y16qXOaylp)  
 **代码**: 待确认  
 **领域**: 幻觉检测 / LLM 可靠性  
 **关键词**: 幻觉检测, 跨域泛化, 多轮自对话, 二阶差分, 不确定性
@@ -83,6 +97,7 @@ $$\hat W \in \arg\min_W -\frac1n\sum_{i=1}^n \Big[y_i\log p_W(E_\theta(A_i\mid Q
 传统训练相关方法（MM、SEP、SAPLMA）跨域几乎全军覆没（平均 AUROC 多在 0.53–0.58）；训练无关方法略好但仍逊于专门的跨域方法；SpikeScore 在所有模型上取得最高平均 AUROC，且在更大模型上提升更明显（作者推测大模型自我纠错更强，尖峰模式更可检测）。
 
 ### 消融实验
+
 | 配置 | 关键结论 | 说明 |
 |------|---------|------|
 | SpikeScore + SAPLMA | Llama-3.1-8B 0.7860 | 默认配置，最佳 |
@@ -131,8 +146,8 @@ $$\hat W \in \arg\min_W -\frac1n\sum_{i=1}^n \Big[y_i\log p_W(E_\theta(A_i\mid Q
 - [\[ICLR 2026\] VeriTrail: Closed-Domain Hallucination Detection with Traceability](veritrail_closed-domain_hallucination_detection_with_traceable_evidence_synthes.md)
 - [\[ACL 2025\] Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation](../../ACL2025/hallucination/learning_auxiliary_tasks_improves_reference-free_hallucination_detection_in_open.md)
 - [\[ICLR 2026\] Enhancing Hallucination Detection through Noise Injection](enhancing_hallucination_detection_through_noise_injection.md)
-- [\[ICML 2026\] From Out-of-Distribution Detection to Hallucination Detection: A Geometric View](../../ICML2026/hallucination/from_out-of-distribution_detection_to_hallucination_detection_a_geometric_view.md)
-- [\[CVPR 2026\] TriDF: Evaluating Perception, Detection, and Hallucination for Interpretable DeepFake Detection](../../CVPR2026/hallucination/tridf_evaluating_perception_detection_and_hallucination_for_interpretable_deepfa.md)
+- [\[ICLR 2026\] Cat-PO: Cross-modal Adaptive Token-rewards for Preference Optimization in Truthful Multimodal LLMs](cat-po_cross-modal_adaptive_token-rewards_for_preference_optimization_in_truthfu.md)
+- [\[ICLR 2026\] Learning to Reason for Hallucination Span Detection](learning_to_reason_for_hallucination_span_detection.md)
 
 </div>
 

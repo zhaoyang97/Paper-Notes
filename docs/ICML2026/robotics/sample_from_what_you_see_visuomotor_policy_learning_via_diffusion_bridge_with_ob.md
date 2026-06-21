@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Sample from What You See: Visuomotor Policy Learning via Diffusion Bridge with Observation-Embedded Stochastic Differential Equation
+description: >-
+  [ICML2026][机器人][扩散桥] BridgePolicy 把扩散策略里"观测只当条件、采样从随机噪声起步"的做法，改成用扩散桥（diffusion bridge）把观测直接嵌进前向 SDE 的终点，让动作采样从一个"观测信息丰富的先验"出发；再用一个语义对齐器把异构观测压成和动作同形的表示，从而在 52 个仿真任务和 5 个真机任务上稳定超过现有生成式策略。
+tags:
+  - "ICML2026"
+  - "机器人"
+  - "扩散桥"
+  - "视觉运动策略"
+  - "模仿学习"
+  - "模态对齐"
+  - "随机最优控制"
+---
+
 # Sample from What You See: Visuomotor Policy Learning via Diffusion Bridge with Observation-Embedded Stochastic Differential Equation
 
 **会议**: ICML2026  

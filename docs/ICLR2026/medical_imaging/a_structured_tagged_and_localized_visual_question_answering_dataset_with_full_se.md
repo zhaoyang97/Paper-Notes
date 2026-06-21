@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Structured, Tagged, and Localized Visual Question Answering Dataset with Full Sentence Answers and Scene Graphs for Chest X-ray Images
+description: >-
+  [ICLR2026][医学图像][胸片VQA] 本文从 MIMIC-CXR 的放射学报告自动构建出 CXR-QBA——一个含 4220 万条问答对、每条答案都带完整句子、边界框和结构化标签（发现/区域/确定性等）的大规模胸片 VQA 数据集，通过"场景图构建 → 模板化问答生成 → LLM 自动质检"三段流水线产出，并给出 3120 万预训练级 + 750 万微调级两个子集和一个配套的 baseline 模型与评测指标。
+tags:
+  - "ICLR2026"
+  - "医学图像"
+  - "胸片VQA"
+  - "场景图"
+  - "报告信息抽取"
+  - "边界框定位"
+  - "结构化标注"
+---
+
 # A Structured, Tagged, and Localized Visual Question Answering Dataset with Full Sentence Answers and Scene Graphs for Chest X-ray Images
 
 **会议**: ICLR2026  
-**OpenReview**: [LrmyW9JLYq](https://openreview.net/forum?id=LrmyW9JLYq)  
+**OpenReview**: [https://openreview.net/forum?id=LrmyW9JLYq](https://openreview.net/forum?id=LrmyW9JLYq)  
 **代码**: https://github.com/philip-mueller/mimic-ext-cxr-qba/  
 **领域**: 医学图像 / 多模态VQA数据集  
 **关键词**: 胸片VQA、场景图、报告信息抽取、边界框定位、结构化标注
@@ -124,11 +139,11 @@ baseline 在不同训练子集上训练，并与未在本任务微调的 MAIRA-2
 
 ## 相关论文
 
-- [\[ICLR 2026\] Q-FSRU: Quantum-Augmented Frequency-Spectral Fusion for Medical Visual Question Answering](q-fsru_quantum-augmented_frequency-spectral_for_medical_visual_question_answerin.md)
+- [\[AAAI 2026\] Q-FSRU: Quantum-Augmented Frequency-Spectral Fusion for Medical Visual Question Answering](../../AAAI2026/medical_imaging/q-fsru_quantum-augmented_frequency-spectral_fusion_for_medical_visual_question_a.md)
 - [\[CVPR 2026\] Dual-Level Confidence based Implicit Self-Refinement for Medical Visual Question Answering](../../CVPR2026/medical_imaging/dual-level_confidence_based_implicit_self-refinement_for_medical_visual_question.md)
 - [\[CVPR 2026\] MR-RAG: Multimodal Relevance-Aware Retrieval-Augmented Generation for Medical Visual Question Answering](../../CVPR2026/medical_imaging/mr-rag_multimodal_relevance-aware_retrieval-augmented_generation_for_medical_vis.md)
+- [\[ICLR 2026\] Learning Self-Critiquing Mechanisms for Region-Guided Chest X-Ray Report Generation](learning_self-critiquing_mechanisms_for_region-guided_chest_x-ray_report_generat.md)
 - [\[ICML 2026\] SEMIR: Semantic Minor-Induced Representation Learning on Graphs for Visual Segmentation](../../ICML2026/medical_imaging/semir_semantic_minor-induced_representation_learning_on_graphs_for_visual_segmen.md)
-- [\[ICML 2026\] PaCX-MAE: Physiology-Augmented Chest X-Ray Masked Autoencoder](../../ICML2026/medical_imaging/pacx-mae_physiology-augmented_chest_x-ray_masked_autoencoder.md)
 
 </div>
 

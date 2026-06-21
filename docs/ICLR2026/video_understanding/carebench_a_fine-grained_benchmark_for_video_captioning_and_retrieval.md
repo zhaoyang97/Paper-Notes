@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CaReBench: A Fine-grained Benchmark for Video Captioning and Retrieval
+description: >-
+  [ICLR2026][视频理解][视频字幕] CaReBench 用 1000 个人工标注、字幕长达 200+ 词且**显式拆成空间/时间两份**的视频，搭起一个能同时考视频细粒度字幕（captioning）和检索（retrieval）的 benchmark，配套两个新指标 ReBias 与 CapST 专门量化 VLM 的时空偏置，并顺手给出一个把字幕和检索统一进单个 MLLM 的两阶段 SFT 基线 CARE。
+tags:
+  - "ICLR2026"
+  - "视频理解"
+  - "视频字幕"
+  - "视频检索"
+  - "细粒度评测"
+  - "时空偏置"
+  - "多模态大模型"
+---
+
 # CaReBench: A Fine-grained Benchmark for Video Captioning and Retrieval
 
 **会议**: ICLR2026  
-**OpenReview**: [OZtGhb9x7C](https://openreview.net/forum?id=OZtGhb9x7C)  
+**OpenReview**: [https://openreview.net/forum?id=OZtGhb9x7C](https://openreview.net/forum?id=OZtGhb9x7C)  
 **代码**: https://carebench.github.io （项目主页）  
 **领域**: 视频理解  
 **关键词**: 视频字幕, 视频检索, 细粒度评测, 时空偏置, 多模态大模型
@@ -129,3 +144,19 @@ General Retrieval（zero-shot，R@K 越高越好）上，对比学习后的 MLLM
 - 实验充分度: ⭐⭐⭐⭐ 检索/字幕/QA 多任务、十余个 baseline、消融清晰，但 benchmark 偏短视频单一来源。
 - 写作质量: ⭐⭐⭐⭐ 动机—数据—指标—模型逻辑顺，指标公式交代清楚。
 - 价值: ⭐⭐⭐⭐ benchmark + 指标 + 统一基线一套打包开源，对评测 VLM 细粒度时空理解很实用。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] FineVAU: A Novel Human-Aligned Benchmark for Fine-Grained Video Anomaly Understanding](../../AAAI2026/video_understanding/finevau_a_novel_human-aligned_benchmark_for_fine-grained_video_anomaly_understan.md)
+- [\[ICML 2025\] Fine-Grained Captioning of Long Videos through Scene Graph Consolidation](../../ICML2025/video_understanding/fine-grained_captioning_of_long_videos_through_scene_graph_consolidation.md)
+- [\[ICLR 2026\] OmniCVR: A Benchmark for Omni-Composed Video Retrieval with Vision, Audio, and Text](omnicvr_a_benchmark_for_omni-composed_video_retrieval_with_vision_audio_and_text.md)
+- [\[ICLR 2026\] Let's Split Up: Zero-Shot Classifier Edits for Fine-Grained Video Understanding](lets_split_up_zero-shot_classifier_edits_for_fine-grained_video_understanding.md)
+- [\[CVPR 2026\] Fine-VAD: Towards Fine-Grained Video Anomaly Detection via Progressive Cross-Granularity Learning](../../CVPR2026/video_understanding/fine-vad_towards_fine-grained_video_anomaly_detection_via_progressive_cross-gran.md)
+
+</div>
+
+<!-- RELATED:END -->

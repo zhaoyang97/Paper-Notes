@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bayesian Test-Time Adaptation via Dirichlet feature projection and GMM-Driven Inference for Motor Imagery EEG Decoding
+description: >-
+  [ICLR2026][自监督学习][测试时适应] BTTA-DG 把每条 EEG 试次的逐时刻预测序列压成一个 Dirichlet 参数向量，用历史试次拟合的 GMM 当似然、深度模型输出当先验，做一次无梯度的贝叶斯后验校准，在运动想象脑机接口的跨被试/跨 session 迁移上达到 SOTA 且实时（15.7 ms/试次）。
+tags:
+  - "ICLR2026"
+  - "自监督学习"
+  - "测试时适应"
+  - "EEG 运动想象"
+  - "Dirichlet 分布"
+  - "高斯混合"
+  - "贝叶斯校准"
+---
+
 # Bayesian Test-Time Adaptation via Dirichlet feature projection and GMM-Driven Inference for Motor Imagery EEG Decoding
 
 **会议**: ICLR2026  
-**OpenReview**: [VDg6Pv4S3v](https://openreview.net/forum?id=VDg6Pv4S3v)  
+**OpenReview**: [https://openreview.net/forum?id=VDg6Pv4S3v](https://openreview.net/forum?id=VDg6Pv4S3v)  
 **代码**: 待确认  
 **领域**: 测试时适应 / 自监督 / EEG 脑机接口  
 **关键词**: 测试时适应, EEG 运动想象, Dirichlet 分布, 高斯混合, 贝叶斯校准
@@ -132,10 +147,10 @@ Table 8 逐组件拆解（多数据集均值）：
 ## 相关论文
 
 - [\[ICLR 2026\] Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment](architecture-agnostic_test-time_adaptation_via_backprop-free_embedding_alignment.md)
+- [\[ICLR 2026\] NEO — No-Optimization Test-Time Adaptation through Latent Re-Centering](neo_no-optimization_test-time_adaptation_through_latent_re-centering.md)
 - [\[CVPR 2026\] Energy Waveify and Redistribution for Test-Time Adaptation: A Control System Perspective](../../CVPR2026/self_supervised/energy_waveify_and_redistribution_for_test-time_adaptation_a_control_system_pers.md)
 - [\[ICLR 2026\] Test-Time Efficient Pretrained Model Portfolios for Time Series Forecasting](test-time_efficient_pretrained_model_portfolios_for_time_series_forecasting.md)
-- [\[ICLR 2026\] Adaptive Test-Time Training for Predicting Need for Invasive Mechanical Ventilation in Multi-Center Cohorts](adaptive_test-time_training_for_predicting_need_for_invasive_mechanical_ventilat.md)
-- [\[ICML 2026\] Mitigating Label Shift in Tabular In-Context Learning via Test-Time Posterior Adjustment](../../ICML2026/self_supervised/mitigating_label_shift_in_tabular_in-context_learning_via_test-time_posterior_ad.md)
+- [\[ICLR 2026\] ZeroSiam: An Efficient Asymmetry for Test-Time Entropy Optimization without Collapse](zerosiam_an_efficient_asymmetry_for_test-time_entropy_optimization_without_colla.md)
 
 </div>
 

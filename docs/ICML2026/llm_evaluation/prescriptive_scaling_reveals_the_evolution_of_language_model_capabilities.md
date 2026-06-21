@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Prescriptive Scaling Reveals the Evolution of Language Model Capabilities
+description: >-
+  [ICML2026][LLM评测][规约式scaling] 用 5k 历史 + 2k 自测、横跨 2022–2026 的约 7000 个模型 checkpoint，把"给定预训练算力预算能拿到多少下游精度"建模成 log-算力的**单调饱和 sigmoid 能力边界**（高分位数回归），并验证这条边界在时间上是否稳定、能否用约 20% 评测预算高效重建。
+tags:
+  - "ICML2026"
+  - "LLM评测"
+  - "规约式scaling"
+  - "能力边界"
+  - "分位数回归"
+  - "时序可靠性"
+  - "I-最优采样"
+---
+
 # Prescriptive Scaling Reveals the Evolution of Language Model Capabilities
 
 **会议**: ICML2026  

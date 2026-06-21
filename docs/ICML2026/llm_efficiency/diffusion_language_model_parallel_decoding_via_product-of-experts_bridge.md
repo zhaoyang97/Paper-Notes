@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge
+description: >-
+  [ICML2026][LLM效率][扩散语言模型] 扩散语言模型（DLM）能并行解码但质量差，直接用蒙特卡洛把 DLM 草稿校正到自回归（AR）目标又因分布差距太大而代价高昂；本文 PoE-Bridge 在 DLM 与 AR 之间插入一个 Product-of-Experts 中间桥分布，把「DLM→AR」这步难校正拆成「DLM→PoE→AR」两步易校正，配合混合温度采样与弹性拒绝窗口，在数学推理与代码任务上比标准 DLM 解码提速 5×、并恢复至少 95% 的 AR 精度。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "扩散语言模型"
+  - "并行解码"
+  - "Product-of-Experts"
+  - "投机采样"
+  - "重要性采样"
+---
+
 # Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge
 
 **会议**: ICML2026  

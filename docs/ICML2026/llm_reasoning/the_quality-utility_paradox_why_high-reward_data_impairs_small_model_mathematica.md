@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The Quality-Utility Paradox: Why High-Reward Data Impairs Small Model Mathematical Reasoning
+description: >-
+  [ICML2026][Reasoning][小模型蒸馏] 本文揭示了小语言模型（SLM）数学推理蒸馏中的「质量-效用悖论」：被强 Oracle 精修、奖励模型打分更高的训练数据，下游微调效果反而不如 SLM 自己采样生成的低分数据，原因是 Oracle 精修在修复逻辑的同时把推理轨迹推离了 SLM 的原生分布、抬高了学习者的适应成本；作者用「风格对齐精修」把逻辑修复和风格漂移解耦，重新拿回了下游收益。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "小模型蒸馏"
+  - "奖励模型"
+  - "分布漂移"
+  - "拒绝采样"
+  - "数学推理"
+---
+
 # The Quality-Utility Paradox: Why High-Reward Data Impairs Small Model Mathematical Reasoning
 
 **会议**: ICML2026  

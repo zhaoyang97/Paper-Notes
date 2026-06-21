@@ -16,7 +16,7 @@ tags:
 # Fracture-GS: Dynamic Fracture Simulation with Physics-Integrated Gaussian Splatting
 
 **会议**: ICLR 2026  
-**OpenReview**: [zcAwK50ft0](https://openreview.net/forum?id=zcAwK50ft0)  
+**OpenReview**: [https://openreview.net/forum?id=zcAwK50ft0](https://openreview.net/forum?id=zcAwK50ft0)  
 **代码**: 待确认  
 **领域**: 3D视觉 / 高斯泼溅 / 物理仿真  
 **关键词**: 高斯泼溅, 物质点法, 动态断裂, 碰撞仿真, 物理渲染
@@ -143,9 +143,9 @@ $$\{\mu_{new}, \Sigma_{new}\} = \text{MVEE}(\Omega_{cross}(g_i, g_j))$$
 
 - [\[ICLR 2026\] MoE-GS: Mixture of Experts for Dynamic Gaussian Splatting](moe-gs_mixture_of_experts_for_dynamic_gaussian_splatting.md)
 - [\[CVPR 2026\] Disco-GS: Gaussian Splatting in Dynamic Color Lighting](../../CVPR2026/3d_vision/disco-gs_gaussian_splatting_in_dynamic_color_lighting.md)
-- [\[CVPR 2026\] GaussianFluent: Gaussian Simulation for Dynamic Scenes with Mixed Materials](../../CVPR2026/3d_vision/gaussianfluent_gaussian_simulation_for_dynamic_scenes_with_mixed_materials.md)
-- [\[ICLR 2026\] PD²GS: Part-Level Decoupling and Continuous Deformation of Articulated Objects via Gaussian Splatting](pd2gs_part-level_decoupling_and_continuous_deformation_of_articulated_objects_vi.md)
-- [\[CVPR 2026\] MSCD-GS: Motion-Separated Cooperative Deblurring Dynamic Reconstruction via Gaussian Splatting](../../CVPR2026/3d_vision/mscd-gs_motion-separated_cooperative_deblurring_dynamic_reconstruction_via_gauss.md)
+- [\[ICLR 2026\] ODE-GS: Latent ODEs for Dynamic Scene Extrapolation with 3D Gaussian Splatting](ode-gs_latent_odes_for_dynamic_scene_extrapolation_with_3d_gaussian_splatting.md)
+- [\[ICLR 2026\] Frequency-Aware Dynamic Gaussian Splatting](frequency-aware_dynamic_gaussian_splatting.md)
+- [\[ICLR 2026\] Mobile-GS: Real-time Gaussian Splatting for Mobile Devices](mobile-gs_real-time_gaussian_splatting_for_mobile_devices.md)
 
 </div>
 

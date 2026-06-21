@@ -16,7 +16,7 @@ tags:
 # Efficient Message-Passing Transformer for Error Correcting Codes
 
 **会议**: ICLR2026  
-**OpenReview**: [Xk8cwnwu2e](https://openreview.net/forum?id=Xk8cwnwu2e)  
+**OpenReview**: [https://openreview.net/forum?id=Xk8cwnwu2e](https://openreview.net/forum?id=Xk8cwnwu2e)  
 **代码**: https://github.com/iil-postech/efficientmpt  
 **领域**: 信号处理 / 通信 / 纠错码解码  
 **关键词**: 纠错码、Transformer 解码器、线性复杂度注意力、奇偶校验矩阵、基础模型
@@ -165,9 +165,9 @@ $\circledast$ 是广播逐元素乘——把那根全局 query 向量沿着 $K^i
 
 - [\[CVPR 2025\] ABC-Former: Auxiliary Bimodal Cross-domain Transformer with Interactive Channel Attention](../../CVPR2025/signal_comm/abc-former_auxiliary_bimodal_cross-domain_transformer_with_interactive_channel_a.md)
 - [\[ECCV 2024\] PYRA: Parallel Yielding Re-Activation for Training-Inference Efficient Task Adaptation](../../ECCV2024/signal_comm/pyra_parallel_yielding_re-activation_for_training-inference_efficient_task_adapt.md)
-- [\[ICLR 2026\] Enhancing Instruction Following of LLMs via Activation Steering with Dynamic Rejection](enhancing_instruction_following_of_llms_via_activation_steering_with_dynamic_rej.md)
-- [\[ICLR 2026\] Mamba-3: Improved Sequence Modeling using State Space Principles](mamba-3_improved_sequence_modeling_using_state_space_principles.md)
-- [\[ICML 2026\] Joint Model and Data Sparsification via the Marginal Likelihood](../../ICML2026/signal_comm/joint_model_and_data_sparsification_via_the_marginal_likelihood.md)
+- [\[ICLR 2026\] Synchronizing Probabilities in Model-Driven Lossless Compression](synchronizing_probabilities_in_model-driven_lossless_compression.md)
+- [\[ICLR 2026\] TS-DDAE: A Novel Temporal-Spectral Denoising Diffusion AutoEncoder for Wireless Signal Recognition Model Pre-training](ts-ddae_a_novel_temporal-spectral_denoising_diffusion_autoencoder_for_wireless_s.md)
+- [\[ICLR 2026\] Lossy Common Information in a Learnable Gray-Wyner Network](lossy_common_information_in_a_learnable_gray-wyner_network.md)
 
 </div>
 

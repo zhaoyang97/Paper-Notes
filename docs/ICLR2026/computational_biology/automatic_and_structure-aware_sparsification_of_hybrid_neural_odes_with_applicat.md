@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Automatic and Structure-Aware Sparsification of Hybrid Neural ODEs with Application to Glucose Prediction
+description: >-
+  [ICLR 2026][计算生物][机理神经ODE] 针对"机理模型嵌进神经 ODE 后潜变量太多、小数据下过拟合"的痛点，本文提出三步混合图稀疏化算法 HGS（合并强连通分量→加捷径→L1/L2 正则剪边），自动选出既稀疏又保持机理可解释的子图，在合成数据和真实 T1D 血糖预测上用更少参数拿到更好、更鲁棒的预测。
+tags:
+  - "ICLR 2026"
+  - "计算生物"
+  - "机理神经ODE"
+  - "图稀疏化"
+  - "L1/L2正则"
+  - "血糖预测"
+  - "模型约简"
+---
+
 # Automatic and Structure-Aware Sparsification of Hybrid Neural ODEs with Application to Glucose Prediction
 
 **会议**: ICLR 2026  
-**OpenReview**: [QBzFrjEF59](https://openreview.net/forum?id=QBzFrjEF59)  
+**OpenReview**: [https://openreview.net/forum?id=QBzFrjEF59](https://openreview.net/forum?id=QBzFrjEF59)  
 **代码**: 待确认（论文称随补充材料提交）  
 **领域**: 计算生物 / 混合神经 ODE / 模型约简 / 时间序列预测  
 **关键词**: 机理神经ODE, 图稀疏化, L1/L2正则, 血糖预测, 模型约简
@@ -139,11 +154,11 @@ L1 罚边权 $W$ 鼓励稀疏（LASSO 式把冗余边压零），L2 罚解码器
 
 ## 相关论文
 
+- [\[ICLR 2026\] Temporally Detailed Hypergraph Neural ODEs for Disease Progression Modeling](temporally_detailed_hypergraph_neural_ode_for_disease_progression_modeling.md)
 - [\[ICLR 2026\] AntigenLM: Structure-Aware DNA Language Modeling for Influenza](antigenlm_structure-aware_dna_language_modeling_for_influenza.md)
-- [\[ICLR 2026\] Intrinsic Lorentz Neural Network](intrinsic_lorentz_neural_network.md)
-- [\[NeurIPS 2025\] Quantifying the Role of OpenFold Components in Protein Structure Prediction](../../NeurIPS2025/computational_biology/quantifying_the_role_of_openfold_components_in_protein_structure_prediction.md)
-- [\[ICLR 2026\] Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology](fusing_pixels_and_genes_spatially-aware_learning_in_computational_pathology.md)
-- [\[NeurIPS 2025\] Multiscale Guidance of Protein Structure Prediction with Heterogeneous Cryo-EM Data](../../NeurIPS2025/computational_biology/multiscale_guidance_of_protein_structure_prediction_with_heterogeneous_cryo-em_d.md)
+- [\[ICLR 2026\] Towards Knowledge-and-Data-Driven Organic Reaction Prediction: RAG-Enhanced and Reasoning-Powered Hybrid System with LLMs](towards_knowledgeanddatadriven_organic_reaction_prediction_ragenhanced_and_reaso.md)
+- [\[ICLR 2026\] Automatic Image-Level Morphological Trait Annotation for Organismal Images](automatic_image-level_morphological_trait_annotation_for_organismal_images.md)
+- [\[ICLR 2026\] I2Mole: Interaction-aware Invariant Molecular Learning for Generalizable Drug-Drug Interaction Prediction](i2mole_interaction-aware_invariant_molecular_learning_for_generalizable_property.md)
 
 </div>
 

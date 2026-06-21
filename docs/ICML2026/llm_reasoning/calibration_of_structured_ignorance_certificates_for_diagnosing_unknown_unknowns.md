@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Calibration of Structured Ignorance Certificates for Diagnosing Unknown Unknowns in Reasoning Models
+description: >-
+  [ICML 2026][Reasoning][认知不确定性] 本文提出 **结构化无知证书（Structured Ignorance Certificate, SIC）**——一种强制模型在遇到超出知识边界的跨域问题时，不再瞎编答案、而是用 JSON 显式说出"缺哪两个领域的交叉知识、需要哪些概念、该去检索什么"的输出格式；通过自动合成的 7,347 条"未知的未知"跨域问题数据集 + GRPO 强化微调，让 14B 模型学会稳定产出这种证书（JSON 合法率 99.46%、概念具体度 0.967）。
+tags:
+  - "ICML 2026"
+  - "Reasoning"
+  - "认知不确定性"
+  - "未知的未知"
+  - "GRPO"
+  - "结构化生成"
+  - "检索规划"
+---
+
 # Calibration of Structured Ignorance Certificates for Diagnosing Unknown Unknowns in Reasoning Models
 
 **会议**: ICML 2026  

@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] A New Approach to Controlling Linear Dynamical Systems
+description: >-
+  [ICLR2026][学习理论][在线非随机控制] 本文提出 Online Spectral Control（OSC）：把对抗扰动下的线性动力系统控制问题，用一组与具体系统无关的「谱滤波器」（某个 Hankel 矩阵的特征向量）做凸松弛，从而在保持 $\tilde O(\gamma^{-4}\sqrt T)$ 最优遗憾的同时，把每步运行时间对稳定裕度 $\gamma$ 的依赖从多项式 $O(\gamma^{-1})$ 降到对数级 $O(\mathrm{polylog}(1/\gamma))$。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "在线控制"
+  - "在线非随机控制"
+  - "谱滤波"
+  - "Hankel 矩阵"
+  - "遗憾界"
+  - "凸松弛"
+---
+
 # A New Approach to Controlling Linear Dynamical Systems
 
 **会议**: ICLR2026  
-**OpenReview**: [BQIzu1T6F0](https://openreview.net/forum?id=BQIzu1T6F0)  
+**OpenReview**: [https://openreview.net/forum?id=BQIzu1T6F0](https://openreview.net/forum?id=BQIzu1T6F0)  
 **代码**: 待确认  
 **领域**: 学习理论 / 在线控制  
 **关键词**: 在线非随机控制, 谱滤波, Hankel 矩阵, 遗憾界, 凸松弛
@@ -118,11 +134,11 @@ OSC 是表中唯一在最一般设定（对抗扰动 + 在线凸 Lipschitz 代�
 
 ## 相关论文
 
+- [\[ICLR 2026\] On learning linear dynamical systems in context with attention layers](on_learning_linear_dynamical_systems_in_context_with_attention_layers.md)
 - [\[ICLR 2026\] An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods](an_optimal_diffusion_approach_to_quadratic_rate-distortion_problems_new_solution.md)
 - [\[ICML 2026\] A Perturbation Approach to Unconstrained Linear Bandits](../../ICML2026/learning_theory/a_perturbation_approach_to_unconstrained_linear_bandits.md)
 - [\[ICLR 2026\] Dynamical properties of dense associative memory](dynamical_properties_of_dense_associative_memory.md)
-- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
-- [\[ICLR 2026\] A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data](a_generalized_geometric_theoretical_framework_of_centroid_discriminant_analysis_.md)
+- [\[ICLR 2026\] Closed-form $\ell_r$ norm scaling with data for overparameterized linear regression and diagonal linear networks under $\ell_p$ bias](closed-form_ell_r_norm_scaling_with_data_for_overparameterized_linear_regression.md)
 
 </div>
 

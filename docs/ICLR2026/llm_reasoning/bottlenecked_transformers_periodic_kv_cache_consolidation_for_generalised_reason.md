@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bottlenecked Transformers: Periodic KV Cache Consolidation for Generalised Reasoning
+description: >-
+  [ICLR2026][Reasoning][KV 缓存重写] 给冻结的主干 LLM 外挂一个小型 Cache Processor，在每个推理步结束（换行符）时**原地重写** KV 缓存——既"巩固"刚写入的近期条目，又"再巩固"按注意力召回的少量历史条目——用信息瓶颈理论解释为什么这样能提升泛化，在七个数学推理基准上最高 +6.6pp。
+tags:
+  - "ICLR2026"
+  - "Reasoning"
+  - "KV 缓存重写"
+  - "信息瓶颈"
+  - "记忆巩固"
+  - "隐空间计算"
+  - "数学推理"
+---
+
 # Bottlenecked Transformers: Periodic KV Cache Consolidation for Generalised Reasoning
 
 **会议**: ICLR2026  
-**OpenReview**: [fWgKnl4itC](https://openreview.net/forum?id=fWgKnl4itC)  
+**OpenReview**: [https://openreview.net/forum?id=fWgKnl4itC](https://openreview.net/forum?id=fWgKnl4itC)  
 **代码**: 待确认  
 **领域**: LLM推理  
 **关键词**: KV 缓存重写, 信息瓶颈, 记忆巩固, 隐空间计算, 数学推理
@@ -130,11 +145,11 @@ $$k^{(\ell)}_{(s)} \leftarrow k^{(\ell)}_{(s)} + \sigma(g^{(\ell)})\,\Delta^{(\e
 
 ## 相关论文
 
+- [\[ICLR 2026\] KaVa: Latent Reasoning via Compressed KV-Cache Distillation](kava_latent_reasoning_via_compressed_kv-cache_distillation.md)
+- [\[ICLR 2026\] Beyond Speedup - Utilizing KV Cache for Sampling and Reasoning](beyond_speedup_-_utilizing_kv_cache_for_sampling_and_reasoning.md)
 - [\[ICML 2026\] ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution](../../ICML2026/llm_reasoning/foresightkv_optimizing_kv_cache_eviction_for_reasoning_models_by_learning_long-t.md)
-- [\[ICML 2026\] The Expressive Power of Low Precision Softmax Transformers with (Summarized) Chain-of-Thought](../../ICML2026/llm_reasoning/the_expressive_power_of_low_precision_softmax_transformers_with_summarized_chain.md)
-- [\[NeurIPS 2025\] Exact Expressive Power of Transformers with Padding](../../NeurIPS2025/llm_reasoning/exact_expressive_power_of_transformers_with_padding.md)
-- [\[NeurIPS 2025\] Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization](../../NeurIPS2025/llm_reasoning/transformers_provably_learn_chain-of-thought_reasoning_with_length_generalizatio.md)
-- [\[NeurIPS 2025\] Unlabeled Data Can Provably Enhance In-Context Learning of Transformers](../../NeurIPS2025/llm_reasoning/unlabeled_data_can_provably_enhance_in-context_learning_of_transformers.md)
+- [\[ICLR 2026\] MoDr: Mixture-of-Depth-Recurrent Transformers for Test-Time Reasoning](modr_mixture-of-depth-recurrent_transformers_for_test-time_reasoning.md)
+- [\[ICLR 2026\] Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models](attention_as_a_compass_efficient_exploration_for_process-supervised_rl_in_reason.md)
 
 </div>
 

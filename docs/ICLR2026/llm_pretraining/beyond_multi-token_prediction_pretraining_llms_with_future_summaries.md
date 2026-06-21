@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries
+description: >-
+  [ICLR2026][预训练][预训练目标] 这篇论文提出 **未来摘要预测（Future Summary Prediction, FSP）**：在标准的下一 token 预测之外挂一个辅助头，让模型预测对**长程未来序列的紧凑摘要**（而不是逐个预测未来若干 token），并给出两种摘要构造方式——手工的词袋摘要（FSP-BoW）和用反向语言模型蒸馏出来的学习式摘要（FSP-RevLM）；3B/8B 大规模预训练实验显示它在数学、推理、代码任务上稳定超过 NTP 与多 token 预测（MTP），数学任务上最高提升约 4–5 个百分点。
+tags:
+  - "ICLR2026"
+  - "预训练"
+  - "预训练目标"
+  - "多 token 预测"
+  - "teacher forcing"
+  - "反向语言模型"
+  - "未来摘要"
+---
+
 # Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries
 
 **会议**: ICLR2026  
-**OpenReview**: [aeYIFVn4vb](https://openreview.net/forum?id=aeYIFVn4vb)  
+**OpenReview**: [https://openreview.net/forum?id=aeYIFVn4vb](https://openreview.net/forum?id=aeYIFVn4vb)  
 **代码**: 待确认  
 **领域**: LLM 预训练 / 预训练目标  
 **关键词**: 预训练目标, 多 token 预测, teacher forcing, 反向语言模型, 未来摘要
@@ -136,10 +151,10 @@ FSP-RevLM 在 ARC-Easy/Challenge、MATH、MBPP 上领先，HumanEval+ 与 MTP �
 ## 相关论文
 
 - [\[ACL 2026\] Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement](../../ACL2026/llm_pretraining/toward_consistent_world_models_with_multi-token_prediction_and_latent_semantic_e.md)
-- [\[ACL 2025\] Pre-Training Curriculum for Multi-Token Prediction in Language Models](../../ACL2025/llm_pretraining/pre-training_curriculum_for_multi-token_prediction_in_language_models.md)
-- [\[ICML 2025\] Position: The Future of Bayesian Prediction Is Prior-Fitted](../../ICML2025/llm_pretraining/position_the_future_of_bayesian_prediction_is_prior-fitted.md)
 - [\[ICLR 2026\] Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining](beyond_urls_metadata_diversity_and_position_for_efficient_llm_pretraining.md)
+- [\[ACL 2025\] Pre-Training Curriculum for Multi-Token Prediction in Language Models](../../ACL2025/llm_pretraining/pre-training_curriculum_for_multi-token_prediction_in_language_models.md)
 - [\[ICLR 2026\] Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data](beyond_length_quantifying_long-range_information_for_long-context_llm_pretrainin.md)
+- [\[ICML 2025\] Position: The Future of Bayesian Prediction Is Prior-Fitted](../../ICML2025/llm_pretraining/position_the_future_of_bayesian_prediction_is_prior-fitted.md)
 
 </div>
 

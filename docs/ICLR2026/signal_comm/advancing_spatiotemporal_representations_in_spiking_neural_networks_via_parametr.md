@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation
+description: >-
+  [ICLR 2026][信号/通信][脉冲神经网络] 针对脉冲神经网络（SNN）二值脉冲表示能力受限、替代梯度失配两大顽疾，本文提出参数化可逆变换 PIT——在神经元发放（firing）前后以共轭方式各做一次可逆线性变换，发放前把膜电位分布"重排"成易量化的形态、发放后把整数脉冲"增广"成跨时空的实值输出，同时配一个把输入推离量化决策边界的修正替代梯度，并用线性代数刻画了 SNN 时空表示容量；在 CIFAR、ImageNet、DVS 等数据集上多种架构均刷新 SOTA（如 SEW ResNet34 涨 5.62%）。
+tags:
+  - "ICLR 2026"
+  - "信号/通信"
+  - "脉冲神经网络"
+  - "参数化可逆变换"
+  - "多比特脉冲"
+  - "替代梯度"
+  - "神经形态计算"
+---
+
 # Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation
 
 **会议**: ICLR 2026  
-**OpenReview**: [3JwNXQzxll](https://openreview.net/forum?id=3JwNXQzxll)  
+**OpenReview**: [https://openreview.net/forum?id=3JwNXQzxll](https://openreview.net/forum?id=3JwNXQzxll)  
 **代码**: https://github.com/YinsongYan/ICLR26  
 **领域**: 脉冲神经网络 / 神经形态计算 / 表示学习  
 **关键词**: 脉冲神经网络、参数化可逆变换、多比特脉冲、替代梯度、神经形态计算
@@ -86,6 +101,7 @@ $$\frac{\partial\lfloor x\rceil}{\partial x}=1+\lambda\big(0.5-\mathrm{sign}(\ma
 亮点：PIT 加到 SEW ResNet34 后（72.66%）反超 152 层 SEW ResNet（69.26%），且逼近其 ANN 对应物 ResNet34 的 73.31%；训练曲线显示加 PIT 后**仅训练一个 epoch 就超过同架构 baseline**，收敛更快。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | $\lambda=0.1/0.01/0.001$ | CIFAR10 95.73/95.86/95.70% | 修正替代梯度对超参不敏感，宽区间波动 <1% |
@@ -124,3 +140,19 @@ $$\frac{\partial\lfloor x\rceil}{\partial x}=1+\lambda\big(0.5-\mathrm{sign}(\ma
 - 实验充分度: ⭐⭐⭐⭐⭐ 静态/神经形态多数据集、多架构（ResNet/SEW/Transformer）、能效与显存全覆盖，3 种子取均值。
 - 写作质量: ⭐⭐⭐⭐ 方法与理论清晰，但 Corollary 的扩容刻画与同形公式略显含糊。
 - 价值: ⭐⭐⭐⭐⭐ 又准又省、保住脉冲驱动推理，为低延迟高精度神经形态系统提供了可落地路径。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] Neural Video Compression with Context Modulation](../../CVPR2025/signal_comm/neural_video_compression_with_context_modulation.md)
+- [\[CVPR 2025\] Continuous Space-Time Video Resampling with Invertible Motion Steganography](../../CVPR2025/signal_comm/continuous_space-time_video_resampling_with_invertible_motion_steganography.md)
+- [\[ICLR 2026\] Mamba-3: Improved Sequence Modeling using State Space Principles](mamba-3_improved_sequence_modeling_using_state_space_principles.md)
+- [\[ICLR 2026\] TS-DDAE: A Novel Temporal-Spectral Denoising Diffusion AutoEncoder for Wireless Signal Recognition Model Pre-training](ts-ddae_a_novel_temporal-spectral_denoising_diffusion_autoencoder_for_wireless_s.md)
+- [\[ICLR 2026\] Synchronizing Probabilities in Model-Driven Lossless Compression](synchronizing_probabilities_in_model-driven_lossless_compression.md)
+
+</div>
+
+<!-- RELATED:END -->

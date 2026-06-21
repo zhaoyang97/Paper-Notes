@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BideDPO: Conditional Image Generation with Simultaneous Text and Condition Alignment
+description: >-
+  [ICLR2026][图像生成][条件图像生成] 当文本提示和条件图（深度图/边缘图等）相互冲突时，现有可控生成模型只能二选一；本文提出双向解耦的 DPO 框架 BideDPO，把"对齐文本"和"对齐条件"拆成两组独立偏好对、用自适应损失平衡动态加权、再配上一条全自动构造"冲突感知偏好数据"的流水线和迭代自增强循环，在自建的 DualAlign 基准上把文本成功率最多提升 35%+ 的同时还改善了条件保真度。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "条件图像生成"
+  - "DPO"
+  - "梯度解耦"
+  - "自适应损失平衡"
+  - "偏好数据"
+---
+
 # BideDPO: Conditional Image Generation with Simultaneous Text and Condition Alignment
 
 **会议**: ICLR2026  
-**OpenReview**: [DNBlGOsIxn](https://openreview.net/forum?id=DNBlGOsIxn)  
+**OpenReview**: [https://openreview.net/forum?id=DNBlGOsIxn](https://openreview.net/forum?id=DNBlGOsIxn)  
 **代码**: [项目页 limuloo.github.io/BideDPO](https://limuloo.github.io/BideDPO/)  
 **领域**: 扩散模型 / 条件图像生成 / 偏好优化  
 **关键词**: 条件图像生成, DPO, 梯度解耦, 自适应损失平衡, 偏好数据
@@ -84,6 +99,7 @@ $$w_{\text{text}}=\text{sg}\!\left(\frac{\mathcal{L}_{\text{text}}}{\mathcal{L}_
 Canny 条件下，Union-Pro2 的 SR 从 0.34→0.68（+34%）、FLUX-Canny 从 0.33→0.73（+40%，甚至超过原始 T2I FLUX 的文本对齐）；软边缘条件下也同步改善。COCO 鲁棒性测试（训练未用过的数据集）上，本文方法相对原模型仍有提升（如 canny 条件 +15% 级别），说明没有损害基座的通用能力。注意：以上主结果均**未开启迭代优化**。
 
 ### 消融实验
+
 | 配置 | SR↑ | MSE↓ | SGMSE↓ | CLIP↑ | 说明 |
 |------|------|------|--------|-------|------|
 | Iter=3 (Ours) | **0.88** | 159.6 | **190.3** | **0.2957** | 迭代 3 轮，最优 |
@@ -129,9 +145,9 @@ Canny 条件下，Union-Pro2 的 SR 从 0.34→0.68（+34%）、FLUX-Canny 从 0
 
 - [\[CVPR 2026\] DynFusion: Rethinking Condition Fusion for Adaptive Multi-Conditional Text-to-Image Generation](../../CVPR2026/image_generation/dynfusion_rethinking_condition_fusion_for_adaptive_multi-conditional_text-to-ima.md)
 - [\[ICLR 2026\] Condition Errors Refinement in Autoregressive Image Generation with Diffusion Loss](condition_errors_refinement_in_autoregressive_image_generation_with_diffusion_lo.md)
-- [\[ICML 2026\] Alignment-Guided Score Matching for Text-to-Image Alignment in Diffusion Models](../../ICML2026/image_generation/alignment-guided_score_matching_for_text-to-image_alignment_in_diffusion_models.md)
 - [\[ICLR 2026\] Condition Matters in Full-head 3D GANs](condition_matters_in_full-head_3d_gans.md)
-- [\[CVPR 2026\] POCA: Pareto-Optimal Curriculum Alignment for Visual Text Generation](../../CVPR2026/image_generation/poca_pareto-optimal_curriculum_alignment_for_visual_text_generation.md)
+- [\[ICLR 2026\] Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model](beyond_text-to-image_liberating_generation_with_a_unified_discrete_diffusion_mod.md)
+- [\[ICLR 2026\] CreatiDesign: A Unified Multi-Conditional Diffusion Transformer for Creative Graphic Design](creatidesign_a_unified_multi-conditional_diffusion_transformer_for_creative_grap.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Reward Shaping for (Inference-Time) Alignment: A Stackelberg Game Perspective
+description: >-
+  [ICML2026][LLM对齐][推理时对齐] 把"该用什么奖励模型来对齐 LLM"建模成一个 Stackelberg 博弈，证明最优奖励是一个**逐 prompt 的阈值奖励**（高于阈值给满分 $B$、低于给 0），并用从基座模型采样的蒙特卡洛估计高效求出阈值，最后用 sigmoid 软化后无缝插进 CD/ARGS 等推理时对齐方法，在几乎零额外开销下把平均奖励和对 baseline 的 Win-Tie 率提到 66% 以上。
+tags:
+  - "ICML2026"
+  - "LLM对齐"
+  - "推理时对齐"
+  - "奖励塑形"
+  - "Stackelberg 博弈"
+  - "阈值奖励"
+  - "KL 正则"
+---
+
 # Reward Shaping for (Inference-Time) Alignment: A Stackelberg Game Perspective
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Certified Evaluation of Model-Level Explanations for Graph Neural Networks
+description: >-
+  [ICLR2026][可解释性][模型级解释] 这篇论文把"GNN 的模型级解释到底够不够好"这个一直只能靠 class score 和肉眼比对的问题，形式化成一个叫**充分性风险（sufficiency risk）**的回归损失，并推导出分布无关的认证上界，进而给出 Coverage、GGA、Overlap 三个可计算指标（外加有限样本置信区间），让不同解释器之间第一次能做有统计保证的比较。
+tags:
+  - "ICLR2026"
+  - "可解释性"
+  - "模型级解释"
+  - "图神经网络"
+  - "充分性风险"
+  - "认证评估"
+  - "覆盖率"
+---
+
 # Certified Evaluation of Model-Level Explanations for Graph Neural Networks
 
 **会议**: ICLR2026  
-**OpenReview**: [h6VtqCN9m3](https://openreview.net/forum?id=h6VtqCN9m3)  
+**OpenReview**: [https://openreview.net/forum?id=h6VtqCN9m3](https://openreview.net/forum?id=h6VtqCN9m3)  
 **代码**: 待确认  
 **领域**: 可解释性 / 图神经网络  
 **关键词**: 模型级解释, GNN 可解释性, 充分性风险, 认证评估, 覆盖率
@@ -104,6 +119,7 @@ $$\mathrm{Overlap}=\frac{\sum_{k=1}^K|S_k(r^\star)|-|U(r^\star)|}{\max\{1,|U(r^\
 关键现象：在 MUTAG 上 XGNN（强制化合价约束）和 PAGE（发现连通 motif）的 Coverage 高于 GNNInterpreter——后者缺少领域约束，生成断连、化学非法的图，class score 高但 Coverage 低，**指标准确暴露了 class score 掩盖的病态解释**。在 REDDIT 和 IMDB 上 XGNN 彻底失败（生成单点/直线，四项指标全 0），而它在 OGB-MOLHIV 上根本跑不了（只支持离散节点特征）。REDDIT-Binary 上 GNNInterpreter 在 Coverage 和 class score 上都超过 PAGE（PAGE 的子图搜索在大图上失效）；IMDB-Multi 上两者 Coverage、GGA、Overlap 都高，说明少数 motif 就够解释类别身份，但 PAGE 的 class score 明显更高。
 
 ### 合成数据集消融（指标 vs class score）
+
 | 数据集 / 设置 | 现象 | 说明 |
 |---------------|------|------|
 | 4Shapes / good vs bad 解释集 | 除 Class 2 外，good 集同时拿到更高 class score 和更高 Coverage | 验证 Coverage 与 class score 多数时一致 |
@@ -138,3 +154,19 @@ $$\mathrm{Overlap}=\frac{\sum_{k=1}^K|S_k(r^\star)|-|U(r^\star)|}{\max\{1,|U(r^\
 - 实验充分度: ⭐⭐⭐⭐ 合成数据精准验证指标性质、四个真实数据集横扫三种解释器，但都是"嵌入+线性头"分类器，复杂分类头下的表现待验证。
 - 写作质量: ⭐⭐⭐⭐⭐ 从动机到定理层层递进，每个指标都有清晰直觉 + 形式化保证 + 实验印证。
 - 价值: ⭐⭐⭐⭐⭐ 给一直缺标尺的模型级解释评估提供了可计算、带置信区间、可统计比较的工具，实用性强。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Bayesian Neural Networks for Functional ANOVA Model](bayesian_neural_networks_for_functional_anova_model.md)
+- [\[ICLR 2026\] Addressing Divergent Representations from Causal Interventions on Neural Networks](addressing_divergent_representations_causal.md)
+- [\[ICLR 2026\] Explainable K-means Neural Networks for Multi-view Clustering](explainable_k_-means_neural_networks_for_multi-view_clustering.md)
+- [\[ICLR 2026\] FAME: Formal Abstract Minimal Explanation for Neural Networks](fame_formal_abstract_minimal_explanation_for_neural_networks.md)
+- [\[ICLR 2026\] Discovering Alternative Solutions Beyond the Simplicity Bias in Recurrent Neural Networks](discovering_alternative_solutions_beyond_the_simplicity_bias_in_recurrent_neural.md)
+
+</div>
+
+<!-- RELATED:END -->

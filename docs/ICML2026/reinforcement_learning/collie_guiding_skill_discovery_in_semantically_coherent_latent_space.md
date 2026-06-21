@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space
+description: >-
+  [ICML 2026][强化学习][无监督技能发现] 本文提出 **COLLIE**——一种引导式技能发现（GSD）框架，用大量无标注数据先构建一个"语义连贯"的技能隐空间（隐空间里靠得近的状态人类期望度也相近），从而仅凭稀疏的人类"好/坏"标签就能 **免训练** 地传播出一个稠密引导信号 $w(s)$，把无监督探索导向安全、任务相关的区域，避免学出危险或无用技能，且无需训练任何额外的引导网络。
+tags:
+  - "ICML 2026"
+  - "强化学习"
+  - "无监督技能发现"
+  - "引导式技能发现"
+  - "语义连贯隐空间"
+  - "免训练引导信号"
+  - "人在回路"
+---
+
 # COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space
 
 **会议**: ICML 2026  

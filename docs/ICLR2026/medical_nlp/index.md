@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 医疗LLM论文汇总 · 15篇论文解读
+  ICLR2026 医疗LLM论文汇总 · 18篇论文解读
 description: >-
-  15篇ICLR2026的医疗 LLM 方向论文解读，涵盖医学影像、对话系统、推理、问答、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  18篇ICLR2026的医疗 LLM 方向论文解读，涵盖医学影像、对话系统、LLM、问答、对抗鲁棒、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "医疗 LLM"
@@ -10,24 +10,31 @@ tags:
   - "论文笔记"
   - "医学影像"
   - "对话系统"
-  - "推理"
+  - "LLM"
   - "问答"
-  - "Agent"
+  - "对抗鲁棒"
+  - "推理"
 item_list:
   - u: "atpo_adaptive_tree_policy_optimization_for_multi-turn_medical_dialogue/"
     t: "ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue"
-  - u: "biomedsql_text-to-sql_for_scientific_reasoning_on_biomedical_knowledge_bases/"
-    t: "BiomedSQL: Text-to-SQL for Scientific Reasoning on Biomedical Knowledge Bases"
+  - u: "can_large_language_models_match_the_conclusions_of_systematic_reviews/"
+    t: "Can Large Language Models Match the Conclusions of Systematic Reviews?"
   - u: "can_saes_reveal_and_mitigate_racial_biases_of_llms_in_healthcare/"
     t: "Can SAEs Reveal and Mitigate Racial Biases of LLMs in Healthcare?"
   - u: "cancer-myth_evaluating_large_language_models_on_patient_questions_with_false_pre/"
     t: "Cancer-Myth: Evaluating Large Language Models on Patient Questions with False Presuppositions"
+  - u: "counselbench_a_large-scale_expert_evaluation_and_adversarial_benchmarking_of_lar/"
+    t: "CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering"
   - u: "counselbench_llm_mental_health_qa/"
     t: "CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA"
-  - u: "emr-agent_automating_cohort_and_feature_extraction_from_emr_databases/"
-    t: "EMR-AGENT: Automating Cohort and Feature Extraction from EMR Databases"
+  - u: "doctor-r1_mastering_clinical_inquiry_with_experiential_agentic_reinforcement_lea/"
+    t: "Doctor-R1: Mastering Clinical Inquiry with Experiential Agentic Reinforcement Learning"
   - u: "from_conversation_to_query_execution_benchmarking_user_and_tool_interactions_for/"
     t: "From Conversation to Query Execution: Benchmarking User and Tool Interactions for EHR Database Agents"
+  - u: "from_medical_records_to_diagnostic_dialogues_a_clinical-grounded_approach_and_da/"
+    t: "From Medical Records to Diagnostic Dialogues: A Clinical-Grounded Approach and Dataset for Psychiatric Comorbidity"
+  - u: "galax_graph-augmented_language_model_for_explainable_reinforcement-guided_subgra/"
+    t: "GALAX: Graph-Augmented Language Model for Explainable Reinforcement-Guided Subgraph Reasoning in Precision Medicine"
   - u: "histoprism_unlocking_functional_pathway_analysis_from_pan-cancer_histology_via_g/"
     t: "HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction"
   - u: "knowledgeable_language_models_as_black-box_optimizers_for_personalized_medicine/"
@@ -44,25 +51,25 @@ item_list:
     t: "SimpleToM: Exposing the Gap between Explicit ToM Inference and Implicit ToM Application in LLMs"
   - u: "survhte-bench_a_benchmark_for_heterogeneous_treatment_effect_estimation_in_survi/"
     t: "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis"
-item_total: 15
+item_total: 18
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🩺 医疗 LLM
 
-**🔬 ICLR2026** · **15** 篇论文解读
+**🔬 ICLR2026** · **18** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (1)](../../CVPR2026/medical_nlp/index.md) · [🧪 ICML2026 (4)](../../ICML2026/medical_nlp/index.md) · [💬 ACL2026 (47)](../../ACL2026/medical_nlp/index.md) · [🤖 AAAI2026 (12)](../../AAAI2026/medical_nlp/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/medical_nlp/index.md) · [🧪 ICML2025 (4)](../../ICML2025/medical_nlp/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (1)](../../CVPR2026/medical_nlp/index.md) · [💬 ACL2026 (47)](../../ACL2026/medical_nlp/index.md) · [🧪 ICML2026 (4)](../../ICML2026/medical_nlp/index.md) · [🤖 AAAI2026 (12)](../../AAAI2026/medical_nlp/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/medical_nlp/index.md) · [🧪 ICML2025 (4)](../../ICML2025/medical_nlp/index.md)
 
-🔥 **高频主题：** 医学影像 ×4 · 对话系统 ×2 · 推理 ×2 · 问答 ×2 · Agent ×2
+🔥 **高频主题：** 医学影像 ×5 · 对话系统 ×3 · LLM ×3 · 问答 ×3 · 对抗鲁棒 ×2
 
 **[ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue](atpo_adaptive_tree_policy_optimization_for_multi-turn_medical_dialogue.md)**
 
 :   提出 ATPO（自适应树策略优化）算法，将多轮医疗对话建模为层级马尔可夫决策过程（H-MDP），通过不确定性感知的自适应树扩展机制动态分配rollout预算，结合Bellman误差和动作值方差的复合不确定性度量来引导探索，在三个医学对话基准上以Qwen3-8B超越GPT-4o。
 
-**[BiomedSQL: Text-to-SQL for Scientific Reasoning on Biomedical Knowledge Bases](biomedsql_text-to-sql_for_scientific_reasoning_on_biomedical_knowledge_bases.md)**
+**[Can Large Language Models Match the Conclusions of Systematic Reviews?](can_large_language_models_match_the_conclusions_of_systematic_reviews.md)**
 
-:   提出 BiomedSQL，首个专门评估 Text-to-SQL 系统在生物医学知识库上科学推理能力的基准，包含 68,000 个问题/SQL/答案三元组，揭示当前最强模型（GPT-o3-mini 62.6%）与领域专家（90%）之间仍有巨大差距。
+:   作者构建了 **MedEvidence** 基准——把 100 篇 Cochrane 系统综述（SR）的结论改写成 284 道封闭式问答，并配上综述所依据的原始研究，让 LLM 在"看到和专家相同材料"的受控条件下复现专家结论；评测 25 个 LLM 后发现：推理不一定更好、模型越大边际收益越小、医学微调反而掉点，模型普遍缺乏对低质量证据的"科学怀疑"，至少 37% 的题答不对专家结论。
 
 **[Can SAEs Reveal and Mitigate Racial Biases of LLMs in Healthcare?](can_saes_reveal_and_mitigate_racial_biases_of_llms_in_healthcare.md)**
 
@@ -72,17 +79,29 @@ item_total: 15
 
 :   本文构建了 Cancer-Myth——一个由肿瘤血液科医生核验、含 585 个"带错误前提"癌症患者问题的对抗数据集，发现包括 GPT-5、Gemini-2.5-Pro、Claude-4-Sonnet 在内的所有前沿 LLM 纠正错误前提的成功率都不超过 43%，且加防范性提示等缓解手段会在"无错误前提"问题上引发大量误纠正、并拖累其他医疗基准，揭示了医疗 LLM 在患者沟通安全上的关键缺口。
 
+**[CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering](counselbench_a_large-scale_expert_evaluation_and_adversarial_benchmarking_of_lar.md)**
+
+:   作者联合 100 位持证心理咨询专业人士，构建了一个面向**开放式心理健康问答**的双组件基准 CounselBench：一组是 2000 条专家逐维度打分 + 跨度标注的评估集（CounselBench-Eval），一组是 120 道临床医生手写、专门用来诱发特定失败模式的对抗题（CounselBench-Adv），系统揭示了 LLM 在心理咨询场景下"高分但仍有安全隐患"的现状，并实证了 LLM-as-Judge 在该高风险领域不可靠。
+
 **[CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA](counselbench_llm_mental_health_qa.md)**
 
 :   联合100名持证心理健康专家构建CounselBench双组件基准——CounselBench-EVAL（2,000条六维度专家评估）和CounselBench-Adv（120个对抗性问题+1,080条响应标注），系统性揭示LLM在心理健康开放式问答中表面得分高但存在过度泛化、擅自医疗建议等安全隐患，同时证明LLM-as-Judge在安全关键领域严重不可靠。
 
-**[EMR-AGENT: Automating Cohort and Feature Extraction from EMR Databases](emr-agent_automating_cohort_and_feature_extraction_from_emr_databases.md)**
+**[Doctor-R1: Mastering Clinical Inquiry with Experiential Agentic Reinforcement Learning](doctor-r1_mastering_clinical_inquiry_with_experiential_agentic_reinforcement_lea.md)**
 
-:   提出EMR-AGENT，首个基于LLM Agent的电子病历（EMR）自动化预处理框架，通过动态SQL交互替代手工规则编写，实现跨数据库的队列选择、特征提取和代码映射，在MIMIC-III/eICU/SICdb上表现优异并具强泛化能力。
+:   Doctor-R1 把门诊问诊建模成部分可观测的多轮决策过程，用「多智能体交互环境 + 两级奖励架构 + 经验库」做经验式 agentic 强化学习，让一个 8B 的医生智能体既会战略性、有同理心地追问，又能做对诊断，在 HealthBench / MAQuE 上反超 32B 开源模型和 GPT-4.1 等闭源大模型。
 
 **[From Conversation to Query Execution: Benchmarking User and Tool Interactions for EHR Database Agents](from_conversation_to_query_execution_benchmarking_user_and_tool_interactions_for.md)**
 
 :   提出EHR-ChatQA基准，首次评估数据库Agent在电子病历场景中的端到端交互工作流（澄清模糊查询→解决术语不匹配→生成SQL→返回答案），发现最强模型(o4-mini)的Pass@5超90%但Pass∧5(全部成功)大幅下降(差距达60%)，暴露了安全关键领域的鲁棒性缺陷。
+
+**[From Medical Records to Diagnostic Dialogues: A Clinical-Grounded Approach and Dataset for Psychiatric Comorbidity](from_medical_records_to_diagnostic_dialogues_a_clinical-grounded_approach_and_da.md)**
+
+:   本文提出一条「社交媒体帖子 → 结构化电子病历 → 多智能体诊断对话」的两阶段流水线，把 SCID-5 临床访谈协议改写成分层诊断状态机（HDSM）+ 诊断上下文树（DCT），构建出首个大规模精神科共病诊断对话数据集 PsyCoTalk（3,000 段多轮对话），并经执业精神科医生验证其临床真实性。
+
+**[GALAX: Graph-Augmented Language Model for Explainable Reinforcement-Guided Subgraph Reasoning in Precision Medicine](galax_graph-augmented_language_model_for_explainable_reinforcement-guided_subgra.md)**
+
+:   GALAX 把预训练 GNN 当作"过程裁判"，用强化学习引导 LLM 一步步搭建疾病相关子图，从而在没有逐步标注的前提下，为精准医疗做出可解释、患者特异的癌症靶点预测。
 
 **[HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction](histoprism_unlocking_functional_pathway_analysis_from_pan-cancer_histology_via_g.md)**
 

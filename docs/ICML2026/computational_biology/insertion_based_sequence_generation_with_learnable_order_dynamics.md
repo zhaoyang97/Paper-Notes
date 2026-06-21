@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Insertion Based Sequence Generation with Learnable Order Dynamics
+description: >-
+  [ICML2026][计算生物][掩码扩散模型] 本文提出 LoFlexMDM——一个把"插入掩码 + 解掩码"两步插入式掩码扩散模型的**固定生成顺序换成可学习、依样本的顺序动态**的生成模型：通过把离散流匹配推广到变长序列、用 Kumaraswamy CDF 参数化可学习的插入/解掩码时刻，并用 REINFORCE 联合训练生成器与目标顺序网络，在分子和图任务上让模型自己学到接近最优的生成顺序，de novo 分子质量比 FlexMDM 最高提升 17.5 个百分点。
+tags:
+  - "ICML2026"
+  - "计算生物"
+  - "掩码扩散模型"
+  - "离散流匹配"
+  - "插入式生成"
+  - "可学习生成顺序"
+  - "分子生成"
+---
+
 # Insertion Based Sequence Generation with Learnable Order Dynamics
 
 **会议**: ICML2026  

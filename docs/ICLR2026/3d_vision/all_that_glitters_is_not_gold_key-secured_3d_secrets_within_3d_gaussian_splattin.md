@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting
+description: >-
+  [ICLR2026][3D视觉][3D高斯泼溅] KeySS 把"在一个 3DGS 封面场景里藏多个 3DGS 秘密场景"做成端到端可训练框架：用 CLIP 编码的密钥控制一个解码器把封面高斯直接变换成秘密高斯，错误密钥只会还原封面；同时发现高斯的不同属性对藏秘贡献并不相等（不透明度有用、球谐几乎无用），并提出 3D-Sinkhorn 距离在高斯参数空间里度量隐写隐蔽性，最终在重建保真度与抗检测安全性上都超过 GS-Hider。
+tags:
+  - "ICLR2026"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "隐写术"
+  - "密钥控制"
+  - "最优传输"
+  - "多秘密隐藏"
+---
+
 # All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting
 
 **会议**: ICLR2026  
-**OpenReview**: [CcxIDaTfLB](https://openreview.net/forum?id=CcxIDaTfLB)  
+**OpenReview**: [https://openreview.net/forum?id=CcxIDaTfLB](https://openreview.net/forum?id=CcxIDaTfLB)  
 **代码**: https://github.com/RY-Paper/KeySS  
 **领域**: 3D视觉 / 3D高斯泼溅 / 3D隐写 / 版权保护  
 **关键词**: 3D高斯泼溅, 隐写术, 密钥控制, 最优传输, 多秘密隐藏
@@ -146,11 +161,11 @@ $$L = \beta_{cover} L_{cover} + \sum_{s=1}^{S}\beta_{secret}^s L_{secret}^s + \b
 
 ## 相关论文
 
-- [\[ICCV 2025\] Not All Frame Features Are Equal: Video-to-4D Generation via Decoupling Dynamic-Static Features](../../ICCV2025/3d_vision/not_all_frame_features_are_equal_video-to-4d_generation_via_decoupling_dynamic-s.md)
+- [\[ICLR 2026\] CLoD-GS: Continuous Level-of-Detail via 3D Gaussian Splatting](clod-gs_continuous_level-of-detail_via_3d_gaussian_splatting.md)
 - [\[ICLR 2026\] Learning Unified Representation of 3D Gaussian Splatting](learning_unified_representation_of_3d_gaussian_splatting.md)
-- [\[ICCV 2025\] No Pose at All: Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views](../../ICCV2025/3d_vision/no_pose_at_all_self-supervised_pose-free_3d_gaussian_splatting_from_sparse_views.md)
-- [\[CVPR 2026\] From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis](../../CVPR2026/3d_vision/from_none_to_all_self-supervised_3d_reconstruction_via_novel_view_synthesis.md)
-- [\[ICLR 2026\] Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](stylos_multi-view_3d_stylization_with_single-forward_gaussian_splatting.md)
+- [\[ICCV 2025\] Not All Frame Features Are Equal: Video-to-4D Generation via Decoupling Dynamic-Static Features](../../ICCV2025/3d_vision/not_all_frame_features_are_equal_video-to-4d_generation_via_decoupling_dynamic-s.md)
+- [\[ICLR 2026\] SSD-GS: Scattering and Shadow Decomposition for Relightable 3D Gaussian Splatting](ssd-gs_scattering_and_shadow_decomposition_for_relightable_3d_gaussian_splatting.md)
+- [\[ICLR 2026\] Human3R: Everyone Everywhere All at Once](human3r_everyone_everywhere_all_at_once.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Position: 'AI Alignment' Encompasses Competing Technical Priorities
+description: >-
+  [ICML 2026][AI安全][AI 对齐] 这是一篇 ICML 立场论文，主张"AI alignment（AI 对齐）"是一个**多义词**：ML 文献里至少有三种互相竞争而非仅仅不同的对齐理念（任务可靠性 / 社会审慎性 / 接管规避），现实中提升其中一种对齐往往会**主动损害**另一种，作者用"威胁模型差异"与"正向/负向对齐差异"两条横切区分来解释这些张力，并给研究者提出五条具体建议。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "AI 对齐"
+  - "立场论文"
+  - "威胁模型"
+  - "概念分析"
+  - "对齐张力"
+---
+
 # Position: 'AI Alignment' Encompasses Competing Technical Priorities
 
 **会议**: ICML 2026  

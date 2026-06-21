@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs
+description: >-
+  [ICML2026][多模态VLM][音视频理解] 提出首个评测多模态大模型「从音视频上下文预测未来事件」能力的基准 FutureOmni（919 视频 / 1034 道选择题），发现连最强模型 Gemini 3 Flash 也只有 64.8% 准确率，并用一套带推理链的指令微调方法 OFF 把开源模型的预测与泛化能力同时拉高。
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "音视频理解"
+  - "未来预测"
+  - "全模态基准"
+  - "因果推理"
+  - "指令微调"
+---
+
 # FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs
 
 **会议**: ICML2026  

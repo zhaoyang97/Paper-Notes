@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Characterizing the Discrete Geometry of ReLU Networks
+description: >-
+  [ICLR 2026][学习理论][ReLU 网络] 本文把全连接 ReLU 网络在输入空间切出的多面体复形抽象成一张"连通图"（区域当节点、相邻区域连边），并证明这张图的**平均度恒被 $2d$（两倍输入维度）上界约束、与网络宽度深度无关**，同时给出图直径不依赖输入维度的上界 $O(m^\ell)$，再用合成数据与 MNIST/CIFAR10 等实验验证这些理论界并揭示"训练数据更爱落在连通度高的区域"。
+tags:
+  - "ICLR 2026"
+  - "学习理论"
+  - "神经网络几何"
+  - "ReLU 网络"
+  - "多面体复形"
+  - "连通图"
+  - "平均度"
+  - "图直径"
+---
+
 # Characterizing the Discrete Geometry of ReLU Networks
 
 **会议**: ICLR 2026  
-**OpenReview**: [TgLW2DiRDG](https://openreview.net/forum?id=TgLW2DiRDG)  
+**OpenReview**: [https://openreview.net/forum?id=TgLW2DiRDG](https://openreview.net/forum?id=TgLW2DiRDG)  
 **代码**: https://github.com/bl-ake/ICLR-2026  
 **领域**: 学习理论 / 神经网络几何  
 **关键词**: ReLU 网络、多面体复形、连通图、平均度、图直径
@@ -81,6 +97,7 @@ $$\Phi^{(j)}=\mathrm{diag}(s^{(j)})\,W^{(j)}\,\mathrm{diag}(\mathrm{ReLU}(s^{(j-
 可见平均度始终**低于上界 $2d$**（$d{=}4$ 时 $<8$，$d{=}5$ 时 $<10$），且随网络变大稳步逼近上界；邻居数分布**单峰、右偏、峰值略低于 $2d$**，与 Theorem 3.1/3.7 完全吻合。
 
 ### 直径与分布分析
+
 | 观察 | 结果 | 对应理论 |
 |------|------|---------|
 | 固定架构、只变输入维度 $d$ | 各 $d$ 下直径估计几乎相同 | Theorem 3.8 上界与 $d$ 无关 |
@@ -118,3 +135,19 @@ $$\Phi^{(j)}=\mathrm{diag}(s^{(j)})\,W^{(j)}\,\mathrm{diag}(\mathrm{ReLU}(s^{(j-
 - 实验充分度: ⭐⭐⭐⭐ 合成数据穷举 + 三个真实数据集验证理论界，但受可计算性限制只能在小网络/低维隐表示上做。
 - 写作质量: ⭐⭐⭐⭐ 符号序列—弯曲超平面—剥离归纳的脉络清晰，配图（Fig.2/3）把抽象证明讲得直观。
 - 价值: ⭐⭐⭐⭐ 提供稀有的"架构无关"几何不变量，并把直径界直接接到经验误差分析等下游课题。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Information Estimation with Discrete Diffusion](information_estimation_with_discrete_diffusion.md)
+- [\[ICLR 2026\] Characterizing Pattern Matching and Its Limits on Compositional Task Structures](characterizing_pattern_matching_and_its_limits_on_compositional_task_structures.md)
+- [\[ICLR 2026\] A Unification of Discrete, Gaussian, and Simplicial Diffusion](a_unification_of_discrete_gaussian_and_simplicial_diffusion.md)
+- [\[ICLR 2026\] Beyond Spectra: Eigenvector Overlaps in Loss Geometry](beyond_spectra_eigenvector_overlaps_in_loss_geometry.md)
+- [\[ICLR 2026\] On Universality of Deep Equivariant Networks](on_universality_of_deep_equivariant_networks.md)
+
+</div>
+
+<!-- RELATED:END -->

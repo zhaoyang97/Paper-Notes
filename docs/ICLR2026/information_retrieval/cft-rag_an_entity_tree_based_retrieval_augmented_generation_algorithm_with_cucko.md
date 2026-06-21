@@ -16,7 +16,7 @@ tags:
 # CFT-RAG: An Entity Tree Based Retrieval Augmented Generation Algorithm With Cuckoo Filter
 
 **会议**: ICLR2026  
-**OpenReview**: [4y25Ifytn8](https://openreview.net/forum?id=4y25Ifytn8)  
+**OpenReview**: [https://openreview.net/forum?id=4y25Ifytn8](https://openreview.net/forum?id=4y25Ifytn8)  
 **代码**: https://github.com/TUPYP7180/CFT-RAG-2025  
 **领域**: 信息检索 / RAG  
 **关键词**: Tree-RAG、布谷鸟过滤器、实体树、检索加速、温度排序
@@ -139,9 +139,9 @@ CFT-RAG 在三个数据集上检索时间都最低：DART 上从 16.03s 降到 1
 
 - [\[ICML 2026\] Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation](../../ICML2026/information_retrieval/hierarchical_abstract_tree_for_cross-document_retrieval-augmented_generation.md)
 - [\[ACL 2026\] Retrieval-Augmented Tutoring for Algorithm Tracing and Problem-Solving in AI Education](../../ACL2026/information_retrieval/retrieval-augmented_tutoring_for_algorithm_tracing_and_problem-solving_in_ai_edu.md)
+- [\[ICLR 2026\] Bridging Draft Policy Misalignment: Group Tree Optimization for Speculative Decoding](bridging_draft_policy_misalignment_group_tree_optimization_for_speculative_decod.md)
 - [\[ACL 2026\] Disco-RAG: Discourse-Aware Retrieval-Augmented Generation](../../ACL2026/information_retrieval/disco-rag_discourse-aware_retrieval-augmented_generation.md)
-- [\[ACL 2026\] MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation](../../ACL2026/information_retrieval/mass-rag_multi-agent_synthesis_retrieval-augmented_generation.md)
-- [\[ICLR 2026\] Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training](q-rag_long_context_multistep_retrieval_via_valuebased_embedder_training.md)
+- [\[ICLR 2026\] GRO-RAG: Gradient-aware Re-rank Optimization for Multi-source Retrieval-Augmented Generation](gro-rag_gradient-aware_re-rank_optimization_for_multi-source_retrieval-augmented.md)
 
 </div>
 

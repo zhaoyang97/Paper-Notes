@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bridging the Gap Between Promise and Performance for Microscaling FP4 Quantization
+description: >-
+  [ICLR2026][模型压缩][FP4 量化] 这篇论文第一次系统地拆穿了硬件原生 4-bit 浮点格式 MXFP4/NVFP4 "免费提速又保精度" 的承诺，从量化误差理论证明了为什么现有量化技巧在这两种格式上失灵，并提出针对 FP4 特性定制的 MR-GPTQ 算法 + QuTLASS GPU 内核，在 B200/RTX5090 上拿到 2.2x~4x 端到端加速的同时把 MXFP4 精度从掉 10% 拉回到接近 NVFP4 的水平。
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "FP4 量化"
+  - "MXFP4"
+  - "NVFP4"
+  - "GPTQ"
+  - "Hadamard 旋转"
+---
+
 # Bridging the Gap Between Promise and Performance for Microscaling FP4 Quantization
 
 **会议**: ICLR2026  
-**OpenReview**: [zCBGe9AqJZ](https://openreview.net/forum?id=zCBGe9AqJZ)  
+**OpenReview**: [https://openreview.net/forum?id=zCBGe9AqJZ](https://openreview.net/forum?id=zCBGe9AqJZ)  
 **代码**: QuTLASS v1.0（论文随附开源库，基于 NVIDIA CUTLASS）  
 **领域**: 模型压缩 / 后训练量化  
 **关键词**: FP4 量化, MXFP4, NVFP4, GPTQ, Hadamard 旋转
@@ -142,10 +157,10 @@ MR-GPTQ 的三个配料各自的作用（基于 Table 1 内的方法谱系对照
 ## 相关论文
 
 - [\[ICLR 2026\] Alignment through Meta-Weighted Online Sampling: Bridging the Gap between Data Generation and Preference Optimization](alignment_through_meta-weighted_online_sampling_bridging_the_gap_between_data_ge.md)
-- [\[ICLR 2026\] Is Finer Better? The Limits of Microscaling Formats in Large Language Models](is_finer_better_the_limits_of_microscaling_formats_in_large_language_models.md)
-- [\[ICLR 2026\] Multi-View Encoders for Performance Prediction in LLM-Based Agentic Workflows](multi-view_encoders_for_performance_prediction_in_llm-based_agentic_workflows.md)
+- [\[ICLR 2026\] Metis: Training LLMs with FP4 Quantization](metis_training_llms_with_fp4_quantization.md)
+- [\[ICLR 2026\] MicroMix: Efficient Mixed-Precision Quantization with Microscaling Formats for Large Language Models](micromix_efficient_mixed-precision_quantization_with_microscaling_formats_for_la.md)
 - [\[ICLR 2026\] ARMOR: High-Performance Semi-Structured Pruning via Adaptive Matrix Factorization](armor_high-performance_semi-structured_pruning_via_adaptive_matrix_factorization.md)
-- [\[ICLR 2026\] Bridging Kolmogorov Complexity and Deep Learning: Asymptotically Optimal Description Length Objectives for Transformers](bridging_kolmogorov_complexity_and_deep_learning_asymptotically_optimal_descript.md)
+- [\[ICLR 2026\] Is Finer Better? The Limits of Microscaling Formats in Large Language Models](is_finer_better_the_limits_of_microscaling_formats_in_large_language_models.md)
 
 </div>
 

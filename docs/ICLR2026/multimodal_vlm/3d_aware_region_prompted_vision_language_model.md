@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] SR-3D: 3D-Aware Region Prompted Vision Language Model
+description: >-
+  [ICLR2026][多模态VLM][3D位置编码] SR-3D 通过把深度估计得到的 3D 位置编码直接注入 2D 基础 VLM 的视觉 token，并配一个动态切片区域抽取器，让同一个模型既能处理单视图图像又能处理多视图视频，支持在任意一帧上画框/涂 mask 就能跨帧做精确的 3D 空间推理，在 2D/3D 多个 benchmark 上都拿到 SOTA。
+tags:
+  - "ICLR2026"
+  - "多模态VLM"
+  - "3D位置编码"
+  - "区域提示"
+  - "多视图"
+  - "空间推理"
+  - "视觉语言模型"
+---
+
 # SR-3D: 3D-Aware Region Prompted Vision Language Model
 
 **会议**: ICLR2026  
-**OpenReview**: [GTpf2NuwtR](https://openreview.net/forum?id=GTpf2NuwtR)  
+**OpenReview**: [https://openreview.net/forum?id=GTpf2NuwtR](https://openreview.net/forum?id=GTpf2NuwtR)  
 **代码**: [项目页](https://www.anjiecheng.me/sr3d)  
 **领域**: 多模态VLM / 3D空间理解  
 **关键词**: 3D位置编码, 区域提示, 多视图, 空间推理, 视觉语言模型
@@ -133,10 +148,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] Grounded 3D-Aware Spatial Vision-Language Modeling](../../CVPR2026/multimodal_vlm/grounded_3d-aware_spatial_vision-language_modeling.md)
-- [\[CVPR 2026\] Direction-aware 3D Large Multimodal Models](../../CVPR2026/multimodal_vlm/direction-aware_3d_large_multimodal_models.md)
+- [\[CVPR 2026\] HiSpatial: Taming Hierarchical 3D Spatial Understanding in Vision-Language Models](../../CVPR2026/multimodal_vlm/hispatial_taming_hierarchical_3d_spatial_understanding_in_vision-language_models.md)
+- [\[ICLR 2026\] CARPRT: Class-Aware Zero-Shot Prompt Reweighting for Vision-Language Model](carprt_class-aware_zero-shot_prompt_reweighting_for_vision-language_model.md)
+- [\[ICLR 2026\] VaseVQA-3D: Benchmarking 3D VLMs on Ancient Greek Pottery](vasevqa-3d_benchmarking_3d_vlms_on_ancient_greek_pottery.md)
 - [\[ACL 2025\] R-VLM: Region-Aware Vision Language Model for Precise GUI Grounding](../../ACL2025/multimodal_vlm/r-vlm_region-aware_vision_language_model_for_precise_gui_grounding.md)
-- [\[ECCV 2024\] Uni3DL: Unified Model for 3D and Language Understanding](../../ECCV2024/multimodal_vlm/uni3dl_a_unified_model_for_3d_vision-language_understanding.md)
-- [\[CVPR 2026\] Efficient Encoder-Free Fourier-based 3D Large Multimodal Model](../../CVPR2026/multimodal_vlm/efficient_encoder-free_fourier-based_3d_large_multimodal_model.md)
 
 </div>
 

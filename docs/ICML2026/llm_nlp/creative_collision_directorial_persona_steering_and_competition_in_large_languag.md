@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Creative Collision: Directorial Persona Steering and Competition in Large Language Models
+description: >-
+  [ICML2026][LLM 其他][激活引导] 把两个语义对立的"导演人格"引导向量（Spielberg 乐观救赎 vs Scorsese 阴暗道德模糊）同时注入大模型残差流，系统刻画两个方向相互竞争时的道德基调、连贯度与几何变化，发现了"方向支配"、"连贯度低谷"和"第 28 层道德枢纽"三个反直觉现象。
+tags:
+  - "ICML2026"
+  - "LLM 其他"
+  - "激活引导"
+  - "表示工程"
+  - "向量竞争"
+  - "道德基调"
+  - "残差流几何"
+---
+
 # Creative Collision: Directorial Persona Steering and Competition in Large Language Models
 
 **会议**: ICML2026  

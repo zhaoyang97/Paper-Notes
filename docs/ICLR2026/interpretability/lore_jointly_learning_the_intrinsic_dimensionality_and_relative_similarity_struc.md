@@ -138,11 +138,11 @@ GNMDS、CKL、FORTE 等方法优化的是 $N\times N$ 的 Gram 矩阵 $G=ZZ^\top
 
 ## 相关论文
 
-- [\[ICLR 2026\] Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data](behavior_learning_bl_learning_hierarchical_optimization_structures_from_data.md)
-- [\[ICLR 2026\] Conjuring Semantic Similarity](conjuring_semantic_similarity.md)
+- [\[ICLR 2026\] Learning to Weight Parameters for Training Data Attribution](learning_to_weight_parameters_for_training_data_attribution.md)
+- [\[ICLR 2026\] Estimating Dimensionality of Neural Representations from Finite Samples](estimating_dimensionality_of_neural_representations_from_finite_samples.md)
 - [\[ICML 2026\] Dimensionality Controls When Modularity Helps in Continual Learning](../../ICML2026/interpretability/dimensionality_controls_when_modularity_helps_in_continual_learning.md)
-- [\[AAAI 2026\] Data Whitening Improves Sparse Autoencoder Learning](../../AAAI2026/interpretability/data_whitening_improves_sparse_autoencoder_learning.md)
-- [\[ICML 2026\] IdEst: Assessing Self-Supervised Learning Representations via Intrinsic Dimension](../../ICML2026/interpretability/idest_assessing_self-supervised_learning_representations_via_intrinsic_dimension.md)
+- [\[ICLR 2026\] Conjuring Semantic Similarity](conjuring_semantic_similarity.md)
+- [\[ICLR 2026\] Sequences of Logits Reveal the Low Rank Structure of Language Models](sequences_of_logits_reveal_the_low_rank_structure_of_language_models.md)
 
 </div>
 

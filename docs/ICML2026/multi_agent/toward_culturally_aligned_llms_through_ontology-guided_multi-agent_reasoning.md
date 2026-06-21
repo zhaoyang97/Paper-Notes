@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning
+description: >-
+  [ICML2026][多智能体][文化对齐] OG-MAR 把世界价值观调查（WVS）的原始问卷整理成「带结构关系的文化本体 + 个体价值画像」，推理时检索出与目标人群相关的本体三元组和人口学相似的真实受访者，实例化多个「价值人格智能体」各自作答，再由一个判决智能体按「证据优先、本体一致」的协议综合出最终答案，从而在六个地区社会调查基准上提升文化对齐度并给出可解释的推理轨迹。
+tags:
+  - "ICML2026"
+  - "多智能体"
+  - "文化对齐"
+  - "本体引导"
+  - "多智能体推理"
+  - "世界价值观调查"
+  - "价值人格模拟"
+---
+
 # Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning
 
 **会议**: ICML2026  

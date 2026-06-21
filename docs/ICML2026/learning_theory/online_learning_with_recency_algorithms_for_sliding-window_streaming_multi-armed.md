@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Online Learning with Recency: Algorithms for Sliding-window Streaming Multi-armed Bandits
+description: >-
+  [ICML 2026][学习理论][多臂赌博机] 本文把"近因效应"引入流式多臂赌博机，提出**滑动窗口流式 MAB** 模型——只有最近 $W$ 个臂有效——并系统刻画了纯探索与遗憾最小化在该模型下的内存复杂度边界：精确找最优臂需要 $\Omega(W)$ 内存（几乎得存下整个窗口），但找 $\varepsilon$-近似最优臂只需 $O(1/\varepsilon)$ 内存，且遗憾最小化在 $\Theta(W)$ 内存处出现尖锐相变。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "在线学习"
+  - "流式算法"
+  - "多臂赌博机"
+  - "滑动窗口"
+  - "内存-遗憾权衡"
+  - "纯探索"
+---
+
 # Online Learning with Recency: Algorithms for Sliding-window Streaming Multi-armed Bandits
 
 **会议**: ICML 2026  

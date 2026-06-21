@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Accelerated co-design of robots through morphological pretraining
+description: >-
+  [ICLR2026][机器人][协同设计] 本文提出"形态预训练"：先用可微仿真把一个与形态无关的通用控制器在上千万个机器人身体上一次性训练好，再用这个冻结的控制器零样本（或少量微调）评估任意身体改动的好坏，从而把机器人"身体+大脑"协同设计的速度提升一个数量级，同时首次让进化里的"杂交重组"真正产出比父代更优的后代。
+tags:
+  - "ICLR2026"
+  - "机器人"
+  - "协同设计"
+  - "可微仿真"
+  - "形态预训练"
+  - "通用控制器"
+  - "进化算法"
+---
+
 # Accelerated co-design of robots through morphological pretraining
 
 **会议**: ICLR2026  
-**OpenReview**: [WVliGyFwZv](https://openreview.net/forum?id=WVliGyFwZv)  
+**OpenReview**: [https://openreview.net/forum?id=WVliGyFwZv](https://openreview.net/forum?id=WVliGyFwZv)  
 **代码**: 项目网站提供视频与代码（论文末页链接）  
 **领域**: 机器人 / 形态-控制协同设计  
 **关键词**: 协同设计, 可微仿真, 形态预训练, 通用控制器, 进化算法
@@ -120,10 +135,10 @@ flowchart TD
 ## 相关论文
 
 - [\[CVPR 2026\] Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos](../../CVPR2026/robotics/spatial-aware_vla_pretraining_through_visual-physical_alignment_from_human_video.md)
-- [\[ICLR 2026\] RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots](robocasa365_a_large-scale_simulation_framework_for_training_and_benchmarking_gen.md)
-- [\[ICML 2026\] Online Self-Training for Co-Adaptation in Hierarchical Diffusion Policies](../../ICML2026/robotics/online_self-training_for_co-adaptation_in_hierarchical_diffusion_policies.md)
-- [\[ICLR 2026\] D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI](d2e_scaling_vision-action_pretraining_on_desktop_data_for_transfer_to_embodied_a.md)
-- [\[ICLR 2026\] Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control](towards_bridging_the_gap_between_large-scale_pretraining_and_efficient_finetunin.md)
+- [\[ICLR 2026\] Disentangled Robot Learning via Separate Forward and Inverse Dynamics Pretraining](disentangled_robot_learning_via_separate_forward_and_inverse_dynamics_pretrainin.md)
+- [\[ICLR 2026\] MetaVLA: Unified Meta Co-Training for Efficient Embodied Adaptation](metavla_unified_meta_co-training_for_efficient_embodied_adaptation.md)
+- [\[ICLR 2026\] BOLT: Decision‑Aligned Distillation and Budget-Aware Routing for Constrained Multimodal QA on Robots](bolt_decisionaligned_distillation_and_budget-aware_routing_for_constrained_multi.md)
+- [\[ICLR 2026\] Virtual Community: An Open World for Humans, Robots, and Society](virtual_community_an_open_world_for_humans_robots_and_society.md)
 
 </div>
 

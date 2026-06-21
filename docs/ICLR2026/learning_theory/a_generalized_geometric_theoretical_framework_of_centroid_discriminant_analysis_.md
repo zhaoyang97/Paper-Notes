@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data
+description: >-
+  [ICLR 2026][学习理论][几何判别分析] 本文提出几何判别分析（GDA）这一统一理论框架，把一类线性分类器都看成"两类质心连线 CDB0 + 不同约束下的几何修正"，证明 MDC、LDA 都是它的特例；并据此设计出新分类器 CDA——从 CDB0 出发、用贝叶斯优化在一系列 2D 平面上做"性能驱动的旋转"，把训练复杂度从 LDA/SVM 的立方级降到平方级，在 27 个真实数据集上同时取得了比 LDA/SVM/LR 更好的性能、可扩展性与稳定性。
+tags:
+  - "ICLR 2026"
+  - "学习理论"
+  - "线性分类器"
+  - "判别分析"
+  - "几何判别分析"
+  - "质心判别基"
+  - "线性分类"
+  - "贝叶斯优化"
+  - "可扩展性"
+---
+
 # A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data
 
 **会议**: ICLR 2026  
-**OpenReview**: [bp9DOHb1mk](https://openreview.net/forum?id=bp9DOHb1mk)  
+**OpenReview**: [https://openreview.net/forum?id=bp9DOHb1mk](https://openreview.net/forum?id=bp9DOHb1mk)  
 **代码**: 待确认  
 **领域**: 学习理论 / 线性分类器 / 判别分析  
 **关键词**: 几何判别分析、质心判别基、线性分类、贝叶斯优化、可扩展性
@@ -137,11 +154,11 @@ GDA 给了"修正 = 旋转"的视角，但没说怎么找好的旋转。CDA 的�
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Adaptive Data Analysis for Growing Data](../../NeurIPS2025/learning_theory/adaptive_data_analysis_for_growing_data.md)
-- [\[ICML 2026\] Geometric and Stochastic Analysis of Discontinuities in Sparse Mixture-of-Experts](../../ICML2026/learning_theory/geometric_and_stochastic_analysis_of_discontinuities_in_sparse_mixture-of-expert.md)
-- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
-- [\[ICML 2025\] Principled Algorithms for Optimizing Generalized Metrics in Binary Classification](../../ICML2025/learning_theory/principled_algorithms_for_optimizing_generalized_metrics_in_binary_classificatio.md)
-- [\[ICLR 2026\] A Statistical Theory of Overfitting for Imbalanced Classification](a_statistical_theory_of_overfitting_for_imbalanced_classification.md)
+- [\[ICLR 2026\] Larger Datasets Can Be Repeated More: A Theoretical Analysis of Multi-Epoch Scaling in Linear Regression](larger_datasets_can_be_repeated_more_a_theoretical_analysis_of_multi-epoch_scali.md)
+- [\[ICLR 2026\] High-dimensional Analysis of Synthetic Data Selection](high-dimensional_analysis_of_synthetic_data_selection.md)
+- [\[ICLR 2026\] High-Dimensional Analysis of Single-Layer Attention for Sparse-Token Classification](high-dimensional_analysis_of_single-layer_attention_for_sparse-token_classificat.md)
+- [\[ICLR 2026\] Robustness of Probabilistic Models to Low-Quality Data: A Multi-Perspective Analysis](robustness_of_probabilistic_models_to_low-quality_data_a_multi-perspective_analy.md)
+- [\[ICLR 2026\] Learning under Quantization for High-Dimensional Linear Regression](learning_under_quantization_for_high-dimensional_linear_regression.md)
 
 </div>
 

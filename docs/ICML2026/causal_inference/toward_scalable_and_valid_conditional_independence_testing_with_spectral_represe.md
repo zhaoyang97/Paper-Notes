@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Toward Scalable and Valid Conditional Independence Testing with Spectral Representations
+description: >-
+  [ICML2026][因果推理][条件独立检验] SpectralCIT 把核方法里刻画条件独立的「偏协方差算子」用神经网络学到的低维谱特征来近似，再用一个形如 HSIC 的简单统计量做条件独立检验——它用一个双层对比算法学出算子的领先奇异特征，证明零假设下统计量渐近服从卡方分布、备择假设下有功效保证，从而把核方法的理论扎实性和现代表示学习的可扩展性接上。
+tags:
+  - "ICML2026"
+  - "因果推理"
+  - "条件独立检验"
+  - "偏协方差算子"
+  - "谱表示学习"
+  - "对比学习"
+  - "卡方零分布"
+---
+
 # Toward Scalable and Valid Conditional Independence Testing with Spectral Representations
 
 **会议**: ICML2026  

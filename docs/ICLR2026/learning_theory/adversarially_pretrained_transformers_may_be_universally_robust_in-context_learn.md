@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Adversarially Pretrained Transformers May Be Universally Robust In-Context Learners
+description: >-
+  [ICLR 2026][学习理论][对抗训练] 本文给出第一份理论分析：在多个分类任务上做过对抗预训练的单层线性 Transformer，可以仅凭干净示例的上下文学习（in-context learning），就对未见过的新分类任务获得对抗鲁棒性——无需任何额外的对抗训练或对抗样本，因为模型学会了自适应地聚焦"鲁棒特征"。
+tags:
+  - "ICLR 2026"
+  - "学习理论"
+  - "对抗鲁棒性"
+  - "上下文学习"
+  - "对抗训练"
+  - "Transformer"
+  - "鲁棒特征"
+  - "普遍鲁棒性"
+---
+
 # Adversarially Pretrained Transformers May Be Universally Robust In-Context Learners
 
 **会议**: ICLR 2026  
-**OpenReview**: [11eHIPnWDx](https://openreview.net/forum?id=11eHIPnWDx)  
+**OpenReview**: [https://openreview.net/forum?id=11eHIPnWDx](https://openreview.net/forum?id=11eHIPnWDx)  
 **代码**: https://github.com/s-kumano/universally-robust-in-context-learner  
 **领域**: 学习理论 / 对抗鲁棒性 / 上下文学习  
 **关键词**: 对抗训练, 上下文学习, 线性 Transformer, 鲁棒特征, 普遍鲁棒性
@@ -123,11 +139,11 @@ $$\min_{P,Q\in[0,1]^{(d+1)\times(d+1)}} \mathbb{E}_{c,\,\{(x_n,y_n)\}\sim D^{tr}
 
 ## 相关论文
 
-- [\[ICLR 2026\] Bandit Learning in Matching Markets Robust to Adversarial Corruptions](bandit_learning_in_matching_markets_robust_to_adversarial_corruptions.md)
-- [\[ICLR 2026\] Transformers as Unsupervised Learning Algorithms: A study on Gaussian Mixtures](transformers_as_unsupervised_learning_algorithms_a_study_on_gaussian_mixtures.md)
-- [\[ICML 2026\] Learning Credal Ensembles via Distributionally Robust Optimization](../../ICML2026/learning_theory/learning_credal_ensembles_via_distributionally_robust_optimization.md)
-- [\[ICML 2026\] Understanding the Parameter Space Geometry of Transformers Encoding Boolean Functions](../../ICML2026/learning_theory/understanding_the_parameter_space_geometry_of_transformers_encoding_boolean_func.md)
-- [\[NeurIPS 2025\] Diffusion Transformers for Imputation: Statistical Efficiency and Uncertainty Quantification](../../NeurIPS2025/learning_theory/diffusion_transformers_for_imputation_statistical_efficiency_and_uncertainty_qua.md)
+- [\[ICLR 2026\] In-Context Algorithm Emulation in Fixed-Weight Transformers](in-context_algorithm_emulation_in_fixed-weight_transformers.md)
+- [\[ICLR 2026\] Transformers with Endogenous In-Context Learning: Bias Characterization and Mitigation](transformers_with_endogenous_in-context_learning_bias_characterization_and_mitig.md)
+- [\[ICLR 2026\] Continuum Transformers Perform In-Context Learning by Operator Gradient Descent](continuum_transformers_perform_in-context_learning_by_operator_gradient_descent.md)
+- [\[ICLR 2026\] Critical Attention Scaling in Long-Context Transformers](critical_attention_scaling_in_long-context_transformers.md)
+- [\[ICLR 2026\] Transformers Learn Latent Mixture Models In-Context via Mirror Descent](transformers_learn_latent_mixture_models_in-context_via_mirror_descent.md)
 
 </div>
 

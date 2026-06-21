@@ -16,7 +16,7 @@ tags:
 # Random Controlled Differential Equations
 
 **会议**: ICLR 2026  
-**OpenReview**: [kHqt0ZSbKT](https://openreview.net/forum?id=kHqt0ZSbKT)  
+**OpenReview**: [https://openreview.net/forum?id=kHqt0ZSbKT](https://openreview.net/forum?id=kHqt0ZSbKT)  
 **代码**: https://github.com/FrancescoPiatti/RandomSigJax  
 **领域**: 时序建模 / 微分方程 / 储备池计算  
 **关键词**: 时序分类, 受控微分方程, 储备池计算, 签名核, 随机特征
@@ -166,11 +166,11 @@ V2 做了逐样本标准化（零均值单位方差），逼模型只靠几何�
 
 ## 相关论文
 
+- [\[ICML 2026\] Learning Manifold and Itô Dynamics with Branched Neural Rough Differential Equations](../../ICML2026/time_series/learning_manifold_and_itô_dynamics_with_branched_neural_rough_differential_equat.md)
 - [\[AAAI 2026\] AirDDE: Multifactor Neural Delay Differential Equations for Air Quality Forecasting](../../AAAI2026/time_series/airdde_multifactor_neural_delay_differential_equations_for_air_quality_forecasti.md)
 - [\[NeurIPS 2025\] In-Context Learning of Stochastic Differential Equations with Foundation Inference Models](../../NeurIPS2025/time_series/in-context_learning_of_stochastic_differential_equations_with_foundation_inferen.md)
-- [\[ICML 2026\] Learning Manifold and Itô Dynamics with Branched Neural Rough Differential Equations](../../ICML2026/time_series/learning_manifold_and_itô_dynamics_with_branched_neural_rough_differential_equat.md)
 - [\[ICLR 2026\] Delta-XAI: A Unified Framework for Explaining Prediction Changes in Online Time Series Monitoring](delta-xai_a_unified_framework_for_explaining_prediction_changes_in_online_time_s.md)
-- [\[ICLR 2026\] GTM: A General Time-series Model for Enhanced Representation Learning](gtm_a_general_time-series_model_for_enhanced_representation_learning_of_time-series.md)
+- [\[ICLR 2026\] pyrregular: A Unified Framework for Irregular Time Series, with Classification Benchmarks](pyrregular_a_unified_framework_for_irregular_time_series_with_classification_ben.md)
 
 </div>
 

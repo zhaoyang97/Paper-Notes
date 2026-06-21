@@ -16,7 +16,7 @@ tags:
 # Recurrent Action Transformer with Memory
 
 **会议**: ICLR2026  
-**OpenReview**: [kByN4v0M3e](https://openreview.net/forum?id=kByN4v0M3e)  
+**OpenReview**: [https://openreview.net/forum?id=kByN4v0M3e](https://openreview.net/forum?id=kByN4v0M3e)  
 **代码**: https://sites.google.com/view/rate-model/  
 **领域**: 强化学习 / 离线RL  
 **关键词**: 离线强化学习, 决策 Transformer, 记忆机制, 段级循环, POMDP
@@ -140,11 +140,11 @@ T-Maze 上 RATE 在所有分布内长度达 100% 成功率，且外推到 9600 �
 
 ## 相关论文
 
-- [\[ICLR 2026\] LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection](laddersym_a_multimodal_interleaved_transformer_for_music_practice_error_detectio.md)
-- [\[ICLR 2026\] ELMUR: External Layer Memory with Update/Rewrite for Long-Horizon RL Problems](elmur_external_layer_memory_with_updaterewrite_for_long-horizon_rl_problems.md)
-- [\[ICML 2025\] Robust Noise Attenuation via Adaptive Pooling of Transformer Outputs](../../ICML2025/reinforcement_learning/robust_noise_attenuation_via_adaptive_pooling_of_transformer_outputs.md)
-- [\[ICML 2026\] Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training](../../ICML2026/reinforcement_learning/provable_benefit_of_curriculum_in_transformer_tree-reasoning_post-training.md)
-- [\[AAAI 2026\] Efficient Multiagent Planning via Shared Action Suggestions](../../AAAI2026/reinforcement_learning/efficient_multiagent_planning_via_shared_action_suggestions.md)
+- [\[ICLR 2026\] Composition of Memory Experts for Diffusion World Models](composition_of_memory_experts_for_diffusion_world_models.md)
+- [\[ICLR 2026\] The State of Reinforcement Finetuning for Transformer-based Agents](the_state_of_reinforcement_finetuning_for_transformer-based_agents.md)
+- [\[ICLR 2026\] Peak-Return Greedy Slicing: Subtrajectory Selection for Transformer-based Offline RL](peak-return_greedy_slicing_subtrajectory_selection_for_transformer-based_offline.md)
+- [\[ICLR 2026\] DEAS: DEtached value learning with Action Sequence for Scalable Offline RL](deas_detached_value_learning_with_action_sequence_for_scalable_offline_rl.md)
+- [\[ICLR 2026\] Chunking the Critic: A Transformer-based Soft Actor-Critic with N-Step Returns](chunking_the_critic_a_transformer-based_soft_actor-critic_with_n-step_returns.md)
 
 </div>
 

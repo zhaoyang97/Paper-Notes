@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Rethinking Genomic Modeling Through Optical Character Recognition
+description: >-
+  [ICML 2026][计算生物][基因组建模] OpticalDNA 把一维 DNA 序列**渲染成多页"文档图像"**，再用一个 OCR 式的视觉-语言模型去"阅读"它，把碱基内容压成少量可重建的视觉 token，从而在最长 45 万碱基的长序列任务上以约 $20\times$ 更少的有效 token、仅 256K 可训练参数就超过比它大 $985\times$ 的序列基础模型。
+tags:
+  - "ICML 2026"
+  - "计算生物"
+  - "基因组建模"
+  - "OCR"
+  - "视觉 token 压缩"
+  - "长序列"
+  - "eQTL 预测"
+---
+
 # Rethinking Genomic Modeling Through Optical Character Recognition
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents
+description: >-
+  [ICLR2026][LLM安全][agent 安全] 作者提出 **threat snapshots（威胁快照）** 框架——把 AI agent 执行流里"LLM 漏洞真正发作的那一瞬间"单独切出来建模，再用 19 万条众包对抗攻击建成 **b3 benchmark**，对 34 个主流 LLM 做骨干安全性排名，发现"推理能力提升安全、模型尺寸与安全无关"等反直觉结论。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "agent 安全"
+  - "骨干 LLM"
+  - "威胁快照"
+  - "对抗攻击"
+  - "安全 benchmark"
+---
+
 # Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents
 
 **会议**: ICLR2026  
-**OpenReview**: [kga18ld70t](https://openreview.net/forum?id=kga18ld70t)  
+**OpenReview**: [https://openreview.net/forum?id=kga18ld70t](https://openreview.net/forum?id=kga18ld70t)  
 **代码**: 开源 benchmark + 数据集 + 评测代码（论文承诺 release，b3 benchmark）  
 **领域**: Agent 安全 / LLM 安全 / 安全评测  
 **关键词**: agent 安全, 骨干 LLM, 威胁快照, 对抗攻击, 安全 benchmark
@@ -121,11 +136,11 @@ $$V(m,T) := \frac{1}{|T|}\sum_{(i,\ell)\in T}\frac{1}{|A_i|}\sum_{a\in A_i}\frac
 
 ## 相关论文
 
+- [\[ICLR 2026\] Optimizing Agent Planning for Security and Autonomy](optimizing_agent_planning_for_security_and_autonomy.md)
 - [\[ICLR 2026\] A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems](a2asecbench_a_protocol-aware_security_benchmark_for_agent-to-agent_multi-agent_s.md)
+- [\[ICLR 2026\] RedCodeAgent: Automatic Red-teaming Agent against Diverse Code Agents](redcodeagent_automatic_red-teaming_agent_against_diverse_code_agents.md)
 - [\[ACL 2026\] A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](../../ACL2026/llm_safety/a_survey_on_the_safety_and_security_threats_of_computer-using_agents_jarvis_or_u.md)
 - [\[ICLR 2026\] From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning](from_static_benchmarks_to_dynamic_protocol_agent-centric_text_anomaly_detection_.md)
-- [\[ACL 2026\] Responsible Federated LLMs via Safety Filtering and Constitutional AI](../../ACL2026/llm_safety/responsible_federated_llms_via_safety_filtering_and_constitutional_ai.md)
-- [\[ICLR 2026\] Analyzing and Evaluating Unbiased Language Model Watermark](analyzing_and_evaluating_unbiased_language_model_watermark.md)
 
 </div>
 

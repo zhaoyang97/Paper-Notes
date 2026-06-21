@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Fair Conformal Classification via Learning Representation-Based Groups
+description: >-
+  [ICLR2026][AI安全][共形预测] FAREG 把"找出被算法歧视的子群"这件事从原始特征空间搬到一个由变分信息瓶颈学出来的隐表示空间，因此能捕捉到像异或这种非线性组合定义的不公平子群，再对这些子群单独做共形校准，在保证自适应等化覆盖的同时把预测集做得又小又快（复杂度 $O(N+M)$，远低于 AFCP 的 $O(N\log N+NM)$）。
+tags:
+  - "ICLR2026"
+  - "AI安全"
+  - "共形预测"
+  - "公平性"
+  - "等化覆盖"
+  - "变分信息瓶颈"
+  - "表示学习"
+---
+
 # Fair Conformal Classification via Learning Representation-Based Groups
 
 **会议**: ICLR2026  
-**OpenReview**: [aa91WoBZeg](https://openreview.net/forum?id=aa91WoBZeg)  
+**OpenReview**: [https://openreview.net/forum?id=aa91WoBZeg](https://openreview.net/forum?id=aa91WoBZeg)  
 **代码**: https://github.com/Xusr1123/FaReG  
 **领域**: AI安全 / 公平性 / 共形预测 / 不确定性量化  
 **关键词**: 共形预测, 公平性, 等化覆盖, 变分信息瓶颈, 表示学习
@@ -135,11 +150,11 @@ WSC$^+_n$ 找到的最差 slab 覆盖比 WSC$_n$ 低最多 9.89%，说明它确�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Fair Classification by Direct Intervention on Operating Characteristics](fair_classification_by_direct_intervention_on_operating_characteristics.md)
 - [\[AAAI 2026\] Generalizing Fair Clustering to Multiple Groups: Algorithms and Applications](../../AAAI2026/ai_safety/generalizing_fair_clustering_to_multiple_groups_algorithms_and_applications.md)
-- [\[ICML 2026\] Demystifying the Optimal Fair Classifier in Multi-Class Classification](../../ICML2026/ai_safety/demystifying_the_optimal_fair_classifier_in_multi-class_classification.md)
+- [\[ICLR 2026\] Rethinking Pareto Frontier: On the Optimal Trade-offs in Fair Classification](rethinking_pareto_frontier_on_the_optimal_trade-offs_in_fair_classification.md)
 - [\[ICLR 2026\] Toward Enhancing Representation Learning in Federated Multi-Task Settings](toward_enhancing_representation_learning_in_federated_multi-task_settings.md)
-- [\[ICML 2026\] COFT: Counterfactual-Conformal Decoding for Fair Chain-of-Thought Reasoning in Large Language Models](../../ICML2026/ai_safety/coft_counterfactual-conformal_decoding_for_fair_chain-of-thought_reasoning_in_la.md)
-- [\[ICML 2026\] Fair Decisions from Calibrated Scores: Achieving Optimal Classification While Satisfying Sufficiency](../../ICML2026/ai_safety/fair_decisions_from_calibrated_scores_achieving_optimal_classification_while_sat.md)
+- [\[ICML 2026\] Demystifying the Optimal Fair Classifier in Multi-Class Classification](../../ICML2026/ai_safety/demystifying_the_optimal_fair_classifier_in_multi-class_classification.md)
 
 </div>
 

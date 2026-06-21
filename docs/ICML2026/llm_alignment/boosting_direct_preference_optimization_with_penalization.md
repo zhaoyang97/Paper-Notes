@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Boosting Direct Preference Optimization with Penalization
+description: >-
+  [ICML2026][LLM对齐][DPO] 本文提出 DPOP（Direct Preference Optimization with Penalization），在标准 DPO 偏好损失之外，额外**惩罚"参考模型自己对同一 prompt 贪婪解码出的响应" $y_g$**，并用一个 detached 门控只在"策略当前仍把被拒响应排在被选响应之上"时才激活这个惩罚，从而把 DPO 一直没用上的参考-贪婪信号变成有效的离线对齐信号，在 AlpacaEval 2.0 上以长度控制胜率超过 DPO/SimPO/AlphaDPO。
+tags:
+  - "ICML2026"
+  - "LLM对齐"
+  - "DPO"
+  - "偏好优化"
+  - "参考贪婪响应"
+  - "门控惩罚"
+  - "SimNPO"
+---
+
 # Boosting Direct Preference Optimization with Penalization
 
 **会议**: ICML2026  

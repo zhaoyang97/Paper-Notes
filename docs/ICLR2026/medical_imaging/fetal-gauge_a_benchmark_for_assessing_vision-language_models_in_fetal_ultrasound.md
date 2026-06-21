@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Fetal-Gauge: A Benchmark for Assessing Vision-Language Models in Fetal Ultrasound
+description: >-
+  [ICLR 2026][医学图像][胎儿超声] Fetal-Gauge 整合 13 个公开胎儿超声数据集，构建出首个也是规模最大的胎儿超声视觉问答基准（4.2 万张图、9.3 万条问答、五大临床任务），系统评测 15 个主流 VLM，发现最强模型 GPT-5 也只有 55% 准确率，远低于临床可用门槛，暴露出当前 VLM 在胎儿超声上的系统性短板。
+tags:
+  - "ICLR 2026"
+  - "医学图像"
+  - "胎儿超声"
+  - "视觉问答"
+  - "VLM 评测"
+  - "Med-VQA"
+  - "医学影像基准"
+---
+
 # Fetal-Gauge: A Benchmark for Assessing Vision-Language Models in Fetal Ultrasound
 
 **会议**: ICLR 2026  
-**OpenReview**: [AHZuGrWZ0d](https://openreview.net/forum?id=AHZuGrWZ0d)  
+**OpenReview**: [https://openreview.net/forum?id=AHZuGrWZ0d](https://openreview.net/forum?id=AHZuGrWZ0d)  
 **代码**: 待确认（论文称 benchmark 已公开）  
 **领域**: 医学图像 / 多模态VLM / 评测基准  
 **关键词**: 胎儿超声、视觉问答、VLM 评测、Med-VQA、医学影像基准
@@ -110,10 +125,10 @@ Fetal-Gauge 的构建可以概括为一条数据流水线：**13 个公开胎儿
 ## 相关论文
 
 - [\[CVPR 2026\] F$^2$-Assist: Multi-Phase Fetal Growth Forecast and Report Generation from Ultrasound Examination](../../CVPR2026/medical_imaging/f2-assist_multi-phase_fetal_growth_forecast_and_report_generation_from_ultrasoun.md)
+- [\[ICLR 2026\] U2-BENCH: Benchmarking Large Vision-Language Models on Ultrasound Understanding](u2-bench_benchmarking_large_vision-language_models_on_ultrasound_understanding.md)
 - [\[CVPR 2026\] Gastric-X: A Multimodal Multi-Phase Benchmark Dataset for Advancing Vision-Language Models in Gastric Cancer Analysis](../../CVPR2026/medical_imaging/gastric-x_a_multimodal_multi-phase_benchmark_dataset_for_advancing_vision-langua.md)
-- [\[AAAI 2026\] Bridging Vision and Language for Robust Context-Aware Surgical Point Tracking: The VL-SurgPT Dataset and Benchmark](../../AAAI2026/medical_imaging/bridging_vision_and_language_for_robust_context-aware_surgical_point_tracking_th.md)
-- [\[CVPR 2026\] Simple-ViLMedSAM: Simple Text Prompts Meet Vision-Language Models for Medical Image Segmentation](../../CVPR2026/medical_imaging/simple-vilmedsam_simple_text_prompts_meet_vision-language_models_for_medical_ima.md)
-- [\[ICLR 2026\] Anatomy-aware Representation Learning for Medical Ultrasound](anatomy-aware_representation_learning_for_medical_ultrasound.md)
+- [\[ICLR 2026\] OpenPros: A Large-Scale Dataset for Limited View Prostate Ultrasound Computed Tomography](openpros_a_large-scale_dataset_for_limited_view_prostate_ultrasound_computed_tom.md)
+- [\[ICLR 2026\] M3CoTBench: Benchmark Chain-of-Thought of MLLMs in Medical Image Understanding](m3cotbench_benchmark_chain-of-thought_of_mllms_in_medical_image_understanding.md)
 
 </div>
 

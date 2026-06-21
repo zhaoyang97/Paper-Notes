@@ -1,3 +1,20 @@
+---
+title: >-
+  [论文解读] Quantum Algorithms for Triangle Cut Sparsification
+description: >-
+  [ICML2026][学习理论][三角形割稀疏化] 为「三角形割稀疏化」设计量子算法：先给出第一个有可证明加速的量子三角形枚举算法（融合重轻顶点划分、量子游走、Grover 三套路并取最优），再把它嵌进 Kapralov 等人的 motif 稀疏化框架并对后处理采样也做量子加速，从而以 $\widetilde{O}(\sqrt{mn}/\varepsilon)$ 量级的额外开销构造出 $\widetilde{O}(n/\varepsilon^2)$ 大小的 $\varepsilon$-三角形割稀疏子图，并配上匹配的 $\Omega(n/\varepsilon^2)$ 大小下界。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "量子算法"
+  - "图稀疏化"
+  - "三角形割稀疏化"
+  - "三角形枚举"
+  - "量子游走"
+  - "Grover 搜索"
+  - "motif 稀疏化"
+---
+
 # Quantum Algorithms for Triangle Cut Sparsification
 
 **会议**: ICML2026  

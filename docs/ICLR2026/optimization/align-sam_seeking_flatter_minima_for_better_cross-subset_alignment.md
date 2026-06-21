@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Align-SAM: Seeking Flatter Minima for Better Cross-Subset Alignment
+description: >-
+  [ICLR2026][优化/理论][锐度感知最小化] Align-SAM 把"泛化"重新理解为"同分布两个随机子集上的更新要彼此一致"，在 SAM 寻找平坦极小值的基础上，额外引入一个辅助 mini-batch，让主训练 batch 的梯度与辅助 batch 的梯度变得更"同向"（congruent），从而在分类、噪声标签、小样本迁移、元学习等多种设定下稳定地小幅超过 SAM/ASAM。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "锐度感知最小化"
+  - "平坦极小值"
+  - "梯度对齐"
+  - "泛化"
+  - "优化器"
+---
+
 # Align-SAM: Seeking Flatter Minima for Better Cross-Subset Alignment
 
 **会议**: ICLR2026  
-**OpenReview**: [LvllbDxKZt](https://openreview.net/forum?id=LvllbDxKZt)  
+**OpenReview**: [https://openreview.net/forum?id=LvllbDxKZt](https://openreview.net/forum?id=LvllbDxKZt)  
 **代码**: 待确认  
 **领域**: optimization  
 **关键词**: 锐度感知最小化, 平坦极小值, 梯度对齐, 泛化, 优化器
@@ -144,10 +159,10 @@ CIFAR 从头训练（三种架构，3 个随机种子）：
 ## 相关论文
 
 - [\[NeurIPS 2025\] Exploring Landscapes for Better Minima along Valleys](../../NeurIPS2025/optimization/exploring_landscapes_for_better_minima_along_valleys.md)
+- [\[ICLR 2026\] Combination-of-Experts with Knowledge Sharing for Cross-Task Vehicle Routing Problems](combination-of-experts_with_knowledge_sharing_for_cross-task_vehicle_routing_pro.md)
 - [\[NeurIPS 2025\] Clean First, Align Later: Benchmarking Preference Data Cleaning for Reliable LLM Alignment](../../NeurIPS2025/optimization/clean_first_align_later_benchmarking_preference_data_cleaning_for_reliable_llm_a.md)
+- [\[ICLR 2026\] Deep Latent Variable Model based Vertical Federated Learning with Flexible Alignment and Labeling Scenarios](deep_latent_variable_model_based_vertical_federated_learning_with_flexible_align.md)
 - [\[ICLR 2026\] LCA: Local Classifier Alignment for Continual Learning](lca_local_classifier_alignment_for_continual_learning.md)
-- [\[CVPR 2026\] Label-Free Cross-Task LoRA Merging with Null-Space Compression](../../CVPR2026/optimization/label-free_cross-task_lora_merging_with_null-space_compression.md)
-- [\[ICML 2026\] RACO: Reward-free Alignment for Conflicting Objectives](../../ICML2026/optimization/reward-free_alignment_for_conflicting_objectives.md)
 
 </div>
 

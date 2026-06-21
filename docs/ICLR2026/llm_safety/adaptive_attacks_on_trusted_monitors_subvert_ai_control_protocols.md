@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols
+description: >-
+  [ICLR2026][LLM安全][AI 控制协议] 这篇论文指出，当前几乎所有 AI 控制（AI control）协议都把一个**较弱的可信 LLM 监视器**当成核心安全闸门，而一个知道协议细节的强力不可信模型只需在自己的输出里嵌入一段**针对该监视器的 prompt injection**，就能让监视器给恶意代码打出极低的可疑分，从而把 Trusted Monitoring、Defer-to-Trusted、Trusted Editing、Defer-to-Resample 等协议的安全性全部打回到"无监视器的前置审计（Upfront Auditing）"水平——其中 Defer-to-Resample 因为重采样反而把攻击放…
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "AI 控制协议"
+  - "可信监视器"
+  - "提示学习"
+  - "自适应攻击"
+  - "可扩展监督"
+---
+
 # Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols
 
 **会议**: ICLR2026  
-**OpenReview**: [wSs1Ez3aKl](https://openreview.net/forum?id=wSs1Ez3aKl)  
+**OpenReview**: [https://openreview.net/forum?id=wSs1Ez3aKl](https://openreview.net/forum?id=wSs1Ez3aKl)  
 **代码**: 待确认  
 **领域**: LLM 安全 / AI Control / 对抗鲁棒性  
 **关键词**: AI 控制协议, 可信监视器, prompt injection, 自适应攻击, 可扩展监督
@@ -120,11 +135,11 @@
 
 ## 相关论文
 
+- [\[ICLR 2026\] Monitoring Decomposition Attacks with Lightweight Sequential Monitors](monitoring_decomposition_attacks_with_lightweight_sequential_monitors.md)
 - [\[ICLR 2026\] ARMS: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks](arms_adaptive_red-teaming_agent_against_multimodal_models_with_plug-and-play_att.md)
-- [\[ACL 2026\] XOXO: Stealthy Cross-Origin Context Poisoning Attacks against AI Coding Assistants](../../ACL2026/llm_safety/xoxo_stealthy_cross-origin_context_poisoning_attacks_against_ai_coding_assistant.md)
-- [\[ICLR 2026\] Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](breaking_agent_backbones_evaluating_the_security_of_backbone_llms_in_ai_agents.md)
-- [\[ACL 2026\] ATAAT: Adaptive Threat-Aware Adversarial Tuning Framework against Backdoor Attacks on Vision-Language-Action Models](../../ACL2026/llm_safety/ataat_adaptive_threat-aware_adversarial_tuning_framework_against_backdoor_attack.md)
-- [\[ICLR 2026\] Resource-Adaptive Federated Text Generation with Differential Privacy](resource-adaptive_federated_text_generation_with_differential_privacy.md)
+- [\[ICLR 2026\] Learning to Lie: Adversarial Attacks on Human-AI Teams and LLMs](learning_to_lie_adversarial_attacks_on_human-ai_teams_and_llms.md)
+- [\[ICLR 2026\] Computational Barriers to Filtering for AI Alignment](computational_barriers_to_filtering_for_ai_alignment.md)
+- [\[ICLR 2026\] Inference-Time Personalized Safety Control via Paired Difference-in-Means Intervention](inference-time_personalized_safety_control_via_paired_difference-in-means_interv.md)
 
 </div>
 

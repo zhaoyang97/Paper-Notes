@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Active Learning with Foundation Model Priors: Efficient Learning under Class Imbalance
+description: >-
+  [ICML2026][自监督学习][主动学习] 这篇论文提出 PriorAL：用基础模型（大模型）的预测作为先验，与小模型做「专家乘积」联合决策，再用一个不平衡感知的熵过滤把无标注池切成「干净集（免费打伪标签）+ 噪声集（花预算请人标）」，从而在类别不平衡叠加标签噪声的图像/文本任务上，比最强主动学习基线省下 50%+ 的标注成本。
+tags:
+  - "ICML2026"
+  - "自监督学习"
+  - "主动学习"
+  - "类别不平衡"
+  - "标签噪声"
+  - "基础模型先验"
+  - "专家乘积"
+---
+
 # Active Learning with Foundation Model Priors: Efficient Learning under Class Imbalance
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering
+description: >-
+  [ICLR2026][图学习][知识图谱问答] CLAUSE 把知识图谱多跳问答中"该检索什么上下文"本身当成一个带预算的序列决策问题，用三个协作的神经符号智能体（建子图 / 走路径 / 选证据）在「边数 / 步数 / token」三类资源约束下联合优化，配合提出的 LC-MAPPO 约束式多智能体 PPO 训练，单个 checkpoint 就能按每条 query 的预算或价格调节"精度–时延–成本"权衡，无需重训。
+tags:
+  - "ICLR2026"
+  - "图学习"
+  - "知识图谱问答"
+  - "多跳推理"
+  - "约束强化学习"
+  - "上下文工程"
+  - "多智能体"
+---
+
 # CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering
 
 **会议**: ICLR2026  
-**OpenReview**: [97Qk741ih6](https://openreview.net/forum?id=97Qk741ih6)
+**OpenReview**: [https://openreview.net/forum?id=97Qk741ih6](https://openreview.net/forum?id=97Qk741ih6)
 **代码**: 待确认  
 **领域**: 知识图谱推理 / 神经符号 / 多智能体强化学习  
 **关键词**: 知识图谱问答, 多跳推理, 约束强化学习, 上下文工程, 多智能体
@@ -123,3 +138,19 @@ $$r'_t = r^{\text{acc}}_t - \lambda_{\text{edge}}c^{\text{edge}}_t - \lambda_{\t
 - 实验充分度: ⭐⭐⭐⭐ 三数据集 + 多家族 baseline + 完整消融 + 约束算法对比，但 reader 单一、KG 鲁棒性未测。
 - 写作质量: ⭐⭐⭐⭐⭐ 形式化清晰、动机到方法逻辑顺畅，框架图与符号表完整。
 - 价值: ⭐⭐⭐⭐ 对"有 SLA 约束的 KGQA/RAG 部署"有直接落地价值，可审计 + 可调旋钮是实打实的工程优势。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] Reasoning Meets Representation: Envisioning Neuro-Symbolic Wireless Foundation Models](../../NeurIPS2025/graph_learning/reasoning_meets_representation_envisioning_neuro-symbolic_wireless_foundation_mo.md)
+- [\[NeurIPS 2025\] Agint: Agentic Graph Compilation for Software Engineering Agents](../../NeurIPS2025/graph_learning/agint_agentic_graph_compilation_for_software_engineering_age.md)
+- [\[ICLR 2026\] DAMR: Efficient and Adaptive Context-Aware Knowledge Graph Question Answering with LLM-Guided MCTS](damr_efficient_and_adaptive_context-aware_knowledge_graph_question_answering_wit.md)
+- [\[ICLR 2026\] Knowledge Reasoning Language Model: Unifying Knowledge and Language for Inductive Knowledge Graph Reasoning](knowledge_reasoning_language_model_unifying_knowledge_and_language_for_inductive.md)
+- [\[ICLR 2026\] Controllable Logical Hypothesis Generation for Abductive Reasoning in Knowledge Graphs](controllable_logical_hypothesis_generation_for_abductive_reasoning_in_knowledge_.md)
+
+</div>
+
+<!-- RELATED:END -->

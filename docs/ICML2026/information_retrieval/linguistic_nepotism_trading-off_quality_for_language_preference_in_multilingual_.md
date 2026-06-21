@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Linguistic Nepotism: Trading-off Quality for Language Preference in Multilingual RAG
+description: >-
+  [ICML 2026][信息检索/RAG][多语言 RAG] 这篇论文设计了一套用模型内部信号（下一 token 引用预测概率）来测量多语言 RAG 中"语言偏好"的可控方法，发现六个开源大模型在长文生成时系统性地偏爱引用英文文档，并且在英文文档不相关时也照引不误——语言本身比文档相关性更能左右模型的引用选择。
+tags:
+  - "ICML 2026"
+  - "信息检索/RAG"
+  - "多语言 RAG"
+  - "引用偏好"
+  - "语言偏见"
+  - "下一 token 预测"
+  - "logit lens"
+---
+
 # Linguistic Nepotism: Trading-off Quality for Language Preference in Multilingual RAG
 
 **会议**: ICML 2026  

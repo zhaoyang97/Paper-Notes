@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Breaking Safety Paradox with Feasible Dual Policy Iteration
+description: >-
+  [ICLR2026][强化学习][安全RL] 本文发现安全 RL 里一个反直觉的"安全悖论"——策略越安全、违约样本越稀疏，可行性函数估计反而越差，最终拖垮安全性；并提出 FDPI 用一个专门"故意违约"的对偶策略往回灌违约样本、配合重要性采样和 KL 约束，在 Safety-Gymnasium 上同时拿到最低违约和近乎最高回报。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "安全RL"
+  - "可行性函数"
+  - "安全悖论"
+  - "对偶策略"
+  - "重要性采样"
+---
+
 # Breaking Safety Paradox with Feasible Dual Policy Iteration
 
 **会议**: ICLR2026  
-**OpenReview**: [BHSSV1nHvU](https://openreview.net/forum?id=BHSSV1nHvU)  
+**OpenReview**: [https://openreview.net/forum?id=BHSSV1nHvU](https://openreview.net/forum?id=BHSSV1nHvU)  
 **代码**: 待确认  
 **领域**: 安全强化学习  
 **关键词**: 安全RL, 可行性函数, 安全悖论, 对偶策略, 重要性采样
@@ -119,10 +134,10 @@ SAC-FDPI 在 FPI 框架上学五个网络：两个动作-可行性网络 $G_{p,\
 ## 相关论文
 
 - [\[ACL 2026\] Breaking the Impasse: Dual-Scale Evolutionary Policy Training for Social Language Agents](../../ACL2026/reinforcement_learning/breaking_the_impasse_dual-scale_evolutionary_policy_training_for_social_language.md)
-- [\[ICLR 2026\] Dual Goal Representations](dual_goal_representations.md)
-- [\[ICLR 2026\] Continuous-Time Value Iteration for Multi-Agent Reinforcement Learning](continuous-time_value_iteration_for_multi-agent_reinforcement_learning.md)
-- [\[ICML 2025\] Demystifying the Paradox of Importance Sampling with an Estimated History-Dependent Behavior Policy in Off-Policy Evaluation](../../ICML2025/reinforcement_learning/demystifying_the_paradox_of_importance_sampling_with_an_estimated_history-depend.md)
+- [\[ICLR 2026\] DOPPLER: Dual-Policy Learning for Device Assignment in Asynchronous Dataflow Graphs](doppler_dual-policy_learning_for_device_assignment_in_asynchronous_dataflow_grap.md)
+- [\[ICLR 2026\] Primal-Dual Policy Optimization for Linear CMDPs with Adversarial Losses](primal-dual_policy_optimization_for_linear_cmdps_with_adversarial_losses.md)
 - [\[ICLR 2026\] Breaking Barriers: Do Reinforcement Post Training Gains Transfer To Unseen Domains?](breaking_barriers_do_reinforcement_post_training_gains_transfer_to_unseen_domain.md)
+- [\[ICLR 2026\] Frozen Policy Iteration: Computationally Efficient RL under Linear $Q^{\pi}$ Realizability for Deterministic Dynamics](frozen_policy_iteration_computationally_efficient_rl_under_linear_qpi_realizabil.md)
 
 </div>
 

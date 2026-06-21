@@ -16,7 +16,7 @@ tags:
 # AetherCode: Evaluating LLMs' Ability to Win In Premier Programming Competitions
 
 **会议**: ICLR2026  
-**OpenReview**: [lSM6MtjQcM](https://openreview.net/forum?id=lSM6MtjQcM)  
+**OpenReview**: [https://openreview.net/forum?id=lSM6MtjQcM](https://openreview.net/forum?id=lSM6MtjQcM)  
 **代码**: 待确认（论文提及有 online leaderboard）  
 **领域**: 代码智能 / LLM 评测 / 竞赛编程 Benchmark  
 **关键词**: 竞赛编程, 代码推理, 测试用例质量, IOI/ICPC, LLM Benchmark
@@ -126,8 +126,8 @@ $$\text{TPR} = \frac{\text{通过的正确解数}}{\text{正确解总数}}, \qqu
 - [\[ACL 2026\] Can LLMs Compress (and Decompress)? Evaluating Code Understanding and Execution via Invertibility](../../ACL2026/code_intelligence/can_llms_compress_and_decompress_evaluating_code_understanding_and_execution_via.md)
 - [\[ACL 2026\] CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases](../../ACL2026/code_intelligence/codewiki_evaluating_ai39s_ability_to_generate_holistic_documentation_for_large-s.md)
 - [\[ACL 2025\] TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs](../../ACL2025/code_intelligence/texpert_a_multi-level_benchmark_for_evaluating_latex_code_generation_by_llms.md)
-- [\[ICLR 2026\] Inference-Time Safety for Code LLMs via Retrieval-Augmented Revision](inference-time_safety_for_code_llms_via_retrieval-augmented_revision.md)
-- [\[ACL 2026\] Across Programming Language Silos: A Study on Cross-Lingual Retrieval-Augmented Code Generation](../../ACL2026/code_intelligence/across_programming_language_silos_a_study_on_cross-lingual_retrieval-augmented_c.md)
+- [\[ICLR 2026\] SpotIt: Evaluating Text-to-SQL Evaluation with Formal Verification](spotit_evaluating_text-to-sql_evaluation_with_formal_verification.md)
+- [\[ICLR 2026\] Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages](multi-lcb_extending_livecodebench_to_multiple_programming_languages.md)
 
 </div>
 

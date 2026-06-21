@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Sequential Reranking: Reranker-Guided Search Improves Reasoning Intensive Retrieval
+description: >-
+  [ICLR2026][信息检索/RAG][reranker] 本文把"检索-重排"管线里那条死板的"top-k 顺序扫描"换成在文档相似度近邻图上的贪心搜索（Reranker-Guided-Search, RGS），让 reranker 优先去看那些"邻居已被判高分"的有潜力文档，从而在每个 query 只允许调用 reranker 100 次的预算下，在 BRIGHT/FollowIR/M-BEIR 三个推理密集型检索基准上分别比顺序重排提升 3.5/2.9/5.1 个 NDCG@10。
+tags:
+  - "ICLR2026"
+  - "信息检索/RAG"
+  - "reranker"
+  - "近邻图搜索"
+  - "bi-metric"
+  - "推理密集型检索"
+  - "reranker 预算"
+---
+
 # Beyond Sequential Reranking: Reranker-Guided Search Improves Reasoning Intensive Retrieval
 
 **会议**: ICLR2026  
-**OpenReview**: [Fjw3OqdjTj](https://openreview.net/forum?id=Fjw3OqdjTj)  
+**OpenReview**: [https://openreview.net/forum?id=Fjw3OqdjTj](https://openreview.net/forum?id=Fjw3OqdjTj)  
 **代码**: https://github.com/xuhaike/Reranker-Guided-Search  
 **领域**: 信息检索 / 重排 / 推理密集型检索  
 **关键词**: reranker、近邻图搜索、bi-metric、推理密集型检索、reranker 预算
@@ -118,11 +133,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICLR 2026\] Frustratingly Simple Retrieval Improves Challenging, Reasoning-Intensive Benchmarks](frustratingly_simple_retrieval_improves_challenging_reasoning-intensive_benchmar.md)
 - [\[ICLR 2026\] Hybrid Deep Searcher: Scalable Parallel and Sequential Search Reasoning](hybrid_deep_searcher_scalable_parallel_and_sequential_search_reasoning.md)
 - [\[ICLR 2026\] RefTool: Reference-Guided Tool Creation for Knowledge-Intensive Reasoning](reftool_reference-guided_tool_creation_for_knowledge-intensive_reasoning.md)
-- [\[ACL 2026\] VisRet: Visualization Improves Knowledge-Intensive Text-to-Image Retrieval](../../ACL2026/information_retrieval/visret_visualization_improves_knowledge-intensive_text-to-image_retrieval.md)
 - [\[ACL 2026\] A Survey of Reasoning-Intensive Retrieval: Progress and Challenges](../../ACL2026/information_retrieval/a_survey_of_reasoning-intensive_retrieval_progress_and_challenges.md)
-- [\[ACL 2026\] Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning](../../ACL2026/information_retrieval/verbal-r3_verbal_reranker_as_the_missing_bridge_between_retrieval_and_reasoning.md)
+- [\[ICLR 2026\] Retro*: Optimizing LLMs for Reasoning-Intensive Document Retrieval](retro_optimizing_llms_for_reasoning-intensive_document_retrieval.md)
 
 </div>
 

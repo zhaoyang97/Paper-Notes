@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Training-Free Framework for Long Video Understanding via Video-Query-Options Similarity
+description: >-
+  [ICLR2026][视频理解][长视频理解] 针对小时级长视频塞不进多模态大模型上下文的问题，本文提出一套**无需训练**的输入侧框架：用视频-文本检索模型给每个视频片段打相关性分，再据此**自适应加密采样**（AFS）、**动态分配分辨率**（DRA），并让 MLLM 自己生成候选答案融进检索 query（VQOS）来精修相关性估计，在 5 个长视频基准上把 LLaVA-Video 和 Qwen2.5-VL 平均提了 3~5 个点。
+tags:
+  - "ICLR2026"
+  - "视频理解"
+  - "长视频理解"
+  - "无训练"
+  - "关键帧检索"
+  - "自适应采样"
+  - "多模态大模型"
+---
+
 # A Training-Free Framework for Long Video Understanding via Video-Query-Options Similarity
 
 **会议**: ICLR2026  
-**OpenReview**: [hfMfYMoRLk](https://openreview.net/forum?id=hfMfYMoRLk)  
+**OpenReview**: [https://openreview.net/forum?id=hfMfYMoRLk](https://openreview.net/forum?id=hfMfYMoRLk)  
 **代码**: https://github.com/wuzhirong520/VTR-VLM  
 **领域**: 视频理解  
 **关键词**: 长视频理解, 无训练, 关键帧检索, 自适应采样, 多模态大模型
@@ -129,11 +144,11 @@ $$S_i = \max_{f\in F}\frac{f_{v_i}\cdot f}{\|f_{v_i}\|\cdot\|f\|}.$$
 
 ## 相关论文
 
-- [\[ICLR 2026\] FlashVID: Efficient Video Large Language Models via Training-free Tree-Based Spatiotemporal Token Merging](flashvid_efficient_video_large_language_models_via_training-free_tree-based_spat.md)
 - [\[CVPR 2026\] DIvide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding](../../CVPR2026/video_understanding/divide_then_ground_adapting_frame_selection_to_query_types_for_long-form_video_u.md)
 - [\[NeurIPS 2025\] Unleashing Hour-Scale Video Training for Long Video-Language Understanding](../../NeurIPS2025/video_understanding/unleashing_hour-scale_video_training_for_long_video-language_understanding.md)
-- [\[NeurIPS 2025\] VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity](../../NeurIPS2025/video_understanding/vadtree_explainable_training-free_video_anomaly_detection_via_hierarchical_granu.md)
-- [\[CVPR 2026\] Video Panels for Long Video Understanding](../../CVPR2026/video_understanding/video_panels_for_long_video_understanding.md)
+- [\[ICLR 2026\] FLoC: Facility Location-Based Efficient Visual Token Compression for Long Video Understanding](floc_facility_location-based_efficient_visual_token_compression_for_long_video_u.md)
+- [\[ICML 2026\] Video-MTR: Reinforced Multi-Turn Reasoning for Long Video Understanding](../../ICML2026/video_understanding/video-mtr_reinforced_multi-turn_reasoning_for_long_video_understanding.md)
+- [\[ICLR 2026\] FlashVID: Efficient Video Large Language Models via Training-free Tree-Based Spatiotemporal Token Merging](flashvid_efficient_video_large_language_models_via_training-free_tree-based_spat.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Estimating Tail Risks in Language Model Output Distributions
+description: >-
+  [ICML2026][LLM评测][尾部风险] 用激活引导构造"不安全代理模型" + 重要性采样，把"安全模型在某条 query 下输出有害内容的概率"这种 $10^{-4}$ 量级稀有事件，用比暴力采样少 10–20× 的样本就估准，并进一步预测部署时的最坏风险。 领域现状：当前 LLM 安全评估几乎都聚焦在"输入分布"—…
+tags:
+  - "ICML2026"
+  - "LLM评测"
+  - "尾部风险"
+  - "重要性采样"
+  - "激活引导"
+  - "部署风险"
+  - "极值理论"
+---
+
 # Estimating Tail Risks in Language Model Output Distributions
 
 **会议**: ICML2026  

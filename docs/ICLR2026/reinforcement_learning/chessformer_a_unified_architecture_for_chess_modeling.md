@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Chessformer: A Unified Architecture for Chess Modeling
+description: >-
+  [ICLR2026][强化学习][国际象棋] 把棋盘 64 个格子当作 token、再给自注意力加一套随局面动态生成的"几何注意力偏置"(GAB)，Chessformer 用一套统一架构同时把"引擎棋力""人类走子预测""可解释性"三个长期割裂的目标推到 SOTA——79M 参数的 MAIA-3 以不到对手四分之一的体量把人类走子匹配率提到 57.1%，而装进 Leela Chess Zero 的版本涨了 100+ Elo 并在多个顶级机器对弈赛上击败 Stockfish。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "国际象棋"
+  - "Transformer"
+  - "位置编码"
+  - "人类行为建模"
+  - "机械可解释性"
+---
+
 # Chessformer: A Unified Architecture for Chess Modeling
 
 **会议**: ICLR2026  
-**OpenReview**: [2ltBRzEHyd](https://openreview.net/forum?id=2ltBRzEHyd)  
+**OpenReview**: [https://openreview.net/forum?id=2ltBRzEHyd](https://openreview.net/forum?id=2ltBRzEHyd)  
 **代码**: https://github.com/CSSLab/maia3  
 **领域**: 强化学习 / 博弈建模 / 表示学习  
 **关键词**: 国际象棋、Transformer 架构、位置编码、人类行为建模、机械可解释性
@@ -147,10 +162,10 @@ Leela-CF-policy 以最低算力打赢所有非 Chessformer 基线；Leela-CF-val
 ## 相关论文
 
 - [\[ICLR 2026\] RM-R1: Reward Modeling as Reasoning](rm-r1_reward_modeling_as_reasoning.md)
+- [\[ICLR 2026\] RESCHED: Rethinking Flexible Job Shop Scheduling from a Transformer-based Architecture with Simplified States](resched_rethinking_flexible_job_shop_scheduling_from_a_transformer-based_archite.md)
+- [\[ICLR 2026\] The Markovian Thinker: Architecture-Agnostic Linear Scaling of Reasoning](the_markovian_thinker_architecture-agnostic_linear_scaling_of_reasoning.md)
 - [\[ICLR 2026\] MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding](mergemix_a_unified_augmentation_paradigm_for_visual_and_multi-modal_understandin.md)
 - [\[ICML 2026\] How Reasoning Evolves from Post-Training Data: An Empirical Study Using Chess](../../ICML2026/reinforcement_learning/how_reasoning_evolves_from_post-training_data_an_empirical_study_using_chess.md)
-- [\[ICML 2026\] CAMEL: Confidence-Gated Reflection for Reward Modeling](../../ICML2026/reinforcement_learning/camel_confidence-gated_reflection_for_reward_modeling.md)
-- [\[ACL 2026\] Targeted Exploration via Unified Entropy Control for Reinforcement Learning](../../ACL2026/reinforcement_learning/targeted_exploration_via_unified_entropy_control_for_reinforcement_learning.md)
 
 </div>
 

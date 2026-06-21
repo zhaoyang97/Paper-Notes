@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction
+description: >-
+  [ICML2026][LLM评测][LLM基准] BuildArena 把 LLM 丢进物理沙盒游戏 Besiege 里，让它用自然语言一砖一瓦搭桥、造车、造火箭，再用物理引擎跑仿真打分，从而第一次系统评测了 LLM"把语言变成能跑得动的真实结构"的工程构建能力——结果显示只有 GPT-5 在难任务上勉强能打，其余模型在 Hard 级别几乎全军覆没。
+tags:
+  - "ICML2026"
+  - "LLM评测"
+  - "LLM基准"
+  - "物理仿真"
+  - "3D构建"
+  - "智能体工作流"
+  - "Besiege"
+---
+
 # BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction
 
 **会议**: ICML2026  

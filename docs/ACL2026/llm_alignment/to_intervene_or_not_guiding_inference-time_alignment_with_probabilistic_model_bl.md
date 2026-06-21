@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] To Intervene or Not: Guiding Inference-time Alignment with Probabilistic Model Blending
+description: >-
+  [ACL 2026][LLM对齐][推理时对齐] 针对推理时对齐里"用对齐模型逐 token 引导未对齐基座"时存在的质量盲区——现有方法一律二元接受/拒绝引导、无法分辨好坏建议，导致越干预性能越差的"干预悖论"——BlendIn 改用质量感知的概率分布混合：在基座不确定的位置按两模型置信度自适应加权融合二者的分布再贪心选 token，从而保留有益引导、压低不可靠引导，在最难的高干预模型对上取得最高 50% 的一致提升。
+tags:
+  - "ACL 2026"
+  - "LLM对齐"
+  - "推理时对齐"
+  - "分布混合"
+  - "质量盲区"
+  - "干预悖论"
+  - "引导模型"
+---
+
 # To Intervene or Not: Guiding Inference-time Alignment with Probabilistic Model Blending
 
 **会议**: ACL 2026  

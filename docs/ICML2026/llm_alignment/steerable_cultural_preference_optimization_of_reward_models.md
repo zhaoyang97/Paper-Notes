@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Steerable Cultural Preference Optimization of Reward Models
+description: >-
+  [ICML 2026][LLM对齐][文化对齐] SCPO 用一个"全局奖励模型"当参照系，先**过滤**掉少数群体里那些和全局共识一致的通用偏好、只留下真正有文化差异的偏好对，再按**散度反比加权**把过激的离群偏好压低权重，从而训出既能代表某国少数群体观点、又不至于过度偏置的可steer奖励模型——在 PRISM、GlobalOpinionQA 两数据集、7 个国家上把少数奖励模型最多提升约 7 个点，且比全量微调省下 170%–280% 的训练数据。
+tags:
+  - "ICML 2026"
+  - "LLM对齐"
+  - "文化对齐"
+  - "奖励模型"
+  - "多元对齐"
+  - "偏好过滤"
+  - "偏好加权"
+---
+
 # Steerable Cultural Preference Optimization of Reward Models
 
 **会议**: ICML 2026  

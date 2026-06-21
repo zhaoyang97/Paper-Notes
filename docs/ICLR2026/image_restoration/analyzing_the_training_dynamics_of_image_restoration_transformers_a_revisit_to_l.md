@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Analyzing the Training Dynamics of Image Restoration Transformers: A Revisit to Layer Normalization
+description: >-
+  [ICLR2026][图像恢复][LayerNorm] 作者追踪图像恢复（IR）Transformer 的训练过程，发现标准 LayerNorm 会让特征幅值发散到百万量级、通道熵急剧坍缩，根因是 LN 的"逐 token 归一化"和"输入无关缩放"与 IR 任务相冲突；据此提出 i-LN——把归一化改成跨整个空间-通道维度做、并在每个 Attention/FFN 后按输入自适应地把缩放因子加回去，作为 LN 的即插即用替换件，在 SR/去噪/去雨/去 JPEG 伪影上稳定训练并普遍涨点。
+tags:
+  - "ICLR2026"
+  - "图像恢复"
+  - "LayerNorm"
+  - "Transformer"
+  - "训练动力学"
+  - "特征发散"
+---
+
 # Analyzing the Training Dynamics of Image Restoration Transformers: A Revisit to Layer Normalization
 
 **会议**: ICLR2026  
-**OpenReview**: [SbLj5hJXh6](https://openreview.net/forum?id=SbLj5hJXh6)  
+**OpenReview**: [https://openreview.net/forum?id=SbLj5hJXh6](https://openreview.net/forum?id=SbLj5hJXh6)  
 **代码**: https://github.com/2minkyulee/i-LN  
 **领域**: 图像恢复  
 **关键词**: 图像恢复、LayerNorm、Transformer、训练动力学、特征发散
@@ -115,9 +129,9 @@ LN 在所有方案里**最差**（它既忽略 token 间关系又抹掉输入统
 
 - [\[CVPR 2026\] DiffDecompose: Layer-Wise Decomposition of Alpha-Composited Images via Diffusion Transformers](../../CVPR2026/image_restoration/diffdecompose_layer-wise_decomposition_of_alpha-composited_images_via_diffusion_.md)
 - [\[CVPR 2025\] DPIR: Dual Prompting Image Restoration with Diffusion Transformers](../../CVPR2025/image_restoration/dpir_dual_prompting_restoration_dit.md)
+- [\[ICLR 2026\] DiffusionBlocks: Block-wise Neural Network Training via Diffusion Interpretation](diffusionblocks_block-wise_neural_network_training_via_diffusion_interpretation.md)
 - [\[CVPR 2026\] FoundIR-v2: Optimizing Pre-Training Data Mixtures for Image Restoration Foundation Model](../../CVPR2026/image_restoration/foundir-v2_optimizing_pre-training_data_mixtures_for_image_restoration_foundatio.md)
 - [\[CVPR 2026\] ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation](../../CVPR2026/image_restoration/reflexsplit_single_image_reflection_separation_via_layer_fusion-separation.md)
-- [\[ICLR 2026\] DiffusionBlocks: Block-wise Neural Network Training via Diffusion Interpretation](diffusionblocks_block-wise_neural_network_training_via_diffusion_interpretation.md)
 
 </div>
 

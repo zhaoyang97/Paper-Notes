@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Can we generate portable representations for clinical time series data using LLMs?
+description: >-
+  [ICLR2026][时间序列][可移植表示] 本文提出 **Record2Vec**：用冻结的 LLM 把不规则的 ICU 时间序列记录写成简洁的临床交班式自然语言摘要，再用冻结的文本嵌入模型把摘要编码成定长向量，作为标准预测器的输入；在三个医院队列、五类任务上，它不仅院内（in-distribution）有竞争力，更关键的是跨医院迁移时性能掉得更少、少样本更省数据、且不增加人口学隐私泄露。
+tags:
+  - "ICLR2026"
+  - "时间序列"
+  - "可移植表示"
+  - "ICU 时间序列"
+  - "LLM 摘要"
+  - "文本嵌入"
+  - "分布偏移"
+---
+
 # Can we generate portable representations for clinical time series data using LLMs?
 
 **会议**: ICLR2026  
-**OpenReview**: [pXw0uRTSKT](https://openreview.net/forum?id=pXw0uRTSKT)  
+**OpenReview**: [https://openreview.net/forum?id=pXw0uRTSKT](https://openreview.net/forum?id=pXw0uRTSKT)  
 **代码**: https://github.com/Jerryji007/Record2Vec-ICLR2026  
 **领域**: 临床时间序列 / 表示学习 / LLM 应用 / 跨医院迁移  
 **关键词**: 可移植表示, ICU 时间序列, LLM 摘要, 文本嵌入, 分布偏移
@@ -122,11 +137,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[AAAI 2026\] IdealTSF: Can Non-Ideal Data Contribute to Enhancing Time Series Forecasting?](../../AAAI2026/time_series/idealtsf_can_non-ideal_data_contribute_to_enhancing_the_performance_of_time_seri.md)
+- [\[ICLR 2026\] CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data](cauker_classification_time_series_foundation_models_can_be_pretrained_on_synthet.md)
 - [\[ICLR 2026\] A Unified Federated Framework for Trajectory Data Preparation via LLMs](a_unified_federated_framework_for_trajectory_data_preparation_via_llms.md)
-- [\[ACL 2025\] Revisiting LLMs as Zero-Shot Time-Series Forecasters: Small Noise Can Break Large Models](../../ACL2025/time_series/revisiting_llms_as_zero-shot_time_series_forecasters_small_noise_can_break_large.md)
+- [\[AAAI 2026\] IdealTSF: Can Non-Ideal Data Contribute to Enhancing Time Series Forecasting?](../../AAAI2026/time_series/idealtsf_can_non-ideal_data_contribute_to_enhancing_the_performance_of_time_seri.md)
 - [\[ICLR 2026\] SciTS: Scientific Time Series Understanding and Generation with LLMs](scits_scientific_time_series_understanding_and_generation_with_llms.md)
-- [\[ICLR 2026\] TSPulse: Tiny Pre-Trained Models with Disentangled Representations for Rapid Time Series](tspulse_tiny_pre-trained_models_with_disentangled_representations_for_rapid_time.md)
+- [\[ICLR 2026\] AutoDA-Timeseries: Automated Data Augmentation for Time Series](autoda-timeseries_automated_data_augmentation_for_time_series.md)
 
 </div>
 

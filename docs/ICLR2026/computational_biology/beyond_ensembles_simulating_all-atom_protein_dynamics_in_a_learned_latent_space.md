@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Ensembles: Simulating All-Atom Protein Dynamics in a Learned Latent Space
+description: >-
+  [ICLR2026][计算生物][潜空间模拟] 本文在已训好的 LD-FPG 全原子潜空间里塞进一个时间传播子 GLDP，把"只会采静态构象系综"升级成"能模拟构象随时间演化"，并在同一冻结潜空间里公平对比了三类传播子（自回归神经网络、Koopman 线性算子、score-guided Langevin），结论是：自回归 NN 长轨迹最稳、骨架动力学最准；Langevin 侧链热力学最锐利；Koopman 是轻量但偏僵硬的可解释基线。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "潜空间模拟"
+  - "全原子蛋白质动力学"
+  - "自回归传播子"
+  - "Koopman 算子"
+  - "score-guided Langevin"
+---
+
 # Beyond Ensembles: Simulating All-Atom Protein Dynamics in a Learned Latent Space
 
 **会议**: ICLR2026  
-**OpenReview**: [AwowReRWXI](https://openreview.net/forum?id=AwowReRWXI)  
+**OpenReview**: [https://openreview.net/forum?id=AwowReRWXI](https://openreview.net/forum?id=AwowReRWXI)  
 **代码**: 待确认  
 **领域**: 计算生物学 / 蛋白质动力学 / 生成模型  
 **关键词**: 潜空间模拟, 全原子蛋白质动力学, 自回归传播子, Koopman 算子, score-guided Langevin
@@ -137,10 +152,10 @@ Koopman 变体假设潜演化可以用一个时不变线性算子近似，$z_{t+
 ## 相关论文
 
 - [\[ICLR 2026\] BioMD: All-atom Generative Model for Biomolecular Dynamics Simulation](biomd_all-atom_generative_model_for_biomolecular_dynamics_simulation.md)
-- [\[ICLR 2026\] Protein Counterfactuals via Diffusion-Guided Latent Optimization](protein_counterfactuals_via_diffusion-guided_latent_optimization.md)
-- [\[NeurIPS 2025\] Unified All-Atom Molecule Generation with Neural Fields](../../NeurIPS2025/computational_biology/unified_all-atom_molecule_generation_with_neural_fields.md)
-- [\[ICLR 2026\] Scalable Spatio-Temporal SE(3) Diffusion for Long-Horizon Protein Dynamics](scalable_spatio-temporal_se3_diffusion_for_long-horizon_protein_dynamics.md)
-- [\[NeurIPS 2025\] Generative Modeling of Full-Atom Protein Conformations using Latent Diffusion on Graph Embeddings](../../NeurIPS2025/computational_biology/generative_modeling_of_full-atom_protein_conformations_using_latent_diffusion_on.md)
+- [\[ICLR 2026\] Towards All-atom Foundation Models for Biomolecular Binding Affinity Prediction](towards_all-atom_foundation_models_for_biomolecular_binding_affinity_prediction.md)
+- [\[ICLR 2026\] Coupled Transformer Autoencoder for Disentangling Multi-Region Neural Latent Dynamics](coupled_transformer_autoencoder_for_disentangling_multi-region_neural_latent_dyn.md)
+- [\[ICLR 2026\] Pallatom-Ligand: an All-Atom Diffusion Model for Designing Ligand-Binding Proteins](pallatom-ligand_an_all-atom_diffusion_model_for_designing_ligand-binding_protein.md)
+- [\[ICLR 2026\] One Protein Is All You Need](one_protein_is_all_you_need.md)
 
 </div>
 

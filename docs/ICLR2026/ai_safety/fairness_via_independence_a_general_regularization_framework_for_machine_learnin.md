@@ -16,7 +16,7 @@ tags:
 # Fairness via Independence: A General Regularization Framework for Machine Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [sbEb0Ld6MK](https://openreview.net/forum?id=sbEb0Ld6MK)  
+**OpenReview**: [https://openreview.net/forum?id=sbEb0Ld6MK](https://openreview.net/forum?id=sbEb0Ld6MK)  
 **代码**: 待确认  
 **领域**: AI安全 / 公平性 / 群体公平  
 **关键词**: 群体公平, Cauchy-Schwarz 散度, 独立性正则, 去偏, utility-fairness trade-off
@@ -144,11 +144,11 @@ CS 散度的另一个价值是**统一视角**：本文把现有去偏方法归�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Convergent Differential Privacy Analysis for General Federated Learning](convergent_differential_privacy_analysis_for_general_federated_learning.md)
 - [\[ICLR 2026\] A General Framework for Black-Box Attacks Under Cost Asymmetry](a_general_framework_for_black-box_attacks_under_cost_asymmetry.md)
-- [\[AAAI 2026\] Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer Collaborative Learning](../../AAAI2026/ai_safety/learning_to_collaborate_an_orchestrated-decentralized_framework_for_peer-to-peer.md)
-- [\[ICML 2026\] COPF: An Online Framework for Deployment-Stable Counterfactual Fairness in Evolving Graphs](../../ICML2026/ai_safety/copf_an_online_framework_for_deployment-stable_counterfactual_fairness_in_evolvi.md)
-- [\[ACL 2025\] Gender Inclusivity Fairness Index (GIFI): A Multilevel Framework](../../ACL2025/ai_safety/gifi_gender_fairness.md)
-- [\[CVPR 2026\] FedRE: A Representation Entanglement Framework for Model-Heterogeneous Federated Learning](../../CVPR2026/ai_safety/fedre_a_representation_entanglement_framework_for_model-heterogeneous_federated_.md)
+- [\[ICLR 2026\] RESFL: An Uncertainty-Aware Framework for Responsible Federated Learning by Balancing Privacy, Fairness and Utility](resfl_an_uncertainty-aware_framework_for_responsible_federated_learning_by_balan.md)
+- [\[ICLR 2026\] Fair Graph Machine Learning under Adversarial Missingness Processes](fair_graph_machine_learning_under_adversarial_missingness_processes.md)
+- [\[ICLR 2026\] ReTrace: Reinforcement Learning-Guided Reconstruction Attacks on Machine Unlearning](retrace_reinforcement_learning-guided_reconstruction_attacks_on_machine_unlearni.md)
 
 </div>
 

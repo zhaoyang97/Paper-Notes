@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Tree-Structured Orthonormal Decomposition of the Aitchison Simplex
+description: >-
+  [ICML2026][学习理论][Aitchison 几何] PolyILR 给任意（含多分叉）树结构构造出一组**典范、完备、正交**的 Aitchison 单纯形坐标系：每个内部节点贡献 $k_u-1$ 个对比坐标，通过加权内积 + Helmert 对比 + 按子树大小展开，保证整体仍是合法的等距 ILR 基，让成分数据的每个坐标都对应树上一个具体位置。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "成分数据分析"
+  - "Aitchison 几何"
+  - "ILR 坐标"
+  - "正交分解"
+  - "多分叉树"
+  - "等距同构"
+---
+
 # Tree-Structured Orthonormal Decomposition of the Aitchison Simplex
 
 **会议**: ICML2026  

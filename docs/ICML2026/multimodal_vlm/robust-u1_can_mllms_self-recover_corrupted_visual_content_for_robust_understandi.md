@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?
+description: >-
+  [ICML2026][多模态VLM][多模态大模型] Robust-U1 让统一架构的多模态大模型（MLLM）先把被污染的图像在像素级"自我修复"成干净图、再对照原图和恢复图联合推理，从而在真实退化与对抗退化下都拿到鲁棒理解的 SOTA。 领域现状：MLLM 在视觉理解上表现惊艳，但部署到真实世界时会遇到系统噪声、压缩伪影、…
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "多模态大模型"
+  - "视觉鲁棒性"
+  - "自恢复"
+  - "统一模型"
+  - "强化学习对齐"
+---
+
 # Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?
 
 **会议**: ICML2026  

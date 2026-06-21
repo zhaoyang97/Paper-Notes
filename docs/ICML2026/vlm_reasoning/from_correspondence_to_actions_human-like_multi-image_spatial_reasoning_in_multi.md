@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] From Correspondence to Actions: Human-Like Multi-Image Spatial Reasoning in Multi-modal Large Language Models
+description: >-
+  [ICML2026][VLM Reasoning][多图空间推理] HATCH 受人类空间认知启发，给多模态大模型设计两个互补训练目标——用几何监督让跨视角对应的图像块特征对齐（PaStA），再用强化学习逼模型先生成显式的"换视角动作"再回答（ActoR）——只用 3B 底座就把多图空间推理刷到能和 GPT-5.2 掰手腕的水平。
+tags:
+  - "ICML2026"
+  - "VLM Reasoning"
+  - "多图空间推理"
+  - "跨视角对应"
+  - "视角变换"
+  - "GRPO"
+  - "几何监督"
+---
+
 # From Correspondence to Actions: Human-Like Multi-Image Spatial Reasoning in Multi-modal Large Language Models
 
 **会议**: ICML2026  

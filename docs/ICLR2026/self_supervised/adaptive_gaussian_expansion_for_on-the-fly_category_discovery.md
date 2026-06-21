@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Gaussian Expansion for On-the-fly Category Discovery
+description: >-
+  [ICLR2026][自监督学习][即时类别发现] 本文先证明了"即时类别发现"（OCD）任务存在一个被现有哈希方法忽视的性能下界，进而把 OCD 拆成"开放集识别 + 实时新类发现"两个子任务，用软阈值先把已知类直接判出，再用基于多元高斯密度的自适应高斯扩展（AGE）在线增量地聚出新类，在多个数据集上把整体准确率平均拉高约 10%。
+tags:
+  - "ICLR2026"
+  - "自监督学习"
+  - "即时类别发现"
+  - "开放集识别"
+  - "高斯密度估计"
+  - "在线增量聚类"
+  - "协方差收缩"
+---
+
 # Adaptive Gaussian Expansion for On-the-fly Category Discovery
 
 **会议**: ICLR2026  
-**OpenReview**: [Y59JeAbM3j](https://openreview.net/forum?id=Y59JeAbM3j)  
+**OpenReview**: [https://openreview.net/forum?id=Y59JeAbM3j](https://openreview.net/forum?id=Y59JeAbM3j)  
 **代码**: https://github.com/Ashengl/AGE  
 **领域**: 自监督 / 表示学习  
 **关键词**: 即时类别发现, 开放集识别, 高斯密度估计, 在线增量聚类, 协方差收缩
@@ -131,10 +146,10 @@ $$\log p_k = -\tfrac{1}{2}\big(d\log(2\pi)+\log|\Sigma_k|+(f_{od}-\mu_k)^\top\Si
 ## 相关论文
 
 - [\[CVPR 2026\] Assignment-Driven Hash Learning in a Hyper-Semantic Space for On-the-Fly Category Discovery](../../CVPR2026/self_supervised/assignment-driven_hash_learning_in_a_hyper-semantic_space_for_on-the-fly_categor.md)
+- [\[ICCV 2025\] Generate, Refine, and Encode: Leveraging Synthesized Novel Samples for On-the-Fly Fine-Grained Category Discovery](../../ICCV2025/self_supervised/generate_refine_and_encode_leveraging_synthesized_novel_samples_for_on-the-fly_f.md)
 - [\[ECCV 2024\] PromptCCD: Learning Gaussian Mixture Prompt Pool for Continual Category Discovery](../../ECCV2024/self_supervised/promptccd_learning_gaussian_mixture_prompt_pool_for_continual_category_discovery.md)
 - [\[CVPR 2026\] Decouple Your Discovery and Memory in Continual Generalized Category Discovery](../../CVPR2026/self_supervised/decouple_your_discovery_and_memory_in_continual_generalized_category_discovery.md)
-- [\[ICCV 2025\] Generate, Refine, and Encode: Leveraging Synthesized Novel Samples for On-the-Fly Fine-Grained Category Discovery](../../ICCV2025/self_supervised/generate_refine_and_encode_leveraging_synthesized_novel_samples_for_on-the-fly_f.md)
-- [\[ICLR 2026\] InfoNCE Induces Gaussian Distribution](infonce_induces_gaussian_distribution.md)
+- [\[ICLR 2026\] PRISM: Progressive Robust Learning for Open-World Continual Category Discovery](prism_progressive_robust_learning_for_open-world_continual_category_discovery.md)
 
 </div>
 

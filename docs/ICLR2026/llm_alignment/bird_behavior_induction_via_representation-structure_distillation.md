@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BIRD: Behavior Induction via Representation-structure Distillation
+description: >-
+  [ICLR2026][LLM对齐][表示结构蒸馏] BIRD 通过让学生模型的内部表示**结构**（batch 内成对相似度的几何，用 CKA 度量）去匹配一个已对齐教师的表示结构，把鲁棒性 / 安全性这类"对齐行为"从一个异构教师迁移到学生——教师和学生可以任务、数据、架构、输出空间全都不同；在图像 OOD 鲁棒迁移上比微调 / 迁移学习 / 持续学习最多高 18% 鲁棒精度，并能从一个比学生小 25× 的教师做弱到强迁移。
+tags:
+  - "ICLR2026"
+  - "LLM对齐"
+  - "表示结构蒸馏"
+  - "CKA"
+  - "弱到强泛化"
+  - "安全对齐"
+  - "行为迁移"
+---
+
 # BIRD: Behavior Induction via Representation-structure Distillation
 
 **会议**: ICLR2026  
-**OpenReview**: [jbJGhHpwmJ](https://openreview.net/forum?id=jbJGhHpwmJ)  
+**OpenReview**: [https://openreview.net/forum?id=jbJGhHpwmJ](https://openreview.net/forum?id=jbJGhHpwmJ)  
 **代码**: https://github.com/gpogoncheff/bird  
 **领域**: 对齐 / 行为迁移 / 弱到强泛化  
 **关键词**: 表示结构蒸馏, CKA, 弱到强泛化, 安全对齐, 行为迁移

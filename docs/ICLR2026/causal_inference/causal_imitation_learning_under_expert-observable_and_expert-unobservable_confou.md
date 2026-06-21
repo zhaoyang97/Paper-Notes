@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Causal Imitation Learning under Expert-Observable and Expert-Unobservable Confounding
+description: >-
+  [ICLR2026][因果推理][模仿学习] 本文提出一个统一的因果模仿学习框架，把"专家能看到但模仿者看不到"和"专家与模仿者都看不到"两类隐混杂同时建模，用 $k$ 步轨迹历史当工具变量把问题改写成条件矩约束（CMR）问题，并给出带模仿差距上界保证的 DML-IL 算法，在含混杂的 MuJoCo 等连续控制任务上超过现有因果 IL 基线。
+tags:
+  - "ICLR2026"
+  - "因果推理"
+  - "模仿学习"
+  - "隐混杂"
+  - "工具变量"
+  - "条件矩约束"
+  - "双重机器学习"
+---
+
 # Causal Imitation Learning under Expert-Observable and Expert-Unobservable Confounding
 
 **会议**: ICLR2026  
-**OpenReview**: [WSCN3Jkebv](https://openreview.net/forum?id=WSCN3Jkebv)  
+**OpenReview**: [https://openreview.net/forum?id=WSCN3Jkebv](https://openreview.net/forum?id=WSCN3Jkebv)  
 **代码**: 待确认  
 **领域**: 因果推断 / 模仿学习  
 **关键词**: 模仿学习, 隐混杂, 工具变量, 条件矩约束, 双重机器学习
@@ -116,3 +131,19 @@ $$J(\pi_E)-J(\hat\pi_h)\le T^2\big(c\,\varepsilon\,\nu(\Pi,k)+2\delta\big)=O\big
 - 实验充分度: ⭐⭐⭐⭐ 玩具+MuJoCo 覆盖到位、$k$ 扫描印证理论，但环境偏合成、缺真实数据集
 - 写作质量: ⭐⭐⭐⭐⭐ 假设—推导—算法—界—实验环环相扣，特例化叙事清晰
 - 价值: ⭐⭐⭐⭐ 对离线含混杂 IL 有扎实理论与可用算法，但强假设限制了落地范围
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Efficient and Sharp Off-Policy Learning under Unobserved Confounding](efficient_and_sharp_off-policy_learning_under_unobserved_confounding.md)
+- [\[ICML 2026\] From Observation to Intervention: A Causal Audit of Expert Importance in Mixture-of-Experts Models](../../ICML2026/causal_inference/from_observation_to_intervention_a_causal_audit_of_expert_importance_in_mixture-.md)
+- [\[ICLR 2026\] Learning Dynamic Causal Graphs Under Parametric Uncertainty via Polynomial Chaos Expansions](learning_dynamic_causal_graphs_under_parametric_uncertainty_via_polynomial_chaos.md)
+- [\[ICLR 2026\] Coarse-to-Fine Learning of Dynamic Causal Structures](coarse-to-fine_learning_of_dynamic_causal_structures.md)
+- [\[ICLR 2026\] Influence without Confounding: Causal Discovery from Temporal Data with Long-term Carry-over Effects](influence_without_confounding_causal_discovery_from_temporal_data_with_long-term.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Once-for-All: Scalable Simultaneous Forecasting via Equilibrium State Estimation
+description: >-
+  [ICML2026][时间序列][多系统预测] 针对「多个相互影响的系统要同时预测」这类场景（如 16 国汇率、几百个区县的疫情新增），本文提出 Equilibrium State Estimation（ESE）：先一次性估出所有系统的「均衡态比例」，再用当前状态偏离均衡的方向做单遍预测，从而把原本一个一个系统反复预测的 $O(n)$ 训练换成线性时间的一次推理，精度持平 SOTA、速度快 10–70×，还能即插即用地包住任意现成预测器。
+tags:
+  - "ICML2026"
+  - "时间序列"
+  - "多系统预测"
+  - "均衡态估计"
+  - "协整收敛"
+  - "线性复杂度"
+  - "即插即用"
+---
+
 # Once-for-All: Scalable Simultaneous Forecasting via Equilibrium State Estimation
 
 **会议**: ICML2026  

@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] SEINT: An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation
+description: >-
+  [ICLR 2026][学习理论][SE(p) 不变性] 本文提出 SEINT —— 一个对平移+旋转（特殊欧氏群 SE(p)）严格不变、且被证明是真正度量（满足三角不等式）的分布距离：它先用免训练的「极传输差异（PTD）」把高维分布编码成一维标量特征，再用「距离卷积（DcPTD）」补回内在几何信息，最后在一维上算 Wasserstein 距离，把复杂度从 GW 的 $O(n^3)\sim O(n^4)$ 压到 $O(n\log n)\sim O(n^2)$，并在点云分类（100% 准确率）和 3D 分子生成（SOTA 稳定性）上验证有效。
+tags:
+  - "ICLR 2026"
+  - "学习理论"
+  - "最优传输"
+  - "几何不变度量"
+  - "SE(p) 不变性"
+  - "度量学习"
+  - "点云"
+  - "分子生成"
+---
+
 # SEINT: An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation
 
 **会议**: ICLR 2026  
-**OpenReview**: [oyxExc7TEl](https://openreview.net/forum?id=oyxExc7TEl)  
+**OpenReview**: [https://openreview.net/forum?id=oyxExc7TEl](https://openreview.net/forum?id=oyxExc7TEl)  
 **代码**: https://github.com/junyilin559/SEINT  
 **领域**: 学习理论 / 最优传输 / 几何不变度量  
 **关键词**: 最优传输、SE(p) 不变性、度量学习、点云、分子生成
@@ -157,11 +173,11 @@ SEINT/ISEINT 在所有 k 上都是 100% 准确率（佐证严格 SE(p) 不变）
 
 ## 相关论文
 
+- [\[ICLR 2026\] Slicing Wasserstein over Wasserstein via Functional Optimal Transport](slicing_wasserstein_over_wasserstein_via_functional_optimal_transport.md)
+- [\[ICLR 2026\] Test-Time Verification via Optimal Transport: Coverage, ROC, & Sub-Optimality](test-time_verification_via_optimal_transport_coverage_roc_sub-optimality.md)
 - [\[ICLR 2026\] A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers](a_statistical_learning_perspective_on_semi-dual_adversarial_neural_optimal_trans.md)
-- [\[ICML 2025\] Theoretical Performance Guarantees for Partial Domain Adaptation via Partial Optimal Transport](../../ICML2025/learning_theory/theoretical_performance_guarantees_for_partial_domain_adaptation_via_partial_opt.md)
-- [\[ICLR 2026\] Bi-Criteria Metric Distortion](bi-criteria_metric_distortion.md)
-- [\[ICLR 2026\] Efficient Credal Prediction through Decalibration](efficient_credal_prediction_through_decalibration.md)
-- [\[ICLR 2026\] Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion](better_learning-augmented_spanning_tree_algorithms_via_metric_forest_completion.md)
+- [\[ICLR 2026\] On the Bayes Inconsistency of Disagreement Discrepancy Surrogates](on_the_bayes_inconsistency_of_disagreement_discrepancy_surrogates.md)
+- [\[ICLR 2026\] Statistical and Structural Identifiability in Representation Learning](statistical_and_structural_identifiability_in_representation_learning.md)
 
 </div>
 

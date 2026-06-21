@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CatalystBench: A Comprehensive Multi-Task Benchmark for Advancing Language Models in Catalysis Science
+description: >-
+  [ICLR2026][LLM评测][催化科学] 这篇论文造了第一个面向催化科学的多任务 benchmark——CatalystBench，把理论计算数据和实验文献统一成覆盖"催化剂设计全流程"的 8 个任务，并提出多头全任务微调（MFT）把分类头、回归头、生成头解耦训练，得到的 CatalystLLM 在大多数任务上超过 GPT-4.1 等强基线，相对单任务基线平均提升 12.44%。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "催化科学"
+  - "多任务 benchmark"
+  - "领域微调"
+  - "多头架构"
+  - "结构-活性关系"
+---
+
 # CatalystBench: A Comprehensive Multi-Task Benchmark for Advancing Language Models in Catalysis Science
 
 **会议**: ICLR2026  
-**OpenReview**: [tCFYwPdmT4](https://openreview.net/forum?id=tCFYwPdmT4)  
+**OpenReview**: [https://openreview.net/forum?id=tCFYwPdmT4](https://openreview.net/forum?id=tCFYwPdmT4)  
 **代码**: 待确认（论文承诺开源 CatalystBench 与 CatalystLLM）  
 **领域**: LLM 评测 / 科学大模型 / 催化材料  
 **关键词**: 催化科学、多任务 benchmark、领域微调、多头架构、结构-活性关系
@@ -118,3 +133,19 @@ CatalystLLM 的 STS 和专家分都是最高，专家分 0.75 显著领先（次
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 8 任务、12 指标、十余个开源/闭源基线，含策略对比、任务协同、输入格式三组消融与专家评测，较完整；scaling 与更大模型未探。
 - 写作质量: ⭐⭐⭐⭐ 动机—构建—方法—实验脉络清晰，诚实暴露通用模型在抽取任务的优势，少量图表依赖附录。
 - 价值: ⭐⭐⭐⭐ 为催化 AI 提供了稀缺的评测框架与开源专用模型，回归任务的差距分析对后续工作有明确指引。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2025\] SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science](../../ACL2025/llm_evaluation/seedbench_a_multi-task_benchmark_for_evaluating_large_language_models_in_seed_sc.md)
+- [\[ICLR 2026\] Can Vision–Language Models Assess Graphic Design Aesthetics? A Benchmark, Evaluation, and Dataset Perspective](can_vision_language_models_assess_graphic_design_aesthetics_a_benchmark_evaluati.md)
+- [\[ACL 2025\] McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models](../../ACL2025/llm_evaluation/mcbe_a_multi-task_chinese_bias_evaluation_benchmark_for_large_language_models.md)
+- [\[ICLR 2026\] AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning](anessuite_a_comprehensive_benchmark_and_dataset_suite_for_anesthesiology_reasoni.md)
+- [\[ICLR 2026\] DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents](deepresearch_bench_a_comprehensive_benchmark_for_deep_research_agents.md)
+
+</div>
+
+<!-- RELATED:END -->

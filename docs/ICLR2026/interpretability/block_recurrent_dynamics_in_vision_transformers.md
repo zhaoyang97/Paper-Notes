@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Block Recurrent Dynamics in Vision Transformers
+description: >-
+  [ICLR2026][可解释性][ViT 机制可解释] 本文提出"块循环假设"（BRH）：训练好的 ViT 的 $L$ 层深度其实只用 $k \ll L$ 个权重共享的块循环展开就能近似，作者用一套蒸馏方法 Raptor 把 DINOv2 压成 2-3 个循环块仍保住 96%-98% 的 ImageNet 线性探针精度，并据此把 ViT 当作离散时间动力学系统来解释其逐层计算。
+tags:
+  - "ICLR2026"
+  - "可解释性"
+  - "ViT 机制可解释"
+  - "块循环"
+  - "动力学系统"
+  - "知识蒸馏"
+  - "DINOv2"
+---
+
 # Block Recurrent Dynamics in Vision Transformers
 
 **会议**: ICLR2026  
-**OpenReview**: [gH3HhnfWLC](https://openreview.net/forum?id=gH3HhnfWLC)  
+**OpenReview**: [https://openreview.net/forum?id=gH3HhnfWLC](https://openreview.net/forum?id=gH3HhnfWLC)  
 **代码**: https://kempnerinstitute.github.io/raptor  
 **领域**: interpretability and explainable AI  
 **关键词**: ViT 机制可解释、块循环、动力学系统、知识蒸馏、DINOv2
@@ -127,11 +142,11 @@ $$L_{\text{total}}(x)=\lambda L_{\text{TF}}(x)+(1-\lambda)L_{\text{AR},H}(x)+\Om
 
 ## 相关论文
 
+- [\[ICLR 2026\] InputDSA: Demixing, then comparing recurrent and externally driven dynamics](inputdsa_demixing_then_comparing_recurrent_and_externally_driven_dynamics.md)
+- [\[ICLR 2026\] Decoupling Positional and Symbolic Attention in Transformers](decoupling_positional_and_symbolic_attention_in_transformers.md)
+- [\[ICLR 2026\] Discovering Alternative Solutions Beyond the Simplicity Bias in Recurrent Neural Networks](discovering_alternative_solutions_beyond_the_simplicity_bias_in_recurrent_neural.md)
 - [\[ICML 2026\] Dissecting Multimodal In-Context Learning: Modality Asymmetries and Circuit Dynamics in modern Transformers](../../ICML2026/interpretability/dissecting_multimodal_in-context_learning_modality_asymmetries_and_circuit_dynam.md)
 - [\[CVPR 2026\] Inside-Out: Measuring Generalization in Vision Transformers Through Inner Workings](../../CVPR2026/interpretability/inside-out_measuring_generalization_in_vision_transformers_through_inner_working.md)
-- [\[CVPR 2026\] Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers](../../CVPR2026/interpretability/align_once_to_explain_feature_alignment_for_scalable_b-cosification_of_foundatio.md)
-- [\[CVPR 2026\] CIGMA: Causal Information-Gain Mechanistic Attribution of Attention Heads in Vision Transformers](../../CVPR2026/interpretability/cigma_causal_information-gain_mechanistic_attribution_of_attention_heads_in_visi.md)
-- [\[ICML 2026\] BLOCK-EM: Preventing Emergent Misalignment via Latent Blocking](../../ICML2026/interpretability/block-em_preventing_emergent_misalignment_via_latent_blocking.md)
 
 </div>
 

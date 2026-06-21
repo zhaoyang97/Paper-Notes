@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] Closing the Gap Between Text and Speech Understanding in LLMs
+description: >-
+  [ICLR2026][音频/语音][语音适配 LLM] 本文把"语音适配 LLM 在语言理解任务上不如文本原版"这个现象拆解为**遗忘**和**跨模态错位**两个可量化病因，并据此提出 SALAD——先用跨模态蒸馏在自然语音上对齐、再用错位信号驱动的主动选择补一小撮合成语音，只用比同行少一个数量级的语音数据，就让 3B/7B 模型在六个广域知识与推理基准上逼近最强开源模型。
+tags:
+  - "ICLR2026"
+  - "音频/语音"
+  - "语音适配 LLM"
+  - "跨模态蒸馏"
+  - "主动数据选择"
+  - "灾难性遗忘"
+  - "语音语言理解"
+---
+
 # Closing the Gap Between Text and Speech Understanding in LLMs
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [dDHnO3Vhyj](https://openreview.net/forum?id=dDHnO3Vhyj)  
+**OpenReview**: [https://openreview.net/forum?id=dDHnO3Vhyj](https://openreview.net/forum?id=dDHnO3Vhyj)  
 **代码**: 待确认  
 **领域**: 语音 / 多模态 LLM  
 **关键词**: 语音适配 LLM, 跨模态蒸馏, 主动数据选择, 灾难性遗忘, 语音语言理解  
@@ -95,6 +109,7 @@ $$P_{\text{target}}(c) \propto P_{web}(c)\, f_\gamma(M(c)),\qquad f_\gamma(m)=m^
 SALAD-3B 超过除 Qwen2.5-Omni 外所有更大的端到端基线；在开放训练配方的模型里，SALAD 把鸿沟相对次优模型缩小了 11.7%，逼近最强闭配方系统（差 1.2%），却只用了少一个数量级的数据。
 
 ### 消融实验
+
 | 配置 | MMSU | OBQA | ARC-C | 说明 |
 |------|---------|------|--------|------|
 | Stage II 均匀采样 | 49.5 | 71.9 | 78.9 | 随机选合成数据 |
@@ -132,3 +147,19 @@ SALAD-3B 超过除 Qwen2.5-Omni 外所有更大的端到端基线；在开放训
 - 实验充分度: ⭐⭐⭐⭐ 有标度律、回归相关性、主动 vs 均匀消融、文本保持对照，但局限于英语单底座。
 - 写作质量: ⭐⭐⭐⭐⭐ "先量化病因、再对症设计"的叙事极清晰，每个设计都能追溯到一条实证洞见。
 - 价值: ⭐⭐⭐⭐⭐ 把语音适配 LLM 的数据需求砍掉一个数量级，且配方开放可复现，对低资源语音交互意义大。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2026\] Closing the Modality Reasoning Gap for Speech Large Language Models](../../ACL2026/audio_speech/closing_the_modality_reasoning_gap_for_speech_large_language_models.md)
+- [\[ACL 2026\] Computational Narrative Understanding for Expressive Text-to-Speech](../../ACL2026/audio_speech/computational_narrative_understanding_for_expressive_text-to-speech.md)
+- [\[ICLR 2026\] DrVoice: Parallel Speech-Text Voice Conversation Model via Dual-Resolution Speech Representations](drvoice_parallel_speech-text_voice_conversation_model_via_dual-resolution_speech.md)
+- [\[ICLR 2026\] Latent Speech-Text Transformer](latent_speech_text_transformer.md)
+- [\[ICLR 2026\] Towards True Speech-to-Speech Models Without Text Guidance](towards_true_speech-to-speech_models_without_text_guidance.md)
+
+</div>
+
+<!-- RELATED:END -->

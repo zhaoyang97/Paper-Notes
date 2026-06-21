@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Utility-Diversity Aware Online Batch Selection for LLM Supervised Fine-tuning
+description: >-
+  [ICML 2026][优化/理论][在线批选择] UDS 提出一种用于 LLM 监督微调（SFT）的高效在线批选择框架：仅靠前向传播得到的 **logits 矩阵核范数**同时刻画样本的「优化效用 + 句内多样性」，再用 logits 的**低维双线性随机投影**与历史样本内存缓冲区做相似度匹配来度量「句间多样性」，两者加权后选 top-K 训练——既不依赖参考模型/验证集等外部资源，也不做额外反传，因此比全量 SFT 更快、且在多个基准上稳定超过现有在线批选择 SOTA。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "在线批选择"
+  - "监督微调"
+  - "logits 核范数"
+  - "多样性"
+  - "内存缓冲区"
+---
+
 # Utility-Diversity Aware Online Batch Selection for LLM Supervised Fine-tuning
 
 **会议**: ICML 2026  

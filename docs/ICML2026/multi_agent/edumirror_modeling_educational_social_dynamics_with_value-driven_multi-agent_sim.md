@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] EduMirror: Modeling Educational Social Dynamics with Value-driven Multi-agent Simulation
+description: >-
+  [ICML2026][多智能体][教育社会动态] EduMirror 把"校园欺凌""同伴合作"这类教育社会现象搬进一个由 LLM 驱动的多智能体沙盒：用基于马斯洛需求层次和社会价值取向（SVO）的"价值驱动智能体"扮演学生/老师，再配一套"双轨测量"协议把可观测行为和潜在心理状态都量化出来，从而在伦理安全的数字环境里做"如果换一种干预会怎样"的反事实实验。
+tags:
+  - "ICML2026"
+  - "多智能体"
+  - "教育社会动态"
+  - "价值驱动智能体"
+  - "多智能体模拟"
+  - "心理需求"
+  - "反事实干预"
+---
+
 # EduMirror: Modeling Educational Social Dynamics with Value-driven Multi-agent Simulation
 
 **会议**: ICML2026  

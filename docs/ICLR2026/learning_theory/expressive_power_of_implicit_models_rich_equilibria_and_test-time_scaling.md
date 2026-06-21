@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Expressive Power of Implicit Models: Rich Equilibria and Test-Time Scaling
+description: >-
+  [ICLR2026][学习理论][不动点迭代] 本文从函数空间的非参数角度严格刻画了隐式模型（fixed-point / DEQ 式模型）的表达能力，证明"一个简单（全局 Lipschitz）的更新算子 $G$，通过不动点迭代可以表达任意局部 Lipschitz 的复杂映射"，从而给出了"隐式模型靠增加测试时迭代就能匹配甚至超过更大显式网络"这一经验现象的理论解释，并在成像、科学计算、运筹、LLM 推理四个领域验证了"迭代次数↑ → 映射复杂度（经验 Lipschitz 常数）↑ 且精度同步提升"。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "隐式模型"
+  - "表达能力"
+  - "不动点迭代"
+  - "测试时缩放"
+  - "局部 Lipschitz"
+---
+
 # Expressive Power of Implicit Models: Rich Equilibria and Test-Time Scaling
 
 **会议**: ICLR2026  
-**OpenReview**: [Pwnf1vsucu](https://openreview.net/forum?id=Pwnf1vsucu)  
+**OpenReview**: [https://openreview.net/forum?id=Pwnf1vsucu](https://openreview.net/forum?id=Pwnf1vsucu)  
 **代码**: https://github.com/liujl11git/IMP-Power  
 **领域**: 学习理论 / 隐式模型 / 表达能力  
 **关键词**: 隐式模型, 不动点迭代, 测试时缩放, 局部 Lipschitz, 表达能力
@@ -137,11 +152,11 @@ $$\lim_{t\to\infty}\frac{\|y_t(x)-y_t(x')\|}{\|x-x'\|}=\frac{\|F(x)-F(x')\|}{\|x
 
 ## 相关论文
 
+- [\[ICLR 2026\] Test-Time Verification via Optimal Transport: Coverage, ROC, & Sub-Optimality](test-time_verification_via_optimal_transport_coverage_roc_sub-optimality.md)
+- [\[ICLR 2026\] Theory of Scaling Laws for In-Context Regression: Depth, Width, Context and Time](theory_of_scaling_laws_for_in-context_regression_depth_width_context_and_time.md)
 - [\[ICML 2026\] On the Learnability of Test-Time Adaptation: A Recovery Complexity Perspective](../../ICML2026/learning_theory/on_the_learnability_of_test-time_adaptation_a_recovery_complexity_perspective.md)
-- [\[ICML 2026\] MMD-Balls as Credal Sets: A PAC-Bayesian Framework for Epistemic Uncertainty in Test-Time Adaptation](../../ICML2026/learning_theory/mmd-balls_as_credal_sets_a_pac-bayesian_framework_for_epistemic_uncertainty_in_t.md)
-- [\[ICLR 2026\] The Expressive Limits of Diagonal SSMs for State-Tracking](the_expressive_limits_of_diagonal_ssms_for_state-tracking.md)
-- [\[ICLR 2026\] Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling](best-of-majority_minimax-optimal_strategy_for_passk_inference_scaling.md)
-- [\[ICLR 2026\] Epistemic Uncertainty Quantification To Improve Decisions From Black-Box Models](epistemic_uncertainty_quantification_to_improve_decisions_from_black-box_models.md)
+- [\[ICLR 2026\] Finite-Time Convergence Analysis of ODE-based Generative Models for Stochastic Interpolants](finite-time_convergence_analysis_of_ode-based_generative_models_for_stochastic_i.md)
+- [\[ICLR 2026\] Implicit bias produces neural scaling laws in learning curves, from perceptrons to deep networks](implicit_bias_produces_neural_scaling_laws_in_learning_curves_from_perceptrons_t.md)
 
 </div>
 

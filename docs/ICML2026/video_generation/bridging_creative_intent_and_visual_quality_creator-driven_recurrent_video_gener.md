@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops
+description: >-
+  [ICML 2026（Workshop on Human-AI Co-Creativity）][视频生成][人机协作] CHIEF 把创作者放在视频生成迭代循环的中心，用"人格化的多模态 LLM 观众智能体"自动给生成视频写主观影评、再由翻译器把杂乱反馈结构化成可执行的提示词改动，让没有任何拍片经验的中学生也能从 1 分钟短片做到一部 10 分钟有完整剧情的短片。
+tags:
+  - "ICML 2026（Workshop on Human-AI Co-Creativity）"
+  - "视频生成"
+  - "人机协作"
+  - "多智能体反馈"
+  - "人格化模拟"
+  - "迭代精修"
+---
+
 # Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops
 
 **会议**: ICML 2026（Workshop on Human-AI Co-Creativity）  

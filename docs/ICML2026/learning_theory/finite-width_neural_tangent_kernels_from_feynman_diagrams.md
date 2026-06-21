@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Finite-Width Neural Tangent Kernels from Feynman Diagrams
+description: >-
+  [ICML2026][学习理论][有限宽度] 把量子场论里的费曼图搬到神经网络分析中，给"NTK 的有限宽度统计修正"提供一套图形化计算规则，让原本极繁琐的逐层递归推导变成"画图 + 套规则翻译"，并据此证明了 NTK 的临界稳定性、ReLU 等尺度不变激活在对角线上无有限宽度修正，数值上在宽度 $n\gtrsim 20$ 即与采样网络吻合。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "神经正切核"
+  - "有限宽度修正"
+  - "有限宽度"
+  - "费曼图"
+  - "1/n 展开"
+  - "临界初始化"
+---
+
 # Finite-Width Neural Tangent Kernels from Feynman Diagrams
 
 **会议**: ICML2026  

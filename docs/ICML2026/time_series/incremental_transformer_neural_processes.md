@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Incremental Transformer Neural Processes
+description: >-
+  [ICML 2026][时间序列][神经过程] 把大模型里的因果掩码 + KV 缓存搬进 Transformer 神经过程（TNP），让流式场景下每来一个新观测的更新代价从 $\mathcal{O}(N^2)$ 降到 $\mathcal{O}(N)$，配上一种「单次前向覆盖所有上下文长度」的稠密自回归训练，incTNP 不仅没掉点、反而常常超过标准 TNP，且预测规则的「隐式贝叶斯性」与排列不变的 TNP 相当。
+tags:
+  - "ICML 2026"
+  - "时间序列"
+  - "神经过程"
+  - "因果掩码"
+  - "KV缓存"
+  - "流式推理"
+  - "隐式贝叶斯性"
+---
+
 # Incremental Transformer Neural Processes
 
 **会议**: ICML 2026  

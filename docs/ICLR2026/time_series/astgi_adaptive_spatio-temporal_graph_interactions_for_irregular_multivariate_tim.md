@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting
+description: >-
+  [ICLR2026][时间序列][不规则多变量时间序列] ASTGI 把不规则多变量时间序列里的每个离散观测直接编码成一个可学习时空空间里的"点"，不做插值/对齐就保住原始采样结构，再为每个点用最近邻搜索动态建一张因果图、按相对时空位置做关系感知消息传播，最终把预测统一成"给一个查询点聚合邻域信息做回归"，在 4 个公开数据集上 MSE 较次优方法降约 6%。
+tags:
+  - "ICLR2026"
+  - "时间序列"
+  - "不规则多变量时间序列"
+  - "时空点表示"
+  - "自适应因果图"
+  - "关系感知传播"
+  - "查询点预测"
+---
+
 # ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting
 
 **会议**: ICLR2026  
-**OpenReview**: [Wg9Rx5rjgo](https://openreview.net/forum?id=Wg9Rx5rjgo)  
+**OpenReview**: [https://openreview.net/forum?id=Wg9Rx5rjgo](https://openreview.net/forum?id=Wg9Rx5rjgo)  
 **代码**: https://github.com/decisionintelligence/ASTGI  
 **领域**: 不规则多变量时间序列 / 时序预测 / 图神经网络  
 **关键词**: 不规则多变量时间序列, 时空点表示, 自适应因果图, 关系感知传播, 查询点预测
@@ -139,11 +154,11 @@ ASTGI 横跨医疗、生物力学、气候三类领域都稳定领先，体现�
 
 ## 相关论文
 
-- [\[ICML 2026\] Nested Spatio-Temporal Time Series Forecasting](../../ICML2026/time_series/nested_spatio-temporal_time_series_forecasting.md)
-- [\[ICLR 2026\] Learning Recursive Multi-Scale Representations for Irregular Multivariate Time Series Forecasting](learning_recursive_multi-scale_representations_for_irregular_multivariate_time_s.md)
 - [\[AAAI 2026\] Revitalizing Canonical Pre-Alignment for Irregular Multivariate Time Series Forecasting](../../AAAI2026/time_series/revitalizing_canonical_pre-alignment_for_irregular_multivariate_time_series_fore.md)
+- [\[ICLR 2026\] Learning Recursive Multi-Scale Representations for Irregular Multivariate Time Series Forecasting](learning_recursive_multi-scale_representations_for_irregular_multivariate_time_s.md)
+- [\[ICML 2026\] Nested Spatio-Temporal Time Series Forecasting](../../ICML2026/time_series/nested_spatio-temporal_time_series_forecasting.md)
 - [\[ICML 2026\] Latent Laplace Diffusion for Irregular Multivariate Time Series](../../ICML2026/time_series/latent_laplace_diffusion_for_irregular_multivariate_time_series.md)
-- [\[ICML 2025\] HyperIMTS: Hypergraph Neural Network for Irregular Multivariate Time Series Forecasting](../../ICML2025/time_series/hyperimts_hypergraph_neural_network_for_irregular_multivariate_time_series_forec.md)
+- [\[ICLR 2026\] GARLIC: Graph Attention-based Relational Learning of Multivariate Time Series in Intensive Care](garlic_graph_attention-based_relational_learning_of_multivariate_time_series_in_.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CIAR: Interval-based Collaborative Decoding for Image Generation Acceleration
+description: >-
+  [ICLR2026][图像生成][自回归图像生成] CIAR 把自回归图像生成的推测解码搬到端云协同框架里，用一个设备端的「区间头」(Inter-Head) 输出每个视觉 token 的连续概率区间来量化不确定性，让低不确定区域在设备本地直接生成、只把高不确定的边界细节 token 连同区间特征上传云端核验，配合 Inter-DRO 对齐训练，实现 2.18× 加速并把云端请求量砍掉 70%，同时几乎不掉画质。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "自回归图像生成"
+  - "推测解码"
+  - "端云协同"
+  - "不确定性量化"
+  - "概率区间"
+---
+
 # CIAR: Interval-based Collaborative Decoding for Image Generation Acceleration
 
 **会议**: ICLR2026  
-**OpenReview**: [YzZ4pSAwZy](https://openreview.net/forum?id=YzZ4pSAwZy)  
+**OpenReview**: [https://openreview.net/forum?id=YzZ4pSAwZy](https://openreview.net/forum?id=YzZ4pSAwZy)  
 **代码**: 待确认  
 **领域**: 图像生成 / 自回归图像 / 端云协同推理加速  
 **关键词**: 自回归图像生成, 推测解码, 端云协同, 不确定性量化, 概率区间
@@ -131,3 +146,19 @@ Inter-Head 的结构和云端输出层不同、没法直接共享参数，所以
 - 实验充分度: ⭐⭐⭐⭐ 三骨干 + 多基线 + 度量/连续离散/前缀率/阈值多组消融较扎实，但仅限 MS-COCO、未上更高分辨率/更大码本。
 - 写作质量: ⭐⭐⭐⭐ 动机链条清晰、图 2 总览到位；个别记号（InterFuse、$\mathcal{L}_c$ 与各损失下标）需对照附录才完全自洽。
 - 价值: ⭐⭐⭐⭐ 端侧自回归图像生成加速是真实需求，2.18× 加速 + 砍 70% 云端请求且不掉画质，落地价值明确。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Autoregressive Image Generation with Randomized Parallel Decoding](autoregressive_image_generation_with_randomized_parallel_decoding.md)
+- [\[ICML 2026\] Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation](../../ICML2026/image_generation/speculative_coupled_decoding_for_training-free_lossless_acceleration_of_autoregr.md)
+- [\[AAAI 2026\] Annealed Relaxation of Speculative Decoding for Faster Autoregressive Image Generation](../../AAAI2026/image_generation/annealed_relaxation_of_speculative_decoding_for_faster_autor.md)
+- [\[ICCV 2025\] Grouped Speculative Decoding for Autoregressive Image Generation](../../ICCV2025/image_generation/grouped_speculative_decoding_for_autoregressive_image_generation.md)
+- [\[CVPR 2026\] Parallel Jacobi Decoding for Fast Autoregressive Image Generation](../../CVPR2026/image_generation/parallel_jacobi_decoding_for_fast_autoregressive_image_generation.md)
+
+</div>
+
+<!-- RELATED:END -->

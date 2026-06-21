@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The Truth Stays in the Family: Enhancing Contextual Truthfulness via Inherited Heads in Model Lineages
+description: >-
+  [ICML2026][多模态VLM][幻觉缓解] 作者发现「编码语境忠实度的注意力头」在同一基座衍生出来的 LLM/MLLM 之间会被**遗传**下来，于是提出 TruthProbe——一种用头级 Truth Score 做软门控的即插即用机制，从基座 LLM 探出的分数可以直接迁移给它的微调 LLM 和多模态后代，在 HaluEval / POPE / CHAIR 上同时降低幻觉。
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "幻觉缓解"
+  - "注意力头探针"
+  - "模型血统"
+  - "软门控"
+  - "语境忠实度"
+---
+
 # The Truth Stays in the Family: Enhancing Contextual Truthfulness via Inherited Heads in Model Lineages
 
 **会议**: ICML2026  

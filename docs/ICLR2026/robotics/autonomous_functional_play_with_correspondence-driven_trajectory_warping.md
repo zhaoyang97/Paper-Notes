@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Autonomous Functional Play with Correspondence-Driven Trajectory Warping
+description: >-
+  [ICLR2026][机器人][自主数据生成] 本文提出 Tether：先用一个只需 ≤10 条示范、靠语义关键点对应把示范轨迹"变形"到新场景的开环策略，再把它放进一个由视觉语言模型（VLM）调度的"自主功能性玩耍"闭环里，让机器人在真实世界连续 26 小时、几乎无需人工干预地自动生成 1000+ 条专家级轨迹，用来训练闭环模仿策略，最终达到与人类遥操作采集数据相当的成功率。
+tags:
+  - "ICLR2026"
+  - "机器人"
+  - "自主数据生成"
+  - "关键点对应"
+  - "轨迹变形"
+  - "模仿学习"
+  - "VLM 引导"
+---
+
 # Autonomous Functional Play with Correspondence-Driven Trajectory Warping
 
 **会议**: ICLR2026  
-**OpenReview**: [FqDmvMZish](https://openreview.net/forum?id=FqDmvMZish)  
+**OpenReview**: [https://openreview.net/forum?id=FqDmvMZish](https://openreview.net/forum?id=FqDmvMZish)  
 **代码**: 项目页 https://tether-research.github.io  
 **领域**: 机器人 / 具身智能  
 **关键词**: 自主数据生成, 关键点对应, 轨迹变形, 模仿学习, VLM 引导

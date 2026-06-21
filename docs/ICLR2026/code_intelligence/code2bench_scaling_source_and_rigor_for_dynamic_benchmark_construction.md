@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] Code2Bench: Scaling Source and Rigor for Dynamic Benchmark Construction
+description: >-
+  [ICLR2026][代码智能][代码生成评测] 针对代码生成评测中「题源静态易污染 + 测试浮于表面」两大顽疾，本文提出 **Dual Scaling（双重扩展）** 哲学——一边从真实代码仓库按模型知识截止日期动态取题（扩展题源），一边用属性测试 PBT 配合 100% 分支覆盖的「Great Filter」自动生成高严谨度测试（扩展严谨度）——并实例化为端到端框架 Code2Bench，产出含 Python/Java 原生实例的 Code2Bench-2509 基准，对 10 个主流 LLM 给出细粒度诊断。
+tags:
+  - "ICLR2026"
+  - "代码智能"
+  - "代码生成评测"
+  - "动态基准"
+  - "属性测试 PBT"
+  - "数据污染"
+  - "依赖分类"
+---
+
 # Code2Bench: Scaling Source and Rigor for Dynamic Benchmark Construction
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [QZmKyAy1VK](https://openreview.net/forum?id=QZmKyAy1VK)  
+**OpenReview**: [https://openreview.net/forum?id=QZmKyAy1VK](https://openreview.net/forum?id=QZmKyAy1VK)  
 **代码**: https://code2bench.github.io/  
 **领域**: 代码智能 / 评测基准  
 **关键词**: 代码生成评测、动态基准、属性测试 PBT、数据污染、依赖分类
@@ -124,3 +138,19 @@ Code2Bench-2509 含 SC-Python(217 题)、WSC-Python(194 题)、SC-Java(249 题)�
 - 实验充分度: ⭐⭐⭐⭐ 10 个主流模型 × 三赛道 + 诊断指纹 + Near-Perfect 失败分析 + 与 EvalPlus 对比，结论细致；但赛道偏纯函数、缺 repo 级评测。
 - 写作质量: ⭐⭐⭐⭐⭐ 痛点→哲学→框架→诊断逻辑清晰，Table 1/2 对比与指纹可视化很有说服力。
 - 价值: ⭐⭐⭐⭐⭐ 抗污染取题 + 自动高严谨测试 + 诊断式分析，给下一代代码 LLM 评测提供了可持续、可扩展、可诊断的范式，方法论可迁移性强。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2025\] DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation](../../ACL2025/code_intelligence/dynacode_a_dynamic_complexity-aware_code_benchmark_for_evaluating_large_language.md)
+- [\[ICLR 2026\] ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory](reasoningbank_scaling_agent_self-evolving_with_reasoning_memory.md)
+- [\[ICLR 2026\] Behavioral Embeddings of Programs: A Quasi-Dynamic Approach for Optimization Prediction](behavioral_embeddings_of_programs_a_quasi-dynamic_approach_for_optimization_pred.md)
+- [\[ICLR 2026\] CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning](codesense_a_real-world_benchmark_and_dataset_for_code_semantic_reasoning.md)
+- [\[ICML 2026\] MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering](../../ICML2026/code_intelligence/menvagent_scalable_polyglot_environment_construction_for_verifiable_software_eng.md)
+
+</div>
+
+<!-- RELATED:END -->

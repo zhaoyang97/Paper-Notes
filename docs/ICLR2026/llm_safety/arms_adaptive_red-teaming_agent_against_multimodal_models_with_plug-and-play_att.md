@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ARMS: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks
+description: >-
+  [ICLR 2026][LLM安全][多模态红队] ARMS 是首个针对视觉-语言模型（VLM）、能按"风险定义"可控生成攻击样本的自适应红队 agent：它把 17 种多模态攻击各封装成一个 MCP server 做即插即用编排，用"风险类别 × 攻击策略"二维分层记忆配合 ε-greedy 探索来对抗模式崩溃、最大化攻击多样性，在 6 个评测上平均把攻击成功率（ASR）较最强基线提升 52.1 个百分点，甚至把以稳健著称的 Claude-4-Sonnet 攻破到 90%+ ASR。
+tags:
+  - "ICLR 2026"
+  - "LLM安全"
+  - "多模态红队"
+  - "VLM 安全"
+  - "自适应攻击"
+  - "分层记忆"
+  - "MCP 即插即用"
+---
+
 # ARMS: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks
 
 **会议**: ICLR 2026  
-**OpenReview**: [wQ4OykcxaV](https://openreview.net/forum?id=wQ4OykcxaV)  
+**OpenReview**: [https://openreview.net/forum?id=wQ4OykcxaV](https://openreview.net/forum?id=wQ4OykcxaV)  
 **代码**: 待确认（作者承诺开源到 GitHub + HuggingFace）  
 **领域**: 多模态安全 / 红队测试 / VLM 越狱  
 **关键词**: 多模态红队、VLM 安全、自适应攻击、分层记忆、MCP 即插即用
@@ -144,11 +159,11 @@ ARMS 在全部 6 个评测、5 个受害模型上都超过最强基线，平均�
 
 ## 相关论文
 
+- [\[ICLR 2026\] RedCodeAgent: Automatic Red-teaming Agent against Diverse Code Agents](redcodeagent_automatic_red-teaming_agent_against_diverse_code_agents.md)
 - [\[ICLR 2026\] Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming Attacks (DialTree)](tree-based_dialogue_reinforced_policy_optimization_for_red-teaming_attacks.md)
+- [\[ICLR 2026\] STAR: Strategy-driven Automatic Jailbreak Red-teaming for Large Language Model](star_strategy-driven_automatic_jailbreak_red-teaming_for_large_language_model.md)
+- [\[ICLR 2026\] Sampling-aware Adversarial Attacks against Large Language Models](sampling-aware_adversarial_attacks_against_large_language_models.md)
 - [\[ICLR 2026\] Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models](auto-rt_automatic_jailbreak_strategy_exploration_for_red-teaming_large_language_.md)
-- [\[ACL 2026\] STAR-Teaming: A Strategy-Response Multiplex Network Approach to Automated LLM Red Teaming](../../ACL2026/llm_safety/star-teaming_a_strategy-response_multiplex_network_approach_to_automated_llm_red.md)
-- [\[ACL 2026\] Red-Bandit: Test-Time Adaptation for LLM Red-Teaming via Bandit-Guided LoRA Experts](../../ACL2026/llm_safety/red-bandit_test-time_adaptation_for_llm_red-teaming_via_bandit-guided_lora_exper.md)
-- [\[ICLR 2026\] Membership Inference Attacks Against Fine-tuned Diffusion Language Models (SAMA)](membership_inference_attacks_against_fine-tuned_diffusion_language_models.md)
 
 </div>
 

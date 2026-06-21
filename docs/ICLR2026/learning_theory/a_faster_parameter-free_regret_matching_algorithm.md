@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] A Faster Parameter-Free Regret Matching Algorithm
+description: >-
+  [ICLR2026][学习理论][遗憾匹配] 本文提出无参数的遗憾匹配变体 **MI-SPRM+**，通过一个叫"自适应遗憾域（ARD）"的技巧单调抬高累积遗憾 1-范数的下界，在两人零和博弈中**既保留无需调参的性质、又达到 $O(1/T)$ 的理论收敛率**——这是已知第一个同时做到这两点的 RM 类算法。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "博弈求解"
+  - "在线学习"
+  - "遗憾匹配"
+  - "纳什均衡"
+  - "收敛速率"
+  - "无参数算法"
+  - "自适应步长"
+---
+
 # A Faster Parameter-Free Regret Matching Algorithm
 
 **会议**: ICLR2026  
-**OpenReview**: [JLllvi7dsg](https://openreview.net/forum?id=JLllvi7dsg)  
+**OpenReview**: [https://openreview.net/forum?id=JLllvi7dsg](https://openreview.net/forum?id=JLllvi7dsg)  
 **代码**: 待确认  
 **领域**: 学习理论 / 博弈求解 / 在线学习  
 **关键词**: 遗憾匹配, 纳什均衡, 收敛速率, 无参数算法, 自适应步长
@@ -116,11 +133,11 @@ MI-SPRM+ 在**完全不调参**的情况下，对偶间隙比调到最优步长�
 
 ## 相关论文
 
-- [\[ICLR 2026\] An Improved Model-free Decision-estimation Coefficient with Applications in Adversarial MDPs](an_improved_model-free_decision-estimation_coefficient_with_applications_in_adve.md)
 - [\[ICLR 2026\] Bandit Learning in Matching Markets Robust to Adversarial Corruptions](bandit_learning_in_matching_markets_robust_to_adversarial_corruptions.md)
-- [\[ICML 2026\] Parsimonious Learning-Augmented Online Metric Matching](../../ICML2026/learning_theory/parsimonious_learning-augmented_online_metric_matching.md)
-- [\[ICLR 2026\] Best-of-N through the Smoothing Lens: KL Divergence and Regret Analysis](best-of-n_through_the_smoothing_lens_kl_divergence_and_regret_analysis.md)
-- [\[ICLR 2026\] A Near-Optimal Best-of-Both-Worlds Algorithm for Federated Bandits](a_near-optimal_best-of-both-worlds_algorithm_for_federated_bandits.md)
+- [\[ICLR 2026\] In-Context Algorithm Emulation in Fixed-Weight Transformers](in-context_algorithm_emulation_in_fixed-weight_transformers.md)
+- [\[ICLR 2026\] Dimension-Free Decision Calibration for Nonlinear Loss Functions](dimension-free_decision_calibration_for_nonlinear_loss_functions.md)
+- [\[ICLR 2026\] Convergence Dynamics of Over-Parameterized Score Matching for a Single Gaussian](convergence_dynamics_of_over-parameterized_score_matching_for_a_single_gaussian.md)
+- [\[ICLR 2026\] Variance-Dependent Regret Lower Bounds for Contextual Bandits](variance-dependent_regret_lower_bounds_for_contextual_bandits.md)
 
 </div>
 

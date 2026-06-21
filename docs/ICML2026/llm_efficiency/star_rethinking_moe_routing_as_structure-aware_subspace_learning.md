@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] STAR: Rethinking MoE Routing as Structure-Aware Subspace Learning
+description: >-
+  [ICML 2026][LLM效率][混合专家] STAR 把 MoE 路由重新理解成一个"子空间学习"问题：在原本浅薄的线性路由器之外，用广义 Hebbian 算法（GHA）在线学一组追踪输入主方向的正交基，让路由决策直接对齐输入结构，从而在合成任务、LLaMA-MoE 预训练、BERT-GLUE 微调和 ViT ImageNet-C 上都拿到更稳的专家特化与更好的下游性能。
+tags:
+  - "ICML 2026"
+  - "LLM效率"
+  - "混合专家"
+  - "路由"
+  - "主子空间"
+  - "广义Hebbian算法"
+  - "专家特化"
+---
+
 # STAR: Rethinking MoE Routing as Structure-Aware Subspace Learning
 
 **会议**: ICML 2026  

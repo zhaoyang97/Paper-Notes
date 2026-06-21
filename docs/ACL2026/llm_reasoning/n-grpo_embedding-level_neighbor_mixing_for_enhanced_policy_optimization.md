@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization
+description: >-
+  [ACL 2026][Reasoning][GRPO] N-GRPO 在 GRPO 的 rollout 阶段把「采样 token 再查嵌入」换成「锚点 token + 其语义近邻的嵌入加权混合」，用受控的嵌入级扰动注入探索多样性而不偏离语义流形，在 DeepSeek-R1-Distill-Qwen 等多个底座的数学推理 Pass@16/Pass@32 上稳定超过 GRPO 与高斯噪声基线。
+tags:
+  - "ACL 2026"
+  - "Reasoning"
+  - "GRPO"
+  - "数学推理"
+  - "嵌入级探索"
+  - "语义近邻混合"
+  - "rollout 多样性"
+---
+
 # N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization
 
 **会议**: ACL 2026  

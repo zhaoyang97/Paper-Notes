@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Budget-Constrained Step-Level Diffusion Caching
+description: >-
+  [ICML 2026][图像生成][步级缓存] BudCache 把扩散模型的步级缓存从"用阈值被动触发、延迟随输入飘"翻转成"先锁死算力预算 B，再离线搜出最优缓存策略"，用模拟退火+爬山在几分钟内搜出一个静态缓存 mask，并在预算极紧时用师生蒸馏重对齐时间表，在 FLUX.1-dev 和 Wan2.1 上同等延迟下质量全面超过 TeaCache/MagCache 等启发式缓存。
+tags:
+  - "ICML 2026"
+  - "图像生成"
+  - "步级缓存"
+  - "预算约束"
+  - "组合优化"
+  - "模拟退火"
+  - "时间表对齐"
+---
+
 # Budget-Constrained Step-Level Diffusion Caching
 
 **会议**: ICML 2026  

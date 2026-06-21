@@ -16,7 +16,7 @@ tags:
 # A Unified Federated Framework for Trajectory Data Preparation via LLMs
 
 **会议**: ICLR 2026  
-**OpenReview**: [MIelckWrEK](https://openreview.net/forum?id=MIelckWrEK)  
+**OpenReview**: [https://openreview.net/forum?id=MIelckWrEK](https://openreview.net/forum?id=MIelckWrEK)  
 **代码**: https://github.com/ZJU-DAILY/FedTDP  
 **领域**: 时序/时空 / 联邦学习 / LLM 应用  
 **关键词**: 轨迹数据准备、联邦学习、垂直划分、隐私保护、LLM 微调
@@ -137,11 +137,11 @@ $$\tilde{P}^{(k)}_i = P^{(k)}_i + \sum_{j=1,j\neq i}^{|C|} a_{i,j}\cdot sk_{i,j}
 
 ## 相关论文
 
+- [\[ICLR 2026\] pyrregular: A Unified Framework for Irregular Time Series, with Classification Benchmarks](pyrregular_a_unified_framework_for_irregular_time_series_with_classification_ben.md)
 - [\[ACL 2026\] A Unified Framework for Modeling Heterogeneous Financial Data via Dual-Granularity Prompting](../../ACL2026/time_series/a_unified_framework_for_modeling_heterogeneous_financial_data_via_dual-granulari.md)
 - [\[ICLR 2026\] Towards Robust Real-World Multivariate Time Series Forecasting: A Unified Framework](towards_robust_real-world_multivariate_time_series_forecasting_a_unified_framewo.md)
-- [\[ICLR 2026\] Delta-XAI: A Unified Framework for Explaining Prediction Changes in Online Time Series Monitoring](delta-xai_a_unified_framework_for_explaining_prediction_changes_in_online_time_s.md)
 - [\[ICLR 2026\] FeDaL: Federated Dataset Learning for General Time Series Foundation Models](fedal_federated_dataset_learning_for_general_time_series_foundation_models.md)
-- [\[ICLR 2026\] Can we generate portable representations for clinical time series data using LLMs?](can_we_generate_portable_representations_for_clinical_time_series_data_using_llm.md)
+- [\[ICLR 2026\] Delta-XAI: A Unified Framework for Explaining Prediction Changes in Online Time Series Monitoring](delta-xai_a_unified_framework_for_explaining_prediction_changes_in_online_time_s.md)
 
 </div>
 

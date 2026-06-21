@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] Branch and Bound Search for Exact MAP Inference in Credal Networks
+description: >-
+  [ICLR2026][概率图模型][信度网络] 本文为信度网络（credal network）中的精确 MAP 推断设计了首个深度优先分支定界算法：把问题定义成 maximax / maximin 两类 MAP 任务，在 AND/OR 搜索空间里利用问题分解，再用带 cost-shifting 的 mini-bucket 启发式做剪枝，能在保证最优性的前提下求解超过 3000 个变量的大规模实例，比 OR 搜索和局部搜索快几个数量级。
+tags:
+  - "ICLR2026"
+  - "概率图模型"
+  - "精确推断"
+  - "启发式搜索"
+  - "信度网络"
+  - "MAP 推断"
+  - "分支定界"
+  - "AND/OR 搜索"
+  - "mini-bucket 启发式"
+---
+
 # Branch and Bound Search for Exact MAP Inference in Credal Networks
 
 **会议**: ICLR2026  
-**OpenReview**: [DTqbEtXXP3](https://openreview.net/forum?id=DTqbEtXXP3)  
+**OpenReview**: [https://openreview.net/forum?id=DTqbEtXXP3](https://openreview.net/forum?id=DTqbEtXXP3)  
 **代码**: 待确认（论文附录附带）  
 **领域**: 概率图模型 / 精确推断 / 启发式搜索  
 **关键词**: 信度网络, MAP 推断, 分支定界, AND/OR 搜索, mini-bucket 启发式
@@ -126,9 +143,9 @@ Table 1 在随机 100 变量网上比较三种启发式（是否做 potential �
 
 - [\[ICLR 2026\] Efficient Credal Prediction through Decalibration](efficient_credal_prediction_through_decalibration.md)
 - [\[ICLR 2026\] Achieving Approximate Symmetry Is Exponentially Easier than Exact Symmetry](achieving_approximate_symmetry_is_exponentially_easier_than_exact_symmetry.md)
-- [\[ICLR 2026\] Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling](best-of-majority_minimax-optimal_strategy_for_passk_inference_scaling.md)
-- [\[ICML 2026\] Learning Credal Ensembles via Distributionally Robust Optimization](../../ICML2026/learning_theory/learning_credal_ensembles_via_distributionally_robust_optimization.md)
-- [\[AAAI 2026\] Generalizing Analogical Inference from Boolean to Continuous Domains](../../AAAI2026/learning_theory/generalizing_analogical_inference_from_boolean_to_continuous_domains.md)
+- [\[ICLR 2026\] Bound by Semanticity: Universal Laws Governing the Generalization-Identification Tradeoff](bound_by_semanticity_universal_laws_governing_the_generalization-identification_.md)
+- [\[ICLR 2026\] Variational Inference for Cyclic Learning](variational_inference_for_cyclic_learning.md)
+- [\[ICLR 2026\] Multiple-Prediction-Powered Inference](multiple-prediction-powered_inference.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Calibrated Information Bottleneck for Trusted Multi-modal Clustering
+description: >-
+  [ICLR2026][多模态VLM][信息瓶颈] 针对信息瓶颈（IB）多模态聚类高度依赖"准确的互信息估计 + 干净伪标签"这两件做不到的事，本文提出 CLIB——用"一个主聚类头 + 多个模态校准头"的并行多头结构，让模态间互相纠偏，再配上一个基于信息冗余度的动态伪标签筛选机制，既把聚类准确率（Caltech-3V 上 ACC 77.8%）做上去，又把过自信问题（ECE 在多个数据集上腰斩）压下来。
+tags:
+  - "ICLR2026"
+  - "多模态VLM"
+  - "信息瓶颈"
+  - "多模态聚类"
+  - "置信度校准"
+  - "伪标签筛选"
+  - "可信聚类"
+---
+
 # Calibrated Information Bottleneck for Trusted Multi-modal Clustering
 
 **会议**: ICLR2026  
-**OpenReview**: [iedlZOdI0d](https://openreview.net/forum?id=iedlZOdI0d)  
+**OpenReview**: [https://openreview.net/forum?id=iedlZOdI0d](https://openreview.net/forum?id=iedlZOdI0d)  
 **代码**: https://shizhehu.github.io/  
 **领域**: 自监督 / 多模态聚类 / 表示学习  
 **关键词**: 信息瓶颈, 多模态聚类, 置信度校准, 伪标签筛选, 可信聚类
@@ -97,6 +112,7 @@ $$S(P) = 1 - \frac{H(P)}{2 \times H_{max}}$$
 ECE 上优势尤其明显：ESP-Game、MIRFlickr 上 ECE 相比此前最优腰斩还多（12.1% / 10.5%），IAPR 上 7.8% 近乎是次优的三分之一——说明 CLIB 不仅准，还显著缓解了过自信。（注：KM、DIVIDE 这类硬聚类方法 ECE 标 N/A，因为对其框架无意义。）
 
 ### 消融实验
+
 | 配置 | Caltech-3V ACC / ECE | 说明 |
 |------|----------------------|------|
 | $L_{IB}+L_{cluH}$ | 60.6 / 25.5 | 只有 IB + 聚类头基线 |
@@ -138,3 +154,19 @@ ECE 上优势尤其明显：ESP-Game、MIRFlickr 上 ECE 相比此前最优腰�
 - 实验充分度: ⭐⭐⭐⭐ 五数据集三指标全面领先 + 完整消融 + 参数/收敛分析，但数据集规模偏小、缺更异构大规模验证。
 - 写作质量: ⭐⭐⭐⭐ 动机推导清晰、三大设计层层递进，理论（3 个定理）与实验呼应，个别符号（$L_{re}$ 与文中 $L_{en}$）略有出入。
 - 价值: ⭐⭐⭐⭐ 把"可信聚类"做进无监督多模态场景，对安全攸关落地有现实意义，筛选器与 stop-gradient 技巧可复用。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2025\] Learning Optimal Multimodal Information Bottleneck Representations](../../ICML2025/multimodal_vlm/learning_optimal_multimodal_information_bottleneck_representations.md)
+- [\[ACL 2026\] From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck](../../ACL2026/multimodal_vlm/from_verbatim_to_gist_distilling_pyramidal_multimodal_memory_via_semantic_inform.md)
+- [\[AAAI 2026\] Conditional Information Bottleneck for Multimodal Fusion: Overcoming Shortcut Learning in Sarcasm Detection](../../AAAI2026/multimodal_vlm/conditional_information_bottleneck_for_multimodal_fusion_overcoming_shortcut_lea.md)
+- [\[CVPR 2026\] Reliable Clustering Number Estimation for Contrastive Multi-View Clustering](../../CVPR2026/multimodal_vlm/reliable_clustering_number_estimation_for_contrastive_multi-view_clustering.md)
+- [\[CVPR 2026\] SeD-UD: An Influence-Driven and Hierarchically-Decoupled Information Bottleneck for Multimodal Intent Recognition](../../CVPR2026/multimodal_vlm/sed-ud_an_influence-driven_and_hierarchically-decoupled_information_bottleneck_f.md)
+
+</div>
+
+<!-- RELATED:END -->

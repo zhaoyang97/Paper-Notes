@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Solving Inverse Problems with Flow-based Models via Model Predictive Control
+description: >-
+  [ICML 2026][图像恢复][流匹配] 把"用预训练流模型解逆问题"重新表述为**模型预测控制（MPC）**——不再一次性优化整条采样轨迹，而是在每个时间步只解一个短视野子问题、施加一步控制再重规划，从而在显著降低显存的同时，还能推导出一个**完全不需要对流模型反向传播**的变体，进而把训练无关引导扩展到量化后的 FLUX.2（32B）级别、在 24GB 消费级显卡上跑通。
+tags:
+  - "ICML 2026"
+  - "图像恢复"
+  - "流匹配"
+  - "最优控制"
+  - "模型预测控制"
+  - "训练无关引导"
+  - "逆问题"
+---
+
 # Solving Inverse Problems with Flow-based Models via Model Predictive Control
 
 **会议**: ICML 2026  

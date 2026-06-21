@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Deep Residual Injection for Full-Spectrum Forensic Signal Perception in Multimodal Large Language Models
+description: >-
+  [ICML 2026][AIGC检测][AI生成图像检测] 本文发现：把 MLLM 直接微调去学生成器留下的低级伪影，会破坏它早期形成的语义表征（灾难性遗忘）；于是提出 Deep-VRM——冻结早中层保住语义，只在 LLM 深层用一条 LoRA 旁路把伪影特征"残差注入"进去，让同一个 MLLM 不依赖任何外部专家检测器就拿下大多数 AIGI 基准的 SOTA。
+tags:
+  - "ICML 2026"
+  - "AIGC检测"
+  - "AI生成图像检测"
+  - "多模态大模型"
+  - "残差注入"
+  - "灾难性遗忘"
+  - "分层分析"
+---
+
 # Deep Residual Injection for Full-Spectrum Forensic Signal Perception in Multimodal Large Language Models
 
 **会议**: ICML 2026  

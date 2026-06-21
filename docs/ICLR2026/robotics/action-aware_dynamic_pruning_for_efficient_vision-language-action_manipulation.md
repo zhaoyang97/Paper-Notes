@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation
+description: >-
+  [ICLR 2026][机器人][VLA 模型] 针对 VLA（视觉-语言-动作）模型推理时视觉 token 太多、算力被注意力吃光的问题，本文提出 ADP（Action-aware Dynamic Pruning）：用文本相关性挑出任务相关的视觉 token 做前瞻式剪枝，再用机器人末端执行器的近期运动幅度当门控信号——粗动作阶段（位移大）激进剪枝省算力、精细操作阶段（位移小）恢复全视觉保精度，在 LIBERO 上把 OpenVLA-OFT 加速到 1.35× 而成功率几乎不掉，真机延迟降到 1.49×。
+tags:
+  - "ICLR 2026"
+  - "机器人"
+  - "VLA 模型"
+  - "视觉 token 剪枝"
+  - "动作感知"
+  - "推理加速"
+  - "机器人操作"
+---
+
 # Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation
 
 **会议**: ICLR 2026  
-**OpenReview**: [ea6j8k8Rnw](https://openreview.net/forum?id=ea6j8k8Rnw)  
+**OpenReview**: [https://openreview.net/forum?id=ea6j8k8Rnw](https://openreview.net/forum?id=ea6j8k8Rnw)  
 **代码**: 待确认（论文标注 Project 页可用）  
 **领域**: 机器人 / 具身智能 / VLA 效率  
 **关键词**: VLA 模型, 视觉 token 剪枝, 动作感知, 推理加速, 机器人操作
@@ -132,10 +147,10 @@ ADP 是**免训练（training-free）**的即插即用推理期方法，不引�
 ## 相关论文
 
 - [\[ICML 2026\] SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning](../../ICML2026/robotics/specprune-vla_accelerating_vision-language-action_models_via_action-aware_self-s.md)
+- [\[ICLR 2026\] Hybrid Training for Vision-Language-Action Models](hybrid_training_for_vision-language-action_models.md)
+- [\[ICLR 2026\] UniVLA: Unified Vision-Language-Action Model](unified_vision-language-action_model.md)
 - [\[ICLR 2026\] TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models](twinvla_data-efficient_bimanual_manipulation_with_twin_single-arm_vision-languag.md)
-- [\[ICLR 2026\] MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation](memoryvla_perceptual-cognitive_memory_in_vision-language-action_models_for_robot.md)
-- [\[ICML 2026\] Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action](../../ICML2026/robotics/spatial_memory_for_out-of-vision_manipulation_in_vision-language-action.md)
-- [\[CVPR 2026\] Fast-ThinkAct: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning](../../CVPR2026/robotics/fast-thinkact_efficient_vision-language-action_reasoning_via_verbalizable_latent.md)
+- [\[ICLR 2026\] Vision-Language-Action Instruction Tuning: From Understanding to Manipulation](vision-language-action_instruction_tuning_from_understanding_to_manipulation.md)
 
 </div>
 

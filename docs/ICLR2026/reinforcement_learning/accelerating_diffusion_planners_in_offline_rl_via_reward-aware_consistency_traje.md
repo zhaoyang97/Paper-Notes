@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation
+description: >-
+  [ICLR2026][强化学习][离线强化学习] RACTD 把奖励优化目标直接塞进一致性轨迹蒸馏过程，用一个预训练的扩散教师规划器 + 一个独立训练的无噪声奖励模型，蒸馏出一个**单步采样**的学生规划器；它在 D4RL 上比之前 SOTA 平均高 9.7%，同时推理比扩散教师快多达 142 倍。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "扩散规划器"
+  - "一致性轨迹蒸馏"
+  - "奖励引导"
+  - "单步采样"
+---
+
 # Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation
 
 **会议**: ICLR2026  
-**OpenReview**: [hRuTBS07C7](https://openreview.net/forum?id=hRuTBS07C7)  
+**OpenReview**: [https://openreview.net/forum?id=hRuTBS07C7](https://openreview.net/forum?id=hRuTBS07C7)  
 **代码**: 待确认（论文承诺录用后开源）  
 **领域**: 强化学习 / 扩散模型 / 一致性蒸馏  
 **关键词**: 离线强化学习, 扩散规划器, 一致性轨迹蒸馏, 奖励引导, 单步采样
@@ -139,10 +154,10 @@ Large maze 规划维度高达 384（MuJoCo 仅 16），Diffuser 要 256 步去�
 ## 相关论文
 
 - [\[ICML 2026\] DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning](../../ICML2026/reinforcement_learning/darts_distribution-aware_active_rollout_trajectory_shaping_for_accelerating_llm_.md)
-- [\[ICLR 2026\] Offline Reinforcement Learning with Generative Trajectory Policies](offline_reinforcement_learning_with_generative_trajectory_policies.md)
-- [\[ICLR 2026\] ROMI: Model-based Offline RL via Robust Value-Aware Model Learning with Implicitly Differentiable Adaptive Weighting](model-based_offline_rl_via_robust_value-aware_model_learning_with_implicitly_dif.md)
-- [\[ICLR 2026\] Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making](ada-diffuser_latent-aware_adaptive_diffusion_for_decision-making.md)
-- [\[CVPR 2026\] PlannerRFT: Reinforcing Diffusion Planners through Closed-Loop and Sample-Efficient Fine-Tuning](../../CVPR2026/reinforcement_learning/plannerrft_reinforcing_diffusion_planners.md)
+- [\[ICLR 2026\] One-Step Flow Q-Learning: Addressing the Diffusion Policy Bottleneck in Offline RL](one-step_flow_q-learning_addressing_the_diffusion_policy_bottleneck_in_offline_r.md)
+- [\[ICLR 2026\] Improving and Accelerating Offline RL in Large Discrete Action Spaces with Structured Policy Initialization](improving_and_accelerating_offline_rl_in_large_discrete_action_spaces_with_struc.md)
+- [\[ICLR 2026\] Beyond Penalization: Diffusion-based Out-of-Distribution Detection and Selective Regularization in Offline Reinforcement Learning](beyond_penalization_diffusion-based_out-of-distribution_detection_and_selective_.md)
+- [\[ICLR 2026\] DEAS: DEtached value learning with Action Sequence for Scalable Offline RL](deas_detached_value_learning_with_action_sequence_for_scalable_offline_rl.md)
 
 </div>
 

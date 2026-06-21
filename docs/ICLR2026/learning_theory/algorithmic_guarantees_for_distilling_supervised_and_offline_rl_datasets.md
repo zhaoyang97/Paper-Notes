@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Algorithmic Guarantees for Distilling Supervised and Offline RL Datasets
+description: >-
+  [ICLR2026][学习理论][样本复杂度] 本文给"数据集蒸馏"补上了第一套**无需训练模型**的可证明算法保证：对线性回归，证明只要用 $\tilde O(d^2)$ 个随机采样的回归器做凸的损失匹配，就能得到一份让任意有界线性模型 MSE 几乎不变的合成数据集，并给出匹配的 $\Omega(d^2)$ 下界；进一步把方法搬到离线 RL，用 Bellman 损失匹配得到同类保证，并在玩具 RL 环境上验证。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "数据集蒸馏"
+  - "离线强化学习"
+  - "样本复杂度"
+  - "损失匹配"
+  - "Bellman 损失"
+  - "反集中不等式"
+---
+
 # Algorithmic Guarantees for Distilling Supervised and Offline RL Datasets
 
 **会议**: ICLR2026  
-**OpenReview**: [zueIXg5FP5](https://openreview.net/forum?id=zueIXg5FP5)  
+**OpenReview**: [https://openreview.net/forum?id=zueIXg5FP5](https://openreview.net/forum?id=zueIXg5FP5)  
 **代码**: https://github.com/google-deepmind/loss_matching_dataset_distillation  
 **领域**: 学习理论 / 数据集蒸馏 / 离线强化学习  
 **关键词**: 数据集蒸馏, 样本复杂度, 损失匹配, Bellman 损失, 反集中不等式
@@ -128,11 +144,11 @@ $$D^{\text{sup}}_{\text{syn}} = \arg\min_{D_{\text{syn}}} \sum_{j=1}^k L^{\text{
 
 ## 相关论文
 
-- [\[ICML 2025\] Positional Attention: Expressivity and Learnability of Algorithmic Computation](../../ICML2025/learning_theory/positional_attention_expressivity_and_learnability_of_algorithmic_computation.md)
+- [\[ICLR 2026\] Towards a Sharp Analysis of Offline Policy Learning for f-Divergence-Regularized Contextual Bandits](towards_a_sharp_analysis_of_offline_policy_learning_for_f-divergence-regularized.md)
+- [\[ICLR 2026\] On the Computational Limits of AI4S-RL：A Unified $\varepsilon$-$N$ Analysis](on_the_computational_limits_of_ai4s-rl_a_unified_varepsilon-n_analysis.md)
+- [\[ICLR 2026\] Larger Datasets Can Be Repeated More: A Theoretical Analysis of Multi-Epoch Scaling in Linear Regression](larger_datasets_can_be_repeated_more_a_theoretical_analysis_of_multi-epoch_scali.md)
+- [\[ICLR 2026\] Reshaping Reasoning in LLMs: A Theoretical Analysis of RL Training Dynamics through Pattern Selection](reshaping_reasoning_in_llms_a_theoretical_analysis_of_rl_training_dynamics_throu.md)
 - [\[ICML 2026\] Formalizing Learning from Language Feedback with Provable Guarantees](../../ICML2026/learning_theory/formalizing_learning_from_language_feedback_with_provable_guarantees.md)
-- [\[ICML 2026\] Semi-Supervised Noise Adaptation: Transferring Knowledge from Noise Domain](../../ICML2026/learning_theory/semi-supervised_noise_adaptation_transferring_knowledge_from_noise_domain.md)
-- [\[ICLR 2026\] Scalable Random Wavelet Features: Efficient Non-Stationary Kernel Approximation with Convergence Guarantees](scalable_random_wavelet_features_efficient_non-stationary_kernel_approximation_w.md)
-- [\[ICML 2026\] Revenue Guarantees of No-Swap-Regret Dynamics in First Price Auctions](../../ICML2026/learning_theory/revenue_guarantees_of_no-swap-regret_dynamics_in_first_price_auctions.md)
 
 </div>
 

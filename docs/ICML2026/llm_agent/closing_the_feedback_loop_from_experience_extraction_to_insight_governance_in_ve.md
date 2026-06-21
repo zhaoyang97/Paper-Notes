@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Closing the Feedback Loop: From Experience Extraction to Insight Governance in Verbal Reinforcement Learning
+description: >-
+  [ICML 2026][LLM Agent][言语强化学习] 这篇论文指出训练自由的「言语强化学习」（不更新参数、把经验提炼成规则塞进上下文）在非平稳环境里有个被忽视的「保留-遗忘困境」，提出一套「规则 / 证据 / 技能」三层架构 + critic-proposer-curator 治理回环，让同一批积累的经验从「拉低到零样本基线以下」翻转成「方向准确率 +5.3pp、Sharpe 翻倍」。
+tags:
+  - "ICML 2026"
+  - "LLM Agent"
+  - "言语强化学习"
+  - "世界反馈"
+  - "知识治理"
+  - "Agent 记忆"
+  - "非平稳环境"
+---
+
 # Closing the Feedback Loop: From Experience Extraction to Insight Governance in Verbal Reinforcement Learning
 
 **会议**: ICML 2026  

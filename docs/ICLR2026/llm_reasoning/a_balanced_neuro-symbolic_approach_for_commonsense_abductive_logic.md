@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Balanced Neuro-Symbolic Approach for Commonsense Abductive Logic
+description: >-
+  [ICLR 2026][Reasoning][溯因推理] ARGOS 让 LLM 和 SAT 求解器互相喂信息：求解器先吐出"已确定为真的文字"（骨架），LLM 据此猜出缺失的常识子句并打分过滤，再丢回求解器，如此迭代补全那些"光看题面推不出答案、缺常识假设"的逻辑题，在多个数据集上比纯神经/纯符号方法最多高 13%。
+tags:
+  - "ICLR 2026"
+  - "Reasoning"
+  - "溯因推理"
+  - "常识推理"
+  - "神经符号"
+  - "SAT 求解器"
+  - "自一致性"
+---
+
 # A Balanced Neuro-Symbolic Approach for Commonsense Abductive Logic
 
 **会议**: ICLR 2026  
-**OpenReview**: [RCsBoUr72G](https://openreview.net/forum?id=RCsBoUr72G)  
+**OpenReview**: [https://openreview.net/forum?id=RCsBoUr72G](https://openreview.net/forum?id=RCsBoUr72G)  
 **代码**: 待确认  
 **领域**: LLM推理 / 神经符号 / 溯因推理  
 **关键词**: 溯因推理, 常识推理, 神经符号, SAT 求解器, 自一致性
@@ -142,11 +157,11 @@ ARGOS 相对最强基线最多 +13%（QUAIL）。纯符号方法（SAT-LM、LoT-
 
 ## 相关论文
 
-- [\[AAAI 2026\] NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models](../../AAAI2026/llm_reasoning/nestr_a_neuro-symbolic_abductive_framework_for_temporal_reasoning_in_large_langu.md)
+- [\[ICLR 2026\] VERICOT: Neuro-Symbolic Chain-of-Thought Validation via Logical Consistency Checks](vericot_neuro-symbolic_chain-of-thought_validation_via_logical_consistency_check.md)
 - [\[ACL 2025\] Commonsense Abductive Reasoning using Knowledge from Multiple Sources](../../ACL2025/llm_reasoning/commonsense_abductive_reasoning_using_knowledge_from_multiple_sources.md)
-- [\[ACL 2026\] Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication](../../ACL2026/llm_reasoning/accurate_legal_reasoning_at_scale_neuro-symbolic_offloading_and_structural_audit.md)
-- [\[ICLR 2026\] DESIGNER: Design-Logic-Guided Multidisciplinary Data Synthesis for LLM Reasoning](designer_design-logic-guided_multidisciplinary_data_synthesis_for_llm_reasoning.md)
-- [\[ICLR 2026\] Conflict-Aware Fusion: Resolving Logic Inertia in Large Language Models via Structured Cognitive Priors](conflict-aware_fusion_resolving_logic_inertia_in_large_language_models_via_struc.md)
+- [\[AAAI 2026\] NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models](../../AAAI2026/llm_reasoning/nestr_a_neuro-symbolic_abductive_framework_for_temporal_reasoning_in_large_langu.md)
+- [\[ICLR 2026\] ProofFlow: A Dependency Graph Approach to Faithful Proof Autoformalization](proofflow_a_dependency_graph_approach_to_faithful_proof_autoformalization.md)
+- [\[ICLR 2026\] Strategic Scaling of Test-Time Compute: A Bandit Learning Approach](strategic_scaling_of_test-time_compute_a_bandit_learning_approach.md)
 
 </div>
 

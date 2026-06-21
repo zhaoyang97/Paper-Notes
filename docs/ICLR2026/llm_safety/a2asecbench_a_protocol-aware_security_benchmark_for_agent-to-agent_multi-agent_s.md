@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems
+description: >-
+  [ICLR 2026][LLM安全][A2A 协议] 这篇论文首次系统地评估了 Agent-to-Agent（A2A）协议驱动的多智能体系统的安全性：作者提出一套覆盖"供应链操纵"和"协议逻辑弱点"两大类、共 6 种协议感知攻击的威胁分类法，并据此构建首个 A2A 专用安全 benchmark——A2ASecBench，用动态适配器把攻击迁移到不同 agent 栈与下游任务、用"安全-效用联合评测"同时量化危害性与有用性，在官方 A2A demo 的旅行/医疗/金融三个高风险场景里发现多数攻击的攻击成功率（ASR）高达 100%，且能迁移到 LangGraph、ANP 等其他生态。
+tags:
+  - "ICLR 2026"
+  - "LLM安全"
+  - "A2A 协议"
+  - "多智能体系统"
+  - "安全评测"
+  - "威胁建模"
+  - "协议感知攻击"
+---
+
 # A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems
 
 **会议**: ICLR 2026  
-**OpenReview**: [LfdFnakqGJ](https://openreview.net/forum?id=LfdFnakqGJ)  
+**OpenReview**: [https://openreview.net/forum?id=LfdFnakqGJ](https://openreview.net/forum?id=LfdFnakqGJ)  
 **代码**: https://safo-lab.github.io/A2ASecBench/  
 **领域**: 多智能体安全 / Agent / 安全 Benchmark  
 **关键词**: A2A 协议, 多智能体系统, 安全评测, 威胁建模, 协议感知攻击
@@ -133,11 +148,11 @@ A2A-MAS 实现千差万别（不同后端、不同领域工具池），如果攻
 
 ## 相关论文
 
-- [\[ICLR 2026\] Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](breaking_agent_backbones_evaluating_the_security_of_backbone_llms_in_ai_agents.md)
+- [\[ICLR 2026\] Optimizing Agent Planning for Security and Autonomy](optimizing_agent_planning_for_security_and_autonomy.md)
 - [\[ICLR 2026\] From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning](from_static_benchmarks_to_dynamic_protocol_agent-centric_text_anomaly_detection_.md)
+- [\[ICLR 2026\] Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](breaking_agent_backbones_evaluating_the_security_of_backbone_llms_in_ai_agents.md)
 - [\[ICML 2025\] TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems](../../ICML2025/llm_safety/tamas_benchmarking_adversarial_risks_in_multi-agent_llm_systems.md)
-- [\[ACL 2026\] Privacy-R1: Privacy-Aware Multi-LLM Agent Collaboration via Reinforcement Learning](../../ACL2026/llm_safety/privacy-r1_privacy-aware_multi-llm_agent_collaboration_via_reinforcement_learnin.md)
-- [\[AAAI 2026\] From Single to Societal: Analyzing Persona-Induced Bias in Multi-Agent Interactions](../../AAAI2026/llm_safety/from_single_to_societal_analyzing_persona-induced_bias_in_multi-agent_interactio.md)
+- [\[ICLR 2026\] RedCodeAgent: Automatic Red-teaming Agent against Diverse Code Agents](redcodeagent_automatic_red-teaming_agent_against_diverse_code_agents.md)
 
 </div>
 

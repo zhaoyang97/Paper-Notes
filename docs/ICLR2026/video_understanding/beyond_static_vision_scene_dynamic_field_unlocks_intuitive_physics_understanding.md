@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Static Vision: Scene Dynamic Field Unlocks Intuitive Physics Understanding in Multi-modal Large Language Models
+description: >-
+  [ICLR2026][视频理解][直觉物理] 这篇论文先用 Next Frame Selection（下一帧选择）和 Temporal Coherence Verification（时序一致性判别）两个"低层"诊断任务，揭示当前 MLLM 连流体这类连续介质的直觉物理动态都看不懂；再提出 Scene Dynamic Field（SDF）——把物理模拟器算出的粒子速度映射成蓝色梯度图当视觉提示，配合多任务微调，让 Qwen2-VL / GLM-4.1V 在流体任务上最高涨 20.7%，并能迁移到布料、沙、烟雾等未见物理域。
+tags:
+  - "ICLR2026"
+  - "视频理解"
+  - "直觉物理"
+  - "多模态大模型"
+  - "物理模拟器"
+  - "视觉提示"
+  - "多任务微调"
+---
+
 # Beyond Static Vision: Scene Dynamic Field Unlocks Intuitive Physics Understanding in Multi-modal Large Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [Ax02eR2c3d](https://openreview.net/forum?id=Ax02eR2c3d)  
+**OpenReview**: [https://openreview.net/forum?id=Ax02eR2c3d](https://openreview.net/forum?id=Ax02eR2c3d)  
 **代码**: https://github.com/andylinx/Scene-Dynamic-Field  
 **领域**: 视频理解 / 多模态VLM  
 **关键词**: 直觉物理, 多模态大模型, 物理模拟器, 视觉提示, 多任务微调
@@ -86,6 +101,7 @@ SDF 增强后（Figure 4A，流体基准 NFS Score），相对零样本大幅提
 TCV 任务上 SDF 也把分数从 70.1 提到 80.2。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | 模型缩放（InternVL2.5 2B→26B） | NFS 25.33 → 20.60，不升反降 | 单纯堆参数解决不了物理动态理解 |
@@ -128,11 +144,11 @@ TCV 任务上 SDF 也把分数从 70.1 提到 80.2。
 
 ## 相关论文
 
-- [\[ICCV 2025\] 4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding](../../ICCV2025/video_understanding/4d_bench_benchmarking_multimodal_llms_for_4d_object_understanding.md)
+- [\[ICLR 2026\] LLaVAction: Evaluating and Training Multi-modal Large Language Models for Action Understanding](llavaction_evaluating_and_training_multi-modal_large_language_models_for_action_.md)
 - [\[CVPR 2026\] Beyond Static Frames: Temporal Aggregate-and-Restore Vision Transformer for Human Pose Estimation](../../CVPR2026/video_understanding/beyond_static_frames_temporal_aggregate-and-restore_vision_transformer_for_human.md)
-- [\[CVPR 2025\] VoCo-LLaMA: Towards Vision Compression with Large Language Models](../../CVPR2025/video_understanding/voco-llama_towards_vision_compression_with_large_language_models.md)
-- [\[ICML 2026\] OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models](../../ICML2026/video_understanding/omnisift_modality-asymmetric_token_compression_for_efficient_omni-modal_large_la.md)
+- [\[ICCV 2025\] 4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding](../../ICCV2025/video_understanding/4d_bench_benchmarking_multimodal_llms_for_4d_object_understanding.md)
 - [\[NeurIPS 2025\] FastVID: Dynamic Density Pruning for Fast Video Large Language Models](../../NeurIPS2025/video_understanding/fastvid_dynamic_density_pruning_for_fast_video_large_languag.md)
+- [\[CVPR 2025\] VoCo-LLaMA: Towards Vision Compression with Large Language Models](../../CVPR2025/video_understanding/voco-llama_towards_vision_compression_with_large_language_models.md)
 
 </div>
 

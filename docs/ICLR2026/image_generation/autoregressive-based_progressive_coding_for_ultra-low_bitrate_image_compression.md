@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression
+description: >-
+  [ICLR 2026][图像生成][超低比特率压缩] ARPC 把视觉自回归模型 VAR 的「下一尺度预测」拿来做超低比特率图像压缩：编码端用多尺度残差量化器把图像拆成 K 套从粗到细的离散 token，只传前 k 套、其余由 VAR 自回归生成补齐，从而单模型就能连续调码率；再用 VAR 当概率估计器做无损算术编码、用分组掩码量化器进一步省比特，在 <0.05 bpp 下感知质量超过 13 个扩散/token 基线，解码还快 2∼6×。
+tags:
+  - "ICLR 2026"
+  - "图像生成"
+  - "超低比特率压缩"
+  - "视觉自回归(VAR)"
+  - "渐进式编码"
+  - "残差量化"
+  - "无损熵编码"
+---
+
 # Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression
 
 **会议**: ICLR 2026  
-**OpenReview**: [FXu4G5T5QZ](https://openreview.net/forum?id=FXu4G5T5QZ)  
+**OpenReview**: [https://openreview.net/forum?id=FXu4G5T5QZ](https://openreview.net/forum?id=FXu4G5T5QZ)  
 **代码**: https://github.com/Joanna-0421/ARPC  
 **领域**: 图像压缩 / 图像恢复 / 视觉自回归  
 **关键词**: 超低比特率压缩, 视觉自回归(VAR), 渐进式编码, 残差量化, 无损熵编码
@@ -83,6 +98,7 @@ flowchart TD
 > 表中 FID/DISTS 等列为按对应指标算的 BD-rate（相对 ARPC 的百分比，越大越差）。解码上 ARPC 仅 5.39s，比 PerCo 快约一倍、比 DiffC 快 2∼6×；解码步数固定 13，时延确定（不像 DiffC 是一段可变区间）。编码时延随码率上升（要为前 k 尺度预测概率做算术编码），但低码率下 token 少、开销极小。
 
 ### 消融实验
+
 | 配置 | 影响 | 说明 |
 |------|------|------|
 | Full ARPC | — | 完整模型 |
@@ -119,3 +135,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐⭐ 13 基线 ×6 感知指标 ×2 数据集，含效率/BD-rate 与三项消融，证据链完整。
 - 写作质量: ⭐⭐⭐⭐ 框架与失真上界讲得清楚；个别符号/图注（如 BD-rate 列含义）需对照原文。
 - 价值: ⭐⭐⭐⭐⭐ 给生成式压缩开了一条「自回归 + 渐进可截断」的新路线，单模型多码率且解码更快，实用性强。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] FocalCodec: Low-Bitrate Speech Coding via Focal Modulation Networks](../../NeurIPS2025/image_generation/focalcodec_low-bitrate_speech_coding_via_focal_modulation_networks.md)
+- [\[ICLR 2026\] Latent Wavelet Diffusion for Ultra-High-Resolution Image Synthesis](latent_wavelet_diffusion_for_ultra_high-resolution_image_synthesis.md)
+- [\[ICLR 2026\] Autoregressive Image Generation with Randomized Parallel Decoding](autoregressive_image_generation_with_randomized_parallel_decoding.md)
+- [\[ICLR 2026\] From Parameters to Behaviors: Unsupervised Compression of the Policy Space](from_parameters_to_behaviors_unsupervised_compression_of_the_policy_space.md)
+- [\[ICLR 2026\] NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale](nextstep-1_toward_autoregressive_image_generation_with_continuous_tokens_at_scal.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ALM-MTA: Front-Door Causal Multi-Touch Attribution Method for Creator-Ecosystem Optimization
+description: >-
+  [ICLR2026][因果推理][多触点归因] 针对短视频平台「消费驱动创作」场景中无真值标签、又存在系统级隐混淆的归因难题，本文用**前门准则 + 对抗式学习的代理中介**把每个消费触点对「用户是否上传」的因果 uplift 识别出来，并用对比学习保证大动作空间下的 overlap，在快手 4 亿 DAU 真实系统上把上传 AUC 提到 0.907（相对 SOTA +40%）、单位曝光效率提升 670%。
+tags:
+  - "ICLR2026"
+  - "因果推理"
+  - "多触点归因"
+  - "前门准则"
+  - "对抗式中介"
+  - "对比学习"
+  - "推荐系统去混淆"
+---
+
 # ALM-MTA: Front-Door Causal Multi-Touch Attribution Method for Creator-Ecosystem Optimization
 
 **会议**: ICLR2026  
-**OpenReview**: [3r68a6GOpg](https://openreview.net/forum?id=3r68a6GOpg)  
+**OpenReview**: [https://openreview.net/forum?id=3r68a6GOpg](https://openreview.net/forum?id=3r68a6GOpg)  
 **代码**: 待确认  
 **领域**: 因果推断 / 多触点归因  
 **关键词**: 多触点归因、前门准则、对抗式中介、对比学习、推荐系统去混淆
@@ -137,11 +152,11 @@ ALM-MTA 在四项指标上全面最优：相对最强基线 causalMTA，AUC +0.0
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Bi-Level Decision-Focused Causal Learning for Large-Scale Marketing Optimization](../../NeurIPS2025/causal_inference/bi-level_decision-focused_causal_learning_for_large-scale_marketing_optimization.md)
-- [\[CVPR 2025\] Joint Scheduling of Causal Prompts and Tasks for Multi-Task Learning](../../CVPR2025/causal_inference/joint_scheduling_of_causal_prompts_and_tasks_for_multi-task_learning.md)
-- [\[ICCV 2025\] Social Debiasing for Fair Multi-modal LLMs](../../ICCV2025/causal_inference/social_debiasing_for_fair_multi-modal_llms.md)
-- [\[NeurIPS 2025\] A Principle of Targeted Intervention for Multi-Agent Reinforcement Learning](../../NeurIPS2025/causal_inference/a_principle_of_targeted_intervention_for_multi-agent_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Domain-Adapted Granger Causality for Real-Time Cross-Slice Attack Attribution in 6G Networks](../../NeurIPS2025/causal_inference/domain-adapted_granger_causality_for_real-time_cross-slice_attack_attribution_in.md)
+- [\[ICLR 2026\] Debiased Front-Door Learners for Heterogeneous Effects](debiased_front-door_learners_for_heterogeneous_effects.md)
+- [\[ICLR 2026\] Causal Score Conditioning for Multi-Resolution Latent Systems](causal_score_conditioning_for_multi-resolution_latent_systems.md)
+- [\[ICLR 2026\] Counterfactual Structural Causal Bandits](counterfactual_structural_causal_bandits.md)
+- [\[ICLR 2026\] Coarse-to-Fine Learning of Dynamic Causal Structures](coarse-to-fine_learning_of_dynamic_causal_structures.md)
+- [\[ICLR 2026\] Causal Discovery in the Wild: A Voting-Theoretic Ensemble Approach](causal_discovery_in_the_wild_a_voting-theoretic_ensemble_approach.md)
 
 </div>
 

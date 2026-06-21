@@ -16,7 +16,7 @@ tags:
 # Submodular Function Minimization with Dueling Oracle
 
 **会议**: ICLR 2026  
-**OpenReview**: [BeMtzSH1d7](https://openreview.net/forum?id=BeMtzSH1d7)  
+**OpenReview**: [https://openreview.net/forum?id=BeMtzSH1d7](https://openreview.net/forum?id=BeMtzSH1d7)  
 **代码**: 补充材料附带（论文未给公开仓库链接）  
 **领域**: 优化 / 子模优化 / 学习理论  
 **关键词**: 子模函数最小化, 对决预言机, Lovász 扩展, 随机梯度下降, 上下界
@@ -123,11 +123,11 @@ $$\hat\theta^*=\frac1b\log\frac{k_++\tfrac12}{k_-+\tfrac12}.$$
 
 ## 相关论文
 
-- [\[ICLR 2026\] Minor First, Major Last: A Depth-Induced Implicit Bias of Sharpness-Aware Minimization](minor_first_major_last_a_depth-induced_implicit_bias_of_sharpness-aware_minimiza.md)
-- [\[NeurIPS 2025\] Oracle-Efficient Combinatorial Semi-Bandits](../../NeurIPS2025/optimization/oracle-efficient_combinatorial_semi-bandits.md)
-- [\[ICML 2026\] Stability Analysis of Sharpness-Aware Minimization](../../ICML2026/optimization/stability_analysis_of_sharpness-aware_minimization.md)
-- [\[ICML 2026\] A General Framework for Dynamic Consistent Submodular Maximization](../../ICML2026/optimization/a_general_framework_for_dynamic_consistent_submodular_maximization.md)
-- [\[ICML 2025\] Tilted Sharpness-Aware Minimization](../../ICML2025/optimization/tilted_sharpness-aware_minimization.md)
+- [\[ICLR 2026\] Activation Function Design Sustains Plasticity in Continual Learning](activation_function_design_sustains_plasticity_in_continual_learning.md)
+- [\[ICLR 2026\] Reducing Contextual Stochastic Bilevel Optimization via Structured Function Approximation](reducing_contextual_stochastic_bilevel_optimization_via_structured_function_appr.md)
+- [\[ICLR 2026\] Towards Understanding the Calibration Benefits of Sharpness-Aware Minimization](towards_understanding_the_calibration_benefits_of_sharpness-aware_minimization.md)
+- [\[ICLR 2026\] Hyperbolic Aware Minimization: Implicit Bias for Sparsity](hyperbolic_aware_minimization_implicit_bias_for_sparsity.md)
+- [\[ICLR 2026\] Efficient Submodular Maximization for Sums of Concave over Modular Functions](efficient_submodular_maximization_for_sums_of_concave_over_modular_functions.md)
 
 </div>
 

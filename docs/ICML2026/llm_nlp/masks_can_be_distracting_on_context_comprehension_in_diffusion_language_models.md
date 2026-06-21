@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Masks Can Be Distracting: On Context Comprehension in Diffusion Language Models
+description: >-
+  [ICML2026][LLM 其他][掩码扩散语言模型] 这篇论文系统揭示了掩码扩散语言模型（MDLM）两个被忽视的缺陷——和自回归模型一样存在强局部性偏置、以及"为并行生成而追加的掩码 token 会像干扰物一样拖垮上下文理解"，并提出一个掩码无关（mask-agnostic）微调损失，强制模型预测对掩码数量保持不变，从而显著恢复鲁棒性。
+tags:
+  - "ICML2026"
+  - "LLM 其他"
+  - "掩码扩散语言模型"
+  - "上下文理解"
+  - "局部性偏置"
+  - "逆向缩放"
+  - "掩码无关微调"
+---
+
 # Masks Can Be Distracting: On Context Comprehension in Diffusion Language Models
 
 **会议**: ICML2026  

@@ -1,3 +1,20 @@
+---
+title: >-
+  [论文解读] The Data Manifold under the Microscope
+description: >-
+  [ICML 2026][学习理论][流形假设] 针对"流形拟合理论给的泛化/逼近界几乎无法在真实数据上验证"这个理论与实践的鸿沟，本文造了一个**可控的几何基准框架**：把 dSprites、COIL-20 这类数据集重做成沿变换轴**密集规则网格采样**的低维流形，再配上**有限差分几何估计器**，能在低内蕴维度下以接近真值的精度算出曲率、reach、体积，从而把 Genovese、Fefferman 等人的流形拟合界拿到"已知真值"的沙盒里做实测校准。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "流形几何"
+  - "表示分析"
+  - "流形假设"
+  - "内蕴维度"
+  - "曲率"
+  - "reach"
+  - "有限差分估计"
+---
+
 # The Data Manifold under the Microscope
 
 **会议**: ICML 2026  

@@ -1,3 +1,20 @@
+---
+title: >-
+  [论文解读] On the Robustness of Langevin Dynamics to Score Function Error
+description: >-
+  [ICML 2026][学习理论][Langevin 动力学] 这篇论文证明了一个反直觉的负面结果：即使分数函数的 $L^2$（乃至 $L^p$）估计误差任意小，Langevin 动力学在高维下仍可能在任何多项式时间内都采不出接近目标分布的样本（总变差距离高达 $1-e^{-\Omega(d)}$）；而同样条件下扩散模型却能多项式时间成功——这从一个新角度论证了「扩散模型比 Langevin 动力学更可靠」，并给出一条实用警告：用数据初始化时必须用没参与训练分数的新鲜样本。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "生成模型"
+  - "基于分数的采样"
+  - "Langevin 动力学"
+  - "扩散模型"
+  - "分数估计误差"
+  - "总变差距离"
+  - "数据初始化"
+---
+
 # On the Robustness of Langevin Dynamics to Score Function Error
 
 **会议**: ICML 2026  

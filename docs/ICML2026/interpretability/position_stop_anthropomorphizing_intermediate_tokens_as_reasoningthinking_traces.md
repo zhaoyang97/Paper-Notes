@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Position: Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces!
+description: >-
+  [ICML2026][可解释性][中间 token] 这是 Kambhampati 团队的立场文（position paper），核心主张：把推理模型（如 DeepSeek-R1）在给出答案前吐出的「中间 token」称作 "reasoning trace / thinking trace"（推理痕迹/思考痕迹）是一种**危险的拟人化**——它（1）是一厢情愿、（2）几乎没有实证支持、（3）制造对模型的虚假信任、（4）把社区推向无意义的研究方向；作者用一系列实验证据（A* 迷宫 trace 互换、trace 长度与问题复杂度脱钩、人类信任实验）论证 trace 的语义与最终解答正确性**根本脱钩**…
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "中间 token"
+  - "思维链"
+  - "拟人化"
+  - "RLVR"
+---
+
 # Position: Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces!
 
 **会议**: ICML2026  

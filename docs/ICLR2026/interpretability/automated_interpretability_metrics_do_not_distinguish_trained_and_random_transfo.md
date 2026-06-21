@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Automated Interpretability Metrics Do Not Distinguish Trained and Random Transformers
+description: >-
+  [ICLR 2026][可解释性][稀疏自编码器] 这篇论文给当下火热的稀疏自编码器（SAE）做了一次"理智检查"：把 SAE 同时套到训练好的 Transformer 和**随机初始化**的 Transformer 上，发现常用的自动可解释性分数（auto-interp AUROC）和重建指标在两者之间几乎区分不开，说明高可解释性分数本身**不能**证明 SAE 抓到了模型真正学到的计算特征。
+tags:
+  - "ICLR 2026"
+  - "可解释性"
+  - "稀疏自编码器"
+  - "自动可解释性"
+  - "随机基线"
+  - "叠加表示"
+  - "评测指标"
+---
+
 # Automated Interpretability Metrics Do Not Distinguish Trained and Random Transformers
 
 **会议**: ICLR 2026  
-**OpenReview**: [USyGD0eUod](https://openreview.net/forum?id=USyGD0eUod)  
+**OpenReview**: [https://openreview.net/forum?id=USyGD0eUod](https://openreview.net/forum?id=USyGD0eUod)  
 **代码**: 待确认  
 **领域**: 可解释性 / 机制可解释性 / 稀疏自编码器  
 **关键词**: 稀疏自编码器, 自动可解释性, 随机基线, 叠加表示, 评测指标
@@ -125,9 +140,9 @@ Pythia-6.9b 的 fuzzing ROC（每个 SAE 抽 100 latent）显示训练与随机�
 ## 相关论文
 
 - [\[ICLR 2026\] Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees](formal_mechanistic_interpretability_automated_circuit_discovery_with_provable_gu.md)
+- [\[ICLR 2026\] Sparse Autoencoders Trained on the Same Data Learn Different Features](sparse_autoencoders_trained_on_the_same_data_learn_different_features.md)
 - [\[ICLR 2026\] How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Understanding](how_do_transformers_learn_to_associate_tokens_gradient_leading_terms_bring_mecha.md)
-- [\[NeurIPS 2025\] How Do Transformers Learn Implicit Reasoning?](../../NeurIPS2025/interpretability/how_do_transformers_learn_implicit_reasoning.md)
-- [\[CVPR 2026\] Beyond Top Activations: Efficient and Reliable Crowdsourced Evaluation of Automated Interpretability](../../CVPR2026/interpretability/beyond_top_activations_efficient_and_reliable_crowdsourced_evaluation_of_automat.md)
+- [\[ICLR 2026\] Learning Pseudorandom Numbers with Transformers: Permuted Congruential Generators, Curricula, and Interpretability](learning_pseudorandom_numbers_with_transformers_permuted_congruential_generators.md)
 - [\[ACL 2025\] Enhancing Automated Interpretability with Output-Centric Feature Descriptions](../../ACL2025/interpretability/output_centric_interpretability.md)
 
 </div>

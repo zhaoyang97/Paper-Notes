@@ -1,3 +1,20 @@
+---
+title: >-
+  [论文解读] Formalizing Learning from Language Feedback with Provable Guarantees
+description: >-
+  [ICML 2026][学习理论][语言反馈学习] 本文为"从语言反馈中学习"（Learning from Language Feedback, LLF）这一 LLM 智能体常见但缺乏理论的决策范式建立了第一个形式化框架：在奖励潜在不可见的设定下给出可学习的充分假设、提出"迁移 eluder 维数"刻画其难度、证明信息丰富的语言反馈能比奖励学习指数级更快，并给出有理论保证的无悔算法 HELiX（在 Battleship、Minesweeper 上稳定胜过 CoT 提示基线）。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "无悔学习"
+  - "LLM智能体"
+  - "语言反馈学习"
+  - "无悔算法"
+  - "迁移 eluder 维数"
+  - "假设验证器"
+  - "推理时探索"
+---
+
 # Formalizing Learning from Language Feedback with Provable Guarantees
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Joint Diffusion Model with Pre-Trained Priors for RNA Sequence-Structure Co-Design
+description: >-
+  [ICLR2026][计算生物][RNA 设计] 把预训练的生物大分子结构预测模型 RoseTTAFold2NA 直接当作扩散去噪器，套进一个「离散序列扩散 + SE(3) 等变结构扩散」的联合框架（RiboDiff），用极少的 RNA 三维数据就能同时生成 RNA 序列和全原子三维构象，在单链 RNA、RNA-蛋白复合物、蛋白条件结合三类任务上把自洽性指标拉到远超从零训练的扩散/流匹配基线。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "RNA 设计"
+  - "序列-结构协同生成"
+  - "预训练先验"
+  - "离散扩散"
+  - "SE(3) 等变扩散"
+---
+
 # A Joint Diffusion Model with Pre-Trained Priors for RNA Sequence-Structure Co-Design
 
 **会议**: ICLR2026  
-**OpenReview**: [cpc63YrVWN](https://openreview.net/forum?id=cpc63YrVWN)  
+**OpenReview**: [https://openreview.net/forum?id=cpc63YrVWN](https://openreview.net/forum?id=cpc63YrVWN)  
 **代码**: 待确认  
 **领域**: 计算生物 / 扩散模型 / 生成式分子设计  
 **关键词**: RNA 设计, 序列-结构协同生成, 预训练先验, 离散扩散, SE(3) 等变扩散
@@ -134,11 +149,11 @@ RL 式推理增强 SVDD（$M=10$）在不更新任何参数的情况下，复合
 
 ## 相关论文
 
+- [\[ICLR 2026\] FlexRibbon: Joint Sequence and Structure Pretraining for Protein Modeling](flexribbon_joint_sequence_and_structure_pretraining_for_protein_modeling.md)
 - [\[ICML 2025\] eccDNAMamba: A Pre-Trained Model for Ultra-Long eccDNA Sequence Analysis](../../ICML2025/computational_biology/eccdnamamba_a_pre-trained_model_for_ultra-long_eccdna_sequence_analysis.md)
+- [\[ICLR 2026\] Constrained Diffusion for Protein Design with Hard Structural Constraints](constrained_diffusion_for_protein_design_with_hard_structural_constraints.md)
 - [\[CVPR 2026\] HINGE: Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images](../../CVPR2026/computational_biology/adapting_a_pre-trained_single-cell_foundation_model_to_spatial_gene_expression_g.md)
-- [\[ICML 2026\] Routing by Reaching: Composition of Pre-trained GFlowNets for Multi-Objective Generation](../../ICML2026/computational_biology/routing_by_reaching_composition_of_pre-trained_gflownets_for_multi-objective_gen.md)
-- [\[ICML 2025\] Graph Generative Pre-trained Transformer (G2PT)](../../ICML2025/computational_biology/graph_generative_pre-trained_transformer.md)
-- [\[ICML 2026\] Demystifying Multimodal Biomolecular Co-design with Intrinsic Geodesic Coupling](../../ICML2026/computational_biology/demystifying_multimodal_biomolecular_co-design_with_intrinsic_geodesic_coupling.md)
+- [\[ICLR 2026\] Multi-state Protein Sequence Design with DynamicMPNN](multi-state_protein_sequence_design_with_dynamicmpnn.md)
 
 </div>
 

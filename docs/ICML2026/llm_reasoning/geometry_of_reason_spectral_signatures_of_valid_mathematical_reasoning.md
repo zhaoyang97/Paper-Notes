@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning
+description: >-
+  [ICML2026][Reasoning][谱图论] 把 Transformer 每个注意力矩阵当成 token 加权图，提取 Fiedler 值、HFER、谱熵、平滑度四个无参谱诊断量，发现"有效数学推理"会在注意力谱上留下可测量的指纹（Cohen's $d$ 最高 3.30），从而**不需要任何训练**就能以 85–96% 的准确率判断一段证明是真推理还是模式匹配。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "谱图论"
+  - "注意力图"
+  - "推理验证"
+  - "无训练探针"
+  - "归纳头"
+---
+
 # Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning
 
 **会议**: ICML2026  

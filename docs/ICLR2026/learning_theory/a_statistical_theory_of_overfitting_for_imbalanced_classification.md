@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Statistical Theory of Overfitting for Imbalanced Classification
+description: >-
+  [ICLR2026][统计学习理论][不平衡分类] 本文为高维不平衡线性分类建立统计理论：在两类高斯混合模型下，测试集 logit 服从 $N(0,1)$，但训练集 logit 收敛到 $\max\{\kappa, N(0,1)\}$（截断高斯），并用一个变分问题刻画这种"截断"如何随维度发生，进而严格解释了为什么少数类受过拟合伤害更重、为什么 margin rebalancing 有效、以及过拟合如何连带恶化置信度校准。
+tags:
+  - "ICLR2026"
+  - "统计学习理论"
+  - "不平衡分类"
+  - "过拟合"
+  - "高维渐近"
+  - "截断高斯"
+  - "margin rebalancing"
+---
+
 # A Statistical Theory of Overfitting for Imbalanced Classification
 
 **会议**: ICLR2026  
-**OpenReview**: [cKthi6QfUr](https://openreview.net/forum?id=cKthi6QfUr)  
+**OpenReview**: [https://openreview.net/forum?id=cKthi6QfUr](https://openreview.net/forum?id=cKthi6QfUr)  
 **代码**: https://github.com/jlyu55/Imbalanced_Classification_iclr  
 **领域**: 统计学习理论  
 **关键词**: 不平衡分类, 过拟合, 高维渐近, 截断高斯, margin rebalancing
@@ -120,10 +135,10 @@ $$\max_{\rho\in[-1,1],\,\beta_0,\,\kappa>0,\,\xi\in L^2}\ \kappa \quad \text{s.t
 ## 相关论文
 
 - [\[ICML 2026\] AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory](../../ICML2026/learning_theory/ai4slt_empirical_processes_in_lean_4_for_formal_statistical_learning_theory.md)
-- [\[ICML 2026\] Performative Learning Theory](../../ICML2026/learning_theory/performative_learning_theory.md)
-- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
-- [\[ICLR 2026\] A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers](a_statistical_learning_perspective_on_semi-dual_adversarial_neural_optimal_trans.md)
-- [\[ICLR 2026\] A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data](a_generalized_geometric_theoretical_framework_of_centroid_discriminant_analysis_.md)
+- [\[ICLR 2026\] Conformal Prediction for Long-Tailed Classification](conformal_prediction_for_long-tailed_classification.md)
+- [\[ICLR 2026\] Learning Admissible Heuristics for A*: Theory and Practice](learning_admissible_heuristics_for_a_theory_and_practice.md)
+- [\[ICLR 2026\] Statistical and Structural Identifiability in Representation Learning](statistical_and_structural_identifiability_in_representation_learning.md)
+- [\[ICLR 2026\] Theoretical Analysis of Contrastive Learning under Imbalanced Data: From Training Dynamics to a Pruning Solution](theoretical_analysis_of_contrastive_learning_under_imbalanced_data_from_training.md)
 
 </div>
 

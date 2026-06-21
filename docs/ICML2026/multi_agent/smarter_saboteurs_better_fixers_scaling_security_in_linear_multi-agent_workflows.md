@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Smarter Saboteurs, Better Fixers: Scaling & Security in Linear Multi-Agent Workflows
+description: >-
+  [ICML2026][多智能体][多智能体系统] 本文用一条「产品经理→架构师→项目经理→工程师」的线性 MetaGPT 流水线，往工程师身上注入一个偷偷埋 bug 的恶意 agent，发现**模型越大、被破坏得越狠**（27B 时 Pass@1 掉 53.7pp），但只要在链尾接一个轻量的 QA+Fixer 纠错环节，掉点就被压回 0.6pp——说明此前归咎于「线性拓扑天然脆弱」的结论，其实是因为缺少终端纠错。
+tags:
+  - "ICML2026"
+  - "多智能体"
+  - "多智能体系统"
+  - "LLM 安全"
+  - "提示注入"
+  - "模型缩放"
+  - "线性拓扑"
+  - "验证纠错"
+---
+
 # Smarter Saboteurs, Better Fixers: Scaling & Security in Linear Multi-Agent Workflows
 
 **会议**: ICML2026  

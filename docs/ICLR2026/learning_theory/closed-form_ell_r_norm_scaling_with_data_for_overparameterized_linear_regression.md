@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] Closed-form $\ell_r$ norm scaling with data for overparameterized linear regression and diagonal linear networks under $\ell_p$ bias
+description: >-
+  [ICLR2026][学习理论][过参数化] 对过参数化线性回归（各向同性高斯设计、最小 $\ell_p$ 插值，$p\in(1,2]$），本文用一个简单的"对偶射线"分析，给出整族参数范数 $\{\|\hat w_p\|_r\}_{r\in[1,p]}$ 随样本量 $n$ 缩放的**闭式高概率刻画**：存在一个数据相关的转折点 $n^\star$（"肘点"）和一个普适阈值 $r^\star=2(p-1)$，把会随 $n$ 饱和的范数和会继续增长的范数一刀切开；并把同一套规律迁移到由梯度下降训练的对角线性网络（DLN）。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "过参数化线性回归"
+  - "过参数化"
+  - "最小 $\\ell_p$ 插值"
+  - "范数缩放律"
+  - "对偶射线分析"
+  - "对角线性网络"
+  - "隐式偏置"
+---
+
 # Closed-form $\ell_r$ norm scaling with data for overparameterized linear regression and diagonal linear networks under $\ell_p$ bias
 
 **会议**: ICLR2026  
-**OpenReview**: [qPKTDOJ5Xs](https://openreview.net/forum?id=qPKTDOJ5Xs)  
+**OpenReview**: [https://openreview.net/forum?id=qPKTDOJ5Xs](https://openreview.net/forum?id=qPKTDOJ5Xs)  
 **代码**: 待确认  
 **领域**: 学习理论 / 过参数化线性回归  
 **关键词**: 过参数化, 最小 $\ell_p$ 插值, 范数缩放律, 对偶射线分析, 对角线性网络, 隐式偏置
@@ -83,6 +100,7 @@ $$\|\hat w_p\|_r\ \asymp\ \begin{cases}\dfrac{\tau_s^{q+1}}{W_q}\,n^{\frac1r-\fr
 | 平坦靶 $w^\star$（$s=50$） | 同样的平台/增长规则，但转折尺度更大（$p=1.5$ 肘点后移甚至离屏） | 与 $n^\star$ 随 $s$ 近似线性右移一致 |
 
 ### 消融 / 分析实验
+
 | 配置 | 关键现象 | 说明 |
 |------|----------|------|
 | 加大稀疏度 $s\in\{500,5000\}$ | 定性图景重现但整体右移；$p=1.1$、$s=5000$ 时出现**双下降**（泛化误差先升后降），$\ell_{1.1}$ 沿 bulk 导线持续上升 | 印证 $n^\star$ 随 $s$ 增长 |
@@ -116,3 +134,19 @@ $$\|\hat w_p\|_r\ \asymp\ \begin{cases}\dfrac{\tau_s^{q+1}}{W_q}\,n^{\frac1r-\fr
 - 实验充分度: ⭐⭐⭐⭐ 系统 sweep $(r,p,s,\alpha,\text{lr},\sigma)$ 充分支撑理论，但全是合成数据、无真实网络验证。
 - 写作质量: ⭐⭐⭐⭐ 主定理与两区间推论结构清晰，spike/bulk 图像贯穿全文；公式密度高、对非理论读者门槛偏陡。
 - 价值: ⭐⭐⭐⭐ 对"用哪个范数做泛化代理"给出可操作告诫，理论桥接显式/隐式偏置，对理解过参数化有参考价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Covariate-Guided Clusterwise Linear Regression for Generalization to Unseen Data](covariate-guided_clusterwise_linear_regression_for_generalization_to_unseen_data.md)
+- [\[ICLR 2026\] Learning under Quantization for High-Dimensional Linear Regression](learning_under_quantization_for_high-dimensional_linear_regression.md)
+- [\[ICLR 2026\] Larger Datasets Can Be Repeated More: A Theoretical Analysis of Multi-Epoch Scaling in Linear Regression](larger_datasets_can_be_repeated_more_a_theoretical_analysis_of_multi-epoch_scali.md)
+- [\[ICLR 2026\] Implicit bias produces neural scaling laws in learning curves, from perceptrons to deep networks](implicit_bias_produces_neural_scaling_laws_in_learning_curves_from_perceptrons_t.md)
+- [\[ICLR 2026\] A New Approach to Controlling Linear Dynamical Systems](a_new_approach_to_controlling_linear_dynamical_systems.md)
+
+</div>
+
+<!-- RELATED:END -->

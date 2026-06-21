@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ActiveCQ: Active Estimation of Causal Quantities
+description: >-
+  [ICLR 2026][因果推理][因果量估计] ActiveCQ 把"用尽量少的标注样本估准某个因果量（CATE/ATE/ATT/分布漂移下的 ATE）"这件事统一成一个主动学习问题：发现绝大多数因果量都可以写成"回归函数对某个分布求积分"的形式，于是用高斯过程（GP）建模回归函数、用 RKHS 里的条件均值嵌入（CME）建模那个积分用的分布，再从因果量后验不确定性里解析地推出采集函数（信息增益 / 全方差缩减），在多个模拟与半合成数据集上以更少标注显著超过随机、BALD、Coreset 等基线。
+tags:
+  - "ICLR 2026"
+  - "因果推理"
+  - "因果量估计"
+  - "主动学习"
+  - "高斯过程"
+  - "条件均值嵌入"
+  - "贝叶斯实验设计"
+---
+
 # ActiveCQ: Active Estimation of Causal Quantities
 
 **会议**: ICLR 2026  
-**OpenReview**: [CWpQsAubxy](https://openreview.net/forum?id=CWpQsAubxy)  
+**OpenReview**: [https://openreview.net/forum?id=CWpQsAubxy](https://openreview.net/forum?id=CWpQsAubxy)  
 **代码**: 待确认  
 **领域**: 因果推断 / 主动学习  
 **关键词**: 因果量估计、主动学习、高斯过程、条件均值嵌入、贝叶斯实验设计
@@ -144,10 +159,10 @@ $$\mu_{s\mid z=z}:=E_{s\mid z=z}[\phi(s)]=\int_{\mathcal S}\phi(s)\,P_{s\mid z}(
 ## 相关论文
 
 - [\[ICLR 2026\] Direct Doubly Robust Estimation of Conditional Quantile Contrasts](direct_doubly_robust_estimation_of_conditional_quantile_contrasts.md)
-- [\[NeurIPS 2025\] Do-PFN: In-Context Learning for Causal Effect Estimation](../../NeurIPS2025/causal_inference/do-pfn_in-context_learning_for_causal_effect_estimation.md)
-- [\[ACL 2025\] Leveraging Variation Theory in Counterfactual Data Augmentation for Optimized Active Learning](../../ACL2025/causal_inference/leveraging_variation_theory_in_counterfactual_data_augmentation_for_optimized_ac.md)
-- [\[NeurIPS 2025\] An Analysis of Causal Effect Estimation Using Outcome Invariant Data Augmentation](../../NeurIPS2025/causal_inference/an_analysis_of_causal_effect_estimation_using_outcome_invariant_data_augmentatio.md)
-- [\[ICML 2025\] Transformer-Based Spatial-Temporal Counterfactual Outcomes Estimation](../../ICML2025/causal_inference/transformer-based_spatial-temporal_counterfactual_outcomes_estimation.md)
+- [\[ICLR 2026\] Overlap-Adaptive Regularization for Conditional Average Treatment Effect Estimation](overlap-adaptive_regularization_for_conditional_average_treatment_effect_estimat.md)
+- [\[ICLR 2026\] Matching without Group Barrier for Heterogeneous Treatment Effect Estimation](matching_without_group_barrier_for_heterogeneous_treatment_effect_estimation.md)
+- [\[ICLR 2026\] Modeling Interference for Treatment Effect Estimation in Network Dynamic Environment](modeling_interference_for_treatment_effect_estimation_in_network_dynamic_environ.md)
+- [\[ICLR 2026\] IGC-Net for Conditional Average Potential Outcome Estimation Over Time](igc-net_for_conditional_average_potential_outcome_estimation_over_time.md)
 
 </div>
 

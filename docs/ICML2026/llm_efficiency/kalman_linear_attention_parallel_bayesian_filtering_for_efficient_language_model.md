@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Kalman Linear Attention: Parallel Bayesian Filtering For Efficient Language Modelling and State Tracking
+description: >-
+  [ICML2026][LLM效率][卡尔曼滤波] 把序列混合重新解释成一次精确的贝叶斯滤波，用卡尔曼滤波器的"信息形式"把本该顺序递归的更新改写成可并行前缀扫描的 Möbius（分式线性）映射，得到一个即插即用、线性复杂度、却比 GLA 更具表达力、还自带显式不确定性的序列混合层 KLA。 领域现状：为了突破 Transfo…
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "卡尔曼滤波"
+  - "信息形式"
+  - "Möbius 扫描"
+  - "不确定性门控"
+  - "状态追踪"
+---
+
 # Kalman Linear Attention: Parallel Bayesian Filtering For Efficient Language Modelling and State Tracking
 
 **会议**: ICML2026  

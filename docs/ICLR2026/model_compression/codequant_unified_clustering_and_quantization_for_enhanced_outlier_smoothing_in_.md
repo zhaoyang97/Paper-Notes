@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts
+description: >-
+  [ICLR2026][模型压缩][MoE 量化] CodeQuant 把"可学习旋转把激活离群值挪到权重侧"和"用聚类质心吸收权重离群值"统一进一个针对 MoE 的后训练量化框架，再配一个 LUT 内核落地，在 A4W4 下把 Qwen3-30B-A3B 的平均精度比 QuaRot 提升 11.3%，并取得最高 4.15× 的推理加速。
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "MoE 量化"
+  - "离群值平滑"
+  - "权重聚类"
+  - "可学习旋转"
+  - "LUT 内核"
+---
+
 # CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [ATpchFiBQi](https://openreview.net/forum?id=ATpchFiBQi)  
+**OpenReview**: [https://openreview.net/forum?id=ATpchFiBQi](https://openreview.net/forum?id=ATpchFiBQi)  
 **代码**: https://github.com/SAI-Lab-NYU/CodeQuant  
 **领域**: 模型压缩 / 量化  
 **关键词**: MoE 量化、离群值平滑、权重聚类、可学习旋转、LUT 内核
@@ -79,6 +93,7 @@ ACCF 的效果强依赖于 $W_R$ 的初始化是否"易聚类"——AOS 只最�
 模型覆盖 Phi-mini-MoE-Instruct、Qwen3-30B-A3B、DeepSeek-V2-Lite、Mixtral 8×7B，评测含语言建模（WikiText2/C4 perplexity）、零样本 QA（ARC/HellaSwag/MMLU/PIQA/WinoGrande）和数学推理（GSM8K 8-shot、MATH500 4-shot）。两种配置：Embedding-wise（整个 embedding 维度内量化）与 Block-wise（$g=1024$ 分块）。"A4W4" 在 CodeQuant 中指激活 4-bit 线性量化、权重聚成 $2^4=16$ 个质心。
 
 ### 主实验（A4W4，Embedding-wise）
+
 | 模型 | 方法 | Wiki2 ↓ | C4 ↓ | 平均精度 ↑ |
 |------|------|---------|------|-----------|
 | Qwen3-30B-A3B | BF16 | 9.04 | 14.05 | 0.735 |
@@ -92,6 +107,7 @@ ACCF 的效果强依赖于 $W_R$ 的初始化是否"易聚类"——AOS 只最�
 CodeQuant 在 Qwen3-30B-A3B 上比 QuaRot 平均精度高 11.3%、Wiki2 降 5.73；Mixtral 上更夸张，平均精度高 22.8%、Wiki2 从 16.79 降到 4.65（几乎贴近 BF16 的 4.01）。RTN/SmoothQuant/SqueezeLLM 这些基线在 A4W4 下普遍崩盘（perplexity 上千）。数学推理（表 3）上 Qwen3-30B-A3B 的 GSM8K 比 QuaRot 高 35.9%、MATH500 高 11.3%。与旋转类强基线对比（表 2，启用在线 Hadamard 的 CodeQuant$_{had}$），Qwen3 上平均精度 0.653 > DuQuant 0.637 > SpinQuant 0.590。
 
 ### 消融实验
+
 | 配置 | 关键指标（DeepSeek-V2-Lite, A4W4） | 说明 |
 |------|-----------------------------------|------|
 | AOS：随机旋转 → 学习旋转 | Acc 0.652 → 0.667；Wiki2 7.29 → 7.06 | 旋转微调提精度 1.4%（表 4） |
@@ -129,3 +145,19 @@ CodeQuant 在 Qwen3-30B-A3B 上比 QuaRot 平均精度高 11.3%、Wiki2 降 5.73
 - 实验充分度: ⭐⭐⭐⭐ 四个真实 MoE、多任务、多比特预算、完整消融（AOS/KL/POG/比特预算），但 GPU 加速依赖模拟。
 - 写作质量: ⭐⭐⭐⭐ 框架图清晰、公式完整；正文一处说"三阶段"与图中四阶段略有出入，需对照图理解。
 - 价值: ⭐⭐⭐⭐ 直击低精度 MoE 部署的离群值痛点，A4W4 下逼近 BF16，且代码开源，落地价值高。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees](efficient_quantization_of_mixture-of-experts_with_theoretical_generalization_gua.md)
+- [\[ICLR 2026\] STaMP: Sequence Transformation and Mixed Precision for Low-Precision Activation Quantization](stamp_sequence_transformation_and_mixed_precision_for_low-precision_activation_q.md)
+- [\[ICLR 2026\] Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss](coupling_experts_and_routers_in_mixture-of-experts_via_an_auxiliary_loss.md)
+- [\[ICLR 2026\] UniQL: Unified Quantization and Low-Rank Compression for Adaptive Edge LLMs](uniql_unified_quantization_and_low-rank_compression_for_adaptive_edge_llms.md)
+- [\[ACL 2025\] MoQAE: Mixed-Precision Quantization for Long-Context LLM Inference via Mixture of Quantization-Aware Experts](../../ACL2025/model_compression/moqae_mixed_precision_kv_cache.md)
+
+</div>
+
+<!-- RELATED:END -->

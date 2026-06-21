@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Improved Convergence Analysis of Topology Dependence in Decentralized SGD
+description: >-
+  [ICML 2026][优化/理论][Decentralized SGD] 这篇论文给 Decentralized SGD 做了一次更紧的收敛性分析：把决定收敛速度的拓扑量从"只看谱隙（第二大特征值）"换成"看混合矩阵的全部特征值"，从而首次在理论上解释了为什么在数据近同构时，环（ring）这类稀疏拓扑的训练表现远好于旧分析的悲观预言。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "Decentralized SGD"
+  - "gossip averaging"
+  - "网络拓扑"
+  - "谱隙"
+  - "混合矩阵特征谱"
+---
+
 # Improved Convergence Analysis of Topology Dependence in Decentralized SGD
 
 **会议**: ICML 2026  

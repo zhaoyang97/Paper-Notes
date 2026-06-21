@@ -16,7 +16,7 @@ tags:
 # Task Tokens: A Flexible Approach to Adapting Behavior Foundation Models
 
 **会议**: ICLR 2026  
-**OpenReview**: [6T3wJQhvc3](https://openreview.net/forum?id=6T3wJQhvc3)  
+**OpenReview**: [https://openreview.net/forum?id=6T3wJQhvc3](https://openreview.net/forum?id=6T3wJQhvc3)  
 **代码**: 见补充材料（项目页 sites.google.com/view/task-tokens）  
 **领域**: 强化学习  
 **关键词**: 行为基础模型、参数高效适配、人形控制、Task Token、PPO
@@ -148,10 +148,10 @@ Task Tokens 在动作自然度上**全面碾压全量微调和纯 RL**（胜率�
 ## 相关论文
 
 - [\[ICLR 2026\] Optimistic Task Inference for Behavior Foundation Models](optimistic_task_inference_behavior_models.md)
-- [\[ICLR 2026\] Efficient Estimation of Kernel Surrogate Models for Task Attribution](efficient_estimation_of_kernel_surrogate_models_for_task_attribution.md)
 - [\[ICLR 2026\] ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning](arm-fm_automated_reward_machines_via_foundation_models_for_compositional_reinfor.md)
+- [\[ICLR 2026\] Efficient Estimation of Kernel Surrogate Models for Task Attribution](efficient_estimation_of_kernel_surrogate_models_for_task_attribution.md)
 - [\[ICLR 2026\] Deep SPI: Safe Policy Improvement via World Models](deep_spi_safe_policy_improvement_via_world_models.md)
-- [\[ICLR 2026\] One Model for All Tasks: Leveraging Efficient World Models in Multi-Task Planning](one_model_for_all_tasks_leveraging_efficient_world_models_in_multi-task_planning.md)
+- [\[ICLR 2026\] Mixture-of-World Models: Scaling Multi-Task Reinforcement Learning with Modular Latent Dynamics](mixture-of-world_models_scaling_multi-task_reinforcement_learning_with_modular_l.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Korean Culture into LLM Alignment: Toward Cultural Coherence
+description: >-
+  [ICML2026][LLM对齐][文化连贯性] 现有文化安全工作几乎都在做"减法"（该压制哪些输出），这篇论文给出一个"加法"的对应物——为韩国语境**正面定义**什么才算"文化上连贯的回复"，并据此搭一条对齐数据流水线（韩国伤害 taxonomy 种子 → 攻击挖掘 → 文化政策约束下的多模型安全回复 → 三裁判过滤成 DPO 三元组），DPO 微调让六个开源 LLM 的韩国文化安全率普遍上升、却几乎不损伤通用能力。
+tags:
+  - "ICML2026"
+  - "LLM对齐"
+  - "文化连贯性"
+  - "DPO"
+  - "红队挖掘"
+  - "安全策略"
+  - "韩国社会法律语境"
+---
+
 # Korean Culture into LLM Alignment: Toward Cultural Coherence
 
 **会议**: ICML2026  

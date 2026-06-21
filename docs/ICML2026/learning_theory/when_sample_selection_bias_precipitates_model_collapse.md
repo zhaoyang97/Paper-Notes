@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] When Sample Selection Bias Precipitates Model Collapse
+description: >-
+  [ICML 2026][学习理论][数据选择偏置] 本文证明在低资源、数据孤岛场景下，被广泛当作「模型坍塌解药」的数据选择反而会加速坍塌——每个验证器只看到目标流形的局部偏置切片，会优先保留贴近本地参考的样本、剪掉全局相关的尾部模式，理论上把方差以幂律速率压成点质量；作者据此提出用多孤岛构造 Wasserstein 代理参考（测地插值 / 重心）在不共享原始数据的前提下做协作选择来缓解。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "模型坍塌"
+  - "数据选择偏置"
+  - "数据孤岛"
+  - "Wasserstein 几何"
+  - "合成数据"
+---
+
 # When Sample Selection Bias Precipitates Model Collapse
 
 **会议**: ICML 2026  

@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Is Spurious Correlation Removal Always Learnable?
+description: >-
+  [ICML 2026][学习理论][谬误相关] 这篇论文证明：去除谬误相关（spurious correlation）即使在不变结构"统计上可识别"的理想情形下，也可能"计算上不可学习"——存在一族多环境实例，穷举搜索用多项式样本就能恢复不变方向，但任何多项式时间算法要达到常数精度都会反推出一个被广泛相信困难的稀疏恢复问题；同时论文用一个"环境多样性"参数 $\gamma$ 刻画了可识别性、minimax 率与样本复杂度相变。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "不变学习"
+  - "计算复杂性"
+  - "谬误相关"
+  - "计算-统计鸿沟"
+  - "环境多样性"
+  - "minimax 率"
+---
+
 # Is Spurious Correlation Removal Always Learnable?
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Choices Speak Louder than Questions
+description: >-
+  [ICLR2026][LLM评测][MCQA 评测] 这篇论文指出多选题（MCQA）评测里大模型常常"看选项不看题"——决策被答案选项的表面特征主导而非真正理解问题，并提出一个把"题目贡献"从"选项贡献"中剥离出来的新打分方法 NPSQ，让评测在选项被恶意篡改时依然稳定。 领域现状：多选题问答（MCQA）已经成为评测大模型的…
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "MCQA 评测"
+  - "选项敏感性"
+  - "对数似然打分"
+  - "评测偏差"
+  - "NPSQ"
+---
+
 # Choices Speak Louder than Questions
 
 **会议**: ICLR2026  
-**OpenReview**: [LzpzC4gd4G](https://openreview.net/forum?id=LzpzC4gd4G)  
+**OpenReview**: [https://openreview.net/forum?id=LzpzC4gd4G](https://openreview.net/forum?id=LzpzC4gd4G)  
 **代码**: 待确认  
 **领域**: LLM 评测  
 **关键词**: MCQA 评测、选项敏感性、对数似然打分、评测偏差、NPSQ  
@@ -116,3 +131,19 @@ $$\text{NPSQ}(Q,C,x) = \frac{\log P(x\mid Q,C) - \log P(x\mid C)}{-\log P(x\mid 
 - 实验充分度: ⭐⭐⭐⭐ 覆盖三家族多尺度模型、三数据集、三格式、四类对抗选项，诊断与验证都较扎实
 - 写作质量: ⭐⭐⭐⭐ 公式推导和动机讲得很清楚，对抗选项表格直观
 - 价值: ⭐⭐⭐⭐ 直指 MCQA 评测可信度这一被广泛依赖却脆弱的环节，NPSQ 易于接入现有评测框架
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Can LLMs Refuse Questions They Do Not Know? Measuring Knowledge-Aware Refusal in Factual Tasks](can_llms_refuse_questions_they_do_not_know_measuring_knowledge-aware_refusal_in_.md)
+- [\[ICLR 2026\] CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives](clash_evaluating_language_models_on_judging_high-stakes_dilemmas_from_multiple_p.md)
+- [\[ICLR 2026\] DeepTRACE: Auditing Deep Research AI Systems for Tracking Reliability Across Citations and Evidence](deeptrace_auditing_deep_research_ai_systems_for_tracking_reliability_across_cita.md)
+- [\[ICLR 2026\] Cost-of-Pass: An Economic Framework for Evaluating Language Models](cost-of-pass_an_economic_framework_for_evaluating_language_models.md)
+- [\[ICLR 2026\] Detecting Data Contamination in LLMs via In-Context Learning](detecting_data_contamination_in_llms_via_in-context_learning.md)
+
+</div>
+
+<!-- RELATED:END -->

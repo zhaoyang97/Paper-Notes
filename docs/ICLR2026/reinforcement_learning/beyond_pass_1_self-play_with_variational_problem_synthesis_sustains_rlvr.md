@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Pass@1: Self-Play with Variational Problem Synthesis Sustains RLVR
+description: >-
+  [ICLR2026][强化学习][RLVR] 针对标准 RLVR 训练熵塌缩、Pass@k 停滞的问题，本文提出 **SVS（Self-play with Variational problem Synthesis）**：让策略模型用自己对难题的正确解去"反向"合成一批答案不变的变体新题、再去解这些新题，在线扩充训练数据从而维持策略熵，在 AIME24/25 上把 Pass@32 绝对提升 18.3% / 22.8%。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "RLVR"
+  - "自博弈"
+  - "问题合成"
+  - "策略熵"
+  - "Pass@k"
+---
+
 # Beyond Pass@1: Self-Play with Variational Problem Synthesis Sustains RLVR
 
 **会议**: ICLR2026  
-**OpenReview**: [Wjf3OMJxpn](https://openreview.net/forum?id=Wjf3OMJxpn)  
+**OpenReview**: [https://openreview.net/forum?id=Wjf3OMJxpn](https://openreview.net/forum?id=Wjf3OMJxpn)  
 **代码**: https://github.com/MasterVito/SvS  
 **领域**: LLM推理 / 强化学习  
 **关键词**: RLVR, 自博弈, 问题合成, 策略熵, Pass@k  
@@ -130,9 +145,9 @@ MATH-12k 训练下 SVS 的 Pass@32 平均比 RLVR 高 +16.0（Avg 38.6 → 54.6�
 
 - [\[ICLR 2026\] Self-Harmony: Learning to Harmonize Self-Supervision and Self-Play in Test-Time Reinforcement Learning](self-harmony_learning_to_harmonize_self-supervision_and_self-play_in_test-time_r.md)
 - [\[ICLR 2026\] SPELL: Self-Play Reinforcement Learning for Evolving Long-Context Language Models](spell_self-play_reinforcement_learning_for_evolving_long-context_language_models.md)
-- [\[ICML 2026\] Beyond Scalar Rewards: Dense Feedback for LLM Policy Synthesis in Sequential Social Dilemmas](../../ICML2026/reinforcement_learning/beyond_scalar_rewards_dense_feedback_for_llm_policy_synthesis_in_sequential_soci.md)
 - [\[ICLR 2026\] SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning](spiral_self-play_on_zero-sum_games_incentivizes_reasoning_via_multi-agent_multi-.md)
-- [\[ICLR 2026\] Helix: Evolutionary Reinforcement Learning for Open-Ended Scientific Problem Solving](helix_evolutionary_reinforcement_learning_for_open-ended_scientific_problem_solv.md)
+- [\[ICLR 2026\] Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction](goedel-prover-v2_scaling_formal_theorem_proving_with_scaffolded_data_synthesis_a.md)
+- [\[ICLR 2026\] MATH-Beyond: A Benchmark for RL to Expand Beyond the Base Model](math-beyond_a_benchmark_for_rl_to_expand_beyond_the_base_model.md)
 
 </div>
 

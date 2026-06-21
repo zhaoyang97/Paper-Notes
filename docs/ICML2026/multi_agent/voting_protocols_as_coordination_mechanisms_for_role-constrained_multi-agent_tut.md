@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Voting Protocols as Coordination Mechanisms for Role-Constrained Multi-Agent Tutoring Systems
+description: >-
+  [ICML2026][多智能体][投票协议] 把四个职责互不重叠的"辅导智能体"（脚手架/纠错/激励/元认知）放进同一个辅导回合里，让它们各自提案、互评、修订，再用四种不同的投票协议（简单多数 / 排序 / 累积 / 赞同）把分歧收敛成一个最终答复；论文不是想证明"投票让辅导更好"，而是把辅导当成一个**目标部分对齐但局部冲突**的协调实验场，系统地刻画不同投票规则会诱导出怎样不同的协调行为。
+tags:
+  - "ICML2026"
+  - "多智能体"
+  - "投票协议"
+  - "多智能体协调"
+  - "角色约束"
+  - "智能辅导系统"
+  - "协作 AI"
+---
+
 # Voting Protocols as Coordination Mechanisms for Role-Constrained Multi-Agent Tutoring Systems
 
 **会议**: ICML2026  

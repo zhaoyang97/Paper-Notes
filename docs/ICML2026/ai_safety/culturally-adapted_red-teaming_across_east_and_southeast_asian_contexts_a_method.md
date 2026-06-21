@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Culturally-Adapted Red-Teaming Across East and Southeast Asian Contexts: A Methodological and Comparative Analysis
+description: >-
+  [ICML 2026][AI安全][红队测试] 作者指出"把英文安全基准直译成目标语言"会系统性低估大模型的真实风险，于是为韩/日/泰/高棉四种语言各构造了 500 条直译（DT）+ 500 条文化适配（CA）的配对红队数据，证明 CA 在全部 16 个语言×模型组合上都让攻击成功率更高（平均 +9.3 个百分点），从而论证多语言安全评测必须做到"文化适配"而非仅仅"语言翻译"。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "红队测试"
+  - "多语言安全评测"
+  - "文化适配"
+  - "攻击成功率"
+  - "直接翻译"
+---
+
 # Culturally-Adapted Red-Teaming Across East and Southeast Asian Contexts: A Methodological and Comparative Analysis
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Position: Hippocampal Explicit Memory Is the Cornerstone for AGI
+description: >-
+  [ICML2026][LLM 其他][显式记忆] 这是一篇立场文（position paper），作者用神经科学证据论证：LLM 的底层学习机制本质上对应人脑的「隐式记忆」（基底神经节的习惯/程序性学习），而通往 AGI 所必需的高阶认知——长程规划、元认知、符号推理——依赖海马体的「显式记忆」，无法靠纯统计式隐式学习涌现出来，因此**给 LLM 补上一套显式记忆系统是迈向 AGI 的基石**，并进一步给出人工显式记忆系统需满足的 8 条计算要求。
+tags:
+  - "ICML2026"
+  - "LLM 其他"
+  - "显式记忆"
+  - "隐式记忆"
+  - "海马体"
+  - "AGI"
+  - "神经科学"
+---
+
 # Position: Hippocampal Explicit Memory Is the Cornerstone for AGI
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bures-Wasserstein Flow Matching for Graph Generation
+description: >-
+  [ICLR2026][图学习][图生成] 针对现有图生成扩散/流模型「把节点和边拆开各自线性插值」导致概率路径不平滑、训练采样都难收敛的问题，本文用马尔可夫随机场（MRF）把图建模成一个相互耦合的彩色高斯系统，再用图分布之间的最优传输（Bures-Wasserstein）位移构造出一条平滑、闭式、仿真无关的概率路径，得到流匹配框架 BWFlow，在平面图与分子生成上取得更好性能、更快收敛和更高效采样。
+tags:
+  - "ICLR2026"
+  - "图学习"
+  - "图生成"
+  - "流匹配"
+  - "最优传输"
+  - "Bures-Wasserstein"
+  - "马尔可夫随机场"
+---
+
 # Bures-Wasserstein Flow Matching for Graph Generation
 
 **会议**: ICLR2026  
-**OpenReview**: [5Bl5qf3fON](https://openreview.net/forum?id=5Bl5qf3fON)  
+**OpenReview**: [https://openreview.net/forum?id=5Bl5qf3fON](https://openreview.net/forum?id=5Bl5qf3fON)  
 **代码**: 待确认  
 **领域**: 图生成 / 流匹配  
 **关键词**: 图生成、流匹配、最优传输、Bures-Wasserstein、马尔可夫随机场  
@@ -139,11 +154,11 @@ $\circ$ 为 Hadamard 积。这样同一套 BW 几何就同时覆盖了连续与�
 
 ## 相关论文
 
-- [\[ICML 2026\] Graph-GRPO: Training Graph Flow Models with Reinforcement Learning](../../ICML2026/graph_learning/graph-grpo_training_graph_flow_models_with_reinforcement_learning.md)
+- [\[ICLR 2026\] Topological Flow Matching](topological_flow_matching.md)
+- [\[ICLR 2026\] Discrete Bayesian Sample Inference for Graph Generation](discrete_bayesian_sample_inference_for_graph_generation.md)
 - [\[ICLR 2026\] GraphUniverse: Synthetic Graph Generation for Evaluating Inductive Generalization](graphuniverse_synthetic_graph_generation_for_evaluating_inductive_generalization.md)
-- [\[NeurIPS 2025\] Graph Neural Networks for Efficient AC Power Flow Prediction in Power Grids](../../NeurIPS2025/graph_learning/graph_neural_networks_for_efficient_ac_power_flow_prediction_in_power_grids.md)
-- [\[ICLR 2026\] RAS: Retrieval-And-Structuring for Knowledge-Intensive LLM Generation](ras_retrieval-and-structuring_for_knowledge-intensive_llm_generation.md)
-- [\[ACL 2026\] MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation](../../ACL2026/graph_learning/megarag_multimodal_knowledge_graph-based_retrieval_augmented_generation.md)
+- [\[ICLR 2026\] Global and Local Topology-Aware Graph Generation via Dual Conditioning Diffusion](global_and_local_topology-aware_graph_generation_via_dual_conditioning_diffusion.md)
+- [\[ICLR 2026\] Controllable Logical Hypothesis Generation for Abductive Reasoning in Knowledge Graphs](controllable_logical_hypothesis_generation_for_abductive_reasoning_in_knowledge_.md)
 
 </div>
 

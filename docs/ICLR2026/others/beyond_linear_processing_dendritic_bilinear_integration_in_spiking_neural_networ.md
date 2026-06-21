@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Beyond Linear Processing: Dendritic Bilinear Integration in Spiking Neural Networks
+description: >-
+  [ICLR2026][脉冲神经网络] 这篇论文给脉冲神经网络里最常用的 LIF 神经元加了一项符合生物实验的"双线性树突整合"——除了把突触输入线性相加，还额外算上两两输入之间的交互项 $s^T K s$，让单个神经元就能完成 XOR 这类非线性计算；理论上证明它能利用输入的相关性结构、并在层间传播这种结构，实验上在 ResNet/VGG/Transformer 三类架构、静态与神经形态数据集上都稳定超过 LIF 及一众改进神经元，平均精度从 83.95% 提到 85.18%，能耗只多约 3%。
+tags:
+  - "ICLR2026"
+  - "脉冲神经网络"
+  - "树突非线性"
+  - "双线性整合"
+  - "LIF 模型"
+  - "类脑计算"
+---
+
 # Beyond Linear Processing: Dendritic Bilinear Integration in Spiking Neural Networks
 
 **会议**: ICLR2026  
-**OpenReview**: [5MB5vakrhB](https://openreview.net/forum?id=5MB5vakrhB)  
+**OpenReview**: [https://openreview.net/forum?id=5MB5vakrhB](https://openreview.net/forum?id=5MB5vakrhB)  
 **代码**: https://github.com/majingyang0119/DLIF  
 **领域**: 脉冲神经网络 / 类脑计算 / 神经元模型  
 **关键词**: 脉冲神经网络, 树突非线性, 双线性整合, LIF 模型, 类脑计算
@@ -137,10 +151,10 @@ $$I(t)=\sum_{i=1}^{n} w_i s_i(t) + \sum_{i=1}^{n}\sum_{j>i} 2K_{ij}\,s_i(t)s_j(t
 ## 相关论文
 
 - [\[ICLR 2026\] Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks](breaking_gradient_temporal_collinearity_for_robust_spiking_neural_networks.md)
-- [\[ICLR 2026\] Advancing Spatiotemporal Representations in Spiking Neural Networks via Parametric Invertible Transformation](advancing_spatiotemporal_representations_in_spiking_neural_networks_via_parametr.md)
+- [\[ICLR 2026\] Online Pseudo-Zeroth-Order Training of Neuromorphic Spiking Neural Networks](online_pseudo-zeroth-order_training_of_neuromorphic_spiking_neural_networks.md)
+- [\[ICLR 2026\] A Brain-Inspired Gating Mechanism Unlocks Robust Computation in Spiking Neural Networks](a_brain-inspired_gating_mechanism_unlocks_robust_computation_in_spiking_neural_n.md)
+- [\[ICLR 2026\] Fractional-Order Spiking Neural Network](fractional-order_spiking_neural_network.md)
 - [\[ICLR 2026\] Training Deep Normalization-Free Spiking Neural Networks with Lateral Inhibition](training_deep_normalization-free_spiking_neural_networks_with_lateral_inhibition.md)
-- [\[ICML 2026\] Bullet Trains: Parallelizing Training of Temporally Precise Spiking Neural Networks](../../ICML2026/others/bullet_trains_parallelizing_training_of_temporally_precise_spiking_neural_networ.md)
-- [\[AAAI 2026\] TDSNNs: Competitive Topographic Deep Spiking Neural Networks for Visual Cortex Modeling](../../AAAI2026/others/tdsnns_competitive_topographic_deep_spiking_neural_networks_for_visual_cortex_mo.md)
 
 </div>
 

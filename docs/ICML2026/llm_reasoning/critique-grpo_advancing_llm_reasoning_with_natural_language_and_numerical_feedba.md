@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback
+description: >-
+  [ICML2026][Reasoning][强化学习] 作者先指出"纯数值奖励 RL"有三个硬伤（性能平台、自发反思无效、顽固失败），再把**自然语言批评（critique）**接进在线 RL：模型既学初始回答、又学"按批评做的自我精炼"，并用一个 shaping 函数偏向"正确但陌生"的精炼、抑制错误精炼，从而在八个推理基准上把 Pass@1 平均提升约 +15.0~21.6%（Qwen 系列）。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "强化学习"
+  - "GRPO"
+  - "自然语言反馈"
+  - "自我精炼"
+  - "推理"
+---
+
 # Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback
 
 **会议**: ICML2026  

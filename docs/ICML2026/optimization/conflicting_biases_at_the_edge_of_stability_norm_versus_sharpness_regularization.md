@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Conflicting Biases at the Edge of Stability: Norm versus Sharpness Regularization
+description: >-
+  [ICML2026][优化/理论][梯度下降] 这是一篇分析性论文：作者指出梯度下降同时存在两种**相互冲突**的隐式偏置——小学习率倾向于压低参数范数、大学习率（Edge of Stability）倾向于压低损失锐度——学习率在二者之间插值，并通过实验观测到一个由临界学习率 $\eta_c$ 划分的相变，再用对角线性网络的理论反例证明"任何单一隐式偏置都不足以解释泛化"。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "梯度下降"
+  - "隐式偏置"
+  - "Edge of Stability"
+  - "锐度正则化"
+  - "参数范数"
+---
+
 # Conflicting Biases at the Edge of Stability: Norm versus Sharpness Regularization
 
 **会议**: ICML2026  

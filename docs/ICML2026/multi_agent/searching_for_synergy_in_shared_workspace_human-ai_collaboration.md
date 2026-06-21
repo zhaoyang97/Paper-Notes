@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Searching for Synergy in Shared Workspace Human-AI Collaboration
+description: >-
+  [ICML 2026 (Workshop on Human-AI Co-Creativity)][多智能体][人机协作] 这篇论文在共享工作区（shared-workspace）的人–AI 协作环境里发现一个反直觉现象——给 AI 智能体**加上有相关专长的（模拟）人类协作者反而会拉低成绩**，根因是团队缺乏协调结构导致"过程损失"（process loss）；作者借用群体心理学的两个机制（共享组记忆 + 模拟 HITL 审批门控）做脚手架，在三人队上把平均成绩从 0.63 拉回到 0.76。
+tags:
+  - "ICML 2026 (Workshop on Human-AI Co-Creativity)"
+  - "多智能体"
+  - "人机协作"
+  - "共享工作区"
+  - "过程损失"
+  - "组记忆"
+  - "Human-in-the-loop 门控"
+---
+
 # Searching for Synergy in Shared Workspace Human-AI Collaboration
 
 **会议**: ICML 2026 (Workshop on Human-AI Co-Creativity)  

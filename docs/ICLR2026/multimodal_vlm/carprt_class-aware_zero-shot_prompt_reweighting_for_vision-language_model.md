@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CARPRT: Class-Aware Zero-Shot Prompt Reweighting for Vision-Language Model
+description: >-
+  [ICLR2026][多模态VLM][视觉语言模型] CARPRT 指出现有 VLM 提示集成方法给每个提示模板分配的权重是「全类共享」的，违背了「不同提示对不同类别亲和度不同」的事实；它用一套免训练、纯黑盒（只查相似度分数）的两阶段流程，为每个类别单独估计一组提示权重，在 11 个零样本分类基准上稳定超过 MPE / WPE 乃至人工筛选提示。
+tags:
+  - "ICLR2026"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "提示集成"
+  - "零样本分类"
+  - "黑盒推理"
+  - "提示重加权"
+---
+
 # CARPRT: Class-Aware Zero-Shot Prompt Reweighting for Vision-Language Model
 
 **会议**: ICLR2026  
-**OpenReview**: [AScQDQqVXY](https://openreview.net/forum?id=AScQDQqVXY)  
+**OpenReview**: [https://openreview.net/forum?id=AScQDQqVXY](https://openreview.net/forum?id=AScQDQqVXY)  
 **代码**: https://github.com/tmlr-group/CARPRT  
 **领域**: 多模态VLM  
 **关键词**: 视觉语言模型, 提示集成, 零样本分类, 黑盒推理, 提示重加权
@@ -82,6 +97,7 @@ $$w^*_{i,c}=\frac{\exp(w'_{i,c}/\tau)}{\sum_{j=1}^n \exp(w'_{j,c}/\tau)}.$$
 \* Human Selection 用 CLIP 作者人工筛的提示、引入外部知识，本不与自动方法直接可比；CARPRT 仍超过它。语义边界清晰的数据集（Flower102 +4.76、Pets +6.75 相对 WPE）增益最大，Aircraft 这类高度专业、伪标签本就难的域增益小。
 
 ### 消融实验
+
 | 配置 | 11 项平均 | 说明 |
 |------|-----------|------|
 | CARPRT（完整） | 67.45 | 逐类权重 |
@@ -117,3 +133,19 @@ $$w^*_{i,c}=\frac{\exp(w'_{i,c}/\tau)}{\sum_{j=1}^n \exp(w'_{j,c}/\tau)}.$$
 - 实验充分度: ⭐⭐⭐⭐ 11 基准 × 3 架构 + 分布漂移 + 温度/伪标签消融，覆盖到位；但都是分类任务，对「更广 VLM 应用」的承诺主要靠附录支撑。
 - 写作质量: ⭐⭐⭐⭐ 概率框架与两阶段实现衔接顺，图 1 动机实验有说服力。
 - 价值: ⭐⭐⭐⭐ 免训练、黑盒、即插即用，能直接挂到现有 CLIP 零样本流水线上，落地门槛低。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] SR-3D: 3D-Aware Region Prompted Vision Language Model](3d_aware_region_prompted_vision_language_model.md)
+- [\[ICML 2026\] Density-Aware Translation of Spurious Correlations in Zero-Shot VLMs](../../ICML2026/multimodal_vlm/density-aware_translation_of_spurious_correlations_in_zero-shot_vlms.md)
+- [\[ICLR 2026\] Naming to Learn: Class Incremental Learning for Vision-Language Model with Unlabeled Data](naming_to_learn_class_incremental_learning_for_vision-language_model_with_unlabe.md)
+- [\[CVPR 2026\] Explaining CLIP Zero-shot Predictions Through Concepts](../../CVPR2026/multimodal_vlm/explaining_clip_zero-shot_predictions_through_concepts.md)
+- [\[CVPR 2025\] Locality-Aware Zero-Shot Human-Object Interaction Detection](../../CVPR2025/multimodal_vlm/locality-aware_zero-shot_human-object_interaction_detection.md)
+
+</div>
+
+<!-- RELATED:END -->

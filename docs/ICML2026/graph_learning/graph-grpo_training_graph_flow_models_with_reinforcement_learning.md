@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Graph-GRPO: Training Graph Flow Models with Reinforcement Learning
+description: >-
+  [ICML 2026][图学习][图流模型] 针对"图流模型（GFM）难以用强化学习对齐复杂目标"的痛点，本文提出 Graph-GRPO：先把 GFM 采样中不可微的蒙特卡洛速率矩阵推导成一个**解析表达式**，让整条去噪轨迹可微、可用 GRPO 训练；再配一个**精炼策略**对高分图反复"局部加噪—再生成"，在 50 步去噪下就在 Planar/Tree 上拿到 95.0%/97.5% 的 V.U.N.，并在分子优化（蛋白对接、PMO）上全面超过此前的图 RL 与遗传算法方法。
+tags:
+  - "ICML 2026"
+  - "图学习"
+  - "图流模型"
+  - "离散流匹配"
+  - "GRPO"
+  - "分子优化"
+  - "可微采样"
+---
+
 # Graph-GRPO: Training Graph Flow Models with Reinforcement Learning
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection
+description: >-
+  [ICML2026][AI安全][提示注入] 本文报告了安全训练 LLM 在 RAG 推荐里的一个可复现失效模式——"注入悖论":攻击者塞进检索文档的提示注入不但没把目标品牌推上去,反而被强安全训练的 Claude 当成违规、把该品牌压到基线以下,而且这种抑制会从被注入的那一篇文档**蔓延到同品牌所有未改文档**,Opus 4.6 上目标品牌从 54% 基线掉到 0。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "提示注入"
+  - "安全训练"
+  - "RAG"
+  - "推荐系统"
+  - "失效模式"
+---
+
 # The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ArtUV: Artist-style UV Unwrapping
+description: >-
+  [ICLR2026][3D视觉][UV 展开] ArtUV 把"专业美术师手工拆 UV"这件事自动化成端到端两阶段流程——先用 SeamGPT 预测语义切缝、再用一个图卷积+金字塔自编码器把传统软件拆出的"粗糙 UV"回归成偏移量、调成整洁低畸变的艺术家风格 UV 图，在畸变、利用率、速度上都超过 Blender/Maya 乃至人工手拆。
+tags:
+  - "ICLR2026"
+  - "3D视觉"
+  - "UV 展开"
+  - "艺术家风格"
+  - "表面切缝"
+  - "自编码器"
+  - "网格参数化"
+---
+
 # ArtUV: Artist-style UV Unwrapping
 
 **会议**: ICLR2026  
-**OpenReview**: [LN7VQ3ed1t](https://openreview.net/forum?id=LN7VQ3ed1t)  
+**OpenReview**: [https://openreview.net/forum?id=LN7VQ3ed1t](https://openreview.net/forum?id=LN7VQ3ed1t)  
 **代码**: 待确认  
 **领域**: 3D视觉  
 **关键词**: UV 展开, 艺术家风格, 表面切缝, 自编码器, 网格参数化
@@ -125,9 +140,9 @@ UV 展开的第一步是切缝，而碎片化、缺语义正是自动方法的�
 ## 相关论文
 
 - [\[CVPR 2026\] Mesh-Pro: Asynchronous Advantage-guided Ranking Preference Optimization for Artist-style Quadrilateral Mesh Generation](../../CVPR2026/3d_vision/mesh-pro_asynchronous_advantage-guided_ranking_preference_optimization_for_artis.md)
+- [\[ICCV 2025\] Tune-Your-Style: Intensity-Tunable 3D Style Transfer with Gaussian Splatting](../../ICCV2025/3d_vision/tune-your-style_intensity-tunable_3d_style_transfer_with_gaussian_splatting.md)
 - [\[CVPR 2026\] MeshRipple: Structured Autoregressive Generation of Artist-Meshes](../../CVPR2026/3d_vision/meshripple_structured_autoregressive_generation_of_artist-meshes.md)
 - [\[CVPR 2026\] PackUV: Packed Gaussian UV Maps for 4D Volumetric Video](../../CVPR2026/3d_vision/packuv_packed_gaussian_uv_maps_for_4d_volumetric_video.md)
-- [\[ICCV 2025\] Tune-Your-Style: Intensity-Tunable 3D Style Transfer with Gaussian Splatting](../../ICCV2025/3d_vision/tune-your-style_intensity-tunable_3d_style_transfer_with_gaussian_splatting.md)
 - [\[CVPR 2026\] MV2UV: Generating High-quality UV Texture Maps with Multiview Prompts](../../CVPR2026/3d_vision/mv2uv_generating_high-quality_uv_texture_maps_with_multiview_prompts.md)
 
 </div>

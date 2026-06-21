@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth
+description: >-
+  [ICLR2026][LLM安全][浅层对齐] 针对 LLM「浅层对齐」一旦进入有害续写就守不住的痛点，本文发现安全信号其实牢牢锚定在 assistant header 这类「安全 token」上、且在任意生成深度都可被重新激活，于是提出 Any-Depth Alignment（ADA）——推理时把 header 重新插回生成流中重新唤起模型自带的拒答（ADA-RK），或直接对 header 隐藏态跑一个线性探针判别有害性（ADA-LP），无需改动模型权重就把上千 token 深度 prefill 攻击的拒答率拉回近 100%、把 GCG/AutoDAN/PAIR/TAP 等攻击成功率压到 3% 以下。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "浅层对齐"
+  - "prefill 攻击"
+  - "Safety Token"
+  - "线性探针"
+  - "推理时防御"
+---
+
 # Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth
 
 **会议**: ICLR2026  
-**OpenReview**: [0fuYOuJyzl](https://openreview.net/forum?id=0fuYOuJyzl)  
+**OpenReview**: [https://openreview.net/forum?id=0fuYOuJyzl](https://openreview.net/forum?id=0fuYOuJyzl)  
 **代码**: 待确认  
 **领域**: LLM 安全 / 对齐 / 推理时防御  
 **关键词**: 浅层对齐、prefill 攻击、Safety Token、线性探针、推理时防御
@@ -122,11 +137,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[ACL 2026\] Reasoning Structure Matters for Safety Alignment of Reasoning Models](../../ACL2026/llm_safety/reasoning_structure_matters_for_safety_alignment_of_reasoning_models.md)
+- [\[ICLR 2026\] The Alignment Waltz: Jointly Training Agents to Collaborate for Safety](the_alignment_waltz_jointly_training_agents_to_collaborate_for_safety.md)
+- [\[ICLR 2026\] SOSBench: Benchmarking Safety Alignment on Six Scientific Domains](sosbench_benchmarking_safety_alignment_on_six_scientific_domains.md)
+- [\[ICLR 2026\] Computational Barriers to Filtering for AI Alignment](computational_barriers_to_filtering_for_ai_alignment.md)
 - [\[ACL 2026\] CAP: Controllable Alignment Prompting for Unlearning in LLMs](../../ACL2026/llm_safety/cap_controllable_alignment_prompting_for_unlearning_in_llms.md)
-- [\[ICML 2025\] Safety Alignment Can Be Not Superficial With Explicit Safety Signals](../../ICML2025/llm_safety/safety_alignment_can_be_not_superficial_with_explicit_safety_signals.md)
-- [\[ICML 2025\] Improving LLM Safety Alignment with Dual-Objective Optimization](../../ICML2025/llm_safety/improving_llm_safety_alignment_with_dual-objective_optimization.md)
-- [\[AAAI 2026\] SafeNlidb: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces](../../AAAI2026/llm_safety/safenlidb_a_privacy-preserving_safety_alignment_framework_for_llm-based_natural_.md)
+- [\[ACL 2026\] Reasoning Structure Matters for Safety Alignment of Reasoning Models](../../ACL2026/llm_safety/reasoning_structure_matters_for_safety_alignment_of_reasoning_models.md)
 
 </div>
 

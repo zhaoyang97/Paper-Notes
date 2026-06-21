@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining
+description: >-
+  [ICLR2026][预训练][元数据条件化] 这篇论文系统地拓宽了"元数据条件化加速 LLM 预训练"的设计空间：除了已知有效的 URL 前置，作者发现**细粒度**的质量分数与领域信息同样能加速训练，并提出"后置元数据作为辅助预测任务"和"可学习元 token"两种新机制，再用逐层探针揭示这些信号如何重塑潜在表征。
+tags:
+  - "ICLR2026"
+  - "预训练"
+  - "元数据条件化"
+  - "预训练加速"
+  - "细粒度元数据"
+  - "辅助预测任务"
+  - "表征探针"
+---
+
 # Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining
 
 **会议**: ICLR2026  
-**OpenReview**: [fZ64NwiBpt](https://openreview.net/forum?id=fZ64NwiBpt)  
+**OpenReview**: [https://openreview.net/forum?id=fZ64NwiBpt](https://openreview.net/forum?id=fZ64NwiBpt)  
 **代码**: 待确认  
 **领域**: LLM预训练 / 数据工程  
 **关键词**: 元数据条件化, 预训练加速, 细粒度元数据, 辅助预测任务, 表征探针
@@ -128,8 +143,8 @@ URL 各部件前置的拆解（Table 2，均分 Avg）：
 - [\[ICLR 2026\] Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data](beyond_length_quantifying_long-range_information_for_long-context_llm_pretrainin.md)
 - [\[ICLR 2026\] Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries](beyond_multi-token_prediction_pretraining_llms_with_future_summaries.md)
 - [\[ICML 2026\] AC-ODM: Actor–Critic Online Data Mixing for Sample-Efficient LLM Pretraining](../../ICML2026/llm_pretraining/ac-odm_actor--critic_online_data_mixing_for_sample-efficient_llm_pretraining.md)
-- [\[ICLR 2026\] Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes](beyond_masks_efficient_flexible_diffusion_language_models_via_deletion-insertion.md)
 - [\[ICLR 2026\] Scaling with Collapse: Efficient and Predictable Training of LLM Families](scaling_with_collapse_efficient_and_predictable_training_of_llm_families.md)
+- [\[ICLR 2026\] Selective Rotary Position Embedding](selective_rotary_position_embedding.md)
 
 </div>
 

@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory
+description: >-
+  [ICML 2026][学习理论][统计学习理论] 这篇工作把"基于经验过程的统计学习理论（SLT）"第一次系统地在 Lean 4 里从零形式化：补齐了 Mathlib 缺失的高斯 Lipschitz 集中、Dudley 熵积分定理、以及最小二乘（含 $\ell_1$ 约束）回归的尖锐速率，约 3 万行 Lean 代码、无 `sorry`/`axiom`，并且全程用"人定证明策略、AI（Claude Code + Opus-4.5）写战术证明"的人机协作完成。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "形式化验证"
+  - "统计学习理论"
+  - "Lean 4"
+  - "经验过程"
+  - "集中不等式"
+  - "人机协作形式化"
+---
+
 # AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Mitigating the Contractivity Trap in Diffusion ODEs via Stein Stabilization
+description: >-
+  [ICML2026][图像生成][扩散模型] 针对扩散模型概率流 ODE 大步采样时"高表达力去噪器 + 激进步长会破坏收缩性稳定性证书、导致误差被放大轨迹发散"的问题（作者命名为 contractivity trap），SteinDiff 用 Stein 恒等式把"对齐干净目标"这个不可计算的项转成可计算的散度项，推出一个闭式、无需参考样本、无需重训的逐步修正系数 $\gamma_k$，对求解器候选更新做几何感知的残差校正，在 CIFAR-10 / ImageNet-64 / LSUN-Bedrooms 上大步采样的 FID 显著下降（最高减 45.8%）。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "扩散模型"
+  - "概率流ODE"
+  - "少步采样"
+  - "Stein修正"
+  - "收缩性陷阱"
+---
+
 # Mitigating the Contractivity Trap in Diffusion ODEs via Stein Stabilization
 
 **会议**: ICML2026  

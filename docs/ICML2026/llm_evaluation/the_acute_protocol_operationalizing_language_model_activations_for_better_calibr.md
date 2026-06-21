@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust
+description: >-
+  [ICML 2026][LLM评测][置信度估计] 本文指出"校准误差（ECE）"作为信任度量有两处致命缺陷——分不清神谕估计器与"永远报基准率"的废估计器、且对任务风险无感；为此提出新指标 euro（用神谕归一化的期望效用）把校准与决策效用绑在一起衡量，并提出 acute 协议：拿语言模型生成时的逐层激活当特征、训一个随机森林去判断"这次生成对不对"作为校准后的置信度，在 6 个模型 × 3 类任务上既维持低校准误差、又在 euro 上显著超过强基线。
+tags:
+  - "ICML 2026"
+  - "LLM评测"
+  - "置信度估计"
+  - "校准"
+  - "决策效用"
+  - "激活探测"
+  - "可信度"
+---
+
 # The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust
 
 **会议**: ICML 2026  

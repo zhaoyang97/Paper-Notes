@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training
+description: >-
+  [ICLR 2026][模型压缩][二值神经网络] BEP 提出了反向传播链式法则的**纯二值离散版本**：让误差信号以 ±1 二值向量的形式逐层反向传播，整个前向和反向过程只用 XNOR、Popcount 和加减 1 这些位运算完成，从而首次实现了二值 MLP 和二值 RNN 的端到端全二值训练，相比之前的局部学习规则在 MLP 上提升最多 +6.89%、在 RNN 上平均提升 +10.57%。
+tags:
+  - "ICLR 2026"
+  - "模型压缩"
+  - "二值神经网络"
+  - "反向传播"
+  - "无梯度学习"
+  - "位运算"
+  - "边缘设备"
+---
+
 # BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training
 
 **会议**: ICLR 2026  
-**OpenReview**: [jxtCMoZIu8](https://openreview.net/forum?id=jxtCMoZIu8)  
+**OpenReview**: [https://openreview.net/forum?id=jxtCMoZIu8](https://openreview.net/forum?id=jxtCMoZIu8)  
 **代码**: https://github.com/AI-Tech-Research-Lab/BEP  
 **领域**: 模型压缩 / 二值神经网络  
 **关键词**: 二值神经网络, 反向传播, 无梯度学习, 位运算, 边缘设备
@@ -151,8 +166,8 @@ BEP 没有传统意义上的可微损失，"损失"被 margin 触发准则替代
 - [\[ICML 2026\] SURGE: Surrogate Gradient Adaptation in Binary Neural Networks](../../ICML2026/model_compression/surge_surrogate_gradient_adaptation_in_binary_neural_networks.md)
 - [\[ICML 2025\] An Efficient Matrix Multiplication Algorithm for Accelerating Inference in Binary and Ternary Neural Networks](../../ICML2025/model_compression/an_efficient_matrix_multiplication_algorithm_for_accelerating_inference_in_binar.md)
 - [\[AAAI 2026\] BD-Net: Has Depth-Wise Convolution Ever Been Applied in Binary Neural Networks?](../../AAAI2026/model_compression/bd-net_has_depth-wise_convolution_ever_been_applied_in_binary_neural_networks.md)
-- [\[ICLR 2026\] Cannistraci-Hebb Training on Ultra-Sparse Spiking Neural Networks](cannistraci-hebb_training_on_ultra-sparse_spiking_neural_networks.md)
 - [\[ICLR 2026\] AnyBCQ: Hardware Efficient Flexible Binary-Coded Quantization for Multi-Precision LLMs](anybcq_hardware_efficient_flexible_binary-coded_quantization_for_multi-precision.md)
+- [\[ICLR 2026\] Zeros Can Be Informative: Masked Binary U-Net for Image Segmentation on Tensor Cores](zeros_can_be_informative_masked_binary_u-net_for_image_segmentation_on_tensor_co.md)
 
 </div>
 

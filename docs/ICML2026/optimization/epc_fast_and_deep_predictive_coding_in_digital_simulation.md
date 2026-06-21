@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ePC: Fast and Deep Predictive Coding in Digital Simulation
+description: >-
+  [ICML2026][优化/理论][预测编码] 本文指出"状态版预测编码（sPC）在数字仿真里会随网络深度指数衰减训练信号、导致深层学不动且收敛极慢"这一被忽视的根因，并提出把优化变量从状态改成误差的等价重参数化 ePC——它能算出与 sPC 完全相同的状态平衡和权重梯度，却用 reverse-mode AD 让信号一步直达所有层，深网收敛快 100 倍以上、并在深层架构上追平反向传播。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "预测编码"
+  - "反向传播替代"
+  - "信号衰减"
+  - "深度可扩展"
+  - "能量最小化"
+---
+
 # ePC: Fast and Deep Predictive Coding in Digital Simulation
 
 **会议**: ICML2026  

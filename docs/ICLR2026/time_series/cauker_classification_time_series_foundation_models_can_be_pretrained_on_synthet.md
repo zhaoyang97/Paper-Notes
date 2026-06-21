@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data
+description: >-
+  [ICLR2026][时间序列][时序基础模型] CauKer 把高斯过程的核组合与结构因果模型（SCM）拼到一起，造出既有真实时序结构、又自带类别簇结构的纯合成时序，仅用这些数据预训练分类型时序基础模型（TSFM），就能在 128 个 UCR 数据集上几乎追平用大几十倍真实语料训练的原版模型，并首次展现出干净的数据/模型缩放定律。
+tags:
+  - "ICLR2026"
+  - "时间序列"
+  - "时序基础模型"
+  - "合成数据"
+  - "高斯过程核"
+  - "结构因果模型"
+  - "缩放定律"
+---
+
 # CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data
 
 **会议**: ICLR2026  
-**OpenReview**: [xBW2FIfswU](https://openreview.net/forum?id=xBW2FIfswU)  
+**OpenReview**: [https://openreview.net/forum?id=xBW2FIfswU](https://openreview.net/forum?id=xBW2FIfswU)  
 **代码**: https://github.com/ShifengXIE/CauKer  
 **领域**: 时序基础模型 / 合成数据预训练  
 **关键词**: 时序基础模型, 合成数据, 高斯过程核, 结构因果模型, 缩放定律
@@ -92,6 +107,7 @@ CauKer 只负责造数据，不绑定特定预训练目标，对两类 SSL 范�
 Mantis 用约 20× 更小、且严格 OOD 的合成数据，准确率掉不到 0.1%；MOMENT 用约 1.3× 更小的数据，掉幅勉强超过 1%——而原版那两行本质是 in-distribution（语料含 UCR 训练集），可视作 zero-shot 的实践上限。
 
 ### 消融实验
+
 | 配置 | Mantis (%) | MOMENT (%) | 说明 |
 |------|-----------|-----------|------|
 | KernelSynth | 77.70 | 69.31 | 零均值 GP，无 SCM |
@@ -128,3 +144,19 @@ Mantis 用约 20× 更小、且严格 OOD 的合成数据，准确率掉不到 0
 - 实验充分度: ⭐⭐⭐⭐⭐ 128 UCR + 数据/模型/训练时间三类缩放 + 生成器对比 + 预测迁移，覆盖很全
 - 写作质量: ⭐⭐⭐⭐ 动机与设计动机讲得清楚，五步管线公式完整；图表略依赖附录
 - 价值: ⭐⭐⭐⭐⭐ 把"造好数据"确立为提升 TSFM 的主路径，且代码开源、可直接复用
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Can we generate portable representations for clinical time series data using LLMs?](can_we_generate_portable_representations_for_clinical_time_series_data_using_llm.md)
+- [\[NeurIPS 2025\] Synthetic Series-Symbol Data Generation for Time Series Foundation Models](../../NeurIPS2025/time_series/synthetic_series-symbol_data_generation_for_time_series_foundation_models.md)
+- [\[ICML 2026\] Mix, Don't Pick: Why Synthetic Corpus Composition Matters for Time Series Foundation Model Pretraining](../../ICML2026/time_series/mix_dont_pick_why_synthetic_corpus_composition_matters_for_time_series_foundatio.md)
+- [\[ICLR 2026\] CoRA: Boosting Time Series Foundation Models for Multivariate Forecasting through Correlation-aware Adapter](cora_boosting_time_series_foundation_models_for_multivariate_forecasting_through.md)
+- [\[ICLR 2026\] Context parroting: A simple but tough-to-beat baseline for foundation models in scientific machine learning](context_parroting_a_simple_but_tough-to-beat_baseline_for_foundation_models_in_s.md)
+
+</div>
+
+<!-- RELATED:END -->

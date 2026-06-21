@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning
+description: >-
+  [ICLR2026][机器人][视频基础模型] 本文把预训练视频生成大模型 Cosmos-Predict2-2B 当作底座，**不改任何网络结构、只用一阶段微调**，让它把机器人动作、未来状态、状态价值都"编码成隐空间视频帧"一起去噪生成，从而同时充当策略、世界模型和价值函数；在 LIBERO（98.5%）、RoboCasa（67.1%）和真实双臂 ALOHA 任务上都拿到 SOTA，并能用 best-of-N 规划再提升 12.5 分。
+tags:
+  - "ICLR2026"
+  - "机器人"
+  - "视频基础模型"
+  - "视觉运动策略"
+  - "世界模型"
+  - "价值函数"
+  - "模型预测规划"
+---
+
 # Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning
 
 **会议**: ICLR2026  
-**OpenReview**: [wPEIStHxYH](https://openreview.net/forum?id=wPEIStHxYH)  
+**OpenReview**: [https://openreview.net/forum?id=wPEIStHxYH](https://openreview.net/forum?id=wPEIStHxYH)  
 **代码**: https://research.nvidia.com/labs/dir/cosmos-policy/  
 **领域**: 机器人 / 具身智能  
 **关键词**: 视频基础模型, 视觉运动策略, 世界模型, 价值函数, 模型预测规划
@@ -130,11 +145,11 @@ ALOHA「叠衬衫」任务上，从头训练版本得分 80.8，比完整版（�
 
 ## 相关论文
 
+- [\[ICLR 2026\] EVLP: Learning Unified Embodied Vision-Language Planner with Reinforced Supervised Fine-Tuning](evlp_learning_unified_embodied_vision-language_planner_with_reinforced_supervise.md)
+- [\[ICLR 2026\] H$^3$DP: Triply-Hierarchical Diffusion Policy for Visuomotor Learning](h3dp_triplyhierarchical_diffusion_policy_for_visuomotor_learning.md)
+- [\[ICLR 2026\] Masked Generative Policy for Robotic Control](masked_generative_policy_for_robotic_control.md)
 - [\[NeurIPS 2025\] PROFIT: A Specialized Optimizer for Deep Fine Tuning](../../NeurIPS2025/robotics/profit_a_specialized_optimizer_for_deep_fine_tuning.md)
-- [\[ICLR 2026\] ExoPredicator: Learning Abstract Models of Dynamic Worlds for Robot Planning](exopredicator_learning_abstract_models_of_dynamic_worlds_for_robot_planning.md)
-- [\[ICML 2026\] Sample from What You See: Visuomotor Policy Learning via Diffusion Bridge with Observation-Embedded Stochastic Differential Equation](../../ICML2026/robotics/sample_from_what_you_see_visuomotor_policy_learning_via_diffusion_bridge_with_ob.md)
-- [\[CVPR 2026\] Test-Time Perturbation Tuning with Delayed Feedback for Vision-Language-Action Models](../../CVPR2026/robotics/test-time_perturbation_tuning_with_delayed_feedback_for_vision-language-action_m.md)
-- [\[ICLR 2026\] MVR: Multi-view Video Reward Shaping for Reinforcement Learning](mvr_multi-view_video_reward_shaping_for_reinforcement_learning.md)
+- [\[ICLR 2026\] WMPO: World Model-based Policy Optimization for Vision-Language-Action Models](wmpo_world_model-based_policy_optimization_for_vision-language-action_models.md)
 
 </div>
 

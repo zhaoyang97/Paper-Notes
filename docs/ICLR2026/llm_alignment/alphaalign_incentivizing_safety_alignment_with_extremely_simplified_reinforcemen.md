@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AlphaAlign: Incentivizing Safety Alignment with Extremely Simplified Reinforcement Learning
+description: >-
+  [ICLR2026][LLM对齐][安全对齐] AlphaAlign 用一套极简的纯强化学习框架——只需"是否有害"的二元标签 + 不到 200 步 RL——把大模型预训练时就潜藏的"安全自我意识"激发出来，让它先写一段安全推理再作答，靠"可验证安全奖励 + 归一化帮助性奖励"双奖励同时打破"越安全越没用"的权衡。
+tags:
+  - "ICLR2026"
+  - "LLM对齐"
+  - "安全对齐"
+  - "可验证奖励"
+  - "强化学习"
+  - "主动安全推理"
+  - "safety-utility 权衡"
+---
+
 # AlphaAlign: Incentivizing Safety Alignment with Extremely Simplified Reinforcement Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [2XNb1JUKW3](https://openreview.net/forum?id=2XNb1JUKW3)  
+**OpenReview**: [https://openreview.net/forum?id=2XNb1JUKW3](https://openreview.net/forum?id=2XNb1JUKW3)  
 **代码**: https://github.com/zy20031230/AlphaAlign  
 **领域**: 对齐RLHF / LLM安全  
 **关键词**: 安全对齐, 可验证奖励, 强化学习, 主动安全推理, safety-utility 权衡
@@ -134,10 +149,10 @@ AlphaAlign 在有害拒答、静态越狱、自适应越狱三类上 ASR 全面�
 ## 相关论文
 
 - [\[ICML 2026\] TruthRL: Incentivizing Truthful LLMs via Reinforcement Learning](../../ICML2026/llm_alignment/truthrl_incentivizing_truthful_llms_via_reinforcement_learning.md)
+- [\[ICLR 2026\] Inverse Reinforcement Learning with Dynamic Reward Scaling for LLM Alignment](inverse_reinforcement_learning_with_dynamic_reward_scaling_for_llm_alignment.md)
 - [\[ICML 2026\] Curriculum Learning for Safety Alignment](../../ICML2026/llm_alignment/curriculum_learning_for_safety_alignment.md)
 - [\[ICLR 2026\] Superficial Safety Alignment Hypothesis](superficial_safety_alignment_hypothesis.md)
-- [\[ICLR 2026\] No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping](no_prompt_left_behind_exploiting_zero-variance_prompts_in_llm_reinforcement_lear.md)
-- [\[ACL 2026\] PERSA: Reinforcement Learning for Professor-Style Personalized Feedback with LLMs](../../ACL2026/llm_alignment/persa_reinforcement_learning_for_professor-style_personalized_feedback_with_llms.md)
+- [\[ICLR 2026\] Text2Grad: Reinforcement Learning from Natural Language Feedback](text2grad_reinforcement_learning_from_natural_language_feedback.md)
 
 </div>
 

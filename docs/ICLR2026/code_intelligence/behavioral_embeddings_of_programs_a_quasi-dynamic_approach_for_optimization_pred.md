@@ -16,7 +16,7 @@ tags:
 # Behavioral Embeddings of Programs: A Quasi-Dynamic Approach for Optimization Prediction
 
 **会议**: ICLR2026  
-**OpenReview**: [QDmoLEJifR](https://openreview.net/forum?id=QDmoLEJifR)  
+**OpenReview**: [https://openreview.net/forum?id=QDmoLEJifR](https://openreview.net/forum?id=QDmoLEJifR)  
 **代码**: https://github.com/Panhaolin2001/PREP/  
 **领域**: 代码智能 / 程序表示学习 / 编译优化  
 **关键词**: 程序嵌入、编译优化、准动态表示、乘积量化、预训练 Transformer
@@ -144,10 +144,10 @@ Top-1 准确率比最强静态嵌入 inst2vec 高出 25 个百分点以上；回
 ## 相关论文
 
 - [\[ICLR 2026\] Sharing State Between Prompts and Programs](sharing_state_between_prompts_and_programs.md)
+- [\[ICLR 2026\] Code2Bench: Scaling Source and Rigor for Dynamic Benchmark Construction](code2bench_scaling_source_and_rigor_for_dynamic_benchmark_construction.md)
+- [\[ICLR 2026\] LLM-Guided Evolutionary Program Synthesis for Quasi-Monte Carlo Design](llm-guided_evolutionary_program_synthesis_for_quasi-monte_carlo_design.md)
 - [\[AAAI 2026\] MoSE: Hierarchical Self-Distillation Enhances Early Layer Embeddings](../../AAAI2026/code_intelligence/mose_hierarchical_self-distillation_enhances_early_layer_embeddings.md)
-- [\[ACL 2026\] DUET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode](../../ACL2026/code_intelligence/duet_dual_execution_for_test_output_prediction_with_generated_code_and_pseudocod.md)
-- [\[ICLR 2026\] A Problem-Oriented Perspective and Anchor Verification for Code Optimization](a_problem-oriented_perspective_and_anchor_verification_for_code_optimization.md)
-- [\[AAAI 2026\] EquaCode: A Multi-Strategy Jailbreak Approach for Large Language Models via Equation Solving and Code Completion](../../AAAI2026/code_intelligence/equacode_a_multi-strategy_jailbreak_approach_for_large_language_models_via_equat.md)
+- [\[ICLR 2026\] BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization](boad_discovering_hierarchical_software_engineering_agents_via_bandit_optimizatio.md)
 
 </div>
 

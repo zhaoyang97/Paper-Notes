@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Aligning Tree-Search Policies with Fixed Token Budgets in Test-Time Scaling of LLMs
+description: >-
+  [ICML2026][Reasoning][测试时扩展] 针对部署时"每条 query 给定固定 token 预算"的现实约束，本文提出 Budget-Guided MCTS（BG-MCTS），用"预算充足比 ρ"作为统一调度信号，让树搜索从早期广撒网、随预算耗尽逐渐转向深挖与补全答案，在数学/物理推理基准上稳定超过对预算"无感知"的树搜索基线。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "测试时扩展"
+  - "树搜索"
+  - "MCTS"
+  - "固定 token 预算"
+  - "推理效率"
+---
+
 # Aligning Tree-Search Policies with Fixed Token Budgets in Test-Time Scaling of LLMs
 
 **会议**: ICML2026  

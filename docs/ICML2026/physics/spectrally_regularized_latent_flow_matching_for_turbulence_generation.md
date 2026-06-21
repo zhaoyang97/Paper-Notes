@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Spectrally Regularized Latent Flow Matching for Turbulence Generation
+description: >-
+  [ICML 2026][物理/科学计算][湍流生成] 把潜空间流匹配生成湍流时常用的 MSE 压缩 VAE 换成"分区加权对数谱"目标，专治高波数耗散区幅值被系统性压低的顽疾——重建时深耗散区保留谱功率从 25% 拉到 94%，无条件生成时从 20% 拉到 79%，且只用 20 步积分就突破了 MSE 潜空间无法逾越的质量天花板。
+tags:
+  - "ICML 2026"
+  - "物理/科学计算"
+  - "湍流生成"
+  - "潜空间流匹配"
+  - "谱正则化"
+  - "变分自编码器"
+  - "耗散区"
+---
+
 # Spectrally Regularized Latent Flow Matching for Turbulence Generation
 
 **会议**: ICML 2026  

@@ -1,3 +1,20 @@
+---
+title: >-
+  [论文解读] Unraveling Syntax: Language Modeling and the Substructure of Grammars
+description: >-
+  [ICML 2026][学习理论][上下文无关文法] 本文为「语言模型损失」和「上下文无关文法（CFG）的子结构」建立了一套基础定理，证明语言建模的 KL 散度可以沿子文法层级递归地线性分解；并通过在合成 PCFG 上训练小 transformer 发现：模型是**并行**地学习所有子文法的（不像儿童先掌握简单结构），而 PCFG 子文法预训练只对相对文法很小的模型有帮助，但能稳定地让内部表示更贴合文法的子结构。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "语言模型学习动力学"
+  - "形式语言"
+  - "上下文无关文法"
+  - "PCFG"
+  - "子文法"
+  - "损失分解"
+  - "并行学习"
+---
+
 # Unraveling Syntax: Language Modeling and the Substructure of Grammars
 
 **会议**: ICML 2026  

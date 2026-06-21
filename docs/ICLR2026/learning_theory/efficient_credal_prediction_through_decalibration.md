@@ -2,10 +2,12 @@
 title: >-
   [论文解读] Efficient Credal Prediction through Decalibration
 description: >-
-  [ICLR2026][不确定性量化 / 信度集预测 / 概率方法][credal set] 本文提出 **decalibration（去校准）**：从一个已训练好的单模型出发，仅靠对 logits 加一个全局偏置向量、在"相对似然预算"约束内反向扰动概率，就能为每个类别算出一段"合理概率区间"，从而无需重训/集成地构造出表达认知不确定性的信度集（credal set），并首次把信度预测用到了 TabPFN、CLIP 这类无法重训的大模型上。
+  [ICLR2026][不确定性量化][credal set] 本文提出 **decalibration（去校准）**：从一个已训练好的单模型出发，仅靠对 logits 加一个全局偏置向量、在"相对似然预算"约束内反向扰动概率，就能为每个类别算出一段"合理概率区间"，从而无需重训/集成地构造出表达认知不确定性的信度集（credal set），并首次把信度预测用到了 TabPFN、CLIP 这类无法重训的大模型上。
 tags:
   - "ICLR2026"
-  - "不确定性量化 / 信度集预测 / 概率方法"
+  - "不确定性量化"
+  - "信度集预测"
+  - "概率方法"
   - "credal set"
   - "认知不确定性"
   - "相对似然"
@@ -16,7 +18,7 @@ tags:
 # Efficient Credal Prediction through Decalibration
 
 **会议**: ICLR2026  
-**OpenReview**: [BqOmsYIe7M](https://openreview.net/forum?id=BqOmsYIe7M)  
+**OpenReview**: [https://openreview.net/forum?id=BqOmsYIe7M](https://openreview.net/forum?id=BqOmsYIe7M)  
 **代码**: https://github.com/pwhofman/efficient-credal-prediction  
 **领域**: 不确定性量化 / 信度集预测 / 概率方法  
 **关键词**: credal set, 认知不确定性, 相对似然, 去校准, post-hoc
@@ -140,11 +142,11 @@ $$p_j^{(n)}(c)=\frac{\exp(z_j^{(n)}+c_j)}{\sum_k\exp(z_k^{(n)}+c_k)},\qquad p_j(
 
 ## 相关论文
 
-- [\[ICML 2026\] Enhancing Conformal Prediction via Class Similarity](../../ICML2026/learning_theory/enhancing_conformal_prediction_via_class_similarity.md)
-- [\[ICLR 2026\] Best-of-N through the Smoothing Lens: KL Divergence and Regret Analysis](best-of-n_through_the_smoothing_lens_kl_divergence_and_regret_analysis.md)
+- [\[ICML 2026\] Learning Credal Ensembles via Distributionally Robust Optimization](../../ICML2026/learning_theory/learning_credal_ensembles_via_distributionally_robust_optimization.md)
+- [\[ICLR 2026\] Conformal Prediction for Long-Tailed Classification](conformal_prediction_for_long-tailed_classification.md)
+- [\[ICLR 2026\] Distribution-informed Online Conformal Prediction](distribution-informed_online_conformal_prediction.md)
 - [\[ICLR 2026\] Branch and Bound Search for Exact MAP Inference in Credal Networks](branch_and_bound_search_for_exact_map_inference_in_credal_networks.md)
-- [\[ICML 2026\] MMD-Balls as Credal Sets: A PAC-Bayesian Framework for Epistemic Uncertainty in Test-Time Adaptation](../../ICML2026/learning_theory/mmd-balls_as_credal_sets_a_pac-bayesian_framework_for_epistemic_uncertainty_in_t.md)
-- [\[ICLR 2026\] Ads that Stick: Near-Optimal Ad Optimization through Psychological Behavior Models](ads_that_stick_near-optimal_ad_optimization_through_psychological_behavior_model.md)
+- [\[ICLR 2026\] Multiple-Prediction-Powered Inference](multiple-prediction-powered_inference.md)
 
 </div>
 

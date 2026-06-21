@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] 3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis
+description: >-
+  [ICLR2026][3D视觉][点云分析] 3DSMT 把脉冲神经网络（SNN）的事件驱动低功耗特性，与 Transformer 的局部建模、Mamba 的线性复杂度全局建模拧成一个混合架构，用「脉冲局部偏移注意力 + 脉冲 Mamba 块」在分类、少样本、分割任务上拿下 SNN 方法的 SOTA，能耗只有 ANN 同行的几十分之一，还反超了不少 ANN 模型。
+tags:
+  - "ICLR2026"
+  - "3D视觉"
+  - "点云分析"
+  - "脉冲神经网络"
+  - "Mamba"
+  - "局部偏移注意力"
+  - "能效"
+---
+
 # 3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis
 
 **会议**: ICLR2026  
-**OpenReview**: [KkoS6y0pHP](https://openreview.net/forum?id=KkoS6y0pHP)  
+**OpenReview**: [https://openreview.net/forum?id=KkoS6y0pHP](https://openreview.net/forum?id=KkoS6y0pHP)  
 **代码**: 待确认（原文称已开源）  
 **领域**: 3D视觉 / 点云分析 / 脉冲神经网络  
 **关键词**: 点云分析、脉冲神经网络、Mamba、局部偏移注意力、能效
@@ -143,11 +158,11 @@ $$Z_2 = (Z_L\otimes Z_G) + (Z_C\otimes Z_G), \quad Z_3 = \text{Lin}(\text{SN}(Z_
 
 ## 相关论文
 
+- [\[ICLR 2026\] Spiking Discrepancy Transformer for Point Cloud Analysis](spiking_discrepancy_transformer_for_point_cloud_analysis.md)
 - [\[ICCV 2025\] Efficient Spiking Point Mamba for Point Cloud Analysis](../../ICCV2025/3d_vision/efficient_spiking_point_mamba_for_point_cloud_analysis.md)
+- [\[CVPR 2025\] Spectral Informed Mamba for Robust Point Cloud Processing](../../CVPR2025/3d_vision/spectral_informed_mamba_for_robust_point_cloud_processing.md)
 - [\[AAAI 2026\] DAPointMamba: Domain Adaptive Point Mamba for Point Cloud Completion](../../AAAI2026/3d_vision/dapointmamba_domain_adaptive_point_mamba_for_point_cloud_completion.md)
-- [\[CVPR 2026\] Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning](../../CVPR2026/3d_vision/adapting_point_cloud_analysis_via_multimodal_bayesian_distribution_learning.md)
 - [\[AAAI 2026\] Graph Smoothing for Enhanced Local Geometry Learning in Point Cloud Analysis](../../AAAI2026/3d_vision/graph_smoothing_for_enhanced_local_geometry_learning_in_point_cloud_analysis.md)
-- [\[CVPR 2026\] ECKConv: Learning Coordinate-based Convolutional Kernels for Continuous SE(3) Equivariant Point Cloud Analysis](../../CVPR2026/3d_vision/learning_coordinate-based_convolutional_kernels_for_continuous_se3_equivariant_a.md)
 
 </div>
 

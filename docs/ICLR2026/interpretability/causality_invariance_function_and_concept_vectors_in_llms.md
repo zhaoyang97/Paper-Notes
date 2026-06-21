@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Causality ≠ Invariance: Function and Concept Vectors in LLMs
+description: >-
+  [ICLR2026][可解释性][函数向量] 这篇论文区分了 LLM 里两类截然不同的注意力头——用激活补丁找到的"因果头"（组成 Function Vectors，真正驱动上下文学习行为）和用表示相似性分析找到的"不变头"（组成 Concept Vectors，跨输入格式/语言稳定地编码抽象关系概念），证明二者几乎不重叠，从而揭示"是什么驱动了任务表现"和"什么编码了抽象概念"在 LLM 中由不同机制承担。
+tags:
+  - "ICLR2026"
+  - "可解释性"
+  - "函数向量"
+  - "概念向量"
+  - "表示相似性分析"
+  - "上下文学习"
+  - "激活补丁"
+---
+
 # Causality ≠ Invariance: Function and Concept Vectors in LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [LmLmhb6GEL](https://openreview.net/forum?id=LmLmhb6GEL)  
+**OpenReview**: [https://openreview.net/forum?id=LmLmhb6GEL](https://openreview.net/forum?id=LmLmhb6GEL)  
 **代码**: 待确认  
 **领域**: 机制可解释性  
 **关键词**: 函数向量, 概念向量, 表示相似性分析, 上下文学习, 激活补丁
@@ -89,6 +104,7 @@ $\rho$ 越高，说明这个头的表示越是"按概念聚类、跨格式稳定
 - **RSA 分数**（图 4）：跨模型与各 K 值，CV 的 concept-RSA 更高、question-type RSA 更低；FV 反之，编码了更多格式信息。
 
 ### 转向实验关键发现（AmbiguousICL）
+
 | 设置 | FV 表现 | CV 表现 |
 |------|---------|---------|
 | 同分布 ID（OE-EN 提取） | $\Delta P$ 增益最大、转向最强 | 也有效但增益更小、零样本几乎无效 |
@@ -125,3 +141,19 @@ $\rho$ 越高，说明这个头的表示越是"按概念聚类、跨格式稳定
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 4 个模型、7 概念、3 格式、多 K 值，头重叠 + 转向 + token 级证据互相印证；但概念集偏关系类、向量构造较简单
 - 写作质量: ⭐⭐⭐⭐⭐ 论点清晰、对照工整，图表（相似性矩阵、token 表）极具说服力
 - 价值: ⭐⭐⭐⭐⭐ 对 ICL 机制理解和转向向量实践都有直接修正意义，提醒社区别再把 FV 当概念探针
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] CoT Vectors: Transferring and Probing the Reasoning Mechanisms of LLMs](cot_vectors_transferring_and_probing_the_reasoning_mechanisms_of_llms.md)
+- [\[ICML 2026\] How Few-Shot Examples Add Up: A Causal Decomposition of Function Vectors in In-Context Learning](../../ICML2026/interpretability/how_few-shot_examples_add_up_a_causal_decomposition_of_function_vectors_in_in-co.md)
+- [\[ICLR 2026\] Dissecting Representation Misalignment in Contrastive Learning via Influence Function](dissecting_representation_misalignment_in_contrastive_learning_via_influence_fun.md)
+- [\[ICML 2026\] Where Computation Lives Inside TabPFN: Causal Localisation of Attention Head Function](../../ICML2026/interpretability/where_computation_lives_inside_tabpfn_causal_localisation_of_attention_head_func.md)
+- [\[ICLR 2026\] Concept-TRAK: Understanding how diffusion models learn concepts through concept attribution](concept-trak_understanding_how_diffusion_models_learn_concepts_through_concept_a.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ChartAgent: A Multimodal Agent for Visually Grounded Reasoning in Complex Chart Question Answering
+description: >-
+  [ACL2026][LLM Agent][图表问答] ChartAgent 把图表问答从"文字链式推理"改成"在图像本身上动手"——用一套图表专用视觉工具（分割饼块、抠条形、定位坐标轴）在 ReAct 循环里逐步操作图表、并对中间可视化做自我校验，在 ChartBench / ChartX 上对无标注、重数值的难题整体提升最高 16.07%、无标注子集提升 17.31%。
+tags:
+  - "ACL2026"
+  - "LLM Agent"
+  - "图表问答"
+  - "视觉接地推理"
+  - "工具增强Agent"
+  - "ReAct"
+  - "视觉自校验"
+---
+
 # ChartAgent: A Multimodal Agent for Visually Grounded Reasoning in Complex Chart Question Answering
 
 **会议**: ACL2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Minibatch Selection via Partition Matroid Constrained Gradient Matching
+description: >-
+  [ICML2026][优化/理论][minibatch 选择] PartitionSel 把「跨域 minibatch 选择」建模成在**划分拟阵约束**（逐域预算）下最大化一个**验证引导的加权梯度匹配效用**，证明该目标单调且弱次模、可用正交匹配追踪（OMP）求解并带近似保证，从而在不训练任何代理模型的前提下，于每一步训练在 batch 级诱导出隐式的数据混合，减少跨域冗余与梯度冲突。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "minibatch 选择"
+  - "划分拟阵"
+  - "梯度匹配"
+  - "弱次模"
+  - "数据混合"
+---
+
 # Minibatch Selection via Partition Matroid Constrained Gradient Matching
 
 **会议**: ICML2026  

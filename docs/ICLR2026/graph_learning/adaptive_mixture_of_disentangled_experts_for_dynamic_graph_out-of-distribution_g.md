@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Mixture of Disentangled Experts for Dynamic Graph Out-of-Distribution Generalization
+description: >-
+  [ICLR 2026][图学习][动态图] 针对动态图上"分布偏移本身会随时间演化"这一现象，本文提出 AdaMix：用一个时空分布探测器实时感知每个时刻的偏移，再用原型引导的解耦专家混合（多种 GNN 架构当专家）按偏移自适应路由，最后用分布感知干预机制挖掘不变模式，在真实与合成动态图数据集上显著超过固定架构的 SOTA。
+tags:
+  - "ICLR 2026"
+  - "图学习"
+  - "动态图"
+  - "分布偏移"
+  - "自适应架构"
+  - "专家混合（MoE）"
+  - "解耦原型"
+---
+
 # Adaptive Mixture of Disentangled Experts for Dynamic Graph Out-of-Distribution Generalization
 
 **会议**: ICLR 2026  
-**OpenReview**: [q0O5LO7X4I](https://openreview.net/forum?id=q0O5LO7X4I)  
+**OpenReview**: [https://openreview.net/forum?id=q0O5LO7X4I](https://openreview.net/forum?id=q0O5LO7X4I)  
 **代码**: https://github.com/haibo12/AdaMix （论文承诺开源）  
 **领域**: 图学习 / 动态图 / OOD 泛化 / 专家混合  
 **关键词**: 动态图、分布偏移、自适应架构、专家混合（MoE）、解耦原型
@@ -129,11 +144,11 @@ AdaMix 在多数数据集上拿到最优或次优，平均分 72.95 领先所有
 
 ## 相关论文
 
+- [\[ICLR 2026\] Diverse and Sparse Mixture-of-Experts for Causal Subgraph–Based Out-of-Distribution Graph Learning](diverse_and_sparse_mixture-of-experts_for_causal_subgraphbased_out-of-distributi.md)
+- [\[ICLR 2026\] Out-of-Distribution Graph Models Merging](out-of-distribution_graph_models_merging.md)
+- [\[ICLR 2026\] GDGB: A Benchmark for Generative Dynamic Text-Attributed Graph Learning](gdgb_a_benchmark_for_generative_dynamic_text-attributed_graph_learning.md)
+- [\[ICLR 2026\] Global-Recent Semantic Reasoning on Dynamic Text-Attributed Graphs with Large Language Models](global-recent_semantic_reasoning_on_dynamic_text-attributed_graphs_with_large_la.md)
 - [\[AAAI 2026\] Self-Adaptive Graph Mixture of Models](../../AAAI2026/graph_learning/self-adaptive_graph_mixture_of_models.md)
-- [\[CVPR 2026\] Mixture-of-Experts based Feature Decoupling for Open Vocabulary Scene Graph Generation](../../CVPR2026/graph_learning/mixture-of-experts_based_feature_decoupling_for_open_vocabulary_scene_graph_gene.md)
-- [\[ICLR 2026\] GraphUniverse: Synthetic Graph Generation for Evaluating Inductive Generalization](graphuniverse_synthetic_graph_generation_for_evaluating_inductive_generalization.md)
-- [\[NeurIPS 2025\] Moscat: Mixture of Scope Experts at Test for Generalizing Deeper GNNs](../../NeurIPS2025/graph_learning/mixture_of_scope_experts_at_test_generalizing_deeper_graph_neural_networks_with_.md)
-- [\[NeurIPS 2025\] MoEMeta: Mixture-of-Experts Meta Learning for Few-Shot Relational Learning](../../NeurIPS2025/graph_learning/moemeta_mixture-of-experts_meta_learning_for_few-shot_relational_learning.md)
 
 </div>
 

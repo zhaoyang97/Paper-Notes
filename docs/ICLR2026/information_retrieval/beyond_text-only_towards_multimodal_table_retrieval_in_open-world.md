@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Text-Only: Towards Multimodal Table Retrieval in Open-World
+description: >-
+  [ICLR2026][信息检索/RAG][表格检索] 这篇论文指出"把表格序列化成文本再检索"会丢掉表格的结构和图像信息，于是把开放域表格检索重新定义成"以表格截图为单位的多模态检索"，并据此构建了首个图像化表格检索基准 TaR-ViR；实验证明多模态检索器在召回率上能追平甚至超过文本检索器，且省掉了易出错的表格转文本环节。
+tags:
+  - "ICLR2026"
+  - "信息检索/RAG"
+  - "表格检索"
+  - "多模态检索"
+  - "图像表格"
+  - "基准数据集"
+  - "RAG"
+---
+
 # Beyond Text-Only: Towards Multimodal Table Retrieval in Open-World
 
 **会议**: ICLR2026  
-**OpenReview**: [4QPgqdQmYn](https://openreview.net/forum?id=4QPgqdQmYn)  
+**OpenReview**: [https://openreview.net/forum?id=4QPgqdQmYn](https://openreview.net/forum?id=4QPgqdQmYn)  
 **代码**: https://github.com/Trustworthy-Information-Access/Tab-ViR  
 **领域**: 信息检索 / 多模态  
 **关键词**: 表格检索, 多模态检索, 图像表格, 基准数据集, RAG
@@ -134,9 +149,9 @@ TaR-ViR 还标了答案，可评测 RAG。用 Qwen2-VL-2B 的文本/多模态检
 ## 相关论文
 
 - [\[ACL 2026\] Retrieve Only Relevant Tables Whether Few or Many: Adaptive Table Retrieval Method](../../ACL2026/information_retrieval/retrieve_only_relevant_tables_whether_few_or_many_adaptive_table_retrieval_metho.md)
-- [\[AAAI 2026\] N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](../../AAAI2026/information_retrieval/n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)
+- [\[ICLR 2026\] MRMR: A Realistic and Expert-Level Multidisciplinary Benchmark for Reasoning-Intensive Multimodal Retrieval](mrmr_a_realistic_and_expert-level_multidisciplinary_benchmark_for_reasoning-inte.md)
 - [\[ICLR 2026\] Beyond Sequential Reranking: Reranker-Guided Search Improves Reasoning Intensive Retrieval](beyond_sequential_reranking_reranker-guided_search_improves_reasoning_intensive_.md)
-- [\[ICML 2026\] ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World](../../ICML2026/information_retrieval/ml-embed_inclusive_and_efficient_embeddings_for_a_multilingual_world.md)
+- [\[ICLR 2026\] Supervised Fine-Tuning or Contrastive Learning? Towards Better Multimodal LLM Reranking](supervised_fine-tuning_or_contrastive_learning_towards_better_multimodal_llm_rer.md)
 - [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
 
 </div>

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Position: Generative Engine Optimization Creates Underexamined Risks, Governance Must Target Concentration, Disclosure, and Academic Blind Spots
+description: >-
+  [ICML2026][AI安全][生成引擎优化] 这是一篇立场论文：当用户从"看排序列表"转向"看 LLM 合成答案"，搜索引擎优化(SEO)随之演化成**生成引擎优化(GEO)**——它在 RAG 式答案引擎的证据池和生成环节里施加影响；作者形式化出一条通用 GEO 流水线，据此指出三类被忽视的风险（影响力集中、隐性商业影响、学术-工业盲区），并呼吁"答案级治理"：更强的可争议性、高精度披露、对实质影响的黑盒审计、以及与部署对齐的曝光持久性度量。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "生成引擎优化"
+  - "答案级治理"
+  - "隐性商业影响"
+  - "黑盒审计"
+  - "RAG 操纵"
+---
+
 # Position: Generative Engine Optimization Creates Underexamined Risks, Governance Must Target Concentration, Disclosure, and Academic Blind Spots
 
 **会议**: ICML2026  

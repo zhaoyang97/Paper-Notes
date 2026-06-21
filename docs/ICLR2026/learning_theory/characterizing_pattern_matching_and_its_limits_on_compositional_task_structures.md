@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Characterizing Pattern Matching and Its Limits on Compositional Task Structures
+description: >-
+  [ICLR 2026][学习理论][模式匹配] 本文把 LLM 常被诟病的"模式匹配"严格形式化为**功能等价（functional equivalence）**——只有当两段输入片段在相同上下文里被反复观测到产生相同输出时，模型才能在它们之间安全替换——并据此定义出一条可判定、可证伪的**覆盖边界（coverage）**，进而证明了组合任务的数据缩放律、揭示了"路径歧义"这一结构性失败模式，给模式匹配能做到什么、做不到什么画出了一条精确的界线。
+tags:
+  - "ICLR 2026"
+  - "学习理论"
+  - "组合泛化"
+  - "模式匹配"
+  - "功能等价"
+  - "覆盖边界"
+  - "样本复杂度"
+  - "路径歧义"
+---
+
 # Characterizing Pattern Matching and Its Limits on Compositional Task Structures
 
 **会议**: ICLR 2026  
-**OpenReview**: [VCjlm003WL](https://openreview.net/forum?id=VCjlm003WL)  
+**OpenReview**: [https://openreview.net/forum?id=VCjlm003WL](https://openreview.net/forum?id=VCjlm003WL)  
 **代码**: https://github.com/kaistAI/coverage-principle  
 **领域**: 学习理论 / 组合泛化  
 **关键词**: 模式匹配, 功能等价, 覆盖边界, 样本复杂度, 路径歧义
@@ -70,6 +86,7 @@ flowchart TD
 ## 实验关键数据
 
 ### 主实验（数据缩放律指数）
+
 | 任务结构 | 实测指数 $c$ | 说明 |
 |--------|------|------|
 | 2-HOP | 2.26 | 与理论界 $c=2.5-0.5/k$（$c\in[2,2.5)$）吻合 |
@@ -82,6 +99,7 @@ flowchart TD
 （所有线性拟合 $R^2>0.98$。）
 
 ### 路径歧义诊断（IICG 分析）
+
 | 任务 / 分组方式 | IICG | 含义 |
 |------|------|------|
 | 2-HOP，按 $b$ 分组 | 高 | 形成统一中间状态表示，泛化成功 |
@@ -117,3 +135,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐⭐ 四类任务、跨 20× 参数、跨架构、CoT 对照、IICG + 因果追踪，理论实证闭环
 - 写作质量: ⭐⭐⭐⭐ 形式化严谨、图表信息量大，但定义与定理较密、上手门槛偏高
 - 价值: ⭐⭐⭐⭐⭐ 为组合泛化提供可证伪的诊断框架，对数据增广与失败归因有直接指导意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Characterizing the Discrete Geometry of ReLU Networks](characterizing_the_discrete_geometry_of_relu_networks.md)
+- [\[ICLR 2026\] On the Computational Limits of AI4S-RL：A Unified $\varepsilon$-$N$ Analysis](on_the_computational_limits_of_ai4s-rl_a_unified_varepsilon-n_analysis.md)
+- [\[ICLR 2026\] The Expressive Limits of Diagonal SSMs for State-Tracking](the_expressive_limits_of_diagonal_ssms_for_state-tracking.md)
+- [\[ICLR 2026\] Sharp Asymptotic Theory for Q-Learning with LD2Z Learning Rate and Its Generalization](sharp_asymptotic_theory_for_q-learning_with_textttld2z_learning_rate_and_its_gen.md)
+- [\[ICLR 2026\] Neural Collapse in Multi-Task Learning](neural_collapse_in_multi-task_learning.md)
+
+</div>
+
+<!-- RELATED:END -->

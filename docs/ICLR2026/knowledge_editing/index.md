@@ -1,23 +1,26 @@
 ---
 title: >-
-  ICLR2026 知识编辑论文汇总 · 9篇论文解读
+  ICLR2026 知识编辑论文汇总 · 14篇论文解读
 description: >-
-  9篇ICLR2026的知识编辑方向论文解读，涵盖对齐/RLHF、对抗鲁棒、目标跟踪、布局/合成、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  14篇ICLR2026的知识编辑方向论文解读，涵盖 LLM、对齐/RLHF、对抗鲁棒、目标跟踪、个性化生成、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "知识编辑"
   - "论文解读"
   - "论文笔记"
+  - "LLM"
   - "对齐/RLHF"
   - "对抗鲁棒"
   - "目标跟踪"
+  - "个性化生成"
   - "布局/合成"
-  - "多模态"
 item_list:
   - u: "ace_attribution-controlled_knowledge_editing_for_multi-hop_factual_recall/"
     t: "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall"
   - u: "bilinear_representation_mitigates_reversal_curse_and_enables_consistent_model_ed/"
     t: "Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing"
+  - u: "disentangling_knowledge_representations_for_large_language_model_editing/"
+    t: "Disentangling Knowledge Representations for Large Language Model Editing"
   - u: "eamet_robust_massive_model_editing_via_embedding_alignment_optimization/"
     t: "EAMET: Robust Massive Model Editing via Embedding Alignment Optimization"
   - u: "energy-regularized_sequential_model_editing_on_hyperspheres/"
@@ -26,21 +29,29 @@ item_list:
     t: "Fine-tuning Done Right in Model Editing"
   - u: "got-edit_geometry-aware_generic_object_tracking_via_online_model_editing/"
     t: "GOT-Edit: Geometry-Aware Generic Object Tracking via Online Model Editing"
+  - u: "knowledgesmith_uncovering_knowledge_updating_in_llms_with_model_editing_and_unle/"
+    t: "KnowledgeSmith: Uncovering Knowledge Updating in LLMs with Model Editing and Unlearning"
+  - u: "mobiedit_resource-efficient_knowledge_editing_for_personalized_on-device_llms/"
+    t: "MobiEdit: Resource-efficient Knowledge Editing for Personalized On-device LLMs"
+  - u: "moeedit_efficient_and_routing-stable_knowledge_editing_for_mixture-of-experts_ll/"
+    t: "MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs"
   - u: "pics_pairwise_image_compositing_with_spatial_interactions/"
     t: "PICS: Pairwise Image Compositing with Spatial Interactions"
-  - u: "rote_learning_considered_useful_generalizing_over_memorized_training_examples/"
-    t: "Rote Learning Considered Useful: Generalizing over Memorized Training Examples"
+  - u: "suit_knowledge_editing_with_subspace-aware_key-value_mappings/"
+    t: "SUIT: Knowledge Editing with Subspace-Aware Key-Value Mappings"
+  - u: "tanglescore_tangle-guided_purge_and_imprint_for_unstructured_knowledge_editing/"
+    t: "TangleScore: Tangle-Guided Purge and Imprint for Unstructured Knowledge Editing"
   - u: "when_large_multimodal_models_confront_evolving_knowledge_challenges_and_explorat/"
     t: "When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations"
-item_total: 9
+item_total: 14
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**🔬 ICLR2026** · **9** 篇论文解读
+**🔬 ICLR2026** · **14** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/knowledge_editing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/knowledge_editing/index.md) · [💬 ACL2026 (10)](../../ACL2026/knowledge_editing/index.md) · [🤖 AAAI2026 (4)](../../AAAI2026/knowledge_editing/index.md) · [🧠 NeurIPS2025 (6)](../../NeurIPS2025/knowledge_editing/index.md) · [🧪 ICML2025 (2)](../../ICML2025/knowledge_editing/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/knowledge_editing/index.md) · [💬 ACL2026 (10)](../../ACL2026/knowledge_editing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/knowledge_editing/index.md) · [🤖 AAAI2026 (4)](../../AAAI2026/knowledge_editing/index.md) · [🧠 NeurIPS2025 (6)](../../NeurIPS2025/knowledge_editing/index.md) · [🧪 ICML2025 (2)](../../ICML2025/knowledge_editing/index.md)
 
 **[ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall](ace_attribution-controlled_knowledge_editing_for_multi-hop_factual_recall.md)**
 
@@ -49,6 +60,10 @@ item_total: 9
 **[Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing](bilinear_representation_mitigates_reversal_curse_and_enables_consistent_model_ed.md)**
 
 :   通过在合成关系知识图谱上从头训练 Transformer，发现适当正则化会使模型隐层涌现出双线性关系结构（bilinear relational structure），该结构不仅能克服逆向诅咒（reversal curse），还能实现编辑单个事实后逻辑一致地传播到相关事实。
+
+**[Disentangling Knowledge Representations for Large Language Model Editing](disentangling_knowledge_representations_for_large_language_model_editing.md)**
+
+:   针对知识编辑会误伤"同主体但不同关系/客体"的细粒度无关知识这一被忽视的问题，本文提出 DiKE：先用一个可复用的解耦模块把主体表示拆成"与目标知识相关"和"无关"两部分，再只对相关部分做编辑、显式约束无关部分不变，并推导出一个闭式的秩一参数更新公式，在保住细粒度无关知识的同时维持了主流编辑性能。
 
 **[EAMET: Robust Massive Model Editing via Embedding Alignment Optimization](eamet_robust_massive_model_editing_via_embedding_alignment_optimization.md)**
 
@@ -66,13 +81,29 @@ item_total: 9
 
 :   通过零空间约束的在线模型编辑，将 VGGT 提供的 3D 几何信息融入 2D 通用目标跟踪器中，在保持语义判别力的同时增强几何感知能力，在遮挡和背景杂乱场景中显著提升跟踪性能。
 
+**[KnowledgeSmith: Uncovering Knowledge Updating in LLMs with Model Editing and Unlearning](knowledgesmith_uncovering_knowledge_updating_in_llms_with_model_editing_and_unle.md)**
+
+:   本文提出 KnowledgeSmith，把"知识编辑"和"机器遗忘"统一为同一个约束优化问题，并用知识图谱自动生成跨层级（根/中间/叶）、跨数据规模的大规模评测基准，系统揭示了 LLM 知识更新中的传播不对称、一致性-容量权衡、学科依赖等一系列反直觉现象。
+
+**[MobiEdit: Resource-efficient Knowledge Editing for Personalized On-device LLMs](mobiedit_resource-efficient_knowledge_editing_for_personalized_on-device_llms.md)**
+
+:   MobiEdit 把经典 locate-and-edit 知识编辑（ROME）里资源沉重的反向传播换成「量化 + 前向零阶梯度估计」，再配早停和前缀激活复用两个系统优化，第一次让 3B LLM 的实时知识编辑能跑在普通商用手机的 NPU 上，内存省 7.1×、能耗省 15.8×、延迟省 3.4×。
+
+**[MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs](moeedit_efficient_and_routing-stable_knowledge_editing_for_mixture-of-experts_ll.md)**
+
+:   MoEEdit 是首个面向 MoE 大模型的「路由稳定」参数修改式知识编辑框架，用「逐专家零空间投影」保证编辑不扰动下游路由器输入，再用随机块坐标下降（BCD）求解器把代价从专家总数解耦到专家隐藏维度，从而在稀疏架构上同时拿下高编辑成功率、强泛化与路由稳定性。
+
 **[PICS: Pairwise Image Compositing with Spatial Interactions](pics_pairwise_image_compositing_with_spatial_interactions.md)**
 
 :   提出 PICS——一种并行成对图像合成方法，通过 Interaction Transformer 中的掩码引导 MoE 和自适应 α-blending 策略，在单次推理中同时合成两个对象并显式建模遮挡、接触等空间交互关系，全面超越现有序列合成方法。
 
-**[Rote Learning Considered Useful: Generalizing over Memorized Training Examples](rote_learning_considered_useful_generalizing_over_memorized_training_examples.md)**
+**[SUIT: Knowledge Editing with Subspace-Aware Key-Value Mappings](suit_knowledge_editing_with_subspace-aware_key-value_mappings.md)**
 
-:   本文提出"先记忆再泛化"两阶段框架，证明 LLM 可以在死记硬背合成关键 token 后，通过极少量语义微调实现泛化，挑战了"记忆阻碍泛化"的传统观点。
+:   SUIT 把 locate-then-edit 知识编辑里"随手算出来"的键向量 $k$ 和残差向量 $\delta$ 限制到"和这次编辑真正相关"的低维子空间里，从而在几乎不损失编辑成功率的前提下，大幅减少对无关知识的破坏——在 LLaMA3 / GPT-J / Qwen2.5 上的 Specificity 相比强基线 AlphaEdit 翻倍提升。
+
+**[TangleScore: Tangle-Guided Purge and Imprint for Unstructured Knowledge Editing](tanglescore_tangle-guided_purge_and_imprint_for_unstructured_knowledge_editing.md)**
+
+:   本文提出一个无需依赖具体编辑算法、只由「模型 + 知识样本」决定的内在难度指标 **TangleScore**，用它度量某条知识有多「难改」，并据此设计 **PIPE**（先清除旧知识、再印刻新知识的两阶段编辑框架），在四个不同规模 LLM、两个非结构化编辑基准上把泛化性能平均提升 6.49%。
 
 **[When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations](when_large_multimodal_models_confront_evolving_knowledge_challenges_and_explorat.md)**
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Multi-Agent Systems are Mixtures of Experts: Who Becomes an Influencer?
+description: >-
+  [ICML 2026][多智能体][多智能体LLM] 本文用社会学里的 **Friedkin-Johnsen（FJ）意见动力学**给"多个 LLM 智能体辩论"建模，证明 FJ 参数是**随输入变化**的——这等价于让多智能体系统（MAS）实现了一个**专家混合（MoE）+ 隐式路由**；进而从理论上刻画 MAS 何时能赢过单智能体和静态集成，并通过实验揭示"谁会成为意见领袖"主要由**置信度（尤其是相对置信度）**决定。
+tags:
+  - "ICML 2026"
+  - "多智能体"
+  - "多智能体LLM"
+  - "意见动力学"
+  - "专家混合"
+  - "路由"
+  - "影响力"
+---
+
 # Multi-Agent Systems are Mixtures of Experts: Who Becomes an Influencer?
 
 **会议**: ICML 2026  

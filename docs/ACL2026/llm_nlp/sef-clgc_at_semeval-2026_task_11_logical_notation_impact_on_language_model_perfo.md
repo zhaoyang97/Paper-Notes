@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SEF-CLGC at SemEval-2026 Task 11: Logical Notation Impact on Language Model Performance
+description: >-
+  [ACL 2026][LLM 其他][三段论验证] 这篇 SemEval-2026 Task 11 参赛系统论文把自然语言三段论翻译成多种形式逻辑记法（FOL、CLIF、CLINGO 等），再用参数量 <1B 的小语言模型（Flan-T5）做监督微调来判断三段论是否有效，证明给自然语言配上 FOL 这类"模型见过的"形式记法能在保持极低算力的同时显著压低推理中的内容偏置。
+tags:
+  - "ACL 2026"
+  - "LLM 其他"
+  - "三段论验证"
+  - "小语言模型"
+  - "形式逻辑记法"
+  - "神经符号"
+  - "内容偏置"
+---
+
 # SEF-CLGC at SemEval-2026 Task 11: Logical Notation Impact on Language Model Performance
 
 **会议**: ACL 2026  

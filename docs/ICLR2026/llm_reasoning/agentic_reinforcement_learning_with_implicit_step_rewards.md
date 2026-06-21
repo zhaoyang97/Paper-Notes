@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Agentic Reinforcement Learning with Implicit Step Rewards
+description: >-
+  [ICLR2026][Reasoning][agentic RL] 本文提出 iStar，一种面向 LLM 智能体多轮强化学习的通用信用分配策略：用一个**隐式过程奖励模型（PRM）**和策略模型交替优化，通过多轮 DPO 目标在线学出每一步动作的稠密奖励，再把步骤级优势和 episode 级优势相加去更新策略，在 WebShop、VisualSokoban 和开放式社交 SOTOPIA 上都拿到 SOTA，且样本效率与训练稳定性都更好。
+tags:
+  - "ICLR2026"
+  - "Reasoning"
+  - "agentic RL"
+  - "隐式过程奖励"
+  - "信用分配"
+  - "多轮 DPO"
+  - "步骤级优势"
+---
+
 # Agentic Reinforcement Learning with Implicit Step Rewards
 
 **会议**: ICLR2026  
-**OpenReview**: [ooROvpmxMV](https://openreview.net/forum?id=ooROvpmxMV)  
+**OpenReview**: [https://openreview.net/forum?id=ooROvpmxMV](https://openreview.net/forum?id=ooROvpmxMV)  
 **代码**: https://github.com/Tongyi-ConvAI/Qwen-Character/tree/main/CharacterRL-iStar  
 **领域**: LLM Agent / 强化学习 / 信用分配  
 **关键词**: agentic RL、隐式过程奖励、信用分配、多轮 DPO、步骤级优势
@@ -95,6 +110,7 @@ SOTOPIA（目标完成分 0-10，GPT-4o 评判）：iStar 在 hard 社交场景�
 iStar 还能即插即用提升多种 RL 算法：套在 RLOO 上 WebShop 和 VisualSokoban 成功率各涨 6.3%，REINFORCE++ 和 GRPO 上也有同样趋势。
 
 ### 消融实验
+
 | 配置 | WebShop Success | WebShop Score | VisualSokoban Success |
 |------|------|------|------|
 | RLOO（仅结果奖励） | 76.6 | 84.2 | 85.9 |
@@ -133,3 +149,19 @@ iStar 还能即插即用提升多种 RL 算法：套在 RLOO 上 WebShop 和 Vis
 - 实验充分度: ⭐⭐⭐⭐⭐ 三类异质环境（含不可验证奖励的开放社交）、多基座、多 RL 算法即插即用、样本效率/稳定性/探索全维度分析 + 细致消融。
 - 写作质量: ⭐⭐⭐⭐ 动机层层递进、方法与理论衔接好；图较多但部分依赖附录，正文略紧。
 - 价值: ⭐⭐⭐⭐⭐ 提供了一个通用、标签高效、对（不）可验证奖励都鲁棒的 agentic RL 信用分配策略，可直接插进主流 RL 算法，实用价值高。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2026\] HISR: Hindsight Information Modulated Segmental Process Rewards for Multi-turn Agentic Reinforcement Learning](../../ACL2026/llm_reasoning/hisr_hindsight_information_modulated_segmental_process_rewards_for_multi-turn_ag.md)
+- [\[CVPR 2026\] Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs](../../CVPR2026/llm_reasoning/scaling_agentic_reinforcement_learning_for_tool-integrated_reasoning_in_vlms.md)
+- [\[ICLR 2026\] Emergent Hierarchical Reasoning in LLMs through Reinforcement Learning](emergent_hierarchical_reasoning_in_llms_through_reinforcement_learning.md)
+- [\[ICLR 2026\] Process-Verified Reinforcement Learning for Theorem Proving via Lean](process-verified_reinforcement_learning_for_theorem_proving_via_lean.md)
+- [\[ICLR 2026\] Learning to Reason over Continuous Tokens with Reinforcement Learning (HyRea)](learning_to_reason_over_continuous_tokens_with_reinforcement_learning.md)
+
+</div>
+
+<!-- RELATED:END -->

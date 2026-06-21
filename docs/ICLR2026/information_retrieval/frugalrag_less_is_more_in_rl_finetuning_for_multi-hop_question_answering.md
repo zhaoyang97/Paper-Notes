@@ -16,7 +16,7 @@ tags:
 # FrugalRAG: Less is More in RL Finetuning for Multi-hop Question Answering
 
 **会议**: ICLR 2026  
-**OpenReview**: [uQKtwdJN0o](https://openreview.net/forum?id=uQKtwdJN0o)  
+**OpenReview**: [https://openreview.net/forum?id=uQKtwdJN0o](https://openreview.net/forum?id=uQKtwdJN0o)  
 **代码**: 待确认  
 **领域**: 信息检索 / RAG / 多跳问答  
 **关键词**: 检索增强生成、多跳问答、强化学习微调、自适应检索、测试时计算
@@ -155,9 +155,9 @@ E5-base-v2、与 14 个 SOTA 比较（HotPotQA）：FrugalRAG 仅 1000 样本即
 
 - [\[AAAI 2026\] REAP: Enhancing RAG with Recursive Evaluation and Adaptive Planning for Multi-Hop Question Answering](../../AAAI2026/information_retrieval/reap_enhancing_rag_with_recursive_evaluation_and_adaptive_planning_for_multi-hop.md)
 - [\[ICML 2026\] Less Is More: Elevating RAG via Performance-Driven Context Compression](../../ICML2026/information_retrieval/less_is_more_elevating_rag_via_performance-driven_context_compression.md)
+- [\[ICLR 2026\] Demystifying Deep Search: A Holistic Evaluation with Hint-free Multi-Hop Questions and Factorised Metrics](demystifying_deep_search_a_holistic_evaluation_with_hint-free_multi-hop_question.md)
+- [\[ICLR 2026\] MergePRAG: Orthogonal Merging of Passage-experts for Multi-hop Parametric RAG](mergeprag_orthogonal_merging_of_passage-experts_for_multi-hop_parametric_rag.md)
 - [\[ACL 2026\] ChatR1: Reinforcement Learning for Conversational Reasoning and Retrieval Augmented Question Answering](../../ACL2026/information_retrieval/chatr1_reinforcement_learning_for_conversational_reasoning_and_retrieval_augment.md)
-- [\[AAAI 2026\] N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](../../AAAI2026/information_retrieval/n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)
-- [\[ACL 2026\] MAB-DQA: Addressing Query Aspect Importance in Document Question Answering with Multi-Armed Bandits](../../ACL2026/information_retrieval/mab-dqa_addressing_query_aspect_importance_in_document_question_answering_with_m.md)
 
 </div>
 

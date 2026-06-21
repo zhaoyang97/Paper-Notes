@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Characterization and Learning of Causal Graphs with Latent Confounders and Post-treatment Selection from Interventional Data
+description: >-
+  [ICLR2026][因果推理][后处理选择偏差] 本文指出干预因果发现中一个长期被忽视的难题——**后处理选择**（intervention 后才按质控标准筛样本，如单细胞实验只保留高活性细胞），它会伪装成因果响应使现有方法把"有无直接因果边"误判为同一等价类；作者用增广 DAG 显式建模选择变量，提出比传统等价类更细的 **FI-Markov 等价**与新图表示 **F-PAG**，并给出可证明 sound & complete 的 **F-FCI** 算法，能从观测+干预数据中同时辨认因果关系、潜在混杂与后处理选择。
+tags:
+  - "ICLR2026"
+  - "因果推理"
+  - "后处理选择偏差"
+  - "潜在混杂"
+  - "干预因果发现"
+  - "Markov 等价类"
+  - "F-PAG"
+---
+
 # Characterization and Learning of Causal Graphs with Latent Confounders and Post-treatment Selection from Interventional Data
 
 **会议**: ICLR2026  
-**OpenReview**: [qclNnbjxNJ](https://openreview.net/forum?id=qclNnbjxNJ)  
+**OpenReview**: [https://openreview.net/forum?id=qclNnbjxNJ](https://openreview.net/forum?id=qclNnbjxNJ)  
 **代码**: https://github.com/GongxuLuo/F-FCI  
 **领域**: 因果发现 / 干预因果学习  
 **关键词**: 后处理选择偏差、潜在混杂、干预因果发现、Markov 等价类、F-PAG  
@@ -67,6 +82,7 @@ $$p^{(k)}_s(X) = \prod_{i\in I^{(k)}} p^{(k)}\!\big(X_i \mid \hat X_{\mathrm{pa}
 基线之所以落后，是因为它们会把潜在混杂与后处理选择诱导的伪依赖误当成真因果边。
 
 ### 消融 / 分析实验
+
 | 配置 / 分析 | 关键发现 | 说明 |
 |------|---------|------|
 | 区分后处理选择能力（Table 1） | F-FCI 能辨认出选择结构 | 基线无此能力 |
@@ -101,3 +117,19 @@ $$p^{(k)}_s(X) = \prod_{i\in I^{(k)}} p^{(k)}\!\big(X_i \mid \hat X_{\mathrm{pa}
 - 实验充分度: ⭐⭐⭐⭐ 合成数据多配置对比 6 基线 + 单细胞真实数据，理论有 sound/complete 证明；真实数据集偏少。
 - 写作质量: ⭐⭐⭐⭐ 动机用 Figure 1/2 的反例讲得清楚，但符号与定义密集，对非因果发现背景读者门槛较高。
 - 价值: ⭐⭐⭐⭐⭐ 直击单细胞/临床等领域普遍存在的质控选择偏差，理论与应用都有分量。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] Characterization and Learning of Causal Graphs from Hard Interventions](../../NeurIPS2025/causal_inference/characterization_and_learning_of_causal_graphs_from_hard_interventions.md)
+- [\[ICLR 2026\] Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning](beyond_dags_a_latent_partial_causal_model_for_multimodal_learning.md)
+- [\[ICLR 2026\] Stochastic Neural Networks for Causal Inference with Missing Confounders](stochastic_neural_networks_for_causal_inference_with_missing_confounders.md)
+- [\[ICLR 2026\] Conditional Independent Component Analysis for Estimating Causal Structure with Latent Variables](conditional_independent_component_analysis_for_estimating_causal_structure_with_.md)
+- [\[ICML 2025\] Latent Variable Causal Discovery under Selection Bias](../../ICML2025/causal_inference/latent_variable_causal_discovery_under_selection_bias.md)
+
+</div>
+
+<!-- RELATED:END -->

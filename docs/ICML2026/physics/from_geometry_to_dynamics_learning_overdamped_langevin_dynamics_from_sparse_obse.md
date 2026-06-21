@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] From Geometry to Dynamics: Learning Overdamped Langevin Dynamics from Sparse Observations with Geometric Constraints
+description: >-
+  [ICML2026][物理/科学计算][朗之万动力学] 针对"只能稀疏采样轨迹时无法准确反推随机动力学"的难题，本文把推断重写成一个随机控制问题，用系统不变密度的几何（黎曼度量 + 测地线）来引导重建未观测路径，从而在极度欠采样的过摆朗之万系统上把漂移函数 $\mathbf{f}$ 估得比现有方法准得多。
+tags:
+  - "ICML2026"
+  - "物理/科学计算"
+  - "朗之万动力学"
+  - "稀疏观测"
+  - "随机控制"
+  - "黎曼几何"
+  - "路径增广"
+---
+
 # From Geometry to Dynamics: Learning Overdamped Langevin Dynamics from Sparse Observations with Geometric Constraints
 
 **会议**: ICML2026  

@@ -16,7 +16,7 @@ tags:
 # ELMUR: External Layer Memory with Update/Rewrite for Long-Horizon RL Problems
 
 **会议**: ICLR2026  
-**OpenReview**: [bm3rbtEMFj](https://openreview.net/forum?id=bm3rbtEMFj)  
+**OpenReview**: [https://openreview.net/forum?id=bm3rbtEMFj](https://openreview.net/forum?id=bm3rbtEMFj)  
 **代码**: https://elmur-paper.github.io/  
 **领域**: 强化学习 / 长程记忆 / 决策 Transformer  
 **关键词**: 外部记忆, 段级递归, LRU, 部分可观测, 模仿学习
@@ -145,9 +145,9 @@ MIKASA-Robo 上 ELMUR 在 23 个任务里 21 个夺冠，整体成功率较此�
 
 - [\[ICLR 2026\] Strict Subgoal Execution: Reliable Long-Horizon Planning in Hierarchical Reinforcement Learning](strict_subgoal_execution_reliable_long-horizon_planning_in_hierarchical_reinforc.md)
 - [\[ICLR 2026\] Recurrent Action Transformer with Memory](recurrent_action_transformer_with_memory.md)
+- [\[ICLR 2026\] RLVMR: Reinforcement Learning with Verifiable Meta-Reasoning Rewards for Robust Long-Horizon Agents](rlvmr_reinforcement_learning_with_verifiable_meta-reasoning_rewards_for_robust_l.md)
+- [\[ICLR 2026\] RD-HRL: Generating Reliable Sub-Goals for Long-Horizon Sparse-Reward Tasks](rd-hrl_generating_reliable_sub-goals_for_long-horizon_sparse-reward_tasks.md)
 - [\[ICML 2026\] Long-Horizon Model-Based Offline Reinforcement Learning Without Explicit Conservatism](../../ICML2026/reinforcement_learning/long-horizon_model-based_offline_reinforcement_learning_without_explicit_conserv.md)
-- [\[NeurIPS 2025\] Horizon Reduction Makes RL Scalable](../../NeurIPS2025/reinforcement_learning/horizon_reduction_makes_rl_scalable.md)
-- [\[CVPR 2026\] Cloning Deterministic Worlds: The Critical Role of Latent Geometry in Long-Horizon World Models](../../CVPR2026/reinforcement_learning/cloning_deterministic_worlds_the_critical_role_of_latent_geometry_in_long-horizo.md)
 
 </div>
 

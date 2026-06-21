@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] How can we assess human-agent interactions? Case studies in software agent design
+description: >-
+  [ICML2026][代码智能][人机交互评估] 提出 PULSE 框架——收集用户反馈、训练一个 ML 模型预测用户满意度、再用预测驱动推断（PPI）把真人标签和模型伪标签结合起来高效估计 agent 设计改动的效应——并把它部署到开源编程 agent OpenHands 上，跨 1.5 万用户、3.6 万会话做了首个大规模真实环境 agent 设计评估，结果置信区间比标准 A/B 测试窄了约 40%，还发现 benchmark 表现和真人偏好会反相关（gpt-5 在 6/7 benchmark 上赢 claude-sonnet-4，但真人在 4/7 任务子集上更偏好 claude）。
+tags:
+  - "ICML2026"
+  - "代码智能"
+  - "人机交互评估"
+  - "软件Agent"
+  - "预测驱动推断"
+  - "用户满意度"
+  - "A/B测试"
+---
+
 # How can we assess human-agent interactions? Case studies in software agent design
 
 **会议**: ICML2026  

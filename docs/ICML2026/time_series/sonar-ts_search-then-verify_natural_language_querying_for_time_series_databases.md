@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases
+description: >-
+  [ICML 2026][时间序列][时序数据库] 面向"在海量时序数据库（TSDB）上用自然语言查询形态化意图"这一新问题，提出 **Sonar-TS** 神经符号框架：像主动声纳一样先用 SQL 在多尺度特征索引上"发射声波（ping）"粗筛候选窗口、再用 LLM 生成的 Python 程序"锁定（lock-on）"原始信号做精确验证（Search-Then-Verify），配套首个面向库级长历史的基准 **NLQTSBench**，在传统 Text-to-SQL 与时序大模型都失效的复杂时序查询上取得大幅领先（平均 0.61 vs 最强基线 0.16）。
+tags:
+  - "ICML 2026"
+  - "时间序列"
+  - "时序数据库"
+  - "自然语言查询"
+  - "神经符号"
+  - "Text-to-SQL"
+  - "形态检索"
+---
+
 # Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases
 
 **会议**: ICML 2026  

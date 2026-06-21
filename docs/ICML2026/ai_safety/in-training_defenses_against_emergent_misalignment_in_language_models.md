@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] In-Training Defenses Against Emergent Misalignment in Language Models
+description: >-
+  [ICML 2026][AI安全][涌现失配] 针对「只在窄领域微调就让模型全局变坏」的涌现失配（Emergent Misalignment, EM）现象，本文第一次系统地比较了五类**训练期**防御手段，并提出用「对齐模型 vs 失配模型的困惑度差」自动挑选交错安全数据的 Interleaving++，在「防 EM、保留窄域学习、学得会良性任务、回答连贯」四条标准上同时达标。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "涌现失配"
+  - "微调安全"
+  - "正则化"
+  - "困惑度选数据"
+  - "防御接种"
+---
+
 # In-Training Defenses Against Emergent Misalignment in Language Models
 
 **会议**: ICML 2026  

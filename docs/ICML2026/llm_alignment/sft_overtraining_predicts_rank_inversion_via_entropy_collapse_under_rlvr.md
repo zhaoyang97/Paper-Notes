@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SFT Overtraining Predicts Rank Inversion via Entropy Collapse Under RLVR
+description: >-
+  [ICML2026][LLM对齐][熵坍缩] 作者发现"挑 SFT 阶段 pass@1 最高的检查点去做 GRPO"这条业界默认规则在代码生成上会系统性翻车——SFT 训得越久 pass@1 越高、但 GRPO 后的 pass@10 反而单调下跌（0.806→0.481），根因是过度 SFT 压扁了输出分布、让 GRPO 的组内优势方差归零、梯度消失，作者用一条闭式阈值 $p^*(g)$ 和一套"预训练熵筛查 + 早期熵监控"两阶段诊断把高危检查点提前揪出来。
+tags:
+  - "ICML2026"
+  - "LLM对齐"
+  - "熵坍缩"
+  - "GRPO"
+  - "RLVR"
+  - "检查点选择"
+  - "排名反转"
+---
+
 # SFT Overtraining Predicts Rank Inversion via Entropy Collapse Under RLVR
 
 **会议**: ICML2026  

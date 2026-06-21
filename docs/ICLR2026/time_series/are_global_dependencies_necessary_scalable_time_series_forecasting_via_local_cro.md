@@ -16,7 +16,7 @@ tags:
 # Are Global Dependencies Necessary? Scalable Time Series Forecasting via Local Cross-Variate Modeling
 
 **会议**: ICLR2026  
-**OpenReview**: [CNVL194fO5](https://openreview.net/forum?id=CNVL194fO5)  
+**OpenReview**: [https://openreview.net/forum?id=CNVL194fO5](https://openreview.net/forum?id=CNVL194fO5)  
 **代码**: https://github.com/iuaku/VPNet/  
 **领域**: 时序预测  
 **关键词**: 多变量时序预测, 跨变量依赖, 局部建模, 深度可分离卷积, 线性复杂度
@@ -150,11 +150,11 @@ $$Y^{dw}_h = \mathrm{DWConv2D}\big(Z^{(l)}_{:,h,:,:},\, W^{(h)}\big),$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] PHAT: Modeling Period Heterogeneity for Multivariate Time Series Forecasting](phat_modeling_period_heterogeneity_for_multivariate_time_series_forecasting.md)
 - [\[CVPR 2025\] L2GTX: From Local to Global Time Series Explanations](../../CVPR2025/time_series/l2gtx_from_local_to_global_time_series_explanations.md)
 - [\[ICLR 2026\] Routing Channel-Patch Dependencies in Time Series Forecasting with Graph Spectral Decomposition](routing_channel-patch_dependencies_in_time_series_forecasting_with_graph_spectra.md)
+- [\[ICLR 2026\] Local Geometry Attention for Time Series Forecasting under Realistic Corruptions](local_geometry_attention_for_time_series_forecasting_under_realistic_corruptions.md)
 - [\[NeurIPS 2025\] Scalable Signature Kernel Computations for Long Time Series via Local Neumann Series Expansions](../../NeurIPS2025/time_series/scalable_signature_kernel_computations_for_long_time_series_via_local_neumann_se.md)
-- [\[ICML 2026\] Generalizing Multi-scale Time-Series Modeling with a Single Operator](../../ICML2026/time_series/generalizing_multi-scale_time-series_modeling_with_a_single_operator.md)
-- [\[ICML 2026\] IMPACT: Influence Modeling for Open-Set Time Series Anomaly Detection](../../ICML2026/time_series/impact_influence_modeling_for_open-set_time_series_anomaly_detection.md)
 
 </div>
 

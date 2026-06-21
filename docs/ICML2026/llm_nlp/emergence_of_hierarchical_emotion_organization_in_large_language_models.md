@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Emergence of Hierarchical Emotion Organization in Large Language Models
+description: >-
+  [ICML2026][LLM 其他][情绪层级] 论文用一个只靠 LLM 输出 logits、无需任何标注的建树算法，从模型对情绪词的下一词分布里"挖"出层级化情绪树，发现这种树随模型规模增大越来越接近人类心理学的情绪轮（emotion wheel），并进一步证明 LLM 在不同人口学 persona 下复现了与真人一致的系统性情绪识别偏见。
+tags:
+  - "ICML2026"
+  - "LLM 其他"
+  - "情绪层级"
+  - "表征工程"
+  - "规模涌现"
+  - "人口学偏见"
+  - "认知评估"
+---
+
 # Emergence of Hierarchical Emotion Organization in Large Language Models
 
 **会议**: ICML2026  

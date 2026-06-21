@@ -16,7 +16,7 @@ tags:
 # Speculative Actions: A Lossless Framework for Faster AI Agents
 
 **会议**: ICLR 2026 Oral  
-**OpenReview**: [P0GOk5wslg](https://openreview.net/forum?id=P0GOk5wslg)  
+**OpenReview**: [https://openreview.net/forum?id=P0GOk5wslg](https://openreview.net/forum?id=P0GOk5wslg)  
 **代码**: 无  
 **领域**: 其他  
 **关键词**: speculative execution, AI agents, latency reduction, lossless acceleration, MDP  

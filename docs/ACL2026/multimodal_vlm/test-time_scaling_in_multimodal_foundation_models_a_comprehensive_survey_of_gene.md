@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Test-Time Scaling in Multimodal Foundation Models: A Comprehensive Survey of Generation and Reasoning
+description: >-
+  [ACL 2026][多模态VLM][Test-Time Scaling] 首篇专门面向**多模态基础模型（MFM）测试时扩展（TTS）**的综述：把"推理阶段动态分配算力"的各路方法统一成 $\pi^*=\arg\max_\pi \mathbb{E}[U(x,y)]$ s.t. 算力预算受限的框架，并归纳为**采样式 / 反馈式 / 搜索式**三大范式，覆盖多模态生成与推理两类任务，给出代表方法、基准与开放挑战的路线图。
+tags:
+  - "ACL 2026"
+  - "多模态VLM"
+  - "Test-Time Scaling"
+  - "多模态基础模型"
+  - "采样"
+  - "反馈"
+  - "搜索"
+  - "综述"
+---
+
 # Test-Time Scaling in Multimodal Foundation Models: A Comprehensive Survey of Generation and Reasoning
 
 **会议**: ACL 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Reason, Then Re-reason: Cross-view Revisiting Improves Spatial Reasoning
+description: >-
+  [ICML 2026][VLM Reasoning][空间推理] 针对自我中心视频"单轮推理被相机轨迹困住、只能靠语义先验猜几何"的问题，本文提出免训练的 ReRe 框架：先在原视频上形成空间假设（Reason），再用从 3D 几何渲染出的"斜向俯瞰"新视角视频去验证或修正假设（Re-reason），让开源 MLLM 在 VSI-Bench / STI-Bench 上逼近闭源 SOTA。
+tags:
+  - "ICML 2026"
+  - "VLM Reasoning"
+  - "空间推理"
+  - "MLLM"
+  - "跨视角验证"
+  - "新视角合成"
+  - "免训练推理"
+---
+
 # Reason, Then Re-reason: Cross-view Revisiting Improves Spatial Reasoning
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cat-PO: Cross-modal Adaptive Token-rewards for Preference Optimization in Truthful Multimodal LLMs
+description: >-
+  [ICLR2026][幻觉检测][多模态幻觉] 针对多模态大模型的幻觉问题，本文提出 Cat-PO：在 DPO 偏好优化中，仅靠模型自身的跨模态注意力与相似度，为每个回答 token 计算全局/局部/语义三层视觉相关性，融合成一个平滑的 token 奖励来重新加权 DPO 损失并加上 token 级 KL 正则，从而对幻觉 token 做细粒度纠偏，在 AMBER-Generation、MM-Hal 等基准上比现有 SOTA 高 7%–15%。
+tags:
+  - "ICLR2026"
+  - "幻觉检测"
+  - "多模态幻觉"
+  - "DPO"
+  - "token 级奖励"
+  - "跨模态注意力"
+  - "真实性对齐"
+---
+
 # Cat-PO: Cross-modal Adaptive Token-rewards for Preference Optimization in Truthful Multimodal LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [iIbe6qDN0A](https://openreview.net/forum?id=iIbe6qDN0A)  
+**OpenReview**: [https://openreview.net/forum?id=iIbe6qDN0A](https://openreview.net/forum?id=iIbe6qDN0A)  
 **代码**: https://github.com/gavinzzx/CatPO  
 **领域**: 多模态VLM / 幻觉抑制 / 偏好优化  
 **关键词**: 多模态幻觉, DPO, token 级奖励, 跨模态注意力, 真实性对齐
@@ -156,3 +171,19 @@ $$\mathcal{L}_{\text{KL}} = \lambda\Big(\sum_t w_t^+\,\text{KL}\big(\pi_\theta(\
 - 实验充分度: ⭐⭐⭐⭐ 覆盖多基座（LLaVA 7B/13B、Qwen2.5-VL）、多基准（AMBER/MM-Hal/LLaVA/SEED/POPE）、完整消融与超参分析，唯训练数据较单一（主要 RLHF-V）。
 - 写作质量: ⭐⭐⭐⭐ 动机—统计实验—方法—验证链条清晰，公式完整，图示直观。
 - 价值: ⭐⭐⭐⭐ 不引入外部工具就能稳定降幻觉，成本友好、易复现，对多模态对齐有实际参考价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization](../../CVPR2026/hallucination/mod-dpo_towards_mitigating_cross-modal_hallucinations_in_omni_llms_using_modalit.md)
+- [\[NeurIPS 2025\] Mitigating Hallucination Through Theory-Consistent Symmetric Multimodal Preference Optimization](../../NeurIPS2025/hallucination/mitigating_hallucination_through_theory-consistent_symmetric_multimodal_preferen.md)
+- [\[ICLR 2026\] P2-DPO: Grounding Hallucination in Perceptual Processing via Calibration Direct Preference Optimization](p2-dpo_grounding_hallucination_in_perceptual_processing_via_calibration_direct_p.md)
+- [\[CVPR 2026\] MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models](../../CVPR2026/hallucination/mad_modality-adaptive_decoding_for_mitigating_cross-modal_hallucinations_in_mult.md)
+- [\[CVPR 2026\] Cross-Modal Attention Calibration for LVLM Hallucination Mitigation](../../CVPR2026/hallucination/cross-modal_attention_calibration_for_lvlm_hallucination_mitigation.md)
+
+</div>
+
+<!-- RELATED:END -->

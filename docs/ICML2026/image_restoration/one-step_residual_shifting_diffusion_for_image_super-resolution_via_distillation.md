@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] One-Step Residual Shifting Diffusion for Image Super-Resolution via Distillation
+description: >-
+  [ICML2026][图像恢复][真实图像超分] 针对扩散超分模型推理慢的问题，本文提出 RSD（Residual Shifting Distillation）：把 15 步的 ResShift 教师蒸馏成**单步**学生生成器，方法核心是「训练学生使得用它的输出再训出来的一个『假 ResShift』恰好等于真教师」——这等价于匹配教师与学生在所有时间步上的**联合分布**（而非 VSD 那样只匹配边缘）；结果在 LPIPS / CLIPIQA / MUSIQ 上反超教师、超过同类蒸馏方法 SinSR，并以仅 174M 参数、0.5GB 显存、5 GPU·小时训练逼近大体量 T2I 超分模型的感知质量。
+tags:
+  - "ICML2026"
+  - "图像恢复"
+  - "真实图像超分"
+  - "扩散蒸馏"
+  - "单步推理"
+  - "ResShift"
+  - "假模型对齐"
+---
+
 # One-Step Residual Shifting Diffusion for Image Super-Resolution via Distillation
 
 **会议**: ICML2026  

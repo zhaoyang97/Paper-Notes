@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] AutoDA-Timeseries: Automated Data Augmentation for Time Series
+description: >-
+  [ICLR2026][时间序列][自动数据增强] AutoDA-Timeseries 是首个面向时间序列的通用自动数据增强（AutoDA）框架：它把每条时序的统计特征喂给一个可学习的策略生成器，由堆叠的增强层逐层用 Gumbel-Softmax 可微地挑选变换类型并自适应调节其概率与强度，与下游模型一起单阶段端到端联合优化，在分类、长/短期预测、回归、异常检测五大任务上稳定超越现有强基线。
+tags:
+  - "ICLR2026"
+  - "时间序列"
+  - "自动数据增强"
+  - "可微策略搜索"
+  - "Gumbel-Softmax"
+  - "端到端联合优化"
+---
+
 # AutoDA-Timeseries: Automated Data Augmentation for Time Series
 
 **会议**: ICLR2026  
-**OpenReview**: [vTLmHAkoIW](https://openreview.net/forum?id=vTLmHAkoIW)  
+**OpenReview**: [https://openreview.net/forum?id=vTLmHAkoIW](https://openreview.net/forum?id=vTLmHAkoIW)  
 **代码**: https://github.com/NetManAIOps/AutoDA-Timeseries  
 **领域**: 时序分析 / 自动数据增强  
 **关键词**: 自动数据增强, 时间序列, 可微策略搜索, Gumbel-Softmax, 端到端联合优化
@@ -133,11 +147,11 @@ $$T_{r_k}=\begin{cases}\sigma_{gs}(\mathcal{T}, p^{(k)}_i) & \text{以概率 }(1
 
 ## 相关论文
 
-- [\[AAAI 2026\] Task-Aware Retrieval Augmentation for Dynamic Recommendation](../../AAAI2026/time_series/task-aware_retrieval_augmentation_for_dynamic_recommendation.md)
 - [\[ICLR 2026\] Can we generate portable representations for clinical time series data using LLMs?](can_we_generate_portable_representations_for_clinical_time_series_data_using_llm.md)
+- [\[ICLR 2026\] CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data](cauker_classification_time_series_foundation_models_can_be_pretrained_on_synthet.md)
 - [\[ICLR 2026\] Rating Quality of Diverse Time Series Data by Meta-learning from LLM Judgment](rating_quality_of_diverse_time_series_data_by_meta-learning_from_llm_judgment.md)
-- [\[ICML 2026\] Divide and Contrast: Learning Robust Temporal Features Without Augmentation](../../ICML2026/time_series/divide_and_contrast_learning_robust_temporal_features_without_augmentation.md)
-- [\[ICLR 2026\] TSRating: Rating Quality of Diverse Time Series Data by Meta-learning from LLM Judgment](tsrating_time_series_quality_llm.md)
+- [\[AAAI 2026\] Task-Aware Retrieval Augmentation for Dynamic Recommendation](../../AAAI2026/time_series/task-aware_retrieval_augmentation_for_dynamic_recommendation.md)
+- [\[ICLR 2026\] Latent-to-Data Cascaded Diffusion Models for Unconditional Time Series Generation](latent-to-data_cascaded_diffusion_models_for_unconditional_time_series_generatio.md)
 
 </div>
 

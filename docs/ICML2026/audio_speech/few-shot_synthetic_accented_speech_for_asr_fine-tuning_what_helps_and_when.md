@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Few-Shot Synthetic Accented Speech for ASR Fine-Tuning: What Helps and When?
+description: >-
+  [ICML2026][音频/语音][带口音 ASR] 用 few-shot TTS 合成带口音语音来微调 ASR，作者拆开"为什么有用"这个问题，发现真正起作用的多半是**音素空间的扰动增强**——随机替换音素就能拿到大部分增益，而 LLM 生成的"目标口音音素编辑"乃至 oracle 真值音素/韵律，相比随机基线只多出很小一截；同时合成数据在真实数据极少时能大幅降低训练方差，但固定配额的合成数据后期会稀释真实数据，真实-合成比例本身才是关键。
+tags:
+  - "ICML2026"
+  - "音频/语音"
+  - "带口音 ASR"
+  - "合成语音"
+  - "音素扰动"
+  - "few-shot TTS"
+  - "真实-合成混合"
+---
+
 # Few-Shot Synthetic Accented Speech for ASR Fine-Tuning: What Helps and When?
 
 **会议**: ICML2026  

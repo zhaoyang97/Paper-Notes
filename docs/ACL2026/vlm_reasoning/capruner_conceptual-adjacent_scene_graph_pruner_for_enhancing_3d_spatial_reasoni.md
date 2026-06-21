@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models
+description: >-
+  [ACL 2026][VLM Reasoning][场景图剪枝] 本文针对"把完整 3D 场景图喂给 LLM 会爆 token、而现有基于距离的 KNN 剪枝又常常剪掉任务关键关系"的矛盾，提出 CAPruner——把"查询语义相关性"和"空间邻近性"融进一个仅 1219 参数的小 MLP 来给场景图的每条边打重要性分，并用只标注了目标物体的数据通过"边权聚合成节点权"的方式做弱监督训练，从而在固定边预算下保留对具体 3D-VL 任务真正有用的关系，显著提升下游 LLM 的空间推理准确率。
+tags:
+  - "ACL 2026"
+  - "VLM Reasoning"
+  - "场景图剪枝"
+  - "3D-VL"
+  - "空间推理"
+  - "模糊语义匹配"
+  - "节点级监督"
+---
+
 # CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models
 
 **会议**: ACL 2026  

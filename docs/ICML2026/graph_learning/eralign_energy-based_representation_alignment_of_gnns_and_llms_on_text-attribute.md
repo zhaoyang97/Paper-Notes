@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ERAlign: Energy-based Representation Alignment of GNNs and LLMs on Text-attributed Graphs
+description: >-
+  [ICML2026][图学习][文本属性图] 针对文本属性图（TAG）上 GNN 与 LLM 表示难以对齐的问题，本文用一个**集合能量模型（set EBM）**把两路表示投到共享隐空间、用 Cramér 距离度量分布错位并逐层对齐，再用免采样的 **Energy Discrepancy（ED）** 训练把能量降下去，在 8 个 TAG 数据集上全面取得 SOTA。
+tags:
+  - "ICML2026"
+  - "图学习"
+  - "文本属性图"
+  - "图神经网络"
+  - "能量模型"
+  - "Energy Discrepancy"
+  - "Cramér 距离"
+---
+
 # ERAlign: Energy-based Representation Alignment of GNNs and LLMs on Text-attributed Graphs
 
 **会议**: ICML2026  

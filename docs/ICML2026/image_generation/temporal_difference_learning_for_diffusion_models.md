@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Temporal Difference Learning for Diffusion Models
+description: >-
+  [ICML2026][图像生成][扩散模型] 论文把扩散去噪过程重写成马尔可夫奖励过程（MRP）、把训练当成强化学习里的策略评估，提出一个时序差分（TD）目标，强制模型沿去噪轨迹的「多步漂移」与真实扩散漂移一致；它作为可即插即用的正则项叠加在 EDM/一致性训练等基线损失上，显著改善 FID，尤其在少步采样（小 NFE）场景下优势更明显。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "扩散模型"
+  - "时序差分"
+  - "强化学习"
+  - "跨时刻一致性"
+  - "少步采样"
+---
+
 # Temporal Difference Learning for Diffusion Models
 
 **会议**: ICML2026  

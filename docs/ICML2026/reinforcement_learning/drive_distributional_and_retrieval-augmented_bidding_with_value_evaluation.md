@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation
+description: >-
+  [ICML 2026][强化学习][自动竞价] 针对广告实时竞价中 Decision Transformer 类方法"把多种有效出价策略平均成一个不上不下的烂动作"和"稀疏长尾流量下乱出价"两大毛病，DRIVE 把**候选动作生成**和**最终决策**解耦：用高斯混合（GMM）头生成多模态候选、再从历史高质量决策里检索候选、最后用 IQL 价值评论家给所有候选打分选最优出价，在 AuctionNet 上平均分从最强基线的 378.4 提到 386.6，并能即插即用地嫁接到多种 DT 类方法上。
+tags:
+  - "ICML 2026"
+  - "强化学习"
+  - "自动竞价"
+  - "离线强化学习"
+  - "Transformer"
+  - "检索增强"
+  - "价值评估"
+---
+
 # DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation
 
 **会议**: ICML 2026  

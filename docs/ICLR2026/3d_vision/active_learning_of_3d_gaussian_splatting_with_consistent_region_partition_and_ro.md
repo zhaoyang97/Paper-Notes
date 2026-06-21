@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Active Learning of 3D Gaussian Splatting with Consistent Region Partition and Robust Pose Estimation
+description: >-
+  [ICLR2026][3D视觉][3D 高斯泼溅] 本文给 3D Gaussian Splatting 设计了一套在线主动学习算法：边训练边告诉用户"下一张该从哪个角度拍"，通过可见性特征聚类把模型切成一致区域、用语义特征方差找出最欠重建的区域、再用 von Mises-Fisher 分布直接生成下一最佳位姿，并配一套鲁棒位姿优化来吃掉手持拍摄带来的位姿噪声，在 NeRF-Synthetic 上以 10/20 张图的少视角设定超过 FisherRF 等 SOTA。
+tags:
+  - "ICLR2026"
+  - "3D视觉"
+  - "3D 高斯泼溅"
+  - "主动重建"
+  - "下一最佳视角"
+  - "一致区域划分"
+  - "鲁棒位姿估计"
+---
+
 # Active Learning of 3D Gaussian Splatting with Consistent Region Partition and Robust Pose Estimation
 
 **会议**: ICLR2026  
-**OpenReview**: [yye5kN9jH7](https://openreview.net/forum?id=yye5kN9jH7)  
+**OpenReview**: [https://openreview.net/forum?id=yye5kN9jH7](https://openreview.net/forum?id=yye5kN9jH7)  
 **代码**: https://github.com/csrqli/al-3dgs  
 **领域**: 3D视觉  
 **关键词**: 3D 高斯泼溅, 主动重建, 下一最佳视角, 一致区域划分, 鲁棒位姿估计
@@ -143,8 +158,8 @@ Blender 8 场景、10 张总图：
 - [\[CVPR 2026\] WildPose: A Unified Framework for Robust Pose Estimation in the Wild](../../CVPR2026/3d_vision/wildpose_a_unified_framework_for_robust_pose_estimation_in_the_wild.md)
 - [\[CVPR 2026\] ComPose: A Unified Completion-Pose Framework for Robust Category-Level Object Pose Estimation](../../CVPR2026/3d_vision/compose_a_unified_completion-pose_framework_for_robust_category-level_object_pos.md)
 - [\[ICLR 2026\] Learning Unified Representation of 3D Gaussian Splatting](learning_unified_representation_of_3d_gaussian_splatting.md)
+- [\[ICLR 2026\] NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting](ngs-marker_robust_native_watermarking_for_3d_gaussian_splatting.md)
 - [\[CVPR 2026\] Pose-Free Omnidirectional Gaussian Splatting for 360-Degree Videos with Consistent Depth Priors](../../CVPR2026/3d_vision/pose-free_omnidirectional_gaussian_splatting_for_360-degree_videos_with_consiste.md)
-- [\[CVPR 2026\] PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning](../../CVPR2026/3d_vision/posegam_robust_unseen_object_pose_estimation_via_geometry-aware_multi-view_reaso.md)
 
 </div>
 

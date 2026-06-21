@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks
+description: >-
+  [ICML2026][AI安全][上下文强化学习] 本文首次形式化了"测试时奖励投毒"这一针对上下文强化学习（ICRL）的新攻击面，并提出对抗训练框架 AT-DPT：让一群攻击者持续投毒、同时让 DPT 学会从被污染的上下文里推断最优动作，使学到的"上下文内学习算法"本身就抗投毒。 领域现状：Transformer + 上下…
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "上下文强化学习"
+  - "奖励投毒"
+  - "对抗训练"
+  - "Transformer"
+  - "元强化学习"
+---
+
 # Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks
 
 **会议**: ICML2026  

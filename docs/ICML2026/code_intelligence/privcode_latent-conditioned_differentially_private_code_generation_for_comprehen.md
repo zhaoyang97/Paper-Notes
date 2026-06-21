@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees
+description: >-
+  [ICML2026][代码智能][差分隐私] 首个在"prompt 和 code 都敏感"的联合敏感场景下做差分隐私代码生成的工作：用一个 **Privacy-Free Latent Conditioning（PrivLC）潜变量模块**替代显式 prompt 条件，配上"DP 净化 + 无 DP 增益"两阶段流水线，在 $\epsilon=4$ 下既把效用拉回接近放松隐私假设的方法，又在 canary 泄漏测试上做到 0%。
+tags:
+  - "ICML2026"
+  - "代码智能"
+  - "差分隐私"
+  - "代码生成"
+  - "潜变量条件"
+  - "提示学习"
+  - "合成数据微调"
+---
+
 # PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees
 
 **会议**: ICML2026  

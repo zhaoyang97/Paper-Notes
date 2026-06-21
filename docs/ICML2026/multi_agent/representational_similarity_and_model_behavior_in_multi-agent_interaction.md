@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Representational Similarity and Model Behavior in Multi-Agent Interaction
+description: >-
+  [ICML2026][多智能体][表示相似性] 这篇论文把 276 个 LLM 配对放进 8 个游戏里互动，发现一个稳健规律：内部表示越相似（用 CKA 量化）的两个模型越能合作，但联手产出的内容越缺乏新颖性——合作与创造力之间存在一条由表示相似性驱动的权衡线。 领域现状：多智能体 LLM 系统已经从概念走向落地…
+tags:
+  - "ICML2026"
+  - "多智能体"
+  - "表示相似性"
+  - "合作"
+  - "新颖性"
+  - "CKA"
+---
+
 # Representational Similarity and Model Behavior in Multi-Agent Interaction
 
 **会议**: ICML2026  

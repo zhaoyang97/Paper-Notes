@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Simulation-Augmented Multi-Step Split Conformal Prediction for Aggregated Forecasts
+description: >-
+  [ICML2026][时间序列][保形预测] 针对"年度总量""同比增长率"这类聚合预测目标，本文提出 SA-MSCP——用扩展窗口交叉验证收集残差、再用区块自助法（block bootstrap）模拟大量未来路径，最后从聚合轨迹的经验分位数构造预测区间，在 M4 和一份私有数据上把聚合目标的经验覆盖率显著拉高（但区间也明显变宽）。
+tags:
+  - "ICML2026"
+  - "时间序列"
+  - "保形预测"
+  - "聚合预测"
+  - "区块自助法"
+  - "多步预测区间"
+  - "同比增长率"
+---
+
 # Simulation-Augmented Multi-Step Split Conformal Prediction for Aggregated Forecasts
 
 **会议**: ICML2026  

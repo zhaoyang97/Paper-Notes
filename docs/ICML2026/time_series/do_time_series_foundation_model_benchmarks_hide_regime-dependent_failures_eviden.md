@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Do Time Series Foundation Model Benchmarks Hide Regime-Dependent Failures? Evidence from Traffic Speed Forecasting
+description: >-
+  [ICML2026][时间序列][时序基础模型] 这篇论文指出时序基础模型（TSFM）在交通速度预测上"平均指标好看、关键时刻失灵"——它用按交通状态分层的评测揭穿了聚合指标掩盖的灾难性失败，并提出无需重训的后处理方法 BMA，把"过渡态"的预测区间覆盖率拉回接近历史基线的水平。 领域现状：时序基础模型（如 Chronos、…
+tags:
+  - "ICML2026"
+  - "时间序列"
+  - "时序基础模型"
+  - "概率预测"
+  - "状态切换"
+  - "基准评测"
+  - "校准"
+---
+
 # Do Time Series Foundation Model Benchmarks Hide Regime-Dependent Failures? Evidence from Traffic Speed Forecasting
 
 **会议**: ICML2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] PADD: Path-Aligned Decompression Distillation for Non-Router Teacher to Guide MoE Student Learning
+description: >-
+  [ICML 2026][模型压缩][稠密到MoE蒸馏] PADD 把"用一个没有路由器的稠密教师去指导已预训练的 MoE 学生学会高质量路由"这件事拆成两阶段四步骤的统一流水线——先用教师 FFN 神经元聚类来初始化并热身学生专家，再在一次训练里同时做在线自适应蒸馏、路径精炼的策略优化（PR-GRPO）和奖励增强的负载均衡——在数学推理上让小激活量的 MoE 学生在相同推理成本下追平甚至反超 7B 稠密教师。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "稠密到MoE蒸馏"
+  - "专家路由"
+  - "神经元聚类初始化"
+  - "在线自适应蒸馏"
+  - "GRPO"
+---
+
 # PADD: Path-Aligned Decompression Distillation for Non-Router Teacher to Guide MoE Student Learning
 
 **会议**: ICML 2026  

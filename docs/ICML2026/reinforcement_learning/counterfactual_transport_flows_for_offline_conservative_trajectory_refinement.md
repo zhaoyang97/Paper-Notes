@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Counterfactual Transport Flows for Offline Conservative Trajectory Refinement
+description: >-
+  [ICML2026][强化学习][离线强化学习] 给定一条"低回报"的候选轨迹，本文不重新生成动作，而是在潜在轨迹空间里检索附近"更优"的轨迹作为弱监督，用源条件流匹配（source-conditioned flow matching）学一个"实例专属"的精炼方向，并用一个精炼强度参数 $\alpha$ 控制改多少，从而在"保留原行为"和"提升回报"之间连续权衡。
+tags:
+  - "ICML2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "轨迹精炼"
+  - "条件流匹配"
+  - "反事实"
+  - "保守性"
+---
+
 # Counterfactual Transport Flows for Offline Conservative Trajectory Refinement
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Antislop: A Comprehensive Framework for Identifying and Eliminating Repetitive Patterns in Language Models
+description: >-
+  [ICLR2026][文本生成][slop 抑制] Antislop 把"LLM 生成里那些一眼能认出是 AI 的重复套话（slop）"当成可量化、可定位、可消除的对象：先用频率比统计画出模型专属的"slop 指纹"，再用一个推理期的回溯采样器精准压制这些模式，最后把采样器的拦截记录自动转成偏好数据，用新提出的 FTPO 微调把抑制能力永久焊进权重——在 GSM8K/MMLU/创意写作上几乎不掉点的前提下做到 90% 的 slop 削减。
+tags:
+  - "ICLR2026"
+  - "文本生成"
+  - "slop 抑制"
+  - "回溯采样"
+  - "偏好优化"
+  - "创意写作"
+  - "词汇多样性"
+---
+
 # Antislop: A Comprehensive Framework for Identifying and Eliminating Repetitive Patterns in Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [gLcyM1khyp](https://openreview.net/forum?id=gLcyM1khyp)  
+**OpenReview**: [https://openreview.net/forum?id=gLcyM1khyp](https://openreview.net/forum?id=gLcyM1khyp)  
 **代码**: https://github.com/sam-paech/auto-antislop （MIT）  
 **领域**: 文本生成 / 偏好优化  
 **关键词**: slop 抑制, 回溯采样, 偏好优化, 创意写作, 词汇多样性
@@ -145,7 +160,7 @@ FTPO 在等价训练设置下比 DPO 抑制强 8.5%；MMLU/GSM8K 保持在基线
 - [\[ACL 2026\] Investigating the Representation of Backchannels and Fillers in Fine-tuned Language Models](../../ACL2026/nlp_generation/investigating_the_representation_of_backchannels_and_fillers_in_fine-tuned_langu.md)
 - [\[ACL 2025\] An Empirical Study of Many-to-Many Summarization with Large Language Models](../../ACL2025/nlp_generation/an_empirical_study_of_manytomany_summarization.md)
 - [\[ACL 2025\] Theme-Explanation Structure for Table Summarization Using Large Language Models](../../ACL2025/nlp_generation/theme-explanation_structure_for_table_summarization_using_large_language_models_.md)
-- [\[ACL 2025\] Unveiling Attractor Cycles in Large Language Models: A Dynamical Systems View of Successive Paraphrasing](../../ACL2025/nlp_generation/unveiling_attractor_cycles_in_large_language_models_a_dynamical_systems_view_of_.md)
+- [\[ICLR 2026\] Unveiling the Potential of Diffusion Large Language Model in Controllable Generation](unveiling_the_potential_of_diffusion_large_language_model_in_controllable_genera.md)
 
 </div>
 

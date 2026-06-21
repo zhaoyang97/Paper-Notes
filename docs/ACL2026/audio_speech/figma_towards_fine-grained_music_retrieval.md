@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] FIGMA: Towards Fine-Grained Music Retrieval
+description: >-
+  [ACL 2026][音频/语音][细粒度音乐检索] 针对 CLAP 类音乐检索模型"只用得上 caption 前 40–50 个 token、长描述坍缩成词袋"的毛病，FIGMA 在标准全局对比损失之外加了一条帧-token 级别的细粒度对比损失（多视图对比），并配套构建了 38 万对带乐理标注的 FGMCaps 数据集，让模型能按 tempo、调性、和弦、节拍这类精确属性检索音乐，相对提升最高达 73.3%。
+tags:
+  - "ACL 2026"
+  - "音频/语音"
+  - "细粒度音乐检索"
+  - "对比学习"
+  - "帧级对齐"
+  - "多视图损失"
+  - "数据集构建"
+---
+
 # FIGMA: Towards Fine-Grained Music Retrieval
 
 **会议**: ACL 2026  

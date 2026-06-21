@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes
+description: >-
+  [ICLR2026][视频生成][文本到视频扩散] 把预训练文本到视频（T2V）扩散模型当成"虚拟摄影师"，通过两阶段范式——先让它根据 4D 人体动作生成隐含专业运镜的视频、再用一个相机外参扩散分支把视角显式抽出来——实现了在 4D 场景中自动规划相机轨迹，开放域泛化和文本可控性大幅超过专用模型。
+tags:
+  - "ICLR2026"
+  - "视频生成"
+  - "文本到视频扩散"
+  - "相机轨迹规划"
+  - "4D 场景"
+  - "计算电影摄影"
+  - "世界模型"
+---
+
 # AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes
 
 **会议**: ICLR2026  
-**OpenReview**: [c2EfS9E5CJ](https://openreview.net/forum?id=c2EfS9E5CJ)  
+**OpenReview**: [https://openreview.net/forum?id=c2EfS9E5CJ](https://openreview.net/forum?id=c2EfS9E5CJ)  
 **代码**: [项目主页](https://yuli0103.github.io/AdaViewPlanner/)  
 **领域**: 视频生成 / 扩散模型 / 4D 视角规划  
 **关键词**: 文本到视频扩散、相机轨迹规划、4D 场景、计算电影摄影、世界模型
@@ -134,11 +149,11 @@ HMR（人体丢失率）更低说明镜头更以人为中心；Dist（镜头多�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Vid2World: Crafting Video Diffusion Models to Interactive World Models](vid2world_crafting_video_diffusion_models_to_interactive_world_models.md)
+- [\[CVPR 2026\] DriveLaW: Unifying Planning and Video Generation in a Latent Driving World](../../CVPR2026/video_generation/drivelaw_unifying_planning_and_video_generation_in_a_latent_driving_world.md)
 - [\[ICCV 2025\] SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering](../../ICCV2025/video_generation/steerx_creating_any_camera-free_3d_and_4d_scenes_with_geometric_steering.md)
 - [\[ICLR 2026\] Target-Aware Video Diffusion Models](target-aware_video_diffusion_models.md)
-- [\[ICLR 2026\] Geometry-aware 4D Video Generation for Robot Manipulation](geometry-aware_4d_video_generation_for_robot_manipulation.md)
-- [\[CVPR 2026\] LAMP: Language-Assisted Motion Planning for Controllable Video Generation](../../CVPR2026/video_generation/lamp_language-assisted_motion_planning_for_controllable_video_generation.md)
-- [\[CVPR 2026\] DriveLaW: Unifying Planning and Video Generation in a Latent Driving World](../../CVPR2026/video_generation/drivelaw_unifying_planning_and_video_generation_in_a_latent_driving_world.md)
+- [\[ICLR 2026\] LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference](likephys_evaluating_intuitive_physics_understanding_in_video_diffusion_models_vi.md)
 
 </div>
 

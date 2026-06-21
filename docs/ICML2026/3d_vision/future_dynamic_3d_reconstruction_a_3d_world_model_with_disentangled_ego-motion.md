@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion
+description: >-
+  [ICML2026][3D视觉][世界模型] 这篇论文提出 FR3D——第一个为"未来动态 3D 重建"做的世界模型，它在预训练 3D 重建模型（CUT3R）的潜空间里**把相机自我运动和场景自身运动解耦**，用两个掩码 Transformer 分别外推位姿和几何，并靠教师-学生蒸馏拿到几乎免训练成本的零样本泛化，单目输入也能预测 2 秒后的 3D 场景。
+tags:
+  - "ICML2026"
+  - "3D视觉"
+  - "世界模型"
+  - "动态3D重建"
+  - "自我运动解耦"
+  - "教师学生蒸馏"
+  - "零样本泛化"
+---
+
 # Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion
 
 **会议**: ICML2026  

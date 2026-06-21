@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Automatic Dialectic Jailbreak: A Framework for Generating Effective Jailbreak Strategies
+description: >-
+  [ICLR2026][LLM安全][越狱攻击] ADJ 把对大模型的越狱攻击建模成攻击者与防御者之间一场「黑格尔辩证式辩论」的 Stackelberg 多目标博弈，通过正题—反题—合题的迭代逼出多样且抗防御的越狱策略，并用 Haar 小波把梯度投到 Hilbert 空间里求公共下降方向、配 Armijo 线搜索收敛到 Pareto–Nash 均衡，在 AdvBench / HarmBench 上 ASR 与 Harmful Score 全面超过 GCG、PAIR、AutoDAN-turbo 等基线。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "越狱攻击"
+  - "黑格尔辩证法"
+  - "Stackelberg 多目标博弈"
+  - "Haar 小波"
+  - "Pareto-Nash 均衡"
+---
+
 # Automatic Dialectic Jailbreak: A Framework for Generating Effective Jailbreak Strategies
 
 **会议**: ICLR2026  
-**OpenReview**: [ilnKzaQSCh](https://openreview.net/forum?id=ilnKzaQSCh)  
+**OpenReview**: [https://openreview.net/forum?id=ilnKzaQSCh](https://openreview.net/forum?id=ilnKzaQSCh)  
 **代码**: https://github.com/johnston1yu/ADJ  
 **领域**: LLM 安全 / 越狱攻击  
 **关键词**: 越狱攻击, 黑格尔辩证法, Stackelberg 多目标博弈, Haar 小波, Pareto-Nash 均衡
@@ -138,10 +153,10 @@ AdvBench 上各方法的 HS / ASR（部分模型）：
 ## 相关论文
 
 - [\[ICLR 2026\] Align to Misalign: Automatic LLM Jailbreak with Meta-Optimized LLM Judges](align_to_misalign_automatic_llm_jailbreak_with_meta-optimized_llm_judges.md)
+- [\[ICLR 2026\] STAR: Strategy-driven Automatic Jailbreak Red-teaming for Large Language Model](star_strategy-driven_automatic_jailbreak_red-teaming_for_large_language_model.md)
 - [\[ICLR 2026\] Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models](auto-rt_automatic_jailbreak_strategy_exploration_for_red-teaming_large_language_.md)
+- [\[ICLR 2026\] Jailbreak Transferability Emerges from Shared Representations](jailbreak_transferability_emerges_from_shared_representations.md)
 - [\[ACL 2026\] GAMBIT: A Gamified Jailbreak Framework for Multimodal Large Language Models](../../ACL2026/llm_safety/gambit_a_gamified_jailbreak_framework_for_multimodal_large_language_models.md)
-- [\[ICLR 2026\] Adversarial Déjà Vu: Jailbreak Dictionary Learning for Stronger Generalization to Unseen Attacks](adversarial_déjà_vu_jailbreak_dictionary_learning_for_stronger_generalization_to.md)
-- [\[ACL 2026\] LLM-VA: Resolving the Jailbreak-Overrefusal Trade-off via Vector Alignment](../../ACL2026/llm_safety/llm-va_resolving_the_jailbreak-overrefusal_trade-off_via_vector_alignment.md)
 
 </div>
 

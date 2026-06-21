@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Authorship Attribution in Multilingual Machine-Generated Texts
+description: >-
+  [ACL 2026][AIGC检测][机器生成文本检测] 现有「机器生成文本作者归属（attribution，即判断一段文本出自哪个具体 LLM 还是人类）」研究几乎全是单语种（尤其英语）的，这篇论文首次形式化定义了**多语言作者归属（ML-MGT）**和**跨语言迁移（CL-MGT）**两个问题，在 18 种语言 × 8 个生成者（7 个 LLM + 人类）上系统评测了统计法、微调编码器、对比学习、微调解码器等一整套现有方法，发现微调/对比方法能适配多语言（最佳 macro-F1 > 0.9），但**跨不同语系/书写体系迁移时严重退化**，揭示了真实多语言场景的难度。
+tags:
+  - "ACL 2026"
+  - "AIGC检测"
+  - "机器生成文本检测"
+  - "作者归属"
+  - "多语言"
+  - "跨语言迁移"
+  - "MULTITuDE"
+---
+
 # Authorship Attribution in Multilingual Machine-Generated Texts
 
 **会议**: ACL 2026  

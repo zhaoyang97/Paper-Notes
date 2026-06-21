@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Designing Rules to Pick a Rule: Aggregation by Consistency
+description: >-
+  [ICLR2026][图像生成][排名聚合] 面对一大堆各有优劣的排名聚合规则（Borda、plurality、veto……）却不知道该用哪个的难题，本文提出"挑规则的规则"（RPR）这一全新框架，并给出一个具体方案 AbC——把投票者随机对半分两组，谁在两组上算出的排名最一致就选谁，从而无需事先承诺任何公理或生成模型，就能为每份数据自动挑出最合适的聚合规则。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "排名聚合"
+  - "社会选择"
+  - "规则选择"
+  - "一致性"
+  - "公理化分析"
+---
+
 # Designing Rules to Pick a Rule: Aggregation by Consistency
 
 **会议**: ICLR2026  
-**OpenReview**: [xxsacQ3tdb](https://openreview.net/forum?id=xxsacQ3tdb)  
+**OpenReview**: [https://openreview.net/forum?id=xxsacQ3tdb](https://openreview.net/forum?id=xxsacQ3tdb)  
 **代码**: 待确认  
 **领域**: 学习理论 / 社会选择 / 排名聚合  
 **关键词**: 排名聚合, 社会选择, 规则选择, 一致性, 公理化分析
@@ -128,11 +143,11 @@ $$\text{KT}(r_1,r_2)=\sum_{\{a,b\}:a\neq b}\Big(D^{a,b}_{r_1,r_2}+\tfrac{1}{2}T^
 
 ## 相关论文
 
-- [\[ICLR 2026\] When One Modality Rules Them All: Backdoor Modality Collapse in Multimodal Diffusion Models](when_one_modality_rules_them_all_backdoor_modality_collapse_in_multimodal_diffus.md)
 - [\[CVPR 2025\] AutoPresent: Designing Structured Visuals from Scratch](../../CVPR2025/image_generation/autopresent_designing_structured_visuals_from_scratch.md)
+- [\[ICLR 2026\] FACM: Flow-Anchored Consistency Models](facm_flow-anchored_consistency_models.md)
+- [\[ICLR 2026\] The Intricate Dance of Prompt Complexity, Quality, Diversity, and Consistency in T2I Models](the_intricate_dance_of_prompt_complexity_quality_diversity_and_consistency_in_t2.md)
+- [\[ICLR 2026\] Consis-GCPO: Consistency-Preserving Group Causal Preference Optimization for Vision Customization](consis-gcpo_consistency-preserving_group_causal_preference_optimization_for_visi.md)
 - [\[CVPR 2026\] Designing Instance-Level Sampling Schedules via REINFORCE with James-Stein Shrinkage](../../CVPR2026/image_generation/designing_instance-level_sampling_schedules_via_reinforce_with_james-stein_shrin.md)
-- [\[CVPR 2026\] Image Diffusion Preview with Consistency Solver](../../CVPR2026/image_generation/image_diffusion_preview_with_consistency_solver.md)
-- [\[CVPR 2026\] When Local Rules Create Global Order: Self-Organized Representation Learning for Latent Diffusion Models](../../CVPR2026/image_generation/when_local_rules_create_global_order_self-organized_representation_learning_for_.md)
 
 </div>
 

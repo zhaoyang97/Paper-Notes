@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Schrödinger Eigenfunction Method for Long-Horizon Stochastic Optimal Control
+description: >-
+  [ICLR2026][优化/理论][随机最优控制] 对于「无控漂移是某势函数梯度」这一类随机最优控制（SOC）问题，本文证明其线性化后的 HJB 算子与一个谱纯离散的薛定谔算子酉等价，于是长程最优控制可由该算子的**最大特征函数**直接给出（修正项随时间跨度指数衰减）；据此给出对称 LQR 的闭式解，并提出去掉「隐式重加权」偏差的相对特征函数损失，把长程 SOC 的内存/时间复杂度从 $O(Td)$ 降到 $O(d)$，控制精度提升约一个数量级。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "随机最优控制"
+  - "HJB 方程"
+  - "薛定谔算子"
+  - "特征函数学习"
+  - "长程规划"
+---
+
 # A Schrödinger Eigenfunction Method for Long-Horizon Stochastic Optimal Control
 
 **会议**: ICLR2026  
-**OpenReview**: [lcEw5NcSij](https://openreview.net/forum?id=lcEw5NcSij)  
+**OpenReview**: [https://openreview.net/forum?id=lcEw5NcSij](https://openreview.net/forum?id=lcEw5NcSij)  
 **代码**: 待确认  
 **领域**: 优化 / 随机最优控制 / 谱方法  
 **关键词**: 随机最优控制, HJB 方程, 薛定谔算子, 特征函数学习, 长程规划
@@ -126,11 +141,11 @@ $$u_\theta(x,t)=\begin{cases}\beta^{-1}\nabla\log\phi_0^{\theta_0}, & t\le T_{\m
 
 ## 相关论文
 
-- [\[ICLR 2026\] Dual Optimistic Ascent (PI Control) is the Augmented Lagrangian Method in Disguise](dual_optimistic_ascent_pi_control_is_the_augmented_lagrangian_method_in_disguise.md)
 - [\[NeurIPS 2025\] MDNS: Masked Diffusion Neural Sampler via Stochastic Optimal Control](../../NeurIPS2025/optimization/mdns_masked_diffusion_neural_sampler_via_stochastic_optimal_control.md)
-- [\[ICLR 2026\] A Scalable Constant-Factor Approximation Algorithm for $W_p$ Optimal Transport](a_scalable_constant-factor_approximation_algorithm_for_w_p_optimal_transport.md)
-- [\[ICLR 2026\] A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints](a_block_coordinate_descent_method_for_nonsmooth_composite_optimization_under_ort.md)
-- [\[ICLR 2026\] RS-ORT: A Reduced-Space Branch-and-Bound Algorithm for Optimal Regression Trees](rs-ort_a_reduced-space_branch-and-bound_algorithm_for_optimal_regression_trees.md)
+- [\[ICLR 2026\] Dual Optimistic Ascent (PI Control) is the Augmented Lagrangian Method in Disguise](dual_optimistic_ascent_pi_control_is_the_augmented_lagrangian_method_in_disguise.md)
+- [\[ICLR 2026\] Nesterov Finds GRAAL: Optimal and Adaptive Gradient Method for Convex Optimization](nesterov_finds_graal_optimal_and_adaptive_gradient_method_for_convex_optimizatio.md)
+- [\[ICLR 2026\] Differentiable Model Predictive Control on the GPU](differentiable_model_predictive_control_on_the_gpu.md)
+- [\[ICLR 2026\] Multilevel Control Functional](multilevel_control_functional.md)
 
 </div>
 

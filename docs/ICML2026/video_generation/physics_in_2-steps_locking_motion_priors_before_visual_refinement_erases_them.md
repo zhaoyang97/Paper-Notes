@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Physics in 2-Steps: Locking Motion Priors Before Visual Refinement Erases Them
+description: >-
+  [ICML2026][视频生成][图生视频] 这篇论文发现图生视频扩散模型「2 步推理比 50 步推理物理更靠谱」，把根因定位到去噪过程中相位谱被侵蚀，于是提出免训练的 PhaseLock——从 2 步推理里抽出运动先验，再用 Latent Delta Guidance 注入到高保真去噪轨迹中，平均把物理一致性提升 6.2 分，几乎不增加开销（1.06× 时间、1.02× 显存）。
+tags:
+  - "ICML2026"
+  - "视频生成"
+  - "图生视频"
+  - "物理一致性"
+  - "相位侵蚀"
+  - "频域分析"
+  - "免训练引导"
+---
+
 # Physics in 2-Steps: Locking Motion Priors Before Visual Refinement Erases Them
 
 **会议**: ICML2026  

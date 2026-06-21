@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] C-Voting: Confidence-Based Test-Time Voting without Explicit Energy Functions
+description: >-
+  [ICLR2026][Reasoning][测试时扩展] 针对"反复套用同一层"的循环推理模型，本文提出一种不需要显式能量函数的测试时投票策略 C-voting——从多个随机初始隐状态出发跑出多条轨迹，挑出"平均 top-1 概率最高（即模型最自信）"的那条作为答案；它在 AKOrN 上比能量投票 E-voting 在 Sudoku-hard 高 4.9%，配合一个仅 300 万参数的轻量模型 ItrSA++ 还能在 Sudoku-extreme 上把 HRM 从 55.0% 抬到 95.2%。
+tags:
+  - "ICLR2026"
+  - "Reasoning"
+  - "测试时扩展"
+  - "循环模型"
+  - "投票策略"
+  - "置信度校准"
+  - "数独求解"
+---
+
 # C-Voting: Confidence-Based Test-Time Voting without Explicit Energy Functions
 
 **会议**: ICLR2026  
-**OpenReview**: [kYQFfEKtx5](https://openreview.net/forum?id=kYQFfEKtx5)  
+**OpenReview**: [https://openreview.net/forum?id=kYQFfEKtx5](https://openreview.net/forum?id=kYQFfEKtx5)  
 **代码**: 待确认  
 **领域**: LLM推理 / 测试时扩展  
 **关键词**: 测试时扩展, 循环模型, 投票策略, 置信度校准, 数独求解  
@@ -80,6 +95,7 @@ ItrSA++ 按标准分类（棋盘逐格预测）训练，初值从标准正态采
 另一组关键对照是**同一个 AKOrN 模型上换投票策略**：在 Sudoku-hard、4096 个候选下，C-voting 得 $94.4\pm0.1\%$，比 E-voting 报告的 $89.5\pm2.5\%$ 高 4.9%——说明即便模型**有**能量函数，置信度也是比能量更好的判据。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | C-voting vs E-voting (AKOrN) | C-voting 全程领先且随候选数增加差距稳定 | 置信度是比能量更直接的准确率代理 |
@@ -124,10 +140,10 @@ ItrSA++ 按标准分类（棋盘逐格预测）训练，初值从标准正态采
 ## 相关论文
 
 - [\[AAAI 2026\] Stable Voting and the Splitting of Cycles](../../AAAI2026/llm_reasoning/stable_voting_and_the_splitting_of_cycles.md)
-- [\[ICML 2026\] ETS: Energy-Guided Test-Time Scaling for Training-Free RL Alignment](../../ICML2026/llm_reasoning/ets_energy-guided_test-time_scaling_for_training-free_rl_alignment.md)
-- [\[ACL 2025\] Ranked Voting based Self-Consistency of Large Language Models](../../ACL2025/llm_reasoning/ranked_voting_based_self-consistency_of_large_language_models.md)
-- [\[ICML 2026\] Inference Time Optimization with Confidence Dynamics](../../ICML2026/llm_reasoning/inference_time_optimization_with_confidence_dynamics.md)
-- [\[ACL 2026\] TIME: Temporally Intelligent Meta-Reasoning Engine for Context-Triggered Explicit Reasoning](../../ACL2026/llm_reasoning/time_temporally_intelligent_meta-reasoning_engine_for_context-triggered_explicit.md)
+- [\[ICLR 2026\] CaTS: Calibrated Test-Time Scaling for Efficient LLM Reasoning](cats_calibrated_test-time_scaling_for_efficient_llm_reasoning.md)
+- [\[ICLR 2026\] Understanding the Role of Training Data in Test-Time Scaling](understanding_the_role_of_training_data_in_test-time_scaling.md)
+- [\[ICLR 2026\] Optimal Aggregation of LLM and PRM Signals for Efficient Test-Time Scaling](optimal_aggregation_of_llm_and_prm_signals_for_efficient_test-time_scaling.md)
+- [\[ICLR 2026\] ROC-n-Reroll: How Verifier Imperfection Affects Test-Time Scaling](roc-n-reroll_how_verifier_imperfection_affects_test-time_scaling.md)
 
 </div>
 

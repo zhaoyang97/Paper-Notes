@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Which Anatomy Matters Under Limited Labels? A Data-Efficient Anatomy-Aware Benchmark for Cardiac Pathology Prediction
+description: >-
+  [ICML 2026][医学图像][解剖感知表征] 本文在公开 ACDC 心脏 MRI 数据集上构建了一个「低标注 + 受限算力」的解剖感知基准，用分割掩码导出的患者级形状描述符做 5 类心脏病理分类，系统性地证明：在标签稀缺时，**选对解剖表征比堆模型复杂度更重要**——其中心肌（MYO）是单结构里信号最强的，多结构组合整体最佳。
+tags:
+  - "ICML 2026"
+  - "医学图像"
+  - "解剖感知表征"
+  - "低标注"
+  - "心脏病理分类"
+  - "ACDC"
+  - "特征工程"
+---
+
 # Which Anatomy Matters Under Limited Labels? A Data-Efficient Anatomy-Aware Benchmark for Cardiac Pathology Prediction
 
 **会议**: ICML 2026  

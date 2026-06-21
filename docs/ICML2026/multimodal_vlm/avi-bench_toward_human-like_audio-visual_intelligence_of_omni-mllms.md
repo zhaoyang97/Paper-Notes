@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs
+description: >-
+  [ICML2026][多模态VLM][音视频智能] AVI-Bench 是一个受人类认知启发的音视频基准：把对 Omni-MLLM 的评测按「感知 → 理解 → 推理」三阶段组织、再补一个测「原始感知」的 PriSe 扩展，用 14 个任务、5,864 个样本、9 个指标系统诊断 28 个开源/闭源 Omni-MLLM 的音视频智能（AVI），并据此提出一个四级 AVI taxonomy。
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "音视频智能"
+  - "Omni-MLLM"
+  - "认知分层基准"
+  - "跨模态 grounding"
+  - "原始感知"
+---
+
 # AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs
 
 **会议**: ICML2026  

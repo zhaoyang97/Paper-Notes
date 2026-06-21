@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions
+description: >-
+  [ICLR2026][LLM评测][text-to-SQL] BIRD-INTERACT 把单轮 text-to-SQL 评测改造成一个带"会模拟用户提问、会管知识库、会跑测试用例"的动态交互环境，覆盖完整 CRUD 操作并故意往任务里注入歧义，用 c-Interact（协议引导对话）和 a-Interact（自主智能体）两种设置考察 LLM 的交互能力——结果连最强的 GPT-5 在 600 题全集上也只解出 8.67%（c）/17.00%（a），暴露出当前模型"会写 SQL 但不会通过交互把任务问清楚"的短板。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "text-to-SQL"
+  - "交互式评测"
+  - "benchmark"
+  - "用户模拟器"
+  - "测试时扩展"
+---
+
 # BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions
 
 **会议**: ICLR2026  
-**OpenReview**: [nHrYBGujps](https://openreview.net/forum?id=nHrYBGujps)  
+**OpenReview**: [https://openreview.net/forum?id=nHrYBGujps](https://openreview.net/forum?id=nHrYBGujps)  
 **论文**: [项目页](https://bird-interact.github.io)（BIRD Team）  
 **代码**: https://bird-interact.github.io （有）  
 **领域**: LLM评测 / Benchmark / Text-to-SQL  
@@ -122,10 +137,10 @@ $$u_i^t = U_\gamma(h_i^{t-1}, q_i, E), \quad s_i^t = S_\theta(h_i^{t-1}, u_i^t, 
 ## 相关论文
 
 - [\[AAAI 2026\] MCTS-SQL: Light-Weight LLMs can Master the Text-to-SQL through Monte Carlo Tree Search](../../AAAI2026/llm_evaluation/mcts-sql_light-weight_llms_can_master_the_text-to-sql_through_monte_carlo_tree_s.md)
-- [\[ACL 2026\] Comprehensiveness Metrics for Automatic Evaluation of Factual Recall in Text Generation](../../ACL2026/llm_evaluation/comprehensiveness_metrics_for_automatic_evaluation_of_factual_recall_in_text_gen.md)
-- [\[ACL 2026\] Minos: A Multimodal Evaluation Model for Bidirectional Generation Between Image and Text](../../ACL2026/llm_evaluation/minos_a_multimodal_evaluation_model_for_bidirectional_generation_between_image_a.md)
 - [\[ACL 2025\] Something's Fishy In The Data Lake: A Critical Re-evaluation of Table Union Search Benchmarks](../../ACL2025/llm_evaluation/somethings_fishy_in_the_data_lake_a_critical_re-evaluation_of_table_union_search.md)
-- [\[ICML 2026\] Hacking Generative Perplexity: Why Unconditional Text Evaluation Needs Distributional Metrics](../../ICML2026/llm_evaluation/hacking_generative_perplexity_why_unconditional_text_evaluation_needs_distributi.md)
+- [\[ACL 2026\] Comprehensiveness Metrics for Automatic Evaluation of Factual Recall in Text Generation](../../ACL2026/llm_evaluation/comprehensiveness_metrics_for_automatic_evaluation_of_factual_recall_in_text_gen.md)
+- [\[ICLR 2026\] Can Vision–Language Models Assess Graphic Design Aesthetics? A Benchmark, Evaluation, and Dataset Perspective](can_vision_language_models_assess_graphic_design_aesthetics_a_benchmark_evaluati.md)
+- [\[ACL 2026\] Minos: A Multimodal Evaluation Model for Bidirectional Generation Between Image and Text](../../ACL2026/llm_evaluation/minos_a_multimodal_evaluation_model_for_bidirectional_generation_between_image_a.md)
 
 </div>
 

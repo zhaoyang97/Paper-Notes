@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall
+description: >-
+  [ICLR2026][知识编辑][多跳推理] ACE 通过神经元级归因发现「隐式主语在多跳推理里扮演 query 神经元、逐层激活 value 神经元」这一被忽视的机制，并据此把编辑从「层级启发式」精细到「query-value 通路」，在多跳事实召回上比 SOTA 的 PMET 在 GPT-J 上高 9.44%、在 Qwen3-8B 上高 37.46%。
+tags:
+  - "ICLR2026"
+  - "知识编辑"
+  - "多跳推理"
+  - "神经元归因"
+  - "query-value 神经元"
+  - "MQuAKE"
+---
+
 # ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall
 
 **会议**: ICLR2026  
-**OpenReview**: [IuWIzmMvKo](https://openreview.net/forum?id=IuWIzmMvKo)  
+**OpenReview**: [https://openreview.net/forum?id=IuWIzmMvKo](https://openreview.net/forum?id=IuWIzmMvKo)  
 **代码**: 待确认  
 **领域**: 知识编辑 / 机制可解释性  
 **关键词**: 知识编辑, 多跳推理, 神经元归因, query-value 神经元, MQuAKE
@@ -138,11 +152,11 @@ CoT 提示消融显示 ACE 对 in-context 信息量很鲁棒：OOD Few-Shots 下
 
 ## 相关论文
 
-- [\[CVPR 2026\] Attribution-Guided Model Rectification of Unreliable Neural Network Behaviors](../../CVPR2026/knowledge_editing/attribution-guided_model_rectification_of_unreliable_neural_network_behaviors.md)
 - [\[ACL 2026\] Can Factual Opinions Be Edited (Manipulated) in Large Language Models?](../../ACL2026/knowledge_editing/can_factual_opinions_be_edited_manipulated_in_large_language_models.md)
-- [\[ICLR 2026\] When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations](when_large_multimodal_models_confront_evolving_knowledge_challenges_and_explorat.md)
-- [\[ACL 2026\] Spectral Characterization and Mitigation of Sequential Knowledge Editing Collapse](../../ACL2026/knowledge_editing/spectral_characterization_and_mitigation_of_sequential_knowledge_editing_collaps.md)
-- [\[ACL 2026\] Aligning Language Models with Real-time Knowledge Editing](../../ACL2026/knowledge_editing/aligning_language_models_with_real-time_knowledge_editing.md)
+- [\[CVPR 2026\] Attribution-Guided Model Rectification of Unreliable Neural Network Behaviors](../../CVPR2026/knowledge_editing/attribution-guided_model_rectification_of_unreliable_neural_network_behaviors.md)
+- [\[ICLR 2026\] Disentangling Knowledge Representations for Large Language Model Editing](disentangling_knowledge_representations_for_large_language_model_editing.md)
+- [\[ICLR 2026\] TangleScore: Tangle-Guided Purge and Imprint for Unstructured Knowledge Editing](tanglescore_tangle-guided_purge_and_imprint_for_unstructured_knowledge_editing.md)
+- [\[ICLR 2026\] SUIT: Knowledge Editing with Subspace-Aware Key-Value Mappings](suit_knowledge_editing_with_subspace-aware_key-value_mappings.md)
 
 </div>
 

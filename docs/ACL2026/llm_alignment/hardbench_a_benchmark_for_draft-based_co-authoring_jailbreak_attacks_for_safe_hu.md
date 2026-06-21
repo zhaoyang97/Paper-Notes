@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human–LLM Collaborative Writing
+description: >-
+  [ACL2026][LLM对齐][越狱攻击] 论文指出"草稿协同写作"是一种被忽视的越狱面——恶意用户把残缺的危险草稿丢给 LLM 让它"润色补全"，模型的"补全本能"会压过安全护栏吐出可执行的危险细节；作者构造了 HarDBench 基准量化这一漏洞（CoJP 攻击下八个模型 ASR 全部 >80%），并提出 SUBA 偏好优化对齐，把有害草稿的拒答和良性草稿的配合同时学进去，将 ASR 压到个位数而效用几乎不掉。
+tags:
+  - "ACL2026"
+  - "LLM对齐"
+  - "越狱攻击"
+  - "协同写作"
+  - "偏好优化"
+  - "安全-效用平衡"
+  - "红队基准"
+---
+
 # HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human–LLM Collaborative Writing
 
 **会议**: ACL2026  

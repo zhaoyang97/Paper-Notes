@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] When Distance Distracts: Representation Distance Bias in BT-Loss for Reward Models
+description: >-
+  [ICML 2026][LLM对齐][奖励模型] 本文把 Bradley-Terry（BT）奖励模型损失的梯度范数拆成「预测误差 × 表示距离」两项，指出表示距离会喧宾夺主——表示相近的难分对即使排错也只得到微弱更新，于是作者提出 NormBT，用一个与表示距离成反比的逐对权重把更新强度重新交还给预测误差，在 RewardBench 的 Reasoning 类上平均提升 5% 以上。
+tags:
+  - "ICML 2026"
+  - "LLM对齐"
+  - "奖励模型"
+  - "Bradley-Terry 损失"
+  - "梯度分析"
+  - "表示距离"
+  - "RLHF"
+---
+
 # When Distance Distracts: Representation Distance Bias in BT-Loss for Reward Models
 
 **会议**: ICML 2026  

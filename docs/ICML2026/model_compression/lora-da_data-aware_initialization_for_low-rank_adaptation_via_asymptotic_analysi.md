@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] LoRA-DA: Data-Aware Initialization for Low-Rank Adaptation via Asymptotic Analysis
+description: >-
+  [ICML 2026][模型压缩][LoRA 初始化] LoRA-DA 把"如何初始化 LoRA 的 $A$、$B$ 矩阵"重新表述成一个**最小化微调模型与目标模型参数差距期望**的优化问题，通过渐近分析把目标拆成**方差项 + 偏置项**两部分，用 Fisher 信息既刻画采样随机性又保留参数空间的各向异性，从而给出比"只看一步梯度"更优的初始化，在多个 NLP 基准上稳定超过现有初始化方法。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "LoRA 初始化"
+  - "渐近分析"
+  - "Fisher 信息"
+  - "数据感知"
+  - "各向异性"
+---
+
 # LoRA-DA: Data-Aware Initialization for Low-Rank Adaptation via Asymptotic Analysis
 
 **会议**: ICML 2026  

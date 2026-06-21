@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ICCV2025 论文笔记 TODO
 
-总计: 1906 篇 | 已完成: 1404 | 待更新: 502
+总计: 1906 篇 | 已完成: 1403 | 待更新: 503
 
 ---
 
@@ -1786,7 +1786,7 @@
 - [x] [dap-mae domain-adaptive point cloud masked autoencoder for e](3d_vision/dap-mae_domain-adaptive_point_cloud_masked_autoencoder_for_effective_cross-domai.md) | arXiv: 2510.21635
 - [x] [ask and remember a questions only replay strategy for continual visual question answering](ai_safety/ask_and_remember_a_questions_only_replay_strategy_for_continual_visual_question_answering.md)
 - [x] [backdoor attacks on neural networks via one bit flip](ai_safety/backdoor_attacks_on_neural_networks_via_one_bit_flip.md)
-- [x] [acam kd adaptive cooperative attention masking knowledge distillation](autonomous_driving/acam_kd_adaptive_cooperative_attention_masking_knowledge_distillation.md) | arXiv: 2503.06307
+- [ ] [acam kd adaptive cooperative attention masking knowledge distillation](autonomous_driving/acam_kd_adaptive_cooperative_attention_masking_knowledge_distillation.md) | arXiv: 2503.06307
 - [x] [ad gs object aware bspline gaussian splatting self supervised autonomous driving](autonomous_driving/ad_gs_object_aware_bspline_gaussian_splatting_self_supervised_autonomous_driving.md)
 - [x] [resonance learning to predict social aware pedestrian trajectories as co vibrations](autonomous_driving/resonance_learning_to_predict_social-aware_pedestrian_trajectories_as_co-vibrati.md) | arXiv: 2412.02447
 - [x] [tikzero zero-shot text-guided graphics program synthesis](code_intelligence/tikzero_zero-shot_text-guided_graphics_program_synthesis.md) | arXiv: 2503.11509

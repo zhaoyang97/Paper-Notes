@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The Discrete-Log Clock: How a Transformer Learns Modular Multiplication
+description: >-
+  [ICML 2026 (Mechanistic Interpretability Workshop)][可解释性][模乘法] 之前的工作发现 Transformer 学会模乘法 $a\cdot b\bmod p$ 后，嵌入的 Fourier 谱是"稠密"的（要用上所有频率），看起来比模加法复杂得多、不可解释；本文指出**这只是分析基选错了**——模乘法的天然 Fourier 基不是加性 DFT 而是**乘性特征变换**（即乘法群 $(\mathbb{Z}/p\mathbb{Z})^*$ 上的 Fourier 变换），换到这个基下谱立刻变稀疏（Gini 从 0.07 升到 0.58、只剩 4 个关键频率…
+tags:
+  - "ICML 2026 (Mechanistic Interpretability Workshop)"
+  - "可解释性"
+  - "模乘法"
+  - "离散对数"
+  - "乘性特征变换"
+  - "Fourier 基"
+  - "Clock 算法"
+---
+
 # The Discrete-Log Clock: How a Transformer Learns Modular Multiplication
 
 **会议**: ICML 2026 (Mechanistic Interpretability Workshop)  

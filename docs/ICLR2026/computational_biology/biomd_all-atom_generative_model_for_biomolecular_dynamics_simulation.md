@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BioMD: All-atom Generative Model for Biomolecular Dynamics Simulation
+description: >-
+  [ICLR2026][计算生物][分子动力学] BioMD 是首个面向蛋白-配体体系的全原子生成式分子动力学模型，用"粗粒度预测 + 细粒度插值"的分层流匹配框架，把传统 MD 需要数小时的长时程轨迹（含配体解离路径）压缩到几十秒生成，并在 DD-13M 上对 97.1% 的体系成功重建出解离路径。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "分子动力学"
+  - "全原子生成"
+  - "流匹配"
+  - "蛋白-配体"
+  - "解离路径"
+---
+
 # BioMD: All-atom Generative Model for Biomolecular Dynamics Simulation
 
 **会议**: ICLR2026  
-**OpenReview**: [LQDeJk6NOr](https://openreview.net/forum?id=LQDeJk6NOr)  
+**OpenReview**: [https://openreview.net/forum?id=LQDeJk6NOr](https://openreview.net/forum?id=LQDeJk6NOr)  
 **代码**: 待确认  
 **领域**: 计算生物 / 分子动力学 / 生成模型 / 流匹配  
 **关键词**: 分子动力学, 全原子生成, 流匹配, 蛋白-配体, 解离路径
@@ -87,6 +102,7 @@ BioMD 直接在全原子笛卡尔坐标上建模，而非依赖粗粒度主链�
 在 ATLAS（1390 条单链蛋白、100 ns 轨迹）上，BioMD 在 13 项指标里 9 项达到 SOTA；与同样"序列+初始帧"设定的 MDGen 相比全面提升，Global RMSF 相关系数 $r$ 提升约 52%（0.50→0.76）。
 
 ### 消融实验
+
 | 配置 | 关键现象 | 说明 |
 |------|---------|------|
 | 非 AR（并行去噪） | 配体几乎不动 | 缺历史指引、对多路径取平均 |
@@ -128,11 +144,11 @@ BioMD 直接在全原子笛卡尔坐标上建模，而非依赖粗粒度主链�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Towards All-atom Foundation Models for Biomolecular Binding Affinity Prediction](towards_all-atom_foundation_models_for_biomolecular_binding_affinity_prediction.md)
 - [\[ICLR 2026\] Beyond Ensembles: Simulating All-Atom Protein Dynamics in a Learned Latent Space](beyond_ensembles_simulating_all-atom_protein_dynamics_in_a_learned_latent_space.md)
+- [\[ICLR 2026\] Pallatom-Ligand: an All-Atom Diffusion Model for Designing Ligand-Binding Proteins](pallatom-ligand_an_all-atom_diffusion_model_for_designing_ligand-binding_protein.md)
 - [\[ICLR 2026\] VCWorld: A Biological World Model for Virtual Cell Simulation](vcworld_a_biological_world_model_for_virtual_cell_simulation.md)
-- [\[NeurIPS 2025\] Unified All-Atom Molecule Generation with Neural Fields](../../NeurIPS2025/computational_biology/unified_all-atom_molecule_generation_with_neural_fields.md)
-- [\[NeurIPS 2025\] Consistent Sampling and Simulation: Molecular Dynamics with Energy-Based Diffusion Models](../../NeurIPS2025/computational_biology/consistent_sampling_and_simulation_molecular_dynamics_with_energy-based_diffusio.md)
-- [\[ICLR 2026\] Unified Biomolecular Trajectory Generation via Pretrained Variational Bridge](unified_biomolecular_trajectory_generation_via_pretrained_variational_bridge.md)
+- [\[ICLR 2026\] ProTDyn: A Foundation Protein Language Model for Thermodynamics and Dynamics Generation](protdyn_a_foundation_protein_language_model_for_thermodynamics_and_dynamics_gene.md)
 
 </div>
 

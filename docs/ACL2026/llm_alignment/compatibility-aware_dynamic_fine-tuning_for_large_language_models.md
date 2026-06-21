@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Compatibility-Aware Dynamic Fine-Tuning for Large Language Models
+description: >-
+  [ACL 2026][LLM对齐][监督微调] CADFT 在 token 级稳定化方法 DFT 的基础上，引入一个由模型自身似然算出的"样本级兼容性"信号去重加权监督梯度，再配一个延迟、低频的"兼容性引导重写"把顽固难学的样本改写成可学目标，从而在不引入任何奖励模型/RL 的前提下，把高方差梯度压下去，同时提升微调稳定性、泛化和冷启动 RL 初始化质量。
+tags:
+  - "ACL 2026"
+  - "LLM对齐"
+  - "监督微调"
+  - "梯度方差控制"
+  - "样本级兼容性"
+  - "DFT"
+  - "冷启动RL"
+---
+
 # Compatibility-Aware Dynamic Fine-Tuning for Large Language Models
 
 **会议**: ACL 2026  

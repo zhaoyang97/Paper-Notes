@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework
+description: >-
+  [ICML 2026][AI安全][数据投毒] 本文揭示部署在 Anthropic ASL-3 等生产系统中的 Rapid Response（RR）越狱检测框架可被系统性投毒：攻击者只需通过提示注入把毒样本送进 RR 的"增殖"流水线，在仅 1% 投毒率下就能让分类器对良性样本误报（最高 100% 假阳率）或对越狱样本漏报（最高 96% 假阴率），其中漏报攻击靠一个全新的"省略攻击（Omission Attack）"实现——只删不加、只改正类样本就能种下后门。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "数据投毒"
+  - "后门攻击"
+  - "安全分类器"
+  - "提示注入"
+  - "Rapid Response"
+  - "越狱检测"
+---
+
 # Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework
 
 **会议**: ICML 2026  

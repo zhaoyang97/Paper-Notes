@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes
+description: >-
+  [ICML2026][计算生物][空间转录组] 面向"细胞形态 + 基因表达 + 空间位置"三模态联合建模的空间转录组难题，SPATIA 用 **细胞→niche→组织** 的层级注意力学统一表示，并配一个**空间条件的形态生成模块**（弱配对 + 置信度感知的最优传输重加权 + 形态-profile 对齐流匹配），在 25.9M 细胞、12 个任务上同时刷新生成与预测 SOTA。
+tags:
+  - "ICML2026"
+  - "计算生物"
+  - "空间转录组"
+  - "细胞表型"
+  - "流匹配"
+  - "最优传输"
+  - "多尺度表示"
+---
+
 # SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes
 
 **会议**: ICML2026  

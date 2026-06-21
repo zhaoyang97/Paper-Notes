@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ToaSt: Token Channel Selection and Structured Pruning for Efficient ViT
+description: >-
+  [ICML 2026][模型压缩][ViT 压缩] ToaSt 把 ViT 的压缩"解耦"成两套针对性策略：对占不到 40% FLOPs 的多头自注意力 (MHSA) 用耦合的逐头结构化权重剪枝、保住注意力的数学完整性；对占 60%+ FLOPs 的前馈网络 (FFN) 用免训练、推理时即插即用的"Token Channel Selection (TCS)"过滤冗余噪声通道，在九个 ViT 模型上拿到更优的精度–效率折中，例如 ViT-MAE-Huge 上 88.52% Top-1（+1.64%p）同时砍掉 39.4% FLOPs。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "ViT 压缩"
+  - "结构化剪枝"
+  - "通道选择"
+  - "免训练"
+  - "逐层独立压缩"
+---
+
 # ToaSt: Token Channel Selection and Structured Pruning for Efficient ViT
 
 **会议**: ICML 2026  

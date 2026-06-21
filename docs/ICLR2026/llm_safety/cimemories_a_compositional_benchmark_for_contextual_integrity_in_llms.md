@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CIMemories: A Compositional Benchmark For Contextual Integrity In LLMs
+description: >-
+  [ICLR2026][LLM安全][上下文完整性] CIMemories 是一个评测「记忆增强 LLM 会不会在不该说的场景里把记忆里的隐私属性说出去」的组合式 benchmark：它用每人 100+ 属性的合成用户画像配上几十个社交任务，逐个 (属性, 任务) 标注「该说 / 不该说」，结果发现前沿模型最高有 69% 的属性级越界，且降低越界往往以牺牲任务完整性为代价，越界还会随任务数和采样次数不断累积。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "上下文完整性"
+  - "记忆增强 LLM"
+  - "隐私泄露"
+  - "组合式 benchmark"
+  - "信息流控制"
+---
+
 # CIMemories: A Compositional Benchmark For Contextual Integrity In LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [YnNIp38v1M](https://openreview.net/forum?id=YnNIp38v1M)  
+**OpenReview**: [https://openreview.net/forum?id=YnNIp38v1M](https://openreview.net/forum?id=YnNIp38v1M)  
 **代码**: https://github.com/facebookresearch/CIMemories  
 **领域**: LLM 安全 / 隐私评测 / 上下文完整性  
 **关键词**: 上下文完整性, 记忆增强 LLM, 隐私泄露, 组合式 benchmark, 信息流控制
@@ -115,3 +130,19 @@ $$\mathrm{Completeness}(s) := \mathbb{E}_{\{t:\,|A^{share}_{s,t}|>0\}}\Big[\math
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 8+ 模型、规模/推理/prompt/记忆累积多维消融，且有人工一致性验证；扣分在只测 10 画像、单轮无工具
 - 写作质量: ⭐⭐⭐⭐⭐ 形式化记号清晰，指标动机（为何取 max/mean）解释到位，真实越界例子很有说服力
 - 价值: ⭐⭐⭐⭐⭐ 直指记忆增强助手大规模上线后的真实隐私风险，并证明扩规模/改 prompt 都救不动，给后续对齐/护栏研究立了清晰标尺
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Do Vision-Language Models Respect Contextual Integrity in Location Disclosure?](do_vision-language_models_respect_contextual_integrity_in_location_disclosure.md)
+- [\[ACL 2026\] CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents](../../ACL2026/llm_safety/ci-work_benchmarking_contextual_integrity_in_enterprise_llm_agents.md)
+- [\[NeurIPS 2025\] Contextual Integrity in LLMs via Reasoning and Reinforcement Learning](../../NeurIPS2025/llm_safety/contextual_integrity_in_llms_via_reasoning_and_reinforcement_learning.md)
+- [\[ACL 2026\] AgentCoMa: A Compositional Benchmark Mixing Commonsense and Mathematical Reasoning in Real-World Scenarios](../../ACL2026/llm_safety/agentcoma_a_compositional_benchmark_mixing_commonsense_and_mathematical_reasonin.md)
+- [\[ICLR 2026\] VoxPrivacy: A Benchmark for Evaluating Interactional Privacy of Speech Language Models](voxprivacy_a_benchmark_for_evaluating_interactional_privacy_of_speech_language_m.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ARMOR: High-Performance Semi-Structured Pruning via Adaptive Matrix Factorization
+description: >-
+  [ICLR2026][模型压缩][半结构化剪枝] ARMOR 把 2:4 半结构化剪枝重新表述成「分解」问题——不直接删权重，而是把每个权重矩阵分解成一个 2:4 稀疏核外加两个轻量级块对角「包裹矩阵」当误差校正器，用块坐标下降联合优化，理论上保证代理损失不差于 SOTA，实验里在 Llama / Qwen 上把 2:4 剪枝与稠密模型的困惑度差距缩小近 50%，同时几乎保住了 2:4 的加速和省显存收益。
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "半结构化剪枝"
+  - "2:4 稀疏"
+  - "矩阵分解"
+  - "块坐标下降"
+  - "一次性后训练压缩"
+---
+
 # ARMOR: High-Performance Semi-Structured Pruning via Adaptive Matrix Factorization
 
 **会议**: ICLR2026  
-**OpenReview**: [8NE554wv0m](https://openreview.net/forum?id=8NE554wv0m)  
+**OpenReview**: [https://openreview.net/forum?id=8NE554wv0m](https://openreview.net/forum?id=8NE554wv0m)  
 **代码**: https://github.com/LawrenceRLiu/ARMOR  
 **领域**: 模型压缩  
 **关键词**: 半结构化剪枝, 2:4 稀疏, 矩阵分解, 块坐标下降, 一次性后训练压缩
@@ -144,11 +159,11 @@ NoWag-P 在表中既是基线也是消融——它就是 ARMOR 去掉分解 + �
 
 ## 相关论文
 
+- [\[ICLR 2026\] Learning Semi-Structured Sparsity for LLMs via Shared and Context-Aware Hypernetwork](learning_semi-structured_sparsity_for_llms_via_shared_and_context-aware_hypernet.md)
 - [\[ICLR 2026\] MoNE: Replacing Redundant Experts with Lightweight Novices for Structured Pruning of MoE](mone_replacing_redundant_experts_with_lightweight_novices_for_structured_pruning.md)
-- [\[ACL 2026\] Two-Stage Regularization-Based Structured Pruning for LLMs](../../ACL2026/model_compression/two-stage_regularization-based_structured_pruning_for_llms.md)
 - [\[CVPR 2025\] MambaIC: State Space Models for High-Performance Learned Image Compression](../../CVPR2025/model_compression/mambaic_state_space_models_for_high-performance_learned_image_compression.md)
-- [\[ICLR 2026\] AdaRank: Adaptive Rank Pruning for Enhanced Model Merging](adarank_adaptive_rank_pruning_for_enhanced_model_merging.md)
-- [\[ICML 2026\] ToaSt: Token Channel Selection and Structured Pruning for Efficient ViT](../../ICML2026/model_compression/toast_token_channel_selection_and_structured_pruning_for_efficient_vit.md)
+- [\[ACL 2026\] Two-Stage Regularization-Based Structured Pruning for LLMs](../../ACL2026/model_compression/two-stage_regularization-based_structured_pruning_for_llms.md)
+- [\[ICLR 2026\] RCPU: Rotation-Constrained Error Compensation for Structured Pruning of Large Language Models](rcpu_rotation-constrained_error_compensation_for_structured_pruning_of_large_lan.md)
 
 </div>
 

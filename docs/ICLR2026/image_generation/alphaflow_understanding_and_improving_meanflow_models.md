@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AlphaFlow: Understanding and Improving MeanFlow Models
+description: >-
+  [ICLR2026][图像生成][MeanFlow] 本文把 MeanFlow 的训练目标拆解成"轨迹流匹配 + 轨迹一致性"两项、发现二者梯度强负相关导致优化打架，进而提出统一了流匹配 / Shortcut / MeanFlow 的 α-Flow 目标族，用一个把 α 从 1 退火到 0 的课程策略平滑过渡，在 ImageNet-256 上用纯 DiT 从头训练把 1-NFE FID 刷到 2.58、2-NFE 刷到 2.15。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "MeanFlow"
+  - "流匹配"
+  - "少步生成"
+  - "课程学习"
+  - "轨迹一致性"
+---
+
 # AlphaFlow: Understanding and Improving MeanFlow Models
 
 **会议**: ICLR2026  
-**OpenReview**: [adacb4JTIv](https://openreview.net/forum?id=adacb4JTIv)  
+**OpenReview**: [https://openreview.net/forum?id=adacb4JTIv](https://openreview.net/forum?id=adacb4JTIv)  
 **代码**: https://github.com/snap-research/alphaflow  
 **领域**: 扩散模型 / 少步生成  
 **关键词**: MeanFlow, 流匹配, 少步生成, 课程学习, 轨迹一致性
@@ -123,10 +138,10 @@ ImageNet-1K 256×256、纯 DiT 从头训练，1/2-NFE 生成（FID 越低越好�
 ## 相关论文
 
 - [\[CVPR 2026\] Understanding, Accelerating, and Improving MeanFlow Training](../../CVPR2026/image_generation/understanding_accelerating_and_improving_meanflow_training.md)
-- [\[ICLR 2026\] Steer Away From Mode Collisions: Improving Composition In Diffusion Models](steer_away_from_mode_collisions_improving_composition_in_diffusion_models.md)
+- [\[ICLR 2026\] Decoupled MeanFlow: Turning Flow Models into Flow Maps for Accelerated Sampling](decoupled_meanflow_turning_flow_models_into_flow_maps_for_accelerated_sampling.md)
+- [\[ICLR 2026\] Constantly Improving Image Models Need Constantly Improving Benchmarks](constantly_improving_image_models_need_constantly_improving_benchmarks.md)
+- [\[AAAI 2026\] MP1: MeanFlow Tames Policy Learning in 1-step for Robotic Manipulation](../../AAAI2026/image_generation/mp1_meanflow_tames_policy_learning_in_1-step_for_robotic_manipulation.md)
 - [\[ICLR 2026\] AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport](alignflow_improving_flow-based_generative_models_with_semi-discrete_optimal_tran.md)
-- [\[ICLR 2026\] Self-Improving Loops for Visual Robotic Planning](self-improving_loops_for_visual_robotic_planning.md)
-- [\[CVPR 2026\] MeanFlow Transformers with Representation Autoencoders](../../CVPR2026/image_generation/meanflow_transformers_with_representation_autoencoders.md)
 
 </div>
 

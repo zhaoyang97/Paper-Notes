@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
+description: >-
+  [ICLR2026][机器人][跨形态导航] CE-Nav 用「先离线模仿学一个不依赖任何机器人本体、只懂几何避障的归一化流专家（VelFlow），再冻结它当先验、用轻量在线 RL 精修器去适配每个新机器人具体动力学」的两阶段框架，在四足/双足/四旋翼上都拿到 SOTA 导航性能，且把适配新机器人的训练时间从 50 小时压到 6 小时。
+tags:
+  - "ICLR2026"
+  - "机器人"
+  - "跨形态导航"
+  - "归一化流"
+  - "模仿学习"
+  - "强化学习"
+  - "多模态决策"
+---
+
 # CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
 
 **会议**: ICLR2026  
-**OpenReview**: [apaLoTumdO](https://openreview.net/forum?id=apaLoTumdO)
+**OpenReview**: [https://openreview.net/forum?id=apaLoTumdO](https://openreview.net/forum?id=apaLoTumdO)
 **代码**: 待确认  
 **领域**: 机器人 / 跨形态导航  
 **关键词**: 跨形态导航, 归一化流, 模仿学习, 强化学习, 多模态决策
@@ -145,3 +160,19 @@ CE-Nav 在成功率和路径效率上都大幅领先 SOTA 的 NavRL（mSR 0.86 v
 - 实验充分度: ⭐⭐⭐⭐ 五种本体跨形态验证 + 多组关键消融 + 真机部署，扎实；真机定量数据可再多些。
 - 写作质量: ⭐⭐⭐⭐⭐ 动机推导清楚、消融把每个组件的必要性都讲透，「次优老师更糟」等洞察很到位。
 - 价值: ⭐⭐⭐⭐⭐ 把跨本体导航适配成本压到 1/8 且性能 SOTA，对实际多平台机器人部署有直接价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Cross-Embodiment Offline Reinforcement Learning for Heterogeneous Robot Datasets](cross-embodiment_offline_reinforcement_learning_for_heterogeneous_robot_datasets.md)
+- [\[ICLR 2026\] Scalable Exploration for High-Dimensional Continuous Control via Value-Guided Flow](scalable_exploration_for_high-dimensional_continuous_control_via_value-guided_fl.md)
+- [\[CVPR 2026\] GraspGen-X: Cross-Embodiment 6-DOF Diffusion-based Grasping](../../CVPR2026/robotics/graspgen-x_cross-embodiment_6-dof_diffusion-based_grasping.md)
+- [\[CVPR 2026\] GeniNav: Generative Model Driven Image-Goal Navigation via Imagination-Guided Consistency Flow Matching](../../CVPR2026/robotics/geninav_generative_model_driven_image-goal_navigation_via_imagination-guided_con.md)
+- [\[ICLR 2026\] RFS: Reinforcement Learning with Residual Flow Steering for Dexterous Manipulation](rfs_reinforcement_learning_with_residual_flow_steering_for_dexterous_manipulatio.md)
+
+</div>
+
+<!-- RELATED:END -->

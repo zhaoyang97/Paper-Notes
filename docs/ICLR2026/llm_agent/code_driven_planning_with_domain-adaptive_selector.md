@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] Code Driven Planning with Domain-Adaptive Selector
+description: >-
+  [ICLR2026][LLM Agent][LLM 规划] CoPiC 让 LLM 一次性生成多个"高层规划程序"（而非逐步问 LLM 要计划），由这些程序自己跟环境闭环交互产出候选计划，再用一个经 RL 微调的小模型"域自适应选择器"挑出最契合长期回报的计划执行，从而在 ALFWorld / NetHack / 星际争霸 II 造兵三个环境上把成功率平均提升 19.14%、token 开销平均削减 79.39%。
+tags:
+  - "ICLR2026"
+  - "LLM Agent"
+  - "LLM 规划"
+  - "代码驱动"
+  - "域自适应选择器"
+  - "混合专家"
+  - "强化学习"
+---
+
 # Code Driven Planning with Domain-Adaptive Selector
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [yDbJHQlrbf](https://openreview.net/forum?id=yDbJHQlrbf)  
+**OpenReview**: [https://openreview.net/forum?id=yDbJHQlrbf](https://openreview.net/forum?id=yDbJHQlrbf)  
 **代码**: 补充材料随论文提供（待确认公开仓库）  
 **领域**: LLM Agent / 序列决策规划  
 **关键词**: LLM 规划、代码驱动、域自适应选择器、混合专家、强化学习
@@ -100,6 +114,7 @@ ALFWorld 六类任务上 CoPiC 对比代表性 baseline（Cost 单位 M = 百万
 ALFWorld 整体 SR +16.96%、Cost −83.76%；即便换成和 baseline 同设定的在线测试集学习版 CoPiC(TSL)，仍比 baseline 高 17.17% SR、省 87.16% token。NetHack 上 SR +13.72%、Cost −70.96%（"升到 3 级"这种难任务查询量直降 96.11%、SR 仍 +10%）；星际造兵 Hard 任务 SR +44.75%、Cost −87.86%。
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | 完整 CoPiC | 三环境全面领先 | 程序 MoE + RL 选择器协同 |
@@ -138,3 +153,19 @@ ALFWorld 整体 SR +16.96%、Cost −83.76%；即便换成和 baseline 同设定
 - 实验充分度: ⭐⭐⭐⭐⭐ 三类异构环境、多条强 baseline、5 种子、开源/闭源 LLM、四组消融，覆盖全面。
 - 写作质量: ⭐⭐⭐⭐ 框架两阶段叙述清晰、公式完整，唯部分细节（如 PPO 目标）下放附录。
 - 价值: ⭐⭐⭐⭐⭐ token 降 79%、SR 升 19% 且零样本域适应，对成本敏感的 LLM agent 落地有直接参考价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] OrchestrationBench: LLM-Driven Agentic Planning and Tool Use in Multi-Domain Scenarios](orchestrationbench_llm-driven_agentic_planning_and_tool_use_in_multi-domain_scen.md)
+- [\[AAAI 2026\] Reflection-Driven Control for Trustworthy Code Agents](../../AAAI2026/llm_agent/reflection-driven_control_for_trustworthy_code_agents.md)
+- [\[ICML 2026\] AutoRPA: Efficient GUI Automation through LLM-Driven Code Synthesis from Interactions](../../ICML2026/llm_agent/autorpa_efficient_gui_automation_through_llm-driven_code_synthesis_from_interact.md)
+- [\[ICLR 2026\] Modeling Others' Minds as Code](modeling_others_minds_as_code.md)
+- [\[ICML 2026\] NaviAgent: Graph-Driven Bilevel Planning for Scalable Tool Orchestration](../../ICML2026/llm_agent/naviagent_graph-driven_bilevel_planning_for_scalable_tool_orchestration.md)
+
+</div>
+
+<!-- RELATED:END -->

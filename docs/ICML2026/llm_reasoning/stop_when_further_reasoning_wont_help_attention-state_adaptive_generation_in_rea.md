@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Stop When Further Reasoning Won't Help: Attention-State Adaptive Generation in Reasoning Models
+description: >-
+  [ICML2026][Reasoning][过度思考] ASAG 是一个训练无关、即插即用的推理早停框架：它在大推理模型（LRM）每个"思考动作"切换点上同时读取模型置信度和注意力熵，判断推理是否真的收敛，从而自适应地选择"早停 / 注入 logits 推一把 / 跳出思维陷阱 / 继续"四种策略，在 Qwen3-8B 上把平均准确率提升 3.2% 的同时把生成 token 数砍掉近 40%。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "过度思考"
+  - "早停"
+  - "注意力熵"
+  - "测试时计算"
+  - "训练无关"
+---
+
 # Stop When Further Reasoning Won't Help: Attention-State Adaptive Generation in Reasoning Models
 
 **会议**: ICML2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Where Computation Lives Inside TabPFN: Causal Localisation of Attention Head Function
+description: >-
+  [ICML 2026][可解释性][TabPFN] 本文用激活补丁、消融和注意力熵，第一次对表格基础模型 TabPFN-2.5 做因果级机制分析，发现它三个特征注意力头中有一个头（Head 2）的因果必要性在峰值层比其余头大 2–5×，且峰值层会随任务复杂度迁移，而另两个头则呈对称的晚层模式；同时对比激活转向无法跨样本迁移，揭示纯上下文学习架构里"没有可注入的稳定任务方向"。
+tags:
+  - "ICML 2026"
+  - "可解释性"
+  - "TabPFN"
+  - "激活补丁"
+  - "注意力头消融"
+  - "注意力熵"
+  - "上下文学习"
+---
+
 # Where Computation Lives Inside TabPFN: Causal Localisation of Attention Head Function
 
 **会议**: ICML 2026  

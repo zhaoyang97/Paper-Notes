@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SVRG and Beyond via Posterior Correction
+description: >-
+  [ICML2026][优化/理论][SVRG] 论文证明了经典的方差缩减算法 SVRG 其实是贝叶斯"后验校正"（PoCo）在各向同性高斯后验下的一个特例，并由此自动推导出两类此前难以得到的新扩展——一个会同时校正 Hessian 的 Newton 型变体，和一个能扩展到深度学习的 Adam 型变体（IVON-PoCo）。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "SVRG"
+  - "方差缩减"
+  - "后验校正"
+  - "贝叶斯学习规则"
+  - "自然梯度"
+---
+
 # SVRG and Beyond via Posterior Correction
 
 **会议**: ICML2026  

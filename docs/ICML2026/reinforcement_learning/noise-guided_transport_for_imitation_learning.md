@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Noise-Guided Transport: Imitation Learning from Random Priors
+description: >-
+  [ICML 2026][强化学习][模仿学习] 把模仿学习改写成「让一个预测网络在专家数据上去拟合一个冻结随机先验网络、在智能体数据上反着拟合」的对抗训练，证明这个目标等价于在最小化专家与智能体分布之间的最优传输距离（EMD），从而得到一个不需要梯度惩罚、在只有 20 条转移的超低数据下也能学会人形机器人步态的轻量方法。
+tags:
+  - "ICML 2026"
+  - "强化学习"
+  - "模仿学习"
+  - "最优传输"
+  - "随机先验"
+  - "对抗训练"
+  - "样本高效"
+---
+
 # Noise-Guided Transport: Imitation Learning from Random Priors
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters
+description: >-
+  [ACL 2026][LLM对齐][文化对齐] CuMA 指出稠密模型在拟合相互冲突的文化价值时会"均值坍塌"成谁都不像的稀泥，于是用"人口画像 + 语义"联合路由的 LoRA 专家混合，把冲突梯度拆进各自的专家子空间，从而在多个文化对齐基准上既提精度又保留价值多样性。 领域现状：LLM 的对齐主流是 RLHF——用一个单一…
+tags:
+  - "ACL 2026"
+  - "LLM对齐"
+  - "文化对齐"
+  - "价值多元"
+  - "混合专家"
+  - "LoRA"
+  - "人口画像路由"
+---
+
 # CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters
 
 **会议**: ACL 2026  

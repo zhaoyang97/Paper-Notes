@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems
+description: >-
+  [ICLR 2026][代码智能][车辆路径问题] AFL 把"用 LLM 解复杂车辆路径问题（VRP）"拆成问题描述、代码生成、求解三个子任务，并用生成、判断、修订、错误分析四个专职 agent 互相把关，从一份原始 VRPLIB 实例全自动产出一个不依赖外部求解器的 Python 求解器；在 60 个 VRP 变体上把 LLM 方法的运行报错率压到 0%、可行解率拉到 100%，且与人工精心设计的算法相比差距大多落在 3% 以内。
+tags:
+  - "ICLR 2026"
+  - "代码智能"
+  - "车辆路径问题"
+  - "LLM 多智能体"
+  - "代码生成"
+  - "自包含求解器"
+  - "可信代码"
+---
+
 # An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems
 
 **会议**: ICLR 2026  
-**OpenReview**: [BMOgYw4EhQ](https://openreview.net/forum?id=BMOgYw4EhQ)  
+**OpenReview**: [https://openreview.net/forum?id=BMOgYw4EhQ](https://openreview.net/forum?id=BMOgYw4EhQ)  
 **代码**: https://github.com/ZHANG-NI/AFL （有）  
 **领域**: LLM Agent / 组合优化  
 **关键词**: 车辆路径问题, LLM 多智能体, 代码生成, 自包含求解器, 可信代码
@@ -131,3 +146,19 @@ AFL 不涉及模型训练，全程通过 OpenAI API 调用 **GPT-4.1**，在仅 
 - 实验充分度: ⭐⭐⭐⭐⭐ 60 个变体 + 标准/实际/经典三类基准 + RER/SR/gap 多维度 + JA/RA 消融 + 多 backbone/多格式鲁棒性，覆盖很全。
 - 写作质量: ⭐⭐⭐⭐ 结构清晰、对比表（Table 1）把卖点定位讲得明白，少量子任务细节藏在附录。
 - 价值: ⭐⭐⭐⭐ 把 LLM 解 VRP 从"经常报错"推到"接近零报错全自动"，对实际物流场景的可用性是实打实的提升。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2025\] Rethinking Repetition Problems of LLMs in Code Generation](../../ACL2025/code_intelligence/rethinking_repetition_problems_of_llms_in_code_generation.md)
+- [\[NeurIPS 2025\] Learning to Solve Complex Problems via Dataset Decomposition](../../NeurIPS2025/code_intelligence/learning_to_solve_complex_problems_via_dataset_decomposition.md)
+- [\[ACL 2026\] Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4](../../ACL2026/code_intelligence/discover_and_prove_an_open-source_agentic_framework_for_hard_mode_automated_theo.md)
+- [\[ICLR 2026\] FHE-Coder: Benchmarking Secure Agentic Code Generation for Fully Homomorphic Encryption](fhe-coder_benchmarking_secure_agentic_code_generation_for_fully_homomorphic_encr.md)
+- [\[ICLR 2026\] AetherCode: Evaluating LLMs' Ability to Win In Premier Programming Competitions](aethercode_evaluating_llms_ability_to_win_in_premier_programming_competitions.md)
+
+</div>
+
+<!-- RELATED:END -->

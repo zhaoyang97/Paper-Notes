@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BoRA: Towards More Expressive Low-Rank Adaptation with Block Diversity
+description: >-
+  [ICLR2026][LLM效率][LoRA] BoRA 把 LoRA 的 $BA$ 看成块矩阵乘法，给每个块积 $B_iA_j$ 插入一个独立的对角矩阵 $\Sigma_{i,j}$ 来打破块之间的相关性，只用 $b^2r$ 个额外参数就把 LoRA 权重的秩提升到原来的 $b$ 倍，在 GLUE、数学和常识推理上以与 LoRA 相近的参数量取得 2-4% 的准确率提升。
+tags:
+  - "ICLR2026"
+  - "LLM效率"
+  - "LoRA"
+  - "参数高效微调"
+  - "块矩阵"
+  - "低秩适应"
+  - "表达能力"
+---
+
 # BoRA: Towards More Expressive Low-Rank Adaptation with Block Diversity
 
 **会议**: ICLR2026  
-**OpenReview**: [eUMJXFgMjM](https://openreview.net/forum?id=eUMJXFgMjM)  
+**OpenReview**: [https://openreview.net/forum?id=eUMJXFgMjM](https://openreview.net/forum?id=eUMJXFgMjM)  
 **代码**: https://github.com/Leopold1423/bora-iclr26  
 **领域**: LLM效率  
 **关键词**: LoRA, 参数高效微调, 块矩阵, 低秩适应, 表达能力  
@@ -134,10 +149,10 @@ BoRA 不改训练目标，仍是标准的下游任务损失。训练侧只新增
 ## 相关论文
 
 - [\[ICLR 2026\] BA-LoRA: Bias-Alleviating Low-Rank Adaptation to Mitigate Catastrophic Inheritance in Large Language Models](ba-lora_bias-alleviating_low-rank_adaptation_to_mitigate_catastrophic_inheritanc.md)
-- [\[ICML 2026\] Prism: Spectral-Aware Block-Sparse Attention](../../ICML2026/llm_efficiency/prism_spectral-aware_block-sparse_attention.md)
-- [\[ICML 2026\] Sparser Block-Sparse Attention via Token Permutation](../../ICML2026/llm_efficiency/sparser_block-sparse_attention_via_token_permutation.md)
-- [\[AAAI 2026\] MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm](../../AAAI2026/llm_efficiency/moetta_test-time_adaptation_under_mixed_distribution_shifts_with_moe-layernorm.md)
-- [\[NeurIPS 2025\] On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks](../../NeurIPS2025/llm_efficiency/on_the_expressive_power_of_mixture-of-experts_for_structured_complex_tasks.md)
+- [\[ICLR 2026\] LoRA-S: An Efficient Low Rank Adaptation scheme via Sylvester equation](lora-s_an_efficient_low_rank_adaptation_scheme_via_sylvester_equation.md)
+- [\[ICLR 2026\] FLoRG: Federated Fine-tuning with Low-rank Gram Matrices and Procrustes Alignment](florg_federated_fine-tuning_with_low-rank_gram_matrices_and_procrustes_alignment.md)
+- [\[ICLR 2026\] CR-Net: Scaling Parameter-Efficient Training with Cross-Layer Low-Rank Structure](cr-net_scaling_parameter-efficient_training_with_cross-layer_low-rank_structure.md)
+- [\[ICLR 2026\] PARD: Accelerating LLM Inference with Low-Cost Parallel Draft Model Adaptation](pard_accelerating_llm_inference_with_lowcost_parallel_draft_model_adaptation.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Rethinking the Flow-Based Gradual Domain Adaptation: A Semi-Dual Optimal Transport Perspective
+description: >-
+  [ICML2026][优化/理论][渐进域适应] 把"用流模型造中间域"的渐进域适应（GDA）重写成熵正则化的半对偶非平衡最优传输（E-SUOT）问题，**绕开对目标域概率密度（PDF）的显式估计**，直接学一串把源域样本逐步推到目标域的传输映射，在 Portraits / MNIST-rot / Office-Home 上稳定超过现有 GDA/UDA 方法。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "渐进域适应"
+  - "半对偶最优传输"
+  - "梯度流"
+  - "熵正则"
+  - "对抗训练稳定性"
+---
+
 # Rethinking the Flow-Based Gradual Domain Adaptation: A Semi-Dual Optimal Transport Perspective
 
 **会议**: ICML2026  

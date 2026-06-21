@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] TruthSplit: Operationalizing Conditional Validity in Arguments Through Multi-Perspective Reasoning
+description: >-
+  [ACL 2026][NLP理解][计算论证] TruthSplit 是一个交互式论证分析系统，把"同一个论点在不同世界观下结论不同"这件事形式化为**条件有效性（conditional validity）**：它先把文本拆成论点/前提/假设，再用三层 NLI 检验逻辑与世界观内部一致性，最后用 6 个结构化世界观画像去**条件化** LLM 推理，生成每种立场下的解读并可视化分歧来源——不给"对/错"标签，而是揭示分歧到底来自价值排序还是概念定义。
+tags:
+  - "ACL 2026"
+  - "NLP理解"
+  - "计算论证"
+  - "条件有效性"
+  - "世界观画像"
+  - "NLI 一致性"
+  - "LLM 条件推理"
+---
+
 # TruthSplit: Operationalizing Conditional Validity in Arguments Through Multi-Perspective Reasoning
 
 **会议**: ACL 2026  

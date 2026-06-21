@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation
+description: >-
+  [ICLR2026][视频生成][视频扩散] BLADE 把"动态块稀疏注意力"和"少步蒸馏"放进同一个 data-free 联合训练框架里协同优化，在 Wan2.1-1.3B 上做到 14.10× 端到端加速、CogVideoX-5B 上 8.89×，且 VBench-2.0 质量反而比 50 步原始模型还高。
+tags:
+  - "ICLR2026"
+  - "视频生成"
+  - "视频扩散"
+  - "块稀疏注意力"
+  - "步蒸馏"
+  - "轨迹分布匹配"
+  - "data-free"
+---
+
 # BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation
 
 **会议**: ICLR2026  
-**OpenReview**: [O9J20MsmRl](https://openreview.net/forum?id=O9J20MsmRl)  
+**OpenReview**: [https://openreview.net/forum?id=O9J20MsmRl](https://openreview.net/forum?id=O9J20MsmRl)  
 **代码**: [项目主页 ziplab.co/BLADE-Homepage](http://ziplab.co/BLADE-Homepage/)  
 **领域**: 视频生成 / 扩散模型 / 模型效率  
 **关键词**: 视频扩散, 块稀疏注意力, 步蒸馏, 轨迹分布匹配, data-free  
@@ -151,11 +166,11 @@ training-free 推理下纯 ASA 与其他稀疏注意力对比（Wan2.1-1.3B，8 
 
 ## 相关论文
 
-- [\[ICML 2026\] DFSAttn: Dynamic Fine-Grained Sparse Attention for Efficient Video Generation](../../ICML2026/video_generation/dfsattn_dynamic_fine-grained_sparse_attention_for_efficient_video_generation.md)
+- [\[ICLR 2026\] DSA: Efficient Inference For Video Generation Models via Distributed Sparse Attention](dsa_efficient_inference_for_video_generation_models_via_distributed_sparse_atten.md)
+- [\[ICLR 2026\] SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer](sana-video_efficient_video_generation_with_block_linear_diffusion_transformer.md)
 - [\[CVPR 2026\] RAPID: Reusing Attention Sparsity with Inter-step Adaptation for Efficient Video Diffusion](../../CVPR2026/video_generation/rapid_reusing_attention_sparsity_with_inter-step_adaptation_for_efficient_video_.md)
-- [\[NeurIPS 2025\] VORTA: Efficient Video Diffusion via Routing Sparse Attention](../../NeurIPS2025/video_generation/vorta_efficient_video_diffusion_via_routing_sparse_attention.md)
-- [\[ICML 2026\] AAD-1: Asymmetric Adversarial Distillation for One-Step Autoregressive Video Generation](../../ICML2026/video_generation/aad-1_asymmetric_adversarial_distillation_for_one-step_autoregressive_video_gene.md)
-- [\[ICML 2026\] Lightning Unified Video Editing via In-Context Sparse Attention](../../ICML2026/video_generation/lightning_unified_video_editing_via_in-context_sparse_attention.md)
+- [\[ICML 2026\] DFSAttn: Dynamic Fine-Grained Sparse Attention for Efficient Video Generation](../../ICML2026/video_generation/dfsattn_dynamic_fine-grained_sparse_attention_for_efficient_video_generation.md)
+- [\[ICLR 2026\] VMoBA: Mixture-of-Block Attention for Video Diffusion Models](vmoba_mixture-of-block_attention_for_video_diffusion_models.md)
 
 </div>
 

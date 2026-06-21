@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SSR-Merge: Subspace Signal Routing for Training-Free LoRA Merging in Diffusion Models
+description: >-
+  [ICML 2026][模型压缩][LoRA合并] 把多个 LoRA 合并这件事从"参数空间做算术"改成"在统一子空间里路由内部信号"：先沿 rank 维拼出统一子空间，再用一个由二阶统计闭式构造的路由器 $R=\mathbf{Q}\mathbf{G}^{-1}$（去相关 + 定向引导）把混叠信号导向各自任务，理论上等价于最小二乘最优解，免训练、流式更新、零推理开销，在 FLUX.1-dev 上显著超过 TIES/DARE 等 SOTA。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "LoRA合并"
+  - "免训练"
+  - "信号路由"
+  - "子空间"
+  - "最小二乘"
+---
+
 # SSR-Merge: Subspace Signal Routing for Training-Free LoRA Merging in Diffusion Models
 
 **会议**: ICML 2026  

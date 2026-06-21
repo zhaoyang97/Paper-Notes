@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] LARE: Low-Attention Region Encoding for Text–Image Retrieval
+description: >-
+  [ICML2026][信息检索/RAG][文本-图像检索] LARE 是一个**免训练**的文本-图像检索框架：它把视觉编码器内部「低注意力」的区域单独抠出来再编码，用置信度门控的方式补进全局相似度里，从而在拥挤、含小目标/稀有目标的密集场景里把 CLIP/SigLIP 这类双编码器的检索召回明显拉高，而在常规数据集上几乎不掉点。
+tags:
+  - "ICML2026"
+  - "信息检索/RAG"
+  - "文本-图像检索"
+  - "低注意力区域"
+  - "免训练"
+  - "注意力反转"
+  - "密集场景"
+---
+
 # LARE: Low-Attention Region Encoding for Text–Image Retrieval
 
 **会议**: ICML2026  

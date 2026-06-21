@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BED-LLM: Intelligent Information Gathering with LLMs and Bayesian Experimental Design
+description: >-
+  [ICLR 2026][LLM Agent][期望信息增益] 把序贯贝叶斯实验设计（BED）套到 LLM 上，让模型每一轮都挑"期望信息增益（EIG）最大"的问题去问用户，从而把 LLM 变成会主动、自适应收集信息的多轮对话 agent；在 20 Questions 和电影偏好推断上，平均成功率比直接 prompting 高出 37.4 个百分点。
+tags:
+  - "ICLR 2026"
+  - "LLM Agent"
+  - "期望信息增益"
+  - "序贯贝叶斯实验设计"
+  - "主动提问"
+  - "信念过滤"
+  - "20 Questions"
+---
+
 # BED-LLM: Intelligent Information Gathering with LLMs and Bayesian Experimental Design
 
 **会议**: ICLR 2026  
-**OpenReview**: [qyylZMLYT8](https://openreview.net/forum?id=qyylZMLYT8)  
+**OpenReview**: [https://openreview.net/forum?id=qyylZMLYT8](https://openreview.net/forum?id=qyylZMLYT8)  
 **代码**: 待确认  
 **领域**: LLM Agent / 主动信息收集 / 贝叶斯实验设计  
 **关键词**: 期望信息增益、序贯贝叶斯实验设计、主动提问、信念过滤、20 Questions
@@ -142,11 +157,11 @@ BED-LLM 在**所有数据集 × 所有 LLM** 上都显著领先；终局成功�
 
 ## 相关论文
 
+- [\[ICLR 2026\] An Information Theoretic Perspective on Agentic System Design](an_information_theoretic_perspective_on_agentic_system_design.md)
 - [\[ICLR 2026\] A Benchmark for Deep Information Synthesis (DeepSynth)](a_benchmark_for_deep_information_synthesis.md)
-- [\[AAAI 2026\] AgentSwift: Efficient LLM Agent Design via Value-guided Hierarchical Search](../../AAAI2026/llm_agent/agentswift_efficient_llm_agent_design_via_value-guided_hierarchical_search.md)
-- [\[AAAI 2026\] Physics-Informed Autonomous LLM Agents for Explainable Power Electronics Modulation Design](../../AAAI2026/llm_agent/physics-informed_autonomous_llm_agents_for_explainable_power_electronics_modulat.md)
-- [\[ICML 2026\] On Information Self-Locking in Reinforcement Learning for Active Reasoning of LLM Agents](../../ICML2026/llm_agent/on_information_self-locking_in_reinforcement_learning_for_active_reasoning_of_ll.md)
-- [\[AAAI 2026\] BayesAgent: Bayesian Agentic Reasoning Under Uncertainty via Verbalized Probabilistic Graphical Modeling](../../AAAI2026/llm_agent/bayesagent_bayesian_agentic_reasoning_under_uncertainty_via_.md)
+- [\[ICLR 2026\] Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management](sculptor_empowering_llms_with_cognitive_agency_via_active_context_management.md)
+- [\[ICLR 2026\] FlowSearcher: Synthesizing Memory-Guided Agentic Workflows for Web Information Seeking](flowsearcher_synthesizing_memory-guided_agentic_workflows_for_web_information_se.md)
+- [\[ICLR 2026\] InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents](infomosaic-bench_evaluating_multi-source_information_seeking_in_tool-augmented_a.md)
 
 </div>
 

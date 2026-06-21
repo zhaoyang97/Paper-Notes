@@ -16,7 +16,7 @@ tags:
 # Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing
 
 **会议**: ICLR2026  
-**OpenReview**: [Us00XndbVi](https://openreview.net/forum?id=Us00XndbVi)  
+**OpenReview**: [https://openreview.net/forum?id=Us00XndbVi](https://openreview.net/forum?id=Us00XndbVi)  
 **代码**: https://github.com/Stanford-Trinity/ARTEMIS  
 **领域**: AI 安全 / 危险能力评测 / 攻击性网络安全 / 多智能体  
 **关键词**: 渗透测试, AI 智能体评测, 多智能体脚手架, 攻击性安全, 危险能力
@@ -157,9 +157,9 @@ AI 智能体的一大软肋是假阳率高、爱重复提交。ARTEMIS 专门设
 
 - [\[CVPR 2026\] DeepfakeImpact: A Two-Stage Benchmark with Real-World Impact in Deepfake Detection](../../CVPR2026/ai_safety/deepfakeimpact_a_two-stage_benchmark_with_real-world_impact_in_deepfake_detectio.md)
 - [\[CVPR 2026\] A Sanity Check for Multi-In-Domain Face Forgery Detection in the Real World](../../CVPR2026/ai_safety/a_sanity_check_for_multi-in-domain_face_forgery_detection_in_the_real_world.md)
+- [\[ICLR 2026\] LitmusValues: Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRiskDilemmas](litmusvalues_will_ai_tell_lies_to_save_sick_children_litmus-testing_ai_values_pr.md)
 - [\[ACL 2026\] OmniCompliance-100K: A Multi-Domain Rule-Grounded Real-World Safety Compliance Dataset](../../ACL2026/ai_safety/omnicompliance-100k_a_multi-domain_rule-grounded_real-world_safety_compliance_da.md)
 - [\[ICML 2026\] From Weak Cues to Real Identities: Evaluating Inference-Driven De-Anonymization in LLM Agents](../../ICML2026/ai_safety/from_weak_cues_to_real_identities_evaluating_inference-driven_de-anonymization_i.md)
-- [\[ICLR 2026\] VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](vpi-bench_visual_prompt_injection_attacks_for_computer-use_agents.md)
 
 </div>
 

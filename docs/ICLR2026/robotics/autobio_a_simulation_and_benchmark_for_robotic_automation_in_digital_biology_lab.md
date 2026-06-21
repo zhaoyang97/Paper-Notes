@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AutoBio: A Simulation and Benchmark for Robotic Automation in Digital Biology Laboratory
+description: >-
+  [ICLR2026][机器人][VLA 模型] AutoBio 把"生物实验室里机器人做实验"这件事做成了一套可仿真、可生成示范、可评测的 benchmark：它用 3D 高斯泼溅把真实仪器数字化、给 MuJoCo 补上螺纹/卡位/偏心/液面这些实验室专属物理、再用 Blender PBR 解决透明容器与液体的渲染，最终在 16 个分三档难度的生物实验任务上跑通 π0、π0.5、RDT 等主流 VLA，暴露出它们在精密操作、指令跟随和视觉推理上的明显短板。
+tags:
+  - "ICLR2026"
+  - "机器人"
+  - "VLA 模型"
+  - "生物实验室自动化"
+  - "机器人仿真"
+  - "MuJoCo 物理插件"
+  - "透明材质渲染"
+---
+
 # AutoBio: A Simulation and Benchmark for Robotic Automation in Digital Biology Laboratory
 
 **会议**: ICLR2026  
-**OpenReview**: [UUE6HEtjhu](https://openreview.net/forum?id=UUE6HEtjhu)  
+**OpenReview**: [https://openreview.net/forum?id=UUE6HEtjhu](https://openreview.net/forum?id=UUE6HEtjhu)  
 **代码**: 待确认（作者承诺开源代码 + LeRobot 数据集到 GitHub / HuggingFace）  
 **领域**: 机器人 / 具身智能（仿真与 Benchmark）  
 **关键词**: VLA 模型, 生物实验室自动化, 机器人仿真, MuJoCo 物理插件, 透明材质渲染
@@ -139,10 +154,10 @@ DP/ACT 没有语言输入，要把从文本 prompt 抽出的任务参数（目�
 ## 相关论文
 
 - [\[CVPR 2025\] RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins](../../CVPR2025/robotics/robotwin_dual-arm_robot_benchmark_with_generative_digital_twins.md)
+- [\[ICLR 2026\] Differentiable Simulation of Hard Contacts with Soft Gradients for Learning and Control](differentiable_simulation_of_hard_contacts_with_soft_gradients_for_learning_and_.md)
+- [\[ICLR 2026\] Memory, Benchmark & Robots: A Benchmark for Solving Complex Tasks with Reinforcement Learning](memory_benchmark_robots_a_benchmark_for_solving_complex_tasks_with_reinforcement.md)
 - [\[NeurIPS 2025\] LabUtopia: High-Fidelity Simulation and Hierarchical Benchmark for Scientific Embodied Agents](../../NeurIPS2025/robotics/labutopia_high-fidelity_simulation_and_hierarchical_benchmark_for_scientific_emb.md)
 - [\[ICLR 2026\] UrbanVerse: Scaling Urban Simulation by Watching City-Tour Videos](urbanverse_scaling_urban_simulation_by_watching_city-tour_videos.md)
-- [\[ICLR 2026\] RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots](robocasa365_a_large-scale_simulation_framework_for_training_and_benchmarking_gen.md)
-- [\[ICLR 2026\] RF-MatID: Dataset and Benchmark for Radio Frequency Material Identification](rf-matid_dataset_and_benchmark_for_radio_frequency_material_identification.md)
 
 </div>
 

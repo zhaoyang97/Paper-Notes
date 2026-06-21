@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] A Near-Optimal Best-of-Both-Worlds Algorithm for Federated Bandits
+description: >-
+  [ICLR2026][在线学习理论][联邦赌博机] 本文提出 FEDFTRL——首个在联邦多臂赌博机里同时对随机环境和对抗环境都拿到近最优个体遗憾界的算法，核心做法是把"去中心化通信带来的信息延迟"重新解释成"延迟反馈赌博机"，再用混合正则器的 FTRL 配上截断损失估计器与偏差记录通信方案，把对抗环境下的遗憾从此前最好的 $O(T^{2/3})$ 压到 $O(T^{1/2})$。
+tags:
+  - "ICLR2026"
+  - "在线学习理论"
+  - "多臂赌博机"
+  - "联邦赌博机"
+  - "Best-of-Both-Worlds"
+  - "FTRL"
+  - "延迟反馈"
+  - "遗憾界"
+---
+
 # A Near-Optimal Best-of-Both-Worlds Algorithm for Federated Bandits
 
 **会议**: ICLR2026  
-**OpenReview**: [Lkndkxeemx](https://openreview.net/forum?id=Lkndkxeemx)  
+**OpenReview**: [https://openreview.net/forum?id=Lkndkxeemx](https://openreview.net/forum?id=Lkndkxeemx)  
 **代码**: 待确认（补充材料含源码）  
 **领域**: 在线学习理论 / 多臂赌博机  
 **关键词**: 联邦赌博机, Best-of-Both-Worlds, FTRL, 延迟反馈, 遗憾界
@@ -133,11 +149,11 @@ $$R_T(v)\le \sum_{k\neq k^\ast}\frac{51\log T}{V\Delta_k} + \sum_{k\neq k^\ast}\
 
 ## 相关论文
 
+- [\[ICLR 2026\] Near Optimal Robust Federated Learning Against Data Poisoning Attack](near_optimal_robust_federated_learning_against_data_poisoning_attack.md)
 - [\[ICML 2025\] Near Optimal Best Arm Identification for Clustered Bandits](../../ICML2025/learning_theory/near_optimal_best_arm_identification_for_clustered_bandits.md)
-- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
-- [\[ICLR 2026\] Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling](best-of-majority_minimax-optimal_strategy_for_passk_inference_scaling.md)
 - [\[ICLR 2026\] Ads that Stick: Near-Optimal Ad Optimization through Psychological Behavior Models](ads_that_stick_near-optimal_ad_optimization_through_psychological_behavior_model.md)
-- [\[ICLR 2026\] A Faster Parameter-Free Regret Matching Algorithm](a_faster_parameter-free_regret_matching_algorithm.md)
+- [\[ICLR 2026\] Best-of-N through the Smoothing Lens: KL Divergence and Regret Analysis](best-of-n_through_the_smoothing_lens_kl_divergence_and_regret_analysis.md)
+- [\[ICLR 2026\] Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling](best-of-majority_minimax-optimal_strategy_for_passk_inference_scaling.md)
 
 </div>
 

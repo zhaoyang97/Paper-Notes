@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Three Years of r/ChatGPT: Societal Impact Evaluations from Social Media Data
+description: >-
+  [ICML2026][社会计算][社交媒体测量] 把 r/ChatGPT 子版三年（2022-12 至 2025-11）共 13.7 万帖子用稀疏自编码器（SAE）拆成可解释特征，再用分段线性变点拟合追踪每个特征的时间轨迹，发现"情感性使用"（心理治疗、情感依恋）在 GPT-4o 发布后骤增；并提出在线监测算法 PuLSE，证明它本可在 2024 年 10 月就报警——比 OpenAI 公开承认这一影响早了半年。
+tags:
+  - "ICML2026"
+  - "社会计算"
+  - "社交媒体测量"
+  - "稀疏自编码器"
+  - "时间序列变点"
+  - "在线监测"
+  - "anytime-valid 假设检验"
+---
+
 # Three Years of r/ChatGPT: Societal Impact Evaluations from Social Media Data
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Structure: Invariant Crystal Property Prediction with Pseudo-Particle Ray Diffraction
+description: >-
+  [ICLR2026][物理/科学计算][晶体性质预测] PRDNet 在传统图神经网络之外，引入一个**可学习的"伪粒子"**去模拟晶体衍射，用神经网络生成的形状因子（form factor）合成倒易空间的衍射图样，把图表示（短程）与衍射表示（长程）做模态级融合，同时严格满足晶体学对称不变性，在 Materials Project、JARVIS-DFT、MatBench 三大基准上刷新 SOTA。
+tags:
+  - "ICLR2026"
+  - "物理/科学计算"
+  - "晶体性质预测"
+  - "倒易空间"
+  - "衍射表征"
+  - "伪粒子"
+  - "多模态融合"
+---
+
 # Beyond Structure: Invariant Crystal Property Prediction with Pseudo-Particle Ray Diffraction
 
 **会议**: ICLR2026  
-**OpenReview**: [OfmurJrzlT](https://openreview.net/forum?id=OfmurJrzlT)  
+**OpenReview**: [https://openreview.net/forum?id=OfmurJrzlT](https://openreview.net/forum?id=OfmurJrzlT)  
 **代码**: https://github.com/Bin-Cao/PRDNet  
 **领域**: 应用于物理科学 / 晶体性质预测 / 材料信息学  
 **关键词**: 晶体性质预测, 倒易空间, 衍射表征, 伪粒子, 多模态融合
@@ -87,6 +102,7 @@ $$F_{g\cdot h}(\{g\cdot r_i\})=e^{2\pi i\,\phi(g,h)}F_h(\{r_i\}),$$
 在 JARVIS-DFT 与 MatBench 上同样全面领先或持平，例如 JARVIS 形成能 0.032、带隙(OPT) 0.140、总能量 0.032、带隙(MBJ) 0.267；MatBench 形成能 0.019、剪切模量 0.058、折射率 0.242，均为最优。
 
 ### 消融实验（Materials Project）
+
 | 配置 | 形成能 | 带隙 | 体模量 | 金属分类Acc | 说明 |
 |------|---------|------|------|------|------|
 | Default | 0.028 | 0.151 | 0.035 | 93.3 | 完整模型 |
@@ -128,11 +144,11 @@ $$F_{g\cdot h}(\{g\cdot r_i\})=e^{2\pi i\,\phi(g,h)}F_h(\{r_i\}),$$
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Why Is Attention Sparse in Particle Transformer?](../../NeurIPS2025/physics/why_is_attention_sparse_in_particle_transformer.md)
-- [\[ICLR 2026\] Stretching Beyond the Obvious: A Gradient-Free Framework to Unveil the Hidden Landscape of Visual Invariance](stretching_beyond_the_obvious_a_gradient-free_framework_to_unveil_the_hidden_lan.md)
-- [\[NeurIPS 2025\] Transfer Learning Beyond the Standard Model](../../NeurIPS2025/physics/transfer_learning_beyond_the_standard_model.md)
-- [\[AAAI 2026\] Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: A Comparative Study](../../AAAI2026/physics/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md)
-- [\[NeurIPS 2025\] FlashMD: Long-Stride, Universal Prediction of Molecular Dynamics](../../NeurIPS2025/physics/flashmd_long-stride_universal_prediction_of_molecular_dynamics.md)
+- [\[ICLR 2026\] OXtal: An All-Atom Diffusion Model for Organic Crystal Structure Prediction](oxtal_an_all-atom_diffusion_model_for_organic_crystal_structure_prediction.md)
+- [\[ICLR 2026\] MoMa: A Simple Modular Learning Framework for Material Property Prediction](moma_a_simple_modular_learning_framework_for_material_property_prediction.md)
+- [\[ICLR 2026\] Advancing Universal Deep Learning for Electronic-Structure Hamiltonian Prediction of Materials](advancing_universal_deep_learning_for_electronic-structure_hamiltonian_predictio.md)
+- [\[ICLR 2026\] FM4NPP: A Scaling Foundation Model for Nuclear and Particle Physics](fm4npp_a_scaling_foundation_model_for_nuclear_and_particle_physics.md)
+- [\[ICLR 2026\] Learning from the Electronic Structure of Molecules across the Periodic Table](learning_from_the_electronic_structure_of_molecules_across_the_periodic_table.md)
 
 </div>
 

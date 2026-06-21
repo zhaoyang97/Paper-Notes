@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Activation Steering with a Feedback Controller
+description: >-
+  [ICLR2026][可解释性][激活引导] 本文把 LLM 激活引导（activation steering）重新解释成控制理论里的反馈控制问题，证明 ActAdd / DirAblate / Mean-AcT 这些主流方法本质上都是只有比例项的 P 控制器、因而带有消不掉的稳态误差，进而提出用完整的 PID 控制器来计算引导向量（PID Steering），在去毒、越狱、图像风格控制等任务上稳定超过原方法。
+tags:
+  - "ICLR2026"
+  - "可解释性"
+  - "激活引导"
+  - "控制理论"
+  - "PID 控制器"
+  - "稳态误差"
+  - "安全对齐"
+---
+
 # Activation Steering with a Feedback Controller
 
 **会议**: ICLR2026  
-**OpenReview**: [vzkEX2SwFD](https://openreview.net/forum?id=vzkEX2SwFD)  
+**OpenReview**: [https://openreview.net/forum?id=vzkEX2SwFD](https://openreview.net/forum?id=vzkEX2SwFD)  
 **代码**: https://github.com/dungnvnus/pid-steering  
 **领域**: 可解释性 / 激活引导（Activation Steering）  
 **关键词**: 激活引导, 控制理论, PID 控制器, 稳态误差, 安全对齐
@@ -132,10 +147,10 @@ PID 在 ASR 上居首且通用基准几乎无损（如 tinyMMLU 反而略高于 
 ## 相关论文
 
 - [\[ICML 2026\] Closing the Loop: PID Feedback Control for Interpretable Activation Steering in Symbolic Music Generation](../../ICML2026/interpretability/closing_the_loop_pid_feedback_control_for_interpretable_activation_steering_in_s.md)
-- [\[ICML 2026\] Steer Like the LLM: Activation Steering that Mimics Prompting](../../ICML2026/interpretability/steer_like_the_llm_activation_steering_that_mimics_prompting.md)
 - [\[NeurIPS 2025\] CBMAS: Cognitive Behavioral Modeling via Activation Steering](../../NeurIPS2025/interpretability/cbmas_cognitive_behavioral_modeling_via_activation_steering.md)
-- [\[ACL 2026\] Compositional Steering of Large Language Models with Steering Tokens](../../ACL2026/interpretability/compositional_steering_of_large_language_models_with_steering_tokens.md)
-- [\[ICLR 2026\] GAVEL: Towards Rule-Based Safety through Activation Monitoring](gavel_towards_rule-based_safety_through_activation_monitoring.md)
+- [\[ICML 2026\] Steer Like the LLM: Activation Steering that Mimics Prompting](../../ICML2026/interpretability/steer_like_the_llm_activation_steering_that_mimics_prompting.md)
+- [\[ICLR 2026\] Emergent Discrete Controller Modules for Symbolic Planning in Transformers](emergent_discrete_controller_modules_for_symbolic_planning_in_transformers.md)
+- [\[ICLR 2026\] REAL: Reading Out Transformer Activations for Precise Localization in Language Model Steering](real_reading_out_transformer_activations_for_precise_localization_in_language_mo.md)
 
 </div>
 

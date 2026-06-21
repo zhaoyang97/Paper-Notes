@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory
+description: >-
+  [ICML2026][LLM Agent][测试时学习] MemoPilot 是一个即插即用的「记忆副驾」——它不动玩家 LLM（冻结），而是单独训练一个记忆模型，用 multi-turn GRPO 把「每局交互后怎么更新记忆」当成一个端到端可优化的多轮决策问题，配上逐轮奖励和按轮归一化的优势估计，让一个冻结玩家在重复对局中真正「越打越强」，在石头剪刀布和限注德州扑克两个测试床上 Elo 双双第一，超过包括 DeepSeek-V3.2 在内的所有记忆基线和专有模型。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "测试时学习"
+  - "记忆更新"
+  - "multi-turn GRPO"
+  - "信用分配"
+  - "即插即用记忆"
+---
+
 # From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory
 
 **会议**: ICML2026  

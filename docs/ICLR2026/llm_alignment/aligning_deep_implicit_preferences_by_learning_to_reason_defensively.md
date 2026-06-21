@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Aligning Deep Implicit Preferences by Learning to Reason Defensively
+description: >-
+  [ICLR2026][LLM对齐][个性化对齐] 针对 LLM 个性化对齐里"只会照搬用户说出口的偏好、推不出深层意图、也不会主动规避风险"的问题，本文把对齐从标量奖励匹配重构成结构化推理过程——先用"多角色认知委员会"造出带逐步批判标注的推理链数据集 DeepPref，再训练一个会"先写批判再打分"的生成式过程奖励模型 Pers-GenPRM，最后用融合数值与自然语言反馈的 token 级在线 RL（CDPA）对齐策略模型，在深度偏好理解和防御性推理上都拿到 SOTA。
+tags:
+  - "ICLR2026"
+  - "LLM对齐"
+  - "个性化对齐"
+  - "隐式偏好"
+  - "过程奖励模型"
+  - "防御性推理"
+  - "在线强化学习"
+---
+
 # Aligning Deep Implicit Preferences by Learning to Reason Defensively
 
 **会议**: ICLR2026  
-**OpenReview**: [ZA7i5Otjqd](https://openreview.net/forum?id=ZA7i5Otjqd)  
+**OpenReview**: [https://openreview.net/forum?id=ZA7i5Otjqd](https://openreview.net/forum?id=ZA7i5Otjqd)  
 **代码**: https://DeepPref.github.io/ （数据集）  
 **领域**: 对齐RLHF / 个性化对齐 / 过程奖励模型  
 **关键词**: 个性化对齐, 隐式偏好, 过程奖励模型, 防御性推理, 在线强化学习
@@ -145,11 +160,11 @@ CDRA 在两个基准上深度对齐准确率都最高（DeepPref 76.3% / PrefEva
 
 ## 相关论文
 
+- [\[ICLR 2026\] COMAL: A Convergent Meta-Algorithm for Aligning LLMs with General Preferences](comal_a_convergent_meta-algorithm_for_aligning_llms_with_general_preferences.md)
 - [\[ICML 2026\] Implicit Safety Alignment from Crowd Preferences](../../ICML2026/llm_alignment/implicit_safety_alignment_from_crowd_preferences.md)
 - [\[ICLR 2026\] Learning Ordinal Probabilistic Reward from Preferences (OPRM)](learning_ordinal_probabilistic_reward_from_preferences.md)
 - [\[ACL 2025\] Synergistic Weak-Strong Collaboration by Aligning Preferences](../../ACL2025/llm_alignment/synergistic_weak-strong_collaboration_by_aligning_preferences.md)
-- [\[ICML 2026\] Implicit Preference Alignment for Human Image Animation](../../ICML2026/llm_alignment/implicit_preference_alignment_for_human_image_animation.md)
-- [\[ICLR 2026\] Beyond Binary Preferences: A Principled Framework for Reward Modeling with Ordinal Feedback](beyond_binary_preferences_a_principled_framework_for_reward_modeling_with_ordina.md)
+- [\[ICLR 2026\] Data Selection for LLM Alignment Using Fine-Grained Preferences](data_selection_for_llm_alignment_using_fine-grained_preferences.md)
 
 </div>
 

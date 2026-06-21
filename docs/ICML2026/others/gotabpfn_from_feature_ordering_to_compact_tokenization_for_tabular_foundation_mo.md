@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data
+description: >-
+  [ICML 2026][TabPFN] 针对"特征远多于样本"（HDLSS）的高维表格任务，本文不动 TabPFN 主干，而是先用图引导的特征排序（GO-LR）把相关特征排到相邻位置，再用神经启发的子单元压缩（NSC）把相邻特征段池化成少量 meta-feature，从而把成千上万维表格塞进 TabPFN 能吃的特征预算里，在 8 个基因/图像类 HDLSS 数据集上取得平均排名第一。
+tags:
+  - "ICML 2026"
+  - "TabPFN"
+  - "HDLSS"
+  - "特征排序"
+  - "MinLA"
+  - "子单元压缩"
+---
+
 # GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data
 
 **会议**: ICML 2026  

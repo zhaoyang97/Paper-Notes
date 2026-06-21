@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch
+description: >-
+  [ICML2026][强化学习][离线强化学习] DoorDash 把外卖派单的"目标权重"调控做成一个离线多智能体强化学习问题：不替换原有的组合分派优化器，而是让每个门店级 agent 根据本地市场状态选一个离散乘子来微调优化器在"送达速度 vs 拼单效率"之间的权衡，用 Double DQN + 保守 Q 正则从带延迟、噪声、耦合的市场日志里离线训练，并在约 4000 个地理区域的生产 switchback 实验中做到"提高拼单率、降低骑手侧耗时，同时不损害顾客送达质量"。
+tags:
+  - "ICML2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "多智能体"
+  - "市场调度"
+  - "延迟奖励"
+  - "switchback实验"
+---
+
 # Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch
 
 **会议**: ICML2026  

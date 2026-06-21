@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Semantic Router: On the Feasibility of Hijacking MLLMs via a Single Adversarial Perturbation
+description: >-
+  [ICML2026][AI安全][图像劫持] 本文提出一种新的威胁——语义感知劫持：用**单张**通用对抗扰动充当"语义路由器"，根据当前帧的视觉语义把同一个 MLLM 路由到攻击者预设的不同目标输出；通过对潜空间几何性质的理论分析推导出可行性边界，再用 SORT 优化算法把它造出来，在 Qwen 上用一张帧对 5 个目标实现 66% 的攻击成功率。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "图像劫持"
+  - "通用对抗扰动"
+  - "MLLM 安全"
+  - "语义路由"
+  - "无状态决策"
+---
+
 # Semantic Router: On the Feasibility of Hijacking MLLMs via a Single Adversarial Perturbation
 
 **会议**: ICML2026  

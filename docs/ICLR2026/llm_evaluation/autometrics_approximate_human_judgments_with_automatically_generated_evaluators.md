@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AutoMetrics: Approximate Human Judgments with Automatically Generated Evaluators
+description: >-
+  [ICLR 2026][LLM评测][自动指标合成] AutoMetrics 把不到 100 条稀疏的人类反馈（点赞/点踩、Likert、行为信号）自动转成一组可解释的评估指标：先生成候选 LLM-as-a-Judge 标准并从 48 个现成指标的 MetricBank 中检索，再用偏最小二乘（PLS）回归把它们组合成最贴合人类判断的复合指标，在 5 个任务上把与人类评分的 Kendall 相关性最多提升 33.4%，还能当代理奖励去优化下游 agent，效果不输可验证奖励。
+tags:
+  - "ICLR 2026"
+  - "LLM评测"
+  - "自动指标合成"
+  - "LLM 评估器"
+  - "PLS 回归"
+  - "低数据评测"
+  - "代理奖励"
+---
+
 # AutoMetrics: Approximate Human Judgments with Automatically Generated Evaluators
 
 **会议**: ICLR 2026  
-**OpenReview**: [ymJuBifPUy](https://openreview.net/forum?id=ymJuBifPUy)  
+**OpenReview**: [https://openreview.net/forum?id=ymJuBifPUy](https://openreview.net/forum?id=ymJuBifPUy)  
 **代码**: https://github.com/SALT-NLP/autometrics  
 **领域**: LLM 评测 / LLM-as-a-Judge / 自动指标  
 **关键词**: 自动指标合成、LLM 评估器、PLS 回归、低数据评测、代理奖励
@@ -133,11 +148,11 @@ AutoMetrics 在 81.0%–97.8% 的情况下能识别质量退化（远高于 50% 
 
 ## 相关论文
 
-- [\[ACL 2025\] HPSS: Heuristic Prompting Strategy Search for LLM Evaluators](../../ACL2025/llm_evaluation/hpss_heuristic_prompting_strategy_search_for_llm_evaluators.md)
-- [\[ICML 2026\] From Human-Level AI Tales to AI Leveling Human Scales](../../ICML2026/llm_evaluation/from_human-level_ai_tales_to_ai_leveling_human_scales.md)
-- [\[ACL 2025\] MDBench: A Synthetic Multi-Document Reasoning Benchmark Generated with Knowledge Guidance](../../ACL2025/llm_evaluation/mdbench_a_synthetic_multi-document_reasoning_benchmark_generated_with_knowledge_.md)
+- [\[ICLR 2026\] Foundational Automatic Evaluators: Scaling Multi-Task Generative Evaluator Training for Reasoning-Centric Domains](foundational_automatic_evaluators_scaling_multi-task_generative_evaluator_traini.md)
 - [\[ICLR 2026\] Human-LLM Collaborative Feature Engineering for Tabular Learning](human-llm_collaborative_feature_engineering_for_tabular_data.md)
-- [\[ICLR 2026\] AutoLibra: Agent Metric Induction from Open-Ended Human Feedback](autolibra_agent_metric_induction_from_open-ended_human_feedback.md)
+- [\[ACL 2025\] HPSS: Heuristic Prompting Strategy Search for LLM Evaluators](../../ACL2025/llm_evaluation/hpss_heuristic_prompting_strategy_search_for_llm_evaluators.md)
+- [\[ICLR 2026\] SimBench: Benchmarking the Ability of Large Language Models to Simulate Human Behaviors](simbench_benchmarking_the_ability_of_large_language_models_to_simulate_human_beh.md)
+- [\[ICML 2026\] From Human-Level AI Tales to AI Leveling Human Scales](../../ICML2026/llm_evaluation/from_human-level_ai_tales_to_ai_leveling_human_scales.md)
 
 </div>
 

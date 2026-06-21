@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective Reasoning Problem
+description: >-
+  [ICML 2026][LLM评测][想法评估] InnoEval 把"评一个研究 idea"重新定义成一个**知识接地 + 多视角推理**的问题：先用一个异构深度搜索引擎从论文/网页/代码里在线捞活知识并细粒度对齐到 idea 的每个部件，再用一个由不同学术人格组成的"创新评审委员会"在五个维度上各自打分、汇总成带决策的元评审，在点评、配对、分组三类任务上全面超过现有 baseline 且与人类专家高度一致。
+tags:
+  - "ICML 2026"
+  - "LLM评测"
+  - "想法评估"
+  - "异构知识检索"
+  - "多视角评审"
+  - "人格化 reviewer"
+  - "元评审"
+---
+
 # InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective Reasoning Problem
 
 **会议**: ICML 2026  

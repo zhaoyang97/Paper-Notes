@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] LLM Self-Recognition: Steering and Retrieving Activation Signatures
+description: >-
+  [ICML 2026][AIGC检测][AI 文本检测] 这篇论文不在 token 层加水印，而是在生成时往 LLM 残差流注入一个随机稀疏的转向向量，让模型自带可检测的"激活签名"，之后把文本回喂同一模型、从激活里用余弦相似度或轻量分类器把签名捞回来，在多种检测设定下达到 98% 以上准确率且几乎不损文本质量。
+tags:
+  - "ICML 2026"
+  - "AIGC检测"
+  - "AI 文本检测"
+  - "激活引导"
+  - "自我识别"
+  - "稀疏转向向量"
+  - "模型归因"
+---
+
 # LLM Self-Recognition: Steering and Retrieving Activation Signatures
 
 **会议**: ICML 2026  

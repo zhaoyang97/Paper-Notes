@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Arbitrary-Order Block SignSGD for Memory-Efficient LLM Fine-Tuning
+description: >-
+  [ICLR2026][优化/理论][SignSGD] 本文提出 ABSignSGD——把 SignSGD 和"任意顺序的块坐标更新"结合起来的优化器：每步只更新一个 Transformer 层块、只存这一块的状态、只用梯度的符号更新，从而把全参数微调的显存压到接近推理水平，同时配一个深度偏置的块选择策略再省 20% 运行时；并给出统一的 $O(1/\sqrt{K})$ 收敛证明和一个只传符号、通信量降 960× 的多卡 majority-vote 变体。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "SignSGD"
+  - "块坐标更新"
+  - "全参数微调"
+  - "内存高效"
+  - "收敛分析"
+---
+
 # Arbitrary-Order Block SignSGD for Memory-Efficient LLM Fine-Tuning
 
 **会议**: ICLR2026  
-**OpenReview**: [NQsdnYkCar](https://openreview.net/forum?id=NQsdnYkCar)  
+**OpenReview**: [https://openreview.net/forum?id=NQsdnYkCar](https://openreview.net/forum?id=NQsdnYkCar)  
 **代码**: https://github.com/yijiezcn/ABSignSGD  
 **领域**: 优化算法 / LLM 高效微调  
 **关键词**: SignSGD, 块坐标更新, 全参数微调, 内存高效, 收敛分析
@@ -126,11 +141,11 @@ $$\frac{\sum_{k=0}^{K-1}\mathbb{E}\|\nabla f(x^{kB})\|_N}{K}\le \frac{f(x^0)-f^*
 
 ## 相关论文
 
-- [\[ICML 2026\] Learning a Zeroth-Order Optimizer for Fine-Tuning LLMs](../../ICML2026/optimization/learning_a_zeroth-order_optimizer_for_fine-tuning_llms.md)
 - [\[ICML 2026\] Memory-Efficient LLM Pretraining via Minimalist Optimizer Design](../../ICML2026/optimization/memory-efficient_llm_pretraining_via_minimalist_optimizer_design.md)
+- [\[ICML 2026\] Learning a Zeroth-Order Optimizer for Fine-Tuning LLMs](../../ICML2026/optimization/learning_a_zeroth-order_optimizer_for_fine-tuning_llms.md)
 - [\[ICCV 2025\] Zeroth-Order Fine-Tuning of LLMs in Random Subspaces](../../ICCV2025/optimization/zeroth-order_fine-tuning_of_llms_in_random_subspaces.md)
-- [\[ICML 2026\] Utility-Diversity Aware Online Batch Selection for LLM Supervised Fine-tuning](../../ICML2026/optimization/utility-diversity_aware_online_batch_selection_for_llm_supervised_fine-tuning.md)
-- [\[ICML 2026\] Distilling Linearized Behavior into Non-Linear Fine-Tuning for Effective Task Arithmetic](../../ICML2026/optimization/distilling_linearized_behavior_into_non-linear_fine-tuning_for_effective_task_ar.md)
+- [\[ICLR 2026\] Bi-LoRA: Efficient Sharpness-Aware Minimization for Fine-Tuning Large-Scale Models](bi-lora_efficient_sharpness-aware_minimization_for_fine-tuning_large-scale_model.md)
+- [\[ICLR 2026\] FZOO: Fast Zeroth-Order Optimizer for Fine-Tuning Large Language Models towards Adam-Scale Speed](fzoo_fast_zeroth-order_optimizer_for_finetuning_large_language_models_towards_ad.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs
+description: >-
+  [ICML2026][强化学习][信用分配] 把一条生成轨迹看成注意力诱导的有向无环图，用一种 Doob-h 式重加权把"真正流向答案"的信息路径筛出来，再用每个 token 的"流量吞吐"给 GRPO 做非均匀信用分配——让训练信号集中在少数支撑答案的关键 token 上，在数学推理等任务上稳定超过 GRPO 与各类逐点启发式。
+tags:
+  - "ICML2026"
+  - "强化学习"
+  - "信用分配"
+  - "注意力信息流"
+  - "RLVR"
+  - "GRPO"
+  - "推理骨架"
+---
+
 # How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs
 
 **会议**: ICML2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Semantic Cache Distillation: Efficient State Transfer via Reuse and Selective Patching
+description: >-
+  [ICML2026][模型压缩][KV Cache 压缩] 针对"基座模型当生产者、微调模型当消费者"的分离式 LLM 服务场景，本文提出 SCD：把跨设备传输的原始 KV Cache 换成离线学好的低秩语义码，大多数层用 Reuse 做低秩重建省带宽、少数关键层用 Patch 重算前置归一化输入截断误差累积，在 200 Gbps 带宽下相对 Oracle 拿到 2.65× 的 TTFT 加速、F1 仅掉 3% 以内。
+tags:
+  - "ICML2026"
+  - "模型压缩"
+  - "KV Cache 压缩"
+  - "分离式推理"
+  - "跨模型缓存复用"
+  - "低秩重建"
+  - "语义对齐"
+---
+
 # Semantic Cache Distillation: Efficient State Transfer via Reuse and Selective Patching
 
 **会议**: ICML2026  

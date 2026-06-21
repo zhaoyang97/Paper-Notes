@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Flatland: The Adventures of Gradient Descent with Large Step Sizes
+description: >-
+  [ICML 2026][优化/理论][大学习率] 本文给出一个只需"局部 Lipschitz / Hölder 梯度连续"的统一"大学习率"定义，并用非单调线搜索造出一种一阶自适应步长，使梯度下降从训练一开始就运行在 Edge of Stability（EoS）上、把 sharpness 压到全局最小 $2/K$；同时发现"太早进入全局平坦区反而有害"，再用自稳定约束把失败的训练救回来。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "大学习率"
+  - "Edge of Stability"
+  - "sharpness"
+  - "非单调线搜索"
+  - "自稳定"
+---
+
 # Flatland: The Adventures of Gradient Descent with Large Step Sizes
 
 **会议**: ICML 2026  

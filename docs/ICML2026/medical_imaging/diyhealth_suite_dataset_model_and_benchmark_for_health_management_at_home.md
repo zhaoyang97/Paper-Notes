@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] DIYHealth Suite: Dataset, Model, and Benchmark for Health Management at Home
+description: >-
+  [ICML 2026][医学图像][家庭健康管理] 针对"在家自己管健康"（Diagnosis-It-Yourself）这一被现有医疗大模型忽视的场景，本文一口气交付了数据集（DIYHealth-900K，90 万条多模态家庭健康问答）、模型（DIYHealthGPT，核心是新提出的 H2LoRA 参数高效微调机制）、基准（DIYHealthBench，首个覆盖 11 项家庭健康任务的评测），在通用与医疗专用基线上都取得 SOTA。
+tags:
+  - "ICML 2026"
+  - "医学图像"
+  - "家庭健康管理"
+  - "多模态数据集"
+  - "参数高效微调"
+  - "MoE-LoRA"
+  - "超网络"
+---
+
 # DIYHealth Suite: Dataset, Model, and Benchmark for Health Management at Home
 
 **会议**: ICML 2026  

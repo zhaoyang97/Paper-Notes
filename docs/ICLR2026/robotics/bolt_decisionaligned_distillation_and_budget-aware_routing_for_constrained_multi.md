@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BOLT: Decision‑Aligned Distillation and Budget-Aware Routing for Constrained Multimodal QA on Robots
+description: >-
+  [ICLR2026][机器人][决策对齐蒸馏] BOLT 把"机器人上的受限多选题问答"拆成训练期的**选项级决策蒸馏**（让 2B 小模型直接对齐 13B 教师在选项集上的偏好）和推理期的**预算感知路由**（只在便宜信号预示有正收益时才触发高分辨复评/同类检索/问题分解），用 2B 学生在 Robo2VLM-1 上做到 50.50% 准确率、反超 36.74% 的 13B 教师，同时把显存从 26.9GB 压到 3.8GB、能耗降 82.5%。
+tags:
+  - "ICLR2026"
+  - "机器人"
+  - "决策对齐蒸馏"
+  - "预算感知路由"
+  - "受限解码"
+  - "紧凑VLM"
+  - "校准"
+---
+
 # BOLT: Decision‑Aligned Distillation and Budget-Aware Routing for Constrained Multimodal QA on Robots
 
 **会议**: ICLR2026  
-**OpenReview**: [Vsy3nAnaX6](https://openreview.net/forum?id=Vsy3nAnaX6)
+**OpenReview**: [https://openreview.net/forum?id=Vsy3nAnaX6](https://openreview.net/forum?id=Vsy3nAnaX6)
 **代码**: https://github.com/A-leyenda/BOLT  
 **领域**: VLM效率 / 知识蒸馏 / 自适应推理 / 机器人多模态问答  
 **关键词**: 决策对齐蒸馏, 预算感知路由, 受限解码, 紧凑VLM, 校准
@@ -97,6 +112,7 @@ $$\text{触发 } a \iff g_\omega(f,a)\,W_a \ge \tau\,C_a,\quad \text{累计成�
 2B 学生光靠 ODD 就到 42.89%，**反超 36.74% 的 13B 教师**；加 bTTA 进一步到 50.50%。同设置下 ODD 比 Token-KD 高 5.31 点（42.89 vs 37.58），加 bTTA 后仍领先（50.50 vs 47.02）。跨教师（LLaVA-7B / Qwen2.5-VL-7B）和跨学生架构（PaliGemma2-3B）结论一致：ODD 都稳压 Token-KD。
 
 ### 消融实验
+
 | 配置 | HR | tmRAG | QD | 准确率(%) |
 |------|----|-------|----|-----------|
 | ODD 学生（pass-1） | N | N | N | 42.89 |
@@ -138,3 +154,19 @@ $$\text{触发 } a \iff g_\omega(f,a)\,W_a \ge \tau\,C_a,\quad \text{累计成�
 - 实验充分度: ⭐⭐⭐ 跨教师/跨学生架构、消融、校准、幻觉、能耗都覆盖了，但只在单一基准 Robo2VLM-1 上做，泛化证据偏弱
 - 写作质量: ⭐⭐⭐⭐ 动机-方法-实验链路完整，公式和路由规则讲得明白
 - 价值: ⭐⭐⭐⭐ 让 2B 学生反超 13B 教师且显存降 88.7%、能耗降 82.5%，对边缘机器人部署很实用
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] VER: Vision Expert Transformer for Robot Learning via Foundation Distillation and Dynamic Routing](ver_vision_expert_transformer_for_robot_learning_via_foundation_distillation_and.md)
+- [\[ICLR 2026\] Accelerated co-design of robots through morphological pretraining](accelerated_co-design_of_robots_through_morphological_pretraining.md)
+- [\[NeurIPS 2025\] CogVLA: Cognition-Aligned Vision-Language-Action Model via Instruction-Driven Routing & Sparsification](../../NeurIPS2025/robotics/cogvla_cognition-aligned_vision-language-action_model_via_instruction-driven_rou.md)
+- [\[ICLR 2026\] RRNCO: Towards Real-World Routing with Neural Combinatorial Optimization](rrnco_towards_real-world_routing_with_neural_combinatorial_optimization.md)
+- [\[ICLR 2026\] Difference-Aware Retrieval Policies for Imitation Learning](difference-aware_retrieval_policies_for_imitation_learning.md)
+
+</div>
+
+<!-- RELATED:END -->

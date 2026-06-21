@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM
+description: >-
+  [ICLR2026][图学习][知识图谱增强] AtlasKV 把知识图谱里的每条三元组直接转成 Q-K-V 数据并以注意力的方式注入 LLM，再用层次化键值剪枝把复杂度从线性压到次线性，从而在 20GB 显存内为 LLM 接入十亿级（1B triples）知识图谱，无需外部检索器、无需长上下文、也无需为新知识重训。
+tags:
+  - "ICLR2026"
+  - "图学习"
+  - "知识图谱增强"
+  - "参数化知识注入"
+  - "矩形注意力"
+  - "层次剪枝"
+  - "可扩展性"
+---
+
 # AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM
 
 **会议**: ICLR2026  
-**OpenReview**: [6i1jVAYbHs](https://openreview.net/forum?id=6i1jVAYbHs)  
+**OpenReview**: [https://openreview.net/forum?id=6i1jVAYbHs](https://openreview.net/forum?id=6i1jVAYbHs)  
 **代码**: 待确认（论文提供 Source Code / Data and Models 链接）  
 **领域**: 知识增强 / 检索增强生成 / LLM 效率  
 **关键词**: 知识图谱增强、参数化知识注入、矩形注意力、层次剪枝、可扩展性
@@ -110,3 +125,19 @@ $$\tilde{y}^{(l)}_n = \lambda_{kg}\cdot \mathrm{Softmax}(\text{logits}_{kg})\cdo
 - 实验充分度: ⭐⭐⭐⭐ 三 OOD 数据集 × 多 KG 规模 + 显存/GPTScore/消融较完整，但绝对准确率和 1B 端到端问答展开不足
 - 写作质量: ⭐⭐⭐⭐ 动机—痛点—设计对应清晰，复杂度推导和图示到位
 - 价值: ⭐⭐⭐⭐ "20GB 接入十亿级 KG、无需检索器/重训"对低成本知识增强很有吸引力
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference](actions_speak_louder_than_prompts_a_large-scale_study_of_llms_for_graph_inferenc.md)
+- [\[ACL 2026\] Evaluating LLMs on Large-Scale Graph Property Estimation via Random Walks](../../ACL2026/graph_learning/evaluating_llms_on_large-scale_graph_property_estimation_via_random_walks.md)
+- [\[AAAI 2026\] Assessing LLMs for Serendipity Discovery in Knowledge Graphs: A Case for Drug Repurposing](../../AAAI2026/graph_learning/assessing_llms_for_serendipity_discovery_in_knowledge_graphs_a_case_for_drug_rep.md)
+- [\[ICLR 2026\] Controllable Logical Hypothesis Generation for Abductive Reasoning in Knowledge Graphs](controllable_logical_hypothesis_generation_for_abductive_reasoning_in_knowledge_.md)
+- [\[ACL 2025\] Can LLMs Evaluate Complex Attribution in QA? Automatic Benchmarking using Knowledge Graphs](../../ACL2025/graph_learning/paper_2401_14640.md)
+
+</div>
+
+<!-- RELATED:END -->

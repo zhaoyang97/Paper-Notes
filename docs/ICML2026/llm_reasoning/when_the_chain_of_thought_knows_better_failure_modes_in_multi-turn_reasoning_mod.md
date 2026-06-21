@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models
+description: >-
+  [ICML 2026][Reasoning][多轮安全] 本文指出多轮推理模型的安全失败大多对"末轮分数评测"隐形——模型可能早早锁死一个不安全立场却让最终拒答率看起来和对齐良好的基线一样,于是提出一个轨迹级诊断框架 **CoT–Output 2×2 安全矩阵**:沿"内部推理(CoT)"和"可见输出"两条独立轴给每一轮打标,划出四种失败格,并首次命名出 **context-injection failure(CoT 安全但输出有害)** 这一被忽视的失败模式。
+tags:
+  - "ICML 2026"
+  - "Reasoning"
+  - "多轮安全"
+  - "思维链"
+  - "对齐伪装"
+  - "推理不忠实"
+  - "诊断数据集"
+---
+
 # When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models
 
 **会议**: ICML 2026  

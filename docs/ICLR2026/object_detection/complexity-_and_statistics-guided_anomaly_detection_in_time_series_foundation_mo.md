@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Complexity- and Statistics-Guided Anomaly Detection in Time Series Foundation Models
+description: >-
+  [ICLR2026][目标检测][时序基础模型] 把时序基础模型（TFM，如 MOMENT）搬到重建式异常检测上时，会因「过泛化」（连异常也重建得很好）和「过平稳化」（实例归一化抹掉了均值方差）而失灵；本文用一个从重建/插补误差差导出的复杂度指标 $\alpha$ 自适应地把 TFM 与轻量统计模型混合（CAE），再把均值方差重新注入解码端（MOMENT-Stat），在 23 个单变量 + 17 个多变量基准上把 VUS-PR 从此前 SOTA 的 0.4233 提到 0.4679。
+tags:
+  - "ICLR2026"
+  - "目标检测"
+  - "时序基础模型"
+  - "异常检测"
+  - "重建误差"
+  - "复杂度度量"
+  - "自适应集成"
+---
+
 # Complexity- and Statistics-Guided Anomaly Detection in Time Series Foundation Models
 
 **会议**: ICLR2026  
-**OpenReview**: [rBt9aW3Mx7](https://openreview.net/forum?id=rBt9aW3Mx7)  
+**OpenReview**: [https://openreview.net/forum?id=rBt9aW3Mx7](https://openreview.net/forum?id=rBt9aW3Mx7)  
 **代码**: 待确认  
 **领域**: 时序异常检测 / 时序基础模型  
 **关键词**: 时序基础模型, 异常检测, 重建误差, 复杂度度量, 自适应集成
@@ -146,8 +161,8 @@ CAE 几乎把所有统计骨干都抬进前三：SR 从第 14 飙到第 1，Sub-
 - [\[AAAI 2026\] Harnessing Vision-Language Models for Time Series Anomaly Detection](../../AAAI2026/object_detection/harnessing_vision-language_models_for_time_series_anomaly_detection.md)
 - [\[ICLR 2026\] Contextual and Seasonal LSTMs for Time Series Anomaly Detection](contextual_and_seasonal_lstms_for_time_series_anomaly_detection.md)
 - [\[ICLR 2026\] PAANO: Patch-Based Representation Learning for Time-Series Anomaly Detection](paano_patch-based_representation_learning_for_time-series_anomaly_detection.md)
-- [\[ICLR 2026\] FSOD-VFM: Few-Shot Object Detection with Vision Foundation Models and Graph Diffusion](fsod-vfm_few-shot_object_detection_with_vision_foundation_models_and_graph_diffu.md)
 - [\[CVPR 2026\] AnomalyVFM -- Transforming Vision Foundation Models into Zero-Shot Anomaly Detectors](../../CVPR2026/object_detection/anomalyvfm_--_transforming_vision_foundation_models_into_zero-shot_anomaly_detec.md)
+- [\[ICLR 2026\] FSOD-VFM: Few-Shot Object Detection with Vision Foundation Models and Graph Diffusion](fsod-vfm_few-shot_object_detection_with_vision_foundation_models_and_graph_diffu.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Visual Reconstruction Quality: Object Perception-aware 3D Gaussian Splatting for Autonomous Driving
+description: >-
+  [ICLR2026][自动驾驶][3D 高斯泼溅] 这篇论文指出"重建得越像就越能复现自动驾驶系统行为"是一个未经验证的强假设，提出用**感知稳定性**（同一感知模型在重建图与真值图上输出是否一致）取代纯视觉相似度作为优化目标，并给出两个即插即用的损失——感知对齐损失与对象区域质量损失——在不损失视觉质量的前提下显著提升了重建场景的感知一致性。
+tags:
+  - "ICLR2026"
+  - "自动驾驶"
+  - "3D 高斯泼溅"
+  - "自动驾驶仿真"
+  - "感知稳定性"
+  - "对象区域重建"
+  - "场景生成"
+---
+
 # Beyond Visual Reconstruction Quality: Object Perception-aware 3D Gaussian Splatting for Autonomous Driving
 
 **会议**: ICLR2026  
-**OpenReview**: [PmQlMTBmpa](https://openreview.net/forum?id=PmQlMTBmpa)  
+**OpenReview**: [https://openreview.net/forum?id=PmQlMTBmpa](https://openreview.net/forum?id=PmQlMTBmpa)  
 **代码**: https://github.com/Shanicky-RenzhiWang/Perception-aware-3DGS  
 **领域**: 自动驾驶 / 3D 重建  
 **关键词**: 3D 高斯泼溅, 自动驾驶仿真, 感知稳定性, 对象区域重建, 场景生成
@@ -73,6 +88,7 @@ $$L_{obj\text{-}vis}=d_{vis}(R(x)\odot B(x),\ x\odot B(x))$$
 实验全部基于 Waymo 数据集，沿用 S3Gaussian 与 EMD 的场景选择，重建基座取 S3Gaussian、OmniRe、EMD(S3G)、EMD(OmniRe) 四种；指导模型用 YOLOv8，再用 Faster R-CNN 和 RT-DETR 当**黑盒**检测器验证泛化（即损失只对着 YOLOv8 训，看换检测器还灵不灵）。
 
 ### 主实验：感知对齐损失（方法一）
+
 | 基座 | 检测器 | mAP↑（原始→+Lperc） | mean IoU↑（原始→+Lperc） | 漏检↓ |
 |------|--------|------|------|------|
 | S3Gaussian | YOLOv8 | 0.550 → 0.593 | 0.803 → 0.840 | 1.5 → 0.83 |
@@ -83,6 +99,7 @@ $$L_{obj\text{-}vis}=d_{vis}(R(x)\odot B(x),\ x\odot B(x))$$
 关键点：加了感知对齐损失后，不仅训练用的 YOLOv8 上 mAP / mean IoU 普遍上升，**没参与训练的 Faster R-CNN 和 RT-DETR 也同步改善**，说明提升的是重建质量本身而非过拟合到某个检测器；同时视觉质量（SSIM）波动仅 $\pm<1\%$，代价可接受。
 
 ### 主实验：对象区域质量损失（方法二）
+
 | 基座（YOLOv8） | SSIM↑ | Obj SSIM↑ | mAP↑ | mean IoU↑ | 漏检↓ |
 |------|------|------|------|------|------|
 | S3Gaussian | 0.924 | 0.877 | 0.550 | 0.803 | 1.5 |
@@ -93,6 +110,7 @@ $$L_{obj\text{-}vis}=d_{vis}(R(x)\odot B(x),\ x\odot B(x))$$
 对象区域质量损失把 Obj SSIM（物体区域的 SSIM）显著拉高，并且**全局 SSIM 也跟着涨**（不像方法一会略微牺牲视觉质量）；两损失叠加在多数情况下最优，例如 S3Gaussian 上 mAP 从 0.550 一路升到 0.700、漏检从 1.5 降到 0。
 
 ### 运行时分析
+
 | 基座 | 每 100 epoch（秒）原始 / +Lperc / +Lobj-vis | 总时长（分）原始 / +Lperc / +Lobj-vis |
 |------|------|------|
 | S3G | 25.20 / 26.67 / 25.30 | 204.4 / 232.2 / 205.4 |
@@ -137,8 +155,8 @@ $$L_{obj\text{-}vis}=d_{vis}(R(x)\odot B(x),\ x\odot B(x))$$
 - [\[ICCV 2025\] AD-GS: Object-Aware B-Spline Gaussian Splatting for Self-Supervised Autonomous Driving](../../ICCV2025/autonomous_driving/ad-gs_object-aware_b-spline_gaussian_splatting_for_self-supervised_autonomous_dr.md)
 - [\[CVPR 2026\] ParkGaussian: Surround-view 3D Gaussian Splatting for Autonomous Parking](../../CVPR2026/autonomous_driving/parkgaussian_surround-view_3d_gaussian_splatting_for_autonomous_parking.md)
 - [\[ICCV 2025\] EMD: Explicit Motion Modeling for High-Quality Street Gaussian Splatting](../../ICCV2025/autonomous_driving/emd_explicit_motion_modeling_for_high-quality_street_gaussian_splatting.md)
-- [\[ICCV 2025\] GS-Occ3D: Scaling Vision-only Occupancy Reconstruction with Gaussian Splatting](../../ICCV2025/autonomous_driving/gs-occ3d_scaling_vision-only_occupancy_reconstruction_with_gaussian_splatting.md)
-- [\[CVPR 2025\] LR-SGS: Robust LiDAR-Reflectance-Guided Salient Gaussian Splatting for Self-Driving Scene Reconstruction](../../CVPR2025/autonomous_driving/lr-sgs_robust_lidar-reflectance-guided_salient_gaussian_splatting_for_self-drivi.md)
+- [\[ICLR 2026\] GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception](gaussianfusion_unified_3d_gaussian_representation_for_multi-modal_fusion_percept.md)
+- [\[AAAI 2026\] LiDAR-GS++: Improving LiDAR Gaussian Reconstruction via Diffusion Priors](../../AAAI2026/autonomous_driving/lidar-gsimproving_lidar_gaussian_reconstruction_via_diffusion_priors.md)
 
 </div>
 

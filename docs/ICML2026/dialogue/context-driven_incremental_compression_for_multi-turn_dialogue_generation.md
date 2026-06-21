@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Context-Driven Incremental Compression for Multi-Turn Dialogue Generation
+description: >-
+  [ICML 2026][对话系统][多轮对话] 多轮对话里把整段历史拼进 prompt 既贵又会丢线索，本文提出 **C-DIC**：把对话看成交织的「话题线索」，在一块紧凑记忆里存可修订的逐线索压缩状态，每轮跑一个轻量的「检索 → 修订 → 写回」循环，并配套**检索感知的截断时序反传（ra-TBPTT）**训练，在数百轮对话上保持稳定的延迟和困惑度。
+tags:
+  - "ICML 2026"
+  - "对话系统"
+  - "多轮对话"
+  - "上下文压缩"
+  - "可修订隐记忆"
+  - "线索检索"
+  - "截断时序反传"
+---
+
 # Context-Driven Incremental Compression for Multi-Turn Dialogue Generation
 
 **会议**: ICML 2026  

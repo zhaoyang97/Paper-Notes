@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Scalable Constant-Factor Approximation Algorithm for $W_p$ Optimal Transport
+description: >-
+  [ICLR2026][优化/理论][最优传输] 本文给出第一个对**所有** $p\in[1,\infty]$（含 $p=\infty$）都成立的、真正平方时间的常数因子近似算法：在任意度量空间上，用 $O(n^2+(n^{3/2}\varepsilon^{-1}\log n\log\Delta)^{1+o(1)}\log U)$ 时间算出一个 $(4+\varepsilon)$-近似的 $W_p$ 最优传输方案，把此前 $O(\log n)$ 的近似比一举压成常数。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "最优传输"
+  - "近似算法"
+  - "$W_p$ 距离"
+  - "有向 spanner"
+  - "双色最近对"
+---
+
 # A Scalable Constant-Factor Approximation Algorithm for $W_p$ Optimal Transport
 
 **会议**: ICLR2026  
-**OpenReview**: [RPQKJxrEPs](https://openreview.net/forum?id=RPQKJxrEPs)  
+**OpenReview**: [https://openreview.net/forum?id=RPQKJxrEPs](https://openreview.net/forum?id=RPQKJxrEPs)  
 **代码**: https://anonymous.4open.science/r/anon_matching-2B3B/ （匿名仓库，proof-of-concept Python 实现）  
 **领域**: optimization  
 **关键词**: 最优传输, 近似算法, $W_p$ 距离, 有向 spanner, 双色最近对
@@ -100,11 +115,11 @@ proof-of-concept Python 实现，单机 8 核 Apple M1 / 16GB。数据为单位�
 
 ## 相关论文
 
-- [\[ICML 2026\] Distribution Alignment for One-Shot Federated Learning via Optimal Transport](../../ICML2026/optimization/distribution_alignment_for_one-shot_federated_learning_via_optimal_transport.md)
-- [\[ICLR 2026\] RS-ORT: A Reduced-Space Branch-and-Bound Algorithm for Optimal Regression Trees](rs-ort_a_reduced-space_branch-and-bound_algorithm_for_optimal_regression_trees.md)
-- [\[ICML 2026\] Rethinking the Flow-Based Gradual Domain Adaptation: A Semi-Dual Optimal Transport Perspective](../../ICML2026/optimization/rethinking_the_flow-based_gradual_domain_adaptation_a_semi-dual_optimal_transpor.md)
-- [\[CVPR 2026\] HFedATM: Hierarchical Federated Domain Generalization via Optimal Transport and Regularized Mean Aggregation](../../CVPR2026/optimization/hfedatm_hierarchical_federated_domain_generalization_via_optimal_transport_and_r.md)
-- [\[ICLR 2026\] Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models](gradient-sign_masking_for_task_vector_transport_across_pre-trained_models.md)
+- [\[ICLR 2026\] A Memory-Efficient Hierarchical Algorithm for Large-scale Optimal Transport Problems](a_memory-efficient_hierarchical_algorithm_for_large-scale_optimal_transport_prob.md)
+- [\[ICLR 2026\] HOTA: Hamiltonian Framework for Optimal Transport Advection](hota_hamiltonian_framework_for_optimal_transport_advection.md)
+- [\[ICLR 2026\] Neural Hamilton–Jacobi Characteristic Flows for Optimal Transport](neural_hamilton--jacobi_characteristic_flows_for_optimal_transport.md)
+- [\[ICLR 2026\] Neural Optimal Transport Meets Multivariate Conformal Prediction](neural_optimal_transport_meets_multivariate_conformal_prediction.md)
+- [\[ICLR 2026\] Elastic Optimal Transport: Theory, Application, and Empirical Evaluation](elastic_optimal_transport_theory_application_and_empirical_evaluation.md)
 
 </div>
 

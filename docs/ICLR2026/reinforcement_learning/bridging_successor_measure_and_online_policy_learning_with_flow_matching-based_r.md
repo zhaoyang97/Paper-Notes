@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bridging Successor Measure and Online Policy Learning with Flow Matching-Based Representations
+description: >-
+  [ICLR2026][强化学习][后继测度] 本文提出 Successor Flow Features（SF2），用流匹配生成模型逼近后继测度（Successor Measure, SM），并把向量场强制分解成「时不变的状态-动作嵌入 $\psi(s,a)$ + 时变投影 $\zeta(s',k)$」的线性结构，从而把 SM 估计和在线策略优化打通——在 DeepMind Control 七个连续控制任务上嵌入 TD3/SAC 后，样本效率和训练稳定性都优于强后继特征基线。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "后继测度"
+  - "流匹配"
+  - "后继特征"
+  - "在线强化学习"
+  - "表示学习"
+---
+
 # Bridging Successor Measure and Online Policy Learning with Flow Matching-Based Representations
 
 **会议**: ICLR2026  
-**OpenReview**: [jA3KmR18S7](https://openreview.net/forum?id=jA3KmR18S7)  
+**OpenReview**: [https://openreview.net/forum?id=jA3KmR18S7](https://openreview.net/forum?id=jA3KmR18S7)  
 **代码**: https://github.com/Shiien/successor-flow-representation-implementation  
 **领域**: 强化学习 / 表示学习  
 **关键词**: 后继测度, 流匹配, 后继特征, 在线强化学习, 表示学习
@@ -127,10 +142,10 @@ $$\nabla_\theta L\approx 2\big[\psi(s,a)^\top\zeta(\epsilon,0)-\big((1-\gamma)(s
 ## 相关论文
 
 - [\[ICML 2026\] Reverse Flow Matching: A Unified Framework for Online Reinforcement Learning with Diffusion and Flow Policies](../../ICML2026/reinforcement_learning/reverse_flow_matching_a_unified_framework_for_online_reinforcement_learning_with.md)
-- [\[ICLR 2026\] PolicyFlow: Policy Optimization with Continuous Normalizing Flow in Reinforcement Learning](policyflow_policy_optimization_with_continuous_normalizing_flow_in_reinforcement.md)
-- [\[ICLR 2026\] Dual Goal Representations](dual_goal_representations.md)
-- [\[ACL 2026\] Bridging SFT and RL: Dynamic Policy Optimization for Robust Reasoning](../../ACL2026/reinforcement_learning/bridging_sft_and_rl_dynamic_policy_optimization_for_robust_reasoning.md)
-- [\[ICLR 2026\] Flow Actor-Critic for Offline Reinforcement Learning (FAC)](flow_actor-critic_for_offline_reinforcement_learning.md)
+- [\[ICLR 2026\] floq: Training Critics via Flow-Matching for Scaling Compute in Value-Based RL](floq_training_critics_via_flow-matching_for_scaling_compute_in_value-based_rl.md)
+- [\[ICLR 2026\] Q-Learning with Adjoint Matching](q-learning_with_adjoint_matching.md)
+- [\[ICLR 2026\] Guided Flow Policy: Learning from High-Value Actions in Offline Reinforcement Learning](guided_flow_policy_learning_from_high-value_actions_in_offline_reinforcement_lea.md)
+- [\[ICLR 2026\] One-Step Flow Q-Learning: Addressing the Diffusion Policy Bottleneck in Offline RL](one-step_flow_q-learning_addressing_the_diffusion_policy_bottleneck_in_offline_r.md)
 
 </div>
 

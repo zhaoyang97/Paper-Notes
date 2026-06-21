@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] V2V-Bench: A Comprehensive Benchmark for Video-to-Video Generation Evaluation
+description: >-
+  [ICML 2026][视频生成][视频到视频生成] 针对视频到视频（V2V）编辑「既要听指令改、又要逐帧对齐源视频」这一现有 T2V/I2V 指标测不出的核心难题，本文提出 V2V-Bench——一个分 5 大类、11 个解耦维度（其中 6 个为 V2V 专属）的评测基准，配合「先查合规、再细评」的四阶段流水线，在 6 个 V2V 核心维度上与人类判断的 Spearman 相关性达到 0.905。
+tags:
+  - "ICML 2026"
+  - "视频生成"
+  - "视频到视频生成"
+  - "评测基准"
+  - "帧级对应"
+  - "时序一致性"
+  - "编辑保真度"
+---
+
 # V2V-Bench: A Comprehensive Benchmark for Video-to-Video Generation Evaluation
 
 **会议**: ICML 2026  

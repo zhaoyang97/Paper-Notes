@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments
+description: >-
+  [ICML2026][强化学习][RLVR] RLVE 把语言模型 RL 训练的数据从"静态题库"换成 400 个**可程序化生成题目、可算法验证奖励**的"可验证环境"，并让每个环境的题目难度随策略模型能力实时上调，从而把训练信号始终钉在模型能力前沿；在已被 RLVR 训到饱和的 1.5B 强模型上，RLVE 用约 1/3 的算力把六个推理 benchmark 平均提升 $3.37\%$（对照组继续原 RL 训练只涨 $0.49\%$）。
+tags:
+  - "ICML2026"
+  - "强化学习"
+  - "RLVR"
+  - "可验证环境"
+  - "自适应难度"
+  - "推理能力"
+  - "环境扩展"
+---
+
 # RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments
 
 **会议**: ICML2026  

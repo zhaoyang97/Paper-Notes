@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Contrastive Spectral Rectification: Test-Time Defense towards Zero-shot Adversarial Robustness of CLIP
+description: >-
+  [ICML2026][多模态VLM][CLIP] 作者发现对抗样本的特征在「逐步抹掉中高频」时会急剧崩塌（而干净样本不会），据此提出测试时防御 CSR：先用「过滤前后特征是否一致」当门控检测对抗样本，再用一个「拉向低通锚点、推离原始对抗特征」的对比目标在输入上优化一个修正扰动，把图像拽回自然流形；在 16 个分类基准上对强攻击 APGD 平均提升 18.1%，且推理开销很小。
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "CLIP"
+  - "对抗样本"
+  - "测试时防御"
+  - "频域"
+  - "对比学习"
+---
+
 # Contrastive Spectral Rectification: Test-Time Defense towards Zero-shot Adversarial Robustness of CLIP
 
 **会议**: ICML2026  

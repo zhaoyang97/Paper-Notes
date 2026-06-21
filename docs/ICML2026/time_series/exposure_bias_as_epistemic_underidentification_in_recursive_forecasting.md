@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Exposure Bias as Epistemic Underidentification in Recursive Forecasting
+description: >-
+  [ICML2026 (EIML@ICML 2026 Workshop)][时间序列][暴露偏差] 本文从理论上重新解释递归多步预测里的"暴露偏差"：它不只是训练（teacher forcing）与部署（自喂预测）之间的**分布偏移**，在部分可观测或状态截断下，它还是一个**认识论上的不可辨识（epistemic underidentification）**问题——一步监督只能在观测上下文上确定模型行为，无法确定 rollout 在自生成"诱导状态"上该输出什么，作者用"诱导状态 $Z$ + 来源变量 $P$"把这件事形式化，并给出误差分解和实验验证。
+tags:
+  - "ICML2026 (EIML@ICML 2026 Workshop)"
+  - "时间序列"
+  - "暴露偏差"
+  - "递归预测"
+  - "认识不可辨识"
+  - "诱导状态"
+  - "来源信息"
+---
+
 # Exposure Bias as Epistemic Underidentification in Recursive Forecasting
 
 **会议**: ICML2026 (EIML@ICML 2026 Workshop)  

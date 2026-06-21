@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Catastrophic Forgetting is Low-Rank: A Function-Space Theory for Continual Adaptation
+description: >-
+  [ICML 2026][学习理论][神经正切核] 不再把灾难性遗忘当成"参数漂移"，而是在 NTK 体系下给出函数空间的闭式刻画：新任务训练通过跨任务核 $K_{AB}$ 把旧任务预测拽偏，且这个"遗忘向量"在训练前就能精确预测，并集中在旧任务核 $K_{AA}$ 的极少数特征模态上（1–6 个模态承载 50–90% 的遗忘能量），由此解释了为何参数空间正则器在共享头基准上会失效，并导出一个只保护脆弱子空间的谱正则化方法。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "持续学习"
+  - "灾难性遗忘"
+  - "NTK"
+  - "神经正切核"
+  - "函数空间"
+  - "谱正则化"
+---
+
 # Catastrophic Forgetting is Low-Rank: A Function-Space Theory for Continual Adaptation
 
 **会议**: ICML 2026  

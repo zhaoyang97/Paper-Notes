@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Epistemic Uncertainty Quantification To Improve Decisions From Black-Box Models
+description: >-
+  [ICLR2026][学习理论][认知不确定性] 本文提出一组**无分箱、渐近一致、样本高效**的估计器，用来量化黑盒模型校准之外残留的认知不确定性——分组损失（grouping loss）和逐样本超额决策风险，并用它审计 27 个开源 LLM 的置信度可靠性、构造按认知风险触发 deferral 的 LLM 级联，在更低成本下拿到更高准确率。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "不确定性量化"
+  - "认知不确定性"
+  - "分组损失"
+  - "校准"
+  - "决策风险"
+  - "LLM 级联"
+---
+
 # Epistemic Uncertainty Quantification To Improve Decisions From Black-Box Models
 
 **会议**: ICLR2026  
-**OpenReview**: [JfiwaTxhI8](https://openreview.net/forum?id=JfiwaTxhI8)  
+**OpenReview**: [https://openreview.net/forum?id=JfiwaTxhI8](https://openreview.net/forum?id=JfiwaTxhI8)  
 **代码**: 待确认  
 **领域**: 学习理论 / 不确定性量化  
 **关键词**: 认知不确定性, 分组损失, 校准, 决策风险, LLM 级联
@@ -149,9 +165,9 @@ $$\widehat R_{f,L}(X)=\begin{cases}\Lambda_\Delta\,|c\circ f(X)+\hat r(X)-t^*| &
 
 - [\[NeurIPS 2025\] Diffusion Transformers for Imputation: Statistical Efficiency and Uncertainty Quantification](../../NeurIPS2025/learning_theory/diffusion_transformers_for_imputation_statistical_efficiency_and_uncertainty_qua.md)
 - [\[ICML 2026\] MMD-Balls as Credal Sets: A PAC-Bayesian Framework for Epistemic Uncertainty in Test-Time Adaptation](../../ICML2026/learning_theory/mmd-balls_as_credal_sets_a_pac-bayesian_framework_for_epistemic_uncertainty_in_t.md)
-- [\[ICLR 2026\] A Sharp KL Convergence Analysis for Diffusion Models under Minimal Assumptions](a_sharp_kl_convergence_analysis_for_diffusion_models_under_minimal_assumptions.md)
+- [\[ICLR 2026\] Splat Regression Models](splat_regression_models.md)
 - [\[ICLR 2026\] Expressive Power of Implicit Models: Rich Equilibria and Test-Time Scaling](expressive_power_of_implicit_models_rich_equilibria_and_test-time_scaling.md)
-- [\[ICLR 2026\] Ads that Stick: Near-Optimal Ad Optimization through Psychological Behavior Models](ads_that_stick_near-optimal_ad_optimization_through_psychological_behavior_model.md)
+- [\[ICLR 2026\] Stop Guessing: Choosing the Optimization-Consistent Uncertainty Measurement for Evidential Deep Learning](stop_guessing_choosing_the_optimization-consistent_uncertainty_measurement_for_e.md)
 
 </div>
 

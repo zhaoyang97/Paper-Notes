@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] scCBGM: Interpretable Single-Cell Counterfactual Editing
+description: >-
+  [ICML 2026][计算生物][单细胞] 本文提出单细胞概念瓶颈生成模型 scCBGM，把"概念瓶颈"架构搬到单细胞 RNA 测序数据上，通过解码器跳连和交叉协方差解耦惩罚，实现对单个细胞做"如果改变某个生物概念会怎样"的可解释、可控反事实编辑，并能挂到流匹配模型上提升生成质量。 领域现状：单细胞 RNA 测序（scRN…
+tags:
+  - "ICML 2026"
+  - "计算生物"
+  - "单细胞"
+  - "概念瓶颈"
+  - "反事实编辑"
+  - "流匹配"
+  - "可解释性"
+---
+
 # scCBGM: Interpretable Single-Cell Counterfactual Editing
 
 **会议**: ICML 2026  

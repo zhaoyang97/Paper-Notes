@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing
+description: >-
+  [ICML2026][LLM评测][LLM路由] RouteJudge 指出当前 LLM 路由器的评测都停在"离线、对标准答案、对自动分"的范式上、忽略了真实用户的多元偏好，于是提出一个**在线成对偏好评测平台**——同一个 query 让多个路由器在相同模型池与预算下各选一个模型、匿名两两对决、把用户偏好归因回路由器层面，并配套一个可复现的模块化工具箱 ORBIT 作为路由方法的开发与提交入口。
+tags:
+  - "ICML2026"
+  - "LLM评测"
+  - "LLM路由"
+  - "在线偏好评测"
+  - "成对比较"
+  - "Elo"
+  - "可复现工具箱"
+---
+
 # RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing
 
 **会议**: ICML2026  

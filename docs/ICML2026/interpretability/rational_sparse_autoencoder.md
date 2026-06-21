@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Rational Sparse Autoencoder
+description: >-
+  [ICML2026][可解释性][稀疏自编码器] 把稀疏自编码器（SAE）里写死的 ReLU/JumpReLU/TopK 编码门换成一个**逐元素可训练的有理函数** $r(t)=P(t)/Q(t)$，再配上"复制 teacher 权重 + Remez 拟合系数 → 解冻微调"的两步升级流程，让任意预训练 SAE 在不牺牲稀疏度与可解释性的前提下、只多几个标量参数就把重建保真度严格提升一档。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "稀疏自编码器"
+  - "可训练激活"
+  - "有理函数"
+  - "逼近理论"
+  - "机制可解释性"
+---
+
 # Rational Sparse Autoencoder
 
 **会议**: ICML2026  

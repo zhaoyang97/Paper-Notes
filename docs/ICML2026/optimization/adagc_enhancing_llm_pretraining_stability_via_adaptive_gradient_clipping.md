@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AdaGC: Enhancing LLM Pretraining Stability via Adaptive Gradient Clipping
+description: >-
+  [ICML 2026][优化/理论][梯度裁剪] 针对大模型预训练里反复出现的 loss spike，AdaGC 把"全局一刀切"的梯度裁剪换成"每个参数张量按自己历史梯度范数的 EMA 自适应裁剪"，在异常梯度污染优化器一阶/二阶动量之前就把它压下去，在 Llama-2 7B / Mixtral 8×1B / ERNIE 10B-A1.4B 上把 spike score 全部压到 0，同时下游精度比全局裁剪（GlobalGC）分别提升 +1.32% / +1.27% / +2.48%。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "梯度裁剪"
+  - "loss spike"
+  - "逐张量自适应"
+  - "EMA"
+  - "LLM 预训练"
+---
+
 # AdaGC: Enhancing LLM Pretraining Stability via Adaptive Gradient Clipping
 
 **会议**: ICML 2026  

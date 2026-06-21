@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CardioComposer: Leveraging Differentiable Geometry for Compositional Control of Anatomical Diffusion Models
+description: >-
+  [ICLR2026][医学图像][解剖生成] CardioComposer 把"大小/位置/形状"写成基于体素几何矩的可微损失，在无条件 3D 解剖扩散模型采样过程中做能量引导（梯度修正），无需重训就能对心脏等多类别解剖分割的各个子结构做解耦、可组合的几何控制。 领域现状：3D 解剖分割（label map）是物理仿真平台的…
+tags:
+  - "ICLR2026"
+  - "医学图像"
+  - "解剖生成"
+  - "几何引导"
+  - "可微几何矩"
+  - "能量引导"
+  - "组合控制"
+---
+
 # CardioComposer: Leveraging Differentiable Geometry for Compositional Control of Anatomical Diffusion Models
 
 **会议**: ICLR2026  
-**OpenReview**: [JyboUMeEUi](https://openreview.net/forum?id=JyboUMeEUi)  
+**OpenReview**: [https://openreview.net/forum?id=JyboUMeEUi](https://openreview.net/forum?id=JyboUMeEUi)  
 **代码**: https://github.com/kkadry/CardioComposer  
 **领域**: 医学图像 / 扩散模型  
 **关键词**: 解剖生成, 几何引导, 可微几何矩, 能量引导, 组合控制
@@ -135,3 +150,19 @@ $$M_k=\mathbf{1}^T\Omega_k,\qquad C_k=\frac{\Omega_k^T p}{M_k},\qquad S_k=\frac{
 - 实验充分度: ⭐⭐⭐⭐ 解耦、组合、跨系统泛化、下游仿真闭环都覆盖到，但条件基线的完整对照略弱。
 - 写作质量: ⭐⭐⭐⭐⭐ 动机的四条仿真约束推导清晰，图文与公式对应到位。
 - 价值: ⭐⭐⭐⭐⭐ 给计算医学/器械仿真提供了即插即用、可解释、无需重训的几何控制工具，落地性强。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Anatomica: Localized Control over Geometric and Topological Properties for Anatomical Diffusion Models](../../CVPR2026/medical_imaging/anatomica_localized_control_over_geometric_and_topological_properties_for_anatom.md)
+- [\[ICLR 2026\] DM4CT: Benchmarking Diffusion Models for Computed Tomography Reconstruction](dm4ct_benchmarking_diffusion_models_for_computed_tomography_reconstruction.md)
+- [\[ICLR 2026\] Adaptive Domain Shift in Diffusion Models for Cross-Modality Image Translation](adaptive_domain_shift_in_diffusion_models_for_cross-modality_image_translation.md)
+- [\[ICLR 2026\] Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity](improving_2d_diffusion_models_for_3d_medical_imaging_with_inter-slice_consistent.md)
+- [\[ICLR 2026\] Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks](are_eeg_foundation_models_worth_it_comparative_evaluation_with_traditional_decod.md)
+
+</div>
+
+<!-- RELATED:END -->

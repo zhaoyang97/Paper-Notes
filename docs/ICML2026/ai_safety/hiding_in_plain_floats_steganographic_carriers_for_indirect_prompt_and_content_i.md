@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection
+description: >-
+  [ICML2026][AI安全][间接提示注入] 把恶意指令藏进"过程化生成"用的浮点参数数组里（用迭代函数系统 IFS 把字节编码成轨迹坐标），让纯文本的提示注入检测器在原始配置层和重建报告层都看不到任何可疑文字，结果在三个商用 LLM、14,400 次真实攻击实验里对最强的双层文本分类器防御仍保持 94.3% 的泄漏攻击成功率。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "间接提示注入"
+  - "隐写"
+  - "结构化数据"
+  - "浮点载体"
+  - "防御边界"
+---
+
 # Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection
 
 **会议**: ICML2026  

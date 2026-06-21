@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training
+description: >-
+  [ICML2026][模型压缩][FP4 量化] 这篇论文发现大推理模型 FP4 量化失败集中在「低熵 token」（数字、运算符这类确定性符号承诺）上，于是提出 ReQAT——用三件套（轨迹对齐 QAT + 选择性熵最小化 + KV cache 量化友好初始化）专攻这些 token，在 W4A4KV4 全量化下不仅追平、甚至**超过** BF16 微调精度，同时拿到最高 3.9× 吞吐加速。
+tags:
+  - "ICML2026"
+  - "模型压缩"
+  - "FP4 量化"
+  - "推理模型"
+  - "QAT"
+  - "KV cache"
+  - "低熵 token"
+---
+
 # ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training
 
 **会议**: ICML2026  

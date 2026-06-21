@@ -142,8 +142,8 @@ flowchart TD
 - [\[ICML 2026\] When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](../../ICML2026/ai_safety/when_benign_inputs_lead_to_severe_harms_eliciting_unsafe_unintended_behaviors_of.md)
 - [\[ICML 2026\] Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection](../../ICML2026/ai_safety/hiding_in_plain_floats_steganographic_carriers_for_indirect_prompt_and_content_i.md)
 - [\[CVPR 2026\] SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning](../../CVPR2026/ai_safety/seba_sample-efficient_black-box_attacks_on_visual_reinforcement_learning.md)
-- [\[CVPR 2026\] PECCAVI: Overcoming the Brittleness of AI Image Watermarking Under Visual Paraphrasing Attacks](../../CVPR2026/ai_safety/peccvai_overcoming_the_brittleness_of_ai_image_watermarking_under_visual_paraphr.md)
-- [\[ICLR 2026\] Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing](comparing_ai_agents_to_cybersecurity_professionals_in_real-world_penetration_tes.md)
+- [\[ICML 2026\] The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection](../../ICML2026/ai_safety/the_injection_paradox_brand-level_suppression_in_safety-trained_llm_recommendati.md)
+- [\[ICLR 2026\] Protection against Source Inference Attacks in Federated Learning](protection_against_source_inference_attacks_in_federated_learning.md)
 
 </div>
 

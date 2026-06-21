@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Riemannian MeanFlow for One-Step Generation on Manifolds
+description: >-
+  [ICML2026][图像生成][MeanFlow] 把 MeanFlow 的"平均速度一步生成"推广到黎曼流形：用**平行移动**把不同切空间里的瞬时速度搬到同一切空间再平均，从而定义流形上的平均速度并导出**黎曼 MeanFlow 恒等式**；再用对数映射在公共切空间里做内蕴训练（避开轨迹模拟和 Christoffel 符号），把目标拆成两项并用 PCGrad 化解梯度冲突，在球面/环面/SO(3)/SE(3) 上以 1 步采样达到与最强 baseline 相当的质量、采样成本大幅下降。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "MeanFlow"
+  - "黎曼流形"
+  - "一步生成"
+  - "平均速度"
+  - "平行移动"
+  - "多任务优化"
+---
+
 # Riemannian MeanFlow for One-Step Generation on Manifolds
 
 **会议**: ICML2026  

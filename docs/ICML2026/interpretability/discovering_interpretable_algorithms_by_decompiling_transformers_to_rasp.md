@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Discovering Interpretable Algorithms by Decompiling Transformers to RASP
+description: >-
+  [ICML2026][可解释性][RASP] 本文提出一套「反编译」流水线，先把训练好的 GPT-2 风格 Transformer **忠实地**改写成一个等价的 RASP 程序（D-RASP），再用因果干预把它剪枝成一段**短小可读的符号算法**；实验表明能从「会长度泛化」的小模型里自动恢复出诸如直方图取众数、归纳头复制、括号计数这类已知算法，给出了「Transformer 内部确实实现了简单 RASP 程序」迄今最直接的证据。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "RASP"
+  - "反编译"
+  - "因果干预"
+  - "长度泛化"
+  - "Transformer"
+---
+
 # Discovering Interpretable Algorithms by Decompiling Transformers to RASP
 
 **会议**: ICML2026  

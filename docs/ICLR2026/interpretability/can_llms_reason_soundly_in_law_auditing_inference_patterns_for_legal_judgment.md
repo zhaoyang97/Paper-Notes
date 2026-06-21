@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Can LLMs Reason Soundly in Law? Auditing Inference Patterns for Legal Judgment
+description: >-
+  [ICLR2026][可解释性][交互作用解释] 这篇论文不再只看法律 LLM 的判决"答案对不对"，而是把模型对每个判决的打分**忠实拆解成一组输入短语之间的 AND/OR 交互模式**，再让 16 位法律专家把短语标注为"相关 / 无关 / 禁用"，从而量化出"模型到底是凭哪些逻辑下判断的"；结果发现即便四个主流（含法律专用）LLM 的判决结果正确，**超过一半的推理交互其实是无关甚至错误的依据**——比如把别人的犯罪行为算到被告头上、或被职业身份带偏。
+tags:
+  - "ICLR2026"
+  - "可解释性"
+  - "交互作用解释"
+  - "AND-OR 逻辑模型"
+  - "法律判决"
+  - "推理可靠性"
+  - "身份偏见"
+---
+
 # Can LLMs Reason Soundly in Law? Auditing Inference Patterns for Legal Judgment
 
 **会议**: ICLR2026  
-**OpenReview**: [5T0BXtJxzN](https://openreview.net/forum?id=5T0BXtJxzN)  
+**OpenReview**: [https://openreview.net/forum?id=5T0BXtJxzN](https://openreview.net/forum?id=5T0BXtJxzN)  
 **代码**: 待确认  
 **领域**: 可解释性 / 法律 LLM 审计  
 **关键词**: 交互作用解释, AND-OR 逻辑模型, 法律判决, 推理可靠性, 身份偏见
@@ -75,6 +90,7 @@ $s_{\text{reliable}}$ 越接近 1，说明模型的判决依据越贴合专家�
 | 冲突抵消度 $s_{\text{conflict}}$ | $>60\%$ 效应被互相抵消 | 判决内部存在大量矛盾噪声 |
 
 ### 分析实验（身份偏见案例）
+
 | 配置（受害者职业） | 判决结果 | 关键变化 |
 |------|---------|------|
 | a judge / a lawyer / a policeman | Robbery（维持） | 法律相关职业把判决"撑住" |
@@ -109,3 +125,19 @@ $s_{\text{reliable}}$ 越接近 1，说明模型的判决依据越贴合专家�
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 4 模型 6 数据集中英双语、含复杂度/抵消/偏见多维分析，但每任务仅 100 样本且依赖人工标注
 - 写作质量: ⭐⭐⭐⭐ 理论铺陈清晰、案例可视化直观，但交互记号较密，门槛偏高
 - 价值: ⭐⭐⭐⭐⭐ 直指高风险场景"结果对掩盖推理错"的真实风险，对法律/金融/医疗等可靠性评估有现实意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Reforming the Mechanism: Editing Reasoning Patterns in LLMs with Circuit Reshaping](reforming_the_mechanism_editing_reasoning_patterns_in_llms_with_circuit_reshapin.md)
+- [\[ICLR 2026\] The Achilles' Heel of LLMs: How Altering a Handful of Neurons Can Cripple Language Abilities](the_achilles_heel_of_llms_how_altering_a_handful_of_neurons_can_cripple_language.md)
+- [\[ICML 2026\] Interpretability Can Be Actionable](../../ICML2026/interpretability/interpretability_can_be_actionable.md)
+- [\[ACL 2026\] Evian: Towards Explainable Visual Instruction-tuning Data Auditing](../../ACL2026/interpretability/evian_towards_explainable_visual_instruction-tuning_data_auditing.md)
+- [\[ICLR 2026\] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](gepa_reflective_prompt_evolution_can_outperform_reinforcement_learning.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CMI-RewardBench: Evaluating Music Reward Models with Compositional Multimodal Instruction
+description: >-
+  [ICML2026][音频/语音][音乐奖励模型] 针对现代音乐生成模型已能同时吃「文本 + 歌词 + 参考音频」却没有统一评估手段的窘境，本文造了一套生态——110k 伪标注的 CMI-Pref-Pseudo、4,027 条人工标注的 CMI-Pref、统一基准 CMI-RewardBench，以及一个仅约 30M 参数、能在单一架构里处理所有模态组合的奖励模型族 CMI-RM，并证明它和人类判断高度相关、还能通过 top-k 过滤实现音乐生成的「推理时缩放」。
+tags:
+  - "ICML2026"
+  - "音频/语音"
+  - "音乐奖励模型"
+  - "组合式多模态指令"
+  - "偏好数据集"
+  - "推理时缩放"
+  - "RLHF"
+---
+
 # CMI-RewardBench: Evaluating Music Reward Models with Compositional Multimodal Instruction
 
 **会议**: ICML2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Task-Aware Structured Memory for Dynamic Multi-modal In-Context Learning
+description: >-
+  [ICML 2026][多模态VLM][多模态ICL] 针对多模态多示例上下文学习里 KV cache 爆炸的问题，TASM 提出一个免训练框架：用"任务向量"而非样本特定注意力来打分（去样本偏差），用二部图匹配做语义感知的 token 合并而非硬剪枝（保住视觉拓扑），再用 JS 散度触发的分层动态检索（让被压掉的细节在需要时还能召回），在压掉最多 80% 显存的同时把性能拉到接近全上下文。
+tags:
+  - "ICML 2026"
+  - "多模态VLM"
+  - "多模态ICL"
+  - "KV cache压缩"
+  - "任务向量"
+  - "token合并"
+  - "动态检索"
+---
+
 # Task-Aware Structured Memory for Dynamic Multi-modal In-Context Learning
 
 **会议**: ICML 2026  

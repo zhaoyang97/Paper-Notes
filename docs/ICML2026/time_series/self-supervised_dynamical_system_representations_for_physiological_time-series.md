@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Self-Supervised Dynamical System Representations for Physiological Time-Series
+description: >-
+  [ICML2026][时间序列][生理时间序列] PULSE 把生理时间序列看成由「可迁移的系统参数 + 不可迁移的样本特异噪声」共同生成，提出用一个交叉重建目标——让从一段窗口推断出的系统表示去重建同系统的另一段独立样本——逼着编码器只保留共享的动力学、丢掉初始条件和噪声，从而学到对临床语义更可迁移的表示。
+tags:
+  - "ICML2026"
+  - "时间序列"
+  - "生理时间序列"
+  - "自监督学习"
+  - "动力系统"
+  - "交叉重建"
+  - "可迁移表示"
+---
+
 # Self-Supervised Dynamical System Representations for Physiological Time-Series
 
 **会议**: ICML2026  

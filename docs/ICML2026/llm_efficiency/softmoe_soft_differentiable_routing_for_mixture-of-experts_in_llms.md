@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs
+description: >-
+  [ICML2026][LLM效率][混合专家] SoftMoE 用一个基于 LapSum 的可微「软 top-$k$」算子替换 MoE 里不可导的硬 top-$k$ 选择，让路由可以梯度优化、激活专家数随 token 自适应；再加一个全局预算约束让模型**自己学每层该分多少专家**，结果在更省专家的前提下匹配甚至超过稀疏 MoE，并发现一个有趣规律——**越靠后的层越想多激活专家**。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "混合专家"
+  - "可微路由"
+  - "软 top-k"
+  - "LapSum"
+  - "专家分配"
+  - "自回归"
+---
+
 # SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs
 
 **会议**: ICML2026  

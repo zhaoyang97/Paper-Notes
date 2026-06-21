@@ -16,7 +16,7 @@ tags:
 # ContextIF: Enhancing Instruction-Following through Context Reward
 
 **会议**: ICLR2026  
-**OpenReview**: [IuscGSmfEf](https://openreview.net/forum?id=IuscGSmfEf)  
+**OpenReview**: [https://openreview.net/forum?id=IuscGSmfEf](https://openreview.net/forum?id=IuscGSmfEf)  
 **代码**: https://github.com/ECNU-Text-Computing/ContextIF  
 **领域**: 对齐RLHF / 指令遵循 / 强化学习  
 **关键词**: 指令遵循、上下文学习、上下文奖励、GRPO、灾难性遗忘
@@ -153,9 +153,9 @@ IFEval 均分相对基座提升 6.24 分（77.11→83.35），且在严格/宽�
 
 - [\[ACL 2025\] Reverse Preference Optimization for Complex Instruction Following](../../ACL2025/llm_alignment/reverse_preference_optimization_for_complex_instruction_following.md)
 - [\[ACL 2026\] What Makes Good Instruction-Tuning Data? An In-Context Learning Perspective](../../ACL2026/llm_alignment/what_makes_good_instruction-tuning_data_an_in-context_learning_perspective.md)
+- [\[ICLR 2026\] RECAST: Expanding the Boundaries of LLMs' Complex Instruction Following with Multi-Constraint Data](recast_expanding_the_boundaries_of_llms_complex_instruction_following_with_multi.md)
 - [\[ACL 2026\] MDP-GRPO: Stabilized Group Relative Policy Optimization for Multi-Constraint Instruction Following](../../ACL2026/llm_alignment/mdp-grpo_stabilized_group_relative_policy_optimization_for_multi-constraint_inst.md)
 - [\[CVPR 2026\] From Pixel to Precision: Enhancing Handwritten Mathematical Expression Recognition with Image-Level Reward](../../CVPR2026/llm_alignment/from_pixel_to_precision_enhancing_handwritten_mathematical_expression_recognitio.md)
-- [\[ICML 2026\] Towards Context-Invariant Safety Alignment for Large Language Models](../../ICML2026/llm_alignment/towards_context-invariant_safety_alignment_for_large_language_models.md)
 
 </div>
 

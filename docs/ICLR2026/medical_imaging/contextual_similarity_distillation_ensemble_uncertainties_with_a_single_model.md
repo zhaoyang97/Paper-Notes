@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Contextual Similarity Distillation: Ensemble Uncertainties with a Single Model
+description: >-
+  [ICLR 2026][医学图像][认识不确定性] 用单个模型、单次前向就估计出"无穷大随机初始化集成"的预测方差——把集成方差重新表述成一个带核相似度标签的监督回归问题，从而无需真的训练集成、也无需求逆 Gram 矩阵，就能给出和深度集成相当甚至更好的不确定性，并在 OOD 检测和稀疏奖励 RL 探索上验证。
+tags:
+  - "ICLR 2026"
+  - "医学图像"
+  - "认识不确定性"
+  - "深度集成"
+  - "神经正切核"
+  - "单模型估计"
+  - "稀疏奖励探索"
+---
+
 # Contextual Similarity Distillation: Ensemble Uncertainties with a Single Model
 
 **会议**: ICLR 2026  
-**OpenReview**: [arms7s9dDK](https://openreview.net/forum?id=arms7s9dDK)  
+**OpenReview**: [https://openreview.net/forum?id=arms7s9dDK](https://openreview.net/forum?id=arms7s9dDK)  
 **代码**: https://github.com/anyboby/contextual-similarity-distillation （有，另含 VizDoom 复现仓）  
 **领域**: 强化学习 / 不确定性量化  
 **关键词**: 认识不确定性、深度集成、神经正切核、单模型估计、稀疏奖励探索
@@ -134,11 +149,11 @@ $$\mathcal{L}(\tilde\theta_t) = \frac{1}{N}\sum_i^N \frac{1}{2}\big(g(x_i,c_i,\t
 
 ## 相关论文
 
+- [\[ICLR 2026\] CUPID: A Plug-in Framework for Joint Aleatoric and Epistemic Uncertainty Estimation with a Single Model](cupid_a_plug-in_framework_for_joint_aleatoric_and_epistemic_uncertainty_estimati.md)
 - [\[CVPR 2026\] From Infusion to Assimilation Distillation for Medical Image Segmentation](../../CVPR2026/medical_imaging/from_infusion_to_assimilation_distillation_for_medical_image_segmentation.md)
 - [\[CVPR 2026\] Momentum Memory for Knowledge Distillation in Computational Pathology](../../CVPR2026/medical_imaging/momentum_memory_for_knowledge_distillation_in_computational_pathology.md)
 - [\[CVPR 2026\] PDD: Manifold-Prior Diverse Distillation for Medical Anomaly Detection](../../CVPR2026/medical_imaging/pdd_manifold-prior_diverse_distillation_for_medical_anomaly_detection.md)
-- [\[CVPR 2026\] EchoVDiff: Cardiac-Cycle Echocardiography Video Generation from Arbitrary Single Frame](../../CVPR2026/medical_imaging/echovdiff_cardiac-cycle_echocardiography_video_generation_from_arbitrary_single_.md)
-- [\[AAAI 2026\] Experience with Single Domain Generalization in Real World Medical Imaging Deployments](../../AAAI2026/medical_imaging/experience_with_single_domain_generalization_in_real_world_medical_imaging_deplo.md)
+- [\[ICLR 2026\] Spike-based Digital Brain: A Novel Fundamental Model for Brain Activity Analysis](spike-based_digital_brain_a_novel_fundamental_model_for_brain_activity_analysis.md)
 
 </div>
 

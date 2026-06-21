@@ -16,7 +16,7 @@ tags:
 # Neuron-Aware Data Selection in Instruction Tuning for Large Language Models
 
 **会议**: ICLR 2026  
-**OpenReview**: [uq6UWRgzMr](https://openreview.net/forum?id=uq6UWRgzMr)  
+**OpenReview**: [https://openreview.net/forum?id=uq6UWRgzMr](https://openreview.net/forum?id=uq6UWRgzMr)  
 **代码**: 开源跨任务神经元特征库 + Alpaca-NAIT 数据集（论文承诺开源，链接待确认）  
 **领域**: LLM 效率 / 指令微调数据选择  
 **关键词**: 指令微调、数据选择、神经元激活、PCA 方向向量、能力可迁移
@@ -150,11 +150,11 @@ NAIT 相比 AlpaGasus 成本降 19×、相比 SelectIT 成本降 94.3% 且提速
 
 ## 相关论文
 
-- [\[ICLR 2026\] TokenSeek: Memory Efficient Fine Tuning via Instance-Aware Token Selection](tokenseek_memory_efficient_fine_tuning_via_instance-aware_token_selection.md)
-- [\[ICLR 2026\] DND: Boosting Large Language Models with Dynamic Nested Depth](dnd_boosting_large_language_models_with_dynamic_nested_depth.md)
-- [\[ICLR 2026\] Deep Hierarchical Learning with Nested Subspace Networks for Large Language Models](deep_hierarchical_learning_with_nested_subspace_networks_for_large_language_mode.md)
-- [\[ICLR 2026\] EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models](evoengineer_mastering_automated_cuda_kernel_code_evolution_with_large_language_m.md)
-- [\[ICLR 2026\] Expert Divergence Learning for MoE-based Language Models](expert_divergence_learning_for_moe-based_language_models.md)
+- [\[ICLR 2026\] CPQS-Tuning: A Model Self-Perception-Based Data Filtering Algorithm for Efficient Instruction Fine-Tuning](cpqs-tuning_a_model_self-perception-based_data_filtering_algorithm_for_efficient.md)
+- [\[ICLR 2026\] Influence-Preserving Proxies for Gradient-Based Data Selection in LLM Fine-Tuning](influence-preserving_proxies_for_gradient-based_data_selection_in_llm_finetuning.md)
+- [\[ICLR 2026\] Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models](inference-cost-aware_dynamic_tree_construction_for_efficient_inference_in_large_.md)
+- [\[ICLR 2026\] Difficulty–Diversity Collaborative Filtering for Data-Efficient LLM Fine-Tuning](difficultydiversity_collaborative_filtering_for_data-efficient_llm_fine-tuning.md)
+- [\[ICLR 2026\] KnowProxy: Adapting Large Language Models by Knowledge-guided Proxy](knowproxy_adapting_large_language_models_by_knowledge-guided_proxy.md)
 
 </div>
 

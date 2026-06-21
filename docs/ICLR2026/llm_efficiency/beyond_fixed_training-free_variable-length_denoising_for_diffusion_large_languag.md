@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models
+description: >-
+  [ICLR2026][LLM效率][扩散大语言模型] DAEDAL 利用扩散大语言模型（DLLM）在去噪时对 EOS token 的预测置信度这一内部信号，免训练地在去噪前先把序列长度从一个短的统一初值粗调到任务合适的长度、再在去噪过程中对低置信度区域局部插入 mask 扩容，从而摆脱"必须手工预设生成长度"的桎梏，在四个数学/代码基准上达到甚至超过精调定长基线的精度，同时大幅提升有效 token 占比。
+tags:
+  - "ICLR2026"
+  - "LLM效率"
+  - "扩散大语言模型"
+  - "变长去噪"
+  - "训练无关"
+  - "EOS 置信度"
+  - "推理效率"
+---
+
 # Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [Ic2A2gCseC](https://openreview.net/forum?id=Ic2A2gCseC)  
+**OpenReview**: [https://openreview.net/forum?id=Ic2A2gCseC](https://openreview.net/forum?id=Ic2A2gCseC)  
 **代码**: https://github.com/Li-Jinsong/DAEDAL  
 **领域**: LLM效率 / 扩散语言模型 / 推理解码  
 **关键词**: 扩散大语言模型, 变长去噪, 训练无关, EOS 置信度, 推理效率
@@ -117,11 +132,11 @@ GSM8K + LLaDA-Instruct-8B 上拆解两阶段贡献（表 2）：
 
 ## 相关论文
 
-- [\[ICML 2026\] dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching](../../ICML2026/llm_efficiency/dllm-cache_accelerating_diffusion_large_language_models_with_adaptive_caching.md)
-- [\[ACL 2026\] CreditDecoding: Accelerating Parallel Decoding in Diffusion Large Language Models with Trace Credit](../../ACL2026/llm_efficiency/creditdecoding_accelerating_parallel_decoding_in_diffusion_large_language_models.md)
-- [\[ACL 2026\] Breaking Block Boundaries: Anchor-based History-stable Decoding for Diffusion Large Language Models](../../ACL2026/llm_efficiency/breaking_block_boundaries_anchor-based_history-stable_decoding_for_diffusion_lar.md)
-- [\[ICLR 2026\] DND: Boosting Large Language Models with Dynamic Nested Depth](dnd_boosting_large_language_models_with_dynamic_nested_depth.md)
-- [\[NeurIPS 2025\] L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models](../../NeurIPS2025/llm_efficiency/l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md)
+- [\[ICLR 2026\] Hierarchy Decoding: A Training-free Parallel Decoding Strategy for Diffusion Large Language Models](hierarchy_decoding_a_training-free_parallel_decoding_strategy_for_diffusion_larg.md)
+- [\[ICLR 2026\] UltraLLaDA: Scaling the Context Length to 128K for Diffusion Large Language Models](ultrallada_scaling_the_context_length_to_128k_for_diffusion_large_language_model.md)
+- [\[ICLR 2026\] Training-Free Loosely Speculative Decoding: Accepting Semantically Correct Drafts Beyond Exact Match](training-free_loosely_speculative_decoding_accepting_semantically_correct_drafts.md)
+- [\[ICLR 2026\] Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes](beyond_masks_efficient_flexible_diffusion_language_models_via_deletion-insertion.md)
+- [\[ICLR 2026\] Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM](dynamic-dllm_dynamic_cache-budget_and_adaptive_parallel_decoding_for_training-fr.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Characteristic Root Analysis and Regularization for Linear Time Series Forecasting
+description: >-
+  [ICLR2026][时间序列][时间序列预测] 本文用经典线性差分方程的**特征根**理论重新审视线性时序预测模型，证明噪声会让模型学到"虚假根"且抑制噪声需要不成比例的更多数据，进而提出两类把权重矩阵"根重构"的正则化方法——低秩约简（RRR / DWRR）和自适应的 **Root Purge** 训练损失，在多个标准 benchmark 上把简单线性模型推到 SOTA。
+tags:
+  - "ICLR2026"
+  - "时间序列"
+  - "时间序列预测"
+  - "特征根"
+  - "线性模型"
+  - "低秩正则化"
+  - "去噪"
+---
+
 # Characteristic Root Analysis and Regularization for Linear Time Series Forecasting
 
 **会议**: ICLR2026  
-**OpenReview**: [JTtwGRACte](https://openreview.net/forum?id=JTtwGRACte)  
+**OpenReview**: [https://openreview.net/forum?id=JTtwGRACte](https://openreview.net/forum?id=JTtwGRACte)  
 **代码**: https://github.com/Wangzzzzzzzz/RootPurge  
 **领域**: 时序预测 / 线性模型理论  
 **关键词**: 时间序列预测, 特征根, 线性模型, 低秩正则化, 去噪
@@ -117,3 +132,19 @@ RRR 与 Root Purge 在各 horizon 上稳定优于所有 baseline：RRR 无需大
 - 实验充分度: ⭐⭐⭐⭐ 多数据集多 horizon 对比 + 三段式理论验证，但主推小数据、大规模偏附录
 - 写作质量: ⭐⭐⭐⭐⭐ 理论与算法逻辑链清晰，Figure 1 路线图把命题串得井井有条
 - 价值: ⭐⭐⭐⭐ 为简单线性预测提供可证明的解释与即插即用正则化，对追求可解释、数据高效预测有实用价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Reasoning on Time-Series for Financial Technical Analysis](reasoning_on_time-series_for_financial_technical_analysis.md)
+- [\[AAAI 2026\] FreqCycle: A Multi-Scale Time-Frequency Analysis Method for Time Series Forecasting](../../AAAI2026/time_series/freqcycle_a_multi-scale_time-frequency_analysis_method_for_time_series_forecasti.md)
+- [\[ICLR 2026\] TimeSliver: Symbolic-Linear Decomposition for Explainable Time Series Classification](timesliver_symbolic-linear_decomposition_for_explainable_time_series_classificat.md)
+- [\[ICLR 2026\] Aurora: Towards Universal Generative Multimodal Time Series Forecasting](aurora_towards_universal_generative_multimodal_time_series_forecasting.md)
+- [\[ACL 2026\] TSAQA: Time Series Analysis Question And Answering Benchmark](../../ACL2026/time_series/tsaqa_time_series_analysis_question_and_answering_benchmark.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion
+description: >-
+  [ICLR 2026][学习增强算法][度量最小生成树] 本文把前作"一个组件选一个代表点"的度量森林补全（MFC）近似算法推广成"每个组件选一组代表点"的 MultiRepMFC，用一个可廉价计算的 cost 函数给出实例相关的 $\alpha$ 近似界，顺带把最坏情况近似比从 $2.62$（MFC）和 $2\gamma+1$（度量 MST）收紧到 $2$ 和 $2\gamma$ 并证明其紧性，且只需少量额外计算就能把生成树质量逼近最优。
+tags:
+  - "ICLR 2026"
+  - "学习增强算法"
+  - "图与度量空间"
+  - "度量最小生成树"
+  - "度量森林补全"
+  - "k-center"
+  - "近似算法"
+---
+
 # Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion
 
 **会议**: ICLR 2026  
-**OpenReview**: [TWmS4o41oA](https://openreview.net/forum?id=TWmS4o41oA)  
+**OpenReview**: [https://openreview.net/forum?id=TWmS4o41oA](https://openreview.net/forum?id=TWmS4o41oA)  
 **代码**: 待确认（基于前作 MFC-Approx 的开源 C++ 实现扩展）  
 **领域**: 学习增强算法 / 图与度量空间  
 **关键词**: 度量最小生成树, 学习增强算法, 度量森林补全, k-center, 近似算法
@@ -141,11 +156,11 @@ $$\min\ \mathrm{cost}(P,R)\quad \text{s.t.}\quad |R_i|\ge1,\ \sum_{i=1}^{t}(|R_i
 
 ## 相关论文
 
+- [\[ICLR 2026\] Online Rounding and Learning Augmented Algorithms for Facility Location](online_rounding_and_learning_augmented_algorithms_for_facility_location.md)
 - [\[ICML 2026\] Parsimonious Learning-Augmented Online Metric Matching](../../ICML2026/learning_theory/parsimonious_learning-augmented_online_metric_matching.md)
+- [\[ICLR 2026\] Decision-Theoretic Approaches for Improved Learning-Augmented Algorithms](decision-theoretic_approaches_for_improved_learning-augmented_algorithms.md)
 - [\[NeurIPS 2025\] Learning-Augmented Streaming Algorithms for Correlation Clustering](../../NeurIPS2025/learning_theory/learning-augmented_streaming_algorithms_for_correlation_clustering.md)
-- [\[ICLR 2026\] Better Bounds for the Distributed Experts Problem](better_bounds_for_the_distributed_experts_problem.md)
 - [\[ICLR 2026\] ATLAS: Alibaba Dataset and Benchmark for Learning-Augmented Scheduling](atlas_alibaba_dataset_and_benchmark_for_learning-augmented_scheduling.md)
-- [\[ICML 2025\] Learning-Augmented Algorithms for MTS with Bandit Access to Multiple Predictors](../../ICML2025/learning_theory/learning-augmented_algorithms_for_mts_with_bandit_access_to_multiple_predictors.md)
 
 </div>
 

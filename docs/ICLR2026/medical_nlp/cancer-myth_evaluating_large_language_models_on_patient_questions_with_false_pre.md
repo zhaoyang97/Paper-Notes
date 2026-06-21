@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cancer-Myth: Evaluating Large Language Models on Patient Questions with False Presuppositions
+description: >-
+  [ICLR2026][医疗 LLM][癌症患者问答] 本文构建了 Cancer-Myth——一个由肿瘤血液科医生核验、含 585 个"带错误前提"癌症患者问题的对抗数据集，发现包括 GPT-5、Gemini-2.5-Pro、Claude-4-Sonnet 在内的所有前沿 LLM 纠正错误前提的成功率都不超过 43%，且加防范性提示等缓解手段会在"无错误前提"问题上引发大量误纠正、并拖累其他医疗基准，揭示了医疗 LLM 在患者沟通安全上的关键缺口。
+tags:
+  - "ICLR2026"
+  - "医疗 LLM"
+  - "癌症患者问答"
+  - "错误前提"
+  - "LLM 安全"
+  - "对抗数据集"
+  - "医疗基准"
+---
+
 # Cancer-Myth: Evaluating Large Language Models on Patient Questions with False Presuppositions
 
 **会议**: ICLR2026  
-**OpenReview**: [fOXLhZIaUj](https://openreview.net/forum?id=fOXLhZIaUj)  
+**OpenReview**: [https://openreview.net/forum?id=fOXLhZIaUj](https://openreview.net/forum?id=fOXLhZIaUj)  
 **代码**: https://github.com/Bill1235813/cancer-myth  
 **领域**: 医疗 NLP / LLM 评测  
 **关键词**: 癌症患者问答, 错误前提, LLM 安全, 对抗数据集, 医疗基准
@@ -125,3 +140,19 @@ GEPA 防范性提示优化能把 Gemini-2.5-Pro 在 Cancer-Myth 上从 41% 拉�
 - 实验充分度: ⭐⭐⭐⭐⭐ 17 个模型 + 跨模型对抗分析 + 缓解策略副作用，覆盖全面。
 - 写作质量: ⭐⭐⭐⭐ 问题动机讲得清晰，图表丰富；流水线参数细节略需翻附录。
 - 价值: ⭐⭐⭐⭐⭐ 直指医疗 LLM 落地的真实安全缺口，对评测和安全研究都有强指导意义。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering](counselbench_a_large-scale_expert_evaluation_and_adversarial_benchmarking_of_lar.md)
+- [\[ICLR 2026\] Can Large Language Models Match the Conclusions of Systematic Reviews?](can_large_language_models_match_the_conclusions_of_systematic_reviews.md)
+- [\[AAAI 2026\] CliCARE: Grounding Large Language Models in Clinical Guidelines for Decision Support over Longitudinal Cancer Electronic Health Records](../../AAAI2026/medical_nlp/clicare_grounding_large_language_models_in_clinical_guidelines_for_decision_supp.md)
+- [\[ACL 2026\] Query Pipeline Optimization for Cancer Patient Question Answering Systems](../../ACL2026/medical_nlp/query_pipeline_optimization_for_cancer_patient_question_answering_systems.md)
+- [\[ACL 2026\] Beyond the Leaderboard: Rethinking Medical Benchmarks for Large Language Models](../../ACL2026/medical_nlp/beyond_the_leaderboard_rethinking_medical_benchmarks_for_large_language_models.md)
+
+</div>
+
+<!-- RELATED:END -->

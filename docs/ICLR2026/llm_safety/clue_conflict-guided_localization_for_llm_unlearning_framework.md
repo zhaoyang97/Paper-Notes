@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] CLUE: Conflict-guided Localization for LLM Unlearning Framework
+description: >-
+  [ICLR2026][LLM安全][LLM unlearning] CLUE 借助机制可解释性里的"电路发现"，分别抽出 forget set 和 retain set 的逻辑电路，把它们转成合取范式（CNF）后用 SAT 求解器判定每个节点该被遗忘、保留还是处于冲突状态，再对不同类别节点施加不同的微调目标，从而以更少的改动参数同时获得更强的遗忘效果和保留效用。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "LLM unlearning"
+  - "电路发现"
+  - "CNF 可满足性"
+  - "神经元定位"
+  - "冲突节点"
+---
+
 # CLUE: Conflict-guided Localization for LLM Unlearning Framework
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [jtRYvazBWv](https://openreview.net/forum?id=jtRYvazBWv)  
+**OpenReview**: [https://openreview.net/forum?id=jtRYvazBWv](https://openreview.net/forum?id=jtRYvazBWv)  
 **代码**: https://github.com/Zodiark-ch/CLUE  
 **领域**: LLM安全 / 机器遗忘 / 机制可解释性  
 **关键词**: LLM unlearning, 电路发现, CNF 可满足性, 神经元定位, 冲突节点
@@ -134,3 +148,19 @@ $$\min_{\theta_c}\ \mathbb{E}_{(x,y_f)\in D_f}[\mathcal{L}(y_f\mid x;\cdot)] + \
 - 实验充分度: ⭐⭐⭐⭐ 三任务 × 四 retain 集 × 多基线对比 + 消融，较充分；但回避了 TOFU 等常用基准、retain 集偏小。
 - 写作质量: ⭐⭐⭐⭐ 三步定位 + 两阶段微调的逻辑清晰，配图到位；部分逻辑门简化与证明藏在附录。
 - 价值: ⭐⭐⭐⭐⭐ 用更少参数改动同时提升遗忘与保留，且高度可解释，对 LLM 安全/可控编辑有实用价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2026\] Representation-Guided Parameter-Efficient LLM Unlearning](../../ACL2026/llm_safety/representation-guided_parameter-efficient_llm_unlearning.md)
+- [\[ICLR 2026\] DUET: Distilled LLM Unlearning from an Efficiently Contextualized Teacher](duet_distilled_llm_unlearning_from_an_efficiently_contextualized_teacher.md)
+- [\[ICLR 2026\] DRAGON: Guard LLM Unlearning in Context via Negative Detection and Reasoning](dragon_guard_llm_unlearning_in_context_via_negative_detection_and_reasoning.md)
+- [\[ICLR 2026\] OFMU: Optimization-Driven Framework for Machine Unlearning](ofmu_optimization-driven_framework_for_machine_unlearning.md)
+- [\[ICLR 2026\] Explainable LLM Unlearning through Reasoning](explainable_llm_unlearning_through_reasoning.md)
+
+</div>
+
+<!-- RELATED:END -->

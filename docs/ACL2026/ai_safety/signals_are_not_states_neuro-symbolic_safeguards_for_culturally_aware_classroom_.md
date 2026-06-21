@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Signals Are Not States: Neuro-Symbolic Safeguards for Culturally Aware Classroom AI
+description: >-
+  [ACL 2026][AI安全][课堂AI] 论文主张课堂 AI 不该把"沉默、回避眼神、语码转换"这类文化情境化的信号直接读成"低参与、不专心、能力差"的教育判断，提出神经符号框架 NSCR：先把多模态信号落成带不确定性、来源和**文化作用域**的类型化事实，再通过可执行推理与治理策略组合出有据声明，证据不足或有刻板印象风险时**主动弃答（DEFER）**。
+tags:
+  - "ACL 2026"
+  - "AI安全"
+  - "课堂AI"
+  - "刻板印象"
+  - "神经符号"
+  - "文化作用域"
+  - "弃答"
+---
+
 # Signals Are Not States: Neuro-Symbolic Safeguards for Culturally Aware Classroom AI
 
 **会议**: ACL 2026  

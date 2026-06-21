@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] From Shortcuts to Reasoning: Robust Post-Training of Theory of Mind with Reinforcement Learning
+description: >-
+  [ICML 2026][VLM Reasoning][Theory of Mind] 作者先揭示主流 ToM 数据集被"捷径"污染（不靠真正心智推理、靠虚假相关就能刷到 99%），提出一个轻量审计框架把这些数据集筛掉，再在四个无捷径数据集上系统证明：带显式推理链的强化微调（Thinking-RFT）比 SFT 平均高 6%、在高阶/多模态场景高 10% 左右，且泛化和反事实鲁棒性都更好——因为 RL 教会模型把推理锚定在真正的因果线索上。
+tags:
+  - "ICML 2026"
+  - "VLM Reasoning"
+  - "Theory of Mind"
+  - "RLVR"
+  - "Thinking-RFT"
+  - "数据捷径(shortcut)"
+  - "可验证奖励"
+---
+
 # From Shortcuts to Reasoning: Robust Post-Training of Theory of Mind with Reinforcement Learning
 
 **会议**: ICML 2026  

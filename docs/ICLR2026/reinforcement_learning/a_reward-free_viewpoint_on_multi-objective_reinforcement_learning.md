@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Reward-Free Viewpoint on Multi-Objective Reinforcement Learning
+description: >-
+  [ICLR 2026][强化学习][多目标强化学习] 本文首次把无奖励强化学习（RFRL）的 Forward-Backward 框架搬到多目标强化学习（MORL）上，提出 MORL-FB：用偏好引导的探索构造与 MORL 任务真正相关的潜向量 $z$，再配一个辅助 Q 损失，让一个偏好条件策略在 MO-Gymnasium 上以更高样本效率显著超过 PD-MORL、Q-Pensieve 等 SOTA。
+tags:
+  - "ICLR 2026"
+  - "强化学习"
+  - "多目标强化学习"
+  - "无奖励强化学习"
+  - "Forward-Backward 表示"
+  - "偏好引导探索"
+  - "辅助任务"
+---
+
 # A Reward-Free Viewpoint on Multi-Objective Reinforcement Learning
 
 **会议**: ICLR 2026  
-**OpenReview**: [IwiwmY3Mzz](https://openreview.net/forum?id=IwiwmY3Mzz)  
+**OpenReview**: [https://openreview.net/forum?id=IwiwmY3Mzz](https://openreview.net/forum?id=IwiwmY3Mzz)  
 **代码**: https://rl-bandits-lab.github.io/MORL-FB/  
 **领域**: 强化学习 / 多目标 RL  
 **关键词**: 多目标强化学习, 无奖励强化学习, Forward-Backward 表示, 偏好引导探索, 辅助任务
@@ -134,11 +149,11 @@ $$L_Q(F_\theta; z_\lambda) = \mathbb{E}_{(s,a,r,s')\sim \mathcal{D}}\Big[\big(F_
 
 ## 相关论文
 
-- [\[ICML 2026\] From Reward-Free Representations to Preferences: Rethinking Offline Preference-Based Reinforcement Learning](../../ICML2026/reinforcement_learning/from_reward-free_representations_to_preferences_rethinking_offline_preference-ba.md)
 - [\[ICLR 2026\] BoreaRL: A Multi-Objective Reinforcement Learning Environment for Climate-Adaptive Boreal Forest Management](borearl_a_multi-objective_reinforcement_learning_environment_for_climate-adaptiv.md)
 - [\[ICLR 2026\] RLP: Reinforcement as a Pretraining Objective](rlp_reinforcement_as_a_pretraining_objective.md)
 - [\[ICLR 2026\] Robust Multi-Objective Controlled Decoding of Large Language Models](robust_multi-objective_controlled_decoding_of_large_language_models.md)
 - [\[ICLR 2026\] AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification](amped_adaptive_multi-objective_projection_for_balancing_exploration_and_skill_di.md)
+- [\[ICML 2026\] From Reward-Free Representations to Preferences: Rethinking Offline Preference-Based Reinforcement Learning](../../ICML2026/reinforcement_learning/from_reward-free_representations_to_preferences_rethinking_offline_preference-ba.md)
 
 </div>
 

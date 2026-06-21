@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Ensembling Sparse Autoencoders
+description: >-
+  [ICML2026][可解释性][稀疏自编码器] 单个稀疏自编码器（SAE）只能捕获激活空间里有限的一部分特征，这篇论文把监督学习里的 bagging 和 boosting 搬到 SAE 上，证明「集成多个 SAE 的重建」在数学上等价于「拼接它们的特征字典」，并用 naive bagging 和 boosting 两种实现同时改善了重建质量、特征稳定性与下游任务表现。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "稀疏自编码器"
+  - "集成学习"
+  - "Bagging"
+  - "Boosting"
+  - "特征可解释性"
+---
+
 # Ensembling Sparse Autoencoders
 
 **会议**: ICML2026  

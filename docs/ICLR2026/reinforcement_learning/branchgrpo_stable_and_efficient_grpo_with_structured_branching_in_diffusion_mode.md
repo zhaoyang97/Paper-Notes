@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models
+description: >-
+  [ICLR2026][强化学习][GRPO] BranchGRPO 把扩散/流模型上 GRPO 的"逐条独立采样"改造成一棵共享前缀的分支树，靠树结构同时解决两件事——分支复用前缀摊薄采样开销、叶子奖励反向融合成按深度归一的稠密步级优势——再叠加宽/深剪枝只对有价值子集回传梯度，在 HPSv2.1 图像对齐上比 DanceGRPO 提升最高 16%、单轮训练时间降近 55%，混合变体可达 4.7× 加速。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "GRPO"
+  - "扩散模型对齐"
+  - "树状 rollout"
+  - "稠密奖励"
+  - "信用分配"
+---
+
 # BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models
 
 **会议**: ICLR2026  
-**OpenReview**: [T2nP2IQasd](https://openreview.net/forum?id=T2nP2IQasd)  
+**OpenReview**: [https://openreview.net/forum?id=T2nP2IQasd](https://openreview.net/forum?id=T2nP2IQasd)  
 **代码**: 未公开（论文未给出链接）  
 **领域**: 对齐RLHF / 扩散模型  
 **关键词**: GRPO, 扩散模型对齐, 树状 rollout, 稠密奖励, 信用分配
@@ -138,11 +153,11 @@ $$J(\theta) = \mathbb{E}\left[\frac{1}{|E|}\sum_{e \in E} \min\left(\rho_e(\thet
 
 ## 相关论文
 
-- [\[ICML 2026\] Revisiting Regularized Policy Optimization for Stable and Efficient Reinforcement Learning in Two-Player Games](../../ICML2026/reinforcement_learning/revisiting_regularized_policy_optimization_for_stable_and_efficient_reinforcemen.md)
-- [\[ICML 2026\] Learning Unmasking Policies for Diffusion Language Models](../../ICML2026/reinforcement_learning/learning_unmasking_policies_for_diffusion_language_models.md)
-- [\[ICLR 2026\] Efficient Estimation of Kernel Surrogate Models for Task Attribution](efficient_estimation_of_kernel_surrogate_models_for_task_attribution.md)
 - [\[ICLR 2026\] Balancing the Experts: Unlocking LoRA-MoE for GRPO via Mechanism-Aware Rewards](balancing_the_experts_unlocking_lora-moe_for_grpo_via_mechanism-aware_rewards.md)
-- [\[NeurIPS 2025\] Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models](../../NeurIPS2025/reinforcement_learning/reinforcing_the_diffusion_chain_of_lateral_thought_with_diffusion_language_model.md)
+- [\[ICLR 2026\] Composition of Memory Experts for Diffusion World Models](composition_of_memory_experts_for_diffusion_world_models.md)
+- [\[ACL 2026\] d-TreeRPO: Towards More Reliable Policy Optimization for Diffusion Language Models](../../ACL2026/reinforcement_learning/d-treerpo_towards_more_reliable_policy_optimization_for_diffusion_language_model.md)
+- [\[ICLR 2026\] SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models](spg_sandwiched_policy_gradient_for_masked_diffusion_language_models.md)
+- [\[ICML 2026\] Learning Unmasking Policies for Diffusion Language Models](../../ICML2026/reinforcement_learning/learning_unmasking_policies_for_diffusion_language_models.md)
 
 </div>
 

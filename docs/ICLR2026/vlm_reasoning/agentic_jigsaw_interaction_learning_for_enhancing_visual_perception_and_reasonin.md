@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models
+description: >-
+  [ICLR2026][VLM Reasoning][视觉语言模型] AGILE 把"解拼图"重新定义成一个让模型一步步写代码、观察环境反馈的交互过程，再配上可任意扩展的程序化合成数据 + 冷启动 SFT + GRPO 强化学习，把 Qwen2.5-VL-7B 在 2×2 拼图上的准确率从 9.5% 拉到 82.8%，并迁移到 9 个通用视觉基准上平均涨 3.1%。
+tags:
+  - "ICLR2026"
+  - "VLM Reasoning"
+  - "视觉语言模型"
+  - "拼图代理"
+  - "交互式强化学习"
+  - "GRPO"
+  - "感知与推理"
+---
+
 # Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [3kouij8BWi](https://openreview.net/forum?id=3kouij8BWi)  
+**OpenReview**: [https://openreview.net/forum?id=3kouij8BWi](https://openreview.net/forum?id=3kouij8BWi)  
 **代码**: https://github.com/yuzeng0-0/AGILE  
 **领域**: 多模态VLM / LLM推理  
 **关键词**: 视觉语言模型, 拼图代理, 交互式强化学习, GRPO, 感知与推理
@@ -139,11 +154,11 @@ $$R_{step} = \lambda \cdot \left( \mathbb{I}_{\{R_{acc}=1\}} \cdot step_{num} + 
 
 ## 相关论文
 
+- [\[ICLR 2026\] MedVR: Annotation-Free Medical Visual Reasoning via Agentic Reinforcement Learning](medvr_annotation-free_medical_visual_reasoning_via_agentic_reinforcement_learnin.md)
+- [\[ICLR 2026\] VisionReasoner: Unified Reasoning-Integrated Visual Perception via Reinforcement Learning](visionreasoner_unified_reasoning-integrated_visual_perception_via_reinforcement_.md)
 - [\[CVPR 2026\] BOP-Ask: Object-Interaction Reasoning for Vision-Language Models](../../CVPR2026/vlm_reasoning/bop-ask_object-interaction_reasoning_for_vision-language_models.md)
-- [\[ICML 2026\] Active Exploring like a Pigeon: Reinforcing Spatial Reasoning via Agentic Vision-Language Models](../../ICML2026/vlm_reasoning/active_exploring_like_a_pigeon_reinforcing_spatial_reasoning_via_agentic_vision-.md)
-- [\[CVPR 2026\] Improving Vision-language Models with Perception-centric Process Reward Models](../../CVPR2026/vlm_reasoning/improving_vision-language_models_with_perception-centric_process_reward_models.md)
-- [\[ICLR 2026\] Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks](agent-x_evaluating_deep_multimodal_reasoning_in_vision-centric_agentic_tasks.md)
-- [\[CVPR 2026\] Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models](../../CVPR2026/vlm_reasoning/learning_to_reason_in_4d_dynamic_spatial_understanding_for_vision_language_model.md)
+- [\[CVPR 2026\] MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models](../../CVPR2026/vlm_reasoning/moe-grpo_optimizing_mixture-of-experts_via_reinforcement_learning_in_vision-lang.md)
+- [\[ICLR 2026\] Mini-o3: Scaling Up Reasoning Patterns and Interaction Turns for Visual Search](mini-o3_scaling_up_reasoning_patterns_and_interaction_turns_for_visual_search.md)
 
 </div>
 

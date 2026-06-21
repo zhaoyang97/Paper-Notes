@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] EPS3D: End-to-End Feed-Forward 3D Panoptic Segmentation
+description: >-
+  [ICML2026][3D视觉][开放词表] EPS3D 是首个端到端前馈的开放词表 3D 全景分割框架：从无位姿多视图图像一次前向直接预测带语义/实例属性的统一 3D 全景高斯，靠 2D 基础模型蒸馏监督摆脱 3D 标注，并用语义-实例互增强模块让两路预测相互校正，在 Replica 上语义 mIoU 比 SOTA 高约 13%、每个场景仅需 1 秒。
+tags:
+  - "ICML2026"
+  - "3D视觉"
+  - "开放词表"
+  - "3D全景分割"
+  - "前馈重建"
+  - "3D高斯"
+  - "语义实例互增强"
+---
+
 # EPS3D: End-to-End Feed-Forward 3D Panoptic Segmentation
 
 **会议**: ICML2026  

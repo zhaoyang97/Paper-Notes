@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Native Active Perception as Reasoning for Omni-Modal Understanding
+description: >-
+  [ICML 2026][VLM Reasoning][主动感知] OmniAgent 把长视频理解从「把每一帧都看一遍」的被动范式改成「按查询需要、迭代地去看」的主动感知，用 Observation-Thought-Action 循环在一个原生全模态模型里把音视频线索蒸馏进持久文本记忆、即时丢弃原始媒体，从而让推理代价与视频时长解耦；配合 Agentic SFT 冷启 + 带 TAURA 的 Agentic RL，7B 模型在 LVBench 上 50.5% 反超 10 倍大的 Qwen2.5-VL-72B（47.3%），且推理轮数越多性能越好（正向 test-time scaling）。
+tags:
+  - "ICML 2026"
+  - "VLM Reasoning"
+  - "主动感知"
+  - "POMDP"
+  - "长视频理解"
+  - "Agentic RL"
+  - "test-time scaling"
+---
+
 # Native Active Perception as Reasoning for Omni-Modal Understanding
 
 **会议**: ICML 2026  

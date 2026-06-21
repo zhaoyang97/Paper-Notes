@@ -16,7 +16,7 @@ tags:
 # Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks
 
 **会议**: ICLR2026  
-**OpenReview**: [JxmjzC6syB](https://openreview.net/forum?id=JxmjzC6syB)  
+**OpenReview**: [https://openreview.net/forum?id=JxmjzC6syB](https://openreview.net/forum?id=JxmjzC6syB)  
 **代码**: https://github.com/humancompatible/train  
 **领域**: AI 安全 / 公平机器学习  
 **关键词**: 公平性约束、约束 ERM、随机近似、增广拉格朗日、benchmark
@@ -135,9 +135,9 @@ benchmark 的"真实性"靠数据撑起来：基于美国社区调查（ACS，�
 
 - [\[ECCV 2024\] Unveiling Privacy Risks in Stochastic Neural Networks Training: Effective Image Reconstruction from Gradients](../../ECCV2024/ai_safety/unveiling_privacy_risks_in_stochastic_neural_networks_training_effective_image_r.md)
 - [\[ICLR 2026\] Robust Spiking Neural Networks Against Adversarial Attacks](robust_spiking_neural_networks_against_adversarial_attacks.md)
+- [\[ICLR 2026\] Robustify Spiking Neural Networks via Dominant Singular Deflation under Heterogeneous Training Vulnerability](robustify_spiking_neural_networks_via_dominant_singular_deflation_under_heteroge.md)
 - [\[ICML 2026\] Singular Bayesian Neural Networks](../../ICML2026/ai_safety/singular_bayesian_neural_networks.md)
 - [\[ICLR 2026\] ATEX-CF: Attack-Informed Counterfactual Explanations for Graph Neural Networks](atex-cf_attack-informed_counterfactual_explanations_for_graph_neural_networks.md)
-- [\[ICLR 2026\] Time Is All It Takes: Spike-Retiming Attacks on Event-Driven Spiking Neural Networks](time_is_all_it_takes_spike-retiming_attacks_on_event-driven_spiking_neural_netwo.md)
 
 </div>
 

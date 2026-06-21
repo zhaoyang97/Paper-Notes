@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Learning Credal Ensembles via Distributionally Robust Optimization
+description: >-
+  [ICML2026][学习理论][认知不确定性] CreDRO 把「认知不确定性」重新定义为**不同训练-测试分布偏移假设下模型之间的分歧**，用分布鲁棒优化（DRO）给集成中每个成员分配不同的偏移强度来训练，再把它们的 softmax 转成类别概率区间、构成一个箱式 credal 集来量化不确定性，从而在 OOD 检测和医疗选择性分类上稳定超过现有 credal 方法。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "不确定性量化"
+  - "认知不确定性"
+  - "credal集"
+  - "分布鲁棒优化"
+  - "深度集成"
+  - "OOD检测"
+---
+
 # Learning Credal Ensembles via Distributionally Robust Optimization
 
 **会议**: ICML2026  

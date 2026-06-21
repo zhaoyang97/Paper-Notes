@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Full-Batch Gradient Descent Outperforms One-Pass SGD: Sample Complexity Separation in Single-Index Learning
+description: >-
+  [ICML2026][优化/理论][单指标模型] 本文在二次激活的高斯单指标模型里严格证明：朴素二次激活下"重复使用全部数据"的全批量梯度下降并不比一遍式 SGD 更省样本（都要 $n\gtrsim d\log d$），但只要把激活**截断**一下，全批量 GD 就能在 $n\gtrsim d$（线性样本量）下实现弱恢复甚至强恢复，从而与仍需 $d\log d$ 的一遍式 SGD 拉开一个 $\log d$ 的样本复杂度差距。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "单指标模型"
+  - "样本复杂度"
+  - "全批量梯度下降"
+  - "相位恢复"
+  - "BBP 相变"
+---
+
 # Full-Batch Gradient Descent Outperforms One-Pass SGD: Sample Complexity Separation in Single-Index Learning
 
 **会议**: ICML2026  

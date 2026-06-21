@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] A Machine-Learned Comorbidity Index
+description: >-
+  [ICML2026][医疗 LLM][共病指数] 传统共病评分（Charlson、Elixhauser）是为死亡率手工调权的线性规则，换个临床结局就失准；本文用神经网络把一次住院的 ICD 诊断码压成一个标量分数，并通过**最大化该分数与多个临床结局之间的归一化 HSIC（核依赖）**来训练，使这一个分数能在死亡、再入院、住院时长、ICU 转入等多结局上给出一致的严重度排序，在 MIMIC-III/IV 上的依赖性指标显著超过传统指数与多种机器学习基线。
+tags:
+  - "ICML2026"
+  - "医疗 LLM"
+  - "共病指数"
+  - "ICD 诊断码"
+  - "HSIC"
+  - "多结局学习"
+  - "患者分层"
+---
+
 # A Machine-Learned Comorbidity Index
 
 **会议**: ICML2026  

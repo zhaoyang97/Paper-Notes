@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A²TG: Adaptive Anisotropic Textured Gaussians for Efficient 3D Scene Representation
+description: >-
+  [ICLR2026][3D视觉][高斯泼溅] A²TG 给每个 2D 高斯配一张分辨率和长宽比都自适应的「各向异性纹理」，用梯度驱动的选择 + 升采样规则把纹理参数只花在真正需要高频细节的高斯上，从而在相同显存预算下比固定方形纹理的高斯泼溅画质更高、显存更省。 领域现状：3D Gaussian Splatting（3DGS）…
+tags:
+  - "ICLR2026"
+  - "3D视觉"
+  - "高斯泼溅"
+  - "纹理高斯"
+  - "各向异性纹理"
+  - "自适应分辨率"
+  - "内存效率"
+---
+
 # A²TG: Adaptive Anisotropic Textured Gaussians for Efficient 3D Scene Representation
 
 **会议**: ICLR2026  
-**OpenReview**: [EPN5MU4liR](https://openreview.net/forum?id=EPN5MU4liR)  
+**OpenReview**: [https://openreview.net/forum?id=EPN5MU4liR](https://openreview.net/forum?id=EPN5MU4liR)  
 **代码**: 待确认  
 **领域**: 3D视觉 / Gaussian Splatting / 场景表示  
 **关键词**: 高斯泼溅, 纹理高斯, 各向异性纹理, 自适应分辨率, 内存效率
@@ -131,11 +146,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICLR 2026\] ComGS: Efficient 3D Object-Scene Composition via Surface Octahedral Probes](comgs_efficient_3d_object-scene_composition_via_surface_octahedral_probes.md)
 - [\[CVPR 2025\] Textured Gaussians for Enhanced 3D Scene Appearance Modeling](../../CVPR2025/3d_vision/textured_gaussians_for_enhanced_3d_scene_appearance_modeling.md)
 - [\[CVPR 2026\] SGI: Structured 2D Gaussians for Efficient and Compact Large Image Representation](../../CVPR2026/3d_vision/sgi_structured_2d_gaussians_for_efficient_and_compact_large_image_representation.md)
 - [\[ICLR 2026\] MEGS2: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning](megs2_memory-efficient_gaussian_splatting_via_spherical_gaussians_and_unified_pr.md)
 - [\[CVPR 2026\] EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement](../../CVPR2026/3d_vision/efficientvpr_toward_efficient_visual_place_recognition_via_scene-aware_prompt_tu.md)
-- [\[CVPR 2026\] SwiftTailor: Efficient 3D Garment Generation with Geometry Image Representation](../../CVPR2026/3d_vision/swifttailor_efficient_3d_garment_generation_with_geometry_image_representation.md)
 
 </div>
 

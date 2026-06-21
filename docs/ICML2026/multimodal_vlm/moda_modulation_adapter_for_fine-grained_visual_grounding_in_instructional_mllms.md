@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MoDA: Modulation Adapter for Fine-Grained Visual Grounding in Instructional MLLMs
+description: >-
+  [ICML2026][多模态VLM][多模态大模型] 针对 MLLM 因 ViT patch 表示里"多种视觉语义纠缠在一起"而难以做细粒度视觉定位的问题，本文提出轻量模块 MoDA——在已对齐的视觉特征上、由语言指令通过交叉注意力生成一个 $[0,1]$ 的**通道级软掩码**，用 Hadamard 乘法逐通道地放大与指令相关的特征维度、抑制无关维度；它即插即用、不改 MLLM 架构、不需额外监督，在 12 个基准、3 个 MLLM 架构上一致涨点（LLaVA-1.5 上 MMVP +12.0），而开销不到 1% FLOPs。
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "多模态大模型"
+  - "通道级调制"
+  - "交叉注意力"
+  - "视觉定位"
+  - "适配器"
+---
+
 # MoDA: Modulation Adapter for Fine-Grained Visual Grounding in Instructional MLLMs
 
 **会议**: ICML2026  

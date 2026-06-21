@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive gradient descent on Riemannian manifolds and its applications to Gaussian variational inference
+description: >-
+  [ICLR2026][优化/理论][黎曼优化] 本文提出 RAdaGD——一族无需线搜索的黎曼流形自适应梯度下降方法，通过在线估计局部光滑常数自动调步长，在"局部测地光滑 + 广义测地凸"的弱假设下取得非遍历收敛率 $f(x_k)-f(x^\star)\le O(1/k)$，并据此给出高斯变分推断在目标对数密度**不满足全局 L-光滑**时的首个收敛保证。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "黎曼优化"
+  - "自适应步长"
+  - "收敛率"
+  - "高斯变分推断"
+  - "Bures-Wasserstein 几何"
+---
+
 # Adaptive gradient descent on Riemannian manifolds and its applications to Gaussian variational inference
 
 **会议**: ICLR2026  
-**OpenReview**: [2TTQjRkgFn](https://openreview.net/forum?id=2TTQjRkgFn)  
+**OpenReview**: [https://openreview.net/forum?id=2TTQjRkgFn](https://openreview.net/forum?id=2TTQjRkgFn)  
 **代码**: https://github.com/wldyddl5510/RAdaGD  
 **领域**: optimization  
 **关键词**: 黎曼优化, 自适应步长, 收敛率, 高斯变分推断, Bures-Wasserstein 几何
@@ -123,10 +138,10 @@ $$V_k=s_{k+1}A_k(f(x_k)-f^\star)+\tfrac12 s_k^2 B_k\|\mathrm{Grad}\,f(x_k)\|^2+\
 ## 相关论文
 
 - [\[NeurIPS 2025\] An Adaptive Algorithm for Bilevel Optimization on Riemannian Manifolds](../../NeurIPS2025/optimization/an_adaptive_algorithm_for_bilevel_optimization_on_riemannian_manifolds.md)
+- [\[ICLR 2026\] Strongly Convex Sets in Riemannian Manifolds](strongly_convex_sets_in_riemannian_manifolds.md)
+- [\[ICLR 2026\] Riemannian Zeroth-Order Gradient Estimation with Structure-Preserving Metrics for Geodesically Incomplete Manifolds](riemannian_zeroth-order_gradient_estimation_with_structure-preserving_metrics_fo.md)
+- [\[ICLR 2026\] Corner Gradient Descent](corner_gradient_descent.md)
 - [\[NeurIPS 2025\] Natural Gradient Descent for Improving Variational Inference Based Classification of Radio Galaxies](../../NeurIPS2025/optimization/natural_gradient_descent_for_improving_variational_inference_based_classificatio.md)
-- [\[ICLR 2026\] A Tale of Two Geometries: Adaptive Optimizers and Non-Euclidean Descent](a_tale_of_two_geometries_adaptive_optimizers_and_non-euclidean_descent.md)
-- [\[NeurIPS 2025\] Least Squares Variational Inference](../../NeurIPS2025/optimization/least_squares_variational_inference.md)
-- [\[NeurIPS 2025\] From Average-Iterate to Last-Iterate Convergence in Games: A Reduction and Its Applications](../../NeurIPS2025/optimization/from_average-iterate_to_last-iterate_convergence_in_games_a_reduction_and_its_ap.md)
 
 </div>
 

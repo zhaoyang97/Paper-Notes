@@ -16,7 +16,7 @@ tags:
 # Masked Skill Token Training for Hierarchical Off-Dynamics Transfer
 
 **会议**: ICLR 2026  
-**OpenReview**: [K4ngUOra9m](https://openreview.net/forum?id=K4ngUOra9m)  
+**OpenReview**: [https://openreview.net/forum?id=K4ngUOra9m](https://openreview.net/forum?id=K4ngUOra9m)  
 **代码**: 待确认  
 **领域**: 强化学习 / 离线分层 RL / 跨动力学迁移  
 **关键词**: off-dynamics 迁移, 离线分层 RL, 技能 token, 掩码 Bellman, 扩散策略
@@ -149,11 +149,11 @@ $$(T^m Q)(s,a):=r(s)+\gamma\big\langle m(s,a)\,p(s,a),\,V^m_Q\big\rangle,\qquad 
 
 ## 相关论文
 
+- [\[ICLR 2026\] MOBODY: Model-Based Off-Dynamics Offline Reinforcement Learning](mobody_model-based_off-dynamics_offline_reinforcement_learning.md)
 - [\[ICLR 2026\] Breaking Barriers: Do Reinforcement Post Training Gains Transfer To Unseen Domains?](breaking_barriers_do_reinforcement_post_training_gains_transfer_to_unseen_domain.md)
 - [\[ICLR 2026\] Self-Improving Skill Learning for Robust Skill-based Meta-Reinforcement Learning](self-improving_skill_learning_for_robust_skill-based_meta-reinforcement_learning.md)
 - [\[ICLR 2026\] Spotlight on Token Perception for Multimodal Reinforcement Learning](spotlight_on_token_perception_for_multimodal_reinforcement_learning.md)
-- [\[ICLR 2026\] SUSD: Structured Unsupervised Skill Discovery through State Factorization](susd_structured_unsupervised_skill_discovery_through_state_factorization.md)
-- [\[AAAI 2026\] Thinker: Training LLMs in Hierarchical Thinking for Deep Search via Multi-Turn Interaction](../../AAAI2026/reinforcement_learning/thinker_training_llms_in_hierarchical_thinking_for_deep_search_via_multi-turn_in.md)
+- [\[ICLR 2026\] Reference Grounded Skill Discovery](reference_grounded_skill_discovery.md)
 
 </div>
 

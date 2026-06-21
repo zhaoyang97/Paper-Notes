@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models
+description: >-
+  [ICML 2026][LLM对齐][价值对齐] 针对「用 LLM 给价值打绝对分极不稳定、且没法控制价值表达强度」的难题，本文提出 VALUEFLOW——一个把价值「抽取—评测—引导」串成一条流水线的统一框架，核心是分层价值嵌入空间 HIVES、用 Plackett–Luce 排序聚合得到的价值强度库 VIDB，以及基于锚点排序的强度评测器，并在 10 个模型、4 套价值理论上系统刻画了 LLM 的可引导性规律。
+tags:
+  - "ICML 2026"
+  - "LLM对齐"
+  - "价值对齐"
+  - "价值多元"
+  - "可控强度"
+  - "排序式评测"
+  - "层次化嵌入"
+---
+
 # VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models
 
 **会议**: ICML 2026  

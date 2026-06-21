@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bilateral Information-aware Test-time Adaptation for Vision-Language Models
+description: >-
+  [ICLR2026][多模态VLM][测试时适应] 针对 CLIP 这类视觉语言模型在测试时适应（TTA）时只用"固定比例低熵样本"导致过拟合非典型特征的问题，本文提出 BITTA：同时用**动态比例**的低熵样本"学习"核心表征、用高熵样本"反学习"非典型特征，在 CIFAR-10/100-C、ImageNet-C 等损坏数据集上把多种 TTA 方法的平均准确率稳定提升约 1–2 个点。
+tags:
+  - "ICLR2026"
+  - "多模态VLM"
+  - "测试时适应"
+  - "CLIP"
+  - "熵最小化"
+  - "反学习"
+  - "鲁棒性"
+---
+
 # Bilateral Information-aware Test-time Adaptation for Vision-Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [vv8EcCoBfr](https://openreview.net/forum?id=vv8EcCoBfr)  
+**OpenReview**: [https://openreview.net/forum?id=vv8EcCoBfr](https://openreview.net/forum?id=vv8EcCoBfr)  
 **代码**: https://github.com/tmlr-group/BITTA  
 **领域**: 多模态VLM / 测试时适应  
 **关键词**: 测试时适应, CLIP, 熵最小化, 反学习, 鲁棒性
@@ -96,6 +111,7 @@ BITTA 在不同视觉骨干（ViT-B/16、ViT-B/32）上均稳定超越 TPT、TDA
 在 ResNet101 / ViTBase 上对 MEMO、SAR 也同样有效（如 SAR+BITTA 在 ImageNet-C Gaussian 从 52.83→56.27）。
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | 更新步数 1→4 | 步数越多越掉点 | 单 batch 连续更新会丢先验知识，故定为 1 步 |
@@ -138,11 +154,11 @@ BITTA 在不同视觉骨干（ViT-B/16、ViT-B/32）上均稳定超越 TPT、TDA
 
 ## 相关论文
 
+- [\[ICLR 2026\] Flatness-Guided Test-Time Adaptation for Vision-Language Models](flatness_guided_test-time_adaptation_for_vision-language_models.md)
 - [\[CVPR 2025\] Realistic Test-Time Adaptation of Vision-Language Models](../../CVPR2025/multimodal_vlm/realistic_test-time_adaptation_of_vision-language_models.md)
 - [\[CVPR 2026\] Dynamic Logits Adjustment and Exploration for Test-Time Adaptation in Vision Language Models](../../CVPR2026/multimodal_vlm/dynamic_logits_adjustment_and_exploration_for_test-time_adaptation_in_vision_lan.md)
 - [\[NeurIPS 2025\] DOTA: DistributiOnal Test-time Adaptation of Vision-Language Models](../../NeurIPS2025/multimodal_vlm/dota_distributional_testtime_adaptation_of_visionlanguage_mo.md)
 - [\[CVPR 2026\] STAR: Test-Time Adaptation Can Enhance Universal Prompt Learning for Vision-Language Models](../../CVPR2026/multimodal_vlm/star_test-time_adaptation_can_enhance_universal_prompt_learning_for_vision-langu.md)
-- [\[AAAI 2026\] Panda: Test-Time Adaptation with Negative Data Augmentation](../../AAAI2026/multimodal_vlm/panda_test-time_adaptation_with_negative_data_augmentation.md)
 
 </div>
 

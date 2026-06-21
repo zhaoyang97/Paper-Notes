@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AQER: A Scalable and Efficient Data Loader for Digital Quantum Computers
+description: >-
+  [ICLR2026][物理/科学计算][近似量子加载器] 本文把五花八门的近似量子加载器（AQL）统一成一个"最小化目标态与电路输出态距离"的优化问题，并证明加载的近似误差由一种新提出的纠缠度量 $S$ 线性主导；据此设计了 AQER——通过贪心地往电路里追加两比特门块逐步削减纠缠，再用解析单比特旋转和参数微调收尾，在 MNIST/CIFAR-10/SST-2 等经典数据和最多 50 比特的量子多体态上都以更少的两比特门取得更低的不保真度。
+tags:
+  - "ICLR2026"
+  - "物理/科学计算"
+  - "近似量子加载器"
+  - "量子态制备"
+  - "纠缠度量"
+  - "信息论界"
+  - "变分量子电路"
+---
+
 # AQER: A Scalable and Efficient Data Loader for Digital Quantum Computers
 
 **会议**: ICLR2026  
-**OpenReview**: [0zKfU1rsXd](https://openreview.net/forum?id=0zKfU1rsXd)  
+**OpenReview**: [https://openreview.net/forum?id=0zKfU1rsXd](https://openreview.net/forum?id=0zKfU1rsXd)  
 **代码**: 有（论文称已开源于 GitHub，⚠️ 具体仓库地址以原文为准）  
 **领域**: 量子计算 / 量子机器学习  
 **关键词**: 近似量子加载器, 量子态制备, 纠缠度量, 信息论界, 变分量子电路
@@ -147,9 +162,9 @@ Step I 的每次迭代用 Nelder–Mead 法优化 $\alpha_t$（收敛容差 $10^
 
 - [\[ICLR 2026\] Accelerating Inference for Multilayer Neural Networks with Quantum Computers](accelerating_inference_for_multilayer_neural_networks_with_quantum_computers.md)
 - [\[ICLR 2026\] DGNet: Discrete Green Networks for Data-Efficient Learning of Spatiotemporal PDEs](dgnet_discrete_green_networks_for_data-efficient_learning_of_spatiotemporal_pdes.md)
+- [\[ICLR 2026\] Learning Data-Efficient and Generalizable Neural Operators via Fundamental Physics Knowledge](learning_data-efficient_and_generalizable_neural_operators_via_fundamental_physi.md)
 - [\[CVPR 2025\] ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks](../../CVPR2025/physics/atp_adaptive_threshold_pruning_for_efficient_data_encoding_in_quantum_neural_net.md)
 - [\[AAAI 2026\] Data Verification is the Future of Quantum Computing Copilots](../../AAAI2026/physics/data_verification_is_the_future_of_quantum_computing_copilots.md)
-- [\[ICCV 2025\] ResQ: A Novel Framework to Implement Residual Neural Networks on Analog Rydberg Atom Quantum Computers](../../ICCV2025/physics/resq_a_novel_framework_to_implement_residual_neural_networks_on_analog_rydberg_a.md)
 
 </div>
 

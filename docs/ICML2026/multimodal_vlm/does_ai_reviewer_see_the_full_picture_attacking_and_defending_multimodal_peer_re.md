@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Does AI Reviewer See the Full Picture? Attacking and Defending Multimodal Peer Review
+description: >-
+  [ICML 2026][多模态VLM][AI同行评审] 随着 AAAI/ICML/NeurIPS 等会议把 AI 生成评审正式纳入初审，本文提出 PaperGuard——首个系统评测"多模态 AI 评审在对抗操纵下有多脆弱"的基准：统一了黑盒提示注入与白盒梯度攻击（文本 GCG、图像 PGD/APGD/CW），证明仅靠文本防护远远不够（图像攻击能把分数抬高 +14 分），并给出一个轻量的 chunk 级嵌入检索防御（95% 准确率、零误报）。
+tags:
+  - "ICML 2026"
+  - "多模态VLM"
+  - "AI同行评审"
+  - "多模态对抗攻击"
+  - "提示注入"
+  - "分数膨胀"
+  - "嵌入检索防御"
+---
+
 # Does AI Reviewer See the Full Picture? Attacking and Defending Multimodal Peer Review
 
 **会议**: ICML 2026  

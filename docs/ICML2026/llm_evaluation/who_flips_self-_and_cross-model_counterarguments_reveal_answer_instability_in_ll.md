@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Who Flips? Self- and Cross-Model Counterarguments Reveal Answer Instability in LLMs
+description: >-
+  [ICML2026][LLM评测][答案稳定性] 论文提出一个"只给反论证、不给社交压力"的两阶段评测协议，量化 LLM 在答对之后被一段支持错误选项的论证挑战时"改口"的概率（Answer Flip Rate），发现 7 个前沿模型的翻转率从 17.5% 到 97.3% 巨幅分化，且把论证归因为模型"自己之前写的"会进一步推高翻转，最后用跨模型择优拼出一个最毒挑战集 MaxFlip。
+tags:
+  - "ICML2026"
+  - "LLM评测"
+  - "答案稳定性"
+  - "反论证挑战"
+  - "谄媚"
+  - "自归因"
+  - "MaxFlip"
+---
+
 # Who Flips? Self- and Cross-Model Counterarguments Reveal Answer Instability in LLMs
 
 **会议**: ICML2026  

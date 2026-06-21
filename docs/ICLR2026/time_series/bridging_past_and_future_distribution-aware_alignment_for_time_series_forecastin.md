@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting
+description: >-
+  [ICLR2026][时间序列][时间序列预测] 针对时间序列预测里"用历史的统计规律去硬套未来分布"导致的分布失配，本文提出 TimeAlign——一个即插即用的双分支框架，用一个只在训练时存在的"重建未来"分支提供对齐的目标分布，再通过全局+局部对齐把预测分支的表示拉向未来真实分布，在 8 个基准上把 MSE/MAE 相对次优方法降低 3.27%/5.20%。
+tags:
+  - "ICLR2026"
+  - "时间序列"
+  - "时间序列预测"
+  - "分布对齐"
+  - "重建"
+  - "表示学习"
+  - "频域"
+---
+
 # Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting
 
 **会议**: ICLR2026  
-**OpenReview**: [pQzQfslqlD](https://openreview.net/forum?id=pQzQfslqlD)  
+**OpenReview**: [https://openreview.net/forum?id=pQzQfslqlD](https://openreview.net/forum?id=pQzQfslqlD)  
 **代码**: https://github.com/TROUBADOUR000/TimeAlign  
 **领域**: 时间序列预测 / 表示学习  
 **关键词**: 时间序列预测、分布对齐、重建、表示学习、频域
@@ -142,11 +157,11 @@ $$\alpha=\frac{L_{local}+L_{global}}{L_{local}},\quad \beta=\frac{L_{local}+L_{g
 
 ## 相关论文
 
-- [\[ICML 2026\] PATRA: Pattern-Aware Alignment and Balanced Reasoning for Time Series Question Answering](../../ICML2026/time_series/patra_pattern-aware_alignment_and_balanced_reasoning_for_time_series_question_an.md)
-- [\[ICLR 2026\] Unlocking the Value of Text: Event-Driven Reasoning and Multi-Level Alignment for Time Series Forecasting](unlocking_the_value_of_text_event-driven_reasoning_and_multi-level_alignment_for.md)
-- [\[AAAI 2026\] Revitalizing Canonical Pre-Alignment for Irregular Multivariate Time Series Forecasting](../../AAAI2026/time_series/revitalizing_canonical_pre-alignment_for_irregular_multivariate_time_series_fore.md)
-- [\[AAAI 2026\] Detecting the Future: All-at-Once Event Sequence Forecasting with Horizon Matching](../../AAAI2026/time_series/detecting_the_future_all-at-once_event_sequence_forecasting_with_horizon_matchin.md)
-- [\[NeurIPS 2025\] Time-O1: Time-Series Forecasting Needs Transformed Label Alignment](../../NeurIPS2025/time_series/time-o1_time-series_forecasting_needs_transformed_label_alignment.md)
+- [\[ICLR 2026\] DistDF: Time-series Forecasting Needs Joint-distribution Wasserstein Alignment](distdf_time-series_forecasting_needs_joint-distribution_wasserstein_alignment.md)
+- [\[ICLR 2026\] COSA: Context-aware Output-Space Adapter for Test-Time Adaptation in Time Series Forecasting](cosa_context-aware_output-space_adapter_for_test-time_adaptation_in_time_series_.md)
+- [\[ICLR 2026\] CoRA: Boosting Time Series Foundation Models for Multivariate Forecasting through Correlation-aware Adapter](cora_boosting_time_series_foundation_models_for_multivariate_forecasting_through.md)
+- [\[ICLR 2026\] Aurora: Towards Universal Generative Multimodal Time Series Forecasting](aurora_towards_universal_generative_multimodal_time_series_forecasting.md)
+- [\[ICLR 2026\] Characteristic Root Analysis and Regularization for Linear Time Series Forecasting](characteristic_root_analysis_and_regularization_for_linear_time_series_forecasti.md)
 
 </div>
 

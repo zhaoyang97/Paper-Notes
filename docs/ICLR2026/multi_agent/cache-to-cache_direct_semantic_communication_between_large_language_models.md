@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cache-to-Cache: Direct Semantic Communication Between Large Language Models
+description: >-
+  [ICLR2026][多智能体][多 LLM 系统] 让多个大语言模型不再靠"互相说话"协作，而是用一个轻量神经网络把 Sharer 模型的 KV-Cache 直接投影、融合进 Receiver 模型的 KV-Cache，绕开 token-by-token 的文本生成，既保住了文本会丢失的深层语义，又把延迟平均压低 2.5×，准确率比纯文本协作高约 3–5%。
+tags:
+  - "ICLR2026"
+  - "多智能体"
+  - "多 LLM 系统"
+  - "KV-Cache 融合"
+  - "语义通信"
+  - "模型协作"
+  - "推理加速"
+---
+
 # Cache-to-Cache: Direct Semantic Communication Between Large Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [LeatkxrBCi](https://openreview.net/forum?id=LeatkxrBCi)  
+**OpenReview**: [https://openreview.net/forum?id=LeatkxrBCi](https://openreview.net/forum?id=LeatkxrBCi)  
 **代码**: https://github.com/thu-nics/C2C  
 **领域**: 多 LLM 协作 / LLM 间通信 / KV-Cache  
 **关键词**: 多 LLM 系统, KV-Cache 融合, 语义通信, 模型协作, 推理加速
@@ -82,6 +97,7 @@ Receiver 固定为 Qwen3-0.6B，配三种不同 Sharer，在 OpenBookQA / MMLU-R
 一个有意思的用例：Qwen3-4B-Base 作为 Sharer 经常不听指令、单模型准确率低到个位数、T2T 通信时间还奇长，但 C2C 能绕过"指令跟随"这一环，让一个较弱的 instruction-tuned Receiver 直接吃到强 base 模型的知识。
 
 ### 消融实验
+
 | 配置 | #Param. | OpenBook | ARC-C | MMLU | C-Eval | 说明 |
 |---|---|---|---|---|---|---|
 | Single | 596M | 45.80 | 47.65 | 36.81 | 35.81 | 只微调 Receiver、不接 Sharer |
@@ -124,9 +140,9 @@ Receiver 固定为 Qwen3-0.6B，配三种不同 Sharer，在 OpenBookQA / MMLU-R
 
 - [\[ACL 2026\] AgenticEval: Toward Agentic and Self-Evolving Safety Evaluation of Large Language Models](../../ACL2026/multi_agent/agenticeval_toward_agentic_and_self-evolving_safety_evaluation_of_large_language.md)
 - [\[NeurIPS 2025\] Large Language Models Miss the Multi-Agent Mark](../../NeurIPS2025/multi_agent/large_language_models_miss_the_multi-agent_mark.md)
+- [\[ICLR 2026\] Emergent Coordination in Multi-Agent Language Models](emergent_coordination_in_multi-agent_language_models.md)
 - [\[AAAI 2026\] MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models](../../AAAI2026/multi_agent/medla_a_logic-driven_multi-agent_framework_for_complex_medic.md)
 - [\[NeurIPS 2025\] Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?](../../NeurIPS2025/multi_agent/debate_or_vote_which_yields_better_decisions_in_multi-agent_large_language_model.md)
-- [\[AAAI 2026\] AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation](../../AAAI2026/multi_agent/agentodrl_a_large_language_model-based_multi-agent_system_fo.md)
 
 </div>
 

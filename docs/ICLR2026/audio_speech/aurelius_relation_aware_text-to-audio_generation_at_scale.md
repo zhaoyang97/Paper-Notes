@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Aurelius: Relation Aware Text-to-Audio Generation At Scale
+description: >-
+  [ICLR2026][音频/语音][文本到音频] Aurelius 构建了两个大规模解耦语料库（110 类音频事件的 AudioEventSet + 100 种关系的 AudioRelSet）和一套文本-音频配对生成策略，把"关系感知的文本到音频生成"从小规模探索推到可规模化研究的程度，并系统基准了 9 个主流 TTA 模型，揭示它们在多事件关系建模上几乎全线失效（关系准确率普遍 <10%）。
+tags:
+  - "ICLR2026"
+  - "音频/语音"
+  - "文本到音频"
+  - "关系感知生成"
+  - "音频事件语料库"
+  - "基准评测"
+  - "组合推理"
+---
+
 # Aurelius: Relation Aware Text-to-Audio Generation At Scale
 
 **会议**: ICLR2026  
-**OpenReview**: [LAYCYiIgZ1](https://openreview.net/forum?id=LAYCYiIgZ1)  
+**OpenReview**: [https://openreview.net/forum?id=LAYCYiIgZ1](https://openreview.net/forum?id=LAYCYiIgZ1)  
 **代码**: https://github.com/yuhanghe01/Aurelius  
 **领域**: 文本到音频生成 / 数据集与基准  
 **关键词**: 文本到音频, 关系感知生成, 音频事件语料库, 基准评测, 组合推理
@@ -126,10 +141,10 @@ AudioGen 拿到最好的 mAPar 和 mAMSR，TangoFlux 在 mAPre/mARel 上最好�
 ## 相关论文
 
 - [\[CVPR 2026\] OmniSonic: Towards Universal and Holistic Audio Generation from Video and Text](../../CVPR2026/audio_speech/omnisonic_towards_universal_and_holistic_audio_generation_from_video_and_text.md)
-- [\[ICML 2025\] Sounding that Object: Interactive Object-Aware Image to Audio Generation](../../ICML2025/audio_speech/sounding_that_object_interactive_object-aware_image_to_audio_generation.md)
 - [\[CVPR 2026\] SAVE: Speech-Aware Video Representation Learning for Video-Text Retrieval](../../CVPR2026/audio_speech/save_speech-aware_video_representation_learning_for_video-text_retrieval.md)
-- [\[ICLR 2026\] Efficient Audio-Visual Speech Separation with Discrete Lip Semantics and Multi-Scale Global-Local Attention](efficient_audio-visual_speech_separation_with_discrete_lip_semantics_and_multi-s.md)
-- [\[CVPR 2026\] PAVAS: Physics-Aware Video-to-Audio Synthesis](../../CVPR2026/audio_speech/pavas_physics-aware_video-to-audio_synthesis.md)
+- [\[ICML 2025\] Sounding that Object: Interactive Object-Aware Image to Audio Generation](../../ICML2025/audio_speech/sounding_that_object_interactive_object-aware_image_to_audio_generation.md)
+- [\[ICLR 2026\] AudioX: A Unified Framework for Anything-to-Audio Generation](audiox_a_unified_framework_for_anything-to-audio_generation.md)
+- [\[ACL 2026\] ControlAudio: Tackling Text-Guided, Timing-Indicated and Intelligible Audio Generation via Progressive Diffusion Modeling](../../ACL2026/audio_speech/controlaudio_tackling_text-guided_timing-indicated_and_intelligible_audio_genera.md)
 
 </div>
 

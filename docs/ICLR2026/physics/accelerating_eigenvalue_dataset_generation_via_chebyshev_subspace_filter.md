@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter
+description: >-
+  [ICLR 2026][物理/科学计算][特征值问题] 针对"训练神经算子需要海量算子-特征值标注数据、而这些数据要靠昂贵的数值求解器逐个算出来"这一瓶颈，本文提出 SCSF（Sorting Chebyshev Subspace Filter）：先用截断 FFT 把谱分布相近的算子排到相邻位置，再用 Chebyshev 滤波子空间迭代把"上一题"的特征对当作"下一题"的热启动，从而把整个数据集的特征值求解从"各算各的"变成"接力求解"，相比主流求解器最高提速 3.5×。
+tags:
+  - "ICLR 2026"
+  - "物理/科学计算"
+  - "特征值问题"
+  - "Chebyshev 滤波"
+  - "子空间迭代"
+  - "数据集生成"
+  - "算子相似性"
+---
+
 # Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter
 
 **会议**: ICLR 2026  
-**OpenReview**: [rrbCQT7JKX](https://openreview.net/forum?id=rrbCQT7JKX)  
+**OpenReview**: [https://openreview.net/forum?id=rrbCQT7JKX](https://openreview.net/forum?id=rrbCQT7JKX)  
 **代码**: 待确认  
 **领域**: 科学计算 / 数值线性代数 / AI for Science  
 **关键词**: 特征值问题, Chebyshev 滤波, 子空间迭代, 数据集生成, 算子相似性
@@ -119,10 +134,10 @@ flowchart TD
 ## 相关论文
 
 - [\[ICLR 2026\] Deep Learning for Subspace Regression](deep_learning_for_subspace_regression.md)
+- [\[ICLR 2026\] Locally Subspace-Informed Neural Operators for Efficient Multiscale PDE Solving](locally_subspace-informed_neural_operators_for_efficient_multiscale_pde_solving.md)
 - [\[ICLR 2026\] Accelerating Inference for Multilayer Neural Networks with Quantum Computers](accelerating_inference_for_multilayer_neural_networks_with_quantum_computers.md)
-- [\[ICML 2026\] Spectrally Regularized Latent Flow Matching for Turbulence Generation](../../ICML2026/physics/spectrally_regularized_latent_flow_matching_for_turbulence_generation.md)
-- [\[NeurIPS 2025\] Adaptive Stochastic Coefficients for Accelerating Diffusion Sampling](../../NeurIPS2025/physics/adaptive_stochastic_coefficients_for_accelerating_diffusion_sampling.md)
-- [\[NeurIPS 2025\] FAIR Universe HiggsML Uncertainty Dataset and Competition](../../NeurIPS2025/physics/fair_universe_higgsml_uncertainty_dataset_and_competition.md)
+- [\[ICLR 2026\] PRO-MOF: Policy Optimization with Universal Atomistic Models for Controllable MOF Generation](pro-mof_policy_optimization_with_universal_atomistic_models_for_controllable_mof.md)
+- [\[ICLR 2026\] Physics-Constrained Fine-Tuning of Flow-Matching Models for Generation and Inverse Problems](physics-constrained_fine-tuning_of_flow-matching_models_for_generation_and_inver.md)
 
 </div>
 

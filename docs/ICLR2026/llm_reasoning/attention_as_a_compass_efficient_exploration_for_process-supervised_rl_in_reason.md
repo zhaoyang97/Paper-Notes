@@ -16,7 +16,7 @@ tags:
 # Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models
 
 **会议**: ICLR2026  
-**OpenReview**: [NCN8oUsiNf](https://openreview.net/forum?id=NCN8oUsiNf)  
+**OpenReview**: [https://openreview.net/forum?id=NCN8oUsiNf](https://openreview.net/forum?id=NCN8oUsiNf)  
 **代码**: https://github.com/RyanLiu112/AttnRL  
 **领域**: 强化学习 / LLM 推理  
 **关键词**: 过程监督 RL、注意力分支、自适应采样、探索效率、数学推理
@@ -141,10 +141,10 @@ DS-R1-Distill-Qwen-1.5B 上逐组件拆解（平均 Pass@1）：
 ## 相关论文
 
 - [\[ICLR 2026\] Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models](co-rewarding_stable_self-supervised_rl_for_eliciting_reasoning_in_large_language.md)
-- [\[ACL 2026\] DELTA: Dynamic Layer-Aware Token Attention for Efficient Long-Context Reasoning](../../ACL2026/llm_reasoning/delta_dynamic_layer-aware_token_attention_for_efficient_long-context_reasoning.md)
-- [\[ICLR 2026\] Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards](count_counts_motivating_exploration_in_llm_reasoning_with_count-based_intrinsic_.md)
+- [\[ICLR 2026\] FROST: Filtering Reasoning Outliers with Attention for Efficient Reasoning](frost_filtering_reasoning_outliers_with_attention_for_efficient_reasoning.md)
+- [\[ICLR 2026\] Beyond Markovian: Reflective Exploration via Bayes-Adaptive RL for LLM Reasoning](beyond_markovian_reflective_exploration_via_bayes-adaptive_rl_for_llm_reasoning.md)
+- [\[ICLR 2026\] NFT: Bridging Supervised Learning and Reinforcement Learning in Math Reasoning](nft_bridging_supervised_learning_and_reinforcement_learning_in_math_reasoning.md)
 - [\[ACL 2026\] Reinforced Efficient Reasoning via Semantically Diverse Exploration](../../ACL2026/llm_reasoning/reinforced_efficient_reasoning_via_semantically_diverse_exploration.md)
-- [\[ACL 2025\] An Efficient and Precise Training Data Construction Framework for Process-Supervised Reward Model in Mathematical Reasoning](../../ACL2025/llm_reasoning/an_efficient_and_precise_training_data_construction_framework_for_process-superv.md)
 
 </div>
 

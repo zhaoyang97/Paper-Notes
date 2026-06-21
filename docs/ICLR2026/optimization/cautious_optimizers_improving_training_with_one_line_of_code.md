@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cautious Optimizers: Improving Training with One Line of Code
+description: >-
+  [ICLR2026][优化/理论][动量优化器] 给任意动量优化器加一行代码：只在「更新方向」与「当前梯度」符号一致的坐标上更新，否则把这些坐标的更新清零并按比例放大补偿，由此得到 C-AdamW / C-Lion 等"谨慎版"，在不动原超参的前提下持续加速 LLM 预训练和图像分类。 领域现状：自 Adam / AdamW…
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "动量优化器"
+  - "符号一致性掩码"
+  - "哈密顿动力学"
+  - "单调下降"
+  - "AdamW"
+---
+
 # Cautious Optimizers: Improving Training with One Line of Code
 
 **会议**: ICLR2026  
-**OpenReview**: [zBPZeRjfgu](https://openreview.net/forum?id=zBPZeRjfgu)  
+**OpenReview**: [https://openreview.net/forum?id=zBPZeRjfgu](https://openreview.net/forum?id=zBPZeRjfgu)  
 **代码**: 待确认  
 **领域**: 优化器 / LLM 预训练  
 **关键词**: 动量优化器, 符号一致性掩码, 哈密顿动力学, 单调下降, AdamW
@@ -136,3 +151,19 @@ $$\alpha(v)=\frac{\dim(v)}{\mathrm{nnz}(v>0)+\xi},$$
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 2D toy、LLM 预训练（含 scaling 到 1.2B + 下游评测）、图像分类多优化器，但单点收益偏小。
 - 写作质量: ⭐⭐⭐⭐ 理论与直觉穿插清晰，算法伪代码和"一行代码"很易懂。
 - 价值: ⭐⭐⭐⭐⭐ 零成本即插即用、不改超参就稳定提升，落地友好度极高。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Cautious Weight Decay](cautious_weight_decay.md)
+- [\[ICLR 2026\] Towards Dynamic Interleaving Optimizers](towards_dynamic_interleaving_optimizers.md)
+- [\[ICLR 2026\] Fantastic Pretraining Optimizers and Where to Find Them](fantastic_pretraining_optimizers_and_where_to_find_them.md)
+- [\[ICLR 2026\] DES-LOC: Desynced Low Communication Adaptive Optimizers for Foundation Models](des-loc_desynced_low_communication_adaptive_optimizers_for_foundation_models.md)
+- [\[ICLR 2026\] Improving Feasibility via Fast Autoencoder-Based Projections](improving_feasibility_via_fast_autoencoder-based_projections.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] 4DPC$^2$hat: Towards Dynamic Point Cloud Understanding with Failure-Aware Bootstrapping
+description: >-
+  [ICML 2026][3D视觉][动态点云] 4DPC$^2$hat 是第一个面向"动态点云序列"（4D 点云）理解的多模态大模型：作者先用拓扑一致的构建流水线把 4.4 万个动画资产做成 20 万条跨模态 QA 数据集，再用"保留群组 token + 全局 token + 双向 Mamba"的时空架构避免把一帧压成单一向量，最后用"失败感知自举"反复挖出模型答错的题、合成针对性 QA 补训，使动作理解与时序推理大幅超越把视频逐帧喂给静态 3D 模型的做法。
+tags:
+  - "ICML 2026"
+  - "3D视觉"
+  - "动态点云"
+  - "4D理解"
+  - "多模态大模型"
+  - "双向Mamba"
+  - "失败感知自举"
+---
+
 # 4DPC$^2$hat: Towards Dynamic Point Cloud Understanding with Failure-Aware Bootstrapping
 
 **会议**: ICML 2026  

@@ -16,7 +16,7 @@ tags:
 # Gradient-Based Diversity Optimization with Differentiable Top-$k$ Objective
 
 **会议**: ICLR 2026  
-**OpenReview**: [cuzWopwoZG](https://openreview.net/forum?id=cuzWopwoZG)  
+**OpenReview**: [https://openreview.net/forum?id=cuzWopwoZG](https://openreview.net/forum?id=cuzWopwoZG)  
 **代码**: 待确认  
 **领域**: 优化 / 多目标学习 / 可微排序  
 **关键词**: 可微排序, top-k 多样性, 多目标优化, MGDA, 推荐系统
@@ -154,11 +154,11 @@ DDT 在几乎所有数据集/指标上拿到最好或次好，关键是 **多样
 
 ## 相关论文
 
-- [\[ICML 2026\] Accelerated Multiple Wasserstein Gradient Flows for Multi-objective Distributional Optimization](../../ICML2026/optimization/accelerated_multiple_wasserstein_gradient_flows_for_multi-objective_distribution.md)
 - [\[ICML 2026\] Diversity-Driven Offline Multi-Objective Optimization via Nested Pareto Set Learning](../../ICML2026/optimization/diversity-driven_offline_multi-objective_optimization_via_nested_pareto_set_lear.md)
-- [\[ICML 2026\] Multi-Objective Bayesian Optimization via Adaptive ε-Constraints Decomposition](../../ICML2026/optimization/multi-objective_bayesian_optimization_via_adaptive_varepsilon-constraints_decomp.md)
+- [\[ICLR 2026\] Neural Multi-Objective Combinatorial Optimization for Flexible Job Shop Scheduling Problems](neural_multi-objective_combinatorial_optimization_for_flexible_job_shop_scheduli.md)
+- [\[ICML 2026\] Accelerated Multiple Wasserstein Gradient Flows for Multi-objective Distributional Optimization](../../ICML2026/optimization/accelerated_multiple_wasserstein_gradient_flows_for_multi-objective_distribution.md)
 - [\[ICML 2026\] A Fully First-Order Layer for Differentiable Optimization](../../ICML2026/optimization/a_fully_first-order_layer_for_differentiable_optimization.md)
-- [\[ICLR 2026\] Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization](faster_gradient_methods_for_highly-smooth_stochastic_bilevel_optimization.md)
+- [\[ICLR 2026\] Gradient-Normalized Smoothness for Optimization with Approximate Hessians](gradient-normalized_smoothness_for_optimization_with_approximate_hessians.md)
 
 </div>
 

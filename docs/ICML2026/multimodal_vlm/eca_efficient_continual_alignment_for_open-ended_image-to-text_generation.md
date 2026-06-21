@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ECA: Efficient Continual Alignment for Open-Ended Image-to-Text Generation
+description: >-
+  [ICML2026][多模态VLM][持续对齐] ECA 提出在预训练 VLM 的「对齐模块」（BLIP-2 的 Q-Former）上做免样本增量学习——用 Mixture-of-Query 按图组合任务专属查询、用基于 Fisher 信息矩阵的判据按需扩展并行适配器、用稀疏字典回放保留旧知识，从而在视觉主题随时间漂移的开放式图文生成任务里既学新主题又不灾难遗忘。
+tags:
+  - "ICML2026"
+  - "多模态VLM"
+  - "持续对齐"
+  - "免样本增量学习"
+  - "开放式图文生成"
+  - "Q-Former"
+  - "Fisher信息矩阵"
+---
+
 # ECA: Efficient Continual Alignment for Open-Ended Image-to-Text Generation
 
 **会议**: ICML2026  

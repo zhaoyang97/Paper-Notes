@@ -16,7 +16,7 @@ tags:
 # Detection of Unknown Unknowns in Autonomous Systems
 
 **会议**: ICLR2026  
-**OpenReview**: [GrsofC2FqF](https://openreview.net/forum?id=GrsofC2FqF)  
+**OpenReview**: [https://openreview.net/forum?id=GrsofC2FqF](https://openreview.net/forum?id=GrsofC2FqF)  
 **代码**: https://github.com/ImpactLabASU/U2Recognition  
 **领域**: 多变量时序异常检测 / 自主系统安全  
 **关键词**: 未知未知(U2)、零样本异常检测、稀疏动力学建模、共形推断、自主系统
@@ -145,11 +145,11 @@ MR 的训练目标是重构均方误差 $\sum_{t=1}^N \|Y(t)-X(t)\|^2 < \epsilon
 
 ## 相关论文
 
-- [\[ICLR 2026\] Complexity- and Statistics-Guided Anomaly Detection in Time Series Foundation Models](complexity-_and_statistics-guided_anomaly_detection_in_time_series_foundation_mo.md)
-- [\[ICLR 2026\] EVEREST: A Transformer for Probabilistic Rare-Event Anomaly Detection with Evidential and Tail-Aware Uncertainty](everest_a_transformer_for_probabilistic_rare-event_anomaly_detection_with_eviden.md)
+- [\[ICLR 2026\] Learning Mixtures of Linear Dynamical Systems via Hybrid Tensor-EM Method](learning_mixtures_of_linear_dynamical_systems_via_hybrid_tensor-em_method.md)
 - [\[ICML 2026\] Embedding Hybrid Systems into Continuous Latent Vector Fields](../../ICML2026/time_series/embedding_hybrid_systems_into_continuous_latent_vector_fields.md)
-- [\[ICML 2026\] IMPACT: Influence Modeling for Open-Set Time Series Anomaly Detection](../../ICML2026/time_series/impact_influence_modeling_for_open-set_time_series_anomaly_detection.md)
-- [\[ICML 2026\] AnomSeer: Reinforcing Multimodal LLMs to Reason for Time-Series Anomaly Detection](../../ICML2026/time_series/anomseer_reinforcing_multimodal_llms_to_reason_for_time-series_anomaly_detection.md)
+- [\[ICLR 2026\] Enabling Arbitrary Inference in Spatio-Temporal Dynamic Systems: A Physics-Inspired Perspective](enabling_arbitrary_inference_in_spatio-temporal_dynamic_systems_a_physics-inspir.md)
+- [\[ICLR 2026\] Point-wise Anomaly Detection via Fold-bifurcation ODE](point-wise_anomaly_detection_via_fold-bifurcation_ode.md)
+- [\[ICLR 2026\] EVEREST: A Transformer for Probabilistic Rare-Event Anomaly Detection with Evidential and Tail-Aware Uncertainty](everest_a_transformer_for_probabilistic_rare-event_anomaly_detection_with_eviden.md)
 
 </div>
 

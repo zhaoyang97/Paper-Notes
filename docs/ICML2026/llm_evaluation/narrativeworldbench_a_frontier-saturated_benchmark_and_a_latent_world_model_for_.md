@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] NarrativeWorldBench: A Frontier-Saturated Benchmark and a Latent World Model for Long-Horizon Co-Creative Audio Drama
+description: >-
+  [ICML 2026][LLM评测][长程叙事] 作者构建了一个专测「长程连载剧本续写」结构一致性的 9 指标基准 NarrativeWorldBench，发现 21 个前沿大模型在剧情节拍 F1 上集体卡在 $[0.78,0.81]$ 天花板、且 horizon 拉到 200 集会齐刷刷掉 $-0.20$，随后提出用 Mamba-2 维护一个 256 维显式叙事潜状态的世界模型 N-VSSM，以 4 倍更低算力把 F1 稳在 $\geq 0.84$ 并被专业编剧 71% 概率更偏好。
+tags:
+  - "ICML 2026"
+  - "LLM评测"
+  - "长程叙事"
+  - "剧情节拍"
+  - "世界模型"
+  - "Mamba-2"
+  - "跨文化本地化"
+---
+
 # NarrativeWorldBench: A Frontier-Saturated Benchmark and a Latent World Model for Long-Horizon Co-Creative Audio Drama
 
 **会议**: ICML 2026  

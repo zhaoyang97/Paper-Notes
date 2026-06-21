@@ -65,7 +65,7 @@ item_total: 22
 
 **📷 CVPR2026** · **22** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (88)](../../ICML2026/optimization/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/optimization/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (126)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (61)](../../ICML2025/optimization/index.md)
+📌 **同领域跨会议浏览：** [🔬 ICLR2026 (193)](../../ICLR2026/optimization/index.md) · [🧪 ICML2026 (88)](../../ICML2026/optimization/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (126)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (61)](../../ICML2025/optimization/index.md)
 
 🔥 **高频主题：** 联邦学习 ×4 · 压缩/编码 ×2 · 扩散模型 ×2 · 对抗鲁棒 ×2
 

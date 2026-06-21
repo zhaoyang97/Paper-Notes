@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Post-Hoc Merging is Not Enough: Many-Shot Model Merging with Loss-Gap Balancing
+description: >-
+  [ICML 2026][模型压缩][模型合并] 本文指出主流模型合并都是"训练完只合一次"的 post-hoc 合并、易因任务干扰造成信息擦除，转而提出**多轮（many-shot）迭代合并**框架，并在其上设计 METIS——用任务级 loss-gap 加权补偿被擦除的任务、用共识掩码定位兼容更新，从而在保住单任务知识的同时显著提升多任务能力，尤其救回了"最差任务"。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "模型合并"
+  - "多轮合并"
+  - "任务干扰"
+  - "loss-gap 加权"
+  - "共识掩码"
+---
+
 # Post-Hoc Merging is Not Enough: Many-Shot Model Merging with Loss-Gap Balancing
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization
+description: >-
+  [ICLR2026][计算生物][亚细胞定位] CAPSUL 构建了首个同时带有蛋白质 3D 结构信息和 20 类细粒度亚细胞定位标注的人类蛋白质 benchmark（20,181 条蛋白质），把 11 个序列/结构 baseline 拉到同一套评测里，证明引入 3D 结构对亚细胞定位预测是必要的，并通过注意力可视化在高尔基体上发现了 α-螺旋这一可与实验吻合的决定性定位模式。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "亚细胞定位"
+  - "蛋白质 3D 结构"
+  - "AlphaFold2"
+  - "细粒度标注"
+  - "结构-based 模型"
+---
+
 # CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization
 
 **会议**: ICLR2026  
-**OpenReview**: [wJn4WbvSpK](https://openreview.net/forum?id=wJn4WbvSpK)  
+**OpenReview**: [https://openreview.net/forum?id=wJn4WbvSpK](https://openreview.net/forum?id=wJn4WbvSpK)  
 **代码**: 待确认（论文称完整数据与代码在附录 Supp. L 提供）  
 **领域**: 计算生物学 / 蛋白质表示学习 / 数据集与 Benchmark  
 **关键词**: 亚细胞定位、蛋白质 3D 结构、AlphaFold2、细粒度标注、结构-based 模型
@@ -117,3 +132,19 @@ benchmark 的终极价值是能不能帮人发现新生物学。作者在 GCN-ba
 - 实验充分度: ⭐⭐⭐⭐⭐ 11 个 baseline、随机坐标消融、reweighting/单标签两套缓解策略、外加高尔基体可解释性案例，覆盖很全。
 - 写作质量: ⭐⭐⭐⭐ 动机—数据构建—评测—解释的链条清晰，表格信息密度高；细粒度类别和缩写较多，初读略需对照。
 - 价值: ⭐⭐⭐⭐⭐ 给一个长期缺数据集的任务提供了高质量统一评测平台，并示范了用注意力发现可验证生物规律，对社区拉动明显。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] GeomMotif: A Benchmark for Arbitrary Geometric Preservation in Protein Generation](geommotif_a_benchmark_for_arbitrary_geometric_preservation_in_protein_generation.md)
+- [\[ICLR 2026\] Optimal Transport Unlocks End-to-End Learning for Single-Molecule Localization](optimal_transport_unlocks_end-to-end_learning_for_single-molecule_localization.md)
+- [\[ICLR 2026\] 3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations](3dcs_datasets_and_benchmark_for_evaluating_conformational_sensitivity_in_molecul.md)
+- [\[ICLR 2026\] The Human Brain as a Dynamic Mixture of Expert Models in Video Understanding](the_human_brain_as_a_dynamic_mixture_of_expert_models_in_video_understanding.md)
+- [\[ICML 2026\] TadA-Bench: A Million-Variant Benchmark for Future-Round Discovery Toward Agentic Protein Engineering](../../ICML2026/computational_biology/tada-bench_a_million-variant_benchmark_for_future-round_discovery_toward_agentic.md)
+
+</div>
+
+<!-- RELATED:END -->

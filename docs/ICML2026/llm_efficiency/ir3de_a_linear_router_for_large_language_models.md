@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] IR3DE: A Linear Router for Large Language Models
+description: >-
+  [ICML 2026][LLM效率][LLM 路由] 这篇论文提出 IR3DE——一个用**岭回归闭式解**构建的线性 LLM 路由器，仅凭 token 嵌入就把每条 prompt 路由到最合适的领域专家模型，无需训练额外语言模型、无需把各领域数据集中到一处，且专家可随时增删而不必重训路由器；尽管是线性的，它在推理任务上以 98.4% 的归一化性能超过所有基线。
+tags:
+  - "ICML 2026"
+  - "LLM效率"
+  - "LLM 路由"
+  - "岭回归"
+  - "领域专家"
+  - "token 级路由"
+  - "去中心化训练"
+---
+
 # IR3DE: A Linear Router for Large Language Models
 
 **会议**: ICML 2026  

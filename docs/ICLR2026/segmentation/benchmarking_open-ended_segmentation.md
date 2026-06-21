@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Benchmarking Open-ended Segmentation
+description: >-
+  [ICLR2026][语义分割][开放式分割] 针对"开放式分割"里模型生成自由文本描述、却被嵌入相似度强行映射回固定词表的评测漏洞，本文用基于词法关系（精确/同义/下义/部分）的映射函数 + 曲线下面积式的 LAC 协议把评测准确率从偏离人类 37.7% 拉到与人类判断对齐 90%+，并顺手训出第一个带对比损失的开放式分割 MLLM（OPAL），在开放式全景分割上刷到新 SOTA。
+tags:
+  - "ICLR2026"
+  - "语义分割"
+  - "开放式分割"
+  - "评测协议"
+  - "词法对齐"
+  - "全景分割"
+  - "对比学习"
+---
+
 # Benchmarking Open-ended Segmentation
 
 **会议**: ICLR2026  
-**OpenReview**: [QSmwRnw8GP](https://openreview.net/forum?id=QSmwRnw8GP)  
+**OpenReview**: [https://openreview.net/forum?id=QSmwRnw8GP](https://openreview.net/forum?id=QSmwRnw8GP)  
 **代码**: https://github.com/BCV-Uniandes/open-ended_segmentation_benchmark  
 **领域**: 语义分割 / 开放式识别 / 评测基准  
 **关键词**: 开放式分割, 评测协议, 词法对齐, 全景分割, 对比学习
@@ -120,10 +135,10 @@ OPAL 在 ADE20K 上至少领先 2 个绝对点、Cityscapes 上至少 0.6 点；
 ## 相关论文
 
 - [\[NeurIPS 2025\] STEP: A Unified Spiking Transformer Evaluation Platform for Fair and Reproducible Benchmarking](../../NeurIPS2025/segmentation/step_a_unified_spiking_transformer_evaluation_platform_for_fair_and_reproducible.md)
+- [\[ICLR 2026\] WOW-Seg: A Word-Free Open World Segmentation Model](wow-seg_a_word-free_open_world_segmentation_model.md)
 - [\[CVPR 2026\] MARIS: Marine Open-Vocabulary Instance Segmentation](../../CVPR2026/segmentation/maris_marine_open-vocabulary_instance_segmentation.md)
 - [\[ECCV 2024\] Diffusion Models for Open-Vocabulary Segmentation](../../ECCV2024/segmentation/diffusion_models_for_open-vocabulary_segmentation.md)
 - [\[CVPR 2026\] The Power of Prior: Training-Free Open-Vocabulary Semantic Segmentation with LLaVA](../../CVPR2026/segmentation/the_power_of_prior_training-free_open-vocabulary_semantic_segmentation_with_llav.md)
-- [\[CVPR 2026\] GeoGuide: Hierarchical Geometric Guidance for Open-Vocabulary 3D Semantic Segmentation](../../CVPR2026/segmentation/geoguide_hierarchical_geometric_guidance_for_open-vocabulary_3d_semantic_segment.md)
 
 </div>
 

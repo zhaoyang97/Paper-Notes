@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Enhancing Visual Token Representations for Video Large Language Models via Training-free Spatial-Temporal Pooling and Gridding
+description: >-
+  [ICLR2026][VLM Efficiency][视频大模型] 针对视频大语言模型把成千上万视觉 token 压缩进有限上下文时丢失时空信息的问题，提出训练无关的 ST-GridPool：用「金字塔时序网格化」在不同时间尺度上聚合帧 token 注入多粒度运动信息，再用「基于范数的空间池化」依据 token 的 L2 范数加权保留高信息量区域，在 LLaVA-Video / LLaVA-OneVision 上即插即用、不需重训就稳定涨点。
+tags:
+  - "ICLR2026"
+  - "VLM Efficiency"
+  - "视频大模型"
+  - "视觉 token 压缩"
+  - "训练无关"
+  - "时空池化"
+  - "token 范数"
+---
+
 # Enhancing Visual Token Representations for Video Large Language Models via Training-free Spatial-Temporal Pooling and Gridding
 
 **会议**: ICLR2026  
-**OpenReview**: [MZi9SYPVz5](https://openreview.net/forum?id=MZi9SYPVz5)  
+**OpenReview**: [https://openreview.net/forum?id=MZi9SYPVz5](https://openreview.net/forum?id=MZi9SYPVz5)  
 **代码**: https://github.com/bingjunluo/ST-GridPool  
 **领域**: 多模态VLM / 视频理解 / VLM效率  
 **关键词**: 视频大模型, 视觉 token 压缩, 训练无关, 时空池化, token 范数
@@ -128,10 +143,10 @@ $$\alpha_{m,n}=\frac{\exp(\beta\|t_{m,n}\|_p)}{\sum_{i=0}^{k_H-1}\sum_{j=0}^{k_W
 ## 相关论文
 
 - [\[CVPR 2026\] GroundVTS: Visual Token Sampling in Multimodal Large Language Models for Video Temporal Grounding](../../CVPR2026/vlm_efficiency/groundvts_visual_token_sampling_in_multimodal_large_language_models_for_video_te.md)
-- [\[ICML 2026\] CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models](../../ICML2026/vlm_efficiency/clip_tricks_you_training-free_token_pruning_for_efficient_pixel_grounding_in_lar.md)
+- [\[ICLR 2026\] VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration](visiontrim_unified_vision_token_compression_for_training-free_mllm_acceleration.md)
 - [\[CVPR 2026\] ZOO-Prune: Training-Free Token Pruning via Zeroth-Order Gradient Estimation in Vision-Language Models](../../CVPR2026/vlm_efficiency/zoo-prune_training-free_token_pruning_via_zeroth-order_gradient_estimation_in_vi.md)
+- [\[CVPR 2026\] MeToM: Metadata-Guided Token Merging for Efficient Video LLMs](../../CVPR2026/vlm_efficiency/metom_metadata-guided_token_merging_for_efficient_video_llms.md)
 - [\[CVPR 2026\] Accelerating Streaming Video Large Language Models via Hierarchical Token Compression](../../CVPR2026/vlm_efficiency/accelerating_streaming_video_large_language_models_via_hierarchical_token_compre.md)
-- [\[AAAI 2026\] Filter, Correlate, Compress: Training-Free Token Reduction for MLLM Acceleration](../../AAAI2026/vlm_efficiency/filter_correlate_compress_training-free_token_reduction_for_.md)
 
 </div>
 

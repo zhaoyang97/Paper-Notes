@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] From 2D Grids to 1D Tokens: Reforming Shared Representations for Multimodal Image Fusion
+description: >-
+  [ICML 2026][图像恢复][多模态图像融合] 多模态图像融合长期把共享表示放在二维特征网格上，导致全局外观（亮度/对比度/色调）和局部细节纠缠、难以独立调控；本文把"全局外观"挪到一个冻结的 1D tokenizer（TiTok-32）的紧凑 token 空间里，再用"选择性 token 编辑（STE）"只改少数几个 token-通道项来调控全局一致性，同时保留 2D 通路做细节恢复，在四个基准上取得多指标全面最优。
+tags:
+  - "ICML 2026"
+  - "图像恢复"
+  - "多模态图像融合"
+  - "1D token"
+  - "选择性 token 编辑"
+  - "全局/局部解耦"
+  - "红外可见光融合"
+---
+
 # From 2D Grids to 1D Tokens: Reforming Shared Representations for Multimodal Image Fusion
 
 **会议**: ICML 2026  

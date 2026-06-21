@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Select to Think: Unlocking SLM Potential with Local Sufficiency
+description: >-
+  [ICML 2026][Reasoning][小语言模型] 这篇论文发现小模型（SLM）在推理"分歧点"上其实**已经把大模型偏好的那个 token 装进了自己的 top-K 候选集里**（1.5B 的 top-8 命中 32B 教师选择达 95%），只是被贪婪解码漏掉了；于是把大模型的角色从"开放式生成"改写成"在 SLM 候选里做选择"，再把这套选择逻辑蒸馏进 SLM 自身，让 1.5B 单轨解码就把 Math 平均分相对提升 24.1%，逼平 8 路自一致性而只花 1/8 的算力。
+tags:
+  - "ICML 2026"
+  - "Reasoning"
+  - "小语言模型"
+  - "协作推理"
+  - "局部充分性"
+  - "候选重排"
+  - "蒸馏"
+---
+
 # Select to Think: Unlocking SLM Potential with Local Sufficiency
 
 **会议**: ICML 2026  

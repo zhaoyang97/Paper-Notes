@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MACS: Modality-Aware Capacity Scaling for Efficient Multimodal MoE Inference
+description: >-
+  [ACL2026][VLM Efficiency][MoE MLLM] 针对 MoE 多模态大模型在专家并行（EP）推理下被"最慢专家"拖累的 straggler 问题，MACS 用视觉 token 的熵当作语义重要性权重来重估专家负载，并按 batch 的实时模态构成动态缩放各专家容量，是一个无需训练的推理框架，在 12 个多模态基准上几乎不掉点（平均保留 vanilla 99.7%）而显著优于按 token 计数的 CAI-MoE。
+tags:
+  - "ACL2026"
+  - "VLM Efficiency"
+  - "MoE MLLM"
+  - "专家并行"
+  - "straggler 效应"
+  - "熵加权负载"
+  - "训练无关推理"
+---
+
 # MACS: Modality-Aware Capacity Scaling for Efficient Multimodal MoE Inference
 
 **会议**: ACL2026  

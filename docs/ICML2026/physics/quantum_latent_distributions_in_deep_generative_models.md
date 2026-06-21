@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Quantum latent distributions in deep generative models
+description: >-
+  [ICML2026][物理/科学计算][量子隐空间分布] 研究「用量子处理器产生的隐空间分布」何时、为何能提升深度生成模型：理论上证明在一定网络假设下，量子隐空间分布能让生成器产出经典隐分布无法高效产生的数据分布；实验上用真实/模拟光子量子处理器在合成量子数据集与 QM9 分子数据集上做苹果对苹果的对照，发现源自量子干涉的统计量确实带来更好的生成性能。
+tags:
+  - "ICML2026"
+  - "物理/科学计算"
+  - "量子隐空间分布"
+  - "玻色采样"
+  - "生成对抗网络"
+  - "计算复杂性"
+  - "QM9 分子生成"
+---
+
 # Quantum latent distributions in deep generative models
 
 **会议**: ICML2026  

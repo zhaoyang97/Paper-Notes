@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Breaking the Lock-in: Diversifying Text-to-Image Generation via Representation Modulation
+description: >-
+  [ICML 2026][图像生成][文生图多样性] 作者发现 Transformer 文生图模型在去噪早期会让"零频空间均值（DC 分量）"在不同随机种子间迅速对齐，把全局布局过早锁死，于是提出 DAVE——在早期生成阶段对中间表征里的 DC 分量做一次轻量衰减，几乎零开销地解锁了同一 prompt 下的样本多样性，同时保持画质与文图对齐。
+tags:
+  - "ICML 2026"
+  - "图像生成"
+  - "文生图多样性"
+  - "表征调制"
+  - "DC 分量"
+  - "flow matching"
+  - "训练无关"
+---
+
 # Breaking the Lock-in: Diversifying Text-to-Image Generation via Representation Modulation
 
 **会议**: ICML 2026  

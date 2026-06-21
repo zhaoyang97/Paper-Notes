@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes
+description: >-
+  [ICLR 2026][LLM效率][离散扩散] DID 把扩散语言模型的「掩码-去掩码」彻底换成「删除-插入」两条连续时间马尔可夫链：前向把 token 逐个删到空序列、后向从空序列逐个插回去，再配一套基于「插入分数」的 DISE 训练目标和并行动态规划，既扔掉了占一半算力的 `<MASK>`/`<PAD>` token，又天然支持变长和生成中自纠错，定长/变长两种设定下训练加速最高 3.42×、推理加速最高 3.79×。
+tags:
+  - "ICLR 2026"
+  - "LLM效率"
+  - "离散扩散"
+  - "删除-插入过程"
+  - "插入分数"
+  - "变长生成"
+  - "自纠错"
+---
+
 # Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes
 
 **会议**: ICLR 2026  
-**OpenReview**: [VbvXjs5f72](https://openreview.net/forum?id=VbvXjs5f72)  
+**OpenReview**: [https://openreview.net/forum?id=VbvXjs5f72](https://openreview.net/forum?id=VbvXjs5f72)  
 **代码**: https://github.com/FMD-NEXT/DID  
 **领域**: 扩散语言模型 / 语言模型预训练  
 **关键词**: 离散扩散、删除-插入过程、插入分数、变长生成、自纠错
@@ -106,6 +121,7 @@ $$L^{\text{DICE}}_\theta(x_0)=\mathbb E_{t,x_t}\Big\{\tfrac{\sigma(t)e^{-\bar\si
 DID 的生成长度分布（Fig. 2 的 CDF）也最贴近真实数据分布，长度建模能力明显优于两个基线。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | DID-DICE（定长完整版） | Tab.1 最优 | 定长设定用 DICE，性能反超 RADD |
@@ -141,3 +157,19 @@ DID 的生成长度分布（Fig. 2 的 CDF）也最贴近真实数据分布，�
 - 实验充分度: ⭐⭐⭐⭐ 定长/变长双设定、与 MDLM 和插入式 LM 都比、覆盖建模质量+生成质量+长度分布+训练/推理速度；不足是规模偏小、个别数据集未占优。
 - 写作质量: ⭐⭐⭐⭐⭐ 推导严谨、动机清晰，从范式到目标到高效实现层层递进，附录给了完整证明与 PyTorch 实现。
 - 价值: ⭐⭐⭐⭐ 为扩散语言模型提供了一条无 `<MASK>`/`<PAD>`、原生变长且自纠错的新路线，效率与灵活性兼得，对后续 DLM 设计有方法论价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models](beyond_fixed_training-free_variable-length_denoising_for_diffusion_large_languag.md)
+- [\[ICLR 2026\] DPad: Efficient Diffusion Language Models with Suffix Dropout](dpad_efficient_diffusion_language_models_with_suffix_dropout.md)
+- [\[ICLR 2026\] Diffusion Language Models Know the Answer Before Decoding](diffusion_language_model_knows_the_answer_before_it_decodes.md)
+- [\[ICLR 2026\] FlashDLM: Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion](flashdlm_accelerating_diffusion_language_model_inference_via_efficient_kv_cachin.md)
+- [\[ICLR 2026\] UltraLLaDA: Scaling the Context Length to 128K for Diffusion Large Language Models](ultrallada_scaling_the_context_length_to_128k_for_diffusion_large_language_model.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Exposing Hidden Biases in Text-to-Image Models via Automated Prompt Search
+description: >-
+  [ICML2026][AI安全][文生图偏见] 本文提出 BGPS（Bias-Guided Prompt Search），用扩散模型内部激活上训练的轻量属性分类器去引导一个 LLM 的束搜索解码，自动生成"读起来自然、却能把生成图像往某个性别/种族猛推"的提示词，从而把文生图模型（包括已做过去偏的模型）里隐藏的、人工很难想到的偏见暴露出来。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "文生图偏见"
+  - "自动提示搜索"
+  - "梯度无关解码"
+  - "公平性审计"
+  - "扩散模型"
+---
+
 # Exposing Hidden Biases in Text-to-Image Models via Automated Prompt Search
 
 **会议**: ICML2026  

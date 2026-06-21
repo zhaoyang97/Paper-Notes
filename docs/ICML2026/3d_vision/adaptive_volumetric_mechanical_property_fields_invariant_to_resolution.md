@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Adaptive Volumetric Mechanical Property Fields Invariant to Resolution
+description: >-
+  [ICML 2026][3D视觉][体积材料场] AdaVoMP 用一种"稀疏自适应体素树 (SAV)"同时表示输入形状和输出材料场，再用稀疏 Transformer 编码器–解码器自回归地为每个 3D 物体逐层生成杨氏模量/泊松比/密度，把可仿真材料场的有效分辨率从 $64^3$ 拉到 $1024^3$（高 $16^3$ 倍），且在更低测试算力下就超过此前 SOTA。
+tags:
+  - "ICML 2026"
+  - "3D视觉"
+  - "体积材料场"
+  - "稀疏自适应体素"
+  - "自回归生成"
+  - "物理仿真"
+  - "Transformer"
+---
+
 # Adaptive Volumetric Mechanical Property Fields Invariant to Resolution
 
 **会议**: ICML 2026  

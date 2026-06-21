@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Dissect and Prune: Enhancing Robustness in AI-Generated Image Detection
+description: >-
+  [ICML 2026][AIGC检测][AI生成图像检测] 针对现有 AI 生成图像（AIGI）检测器"看起来准、其实只会把图判成真"的预测不对称问题，本文提出 DEAR：用 inpainting 图像当探针、按通道激活与生成区域的对齐度（RAD）做"解剖"，再把两端极值通道双侧剪掉、只重训线性分类头，让检测器丢掉脆弱的捷径特征，在未见生成器与后处理下显著更鲁棒。
+tags:
+  - "ICML 2026"
+  - "AIGC检测"
+  - "AI生成图像检测"
+  - "预测不对称"
+  - "网络解剖"
+  - "特征剪枝"
+  - "鲁棒性"
+---
+
 # Dissect and Prune: Enhancing Robustness in AI-Generated Image Detection
 
 **会议**: ICML 2026  

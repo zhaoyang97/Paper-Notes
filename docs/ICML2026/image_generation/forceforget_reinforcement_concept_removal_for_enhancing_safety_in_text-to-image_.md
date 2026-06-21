@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ForceForget: Reinforcement Concept Removal for Enhancing Safety in Text-to-Image Models
+description: >-
+  [ICML 2026][图像生成][概念擦除] 把"擦除不安全概念"重新表述成强化学习的奖励优化问题——用一个安全奖励 + 一个对齐奖励组成的概念擦除奖励（CER）微调扩散模型，再配一个只改写少量文本 token 的"安全适配器"，在彻底去掉色情内容的同时，最大限度保住有害提示里夹带的良性语义（尤其是"人"相关内容）。
+tags:
+  - "ICML 2026"
+  - "图像生成"
+  - "概念擦除"
+  - "文生图安全"
+  - "强化学习"
+  - "交叉注意力适配器"
+  - "NSFW 防御"
+---
+
 # ForceForget: Reinforcement Concept Removal for Enhancing Safety in Text-to-Image Models
 
 **会议**: ICML 2026  

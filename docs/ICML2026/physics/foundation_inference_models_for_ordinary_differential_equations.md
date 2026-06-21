@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Foundation Inference Models for Ordinary Differential Equations
+description: >-
+  [ICML2026][物理/科学计算][ODE 推断] FIM-ODE 把"从含噪轨迹反推常微分方程向量场"这件事一次性摊销到预训练里：用一个只在低次多项式 ODE 先验上预训练的 8M 参数 Transformer 神经算子，单次前向就能零样本预测向量场，在 ODEBench 上以约 1/10 的参数、1/80 的训练数据匹配甚至超过符号回归基线 ODEFormer。
+tags:
+  - "ICML2026"
+  - "物理/科学计算"
+  - "ODE 推断"
+  - "基础推断模型"
+  - "神经算子"
+  - "零样本"
+  - "向量场"
+---
+
 # Foundation Inference Models for Ordinary Differential Equations
 
 **会议**: ICML2026  

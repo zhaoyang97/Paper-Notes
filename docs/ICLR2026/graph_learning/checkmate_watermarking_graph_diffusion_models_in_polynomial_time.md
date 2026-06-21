@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CheckMate! Watermarking Graph Diffusion Models in Polynomial Time
+description: >-
+  [ICLR2026][图学习][图扩散模型] CheckWate 是第一个面向**图扩散模型**的采样期水印框架：它把水印藏进噪声隐变量的**特征值**里（特征值对图同构不变），从而绕开图同构（GI）和图编辑距离（GED）这两个 NP-hard 障碍，做到 $O(N^3)$ 多项式时间的水印验证，在四个数据集、四种图攻击下都能稳定检出，而把图像/表格水印硬搬到图上的基线在同构攻击下几乎全军覆没。
+tags:
+  - "ICLR2026"
+  - "图学习"
+  - "图扩散模型"
+  - "生成式水印"
+  - "图同构"
+  - "谱方法"
+  - "棋盘随机矩阵"
+---
+
 # CheckMate! Watermarking Graph Diffusion Models in Polynomial Time
 
 **会议**: ICLR2026  
-**OpenReview**: [92fliNrbxY](https://openreview.net/forum?id=92fliNrbxY)  
+**OpenReview**: [https://openreview.net/forum?id=92fliNrbxY](https://openreview.net/forum?id=92fliNrbxY)  
 **代码**: https://github.com/r-gheda/checkwate  
 **领域**: 图学习 / 图扩散模型 / 合成数据水印  
 **关键词**: 图扩散模型、生成式水印、图同构、谱方法、棋盘随机矩阵
@@ -122,3 +137,19 @@ CheckWate 在 20 个质量指标里 10 次最优、剩下 10 次有 9 次次优�
 - 实验充分度: ⭐⭐⭐⭐ 四数据集 × 四攻击 × 多基线 + 理想反量化消融，证据链完整；缺离散扩散模型与组合攻击验证。
 - 写作质量: ⭐⭐⭐⭐ 三大组件分工清晰、理论（三条定理）与工程旋钮对应明确，随机矩阵背景交代到位。
 - 价值: ⭐⭐⭐⭐ 填补合成图水印空白，多项式时间 + 抗同构对图数据产权治理有实际意义。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] Polynomial Neural Sheaf Diffusion: A Spectral Filtering Approach on Cellular Sheaves](../../ICML2026/graph_learning/polynomial_neural_sheaf_diffusion_a_spectral_filtering_approach_on_cellular_shea.md)
+- [\[ICLR 2026\] $\ell_1$ Latent Distance Based Continuous-Time Graph Representation](ell_1_latent_distance_based_continuous-time_graph_representation.md)
+- [\[ICLR 2026\] Geometric Graph Neural Diffusion for Stable Molecular Dynamics Simulations](geometric_graph_neural_diffusion_for_stable_molecular_dynamics_simulations.md)
+- [\[ICLR 2026\] Global and Local Topology-Aware Graph Generation via Dual Conditioning Diffusion](global_and_local_topology-aware_graph_generation_via_dual_conditioning_diffusion.md)
+- [\[ICLR 2026\] Learning Concept Bottleneck Models from Mechanistic Explanations](learning_concept_bottleneck_models_from_mechanistic_explanations.md)
+
+</div>
+
+<!-- RELATED:END -->

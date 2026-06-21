@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Zero-source LLM Hallucination Detection with Human-like Criteria Probing
+description: >-
+  [ICML2026][幻觉检测][零源约束] HCPD 把"零源（zero-source，只看问答文本对、拿不到模型内部状态也没外部知识库）幻觉检测"做成"模仿人类评审"的多准则探针——让一个 LLM agent 针对每个问答对自适应生成一组可解释评判准则、赋权、逐准则打分再加权汇总成可信度分；用语义一致性的弱监督 + GRPO 训练这个 agent，推理时多次采样取平均，在 4 个 QA 数据集、多个目标模型上 AUROC 大幅超过现有方法。
+tags:
+  - "ICML2026"
+  - "幻觉检测"
+  - "零源约束"
+  - "多准则探针"
+  - "GRPO"
+  - "弱监督对齐"
+---
+
 # Zero-source LLM Hallucination Detection with Human-like Criteria Probing
 
 **会议**: ICML2026  

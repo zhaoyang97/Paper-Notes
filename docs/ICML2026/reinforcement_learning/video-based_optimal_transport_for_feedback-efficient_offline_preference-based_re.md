@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning
+description: >-
+  [ICML 2026][强化学习][偏好强化学习] 针对偏好强化学习（PbRL）需要成千上万次人工比较才能学出好奖励的高标注成本问题，VOTP 把轨迹片段用视频基础模型编码进语义空间，再用最优传输在"少量已标注对"和"海量未标注对"之间求对齐、把偏好传播过去自动生成伪标签，只用 10 个标注就能学到有效奖励，在 D4RL 运动控制和 MetaWorld 操作任务上超过现有离线 PbRL 方法、几乎追平 Oracle。
+tags:
+  - "ICML 2026"
+  - "强化学习"
+  - "偏好强化学习"
+  - "最优传输"
+  - "视频基础模型"
+  - "半监督伪标签"
+  - "反馈效率"
+---
+
 # Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning
 
 **会议**: ICML 2026  

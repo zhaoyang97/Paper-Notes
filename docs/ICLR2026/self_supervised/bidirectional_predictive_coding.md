@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bidirectional Predictive Coding
+description: >-
+  [ICLR2026][自监督学习][预测编码] 本文提出双向预测编码（bPC），用一个能量函数同时容纳「自上而下生成」和「自下而上判别」两种推断，让同一套生物可实现的局部电路既能像 discPC 那样准确分类、又能像 genPC 那样生成与重建，并在跨模态联想、遮挡补全等类脑任务上超过现有的单向 / 混合 PC 模型。
+tags:
+  - "ICLR2026"
+  - "自监督学习"
+  - "预测编码"
+  - "生成-判别统一"
+  - "能量函数"
+  - "局部 Hebbian 学习"
+  - "类脑视觉推断"
+---
+
 # Bidirectional Predictive Coding
 
 **会议**: ICLR2026  
-**OpenReview**: [HbRihpurRr](https://openreview.net/forum?id=HbRihpurRr)  
+**OpenReview**: [https://openreview.net/forum?id=HbRihpurRr](https://openreview.net/forum?id=HbRihpurRr)  
 **代码**: 待确认  
 **领域**: 自监督 / 表示学习（类脑计算）  
 **关键词**: 预测编码, 生成-判别统一, 能量函数, 局部 Hebbian 学习, 类脑视觉推断
@@ -82,6 +97,7 @@ $$\frac{dx_l}{dt}\propto-\nabla_{x}E=-\epsilon_l^{gen}-\epsilon_l^{disc}+f'(x_l)
 | 监督+无监督联合 | 分类准确率 | 与 BP 相当，CIFAR-10 上比 hybridPC 高 45%+ | hybridPC 联合设置下分类崩 |
 
 ### 消融 / 分析实验
+
 | 配置 / 场景 | 关键发现 | 说明 |
 |------|---------|------|
 | XOR 能量地形 | bPC 学到尖锐类特异极小 | discPC 平原过自信、genPC 塌成类均值、拼接模型两病皆有 |
@@ -126,11 +142,11 @@ $$\frac{dx_l}{dt}\propto-\nabla_{x}E=-\epsilon_l^{gen}-\epsilon_l^{disc}+f'(x_l)
 
 ## 相关论文
 
-- [\[ICCV 2025\] To Label or Not to Label: PALM – A Predictive Model for Evaluating Sample Efficiency in Active Learning Models](../../ICCV2025/self_supervised/to_label_or_not_to_label_palm_-_a_predictive_model_for_evaluating_sample_efficie.md)
-- [\[ICLR 2026\] Soft Equivariance Regularization for Invariant Self-Supervised Learning](soft_equivariance_regularization_for_invariant_self-supervised_learning.md)
+- [\[ICLR 2026\] Contrastive Predictive Coding Done Right for Mutual Information Estimation](contrastive_predictive_coding_done_right_for_mutual_information_estimation.md)
+- [\[ICLR 2026\] Self-Predictive Representations for Combinatorial Generalization in Behavioral Cloning](self-predictive_representations_for_combinatorial_generalization_in_behavioral_c.md)
+- [\[ICLR 2026\] Two-Way is Better Than One: Bidirectional Alignment with Cycle Consistency for Exemplar-Free Class-Incremental Learning](two-way_is_better_than_one_bidirectional_alignment_with_cycle_consistency_for_ex.md)
 - [\[ICLR 2026\] Temporal Slowness in Central Vision Drives Semantic Object Learning](temporal_slowness_in_central_vision_drives_semantic_object_learning.md)
-- [\[ICLR 2026\] Maximizing Asynchronicity in Event-based Neural Networks](maximizing_asynchronicity_in_event-based_neural_networks.md)
-- [\[ICLR 2026\] Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective](difficult_examples_hurt_unsupervised_contrastive_learning_a_theoretical_perspect.md)
+- [\[ICLR 2026\] CSRv2: Unlocking Ultra-Sparse Embeddings](csrv2_unlocking_ultra-sparse_embeddings.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CALM: Co-evolution of Algorithms and Language Model for Automatic Heuristic Design
+description: >-
+  [ICLR2026][优化/理论][自动启发式设计] CALM 让"生成启发式的提示词进化"和"底层 LLM 本身"同时进化——在 LLM 驱动的进化式启发式设计循环里，把每轮"提示-响应-性能"三元组当作强化学习数据，用 GRPO 在线微调一个本地 7B INT4 模型，使得单张 24GB 显卡跑出来的启发式在多个组合优化任务上超过依赖 GPT-4o-mini API 的 SOTA 方法。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "自动启发式设计"
+  - "LLM 进化搜索"
+  - "GRPO"
+  - "组合优化"
+  - "协同进化"
+---
+
 # CALM: Co-evolution of Algorithms and Language Model for Automatic Heuristic Design
 
 **会议**: ICLR2026  
-**OpenReview**: [x6bG2Hoqdf](https://openreview.net/forum?id=x6bG2Hoqdf)  
+**OpenReview**: [https://openreview.net/forum?id=x6bG2Hoqdf](https://openreview.net/forum?id=x6bG2Hoqdf)  
 **代码**: https://github.com/whxru/CALM  
 **领域**: 优化 / 自动启发式设计 / LLM  
 **关键词**: 自动启发式设计, LLM 进化搜索, GRPO, 组合优化, 协同进化
@@ -81,6 +96,7 @@ LLM 进化搜索能成功，是因为含更优启发式的提示倾向于引导�
 核心结论：用 GRPO + 定制奖励后，本地 INT4 量化的 7B 模型导出的启发式不仅追平、还**反超**基于 GPT-4o-mini 的启发式——而后者用的是明显更强的 API 模型。
 
 ### 消融实验（OBP / OP 最优间隙，越小越好）
+
 | 配置 | OBP | OP | 说明 |
 |------|---------|------|------|
 | CALM（本地, w/ GRPO） | 0.71% | 17.41% | 完整模型 |
@@ -128,10 +144,10 @@ LLM 进化搜索能成功，是因为含更优启发式的提示倾向于引导�
 ## 相关论文
 
 - [\[ICML 2026\] PathWise: Planning through World Model for Automated Heuristic Design via Self-Evolving LLMs](../../ICML2026/optimization/pathwise_planning_through_world_model_for_automated_heuristic_design_via_self-ev.md)
+- [\[ICLR 2026\] AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms](autoep_llms-driven_automation_of_hyperparameter_evolution_for_metaheuristic_algo.md)
 - [\[ICML 2026\] Automatic Unsupervised Ensemble Outlier Model Selection–Extended Version](../../ICML2026/optimization/automatic_unsupervised_ensemble_outlier_model_selection--extended_version.md)
+- [\[ICLR 2026\] Generalizable Heuristic Generation Through LLMs with Meta-Optimization](generalizable_heuristic_generation_through_llms_with_meta-optimization.md)
 - [\[AAAI 2026\] Co-Layout: LLM-driven Co-optimization for Interior Layout](../../AAAI2026/optimization/co-layout_llm-driven_co-optimization_for_interior_layout.md)
-- [\[ICLR 2026\] Beyond Short Steps in Frank-Wolfe Algorithms](beyond_short_steps_in_frank-wolfe_algorithms.md)
-- [\[ICLR 2026\] Markovian Transformers for Informative Language Modeling](markovian_transformers_for_informative_language_modeling.md)
 
 </div>
 

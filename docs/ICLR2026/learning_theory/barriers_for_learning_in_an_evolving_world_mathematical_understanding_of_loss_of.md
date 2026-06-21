@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] Barriers for Learning in an Evolving World: Mathematical Understanding of Loss of Plasticity
+description: >-
+  [ICLR2026][学习理论][塑性丧失] 这篇论文用动力系统的视角把"塑性丧失（Loss of Plasticity, LoP）"重新定义为梯度轨迹被困在参数空间的**不变子流形**里，证明了冻结单元和克隆单元会形成这种"陷阱流形"，并指出一个反直觉的结论——正是那些在静态任务上促进泛化的低秩压缩机制，把网络一步步推进了这些丧失塑性的流形。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "持续学习"
+  - "优化动力学"
+  - "塑性丧失"
+  - "不变流形"
+  - "梯度动力学"
+  - "有效秩"
+  - "神经坍缩"
+---
+
 # Barriers for Learning in an Evolving World: Mathematical Understanding of Loss of Plasticity
 
 **会议**: ICLR2026  
-**OpenReview**: [g6kof5fSba](https://openreview.net/forum?id=g6kof5fSba)  
+**OpenReview**: [https://openreview.net/forum?id=g6kof5fSba](https://openreview.net/forum?id=g6kof5fSba)  
 **代码**: https://github.com/ajoudaki/loss-of-plasticity  
 **领域**: 学习理论 / 持续学习 / 优化动力学  
 **关键词**: 塑性丧失、不变流形、梯度动力学、有效秩、神经坍缩
@@ -137,11 +154,11 @@ $$\frac{\mathrm{er}_2(K_\phi(C))}{\mathrm{er}_2(C)}\ \ge\ 1+\gamma_\phi\frac{\Ps
 
 ## 相关论文
 
-- [\[ICML 2026\] Understanding the Parameter Space Geometry of Transformers Encoding Boolean Functions](../../ICML2026/learning_theory/understanding_the_parameter_space_geometry_of_transformers_encoding_boolean_func.md)
-- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
-- [\[ICML 2026\] Expectation Consistency Loss: Rethink Confidence Calibration under Covariate Shift](../../ICML2026/learning_theory/expectation_consistency_loss_rethink_confidence_calibration_under_covariate_shif.md)
-- [\[ICML 2026\] Provably Data-driven Multiple Hyper-parameter Tuning with Structured Loss Function](../../ICML2026/learning_theory/provably_data-driven_multiple_hyper-parameter_tuning_with_structured_loss_functi.md)
-- [\[ICLR 2026\] Bandit Learning in Matching Markets Robust to Adversarial Corruptions](bandit_learning_in_matching_markets_robust_to_adversarial_corruptions.md)
+- [\[ICLR 2026\] Learning Correlated Reward Models: Statistical Barriers and Opportunities](learning_correlated_reward_models_statistical_barriers_and_opportunities.md)
+- [\[ICLR 2026\] PAC-Bayes Bounds for Cumulative Loss in Continual Learning](pac-bayes_bounds_for_cumulative_loss_in_continual_learning.md)
+- [\[ICLR 2026\] Understanding the Dynamics of Forgetting and Generalization in Continual Learning via the Neural Tangent Kernel](understanding_the_dynamics_of_forgetting_and_generalization_in_continual_learnin.md)
+- [\[ICLR 2026\] Towards a Theoretical Understanding of In-Context Learning: Stability and Non-i.i.d. Generalisation](towards_a_theoretical_understanding_of_in-context_learning_stability_and_non-iid.md)
+- [\[ICLR 2026\] Understanding In-Context Learning on Structured Manifolds: Bridging Attention to Kernel Methods](understanding_in-context_learning_on_structured_manifolds_bridging_attention_to_.md)
 
 </div>
 

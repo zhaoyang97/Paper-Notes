@@ -36,6 +36,8 @@ item_total: 7
 
 **📷 CVPR2026** · **7** 篇论文解读
 
+📌 **同领域跨会议浏览：** [🔬 ICLR2026 (7)](../../ICLR2026/anomaly_detection/index.md)
+
 🔥 **高频主题：** 异常检测 ×7
 
 **[Anomaly-Related Residual Fields for Cross-domain Anomaly Detection](anomaly-related_residual_fields_for_cross-domain_anomaly_detection.md)**

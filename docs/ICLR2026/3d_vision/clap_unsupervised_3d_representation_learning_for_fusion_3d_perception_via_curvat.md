@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CLAP: Unsupervised 3D Representation Learning for Fusion 3D Perception via Curvature Sampling and Prototype Learning
+description: >-
+  [ICLR2026][3D视觉][无监督预训练] CLAP 提出首个面向「相机+LiDAR 融合感知」的无监督联合预训练方法：用**曲率采样**只挑场景里信息量大的点/像素来扛住可微渲染的显存开销，再用**可学习原型 + EM 训练**把两个模态拉到同一特征空间挖掘互补性，在 NuScenes / Waymo 上比此前 SOTA（UniPAD）多拿一倍的下游提升。
+tags:
+  - "ICLR2026"
+  - "3D视觉"
+  - "无监督预训练"
+  - "多模态融合"
+  - "可微渲染"
+  - "曲率采样"
+  - "原型学习"
+---
+
 # CLAP: Unsupervised 3D Representation Learning for Fusion 3D Perception via Curvature Sampling and Prototype Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [3qF8HeAVAO](https://openreview.net/forum?id=3qF8HeAVAO)  
+**OpenReview**: [https://openreview.net/forum?id=3qF8HeAVAO](https://openreview.net/forum?id=3qF8HeAVAO)  
 **代码**: 待确认  
 **领域**: 3D视觉 / 自监督表示学习 / 自动驾驶感知  
 **关键词**: 无监督预训练, 多模态融合, 可微渲染, 曲率采样, 原型学习
@@ -104,6 +119,7 @@ CLAP 的 mAP 提升 +2.48% 是 UniPAD（+1.12%）的两倍多（论文称「100%
 **潜在 scaling 性质**（Table 3）：固定预训练数据、逐步减小微调数据（5%→0.5%），预训练/微调数据比越大，CLAP 增益越明显——0.5% 微调时 mAP 提升高达 +7.22%、NDS +4.71%。
 
 ### 消融实验
+
 | 配置 | mAP | 说明 |
 |------|-----|------|
 | 分开预训练 (UniPAD) | 49.81 | 基线，各模态各练 |
@@ -136,3 +152,19 @@ CLAP 的 mAP 提升 +2.48% 是 UniPAD（+1.12%）的两倍多（论文称「100%
 - 实验充分度: ⭐⭐⭐⭐ NuScenes/Waymo 双数据集 + 消融 + 可视化扎实，但下游任务较单一、真 scaling 未验证
 - 写作质量: ⭐⭐⭐⭐ 动机—方法—实验逻辑清晰，公式完整；少数符号略密集
 - 价值: ⭐⭐⭐⭐ 显著降低 3D 标注负担、提升样本效率，对自动驾驶感知预训练有实用价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Adaptive 3D Perception for Small Aerial Targets Under Sparse Sampling via Reinforcement Learning](../../CVPR2026/3d_vision/adaptive_3d_perception_for_small_aerial_targets_under_sparse_sampling_via_reinfo.md)
+- [\[ICLR 2026\] Learning Unified Representation of 3D Gaussian Splatting](learning_unified_representation_of_3d_gaussian_splatting.md)
+- [\[CVPR 2026\] GM-R²: Generative Matching Learning for Unsupervised Geometric Representation and Registration](../../CVPR2026/3d_vision/gm-r2_generative_matching_learning_for_unsupervised_geometric_representation_and.md)
+- [\[ICLR 2026\] CloDS: Visual-Only Unsupervised Cloth Dynamics Learning in Unknown Conditions](clods_visual-only_unsupervised_cloth_dynamics_learning_in_unknown_conditions.md)
+- [\[AAAI 2026\] Point-SRA: Self-Representation Alignment for 3D Representation Learning](../../AAAI2026/3d_vision/point-sra_self-representation_alignment_for_3d_representation_learning.md)
+
+</div>
+
+<!-- RELATED:END -->

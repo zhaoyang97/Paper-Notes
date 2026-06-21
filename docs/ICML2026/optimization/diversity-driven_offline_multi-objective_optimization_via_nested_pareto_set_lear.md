@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Diversity-Driven Offline Multi-Objective Optimization via Nested Pareto Set Learning
+description: >-
+  [ICML 2026][优化/理论][离线优化] 针对"只能用固定离线数据集、不能再查询真目标函数"的离线多目标优化（offline MOO），本文提出 DOMOO：用嵌套 Pareto 集学习联合更新偏好与模型、并把分布外（OOD）风险抑制因子塞进偏好梯度，再配一个专为离线设计的 $\text{IGD}_{\text{offline}}$ 指标做多样性筛选，从而同时拿到收敛性和多样性都更好的解集。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "离线优化"
+  - "多目标优化"
+  - "Pareto集学习"
+  - "分布外风险"
+  - "多样性"
+---
+
 # Diversity-Driven Offline Multi-Objective Optimization via Nested Pareto Set Learning
 
 **会议**: ICML 2026  

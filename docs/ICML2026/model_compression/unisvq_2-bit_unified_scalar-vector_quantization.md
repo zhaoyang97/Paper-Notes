@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] UniSVQ: 2-bit Unified Scalar-Vector Quantization
+description: >-
+  [ICML 2026][模型压缩][2-bit 量化] UniSVQ 用"整数格点的仿射变换"把标量量化（SQ）和向量量化（VQ）统一起来，得到一种 2-bit 后训练量化方案：每个权重矩阵只需 20 个额外参数就拿到接近 VQ 的精度，却保持 SQ 的整数算子结构与推理吞吐。 领域现状：大模型推理贵，后训练量化（PTQ）是…
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "2-bit 量化"
+  - "标量量化"
+  - "向量量化"
+  - "仿射格点"
+  - "后训练量化"
+---
+
 # UniSVQ: 2-bit Unified Scalar-Vector Quantization
 
 **会议**: ICML 2026  

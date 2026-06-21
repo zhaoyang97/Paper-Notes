@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Textual Supervision Enhances Geospatial Representations in Vision-Language Models
+description: >-
+  [ICML2026][可解释性][地理空间表征] 作者用**层级线性探针**去问一个问题——视觉/多模态模型在没有任何地理监督的情况下，隐藏层里到底有没有"这张图拍在地球哪儿"的信息；结论是**带文本监督的 VLM（CLIP、LLaVA、Qwen、Gemma）远比纯视觉模型（ViT、DINOv2）更会编码经纬度**，而且这种地理信息集中在很少的几个维度里、甚至可以被"换维度"操控来改写模型生成的地名。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "地理空间表征"
+  - "线性探针"
+  - "机制可解释性"
+  - "文本监督"
+  - "模型操控"
+---
+
 # Textual Supervision Enhances Geospatial Representations in Vision-Language Models
 
 **会议**: ICML2026  

@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Dimensionality Controls When Modularity Helps in Continual Learning
+description: >-
+  [ICML2026][可解释性][持续学习] 这篇论文用一个 A→B→A 的序列学习范式系统比较"任务分块模块化循环网络"与"单网络"，发现模块化并非总有用——只有当初始化尺度 $\gamma$ 把表示压进**低维"rich"区**时，模块化才会带来更低的干扰，并自发组织出"相似任务子空间重叠、相异任务子空间正交"的渐变几何；在高维"lazy"区两种架构几乎没差别。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "持续学习"
+  - "灾难性遗忘"
+  - "组合性"
+  - "表示维度"
+  - "模块化"
+  - "稳定-可塑性"
+---
+
 # Dimensionality Controls When Modularity Helps in Continual Learning
 
 **会议**: ICML2026  

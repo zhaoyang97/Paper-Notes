@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CharTide: Data-Centric Chart-to-Code Generation via Tri-Perspective Tuning and Inquiry-Driven Evolution
+description: >-
+  [ACL2026][多模态VLM][图表转代码] CharTide 把"图表→绘图代码"的瓶颈归因到**数据本身**：用三视角解耦的 SFT（视觉感知 / 纯文本代码逻辑 / 模态融合三路正交数据流）打破同质数据的扩展墙，再用一个冻结 Inspector 通过原子 QA 客观核验生成图表来给可验证奖励做 RL，让 7B/8B 开源模型超过 GPT-4o、逼近 GPT-5。
+tags:
+  - "ACL2026"
+  - "多模态VLM"
+  - "图表转代码"
+  - "数据中心"
+  - "三视角解耦SFT"
+  - "可验证奖励"
+  - "GRPO"
+---
+
 # CharTide: Data-Centric Chart-to-Code Generation via Tri-Perspective Tuning and Inquiry-Driven Evolution
 
 **会议**: ACL2026  

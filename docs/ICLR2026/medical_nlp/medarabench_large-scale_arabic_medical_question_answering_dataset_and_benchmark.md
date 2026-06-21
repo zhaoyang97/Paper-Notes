@@ -16,7 +16,7 @@ tags:
 # MedAraBench: Large-scale Arabic Medical Question Answering Dataset and Benchmark
 
 **会议**: ICLR2026  
-**OpenReview**: [1BXojAgNrg](https://openreview.net/forum?id=1BXojAgNrg)  
+**OpenReview**: [https://openreview.net/forum?id=1BXojAgNrg](https://openreview.net/forum?id=1BXojAgNrg)  
 **代码**: 待确认（作者声明随论文一同发布数据集与评测脚本）  
 **领域**: 医疗 LLM / NLP 评测  
 **关键词**: 阿拉伯语医疗 QA、多选题基准、专家质量评估、LLM-as-a-judge、QLoRA 微调
@@ -152,11 +152,11 @@ $$n = \frac{n_0}{1 + \frac{n_0 - 1}{N}}$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering](counselbench_a_large-scale_expert_evaluation_and_adversarial_benchmarking_of_lar.md)
 - [\[ACL 2025\] AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset](../../ACL2025/medical_nlp/afrimed_qa_pan_african.md)
 - [\[ICLR 2026\] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA](counselbench_llm_mental_health_qa.md)
 - [\[ICLR 2026\] SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis](survhte-bench_a_benchmark_for_heterogeneous_treatment_effect_estimation_in_survi.md)
-- [\[AAAI 2026\] Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering](../../AAAI2026/medical_nlp/expert-guided_prompting_and_retrieval-augmented_generation_for_emergency_medical.md)
-- [\[ACL 2026\] Query Pipeline Optimization for Cancer Patient Question Answering Systems](../../ACL2026/medical_nlp/query_pipeline_optimization_for_cancer_patient_question_answering_systems.md)
+- [\[ICLR 2026\] From Medical Records to Diagnostic Dialogues: A Clinical-Grounded Approach and Dataset for Psychiatric Comorbidity](from_medical_records_to_diagnostic_dialogues_a_clinical-grounded_approach_and_da.md)
 
 </div>
 

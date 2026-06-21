@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AdS-GNN - a Conformally Equivariant Graph Neural Network
+description: >-
+  [ICLR2026][图学习][共形对称性] 这篇论文把点云从平直欧氏空间"抬升"到高一维的反德西特（AdS）空间，借助物理里 AdS 等距变换 ⇔ 边界共形变换的对应关系，构造出第一个对**完整共形群**（含平移、旋转、缩放，乃至非仿射的特殊共形变换）等变的图神经网络 AdS-GNN，并在超像素 MNIST、形状分割和 Ising 模型关联函数等任务上展现出更强的尺度泛化能力，还能从训练好的网络里直接读出共形维数这种物理上有意义的普适量。
+tags:
+  - "ICLR2026"
+  - "图学习"
+  - "共形对称性"
+  - "图神经网络"
+  - "Anti-de Sitter 空间"
+  - "AdS/CFT"
+  - "消息传递"
+---
+
 # AdS-GNN - a Conformally Equivariant Graph Neural Network
 
 **会议**: ICLR2026  
-**OpenReview**: [EIyvsL5Cue](https://openreview.net/forum?id=EIyvsL5Cue)  
+**OpenReview**: [https://openreview.net/forum?id=EIyvsL5Cue](https://openreview.net/forum?id=EIyvsL5Cue)  
 **代码**: 待确认  
 **领域**: 图学习 / 等变神经网络 / 几何深度学习  
 **关键词**: 共形对称性、等变 GNN、Anti-de Sitter 空间、AdS/CFT、消息传递
@@ -128,11 +143,11 @@ $$\log\big(\mathrm{Pred}_a(\{x_i\})\big)=\mathrm{AdSGNN}_a(\{x_i\})-\Delta_a\sum
 
 ## 相关论文
 
-- [\[AAAI 2026\] Magnitude-Modulated Equivariant Adapter for Parameter-Efficient Fine-Tuning of Equivariant Graph Neural Networks](../../AAAI2026/graph_learning/magnitude-modulated_equivariant_adapter_for_parameter-efficient_fine-tuning_of_e.md)
+- [\[ICLR 2026\] On The Expressive Power of GNN Derivatives](on_the_expressive_power_of_gnn_derivatives.md)
 - [\[AAAI 2026\] On Stealing Graph Neural Network Models](../../AAAI2026/graph_learning/on_stealing_graph_neural_network_models.md)
+- [\[AAAI 2026\] Magnitude-Modulated Equivariant Adapter for Parameter-Efficient Fine-Tuning of Equivariant Graph Neural Networks](../../AAAI2026/graph_learning/magnitude-modulated_equivariant_adapter_for_parameter-efficient_fine-tuning_of_e.md)
+- [\[ICLR 2026\] GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](gnn-as-judge_unleashing_the_power_of_llms_for_graph_learning_with_gnn_feedback.md)
 - [\[ICML 2026\] Full-Spectrum Graph Neural Network: Expressive and Scalable](../../ICML2026/graph_learning/full-spectrum_graph_neural_network_expressive_and_scalable.md)
-- [\[ICLR 2026\] A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks](a_graph_meta-network_for_learning_on_kolmogorovarnold_networks.md)
-- [\[ICLR 2026\] A Geometric Perspective on the Difficulties of Learning GNN-based SAT Solvers](a_geometric_perspective_on_the_difficulties_of_learning_gnn-based_sat_solvers.md)
 
 </div>
 

@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Dynamical properties of dense associative memory
 description: >-
-  [ICLR 2026][学习理论 / 联想记忆动力学][稠密联想记忆] 本文第一次用生成泛函分析（GFA）给出稠密联想记忆（现代 Hopfield 网络）在大系统极限下**动力学**的渐近精确解，定量刻画了召回过程的收敛时间与吸引域大小，并揭示出当激活非线性阶数 $n\ge 3$ 时召回不再给自己引入额外噪声——这正是现代 Hopfield 网络比经典模型更鲁棒的根源。
+  [ICLR 2026][学习理论][稠密联想记忆] 本文第一次用生成泛函分析（GFA）给出稠密联想记忆（现代 Hopfield 网络）在大系统极限下**动力学**的渐近精确解，定量刻画了召回过程的收敛时间与吸引域大小，并揭示出当激活非线性阶数 $n\ge 3$ 时召回不再给自己引入额外噪声——这正是现代 Hopfield 网络比经典模型更鲁棒的根源。
 tags:
   - "ICLR 2026"
-  - "学习理论 / 联想记忆动力学"
+  - "学习理论"
+  - "联想记忆动力学"
   - "稠密联想记忆"
   - "现代 Hopfield 网络"
   - "生成泛函分析"
@@ -16,7 +17,7 @@ tags:
 # Dynamical properties of dense associative memory
 
 **会议**: ICLR 2026  
-**OpenReview**: [TeDkzf34hs](https://openreview.net/forum?id=TeDkzf34hs)  
+**OpenReview**: [https://openreview.net/forum?id=TeDkzf34hs](https://openreview.net/forum?id=TeDkzf34hs)  
 **代码**: 无  
 **领域**: 学习理论 / 联想记忆动力学  
 **关键词**: 稠密联想记忆, 现代 Hopfield 网络, 生成泛函分析, 吸引域, 存储容量
@@ -147,10 +148,10 @@ $$m^{(t+1)}=\mathrm{erf}\!\Big(\frac{(m^{(t)})^{n-1}}{\sqrt{(2n-3)!!\,2\alpha_n}
 ## 相关论文
 
 - [\[ICLR 2026\] A Biologically Plausible Dense Associative Memory with Exponential Capacity](a_biologically_plausible_dense_associative_memory_with_exponential_capacity.md)
-- [\[ICLR 2026\] A New Approach to Controlling Linear Dynamical Systems](a_new_approach_to_controlling_linear_dynamical_systems.md)
-- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
-- [\[ICLR 2026\] Function Spaces Without Kernels: Learning Compact Hilbert Space Representations](function_spaces_without_kernels_learning_compact_hilbert_space_representations.md)
-- [\[ICLR 2026\] Lipschitz Bandits with Stochastic Delayed Feedback](lipschitz_bandits_with_stochastic_delayed_feedback.md)
+- [\[ICLR 2026\] Transformers as Measure-Theoretic Associative Memory: A Statistical Perspective and Minimax Optimality](transformers_as_measure-theoretic_associative_memory_a_statistical_perspective_a.md)
+- [\[ICLR 2026\] Sublinear Spectral Clustering Oracle with Little Memory](sublinear_spectral_clustering_oracle_with_little_memory.md)
+- [\[ICLR 2026\] On learning linear dynamical systems in context with attention layers](on_learning_linear_dynamical_systems_in_context_with_attention_layers.md)
+- [\[ICLR 2026\] Memory-Statistics Tradeoff in Continual Learning with Structural Regularization](memory-statistics_tradeoff_in_continual_learning_with_structural_regularization.md)
 
 </div>
 

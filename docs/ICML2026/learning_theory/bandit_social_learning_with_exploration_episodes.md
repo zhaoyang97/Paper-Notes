@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Bandit Social Learning with Exploration Episodes
+description: >-
+  [ICML2026][学习理论][贪心算法] 本文研究"每个自私 agent 控制一小段连续决策（episode）"的老虎机式社会学习动态，证明即便 agent 在自己的 episode 内会自发探索，**聚合层面的探索仍会失败**——对任意 episode 长度 $m\geq 2$、任意聚合效用函数 $f$（sum/max/min 等），学习失败都以正概率发生，导致贝叶斯遗憾随时间**线性增长**。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "多臂老虎机"
+  - "社会学习"
+  - "贪心算法"
+  - "探索失败"
+  - "贝叶斯遗憾"
+---
+
 # Bandit Social Learning with Exploration Episodes
 
 **会议**: ICML2026  

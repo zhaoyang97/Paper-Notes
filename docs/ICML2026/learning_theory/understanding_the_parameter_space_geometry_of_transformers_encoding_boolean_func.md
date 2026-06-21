@@ -1,3 +1,21 @@
+---
+title: >-
+  [论文解读] Understanding the Parameter Space Geometry of Transformers Encoding Boolean Functions
+description: >-
+  [ICML2026][学习理论][敏感度谱] 本文从**参数空间几何**的角度解释了 Transformer 为何学不会 Parity 这类"敏感"布尔函数：它证明随机初始化的 Transformer 几乎必然会计算出"含大量零敏感度字符串"的函数，而像 Parity、First 这种缺乏零敏感度字符串的函数所对应的参数只占整个参数空间的一个**勒贝格测度零**子集，随机初始化几乎必然错过，因而可证不可学。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "Transformer 表达力与可学习性"
+  - "形式语言"
+  - "敏感度谱"
+  - "参数空间几何"
+  - "测度论"
+  - "可学习性"
+  - "Parity"
+  - "layer norm"
+---
+
 # Understanding the Parameter Space Geometry of Transformers Encoding Boolean Functions
 
 **会议**: ICML2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AutoLibra: Agent Metric Induction from Open-Ended Human Feedback
+description: >-
+  [ICLR2026][LLM评测][智能体评测] AutoLibra 把人类对智能体轨迹的开放式自然语言反馈（如"按钮已禁用就别再点了"）自动归纳成一组带定义和正反例的细粒度评测指标，再用 LLM-as-a-Judge 打分，并用"覆盖率/冗余度"两个元指标反过来优化这组指标，最终既能比专家手设指标更细地刻画智能体行为，又能当作优化目标让前沿模型在 2D 文字游戏上自我调节提升 20%+ 成功率。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "智能体评测"
+  - "指标归纳"
+  - "开放式人类反馈"
+  - "主题分析"
+  - "自我调节优化"
+---
+
 # AutoLibra: Agent Metric Induction from Open-Ended Human Feedback
 
 **会议**: ICLR2026  
-**OpenReview**: [4BjGVZ7Bxn](https://openreview.net/forum?id=4BjGVZ7Bxn)  
+**OpenReview**: [https://openreview.net/forum?id=4BjGVZ7Bxn](https://openreview.net/forum?id=4BjGVZ7Bxn)  
 **代码**: https://autolibra.org （有）  
 **领域**: Agent 评测 / LLM-as-a-Judge  
 **关键词**: 智能体评测, 指标归纳, 开放式人类反馈, 主题分析, 自我调节优化
@@ -125,11 +140,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICLR 2026\] An Open-Ended Benchmark and Formal Framework for Adjuvant Research with MLLM](an_open-ended_benchmark_and_formal_framework_for_adjuvant_research_with_mllm.md)
 - [\[ACL 2026\] Automated Creativity Evaluation of Language Models Across Open-Ended Tasks](../../ACL2026/llm_evaluation/automated_creativity_evaluation_of_language_models_across_open-ended_tasks.md)
+- [\[ICLR 2026\] Towards Self-Evolving Agent Benchmarks: Validatable Agent Trajectory via Test-Time Exploration](towards_self-evolving_agent_benchmarks_validatable_agent_trajectory_via_test-tim.md)
+- [\[ICLR 2026\] Computer Agent Arena: Toward Human-Centric Evaluation and Analysis of Computer-Use Agents](computer_agent_arena_toward_human-centric_evaluation_and_analysis_of_computer-us.md)
 - [\[ACL 2025\] ONEBench to Test Them All: Sample-Level Benchmarking Over Open-Ended Capabilities](../../ACL2025/llm_evaluation/onebench_to_test_them_all_sample-level_benchmarking_over_open-ended_capabilities.md)
-- [\[ICLR 2026\] Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis](talk_evaluate_diagnose_user-aware_agent_evaluation_with_automated_error_analysis.md)
-- [\[ICML 2026\] RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing](../../ICML2026/llm_evaluation/routejudge_an_open_platform_for_reproducible_and_preference-aware_llm_routing.md)
-- [\[ICLR 2026\] AutoMetrics: Approximate Human Judgments with Automatically Generated Evaluators](autometrics_approximate_human_judgments_with_automatically_generated_evaluators.md)
 
 </div>
 

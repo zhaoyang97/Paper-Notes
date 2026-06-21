@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] WildIFEval: Instruction Following in the Wild
+description: >-
+  [ACL2026][LLM评测][指令遵循] WildIFEval 是一个从真实用户对话里抽取、规模达 7,523 个任务 / 24,731 条约束的单轮约束生成基准：它把每个用户指令自动分解成细粒度约束、归入 8 大类别，并用 LLM 评委做"严格/柔性"双评分，从而首次大规模刻画真实指令里约束的分布与共现，并揭示出"约束数一多、模型整体成功率骤降但单约束成功率几乎不变"的容量瓶颈。
+tags:
+  - "ACL2026"
+  - "LLM评测"
+  - "指令遵循"
+  - "约束生成"
+  - "真实用户数据"
+  - "约束分解"
+  - "LLM-as-judge"
+---
+
 # WildIFEval: Instruction Following in the Wild
 
 **会议**: ACL2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Circuit Tracing in Autoregressive Protein Language Models
+description: >-
+  [ICML2026][计算生物][跨层转码器] ProGenMech 把"跨层转码器（CLT）"这套机制可解释性工具首次搬到**自回归生成式**蛋白质语言模型 ProGen3 上，用一套零样本电路发现算法找出不到 2% 的稀疏隐变量电路，既能复现 ProGen3 的生成概率分布和零样本适应度打分，又能把电路对应到激酶 HRD/DFG 等真实保守生物 motif。
+tags:
+  - "ICML2026"
+  - "计算生物"
+  - "跨层转码器"
+  - "电路发现"
+  - "ProGen3"
+  - "稀疏 MoE"
+  - "生物 motif"
+---
+
 # Circuit Tracing in Autoregressive Protein Language Models
 
 **会议**: ICML2026  

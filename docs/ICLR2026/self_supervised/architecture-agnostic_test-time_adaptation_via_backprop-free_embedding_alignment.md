@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment
+description: >-
+  [ICLR2026][自监督学习][测试时适应] PEA 把"域偏移"拆解成嵌入空间里的平移（均值漂移）、缩放（方差漂移）、旋转（协方差漂移）三种几何畸变，然后用一套**无反向传播、与架构无关**的逐层协方差对齐流程，仅靠每个 batch 两次前向就把偏移的中间特征拉回源域分布，在 ImageNet-C / CIFAR-C 上达到 SOTA 精度的同时，内存只占 ~900MB、能直接跑在 Jetson Orin Nano 边缘设备上。
+tags:
+  - "ICLR2026"
+  - "自监督学习"
+  - "测试时适应"
+  - "无反向传播"
+  - "协方差对齐"
+  - "域偏移"
+  - "边缘设备"
+---
+
 # Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment
 
 **会议**: ICLR2026  
-**OpenReview**: [7kLNGaAHaw](https://openreview.net/forum?id=7kLNGaAHaw)  
+**OpenReview**: [https://openreview.net/forum?id=7kLNGaAHaw](https://openreview.net/forum?id=7kLNGaAHaw)  
 **代码**: https://github.com/TheMaXiao/PEA_TTA  
 **领域**: 测试时适应 / 域偏移 / 高效推理  
 **关键词**: 测试时适应, 无反向传播, 协方差对齐, 域偏移, 边缘设备
@@ -144,11 +159,11 @@ ViT-Base，逐组件累加：
 
 ## 相关论文
 
-- [\[CVPR 2026\] Energy Waveify and Redistribution for Test-Time Adaptation: A Control System Perspective](../../CVPR2026/self_supervised/energy_waveify_and_redistribution_for_test-time_adaptation_a_control_system_pers.md)
 - [\[ICLR 2026\] Bayesian Test-Time Adaptation via Dirichlet feature projection and GMM-Driven Inference for Motor Imagery EEG Decoding](bayesian_test-time_adaptation_via_dirichlet_feature_projection_and_gmm-driven_in.md)
+- [\[ICLR 2026\] NEO — No-Optimization Test-Time Adaptation through Latent Re-Centering](neo_no-optimization_test-time_adaptation_through_latent_re-centering.md)
+- [\[CVPR 2026\] Energy Waveify and Redistribution for Test-Time Adaptation: A Control System Perspective](../../CVPR2026/self_supervised/energy_waveify_and_redistribution_for_test-time_adaptation_a_control_system_pers.md)
 - [\[ICLR 2026\] Test-Time Efficient Pretrained Model Portfolios for Time Series Forecasting](test-time_efficient_pretrained_model_portfolios_for_time_series_forecasting.md)
-- [\[ICLR 2026\] Adaptive Test-Time Training for Predicting Need for Invasive Mechanical Ventilation in Multi-Center Cohorts](adaptive_test-time_training_for_predicting_need_for_invasive_mechanical_ventilat.md)
-- [\[ICML 2026\] Mitigating Label Shift in Tabular In-Context Learning via Test-Time Posterior Adjustment](../../ICML2026/self_supervised/mitigating_label_shift_in_tabular_in-context_learning_via_test-time_posterior_ad.md)
+- [\[ICLR 2026\] ZeroSiam: An Efficient Asymmetry for Test-Time Entropy Optimization without Collapse](zerosiam_an_efficient_asymmetry_for_test-time_entropy_optimization_without_colla.md)
 
 </div>
 

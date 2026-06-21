@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Correcting Prompt Dependence in LLM Benchmarks: A Bayesian Hierarchical Model with Embedding-Space Clustering
+description: >-
+  [ICML2026][LLM评测][LLM 基准] 作者指出主流 LLM 基准指标依赖两个常被违反的假设——评测次数足够多（可用中心极限定理）、提示之间相互独立——并提出一个带「嵌入空间聚类」的贝叶斯层次模型 BHM-ESC：先把语义相似的提示聚成簇、簇内共享一个成功概率，再把簇数当未知量从数据里推断出来，从而在小样本下给出更可靠、且修正了提示依赖的性能估计，在对抗鲁棒性基准上把平均绝对误差降低 4–73%、预期对数后验密度提升 40–450。
+tags:
+  - "ICML2026"
+  - "LLM评测"
+  - "LLM 基准"
+  - "提示依赖"
+  - "贝叶斯层次模型"
+  - "嵌入聚类"
+  - "有效样本量"
+---
+
 # Correcting Prompt Dependence in LLM Benchmarks: A Bayesian Hierarchical Model with Embedding-Space Clustering
 
 **会议**: ICML2026  

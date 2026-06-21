@@ -16,7 +16,7 @@ tags:
 # EMFuse: Energy-based Model Fusion for Decision Making
 
 **会议**: ICLR2026  
-**OpenReview**: [6wDp8XRmNI](https://openreview.net/forum?id=6wDp8XRmNI)  
+**OpenReview**: [https://openreview.net/forum?id=6wDp8XRmNI](https://openreview.net/forum?id=6wDp8XRmNI)  
 **代码**: https://github.com/LAMDA-RL/EMFuse  
 **领域**: 强化学习 / 决策智能 / 模型融合  
 **关键词**: 能量模型, 模型融合, 离线强化学习, 专家乘积, 不确定性估计
@@ -142,10 +142,10 @@ D4RL 逐环境（5 seeds，IQM）：Hopper 49.03 / Walker2d 59.53 / HalfCheetah 
 ## 相关论文
 
 - [\[ICLR 2026\] Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making](ada-diffuser_latent-aware_adaptive_diffusion_for_decision-making.md)
+- [\[ICLR 2026\] Information-based Value Iteration Networks for Decision Making Under Uncertainty](information-based_value_iteration_networks_for_decision_making_under_uncertainty.md)
+- [\[ICLR 2026\] Offline Reinforcement Learning with Adaptive Feature Fusion](offline_reinforcement_learning_with_adaptive_feature_fusion.md)
 - [\[NeurIPS 2025\] Optimizing the Unknown: Black Box Bayesian Optimization with Energy-Based Model and Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/optimizing_the_unknown_black_box_bayesian_optimization_with_energy-based_model_a.md)
 - [\[NeurIPS 2025\] Structured Reinforcement Learning for Combinatorial Decision-Making](../../NeurIPS2025/reinforcement_learning/structured_reinforcement_learning_for_combinatorial_decision-making.md)
-- [\[ICML 2025\] Counterfactual Effect Decomposition in Multi-Agent Sequential Decision Making](../../ICML2025/reinforcement_learning/counterfactual_effect_decomposition_in_multi-agent_sequential_decision_making.md)
-- [\[ICML 2025\] Enhancing Decision-Making of Large Language Models via Actor-Critic](../../ICML2025/reinforcement_learning/enhancing_decision-making_of_large_language_models_via_actor-critic.md)
 
 </div>
 

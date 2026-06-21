@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Automated Creativity Evaluation of Language Models Across Open-Ended Tasks
+description: >-
+  [ACL 2026][LLM评测][创造力评测] 这篇论文提出一套**与任务解耦、无需参考答案**的自动化框架来量化 LLM 的创造力：用「语义熵」衡量发散创造力（想法的新颖与多样），用「基于检索的多智能体评判」衡量收敛创造力（解答是否真正解决问题），并在解题、科研构思、创意写作三个领域上系统刷出了模型规模、温度、推理能力对创造力的影响规律。
+tags:
+  - "ACL 2026"
+  - "LLM评测"
+  - "创造力评测"
+  - "语义熵"
+  - "多智能体评判"
+  - "发散思维"
+  - "收敛思维"
+---
+
 # Automated Creativity Evaluation of Language Models Across Open-Ended Tasks
 
 **会议**: ACL 2026  

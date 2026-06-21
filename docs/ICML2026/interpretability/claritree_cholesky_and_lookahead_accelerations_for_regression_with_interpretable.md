@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CLARITree: Cholesky and Lookahead Accelerations for Regression with Interpretable Piecewise Linear Trees
+description: >-
+  [ICML 2026][可解释性][回归树] 针对"贪心回归树快但不准、最优回归树准但慢得跑不动"的两难，CLARITree 把一步 lookahead 搜索和岭回归 Gram 矩阵的秩一 Cholesky 更新结合起来，学出近优、稀疏、叶子带线性模型的回归树，在精度逼近最优解的同时把可扩展性拉到比现有最优方法高一个量级。
+tags:
+  - "ICML 2026"
+  - "可解释性"
+  - "回归树"
+  - "分段线性"
+  - "lookahead 搜索"
+  - "Cholesky 秩一更新"
+  - "近优树"
+---
+
 # CLARITree: Cholesky and Lookahead Accelerations for Regression with Interpretable Piecewise Linear Trees
 
 **会议**: ICML 2026  

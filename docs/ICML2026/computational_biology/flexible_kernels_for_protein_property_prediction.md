@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Flexible Kernels for Protein Property Prediction
+description: >-
+  [ICML 2026][计算生物][高斯过程] 本文为蛋白质序列设计了一族"灵活核"（LOCK / CLOCK），把进化替换矩阵（BLOSUM）的生物物理先验和"性质对突变近似可加"的局部线性假设直接编进高斯过程核里，在数据稀缺的蛋白质性质预测上常常打败依赖大模型 embedding 的复杂方法，并且能零样本吸收结构基础模型的信息做多任务学习。
+tags:
+  - "ICML 2026"
+  - "计算生物"
+  - "高斯过程"
+  - "序列核"
+  - "替换矩阵"
+  - "局部线性"
+  - "结构条件核"
+---
+
 # Flexible Kernels for Protein Property Prediction
 
 **会议**: ICML 2026  

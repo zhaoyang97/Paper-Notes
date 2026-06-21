@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Mix, Don't Pick: Why Synthetic Corpus Composition Matters for Time Series Foundation Model Pretraining
+description: >-
+  [ICML 2026][时间序列][时序基础模型] 这篇论文用 11 个合成时序生成器 × 2 个从头训练的时序基础模型做系统对照，发现"选哪个生成器"在不同架构间排名都不稳定、最好与最差之间预测误差差到 2 倍，于是干脆不去解选择难题——把所有生成器等权一锅混（Mixed11）就能追平甚至超过最佳单一生成器，再掺入真实数据得到最强语料；结论是合成预训练是一个"语料组成"问题，而非"生成器选择"问题，且组成方案必须按模型架构逐一验证。
+tags:
+  - "ICML 2026"
+  - "时间序列"
+  - "时序基础模型"
+  - "合成数据"
+  - "语料组成"
+  - "预训练"
+  - "零样本预测"
+---
+
 # Mix, Don't Pick: Why Synthetic Corpus Composition Matters for Time Series Foundation Model Pretraining
 
 **会议**: ICML 2026  

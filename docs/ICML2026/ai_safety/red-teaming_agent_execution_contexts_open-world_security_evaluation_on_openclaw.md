@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Red-Teaming Agent Execution Contexts: Open-World Security Evaluation on OpenClaw
+description: >-
+  [ICML2026][AI安全][智能体安全] 针对 OpenClaw 这类"会读文件/记忆/工具/技能等可变执行上下文"的智能体，提出自动化红队框架 **DeepTrap**：把"在干净上下文里注入对抗 payload"建成一个**黑盒、离散、随机的轨迹级多目标优化**问题（同时要触发风险、保住正常任务、还要隐蔽），用奖励引导的束搜索 + 反思式深探来挖出高价值的污染上下文；在 42 案例 × 6 类风险 × 9 个目标模型上证明——上下文投毒能让 agent **一边完成用户的正常任务、一边悄悄实现攻击目标**，因此只看最终回复的安全评估根本不够。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "智能体安全"
+  - "红队评估"
+  - "上下文投毒"
+  - "轨迹级评估"
+  - "黑盒优化"
+---
+
 # Red-Teaming Agent Execution Contexts: Open-World Security Evaluation on OpenClaw
 
 **会议**: ICML2026  

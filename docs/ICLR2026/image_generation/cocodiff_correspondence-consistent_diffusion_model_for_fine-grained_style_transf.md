@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] CoCoDiff: Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer
+description: >-
+  [ICLR2026][图像生成][风格迁移] CoCoDiff 是一个**免训练**的风格迁移框架，它直接从预训练 Stable Diffusion 的中间特征里挖出内容图与风格图之间的**像素级语义对应**，再用一个**循环一致性**的注意力注入机制把风格"贴"到结构对齐的区域上，在 FID/LPIPS/ArtFID/CFSD 四项指标上全面超过需要额外训练或标注的方法。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "风格迁移"
+  - "语义对应"
+  - "扩散特征"
+  - "注意力注入"
+  - "循环一致性"
+---
+
 # CoCoDiff: Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [eRSuwB78LH](https://openreview.net/forum?id=eRSuwB78LH)  
+**OpenReview**: [https://openreview.net/forum?id=eRSuwB78LH](https://openreview.net/forum?id=eRSuwB78LH)  
 **代码**: https://github.com/Wenbo-Nie/CoCoDiff  
 **领域**: 扩散模型 / 风格迁移  
 **关键词**: 风格迁移, 语义对应, 扩散特征, 注意力注入, 循环一致性
@@ -164,3 +178,19 @@ Sobel（结构）与 Gram（风格）门控损失的组合（Table 3）：
 - 实验充分度: ⭐⭐⭐⭐ 9 方法对比 + 跨骨干 + 多组消融 + 用户研究齐全，但评测样本量偏小。
 - 写作质量: ⭐⭐⭐⭐ 结构清晰、公式与算法完整，部分图注与排版略显仓促。
 - 价值: ⭐⭐⭐⭐ 免训练、低成本、即插即用，对实际风格迁移落地有较强实用价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] RegionRoute: Regional Style Transfer with Diffusion Model](../../CVPR2026/image_generation/regionroute_regional_style_transfer_with_diffusion_model.md)
+- [\[ICCV 2025\] CharaConsist: Fine-Grained Consistent Character Generation](../../ICCV2025/image_generation/characonsist_fine-grained_consistent_character_generation.md)
+- [\[CVPR 2025\] SaMam: Style-aware State Space Model for Arbitrary Image Style Transfer](../../CVPR2025/image_generation/samam_style-aware_state_space_model_for_arbitrary_image_style_transfer.md)
+- [\[CVPR 2025\] HSI: A Holistic Style Injector for Arbitrary Style Transfer](../../CVPR2025/image_generation/hsi_a_holistic_style_injector_for_arbitrary_style_transfer.md)
+- [\[CVPR 2026\] Style-GRPO: Semantic-Aware Preference Optimization for Image Style Transfer Guided by Reward Modeling](../../CVPR2026/image_generation/style-grpo_semantic-aware_preference_optimization_for_image_style_transfer_guide.md)
+
+</div>
+
+<!-- RELATED:END -->

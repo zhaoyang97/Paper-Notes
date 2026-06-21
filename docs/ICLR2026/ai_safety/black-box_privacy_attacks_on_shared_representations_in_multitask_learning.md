@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Black-Box Privacy Attacks on Shared Representations in Multitask Learning
+description: >-
+  [ICLR2026][AI安全][多任务学习] 本文提出"任务推断（task-inference）"威胁模型，证明仅靠对多任务学习共享表示的黑盒查询、拿到同一任务若干样本的 embedding，攻击者就能在不训练影子模型、不用任何参考数据的前提下，判断某个任务是否被纳入了训练集——核心抓手是同一任务的 embedding 之间存在强协同依赖。
+tags:
+  - "ICLR2026"
+  - "AI安全"
+  - "多任务学习"
+  - "共享表示"
+  - "任务推断"
+  - "隐私泄露"
+  - "黑盒攻击"
+---
+
 # Black-Box Privacy Attacks on Shared Representations in Multitask Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [mTsWEVhcZM](https://openreview.net/forum?id=mTsWEVhcZM)  
+**OpenReview**: [https://openreview.net/forum?id=mTsWEVhcZM](https://openreview.net/forum?id=mTsWEVhcZM)  
 **代码**: https://github.com/johnmath/task-inference-attacks  
 **领域**: AI安全 / 隐私攻击  
 **关键词**: 多任务学习, 共享表示, 任务推断, 隐私泄露, 黑盒攻击  
@@ -128,8 +143,8 @@ $$z=\langle\,\hat\mu-\bar\mu\,,\,\mu_B-\bar\mu\,\rangle$$
 - [\[ICLR 2026\] Traceable Black-box Watermarks for Federated Learning](traceable_black-box_watermarks_for_federated_learning.md)
 - [\[ICLR 2026\] A General Framework for Black-Box Attacks Under Cost Asymmetry](a_general_framework_for_black-box_attacks_under_cost_asymmetry.md)
 - [\[CVPR 2026\] SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning](../../CVPR2026/ai_safety/seba_sample-efficient_black-box_attacks_on_visual_reinforcement_learning.md)
-- [\[CVPR 2026\] VCP-Attack: Visual-Contrastive Projection for Transferable Black-Box Targeted Attacks on Large Vision-Language Models](../../CVPR2026/ai_safety/vcp-attack_visual-contrastive_projection_for_transferable_black-box_targeted_att.md)
-- [\[ACL 2025\] Multi-task Adversarial Attacks against Black-box Model with Few-shot Queries](../../ACL2025/ai_safety/multi-task_adversarial_attacks_against_black-box_model_with_few-shot_queries.md)
+- [\[ICLR 2026\] SeRI: Gradient-Free Sensitive Region Identification in Decision-Based Black-Box Attacks](seri_gradient-free_sensitive_region_identification_in_decision-based_black-box_a.md)
+- [\[CVPR 2026\] What Your Features Reveal: Data-Efficient Black-Box Feature Inversion Attack for Split DNNs](../../CVPR2026/ai_safety/what_your_features_reveal_data-efficient_black-box_feature_inversion_attack_for_.md)
 
 </div>
 

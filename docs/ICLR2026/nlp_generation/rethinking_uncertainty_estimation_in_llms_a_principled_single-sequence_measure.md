@@ -144,11 +144,11 @@ G-NLL 是纯推理时方法，不需要任何训练或额外模型。唯一需�
 
 ## 相关论文
 
+- [\[ICLR 2026\] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs](rainbow_padding_mitigating_early_termination_in_instruction-tuned_diffusion_llms.md)
 - [\[CVPR 2025\] Dense Match Summarization for Faster Two-view Estimation](../../CVPR2025/nlp_generation/dense_match_summarization_for_faster_two-view_estimation.md)
 - [\[ACL 2025\] Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries](../../ACL2025/nlp_generation/dpp_diverse_multidoc_summary.md)
-- [\[ACL 2026\] Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety](../../ACL2026/nlp_generation/childrens_english_reading_story_generation_via_supervised_fine-tuning_of_compact.md)
 - [\[ACL 2025\] Rethinking Evaluation Metrics for Grammatical Error Correction: Why Use a Different Evaluation Process than Human?](../../ACL2025/nlp_generation/rethinking_evaluation_metrics_for_grammatical_error_correction_why_use_a_differe.md)
-- [\[ACL 2025\] TagRouter: Learning Route to LLMs through Tags for Open-Domain Text Generation Tasks](../../ACL2025/nlp_generation/tagrouter_learning_route_to_llms_through_tags_for_open-domain_text_generation_ta.md)
+- [\[ACL 2026\] Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety](../../ACL2026/nlp_generation/childrens_english_reading_story_generation_via_supervised_fine-tuning_of_compact.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints
+description: >-
+  [ICLR2026][优化/理论][正交约束] 本文提出 OBCD，一种在正交约束（Stiefel 流形）下求解"光滑 + 非光滑"复合优化的块坐标下降算法：每次只更新解矩阵的 $k\ge 2$ 行、把问题压成一个 $k\times k$ 的小型正交约束子问题精确求解，从而做到天然可行、单步开销低，同时给出比经典临界点更强的"block-$k$ 稳定点"最优性、$O(1/\epsilon)$ 迭代复杂度以及 KL 条件下的末迭代收敛率。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "正交约束"
+  - "Stiefel流形"
+  - "块坐标下降"
+  - "非光滑复合优化"
+  - "稀疏PCA"
+---
+
 # A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints
 
 **会议**: ICLR2026  
-**OpenReview**: [L3Or2mhuCH](https://openreview.net/forum?id=L3Or2mhuCH)  
+**OpenReview**: [https://openreview.net/forum?id=L3Or2mhuCH](https://openreview.net/forum?id=L3Or2mhuCH)  
 **代码**: 待确认  
 **领域**: optimization  
 **关键词**: 正交约束, Stiefel流形, 块坐标下降, 非光滑复合优化, 稀疏PCA  
@@ -131,11 +146,11 @@ $$\{\text{临界点}\}\ \supseteq\ \{\text{BS}_2\}\ \supseteq\ \cdots\ \supseteq
 
 ## 相关论文
 
+- [\[ICLR 2026\] Clipped Gradient Methods for Nonsmooth Convex Optimization under Heavy-Tailed Noise: A Refined Analysis](clipped_gradient_methods_for_nonsmooth_convex_optimization_under_heavy-tailed_no.md)
 - [\[ICML 2026\] Mirror Descent Under Generalized Smoothness](../../ICML2026/optimization/mirror_descent_under_generalized_smoothness.md)
 - [\[ICML 2026\] Multi-Objective Bayesian Optimization via Adaptive ε-Constraints Decomposition](../../ICML2026/optimization/multi-objective_bayesian_optimization_via_adaptive_varepsilon-constraints_decomp.md)
-- [\[ICML 2025\] Provable Benefit of Random Permutations over Uniform Sampling in Stochastic Coordinate Descent](../../ICML2025/optimization/provable_benefit_of_random_permutations_over_uniform_sampling_in_stochastic_coor.md)
-- [\[ICML 2025\] Improved Sample Complexity for Private Nonsmooth Nonconvex Optimization](../../ICML2025/optimization/improved_sample_complexity_for_private_nonsmooth_nonconvex_optimization.md)
 - [\[ICLR 2026\] Arbitrary-Order Block SignSGD for Memory-Efficient LLM Fine-Tuning](arbitrary-order_block_signsgd_for_memory-efficient_llm_fine-tuning.md)
+- [\[ICLR 2026\] Decentralized Nonconvex Optimization under Heavy-Tailed Noise: Normalization and Optimal Convergence](decentralized_nonconvex_optimization_under_heavy-tailed_noise_normalization_and_.md)
 
 </div>
 

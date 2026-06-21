@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning
+description: >-
+  [ACL 2026][LLM效率][PEFT] 把对抗训练接进参数高效微调（PEFT），用一个统一的鲁棒优化框架 SDBN 在嵌入空间生成最坏扰动，并针对"破坏分词的字符噪声"和"生成式任务"各补一套离散不确定集，在小数据 + 噪声场景下显著提升 LoRA/Adapter/BitFit 的鲁棒性，且不增加任何可训练参数或显存。
+tags:
+  - "ACL 2026"
+  - "LLM效率"
+  - "PEFT"
+  - "LoRA"
+  - "对抗训练"
+  - "鲁棒优化"
+  - "低资源"
+  - "字符级噪声"
+---
+
 # Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning
 
 **会议**: ACL 2026  

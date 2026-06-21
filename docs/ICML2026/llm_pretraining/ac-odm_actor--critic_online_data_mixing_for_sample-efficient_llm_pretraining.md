@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AC-ODM: Actor–Critic Online Data Mixing for Sample-Efficient LLM Pretraining
+description: >-
+  [ICML2026][预训练][数据混合] AC-ODM 把"预训练数据域权重怎么动态调"建模成一个强化学习的连续控制问题，用 DDPG 的 Actor-Critic 在训练过程中实时感知模型状态、输出各域采样权重，并用"域间梯度对齐度"当奖励——理论上证明这等价于最大化梯度的建设性干涉（有效下降步长），在 Pythia-1B 上比强基线少用约 66% 步数就达到最优困惑度，MMLU 相对提升 27.5%、HumanEval pass@1 翻到 2.23 倍，而每步墙钟仅增 0.4%、显存仅增 2%。
+tags:
+  - "ICML2026"
+  - "预训练"
+  - "数据混合"
+  - "在线域权重"
+  - "Actor-Critic"
+  - "梯度对齐"
+  - "样本效率"
+---
+
 # AC-ODM: Actor–Critic Online Data Mixing for Sample-Efficient LLM Pretraining
 
 **会议**: ICML2026  

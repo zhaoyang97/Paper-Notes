@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Hacking Generative Perplexity: Why Unconditional Text Evaluation Needs Distributional Metrics
+description: >-
+  [ICML 2026][LLM评测][生成困惑度] 本文论证：当前扩散/连续流语言模型几乎唯一依赖的评测指标——生成困惑度（gen-PPL，即样本在冻结 AR 打分器 gpt2-large 下的逐 token 负对数似然）——是**不可靠**的；作者用一组**零参数、刻意弱智的采样器**（构造上完全不通顺）在 LM1B/OpenWebText 上、在非退化熵下刷出"SOTA gen-PPL"，反超近期发表的扩散与流模型，从而主张改用直接度量"生成分布 vs 人类文本分布"差异的**分布距离指标套件**重新评测。
+tags:
+  - "ICML 2026"
+  - "LLM评测"
+  - "生成困惑度"
+  - "评测指标"
+  - "扩散语言模型"
+  - "分布距离"
+  - "MAUVE"
+---
+
 # Hacking Generative Perplexity: Why Unconditional Text Evaluation Needs Distributional Metrics
 
 **会议**: ICML 2026  

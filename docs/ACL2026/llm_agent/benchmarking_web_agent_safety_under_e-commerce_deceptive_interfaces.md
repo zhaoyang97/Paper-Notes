@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces
+description: >-
+  [ACL2026][LLM Agent][Web agent 安全] 作者做了 **WebDecept**——一个轻量可插拔的"欺骗界面注入层"，能在 VisualWebArena 电商环境里按触发时机塞进七种现实常见的欺骗模式（弹窗、横幅、域名跳转、偷加购物车、改总价等），用来测多模态 web agent 的安全性；结果发现 GPT-5.1、Claude 4.5、Gemini 2.5 等先进 agent 普遍扛不住，尤其对"偷改购物车/总价"几乎全军覆没，且加安全提示词也救不回来。
+tags:
+  - "ACL2026"
+  - "LLM Agent"
+  - "Web agent 安全"
+  - "欺骗界面"
+  - "dark pattern"
+  - "电商购物"
+  - "多模态 agent"
+---
+
 # Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces
 
 **会议**: ACL2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BrowseNet: Graph-Based Associative Memory for Contextual Information Retrieval
+description: >-
+  [ICLR2026][信息检索/RAG][关联记忆] BrowseNet 把语料组织成"以命名实体为边、以文本块为节点"的 graph-of-chunks，再把多跳问题拆成有向无环的 query-subgraph，沿图做类 beam search 的子图遍历来检索证据，从而只用一次 LLM 调用就在 HotpotQA / 2WikiMQA / MuSiQue 三个多跳 QA 上取得 SOTA 的精确匹配与召回。
+tags:
+  - "ICLR2026"
+  - "信息检索/RAG"
+  - "关联记忆"
+  - "graph-of-chunks"
+  - "多跳问答"
+  - "子图遍历"
+  - "检索增强生成"
+---
+
 # BrowseNet: Graph-Based Associative Memory for Contextual Information Retrieval
 
 **会议**: ICLR2026  
-**OpenReview**: [2q5CugVPoK](https://openreview.net/forum?id=2q5CugVPoK)  
+**OpenReview**: [https://openreview.net/forum?id=2q5CugVPoK](https://openreview.net/forum?id=2q5CugVPoK)  
 **代码**: https://github.com/bisect-group/BrowseNet  
 **领域**: 信息检索 / RAG / 多跳问答  
 **关键词**: 关联记忆, graph-of-chunks, 多跳问答, 子图遍历, 检索增强生成
@@ -103,6 +118,7 @@ $$weight_{SG}=\sum_i \frac{SS_{c_i}}{depth_{c_i}}$$
 BrowseNet 在两个表上都拿到最优平均分，且相对次优方法的提升通过 paired bootstrap test 验证显著（$p<0.05$）。在最难的 MuSiQue（子图可达四跳）上优势尤其明显，因为它同时利用关键词链接和语义邻近，而纯语义的 NV-Embed-v2 只靠相似度。
 
 ### 消融实验
+
 | 配置 | R@2(avg) | R@5(avg) | 说明 |
 |------|---------|---------|------|
 | BrowseNet（NV-Embed-v2） | 71.91 | 87.87 | 完整模型 |
@@ -148,10 +164,10 @@ BrowseNet 在两个表上都拿到最优平均分，且相对次优方法的提�
 ## 相关论文
 
 - [\[ICLR 2026\] AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval](assomem_scalable_memory_qa_with_multi-signal_associative_retrieval.md)
+- [\[ICLR 2026\] MLP Memory: A Retriever-Pretrained Memory for Large Language Models](mlp_memory_a_retriever-pretrained_memory_for_large_language_models.md)
+- [\[ICLR 2026\] Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees](query-aware_flow_diffusion_for_graph-based_rag_with_retrieval_guarantees.md)
 - [\[ACL 2026\] Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization](../../ACL2026/information_retrieval/optimizing_user_profiles_via_contextual_bandits_for_retrieval-augmented_llm_pers.md)
-- [\[ICLR 2026\] G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge](g-reasoner_foundation_models_for_unified_reasoning_over_graph-structured_knowled.md)
-- [\[ICLR 2026\] Improving Semantic Proximity in Information Retrieval through Cross-Lingual Alignment](improving_semantic_proximity_in_information_retrieval_through_cross-lingual_alig.md)
-- [\[ICLR 2026\] TokMem: One-Token Procedural Memory for Large Language Models](tokmem_one-token_procedural_memory_for_large_language_models.md)
+- [\[ICLR 2026\] LinearRAG: Linear Graph Retrieval Augmented Generation on Large-scale Corpora](linearrag_linear_graph_retrieval_augmented_generation_on_large-scale_corpora.md)
 
 </div>
 

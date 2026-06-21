@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Task-Restricted Symmetries in Recurrent Weight Space
+description: >-
+  [ICML2026][学习理论][权重空间对称性] 论文用「有序实 Schur 坐标」把训练好的单层 tanh RNN 的循环矩阵拆成谱块与非正规耦合块，通过逐块置零做结构化消融，发现某些非正规耦合可以在几乎不改变任务行为的前提下被删掉（近似函数不变性），而另一些是任务关键方向——而且这种「可删/不可删」的画像随任务和训练解而变，并非循环权重空间的普适对称性。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "RNN 权重空间分析"
+  - "权重空间对称性"
+  - "循环网络"
+  - "Schur 分解"
+  - "非正规性"
+  - "机制可解释性"
+---
+
 # Task-Restricted Symmetries in Recurrent Weight Space
 
 **会议**: ICML2026  

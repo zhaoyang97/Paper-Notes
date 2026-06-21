@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Probing Semantic Alignment, Lexical Invariance, and Syntactic Influence in LLM Metaphor Processing
+description: >-
+  [ACL2026][可解释性][隐喻处理] 这是一篇诊断性分析论文：作者不比拼性能，而是从**语义属性对齐、词法不变性、句法影响**三个互补维度探针 LLM 的隐喻处理，发现"在隐喻 benchmark 上的高分"可能来自异质的浅层信号（语义漂移 + 稳定词法锚 + 对句法不规则的启发式敏感）而非稳健的整合式语义理解。
+tags:
+  - "ACL2026"
+  - "可解释性"
+  - "隐喻处理"
+  - "几何探针"
+  - "词法不变性"
+  - "句法扰动"
+  - "诊断分析"
+---
+
 # Probing Semantic Alignment, Lexical Invariance, and Syntactic Influence in LLM Metaphor Processing
 
 **会议**: ACL2026  

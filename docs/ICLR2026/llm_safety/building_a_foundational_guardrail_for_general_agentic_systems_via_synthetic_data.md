@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Building a Foundational Guardrail for General Agentic Systems via Synthetic Data
+description: >-
+  [ICLR2026][LLM安全][agentic safety] 本文针对 LLM agent「执行前」这一最安全的干预时机，提出一套完整护栏方案：用可控合成数据引擎 AuraGen 造大规模带标注的风险轨迹，训练一个轻量 guardian 模型 Safiron（前接跨规划器 adapter 统一输入格式）来判定/分类/解释风险，并发布人工核验的 Pre-Exec Bench 基准；在该基准上四项指标全面超越 GPT-5、Claude-3.7 等强基线。
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "agentic safety"
+  - "预执行护栏"
+  - "合成数据"
+  - "风险检测"
+  - "GRPO"
+---
+
 # Building a Foundational Guardrail for General Agentic Systems via Synthetic Data
 
 **会议**: ICLR2026  
-**OpenReview**: [M47SWYubR5](https://openreview.net/forum?id=M47SWYubR5)  
+**OpenReview**: [https://openreview.net/forum?id=M47SWYubR5](https://openreview.net/forum?id=M47SWYubR5)  
 **代码**: 待确认  
 **领域**: LLM Agent / Agent 安全 / 护栏  
 **关键词**: agentic safety, 预执行护栏, 合成数据, 风险检测, GRPO
@@ -85,6 +100,7 @@ $$L_{GRPO}(\theta)=\mathbb{E}_x\Big[\mathbb{E}_{i,t}\min\big(\rho_{i,t}\tilde{A}
 关键看点：GPT-5 等闭源模型有害检测精度近乎完美（0.99），但分类准确率只有 0.42——它在「过度告警/夸大安全」，把大量无害样本也判为有害，可用性差。Safiron 在保持 0.973 高检测精度的同时，分类准确率、风险分类、解释质量全面领先，是最平衡的方案。
 
 ### 消融实验
+
 | 配置 | Cls. Acc. | Harm. Det. Prec. | Risk Cat. Acc. | Expl. Corr. |
 |------|-----------|------------------|----------------|-------------|
 | Safiron (SFT-Only) | 0.956 | 0.939 | 0.566 | 0.508 |
@@ -130,8 +146,8 @@ GRPO 相比纯 SFT，把风险类别准确率从 0.566 拉到 0.646、解释正�
 - [\[ICML 2025\] POPri: Private Federated Learning using Preference-Optimized Synthetic Data](../../ICML2025/llm_safety/popri_private_federated_learning_using_preference-optimized_synthetic_data.md)
 - [\[NeurIPS 2025\] Virus Infection Attack on LLMs: Your Poisoning Can Spread "VIA" Synthetic Data](../../NeurIPS2025/llm_safety/virus_infection_attack_on_llms_your_poisoning_can_spread_via_synthetic_data.md)
 - [\[ACL 2026\] Do Multimodal RAG Systems Leak Data? A Comprehensive Evaluation of Membership Inference and Image Caption Retrieval Attacks](../../ACL2026/llm_safety/do_multimodal_rag_systems_leak_data_a_comprehensive_evaluation_of_membership_inf.md)
-- [\[NeurIPS 2025\] Collective Narrative Grounding: Community-Coordinated Data Contributions to Improve Local AI Systems](../../NeurIPS2025/llm_safety/collective_narrative_grounding_community-coordinated_data_contributions_to_impro.md)
-- [\[ICLR 2026\] A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems](a2asecbench_a_protocol-aware_security_benchmark_for_agent-to-agent_multi-agent_s.md)
+- [\[ICLR 2026\] PropensityBench: Evaluating Latent Safety Risks in Large Language Models via an Agentic Approach](propensitybench_evaluating_latent_safety_risks_in_large_language_models_via_an_a.md)
+- [\[ICLR 2026\] Secret-Protected Evolution for Differentially Private Synthetic Text Generation](secret-protected_evolution_for_differentially_private_synthetic_text_generation.md)
 
 </div>
 

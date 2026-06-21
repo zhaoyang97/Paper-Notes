@@ -1,3 +1,20 @@
+---
+title: >-
+  [论文解读] Robustness of Mixtures of Experts to Feature Noise
+description: >-
+  [ICML 2026][学习理论][Mixture-of-Experts] 在「总参数量对齐」的公平设定下，本文用一个分块对角的带噪线性回归模型证明：MoE 的稀疏专家激活相当于一个噪声滤波器，使它在特征噪声下比同等大小的稠密模型有更低的泛化误差、更强的扰动鲁棒性和更快的收敛速度。 领域现状：MoE（Mixtral 8×7B…
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "MoE"
+  - "鲁棒性"
+  - "Mixture-of-Experts"
+  - "特征噪声"
+  - "稀疏激活"
+  - "泛化误差"
+  - "等参数对比"
+---
+
 # Robustness of Mixtures of Experts to Feature Noise
 
 **会议**: ICML 2026  

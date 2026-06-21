@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Temporal Preference Optimization for Unsupervised Retrieval
+description: >-
+  [ICML 2026][信息检索/RAG][无监督密集检索] 本文提出 TPOUR，把 DPO 式偏好学习搬到检索的时间维度：上，让无监督密集检索器在语义相近但时间错位的文档里优先选出"时间对齐"的那一篇，并用时间向量插值零成本泛化到没训练过的年份。 领域现状：无监督密集检索器（如 Contriever）靠对比学习从海量无标…
+tags:
+  - "ICML 2026"
+  - "信息检索/RAG"
+  - "无监督密集检索"
+  - "时序对齐"
+  - "偏好优化"
+  - "时间向量"
+  - "对比学习"
+---
+
 # Temporal Preference Optimization for Unsupervised Retrieval
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Active Learning with Low-Rank Structure for Data Selection
+description: >-
+  [ICML 2026][学习理论][低秩近似] 针对"现有 coreset 数据选择假设数据有几何聚类结构、但很多现代数据集其实是全局代数（低秩）结构"的错配，本文提出基于低秩近似 + 残差敏感度采样的数据选择框架，用一个 $\tilde{O}(k+1/\varepsilon^2)$ 大小的加权子集把全量平均损失逼近到 $(1\pm\varepsilon)$ 相对误差（外加正比于最优 rank-$k$ 近似代价 $\Phi_k$ 的可加项），在表格数据和 Llama3-8B / Qwen2.5-3B 微调上都优于均匀采样与聚类敏感度采样。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "数据选择"
+  - "Coreset"
+  - "低秩近似"
+  - "敏感度采样"
+  - "主动学习"
+---
+
 # Active Learning with Low-Rank Structure for Data Selection
 
 **会议**: ICML 2026  

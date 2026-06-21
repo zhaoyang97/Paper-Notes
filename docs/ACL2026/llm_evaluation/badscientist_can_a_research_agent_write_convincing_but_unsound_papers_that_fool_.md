@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?
+description: >-
+  [ACL2026][LLM评测][LLM 评审] 作者搭了一个"坏科学家" pipeline：让一个不做任何真实验的生成 agent 用五种"表演式造假"策略写出看似严谨实则站不住的论文，再喂给由 o3 / o4-mini / GPT-4.1 组成的多模型评审 agent，结果造假论文的接收率最高冲到 **82%**，而且评审常常一边在评语里点出诚信问题、一边照样打出接收分（concern-acceptance conflict），现有缓解手段几乎只比随机猜强一点。
+tags:
+  - "ACL2026"
+  - "LLM评测"
+  - "LLM 评审"
+  - "论文造假"
+  - "科研诚信"
+  - "agent 对抗"
+  - "阈值校准"
+---
+
 # BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?
 
 **会议**: ACL2026  

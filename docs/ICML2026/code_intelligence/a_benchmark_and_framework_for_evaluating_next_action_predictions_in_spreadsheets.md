@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] A Benchmark and Framework for Evaluating Next Action Predictions in Spreadsheets
+description: >-
+  [ICML2026][代码智能][表格自动补全] 针对"电子表格没有像代码补全那样的下一步动作预测"这一空白，本文构造了首个表格动作预测基准 NAPE（52 条人工校验的建表轨迹、共 11,907 个低层动作），并提出一种**在线评估**框架——每个动作后让系统预测、模拟用户接受/拒绝、动态改写剩余真值，最终用"为用户省下的动作比例（uas）"来衡量真实收益；实验显示微调的 360M 小模型就能追平 GPT-5（都省 27% 动作）。
+tags:
+  - "ICML2026"
+  - "代码智能"
+  - "表格自动补全"
+  - "动作预测"
+  - "在线评估"
+  - "用户行为建模"
+  - "benchmark"
+---
+
 # A Benchmark and Framework for Evaluating Next Action Predictions in Spreadsheets
 
 **会议**: ICML2026  

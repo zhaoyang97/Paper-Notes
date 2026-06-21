@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Clipped Gradient Methods for Nonsmooth Convex Optimization under Heavy-Tailed Noise: A Refined Analysis
+description: >-
+  [ICLR 2026][优化/理论][重尾噪声] 这篇论文对重尾噪声下的 Clipped SGD 给出一套更精细的收敛分析：通过更聪明地使用 Freedman 不等式、给出更紧的裁剪误差界，把已知最优的高概率收敛率再提速一个 $\mathrm{poly}(1/d_{\mathrm{eff}})$ 因子（$d_{\mathrm{eff}}$ 是作者定义的"广义有效维数"），并在期望收敛上得到能**突破已知下界**、且与作者新证下界**完全匹配**（即最优）的新速率。
+tags:
+  - "ICLR 2026"
+  - "优化/理论"
+  - "重尾噪声"
+  - "梯度裁剪"
+  - "高概率收敛"
+  - "非光滑凸优化"
+  - "有效维数"
+---
+
 # Clipped Gradient Methods for Nonsmooth Convex Optimization under Heavy-Tailed Noise: A Refined Analysis
 
 **会议**: ICLR 2026  
-**OpenReview**: [2dbLeXDe39](https://openreview.net/forum?id=2dbLeXDe39)  
+**OpenReview**: [https://openreview.net/forum?id=2dbLeXDe39](https://openreview.net/forum?id=2dbLeXDe39)  
 **代码**: 无（纯理论论文）  
 **领域**: optimization  
 **关键词**: 重尾噪声, 梯度裁剪, 高概率收敛, 非光滑凸优化, 有效维数
@@ -114,3 +129,19 @@ $$\big\|\mathbb{E}_{t-1}[d_t^u(d_t^u)^\top]\big\|\le O(\sigma_s^p\tau^{2-p}+\sig
 - 实验充分度: ⭐⭐⭐⭐ 纯理论，证明完整（含上界、下界、anytime 变体），但无数值验证
 - 写作质量: ⭐⭐⭐⭐⭐ 动机—洞见—结果的逻辑链清晰，proof sketch 把两条改进讲得很透
 - 价值: ⭐⭐⭐⭐⭐ 方法论（算子范数 + 细粒度噪声 + 下界类）通用，可迁移到更多重尾设定
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Decentralized Nonconvex Optimization under Heavy-Tailed Noise: Normalization and Optimal Convergence](decentralized_nonconvex_optimization_under_heavy-tailed_noise_normalization_and_.md)
+- [\[ICML 2026\] Can Adaptive Gradient Methods Converge under Heavy-Tailed Noise? A Case Study of AdaGrad](../../ICML2026/optimization/can_adaptive_gradient_methods_converge_under_heavy-tailed_noise_a_case_study_of_.md)
+- [\[ICML 2025\] Clipping Improves Adam-Norm and AdaGrad-Norm when the Noise Is Heavy-Tailed](../../ICML2025/optimization/clipping_improves_adam-norm_and_adagrad-norm_when_the_noise_is_heavy-tailed.md)
+- [\[NeurIPS 2025\] Second-Order Optimization Under Heavy-Tailed Noise: Hessian Clipping and Sample Complexity](../../NeurIPS2025/optimization/second-order_optimization_under_heavy-tailed_noise_hessian_clipping_and_sample_c.md)
+- [\[ICLR 2026\] High-Probability Bounds for the Last Iterate of Clipped SGD](high-probability_bounds_for_the_last_iterate_of_clipped_sgd.md)
+
+</div>
+
+<!-- RELATED:END -->

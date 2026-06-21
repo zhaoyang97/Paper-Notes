@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BRIDGE: Bi-level Reinforcement Learning for Dynamic Group Structure in Coalition Formation Games
+description: >-
+  [ICLR2026][多智能体][联盟结构生成] 把"把一群智能体最优地划分成若干联盟"（NP 完全的联盟结构生成问题）建模成一个紧凑、可被强化学习吃下的 MDP，再用双层 RL（上层学合并联盟、下层学每个智能体的最优策略）联合求解，使得在 3 个智能体上训练的模型能泛化到 100 个智能体，并在推理速度和混合动机马尔可夫博弈上超过传统启发式方法。
+tags:
+  - "ICLR2026"
+  - "多智能体"
+  - "联盟结构生成"
+  - "双层强化学习"
+  - "多智能体系统"
+  - "Stackelberg 博弈"
+  - "MADDPG"
+---
+
 # BRIDGE: Bi-level Reinforcement Learning for Dynamic Group Structure in Coalition Formation Games
 
 **会议**: ICLR2026  
-**OpenReview**: [kIIG4Km1lu](https://openreview.net/forum?id=kIIG4Km1lu)  
+**OpenReview**: [https://openreview.net/forum?id=kIIG4Km1lu](https://openreview.net/forum?id=kIIG4Km1lu)  
 **代码**: 待确认  
 **领域**: 多智能体系统 / 强化学习  
 **关键词**: 联盟结构生成, 双层强化学习, 多智能体系统, Stackelberg 博弈, MADDPG
@@ -147,10 +162,10 @@ $$\pi_f = \arg\max_{\pi_f\in \mathrm{NE}(s_l)} \sum_{C\in s_l} J_f^C(\pi_f).$$
 ## 相关论文
 
 - [\[ICLR 2026\] AgentPO: Enhancing Multi-Agent Collaboration via Reinforcement Learning](agentpo_enhancing_multi-agent_collaboration_via_reinforcement_learning.md)
-- [\[AAAI 2026\] Learning to Generate and Extract: A Multi-Agent Collaboration Framework for Zero-shot Document-level Event Arguments Extraction](../../AAAI2026/multi_agent/learning_to_generate_and_extract_a_multi-agent_collaboration_framework_for_zero-.md)
-- [\[ICML 2026\] RADAR: Redundancy-Aware Diffusion for Multi-Agent Communication Structure Generation](../../ICML2026/multi_agent/radar_redundancy-aware_diffusion_for_multi-agent_communication_structure_generat.md)
-- [\[AAAI 2026\] Conversational Learning Diagnosis via Reasoning Multi-Turn Interactive Learning](../../AAAI2026/multi_agent/conversational_learning_diagnosis_via_reasoning_multi-turn_interactive_learning.md)
 - [\[ICLR 2026\] Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning](adaptive_collaboration_with_humans_metacognitive_policy_optimization_for_multi-a.md)
+- [\[AAAI 2026\] Learning to Generate and Extract: A Multi-Agent Collaboration Framework for Zero-shot Document-level Event Arguments Extraction](../../AAAI2026/multi_agent/learning_to_generate_and_extract_a_multi-agent_collaboration_framework_for_zero-.md)
+- [\[ICLR 2026\] Context Learning for Multi-Agent Discussion](context_learning_for_multi-agent_discussion.md)
+- [\[ICLR 2026\] Learning to Summarize by Learning to Quiz: Adversarial Agentic Collaboration for Long Document Summarization](learning_to_summarize_by_learning_to_quiz_adversarial_agentic_collaboration_for_.md)
 
 </div>
 

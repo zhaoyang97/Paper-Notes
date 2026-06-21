@@ -16,7 +16,7 @@ tags:
 # PoinnCARE: Hyperbolic Multi-Modal Learning for Enzyme Classification
 
 **会议**: ICLR2026  
-**OpenReview**: [dGxAYNK6JU](https://openreview.net/forum?id=dGxAYNK6JU)  
+**OpenReview**: [https://openreview.net/forum?id=dGxAYNK6JU](https://openreview.net/forum?id=dGxAYNK6JU)  
 **代码**: https://github.com/kkkkk001/PoinnCARE  
 **领域**: 计算生物学 / 酶功能预测  
 **关键词**: 酶分类、EC number、双曲空间、多模态学习、图扩散
@@ -144,11 +144,11 @@ $$\mathcal{L}_{align} = \|H^{(s)} - H^{(a)}\|_F^2 + w_d\big(\|I - H_{(s)}^\top H
 
 ## 相关论文
 
+- [\[ICLR 2026\] OmniMouse: Scaling properties of multi-modal, multi-task Brain Models on 150B Neural Tokens](omnimouse_scaling_properties_of_multi-modal_multi-task_brain_models_on_150b_neur.md)
 - [\[ACL 2025\] Align-Pro: Align Protein Representations Through Multi-Modal Learning](../../ACL2025/computational_biology/align-pro_align_protein_representations_through_multi-modal_learning.md)
 - [\[CVPR 2026\] Deciphering Genotype-Phenotype Mechanisms from High-Content Profiling via Knowledge-Guided Multi-modal Graph Learning](../../CVPR2026/computational_biology/deciphering_genotype-phenotype_mechanisms_from_high-content_profiling_via_knowle.md)
 - [\[CVPR 2026\] HyperST: Hierarchical Hyperbolic Learning for Spatial Transcriptomics Prediction](../../CVPR2026/computational_biology/hyperst_hierarchical_hyperbolic_learning_for_spatial_transcriptomics_prediction.md)
 - [\[CVPR 2026\] Cross-Slice Knowledge Transfer via Masked Multi-Modal Heterogeneous Graph Contrastive Learning for Spatial Gene Expression Inference](../../CVPR2026/computational_biology/cross-slice_knowledge_transfer_via_masked_multi-modal_heterogeneous_graph_contra.md)
-- [\[CVPR 2026\] Bulk RNA-seq Guided Multi-modal Detection of Anomalous Regions in Human Cancer via Spatial Transcriptomics](../../CVPR2026/computational_biology/bulk_rna-seq_guided_multi-modal_detection_of_anomalous_regions_in_human_cancer_v.md)
 
 </div>
 

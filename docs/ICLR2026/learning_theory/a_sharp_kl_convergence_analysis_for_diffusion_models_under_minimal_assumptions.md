@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] A Sharp KL Convergence Analysis for Diffusion Models under Minimal Assumptions
+description: >-
+  [ICLR2026][学习理论][扩散模型] 本文为扩散模型（DDPM 采样器）在"只假设 score 估计 L2 准确、不假设任何光滑性"的最小假设下，给出 KL 散度收敛的更尖锐分析：把生成过程建模为"一步概率流 ODE + 一小步加噪"，并发展出一套处理 score 二阶空间导数（Laplacian）的新证明技术，把达到 $\varepsilon^2$-KL 所需迭代数从此前最好的 $\tilde O(d/\varepsilon^2)$ 改进到 $\tilde O(d/\varepsilon)$——在保持维度 $d$ 线性依赖的同时，把对精度 $\varepsilon$ 的依赖从二次降到一次。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "扩散模型收敛分析"
+  - "扩散模型"
+  - "KL 收敛"
+  - "概率流 ODE"
+  - "随机局部化"
+  - "离散化误差"
+---
+
 # A Sharp KL Convergence Analysis for Diffusion Models under Minimal Assumptions
 
 **会议**: ICLR2026  
-**OpenReview**: [c8Ft3246KD](https://openreview.net/forum?id=c8Ft3246KD)  
+**OpenReview**: [https://openreview.net/forum?id=c8Ft3246KD](https://openreview.net/forum?id=c8Ft3246KD)  
 **代码**: 无  
 **领域**: 学习理论 / 扩散模型收敛分析  
 **关键词**: 扩散模型, KL 收敛, 概率流 ODE, 随机局部化, 离散化误差
@@ -110,11 +126,11 @@ $$\mathbb{E}_{q_t}\|s_r'\|^2 = e^{4t}\,\mathbb{E}_{q_t}\!\big[\|\Delta s_r\|_2^2
 
 ## 相关论文
 
+- [\[ICLR 2026\] Polynomial Convergence of Riemannian Diffusion Models](polynomial_convergence_of_riemannian_diffusion_models.md)
 - [\[ICLR 2026\] Best-of-N through the Smoothing Lens: KL Divergence and Regret Analysis](best-of-n_through_the_smoothing_lens_kl_divergence_and_regret_analysis.md)
-- [\[ICLR 2026\] A Unification of Discrete, Gaussian, and Simplicial Diffusion](a_unification_of_discrete_gaussian_and_simplicial_diffusion.md)
-- [\[ICML 2026\] The Data Manifold under the Microscope](../../ICML2026/learning_theory/the_data_manifold_under_the_microscope.md)
-- [\[ICLR 2026\] Alternating Diffusion for Proximal Sampling with Zeroth Order Queries](alternating_diffusion_for_proximal_sampling_with_zeroth_order_queries.md)
-- [\[ICLR 2026\] Scalable Random Wavelet Features: Efficient Non-Stationary Kernel Approximation with Convergence Guarantees](scalable_random_wavelet_features_efficient_non-stationary_kernel_approximation_w.md)
+- [\[ICLR 2026\] Finite-Time Convergence Analysis of ODE-based Generative Models for Stochastic Interpolants](finite-time_convergence_analysis_of_ode-based_generative_models_for_stochastic_i.md)
+- [\[ICLR 2026\] On the Interpolation Effect of Score Smoothing in Diffusion Models](on_the_interpolation_effect_of_score_smoothing_in_diffusion_models.md)
+- [\[ICLR 2026\] Provable Separations between Memorization and Generalization in Diffusion Models](provable_separations_between_memorization_and_generalization_in_diffusion_models.md)
 
 </div>
 

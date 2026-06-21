@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy
+description: >-
+  [ICML2026][学习理论][高斯机制] 这篇理论文回答两个长期悬而未决的问题：在高维下高斯机制是不是加性噪声差分隐私的最优选择（答：当维度 $T\to\infty$ 时，在固定均方误差下没有任何加性噪声能渐近超过高斯），以及在低维下有没有比高斯和 $\ell_2$ 机制都更好的机制（答：有——作者提出三参数的 Spherical Generalized Gamma 噪声族，在某些低维设置下 MSE 比两者都低最多 15%，并给出它们的紧致组合，顺带解决了 Joseph et al. 关于 $\ell_2$ 机制的一个 open question）。
+tags:
+  - "ICML2026"
+  - "学习理论"
+  - "差分隐私"
+  - "高斯机制"
+  - "加性噪声"
+  - "球对称分布"
+  - "紧致组合"
+---
+
 # Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy
 
 **会议**: ICML2026  

@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning
+description: >-
+  [ICLR2026][代码智能][代码推理] CodeSense 是第一个面向真实世界软件工程的细粒度代码语义推理 benchmark：作者从 744 个 Python/C/Java GitHub 项目里跑测试、抓执行轨迹，自动构造出语句级/代码块级/函数级的执行值与程序属性（循环、指针别名、分支）的 ground truth，共 4483 个样本，评测 14 个 SOTA LLM 后发现它们连单条真实语句的算术和 API 调用都常常算不对。
+tags:
+  - "ICLR2026"
+  - "代码智能"
+  - "代码推理"
+  - "真实世界代码"
+  - "执行追踪"
+  - "细粒度语义"
+  - "LLM 评测"
+---
+
 # CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning
 
 **会议**: ICLR2026  
-**arXiv**: 无（OpenReview 录用，未挂 arXiv）  
-**OpenReview**: [ehXVDJm0PS](https://openreview.net/forum?id=ehXVDJm0PS)  
+**OpenReview**: [https://openreview.net/forum?id=ehXVDJm0PS](https://openreview.net/forum?id=ehXVDJm0PS)  
 **代码**: https://codesense-bench.github.io/  
 **领域**: 代码智能 / Benchmark / 代码语义推理  
 **关键词**: 代码推理, 真实世界代码, 执行追踪, 细粒度语义, LLM 评测
@@ -116,3 +130,19 @@ CodeSense 不是一个模型，而是一条"数据采集 → 任务定义 → �
 - 实验充分度: ⭐⭐⭐⭐⭐ 14 个模型 × 6 个 RQ × 多语言/多任务，分析维度丰富且结论自洽
 - 写作质量: ⭐⭐⭐⭐ 任务定义清晰、动机贴合 SE 实践；图多依赖附录，正文部分结论需查图
 - 价值: ⭐⭐⭐⭐⭐ 诊断力强、框架可复用、可持续扩充，对代码模型评测与后训练都有长期价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] EDIT-Bench: Evaluating LLM Abilities to Perform Real-World Instructed Code Edits](edit-bench_evaluating_llm_abilities_to_perform_real-world_instructed_code_edits.md)
+- [\[ACL 2026\] ReFEree: Reference-Free and Fine-Grained Method for Evaluating Factual Consistency in Real-World Code Summarization](../../ACL2026/code_intelligence/referee_reference-free_and_fine-grained_method_for_evaluating_factual_consistenc.md)
+- [\[ACL 2026\] LogicEval: A Systematic Framework for Evaluating Automated Repair Techniques for Logical Vulnerabilities in Real-World Software](../../ACL2026/code_intelligence/logiceval_a_systematic_framework_for_evaluating_automated_repair_techniques_for_.md)
+- [\[ACL 2025\] CompileAgent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM-based Agent System](../../ACL2025/code_intelligence/compileagent_automated_real-world_repo-level_compilation_with_tool-integrated_ll.md)
+- [\[ICLR 2026\] Code2Bench: Scaling Source and Rigor for Dynamic Benchmark Construction](code2bench_scaling_source_and_rigor_for_dynamic_benchmark_construction.md)
+
+</div>
+
+<!-- RELATED:END -->

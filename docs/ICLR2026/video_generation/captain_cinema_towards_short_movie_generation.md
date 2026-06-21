@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Captain Cinema: Towards Short Movie Generation
+description: >-
+  [ICLR2026][视频生成][短电影生成] Captain Cinema 把"生成一部短电影"拆成"自上而下先画一整套关键帧分镜、自下而上再把关键帧之间补成视频"两步，并用黄金比例记忆压缩（GoldenMem）把上千秒、几十个镜头的历史画面压进固定的 token 预算里，从而在长达数十个交错镜头上仍保持人物与场景一致。
+tags:
+  - "ICLR2026"
+  - "视频生成"
+  - "短电影生成"
+  - "长上下文"
+  - "关键帧规划"
+  - "记忆压缩"
+  - "交错条件"
+---
+
 # Captain Cinema: Towards Short Movie Generation
 
 **会议**: ICLR2026  
-**OpenReview**: [zlNZBxQZIC](https://openreview.net/forum?id=zlNZBxQZIC)  
+**OpenReview**: [https://openreview.net/forum?id=zlNZBxQZIC](https://openreview.net/forum?id=zlNZBxQZIC)  
 **代码**: 待确认  
 **领域**: 视频生成 / 扩散模型  
 **关键词**: 短电影生成、长上下文、关键帧规划、记忆压缩、交错条件
@@ -124,3 +139,19 @@ $G_\theta$ 为第 $k$ 个镜头补出 $f_{k,2},\dots,f_{k,T_k}$ 帧。多关键�
 - 实验充分度: ⭐⭐⭐⭐ 主结果 + 长上下文压力测试 + 算力消融都有，但客观指标偏依赖 LLM 打分
 - 写作质量: ⭐⭐⭐⭐ 框架清晰、公式给到位，图示丰富
 - 价值: ⭐⭐⭐⭐⭐ 长视频一致性与长上下文记忆是当前生成的核心瓶颈，GoldenMem 思路可复用
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Captain Safari: A World Engine with Pose-Aligned 3D Memory](../../CVPR2026/video_generation/captain_safari_a_world_engine_with_pose-aligned_3d_memory.md)
+- [\[CVPR 2025\] MovieBench: A Hierarchical Movie Level Dataset for Long Video Generation](../../CVPR2025/video_generation/moviebench_a_hierarchical_movie_level_dataset_for_long_video_generation.md)
+- [\[ICLR 2026\] EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning](editverse_unifying_image_and_video_editing_and_generation_with_in-context_learni.md)
+- [\[ICLR 2026\] Anchor Frame Bridging for Coherent First-Last Frame Video Generation](anchor_frame_bridging_for_coherent_first-last_frame_video_generation.md)
+- [\[ICLR 2026\] DSA: Efficient Inference For Video Generation Models via Distributed Sparse Attention](dsa_efficient_inference_for_video_generation_models_via_distributed_sparse_atten.md)
+
+</div>
+
+<!-- RELATED:END -->

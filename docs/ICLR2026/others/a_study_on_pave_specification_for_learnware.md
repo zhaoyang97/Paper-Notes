@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] A Study on PAVE Specification for Learnware
+description: >-
+  [ICLR 2026][学件] 针对"学件 = 模型 + 规约"范式中如何在不接触训练数据的前提下从海量模型里挑出对用户任务有用的模型，本文系统研究了参数向量规约（PAVE）——用微调引起的参数变化同时编码模型能力与任务需求，证明它与经典 RKME 规约在 NTK 视角下同源，并用 LoRA 式低秩近似把存储/计算压到原模型参数的 1% 以下，识别出的学件在小样本场景甚至能超过用户自己微调的预训练模型。
+tags:
+  - "ICLR 2026"
+  - "学件"
+  - "参数向量规约"
+  - "模型识别"
+  - "神经正切核"
+  - "低秩近似"
+---
+
 # A Study on PAVE Specification for Learnware
 
 **会议**: ICLR 2026  
-**OpenReview**: [JkKkquv5lw](https://openreview.net/forum?id=JkKkquv5lw)  
+**OpenReview**: [https://openreview.net/forum?id=JkKkquv5lw](https://openreview.net/forum?id=JkKkquv5lw)  
 **代码**: 待确认  
 **领域**: 学件 / 模型选择  
 **关键词**: 学件, 参数向量规约, 模型识别, 神经正切核, 低秩近似

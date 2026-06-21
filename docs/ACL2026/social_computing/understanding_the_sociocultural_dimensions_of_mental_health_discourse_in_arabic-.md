@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Understanding the Sociocultural Dimensions of Mental Health Discourse in Arabic-Language X Communities
+description: >-
+  [ACL2026][社会计算][阿拉伯语心理健康] 本文用 GPT-4.1 自披露识别管线，从三个阿拉伯语 X（原 Twitter）心理健康社区筛出 8,147 条"亲历者"推文，再用加权对数几率、NMF 主题建模和六域文化关键词框架，刻画出边缘型人格障碍（BPD）、双相障碍、ADHD 三类社区在宗教、医学、关系、身份等维度上的话语差异，并明确把所有结论定位为"生成假设"而非"确认结论"。
+tags:
+  - "ACL2026"
+  - "社会计算"
+  - "阿拉伯语心理健康"
+  - "自披露识别"
+  - "文化关键词"
+  - "加权对数几率"
+  - "LLM 标注"
+---
+
 # Understanding the Sociocultural Dimensions of Mental Health Discourse in Arabic-Language X Communities
 
 **会议**: ACL2026  

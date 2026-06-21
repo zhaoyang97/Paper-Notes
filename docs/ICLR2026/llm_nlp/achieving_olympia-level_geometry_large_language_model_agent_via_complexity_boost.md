@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning
+description: >-
+  [ICLR2026][LLM 其他][几何定理证明] 本文提出 InternGeometry——首个达到奖牌选手水平的几何 LLM agent：它把符号引擎当工具，用「思考—构造/命题—验证—反思」的超长程交互（单题 200+ 步）攻克辅助线构造缺乏启发式的难题，再配合 Complexity-Boosting RL（CBRL）逐级提升合成题难度，仅用 13K 训练样本（AlphaGeometry 2 的 0.004%）就在 IMO 2000–2024 的 50 道几何题上解出 44 道，超过金牌选手平均分。
+tags:
+  - "ICLR2026"
+  - "LLM 其他"
+  - "几何定理证明"
+  - "LLM Agent"
+  - "辅助线构造"
+  - "长程交互"
+  - "复杂度提升课程 RL"
+---
+
 # Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [1sffPGGQyT](https://openreview.net/forum?id=1sffPGGQyT)  
+**OpenReview**: [https://openreview.net/forum?id=1sffPGGQyT](https://openreview.net/forum?id=1sffPGGQyT)  
 **代码**: 待确认  
 **领域**: LLM推理 / 几何定理证明 / Agent / 课程强化学习  
 **关键词**: 几何定理证明, LLM Agent, 辅助线构造, 长程交互, 复杂度提升课程 RL
@@ -133,3 +148,19 @@ CBRL 消融（表 4，Pass@256）：
 - 实验充分度: ⭐⭐⭐⭐⭐ IMO 50 + 2025 全覆盖对比，长程与 CBRL 两套消融详尽，含逐题对照和 case study。
 - 写作质量: ⭐⭐⭐⭐ 方法与动机讲得清晰，公式与图配合到位；部分附录细节（点放置优化、数据合成）压在 Appendix 略简。
 - 价值: ⭐⭐⭐⭐⭐ 以 0.004% 数据反超 SOTA 专家模型，为"agent + 课程 RL"攻克弱启发式任务提供了可复用范式。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2025\] Enhancing the Rule Learning Ability of Large Language Model Agent through Induction, Deduction, and Abduction](../../ACL2025/llm_nlp/idea_enhancing_the_rule_learning_ability_of_large_language_model_agent_through_i.md)
+- [\[AAAI 2026\] TransMamba: A Sequence-Level Hybrid Transformer-Mamba Language Model](../../AAAI2026/llm_nlp/transmamba_a_sequence-level_hybrid_transformer-mamba_language_model.md)
+- [\[ACL 2026\] Generative Floor Plan Design with LLMs via Reinforcement Learning with Verifiable Rewards](../../ACL2026/llm_nlp/generative_floor_plan_design_with_llms_via_reinforcement_learning_with_verifiabl.md)
+- [\[ACL 2025\] Achieving Certification-by-Design Through Model-Driven Development](../../ACL2025/llm_nlp/achieving_certification-by-design_through_model-driven_development.md)
+- [\[ICML 2026\] T$^2$PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning](../../ICML2026/llm_nlp/t2po_uncertainty-guided_exploration_control_for_stable_multi-turn_agentic_reinfo.md)
+
+</div>
+
+<!-- RELATED:END -->

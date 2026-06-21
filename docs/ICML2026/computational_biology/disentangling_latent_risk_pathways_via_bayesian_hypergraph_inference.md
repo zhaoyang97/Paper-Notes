@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference
+description: >-
+  [ICML 2026][计算生物][贝叶斯超图] 针对电子健康档案（EHR）里"多疾病、长尾稀有、共享危险因素"的建模难题，作者把多疾病风险重构成"危险因素调制的潜在疾病通路"，用一张**潜在超图**（超边=共享危险因素的疾病子集）来表达高阶结构，配上一个**排斥先验**保证通路稀疏可辨识，再用一套**保持逻辑依赖的结构化变分推断**做可扩展、带校准不确定性的后验估计。
+tags:
+  - "ICML 2026"
+  - "计算生物"
+  - "贝叶斯超图"
+  - "多疾病建模"
+  - "结构化变分推断"
+  - "排斥先验"
+  - "电子健康档案"
+---
+
 # Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference
 
 **会议**: ICML 2026  

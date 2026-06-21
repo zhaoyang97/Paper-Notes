@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Causal Modeling of Selection in Evolution
+description: >-
+  [ICML2026][因果推理][选择偏差] 论文指出"选择"其实分**静态选择**（一次性过滤）和**演化选择**（多代差异繁殖累积）两种，现有图模型把二者混为一谈、在演化数据上会得出错误的因果发现；作者定义了显式刻画演化的因果图模型，并证明它的条件独立约束可以用一个"团扩张 DAG"无损表示，从而能直接套用标准 PC/GES/CDNOD 算法、只需重新解释输出。
+tags:
+  - "ICML2026"
+  - "因果推理"
+  - "选择偏差"
+  - "演化选择"
+  - "因果发现"
+  - "图模型"
+  - "条件独立"
+---
+
 # Causal Modeling of Selection in Evolution
 
 **会议**: ICML2026  

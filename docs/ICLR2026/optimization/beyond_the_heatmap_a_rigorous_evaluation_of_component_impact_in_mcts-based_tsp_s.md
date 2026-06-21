@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers
+description: >-
+  [ICLR2026][优化/理论][旅行商问题] 这是一篇"打假"性质的评估论文：作者系统拆解"Heatmap + MCTS"求解 TSP 这条主流范式，用大量实验证明大家拼命卷的"热力图复杂度"其实没那么关键——被长期忽视的 MCTS 搜索超参才是性能主导因素，一个零学习、零参数的 k-近邻先验热力图（GT-Prior）配上调好的 MCTS 就能追平甚至超过 DIFUSCO 这类复杂学习模型。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "旅行商问题"
+  - "Heatmap+MCTS"
+  - "蒙特卡洛树搜索"
+  - "超参调优"
+  - "公平评估"
+---
+
 # Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers
 
 **会议**: ICLR2026  
-**OpenReview**: [H6PLJnnK6e](https://openreview.net/forum?id=H6PLJnnK6e)  
+**OpenReview**: [https://openreview.net/forum?id=H6PLJnnK6e](https://openreview.net/forum?id=H6PLJnnK6e)  
 **代码**: https://github.com/LOGO-CUHKSZ/beyond-heatmap-mcts-tsp  
 **领域**: 神经组合优化 / TSP 求解 / 评估方法学  
 **关键词**: 旅行商问题, Heatmap+MCTS, 蒙特卡洛树搜索, 超参调优, 公平评估
@@ -132,9 +147,9 @@ GT-Prior 的退化几乎为零（甚至轻微变好），泛化性显著优于 D
 
 - [\[ICLR 2026\] FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization](frontierco_real-world_and_large-scale_evaluation_of_machine_learning_solvers_for.md)
 - [\[ICML 2026\] LoRe: Adaptive Interaction-Evaluation Routing with Per-Step Interaction Budgets for Iterative Graph Solvers](../../ICML2026/optimization/lore_adaptive_interaction-evaluation_routing_with_per-step_interaction_budgets_f.md)
-- [\[ICML 2026\] Probing Neural TSP Representations for Prescriptive Decision Support](../../ICML2026/optimization/probing_neural_tsp_representations_for_prescriptive_decision_support.md)
 - [\[ICLR 2026\] Beyond Short Steps in Frank-Wolfe Algorithms](beyond_short_steps_in_frank-wolfe_algorithms.md)
-- [\[ICLR 2026\] Learning to Recall with Transformers Beyond Orthogonal Embeddings](learning_to_recall_with_transformers_beyond_orthogonal_embeddings.md)
+- [\[ICLR 2026\] Beyond Aggregation: Guiding Clients in Heterogeneous Federated Learning](beyond_aggregation_guiding_clients_in_heterogeneous_federated_learning.md)
+- [\[ICLR 2026\] Elastic Optimal Transport: Theory, Application, and Empirical Evaluation](elastic_optimal_transport_theory_application_and_empirical_evaluation.md)
 
 </div>
 

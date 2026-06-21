@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AutoGPS: Automated Geometry Problem Solving via Multimodal Formalization and Deductive Reasoning
+description: >-
+  [ICLR2026][VLM Reasoning][几何问题求解] AutoGPS 用一个"多模态形式化器（MPF）+ 演绎符号推理器（DSR）"的神经符号协同框架，把平面几何题先翻译成形式语言、再以超图扩展的方式做严格演绎，最终给出既正确又可逐步追溯的解题过程，在 Geometry3K / PGPS9K 上达到 SOTA，并把人评的逐步逻辑正确率从 MLLM 的 ~71% 提到 99%。
+tags:
+  - "ICLR2026"
+  - "VLM Reasoning"
+  - "几何问题求解"
+  - "多模态形式化"
+  - "演绎符号推理"
+  - "超图扩展"
+  - "神经符号协同"
+---
+
 # AutoGPS: Automated Geometry Problem Solving via Multimodal Formalization and Deductive Reasoning
 
 **会议**: ICLR2026  
-**OpenReview**: [PVtZnUh04m](https://openreview.net/forum?id=PVtZnUh04m)  
+**OpenReview**: [https://openreview.net/forum?id=PVtZnUh04m](https://openreview.net/forum?id=PVtZnUh04m)  
 **代码**: 待确认  
 **领域**: 多模态VLM / 几何推理 / 神经符号  
 **关键词**: 几何问题求解, 多模态形式化, 演绎符号推理, 超图扩展, 神经符号协同
@@ -123,11 +138,11 @@ flowchart TD
 
 ## 相关论文
 
+- [\[ICLR 2026\] No Labels, No Problem: Training Visual Reasoners with Multimodal Verifiers](no_labels_no_problem_training_visual_reasoners_with_multimodal_verifiers.md)
+- [\[ICLR 2026\] Evaluating Cross-Modal Reasoning Ability and Problem Characteristics with Multimodal Item Response Theory](evaluating_cross-modal_reasoning_ability_and_problem_characteristics_with_multim.md)
 - [\[AAAI 2026\] AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](../../AAAI2026/vlm_reasoning/astar_boosting_multimodal_reasoning_with_automated_structure.md)
 - [\[CVPR 2026\] SpatialStack: Layered Geometry-Language Fusion for 3D VLM Spatial Reasoning](../../CVPR2026/vlm_reasoning/spatialstack_layered_geometry-language_fusion_for_3d_vlm_spatial_reasoning.md)
 - [\[CVPR 2026\] G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning](../../CVPR2026/vlm_reasoning/g2vlm_geometry_grounded_vision_language_model_with_unified_3d_reconstruction_and.md)
-- [\[NeurIPS 2025\] Visual Structures Help Visual Reasoning: Addressing the Binding Problem in LVLMs](../../NeurIPS2025/vlm_reasoning/visual_structures_helps_visual_reasoning_addressing_the_binding_problem_in_vlms.md)
-- [\[ICLR 2026\] Reasoning-Driven Multimodal LLM for Domain Generalization](reasoning-driven_multimodal_llm_for_domain_generalization.md)
 
 </div>
 

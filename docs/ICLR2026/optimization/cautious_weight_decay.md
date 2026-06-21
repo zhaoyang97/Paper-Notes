@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Cautious Weight Decay
+description: >-
+  [ICLR2026][优化/理论][权重衰减] 本文提出 Cautious Weight Decay（CWD），一行代码、与优化器无关的改动：只在「优化器更新方向」与「参数符号」一致的坐标上施加权重衰减，从而保留原始损失目标（不再隐式优化一个被正则化/约束的代理目标），并在到达驻点流形后产生滑模动力学、趋向局部 Pareto 最优的小范数解；在 ADAMW / LION / MUON 上不加新超参即可一致降低语言模型预训练和 ImageNet 的最终 loss 与提升精度。
+tags:
+  - "ICLR2026"
+  - "优化/理论"
+  - "权重衰减"
+  - "优化器"
+  - "隐式正则化"
+  - "滑模动力学"
+  - "Lyapunov 分析"
+---
+
 # Cautious Weight Decay
 
 **会议**: ICLR2026  
-**OpenReview**: [Gwe6gbGng5](https://openreview.net/forum?id=Gwe6gbGng5)  
+**OpenReview**: [https://openreview.net/forum?id=Gwe6gbGng5](https://openreview.net/forum?id=Gwe6gbGng5)  
 **代码**: 待确认  
 **领域**: optimization  
 **关键词**: 权重衰减, 优化器, 隐式正则化, 滑模动力学, Lyapunov 分析
@@ -116,3 +131,19 @@ OLMo-1B（100B tokens）验证 loss，对比不同的「选择性衰减」掩码
 - 实验充分度: ⭐⭐⭐⭐ LLM 预训练 + ImageNet + 指令微调三类任务、111M~7B 多尺度、多优化器、掩码消融到位；增益幅度温和、>2B 验证有限。
 - 写作质量: ⭐⭐⭐⭐⭐ 动机→机制→理论→实验逻辑清晰，toy 例子与大模型结果互相印证。
 - 价值: ⭐⭐⭐⭐⭐ 零调参 drop-in、优化器无关、可直接落地到现有训练栈，对大模型训练有实际意义。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Weight Decay May Matter More Than µP for Learning Rate Transfer in Practice](weight_decay_may_matter_more_than_µp_for_learning_rate_transfer_in_practice.md)
+- [\[ICLR 2026\] Cautious Optimizers: Improving Training with One Line of Code](cautious_optimizers_improving_training_with_one_line_of_code.md)
+- [\[ICLR 2026\] Incorporating Expert Priors into Bayesian Optimization via Dynamic Mean Decay](incorporating_expert_priors_into_bayesian_optimization_via_dynamic_mean_decay.md)
+- [\[ICLR 2026\] WSM: Decay-free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training](wsm_decay-free_learning_rate_schedule_via_checkpoint_merging_for_llm_pre-trainin.md)
+- [\[ICML 2026\] Limits of Convergence-Rate Control for Open-Weight Safety](../../ICML2026/optimization/limits_of_convergence-rate_control_for_open-weight_safety.md)
+
+</div>
+
+<!-- RELATED:END -->

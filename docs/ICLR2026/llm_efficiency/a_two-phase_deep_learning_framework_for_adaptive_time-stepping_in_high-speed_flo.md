@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Two-Phase Deep Learning Framework for Adaptive Time-Stepping in High-Speed Flow Modeling
+description: >-
+  [ICLR2026][LLM效率][高速流动] ShockCast 把"高速流动的自适应时间步进"拆成两个学习问题——先用一个 Neural CFL 模型根据当前流场预测下一步该走多大的时间步 $\Delta t$，再用一个被 $\Delta t$ 条件化的 Neural Solver 把流场往前推进 $\Delta t$，两者在推理时自回归交替，从而让神经求解器能在含激波的超声速流场上像经典求解器一样"该细的地方细、该粗的地方粗"。
+tags:
+  - "ICLR2026"
+  - "LLM效率"
+  - "高速流动"
+  - "自适应时间步"
+  - "偏微分方程"
+  - "CFL 条件"
+  - "时间步条件化"
+---
+
 # A Two-Phase Deep Learning Framework for Adaptive Time-Stepping in High-Speed Flow Modeling
 
 **会议**: ICLR2026  
-**OpenReview**: [d4gzLgGl7I](https://openreview.net/forum?id=d4gzLgGl7I)  
+**OpenReview**: [https://openreview.net/forum?id=d4gzLgGl7I](https://openreview.net/forum?id=d4gzLgGl7I)  
 **代码**: https://github.com/divelab/AIRS （ShockCast 作为 AIRS 库一部分开源）  
 **领域**: 科学计算 / 流体力学 / 神经 PDE 求解器  
 **关键词**: 高速流动, 自适应时间步, 神经 PDE 求解器, CFL 条件, 时间步条件化
@@ -73,6 +88,7 @@ Neural Solver 必须"知道"自己这一步要推进多大的 $\Delta t$，否�
 并额外扩展出 Spherical Blast（3D，验证可扩展性）与 Long Circular Blast（>100 个自回归步，验证长时稳定性）。
 
 ### 消融实验
+
 | 配置 | 现象 | 说明 |
 |------|------|------|
 | Neural CFL 裸模型 | circular blast 上最好 | 单相问题，建模变量已足以定步长 |
@@ -108,3 +124,19 @@ Neural Solver 必须"知道"自己这一步要推进多大的 $\Delta t$，否�
 - 实验充分度: ⭐⭐⭐⭐ 自建三套数据集 + 多骨干 × 多条件化 + 3D/长时扩展，但缺与经典求解器的直接加速/精度对照。
 - 写作质量: ⭐⭐⭐⭐⭐ 动机推导严谨，把"为何 CFL 公式失效"讲得透彻，方法与物理动机一一对应。
 - 价值: ⭐⭐⭐⭐ 为神经高速流动求解开了一个可复用的范式，并开源数据与代码（AIRS 库）。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Deep Hierarchical Learning with Nested Subspace Networks for Large Language Models](deep_hierarchical_learning_with_nested_subspace_networks_for_large_language_mode.md)
+- [\[ICLR 2026\] MesaNet: Sequence Modeling by Locally Optimal Test-Time Training](mesanet_sequence_modeling_by_locally_optimal_test-time_training.md)
+- [\[ICML 2025\] Curse of High Dimensionality Issue in Transformer for Long-context Modeling](../../ICML2025/llm_efficiency/curse_of_high_dimensionality_issue_in_transformer_for_long-context_modeling.md)
+- [\[ICLR 2026\] DASH: Deterministic Attention Scheduling for High-throughput Reproducible LLM Training](dash_deterministic_attention_scheduling_for_high-throughput_reproducible_llm_tra.md)
+- [\[ICLR 2026\] CONCUR: A Framework for Continual Constrained and Unconstrained Routing](concur_a_framework_for_continual_constrained_and_unconstrained_routing.md)
+
+</div>
+
+<!-- RELATED:END -->

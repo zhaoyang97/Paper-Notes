@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction
+description: >-
+  [ICLR2026][计算生物][基因扰动预测] ALIGNED 把"数据驱动的神经网络"和"专家整理的基因调控知识库"放进同一个溯因学习（Abductive Learning）框架里，用一个无梯度训练的适配器逐基因决定该信谁，再反过来用预测去精炼调控知识库，在多个大规模扰动数据集上拿到了最高的"平衡一致性"，并且能重新发现有生物学意义的调控关系。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "基因扰动预测"
+  - "溯因学习"
+  - "神经符号对齐"
+  - "基因调控网络"
+  - "知识精炼"
+---
+
 # Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction
 
 **会议**: ICLR2026  
-**OpenReview**: [CxLaZWbUjc](https://openreview.net/forum?id=CxLaZWbUjc)  
+**OpenReview**: [https://openreview.net/forum?id=CxLaZWbUjc](https://openreview.net/forum?id=CxLaZWbUjc)  
 **代码**: 待确认  
 **领域**: 计算生物学 / 神经符号学习 / 可解释机器学习  
 **关键词**: 基因扰动预测, 溯因学习, 神经符号对齐, 基因调控网络, 知识精炼
@@ -140,10 +155,10 @@ E. coli 细菌基因组（EcoCyc KB，315 调控基因 / 3004 被调控基因）
 ## 相关论文
 
 - [\[ACL 2026\] AROMA: Augmented Reasoning Over a Multimodal Architecture for Virtual Cell Genetic Perturbation Modeling](../../ACL2026/computational_biology/aroma_augmented_reasoning_over_a_multimodal_architecture_for_virtual_cell_geneti.md)
+- [\[ICLR 2026\] Towards Knowledge-and-Data-Driven Organic Reaction Prediction: RAG-Enhanced and Reasoning-Powered Hybrid System with LLMs](towards_knowledgeanddatadriven_organic_reaction_prediction_ragenhanced_and_reaso.md)
 - [\[ICLR 2026\] scDFM: Distributional Flow Matching for Robust Single-Cell Perturbation Prediction](scdfm_distributional_flow_matching_model_for_robust_single-cell_perturbation_pre.md)
 - [\[ICML 2026\] What Makes a Representation Good for Single-Cell Perturbation Prediction?](../../ICML2026/computational_biology/what_makes_a_representation_good_for_single-cell_perturbation_prediction.md)
 - [\[AAAI 2026\] Dual-Path Knowledge-Augmented Contrastive Alignment Network for Spatially Resolved Transcriptomics](../../AAAI2026/computational_biology/dual-path_knowledge-augmented_contrastive_alignment_network_for_spatially_resolv.md)
-- [\[ICLR 2026\] A Genetic Algorithm for Navigating Synthesizable Molecular Spaces](a_genetic_algorithm_for_navigating_synthesizable_molecular_spaces.md)
 
 </div>
 

@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] Alternating Diffusion for Proximal Sampling with Zeroth Order Queries
+description: >-
+  [ICLR2026][采样理论][近端采样] 把近端采样（proximal sampling）里那一步靠拒绝采样实现的"逆向去噪"换成直接模拟 SDE——用当前粒子构成的高斯混合当替身分布、只靠 $f$ 的函数值（零阶）做蒙特卡洛分数估计，于是得到一个无需梯度、无需拒绝采样、无需训练模型、运行时间固定的采样器，理论上继承了近端采样在等周条件下的指数收敛，实验上比基于 RGO 的近端采样快近一个量级。
+tags:
+  - "ICLR2026"
+  - "采样理论"
+  - "概率方法"
+  - "MCMC"
+  - "近端采样"
+  - "零阶查询"
+  - "交替扩散"
+  - "高斯混合"
+  - "朗之万采样"
+---
+
 # Alternating Diffusion for Proximal Sampling with Zeroth Order Queries
 
 **会议**: ICLR2026  
-**OpenReview**: [NjjRuJuMTd](https://openreview.net/forum?id=NjjRuJuMTd)  
+**OpenReview**: [https://openreview.net/forum?id=NjjRuJuMTd](https://openreview.net/forum?id=NjjRuJuMTd)  
 **代码**: 待确认  
 **领域**: 采样理论 / 概率方法 / MCMC  
 **关键词**: 近端采样, 零阶查询, 交替扩散, 高斯混合, 朗之万采样
@@ -119,11 +136,11 @@ $$H_{\pi_X}(\rho^X_k)\le \frac{1}{r^k}H_{\pi_X}(\rho^X_0)+\frac{\alpha_u r}{r-1}
 
 ## 相关论文
 
+- [\[ICLR 2026\] Poly-attention: a general scheme for higher-order self-attention](poly-attention_a_general_scheme_for_higher-order_self-attention.md)
+- [\[ICLR 2026\] Sampling Complexity of TD and PPO in RKHS](sampling_complexity_of_td_and_ppo_in_rkhs.md)
+- [\[ICLR 2026\] Diffusion Bridge Variational Inference for Deep Gaussian Processes](diffusion_bridge_variational_inference_for_deep_gaussian_processes.md)
 - [\[ICLR 2026\] A Unification of Discrete, Gaussian, and Simplicial Diffusion](a_unification_of_discrete_gaussian_and_simplicial_diffusion.md)
-- [\[ICML 2026\] On Regret Bounds of Thompson Sampling for Bayesian Optimization](../../ICML2026/learning_theory/on_regret_bounds_of_thompson_sampling_for_bayesian_optimization.md)
-- [\[NeurIPS 2025\] Sample-Adaptivity Tradeoff in On-Demand Sampling](../../NeurIPS2025/learning_theory/sample-adaptivity_tradeoff_in_on-demand_sampling.md)
-- [\[ICLR 2026\] A Sharp KL Convergence Analysis for Diffusion Models under Minimal Assumptions](a_sharp_kl_convergence_analysis_for_diffusion_models_under_minimal_assumptions.md)
-- [\[ICLR 2026\] An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods](an_optimal_diffusion_approach_to_quadratic_rate-distortion_problems_new_solution.md)
+- [\[ICLR 2026\] Stable Coresets: Unleashing the Power of Uniform Sampling](stable_coresets_unleashing_the_power_of_uniform_sampling.md)
 
 </div>
 

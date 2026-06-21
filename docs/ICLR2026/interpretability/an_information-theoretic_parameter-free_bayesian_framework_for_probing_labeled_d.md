@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] An Information-Theoretic Parameter-Free Bayesian Framework for Probing Labeled Dependency Trees from Attention Score
+description: >-
+  [ICLR2026][可解释性][句法探测] IPBP 不训练任何探测网络，直接对"注意力分数"和"依存关系"的联合分布做核密度估计，闭式算出每个注意力头与各类依存关系的互信息，再用贝叶斯后验 + 几何平均池化 + Eisner 解码重建出**带标签**的依存树，在多个 7B/8B LLM 上比一众有监督/无监督基线都更准、且天然可解释。
+tags:
+  - "ICLR2026"
+  - "可解释性"
+  - "句法探测"
+  - "互信息"
+  - "贝叶斯推断"
+  - "依存树"
+  - "注意力分数"
+---
+
 # An Information-Theoretic Parameter-Free Bayesian Framework for Probing Labeled Dependency Trees from Attention Score
 
 **会议**: ICLR2026  
-**OpenReview**: [q7raIuTQDK](https://openreview.net/forum?id=q7raIuTQDK)  
+**OpenReview**: [https://openreview.net/forum?id=q7raIuTQDK](https://openreview.net/forum?id=q7raIuTQDK)  
 **代码**: https://github.com/ChristLBUPT/IPBP  
 **领域**: 可解释性 / 句法探测 / 注意力分析  
 **关键词**: 句法探测、互信息、贝叶斯推断、依存树、注意力分数
@@ -145,11 +160,11 @@ IPBP 的 UAS 显著超过所有基线；即便是算力昂贵的有监督 V-Info
 
 ## 相关论文
 
+- [\[ICLR 2026\] TimeSeg: An Information-Theoretic Segment-Wise Explainer for Time-Series Predictions](timeseg_an_information-theoretic_segment-wise_explainer_for_time-series_predicti.md)
+- [\[ICLR 2026\] Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency](attention_please_revisiting_attentive_probing_through_the_lens_of_efficiency.md)
 - [\[NeurIPS 2025\] Curvature Tuning: Provable Training-free Model Steering From a Single Parameter](../../NeurIPS2025/interpretability/curvature_tuning_provable_training-free_model_steering_from_a_single_parameter.md)
-- [\[CVPR 2026\] CIGMA: Causal Information-Gain Mechanistic Attribution of Attention Heads in Vision Transformers](../../CVPR2026/interpretability/cigma_causal_information-gain_mechanistic_attribution_of_attention_heads_in_visi.md)
-- [\[ICLR 2026\] Information Shapes Koopman Representation](information_shapes_koopman_representation.md)
-- [\[ICLR 2026\] Concepts' Information Bottleneck Models](concepts_information_bottleneck_models.md)
-- [\[ICLR 2026\] STRIDE: Subset-Free Functional Decomposition for XAI in Tabular Settings](stride_subset-free_functional_decomposition_for_xai_in_tabular_settings.md)
+- [\[ICLR 2026\] Bayesian Neural Networks for Functional ANOVA Model](bayesian_neural_networks_for_functional_anova_model.md)
+- [\[ICLR 2026\] Decoupling Positional and Symbolic Attention in Transformers](decoupling_positional_and_symbolic_attention_in_transformers.md)
 
 </div>
 

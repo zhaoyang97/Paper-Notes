@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Best-of-∞: Asymptotic Performance of Test-Time LLM Ensembling
+description: >-
+  [ICLR2026][LLM 其他][best-of-N] 这篇论文把多数投票（majority voting）看作从模型答案分布里反复采样，研究采样数 $N\to\infty$ 时的极限准确率（称为 best-of-∞），并用贝叶斯因子做自适应停止来在有限预算下逼近这个极限；进一步把"多个 LLM 加权集成的最优权重"形式化成一个混合整数线性规划（MILP），证明集成能稳定超过任何单一模型。
+tags:
+  - "ICLR2026"
+  - "LLM 其他"
+  - "best-of-N"
+  - "多数投票"
+  - "自适应采样"
+  - "贝叶斯因子"
+  - "混合整数线性规划"
+---
+
 # Best-of-∞: Asymptotic Performance of Test-Time LLM Ensembling
 
 **会议**: ICLR2026  
-**OpenReview**: [3qiCnLf3jf](https://openreview.net/forum?id=3qiCnLf3jf)  
+**OpenReview**: [https://openreview.net/forum?id=3qiCnLf3jf](https://openreview.net/forum?id=3qiCnLf3jf)  
 **代码**: https://github.com/jkomiyama/BoInf-code-publish/  
 **领域**: LLM 推理 / 测试时计算 / 集成  
 **关键词**: best-of-N、多数投票、自适应采样、贝叶斯因子、混合整数线性规划
@@ -144,8 +159,8 @@ $$\max_{w\in\Delta_K,\,y\in\{0,1\}^N}\ \sum_q y_q \quad \text{s.t.}\ \ w_i\ge0,\
 - [\[ICML 2025\] BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute](../../ICML2025/llm_nlp/best-route_adaptive_llm_routing_with_test-time_optimal_compute.md)
 - [\[ICML 2026\] Rethinking LLM Ensembling from the Perspective of Mixture Models](../../ICML2026/llm_nlp/rethinking_llm_ensembling_from_the_perspective_of_mixture_models.md)
 - [\[CVPR 2025\] Test-Time Visual In-Context Tuning](../../CVPR2025/llm_nlp/test-time_visual_in-context_tuning.md)
-- [\[ICLR 2026\] Enhancing Persona Following at Decoding Time via Dynamic Importance-Guided Token Estimation for Role-Playing Agents](enhancing_persona_following_at_decoding_time_via_dynamic_importance-guided_token.md)
 - [\[ACL 2025\] TestNUC: Enhancing Test-Time Computing Approaches and Scaling through Neighboring Unlabeled Data Consistency](../../ACL2025/llm_nlp/testnuc_enhancing_test-time_computing_approaches_and_scaling_through_neighboring.md)
+- [\[ICLR 2026\] SPRIG: Improving Large Language Model Performance by System Prompt Optimization](sprig_improving_large_language_model_performance_by_system_prompt_optimization.md)
 
 </div>
 

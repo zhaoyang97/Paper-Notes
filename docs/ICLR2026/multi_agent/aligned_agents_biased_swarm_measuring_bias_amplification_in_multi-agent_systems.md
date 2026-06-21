@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Aligned Agents, Biased Swarm: Measuring Bias Amplification in Multi-Agent Systems
+description: >-
+  [ICLR2026][多智能体][多智能体系统] 这篇论文用一个强制三选一的开放式偏见基准 Discrim-Eval-Open，把多智能体系统（MAS）建模成有向无环图、用基尼系数追踪偏见在层间的"放大率"，系统性地证明了一个反直觉结论：人们以为多智能体协作会"稀释"偏见，实际上各种角色分工、复杂拓扑、加深迭代反而把单体模型里微小的随机偏好放大成系统性的人群歧视，甚至一句客观中性的外部信息就能触发剧烈极化。
+tags:
+  - "ICLR2026"
+  - "多智能体"
+  - "多智能体系统"
+  - "偏见放大"
+  - "回声室效应"
+  - "Discrim-Eval-Open"
+  - "基尼系数"
+---
+
 # Aligned Agents, Biased Swarm: Measuring Bias Amplification in Multi-Agent Systems
 
 **会议**: ICLR2026  
-**OpenReview**: [mo7u21GoQv](https://openreview.net/forum?id=mo7u21GoQv)  
+**OpenReview**: [https://openreview.net/forum?id=mo7u21GoQv](https://openreview.net/forum?id=mo7u21GoQv)  
 **代码**: https://github.com/weizhihao1/MAS-Bias  
 **领域**: 多智能体系统 / AI 安全 / 公平性  
 **关键词**: 多智能体系统, 偏见放大, 回声室效应, Discrim-Eval-Open, 基尼系数
@@ -118,8 +133,8 @@ $$G(p)=\frac{\sum_{l=1}^{k}(2l-k-1)\,p_{(l)}}{k-1}$$
 ## 相关论文
 
 - [\[ICML 2026\] When Cloud Agents Meet Device Agents: Lessons from Hybrid Multi-Agent Systems](../../ICML2026/multi_agent/when_cloud_agents_meet_device_agents_lessons_from_hybrid_multi-agent_systems.md)
-- [\[ICLR 2026\] When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](when_agents_misremember_collectively_exploring_the_mandela_effect_in_llm-based_m.md)
 - [\[ICML 2026\] Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning](../../ICML2026/multi_agent/toward_culturally_aligned_llms_through_ontology-guided_multi-agent_reasoning.md)
+- [\[ICLR 2026\] When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](when_agents_misremember_collectively_exploring_the_mandela_effect_in_llm-based_m.md)
 - [\[ACL 2026\] When Identity Skews Debate: Anonymization for Bias-Reduced Multi-Agent Reasoning](../../ACL2026/multi_agent/when_identity_skews_debate_anonymization_for_bias-reduced_multi-agent_reasoning.md)
 - [\[ICLR 2026\] Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)
 

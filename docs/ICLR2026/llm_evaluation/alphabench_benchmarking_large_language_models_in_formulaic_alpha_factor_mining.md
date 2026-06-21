@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AlphaBench: Benchmarking Large Language Models in Formulaic Alpha Factor Mining
+description: >-
+  [ICLR2026][LLM评测][Alpha 因子挖掘] AlphaBench 是第一个系统评测大语言模型在「公式化 Alpha 因子挖掘」（FAFM）能力的基准，把量化研究员的真实工作流拆成因子生成、因子评估、因子搜索三大任务，在 Qlib + CSI300 真实回测环境下横评十余个开源/闭源模型，发现 LLM 能可靠地生成合法因子、却在判断因子好坏（评估任务）上接近随机猜测。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "Alpha 因子挖掘"
+  - "LLM Benchmark"
+  - "因子生成"
+  - "因子评估"
+  - "因子搜索"
+---
+
 # AlphaBench: Benchmarking Large Language Models in Formulaic Alpha Factor Mining
 
 **会议**: ICLR2026  
-**OpenReview**: [d97Q8r7ZKZ](https://openreview.net/forum?id=d97Q8r7ZKZ)  
+**OpenReview**: [https://openreview.net/forum?id=d97Q8r7ZKZ](https://openreview.net/forum?id=d97Q8r7ZKZ)  
 **代码**: https://alphabench.cc/  
 **领域**: LLM 评测 / 量化金融 / 公式化 Alpha 因子挖掘  
 **关键词**: Alpha 因子挖掘, LLM Benchmark, 因子生成, 因子评估, 因子搜索
@@ -137,11 +152,11 @@ AlphaBench 不止做任务级横评，还把影响表现的配置变量当成一
 
 ## 相关论文
 
+- [\[ICLR 2026\] SimBench: Benchmarking the Ability of Large Language Models to Simulate Human Behaviors](simbench_benchmarking_the_ability_of_large_language_models_to_simulate_human_beh.md)
+- [\[ACL 2025\] AD-LLM: Benchmarking Large Language Models for Anomaly Detection](../../ACL2025/llm_evaluation/ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)
+- [\[ACL 2025\] Retrieval Models Aren't Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models](../../ACL2025/llm_evaluation/retrieval_models_arent_tool-savvy_benchmarking_tool_retrieval_for_large_language.md)
 - [\[ACL 2025\] CodeMEnv: Benchmarking Large Language Models on Code Migration](../../ACL2025/llm_evaluation/codemenv_benchmarking_large_language_models_on_code_migration.md)
 - [\[ICML 2026\] PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Stage Roleplay](../../ICML2026/llm_evaluation/politicsbench_benchmarking_political_values_in_large_language_models_with_multi-.md)
-- [\[ACL 2026\] E2EDev: Benchmarking Large Language Models in End-to-End Software Development Task](../../ACL2026/llm_evaluation/e2edev_benchmarking_large_language_models_in_end-to-end_software_development_tas.md)
-- [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Models](prompt_and_parameter_co-optimization_for_large_language_models.md)
-- [\[ACL 2025\] AD-LLM: Benchmarking Large Language Models for Anomaly Detection](../../ACL2025/llm_evaluation/ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)
 
 </div>
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Modular Monolingual Adaptation using Pretrained Language Models
+description: >-
+  [ACL 2026][多语言/翻译][低资源语言] 针对低资源语言适配多语言预训练模型，作者主张「换上语言专属分词器 + 冻结输入/输出嵌入、只训练 Transformer 主体」这种模块化做法，在苏格兰盖尔语、爱尔兰语、克丘亚语的掩码填空 / NER / POS 任务上普遍优于全量微调，同时训练参数砍掉约 25%、显存和训练时间近乎减半。
+tags:
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "低资源语言"
+  - "单语适配"
+  - "自定义分词器"
+  - "冻结嵌入"
+  - "掩码语言建模"
+---
+
 # Modular Monolingual Adaptation using Pretrained Language Models
 
 **会议**: ACL 2026  

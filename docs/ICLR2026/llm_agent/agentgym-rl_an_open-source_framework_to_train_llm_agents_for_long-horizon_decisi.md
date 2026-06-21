@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL
+description: >-
+  [ICLR2026][LLM Agent][多轮强化学习] 本文开源了一个解耦的多轮强化学习框架 AgentGym-RL，能在 Web 导航、深度搜索、数字游戏、具身控制、科学任务五大真实场景里从零训练 LLM agent，并提出 ScalingInter-RL——一种"先短程后长程"逐步放大交互轮数的分阶段训练法，让 7B 模型在 27 个任务上追平甚至超过 OpenAI o3、Gemini-2.5-Pro。
+tags:
+  - "ICLR2026"
+  - "LLM Agent"
+  - "多轮强化学习"
+  - "长程决策"
+  - "交互式环境"
+  - "课程学习"
+---
+
 # AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL
 
 **会议**: ICLR2026  
-**OpenReview**: [ZgCCDwcGwn](https://openreview.net/forum?id=ZgCCDwcGwn)  
+**OpenReview**: [https://openreview.net/forum?id=ZgCCDwcGwn](https://openreview.net/forum?id=ZgCCDwcGwn)  
 **代码**: https://github.com/WooooDyy/AgentGym-RL  
 **领域**: Agent / 强化学习 / LLM 训练  
 **关键词**: LLM Agent、多轮强化学习、长程决策、交互式环境、课程学习
@@ -141,11 +155,11 @@ RL 算法消融（GRPO vs REINFORCE++，节选）：
 
 ## 相关论文
 
+- [\[ICLR 2026\] LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities](llms_are_greedy_agents_effects_of_rl_fine-tuning_on_decision-making_abilities.md)
+- [\[ICLR 2026\] Unlocking Long-Horizon Agentic Search with Large-Scale End-to-End RL](unlocking_long-horizon_agentic_search_with_large-scale_end-to-end_rl.md)
 - [\[ACL 2026\] SOLAR-RL: Semi-Online Long-horizon Assignment Reinforcement Learning](../../ACL2026/llm_agent/solar-rl_semi-online_long-horizon_assignment_reinforcement_learning.md)
 - [\[ICLR 2026\] Meta-RL Induces Exploration in Language Agents](meta-rl_induces_exploration_in_language_agents.md)
-- [\[AAAI 2026\] Towards Trustworthy Multi-Turn LLM Agents via Behavioral Guidance](../../AAAI2026/llm_agent/towards_trustworthy_multi-turn_llm_agents_via_behavioral_guidance.md)
-- [\[ICLR 2026\] Solving the Granularity Mismatch: Hierarchical Preference Learning for Long-Horizon LLM Agents](solving_the_granularity_mismatch_hierarchical_preference_learning_for_long-horiz.md)
-- [\[ICLR 2026\] Harnessing Uncertainty: Entropy-Modulated Policy Gradients for Long-Horizon LLM Agents](harnessing_uncertainty_entropy-modulated_policy_gradients_for_long-horizon_llm_a.md)
+- [\[ICLR 2026\] AgentFold: Long-Horizon Web Agents with Proactive Context Folding](agentfold_long-horizon_web_agents_with_proactive_context_folding.md)
 
 </div>
 

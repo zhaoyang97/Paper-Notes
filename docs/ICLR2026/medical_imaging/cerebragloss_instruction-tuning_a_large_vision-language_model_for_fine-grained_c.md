@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CerebraGloss: Instruction-Tuning a Large Vision-Language Model for Fine-Grained Clinical EEG Interpretation
+description: >-
+  [ICLR2026][医学图像][临床EEG解读] 本文把临床脑电图（EEG）波形当成一种"专门的视觉语言"，用一条全自动数据引擎（含定制的 YOLO 波形检测器）合成 9.4 万条 EEG 图文指令数据，对 Qwen2.5-VL-3B 做两阶段指令微调，得到首个能做"描述 + 多选题 + 多轮对话"的生成式 EEG 解读模型 CerebraGloss，并在自建的开放式基准 CerebraGloss-Bench 上超过 GPT-5、在 TUSZ 癫痫检测上刷新 SOTA。
+tags:
+  - "ICLR2026"
+  - "医学图像"
+  - "临床EEG解读"
+  - "视觉语言模型"
+  - "指令微调"
+  - "自动数据引擎"
+  - "波形检测"
+---
+
 # CerebraGloss: Instruction-Tuning a Large Vision-Language Model for Fine-Grained Clinical EEG Interpretation
 
 **会议**: ICLR2026  
-**OpenReview**: [Xi1jkajWi9](https://openreview.net/forum?id=Xi1jkajWi9)  
+**OpenReview**: [https://openreview.net/forum?id=Xi1jkajWi9](https://openreview.net/forum?id=Xi1jkajWi9)  
 **代码**: https://github.com/iewug/CerebraGloss  
 **领域**: 医学图像 / 多模态VLM  
 **关键词**: 临床EEG解读, 视觉语言模型, 指令微调, 自动数据引擎, 波形检测
@@ -83,6 +98,7 @@ flowchart TD
 | **CerebraGloss-3B** | LVLM | **79.21** | 62.02 |
 
 ### 消融实验
+
 | 配置 | TUSZ | HMC | MCQ | Desc | QA | 说明 |
 |------|------|------|------|------|------|------|
 | Stage1=0.05, Stage2=1（完整） | 79.21 | 62.02 | 80.00 | 44.19 | 4.76 | 最优配置 |
@@ -122,3 +138,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐ 覆盖开放式基准、两个标准临床任务、波形检测、消融与规模实验，较完整；但波形检测缺可比基线、HMC 略逊。
 - 写作质量: ⭐⭐⭐⭐ 动机—数据—训练—评测的逻辑链清晰，附录详尽。
 - 价值: ⭐⭐⭐⭐⭐ 开源模型/基准/工具，为"把 LVLM 用于医疗时序可视化解读"提供了可复用的完整范式。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] U2-BENCH: Benchmarking Large Vision-Language Models on Ultrasound Understanding](u2-bench_benchmarking_large_vision-language_models_on_ultrasound_understanding.md)
+- [\[AAAI 2026\] G2L: From Giga-Scale to Cancer-Specific Large-Scale Pathology Foundation Models via Efficient Fine-Tuning](../../AAAI2026/medical_imaging/g2lfrom_giga-scale_to_cancer-specific_large-scale_pathology_foundation_models_vi.md)
+- [\[AAAI 2026\] Small but Mighty: Dynamic Wavelet Expert-Guided Fine-Tuning of Large-Scale Models for Optical Remote Sensing Object Segmentation](../../AAAI2026/medical_imaging/small_but_mighty_dynamic_wavelet_expert-guided_fine-tuning_of_large-scale_models.md)
+- [\[CVPR 2026\] Instruction-Guided Lesion Segmentation for Chest X-rays with Automatically Generated Large-Scale Dataset](../../CVPR2026/medical_imaging/instruction-guided_lesion_segmentation_for_chest_x-rays_with_automatically_gener.md)
+- [\[AAAI 2026\] Coarse-to-Fine Open-Set Graph Node Classification with Large Language Models](../../AAAI2026/medical_imaging/coarse-to-fine_open-set_graph_node_classification_with_large_language_models.md)
+
+</div>
+
+<!-- RELATED:END -->

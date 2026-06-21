@@ -16,7 +16,7 @@ tags:
 # Cross-Timestep: 3D Diffusion Model with Trans-temporal Memory LSTM and Adaptive Priori Decoding Strategy for Medical Segmentation
 
 **会议**: ICLR2026  
-**OpenReview**: [TE3asYO8PQ](https://openreview.net/forum?id=TE3asYO8PQ)  
+**OpenReview**: [https://openreview.net/forum?id=TE3asYO8PQ](https://openreview.net/forum?id=TE3asYO8PQ)  
 **代码**: https://github.com/Wushangqian404/Cross-Timestep  
 **领域**: 医学图像 / 扩散模型 / 3D 分割  
 **关键词**: 3D 医学分割, 扩散模型, 初期崩溃, 跨时间步记忆, 时间加权先验
@@ -147,9 +147,9 @@ tLSTM 组件消融（Table 1）和 APDS/SC/FFT 模块消融（Table 3）：
 ## 相关论文
 
 - [\[ICLR 2026\] Adaptive Domain Shift in Diffusion Models for Cross-Modality Image Translation](adaptive_domain_shift_in_diffusion_models_for_cross-modality_image_translation.md)
+- [\[ICLR 2026\] Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation](johnson-lindenstrauss_lemma_guided_network_for_efficient_3d_medical_segmentation.md)
 - [\[CVPR 2026\] GeoSemba: Reconstructing State Space Model for Cross Paradigm Representation in Medical Image Segmentation](../../CVPR2026/medical_imaging/geosemba_reconstructing_state_space_model_for_cross_paradigm_representation_in_m.md)
 - [\[CVPR 2025\] VISTA3D: A Unified Segmentation Foundation Model For 3D Medical Imaging](../../CVPR2025/medical_imaging/vista3d_a_unified_segmentation_foundation_model_for_3d_medical_imaging.md)
-- [\[CVPR 2026\] MambaLiteUNet: Cross-Gated Adaptive Feature Fusion for Robust Skin Lesion Segmentation](../../CVPR2026/medical_imaging/mambaliteunet_cross-gated_adaptive_feature_fusion_for_robust_skin_lesion_segment.md)
 - [\[ICLR 2026\] Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity](improving_2d_diffusion_models_for_3d_medical_imaging_with_inter-slice_consistent.md)
 
 </div>

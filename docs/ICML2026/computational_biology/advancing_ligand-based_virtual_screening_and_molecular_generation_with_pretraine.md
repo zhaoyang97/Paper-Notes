@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Advancing Ligand-based Virtual Screening and Molecular Generation with Pretrained Molecular Embedding Distance
+description: >-
+  [ICML 2026][计算生物][配体虚拟筛选] 这篇论文提出直接用**冻结的预训练分子模型**（GeoDiff、MoLFormer）算嵌入之间的距离（PED）当分子相似度，不做任何相似度专项训练，就能同时用于虚拟筛选的候选排序和分子生成的奖励信号；它和工业标准的 3D 相似度（ROCS/ROSHAMBO2）强相关，在 LIT-PCBA 上 EF1% 反超传统度量，还把生成采样最高提速 3.3×。
+tags:
+  - "ICML 2026"
+  - "计算生物"
+  - "配体虚拟筛选"
+  - "分子生成"
+  - "预训练分子嵌入"
+  - "分子相似度"
+  - "强化学习奖励"
+---
+
 # Advancing Ligand-based Virtual Screening and Molecular Generation with Pretrained Molecular Embedding Distance
 
 **会议**: ICML 2026  

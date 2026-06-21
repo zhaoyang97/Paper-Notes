@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Timestep Rescheduling in Diffusion Inversion
+description: >-
+  [ICML2026][图像生成][扩散反演] 作者发现扩散反演（diffusion inversion）的误差强烈依赖时间步大小、且随时间步索引呈"两端高中间低"的抛物线分布，于是提出一个免训练、零额外开销的非均匀时间步调度器 TRDI——先全局拉伸时间步、再用动态规划局部重排，把算力集中到误差大的区段，作为即插即用插件稳定提升各类反演方法在重建与编辑上的精度。
+tags:
+  - "ICML2026"
+  - "图像生成"
+  - "扩散反演"
+  - "DDIM"
+  - "时间步调度"
+  - "动态规划"
+  - "图像编辑"
+---
+
 # Timestep Rescheduling in Diffusion Inversion
 
 **会议**: ICML2026  

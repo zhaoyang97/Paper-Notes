@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Causal Discovery in the Wild: A Voting-Theoretic Ensemble Approach
+description: >-
+  [ICLR2026][因果推理][因果发现] 把若干个因果发现算法当成"会犯错的投票专家"，用投票理论给结构集成建立一套有理论保证的加权贝叶斯投票框架——通过把图拆成边级子结构、再用最优传输估计每个专家的"能力矩阵"，最终在合成与真实数据上比现有启发式集成方法更稳更准，并给出了集成规模/能力/多样性该怎么选的明确指导。
+tags:
+  - "ICLR2026"
+  - "因果推理"
+  - "因果发现"
+  - "结构集成"
+  - "贝叶斯投票"
+  - "最优传输"
+  - "不确定性量化"
+---
+
 # Causal Discovery in the Wild: A Voting-Theoretic Ensemble Approach
 
 **会议**: ICLR2026  
-**OpenReview**: [WtbPaWO8lH](https://openreview.net/forum?id=WtbPaWO8lH)  
+**OpenReview**: [https://openreview.net/forum?id=WtbPaWO8lH](https://openreview.net/forum?id=WtbPaWO8lH)  
 **代码**: https://github.com/isVy08/Causal-Bayes-Ensemble  
 **领域**: 因果发现 / 集成学习 / 投票理论 / 最优传输  
 **关键词**: 因果发现, 结构集成, 贝叶斯投票, 最优传输, 不确定性量化
@@ -115,3 +130,19 @@ Theorem 1 虽美，但直接落地不可行——图空间大小是 $2^{\Theta(d
 - 实验充分度: ⭐⭐⭐⭐ 合成 + 9 个真实基准、多档专家能力、消融到位，但正文以图为主、数值大表入附录
 - 写作质量: ⭐⭐⭐⭐ 理论链条（Thm1→分解→Thm2→Prop1）严密清晰，符号偏重、对非理论读者门槛较高
 - 价值: ⭐⭐⭐⭐⭐ 给"野外因果发现"提供了有保证、可落地的集成范式与明确的参数选择指导，后验置信度可直接复用
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Efficient Ensemble Conditional Independence Test Framework for Causal Discovery](efficient_ensemble_conditional_independence_test_framework_for_causal_discovery.md)
+- [\[ICLR 2026\] Theoretical Guarantees for Causal Discovery on Large Random Graphs](theoretical_guarantees_for_causal_discovery_on_large_random_graphs.md)
+- [\[CVPR 2026\] A Polynomial Chaos Framework for Causal Discovery in Nonlinear Uncertain Systems](../../CVPR2026/causal_inference/a_polynomial_chaos_framework_for_causal_discovery_in_nonlinear_uncertain_systems.md)
+- [\[ICLR 2026\] Conditional Independent Component Analysis for Estimating Causal Structure with Latent Variables](conditional_independent_component_analysis_for_estimating_causal_structure_with_.md)
+- [\[ICLR 2026\] Influence without Confounding: Causal Discovery from Temporal Data with Long-term Carry-over Effects](influence_without_confounding_causal_discovery_from_temporal_data_with_long-term.md)
+
+</div>
+
+<!-- RELATED:END -->

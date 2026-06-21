@@ -17,7 +17,7 @@ tags:
 # Transformers as Unsupervised Learning Algorithms: A study on Gaussian Mixtures
 
 **会议**: ICLR2026  
-**OpenReview**: [4hKNGmjXVQ](https://openreview.net/forum?id=4hKNGmjXVQ)  
+**OpenReview**: [https://openreview.net/forum?id=4hKNGmjXVQ](https://openreview.net/forum?id=4hKNGmjXVQ)  
 **代码**: https://github.com/Rorschach1989/transformer-for-gmm  
 **领域**: 学习理论  
 **关键词**: Transformer, 高斯混合模型, 无监督学习, EM 算法, 谱方法, in-context learning
@@ -156,11 +156,11 @@ $$v^{(j+1)}=T\big(I,\,v^{(j)},\,v^{(j)}\big),$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] Continuum Transformers Perform In-Context Learning by Operator Gradient Descent](continuum_transformers_perform_in-context_learning_by_operator_gradient_descent.md)
+- [\[ICLR 2026\] Decision-Theoretic Approaches for Improved Learning-Augmented Algorithms](decision-theoretic_approaches_for_improved_learning-augmented_algorithms.md)
+- [\[ICLR 2026\] Transformers with Endogenous In-Context Learning: Bias Characterization and Mitigation](transformers_with_endogenous_in-context_learning_bias_characterization_and_mitig.md)
 - [\[ICML 2026\] Robustness of Mixtures of Experts to Feature Noise](../../ICML2026/learning_theory/robustness_of_mixtures_of_experts_to_feature_noise.md)
-- [\[ICLR 2026\] A Unification of Discrete, Gaussian, and Simplicial Diffusion](a_unification_of_discrete_gaussian_and_simplicial_diffusion.md)
-- [\[ICLR 2026\] Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion](better_learning-augmented_spanning_tree_algorithms_via_metric_forest_completion.md)
-- [\[AAAI 2026\] Streaming Generated Gaussian Process Experts for Online Learning and Control: Extended Version](../../AAAI2026/learning_theory/streaming_generated_gaussian_process_experts_for_online_learning_and_control_ext.md)
-- [\[ICLR 2026\] Adversarially Pretrained Transformers May Be Universally Robust In-Context Learners](adversarially_pretrained_transformers_may_be_universally_robust_in-context_learn.md)
+- [\[ICLR 2026\] Transformers Are Inherently Succinct](transformers_are_inherently_succinct.md)
 
 </div>
 

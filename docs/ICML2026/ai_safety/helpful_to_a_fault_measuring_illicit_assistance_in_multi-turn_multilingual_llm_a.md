@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Helpful to a Fault: Measuring Illicit Assistance in Multi-Turn, Multilingual LLM Agents
+description: >-
+  [ICML 2026][AI安全][Agent 滥用] 这篇论文提出 STING——一个用四个协同 agent（策略师 / 攻击者 / 拒绝检测器 / 阶段完成检查器）把恶意意图拆成多步、伪装成善意人设、对工具型 Agent 进行**多轮自适应**红队的自动化框架，并配套一套把"多轮越狱"建模成"首次越狱时间"随机变量的生存分析工具（发现曲线、按语言归因的风险比、新指标 RMJD）；实验显示多轮 STING 的非法任务完成度比单轮提示最高高出 107.1%，且与聊天机器人结论相反——低资源语言并不一致地更容易越狱。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "Agent 滥用"
+  - "多轮红队"
+  - "多语言越狱"
+  - "生存分析"
+  - "安全评测"
+---
+
 # Helpful to a Fault: Measuring Illicit Assistance in Multi-Turn, Multilingual LLM Agents
 
 **会议**: ICML 2026  

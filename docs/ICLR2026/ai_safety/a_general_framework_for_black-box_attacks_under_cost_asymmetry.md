@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A General Framework for Black-Box Attacks Under Cost Asymmetry
+description: >-
+  [ICLR 2026][AI安全][决策型黑盒攻击] 针对"不同查询代价不一样"（如向 NSFW 检测器提交违规图片会触发封号）的现实场景，本文提出一个能适配**任意成本比 $c^\star$** 的决策型黑盒攻击通用框架：用非对称搜索 AS 替换二分搜索、用非对称梯度估计 AGREST 替换标准蒙特卡洛梯度估计，在不丢弃原攻击核心组件的前提下把总查询成本压到最低，扰动范数最多再降 40%。
+tags:
+  - "ICLR 2026"
+  - "AI安全"
+  - "决策型黑盒攻击"
+  - "成本不对称"
+  - "边界搜索"
+  - "梯度估计"
+  - "重要性采样"
+---
+
 # A General Framework for Black-Box Attacks Under Cost Asymmetry
 
 **会议**: ICLR 2026  
-**OpenReview**: [G1fFulgfd8](https://openreview.net/forum?id=G1fFulgfd8)  
+**OpenReview**: [https://openreview.net/forum?id=G1fFulgfd8](https://openreview.net/forum?id=G1fFulgfd8)  
 **代码**: https://github.com/mahdisalmani/Asymmetric-Attacks  
 **领域**: AI 安全 / 对抗攻击  
 **关键词**: 决策型黑盒攻击, 成本不对称, 边界搜索, 梯度估计, 重要性采样
@@ -131,11 +146,11 @@ stealthy attack 的根本局限是把正常查询当成免费的，只盯着 fla
 
 ## 相关论文
 
+- [\[ICLR 2026\] SeRI: Gradient-Free Sensitive Region Identification in Decision-Based Black-Box Attacks](seri_gradient-free_sensitive_region_identification_in_decision-based_black-box_a.md)
 - [\[ICLR 2026\] Black-Box Privacy Attacks on Shared Representations in Multitask Learning](black-box_privacy_attacks_on_shared_representations_in_multitask_learning.md)
-- [\[ICLR 2026\] Fairness via Independence: A General Regularization Framework for Machine Learning](fairness_via_independence_a_general_regularization_framework_for_machine_learnin.md)
 - [\[ICLR 2026\] Traceable Black-box Watermarks for Federated Learning](traceable_black-box_watermarks_for_federated_learning.md)
+- [\[ICLR 2026\] Fairness via Independence: A General Regularization Framework for Machine Learning](fairness_via_independence_a_general_regularization_framework_for_machine_learnin.md)
 - [\[CVPR 2026\] SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning](../../CVPR2026/ai_safety/seba_sample-efficient_black-box_attacks_on_visual_reinforcement_learning.md)
-- [\[CVPR 2026\] Shedding Light on VLN Robustness: A Black-box Framework for Indoor Lighting-based Adversarial Attack](../../CVPR2026/ai_safety/shedding_light_on_vln_robustness_a_black-box_framework_for_indoor_lighting-based.md)
 
 </div>
 

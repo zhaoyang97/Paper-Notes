@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The Perceived Fragility of Explanations in Audio Models: Manipulation of Attribution with Unchanged Predictions
+description: >-
+  [ICML2026][可解释性][归因图操纵] 作者把"解释操纵攻击"从视觉迁移到音频深伪检测，提出一个**用心理声学掩蔽阈值约束的优化框架**，能在**完全听不见、且不改变模型最终判定**的前提下系统性地篡改 Grad-CAM / LRP 的归因热力图，证明音频模型的"解释"在安全意义上是脆弱的。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "归因图操纵"
+  - "心理声学掩蔽"
+  - "对抗扰动"
+  - "音频深伪"
+  - "可解释性脆弱性"
+---
+
 # The Perceived Fragility of Explanations in Audio Models: Manipulation of Attribution with Unchanged Predictions
 
 **会议**: ICML2026  

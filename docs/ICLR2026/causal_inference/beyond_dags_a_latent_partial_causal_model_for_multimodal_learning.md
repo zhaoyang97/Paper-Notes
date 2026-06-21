@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning
+description: >-
+  [ICLR2026][因果推理][潜在偏因果模型] 本文指出大规模多模态数据并不服从单一有向无环图（DAG）的生成假设，提出一个用"无向边连接两组潜在耦合变量"的潜在偏因果模型，并在球面和凸体两种潜在空间上证明：CLIP 这类多模态对比学习（MMCL）学到的表示与真实潜变量分别相差一个线性正交变换 / 置换变换，从而第一次给出 MMCL 的"逐分量解耦"理论保证，并把它落到 FastICA / PCA+FastICA 这种即插即用的解耦流程上，在少样本学习和域泛化上拿到提升。
+tags:
+  - "ICLR2026"
+  - "因果推理"
+  - "潜在偏因果模型"
+  - "多模态对比学习"
+  - "可识别性"
+  - "解耦表示"
+  - "CLIP"
+---
+
 # Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [bZqCBgm2N0](https://openreview.net/forum?id=bZqCBgm2N0)  
+**OpenReview**: [https://openreview.net/forum?id=bZqCBgm2N0](https://openreview.net/forum?id=bZqCBgm2N0)  
 **论文**: [Project Page](https://sites.google.com/view/yuhangliu/projects/bedags)  
 **代码**: 待确认（作者称发表后公开）  
 **领域**: 因果表示学习 / 多模态VLM  
@@ -129,11 +144,11 @@ $$L = -\frac{1}{N}\sum_{i=1}^{N}\log\frac{e^{-d(f_x(x_i),f_t(t_i))/\tau}}{\sum_{
 
 ## 相关论文
 
+- [\[ICLR 2026\] Conditional Independent Component Analysis for Estimating Causal Structure with Latent Variables](conditional_independent_component_analysis_for_estimating_causal_structure_with_.md)
+- [\[ICLR 2026\] Characterization and Learning of Causal Graphs with Latent Confounders and Post-treatment Selection from Interventional Data](characterization_and_learning_of_causal_graphs_with_latent_confounders_and_post-.md)
 - [\[ACL 2026\] Learning Invariant Modality Representation for Robust Multimodal Learning from a Causal Inference Perspective](../../ACL2026/causal_inference/learning_invariant_modality_representation_for_robust_multimodal_learning_from_a.md)
 - [\[AAAI 2026\] Sparse Additive Model Pruning for Order-Based Causal Structure Learning](../../AAAI2026/causal_inference/sparse_additive_model_pruning_for_order-based_causal_structure_learning.md)
-- [\[ICML 2026\] Causal-JEPA: Learning World Models through Object-Level Latent Masking](../../ICML2026/causal_inference/causal-jepa_learning_world_models_through_object-level_latent_masking.md)
-- [\[ICLR 2026\] Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models](distributional_equivalence_in_linear_non-gaussian_latent-variable_cyclic_causal_.md)
-- [\[ICLR 2026\] Adjusting Prediction Model Through Wasserstein Geodesic for Causal Inference](adjusting_prediction_model_through_wasserstein_geodesic_for_causal_inference.md)
+- [\[ICLR 2026\] Causal Score Conditioning for Multi-Resolution Latent Systems](causal_score_conditioning_for_multi-resolution_latent_systems.md)
 
 </div>
 

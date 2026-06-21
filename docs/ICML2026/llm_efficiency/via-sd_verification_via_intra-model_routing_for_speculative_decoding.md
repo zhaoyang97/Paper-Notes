@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] VIA-SD: Verification via Intra-Model Routing for Speculative Decoding
+description: >-
+  [ICML 2026][LLM效率][投机解码] 针对投机解码"要么接受、要么用大模型重算"的二元决策瓶颈，VIA-SD 从大验证器内部路由出一个轻量的 slim-verifier 来处理那些"中等置信度"的 token，构成 draft → slim-verifier → full-verifier 的多级验证流程，在四类任务、多个模型族上把拒绝率压低 0.10–0.22，相对强投机解码基线再提速 10–20%。
+tags:
+  - "ICML 2026"
+  - "LLM效率"
+  - "投机解码"
+  - "层级验证"
+  - "模型内路由"
+  - "KL 几何"
+  - "推理加速"
+---
+
 # VIA-SD: Verification via Intra-Model Routing for Speculative Decoding
 
 **会议**: ICML 2026  

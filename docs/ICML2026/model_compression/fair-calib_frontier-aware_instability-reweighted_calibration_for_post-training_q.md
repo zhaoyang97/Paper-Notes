@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] FAIR-Calib: Frontier-Aware Instability-Reweighted Calibration for Post-Training Quantization of Diffusion Large Language Models
+description: >-
+  [ICML2026][模型压缩][后训练量化] 针对扩散语言模型（dLLM）"写入即不可改"的脆弱性，FAIR-Calib 先用全精度教师探测出一份"前沿位置先验"，再用这份权重去做逐层加权隐状态 MSE 校准，从而在 W4A4 下专门保护那些一旦被量化误差翻转就会被永久锁死并放大的边界 token，在 LLaDA / Dream 上稳定超过现有量化基线。
+tags:
+  - "ICML2026"
+  - "模型压缩"
+  - "后训练量化"
+  - "扩散语言模型"
+  - "W4A4"
+  - "校准"
+  - "KL 代理目标"
+---
+
 # FAIR-Calib: Frontier-Aware Instability-Reweighted Calibration for Post-Training Quantization of Diffusion Large Language Models
 
 **会议**: ICML2026  

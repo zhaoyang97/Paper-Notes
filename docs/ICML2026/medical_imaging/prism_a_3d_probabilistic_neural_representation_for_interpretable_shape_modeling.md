@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] PRISM: A 3D Probabilistic Neural Representation for Interpretable Shape Modeling
+description: >-
+  [ICML 2026][医学图像][隐式神经表示] PRISM 把隐式神经表示与不确定性感知的统计形状分析打通——用一个条件异方差高斯场建模解剖结构随协变量（如年龄）演化的均值轨迹与空间异质变异，并推导出闭式的 Fisher 信息度量来解析地量化「内在发育时间」的局部不确定性，在合成与儿童气道临床数据上同时支持形状演化、个性化预测与异常检测。
+tags:
+  - "ICML 2026"
+  - "医学图像"
+  - "隐式神经表示"
+  - "统计形状分析"
+  - "Fisher 信息"
+  - "异方差高斯场"
+  - "异常检测"
+---
+
 # PRISM: A 3D Probabilistic Neural Representation for Interpretable Shape Modeling
 
 **会议**: ICML 2026  

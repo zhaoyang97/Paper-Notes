@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Fair Bayesian Inference through Matched Gibbs Posterior
+description: >-
+  [ICLR2026][AI安全][群公平] 针对"公平模型只给一个点估计、不会量化预测不确定性"的痛点，本文把群公平约束塞进贝叶斯框架，提出以**匹配偏差（matched deviation）**为惩罚项的 **matched Gibbs 后验**，把匹配函数 $T$ 也当成可学习参数来回避对抗训练，从而用一个每步 $O(n)$ 的 Gibbs 采样器同时拿到"满足人口学平价约束"和"校准良好"的后验分布。
+tags:
+  - "ICLR2026"
+  - "AI安全"
+  - "群公平"
+  - "贝叶斯推断"
+  - "Gibbs 后验"
+  - "不确定性量化"
+  - "匹配偏差"
+---
+
 # A Fair Bayesian Inference through Matched Gibbs Posterior
 
 **会议**: ICLR2026  
-**OpenReview**: [sIjFXzEOOH](https://openreview.net/forum?id=sIjFXzEOOH)  
+**OpenReview**: [https://openreview.net/forum?id=sIjFXzEOOH](https://openreview.net/forum?id=sIjFXzEOOH)  
 **代码**: https://github.com/JihuLee/MatchedGibbs  
 **领域**: AI 安全 / 算法公平 / 贝叶斯推断  
 **关键词**: 群公平、贝叶斯推断、Gibbs 后验、不确定性量化、匹配偏差
@@ -130,11 +145,11 @@ $$e(T;\tau)=\exp\Big(-\sum_{i=1}^{n_1} d\big(X^{(0)}_i,\,T(X^{(1)}_i)\big)\big/ 
 
 ## 相关论文
 
+- [\[ICLR 2026\] A Bayesian Nonparametric Framework for Private, Fair, and Balanced Tabular Data Synthesis](a_bayesian_nonparametric_framework_for_private_fair_and_balanced_tabular_data_sy.md)
 - [\[ICML 2026\] How Does Bayesian Sampling Help Membership Inference Attacks?](../../ICML2026/ai_safety/how_does_bayesian_sampling_help_membership_inference_attacks.md)
-- [\[ICML 2026\] Singular Bayesian Neural Networks](../../ICML2026/ai_safety/singular_bayesian_neural_networks.md)
-- [\[CVPR 2026\] All Vehicles Can Lie: Efficient Adversarial Defense in Fully Untrusted-Vehicle Collaborative Perception via Pseudo-Random Bayesian Inference](../../CVPR2026/ai_safety/all_vehicles_can_lie_efficient_adversarial_defense_in_fully_untrusted-vehicle_co.md)
 - [\[ICLR 2026\] Fair Conformal Classification via Learning Representation-Based Groups](fair_conformal_classification_via_learning_representation-based_groups.md)
-- [\[AAAI 2026\] Fair Model-Based Clustering](../../AAAI2026/ai_safety/fair_model-based_clustering.md)
+- [\[ICML 2026\] Singular Bayesian Neural Networks](../../ICML2026/ai_safety/singular_bayesian_neural_networks.md)
+- [\[ICLR 2026\] Memorization Through the Lens of Sample Gradients](memorization_through_the_lens_of_sample_gradients.md)
 
 </div>
 

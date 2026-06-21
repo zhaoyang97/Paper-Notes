@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Enough is as good as a feast: A Comprehensive Analysis of How Reinforcement Learning Mitigates Task Conflicts in LLMs
+description: >-
+  [ICLR2026][强化学习][模型融合] 这篇论文系统地比较了 SFT 和 RL 两种后训练范式对「模型融合（model merging）」的影响，发现 RL 训练出的模型在被融合后性能掉得远比 SFT 少，并从 on-policy 数据、RL 优化目标的自适应衰减、正负样本联合优化三个角度给出了实证与理论解释。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "模型融合"
+  - "任务冲突"
+  - "SFT"
+  - "on-policy"
+---
+
 # Enough is as good as a feast: A Comprehensive Analysis of How Reinforcement Learning Mitigates Task Conflicts in LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [N4l4Jp50R4](https://openreview.net/forum?id=N4l4Jp50R4)  
+**OpenReview**: [https://openreview.net/forum?id=N4l4Jp50R4](https://openreview.net/forum?id=N4l4Jp50R4)  
 **代码**: 待确认  
 **领域**: 强化学习 / LLM 后训练 / 模型融合  
 **关键词**: 模型融合、任务冲突、强化学习、SFT、on-policy
@@ -114,11 +128,11 @@ SFT 与 RL 最表层的区别是训练数据来源——SFT 用固定数据集�
 
 ## 相关论文
 
-- [\[ICLR 2026\] How LLMs Learn to Reason: A Complex Network Perspective](how_llms_learn_to_reason_a_complex_network_perspective.md)
-- [\[ACL 2026\] Good Reasoning Makes Good Demonstrations: Implicit Reasoning Quality Supervision via In-Context Reinforcement Learning](../../ACL2026/reinforcement_learning/good_reasoning_makes_good_demonstrations_implicit_reasoning_quality_supervision_.md)
-- [\[ICML 2026\] How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs](../../ICML2026/reinforcement_learning/how_does_reasoning_flow_tracing_attention-induced_information_flow_for_targeted_.md)
+- [\[ICLR 2026\] Reward is Enough: LLMs are In-Context Reinforcement Learners](reward_is_enough_llms_are_in-context_reinforcement_learners.md)
+- [\[ICLR 2026\] Mirage or Method? How Model–Task Alignment Induces Divergent RL Conclusions](mirage_or_method_how_modeltask_alignment_induces_divergent_rl_conclusions.md)
 - [\[ICLR 2026\] Virne: A Comprehensive Benchmark for RL-based Network Resource Allocation in NFV](virne_a_comprehensive_benchmark_for_rl-based_network_resource_allocation_in_nfv.md)
-- [\[NeurIPS 2025\] When Can Model-Free Reinforcement Learning be Enough for Thinking?](../../NeurIPS2025/reinforcement_learning/when_can_model-free_reinforcement_learning_be_enough_for_thinking.md)
+- [\[ICLR 2026\] RL Grokking Recipe: How Does RL Unlock and Transfer New Algorithms in LLMs?](rl_grokking_recipe_how_does_rl_unlock_and_transfer_new_algorithms_in_llms.md)
+- [\[ACL 2026\] Good Reasoning Makes Good Demonstrations: Implicit Reasoning Quality Supervision via In-Context Reinforcement Learning](../../ACL2026/reinforcement_learning/good_reasoning_makes_good_demonstrations_implicit_reasoning_quality_supervision_.md)
 
 </div>
 

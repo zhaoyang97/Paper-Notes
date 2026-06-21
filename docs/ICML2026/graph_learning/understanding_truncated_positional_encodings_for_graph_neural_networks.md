@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Understanding Truncated Positional Encodings for Graph Neural Networks
+description: >-
+  [ICML 2026][图学习][位置编码] 这篇论文从理论上证明：谱编码与游走编码在"完整"形式下表达力等价，但实践中大家用的"截断"版本表达力却天差地别——截断谱编码甚至不再强于 1-WL 测试，因此作者建议"既然要截断，就混用来自不同家族的位置编码"，并在真实数据集上验证了这条经验法则。 领域现状：消息传递图神经网络（…
+tags:
+  - "ICML 2026"
+  - "图学习"
+  - "位置编码"
+  - "截断"
+  - "谱编码"
+  - "k-调和距离"
+  - "WL 测试"
+---
+
 # Understanding Truncated Positional Encodings for Graph Neural Networks
 
 **会议**: ICML 2026  

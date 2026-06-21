@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Balancing the Experts: Unlocking LoRA-MoE for GRPO via Mechanism-Aware Rewards
+description: >-
+  [ICLR2026][强化学习][GRPO] 针对 LoRA-MoE 用 GRPO 做强化微调时路由坍缩、专家利用率低的问题，本文提出 RO-GRPO：把训练中采集到的内部路由统计量（熵 + 负载方差）转换成一个标量奖励，直接拼进 GRPO 的总奖励里，无需辅助损失、不改架构、不加训练阶段，就让模型在提升数学推理精度的同时把专家路由调得更均衡更自信。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "GRPO"
+  - "LoRA-MoE"
+  - "路由坍缩"
+  - "机制感知奖励"
+  - "负载均衡"
+---
+
 # Balancing the Experts: Unlocking LoRA-MoE for GRPO via Mechanism-Aware Rewards
 
 **会议**: ICLR2026  
-**OpenReview**: [rhD7ZuFAjU](https://openreview.net/forum?id=rhD7ZuFAjU)  
+**OpenReview**: [https://openreview.net/forum?id=rhD7ZuFAjU](https://openreview.net/forum?id=rhD7ZuFAjU)  
 **代码**: 待确认（论文称源码随补充材料提供）  
 **领域**: 强化学习微调 / LoRA-MoE / 参数高效微调  
 **关键词**: GRPO, LoRA-MoE, 路由坍缩, 机制感知奖励, 负载均衡
@@ -119,11 +134,11 @@ flowchart TD
 
 ## 相关论文
 
-- [\[ICML 2026\] Unlocking Zero-Shot Geospatial Reasoning via Indirect Rewards](../../ICML2026/reinforcement_learning/unlocking_zero-shot_geospatial_reasoning_via_indirect_rewards.md)
 - [\[ICLR 2026\] BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models](branchgrpo_stable_and_efficient_grpo_with_structured_branching_in_diffusion_mode.md)
-- [\[ICLR 2026\] AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification](amped_adaptive_multi-objective_projection_for_balancing_exploration_and_skill_di.md)
-- [\[ICLR 2026\] Agentic Reinforcement Learning with Implicit Step Rewards](agentic_reinforcement_learning_with_implicit_step_rewards.md)
-- [\[ICLR 2026\] Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards](count_counts_motivating_exploration_in_llm_reasoning_with_count-based_intrinsic_.md)
+- [\[ICML 2026\] Unlocking Zero-Shot Geospatial Reasoning via Indirect Rewards](../../ICML2026/reinforcement_learning/unlocking_zero-shot_geospatial_reasoning_via_indirect_rewards.md)
+- [\[ICLR 2026\] Composition of Memory Experts for Diffusion World Models](composition_of_memory_experts_for_diffusion_world_models.md)
+- [\[ICLR 2026\] Deft Scheduling of Dynamic Cloud Workflows with Varying Deadlines via Mixture-of-Experts](deft_scheduling_of_dynamic_cloud_workflows_with_varying_deadlines_via_mixture-of.md)
+- [\[ICLR 2026\] FAPO: Flawed-Aware Policy Optimization for Efficient and Reliable Reasoning](fapo_flawed-aware_policy_optimization_for_efficient_and_reliable_reasoning.md)
 
 </div>
 

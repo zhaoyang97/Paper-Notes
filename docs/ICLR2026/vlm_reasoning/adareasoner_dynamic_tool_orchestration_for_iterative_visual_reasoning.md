@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning
+description: >-
+  [ICLR2026][VLM Reasoning][多模态推理] AdaReasoner 教多模态大模型（MLLM）在多轮视觉推理中**动态编排一组视觉工具**——通过"工具冷启动 + 多轮 Tool GRPO"两阶段训练，让 7B 小模型学会自主选用、丢弃和调节工具使用频率，平均涨点 +38.7%，在 VSP 上做到 97.6% 的近满分，反超 GPT-5 与 Claude Sonnet 4。
+tags:
+  - "ICLR2026"
+  - "VLM Reasoning"
+  - "多模态推理"
+  - "工具编排"
+  - "多轮 GRPO"
+  - "视觉工具"
+  - "自适应工具使用"
+---
+
 # AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning
 
 **会议**: ICLR2026  
-**OpenReview**: [nUGPEmQ2ut](https://openreview.net/forum?id=nUGPEmQ2ut)  
+**OpenReview**: [https://openreview.net/forum?id=nUGPEmQ2ut](https://openreview.net/forum?id=nUGPEmQ2ut)  
 **代码**: https://github.com/ssmisya/AdaReasoner  
 **领域**: 多模态VLM / 视觉推理 / 工具增强  
 **关键词**: 多模态推理, 工具编排, 多轮 GRPO, 视觉工具, 自适应工具使用
@@ -133,9 +148,9 @@ $$R_{\text{total}} = R_{\text{format}} \cdot (\lambda_{\text{tool}} \cdot R_{\te
 ## 相关论文
 
 - [\[CVPR 2026\] CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning](../../CVPR2026/vlm_reasoning/codedance_a_dynamic_tool-integrated_mllm_for_executable_visual_reasoning.md)
+- [\[ICLR 2026\] Transductive Visual Programming: Evolving Tool Libraries from Experience for Spatial Reasoning](transductive_visual_programming_evolving_tool_libraries_from_experience_for_spat.md)
+- [\[ICLR 2026\] Efficient Multimodal Spatial Reasoning via Dynamic and Asymmetric Routing](efficient_multimodal_spatial_reasoning_via_dynamic_and_asymmetric_routing.md)
 - [\[ICLR 2026\] Empowering Small VLMs to Think with Dynamic Memorization and Exploration](empowering_small_vlms_to_think_with_dynamic_memorization_and_exploration.md)
-- [\[CVPR 2026\] CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization](../../CVPR2026/vlm_reasoning/codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim.md)
-- [\[CVPR 2026\] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning](../../CVPR2026/vlm_reasoning/arm-thinker_reinforcing_multimodal_generative_reward_models_with_agentic_tool_us.md)
 - [\[ICLR 2026\] VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use](vtool-r1_vlms_learn_to_think_with_images_via_reinforcement_learning_on_multimoda.md)
 
 </div>

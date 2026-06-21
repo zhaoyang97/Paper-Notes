@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MentisOculi: Revealing the Limits of Reasoning with Mental Imagery
+description: >-
+  [ICML2026][VLM Reasoning][心理意象] 作者造了一个程序化、分层难度的多步视觉推理基准 MentisOculi（五个"只能靠脑内成像解"的任务），系统检验前沿模型能否像人一样用"心理意象"辅助推理，结论是**目前所有显式视觉策略（潜在 token、生成图像、视频）都无法稳定超越纯文本基线**——更尖锐的是，统一多模态模型（UMM）即使被喂入正确的真值可视化也用不起来，暴露出"生成错误"叠加"解释错误"的双重瓶颈。
+tags:
+  - "ICML2026"
+  - "VLM Reasoning"
+  - "心理意象"
+  - "视觉推理"
+  - "统一多模态模型"
+  - "过程化基准"
+  - "生成-解释错误"
+---
+
 # MentisOculi: Revealing the Limits of Reasoning with Mental Imagery
 
 **会议**: ICML2026  

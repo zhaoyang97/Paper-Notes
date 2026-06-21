@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding
+description: >-
+  [ICML 2026][旋转位置编码] 把 RoPE 从「逐轴拆分」改成「把位置和频率都当成完整的 n 维向量、用一次内积旋转 $e^{j\boldsymbol{\omega}^\top\mathbf{x}}$ 编码」，并用正则单纯形波矢保证各向同性，从而在图像、视频、点云上都拿到一致的精度提升和更强的分辨率/密度外推。
+tags:
+  - "ICML 2026"
+  - "旋转位置编码"
+  - "各向同性"
+  - "正则单纯形"
+  - "多尺度频率"
+  - "分辨率外推"
+---
+
 # nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior
+description: >-
+  [ICML 2026][LLM评测][自我报告] 这篇论文系统拆解了"LLM 的心理测量自我报告（self-report, SR）到底什么时候能预测它的真实行为"，用 $2\times2\times2$ 因子实验（计划行为理论 TPB vs Big5 × 同会话 vs 跨会话 × 参数扰动 vs 人格诱导）跨 4 个行为任务、11 个前沿模型发现：SR–行为一致性**存在但有选择性**——细粒度的 TPB 在同会话内能达到人类水平的一致性，而 Big5 几乎测不出信号；跨会话时只有"行为锚定在 prompt 之外"的任务（如训练锁定的隐性偏见）才幸存，被上下文强烈启动的任务（如谄媚）则彻底崩塌。
+tags:
+  - "ICML 2026"
+  - "LLM评测"
+  - "自我报告"
+  - "计划行为理论"
+  - "Big5"
+  - "上下文启动"
+  - "行为审计"
+---
+
 # Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior
 
 **会议**: ICML 2026  

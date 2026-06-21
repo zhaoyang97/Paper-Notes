@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] The Easy, the Hard, and the Learnable: Confidence and Difficulty-Adaptive Policy Optimization for LLM Reasoning
+description: >-
+  [ICML2026][Reasoning][GRPO] 本文先把 GRPO 训练动态拆开看，发现它对简单/困难/可学习问题一视同仁导致算力错配，进而提出 CoDaPO——用每题的"置信度×难度"算一个有界价值，既给梯度更新加权又对高价值题重采样，在固定算力下把更新集中到"可学习带"，12 个推理基准上稳定超过 GRPO 等方法。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "GRPO"
+  - "可验证奖励RL"
+  - "计算分配"
+  - "难度自适应"
+  - "置信度"
+---
+
 # The Easy, the Hard, and the Learnable: Confidence and Difficulty-Adaptive Policy Optimization for LLM Reasoning
 
 **会议**: ICML2026  

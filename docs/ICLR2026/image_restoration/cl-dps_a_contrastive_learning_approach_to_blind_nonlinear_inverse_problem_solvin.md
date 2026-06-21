@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CL-DPS: A Contrastive Learning Approach to Blind Nonlinear Inverse Problem Solving via Diffusion Posterior Sampling
+description: >-
+  [ICLR2026][图像恢复][盲逆问题] CL-DPS 用一个离线训练的对比学习编码器去近似扩散后验采样里那个棘手的似然项 $p(y\mid x_t)$，从而在**不知道、也不估计测量算子参数**的前提下，第一次让扩散模型能解盲**非线性**逆问题（如旋转模糊、缩放模糊），在这些任务上现有方法全部崩溃而它能干净复原，同时在线性盲去模糊上也保持竞争力。
+tags:
+  - "ICLR2026"
+  - "图像恢复"
+  - "盲逆问题"
+  - "非线性算子"
+  - "扩散后验采样"
+  - "对比学习"
+  - "去模糊"
+---
+
 # CL-DPS: A Contrastive Learning Approach to Blind Nonlinear Inverse Problem Solving via Diffusion Posterior Sampling
 
 **会议**: ICLR2026  
-**OpenReview**: [KoLYNHJRBY](https://openreview.net/forum?id=KoLYNHJRBY)  
+**OpenReview**: [https://openreview.net/forum?id=KoLYNHJRBY](https://openreview.net/forum?id=KoLYNHJRBY)  
 **代码**: https://anonymous.4open.science/r/CL-DPS-4F5D （匿名仓）  
 **领域**: 扩散模型 / 图像复原 / 逆问题求解  
 **关键词**: 盲逆问题, 非线性算子, 扩散后验采样, 对比学习, 去模糊
@@ -133,3 +148,19 @@ $$L_{\text{CL-DPS}}=L_{p(y_{\text{syn}}\mid x_t)}+\lambda\,L_{CC}(x_t).$$
 - 实验充分度: ⭐⭐⭐⭐ 三数据集、线性/非线性双设定、丰富消融与理论，但慢且未超出模糊类退化
 - 写作质量: ⭐⭐⭐⭐ 动机-理论-设计咬合紧凑，Lemma/Theorem 支撑清晰
 - 价值: ⭐⭐⭐⭐ 打开了盲非线性逆问题这一空白，框架可即插即用，但推理成本待优化
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms](a_statistical_benchmark_for_diffusion-posterior-sampling_algorithms.md)
+- [\[ICML 2026\] Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules](../../ICML2026/image_restoration/triadic_dynamics_aware_diffusion_posterior_sampling_for_inverse_problems_optimiz.md)
+- [\[ICLR 2026\] LearnIR: Learnable Posterior Sampling for Real-World Image Restoration](learnir_learnable_posterior_sampling_for_real-world_image_restoration.md)
+- [\[ICLR 2026\] Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling](adaptive_moments_are_surprisingly_effective_for_plug-and-play_diffusion_sampling.md)
+- [\[ICML 2026\] Measurement-Consistent Langevin Corrector for Stabilizing Latent Diffusion Inverse Problem Solvers](../../ICML2026/image_restoration/measurement-consistent_langevin_corrector_for_stabilizing_latent_diffusion_inver.md)
+
+</div>
+
+<!-- RELATED:END -->

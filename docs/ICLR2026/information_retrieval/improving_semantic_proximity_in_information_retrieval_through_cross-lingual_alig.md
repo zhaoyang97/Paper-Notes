@@ -16,7 +16,7 @@ tags:
 # Improving Semantic Proximity in Information Retrieval through Cross-Lingual Alignment
 
 **会议**: ICLR 2026  
-**OpenReview**: [NvKvW5k6Kk](https://openreview.net/forum?id=NvKvW5k6Kk)  
+**OpenReview**: [https://openreview.net/forum?id=NvKvW5k6Kk](https://openreview.net/forum?id=NvKvW5k6Kk)  
 **代码**: 待确认  
 **领域**: 信息检索 / 跨语言检索 / 多语言表示  
 **关键词**: 跨语言检索, 语义对齐, Jensen-Shannon 散度, 英语偏置, Max@R
@@ -151,8 +151,8 @@ $$\min L_{NCE} = -\frac{1}{n}\sum_i \log \frac{\exp(s(p_{tgt_i}, q^+_{en_i}))}{\
 
 - [\[ACL 2025\] Cross-Lingual Relevance Transfer for Document Retrieval](../../ACL2025/information_retrieval/cross-lingual_relevance_transfer_for_document_retrieval.md)
 - [\[ICLR 2026\] Mapping Semantic & Syntactic Relationships with Geometric Rotation](mapping_semantic_syntactic_relationships_with_geometric_rotation.md)
-- [\[CVPR 2026\] POGA: Paraphrased and Oppositional Graph Alignment for Fine-Grained Cross-Modal Retrieval](../../CVPR2026/information_retrieval/poga_paraphrased_and_oppositional_graph_alignment_for_fine-grained_cross-modal_r.md)
-- [\[ICLR 2026\] Fine-tuning with RAG for Improving LLM Learning of New Skills](fine-tuning_with_rag_for_improving_llm_learning_of_new_skills.md)
+- [\[ICLR 2026\] Deep Global-sense Hard-negative Discriminative Generation Hashing for Cross-modal Retrieval](deep_global-sense_hard-negative_discriminative_generation_hashing_for_cross-moda.md)
+- [\[ICLR 2026\] Lean Finder: Semantic Search for Mathlib That Understands User Intents](lean_finder_semantic_search_for_mathlib_that_understands_user_intents.md)
 - [\[ACL 2025\] Multilingual Retrieval Augmented Generation for Culturally-Sensitive Tasks: A Benchmark for Cross-lingual Robustness](../../ACL2025/information_retrieval/multilingual_retrieval_augmented_generation_for_culturally-sensitive_tasks_a_ben.md)
 
 </div>

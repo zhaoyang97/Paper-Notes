@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Self-evolving LLM agents with in-distribution Optimization
+description: >-
+  [ICML2026][LLM Agent][自进化智能体] Q-Evolve 让 LLM 智能体在一个固定的混合离线数据集上学一个「分布内 critic」、用优势估计自动给每一步打过程奖励、再用 behavior-proximal 策略优化更新，全程不离开数据分布，从而在 AlfWorld/WebShop/ScienceWorld 上以远少的环境交互实现稳定的自我进化。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "自进化智能体"
+  - "过程奖励"
+  - "隐式Q学习"
+  - "信用分配"
+  - "分布内优化"
+---
+
 # Self-evolving LLM agents with in-distribution Optimization
 
 **会议**: ICML2026  

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 视频生成论文汇总 · 26篇论文解读
+  ICLR2026 视频生成论文汇总 · 78篇论文解读
 description: >-
-  26篇ICLR2026的视频生成方向论文解读，涵盖视频生成、扩散模型、动态场景、机器人、语音、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  78篇ICLR2026的视频生成方向论文解读，涵盖视频生成、扩散模型、动态场景、机器人、个性化生成、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "视频生成"
@@ -11,9 +11,11 @@ tags:
   - "扩散模型"
   - "动态场景"
   - "机器人"
-  - "语音"
+  - "个性化生成"
   - "压缩/编码"
 item_list:
+  - u: "3d_scene_prompting_for_scene-consistent_camera-controllable_video_generation/"
+    t: "3D Scene Prompting for Scene-Consistent Camera-Controllable Video Generation"
   - u: "adaviewplanner_adapting_video_diffusion_models_for_viewpoint_planning_in_4d_scen/"
     t: "AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes"
   - u: "anchor_frame_bridging_for_coherent_first-last_frame_video_generation/"
@@ -28,55 +30,65 @@ item_list:
     t: "BindWeave: Subject-Consistent Video Generation via Cross-Modal Integration"
   - u: "blade_block-sparse_attention_meets_step_distillation_for_efficient_video_generat/"
     t: "BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation"
+  - u: "bwcache_accelerating_video_diffusion_transformers_through_block-wise_caching/"
+    t: "BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching"
   - u: "captain_cinema_towards_short_movie_generation/"
     t: "Captain Cinema: Towards Short Movie Generation"
-  - u: "cinetrans_learning_to_generate_videos_with_cinematic_transitions_via_masked_diff/"
-    t: "CineTrans: Learning to Generate Videos with Cinematic Transitions via Masked Diffusion Models"
+  - u: "consisdrive_identity-preserving_driving_world_models_for_video_generation_by_ins/"
+    t: "ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask"
+  - u: "controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine-tuning/"
+    t: "Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning"
+  - u: "dreamswapv_mask-guided_subject_swapping_for_any_customized_video_editing/"
+    t: "DreamSwapV: Mask-guided Subject Swapping for Any Customized Video Editing"
   - u: "drivinggen_a_comprehensive_benchmark_for_generative_video_world_models_in_autono/"
     t: "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving"
+  - u: "dsa_efficient_inference_for_video_generation_models_via_distributed_sparse_atten/"
+    t: "DSA: Efficient Inference For Video Generation Models via Distributed Sparse Attention"
   - u: "dual-ipo_dual-iterative_preference_optimization_for_text-to-video_generation/"
     t: "Dual-IPO: Dual-Iterative Preference Optimization for Text-to-Video Generation"
+  - u: "echomotion_unified_human_video_and_motion_generation_via_dual-modality_diffusion/"
+    t: "EchoMotion: Unified Human Video and Motion Generation via Dual-Modality Diffusion Transformer"
+  - u: "editverse_unifying_image_and_video_editing_and_generation_with_in-context_learni/"
+    t: "EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning"
+  - u: "effivmt_video_motion_transfer_via_efficient_spatial-temporal_decoupled_finetunin/"
+    t: "EffiVMT: Video Motion Transfer via Efficient Spatial-Temporal Decoupled Finetuning"
+  - u: "egotwin_dreaming_body_and_view_in_first_person/"
+    t: "EgoTwin: Dreaming Body and View in First Person"
+  - u: "fastcar_cache_attentive_replay_for_fast_auto-regressive_video_generation_on_the_/"
+    t: "FastCar: Cache Attentive Replay for Fast Auto-Regressive Video Generation on the Edge"
+  - u: "fastvmt_eliminating_redundancy_in_video_motion_transfer/"
+    t: "FastVMT: Eliminating Redundancy in Video Motion Transfer"
+  - u: "flow_caching_for_autoregressive_video_generation/"
+    t: "Flow Caching for Autoregressive Video Generation"
   - u: "frame_guidance_training-free_guidance_for_frame-level_control_in_video_diffusion/"
     t: "Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models"
+  - u: "freevis_training-free_video_stylization_with_inconsistent_references/"
+    t: "FreeViS: Training-free Video Stylization with Inconsistent References"
+  - u: "generative_view_stitching/"
+    t: "Generative View Stitching"
   - u: "geometry-aware_4d_video_generation_for_robot_manipulation/"
     t: "Geometry-aware 4D Video Generation for Robot Manipulation"
+  - u: "geometry_forcing_marrying_video_diffusion_and_3d_representation_for_consistent_w/"
+    t: "Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling"
+  - u: "improving_autoregressive_video_modeling_with_history_understanding/"
+    t: "Improving Autoregressive Video Modeling with History Understanding"
   - u: "javisdit_joint_audio-video_diffusion_transformer_with_hierarchical_spatio-tempor/"
     t: "JavisDiT: Joint Audio-Video Diffusion Transformer with Hierarchical Spatio-Temporal Prior Synchronization"
-  - u: "javisdit_unified_modeling_and_optimization_for_joint_audio-video_generation/"
-    t: "JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation"
-  - u: "learning_video_generation_for_robotic_manipulation_with_collaborative_trajectory/"
-    t: "Learning Video Generation for Robotic Manipulation with Collaborative Trajectory Control"
-  - u: "lora-edit_controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine/"
-    t: "LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning"
-  - u: "lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie/"
-    t: "Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective"
-  - u: "mosa_motion-coherent_human_video_generation_via_structure-appearance_decoupling/"
-    t: "MoSA: Motion-Coherent Human Video Generation via Structure-Appearance Decoupling"
-  - u: "motionstream_real-time_video_generation_with_interactive_motion_controls/"
-    t: "MotionStream: Real-Time Video Generation with Interactive Motion Controls"
-  - u: "precisecache_precise_feature_caching_for_efficient_and_high-fidelity_video_gener/"
-    t: "PreciseCache: Precise Feature Caching for Efficient and High-fidelity Video Generation"
-  - u: "quantsparse_comprehensively_compressing_video_diffusion_transformer_with_model_q/"
-    t: "QuantSparse: Comprehensively Compressing Video Diffusion Transformer with Model Quantization and Attention Sparsification"
-  - u: "sigmark_scalable_in-generation_watermark_with_blind_extraction_for_video_diffusi/"
-    t: "SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion"
-  - u: "streaming_autoregressive_video_generation_via_diagonal_distillation/"
-    t: "Streaming Autoregressive Video Generation via Diagonal Distillation"
-  - u: "target-aware_video_diffusion_models/"
-    t: "Target-Aware Video Diffusion Models"
-  - u: "ttom_test-time_optimization_and_memorization_for_compositional_video_generation/"
-    t: "TTOM: Test-Time Optimization and Memorization for Compositional Video Generation"
-item_total: 26
+item_total: 78
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频生成
 
-**🔬 ICLR2026** · **26** 篇论文解读
+**🔬 ICLR2026** · **78** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (182)](../../CVPR2026/video_generation/index.md) · [🧪 ICML2026 (32)](../../ICML2026/video_generation/index.md) · [💬 ACL2026 (4)](../../ACL2026/video_generation/index.md) · [🤖 AAAI2026 (11)](../../AAAI2026/video_generation/index.md) · [🧠 NeurIPS2025 (23)](../../NeurIPS2025/video_generation/index.md) · [📹 ICCV2025 (49)](../../ICCV2025/video_generation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (182)](../../CVPR2026/video_generation/index.md) · [💬 ACL2026 (4)](../../ACL2026/video_generation/index.md) · [🧪 ICML2026 (32)](../../ICML2026/video_generation/index.md) · [🤖 AAAI2026 (11)](../../AAAI2026/video_generation/index.md) · [🧠 NeurIPS2025 (23)](../../NeurIPS2025/video_generation/index.md) · [📹 ICCV2025 (49)](../../ICCV2025/video_generation/index.md)
 
-🔥 **高频主题：** 视频生成 ×13 · 扩散模型 ×9 · 动态场景 ×2 · 机器人 ×2 · 语音 ×2
+🔥 **高频主题：** 视频生成 ×34 · 扩散模型 ×24 · 动态场景 ×4 · 机器人 ×4 · 个性化生成 ×3
+
+**[3D Scene Prompting for Scene-Consistent Camera-Controllable Video Generation](3d_scene_prompting_for_scene-consistent_camera-controllable_video_generation.md)**
+
+:   本文提出 **3DScenePrompt**，用「时序相邻帧 + 静态 3D 点云投影视图」的双重时空条件，从任意长度输入视频续生下一段视频，在精确相机控制的同时保持与整段历史的场景一致性。
 
 **[AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes](adaviewplanner_adapting_video_diffusion_models_for_viewpoint_planning_in_4d_scen.md)**
 
@@ -106,29 +118,89 @@ item_total: 26
 
 :   BLADE 把"动态块稀疏注意力"和"少步蒸馏"放进同一个 data-free 联合训练框架里协同优化，在 Wan2.1-1.3B 上做到 14.10× 端到端加速、CogVideoX-5B 上 8.89×，且 VBench-2.0 质量反而比 50 步原始模型还高。
 
+**[BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching](bwcache_accelerating_video_diffusion_transformers_through_block-wise_caching.md)**
+
+:   BWCache 发现视频 DiT 中各个 block 的特征在相邻时间步上呈 U 形相似度曲线（中间时间步高度冗余），于是在 block 粒度上缓存并复用特征，并用一个轻量相似度指标动态决定何时复用，做到训练无关、即插即用、最高 2.6× 加速且画质几乎不掉。
+
 **[Captain Cinema: Towards Short Movie Generation](captain_cinema_towards_short_movie_generation.md)**
 
 :   Captain Cinema 把"生成一部短电影"拆成"自上而下先画一整套关键帧分镜、自下而上再把关键帧之间补成视频"两步，并用黄金比例记忆压缩（GoldenMem）把上千秒、几十个镜头的历史画面压进固定的 token 预算里，从而在长达数十个交错镜头上仍保持人物与场景一致。
 
-**[CineTrans: Learning to Generate Videos with Cinematic Transitions via Masked Diffusion Models](cinetrans_learning_to_generate_videos_with_cinematic_transitions_via_masked_diff.md)**
+**[ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask](consisdrive_identity-preserving_driving_world_models_for_video_generation_by_ins.md)**
 
-:   CineTrans 发现视频扩散模型的注意力图天然呈"镜头内强相关、镜头间弱相关"的块对角结构，于是用一个由镜头时间戳直接构造的块对角掩码去操控注意力，再配合自建的 Cine250K 多镜头数据集微调，让模型能在任意指定位置生成符合电影剪辑风格的多镜头转场，且换上掩码后免训练也能用。
+:   ConsisDrive 在扩散式驾驶世界模型里用「实例掩码」把注意力和损失都约束到单个物体上——既让每个视觉 token 只能与自己实例的身份/轨迹 token 交互（防止 bus 慢慢变 truck、红车变黑车），又把监督重心压到前景，从而在 nuScenes 上把 FVD 降到 37.23、FID 降到 3.88，并显著提升下游感知/跟踪指标。
+
+**[Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning](controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine-tuning.md)**
+
+:   本文把预训练图生视频（I2V）模型里原本只用来"保首帧、生后续帧"的时空掩码重新挖掘成一个空间可变的"保留/重生成"指令，配合在单条输入视频上做的 LoRA 微调，让模型既能学到源视频的运动、又能从参考帧学到目标外观，从而把"只改第一帧"的编辑可控地传播到整段视频，在首帧引导编辑上全面超过 AnyV2V / I2VEdit / Go-with-the-Flow。
+
+**[DreamSwapV: Mask-guided Subject Swapping for Any Customized Video Editing](dreamswapv_mask-guided_subject_swapping_for_any_customized_video_editing.md)**
+
+:   DreamSwapV 把"视频主体替换"重新定义成一个**掩码引导的视频修复（inpainting）**任务：给定源视频、一张标定要换对象的掩码、以及目标主体的参考图，模型就能端到端地把视频里任意主体换成任意新主体，靠一个条件融合模块和一套自适应掩码策略实现细粒度控制与自然的主体—环境交互，在自建的 DreamSwapV-Benchmark 上全面超过 VACE、HunyuanCustom 乃至商业模型 Kling 1.6。
 
 **[DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving](drivinggen_a_comprehensive_benchmark_for_generative_video_world_models_in_autono.md)**
 
 :   DrivingGen 提出首个面向自动驾驶视频世界模型的综合性基准，包含跨天气/地域/时间/复杂场景的多样化评估数据集和四维度评估指标体系（分布、质量、时序一致性、轨迹对齐），对 14 个 SOTA 模型的评测揭示了通用模型与驾驶专用模型之间的核心权衡。
 
+**[DSA: Efficient Inference For Video Generation Models via Distributed Sparse Attention](dsa_efficient_inference_for_video_generation_models_via_distributed_sparse_atten.md)**
+
+:   DSA 把"稀疏注意力"和"序列并行"两条原本各走各路的加速线拧在一起：针对视频扩散模型里的空间稀疏和时间稀疏两种注意力模式，分别配上 partial-ring 和 Ulysses 两种并行策略，再用动态调度把通信藏进计算里，在 8 卡 H100 上生成 720p / 5 秒视频比单卡密集注意力快 10.79×、比现有分布式方法（USP）再快 1.43×，且画质几乎无损。
+
 **[Dual-IPO: Dual-Iterative Preference Optimization for Text-to-Video Generation](dual-ipo_dual-iterative_preference_optimization_for_text-to-video_generation.md)**
 
 :   提出 Dual-IPO 框架，通过在奖励模型和视频生成模型之间进行多轮双向迭代优化，无需大量人工标注即可持续提升文本到视频生成的质量和人类偏好对齐，甚至让 2B 模型超越 5B 模型。
+
+**[EchoMotion: Unified Human Video and Motion Generation via Dual-Modality Diffusion Transformer](echomotion_unified_human_video_and_motion_generation_via_dual-modality_diffusion.md)**
+
+:   EchoMotion 不再把人体视频生成当作纯像素回归问题，而是用双分支 DiT 显式联合建模「视频外观 + SMPL 参数化运动」的联合分布 $p(x, m \mid y)$，配合时序同步的 MVS-RoPE 和两阶段训练，把复杂人体动作视频的解剖合理性和运动连贯性显著提上去，并顺带获得视频↔运动双向跨模态生成能力。
+
+**[EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning](editverse_unifying_image_and_video_editing_and_generation_with_in-context_learni.md)**
+
+:   EditVerse 把文本、图像、视频统一成一条交错的 token 序列，用全自注意力做上下文学习，在单一 2B 模型里同时支持图像与视频的生成和编辑，并通过自建 232K 视频编辑数据管线把图像域的编辑知识迁移到数据稀缺的视频域，在自建 EditVerseBench 上超过开源方法、编辑保真度甚至超过商业模型 Runway Aleph。
+
+**[EffiVMT: Video Motion Transfer via Efficient Spatial-Temporal Decoupled Finetuning](effivmt_video_motion_transfer_via_efficient_spatial-temporal_decoupled_finetunin.md)**
+
+:   EffiVMT 针对 DiT 视频运动迁移中的“运动不一致 + 微调太慢”两大问题，提出三阶段空间-时间解耦微调（头分类 -> 空间 LoRA -> 时间 LoRA）并结合稀疏运动采样与自适应 RoPE，在显著提速的同时保持更高的运动保真与时序一致性。
+
+**[EgoTwin: Dreaming Body and View in First Person](egotwin_dreaming_body_and_view_in_first_person.md)**
+
+:   EgoTwin 把“第一人称视频生成”和“人体动作生成”放在同一个扩散 Transformer 里联合建模，通过头部中心动作表征与带因果约束的跨模态注意力，让生成的视频视角轨迹和人体运动在时间上同步、在几何上对齐。
+
+**[FastCar: Cache Attentive Replay for Fast Auto-Regressive Video Generation on the Edge](fastcar_cache_attentive_replay_for_fast_auto-regressive_video_generation_on_the_.md)**
+
+:   针对自回归（AR）视频生成解码阶段被 MLP 模块主导、且相邻帧 MLP 输出高度相似的现象，FastCar 用「时间注意力分数（TAS）」判定何时直接复用上一帧缓存的 MLP 输出来跳过计算，并配套设计带动态资源调度的 FPGA 加速器，在边缘端实现 2.1× 以上的解码加速且画质几乎不掉。
+
+**[FastVMT: Eliminating Redundancy in Video Motion Transfer](fastvmt_eliminating_redundancy_in_video_motion_transfer.md)**
+
+:   通过识别并消除训练无关视频运动迁移流水线中的两类冗余——注意力的"运动冗余"与优化过程的"梯度冗余"，FastVMT 用滑动窗口运动提取 + 步跳梯度优化，在几乎不损失保真度与时序一致性的前提下实现平均 3.43× 加速（最高 14.91×）。
+
+**[Flow Caching for Autoregressive Video Generation](flow_caching_for_autoregressive_video_generation.md)**
+
+:   FlowCache 指出自回归视频生成中不同 chunk 在同一时间步处于异质去噪状态，因此放弃"全帧统一缓存"，改为给每个 chunk 配独立的逐块自适应缓存策略，并配套一个联合重要性—冗余的 KV cache 压缩，在 MAGI-1 和 SkyReels-V2 上分别取得 2.38× / 6.7× 提速且画质几乎无损。
 
 **[Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models](frame_guidance_training-free_guidance_for_frame-level_control_in_video_diffusion.md)**
 
 :   提出 Frame Guidance，一种无需训练的帧级引导方法，通过 latent slicing（降低 60× 显存）和 Video Latent Optimization（VLO）两个核心组件，在不修改模型的情况下实现关键帧引导、风格化和循环视频等多种可控视频生成任务。
 
+**[FreeViS: Training-free Video Stylization with Inconsistent References](freevis_training-free_video_stylization_with_inconsistent_references.md)**
+
+:   FreeViS 把多张「彼此不一致」的风格化参考帧塞进预训练 I2V 扩散模型，用隔离注意力 + 高频补偿 + 光流引导三件套，在完全无需训练的条件下解决了单参考帧方法的风格传播误差，做出风格细节丰富又时序连贯的视频风格化。
+
+**[Generative View Stitching](generative_view_stitching.md)**
+
+:   GVS 把"机器人规划里的扩散拼接"搬到视频生成上：用一个免训练的并行采样算法，让任意 Diffusion Forcing 视频模型沿预定义相机轨迹生成长视频，同时让当前帧能"看到未来"，从而避免撞墙、保持一致并闭合回环。
+
 **[Geometry-aware 4D Video Generation for Robot Manipulation](geometry-aware_4d_video_generation_for_robot_manipulation.md)**
 
 :   本文提出几何感知的4D视频生成框架，通过跨视角点图对齐监督训练视频扩散模型，联合预测RGB和点图实现时空一致的多视角RGB-D视频，无需相机位姿输入即可在新视角下生成一致视频并用现成6DoF位姿追踪器恢复机器人末端轨迹。
+
+**[Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling](geometry_forcing_marrying_video_diffusion_and_3d_representation_for_consistent_w.md)**
+
+:   通过把视频扩散模型的中间特征对齐到 3D 基础模型 VGGT 的几何表示（角度对齐 + 尺度对齐两个解耦目标），让纯视频数据训练的扩散模型"内化"3D 结构，从而显著提升长时视频生成的几何与时序一致性，并能在推理时反推出显式 3D 几何。
+
+**[Improving Autoregressive Video Modeling with History Understanding](improving_autoregressive_video_modeling_with_history_understanding.md)**
+
+:   本文指出扩散式自回归视频生成（VideoAR）中"历史帧的内部表征质量"是一个被忽视的关键变量，并提出 **MiMo（Masked History Modeling）**——在扩散去噪目标之外，对干净历史帧做掩码重建，自监督地学到更强的历史表征，在不依赖视觉基础模型（VFM）的前提下显著提升收敛速度与生成质量。
 
 **[JavisDiT: Joint Audio-Video Diffusion Transformer with Hierarchical Spatio-Temporal Prior Synchronization](javisdit_joint_audio-video_diffusion_transformer_with_hierarchical_spatio-tempor.md)**
 
@@ -142,13 +214,57 @@ item_total: 26
 
 :   提出RoboMaster框架，通过协作轨迹（collaborative trajectory）将机器人-物体交互过程分解为前交互、交互中、后交互三阶段，结合外观和形状感知的物体嵌入，实现高质量的机器人操作视频生成。
 
-**[LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning](lora-edit_controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine.md)**
+**[Light-X: Generative 4D Video Rendering with Camera and Illumination Control](light-x_generative_4d_video_rendering_with_camera_and_illumination_control.md)**
 
-:   提出 LoRA-Edit，利用时空 mask 引导 LoRA 微调预训练 I2V 模型，实现可控的首帧引导视频编辑——mask 同时作为编辑区域指令和 LoRA 学习内容的引导信号，支持运动继承和外观控制。
+:   Light-X 把"相机视角"和"场景光照"两条原本割裂的可控视频生成路线第一次统一进同一个扩散模型里——通过把几何/运动与光照分别投影成两组点云作为细粒度条件来实现解耦，并用一条"退化+逆映射"的数据合成管线（Light-Syn）凭空造出真实世界几乎拿不到的"多视角×多光照"配对训练数据。
+
+**[LightCtrl: Training-free Controllable Video Relighting](lightctrl_training-free_controllable_video_relighting.md)**
+
+:   LightCtrl 把"图像重打光模型逐帧打光 + 视频扩散先验保时序一致"的训练无关范式，扩展成第一个支持**用户自定义光照轨迹**的可控视频重打光方法——靠光图注入（Light Map Injection）和几何感知重打光（Geometry-Aware Relighting）两个模块，让生成视频的光照沿着用户画的轨迹动起来，同时压住源视频原有光照的干扰。
+
+**[LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference](likephys_evaluating_intuitive_physics_understanding_in_video_diffusion_models_vi.md)**
+
+:   LikePhys 把扩散模型的去噪损失当作 ELBO 似然代理，在「物理合法 vs 不合法」的成对合成视频上比较谁的似然更高，从而免训练地量化视频扩散模型的直觉物理理解能力，并给出与人类偏好高度一致的 PPE 评测指标。
+
+**[LongLive: Real-time Interactive Long Video Generation](longlive_real-time_interactive_long_video_generation.md)**
+
+:   LongLive 用帧级因果自回归框架，配合 KV-recache、流式长训练（train-long-test-long）和短窗口注意力 + 帧级 attention sink 三件套，把 1.3B 短片模型在 32 GPU-天内微调成能在单张 H100 上以 20.7 FPS 实时生成、支持随时切换 prompt、最长 240 秒的交互式长视频生成器。
 
 **[Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)**
 
 :   提出 Lumos-1，一个基于 LLM 架构的统一视频生成模型：通过 MM-RoPE（分布式多模态 RoPE）解决视觉时空编码问题，通过 AR-DF（自回归离散扩散强迫）解决帧间损失不均衡问题，仅用 48 GPU 训练即可在 GenEval、VBench-I2V 和 VBench-T2V 上达到竞争力水平。
+
+**[LumosX: Relate Any Identities with Their Attributes for Personalized Video Generation](lumosx_relate_any_identities_with_their_attributes_for_personalized_video_genera.md)**
+
+:   LumosX 在 Wan2.1 视频 DiT 上引入「关系自注意力」与「关系交叉注意力」，通过关系旋转位置编码、因果自注意力掩码和多级交叉注意力掩码，把每张人脸与其属性（衣着、配饰、发型）显式绑成一个主体组，配合一套带人脸-属性依赖标注的数据管线，解决了多主体个性化视频生成中长期存在的「属性张冠李戴」问题。
+
+**[MAGREF: Masked Guidance for Any-Reference Video Generation with Subject Disentanglement](magref_masked_guidance_for_any-reference_video_generation_with_subject_disentang.md)**
+
+:   MAGREF 用「区域感知掩码 + 像素级通道拼接」把任意数量、任意类别的参考主体注入预训练 I2V 骨干，并用「主体解耦」把每个文本词的语义值注射到对应视觉区域，在不改架构的前提下实现高保真、可控的任意参考视频生成。
+
+**[MIMIC: Mask-Injected Manipulation Video Generation with Interaction Control](mimic_mask-injected_manipulation_video_generation_with_interaction_control.md)**
+
+:   MIMIC 把"生成操作视频"拆成两阶段——先用交互-运动感知（IMA）注意力从参考视频里学出一串语义掩码作为运动轨迹，再用 Pair Prompt Control 把掩码渲染成画面，从而在保留接触丰富的操作语义的同时生成高保真、可控的操作视频。
+
+**[Mixture of Contexts for Long Video Generation](mixture_of_contexts_for_long_video_generation.md)**
+
+:   把长视频生成重新表述为"内部信息检索"问题，提出一个无参数但可训练的稀疏注意力路由模块 MoC——让每个 query 动态选取少量相关 chunk 加上强制 anchor（文本 + 本地窗口），并用因果掩码避免回路，从而在剪掉 85% token 对、注意力 FLOPs 降 7× 的同时，把分钟级视频的身份/动作/场景一致性维持住甚至做得更好。
+
+**[MoAlign: Motion-Centric Representation Alignment for Video Diffusion Models](moalign_motion-centric_representation_alignment_for_video_diffusion_models.md)**
+
+:   MoAlign 从冻结的视频编码器里**蒸馏出一个只编码运动、不掺外观的低维子空间**（用光流监督逼出来），再用软关系对齐把文生视频扩散模型的中层特征对齐到这个运动子空间，让模型在不加任何推理期条件/仿真的情况下生成物理上更合理的视频。
+
+**[MoCa: Modeling Object Consistency for 3D Camera Control in Video Generation](moca_modeling_object_consistency_for_3d_camera_control_in_video_generation.md)**
+
+:   MoCa 不去显式重建 3D，而是把"平滑相机运动会让 2D 帧里的物体在视角、外观、运动上保持一致"这一观察拆成三类一致性约束，用双分支扩散框架同时管住相机轨迹、外观稳定和物体运动解耦，从而隐式学到相机与场景的 3D 关系。
+
+**[Model Already Knows the Best Noise: Bayesian Active Noise Selection via Attention in Video Diffusion Model](model_already_knows_the_best_noise_bayesian_active_noise_selection_via_attention.md)**
+
+:   本文提出 ANSE 框架及其核心打分函数 BANSA，把"贝叶斯主动学习(BALD)"从分类任务迁移到扩散模型的**注意力空间**，通过度量多次随机扰动下注意力图的熵分歧来量化模型对某个初始噪声种子的"确信度"，从而在**不重训、不跑完整去噪**的前提下、仅用首步的部分注意力层就挑出更好的初始噪声种子。
+
+**[MoGA: Mixture-of-Groups Attention for End-to-End Long Video Generation](moga_mixture-of-groups_attention_for_end-to-end_long_video_generation.md)**
+
+:   MoGA 用一个轻量可学习的 token router 把 token 按语义分组、组内做全注意力，省掉了块稀疏注意力的"粗估块得分"环节，从而以约 58 万的上下文长度端到端生成分钟级、多镜头、480p/24fps 的长视频。
 
 **[MoSA: Motion-Coherent Human Video Generation via Structure-Appearance Decoupling](mosa_motion-coherent_human_video_generation_via_structure-appearance_decoupling.md)**
 
@@ -158,6 +274,34 @@ item_total: 26
 
 :   提出MotionStream——首个运动控制的实时流式视频生成系统：先训练轻量track head的双向运动控制teacher，再通过Self Forcing + DMD蒸馏为因果student，引入注意力沉降（attention sink）+滚动KV缓存（rolling KV cache）实现训练-推理分布完全匹配，单H100 GPU上480P达17FPS/29FPS（+Tiny VAE），支持无限长度恒速生成。
 
+**[MotionWeaver: Holistic 4D-Anchored Framework for Multi-Humanoid Image Animation](motionweaver_holistic_4d-anchored_framework_for_multi-humanoid_image_animation.md)**
+
+:   MotionWeaver 把角色图像动画从单人扩展到多人体（机器人、拟人动物、游戏角色）场景，靠"提取身份无关的统一运动表征 + 在一个共享 4D 空间里融合运动与视频隐变量 + 分层 4D 监督"三件套，专治多角色互动里的身份混淆与遮挡。
+
+**[MTVCraft: Tokenizing 4D Motion for Arbitrary Character Animation](mtvcraft_tokenizing_4d_motion_for_arbitrary_character_animation.md)**
+
+:   MTVCraft 把驱动视频里的 3D 关节坐标序列（4D 运动）直接量化成离散 token，配合带 4D 位置编码的运动注意力 DiT，绕开了传统 2D 渲染姿态图的像素对齐束缚，实现可任意角色（含非人物体）的高质量姿态引导动画。
+
+**[NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation](narrlv_towards_a_comprehensive_narrative-centric_evaluation_for_long_video_gener.md)**
+
+:   NarrLV 提出"时序叙事原子(TNA)"作为量化叙事丰富度的基本单位，配合可任意扩展 TNA 数量的提示词套件和基于 MLLM 问答的三级渐进式评测指标，首次系统地衡量长视频生成模型"讲故事"的能力，并发现现有模型最多只能稳定表达约 2 个叙事单元。
+
+**[Neodragon: Mobile Video Generation Using Diffusion Transformer](neodragon_mobile_video_generation_using_diffusion_transformer.md)**
+
+:   Neodragon 把一个视频 DiT（基于 Pyramidal-Flow）通过文本编码器蒸馏、非对称解码器蒸馏、MMDiT 块剪枝、以及扩展到金字塔流匹配的 DMD 步数蒸馏四套手术，端到端塞进手机/笔记本的 Qualcomm Hexagon NPU，在 ~6.7 秒内生成 49 帧 640×1024 视频，VBench 总分 81.61，刷新端侧视频生成 SOTA。
+
+**[NeRV-Diffusion: Diffuse Implicit Neural Representation for Video Synthesis](nerv-diffusion_diffuse_implicit_neural_representation_for_video_synthesis.md)**
+
+:   把一段视频压缩成一个"小型卷积网络的权重"（即 NeRV 这种隐式神经表示 INR），再让扩散 Transformer 直接在这组高斯分布的权重 token 上去噪生成新视频——从而绕开传统视频 tokenizer 的逐帧特征图与跨帧注意力，得到更紧凑、解码更快、且分辨率/时长开销次线性增长的视频生成框架。
+
+**[NewtonGen: Physics-consistent and Controllable Text-to-Video Generation via Neural Newtonian Dynamics](newtongen_physics-consistent_and_controllable_text-to-video_generation_via_neura.md)**
+
+:   NewtonGen 把一个可学习的「神经牛顿动力学（NND）」模块塞进文本生成视频的管线里——先用 Neural ODE 从极少量物理干净数据学会各类牛顿运动的潜在动力学，再把预测出的未来物理状态转成结构化光流去引导视频生成器，从而做到物理一致且参数可控的视频生成。
+
+**[Phantom-Data: Towards a General Subject-Consistent Video Generation Dataset](phantom-data_towards_a_general_subject-consistent_video_generation_dataset.md)**
+
+:   针对主体到视频生成（S2V）里普遍的"copy-paste"问题，本文构造了第一个通用的跨配对（cross-pair）主体一致数据集 Phantom-Data——约 100 万对身份一致样本，通过"S2V 检测 → 上下文多样检索 → 先验引导身份核验"三段式流水线，从 5300 万视频和 30 亿图像里为每个主体找到不同场景下的参考图，从而在保持身份一致的同时大幅提升文本跟随能力和画质。
+
 **[PreciseCache: Precise Feature Caching for Efficient and High-fidelity Video Generation](precisecache_precise_feature_caching_for_efficient_and_high-fidelity_video_gener.md)**
 
 :   提出 PreciseCache——精确检测并跳过视频生成中真正冗余计算的即插即用加速框架，由 LFCache（步级，基于低频差异 LFD 度量）和 BlockCache（块级，基于输入输出差异度量）组成，在 Wan2.1-14B 等主流模型上实现平均 2.6× 加速且无明显质量损失。
@@ -166,18 +310,90 @@ item_total: 26
 
 :   本文提出 QuantSparse 框架，首次将模型量化（quantization）与注意力稀疏化（attention sparsification）协同整合用于视频扩散 Transformer 压缩，通过多尺度显著注意力蒸馏（MSAD）和二阶稀疏注意力重参数化（SSAR）解决两者朴素结合导致的"放大注意力偏移"问题，在 HunyuanVideo-13B 上以 W4A8 + 15% 注意力密度实现 3.68× 存储压缩和 1.88× 推理加速，同时几乎无损保持生成质量。
 
+**[ReactID: Synchronizing Realistic Actions and Identity in Personalized Video Generation](reactid_synchronizing_realistic_actions_and_identity_in_personalized_video_gener.md)**
+
+:   ReactID 通过"高精度数据构建 + 难度感知课程学习 + 时间线结构化条件（含主体感知交叉注意力与时间自适应 RoPE）"三管齐下，在个性化视频生成中同时把主体身份一致性和动作真实性做上去，缓解了二者长期存在的此消彼长。
+
+**[Real-Time Motion-Controllable Autoregressive Video Diffusion](real-time_motion-controllable_autoregressive_video_diffusion.md)**
+
+:   本文提出 AR-Drag——首个用强化学习增强的少步自回归图生视频（I2V）扩散模型，通过 Self-Rollout 保持马尔可夫性、用选择性随机采样压缩超长决策链，再配上基于轨迹的奖励把 GRPO 引入视频生成，在仅 1.3B 参数下实现了 0.44s 首帧延迟、且画质与运动可控性都超过现有双向运动可控模型。
+
+**[Realtime Video Frame Interpolation Using One-Step Diffusion Sampling](realtime_video_frame_interpolation_using_one-step_diffusion_sampling.md)**
+
+:   RDVFI 把视频插帧里"用扩散模型直接画中间帧"改成"用一步扩散只生成几张稀疏潜在关键帧、再由这些关键帧拟合出高阶连续像素轨迹去 warp 输入像素"，从而在 1024×576 上跑到 17 FPS 的实时速度（比 SOTA 快约 44×），同时把大运动场景下的鬼影/形变压到最低。
+
+**[SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer](sana-video_efficient_video_generation_with_block_linear_diffusion_transformer.md)**
+
+:   SANA-Video 用线性注意力替换视频 DiT 里的全注意力把复杂度从 $O(N^2)$ 降到 $O(N)$，又借线性注意力的累加性质设计了「常量显存」的块状自回归 KV cache，让一个 2B 小模型能在 64 张 H100 上花 12 天（仅 MovieGen 1% 成本）训出能生成 720×1280、分钟级长视频的模型，且在 VBench 上与 Wan2.1-14B 持平、推理快 16×。
+
 **[SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion](sigmark_scalable_in-generation_watermark_with_blind_extraction_for_video_diffusi.md)**
 
 :   SIGMark提出首个针对现代视频扩散模型的盲提取生成内水印框架，通过全局帧级伪随机编码(GF-PRC)实现常数级提取开销的盲水印，并设计分段分组排序(SGO)模块增强因果3D VAE下的时序鲁棒性，在HunyuanVideo和Wan-2.2上以512×16位容量达到90%+比特精度。
+
+**[SimpleGVR: A Simple Baseline for Latent-Cascaded Generative Video Super-Resolution](simplegvr_a_simple_baseline_for_latent-cascaded_generative_video_super-resolutio.md)**
+
+:   SimpleGVR 把级联文生视频里的超分（VSR）阶段整体搬进潜空间，用一个"潜空间上采样器"消除冗余的解码/重编码，再用两套贴合 AIGC 特性的退化策略 + 三项训练优化，让一个轻量扩散 VSR 在 AIGC100 上全面超越现有方法，并让"512p + 超分"的级联方案在质量和速度上都打过端到端直出 1080p。
+
+**[Stable Video Infinity：用「误差回收」实现无限长视频生成](stable_video_infinity_infinite-length_video_generation_with_error_recycling.md)**
+
+:   针对长视频自回归生成中「训练假设干净输入、测试却条件于自己生成的含误差帧」这一根本鸿沟，本文提出 Error-Recycling Fine-Tuning：把 DiT 自己犯的误差收集进记忆库、再注回干净输入去模拟退化轨迹，逼模型主动纠错，从而以零额外推理开销把视频从几秒拉到「无限长」，并在一致/创意/条件三类基准上取得 SOTA。
+
+**[SteinsGate: 用路径积分为扩散模型注入因果性以生成长视频](steinsgate_adding_causality_to_diffusions_for_long_video_generation_via_path_int.md)**
+
+:   本文提出 InstructVC 框架与其推理时实例 SteinsGate，用 MLLM 把长提示拆成「动作—时长」序列做细粒度时序控制，再用一个全新的 **Video Path Integral**（视频路径积分）把预训练 TI2V 扩散模型在推理时改造成"历史感知"的自回归续写模型，从而生成动作连贯、过渡自然的多动作长视频。
 
 **[Streaming Autoregressive Video Generation via Diagonal Distillation](streaming_autoregressive_video_generation_via_diagonal_distillation.md)**
 
 :   提出Diagonal Distillation（DiagDistill），通过对角线去噪策略（前段多步、后段少步）和流分布匹配损失，实现流式自回归视频生成的277.3倍加速，达到31 FPS实时生成。
 
+**[Streaming Drag-Oriented Interactive Video Manipulation: Drag Anything, Anytime!](streaming_drag-oriented_interactive_video_manipulation_drag_anything_anytime.md)**
+
+:   本文提出 REVEL 任务——让用户在自回归视频扩散模型流式生成的过程中"随时拖、拖任意物体"，并给出一个免训练方法 DragStream，用"自适应分布自校正"压住拖拽累积导致的隐空间漂移、用"空间-频率选择性优化"压住上文帧的干扰，在不微调模型的前提下实现高质量的流式拖拽式编辑与动画。
+
+**[Syncphony: 用扩散 Transformer 实现音画同步的音频到视频生成](syncphony_synchronized_audio-to-video_generation_with_diffusion_transformers.md)**
+
+:   Syncphony 在预训练 DiT 视频骨干上插入音频交叉注意力，配合「运动感知损失」强化高运动区域的监督、「Audio Sync Guidance」在采样时放大音频影响，生成 380×640、24fps、与音频精确同步的视频，并提出 CycleSync 这一基于视频反推音频的同步度量。
+
 **[Target-Aware Video Diffusion Models](target-aware_video_diffusion_models.md)**
 
 :   提出 target-aware 视频扩散模型，仅需一张输入图像和目标物体的分割 mask，即可生成演员与指定目标交互的视频；核心创新是引入 [TGT] 特殊 token 并设计选择性交叉注意力损失，使模型关注目标的空间位置，在目标对齐和视频质量上全面超越基线。
 
+**[ToonComposer: Streamlining Cartoon Production with Generative Post-Keyframing](tooncomposer_streamlining_cartoon_production_with_generative_post-keyframing.md)**
+
+:   ToonComposer 把传统卡通制作里割裂的「补间（inbetweening）」和「上色（colorization）」两个阶段合并成一个统一的生成式「后关键帧（post-keyframing）」阶段，只需一张彩色参考帧 + 极少量关键帧草图，就能用一个 DiT 视频基础模型直接生成完整的高质量卡通视频，质量、运动一致性和效率都超过此前的两阶段方法。
+
+**[Towards One-Step Causal Video Generation via Adversarial Self-Distillation](towards_one-step_causal_video_generation_via_adversarial_self-distillation.md)**
+
+:   针对因果视频扩散模型在 1~2 步极少步生成时质量崩坏的问题，本文在 DMD 蒸馏框架上提出对抗自蒸馏（ASD）——用判别器把学生模型的 $n$ 步输出和 $n{+}1$ 步输出在分布上对齐，再配合推理期的首帧增强（FFE）策略，单个蒸馏模型就能在 1/2/4 步多种设置下都保持高质量，在 VBench 上超越 SOTA。
+
+**[TPDiff: Temporal Pyramid Video Diffusion Model](tpdiff_temporal_pyramid_video_diffusion_model.md)**
+
+:   TPDiff 把视频扩散的去噪过程切成多个阶段、让帧率沿去噪逐级翻倍（只有最后一阶段跑满帧率），再配一套统一支持 DDIM 与 flow matching 的「阶段式扩散」训练法，在不掉生成质量的前提下把训练成本砍掉约一半、推理提速 1.5×。
+
 **[TTOM: Test-Time Optimization and Memorization for Compositional Video Generation](ttom_test-time_optimization_and_memorization_for_compositional_video_generation.md)**
 
 :   提出 TTOM 框架，在推理时通过优化新增参数将视频生成模型的注意力与 LLM 生成的时空布局对齐，并用参数记忆机制保存历史优化上下文支持复用，在 T2V-CompBench 上相对提升 34%（CogVideoX）和 14%（Wan2.1）。
+
+**[UltraViCo: Breaking Extrapolation Limits in Video Diffusion Transformers](ultravico_breaking_extrapolation_limits_in_video_diffusion_transformers.md)**
+
+:   本文发现视频扩散 Transformer 在超出训练长度生成时出现的"周期性重复"和"通用质量退化"两种失败都源于同一个机制——**注意力分散**（超窗口的新 token 稀释了训练窗口内学到的注意力分布），并据此提出 training-free、即插即用的 UltraViCo：对窗口外 token 的注意力 logits 乘一个常数衰减因子，把外推极限从 2× 推到 4×（4× 下动态度和成像质量分别比前最优高 233% 和 40.5%）。
+
+**[Vid2World: Crafting Video Diffusion Models to Interactive World Models](vid2world_crafting_video_diffusion_models_to_interactive_world_models.md)**
+
+:   本文提出 Vid2World，把一个在互联网规模视频上预训练的全序列、非因果视频扩散模型，通过"因果化改造 + 因果动作引导"两步系统性手术，转成可自回归滚动、可逐帧动作控制的交互式世界模型，在机器人操作、3D 游戏模拟、开放世界导航三个领域都超过了现有迁移方法和专用世界模型。
+
+**[Video-As-Prompt: Unified Semantic Control for Video Generation](video-as-prompt_unified_semantic_control_for_video_generation.md)**
+
+:   本文把"语义可控视频生成"重新表述成**上下文生成（in-context generation）**：直接拿一段带目标语义的参考视频当作"视频提示词"，通过一个即插即用、与冻结骨干并行的 Mixture-of-Transformers 专家来引导生成，配合带时间偏置的 RoPE 消除虚假的像素对齐先验，让**单一模型**统一处理概念/风格/运动/镜头四类语义控制，并对未见语义做零样本迁移，开源方法中拿到 38.7% 的人类偏好率、逼近商用闭源模型。
+
+**[Video-GPT via Next Clip Diffusion](video-gpt_via_next_clip_diffusion.md)**
+
+:   把"视频里的一个片段（clip）"类比为"语言里的一个词"，提出 next clip diffusion 预训练范式——片段内部用扩散并行去噪、片段之间用自回归条件，从而让一个朴素 Transformer 在 7000 万条无标注视频上自监督预训练，在 Physics-IQ 物理世界建模基准上以 34.97 大幅超过 Kling（23.64）、Wan（20.89），并能迁移到 6 个下游视频生成与理解任务。
+
+**[VideoPhy-2: A Challenging Action-Centric Physical Commonsense Evaluation in Video Generation](videophy-2_a_challenging_action-centric_physical_commonsense_evaluation_in_video.md)**
+
+:   VideoPhy-2 用 197 个真实世界动作派生出 3940 条多事件 prompt，让现代文生视频模型生成视频后由人类沿「语义遵从 / 物理常识 / 物理规则」三轴打分，揭示即便最强的 Wan2.2-27B-A14B 在 hard 子集上 joint 分也只有 47.7%，并训练了一个 7B 的 VideoPhy-2-AutoEval 自动评估器把人评成本压下来。
+
+**[VMoBA: Mixture-of-Block Attention for Video Diffusion Models](vmoba_mixture-of-block_attention_for_video_diffusion_models.md)**
+
+:   针对视频扩散模型（VDM）全注意力的二次复杂度瓶颈，VMoBA 把面向文本的 MoBA 块注意力改造成贴合视频时空特性的稀疏注意力——用「层间循环 1D-2D-3D 分块 + 全局块选择 + 阈值动态块数」三招，在 93×576×1024 长序列训练上做到 2.92× FLOPs、1.48× 训练加速，同时生成质量与全注意力相当甚至更好。

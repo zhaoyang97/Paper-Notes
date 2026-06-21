@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] A2SG: Adaptive and Asymmetric Surrogate Gradients for Training Deep Spiking Neural Networks
+description: >-
+  [ICML2026][优化/理论][脉冲神经网络] 针对深度脉冲神经网络（SNN）用替代梯度训练时「损失景观尖锐 + 跨时间步梯度互相打架」两大顽疾，这篇论文提出统一框架 A2SG，一方面用自适应有效窗宽（按空间梯度变异 SGV 和时序梯度一致性 TGC 自动调 $\beta$）压低梯度变异、对齐时间步方向，另一方面把对称替代函数改成「按膜电位高低分配梯度」的非对称形状，并从理论上证明非对称比对称变异更低、局部梯度变异越小损失景观越平坦，从而在 CNN 和 Transformer 型 SNN 上一致提升精度与能效。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "脉冲神经网络"
+  - "替代梯度"
+  - "平坦极小"
+  - "损失曲率"
+  - "时序梯度一致性"
+---
+
 # A2SG: Adaptive and Asymmetric Surrogate Gradients for Training Deep Spiking Neural Networks
 
 **会议**: ICML2026  

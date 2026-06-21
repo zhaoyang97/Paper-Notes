@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Bounds of Chain-of-Thought Robustness: Reasoning Steps, Embed Norms, and Beyond
+description: >-
+  [ICLR2026][学习理论][思维链鲁棒性] 本文给思维链（CoT）对输入扰动的鲁棒性建立了第一套理论上界：在 Lipschitz 连续假设下证明"推理步数越多、输出波动上界越小，但无论推到无穷步都消不掉扰动"，再以线性自注意力（LSA）为案例证明"可容忍的输入扰动半径与输入嵌入、隐状态向量的范数成负相关"，并在 4 个主流 LLM × 3 个推理数据集上得到与理论一致的实验曲线。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "LLM推理"
+  - "思维链鲁棒性"
+  - "输入扰动"
+  - "Lipschitz 连续"
+  - "线性自注意力"
+  - "嵌入范数"
+---
+
 # Bounds of Chain-of-Thought Robustness: Reasoning Steps, Embed Norms, and Beyond
 
 **会议**: ICLR2026  
-**OpenReview**: [cusZbViSLd](https://openreview.net/forum?id=cusZbViSLd)  
+**OpenReview**: [https://openreview.net/forum?id=cusZbViSLd](https://openreview.net/forum?id=cusZbViSLd)  
 **代码**: 待确认  
 **领域**: 学习理论 / LLM推理  
 **关键词**: 思维链鲁棒性, 输入扰动, Lipschitz 连续, 线性自注意力, 嵌入范数
@@ -142,11 +158,11 @@ $$\frac{\partial F}{\partial A}=-\frac{R\tau^2}{2(\eta+\tau R_h^2)\sqrt{\eta^2+\
 
 ## 相关论文
 
-- [\[ICML 2026\] Multi-task Linear Regression without Eigenvalue Lower Bounds: Adaptivity, Robustness and Safety](../../ICML2026/learning_theory/multi-task_linear_regression_without_eigenvalue_lower_bounds_adaptivity_robustne.md)
+- [\[ICLR 2026\] Poisson Midpoint Method for Log-Concave Sampling: Beyond the Strong Error Lower Bounds](poisson_midpoint_method_for_log_concave_sampling_beyond_the_strong_error_lower_b.md)
+- [\[ICLR 2026\] Computing Equilibrium beyond Unilateral Deviation](computing_equilibrium_beyond_unilateral_deviation.md)
+- [\[ICLR 2026\] Reshaping Reasoning in LLMs: A Theoretical Analysis of RL Training Dynamics through Pattern Selection](reshaping_reasoning_in_llms_a_theoretical_analysis_of_rl_training_dynamics_throu.md)
 - [\[ICLR 2026\] Better Bounds for the Distributed Experts Problem](better_bounds_for_the_distributed_experts_problem.md)
-- [\[ICLR 2026\] The Price of Robustness: Stable Classifiers Need Overparameterization](the_price_of_robustness_stable_classifiers_need_overparameterization.md)
-- [\[ICML 2026\] Towards Optimal Robustness in Learning-Augmented Paging](../../ICML2026/learning_theory/towards_optimal_robustness_in_learning-augmented_paging.md)
-- [\[ICML 2026\] Robustness of Mixtures of Experts to Feature Noise](../../ICML2026/learning_theory/robustness_of_mixtures_of_experts_to_feature_noise.md)
+- [\[ICML 2026\] Multi-task Linear Regression without Eigenvalue Lower Bounds: Adaptivity, Robustness and Safety](../../ICML2026/learning_theory/multi-task_linear_regression_without_eigenvalue_lower_bounds_adaptivity_robustne.md)
 
 </div>
 

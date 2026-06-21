@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Interpretable Equivariant Marks for Contrastive Cosmological Inference
+description: >-
+  [ICML 2026][物理/科学计算][标记统计量] 这篇论文把宇宙学里"标记统计量（marked statistics）"中手工设计的标记函数，换成一个**可解释、等变约束的神经标记**——用三个局部 SO(3) 等变的球谐滤波器抽出旋转不变的形态学描述子，再用对比学习（InfoNCE + 残差化）把标记后的两点谱和宇宙学参数对齐，在 Quijote N-body 模拟上把 $\sigma_8$ 的边缘约束收紧 $2.9\times$、$\Omega_m$ 收紧 $1.8\times$，并打破经典的 $\Omega_m$–$\sigma_8$ 简并。
+tags:
+  - "ICML 2026"
+  - "物理/科学计算"
+  - "标记统计量"
+  - "球谐等变滤波"
+  - "对比学习"
+  - "Fisher 信息"
+  - "可解释 summary"
+---
+
 # Interpretable Equivariant Marks for Contrastive Cosmological Inference
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Better Bounds for the Distributed Experts Problem
+description: >-
+  [ICLR2026][学习理论][分布式专家问题] 本文研究"专家分布在多台服务器上、损失按 $\ell_p$ 范数跨服务器聚合"的分布式在线预测问题，提出一套基于指数随机变量嵌入 + 几何均值方差缩减的协议，首次在 coordinator（消息传递）模型里处理一般 $\ell_p$ 损失，在目标 regret $R$ 下把通信量做到 $\left(\tfrac{n+s}{R^2}\right)\cdot\max(s^{1-2/p},1)\cdot\mathrm{polylog}(nsT)$ 比特，优于此前只能处理 $\ell_1$ 的工作。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "在线学习"
+  - "通信复杂度"
+  - "分布式专家问题"
+  - "ℓp 损失"
+  - "几何均值估计"
+---
+
 # Better Bounds for the Distributed Experts Problem
 
 **会议**: ICLR2026  
-**OpenReview**: [6oiqYdYFn8](https://openreview.net/forum?id=6oiqYdYFn8)  
+**OpenReview**: [https://openreview.net/forum?id=6oiqYdYFn8](https://openreview.net/forum?id=6oiqYdYFn8)  
 **代码**: https://github.com/samsonzhou/distributed-experts  
 **领域**: 学习理论 / 在线学习 / 通信复杂度  
 **关键词**: 分布式专家问题, 在线学习, 通信复杂度, ℓp 损失, 几何均值估计
@@ -114,11 +129,11 @@ Lemma 3.2 证明：存在常数 $C_{3.2}\in(0,2B]$ 使 $\mathbb{E}[Z]=C_{3.2}$ �
 
 ## 相关论文
 
-- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
-- [\[ICLR 2026\] Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion](better_learning-augmented_spanning_tree_algorithms_via_metric_forest_completion.md)
+- [\[ICLR 2026\] On Coreset for LASSO Regression Problem with Sensitivity Sampling](on_coreset_for_lasso_regression_problem_with_sensitivity_sampling.md)
 - [\[ICML 2026\] Robustness of Mixtures of Experts to Feature Noise](../../ICML2026/learning_theory/robustness_of_mixtures_of_experts_to_feature_noise.md)
-- [\[ICML 2026\] Geometric and Stochastic Analysis of Discontinuities in Sparse Mixture-of-Experts](../../ICML2026/learning_theory/geometric_and_stochastic_analysis_of_discontinuities_in_sparse_mixture-of-expert.md)
-- [\[ICLR 2026\] Bounds of Chain-of-Thought Robustness: Reasoning Steps, Embed Norms, and Beyond](bounds_of_chain-of-thought_robustness_reasoning_steps_embed_norms_and_beyond.md)
+- [\[ICLR 2026\] Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion](better_learning-augmented_spanning_tree_algorithms_via_metric_forest_completion.md)
+- [\[ICLR 2026\] Revisiting Tree-Sliced Wasserstein Distance through the Lens of the Fermat–Weber Problem](revisiting_tree-sliced_wasserstein_distance_through_the_lens_of_the_fermatweber_.md)
+- [\[ICLR 2026\] Variance-Dependent Regret Lower Bounds for Contextual Bandits](variance-dependent_regret_lower_bounds_for_contextual_bandits.md)
 
 </div>
 

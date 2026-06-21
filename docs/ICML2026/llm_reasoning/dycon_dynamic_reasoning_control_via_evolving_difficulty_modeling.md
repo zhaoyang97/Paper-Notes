@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling
+description: >-
+  [ICML2026][Reasoning][过度思考] DyCon 发现"题目难度"在推理过程中是动态变化的、且被线性编码在大推理模型每一步的隐藏表征里，于是用一个轻量线性回归器在线估计每步难度，再据此实时调整"反思类 token"的 logit，让简单题早点收敛、难题继续探索，从而在不掉精度的前提下大幅压缩冗余推理 token——整个过程免训练、不改模型参数。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "过度思考"
+  - "难度建模"
+  - "步级表征"
+  - "logit 干预"
+  - "免训练"
+---
+
 # DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling
 
 **会议**: ICML2026  

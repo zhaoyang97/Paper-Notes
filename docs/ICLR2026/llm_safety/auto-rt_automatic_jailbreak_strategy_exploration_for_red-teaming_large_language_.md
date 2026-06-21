@@ -16,7 +16,7 @@ tags:
 # Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models
 
 **会议**: ICLR2026  
-**OpenReview**: [Pa6ak2B9jJ](https://openreview.net/forum?id=Pa6ak2B9jJ)  
+**OpenReview**: [https://openreview.net/forum?id=Pa6ak2B9jJ](https://openreview.net/forum?id=Pa6ak2B9jJ)  
 **代码**: https://github.com/icip-cas/Auto-RT  
 **领域**: LLM 安全 / 红队测试 / 强化学习  
 **关键词**: 自动红队、越狱、强化学习、奖励塑形、安全评估
@@ -151,11 +151,11 @@ Auto-RT 在几乎所有模型上都拿到最高 $\text{ASR}_{tst}$，连以强�
 
 ## 相关论文
 
-- [\[ACL 2026\] STAR-Teaming: A Strategy-Response Multiplex Network Approach to Automated LLM Red Teaming](../../ACL2026/llm_safety/star-teaming_a_strategy-response_multiplex_network_approach_to_automated_llm_red.md)
-- [\[ICLR 2026\] Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming Attacks (DialTree)](tree-based_dialogue_reinforced_policy_optimization_for_red-teaming_attacks.md)
+- [\[ICLR 2026\] STAR: Strategy-driven Automatic Jailbreak Red-teaming for Large Language Model](star_strategy-driven_automatic_jailbreak_red-teaming_for_large_language_model.md)
+- [\[ICLR 2026\] RedCodeAgent: Automatic Red-teaming Agent against Diverse Code Agents](redcodeagent_automatic_red-teaming_agent_against_diverse_code_agents.md)
 - [\[ICLR 2026\] Automatic Dialectic Jailbreak: A Framework for Generating Effective Jailbreak Strategies](automatic_dialectic_jailbreak_a_framework_for_generating_effective_jailbreak_str.md)
-- [\[ICLR 2026\] ARMS: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks](arms_adaptive_red-teaming_agent_against_multimodal_models_with_plug-and-play_att.md)
-- [\[ACL 2026\] Red-Bandit: Test-Time Adaptation for LLM Red-Teaming via Bandit-Guided LoRA Experts](../../ACL2026/llm_safety/red-bandit_test-time_adaptation_for_llm_red-teaming_via_bandit-guided_lora_exper.md)
+- [\[ICLR 2026\] Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming Attacks (DialTree)](tree-based_dialogue_reinforced_policy_optimization_for_red-teaming_attacks.md)
+- [\[ICLR 2026\] Align to Misalign: Automatic LLM Jailbreak with Meta-Optimized LLM Judges](align_to_misalign_automatic_llm_jailbreak_with_meta-optimized_llm_judges.md)
 
 </div>
 

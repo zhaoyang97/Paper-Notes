@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Persona-Pruner: Sculpting Lightweight Models for Role-Playing
+description: >-
+  [ICML 2026][模型压缩][结构化剪枝] 不给每个角色都配一个完整通用大模型，而是只用一段文字 persona 描述，先合成 persona 专属校准数据、再在 FFN 中间维度上学一个二值掩码，把"承载这个角色身份"的子网络从大模型里"雕刻"出来——50% 稀疏下角色扮演评分相比最强剪枝基线最多回收 93.8% 的性能损失，同时不伤通用能力。
+tags:
+  - "ICML 2026"
+  - "模型压缩"
+  - "结构化剪枝"
+  - "角色扮演"
+  - "FFN 子网络"
+  - "可微掩码"
+  - "数据合成"
+---
+
 # Persona-Pruner: Sculpting Lightweight Models for Role-Playing
 
 **会议**: ICML 2026  

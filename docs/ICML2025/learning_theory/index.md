@@ -52,7 +52,7 @@ item_total: 16
 
 **🧪 ICML2025** · **16** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🧪 ICML2026 (45)](../../ICML2026/learning_theory/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/learning_theory/index.md) · [🤖 AAAI2026 (3)](../../AAAI2026/learning_theory/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/learning_theory/index.md)
+📌 **同领域跨会议浏览：** [🔬 ICLR2026 (250)](../../ICLR2026/learning_theory/index.md) · [🧪 ICML2026 (45)](../../ICML2026/learning_theory/index.md) · [🤖 AAAI2026 (3)](../../AAAI2026/learning_theory/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/learning_theory/index.md)
 
 **[Avoiding Catastrophe in Online Learning by Asking for Help](avoiding_catastrophe_in_online_learning_by_asking_for_help.md)**
 

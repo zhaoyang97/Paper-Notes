@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CitySeeker: How Do VLMs Explore Embodied Urban Navigation with Implicit Human Needs?
+description: >-
+  [ICLR2026][多模态VLM][具身城市导航] CitySeeker 构造了首个面向"隐式人类需求"的具身城市导航 benchmark（8 城、6,440 条真实街景轨迹、7 类需求），用统一的 ReAct 式导航框架评测 27 个 VLM，发现最强模型任务完成率也只有 21.1%，远落后于人类，并提出回溯 / 空间认知增强 / 记忆检索（BCR）三类受人类认知启发的策略把性能推到 26.9%。
+tags:
+  - "ICLR2026"
+  - "多模态VLM"
+  - "具身城市导航"
+  - "隐式需求"
+  - "空间推理"
+  - "VLM 评测"
+  - "认知地图"
+---
+
 # CitySeeker: How Do VLMs Explore Embodied Urban Navigation with Implicit Human Needs?
 
 **会议**: ICLR2026  
-**OpenReview**: [hzf23XSDcs](https://openreview.net/forum?id=hzf23XSDcs)  
+**OpenReview**: [https://openreview.net/forum?id=hzf23XSDcs](https://openreview.net/forum?id=hzf23XSDcs)  
 **代码**: 待确认  
 **领域**: 多模态VLM / 视觉语言导航 / Benchmark  
 **关键词**: 具身城市导航, 隐式需求, 空间推理, VLM 评测, 认知地图
@@ -73,6 +88,7 @@ flowchart TD
 最强模型 TCP 仅 21.1%、TCE 仅 2.6%，远低于人类的 30.1% / 5.7%，且**部分模型还跑不过随机基线**。模型越大略好（更强的内部表征），但提升很有限；Qwen2.5-VL（空间感知 SFT + 高分辨处理）和 InternVL3（原生多模态预训练 + MPO）等开源模型反而有竞争力。人类在需城市常识的任务上优势最明显（Transit Hub：人类 34.9% vs 最佳 VLM 10.7%）。
 
 ### BCR 策略实验
+
 | 策略 | 机制 | 代表效果（TCP） |
 |------|------|------|
 | Baseline | 无状态 ReAct | Qwen2.5-VL-32B 19.9 |
@@ -112,3 +128,19 @@ R 系（记忆）整体最强，能同时提升任务完成度与路径效率；
 - 实验充分度: ⭐⭐⭐⭐ 27 个 VLM + 人类 / 随机 / 前进基线 + 多粒度指标 + 跨城市 / 跨语言分析，很扎实；BCR 仅在 650 子集验证略有保留
 - 写作质量: ⭐⭐⭐⭐ 动机—诊断—对症的逻辑清晰，图表丰富；任务类别与指标定义稍密集
 - 价值: ⭐⭐⭐⭐⭐ 直指城市 last-mile 导航的真实痛点，benchmark + 可迁移的合规数据策略 + BCR 路线图对具身 VLM 社区价值高
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Explore How to Inject Beneficial Noise in MLLMs](../../AAAI2026/multimodal_vlm/explore_how_to_inject_beneficial_noise_in_mllms.md)
+- [\[ACL 2026\] How Do LLMs and VLMs Understand Viewpoint Rotation Without Vision? An Interpretability Study](../../ACL2026/multimodal_vlm/how_do_llms_and_vlms_understand_viewpoint_rotation_without_vision_an_interpretab.md)
+- [\[ICLR 2026\] How Do Medical MLLMs Fail? A Study on Visual Grounding in Medical Images](how_do_medical_mllms_fail_a_study_on_visual_grounding_in_medical_images.md)
+- [\[CVPR 2026\] Explore with Long-term Memory: A Benchmark and Multimodal LLM-based Reinforcement Learning Framework for Embodied Exploration](../../CVPR2026/multimodal_vlm/explore_with_long-term_memory_a_benchmark_and_multimodal_llm-based_reinforcement.md)
+- [\[NeurIPS 2025\] FlySearch: Exploring how vision-language models explore](../../NeurIPS2025/multimodal_vlm/flysearch_exploring_how_vision-language_models_explore.md)
+
+</div>
+
+<!-- RELATED:END -->

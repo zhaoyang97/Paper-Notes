@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MLUBench: A Benchmark for Lifelong Unlearning Evaluation in MLLMs
+description: >-
+  [ICML2026][AI安全][机器遗忘] 针对"多模态大模型（MLLM）需要按时间顺序不断删除特定数据"这一真实场景，本文构建了大规模终身遗忘基准 MLUBench（127 个真实实体、5105 张图、15414 个 VQA 对），系统揭示出现有遗忘方法会随任务累积而崩塌、且崩塌的根因是破坏了多模态对齐，并提出用"一个遗忘任务一套可切换 LoRA 专家 + 门控路由"的 LUMoE 方法，把遗忘修改与稳定主干隔离开，从而在长序列遗忘下同时守住遗忘质量与模型可用性。
+tags:
+  - "ICML2026"
+  - "AI安全"
+  - "机器遗忘"
+  - "终身遗忘"
+  - "多模态对齐"
+  - "MoE"
+  - "LoRA"
+---
+
 # MLUBench: A Benchmark for Lifelong Unlearning Evaluation in MLLMs
 
 **会议**: ICML2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] RoCA: Robust Cross-Domain End-to-End Autonomous Driving
+description: >-
+  [ICML 2026][自动驾驶][端到端自动驾驶] RoCA 给端到端自动驾驶模型挂一个基于高斯过程的即插即用模块——学一组覆盖多样驾驶场景的基础 token 及其对应轨迹，对新场景按相似度概率推断未来轨迹，既在源域训练时用 GP 的不确定性正则化提升泛化，又在新域上用伪标签和主动学习高效适应，无需 LLM、不增加推理开销。
+tags:
+  - "ICML 2026"
+  - "自动驾驶"
+  - "端到端自动驾驶"
+  - "高斯过程"
+  - "跨域适应"
+  - "不确定性"
+  - "长尾鲁棒性"
+---
+
 # RoCA: Robust Cross-Domain End-to-End Autonomous Driving
 
 **会议**: ICML 2026  

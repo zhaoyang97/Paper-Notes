@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ComplexConstraints and Beyond: Expert Rubrics for RLVR
+description: >-
+  [ACL 2026][LLM对齐][专家评分量表] 这篇论文系统论证了"专家手写的细粒度评分量表（rubric）"既是更靠谱的前沿大模型评测工具，也是数据高效的 RLVR 奖励信号：它先给出构造高质量 rubric 的五条设计原则，配套放出每条 prompt 带 10–40 条原子准则的 ComplexConstraints 数据集，然后实证只用约 1000 条专家样本做 RLVR，就能让 4B 模型指令跟随涨 +15.5 pp、235B 涨 +12.2 pp，且单 epoch 的 agentic 训练能迁移到模型从没训过的 OOD benchmark（BFCL +4.5 / τ²-Bench +7.4 / Toolathlon +…
+tags:
+  - "ACL 2026"
+  - "LLM对齐"
+  - "专家评分量表"
+  - "RLVR"
+  - "指令跟随"
+  - "可验证奖励"
+  - "Agent评测"
+---
+
 # ComplexConstraints and Beyond: Expert Rubrics for RLVR
 
 **会议**: ACL 2026  

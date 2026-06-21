@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Finding Most Influential Sets
+description: >-
+  [ICML2026][因果推理][最具影响力集合（MIS）] 要找"删掉后最大改变某个估计量的 size-$k$ 子集"（最具影响力集合 MIS）本来需要在 $\binom{n}{k}$ 个子集里穷举、根本算不动；本文证明只要留集删除效应能写成**线性分式**形式，MIS 选择就坍缩成一串"选 top-$k$"的子问题，用 Dinkelbach 方法做到每轮 $\mathcal{O}(n)$、有限步终止，并在偏线性模型里给出从"固定输入精确最优"到"统计意义上恢复 oracle 集合"的完整理论保证。
+tags:
+  - "ICML2026"
+  - "因果推理"
+  - "最具影响力集合（MIS）"
+  - "留集删除"
+  - "线性分式优化"
+  - "Dinkelbach 方法"
+  - "偏线性模型"
+  - "Neyman 正交"
+---
+
 # Finding Most Influential Sets
 
 **会议**: ICML2026  

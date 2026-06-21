@@ -16,7 +16,7 @@ tags:
 # Latent Fourier Transform
 
 **会议**: ICLR 2026 Oral  
-**OpenReview**: [ogMxCjdCCq](https://openreview.net/forum?id=ogMxCjdCCq)  
+**OpenReview**: [https://openreview.net/forum?id=ogMxCjdCCq](https://openreview.net/forum?id=ogMxCjdCCq)  
 **代码**: 有  
 **领域**: 其他  
 **关键词**: diffusion autoencoder, Fourier transform, music generation, latent frequency, timescale control, controllable generation
@@ -135,10 +135,10 @@ $$\mathcal{L} = \mathbb{E}_{\epsilon, t}\big[\|\epsilon - \epsilon_\theta(\mathb
 ## 相关论文
 
 - [\[NeurIPS 2025\] Deep Legendre Transform](../../NeurIPS2025/others/deep_legendre_transform.md)
-- [\[ICLR 2026\] FastLSQ: Solving PDEs in One Shot via Fourier Features with Exact Analytical Derivatives](fastlsq_solving_pdes_in_one_shot_via_fourier_features_with_exact_analytical_deri.md)
 - [\[ICLR 2026\] LPWM: Latent Particle World Models for Object-Centric Stochastic Dynamics](latent_particle_world_models_self-supervised_object-centric_stochastic_dynamics_.md)
 - [\[CVPR 2025\] Integral Fast Fourier Color Constancy](../../CVPR2025/others/integral_fast_fourier_color_constancy.md)
-- [\[ICLR 2026\] Latent Equivariant Operators for Robust Object Recognition: Promises and Challenges](latent_equivariant_operators_for_robust_object_recognition_promises_and_challeng.md)
+- [\[ICLR 2026\] Out of the Shadows: Exploring a Latent Space for Neural Network Verification](out_of_the_shadows_exploring_a_latent_space_for_neural_network_verification.md)
+- [\[AAAI 2026\] Formal Abductive Latent Explanations for Prototype-Based Networks](../../AAAI2026/others/formal_abductive_latent_explanations_for_prototype-based_networks.md)
 
 </div>
 

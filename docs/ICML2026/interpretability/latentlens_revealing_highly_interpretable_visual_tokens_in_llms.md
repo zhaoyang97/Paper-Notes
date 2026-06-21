@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] LatentLens: Revealing Highly Interpretable Visual Tokens in LLMs
+description: >-
+  [ICML 2026][可解释性][视觉 token] 本文提出 LatentLens——一种无需训练的可解释性方法，用大语料库的**上下文化文本 token 表示**作为参照、对 VLM 中每层视觉 token 做最近邻检索并返回句子级描述，证明此前常用的 LogitLens/EmbeddingLens 严重低估了视觉 token 的可解释性（平均 68% vs 24%/32% 可解释），并揭示出"中层跃迁"现象。
+tags:
+  - "ICML 2026"
+  - "可解释性"
+  - "视觉 token"
+  - "VLM"
+  - "上下文化表示"
+  - "最近邻检索"
+---
+
 # LatentLens: Revealing Highly Interpretable Visual Tokens in LLMs
 
 **会议**: ICML 2026  

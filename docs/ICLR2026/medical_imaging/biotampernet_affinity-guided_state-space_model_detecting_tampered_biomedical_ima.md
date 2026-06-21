@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] BioTamperNet: Affinity-Guided State-Space Model Detecting Tampered Biomedical Images
+description: >-
+  [ICLR2026][医学图像][生物医学图像取证] BioTamperNet 用状态空间模型（SSM）近似出的"亲和引导注意力"搭起一个孪生网络，把生物医学论文里被篡改的重复区域（源区域和被复制的目标区域）一起定位出来，在 BioFors 真实撤稿论文数据集上把 MCC 从此前最好的 0.43 左右拉到 0.70，且只用 36.7M 参数、29.6 GFLOPs。
+tags:
+  - "ICLR2026"
+  - "医学图像"
+  - "生物医学图像取证"
+  - "重复区域检测"
+  - "状态空间模型"
+  - "亲和引导注意力"
+  - "孪生网络"
+---
+
 # BioTamperNet: Affinity-Guided State-Space Model Detecting Tampered Biomedical Images
 
 **会议**: ICLR2026  
-**OpenReview**: [TB0Pdvxpm8](https://openreview.net/forum?id=TB0Pdvxpm8)  
+**OpenReview**: [https://openreview.net/forum?id=TB0Pdvxpm8](https://openreview.net/forum?id=TB0Pdvxpm8)  
 **代码**: https://github.com/SoumyaroopNandi/BioTamperNet  
 **领域**: 医学图像  
 **关键词**: 生物医学图像取证, 重复区域检测, 状态空间模型, 亲和引导注意力, 孪生网络
@@ -151,10 +166,10 @@ EDD 上各模态 MCC（部分）：
 ## 相关论文
 
 - [\[CVPR 2026\] GeoSemba: Reconstructing State Space Model for Cross Paradigm Representation in Medical Image Segmentation](../../CVPR2026/medical_imaging/geosemba_reconstructing_state_space_model_for_cross_paradigm_representation_in_m.md)
+- [\[ICLR 2026\] Detecting Invariant Manifolds in ReLU-Based RNNs](detecting_invariant_manifolds_in_relu-based_rnns.md)
 - [\[NeurIPS 2025\] DyG-Mamba: Continuous State Space Modeling on Dynamic Graphs](../../NeurIPS2025/medical_imaging/dyg-mamba_continuous_state_space_modeling_on_dynamic_graphs.md)
 - [\[NeurIPS 2025\] Generalizable, Real-Time Neural Decoding with Hybrid State-Space Models](../../NeurIPS2025/medical_imaging/generalizable_real-time_neural_decoding_with_hybrid_state-space_models.md)
-- [\[CVPR 2026\] MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images](../../CVPR2026/medical_imaging/medmo_grounding_and_understanding_multimodal_large_language_model_for_medical_im.md)
-- [\[NeurIPS 2025\] GeoDynamics: A Geometric State-Space Neural Network for Understanding Brain Dynamics on Riemannian Manifolds](../../NeurIPS2025/medical_imaging/geodynamics_a_geometric_state-space_neural_network_for_understanding_brain_dynam.md)
+- [\[ICLR 2026\] Characterizing Human Semantic Navigation in Concept Production as Trajectories in Embedding Space](characterizing_human_semantic_navigation_in_concept_production_as_trajectories_i.md)
 
 </div>
 

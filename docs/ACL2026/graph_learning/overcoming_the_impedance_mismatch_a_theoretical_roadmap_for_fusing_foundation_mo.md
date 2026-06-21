@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Overcoming the Impedance Mismatch: A Theoretical Roadmap for Fusing Foundation Models and Knowledge Graphs
+description: >-
+  [ACL2026][图学习][阻抗失配] 这是一篇纯理论的立场论文：作者把"基础模型（连续概率空间）与知识图谱（离散确定结构）难以真正融合"这一现象形式化为 **Impedance Mismatch（阻抗失配）**，用度量嵌入理论证明了从词法注入到注意力级整合的三类主流方案各自的数学失败上界，并给出一条"涌现—注入—编辑"的知识全生命周期理论路线图。
+tags:
+  - "ACL2026"
+  - "图学习"
+  - "阻抗失配"
+  - "神经符号融合"
+  - "知识图谱"
+  - "多跳推理"
+  - "向量符号架构"
+---
+
 # Overcoming the Impedance Mismatch: A Theoretical Roadmap for Fusing Foundation Models and Knowledge Graphs
 
 **会议**: ACL2026  

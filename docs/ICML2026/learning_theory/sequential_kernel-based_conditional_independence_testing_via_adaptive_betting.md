@@ -1,3 +1,19 @@
+---
+title: >-
+  [论文解读] Sequential Kernel-based Conditional Independence Testing via Adaptive Betting
+description: >-
+  [ICML 2026][学习理论][条件独立性检验] SKCI 提出一个序贯（可随时停止）的条件独立性检验：它把"投注式检验（testing-by-betting）"用在一个**自归一化的核条件独立统计量**上，再配一套"截断 + 移位"的高斯近似校准，使得即便 Model-X 假设里的条件分布 $P_{A\mid C}$ 必须在线估计（而非精确已知）、估计有误差时，Type I error 也只轻微膨胀、同时保持高检验功效——在高维合成基准和真实公平性审计任务上都优于现有序贯 Model-X 方法。
+tags:
+  - "ICML 2026"
+  - "学习理论"
+  - "序贯假设检验"
+  - "条件独立性检验"
+  - "testing-by-betting"
+  - "anytime-valid"
+  - "核方法"
+  - "Model-X"
+---
+
 # Sequential Kernel-based Conditional Independence Testing via Adaptive Betting
 
 **会议**: ICML 2026  

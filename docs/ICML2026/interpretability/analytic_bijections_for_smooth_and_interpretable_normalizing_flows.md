@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Analytic Bijections for Smooth and Interpretable Normalizing Flows
+description: >-
+  [ICML2026][可解释性][归一化流] 本文构造了三族"全局光滑（$C^\infty$）、定义在整个 $\mathbb{R}$ 上、且有闭式解析逆"的标量双射，既能当 coupling flow 里 spline/affine 的即插替换，又催生出一种直接参数化、变换半径而保角方向的**径向流（radial flow）**——后者训练极稳、几何可解释，在有径向结构的目标上能用比 coupling flow 少三个数量级的参数达到相当质量。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "归一化流"
+  - "解析双射"
+  - "闭式可逆"
+  - "径向流"
+  - "格点场论"
+---
+
 # Analytic Bijections for Smooth and Interpretable Normalizing Flows
 
 **会议**: ICML2026  

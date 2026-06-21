@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks
+description: >-
+  [ICLR2026][医学图像][EEG 基础模型] 作者在 7 个分类任务 + 2 个回归任务、6 种评测协议下对 5 个主流 EEG 基础模型做了带统计检验的系统对照，并提出一个只用掩码自编码（MAE）在 800 万段原始 EEG 上预训练的简单 ViT 基线 ST-EEGFormer，结论是：基础模型只在数据充足的群体级解码里有明显优势，在数据稀缺的个体级场景常常跑不赢紧凑的 CNN 甚至经典非神经网络解码器，线性探测普遍很弱，且看不到清晰的缩放律。
+tags:
+  - "ICLR2026"
+  - "医学图像"
+  - "EEG 基础模型"
+  - "BCI"
+  - "评测基准"
+  - "线性探测"
+  - "缩放律"
+---
+
 # Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks
 
 **会议**: ICLR2026  
-**OpenReview**: [5Xwm8e6vbh](https://openreview.net/forum?id=5Xwm8e6vbh)  
+**OpenReview**: [https://openreview.net/forum?id=5Xwm8e6vbh](https://openreview.net/forum?id=5Xwm8e6vbh)  
 **代码**: https://github.com/LiuyinYang1101/STEEGFormer  
 **领域**: 医学图像 / EEG 脑信号解码 / 基础模型评测  
 **关键词**: EEG 基础模型, BCI, 评测基准, 线性探测, 缩放律
@@ -116,11 +131,11 @@ LOO Zero-Shot 协议下两个回归数据集的表现，揭示"分类→回归"�
 
 ## 相关论文
 
-- [\[AAAI 2026\] Personalization of Large Foundation Models for Health Interventions](../../AAAI2026/medical_imaging/personalization_of_large_foundation_models_for_health_interventions.md)
+- [\[ICLR 2026\] CodeBrain: Bridging Decoupled Tokenizer and Multi-Scale Architecture for EEG Foundation Model](codebrain_bridging_decoupled_tokenizer_and_multi-scale_architecture_for_eeg_foun.md)
+- [\[ICLR 2026\] Bridging Radiology and Pathology Foundation Models via Concept-Based Multimodal Co-Adaptation](bridging_radiology_and_pathology_foundation_models_via_concept-based_multimodal_.md)
 - [\[NeurIPS 2025\] 3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks](../../NeurIPS2025/medical_imaging/3drad_a_comprehensive_3d_radiology_medvqa_dataset_with_multi.md)
+- [\[AAAI 2026\] Personalization of Large Foundation Models for Health Interventions](../../AAAI2026/medical_imaging/personalization_of_large_foundation_models_for_health_interventions.md)
 - [\[ICLR 2026\] Brain-IT: Image Reconstruction from fMRI via Brain-Interaction Transformer](brain-it_image_reconstruction_from_fmri_via_brain-interaction_transformer.md)
-- [\[ICCV 2025\] SciVid: Cross-Domain Evaluation of Video Models in Scientific Applications](../../ICCV2025/medical_imaging/scivid_cross-domain_evaluation_of_video_models_in_scientific_applications.md)
-- [\[NeurIPS 2025\] BrainOmni: A Brain Foundation Model for Unified EEG and MEG Signals](../../NeurIPS2025/medical_imaging/brainomni_a_brain_foundation_model_for_unified_eeg_and_meg_signals.md)
 
 </div>
 

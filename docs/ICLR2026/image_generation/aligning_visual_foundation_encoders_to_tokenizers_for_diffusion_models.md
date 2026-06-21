@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models
+description: >-
+  [ICLR2026][图像生成][视觉 tokenizer] 本文提出 AlignTok——不再从零训练 VAE、也不靠语义正则化"逼"编码器学语义，而是把一个已经富含语义的预训练视觉基础编码器（DINOv2）通过三阶段渐进对齐改造成连续 tokenizer，得到既语义结构良好、又能精确重建的潜空间；在 ImageNet 256×256 上让扩散模型仅 64 epoch 就达到 gFID 1.90，收敛速度约为 VA-VAE 的 5 倍。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "视觉 tokenizer"
+  - "预训练编码器对齐"
+  - "潜空间扩散"
+  - "DINOv2"
+  - "语义保持"
+---
+
 # Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models
 
 **会议**: ICLR2026  
-**OpenReview**: [ajnBafpqmE](https://openreview.net/forum?id=ajnBafpqmE)  
+**OpenReview**: [https://openreview.net/forum?id=ajnBafpqmE](https://openreview.net/forum?id=ajnBafpqmE)  
 **代码**: [aligntok.github.io](https://aligntok.github.io)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 视觉 tokenizer、预训练编码器对齐、潜空间扩散、DINOv2、语义保持
@@ -137,11 +152,11 @@ ImageNet 256×256，80K 步、30 采样步，均不含阶段三，主要对比 S
 
 ## 相关论文
 
-- [\[ICLR 2026\] AlignTok: Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models](aligntok_aligning_visual_foundation_encoders_to_tokenizers_for_diffusion_models.md)
 - [\[CVPR 2026\] VFM-VAE: Vision Foundation Models Can Be Good Tokenizers for Latent Diffusion Models](../../CVPR2026/image_generation/vfm-vae_vision_foundation_models_can_be_good_tokenizers_for_latent_diffusion_mod.md)
-- [\[ICLR 2026\] Asynchronous Denoising Diffusion Models for Aligning Text-to-Image Generation](asynchronous_denoising_diffusion_models_for_aligning_text-to-image_generation.md)
 - [\[ICML 2026\] Compression as Adaptation: Implicit Visual Representation with Diffusion Foundation Models](../../ICML2026/image_generation/compression_as_adaptation_implicit_visual_representation_with_diffusion_foundati.md)
-- [\[ICLR 2026\] PCPO: Proportionate Credit Policy Optimization for Aligning Image Generation Models](pcpo_proportionate_credit_policy_optimization_for_aligning_image_generation_mode.md)
+- [\[ICLR 2026\] Asynchronous Denoising Diffusion Models for Aligning Text-to-Image Generation](asynchronous_denoising_diffusion_models_for_aligning_text-to-image_generation.md)
+- [\[ICLR 2026\] Diffusion Transformers with Representation Autoencoders](diffusion_transformers_with_representation_autoencoders.md)
+- [\[ICCV 2025\] Mind the Gap: Aligning Vision Foundation Models to Image Feature Matching](../../ICCV2025/image_generation/mind_the_gap_aligning_vision_foundation_models_to_image_feature_matching.md)
 
 </div>
 

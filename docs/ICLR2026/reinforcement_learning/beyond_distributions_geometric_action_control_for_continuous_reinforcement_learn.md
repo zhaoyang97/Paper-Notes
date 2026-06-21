@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning
+description: >-
+  [ICLR2026][强化学习][连续控制] 针对高斯策略在有界动作空间里"无界支撑 + tanh 压扁"带来的几何失真，本文提出 GAC（几何动作控制）——把动作生成拆成"单位球面上的方向向量 + 一个可学习的浓度标量"，用球面插值代替概率采样，参数量从 $2d$ 降到 $d+1$、采样复杂度从 $O(dk)$ 降到 $O(d)$，在 6 个 MuJoCo 与 6 个 DMControl 任务上整体追平或超过 SAC（Ant-v4 +37.6%、quadruped-run +112%）。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "连续控制"
+  - "几何动作生成"
+  - "球面策略"
+  - "无分布策略"
+  - "SAC"
+---
+
 # Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [6VqCOnTVXa](https://openreview.net/forum?id=6VqCOnTVXa)  
+**OpenReview**: [https://openreview.net/forum?id=6VqCOnTVXa](https://openreview.net/forum?id=6VqCOnTVXa)  
 **代码**: 待确认  
 **领域**: 强化学习 / 连续控制  
 **关键词**: 连续控制, 几何动作生成, 球面策略, 无分布策略, SAC
@@ -136,11 +151,11 @@ HalfCheetah-v4 上对半径 $r$ 和各组件做消融（5 种子均值）：
 
 ## 相关论文
 
+- [\[ICLR 2026\] Learning Massively Multitask World Models for Continuous Control](learning_massively_multitask_world_models_for_continuous_control.md)
 - [\[ICLR 2026\] WIMLE: Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control](wimle_uncertainty-aware_world_models_with_imle_for_sample-efficient_continuous_c.md)
-- [\[ICML 2026\] DR.Q: Debiased Model-based Representations for Sample-efficient Continuous Control](../../ICML2026/reinforcement_learning/debiased_model-based_representations_for_sample-efficient_continuous_control.md)
 - [\[NeurIPS 2025\] Actor-Free Continuous Control via Structurally Maximizable Q-Functions](../../NeurIPS2025/reinforcement_learning/actorfree_continuous_control_via_structurally_maximizable_qf.md)
-- [\[ICLR 2026\] Continuous-Time Value Iteration for Multi-Agent Reinforcement Learning](continuous-time_value_iteration_for_multi-agent_reinforcement_learning.md)
-- [\[ICLR 2026\] PolicyFlow: Policy Optimization with Continuous Normalizing Flow in Reinforcement Learning](policyflow_policy_optimization_with_continuous_normalizing_flow_in_reinforcement.md)
+- [\[ICML 2026\] DR.Q: Debiased Model-based Representations for Sample-efficient Continuous Control](../../ICML2026/reinforcement_learning/debiased_model-based_representations_for_sample-efficient_continuous_control.md)
+- [\[ICLR 2026\] Recurrent Action Transformer with Memory](recurrent_action_transformer_with_memory.md)
 
 </div>
 

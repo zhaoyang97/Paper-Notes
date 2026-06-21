@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers
+description: >-
+  [ICLR2026][学习理论][minimax 求解器] 这篇论文给"用神经网络对抗式 minimax 求解二次最优传输映射"的一类生成式方法补上了缺失的统计学习理论：证明学到的传输映射与真实 OT 映射之间的泛化误差，可被分解为估计误差 + 逼近误差，且估计误差只由网络函数类的 Rademacher 复杂度控制、逼近误差可通过选合适的网络任意小，从而首次给出 $O(1/\sqrt{N})$ 量级的收敛保证。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "最优传输"
+  - "生成模型"
+  - "minimax 求解器"
+  - "泛化误差"
+  - "Rademacher 复杂度"
+  - "半对偶"
+---
+
 # A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers
 
 **会议**: ICLR2026  
-**OpenReview**: [FJTdyG8jeJ](https://openreview.net/forum?id=FJTdyG8jeJ)  
+**OpenReview**: [https://openreview.net/forum?id=FJTdyG8jeJ](https://openreview.net/forum?id=FJTdyG8jeJ)  
 **代码**: https://github.com/milenagazdieva/StatOT (有)  
 **领域**: 学习理论 / 最优传输 / 生成模型  
 **关键词**: 最优传输, minimax 求解器, 泛化误差, Rademacher 复杂度, 半对偶
@@ -131,11 +147,11 @@ $$\mathbb{E}_{X,Y}\big\|T^*-\widehat T^R\big\|^2_{L^2(p)}\le \varepsilon+O\!\Big
 
 ## 相关论文
 
-- [\[ICLR 2026\] Bandit Learning in Matching Markets Robust to Adversarial Corruptions](bandit_learning_in_matching_markets_robust_to_adversarial_corruptions.md)
-- [\[ICLR 2026\] SEINT: An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation](an_efficient_sep-invariant_transport_metric_driven_by_polar_transport_discrepanc.md)
-- [\[ICML 2025\] Theoretical Performance Guarantees for Partial Domain Adaptation via Partial Optimal Transport](../../ICML2025/learning_theory/theoretical_performance_guarantees_for_partial_domain_adaptation_via_partial_opt.md)
-- [\[ICLR 2026\] A Statistical Theory of Overfitting for Imbalanced Classification](a_statistical_theory_of_overfitting_for_imbalanced_classification.md)
-- [\[ICML 2026\] Towards Optimal Robustness in Learning-Augmented Paging](../../ICML2026/learning_theory/towards_optimal_robustness_in_learning-augmented_paging.md)
+- [\[ICLR 2026\] Slicing Wasserstein over Wasserstein via Functional Optimal Transport](slicing_wasserstein_over_wasserstein_via_functional_optimal_transport.md)
+- [\[ICLR 2026\] Online Conformal Prediction with Adversarial Semi-bandit Feedback via Regret Minimization](online_conformal_prediction_with_adversarial_semi-bandit_feedback_via_regret_min.md)
+- [\[ICLR 2026\] Transformers as Measure-Theoretic Associative Memory: A Statistical Perspective and Minimax Optimality](transformers_as_measure-theoretic_associative_memory_a_statistical_perspective_a.md)
+- [\[ICLR 2026\] Test-Time Verification via Optimal Transport: Coverage, ROC, & Sub-Optimality](test-time_verification_via_optimal_transport_coverage_roc_sub-optimality.md)
+- [\[ICLR 2026\] Feature Compression is the Root Cause of Adversarial Fragility in Neural Networks](feature_compression_is_the_root_cause_of_adversarial_fragility_in_neural_network.md)
 
 </div>
 

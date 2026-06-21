@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Informed Asymmetric Actor-Critic: Leveraging Privileged Signals Beyond Full-State Access
+description: >-
+  [ICML2026][强化学习][非对称 actor-critic] 本文把"非对称 actor-critic"从"critic 必须看到完整环境状态"放宽为"critic 可以看任意状态相关的特权信号"，证明任何这类信号都给出无偏策略梯度，并进一步提出两个判断"哪个特权信号最有用"的信息量检验，实验证明精挑的部分特权信号能在用更少状态信息的前提下追平甚至超过用全状态的非对称基线。
+tags:
+  - "ICML2026"
+  - "强化学习"
+  - "非对称 actor-critic"
+  - "特权信息"
+  - "POMDP"
+  - "无偏策略梯度"
+  - "信息量准则"
+---
+
 # Informed Asymmetric Actor-Critic: Leveraging Privileged Signals Beyond Full-State Access
 
 **会议**: ICML2026  

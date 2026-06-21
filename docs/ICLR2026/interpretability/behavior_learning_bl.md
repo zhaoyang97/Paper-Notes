@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Behavior Learning (BL)
+description: >-
+  [ICLR2026][可解释性][内在可解释性] 受行为科学启发，把"观测结果是某个优化问题的解"这一假设直接做成可学习模块——每个模块是一个可写成符号形式的效用最大化问题（UMP），层级堆叠成复合效用函数并诱导一个 Gibbs 分布来做预测/生成，从而同时拿到强预测力、内在可解释性和（IBL 变体下的）参数可辨识性。
+tags:
+  - "ICLR2026"
+  - "可解释性"
+  - "内在可解释性"
+  - "可辨识性"
+  - "效用最大化"
+  - "逆优化"
+  - "能量模型"
+---
+
 # Behavior Learning (BL)
 
 **会议**: ICLR2026  
-**OpenReview**: [bbAN9PPcI1](https://openreview.net/forum?id=bbAN9PPcI1)  
+**OpenReview**: [https://openreview.net/forum?id=bbAN9PPcI1](https://openreview.net/forum?id=bbAN9PPcI1)  
 **代码**: https://github.com/MoonYLiang/Behavior-Learning （`pip install blnetwork`）  
 **领域**: 可解释机器学习  
 **关键词**: 内在可解释性, 可辨识性, 效用最大化, 逆优化, 能量模型
@@ -131,11 +146,11 @@ BL 解决了"可解释+高性能"，但还没解决"解释唯一"。IBL 的做�
 
 ## 相关论文
 
-- [\[ICLR 2026\] Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data](behavior_learning_bl_learning_hierarchical_optimization_structures_from_data.md)
-- [\[ICLR 2026\] Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md)
-- [\[ICLR 2026\] Decoupling Dynamical Richness from Representation Learning: Towards Practical Measurement](decoupling_dynamical_richness_from_representation_learning_towards_practical_mea.md)
 - [\[ICML 2026\] Discovering Differences in Strategic Behavior Between Humans and LLMs](../../ICML2026/interpretability/discovering_differences_in_strategic_behavior_between_humans_and_llms.md)
-- [\[ICLR 2026\] When Machine Learning Gets Personal: Evaluating Prediction and Explanation](when_machine_learning_gets_personal_evaluating_prediction_and_explanation.md)
+- [\[ICLR 2026\] Comparing the learning dynamics of in-context learning and fine-tuning in language models](comparing_the_learning_dynamics_of_in-context_learning_and_fine-tuning_in_langua.md)
+- [\[ICML 2026\] ExPLAIND: Unifying Model, Data, and Training Attribution to Study Model Behavior](../../ICML2026/interpretability/explaind_unifying_model_data_and_training_attribution_to_study_model_behavior.md)
+- [\[ICLR 2026\] Learning Nonlinear Causal Reductions to Explain Reinforcement Learning Policies](learning_nonlinear_causal_reductions_to_explain_reinforcement_learning_policies.md)
+- [\[AAAI 2026\] ElementaryNet: A Non-Strategic Neural Network for Predicting Human Behavior in Normal-Form Games](../../AAAI2026/interpretability/elementarynet_a_non-strategic_neural_network_for_predicting_human_behavior_in_no.md)
 
 </div>
 

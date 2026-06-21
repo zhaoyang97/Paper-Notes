@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Probing Token Spaces under Generator Shift in AI-Generated Music Detection
+description: >-
+  [ICML2026][音频/语音][AI音乐检测] 这篇论文把 AI 音乐检测里被当成"预处理细节"的 **token 空间**（用哪种 tokenizer）提升为一个**主实验变量**：通过固定下游分类器 CoMoE、只替换输入 token，并在新构造的 MoM-open 上做"训练时只见一种伪造生成器、测试时换生成器"的 source-restricted 评测，证明在生成器迁移场景下不同 token 空间的鲁棒性差距巨大（Fake-Udio 上 X-Codec token 89.0% AUC vs EnCodec token 58.6%）。
+tags:
+  - "ICML2026"
+  - "音频/语音"
+  - "AI音乐检测"
+  - "神经音频编解码"
+  - "离散token"
+  - "生成器迁移"
+  - "跨源泛化"
+---
+
 # Probing Token Spaces under Generator Shift in AI-Generated Music Detection
 
 **会议**: ICML2026  

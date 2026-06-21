@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AgentFold: Long-Horizon Web Agents with Proactive Context Folding
+description: >-
+  [ICLR2026][LLM Agent][上下文折叠] AgentFold 把 web agent 的上下文当作可主动雕刻的"认知工作区"，每一步在推理时额外输出一个"折叠指令"，对历史轨迹做细粒度凝练或多步深度合并，使 100 轮交互后上下文仅约 7k token；仅 30B 激活 3B 的模型就在 BrowseComp 上拿到 36.2%，超过 671B 的 DeepSeek-V3.1 和 OpenAI o4-mini。
+tags:
+  - "ICLR2026"
+  - "LLM Agent"
+  - "上下文折叠"
+  - "长程任务"
+  - "web agent"
+  - "认知工作区"
+  - "信息检索"
+---
+
 # AgentFold: Long-Horizon Web Agents with Proactive Context Folding
 
 **会议**: ICLR2026  
-**OpenReview**: [IuZoTgsUws](https://openreview.net/forum?id=IuZoTgsUws)  
+**OpenReview**: [https://openreview.net/forum?id=IuZoTgsUws](https://openreview.net/forum?id=IuZoTgsUws)  
 **代码**: https://github.com/Alibaba-NLP/DeepResearch （模型 AgentFold-30B-A3B-Preview）  
 **领域**: LLM Agent / Web Agent  
 **关键词**: 上下文折叠, 长程任务, web agent, 认知工作区, 信息检索
@@ -133,8 +148,8 @@ flowchart TD
 - [\[ICML 2026\] ACON: Optimizing Context Compression for Long-horizon LLM Agents](../../ICML2026/llm_agent/acon_optimizing_context_compression_for_long-horizon_llm_agents.md)
 - [\[ACL 2026\] OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](../../ACL2026/llm_agent/ocr-memory_optical_context_retrieval_for_long-horizon_agent_memory.md)
 - [\[CVPR 2026\] WebGym: Scaling Training Environments for Long-Horizon Visual Web Agents with Realistic Tasks](../../CVPR2026/llm_agent/webgym_scaling_training_environments_for_long-horizon_visual_web_agents_with_rea.md)
-- [\[ICLR 2026\] Harnessing Uncertainty: Entropy-Modulated Policy Gradients for Long-Horizon LLM Agents](harnessing_uncertainty_entropy-modulated_policy_gradients_for_long-horizon_llm_a.md)
-- [\[ICLR 2026\] Solving the Granularity Mismatch: Hierarchical Preference Learning for Long-Horizon LLM Agents](solving_the_granularity_mismatch_hierarchical_preference_learning_for_long-horiz.md)
+- [\[ICLR 2026\] AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL](agentgym-rl_an_open-source_framework_to_train_llm_agents_for_long-horizon_decisi.md)
+- [\[ICLR 2026\] MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents](mem1_learning_to_synergize_memory_and_reasoning_for_efficient_long-horizon_agent.md)
 
 </div>
 

@@ -1,7 +1,24 @@
+---
+title: >-
+  [论文解读] A Biologically Plausible Dense Associative Memory with Exponential Capacity
+description: >-
+  [ICLR 2026][学习理论][稠密联想记忆] 通过把双层联想记忆里隐层的"赢者通吃"激活换成一个带阈值的阶跃激活，让隐层神经元能同时参与多个记忆（分布式表征），从而把存储容量从"隐层神经元数的线性"提升到"隐层神经元数的指数级"（$2^{N_h}$），并用 MNIST/CIFAR-10 验证了它能存下数万张高度相关的图像、同时保持生物可信性。
+tags:
+  - "ICLR 2026"
+  - "学习理论"
+  - "联想记忆"
+  - "计算神经科学"
+  - "稠密联想记忆"
+  - "现代 Hopfield 网络"
+  - "指数级容量"
+  - "分布式表征"
+  - "生物可信性"
+---
+
 # A Biologically Plausible Dense Associative Memory with Exponential Capacity
 
 **会议**: ICLR 2026  
-**OpenReview**: [mRZOayQL1i](https://openreview.net/forum?id=mRZOayQL1i)  
+**OpenReview**: [https://openreview.net/forum?id=mRZOayQL1i](https://openreview.net/forum?id=mRZOayQL1i)  
 **代码**: 待确认  
 **领域**: 学习理论 / 联想记忆 / 计算神经科学  
 **关键词**: 稠密联想记忆, 现代 Hopfield 网络, 指数级容量, 分布式表征, 生物可信性
@@ -131,10 +148,10 @@ $$(\xi,\theta) = \arg\min_{\xi,\theta}\sum_{m=1}^{M}\Big\|v_m - \frac{1}{\sqrt{N
 ## 相关论文
 
 - [\[ICLR 2026\] Dynamical properties of dense associative memory](dynamical_properties_of_dense_associative_memory.md)
-- [\[ICLR 2026\] Designing Rules to Pick a Rule: Aggregation by Consistency](designing_rules_to_pick_a_rule_aggregation_by_consistency.md)
-- [\[ICLR 2026\] A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data](a_generalized_geometric_theoretical_framework_of_centroid_discriminant_analysis_.md)
-- [\[ICLR 2026\] Epistemic Uncertainty Quantification To Improve Decisions From Black-Box Models](epistemic_uncertainty_quantification_to_improve_decisions_from_black-box_models.md)
-- [\[ICLR 2026\] An Improved Model-free Decision-estimation Coefficient with Applications in Adversarial MDPs](an_improved_model-free_decision-estimation_coefficient_with_applications_in_adve.md)
+- [\[ICLR 2026\] Transformers as Measure-Theoretic Associative Memory: A Statistical Perspective and Minimax Optimality](transformers_as_measure-theoretic_associative_memory_a_statistical_perspective_a.md)
+- [\[ICLR 2026\] Sublinear Spectral Clustering Oracle with Little Memory](sublinear_spectral_clustering_oracle_with_little_memory.md)
+- [\[ICLR 2026\] Memory-Statistics Tradeoff in Continual Learning with Structural Regularization](memory-statistics_tradeoff_in_continual_learning_with_structural_regularization.md)
+- [\[ICLR 2026\] Provable Separations between Memorization and Generalization in Diffusion Models](provable_separations_between_memorization_and_generalization_in_diffusion_models.md)
 
 </div>
 

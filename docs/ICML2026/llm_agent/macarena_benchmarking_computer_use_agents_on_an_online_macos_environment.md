@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MacArena: Benchmarking Computer Use Agents on an Online macOS Environment
+description: >-
+  [ICML2026][LLM Agent][计算机使用智能体] MacArena 把 OSWorld 移植任务、macOSWorld 任务和 49 个全新 macOS 原生任务（共 421 个、覆盖 50 个应用）统一搬进运行在 Apple Silicon 原生虚拟化框架上的真实 macOS 环境，配上逐任务手写的执行式评测脚本，发现当前 GUI 智能体在 macOS 上普遍比 Linux 掉点、且模型排名在「移植任务」和「macOS 原生任务」之间发生反转——揭示现有 benchmark 的高分更多是「见过这类任务分布」而非真正的跨平台 GUI 能力。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "计算机使用智能体"
+  - "macOS"
+  - "GUI Agent"
+  - "在线评测"
+  - "可验证奖励"
+---
+
 # MacArena: Benchmarking Computer Use Agents on an Online macOS Environment
 
 **会议**: ICML2026  

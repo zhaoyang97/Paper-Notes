@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Bridging Functional Correctness and Runtime Efficiency Gaps in LLM-Based Code Translation
+description: >-
+  [ICML 2026][代码智能][代码翻译] 针对"LLM 翻译出来的代码虽然功能对、但跑得比人写的慢"这一被忽视的问题，提出 SwiftTrans 框架：先用并行 ICL 生成多视角候选翻译，再用差异感知的成对裁判按冒泡方式线性时间选出最优候选，并配套层次化引导和序数引导两套训练策略，让一个 Qwen2.5-3B 在功能正确性和运行效率上同时超过 GPT-5。
+tags:
+  - "ICML 2026"
+  - "代码智能"
+  - "代码翻译"
+  - "运行时效率"
+  - "并行ICL"
+  - "LLM-as-a-judge"
+  - "层次化引导"
+---
+
 # Bridging Functional Correctness and Runtime Efficiency Gaps in LLM-Based Code Translation
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Noise is Worth Diffusion Guidance
+description: >-
+  [ICLR2026][图像生成][扩散引导] 这篇论文提出 NoiseRefine：不去改扩散模型本身，而是训一个轻量网络把随机高斯噪声"精炼"成一份结构化噪声，使得不开任何采样引导：、只跑一遍前向就能生成接近 CFG 引导质量的图像，从而把每步两次前向的引导开销直接省掉。 领域现状：文本到图像扩散模型（SD、SDXL、Si…
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "扩散引导"
+  - "classifier-free guidance"
+  - "噪声精炼"
+  - "引导蒸馏"
+  - "无引导采样"
+---
+
 # A Noise is Worth Diffusion Guidance
 
 **会议**: ICLR2026  
-**OpenReview**: [xEWooSOgaz](https://openreview.net/forum?id=xEWooSOgaz)  
+**OpenReview**: [https://openreview.net/forum?id=xEWooSOgaz](https://openreview.net/forum?id=xEWooSOgaz)  
 **代码**: https://cvlab-kaist.github.io/NoiseRefine （项目页）  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 扩散引导, classifier-free guidance, 噪声精炼, 引导蒸馏, 无引导采样
@@ -125,11 +140,11 @@ $$F_t(x) = a_t x_t + b_t\, \mathrm{SG}\big(\epsilon_\theta^{(t)}(x)\big),$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] What Is It Like to Be a Noise? An Entropy-based Gaussian Noise Regularization for Diffusion Models](../../CVPR2026/image_generation/what_is_it_like_to_be_a_noise_an_entropy-based_gaussian_noise_regularization_for.md)
+- [\[ICLR 2026\] Mitigating Noise Shift in Denoising Generative Models with Noise Awareness Guidance](mitigating_noise_shift_in_denoising_generative_models_with_noise_awareness_guida.md)
+- [\[ICLR 2026\] Deconstructing Guidance: A Semantic Hierarchy for Precise Diffusion Model Editing](deconstructing_guidance_a_semantic_hierarchy_for_precise_diffusion_model_editing.md)
 - [\[ICLR 2026\] Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models](stochastic_self-guidance_for_training-free_enhancement_of_diffusion_models.md)
-- [\[ICLR 2026\] There and Back Again: On the Relation between Noise and Image Inversions in Diffusion Models](there_and_back_again_on_the_relation_between_noise_and_image_inversions_in_diffu.md)
-- [\[CVPR 2026\] Resolving Endpoint Underfitting in Diffusion Bridges via Noise Alignment](../../CVPR2026/image_generation/resolving_endpoint_underfitting_in_diffusion_bridges_via_noise_alignment.md)
-- [\[CVPR 2026\] Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](../../CVPR2026/image_generation/eda_arbitrary_noise_diffusion_design_space.md)
+- [\[ICLR 2026\] Contrastive Diffusion Guidance for Spatial Inverse Problems](contrastive_diffusion_guidance_for_spatial_inverse_problems.md)
+- [\[ICLR 2026\] Guidance Watermarking for Diffusion Models](guidance_watermarking_for_diffusion_models.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AdPO: Enhancing the Adversarial Robustness of Large Vision-Language Models with Preference Optimization
+description: >-
+  [ICLR2026][LLM安全][大视觉语言模型] AdPO 第一次把大视觉语言模型（LVLM）的对抗训练改写成偏好优化问题：让模型"偏好"在干净图上的正确输出、"拒绝"对抗图上的误导输出，且只微调 CLIP 图像编码器，在小模型上训练后迁移到大模型，既显著提升对抗鲁棒性又几乎不掉干净性能。 领域现状：LVLM（如 LLa…
+tags:
+  - "ICLR2026"
+  - "LLM安全"
+  - "大视觉语言模型"
+  - "对抗防御"
+  - "偏好优化"
+  - "DPO"
+  - "CLIP 图像编码器"
+---
+
 # AdPO: Enhancing the Adversarial Robustness of Large Vision-Language Models with Preference Optimization
 
 **会议**: ICLR2026  
-**OpenReview**: [FEMv4lHJ2C](https://openreview.net/forum?id=FEMv4lHJ2C)  
+**OpenReview**: [https://openreview.net/forum?id=FEMv4lHJ2C](https://openreview.net/forum?id=FEMv4lHJ2C)  
 **代码**: 待确认  
 **领域**: 多模态VLM / 对抗鲁棒性 / 偏好优化  
 **关键词**: 大视觉语言模型, 对抗防御, 偏好优化, DPO, CLIP 图像编码器
@@ -135,9 +150,9 @@ AdPO 把目标攻击成功率压到 0%，而原始 CLIP 高达 100%。
 
 - [\[ACL 2026\] CiPO: Counterfactual Unlearning for Large Reasoning Models through Iterative Preference Optimization](../../ACL2026/llm_safety/cipo_counterfactual_unlearning_for_large_reasoning_models_through_iterative_pref.md)
 - [\[ACL 2026\] Seeing No Evil: Blinding Large Vision-Language Models to Safety Instructions via Adversarial Attention Hijacking](../../ACL2026/llm_safety/seeing_no_evil_blinding_large_vision-language_models_to_safety_instructions_via_.md)
-- [\[ICLR 2026\] Understanding Sensitivity of Differential Attention through the Lens of Adversarial Robustness](understanding_sensitivity_of_differential_attention_through_the_lens_of_adversar.md)
-- [\[NeurIPS 2025\] Zero-Shot Robustness of Vision Language Models Via Confidence-Aware Weighting](../../NeurIPS2025/llm_safety/zero-shot_robustness_of_vision_language_models_via_confidence-aware_weighting.md)
-- [\[ICLR 2026\] wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models](wd1_weighted_policy_optimization_for_reasoning_in_diffusion_language_models.md)
+- [\[ICLR 2026\] VEAttack: Downstream-Agnostic Vision Encoder Attack Against Large Vision Language Models](veattack_downstream-agnostic_vision_encoder_attack_against_large_vision_language.md)
+- [\[ICLR 2026\] TAO-Attack: Toward Advanced Optimization-based Jailbreak Attacks for Large Language Models](tao-attack_toward_advanced_optimization-based_jailbreak_attacks_for_large_langua.md)
+- [\[ICLR 2026\] Sampling-aware Adversarial Attacks against Large Language Models](sampling-aware_adversarial_attacks_against_large_language_models.md)
 
 </div>
 

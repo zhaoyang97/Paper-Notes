@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] All Patches Matter, More Patches Better: Enhance AI-Generated Image Detection via Panoptic Patch Learning
+description: >-
+  [ICLR2026][AIGC检测][AIGI 检测] 本文提出"所有 patch 都重要、用得越多越好（All Patches Matter, More Patches Better）"的检测原则，发现现有 AI 生成图像（AIGI）检测器存在"少数 patch 偏置（Few-Patch Bias）"——只盯着极少数 patch 做判断；据此设计 Panoptic Patch Learning（PPL）框架，用随机 patch 重建 + patch 级对比学习把判别能力摊平到全图所有 patch，在 GenImage、DRCT-2M、AIGCDetectBenchmark 和真实场景 Chameleon 上都把跨生成器泛化性和鲁棒…
+tags:
+  - "ICLR2026"
+  - "AIGC检测"
+  - "AIGI 检测"
+  - "Patch 级学习"
+  - "对比学习"
+  - "扩散重建"
+  - "泛化性"
+---
+
 # All Patches Matter, More Patches Better: Enhance AI-Generated Image Detection via Panoptic Patch Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [ob7PJs8kPU](https://openreview.net/forum?id=ob7PJs8kPU)  
+**OpenReview**: [https://openreview.net/forum?id=ob7PJs8kPU](https://openreview.net/forum?id=ob7PJs8kPU)  
 **代码**: 待确认  
 **领域**: AIGC 检测 / AI 生成图像鉴别  
 **关键词**: AIGI 检测, Patch 级学习, 对比学习, 扩散重建, 泛化性
@@ -134,11 +149,11 @@ $$L_{total} = \lambda L_{con} + (1-\lambda) L_{ce}$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] FakeXplain: AI-Generated Image Detection via Human-Aligned Grounded Reasoning](fakexplain_ai-generated_image_detection_via_human-aligned_grounded_reasoning.md)
+- [\[ICLR 2026\] Unveiling Perceptual Artifacts: A Fine-Grained Benchmark for Interpretable AI-Generated Image Detection](unveiling_perceptual_artifacts_a_fine-grained_benchmark_for_interpretable_ai-gen.md)
 - [\[ICML 2026\] Dissect and Prune: Enhancing Robustness in AI-Generated Image Detection](../../ICML2026/aigc_detection/dissect_and_prune_enhancing_robustness_in_ai-generated_image_detection.md)
-- [\[CVPR 2026\] PPM-CLIP: Probabilistic Prompt Modeling for Generalizable AI-Generated Image Detection](../../CVPR2026/aigc_detection/ppm-clip_probabilistic_prompt_modeling_for_generalizable_ai-generated_image_dete.md)
 - [\[CVPR 2026\] Enabling Supervised Learning of Generative Signatures for Generalized AI-Generated Images Detection](../../CVPR2026/aigc_detection/enabling_supervised_learning_of_generative_signatures_for_generalized_ai-generat.md)
-- [\[CVPR 2026\] Fine-grained Image Aesthetic Assessment: Learning Discriminative Scores from Relative Ranks](../../CVPR2026/aigc_detection/fine-grained_image_aesthetic_assessment_learning_discriminative_scores_from_rela.md)
-- [\[CVPR 2026\] Learning Where to Look and How to Judge: Resolution-agnostic Image Quality Assessment with Quality-aware Saliency](../../CVPR2026/aigc_detection/learning_where_to_look_and_how_to_judge_resolution-agnostic_image_quality_assess.md)
+- [\[CVPR 2026\] PPM-CLIP: Probabilistic Prompt Modeling for Generalizable AI-Generated Image Detection](../../CVPR2026/aigc_detection/ppm-clip_probabilistic_prompt_modeling_for_generalizable_ai-generated_image_dete.md)
 
 </div>
 

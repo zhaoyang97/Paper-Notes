@@ -1,7 +1,21 @@
+---
+title: >-
+  [论文解读] Adaptive Concept Discovery for Interpretable Few-Shot Text Classification
+description: >-
+  [ICLR2026][可解释性][概念瓶颈模型] StructCBM 把概念瓶颈模型（CBM）改造成"只靠样本-概念相似度做预测、完全不训练分类头"的范式：用 LLM 从极少量样本里生成"原型概念 + 判别概念"两层概念库，靠两阶段相似度匹配（先召回候选标签、再对比定夺）做出可解释预测，并用"误分类回灌 LLM 精修概念"的闭环把概念越调越准——10-shot 下就超过所有现有 CBM，在语义密集的数据集上逼近直接调用 LLM 的黑盒效果，且推理阶段不再需要 LLM。
+tags:
+  - "ICLR2026"
+  - "可解释性"
+  - "概念瓶颈模型"
+  - "少样本学习"
+  - "文本分类"
+  - "LLM 概念生成"
+---
+
 # Adaptive Concept Discovery for Interpretable Few-Shot Text Classification
 
 **会议**: ICLR2026  
-**OpenReview**: [UZBQ7iZzYz](https://openreview.net/forum?id=UZBQ7iZzYz)  
+**OpenReview**: [https://openreview.net/forum?id=UZBQ7iZzYz](https://openreview.net/forum?id=UZBQ7iZzYz)  
 **代码**: https://github.com/alexiszlf/StructCBM  
 **领域**: 可解释性 / 概念瓶颈模型 / 少样本文本分类  
 **关键词**: 概念瓶颈模型, 少样本学习, 文本分类, 可解释性, LLM 概念生成
@@ -120,11 +134,11 @@ $\alpha=0.75$，逐步叠加组件（Reg. 为调优时的更强正则约束）�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Hierarchical Concept Embedding & Pursuit for Interpretable Image Classification](../../CVPR2026/interpretability/hierarchical_concept_embedding_pursuit_for_interpretable_image_classification.md)
 - [\[ICML 2026\] CB-SLICE: Concept-Based Interpretable Error Slice Discovery](../../ICML2026/interpretability/cb-slice_concept-based_interpretable_error_slice_discovery.md)
+- [\[CVPR 2026\] Hierarchical Concept Embedding & Pursuit for Interpretable Image Classification](../../CVPR2026/interpretability/hierarchical_concept_embedding_pursuit_for_interpretable_image_classification.md)
+- [\[ICLR 2026\] Debugging Concept Bottleneck Models through Removal and Retraining](debugging_concept_bottleneck_models_through_removal_and_retraining.md)
 - [\[ICML 2026\] How Few-Shot Examples Add Up: A Causal Decomposition of Function Vectors in In-Context Learning](../../ICML2026/interpretability/how_few-shot_examples_add_up_a_causal_decomposition_of_function_vectors_in_in-co.md)
-- [\[ACL 2026\] A Systematic Comparison between Extractive Self-Explanations and Human Rationales in Text Classification](../../ACL2026/interpretability/a_systematic_comparison_between_extractive_self-explanations_and_human_rationale.md)
-- [\[ICCV 2025\] Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations](../../ICCV2025/interpretability/granular_concept_circuits_toward_a_fine-grained_circuit_discovery_for_concept_re.md)
+- [\[ICLR 2026\] From Concepts to Components: Concept-Agnostic Attention Module Discovery in Transformers](from_concepts_to_components_concept-agnostic_attention_module_discovery_in_trans.md)
 
 </div>
 

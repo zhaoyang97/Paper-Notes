@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Self-Guidance: Enhancing Neural Codecs via Decoder Manifold Alignment
+description: >-
+  [ICML2026][音频/语音][神经语音编解码] 在 VQ-VAE 语音编解码器训练时，让解码器同时吃「量化后 token」和「量化前连续 latent」两条路，用一个轻量特征对齐损失逼着前者的解码器内部特征去对齐后者，从而在零推理开销下显著提升重建保真度，并能把码本缩小 4 倍而不掉点。 领域现状：以 SoundStr…
+tags:
+  - "ICML2026"
+  - "音频/语音"
+  - "神经语音编解码"
+  - "量化误差"
+  - "解码器流形对齐"
+  - "自引导"
+  - "低码率"
+---
+
 # Self-Guidance: Enhancing Neural Codecs via Decoder Manifold Alignment
 
 **会议**: ICML2026  

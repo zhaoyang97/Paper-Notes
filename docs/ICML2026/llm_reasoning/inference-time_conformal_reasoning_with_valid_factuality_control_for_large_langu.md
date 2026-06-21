@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Inference-Time Conformal Reasoning with Valid Factuality Control for Large Language Models
+description: >-
+  [ICML2026][Reasoning][保形预测] ITCR 把保形预测（conformal prediction）从"生成完再剪枝"的事后做法，改造成"边生成边判停"的推理时机制：它在 LLM 的推理图上学一个图级事实性不确定度函数，并构造一个随子图扩张单调递增的非一致性分数，一旦越过校准好的阈值就立刻停止扩张，从而对"输出里没有错误步骤（no-false）"或"输出包含所有正确步骤（no-miss）"给出 $1-\alpha$ 的有效覆盖保证，下游推理准确率平均提升 18.77%。
+tags:
+  - "ICML2026"
+  - "Reasoning"
+  - "保形预测"
+  - "推理图"
+  - "事实性控制"
+  - "推理时干预"
+  - "覆盖保证"
+---
+
 # Inference-Time Conformal Reasoning with Valid Factuality Control for Large Language Models
 
 **会议**: ICML2026  

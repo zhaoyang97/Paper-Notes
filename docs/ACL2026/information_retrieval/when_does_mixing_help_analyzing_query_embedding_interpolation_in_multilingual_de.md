@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] When Does Mixing Help? Analyzing Query Embedding Interpolation in Multilingual Dense Retrieval
+description: >-
+  [ACL2026][信息检索/RAG][多语言稠密检索] 本文用"嵌入级插值"作为可控代理来研究多语言稠密检索对混合语言查询的敏感性：在 mMARCO 上系统改变两种平行查询的混合比例后发现，最优的混合比例在 88/105 个设定里超过最好的单语查询，且这种收益高度结构化——英语在向量空间里扮演"最强混合伙伴"和"非对称霸主"的角色。
+tags:
+  - "ACL2026"
+  - "信息检索/RAG"
+  - "多语言稠密检索"
+  - "代码混合查询"
+  - "嵌入插值"
+  - "mMARCO"
+  - "英语主导性"
+---
+
 # When Does Mixing Help? Analyzing Query Embedding Interpolation in Multilingual Dense Retrieval
 
 **会议**: ACL2026  

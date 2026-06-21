@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] $α$-PFN: Fast Entropy Search via In-Context Learning
+description: >-
+  [ICML 2026][优化/理论][贝叶斯优化] 这篇论文用两阶段的 Prior-data Fitted Networks（PFN）把熵搜索（Entropy Search）这一类信息论采集函数"摊销"成单次前向传播——先训一个能在已知最优点信息条件下做预测的 base PFN，再训一个直接吐出信息增益分布的 $α$-PFN，从而绕过原来又慢又复杂的蒙特卡洛近似，在合成和真实 HPO 基准上性能与 SOTA 熵搜索相当，但提速最高 70 倍以上。
+tags:
+  - "ICML 2026"
+  - "优化/理论"
+  - "贝叶斯优化"
+  - "熵搜索"
+  - "Prior-Fitted Networks"
+  - "采集函数摊销"
+  - "in-context learning"
+---
+
 # $α$-PFN: Fast Entropy Search via In-Context Learning
 
 **会议**: ICML 2026  

@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] ATLAS: Alibaba Dataset and Benchmark for Learning-Augmented Scheduling
+description: >-
+  [ICLR 2026][数据集与基准][非透视调度] 本文把阿里 PAI-2020 GPU 集群 trace 清洗、特征工程成一个 73 万作业、带真实作业时长标签的「非透视调度（non-clairvoyant scheduling）」数据集 ATLAS，并配套一个端到端基准 LASched——既评测「用提交时特征预测作业时长」的预测任务，又评测「把预测喂给调度器、在总完成时间/最大伸展/makespan 三个目标上做学习增强调度」的调度任务，让一直只能在合成数据上跑的「算法+预测」理论第一次能在真实负载上被公平复现和对比。
+tags:
+  - "ICLR 2026"
+  - "数据集与基准"
+  - "学习增强调度"
+  - "算法与预测"
+  - "非透视调度"
+  - "阿里 PAI trace"
+  - "作业时长预测"
+  - "竞争比"
+---
+
 # ATLAS: Alibaba Dataset and Benchmark for Learning-Augmented Scheduling
 
 **会议**: ICLR 2026  
-**OpenReview**: [QBvxXzHdZx](https://openreview.net/forum?id=QBvxXzHdZx)  
+**OpenReview**: [https://openreview.net/forum?id=QBvxXzHdZx](https://openreview.net/forum?id=QBvxXzHdZx)  
 **代码**: https://github.com/zhiyunjiang0810/non-clairvoyant-with-predictions  
 **领域**: 数据集与基准 / 学习增强调度 / 算法与预测  
 **关键词**: 学习增强调度, 非透视调度, 阿里 PAI trace, 作业时长预测, 竞争比
@@ -123,11 +139,11 @@ LGBM-Meta（Meta-stacking）综合最强：51.2% Cov@25、70.6% Cov@50、ρ=0.91
 
 ## 相关论文
 
-- [\[ICML 2026\] Towards Optimal Robustness in Learning-Augmented Paging](../../ICML2026/learning_theory/towards_optimal_robustness_in_learning-augmented_paging.md)
+- [\[ICLR 2026\] On Smoothness Bounds for Non-Clairvoyant Scheduling with Predictions](on_smoothness_bounds_for_non-clairvoyant_scheduling_with_predictions.md)
+- [\[ICLR 2026\] Online Rounding and Learning Augmented Algorithms for Facility Location](online_rounding_and_learning_augmented_algorithms_for_facility_location.md)
 - [\[ICML 2026\] Parsimonious Learning-Augmented Online Metric Matching](../../ICML2026/learning_theory/parsimonious_learning-augmented_online_metric_matching.md)
 - [\[ICLR 2026\] Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion](better_learning-augmented_spanning_tree_algorithms_via_metric_forest_completion.md)
-- [\[ICML 2025\] Learning-Augmented Hierarchical Clustering](../../ICML2025/learning_theory/learning-augmented_hierarchical_clustering.md)
-- [\[AAAI 2026\] A Switching Framework for Online Interval Scheduling with Predictions](../../AAAI2026/learning_theory/a_switching_framework_for_online_interval_scheduling_with_pr.md)
+- [\[ICLR 2026\] Decision-Theoretic Approaches for Improved Learning-Augmented Algorithms](decision-theoretic_approaches_for_improved_learning-augmented_algorithms.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Instance-Level Alignment: Dual-Level Optimal Transport for Audio-Text Retrieval
+description: >-
+  [ICLR2026][音频/语音][音频-文本检索] DART 在传统"实例级"音频-文本对齐之外，再加一层"特征级"对齐——把每个嵌入通道当成一个分布，用不平衡 Wasserstein 距离去配对音频通道和文本通道，并用基于方差/峰度/跨模态相关性的"可靠性边际"引导传输只往稳定语义通道倾斜，从而在小批量、稀缺标签、噪声标签下都拿到 SOTA 检索效果。
+tags:
+  - "ICLR2026"
+  - "音频/语音"
+  - "音频-文本检索"
+  - "最优传输"
+  - "不平衡 Wasserstein"
+  - "通道可靠性"
+  - "小批量鲁棒性"
+---
+
 # Beyond Instance-Level Alignment: Dual-Level Optimal Transport for Audio-Text Retrieval
 
 **会议**: ICLR2026  
-**OpenReview**: [cFhcd4WGjO](https://openreview.net/forum?id=cFhcd4WGjO)  
+**OpenReview**: [https://openreview.net/forum?id=cFhcd4WGjO](https://openreview.net/forum?id=cFhcd4WGjO)  
 **代码**: 待确认  
 **领域**: 音频检索 / 跨模态匹配  
 **关键词**: 音频-文本检索, 最优传输, 不平衡 Wasserstein, 通道可靠性, 小批量鲁棒性
@@ -88,6 +103,7 @@ $\lambda$ 平衡实例级与特征级两项。工程上传输计划 $P^b$ 可在
 ResNet38+BERT 上 DART 比最强基线 A→T R@1 +4.5%、T→A R@1 +1.1%，Clotho 上 R@1/R@10 也领先；即便在 ONE-PEACE 受限 batch 设定下，8 个关键指标里 5 个胜出。
 
 ### 小批量 / 噪声 / 半监督鲁棒性（AudioCaps，batch size 32）
+
 | 条件 | 方法 | T→A R@1 | A→T R@1 |
 |---|---|---|---|
 | 半监督 40% 无标 | Luong et al. 2024 | 28.58 | 35.00 |
@@ -102,6 +118,7 @@ ResNet38+BERT 上 DART 比最强基线 A→T R@1 +4.5%、T→A R@1 +1.1%，Cloth
 - **图文检索（MSCOCO）**：DART 在 I→T(21.27)、T→I(23.34) 均超基线（19.15/20.90），说明双层对齐+RAM 不绑定音频域，可迁移到其他异质模态。
 
 ### 消融实验
+
 | 配置 | 关键发现 |
 |---|---|
 | 仅 $\mathcal{L}_{\text{UWD}}$ | R@1≈0，单独特征级无法恢复样本对应 |
@@ -146,10 +163,10 @@ ResNet38+BERT 上 DART 比最强基线 A→T R@1 +4.5%、T→A R@1 +1.1%，Cloth
 ## 相关论文
 
 - [\[ICLR 2026\] VowelPrompt: Hearing Speech Emotions from Text via Vowel-level Prosodic Augmentation](vowelprompt_hearing_speech_emotions_from_text_via_vowel-level_prosodic_augmentat.md)
+- [\[ICLR 2026\] EchoMind: An Interrelated Multi-level Benchmark for Evaluating Empathetic Speech Language Models](echomind_an_interrelated_multi-level_benchmark_for_evaluating_empathetic_speech_.md)
 - [\[ACL 2026\] Data-efficient Targeted Token-level Preference Optimization for LLM-based Text-to-Speech](../../ACL2026/audio_speech/data-efficient_targeted_token-level_preference_optimization_for_llm-based_text-t.md)
 - [\[ICML 2026\] Multimodal Fact-Level Attribution for Verifiable Reasoning](../../ICML2026/audio_speech/multimodal_fact-level_attribution_for_verifiable_reasoning.md)
-- [\[ICLR 2026\] EchoMind: An Interrelated Multi-level Benchmark for Evaluating Empathetic Speech Language Models](echomind_an_interrelated_multi-level_benchmark_for_evaluating_empathetic_speech_.md)
-- [\[ACL 2026\] Omni-Embed-Audio: Leveraging Multimodal LLMs for Robust Audio-Text Retrieval](../../ACL2026/audio_speech/omni-embed-audio_leveraging_multimodal_llms_for_robust_audio-text_retrieval.md)
+- [\[ICLR 2026\] DrVoice: Parallel Speech-Text Voice Conversation Model via Dual-Resolution Speech Representations](drvoice_parallel_speech-text_voice_conversation_model_via_dual-resolution_speech.md)
 
 </div>
 

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Outliers: A Study of Optimizers Under Quantization
+description: >-
+  [ICLR2026][模型压缩][量化] 作者第一次系统地把"优化器选择"和"量化鲁棒性"放到一起研究：在 50M–1.5B 的 LLM 上用 6 种优化器训练，发现传统的离群值指标（MMR、Kurtosis）根本预测不了量化后的精度，转而提出一套可解析的 ABC 误差传播分解和新指标 $R_L$，并得出反直觉结论——离群值最严重的 Shampoo 反而在 PTQ/QAT 下掉点最少、参数效率最高。
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "量化"
+  - "优化器"
+  - "误差传播"
+  - "离群值"
+  - "缩放律"
+---
+
 # Beyond Outliers: A Study of Optimizers Under Quantization
 
 **会议**: ICLR2026  
-**OpenReview**: [mVldAuDAn5](https://openreview.net/forum?id=mVldAuDAn5)  
+**OpenReview**: [https://openreview.net/forum?id=mVldAuDAn5](https://openreview.net/forum?id=mVldAuDAn5)  
 **代码**: 待确认  
 **领域**: 模型压缩  
 **关键词**: 量化, 优化器, 误差传播, 离群值, 缩放律
@@ -131,9 +146,9 @@ QAT（4-bit QuEST）相对全精度 baseline 的精度退化（括号内为掉�
 
 - [\[NeurIPS 2025\] A Granular Study of Safety Pretraining under Model Abliteration](../../NeurIPS2025/model_compression/a_granular_study_of_safety_pretraining_under_model_abliteration.md)
 - [\[CVPR 2026\] TWEO: Transformers Without Extreme Outliers Enables FP8 Training And Quantization For Dummies](../../CVPR2026/model_compression/tweo_transformers_without_extreme_outliers_enables_fp8_training_and_quantization.md)
+- [\[ICLR 2026\] Study of Training Dynamics for Memory-Constrained Fine-Tuning (TraDy)](study_of_training_dynamics_for_memory-constrained_fine-tuning.md)
 - [\[ICLR 2026\] AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in LVLMs](agilepruner_an_empirical_study_of_attention_and_diversity_for_adaptive_visual_to.md)
-- [\[NeurIPS 2025\] Binary Quadratic Quantization: Beyond First-Order Quantization for Real-Valued Matrix Compression](../../NeurIPS2025/model_compression/binary_quadratic_quantization_beyond_first-order_quantization_for_real-valued_ma.md)
-- [\[ICLR 2026\] Compute-Optimal Quantization-Aware Training](compute-optimal_quantization-aware_training.md)
+- [\[ICLR 2026\] Beyond Student: An Asymmetric Network for Neural Network Inheritance](beyond_student_an_asymmetric_network_for_neural_network_inheritance.md)
 
 </div>
 

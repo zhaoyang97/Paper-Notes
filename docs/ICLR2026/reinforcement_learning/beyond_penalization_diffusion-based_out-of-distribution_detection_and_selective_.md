@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Penalization: Diffusion-based Out-of-Distribution Detection and Selective Regularization in Offline Reinforcement Learning
+description: >-
+  [ICLR2026][强化学习][离线强化学习] DOSER 用两个扩散模型分别建模行为策略与状态分布，以单步去噪重建误差作为可靠的 OOD（分布外）指标，再借动力学模型把 OOD 动作细分为"有益"与"有害"两类，对前者给奖励、对后者才惩罚，从而在离线 RL 中既压住价值高估又不扼杀有潜力的探索，在 D4RL 上尤其在次优数据集上刷出领先成绩。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "分布外检测"
+  - "扩散模型"
+  - "选择性正则化"
+  - "价值高估"
+---
+
 # Beyond Penalization: Diffusion-based Out-of-Distribution Detection and Selective Regularization in Offline Reinforcement Learning
 
 **会议**: ICLR2026  
-**OpenReview**: [a4DbIONcpb](https://openreview.net/forum?id=a4DbIONcpb)  
+**OpenReview**: [https://openreview.net/forum?id=a4DbIONcpb](https://openreview.net/forum?id=a4DbIONcpb)  
 **代码**: https://github.com/7ingw24/DOSER  
 **领域**: 强化学习 / 离线RL  
 **关键词**: 离线强化学习, 分布外检测, 扩散模型, 选择性正则化, 价值高估
@@ -80,6 +95,7 @@ $$L(\theta)=\mathbb{E}_{D}\big[(Q_\theta-(R+\gamma\,\mathbb{E}_{a'\sim\pi_\beta}
 DOSER 在"medium"与"medium-replay"这类含大量次优、异质行为的设定上优势尤其突出，印证了精准 OOD 检测 + 选择性正则的价值。
 
 ### 消融实验
+
 | 配置 | MuJoCo 代表任务（hopper-m / halfcheetah-m-r） | 说明 |
 |------|---------|------|
 | DOSER w/o AC and VC | 102.1 / 58.8 | 只用扩散重建误差检测 OOD，均匀惩罚不分好坏 |
@@ -122,11 +138,11 @@ DOSER 在"medium"与"medium-replay"这类含大量次优、异质行为的设定
 
 ## 相关论文
 
-- [\[ICML 2025\] Learning to Trust Bellman Updates: Selective State-Adaptive Regularization for Offline RL](../../ICML2025/reinforcement_learning/learning_to_trust_bellman_updates_selective_state-adaptive_regularization_for_of.md)
 - [\[ICLR 2026\] ADM-v2: Pursuing Full-Horizon Roll-out in Dynamics Models for Offline Policy Learning and Evaluation](adm-v2_pursuing_full-horizon_roll-out_in_dynamics_models_for_offline_policy_lear.md)
-- [\[ICML 2025\] Robust Offline Reinforcement Learning with Linearly Structured f-Divergence Regularization](../../ICML2025/reinforcement_learning/robust_offline_reinforcement_learning_with_linearly_structured_f-divergence_regu.md)
-- [\[AAAI 2026\] Partial Action Replacement: Tackling Distribution Shift in Offline MARL](../../AAAI2026/reinforcement_learning/partial_action_replacement_tackling_distribution_shift_in_offline_marl.md)
+- [\[ICLR 2026\] One-Step Flow Q-Learning: Addressing the Diffusion Policy Bottleneck in Offline RL](one-step_flow_q-learning_addressing_the_diffusion_policy_bottleneck_in_offline_r.md)
+- [\[ICLR 2026\] DEAS: DEtached value learning with Action Sequence for Scalable Offline RL](deas_detached_value_learning_with_action_sequence_for_scalable_offline_rl.md)
 - [\[ICLR 2026\] Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation](accelerating_diffusion_planners_in_offline_rl_via_reward-aware_consistency_traje.md)
+- [\[NeurIPS 2025\] Structural Information-based Hierarchical Diffusion for Offline Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/structural_information-based_hierarchical_diffusion_for_offline_reinforcement_le.md)
 
 </div>
 

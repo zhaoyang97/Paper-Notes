@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] What Makes a Desired Graph for Relational Deep Learning?
+description: >-
+  [ICML 2026][图学习][关系型深度学习] 这篇论文指出"把数据库 schema 机械转成图"并不是 GNN 想要的图，它系统性地存在**信息过载**和**语义碎片化**两大病灶；作者提出一个端到端的"结构优化器"，用可学习门控做**信息过滤**、用模板化的**结构注入**补回任务相关连边，在 RELBench 的 26 个任务上既提精度又常常降低推理开销。
+tags:
+  - "ICML 2026"
+  - "图学习"
+  - "关系型深度学习"
+  - "异构图"
+  - "图结构学习"
+  - "信息瓶颈"
+  - "结构注入"
+---
+
 # What Makes a Desired Graph for Relational Deep Learning?
 
 **会议**: ICML 2026  

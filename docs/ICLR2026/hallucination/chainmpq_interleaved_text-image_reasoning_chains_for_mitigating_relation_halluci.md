@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] ChainMPQ: Interleaved Text-Image Reasoning Chains for Mitigating Relation Hallucinations
+description: >-
+  [ICLR2026][幻觉检测][关系幻觉] ChainMPQ 是一个无需训练的推理框架：把"主体—关系—客体"这一关系问题拆成 5 个互补子问题，按顺序喂给视觉语言模型，并把每一步的文本答案与视觉注意力记忆传递给后续步骤，形成交错的图文推理链，从而在多个 LVLM 和关系幻觉基准上稳定降低关系幻觉。
+tags:
+  - "ICLR2026"
+  - "幻觉检测"
+  - "关系幻觉"
+  - "LVLM"
+  - "交错图文推理链"
+  - "多视角问题"
+  - "注意力增强"
+---
+
 # ChainMPQ: Interleaved Text-Image Reasoning Chains for Mitigating Relation Hallucinations
 
 **会议**: ICLR2026  
-**OpenReview**: [x5UMMVUfkO](https://openreview.net/forum?id=x5UMMVUfkO)  
+**OpenReview**: [https://openreview.net/forum?id=x5UMMVUfkO](https://openreview.net/forum?id=x5UMMVUfkO)  
 **代码**: [项目页](https://yike-wu.github.io/chainmpq-project)  
 **领域**: 多模态VLM / 幻觉缓解  
 **关键词**: 关系幻觉, LVLM, 交错图文推理链, 多视角问题, 注意力增强
@@ -128,3 +143,19 @@ $$\alpha_i = \lambda \cdot \mathrm{Conf}_{prev_i}, \quad \mathrm{Attn}_{i+1} = \
 - 实验充分度: ⭐⭐⭐⭐ 4 个模型 × 2 个关系基准 + 核心组件消融 + 超参敏感性 + 效率权衡，较完整；但任务局限于 Yes/No 关系问答。
 - 写作质量: ⭐⭐⭐⭐ 动机—方法—实验逻辑顺畅，图 2 把三模块讲清；部分公式符号（如多轮加权平均）略简。
 - 价值: ⭐⭐⭐⭐ 即插即用、模型无关，对关系幻觉这一高占比低关注问题有实用价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] Hallucination as an Upper Bound: A New Perspective on Text-to-Image Evaluation](../../NeurIPS2025/hallucination/hallucination_as_an_upper_bound_a_new_perspective_on_text-to-image_evaluation.md)
+- [\[ICLR 2026\] HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs](halluguard_demystifying_data-driven_and_reasoning-driven_hallucinations_in_llms.md)
+- [\[CVPR 2026\] AdaIAT: Adaptively Increasing Attention to Generated Text to Alleviate Hallucinations in LVLM](../../CVPR2026/hallucination/adaiat_adaptively_increasing_attention_to_generated_text_to_alleviate_hallucinat.md)
+- [\[ICLR 2026\] GHOST: Hallucination-Inducing Image Generation for Multimodal LLMs](ghost_hallucination-inducing_image_generation_for_multimodal_llms.md)
+- [\[CVPR 2026\] HalluGen: Synthesizing Realistic and Controllable Hallucinations for Evaluating Image Restoration](../../CVPR2026/hallucination/hallugen_synthesizing_realistic_and_controllable_hallucinations_for_evaluating_i.md)
+
+</div>
+
+<!-- RELATED:END -->

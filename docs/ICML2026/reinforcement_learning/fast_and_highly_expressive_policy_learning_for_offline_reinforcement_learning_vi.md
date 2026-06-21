@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Fast and Highly Expressive Policy Learning for Offline Reinforcement Learning via Bootstrapped Flow Q-Learning
+description: >-
+  [ICML2026][强化学习][离线强化学习] 针对扩散 Q-learning 多步去噪 + BPTT 又慢又脆的痛点，BFQ 把"噪声→动作"的整段位移做分治式自举——先学短程位移（可由 Flow Matching 边际速度精确估计），再把它们逐级拼成单步的直达映射，从而在训练和推理时都只需一步生成动作，不用辅助网络、不用蒸馏、不用多阶段，在 D4RL 上既提分又大幅提速。
+tags:
+  - "ICML2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "Flow Matching"
+  - "单步策略"
+  - "自举"
+  - "行为正则 actor-critic"
+---
+
 # Fast and Highly Expressive Policy Learning for Offline Reinforcement Learning via Bootstrapped Flow Q-Learning
 
 **会议**: ICML2026  

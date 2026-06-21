@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins
+description: >-
+  [ICML2026][LLM效率][微调性能预测] 针对"微调跑完才知道翻车、白烧几百 GPU 小时"的痛点，TuneAhead 把每个候选微调任务编码成"静态数据集描述符 + 100 步探针动态特征"的元特征向量，用 LightGBM 在训练前就预测最终性能（370 个测试任务上 RMSE 1.47pp、95.1% 落在 ±3pp 内），并用 SHAP 给出"为什么会失败"的可诊断解释。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "微调性能预测"
+  - "元特征"
+  - "探针"
+  - "LightGBM"
+  - "SHAP诊断"
+---
+
 # TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins
 
 **会议**: ICML2026  

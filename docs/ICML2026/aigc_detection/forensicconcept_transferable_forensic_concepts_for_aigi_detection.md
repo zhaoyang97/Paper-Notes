@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ForensicConcept: Transferable Forensic Concepts for AIGI Detection
+description: >-
+  [ICML 2026][AIGC检测][AI生成图像检测] 针对 AI 生成图像（AIGI）检测器"在训练分布内很准、换个生成器就崩"且完全黑箱的问题，本文把检测器依赖的弥散证据显式抽成一本"取证概念码本"，再用扩散特征（CleanDIFT）作外部生成痕迹参照、用邻域结构一致性指标 CKNNA 度量骨干网证据与扩散痕迹的几何对齐度，并通过把扩散码本注入目标骨干网实现跨生成器迁移；GenImage 平均准确率 92.0%，且 CKNNA 越高迁移收益越大。
+tags:
+  - "ICML 2026"
+  - "AIGC检测"
+  - "AI生成图像检测"
+  - "取证概念"
+  - "跨生成器泛化"
+  - "扩散特征对齐"
+  - "CKNNA"
+---
+
 # ForensicConcept: Transferable Forensic Concepts for AIGI Detection
 
 **会议**: ICML 2026  

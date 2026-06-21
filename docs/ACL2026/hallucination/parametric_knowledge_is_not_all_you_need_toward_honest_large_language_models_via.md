@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Parametric Knowledge is Not All You Need: Toward Honest Large Language Models via Retrieval of Pretraining Data
+description: >-
+  [ACL 2026][幻觉检测][LLM 诚实性] 作者指出现有「LLM 诚实性」基准都没考虑模型在预训练中到底见过什么知识，于是借助训练数据完全公开的 Pythia，用「预训练数据里能否检索到答案」来精确划定知识边界、构建出更可靠的 TIP-TriviaQA 基准；并提出三智能体方法 RETAIN——直接检索模型自己的预训练语料来决定「该答还是该拒」，把诚实性 EM-F1 从基线最高的 ~40 提到 58.57。
+tags:
+  - "ACL 2026"
+  - "幻觉检测"
+  - "LLM 诚实性"
+  - "知识边界"
+  - "预训练数据检索"
+  - "拒答"
+  - "幻觉"
+---
+
 # Parametric Knowledge is Not All You Need: Toward Honest Large Language Models via Retrieval of Pretraining Data
 
 **会议**: ACL 2026  

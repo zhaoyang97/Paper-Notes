@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] When Should an AI Scientist Stop? Verifiable Experiment Steering and Refusal for Autonomous Discovery
+description: >-
+  [ICML 2026][AI安全][自主科学发现] 本文提出 **Cartograph**——一个挂在自主"AI 科学家"循环里的验证层,它用同一套"未解子空间(unresolved subspace)"对象同时回答三件事:选哪个实验最能消歧(select)、什么时候算问题解决了(resolve)、以及——这是最关键的——当模型库本身结构性错误时该**拒绝**继续给出任何结论(refuse),并能在后续残差暴露失配时**撤回**早期已下的判定。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "自主科学发现"
+  - "实验设计(BOED)"
+  - "模型判别"
+  - "拒绝(refuse)"
+  - "治理"
+---
+
 # When Should an AI Scientist Stop? Verifiable Experiment Steering and Refusal for Autonomous Discovery
 
 **会议**: ICML 2026  

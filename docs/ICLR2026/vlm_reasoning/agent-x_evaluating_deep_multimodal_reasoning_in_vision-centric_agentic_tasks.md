@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks
+description: >-
+  [ICLR2026][VLM Reasoning][视觉中心 Agent] Agent-X 是一个面向「视觉中心 agent」的大规模评测基准，用 828 个真实多模态任务（图像/多图/视频/指令文本）覆盖 6 类场景，配上一套细粒度的「步级 + 推理链 + 结果」三模评测指标，结果显示连 GPT/Gemini/Qwen 系列最强模型的全链路成功率都不到 50%，暴露出当前大模型在多步视觉推理和工具调用上的硬伤。
+tags:
+  - "ICLR2026"
+  - "VLM Reasoning"
+  - "视觉中心 Agent"
+  - "深度多模态推理"
+  - "工具调用"
+  - "步级评测"
+  - "benchmark"
+---
+
 # Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks
 
 **会议**: ICLR2026  
-**OpenReview**: [Vjruxvp1Xd](https://openreview.net/forum?id=Vjruxvp1Xd)  
+**OpenReview**: [https://openreview.net/forum?id=Vjruxvp1Xd](https://openreview.net/forum?id=Vjruxvp1Xd)  
 **代码**: https://github.com/mbzuai-oryx/Agent-X  
 **领域**: 多模态VLM / Agent / 评测基准  
 **关键词**: 视觉中心 Agent、深度多模态推理、工具调用、步级评测、benchmark
@@ -122,9 +137,9 @@ flowchart TD
 
 - [\[CVPR 2026\] Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth](../../CVPR2026/vlm_reasoning/think_360_evaluating_the_width-centric_reasoning_capability_of_mllms_beyond_dept.md)
 - [\[ICLR 2026\] Ref-Adv: Exploring MLLM Visual Reasoning in Referring Expression Tasks](ref-adv_exploring_mllm_visual_reasoning_in_referring_expression_tasks.md)
+- [\[ICLR 2026\] MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos](mmr-v_whats_left_unsaid_a_benchmark_for_multimodal_deep_reasoning_in_videos.md)
 - [\[ICLR 2026\] Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models](agentic_jigsaw_interaction_learning_for_enhancing_visual_perception_and_reasonin.md)
 - [\[ICLR 2026\] GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models](gtr-bench_evaluating_geo-temporal_reasoning_in_vision-language_mod.md)
-- [\[CVPR 2026\] Agentic Video Summarization via Self-Reflecting Multimodal Understanding](../../CVPR2026/vlm_reasoning/agentic_video_summarization_via_self-reflecting_multimodal_understanding.md)
 
 </div>
 

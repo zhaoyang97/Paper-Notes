@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Functional Equivalence in Attention: A Comprehensive Study with Applications to Linear Mode Connectivity
+description: >-
+  [ICML 2026][函数等价] 这篇论文从理论上刻画了带位置编码的 Transformer 注意力的「函数等价」对称群——证明正弦位置编码保持原始注意力的对称结构、而 RoPE 把对称群大幅压缩从而提升表达力，并据此设计了一个适配两种位置编码的两阶段权重匹配算法，系统验证了不同设置下的线性模式连通性（LMC）。
+tags:
+  - "ICML 2026"
+  - "函数等价"
+  - "位置编码"
+  - "RoPE"
+  - "线性模式连通性"
+  - "权重匹配"
+---
+
 # Functional Equivalence in Attention: A Comprehensive Study with Applications to Linear Mode Connectivity
 
 **会议**: ICML 2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Towards One-for-All Anomaly Detection for Tabular Data
+description: >-
+  [ICML 2026][自监督学习][表格异常检测] 提出 OFA-TAD：用"邻居距离"作为跨域通用的异常线索，在多种特征变换诱导的度量空间里抽多视图距离表示，再用专家混合（MoE）门控自适应融合，训练一次即可直接泛化到未见过的表格数据集做异常检测，无需任何目标域微调。 领域现状：表格异常检测（TAD）几乎都是"一数据集一…
+tags:
+  - "ICML 2026"
+  - "自监督学习"
+  - "表格异常检测"
+  - "One-for-All"
+  - "多视图距离"
+  - "专家混合"
+  - "伪异常合成"
+---
+
 # Towards One-for-All Anomaly Detection for Tabular Data
 
 **会议**: ICML 2026  

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making
+description: >-
+  [ICLR2026][强化学习][扩散决策] Ada-Diffuser 把"随时间演化的隐藏上下文（风、目标、技能）"显式塞进扩散式决策模型：先用理论证明只需 4 个相邻观测的小时间块就能辨识潜变量，再用一个"去噪—精修"机制 + zig-zag 采样让扩散模型在线推断潜变量并据此规划/控制，在 8 个环境 23 种设定上稳定超过现有扩散规划器与潜上下文 baseline。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "扩散决策"
+  - "潜变量辨识"
+  - "POMDP"
+  - "自回归扩散"
+  - "因果生成"
+---
+
 # Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making
 
 **会议**: ICLR2026  
-**OpenReview**: [PKifFVXtSR](https://openreview.net/forum?id=PKifFVXtSR)  
+**OpenReview**: [https://openreview.net/forum?id=PKifFVXtSR](https://openreview.net/forum?id=PKifFVXtSR)  
 **代码**: 项目页 <https://sites.google.com/view/ada-diffuser>  
 **领域**: 强化学习 / 扩散决策  
 **关键词**: 扩散决策, 潜变量辨识, POMDP, 自回归扩散, 因果生成
@@ -138,10 +153,10 @@ $$\mathcal L_{\text{rel}}=\mathrm{softplus}\big(\log \mathcal L_{\text{post}}-\l
 ## 相关论文
 
 - [\[ICLR 2026\] EMFuse: Energy-based Model Fusion for Decision Making](emfuse_energy-based_model_fusion_for_decision_making.md)
-- [\[NeurIPS 2025\] Structured Reinforcement Learning for Combinatorial Decision-Making](../../NeurIPS2025/reinforcement_learning/structured_reinforcement_learning_for_combinatorial_decision-making.md)
+- [\[ICLR 2026\] Information-based Value Iteration Networks for Decision Making Under Uncertainty](information-based_value_iteration_networks_for_decision_making_under_uncertainty.md)
 - [\[ICLR 2026\] Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation](accelerating_diffusion_planners_in_offline_rl_via_reward-aware_consistency_traje.md)
+- [\[NeurIPS 2025\] Structured Reinforcement Learning for Combinatorial Decision-Making](../../NeurIPS2025/reinforcement_learning/structured_reinforcement_learning_for_combinatorial_decision-making.md)
 - [\[ICML 2025\] Counterfactual Effect Decomposition in Multi-Agent Sequential Decision Making](../../ICML2025/reinforcement_learning/counterfactual_effect_decomposition_in_multi-agent_sequential_decision_making.md)
-- [\[ICML 2025\] Enhancing Decision-Making of Large Language Models via Actor-Critic](../../ICML2025/reinforcement_learning/enhancing_decision-making_of_large_language_models_via_actor-critic.md)
 
 </div>
 

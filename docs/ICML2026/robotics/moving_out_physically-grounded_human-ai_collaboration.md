@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Moving Out: Physically-grounded Human-AI Collaboration
+description: >-
+  [ICML 2026][机器人][人机协作] 针对"现有人机协作 benchmark 都是离散/符号化、不考虑物理约束"的空白，本文造了一个基于 2D 刚体物理引擎、连续状态-动作空间的协作环境 **Moving Out**（两人合搬重物、绕墙角转向），并提出 **BASS**（行为增强 + 动态模拟 + 动作筛选）方法，让 AI 在面对没见过的人类行为和没见过的物体属性时仍能稳定配合，和真人合作时任务完成率几乎翻倍。
+tags:
+  - "ICML 2026"
+  - "机器人"
+  - "人机协作"
+  - "具身智能"
+  - "行为增强"
+  - "世界模型"
+  - "模仿学习"
+---
+
 # Moving Out: Physically-grounded Human-AI Collaboration
 
 **会议**: ICML 2026  

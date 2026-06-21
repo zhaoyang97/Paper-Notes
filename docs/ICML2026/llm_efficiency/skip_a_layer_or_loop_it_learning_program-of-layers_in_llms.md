@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Skip a Layer or Loop It? Learning Program-of-Layers in LLMs
+description: >-
+  [ICML2026][LLM效率][程序化层级] 本文把预训练 LLM 的每一层看成可被任意调用的"原子函数"，提出"程序化层级"（Program-of-Layers, PoLar）——为每个输入定制一个可**跳过(skip)或循环(loop)**层的执行程序；先用 MCTS 实证发现这类更优程序对几乎每个输入都训练-free 地存在，再训一个轻量预测网络单次预测出执行程序，在数学推理基准上比标准前向和已有动态深度方法都更准、还常常执行更少的层。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "程序化层级"
+  - "层跳过与循环"
+  - "动态深度"
+  - "测试时扩展"
+  - "潜在推理"
+---
+
 # Skip a Layer or Loop It? Learning Program-of-Layers in LLMs
 
 **会议**: ICML2026  

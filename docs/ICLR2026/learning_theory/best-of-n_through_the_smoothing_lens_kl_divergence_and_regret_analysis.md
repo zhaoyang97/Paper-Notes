@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Best-of-N through the Smoothing Lens: KL Divergence and Regret Analysis
+description: >-
+  [ICLR2026][学习理论][Best-of-N] 本文把推理时对齐里最常用的 Best-of-N（BoN）放进"软化"框架 Soft Best-of-N（SBoN）来分析，给出 SBoN/BoN 相对参考策略的 KL 散度上界、相对最优策略的遗憾（regret）上下界，并证明：当代理奖励模型质量差、发生过优化时，存在一个有限的逆温度 $\beta$ 使 SBoN 的遗憾界比 BoN 更紧，从而缓解 reward hacking。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "LLM 对齐"
+  - "Best-of-N"
+  - "推理时对齐"
+  - "KL 散度"
+  - "遗憾界"
+  - "奖励过优化"
+---
+
 # Best-of-N through the Smoothing Lens: KL Divergence and Regret Analysis
 
 **会议**: ICLR2026  
-**OpenReview**: [tCv1D3M7Lb](https://openreview.net/forum?id=tCv1D3M7Lb)  
+**OpenReview**: [https://openreview.net/forum?id=tCv1D3M7Lb](https://openreview.net/forum?id=tCv1D3M7Lb)  
 **代码**: 待确认  
 **领域**: 学习理论 / LLM 对齐  
 **关键词**: Best-of-N、推理时对齐、KL 散度、遗憾界、奖励过优化
@@ -127,10 +143,10 @@ $$\Delta J_{r^\star}\le \sqrt{\varepsilon_{\beta,r}(x)}\Big(\sqrt{C_{\infty,\hat
 ## 相关论文
 
 - [\[ICLR 2026\] A Sharp KL Convergence Analysis for Diffusion Models under Minimal Assumptions](a_sharp_kl_convergence_analysis_for_diffusion_models_under_minimal_assumptions.md)
-- [\[ICLR 2026\] Efficient Credal Prediction through Decalibration](efficient_credal_prediction_through_decalibration.md)
-- [\[ICLR 2026\] A Faster Parameter-Free Regret Matching Algorithm](a_faster_parameter-free_regret_matching_algorithm.md)
-- [\[ICLR 2026\] Ads that Stick: Near-Optimal Ad Optimization through Psychological Behavior Models](ads_that_stick_near-optimal_ad_optimization_through_psychological_behavior_model.md)
-- [\[ICLR 2026\] Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling](best-of-majority_minimax-optimal_strategy_for_passk_inference_scaling.md)
+- [\[ICLR 2026\] Revisiting Tree-Sliced Wasserstein Distance through the Lens of the Fermat–Weber Problem](revisiting_tree-sliced_wasserstein_distance_through_the_lens_of_the_fermatweber_.md)
+- [\[ICLR 2026\] Towards a Sharp Analysis of Offline Policy Learning for f-Divergence-Regularized Contextual Bandits](towards_a_sharp_analysis_of_offline_policy_learning_for_f-divergence-regularized.md)
+- [\[ICLR 2026\] On the Interpolation Effect of Score Smoothing in Diffusion Models](on_the_interpolation_effect_of_score_smoothing_in_diffusion_models.md)
+- [\[ICLR 2026\] Reshaping Reasoning in LLMs: A Theoretical Analysis of RL Training Dynamics through Pattern Selection](reshaping_reasoning_in_llms_a_theoretical_analysis_of_rl_training_dynamics_throu.md)
 
 </div>
 

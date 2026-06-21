@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Impatient Users Confuse AI Agents: High-fidelity Simulations of Human Traits for Testing Agents
+description: >-
+  [ACL 2026 (Oral)][LLM Agent][AI Agent鲁棒性] 作者提出 TraitBasis——一种无需微调、模型无关的轻量方法，用对比激活差在隐藏空间里抽出「不耐烦/困惑/怀疑/语无伦次」等用户特质方向，可在推理时缩放、组合、注入来高保真地模拟刁难型用户；把它接进 τ-Bench 得到 τ-trait 基准后，发现前沿 agent 在用户行为变化下性能平均掉 4%–20%（最高 46%），戳穿了「benchmark 高分=真鲁棒」的假象。
+tags:
+  - "ACL 2026 (Oral)"
+  - "LLM Agent"
+  - "AI Agent鲁棒性"
+  - "用户模拟"
+  - "激活引导"
+  - "人格向量"
+  - "τ-Bench"
+---
+
 # Impatient Users Confuse AI Agents: High-fidelity Simulations of Human Traits for Testing Agents
 
 **会议**: ACL 2026 (Oral)  

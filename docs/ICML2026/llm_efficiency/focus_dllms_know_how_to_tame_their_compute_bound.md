@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] FOCUS: DLLMs Know How to Tame Their Compute Bound
+description: >-
+  [ICML 2026][LLM效率][扩散语言模型] FOCUS 发现扩散大语言模型（DLLM）解码时一个 block 里每步只有约 10% 的 token 真正被解码、其余 90% 算力全浪费，并揭示"前两层注意力重要度的增量"能高度预测哪些 token 这一步可解码；据此设计一套免训练的推理系统，在 Layer 1 后就把不可解码 token 驱逐掉，让有效 batch 变大，在大 batch 下相对生产级引擎 LMDeploy 拿到最高 3.52× 的吞吐提升且生成质量不降反升。
+tags:
+  - "ICML 2026"
+  - "LLM效率"
+  - "扩散语言模型"
+  - "推理加速"
+  - "token 驱逐"
+  - "注意力重要度"
+  - "吞吐量"
+---
+
 # FOCUS: DLLMs Know How to Tame Their Compute Bound
 
 **会议**: ICML 2026  

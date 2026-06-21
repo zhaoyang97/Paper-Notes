@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Physics-Inspired Optimizer: Velocity Regularized Adam
+description: >-
+  [ICLR2026][图像生成][物理启发优化器] 本文提出 VRAdam（Velocity-Regularized Adam），把"四次方动能项"这一物理稳定机制翻译成一个**随速度自动收缩的全局动态学习率** $\eta_t=\alpha_0/(1+\min(\beta_3\|v_t\|^2,\alpha_1))$ 嵌进 AdamW，在权重更新过大时自动减速、抑制稳定边缘附近的震荡，并配上严格的 Lyapunov 稳定性与 $O(\ln N/\sqrt N)$ 收敛证明，在图像分类、语言建模、GFlowNets、GPT-2 预训练与 LLM 微调上普遍优于 AdamW。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "物理启发优化器"
+  - "速度正则化"
+  - "稳定边缘"
+  - "Adam"
+  - "Lyapunov 稳定性"
+---
+
 # A Physics-Inspired Optimizer: Velocity Regularized Adam
 
 **会议**: ICLR2026  
-**OpenReview**: [6BhduwrCp3](https://openreview.net/forum?id=6BhduwrCp3)  
+**OpenReview**: [https://openreview.net/forum?id=6BhduwrCp3](https://openreview.net/forum?id=6BhduwrCp3)  
 **代码**: 待确认  
 **领域**: 优化器 / 训练动力学  
 **关键词**: 物理启发优化器、速度正则化、稳定边缘、Adam、Lyapunov 稳定性
@@ -135,10 +150,10 @@ GSM8K 上 GPT-2-Large 微调，精确匹配准确率从 AdamW 的 35% 提升到 
 ## 相关论文
 
 - [\[ICLR 2026\] PI-Light: Physics-Inspired Diffusion for Full-Image Relighting](pi-light_physics-inspired_diffusion_for_full-image_relighting.md)
-- [\[ICLR 2026\] Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency](large_scale_diffusion_distillation_via_score-regularized_continuous-time_consist.md)
+- [\[ICLR 2026\] Terminal Velocity Matching](terminal_velocity_matching.md)
 - [\[ICLR 2026\] GenCP: Towards Generative Modeling Paradigm of Coupled Physics](gencp_towards_generative_modeling_paradigm_of_coupled_physics.md)
-- [\[ICML 2026\] Stable Velocity: A Variance Perspective on Flow Matching](../../ICML2026/image_generation/stable_velocity_a_variance_perspective_on_flow_matching.md)
-- [\[ICML 2026\] CoCoEdit: Content-Consistent Image Editing via Region Regularized Reinforcement Learning](../../ICML2026/image_generation/cocoedit_content-consistent_image_editing_via_region_regularized_reinforcement_l.md)
+- [\[ICLR 2026\] Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer](half-order_fine-tuning_for_diffusion_model_a_recursive_likelihood_ratio_optimize.md)
+- [\[ICLR 2026\] FlowAlign: Trajectory-Regularized, Inversion-Free Flow-based Image Editing](flowalign_trajectory-regularized_inversion-free_flow-based_image_editing.md)
 
 </div>
 

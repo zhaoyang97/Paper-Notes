@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Incentives Of EdTech: A Systematic Review Of EduNLP Research
+description: >-
+  [ACL2026][LLM 其他][教育技术] 这是首个聚焦 ACL Anthology 的 EduNLP（教育自然语言处理）系统文献综述：作者手工标注 2024–2025 年 BEA/NLP4CALL workshop 与主会的 204 篇论文，从任务、动机、利益相关者纳入、激励结构、伦理风险五个维度盘点全领域，发现一个核心张力——研究被私营部门激励（商业自动评分等）牵着走，而教育基础设施真正的需求（尤其是教师）被系统性忽视：教师仅在 33.3% 论文中被当作受益者、真实部署仅占 9.8%、伦理参与多停留在"承认"而非"行动"。
+tags:
+  - "ACL2026"
+  - "LLM 其他"
+  - "教育技术"
+  - "系统文献综述"
+  - "利益相关者"
+  - "研究激励"
+  - "AI 伦理"
+---
+
 # Incentives Of EdTech: A Systematic Review Of EduNLP Research
 
 **会议**: ACL2026  

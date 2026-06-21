@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] AIRE-Prune: Asymptotic Impulse-Response Energy for State Pruning in State Space Models
+description: >-
+  [ICLR2026][模型压缩][状态空间模型] AIRE-Prune 为对角状态空间模型（SSM）的每个状态算出一个闭式的"无限时域脉冲响应能量"分数，再用前缀归一化把不同层的分数拉到同一尺度，仅凭一个全局阈值、无需重训就能剪掉平均 60.8% 的状态，而精度只掉 0.29 个百分点。 领域现状：现代深度状态空间模型（S4…
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "状态空间模型"
+  - "结构化剪枝"
+  - "模型降阶"
+  - "脉冲响应能量"
+  - "训练后压缩"
+---
+
 # AIRE-Prune: Asymptotic Impulse-Response Energy for State Pruning in State Space Models
 
 **会议**: ICLR2026  
-**OpenReview**: [JLUxTl1Um6](https://openreview.net/forum?id=JLUxTl1Um6)  
+**OpenReview**: [https://openreview.net/forum?id=JLUxTl1Um6](https://openreview.net/forum?id=JLUxTl1Um6)  
 **代码**: https://github.com/falcon-arrow/AIRE-Prune （论文承诺释出）  
 **领域**: 模型压缩 / 状态空间模型  
 **关键词**: 状态空间模型, 结构化剪枝, 模型降阶, 脉冲响应能量, 训练后压缩
@@ -125,11 +140,11 @@ $$\mathrm{AIRE\text{-}Prune}\big(x^{(\ell)}_{(i)}\big)=\frac{E^{(\ell)}_{(i)}}{S
 
 ## 相关论文
 
+- [\[ICLR 2026\] The Curious Case of In-Training Compression of State Space Models](the_curious_case_of_in-training_compression_of_state_space_models.md)
 - [\[ACL 2025\] State-offset Tuning: State-based Parameter-Efficient Fine-Tuning for State Space Models](../../ACL2025/model_compression/state_offset_tuning_ssm_peft.md)
 - [\[ICML 2025\] Parameter-Efficient Fine-Tuning of State Space Models](../../ICML2025/model_compression/parameter-efficient_fine-tuning_of_state_space_models.md)
-- [\[CVPR 2025\] EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality](../../CVPR2025/model_compression/efficientvim_efficient_vision_mamba_with_hidden_state_mixer_based_state_space_du.md)
-- [\[CVPR 2025\] MambaIC: State Space Models for High-Performance Learned Image Compression](../../CVPR2025/model_compression/mambaic_state_space_models_for_high-performance_learned_image_compression.md)
-- [\[NeurIPS 2025\] Hankel Singular Value Regularization for Highly Compressible State Space Models](../../NeurIPS2025/model_compression/hankel_singular_value_regularization_for_highly_compressible_state_space_models.md)
+- [\[ICLR 2026\] SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality](ssdi8_accurate_and_efficient_8-bit_quantization_for_state_space_duality.md)
+- [\[CVPR 2025\] Mamba-Adaptor: State Space Model Adaptor for Visual Recognition](../../CVPR2025/model_compression/mamba-adaptor_state_space_model_adaptor_for_visual_recognition.md)
 
 </div>
 

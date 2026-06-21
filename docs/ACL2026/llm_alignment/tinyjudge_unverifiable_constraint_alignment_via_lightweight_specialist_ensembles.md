@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] TinyJudge: Unverifiable Constraint Alignment via Lightweight Specialist Ensembles
+description: >-
+  [ACL 2026][LLM对齐][不可验证约束] 针对 RLVR 指令跟随中用大模型当裁判（LLM-as-a-judge）评判软约束时奖励精度低、训练慢的问题，TinyJudge 先发现"软约束里只有 style/structure/semantic 三类具备高泛化性"，再把前沿模型的判分能力蒸馏进若干个 0.6B 的专家小模型组成集成奖励，使奖励精度提升约 12%、判分提速 6×、总训练时间缩短 3×，同时下游指令满足率平均提升约 10%。
+tags:
+  - "ACL 2026"
+  - "LLM对齐"
+  - "不可验证约束"
+  - "LLM-as-a-judge"
+  - "奖励黑客"
+  - "专家蒸馏"
+  - "GRPO"
+---
+
 # TinyJudge: Unverifiable Constraint Alignment via Lightweight Specialist Ensembles
 
 **会议**: ACL 2026  

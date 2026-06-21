@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Shift-Dependent Asymmetry: Orthogonal Inverse Low-Rank Adaptation for Federated Medical Segmentation
+description: >-
+  [ICML2026][医学图像][联邦学习] 针对"用联邦 LoRA 微调医学分割大模型时各客户端数据异质"的问题，本文发现编码器和解码器面对的异质性来源根本不同（编码器主要被外观/采集偏移主导、解码器被标注/概念偏移主导），于是提出 IAT 在两个模块上**反向分配** LoRA 的共享/本地因子，再用 SOR 子空间正交正则堵住双线性参数化里"本地更新泄漏进共享方向"的暗道，在组织病理与眼底两类医学分割上稳定超过强联邦 LoRA 基线。
+tags:
+  - "ICML2026"
+  - "医学图像"
+  - "联邦学习"
+  - "LoRA"
+  - "医学分割"
+  - "编码器-解码器非对称"
+  - "子空间正交"
+---
+
 # Shift-Dependent Asymmetry: Orthogonal Inverse Low-Rank Adaptation for Federated Medical Segmentation
 
 **会议**: ICML2026  

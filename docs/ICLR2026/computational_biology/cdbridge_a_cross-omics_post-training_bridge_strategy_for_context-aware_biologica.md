@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] CDBridge: A Cross-omics Post-training Bridge Strategy for Context-aware Biological Modeling
+description: >-
+  [ICLR2026][计算生物][中心法则] CDBridge 提出一种"后训练桥接"策略，把已经预训练好的冻结 DNA 模型和蛋白质模型在不重新训练的前提下拼到一起，通过"剪接启发的自适应 token 合并 + 组织条件解码器"两阶段对齐，首次让模型既能做 DNA→蛋白的定性功能对齐、又能在不同组织语境下做定量基因表达预测。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "中心法则"
+  - "跨组学桥接"
+  - "后训练"
+  - "组织感知表达预测"
+  - "自适应 token 合并"
+---
+
 # CDBridge: A Cross-omics Post-training Bridge Strategy for Context-aware Biological Modeling
 
 **会议**: ICLR2026  
-**OpenReview**: [Hk4Fb6kaYF](https://openreview.net/forum?id=Hk4Fb6kaYF)  
+**OpenReview**: [https://openreview.net/forum?id=Hk4Fb6kaYF](https://openreview.net/forum?id=Hk4Fb6kaYF)  
 **代码**: 待确认  
 **领域**: 计算生物学 / 跨组学建模  
 **关键词**: 中心法则、跨组学桥接、后训练、组织感知表达预测、自适应 token 合并
@@ -142,3 +157,19 @@ Stage 1 只管 DNA↔蛋白的结构对齐，但同一段 DNA 在脑、心、肾
 - 实验充分度: ⭐⭐⭐⭐ 主实验 + 三个下游任务 + 细致消融 + 信息泄露控制实验齐全，但绝对 $R^2$ 偏低、超长基因被排除。
 - 写作质量: ⭐⭐⭐⭐ Table 1 能力矩阵和两阶段图把定位讲得很清楚，可解释性可视化有说服力。
 - 价值: ⭐⭐⭐⭐⭐ 给"DNA→组织特异定量表达"这个长期难题提供了可扩展且生物可信的方案，并配套了 GTEx-Benchmark，对计算生物学社区有实用价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories](../../ICML2026/computational_biology/stride_post-training_llms_to_reason_and_refine_bio-sequences_via_edit_trajectori.md)
+- [\[AAAI 2026\] MergeDNA: Context-aware Genome Modeling with Dynamic Tokenization through Token Merging](../../AAAI2026/computational_biology/mergedna_context-aware_genome_modeling_with_dynamic_tokenization_through_token_m.md)
+- [\[ICLR 2026\] AntigenLM: Structure-Aware DNA Language Modeling for Influenza](antigenlm_structure-aware_dna_language_modeling_for_influenza.md)
+- [\[ICLR 2026\] CP-Agent: Context-Aware Multimodal Reasoning for Cellular Morphological Profiling under Chemical Perturbations](cp-agent_contextaware_multimodal_reasoning_for_cellular_morphological_profiling_.md)
+- [\[ICLR 2026\] Controllable Diffusion-based Generation for Multi-channel Biological Data](controllable_diffusion-based_generation_for_multi-channel_biological_data.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency
+description: >-
+  [ICLR 2026][可解释性][注意力探测] 针对「注意力探测」这一日益流行的冻结表示评估协议普遍参数臃肿的问题，本文先把已有方法统一成一个框架，再利用多头交叉注意力与多查询交叉注意力的**数学等价性**砍掉冗余投影矩阵，提出极轻量的 Efficient Probing（EP）——在 ImageNet-1K 上以不到 1.4M 参数把 MAE ViT-B 的探测精度从线性探测的 67.7% 拉到 75.6%，且各预训练范式上全面超越线性探测与已有注意力探测方法。
+tags:
+  - "ICLR 2026"
+  - "可解释性"
+  - "注意力探测"
+  - "表示评估"
+  - "多查询交叉注意力"
+  - "参数高效"
+  - "冻结主干"
+---
+
 # Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency
 
 **会议**: ICLR 2026  
-**OpenReview**: [PXo0gtT7Al](https://openreview.net/forum?id=PXo0gtT7Al)  
+**OpenReview**: [https://openreview.net/forum?id=PXo0gtT7Al](https://openreview.net/forum?id=PXo0gtT7Al)  
 **代码**: https://vrg.fel.cvut.cz/ep/ (项目页)  
 **领域**: 自监督 / 表示学习评估  
 **关键词**: 注意力探测, 表示评估, 多查询交叉注意力, 参数高效, 冻结主干
@@ -88,6 +103,7 @@ EP 砍掉了 query/key 侧的投影，但**刻意保留 value 变换** $V = W_V 
 关键现象：**预训练越是优化 patch 局部表示（而非显式全局表示）的模型，越受益于注意力探测**（SimMIM +13.6、DiT +24.3 最夸张）；而对本就有强全局描述子的 JEA/DINO，增益很小（+0.5 量级）。更有意思的是，EP **改变了方法间的相对排名**——在 LP/k-NN 下看似更弱的 MIM 方法翻盘：MAE 反超 BYOL、CAPI 反超 CLIP，挑战了「MIM 表示更弱」的既有印象。
 
 ### 消融实验
+
 | 配置 | 关键指标 (top-1) | 说明 |
 |------|---------|------|
 | EP12（完整） | 75.1% | 与 AIM12 精度持平，但 1.36M vs 1.95M 参数 |
@@ -127,3 +143,19 @@ EP 砍掉了 query/key 侧的投影，但**刻意保留 value 变换** $V = W_V 
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 5 大预训练范式、7 个数据集、与 PEFT 横评，消融到位
 - 写作质量: ⭐⭐⭐⭐⭐ 框架推导清晰、表格组织有力，结论有反直觉看点
 - 价值: ⭐⭐⭐⭐⭐ 给社区一个又轻又准的标准探测协议，并纠正了表示评估的系统性偏差
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Probing Rotary Position Embeddings through Frequency Entropy](probing_rotary_position_embeddings_through_frequency_entropy.md)
+- [\[ACL 2026\] Through a Compressed Lens: Investigating The Impact of Quantization on Factual Knowledge Recall](../../ACL2026/interpretability/through_a_compressed_lens_investigating_the_impact_of_quantization_on_factual_kn.md)
+- [\[ICLR 2026\] An Information-Theoretic Parameter-Free Bayesian Framework for Probing Labeled Dependency Trees from Attention Score](an_information-theoretic_parameter-free_bayesian_framework_for_probing_labeled_d.md)
+- [\[CVPR 2026\] Selection-as-Nonlinearity: Bridging Attention and Activation via a Joint Game-Decision Lens for Interpretable, Discriminative Visual Representations](../../CVPR2026/interpretability/selection-as-nonlinearity_bridging_attention_and_activation_via_a_joint_game-dec.md)
+- [\[ICLR 2026\] GAVEL: Towards Rule-Based Safety through Activation Monitoring](gavel_towards_rule-based_safety_through_activation_monitoring.md)
+
+</div>
+
+<!-- RELATED:END -->

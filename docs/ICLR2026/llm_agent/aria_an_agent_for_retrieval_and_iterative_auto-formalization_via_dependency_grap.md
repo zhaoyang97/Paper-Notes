@@ -16,7 +16,7 @@ tags:
 # Aria: an Agent for Retrieval and Iterative Auto-Formalization via Dependency Graph
 
 **会议**: ICLR2026  
-**OpenReview**: [CPxZClPMiy](https://openreview.net/forum?id=CPxZClPMiy)  
+**OpenReview**: [https://openreview.net/forum?id=CPxZClPMiy](https://openreview.net/forum?id=CPxZClPMiy)  
 **代码**: 待确认  
 **领域**: LLM Agent / 自动形式化 / 定理证明  
 **关键词**: 自动形式化, Lean, 思维图, 检索增强, 语义校验
@@ -151,10 +151,10 @@ LeanScorer 正是 AriaScorer **去掉术语级接地**的消融版（同一基�
 ## 相关论文
 
 - [\[ACL 2025\] GeAR: Graph-enhanced Agent for Retrieval-augmented Generation](../../ACL2025/llm_agent/gear_graph-enhanced_agent_for_retrieval-augmented_generation.md)
-- [\[CVPR 2026\] VULCAN: Tool-Augmented Multi Agents for Iterative 3D Object Arrangement](../../CVPR2026/llm_agent/vulcan_tool-augmented_multi_agents_for_iterative_3d_object_arrangement.md)
+- [\[ICLR 2026\] R-WoM: Retrieval-augmented World Model for Computer-use Agents](r-wom_retrieval-augmented_world_model_for_computer-use_agents.md)
+- [\[ICLR 2026\] MobileIPL: Enhancing Mobile Agents Thinking Process via Iterative Preference Learning](mobileipl_enhancing_mobile_agents_thinking_process_via_iterative_preference_lear.md)
+- [\[ICLR 2026\] GTool: Graph Enhanced Tool Planning with Large Language Model](gtool_graph_enhanced_tool_planning_with_large_language_model.md)
 - [\[ACL 2026\] OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](../../ACL2026/llm_agent/ocr-memory_optical_context_retrieval_for_long-horizon_agent_memory.md)
-- [\[ACL 2026\] IntrAgent: An LLM Agent for Content-Grounded Information Retrieval through Literature Review](../../ACL2026/llm_agent/intragent_an_llm_agent_for_content-grounded_information_retrieval_through_litera.md)
-- [\[NeurIPS 2025\] Distilling LLM Agent into Small Models with Retrieval and Code Tools](../../NeurIPS2025/llm_agent/distilling_llm_agent_into_small_models_with_retrieval_and_co.md)
 
 </div>
 

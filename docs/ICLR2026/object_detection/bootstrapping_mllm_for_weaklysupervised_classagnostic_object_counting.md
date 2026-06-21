@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Bootstrapping MLLM for Weakly-Supervised Class-Agnostic Object Counting
+description: >-
+  [ICLR2026][目标检测][类无关计数] WS-COC 是首个用多模态大模型（MLLM）做弱监督类无关目标计数的框架，只用图像级总数作监督，靠"二分对话调优 + 比较排序优化 + 全局局部融合"三个简单策略把 MLLM 的计数能力激活出来，在 FSC-147 等四个数据集上逼近甚至超过部分点级监督的全监督方法。
+tags:
+  - "ICLR2026"
+  - "目标检测"
+  - "类无关计数"
+  - "弱监督"
+  - "MLLM"
+  - "对话式课程学习"
+  - "排序优化"
+---
+
 # Bootstrapping MLLM for Weakly-Supervised Class-Agnostic Object Counting
 
 **会议**: ICLR2026  
-**OpenReview**: [QUE0CuClXe](https://openreview.net/forum?id=QUE0CuClXe)  
+**OpenReview**: [https://openreview.net/forum?id=QUE0CuClXe](https://openreview.net/forum?id=QUE0CuClXe)  
 **代码**: https://github.com/viscom-tongji/WS-COC  
 **领域**: 目标计数 / 多模态VLM / 弱监督学习  
 **关键词**: 类无关计数、弱监督、MLLM、对话式课程学习、排序优化
@@ -136,11 +151,11 @@ FSC-147 上逐策略剥离（数值为去掉/替换后相对完整模型的变�
 
 ## 相关论文
 
-- [\[ICLR 2026\] Bootstrapping MLLM for Weakly-Supervised Class-Agnostic Object Counting (WS-COC)](bootstrapping_mllm_for_weakly-supervised_class-agnostic_object_counting.md)
 - [\[ICLR 2026\] SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection](spwood_sparse_partial_weakly-supervised_oriented_object_detection.md)
 - [\[CVPR 2026\] Partial Weakly-Supervised Oriented Object Detection](../../CVPR2026/object_detection/partial_weakly-supervised_oriented_object_detection.md)
-- [\[ICLR 2026\] CGSA: Class-Guided Slot-Aware Adaptation for Source-Free Object Detection](cgsa_class-guided_slot-aware_adaptation_for_source-free_object_detection.md)
+- [\[ICCV 2025\] Toward Long-Tailed Online Anomaly Detection through Class-Agnostic Concepts](../../ICCV2025/object_detection/toward_long-tailed_online_anomaly_detection_through_class-agnostic_concepts.md)
 - [\[AAAI 2026\] TubeRMC: Tube-conditioned Reconstruction with Mutual Constraints for Weakly-supervised Spatio-Temporal Video Grounding](../../AAAI2026/object_detection/tubermc_tube-conditioned_reconstruction_with_mutual_constraints_for_weakly-super.md)
+- [\[ICLR 2026\] CGSA: Class-Guided Slot-Aware Adaptation for Source-Free Object Detection](cgsa_class-guided_slot-aware_adaptation_for_source-free_object_detection.md)
 
 </div>
 

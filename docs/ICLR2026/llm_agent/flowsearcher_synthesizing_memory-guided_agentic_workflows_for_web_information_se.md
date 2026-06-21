@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] FlowSearcher: Synthesizing Memory-Guided Agentic Workflows for Web Information Seeking
+description: >-
+  [ICLR 2026][LLM Agent][工作流合成] FlowSearcher 把 Web 信息搜索从「ReAct 式的线性工具链」重新表述为「记忆引导的 agentic 工作流合成」——先把查询拆成子目标、为每个子目标合成一张有类型的工作流 DAG，再用一套 node/graph/task 三级记忆把过往轨迹沉淀为可复用的结构化经验注入编排与执行，从而在不做任何监督微调或 RLHF 的前提下，在 GAIA / BrowseComp / GPQA 上追平甚至超过同规模的 RL 训练 Web 智能体。
+tags:
+  - "ICLR 2026"
+  - "LLM Agent"
+  - "工作流合成"
+  - "分层记忆"
+  - "经验复用"
+  - "深度研究智能体"
+  - "Web 信息搜索"
+---
+
 # FlowSearcher: Synthesizing Memory-Guided Agentic Workflows for Web Information Seeking
 
 **会议**: ICLR 2026  
-**OpenReview**: [34v7DVz2l0](https://openreview.net/forum?id=34v7DVz2l0)  
+**OpenReview**: [https://openreview.net/forum?id=34v7DVz2l0](https://openreview.net/forum?id=34v7DVz2l0)  
 **代码**: https://github.com/XiangKeYiNTU/flowsearcher  
 **领域**: LLM Agent / 深度搜索 / Agentic Workflow  
 **关键词**: 工作流合成, 分层记忆, 经验复用, 深度研究智能体, Web 信息搜索
@@ -146,11 +161,11 @@ $$R(Q^*, \mu^*; \zeta) = \mathop{\arg\text{top-}k}\limits_{M^{task},\, Q,\, M^\z
 
 ## 相关论文
 
-- [\[ACL 2026\] ExpSeek: Self-Triggered Experience Seeking for Web Agents](../../ACL2026/llm_agent/expseek_self-triggered_experience_seeking_for_web_agents.md)
-- [\[ICLR 2026\] WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](webarbiter_a_principle-guided_reasoning_process_reward_model_for_web_agents.md)
-- [\[ACL 2026\] The Bitter Lesson of Diffusion Language Models for Agentic Workflows: A Comprehensive Reality Check](../../ACL2026/llm_agent/the_bitter_lesson_of_diffusion_language_models_for_agentic_workflows_a_comprehen.md)
-- [\[ICLR 2026\] Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking](empowering_efficiency_and_efficacy_in_webagent_via_enabling_info-rich_seeking.md)
+- [\[ICLR 2026\] GPS: Graph-guided Proactive Information Seeking in Large Language Models](gps_graph-guided_proactive_information_seeking_in_large_language_models.md)
+- [\[ICLR 2026\] InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents](infomosaic-bench_evaluating_multi-source_information_seeking_in_tool-augmented_a.md)
+- [\[ICLR 2026\] An Information Theoretic Perspective on Agentic System Design](an_information_theoretic_perspective_on_agentic_system_design.md)
 - [\[ICLR 2026\] A Benchmark for Deep Information Synthesis (DeepSynth)](a_benchmark_for_deep_information_synthesis.md)
+- [\[ICLR 2026\] Type-Compliant Adaptation Cascades: Adapting Programmatic LM Workflows to Data](type-compliant_adaptation_cascades.md)
 
 </div>
 

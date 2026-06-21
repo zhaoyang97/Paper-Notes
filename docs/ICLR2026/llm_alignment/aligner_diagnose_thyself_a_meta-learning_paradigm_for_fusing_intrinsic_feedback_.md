@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Aligner, Diagnose Thyself: A Meta-Learning Paradigm for Fusing Intrinsic Feedback in Preference Alignment
+description: >-
+  [ICLR2026][LLM对齐][偏好对齐] 针对偏好数据集里"标错的偏好对"会毁掉 DPO 对齐的问题，本文不再依赖困惑度差这类单一启发式，而是让模型"自我诊断"——从一致性、学习难度、生成置信度三个内在信号拼出一个诊断向量，再用元学习训一个小网络学会融合这些信号给每个样本自适应加权，在多种噪声比例下显著超过现有鲁棒对齐方法。
+tags:
+  - "ICLR2026"
+  - "LLM对齐"
+  - "偏好对齐"
+  - "DPO"
+  - "噪声标签"
+  - "元学习"
+  - "样本重加权"
+---
+
 # Aligner, Diagnose Thyself: A Meta-Learning Paradigm for Fusing Intrinsic Feedback in Preference Alignment
 
 **会议**: ICLR2026  
-**OpenReview**: [oIAUP1K5Dq](https://openreview.net/forum?id=oIAUP1K5Dq)  
+**OpenReview**: [https://openreview.net/forum?id=oIAUP1K5Dq](https://openreview.net/forum?id=oIAUP1K5Dq)  
 **代码**: 待确认  
 **领域**: 对齐RLHF / 偏好优化 / 噪声鲁棒  
 **关键词**: 偏好对齐, DPO, 噪声标签, 元学习, 样本重加权
@@ -125,11 +140,11 @@ Vanilla DPO 随噪声升高准确率急剧下滑；cDPO/rDPO/DR-DPO 有改善但
 
 ## 相关论文
 
+- [\[ICLR 2026\] Stackelberg Learning from Human Feedback: Preference Optimization as a Sequential Game](stackelberg_learning_from_human_feedback_preference_optimization_as_a_sequential.md)
+- [\[ICLR 2026\] What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data](whats_in_my_human_feedback_learning_interpretable_descriptions_of_preference_dat.md)
 - [\[ACL 2026\] MAESTRO: Meta-learning Adaptive Estimation of Scalarization Trade-offs for Reward Optimization](../../ACL2026/llm_alignment/maestro_meta-learning_adaptive_estimation_of_scalarization_trade-offs_for_reward.md)
-- [\[NeurIPS 2025\] Strategyproof Reinforcement Learning from Human Feedback](../../NeurIPS2025/llm_alignment/strategyproof_reinforcement_learning_from_human_feedback.md)
-- [\[ACL 2026\] PERSA: Reinforcement Learning for Professor-Style Personalized Feedback with LLMs](../../ACL2026/llm_alignment/persa_reinforcement_learning_for_professor-style_personalized_feedback_with_llms.md)
-- [\[AAAI 2026\] Intrinsic Barriers and Practical Pathways for Human-AI Alignment: An Agreement-Based Complexity Analysis](../../AAAI2026/llm_alignment/intrinsic_barriers_and_practical_pathways_for_human-ai_alignment_an_agreement-ba.md)
-- [\[ACL 2025\] Curiosity-Driven Reinforcement Learning from Human Feedback](../../ACL2025/llm_alignment/curiosity_driven_rlhf.md)
+- [\[ICLR 2026\] Text2Grad: Reinforcement Learning from Natural Language Feedback](text2grad_reinforcement_learning_from_natural_language_feedback.md)
+- [\[ICLR 2026\] COMAL: A Convergent Meta-Algorithm for Aligning LLMs with General Preferences](comal_a_convergent_meta-algorithm_for_aligning_llms_with_general_preferences.md)
 
 </div>
 

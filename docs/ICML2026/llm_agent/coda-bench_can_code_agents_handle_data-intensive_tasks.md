@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CoDA-Bench: Can Code Agents Handle Data-Intensive Tasks?
+description: >-
+  [ICML2026][LLM Agent][代码智能体] CoDA-Bench 是第一个把"代码智能"和"数据智能"放在同一个数据密集 Linux 沙盒里联合评测的基准——智能体被丢进平均含 980 个文件的 Kaggle 生态环境里，必须先从一堆语义相似的干扰文件中自己找到对的数据、再写代码算出答案；结果连最强的 Mini-SWE-Agent (GPT-5.5) 也只有 61.1% 执行准确率，暴露出当前代码智能体严重缺乏自主数据发现能力。
+tags:
+  - "ICML2026"
+  - "LLM Agent"
+  - "代码智能体"
+  - "数据密集环境"
+  - "评测基准"
+  - "数据发现"
+  - "Kaggle"
+---
+
 # CoDA-Bench: Can Code Agents Handle Data-Intensive Tasks?
 
 **会议**: ICML2026  

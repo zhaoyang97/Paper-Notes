@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Characterizing Deep Research: A Benchmark and Formal Definition
+description: >-
+  [ICLR2026][LLM评测][深度研究] 这篇论文给"深度研究（Deep Research, DR）"这个被各家模型抢着用、却从没被严格定义过的任务下了一个形式化定义——核心不是"输出长报告"而是"搜索过程中对概念的高扇出（high fan-out）"，并据此构造了 100 道开放网络任务的 benchmark LIVEDRBENCH，用基于 claim 的精确率/召回率做客观打分，发现当前最强的 OpenAI DR 也只有 0.55 的平均 F1，系统普遍只覆盖了约一半的必要搜索查询。
+tags:
+  - "ICLR2026"
+  - "LLM评测"
+  - "深度研究"
+  - "形式化定义"
+  - "claim 评测"
+  - "问题反演"
+  - "信息合成"
+---
+
 # Characterizing Deep Research: A Benchmark and Formal Definition
 
 **会议**: ICLR2026  
-**OpenReview**: [5EmpOCq1Ql](https://openreview.net/forum?id=5EmpOCq1Ql)  
+**OpenReview**: [https://openreview.net/forum?id=5EmpOCq1Ql](https://openreview.net/forum?id=5EmpOCq1Ql)  
 **代码**: https://github.com/microsoft/LiveDRBench  
 **领域**: LLM 评测 / Deep Research / Agent benchmark  
 **关键词**: 深度研究, 形式化定义, claim 评测, 问题反演, 信息合成
@@ -121,3 +136,19 @@ $$\text{Prec}(A) = \frac{\sum_{A_i} w_i\, s(A_i)\, \text{Prec}(A_i)}{\sum_{A_i} 
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 3 家闭源 + 1 开源 DR 与 6 个基线、8 类任务，并做了推理轨迹的覆盖/深度/分支分析
 - 写作质量: ⭐⭐⭐⭐ 定义—指标—构造—评测的逻辑链清晰，图表（任务空间、问题反演、F1 分类别）到位
 - 价值: ⭐⭐⭐⭐⭐ 给一个正在爆发却缺乏共识定义的方向立了客观标尺，对推动 DR 评测标准化价值很大
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] DRBench: A Realistic Benchmark for Enterprise Deep Research](drbench_a_realistic_benchmark_for_enterprise_deep_research.md)
+- [\[ICLR 2026\] An Open-Ended Benchmark and Formal Framework for Adjuvant Research with MLLM](an_open-ended_benchmark_and_formal_framework_for_adjuvant_research_with_mllm.md)
+- [\[ICLR 2026\] DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents](deepresearch_bench_a_comprehensive_benchmark_for_deep_research_agents.md)
+- [\[ICLR 2026\] ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents](researchrubrics_a_benchmark_of_prompts_and_rubrics_for_evaluating_deep_research_.md)
+- [\[ICLR 2026\] LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild](liveresearchbench_a_live_benchmark_for_user-centric_deep_research_in_the_wild.md)
+
+</div>
+
+<!-- RELATED:END -->

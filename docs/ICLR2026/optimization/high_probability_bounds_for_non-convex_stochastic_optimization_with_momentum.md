@@ -16,7 +16,7 @@ tags:
 # High Probability Bounds for Non-Convex Stochastic Optimization with Momentum
 
 **会议**: ICLR 2026  
-**OpenReview**: [KirKWFPYJA](https://openreview.net/forum?id=KirKWFPYJA)  
+**OpenReview**: [https://openreview.net/forum?id=KirKWFPYJA](https://openreview.net/forum?id=KirKWFPYJA)  
 **代码**: 无（未公开）  
 **领域**: 非凸随机优化 / 学习理论  
 **关键词**: SGDM、高概率界、非凸优化、泛化界、重尾噪声
@@ -140,11 +140,11 @@ $$F(x_{T+1})-F(x^*)=\tilde O\!\Big(\tfrac{F(x^*)}{n}+\tfrac{1}{n^2}\Big),$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] High-Probability Bounds for the Last Iterate of Clipped SGD](high-probability_bounds_for_the_last_iterate_of_clipped_sgd.md)
+- [\[ICLR 2026\] Non-Convex Federated Optimization under Cost-Aware Client Selection](non-convex_federated_optimization_under_cost-aware_client_selection.md)
 - [\[NeurIPS 2025\] Stochastic Momentum Methods for Non-smooth Non-Convex Finite-Sum Coupled Compositional Optimization](../../NeurIPS2025/optimization/stochastic_momentum_methods_for_non-smooth_non-convex_finite-sum_coupled_composi.md)
-- [\[ICML 2026\] On the Provable Suboptimality of Momentum SGD in Nonstationary Stochastic Optimization](../../ICML2026/optimization/on_the_provable_suboptimality_of_momentum_sgd_in_nonstationary_stochastic_optimi.md)
-- [\[AAAI 2026\] A Distributed Asynchronous Generalized Momentum Algorithm Without Delay Bounds](../../AAAI2026/optimization/a_distributed_asynchronous_generalized_momentum_algorithm_wi.md)
-- [\[ICML 2026\] SPSsafe: Safeguarded Stochastic Polyak Step Sizes for Non-smooth Optimization](../../ICML2026/optimization/safeguarded_stochastic_polyak_step_sizes_for_non-smooth_optimization_robust_perf.md)
-- [\[ICLR 2026\] Non-Asymptotic Analysis of Efficiency in Conformalized Regression](non-asymptotic_analysis_of_efficiency_in_conformalized_regression.md)
+- [\[ICLR 2026\] High-dimensional limit theorems for SGD: Momentum and Adaptive Step-sizes](high-dimensional_limit_theorems_for_sgd_momentum_and_adaptive_step-sizes.md)
+- [\[ICLR 2026\] Clipped Gradient Methods for Nonsmooth Convex Optimization under Heavy-Tailed Noise: A Refined Analysis](clipped_gradient_methods_for_nonsmooth_convex_optimization_under_heavy-tailed_no.md)
 
 </div>
 

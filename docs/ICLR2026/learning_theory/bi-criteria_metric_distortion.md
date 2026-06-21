@@ -1,7 +1,23 @@
+---
+title: >-
+  [论文解读] Bi-Criteria Metric Distortion
+description: >-
+  [ICLR2026][学习理论][度量扭曲] 这篇论文把"度量扭曲（metric distortion）"框架从"只选一个赢家"推广到"允许选 k 个候选人的委员会、但仍和最优单一候选人比"，证明在一维直线上只要 2 个（求和目标）或 4 个（最大值目标）候选人就能完全消除扭曲（1-distortion = 1），而在二维欧氏 / 树度量下即使选 $m-1$ 个候选人也无法做到，从而揭示出直线度量与高维度量之间一条干净利落的分界线。
+tags:
+  - "ICLR2026"
+  - "学习理论"
+  - "计算社会选择"
+  - "度量扭曲"
+  - "社会选择理论"
+  - "投票机制"
+  - "委员会选举"
+  - "近似界"
+---
+
 # Bi-Criteria Metric Distortion
 
 **会议**: ICLR2026  
-**OpenReview**: [QBgHVmvN5S](https://openreview.net/forum?id=QBgHVmvN5S)  
+**OpenReview**: [https://openreview.net/forum?id=QBgHVmvN5S](https://openreview.net/forum?id=QBgHVmvN5S)  
 **代码**: 待确认  
 **领域**: 学习理论 / 计算社会选择  
 **关键词**: 度量扭曲、社会选择理论、投票机制、委员会选举、近似界
@@ -133,10 +149,10 @@ $$\frac{(m+1)\ell}{(m-1)(\ell+1)} \approx 1+\frac{2}{m-1},$$
 ## 相关论文
 
 - [\[ICLR 2026\] Bi-Lipschitz Autoencoder With Injectivity Guarantee](bi-lipschitz_autoencoder_with_injectivity_guarantee.md)
+- [\[ICLR 2026\] Persistence Spheres: Bi-Continuous Representations of Persistence Diagrams](persistence_spheres_bi-continuous_representations_of_persistence_diagrams.md)
 - [\[ICLR 2026\] An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods](an_optimal_diffusion_approach_to_quadratic_rate-distortion_problems_new_solution.md)
-- [\[ICLR 2026\] Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion](better_learning-augmented_spanning_tree_algorithms_via_metric_forest_completion.md)
-- [\[ICML 2026\] Parsimonious Learning-Augmented Online Metric Matching](../../ICML2026/learning_theory/parsimonious_learning-augmented_online_metric_matching.md)
-- [\[ICML 2026\] Realizable Bayes-Consistency for General Metric Losses](../../ICML2026/learning_theory/realizable_bayes-consistency_for_general_metric_losses.md)
+- [\[ICLR 2026\] Metric $k$-Clustering using only Weak Comparison Oracles](metric_k-clustering_using_only_weak_comparison_oracles.md)
+- [\[ICLR 2026\] SEINT: An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation](an_efficient_sep-invariant_transport_metric_driven_by_polar_transport_discrepanc.md)
 
 </div>
 

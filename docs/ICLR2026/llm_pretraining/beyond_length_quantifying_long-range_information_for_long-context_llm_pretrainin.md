@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data
+description: >-
+  [ICLR2026][预训练][长上下文预训练] 针对"长文本 ≠ 长依赖"这个被忽视的事实，提出 LongFilter——用同一个语言模型在长/短上下文下对每个 token 的预测分布做对比，量化"扩展上下文带来的信息增益"，据此筛掉那些虽然很长但其实只靠局部就能预测的样本；用筛后的数据继续预训练 LLaMA-3-8B（8K→64K），在 HELMET、LongBench、RULER 上平均提升 2 分以上，且约一半数据量即可达到等效效果。
+tags:
+  - "ICLR2026"
+  - "预训练"
+  - "长上下文预训练"
+  - "数据筛选"
+  - "信息增益"
+  - "条件互信息"
+  - "KL散度"
+---
+
 # Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data
 
 **会议**: ICLR2026  
-**OpenReview**: [C9TDQ8Wwx7](https://openreview.net/forum?id=C9TDQ8Wwx7)  
+**OpenReview**: [https://openreview.net/forum?id=C9TDQ8Wwx7](https://openreview.net/forum?id=C9TDQ8Wwx7)  
 **代码**: 待确认  
 **领域**: LLM预训练 / 长上下文 / 数据筛选  
 **关键词**: 长上下文预训练, 数据筛选, 信息增益, 条件互信息, KL散度
@@ -142,10 +157,10 @@ RULER 上的 Overall（更侧重 NIAH/结构化检索）优势更明显，尤其
 ## 相关论文
 
 - [\[ICLR 2026\] Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining](beyond_urls_metadata_diversity_and_position_for_efficient_llm_pretraining.md)
+- [\[ICLR 2026\] Pretraining with Hierarchical Memories: Separating Long-Tail and Common Knowledge](pretraining_with_hierarchical_memories_separating_long-tail_and_common_knowledge.md)
 - [\[ICML 2026\] On Training Large Language Models for Long-Horizon Tasks: An Empirical Study of Horizon Length](../../ICML2026/llm_pretraining/on_training_large_language_models_for_long-horizon_tasks_an_empirical_study_of_h.md)
-- [\[CVPR 2025\] Precise Event Spotting in Sports Videos: Solving Long-Range Dependency and Class Imbalance](../../CVPR2025/llm_pretraining/precise_event_spotting_in_sports_videos_solving_long-range_dependency_and_class_.md)
+- [\[ICLR 2026\] Distilled Pretraining: A modern lens of Data, In-Context Learning and Test-Time Scaling](distilled_pretraining_a_modern_lens_of_data_in-context_learning_and_test-time_sc.md)
 - [\[ICLR 2026\] Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries](beyond_multi-token_prediction_pretraining_llms_with_future_summaries.md)
-- [\[ACL 2025\] Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset](../../ACL2025/llm_pretraining/nemotron_cc_pretraining_data.md)
 
 </div>
 

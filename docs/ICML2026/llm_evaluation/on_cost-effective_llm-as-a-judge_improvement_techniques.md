@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] On Cost-Effective LLM-as-a-Judge Improvement Techniques
+description: >-
+  [ICML 2026][LLM评测][LLM-as-a-judge] 针对 LLM-as-a-judge 评判准确率高度依赖 prompt 与聚合策略、却缺乏"哪些技巧真正划算"的系统证据这一问题，本文在 RewardBench 2 上以"对随机评判器做噪声控制"为统一视角，系统对比了**集成打分、任务专属评分准则、校准上下文、自适应模型升级**四种即插即用技巧，发现"评分准则注入（几乎零成本）+ 集成打分"两招就能拿到最高 85.8% 准确率（较 baseline +13.5pp），并占据成本-精度 Pareto 前沿，而校准与模型升级被它压制。
+tags:
+  - "ICML 2026"
+  - "LLM评测"
+  - "LLM-as-a-judge"
+  - "集成打分"
+  - "评分准则"
+  - "校准"
+  - "成本-精度权衡"
+---
+
 # On Cost-Effective LLM-as-a-Judge Improvement Techniques
 
 **会议**: ICML 2026  

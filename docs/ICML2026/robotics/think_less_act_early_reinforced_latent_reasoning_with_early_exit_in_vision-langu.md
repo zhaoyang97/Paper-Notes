@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models
+description: >-
+  [ICML2026][机器人][视觉-语言-动作模型] 针对显式思维链（CoT）在 VLA 里又慢又会误差累积的问题，作者提出 AVA-VLA——把推理建模成一串看不见的隐变量、用强化学习给隐轨迹去噪、再用早退出机制按状态置信度自适应地决定想几步，在 LIBERO 上拿到 98.3% 平均成功率的同时比显式 CoT 推理快约 6 倍。
+tags:
+  - "ICML2026"
+  - "机器人"
+  - "视觉-语言-动作模型"
+  - "隐变量推理"
+  - "强化学习"
+  - "早退出"
+  - "POMDP"
+---
+
 # Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models
 
 **会议**: ICML2026  

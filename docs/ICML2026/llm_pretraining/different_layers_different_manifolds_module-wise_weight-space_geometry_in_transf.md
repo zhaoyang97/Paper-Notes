@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization
+description: >-
+  [ICML2026（Workshop on Weight-Space Symmetries）][预训练][Manifold Muon] 这篇 workshop 论文在 GPT-2 small 预训练中系统比较了「按模块分配流形约束」的几种方案，发现把强谱约束（Stiefel）放在注意力层、把弱约束（DGram）放在 MLP 层效果最好，而只要给注意力层用 DGram 训练就会发散——并给出了「奇异值膨胀 → logit 膨胀 → softmax 饱和 → 梯度退化」这条失稳机制解释。
+tags:
+  - "ICML2026（Workshop on Weight-Space Symmetries）"
+  - "预训练"
+  - "Manifold Muon"
+  - "Stiefel 流形"
+  - "DGram 约束"
+  - "奇异值膨胀"
+  - "softmax 饱和"
+---
+
 # Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization
 
 **会议**: ICML2026（Workshop on Weight-Space Symmetries）  

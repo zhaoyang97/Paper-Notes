@@ -80,7 +80,7 @@ item_total: 70
 
 **🧪 ICML2026** · **70** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (105)](../../CVPR2026/others/index.md) · [💬 ACL2026 (3)](../../ACL2026/others/index.md) · [🔬 ICLR2026 (86)](../../ICLR2026/others/index.md) · [🤖 AAAI2026 (117)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (121)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (33)](../../ICCV2025/others/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (105)](../../CVPR2026/others/index.md) · [🔬 ICLR2026 (104)](../../ICLR2026/others/index.md) · [💬 ACL2026 (3)](../../ACL2026/others/index.md) · [🤖 AAAI2026 (117)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (121)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (33)](../../ICCV2025/others/index.md)
 
 🔥 **高频主题：** 布局/合成 ×2 · Agent ×2 · 对齐/RLHF ×2
 

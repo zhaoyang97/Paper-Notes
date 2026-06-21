@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Embedding Hybrid Systems into Continuous Latent Vector Fields
+description: >-
+  [ICML2026][时间序列][混合系统] 本文先证明一条存在性定理——只要隐空间维数 $m>2n$，一个本质上**不连续**的 $n$ 维混合系统就能被嵌入到 $m$ 维欧氏空间、并在其像上配出一个**连续**向量场——再据此设计隐空间 Neural ODE 框架 CHyLL++，仅凭时间序列就能高精度恢复各种几何拓扑的混合系统流。
+tags:
+  - "ICML2026"
+  - "时间序列"
+  - "混合系统"
+  - "Neural ODE"
+  - "隐空间嵌入"
+  - "Whitney 嵌入定理"
+  - "横截性"
+---
+
 # Embedding Hybrid Systems into Continuous Latent Vector Fields
 
 **会议**: ICML2026  

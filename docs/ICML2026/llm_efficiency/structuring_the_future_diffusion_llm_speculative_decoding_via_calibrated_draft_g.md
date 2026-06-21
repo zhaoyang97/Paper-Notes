@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Structuring The Future: Diffusion LLM Speculative Decoding via Calibrated Draft Graphs
+description: >-
+  [ICML2026][LLM效率][扩散语言模型] Spiffy 把投机解码搬到扩散语言模型（dLLM）上：不另训草稿模型，直接用目标模型自己的分布"自投机"，并把多步去噪状态组织成一张**有向草稿图**，再用离线校准的图结构最大化接受率，在 LLaDA / Dream / SDAR 上实现最高 8.6× 的模型推理次数削减和 6.3× 的 token 速率提升，且可证明保持输出分布无损。
+tags:
+  - "ICML2026"
+  - "LLM效率"
+  - "扩散语言模型"
+  - "投机解码"
+  - "有向草稿图"
+  - "无损加速"
+  - "离线校准"
+---
+
 # Structuring The Future: Diffusion LLM Speculative Decoding via Calibrated Draft Graphs
 
 **会议**: ICML2026  

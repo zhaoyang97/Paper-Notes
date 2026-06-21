@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ExPLAIND: Unifying Model, Data, and Training Attribution to Study Model Behavior
+description: >-
+  [ICML2026][可解释性][路径核] ExPLAIND 把"模型组件归因、数据归因、训练轨迹归因"这三条平时各做各的可解释性路线统一进一个理论框架：它把用 AdamW 训练的模型严格重写成核机器（精确路径核 EPK 的扩展），由此导出可加的、按参数/样本/训练步索引的影响分数，再沿任意维度累加就能在任意粒度上解释模型行为，并用它重新刻画了 Grokking 的学习阶段和 EuroLLM 预训练的两阶段动态。
+tags:
+  - "ICML2026"
+  - "可解释性"
+  - "路径核"
+  - "归因"
+  - "训练动力学"
+  - "Grokking"
+  - "影响分数"
+---
+
 # ExPLAIND: Unifying Model, Data, and Training Attribution to Study Model Behavior
 
 **会议**: ICML2026  

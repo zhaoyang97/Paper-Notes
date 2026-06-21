@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering
+description: >-
+  [ICML2026][代码智能][多语言环境构建] MEnvAgent 用「规划–执行–验证」三阶段多智能体闭环 + 环境复用机制，自动为 10 种语言的真实仓库搭建可执行、可验证（Fail-to-Pass）的 Docker 环境，在自建的 MEnvBench 上把 F2P 率提升 8.6%、构建耗时降低 43%，并据此造出迄今最大的多语言可验证 SWE 训练集 MEnvData-SWE。
+tags:
+  - "ICML2026"
+  - "代码智能"
+  - "多语言环境构建"
+  - "多智能体"
+  - "可验证奖励"
+  - "环境复用"
+  - "SWE 数据集"
+---
+
 # MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering
 
 **会议**: ICML2026  

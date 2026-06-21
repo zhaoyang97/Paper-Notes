@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Imagination Helps Visual Reasoning, But Not Yet in Latent Space
+description: >-
+  [ICML2026][VLM Reasoning][潜在视觉推理] 本文用因果中介分析把「潜在视觉推理（用 MLLM 隐状态当 latent token 来做视觉想象）」拆成 $X\to Z\to Y$ 的因果链，实证发现 latent token 既不随输入变化（输入-潜在断连）也几乎不影响答案（潜在-答案断连），从而质疑其必要性，并提出把视觉想象显式写成文本的简单替代法 CapImagine，在视觉感知基准上反超复杂的潜在空间方法。
+tags:
+  - "ICML2026"
+  - "VLM Reasoning"
+  - "潜在视觉推理"
+  - "因果中介分析"
+  - "视觉想象"
+  - "文本空间推理"
+  - "MLLM"
+---
+
 # Imagination Helps Visual Reasoning, But Not Yet in Latent Space
 
 **会议**: ICML2026  

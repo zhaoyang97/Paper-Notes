@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity
+description: >-
+  [ICML 2026][AI安全][生物安全] ABC-Bench 把"AI agent 会不会真的动手做分子生物学"做成三道可自动判分的任务（设计 DNA 片段、规避合成筛查、操控移液机器人跑 Gibson Assembly），实测八个前沿模型在全部三项任务上都超过分子生物学博士专家的中位数，并用真实湿实验证明 o4-mini-high 写的脚本能在 OpenTrons 机器人上把 DNA 真的拼出来。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "生物安全"
+  - "双用途风险"
+  - "Agent 基准"
+  - "DNA 合成筛查"
+  - "湿实验验证"
+---
+
 # ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity
 
 **会议**: ICML 2026  

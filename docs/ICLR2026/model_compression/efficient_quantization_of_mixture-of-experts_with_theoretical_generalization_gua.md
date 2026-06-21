@@ -16,7 +16,7 @@ tags:
 # Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees
 
 **会议**: ICLR2026  
-**OpenReview**: [yiMlVBAoQi](https://openreview.net/forum?id=yiMlVBAoQi)  
+**OpenReview**: [https://openreview.net/forum?id=yiMlVBAoQi](https://openreview.net/forum?id=yiMlVBAoQi)  
 **代码**: https://github.com/nowazrabbani/moe_quantization  
 **领域**: 模型压缩 / MoE 量化  
 **关键词**: Mixture-of-Experts、混合精度量化、路由器范数、泛化保证、训练后量化
@@ -152,9 +152,9 @@ $$\mathrm{MaxVar}_s^{(T)} := \max_{r\in[m]} \frac{1}{d}\sum_{i=1}^{d}\Big(W_1^{(
 
 - [\[ICLR 2026\] Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss](coupling_experts_and_routers_in_mixture-of-experts_via_an_auxiliary_loss.md)
 - [\[ICLR 2026\] Unveiling Super Experts in Mixture-of-Experts Large Language Models](unveiling_super_experts_in_mixture-of-experts_large_language_models.md)
+- [\[ICLR 2026\] CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts](codequant_unified_clustering_and_quantization_for_enhanced_outlier_smoothing_in_.md)
+- [\[ICLR 2026\] MoBE: Mixture-of-Basis-Experts for Compressing MoE-based LLMs](mobe_mixture-of-basis-experts_for_compressing_moe-based_llms.md)
 - [\[ICML 2026\] DAG-MoE: From Simple Mixture to Structural Aggregation in Mixture-of-Experts](../../ICML2026/model_compression/dag-moe_from_simple_mixture_to_structural_aggregation_in_mixture-of-experts.md)
-- [\[ICLR 2026\] LD-MoLE: Learnable Dynamic Routing for Mixture of LoRA Experts](ld-mole_learnable_dynamic_routing_for_mixture_of_lora_experts.md)
-- [\[ICML 2026\] RQ-MoE: Residual Quantization via Mixture of Experts for Efficient Input-Dependent Vector Compression](../../ICML2026/model_compression/rq-moe_residual_quantization_via_mixture_of_experts_for_efficient_input-dependen.md)
 
 </div>
 

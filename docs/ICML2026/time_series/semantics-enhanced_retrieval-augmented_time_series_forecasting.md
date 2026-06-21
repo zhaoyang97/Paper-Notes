@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Semantics-Enhanced Retrieval-Augmented Time Series Forecasting
+description: >-
+  [ICML 2026][时间序列][时间序列预测] SERAF 给检索增强的时序预测加了一条"语义检索"通路：把每段历史时间序列自动翻译成一句结构化文字描述（季节/趋势/波动），既按数值相似度、又按文本语义相似度去历史库里捞两套"相似过去 + 对应未来"，再自适应融合，从而在非平稳序列上检索到那些"数值上不像、但本质同型"的历史模式，在七个真实数据集上整体优于纯数值检索的 SOTA。
+tags:
+  - "ICML 2026"
+  - "时间序列"
+  - "时间序列预测"
+  - "检索增强生成"
+  - "多模态检索"
+  - "语义检索"
+  - "非平稳"
+---
+
 # Semantics-Enhanced Retrieval-Augmented Time Series Forecasting
 
 **会议**: ICML 2026  

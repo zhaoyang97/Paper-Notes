@@ -16,7 +16,7 @@ tags:
 # Reinforcement Learning Fine-Tuning Enhances Activation Intensity and Diversity in the Internal Circuitry of LLMs
 
 **会议**: ICLR2026  
-**OpenReview**: [tzS9roOTdj](https://openreview.net/forum?id=tzS9roOTdj)  
+**OpenReview**: [https://openreview.net/forum?id=tzS9roOTdj](https://openreview.net/forum?id=tzS9roOTdj)  
 **代码**: https://github.com/tsinghua-fib-lab/llm_rl_probing_analysis  
 **领域**: 可解释性 / 机制分析 / 强化学习后训练  
 **关键词**: 边归因（EAP）、内部电路、激活强度、激活多样性、在线 RL vs DPO
@@ -149,11 +149,11 @@ $$I_{\text{EAP}}(O,H) \approx -\big\langle \nabla_H \mathcal{L}(y; f(x)),\, O \b
 
 ## 相关论文
 
-- [\[ICLR 2026\] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](gepa_reflective_prompt_evolution_can_outperform_reinforcement_learning.md)
+- [\[ICLR 2026\] Comparing the learning dynamics of in-context learning and fine-tuning in language models](comparing_the_learning_dynamics_of_in-context_learning_and_fine-tuning_in_langua.md)
+- [\[ICLR 2026\] Learning Nonlinear Causal Reductions to Explain Reinforcement Learning Policies](learning_nonlinear_causal_reductions_to_explain_reinforcement_learning_policies.md)
 - [\[ICLR 2026\] TokenSeek: Memory Efficient Fine Tuning via Instance-Aware Token Ditching](tokenseek_memory_efficient_fine_tuning_via_instance-aware_token_ditching.md)
-- [\[AAAI 2026\] GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning](../../AAAI2026/interpretability/gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md)
-- [\[NeurIPS 2025\] Understanding Prompt Tuning and In-Context Learning via Meta-Learning](../../NeurIPS2025/interpretability/understanding_prompt_tuning_and_in-context_learning_via_meta-learning.md)
-- [\[ICLR 2026\] Internal Planning in Language Models: Characterizing Horizon and Branch Awareness](internal_planning_in_language_models_characterizing_horizon_and_branch_awareness.md)
+- [\[ICLR 2026\] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](gepa_reflective_prompt_evolution_can_outperform_reinforcement_learning.md)
+- [\[ICLR 2026\] Watch the Weights: Unsupervised Monitoring and Control of Fine-tuned LLMs](watch_the_weights_unsupervised_monitoring_and_control_of_fine-tuned_llms.md)
 
 </div>
 

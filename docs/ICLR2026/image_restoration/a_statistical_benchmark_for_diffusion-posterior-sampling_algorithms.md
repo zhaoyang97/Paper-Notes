@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms
+description: >-
+  [ICLR2026][图像恢复][扩散后验采样] 这篇论文为扩散后验采样（DPS）算法造了一把"标准尺"：用可以精确 Gibbs 采样的 Lévy 过程信号作为测试分布，拿到分布级别的"金标准"后验样本，再用 MMSE 最优性差距和后验覆盖率两项指标，把主流 DPS 算法（C-DPS / DiffPIR / DPnP）放在去噪、去卷积、缺失填补、部分傅里叶重建四类反问题上系统评测，结论是这些算法普遍**没有校准**。
+tags:
+  - "ICLR2026"
+  - "图像恢复"
+  - "扩散后验采样"
+  - "线性反问题"
+  - "Gibbs 采样"
+  - "后验校准"
+  - "MMSE 最优性"
+---
+
 # A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms
 
 **会议**: ICLR2026  
-**OpenReview**: [zDI2G8t0of](https://openreview.net/forum?id=zDI2G8t0of)  
+**OpenReview**: [https://openreview.net/forum?id=zDI2G8t0of](https://openreview.net/forum?id=zDI2G8t0of)  
 **代码**: https://github.com/zacmar/dps-benchmark  
 **领域**: 扩散模型 / 图像恢复 / 贝叶斯反问题 / Benchmark  
 **关键词**: 扩散后验采样, 线性反问题, Gibbs 采样, 后验校准, MMSE 最优性
@@ -125,11 +140,11 @@ MMSE 最优性差距（dB，越低越好，0 为完美；DPS 算法中加粗为�
 
 ## 相关论文
 
+- [\[ICLR 2026\] CL-DPS: A Contrastive Learning Approach to Blind Nonlinear Inverse Problem Solving via Diffusion Posterior Sampling](cl-dps_a_contrastive_learning_approach_to_blind_nonlinear_inverse_problem_solvin.md)
+- [\[ICLR 2026\] LearnIR: Learnable Posterior Sampling for Real-World Image Restoration](learnir_learnable_posterior_sampling_for_real-world_image_restoration.md)
 - [\[ICML 2026\] Triadic Dynamics Aware Diffusion Posterior Sampling for Inverse Problems: Optimizing Guidance and Stochasticity Schedules](../../ICML2026/image_restoration/triadic_dynamics_aware_diffusion_posterior_sampling_for_inverse_problems_optimiz.md)
 - [\[ICLR 2026\] Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling](adaptive_moments_are_surprisingly_effective_for_plug-and-play_diffusion_sampling.md)
 - [\[NeurIPS 2025\] Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](../../NeurIPS2025/image_restoration/improving_diffusion-based_inverse_algorithms_under_few-step_constraint_via_learn.md)
-- [\[ICML 2026\] One-shot Conditional Sampling: MMD meets Nearest Neighbors](../../ICML2026/image_restoration/one-shot_conditional_sampling_mmd_meets_nearest_neighbors.md)
-- [\[CVPR 2026\] Statistical Characteristic-Guided Denoising for Rapid High-Resolution Transmission Electron Microscopy Imaging](../../CVPR2026/image_restoration/statistical_characteristic-guided_denoising_for_rapid_high-resolution_transmissi.md)
 
 </div>
 

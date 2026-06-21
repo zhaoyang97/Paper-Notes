@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] 3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations
+description: >-
+  [ICLR2026][计算生物][分子表示] 作者构建了首个专测「同一分子不同构象」表示敏感性的基准 3DCS：用 >1M 分子、~10M 构象覆盖几何/手性/能量三个维度，配一套 Geometry–Chirality–Energy（GCE）评测框架，揭示现代 3D 分子表示模型几何很敏感、但手性时好时坏、能量几乎对不上。
+tags:
+  - "ICLR2026"
+  - "计算生物"
+  - "分子表示"
+  - "构象敏感性"
+  - "手性"
+  - "势能面"
+  - "零样本评测"
+---
+
 # 3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations
 
 **会议**: ICLR2026  
-**OpenReview**: [JAb0y8lkqL](https://openreview.net/forum?id=JAb0y8lkqL)  
+**OpenReview**: [https://openreview.net/forum?id=JAb0y8lkqL](https://openreview.net/forum?id=JAb0y8lkqL)  
 **代码**: https://github.com/ComDec/3DCS  
 **领域**: 计算生物 / 分子表示 / Benchmark  
 **关键词**: 分子表示、构象敏感性、手性、势能面、零样本评测
@@ -131,10 +146,10 @@ AS 这一行很说明问题：指纹高达 2.757，因为它把子结构存/不�
 
 ## 相关论文
 
+- [\[ICLR 2026\] CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization](capsul_a_comprehensive_human_protein_benchmark_for_subcellular_localization.md)
 - [\[NeurIPS 2025\] JAMUN: Bridging Smoothed Molecular Dynamics and Score-Based Learning for Conformational Ensembles](../../NeurIPS2025/computational_biology/jamun_bridging_smoothed_molecular_dynamics_and_score-based_learning_for_conforma.md)
-- [\[ICLR 2026\] CORDS: Continuous Representations of Discrete Structures](cords_continuous_representations_of_discrete_structures.md)
-- [\[NeurIPS 2025\] FGBench: A Dataset and Benchmark for Molecular Property Reasoning at Functional Group-Level in Large Language Models](../../NeurIPS2025/computational_biology/fgbench_a_dataset_and_benchmark_for_molecular_property_reasoning_at_functional_g.md)
-- [\[ICLR 2026\] Reverse Distillation: Consistently Scaling Protein Language Model Representations](reverse_distillation_consistently_scaling_protein_language_model_representations.md)
+- [\[ICLR 2026\] GeomMotif: A Benchmark for Arbitrary Geometric Preservation in Protein Generation](geommotif_a_benchmark_for_arbitrary_geometric_preservation_in_protein_generation.md)
+- [\[ICLR 2026\] Towards Understanding the Shape of Representations in Protein Language Models](towards_understanding_the_shape_of_representations_in_protein_language_models.md)
 - [\[ICLR 2026\] Learning Molecular Chirality via Chiral Determinant Kernels](learning_molecular_chirality_via_chiral_determinant_kernels.md)
 
 </div>

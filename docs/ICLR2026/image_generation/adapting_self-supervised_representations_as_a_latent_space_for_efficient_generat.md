@@ -1,7 +1,22 @@
+---
+title: >-
+  [论文解读] Adapting Self-Supervised Representations as a Latent Space for Efficient Generation
+description: >-
+  [ICLR2026][图像生成][单 token 潜空间] RepTok 把预训练自监督 ViT 的 `[cls]` token 微调成「单个连续 token」的潜空间，配一个流匹配解码器就能高保真重建图像，再用一个无注意力的 MLP-Mixer 在这个一维潜空间里做生成，从而在 ImageNet/MS-COCO 上以不到对手 10% 的训练算力拿到有竞争力的 FID。
+tags:
+  - "ICLR2026"
+  - "图像生成"
+  - "单 token 潜空间"
+  - "自监督表示"
+  - "流匹配"
+  - "MLP-Mixer"
+  - "文生图"
+---
+
 # Adapting Self-Supervised Representations as a Latent Space for Efficient Generation
 
 **会议**: ICLR2026  
-**OpenReview**: [0b6a2SE23v](https://openreview.net/forum?id=0b6a2SE23v)  
+**OpenReview**: [https://openreview.net/forum?id=0b6a2SE23v](https://openreview.net/forum?id=0b6a2SE23v)  
 **代码**: https://github.com/CompVis/RepTok  
 **领域**: 扩散模型 / 高效生成  
 **关键词**: 单 token 潜空间, 自监督表示, 流匹配, MLP-Mixer, 文生图
@@ -134,9 +149,9 @@ RepTok 仅用 1 个连续 token，rFID/gFID 就追平甚至超过多 token 的�
 
 - [\[ICML 2026\] Evaluating the Representation Space of Diffusion Models via Self-Supervised Principles](../../ICML2026/image_generation/evaluating_the_representation_space_of_diffusion_models_via_self-supervised_prin.md)
 - [\[AAAI 2026\] Stabilizing Self-Consuming Diffusion Models with Latent Space Filtering](../../AAAI2026/image_generation/stabilizing_self-consuming_diffusion_models_with_latent_space_filtering.md)
-- [\[CVPR 2026\] Self-Corrected Image Generation with Explainable Latent Rewards](../../CVPR2026/image_generation/self-corrected_image_generation_with_explainable_latent_rewards.md)
-- [\[CVPR 2026\] Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning](../../CVPR2026/image_generation/spatial-ssrl_enhancing_spatial_understanding_via_self-supervised_reinforcement_l.md)
-- [\[CVPR 2026\] Latent Diffusion Inversion Requires Understanding the Latent Space](../../CVPR2026/image_generation/latent_diffusion_inversion_requires_understanding_the_latent_space.md)
+- [\[CVPR 2026\] Self-Evaluation Unlocks Any-Step Text-to-Image Generation](../../CVPR2026/image_generation/self-evaluation_unlocks_any-step_text-to-image_generation.md)
+- [\[ICLR 2026\] Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models](stochastic_self-guidance_for_training-free_enhancement_of_diffusion_models.md)
+- [\[ICLR 2026\] COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations](cosmo-inr_complex_sinusoidal_modulation_for_implicit_neural_representations.md)
 
 </div>
 

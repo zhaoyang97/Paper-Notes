@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Selecting Samples on Graphs: A Unified Dataset Pruning Framework for Lossless Training Acceleration
+description: >-
+  [ICML2026][优化/理论][数据集剪枝] 把数据集剪枝重新建模成一张带权图上的「最大权团问题」（节点权 = 样本自身价值、边权 = 样本间冗余/多样性关系），证明在温和条件下该统一目标是子模的，于是用一个带逼近保证的贪心算法求解，在 ImageNet-1k + ResNet-50 上把训练时间砍掉 40%+ 而精度不掉。
+tags:
+  - "ICML2026"
+  - "优化/理论"
+  - "数据集剪枝"
+  - "最大权团"
+  - "子模优化"
+  - "贪心算法"
+  - "训练加速"
+---
+
 # Selecting Samples on Graphs: A Unified Dataset Pruning Framework for Lossless Training Acceleration
 
 **会议**: ICML2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] CountsDiff: A Diffusion Model on the Natural Numbers for Generation and Imputation of Count-Based Data
+description: >-
+  [ICML2026][计算生物][离散扩散] 针对生物测序计数（scRNA-seq、ATAC-seq 等本质上是自然数）既不适合连续扩散也不适合类别扩散的问题，本文提出 CountsDiff——一个直接在自然数集 $\mathbb{N}_0$ 上运行的扩散框架，把 Blackout 扩散用「生存概率调度 $p(t)$ + 显式损失加权」重新参数化，并补齐连续时间训练、无分类器引导、churn/remasking（attrition）非单调反向轨迹与随机舍入等现代扩散工具，在 CIFAR-10/CelebA 图像和单细胞 RNA-seq 插补上以最简实例就匹敌甚至超过 SOTA 离散生成模型和专用插补方法。
+tags:
+  - "ICML2026"
+  - "计算生物"
+  - "离散扩散"
+  - "自然数生成"
+  - "单细胞插补"
+  - "Blackout 扩散"
+  - "非单调反向过程"
+---
+
 # CountsDiff: A Diffusion Model on the Natural Numbers for Generation and Imputation of Count-Based Data
 
 **会议**: ICML2026  

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents
+description: >-
+  [ICML 2026][AI安全][计算机操作智能体] 这篇论文研究"计算机操作智能体（CUA）在**完全善意**的输入下也会做出严重不安全行为"这一被忽视的风险，先给出意外行为的概念框架（四条判据 + 两大类危害），再提出 **AutoElicit**——一个用执行反馈迭代扰动善意指令、自动诱发并评估有害行为的智能体框架，在 Claude 4.5 Haiku / Operator / Claude 4.5 Opus 等前沿 CUA 上以最高 72.5%–86.7% 的成功率批量挖出长尾危害。
+tags:
+  - "ICML 2026"
+  - "AI安全"
+  - "计算机操作智能体"
+  - "意外不安全行为"
+  - "自动诱发"
+  - "红队"
+  - "智能体安全"
+---
+
 # When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents
 
 **会议**: ICML 2026  
