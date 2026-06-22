@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 Multi-Agent论文汇总 · 46篇论文解读
+  ICLR2026 Multi-Agent论文汇总 · 47篇论文解读
 description: >-
-  46篇ICLR2026的 Multi-Agent 方向论文解读，涵盖 Agent、LLM、推理、对抗鲁棒、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  47篇ICLR2026的 Multi-Agent 方向论文解读，涵盖 Agent、LLM、推理、强化学习、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "Multi-Agent"
@@ -11,8 +11,8 @@ tags:
   - "Agent"
   - "LLM"
   - "推理"
-  - "对抗鲁棒"
   - "强化学习"
+  - "对抗鲁棒"
 item_list:
   - u: "adaptive_collaboration_with_humans_metacognitive_policy_optimization_for_multi-a/"
     t: "Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning"
@@ -74,17 +74,17 @@ item_list:
     t: "MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design"
   - u: "mad-logic_multi-agent_debate_enhances_symbolic_translation_and_reasoning/"
     t: "MAD-Logic: Multi-Agent Debate Enhances Symbolic Translation and Reasoning"
-item_total: 46
+item_total: 47
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 Multi-Agent
 
-**🔬 ICLR2026** · **46** 篇论文解读
+**🔬 ICLR2026** · **47** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/multi_agent/index.md) · [💬 ACL2026 (39)](../../ACL2026/multi_agent/index.md) · [🧪 ICML2026 (24)](../../ICML2026/multi_agent/index.md) · [🤖 AAAI2026 (26)](../../AAAI2026/multi_agent/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/multi_agent/index.md) · [🧪 ICML2025 (7)](../../ICML2025/multi_agent/index.md)
 
-🔥 **高频主题：** Agent ×40 · LLM ×9 · 推理 ×8 · 对抗鲁棒 ×3 · 强化学习 ×2
+🔥 **高频主题：** Agent ×41 · LLM ×9 · 推理 ×8 · 强化学习 ×3 · 对抗鲁棒 ×3
 
 **[Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning](adaptive_collaboration_with_humans_metacognitive_policy_optimization_for_multi-a.md)**
 
@@ -253,6 +253,10 @@ item_total: 46
 **[Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters](strategic_planning_and_rationalizing_on_trees_make_llms_better_debaters.md)**
 
 :   本文提出 TreeDebater，用「排练树（Rehearsal Tree）」预演对手的攻防、用「辩论流程树（Debate Flow Tree）」追踪辩论态势，再配合模拟观众反馈和语音时长控制器，让 LLM 在严格限时的竞技辩论中学会把宝贵的发言时间分配给最有冲击力的动作，人类评测下相比此前 SOTA 多智能体辩论系统在分阶段说服力上 +15.6%、整场观点转移胜率 +10%。
+
+**[Stronger-MAS: Multi-Agent Reinforcement Learning for Collaborative LLMs](stronger-mas_multi-agent_reinforcement_learning_for_collaborative_llms.md)**
+
+:   针对"把 on-policy RL 训到多智能体系统（MAS）上"这一空白，本文提出 AT-GRPO——一套按"智能体 + 轮次"分组的 group-relative RL 算法（配树状采样与全局/局部混合奖励）加上一套支持多策略并发 on-policy 训练的系统，在游戏、规划、代码、数学四类任务上一致提升，长程规划任务的成功率从单智能体 RL 的 14–47% 直接拉到 96.0–99.5%。
 
 **[UIS-Digger: Towards Comprehensive Research Agent Systems for Real-world Unindexed Information Seeking](uis-digger_towards_comprehensive_research_agent_systems_for_real-world_unindexed.md)**
 

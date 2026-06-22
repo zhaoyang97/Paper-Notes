@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 医疗LLM论文汇总 · 18篇论文解读
+  ICLR2026 医疗LLM论文汇总 · 20篇论文解读
 description: >-
-  18篇ICLR2026的医疗 LLM 方向论文解读，涵盖医学影像、对话系统、LLM、问答、对抗鲁棒、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  20篇ICLR2026的医疗 LLM 方向论文解读，涵盖医学影像、对话系统、LLM、问答、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "医疗 LLM"
@@ -12,8 +12,8 @@ tags:
   - "对话系统"
   - "LLM"
   - "问答"
-  - "对抗鲁棒"
   - "推理"
+  - "对抗鲁棒"
 item_list:
   - u: "atpo_adaptive_tree_policy_optimization_for_multi-turn_medical_dialogue/"
     t: "ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue"
@@ -27,6 +27,8 @@ item_list:
     t: "CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering"
   - u: "counselbench_llm_mental_health_qa/"
     t: "CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA"
+  - u: "criticadviserreviser_cyclic_refinement_towards_high-quality_emr_corpus_generatio/"
+    t: "Critic-Adviser-Reviser Cyclic Refinement: Towards High-Quality EMR Corpus Generation with LLMs"
   - u: "doctor-r1_mastering_clinical_inquiry_with_experiential_agentic_reinforcement_lea/"
     t: "Doctor-R1: Mastering Clinical Inquiry with Experiential Agentic Reinforcement Learning"
   - u: "from_conversation_to_query_execution_benchmarking_user_and_tool_interactions_for/"
@@ -37,6 +39,8 @@ item_list:
     t: "GALAX: Graph-Augmented Language Model for Explainable Reinforcement-Guided Subgraph Reasoning in Precision Medicine"
   - u: "histoprism_unlocking_functional_pathway_analysis_from_pan-cancer_histology_via_g/"
     t: "HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction"
+  - u: "knowguard_knowledge-driven_abstention_for_multi-round_clinical_reasoning/"
+    t: "KnowGuard: Knowledge-Driven Abstention for Multi-Round Clinical Reasoning"
   - u: "knowledgeable_language_models_as_black-box_optimizers_for_personalized_medicine/"
     t: "Knowledgeable Language Models as Black-Box Optimizers for Personalized Medicine"
   - u: "mclm_a_modular_chemical_language_model_that_generates_functional_and_makeable_mo/"
@@ -51,17 +55,17 @@ item_list:
     t: "SimpleToM: Exposing the Gap between Explicit ToM Inference and Implicit ToM Application in LLMs"
   - u: "survhte-bench_a_benchmark_for_heterogeneous_treatment_effect_estimation_in_survi/"
     t: "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis"
-item_total: 18
+item_total: 20
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🩺 医疗 LLM
 
-**🔬 ICLR2026** · **18** 篇论文解读
+**🔬 ICLR2026** · **20** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (1)](../../CVPR2026/medical_nlp/index.md) · [💬 ACL2026 (47)](../../ACL2026/medical_nlp/index.md) · [🧪 ICML2026 (4)](../../ICML2026/medical_nlp/index.md) · [🤖 AAAI2026 (12)](../../AAAI2026/medical_nlp/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/medical_nlp/index.md) · [🧪 ICML2025 (4)](../../ICML2025/medical_nlp/index.md)
 
-🔥 **高频主题：** 医学影像 ×5 · 对话系统 ×3 · LLM ×3 · 问答 ×3 · 对抗鲁棒 ×2
+🔥 **高频主题：** 医学影像 ×6 · 对话系统 ×3 · LLM ×3 · 问答 ×3 · 推理 ×3
 
 **[ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue](atpo_adaptive_tree_policy_optimization_for_multi-turn_medical_dialogue.md)**
 
@@ -87,6 +91,10 @@ item_total: 18
 
 :   联合100名持证心理健康专家构建CounselBench双组件基准——CounselBench-EVAL（2,000条六维度专家评估）和CounselBench-Adv（120个对抗性问题+1,080条响应标注），系统性揭示LLM在心理健康开放式问答中表面得分高但存在过度泛化、擅自医疗建议等安全隐患，同时证明LLM-as-Judge在安全关键领域严重不可靠。
 
+**[Critic-Adviser-Reviser Cyclic Refinement: Towards High-Quality EMR Corpus Generation with LLMs](criticadviserreviser_cyclic_refinement_towards_high-quality_emr_corpus_generatio.md)**
+
+:   针对 LLM 直接生成电子病历（EMR）"只会模仿、分布失真、缺少质量约束"的问题，本文提出 LLM-CARe——一个按"语料→章节→文档"三级粒度、每级由 Critic/Adviser/Reviser 三个智能体循环精炼的框架，在完全不接触任何真实 EMR 文本的前提下，把合成病历的质量和下游临床任务表现都显著推到 SOTA 之上。
+
 **[Doctor-R1: Mastering Clinical Inquiry with Experiential Agentic Reinforcement Learning](doctor-r1_mastering_clinical_inquiry_with_experiential_agentic_reinforcement_lea.md)**
 
 :   Doctor-R1 把门诊问诊建模成部分可观测的多轮决策过程，用「多智能体交互环境 + 两级奖励架构 + 经验库」做经验式 agentic 强化学习，让一个 8B 的医生智能体既会战略性、有同理心地追问，又能做对诊断，在 HealthBench / MAQuE 上反超 32B 开源模型和 GPT-4.1 等闭源大模型。
@@ -106,6 +114,10 @@ item_total: 18
 **[HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction](histoprism_unlocking_functional_pathway_analysis_from_pan-cancer_histology_via_g.md)**
 
 :   本文提出 HistoPrism，一个高效的 Transformer 架构，通过交叉注意力注入癌症类型条件来从 H&E 病理图像预测泛癌基因表达，并提出基于 Hallmark/GO 通路的 Gene Pathway Coherence (GPC) 评估框架，在通路级别预测上大幅超越 STPath，尤其在低方差核心生物通路上优势显著。
+
+**[KnowGuard: Knowledge-Driven Abstention for Multi-Round Clinical Reasoning](knowguard_knowledge-driven_abstention_for_multi-round_clinical_reasoning.md)**
+
+:   针对 LLM 在临床多轮问诊中"信息不全也敢下诊断"的过度自信问题，KnowGuard 提出"先调查再弃答"(investigate-before-abstain)范式：把弃答决策从依赖模型自评，改成在一张医学知识图谱上跨轮系统性地探索证据，用一个滚动更新的上下文证据池判断"还缺什么证据"，从而决定该继续追问还是给出诊断；在自建的开放式多轮基准上平均诊断准确率提升 3.93%、平均仅 5.74 轮即收敛。
 
 **[Knowledgeable Language Models as Black-Box Optimizers for Personalized Medicine](knowledgeable_language_models_as_black-box_optimizers_for_personalized_medicine.md)**
 

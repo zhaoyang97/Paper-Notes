@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLM评测论文汇总 · 119篇论文解读
+  ICLR2026 LLM评测论文汇总 · 131篇论文解读
 description: >-
-  119篇ICLR2026的 LLM 评测方向论文解读，涵盖 LLM、推理、Agent、问答、扩散模型、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  131篇ICLR2026的 LLM 评测方向论文解读，涵盖 LLM、推理、Agent、问答、扩散模型、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "LLM 评测"
@@ -19,6 +19,8 @@ item_list:
     t: "ACADREASON: Exploring the Limits of Reasoning Models with Academic Research Problems"
   - u: "adablock-dllm_semantic-aware_diffusion_llm_inference_via_adaptive_block_size/"
     t: "AdaBlock-dLLM: Semantic-Aware Diffusion LLM Inference via Adaptive Block Size"
+  - u: "addressing_pitfalls_in_the_evaluation_of_uncertainty_estimation_methods_for_natu/"
+    t: "Addressing Pitfalls in the Evaluation of Uncertainty Estimation Methods for Natural Language Generation"
   - u: "agentic_reinforced_policy_optimization/"
     t: "Agentic Reinforced Policy Optimization"
   - u: "airqa_a_comprehensive_qa_dataset_for_ai_research_with_instance-level_evaluation/"
@@ -29,12 +31,16 @@ item_list:
     t: "An Open-Ended Benchmark and Formal Framework for Adjuvant Research with MLLM"
   - u: "anessuite_a_comprehensive_benchmark_and_dataset_suite_for_anesthesiology_reasoni/"
     t: "AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning"
+  - u: "are_llms_really_not_knowledgeable_mining_the_submerged_knowledge_in_llms_memory/"
+    t: "Are LLMs Really Not Knowledgeable? Mining the Submerged Knowledge in LLMs' Memory"
   - u: "aside_architectural_separation_of_instructions_and_data_in_language_models/"
     t: "ASIDE: Architectural Separation of Instructions and Data in Language Models"
   - u: "astabench_benchmarking_ai_agents/"
     t: "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite"
   - u: "autocode_llms_as_problem_setters_for_competitive_programming/"
     t: "AutoCode: LLMs as Problem Setters for Competitive Programming"
+  - u: "autocodebench_large_language_models_are_automatic_code_benchmark_generators/"
+    t: "AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators"
   - u: "autolibra_agent_metric_induction_from_open-ended_human_feedback/"
     t: "AutoLibra: Agent Metric Induction from Open-Ended Human Feedback"
   - u: "autometrics_approximate_human_judgments_with_automatically_generated_evaluators/"
@@ -57,6 +63,8 @@ item_list:
     t: "CatalystBench: A Comprehensive Multi-Task Benchmark for Advancing Language Models in Catalysis Science"
   - u: "characterizing_deep_research_a_benchmark_and_formal_definition/"
     t: "Characterizing Deep Research: A Benchmark and Formal Definition"
+  - u: "chemeval_a_multi-level_and_fine-grained_chemical_capability_evaluation_for_large/"
+    t: "ChemEval: A Multi-level and Fine-grained Chemical Capability Evaluation for Large Language Models"
   - u: "choices_speak_louder_than_questions/"
     t: "Choices Speak Louder than Questions"
   - u: "clash_evaluating_language_models_on_judging_high-stakes_dilemmas_from_multiple_p/"
@@ -67,25 +75,17 @@ item_list:
     t: "CMT-Benchmark: A Benchmark for Condensed Matter Theory Built by Expert Researchers"
   - u: "cogniload_a_synthetic_natural_language_reasoning_benchmark_with_tunable_length_i/"
     t: "CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density"
-  - u: "complementing_self-consistency_with_cross-model_disagreement_for_uncertainty_qua/"
-    t: "Complementing Self-Consistency with Cross-Model Disagreement for Uncertainty Quantification"
-  - u: "computer_agent_arena_toward_human-centric_evaluation_and_analysis_of_computer-us/"
-    t: "Computer Agent Arena: Toward Human-Centric Evaluation and Analysis of Computer-Use Agents"
-  - u: "contamination_detection_for_vlms_using_multimodal_semantic_perturbations/"
-    t: "Contamination Detection for VLMs Using Multi-Modal Semantic Perturbations"
-  - u: "cost-of-pass_an_economic_framework_for_evaluating_language_models/"
-    t: "Cost-of-Pass: An Economic Framework for Evaluating Language Models"
-item_total: 119
+item_total: 131
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM 评测
 
-**🔬 ICLR2026** · **119** 篇论文解读
+**🔬 ICLR2026** · **131** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (96)](../../ACL2026/llm_evaluation/index.md) · [🧪 ICML2026 (40)](../../ICML2026/llm_evaluation/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (38)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (22)](../../ICML2025/llm_evaluation/index.md)
 
-🔥 **高频主题：** LLM ×25 · 推理 ×8 · Agent ×6 · 问答 ×3 · 扩散模型 ×2
+🔥 **高频主题：** LLM ×32 · 推理 ×9 · Agent ×6 · 问答 ×3 · 扩散模型 ×2
 
 **[ACADREASON: Exploring the Limits of Reasoning Models with Academic Research Problems](acadreason_exploring_the_limits_of_reasoning_models_with_academic_research_probl.md)**
 
@@ -94,6 +94,10 @@ item_total: 119
 **[AdaBlock-dLLM: Semantic-Aware Diffusion LLM Inference via Adaptive Block Size](adablock-dllm_semantic-aware_diffusion_llm_inference_via_adaptive_block_size.md)**
 
 :   通过统计分析扩散语言模型（dLLM）去噪过程中 token 置信度的动态变化，发现"波动带"（Volatility Band）区域编码了文本的局部语义结构，进而提出 AdaBlock-dLLM——一个无训练、即插即用的自适应块大小调度器，让半自回归解码的块边界与语义步骤自然对齐，在相同吞吐量下最高提升 5.3% 准确率。
+
+**[Addressing Pitfalls in the Evaluation of Uncertainty Estimation Methods for Natural Language Generation](addressing_pitfalls_in_the_evaluation_of_uncertainty_estimation_methods_for_natu.md)**
+
+:   本文指出自然语言生成不确定性估计的主流 QA 选择性预测评测会被近似正确性函数严重左右，并提出用 SP-MoJI、结构化任务、OOD/扰动检测和 Elo 聚合来让评测结论更稳健。
 
 **[Agentic Reinforced Policy Optimization](agentic_reinforced_policy_optimization.md)**
 
@@ -115,6 +119,10 @@ item_total: 119
 
 :   构建首个面向麻醉学推理的综合数据集套件AnesSuite，包含评测基准AnesBench（7972道三级认知难度双语选择题）和三组训练数据集（AnesCorpus/AnesQA/AnesR1），基于此训练的Morpheus模型通过SFT+GRPO让7B模型追平14B基线，同时揭示了当前最强LLM在复杂临床推理（System 2）上的显著瓶颈。
 
+**[Are LLMs Really Not Knowledgeable? Mining the Submerged Knowledge in LLMs' Memory](are_llms_really_not_knowledgeable_mining_the_submerged_knowledge_in_llms_memory.md)**
+
+:   这篇论文指出 LLM 在问答任务上答错或回答"不确定"，往往不是因为参数里没存相关知识，而是知识"沉在水面下没被表达出来"——它提出 Hits@k 指标证明：正确答案常常就排在 top-k logits 里只是没被选中（LLaMA3-8B 在 DBpedia 上 Hits@1 仅 17.2%，Hits@5 却到 57.9%），并进一步揭示主流"允许回答 unsure"的提示范式会主动压制低置信度的正确答案。
+
 **[ASIDE: Architectural Separation of Instructions and Data in Language Models](aside_architectural_separation_of_instructions_and_data_in_language_models.md)**
 
 :   提出 ASIDE，一种在 token embedding 层面通过正交旋转区分指令和数据的架构级改造，仅需修改前向传播并在标准指令微调数据上训练，即可显著提升指令-数据分离度和 prompt injection 鲁棒性，无需任何安全专项训练。
@@ -126,6 +134,10 @@ item_total: 119
 **[AutoCode: LLMs as Problem Setters for Competitive Programming](autocode_llms_as_problem_setters_for_competitive_programming.md)**
 
 :   AutoCode 用「Validator-Generator-Checker(-Interactor)」闭环多角色框架，让 LLM 既能为已有竞赛题生成接近官方判罚 99% 一致性的测试数据，又能从种子题出发、通过「参考解 vs 暴力解」双重验证自动生成被 Grandmaster 认可为比赛级别的新题。
+
+**[AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators](autocodebench_large_language_models_are_automatic_code_benchmark_generators.md)**
+
+:   AutoCodeBench 用 AutoCodeGen 自动合成高难度、多语言、可执行验证的代码生成题目，把 LLM 生成测试输入、沙箱执行得到测试输出、反向生成题面和多阶段过滤串成一条流水线，并由此构建出覆盖 20 种编程语言、3,920 道题的代码生成评测集，实验显示当前最强模型平均 Pass@1 仍不超过 55.4%。
 
 **[AutoLibra: Agent Metric Induction from Open-Ended Human Feedback](autolibra_agent_metric_induction_from_open-ended_human_feedback.md)**
 
@@ -170,6 +182,10 @@ item_total: 119
 **[Characterizing Deep Research: A Benchmark and Formal Definition](characterizing_deep_research_a_benchmark_and_formal_definition.md)**
 
 :   这篇论文给"深度研究（Deep Research, DR）"这个被各家模型抢着用、却从没被严格定义过的任务下了一个形式化定义——核心不是"输出长报告"而是"搜索过程中对概念的高扇出（high fan-out）"，并据此构造了 100 道开放网络任务的 benchmark LIVEDRBENCH，用基于 claim 的精确率/召回率做客观打分，发现当前最强的 OpenAI DR 也只有 0.55 的平均 F1，系统普遍只覆盖了约一半的必要搜索查询。
+
+**[ChemEval: A Multi-level and Fine-grained Chemical Capability Evaluation for Large Language Models](chemeval_a_multi-level_and_fine-grained_chemical_capability_evaluation_for_large.md)**
+
+:   ChemEval 把 LLM 的化学能力拆成「概念 → 文献 → 分子 → 推理」四级递进、13 个维度、62 个任务（含文本与多模态），用化学专家手工构建的 3160 道题做细粒度诊断，发现通用大模型擅长读文献、做不了深层化学推理，而化学专用模型懂术语却几乎丧失指令跟随能力。
 
 **[Choices Speak Louder than Questions](choices_speak_louder_than_questions.md)**
 
@@ -243,6 +259,10 @@ item_total: 119
 
 :   DeepTRACE 把社区在真实使用中归纳出的失败模式翻译成 8 个可计算指标，对生成式搜索引擎（GSE）和深度研究 Agent（DR）做端到端审计，发现这类系统普遍存在单边表达、过度自信、以及大量"自己列了来源却没有来源支撑"的陈述，引用准确率只有 40–80%。
 
+**[Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models](detecting_data_contamination_from_reinforcement_learning_post-training_for_large.md)**
+
+:   这篇论文首次系统研究 LLM 在 RL 后训练阶段的 benchmark 数据污染检测问题，提出 Self-Critique 用两次生成的 token 级熵轨迹相似度捕捉被污染样本上的策略路径依赖，并构建 RL-MIA benchmark 证明传统基于似然的检测器在这一阶段接近随机猜测，而该方法能稳定提高 AUC。
+
 **[Detecting Data Contamination in LLMs via In-Context Learning](detecting_data_contamination_in_llms_via_in-context_learning.md)**
 
 :   提出 CoDeC（Contamination Detection via Context），靠"给同数据集的样本当上下文后模型置信度是涨还是跌"这一信号判断 LLM 是否在某数据集上训练过——见过的会跌、没见过的会涨，只需灰盒访问 token 概率、两次前向，就能在数据集级别把见过/没见过几乎完美分开（AUC 99.9%）。
@@ -258,6 +278,10 @@ item_total: 119
 **[Don't Pass@k: A Bayesian Framework for Large Language Model Evaluation](dont_passk_a_bayesian_framework_for_large_language_model_evaluation.md)**
 
 :   本文把"评估 LLM"本身当成一个统计推断问题，用 Dirichlet 先验下的贝叶斯后验估计（Bayes@N）替代 Pass@k 和 avg@N，用闭式后验均值 + 可信区间在更少的采样下给出稳定排名，并提供"区间不重叠才宣布胜负"的透明决策规则。
+
+**[Don't Throw Away Your Beams: Improving Consistency-based Uncertainties in LLMs via Beam Search](dont_throw_away_your_beams_improving_consistency-based_uncertainties_in_llms_via.md)**
+
+:   这篇论文指出短答案问答里的多项式采样会大量重复高概率答案、导致一致性式不确定性估计方差很大，并用概率加权的 beam search 候选替代采样候选，在六个 QA 数据集和六个模型上稳定提升 PRR、ROC-AUC 与 PR-AUC。
 
 **[Doubly-Robust LLM-as-a-Judge: Externally Valid Estimation with Imperfect Personas](doubly-robust_llm-as-a-judge_externally_valid_estimation_with_imperfect_personas.md)**
 
@@ -383,6 +407,10 @@ item_total: 119
 
 :   提出 Logprob Tracking (LT) 方法，仅用单token输入和单token输出的log概率即可检测LLM API的微小变更（如单步微调），灵敏度比现有方法高2-3个数量级，成本低1000倍。
 
+**[LogiConBench: Benchmarking Logical Consistencies of LLMs](logiconbench_benchmarking_logical_consistencies_of_llms.md)**
+
+:   LogiConBench 用「自动生成逻辑图 → 采样命题并沿推理路径传播真值 → 翻译成自然语言」的流水线，造出可无限扩展、深度可控、带显式推理路径的 280K 逻辑一致性评测集，并设计判别 / 枚举 / 生成三类任务，揭示出前沿 LLM 在枚举任务上 exact accuracy 最高只有 34% 的硬伤。
+
 **[Mapping Overlaps in Benchmarks through Perplexity in the Wild](mapping_overlaps_in_benchmarks_through_perplexity_in_the_wild.md)**
 
 :   本文提出 **benchmark signature（基准指纹）**——从大规模真实语料里筛出一组"显著 token"，用一组 LLM 在这些 token 上的困惑度去预测它们在某基准上的表现，从而刻画每个基准真正考察的能力，并据此量化 89 个基准之间被语义相似度和性能相关性都掩盖掉的真实重叠结构。
@@ -487,6 +515,10 @@ item_total: 119
 
 :   针对"评测一个 benchmark 太贵、且要在大量模型上反复跑"的痛点，本文把基准压缩重新表述为"保住榜单整体排名"的子集优化问题，提出 EssenceBench——用文本+排名双重冗余过滤、遗传算法配固定代理预测器搜索子集、再用归因引导精修三步流水线，在 HellaSwag（1 万样本）上只用 50 条样本就把 95% 的模型排名误差控制在 5% 以内，实现 200× 压缩。
 
+**[Rewarding Doubt: A Reinforcement Learning Approach to Calibrated Confidence Expression of Large Language Models](rewarding_doubt_a_reinforcement_learning_approach_to_calibrated_confidence_expre.md)**
+
+:   本文把 LLM 的数值置信度表达建模成一个“下注式”的强化学习问题，用严格适当的对数评分规则奖励答对时的高置信、惩罚答错时的过度自信，从而在基本不改变答题准确率的情况下显著提升模型置信度校准和跨任务泛化能力。
+
 **[RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers](routerarena_an_open_platform_for_comprehensive_comparison_of_llm_routers.md)**
 
 :   RouterArena 是第一个面向 LLM 路由器（router）的开放评测平台，用 DDC 图书分类法构建覆盖 9 大领域、44 类、约 8400 条带难度标签的查询数据集，配合准确率、成本、路由最优性、鲁棒性、延迟五维指标和一个把准确率与成本合成的 Arena Score，再加上能自动跑新路由器并刷新榜单的框架，首次把学术与商业路由器拉到同一标尺下对比，发现没有一个路由器在所有指标上都最好、且现有方法普遍不擅长「该用小模型时用小模型」。
@@ -507,6 +539,10 @@ item_total: 119
 
 :   本文把"用少量样本估计 LLM 在整个基准上的成绩"形式化为一个稀疏优化问题，首次用梯度下降的 MLP 直接学习锚点权重，并通过 AIS/CIS 两个重要性分数迭代替换锚点，只用约 100 个样本就能把估计误差压到 1–2% 并保持很高的排名一致性（Kendall's τ）。
 
+**[SysMoBench: Evaluating AI on Formally Specifying Complex Real-World Systems](sysmobench_evaluating_ai_on_formally_specifying_complex_real-world_systems.md)**
+
+:   本文提出 SysMoBench——首个评测 AI 为真实复杂系统（并发/分布式）自动写形式化模型（TLA+）能力的基准，用语法、运行时、代码一致性、不变量四个可自动核验的度量打分，发现 LLM 能搞定 spinlock 这类小系统、但在 Etcd Raft 这类大型协议实现上严重力不从心。
+
 **[Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis](talk_evaluate_diagnose_user-aware_agent_evaluation_with_automated_error_analysis.md)**
 
 :   提出TED(Talk, Evaluate, Diagnose)框架，通过通用可复用的expert/non-expert persona模板实现用户感知的动态Agent评估、grading notes+LLM-as-judge+MaxProgressRate@k等新指标进行细粒度效率评估、自动化错误发现和聚类提供可操作的改进反馈，在τ²-bench和ToolSandbox上揭示新的Agent性能洞察。
@@ -519,9 +555,21 @@ item_total: 119
 
 :   本文把 LLM 系统里的提示（prompt）看作统计模型中的"文本参数 $\theta$"，用一个小训练集对其做贝叶斯推断，并提出一种文本版 MCMC 算法 MHLP（Metropolis-Hastings through LLM Proposals）从提示的后验里采样，从而对黑盒 LLM 的预测和不确定性给出有原则的量化，在准确率与校准（ECE/SECE）上同时优于若干 frequentist 基线。
 
+**[The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas](the_ideation-execution_gap_execution_outcomes_of_llm-generated_versus_human_rese.md)**
+
+:   这篇论文用一次专家执行 + 盲审评审的随机对照实验检验 LLM 生成研究想法是否真的能转化为更好的研究成果，发现 LLM 想法在“只看 idea”时分数更高，但执行后在新颖性、兴奋度、有效性和整体质量上掉分显著更大。
+
+**[The Open Proof Corpus: A Large-Scale Study of LLM-Generated Mathematical Proofs](the_open_proof_corpus_a_large-scale_study_of_llm-generated_mathematical_proofs.md)**
+
+:   这篇论文构建了包含 5,062 条人类判分 LLM 数学证明的 Open Proof Corpus，并用它系统回答自然语言证明与形式化证明、最终答案与完整证明、best-of-n 选择和证明裁判训练之间的关键差异。
+
 **[THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics](themis_towards_holistic_evaluation_of_mllms_for_scientific_paper_fraud_forensics.md)**
 
 :   THEMIS 构建了一个面向「学术论文图像造假取证」的多任务基准（4054 道题、5 类造假手法、16 种细粒度篡改操作、7 个真实学术场景），把造假类型映射到 5 种专家级视觉推理能力，对 16 个主流 MLLM 做体检，发现连最强的 GPT-5 综合分也只有 56.15%，揭示当前模型在复杂真实场景下「鉴伪」能力的系统性短板。
+
+**[TokUR: Token-Level Uncertainty Estimation for Large Language Model Reasoning](tokur_token-level_uncertainty_estimation_for_large_language_model_reasoning.md)**
+
+:   TokUR 用注意力权重的低秩随机扰动构造轻量级贝叶斯模型集成，在每个生成 token 上估计 total / aleatoric / epistemic uncertainty，再把这些信号聚合成推理轨迹级置信度，用于识别错误推理、筛选高质量答案并辅助测试时扩展。
 
 **[Towards Personalized Deep Research: Benchmarks and Evaluations](towards_personalized_deep_research_benchmarks_and_evaluations.md)**
 

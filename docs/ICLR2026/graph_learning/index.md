@@ -1,19 +1,19 @@
 ---
 title: >-
-  ICLR2026 图学习论文汇总 · 106篇论文解读
+  ICLR2026 图学习论文汇总 · 118篇论文解读
 description: >-
-  106篇ICLR2026的图学习方向论文解读，涵盖图神经网络、扩散模型、LLM、推理、异常检测、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  118篇ICLR2026的图学习方向论文解读，涵盖图神经网络、LLM、扩散模型、推理、对齐/RLHF、异常检测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "图学习"
   - "论文解读"
   - "论文笔记"
   - "图神经网络"
-  - "扩散模型"
   - "LLM"
+  - "扩散模型"
   - "推理"
-  - "异常检测"
   - "对齐/RLHF"
+  - "异常检测"
 item_list:
   - u: "a_graph_meta-network_for_learning_on_kolmogorovarnold_networks/"
     t: "A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks"
@@ -29,6 +29,8 @@ item_list:
     t: "Are We Measuring Oversmoothing in Graph Neural Networks Correctly?"
   - u: "atlaskv_augmenting_llms_with_billion-scale_knowledge_graphs_in_20gb_vram/"
     t: "AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM"
+  - u: "atomic_hins_entity-attribute_duality_for_heterogeneous_graph_modeling/"
+    t: "Atomic HINs: Entity-Attribute Duality for Heterogeneous Graph Modeling"
   - u: "beyond_entity_correlations_disentangling_event_causal_puzzles_in_temporal_knowle/"
     t: "Beyond Entity Correlations: Disentangling Event Causal Puzzles in Temporal Knowledge Graphs"
   - u: "beyond_simple_graphs_neural_multi-objective_routing_on_multigraphs/"
@@ -73,19 +75,17 @@ item_list:
     t: "Diverse and Sparse Mixture-of-Experts for Causal Subgraph–Based Out-of-Distribution Graph Learning"
   - u: "dr-ggad_dual_residual_centering_for_mitigating_anomaly_nondiscriminativity_in_ge/"
     t: "DR-GGAD: Dual Residual Centering for Mitigating Anomaly Non‑Discriminativity in Generalist Graph Anomaly Detection"
-  - u: "dual-branch_representations_with_dynamic_gated_fusion_and_triple-granularity_ali/"
-    t: "Dual-Branch Representations with Dynamic Gated Fusion and Triple-Granularity Alignment for Deep Multi-View Clustering"
-item_total: 106
+item_total: 118
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🔬 ICLR2026** · **106** 篇论文解读
+**🔬 ICLR2026** · **118** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/graph_learning/index.md) · [💬 ACL2026 (24)](../../ACL2026/graph_learning/index.md) · [🧪 ICML2026 (35)](../../ICML2026/graph_learning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/graph_learning/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/graph_learning/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/graph_learning/index.md)
 
-🔥 **高频主题：** 图神经网络 ×13 · 扩散模型 ×6 · LLM ×6 · 推理 ×5 · 异常检测 ×3
+🔥 **高频主题：** 图神经网络 ×14 · LLM ×7 · 扩散模型 ×6 · 推理 ×5 · 对齐/RLHF ×4
 
 **[A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks](a_graph_meta-network_for_learning_on_kolmogorovarnold_networks.md)**
 
@@ -114,6 +114,10 @@ item_total: 106
 **[AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM](atlaskv_augmenting_llms_with_billion-scale_knowledge_graphs_in_20gb_vram.md)**
 
 :   AtlasKV 把知识图谱里的每条三元组直接转成 Q-K-V 数据并以注意力的方式注入 LLM，再用层次化键值剪枝把复杂度从线性压到次线性，从而在 20GB 显存内为 LLM 接入十亿级（1B triples）知识图谱，无需外部检索器、无需长上下文、也无需为新知识重训。
+
+**[Atomic HINs: Entity-Attribute Duality for Heterogeneous Graph Modeling](atomic_hins_entity-attribute_duality_for_heterogeneous_graph_modeling.md)**
+
+:   本文提出"实体-属性对偶"原理，把异构信息网络（HIN）里所有属性原子化为实体节点得到一个"原子 HIN"作为表达力最大的标准形，再用遗传算法在节点/边类型上做二元选择（schema refinement），让一个极简版 RGCN（sRGCN）就能在 8 个数据集的节点分类和链接预测上达到 SOTA。
 
 **[Beyond Entity Correlations: Disentangling Event Causal Puzzles in Temporal Knowledge Graphs](beyond_entity_correlations_disentangling_event_causal_puzzles_in_temporal_knowle.md)**
 
@@ -223,6 +227,10 @@ item_total: 106
 
 :   提出 EDT-Former（Entropy-guided Dynamic Token Transformer），通过熵引导的动态token生成机制，在冻结图编码器和LLM之间建立高效对齐，无需微调LLM主干网络即在分子问答、分子指令和属性预测等多个基准上达到SOTA。
 
+**[Escaping the Homophily Trap: A Threshold-free Graph Outlier Detection Framework via Clustering-guided Edge Reweighting](escaping_the_homophily_trap_a_threshold-free_graph_outlier_detection_framework_v.md)**
+
+:   针对图卷积在异常检测中因"邻居聚合"把正常节点表征污染成异常的"同质性陷阱"，本文提出 CER-GOD：用一个可学习掩码自适应削弱异质邻居之间的边权，再用一个二聚类检测器在无监督下生成伪标签来反过来指导掩码、并直接给出无需阈值的异常分数，配上一个多样性损失防止聚类塌缩，在 8 个基准上刷出新 SOTA（Email 数据集 AUC 96.98%，比次优高 12% 以上）。
+
 **[EvA: Evolutionary Attacks on Graphs](eva_evolutionary_attacks_on_graphs.md)**
 
 :   用精心设计的遗传算法直接在离散的边翻转空间里搜索对抗扰动，绕开梯度松弛与可微代理损失，在节点分类攻击上比 SOTA 的 PRBCD 平均再掉约 11% 准确率，并首次实现对保形预测和鲁棒性证书的图结构攻击。
@@ -255,9 +263,21 @@ item_total: 106
 
 :   针对图节点特征极端稀疏（缺失率高达 99.5%）的补全问题，FSD-CAP 用一个可调"锐度"的分数阶扩散算子做局部自适应传播、用从已观测节点逐层向外扩张的渐进式子图扩散抑制误差累积，再用伪标签 + 邻域熵驱动的类感知传播注入语义结构，让补全后的特征在节点分类和链路预测上逼近甚至超过用完整特征训练的 GCN。
 
+**[Full-Graph vs. Mini-Batch Training: Comprehensive Analysis from a Batch Size and Fan-Out Size Perspective](full-graph_vs_mini-batch_training_comprehensive_analysis_from_a_batch_size_and_f.md)**
+
+:   这篇论文把 GNN 的全图训练（full-graph）看作 batch size 与 fan-out size 都取到最大的 mini-batch 训练特例，从这两个超参数的视角同时做收敛、泛化、计算效率的理论与实证分析，得出一个反直觉结论：全图训练并不总是优于精心调参的小 batch mini-batch 训练。
+
+**[G-Merging: Graph Models Merging for Parameter-Efficient Multi-Task Knowledge Consolidation](g-merging_graph_models_merging_for_parameter-efficient_multi-task_knowledge_cons.md)**
+
+:   G-Merging 面向多任务图学习场景，把多个从同一预训练 GNN 微调得到的任务模型先用任务算术合成共享骨干，再用拓扑感知对齐训练轻量任务适配器，并在推理时用无需训练的 MoE 路由动态组合适配器，从而用接近单模型的参数开销保留多任务知识。
+
 **[GDGB: A Benchmark for Generative Dynamic Text-Attributed Graph Learning](gdgb_a_benchmark_for_generative_dynamic_text-attributed_graph_learning.md)**
 
 :   针对"动态文本属性图（DyTAG）生成"这一空白，作者构建了 8 个高质量文本数据集的 GDGB 基准，定义了 TDGG（直推式）和 IDGG（归纳式）两个新生成任务及多维评测协议，并提出 LLM 多智能体框架 GAG-General 作为可复现的统一基线。
+
+**[Gelato: Graph Edit Distance via Autoregressive Neural Combinatorial Optimization](gelato_graph_edit_distance_via_autoregressive_neural_combinatorial_optimization.md)**
+
+:   GELATO 将图编辑距离的近似求解改写为逐步构造节点匹配的自回归决策过程，用带匹配历史的 GNN 反复选择下一个源图-目标图节点对，在多个 GED benchmark 上同时取得更高的精确命中率和更快的推理速度。
 
 **[Geometric Constraints for Small Language Models to Understand and Expand Scientific Taxonomies](geometric_constraints_for_small_language_models_to_understand_and_expand_scienti.md)**
 
@@ -286,6 +306,10 @@ item_total: 106
 **[GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](gnn-as-judge_unleashing_the_power_of_llms_for_graph_learning_with_gnn_feedback.md)**
 
 :   让带结构归纳偏置的 GNN 充当"裁判"，利用 LLM 与 GNN 预测的一致/不一致信号筛选可靠伪标签，再用"指令微调 + 偏好微调"的弱监督算法把伪标签知识蒸馏进 LLM，从而在标注极度稀缺的文本属性图上大幅提升节点分类性能。
+
+**[GNN Explanations that do not Explain and How to find Them](gnn_explanations_that_do_not_explain_and_how_to_find_them.md)**
+
+:   本文揭示了自解释图神经网络（SE-GNN）的一个致命失败模式——模型可以在保持最优精度的同时输出与其真实推理过程毫无关系的"退化解释"，并证明现有大多数忠实度指标识别不出这种解释；为此作者构造了一个可控基准，并提出新指标 EST 能可靠地把这类退化解释判为不忠实。
 
 **[GRAPHITE: Graph Homophily Booster — Reimagining the Role of Discrete Features in Heterophilic Graph Learning](graph_homophily_booster_reimagining_the_role_of_discrete_features_in_heterophili.md)**
 
@@ -455,9 +479,29 @@ item_total: 106
 
 :   这篇论文首次把经典 GNN、鲁棒 GNN（RGNN）和 GraphLLM 放到统一的文本属性图（TAG）对抗鲁棒性评测框架里横向比较，揭示了"模型只能防住文本攻击或结构攻击之一、防不住两者"的文本-结构权衡，并提出 SFT-auto——一个用 LLM 推理能力把"攻击检测 + 恢复 + 预测"统一进单一模型的防御框架，在两类攻击下都拿到均衡且领先的鲁棒性。
 
+**[SAGA: Structural Aggregation Guided Alignment with Dynamic View and Neighborhood Order Selection for Multiview Graph Domain Adaptation](saga_structural_aggregation_guided_alignment_with_dynamic_view_and_neighborhood_.md)**
+
+:   SAGA 面向多关系图上的无监督图领域自适应，提出 Structural Aggregation Distance 在训练中动态选择最可迁移的视图与邻域阶数组合，并用该组合引导跨视图、跨域对齐，在 ACM 与 MAG 多视图图节点分类迁移任务上显著优于现有 GDA 方法。
+
 **[Scaling Knowledge Graph Construction through Synthetic Data Generation and Distillation](scaling_knowledge_graph_construction_through_synthetic_data_generation_and_disti.md)**
 
 :   针对文档级知识图谱构建中"大模型贵、小模型差"的两难，本文用一条多步合成管线 SynthKG（分块→去上下文化→实体/命题/三元组抽取）造出 10 万对高质量文档-KG 训练数据，再把这套多步流程蒸馏进一个 8B 小模型 Distill-SynthKG，使其单步推理就能产出媲美 8 倍大模型的 KG，并在检索与多跳问答上全面超过 GraphRAG / HippoRAG。
+
+**[Self-Consistency Improves the Trustworthiness of Self-Interpretable GNNs](self-consistency_improves_the_trustworthiness_of_self-interpretable_gnns.md)**
+
+:   自解释 GNN（SI-GNN）训练时优化的是交叉熵+简洁正则，评测时却用忠实度（faithfulness），两者错位；本文指出忠实度本质上等价于"解释自洽性"，于是加一个把第一遍解释回灌后再生成的第二遍解释对齐起来的自洽（SC）损失，做一次模型无关的微调，就能在一致性、准确度、忠实度、信息量四个维度上同时提升解释质量。
+
+**[Sheaves Reloaded: A Directional Awakening](sheaves_reloaded_a_direction_awakening.md)**
+
+:   本文提出**有向胞腔层（Directed Cellular Sheaf）**，用复值、方向感知的限制映射把边的方向编码进相位，进而构造 Hermitian 的**有向层拉普拉斯 $L_{\tilde F}$**，得到第一个把方向归纳偏置嵌入架构的 Sheaf 神经网络 DSNN，在 12 个节点分类基准上 10 个取得最优。
+
+**[Si-GT: Fast Interconnect Signal Integrity Analysis for Integrated Circuit Design via Graph Transformers](si-gt_fast_interconnect_signal_integrity_analysis_for_integrated_circuit_design_.md)**
+
+:   Si-GT 把芯片互连建模成耦合 RC 电路图，用一个为串扰效应定制的图 Transformer（mesh 结构编码 + 虚拟 NET token + 内/外网注意力偏置）直接预测串扰延迟和毛刺，精度超过现有 GNN / 图 Transformer，且推理只要 4ms，比 SPICE 仿真快两个数量级。
+
+**[<SOG$_k$>: One LLM Token for Explicit Graph Structural Understanding](sog_k_one_llm_token_for_explicit_graph_structural_understanding.md)**
+
+:   本文把整张图或目标节点的拓扑压缩成一个与 LLM 原生词表共存的离散结构 token `<SOG$_k$>`，再用结构问答把它和文本 token 对齐，从而在分子图分类和节点分类上用极少 token 显著提升 LLM 的图结构理解能力。
 
 **[Structurally Human, Semantically Biased: Detecting LLM-Generated References with Embeddings and GNNs](structurally_human_semantically_biased_detecting_llm-generated_references_with_e.md)**
 
@@ -474,6 +518,10 @@ item_total: 106
 **[TGM: A Modular and Efficient Library for Machine Learning on Temporal Graphs](tgm_a_modular_and_efficient_library_for_machine_learning_on_temporal_graphs.md)**
 
 :   TGM 是首个把连续时间动态图（CTDG）和离散时间动态图（DTDG）统一在同一套数据抽象下的时序图学习研究框架，用「事件流 + 时间粒度迭代」统一两种范式、用可组合的 Hook 机制标准化数据变换，端到端训练比常用库 DyGLib 平均快 7.8×、图离散化平均快 175×。
+
+**[TopoFormer: Topology Meets Attention for Graph Learning](topoformer_topology_meets_attention_for_graph_learning.md)**
+
+:   TopoFormer 把图按节点或边滤波函数切成一串局部拓扑切片，用每个切片的 Betti 数和规模统计组成短 token 序列，再交给 Transformer 学图级表示，在图分类和分子性质预测上以较低计算成本达到接近或超过强基线的效果。
 
 **[Topological Anomaly Quantification for Semi-Supervised Graph Anomaly Detection](topological_anomaly_quantification_for_semi-supervised_graph_anomaly_detection.md)**
 

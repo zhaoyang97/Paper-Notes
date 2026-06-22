@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLM效率论文汇总 · 145篇论文解读
+  ICLR2026 LLM效率论文汇总 · 169篇论文解读
 description: >-
-  145篇ICLR2026的 LLM 效率方向论文解读，涵盖 LLM、扩散模型、推理、压缩/编码、联邦学习、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  169篇ICLR2026的 LLM 效率方向论文解读，涵盖 LLM、扩散模型、推理、对齐/RLHF、压缩/编码、联邦学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "LLM 效率"
@@ -11,12 +11,16 @@ tags:
   - "LLM"
   - "扩散模型"
   - "推理"
+  - "对齐/RLHF"
   - "压缩/编码"
   - "联邦学习"
-  - "对齐/RLHF"
 item_list:
   - u: "a_two-phase_deep_learning_framework_for_adaptive_time-stepping_in_high-speed_flo/"
     t: "A Two-Phase Deep Learning Framework for Adaptive Time-Stepping in High-Speed Flow Modeling"
+  - u: "accelerating_diffusion_large_language_models_with_slowfast_sampling_the_three_go/"
+    t: "Accelerating Diffusion Large Language Models with SlowFast Sampling: The Three Golden Principles"
+  - u: "attention_is_all_you_need_for_kv_cache_in_diffusion_llms/"
+    t: "Attention Is All You Need for KV Cache in Diffusion LLMs"
   - u: "autoencoding-free_context_compression_for_llms_via_contextual_semantic_anchors/"
     t: "Autoencoding-Free Context Compression for LLMs via Contextual Semantic Anchors"
   - u: "autosp_unlocking_long-context_llm_training_via_compiler-based_sequence_paralleli/"
@@ -27,6 +31,8 @@ item_list:
     t: "Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models"
   - u: "beyond_masks_efficient_flexible_diffusion_language_models_via_deletion-insertion/"
     t: "Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes"
+  - u: "beyond_real_imaginary_extension_of_rotary_position_embeddings_for_long-context_l/"
+    t: "Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context LLMs"
   - u: "bora_towards_more_expressive_low-rank_adaptation_with_block_diversity/"
     t: "BoRA: Towards More Expressive Low-Rank Adaptation with Block Diversity"
   - u: "cache_what_lasts_token_retention_for_memory-bounded_kv_cache_in_llms/"
@@ -69,27 +75,29 @@ item_list:
     t: "DirMoE: Dirichlet-Routed Mixture of Experts"
   - u: "disrouter_distributed_self-routing_for_llm_selections/"
     t: "DiSRouter: Distributed Self-Routing for LLM Selections"
-  - u: "distilling_to_hybrid_attention_models_via_kl-guided_layer_selection/"
-    t: "Distilling to Hybrid Attention Models via KL-Guided Layer Selection"
-  - u: "dnd_boosting_large_language_models_with_dynamic_nested_depth/"
-    t: "DND: Boosting Large Language Models with Dynamic Nested Depth"
-  - u: "dpad_efficient_diffusion_language_models_with_suffix_dropout/"
-    t: "DPad: Efficient Diffusion Language Models with Suffix Dropout"
-item_total: 145
+item_total: 169
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ LLM 效率
 
-**🔬 ICLR2026** · **145** 篇论文解读
+**🔬 ICLR2026** · **169** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (8)](../../CVPR2026/llm_efficiency/index.md) · [💬 ACL2026 (23)](../../ACL2026/llm_efficiency/index.md) · [🧪 ICML2026 (48)](../../ICML2026/llm_efficiency/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_efficiency/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/llm_efficiency/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/llm_efficiency/index.md)
 
-🔥 **高频主题：** LLM ×41 · 扩散模型 ×15 · 推理 ×7 · 压缩/编码 ×3 · 联邦学习 ×3
+🔥 **高频主题：** LLM ×45 · 扩散模型 ×20 · 推理 ×7 · 对齐/RLHF ×5 · 压缩/编码 ×3
 
 **[A Two-Phase Deep Learning Framework for Adaptive Time-Stepping in High-Speed Flow Modeling](a_two-phase_deep_learning_framework_for_adaptive_time-stepping_in_high-speed_flo.md)**
 
 :   ShockCast 把"高速流动的自适应时间步进"拆成两个学习问题——先用一个 Neural CFL 模型根据当前流场预测下一步该走多大的时间步 $\Delta t$，再用一个被 $\Delta t$ 条件化的 Neural Solver 把流场往前推进 $\Delta t$，两者在推理时自回归交替，从而让神经求解器能在含激波的超声速流场上像经典求解器一样"该细的地方细、该粗的地方粗"。
+
+**[Accelerating Diffusion Large Language Models with SlowFast Sampling: The Three Golden Principles](accelerating_diffusion_large_language_models_with_slowfast_sampling_the_three_go.md)**
+
+:   针对扩散语言模型（dLLM）现有采样策略"速度恒定、不会随生成状态调整"的问题，本文先总结出三条经验规律（确定性、收敛性、位置性），据此设计了在"慢相探索"与"快相加速"之间动态切换的 SlowFast Sampling，并可与 dLLM-Cache 正交叠加——在 GPQA 上对 LLaDA 实现最高 15.63× 加速、叠加缓存后达 34.22×，精度几乎无损。
+
+**[Attention Is All You Need for KV Cache in Diffusion LLMs](attention_is_all_you_need_for_kv_cache_in_diffusion_llms.md)**
+
+:   针对扩散语言模型（DLM）每步都重算全部 token、全部层 KV 的冗余问题，本文提出训练无关、架构无关的 Elastic-Cache：用「最受关注 token 的注意力漂移」判断**何时**刷新缓存、用「深层先变」的规律决定**从哪层往上**刷新，并对滑动窗口外的远端 MASK token 做块级缓存，在 LLaDA / Dream-7B 等模型上实现最高 45.1× 解码加速且几乎不掉点。
 
 **[Autoencoding-Free Context Compression for LLMs via Contextual Semantic Anchors](autoencoding-free_context_compression_for_llms_via_contextual_semantic_anchors.md)**
 
@@ -110,6 +118,10 @@ item_total: 145
 **[Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes](beyond_masks_efficient_flexible_diffusion_language_models_via_deletion-insertion.md)**
 
 :   DID 把扩散语言模型的「掩码-去掩码」彻底换成「删除-插入」两条连续时间马尔可夫链：前向把 token 逐个删到空序列、后向从空序列逐个插回去，再配一套基于「插入分数」的 DISE 训练目标和并行动态规划，既扔掉了占一半算力的 `<MASK>`/`<PAD>` token，又天然支持变长和生成中自纠错，定长/变长两种设定下训练加速最高 3.42×、推理加速最高 3.79×。
+
+**[Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context LLMs](beyond_real_imaginary_extension_of_rotary_position_embeddings_for_long-context_l.md)**
+
+:   RoPE++ 重新拿回标准 RoPE 复数注意力中被丢弃的负虚部，把它作为与真实部并行的 imaginary attention head，在不增加 KV cache 或直接减半 cache 的配置下提升长上下文建模能力。
 
 **[BoRA: Towards More Expressive Low-Rank Adaptation with Block Diversity](bora_towards_more_expressive_low-rank_adaptation_with_block_diversity.md)**
 
@@ -223,6 +235,10 @@ item_total: 145
 
 :   针对 LLM 智能体"边规划边推测执行"时固定推测步长 $k$ 要么省不了时间、要么烧掉大量冗余 token 的问题，本文提出 DSP：用一个轻量 DistilBERT 回归器在线（无需任何部署前准备）预测每一步该推测多远，并把预测建模成强化学习里的状态值函数用 TD 学习更新，在保持"无损加速"的同时把总成本降 30%、无效成本降最高 60%，还暴露一个旋钮让用户自由滑动延迟与成本的取舍。
 
+**[DynamicInfer: Runtime-Aware Sparse Offloading for LLMs Inference on a Consumer-Grade GPU](dynamicinfer_runtime-aware_sparse_offloading_for_llms_inference_on_a_consumer-gr.md)**
+
+:   DynamicInfer 面向显存不足的消费级 GPU，把 LLM FFN 神经元按运行时激活模式在 CPU/GPU 之间动态调度，并用跨层预测、分层神经元缓存和负载感知阈值让更多真正会被用到的神经元落到 GPU 上，最终在保持精度基本不变的前提下比 llama.cpp 和 PowerInfer 明显加速。
+
 **[Efficient Resource-Constrained Training of Transformers via Subspace Optimization](efficient_resource-constrained_training_of_transformers_via_subspace_optimizatio.md)**
 
 :   提出 WASI（Weight-Activation Subspace Iteration），基于"微调过程中参数子空间稳定"的假设，同时压缩 Transformer 的权重（SVD + Gram-Schmidt 子空间迭代）和激活（Tucker 分解），实现训练和推理都在低秩表示中完成，达到 62× 训练内存压缩和 Raspberry Pi 5 上 1.4× 加速，且精度损失可忽略。
@@ -251,6 +267,10 @@ item_total: 145
 
 :   RoPE 在预训练时是加速收敛的关键归纳偏置，却也是阻碍长度外推的根源；本文提出 **DroPE**——预训练完成后直接删掉所有位置编码、再用极少 token 短暂"重校准"，即可让 LLM 零样本泛化到远超训练长度的序列，无需任何长上下文微调。
 
+**[Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding](fast-dllm_training-free_acceleration_of_diffusion_llm_by_enabling_kv_cache_and_p.md)**
+
+:   Fast-dLLM 无需重新训练，给双向扩散语言模型补上一套块级近似 KV Cache，并用「置信度阈值」替代固定 top-K 的并行解码策略，在 LLaDA / Dream 上实现最高 27.6× 的端到端吞吐提升，且精度几乎不掉。
+
 **[Fast-dLLM v2: Efficient Block-Diffusion LLM](fast-dllm_v2_efficient_block-diffusion_llm.md)**
 
 :   Fast-dLLM v2 用约 1B token 的轻量微调把预训练的自回归 Qwen2.5 模型改造成块扩散语言模型，配合层次化缓存与置信度并行解码，在不掉点的前提下相比 AR 解码取得最高 2.5× 的加速。
@@ -275,6 +295,18 @@ item_total: 145
 
 :   FLoRG 把 LoRA 的两个低秩矩阵重参数化为单个低秩矩阵并只聚合其 Gram 矩阵，让服务器端聚合从「有偏的双线性运算」变成「无偏的线性运算」，再用 Procrustes 对齐解决分解非唯一带来的漂移，从而在联邦微调中同时消除聚合误差、压低通信开销（最高 2041×）并收紧收敛界。
 
+**[Frayed RoPE and Long Inputs: A Geometric Perspective](frayed_rope_and_long_inputs_a_geometric_perspective.md)**
+
+:   本文用一套统一的几何视角解释了「RoPE 模型为什么一超过训练长度就崩」——长输入把分得很开的 key/query 簇打散重叠，使得 sink token（注意力汇聚点）失效；据此提出 RoPE-ID：只对一半通道施加高频旋转，让免训练即可外推到更长上下文，在 RULER / LongBench 上追平甚至超过 YaRN。
+
+**[FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference](freekv_boosting_kv_cache_retrieval_for_efficient_llm_inference.md)**
+
+:   FreeKV 是一个 **training-free 的算法-系统协同优化框架**，通过「推测式检索」把 KV 页的选择与召回挪出推理关键路径、用「细粒度纠错」补偿精度损失，再配合 CPU/GPU 混合内存布局与双缓冲流式召回，让检索式 KV cache 压缩在几乎无损精度的前提下相比 SOTA 检索方法最高提速 **13×**。
+
+**[From Collapse to Control: Understanding and Extending Context Length in Emerging Hybrid Models via Universal Position Interpolation](from_collapse_to_control_understanding_and_extending_context_length_in_emerging_.md)**
+
+:   本文系统解释了混合 Mamba-Transformer 模型在超出训练窗口后为何会长上下文崩溃，并提出训练免费 Universal Position Interpolation，通过同时缩放 Transformer 的 RoPE 频率和少数不稳定 Mamba head 的步长 $\Delta_t$，把 Bamba、Nemotron-H 和 Mamba2 的可用上下文从 4K/8K 推到最高 64K。
+
 **[FSA: An Alternative Efficient Implementation of Native Sparse Attention Kernel](fsa_an_alternative_efficient_implementation_of_native_sparse_attention_kernel.md)**
 
 :   FSA 把 NSA 稀疏注意力 kernel 的"外层循环 query token、内层循环 KV block"翻转成"外层循环 KV block、内层循环 query token"，从而在每个 GQA group 只有少量 query head 的主流 LLM 上消除 padding 浪费，kernel 延迟最高降 3.5×、端到端训练最高加速 1.25×。
@@ -291,6 +323,10 @@ item_total: 145
 
 :   提出 GRAPE 框架，基于群作用（group actions）统一了 Transformer 中乘法型（RoPE）和加法型（ALiBi/FoX）两大位置编码家族，证明 RoPE 和 ALiBi 是其精确特例，并提出路径积分加法变体 GRAPE-AP 在下游任务上超越现有方法。
 
+**[Guided Speculative Inference for Efficient Test-Time Alignment of LLMs](guided_speculative_inference_for_efficient_test-time_alignment_of_llms.md)**
+
+:   GSI 用一个小草稿模型先采样推理步、再用「奖励 + 对数似然比」修正后的 tilted reward 做 soft best-of-n，并在分数过低时回退到大模型重采，在数学推理基准上既逼近甚至超过大模型 best-of-n 的精度，又把端到端延迟最多降低 28%，且是首个对最优 tilted 策略有分布保证的投机式测试时扩展方法。
+
 **[Gumbel Distillation for Parallel Text Generation](gumbel_distillation_for_parallel_text_generation.md)**
 
 :   用 Gumbel-Max 把自回归教师的"采样随机性"外化成一段确定性的 Gumbel 噪声"蓝图"，让并行学生模型只需学一个有监督的"噪声→文本"映射，从而把难以建模的联合分布问题降维成简单回归，显著缩小并行解码与自回归之间的质量差距。
@@ -299,9 +335,17 @@ item_total: 145
 
 :   针对扩散大语言模型（dLLM）并行解码"一步多 token 就掉点"的痛点，本文提出训练无关的 **Hierarchy-dLLM**：用分治思想把连续掩码区递归切成稀疏的小子区并行解码，让未解码 token 保持稀疏分布以抑制分布漂移，在保持甚至略升精度的同时把解码速度最高提升 17×、比 Fast-dLLM 快约 1.5×。
 
+**[Householder-Diagonalized Linear Attention (HDLA): Utilizing Rank-Enhanced Decay Mechanism for Efficient Sequence Modeling](householder-diagonalized_linear_attention_hdla_utilizing_enhanced_decay_mechanis.md)**
+
+:   HDLA 用广义 Householder 矩阵对线性注意力的衰减矩阵做合同对角化，把结构从主流的「对角 + 秩 1」扩展到更具表达力的「对角 + 秩 2」，并配套一个支持任意秩的 chunk-wise 并行算法；在语言建模困惑度、MQAR/RULER 检索、MAD 合成任务上以更低的计算量全面超过同类线性注意力基线。
+
 **[IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs](icecache_memory-efficient_kv-cache_management_for_long-sequence_llms.md)**
 
 :   IceCache 把"按语义相似度聚类 token"和 PagedAttention 的分页机制结合起来——用一棵可增量更新的多级 DCI 树把语义相近的 token 塞进同一个物理内存页，使得 query-aware 检索时相关 token 高度共页、命中率大幅提升，从而在仅用 25% KV-cache 预算时仍保住接近满 cache 的精度和更低的延迟。
+
+**[In-Place Test-Time Training](in-place_test-time_training.md)**
+
+:   本文把 Transformer 里 MLP 块的下投影矩阵 $W_{down}$ 当作可在推理时更新的「快权重」，配上一个对齐 Next-Token Prediction 的训练目标和分块更新机制，让现成的预训练 LLM 不改架构、不从头训就「即插即用」获得测试时训练（TTT）能力，在 128k 乃至 256k 长上下文上稳定超过原模型与 GLA / DeltaNet / LaCT 等竞品。
 
 **[Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models](inference-cost-aware_dynamic_tree_construction_for_efficient_inference_in_large_.md)**
 
@@ -322,6 +366,10 @@ item_total: 145
 **[KnowProxy: Adapting Large Language Models by Knowledge-guided Proxy](knowproxy_adapting_large_language_models_by_knowledge-guided_proxy.md)**
 
 :   KnowProxy 用一个小代理模型「学会消化」冻结大模型生成的文本知识来适配下游任务，从而摆脱了传统代理微调对大模型概率分布的依赖，让黑盒 LLM 也能被高效微调，并用动态路由只在大模型不确定时才调用代理。
+
+**[Learning To Draft: Adaptive Speculative Decoding with Reinforcement Learning](learning_to_draft_adaptive_speculative_decoding_with_reinforcement_learning.md)**
+
+:   LTD 把树状 speculative decoding 中“draft 到多深”和“验证多少候选 token”建模成两个协同的强化学习策略，直接用每轮 draft-and-verify 的吞吐量作为 reward，在 Eagle3 上稳定提升 LLM 推理速度。
 
 **[Learning to Parallel: Accelerating Diffusion Large Language Models via Learnable Parallel Decoding](learning_to_parallel_accelerating_diffusion_large_language_models_via_learnable_.md)**
 
@@ -443,6 +491,10 @@ item_total: 145
 
 :   OPPO 是一个轻量、模型无关的 PPO-RLHF 训练加速框架：它在「单步内」把 actor 生成与 reward 打分用分块流式重叠起来，在「跨步间」用超额提交（overcommit）几个 prompt 把长尾响应推迟到后续 step 完成，从而在不改变 PPO 更新、不损失收敛质量的前提下把训练加速 1.8×–2.8×、GPU 利用率提升 1.4×–2.1×。
 
+**[Out of the Memory Barrier: A Highly Memory-Efficient Training System for LLMs with Million-Token Contexts](out_of_the_memory_barrier_a_highly_memory-efficient_training_system_for_llms_wit.md)**
+
+:   OOMB 把百万级上下文 LLM 训练改造成按 chunk 串行推进、激活即时丢弃并反向重算的系统，再用分页 KV cache、异步 CPU offload 和页级稀疏注意力管理真正随长度增长的状态，使 Qwen2.5-7B 能在单张 H200 上训练 4M token 上下文。
+
 **[Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding](overcoming_joint_intractability_with_lossless_hierarchical_speculative_decoding.md)**
 
 :   本文提出 Hierarchical Speculative Decoding（HSD），用"分层分支重采样 + 封顶"的新验证策略，在不改变目标模型分布（provably lossless）的前提下显著提高每步接受的草稿 token 数，平均解码速度提升 6.7%，接进 EAGLE-3 后再涨 12% 以上。
@@ -523,6 +575,10 @@ item_total: 145
 
 :   本文提出 RetroAttention，一种"追溯式"稀疏注意力：在后续解码步骤加载到新 KV 时，回头去修正过去 Query 已经算好的注意力输出，从而在不增加 KV 预算的前提下让历史 Query 接触到更多 KV，缓解长生成中误差累积的问题，相比 SOTA 的 Quest 最多提升 21.9% 准确率、有效 KV 暴露量最多扩到 1.6×。
 
+**[Revisiting Long-context Modeling from Context Denoising Perspective](revisiting_long-context_modeling_from_context_denoising_perspective.md)**
+
+:   本文把长上下文建模看成一个"信号去噪"问题：用积分梯度（IG）分数精确定位上下文里真正影响预测的关键 token，再用一个轻量的去噪训练策略 CDT 在输入端压制无关 token 的影响，让 8B 开源模型在 LongBench-E 上做到 50.92 分、逼近 GPT-4o 的 51.00 分。
+
 **[Revisiting Parameter Server in LLM Post-Training](revisiting_parameter_server_in_llm_post-training.md)**
 
 :   针对 LLM 后训练中序列长度方差极大、设备负载严重不均的场景，本文把经典参数服务器（PS）思想重新引入现代分片数据并行：提出 On-Demand Communication（ODC），用点对点的 gather / scatter-accumulate 替换 FSDP 里逐层的 all-gather / reduce-scatter，把同步粒度从「每层一次」放松到「每个 minibatch 一次」，让快的设备不再被慢设备拖住，端到端最高比标准 FSDP 提速 36%。
@@ -547,6 +603,10 @@ item_total: 145
 
 :   本文把 Chinchilla 缩放定律扩展成"条件式"版本，显式把隐藏维度 $d_{model}$、MLP-注意力参数配比 $r_{mlp/attn}$、GQA 三个架构因素塞进 loss 预测，并配一套搜索框架，在固定参数/训练 token 预算下找到既准又快的架构；据此训出的 Panda / Surefire 系列模型相比 LLaMA-3.2 最高提升 2.1% 准确率、42% 推理吞吐。
 
+**[Scaling Linear Attention Capacity with Sparse State Expansion](scaling_linear_attention_capacity_with_sparse_state_expansion.md)**
+
+:   这篇论文把线性注意力的状态更新重新解释为“信息分类”，在此基础上提出 Sparse State Expansion（SSE）：用行稀疏写入和分区扩展显著增加固定状态容量，在不明显增加参数量的前提下提升长上下文检索与数学推理能力。
+
 **[Scaling Up, Speeding Up: A Benchmark of Speculative Decoding for Efficient LLM Test-Time Scaling](scaling_up_speeding_up_a_benchmark_of_speculative_decoding_for_efficient_llm_tes.md)**
 
 :   这篇论文构建了首个专门评测「推测解码（speculative decoding）加速 LLM 测试时扩展（test-time scaling）」的基准，在 BoN 与多轮思考两种范式下统一协议对比了 9 种推测解码方法，核心发现是：测试时扩展产生的推理轨迹高度重复，连最简单的 N-gram 类方法（尤其 SAM）都能逼近甚至超过需要训练的 EAGLE-3，而把二者杂交的混合方法能拿到全场最高加速。
@@ -555,17 +615,33 @@ item_total: 145
 
 :   本文提出 Any-Subset Speculative Decoding（ASSD），让任意子集自回归模型（AS-ARM）用同一个网络既当快速草稿、又当联合密度裁判，通过拒绝采样在**保证从真实联合分布无损采样**的同时并行生成多 token，并从理论上证明神经网络调用次数永远不会超过生成 token 数。
 
+**[Self-Speculative Masked Diffusions](self-speculative_masked_diffusions.md)**
+
+:   Self-Speculative Masked Diffusions 把 masked diffusion 的非因果并行草稿分布和任意顺序因果目标分布合进同一个 Transformer，用自 speculative sampling 在一次主要前向中验证多个 masked token，从而在文本建模和蛋白序列生成上以接近相同质量减少约 $2\times$ 网络前向次数。
+
 **[Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling](semantic_parallelism_redefining_efficient_moe_inference_via_model-data_co-schedu.md)**
 
 :   提出语义并行(Semantic Parallelism)范式，通过预测token-expert路由路径并协同调度模型放置与数据分发，大幅削减MoE推理中专家并行的all-to-all通信开销，在Attention-DP场景下吞吐提升最高2.78×，Attention-TP场景下延迟降低最高24.9%。
+
+**[Sequential Parallel Duality in Prefix Scannable Models](sequential_parallel_duality_in_prefix_scannable_models.md)**
+
+:   这篇论文用并行前缀扫描统一刻画了“训练可并行、推理可流式”的高效序列模型，并把这一类模型推广到允许非结合聚合算子的 Prefix-Scannable Models，使 Transformer 风格的 softmax 聚合也能在固定 chunk 下获得近似线性训练和 $O(\log n)$ 记忆的流式推理。
 
 **[Short Window Attention Enables Long-Term Memorization](short_window_attention_enables_long-term_memorization.md)**
 
 :   本文用「滑动窗口注意力 + xLSTM 线性 RNN」交替的混合架构 SWAX 研究短/长程记忆的分工，发现一个反直觉结论——**滑动窗口越短，长上下文检索反而越好**（因为短窗口逼着线性 RNN 去学长程依赖），并据此提出随机窗口训练（每个 batch 随机用 128 或 2048 的窗口），让模型在短上下文和长上下文任务上同时拿到最优。
 
+**[SinkTrack: Attention Sink based Context Anchoring for Large Language Models](sinktrack_attention_sink_based_context_anchoring_for_large_language_models.md)**
+
+:   SinkTrack 把 decoder-only LLM 中天然稳定受关注的 `<BOS>` 注意力汇聚点改造成上下文信息锚，通过训练免费的双轨 cross-attention 在 prefill 阶段向 `<BOS>` 注入输入上下文，从而在几乎不增加解码开销的情况下缓解幻觉和长上下文遗忘。
+
 **[Smooth Reading: Bridging the Gap of Recurrent LLM to Self-Attention LLM on Long-Context Understanding](smooth_reading_bridging_the_gap_of_recurrent_llm_to_self-attention_llm_on_long-c.md)**
 
 :   针对循环 LLM（线性复杂度但固定内存）在长上下文任务上打不过自注意力 LLM 的问题，本文提出 Smooth Reading——把"一口气读完整段上下文"改成"分块多轮、边读边总结、隐状态跨轮累积"的端到端多轮推理（EMR），并配套指出该推理范式更偏爱长度外推强的滑窗架构，最终在 LongBench 上把循环模型从落后自注意力 5.68% 反超 3.61%，同时保持训练 2.5×、推理 2× 的效率优势。
+
+**[SoLoPO: Unlocking Long-Context Capabilities in LLMs via Short-to-Long Preference Optimization](solopo_unlocking_long-context_capabilities_in_llms_via_short-to-long_preference_.md)**
+
+:   SoLoPO 把长上下文偏好优化拆成“短上下文上的偏好学习”和“短长上下文奖励一致性”，用更短、更干净的数据激活 LLM 的长上下文定位与推理能力，同时显著降低长序列训练的时间和显存压力。
 
 **[SonicMoE: Accelerating MoE with IO and Tile-aware Optimizations](sonicmoe_accelerating_moe_with_io_and_tile-aware_optimizations.md)**
 
@@ -579,9 +655,17 @@ item_total: 145
 
 :   本文提出 SeerAttention-R——一个专为推理模型「长解码」阶段设计的稀疏注意力框架，通过一个轻量、可插拔的自蒸馏注意力门控（AttnGate）学出每一步该激活哪些 KV 块，仅用 0.4B token 训练门控、不动原模型权重，就能在 AIME 等基准上以 4K token 预算保持近乎无损的推理精度，并配套 TileLang 块稀疏解码 kernel 在 H100 上相比 FlashAttention-3 取得最高约 9× 的加速。
 
+**[SparseD: Sparse Attention for Diffusion Language Models](sparsed_sparse_attention_for_diffusion_language_models.md)**
+
+:   针对扩散语言模型（DLM）双向注意力随上下文长度二次膨胀、推理慢的问题，SparseD 通过"早期步用全注意力 + 一次性预计算 head-specific 稀疏模式并跨步复用 + prefill/generation 孤立选择"三招，在 64k 上下文、1024 步去噪下相对 FlashAttention 最高获得 1.50× 无损加速。
+
 **[SpecBranch: Speculative Decoding via Hybrid Drafting and Rollback-Aware Branch Parallelism](specbranch_speculative_decoding_via_hybrid_drafting_and_rollback-aware_branch_pa.md)**
 
 :   SpecBranch 借鉴 CPU 分支预测思想，让草稿模型在目标模型验证的同时并行生成多条"投机分支"以对冲拒绝，并用一个融合显式目标特征与隐式置信度的轻量三分类器（H-RAD）自适应决定草稿长度与分支点，在弱对齐模型上把回滚率从 66–90% 压到 40% 以下，相比自回归解码取得 1.8×∼4.5× 的端到端加速且保持采样分布无损。
+
+**[Speculative Speculative Decoding](speculative_speculative_decoding.md)**
+
+:   本文提出 Speculative Speculative Decoding，把普通投机解码中“先 draft、再 verify、再继续 draft”的串行依赖改成异步预投机：验证还在跑时，draft 模型提前猜测可能的验证结果并为这些结果准备下一轮候选，最终的 SAGUARO 算法在 Llama-3.1-70B 等设置上比强投机解码基线平均快约 30%，相对自回归解码最高接近 $5\times$。
 
 **[Stacked From One: Multi-Scale Self-Injection for Context Window Extension](stacked_from_one_multi-scale_self-injection_for_context_window_extension.md)**
 
@@ -602,6 +686,10 @@ item_total: 145
 **[Test-Time Training Done Right](test-time_training_done_right.md)**
 
 :   本文指出现有 Test-Time Training（TTT）之所以在长序列上跑不动，是因为它们坚持用极小的在线 mini-batch（每 16~64 个 token 更新一次快权重），导致现代 GPU 利用率常年低于 5%；作者反其道而行，提出 **LaCT（Large-Chunk Test-Time Training）**，把更新粒度放大到 2K~1M token 的超大块，配合窗口注意力补足块内局部性，用几十行纯 PyTorch 就把 GPU 利用率拉到 70%，并在新视角合成、语言建模、自回归视频扩散三类模态上验证了可扩展到 14B 参数、56K~1M token 上下文。
+
+**[The End of Manual Decoding: Towards Truly End-to-End Language Models](the_end_of_manual_decoding_towards_truly_end-to-end_language_models.md)**
+
+:   本文提出 AutoDeco，在标准 Transformer 上挂两个轻量预测头，让模型在每一步解码时自己预测当前 token 该用的温度和 top-p，把原本靠手工调参的解码过程变成可微、可端到端训练的一部分，在 8 个 benchmark 上不仅稳超默认采样，还逼平了"在测试集上作弊调参"得到的 oracle 上界，几乎零额外延迟。
 
 **[The Pensieve Paradigm: Stateful Language Models Mastering Their Own Context](the_pensieve_paradigm_stateful_language_models_mastering_their_own_context.md)**
 
@@ -631,9 +719,17 @@ item_total: 145
 
 :   TrimR 用一个免微调的 7B 小验证器，在大推理模型（LRM）生成思维链的过程中实时检测「过度思考 / 思考不足 / 重复」三类冗余，并用引导提示**温和或强制**地让 LRM 提前收尾，在 MATH500、AIME24/25、GPQA 上把 QwQ-32B、R1-Distill-Qwen-32B、Pangu-R-38B 的推理运行时间最高砍掉 70%，而准确率几乎不掉（最多降 1.7%）。
 
+**[TyphoonMLA: A Mixed Naive-Absorb MLA Kernel For Shared Prefix](typhoonmla_a_mixed_naive-absorb_mla_kernel_for_shared_prefix.md)**
+
+:   TyphoonMLA 发现 shared prefix 场景下 MLA 解码的共享段更适合用 naive 计算、非共享段仍适合用 absorb 计算，于是把同一次 attention 拆成两路 kernel 并用 LSE 合并，在不改模型精度和不训练的前提下，把 MLA attention 吞吐最高提升到约 $3.24\times$，端到端 token 生成率最高提升 $1.48\times$。
+
 **[UltraLLaDA: Scaling the Context Length to 128K for Diffusion Large Language Models](ultrallada_scaling_the_context_length_to_128k_for_diffusion_large_language_model.md)**
 
 :   本文针对扩散语言模型（diffusion LLM）的长上下文扩展问题，提出一个考虑扩散双向注意力特性的 Diffusion-aware NTK 位置编码缩放方法，再配合抑制跨文档干扰的掩码后训练，把 LLaDA-8B 的上下文窗口从 4K 轻量扩展到 128K（仅 600 步训练），在 NIAH/PPL/LongBench/RULER 上大幅超过免训练基线 LongLLaDA。
+
+**[UltraMemV2: Memory Networks Scaling to 120B Parameters with Superior Long-Context Learning](ultramemv2_memory_networks_scaling_to_120b_parameters_with_superior_long-context.md)**
+
+:   UltraMemV2 重新设计了 memory-layer 稀疏架构，把记忆层放进每个 Transformer block，并用更高效的检索、value 处理、初始化和计算配比，让 memory network 在相同激活计算下接近 8-expert MoE，同时在长上下文记忆与 in-context learning 上更强、推理访存更低。
 
 **[Understanding and Improving Length Generalization in Hierarchical Sparse Attention Models](understanding_and_improving_length_generalization_in_hierarchical_sparse_attenti.md)**
 

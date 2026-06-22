@@ -83,7 +83,7 @@ item_total: 41
 
 **📹 ICCV2025** · **41** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (151)](../../CVPR2026/human_understanding/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/human_understanding/index.md) · [🧪 ICML2026 (5)](../../ICML2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [🧪 ICML2025 (3)](../../ICML2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (151)](../../CVPR2026/human_understanding/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/human_understanding/index.md) · [🧪 ICML2026 (5)](../../ICML2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [🧪 ICML2025 (3)](../../ICML2025/human_understanding/index.md)
 
 🔥 **高频主题：** 人脸/视线 ×9 · 人体姿态 ×7 · 语音 ×4 · 重识别 ×4 · 扩散模型 ×3
 

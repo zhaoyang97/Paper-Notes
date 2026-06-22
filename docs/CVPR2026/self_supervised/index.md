@@ -83,7 +83,7 @@ item_total: 91
 
 **📷 CVPR2026** · **91** 篇论文解读
 
-📌 **同领域跨会议浏览：** [🔬 ICLR2026 (68)](../../ICLR2026/self_supervised/index.md) · [💬 ACL2026 (1)](../../ACL2026/self_supervised/index.md) · [🧪 ICML2026 (28)](../../ICML2026/self_supervised/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (13)](../../ICCV2025/self_supervised/index.md)
+📌 **同领域跨会议浏览：** [🔬 ICLR2026 (81)](../../ICLR2026/self_supervised/index.md) · [💬 ACL2026 (1)](../../ACL2026/self_supervised/index.md) · [🧪 ICML2026 (28)](../../ICML2026/self_supervised/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (13)](../../ICCV2025/self_supervised/index.md)
 
 🔥 **高频主题：** 持续学习 ×20 · 自监督学习 ×9 · 对抗鲁棒 ×7 · 少样本学习 ×5 · 布局/合成 ×3
 

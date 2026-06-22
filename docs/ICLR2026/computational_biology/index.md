@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 计算生物论文汇总 · 138篇论文解读
+  ICLR2026 计算生物论文汇总 · 155篇论文解读
 description: >-
-  138篇ICLR2026的计算生物方向论文解读，涵盖生物分子、扩散模型、对齐/RLHF、对抗鲁棒、推理、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  155篇ICLR2026的计算生物方向论文解读，涵盖生物分子、扩散模型、对齐/RLHF、多模态、对抗鲁棒、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "计算生物"
@@ -11,12 +11,14 @@ tags:
   - "生物分子"
   - "扩散模型"
   - "对齐/RLHF"
+  - "多模态"
   - "对抗鲁棒"
   - "推理"
-  - "自监督学习"
 item_list:
   - u: "3dcs_datasets_and_benchmark_for_evaluating_conformational_sensitivity_in_molecul/"
     t: "3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations"
+  - u: "a_cross-species_neural_foundation_model_for_end-to-end_speech_decoding/"
+    t: "A Cross-Species Neural Foundation Model for End-to-End Speech Decoding"
   - u: "a_diffusion_model_to_shrink_proteins_while_maintaining_their_function/"
     t: "A Diffusion Model to Shrink Proteins While Maintaining Their Function"
   - u: "a_foundation_model_with_multi-variate_parallel_attention_to_generate_neuronal_ac/"
@@ -27,8 +29,14 @@ item_list:
     t: "A Joint Diffusion Model with Pre-Trained Priors for RNA Sequence-Structure Co-Design"
   - u: "a_new_paradigm_for_genome-wide_dna_methylation_prediction_without_methylation_in/"
     t: "A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input"
+  - u: "a_resolution-agnostic_geometric_transformer_for_chromosome_modeling_using_inerti/"
+    t: "A Resolution-Agnostic Geometric Transformer for Chromosome Modeling Using Inertial Frame"
+  - u: "a_tale_of_two_tails_preferred_and_anti-preferred_natural_stimuli_in_visual_corte/"
+    t: "A tale of two tails: Preferred and anti-preferred natural stimuli in visual cortex"
   - u: "adaptive_data-knowledge_alignment_in_genetic_perturbation_prediction/"
     t: "Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction"
+  - u: "align_your_structures_generating_trajectories_with_structure_pretraining_for_mol/"
+    t: "Align Your Structures: Generating Trajectories with Structure Pretraining for Molecular Dynamics"
   - u: "animal_behavioral_analysis_and_neural_encoding_with_transformer-based_self-super/"
     t: "Animal behavioral analysis and neural encoding with transformer-based self-supervised pretraining"
   - u: "antibody_strengthening_defense_against_harmful_fine-tuning_for_large_language_mo/"
@@ -67,29 +75,25 @@ item_list:
     t: "Controllable Sequence Editing for Biological and Clinical Trajectories"
   - u: "controlling_repetition_in_protein_language_models/"
     t: "Controlling Repetition in Protein Language Models"
-  - u: "convex_efficient_coding/"
-    t: "Convex Efficient Coding"
-  - u: "count_bridges_enable_modeling_and_deconvolving_transcriptomic_data/"
-    t: "Count Bridges enable Modeling and Deconvolving Transcriptomic Data"
-  - u: "coupled_transformer_autoencoder_for_disentangling_multi-region_neural_latent_dyn/"
-    t: "Coupled Transformer Autoencoder for Disentangling Multi-Region Neural Latent Dynamics"
-  - u: "cp-agent_contextaware_multimodal_reasoning_for_cellular_morphological_profiling_/"
-    t: "CP-Agent: Context-Aware Multimodal Reasoning for Cellular Morphological Profiling under Chemical Perturbations"
-item_total: 138
+item_total: 155
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧬 计算生物
 
-**🔬 ICLR2026** · **138** 篇论文解读
+**🔬 ICLR2026** · **155** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (21)](../../CVPR2026/computational_biology/index.md) · [💬 ACL2026 (5)](../../ACL2026/computational_biology/index.md) · [🧪 ICML2026 (51)](../../ICML2026/computational_biology/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/computational_biology/index.md) · [🧠 NeurIPS2025 (76)](../../NeurIPS2025/computational_biology/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/computational_biology/index.md)
 
-🔥 **高频主题：** 生物分子 ×56 · 扩散模型 ×22 · 对齐/RLHF ×7 · 对抗鲁棒 ×4 · 推理 ×4
+🔥 **高频主题：** 生物分子 ×65 · 扩散模型 ×23 · 对齐/RLHF ×7 · 多模态 ×5 · 对抗鲁棒 ×4
 
 **[3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations](3dcs_datasets_and_benchmark_for_evaluating_conformational_sensitivity_in_molecul.md)**
 
 :   作者构建了首个专测「同一分子不同构象」表示敏感性的基准 3DCS：用 >1M 分子、~10M 构象覆盖几何/手性/能量三个维度，配一套 Geometry–Chirality–Energy（GCE）评测框架，揭示现代 3D 分子表示模型几何很敏感、但手性时好时坏、能量几乎对不上。
+
+**[A Cross-Species Neural Foundation Model for End-to-End Speech Decoding](a_cross-species_neural_foundation_model_for_end-to-end_speech_decoding.md)**
+
+:   本文提出 BIT，一个把皮层神经活动直接翻译成完整句子的端到端脑机接口：先用跨物种（人+猴）、跨任务的自监督掩码预训练得到一个 Transformer 神经编码器，再把它接到音频大模型上做对比对齐微调，把先前端到端方法的词错误率（WER）从 24.69% 压到 10.22%，同时在级联框架下刷新 Brain-to-Text '24/'25 榜单 SOTA。
 
 **[A Diffusion Model to Shrink Proteins While Maintaining Their Function](a_diffusion_model_to_shrink_proteins_while_maintaining_their_function.md)**
 
@@ -111,9 +115,21 @@ item_total: 138
 
 :   MethylProphet 是一个"基因上下文 + DNA 序列"驱动的 Transformer 基础模型，**完全不需要任何已测甲基化值作为输入**，仅凭一个样本的基因表达谱和每个 CpG 位点周围的局部 DNA 序列，就能推断全基因组（约 2800 万个 CpG）的甲基化水平，并能泛化到训练时从未见过的 CpG 位点和样本。
 
+**[A Resolution-Agnostic Geometric Transformer for Chromosome Modeling Using Inertial Frame](a_resolution-agnostic_geometric_transformer_for_chromosome_modeling_using_inerti.md)**
+
+:   InertialGenome 用惯性系把初始染色体三维坐标先规范到稳定姿态，再用带 3D-RoPE 与 Nyström 结构编码的 Transformer 精修坐标，在两个单细胞 Hi-C 数据集、多个分辨率和生物功能验证上都优于传统优化方法与图神经网络基线。
+
+**[A tale of two tails: Preferred and anti-preferred natural stimuli in visual cortex](a_tale_of_two_tails_preferred_and_anti-preferred_natural_stimuli_in_visual_corte.md)**
+
+:   本文发现灵长类视觉皮层 V4 神经元对自然图像的响应不是只有“偏好刺激”一端，而是同时存在能增强放电的偏好图像和能压低基线放电的反偏好图像，并通过电生理验证、编码模型、心理物理实验和 ImageBeagle 搜索工具证明反偏好刺激是理解 V4 调谐不可缺的一半。
+
 **[Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction](adaptive_data-knowledge_alignment_in_genetic_perturbation_prediction.md)**
 
 :   ALIGNED 把"数据驱动的神经网络"和"专家整理的基因调控知识库"放进同一个溯因学习（Abductive Learning）框架里，用一个无梯度训练的适配器逐基因决定该信谁，再反过来用预测去精炼调控知识库，在多个大规模扰动数据集上拿到了最高的"平衡一致性"，并且能重新发现有生物学意义的调控关系。
+
+**[Align Your Structures: Generating Trajectories with Structure Pretraining for Molecular Dynamics](align_your_structures_generating_trajectories_with_structure_pretraining_for_mol.md)**
+
+:   这篇论文提出 EGINTERPOLATOR：先在大规模静态分子构象数据上训练等变扩散结构模型，再用时间插值器在少量 MD 轨迹上学习帧间相关性，从而在小分子、药物分子、四肽和蛋白单体上生成更接近真实分子动力学的轨迹。
 
 **[Animal behavioral analysis and neural encoding with transformer-based self-supervised pretraining](animal_behavioral_analysis_and_neural_encoding_with_transformer-based_self-super.md)**
 
@@ -227,9 +243,17 @@ item_total: 138
 
 :   POYO-CAP 把"统计规律性"（用偏度和峰度衡量）当成显式的数据筛选准则，先在最"可预测"的一批神经元（抑制性中间神经元等）上做掩码重建预训练，再迁移到嘈杂神经元做下游解码，从而把钙成像里的神经元异质性从拦路虎变成可扩展的学习优势——电影帧重建 SSIM 达 0.593、数据效率提升 1.98×，且模型越大性能越稳地上升。
 
+**[DeepSADR: Deep Transfer Learning with Subsequence Interaction and Adaptive Readout for Cancer Drug Response Prediction](deepsadr_deep_transfer_learning_with_subsequence_interaction_and_adaptive_readou.md)**
+
+:   DeepSADR 把“药物-患者是否响应”建模成药物子结构与基因功能子序列之间的二部交互图，再用图自编码器和 Set Transformer 自适应读出把细胞系中的丰富响应知识迁移到样本稀缺的临床患者数据，在 5 种临床药物上取得平均 AUC 0.856、AUPR 0.862。
+
 **[Diffusion Alignment as Variational Expectation-Maximization](diffusion_alignment_as_variational_expectation-maximization.md)**
 
 :   将扩散模型对齐形式化为变分 EM 算法：E-step 用 test-time search（soft Q 引导 + 重要性采样）探索高奖励多模态轨迹，M-step 通过 forward-KL 蒸馏将搜索结果写入模型参数，在图像生成和 DNA 序列设计上同时实现高奖励和高多样性。
+
+**[Discovering heterogeneous synaptic plasticity rules via large-scale neural evolution](discovering_heterogeneous_synaptic_plasticity_rules_via_large-scale_neural_evolu.md)**
+
+:   这篇论文把小鼠初级视觉皮层 V1 建成一个可塑的脉冲神经网络，在由脉冲、资格迹和奖赏预测误差信号组成的巨大可解释规则空间中，用多目标进化算法搜索不同突触类型各自的学习规则，发现多种数学形式很不一样的规则都能同时保持生物合理性、视觉变化检测能力、少样本适应性和跨网络规模泛化。
 
 **[Discrete Compositional Generation via General Soft Operators and Robust Reinforcement Learning](discrete_compositional_generation_via_general_soft_operators_and_robust_reinforc.md)**
 
@@ -263,6 +287,10 @@ item_total: 138
 
 :   DrugTrail 把通用大模型改造成"会像药化专家一样思考"的药物设计器：先用临床化学引导的五维结构化推理（CCIR）做轻量 SFT，再用一套不依赖耗时打分、能在线计算的成药性偏好优化（DTPO）做 GRPO 强化学习，让 7B 级小模型在口袋导向分子生成上对接能量、QED、SA 等指标全面碾压 DeepSeek-R1 等大模型，且每个分子都附带可读的推理链。
 
+**[Efficient Prediction of Large Protein Complexes via Subunit-Guided Hierarchical Refinement](efficient_prediction_of_large_protein_complexes_via_subunit-guided_hierarchical_.md)**
+
+:   HIERAFOLD 用 PAE 从粗粒度两两预测中自动切出刚性子单元和跨链接口，再只对“焦点链 + 相关接口子单元”做高精度精修，最后用置信度加权对齐装配，从而在接近 AlphaFold3 准确率的同时把大蛋白复合物的峰值显存压到可运行范围。
+
 **[Enhancing Diffusion-Based Sampling with Molecular Collective Variables](enhancing_diffusion-based_sampling_with_molecular_collective_variables.md)**
 
 :   把分子动力学里的"well-tempered metadynamics"沿集体变量（CV）施加在线排斥偏置的思想，嫁接到 state-of-the-art 的扩散采样器 ASBS 上，得到 WT-ASBS：训练中沿低维 CV 持续累积偏置逼出稀有构象、推理时按偏置重加权恢复玻尔兹曼分布，首次用扩散采样器以远低于 metadynamics 的墙钟时间采样了带键断裂/形成的反应能面。
@@ -286,6 +314,10 @@ item_total: 138
 **[Fast and Interpretable Protein Substructure Alignment via Optimal Transport](fast_and_interpretable_protein_substructure_alignment_via_optimal_transport.md)**
 
 :   PLASMA 把蛋白质局部结构对齐重新表述为带熵正则的最优传输问题，用可微 Sinkhorn 迭代直接输出残基级对齐矩阵和一个 [0,1] 区间的可解释相似度分数，做到了又快（约 10ms/对，比 TM-align 快 50×）又准又能看懂的活性位点/结合位点对齐。
+
+**[Fast Proteome-Scale Protein Interaction Retrieval via Residue-Level Factorization](fast_proteome-scale_protein_interaction_retrieval_via_residue-level_factorizatio.md)**
+
+:   RaftPPI 把传统 residue-residue 蛋白互作评分近似成可分解的单蛋白 embedding 内积，用 Gaussian kernel、SORF 随机傅里叶特征和低秩注意力保留残基级建模能力，同时把全人类蛋白组候选互作检索从 GPU 月级降到单机数分钟。
 
 **[Fine-Tuning Diffusion Models via Intermediate Distribution Shaping](fine-tuning_diffusion_models_via_intermediate_distribution_shaping.md)**
 
@@ -314,6 +346,10 @@ item_total: 138
 **[GeomMotif: A Benchmark for Arbitrary Geometric Preservation in Protein Generation](geommotif_a_benchmark_for_arbitrary_geometric_preservation_in_protein_generation.md)**
 
 :   GeomMotif 把蛋白质 motif scaffolding 任务从"功能位点"中解耦出来，构造了 57 个保证可解、模态无关的"纯几何保持"任务，用统一的 SUN（成功×独特×新颖）指标系统揭示出结构类模型远超序列类模型、以及结构条件反而可能干扰生成等反直觉现象。
+
+**[GRAM-DTI: Adaptive Multimodal Representation Learning for Drug-Target Interaction Prediction](gram-dti_adaptive_multimodal_representation_learning_for_drugtarget_interaction_.md)**
+
+:   GRAM-DTI 把药物 SMILES、分子文本、分子层级分类标注和蛋白序列放进同一个预训练框架，用 Gramian 体积对齐、自适应模态 dropout 和 IC50 弱监督学习更稳健的药物-靶点表示，并在 DTI / MoA 预测和零样本检索上整体超过强基线。
 
 **[Graph Diffusion Transformers are In-Context Molecular Designers](graph_diffusion_transformers_are_in-context_molecular_designers.md)**
 
@@ -415,6 +451,10 @@ item_total: 138
 
 :   用带皮层拓扑结构的深度视觉模型在"硅内"预演微电刺激实验，挑出最能改变行为的刺激位点与图像，再把这些预测搬到活体猕猴的下颞叶皮层上验证——结果模型预测的行为偏移与猴子真实选择显著相关，并首次实现模型在环（model-in-the-loop）引导的高级视觉皮层刺激。
 
+**[MolEditRL: Structure-Preserving Molecular Editing via Discrete Diffusion and Reinforcement Learning](moleditrl_structure-preserving_molecular_editing_via_discrete_diffusion_and_rein.md)**
+
+:   MolEditRL 把分子编辑直接放在离散分子图上做：先用图文本条件扩散学会从源分子和自然语言指令重构目标分子，再用带结构约束的强化学习细调属性优化，在更少参数下同时提高编辑成功率、结构相似度和化学分布质量。
+
 **[Multi-Marginal Flow Matching with Adversarially Learnt Interpolants](multi-marginal_flow_matching_with_adversarially_learnt_interpolants.md)**
 
 :   用 GAN 式对抗损失学习「神经插值曲线」，让插值曲线在中间时刻的边际分布逼近观测快照分布（而非逐点穿过样本），再用流匹配把这些光滑插值边际化为向量场，从而在缺少真实轨迹、只有离散时间快照的科学数据上推断连续动力学。
@@ -458,6 +498,10 @@ item_total: 138
 **[PatchDNA: A Flexible and Biologically-Informed Alternative to Tokenization for DNA](patchdna_a_flexible_and_biologically-informed_alternative_to_tokenization_for_dn.md)**
 
 :   PatchDNA 把自然语言里的 Byte Latent Transformer「分块（patching）」机制搬到 DNA 上，用进化保守性分数（PhyloP）而非固定词表来决定可变长度的 patch 边界，并支持训练后「重新 patching」，让参数量小一个数量级的模型在多个基因组 benchmark 上超过现有 SOTA，还能在不重训的情况下按下游任务/细胞类型调整切块策略。
+
+**[PepBenchmark: A Standardized Benchmark for Peptide Machine Learning](pepbenchmark_a_standardized_benchmark_for_peptide_machine_learning.md)**
+
+:   PepBenchmark 把肽药物发现中的 35 个 canonical / non-canonical peptide 数据集、统一清洗采样划分流程和四类模型 leaderboard 放到同一套可复现实验框架里，并揭示了 PLM、fingerprint、GNN 与 SMILES 模型在不同肽任务上的真实优势边界。
 
 **[PepTri: 物理、进化与互信息三重引导的全原子扩散肽设计](peptri_tri-guided_all-atom_diffusion_for_peptide_design_via_physics_evolution_an.md)**
 
@@ -511,6 +555,10 @@ item_total: 138
 
 :   RankFlow 不再把蛋白质语言模型（PLM）的嵌入直接接一个回归头去拟合适应度数值，而是学一个能量引导的条件流，把"与性质无关"的 PLM 表征**搬运**成"与目标性质对齐"的分布，再配上一个可微排序损失（RC2）和一个性质引导的方向门（PSG），在 ProteinGym、PEER、FLIP 三大基准上拿到 SOTA 的排序精度和更强的跨实验泛化。
 
+**[Readout Representation: Redefining Neural Codes by Input Recovery](readout_representation_redefining_neural_codes_by_input_recovery.md)**
+
+:   这篇论文提出用“能从神经特征中读出什么”而不是“这个特征由什么输入因果地产生”来定义神经表征，并用视觉与语言模型的扰动特征反演实验表明：同一个输入往往对应特征空间中一大片可恢复区域，表征大小可作为刻画冗余、鲁棒性和单样本可表征性的指标。
+
 **[Refine Drugs, Don't Complete Them: Uniform-Source Discrete Flows for Fragment-Based Drug Discovery](refine_drugs_dont_complete_them_uniform-source_discrete_flows_for_fragment-based.md)**
 
 :   InVirtuoGen 用「均匀源连续时间离散流」在片段化 SMILES 上生成小分子，把生成范式从「逐步补全」改成「全位置同时精炼」，既在 de novo 生成上刷出更优的质量-多样性帕累托前沿，又靠遗传算法 + PPO 的混合优化在 PMO 基准和先导优化上拿到新 SOTA。
@@ -530,6 +578,10 @@ item_total: 138
 **[Riemannian Variational Flow Matching for Material and Protein Design](riemannian_variational_flow_matching_for_material_and_protein_design.md)**
 
 :   本文提出 Riemannian Gaussian Variational Flow Matching（RG-VFM），用黎曼高斯分布把"预测端点"的变分流匹配（VFM）搬到曲面流形上，并用 Jacobi 场证明：相比预测速度的黎曼流匹配（RFM），RG-VFM 的损失天然多了一项曲率相关惩罚，从而提供更强的监督信号；在合成球面/双曲数据以及 MOF 材料、蛋白质骨架生成任务上都稳定优于欧氏和速度型基线。
+
+**[Rigidity-Aware Geometric Pretraining for Protein Design and Conformational Ensembles](rigidity-aware_geometric_pretraining_for_protein_design_and_conformational_ensem.md)**
+
+:   RigidSSL 把蛋白质骨架表示为残基级刚体序列，先在 AFDB 静态结构上学习 SE(3) 扰动下稳定的几何先验，再用 MD 轨迹学习真实构象转移，从而提升蛋白质骨架生成、motif scaffolding 和 GPCR 构象 ensemble 生成的设计性、多样性与生物物理合理性。
 
 **[SAIR: Enabling Deep Learning for Protein-Ligand Interactions with a Synthetic Structural Dataset](sair_enabling_deep_learning_for_protein-ligand_interactions_with_a_synthetic_str.md)**
 
@@ -558,6 +610,14 @@ item_total: 138
 **[SimpleFold: Folding Proteins is Simpler Than You Think](simplefold_folding_proteins_is_simpler_than_you_think.md)**
 
 :   SimpleFold 把蛋白质折叠当成「氨基酸序列→全原子 3D 结构」的条件生成任务，仅用标准 Transformer 块 + flow-matching 目标训练，彻底丢掉 AlphaFold2 那套 MSA、配对表示、三角更新和等变模块，在 9M 蒸馏结构上把模型规模拉到 3B，在标准折叠基准上逼近 SOTA，并在构象集合生成上表现尤其突出。
+
+**[SpectraLLM: Uncovering the Ability of LLMs for Molecular Structure Elucidation from Multi-Spectral Data](spectrallm_uncovering_the_ability_of_llms_for_molecular_structure_elucidation_fr.md)**
+
+:   SpectraLLM 把 IR / Raman / UV-Vis / NMR / MS 等异构光谱统一翻译成自然语言提示，喂给一个 LoRA 微调的 Qwen3，让它端到端地自回归生成分子的 SMILES 结构；在四个公开基准上全面超越各单模态专用 baseline，并且越多光谱联合输入、预测越准。
+
+**[Structural Prognostic Event Modeling for Multimodal Cancer Survival Analysis](structural_prognostic_event_modeling_for_multimodal_cancer_survival_analysis.md)**
+
+:   SlotSPE 将病理 WSI 与转录组通路特征压缩成患者自适应的少量 prognostic event slots，再用选择性激活、跨模态重建和迭代 slot 交互完成生存风险预测，在 10 个 TCGA 癌种上取得平均 C-index 0.721，并在基因组缺失时仍保持 0.704 的整体表现。
 
 **[SubDyve: Subgraph-Driven Dynamic Propagation for Virtual Screening Enhancement](subdyve_subgraph-driven_dynamic_propagation_for_virtual_screening_enhancement_co.md)**
 
@@ -595,6 +655,10 @@ item_total: 138
 
 :   提出 ToSFiT，通过微调大语言模型直接参数化最大概率（Probability of Maximality），将 Thompson Sampling 扩展到大规模非结构化离散空间，避免了获取函数最大化的难题。
 
+**[Tokenization to Transfer: Do Genomic Foundation Models Learn Good Representations?](tokenization_to_transfer_do_genomic_foundation_models_learn_good_representations.md)**
+
+:   作者把 7 个基因组基础模型（GFM）和它们「权重随机初始化」的同架构对照版本放在 52 个基因组任务上系统对打，发现随机初始化基线强得惊人、预训练的收益被分词器牢牢卡住（字符级几乎不涨、子词级才涨），而且无论是否预训练，这些模型都几乎读不出临床相关的单核苷酸突变——结论是当前照搬 NLP 的预训练范式在基因组上只带来「分词器门控的微弱提升」。
+
 **[Towards All-atom Foundation Models for Biomolecular Binding Affinity Prediction](towards_all-atom_foundation_models_for_biomolecular_binding_affinity_prediction.md)**
 
 :   本文把 AlphaFold 3 的架构从"生成式结构预测"改造成"表征学习器"，提出全原子扩散 Transformer ADiT：用统一 tokenization 同时编码蛋白质与小分子、砍掉重条件 trunk 与 MSA/模板依赖、在 PDB 上做去噪预训练，单一模型就在蛋白-配体、药物-靶点、蛋白-蛋白、抗体-抗原四类亲和力任务上达到或逼近 SOTA，并随模型增大稳定提升。
@@ -606,6 +670,10 @@ item_total: 138
 **[Towards Understanding the Shape of Representations in Protein Language Models](towards_understanding_the_shape_of_representations_in_protein_language_models.md)**
 
 :   本文不去解释蛋白质语言模型（PLM）如何处理单条序列，而是借用形状分析里的平方根速度（SRV）表征和图过滤工具，把"整个蛋白质空间被 PLM 怎样变形"刻画成可度量的几何对象，进而发现 ESM2 的各层表征会先膨胀后收缩，且在倒数第二层附近最忠实地编码三维结构、最擅长捕捉约 2 个和约 8 个残基的局部上下文。
+
+**[Triangle Multiplication is All You Need for Biomolecular Structure Representations](triangle_multiplication_is_all_you_need_for_biomolecular_structure_representatio.md)**
+
+:   这篇论文提出 Pairmixer：在 AlphaFold3/Boltz-1 风格的共折叠模型中去掉昂贵的 triangle attention 和 sequence update，只保留 pair representation 上的 triangle multiplication 与 FFN，就能接近 Pairformer 的结构预测精度，同时显著降低训练、推理和蛋白质设计中的计算开销。
 
 **[TRIBE: Trimodal Brain Encoder for Whole-Brain fMRI Response Prediction](tribe_trimodal_brain_encoder_for_whole-brain_fmri_response_prediction.md)**
 

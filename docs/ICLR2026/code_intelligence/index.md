@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 代码智能论文汇总 · 51篇论文解读
+  ICLR2026 代码智能论文汇总 · 58篇论文解读
 description: >-
-  51篇ICLR2026的代码智能方向论文解读，涵盖 LLM、代码智能、强化学习、推理、Agent、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  58篇ICLR2026的代码智能方向论文解读，涵盖 LLM、代码智能、强化学习、Agent、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "代码智能"
@@ -10,8 +10,8 @@ tags:
   - "论文笔记"
   - "LLM"
   - "强化学习"
-  - "推理"
   - "Agent"
+  - "推理"
   - "对抗鲁棒"
 item_list:
   - u: "a_problem-oriented_perspective_and_anchor_verification_for_code_optimization/"
@@ -34,6 +34,10 @@ item_list:
     t: "CARD: Towards Conditional Design of Multi-agent Topological Structures"
   - u: "code2bench_scaling_source_and_rigor_for_dynamic_benchmark_construction/"
     t: "Code2Bench: Scaling Source and Rigor for Dynamic Benchmark Construction"
+  - u: "code_aesthetics_with_agentic_reward_feedback/"
+    t: "Code Aesthetics with Agentic Reward Feedback"
+  - u: "code_world_models_for_general_game_playing/"
+    t: "Code World Models for General Game Playing"
   - u: "codesense_a_real-world_benchmark_and_dataset_for_code_semantic_reasoning/"
     t: "CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning"
   - u: "critique-coder_enhancing_coder_models_by_critique_reinforcement_learning/"
@@ -42,6 +46,8 @@ item_list:
     t: "CrossPL: Systematic Evaluation of Large Language Models for Cross Programming Language Interoperating Code Generation"
   - u: "diablo_diagonal_blocks_are_sufficient_for_finetuning/"
     t: "DiaBlo: Diagonal Blocks Are Sufficient For Finetuning"
+  - u: "diffucoder_understanding_and_improving_masked_diffusion_models_for_code_generati/"
+    t: "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation"
   - u: "edit-bench_evaluating_llm_abilities_to_perform_real-world_instructed_code_edits/"
     t: "EDIT-Bench: Evaluating LLM Abilities to Perform Real-World Instructed Code Edits"
   - u: "evolving_graph_structured_programs_for_circuit_generation_with_large_language_mo/"
@@ -64,27 +70,21 @@ item_list:
     t: "IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation"
   - u: "innogym_benchmarking_the_innovation_potential_of_ai_agents/"
     t: "InnoGym: Benchmarking the Innovation Potential of AI Agents"
+  - u: "januscoder_towards_a_foundational_visual-programmatic_interface_for_code_intelli/"
+    t: "JanusCoder: Towards a Foundational Visual-Programmatic Interface for Code Intelligence"
   - u: "kimi-dev_agentless_training_as_skill_prior_for_swe-agents/"
     t: "Kimi-Dev: Agentless Training as Skill Prior for SWE-agents"
-  - u: "kv_cache_transform_coding_for_compact_storage_in_llm_inference/"
-    t: "KV Cache Transform Coding for Compact Storage in LLM Inference"
-  - u: "learnat_learning_nl2sql_with_ast-guided_task_decomposition_for_large_language_mo/"
-    t: "LearNAT: Learning NL2SQL with AST-guided Task Decomposition for Large Language Models"
-  - u: "learning_to_reason_without_external_rewards/"
-    t: "Learning to Reason without External Rewards"
-  - u: "llm-guided_evolutionary_program_synthesis_for_quasi-monte_carlo_design/"
-    t: "LLM-Guided Evolutionary Program Synthesis for Quasi-Monte Carlo Design"
-item_total: 51
+item_total: 58
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**🔬 ICLR2026** · **51** 篇论文解读
+**🔬 ICLR2026** · **58** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (49)](../../ACL2026/code_intelligence/index.md) · [🧪 ICML2026 (22)](../../ICML2026/code_intelligence/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/code_intelligence/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/code_intelligence/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/code_intelligence/index.md) · [🧪 ICML2025 (9)](../../ICML2025/code_intelligence/index.md)
 
-🔥 **高频主题：** LLM ×9 · 代码智能 ×5 · 强化学习 ×4 · 推理 ×4 · Agent ×3
+🔥 **高频主题：** LLM ×10 · 代码智能 ×8 · 强化学习 ×5 · Agent ×4 · 推理 ×4
 
 **[A Problem-Oriented Perspective and Anchor Verification for Code Optimization](a_problem-oriented_perspective_and_anchor_verification_for_code_optimization.md)**
 
@@ -126,6 +126,14 @@ item_total: 51
 
 :   针对代码生成评测中「题源静态易污染 + 测试浮于表面」两大顽疾，本文提出 **Dual Scaling（双重扩展）** 哲学——一边从真实代码仓库按模型知识截止日期动态取题（扩展题源），一边用属性测试 PBT 配合 100% 分支覆盖的「Great Filter」自动生成高严谨度测试（扩展严谨度）——并实例化为端到端框架 Code2Bench，产出含 Python/Java 原生实例的 Code2Bench-2509 基准，对 10 个主流 LLM 给出细粒度诊断。
 
+**[Code Aesthetics with Agentic Reward Feedback](code_aesthetics_with_agentic_reward_feedback.md)**
+
+:   本文把网页设计和图表生成这类“结果好不好看也很重要”的编程任务定义为代码审美问题，构建 AesCode-358K 数据集、OpenDesign 评测集和由执行/静态审美/交互审美三类智能体组成的奖励反馈，再用 GRPO-AR 训练出小规模 AesCoder，使 4B 模型在 OpenDesign 上超过 GPT-4o、GPT-4.1 以及多种大规模开源代码模型。
+
+**[Code World Models for General Game Playing](code_world_models_for_general_game_playing.md)**
+
+:   不再把 LLM 当成直接出招的"棋手"，而是让它把游戏规则和少量对局轨迹**翻译成一份可执行的 Python 世界模型代码**（含状态转移、合法动作、终局判定，外加价值函数与隐状态推理函数），再把这份代码交给 MCTS / ISMCTS 这类经典规划器去深搜；在 10 个游戏（含 4 个自造的全新游戏）上，9 个游戏打平或战胜 Gemini 2.5 Pro。
+
 **[CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning](codesense_a_real-world_benchmark_and_dataset_for_code_semantic_reasoning.md)**
 
 :   CodeSense 是第一个面向真实世界软件工程的细粒度代码语义推理 benchmark：作者从 744 个 Python/C/Java GitHub 项目里跑测试、抓执行轨迹，自动构造出语句级/代码块级/函数级的执行值与程序属性（循环、指针别名、分支）的 ground truth，共 4483 个样本，评测 14 个 SOTA LLM 后发现它们连单条真实语句的算术和 API 调用都常常算不对。
@@ -141,6 +149,10 @@ item_total: 51
 **[DiaBlo: Diagonal Blocks Are Sufficient For Finetuning](diablo_diagonal_blocks_are_sufficient_for_finetuning.md)**
 
 :   提出 DiaBlo——一种用对角块更新替代低秩分解的参数高效微调方法：将权重矩阵划分为 $N \times N$ 块后只训练对角块 $\mathbf{D}_1, \ldots, \mathbf{D}_N$，彻底绕开 LoRA 中 $\mathbf{AB}$ 乘积带来的非凸优化、初始化敏感与梯度不稳定问题，零初始化即可收敛，PyTorch 一行 `torch.einsum` 实现 batched matmul，理论证明同参数预算下表达力严格优于 LoRA，在常识推理、算术推理、代码生成、安全对齐四大任务及 4-bit/2-bit 量化场景全面领先。
+
+**[DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation](diffucoder_understanding_and_improving_masked_diffusion_models_for_code_generati.md)**
+
+:   本文训练了一个 7B 的掩码扩散代码模型 DiffuCoder，提出局部/全局 AR-ness 指标系统刻画扩散 LLM 的"非自回归"解码行为，并设计 coupled-GRPO（互补掩码耦合采样的扩散原生 RL 方法），在 EvalPlus 上提升 4.4%。
 
 **[EDIT-Bench: Evaluating LLM Abilities to Perform Real-World Instructed Code Edits](edit-bench_evaluating_llm_abilities_to_perform_real-world_instructed_code_edits.md)**
 
@@ -185,6 +197,10 @@ item_total: 51
 **[InnoGym: Benchmarking the Innovation Potential of AI Agents](innogym_benchmarking_the_innovation_potential_of_ai_agents.md)**
 
 :   提出 InnoGym，第一个系统评估 AI Agent 创新能力的基准和框架，引入 Performance Gain 和 Novelty 两个互补指标，通过 18 个可改进任务发现当前 Agent 具备一定创新性但缺乏将创新转化为可靠性能提升的鲁棒性。
+
+**[JanusCoder: Towards a Foundational Visual-Programmatic Interface for Code Intelligence](januscoder_towards_a_foundational_visual-programmatic_interface_for_code_intelli.md)**
+
+:   针对"代码 + 视觉"多模态语料稀缺的瓶颈，本文造了一套数据合成工具箱，合成出迄今最大的多模态代码语料 JanusCode-800K，并训出统一模型 JanusCoder / JanusCoderV，用一个模型同时覆盖图表生成、网页 UI、动画、科学演示等文本侧与视觉侧任务，7B–14B 规模即逼近甚至超过 GPT-4o。
 
 **[Kimi-Dev: Agentless Training as Skill Prior for SWE-agents](kimi-dev_agentless_training_as_skill_prior_for_swe-agents.md)**
 
@@ -242,6 +258,10 @@ item_total: 51
 
 :   RESCUE 针对"安全代码生成"提出一套新的 RAG 框架：离线用"聚类-总结 + 程序切片"把杂乱的漏洞修复数据蒸馏成分层安全知识库，在线用"分层多面检索"从漏洞成因、API 模式、代码三个安全视角主动分析任务并融合检索，在四个基准、六个 LLM 上把兼顾安全与功能的 SecurePass@1 指标平均提升 4.8 个点，刷新 SOTA。
 
+**[RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation](rpg_a_repository_planning_graph_for_unified_and_scalable_codebase_generation.md)**
+
+:   本文提出 Repository Planning Graph（RPG），把"建什么功能（proposal）"和"怎么实现（implementation）"统一编码进一张显式的图（节点是能力/文件/函数，边是数据流与层级），并基于它构建 ZeroRepo 框架，按"提案级建图 → 实现级建图 → 图引导代码生成"三阶段从零生成整仓代码，在自建的 RepoCraft 基准上做到 81.5% 覆盖率、69.7% 通过率、平均 36K 行代码，规模是最强 baseline（Claude Code）的 3.9×。
+
 **[Sharing State Between Prompts and Programs](sharing_state_between_prompts_and_programs.md)**
 
 :   提出共享程序状态（shared program state）抽象，让 prompt 直接读写程序变量、操作堆对象和控制程序流程，实现为 Nightjar 系统（Python + prompt 混合编程），在保持或提升准确率（+4-19%）的同时减少 39.6% 代码量。
@@ -249,6 +269,10 @@ item_total: 51
 **[ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code](shieldedcode_learning_robust_representations_for_virtual_machine_protected_code.md)**
 
 :   提出 ShieldedCode——首个保护感知的代码表征学习框架，通过层次依赖建模（指令内/前序/跨指令三层）和联合功能感知+保护感知对比学习，使 LLM 能够生成、比较和推理虚拟机保护代码，在 VM 代码生成（Pass@1 26.95% vs. GPT-4o 22.58%）和二进制相似性检测上均超越现有方法。
+
+**[SK2Decompile: LLM-based Two-Phase Binary Decompilation from Skeleton to Skin](sk2decompile_llm-based_two-phase_binary_decompilation_from_skeleton_to_skin.md)**
+
+:   SK2Decompile 把二进制反编译拆成“先恢复可编译的程序骨架、再补回语义化标识符”的两阶段 LLM 流程，并分别用编译器反馈和语义相似度奖励做强化学习，从而同时提升反编译代码的可执行性与可读性。
 
 **[SpotIt: Evaluating Text-to-SQL Evaluation with Formal Verification](spotit_evaluating_text-to-sql_evaluation_with_formal_verification.md)**
 
@@ -269,6 +293,10 @@ item_total: 51
 **[The Natural Geometry of Code: Hyperbolic Representation Learning for Program Reasoning](the_natural_geometry_of_code_hyperbolic_representation_learning_for_program_reas.md)**
 
 :   本文主张代码的「自然几何」是双曲空间，提出在数值稳定的 Lorentz 模型上原生运行的图神经网络 HypeCodeNet，用双曲嵌入层、tangent-space 消息传递和测地注意力为 AST 学习低失真的层次化表示，在克隆检测、代码补全、链接预测三类程序推理任务上全面超越欧氏模型，且只用 32 维就能追平 768 维的 SOTA。
+
+**[TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning](tikzilla_scaling_text-to-tikz_with_high-quality_data_and_reinforcement_learning.md)**
+
+:   TikZilla 通过构建 200 万级高质量 TikZ 数据集 DaTikZ-V4，并在 SFT 后用基于逆图形学图像编码器的 GRPO 奖励继续训练小型 Qwen 模型，使 3B/8B 开源模型在 Text-to-TikZ 科学图形生成上超过 GPT-4o、自动指标上超过 GPT-5，并显著提高编译率与图形语义对齐。
 
 **[Training Large Language Models To Reason In Parallel With Global Forking Tokens](training_large_language_models_to_reason_in_parallel_with_global_forking_tokens.md)**
 

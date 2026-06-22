@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 幻觉检测论文汇总 · 37篇论文解读
+  ICLR2026 幻觉检测论文汇总 · 40篇论文解读
 description: >-
-  37篇ICLR2026的幻觉检测方向论文解读，涵盖多模态、LLM、推理、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  40篇ICLR2026的幻觉检测方向论文解读，涵盖多模态、LLM、推理、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "幻觉检测"
@@ -31,6 +31,8 @@ item_list:
     t: "Critical Confabulation: Can LLMs Hallucinate for Social Good?"
   - u: "dynamic_multimodal_activation_steering_for_hallucination_mitigation_in_large_vis/"
     t: "Dynamic Multimodal Activation Steering for Hallucination Mitigation in Large Vision-Language Models"
+  - u: "emotionhallucer_evaluating_emotion_hallucinations_in_multimodal_large_language_m/"
+    t: "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models"
   - u: "enhancing_hallucination_detection_through_noise_injection/"
     t: "Enhancing Hallucination Detection through Noise Injection"
   - u: "estimating_semantic_alphabet_size_for_llm_uncertainty_quantification/"
@@ -49,6 +51,8 @@ item_list:
     t: "Hallucination Reduction with CASAL: Contrastive Activation Steering for Amortized Learning"
   - u: "halluguard_demystifying_data-driven_and_reasoning-driven_hallucinations_in_llms/"
     t: "HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs"
+  - u: "harp_hallucination_detection_via_reasoning_subspace_projection/"
+    t: "HARP: Hallucination Detection via Reasoning Subspace Projection"
   - u: "high_accuracy_less_talk_halt_reliable_llms_through_capability-aligned_finetuning/"
     t: "High Accuracy, Less Talk (HALT): Reliable LLMs through Capability-Aligned Finetuning"
   - u: "imitating_the_truth_attention-aware_truth-guided_enhancement_for_hallucination_m/"
@@ -69,21 +73,17 @@ item_list:
     t: "Mitigating Hallucination in Vision-Language Model with Depth and Spatial-aware Key-Value Refinement"
   - u: "ndad_negative-direction_aware_decoding_for_large_language_models_via_controllabl/"
     t: "NDAD: Negative-Direction Aware Decoding for Large Language Models via Controllable Hallucination Signal Injection"
-  - u: "neural_message-passing_on_attention_graphs_for_hallucination_detection/"
-    t: "Neural Message-Passing on Attention Graphs for Hallucination Detection"
-  - u: "p2-dpo_grounding_hallucination_in_perceptual_processing_via_calibration_direct_p/"
-    t: "P2-DPO: Grounding Hallucination in Perceptual Processing via Calibration Direct Preference Optimization"
-item_total: 37
+item_total: 40
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👻 幻觉检测
 
-**🔬 ICLR2026** · **37** 篇论文解读
+**🔬 ICLR2026** · **40** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (33)](../../CVPR2026/hallucination/index.md) · [💬 ACL2026 (28)](../../ACL2026/hallucination/index.md) · [🧪 ICML2026 (21)](../../ICML2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
 
-🔥 **高频主题：** 多模态 ×8 · LLM ×6 · 推理 ×4 · 对齐/RLHF ×2
+🔥 **高频主题：** 多模态 ×9 · LLM ×7 · 推理 ×5 · 对齐/RLHF ×2
 
 **[AFTER: 用自适应事实引导的激活编辑缓解 LVLM 的物体幻觉](after_mitigating_the_object_hallucination_of_lvlm_via_adaptive_factual-guided_ac.md)**
 
@@ -121,6 +121,10 @@ item_total: 37
 
 :   提出动态多模态激活引导（DMAS），通过构建基于语义的真实性引导向量数据库和视觉感知引导向量，在推理时动态选择最相关的引导向量对关键注意力头进行干预，无需训练即可显著缓解LVLM幻觉，在MME上提升94.66分，在CHAIR上降低20.2%幻觉率。
 
+**[EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models](emotionhallucer_evaluating_emotion_hallucinations_in_multimodal_large_language_m.md)**
+
+:   EmotionHallucer 是一个面向 MLLM 情绪理解的幻觉评测基准，它把情绪幻觉拆成“情绪心理学知识”和“真实多模态情绪感知”两大维度，用成对的 basic / hallucinated 二元问答检测模型是否既能做基本情绪判断、又能拒绝看似合理但错误的情绪描述，并进一步提出 PEP-MEK 推理框架让模型在多模态情绪感知子集上平均提升 9.90%。
+
 **[Enhancing Hallucination Detection through Noise Injection](enhancing_hallucination_detection_through_noise_injection.md)**
 
 :   在 LLM 中间层的 MLP 激活中注入均匀噪声来近似贝叶斯后验，捕获认知不确定性（epistemic uncertainty），与采样温度捕获的偶然不确定性（aleatoric uncertainty）互补，将 GSM8K 上的幻觉检测 AUROC 从 71.56 提升到 76.14。
@@ -156,6 +160,10 @@ item_total: 37
 **[HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs](halluguard_demystifying_data-driven_and_reasoning-driven_hallucinations_in_llms.md)**
 
 :   本文提出统一的「幻觉风险界（Hallucination Risk Bound）」理论框架，把 LLM 幻觉风险用三角不等式分解为**数据驱动项**（训练期表示偏差）与**推理驱动项**（解码期不稳定），并据此设计无需外部参考、无需幻觉标注的 NTK 谱代理分数 HalluGuard，在 10 个基准、11 个基线、9 个骨干上一致取得 SOTA。
+
+**[HARP: Hallucination Detection via Reasoning Subspace Projection](harp_hallucination_detection_via_reasoning_subspace_projection.md)**
+
+:   HARP 把 LLM 的隐藏态空间分解成「语义子空间 ⊕ 推理子空间」，通过对 Unembedding 层做 SVD 找出推理子空间的基向量，再把隐藏态投影到这个仅占约 5% 维度的子空间上作为幻觉检测特征，在 TriviaQA 上把 AUROC 推到 92.8%（比此前最佳高 7.5 个百分点）。
 
 **[High Accuracy, Less Talk (HALT): Reliable LLMs through Capability-Aligned Finetuning](high_accuracy_less_talk_halt_reliable_llms_through_capability-aligned_finetuning.md)**
 
@@ -212,6 +220,10 @@ item_total: 37
 **[Seeing What's Wrong: A Trajectory-Guided Approach to Caption Error Detection](seeing_whats_wrong_a_trajectory-guided_approach_to_caption_error_detection.md)**
 
 :   这篇论文提出 TRACED：不再用"一张图文对一个相似度分"判断字幕是否有误，而是反复编辑字幕去最大化图文对齐分、生成一条"字幕轨迹"，用轨迹的改进幅度与语义变化作为特征训练分类器；在 MS COCO / Flickr30k / MM-IMDb 上把多种现有检测器的准确率最高提升约 2.8%，还能定位出错的具体词、并把这些线索喂给 VLM 把纠错后字幕的对齐分再提升最高 14.5%。
+
+**[Semantic Uncertainty Quantification of Hallucinations in LLMs: A Quantum Tensor Network Based Method](semantic_uncertainty_quantification_of_hallucinations_in_llms_a_quantum_tensor_n.md)**
+
+:   针对语义熵检测幻觉时忽略「token 序列概率本身有多大随机波动」这一盲区，本文把序列概率的核均值嵌入看成一个量子张量网络（QTN）的波函数，用微扰理论一次性算出每条概率的局部不确定度，再用「熵最大化 + 按不确定度反比加权的 KL 惩罚」校准概率，得到对混淆（confabulation）更敏感、且可解释的语义 Rényi 熵；在 4 个数据集、8 个模型、3 档量化的 116 组实验里 AUROC/AURAC 稳定超过 SOTA。
 
 **[SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense](shield_suppressing_hallucinations_in_lvlm_encoders_via_bias_and_vulnerability_de.md)**
 

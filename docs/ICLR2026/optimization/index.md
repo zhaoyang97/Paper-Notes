@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 优化/理论论文汇总 · 193篇论文解读
+  ICLR2026 优化/理论论文汇总 · 220篇论文解读
 description: >-
-  193篇ICLR2026的优化/理论方向论文解读，涵盖联邦学习、LLM、对抗鲁棒、对齐/RLHF、压缩/编码、持续学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  220篇ICLR2026的优化/理论方向论文解读，涵盖联邦学习、LLM、对抗鲁棒、布局/合成、压缩/编码、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "优化/理论"
@@ -11,9 +11,9 @@ tags:
   - "联邦学习"
   - "LLM"
   - "对抗鲁棒"
-  - "对齐/RLHF"
+  - "布局/合成"
   - "压缩/编码"
-  - "持续学习"
+  - "对齐/RLHF"
 item_list:
   - u: "a_block_coordinate_descent_method_for_nonsmooth_composite_optimization_under_ort/"
     t: "A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints"
@@ -75,17 +75,17 @@ item_list:
     t: "Celo2: Towards Learned Optimization Free Lunch"
   - u: "clipped_gradient_methods_for_nonsmooth_convex_optimization_under_heavy-tailed_no/"
     t: "Clipped Gradient Methods for Nonsmooth Convex Optimization under Heavy-Tailed Noise: A Refined Analysis"
-item_total: 193
+item_total: 220
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🔬 ICLR2026** · **193** 篇论文解读
+**🔬 ICLR2026** · **220** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/optimization/index.md) · [🧪 ICML2026 (88)](../../ICML2026/optimization/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (126)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (61)](../../ICML2025/optimization/index.md)
 
-🔥 **高频主题：** 联邦学习 ×14 · LLM ×8 · 对抗鲁棒 ×4 · 对齐/RLHF ×3 · 压缩/编码 ×3
+🔥 **高频主题：** 联邦学习 ×16 · LLM ×10 · 对抗鲁棒 ×5 · 布局/合成 ×4 · 压缩/编码 ×4
 
 **[A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints](a_block_coordinate_descent_method_for_nonsmooth_composite_optimization_under_ort.md)**
 
@@ -231,6 +231,14 @@ item_total: 193
 
 :   作者把 μP/CompleteP 这套"小模型调参、大模型直接迁移"的缩放规则补全到四条最关键的训练轴——宽度、深度、批量、训练时长——并进一步证明：在正确的参数化下，连"逐模块"（每种张量、每层各自一组学习率/权重衰减/Adam 参数）的细粒度超参也能从 5000 万参数的小模型直接迁移到 72 亿参数的大模型，带来约 1.3× 的训练加速。
 
+**[Composite Optimization with Error Feedback: the Dual Averaging Approach](composite_optimization_with_error_feedback_the_dual_averaging_approach.md)**
+
+:   针对"误差反馈（Error Feedback）在带非光滑正则项/约束的复合优化里会失效"这个长期空白，本文用**对偶平均（Dual Averaging）**重塑迭代的求和结构，把它和最新的 EControl 误差反馈机制结合，首次给出复合凸优化下与无复合项情形**完全匹配**的收敛率。
+
+**[Compositional Generalization through Gradient Search in Nonparametric Latent Space](compositional_generalization_through_gradient_search_in_nonparametric_latent_spa.md)**
+
+:   这篇论文提出 Abduction Transformer，把 few-shot 抽象推理任务中的隐藏规则表示为可变大小的非参数潜在混合分布，并在测试时对潜在假设做梯度搜索，从而在 1-D ARC、SRAVEN 和语言系统性任务上显著提升 OOD 组合泛化能力。
+
 **[Conformal Robustness Control: A New Strategy for Robust Decision](conformal_robustness_control_a_new_strategy_for_robust_decision.md)**
 
 :   针对"用保形预测做鲁棒决策"中"覆盖约束过保守"的痛点，本文提出 Conformal Robustness Control（CRC），把预测集的构造**直接放到显式鲁棒性约束下优化**（而非要求覆盖率），用光滑代理 + 拉格朗日交替梯度求解，并给出非渐近理论保证与测试时有限样本校准，在组合投资、股票、电池储能等任务上拿到更低的风险证书和决策损失，同时把鲁棒性精准卡在目标水平。
@@ -294,6 +302,10 @@ item_total: 193
 **[DeMo: Decoupled Momentum Optimization](demo_decoupled_momentum_optimization.md)**
 
 :   DeMo 把分布式数据并行里"每步同步全精度梯度"换成"只同步压缩后的局部动量"——通过解耦各 worker 的动量更新、用 DCT 正交变换 + top-k 稀疏化压缩动量、再用动量缓冲自身充当误差反馈，做到每步每卡通信量比 AdamW-DDP 少最多 85×，而下游精度与收敛基本持平。
+
+**[Derandomized Online-to-Non-convex Conversion for Stochastic Weakly Convex Optimization](derandomized_online-to-non-convex_conversion_for_stochastic_weakly_convex_optimi.md)**
+
+:   这篇论文证明在随机弱凸优化中，可以去掉 O2NC 依赖的随机插值或随机缩放，直接在当前迭代点取随机次梯度，并通过带二次正则的在线增量学习得到最优的 Goldstein stationarity 复杂度，同时导出一个几乎等价于周期性重启动量的 SGDM 变体。
 
 **[DES-LOC: Desynced Low Communication Adaptive Optimizers for Foundation Models](des-loc_desynced_low_communication_adaptive_optimizers_for_foundation_models.md)**
 
@@ -363,6 +375,10 @@ item_total: 193
 
 :   联邦学习里现有通信压缩(Top-k、ATOMO)都按"幅值大小"决定丢哪些参数,本文改用每个客户端的一小撮本地校准数据直接测量"丢掉某个压缩单元会让该层输出变化多少",按这个输出差异排序来丢,可即插即用增强主流压缩方案,在压缩比 0.1 时相对精度提升 18.9%。
 
+**[Enhancing Learning with Noisy Labels via Rockafellian Relaxation](enhancing_learning_with_noisy_labels_via_rockafellian_relaxation.md)**
+
+:   本文提出 Rockafellian Relaxation Method (RRM)，把任意监督训练损失包成一个可重加权的 min-min 优化问题，通过自动下调高损失可疑样本的权重，在真实噪声、合成噪声和部分对抗扰动场景下提升分类模型的鲁棒性。
+
 **[Entropic Confinement and Mode Connectivity in Overparameterized Neural Networks](entropic_confinement_and_mode_connectivity_in_overparameterized_neural_networks.md)**
 
 :   揭示了低损失路径上曲率的系统性增长会产生熵力屏障，即使路径能量平坦，SGD噪声也会将优化动力学约束在最小值附近的平坦区域，从而解释了"模式连通但动力学受限"的悖论。
@@ -423,6 +439,14 @@ item_total: 193
 
 :   FIRE 把"该把权重往回重置多少"这个长期靠手调的难题，重写成一个有闭式解的约束优化问题——在保持与旧权重最接近（最小化 Frobenius 误差）的前提下，把权重投影到正交（等距）流形上恢复可塑性，用 Newton–Schulz 迭代高效近似，几乎零调参地在视觉/语言/RL 三类持续学习任务上同时压过 naive 训练和标准重初始化方法。
 
+**[FMIP: Joint Continuous-Integer Flow for Mixed-Integer Linear Programming](fmip_joint_continuous-integer_flow_for_mixed-integer_linear_programming.md)**
+
+:   针对现有生成式 MILP 启发式只建模整数变量、忽视整数-连续变量耦合的痛点，FMIP 用流匹配在「整数+连续」混合解空间上联合建模解的分布，并借助这一完整解候选设计 holistic 引导机制把生成轨迹推向"更优且更可行"的解，在 8 个标准基准上把 primal gap 平均压低 41.34%。
+
+**[From Gradient Volume to Shapley Fairness: Towards Fair Multi-Task Learning](from_gradient_volume_to_shapley_fairness_towards_fair_multi-task_learning.md)**
+
+:   针对多任务学习里梯度冲突导致"强任务霸占更新方向、弱任务被反复牺牲"的不公平问题，本文提出 SVFair：用归一化梯度张成的平行多面体体积（Gram 行列式）当 Shapley 合作博弈的效用函数，单次前向就能算出每个任务梯度偏离整体的程度，并据此重新分配更新权重，在监督学习和强化学习多个基准上同时拿到最好的 MR 和 $\Delta m\%$。
+
 **[From Sequential to Parallel: Reformulating Dynamic Programming as GPU Kernels for Large-Scale Stochastic Combinatorial Optimization](from_sequential_to_parallel_reformulating_dynamic_programming_as_gpu_kernels_for.md)**
 
 :   把"逐场景串行求解第二阶段整数子问题"的随机组合优化瓶颈，重写成 (min,+) 半环上的矩阵-向量乘法，并设计场景批处理的硬件感知 GPU 内核，让 Bellman 更新在单次 GPU pass 内并行评估超过 $10^6$ 个场景，带来一到五个数量级的加速。
@@ -439,6 +463,10 @@ item_total: 193
 
 :   FZOO 用「批量单边估计 + Rademacher（±1）扰动」把零阶优化器拉到接近 Adam 的收敛速度——既靠批损失标准差自适应步长把收敛所需前向次数砍掉一个量级，又靠 ±1 扰动把多次前向并成一次批量矩阵乘，让单卡全参数微调 LLM 在推理级显存下变得现实。
 
+**[Gen-DFL: Decision-Focused Generative Learning for Robust Decision Making](gen-dfl_decision-focused_generative_learning_for_robust_decision_making.md)**
+
+:   Gen-DFL 把传统决策聚焦学习（DFL）里的"单点预测"换成一个条件生成模型，让模型直接学出优化参数的完整条件分布并从尾部高风险区域采样，再用 CVaR 目标做端到端训练，从而在高维、风险敏感的决策问题上显著降低决策后悔（regret）。
+
 **[Generalizable Heuristic Generation Through LLMs with Meta-Optimization](generalizable_heuristic_generation_through_llms_with_meta-optimization.md)**
 
 :   MoH 把 LLM 生成启发式的层级从"用固定进化算法演化启发式"上抬一层，让 LLM 在外层迭代地"造优化器"——通过自调用产生一群多样的启发式优化器，再用多任务效用挑出最优的当作下一轮的元优化器，从而摆脱手工预设进化框架的约束、显著提升跨规模泛化能力。
@@ -450,6 +478,10 @@ item_total: 193
 **[Generative Bayesian Optimization: Generative Models as Acquisition Functions](generative_bayesian_optimization_generative_models_as_acquisition_functions.md)**
 
 :   GenBO 把生成模型直接训练成「采样密度正比于采集函数」的提议分布，借鉴 DPO 的思路用噪声效用值一步训练，无需先拟合回归/分类代理模型，从而在高维、组合、大批量黑盒优化（如蛋白质设计）中既简单又可扩展。
+
+**[GIT-BO: High-Dimensional Bayesian Optimization with Tabular Foundation Models](git-bo_high-dimensional_bayesian_optimization_with_tabular_foundation_models.md)**
+
+:   GIT-BO 用冻结的 TabPFN v2 作为零训练贝叶斯优化代理模型，再从其预测均值梯度中估计低维主动子空间，并在该子空间内用 UCB 选点，从而在最高 500 维的合成与工程优化任务上取得比多种 GP-based 高维 BO 方法更好的性能-时间折中。
 
 **[Globally Aware Optimization with Resurgence](globally_aware_optimization_with_resurgence.md)**
 
@@ -471,9 +503,21 @@ item_total: 193
 
 :   本文在矩阵分解问题上严格证明：当梯度下降使用接近临界的大步长时，参数空间会出现分形收敛边界与混沌动力学——最终收敛到哪个极小值（甚至是否收敛）对初始化极度敏感，常被假设的"平坦/最小范数/平衡"等隐式偏置统统失效。
 
+**[Harmonized Cone for Feasible and Non-conflict Directions in Training Physics-Informed Neural Networks](harmonized_cone_for_feasible_and_non-conflict_directions_in_training_physics-inf.md)**
+
+:   这篇论文把 PINN 多损失训练中的“可由非负损失权重实现”和“不会让任一损失上升”统一成谐和锥（harmonized cone），并提出 HARMONIC 用 Double Description 方法在该锥内构造更新方向，在多个 PDE / IDE 基准上通常优于现有重加权和多目标梯度方法。
+
+**[HBO: Hierarchical Balancing Optimization for Fine-Tuning Large Language Models](hbo_hierarchical_balancing_optimization_for_fine-tuning_large_language_models.md)**
+
+:   HBO 把 LLM 指令微调中的数据混合问题拆成“跨数据集怎么采样”和“每个数据集内部按难度怎么采样”两层，用 Global Actor 与 Local Actor 根据训练状态动态更新采样概率，在多语言和多任务微调上稳定优于静态采样与已有动态数据混合方法。
+
 **[HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization](heurigym_an_agentic_benchmark_for_llm-crafted_heuristics_in_combinatorial_optimi.md)**
 
 :   HeuriGym 把 LLM 丢进一个"读题—写代码—执行反馈—迭代修正"的 agentic 闭环里，让它从零为 9 个真实组合优化问题（EDA、生物、物流等）手写完整启发式算法，并用新指标 QYI 衡量解的质量与可行率——结果连最强的 GPT-o4-mini-high 和 Gemini-2.5-Pro 也只有 0.6 分（专家为 1.0），暴露出 LLM 在工具使用、长程规划和自适应推理上的硬伤。
+
+**[Hierarchical Multi-Stage Recovery Framework for Kronecker Compressed Sensing](hierarchical_multi-stage_recovery_framework_for_kronecker_compressed_sensing.md)**
+
+:   本文为 Kronecker 压缩感知（KCS）提出"分层观测"视角，指出 Kronecker 积测量矩阵的每个因子矩阵实际在不同层级上探测信号稀疏，由此设计出一个把高维恢复拆成逐层 MMV 子问题的多阶段恢复框架（MSR），能统一处理标准/分层/Kronecker 支撑三种稀疏模型，并给出统一的 $(s,N)$-RIP 理论保证；在精度持平 SOTA 的同时把运行时间降低一到三个数量级。
 
 **[High-dimensional limit theorems for SGD: Momentum and Adaptive Step-sizes](high-dimensional_limit_theorems_for_sgd_momentum_and_adaptive_step-sizes.md)**
 
@@ -511,6 +555,10 @@ item_total: 193
 
 :   HAM 用一个轻量的"双曲镜像步"和普通优化器步交替执行，在不增加任何参数/显存的前提下复现了 `m⊙w` 逐点过参数化带来的稀疏隐式偏置，同时修好了它在原点附近"逆度量塌缩、参数卡死无法翻符号"的老毛病，让稠密训练和稀疏训练都涨点。
 
+**[Hyperparameter Trajectory Inference with Conditional Lagrangian Optimal Transport](hyperparameter_trajectory_inference_with_conditional_lagrangian_optimal_transpor.md)**
+
+:   这篇论文提出 Hyperparameter Trajectory Inference (HTI)：把连续超参数看成“时间”，用条件 Lagrangian 最优传输学习神经网络输出分布随超参数变化的轨迹，从而在不重新训练原模型的情况下近似得到未观测超参数设置下的输出。
+
 **[Implicit Bias of Per-sample Adam on Separable Data: Departure from the Full-batch Regime](implicit_bias_of_per-sample_adam_on_separable_data_departure_from_the_full-batch.md)**
 
 :   首次证明mini-batch Adam的隐式偏差与full-batch不同：构造数据集使单样本Adam收敛到 $\ell_2$ 最大间隔分类器（而full-batch Adam收敛到 $\ell_\infty$），并通过AdamProxy刻画一般数据集上的数据自适应Mahalanobis范数间隔最大化行为。
@@ -518,6 +566,10 @@ item_total: 193
 **[Implicit Regularization of SGD Reduces Shortcut Learning](implicit_regularization_of_sgd_reduces_shortcut_learning.md)**
 
 :   本文证明 SGD 的隐式正则化（强度正比于学习率÷批量大小 $\epsilon/b$）会系统性压制模型对虚假特征的依赖，从而在不损失精度的前提下提升群组鲁棒性——而全批量 GD 不仅没有这种好处，反而可能加重捷径依赖。
+
+**[Improved ℓp Regression via Iteratively Reweighted Least Squares](improved_ell_p_regression_via_iteratively_reweighted_least_squares.md)**
+
+:   这篇论文为 $p\in(1,\infty)$ 的 $\ell_p$ 回归设计了一套全新的、基于原始-对偶视角的 IRLS 算法：它用一个轻量的乘性更新规则就把迭代复杂度做到了 $O\!\big(p^2 n^{\frac{p-2}{3p-2}}\log\frac{n}{\epsilon}\big)$，**首次让一个实用的 IRLS 方法同时达到了此前只有复杂理论算法才有的最优迭代界**，实验上比经典的 p-IRLS 和 CVX 都明显更快。
 
 **[Improving Feasibility via Fast Autoencoder-Based Projections](improving_feasibility_via_fast_autoencoder-based_projections.md)**
 
@@ -531,6 +583,10 @@ item_total: 193
 
 :   在 Cutkosky 等人的 online-to-nonconvex (O2NC) 框架上，用"双重乐观"的提示函数替换原来复杂的不动点内循环，得到一个统一的一阶算法，复杂度 $O(\varepsilon^{-1.75}+\sigma^2\varepsilon^{-3.5})$，同时拿到确定性的最优速率（去掉了对数因子）和随机情形的最优速率。
 
+**[In-Context Multi-Objective Optimization](in-context_multi-objective_optimization.md)**
+
+:   TAMO 把多目标黑盒优化从“每个新任务重新拟合 surrogate + 优化 acquisition”的 MOBO 流程，改成一个离线训练好的维度无关 Transformer policy，在测试时只靠历史观测和候选池做一次前向传播就给出下一次查询，并在多个合成与真实任务上保持接近或更好的 Pareto 质量，同时把提案时间降低约 $50\times$ 到 $1000\times$。
+
 **[Incentives in Federated Learning with Heterogeneous Agents](incentives_in_federated_learning_with_heterogeneous_agents.md)**
 
 :   从博弈论视角分析异构联邦学习中的激励问题，证明在异构数据分布和 PAC 准确率目标下纯策略纳什均衡的存在性，并提出基于线性规划的近似算法来确定最优贡献量。
@@ -538,6 +594,10 @@ item_total: 193
 **[Incorporating Expert Priors into Bayesian Optimization via Dynamic Mean Decay](incorporating_expert_priors_into_bayesian_optimization_via_dynamic_mean_decay.md)**
 
 :   把专家先验（关于最优点位置的分布 $\pi(x)$）直接塞进高斯过程的**均值函数**里，再用一个随迭代衰减的权重让它早期发力、后期淡出，从而得到一个与任意采集函数兼容、几乎零额外开销、且对坏先验鲁棒的 prior-informed 贝叶斯优化框架 DynMeanBO。
+
+**[It's All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization](its_all_connected_a_journey_through_test-time_memorization_attentional_bias_rete.md)**
+
+:   这篇论文提出 MIRAS，把 Transformer、linear RNN、TTT/Titans 等序列模块统一解释为“测试时在线优化的关联记忆”，并用 attentional bias 与 retention 两个设计轴扩展出 MONETA、YAAD、MEMORA 三个 attention-free 模型，在语言建模、常识推理和长上下文 needle recall 上超过多种现代 recurrent baseline。
 
 **[Jacobian Aligned Random Forests](jacobian_aligned_random_forests.md)**
 
@@ -550,6 +610,10 @@ item_total: 193
 **[LCA: Local Classifier Alignment for Continual Learning](lca_local_classifier_alignment_for_continual_learning.md)**
 
 :   提出 Local Classifier Alignment (LCA) 损失函数，通过在类原型高斯分布的局部区域内同时最小化分类损失和损失灵敏度，解决持续学习中 backbone 增量合并后分类器不匹配的问题，配合增量 PEFT 合并策略 (IM)，在 7 个基准数据集上达到整体 85.6% 的平均精度，大幅超越 SOTA。
+
+**[LDT: Layer-Decomposition Training Makes Networks More Generalizable](ldt_layer-decomposition_training_makes_networks_more_generalizable.md)**
+
+:   LDT 把网络层按梯度方差细分为稳定层和不稳定层，再用双分支交叉冻结与动态 EMA 更新切断不稳定层对稳定层的梯度扰动，从而在超分、分类、语义分割和 NLP 域泛化任务上提升跨域泛化能力。
 
 **[Learning from Algorithm Feedback: One-Shot SAT Solver Guidance with GNNs](learning_from_algorithm_feedback_one-shot_sat_solver_guidance_with_gnns.md)**
 
@@ -570,6 +634,10 @@ item_total: 193
 **[LEGACY: A Lightweight Dynamic Gradient Compression Strategy for Distributed Deep Learning](legacy_a_lightweight_dynamic_gradient_compression_strategy_for_distributed_deep_.md)**
 
 :   LEGACY 抛开需要调参或计算密集的自适应压缩器，仅凭"层大小"和"训练阶段"这两个免费可得的信号，为任意压缩器（Top-k、QSGD、PowerSGD 等）配上一个轻量动态调度器，在相同通信量下显著提升精度。
+
+**[Leveraging Discrete Function Decomposability for Scientific Design](leveraging_discrete_function_decomposability_for_scientific_design.md)**
+
+:   DADO 把科学设计中的离散目标函数分解结构显式放进分布优化过程，用 junction tree 上的消息传递为每个局部生成因子提供协调后的权重，从而比普通 EDA 更高效地在巨大离散设计空间里找到高分设计。
 
 **[LMask: Learn to Solve Constrained Routing Problems with Lazy Masking](lmask_learn_to_solve_constrained_routing_problems_with_lazy_masking.md)**
 
@@ -739,6 +807,10 @@ item_total: 193
 
 :   提出 COMES 框架，通过一阶（Hamming loss）和二阶（Ranking loss）策略，为不精确监督下的多标签分类提供一致性风险估计器，无需估计标签生成过程或均匀分布假设。
 
+**[Riemannian Federated Learning via Averaging Gradient Streams](riemannian_federated_learning_via_averaging_gradient_streams.md)**
+
+:   这篇论文提出 RFedAGS，在黎曼流形上的联邦学习中不再平均客户端最终模型点，而是把本地随机梯度经向量传输搬回服务器切空间后做加权平均，从而在任意部分参与和非IID数据同时存在时仍能给出收敛保证，并在 PCA、双曲结构预测、SPD Fréchet mean 等任务上优于现有 Riemannian FL 方法。
+
 **[Riemannian Optimization on Relaxed Indicator Matrix Manifold](riemannian_optimization_on_relaxed_indicator_matrix_manifold.md)**
 
 :   本文提出一种新的指示矩阵松弛——把列和约束从"等于某个固定值"放宽到"落在区间 $(l,u)$ 内"，证明这个松弛集构成一个 $(n-1)c$ 维的嵌入子流形（RIM 流形），并配套给出一整套黎曼优化工具箱，使原本在双随机流形上需 $O(n^3)$ 的梯度/Hessian 计算降到 $O(n)$，在百万级变量的图像去噪与 Ratio Cut 聚类上比双随机流形方法快 70–200 倍且结果更优。
@@ -747,9 +819,17 @@ item_total: 193
 
 :   针对黎曼流形上度量"测地不完备"导致指数映射可能把扰动点送出流形、零阶估计器失效的问题，本文构造了一个保持原驻点结构、又测地完备的共形等价度量 $g'$，并在纯内蕴（不依赖嵌入）视角下给出两点对称零阶估计器的均方误差上界（揭示其与流形曲率的关系），配合无偏的拒绝采样，最终把黎曼零阶 SGD 的最优收敛复杂度从欧氏度量推广到一般黎曼度量。
 
+**[Ringleader ASGD: The First Asynchronous SGD with Optimal Time Complexity under Data Heterogeneity](ringleader_asgd_the_first_asynchronous_sgd_with_optimal_time_complexity_under_da.md)**
+
+:   Ringleader ASGD 用“梯度表 + 分轮缓冲 + 每轮每个 worker 恰好更新一次”的异步机制，在非凸随机优化和任意数据异质场景下避免快设备主导训练，并在固定计算时间模型中达到并行一阶随机方法的最优时间复杂度。
+
 **[Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](saddle-to-saddle_dynamics_explains_a_simplicity_bias_across_neural_network_archi.md)**
 
 :   提出统一的理论框架，通过 saddle-to-saddle 学习动力学解释多种神经网络架构（全连接、卷积、注意力）中普遍存在的 simplicity bias——即梯度下降倾向于先学习简单解再逐步学习复杂解的现象。
+
+**[Scalable and Adaptive Trust-Region Learning via Projection Convex Hull](scalable_and_adaptive_trust-region_learning_via_projection_convex_hull.md)**
+
+:   这篇论文提出 Projection Convex Hull（PCH），把难解的凸包信赖域学习 MINLP 转成带权重投影的可微代理优化，迭代学习少量支撑超平面，从而在高维数据中得到既紧、又可解释、还能直接嵌入下游优化模型的多面体信赖域。
 
 **[Scalable Second-Order Riemannian Optimization for K-means Clustering](scalable_second-order_riemannian_optimization_for_k-means_clustering.md)**
 
@@ -758,6 +838,10 @@ item_total: 193
 **[Scaling Laws of SignSGD in Linear Regression: When Does It Outperform SGD?](scaling_laws_of_signsgd_in_linear_regression_when_does_it_outperform_sgd.md)**
 
 :   在幂律随机特征（Power-Law Random Features）模型下，系统分析了 SignSGD 的缩放定律，揭示了 SignSGD 相对于 SGD 的两个独特效应——漂移归一化和噪声重塑，并证明在噪声主导的情形下 SignSGD 的计算最优斜率可以超过 SGD。
+
+**[Scaling Multi-Task Bayesian Optimization with Large Language Models](scaling_multi-task_bayesian_optimization_with_large_language_models.md)**
+
+:   BOLT 把大量历史贝叶斯优化轨迹蒸馏进 LLM，让 LLM 为新任务生成高质量初始解，再交给标准单任务 BO 继续搜索，从而在数据库查询计划优化和抗菌肽设计中突破传统多任务 BO 随任务数增加而收益饱和的问题。
 
 **[SCRAPL: Scattering Transform with Random Paths for Machine Learning](scrapl_scattering_transform_with_random_paths_for_machine_learning.md)**
 
@@ -774,6 +858,22 @@ item_total: 193
 **[Shuffling the Data, Stretching the Step-Size: Sharper Bias in Constant Step-Size SGD](shuffling_the_data_extrapolating_the_step_sharper_bias_in_constant_step-size_sgd.md)**
 
 :   本文把两个经典启发式——**随机重排（Random Reshuffling, RR1）** 与 **Richardson–Romberg 外推（RR2）**——首次严格地组合进一个统一算法，证明在拟强单调变分不等式（VIP）上二者协同可以把常步长 SGD 的渐近偏差从 $O(\gamma)$ 一路压到 $O(\gamma^3)$，同时保持 RR1 带来的 $O(\gamma^2)$ 均方误差，理论与实验都验证了这种"1+1>2"的协同。
+
+**[Sign-SGD via Parameter-Free Optimization](sign-sgd_via_parameter-free_optimization.md)**
+
+:   这篇论文提出 ALIAS，一个不需要手动调学习率的参数自由 Sign-SGD 系列算法，通过逐轮估计目标间隙和局部平滑常数来自动给出 sign 更新步长，在 LLaMA 预训练、Swin 微调和多种基准上接近或超过调参后的 Sign-SGD / AdamW，同时把网格搜索学习率的总训练成本降下来。
+
+**[Single-Loop Byzantine-Resilient Federated Bilevel Optimization](single-loop_byzantine-resilient_federated_bilevel_optimization.md)**
+
+:   这篇论文研究有拜占庭客户端时的联邦双层优化，先给出由上下层异质性共同决定的渐近误差下界，再提出单循环算法 BR-FedBi 及 Momentum/PAGE 变体，用辅助变量估计超梯度并结合鲁棒聚合，在理论上达到最优拜占庭鲁棒性或最优样本复杂度，实验上明显优于需要子循环的 BILANTINE。
+
+**[Sobolev Gradient Ascent for Optimal Transport: Barycenter Optimization and Convergence Analysis](sobolev_gradient_ascent_for_optimal_transport_barycenter_optimization_and_conver.md)**
+
+:   这篇论文把精确 Wasserstein barycenter 写成一个无约束的凹对偶问题，并在 $\dot H^1$ Sobolev 几何中直接做梯度上升，从而省掉昂贵的 $c$-concavity 投影，同时给出与经典非光滑凸优化同阶的全局 $O(T^{-1/2})$ 收敛保证。
+
+**[Solving the 2-norm k-hyperplane clustering problem via multi-norm formulations](solving_the_2-norm_k-hyperplane_clustering_problem_via_multi-norm_formulations.md)**
+
+:   这篇论文把 2-norm k-超平面聚类的非凸精确求解问题，转化为一个由 2-norm、1-norm 和 $\infty$-norm 约束共同强化的多范数混合整数模型，使空间分支定界更早得到非零下界，并在 LowDim/HighDim 基准上把中位求解时间最高加速约 $41\times$。
 
 **[SPREAD：基于采样的高效自适应扩散 Pareto 前沿精化](spread_sampling-based_pareto_front_refinement_via_efficient_adaptive_diffusion.md)**
 
@@ -794,6 +894,10 @@ item_total: 193
 **[Taming Curvature: Architecture Warm-up for Stable Transformer Training](taming_curvature_architecture_warm-up_for_stable_transformer_training.md)**
 
 :   本文先用「热启动幂迭代」把十亿参数 Transformer 的（预条件）Hessian 最大特征值在线追踪成本压到每步 <5 次 HVP，借此确认训练 loss 尖峰确实伴随曲率飙升、且曲率随深度增长，进而提出「架构预热」——训练早期把多数层冻结为恒等、随学习率衰减再逐步解冻——在不拖慢收敛的前提下显著压制大模型训练的发散与尖峰。
+
+**[The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm](the_polar_express_optimal_matrix_sign_methods_and_their_application_to_the_muon_.md)**
+
+:   Polar Express 把 Muon 中的极分解近似从启发式 Newton-Schulz 系数搜索，改成每轮求解最坏误差最优的奇多项式组合，在保持纯矩阵乘法和 bfloat16 友好的前提下，让 GPT-2 训练中的 Muon 更新方向更快、更稳地逼近有效的极因子。
 
 **[The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](the_potential_of_second-order_optimization_for_llms_a_study_with_full_gauss-newt.md)**
 
@@ -842,6 +946,10 @@ item_total: 193
 **[Unifying Formal Explanations: A Complexity-Theoretic Perspective](unifying_formal_explanations_a_complexity-theoretic_perspective.md)**
 
 :   提出统一框架将充分理由和对比理由（局部/全局、概率/非概率）归结为对统一概率值函数的最小化问题，揭示全局值函数具有单调性、子模性/超模性等组合优化关键性质，从而证明全局解释在多项式时间内可计算——即使对应的局部解释是 NP-hard 的。
+
+**[Unleashing LLMs in Bayesian Optimization: Preference-Guided Framework for Scientific Discovery](unleashing_llms_in_bayesian_optimization_preference-guided_framework_for_scienti.md)**
+
+:   LGBO 把 LLM 对“哪里更值得试”的语义偏好持续转成 GP 代理模型的可控均值偏移，让 Bayesian optimization 在科学发现任务中既能借用领域知识加速冷启动，又不把最终选点权交给可能不稳定的 LLM。
 
 **[Unlocking the Potential of Weighting Methods in Federated Learning through Communication Compression](unlocking_the_potential_of_weighting_methods_in_federated_learning_through_commu.md)**
 

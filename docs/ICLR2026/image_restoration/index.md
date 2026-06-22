@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 图像恢复论文汇总 · 48篇论文解读
+  ICLR2026 图像恢复论文汇总 · 61篇论文解读
 description: >-
-  48篇ICLR2026的图像恢复方向论文解读，涵盖扩散模型、超分辨率、图像恢复、对抗鲁棒、语音、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  61篇ICLR2026的图像恢复方向论文解读，涵盖扩散模型、图像恢复、超分辨率、压缩/编码、对抗鲁棒、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "图像恢复"
@@ -10,9 +10,9 @@ tags:
   - "论文笔记"
   - "扩散模型"
   - "超分辨率"
+  - "压缩/编码"
   - "对抗鲁棒"
   - "语音"
-  - "压缩/编码"
 item_list:
   - u: "a_statistical_benchmark_for_diffusion-posterior-sampling_algorithms/"
     t: "A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms"
@@ -42,14 +42,20 @@ item_list:
     t: "DiffusionBlocks: Block-wise Neural Network Training via Diffusion Interpretation"
   - u: "disk_differentiable_sparse_kernel_complex_for_efficient_spatially-variant_convol/"
     t: "DISK: Differentiable Sparse Kernel Complex for Efficient Spatially-Variant Convolution"
+  - u: "divergence-free_neural_networks_with_application_to_image_denoising/"
+    t: "Divergence-Free Neural Networks with Application to Image Denoising"
   - u: "efficient_degradation-agnostic_image_restoration_via_channel-wise_functional_dec/"
     t: "Efficient Degradation-agnostic Image Restoration via Channel-Wise Functional Decomposition and Manifold Regularization"
   - u: "energy-oriented_diffusion_bridge_for_image_restoration_with_foundational_diffusi/"
     t: "Energy-oriented Diffusion Bridge for Image Restoration with Foundational Diffusion Models"
+  - u: "exploring_real-time_super-resolution_benchmarking_and_fine-tuning_for_streaming_/"
+    t: "Exploring Real-Time Super-Resolution: Benchmarking and Fine-Tuning for Streaming Content"
   - u: "fastdips_adjointfree_analytic_steps_and_hardconstrained_likelihood_correction_fo/"
     t: "FAST-DIPS: Adjoint-Free Analytic Steps and Hard-Constrained Likelihood Correction for Diffusion-Prior Inverse Problems"
   - u: "fidediff_efficient_diffusion_model_for_high-fidelity_image_motion_deblurring/"
     t: "FideDiff: Efficient Diffusion Model for High-Fidelity Image Motion Deblurring"
+  - u: "flower_a_flow-matching_solver_for_inverse_problems/"
+    t: "Flower: A Flow-Matching Solver for Inverse Problems"
   - u: "freeadapt_unleashing_diffusion_priors_for_ultra-high-definition_image_restoratio/"
     t: "FreeAdapt: Unleashing Diffusion Priors for Ultra-High-Definition Image Restoration"
   - u: "generalizing_linear_autoencoder_recommenders_with_decoupled_expec/"
@@ -68,23 +74,17 @@ item_list:
     t: "Learning Heterogeneous Degradation Representation for Real-World Super-Resolution"
   - u: "learnir_learnable_posterior_sampling_for_real-world_image_restoration/"
     t: "LearnIR: Learnable Posterior Sampling for Real-World Image Restoration"
-  - u: "linearsr_unlocking_linear_attention_for_stable_and_efficient_image_super-resolut/"
-    t: "LinearSR: Unlocking Linear Attention for Stable and Efficient Image Super-Resolution"
-  - u: "livemoments_reselected_key_photo_restoration_in_live_photos_via_reference-guided/"
-    t: "LiveMoments: Reselected Key Photo Restoration in Live Photos via Reference-guided Diffusion"
-  - u: "mechanism_of_task-oriented_information_removal_in_in-context_learning/"
-    t: "Mechanism of Task-oriented Information Removal in In-context Learning"
-item_total: 48
+item_total: 61
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🔬 ICLR2026** · **48** 篇论文解读
+**🔬 ICLR2026** · **61** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (135)](../../CVPR2026/image_restoration/index.md) · [🧪 ICML2026 (21)](../../ICML2026/image_restoration/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/image_restoration/index.md) · [🧠 NeurIPS2025 (26)](../../NeurIPS2025/image_restoration/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/image_restoration/index.md) · [🧪 ICML2025 (5)](../../ICML2025/image_restoration/index.md)
 
-🔥 **高频主题：** 扩散模型 ×16 · 超分辨率 ×13 · 图像恢复 ×12 · 对抗鲁棒 ×2 · 语音 ×2
+🔥 **高频主题：** 扩散模型 ×20 · 图像恢复 ×17 · 超分辨率 ×14 · 压缩/编码 ×4 · 对抗鲁棒 ×3
 
 **[A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms](a_statistical_benchmark_for_diffusion-posterior-sampling_algorithms.md)**
 
@@ -142,6 +142,10 @@ item_total: 48
 
 :   把一个大而复杂的稠密卷积核重新表示成「一串稀疏核的级联」，用端到端可微优化（而非启发式搜索）学出每层稀疏采样点的偏移与权重，再配上形状感知初始化和滤波器空间插值，在移动设备上以接近 ground-truth 的画质实现最高约 20× 的空间变滤波加速。
 
+**[Divergence-Free Neural Networks with Application to Image Denoising](divergence-free_neural_networks_with_application_to_image_denoising.md)**
+
+:   本文提出一种"设计上散度恒为零"的神经网络参数化方法 CENSURE：先用一个 representer 定理把散度自由向量场写成「反对称矩阵 × 保守场梯度」的结构化组合，再做稀疏近似让它在图像这种高维问题上可算，从而在噪声水平 $\sigma$ 未知且逐样本变化的自监督去噪场景下，比 Noise2Self、UNSURE 等约束类方法更稳更准。
+
 **[Efficient Degradation-agnostic Image Restoration via Channel-Wise Functional Decomposition and Manifold Regularization](efficient_degradation-agnostic_image_restoration_via_channel-wise_functional_dec.md)**
 
 :   MIRAGE 通过“按通道拆分注意力特征给 CNN/Attention/MLP 三分支各司其职 + 在 SPD 协方差空间做浅层-深层对比对齐”，在 all-in-one 图像恢复里同时拿到更高精度和更低计算开销。
@@ -150,6 +154,10 @@ item_total: 48
 
 :   提出 E-Bridge 框架，通过构造低能量流形测地线轨迹和闭合式一步一致性求解器，在单步推理下实现多任务图像复原的最优效果。
 
+**[Exploring Real-Time Super-Resolution: Benchmarking and Fine-Tuning for Streaming Content](exploring_real-time_super-resolution_benchmarking_and_fine-tuning_for_streaming_.md)**
+
+:   针对压缩流媒体视频超分这个被现有数据集忽略的场景，本文构建了从 YouTube 采集的 5200 段压缩视频数据集 StreamSR、用它系统评测 11 个实时超分模型，并提出在 RLFN 基础上换用 tanh 激活 + ECA 注意力 + 复合损失的轻量模型 EfRLFN，在保持实时帧率（271 FPS）的同时取得新的质量-复杂度 SOTA。
+
 **[FAST-DIPS: Adjoint-Free Analytic Steps and Hard-Constrained Likelihood Correction for Diffusion-Prior Inverse Problems](fastdips_adjointfree_analytic_steps_and_hardconstrained_likelihood_correction_fo.md)**
 
 :   FAST-DIPS 用一套"免伴随（adjoint-free）的硬约束似然校正"替换掉训练无关扩散逆问题求解器里昂贵的内层 MCMC / 多步梯度循环：每个噪声层只在去噪器预测点附近做一个带闭式投影 + 解析最优步长的少步 ADMM 校正，把每层计算预算压到极小，在八类线性/非线性恢复任务上质量持平甚至更好，速度最高快 19.5×。
@@ -157,6 +165,10 @@ item_total: 48
 **[FideDiff: Efficient Diffusion Model for High-Fidelity Image Motion Deblurring](fidediff_efficient_diffusion_model_for_high-fidelity_image_motion_deblurring.md)**
 
 :   把运动去模糊重新表述成"以模糊程度为时间步"的类扩散过程，用一致性训练让所有时间步都对齐到同一张清晰图，从而实现**单步、高保真**的预训练扩散去模糊，并配上 Kernel ControlNet 注入模糊核先验和自适应时间步预测。
+
+**[Flower: A Flow-Matching Solver for Inverse Problems](flower_a_flow-matching_solver_for_inverse_problems.md)**
+
+:   Flower 把预训练 flow-matching 生成模型改造成一个线性逆问题求解器：每个时间步先预测干净终点，再用观测算子做数据一致性近端投影，最后沿 flow 轨迹推进，从而在去噪、去模糊、超分和 inpainting 等图像复原任务上取得强于现有 flow-based solver 的结果。
 
 **[FreeAdapt: Unleashing Diffusion Priors for Ultra-High-Definition Image Restoration](freeadapt_unleashing_diffusion_priors_for_ultra-high-definition_image_restoratio.md)**
 
@@ -202,9 +214,17 @@ item_total: 48
 
 :   针对 Live Photo 中"重选关键帧"画质骤降的真实痛点，LiveMoments 用 SD3 双分支扩散网络把原始高质量关键帧当作同序列参考，再配合"潜空间运动引导注意力 + 图像级 Patch 检索对齐"双层运动对齐，把模糊错位的重选帧修复到接近原图质量。
 
+**[LucidFlux: Caption-Free Photo-Realistic Image Restoration via a Large-Scale Diffusion Transformer](lucidflux_caption-free_photo-realistic_image_restoration_via_a_large-scale_diffu.md)**
+
+:   LucidFlux 用冻结的 12B Flux.1 大规模扩散 Transformer 做真实图像恢复，通过双分支条件器、时间步-层级自适应调制、SigLIP 无字幕语义对齐和大规模高质量数据筛选，在多项真实与合成退化基准上取得更强的感知质量和语义一致性。
+
 **[Mechanism of Task-oriented Information Removal in In-context Learning](mechanism_of_task-oriented_information_removal_in_in-context_learning.md)**
 
 :   从"信息移除"的新视角解释 In-context Learning（ICL）的内部机制：发现 LM 在零样本时将查询编码为包含所有可能任务信息的"非选择性表征"（导致随机输出），而 few-shot ICL 的核心作用是模拟一种"任务导向的信息移除"过程——通过识别出的"Denoising Heads"（去噪注意力头）从纠缠的表征中选择性移除冗余任务信息，引导模型聚焦目标任务。消融实验证实阻断去噪头后 ICL 准确率显著下降。
+
+**[Noise-Adaptive Diffusion Sampling for Inverse Problems Without Task-Specific Tuning](noise-adaptive_diffusion_sampling_for_inverse_problems_without_task-specific_tun.md)**
+
+:   这篇论文把扩散模型逆问题求解从“中间图像状态上加数据一致性梯度”改成“在 DDIM 初始噪声空间做 HMC 后验采样”，并通过边缘化未知测量噪声得到 NA-NHMC，在超分、修复、去模糊、相位恢复和 HDR 等图像逆问题上无需任务级调参就取得更稳健的重建质量。
 
 **[One-Step Flow for Image Super-Resolution with Tunable Fidelity-Realism Trade-offs](one-step_flow_for_image_super-resolution_with_tunable_fidelity-realism_trade-off.md)**
 
@@ -226,9 +246,29 @@ item_total: 48
 
 :   提出 ProtoTS，通过层级原型学习实现可解释时间序列预测：少量粗粒度原型提供全局模式概览，逐级细分捕捉局部变化，结合多通道嵌入与瓶颈融合处理异质外生变量。在 LOF 数据集上 MSE 降低 48.3%，MAE 降低 20.9%，且支持专家编辑原型以进一步提升性能。
 
+**[Reconstruct Anything Model: A Lightweight General Model for Computational Imaging](reconstruct_anything_model_a_lightweight_general_model_for_computational_imaging.md)**
+
+:   本文提出 Reconstruct Anything Model (RAM)，用一个 36M 参数的非迭代 DRUNet 系重建网络把成像算子、测量值和噪声参数直接注入特征层，在去模糊、MRI、CT、超分、补全和低光子成像等任务上实现强零样本重建，并能只用少量无真值测量进行自监督微调。
+
 **[Recover Cell Tensor: Diffusion-Equivalent Tensor Completion for Fluorescence Microscopy Imaging](recover_cell_tensor_diffusion-equivalent_tensor_completion_for_fluorescence_micr.md)**
 
 :   这篇论文把 3D 荧光显微（FM）活细胞成像的恢复问题，从"逆问题去模糊"换成"张量补全"视角：把 Z 轴等距稀疏采样看作一次均匀随机采样下的低秩张量补全，先推导出精确恢复的观测数下界，再证明用 Tucker 分解 + ADMM 求解这个补全问题的迭代过程在数学上等价于一条条件扩散的反向轨迹，从而无需训练 score 网络就能得到去噪、几何连贯的 3D 细胞体重建，在 SR-CACO-2 和三套真实活体 C. elegans 数据上 PSNR / SSIM / LPIPS 全面领先。
+
+**[RestoreVAR: Visual Autoregressive Generation for All-in-One Image Restoration](restorevar_visual_autoregressive_generation_for_all-in-one_image_restoration.md)**
+
+:   RestoreVAR 把视觉自回归模型 VAR 从纯图像生成改造成全能图像恢复模型，用退化图像的连续 latent 做跨注意力条件，再用 latent refiner 和连续 latent 解码器补回细节，在生成式 AiOR 方法中取得更高恢复质量，并把 LDM 类方法的秒级推理压到约 0.201 秒。
+
+**[Rethinking Expressivity and Degradation-Awareness in Attention for All-in-One Blind Image Restoration](rethinking_expressivity_and_degradation-awareness_in_attention_for_all-in-one_bl.md)**
+
+:   针对 Restormer 式通道注意力在 All-in-One 盲图像恢复中暴露的两个被忽视的瓶颈——value 路径纯线性、缺少显式全局槽位——本文提出两个极简且骨干无关的原语（非线性 value 变换 + 全局空间 token），在几乎零额外开销下把注意力从"特征选择器"升级为"选择器+变换器"并赋予退化感知能力，在六大 All-in-One 基准上一致超越更大的 SOTA。
+
+**[SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training](seedvr2_one-step_video_restoration_via_diffusion_adversarial_post-training.md)**
+
+:   SeedVR2 把多步扩散式视频恢复模型通过扩散对抗后训练压缩成一步生成器，并用自适应窗口注意力、渐进蒸馏和判别器特征匹配损失支撑高分辨率视频恢复，在一步推理下达到接近甚至优于多步视频恢复模型的感知质量。
+
+**[Seeing Through the PRISM: Compound & Controllable Restoration of Scientific Images](seeing_through_the_prism_compound_controllable_restoration_of_scientific_images.md)**
+
+:   PRISM 把复合退化样本、加权对比解耦的 CLIP 表征和文本条件扩散结合起来，让科学图像可以一次性恢复多种混合退化，也能按专家提示只修正指定退化，从而在保真指标、零样本复合退化和下游科学任务上都优于现有 all-in-one / diffusion / composite restoration 基线。
 
 **[SFBD-OMNI: Bridge Models for Lossy Measurement Restoration with Limited Clean Samples](sfbd-omni_bridge_models_for_lossy_measurement_restoration_with_limited_clean_sam.md)**
 
@@ -245,6 +285,10 @@ item_total: 48
 **[SuperF: Neural Implicit Fields for Multi-Image Super-Resolution](superf_neural_implicit_fields_for_multi-image_super-resolution.md)**
 
 :   SuperF 把多帧低分辨率图像当成"重建目标"而不是网络输入，用一个跨帧共享的坐标 MLP（隐式神经表示）在高分辨率连续网格上拟合场景，并同时优化每帧的仿射对齐参数，从而在**完全不需要高分辨率训练数据**的测试时优化（TTO）框架下实现卫星与手持相机 burst 的多图超分，放大倍率最高到 ×8。
+
+**[Taming Hierarchical Image Coding Optimization: A Spectral Regularization Perspective](taming_hierarchical_image_coding_optimization_a_spectral_regularization_perspect.md)**
+
+:   针对分层学习式图像压缩"理论很美、实测打不过单尺度模型"的反差，本文从训练动力学的谱分析切入，定位到根因是跨尺度能量色散与谱混叠，进而提出两个只在训练期生效、推理零开销的谱正则——intra-scale 频率截断（让每个尺度低到高频逐步专精）与 inter-scale 隐变量相似度惩罚（压制尺度间频谱重叠），使训练加速 2.3×、相对 VTM-22.0 平均节省 20.65% 码率，刷新学习式图像压缩 SOTA。
 
 **[Taming Score-Based Denoisers in ADMM: A Convergent Plug-and-Play Framework](taming_score-based_denoisers_in_admm_a_convergent_plug-and-play_framework.md)**
 
@@ -269,6 +313,14 @@ item_total: 48
 **[Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution](trust_but_verify_adaptive_conditioning_for_reference-based_diffusion_super-resol.md)**
 
 :   提出 Ada-RefSR，一个基于"Trust but Verify"原则的单步参考引导扩散超分辨率框架，通过自适应隐式相关性门控（AICG）机制在利用可靠参考信息的同时抑制错误融合，仅增加 0.13% 计算开销。
+
+**[Turbo-DDCM: Fast and Flexible Zero-Shot Diffusion-Based Image Compression](turbo-ddcm_fast_and_flexible_zero-shot_diffusion-based_image_compression.md)**
+
+:   本文把零样本扩散压缩方法 DDCM 的逐步"贪心匹配追踪"换成一个闭式的稀疏最小二乘选择规则，每一步一次性组合上百个噪声原子，从而把扩散步数砍掉 92%，单图往返压缩-解压时间从 65 秒降到 1.8 秒，质量与 SOTA 持平，并顺带支持区域优先和按目标 PSNR 压缩两种灵活变体。
+
+**[UniRestorer: Universal Image Restoration via Adaptively Estimating Image Degradation at Proper Granularity](unirestorer_universal_image_restoration_via_adaptively_estimating_image_degradat.md)**
+
+:   UniRestorer 把图像退化空间层次化成多粒度退化组，并训练与之对应的 MoE 复原专家，再用退化估计和粒度估计共同路由，使全能图像复原模型既能利用细粒度退化先验，又不至于被错误退化估计拖垮。
 
 **[VARestorer: One-Step VAR Distillation for Real-World Image Super-Resolution](varestorer_one-step_var_distillation_for_real-world_image_super-resolution.md)**
 

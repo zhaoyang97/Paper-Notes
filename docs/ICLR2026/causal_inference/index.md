@@ -1,16 +1,17 @@
 ---
 title: >-
-  ICLR2026 因果推理论文汇总 · 56篇论文解读
+  ICLR2026 因果推理论文汇总 · 63篇论文解读
 description: >-
-  56篇ICLR2026的因果推理方向论文解读，涵盖对抗鲁棒、推理、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  63篇ICLR2026的因果推理方向论文解读，涵盖对抗鲁棒、LLM、时序预测、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "因果推理"
   - "论文解读"
   - "论文笔记"
   - "对抗鲁棒"
-  - "推理"
   - "LLM"
+  - "时序预测"
+  - "推理"
 item_list:
   - u: "a_relative_error-based_evaluation_framework_of_heterogeneous_treatment_effect_es/"
     t: "A Relative Error-Based Evaluation Framework of Heterogeneous Treatment Effect Estimators"
@@ -26,10 +27,14 @@ item_list:
     t: "An Orthogonal Learner for Individualized Outcomes in Markov Decision Processes"
   - u: "beyond_dags_a_latent_partial_causal_model_for_multimodal_learning/"
     t: "Beyond DAGs: A Latent Partial Causal Model for Multimodal Learning"
+  - u: "carl_preserving_causal_structure_in_representation_learning/"
+    t: "CARL: Preserving Causal Structure in Representation Learning"
   - u: "cats_and_dags_integrating_directed_acyclic_graphs_with_transformers_for_causally/"
     t: "CaTs and DAGs: Integrating Directed Acyclic Graphs with Transformers for Causally Constrained Predictions"
   - u: "causal_discovery_in_the_wild_a_voting-theoretic_ensemble_approach/"
     t: "Causal Discovery in the Wild: A Voting-Theoretic Ensemble Approach"
+  - u: "causal_discovery_via_quantile_partial_effect/"
+    t: "Causal Discovery via Quantile Partial Effect"
   - u: "causal_imitation_learning_under_expert-observable_and_expert-unobservable_confou/"
     t: "Causal Imitation Learning under Expert-Observable and Expert-Unobservable Confounding"
   - u: "causal_score_conditioning_for_multi-resolution_latent_systems/"
@@ -44,6 +49,8 @@ item_list:
     t: "Conformalized Survival Counterfactuals Prediction for General Right-Censored Data"
   - u: "counterfactual_explanations_on_robust_perceptual_geodesics/"
     t: "Counterfactual Explanations on Robust Perceptual Geodesics"
+  - u: "counterfactual_llm-based_framework_for_measuring_rhetorical_style/"
+    t: "Counterfactual LLM-based Framework for Measuring Rhetorical Style"
   - u: "counterfactual_structural_causal_bandits/"
     t: "Counterfactual Structural Causal Bandits"
   - u: "debiased_front-door_learners_for_heterogeneous_effects/"
@@ -66,23 +73,17 @@ item_list:
     t: "Foundation Models for Causal Inference via Prior-Data Fitted Networks"
   - u: "frequency-domain_better_than_time-domain_for_causal_structure_recovery_in_dynami/"
     t: "Frequency-Domain Better than Time-Domain for Causal Structure Recovery in Dynamical Systems on Networks"
-  - u: "function_induction_and_task_generalization_an_interpretability_study_with_off-by/"
-    t: "Function Induction and Task Generalization: An Interpretability Study with Off-by-One Addition"
-  - u: "gdr-learners_orthogonal_learning_of_generative_models_for_potential_outcomes/"
-    t: "GDR-learners: Orthogonal Learning of Generative Models for Potential Outcomes"
-  - u: "good_allocations_from_bad_estimates/"
-    t: "Good Allocations from Bad Estimates"
-item_total: 56
+item_total: 63
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**🔬 ICLR2026** · **56** 篇论文解读
+**🔬 ICLR2026** · **63** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (4)](../../CVPR2026/causal_inference/index.md) · [💬 ACL2026 (7)](../../ACL2026/causal_inference/index.md) · [🧪 ICML2026 (19)](../../ICML2026/causal_inference/index.md) · [🤖 AAAI2026 (7)](../../AAAI2026/causal_inference/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/causal_inference/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/causal_inference/index.md)
 
-🔥 **高频主题：** 对抗鲁棒 ×3 · 推理 ×2 · LLM ×2
+🔥 **高频主题：** 对抗鲁棒 ×4 · LLM ×3 · 时序预测 ×2 · 推理 ×2
 
 **[A Relative Error-Based Evaluation Framework of Heterogeneous Treatment Effect Estimators](a_relative_error-based_evaluation_framework_of_heterogeneous_treatment_effect_es.md)**
 
@@ -112,6 +113,10 @@ item_total: 56
 
 :   本文指出大规模多模态数据并不服从单一有向无环图（DAG）的生成假设，提出一个用"无向边连接两组潜在耦合变量"的潜在偏因果模型，并在球面和凸体两种潜在空间上证明：CLIP 这类多模态对比学习（MMCL）学到的表示与真实潜变量分别相差一个线性正交变换 / 置换变换，从而第一次给出 MMCL 的"逐分量解耦"理论保证，并把它落到 FastICA / PCA+FastICA 这种即插即用的解耦流程上，在少样本学习和域泛化上拿到提升。
 
+**[CARL: Preserving Causal Structure in Representation Learning](carl_preserving_causal_structure_in_representation_learning.md)**
+
+:   CARL 研究跨模态表征学习中的因果结构漂移问题，通过条件独立保持、Markov 边界保留和单调对齐一致性三类约束，把多模态数据映射到共享表征空间时尽量保住原始因果图中的独立关系、媒介变量信息和因果效应可识别条件。
+
 **[CaTs and DAGs: Integrating Directed Acyclic Graphs with Transformers for Causally Constrained Predictions](cats_and_dags_integrating_directed_acyclic_graphs_with_transformers_for_causally.md)**
 
 :   本文提出 **Causal Transformer (CaT)**，把一张预先给定的因果有向无环图（DAG）的邻接矩阵作为掩码注入到 transformer 的交叉注意力中，让网络在保留强函数逼近能力的同时严格遵守因果结构，从而对协变量漂移更鲁棒、更可解释，并能直接估计干预效应。
@@ -119,6 +124,10 @@ item_total: 56
 **[Causal Discovery in the Wild: A Voting-Theoretic Ensemble Approach](causal_discovery_in_the_wild_a_voting-theoretic_ensemble_approach.md)**
 
 :   把若干个因果发现算法当成"会犯错的投票专家"，用投票理论给结构集成建立一套有理论保证的加权贝叶斯投票框架——通过把图拆成边级子结构、再用最优传输估计每个专家的"能力矩阵"，最终在合成与真实数据上比现有启发式集成方法更稳更准，并给出了集成规模/能力/多样性该怎么选的明确指导。
+
+**[Causal Discovery via Quantile Partial Effect](causal_discovery_via_quantile_partial_effect.md)**
+
+:   这篇论文把条件分位数回归里的 Quantile Partial Effect（QPE）作为观测分布的形状统计量，用有限基函数张成假设给出双变量因果方向可识别性，并进一步把 QPE 与 score function / Fisher 信息联系起来，得到一个用于多变量因果排序的高效非参数算法 FICO。
 
 **[Causal Imitation Learning under Expert-Observable and Expert-Unobservable Confounding](causal_imitation_learning_under_expert-observable_and_expert-unobservable_confou.md)**
 
@@ -147,6 +156,10 @@ item_total: 56
 **[Counterfactual Explanations on Robust Perceptual Geodesics](counterfactual_explanations_on_robust_perceptual_geodesics.md)**
 
 :   提出 PCG（Perceptual Counterfactual Geodesic）方法，在鲁棒感知流形上通过测地线优化生成语义忠实的反事实解释，两阶段优化确保路径既感知自然又达到目标类别，在 AFHQ 上 FID=8.3 远优于 RSGD 的 12.9。
+
+**[Counterfactual LLM-based Framework for Measuring Rhetorical Style](counterfactual_llm-based_framework_for_measuring_rhetorical_style.md)**
+
+:   这篇论文提出一个反事实 LLM 测量框架：在固定论文方法、实验和结果等实质内容 $X$ 的前提下，让不同修辞 persona 生成同一论文的反事实摘要，再用 LLM Judge 的成对比较和 Bradley-Terry 模型把抽象的“修辞强度” $Z$ 标定成连续分数；在 8,485 篇 ICLR 投稿上的实证分析显示，更强的愿景式修辞显著预测引用和媒体关注，并且 2023 年后的修辞增强与 LLM 写作辅助采用高度相关。
 
 **[Counterfactual Structural Causal Bandits](counterfactual_structural_causal_bandits.md)**
 
@@ -212,6 +225,10 @@ item_total: 56
 
 :   提出 **IGC-Net**：第一个用纯回归式迭代 G-computation 端到端估计时序条件平均潜在结果(CAPO)的神经网络，既正确校正时变混杂、又绕开逆倾向权重的除零不稳定和 G-Net 对全分布的高维估计。
 
+**[Independence Test for Linear Non-Gaussian Data and Applications in Causal Discovery](independence_test_for_linear_non-gaussian_data_and_applications_in_causal_discov.md)**
+
+:   本文证明在线性非高斯混合模型中，只要条件均值和条件方差都为常数就足以推出独立性，并据此提出对一阶、二阶条件矩同时敏感的核独立性检验 LiNGIC，在合成数据和 Direct-LiNGAM 因果发现中比通用 HSIC 等检验有更高统计功效。
+
 **[Influence without Confounding: Causal Discovery from Temporal Data with Long-term Carry-over Effects](influence_without_confounding_causal_discovery_from_temporal_data_with_long-term.md)**
 
 :   针对时序数据中"远古历史值直接影响当下"导致的虚假因果（长程 carry-over 混淆），本文先用证明把"OLS 打分→QR 分解的 R 矩阵对角线"与真实拓扑序绑定，再用有限步历史回归残差消除长程混淆，最后用 DQN 以 R 矩阵为状态高效搜索最优变量序，提出 LEVER 方法。
@@ -264,6 +281,10 @@ item_total: 56
 
 :   提出基于结构因果模型（SCM）的分解式评估框架，将 LLM 的反事实推理拆分为四个阶段（因果变量识别→因果图构建→干预识别→结果推理），在 11 个多模态数据集上系统诊断 LLM 在各阶段的能力瓶颈，并提出工具增强和高级 elicitation 策略来改善性能。
 
+**[On the Identifiability of Causal Graphs with the Invariance Principle](on_the_identifiability_of_causal_graphs_with_the_invariance_principle.md)**
+
+:   本文证明在机制不变、噪声分布跨环境发生足够方差缩放的条件下，任意非线性可逆结构因果模型的完整因果图可由基础环境加两个辅助环境唯一识别，并用跟随证明思路的合成实验验证了这一可识别性现象。
+
 **[Overlap-Adaptive Regularization for Conditional Average Treatment Effect Estimation](overlap-adaptive_regularization_for_conditional_average_treatment_effect_estimat.md)**
 
 :   针对条件平均处理效应（CATE）估计中"低重叠区域"难学的老大难问题，本文提出 Overlap-Adaptive Regularization（OAR）：让两阶段元学习器第二阶段模型的正则化强度随重叠权重 $\nu(x)$ 反比变化（重叠越低、正则越强），并给出可保持 Neyman 正交性的去偏版本 dOAR，在多组（半）合成数据上稳定优于"常数正则化"。
@@ -284,6 +305,10 @@ item_total: 56
 
 :   提出 Knowledgeable-R1，一个基于强化学习的框架，通过联合采样参数知识（PK）和上下文知识（CK）的轨迹，结合局部/全局优势计算和自适应不对称优势变换，使 LLM 在 RAG 场景中能够抵抗误导性检索上下文的干扰，同时保留对可靠上下文的利用能力。
 
+**[Score-based Greedy Search for Structure Identification of Partially Observed Causal Models](score-based_greedy_search_for_structure_identification_of_partially_observed_cau.md)**
+
+:   本文提出第一个带可识别性保证的、面向含隐变量因果模型的**分数贪婪搜索**方法 LGES：先用似然分数 + 最小维度建立"代数等价"判据，再用 Generalized N Factor Model（GNFM）这一弱图结构假设把代数等价收紧到马尔可夫等价类，最后用两个删边算子驱动的两阶段贪婪搜索高效恢复包含隐变量在内的整张结构，在小样本和真实心理学数据上都优于现有约束类方法。
+
 **[Self-Supervised Learning from Structural Invariance](self-supervised_learning_from_structural_invariance.md)**
 
 :   提出 AdaSSL，通过引入潜变量建模正样本对之间的条件不确定性，推导出互信息的变分下界，使 SSL 能够处理自然配对数据中的复杂（多模态、异方差）条件分布，在因果表征学习、细粒度图像理解和视频世界模型上均优于基线。
@@ -299,6 +324,10 @@ item_total: 56
 **[Synthesising Counterfactual Explanations via Label-Conditional Gaussian Mixture Variational Autoencoders](synthesising_counterfactual_explanations_via_label-conditional_gaussian_mixture_.md)**
 
 :   提出 L-GMVAE（标签条件高斯混合 VAE）和 LAPACE 算法，通过在潜空间中学习每个类别的多个高斯聚类中心，然后从输入潜表征到目标类别中心进行线性插值，生成路径式反事实解释，同时保证有效性、似合性、多样性和对输入扰动的完美鲁棒性。
+
+**[TCD-Arena: Assessing Robustness of Time Series Causal Discovery Methods Against Assumption Violations](tcd-arena_assessing_robustness_of_time_series_causal_discovery_methods_against_a.md)**
+
+:   TCD-Arena 提出一个可扩展的时间序列因果发现鲁棒性测试套件，用 33 类逐步加剧的现实假设违反和约 3600 万次因果发现尝试系统评估 10 类方法，并发现不同算法的鲁棒性画像差异很大，简单集成在滞后图和摘要图上能进一步提升稳定性。
 
 **[Theoretical Guarantees for Causal Discovery on Large Random Graphs](theoretical_guarantees_for_causal_discovery_on_large_random_graphs.md)**
 

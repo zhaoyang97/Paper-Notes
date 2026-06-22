@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 AI安全论文汇总 · 119篇论文解读
+  ICLR2026 AI安全论文汇总 · 139篇论文解读
 description: >-
-  119篇ICLR2026的 AI 安全方向论文解读，涵盖对抗鲁棒、联邦学习、多模态、强化学习、水印/隐写、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  139篇ICLR2026的 AI 安全方向论文解读，涵盖对抗鲁棒、联邦学习、水印/隐写、多模态、强化学习、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "AI 安全"
@@ -10,10 +10,10 @@ tags:
   - "论文笔记"
   - "对抗鲁棒"
   - "联邦学习"
+  - "水印/隐写"
   - "多模态"
   - "强化学习"
-  - "水印/隐写"
-  - "少样本学习"
+  - "扩散模型"
 item_list:
   - u: "a_bayesian_nonparametric_framework_for_private_fair_and_balanced_tabular_data_sy/"
     t: "A Bayesian Nonparametric Framework for Private, Fair, and Balanced Tabular Data Synthesis"
@@ -37,6 +37,8 @@ item_list:
     t: "ATEX-CF: Attack-Informed Counterfactual Explanations for Graph Neural Networks"
   - u: "back_to_square_roots_an_optimal_bound_on_the_matrix_factorization_error_for_mult/"
     t: "Back to Square Roots: An Optimal Bound on the Matrix Factorization Error for Multi-Epoch Differentially Private SGD"
+  - u: "benchmarking_bias_mitigation_toward_fairness_without_harm_from_vision_to_lvlms/"
+    t: "Benchmarking Bias Mitigation Toward Fairness Without Harm from Vision to LVLMs"
   - u: "benchmarking_stochastic_approximation_algorithms_for_fairness-constrained_traini/"
     t: "Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks"
   - u: "beware_untrusted_simulators_--_reward-free_backdoor_attacks_in_reinforcement_lea/"
@@ -53,12 +55,18 @@ item_list:
     t: "HyCAS：用混合卷积与注意力随机性，同时打通认证鲁棒与经验鲁棒"
   - u: "certifying_the_full_yolo_pipeline_a_probabilistic_verification_approach/"
     t: "Certifying the Full YOLO Pipeline: A Probabilistic Verification Approach"
+  - u: "closing_the_safety_gap_surgical_concept_erasure_in_visual_autoregressive_models/"
+    t: "Closing the Safety Gap: Surgical Concept Erasure in Visual Autoregressive Models"
   - u: "co-lora_collaborative_model_personalization_on_heterogeneous_multi-modal_clients/"
     t: "Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients"
   - u: "comparing_ai_agents_to_cybersecurity_professionals_in_real-world_penetration_tes/"
     t: "Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing"
+  - u: "concept-aware_privacy_mechanisms_for_defending_embedding_inversion_attacks/"
+    t: "Concept-Aware Privacy Mechanisms for Defending Embedding Inversion Attacks"
   - u: "concept-based_adversarial_attack_a_probabilistic_perspective/"
     t: "Concept-based Adversarial Attack: a Probabilistic Perspective"
+  - u: "control_tax_the_price_of_keeping_ai_in_check/"
+    t: "Control Tax: The Price of Keeping AI in Check"
   - u: "convergent_differential_privacy_analysis_for_general_federated_learning/"
     t: "Convergent Differential Privacy Analysis for General Federated Learning"
   - u: "dataless_weight_disentanglement_in_task_arithmetic_via_kronecker-factored_approx/"
@@ -67,25 +75,17 @@ item_list:
     t: "Dataset Distillation for Memorized Data: Soft Labels can Leak Held-Out Teacher Knowledge"
   - u: "decoupling_the_class_label_and_the_target_concept_in_machine_unlearning/"
     t: "Decoupling the Class Label and the Target Concept in Machine Unlearning"
-  - u: "defending_against_backdoor_attacks_via_module_switching/"
-    t: "Defending against Backdoor Attacks via Module Switching"
-  - u: "differentially_private_domain_discovery/"
-    t: "Missing Mass for Differentially Private Domain Discovery"
-  - u: "differentially_private_two-stage_gradient_descent_for_instrumental_variable_regr/"
-    t: "Differentially Private Two-Stage Gradient Descent for Instrumental Variable Regression"
-  - u: "discrete_latent_features_ablate_adversarial_attack_a_robust_prompt_tuning_framew/"
-    t: "Discrete Latent Features Ablate Adversarial Attack: A Robust Prompt Tuning Framework for VLMs"
-item_total: 119
+item_total: 139
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**🔬 ICLR2026** · **119** 篇论文解读
+**🔬 ICLR2026** · **139** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (145)](../../CVPR2026/ai_safety/index.md) · [💬 ACL2026 (5)](../../ACL2026/ai_safety/index.md) · [🧪 ICML2026 (114)](../../ICML2026/ai_safety/index.md) · [🤖 AAAI2026 (45)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (73)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (24)](../../ICCV2025/ai_safety/index.md)
 
-🔥 **高频主题：** 对抗鲁棒 ×39 · 联邦学习 ×10 · 多模态 ×4 · 强化学习 ×4 · 水印/隐写 ×3
+🔥 **高频主题：** 对抗鲁棒 ×43 · 联邦学习 ×10 · 水印/隐写 ×5 · 多模态 ×4 · 强化学习 ×4
 
 **[A Bayesian Nonparametric Framework for Private, Fair, and Balanced Tabular Data Synthesis](a_bayesian_nonparametric_framework_for_private_fair_and_balanced_tabular_data_sy.md)**
 
@@ -131,6 +131,10 @@ item_total: 119
 
 :   提出 Banded Inverse Square Root (BISR) 矩阵分解方法，通过对逆相关矩阵（而非相关矩阵本身）施加带状结构，首次在多轮参与差分隐私 SGD 中实现渐近最优的分解误差界，并配套低存储优化变体 BandInvMF。
 
+**[Benchmarking Bias Mitigation Toward Fairness Without Harm from Vision to LVLMs](benchmarking_bias_mitigation_toward_fairness_without_harm_from_vision_to_lvlms.md)**
+
+:   本文提出 NH-Fair，一个覆盖经典视觉模型与大型视觉语言模型（LVLM）、统一了数据/指标/训练协议的"无害公平"评测基准，并通过两阶段选模（DTO 选 ERM 基线 + FWH 四区选缓解方法）系统证明：很多专门的去偏算法并不能稳定超过精调的 ERM，数据增强反而是最实用的无害提升路径，而单纯把模型做大并不会让模型更公平。
+
 **[Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks](benchmarking_stochastic_approximation_algorithms_for_fairness-constrained_traini.md)**
 
 :   这篇论文把"训练公平的深度网络"统一形式化成**带不等式约束的随机优化问题**（约束子群之间的损失差），指出当前没有任何算法能在"随机+不等式+非凸+非光滑"全场景下给出收敛保证，于是从文献里挑出三类最贴近该场景、但此前一直没人实现的随机近似算法，把它们全部实现进一个 Python 工具箱，并在美国人口普查真实大规模数据（Folktables/ACSIncome）上首次系统对比它们的优化性能与公平性表现。
@@ -163,6 +167,10 @@ item_total: 119
 
 :   本文提出 ODPV——首个能在**实际规模**上验证完整 YOLO 检测流水线（含 NMS 后处理）对"物体消失"攻击鲁棒性的 PAC 概率验证框架，用"输出近似 → NMS 形式化验证 → 反例精化"三步把高维检测网络的认证变成可行的采样问题。
 
+**[Closing the Safety Gap: Surgical Concept Erasure in Visual Autoregressive Models](closing_the_safety_gap_surgical_concept_erasure_in_visual_autoregressive_models.md)**
+
+:   这篇论文针对视觉自回归文生图模型缺少安全概念擦除机制的问题，提出 VARE 与 S-VARE，用辅助视觉 token 稳定擦除训练，并用过滤交叉熵和保持损失实现“只删目标概念、尽量不伤生成能力”的外科式概念擦除。
+
 **[Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients](co-lora_collaborative_model_personalization_on_heterogeneous_multi-modal_clients.md)**
 
 :   提出 FedMosaic 框架解决个性化联邦学习中的双重异构问题：RELA 通过梯度相似度度量任务相关性实现定制化聚合（解决数据异构），Co-LoRA 通过维度不变的 $P \in \mathbb{R}^{r \times r}, Q \in \mathbb{R}^r$ 模块实现跨异构架构（如 Llama vs Qwen）的知识共享（解决模型异构），在新提出的 40 任务多模态 PFL benchmark DRAKE 上大幅超越 SOTA。
@@ -171,9 +179,17 @@ item_total: 119
 
 :   这是第一项把 AI 智能体和真人网络安全专家放进**同一个真实生产网络**（某大学约 8000 台主机）做渗透测试的对照评测：作者同时跑 10 位专业渗透测试员、6 个现有智能体脚手架和自研的多智能体框架 ARTEMIS，结果 ARTEMIS 以 9 个有效漏洞、82% 有效提交率拿下总榜第二、压过 10 人中的 9 人，而 Codex、CyAgent 等现成脚手架几乎垫底——同时暴露出 AI 在系统化枚举/并行利用/成本上的优势与高假阳率、不会操作 GUI 的短板。
 
+**[Concept-Aware Privacy Mechanisms for Defending Embedding Inversion Attacks](concept-aware_privacy_mechanisms_for_defending_embedding_inversion_attacks.md)**
+
+:   针对"差分隐私防御对所有嵌入维度无差别加噪、导致语义被破坏"的痛点，本文提出 SPARSE：先用可微神经元掩码学习定位与用户指定隐私概念相关的敏感维度，再用马氏机制（Mahalanobis mechanism）注入按维度敏感度校准的椭球噪声，从而只扰动敏感维度、保留非敏感语义，在六个数据集上同时降低隐私泄露并保住下游效用。
+
 **[Concept-based Adversarial Attack: a Probabilistic Perspective](concept-based_adversarial_attack_a_probabilistic_perspective.md)**
 
 :   把对抗攻击从"扰动单张图像"升级为"扰动整个概念分布"——用扩散生成模型把一只特定柯基的多姿态多视角图像拟合成一个概念分布，再从这个概念分布与受害分类器分布的乘积里采样，生成既保留原概念身份、又能高成功率骗过分类器的对抗样本（白盒定向攻击成功率从 ProbAttack 的 59% 提到 98%）。
+
+**[Control Tax: The Price of Keeping AI in Check](control_tax_the_price_of_keeping_ai_in_check.md)**
+
+:   这篇论文提出"控制税（Control Tax）"——即把 AI 控制（AIC）措施接入流水线所需付出的运营与金钱成本，先用 APPS 代码后门任务实测一批前沿模型当 monitor 的 ROC 性能，再用博弈论把这些 ROC 曲线翻译成"给定审计预算下的安全概率"，最终画出"安全 vs 监控花费"的帕累托前沿，告诉实践者最贵的监控器并不一定最安全。
 
 **[Convergent Differential Privacy Analysis for General Federated Learning](convergent_differential_privacy_analysis_for_general_federated_learning.md)**
 
@@ -195,6 +211,10 @@ item_total: 119
 
 :   针对"拿到来历不明的预训练模型、却没有训练数据和触发器先验"的后训练场景，本文提出**模块交换防御（MSD）**：把同结构的多个可疑模型按层/按模块互相交换权重，打断后门所依赖的"捷径通路"，在理论上证明其后门偏离度严格高于权重平均（WAG），并用进化搜索找出最优交换方案，仅需两个模型和 20–50 张干净验证样本即可显著降低攻击成功率。
 
+**[Designing Affine-Invariant Neural Networks for Photometric Corruption Robustness and Generalization](designing_affine-invariant_neural_networks_for_photometric_corruption_robustness.md)**
+
+:   本文提出 SEqSI，一种把首层做成强度平移不变、把后续骨干做成强度缩放等变的 CNN 设计，在几乎不增加计算成本的情况下，为分类、定位和分割等任务提供对全局亮度/对比度仿射变化的可验证鲁棒性，并在 Cryo-ET 与显微图像等真实光度域偏移中明显优于普通网络。
+
 **[Missing Mass for Differentially Private Domain Discovery](differentially_private_domain_discovery.md)**
 
 :   本文把差分隐私"域发现"（从未知巨大字典里私有地挑出有信息量的高频项）的好坏，从"挑出多少个不同项（基数）"重新定义为"挑出多少质量（缺失质量 missing mass）"，并据此证明了一个简单可扩展的加权高斯机制（WGM）在 Zipf 分布数据上具有近最优的 $\ell_1$ 缺失质量保证、以及无分布假设的 $\ell_\infty$ 保证；再用"半预算先发现域、半预算跑已知域算法"的元算法把这套保证推广到私有 top-k 与 k-命中集，实验证明在六个真实数据集上与现有方法持平或更优。
@@ -215,6 +235,10 @@ item_total: 119
 
 :   作者发现用梯度上升（GA）做后门遗忘并没有真正"擦掉"触发器，而是把它的影响**搬到了另一个类别**（称为"触发器漂移"），并提出 Robust Gradient Ascent（RGA）——用一个基于 KL 散度的自适应权重在后门被中和时自动关闭梯度上升，再配 L2 锚定正则稳住优化，从而既去掉后门又不引入新的误分类。
 
+**[Doubly-Regressing Approach for Subgroup Fairness](doubly-regressing_approach_for_subgroup_fairness.md)**
+
+:   当敏感属性很多导致子群数量爆炸、很多子群样本极少时，本文提出"子群子集公平"概念并用 supIPM 度量，再通过一个把权重向量和判别器同时回归的"双重回归 $R^2$（DR²）"代理目标，只用**单个判别器**就能同时保证所有大子群和边际属性的分布公平，在子群极度稀疏的数据集上显著优于现有方法。
+
 **[DPQuant: Efficient and Private Model Training via Dynamic Quantization Scheduling](dpquant_efficient_and_private_model_training_via_dynamic_quantization_scheduling.md)**
 
 :   DPQuant 首次指出"低比特量化在差分隐私（DP）训练里会造成远比普通训练严重的精度崩塌"，并用"每个 epoch 概率性轮换被量化的层 + 用 DP 损失敏感度估计器优先量化低影响层"两招把量化方差压下去，在 ResNet/DenseNet/BERT 上做到掉点 <2%、理论加速最高 2.21×。
@@ -222,6 +246,14 @@ item_total: 119
 **[DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense](drift_divergent_response_in_filtered_transformations_for_robust_adversarial_defe.md)**
 
 :   DRIFT 在冻结分类器前面挂一组轻量可学习滤波器，用"共识发散"损失主动把不同滤波器的梯度方向逼散，从而打掉对抗扰动赖以迁移的"梯度共识"；在 ImageNet 上对 CNN 和 ViT，面对 PGD-EoT、AutoAttack、BPDA 等强自适应攻击都拿到当前最好的鲁棒精度，而几乎不增加推理开销。
+
+**[Dual Randomized Smoothing: Beyond Global Noise Variance](dual_randomized_smoothing_beyond_global_noise_variance.md)**
+
+:   本文指出标准随机平滑（RS）用一个全局噪声方差服务所有输入，导致小半径和大半径无法兼顾；作者先从理论上证明只要噪声方差在认证区域内"局部恒定"RS 认证依然成立，进而提出**双 RS 框架**——先用一个 RS 模型为每个输入预测最优方差、再用另一个 RS 分类器在该方差下分类，在 CIFAR-10 和 ImageNet 上同时拿到了小半径和大半径的强性能，推理开销仅增加约 60%。
+
+**[EigenScore: OOD Detection using Posterior Covariance in Diffusion Models](eigenscore_ood_detection_using_posterior_covariance_in_diffusion_models.md)**
+
+:   本文提出 **EigenScore**：把在 InD 数据上训好的扩散模型搬到 OOD 样本上时，去噪后验协方差会在主方向上系统性膨胀，于是用其**特征值谱**（top-K 特征值之和）作为分布偏移的信号，并用免雅可比的子空间迭代高效估计，在标准 OOD 基准上平均 AUROC 达到 SOTA（最高比最佳基线高约 2%），尤其在 CIFAR-10 vs CIFAR-100 这类近 OOD 场景下不崩。
 
 **[Eliciting Harmful Capabilities by Fine-Tuning on Safeguarded Outputs](eliciting_harmful_capabilities_by_fine-tuning_on_safeguarded_outputs.md)**
 
@@ -255,6 +287,10 @@ item_total: 119
 
 :   把"分位数公平"从需要完整 MDP 转移表的表格算法，改造成只调用标准策略优化 oracle（约 $O(n)$ 次）的 oracle-efficient 算法，让"在多个冲突价值观之间做公平聚合"第一次能跑进深度 RL 规模，速度比前作快几个数量级。
 
+**[Fairness-Aware Multi-view Evidential Learning with Adaptive Prior](fairness-aware_multi-view_evidential_learning_with_adaptive_prior.md)**
+
+:   针对多视图证据学习中"样本更倾向于把支持证据分给数据多的类、导致不确定性估计不公平"这一被忽视的问题，本文提出 FAML：用**基于训练轨迹的自适应先验**替代证据深度学习里固定的均匀先验、加上**公平性约束**和**视图意见对齐**，在六个真实多视图数据集上同时提升了分类精度（尤其尾部类）和不确定性可靠性。
+
 **[Fairness via Independence: A General Regularization Framework for Machine Learning](fairness_via_independence_a_general_regularization_framework_for_machine_learnin.md)**
 
 :   本文提出用 Cauchy-Schwarz（CS）散度作为公平性正则项，去最小化"模型预测"与"敏感属性"之间的统计依赖，用一个与模型无关、与具体公平定义无关的统一框架，在保持精度的同时同时改善 △DP 和 △EO，且对超参变化更鲁棒。
@@ -270,6 +306,18 @@ item_total: 119
 **[FERD: Fairness-Enhanced Data-Free Adversarial Robustness Distillation](ferd_fairness-enhanced_data-free_adversarial_robustness_distillation.md)**
 
 :   FERD 首次把"鲁棒公平性"引入数据无关鲁棒蒸馏，通过对合成样本的**类别比例**重加权和对抗目标的**分布**均匀化，让学生模型在最弱类别上的鲁棒性大幅提升，缓解了类间鲁棒性严重失衡的问题。
+
+**[Fine-Grained Class-Conditional Distribution Balancing for Debiased Learning](fine-grained_class-conditional_distribution_balancing_for_debiased_learning.md)**
+
+:   本文把无偏置标注的 group-robust learning 拆成“先用模型过拟合找偏置模式、再按混淆矩阵做细粒度类条件分布匹配”，提出 MST 与 FG-CCDB，在真实二分类、多 shortcut 和极端多分类场景中接近甚至超过依赖人工 group 标注的方法。
+
+**[Fingerprinting Deep Neural Networks for Ownership Protection: An Analytical Approach](fingerprinting_deep_neural_networks_for_ownership_protection_an_analytical_appro.md)**
+
+:   AnaFP 把深度网络所有权保护中的“指纹应该离决策边界多远”从经验调参问题改写成 stretch factor 的可行区间求解问题，用鲁棒性下界和唯一性上界共同约束对抗样本指纹，在 CNN、MLP 和 GNN 上都比现有指纹方法更稳定地区分盗版模型与独立训练模型。
+
+**[Fisher-Rao Sensitivity for Out-of-Distribution Detection in Deep Neural Networks](fisher-rao_sensitivity_for_out-of-distribution_detection_in_deep_neural_networks.md)**
+
+:   本文用黎曼信息几何重新审视分布外（OoD）检测，把网络对输入的预测看成统计流形，发现 OoD 输入在训练好的参数处具有**更高的局部 Fisher-Rao 敏感度**；用 Fisher 信息矩阵（FIM）的迹来量化这种敏感度，作者从理论上推出"特征幅度 × 输出不确定度"这一乘积形式统一了已有 OoD 信号，并进一步用乘积流形构造把它升级成更鲁棒的**加性分数**，无需重训、无需 OoD 数据、单次前向就能取得有竞争力的检测效果。
 
 **[Formalising Human-in-the-Loop: Computational Reductions, Failure Modes, and Legal–Moral Responsibility](formalising_human-in-the-loop_computational_reductions_failure_modes_and_legal-m.md)**
 
@@ -291,6 +339,10 @@ item_total: 119
 
 :   GradPCA 利用 NTK alignment 导致的网络梯度低秩结构，对「类均值梯度」做 PCA 来刻画 ID 子空间，把梯度落在子空间外的输入判为 OOD，在多个图像分类基准上取得了比现有方法更**一致**（而非偶尔最优）的检测性能，并配上一套谱方法 OOD 检测的理论框架。
 
+**[How to Cure Newton for Unlearning Neural Networks? An Empirical Study from the Hessian Perspective](how_to_cure_newton_for_unlearning_neural_networks_an_empirical_study_from_the_he.md)**
+
+:   本文发现牛顿型二阶遗忘（Newton unlearning）在真实神经网络/LLM 上会因 Hessian 退化（大量零/负特征值）而失效，提出基于三次正则化的 CuReNU 及其随机 Hessian-free 变体 CuReNUS，能自动确定阻尼因子 $\gamma$、保证收敛到二阶驻点，并在批量与序列遗忘乃至 LLM 规模上达到与 SOTA 经验方法相当的遗忘效果。
+
 **[Identifying Robust Neural Pathways: Few-Shot Adversarial Mask Tuning for Vision-Language Models](identifying_robust_neural_pathways_few-shot_adversarial_mask_tuning_for_vision-l.md)**
 
 :   本文提出 AdvMask：不改动 CLIP 预训练权重，只在视觉编码器上学一组二值掩码、关掉对对抗扰动敏感的参数，从而"挖出"一条天然抗攻击的鲁棒神经通路，并配合逐层自适应特征对齐损失（LAFA）专攻少样本场景下的对抗鲁棒微调。
@@ -306,6 +358,10 @@ item_total: 119
 **[Label Smoothing Improves Machine Unlearning](label_smoothing_improves_machine_unlearning.md)**
 
 :   本文把"负标签平滑"嫁接到梯度上升的机器遗忘里，提出即插即用的 UGradSL：在被遗忘数据上做带负平滑标签的梯度上升、在保留数据上做梯度下降，几乎不增加计算量就显著缩小了与"重训模型"的性能差距，并附带理论证明它能改善标签级局部差分隐私。
+
+**[LAMDA: A Longitudinal Android Malware Benchmark for Concept Drift Analysis](lamda_a_longitudinal_android_malware_benchmark_for_concept_drift_analysis.md)**
+
+:   LAMDA 构建了一个覆盖 2013-2025 年、超过 100 万个 Android APK 的长期恶意软件基准，用 Drebin 静态特征、家族标签和多种时间切分系统揭示现有恶意软件检测器在真实概念漂移下会快速退化。
 
 **[Learnability and Privacy Vulnerability are Entangled in a Few Critical Weights](learnability_and_privacy_vulnerability_are_entangled_in_a_few_critical_weights.md)**
 
@@ -331,6 +387,10 @@ item_total: 119
 
 :   本文提出**累积样本梯度（CSG）**——把"损失对输入的梯度"沿训练过程累加——作为 Feldman 记忆化分数的高效代理，理论上证明 CSG 同时被记忆化程度和学习时间线性界定，并由此发现"在权重范数峰值处早停"这一无需验证集的判据，把记忆化估计加速最多 5 个数量级。
 
+**[Mitigating Privacy Risk via Forget Set-Free Unlearning](mitigating_privacy_risk_via_forget_set-free_unlearning.md)**
+
+:   本文提出部分盲机器遗忘（partially-blind unlearning）设定和 RELOAD 方法，用训练末尾缓存的全数据梯度代替原始 forget set，通过一次反向遗忘梯度、选择性权重重初始化和 retain set 微调，在不保留待删除样本的情况下逼近从头重训模型，并在普通样本遗忘、LLM 实体遗忘和纠错遗忘上取得强结果。
+
 **[MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes](morebench_evaluating_procedural_and_pluralistic_moral_reasoning_in_language_mode.md)**
 
 :   MoReBench 提出用专家手写的 23,018 条 rubric 准则去评测推理模型在 1,000 个道德困境上**思考过程的结构质量**（而非最终结论对错），并发现 scaling laws 与数学/代码基准都无法预测模型的道德推理能力。
@@ -350,6 +410,10 @@ item_total: 119
 **[No Prior, No Leakage: Revisiting Reconstruction Attacks in Trained Neural Networks](no_prior_no_leakage_revisiting_reconstruction_attacks_in_trained_neural_networks.md)**
 
 :   本文从"防守"视角重新审视基于隐式偏置的训练数据重构攻击，**严格证明在没有数据先验知识的情况下，攻击目标函数存在无穷多个彼此无法区分、且可任意远离真实训练集的全局最优解**，进而说明此类攻击的"成功"本质上依赖外部先验而非隐式偏置本身泄露的信息。
+
+**[NoisePrints: Distortion-Free Watermarks for Authorship in Private Diffusion Models](noiseprints_distortion-free_watermarks_for_authorship_in_private_diffusion_model.md)**
+
+:   NoisePrints 把扩散模型生成时的随机种子当作天然作者指纹，通过哈希种子生成初始噪声并与生成内容的 VAE latent 做相关性验证，在不改模型、不改采样、不做反演的前提下实现图像和视频生成内容的轻量级作者身份验证。
 
 **[On Optimal Hyperparameters for Differentially Private Deep Transfer Learning](on_optimal_hyperparameters_for_differentially_private_deep_transfer_learning.md)**
 
@@ -451,6 +515,10 @@ item_total: 119
 
 :   本文发现从**非鲁棒预训练模型**做鲁棒微调（RFT）时，哪怕用很小的对抗扰动也会出现"次优迁移"——干净精度大幅低于普通微调甚至接近随机；作者把根因归到"任务适应被延迟"，提出 **Epsilon-Scheduling**（训练扰动强度先 0、再线性爬升到目标值的两段铰链调度）来先适应任务再上鲁棒约束，并提出 **期望鲁棒性**指标更全面地刻画精度-鲁棒性权衡，在 6 个骨干 × 5 个数据集上一致改善。
 
+**[Robust Optimization for Mitigating Reward Hacking with Correlated Proxies](robust_optimization_for_mitigating_reward_hacking_with_correlated_proxies.md)**
+
+:   这篇论文把 reward hacking 建模为“在所有与代理奖励保持 $r$ 相关的可能真实奖励中，对最坏情况仍表现好”的 max-min 鲁棒策略优化问题，并给出通用 Max-Min 与线性奖励版 Linear Max-Min 两套算法，在 Traffic、Pandemic、Glucose、Tomato 和 RLHF 等环境上显著提升最坏情况回报和稳定性。
+
 **[Robust Spiking Neural Networks Against Adversarial Attacks](robust_spiking_neural_networks_against_adversarial_attacks.md)**
 
 :   从理论上证明阈值邻近脉冲神经元是直接训练SNN对抗鲁棒性的关键瓶颈（它们既设定了对抗攻击强度的理论上界，又最容易发生状态翻转），并提出Threshold Guarding Optimization (TGO) 方法——通过膜电位约束+噪声LIF神经元双管齐下，在多种对抗攻击场景下取得SOTA鲁棒性，且推理阶段零额外开销。
@@ -495,6 +563,10 @@ item_total: 119
 
 :   GH-OFL 让客户端只上传一次"类条件充分统计量"（计数、一阶/二阶矩），服务器据此直接拼出闭式高斯判别头（NB/LDA/QDA）并在 Fisher 子空间里合成无关数据训练两个轻量头（FisherMix、Proto-Hyper），在强非 IID 下用单轮通信就达到 OFL SOTA 精度，且全程不碰原始数据。
 
+**[The Self-Re-Watermarking Trap: From Exploit to Resilience](the_self-re-watermarking_trap_from_exploit_to_resilience.md)**
+
+:   这篇论文指出深度图像水印系统会被“同一个编码器再次写入新水印”轻易覆盖原始所有权，并用带 Lipschitz 约束的自感知水印框架与重水印对抗训练，让原始水印在自重水印和 PGD 覆盖攻击后仍能被稳定恢复。
+
 **[Time Is All It Takes: Spike-Retiming Attacks on Event-Driven Spiking Neural Networks](time_is_all_it_takes_spike-retiming_attacks_on_event-driven_spiking_neural_netwo.md)**
 
 :   提出Spike-Retiming Attack——一种仅改变脉冲时间戳而不增删脉冲的时序攻击方法，形式化了容量-1约束下的统一三范数预算（$\mathcal{B}_\infty$局部抖动/$\mathcal{B}_1$总延迟/$\mathcal{B}_0$篡改数），通过Projected-in-the-Loop (PIL)优化在前向严格投影、反向软微分间解耦，在CIFAR10-DVS/DVS-Gesture/N-MNIST上以<2%脉冲扰动达到>90% ASR，揭示事件驱动SNN存在严重的时序脆弱性。
@@ -531,6 +603,10 @@ item_total: 119
 
 :   ULD-Net 提出一套从零训练「全多项式网络」的方法，用只含加法和乘法的归一化层 PolyNorm 把激活值稳稳压在良态区间，从而首次让乘法深度 ≤3 的超低次全多项式模型扩展到 ViT/ImageNet 规模（ViT-Small 在 ImageNet 上 76.70% top-1），并相比此前 SOTA 取得 2.76× 的同态加密推理加速。
 
+**[Uncertainty Estimation via Hyperspherical Confidence Mapping](uncertainty_estimation_via_hyperspherical_confidence_mapping.md)**
+
+:   本文提出 Hyperspherical Confidence Mapping (HCM)，把网络输出拆成"模长 $R$ + 单位方向向量 $\hat{d}$"，再把 $\hat{d}$ 偏离单位球面的程度当作不确定性，从而实现**无采样、无分布假设**的确定性不确定性估计，在分类和回归上都能匹配甚至超过深度集成 / 证据学习，且推理开销最低。
+
 **[Unified Privacy Guarantees for Decentralized Learning via Matrix Factorization](unified_privacy_guarantees_for_decentralized_learning_via_matrix_factorization.md)**
 
 :   将去中心化学习（DL）中的多种算法和信任模型统一建模为矩阵分解（MF）机制，推广隐私保证到更一般的矩阵类型，并提出 MAFALDA-SGD 算法通过优化噪声相关性在合成和真实图拓扑上显著优于现有方法。
@@ -550,6 +626,10 @@ item_total: 119
 **[Watermark-based Detection and Attribution of AI-Generated Content](watermark-based_attribution_of_ai-generated_content.md)**
 
 :   首次系统性研究基于水印的AI生成内容用户级检测与溯源，提供了理论分析（TDR/FDR/TAR界）、高效水印选择算法（A-BSTA）和跨模态（图像+文本）实验验证，证明检测和溯源继承了水印方法本身的准确性与（非）鲁棒性。
+
+**[When Flatness Does (Not) Guarantee Adversarial Robustness](when_flatness_does_not_guarantee_adversarial_robustness.md)**
+
+:   这篇论文把“平坦极小值是否带来对抗鲁棒性”从经验直觉改写成可证明的问题，结论是平坦性确实能给单点附近的局部损失稳定性提供下界，但无法推出全局鲁棒性，因为对抗样本常会落入高置信、低曲率、但分类错误的平坦区域。
 
 **[Why Do Unlearnable Examples Work: A Novel Perspective of Mutual Information](why_do_unlearnable_examples_work_a_novel_perspective_of_mutual_information.md)**
 

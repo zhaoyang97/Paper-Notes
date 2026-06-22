@@ -56,7 +56,7 @@ item_total: 17
 
 **🧠 NeurIPS2025** · **17** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (33)](../../CVPR2026/hallucination/index.md) · [🔬 ICLR2026 (37)](../../ICLR2026/hallucination/index.md) · [💬 ACL2026 (28)](../../ACL2026/hallucination/index.md) · [🧪 ICML2026 (21)](../../ICML2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (33)](../../CVPR2026/hallucination/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/hallucination/index.md) · [💬 ACL2026 (28)](../../ACL2026/hallucination/index.md) · [🧪 ICML2026 (21)](../../ICML2026/hallucination/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/hallucination/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/hallucination/index.md)
 
 🔥 **高频主题：** 多模态 ×6 · LLM ×4 · 推理 ×3 · 对齐/RLHF ×2 · 对抗鲁棒 ×2
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 音频/语音论文汇总 · 72篇论文解读
+  ICLR2026 音频/语音论文汇总 · 79篇论文解读
 description: >-
-  72篇ICLR2026的音频/语音方向论文解读，涵盖语音、推理、扩散模型、对齐/RLHF、情感分析、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  79篇ICLR2026的音频/语音方向论文解读，涵盖语音、推理、对抗鲁棒、扩散模型、对齐/RLHF、情感分析等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "音频/语音"
@@ -10,10 +10,10 @@ tags:
   - "论文笔记"
   - "语音"
   - "推理"
+  - "对抗鲁棒"
   - "扩散模型"
   - "对齐/RLHF"
   - "情感分析"
-  - "对抗鲁棒"
 item_list:
   - u: "ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer/"
     t: "AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer"
@@ -33,12 +33,18 @@ item_list:
     t: "Beyond Instance-Level Alignment: Dual-Level Optimal Transport for Audio-Text Retrieval"
   - u: "bridging_piano_transcription_and_rendering_via_disentangled_score_content_and_st/"
     t: "Bridging Piano Transcription and Rendering via Disentangled Score Content and Style"
+  - u: "can_speech_llms_think_while_listening/"
+    t: "Can Speech LLMs Think while Listening?"
   - u: "closing_the_gap_between_text_and_speech_understanding_in_llms/"
     t: "Closing the Gap Between Text and Speech Understanding in LLMs"
   - u: "confident_and_adaptive_generative_speech_recognition_via_risk_control/"
     t: "Confident and Adaptive Generative Speech Recognition via Risk Control"
   - u: "continuous_audio_language_models/"
     t: "Continuous Audio Language Models"
+  - u: "ctc-dro_robust_optimization_for_reducing_language_disparities_in_speech_recognit/"
+    t: "CTC-DRO: Robust Optimization for Reducing Language Disparities in Speech Recognition"
+  - u: "data-centric_lessons_to_improve_speech-language_pretraining/"
+    t: "Data-Centric Lessons To Improve Speech-Language Pretraining"
   - u: "discovering_and_steering_interpretable_concepts_in_large_generative_music_models/"
     t: "Discovering and Steering Interpretable Concepts in Large Generative Music Models"
   - u: "drvoice_parallel_speech-text_voice_conversation_model_via_dual-resolution_speech/"
@@ -59,6 +65,8 @@ item_list:
     t: "From Natural Alignment to Conditional Controllability in Multimodal Dialogue"
   - u: "from_text_to_talk_audio-language_model_needs_non-autoregressive_joint_training/"
     t: "From Text to Talk: Audio-Language Model Needs Non-Autoregressive Joint Training"
+  - u: "gogo_group-wise_granularity-ordered_codec_for_stable_and_efficient_speech_genera/"
+    t: "Gogo: Group-wise Granularity-ordered Codec for Stable and Efficient Speech Generation"
   - u: "hierarchical_semantic-acoustic_modeling_via_semi-discrete_residual_representatio/"
     t: "Hierarchical Semantic-Acoustic Modeling via Semi-Discrete Residual Representations for Expressive End-to-End Speech Synthesis"
   - u: "human_behavior_atlas_benchmarking_unified_psychological_and_social_behavior_unde/"
@@ -67,25 +75,17 @@ item_list:
     t: "Improving Black-Box Generative Attacks via Generator Semantic Consistency"
   - u: "incentive-aligned_multi-source_llm_summaries/"
     t: "Incentive-Aligned Multi-Source LLM Summaries"
-  - u: "jalmbench_benchmarking_jailbreak_vulnerabilities_in_audio_language_models/"
-    t: "JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models"
-  - u: "knowing_when_to_quit_probabilistic_early_exits_for_speech_separation_networks/"
-    t: "Knowing When to Quit: Probabilistic Early Exits for Speech Separation Networks"
-  - u: "latent_speech_text_transformer/"
-    t: "Latent Speech-Text Transformer"
-  - u: "learnable_fractional_superlets_with_a_spectro-temporal_emotion_encoder_for_speec/"
-    t: "Learnable Fractional Superlets with a Spectro-Temporal Emotion Encoder for Speech Emotion Recognition"
-item_total: 72
+item_total: 79
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🔬 ICLR2026** · **72** 篇论文解读
+**🔬 ICLR2026** · **79** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/audio_speech/index.md) · [💬 ACL2026 (70)](../../ACL2026/audio_speech/index.md) · [🧪 ICML2026 (36)](../../ICML2026/audio_speech/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/audio_speech/index.md) · [🧠 NeurIPS2025 (47)](../../NeurIPS2025/audio_speech/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/audio_speech/index.md)
 
-🔥 **高频主题：** 语音 ×50 · 推理 ×9 · 扩散模型 ×5 · 对齐/RLHF ×4 · 情感分析 ×4
+🔥 **高频主题：** 语音 ×57 · 推理 ×10 · 对抗鲁棒 ×5 · 扩散模型 ×5 · 对齐/RLHF ×4
 
 **[AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer](ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer.md)**
 
@@ -123,6 +123,10 @@ item_total: 72
 
 :   本文把"乐谱→表演"的表情渲染(EPR)与"表演→乐谱"的钢琴转录(APT)这对互逆任务统一进一个 Transformer Seq2Seq 框架，通过解耦"音符级乐谱内容"和"全局表演风格"实现双向建模，并额外训练一个扩散模型从乐谱直接推荐合适风格，让渲染既可控又能自动化。
 
+**[Can Speech LLMs Think while Listening?](can_speech_llms_think_while_listening.md)**
+
+:   本文在多流语音 LLM（Moshi）的文本独白流里塞入文本思维链，让推理在文本空间进行使准确率平均提升 2.4 倍；又提出基于 KL 散度的「问题完整度」指标，让模型在用户还没说完时就「边听边想」提前开始推理，再配合 DPO 偏好微调，把额外推理延迟降低约 70% 而不损准确率。
+
 **[Closing the Gap Between Text and Speech Understanding in LLMs](closing_the_gap_between_text_and_speech_understanding_in_llms.md)**
 
 :   本文把"语音适配 LLM 在语言理解任务上不如文本原版"这个现象拆解为**遗忘**和**跨模态错位**两个可量化病因，并据此提出 SALAD——先用跨模态蒸馏在自然语音上对齐、再用错位信号驱动的主动选择补一小撮合成语音，只用比同行少一个数量级的语音数据，就让 3B/7B 模型在六个广域知识与推理基准上逼近最强开源模型。
@@ -134,6 +138,14 @@ item_total: 72
 **[Continuous Audio Language Models](continuous_audio_language_models.md)**
 
 :   作者提出 CALM（Continuous Audio Language Models），让自回归 Transformer 直接在 VAE 的连续潜空间里逐帧预测音频，用"一致性模型采样头"替代扩散头实现单步生成，从而绕开离散 RVQ token 在音质与算力之间的硬权衡，在语音和音乐上同时拿到更高保真度和更快推理，并据此放出可在笔记本 CPU 上超实时运行的 100M 参数 TTS 模型 Pocket TTS。
+
+**[CTC-DRO: Robust Optimization for Reducing Language Disparities in Speech Recognition](ctc-dro_robust_optimization_for_reducing_language_disparities_in_speech_recognit.md)**
+
+:   针对多语言语音识别中各语言性能差异巨大的问题，本文指出 group DRO 在 CTC 损失上失效（CTC 损失随音频长度和语言声学特性变化、组间不可比），提出 CTC-DRO——用「时长匹配批采样」抹平长度带来的损失差异、用「平滑加权更新」防止权重被某个高损失组垄断，在 ML-SUPERB 2.0 五个语言集上把最差语言错误率最多降低 47.1%、平均错误率最多降低 32.9%。
+
+**[Data-Centric Lessons To Improve Speech-Language Pretraining](data-centric_lessons_to_improve_speech-language_pretraining.md)**
+
+:   这篇论文把语言/视觉领域成熟的「数据为中心」方法论系统地搬到语音-语言预训练上，通过受控消融回答「怎么切原始音频、怎么造合成数据、怎么交错采样」三个问题，并把这些结论蒸馏进一个 3.8B 的 SpeechLM（SpeLangy），用更小的体量在口语问答（SQA）上反超 3 倍大的模型 10.2%。
 
 **[Discovering and Steering Interpretable Concepts in Large Generative Music Models](discovering_and_steering_interpretable_concepts_in_large_generative_music_models.md)**
 
@@ -175,6 +187,10 @@ item_total: 72
 
 :   针对端到端语音对话模型「用同一套自回归目标同时生成文本和音频」的根本错配，TtT 在单个 Transformer 里把文本的自回归（AR）生成与音频的非自回归（NAR）离散扩散统一起来，借助吸收态扩散的「任意顺序 AR」性质给出统一训练目标，并配三条训练策略消除训练-推理鸿沟，让 3B 小模型在 Audio-QA/ASR/AAC/S2S 上超过同尺度甚至部分 7B 基线。
 
+**[Gogo: Group-wise Granularity-ordered Codec for Stable and Efficient Speech Generation](gogo_group-wise_granularity-ordered_codec_for_stable_and_efficient_speech_genera.md)**
+
+:   本文提出 Gogo——一种把连续若干帧打成「组」、并在组内把 token 按「从粗到细」排序的语音编解码器：粗 token 编码高层语义、细 token 逐步补回声学细节；在此之上构建两阶段语音语言模型 GogoSpeech（先用极低 token 率搭骨架、再补细节）和一个 GRPO 训练的 token 分配器（按各组复杂度动态分配预算），在 47 Hz 的极低 token 率下取得 SOTA 重建质量，并在长语音零样本 TTS 上做到更稳更省。
+
 **[Hierarchical Semantic-Acoustic Modeling via Semi-Discrete Residual Representations for Expressive End-to-End Speech Synthesis](hierarchical_semantic-acoustic_modeling_via_semi-discrete_residual_representatio.md)**
 
 :   VoxCPM 用一个**可微的 FSQ 半离散瓶颈**把"语义-韵律规划"和"细粒度声学渲染"在单一端到端模型内自然解耦——TSLM 出稳定语义骨架、RALM 补声学残差、LocDiT 局部扩散出高保真语音 latent，0.5B 模型在 100 万小时数据上训练即拿下开源 zero-shot TTS 的 SOTA，且**完全不依赖外部离散语音 tokenizer**。
@@ -190,6 +206,10 @@ item_total: 72
 **[Incentive-Aligned Multi-Source LLM Summaries](incentive-aligned_multi-source_llm_summaries.md)**
 
 :   将博弈论中的多任务 peer prediction 机制引入 LLM 多源摘要管线，提出 Truthful Text Summarization (TTS) 框架：通过 leave-one-out 交叉构造评价声明集、提取每个来源对声明的立场、用 informative agreement 评分来源可靠性并过滤不可靠来源后重新摘要，理论上证明"如实报告是效用最大策略"，实验中有效抵御 prompt injection、虚假信息源和协同攻击。
+
+**[Incentivizing Consistent, Effective and Scalable Reasoning Capability in Audio LLMs via Reasoning Process Rewards](incentivizing_consistent_effective_and_scalable_reasoning_capability_in_audio_ll.md)**
+
+:   针对音频 LLM「让它思考反而越想越差」（test-time inverse scaling）的怪象，本文用 GRPO 在线强化学习配上一套**奖励推理过程本身**（一致性 / 结构化模式 / 因果逻辑 / 领域知识 / 过度思考惩罚）的多面奖励，把推理从负担变成增益，在 MMAU、MMSU 上刷到 SOTA 并超过 GPT-4o Audio 与 Gemini 2.5 Pro。
 
 **[JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models](jalmbench_benchmarking_jailbreak_vulnerabilities_in_audio_language_models.md)**
 
@@ -283,6 +303,10 @@ item_total: 72
 
 :   本文提出 Speech World Model（SWM），把语音理解拆成「世界模型激活 / 心智理论 / 言语行为 / 语用意图」四个模块，让它们通过一张因果有向无环图相互推断状态，再把这张图推出的结构化状态作为显式提示喂给指令微调的（语音）大模型，从而以仅 20 GPU 时的极低成本逼近 Gemini 2.5 Pro 的语音推理能力。
 
+**[SpeechJudge: Towards Human-Level Judgment for Speech Naturalness](speechjudge_towards_human-level_judgment_for_speech_naturalness.md)**
+
+:   为了给语音合成补上"大规模自然度人类偏好语料"这块缺失的拼图，本文一次性放出数据集（99K 偏好对）、评测基准（1000 条高一致性样本）和奖励模型三件套，并用"SFT 冷启动 + GRPO 强化"两阶段把 Qwen2.5-Omni-7B 训成生成式奖励模型 SpeechJudge-GRM，在判别语音哪个更自然这个任务上达到 77.2%（推理时投票后 79.4%）准确率，显著超过经典 Bradley-Terry 奖励模型（72.7%）。
+
 **[SpeechOp: Inference-Time Task Composition for Generative Speech Processing](speechop_inference-time_task_composition_for_generative_speech_processing.md)**
 
 :   SpeechOp 把一个预训练好的 TTS 扩散模型改造成"万能语音处理器"，用一份多任务潜空间扩散模型同时做合成、增强、分离等任务；更关键的是提出 TC-CFG 引导策略，让这些独立学到的能力在**推理时**自由组合（如用 ASR 转写的文本去引导增强），在语音增强的内容保真上达到 SOTA（WER 相对 HiFi-GAN-2 降低 46%）。
@@ -362,6 +386,10 @@ item_total: 72
 **[VowelPrompt: Hearing Speech Emotions from Text via Vowel-level Prosodic Augmentation](vowelprompt_hearing_speech_emotions_from_text_via_vowel-level_prosodic_augmentat.md)**
 
 :   提出 VowelPrompt，基于语音学证据提取元音级韵律描述符（音高/能量/时长），转为自然语言增强 LLM 的情感识别 prompt，配合 SFT+GRPO 两阶段训练，在零样本/微调/跨域/跨语言条件下一致超越 SOTA，同时生成可解释的情感推理。
+
+**[WearVox: An Egocentric Multichannel Voice Assistant Benchmark for Wearables](wearvox_an_egocentric_multichannel_voice_assistant_benchmark_for_wearables.md)**
+
+:   WearVox 用 AI 眼镜采集了 3842 段第一人称、多通道的真实佩戴场景音频，覆盖搜索问答、闭卷问答、侧语拒绝、工具调用、语音翻译五类任务，系统评测了主流语音大模型（SLLM），发现实时模型准确率只有 29%–59% 且在户外噪声下严重退化，并通过一个多通道 SLLM 案例研究证明空间音频线索能显著提升抗噪与设备定向语音判别能力。
 
 **[When and Where to Reset Matters for Long-Term Test-Time Adaptation](when_and_where_to_reset_matters_for_long-term_test-time_adaptation.md)**
 

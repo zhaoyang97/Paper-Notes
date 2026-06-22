@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 医学图像论文汇总 · 75篇论文解读
+  ICLR2026 医学图像论文汇总 · 86篇论文解读
 description: >-
-  75篇ICLR2026的医学图像方向论文解读，涵盖医学影像、语义分割、多模态、扩散模型、推理、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  86篇ICLR2026的医学图像方向论文解读，涵盖医学影像、语义分割、多模态、扩散模型、人脸/视线、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "医学图像"
@@ -12,15 +12,19 @@ tags:
   - "语义分割"
   - "多模态"
   - "扩散模型"
+  - "人脸/视线"
   - "推理"
-  - "布局/合成"
 item_list:
+  - u: "a_brain_graph_foundation_model_pre-training_and_prompt-tuning_across_broad_atlas/"
+    t: "A Brain Graph Foundation Model: Pre-Training and Prompt-Tuning across Broad Atlases and Disorders"
   - u: "a_cognitive_process-inspired_architecture_for_subject-agnostic_brain_visual_deco/"
     t: "A Cognitive Process-Inspired Architecture for Subject-Agnostic Brain Visual Decoding"
   - u: "a_scalable_distributed_framework_for_multimodal_gigavoxel_image_registration/"
     t: "A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration"
   - u: "a_structured_tagged_and_localized_visual_question_answering_dataset_with_full_se/"
     t: "A Structured, Tagged, and Localized Visual Question Answering Dataset with Full Sentence Answers and Scene Graphs for Chest X-ray Images"
+  - u: "abdctbench_learning_clinical_biomarker_representations_from_abdominal_surface_ge/"
+    t: "AbdCTBench: Learning Clinical Biomarker Representations from Abdominal Surface Geometry"
   - u: "accelerating_benchmarking_of_functional_connectivity_modeling_via_structure-awar/"
     t: "Accelerating Benchmarking of Functional Connectivity Modeling via Structure-aware Core-set Selection"
   - u: "adaptive_domain_shift_in_diffusion_models_for_cross-modality_image_translation/"
@@ -71,21 +75,21 @@ item_list:
     t: "Detecting Invariant Manifolds in ReLU-Based RNNs"
   - u: "disco_densely-overlapping_cell_instance_segmentation_via_adjacency-aware_collabo/"
     t: "DISCO: Densely-overlapping Cell Instance Segmentation via Adjacency-aware Collaborative Coloring"
-  - u: "distributional_consistency_loss_beyond_pointwise_data_terms_in_inverse_problems/"
-    t: "Distributional Consistency Loss: Beyond Pointwise Data Terms in Inverse Problems"
-  - u: "dm4ct_benchmarking_diffusion_models_for_computed_tomography_reconstruction/"
-    t: "DM4CT: Benchmarking Diffusion Models for Computed Tomography Reconstruction"
-item_total: 75
+item_total: 86
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🔬 ICLR2026** · **75** 篇论文解读
+**🔬 ICLR2026** · **86** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (172)](../../CVPR2026/medical_imaging/index.md) · [🧪 ICML2026 (28)](../../ICML2026/medical_imaging/index.md) · [🤖 AAAI2026 (75)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (77)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (31)](../../ICCV2025/medical_imaging/index.md) · [🧪 ICML2025 (21)](../../ICML2025/medical_imaging/index.md)
 
-🔥 **高频主题：** 医学影像 ×27 · 语义分割 ×11 · 多模态 ×7 · 扩散模型 ×6 · 推理 ×3
+🔥 **高频主题：** 医学影像 ×31 · 语义分割 ×14 · 多模态 ×9 · 扩散模型 ×8 · 人脸/视线 ×3
+
+**[A Brain Graph Foundation Model: Pre-Training and Prompt-Tuning across Broad Atlases and Disorders](a_brain_graph_foundation_model_pre-training_and_prompt-tuning_across_broad_atlas.md)**
+
+:   BrainGFM 把 fMRI 脑网络当成图来建模，用「图对比 + 图掩码自编码」在 27 个数据集、8 种脑图谱共 40 万张脑图上做大规模预训练，再用元学习优化的图提示做小样本适配、用 BioClinicalBERT 编码的语言提示做零样本迁移，使一个冻结的脑基础模型能跨越各种图谱、脑疾病和任务设置直接诊断。
 
 **[A Cognitive Process-Inspired Architecture for Subject-Agnostic Brain Visual Decoding](a_cognitive_process-inspired_architecture_for_subject-agnostic_brain_visual_deco.md)**
 
@@ -98,6 +102,10 @@ item_total: 75
 **[A Structured, Tagged, and Localized Visual Question Answering Dataset with Full Sentence Answers and Scene Graphs for Chest X-ray Images](a_structured_tagged_and_localized_visual_question_answering_dataset_with_full_se.md)**
 
 :   本文从 MIMIC-CXR 的放射学报告自动构建出 CXR-QBA——一个含 4220 万条问答对、每条答案都带完整句子、边界框和结构化标签（发现/区域/确定性等）的大规模胸片 VQA 数据集，通过"场景图构建 → 模板化问答生成 → LLM 自动质检"三段流水线产出，并给出 3120 万预训练级 + 750 万微调级两个子集和一个配套的 baseline 模型与评测指标。
+
+**[AbdCTBench: Learning Clinical Biomarker Representations from Abdominal Surface Geometry](abdctbench_learning_clinical_biomarker_representations_from_abdominal_surface_ge.md)**
+
+:   作者从 18,719 名患者的 23,506 例腹部 CT 中提取出 2D 体表网格图像、配上 16 个 CT 生物标志物与上百个疾病/共病标签，构建了首个、也是规模最大的「体表几何 → 内部体成分」数据集 AbdCTBench，并用 7 个主流视觉架构系统证明：仅凭外部腹部表面几何就能预测年龄（MAE 6.22 岁）、死亡率（AUROC 0.839）、伴慢性并发症的糖尿病（AUROC 0.801）等临床相关指标，为无辐射、低成本的消费级健康筛查铺路。
 
 **[Accelerating Benchmarking of Functional Connectivity Modeling via Structure-aware Core-set Selection](accelerating_benchmarking_of_functional_connectivity_modeling_via_structure-awar.md)**
 
@@ -255,6 +263,10 @@ item_total: 75
 
 :   本文提出"模态锚定交互（modality-anchored interaction）"框架，把 sMRI、fMRI、临床文本、基因四个领域各自的单模态基础模型组合起来做阿尔茨海默病诊断——轮流让一个模态当锚点并冻结其大部分参数，用 modality-aware Q-former 把其余辅助模态的特征选择性投影进锚点的特征空间，从而在不破坏各预训练表征完整性的前提下实现深度跨模态交互。
 
+**[K-Prism: A Knowledge-Guided and Prompt Integrated Universal Medical Image Segmentation Model](k-prism_a_knowledge-guided_and_prompt_integrated_universal_medical_image_segment.md)**
+
+:   K-Prism 把语义先验、少样本参考样例和用户交互反馈统一编码成 1-D 稀疏提示与 2-D 稠密提示，再用 MoE 解码器动态路由，在 18 个医学图像数据集上同时刷新语义分割、in-context 分割和交互式分割的综合表现。
+
 **[LaVCa: LLM-assisted Visual Cortex Captioning](lavca_llm-assisted_visual_cortex_captioning.md)**
 
 :   提出 LaVCa 方法，利用 LLM 为人类视觉皮层的每个体素生成自然语言描述（caption），通过"编码模型→最优图像选取→MLLM生成描述→LLM关键词提炼+句子组合"四步流程，比已有方法 BrainSCUBA 更准确、更多样地揭示了体素级视觉选择性。
@@ -282,6 +294,10 @@ item_total: 75
 **[MedLesionVQA: A Multimodal Benchmark Emulating Clinical Visual Diagnosis for Body Surface Health](medlesionvqa_a_multimodal_benchmark_emulating_clinical_visual_diagnosis_for_body.md)**
 
 :   字节跳动小荷团队联合协和长庚医院构建的 MedLesionVQA，是首个对齐医生"分步视觉诊断流程"的体表健康多模态基准——12K 张从未泄露的院内真实患者图像 + 19K 专家审核 QA，覆盖 94 类病变 / 110 个身体部位 / 96 种疾病，实测 20+ 主流 MLLM 最高仅 56.2%，远低于初级医生 61.4% 和资深专家 73.2%。
+
+**[MindMix: A Multimodal Foundation Model for Auditory Perception Decoding via Deep Neural-Acoustic Alignment](mindmix_a_multimodal_foundation_model_for_auditory_perception_decoding_via_deep_.md)**
+
+:   MindMix 用「先在 3500+ 小时无标签 EEG 上预训练一个高容量脑电编码器、再用 100+ 小时 EEG-音频配对数据通过 CALRA 跨模态对齐模块做对比学习」的两阶段策略，造出第一个面向听觉感知解码的多模态基础模型，在听觉注意力解码、情绪识别、音乐检索三类任务上大幅超越现有单模态 EEG 基础模型与任务专用 SOTA（KUL 上准确率 99.82%）。
 
 **[Mixture of Mini Experts: Overcoming the Linear Layer Bottleneck in Multiple Instance Learning](mixture_of_mini_experts_overcoming_the_linear_layer_bottleneck_in_multiple_insta.md)**
 
@@ -327,6 +343,10 @@ item_total: 75
 
 :   针对病理图像里"罕见/未见形态学难以分割"的痛点，本文造了一个病理专用的推理分割模型 PathChat-SegR1：用染色不变自蒸馏训练病理视觉编码器，再用 SO-GRPO 强化学习让 VLM 自主决定"何时该输出 `<SEG>` token 触发分割"，在未见病理上零样本 Dice 比此前 SOTA 提升 61%。
 
+**[Pixel-Level Residual Diffusion Transformer: Scalable 3D CT Volume Generation](pixel-level_residual_diffusion_transformer_scalable_3d_ct_volume_generation.md)**
+
+:   PRDiT 提出一种**直接在体素级**生成高分辨率 3D CT 体的两阶段残差扩散框架：先用轻量 MLP「局部去噪器」从重叠 3D patch 里估出低频粗结构，再用「全局残差 DiT」用全卷积视野补回高频残差，配合 hot 预测-校正采样和「复用低分辨率主干」的扩展策略，在 LIDC-IDRI / RAD-ChestCT 上 3D FID、MMD、Wasserstein 全面超过 HA-GAN、3D LDM、WDM-3D，且 256³ 训练成本仅为对手的 1/4 ~ 1/6。
+
 **[Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling](prior-aware_and_context-guided_group_sampling_for_active_probabilistic_subsampli.md)**
 
 :   在 Active Deep Probabilistic Subsampling（A-DPS）基础上，先用训练集学到的固定先验掩码采一批样本、再用 DPS-top-k 的分组主动采样按每个输入的上下文补采，配合 Lipschitz 理论证明分组采样让优化更平滑，在 MNIST/CIFAR-10 分类、fastMRI 重建、AeroRIT 高光谱分割上全面超过 A-DPS、DPS 等采样方法。
@@ -335,17 +355,37 @@ item_total: 75
 
 :   本文构建了首个面向「全监督手术三元组检测」的大规模多中心数据集 ProstaTD（21 台机器人辅助前列腺切除术、71,775 帧、196,490 个带框实例、89 类三元组），用临床定义的时间边界 + 精确包围框把这个任务从「帧级弱监督分类」推进到「带空间定位的全监督检测」，并配套两款标注工具、一套评测工具和一个融合多任务学习 + 实例级自蒸馏的基线 TDnet。
 
+**[Reducing Semantic Mismatch in Brain-to-Text Decoding Through Personalized Multimodal Masking](reducing_semantic_mismatch_in_brain-to-text_decoding_through_personalized_multim.md)**
+
+:   这篇论文提出 Yo'Mind，用最优传输驱动的个性化多模态语义遮蔽，把每个被试看图时真正被脑信号编码的视觉/文本语义挑出来，再用于脑到文本解码，从而缓解脑表征与机器表征之间的语义错配，并在 NSD 跨被试脑到文本重建上取得更好的结果。
+
 **[Reliable Evaluation of MRI Motion Correction: Dataset and Insights](reliable_evaluation_of_mri_motion_correction_dataset_and_insights.md)**
 
 :   本文针对"3D MRI 运动校正方法没法可靠评估"这个根本困境，发布了配对真实运动数据集 PMoC3D、提出了自监督训练的特征空间度量 MoMRISim，并系统对比了真实配对评估 / 模拟运动评估 / 无参考评估三条路线，结论是"真实配对 + MoMRISim"虽不完美但最靠谱，而模拟运动会系统性高估算法、无参考度量则偏爱过度平滑的深度学习输出。
+
+**[Rethinking Model Calibration through Spectral Entropy Regularization in Medical Image Segmentation](rethinking_model_calibration_through_spectral_entropy_regularization_in_medical_.md)**
+
+:   这篇论文把医学图像分割中的过置信校准问题重新放到频域里看，认为低频主导的 spectral bias 和置信图总谱能量被压低的 confidence saturation 会共同导致边界不确定性失真，并用谱熵正则与跨 batch 的功率谱平滑在训练时改善校准，同时基本不牺牲分割精度。
 
 **[Rethinking Radiology Report Generation: From Narrative Flow to Topic-Guided Findings](rethinking_radiology_report_generation_from_narrative_flow_to_topic-guided_findi.md)**
 
 :   本文指出"模仿放射科医生叙事流"的报告生成范式会让 VLM 过度依赖语言先验、削弱视觉接地，于是提出 LLaVA-TA：把整篇报告拆成按解剖区域组织的独立主题、每个主题只看全图+对应解剖 mask 单独生成一句话发现，在 MIMIC-CXR 上把 RadGraph F1（report 级 29.4→34.3、topic 级最高 44.0）和 CheXpert F1 大幅刷新。
 
+**[SE-Diff: Simulator and Experience Enhanced Diffusion Model for Comprehensive ECG Generation](se-diff_simulator_and_experience_enhanced_diffusion_model_for_comprehensive_ecg_.md)**
+
+:   SE-Diff 把一个轻量级 ODE 心电仿真器和一套基于 EHR 病例经验的 LLM 检索增强同时塞进条件隐空间扩散模型，让"从临床文本生成 12 导联 10 秒心电图"既符合心脏电活动的物理机理、又贴合真实临床经验，在信号保真度、文本对齐和下游分类上全面超过此前的文本到 ECG 方法。
+
 **[SEED: Towards More Accurate Semantic Evaluation for Visual Brain Decoding](seed_towards_more_accurate_semantic_evaluation_for_visual_brain_decoding.md)**
 
 :   提出 SEED（Semantic Evaluation for Visual Brain Decoding），一个结合 Object F1、Cap-Sim 和 EffNet 三个互补指标的组合评估度量，在与人类评估的对齐度上显著超越现有所有指标。
+
+**[Seeing Through the Brain: New Insights from Decoding Visual Stimuli with fMRI](seeing_through_the_brain_new_insights_from_decoding_visual_stimuli_with_fmri.md)**
+
+:   PRISM 颠覆了「重建视觉图像就要用视觉表征」的惯例：作者先用对齐度量证明 fMRI 信号其实和语言模型的**文本空间**最像，于是把 fMRI 投到结构化文本空间作为中间桥梁，再用「自动搜索脑对齐关键词 + 物体中心扩散」把文本组合成图像，在 NSD/BOLD5000/GOD 三个数据集上把感知损失 LPIPS 最多压低约 6%。
+
+**[Sequential Information Bottleneck Fusion: Towards Robust and Generalizable Multi-Modal Brain Tumor Segmentation](sequential_information_bottleneck_fusion_towards_robust_and_generalizable_multi-.md)**
+
+:   针对多模态 MRI 脑肿瘤分割中常见的"模态缺失"问题，本文提出用**序列信息瓶颈融合**逐步把各模态信息压进一个共享潜表示，从信息论角度论证它比主流的并行融合更鲁棒、泛化上界更紧，并据此设计 SMSN 网络，在 BRATS18/20 上全面超越并行融合基线，还能不微调地从胶质瘤迁移到脑转移瘤。
 
 **[sleep2vec: Unified Cross-Modal Alignment for Heterogeneous Nocturnal Biosignals](sleep2vec_unified_cross-modal_alignment_for_heterogeneous_nocturnal_biosignals.md)**
 
@@ -358,6 +398,10 @@ item_total: 75
 **[SpineBench: 一个临床显著、椎体节段感知的脊柱诊疗评测基准与 SpineMed-450k 语料库](spinebench_a_clinically_salient_level-aware_benchmark_powered_by_the_spinemed-45.md)**
 
 :   本文以脊柱外科医生全程参与（clinician-in-the-loop）的方式构建了 45 万条规模、可溯源的多模态脊柱诊疗指令语料 **SpineMed-450k** 与配套评测基准 **SpineBench**，揭示了当前大视觉语言模型在「定位到具体椎体节段」的精细推理上系统性薄弱，并用一个仅 7B 的微调模型 **SpineGPT** 证明专科指令数据能让小模型达到接近 Gemini-2.5-Pro 的临床效果。
+
+**[Stochastic Optimal Control for Continuous-Time fMRI Representation Learning](stochastic_optimal_control_for_continuous-time_fmri_representation_learning.md)**
+
+:   BDO 把异构 fMRI 时间序列看成连续时间潜在随机动力系统，用随机最优控制把 MAE 重建和 JEPA 潜变量预测统一起来，从而在多数据集下学习对 TR 差异更稳健、计算更高效的脑动力学表征。
 
 **[MedVLSynther：用「生成器–验证器」LMM 从医学文献合成高质量视觉问答](synthesizing_high-quality_visual_question_answering_from_medical_documents_with_.md)**
 

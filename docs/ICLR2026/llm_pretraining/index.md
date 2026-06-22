@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 预训练论文汇总 · 72篇论文解读
+  ICLR2026 预训练论文汇总 · 79篇论文解读
 description: >-
-  72篇ICLR2026的预训练方向论文解读，涵盖 LLM、扩散模型、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  79篇ICLR2026的预训练方向论文解读，涵盖 LLM、扩散模型、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "预训练"
@@ -57,8 +57,14 @@ item_list:
     t: "Explaining Grokking and Information Bottleneck through Neural Collapse Emergence"
   - u: "fictionalqa_a_dataset_for_studying_memorization_and_knowledge_acquisition/"
     t: "FictionalQA: A Dataset for Studying Memorization and Knowledge Acquisition"
+  - u: "fone_precise_single-token_number_embeddings_via_fourier_features/"
+    t: "FoNE: Precise Single-Token Number Embeddings via Fourier Features"
   - u: "gneissweb_preparing_high_quality_data_for_llms_at_scale/"
     t: "GneissWeb: Preparing High Quality Data for LLMs at Scale"
+  - u: "how_learning_rate_decay_wastes_your_best_data_in_curriculum-based_llm_pretrainin/"
+    t: "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining"
+  - u: "how_text_quality_interventions_reshape_neural_scaling_laws_for_llms_empirical_st/"
+    t: "How Text Quality Interventions Reshape Neural Scaling Laws for LLMs: Empirical Study"
   - u: "how_to_train_data-efficient_llms/"
     t: "How to Train Data-Efficient LLMs"
   - u: "identifying_and_evaluating_inactive_heads_in_pretrained_llms/"
@@ -67,23 +73,17 @@ item_list:
     t: "Imagine How To Change: Explicit Procedure Modeling for Change Captioning"
   - u: "implicit_bias_and_loss_of_plasticity_in_matrix_completion_depth_promotes_low-ran/"
     t: "Implicit Bias and Loss of Plasticity in Matrix Completion: Depth Promotes Low-Rank"
-  - u: "intrinsic_training_dynamics_of_deep_neural_networks/"
-    t: "Intrinsic Training Dynamics of Deep Neural Networks"
-  - u: "joint_selection_for_large-scale_pre-training_data_via_policy_gradient-based_mask/"
-    t: "Joint Selection for Large-Scale Pre-Training Data via Policy Gradient-based Mask Learning"
-  - u: "late-to-early_training_let_llms_learn_earlier_so_faster_and_better/"
-    t: "Late-to-Early Training: 让 LLM 更早学到后期知识，从而更快更好"
-item_total: 72
+item_total: 79
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练
 
-**🔬 ICLR2026** · **72** 篇论文解读
+**🔬 ICLR2026** · **79** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (5)](../../CVPR2026/llm_pretraining/index.md) · [💬 ACL2026 (12)](../../ACL2026/llm_pretraining/index.md) · [🧪 ICML2026 (27)](../../ICML2026/llm_pretraining/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_pretraining/index.md) · [🧠 NeurIPS2025 (51)](../../NeurIPS2025/llm_pretraining/index.md) · [📹 ICCV2025 (9)](../../ICCV2025/llm_pretraining/index.md)
 
-🔥 **高频主题：** LLM ×14 · 扩散模型 ×4
+🔥 **高频主题：** LLM ×17 · 扩散模型 ×5
 
 **[A Law of Data Reconstruction for Random Features (and Beyond)](a_law_of_data_reconstruction_for_random_features_and_beyond.md)**
 
@@ -173,9 +173,21 @@ item_total: 72
 
 :   提出 FictionalQA 数据集及生成管线，通过合成关于虚构事件的 webtext 风格文档和 QA 对，在受控环境下研究 LLM 训练中事实记忆与逐字记忆的双重过程，发现更多样的表面形式有助于知识获取而简洁的结构化列表反而最不利于泛化。
 
+**[FoNE: Precise Single-Token Number Embeddings via Fourier Features](fone_precise_single-token_number_embeddings_via_fourier_features.md)**
+
+:   FoNE 用一组不同周期的正余弦（Fourier 特征）把任意数字直接映射成**单个 token** 的嵌入，每位数字只占 2 维，从而绕过分词碎片化与频率偏差；一个 38M 的从零训练 Transformer 在加减乘上就能超过微调的 Llama-3.2-1B，并且是唯一在十万级测试样本上达到 100% 准确率的方法。
+
 **[GneissWeb: Preparing High Quality Data for LLMs at Scale](gneissweb_preparing_high_quality_data_for_llms_at_scale.md)**
 
 :   GneissWeb 用「分片精确子串去重 + 一组互补的新颖质量过滤器集成」从 15T 的 FineWeb 蒸馏出约 10T 高质量 token，让 7B 模型在 11 个基准上平均超过 FineWeb 训练版 2.73 个百分点，填补了「<5T 小而精」和「>15T 大而糙」之间的空白。
+
+**[How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining](how_learning_rate_decay_wastes_your_best_data_in_curriculum-based_llm_pretrainin.md)**
+
+:   作者指出"按质量升序排数据的课程学习"与"学习率衰减"天然冲突——高质量数据被故意放在末尾，却正好撞上学习率衰减到最低、更新步长最小的阶段，于是好数据被白白浪费；通过"温和衰减 + 用模型平均替代衰减"两招，在 1.5B 模型 / 30B token 上仅靠重排数据就把标准 benchmark 平均分相对随机打乱提升了 1.64%。
+
+**[How Text Quality Interventions Reshape Neural Scaling Laws for LLMs: Empirical Study](how_text_quality_interventions_reshape_neural_scaling_laws_for_llms_empirical_st.md)**
+
+:   作者构建了 23 个不同数据质量干预的数据集 QualityPajama，训练了 2000+ 个模型来系统测量「过滤 / 去重 / LLM 改写」如何改变神经缩放律的全部五个参数，发现数据干预同时改变缩放律的系数和指数（不像架构改动只改系数），导致计算最优的 token/参数比可跨数量级波动，从而把缩放律分析确立为评估数据策略的原则性框架。
 
 **[How to Train Data-Efficient LLMs](how_to_train_data-efficient_llms.md)**
 
@@ -216,6 +228,10 @@ item_total: 72
 **[LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures](llm-jepa_large_language_models_meet_joint_embedding_predictive_architectures.md)**
 
 :   把视觉里大获成功的 JEPA（联合嵌入预测架构）首次搬到 LLM 上：在标准 next-token 重构损失之外，再加一项"用 Text 的嵌入预测 Code 的嵌入"的隐空间目标，在不牺牲生成能力、且抗过拟合的前提下，跨四个模型家族、四个数据集显著超过标准微调与预训练。
+
+**[LLM Pretraining with Continuous Concepts](llm_pretraining_with_continuous_concepts.md)**
+
+:   这篇论文提出 CoCoMix，在标准下一词预测之外让模型预测由 SAE 抽取并按归因筛选出的高层概念，再把这些概念压缩成连续向量插入 Transformer 隐状态序列，从而在语言建模、下游推理和可控生成上比普通 NTP 与知识蒸馏更高效。
 
 **[Lossless Vocabulary Reduction for Auto-Regressive Language Models](lossless_vocabulary_reduction_for_auto-regressive_language_models.md)**
 
@@ -285,9 +301,17 @@ item_total: 72
 
 :   这篇论文把 LLM 的数据筛选（selection）、数据混合（mixing）统一成一个"在线重加权"问题，提出 ADAPT——在训练过程中用样本与验证集的语义相似度动态调整每个样本的逐样本学习率，不删一条数据，几乎零额外开销，却在指令微调和预训练上都比离线筛选/混合方法获得更强的跨基准泛化。
 
+**[Revisiting the Scaling Properties of Downstream Metrics in Large Language Model Training](revisiting_the_scaling_properties_of_downstream_metrics_in_large_language_model_.md)**
+
+:   本文挑战「下游 benchmark 准确率不可预测」的成见，提出**直接**从训练 FLOPs 建模下游准确率的两参数幂律 $-\log Q = A/C^{\alpha}$，并扩展到不同 token-参数比与重复采样 pass@k；在最大 17B 参数、350B token 的网格实验上证明它比经典的「先预测代理指标再映射到准确率」的两阶段法外推更准、更稳。
+
 **[Rewriting Pre-training Data Boosts LLM Performance in Math and Code](rewriting_pre-training_data_boosts_llm_performance_in_math_and_code.md)**
 
 :   本文不靠"过滤丢弃"而是用一个 70B 大模型把公开代码/数学语料"重写干净再保留"，构建出 SwallowCode（≈16.1B token）与 SwallowMath（≈2.3B token）两个数据集；在固定 50B token 预算的继续预训练里，让 Llama-3.1-8B 在 HumanEval 上 pass@1 提升 +17.0、GSM8K 提升 +12.4，证明"数据质量"才是代码与数学能力的根本瓶颈。
+
+**[Scaling Behavior of Discrete Diffusion Language Models](scaling_behavior_of_discrete_diffusion_language_models.md)**
+
+:   这篇论文系统研究了离散扩散语言模型（DLM）在不同噪声类型下的标度律：通过一套用信噪比（SNR）参数化、可在掩码扩散与均匀扩散之间平滑插值的统一扩散框架，并仔细调好 batch size 与学习率，作者发现 DLM 的标度行为强依赖噪声类型——均匀扩散在数据受限场景下更"省数据、吃参数"，最终把均匀扩散模型扩到 10B 参数 / $10^{22}$ FLOPs，验证其标度律可与自回归模型（ALM）竞争。
 
 **[Scaling Laws Revisited: Modeling the Role of Data Quality in Language Model Pretraining](scaling_laws_revisited_modeling_the_role_of_data_quality_in_language_model_pretr.md)**
 
@@ -308,6 +332,10 @@ item_total: 72
 **[Seq vs Seq: An Open Suite of Paired Encoders and Decoders](seq_vs_seq_an_open_suite_of_paired_encoders_and_decoders.md)**
 
 :   作者训练了一套从 17M 到 1B、配对的 encoder-only 与 decoder-only 模型（ETTIN suite），二者用**完全相同**的数据、架构和训练配方，只差「目标函数 + 注意力方向」；在公平对比下既各自刷到同尺寸开放数据 SOTA，又证明：分类/检索任务上 encoder 碾压 decoder，生成任务反之，而且**靠继续训练把一种模型改造成另一种（cross-objective）始终补不平这个差距**。
+
+**[Should We Still Pretrain Encoders with Masked Language Modeling?](should_we_still_pretrain_encoders_with_masked_language_modeling.md)**
+
+:   作者用 38 个 210M~1B 的模型、超 1.5 万次微调跑了一场严格受控的对照实验，回答"还该不该用 MLM 预训练编码器"——结论是 MLM 在文本表示任务上整体仍更强，但 CLM 更省数据、微调更稳，因此**先 CLM 再 MLM 的两阶段策略**（尤其是直接拿现成 CLM 解码器继续 MLM）在固定算力下能拿到最优编码器。
 
 **[Soft-Masked Diffusion Language Models](soft-masked_diffusion_language_models.md)**
 

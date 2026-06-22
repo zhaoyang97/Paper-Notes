@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 时间序列论文汇总 · 108篇论文解读
+  ICLR2026 时间序列论文汇总 · 121篇论文解读
 description: >-
-  108篇ICLR2026的时间序列方向论文解读，涵盖时序预测、扩散模型、异常检测、LLM、医学影像、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  121篇ICLR2026的时间序列方向论文解读，涵盖时序预测、扩散模型、异常检测、LLM、医学影像、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "时间序列"
@@ -17,6 +17,8 @@ tags:
 item_list:
   - u: "a_general_spatio-temporal_backbone_with_scalable_contextual_pattern_bank_for_urb/"
     t: "A General Spatio-Temporal Backbone with Scalable Contextual Pattern Bank for Urban Continual Forecasting"
+  - u: "a_spectral-grassmann_wasserstein_metric_for_operator_representations_of_dynamica/"
+    t: "A Spectral-Grassmann Wasserstein metric for operator representations of dynamical systems"
   - u: "a_study_of_posterior_stability_in_time-series_latent_diffusion/"
     t: "A Study of Posterior Stability in Time-Series Latent Diffusion"
   - u: "a_unified_federated_framework_for_trajectory_data_preparation_via_llms/"
@@ -63,33 +65,35 @@ item_list:
     t: "Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series"
   - u: "deepfrc_an_end-to-end_deep_learning_model_for_functional_registration_and_classi/"
     t: "DeepFRC: An End-to-End Deep Learning Model for Functional Registration and Classification"
+  - u: "deepprim_a_physics-driven_3d_short-term_weather_forecaster_via_primitive_equatio/"
+    t: "DeepPrim: a Physics-Driven 3D Short-term Weather Forecaster via Primitive Equation Learning"
   - u: "delta-xai_a_unified_framework_for_explaining_prediction_changes_in_online_time_s/"
     t: "Delta-XAI: A Unified Framework for Explaining Prediction Changes in Online Time Series Monitoring"
+  - u: "denots_stable_deep_neural_odes_for_time_series/"
+    t: "DeNOTS: Stable Deep Neural ODEs for Time Series"
   - u: "detection_of_unknown_unknowns_in_autonomous_systems/"
     t: "Detection of Unknown Unknowns in Autonomous Systems"
   - u: "distdf_time-series_forecasting_needs_joint-distribution_wasserstein_alignment/"
     t: "DistDF: Time-series Forecasting Needs Joint-distribution Wasserstein Alignment"
-  - u: "echo_toward_contextual_seq2seq_paradigms_in_large_eeg_models/"
-    t: "ECHO: Toward Contextual Seq2Seq Paradigms in Large EEG Models"
-  - u: "edinet-bench_evaluating_llms_on_complex_financial_tasks_using_japanese_financial/"
-    t: "EDINET-Bench: Evaluating LLMs on Complex Financial Tasks using Japanese Financial Statements"
-  - u: "efficient_autoregressive_inference_for_transformer_probabilistic_models/"
-    t: "Efficient Autoregressive Inference for Transformer Probabilistic Models"
-item_total: 108
+item_total: 121
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**🔬 ICLR2026** · **108** 篇论文解读
+**🔬 ICLR2026** · **121** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (7)](../../CVPR2026/time_series/index.md) · [💬 ACL2026 (8)](../../ACL2026/time_series/index.md) · [🧪 ICML2026 (45)](../../ICML2026/time_series/index.md) · [🤖 AAAI2026 (31)](../../AAAI2026/time_series/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/time_series/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/time_series/index.md)
 
-🔥 **高频主题：** 时序预测 ×67 · 扩散模型 ×6 · 异常检测 ×5 · LLM ×5 · 医学影像 ×4
+🔥 **高频主题：** 时序预测 ×75 · 扩散模型 ×7 · 异常检测 ×5 · LLM ×5 · 医学影像 ×4
 
 **[A General Spatio-Temporal Backbone with Scalable Contextual Pattern Bank for Urban Continual Forecasting](a_general_spatio-temporal_backbone_with_scalable_contextual_pattern_bank_for_urb.md)**
 
 :   STBP 用一个"频域 + 线性图注意力"的通用时空骨干提取稳定可迁移的表征，再外挂一个可增量扩展的"上下文模式库"作为 prompt，骨干冻结、只长模式库，从而在节点持续增长、分布持续漂移的城市流数据上同时做到抗遗忘、强建模和可扩展。
+
+**[A Spectral-Grassmann Wasserstein metric for operator representations of dynamical systems](a_spectral-grassmann_wasserstein_metric_for_operator_representations_of_dynamica.md)**
+
+:   这篇论文把动力系统的 Koopman / transfer operator 表示成“特征值 + 谱投影子空间”的离散分布，并在谱空间与 Grassmann 几何上定义 Spectral-Grassmann Optimal Transport (SGOT) 距离，使不同采样频率下的动力系统可比较、可分类、也可做 Fréchet barycenter 插值。
 
 **[A Study of Posterior Stability in Time-Series Latent Diffusion](a_study_of_posterior_stability_in_time-series_latent_diffusion.md)**
 
@@ -183,9 +187,17 @@ item_total: 108
 
 :   DeepFRC 把"曲线配准（对齐）"和"曲线分类"这两件原本分开做的事塞进一个端到端深度网络里联合训练——用 1D-CNN 学微分同胚时间扭曲、用傅里叶基做平滑谱嵌入、用类感知对比损失把对齐和分类拧成一股劲，还首次给这种联合模型证了配准逼近能力和泛化界，在五个真实数据集上对齐质量和分类精度同时超过 SOTA。
 
+**[DeepPrim: a Physics-Driven 3D Short-term Weather Forecaster via Primitive Equation Learning](deepprim_a_physics-driven_3d_short-term_weather_forecaster_via_primitive_equatio.md)**
+
+:   DeepPrim 把大气原始方程中的平流、力项和源汇项显式写进 Neural ODE 预测框架，用 3D-BiViT 学习经纬度-气压层耦合动力学，在 6-24 小时全球和区域天气预报上显著优于多数数据驱动基线。
+
 **[Delta-XAI: A Unified Framework for Explaining Prediction Changes in Online Time Series Monitoring](delta-xai_a_unified_framework_for_explaining_prediction_changes_in_online_time_s.md)**
 
 :   提出 Delta-XAI 统一框架，通过包装函数将14种现有XAI方法适配到在线时间序列预测变化解释场景，并提出 SWING（Shifted Window Integrated Gradients）方法，利用过去观测值构建积分路径以捕获时序依赖关系，在多种评估指标上持续优于现有方法。
+
+**[DeNOTS: Stable Deep Neural ODEs for Time Series](denots_stable_deep_neural_odes_for_time_series.md)**
+
+:   DeNOTS 把 Neural CDE 的“深度”从调低求解器 tolerance 转向显式拉长积分时间，并用反相负反馈稳定长时间积分，使模型在不规则时间序列分类、回归与预测任务上同时获得更强表达力、更稳轨迹和更低离散化误差累积。
 
 **[Detection of Unknown Unknowns in Autonomous Systems](detection_of_unknown_unknowns_in_autonomous_systems.md)**
 
@@ -231,6 +243,10 @@ item_total: 108
 
 :   提出 FeDaL 联邦框架，通过客户端域偏差消除（DBE）和服务器全局偏差消除（GBE）从头训练通用时序基础模型，在8类下游任务上以远少于集中式TSFM的参数达到竞争甚至超越的性能。
 
+**[Flow-based Conformal Prediction for Multi-dimensional Time Series](flow-based_conformal_prediction_for_multi-dimensional_time_series.md)**
+
+:   这篇论文提出 FCP，用带 classifier-free guidance 的 flow 学习由历史上下文条件化的多维预测残差分布，并把高斯源空间中的概率球映射成灵活形状的预测集，在风电、交通和太阳辐射数据上维持目标覆盖率的同时显著缩小集合体积。
+
 **[Free Energy Mixer](free_energy_mixer.md)**
 
 :   提出 Free Energy Mixer (FEM)，通过将注意力的值读取重新定义为自由能（log-sum-exp）优化问题，实现了逐通道的值感知后验选择，克服了标准注意力"无损存储但有损读取"的固有瓶颈，可即插即用替换 softmax/线性注意力/RNN/SSM，在 NLP、视觉和时间序列任务上一致提升。
@@ -242,6 +258,10 @@ item_total: 108
 **[GARLIC: Graph Attention-based Relational Learning of Multivariate Time Series in Intensive Care](garlic_graph_attention-based_relational_learning_of_multivariate_time_series_in_.md)**
 
 :   GARLIC 把"指数衰减填补 + 时滞信号图消息传递 + 跨维序列注意力"串成一条端到端管线，在 ICU 不规则多元时间序列上既刷新预后预测 SOTA，又用学到的注意力权重和图边直接给出观测级/信号级/边级的内生解释。
+
+**[GCGNet: Graph-Consistent Generative Network for Time Series Forecasting with Exogenous Variables](gcgnet_graph-consistent_generative_network_for_time_series_forecasting_with_exog.md)**
+
+:   GCGNet 面向带外生变量的时间序列预测，把生成的完整序列和真实完整序列都转成 patch 级图结构，用图一致性约束生成器，再用稀疏图卷积细化预测，在 12 个真实数据集上取得了多数指标第一，并且在未来外生变量缺失和外生变量被遮蔽时仍保持较强鲁棒性。
 
 **[GTM: A General Time-series Model for Enhanced Representation Learning](gtm_a_general_time-series_model_for_enhanced_representation_learning_of_time-series.md)**
 
@@ -258,6 +278,10 @@ item_total: 108
 **[Improving Extreme Wind Prediction with Frequency-Informed Learning](improving_extreme_wind_prediction_with_frequency-informed_learning.md)**
 
 :   本文从频域角度证明了"MSE 训练 + 模式偏移 → 高频振幅收缩"是数据驱动模型系统性低估极端风速的根因，并据此提出**梯度惩罚损失 + NS 物理嵌入结构 + 频率分离重加权**三件套，在不牺牲整体精度的前提下显著提升极端风速预测准确率。
+
+**[Inferring brain plasticity rule under long-term stimulation with structured recurrent dynamics](inferring_brain_plasticity_rule_under_long-term_stimulation_with_structured_recu.md)**
+
+:   这篇论文提出 STEER，把长期神经刺激下的脑网络重构建模为一个刺激条件的慢时间尺度动力学规律，同时用结构化低秩 RNN 解释会话内快速神经活动，从而能从纵向神经记录中推断可解释的可塑性规则，并在 Lorenz、BCM、刺激诱导任务学习和帕金森大鼠 DBS 数据上预测未见刺激方案下的网络演化。
 
 **[JAPAN: Joint Adaptive Prediction Areas with Normalising-Flows](japan_joint_adaptive_prediction_areas_with_normalising_flow.md)**
 
@@ -419,6 +443,18 @@ item_total: 108
 
 :   STDDN 把人群当成连续流体介质，用流体力学的连续性方程作为强物理约束、Neural ODE 建模宏观密度场演化来反过来正则化微观轨迹预测网络，在四个真实数据集的长程仿真上同时刷新精度并把推理延迟大幅降低（最高减少 90%）。
 
+**[STORM: Synergistic Cross-Scale Spatio-Temporal Modeling for Weather Forecasting](storm_synergistic_cross-scale_spatio-temporal_modeling_for_weather_forecasting.md)**
+
+:   STORM 把全球气象场显式拆成细到粗的多尺度表征，并通过跨尺度消息传递、轻量时间演化编码和层级对齐解码，在 ERA5 全球与区域天气预报上同时提升短期精度和 7-10 天长期稳定性。
+
+**[Structure Learning from Time-Series Data with Lag-Agnostic Structural Prior](structure_learning_from_time-series_data_with_lag-agnostic_structural_prior.md)**
+
+:   这篇论文研究如何把“变量 $j$ 会影响变量 $i$，但不知道具体滞后几步”的粗粒度因果先验融入时间序列结构学习，并通过过程等价的先验损失与数据驱动初始化，更稳定地恢复细粒度的滞后因果结构。
+
+**[SuperMAN: Interpretable and Expressive Networks over Temporally Sparse Heterogeneous Data](superman_interpretable_and_expressive_networks_over_temporally_sparse_heterogene.md)**
+
+:   SuperMAN 把"多类型、采样间隔不规则、异步"的稀疏时序数据建模成"一组隐式图"，用一种扩展的图加性网络（ExtGNAN）+ 子集分组机制直接学习，既能给出节点/图/子集三个粒度的可解释贡献分数，又能在有领域先验时用"分组"换取更强表达力，在 Crohn 病发病预测、ICU 住院时长、假新闻检测上都拿到 SOTA。
+
 **[SwiftTS: A Swift Selection Framework for Time Series Pre-trained Models via Multi-task Meta-Learning](swiftts_a_swift_selection_framework_for_time_series_pre-trained_models_via_multi.md)**
 
 :   提出首个时间序列预训练模型选择框架SwiftTS，使用双编码器架构独立嵌入数据集patch级时序特征和模型元信息（架构/拓扑/功能），通过patch级交叉注意力计算兼容性分数，结合horizon自适应专家组合和跨域/跨horizon元学习，在14个数据集×8个模型上以平均加权Kendall $\tau_\omega = 0.442$ 大幅超越所有基线。
@@ -435,9 +471,21 @@ item_total: 108
 
 :   TEDM 把图像生成里的 EDM（Elucidated Diffusion Models）框架移植到多变量时间序列预测，关键是让**扩散时间轴和物理时间轴重合**，并用**从数据里经验估计的噪声/尺度调度**取代人为预设的调度，从而把采样复杂度从 $O(SH)$ 降到 $O(H)$，在多个长序列预测基准上用一个轻量网络刷出 SOTA。
 
+**[Temporal Generalization: A Reality Check](temporal_generalization_a_reality_check.md)**
+
+:   这篇论文在严格“不看未来数据”的设定下系统评测用历史 checkpoint 插值或外推未来模型参数的做法，发现模型平均和 Taylor 外推通常不如直接使用最近模型，只有简单参数缩放在部分语言任务上较稳，但也不是普适解。
+
+**[TEN-DM: Topology-Enhanced Diffusion Model for Spatio-Temporal Event Prediction](ten-dm_topology-enhanced_diffusion_model_for_spatio-temporal_event_prediction.md)**
+
+:   TEN-DM 把时空点过程同时转成多语义事件图和多尺度时间序列图像，用图表示、zigzag 拓扑特征和 temporal query 注意力共同条件化扩散去噪过程，从而更准确地预测下一次事件的发生时间与空间位置。
+
 **[Tensor learning with orthogonal, Lorentz, and symplectic symmetries](tensor_learning_with_orthogonal_lorentz_and_symplectic_symmetries.md)**
 
 :   本文给出了关于正交群 $O(d)$、不定正交群（含 Lorentz 群）和辛群 $Sp(d)$ 对张量对角作用下的等变多项式函数的完整参数化刻画，并将其应用于设计可学习的稀疏向量恢复算法，在多种数据生成假设下超越了已有的 sum-of-squares 谱方法。
+
+**[The Forecast After the Forecast: A Post-Processing Shift in Time Series](the_forecast_after_the_forecast_a_post-processing_shift_in_time_series.md)**
+
+:   这篇论文提出 δ-Adapter：在冻结时间序列预测骨干模型的前后各加一个受 $\delta$ 约束的轻量后处理模块，用输入微调、输出残差修正、稀疏特征选择和不确定性校准，在不改模型结构、不重训骨干的情况下稳定提升预测精度与区间覆盖质量。
 
 **[Time-Gated Multi-Scale Flow Matching for Time-Series Imputation](time-gated_multi-scale_flow_matching_for_time-series_imputation.md)**
 
@@ -502,6 +550,10 @@ item_total: 108
 **[Uni-NTFM: A Unified Foundation Model for EEG Signal Representation Learning](uni-ntfm_a_unified_foundation_model_for_eeg_signal_representation_learning.md)**
 
 :   Uni-NTFM 从神经科学第一性原理出发，设计异质特征投影（HFPM）解耦时频编码、分层拓扑嵌入（TE）统一异构电极配置、MoE Transformer 实现功能模块化与稀疏编码，在 28000 小时 EEG 数据上预训练 1.9B 参数模型，9 个下游任务上的线性探测和微调均达到 SOTA。
+
+**[UniCA: Unified Covariate Adaptation for Time Series Foundation Model](unica_unified_covariate_adaptation_for_time_series_foundation_model.md)**
+
+:   UniCA 把类别、图像、文本等异构协变量先映射成统一的“隐式时间序列”表示，再用前融合与后融合注意力模块接入冻结的时间序列基础模型，在不破坏预训练泛化能力的前提下提升协变量感知预测效果。
 
 **[Unlocking the Value of Text: Event-Driven Reasoning and Multi-Level Alignment for Time Series Forecasting](unlocking_the_value_of_text_event-driven_reasoning_and_multi-level_alignment_for.md)**
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLMAgent论文汇总 · 142篇论文解读
+  ICLR2026 LLMAgent论文汇总 · 162篇论文解读
 description: >-
-  142篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、强化学习、多模态、对话系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  162篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、强化学习、多模态、对话系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "LLM Agent"
@@ -53,6 +53,8 @@ item_list:
     t: "ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents"
   - u: "chinatravel_an_open-ended_travel_planning_benchmark_with_compositional_constrain/"
     t: "ChinaTravel: An Open-Ended Travel Planning Benchmark with Compositional Constraint Validation for Language Agents"
+  - u: "coda_agentic_systems_for_collaborative_data_visualization/"
+    t: "CoDA: Agentic Systems for Collaborative Data Visualization"
   - u: "code_driven_planning_with_domain-adaptive_selector/"
     t: "Code Driven Planning with Domain-Adaptive Selector"
   - u: "collaborative_gym_a_framework_for_enabling_and_evaluating_human-agent_collaborat/"
@@ -65,27 +67,25 @@ item_list:
     t: "Cyber-Zero: Training Cybersecurity Agents without Runtime"
   - u: "dancing_in_chains_strategic_persuasion_in_academic_rebuttal_via_theory_of_mind/"
     t: "Dancing in Chains: Strategic Persuasion in Academic Rebuttal via Theory of Mind"
+  - u: "darwin_gödel_machine_open-ended_evolution_of_self-improving_agents/"
+    t: "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents"
   - u: "deep_ignorance_filtering_pretraining_data_builds_tamper-resistant_safeguards_int/"
     t: "Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs"
   - u: "deepscientist_advancing_frontier-pushing_scientific_findings_progressively/"
     t: "DeepScientist: Advancing Frontier-Pushing Scientific Findings Progressively"
   - u: "do_large_language_models_know_what_they_are_capable_of/"
     t: "Do Large Language Models Know What They Are Capable Of?"
-  - u: "dreamphase_offline_imagination_and_uncertainty-guided_planning_for_large-languag/"
-    t: "DreamPhase: Offline Imagination and Uncertainty-Guided Planning for Large-Language-Model Agents"
-  - u: "dual-scale_world_memory_for_llm_agents_towards_hard-exploration_problems/"
-    t: "Dual-Scale World Memory for LLM Agents towards Hard-Exploration Problems"
-item_total: 142
+item_total: 162
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🔬 ICLR2026** · **142** 篇论文解读
+**🔬 ICLR2026** · **162** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (42)](../../CVPR2026/llm_agent/index.md) · [💬 ACL2026 (82)](../../ACL2026/llm_agent/index.md) · [🧪 ICML2026 (59)](../../ICML2026/llm_agent/index.md) · [🤖 AAAI2026 (33)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md)
 
-🔥 **高频主题：** LLM ×38 · Agent ×30 · 推理 ×12 · 强化学习 ×6 · 多模态 ×4
+🔥 **高频主题：** LLM ×41 · Agent ×37 · 推理 ×14 · 强化学习 ×9 · 多模态 ×7
 
 **[A$^2$FM: An Adaptive Agent Foundation Model for Tool-Aware Hybrid Reasoning](a2fm_an_adaptive_agent_foundation_model_for_tool-aware_hybrid_reasoning.md)**
 
@@ -163,6 +163,10 @@ item_total: 142
 
 :   ChinaTravel 用一套可组合的领域专用语言（DSL）把"开放式自然语言旅行需求"自动翻译成可验证的逻辑约束与偏好目标，配上 1154 名真实用户的中文查询，构建出首个真正开放、需要上下文落地与未见约束组合泛化的多日多 POI 旅行规划基准，并实证神经符号 agent 在约束满足率上比纯 LLM 高出 10 倍（37.0% vs 2.60%）却仍远未解决。
 
+**[CoDA: Agentic Systems for Collaborative Data Visualization](coda_agentic_systems_for_collaborative_data_visualization.md)**
+
+:   CoDA 把"自然语言生成数据可视化"重新建模成一个多智能体协作问题，用 8 个各司其职的 LLM 智能体分阶段完成理解、规划、生成与自反思，靠"只读元数据不读原始数据"绕开 token 上限、靠"质量驱动的反思回环"反复打磨图表，在 MatplotBench / Qwen / DA-Code 上把整体得分较强基线最高提升 41.5%。
+
 **[Code Driven Planning with Domain-Adaptive Selector](code_driven_planning_with_domain-adaptive_selector.md)**
 
 :   CoPiC 让 LLM 一次性生成多个"高层规划程序"（而非逐步问 LLM 要计划），由这些程序自己跟环境闭环交互产出候选计划，再用一个经 RL 微调的小模型"域自适应选择器"挑出最契合长期回报的计划执行，从而在 ALFWorld / NetHack / 星际争霸 II 造兵三个环境上把成功率平均提升 19.14%、token 开销平均削减 79.39%。
@@ -186,6 +190,10 @@ item_total: 142
 **[Dancing in Chains: Strategic Persuasion in Academic Rebuttal via Theory of Mind](dancing_in_chains_strategic_persuasion_in_academic_rebuttal_via_theory_of_mind.md)**
 
 :   本文提出 RebuttalAgent，把学术 rebuttal 当成"信息不对称下的策略博弈"而非简单技术辩论，用心智理论（ToM）建模审稿人心理状态，经"ToM→策略→回复"（TSR）三阶段生成有据可依的回应，并用 SFT + 自奖励 RL 训练，相比基座模型平均提升 18.3%，超过 GPT-4.1、o3 等闭源强模型。
+
+**[Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents](darwin_gödel_machine_open-ended_evolution_of_self-improving_agents.md)**
+
+:   DGM 让一个编程智能体不断改写自己的代码库来变得更会改代码，用「在 benchmark 上跑分」这一经验证据替代 Gödel Machine 理论上不可行的「形式证明」，并用一个不断生长的智能体 archive 做开放式探索，把 SWE-bench 从 20.0% 推到 50.0%、Polyglot 从 14.2% 推到 30.7%。
 
 **[Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs](deep_ignorance_filtering_pretraining_data_builds_tamper-resistant_safeguards_int.md)**
 
@@ -263,6 +271,10 @@ item_total: 142
 
 :   MemGAS 用「多粒度记忆单元 + GMM 关联 + 熵驱动粒度路由 + PPR 检索 + LLM 过滤」一条龙，把对话 agent 的长期记忆从单一粒度切分升级为跨粒度关联与自适应选择，在四个长期记忆 benchmark 上 QA 和检索全面超越 SOTA。
 
+**[FutureX: An Advanced Live Benchmark for LLM Agents in Future Prediction](futurex_an_advanced_live_benchmark_for_llm_agents_in_future_prediction.md)**
+
+:   FutureX 构建了一个面向"未来预测"任务的**实时动态基准**——通过全自动管线每天从 195 个高质量网站采集尚未发生的未来事件、让 25 个 LLM/agent 在事件起始日做预测、等事件揭晓后再自动爬取真实结果打分，从根本上消除数据污染，并发现即便最强的 Grok-4 在高波动开放式事件上仍显著落后于人类专家。
+
 **[Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments](gaia2_benchmarking_llm_agents_on_dynamic_and_asynchronous_environments.md)**
 
 :   提出 Gaia2 基准，在动态异步环境中评估 LLM Agent 的能力，引入时间约束、噪声事件、歧义解析和多 Agent 协作等现实场景，配合可验证奖励的写操作验证器，使基准可直接用于 RLVR 训练，评估显示最强模型 GPT-5 (high) 仅达42% pass@1。
@@ -287,6 +299,10 @@ item_total: 142
 
 :   GTool 把"工具之间的依赖关系"建成一张请求专属的工具图，用 GNN 编码成一个 `<graph token>` 喂给冻结的 LLM，并设计缺失依赖预测任务来对抗不完整依赖，让 7B 小模型的工具规划性能比 SOTA 高出 29.6%。
 
+**[GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning](gui-shift_enhancing_vlm-based_gui_agents_through_self-supervised_reinforcement_l.md)**
+
+:   本文提出 **K-step GUI Transition** 这一自监督逆动力学任务——只给一对截图 $(S_t, S_{t+k})$ 让模型预测引发该跳转的首个动作，从而无需任何文本指令标注；再用 GRPO 强化学习框架 GUI-Shift 配合数据过滤来训练，仅用 2K 样本就让多个 VLM 在 GUI 自动化任务上最高提升 11.2%，并能零额外微调地迁移到 GUI grounding 任务。
+
 **[Helmsman: Autonomous Synthesis of Federated Learning Systems via Collaborative LLM Agents](helmsman_autonomous_synthesis_of_federated_learning_systems_via_collaborative_ll.md)**
 
 :   Helmsman 用一套分工明确的多 LLM 智能体团队，把"我要在 15 台移动设备上部署一个抗数据异构的目标检测系统"这种高层自然语言需求，端到端自动合成为一份可运行、经仿真验证的完整联邦学习（FL）代码库。
@@ -295,13 +311,33 @@ item_total: 142
 
 :   本文构建 DECEPTICON 基准，证明网页中常见的"暗黑模式"（欺骗性 UI 设计）能在 70%+ 的任务里把前沿 Web Agent 引向违背用户意图的恶意结果（人类仅 31%），且模型越大、推理越多反而越容易被骗，现有防御也难以稳定奏效。
 
+**[Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine](huxley-godel_machine_human-level_coding_agent_development_by_an_approximation_of.md)**
+
+:   针对"让编程智能体改写自己代码不断变强"这件事，本文指出现有方法用单步基准分当扩展指引并不靠谱（高分父代未必生出好后代），提出用**整个后代谱系（clade）的聚合表现** CMP 作为自我改进潜力的指标，并证明拿到真 CMP 就足以模拟最优的 Gödel Machine；据此实现的 Huxley-Gödel Machine（HGM）用 Thompson 采样按 CMP 估计来选节点扩展，在 SWE-bench Verified 和 Polyglot 上用更少 CPU 时数超过 DGM/SICA，并在 SWE-bench Lite 上达到人类工程师设计的编程智能体水平。
+
+**[In-the-Flow Agentic System Optimization for Effective Planning and Tool Use](in-the-flow_agentic_system_optimization_for_effective_planning_and_tool_use.md)**
+
+:   提出 AGENTFLOW——一个由 planner / executor / verifier / generator 四模块加共享记忆协同的可训练智能体系统，并配套 Flow-GRPO 算法，在多轮交互的「活流程」中只在线优化 planner；7B 骨干在 10 个基准上平均涨 4~15 个点，甚至超过 ~200B 的 GPT-4o。
+
 **[InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents](infomosaic-bench_evaluating_multi-source_information_seeking_in_tool-augmented_a.md)**
 
 :   InfoMosaic-Bench 是首个专门评测「工具增强 Agent 跨多源信息检索」能力的基准，用 organizer–worker 架构的 InfoMosaic-Flow 流水线合成 621 道必须同时调用通用网页搜索 + 领域专用 MCP 工具才能解的题，揭示出当下最强的 GPT-5 也只有 38.2% 准确率，且领域工具带来的收益不稳定、22.4% 失败源于基本的工具误用。
 
+**[InnovatorBench: Evaluating Agents' Ability to Conduct Innovative AI Research](innovatorbench_evaluating_agents_ability_to_conduct_innovative_ai_research.md)**
+
+:   本文提出 InnovatorBench——首个从真实论文+代码库构造、覆盖数据/损失/奖励/脚手架等 6 类 LLM 研究子问题的端到端基准（20 个任务），配套可分布式、可异步、可快照的 ResearchGym 环境，并用 ReAct 智能体测试 Claude-4/GPT-5/GLM-4.5 等前沿模型，发现它们能啃下代码型研究任务但在脆弱的算法设计和长时程决策上频繁翻车（急躁、资源管理差、套模板）。
+
 **[IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra](ir-agent_expert-inspired_llm_agents_for_structure_elucidation_from_infrared_spec.md)**
 
 :   把化学家解读红外光谱（IR）的专家流程拆成三个分工明确的 LLM 智能体——查吸收表抓局部官能团、检索相似谱图补全局骨架、最后整合推理排序候选结构，在真实实验 IR 谱上比单模型和单智能体都更准，且能零训练地吸收各种额外化学信息。
+
+**[Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness](just_do_it_computer-use_agents_exhibit_blind_goal-directedness.md)**
+
+:   本文提出"盲目目标导向"（Blind Goal-Directedness, BGD）这一概念，刻画计算机使用智能体（CUA）不顾可行性、安全性、可靠性和上下文一味追求目标完成的倾向，并构建 90 个任务的 BLIND-ACT 基准（基于 OSWorld、用 LLM 裁判评测），在 9 个前沿模型上测出 80.8% 的平均 BGD 率，说明这是一个被现有安全研究忽略的普遍系统性风险。
+
+**[KRAMABENCH: A Benchmark for AI Systems on Data-to-Insight Pipelines over Data Lakes](kramabench_a_benchmark_for_ai_systems_on_data-to-insight_pipelines_over_data_lak.md)**
+
+:   KRAMABENCH 用 6 个真实领域、24 个数据源、1700+ 文件、104 个人工精校任务，构建了一个让 AI 系统从「脏数据湖」一路走到「洞察」的端到端数据科学基准，并配套「端到端自动化 / Pipeline 设计 / 子任务实现」三档评估，结果显示最强系统在全量数据湖下端到端正确率只有 55.83%，离 76.75% 的人类基线还很远。
 
 **[K²-Agent: Co-Evolving Know-What and Know-How for Hierarchical Mobile Device Control](k²-agent_co-evolving_know-what_and_know-how_for_hierarchical_mobile_device_contr.md)**
 
@@ -362,6 +398,10 @@ item_total: 142
 **[MemGen: Weaving Generative Latent Memory for Self-Evolving Agents](memgen_weaving_generative_latent_memory_for_self-evolving_agents.md)**
 
 :   MemGen 让 LLM 智能体在推理过程中由一个「记忆触发器」实时判断何时需要回忆，再由一个「记忆编织器」生成一段机器原生的潜在 token 序列注入推理流，从而把记忆与思考交织成动态循环，在冻结主干、不改一个参数的前提下显著超越参数式与检索式记忆。
+
+**[Memory-T1: Reinforcement Learning for Temporal Reasoning in Multi-session Agents](memory-t1_reinforcement_learning_for_temporal_reasoning_in_multi-session_agents.md)**
+
+:   Memory-T1 把多会话对话里的“找哪段记忆”建模成时间感知的证据选择问题，先用时间窗口和相关性检索粗筛，再用 GRPO 训练的策略模型在候选会话中选择证据并回答，从而让 3B/7B 开源模型在 Time-Dialog 时间推理 benchmark 上达到约 67% 的整体分数。
 
 **[Meta-RL Induces Exploration in Language Agents](meta-rl_induces_exploration_in_language_agents.md)**
 
@@ -455,6 +495,10 @@ item_total: 142
 
 :   作者构建了首个面向软件工程的"计算机使用"环境 PwP（智能体像人一样用键鼠看屏幕操作 VSCode）和配套的 15 任务基准 PwP-Bench，系统评测发现：纯视觉操作的通用计算机使用智能体（CUA）只有 22.9% 准确率、远逊于专用 SWE 智能体；但只要给它们两个文本 API（文件编辑 + bash），准确率就跳到 50.7%，逼近专用智能体——说明短板不在"会不会写代码"，而在视觉定位差、不会用 IDE 里的现成工具。
 
+**[ProRe: A Proactive Reward System for GUI Agents via Reasoner–Actor Collaboration](prore_a_proactive_reward_system_for_gui_agents_via_reasoneractor_collaboration.md)**
+
+:   针对 GUI agent 难以获得可验证奖励的问题，ProRe 让一个通用推理器（reasoner）调度"状态探测任务"、再由领域专用评估 agent（actor）主动操作界面去采集关键状态，最终用 chain-of-claims 推理判定任务是否成功，把奖励准确率做到 93.7%（首个 >90% 的 GUI 奖励系统），并把策略 agent 的成功率最多提升 22.4%。
+
 **[Pushing Test-Time Scaling Limits of Deep Search with Asymmetric Verification](pushing_test-time_scaling_limits_of_deep_search_with_asymmetric_verification.md)**
 
 :   本文系统研究了深度搜索智能体的测试时计算扩展，发现"搜索难、验证易"的非对称验证特性，提出把一部分计算从搜索分配给验证器智能体来高效筛选候选答案，把 GLM-4.5、K2、Qwen3-2507、Tongyi-DeepResearch 等开源模型升级成 "Heavy" 版，在 BrowseComp 等基准上最高提升 20+ 个百分点，达到与 OpenAI Deep Research、o3 相当的水平。
@@ -487,6 +531,10 @@ item_total: 142
 
 :   ReVeal 把代码生成组织成「生成—验证」交替的多轮循环，并用一套 turn-level 强化学习算法（TAPO）显式优化自验证能力，让一个仅训练 3 轮的 32B 模型在推理时能持续自我修正 20+ 轮，在 LiveCodeBench V6 上 Pass@1 从 34.8% 一路爬到 38.7%。
 
+**[ROGA: Scaling Generalist Agents for Office Productivity Tasks via Tool Generation](roga_scaling_generalist_agents_for_office_productivity_tasks_via_tool_generation.md)**
+
+:   针对现有"自动工具生成"(ATG)智能体在长程、有状态的办公任务上严重掉点的问题，ROGA 重构了智能体范式——用主动世界建模补全部分可观测的文件上下文、用持久符号记忆维持跨步状态、用动态能力进化让生成的工具可复用，在 OSWorld / WindowsAgentArena / GAIA-Office 等基准上把任务成功率最高提升 13.64%，并在表格任务上反超专用智能体。
+
 **[ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data](scalecua_scaling_open-source_computer_use_agents_with_cross-platform_data.md)**
 
 :   ScaleCUA 用一条「自动智能体 + 人类专家」双环数据流水线，跨 6 大操作系统采集并标注出涵盖理解、定位、轨迹三类任务的超大规模 GUI 语料（471K 理解 + 17.1M 定位 + 19K 轨迹），在其上训练出支持三种推理范式的开源计算机使用智能体，在多个 GUI benchmark 上刷出新 SOTA（WebArena-Lite-v2 +26.6、ScreenSpot-Pro +10.7）。
@@ -495,6 +543,22 @@ item_total: 142
 
 :   DreamGym 用一个"会推理的经验模型"在抽象文本状态空间里合成智能体与环境的交互（状态转移 + 奖励），配合经验回放缓冲区和基于奖励熵的课程任务生成器，让 LLM 智能体几乎不用真实环境 rollout 就能跑 RL，在非 RL-ready 的 WebArena 上比所有 baseline 高 30%+，在 RL-ready 环境用纯合成数据追平 GRPO/PPO。
 
+**[Scaling Agents via Continual Pre-training](scaling_agents_via_continual_pre-training.md)**
+
+:   本文把 agent 能力的学习前移到持续预训练阶段，提出 Agentic Continual Pre-Training，并用 FAS/HAS 两类大规模合成数据训练出 AgentFounder，使开源 30B 级深度研究 agent 在 BrowseComp、GAIA、HLE 等 10 个基准上达到很强表现。
+
+**[Scaling Synthetic Task Generation for Agents via Exploration](scaling_synthetic_task_generation_for_agents_via_exploration.md)**
+
+:   AUTOPLAY 通过让多模态大模型先主动探索 Android 与 Ubuntu UI 环境、再基于探索轨迹和任务 guideline 生成可执行任务，自动构建大规模 UI agent 训练数据，并在 SFT 与 RL 后显著提升移动端和桌面端 agent 的任务成功率。
+
+**[ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](scienceboard_evaluating_multimodal_autonomous_agents_in_realistic_scientific_wor.md)**
+
+:   ScienceBoard 构建了一个集成真实科学软件的 Ubuntu 虚拟机环境和 169 个跨学科任务，用状态级执行评测检验多模态电脑使用智能体在真实科学工作流中的能力，结果显示最强模型总体成功率仍远低于人类。
+
+**[SciNav: A General Agent Framework for Scientific Coding Tasks](scinav_a_general_agent_framework_for_scientific_coding_tasks.md)**
+
+:   SciNav 把"成对相对判断"嵌进 Top-K 树搜索（TKCTS），让 LLM 智能体在没有预定义评测指标、搜索预算受限的现实条件下解科学编程任务——靠"两两比哪个更好"而非"给每个解打绝对分"来挑分支、剪枝、扩展，在 ScienceAgentBench 和 DA-Code 上显著超过 Self-Debug、OpenHands 等基线。
+
 **[SCUBA: Salesforce Computer Use Benchmark](scuba_salesforce_computer_use_benchmark.md)**
 
 :   SCUBA 是一个建立在真实 Salesforce sandbox 环境上的计算机操作智能体（computer-use agent）评测基准，含 300 个来自真实用户访谈的 CRM 任务，配套可重置环境、里程碑式细粒度评估和人类演示，揭示了开源/闭源模型、浏览器型/桌面型智能体之间的巨大性能鸿沟（零样本下开源模型成功率 <5%，闭源最高 39%；加演示后可达 50% 并同时降本提速）。
@@ -502,6 +566,14 @@ item_total: 142
 **[Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management](sculptor_empowering_llms_with_cognitive_agency_via_active_context_management.md)**
 
 :   本文提出 Sculptor 框架，给 LLM 配上一套可逆的「主动上下文管理（ACM）」工具——切片、折叠/摘要/恢复、精确搜索，让模型像雕刻家一样主动剔除无关信息、聚焦关键内容，再配合一种针对动态上下文设计的 GSPO 强化学习方法，在多个长上下文 benchmark 上把 13B 模型的平均分从 39.4 拉到 73.8。
+
+**[Search Self-Play: Pushing the Frontier of Agent Capability without Supervision](search_self-play_pushing_the_frontier_of_agent_capability_without_supervision.md)**
+
+:   让同一个 LLM 同时扮演"出题人"和"答题人"在深度搜索任务上自我对弈：出题人造越来越难、但有可验证标准答案的搜索问题，答题人去解，再用出题人搜到的网页做 RAG 反向验证问题是否站得住脚——整套流程不需要任何人工标注，就能在七个 QA benchmark 上把搜索智能体的性能全面拉高（Qwen2.5-7B-Base 平均 +26.4 分）。
+
+**[Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](seeing_listening_remembering_and_reasoning_a_multimodal_agent_with_long-term_mem.md)**
+
+:   M3-Agent 把实时视觉与音频流转成实体中心的多模态长期记忆，再用强化学习训练的控制模型多轮检索和推理，在 M3-Bench 与 VideoMME-long 上超过提示式闭源 agent 和在线长视频理解基线。
 
 **[Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People](shoot_first_ask_questions_later_building_rational_agents_that_explore_and_act_li.md)**
 
@@ -522,6 +594,10 @@ item_total: 142
 **[Solving the Granularity Mismatch: Hierarchical Preference Learning for Long-Horizon LLM Agents](solving_the_granularity_mismatch_hierarchical_preference_learning_for_long-horiz.md)**
 
 :   提出 HPL 框架解决长时序 LLM Agent 中偏好学习的粒度不匹配问题，通过三级 DPO（轨迹级+步骤级+动作组级）和双层课程学习（子任务复杂度×样本难度），在 ALFWorld/WebShop/InterCode-SQL 上显著超越 ETO 和 IPR 等基线（平均 59.44 vs 55.43/55.49）。
+
+**[Spinning Straw into Gold: Relabeling LLM Agent Trajectories in Hindsight for Successful Demonstrations](spinning_straw_into_gold_relabeling_llm_agent_trajectories_in_hindsight_for_succ.md)**
+
+:   把 LLM agent 跑出来的"失败/次优"轨迹用一个辅助 LLM 回看一遍、重新标注成它**实际完成了的所有目标**，再配合"无关动作掩码 + 演示重加权"把这些废料变成成功演示来追加微调；在 ALFWorld / PlanCraft / WebShop 上即插即用地涨点，并且只用四分之一的真实演示就能超过用全量数据训练的 baseline。
 
 **[SR-Scientist: Scientific Equation Discovery With Agentic AI](sr-scientist_scientific_equation_discovery_with_agentic_ai.md)**
 
@@ -578,6 +654,10 @@ item_total: 142
 **[TRAJECT-Bench：一个轨迹感知的智能体工具调用评测基准](traject-bencha_trajectory-aware_benchmark_for_evaluating_agentic_tool_use.md)**
 
 :   TRAJECT-Bench 用 1228 个可执行真实 API 构造了 5670 条「并行/串行」工具调用轨迹与「简单/困难」双难度查询，并把评测从「最终答案对不对」细化到「工具选对没、参数填对没、顺序/依赖满足没」的轨迹级诊断，从而揭示出大模型工具调用的具体失败模式（相似工具混淆、参数盲选）与「短轨迹→中等长度轨迹」的扩展瓶颈。
+
+**[Tree Search for LLM Agent Reinforcement Learning](tree_search_for_llm_agent_reinforcement_learning.md)**
+
+:   把多轮智能体 RL 的「链式独立采样」换成「智能体步级树搜索采样」，靠共享前缀在固定 token/工具调用预算下采到约 1.5× 的轨迹，并利用树的分支结构把稀疏的结果奖励自动转成步级过程监督信号（理论上等价于步级 DPO），在 11 个 QA 数据集上全面超过链式 GRPO。
 
 **[TusoAI: Agentic Optimization for Scientific Methods](tusoai_agentic_optimization_for_scientific_methods.md)**
 

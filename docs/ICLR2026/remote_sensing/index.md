@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 遥感论文汇总 · 8篇论文解读
+  ICLR2026 遥感论文汇总 · 11篇论文解读
 description: >-
-  8篇ICLR2026的遥感方向论文解读，涵盖遥感、多模态、Agent、扩散模型、时序预测、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  11篇ICLR2026的遥感方向论文解读，涵盖遥感、多模态、Agent、扩散模型、时序预测、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "遥感"
@@ -24,23 +24,29 @@ item_list:
     t: "MoRA: Mobility as the Backbone for Geospatial Representation Learning at Scale"
   - u: "object_fidelity_diffusion_for_remote_sensing_image_generation/"
     t: "Object Fidelity Diffusion for Remote Sensing Image Generation"
+  - u: "satdreamer360_multiview-consistent_generation_of_ground-level_scenes_from_satell/"
+    t: "SatDreamer360: Multiview-Consistent Generation of Ground-Level Scenes from Satellite Imagery"
+  - u: "selvabox_a_highresolution_dataset_for_tropical_tree_crown_detection/"
+    t: "SelvaBox: A high-resolution dataset for tropical tree crown detection"
   - u: "tamms_change_understanding_and_forecasting_in_satellite_image_time_series_with_t/"
     t: "TAMMs: Change Understanding and Forecasting in Satellite Image Time Series with Temporal-Aware Multimodal Models"
   - u: "task-free_adaptive_meta_black-box_optimization/"
     t: "Task-free Adaptive Meta Black-box Optimization"
+  - u: "terrafm_a_scalable_foundation_model_for_unified_multisensor_earth_observation/"
+    t: "TerraFM: A Scalable Foundation Model for Unified Multisensor Earth Observation"
   - u: "towards_faithful_reasoning_in_remote_sensing_a_perceptually-grounded_geospatial_/"
     t: "Towards Faithful Reasoning in Remote Sensing: A Perceptually-Grounded Geospatial Chain-of-Thought for Vision-Language Models"
-item_total: 8
+item_total: 11
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**🔬 ICLR2026** · **8** 篇论文解读
+**🔬 ICLR2026** · **11** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (63)](../../CVPR2026/remote_sensing/index.md) · [🧪 ICML2026 (3)](../../ICML2026/remote_sensing/index.md) · [🤖 AAAI2026 (7)](../../AAAI2026/remote_sensing/index.md) · [🧠 NeurIPS2025 (12)](../../NeurIPS2025/remote_sensing/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/remote_sensing/index.md) · [🧪 ICML2025 (7)](../../ICML2025/remote_sensing/index.md)
 
-🔥 **高频主题：** 遥感 ×3 · 多模态 ×2
+🔥 **高频主题：** 遥感 ×4 · 多模态 ×2
 
 **[Earth-Agent: Unlocking the Full Landscape of Earth Observation with Agents](earth-agent_unlocking_the_full_landscape_of_earth_observation_with_agents.md)**
 
@@ -62,6 +68,14 @@ item_total: 8
 
 :   OF-Diff 用类别标签直接提取遥感目标的"形状掩码先验"来约束扩散生成，再用一个"在线蒸馏"框架把含真实图像信息的混合特征蒸馏进只依赖形状的解码器，使得推理时**不再需要真实图像参考**也能生成高保真、布局一致的遥感图，最后用 DDPO 强化微调进一步对齐真实分布，下游检测中飞机/船/车等类别 mAP 提升 4–8%。
 
+**[SatDreamer360: Multiview-Consistent Generation of Ground-Level Scenes from Satellite Imagery](satdreamer360_multiview-consistent_generation_of_ground-level_scenes_from_satell.md)**
+
+:   SatDreamer360 从单张卫星图像和预设地面相机轨迹出发，用三平面场景表示、逐像素射线注意力和全景极线约束时序注意力，在扩散模型中生成几何对齐且跨帧一致的 360° 地面全景序列，并在新构建的 VIGOR++ 基准上优于 Sat2Density、ControlS2S 和 EscherNet。
+
+**[SelvaBox: A high-resolution dataset for tropical tree crown detection](selvabox_a_highresolution_dataset_for_tropical_tree_crown_detection.md)**
+
+:   SelvaBox 构建了目前最大规模的开放热带森林高分辨率无人机 RGB 树冠检测数据集，并用统一的多分辨率检测基准证明：高分辨率输入、DINO-Swin 检测器和跨数据集训练能显著提升热带树冠检测的域内与零样本泛化表现。
+
 **[TAMMs: Change Understanding and Forecasting in Satellite Image Time Series with Temporal-Aware Multimodal Models](tamms_change_understanding_and_forecasting_in_satellite_image_time_series_with_t.md)**
 
 :   提出 TAMMs——首个统一框架，在单一 MLLM-扩散架构中联合执行卫星图像时间序列的时序变化描述（TCD）和未来图像预测（FSIF），通过时序适配模块（TAM）唤醒冻结 MLLM 的时序推理能力，并通过语义融合控制注入（SFCI）机制将变化理解转化为生成控制信号。
@@ -69,6 +83,10 @@ item_total: 8
 **[Task-free Adaptive Meta Black-box Optimization](task-free_adaptive_meta_black-box_optimization.md)**
 
 :   提出 ABOM——一种无需预定义训练任务的自适应元黑盒优化器，通过将进化算子（选择、交叉、变异）参数化为可微注意力模块，在优化过程中利用自生成数据在线更新参数，在合成基准和无人机路径规划上实现零样本竞争性能。
+
+**[TerraFM: A Scalable Foundation Model for Unified Multisensor Earth Observation](terrafm_a_scalable_foundation_model_for_unified_multisensor_earth_observation.md)**
+
+:   TerraFM 面向多传感器地球观测数据，把 Sentinel-1 SAR 与 Sentinel-2 光学影像当作同一地点的天然增强视图，通过模态专属 patch embedding、逐位置 cross-attention 融合和面向长尾地表覆盖的 dual-centering DINO 训练，在 GEO-Bench 与 Copernicus-Bench 的分类和分割任务上取得了强泛化表现。
 
 **[Towards Faithful Reasoning in Remote Sensing: A Perceptually-Grounded Geospatial Chain-of-Thought for Vision-Language Models](towards_faithful_reasoning_in_remote_sensing_a_perceptually-grounded_geospatial_.md)**
 

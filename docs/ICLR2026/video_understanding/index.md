@@ -1,31 +1,40 @@
 ---
 title: >-
-  ICLR2026 视频理解论文汇总 · 38篇论文解读
+  ICLR2026 视频理解论文汇总 · 48篇论文解读
 description: >-
-  38篇ICLR2026的视频理解方向论文解读，涵盖 LLM、目标跟踪、推理、压缩/编码、异常检测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  48篇ICLR2026的视频理解方向论文解读，涵盖目标跟踪、LLM、压缩/编码、推理、问答、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "视频理解"
   - "论文解读"
   - "论文笔记"
-  - "LLM"
   - "目标跟踪"
-  - "推理"
+  - "LLM"
   - "压缩/编码"
-  - "异常检测"
+  - "推理"
+  - "问答"
+  - "语音"
 item_list:
   - u: "a_training-free_framework_for_long_video_understanding_via_video-query-options_s/"
     t: "A Training-Free Framework for Long Video Understanding via Video-Query-Options Similarity"
   - u: "air_enabling_adaptive_iterative_and_reasoning-based_frame_selection_for_video_qu/"
     t: "A.I.R.: Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering"
+  - u: "arflow_auto-regressive_optical_flow_estimation_for_arbitrary-length_videos_via_p/"
+    t: "ARFlow: Auto-regressive Optical Flow Estimation for Arbitrary-Length Videos via Progressive Next-Frame Forecasting"
+  - u: "avocado_an_audiovisual_video_captioner_driven_by_temporal_orchestration/"
+    t: "AVoCaDO: An Audiovisual Video Captioner Driven by Temporal Orchestration"
   - u: "beyond_static_vision_scene_dynamic_field_unlocks_intuitive_physics_understanding/"
     t: "Beyond Static Vision: Scene Dynamic Field Unlocks Intuitive Physics Understanding in Multi-modal Large Language Models"
   - u: "cambrian-s_towards_spatial_supersensing_in_video/"
     t: "Cambrian-S: Towards Spatial Supersensing in Video"
   - u: "carebench_a_fine-grained_benchmark_for_video_captioning_and_retrieval/"
     t: "CaReBench: A Fine-grained Benchmark for Video Captioning and Retrieval"
+  - u: "divid_disentangled_spatial-temporal_modeling_within_llms_for_temporally_grounded/"
+    t: "Divid: Disentangled Spatial-Temporal Modeling within LLMs for Temporally Grounded Video Understanding"
   - u: "east_early_action_prediction_sampling_strategy_with_token_masking/"
     t: "EAST: Early Action Prediction Sampling Strategy with Token Masking"
+  - u: "egobrain_synergizing_minds_and_eyes_for_human_action_understanding/"
+    t: "EgoBrain: Synergizing Minds and Eyes For Human Action Understanding"
   - u: "exposing_and_defending_the_achilles_heel_of_video_mixture-of-experts/"
     t: "Exposing and Defending the Achilles' Heel of Video Mixture-of-Experts"
   - u: "fartrack_fast_autoregressive_visual_tracking_with_high_performance/"
@@ -40,6 +49,8 @@ item_list:
     t: "From Vicious to Virtuous Cycles: Synergistic Representation Learning for Unsupervised Video Object-Centric Learning"
   - u: "go_beyond_earth_understanding_human_actions_and_scenes_in_microgravity_environme/"
     t: "Go Beyond Earth: Understanding Human Actions and Scenes in Microgravity Environments"
+  - u: "hitea_hierarchical_temporal_alignment_for_training-free_long-video_temporal_grou/"
+    t: "HiTeA: Hierarchical Temporal Alignment for Training-Free Long-Video Temporal Grounding"
   - u: "if-vidcap_can_video_caption_models_follow_instructions/"
     t: "IF-VidCap: Can Video Caption Models Follow Instructions?"
   - u: "invert4tvg_a_temporal_video_grounding_framework_with_inversion_tasks_preserving_/"
@@ -64,27 +75,17 @@ item_list:
     t: "Point Prompting: Counterfactual Tracking with Video Diffusion Models"
   - u: "ppllava_varied_video_sequence_understanding_with_prompt_guidance/"
     t: "PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance"
-  - u: "progressive_online_video_understanding_with_evidence-aligned_timing_and_transpar/"
-    t: "Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions"
-  - u: "scalelong_a_multi-timescale_benchmark_for_long_video_understanding/"
-    t: "ScaleLong: A Multi-Timescale Benchmark for Long Video Understanding"
-  - u: "spike-rl_video-llms_meet_bayesian_surprise/"
-    t: "SPIKE-RL: Video-LLMs Meet Bayesian Surprise"
-  - u: "steering_and_rectifying_latent_representation_manifolds_in_frozen_multi-modal_ll/"
-    t: "Steering and Rectifying Latent Representation Manifolds in Frozen Multi-Modal LLMs for Video Anomaly Detection"
-  - u: "stpr_spatiotemporal_preservation_and_routing_for_exemplar-free_video_class-incre/"
-    t: "StPR：面向无样本回放视频类增量学习的时空保持与路由"
-item_total: 38
+item_total: 48
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 视频理解
 
-**🔬 ICLR2026** · **38** 篇论文解读
+**🔬 ICLR2026** · **48** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (187)](../../CVPR2026/video_understanding/index.md) · [🧪 ICML2026 (17)](../../ICML2026/video_understanding/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/video_understanding/index.md) · [🧠 NeurIPS2025 (39)](../../NeurIPS2025/video_understanding/index.md) · [📹 ICCV2025 (56)](../../ICCV2025/video_understanding/index.md) · [🧪 ICML2025 (4)](../../ICML2025/video_understanding/index.md)
 
-🔥 **高频主题：** LLM ×3 · 目标跟踪 ×3 · 推理 ×2 · 压缩/编码 ×2 · 异常检测 ×2
+🔥 **高频主题：** 目标跟踪 ×4 · LLM ×3 · 压缩/编码 ×3 · 推理 ×2 · 问答 ×2
 
 **[A Training-Free Framework for Long Video Understanding via Video-Query-Options Similarity](a_training-free_framework_for_long_video_understanding_via_video-query-options_s.md)**
 
@@ -93,6 +94,14 @@ item_total: 38
 **[A.I.R.: Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering](air_enabling_adaptive_iterative_and_reasoning-based_frame_selection_for_video_qu.md)**
 
 :   提出 A.I.R.，一种无需训练的自适应-迭代-推理驱动帧选择框架，通过两阶段策略（GMM 自适应初始采样 + 迭代式 VLM 精细分析）解决 VideoQA 中轻量模型（CLIP）相似度不准确和 VLM 分析成本爆炸的双重困境，在最坏情况下也仅需分析 72 帧（vs 基线 128 帧），同时显著提升多个长视频 benchmark 性能。
+
+**[ARFlow: Auto-regressive Optical Flow Estimation for Arbitrary-Length Videos via Progressive Next-Frame Forecasting](arflow_auto-regressive_optical_flow_estimation_for_arbitrary-length_videos_via_p.md)**
+
+:   ARFlow 把多帧光流从“固定长度 clip 内一次性估计”改成“逐帧自回归预测下一帧光流”，用历史光流初始化当前估计、再用多步长时序预测融合短期与长期运动线索，在几乎恒定显存下提升了 Sintel、KITTI 和 Spring 等基准的光流精度。
+
+**[AVoCaDO: An Audiovisual Video Captioner Driven by Temporal Orchestration](avocado_an_audiovisual_video_captioner_driven_by_temporal_orchestration.md)**
+
+:   AVoCaDO 基于 Qwen2.5-Omni，通过 107K 高质量时序对齐音视频字幕数据做 SFT，再用面向关键事件、对话和长度的 GRPO 奖励微调，让 7B 音视频字幕模型在多个 audiovisual captioning benchmark 上超过现有开源模型，部分指标还追上或超过 Gemini-2.5 系列。
 
 **[Beyond Static Vision: Scene Dynamic Field Unlocks Intuitive Physics Understanding in Multi-modal Large Language Models](beyond_static_vision_scene_dynamic_field_unlocks_intuitive_physics_understanding.md)**
 
@@ -106,9 +115,17 @@ item_total: 38
 
 :   CaReBench 用 1000 个人工标注、字幕长达 200+ 词且**显式拆成空间/时间两份**的视频，搭起一个能同时考视频细粒度字幕（captioning）和检索（retrieval）的 benchmark，配套两个新指标 ReBias 与 CapST 专门量化 VLM 的时空偏置，并顺手给出一个把字幕和检索统一进单个 MLLM 的两阶段 SFT 基线 CARE。
 
+**[Divid: Disentangled Spatial-Temporal Modeling within LLMs for Temporally Grounded Video Understanding](divid_disentangled_spatial-temporal_modeling_within_llms_for_temporally_grounded.md)**
+
+:   Divid 在 Video LLM 的 decoder 内部显式拆开时间分支与空间分支，用时间注意力为查询选择高分辨率关键帧，再通过 token 级 soft-router 融合两路信息，并配合 559K 时间戳监督数据 TempGCap，在时间定位和带证据 VideoQA 上同时提升精度与计算效率。
+
 **[EAST: Early Action Prediction Sampling Strategy with Token Masking](east_early_action_prediction_sampling_strategy_with_token_masking.md)**
 
 :   EAST 用一个随机采样观测比例 $\rho$ 的训练策略，让**单个模型**就能在所有观测比例下做早期动作预测，再配上「present + future 双重分类的复合损失」和「按时序冗余度删一半 token 的差异掩码」，在 NTU60 / SSv2 / UCF101 上分别比此前最好方法高 10.1、7.7、3.9 个百分点，同时训练显存和时间砍半。
+
+**[EgoBrain: Synergizing Minds and Eyes For Human Action Understanding](egobrain_synergizing_minds_and_eyes_for_human_action_understanding.md)**
+
+:   EgoBrain 构建了首个大规模同步第一视角视频与 32 通道 EEG 的日常动作数据集，并提出 Brain-TIM 用时间感知 Transformer 融合视觉和脑信号，在跨主体跨场景 29 类动作识别上把视觉基线从 63.40% 提升到 66.70%。
 
 **[Exposing and Defending the Achilles' Heel of Video Mixture-of-Experts](exposing_and_defending_the_achilles_heel_of_video_mixture-of-experts.md)**
 
@@ -137,6 +154,10 @@ item_total: 38
 **[Go Beyond Earth: Understanding Human Actions and Scenes in Microgravity Environments](go_beyond_earth_understanding_human_actions_and_scenes_in_microgravity_environme.md)**
 
 :   本文提出 **MicroG-4M**——首个面向微重力（太空失重）环境下人类活动时空与语义理解的视频基准，包含 4,759 个真实/电影片段、13,261 条动作标注、1,238 条描述与 7,000+ 问答对，覆盖细粒度动作识别、视频描述、视觉问答三大任务，并用一套基准 MicroG-Bench 系统量化了地面训练模型在太空场景下的显著性能崩塌。
+
+**[HiTeA: Hierarchical Temporal Alignment for Training-Free Long-Video Temporal Grounding](hitea_hierarchical_temporal_alignment_for_training-free_long-video_temporal_grou.md)**
+
+:   HiTeA 用事件-场景-动作的层级时间分解为长视频生成多粒度候选片段，再用冻结的 VideoCLIP 与 Qwen2.5-VL 做查询条件匹配和候选精炼，在不做任何任务训练的前提下显著提升长视频 temporal grounding。
 
 **[IF-VidCap: Can Video Caption Models Follow Instructions?](if-vidcap_can_video_caption_models_follow_instructions.md)**
 
@@ -190,6 +211,14 @@ item_total: 38
 
 :   针对"在线流式视频里到底该在哪一帧作答"这个被离线评测忽视的问题，本文提出 Thinking-QwenVL 框架，用一个把进度 $\rho$ 和置信度 $c$ 外显出来的透明决策控制器（ATDM）让回答时机对齐到"证据首次充分"的时刻 $t^\star$，并用一套跨片段传播的可学习聚合 token（HPSI）在 token 预算内维护全局因果状态，把 StreamingBench 的 SOTA 从 67.63% 提到 71.60%。
 
+**[QueryStream: Advancing Streaming Video Understanding with Query-Aware Pruning and Proactive Response](querystream_advancing_streaming_video_understanding_with_query-aware_pruning_and.md)**
+
+:   QueryStream 把用户 query 直接接入流式视频的 token 剪枝和响应调度，用查询感知差分剪枝 QDP 过滤无关且重复的视觉 token，再用 RTAR 在“相关且有新信息”的时刻主动触发 Video-LLM，从而在保留约 30%-57% token 的情况下达到或超过强 online baseline。
+
+**[RIVER: A Real-Time Interaction Benchmark for Video LLMs](river_a_real-time_interaction_benchmark_for_video_llms.md)**
+
+:   RIVER Bench 将视频大模型的在线交互能力拆成回忆过去、理解当前、等待未来事件后主动响应三类任务，并用带时间戳的问答与响应时机指标证明：传统离线 Video LLM 即使离线问答不错，在真实流式交互中仍明显缺记忆、缺时机判断，而长短期记忆与专门的 proactive 训练可以带来可观提升。
+
 **[ScaleLong: A Multi-Timescale Benchmark for Long Video Understanding](scalelong_a_multi-timescale_benchmark_for_long_video_understanding.md)**
 
 :   ScaleLong 提出首个把 Clip / Shot / Event / Story 四个时间尺度的问题**全部嵌入同一段长视频**的评测基准，从而在内容固定的前提下直接对比 MLLM 在不同时间粒度上的能力，并在 23 个模型上揭示出一条稳定的 U 型性能曲线（两端高、中间塌）。
@@ -206,9 +235,21 @@ item_total: 38
 
 :   StPR 把视频特征显式拆成「帧间共享语义」和「时序动态」两路，用 FSSD 通道级蒸馏锁住重要的语义通道来抗遗忘、用基于时序分解的混合专家（TD-MoE）在推理时按时序动态给每个任务专家打权重，在完全不存旧样本的前提下做视频类增量学习，并在 UCF101 / HMDB51 / SSv2 / Kinetics400 上超过此前所有方法（含需要存样本的）。
 
+**[TAPTRv3: Spatial and Temporal Context Foster Robust Tracking of Any Point in Long Video](taptrv3_spatial_and_temporal_context_foster_robust_tracking_of_any_point_in_long.md)**
+
+:   TAPTRv3 面向长视频中的任意点跟踪，在 TAPTRv2 的 DETR-like 点查询框架上引入空间上下文交叉注意力、可见性感知长时注意力和 scene cut 触发式全局匹配，使模型在长序列、遮挡和镜头切换下显著减少特征漂移并刷新多项 TAP benchmark 结果。
+
 **[UniTrack: Differentiable Graph Representation Learning for Multi-Object Tracking](unitrack_differentiable_graph_representation_learning_for_multi-object_tracking.md)**
 
 :   UniTrack 把多目标跟踪建模成一个可微的"图流网络"，提出一个即插即用的图论损失函数，把检测精度、身份保持、时空一致性统一进一个端到端可训练目标，不改任何模型结构就能挂到 7 种现有跟踪器上训练，在多个 benchmark 上 ID switch 最多降 53%、IDF1 最多升 12%。
+
+**[V2P-Bench: Evaluating Video-Language Understanding with Visual Prompts for Better Human-Model Interaction](v2p-bench_evaluating_video-language_understanding_with_visual_prompts_for_better.md)**
+
+:   V2P-Bench 构建了一个面向视频视觉提示理解的人机交互评测基准，用 980 个视频和 1172 个带人工视觉提示帧的 QA 样本系统检验 LVLM 是否能围绕用户“指到的目标/时刻”做细粒度视频理解，并发现当前模型虽然能零样本理解部分视觉提示，但在时空关系、长视频和拒答诚实性上仍明显落后于人类。
+
+**[VidBridge-R1: Bridging QA and Captioning for RL-based Video Understanding Models with Intermediate Proxy Tasks](vidbridge-r1_bridging_qa_and_captioning_for_rl-based_video_understanding_models_.md)**
+
+:   VidBridge-R1 发现视频 QA 与视频 captioning 在 RL 训练中存在收敛式回答和发散式描述的目标冲突，并用 DarkEventInfer 与 MixVidQA 两个中间代理任务把二者桥接起来，从而在一个 Reason-Then-Respond 视频模型里同时提升问答、推理和描述能力。
 
 **[Video-KTR: Reinforcing Video Reasoning via Key Token Attribution](video-ktr_reinforcing_video_reasoning_via_key_token_attribution.md)**
 

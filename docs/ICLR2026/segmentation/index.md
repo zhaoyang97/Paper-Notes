@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 语义分割论文汇总 · 29篇论文解读
+  ICLR2026 语义分割论文汇总 · 31篇论文解读
 description: >-
-  29篇ICLR2026的语义分割方向论文解读，涵盖语义分割、推理、对齐/RLHF、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  31篇ICLR2026的语义分割方向论文解读，涵盖语义分割、推理、对齐/RLHF、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "语义分割"
@@ -12,6 +12,8 @@ tags:
   - "对齐/RLHF"
   - "扩散模型"
 item_list:
+  - u: "advancing_complex_video_object_segmentation_via_progressive_concept_construction/"
+    t: "Advancing Complex Video Object Segmentation via Progressive Concept Construction"
   - u: "amlris_alignment-aware_masked_learning_for_referring_image_segmentation/"
     t: "AMLRIS: Alignment-aware Masked Learning for Referring Image Segmentation"
   - u: "benchmarking_open-ended_segmentation/"
@@ -36,6 +38,8 @@ item_list:
     t: "gen2seg: Generative Models Enable Generalizable Instance Segmentation"
   - u: "hierarchical_prototype_learning_for_semantic_segmentation/"
     t: "Hierarchical Prototype Learning for Semantic Segmentation"
+  - u: "lifr-seg_anytime_high-frame-rate_segmentation_via_event-guided_propagation/"
+    t: "LiFR-Seg: Anytime High-Frame-Rate Segmentation via Event-Guided Propagation"
   - u: "locality-attending_vision_transformer/"
     t: "Locality-Attending Vision Transformer"
   - u: "matting_anything_2_towards_video_matting_for_anything/"
@@ -68,19 +72,21 @@ item_list:
     t: "VINCIE: Unlocking In-context Image Editing from Video"
   - u: "virtue_visual-interactive_text-image_universal_embedder/"
     t: "VIRTUE: Visual-Interactive Text-Image Universal Embedder"
-  - u: "wow-seg_a_word-free_open_world_segmentation_model/"
-    t: "WOW-Seg: A Word-Free Open World Segmentation Model"
-item_total: 29
+item_total: 31
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🔬 ICLR2026** · **29** 篇论文解读
+**🔬 ICLR2026** · **31** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (122)](../../CVPR2026/segmentation/index.md) · [🧪 ICML2026 (14)](../../ICML2026/segmentation/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/segmentation/index.md) · [🧠 NeurIPS2025 (45)](../../NeurIPS2025/segmentation/index.md) · [📹 ICCV2025 (73)](../../ICCV2025/segmentation/index.md) · [🧪 ICML2025 (18)](../../ICML2025/segmentation/index.md)
 
-🔥 **高频主题：** 语义分割 ×13 · 推理 ×5 · 对齐/RLHF ×2 · 扩散模型 ×2
+🔥 **高频主题：** 语义分割 ×15 · 推理 ×5 · 对齐/RLHF ×2 · 扩散模型 ×2
+
+**[Advancing Complex Video Object Segmentation via Progressive Concept Construction](advancing_complex_video_object_segmentation_via_progressive_concept_construction.md)**
+
+:   这篇论文提出 Segment Concept（SeC），把大视觉语言模型抽取到的目标级“概念表示”按需注入 SAM 2.1 风格的视频目标分割流程，在复杂多镜头场景下显著减少外观相似干扰与目标重现失败，并构建了专门考察语义级 VOS 能力的 SeCVOS benchmark。
 
 **[AMLRIS: Alignment-aware Masked Learning for Referring Image Segmentation](amlris_alignment-aware_masked_learning_for_referring_image_segmentation.md)**
 
@@ -129,6 +135,10 @@ item_total: 29
 **[Hierarchical Prototype Learning for Semantic Segmentation](hierarchical_prototype_learning_for_semantic_segmentation.md)**
 
 :   HiPoSeg 在分割模型输出端挂一套「高层 + 低层」类别原型记忆库，用层级对比学习与跨层 margin 对齐把表示空间按「先认整体再分部件」的人类视觉方式组织起来，纯训练期插件、推理零开销，四个基准平均涨 +3.07%p mIoU。
+
+**[LiFR-Seg: Anytime High-Frame-Rate Segmentation via Event-Guided Propagation](lifr-seg_anytime_high-frame-rate_segmentation_via_event-guided_propagation.md)**
+
+:   LiFR-Seg 把低帧率 RGB 图像中的语义特征，借助事件流估计出的高频运动场传播到任意中间时刻，并用不确定性加权与时间记忆缓解事件稀疏和长间隔退化，从而让低帧率硬件接近甚至在夜间超过高帧率 RGB 分割上界。
 
 **[Locality-Attending Vision Transformer](locality-attending_vision_transformer.md)**
 

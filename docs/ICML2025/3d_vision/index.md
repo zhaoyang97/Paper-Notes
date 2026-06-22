@@ -56,7 +56,7 @@ item_total: 17
 
 **🧪 ICML2025** · **17** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (751)](../../CVPR2026/3d_vision/index.md) · [🔬 ICLR2026 (169)](../../ICLR2026/3d_vision/index.md) · [🧪 ICML2026 (30)](../../ICML2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [📹 ICCV2025 (267)](../../ICCV2025/3d_vision/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (751)](../../CVPR2026/3d_vision/index.md) · [🔬 ICLR2026 (194)](../../ICLR2026/3d_vision/index.md) · [🧪 ICML2026 (30)](../../ICML2026/3d_vision/index.md) · [🤖 AAAI2026 (79)](../../AAAI2026/3d_vision/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/3d_vision/index.md) · [📹 ICCV2025 (267)](../../ICCV2025/3d_vision/index.md)
 
 🔥 **高频主题：** 扩散模型 ×3 · 3D 高斯渲染 ×3 · 对齐/RLHF ×2 · 对抗鲁棒 ×2 · 语义分割 ×2
 

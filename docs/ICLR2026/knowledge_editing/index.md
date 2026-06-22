@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 知识编辑论文汇总 · 14篇论文解读
+  ICLR2026 知识编辑论文汇总 · 15篇论文解读
 description: >-
-  14篇ICLR2026的知识编辑方向论文解读，涵盖 LLM、对齐/RLHF、对抗鲁棒、目标跟踪、个性化生成、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  15篇ICLR2026的知识编辑方向论文解读，涵盖 LLM、对齐/RLHF、对抗鲁棒、目标跟踪、个性化生成、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "知识编辑"
@@ -37,19 +37,21 @@ item_list:
     t: "MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs"
   - u: "pics_pairwise_image_compositing_with_spatial_interactions/"
     t: "PICS: Pairwise Image Compositing with Spatial Interactions"
+  - u: "scaling_knowledge_editing_in_llms_to_100000_facts_with_neural_kv_database/"
+    t: "Scaling Knowledge Editing in LLMs to 100,000 Facts with Neural KV Database"
   - u: "suit_knowledge_editing_with_subspace-aware_key-value_mappings/"
     t: "SUIT: Knowledge Editing with Subspace-Aware Key-Value Mappings"
   - u: "tanglescore_tangle-guided_purge_and_imprint_for_unstructured_knowledge_editing/"
     t: "TangleScore: Tangle-Guided Purge and Imprint for Unstructured Knowledge Editing"
   - u: "when_large_multimodal_models_confront_evolving_knowledge_challenges_and_explorat/"
     t: "When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations"
-item_total: 14
+item_total: 15
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**🔬 ICLR2026** · **14** 篇论文解读
+**🔬 ICLR2026** · **15** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/knowledge_editing/index.md) · [💬 ACL2026 (10)](../../ACL2026/knowledge_editing/index.md) · [🧪 ICML2026 (8)](../../ICML2026/knowledge_editing/index.md) · [🤖 AAAI2026 (4)](../../AAAI2026/knowledge_editing/index.md) · [🧠 NeurIPS2025 (6)](../../NeurIPS2025/knowledge_editing/index.md) · [🧪 ICML2025 (2)](../../ICML2025/knowledge_editing/index.md)
 
@@ -96,6 +98,10 @@ item_total: 14
 **[PICS: Pairwise Image Compositing with Spatial Interactions](pics_pairwise_image_compositing_with_spatial_interactions.md)**
 
 :   提出 PICS——一种并行成对图像合成方法，通过 Interaction Transformer 中的掩码引导 MoE 和自适应 α-blending 策略，在单次推理中同时合成两个对象并显式建模遮挡、接触等空间交互关系，全面超越现有序列合成方法。
+
+**[Scaling Knowledge Editing in LLMs to 100,000 Facts with Neural KV Database](scaling_knowledge_editing_in_llms_to_100000_facts_with_neural_kv_database.md)**
+
+:   本文把现有的 Locate-and-Edit 知识编辑方法重新解释为「查询一个 KV 数据库」，并据此提出 NeuralDB——用一个非线性门控检索模块替换原来的线性扰动 $\Delta$，把可编辑的事实容量从几百条扩展到 100,000 条，同时几乎不损伤模型的通用能力。
 
 **[SUIT: Knowledge Editing with Subspace-Aware Key-Value Mappings](suit_knowledge_editing_with_subspace-aware_key-value_mappings.md)**
 

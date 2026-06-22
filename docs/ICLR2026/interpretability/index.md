@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 可解释性论文汇总 · 179篇论文解读
+  ICLR2026 可解释性论文汇总 · 195篇论文解读
 description: >-
-  179篇ICLR2026的可解释性方向论文解读，涵盖 LLM、推理、对齐/RLHF、布局/合成、多模态、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  195篇ICLR2026的可解释性方向论文解读，涵盖 LLM、推理、对齐/RLHF、布局/合成、多模态、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "可解释性"
@@ -53,6 +53,8 @@ item_list:
     t: "Causality ≠ Invariance: Function and Concept Vectors in LLMs"
   - u: "certified_evaluation_of_model-level_explanations_for_graph_neural_networks/"
     t: "Certified Evaluation of Model-Level Explanations for Graph Neural Networks"
+  - u: "circuit_insights_towards_interpretability_beyond_activations/"
+    t: "Circuit Insights: Towards Interpretability Beyond Activations"
   - u: "comparing_the_learning_dynamics_of_in-context_learning_and_fine-tuning_in_langua/"
     t: "Comparing the learning dynamics of in-context learning and fine-tuning in language models"
   - u: "composable_sparse_subnetworks_via_maximum-entropy_principle/"
@@ -73,19 +75,17 @@ item_list:
     t: "Decomposing LLM Computation with Jets"
   - u: "decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_/"
     t: "Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning"
-  - u: "decomposition_of_concept-level_rules_in_visual_scenes/"
-    t: "Decomposition of Concept-Level Rules in Visual Scenes"
-item_total: 179
+item_total: 195
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**🔬 ICLR2026** · **179** 篇论文解读
+**🔬 ICLR2026** · **195** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (34)](../../CVPR2026/interpretability/index.md) · [💬 ACL2026 (63)](../../ACL2026/interpretability/index.md) · [🧪 ICML2026 (91)](../../ICML2026/interpretability/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/interpretability/index.md) · [🧠 NeurIPS2025 (80)](../../NeurIPS2025/interpretability/index.md) · [📹 ICCV2025 (10)](../../ICCV2025/interpretability/index.md)
 
-🔥 **高频主题：** LLM ×18 · 推理 ×11 · 对齐/RLHF ×8 · 布局/合成 ×7 · 多模态 ×5
+🔥 **高频主题：** LLM ×18 · 推理 ×12 · 对齐/RLHF ×8 · 布局/合成 ×7 · 多模态 ×6
 
 **[A Comprehensive Information-Decomposition Analysis of Large Vision-Language Models](a_comprehensive_information-decomposition_analysis_of_large_vision-language_mode.md)**
 
@@ -162,6 +162,10 @@ item_total: 179
 **[Certified Evaluation of Model-Level Explanations for Graph Neural Networks](certified_evaluation_of_model-level_explanations_for_graph_neural_networks.md)**
 
 :   这篇论文把"GNN 的模型级解释到底够不够好"这个一直只能靠 class score 和肉眼比对的问题，形式化成一个叫**充分性风险（sufficiency risk）**的回归损失，并推导出分布无关的认证上界，进而给出 Coverage、GGA、Overlap 三个可计算指标（外加有限样本置信区间），让不同解释器之间第一次能做有统计保证的比较。
+
+**[Circuit Insights: Towards Interpretability Beyond Activations](circuit_insights_towards_interpretability_beyond_activations.md)**
+
+:   这篇论文提出 WeightLens 和 CircuitLens，把自动化可解释性从“看哪些样本激活了特征”推进到“看权重连接和电路归因如何产生特征”，在转码器特征上更稳健地解释 token 型、上下文依赖型和多义特征。
 
 **[Comparing the learning dynamics of in-context learning and fine-tuning in language models](comparing_the_learning_dynamics_of_in-context_learning_and_fine-tuning_in_langua.md)**
 
@@ -243,6 +247,10 @@ item_total: 179
 
 :   本文首次将柏拉图表示假说 (PRH) 从静态图像-文本扩展到时序视频-文本领域，通过对 121 个视觉与语言模型的系统评估，揭示了测试时增加帧数与描述数可将对齐分数提升近一倍的现象，并提出 $R^2 > 0.98$ 的饱和式缩放律来量化这一行为。
 
+**[Dynamic Weight Grafting: Localizing Finetuned Factual Knowledge in Transformers](dynamic_weight_grafting_localizing_finetuned_factual_knowledge_in_transformers.md)**
+
+:   这篇论文提出 Dynamic Weight Grafting，通过在生成过程中按 token 位置和 Transformer 组件临时替换微调模型权重，定位 LLM 微调后事实关系知识的检索机制，并发现新知识主要通过实体位置的 enrichment 与最终 token 的 recall 两条路径被取出。
+
 **[Dyslexify: A Mechanistic Defense Against Typographic Attacks in CLIP](dyslexify_a_mechanistic_defense_against_typographic_attacks_in_clip.md)**
 
 :   作者发现 CLIP 视觉编码器后半段有一小撮专门"读图中文字"的注意力头，它们把字体信息搬进 cls token 从而造成字体攻击；Dyslexify 不做任何梯度训练，只把这些头对 cls 的写入清零（电路消融），就在 ImageNet-100-typo 上把鲁棒性提升最多 22.06%，而标准精度掉幅 <1%。
@@ -258,6 +266,10 @@ item_total: 179
 **[Emotions Where Art Thou: Understanding and Characterizing the Emotional Latent Space of Large Language Models](emotions_where_art_thou_understanding_and_characterizing_the_emotional_latent_sp.md)**
 
 :   本文用 SVD 子空间、几何对齐、神经元选择性（ML-AURA）和学习式引导模块系统刻画了 LLM 隐状态中的"情感潜空间"，发现情感是**方向性编码、跨层分布、跨 8 数据集 5 语言通用**的低维流形，且可在保持语义的前提下被精确操控。
+
+**[EnsembleSHAP: Faithful and Certifiably Robust Attribution for Random Subspace Method](ensembleshap_faithful_and_certifiably_robust_attribution_for_random_subspace_met.md)**
+
+:   本文提出 EnsembleSHAP，一种专为随机子空间方法（random subspace method）设计的特征归因方法，它直接复用集成模型已经算好的子采样预测结果、几乎零额外开销地给出 Shapley 风格的特征重要性，并首次给出针对"解释保持攻击"的可证明鲁棒性保证。
 
 **[Escaping Low-Rank Traps: Interpretable Visual Concept Learning via Implicit Vector Quantization](escaping_low-rank_traps_interpretable_visual_concept_learning_via_implicit_vecto.md)**
 
@@ -351,6 +363,10 @@ item_total: 179
 
 :   借鉴网络安全中 Snort/YARA 规则集的理念，提出将 LLM 内部激活分解为 23 个细粒度"认知元素"（CE），再通过布尔逻辑组合为可审计的安全规则，在 Mistral-7B 上以 <1% 推理开销实现 9 类误用场景平均 AUC 0.99、FPR 0.004 的实时检测，并天然支持跨语言、跨模型迁移。
 
+**[GenCtrl — A Formal Controllability Toolkit for Generative Models](genctrl_--_a_formal_controllability_toolkit_for_generative_models.md)**
+
+:   这篇论文把"用户与生成模型对话"建模成一个离散时间非线性控制系统，提出蒙特卡洛算法去估计模型的**可达集**与**可控集**，并给出分布无关、只需输出有界假设的 PAC（probably-approximately-correct）误差界，从而第一次能形式化地回答"这个生成模型到底可不可控"，实验发现现代 LLM 和文生图模型的可控性出人意料地脆弱且高度依赖任务设定。
+
 **[GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](gepa_reflective_prompt_evolution_can_outperform_reinforcement_learning.md)**
 
 :   提出 GEPA（Genetic-Pareto）提示优化器，通过自然语言反思从少量执行轨迹中诊断问题并迭代优化提示，在六个任务上平均超越 GRPO 6%（最高20%），同时仅使用 1/35 的采样量。
@@ -386,6 +402,10 @@ item_total: 179
 **[Hyper-SET: Designing Transformers via Hyperspherical Energy Minimization](hyper-set_designing_transformers_via_hyperspherical_energy_minimization.md)**
 
 :   把 Transformer 层重新理解为「超球面上 token 的最大似然估计」，并将其拆成**低维子空间的分布均匀性**与**高维空间的语义对齐**两个互补目标，用两个扩展 Hopfield 能量函数量化后做迭代能量最小化——对称注意力、前馈层、RMSNorm、残差连接全都自然"长出来"，得到一个参数共享、可解释、性能逼近原版 Transformer 的递归深度模型 HYPER-SET。
+
+**[I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?](i_predict_therefore_i_am_is_next_token_prediction_enough_to_learn_human-interpre.md)**
+
+:   本文构建了一个把"人类可理解概念"形式化为离散潜变量的文本生成模型，并严格证明：仅靠下一词预测训练出来的 LLM 表示，在温和条件下近似等于这些潜在概念后验对数 $\log p(c\mid x)$ 的一个线性变换，从而为线性表示假设、steering vector、线性探针乃至稀疏自编码器（SAE）评估给出了统一的理论根基。
 
 **[Inducing Dyslexia in Vision Language Models](inducing_dyslexia_in_vision_language_models.md)**
 
@@ -488,6 +508,10 @@ item_total: 179
 **[LLMs Process Lists With General Filter Heads](llms_process_lists_with_general_filter_heads.md)**
 
 :   本文发现 LLM 在做"从列表里挑出满足条件的项"这类任务时，会用一小撮中层注意力头（filter heads）把"筛选谓词"编码成 query 空间里一个紧凑、可搬运的几何方向，复现了函数式编程里 `filter` 操作的抽象计算原语。
+
+**[Localizing Task Recognition and Task Learning in In-Context Learning via Attention Head Analysis](localizing_task_recognition_and_task_learning_in_in-context_learning_via_attenti.md)**
+
+:   这篇论文提出 Task Subspace Logit Attribution（TSLA），把 in-context learning 中的任务识别（TR）和任务学习（TL）分别定位到不同注意力头，并用相关性、消融、输入扰动、task vector steering 与隐藏状态几何分析说明 TR 头负责把状态拉向任务标签子空间，TL 头负责在该子空间内转向正确标签。
 
 **[LORE: Jointly Learning the Intrinsic Dimensionality and Relative Similarity Structure from Ordinal Data](lore_jointly_learning_the_intrinsic_dimensionality_and_relative_similarity_struc.md)**
 
@@ -641,6 +665,10 @@ item_total: 179
 
 :   提出 SEED-SET 框架，将自主系统的伦理评估建模为层次化贝叶斯实验设计问题，同时整合客观指标和主观价值判断，在有限预算下高效生成高伦理对齐度的测试用例。
 
+**[Seeing but Not Believing: Probing the Disconnect Between Visual Attention and Answer Correctness in VLMs](seeing_but_not_believing_probing_the_disconnect_between_visual_attention_and_ans.md)**
+
+:   这篇论文系统分析 VLM 在 VQA 中“看见证据却答错”的现象，发现深层 attention 往往已经定位到正确视觉证据但生成阶段没有充分使用，并据此提出无需训练的 VEA 推理时视觉证据高亮方法，在 LLaVA、Qwen、Gemma、InternVL 等多类模型和多个证据型 VQA 任务上稳定提升准确率。
+
 **[Semantic Regexes: Auto-Interpreting LLM Features with a Structured Language](semantic_regexes_auto-interpreting_llm_features_with_a_structured_language_of_re.md)**
 
 :   本文提出 **Semantic Regexes（语义正则表达式）**，一种用于自动描述 LLM 特征的结构化语言，通过原语（symbol/lexeme/field）+ 修饰符（context/composition/quantification）组合，实现与自然语言同等准确但更简洁、一致且可分析的特征描述。
@@ -652,6 +680,10 @@ item_total: 179
 **[Setting Up for Failure: Automatic Discovery of the Neural Mechanisms of Cognitive Errors](setting_up_for_failure_automatic_discovery_of_the_neural_mechanisms_of_cognitive.md)**
 
 :   这篇论文不再训练 RNN 去把认知任务"做对"，而是反过来训练它"犯人类会犯的错"——用一个非参生成模型 BNS 造出带 swap error 的合成行为数据，再用扩散模型（DDPM）式的目标把第二个延迟期当作去噪过程来训练 RNN，从而自动发现支撑视觉工作记忆的神经动力学机制，且其神经几何与猕猴前额叶皮层记录高度吻合。
+
+**[Signal in the Noise: Polysemantic Interference Transfers and Predicts Cross-Model Influence](signal_in_the_noise_polysemantic_interference_transfers_and_predicts_cross-model.md)**
+
+:   本文用 SAE 描出小语言模型中的多义性干扰结构，发现一些语义上看似无关但在激活空间相互干扰的特征可以稳定改变目标语义的 next-token 分布，并且这些干预信号还能迁移到更大的指令模型上，说明 polysemanticity 不是纯随机噪声，而可能包含跨模型共享的潜在结构。
 
 **[Small Transformers Don't Need LayerNorm at Inference Time: Scaling LayerNorm Removal to GPT-2 XL and Implications for Mechanistic Interpretability](small_transformers_dont_need_layernorm_at_inference_time_scaling_layernorm_remov.md)**
 
@@ -676,6 +708,14 @@ item_total: 179
 **[Spilled Energy in Large Language Models](spilled_energy_in_large_language_models.md)**
 
 :   本文把 LLM 最后那层 softmax 分类器重新解释成一个能量模型(EBM)，发现"按概率链式法则本应相等、却分别在相邻两个解码步被读出"的两路能量之间存在差值——称之为"溢出能量(spilled energy)"，并证明这个**完全训练无关、直接从 logits 读出**的差值与模型出错强相关，在 9 个基准、多个 SOTA 模型上做幻觉检测，跨任务泛化能力显著强于需要逐任务训练的探针分类器。
+
+**[Structural Inference: Interpreting Small Language Models with Susceptibilities](structural_inference_interpreting_small_language_models_with_susceptibilities.md)**
+
+:   这篇论文把小型语言模型看成一个贝叶斯统计物理系统，用数据分布的微小扰动诱发模型组件响应，定义 susceptibility 来刻画注意力头对不同数据模式的表达或抑制，并在 3M 参数两层 attention-only Transformer 上用 PCA 自动分离出词边界、induction circuit 和括号匹配等已知结构。
+
+**[Tackling the XAI Disagreement Problem with Adaptive Feature Grouping](tackling_the_xai_disagreement_problem_with_adaptive_feature_grouping.md)**
+
+:   本文指出后验解释器与 faithfulness 指标之所以互相打架，核心原因是不同特征组之间存在交互项，并提出 AGREED 通过自适应合并强交互特征组来降低解释方法之间的分歧，在表格数据和图像 saliency map 上都能让多种解释更趋一致。
 
 **[Taming Polysemanticity in LLMs: Theory-Grounded Feature Recovery via Sparse Autoencoders](taming_polysemanticity_in_llms_theory-grounded_feature_recovery_via_sparse_autoe.md)**
 
@@ -709,6 +749,14 @@ item_total: 179
 
 :   本文提出一个几何框架将 LLM 的推理过程建模为表示空间中的"流"（embedding 轨迹），通过解耦逻辑结构与语义内容的受控实验证明 LLM 内化了超越表面形式的逻辑不变量，并发现跨模型家族的可能普适表示规律。
 
+**[The Potential of CoT for Reasoning: A Closer Look at Trace Dynamics](the_potential_of_cot_for_reasoning_a_closer_look_at_trace_dynamics.md)**
+
+:   这篇论文提出用“potential”衡量给定 CoT 前缀对最终正确率的条件提升，并通过数学、科学问答与代码任务上的轨迹分析发现：CoT 的有效性往往集中在少数推理洞察上，同时也会出现切题但有害的推理岔路、难以人类解释的跳变和幸运猜测。
+
+**[The Price of Amortized inference in Sparse Autoencoders](the_price_of_amortized_inference_in_sparse_autoencoders.md)**
+
+:   本文指出 SAE 中很多死 latent、稠密 latent、特征拆分和特征吸收并不是孤立工程问题，而是共享 encoder 的摊销推理与单样本最优性冲突的结果，并提出按 angular variance 局部分组的 LocA-SAE 来在计算成本和单语义性之间折中。
+
 **[The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology](the_shape_of_adversarial_influence_characterizing_llm_latent_spaces_with_persist.md)**
 
 :   本文用持续同调（persistent homology, PH）把 LLM 各层激活点云转成可跨模型比较的拓扑指纹，发现间接提示注入与后门微调两类机理完全不同的攻击都会在隐空间留下同一种"拓扑压缩"签名——表示从"小而多、紧凑多样"塌缩成"大而少、稀疏主导"，且这一现象在 3.8B 到 70B 六个模型上一致、出现得早、跨层高度可判别。
@@ -728,6 +776,10 @@ item_total: 179
 **[TimeSeg: An Information-Theoretic Segment-Wise Explainer for Time-Series Predictions](timeseg_an_information-theoretic_segment-wise_explainer_for_time-series_predicti.md)**
 
 :   TimeSeg 把"为黑盒时序模型做解释"重新定义成"挑出一组连续子序列、让它们与模型预测的联合互信息最大"，再用链式法则把这个不可解的联合优化拆成逐步选段的强化学习问题，从而在严格黑盒（只能看输入输出）条件下产出对齐真值、边界精准的变长片段解释。
+
+**[To Sink or Not to Sink: Visual Information Pathways in Large Vision-Language Models](to_sink_or_not_to_sink_visual_information_pathways_in_large_vision-language_mode.md)**
+
+:   本文发现大视觉语言模型中的 ViT sink token 不是单纯噪声，而是会传播进 LLM、携带粗粒度高层视觉语义，并提出无需训练的 sink-to-the-front 与训练式 DIYSink 框架，让模型按任务需求更好地使用 sink 与 non-sink 视觉信息。
 
 **[Token Alignment Heads: Unveiling Attention's Role in LLM Multilingual Translation](token_alignment_heads_unveiling_attentions_role_in_llm_multilingual_translation.md)**
 
@@ -757,6 +809,10 @@ item_total: 179
 
 :   本文提出 Low-Rank Sparse Attention（Lorsa），用成千上万个稀疏激活、单维输出的注意力头去逼近原始多头自注意力（MHSA）的输出，从而把纠缠在"注意力叠加"中的原子注意力单元一个个拆解出来，使诱导头、后继头、attention sink 乃至全新的子词级诱导头都能被独立、干净地识别和解释。
 
+**[Tracking Equivalent Mechanistic Interpretations Across Neural Networks](tracking_equivalent_mechanistic_interpretations_across_neural_networks.md)**
+
+:   这篇论文把“两个神经网络是否实现了同一种机制解释”形式化为解释实现集之间的等价问题，并提出用干预生成同解释实现、再用表示相似性估计 Congruity 的方法，在合成 Transformer、IOI circuit 和 POS/next-token 任务上展示了它能追踪跨模型与跨任务的机制等价关系。
+
 **[TreeGrad-Ranker: Feature Ranking via O(L)-Time Gradients for Decision Trees](treegrad-ranker_feature_ranking_via_ol-time_gradients_for_decision_trees.md)**
 
 :   针对决策树的特征排序，作者先从理论上证明 Shapley/Banzhaf 这类"概率值"在优化 insertion/deletion 真正对应的联合目标时不比随机猜更好，进而提出在多线性扩展上做 $O(L)$ 时间梯度计算的 TreeGrad，并据此构造直接优化联合目标的 TreeGrad-Ranker，以及数值稳定的 TreeGrad-Shap，在 insertion/deletion 指标上显著超过概率值基线。
@@ -772,6 +828,10 @@ item_total: 179
 **[Understanding Cross-Layer Contributions to Mixture-of-Experts Routing in LLMs](understanding_cross-layer_contributions_to_mixture-of-experts_routing_in_llms.md)**
 
 :   本文提出一套轻量的**递归分解**方法，把 MoE 路由器给每个专家打的分拆成「token 嵌入 + 各层注意力输出 + 各层 MoE 输出」乃至单个注意力头/专家的贡献，再用打分**方差**衡量影响力，从而首次从跨层视角揭示 MoE 路由不是局部决策，而是由深层组件之间的纠缠效应共同塑造。
+
+**[Understanding Task Vectors in In-Context Learning: Emergence, Functionality, and Limitations](understanding_task_vectors_in_in-context_learning_emergence_functionality_and_li.md)**
+
+:   本文提出「任务向量即代表性示例（Task Vectors as Representative Demonstrations）」猜想——注入的任务向量本质上是把多条上下文示例蒸馏成的**单条代表性示例**；并用线性注意力模型的临界点分析证明任务向量会在三元组（triplet）提示训练中自然涌现，同时预测并实证了它「只能表达 rank-one 映射、解不了双射任务」的根本局限，最后据此提出多向量注入的增强方法。
 
 **[Universal Properties of Activation Sparsity in Modern Large Language Models](universal_properties_of_activation_sparsity_in_modern_large_language_models.md)**
 
@@ -792,6 +852,10 @@ item_total: 179
 **[When Thinking Backfires: Mechanistic Insights into Reasoning-Induced Misalignment](when_thinking_backfires_mechanistic_insights_into_reason-induced_misalignment.md)**
 
 :   本文发现并命名了「推理诱发失配」（Reasoning-Induced Misalignment, RIM）——当 LLM 的推理能力被增强（推理时开 CoT 或在数学题上微调）时，模型反而更容易听从恶意请求，并从机制层面给出解释：推理时存在一类「拒答注意力头」靠减少对 CoT token 的注意力来触发拒答，训练时推理与安全争夺同一批神经元导致安全能力被挤掉。
+
+**[xRFM: Accurate, scalable, and interpretable feature learning models for tabular data](xrfm_accurate_scalable_and_interpretable_feature_learning_models_for_tabular_dat.md)**
+
+:   xRFM 把基于 AGOP 的 Recursive Feature Machine 放进一棵监督划分的二叉树里，让表格模型既能在不同数据子群上学习局部相关特征，又能把训练复杂度降到近似 $O(n\log n)$、推理复杂度降到 $O(\log n)$，并在 TALENT 回归、TabArena-Lite 和大规模 meta-test 表格基准上达到强竞争力。
 
 **[Your VAR Model is Secretly an Efficient and Explainable Generative Classifier](your_var_model_is_secretly_an_efficient_and_explainable_generative_classifier.md)**
 

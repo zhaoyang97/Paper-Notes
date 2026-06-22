@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 模型压缩论文汇总 · 217篇论文解读
+  ICLR2026 模型压缩论文汇总 · 239篇论文解读
 description: >-
-  217篇ICLR2026的模型压缩方向论文解读，涵盖模型压缩、LLM、压缩/编码、推理、扩散模型、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  239篇ICLR2026的模型压缩方向论文解读，涵盖模型压缩、LLM、压缩/编码、扩散模型、推理、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "模型压缩"
@@ -10,8 +10,8 @@ tags:
   - "论文笔记"
   - "LLM"
   - "压缩/编码"
-  - "推理"
   - "扩散模型"
+  - "推理"
   - "知识蒸馏"
 item_list:
   - u: "a_fano-style_accuracy_upper_bound_for_llm_single-pass_reasoning_in_multi-hop_qa/"
@@ -56,8 +56,12 @@ item_list:
     t: "Beyond Outliers: A Study of Optimizers Under Quantization"
   - u: "beyond_student_an_asymmetric_network_for_neural_network_inheritance/"
     t: "Beyond Student: An Asymmetric Network for Neural Network Inheritance"
+  - u: "beyond_uniformity_sample_and_frequency_meta_weighting_for_post-training_quantiza/"
+    t: "Beyond Uniformity: Sample and Frequency Meta Weighting for Post-Training Quantization of Diffusion Models"
   - u: "beyondbench_contamination-resistant_evaluation_of_reasoning_in_language_models/"
     t: "BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models"
+  - u: "biologically_plausible_learning_via_bidirectional_spike-based_distillation/"
+    t: "Biologically Plausible Learning via Bidirectional Spike-Based Distillation"
   - u: "boomerang_distillation_enables_zero-shot_model_size_interpolation/"
     t: "Boomerang Distillation Enables Zero-Shot Model Size Interpolation"
   - u: "boosted_trees_on_a_diet_compact_models_for_resource-constrained_devices/"
@@ -70,21 +74,17 @@ item_list:
     t: "Bridging the Gap Between Promise and Performance for Microscaling FP4 Quantization"
   - u: "cannistraci-hebb_training_on_ultra-sparse_spiking_neural_networks/"
     t: "Cannistraci-Hebb Training on Ultra-Sparse Spiking Neural Networks"
-  - u: "care_covariance-aware_and_rank-enhanced_decomposition_for_enabling_multi-head_la/"
-    t: "CARE: Covariance-Aware and Rank-Enhanced Decomposition for Enabling Multi-Head Latent Attention"
-  - u: "channel-aware_mixed-precision_quantization_for_efficient_long-context_inference/"
-    t: "Channel-Aware Mixed-Precision Quantization for Efficient Long-Context Inference"
-item_total: 217
+item_total: 239
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🔬 ICLR2026** · **217** 篇论文解读
+**🔬 ICLR2026** · **239** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (108)](../../CVPR2026/model_compression/index.md) · [💬 ACL2026 (59)](../../ACL2026/model_compression/index.md) · [🧪 ICML2026 (116)](../../ICML2026/model_compression/index.md) · [🤖 AAAI2026 (60)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (143)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (52)](../../ICCV2025/model_compression/index.md)
 
-🔥 **高频主题：** 模型压缩 ×66 · LLM ×36 · 压缩/编码 ×21 · 推理 ×11 · 扩散模型 ×10
+🔥 **高频主题：** 模型压缩 ×75 · LLM ×42 · 压缩/编码 ×23 · 扩散模型 ×14 · 推理 ×11
 
 **[A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA](a_fano-style_accuracy_upper_bound_for_llm_single-pass_reasoning_in_multi-hop_qa.md)**
 
@@ -170,9 +170,17 @@ item_total: 217
 
 :   不再训练一个小容量学生网络去逼近老师，而是直接对老师权重做非对称低秩分解、用 SVD 初始化继承主成分知识，再以 MoE 风格的"一降维 + 多升维专家头"结构重建出一个又宽又深却轻量的"继承网络"，在同等参数下收敛更快、精度反超传统学生网络。
 
+**[Beyond Uniformity: Sample and Frequency Meta Weighting for Post-Training Quantization of Diffusion Models](beyond_uniformity_sample_and_frequency_meta_weighting_for_post-training_quantiza.md)**
+
+:   本文提出一种面向扩散模型后训练量化的样本与频率元加权方法，不再把所有校准样本和频率成分一视同仁，而是通过双层优化自动学习哪些样本、哪些时间步频率成分更该影响量化校准，从而在低比特扩散模型上稳定降低 FID。
+
 **[BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models](beyondbench_contamination-resistant_evaluation_of_reasoning_in_language_models.md)**
 
 :   提出BeyondBench评估框架，通过算法化动态生成数学问题（44个任务/117个变体/3个难度级别），确保每次测试不被训练数据污染，评估了101个语言模型（0.5B-141B参数），发现即使最强模型在Hard Suite上也仅达56%准确率，且不使用工具时性能大幅下降。
+
+**[Biologically Plausible Learning via Bidirectional Spike-Based Distillation](biologically_plausible_learning_via_bidirectional_spike-based_distillation.md)**
+
+:   本文提出 BSD（双向脉冲蒸馏），用一个前馈脉冲网络（刺激→概念，对应感知决策）和一个反向脉冲网络（概念→刺激，对应记忆回忆）互相蒸馏脉冲特征来训练，全程只用离散二值脉冲和无符号误差信号，在图像分类/生成、文本预测、时序回归上都做到了和反向传播相当的精度，同时满足五条生物可塑性准则。
 
 **[Boomerang Distillation Enables Zero-Shot Model Size Interpolation](boomerang_distillation_enables_zero-shot_model_size_interpolation.md)**
 
@@ -197,6 +205,10 @@ item_total: 217
 **[Cannistraci-Hebb Training on Ultra-Sparse Spiking Neural Networks](cannistraci-hebb_training_on_ultra-sparse_spiking_neural_networks.md)**
 
 :   CH-SNN 把脑科学里的 Cannistraci-Hebb 链路预测理论搬进脉冲神经网络（SNN）的稀疏训练，用「相关性拓扑初始化 + 脉冲感知权重初始化 + 混合打分剪枝 + CH3-L3 拓扑重生」四阶段流程，在所有线性层做到 97.75% 的结构稀疏度还比全连接网络高 0.16% 精度，部署到边缘神经形态芯片上更是 98.84% 稀疏度、突触操作减少 97.5×、能耗平均降 55×。
+
+**[CAR-LoRA: Training Compression-Aware and Robust LoRA Adapters for Evolving LLMs](car-lora_training_compression-aware_and_robust_lora_adapters_for_evolving_llms.md)**
+
+:   CAR-LoRA 通过在训练时随机注入量化 / 剪枝 / 跳层等压缩扰动（前向用压缩权重、反向用全精度梯度），训练出一个「压缩感知 + 时间鲁棒」的通用 LoRA 适配器，让单个适配器无需重训就能直接部署到各种压缩格式的边缘设备以及未来演化的基座模型上，性能逼近为每种配置单独重训的 QLoRA。
 
 **[CARE: Covariance-Aware and Rank-Enhanced Decomposition for Enabling Multi-Head Latent Attention](care_covariance-aware_and_rank-enhanced_decomposition_for_enabling_multi-head_la.md)**
 
@@ -246,9 +258,17 @@ item_total: 217
 
 :   将解耦式数据集蒸馏重新形式化为最优量化问题，证明通过扩散先验的潜空间聚类+权重可收敛逼近真实数据分布，提出 DDOQ 算法在 ImageNet-1K 上以极低额外计算量超越 D4M 等基线。
 
+**[DiCache: Let Diffusion Model Determine Its Own Cache](dicache_let_diffusion_model_determine_its_own_cache.md)**
+
+:   DiCache 提出一种训练无关的扩散模型自适应缓存策略，让 DiT 在推理时用浅层在线探针自己判断何时复用缓存、如何组合历史缓存，在 WAN 2.1、HunyuanVideo 和 Flux 上同时提升速度与生成结果相对原始模型的保真度。
+
 **[Differentiable JPEG-based Input Perturbation for Knowledge Distillation Amplification via Conditional Mutual Information Maximization](differentiable_jpeg-based_input_perturbation_for_knowledge_distillation_amplific.md)**
 
 :   在冻结教师前面插一层**可微 JPEG 压缩层**，只训练 128 个量化参数来扰动教师输入、直接最大化教师的条件互信息(CMI)，从而让教师输出更"软"更有信息量的监督信号——一个即插即用、不改教师权重的蒸馏增益器，学生 Top-1 最高提升 4.11%。
+
+**[Diffusion Models as Dataset Distillation Priors](diffusion_models_as_dataset_distillation_priors.md)**
+
+:   本文把"代表性"形式化为合成样本与真实样本在扩散模型特征空间里的 Mercer 核距离，并以能量引导的形式注入反向扩散过程，从而**免训练**地让预训练扩散模型同时输出多样性、泛化性、代表性兼备的蒸馏数据集，在 ImageNet-1K 及子集上超过一众 SOTA 生成式蒸馏方法。
 
 **[DiffVax: Optimization-Free Image Immunization Against Diffusion-Based Editing](diffvax_optimization-free_image_immunization_against_diffusion-based_editing.md)**
 
@@ -282,6 +302,10 @@ item_total: 217
 
 :   DTO-KD 把知识蒸馏里"任务损失 vs 模仿教师"的权衡当成一个多目标优化问题，在梯度层面用闭式解动态算出两个损失的权重，自动消解梯度冲突与梯度支配，免去手调 loss 权重，在 ImageNet-1K 分类和 COCO 检测上都刷到 SOTA，且收敛更快（240 epoch 即追平别人 300 epoch）。
 
+**[DTP: Delta-Guided Two Stage Pruning for Mamba-based Multimodal Large Language Models](dtp_delta-guided_two_stage_pruning_for_mamba-based_multimodal_large_language_mod.md)**
+
+:   DTP 针对 Mamba-based 多模态大模型的视觉 token 冗余问题，用 Mamba 内部的输入相关参数 $\Delta_t$ 估计 token 重要性，并在早期层选择性剪枝、晚期层完全剪枝，在接近减半 FLOPs 的同时尽量保住多模态任务性能。
+
 **[DVD-Quant: Data-free Video Diffusion Transformers Quantization](dvd-quant_data-free_video_diffusion_transformers_quantization.md)**
 
 :   DVD-Quant 提出一套**完全免标定（data-free）**的视频扩散 Transformer 训练后量化框架，用权重网格细化（BGR）、自动缩放旋转量化（ARQ）和 δ 引导比特切换（δ-GBS）三件套，首次让 Video DiT 在 W4A4 下不掉画质，并在 HunyuanVideo 上实现约 2× 加速。
@@ -305,6 +329,10 @@ item_total: 217
 **[Ensembling Pruned Attention Heads for Uncertainty-Aware Efficient Transformers](ensembling_pruned_attention_heads_for_uncertainty-aware_efficient_transformers.md)**
 
 :   Hydra Ensembles 通过对同一预训练 Transformer 进行差异化注意力头剪枝，再将多个剪枝子网络融合为单一前向传播的集成模型，在接近单模型推理开销（仅 1.07×）的条件下实现与 Deep Ensembles 相当甚至更优的不确定性量化性能。
+
+**[Entropy-Based Block Pruning for Efficient Large Language Models](entropy-based_block_pruning_for_efficient_large_language_models.md)**
+
+:   本文提出 EntroDrop，用隐状态的"熵增"代替传统的余弦相似度来衡量 Transformer 计算块的冗余度，发现 LLM 隐状态熵呈"先压缩后扩张"的两阶段规律，于是只在扩张阶段剪掉熵增最小的若干块，在 Llama3.1-8B 上剪掉 37.5% 注意力层仍保留 95%+ 性能，且全面优于余弦相似度类剪枝方法。
 
 **[Entropy-Monitored Kernelized Token Distillation for Audio-Visual Compression](entropy-monitored_kernelized_token_distillation_for_audio-visual_compression.md)**
 
@@ -386,9 +414,17 @@ item_total: 217
 
 :   从频域视角首次系统解释门控线性单元(GLU)为何有效——逐元素乘对应频域卷积可拓宽频谱、非光滑激活保留高频能量——据此设计出极简的 GmNet，用最简单的 $\sigma(x)\cdot x$ 门控修正轻量模型的低频偏置，在 ImageNet 上刷新高效模型 SOTA。
 
+**[GPTailor: Large Language Model Pruning Through Layer Cutting and Stitching](gptailor_large_language_model_pruning_through_layer_cutting_and_stitching.md)**
+
+:   GPTailor 把 LLM 结构化剪枝重新定义为「在同一基座的一族微调变体上做层级裁剪与缝合」的零阶优化问题——支持删层、跨模型选层、层融合三种操作，用 ParEGO 多任务目标 + SMAC 多保真搜索自动找配置，在不做任何后训练修复的前提下，让 Llama2-13B 删掉约 25% 的层后仍保留 97.3% 的原始性能，显著超过此前 SOTA。
+
 **[Gradient-Aligned Calibration for Post-Training Quantization of Diffusion Models](gradient-aligned_calibration_for_post-training_quantization_of_diffusion_models.md)**
 
 :   通过元学习给不同时间步的校准样本学习一组重要性权重，使量化模型在各时间步上的梯度方向对齐、缓解梯度冲突，从而把扩散模型的训练后量化（PTQ）做得更好。
+
+**[Gradient Intrinsic Dimensionality Alignment: 弥合 LoRA 与全量微调之间的鸿沟](gradient_intrinsic_dimensionalityalignmentnarrowing_the_gap_between_low-rank_ad.md)**
+
+:   本文指出 LoRA 与全量微调（FFT）性能差距的根本原因是 LoRA 的低秩子空间维度远小于 FFT 梯度真正有效的更新方向数（梯度内在维度 GID，二者最多差 100 倍），并提出用基于熵的估计器度量逐层 GID，再用 RaLoRA / RaLoRA-Pro 在不增加参数量的前提下把 LoRA 的等效秩对齐到 GID，从而在 GLUE、GSM8K、HumanEval、MT-Bench 和图像分类上一致逼近甚至超过 FFT。
 
 **[GradPruner: Gradient-guided Layer Pruning Enabling Efficient Fine-Tuning and Inference for LLMs](gradpruner_gradient-guided_layer_pruning_enabling_efficient_fine-tuning_and_infe.md)**
 
@@ -414,6 +450,14 @@ item_total: 217
 
 :   将幂等性（idempotence）引入持续学习，通过标准幂等模块和幂等蒸馏模块两个组件强制模型在学习新任务时保持输出自一致性，在提升预测可靠性（降低校准误差）的同时显著减少灾难性遗忘。
 
+**[IGU-LoRA: Adaptive Rank Allocation via Integrated Gradients and Uncertainty-Aware Scoring](igu-lora_adaptive_rank_allocation_via_integrated_gradients_and_uncertainty-aware.md)**
+
+:   针对 AdaLoRA 用瞬时梯度打分导致秩分配不稳的问题，IGU-LoRA 把"积分梯度（Integrated Gradients）"搬进参数空间来度量每个奇异值方向的重要性，再用 EMA 平滑 + 偏差跟踪算出一个信噪比式的不确定性感知分数来指导剪枝，在相同参数预算下稳定超过 LoRA / AdaLoRA / DoRA。
+
+**[Improving Block-Wise LLM Quantization by 4-bit Block-Wise Optimal Float (BOF4): Analysis and Variations](improving_block-wise_llm_quantization_by_4-bit_block-wise_optimal_float_bof4_ana.md)**
+
+:   本文重新审视 QLoRA 中常用的块级 absmax 量化（NF4 / AF4），用一个 Lloyd 式 EM 算法直接求解**端到端权重误差最优**的 4-bit 码本（BOF4），再配上「带符号归一化」（BOF4-S）和「离群值保留量化」（OPQ）两个简单改动，在三大 LLM 家族上把量化误差和困惑度都压到了 4-bit 块级量化方法里的最好水平。
+
 **[In Good GRACES: Principled Teacher Selection for Knowledge Distillation](in_good_graces_principled_teacher_selection_for_knowledge_distillation.md)**
 
 :   提出轻量打分 **GRACE**——只用学生在教师生成数据上的梯度分布，无需 verifier、教师 logits、教师内部状态或测试数据，就能在蒸馏前预测哪个教师最适配某个学生与任务，在 GSM8K/MATH 上与蒸馏后性能达到高达 86% 的 Spearman 相关。
@@ -433,6 +477,10 @@ item_total: 217
 **[InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression](infotok_adaptive_discrete_video_tokenizer_via_information-theoretic_compression.md)**
 
 :   InfoTok 把 Shannon 信源编码定理引入视频离散 tokenization，用 ELBO 估计每段视频的信息量来自适应分配 token 数，证明了固定/数据无关的 tokenizer 在表示长度上是有偏次优的，并在同等重建质量下把 token 量省下约 20%~50%、压缩率比启发式自适应方法（ElasticTok）高 2.3×、推理额外开销少 11×。
+
+**[Inheriting Generalizable Knowledge from LLMs to Diverse Vertical Tasks](inheriting_generalizable_knowledge_from_llms_to_diverse_vertical_tasks.md)**
+
+:   本文提出 MASA（Matrix-level Alignment and Scalable Adaptation），用一组极小的"基因矩阵"对齐 LLM 的 FFN 权重以抽取其中的通用知识（输出对齐 + 谱对齐），再通过 SVD 自适应缩放把这些矩阵重塑成任意尺寸去初始化轻量模型的 FFN 层，使得 877M 的小模型在多个垂直任务上达到 7B 源模型 85%+ 的性能，且比随机初始化/蒸馏/剪枝需要更少预训练数据、收敛更快。
 
 **[Inlier-Centric Post-Training Quantization for Object Detection Models](inlier-centric_post-training_quantization_for_object_detection_models.md)**
 
@@ -457,6 +505,10 @@ item_total: 217
 **[KLAS: Using Similarity to Stitch Neural Networks for Improved Accuracy-Efficiency Tradeoffs](klas_using_similarity_to_stitch_neural_networks_for_improved_accuracy-efficiency.md)**
 
 :   KLAS 用 **KL 散度** 度量预训练模型中间表示的相似性，自动从 $O(k^2n^2)$ 种缝合配置里挑出最优的"锚点+块对"，在与基线相同的微调成本下把缝合网络的精度-效率曲线整体抬高（ImageNet-1K 同算力下 +1.21% top-1，或同精度下省 1.33× FLOPs）。
+
+**[Knowledge Distillation as Decontamination? Revisiting the "Data Laundering" Concern in Classification Tasks](knowledge_distillation_as_decontamination_revisiting_the_data_laundering_concern.md)**
+
+:   作者在 8 个分类基准上系统检验"数据洗钱"（污染过的教师通过蒸馏把测试集知识偷渡给干净学生）这一担忧的严重程度，发现洗钱带来的精度虚高远小于直接污染、且多数情况下统计不显著，并进一步证明洗钱与直接污染是机制不同的两种现象、主要在训练-测试分布间隙大的基准上才显现——结论是知识蒸馏总体上更像一道"净化"过滤器，而非泄漏放大器。
 
 **[Knowledge Distillation for Large Language Models through Residual Learning](knowledge_distillation_for_large_language_models_through_residual_learning.md)**
 
@@ -513,6 +565,10 @@ item_total: 217
 **[LoFT: Low-Rank Adaptation That Behaves Like Full Fine-Tuning](loft_low-rank_adaptation_that_behaves_like_full_fine-tuning.md)**
 
 :   提出 LoFT，一种通过对齐优化器内部动态（动量和二阶矩）与全参微调行为一致的低秩适配方法，由六个构建模块组成，在全秩极限下可精确恢复 AdamW，在多项基准上显著缩小 LoRA 与全参微调的性能差距。
+
+**[LogART: Pushing the Limit of Efficient Logarithmic Post-Training Quantization](logart_pushing_the_limit_of_efficient_logarithmic_post-training_quantization.md)**
+
+:   LogART 首次把"可学习舍入"引入对数域后训练量化（log-PTQ），再配上一个支持动态多底数、非对称、抗离群的对数量化器和高效超参搜索，把对数 PTQ 推到 3/4-bit 超低位宽，在 LLM、CNN、ViT 上同时拿到 SOTA 精度和更省面积/功耗的乘法器无关硬件。
 
 **[LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation](lookaheadkv_fast_and_accurate_kv_cache_eviction_by_glimpsing_into_the_future_wit.md)**
 
@@ -746,9 +802,21 @@ item_total: 217
 
 :   在低秩持续学习中重新引入弹性权重巩固（EWC），通过在全维空间估计 Fisher 信息矩阵来正则化共享 LoRA 模块，实现恒定存储开销下的有效遗忘缓解。
 
+**[Robust Selective Activation with Randomized Temporal K-Winner-Take-All in Spiking Neural Networks for Continual Learning](robust_selective_activation_with_randomized_temporal_k-winner-take-all_in_spikin.md)**
+
+:   针对脉冲神经网络（SNN）持续学习中的灾难性遗忘，本文把传统基于发放率的确定性 K-WTA 升级为「随机化时序迹 K-WTA（RTK-WTA）」——用神经元的时序迹（trace）而非瞬时发放率来排序，并在 Top-K 选择里注入受控随机性 $\alpha$，从而扩大有效特征空间、拉大类间间隔，在 splitMNIST/splitCIFAR100 上比确定性 K-WTA 提升 3.07–10.05%。
+
+**[Robust Training of Neural Networks at Arbitrary Precision and Sparsity](robust_training_of_neural_networks_at_arbitrary_precision_and_sparsity.md)**
+
+:   这篇论文指出超低比特量化训练不稳定的根因不是"量化不可导"，而是 STE 的反向传播看不见量化误差；作者把量化重写成加性噪声，并用一个从岭回归推出的去噪反量化变换 $g$ 把误差显式接回梯度通路，从而在标准训练配方下稳定训练出 A1W1 乃至亚 1-bit 网络。
+
 **[S2R-HDR: A Large-Scale Rendered Dataset for HDR Fusion](s2r-hdr_a_large-scale_rendered_dataset_for_hdr_fusion.md)**
 
 :   提出 S2R-HDR，首个大规模高质量合成 HDR 融合数据集（24,000 样本），并设计 S2R-Adapter 域适应方法弥合合成-真实域差距，在真实数据集上达到 SOTA HDR 融合性能。
+
+**[SAES-SVD: Self-Adaptive Suppression of Accumulated and Local Errors for SVD-based LLM Compression](saes-svd_self-adaptive_suppression_of_accumulated_and_local_errors_for_svd-based.md)**
+
+:   SAES-SVD 在逐层 SVD 低秩压缩的目标里显式加入"对齐全精度参考输出"的累积误差补偿项，推出只依赖二阶激活统计量的闭式解，并自适应地为每层挑选最优补偿权重，让压缩后模型的逐层输出始终贴近全精度基线——在 LLaMA-7B 0.2 压缩率下把平均精度跌幅从 >0.05 压到 0.02 左右，且无需微调或混合秩分配。
 
 **[SAFA-SNN: 面向端侧小样本类增量学习的稀疏感知快速自适应脉冲神经网络](safa-snn_sparsity-aware_on-device_few-shot_class-incremental_learning_with_fast-.md)**
 
@@ -786,6 +854,14 @@ item_total: 217
 
 :   本文从贝叶斯视角把知识蒸馏（KD）看作"用类后验概率（BCP）而非 one-hot 标签做监督"，严格分析了学生用 SGD 训练时的收敛行为，证明从精确 BCP 学习能消除收敛界里的"邻域项"（方差归零、可用更大学习率），并据此给出一条实践指南——用校准更好的贝叶斯教师做蒸馏，实验上学生精度最高提升 +4.27%、收敛噪声最多降 30%。
 
+**[Shift-and-Sum Quantization for Visual Autoregressive Models](shift-and-sum_quantization_for_visual_autoregressive_models.md)**
+
+:   本文针对 Visual Autoregressive Models 的后训练量化提出 Shift-and-Sum 量化与校准数据重采样：前者专门压低高注意力 value token 在 attention-value 乘积中的误差，后者让小校准集里的 VQ-VAE codebook 采样频率更接近模型预测概率，从而在低比特 VAR / Infinity 生成任务上稳定优于 BRECQ 和 LiteVAR。
+
+**[SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse–Linear Attention](sla_beyond_sparsity_in_diffusion_transformers_via_fine-tunable_sparselinear_atte.md)**
+
+:   作者发现扩散 Transformer 的注意力权重可以拆成"少量高秩 + 大量极低秩"两部分，于是提出 SLA——对关键块用精确稀疏注意力、对边缘块用线性注意力、对可忽略块直接跳过，三者融进同一个 GPU kernel，只需几千步微调就把注意力计算量砍掉约 95%、端到端视频生成提速 2.2×，且画质几乎无损。
+
 **[SliderQuant: Accurate Post-Training Quantization for LLMs](sliderquant_accurate_post-training_quantization_for_llms.md)**
 
 :   SliderQuant 发现 LLM 的浅层/深层（尤其是第一层和最后一层）对量化远比中间层敏感，于是用「层间滑动窗口（浅层渐扩、中间固定、深层渐缩）+ 层内增量量化」这套自适应滑动量化框架，在 W4A4、W2A16 等极低比特设置下显著超过 GPTQ / OmniQuant / CBQ 等现有 PTQ 方法。
@@ -797,6 +873,10 @@ item_total: 217
 **[SPARTA: Scalable and Principled Benchmark of Tree-Structured Multi-hop QA over Text and Tables](sparta_scalable_and_principled_benchmark_of_tree-structured_multi-hop_qa_over_te.md)**
 
 :   提出 SPARTA，一个端到端自动构建大规模表格-文本多跳问答基准的框架，通过参考事实数据库、来源引导的修复和现实结构约束生成高质量嵌套 SQL 查询，SOTA 模型在 SPARTA 上 F1 下降超过 30 分。
+
+**[SPR$^2$Q: Static Priority-based Rectifier Routing Quantization for Image Super-Resolution](spr2q_static_priority-based_rectifier_routing_quantization_for_image_super-resol.md)**
+
+:   SPR$^2$Q 面向图像超分辨率模型的极低比特后训练量化，在量化前用一组低秩 rectifier 学习补偿权重增量，再通过离线静态优先级路由把最合适的增量融合进各层权重，从而在 4-bit、2-bit 甚至 1-bit 下显著缓解 MambaIRv2-light 的细节恢复损失且不增加推理开销。
 
 **[SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality](ssdi8_accurate_and_efficient_8-bit_quantization_for_state_space_duality.md)**
 
@@ -833,6 +913,14 @@ item_total: 217
 **[Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation](taming_momentum_rethinking_optimizer_states_through_low-rank_approximation.md)**
 
 :   揭示动量 EMA 更新等价于在线线性回归的梯度下降，基于此提出 LoRA-Pre，通过低秩分解压缩优化器动量，实现显存高效的 LLM 预训练和微调，在所有模型尺度上达到最优性能且仅需基线方法 1/8 的秩。
+
+**[TD-MoE: Tensor Decomposition for MoE Models](td-moe_tensor_decomposition_for_moe_models.md)**
+
+:   TD-MoE 把 MoE 一层里所有专家的权重堆成一个三维张量做联合 Tucker 分解，再配上多线性白化与自适应 3D 秩分配，从而捕捉到逐专家方法忽略的「专家间结构冗余」，在 20% 压缩下几乎无损、40%/60% 压缩下比 SVD 类 SOTA 高出 11%~14%。
+
+**[Tequila: Trapping-free Ternary Quantization for Large Language Models](tequila_trapping-free_ternary_quantization_for_large_language_models.md)**
+
+:   针对三值量化（权重压到 {-1, 0, +1}）中大量权重被卡在"死区"边界、收不到有效梯度的问题，本文提出 Tequila，把这些"死权重"重新激活成可微的**动态偏置**，让它们既能在前向贡献信号、又能在反向收到直接梯度，几乎零推理开销下把 ARC 上的精度比 SOTA 三值方法提升 >4%，逼近全精度（差距 <1%）并获得 3.0× 推理加速。
 
 **[Textual Equilibrium Propagation for Deep Compound AI Systems](textual_equilibrium_propagation_for_deep_compound_ai_systems.md)**
 

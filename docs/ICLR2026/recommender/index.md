@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 推荐系统论文汇总 · 22篇论文解读
+  ICLR2026 推荐系统论文汇总 · 24篇论文解读
 description: >-
-  22篇ICLR2026的推荐系统方向论文解读，涵盖推荐系统、LLM、个性化生成、扩散模型、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  24篇ICLR2026的推荐系统方向论文解读，涵盖推荐系统、LLM、个性化生成、扩散模型、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "推荐系统"
@@ -55,19 +55,23 @@ item_list:
     t: "Search Arena: Analyzing Search-Augmented LLMs"
   - u: "steering_diffusion_models_towards_credible_content_recommendation/"
     t: "Steering Diffusion Models Towards Credible Content Recommendation"
+  - u: "supporting_high-stakes_decision_making_through_interactive_preference_elicitatio/"
+    t: "Supporting High-Stakes Decision Making Through Interactive Preference Elicitation in the Latent Space"
   - u: "token-efficient_item_representation_via_images_for_llm_recommender_systems/"
     t: "Token-Efficient Item Representation via Images for LLM Recommender Systems"
-item_total: 22
+  - u: "token-efficient_long-term_interest_sketching_and_internalized_reasoning_for_llm-/"
+    t: "Token-Efficient Long-Term Interest Sketching and Internalized Reasoning for LLM-based Recommendation"
+item_total: 24
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🔬 ICLR2026** · **22** 篇论文解读
+**🔬 ICLR2026** · **24** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (22)](../../ACL2026/recommender/index.md) · [🧪 ICML2026 (11)](../../ICML2026/recommender/index.md) · [🤖 AAAI2026 (27)](../../AAAI2026/recommender/index.md) · [🧠 NeurIPS2025 (24)](../../NeurIPS2025/recommender/index.md) · [🧪 ICML2025 (17)](../../ICML2025/recommender/index.md) · [💬 ACL2025 (7)](../../ACL2025/recommender/index.md)
 
-🔥 **高频主题：** 推荐系统 ×11 · LLM ×9 · 个性化生成 ×4 · 扩散模型 ×3 · 推理 ×2
+🔥 **高频主题：** 推荐系统 ×12 · LLM ×10 · 个性化生成 ×4 · 扩散模型 ×3 · 推理 ×3
 
 **[Adaptive Regularization for Large-Scale Sparse Feature Embedding Models](adaptive_regularization_for_large-scale_sparse_feature_embedding_models.md)**
 
@@ -153,6 +157,14 @@ item_total: 22
 
 :   针对扩散模型做序列推荐时会推送假新闻、虚假信息等不可信内容的问题，本文提出 Disco：用一个"解耦扩散模型"把用户真实偏好信号和不可信内容信号分离开、再把扩散目标投影到不可信特征的零空间里抑制不可信内容，并在标签稀缺时渐进地检测潜在不可信物品来补全这个零空间，最终在三个真实数据集上同时拿到更高的推荐准确率和可信率。
 
+**[Supporting High-Stakes Decision Making Through Interactive Preference Elicitation in the Latent Space](supporting_high-stakes_decision_making_through_interactive_preference_elicitatio.md)**
+
+:   本文面向租房这类高风险、低频、反馈稀疏的决策场景，把用户访谈得到的 LLM 偏好先验、Autoencoder 潜空间压缩和 Preferential Bayesian Optimization 结合起来，用更少的成对比较学习用户效用函数，并在真实房源数据上比普通 PBO 获得更高的排序准确率。
+
 **[Token-Efficient Item Representation via Images for LLM Recommender Systems](token-efficient_item_representation_via_images_for_llm_recommender_systems.md)**
 
 :   提出 I-LLMRec，利用商品图像替代冗长文本描述来表示推荐系统中的物品语义，通过 RISA 对齐模块和 RERI 检索模块，在仅用单个token表示物品的同时保留丰富语义，推理速度提升约2.93倍且推荐性能超越文本描述方法。
+
+**[Token-Efficient Long-Term Interest Sketching and Internalized Reasoning for LLM-based Recommendation](token-efficient_long-term_interest_sketching_and_internalized_reasoning_for_llm-.md)**
+
+:   本文提出 SIREN，用「长期兴趣草图」把动辄上百条的用户历史压成一小串「喜欢/不喜欢的语义主题」喂给 LLM，再用「两阶段训练」先 RL 学会显式 CoT 推理、后把推理通过隐状态对齐内化进参数，从而在 answer-only 解码下保住 CoT 精度，输入 token 降 48.7%、推理延迟比 CoT 低 100×。

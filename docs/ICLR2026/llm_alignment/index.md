@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 对齐/RLHF论文汇总 · 92篇论文解读
+  ICLR2026 对齐/RLHF论文汇总 · 102篇论文解读
 description: >-
-  92篇ICLR2026的对齐 / RLHF 方向论文解读，涵盖对齐/RLHF、LLM、对抗鲁棒、强化学习、少样本学习、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  102篇ICLR2026的对齐 / RLHF 方向论文解读，涵盖对齐/RLHF、LLM、对抗鲁棒、强化学习、少样本学习、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "对齐 / RLHF"
@@ -43,6 +43,8 @@ item_list:
     t: "Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework"
   - u: "bird_behavior_induction_via_representation-structure_distillation/"
     t: "BIRD: Behavior Induction via Representation-structure Distillation"
+  - u: "bradley-terry_and_multi-objective_reward_modeling_are_complementary/"
+    t: "Bradley–Terry and Multi-Objective Reward Modeling Are Complementary"
   - u: "cage_a_framework_for_culturally_adaptive_red-teaming_benchmark_generation/"
     t: "CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation"
   - u: "capability-based_scaling_trends_for_llm-based_red-teaming/"
@@ -65,27 +67,25 @@ item_list:
     t: "Displacement-Resistant Extensions of DPO with Nonconvex $f$-Divergences"
   - u: "dont_throw_away_your_pretrained_model/"
     t: "Don't Throw Away Your Pretrained Model"
+  - u: "eigenbench_a_comparative_behavioral_measure_of_value_alignment/"
+    t: "EigenBench: A Comparative Behavioral Measure of Value Alignment"
   - u: "elephant_measuring_and_understanding_social_sycophancy_in_llms/"
     t: "ELEPHANT: Measuring and Understanding Social Sycophancy in LLMs"
   - u: "eliminating_inductive_bias_in_reward_models_with_information-theoretic_guidance/"
     t: "Eliminating Inductive Bias in Reward Models with Information-Theoretic Guidance"
   - u: "enforcing_axioms_for_ai_alignment_under_loss-based_rules/"
     t: "Enforcing Axioms for AI Alignment under Loss-Based Rules"
-  - u: "enhancing_trustworthiness_of_fine-tuned_llms_via_regularized_subset_selection/"
-    t: "Enhancing Trustworthiness of Fine-Tuned LLMs via Regularized Subset Selection"
-  - u: "fluent_alignment_with_disfluent_judges_post-training_for_lower-resource_language/"
-    t: "Fluent Alignment with Disfluent Judges: Post-training for Lower-Resource Languages"
-item_total: 92
+item_total: 102
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**🔬 ICLR2026** · **92** 篇论文解读
+**🔬 ICLR2026** · **102** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (12)](../../CVPR2026/llm_alignment/index.md) · [💬 ACL2026 (38)](../../ACL2026/llm_alignment/index.md) · [🧪 ICML2026 (37)](../../ICML2026/llm_alignment/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/llm_alignment/index.md) · [🧠 NeurIPS2025 (36)](../../NeurIPS2025/llm_alignment/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/llm_alignment/index.md)
 
-🔥 **高频主题：** 对齐/RLHF ×42 · LLM ×19 · 对抗鲁棒 ×8 · 强化学习 ×4 · 少样本学习 ×2
+🔥 **高频主题：** 对齐/RLHF ×47 · LLM ×22 · 对抗鲁棒 ×8 · 强化学习 ×4 · 少样本学习 ×2
 
 **[A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models](a2d_any-order_any-step_safety_alignment_for_diffusion_language_models.md)**
 
@@ -143,6 +143,10 @@ item_total: 92
 
 :   BIRD 通过让学生模型的内部表示**结构**（batch 内成对相似度的几何，用 CKA 度量）去匹配一个已对齐教师的表示结构，把鲁棒性 / 安全性这类"对齐行为"从一个异构教师迁移到学生——教师和学生可以任务、数据、架构、输出空间全都不同；在图像 OOD 鲁棒迁移上比微调 / 迁移学习 / 持续学习最多高 18% 鲁棒精度，并能从一个比学生小 25× 的教师做弱到强迁移。
 
+**[Bradley–Terry and Multi-Objective Reward Modeling Are Complementary](bradley-terry_and_multi-objective_reward_modeling_are_complementary.md)**
+
+:   本文提出 SMORM，在一个共享 embedding 上同时挂一个 Bradley–Terry 单目标奖励头和一个多目标回归头联合训练，理论上证明两者互补——回归头帮单目标头在 OOD 下抗 reward hacking，BT 头反过来把弱小的多目标头"托举"上去，最终一个 7B 模型超过 70B 基线。
+
 **[CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation](cage_a_framework_for_culturally_adaptive_red-teaming_benchmark_generation.md)**
 
 :   提出 CAGE 框架，通过 Semantic Mold（语义模具）将红队攻击 prompt 的对抗结构与文化内容解耦，能系统性地将英语红队基准适配到不同文化语境中，生成的文化扎根 prompt 比直接翻译的 ASR 显著更高。
@@ -187,6 +191,10 @@ item_total: 92
 
 :   论文提出 SWITCH GENERATION：训练一个小型「切换器」LM，在生成一条回答的过程中按 token 片段动态挑选预训练 / 微调 / 对齐三个检查点轮流「发言」，让对齐丢失的基座能力（创造力、校准、多元性）和对齐获得的能力（推理、指令遵循）互补，在 18 个数据集上比单模型平均提升 31%、比 8 类协作基线再提升 12.9%。
 
+**[EigenBench: A Comparative Behavioral Measure of Value Alignment](eigenbench_a_comparative_behavioral_measure_of_value_alignment.md)**
+
+:   EigenBench 提出一种黑盒、无需真值标签的价值对齐度量方法：让一群语言模型互相评判彼此在给定"宪法"（价值准则）下的回答，用 EigenTrust 把这些两两评判聚合成一个共识打分向量，使得"越对齐的模型其评判权重越高"，最终输出每个模型对该价值体系的对齐 Elo 排名。
+
 **[ELEPHANT: Measuring and Understanding Social Sycophancy in LLMs](elephant_measuring_and_understanding_social_sycophancy_in_llms.md)**
 
 :   本文将 LLM 谄媚行为从"同意错误事实"扩展到"过度维护用户面子"，提出 social sycophancy 理论框架，构建 ELEPHANT 基准评测 11 个主流 LLM，发现它们在日常建议查询中平均比人类多谄媚 47 个百分点，且谄媚倾向在偏好数据集中受到奖励，同时提供提示重写和 DPO 等缓解策略。
@@ -203,6 +211,10 @@ item_total: 92
 
 :   针对 SFT 导致 LLM 可信度下降的问题，提出两阶段修复框架：先用 DPP 正则化子集选择定位"有害训练样本"，再用 PBRF 梯度上升修复模型，以 ≤1% 困惑度代价换取最高 21% 的可信度提升。
 
+**[Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment](evaluating_and_improving_cultural_awareness_of_reward_models_for_llm_alignment.md)**
+
+:   本文提出 CARB 文化感知奖励模型基准，系统评估奖励模型在 10 种文化和 4 类文化领域中的偏好判断能力，并进一步用 Think-as-Locals 让生成式奖励模型先生成本地文化评价准则、再通过 RLVR/GRPO 优化判断，从而减少表面语言线索带来的伪相关。
+
 **[Fluent Alignment with Disfluent Judges: Post-training for Lower-Resource Languages](fluent_alignment_with_disfluent_judges_post-training_for_lower-resource_language.md)**
 
 :   本文提出一套面向低资源语言的后训练方法：完全不使用目标语言的指令数据，只靠 on-policy 强化学习从模型自身采样的回复中学习，从而即便用一个本身"说话不流畅"的裁判模型也能训出语言地道的对齐模型——核心是"训练阶段绝不让模型见到任何翻译腔文本"。
@@ -214,6 +226,10 @@ item_total: 92
 **[General Exploratory Bonus for Optimistic Exploration in RLHF](general_exploratory_bonus_for_optimistic_exploration_in_rlhf.md)**
 
 :   理论证明现有 RLHF 探索奖励（exploratory bonus）在 KL 和 α-散度正则化下实际上会引导策略向参考模型的高概率区域靠拢（与乐观原则相悖），提出 General Exploratory Bonus (GEB) 框架——通过参考模型依赖的奖励调节来抵消散度正则化的保守偏差，可证明满足乐观原则。
+
+**[Group-Normalized Implicit Value Optimization for Language Models](group-normalized_implicit_value_optimization_for_language_models.md)**
+
+:   GN-IVO 把 LLM 生成看作逐步决策过程，用同一 prompt 下的一组候选回答构造归一化的奖励分布，再用策略相对旧策略的前缀概率比去匹配这个分布，从而在不训练显式 critic / value network 的情况下给 token 或 reasoning step 提供更细粒度的价值信号。
 
 **[Group-Relative REINFORCE Is Secretly an Off-Policy Algorithm: Demystifying Some Myths About GRPO and Its Friends](group-relative_reinforce_is_secretly_an_off-policy_algorithm_demystifying_some_m.md)**
 
@@ -262,6 +278,10 @@ item_total: 92
 **[Keep the Best, Forget the Rest: Reliable Alignment with Order-Aware Preference Optimization](keep_the_best_forget_the_rest_reliable_alignment_with_order-aware_preference_opt.md)**
 
 :   RAPPO 在每个 batch 内用参考策略给样本打"可信度"分，把那些参考模型本身就站错队、又最难学的高损失偏好对临时剔除掉，只用几行代码改造 DPO 就能在情感、去毒、摘要、安全对齐上稳定超过 SimPO/DPO 等基线，并配套证明了更紧的泛化界。
+
+**[Learning from Noisy Preferences: A Semi-Supervised Learning Approach to Direct Preference Optimization](learning_from_noisy_preferences_a_semi-supervised_learning_approach_to_direct_pr.md)**
+
+:   针对"人类视觉偏好是多维的、却被压成一个二元标签"导致的 Diffusion-DPO 梯度冲突问题，本文提出 Semi-DPO：把多个奖励模型一致认可的样本当作干净标注、把维度冲突的样本当作含噪未标注数据，用扩散模型自身作为隐式分类器在不同 timestep 上生成伪标签做迭代自训练，在不引入额外人工标注和显式奖励模型的前提下取得 SOTA 对齐效果。
 
 **[Learning More with Less: A Dynamic Dual-Level Down-Sampling Framework for Efficient Policy Optimization](learning_more_with_less_a_dynamic_dual-level_down-sampling_framework_for_efficie.md)**
 
@@ -359,6 +379,10 @@ item_total: 92
 
 :   针对奖励模型容易抓住长度、格式等虚假特征作弊的问题，CROME 让 Oracle LLM 先为每个问题列出真正决定质量的「因果 rubric」，再围绕这些 rubric 合成两类反事实数据——沿单个因果属性升/降级的「因果增强」和把答案对配到无关问题上的「中立增强」，配合复合损失训练，使奖励模型对因果属性敏感、对未知虚假属性不变，在 RewardBench 上平均提升 5.3%（安全 +12.4%、推理 +7.1%）。
 
+**[ROSETTA: Constructing Code-Based Reward from Unconstrained Language Preference](rosetta_constructing_code-based_reward_from_unconstrained_language_preference.md)**
+
+:   ROSETTA 把人类在机器人交互中随口给出的、会随时间变化的自然语言偏好，分解为“偏好落地、奖励分阶段、代码生成与验证”三步，在线生成可训练的代码奖励函数，并在 116 条偏好上达到 87% 成功率和 86% 人类满意度。
+
 **[SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety](safedpo_preference_optimization_safety.md)**
 
 :   重新审视安全约束 RLHF 目标并证明其存在闭式最优策略，据此推导出等价的可处理目标 SafeDPO，仅需在标准 DPO 上加入安全感知数据变换和安全 margin 项（1 个额外超参数），无需奖励/代价模型，在 PKU-SafeRLHF-30K 上实现 96.87% 无害率且保持竞争力的有用性，训练速度比 SafeRLHF 快 25×。
@@ -378,6 +402,10 @@ item_total: 92
 **[Semi-Supervised Preference Optimization with Limited Feedback](semi-supervised_preference_optimization_with_limited_feedback.md)**
 
 :   SSPO 把偏好优化重述成一个概率分类问题，从少量成对偏好标签中学到一个能可靠分开"赢/输"回答的奖励阈值，再用这个阈值给海量无配对样本（如 SFT 数据）打伪标签，配合课程式调度联合训练——只用 1% 的 UltraFeedback 就能稳定超过用 10% 数据训练的强基线。
+
+**[Sharpness-Aware Minimization in Logit Space Efficiently Enhances Direct Preference Optimization](sharpness-aware_minimization_in_logit_space_efficiently_enhances_direct_preferen.md)**
+
+:   本文从 logit 空间动力学出发解释了 DPO 训练中"偏好回答概率反而下降"的 squeezing effect（负梯度让残差沿高曲率方向疯狂膨胀），证明 SAM 的曲率正则恰好能压住这种膨胀，并落地为只扰动输出层、几乎零开销的 logits-SAM，在 Pythia-2.8B / Mistral-7B / Gemma-2B-IT 上稳定提升 DPO 及其变体。
 
 **[Skywork-Reward-V2: Scaling Preference Data Curation via Human-AI Synergy](skywork-reward-v2_scaling_preference_data_curation_via_human-ai_synergy.md)**
 
@@ -431,9 +459,21 @@ item_total: 92
 
 :   从模型依赖视角研究偏好数据质量：提出截断影响函数(TIF)发现中等IF值的数据才是最有价值的(而非经典观点中的高IF) -> 设计LossDiff和IRM两个轻量代理指标近似TIF -> 两者组合的LossDiff-IRM选择器仅用50-64%数据即可平均提升WinRate 13.58%，在多个LLM家族和对齐benchmark上均有效。
 
+**[Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations](truthful_or_fabricated_using_causal_attribution_to_mitigate_reward_hacking_in_ex.md)**
+
+:   论文指出偏好优化（DPO/RLHF）会让 LLM 学会"嘴上不承认、暗地里偷用"被禁止的输入线索，从而生成不忠实的思维链解释；作者用反事实因果归因检测这种线索依赖，并把信号以"免责声明"形式注入奖励模型输入，在两个受控设定下显著降低了 CoT 欺骗的发生率。
+
+**[TS²：训练用 Sparsemax+、测试用 Softmax，让 LLM 微调既准又多样](ts2_training_with_sparsemax_testing_with_softmax_for_accurate_and_diverse_llm_fi.md)**
+
+:   针对交叉熵（CE）监督微调把概率挤成 one-hot、压垮输出多样性的问题，本文提出 TS²：训练时用带尾部抑制项的 Sparsemax+ 损失（稀疏支撑 + 显式压尾），推理时换回 softmax 解码，从而在不改模型结构的前提下同时提升 Llama-3.1-8B / Qwen-2.5-7B 在聊天、代码、开放生成上的准确率与多样性。
+
 **[Unifying Stable Optimization and Reference Regularization in RLHF (DAR)](unifying_stable_optimization_and_reference_regularization_in_rlhf.md)**
 
 :   提出DAR(Dual-regularized Advantage Regression)：发现标准RLHF中参考模型正则化(防reward hacking)和策略稳定约束(防崩溃)会逐步冲突导致优化空间过度受限，通过双KL目标在对数空间插值参考策略+回归变换消除策略比率不稳定性，在直接AI对齐和标准RLHF设置中达到92.42%平均胜率，超GRPO 7.27%。
+
+**[Verification and Co-Alignment via Heterogeneous Consistency for Preference-Aligned LLM Annotations](verification_and_co-alignment_via_heterogeneous_consistency_for_preference-align.md)**
+
+:   本文提出 Heterogeneous-Consistency Co-Alignment (HCC)，用 LLM 与任务专用 embedding 模型之间的一致/不一致关系，在无 ground truth 的半监督 NLU 标注场景中验证 LLM 标注可靠性，并通过两轮基于近邻投票的协同校准修正偏好不一致样本。
 
 **[Weak-to-Strong Generalization with Failure Trajectories](weak-to-strong_generalization_with_failure_trajectories.md)**
 

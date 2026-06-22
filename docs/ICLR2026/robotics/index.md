@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 机器人/具身智能论文汇总 · 140篇论文解读
+  ICLR2026 机器人/具身智能论文汇总 · 162篇论文解读
 description: >-
-  140篇ICLR2026的机器人/具身智能方向论文解读，涵盖机器人、多模态、Agent、强化学习、导航、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  162篇ICLR2026的机器人/具身智能方向论文解读，涵盖机器人、多模态、强化学习、导航、Agent、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "机器人/具身智能"
@@ -10,9 +10,9 @@ tags:
   - "论文笔记"
   - "机器人"
   - "多模态"
-  - "Agent"
   - "强化学习"
   - "导航"
+  - "Agent"
   - "扩散模型"
 item_list:
   - u: "a_primer_on_so3_action_representations_in_deep_reinforcement_learning/"
@@ -25,12 +25,18 @@ item_list:
     t: "Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation"
   - u: "action_chunking_and_data_augmentation_yield_exponential_improvements_in_behavior/"
     t: "Action Chunking and Exploratory Data Collection Yield Exponential Improvements in Behavior Cloning for Continuous Control"
+  - u: "actions_as_language_fine-tuning_vlms_into_vlas_without_catastrophic_forgetting/"
+    t: "Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting"
+  - u: "align-then-steer_adapting_the_vision-language_action_models_through_unified_late/"
+    t: "Align-Then-stEer: Adapting the Vision-Language Action Models through Unified Latent Guidance"
   - u: "all-day_multi-scenes_lifelong_vision-and-language_navigation_with_tucker_adaptat/"
     t: "All-day Multi-scenes Lifelong Vision-and-Language Navigation with Tucker Adaptation"
   - u: "anytouch_2_general_optical_tactile_representation_learning_for_dynamic_tactile_p/"
     t: "AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception"
   - u: "apple_toward_general_active_perception_via_reinforcement_learning/"
     t: "APPLE: Toward General Active Perception via Reinforcement Learning"
+  - u: "artvip_articulated_digital_assets_of_visual_realism_modular_interaction_and_phys/"
+    t: "ArtVIP: Articulated Digital Assets of Visual Realism, Modular Interaction, and Physical Fidelity for Robot Learning"
   - u: "autobio_a_simulation_and_benchmark_for_robotic_automation_in_digital_biology_lab/"
     t: "AutoBio: A Simulation and Benchmark for Robotic Automation in Digital Biology Laboratory"
   - u: "autofly_vision-language-action_model_for_uav_autonomous_navigation_in_the_wild/"
@@ -69,23 +75,17 @@ item_list:
     t: "D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI"
   - u: "datamil_selecting_data_for_robot_imitation_learning_with_datamodels/"
     t: "DataMIL: Selecting Data for Robot Imitation Learning with Datamodels"
-  - u: "demograsp_universal_dexterous_grasping_from_a_single_demonstration/"
-    t: "DemoGrasp: Universal Dexterous Grasping from a Single Demonstration"
-  - u: "dexmove_learning_tactile-guided_non-prehensile_manipulation_with_dexterous_hands/"
-    t: "DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands"
-  - u: "dexndm_closing_the_reality_gap_for_dexterous_in-hand_rotation_via_joint-wise_neu/"
-    t: "DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model"
-item_total: 140
+item_total: 162
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🔬 ICLR2026** · **140** 篇论文解读
+**🔬 ICLR2026** · **162** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (146)](../../CVPR2026/robotics/index.md) · [💬 ACL2026 (11)](../../ACL2026/robotics/index.md) · [🧪 ICML2026 (53)](../../ICML2026/robotics/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/robotics/index.md) · [🧠 NeurIPS2025 (75)](../../NeurIPS2025/robotics/index.md) · [📹 ICCV2025 (26)](../../ICCV2025/robotics/index.md)
 
-🔥 **高频主题：** 机器人 ×50 · 多模态 ×30 · Agent ×13 · 强化学习 ×12 · 导航 ×12
+🔥 **高频主题：** 机器人 ×61 · 多模态 ×38 · 强化学习 ×13 · 导航 ×13 · Agent ×13
 
 **[A Primer on SO(3) Action Representations in Deep Reinforcement Learning](a_primer_on_so3_action_representations_in_deep_reinforcement_learning.md)**
 
@@ -107,6 +107,14 @@ item_total: 140
 
 :   本文用控制理论中的"增量稳定性"为模仿学习两大经验技巧——动作分块（action chunking）与专家噪声注入式数据增强——给出了首个理论保证，证明它们能在不同情形下把连续控制行为克隆中随时间指数级累积的复合误差压成"水平无关（horizon-free）"。
 
+**[Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting](actions_as_language_fine-tuning_vlms_into_vlas_without_catastrophic_forgetting.md)**
+
+:   把机器人末端执行器的低层动作直接写成自然语言文本喂给 VLM，让微调数据落回预训练分布，从而只用 LoRA 就能把 Gemma-3-12B 变成机器人策略（VLA），在 800+ 次真机实验中保留 85%+ 的 VQA 能力并实现多语言指令、开放世界语义的零样本泛化。
+
+**[Align-Then-stEer: Adapting the Vision-Language Action Models through Unified Latent Guidance](align-then-steer_adapting_the_vision-language_action_models_through_unified_late.md)**
+
+:   ATE 先把预训练机器人动作和目标机器人动作对齐到同一个结构化潜空间，再用潜空间距离产生的梯度指导扩散式或流匹配式 VLA 微调，从而在有限演示数据下更快适配新具身和新任务。
+
 **[All-day Multi-scenes Lifelong Vision-and-Language Navigation with Tucker Adaptation](all-day_multi-scenes_lifelong_vision-and-language_navigation_with_tucker_adaptat.md)**
 
 :   提出Tucker Adaptation (TuKA)，将多场景多环境的多层级导航知识表示为高阶张量，用Tucker分解解耦为共享子空间（核心张量+编解码器）和场景/环境专家向量，配合解耦知识增量学习策略实现全天候多场景终身VLN，在24个导航场景上的SR和遗忘率均优于LoRA变体。
@@ -118,6 +126,10 @@ item_total: 140
 **[APPLE: Toward General Active Perception via Reinforcement Learning](apple_toward_general_active_perception_via_reinforcement_learning.md)**
 
 :   提出APPLE——一种结合强化学习与监督学习的通用主动感知框架，将主动感知建模为POMDP，奖励函数设计为RL奖励减去预测损失，梯度自然分解为策略梯度和预测损失梯度两部分，基于off-policy算法（SAC/CrossQ）和共享ViViT骨干网络，在5个不同任务基准上验证通用性，其中CrossQ变体无需逐任务调参且训练效率提高53%。
+
+**[ArtVIP: Articulated Digital Assets of Visual Realism, Modular Interaction, and Physical Fidelity for Robot Learning](artvip_articulated_digital_assets_of_visual_realism_modular_interaction_and_phys.md)**
+
+:   ArtVIP 构建了一套 992 个高质量数字孪生关节物体和配套室内场景，通过统一建模规范、关节物理调参、资产内嵌交互行为与像素级 affordance 标注，让机器人学习算法能在更接近真实世界的仿真环境中训练、评测和迁移。
 
 **[AutoBio: A Simulation and Benchmark for Robotic Automation in Digital Biology Laboratory](autobio_a_simulation_and_benchmark_for_robotic_automation_in_digital_biology_lab.md)**
 
@@ -199,6 +211,10 @@ item_total: 140
 
 :   DemoGrasp 从**一条**成功抓取演示出发，让 RL 策略只学"如何编辑这条演示"（改手腕位姿决定抓哪、改手指关节决定怎么抓），把高维长程的灵巧抓取压成一个单步决策问题，用二值成功+碰撞惩罚这种极简奖励就能在数千物体上训出通用策略，仿真 95%、真机 110 个未见物体 86.5% 成功率，并能跨七种机械手本体迁移。
 
+**[Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative](demystifying_robot_diffusion_policies_action_memorization_and_a_simple_lookup_ta.md)**
+
+:   这篇论文系统证明小数据机器人模仿学习中的 Diffusion Policy 更像是在根据当前图像检索训练集动作片段，而不是学习可泛化的动作生成器，并提出一个显式的 Action Lookup Table (ALT) 用对比学习嵌入 + 最近邻检索达到接近 Diffusion Policy 的表现，同时推理更快、OOD 判断更直接。
+
 **[DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands](dexmove_learning_tactile-guided_non-prehensile_manipulation_with_dexterous_hands.md)**
 
 :   DexMove 用「大规模仿真轨迹 + 少量人类触觉示范」的混合数据范式，训练一个流匹配策略让多指灵巧手通过腕指协同 + 触觉闭环来推、转桌面物体（非抓取式重定位），真机 6 类物体平均成功率 77.8%，比消融基线高 36.6%、效率提升近 300%。
@@ -271,6 +287,10 @@ item_total: 140
 
 :   证明 LLM 无法通过 prompting 自我纠正其错误的规划先验知识（物品依赖关系），提出 XENON——通过算法化的知识管理（自适应依赖图 ADG + 失败感知动作记忆 FAM）从二值反馈中学习，使 7B LLM 在 Minecraft 长期规划中超越使用 GPT-4V + oracle 知识的 SOTA。
 
+**[FASTer: Toward Powerful and Efficient Autoregressive Vision-Language-Action Models with Learnable Action Tokenizer and Block-wise Decoding](faster_toward_powerful_and_efficient_autoregressive_visionlanguageaction_models_.md)**
+
+:   FASTer 把连续机器人动作先压缩成结构化离散 action code，再用 block-wise 自回归 VLA 一次生成一块 action token，在保持高精度控制的同时显著降低自回归推理延迟，并在多种模拟和真实机器人上超过现有 VLA 基线。
+
 **[From Embedding to Control: Representations for Stochastic Multi-Object Systems](from_embedding_to_control_representations_for_stochastic_multi-object_systems.md)**
 
 :   本文提出 Graph Controllable Embeddings (GCE)，把随机多体系统的条件分布嵌入到再生核希尔伯特空间（RKHS）中使非线性动力学变线性，再结合图神经网络与平均场近似自适应建模非均匀交互，从而用简单的线性 LQR 控制器实现对随机、变拓扑多体系统的高效控制与少样本泛化。
@@ -319,6 +339,10 @@ item_total: 140
 
 :   针对高自由度全身机器人专家数据稀缺的问题，HVD 把离线 RL 的价值函数沿机器人运动学结构（base/torso/arm）做分层分解，从大量不完美数据中做价值筛选，配合时序 chunking 实现细粒度信用分配，在真实 21-DoF 人形机器人五项任务上显著超过模仿学习基线。
 
+**[House Of Dextra : Cross-Embodied Co-Design for Dexterous Hands](house_of_dextra_cross-embodied_co-design_for_dexterous_hands.md)**
+
+:   House of Dextra 提出一个面向灵巧手的跨 embodiment 协同设计框架，把可制造的模块化手型语法、形态条件控制策略和图启发式搜索连起来，在仿真中筛选并微调手型，最终把 3 指、4 指、5 指等多种设计零样本部署到真实硬件上完成盲手内旋转。
+
 **[HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion](hwc-loco_a_hierarchical_whole-body_control_approach_to_robust_humanoid_locomotio.md)**
 
 :   HWC-Loco 把人形机器人运动控制重写为「鲁棒优化」问题，用一个高层规划器在「目标跟踪」与「安全恢复」两个底层策略之间动态切换，从而在保证 ZMP 稳定性的同时不牺牲任务性能，在多地形、多扰动、多本体的真机与仿真上都拿到 SOTA。
@@ -343,6 +367,10 @@ item_total: 140
 
 :   受人类左脑语义理解、右脑空间认知的启发，提出 JanusVLN——首个为 VLN 设计的双隐式神经记忆框架，将空间几何记忆和视觉语义记忆分别建模为固定大小的 KV Cache，仅凭 RGB 视频即可实现高效空间推理，在 VLN-CE 基准上取得 SOTA。
 
+**[Latent Adaptation of Foundation Policies for Sim-to-Real Transfer](latent_adaptation_of_foundation_policies_for_sim-to-real_transfer.md)**
+
+:   这篇论文提出 Found-adapt：先在模拟器离线轨迹上预训练可复用的 latent-conditioned foundation policy，再在部署时只用少量目标域数据修正隐变量 $z$，从而在不重训策略网络的情况下缓解机器人运动控制中的动力学 sim-to-real gap。
+
 **[Learning to Grasp Anything By Playing with Random Toys](learning_to_grasp_anything_by_playing_with_random_toys.md)**
 
 :   LEGO 用「球、立方体、圆柱、环」四种形状基元随机拼成的 3D 打印「玩具」来训练抓取策略，靠一个把视觉注意力锁死在目标物体上的检测池化（DetPool）机制学到物体中心表征，从而在真实 YCB 物体上零样本拿到 67% 抓取成功率，反超数据量和参数量都大上几个数量级的 VLA 大模型。
@@ -351,6 +379,10 @@ item_total: 140
 
 :   LeRobot 是 Hugging Face 推出的端到端机器人学习开源库，从底层电机中间件、统一多模态数据集格式、解耦异步推理栈到一系列 SOTA 策略实现一体打通，把分散、闭源、各自为政的机器人学习工具栈整合成一个可复现、低门槛的垂直集成平台。
 
+**[Lifelong Embodied Navigation Learning](lifelong_embodied_navigation_learning.md)**
+
+:   本文提出 Lifelong Embodied Navigation Learning 任务和 Uni-Walker 框架，让 LLM 驱动的具身导航代理按顺序学习 VLN、OLN、DUN 等多类导航任务时，既能吸收新场景和新指令风格，又能显著降低旧任务遗忘。
+
 **[M³E: Continual Vision-and-Language Navigation via Mixture of Macro and Micro Experts](m3e_continual_vision-and-language_navigation_via_mixture_of_macro_and_micro_expe.md)**
 
 :   M³E 把 LLM 导航智能体的 FFN 层换成"宏观+微观"双路由的 MoE-LoRA 层——宏观路由用 GNN 在认知地图上做拓扑感知的场景级专家选择，微观路由按 token 隐状态做指令级专家选择——再配一个动态动量更新策略冻结/激进更新不同专家，从而在**不存任何历史轨迹（replay-free）**的前提下实现跨环境持续学习，在 R2R / REVERIE 上同时改善导航成功率和抗遗忘能力。
@@ -358,6 +390,10 @@ item_total: 140
 **[ManipEvalAgent: Promptable and Efficient Evaluation Framework for Robotic Manipulation Policies](manipevalagent_promptable_and_efficient_evaluation_framework_for_robotic_manipul.md)**
 
 :   ManipEvalAgent 用一组协作的 VLM Agent 模仿人类专家"少量上手试几次就形成判断"的方式，对机器人操作策略做可提示、多轮、动态规划的评估——通过代码生成在仿真器里现造任务与评测工具，用远少于全量基准的采样得到与之相当的结论，同时给出可解释的诊断文本而非一个冷冰冰的成功率。
+
+**[Manipulation as in Simulation: Enabling Accurate Geometry Perception in Robots](manipulation_as_in_simulation_enabling_accurate_geometry_perception_in_robots.md)**
+
+:   这篇论文提出相机专属的 Camera Depth Models，把真实深度相机的粗糙 RGB-D 输入校正成接近仿真的高质量度量深度，从而让只在仿真干净深度上训练的机器人操作策略可以零微调迁移到真实长程任务。
 
 **[Masked Generative Policy for Robotic Control](masked_generative_policy_for_robotic_control.md)**
 
@@ -418,6 +454,10 @@ item_total: 140
 **[One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration](one_demo_is_all_it_takes_planning_domain_derivation_with_llms_from_a_single_demo.md)**
 
 :   提出 PDDLLM 框架，仅需**一个演示轨迹**即可自动推导完整的 PDDL 规划域（谓词+动作），通过 LLM 推理与物理仿真的交叉验证生成可解释的符号表示，并借助逻辑约束适配器 (LoCA) 自动对接运动规划器，在 9 个环境 1200+ 任务中成功率领先 6 个 LLM 基线至少 20%，且成功部署于 3 个物理机器人平台。
+
+**[OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning](onetwovla_a_unified_vision-language-action_model_with_adaptive_reasoning.md)**
+
+:   OneTwoVLA 把机器人里的快动作执行和慢语言推理统一到同一个 VLA 中，让模型在关键时刻用 `[BOR]` 触发推理、平时用 `[BOA]` 直接输出动作，从而在长程操作、错误恢复、人机交互和开放视觉 grounding 上明显优于无推理 VLA 与双系统方案。
 
 **[PA3FF：面向可泛化铰接物体操作的部件感知稠密 3D 特征场](pa3fflearning_part-aware_dense_3d_feature_field_for_generalizable_articulated_ob.md)**
 
@@ -487,9 +527,21 @@ item_total: 140
 
 :   为预训练的机器人操作策略训练一个独立的深度 RL「诊断策略」πMD，让它在一个由少量成功/失败数据学出来的连续视觉-语言嵌入空间里搜索，把这个空间当作「势场」朝失效区漂移、远离成功区，从而不用大量真机试验就能预测出操作策略会在哪些环境变化下失效——比 SOTA 的视觉-语言基线多挖出最多 23% 的独特漏洞。
 
+**[RoboOmni: Proactive Robot Manipulation in Omni-modal Context](roboomni_proactive_robot_manipulation_in_omni-modal_context.md)**
+
+:   RoboOmni 把语音、环境声音、视觉观察和机器人动作放进统一的 omni-modal LLM 框架中，让机器人能从没有显式命令的家庭上下文里主动推断用户意图、先用语音确认，再执行 7-DoF 操作动作。
+
 **[RoboPARA: Dual-Arm Robot Planning with Parallel Allocation and Recomposition Across Tasks](robopara_dual-arm_robot_planning_with_parallel_allocation_and_recomposition_acro.md)**
 
 :   提出 RoboPARA 框架，通过依赖图构建和图重遍历两阶段优化双臂机器人的任务并行性，在多场景基准上实现相比现有方法 30-50% 的执行时间缩减和 34% 的成功率提升。
+
+**[RobotArena ∞: Scalable Robot Benchmarking via Real-to-Sim Translation](robotarena_infty_scalable_robot_benchmarking_via_real-to-sim_translation.md)**
+
+:   本文提出 RobotArena ∞，一个把真实机器人演示视频**自动翻译成仿真数字孪生**、再在其中部署 VLA 策略并用「VLM 进度分 + 众包人类成对偏好」双轨打分的可扩展评测框架，用 8500+ 对偏好比较了来自全球实验室的 6 个 VLA，揭示了当前策略跨数据集泛化弱、对扰动敏感的现实。
+
+**[Robotic Manipulation by Imitating Generated Videos Without Physical Demonstrations](robotic_manipulation_by_imitating_generated_videos_without_physical_demonstratio.md)**
+
+:   RIGVid 让机器人仅靠"AI 生成的视频"完成倒水、扫垃圾等操作任务——给定语言指令和场景图，用视频扩散模型生成示范视频、用 VLM 过滤失败生成、再从视频里追踪物体的 6D 位姿轨迹并重定向到机械臂执行，全程不需要任何真实示范或机器人训练数据，效果与真人示范视频持平。
 
 **[Robust Finetuning of Vision-Language-Action Robot Policies via Parameter Merging](robust_fine-tuning_of_vision-language-action_robot_policies_via_parameter_mergin.md)**
 
@@ -511,9 +563,25 @@ item_total: 140
 
 :   提出Qflex(Q-guided Flow Exploration)——在高维连续动作空间中实现可扩展探索的RL方法：从可学习源分布沿Q函数诱导的概率流传输动作→探索与任务相关梯度对齐(而非各向同性噪声)→在多种高维基准上超越高斯/扩散RL基线,成功控制700执行器的全身人体肌骨模型执行敏捷复杂动作。
 
+**[Scaling up Memory for Robotic Control via Experience Retrieval](scaling_up_memory_for_robotic_control_via_experience_retrieval.md)**
+
+:   MemER 把长程机器人任务里的“记住过去”拆给一个高层 VLM 来做：它从最近观测中提名任务相关关键帧、用轻量时间聚类压成稳定视觉记忆，再把当前子任务交给低层 VLA 执行，从而在三类真实长程操控任务上接近人类高层策略表现。
+
 **[Self-Improving Vision-Language-Action Models with Data Generation via Residual RL](self-improving_vision-language-action_models_with_data_generation_via_residual_r.md)**
 
 :   本文提出 **PLD（Probe-Learn-Distill）** 三阶段后训练框架：冻结 VLA 主干、用轻量残差 RL 在基础策略失败的状态上"接管"练出专家，再用"先让基础策略走几步、再让残差专家接管"的混合 rollout 自动采集与部署分布对齐的恢复数据，最后用标准 SFT 蒸馏回基础模型；无需任何额外人类示教，就在 LIBERO 上逼近 99% 成功率、SimplerEnv 提升 50%+，真机 Franka/YAM 任务 100% 成功并连续自主运行 1 小时。
+
+**[Self-Refining Vision Language Model for Robotic Failure Detection and Reasoning](self-refining_vision_language_model_for_robotic_failure_detection_and_reasoning.md)**
+
+:   ARMOR把机器人失败理解拆成二分类检测和自然语言解释两个协同任务，用多轮自我 refinement、稀疏/稠密标签混合训练和基于熵的轨迹选择，在模拟和真实仓储机器人数据上同时提升失败检测准确率与解释质量。
+
+**[Sim2Real VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation](sim2real_vla_zero-shot_generalization_of_synthesized_skills_to_realistic_manipul.md)**
+
+:   Sim2Real-VLA 用“高层 affordance 链规划 + 低层 token 化动作执行”的双系统 VLA 架构，把纯仿真生成的操控技能零样本迁移到真实机器人上，在双臂、灵巧和长时程任务中显著缩小 Sim2Real gap。
+
+**[SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning](simplevla-rl_scaling_vla_training_via_reinforcement_learning.md)**
+
+:   SimpleVLA-RL 把 LLM 领域的 outcome-driven online RL 改造成适合 Vision-Language-Action 模型的闭环机器人训练框架，用交互式轨迹采样、二值成功奖励和探索增强的 GRPO，在 LIBERO、RoboTwin 与真实机器人任务上显著提升数据效率、泛化和长程操作成功率。
 
 **[SLAP: Shortcut Learning for Abstract Planning](slap_shortcut_learning_for_abstract_planning.md)**
 
@@ -522,6 +590,14 @@ item_total: 140
 **[Sparse Imagination for Efficient Visual World Model Planning](sparse_imagination_for_efficient_visual_world_model_planning.md)**
 
 :   提出 Sparse Imagination，在基于 ViT patch token 的世界模型规划中通过随机丢弃 token 和随机分组注意力训练实现大幅推理加速（50% 丢弃率可减少约 50% 规划时间），同时保持甚至在某些任务上超越全量 token 的规划性能。关键发现是简单随机丢弃优于复杂的 token 选择方法，原因是静态重要性排序在动态规划场景中存在"盲点问题"。
+
+**[Spatial Forcing: Implicit Spatial Representation Alignment for Vision-language-action Model](spatial_forcing_implicit_spatial_representation_alignment_for_vision-language-ac.md)**
+
+:   Spatial Forcing 用预训练 3D 基础模型 VGGT 的几何 latent 来监督 VLA 的中间视觉 token，使机器人策略在推理时不额外输入深度图或点云，也能学到更强的空间理解，并在 LIBERO、RoboTwin 和真实机器人任务上提升成功率、收敛速度和数据效率。
+
+**[Spatially Guided Training for Vision-Language-Action Model](spatially_guided_training_for_vision-language-action_model.md)**
+
+:   ST4VLA 通过先让 VLM 学会点、框、轨迹等空间先验，再在动作后训练阶段用空间提示把这些先验作为隐式规划条件注入 DiT 动作专家，显著缓解 VLA 训练中“会看但不会动”或“会动后忘了怎么看”的问题，并在 SimplerEnv、LIBERO、仿真大规模 pick-and-place 与真实机器人长程任务上取得更强泛化。
 
 **[SpikePingpong: Spike Vision-based Fast-Slow Pingpong Robot System](spikepingpong_spike_vision-based_fast-slow_pingpong_robot_system.md)**
 
@@ -625,6 +701,14 @@ item_total: 140
 
 :   本文搭了一个只加 <1% 参数的极简适配 pipeline（VLM4VLA），把 17 个通用 VLM 公平地转成 VLA 策略，系统研究"VLM 强不强是否决定 VLA 好不好"，结论是：VLM 预训练是必要前提，但通用能力、甚至具身专项能力都难以预测下游控制表现，真正的瓶颈在视觉编码器。
 
+**[VLMgineer: Vision-Language Models as Robotic Toolsmiths](vlmgineer_vision-language_models_as_robotic_toolsmiths.md)**
+
+:   VLMgineer 把 VLM 的视觉-语言理解、代码生成和常识先验放进演化搜索循环中，自动为机器人任务共同设计 URDF 工具和离散动作轨迹，在 12 个工具使用任务、演化消融和真实 Franka 机器人验证中都显示出比人类提示、普通采样和现成工具更强的任务完成能力。
+
+**[When a Robot is More Capable than a Human: Learning from Constrained Demonstrators](when_a_robot_is_more_capable_than_a_human_learning_from_constrained_demonstrator.md)**
+
+:   这篇论文提出 Learning from Constrained Demonstrations (LfCD) 问题，并用 LfCD-GRIP 从受限人类示范中学习 state-only 的目标接近奖励，再通过置信度锚点和轨迹插值把奖励传播到示范外状态，使机器人能利用更大的动作空间走出比示范者更短、更快的轨迹。
+
 **[When would Vision-Proprioception Policies Fail in Robotic Manipulation?](when_would_vision-proprioception_policies_fail_in_robotic_manipulation.md)**
 
 :   揭示视觉-本体感觉操作策略在运动转换阶段（motion-transition phases）会失效的原因——本体感觉信号在优化中占主导导致视觉学习被抑制，并提出Gradient Adjustment with Phase-guidance (GAP)算法，通过自适应调低本体感觉梯度来恢复视觉模态的学习，在仿真和真实环境中均显著提升策略的泛化性。
@@ -644,3 +728,7 @@ item_total: 140
 **[WorldGym: World Model as an Environment for Policy Evaluation](worldgym_world_model_as_an_environment_for_policy_evaluation.md)**
 
 :   本文训练一个动作条件的自回归视频世界模型 WorldGym，把它当作"虚拟环境"让机器人策略在里面跑 rollout、用 VLM 打分，从而在真机部署前就估出策略成功率——实验证明世界模型里的成功率与真实世界成功率高度相关（Pearson r=0.78），且能保持不同版本/规模/训练步数策略之间的相对排名。
+
+**[X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model](x-vla_soft-prompted_transformer_as_scalable_cross-embodiment_vision-language-act.md)**
+
+:   X-VLA 把每个机器人数据源的硬件与采集差异编码成一组可学习 soft prompt，并配合简洁的 Transformer + flow matching 动作生成框架，在大规模异构机器人数据预训练后实现强跨本体适配。

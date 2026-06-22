@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 AIGC检测论文汇总 · 23篇论文解读
+  ICLR2026 AIGC检测论文汇总 · 30篇论文解读
 description: >-
-  23篇ICLR2026的 AIGC 检测方向论文解读，涵盖 LLM、对抗鲁棒、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  30篇ICLR2026的 AIGC 检测方向论文解读，涵盖 LLM、对抗鲁棒、水印/隐写、扩散模型、推理、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "AIGC 检测"
@@ -10,10 +10,17 @@ tags:
   - "论文笔记"
   - "LLM"
   - "对抗鲁棒"
+  - "水印/隐写"
+  - "扩散模型"
+  - "推理"
   - "机器人"
 item_list:
+  - u: "a_rich_knowledge_space_for_scalable_deepfake_detection/"
+    t: "A Rich Knowledge Space for Scalable Deepfake Detection"
   - u: "all_patches_matter_more_patches_better_enhance_ai-generated_image_detection_via_/"
     t: "All Patches Matter, More Patches Better: Enhance AI-Generated Image Detection via Panoptic Patch Learning"
+  - u: "attack-resistant_watermarking_for_aigc_image_forensics_via_diffusion-based_seman/"
+    t: "Attack-Resistant Watermarking for AIGC Image Forensics via Diffusion-based Semantic Deflection"
   - u: "beyond_raw_detection_scores_markov-informed_calibration_for_boosting_machine-gen/"
     t: "Beyond Raw Detection Scores: Markov-Informed Calibration for Boosting Machine-Generated Text Detection"
   - u: "calibrating_verbalized_confidence_with_self-generated_distractors/"
@@ -32,6 +39,8 @@ item_list:
     t: "EditLens: Quantifying the Extent of AI Editing in Text"
   - u: "enabling_your_forensic_detector_know_how_well_it_performs_on_distorted_samples/"
     t: "Enabling Your Forensic Detector Know How Well It Performs on Distorted Samples"
+  - u: "exploring_specular_reflection_inconsistency_for_generalizable_face_forgery_detec/"
+    t: "Exploring Specular Reflection Inconsistency for Generalizable Face Forgery Detection"
   - u: "fakexplain_ai-generated_image_detection_via_human-aligned_grounded_reasoning/"
     t: "FakeXplain: AI-Generated Image Detection via Human-Aligned Grounded Reasoning"
   - u: "hld_approximate_hierarchical_linguistic_distribution_modeling_for_llm-generated_/"
@@ -42,6 +51,8 @@ item_list:
     t: "Is Your Paper Being Reviewed by an LLM? Benchmarking AI Text Detection in Peer Review"
   - u: "learn-to-distance_distance_learning_for_detecting_llm-generated_text/"
     t: "Learn-to-Distance: Distance Learning for Detecting LLM-Generated Text"
+  - u: "learning_from_dictionary_enhancing_robustness_of_machine-generated_text_detectio/"
+    t: "Learning From Dictionary: Enhancing Robustness of Machine-Generated Text Detection in Zero-Shot Language via Adversarial Training"
   - u: "no_pixel_left_behind_a_detail-preserving_architecture_for_robust_high-resolution/"
     t: "No Pixel Left Behind: A Detail-Preserving Architecture for Robust High-Resolution AI-Generated Image Detection"
   - u: "omni-iml_towards_unified_interpretable_image_manipulation_localization/"
@@ -52,27 +63,41 @@ item_list:
     t: "Preserving Forgery Artifacts: AI-Generated Video Detection at Native Scale"
   - u: "relayformer_a_unified_local-global_attention_framework_for_scalable_image_and_vi/"
     t: "RelayFormer: A Unified Local-Global Attention Framework for Scalable Image and Video Manipulation Localization"
+  - u: "semantic_visual_anomaly_detection_and_reasoning_in_ai-generated_images/"
+    t: "Semantic Visual Anomaly Detection and Reasoning in AI-Generated Images"
+  - u: "spherical_watermark_encryption-free_lossless_watermarking_for_diffusion_models/"
+    t: "Spherical Watermark: Encryption-Free, Lossless Watermarking for Diffusion Models"
+  - u: "tell_me_habibi_is_it_real_or_fake/"
+    t: "Tell me Habibi, is it Real or Fake?"
   - u: "tsm-bench_detecting_llm-generated_text_in_real-world_wikipedia_editing_practices/"
     t: "TSM-Bench: Detecting LLM-Generated Text in Real-World Wikipedia Editing Practices"
   - u: "untraceable_deepfakes_via_traceable_fingerprint_elimination/"
     t: "Untraceable DeepFakes via Traceable Fingerprint Elimination"
   - u: "unveiling_perceptual_artifacts_a_fine-grained_benchmark_for_interpretable_ai-gen/"
     t: "Unveiling Perceptual Artifacts: A Fine-Grained Benchmark for Interpretable AI-Generated Image Detection"
-item_total: 23
+item_total: 30
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC 检测
 
-**🔬 ICLR2026** · **23** 篇论文解读
+**🔬 ICLR2026** · **30** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (10)](../../CVPR2026/aigc_detection/index.md) · [💬 ACL2026 (17)](../../ACL2026/aigc_detection/index.md) · [🧪 ICML2026 (11)](../../ICML2026/aigc_detection/index.md) · [🤖 AAAI2026 (2)](../../AAAI2026/aigc_detection/index.md) · [🧠 NeurIPS2025 (9)](../../NeurIPS2025/aigc_detection/index.md) · [💬 ACL2025 (15)](../../ACL2025/aigc_detection/index.md)
 
-🔥 **高频主题：** LLM ×5 · 对抗鲁棒 ×2 · 机器人 ×2
+🔥 **高频主题：** LLM ×5 · 对抗鲁棒 ×4 · 水印/隐写 ×2 · 扩散模型 ×2 · 推理 ×2
+
+**[A Rich Knowledge Space for Scalable Deepfake Detection](a_rich_knowledge_space_for_scalable_deepfake_detection.md)**
+
+:   这篇论文把 11 个深度伪造与真实人脸数据源整合成 360 万图像规模的 MMI-DD 数据集，并提出 SD2 用 CLIP 的层级视觉特征、细粒度伪造类型文本标签和 VLM 生成描述联合训练，使 deepfake 检测器在大规模异构数据上不再越训越退化，而是获得更强的跨域与 AIGC 泛化能力。
 
 **[All Patches Matter, More Patches Better: Enhance AI-Generated Image Detection via Panoptic Patch Learning](all_patches_matter_more_patches_better_enhance_ai-generated_image_detection_via_.md)**
 
 :   本文提出"所有 patch 都重要、用得越多越好（All Patches Matter, More Patches Better）"的检测原则，发现现有 AI 生成图像（AIGI）检测器存在"少数 patch 偏置（Few-Patch Bias）"——只盯着极少数 patch 做判断；据此设计 Panoptic Patch Learning（PPL）框架，用随机 patch 重建 + patch 级对比学习把判别能力摊平到全图所有 patch，在 GenImage、DRCT-2M、AIGCDetectBenchmark 和真实场景 Chameleon 上都把跨生成器泛化性和鲁棒性显著刷高（CLIP backbone 在 GenImage 上 mAcc 97.2%、std 仅 1.7）。
+
+**[Attack-Resistant Watermarking for AIGC Image Forensics via Diffusion-based Semantic Deflection](attack-resistant_watermarking_for_aigc_image_forensics_via_diffusion-based_seman.md)**
+
+:   本文提出 PAI——一个免训练、即插即用的扩散模型固有水印框架，通过"初始化嵌入 + 密钥引导的去噪轨迹偏转"把用户身份和图像内容深度语义纠缠，再用 DDIM 逆向得到的"初始化偏差"作为统一取证信号，一举支撑版权验证、攻击检测与语义级篡改定位三件事，在 12 种攻击下平均验证准确率达 98.43%，比 SOTA 高 37.25%。
 
 **[Beyond Raw Detection Scores: Markov-Informed Calibration for Boosting Machine-Generated Text Detection](beyond_raw_detection_scores_markov-informed_calibration_for_boosting_machine-gen.md)**
 
@@ -110,6 +135,10 @@ item_total: 23
 
 :   提出 DACOM（失真感知置信度模型），让 AI 生成图像检测器能够输出样本级可信度分数，从而在失真严重时主动拒绝决策或将输入路由给更可靠的检测器，解决野外部署中检测器"哑巴式失败"问题。
 
+**[Exploring Specular Reflection Inconsistency for Generalizable Face Forgery Detection](exploring_specular_reflection_inconsistency_for_generalizable_face_forgery_detec.md)**
+
+:   这篇论文从人脸成像的物理原理出发，指出 Phong 光照模型里的「镜面反射」分量参数最多、非线性最强、最难被伪造方法复刻，于是用 Retinex 纹理估计精确分离出镜面反射，再用两阶段跨注意力网络 SRI-Net 建模「镜面反射↔纹理↔直射光」三者之间的不一致，在传统 deepfake 和扩散生成 deepfake 上都拿到 SOTA。
+
 **[FakeXplain: AI-Generated Image Detection via Human-Aligned Grounded Reasoning](fakexplain_ai-generated_image_detection_via_human-aligned_grounded_reasoning.md)**
 
 :   通过构建带人工标注边界框与描述的 FakeXplained 数据集，并用 SFT + 渐进式 GRPO 微调 MLLM，让模型在检测 AI 生成图像的同时，给出"哪里假、为什么假"的空间接地、人类对齐的解释，做到 98.2% 检测准确率与 36.0% IoU。
@@ -130,6 +159,10 @@ item_total: 23
 
 :   本文用几何投影视角解释了"重写式"LLM 文本检测方法的有效性，并据此提出 L2D——不再用固定距离衡量原文与重写文本的差异，而是自适应地**学习一个距离函数**，在 100+ 个设定上相对最强 baseline 取得 41.5%~75.4% 的平均提升。
 
+**[Learning From Dictionary: Enhancing Robustness of Machine-Generated Text Detection in Zero-Shot Language via Adversarial Training](learning_from_dictionary_enhancing_robustness_of_machine-generated_text_detectio.md)**
+
+:   针对机器生成文本（MGT）检测器在未见语言上鲁棒性骤降的问题，本文提出 TASTE 框架：用翻译词典对 MGT 做"码混（code-switching）"生成多语言对抗样本，配合一个梯度反转的语言判别器（LAAL 损失）逼检测器学习语言无关特征，仅靠单一语言标注 + 翻译词典就把零样本语言上的平均 F1 提到 0.773、平均攻击成功率压到 18.0%。
+
 **[No Pixel Left Behind: A Detail-Preserving Architecture for Robust High-Resolution AI-Generated Image Detection](no_pixel_left_behind_a_detail-preserving_architecture_for_robust_high-resolution.md)**
 
 :   提出 HiDA-Net：用「全局缩略图 + 覆盖全图的原分辨率切片」双路输入，配合特征聚合、token 级伪造定位和 JPEG 质量因子估计三件套，做到"不漏掉任何一个像素"，在高分辨率 AI 生成图像检测上大幅刷新 SOTA。
@@ -149,6 +182,18 @@ item_total: 23
 **[RelayFormer: A Unified Local-Global Attention Framework for Scalable Image and Video Manipulation Localization](relayformer_a_unified_local-global_attention_framework_for_scalable_image_and_vi.md)**
 
 :   RelayFormer 把任意分辨率的图像/视频切成固定大小的子图，用一小撮 [GLR] 接力 token 在子图之间传递场景级的全局一致性线索，从而在不做插值、不堆全分辨率注意力的前提下，用同一套架构同时完成图像和视频的篡改区域定位，并在多个 benchmark 上拿到 SOTA 且 FLOPs 可随输入动态伸缩。
+
+**[Semantic Visual Anomaly Detection and Reasoning in AI-Generated Images](semantic_visual_anomaly_detection_and_reasoning_in_ai-generated_images.md)**
+
+:   针对 AI 生成图像里那些"看着真、细想假"的语义级异常（违反物理、常识、解剖逻辑），本文把它形式化成一个"检测 + 解释 + 评分"的任务，用多智能体流水线 AnomAgent 加轻量人工校验造出 21.5K 图、十几万条结构化四元组标注的 AnomReason 基准，并提出语义匹配指标 SemAP/SemF1；在此微调出的 AnomReasonor-7B 在语义检测上超过所有开源 VLM、逼近 GPT-4o。
+
+**[Spherical Watermark: Encryption-Free, Lossless Watermarking for Diffusion Models](spherical_watermark_encryption-free_lossless_watermarking_for_diffusion_models.md)**
+
+:   本文提出 Spherical Watermark：一种免加密、无损的扩散模型水印框架，把二进制水印先经矩阵混合成高熵码、再通过"投影到单位球面 → 正交旋转 → 卡方半径缩放"精确还原成标准高斯噪声，作为扩散初始噪声注入图像；既不改模型权重、不存逐图密钥，又在保真度、溯源精度、计算效率和抗攻击鲁棒性上同时超过有损与无损基线。
+
+**[Tell me Habibi, is it Real or Fake?](tell_me_habibi_is_it_real_or_fake.md)**
+
+:   本文提出 **ArEnAV**——首个面向「阿拉伯语-英语句内语码转换（code-switching, CSW）」的大规模音视频深度伪造数据集（387k 视频、765+ 小时），用一条整合 4 个 TTS + 2 个唇形同步模型的生成流水线，把真实 YouTube 视频里说话内容做「内容驱动」的语义篡改，并系统证明现有 SOTA 检测/定位模型与人类在这种多语种、语码转换场景下几乎全部失效。
 
 **[TSM-Bench: Detecting LLM-Generated Text in Real-World Wikipedia Editing Practices](tsm-bench_detecting_llm-generated_text_in_real-world_wikipedia_editing_practices.md)**
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 信息检索/RAG论文汇总 · 73篇论文解读
+  ICLR2026 信息检索/RAG论文汇总 · 81篇论文解读
 description: >-
-  73篇ICLR2026的信息检索/RAG 方向论文解读，涵盖 RAG、推理、LLM、多模态、问答、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  81篇ICLR2026的信息检索/RAG 方向论文解读，涵盖 RAG、推理、LLM、多模态、问答、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "信息检索/RAG"
@@ -49,6 +49,8 @@ item_list:
     t: "ChronoPlay: A Framework for Modeling Dual Dynamics and Authenticity in Game RAG Benchmarks"
   - u: "conformalized_hierarchical_calibration_for_uncertainty-aware_adaptive_hashing/"
     t: "Conformalized Hierarchical Calibration for Uncertainty-Aware Adaptive Hashing"
+  - u: "counterfactual_reasoning_for_retrieval-augmented_generation/"
+    t: "Counterfactual Reasoning for Retrieval-Augmented Generation"
   - u: "deep_global-sense_hard-negative_discriminative_generation_hashing_for_cross-moda/"
     t: "Deep Global-sense Hard-negative Discriminative Generation Hashing for Cross-modal Retrieval"
   - u: "deeprag_thinking_to_retrieve_step_by_step_for_large_language_models/"
@@ -73,19 +75,17 @@ item_list:
     t: "Frustratingly Simple Retrieval Improves Challenging, Reasoning-Intensive Benchmarks"
   - u: "g-reasoner_foundation_models_for_unified_reasoning_over_graph-structured_knowled/"
     t: "G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge"
-  - u: "graph-based_nearest_neighbors_with_dynamic_updates_via_random_walks/"
-    t: "Graph-based Nearest Neighbors with Dynamic Updates via Random Walks"
-item_total: 73
+item_total: 81
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🔬 ICLR2026** · **73** 篇论文解读
+**🔬 ICLR2026** · **81** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (73)](../../ACL2026/information_retrieval/index.md) · [🧪 ICML2026 (26)](../../ICML2026/information_retrieval/index.md) · [🤖 AAAI2026 (21)](../../AAAI2026/information_retrieval/index.md) · [🧠 NeurIPS2025 (25)](../../NeurIPS2025/information_retrieval/index.md) · [📹 ICCV2025 (5)](../../ICCV2025/information_retrieval/index.md) · [🧪 ICML2025 (6)](../../ICML2025/information_retrieval/index.md)
 
-🔥 **高频主题：** RAG ×15 · 推理 ×11 · LLM ×8 · 多模态 ×5 · 问答 ×3
+🔥 **高频主题：** RAG ×19 · 推理 ×12 · LLM ×8 · 多模态 ×5 · 问答 ×3
 
 **[A Dense Subset Index for Collective Query Coverage](a_dense_subset_index_for_collective_query_coverage.md)**
 
@@ -154,6 +154,10 @@ item_total: 73
 **[Conformalized Hierarchical Calibration for Uncertainty-Aware Adaptive Hashing](conformalized_hierarchical_calibration_for_uncertainty-aware_adaptive_hashing.md)**
 
 :   针对无监督域自适应哈希（UDAH）里伪标签噪声和盲目域对齐两大顽疾，COLA 用一套"分层保形校准"框架——语义层用保形预测集的大小量化样本可靠度、表示层预测每个哈希比特的稳定性——把不确定性从启发式阈值升级成带统计保证的连续权重，并用一个自调节闭环让这些权重反过来动态调度多目标损失，在 Office-Home / Office-31 / Digits 上把跨域检索 mAP 平均刷到新 SOTA。
+
+**[Counterfactual Reasoning for Retrieval-Augmented Generation](counterfactual_reasoning_for_retrieval-augmented_generation.md)**
+
+:   CF-RAG 把反事实查询生成、辩证式证据检索和并行证据仲裁嵌入 RAG 推理过程，用“证据是否只支持原问题而不支持相近反事实问题”来区分真正决定答案的证据和只是高度相关的干扰证据，从而显著提升 RAG 在多跳问答、长尾实体和噪声检索场景下的鲁棒性。
 
 **[Deep Global-sense Hard-negative Discriminative Generation Hashing for Cross-modal Retrieval](deep_global-sense_hard-negative_discriminative_generation_hashing_for_cross-moda.md)**
 
@@ -234,6 +238,14 @@ item_total: 73
 **[Improving Semantic Proximity in Information Retrieval through Cross-Lingual Alignment](improving_semantic_proximity_in_information_retrieval_through_cross-lingual_alig.md)**
 
 :   针对"两种语言文档共存"的真实检索场景，本文揭示主流多语言 embedding 会盲目把无关英文文档排到目标语言相关文档前面，提出新评测场景 + Max@R 指标量化这一偏置，并用 JSD 分布级对齐 + InfoNCE 检索两项损失，仅 2.8k 样本就大幅改善跨语言对齐、压平语言间性能差距，且不损害单语检索。
+
+**[Interact-RAG: Reason and Interact with the Corpus, Beyond Black-Box Retrieval](interact-rag_reason_and_interact_with_the_corpus_beyond_black-box_retrieval.md)**
+
+:   针对现有 agentic RAG 把检索当成"黑盒查询"、智能体只能反复换措辞的问题，本文提出 Interact-RAG，用一套"语料交互引擎"把检索过程拆开，给智能体多面检索、实体锚定、上下文塑形三类细粒度动作原语，再配合"规划-推理-执行"三模块工作流合成轨迹，经 SFT+RL 训出端到端自治智能体，在六个 RAG benchmark 上相对次优方法平均提升 22.5%。
+
+**[KaLM-Embedding-V2: Superior Training Techniques and Data Inspire A Versatile Embedding Model](kalm-embedding-v2_superior_training_techniques_and_data_inspire_a_versatile_embe.md)**
+
+:   这篇论文把一个 0.5B 的 Qwen2 解码器改造成全双向编码器，配上「预训练→微调→对比蒸馏」三阶段管线、Focal 风格重加权、在线难负样本混合，以及覆盖 100+ 类别的高质量数据工程，让 KaLM-Embedding-V2.5 在 MTEB 中英榜上拿下 <1B 参数段的 SOTA，甚至能和 3–26 倍大的模型掰手腕。
 
 **[Lean Finder: Semantic Search for Mathlib That Understands User Intents](lean_finder_semantic_search_for_mathlib_that_understands_user_intents.md)**
 
@@ -339,6 +351,14 @@ item_total: 73
 
 :   针对视频文本检索（VTR）模型在真实世界查询扰动下急剧崩溃的问题，本文先建了一个含 12 类时空扰动、5 个强度等级的 MLVP 基准，诊断出扰动会放大「hubness」（少数 gallery 视频霸占检索排名）这一根因，再提出测试时自适应框架 HAT-VTR——用 Hubness 抑制记忆（HSM）在相似度层面压制热点、用多粒度损失适配视频时序，在多种查询偏移场景下 Recall@1 平均大幅超过现有 TTA 方法。
 
+**[Seeing Through Words: Controlling Visual Retrieval Quality with Language Models](seeing_through_words_controlling_visual_retrieval_quality_with_language_models.md)**
+
+:   针对短查询（如「a dog」）在文本到图像检索里语义模糊、无法控制画质的问题，本文提出 QCQC：用一个生成式语言模型把短查询补全成富含细节的描述，并以离散化的「相关性 + 美学」质量等级作为条件，让用户能把检索结果朝指定质量档位（低/中/高）引导，且对任意冻结 VLM 即插即用。
+
+**[SmartChunk Retrieval: Query-Aware Chunk Compression with Planning for Efficient Document RAG](smartchunk_retrieval_query-aware_chunk_compression_with_planning_for_efficient_d.md)**
+
+:   SmartChunk Retrieval 用一个低延迟 planner 为每个查询选择合适的 chunk 粒度范围，并用轻量压缩编码器直接生成高层 chunk embedding，从而在长文档 RAG 中以更低成本获得接近甚至超过树/图式 RAG 的问答效果。
+
 **[Summaries as Centroids for Interpretable and Scalable Text Clustering](summaries_as_centroids_for_interpretable_and_scalable_text_clustering.md)**
 
 :   提出 k-NLPmeans 和 k-LLMmeans，通过在 k-means 迭代中周期性地用文本摘要替换数值质心（summary-as-centroid），在保持 k-means 标准目标的同时实现可解释的聚类原型，且 LLM 调用量与数据集大小无关。
@@ -363,9 +383,21 @@ item_total: 73
 
 :   本文指出工具检索的真正瓶颈不在检索模型而在「工具文档本身写得太烂」，于是用一条低成本 LLM 流水线把原始工具文档系统性地补全为带结构化字段（功能描述、何时使用、限制、标签）的扩展文档，构建出 TOOL-REX 基准与大规模训练语料，并训练出 Tool-Embed（稠密检索器）和 Tool-Rank（重排器），在 ToolRet 与 TOOL-REX 上把 N@10 推到 52.23/56.44 的新 SOTA。
 
+**[推理的拓扑结构：用检索到的胞腔复形增强生成解决文本图问答](topology_of_reasoning_retrieved_cell_complex-augmented_generation_for_textual_gr.md)**
+
+:   TopoRAG 把文本图"提升"成胞腔复形（cell complex），让节点、边、环分别成为 0/1/2-cell，再用拓扑感知的子复形检索 + 多维消息传递把含环的高阶依赖喂给 LLM，从而在三个图问答数据集上稳定超过 G-Retriever、SubgraphRAG 等 GraphRAG 基线。
+
+**[Uncertainty-driven Embedding Convolution](uncertainty-driven_embedding_convolution.md)**
+
+:   UEC 把多个预训练文本嵌入模型 **事后（post-hoc）** 转成高斯概率嵌入，再按每个模型对当前 query 估计出的不确定性自适应加权融合，并用一个内置方差的相似度函数打分，在检索、分类、STS 上稳定超过均匀/加权集成与模型合并等基线。
+
 **[Welfarist Formulations for Diverse Similarity Search](welfarist_formulations_for_diverse_similarity_search.md)**
 
 :   本文把"检索结果的属性多样性"建模成数理经济学里的**福利函数最大化**问题——把每个属性当成一个 agent，用 **Nash 社会福利（几何均值）**取代标准近邻搜索的相似度求和，从而在"相关性"和"多样性"之间做**随查询自适应**的权衡，并给出可套在任意 ANN 之上、带可证明近似保证的高效算法。
+
+**[When to use Graphs in RAG: A Comprehensive Analysis for Graph Retrieval-Augmented Generation](when_to_use_graphs_in_rag_a_comprehensive_analysis_for_graph_retrieval-augmented.md)**
+
+:   本文针对"GraphRAG 在很多真实任务上反而打不过普通 RAG"这一矛盾，提出了一个覆盖图构建—检索—生成全链路、且按难度分四级任务的基准 GraphRAG-Bench，系统性地回答了"什么时候该用图、为什么用图有效"——结论是：简单事实检索用普通 RAG 就够，图结构只在复杂多跳推理、上下文综述等需要拼接分散概念的任务上才带来实打实收益，但要付出数倍的 token 开销。
 
 **[Your Language Model Secretly Contains Personality Subnetworks](your_language_model_secretly_contains_personality_subnetworks.md)**
 

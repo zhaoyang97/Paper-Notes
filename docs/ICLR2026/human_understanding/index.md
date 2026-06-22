@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 人体理解论文汇总 · 39篇论文解读
+  ICLR2026 人体理解论文汇总 · 45篇论文解读
 description: >-
-  39篇ICLR2026的人体理解方向论文解读，涵盖人体姿态、多模态、扩散模型、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  45篇ICLR2026的人体理解方向论文解读，涵盖人体姿态、多模态、扩散模型、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "人体理解"
@@ -43,6 +43,8 @@ item_list:
     t: "From Sparse to Dense: Spatio-Temporal Fusion for Multi-View 3D Human Pose Estimation with DenseWarper"
   - u: "gaitsnippet_gait_recognition_beyond_unordered_sets_and_ordered_sequences/"
     t: "GaitSnippet: Gait Recognition Beyond Unordered Sets and Ordered Sequences"
+  - u: "gencape_structure-inductive_generative_modeling_for_category-agnostic_pose_estim/"
+    t: "GenCape: Structure-Inductive Generative Modeling for Category-Agnostic Pose Estimation"
   - u: "human-object_interaction_via_automatically_designed_vlm-guided_motion_policy/"
     t: "Human-Object Interaction via Automatically Designed VLM-Guided Motion Policy"
   - u: "humof_human_motion_forecasting_in_interactive_social_scenes/"
@@ -71,19 +73,17 @@ item_list:
     t: "PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits"
   - u: "pose-rft_aligning_mllms_for_3d_pose_generation_via_hybrid_action_reinforcement_f/"
     t: "Pose-RFT: Aligning MLLMs for 3D Pose Generation via Hybrid Action Reinforcement Fine-Tuning"
-  - u: "pose_prior_learner_unsupervised_categorical_prior_learning_for_pose_estimation/"
-    t: "Pose Prior Learner: Unsupervised Categorical Prior Learning for Pose Estimation"
-item_total: 39
+item_total: 45
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**🔬 ICLR2026** · **39** 篇论文解读
+**🔬 ICLR2026** · **45** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (151)](../../CVPR2026/human_understanding/index.md) · [🧪 ICML2026 (5)](../../ICML2026/human_understanding/index.md) · [🤖 AAAI2026 (20)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (21)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (41)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (3)](../../ICML2025/human_understanding/index.md)
 
-🔥 **高频主题：** 人体姿态 ×5 · 多模态 ×4 · 扩散模型 ×3 · LLM ×2
+🔥 **高频主题：** 人体姿态 ×6 · 多模态 ×4 · 扩散模型 ×3 · LLM ×2
 
 **[BAH Dataset for Ambivalence/Hesitancy Recognition in Videos for Digital Behaviour Analysis](bah_dataset_for_ambivalencehesitancy_recognition_in_videos_for_digital_behaviour.md)**
 
@@ -144,6 +144,10 @@ item_total: 39
 **[GaitSnippet: Gait Recognition Beyond Unordered Sets and Ordered Sequences](gaitsnippet_gait_recognition_beyond_unordered_sets_and_ordered_sequences.md)**
 
 :   提出 Snippet 范式：将步态轮廓序列组织为若干"片段"（snippet），每个 snippet 由一个连续区间内随机抽取的帧构成，兼顾短程时序上下文与长程时序依赖，在 Gait3D 上以 2D 卷积骨干达到 77.5% Rank-1，超越所有 3D 卷积方法。
+
+**[GenCape: Structure-Inductive Generative Modeling for Category-Agnostic Pose Estimation](gencape_structure-inductive_generative_modeling_for_category-agnostic_pose_estim.md)**
+
+:   GenCape 把类别无关姿态估计（CAPE）里的关键点骨架结构当作**潜在变量**来生成：用一个迭代式结构感知变分自编码器（i-SVAE）从支撑图像里推断实例特定的软邻接矩阵，再用组合图迁移（CGT）模块把多张采样图按不确定性与 query 相关性贝叶斯融合成一张 query 感知的图，从而**完全摆脱预定义骨架和文本先验**，在 MP-100 上 1-shot/5-shot 均刷出新 SOTA（mPCK 比 FMMP +1.59%）。
 
 **[Human-Object Interaction via Automatically Designed VLM-Guided Motion Policy](human-object_interaction_via_automatically_designed_vlm-guided_motion_policy.md)**
 
@@ -225,13 +229,33 @@ item_total: 39
 
 :   SesaHand 用一个"语义对齐 + 结构对齐"双管齐下的可控扩散框架来合成带手部网格标注的真实手部图像：语义侧用思维链（CoT）从 VLM 描述里提炼"人体行为语义"压掉无关细节，结构侧用分层自注意力融合让手与人体对齐、再用一个偏置项高效增强手部跨注意力；生成的图像反过来把野外 3D 手部重建（MPVPE 等）显著刷上去。
 
+**[Sparkle: A Robust and Versatile Representation for Point Cloud-based Human Motion Capture](sparkle_a_robust_and_versatile_representation_for_point_cloud-based_human_motion.md)**
+
+:   针对点云动作捕捉中"点云方法细节丰富但怕噪声、骨架方法鲁棒但丢细节"的两难，本文提出 Sparkle 表示——把 24 个骨架关节（内部运动学）和 32 个表面锚点（外部几何）显式解耦再统一，并配套 SparkleMotion 框架（点对齐骨架追踪器 + 骨架引导锚点估计器 + Sparkle-based SMPL 求解器），在 11 个数据集上跨传感器、跨遮挡噪声全面刷新 SOTA。
+
 **[SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual Dyadic Interactive Human Generation](speakervid-5m_a_large-scale_high-quality_dataset_for_audio-visual_dyadic_interac.md)**
 
 :   针对"主动交互式数字人"这一新兴方向缺乏公开数据的痛点，本文构建了 SpeakerVid-5M——首个面向音视频双人（dyadic）交互数字人生成的大规模高质量数据集（8743 小时、520 万单人 clip、77 万双人对话对），配套提出一个自回归视频对话 baseline 和 VidChatBench 评测基准。
 
+**[Text2Interact: High-Fidelity and Diverse Text-to-Two-Person Interaction Generation](text2interact_high-fidelity_and_diverse_text-to-two-person_interaction_generatio.md)**
+
+:   Text2Interact 面向文本驱动的双人 3D 交互动作生成，先用 InterCompose 从 LLM 文本和单人动作先验合成高质量交互数据，再用 InterActor 的词级文本条件、双人动作交互注意力和自适应交互损失提升动作真实性、文本对齐和跨分布泛化。
+
+**[TOUCH: Text-guided Controllable Generation of Free-Form Hand-Object Interactions](touch_text-guided_controllable_generation_of_free-form_hand-object_interactions.md)**
+
+:   本文提出"自由形态手物交互（Free-Form HOI）生成"新任务，配套从网络视频自动重建的 in-the-wild 3D 数据集 WildO2，并设计三阶段框架 TOUCH（接触图预测 → 多层级条件扩散 → 物理约束精修），让模型摆脱"稳定抓取"先验，能按细粒度文本指令生成推、戳、转等多样且物理合理的手部姿态。
+
 **[TriC-Motion: 三域因果建模驱动的文本到动作生成](tric-motion_tri-domain_causal_modeling_grounded_text-to-motion_generation.md)**
 
 :   TriC-Motion 在扩散去噪框架里把人体动作同时放到**时域、空域、频域**三条支路并行建模，再用一个打分门控融合三域信息，并首次引入**因果反事实干预**剥离与动作无关的噪声线索，最终在 HumanML3D 上把 R@1 推到 0.612 的新 SOTA。
+
+**[Unified Multi-Modal Interactive and Reactive 3D Motion Generation via Rectified Flow](unified_multi-modal_interactive_and_reactive_3d_motion_generation_via_rectified_.md)**
+
+:   DualFlow 用一个基于 Rectified Flow 的双分支 Transformer 框架，把文本、音乐、演员动作和检索到的双人动作样例统一起来，同时支持双人互动动作生成与 actor-reactor 式反应动作生成，并在 MDD、InterHuman-AS、DD100 上以更少推理步数取得更好的语义对齐、动作质量和双人同步效果。
+
+**[UniHand: A Unified Model for Diverse Controlled 4D Hand Motion Modeling](unihand_a_unified_model_for_diverse_controlled_4d_hand_motion_modeling.md)**
+
+:   UniHand 把"从视频里估计手部姿态"和"在结构化条件下生成手部运动"这两个长期割裂的任务统一成一个**条件运动合成**问题，用一个联合 VAE 把 MANO 参数、2D/3D 骨架对齐进共享隐空间、再用隐空间扩散模型融合多种条件（含一个直接从全图特征里"挑"手部 token 的 hand perceptron），在 DexYCB / HO3D / HOT3D 上即便面对严重遮挡和时序缺帧也拿到 SOTA（DexYCB PA-MPJPE 4.08mm）。
 
 **[Unleashing Guidance Without Classifiers for Human-Object Interaction Animation](unleashing_guidance_without_classifiers_for_human-object_interaction_animation.md)**
 

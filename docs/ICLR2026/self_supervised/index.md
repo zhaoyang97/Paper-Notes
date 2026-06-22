@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 自监督/表示学习论文汇总 · 68篇论文解读
+  ICLR2026 自监督/表示学习论文汇总 · 81篇论文解读
 description: >-
-  68篇ICLR2026的自监督/表示学习方向论文解读，涵盖自监督学习、对齐/RLHF、对抗鲁棒、持续学习、多模态、时序预测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  81篇ICLR2026的自监督/表示学习方向论文解读，涵盖自监督学习、对齐/RLHF、持续学习、对抗鲁棒、多模态、时序预测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "自监督/表示学习"
@@ -10,8 +10,8 @@ tags:
   - "论文笔记"
   - "自监督学习"
   - "对齐/RLHF"
-  - "对抗鲁棒"
   - "持续学习"
+  - "对抗鲁棒"
   - "多模态"
   - "时序预测"
 item_list:
@@ -25,14 +25,20 @@ item_list:
     t: "Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning"
   - u: "architecture-agnostic_test-time_adaptation_via_backprop-free_embedding_alignment/"
     t: "Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment"
+  - u: "autodv_an_end-to-end_deep_learning_model_for_high-dimensional_data_visualization/"
+    t: "AutoDV: An End-to-End Deep Learning Model for High-Dimensional Data Visualization"
   - u: "bayesian_test-time_adaptation_via_dirichlet_feature_projection_and_gmm-driven_in/"
     t: "Bayesian Test-Time Adaptation via Dirichlet feature projection and GMM-Driven Inference for Motor Imagery EEG Decoding"
+  - u: "better_together_leveraging_unpaired_multimodal_data_for_stronger_unimodal_models/"
+    t: "Better Together: Leveraging Unpaired Multimodal Data for Stronger Unimodal Models"
   - u: "beyond_hearing_learning_task-agnostic_exg_representations_from_earphones_via_phy/"
     t: "Beyond Hearing: Learning Task-Agnostic ExG Representations from Earphones via Physiology-Informed Tokenization"
   - u: "bidirectional_predictive_coding/"
     t: "Bidirectional Predictive Coding"
   - u: "boosting_open_set_recognition_performance_through_modulated_representation_learn/"
     t: "Boosting Open Set Recognition Performance through Modulated Representation Learning"
+  - u: "bures-isotropy_alignment_manifold_learning_of_generalized_category_discovery/"
+    t: "Bures-Isotropy Alignment: Manifold Learning of Generalized Category Discovery"
   - u: "carl_camera-agnostic_representation_learning_for_spectral_image_analysis/"
     t: "CARL: Camera-Agnostic Representation Learning for Spectral Image Analysis"
   - u: "chart_deep_research_in_lvlms_via_parallel_relative_policy_optimization/"
@@ -43,12 +49,18 @@ item_list:
     t: "Contrastive Predictive Coding Done Right for Mutual Information Estimation"
   - u: "csrv2_unlocking_ultra-sparse_embeddings/"
     t: "CSRv2: Unlocking Ultra-Sparse Embeddings"
+  - u: "debiased_and_denoised_representation_learning_for_incomplete_multi-view_clusteri/"
+    t: "Debiased and Denoised Representation Learning for Incomplete Multi-view Clustering"
+  - u: "detect_decide_unlearn_a_transfer-aware_framework_for_continual_learning/"
+    t: "Detect, Decide, Unlearn: A Transfer-Aware Framework for Continual Learning"
   - u: "difficult_examples_hurt_unsupervised_contrastive_learning_a_theoretical_perspect/"
     t: "Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective"
   - u: "disentangled_representation_learning_through_unsupervised_symmetry_group_discove/"
     t: "Disentangled representation learning through unsupervised symmetry group discovery"
   - u: "disentanglement_of_variations_with_multimodal_generative_modeling/"
     t: "Disentanglement of Variations with Multimodal Generative Modeling"
+  - u: "disentangling_the_factors_of_convergence_between_brains_and_dinov3/"
+    t: "Disentangling the Factors of Convergence between Brains and DINOv3"
   - u: "diveq_differentiable_vector_quantization_using_the_reparameterization_trick/"
     t: "DiVeQ: Differentiable Vector Quantization Using the Reparameterization Trick"
   - u: "diverse_dictionary_learning/"
@@ -63,29 +75,17 @@ item_list:
     t: "FedOpenMatch: Towards Semi-Supervised Federated Learning in Open-Set Environments"
   - u: "fly-cl_a_fly-inspired_framework_for_enhancing_efficient_decorrelation_and_reduce/"
     t: "Fly-CL: A Fly-Inspired Framework for Enhancing Efficient Decorrelation and Reduced Training Time in Pre-trained Model-based Continual Representation Learning"
-  - u: "guide_gated_uncertainty-informed_disentangled_experts_for_long-tailed_recognitio/"
-    t: "GUIDE: Gated Uncertainty-Informed Disentangled Experts for Long-tailed Recognition"
-  - u: "himae_hierarchical_masked_autoencoders_discover_resolution-specific_structure_in/"
-    t: "HiMAE: Hierarchical Masked Autoencoders Discover Resolution-Specific Structure in Wearable Time Series"
-  - u: "incomplete_multi-view_multi-label_classification_via_shared_codebook_and_fused-t/"
-    t: "Incomplete Multi-View Multi-Label Classification via Shared Codebook and Fused-Teacher Self-Distillation"
-  - u: "infonce_induces_gaussian_distribution/"
-    t: "InfoNCE Induces Gaussian Distribution"
-  - u: "learning_dynamics_of_logits_debiasing_for_long-tailed_semi-supervised_learning/"
-    t: "Learning Dynamics of Logits Debiasing for Long-Tailed Semi-Supervised Learning"
-  - u: "maskco_masked_generation_drives_effective_representation_learning_and_exploiting/"
-    t: "MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization"
-item_total: 68
+item_total: 81
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**🔬 ICLR2026** · **68** 篇论文解读
+**🔬 ICLR2026** · **81** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (91)](../../CVPR2026/self_supervised/index.md) · [💬 ACL2026 (1)](../../ACL2026/self_supervised/index.md) · [🧪 ICML2026 (28)](../../ICML2026/self_supervised/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (13)](../../ICCV2025/self_supervised/index.md)
 
-🔥 **高频主题：** 自监督学习 ×14 · 对齐/RLHF ×6 · 对抗鲁棒 ×3 · 持续学习 ×3 · 多模态 ×2
+🔥 **高频主题：** 自监督学习 ×14 · 对齐/RLHF ×7 · 持续学习 ×5 · 对抗鲁棒 ×4 · 多模态 ×3
 
 **[A Bayesian Nonparametric Framework for Learning Disentangled Representations](a_bayesian_nonparametric_framework_for_learning_disentangled_representations.md)**
 
@@ -107,9 +107,17 @@ item_total: 68
 
 :   PEA 把"域偏移"拆解成嵌入空间里的平移（均值漂移）、缩放（方差漂移）、旋转（协方差漂移）三种几何畸变，然后用一套**无反向传播、与架构无关**的逐层协方差对齐流程，仅靠每个 batch 两次前向就把偏移的中间特征拉回源域分布，在 ImageNet-C / CIFAR-C 上达到 SOTA 精度的同时，内存只占 ~900MB、能直接跑在 Jetson Orin Nano 边缘设备上。
 
+**[AutoDV: An End-to-End Deep Learning Model for High-Dimensional Data Visualization](autodv_an_end-to-end_deep_learning_model_for_high-dimensional_data_visualization.md)**
+
+:   AutoDV 把"对每个数据集都要调参 + 迭代优化"的传统可视化（t-SNE / UMAP）改造成一个一次训练、即插即用的端到端模型：先把任意维度的数据集转成多尺度相似图，再用多图 GNN + 图 Transformer 直接吐出 2D/3D 嵌入，配合仿射不变损失训练；在没见过的 CIFAR-10 上达到 t-SNE 89.37%、UMAP 91.05% 的相对精度，在基因和 UCI 表格数据上甚至超过 t-SNE/UMAP 本身。
+
 **[Bayesian Test-Time Adaptation via Dirichlet feature projection and GMM-Driven Inference for Motor Imagery EEG Decoding](bayesian_test-time_adaptation_via_dirichlet_feature_projection_and_gmm-driven_in.md)**
 
 :   BTTA-DG 把每条 EEG 试次的逐时刻预测序列压成一个 Dirichlet 参数向量，用历史试次拟合的 GMM 当似然、深度模型输出当先验，做一次无梯度的贝叶斯后验校准，在运动想象脑机接口的跨被试/跨 session 迁移上达到 SOTA 且实时（15.7 ms/试次）。
+
+**[Better Together: Leveraging Unpaired Multimodal Data for Stronger Unimodal Models](better_together_leveraging_unpaired_multimodal_data_for_stronger_unimodal_models.md)**
+
+:   这篇论文提出 Unpaired Multimodal Learner（UML）：不需要图文、音图等样本级配对，只要辅助模态与目标模态共享语义结构，就通过跨模态权重共享把未配对文本、图像或音频的训练信号汇入同一表征，从而提升最终只使用单一目标模态的分类与鲁棒性。
 
 **[Beyond Hearing: Learning Task-Agnostic ExG Representations from Earphones via Physiology-Informed Tokenization](beyond_hearing_learning_task-agnostic_exg_representations_from_earphones_via_phy.md)**
 
@@ -122,6 +130,10 @@ item_total: 68
 **[Boosting Open Set Recognition Performance through Modulated Representation Learning](boosting_open_set_recognition_performance_through_modulated_representation_learn.md)**
 
 :   这篇论文指出几乎所有开集识别（OSR）方法都给 logits 用一个**固定温度** $\tau$，导致模型只能停在「实例级特征」和「类级特征」频谱的某一点；作者提出在训练过程中**调度温度**（核心是新颖的负余弦调度 NegCosSch），让模型先用低温画出粗决策边界、再升温把同类样本收紧，从而在不增加任何计算开销的前提下，把开集和闭集性能一起提升，尤其在更难的语义偏移基准（SSB）上收益最大。
+
+**[Bures-Isotropy Alignment: Manifold Learning of Generalized Category Discovery](bures-isotropy_alignment_manifold_learning_of_generalized_category_discovery.md)**
+
+:   BIA 将广义类别发现中的类别 token 表征看成一个需要修复的流形几何问题，用 Bures 距离把 mini-batch 的 class-token Gram 矩阵对齐到各向同性先验，并通过等价的核范数最大化实现轻量正则，从而在不改 GCD 框架的情况下提升聚类精度和类别数估计稳定性。
 
 **[CARL: Camera-Agnostic Representation Learning for Spectral Image Analysis](carl_camera-agnostic_representation_learning_for_spectral_image_analysis.md)**
 
@@ -143,6 +155,14 @@ item_total: 68
 
 :   CSRv2 用「渐进 k 退火 + 稀疏监督对比 + 全骨干微调」三招把对比稀疏表示（CSR）推进到 $k\le 4$ 的超稀疏区间——死神经元从 80% 降到 20%，$k=2$ 时精度涨 14%，让"只激活 2 个维度"的嵌入达到 CSR 在 $k=8$、MRL 在 32 维时的水平，相对稠密嵌入拿到最高 300× 的算力/内存效率。
 
+**[Debiased and Denoised Representation Learning for Incomplete Multi-view Clustering](debiased_and_denoised_representation_learning_for_incomplete_multi-view_clusteri.md)**
+
+:   这篇论文提出 DDR-IMVC，用完整视图样本学到的无偏共识表示去校正缺失视图样本的偏置表示，再用截断 InfoNCE 形式的鲁棒对比学习压住补全噪声，在多个不完整多视图聚类数据集上取得更稳定的聚类结果。
+
+**[Detect, Decide, Unlearn: A Transfer-Aware Framework for Continual Learning](detect_decide_unlearn_a_transfer-aware_framework_for_continual_learning.md)**
+
+:   针对持续学习里"记住过时知识反而拖累新任务"的负迁移问题，本文提出 DEDUCE 框架，先用可迁移性界或梯度冲突分析**检测**负迁移、再**决定**是否触发遗忘，最后用 batch 级的局部遗忘（LUM）+ 网络级的全局遗忘（GUM）**选择性地擦掉干扰性旧知识**，作为即插即用增强能挂在 9 种 CL 基线上、平均涨点最高 4.55%。
+
 **[Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective](difficult_examples_hurt_unsupervised_contrastive_learning_a_theoretical_perspect.md)**
 
 :   通过相似度图模型理论分析严格证明"困难样本"（跨类高相似度样本对）会损害无监督对比学习性能——困难样本使泛化误差界严格恶化，提出删除困难样本、调节 margin 和温度缩放三种理论指导的缓解策略，在 TinyImageNet 上带来高达 10.42% 的线性探测准确率提升。这一发现是反直觉的：深度学习中通常"更多数据更好"，但对比学习中精心移除困难样本反而有益。
@@ -154,6 +174,10 @@ item_total: 68
 **[Disentanglement of Variations with Multimodal Generative Modeling](disentanglement_of_variations_with_multimodal_generative_modeling.md)**
 
 :   IDMVAE 在多模态 VAE 框架上叠加两类互信息正则——跨视角 MI 最大化抽取共享变量、循环一致式生成增强去除冗余，再用扩散模型替换高斯先验，在似然模型不够强的困难数据集上实现共享/私有信息的干净分离。
+
+**[Disentangling the Factors of Convergence between Brains and DINOv3](disentangling_the_factors_of_convergence_between_brains_and_dinov3.md)**
+
+:   作者从零训练一系列系统性变量受控的 DINOv3 自监督视觉模型，用「编码分数 / 空间分数 / 时间分数」三个互补指标把模型表征对齐到人脑 fMRI 与 MEG，定量解耦出「模型规模、训练量、图像类型」三个因子如何独立又交互地驱动模型变得「像大脑」，并发现这种相似性的涌现遵循一条与人类皮层发育高度吻合的时序。
 
 **[DiVeQ: Differentiable Vector Quantization Using the Reparameterization Trick](diveq_differentiable_vector_quantization_using_the_reparameterization_trick.md)**
 
@@ -190,6 +214,10 @@ item_total: 68
 **[HiMAE: Hierarchical Masked Autoencoders Discover Resolution-Specific Structure in Wearable Time Series](himae_hierarchical_masked_autoencoders_discover_resolution-specific_structure_in.md)**
 
 :   HiMAE 把掩码自编码塞进一个 U-Net 式层次化 1D CNN，让中间各层天然对应不同时间分辨率的嵌入，从而把"分辨率"从一个超参变成可探针的诊断工具，同时模型小到能在智能手表 CPU 上做亚毫秒推理。
+
+**[In Context Semi-Supervised Learning](in_context_semi-supervised_learning.md)**
+
+:   本文提出 in-context semi-supervised learning（IC-SSL）问题，并构造一个两阶段 Transformer：先从同一个上下文里的大量无标签样本中学习几何谱表示，再用少量标签在前向传播里执行类别 ICL，从而在低标签场景下明显提升分类准确率和跨几何泛化能力。
 
 **[Incomplete Multi-View Multi-Label Classification via Shared Codebook and Fused-Teacher Self-Distillation](incomplete_multi-view_multi-label_classification_via_shared_codebook_and_fused-t.md)**
 
@@ -295,6 +323,14 @@ item_total: 68
 
 :   DCFlow 把无监督跨模态光流估计从"只靠外观相似度隐式学"改成"解耦优化 + 显式运动监督"：用几何感知的单图数据合成给光流网络造出可靠的合成光流标签，让模态迁移网络和光流网络各练各的子任务，再用跨模态一致性约束把两者联合微调，在五个真实跨模态数据集上把 EPE 大幅压低并刷到无监督方法 SOTA。
 
+**[Samples Are Not Equal: A Sample Selection Approach for Deep Clustering](samples_are_not_equal_a_sample_selection_approach_for_deep_clustering.md)**
+
+:   这篇论文指出深度聚类会过度学习高密度区域里简单且重复的样本，并提出一个可插拔样本选择组件：初始化时用局部密度重估聚类原型，训练中用预测一致性和伪标签稳定性动态移除已学会样本，从而在多种深度聚类基线中同时提升聚类精度和训练效率。
+
+**[SCAD: Super-Class-Aware Debiasing for Long-Tailed Semi-Supervised Learning](scad_super-class-aware_debiasing_for_long-tailed_semi-supervised_learning.md)**
+
+:   SCAD 发现长尾半监督学习里“语义相近类别内部也长尾”的局部偏置问题，并用自动发现的 super-class 上下文对 logit adjustment 做样本级动态修正，在 CIFAR、STL、ImageNet-127 和 Food101-LT 等基准上稳定提升现有 LTSSL 方法。
+
 **[Self-Predictive Representations for Combinatorial Generalization in Behavioral Cloning](self-predictive_representations_for_combinatorial_generalization_in_behavioral_c.md)**
 
 :   针对目标条件行为克隆（GCBC）无法"拼接"novel 状态-目标对的组合泛化缺陷，本文提出 BYOL-γ：一个用几何分布采样未来状态、从而逼近后继度量（successor measure）的自预测表示学习目标，作为 BC 的辅助损失既不需要 TD 学习也不需要负样本，在 OGBench 拼接任务上平均成功率超过所有对比方法。
@@ -319,6 +355,14 @@ item_total: 68
 
 :   本文提出 **SI-VAE（空间信息变分自编码器）**，用空间点过程的伪似然作为自监督目标去监督 VAE 的隐空间，让模型不再只学像素强度、而是学到"物体之间空间排布关系"的统计可解释表示，在合成数据上把点模式分类准确率从 48%（普通 VAE）拉到 80%–90%，并能从单张图像零样本条件模拟点过程、应用到人类细胞蛋白定位分析。
 
+**[SplitLoRA: Balancing Stability and Plasticity in Continual Learning Through Gradient Space Splitting](splitlora_balancing_stability_and_plasticity_in_continual_learning_through_gradi.md)**
+
+:   SplitLoRA 把"次梯度子空间该取多大"这个持续学习里的老大难问题，从拍脑袋的阈值变成一个可解的优化问题：它先理论推出"稳定性损失 + 可塑性损失"随子空间维度 $k$ 变化的上界，再对每个 LoRA 模块单独求最优 $k^*$，最后把 LoRA 的降维矩阵 $A$ 固定到这个次子空间里、只训练 $B$，在 ImageNet-R / CIFAR-100 / DomainNet 上比现有方法高 2%–5%。
+
+**[Symmetric Space Learning for Combinatorial Generalization](symmetric_space_learning_for_combinatorial_generalization.md)**
+
+:   这篇论文提出 CartanFM，把潜表示空间约束成对称空间，并用 Cartan 分解与测地对称一致性把已观测组合上的对称性外推到未观测组合，在 dSprites、3D Shapes、MPI3D 等组合泛化基准上显著优于 VAE 与已有对称学习方法。
+
 **[Temporal Slowness in Central Vision Drives Semantic Object Learning](temporal_slowness_in_central_vision_drives_semantic_object_learning.md)**
 
 :   通过模拟人类中央视觉（注视点裁剪）和时间慢性原则（时间对比学习），在 Ego4D 数据上训练 SSL 模型，发现两者组合能有效提升语义对象表征——中央视觉强化前景提取，时间慢性在注视凝视期间蒸馏语义信息。
@@ -335,6 +379,10 @@ item_total: 68
 
 :   针对免样本类增量学习中"骨干网络更新导致旧类原型漂移"的难题，本文提出 BiCyc：在训练阶段同时学习「旧→新」适配器 $A$ 和「新→旧」蒸馏器 $D$，用停梯度门控和循环一致性损失把二者逼成互逆映射，从而把旧类高斯原型精确搬运到新特征空间；在 CIFAR-100 / TinyImageNet 等 from-scratch 基准上把遗忘率压到最低、准确率超过 AdaGauss 与 DPCR 等 SOTA。
 
+**[Uncover Underlying Correspondence for Robust Multi-view Clustering](uncover_underlying_correspondence_for_robust_multi-view_clustering.md)**
+
+:   这篇论文把带噪多视图聚类中的跨视图对应关系看作隐藏变量，提出 CorreGen 用 EM 框架在嵌入空间里生成软对应分布，并通过 GMM 边际估计与虚拟样本机制同时处理同类样本被误当负例、错配样本和无法对齐样本，从而显著提升噪声对应场景下的聚类鲁棒性。
+
 **[Understanding the Learning Phases in Self-Supervised Learning via Critical Periods](understanding_the_learning_phases_in_self-supervised_learning_via_critical_perio.md)**
 
 :   本文发现自监督预训练存在「迁移性权衡」——中间 checkpoint 的域外（OOD）泛化反而比最终 checkpoint 更强，并借「临界期（critical period）」这一生物/监督学习概念，用缺陷注入和 Fisher 信息两个探针刻画出 SSL 的塑性→巩固→过度专化三阶段，进而提出基于临界期闭合点的 checkpoint 选择与自蒸馏两个轻量策略来兼顾 ID 与 OOD 性能。
@@ -342,6 +390,10 @@ item_total: 68
 **[Understanding the Robustness of Distributed Self-Supervised Learning Frameworks Against Non-IID Data](understanding_the_robustness_of_distributed_self-supervised_learning_frameworks_.md)**
 
 :   本文从理论上严格分析了不同分布式自监督（D-SSL）框架在 non-IID 数据下的鲁棒性，证明了掩码图像建模（MIM）天生比对比学习（CL）更抗异质性、且鲁棒性随网络平均连通度上升（联邦学习不弱于去中心化学习），并据此设计了带局部-全局对齐正则的 MAR loss 作为理论落地的范例。
+
+**[Unified and Efficient Multi-view Clustering from Probabilistic Perspective](unified_and_efficient_multi-view_clustering_from_probabilistic_perspective.md)**
+
+:   UEMCP 把锚图多视图聚类重新解释为“数据点→锚点→类别”的概率转移学习，在统一目标中同时学习共识锚点、视图权重、锚图和类别分配，从而在多个大规模多视图数据集上取得更好的聚类效果与近似线性复杂度。
 
 **[Unsupervised Representation Learning - An Invariant Risk Minimization Perspective](unsupervised_representation_learning_-_an_invariant_risk_minimization_perspectiv.md)**
 

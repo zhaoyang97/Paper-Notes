@@ -1,35 +1,44 @@
 ---
 title: >-
-  ICLR2026 地球科学论文汇总 · 5篇论文解读
+  ICLR2026 地球科学论文汇总 · 7篇论文解读
 description: >-
-  5篇ICLR2026的地球科学方向论文解读，涵盖多模态、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  7篇ICLR2026的地球科学方向论文解读，涵盖超分辨率、多模态、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "地球科学"
   - "论文解读"
   - "论文笔记"
+  - "超分辨率"
   - "多模态"
   - "对抗鲁棒"
 item_list:
+  - u: "geofar_geography-informed_frequency-aware_super-resolution_for_climate_data/"
+    t: "GeoFAR: Geography-Informed Frequency-Aware Super-Resolution for Climate Data"
   - u: "omnifield_conditioned_neural_fields_for_robust_multimodal_spatiotemporal_learnin/"
     t: "OmniField: Conditioned Neural Fields for Robust Multimodal Spatiotemporal Learning"
   - u: "rainpro-8_an_efficient_deep_learning_model_to_estimate_rainfall_probabilities_ov/"
     t: "RainPro-8: An Efficient Deep Learning Model to Estimate Rainfall Probabilities Over 8 Hours"
+  - u: "task-adaptive_parameter-efficient_fine-tuning_for_weather_foundation_models/"
+    t: "Task-Adaptive Parameter-Efficient Fine-Tuning for Weather Foundation Models"
   - u: "the_seismic_wavefield_common_task_framework/"
     t: "The Seismic Wavefield Common Task Framework"
   - u: "tianquan-s2s_a_subseasonal-to-seasonal_global_weather_model_via_incorporate_clim/"
     t: "TianQuan-S2S：通过引入气候态构建次季节-季节全球天气预报模型"
   - u: "unveiling_the_mechanism_of_continuous_representation_full-waveform_inversion_a_w/"
     t: "揭示连续表示全波形反演的机制：一个基于波的神经正切核框架"
-item_total: 5
+item_total: 7
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌍 地球科学
 
-**🔬 ICLR2026** · **5** 篇论文解读
+**🔬 ICLR2026** · **7** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/earth_science/index.md) · [🧪 ICML2026 (2)](../../ICML2026/earth_science/index.md) · [🤖 AAAI2026 (2)](../../AAAI2026/earth_science/index.md) · [🧠 NeurIPS2025 (6)](../../NeurIPS2025/earth_science/index.md) · [📷 CVPR2025 (1)](../../CVPR2025/earth_science/index.md) · [🎞️ ECCV2024 (1)](../../ECCV2024/earth_science/index.md)
+
+**[GeoFAR: Geography-Informed Frequency-Aware Super-Resolution for Climate Data](geofar_geography-informed_frequency-aware_super-resolution_for_climate_data.md)**
+
+:   GeoFAR 将气候超分辨率中的低频偏置拆成“频率表达不足”和“地理条件缺失”两个问题，用 DCT 频率卷积核提取细粒度频带表示，再用经纬度与高程构成的地理隐式表示逐像素调制这些表示，从而在 ERA5、PRISM、CERRA 等多尺度气候降尺度任务上显著降低高频误差和复杂地形区域的预测偏差。
 
 **[OmniField: Conditioned Neural Fields for Robust Multimodal Spatiotemporal Learning](omnifield_conditioned_neural_fields_for_robust_multimodal_spatiotemporal_learnin.md)**
 
@@ -38,6 +47,10 @@ item_total: 5
 **[RainPro-8: An Efficient Deep Learning Model to Estimate Rainfall Probabilities Over 8 Hours](rainpro-8_an_efficient_deep_learning_model_to_estimate_rainfall_probabilities_ov.md)**
 
 :   RainPro-8 用一个仅 36.7M 参数的 MaxViT-U-Net，把雷达、卫星、数值天气预报（NWP）多源数据融合起来，通过「有序一致损失 + 单次前向预测全时刻」一次性输出欧洲 8 小时、高分辨率的概率性降水预报，精度超过现有 NWP、外推法和深度学习临近预报，同时推理比 MetNet 类方法快 48 倍。
+
+**[Task-Adaptive Parameter-Efficient Fine-Tuning for Weather Foundation Models](task-adaptive_parameter-efficient_fine-tuning_for_weather_foundation_models.md)**
+
+:   针对天气基础模型（WFM）微调，提出 WeatherPEFT：前向用 Task-Adaptive Dynamic Prompting（TADP）从编码器嵌入权重里抽出"变量×分辨率×时空"的任务特征生成软 prompt，反向用 Stochastic Fisher-Guided Adaptive Selection（SFAS）只更新 Fisher 信息最高的少量参数，在三个下游任务上用 ~0.3%–4% 的可训练参数追平甚至超过全量微调（Full-Tuning）。
 
 **[The Seismic Wavefield Common Task Framework](the_seismic_wavefield_common_task_framework.md)**
 

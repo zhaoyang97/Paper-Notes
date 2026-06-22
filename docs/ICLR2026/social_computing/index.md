@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 社会计算论文汇总 · 15篇论文解读
+  ICLR2026 社会计算论文汇总 · 17篇论文解读
 description: >-
-  15篇ICLR2026的社会计算方向论文解读，涵盖 LLM、语音、Agent、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  17篇ICLR2026的社会计算方向论文解读，涵盖 LLM、语音、Agent、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "社会计算"
@@ -23,6 +23,10 @@ item_list:
     t: "GRADIEND: Feature Learning within Neural Networks Exemplified through Biases"
   - u: "human_or_machine_a_preliminary_turing_test_for_speech-to-speech_interaction/"
     t: "Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction"
+  - u: "intima_a_benchmark_for_human-ai_companionship_behavior/"
+    t: "INTIMA: A Benchmark for Human-AI Companionship Behavior"
+  - u: "language_and_experience_a_computational_model_of_social_learning_in_complex_task/"
+    t: "Language and Experience: A Computational Model of Social Learning in Complex Tasks"
   - u: "measuring_and_mitigating_rapport_bias_of_large_language_models_under_multi-agent/"
     t: "Measuring and Mitigating Rapport Bias of Large Language Models under Multi-Agent Social Interactions"
   - u: "mitigating_mismatch_within_reference-based_preference_optimization/"
@@ -43,13 +47,13 @@ item_list:
     t: "The Value of Information in Human-AI Decision-Making"
   - u: "tracing_and_reversing_edits_in_llms/"
     t: "Tracing and Reversing Edits in LLMs"
-item_total: 15
+item_total: 17
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**🔬 ICLR2026** · **15** 篇论文解读
+**🔬 ICLR2026** · **17** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/social_computing/index.md) · [💬 ACL2026 (44)](../../ACL2026/social_computing/index.md) · [🧪 ICML2026 (9)](../../ICML2026/social_computing/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/social_computing/index.md) · [🧠 NeurIPS2025 (20)](../../NeurIPS2025/social_computing/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/social_computing/index.md)
 
@@ -74,6 +78,14 @@ item_total: 15
 **[Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction](human_or_machine_a_preliminary_turing_test_for_speech-to-speech_interaction.md)**
 
 :   对9个SOTA语音对话系统开展首次语音图灵测试（2968次人类判断），发现所有系统均未通过（成功率7%-31%），瓶颈不在语义理解而在副语言特征、情感表达和对话人格，并构建了18维细粒度评估框架和可解释AI评审模型。
+
+**[INTIMA: A Benchmark for Human-AI Companionship Behavior](intima_a_benchmark_for_human-ai_companionship_behavior.md)**
+
+:   INTIMA 把心理学的拟社会互动、依恋、拟人化三套理论，加上对真实 Reddit 用户帖子的质性编码，蒸馏成一个含 31 种行为、368 条情感化 prompt 的基准，再用 LLM 自动给模型回复打上「强化陪伴 / 维持边界 / 中性」三类标签，结果发现 Gemma-3、Phi-4、o4-mini、GPT5-mini、Claude-4 全都明显偏向强化陪伴，而且越是用户脆弱的场景、模型反而越少设边界。
+
+**[Language and Experience: A Computational Model of Social Learning in Complex Tasks](language_and_experience_a_computational_model_of_social_learning_in_complex_task.md)**
+
+:   作者把"从经验学"（theory-based RL，对可执行的程序化世界模型做贝叶斯推断）和"从别人的话学"（把预训练大模型当成"说话人模型"，用它的似然把一句自然语言建议变成贝叶斯证据）统一进同一个推断框架，在 10 个视频游戏上证明：语言指导能让人和模型都学得更快、更少送命，并支持跨代知识累积与人机互教。
 
 **[Measuring and Mitigating Rapport Bias of Large Language Models under Multi-Agent Social Interactions](measuring_and_mitigating_rapport_bias_of_large_language_models_under_multi-agent.md)**
 

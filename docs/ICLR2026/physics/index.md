@@ -1,19 +1,16 @@
 ---
 title: >-
-  ICLR2026 物理/科学计算论文汇总 · 57篇论文解读
+  ICLR2026 物理/科学计算论文汇总 · 69篇论文解读
 description: >-
-  57篇ICLR2026的物理/科学计算方向论文解读，涵盖扩散模型、布局/合成、图神经网络、生物分子、对齐/RLHF、时序预测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  69篇ICLR2026的物理/科学计算方向论文解读，涵盖扩散模型、时序预测、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "物理/科学计算"
   - "论文解读"
   - "论文笔记"
   - "扩散模型"
-  - "布局/合成"
-  - "图神经网络"
-  - "生物分子"
-  - "对齐/RLHF"
   - "时序预测"
+  - "布局/合成"
 item_list:
   - u: "a_function-centric_graph_neural_network_approach_for_predicting_electron_densiti/"
     t: "A Function-Centric Graph Neural Network Approach for Predicting Electron Densities"
@@ -27,6 +24,8 @@ item_list:
     t: "Advancing Universal Deep Learning for Electronic-Structure Hamiltonian Prediction of Materials"
   - u: "aqer_a_scalable_and_efficient_data_loader_for_digital_quantum_computers/"
     t: "AQER: A Scalable and Efficient Data Loader for Digital Quantum Computers"
+  - u: "arrow_an_adaptive_rollout_and_routing_method_for_global_weather_forecasting/"
+    t: "ARROW: An Adaptive Rollout and Routing Method for Global Weather Forecasting"
   - u: "atom_a_pretrained_neural_operator_for_multitask_molecular_dynamics/"
     t: "ATOM: A Pretrained Neural Operator for Multitask Molecular Dynamics"
   - u: "beyond_structure_invariant_crystal_property_prediction_with_pseudo-particle_ray_/"
@@ -47,6 +46,14 @@ item_list:
     t: "Disentangled Representation Learning for Parametric Partial Differential Equations"
   - u: "drift-net_a_spectral--coupled_neural_operator_for_pdes_learning/"
     t: "DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning"
+  - u: "efficient_regression-based_training_of_normalizing_flows_for_boltzmann_generator/"
+    t: "Efficient Regression-based Training of Normalizing Flows for Boltzmann Generators"
+  - u: "enhancing_stability_of_physics-informed_neural_network_training_through_saddle-p/"
+    t: "Enhancing Stability of Physics-Informed Neural Network Training Through Saddle-Point Reformulation"
+  - u: "extending_fourier_neural_operators_for_modeling_parameterized_and_coupled_pdes/"
+    t: "Extending Fourier Neural Operators for Modeling Parameterized and Coupled PDEs"
+  - u: "fast_training_of_accurate_physics-informed_neural_networks_without_gradient_desc/"
+    t: "Fast training of accurate physics-informed neural networks without gradient descent"
   - u: "feedback-driven_recurrent_quantum_neural_network_universality/"
     t: "Feedback-driven Recurrent Quantum Neural Network Universality"
   - u: "fm4npp_a_scaling_foundation_model_for_nuclear_and_particle_physics/"
@@ -65,27 +72,17 @@ item_list:
     t: "Incomplete Data, Complete Dynamics: A Diffusion Approach"
   - u: "initialization_schemes_for_kolmogorov-arnold_networks_an_empirical_study/"
     t: "Initialization Schemes for Kolmogorov-Arnold Networks: An Empirical Study"
-  - u: "kano_kolmogorov-arnold_neural_operator/"
-    t: "KANO: Kolmogorov–Arnold Neural Operator"
-  - u: "ld-ensf_synergizing_latent_dynamics_with_ensemble_score_filters_for_fast_data_as/"
-    t: "LD-EnSF: Synergizing Latent Dynamics with Ensemble Score Filters for Fast Data Assimilation with Sparse Observations"
-  - u: "learning_boltzmann_generators_via_constrained_mass_transport/"
-    t: "Learning Boltzmann Generators via Constrained Mass Transport"
-  - u: "learning_data-efficient_and_generalizable_neural_operators_via_fundamental_physi/"
-    t: "Learning Data-Efficient and Generalizable Neural Operators via Fundamental Physics Knowledge"
-  - u: "learning_from_the_electronic_structure_of_molecules_across_the_periodic_table/"
-    t: "Learning from the Electronic Structure of Molecules across the Periodic Table"
-item_total: 57
+item_total: 69
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚛️ 物理/科学计算
 
-**🔬 ICLR2026** · **57** 篇论文解读
+**🔬 ICLR2026** · **69** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (2)](../../CVPR2026/physics/index.md) · [🧪 ICML2026 (33)](../../ICML2026/physics/index.md) · [🤖 AAAI2026 (15)](../../AAAI2026/physics/index.md) · [🧠 NeurIPS2025 (57)](../../NeurIPS2025/physics/index.md) · [📹 ICCV2025 (2)](../../ICCV2025/physics/index.md) · [🧪 ICML2025 (20)](../../ICML2025/physics/index.md)
 
-🔥 **高频主题：** 扩散模型 ×4 · 布局/合成 ×2
+🔥 **高频主题：** 扩散模型 ×4 · 时序预测 ×2 · 布局/合成 ×2
 
 **[A Function-Centric Graph Neural Network Approach for Predicting Electron Densities](a_function-centric_graph_neural_network_approach_for_predicting_electron_densiti.md)**
 
@@ -110,6 +107,10 @@ item_total: 57
 **[AQER: A Scalable and Efficient Data Loader for Digital Quantum Computers](aqer_a_scalable_and_efficient_data_loader_for_digital_quantum_computers.md)**
 
 :   本文把五花八门的近似量子加载器（AQL）统一成一个"最小化目标态与电路输出态距离"的优化问题，并证明加载的近似误差由一种新提出的纠缠度量 $S$ 线性主导；据此设计了 AQER——通过贪心地往电路里追加两比特门块逐步削减纠缠，再用解析单比特旋转和参数微调收尾，在 MNIST/CIFAR-10/SST-2 等经典数据和最多 50 比特的量子多体态上都以更少的两比特门取得更低的不保真度。
+
+**[ARROW: An Adaptive Rollout and Routing Method for Global Weather Forecasting](arrow_an_adaptive_rollout_and_routing_method_for_global_weather_forecasting.md)**
+
+:   ARROW 把全球天气预报里的“下一步预测模型”和“长时 autoregressive rollout 策略”一起重新设计：用一个多间隔预测模型统一处理 6/12/24 小时尺度，再用 DQN 调度器根据当前天气状态自适应选择下一跳，从而在中长期预报中同时降低误差累积并保留细粒度大气变化。
 
 **[ATOM: A Pretrained Neural Operator for Multitask Molecular Dynamics](atom_a_pretrained_neural_operator_for_multitask_molecular_dynamics.md)**
 
@@ -151,6 +152,22 @@ item_total: 57
 
 :   提出 DRIFT-Net 双分支神经算子，通过受控低频混合（谱分支）和局部细节保真（图像分支）的带宽融合（radial gating），解决窗口注意力中全局谱耦合不足导致的自回归漂移问题，在 Navier-Stokes 基准上误差降低 7%-54%。
 
+**[Efficient Regression-based Training of Normalizing Flows for Boltzmann Generators](efficient_regression-based_training_of_normalizing_flows_for_boltzmann_generator.md)**
+
+:   本文提出 REGFLOW，用一个简单的 $\ell_2$ 回归目标替代经典归一化流（NF）一直依赖的最大似然（MLE）训练，让 NF 直接去拟合由 reflow（预训练 CNF）或最优传输给出的"已知可逆映射"的噪声-数据配对，从而绕开 MLE 的数值不稳定与雅可比行列式开销，在分子构象平衡采样上既保住"一步采样 + 精确似然"，又显著超过 MLE 训练的同款架构。
+
+**[Enhancing Stability of Physics-Informed Neural Network Training Through Saddle-Point Reformulation](enhancing_stability_of_physics-informed_neural_network_training_through_saddle-p.md)**
+
+:   这篇论文把 PINN 训练中的残差项、边界项等多目标损失重加权改写为非欧几里得的非凸-强凹鞍点问题，并用 AdaBGDA 动态更新网络参数和损失权重，在 PINNacle 的 22 个 PDE 基准与 3D Navier-Stokes 挑战实验中显著提升训练稳定性和 L2 相对误差。
+
+**[Extending Fourier Neural Operators for Modeling Parameterized and Coupled PDEs](extending_fourier_neural_operators_for_modeling_parameterized_and_coupled_pdes.md)**
+
+:   这篇论文在 Fourier Neural Operator 上做了两类很克制的结构扩展：用轻量 hypernetwork 把物理参数注入每层隐表示，用 Fourier 域 encoder-decoder 混合多个物理场，从而在参数化、耦合 PDE 预测中显著降低误差，同时基本保住 FNO 的模型规模和训练效率。
+
+**[Fast training of accurate physics-informed neural networks without gradient descent](fast_training_of_accurate_physics-informed_neural_networks_without_gradient_desc.md)**
+
+:   本文提出 Frozen-PINN，把 PINN 的空间基函数随机采样后冻结，再用最小二乘和自适应 ODE solver 推进随时间变化的输出层系数，从根上绕开梯度下降训练，在多类时间依赖 PDE 上同时获得更快训练、更高精度和显式时间因果性。
+
 **[Feedback-driven Recurrent Quantum Neural Network Universality](feedback-driven_recurrent_quantum_neural_network_universality.md)**
 
 :   本文首次为基于反馈的循环量子神经网络 (RQNN) 建立了定量逼近误差界和普适性证明，表明 RQNN 可在 qubit 数仅以 $\lceil\log_2(\varepsilon^{-1})\rceil$ 对数增长的条件下，以线性读出层逼近任意 fading memory 滤波器，且不受维度灾难影响。
@@ -187,6 +204,10 @@ item_total: 57
 
 :   首次对样条KAN的初始化策略进行系统性研究，提出LeCun/Glorot启发的方差保持方案和可调幂律初始化族，在126K+模型实例的大规模实验中证明幂律初始化在函数拟合和PDE求解上全面超越基线，Glorot方案在大参数量模型上增益显著，NTK特征谱分析揭示了其背后的优化动力学机制。
 
+**[Iterative Training of Physics-Informed Neural Networks with Fourier-enhanced Features](iterative_training_of_physics-informed_neural_networks_with_fourier-enhanced_fea.md)**
+
+:   IFeF-PINN 把 PINN 的隐藏层特征先扩展成随机傅里叶基，再交替求解“基函数生成”和“线性系数回归”，从而在高频和多尺度 PDE 上显著缓解普通 PINN 的谱偏置。
+
 **[KANO: Kolmogorov–Arnold Neural Operator](kano_kolmogorov-arnold_neural_operator.md)**
 
 :   KANO 把 KAN 子网络嵌入伪微分算子框架，在频域和空域两个基上联合参数化算子，既突破了 Fourier Neural Operator (FNO) 的纯谱瓶颈、能在变系数 PDE 上稳健泛化，又能把学到的算子读出成闭式符号公式（系数精确到小数点后第四位）。
@@ -202,6 +223,10 @@ item_total: 57
 **[Learning Data-Efficient and Generalizable Neural Operators via Fundamental Physics Knowledge](learning_data-efficient_and_generalizable_neural_operators_via_fundamental_physi.md)**
 
 :   把复杂 PDE 拆解出"基本形式"（如纯扩散、纯对流项），在训练时让神经算子同时学原始 PDE 和它的廉价基本形式，从而用更少的仿真数据换来更低误差、更稳的长程外推和更强的 OOD/仿真到真实泛化。
+
+**[Learning Escorted Protocols For Multistate Free-Energy Estimation](learning_escorted_protocols_for_multistate_free-energy_estimation.md)**
+
+:   本文用条件流匹配（CFM）联合提出的条件密度匹配（CDM）来**学习**护送式非平衡（E-NEQ）自由能估计中的护送向量场 $b$ 与时变势能 $U$，再用 Lie-Trotter 分裂降低做功计算成本、用护送协议流图（EPFG）把多态估计的协议数从 $O(K^2)$ 压到 $K-1$，在丙氨酸二肽（ADP）六态体系上比 TFEP 更准。
 
 **[Learning from the Electronic Structure of Molecules across the Periodic Table](learning_from_the_electronic_structure_of_molecules_across_the_periodic_table.md)**
 
@@ -271,9 +296,21 @@ item_total: 57
 
 :   RealPDEBench 是首个把**真实实验测量数据与配对数值仿真数据**一起打包的科学机器学习基准，覆盖 5 个复杂物理系统、3 类任务、9 个指标和 10 个 baseline，系统揭示了仿真数据与真实数据之间的巨大差距，并证明"先用仿真预训练、再用真实数据微调"能稳定提升精度与收敛速度。
 
+**[Riesz Neural Operator for Solving Partial Differential Equations](riesz_neural_operator_for_solving_partial_differential_equations.md)**
+
+:   RNO 把 Riesz 变换引入神经算子，用频域中的方向导数通道补足 FNO/LNO 对局部非平稳细节的建模不足，在多类 PDE、Navier-Stokes 和 ERA5 天气数据上同时提升精度、鲁棒性与效率。
+
 **[Robust and Interpretable Adaptation of Equivariant Materials Foundation Models via Sparsity-promoting Fine-tuning](robust_and_interpretable_adaptation_of_equivariant_materials_foundation_models_v.md)**
 
 :   本文提出一种**稀疏促进（sparsity-promoting）微调**方法，在严格保持等变性的前提下，只更新材料基础模型（MLIP）中约 0.5–3% 的路径权重参数，就能在分子、晶体、磁性体系上达到或超过全量微调与 ELoRA 的能量/力预测精度，并且稀疏出来的更新模式还自带物理可解释性（如过渡金属体系中 d 轨道通道被重点修改）。
+
+**[SAQ: Stabilizer-Aware Quantum Error Correction Decoder](saq_stabilizer-aware_quantum_error_correction_decoder.md)**
+
+:   SAQ-Decoder 用稳定子结构感知的双流 Transformer 学习 syndrome 到逻辑错误类别和物理纠错操作的映射，再用约束投影的 CPND 后处理保证 syndrome 一致性，在 toric code 上把独立噪声和退相干噪声阈值分别推到 10.99% 和 18.6%，接近最大似然解码上界。
+
+**[Scaling Laws and Symmetry, Evidence from Neural Force Fields](scaling_laws_and_symmetry_evidence_from_neural_force_fields.md)**
+
+:   这篇论文在「神经网络原子间势（NNIP）」这个几何任务上做了一套系统的标度律实验，发现幂律指数是**架构相关**的——架构编码的旋转/置换对称性越强、张量阶越高，随数据/参数/算力增长的标度指数就越大，因此性能差距会随规模**扩大**而非缩小，从而对「规模够大就该抛弃等变性、让模型自己学对称」的流行观点给出了反证。
 
 **[Self-Supervised Evolution Operator Learning for High-Dimensional Dynamical Systems](self-supervised_evolution_operator_learning_for_high-dimensional_dynamical_syste.md)**
 
@@ -291,6 +328,10 @@ item_total: 57
 
 :   提出首个对序列长度 $n$ 具有**亚线性**时间复杂度的量子数据结构，用于近似 Transformer 注意力矩阵的行查询，预处理时间 $\widetilde{O}(\epsilon^{-1} n^{0.5} \cdot \text{poly}(d, s_\lambda, \alpha))$，每次行查询 $\widetilde{O}(s_\lambda^2 + s_\lambda d)$，相对经典算法实现了关于 $n$ 的二次加速。
 
+**[TandemFoilSet: Datasets for Flow Field Prediction of Tandem-Airfoil Through the Reuse of Single Airfoils](tandemfoilset_datasets_for_flow_field_prediction_of_tandem-airfoil_through_the_r.md)**
+
+:   本文发布了首个**串列翼型（tandem-airfoil）流场预测数据集 TandemFoilSet**（8104 个 CFD 算例，其中 4152 个为串列构型，并配对了对应的单翼型数据），并提供了一套以"复用单翼型数据"为核心的课程学习 benchmark——用自由来流（freestream）作物理先验做残差预训练、把多个单翼型预测做平滑融合（smooth-combining）当估计场、再用多网络（multi-NN）分域推理，平均把 GNN baseline 的预测误差降低约 65%。
+
 **[Test-Time Accuracy-Cost Control in Neural Simulators via Recurrent-Depth](test-time_accuracy-cost_control_in_neural_simulators_via_recurrent-depth.md)**
 
 :   本文提出 RecurrSim（Recurrent-Depth Simulator）——一个与具体网络结构无关的"编码器 + 递归深度块 + 解码器"框架，让训练好的神经 PDE 模拟器**在推理时只用一个旋钮 $K$（递归迭代次数）就能滑动地换取精度与计算成本**，无需重训或改结构；在多个流体力学基准上，用更少参数/显存就达到甚至超过更大的基线和扩散类自适应方法。
@@ -306,6 +347,10 @@ item_total: 57
 **[Tucker-FNO: Tensor Tucker-Fourier Neural Operator and its Universal Approximation Theory](tucker-fno_tensor_tucker-fourier_neural_operator_and_its_universal_approximation.md)**
 
 :   本文用 Tucker 张量分解把高维 Fourier 神经算子（FNO）拆成一组一维 FNO，把 $d$ 维 FFT 换成 $d$ 次一维 FFT，将 3 维 PDE 的 FFT 复杂度从 $O(d_v n^3 \log n^3)$ 降到 $O(3 d_v n \log n)$，并首次证明了这种张量分解 FNO 仍满足通用逼近定理，在 Navier-Stokes / Plasticity / Burgers 等高维 PDE 和图像/视频信号恢复上同时取得更快和更准的结果。
+
+**[Uncertainty-Aware Diagnostics for Physics-Informed Machine Learning](uncertainty-aware_diagnostics_for_physics-informed_machine_learning.md)**
+
+:   本文在 physics-informed kernel learning 的 Gaussian Process 框架里提出 Physics-Informed Log Evidence (PILE)，用一个带不确定性解释的边际似然指标统一诊断数据拟合、物理约束和核/正则超参数选择，避免 PIML 里常见的多目标调参歧义。
 
 **[(U)NFV: (Un)supervised Neural Finite Volume Methods for Solving Hyperbolic PDEs](unfv_unsupervised_neural_finite_volume_methods_for_solving_hyperbolic_pdes.md)**
 

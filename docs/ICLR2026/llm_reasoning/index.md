@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLMReasoning论文汇总 · 224篇论文解读
+  ICLR2026 LLMReasoning论文汇总 · 241篇论文解读
 description: >-
-  224篇ICLR2026的 LLM Reasoning 方向论文解读，涵盖推理、LLM、强化学习、扩散模型、Agent、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  241篇ICLR2026的 LLM Reasoning 方向论文解读，涵盖推理、LLM、强化学习、扩散模型、Agent、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "LLM Reasoning"
@@ -29,6 +29,8 @@ item_list:
     t: "ActivationReasoning: Logical Reasoning in Latent Activation Spaces"
   - u: "adaptive_social_learning_via_mode_policy_optimization_for_language_agents/"
     t: "Adaptive Social Learning via Mode Policy Optimization for Language Agents"
+  - u: "adaptive_thinking_large_language_models_know_when_to_think_in_latent_space/"
+    t: "Adaptive Thinking: Large Language Models Know When to Think in Latent Space"
   - u: "agentic_reinforcement_learning_with_implicit_step_rewards/"
     t: "Agentic Reinforcement Learning with Implicit Step Rewards"
   - u: "agentmath_empowering_mathematical_reasoning_for_large_language_models_via_tool-a/"
@@ -73,19 +75,17 @@ item_list:
     t: "ContextPRM: Leveraging Contextual Coherence for multi-domain Test-Time Scaling"
   - u: "continuous_chain_of_thought_enables_parallel_exploration_and_reasoning/"
     t: "Continuous Chain of Thought Enables Parallel Exploration and Reasoning"
-  - u: "cot-evo_evolutionary_distillation_of_chain-of-thought_for_scientific_reasoning/"
-    t: "CoT-Evo: Evolutionary Distillation of Chain-of-Thought for Scientific Reasoning"
-item_total: 224
+item_total: 241
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM Reasoning
 
-**🔬 ICLR2026** · **224** 篇论文解读
+**🔬 ICLR2026** · **241** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (16)](../../CVPR2026/llm_reasoning/index.md) · [💬 ACL2026 (82)](../../ACL2026/llm_reasoning/index.md) · [🧪 ICML2026 (78)](../../ICML2026/llm_reasoning/index.md) · [🤖 AAAI2026 (37)](../../AAAI2026/llm_reasoning/index.md) · [🧠 NeurIPS2025 (82)](../../NeurIPS2025/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×149 · LLM ×55 · 强化学习 ×17 · 扩散模型 ×6 · Agent ×5
+🔥 **高频主题：** 推理 ×157 · LLM ×61 · 强化学习 ×17 · 扩散模型 ×6 · Agent ×5
 
 **[A Balanced Neuro-Symbolic Approach for Commonsense Abductive Logic](a_balanced_neuro-symbolic_approach_for_commonsense_abductive_logic.md)**
 
@@ -114,6 +114,10 @@ item_total: 224
 **[Adaptive Social Learning via Mode Policy Optimization for Language Agents](adaptive_social_learning_via_mode_policy_optimization_for_language_agents.md)**
 
 :   提出 Adaptive Social Learning（ASL）框架，设计四种层次化推理模式（从直觉回应到深度推演），并通过 AMPO 算法（融合模式级和样本级优势估计）让 LLM agent 根据社交场景复杂度自适应切换推理深度，在社交智能任务上比 GPT-4o 高 15.6%，比 GRPO 高 7.0% 且 token 用量减少 32.8%。
+
+**[Adaptive Thinking: Large Language Models Know When to Think in Latent Space](adaptive_thinking_large_language_models_know_when_to_think_in_latent_space.md)**
+
+:   本文提出 Sonata：用一个轻量 MLP 适配器，在 prefilling 阶段从查询的最后一层隐状态直接预测"自一致性"，据此在解码前决定一道题该不该思考、思考多少，从而在维持精度的同时把思考 token 砍掉 20%–60%。
 
 **[Agentic Reinforcement Learning with Implicit Step Rewards](agentic_reinforcement_learning_with_implicit_step_rewards.md)**
 
@@ -203,6 +207,10 @@ item_total: 224
 
 :   CoT2 提出用连续值 token（词表 embedding 的凸组合）替代离散 token 进行链式推理，使模型能在单次推理中并行追踪多条推理路径，理论证明等价于 K 次 self-consistency/best-of-N 采样，并通过 GRPO 强化学习进一步提升性能。
 
+**[CORE: Concept-Oriented Reinforcement for Bridging the Definition–Application Gap in Mathematical Reasoning](core_concept-oriented_reinforcement_for_bridging_the_definitionapplication_gap_i.md)**
+
+:   针对 LLM「能背定义却用不对概念」的问题，CORE 用一本干净的线性代数教材构造概念对齐的题目，在 RL（GRPO）训练中当一组采样全错时注入概念文本来纠偏——可以直接替换失败轨迹（CORE-CR），也可以用前向 KL 把「带概念」的推理分布蒸馏进「不带概念」的策略（CORE-KL），测试时不给概念也能稳定涨点。
+
 **[CoT-Evo: Evolutionary Distillation of Chain-of-Thought for Scientific Reasoning](cot-evo_evolutionary_distillation_of_chain-of-thought_for_scientific_reasoning.md)**
 
 :   CoT-Evo 把"多教师思维链蒸馏"重写成一套遗传算法：先用多个 LLM thinker 加检索知识造出一池子推理轨迹，再用"答案对不对 + 长度合不合适 + 知识用得对不对"的适应度函数打分，靠新颖性驱动选择挑出多样且优质的父代，最后用反思式重组和变异把它们融合改写成一条高质量链，用进化出的数据集微调 7-8B 小模型，在化学/生物两个科学推理 benchmark 上拿到 SOTA。
@@ -226,6 +234,14 @@ item_total: 224
 **[DAG-Math: Graph-of-Thought Guided Mathematical Reasoning in LLMs](dag-math_graph-of-thought_guided_mathematical_reasoning_in_llms.md)**
 
 :   将 LLM 的 CoT 推理形式化为 DAG 上的基于规则的随机过程，提出"逻辑闭合性"（logical closeness）度量来评估模型是否通过搜索还是严格逻辑推理得到答案，构建了 2894 个金标准 DAG-MATH benchmark，发现即使 PASS@k 相近的模型在推理忠实度上也存在显著差异。
+
+**[Deep Think with Confidence](deep_think_with_confidence.md)**
+
+:   DeepConf 利用大模型生成时自带的局部置信度信号，在并行思考（多采样 + 多数投票）的基础上动态过滤掉低质量推理链：离线时用置信度加权投票 + Top-η% 过滤，在线时用最低分组置信度做早停 + 自适应采样——无需训练、无需调参，在 AIME 2025 上把 GPT-OSS-120B 的准确率推到 99.9%，同时把生成 token 砍掉最多 84.7%。
+
+**[DeepCompress: A Dual Reward Strategy for Dynamically Exploring and Compressing Reasoning Chains](deepcompress_a_dual_reward_strategy_for_dynamically_exploring_and_compressing_re.md)**
+
+:   DeepCompress 用“简单题压缩、难题探索”的双长度奖励改造大推理模型的 RL 训练，让模型在数学和科学推理上同时提升准确率并显著减少平均推理 token。
 
 **[DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning](deepmath-103k_a_large-scale_challenging_decontaminated_and_verifiable_mathematic.md)**
 
@@ -282,6 +298,10 @@ item_total: 224
 **[Enhancing Language Model Reasoning with Structured Multi-Level Modeling](enhancing_language_model_reasoning_with_structured_multi-level_modeling.md)**
 
 :   把单策略的长 CoT 生成重构成"高层规划器出步骤描述符 + 低层执行器写细节"的两层随机过程（MLR），并用 Twisted SMC 构造过程级偏好喂给迭代 Step-DPO，让小模型在有限数据预算下也能稳定做长程推理。
+
+**[Enhancing LLMs for Knowledge Base Question Answering by Chain-of-Decomposition](enhancing_llms_for_knowledge_base_question_answering_by_chain-of-decomposition.md)**
+
+:   本文提出 Chain-of-Decomposition (CoD)，借助一张因果图把知识库问答（KBQA）的答案生成分布因式分解为「检索 → 重构 → 推理」三个子任务，其中检索用小模型、重构用规则（两者都不依赖 LLM），只把一个轻量的「推理路径是否成立」的二分类任务交给微调 LLM，结果用 Llama-2 7B 就在 WebQSP / CWQ 上超过了带检索知识的 GPT-4，刷到 SOTA。
 
 **[Evoking User Memory: Personalizing LLM via Recollection-Familiarity Adaptive Retrieval](evoking_user_memory_personalizing_llm_via_recollection-familiarity_adaptive_retr.md)**
 
@@ -355,6 +375,10 @@ item_total: 224
 
 :   提出 CodeGym 框架，将编程题自动转化为多轮工具调用的交互式环境，用于 LLM agent 的强化学习训练，在分布外基准上取得显著泛化提升（如 Qwen2.5-32B 在 τ-Bench 上 +8.7 点）。
 
+**[Generalization in LLM Problem Solving: The Case of the Shortest Path](generalization_in_llm_problem_solving_the_case_of_the_shortest_path.md)**
+
+:   这篇论文用可控的最短路径合成环境拆解 LLM 问题求解中的泛化来源，发现模型可以把学到的局部规则迁移到未见地图，却会在更长路径上因递归组合不稳定而失败；数据覆盖率决定能力上限，RL 主要稳定训练而不是扩展上限，测试时采样只能抬高曲线但救不了长度外推。
+
 **[Generalized Parallel Scaling with Interdependent Generations](generalized_parallel_scaling_with_interdependent_generations.md)**
 
 :   本文提出 **Bridge**：把一个 prompt 的 N 条并行采样轨迹看成一个整体 3-D 张量而非独立切片，在每个时间步沿 batch 轴做"跨样本注意力"，让 N 条生成互相交换信息，仅加 2.8%–5.1% 参数就把 RLVR 的相对增益最高提升 39%，且训练一次即可泛化到任意生成宽度。
@@ -378,6 +402,10 @@ item_total: 224
 **[Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation](harder_is_better_boosting_mathematical_reasoning_via_difficulty-aware_grpo_and_m.md)**
 
 :   揭示GRPO的优势函数（std归一化）导致更新幅度在中等难度题目处最大、对难题和易题均隐式抑制的问题，提出MathForge框架——DGPO（用MAD替换std实现难度均衡 + softmax难度加权）+ MQR（添加故事背景/抽象术语/嵌套子问题三方面改写增加难度但保留原答案），在Qwen2.5-Math-7B上在6个数学推理benchmark上平均超GRPO +4.56%。
+
+**[HATSolver: Learning Gröbner Bases with Hierarchical Attention Transformers](hatsolver_learning_gröbner_bases_with_hierarchical_attention_transformers.md)**
+
+:   把 Transformer 编码器里最贵的 flat 自注意力换成「自底向上局部注意力 + 自顶向下跨层注意力」的层次注意力，利用多项式方程组天然的树状结构把注意力的 $O(L^2)$ 序列代价压成接近 $O(L^{1+1/n})$，从而把「用神经网络预测 Gröbner 基」的规模从此前的 5 变量推到 13 变量、稠密度 100%，并在难实例上反超经典符号计算工具 STD-FGLM 和 Msolve。
 
 **[Hilbert: Recursively Building Formal Proofs with Informal Reasoning](hilbert_recursively_building_formal_proofs_with_informal_reasoning.md)**
 
@@ -407,6 +435,10 @@ item_total: 224
 
 :   利用扩散语言模型独有的「inpainting（填空）」能力，在 GRPO 训练遇到「整组全错、优势归零」时注入部分 ground-truth 推理片段引导探索，从而恢复梯度信号、提升样本效率，在四个数学推理 benchmark 上刷新 full-attention 掩码 dLLM 的 SoTA。
 
+**[InT: Self-Proposed Interventions Enable Credit Assignment in LLM Reasoning](int_self-proposed_interventions_enable_credit_assignment_in_llm_reasoning.md)**
+
+:   针对 outcome-reward RL「整条轨迹一起奖惩、无法区分对错步骤」的信用分配难题，本文让模型对照参考答案自我验证、给错误轨迹的第一处错误提出一个**单步纠正干预**，再用 SFT 把这些干预「打补丁」进基模型后接 RL，在 4B 模型上把 IMO-AnswerBench 准确率提了近 14%，反超 gpt-oss-20b。
+
 **[Is In-Context Learning Learning?](is_in-context_learning_learning.md)**
 
 :   通过大规模控制变量实验系统分析 ICL 是否构成"学习"，发现数学上 ICL 满足学习定义，但实证表明其泛化能力有限——模型主要依赖 prompt 中的结构规律进行模式推演（deduction），而非从示例中真正习得新能力。
@@ -431,6 +463,10 @@ item_total: 224
 
 :   把"CoT 每一步是否正确"建模成一组潜在 veracity 变量，用语言模型对「veracity + 最终答案」的联合似然作为代理奖励，通过离散 MCMC 搜索（Veracity Search）做后验推断来定位错误步骤，再把搜索结果蒸馏成一个无需真答案的零样本验证器（AVI），全程不需要逐步人工标注。
 
+**[Lean4PHYS: Comprehensive Reasoning Framework for College-level Physics in Lean4](lean4physics_comprehensive_reasoning_framework_for_college-level_physics_in_lean.md)**
+
+:   本文提出 Lean4PHYS——首个面向大学物理的 Lean4 形式化推理框架，它包含一个带单位系统的社区物理定理库 PhysLib 与一个含 200 道人工形式化题目的评测集 LeanPhysBench，并用实验揭示出"数学专家证明器在物理域上并不比通用大模型强"这一过拟合现象，同时证明把 PhysLib 放进上下文能让模型平均提升 11.90%。
+
 **[Learning Global Hypothesis Space for Enhancing Synergistic Reasoning Chain](learning_global_hypothesis_space_for_enhancing_synergistic_reasoning_chain.md)**
 
 :   本文提出 GHS-TDA：先把 LLM 采样出的多条推理路径融合成一张「全局假设图」，再用拓扑数据分析（持续同调）从图里抽出稳定的「逻辑骨干」和「自洽闭环」，用结构稳定性而非局部置信度来挑选推理链，从而抑制误差传播、提升准确率与可解释性。
@@ -446,6 +482,10 @@ item_total: 224
 **[Learning What Reinforcement Learning Can't: Interleaved Online Fine-Tuning for Hardest Questions](learning_what_reinforcement_learning_cant_interleaved_online_fine-tuning_for_har.md)**
 
 :   通过分析 RL 与 SFT 在不同难度题目上的训练动态，发现 RL 只擅长把"已会的题做对"而学不会"超纲题"，于是提出 ReLIFT——在 RL 主训练中动态识别模型答全错的最难题、在线收集高质量 CoT 解答并穿插少量 SFT 步，用更少的演示数据和训练时间在六个推理基准上平均超越纯 RL/纯 SFT 及各种混合方法 +6.7 分。
+
+**[Let's Explore Step by Step: Generating Provable Formal Statements with Deductive Exploration](lets_explore_step_by_step_generating_provable_formal_statements_with_deductive_e.md)**
+
+:   本文提出 DExploration，把数学问题合成从"一次性生成"改成"在 Lean 4 里一步步演绎探索"，用三个原子动作（引入变量/假设、演绎新事实、提交结论）边走边验证，从而生成天然可证、覆盖广、难度高的形式化命题；并用 Exploratory Transformation 把已有证明数据蒸馏成探索轨迹来训练智能体，最终把成功率从 40.70% 提到 54.52%，token 成本降 83%。
 
 **[LEXam: Benchmarking Legal Reasoning on 340 Law Exams](lexam_benchmarking_legal_reasoning_on_340_law_exams.md)**
 
@@ -707,6 +747,10 @@ item_total: 224
 
 :   本文用经典的 ROC 曲线，给出"不完美验证器下 Best-of-N 与拒绝采样到底能扩展到多好"的精确理论刻画，并证明两个反直觉结论：固定算力下拒绝采样优于 Best-of-N，且无法从低算力表现外推高算力表现。
 
+**[Sample Lottery: Unsupervised Discovery of Critical Instances for LLM Reasoning](sample_lottery_unsupervised_discovery_of_critical_instances_for_llm_reasoning.md)**
+
+:   本文提出"彩票样本假设"——RLVR 训练集中存在一个极小子集，单独用它训练就能逼近全量数据的效果，并设计了无监督选样框架 CONST：用"程序波动性 + 结果波动性"刻画每道题的潜在价值，再用共形预测集的大小作为筛选标准，仅标注和训练 < 0.5% 的样本就达到接近全量数据的推理性能，平均超过各类基线 10.97%。
+
 **[Sample Smart, Not Hard: Correctness-First Decoding for Better Reasoning in LLMs](sample_smart_not_hard_correctness-first_decoding_for_better_reasoning_in_llms.md)**
 
 :   这篇论文指出推理任务里"低置信度步骤=值得多探索"是一个错误直觉，主张解码截断应该按 token 的"正确率"而非"概率"来校准：在置信度极低时直接退化为贪心（Greedy-Threshold），并用一张无需训练的校准网格把概率映射到正确率来动态设截断阈值（Calibrated-TopK / Calibrated-ε），在多个推理 benchmark 上稳定涨点，AIME 最多提升约 6%。
@@ -739,6 +783,14 @@ item_total: 224
 
 :   用Integrated Gradients计算长推理链中每个segment对最终答案的归因强度和方向一致性，识别重要segment进行选择性SFT，相比全CoT训练提升准确率达4.7%同时缩短输出18%。
 
+**[Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens](selection_reflection_and_self-refinement_revisit_reasoning_tasks_via_a_causal_le.md)**
+
+:   这篇论文把 Sudoku、Maze、ARC 这类推理任务解释为因果选择机制下的潜变量约束满足问题，并提出 SR2 用反思式表示学习、依赖自我精炼和周期性中间对齐来迭代修正潜表示，在更少参数下显著提升结构化推理准确率。
+
+**[Semantic Voting: A Self-Evaluation-Free Approach for Efficient LLM Self-Improvement on Unverifiable Open-ended Tasks](semantic_voting_a_self-evaluation-free_approach_for_efficient_llm_self-improveme.md)**
+
+:   针对翻译、摘要这类「答案对不上字面、又没有可验证奖励」的开放式任务，本文提出 **语义投票（semantic voting）**：用一个轻量句向量模型把模型自采样的若干候选答案两两算语义相似度、给每个候选打「与共识的对齐分」，直接挑出最高分/最低分组成 DPO 偏好对，全程不让 LLM 给自己当裁判，从而以自评方法千分之一到百分之几的算力拿到相当甚至更稳的自我提升效果。
+
 **[ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution](shinkaevolve_towards_open-ended_and_sample-efficient_program_evolution.md)**
 
 :   ShinkaEvolve 用「父代加权采样 + 代码新颖性拒绝采样 + Bandit 式 LLM 集成选择」三件套，把 LLM 驱动的程序进化从动辄数千次评估压到 150 次，并在圆填充、AIME agent 脚手架、ALE-Bench 竞赛编程、MoE 负载均衡损失四个领域上做到 state-of-the-art。
@@ -766,6 +818,10 @@ item_total: 224
 **[Smarter Not Harder: Generative Process Evaluation with Intrinsic-Signal Driving and Ability-Adaptive Reward Shaping](smarter_not_harder_generative_process_evaluation_with_intrinsic-signal_driving_a.md)**
 
 :   针对生成式过程奖励模型（GenPRM）做 RL 时三大隐患——判分依赖推理能力、密集步奖励触发 reward hacking、静态奖励压制探索——本文提出"用解题轨迹里的内在语义信号（反思/匹配）来判对错"+"把连续同对错的步合并成 thought 再发奖"+"按当前难度自适应缩放奖励"，整合进过程监督 GRPO 得到 TP-GRPO，在 1.5B/7B 模型上用 5× 更少的样本超过 outcome-only GRPO。
+
+**[Soft Tokens, Hard Truths](soft_tokens_hard_truths.md)**
+
+:   这篇论文提出一种不用离散 CoT 标注、只在连续 CoT embedding 上加噪声就能用 RL 训练的 soft/fuzzy token 方法，在数学推理上保持 pass@1 接近离散 CoT，同时显著改善 pass@32 多样性和域外能力保持。
 
 **[Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)**
 
@@ -815,6 +871,10 @@ item_total: 224
 
 :   本文发现扩散语言模型（dLLM）在训练时隐式学到了一组"半自回归专家"，不同的 block 解码顺序会激活不同专家；据此提出免训练推理方法 HEX，用多种 block 调度跑出多条生成路径再多数投票，在 GSM8K 上把准确率从 24.72% 提到 88.10%，甚至超过用 GRPO 强化微调过的模型。
 
+**[Test-Time Scaling with Reflective Generative Model](test-time_scaling_with_reflective_generative_model.md)**
+
+:   本文提出反射式生成模型（RGM），让一个网络既当策略模型生成推理轨迹、又当过程奖励模型给轨迹打分——只额外加 50M 参数的 SPRM 头，并用自监督的 SPR Loss 摆脱过程级标注，使 32B 模型在 AIME24（84.2 vs. 79.6）上超过 OpenAI o3-mini，且打分性能胜过 72B 级奖励模型。
+
 **[$\textbf{Re}^{2}$: Unlocking LLM Reasoning via Reinforcement Learning with Re-solving](textbfre2_unlocking_llm_reasoning_via_reinforcement_learning_with_re-solving.md)**
 
 :   本文提出 Re² 方法，通过纯强化学习训练 LLM 学会在推理过程中主动放弃无效思维链并重新开始求解，将罕见的 redo 行为从 0.5% 提升至 30% 以上，在相同训练计算预算下显著超越标准 RLVR 方法。
@@ -846,6 +906,14 @@ item_total: 224
 **[The Path of Least Resistance: Guiding LLM Reasoning Trajectories with Prefix Consensus](the_path_of_least_resistance_guiding_llm_reasoning_trajectories_with_prefix_cons.md)**
 
 :   提出 PoLR（Path of Least Resistance），首个利用推理前缀一致性的推理时方法，通过聚类短前缀并仅展开主导簇来替代标准 Self-Consistency，在 GSM8K/Math500/AIME/GPQA 等基准上保持甚至提升准确率的同时减少 40%–60% 的 token 用量和最高 50% 的延迟。
+
+**[The Quest for Efficient Reasoning: A Data-Centric Benchmark to CoT Distillation](the_quest_for_efficient_reasoning_a_data-centric_benchmark_to_cot_distillation.md)**
+
+:   本文提出 DC-CoT——首个**以数据为中心**系统评估思维链（CoT）蒸馏的 benchmark，把"增强 / 筛选 / 混合"三类数据操作放在统一框架下，跨多组师生模型、多类推理任务做大规模实证，得出"数据增强（尤其 Reverse Thinking）收益最大、筛选保质、混合作用有限"等可落地结论。
+
+**[Theory-Grounded Evaluation of Human-Like Fallacy Patterns in LLM Reasoning](theory-grounded_evaluation_of_human-like_fallacy_patterns_in_llm_reasoning.md)**
+
+:   本文用认知科学里的 Erotetic 推理理论（ETR）及其开源实现 PyETR 程序化生成 383 道形式化推理题，评测 38 个模型，发现一个反直觉现象：随着模型能力（Chatbot Arena Elo）变强，其逻辑错误中"恰好是 ETR 预测的人类式谬误"的比例反而上升，而整体答对率却和能力无关。
 
 **[Think in Parallel, Answer as One: Logit Averaging for Open-Ended Reasoning](think_in_parallel_answer_as_one_logit_averaging_for_open-ended_reasoning.md)**
 

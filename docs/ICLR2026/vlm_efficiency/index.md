@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 VLMEfficiency论文汇总 · 15篇论文解读
+  ICLR2026 VLMEfficiency论文汇总 · 18篇论文解读
 description: >-
-  15篇ICLR2026的 VLM Efficiency 方向论文解读，涵盖多模态、模型压缩、压缩/编码、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  18篇ICLR2026的 VLM Efficiency 方向论文解读，涵盖多模态、模型压缩、压缩/编码、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "VLM Efficiency"
@@ -35,25 +35,31 @@ item_list:
     t: "PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models"
   - u: "prune_redundancy_preserve_essence_vision_token_compression_in_vlms_via_synergist/"
     t: "Prune Redundancy, Preserve Essence: Vision Token Compression in VLMs via Synergistic Importance-Diversity"
+  - u: "sp-vla_a_joint_model_scheduling_and_token_pruning_approach_for_vla_model_acceler/"
+    t: "SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration"
   - u: "st-simdiff_balancing_spatiotemporal_similarity_and_difference_for_efficient_vide/"
     t: "ST-SimDiff: Balancing Spatiotemporal Similarity and Difference for Efficient Video Understanding with MLLMs"
   - u: "surge_surprise-guided_token_reduction_for_efficient_video_understanding_with_vlm/"
     t: "SURGE: Surprise-Guided Token Reduction for Efficient Video Understanding with VLMs"
+  - u: "task-related_token_compression_in_multimodal_large_language_models_from_an_expla/"
+    t: "Task-Related Token Compression in Multimodal Large Language Models from an Explainability Perspective"
   - u: "tiny_but_mighty_a_software-hardware_co-design_approach_for_efficient_multimodal_/"
     t: "Tiny but Mighty: A Software-Hardware Co-Design Approach for Efficient Multimodal Inference on Battery-Powered Small Devices"
   - u: "visiontrim_unified_vision_token_compression_for_training-free_mllm_acceleration/"
     t: "VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration"
-item_total: 15
+  - u: "vq-transplant_efficient_vq-module_integration_for_pre-trained_visual_tokenizers/"
+    t: "VQ-Transplant: Efficient VQ-Module Integration for Pre-trained Visual Tokenizers"
+item_total: 18
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ VLM Efficiency
 
-**🔬 ICLR2026** · **15** 篇论文解读
+**🔬 ICLR2026** · **18** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (63)](../../CVPR2026/vlm_efficiency/index.md) · [💬 ACL2026 (6)](../../ACL2026/vlm_efficiency/index.md) · [🧪 ICML2026 (4)](../../ICML2026/vlm_efficiency/index.md) · [🤖 AAAI2026 (5)](../../AAAI2026/vlm_efficiency/index.md) · [🧠 NeurIPS2025 (8)](../../NeurIPS2025/vlm_efficiency/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/vlm_efficiency/index.md)
 
-🔥 **高频主题：** 多模态 ×7 · 模型压缩 ×5 · 压缩/编码 ×4 · LLM ×3
+🔥 **高频主题：** 多模态 ×8 · 模型压缩 ×6 · 压缩/编码 ×5 · LLM ×4
 
 **[Enhancing Visual Token Representations for Video Large Language Models via Training-free Spatial-Temporal Pooling and Gridding](enhancing_visual_token_representations_for_video_large_language_models_via_train.md)**
 
@@ -99,6 +105,10 @@ item_total: 15
 
 :   PRUNESID 是一个训练免训（training-free）的视觉 token 压缩框架，用「语义主成分聚类（PSCA）+ 组内非极大值抑制（NMS）」两阶段流水线同时兼顾 token 的语义重要性和信息多样性，并按图像复杂度动态分配 token 预算，在 LLaVA-1.5 上只保留 11.1% token 就拿到 96.3% 的相对精度，在 LLaVA-NeXT 极端压缩（5.6%）下仍保 92.8%。
 
+**[SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration](sp-vla_a_joint_model_scheduling_and_token_pruning_approach_for_vla_model_acceler.md)**
+
+:   SP-VLA 将 VLA 动作序列分为"深思型"与"直觉型"两类，深思型调用大模型、直觉型用轻量 Ridge Regression 近似，同时对 token 做空间-语义双感知剪枝，在 LIBERO 实现 1.5× 无损加速、SimplerEnv 实现 2.4× 加速。
+
 **[ST-SimDiff: Balancing Spatiotemporal Similarity and Difference for Efficient Video Understanding with MLLMs](st-simdiff_balancing_spatiotemporal_similarity_and_difference_for_efficient_vide.md)**
 
 :   针对多模态大模型处理长视频时视觉 token 爆炸的问题，本文提出训练无关框架 ST-SimDiff：把所有视觉 token 建成一张时空图，并行地用「相似度」做社区检测保留代表 token、用「差异」检测时间轴上的突变点保留事件 token，最后按注意力做预算微调；在 30%/50% token 预算下全面超过 FastV、FrameFusion 等 SOTA，且部分基准甚至追平 100% token 的原模型。
@@ -107,6 +117,10 @@ item_total: 15
 
 :   SURGE 用「token 在时间上是否可预测」来度量惊奇度（surprise）——可预测的冗余 token 被裁掉、不可预测的新信息 token 被保留，免训练、不挑骨干网络，在五个视频理解基准上把 token 数压到原来的 1/7、prefill 成本砍掉 86–98%，精度却与全 token 基线相差不超过 ±1 分。
 
+**[Task-Related Token Compression in Multimodal Large Language Models from an Explainability Perspective](task-related_token_compression_in_multimodal_large_language_models_from_an_expla.md)**
+
+:   这篇论文用 Transformer 可解释性方法估计视觉 token 对当前指令的任务相关性，并训练一个轻量卷积压缩器在 LLM 输入端提前剪掉低相关 token，从而在 Qwen2-VL、LLaVA-OneVision 和 VILA1.5 上显著减少 FLOPs、prefill 时间与 KV-cache，同时尽量保持图像和视频理解性能。
+
 **[Tiny but Mighty: A Software-Hardware Co-Design Approach for Efficient Multimodal Inference on Battery-Powered Small Devices](tiny_but_mighty_a_software-hardware_co-design_approach_for_efficient_multimodal_.md)**
 
 :   本文提出 NANOMIND，把大型多模态模型（LMM）拆成视觉、投影、语言、音频四个独立"积木"，按各加速器（NPU/GPU/CPU）所长分别调度，并在统一内存上用零拷贝缓冲管理器（TABM）传递 embedding，配合自研硬件、低比特融合 GEMM 内核和电量感知调度，让一台 2000 mAh 电池供电的小设备完全离线跑多模态推理，端到端能耗比主流边缘框架降低 42.3%，低功耗模式下可续航近 18.8 小时。
@@ -114,3 +128,7 @@ item_total: 15
 **[VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration](visiontrim_unified_vision_token_compression_for_training-free_mllm_acceleration.md)**
 
 :   VisionTrim 是一个免训练的多模态大模型（MLLM）加速框架，用 DVTS（兼顾全局语义和局部空间连续性挑选主导视觉 token）+ TGVC（用文本引导把被丢弃的 token 聚类合并成补充 token）两个即插即用模块，在视觉编码和 LLM 解码两个阶段同时压缩视觉 token，在 LLaVA-1.5 上砍掉 88.9% 视觉 token 仍能保持 98.8% 的平均性能。
+
+**[VQ-Transplant: Efficient VQ-Module Integration for Pre-trained Visual Tokenizers](vq-transplant_efficient_vq-module_integration_for_pre-trained_visual_tokenizers.md)**
+
+:   VQ-Transplant 把预训练视觉 tokenizer 的 encoder-decoder 固定住，只替换并轻量适配 VQ 模块，使新量化算法能以约 22 小时训练成本接入 VAR 这类强 tokenizer，同时用 MMD-VQ 在 ImageNet-1K 上达到 0.81 r-FID，超过原始 VAR tokenizer 的 0.92 r-FID。

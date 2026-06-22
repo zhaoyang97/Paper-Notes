@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 目标检测论文汇总 · 29篇论文解读
+  ICLR2026 目标检测论文汇总 · 30篇论文解读
 description: >-
-  29篇ICLR2026的目标检测方向论文解读，涵盖目标检测、异常检测、时序预测、少样本学习、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  30篇ICLR2026的目标检测方向论文解读，涵盖目标检测、异常检测、时序预测、少样本学习、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 tags:
   - "ICLR2026"
   - "目标检测"
@@ -61,6 +61,8 @@ item_list:
     t: "Retain and Adapt: Auto-Balanced Model Editing for Open-Vocabulary Object Detection under Domain Shifts"
   - u: "rf-detr_neural_architecture_search_for_real-time_detection_transformers/"
     t: "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers"
+  - u: "self-guided_low_light_object_detection_framework/"
+    t: "Self-Guided Low Light Object Detection Framework"
   - u: "spwood_sparse_partial_weakly-supervised_oriented_object_detection/"
     t: "SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection"
   - u: "towards_anomaly-aware_pre-training_and_fine-tuning_for_graph_anomaly_detection/"
@@ -71,17 +73,17 @@ item_list:
     t: "Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Method"
   - u: "unbiased_object_detection_beyond_frequency_with_visually_prompted_image_synthesi/"
     t: "Unbiased Object Detection Beyond Frequency with Visually Prompted Image Synthesis"
-item_total: 29
+item_total: 30
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🔬 ICLR2026** · **29** 篇论文解读
+**🔬 ICLR2026** · **30** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (99)](../../CVPR2026/object_detection/index.md) · [🧪 ICML2026 (6)](../../ICML2026/object_detection/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/object_detection/index.md) · [🧠 NeurIPS2025 (27)](../../NeurIPS2025/object_detection/index.md) · [📹 ICCV2025 (28)](../../ICCV2025/object_detection/index.md) · [🧪 ICML2025 (12)](../../ICML2025/object_detection/index.md)
 
-🔥 **高频主题：** 目标检测 ×10 · 异常检测 ×6 · 时序预测 ×3 · 少样本学习 ×3 · 扩散模型 ×2
+🔥 **高频主题：** 目标检测 ×11 · 异常检测 ×6 · 时序预测 ×3 · 少样本学习 ×3 · 扩散模型 ×2
 
 **[APT: Towards Universal Scene Graph Generation via Plug-in Adaptive Prompt Tuning](apt_towards_universal_scene_graph_generation_via_plug-in_adaptive_prompt_tuning.md)**
 
@@ -178,6 +180,10 @@ item_total: 29
 **[RF-DETR: Neural Architecture Search for Real-Time Detection Transformers](rf-detr_neural_architecture_search_for_real-time_detection_transformers.md)**
 
 :   RF-DETR 用 DINOv2 互联网级预训练 + 端到端权重共享 NAS 训练一个"超网"，让一次训练就能在网格搜索中无需重训地导出整条精度-延迟 Pareto 曲线，在 COCO 上首次让实时检测器突破 60 AP，在真实世界数据集 RF100-VL 上以 20 倍速度反超 GroundingDINO。
+
+**[Self-Guided Low Light Object Detection Framework](self-guided_low_light_object_detection_framework.md)**
+
+:   这篇论文提出 SGLDet：训练时给标准检测器挂一个可拆卸的增强-去噪-Fourier 融合辅助分支，用低光照图像自身生成像素级监督来强化 backbone 表征，测试时移除辅助分支，因此在 DARK FACE、ExDark 和 nuImages 夜间检测上显著涨点且不增加推理开销。
 
 **[SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection](spwood_sparse_partial_weakly-supervised_oriented_object_detection.md)**
 

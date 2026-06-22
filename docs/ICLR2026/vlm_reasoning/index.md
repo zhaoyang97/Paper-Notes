@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 VLMReasoning论文汇总 · 97篇论文解读
+  ICLR2026 VLMReasoning论文汇总 · 112篇论文解读
 description: >-
-  97篇ICLR2026的 VLM Reasoning 方向论文解读，涵盖推理、多模态、强化学习、LLM、布局/合成、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  112篇ICLR2026的 VLM Reasoning 方向论文解读，涵盖推理、多模态、强化学习、LLM、布局/合成、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "VLM Reasoning"
@@ -61,31 +61,31 @@ item_list:
     t: "FRIEDA: Benchmarking Multi-Step Cartographic Reasoning in Vision-Language Models"
   - u: "game-rl_synthesizing_multimodal_verifiable_game_data_to_boost_vlms_general_reaso/"
     t: "Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs' General Reasoning"
+  - u: "generative_universal_verifier_as_multimodal_meta-reasoner/"
+    t: "Generative Universal Verifier as Multimodal Meta-Reasoner"
   - u: "gir-bench_versatile_benchmark_for_generating_images_with_reasoning/"
     t: "GIR-Bench: Versatile Benchmark for Generating Images with Reasoning"
   - u: "gtr-bench_evaluating_geo-temporal_reasoning_in_vision-language_mod/"
     t: "GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models"
+  - u: "internspatial_a_comprehensive_dataset_for_spatial_reasoning_in_vision-language_m/"
+    t: "InternSpatial: A Comprehensive Dataset for Spatial Reasoning in Vision-Language Models"
   - u: "iv-bench_a_benchmark_for_image-grounded_video_perception_and_reasoning_in_multim/"
     t: "IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs"
   - u: "jointavbench_a_benchmark_for_joint_audio-visual_reasoning_evaluation/"
     t: "JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation"
   - u: "judo_a_juxtaposed_domain-oriented_multimodal_reasoner_for_industrial_anomaly_qa/"
     t: "JUDO: A Juxtaposed Domain-Oriented Multimodal Reasoner for Industrial Anomaly QA"
-  - u: "latent_visual_reasoning/"
-    t: "Latent Visual Reasoning"
-  - u: "lens_multi-level_evaluation_of_multimodal_reasoning_with_large_language_models/"
-    t: "LENS: Multi-level Evaluation of Multimodal Reasoning with Large Language Models"
-item_total: 97
+item_total: 112
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧠 VLM Reasoning
 
-**🔬 ICLR2026** · **97** 篇论文解读
+**🔬 ICLR2026** · **112** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (150)](../../CVPR2026/vlm_reasoning/index.md) · [💬 ACL2026 (32)](../../ACL2026/vlm_reasoning/index.md) · [🧪 ICML2026 (31)](../../ICML2026/vlm_reasoning/index.md) · [🤖 AAAI2026 (10)](../../AAAI2026/vlm_reasoning/index.md) · [🧠 NeurIPS2025 (30)](../../NeurIPS2025/vlm_reasoning/index.md) · [📹 ICCV2025 (15)](../../ICCV2025/vlm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×78 · 多模态 ×46 · 强化学习 ×6 · LLM ×6 · 布局/合成 ×5
+🔥 **高频主题：** 推理 ×91 · 多模态 ×52 · 强化学习 ×7 · LLM ×6 · 布局/合成 ×5
 
 **[AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning](adareasoner_dynamic_tool_orchestration_for_iterative_visual_reasoning.md)**
 
@@ -179,6 +179,10 @@ item_total: 97
 
 :   把电子游戏的代码反向"蒸馏"成带步骤解析的可验证 VQA 数据（GameQA，30 个游戏 / 158 个任务 / 14 万题），只用游戏数据做 GRPO 强化学习，就能让多个 VLM 在 7 个完全 out-of-domain 的通用视觉推理基准上一致涨点。
 
+**[Generative Universal Verifier as Multimodal Meta-Reasoner](generative_universal_verifier_as_multimodal_meta-reasoner.md)**
+
+:   这篇论文把“检查视觉结果是否真的满足任务要求”提升为多模态推理系统的基础能力：作者构建 ViVerBench 评测现有 VLM 的视觉验证短板，训练 OmniVerifier-7B 作为生成式通用验证器，并用 OmniVerifier-TTS 在测试时把验证反馈转成多轮图像编辑，从而提升复杂文生图与推理式生成质量。
+
 **[GIR-Bench: Versatile Benchmark for Generating Images with Reasoning](gir-bench_versatile_benchmark_for_generating_images_with_reasoning.md)**
 
 :   GIR-Bench 用三个互补子集（理解-生成一致性、推理式文生图、推理式编辑）和一套**任务专属、可程序化验证的评测管线**，系统量化统一多模态模型「会推理却画不出来」的理解-生成鸿沟，绕开了 MLLM-as-a-Judge 的偏置。
@@ -186,6 +190,10 @@ item_total: 97
 **[GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models](gtr-bench_evaluating_geo-temporal_reasoning_in_vision-language_mod.md)**
 
 :   提出 GTR-Bench，一个面向大规模摄像头网络中移动目标地理时空推理的新基准，评估发现最强模型 Gemini-2.5-Pro（34.9%）远落后于人类水平（78.61%），揭示了当前 VLM 在时空上下文利用失衡、时序预测能力弱、地图-视频对齐能力不足三大缺陷。
+
+**[InternSpatial: A Comprehensive Dataset for Spatial Reasoning in Vision-Language Models](internspatial_a_comprehensive_dataset_for_spatial_reasoning_in_vision-language_m.md)**
+
+:   InternSpatial 构建了一个面向 VLM 空间推理的大规模开放数据集与诊断评测集，用统一的数据引擎把单视角、多视角、多场景和多种视觉/文本指令格式组织成 1200 万级 QA，使模型在空间推理基准上显著提升，同时基本不损害通用多模态能力。
 
 **[IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs](iv-bench_a_benchmark_for_image-grounded_video_perception_and_reasoning_in_multim.md)**
 
@@ -315,6 +323,10 @@ item_total: 97
 
 :   PuzzleWorld 收集了 667 道「解谜马拉松」(puzzlehunt) 风格、没有明确题目定义的多模态谜题，给每道题标注了最终答案、逐步推理轨迹和认知技能标签，结果发现当前最强模型最终答案准确率只有 1–18%，远落后于解谜爱好者，并通过逐步评分和微调实验揭示出模型「短视推理、过度依赖语言、缺乏视觉草稿能力」三大短板。
 
+**[Read the Room: Video Social Reasoning with Mental-Physical Causal Chains](read_the_room_video_social_reasoning_with_mental-physical_causal_chains.md)**
+
+:   本文提出 R3-Bench 评测基准与 R3-FDT 大规模训练集，通过「心理-物理因果链」结构系统评估 LVLM 的视频社会推理能力，揭示了当前顶尖模型与人类水平之间的巨大差距，并证明在 R3-FDT 上微调可显著提升多个基准的社会推理性能。
+
 **[Reasoning-Aligned Perception Decoupling for Scalable Multi-modal Reasoning](reasoning-aligned_perception_decoupling_for_scalable_multi-modal_reasoning.md)**
 
 :   RAPID 把多模态大模型（MLLM）的角色重新定位成"感知器"——只负责把图像翻译成文字（查询相关字幕 + 试探性解答），再交给任意一个外部纯文本 LLM 去推理；并用一个名为 VPO 的强化学习算法，用"外部 LLM 最终答对没"来反向优化这些文字，从而让一次训练好的 MLLM 可以即插即用地搭配越来越强的 LLM 持续涨点，无需重做昂贵的视觉-语言对齐。
@@ -339,9 +351,29 @@ item_total: 97
 
 :   针对复杂视频推理缺乏高质量训练数据这一瓶颈，本文用一条多阶段「智能体数据合成」流水线造出 ReWatch 数据集（分级字幕 + 高难度 QA + 重看式 CoT），再用 SFT + 带「观察与推理（O&R）」奖励的 RLVR 把 Qwen2.5-VL-7B 训成 ReWatch-R1，在五个高难视频推理基准上拿下同尺寸 SOTA。
 
+**[Rex-Thinker: Grounded Object Referring via Chain-of-Thought Reasoning](rex-thinker_grounded_object_referring_via_chain-of-thought_reasoning.md)**
+
+:   Rex-Thinker把 grounded object referring 从“直接吐框”改写成“先由开放词表检测器给候选框，再由多模态大模型按 Planning-Action-Summarization 逐框推理并可拒识”的任务，在 HumanRef 上同时提升定位准确率、可解释性和无目标表达的拒绝能力。
+
+**[RIG: Synergizing Reasoning and Imagination in End-to-End Generalist Policy](rig_synergizing_reasoning_and_imagination_in_end-to-end_generalist_policy.md)**
+
+:   RIG 把文本推理、低层动作预测和未来画面生成放进同一个自回归 Transformer，并通过逐步构造的 Minecraft 轨迹数据让策略先“想一想、试着想象结果、再修正动作”，在少得多的环境交互数据下同时提升控制、生成和推理表现。
+
+**[ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation](rover_benchmarking_reciprocal_cross-modal_reasoning_for_omnimodal_generation.md)**
+
+:   ROVER 提出一个面向统一多模态模型的 reciprocal cross-modal reasoning benchmark，用 1,312 个任务和 1,876 张图像同时考察“语言推理能否约束图像生成”与“视觉中间结果能否帮助文字推理”，并发现当前模型在具象物理视觉推理上有收益、在抽象符号视觉化上仍明显失灵。
+
+**[SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations](scot_teaching_3d-llms_to_think_spatially_with_million-scale_cot_annotations.md)**
+
+:   SCoT 构建了一个 110 万规模的 3D 场景 Chain-of-Thought 数据集，把任务分成感知、分析、规划三个层级，并用场景证据标记 `<SI>` 约束推理链，让 3D-LLM 在复杂空间分析和规划上更可解释、更忠实，但也提醒简单感知任务不应滥用 CoT。
+
 **[Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes](seeing_across_views_benchmarking_spatial_reasoning_of_vision-language_models_in_.md)**
 
 :   提出 MV-RoboBench，首个整合多视角空间推理与机器人操作执行评测的 benchmark，包含 1.7K 人工标注 QA，揭示当前最强 VLM（GPT-5 仅 56.4%）与人类（91.0%）之间存在巨大差距。
+
+**[SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models](sketchthinker-r1_towards_efficient_sketch-style_reasoning_in_large_multimodal_mo.md)**
+
+:   SketchThinker-R1 用“先把长推理压成草图式推理、再训练 SketchJudge 奖励模型、最后用 GRPO 强化学习”的三阶段流程，让多模态大模型在视觉问答和视觉逻辑/数学/物理推理中少写大量中间推理 token，同时保持甚至提升最终答案准确率。
 
 **[Small Drafts, Big Verdict: Information-Intensive Visual Reasoning via Speculation](small_drafts_big_verdict_information-intensive_visual_reasoning_via_speculation.md)**
 
@@ -350,6 +382,10 @@ item_total: 97
 **[SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward](sophiavl-r1_reinforcing_mllms_reasoning_with_thinking_reward.md)**
 
 :   提出SophiaVL-R1——在规则基RL训练MLLM推理时引入整体级思维过程奖励：训练Thinking Reward Model从逻辑一致性/冗余度等五维度评估推理质量→提出Trust-GRPO基于正确/错误答案组的思维奖励对比计算可信度权重$\gamma$缓解reward hacking→退火策略$e^{-\text{steps}/T}$渐减思维奖励使后期更依赖准确的规则奖励→7B模型在MathVista(71.3%)和MMMU(61.3%)等多个基准全面超越LLaVA-OneVision-72B。
+
+**[SpaCE-Eval: A Benchmark for Real-World Multi-Modal Reasoning](space-eval_a_benchmark_for_real-world_multi-modal_reasoning.md)**
+
+:   SpaCE-Eval 构建了一个由人类全新绘制图示组成的真实物理空间多模态推理 VQA 基准，用空间推理、常识知识和环境交互三类任务系统检验 MLLM，结果显示当前最强模型在总体准确率和空间推理上都仍远低于人类。
 
 **[Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models](spatial-dise_a_unified_benchmark_for_evaluating_spatial_reasoning_in_vision-lang.md)**
 
@@ -378,6 +414,10 @@ item_total: 97
 **[SportR: A Benchmark for Multimodal Large Language Model Reasoning in Sports](sportr_a_benchmark_for_multimodal_large_language_model_reasoning_in_sports.md)**
 
 :   SportR 是首个面向"体育规则推理"的多运动大规模多模态基准：用 4,789 张图 + 2,052 段视频、覆盖 5 项球类运动的 50 类犯规与 12 类战术，配上 6,841 条**纯人工撰写**的思维链（CoT）和精确边界框标注，按"从识别犯规到预测判罚到定位证据"的递进 QA 层级评测 MLLM，结果显示即便 GPT-5 也只能拿到很低的分数，视觉定位 IoU 普遍 <7%。
+
+**[STVG-R1: Incentivizing Instance-Level Reasoning and Grounding in Videos via Reinforcement Learning](stvg-r1_incentivizing_instance-level_reasoning_and_grounding_in_videos_via_reinf.md)**
+
+:   STVG-R1 把视频时空 grounding 中难学的逐帧坐标回归改写成“看带编号的视频并回答目标 ID + 时间段”的实例识别问题，再用 GRPO 和任务奖励训练 VLM，在 HCSTVG、ST-Align、MeViS 等多个视频 grounding/segmentation 基准上显著提升空间一致性与跨任务泛化。
 
 **[Synergizing Understanding and Generation with Interleaved Analyzing-Drafting Thinking](synergizing_understanding_and_generation_with_interleaved_analyzing-drafting_thi.md)**
 
@@ -431,6 +471,18 @@ item_total: 97
 
 :   Vid-LLM 只用单目视频作为输入，通过一个让"重建"和"推理"互相增强的 Cross-Task Adapter，把视频里直接重建出的几何先验注入到大语言模型中，在 3D 问答、稠密描述、视觉定位三类任务上达到了接近"吃 3D 点云"模型的水平，却不再需要任何外部点云、深度或位姿输入。
 
+**[VideoAnchor: Reinforcing Subspace-Structured Visual Cues for Coherent Visual-Spatial Reasoning](videoanchor_reinforcing_subspace-structured_visual_cues_for_coherent_visual-spat.md)**
+
+:   VideoAnchor 是一个无需训练的测试时插件，它用稀疏子空间聚类从视频或多视角图像 token 中找出跨帧稳定的“视觉锚点”，再把这些锚点转成 Q/K/V 注意力缩放因子，从而缓解 VLM 过度依赖文本先验的问题，并在 VSI-Bench、All-Angles-Bench、SPAR-Bench 和 Video-MME 的空间相关任务上稳定提升多种 MLLM。
+
+**[VideoMathQA: Benchmarking Mathematical Reasoning via Multimodal Understanding in Video](videomathqa_benchmarking_mathematical_reasoning_via_multimodal_understanding_in_.md)**
+
+:   VideoMathQA 构建了一个面向真实教学视频的数学推理 benchmark，用 420 个视频问答、2,945 条专家步骤标注和多层评测协议检验模型能否在视频、字幕、语音与数学知识之间做长程、多步、可诊断的推理。
+
+**[VideoReasonBench: Can MLLMs Perform Vision-Centric Complex Video Reasoning?](videoreasonbench_can_mllms_perform_vision-centric_complex_video_reasoning.md)**
+
+:   VideoReasonBench 构造了一个以“可见操作 + 部分可见隐状态”为核心的视频复杂推理基准，证明当前多数 MLLM 在细粒度视频感知和多步状态推理上仍然很弱，而更长的 test-time thinking 对这类任务确实有明显帮助。
+
 **[VideoZoomer: Reinforcement-Learned Temporal Focusing for Long Video Reasoning](videozoomer_reinforcement-learned_temporal_focusing_for_long_video_reasoning.md)**
 
 :   VideoZoomer 把长视频推理重构成一个"先扫一眼、再放大"的多轮工具调用任务，让 7B 的 MLLM 在推理过程中自主决定**何时、在哪个时间段**调用 `<video_zoom>` 工具抓取高帧率片段，再配合"冷启动 SFT + GRPO 强化学习"两阶段训练，用更小的帧预算在多个长视频理解/推理基准上超过开源模型、部分任务甚至追平闭源系统。
@@ -474,3 +526,11 @@ item_total: 97
 **[What "Not" to Detect: Negation-Aware VLMs via Structured Reasoning and Token Merging](what_not_to_detect_negation-aware_vlms_via_structured_reasoning_and_token_mergin.md)**
 
 :   针对视觉-语言模型在描述式目标检测里"看不懂否定"（把"戴帽子的人"和"没戴帽子的人"当成同一目标）的肯定偏置问题，本文用一条 CoT+VQA 流水线造出否定密集的 COVAND 数据集，再配上一个在 tokenization 层面把"not + 属性"合并成单一语义单元并放大否定信号的 NegToMe 模块 + 深层交叉注意力 LoRA，仅改 <0.1% 参数就在 OVDEval 的 NMS-AP 上提升最高 +10.8 mAP。
+
+**[Wiki-R1: Incentivizing Multimodal Reasoning for Knowledge-based VQA via Data and Sampling Curriculum](wiki-r1_incentivizing_multimodal_reasoning_for_knowledge-based_vqa_via_data_and_.md)**
+
+:   Wiki-R1 针对知识型 VQA 中“检索噪声大、奖励稀疏、RL 学不到推理”的问题，用可控检索难度生成从易到难的数据课程，再用观测传播挑出最有训练信号的样本，让 Qwen2.5-VL 在 Encyclopedic VQA 和 InfoSeek 上刷新检索增强 KB-VQA 结果。
+
+**[Zebra-CoT: A Dataset for Interleaved Vision-Language Reasoning](zebra-cot_a_dataset_for_interleaved_vision-language_reasoning.md)**
+
+:   构建了首个大规模多样化交错文本-图像推理数据集 ZEBRA-COT（182K 条推理轨迹，覆盖 18 个领域），通过脚手架实验证明视觉 CoT 对前沿模型有高达 +43% 的提升潜力，并通过微调让 Anole-7B 和 Bagel-7B 获得内生视觉推理能力。

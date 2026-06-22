@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLM其他论文汇总 · 50篇论文解读
+  ICLR2026 LLM其他论文汇总 · 55篇论文解读
 description: >-
-  50篇ICLR2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、推理、Agent、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  55篇ICLR2026的 LLM 其他方向论文解读，涵盖 LLM、扩散模型、推理、Agent、布局/合成、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "LLM 其他"
@@ -13,6 +13,7 @@ tags:
   - "推理"
   - "Agent"
   - "布局/合成"
+  - "对齐/RLHF"
 item_list:
   - u: "achieving_olympia-level_geometry_large_language_model_agent_via_complexity_boost/"
     t: "Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning"
@@ -22,6 +23,8 @@ item_list:
     t: "Best-of-∞: Asymptotic Performance of Test-Time LLM Ensembling"
   - u: "beyond_magic_words_sharpness-aware_prompt_evolving_for_robust_large_language_mod/"
     t: "Beyond Magic Words: Sharpness-Aware Prompt Evolving for Robust Large Language Models with TARE"
+  - u: "beyond_the_known_an_unknown-aware_large_language_model_for_open-set_text_classif/"
+    t: "Beyond the Known: An Unknown-Aware Large Language Model for Open-Set Text Classification"
   - u: "bots_a_unified_framework_for_bayesian_online_task_selection_in_llm_reinforcement/"
     t: "BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning"
   - u: "breaking_the_correlation_plateau_on_the_optimization_and_capacity_limits_of_atte/"
@@ -60,6 +63,8 @@ item_list:
     t: "First is Not Really Better Than Last: Evaluating Layer Choice and Aggregation Strategies in Language Model Data Influence Estimation"
   - u: "how_far_are_llms_from_professional_poker_players_revisiting_game-theoretic_reaso/"
     t: "How Far Are LLMs from Professional Poker Players? Revisiting Game-Theoretic Reasoning with Agentic Tool Use"
+  - u: "ia2_alignment_with_icl_activations_improves_supervised_fine-tuning/"
+    t: "IA2: Alignment with ICL Activations improves Supervised Fine-Tuning"
   - u: "in-context_algebra/"
     t: "In-Context Algebra"
   - u: "is_the_reversal_curse_a_binding_problem_uncovering_limitations_of_transformers_f/"
@@ -70,21 +75,17 @@ item_list:
     t: "Massive Editing for Large Language Models Based on Dynamic Weight Generation"
   - u: "near-optimal_online_deployment_and_routing_for_streaming_llms/"
     t: "Near-Optimal Online Deployment and Routing for Streaming LLMs"
-  - u: "neologism_learning_for_controllability_and_self-verbalization/"
-    t: "Neologism Learning for Controllability and Self-Verbalization"
-  - u: "neural_synchrony_between_socially_interacting_language_models/"
-    t: "Neural Synchrony Between Socially Interacting Language Models"
-item_total: 50
+item_total: 55
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM 其他
 
-**🔬 ICLR2026** · **50** 篇论文解读
+**🔬 ICLR2026** · **55** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (3)](../../CVPR2026/llm_nlp/index.md) · [💬 ACL2026 (61)](../../ACL2026/llm_nlp/index.md) · [🧪 ICML2026 (39)](../../ICML2026/llm_nlp/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (54)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (6)](../../ICCV2025/llm_nlp/index.md)
 
-🔥 **高频主题：** LLM ×15 · 扩散模型 ×6 · 推理 ×3 · Agent ×2 · 布局/合成 ×2
+🔥 **高频主题：** LLM ×16 · 扩散模型 ×6 · 推理 ×3 · Agent ×2 · 布局/合成 ×2
 
 **[Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning](achieving_olympia-level_geometry_large_language_model_agent_via_complexity_boost.md)**
 
@@ -101,6 +102,10 @@ item_total: 50
 **[Beyond Magic Words: Sharpness-Aware Prompt Evolving for Robust Large Language Models with TARE](beyond_magic_words_sharpness-aware_prompt_evolving_for_robust_large_language_mod.md)**
 
 :   把图像/权重空间里的"锐度感知最小化（SAM）"搬到离散的文本提示空间，提出 TARE/ATARE：用"内层找最坏 paraphrase、外层选邻域最稳"的无梯度进化框架，让优化出来的 prompt 在同义改写下不掉点，在 4 个推理基准、5 种被测模型上稳定超过 TextGrad / Revolve。
+
+**[Beyond the Known: An Unknown-Aware Large Language Model for Open-Set Text Classification](beyond_the_known_an_unknown-aware_large_language_model_for_open-set_text_classif.md)**
+
+:   本文提出 UnLLM，把开放集文本分类从「闭集训练 + 事后 OOD 检测」改写成「给 LLM 喂部分标签子集、把候选外的样本显式标成 unknown」的子集条件分类任务，再用「表示—概率—推理」三级优化把对未知类的建模做实，在 6 个基准上 K-F1 / N-F1 双双稳定超过 SOTA。
 
 **[BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning](bots_a_unified_framework_for_bayesian_online_task_selection_in_llm_reinforcement.md)**
 
@@ -178,6 +183,10 @@ item_total: 50
 
 :   系统分析了 LLM 在扑克中的三大推理缺陷（启发式推理、事实误解、知行差距），提出 ToolPoker 框架——首个面向不完全信息博弈的工具集成 LLM 推理系统，通过外部 CFR solver 提供博弈论最优的行动指导，使 7B 模型在 Limit Hold'em 中逼近 Nash 均衡。
 
+**[IA2: Alignment with ICL Activations improves Supervised Fine-Tuning](ia2_alignment_with_icl_activations_improves_supervised_fine-tuning.md)**
+
+:   本文发现监督微调（SFT）和上下文学习（ICL）虽然输出相似，但内部激活完全不同；据此提出 IA2——一个在 SFT 之前先用 MSE 把模型激活拉向「ICL 在场」时激活的自蒸馏 priming 步骤，在 12 个基准上同时显著提升了少样本适配的准确率和校准度。
+
 **[In-Context Algebra](in-context_algebra.md)**
 
 :   本文设计了一个 **in-context 代数任务**——令 token 成为纯变量、每条序列重新随机分配含义——发现 Transformer 在此设定下不再学习经典的傅里叶/几何表示，而是涌现出三种 **符号推理机制**（交换复制、单位元识别、闭包消去），并揭示了训练过程中这些能力按阶段性相变依次出现的规律。
@@ -213,6 +222,10 @@ item_total: 50
 **[Parameters vs. Context: Fine-Grained Control of Knowledge Reliance in Language Models](parameters_vs_context_fine-grained_control_of_knowledge_reliance_in_language_mod.md)**
 
 :   本文提出 CK-PLUG，一个即插即用、无需训练的解码期方法：先用「置信增益（Confidence Gain）」逐 token 检测参数知识与检索上下文的冲突，再对冲突 token 用单一超参 $\alpha$ 加权融合「参数侧」和「上下文侧」两套概率分布，从而在「更信自己」与「更信检索」之间做连续、双向、可控的调节——在 LLaMA3-8B 上能把记忆召回率（MR）在 9.9%–71.9% 区间任意拨动，同时保持生成流畅度。
+
+**[PerFit: Exploring Personalization Shifts in Representation Space of LLMs](perfit_exploring_personalization_shifts_in_representation_space_of_llms.md)**
+
+:   PerFit 发现 LLM 中的个性化信息可以被低秩表征偏移刻画，并用“群体共享偏移 + 用户专属偏移”的两阶段表征空间干预，在 LaMP 六个个性化任务上接近或超过 LoRA/OPPU，同时相对 OPPU 平均减少约 92.3% 可训练参数。
 
 **[Prompt-MII: Meta-Learning Instruction Induction for LLMs](prompt-mii_meta-learning_instruction_induction_for_llms.md)**
 
@@ -258,6 +271,10 @@ item_total: 50
 
 :   TableMaster 先把表格的"结构特征"系统拆成四类挑战，再针对性地给出"构建聚焦子表 + 口语化补语义 + 自适应在文本/符号推理间切换 + 文本引导符号推理"四味配方，串成一个无需微调的三阶段框架，在 WikiTQ 上用 GPT-4o-mini 把准确率从 64.73% 推到 78.13%。
 
+**[Teaching Metric Distance to Discrete Autoregressive Language Models](teaching_metric_distance_to_discrete_autoregressive_language_models.md)**
+
+:   这篇论文提出 DIST2Loss，把数值、坐标、角度、VQ code 等 token 之间的度量距离转成距离加权的软目标分布，让离散自回归语言模型在保持 next-token 训练形式的同时学到“错得近比错得远好”的结构先验，并在视觉定位、机器人操作、奖励建模和图像生成中提升数据效率与下游表现。
+
 **[TEXT2ARCH: A Dataset for Generating Scientific Architecture Diagrams from Natural Language Descriptions](text2arch_a_dataset_for_generating_scientific_architecture_diagrams_from_natural.md)**
 
 :   本文提出 TEXT2ARCH——一个含 7.5 万条「架构图图像 + 干净文本描述 + DOT 代码」三元组的大规模数据集，把「文字描述→科学架构图」这一未被充分探索的任务形式化为「文字→中间 DOT 代码→编译成图」，并基于该数据微调出一批 7B–8B 小模型，结果显著超过 DiagramAgent、与 GPT-4o 的上下文学习持平。
@@ -285,3 +302,7 @@ item_total: 50
 **[WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality](webdevjudge_mllm_web_development.md)**
 
 :   构建 WebDevJudge 元评估基准，系统评估 LLM/MLLM 及智能体工作流在 Web 开发质量评估任务上作为裁判的能力，发现当前最强模型与人类专家之间仍存在约15%的一致率差距，并揭示了功能等价识别失败和可行性验证薄弱两大根本瓶颈。
+
+**[When Language Models Lose Their Mind: The Consequences of Brain Misalignment](when_language_models_lose_their_mind_the_consequences_of_brain_misalignment.md)**
+
+:   这篇论文用“脑失配”干预把 LLM 表征中可预测人脑语言区 fMRI 的信息刻意拿掉，同时尽量保持语言建模损失不变，发现这种脑对齐下降会系统性损害语义、句法等 200 多个语言探针任务，反过来提高脑对齐又能带来语言能力收益。

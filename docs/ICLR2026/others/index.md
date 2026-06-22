@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 其他论文汇总 · 104篇论文解读
+  ICLR2026 其他论文汇总 · 115篇论文解读
 description: >-
-  104篇ICLR2026的其他方向论文解读，涵盖对抗鲁棒、对齐/RLHF、联邦学习、持续学习、域适应、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  115篇ICLR2026的其他方向论文解读，涵盖对抗鲁棒、对齐/RLHF、联邦学习、持续学习、域适应、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 tags:
   - "ICLR2026"
   - "其他"
@@ -31,12 +31,16 @@ item_list:
     t: "Accelerated Parallel Tempering via Neural Transports"
   - u: "active_learning_for_decision_trees_with_provable_guarantees/"
     t: "Active Learning for Decision Trees with Provable Guarantees"
+  - u: "adaptive_canonicalization_with_application_to_invariant_anisotropic_geometric_ne/"
+    t: "Adaptive Canonicalization with Application to Invariant Anisotropic Geometric Networks"
   - u: "adaptive_conformal_guidance_for_learning_under_uncertainty/"
     t: "Adaptive Conformal Guidance for Learning under Uncertainty"
   - u: "aligning_collaborative_view_recovery_and_tensorial_subspace_learning_via_latent_/"
     t: "Aligning Collaborative View Recovery and Tensorial Subspace Learning via Latent Representation for Incomplete Multi-View Clustering"
   - u: "an_information-theoretic_framework_for_optimizing_experimental_design_to_disting/"
     t: "An Information-Theoretic Framework For Optimizing Experimental Design To Distinguish Probabilistic Neural Codes"
+  - u: "any-subgroup_equivariant_networks_via_symmetry_breaking/"
+    t: "Any-Subgroup Equivariant Networks via Symmetry Breaking"
   - u: "anyup_universal_feature_upsampling/"
     t: "AnyUp: Universal Feature Upsampling"
   - u: "articulation_in_motion_prior-free_part_mobility_analysis_for_articulated_objects/"
@@ -71,21 +75,17 @@ item_list:
     t: "Consistent Low-Rank Approximation"
   - u: "deploying_models_to_non-participating_clients_in_federated_learning_without_fine/"
     t: "Deploying Models to Non-participating Clients in Federated Learning without Fine-tuning: A Hypernetwork-based Approach"
-  - u: "deterministic_bounds_and_random_estimates_of_metric_tensors_on_neuromanifolds/"
-    t: "Deterministic Bounds and Random Estimates of Metric Tensors on Neuromanifolds"
-  - u: "discount_model_search_for_quality_diversity_optimization_in_high-dimensional_mea/"
-    t: "Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces"
-item_total: 104
+item_total: 115
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🔬 ICLR2026** · **104** 篇论文解读
+**🔬 ICLR2026** · **115** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (105)](../../CVPR2026/others/index.md) · [💬 ACL2026 (3)](../../ACL2026/others/index.md) · [🧪 ICML2026 (70)](../../ICML2026/others/index.md) · [🤖 AAAI2026 (117)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (121)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (33)](../../ICCV2025/others/index.md)
 
-🔥 **高频主题：** 对抗鲁棒 ×10 · 对齐/RLHF ×6 · 联邦学习 ×4 · 持续学习 ×4 · 域适应 ×4
+🔥 **高频主题：** 对抗鲁棒 ×11 · 对齐/RLHF ×6 · 联邦学习 ×4 · 持续学习 ×4 · 域适应 ×4
 
 **[A Brain-Inspired Gating Mechanism Unlocks Robust Computation in Spiking Neural Networks](a_brain-inspired_gating_mechanism_unlocks_robust_computation_in_spiking_neural_n.md)**
 
@@ -119,6 +119,10 @@ item_total: 104
 
 :   为决策树主动学习提供首个理论保证：(1) 首次分析决策树的不一致系数（disagreement coefficient）并给出 $O(\ln^{OPT}(n))$ 上界；(2) 提出首个达到乘法误差 $(1+\epsilon)$ 保证的二分类主动学习算法；结合两者实现数据集大小的多对数标签复杂度。
 
+**[Adaptive Canonicalization with Application to Invariant Anisotropic Geometric Networks](adaptive_canonicalization_with_application_to_invariant_anisotropic_geometric_ne.md)**
+
+:   这篇论文提出自适应规范化（adaptive canonicalization）：不再只由输入决定标准姿态，而是让输入和当前任务网络共同选择最有信心的变换，从而在保持对称性不变性的同时缓解传统规范化的不连续问题，并在谱图网络、分子/蛋白图分类和旋转点云分类上取得优于等变架构、数据增强和固定规范化的结果。
+
 **[Adaptive Conformal Guidance for Learning under Uncertainty](adaptive_conformal_guidance_for_learning_under_uncertainty.md)**
 
 :   把分割共形预测（split CP）直接嵌进训练循环，用"预测集大小"量化引导信号（teacher 软标签 / 伪标签 / 专家策略）的不确定性，再据此自适应调低不可靠引导的权重——一套框架同时覆盖监督、半监督、模仿引导 RL 三类带引导的学习场景。
@@ -130,6 +134,10 @@ item_total: 104
 **[An Information-Theoretic Framework For Optimizing Experimental Design To Distinguish Probabilistic Neural Codes](an_information-theoretic_framework_for_optimizing_experimental_design_to_disting.md)**
 
 :   提出 **information gap** 这一信息论度量，通过推导在似然编码和后验编码假说下解码器交叉熵性能差异的解析表达式（本质是真实后验与任务边际化代理后验之间的 KL 散度），定量评估给定实验设计区分两种概率神经编码假说的能力，并通过最大化该度量来优化刺激先验分布，实现理论驱动的最优实验设计。
+
+**[Any-Subgroup Equivariant Networks via Symmetry Breaking](any-subgroup_equivariant_networks_via_symmetry_breaking.md)**
+
+:   本文提出 ASEN（Any-Subgroup Equivariant Network），用一个对大群等变的基座网络 + 一个"自对称群恰好等于目标子群"的破缺输入，让**单个网络**通过切换辅助输入就能等变到任意置换子群，并用 2-闭包给出高效近似算法，在图、图像的对称选择以及序列多任务/迁移学习上同时超过分立的等变模型和单个非等变模型。
 
 **[AnyUp: Universal Feature Upsampling](anyup_universal_feature_upsampling.md)**
 
@@ -223,6 +231,10 @@ item_total: 104
 
 :   实证表明无需参数置换，仅靠增加模型宽度即可实现独立训练模型间的线性模式连通性（LMC），并提出"逐层指数加权连通性"（LEWC）解释这一现象的机理。
 
+**[Energy-Efficient Random Variate Generation via Compressed Lookup Tables](energy-efficient_random_variate_generation_via_compressed_lookup_tables.md)**
+
+:   本文提出 cLUT（compressed lookup table）方法：用一种对查找表做无损压缩的「几何频率」方案，把朴素查找表压成「高而窄」的二维数组，再配一个只需若干随机比特、单次内存查表的采样步骤，实现对任意有限离散分布的精确采样，速度比主流 Python 采样器快 10–100×，比 SOTA 的 C 实现省 25–50% 能耗。
+
 **[Ensemble Prediction of Task Affinity for Efficient Multi-Task Learning](ensemble_prediction_of_task_affinity_for_efficient_multi-task_learning.md)**
 
 :   ETAP 将白盒梯度亲和度分析与数据驱动集成预测结合，用极少量训练组就能准确预测多任务学习的性能增益，从而高效地把任务划分成最优分组。
@@ -299,9 +311,17 @@ item_total: 104
 
 :   本文用实证方法揭穿了"源无关可迁移性估计（SITE）"领域所依赖的标准基准的三大根本缺陷——不真实的模型空间、被静态排序就能刷爆的榜单、以及与真实精度差无关的分数刻度——并证明一个完全不看数据的静态启发式排序就能碾压所有精巧的 SITE 指标，进而给出构建更真实基准的最佳实践与一套新基准。
 
+**[Identity-Free Deferral For Unseen Experts](identity-free_deferral_for_unseen_experts.md)**
+
+:   本文指出现有「学习拒识」(Learning to Defer) 方法因为在固定坐标里处理按类索引的信号、学到了「认身份」的捷径，从而在面对训练时没见过、且能力分布偏移 (OOD) 的专家时崩掉；作者提出 Identity-Free Deferral (IFD)，用「角色索引」的低维状态从架构上强制置换不变性，再配一个无需查询时专家标注的不确定性感知训练目标，在医学影像与 ImageNet-16H 真人标注上对未见专家、尤其 OOD 专家显著更稳。
+
 **[Improving Set Function Approximation with Quasi-Arithmetic Neural Networks](improving_set_function_approximation_with_quasi-arithmetic_neural_networks.md)**
 
 :   提出QUANN（准算术神经网络），用可逆神经网络实现可学习的Kolmogorov均值作为池化操作，首次实现机器学习版本的广义中心趋势度量，QUANN是均值可分解集合函数的通用近似器，且学到的嵌入跨任务迁移性更强。
+
+**[Internal Evaluation of Density-Based Clusterings with Noise](internal_evaluation_of_density-based_clusterings_with_noise.md)**
+
+:   这篇论文提出 DISCO，一个面向带噪声密度聚类结果的内部评价指标，用 density-connectivity 替代欧氏紧致性来评价任意形状簇，并显式判断噪声标签是“真噪声”还是“该进簇却被丢掉的点”。
 
 **[It's All Just Vectorization: einx, a Universal Notation for Tensor Operations](its_all_just_vectorization_einx_a_universal_notation_for_tensor_operations.md)**
 
@@ -403,6 +423,10 @@ item_total: 104
 
 :   本文系统梳理了图机器学习领域围绕 oversmoothing、oversquashing、同质/异质性和长程依赖的九个常见误区，通过简洁反例逐一反驳，将"oversquashing"拆分为**计算瓶颈**和**拓扑瓶颈**两个独立概念，厘清了领域中广泛存在的概念混淆。
 
+**[P3D: Highly Scalable 3D Neural Surrogates for Physics Simulations with Global Context](p3d_highly_scalable_3d_neural_surrogates_for_physics_simulations_with_global_con.md)**
+
+:   P3D 用卷积-Transformer 混合骨干、crop 预训练和可选的全局上下文网络，把 3D PDE 与湍流仿真的神经代理模型扩展到 $512^3$ 级别，并在确定性预测和概率生成两类任务上同时取得更好的精度、速度和显存效率。
+
 **[Permutation-Consistent Variational Encoding for Incomplete Multi-View Multi-Label Classification](permutation-consistent_variational_encoding_for_incomplete_multi-view_multi-labe.md)**
 
 :   针对视图与标签"双缺失"的多视图多标签分类（iM3C），本文提出 PCVE 框架——在信息瓶颈目标下用跨视图变分编码器学习每个视图的共享语义分布，再用一种"置换一致性"正则把不同视图编码出来的同一目标语义对齐，从而在 50% 视图、50% 标签缺失下稳定超越 9 个强基线。
@@ -455,9 +479,21 @@ item_total: 104
 
 :   对 SAM 的底层机制提出新的直觉解释——扰动点梯度近似局部最大值方向，并揭示其不精确性及多步退化问题，进而提出 XSAM 通过显式估计最大值方向实现更忠实更有效的锐度感知最小化。
 
+**[Robust Equation Structure Learning with Adaptive Refinement (RESTART)](robust_equation_structure_learning_with_adaptive_refinement.md)**
+
+:   RESTART 把科学发现的「假设—实验—分析」三段闭环完整地搬进符号回归：先用 Transformer 给出强初始方程，再用 boosting 式的"探索函数"显式建模当前方程"没解释清楚"的部分作为短期靶向反馈，并把每次成功的修正蒸馏成可复用的代码片段存进结构库做长期知识，从而在 LLM-SRBench 上以更低误差、更高恢复率超过现有 SOTA，且在 OOD 数据上能逼近真值函数形式。
+
+**[Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute](scaling_atomistic_protein_binder_design_with_generative_pretraining_and_test-tim.md)**
+
+:   本文提出 **Proteína-Complexa（Complexa）**，把蛋白质 binder（结合蛋白）设计中长期割裂的"生成式建模"和"hallucination 序列优化"两条路线统一进同一框架：先用一个从 AFDB 结构域互作里造出来的大规模合成数据集 **Teddymer** 预训练一个全原子流匹配生成基座，再在推理时把扩散/流模型里的 test-time scaling 算法（Best-of-N、beam search、FKS、MCTS）搬过来，用结构预测器的界面置信度当奖励去"搜"出强 binder，在归一化算力预算下大幅超过 BindCraft 等 hallucination 方法。
+
 **[Scaling Direct Feedback Learning with Jacobian Alignment Guarantees](scaling_direct_feedback_learning_with_jacobian_alignment_guarantees.md)**
 
 :   针对直接反馈对齐(DFA)在深层卷积网络和 Transformer 上彻底失效的问题，本文提出 GrAPE：用前向模式 JVP 估出 rank-1 Jacobian，再用一个局部余弦对齐损失把每层的随机反馈矩阵"校正"到真实梯度方向，并周期性地插入单 batch 的真 BP 校准，从而在保持逐层并行更新的同时，首次把 DFA 类方法成功扩展到 VGG-16 / ResNet / Transformer，把和 BP 的差距收掉了一大半。
+
+**[SmellNet: A Large-scale Dataset for Real-world Smell Recognition](smellnet_a_large-scale_dataset_for_real-world_smell_recognition.md)**
+
+:   SmellNet 用低成本便携式气体传感器采集 50 种自然食材和 43 类混合气味的真实时序信号，并用结合时间差分、滑动窗口和 GC-MS 化学先验的 SCENTFORMER 建立机器嗅觉基准。
 
 **[Soft Quality-Diversity Optimization](soft_quality-diversity_optimization.md)**
 
@@ -498,6 +534,14 @@ item_total: 104
 **[Training Deep Normalization-Free Spiking Neural Networks with Lateral Inhibition](training_deep_normalization-free_spiking_neural_networks_with_lateral_inhibition.md)**
 
 :   提出基于皮层兴奋-抑制（E-I）回路的无归一化学习框架 DeepEISNN，通过 E-I Init 和 E-I Prop 两项技术实现深度 SNN 的稳定端到端训练，兼顾性能与生物合理性。
+
+**[Using maximal information auxiliary variables to improve synthetic data generation based on TabPFN foundation models](using_maximal_information_auxiliary_variables_to_improve_synthetic_data_generati.md)**
+
+:   这篇论文指出直接用 TabPFN 做表格合成数据时会在弱相关变量上失效，并提出 maximal information auxiliary variables (MIAV)：通过把随机噪声按真实变量秩匹配成辅助变量，让 TabPFN 只需学习 $X_j$ 与 $M_j$ 的单变量关系，从而更稳定、更高效地生成保留边际分布和关联结构的合成表格数据。
+
+**[What happens when generative AI models train recursively on each others' outputs?](what_happens_when_generative_ai_models_train_recursively_on_each_others_outputs.md)**
+
+:   本文把“多个生成式 AI 模型会不会在未来互相吃到彼此生成内容”形式化为数据媒介交互训练问题，理论和 LLM 实验证明：适量混合真实数据与其他模型的合成数据能带来跨任务迁移，但过度依赖合成数据会损害原任务并让模型输出逐渐同质化。
 
 **[When to Retrain after Drift: A Data-Only Test of Post-Drift Data Size Sufficiency](when_to_retrain_after_drift_a_data-only_test_of_post-drift_data_size_sufficiency.md)**
 
