@@ -6,6 +6,9 @@ repo_url: https://github.com/zhaoyang97/Paper-Notes
 repo_name: Star on GitHub
 docs_dir: docs
 site_dir: site
+validation:
+  nav:
+    omitted_files: ignore
 theme:
   name: material
   language: zh
@@ -25354,6 +25357,7 @@ markdown_extensions:
 extra_javascript:
 - javascripts/title-link.js
 - javascripts/mathjax.js
+- javascripts/search-page.js
 extra_css:
 - stylesheets/extra.css
 copyright: ✨本站笔记由 AI 辅助生成，仅供学术参考，如有错误欢迎指正

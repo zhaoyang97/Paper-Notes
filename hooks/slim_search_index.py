@@ -14,7 +14,11 @@ Strategy
   1. Collapse all section-level entries (#anchor) into a single doc per page.
   2. Keep **only the base page's title** — do NOT merge section headings into
      the title field. This is the single biggest win for lunr performance.
-  3. Clear all 'text' fields (title-only + tag indexing).
+  3. Set each page's 'text' field to its **keywords only** (read from the
+     note's `**关键词**:` / `**Keywords**:` line) — never the full body. This
+     makes keyword search work (e.g. a paper whose title omits "diffusion" but
+     is tagged so) while costing only ~1.8 MB over title-only, vs the ~250 MB
+     a full-body index would weigh.
   4. Preserve the first doc's `tags` so tag-based filtering still works.
   5. Filter low-frequency tags (freq < MIN_TAG_FREQ) — long-tail paper-specific
      tags explode the lunr token table without aiding discoverability.
@@ -36,6 +40,11 @@ _CONF_PATTERN = re.compile(
 
 MIN_TAG_FREQ = 5
 
+# Body metadata line listing a paper's keywords, e.g.
+#   **关键词**: diffusion model, image editing      (zh notes)
+#   **Keywords**: diffusion model, image editing    (en notes)
+_KW_PATTERN = re.compile(r"\*\*(?:关键词|Keywords)\*\*\s*[:：]\s*(.+)")
+
 
 def _is_index_page(base: str) -> bool:
     """Conference root / section index pages: e.g. 'AAAI2026/', 'AAAI2026/3d_vision/'.
@@ -46,6 +55,32 @@ def _is_index_page(base: str) -> bool:
     if not clean:
         return True
     return clean.count("/") < 2
+
+
+def _read_keywords(docs_dir: str, base: str) -> str:
+    """Return the space-joined keywords for a page, read from its source note.
+
+    ``base`` is the directory-URL location (e.g. ``CVPR2026/3d_vision/slug/``);
+    the source markdown is ``<docs_dir>/CVPR2026/3d_vision/slug.md``. Only the
+    file head is scanned since the keyword line lives in the metadata block.
+    """
+    rel = base.strip("/")
+    if not rel:
+        return ""
+    src = os.path.join(docs_dir, rel + ".md")
+    try:
+        with open(src, encoding="utf-8") as f:
+            head = f.read(2000)
+    except OSError:
+        return ""
+    m = _KW_PATTERN.search(head)
+    if not m:
+        return ""
+    kws = [k.strip() for k in m.group(1).split(",") if k.strip()]
+    # Comma-join (not space-join) so multi-word keywords keep their boundaries
+    # for chip rendering on /search/. Search is unaffected: the tokenizers on
+    # both lunr and the /search/ page split on punctuation + whitespace alike.
+    return ", ".join(kws)
 
 
 def on_post_build(config, **kwargs):
@@ -63,6 +98,8 @@ def on_post_build(config, **kwargs):
     original_count = len(docs)
     original_size = os.path.getsize(index_path)
 
+    docs_dir = config["docs_dir"]
+
     # ── Pass 1: collapse section entries, keep only the base page title ──
     pages: "OrderedDict[str, dict]" = OrderedDict()
     for doc in docs:
@@ -76,7 +113,7 @@ def on_post_build(config, **kwargs):
             pages[base] = {
                 "location": base,
                 "title": doc.get("title", "").strip(),
-                "text": "",
+                "text": _read_keywords(docs_dir, base),
                 "_tags": set(doc.get("tags") or []),
             }
         else:
@@ -112,12 +149,15 @@ def on_post_build(config, **kwargs):
     slim_docs = list(pages.values())
     data["docs"] = slim_docs
 
+    kw_pages = sum(1 for p in slim_docs if p.get("text"))
+
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
     new_size = os.path.getsize(index_path)
     print(
-        f"[slim_search_index] {original_count} -> {len(slim_docs)} docs, "
+        f"[slim_search_index] {original_count} -> {len(slim_docs)} docs "
+        f"({kw_pages} with keywords), "
         f"{original_size / 1024 / 1024:.1f} MB -> {new_size / 1024 / 1024:.1f} MB; "
         f"tags kept={len(keep_tags)} (dropped {rare_removed} rare, {conf_removed} conf)"
     )

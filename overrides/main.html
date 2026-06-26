@@ -26,8 +26,12 @@
         data-cf-beacon='{"token": "{{ config.extra.cloudflare_analytics_token }}"}'></script>
 {% endif %}
 
+{% if page and page.url == 'search/' %}
+<meta name="robots" content="noindex,follow" />
+{% else %}
 <meta name="robots" content="index,follow,max-snippet:180,max-image-preview:large" />
 <meta name="googlebot" content="index,follow,max-snippet:180,max-image-preview:large" />
+{% endif %}
 
 <script>
 (function() {
@@ -297,6 +301,19 @@
     }
     return extra.length ? q + ' ' + extra.join(' ') : q;
   }
+  window.__pnExpand = expand;
+
+  // ── Press Enter in the header search box → open the full /search/ results page ──
+  document.addEventListener('keydown', function(e) {
+    if (e.key !== 'Enter') return;
+    var t = e.target;
+    if (!t || !t.classList || !t.classList.contains('md-search__input')) return;
+    e.preventDefault(); e.stopPropagation();
+    var i = location.pathname.indexOf('/search/');
+    var b = i >= 0 ? location.pathname.slice(0, i + 1) : '/';
+    var v = t.value.trim();
+    location.href = b + 'search/' + (v ? '?q=' + encodeURIComponent(v) : '');
+  }, true);
 
   // ── Mobile: disable search worker entirely, use Bing ──
   if (isMobile) {
@@ -445,7 +462,7 @@
       '" target="_blank" rel="noopener" style="color:var(--md-accent-fg-color);font-size:0.85rem;">' +
       '🔍 全文深度搜索「' + query.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '」(via Bing)</a>' +
       '<span style="display:block;font-size:0.75rem;color:var(--md-default-fg-color--light);margin-top:2px;">' +
-      '站内搜索仅匹配标题和标签，点此搜索全文内容</span>';
+      '站内搜索仅匹配标题、标签和关键词，点此搜索全文内容</span>';
 
     if (existing) {
       existing.innerHTML = html;
