@@ -26,34 +26,39 @@
       loading: "正在加载搜索索引…",
       empty: "输入关键词开始搜索（匹配标题 + 关键词）",
       none: "没有找到匹配的笔记。",
-      count: function (n, shown) {
-        return shown < n
-          ? "找到 " + n + " 条结果（显示前 " + shown + " 条）"
+      count: function (n, from, to, page, pages) {
+        return pages > 1
+          ? "找到 " + n + " 条结果（第 " + from + "-" + to + " 条 / 共 " + pages + " 页）"
           : "找到 " + n + " 条结果";
       },
       deep: function (q) {
         return "在 Bing 上全文深搜「" + q + "」";
       },
-      failed: "搜索索引加载失败，请稍后重试。"
+      failed: "搜索索引加载失败，请稍后重试。",
+      prev: "上一页",
+      next: "下一页"
     },
     en: {
       placeholder: "Search paper notes…",
       loading: "Loading search index…",
       empty: "Type a keyword to search (matches title + keywords)",
       none: "No matching notes found.",
-      count: function (n, shown) {
-        return shown < n
-          ? n + " results (showing top " + shown + ")"
+      count: function (n, from, to, page, pages) {
+        return pages > 1
+          ? n + " results (showing " + from + "-" + to + " of page " + page + "/" + pages + ")"
           : n + " results";
       },
       deep: function (q) {
         return "Full-text search \u201C" + q + "\u201D on Bing";
       },
-      failed: "Failed to load the search index. Please try again later."
+      failed: "Failed to load the search index. Please try again later.",
+      prev: "Previous",
+      next: "Next"
     }
   }[LANG];
 
-  var MAX_RENDER = 100;
+  var PAGE_SIZE = 50;
+  var MAX_PAGE_LINKS = 7;
   var docsCache = null; // pre-tokenised docs, built once per page load
   var building = false;
   var waiters = [];
@@ -312,15 +317,110 @@
     return m ? decodeURIComponent(m[1].replace(/\+/g, " ")) : "";
   }
 
-  function render(status, list, q) {
+  function getPage() {
+    var m = /[?&]page=(\d+)/.exec(location.search);
+    var p = m ? parseInt(m[1], 10) : 1;
+    return p > 0 ? p : 1;
+  }
+
+  function searchUrl(q, page) {
+    var nq = (q || "").trim();
+    if (!nq) return base() + "search/";
+    var url = base() + "search/?q=" + encodeURIComponent(nq);
+    if (page && page > 1) url += "&page=" + page;
+    return url;
+  }
+
+  function replaceSearchUrl(q, page) {
+    try {
+      history.replaceState(null, "", searchUrl(q, page));
+    } catch (e) {}
+  }
+
+  function ensurePager(list) {
+    var pager = document.getElementById("pn-search-pagination");
+    if (!pager) {
+      pager = document.createElement("nav");
+      pager.id = "pn-search-pagination";
+      pager.className = "pn-pager";
+      pager.setAttribute("aria-label", LANG === "zh" ? "搜索结果分页" : "Search result pages");
+      list.insertAdjacentElement("afterend", pager);
+    }
+    return pager;
+  }
+
+  function pageHref(q, page) {
+    return searchUrl(q, page).replace(/&/g, "&amp;");
+  }
+
+  function pageAnchor(q, page, label, className) {
+    return (
+      '<a class="pn-page ' +
+      className +
+      '" href="' +
+      pageHref(q, page) +
+      '" data-page="' +
+      page +
+      '">' +
+      esc(label) +
+      "</a>"
+    );
+  }
+
+  function renderPager(pager, q, page, totalPages) {
+    if (!pager) return;
+    if (!q || totalPages <= 1) {
+      pager.innerHTML = "";
+      return;
+    }
+
+    var half = Math.floor(MAX_PAGE_LINKS / 2);
+    var start = Math.max(1, page - half);
+    var end = Math.min(totalPages, start + MAX_PAGE_LINKS - 1);
+    start = Math.max(1, end - MAX_PAGE_LINKS + 1);
+
+    var html = "";
+    html +=
+      page > 1
+        ? pageAnchor(q, page - 1, T.prev, "pn-prev")
+        : '<span class="pn-page pn-prev pn-disabled">' + esc(T.prev) + "</span>";
+
+    if (start > 1) {
+      html += pageAnchor(q, 1, "1", "pn-number");
+      if (start > 2) html += '<span class="pn-page pn-ellipsis">…</span>';
+    }
+
+    for (var p = start; p <= end; p++) {
+      html +=
+        p === page
+          ? '<span class="pn-page pn-number pn-current" aria-current="page">' + p + "</span>"
+          : pageAnchor(q, p, String(p), "pn-number");
+    }
+
+    if (end < totalPages) {
+      if (end < totalPages - 1) html += '<span class="pn-page pn-ellipsis">…</span>';
+      html += pageAnchor(q, totalPages, String(totalPages), "pn-number");
+    }
+
+    html +=
+      page < totalPages
+        ? pageAnchor(q, page + 1, T.next, "pn-next")
+        : '<span class="pn-page pn-next pn-disabled">' + esc(T.next) + "</span>";
+
+    pager.innerHTML = html;
+  }
+
+  function render(status, list, pager, q, page) {
     q = (q || "").trim();
     if (!q) {
       status.textContent = T.empty;
       list.innerHTML = "";
+      renderPager(pager, q, 1, 0);
       return;
     }
     status.textContent = T.loading;
     list.innerHTML = "";
+    renderPager(pager, q, 1, 0);
     ensureIndex(function (err) {
       if (err) {
         status.textContent = T.failed;
@@ -331,12 +431,16 @@
         status.innerHTML = esc(T.none) + " · " + deepLink(q);
         return;
       }
-      var shown = Math.min(hits.length, MAX_RENDER);
-      status.innerHTML = T.count(hits.length, shown) + " · " + deepLink(q);
+      var totalPages = Math.ceil(hits.length / PAGE_SIZE);
+      page = Math.min(Math.max(page || 1, 1), totalPages);
+      replaceSearchUrl(q, page);
+      var start = (page - 1) * PAGE_SIZE;
+      var end = Math.min(start + PAGE_SIZE, hits.length);
+      status.innerHTML = T.count(hits.length, start + 1, end, page, totalPages) + " · " + deepLink(q);
       var terms = highlightTerms(q);
       var b = base();
       var html = "";
-      for (var i = 0; i < shown; i++) {
+      for (var i = start; i < end; i++) {
         var doc = hits[i].doc;
         html +=
           '<li class="pn-hit">' +
@@ -363,6 +467,7 @@
           "</li>";
       }
       list.innerHTML = html;
+      renderPager(pager, q, page, totalPages);
     });
   }
 
@@ -382,6 +487,12 @@
       ".pn-hit-meta{font-size:.72rem;color:var(--md-default-fg-color--light);margin-top:.15rem}" +
       ".pn-hit-kw{margin-top:.35rem;display:flex;flex-wrap:wrap;gap:.3rem}" +
       ".pn-kw{font-size:.72rem;color:var(--md-default-fg-color--light);background:var(--md-default-fg-color--lightest);border-radius:.6rem;padding:.08rem .5rem;line-height:1.7;white-space:nowrap}" +
+      ".pn-pager{display:flex;align-items:center;justify-content:center;gap:.35rem;flex-wrap:wrap;margin:1rem 0 0}" +
+      ".pn-page{min-width:2rem;padding:.28rem .55rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:.35rem;text-align:center;font-size:.78rem;line-height:1.5;background:var(--md-default-bg-color)}" +
+      ".pn-page:hover{border-color:var(--md-accent-fg-color);text-decoration:none}" +
+      ".pn-current{color:var(--md-primary-bg-color);background:var(--md-primary-fg-color);border-color:var(--md-primary-fg-color);font-weight:700}" +
+      ".pn-disabled,.pn-ellipsis{color:var(--md-default-fg-color--light);background:transparent}" +
+      ".pn-disabled{pointer-events:none}" +
       // Matched-term highlight, mainstream-search style: a warm bold colour that
       // pops on both the purple title links and the grey keyword chips, plus a
       // faint tinted pill. All rules are scoped under `.md-typeset` so they beat
@@ -415,44 +526,53 @@
     var status = document.getElementById("pn-search-status");
     var list = document.getElementById("pn-search-results");
     if (!input || !status || !list) return;
+    var pager = ensurePager(list);
 
     input.placeholder = T.placeholder;
 
     var initialQ = getQ();
+    var initialPage = getPage();
     if (initialQ) input.value = initialQ;
 
     var timer = null;
-    function update(immediate) {
+    function update(immediate, page) {
       var q = input.value;
       var nq = q.trim();
-      var url = base() + "search/" + (nq ? "?q=" + encodeURIComponent(nq) : "");
-      try {
-        history.replaceState(null, "", url);
-      } catch (e) {}
+      page = nq ? page || 1 : 1;
+      replaceSearchUrl(nq, page);
       if (timer) {
         clearTimeout(timer);
         timer = null;
       }
       if (immediate) {
-        render(status, list, q);
+        render(status, list, pager, q, page);
       } else {
         timer = setTimeout(function () {
-          render(status, list, q);
+          render(status, list, pager, q, page);
         }, 180);
       }
     }
 
     input.addEventListener("input", function () {
-      update(false);
+      update(false, 1);
     });
     input.addEventListener("keydown", function (e) {
       if (e.key === "Enter") {
         e.preventDefault();
-        update(true);
+        update(true, 1);
       }
     });
+    pager.addEventListener("click", function (e) {
+      var target = e.target.closest("[data-page]");
+      if (!target) return;
+      e.preventDefault();
+      update(true, parseInt(target.getAttribute("data-page"), 10) || 1);
+      try {
+        status.scrollIntoView({ block: "start" });
+      } catch (err) {}
+    });
 
-    render(status, list, initialQ);
+    render(status, list, pager, initialQ, initialPage);
     try {
       input.focus();
     } catch (e) {}

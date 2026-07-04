@@ -36,26 +36,27 @@ Paper Notes 交流群: `1094559400`
 |------|-------:|:-------------|
 | [CVPR 2026](https://papernotes.org/CVPR2026/) | 4,067 | [CVPR2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/CVPR2026-Papers.md) |
 | [ICLR 2026](https://papernotes.org/ICLR2026/) | 5,342 | [ICLR2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICLR2026-Papers.md) |
-| [NeurIPS 2025](https://papernotes.org/NeurIPS2025/) | 2,530 | [NeurIPS2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/NeurIPS2025-Papers.md) |
-| [ICML 2026](https://papernotes.org/ICML2026/) | 1,846 | [ICML2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICML2026-Papers.md) |
-| [ACL 2025](https://papernotes.org/ACL2025/) | 1,855 | [ACL2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ACL2025-Papers.md) |
-| [CVPR 2025](https://papernotes.org/CVPR2025/) | 1,820 | [CVPR2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/CVPR2025-Papers.md) |
 | [ACL 2026](https://papernotes.org/ACL2026/) | 1,419 | [ACL2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ACL2026-Papers.md) |
+| [ICML 2026](https://papernotes.org/ICML2026/) | 1,846 | [ICML2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICML2026-Papers.md) |
 | [AAAI 2026](https://papernotes.org/AAAI2026/) | 1,381 | [AAAI2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/AAAI2026-Papers.md) |
+| [NeurIPS 2025](https://papernotes.org/NeurIPS2025/) | 2,530 | [NeurIPS2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/NeurIPS2025-Papers.md) |
 | [ICCV 2025](https://papernotes.org/ICCV2025/) | 1,315 | [ICCV2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICCV2025-Papers.md) |
 | [ICML 2025](https://papernotes.org/ICML2025/) | 1,063 | [ICML2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICML2025-Papers.md) |
+| [ACL 2025](https://papernotes.org/ACL2025/) | 1,855 | [ACL2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ACL2025-Papers.md) |
+| [CVPR 2025](https://papernotes.org/CVPR2025/) | 1,820 | [CVPR2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/CVPR2025-Papers.md) |
 | [ECCV 2024](https://papernotes.org/ECCV2024/) | 869 | [ECCV2024-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ECCV2024-Papers.md) |
 
 ## 🗓️ 更新路线图
 
-| 公布时间 | 会议 |
-|----------|--------------|
-| 2026-07 | ECCV 2026 |
-| 2026-09 | NeurIPS 2026 |
-| 2026-10 | EMNLP 2026 |
-| 2026-12 | AAAI 2027 |
-| 2027-01 | ICLR 2027 |
-| 2027-02 | CVPR 2027 |
+
+| 会议 | 录用通知时间 | 名单公布时间 | 会议召开时间 |
+|------|--------------|--------------|--------------|
+| ECCV 2026 | 2026-06 | 2026-07 | 2026-09 |
+| NeurIPS 2026 | 2026-09 | 2026-09 | 2026-12 |
+| EMNLP 2026 | 2026-08 | 2026-10 | 2026-10 |
+| AAAI 2027 | 2026-11 | 2026-12 | 2027-01 |
+| ICLR 2027 | 2027-01 | 2027-01 | 2027-04 |
+| CVPR 2027 | 2027-02 | 2027-03 | 2027-06 |
 
 ## 🔍 研究领域
 
