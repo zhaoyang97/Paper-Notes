@@ -535,8 +535,9 @@
     if (initialQ) input.value = initialQ;
 
     var timer = null;
-    function update(immediate, page) {
-      var q = input.value;
+    function update(immediate, page, queryOverride) {
+      var q = typeof queryOverride === "string" ? queryOverride : input.value;
+      if (typeof queryOverride === "string" && input.value !== q) input.value = q;
       var nq = q.trim();
       page = nq ? page || 1 : 1;
       replaceSearchUrl(nq, page);
@@ -566,7 +567,11 @@
       var target = e.target.closest("[data-page]");
       if (!target) return;
       e.preventDefault();
-      update(true, parseInt(target.getAttribute("data-page"), 10) || 1);
+      var query = "";
+      try {
+        query = new URL(target.getAttribute("href"), location.href).searchParams.get("q") || "";
+      } catch (err) {}
+      update(true, parseInt(target.getAttribute("data-page"), 10) || 1, query || input.value || getQ());
       try {
         status.scrollIntoView({ block: "start" });
       } catch (err) {}
