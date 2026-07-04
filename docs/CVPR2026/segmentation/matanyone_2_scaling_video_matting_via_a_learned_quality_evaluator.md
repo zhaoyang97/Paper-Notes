@@ -13,7 +13,6 @@ tags:
   - "reference-frame strategy"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MatAnyone 2: Scaling Video Matting via a Learned Quality Evaluator
 
 **会议**: CVPR2026  

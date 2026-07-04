@@ -14,7 +14,6 @@ tags:
   - "注意力引导剪枝"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # UTPTrack: Towards Simple and Unified Token Pruning for Visual Tracking
 
 **会议**: CVPR2026  

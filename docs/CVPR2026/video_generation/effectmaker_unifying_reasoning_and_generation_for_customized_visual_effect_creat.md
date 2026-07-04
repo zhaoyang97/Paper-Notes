@@ -13,7 +13,6 @@ tags:
   - "上下文学习"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # EffectMaker: Unifying Reasoning and Generation for Customized Visual Effect Creation
 
 **会议**: CVPR 2026  

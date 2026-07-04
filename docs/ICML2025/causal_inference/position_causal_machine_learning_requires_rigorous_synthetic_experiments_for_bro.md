@@ -13,7 +13,6 @@ tags:
   - "Position Paper"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Position: Causal Machine Learning Requires Rigorous Synthetic Experiments for Broader Adoption
 
 **会议**: ICML2025  

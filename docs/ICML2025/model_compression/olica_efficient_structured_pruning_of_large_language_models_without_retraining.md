@@ -15,7 +15,6 @@ tags:
   - "SVD"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Olica: Efficient Structured Pruning of Large Language Models without Retraining
 
 **会议**: ICML2025  

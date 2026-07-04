@@ -14,7 +14,6 @@ tags:
   - "测试时缩放"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Visual-ERM: Reward Modeling for Visual Equivalence
 
 **会议**: CVPR2025  

@@ -13,7 +13,6 @@ tags:
   - "引用粒度"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # eTracer: Towards Traceable Text Generation via Claim-Level Grounding
 
 **会议**: ACL 2026  

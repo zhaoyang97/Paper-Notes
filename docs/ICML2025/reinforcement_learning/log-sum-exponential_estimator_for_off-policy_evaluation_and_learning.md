@@ -14,7 +14,6 @@ tags:
   - "log-sum-exponential"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Log-Sum-Exponential Estimator for Off-Policy Evaluation and Learning
 
 **会议**: ICML2025 Spotlight  

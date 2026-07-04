@@ -13,7 +13,6 @@ tags:
   - "混合专家"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # Nonlinear Color Transfer via Learnable Bezier Flows
 
 **会议**: CVPR 2026  

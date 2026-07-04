@@ -14,7 +14,6 @@ tags:
   - "偏见路径"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Uncovering Bias Paths with LLM-guided Causal Discovery: An Active Learning and Dynamic Scoring Approach
 
 **会议**: AAAI2026  

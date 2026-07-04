@@ -13,7 +13,6 @@ tags:
   - "3D高斯溅射"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Ani3DHuman: Photorealistic 3D Human Animation with Self-guided Stochastic Sampling
 
 **会议**: CVPR2026  

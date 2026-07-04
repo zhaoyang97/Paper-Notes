@@ -13,7 +13,6 @@ tags:
   - "black-first coding sequence"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Coded-E2LF: Coded Aperture Light Field Imaging from Events
 
 **会议**: CVPR2026  

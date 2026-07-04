@@ -14,7 +14,6 @@ tags:
   - "代码生成"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # To Code or not to Code? Adaptive Tool Integration for Math Language Models via Expectation-Maximization
 
 **会议**: ACL2025  

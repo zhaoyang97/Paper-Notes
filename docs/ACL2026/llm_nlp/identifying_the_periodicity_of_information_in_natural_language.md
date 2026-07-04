@@ -13,7 +13,6 @@ tags:
   - "LLM 检测"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Identifying the Periodicity of Information in Natural Language
 
 **会议**: ACL 2026  

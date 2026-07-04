@@ -13,7 +13,6 @@ tags:
   - "Pun-CoT"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # "I See What You Did There": Can Large Vision-Language Models Understand Multimodal Puns?
 
 **会议**: ACL 2026  

@@ -13,7 +13,6 @@ tags:
   - "新视角合成"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # DropAnSH-GS: Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting
 
 **会议**: CVPR 2026  

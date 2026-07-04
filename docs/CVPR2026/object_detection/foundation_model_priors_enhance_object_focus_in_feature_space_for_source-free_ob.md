@@ -13,7 +13,6 @@ tags:
   - "Mean-Teacher"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Foundation Model Priors Enhance Object Focus in Feature Space for Source-Free Object Detection
 
 **会议**: CVPR2026  

@@ -14,7 +14,6 @@ tags:
   - "Talking Module"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models
 
 **会议**: ACL2026  

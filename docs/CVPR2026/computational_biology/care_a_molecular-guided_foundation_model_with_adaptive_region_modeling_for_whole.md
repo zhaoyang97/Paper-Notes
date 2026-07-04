@@ -14,7 +14,6 @@ tags:
   - "RNA/蛋白质引导"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis
 
 **会议**: CVPR2026  

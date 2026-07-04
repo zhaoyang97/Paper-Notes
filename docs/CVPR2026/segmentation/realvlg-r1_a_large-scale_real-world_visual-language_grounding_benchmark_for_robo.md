@@ -14,7 +14,6 @@ tags:
   - "大规模视觉语言模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # RealVLG-R1: A Large-Scale Real-World Visual-Language Grounding Benchmark for Robotic Perception and Manipulation
 
 **会议**: CVPR2026  

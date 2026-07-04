@@ -14,7 +14,6 @@ tags:
   - "SVD分解"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # From Low Rank Gradient Subspace Stabilization to Low-Rank Weights: Observations, Theories, and Applications
 
 **会议**: ICML2025  

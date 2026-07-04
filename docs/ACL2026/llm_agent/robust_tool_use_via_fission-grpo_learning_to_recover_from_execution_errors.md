@@ -13,7 +13,6 @@ tags:
   - "错误模拟器"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Robust Tool Use via Fission-GRPO: Learning to Recover from Execution Errors
 
 **会议**: ACL 2026  

@@ -13,7 +13,6 @@ tags:
   - "检索增强推理"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Rerank Before You Reason: Analyzing Reranking Tradeoffs through Effective Token Cost in Deep Search Agents
 
 **会议**: ACL 2026 Findings  

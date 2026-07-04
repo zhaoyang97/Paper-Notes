@@ -14,7 +14,6 @@ tags:
   - "OOD泛化"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Concept-Guided Fine-Tuning: Steering ViTs away from Spurious Correlations to Improve Robustness
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "频域分析"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CometNet: Contextual Motif-guided Long-term Time Series Forecasting
 
 **会议**: AAAI 2026  

@@ -13,7 +13,6 @@ tags:
   - "MoE"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # SigLino: Efficient Multi-Teacher Distillation for Agglomerative Vision Foundation Models
 
 **会议**: CVPR 2026  

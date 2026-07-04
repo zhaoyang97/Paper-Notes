@@ -12,7 +12,6 @@ tags:
   - "跨尺度泛化"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # LightGTS: A Lightweight General Time Series Forecasting Model
 
 **会议**: ICML2025  

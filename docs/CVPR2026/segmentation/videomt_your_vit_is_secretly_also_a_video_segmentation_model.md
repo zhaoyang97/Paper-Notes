@@ -15,7 +15,6 @@ tags:
   - "DINOv2"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # VidEoMT: Your ViT is Secretly Also a Video Segmentation Model
 
 **会议**: CVPR2026  

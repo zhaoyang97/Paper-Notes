@@ -14,7 +14,6 @@ tags:
   - "DiT"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # When to Lock Attention: Training-Free KV Control in Video Diffusion
 
 **会议**: CVPR2025  

@@ -15,7 +15,6 @@ tags:
   - "双线索一致性"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Test-time Ego-Exo-centric Adaptation for Action Anticipation via Multi-Label Prototype Growing and Dual-Clue Consistency
 
 **会议**: CVPR2026  

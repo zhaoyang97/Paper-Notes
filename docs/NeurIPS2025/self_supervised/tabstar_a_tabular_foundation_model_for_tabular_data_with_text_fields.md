@@ -13,7 +13,6 @@ tags:
   - "迁移学习"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # TabSTAR: A Tabular Foundation Model for Tabular Data with Text Fields
 
 **会议**: NeurIPS 2025  

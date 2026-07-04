@@ -13,7 +13,6 @@ tags:
   - "生成式纠错"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Speech-Hands: A Self-Reflection Voice Agentic Approach to Speech Recognition and Audio Reasoning with Omni Perception
 
 **会议**: ACL2026 Oral  

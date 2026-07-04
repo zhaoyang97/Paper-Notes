@@ -13,7 +13,6 @@ tags:
   - "certified solving"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Faster Certified Symmetry Breaking Using Orders With Auxiliary Variables
 
 **会议**: AAAI 2026  

@@ -14,7 +14,6 @@ tags:
   - "gradient modulation"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # PaSE: Prototype-aligned Calibration and Shapley-based Equilibrium for Multimodal Sentiment Analysis
 
 **会议**: AAAI 2026  

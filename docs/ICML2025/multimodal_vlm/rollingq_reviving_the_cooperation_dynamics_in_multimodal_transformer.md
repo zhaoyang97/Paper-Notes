@@ -13,7 +13,6 @@ tags:
   - "Transformer"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer
 
 **会议**: ICML2025  

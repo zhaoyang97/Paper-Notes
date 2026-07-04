@@ -13,7 +13,6 @@ tags:
   - "lightweight model"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # XLinear: A Lightweight and Accurate MLP-Based Model for Long-Term Time Series Forecasting with Exogenous Inputs
 
 **会议**: AAAI2026  

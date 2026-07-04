@@ -13,7 +13,6 @@ tags:
   - "continual learning"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Temporal Imbalance of Positive and Negative Supervision in Class-Incremental Learning
 
 **会议**: CVPR2026  

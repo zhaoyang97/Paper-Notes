@@ -15,7 +15,6 @@ tags:
   - "hardware-aligned kernel"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Hardware-aligned Hierarchical Sparse Attention for Efficient Long-term Memory Access
 
 **会议**: NEURIPS2025  

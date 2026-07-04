@@ -14,7 +14,6 @@ tags:
   - "PPO"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Dual-Agent Reinforcement Learning for Adaptive and Cost-Aware Visual-Inertial Odometry
 
 **会议**: CVPR2026  

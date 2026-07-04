@@ -13,7 +13,6 @@ tags:
   - "LoCoMo"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # HyperMem: Hypergraph Memory for Long-Term Conversations
 
 **会议**: ACL 2026  

@@ -14,7 +14,6 @@ tags:
   - "physics-guided ML"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Physics-Guided Machine Learning for Uncertainty Quantification in Turbulence Models
 
 **会议**: NEURIPS2025  

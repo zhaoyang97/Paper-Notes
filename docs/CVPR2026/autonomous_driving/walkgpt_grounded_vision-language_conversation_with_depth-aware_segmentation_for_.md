@@ -14,7 +14,6 @@ tags:
   - "VQA"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # WalkGPT: Grounded Vision-Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation
 
 **会议**: CVPR2026  

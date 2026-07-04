@@ -194,7 +194,6 @@ tags:
   - 数据集
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 
 <!-- RELATED:START -->
 

@@ -14,7 +14,6 @@ tags:
   - "位置编码压缩"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CC-VQA: Conflict- and Correlation-Aware Method for Mitigating Knowledge Conflict in Knowledge-Based Visual Question Answering
 
 **会议**: CVPR2026  

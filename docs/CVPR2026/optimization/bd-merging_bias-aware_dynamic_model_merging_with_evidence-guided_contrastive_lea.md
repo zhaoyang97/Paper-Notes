@@ -14,7 +14,6 @@ tags:
   - "uncertainty estimation"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BD-Merging: Bias-Aware Dynamic Model Merging with Evidence-Guided Contrastive Learning
 
 **会议**: CVPR 2026  

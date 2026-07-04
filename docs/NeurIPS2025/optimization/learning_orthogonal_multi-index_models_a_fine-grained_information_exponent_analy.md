@@ -13,7 +13,6 @@ tags:
   - "子空间恢复"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Learning Orthogonal Multi-Index Models: A Fine-Grained Information Exponent Analysis
 
 **会议**: NeurIPS 2025  

@@ -14,7 +14,6 @@ tags:
   - "对比学习"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # A Mixed Diet Makes DINO An Omnivorous Vision Encoder
 
 **会议**: CVPR2026  

@@ -14,7 +14,6 @@ tags:
   - "遥感"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SARMAE: Masked Autoencoder for SAR Representation Learning
 
 **会议**: CVPR2026  

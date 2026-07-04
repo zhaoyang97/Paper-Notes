@@ -13,7 +13,6 @@ tags:
   - "meta-learning"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams
 
 **会议**: ICML2025  

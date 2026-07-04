@@ -12,7 +12,6 @@ tags:
   - "inference-time compute"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # TESS 2: A Large-Scale Generalist Diffusion Language Model
 
 **会议**: ACL2025  

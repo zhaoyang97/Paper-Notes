@@ -13,7 +13,6 @@ tags:
   - "creative workflow"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # DiffBMP: Differentiable Rendering with Bitmap Primitives
 
 **会议**: CVPR2026  

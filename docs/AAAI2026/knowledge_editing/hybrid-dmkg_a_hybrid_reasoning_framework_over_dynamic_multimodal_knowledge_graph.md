@@ -14,7 +14,6 @@ tags:
   - "混合推理"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Hybrid-DMKG: A Hybrid Reasoning Framework over Dynamic Multimodal Knowledge Graphs for Multimodal Multihop QA with Knowledge Editing
 
 **会议**: AAAI2026  

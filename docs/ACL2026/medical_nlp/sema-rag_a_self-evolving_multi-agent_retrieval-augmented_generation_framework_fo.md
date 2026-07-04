@@ -13,7 +13,6 @@ tags:
   - "临床推理"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SEMA-RAG: A Self-Evolving Multi-Agent Retrieval-Augmented Generation Framework for Medical Reasoning
 
 **会议**: ACL 2026 Findings  

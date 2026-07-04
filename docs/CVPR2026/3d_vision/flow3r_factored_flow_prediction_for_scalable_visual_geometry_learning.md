@@ -14,7 +14,6 @@ tags:
   - "dynamic scenes"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Flow3r: Factored Flow Prediction for Scalable Visual Geometry Learning
 
 **会议**: CVPR2026  

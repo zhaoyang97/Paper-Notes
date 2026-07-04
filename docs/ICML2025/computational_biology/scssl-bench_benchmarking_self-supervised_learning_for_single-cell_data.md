@@ -13,7 +13,6 @@ tags:
   - "对比学习"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # scSSL-Bench: Benchmarking Self-Supervised Learning for Single-Cell Data
 
 **会议**: ICML2025 Spotlight  

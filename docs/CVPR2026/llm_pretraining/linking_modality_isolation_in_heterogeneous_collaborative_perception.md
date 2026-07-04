@@ -13,7 +13,6 @@ tags:
   - "跨模态翻译"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Linking Modality Isolation in Heterogeneous Collaborative Perception
 
 **会议**: CVPR2026  

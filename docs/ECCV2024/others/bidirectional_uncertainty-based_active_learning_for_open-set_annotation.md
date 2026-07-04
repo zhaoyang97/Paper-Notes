@@ -11,7 +11,6 @@ tags:
   - "uncertainty estimation"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Bidirectional Uncertainty-Based Active Learning for Open-Set Annotation
 
 **会议**: ECCV2024  

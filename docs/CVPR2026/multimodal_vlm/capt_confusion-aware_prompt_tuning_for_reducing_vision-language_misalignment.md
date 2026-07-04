@@ -14,7 +14,6 @@ tags:
   - "细粒度分类"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment
 
 **会议**: CVPR2026  

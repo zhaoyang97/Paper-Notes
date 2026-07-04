@@ -13,7 +13,6 @@ tags:
   - "等变性"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Hierarchical Direction Perception via Atomic Dot-Product Operators for Rotation-Invariant Point Clouds Learning
 
 **会议**: AAAI2026  

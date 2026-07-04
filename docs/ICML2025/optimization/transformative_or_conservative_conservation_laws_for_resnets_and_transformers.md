@@ -15,7 +15,6 @@ tags:
   - "Lie algebra"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Transformative or Conservative? Conservation Laws for ResNets and Transformers
 
 **会议**: ICML2025  

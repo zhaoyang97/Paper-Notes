@@ -13,7 +13,6 @@ tags:
   - "推理时缩放"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ICEdit: Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer
 
 **会议**: NEURIPS2025  

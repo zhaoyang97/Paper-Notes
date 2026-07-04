@@ -13,7 +13,6 @@ tags:
   - "教育安全"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Evaluating Answer Leakage Robustness of LLM Tutors against Adversarial Student Attacks
 
 **会议**: ACL 2026  

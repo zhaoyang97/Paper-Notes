@@ -13,7 +13,6 @@ tags:
   - "RURK"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # The Unseen Threat: Residual Knowledge in Machine Unlearning under Perturbed Samples
 
 **会议**: NeurIPS 2025  

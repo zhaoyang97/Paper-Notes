@@ -13,7 +13,6 @@ tags:
   - "Function Calling"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MoRAgent: Parameter Efficient Agent Tuning with Mixture-of-Roles
 
 **会议**: ICML2025  

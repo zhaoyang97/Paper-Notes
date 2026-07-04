@@ -13,7 +13,6 @@ tags:
   - "连通分量"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Towards High-Quality Image Segmentation: Improving Topology Accuracy by Penalizing Neighbor Pixels
 
 **会议**: CVPR2026  

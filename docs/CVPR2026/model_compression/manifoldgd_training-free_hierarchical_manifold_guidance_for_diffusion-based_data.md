@@ -13,7 +13,6 @@ tags:
   - "免训练"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # ManifoldGD: Training-Free Hierarchical Manifold Guidance for Diffusion-Based Dataset Distillation
 
 **会议**: CVPR 2026  

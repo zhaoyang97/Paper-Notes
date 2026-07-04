@@ -13,7 +13,6 @@ tags:
   - "模拟vs用户研究"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Imperfectly Cooperative Human-AI Interactions: Comparing the Impacts of Human and AI Attributes in Simulated and User Studies
 
 **会议**: ACL 2026 Findings  

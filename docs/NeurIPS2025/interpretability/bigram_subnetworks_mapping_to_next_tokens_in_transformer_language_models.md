@@ -13,7 +13,6 @@ tags:
   - "最小电路"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Bigram Subnetworks: Mapping to Next Tokens in Transformer Language Models
 
 **会议**: NeurIPS 2025  

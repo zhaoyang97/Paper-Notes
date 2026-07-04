@@ -12,7 +12,6 @@ tags:
   - "GLUE"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Feature Learning beyond the Lazy-Rich Dichotomy: Insights from Representational Geometry
 
 **会议**: ICML2025 (Spotlight)  

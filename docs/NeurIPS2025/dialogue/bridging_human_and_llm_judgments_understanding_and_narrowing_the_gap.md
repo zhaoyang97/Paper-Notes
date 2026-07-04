@@ -13,7 +13,6 @@ tags:
   - "偏差检验"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Bridging Human and LLM Judgments: Understanding and Narrowing the Gap
 
 **会议**: NEURIPS2025  

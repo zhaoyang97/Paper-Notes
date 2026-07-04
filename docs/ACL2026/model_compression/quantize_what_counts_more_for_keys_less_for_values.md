@@ -13,7 +13,6 @@ tags:
   - "LLM推理优化"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Quantize What Counts: More for Keys, Less for Values
 
 **会议**: ACL 2026  

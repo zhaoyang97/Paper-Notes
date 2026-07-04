@@ -13,7 +13,6 @@ tags:
   - "自适应Token融合"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation
 
 **会议**: CVPR2026  

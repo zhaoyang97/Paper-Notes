@@ -13,7 +13,6 @@ tags:
   - "内存高效"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Breaking the Frozen Subspace: Importance Sampling for Low-Rank Optimization in LLM Pretraining
 
 **会议**: NeurIPS 2025  

@@ -14,7 +14,6 @@ tags:
   - "量子点标记"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BehaviorVLM: Unified Finetuning-Free Behavioral Understanding with Vision-Language Reasoning
 
 **会议**: CVPR 2025  

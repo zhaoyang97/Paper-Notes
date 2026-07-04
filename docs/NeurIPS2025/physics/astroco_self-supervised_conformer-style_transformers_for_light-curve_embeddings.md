@@ -14,7 +14,6 @@ tags:
   - "少样本分类"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成，人工填充 -->
 # AstroCo: Self-Supervised Conformer-Style Transformers for Light-Curve Embeddings
 
 **会议**: NeurIPS 2025 (ML4PS Workshop)  

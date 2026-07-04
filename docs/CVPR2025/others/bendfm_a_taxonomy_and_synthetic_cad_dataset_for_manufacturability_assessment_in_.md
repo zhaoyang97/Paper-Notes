@@ -13,7 +13,6 @@ tags:
   - "分类法"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BenDFM: A taxonomy and synthetic CAD dataset for manufacturability assessment in sheet metal bending
 
 **会议**: CVPR 2025  

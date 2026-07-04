@@ -13,7 +13,6 @@ tags:
   - "熵崩溃"
 ---
 
-<!-- 由 src/conference/gen_openreview_stubs.py 自动生成 -->
 # EEPO: Exploration-Enhanced Policy Optimization via Sample-then-Forget
 
 **会议**: ICLR 2026  

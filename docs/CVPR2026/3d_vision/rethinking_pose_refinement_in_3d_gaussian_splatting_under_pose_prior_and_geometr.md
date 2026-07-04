@@ -14,7 +14,6 @@ tags:
   - "不确定性建模"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty
 
 **会议**: CVPR2026  

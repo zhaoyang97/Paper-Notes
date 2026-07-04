@@ -13,7 +13,6 @@ tags:
   - "注意力机制"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # StegaVAR: Privacy-Preserving Video Action Recognition via Steganographic Domain Analysis
 
 **会议**: AAAI2026  

@@ -13,7 +13,6 @@ tags:
   - "probabilistic inference"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # From Images to Physics: Probabilistic Inference of Galaxy Parameters and Emission Lines via VAE & Normalizing Flows
 
 **会议**: NEURIPS2025  

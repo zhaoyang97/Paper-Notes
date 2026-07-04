@@ -13,7 +13,6 @@ tags:
   - "variational inference"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # A Differentiable Model of Supply-Chain Shocks
 
 **会议**: NeurIPS 2025 (Workshop: Differentiable Systems and Scientific ML)  

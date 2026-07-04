@@ -14,7 +14,6 @@ tags:
   - "黑盒追踪"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Echoes of Ownership: Adversarial-Guided Dual Injection for Copyright Protection in MLLMs
 
 **会议**: CVPR2026  

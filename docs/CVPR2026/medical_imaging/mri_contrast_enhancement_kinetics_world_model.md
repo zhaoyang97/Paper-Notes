@@ -14,7 +14,6 @@ tags:
   - "DCE-MRI"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MRI Contrast Enhancement Kinetics World Model
 
 **会议**: CVPR2026  

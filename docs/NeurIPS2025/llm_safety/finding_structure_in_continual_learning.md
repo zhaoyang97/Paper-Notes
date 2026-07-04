@@ -14,7 +14,6 @@ tags:
   - "近端算子"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Finding Structure in Continual Learning
 
 **会议**: NeurIPS 2025  

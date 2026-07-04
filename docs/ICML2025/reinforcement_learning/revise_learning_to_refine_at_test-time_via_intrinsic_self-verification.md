@@ -13,7 +13,6 @@ tags:
   - "self-verification"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ReVISE: Learning to Refine at Test-Time via Intrinsic Self-Verification
 
 **会议**: ICML2025  

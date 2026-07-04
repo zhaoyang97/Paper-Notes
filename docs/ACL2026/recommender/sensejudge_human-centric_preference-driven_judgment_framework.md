@@ -13,7 +13,6 @@ tags:
   - "模型排名"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SenseJudge: Human-Centric Preference-Driven Judgment Framework
 
 **会议**: ACL 2026 Findings  

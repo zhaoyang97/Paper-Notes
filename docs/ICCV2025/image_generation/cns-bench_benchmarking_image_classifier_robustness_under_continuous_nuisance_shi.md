@@ -13,7 +13,6 @@ tags:
   - "图像分类器基准测试"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CNS-Bench: Benchmarking Image Classifier Robustness Under Continuous Nuisance Shifts
 
 **会议**: ICCV2025  

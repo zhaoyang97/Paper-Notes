@@ -13,7 +13,6 @@ tags:
   - "室内/城市场景"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians
 
 **会议**: NeurIPS 2025  

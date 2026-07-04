@@ -184,7 +184,6 @@ $$s^\star = \arg\max_{s \in \mathcal{S}} \operatorname{Re}\langle x, \Phi_s \ran
 | 实验充分度 | ⭐⭐ | 仅 10×10 GridWorld，baseline 偏弱，缺乏标准 benchmark |
 | 写作质量 | ⭐⭐⭐⭐ | 理论推导清晰，可视化直观，结构紧凑 |
 | 实用价值 | ⭐⭐⭐ | idea 有潜力但验证规模不足，距离实际应用有距离 |
-<!-- 由 src/gen_stubs.py 自动生成 -->
 
 <!-- RELATED:START -->
 

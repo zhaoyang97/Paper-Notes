@@ -13,7 +13,6 @@ tags:
   - "无训练编辑"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ChordEdit: One-Step Low-Energy Transport for Image Editing
 
 **会议**: CVPR 2026  

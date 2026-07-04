@@ -13,7 +13,6 @@ tags:
   - "锚点剪枝"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # Urban-GS: A Unified 3D Gaussian Splatting Framework for Compact and High-Fidelity Aerial-to-Street Reconstruction
 
 **会议**: CVPR 2026  

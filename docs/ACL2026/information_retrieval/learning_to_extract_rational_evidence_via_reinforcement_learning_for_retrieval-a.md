@@ -13,7 +13,6 @@ tags:
   - "GRPO"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Learning to Extract Rational Evidence via Reinforcement Learning for Retrieval-Augmented Generation
 
 **会议**: ACL 2026 Findings  

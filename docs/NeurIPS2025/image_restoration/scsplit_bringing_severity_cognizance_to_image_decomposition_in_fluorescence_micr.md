@@ -13,7 +13,6 @@ tags:
   - "bleedthrough removal"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # scSplit: Bringing Severity Cognizance to Image Decomposition in Fluorescence Microscopy
 
 **会议**: NEURIPS2025  

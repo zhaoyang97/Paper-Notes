@@ -13,7 +13,6 @@ tags:
   - "模型安全"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BlackMirror: Black-Box Backdoor Detection for Text-to-Image Models via Instruction-Response Deviation
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "Text-to-SQL"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SQLong: Enhanced NL2SQL for Longer Contexts with LLMs
 
 **会议**: ACL2025  

@@ -14,7 +14,6 @@ tags:
   - "regularization"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Which Retain Set Matters for LLM Unlearning? A Case Study on Entity Unlearning
 
 **会议**: ACL 2025  

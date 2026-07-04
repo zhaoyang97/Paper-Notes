@@ -13,7 +13,6 @@ tags:
   - "GRPO"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Incentivizing Reasoning for Advanced Instruction-Following of Large Language Models
 
 **会议**: NeurIPS 2025  

@@ -13,7 +13,6 @@ tags:
   - "financial forecasting"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ProbFM: Probabilistic Time Series Foundation Model with Uncertainty Decomposition
 
 **会议**: AAAI2026  

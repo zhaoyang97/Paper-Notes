@@ -15,7 +15,6 @@ tags:
   - "GRPO"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps
 
 **会议**: CVPR2026  

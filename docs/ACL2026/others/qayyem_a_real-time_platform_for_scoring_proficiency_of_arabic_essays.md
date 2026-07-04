@@ -12,7 +12,6 @@ tags:
   - "教育技术"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Qayyem: A Real-time Platform for Scoring Proficiency of Arabic Essays
 
 **会议**: ACL 2026  

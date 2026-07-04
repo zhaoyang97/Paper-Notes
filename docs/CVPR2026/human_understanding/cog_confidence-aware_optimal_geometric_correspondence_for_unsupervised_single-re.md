@@ -14,7 +14,6 @@ tags:
   - "视觉基础模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # COG: Confidence-aware Optimal Geometric Correspondence for Unsupervised Single-reference Novel Object Pose Estimation
 
 **会议**: CVPR2026  

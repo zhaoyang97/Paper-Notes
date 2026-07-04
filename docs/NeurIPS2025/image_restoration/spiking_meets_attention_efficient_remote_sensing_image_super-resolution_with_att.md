@@ -13,7 +13,6 @@ tags:
   - "能效AI"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Spiking Meets Attention: Efficient Remote Sensing Image Super-Resolution with Attention Spiking Neural Networks
 
 **会议**: NEURIPS2025  

@@ -13,7 +13,6 @@ tags:
   - "扩散增强"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views
 
 **会议**: CVPR 2026  

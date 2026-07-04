@@ -13,7 +13,6 @@ tags:
   - "伪标签"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # UniABG: Unified Adversarial View Bridging and Graph Correspondence for Unsupervised Cross-View Geo-Localization
 
 **会议**: AAAI 2026 Oral  

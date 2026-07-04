@@ -13,7 +13,6 @@ tags:
   - "光流"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Combining Generative and Geometry Priors for Wide-Angle Portrait Correction
 
 **会议**: ECCV2024  

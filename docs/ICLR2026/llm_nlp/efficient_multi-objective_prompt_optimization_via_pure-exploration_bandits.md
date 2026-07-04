@@ -13,7 +13,6 @@ tags:
   - "固定预算"
 ---
 
-<!-- 由 src/conference/gen_openreview_stubs.py 自动生成 -->
 # Efficient Multi-objective Prompt Optimization via Pure-exploration Bandits
 
 **会议**: ICLR2026  

@@ -13,7 +13,6 @@ tags:
   - "GridToM"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # From Black Boxes to Transparent Minds: Evaluating and Enhancing the Theory of Mind in Multimodal Large Language Models
 
 **会议**: ICML2025  

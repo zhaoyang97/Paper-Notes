@@ -13,7 +13,6 @@ tags:
   - "间接校正"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # INC: An Indirect Neural Corrector for Auto-Regressive Hybrid PDE Solvers
 
 **会议**: NEURIPS2025  

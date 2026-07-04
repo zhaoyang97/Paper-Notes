@@ -13,7 +13,6 @@ tags:
   - "公平性"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Evolutionary Prediction Games
 
 **会议**: NEURIPS2025  

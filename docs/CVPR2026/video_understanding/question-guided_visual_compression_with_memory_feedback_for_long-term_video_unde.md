@@ -13,7 +13,6 @@ tags:
   - "大规模多模态模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Question-guided Visual Compression with Memory Feedback for Long-Term Video Understanding
 
 **会议**: CVPR2026  

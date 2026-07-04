@@ -14,7 +14,6 @@ tags:
   - "动态规划"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SODA: Sensitivity-Oriented Dynamic Acceleration for Diffusion Transformer
 
 **会议**: CVPR2026  

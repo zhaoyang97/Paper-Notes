@@ -12,7 +12,6 @@ tags:
   - "伪标签"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # What Is Wrong with Synthetic Data for Scene Text Recognition? A Strong Synthetic Engine with Diverse Simulations and Self-Evolution
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "Blender"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ShapeCraft: LLM Agents for Structured, Textured and Interactive 3D Modeling
 
 **会议**: NEURIPS2025  

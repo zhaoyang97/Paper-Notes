@@ -15,7 +15,6 @@ tags:
   - "知识库检索"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MUSE: Harnessing Precise and Diverse Semantics for Few-Shot Whole Slide Image Classification
 
 **会议**: CVPR2026  

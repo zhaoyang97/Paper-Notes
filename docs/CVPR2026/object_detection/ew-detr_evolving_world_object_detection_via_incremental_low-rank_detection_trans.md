@@ -14,7 +14,6 @@ tags:
   - "DETR"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # EW-DETR: Evolving World Object Detection via Incremental Low-Rank DEtection TRansformer
 
 **会议**: CVPR2026  

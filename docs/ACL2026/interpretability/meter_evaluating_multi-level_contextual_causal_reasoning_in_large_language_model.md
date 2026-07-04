@@ -13,7 +13,6 @@ tags:
   - "LLM 评测"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # METER: Evaluating Multi-Level Contextual Causal Reasoning in Large Language Models
 
 **会议**: ACL 2026  

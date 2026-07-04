@@ -13,7 +13,6 @@ tags:
   - "adversarial evaluation"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # HPSU: A Benchmark for Human-Level Perception in Real-World Spoken Speech Understanding
 
 **会议**: AAAI2026  

@@ -15,7 +15,6 @@ tags:
   - "低延迟推理"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Stable Spike: Dual Consistency Optimization via Bitwise AND Operations for Spiking Neural Networks
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "翻译质量估计"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Combining the Best of Both Worlds: A Method for Hybrid NMT and LLM Translation
 
 **会议**: ACL2025  

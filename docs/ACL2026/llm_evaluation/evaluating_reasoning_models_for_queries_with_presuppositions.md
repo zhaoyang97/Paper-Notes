@@ -13,7 +13,6 @@ tags:
   - "误信息"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Evaluating Reasoning Models for Queries with Presuppositions
 
 **会议**: ACL 2026 Findings  

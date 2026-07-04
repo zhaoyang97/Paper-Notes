@@ -13,7 +13,6 @@ tags:
   - "红队测试"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # GASP: Efficient Black-Box Generation of Adversarial Suffixes for Jailbreaking LLMs
 
 **会议**: NeurIPS 2025  

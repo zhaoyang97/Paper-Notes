@@ -13,7 +13,6 @@ tags:
   - "分类体系"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Responsible Evaluation of AI for Mental Health
 
 **会议**: ACL 2026  

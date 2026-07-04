@@ -14,7 +14,6 @@ tags:
   - "生成式解码"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model
 
 **会议**: CVPR2026  

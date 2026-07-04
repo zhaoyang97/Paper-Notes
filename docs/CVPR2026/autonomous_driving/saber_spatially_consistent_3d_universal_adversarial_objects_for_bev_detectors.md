@@ -14,7 +14,6 @@ tags:
   - "多视角一致性"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SABER: Spatially Consistent 3D Universal Adversarial Objects for BEV Detectors
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "事件视界望远镜"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Dynamic Black-hole Emission Tomography with Physics-informed Neural Fields
 
 **会议**: CVPR2026  

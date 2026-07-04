@@ -13,7 +13,6 @@ tags:
   - "chain-of-memory"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # PANDA: Towards Generalist Video Anomaly Detection via Agentic AI Engineer
 
 **会议**: NEURIPS2025  

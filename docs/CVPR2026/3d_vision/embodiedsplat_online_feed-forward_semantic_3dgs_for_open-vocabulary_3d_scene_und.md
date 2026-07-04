@@ -13,7 +13,6 @@ tags:
   - "语义嵌入"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding
 
 **会议**: CVPR 2026  

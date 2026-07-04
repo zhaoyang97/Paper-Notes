@@ -13,7 +13,6 @@ tags:
   - "Gradient-free"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Breaking the Gradient Barrier: Unveiling Large Language Models for Strategic Classification
 
 **会议**: NEURIPS2025  

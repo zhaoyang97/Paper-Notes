@@ -15,7 +15,6 @@ tags:
   - "LoRA"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation
 
 **会议**: CVPR2026  

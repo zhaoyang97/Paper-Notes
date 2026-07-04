@@ -13,7 +13,6 @@ tags:
   - "无标注微调"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # ReasonX: MLLM-Guided Intrinsic Image Decomposition
 
 **会议**: CVPR 2026  

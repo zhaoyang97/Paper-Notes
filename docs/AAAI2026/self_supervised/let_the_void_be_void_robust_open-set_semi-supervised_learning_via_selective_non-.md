@@ -13,7 +13,6 @@ tags:
   - "原型学习"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Let the Void Be Void: Robust Open-Set Semi-Supervised Learning via Selective Non-Alignment
 
 **会议**: AAAI 2026  

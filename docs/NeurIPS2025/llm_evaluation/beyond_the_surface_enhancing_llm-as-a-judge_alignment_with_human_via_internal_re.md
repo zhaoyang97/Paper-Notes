@@ -13,7 +13,6 @@ tags:
   - "即插即用"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations
 
 **会议**: NeurIPS 2025  

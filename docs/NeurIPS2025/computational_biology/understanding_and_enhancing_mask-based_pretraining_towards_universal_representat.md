@@ -13,7 +13,6 @@ tags:
   - "R2MAE"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Understanding and Enhancing Mask-Based Pretraining towards Universal Representations
 
 **会议**: NEURIPS2025  

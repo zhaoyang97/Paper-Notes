@@ -14,7 +14,6 @@ tags:
   - "sequence compression"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Improving Multimodal Sentiment Analysis via Modality Optimization and Dynamic Primary Modality Selection
 
 **会议**: AAAI 2026  

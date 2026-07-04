@@ -13,7 +13,6 @@ tags:
   - "层级超参数分配"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Eigenspectrum Analysis of Neural Networks without Aspect Ratio Bias
 
 **会议**: ICML2025  

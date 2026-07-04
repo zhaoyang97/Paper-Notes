@@ -13,7 +13,6 @@ tags:
   - "自动驾驶安全"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Perception Characteristics Distance: Measuring Stability and Robustness of Perception System in Dynamic Conditions under a Certain Decision Rule
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "speech language model"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Say More with Less: Variable-Frame-Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding
 
 **会议**: AAAI 2026  

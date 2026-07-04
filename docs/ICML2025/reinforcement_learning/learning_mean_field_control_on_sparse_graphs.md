@@ -12,7 +12,6 @@ tags:
   - "graphon"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Learning Mean Field Control on Sparse Graphs
 
 **会议**: ICML2025  

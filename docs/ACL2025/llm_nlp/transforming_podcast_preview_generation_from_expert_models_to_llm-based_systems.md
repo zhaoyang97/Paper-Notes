@@ -13,7 +13,6 @@ tags:
   - "industry deployment"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Transforming Podcast Preview Generation: From Expert Models to LLM-Based Systems
 
 **会议**: ACL 2025  

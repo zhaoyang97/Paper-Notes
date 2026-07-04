@@ -14,7 +14,6 @@ tags:
   - "Amortized Inference"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Do-PFN: In-Context Learning for Causal Effect Estimation
 
 **会议**: NeurIPS 2025  

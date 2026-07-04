@@ -13,7 +13,6 @@ tags:
   - "农作物分类"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing
 
 **会议**: ICML2025  

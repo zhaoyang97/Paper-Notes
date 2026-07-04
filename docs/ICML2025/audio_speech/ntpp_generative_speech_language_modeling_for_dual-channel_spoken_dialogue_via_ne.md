@@ -14,7 +14,6 @@ tags:
   - "全双工对话"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # NTPP: Generative Speech Language Modeling for Dual-Channel Spoken Dialogue via Next-Token-Pair Prediction
 
 **会议**: ICML2025  

@@ -14,7 +14,6 @@ tags:
   - "Inductive/Transductive"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # On Stealing Graph Neural Network Models
 
 **会议**: AAAI2026  

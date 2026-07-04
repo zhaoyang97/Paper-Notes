@@ -13,7 +13,6 @@ tags:
   - "强化学习对齐"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Reasoning on the Manifold: Bidirectional Consistency for Self-Verification in Diffusion Language Models
 
 **会议**: ICML2026  

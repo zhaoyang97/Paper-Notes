@@ -13,7 +13,6 @@ tags:
   - "夸克胶子等离子体"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Latent Representation Learning in Heavy-Ion Collisions with MaskPoint Transformer
 
 **会议**: NEURIPS2025 (Workshop: ML and Physical Sciences)  

@@ -13,7 +13,6 @@ tags:
   - "长期导航"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation
 
 **会议**: CVPR2026  

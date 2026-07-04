@@ -12,7 +12,6 @@ tags:
   - "transfusion"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # UniCom: Unified Multimodal Modeling via Compressed Continuous Semantic Representations
 
 **会议**: CVPR2025  

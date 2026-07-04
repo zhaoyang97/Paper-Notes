@@ -13,7 +13,6 @@ tags:
   - "open-source framework"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成，已深读补充 -->
 # LineFlow: A Framework to Learn Active Control of Production Lines
 
 **会议**: ICML2025  

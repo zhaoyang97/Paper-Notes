@@ -13,7 +13,6 @@ tags:
   - "服务依赖图"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ChronoGraph: A Real-World Graph-Based Multivariate Time Series Dataset
 
 **会议**: NEURIPS2025  

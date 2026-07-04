@@ -13,7 +13,6 @@ tags:
   - "orthogonal subspace"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # DevFD: Developmental Face Forgery Detection by Learning Shared and Orthogonal LoRA Subspaces
 
 **会议**: NEURIPS2025  

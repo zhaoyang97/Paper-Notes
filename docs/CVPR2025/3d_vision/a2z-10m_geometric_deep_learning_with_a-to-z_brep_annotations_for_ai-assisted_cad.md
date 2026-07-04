@@ -14,7 +14,6 @@ tags:
   - "大规模数据集"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering
 
 **会议**: CVPR 2025  

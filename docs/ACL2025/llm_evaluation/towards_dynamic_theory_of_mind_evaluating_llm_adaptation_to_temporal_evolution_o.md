@@ -13,7 +13,6 @@ tags:
   - "LLM评估"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States
 
 **会议**: ACL2025  

@@ -12,7 +12,6 @@ tags:
   - "stereo cost volume"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Unleashing Semantic and Geometric Priors for 3D Scene Completion
 
 **会议**: AAAI2026  

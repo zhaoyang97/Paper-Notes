@@ -13,7 +13,6 @@ tags:
   - "教师采样方差"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Beyond Single-Sample: Reliable Multi-Sample Distillation for Video Understanding
 
 **会议**: CVPR 2025  

@@ -14,7 +14,6 @@ tags:
   - "光谱"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Mixture-of-Expert Variational Autoencoders for Cross-Modality Embedding of Type Ia Supernova Data
 
 **会议**: ICML2025 (ML4Astro Workshop)  

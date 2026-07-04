@@ -15,7 +15,6 @@ tags:
   - "目标轨迹"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # TrajTok: Learning Trajectory Tokens Enhances Video Understanding
 
 **会议**: CVPR2026  

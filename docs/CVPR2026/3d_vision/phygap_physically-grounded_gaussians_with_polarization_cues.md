@@ -15,7 +15,6 @@ tags:
   - "环境光照"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # PhyGaP: Physically-Grounded Gaussians with Polarization Cues
 
 **会议**: CVPR2026  

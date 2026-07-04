@@ -13,7 +13,6 @@ tags:
   - "CLIP"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Multi-Modal Representation Learning via Semi-Supervised Rate Reduction for Generalized Category Discovery
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "人口统计平等"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Fair Representation Learning with Controllable High Confidence Guarantees via Adversarial Inference
 
 **会议**: NeurIPS 2025  

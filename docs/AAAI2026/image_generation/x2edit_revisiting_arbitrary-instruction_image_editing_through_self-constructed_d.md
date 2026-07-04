@@ -14,7 +14,6 @@ tags:
   - "task-aware"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # X2Edit: Revisiting Arbitrary-Instruction Image Editing through Self-Constructed Data and Task-Aware Representation Learning
 
 **会议**: AAAI2026  

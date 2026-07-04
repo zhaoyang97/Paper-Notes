@@ -13,7 +13,6 @@ tags:
   - "自适应门控"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # VRCLIP: Multimodal Canonical Correlation Alignment for CLIP-Driven Vision-Radio Person Re-Identification
 
 **会议**: CVPR 2026  

@@ -13,7 +13,6 @@ tags:
   - "GRPO"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics
 
 **会议**: ACL 2026  

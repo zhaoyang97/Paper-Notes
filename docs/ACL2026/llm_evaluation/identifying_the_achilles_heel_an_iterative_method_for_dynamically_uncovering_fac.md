@@ -13,7 +13,6 @@ tags:
   - "数据污染"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Identifying the Achilles' Heel: An Iterative Method for Dynamically Uncovering Factual Errors in Large Language Models
 
 **会议**: ACL 2026 Findings  

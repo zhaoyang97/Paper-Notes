@@ -13,7 +13,6 @@ tags:
   - "偏微分方程"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # EddyFormer: Accelerated Neural Simulations of Three-Dimensional Turbulence at Scale
 
 **会议**: NeurIPS 2025  

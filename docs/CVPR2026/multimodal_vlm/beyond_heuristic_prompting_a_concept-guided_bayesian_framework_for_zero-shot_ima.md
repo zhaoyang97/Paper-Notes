@@ -14,7 +14,6 @@ tags:
   - "鲁棒估计"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Beyond Heuristic Prompting: A Concept-Guided Bayesian Framework for Zero-Shot Image Recognition
 
 **会议**: CVPR2026  

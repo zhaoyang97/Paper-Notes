@@ -14,7 +14,6 @@ tags:
   - "LoRA"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Brain-tuning Improves Generalizability and Efficiency of Brain Alignment in Speech Models
 
 **会议**: NEURIPS2025  

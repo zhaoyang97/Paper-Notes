@@ -13,7 +13,6 @@ tags:
   - "velocity regularization"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # FlowMotion: Training-Free Flow Guidance for Video Motion Transfer
 
 **会议**: CVPR2026  

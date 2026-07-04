@@ -13,7 +13,6 @@ tags:
   - "正则化"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CycleBEV: Regularizing View Transformation Networks via View Cycle Consistency for Bird's-Eye-View Semantic Segmentation
 
 **会议**: CVPR2026  

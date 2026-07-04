@@ -13,7 +13,6 @@ tags:
   - "循环网络"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # PIMRL: Physics-Informed Multi-Scale Recurrent Learning for Burst-Sampled Spatiotemporal Dynamics
 
 **会议**: AAAI 2026  

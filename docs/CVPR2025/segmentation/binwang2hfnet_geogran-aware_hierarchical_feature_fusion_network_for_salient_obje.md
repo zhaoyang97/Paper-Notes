@@ -13,7 +13,6 @@ tags:
   - "层级特征融合"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # G2HFNet: GeoGran-Aware Hierarchical Feature Fusion Network for Salient Object Detection in Optical Remote Sensing Images
 
 **会议**: CVPR 2025  

@@ -14,7 +14,6 @@ tags:
   - "隐私"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes
 
 **会议**: ICML2025 Spotlight  

@@ -13,7 +13,6 @@ tags:
   - "Label Spreading"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Density Ratio Estimation-based Bayesian Optimization with Semi-Supervised Learning
 
 **会议**: ICML2025  

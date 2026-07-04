@@ -13,7 +13,6 @@ tags:
   - "LLM语言信号"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Preference Estimation via Opponent Modeling in Multi-Agent Negotiation
 
 **会议**: ACL 2026 Findings  

@@ -13,7 +13,6 @@ tags:
   - "数学推理"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # STEM-PoM: Evaluating Language Models Math-Symbol Reasoning in Document Parsing
 
 **会议**: ACL2025  

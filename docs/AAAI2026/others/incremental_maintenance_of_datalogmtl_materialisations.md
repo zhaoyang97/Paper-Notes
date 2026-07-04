@@ -12,7 +12,6 @@ tags:
   - "temporal logic"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Incremental Maintenance of DatalogMTL Materialisations
 
 **会议**: AAAI 2026 Oral  

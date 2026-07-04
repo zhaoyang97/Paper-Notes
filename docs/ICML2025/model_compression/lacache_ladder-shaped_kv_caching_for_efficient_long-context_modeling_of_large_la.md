@@ -13,7 +13,6 @@ tags:
   - "LLM 高效推理"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # LaCache: Ladder-Shaped KV Caching for Efficient Long-Context Modeling of Large Language Models
 
 **会议**: ICML2025  

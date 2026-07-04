@@ -14,7 +14,6 @@ tags:
   - "推理阶段缓解"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Mitigating Multimodal Hallucinations via Gradient-based Self-Reflection
 
 **会议**: CVPR2026  

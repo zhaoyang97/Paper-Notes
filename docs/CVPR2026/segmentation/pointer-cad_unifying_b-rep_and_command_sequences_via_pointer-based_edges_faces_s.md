@@ -15,7 +15,6 @@ tags:
   - "Chamfer/Fillet"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Pointer-CAD: Unifying B-Rep and Command Sequences via Pointer-based Edges & Faces Selection
 
 **会议**: CVPR2026  

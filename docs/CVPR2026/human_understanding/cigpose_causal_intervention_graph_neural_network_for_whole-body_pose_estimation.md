@@ -13,7 +13,6 @@ tags:
   - "反事实干预"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation
 
 **会议**: CVPR2026  

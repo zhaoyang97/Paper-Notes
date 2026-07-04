@@ -14,7 +14,6 @@ tags:
   - "多类别异常检测"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # UniMMAD: Unified Multi-Modal and Multi-Class Anomaly Detection via MoE-Driven Feature Decompression
 
 **会议**: CVPR2026  

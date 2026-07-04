@@ -13,7 +13,6 @@ tags:
   - "逆问题"
 ---
 
-<!-- 由 src/conference/gen_openreview_stubs.py 自动生成 -->
 # Efficient Approximate Posterior Sampling with Annealed Langevin Monte Carlo
 
 **会议**: ICLR2026  

@@ -13,7 +13,6 @@ tags:
   - "自动驾驶"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "MLLM微调"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SK-VQA: Synthetic Knowledge Generation at Scale for Training Context-Augmented Multimodal LLMs
 
 **会议**: ICML2025 Oral Spotlight  

@@ -13,7 +13,6 @@ tags:
   - "BEV感知"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CoIn3D: Revisiting Configuration-Invariant Multi-Camera 3D Object Detection
 
 **会议**: CVPR2026  

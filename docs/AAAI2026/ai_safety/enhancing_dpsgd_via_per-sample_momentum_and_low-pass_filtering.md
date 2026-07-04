@@ -13,7 +13,6 @@ tags:
   - "Privacy-Utility Trade-off"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Enhancing DPSGD via Per-Sample Momentum and Low-Pass Filtering
 
 **会议**: AAAI2026  

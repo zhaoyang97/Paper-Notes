@@ -13,7 +13,6 @@ tags:
   - "多元伯努利分布"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Differentiable Structure Learning and Causal Discovery for General Binary Data
 
 **会议**: NEURIPS2025  

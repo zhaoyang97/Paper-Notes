@@ -14,7 +14,6 @@ tags:
   - "选择性分类"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Adaptive Confidence Regularization for Multimodal Failure Detection
 
 **会议**: CVPR2026  

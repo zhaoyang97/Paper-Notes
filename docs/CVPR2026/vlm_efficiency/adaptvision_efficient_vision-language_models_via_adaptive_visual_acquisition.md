@@ -13,7 +13,6 @@ tags:
   - "高效VLM"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition
 
 **会议**: CVPR2026  

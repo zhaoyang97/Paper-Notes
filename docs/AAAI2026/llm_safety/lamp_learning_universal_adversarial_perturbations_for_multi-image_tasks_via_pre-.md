@@ -13,7 +13,6 @@ tags:
   - "Transferable Attack"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # LAMP: Learning Universal Adversarial Perturbations for Multi-Image Tasks via Pre-trained Models
 
 **会议**: AAAI2026  

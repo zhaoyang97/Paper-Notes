@@ -14,7 +14,6 @@ tags:
   - "生物标志物"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Dynamic Causal Discovery in Alzheimer's Disease through Latent Pseudotime Modelling
 
 **会议**: NEURIPS2025  

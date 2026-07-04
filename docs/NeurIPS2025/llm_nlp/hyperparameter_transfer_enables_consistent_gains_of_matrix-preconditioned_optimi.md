@@ -15,7 +15,6 @@ tags:
   - "matrix preconditioning"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Hyperparameter Transfer Enables Consistent Gains of Matrix-Preconditioned Optimizers Across Scales
 
 **会议**: NEURIPS2025  

@@ -14,7 +14,6 @@ tags:
   - "ODE求解"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers
 
 **会议**: CVPR2026  

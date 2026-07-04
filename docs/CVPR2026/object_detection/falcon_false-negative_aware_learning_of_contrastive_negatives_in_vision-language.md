@@ -14,7 +14,6 @@ tags:
   - "调度器"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # FALCON: False-Negative Aware Learning of Contrastive Negatives in Vision-Language Alignment
 
 **会议**: CVPR2026  

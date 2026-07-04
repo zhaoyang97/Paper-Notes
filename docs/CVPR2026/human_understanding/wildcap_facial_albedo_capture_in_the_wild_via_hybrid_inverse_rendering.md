@@ -13,7 +13,6 @@ tags:
   - "in-the-wild"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # WildCap: Facial Albedo Capture in the Wild via Hybrid Inverse Rendering
 
 **会议**: CVPR2026  

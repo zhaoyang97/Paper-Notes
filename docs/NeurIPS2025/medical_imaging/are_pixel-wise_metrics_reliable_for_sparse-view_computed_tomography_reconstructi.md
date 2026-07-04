@@ -12,7 +12,6 @@ tags:
   - "扩散模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Are Pixel-Wise Metrics Reliable for Sparse-View Computed Tomography Reconstruction?
 
 **会议**: NeurIPS 2025  

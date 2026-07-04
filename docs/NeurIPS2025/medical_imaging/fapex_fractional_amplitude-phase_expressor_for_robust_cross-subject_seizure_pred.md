@@ -13,7 +13,6 @@ tags:
   - "phase-amplitude coupling"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # FAPEX: Fractional Amplitude-Phase Expressor for Robust Cross-Subject Seizure Prediction
 
 **会议**: NEURIPS2025 Spotlight  

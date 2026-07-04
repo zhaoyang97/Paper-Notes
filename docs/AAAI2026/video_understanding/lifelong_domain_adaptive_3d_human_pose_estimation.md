@@ -13,7 +13,6 @@ tags:
   - "扩散模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Lifelong Domain Adaptive 3D Human Pose Estimation
 
 **会议**: AAAI2026  

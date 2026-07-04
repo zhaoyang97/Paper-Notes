@@ -13,7 +13,6 @@ tags:
   - "量化模型部署"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # FOZO: Forward-Only Zeroth-Order Prompt Optimization for Test-Time Adaptation
 
 **会议**: CVPR2026  

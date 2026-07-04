@@ -15,7 +15,6 @@ tags:
   - "层次化消息传递"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # UniHR: Hierarchical Representation Learning for Unified Knowledge Graph Link Prediction
 
 **会议**: AAAI2026 Oral  

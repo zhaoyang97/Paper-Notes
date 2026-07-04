@@ -13,7 +13,6 @@ tags:
   - "推理效率"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping
 
 **会议**: CVPR2026  

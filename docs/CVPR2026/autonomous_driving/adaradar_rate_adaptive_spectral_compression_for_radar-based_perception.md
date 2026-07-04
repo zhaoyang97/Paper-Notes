@@ -17,7 +17,6 @@ tags:
   - "语义分割"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # AdaRadar: Rate Adaptive Spectral Compression for Radar-based Perception
 
 **会议**: CVPR2026  

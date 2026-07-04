@@ -13,7 +13,6 @@ tags:
   - "信息论"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Deconstructing the Failure of Ideal Noise Correction: A Three-Pillar Diagnosis
 
 **会议**: CVPR 2025  

@@ -14,7 +14,6 @@ tags:
   - "UI grounding"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Watch and Learn: Learning to Use Computers from Online Videos
 
 **会议**: CVPR2026  

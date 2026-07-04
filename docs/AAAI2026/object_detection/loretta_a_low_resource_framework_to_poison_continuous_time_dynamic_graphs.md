@@ -14,7 +14,6 @@ tags:
   - "时序 PageRank"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # LoReTTA: A Low Resource Framework To Poison Continuous Time Dynamic Graphs
 
 **会议**: AAAI 2026  

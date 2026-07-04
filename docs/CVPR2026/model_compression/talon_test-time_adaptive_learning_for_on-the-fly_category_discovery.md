@@ -13,7 +13,6 @@ tags:
   - "语义偏移"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "特异性感知奖励"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Specificity-aware Reinforcement Learning for Fine-grained Open-world Classification
 
 **会议**: CVPR2026  

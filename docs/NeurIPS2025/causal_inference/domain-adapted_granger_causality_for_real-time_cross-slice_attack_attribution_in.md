@@ -13,7 +13,6 @@ tags:
   - "real-time security"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Domain-Adapted Granger Causality for Real-Time Cross-Slice Attack Attribution in 6G Networks
 
 **会议**: NEURIPS2025  

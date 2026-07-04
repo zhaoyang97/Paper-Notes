@@ -13,7 +13,6 @@ tags:
   - "跨相机适配"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SpiralDiff: Spiral Diffusion with LoRA for RGB-to-RAW Conversion Across Cameras
 
 **会议**: CVPR2026  

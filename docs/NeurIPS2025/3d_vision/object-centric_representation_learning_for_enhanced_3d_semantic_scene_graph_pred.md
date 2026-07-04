@@ -13,7 +13,6 @@ tags:
   - "关系预测"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction
 
 **会议**: NeurIPS 2025  

@@ -12,7 +12,6 @@ tags:
   - "exponential tail"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification
 
 **会议**: ICML2025  

@@ -13,7 +13,6 @@ tags:
   - "monotone games"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Last Iterate Convergence in Monotone Mean Field Games
 
 **会议**: NeurIPS 2025  

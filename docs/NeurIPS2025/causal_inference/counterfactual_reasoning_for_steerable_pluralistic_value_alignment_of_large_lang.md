@@ -13,7 +13,6 @@ tags:
   - "LLM对齐"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Counterfactual Reasoning for Steerable Pluralistic Value Alignment of Large Language Models
 
 **会议**: NEURIPS2025  

@@ -13,7 +13,6 @@ tags:
   - "ViT压缩"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Alternating Gradient Flow Utility: A Unified Metric for Structural Pruning and Dynamic Routing in Deep Networks
 
 **会议**: CVPR 2025  

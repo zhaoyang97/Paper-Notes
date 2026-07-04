@@ -12,7 +12,6 @@ tags:
   - "密集接触预测"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Shoe Style-Invariant and Ground-Aware Learning for Dense Foot Contact Estimation
 
 **会议**: CVPR2026  

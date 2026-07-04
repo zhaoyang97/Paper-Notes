@@ -14,7 +14,6 @@ tags:
   - "Nash equilibrium"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Collaborative Mean Estimation Among Heterogeneous Strategic Agents: Individual Rationality, Fairness, and Truthful Contribution
 
 **会议**: ICML2025  

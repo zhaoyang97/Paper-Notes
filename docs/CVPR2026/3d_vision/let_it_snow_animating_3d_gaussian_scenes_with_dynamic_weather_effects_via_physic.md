@@ -14,7 +14,6 @@ tags:
   - "MPM"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Let it Snow! Animating 3D Gaussian Scenes with Dynamic Weather Effects via Physics-Guided Score Distillation
 
 **会议**: CVPR2026  

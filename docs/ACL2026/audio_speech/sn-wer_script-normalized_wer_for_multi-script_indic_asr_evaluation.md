@@ -13,7 +13,6 @@ tags:
   - "印度语言"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation
 
 **会议**: ACL2026  

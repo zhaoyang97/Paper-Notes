@@ -13,7 +13,6 @@ tags:
   - "cross-lingual"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # The Hidden Space of Safety: Understanding Preference-Tuned LLMs in Multilingual Contexts
 
 **会议**: ACL2025  

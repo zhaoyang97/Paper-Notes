@@ -14,7 +14,6 @@ tags:
   - "DPO"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # GeoRemover: Removing Objects and Their Causal Visual Artifacts
 
 **会议**: NeurIPS2025 Spotlight  

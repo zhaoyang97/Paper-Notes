@@ -14,7 +14,6 @@ tags:
   - "对比学习"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization
 
 **会议**: CVPR2026  

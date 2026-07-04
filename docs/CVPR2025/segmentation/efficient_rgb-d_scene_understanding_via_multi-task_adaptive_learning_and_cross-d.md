@@ -13,7 +13,6 @@ tags:
   - "高效融合编码器"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Efficient RGB-D Scene Understanding via Multi-task Adaptive Learning and Cross-dimensional Feature Guidance
 
 **会议**: CVPR 2025  

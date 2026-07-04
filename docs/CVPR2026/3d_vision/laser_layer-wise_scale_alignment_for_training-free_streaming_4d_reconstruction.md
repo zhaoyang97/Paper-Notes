@@ -13,7 +13,6 @@ tags:
   - "Sim(3)配准"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction
 
 **会议**: CVPR2026  

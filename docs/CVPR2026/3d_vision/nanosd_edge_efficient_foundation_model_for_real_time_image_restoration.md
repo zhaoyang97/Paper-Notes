@@ -15,7 +15,6 @@ tags:
   - "扩散模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration
 
 **会议**: CVPR2026  

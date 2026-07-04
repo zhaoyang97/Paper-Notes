@@ -14,7 +14,6 @@ tags:
   - "外生变量"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Sonnet: Spectral Operator Neural Network for Multivariable Time Series Forecasting
 
 **会议**: AAAI 2026 (Oral)  

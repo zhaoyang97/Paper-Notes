@@ -14,7 +14,6 @@ tags:
   - "多智能体仿真"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles
 
 **会议**: CVPR2026  

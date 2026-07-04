@@ -14,7 +14,6 @@ tags:
   - "对齐失效"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # StructBreak: Structural Cognitive Overload-Induced Safety Failures in MLLMs
 
 **会议**: ACL2026 Findings  

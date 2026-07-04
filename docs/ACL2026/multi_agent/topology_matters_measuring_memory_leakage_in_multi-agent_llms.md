@@ -1,4 +1,3 @@
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs
 
 **会议**: ACL2026 Findings  

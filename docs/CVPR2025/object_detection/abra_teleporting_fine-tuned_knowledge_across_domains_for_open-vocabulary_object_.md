@@ -13,7 +13,6 @@ tags:
   - "参数高效微调"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ABRA: Teleporting Fine-Tuned Knowledge Across Domains for Open-Vocabulary Object Detection
 
 **会议**: CVPR 2025  

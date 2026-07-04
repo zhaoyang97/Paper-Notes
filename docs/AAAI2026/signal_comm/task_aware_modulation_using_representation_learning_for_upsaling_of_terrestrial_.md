@@ -13,7 +13,6 @@ tags:
   - "零样本迁移"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Task Aware Modulation Using Representation Learning for Upscaling of Terrestrial Carbon Fluxes
 
 **会议**: AAAI 2026  

@@ -13,7 +13,6 @@ tags:
   - "硬件感知"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SSSD: Simply-Scalable Speculative Decoding
 
 **会议**: ACL2026  

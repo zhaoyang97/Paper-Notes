@@ -14,7 +14,6 @@ tags:
   - "病理诊断"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Every Error has Its Magnitude: Asymmetric Mistake Severity Training for Multiclass Multiple Instance Learning
 
 **会议**: CVPR2026  

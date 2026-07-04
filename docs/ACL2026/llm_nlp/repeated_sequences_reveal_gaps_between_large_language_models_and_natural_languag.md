@@ -13,7 +13,6 @@ tags:
   - "熵增长分析"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Repeated Sequences Reveal Gaps between Large Language Models and Natural Language
 
 **会议**: ACL 2026  

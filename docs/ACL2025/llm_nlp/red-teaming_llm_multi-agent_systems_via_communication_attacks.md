@@ -13,7 +13,6 @@ tags:
   - "LLM safety"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Red-Teaming LLM Multi-Agent Systems via Communication Attacks
 
 **会议**: ACL2025  

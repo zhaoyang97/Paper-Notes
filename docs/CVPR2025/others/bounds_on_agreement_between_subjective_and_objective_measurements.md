@@ -13,7 +13,6 @@ tags:
   - "二项分布投票模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Bounds on Agreement between Subjective and Objective Measurements
 
 **会议**: CVPR 2025  

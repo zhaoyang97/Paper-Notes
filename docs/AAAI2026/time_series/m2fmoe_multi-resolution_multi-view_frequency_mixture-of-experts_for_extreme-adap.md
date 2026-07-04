@@ -15,7 +15,6 @@ tags:
   - "水文预测"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # M2FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting
 
 **会议**: AAAI 2026  

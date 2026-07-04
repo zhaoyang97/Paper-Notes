@@ -13,7 +13,6 @@ tags:
   - "光谱聚类"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Unsupervised Discovery of High-Redshift Galaxy Populations with Variational Autoencoders
 
 **会议**: NEURIPS2025  

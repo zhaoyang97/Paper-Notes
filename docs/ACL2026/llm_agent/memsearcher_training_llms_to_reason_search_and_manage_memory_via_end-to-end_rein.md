@@ -13,7 +13,6 @@ tags:
   - "ReAct 替代"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End RL
 
 **会议**: ACL 2026  

@@ -14,7 +14,6 @@ tags:
   - "时序建模"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # EgoPoseFormer v2: Accurate Egocentric Human Motion Estimation for AR/VR
 
 **会议**: CVPR2026  

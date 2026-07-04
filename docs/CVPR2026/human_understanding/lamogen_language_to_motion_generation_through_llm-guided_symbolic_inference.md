@@ -13,7 +13,6 @@ tags:
   - "可解释动作合成"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # LaMoGen: Language to Motion Generation Through LLM-Guided Symbolic Inference
 
 **会议**: CVPR 2026  

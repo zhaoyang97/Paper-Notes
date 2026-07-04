@@ -13,7 +13,6 @@ tags:
   - "高压缩比"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SmartSplat: Feature-Smart Gaussians for Scalable Compression of Ultra-High-Resolution Images
 
 **会议**: AAAI2026  

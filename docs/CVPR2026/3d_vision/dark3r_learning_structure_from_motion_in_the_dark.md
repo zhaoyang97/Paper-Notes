@@ -14,7 +14,6 @@ tags:
   - "NeRF"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Dark3R: Learning Structure from Motion in the Dark
 
 **会议**: CVPR2026  

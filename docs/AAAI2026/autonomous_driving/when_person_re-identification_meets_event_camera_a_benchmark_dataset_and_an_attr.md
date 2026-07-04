@@ -13,7 +13,6 @@ tags:
   - "benchmark dataset"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # When Person Re-Identification Meets Event Camera: A Benchmark Dataset and An Attribute-guided Re-Identification Framework
 
 **会议**: AAAI2026  

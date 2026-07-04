@@ -14,7 +14,6 @@ tags:
   - "plug-and-play"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MAP Estimation with Denoisers: Convergence Rates and Guarantees
 
 **会议**: NEURIPS2025  

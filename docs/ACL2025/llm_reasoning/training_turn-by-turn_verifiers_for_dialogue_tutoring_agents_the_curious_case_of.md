@@ -14,7 +14,6 @@ tags:
   - "inference-time scaling"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors
 
 **会议**: ACL 2025  

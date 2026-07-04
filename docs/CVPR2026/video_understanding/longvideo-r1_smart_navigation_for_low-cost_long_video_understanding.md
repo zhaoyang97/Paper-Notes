@@ -14,7 +14,6 @@ tags:
   - "Chain-of-Thought"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # LongVideo-R1: Smart Navigation for Low-cost Long Video Understanding
 
 **会议**: CVPR2026  

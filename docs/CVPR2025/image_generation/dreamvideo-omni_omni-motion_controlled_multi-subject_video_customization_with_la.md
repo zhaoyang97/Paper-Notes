@@ -13,7 +13,6 @@ tags:
   - "Video DiT"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning
 
 **会议**: CVPR 2025  

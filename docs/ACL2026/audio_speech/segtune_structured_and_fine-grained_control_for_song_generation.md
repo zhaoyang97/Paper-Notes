@@ -13,7 +13,6 @@ tags:
   - "层次化条件"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SegTune: Structured and Fine-Grained Control for Song Generation
 
 **会议**: ACL 2026 Best Paper Oral  

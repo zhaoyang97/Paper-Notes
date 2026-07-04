@@ -15,7 +15,6 @@ tags:
   - "灾难性遗忘"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # EWC-Guided Diffusion Replay for Exemplar-Free Continual Learning in Medical Imaging
 
 **会议**: NeurIPS 2025  

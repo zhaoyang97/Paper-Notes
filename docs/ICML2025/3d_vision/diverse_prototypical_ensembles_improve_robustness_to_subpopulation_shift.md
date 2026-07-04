@@ -13,7 +13,6 @@ tags:
   - "distribution robustness"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Diverse Prototypical Ensembles Improve Robustness to Subpopulation Shift
 
 **会议**: ICML2025  

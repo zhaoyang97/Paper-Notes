@@ -13,7 +13,6 @@ tags:
   - "LLM"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Edit Less, Achieve More: Dynamic Sparse Neuron Masking for Lifelong Knowledge Editing in LLMs
 
 **会议**: NEURIPS2025  

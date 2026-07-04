@@ -12,7 +12,6 @@ tags:
   - "Driving Preferences"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Drive As You Like: Strategy-Level Motion Planning Based on A Multi-Head Diffusion Model
 
 **会议**: AAAI2026  

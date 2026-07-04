@@ -13,7 +13,6 @@ tags:
   - "视觉语言模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Stability Implies Redundancy: Delta Attention Selective Halting for Efficient Long-Context Prefilling
 
 **会议**: ACL2026  

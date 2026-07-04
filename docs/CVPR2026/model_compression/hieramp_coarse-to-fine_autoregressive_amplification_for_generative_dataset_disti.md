@@ -13,7 +13,6 @@ tags:
   - "codebook token 多样性"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation
 
 **会议**: CVPR2026  

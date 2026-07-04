@@ -14,7 +14,6 @@ tags:
   - "稀疏交互"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Mixture of States: Routing Token-Level Dynamics for Multimodal Generation
 
 **会议**: CVPR2026  

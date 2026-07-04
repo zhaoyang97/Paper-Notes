@@ -13,7 +13,6 @@ tags:
   - "视觉定位"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # iSHIFT: Lightweight Slow-Fast GUI Agent with Adaptive Perception
 
 **会议**: CVPR 2026  

@@ -14,7 +14,6 @@ tags:
   - "CNN-SSM混合架构"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # DA-Mamba: Learning Domain-Aware State Space Model for Global-Local Alignment in Domain Adaptive Object Detection
 
 **会议**: CVPR2026  

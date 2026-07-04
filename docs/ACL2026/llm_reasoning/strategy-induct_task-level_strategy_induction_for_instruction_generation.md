@@ -14,7 +14,6 @@ tags:
   - "跨模型泛化"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Strategy-Induct: Task-Level Strategy Induction for Instruction Generation
 
 **会议**: ACL2026 Findings  

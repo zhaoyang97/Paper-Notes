@@ -13,7 +13,6 @@ tags:
   - "inference-time"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # FairSteer: Inference Time Debiasing for LLMs with Dynamic Activation Steering
 
 **会议**: ACL2025  

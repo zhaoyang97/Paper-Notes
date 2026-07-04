@@ -13,7 +13,6 @@ tags:
   - "预训练知识"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Text-Guided Channel Perturbation and Pretrained Knowledge Integration for Unified Multi-Modality Image Fusion
 
 **会议**: AAAI2026  

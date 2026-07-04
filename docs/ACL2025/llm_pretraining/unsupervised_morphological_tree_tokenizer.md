@@ -13,7 +13,6 @@ tags:
   - "BPE"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Unsupervised Morphological Tree Tokenizer
 
 **会议**: ACL2025  

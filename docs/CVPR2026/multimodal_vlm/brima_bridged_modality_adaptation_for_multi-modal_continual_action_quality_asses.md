@@ -13,7 +13,6 @@ tags:
   - "记忆回放"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BriMA: Bridged Modality Adaptation for Multi-Modal Continual Action Quality Assessment
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "分组自蒸馏"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # HSUGA: LLM-Enhanced Recommendation with Hierarchical Semantic Understanding and Group-Aware Alignment
 
 **会议**: ACL 2026 Findings  

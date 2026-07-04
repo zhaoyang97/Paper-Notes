@@ -14,7 +14,6 @@ tags:
   - "免训练"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Wavelet-based Frame Selection by Detecting Semantic Boundary for Long Video Understanding
 
 **会议**: CVPR2026  

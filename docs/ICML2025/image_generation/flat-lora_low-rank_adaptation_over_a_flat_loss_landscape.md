@@ -13,7 +13,6 @@ tags:
   - "贝叶斯期望损失"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Flat-LoRA: Low-Rank Adaptation over a Flat Loss Landscape
 
 **会议**: ICML2025  

@@ -14,7 +14,6 @@ tags:
   - "半监督估计"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Statistically Reliable LLM-Based Ranking Evaluation via Prediction-Powered Inference
 
 **会议**: ACL2026  

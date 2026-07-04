@@ -13,7 +13,6 @@ tags:
   - "replay-based learning"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Unveiling and Addressing Pseudo Forgetting in Large Language Models
 
 **会议**: ACL2025  

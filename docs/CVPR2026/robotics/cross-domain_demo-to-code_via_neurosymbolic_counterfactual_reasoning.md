@@ -13,7 +13,6 @@ tags:
   - "code-as-policies"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Cross-Domain Demo-to-Code via Neurosymbolic Counterfactual Reasoning
 
 **会议**: CVPR2026  

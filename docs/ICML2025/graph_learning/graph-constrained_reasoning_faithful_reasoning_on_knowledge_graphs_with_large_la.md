@@ -13,7 +13,6 @@ tags:
   - "幻觉消除"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models
 
 **会议**: ICML2025  

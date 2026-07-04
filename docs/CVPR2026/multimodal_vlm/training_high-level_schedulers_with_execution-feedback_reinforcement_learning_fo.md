@@ -14,7 +14,6 @@ tags:
   - "任务调度"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation
 
 **会议**: CVPR2026  

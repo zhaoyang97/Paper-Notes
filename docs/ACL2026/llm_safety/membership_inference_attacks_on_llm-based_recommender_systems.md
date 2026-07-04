@@ -13,7 +13,6 @@ tags:
   - "记忆性"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Membership Inference Attacks on In-Context Learning Recommendation
 
 **会议**: ACL 2026  

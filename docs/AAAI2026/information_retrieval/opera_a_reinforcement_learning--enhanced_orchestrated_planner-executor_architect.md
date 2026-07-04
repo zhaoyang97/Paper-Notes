@@ -13,7 +13,6 @@ tags:
   - "multi-agent"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # OPERA: A Reinforcement Learning--Enhanced Orchestrated Planner-Executor Architecture for Reasoning-Oriented Multi-Hop Retrieval
 
 **会议**: AAAI2026  

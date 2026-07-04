@@ -12,7 +12,6 @@ tags:
   - "dual-agent DQN"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Adaptive Cooperative Transmission Design for URLLC via Deep RL
 
 **会议**: NeurIPS 2025  

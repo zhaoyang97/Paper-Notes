@@ -13,7 +13,6 @@ tags:
   - "点云"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Point-SRA: Self-Representation Alignment for 3D Representation Learning
 
 **会议**: AAAI 2026  

@@ -13,7 +13,6 @@ tags:
   - "adversarial examples"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Preventing Catastrophic Overfitting in Fast Adversarial Training: A Bi-level Optimization Perspective
 
 **会议**: ECCV2024  

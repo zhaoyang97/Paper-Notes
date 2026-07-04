@@ -13,7 +13,6 @@ tags:
   - "向量量化码本"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # Topology-aware Feature Propagation for Unsupervised Non-rigid Point Cloud Correspondence
 
 **会议**: CVPR 2026  

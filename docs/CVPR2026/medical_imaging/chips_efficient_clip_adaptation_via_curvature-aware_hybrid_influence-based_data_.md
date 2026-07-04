@@ -12,7 +12,6 @@ tags:
   - "持续预训练"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CHIPS: Efficient CLIP Adaptation via Curvature-aware Hybrid Influence-based Data Selection
 
 **会议**: CVPR 2026  

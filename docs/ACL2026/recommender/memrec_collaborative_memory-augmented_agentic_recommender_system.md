@@ -13,7 +13,6 @@ tags:
   - "标签传播"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MemRec: Collaborative Memory-Augmented Agentic Recommender System
 
 **会议**: ACL 2026  

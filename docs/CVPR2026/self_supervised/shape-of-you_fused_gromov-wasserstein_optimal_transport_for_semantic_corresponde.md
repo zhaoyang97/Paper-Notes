@@ -14,7 +14,6 @@ tags:
   - "基础模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Shape-of-You: Fused Gromov-Wasserstein Optimal Transport for Semantic Correspondence in-the-Wild
 
 **会议**: CVPR2026  

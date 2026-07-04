@@ -13,7 +13,6 @@ tags:
   - "monocular video"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MoBGS: Motion Deblurring Dynamic 3D Gaussian Splatting for Blurry Monocular Video
 
 **会议**: AAAI 2026  

@@ -14,7 +14,6 @@ tags:
   - "omniprediction"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Improved and Oracle-Efficient Online $\ell_1$-Multicalibration
 
 **会议**: ICML2025  

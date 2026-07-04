@@ -13,7 +13,6 @@ tags:
   - "残差预测"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # ARCHE: Autoregressive Residual Compression with Hyperprior and Excitation
 
 **会议**: CVPR 2025  

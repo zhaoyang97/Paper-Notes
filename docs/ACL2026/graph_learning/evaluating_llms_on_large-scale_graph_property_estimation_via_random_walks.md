@@ -13,7 +13,6 @@ tags:
   - "partial access"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Evaluating LLMs on Large-Scale Graph Property Estimation via Random Walks
 
 **会议**: ACL 2026  

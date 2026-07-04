@@ -13,7 +13,6 @@ tags:
   - "KL-VAE"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # MacTok: Robust Continuous Tokenization for Image Generation
 
 **会议**: CVPR 2026  

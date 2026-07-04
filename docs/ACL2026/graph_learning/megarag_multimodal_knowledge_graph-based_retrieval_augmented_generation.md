@@ -13,7 +13,6 @@ tags:
   - "MLLM"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation
 
 **会议**: ACL 2026  

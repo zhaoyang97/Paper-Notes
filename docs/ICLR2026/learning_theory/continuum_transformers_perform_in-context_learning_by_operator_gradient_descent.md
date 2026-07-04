@@ -14,7 +14,6 @@ tags:
   - "贝叶斯最优预测子"
 ---
 
-<!-- 由 src/conference/gen_openreview_stubs.py 自动生成 -->
 # Continuum Transformers Perform In-Context Learning by Operator Gradient Descent
 
 **会议**: ICLR2026  

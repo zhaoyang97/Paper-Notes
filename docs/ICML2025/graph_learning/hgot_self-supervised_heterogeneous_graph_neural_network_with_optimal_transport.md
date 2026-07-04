@@ -13,7 +13,6 @@ tags:
   - "Gromov-Wasserstein"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # HGOT: Self-supervised Heterogeneous Graph Neural Network with Optimal Transport
 
 **会议**: ICML2025  

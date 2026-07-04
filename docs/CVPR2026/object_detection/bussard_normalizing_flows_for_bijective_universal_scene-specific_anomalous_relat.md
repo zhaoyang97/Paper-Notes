@@ -13,7 +13,6 @@ tags:
   - "多模态"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BUSSARD: Normalizing Flows for Bijective Universal Scene-Specific Anomalous Relationship Detection
 
 **会议**: CVPR2026  

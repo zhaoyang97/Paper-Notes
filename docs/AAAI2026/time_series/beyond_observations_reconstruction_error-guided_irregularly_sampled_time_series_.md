@@ -13,7 +13,6 @@ tags:
   - "伪观测"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # iTimER: Reconstruction Error-Guided Irregularly Sampled Time Series Representation Learning
 
 **会议**: AAAI 2026  

@@ -13,7 +13,6 @@ tags:
   - "多模型协同"
 ---
 
-<!-- 由 src/conference/gen_openreview_stubs.py 自动生成 -->
 # Projected Coupled Diffusion for Test-Time Constrained Joint Generation
 
 **会议**: ICLR2026  

@@ -13,7 +13,6 @@ tags:
   - "Bradley-Terry模型"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Greedy Sampling Is Provably Efficient for RLHF
 
 **会议**: NeurIPS 2025  

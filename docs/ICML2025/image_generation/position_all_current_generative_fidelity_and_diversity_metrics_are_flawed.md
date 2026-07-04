@@ -13,7 +13,6 @@ tags:
   - "sanity check"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Position: All Current Generative Fidelity and Diversity Metrics are Flawed
 
 **会议**: ICML2025  

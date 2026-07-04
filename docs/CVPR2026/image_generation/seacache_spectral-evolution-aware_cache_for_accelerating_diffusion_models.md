@@ -13,7 +13,6 @@ tags:
   - "无训练加速"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models
 
 **会议**: CVPR2026  

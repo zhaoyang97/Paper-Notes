@@ -13,7 +13,6 @@ tags:
   - "jury评估"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Safer or Luckier? LLMs as Safety Evaluators Are Not Robust to Artifacts
 
 **会议**: ACL2025  

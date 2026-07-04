@@ -15,7 +15,6 @@ tags:
   - "动态路径引导"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BeautyGRPO: Aesthetic Alignment for Face Retouching via Dynamic Path Guidance and Fine-Grained Preference Modeling
 
 **会议**: CVPR2026  

@@ -14,7 +14,6 @@ tags:
   - "VAD"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CausalVAD: De-confounding End-to-End Autonomous Driving via Causal Intervention
 
 **会议**: CVPR2026  

@@ -14,7 +14,6 @@ tags:
   - "控制点表示"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BiMotion: B-spline Motion for Text-guided Dynamic 3D Character Generation
 
 **会议**: CVPR2026  

@@ -13,7 +13,6 @@ tags:
   - "时间线摘要"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues
 
 **会议**: ACL2025  

@@ -14,7 +14,6 @@ tags:
   - "多语言"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Structure-Guided Entity Resolution: Fine-Tuning LLMs for Robust Name Matching in Complex Linguistic Contexts
 
 **会议**: ACL2026  

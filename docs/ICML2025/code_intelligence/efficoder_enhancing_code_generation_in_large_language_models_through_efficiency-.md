@@ -13,7 +13,6 @@ tags:
   - "内存开销"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning
 
 **会议**: ICML2025  

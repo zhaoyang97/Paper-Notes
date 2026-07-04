@@ -13,7 +13,6 @@ tags:
   - "困难样本"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Semantic Reranking at Inference Time for Hard Examples in Rhetorical Role Labeling
 
 **会议**: ACL 2026  

@@ -13,7 +13,6 @@ tags:
   - "Gauss-Newton"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Deceptron: Learned Local Inverses for Fast and Stable Physics Inversion
 
 **会议**: NEURIPS2025  

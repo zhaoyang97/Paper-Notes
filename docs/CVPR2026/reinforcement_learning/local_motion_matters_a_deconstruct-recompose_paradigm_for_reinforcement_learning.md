@@ -12,7 +12,6 @@ tags:
   - "跨形态迁移"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # Local Motion Matters: A Deconstruct-Recompose Paradigm for Reinforcement Learning Pre-training from Videos
 
 **会议**: CVPR 2026  

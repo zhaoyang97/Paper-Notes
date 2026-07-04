@@ -14,7 +14,6 @@ tags:
   - "IoA"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # FC-Track: Overlap-Aware Post-Association Correction for Online Multi-Object Tracking
 
 **会议**: CVPR 2025  

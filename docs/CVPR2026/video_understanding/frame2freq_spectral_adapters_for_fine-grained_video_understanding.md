@@ -14,7 +14,6 @@ tags:
   - "Vision Foundation Model"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Frame2Freq: Spectral Adapters for Fine-Grained Video Understanding
 
 **会议**: CVPR2026  

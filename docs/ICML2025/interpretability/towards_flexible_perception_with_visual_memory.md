@@ -14,7 +14,6 @@ tags:
   - "scalable search"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Towards Flexible Perception with Visual Memory
 
 **会议**: ICML2025  

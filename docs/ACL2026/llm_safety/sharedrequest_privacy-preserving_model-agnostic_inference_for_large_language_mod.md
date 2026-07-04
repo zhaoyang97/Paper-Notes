@@ -12,7 +12,6 @@ tags:
   - "差分隐私"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # SharedRequest: Privacy-Preserving Model-Agnostic Inference for Large Language Models
 
 **会议**: ACL 2026  

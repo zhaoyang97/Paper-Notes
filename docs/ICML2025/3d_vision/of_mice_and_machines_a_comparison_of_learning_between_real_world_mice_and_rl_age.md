@@ -13,7 +13,6 @@ tags:
   - "经验回放"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Of Mice and Machines: A Comparison of Learning Between Real World Mice and RL Agents
 
 **会议**: ICML2025  

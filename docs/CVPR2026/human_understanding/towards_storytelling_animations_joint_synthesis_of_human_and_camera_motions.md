@@ -13,7 +13,6 @@ tags:
   - "Toric 空间"
 ---
 
-<!-- 由 tmp/gen_cvf_stubs.py 自动生成（CVF-only，无 arXiv） -->
 # Towards Storytelling Animations: Joint Synthesis of Human and Camera Motions
 
 **会议**: CVPR 2026  

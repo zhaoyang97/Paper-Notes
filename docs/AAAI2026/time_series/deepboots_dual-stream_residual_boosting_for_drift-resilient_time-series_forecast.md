@@ -13,7 +13,6 @@ tags:
   - "偏差方差分解"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # DeepBooTS: Dual-Stream Residual Boosting for Drift-Resilient Time-Series Forecasting
 
 **会议**: AAAI 2026  

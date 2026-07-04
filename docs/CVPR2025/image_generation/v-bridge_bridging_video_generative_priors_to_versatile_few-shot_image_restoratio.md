@@ -13,7 +13,6 @@ tags:
   - "all-in-one restoration"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration
 
 **会议**: CVPR2025  

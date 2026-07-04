@@ -13,7 +13,6 @@ tags:
   - "深度学习"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Conformal Online Learning of Deep Koopman Linear Embeddings
 
 **会议**: NEURIPS2025  

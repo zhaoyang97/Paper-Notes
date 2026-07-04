@@ -13,7 +13,6 @@ tags:
   - "十亿参数"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation
 
 **会议**: CVPR 2025  

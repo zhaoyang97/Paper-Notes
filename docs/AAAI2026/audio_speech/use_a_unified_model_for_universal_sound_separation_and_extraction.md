@@ -13,7 +13,6 @@ tags:
   - "跨任务对齐"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # USE: A Unified Model for Universal Sound Separation and Extraction
 
 **会议**: AAAI2026 Oral  

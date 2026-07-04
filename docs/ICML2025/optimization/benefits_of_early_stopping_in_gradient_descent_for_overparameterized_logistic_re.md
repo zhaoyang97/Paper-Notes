@@ -15,7 +15,6 @@ tags:
   - "maximum margin"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Benefits of Early Stopping in Gradient Descent for Overparameterized Logistic Regression
 
 **会议**: ICML2025  

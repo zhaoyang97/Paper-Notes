@@ -13,7 +13,6 @@ tags:
   - "数学推理评估"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # TreeCut: A Synthetic Unanswerable Math Word Problem Dataset for LLM Hallucination Evaluation
 
 **会议**: ACL2025  

@@ -166,7 +166,6 @@ AI/ML for Social Impact (AISI) 领域近十年发展迅速，已有 AAAI Special
 - 实验充分度: ⭐⭐ (无实验，论证基于案例和逻辑推理)
 - 写作质量: ⭐⭐⭐⭐⭐ (结构清晰、论证严谨、建议具体可操作)
 - 推荐度: ⭐⭐⭐⭐ (对 AISI 生态有实际指导意义，event study 讨论对所有 ML 部署都有参考价值)
-<!-- 由 src/gen_stubs.py 自动生成 -->
 
 <!-- RELATED:START -->
 

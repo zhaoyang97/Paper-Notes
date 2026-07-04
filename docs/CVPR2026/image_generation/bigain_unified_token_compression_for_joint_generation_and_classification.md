@@ -13,7 +13,6 @@ tags:
   - "训练无关"
 ---
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # BiGain: Unified Token Compression for Joint Generation and Classification
 
 **会议**: CVPR2026  
