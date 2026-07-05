@@ -355,15 +355,15 @@
 
   function pageAnchor(q, page, label, className) {
     return (
-      '<a class="pn-page ' +
+      '<button type="button" class="pn-page ' +
       className +
-      '" href="' +
-      pageHref(q, page) +
       '" data-page="' +
       page +
+      '" data-query="' +
+      encodeURIComponent(q) +
       '">' +
       esc(label) +
-      "</a>"
+      "</button>"
     );
   }
 
@@ -489,6 +489,7 @@
       ".pn-kw{font-size:.72rem;color:var(--md-default-fg-color--light);background:var(--md-default-fg-color--lightest);border-radius:.6rem;padding:.08rem .5rem;line-height:1.7;white-space:nowrap}" +
       ".pn-pager{display:flex;align-items:center;justify-content:center;gap:.35rem;flex-wrap:wrap;margin:1rem 0 0}" +
       ".pn-page{min-width:2rem;padding:.28rem .55rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:.35rem;text-align:center;font-size:.78rem;line-height:1.5;background:var(--md-default-bg-color)}" +
+      "button.pn-page{font:inherit;color:var(--md-typeset-a-color);cursor:pointer}" +
       ".pn-page:hover{border-color:var(--md-accent-fg-color);text-decoration:none}" +
       ".pn-current{color:var(--md-primary-bg-color);background:var(--md-primary-fg-color);border-color:var(--md-primary-fg-color);font-weight:700}" +
       ".pn-disabled,.pn-ellipsis{color:var(--md-default-fg-color--light);background:transparent}" +
@@ -569,7 +570,12 @@
       e.preventDefault();
       var query = "";
       try {
-        query = new URL(target.getAttribute("href"), location.href).searchParams.get("q") || "";
+        query = decodeURIComponent(target.getAttribute("data-query") || "");
+      } catch (err) {}
+      try {
+        var href = target.getAttribute("href");
+        var hrefQuery = href ? new URL(href, location.href).searchParams.get("q") : "";
+        if (hrefQuery) query = hrefQuery;
       } catch (err) {}
       update(true, parseInt(target.getAttribute("data-page"), 10) || 1, query || input.value || getQ());
       try {
