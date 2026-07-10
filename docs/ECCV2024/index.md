@@ -91,6 +91,50 @@ item_total: 868
 
 ---
 
+## 💡 LLM Reasoning (1) { #llm_reasoning }
+
+**[Controllable Navigation Instruction Generation with Chain of Thought Prompting](llm_reasoning/controllable_navigation_instruction_generation_with_chain_of_thought_prompting.md)**
+
+:   提出 C-Instructor，利用 LLM 的思维链提示实现风格和内容可控的导航指令生成，通过 CoTL（带地标的思维链）、STMT（空间拓扑建模）和 SMT（混合风格训练）三大机制，在四个室内外导航数据集上全面超越已有方法。
+
+---
+
+## 🦾 LLM Agent (3) { #llm_agent }
+
+**[Agent3D-Zero: An Agent for Zero-shot 3D Understanding](llm_agent/agent3d-zero_an_agent_for_zero-shot_3d_understanding.md)**
+
+:   Agent3D-Zero 提出一个基于 VLM 的零样本 3D 场景理解 Agent 框架，通过鸟瞰图上的 Set-of-Line 视觉提示引导 VLM 主动选择观察视角，并综合多视角图像进行 3D 推理，在 ScanQA 等任务上超越了需要微调的 3D-LLM 方法。
+
+**[HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning](llm_agent/hydra_a_hyper_agent_for_dynamic_compositional_visual_reasoning.md)**
+
+:   （注：基于摘要的简要笔记）提出 HYDRA，一种多阶段动态组合式视觉推理框架，通过规划器（Planner）、强化学习认知控制器（RL Agent）和推理器（Reasoner）三模块协作，实现可靠且渐进式的视觉推理，在 RefCOCO/RefCOCO+、OK-VQA、GQA 等多个数据集上取得 SOTA。
+
+**[VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](llm_agent/videoagent_a_memory-augmented_multimodal_agent_for_video_understanding.md)**
+
+:   提出 VideoAgent，一个记忆增强的多模态 Agent，通过构建结构化记忆（temporal memory 存储事件描述 + object memory 存储物体跟踪状态）并利用 4 个工具与记忆交互，零样本完成长视频问答任务，在 NExT-QA 上平均 +6.6%、EgoSchema 上 +26.0%，接近 Gemini 1.5 Pro 的性能。
+
+---
+
+## 🔒 LLM 安全 (1) { #llm_safety }
+
+**[MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment](llm_safety/magr_manifold-aligned_graph_regularization_for_continual_action_quality_assessme.md)**
+
+:   提出 MAGR 方法，通过流形对齐投影器和 Intra-Inter-Joint 图正则化器，解决持续动作质量评估（CAQA）中特征回放导致的旧特征与当前特征流形不对齐问题，在四个数据集上显著超越现有基线。
+
+---
+
+## 👻 幻觉检测 (2) { #hallucination }
+
+**[BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-Language Models](hallucination/beaf_observing_beforeafter_changes_to_evaluate_hallucination.md)**
+
+:   BEAF提出"前-后对比"的幻觉评估范式：通过图像编辑移除物体后观察VLM回答的变化，引入TU/IG/SB/ID四个变化感知指标，揭示了传统文本轴评估无法发现的幻觉行为。
+
+**[LiDAR-Event Stereo Fusion with Hallucinations](hallucination/lidar-event_stereo_fusion_with_hallucinations.md)**
+
+:   提出将LiDAR稀疏深度点与事件立体相机融合的首个框架，通过在事件堆叠表示（VSH）或原始事件流（BTH）中"幻觉"（插入虚构事件）来弥补事件相机在无运动/无纹理区域的信息缺失，大幅提升事件立体匹配精度。
+
+---
+
 ## 📊 LLM 评测 (19) { #llm_evaluation }
 
 **[ColorMNet: A Memory-based Deep Spatial-Temporal Feature Propagation Network for Video Colorization](llm_evaluation/colormnet_a_memory-based_deep_spatial-temporal_feature_propagation_network_for_v.md)**
@@ -216,6 +260,46 @@ item_total: 868
 :   本文通过深入分析Transformer中注意力权重矩阵的条纹（stripe）模式现象，提出一种推理阶段完全无额外计算开销的注意力增强机制——仅在训练阶段通过辅助模块学习条纹引导的注意力修正，并在推理时将其重参数化融入标准注意力权重中，实现"免费午餐"式的性能提升。
 
 [查看全部11篇「LLM 其他」论文 →](llm_nlp/)
+
+---
+
+## 📖 NLP 理解 (1) { #nlp_understanding }
+
+**[SLIMER: Show Less, Instruct More - Enriching Prompts with Definitions and Guidelines for Zero-Shot NER](nlp_understanding/slimer_zero_shot_ner.md)**
+
+:   SLIMER 通过在提示中注入实体定义和标注指南来增强 LLM 的零样本命名实体识别能力，仅用 391 个实体类别训练即可在从未见过的实体标签上达到与使用 13000+ 实体类别训练的 SOTA 方法相当的性能。
+
+---
+
+## 🗣️ 对话系统 (1) { #dialogue }
+
+**[BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation](dialogue/bi-mdrg_bridging_image_history_in_multimodal_dialogue_response_generation.md)**
+
+:   提出 BI-MDRG 框架，通过桥接图像历史信息来增强多模态对话中文本回复的图像 grounding 能力和连续图像回复中物体的一致性。
+
+---
+
+## 🔍 信息检索/RAG (3) { #information_retrieval }
+
+**[Multi-Label Cluster Discrimination for Visual Representation Learning](information_retrieval/multi-label_cluster_discrimination_for_visual_representation_learning.md)**
+
+:   提出多标签聚类判别方法 MLCD，通过为每张图像分配多个聚类伪标签并设计消歧多标签分类损失，在 LAION-400M 上预训练的 ViT 在 linear probe、zero-shot 分类和检索任务上全面超越 OpenCLIP、FLIP 和 UNICOM。
+
+**[OneRestore: A Universal Restoration Framework for Composite Degradation](information_retrieval/onerestore_a_universal_restoration_framework_for_composite_degradation.md)**
+
+:   提出 OneRestore，一种基于 Transformer 的通用图像复原框架，通过场景描述符引导的交叉注意力机制和复合退化复原损失，能在单一模型中自适应地处理低光照、雾、雨、雪及其任意组合的复合退化场景，并支持文本/视觉双模式的可控复原。
+
+**[Towards Open-Ended Visual Recognition with Large Language Model](information_retrieval/towards_open-ended_visual_recognition_with_large_language_models.md)**
+
+:   提出 OmniScient Model (OSM)——一个基于冻结 CLIP-ViT + 可训练 MaskQ-Former + 冻结 LLM (Vicuna-7B) 的生成式 mask 分类器，将视觉识别从"从预定义词表中选择类别"转变为"直接生成类别名称"，消除了训练和测试时对预定义词表的依赖，在 COCO 全景分割上超越 DaTaSeg +4.3 PQ。
+
+---
+
+## 💻 代码智能 (1) { #code_intelligence }
+
+**[DreamStruct: Understanding Slides and User Interfaces via Synthetic Data Generation](code_intelligence/dreamstruct_understanding_slides_and_user_interfaces_via_synthetic_data_generati.md)**
+
+:   提出利用代码生成合成结构化视觉数据（幻灯片和UI），用于训练理解模型，减少人工标注需求。
 
 ---
 
@@ -887,6 +971,38 @@ item_total: 868
 
 ---
 
+## 📐 优化/理论 (2) { #optimization }
+
+**[Fine-Grained Scene Graph Generation via Sample-Level Bias Prediction](optimization/fine-grained_scene_graph_generation_via_sample-level_bias_prediction.md)**
+
+:   提出样本级偏置预测方法 SBP，通过 Bias-Oriented GAN 利用物体对 union region 的上下文信息预测样本特异性纠偏向量，将粗粒度关系修正为细粒度关系，在 VG/GQA/VG-1800 上相比数据集级纠偏方法平均提升 5.6%/3.9%/3.2% 的 Average@K。
+
+**[Handling the Non-smooth Challenge in Tensor SVD: A Multi-objective Tensor Recovery Framework](optimization/handling_the_non-smooth_challenge_in_tensor_svd_a_multi-objective_tensor_recover.md)**
+
+:   提出基于可学习张量核范数的多目标张量恢复框架 (MOTC)，通过引入可学习酉矩阵替代固定变换来解决 t-SVD 方法在非光滑张量数据上的性能退化问题，并通过多目标优化有效利用张量各维度的低秩性。
+
+---
+
+## 🔗 因果推理 (4) { #causal_inference }
+
+**[Distill Gold from Massive Ores: Bi-level Data Pruning towards Efficient Dataset Distillation](causal_inference/distill_gold_from_massive_ores_bi-level_data_pruning_towards_efficient_dataset_d.md)**
+
+:   提出双层数据剪枝策略 BiLP，通过经验损失静态剪枝和基于因果效应 (ITE) 的动态剪枝，高效选择对数据集蒸馏最有价值的真实样本，以即插即用方式一致性提升现有蒸馏方法性能并降低计算开销。
+
+**[Integrating Markov Blanket Discovery into Causal Representation Learning for Domain Generalization](causal_inference/integrating_markov_blanket_discovery_into_causal_representation_learning_for_dom.md)**
+
+:   提出 CMBRL 框架，在隐空间中发现马尔可夫毯（Markov Blanket）特征——目标变量的最小充分统计量——代替现有方法中仅选择因果/反因果变量的做法，构建不变预测机制实现跨域泛化。
+
+**[Learning Chain of Counterfactual Thought for Bias-Robust Vision-Language Reasoning](causal_inference/learning_chain_of_counterfactual_thought_for_bias-robust_vision-language_reasoni.md)**
+
+:   本文提出了反事实偏差鲁棒推理数据集（CoBRa）和反事实思维链方法（CoCT），通过构造编辑后的知识图谱和图像内容来评估和缓解大型视觉语言模型（LVLM）中的知识偏差，使模型能够逐步推理而非依赖偏见知识，在需要知识偏差下推理的任务上显著优于现有方法。
+
+**[Understanding Physical Dynamics with Counterfactual World Modeling](causal_inference/understanding_physical_dynamics_with_counterfactual_world_modeling.md)**
+
+:   本文提出反事实世界建模（Counterfactual World Modeling, CWM），通过时序分解的遮蔽策略训练视频掩码预测器，并设计"反事实提示"机制从单一预训练模型中无需微调即可提取光流、分割、关键点等多种视觉结构，在物理动力学理解任务Physion基准上达到最优性能。
+
+---
+
 ## 🔬 可解释性 (5) { #interpretability }
 
 **[DetailSemNet: Elevating Signature Verification through Detail-Semantic Integration](interpretability/detailsemnet_elevating_signature_verification_through_detail-semantic_integratio.md)**
@@ -957,6 +1073,42 @@ item_total: 868
 
 ---
 
+## 🕸️ 图学习 (4) { #graph_learning }
+
+**[Confidence Self-Calibration for Multi-Label Class-Incremental Learning](graph_learning/confidence_self-calibration_for_multi-label_class-incremental_learning.md)**
+
+:   针对多标签类增量学习(MLCIL)中部分标签导致的过度自信预测和假阳性错误问题，提出 Confidence Self-Calibration (CSC) 框架，通过类增量图卷积网络(CI-GCN)校准标签关系 + 最大熵正则化校准置信度，在 MS-COCO 和 VOC 上大幅超越 SOTA。
+
+**[GKGNet: Group K-Nearest Neighbor Based Graph Convolutional Network for Multi-Label Image Recognition](graph_learning/gkgnet_group_k-nearest_neighbor_based_graph_convolutional_network_for_multi-labe.md)**
+
+:   提出首个全图卷积多标签识别模型 GKGNet，通过 Group KNN 机制动态构建标签与图像区域间的图结构，在 MS-COCO 和 VOC2007 上以更低计算量取得 SOTA。
+
+**[SENC: Handling Self-collision in Neural Cloth Simulation](graph_learning/senc_handling_self-collision_in_neural_cloth_simulation.md)**
+
+:   提出 SENC，通过基于 Global Intersection Analysis (GIA) 的自碰撞损失和自碰撞感知图神经网络，首次在自监督神经布料模拟中有效解决布料自碰撞问题。
+
+**[Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching](graph_learning/synchronous_diffusion_for_unsupervised_smooth_non-rigid_3d_shape_matching.md)**
+
+:   提出同步扩散正则化方法用于无监督非刚性3D形状匹配，核心思想是"在两个形状上同步地扩散同一函数应产生一致输出"，通过这一简单而高效的正则化可以显著提升现有深度功能映射方法的匹配平滑性，在FAUST、SCAPE、TOPKIDS等多个数据集上达到SOTA。
+
+---
+
+## 📈 时间序列 (3) { #time_series }
+
+**[Multi-person Pose Forecasting with Individual Interaction Perceptron and Prior Learning](time_series/multi-person_pose_forecasting_with_individual_interaction_perceptron_and_prior_l.md)**
+
+:   本文提出 IAFormer（Interaction-Aware Pose Forecasting Transformer），通过设计交互感知模块（IPM）来评估每个人与事件的交互程度，并引入交互先验学习模块（IPLM）来积累高频交互模式的先验知识，从而实现语义层面的多人姿态预测，在多个多人场景数据集上显著超越现有方法。
+
+**[OmniSat: Self-Supervised Modality Fusion for Earth Observation](time_series/omnisat_self-supervised_modality_fusion_for_earth_observation.md)**
+
+:   提出OmniSat统一框架，通过模态特异编码器+跨模态对比自监督预训练，将多光谱时序（S2）、SAR时序（S1）、高分辨率单时相（SPOT/Aerial）等异构遥感数据融合为统一表示，在语义分割和作物分类上超越所有单模态和多模态基线。
+
+**[Semantically Guided Representation Learning For Action Anticipation](time_series/semantically_guided_representation_learning_for_action_anticipation.md)**
+
+:   提出 S-GEAR 框架，通过学习视觉动作原型并利用语言模型的语义关联来引导原型之间的几何关系，使模型理解动作间的语义互联性，从而提升动作预测性能，在 Epic-Kitchens 55/100、EGTEA Gaze+、50 Salads 四个基准上取得 SOTA 或极具竞争力的结果。
+
+---
+
 ## 🏥 医学图像 (28) { #medical_imaging }
 
 **[A Cephalometric Landmark Regression Method Based on Dual-Encoder for High-Resolution X-Ray Image](medical_imaging/a_cephalometric_landmark_regression_method_based_on_dual-encoder_for_high-resolu.md)**
@@ -1003,6 +1155,22 @@ item_total: 868
 
 ---
 
+## ⚛️ 物理/科学计算 (1) { #physics }
+
+**[Robust Fitting on a Gate Quantum Computer](physics/robust_fitting_on_a_gate_quantum_computer.md)**
+
+:   首次在真实门量子计算机（IonQ Aria）上实现鲁棒拟合：提出用于一维 $\ell_\infty$ 可行性检验的量子电路，填补了 Bernstein-Vazirani（BV）电路计算 Boolean influence 的关键空缺，并展示如何将一维 influence 累积到高维非线性模型（如基础矩阵估计）。
+
+---
+
+## 🌍 地球科学 (1) { #earth_science }
+
+**[Semi-supervised Video Desnowing Network via Temporal Decoupling Experts and Distribution-Driven Contrastive Regularization](earth_science/semi-supervised_video_desnowing_network_via_temporal_decoupling_experts_and_dist.md)**
+
+:   提出首个半监督视频去雪框架 SemiVDN，通过物理先验引导的时序解耦专家模块和分布驱动的对比正则化，利用无标签真实雪景视频缩小合成-真实域差距，在合成与真实数据集上均超越现有方法。
+
+---
+
 ## 📡 信号/通信 (6) { #signal_comm }
 
 **[Defect Spectrum: A Granular Look of Large-Scale Defect Datasets with Rich Semantics](signal_comm/defect_spectrum_a_granular_look_of_large-scale_defect_datasets_with_rich_semanti.md)**
@@ -1028,6 +1196,18 @@ item_total: 868
 **[Unsupervised Exposure Correction](signal_comm/unsupervised_exposure_correction.md)**
 
 :   提出首个无监督曝光校正（UEC）方法，利用ISP管线自由生成的多曝光序列让图像互为ground truth进行训练，设计仅含19K参数的像素级变换函数保留图像细节，在曝光校正和下游边缘检测上超越有监督SOTA。
+
+---
+
+## 👥 社会计算 (2) { #social_computing }
+
+**[Distribution-Aware Robust Learning from Long-Tailed Data with Noisy Labels](social_computing/distribution-aware_robust_learning_from_long-tailed_data_with_noisy_labels.md)**
+
+:   提出 DaSC 框架，通过分布感知的类中心估计（DaCC）和置信度感知的对比学习（SBCL + MIDL），同时解决长尾分布和噪声标签的联合问题，在 CIFAR 和真实噪声数据集上达到 SOTA。
+
+**[GRACE: Graph-Based Contextual Debiasing for Fair Visual Question Answering](social_computing/grace_graph-based_contextual_debiasing_for_fair_visual_question_answering.md)**
+
+:   提出 GRACE（GRAph-based Contextual DEbiasing），一种基于图结构的上下文去偏方法，通过无监督上下文图学习和基于图的多样化 in-context example 选择，解决知识增强 VQA 系统中大语言模型继承的数据偏差问题。
 
 ---
 
@@ -1120,189 +1300,5 @@ item_total: 868
 :   提出 BUAL 框架，通过 Random Label Negative Learning 将未知类样本推向高置信区域、已知类样本推向低置信区域，结合双向不确定性采样策略，在开放集场景下有效选出高信息量的已知类样本。
 
 [查看全部42篇「其他」论文 →](others/)
-
----
-
-## 🗂 其他方向 (30)
-
----
-
-## 💡 LLM Reasoning (1) { #llm_reasoning }
-
-**[Controllable Navigation Instruction Generation with Chain of Thought Prompting](llm_reasoning/controllable_navigation_instruction_generation_with_chain_of_thought_prompting.md)**
-
-:   提出 C-Instructor，利用 LLM 的思维链提示实现风格和内容可控的导航指令生成，通过 CoTL（带地标的思维链）、STMT（空间拓扑建模）和 SMT（混合风格训练）三大机制，在四个室内外导航数据集上全面超越已有方法。
-
----
-
-## 🦾 LLM Agent (3) { #llm_agent }
-
-**[Agent3D-Zero: An Agent for Zero-shot 3D Understanding](llm_agent/agent3d-zero_an_agent_for_zero-shot_3d_understanding.md)**
-
-:   Agent3D-Zero 提出一个基于 VLM 的零样本 3D 场景理解 Agent 框架，通过鸟瞰图上的 Set-of-Line 视觉提示引导 VLM 主动选择观察视角，并综合多视角图像进行 3D 推理，在 ScanQA 等任务上超越了需要微调的 3D-LLM 方法。
-
-**[HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning](llm_agent/hydra_a_hyper_agent_for_dynamic_compositional_visual_reasoning.md)**
-
-:   （注：基于摘要的简要笔记）提出 HYDRA，一种多阶段动态组合式视觉推理框架，通过规划器（Planner）、强化学习认知控制器（RL Agent）和推理器（Reasoner）三模块协作，实现可靠且渐进式的视觉推理，在 RefCOCO/RefCOCO+、OK-VQA、GQA 等多个数据集上取得 SOTA。
-
-**[VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](llm_agent/videoagent_a_memory-augmented_multimodal_agent_for_video_understanding.md)**
-
-:   提出 VideoAgent，一个记忆增强的多模态 Agent，通过构建结构化记忆（temporal memory 存储事件描述 + object memory 存储物体跟踪状态）并利用 4 个工具与记忆交互，零样本完成长视频问答任务，在 NExT-QA 上平均 +6.6%、EgoSchema 上 +26.0%，接近 Gemini 1.5 Pro 的性能。
-
----
-
-## 🔒 LLM 安全 (1) { #llm_safety }
-
-**[MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment](llm_safety/magr_manifold-aligned_graph_regularization_for_continual_action_quality_assessme.md)**
-
-:   提出 MAGR 方法，通过流形对齐投影器和 Intra-Inter-Joint 图正则化器，解决持续动作质量评估（CAQA）中特征回放导致的旧特征与当前特征流形不对齐问题，在四个数据集上显著超越现有基线。
-
----
-
-## 👻 幻觉检测 (2) { #hallucination }
-
-**[BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-Language Models](hallucination/beaf_observing_beforeafter_changes_to_evaluate_hallucination.md)**
-
-:   BEAF提出"前-后对比"的幻觉评估范式：通过图像编辑移除物体后观察VLM回答的变化，引入TU/IG/SB/ID四个变化感知指标，揭示了传统文本轴评估无法发现的幻觉行为。
-
-**[LiDAR-Event Stereo Fusion with Hallucinations](hallucination/lidar-event_stereo_fusion_with_hallucinations.md)**
-
-:   提出将LiDAR稀疏深度点与事件立体相机融合的首个框架，通过在事件堆叠表示（VSH）或原始事件流（BTH）中"幻觉"（插入虚构事件）来弥补事件相机在无运动/无纹理区域的信息缺失，大幅提升事件立体匹配精度。
-
----
-
-## 📖 NLP 理解 (1) { #nlp_understanding }
-
-**[SLIMER: Show Less, Instruct More - Enriching Prompts with Definitions and Guidelines for Zero-Shot NER](nlp_understanding/slimer_zero_shot_ner.md)**
-
-:   SLIMER 通过在提示中注入实体定义和标注指南来增强 LLM 的零样本命名实体识别能力，仅用 391 个实体类别训练即可在从未见过的实体标签上达到与使用 13000+ 实体类别训练的 SOTA 方法相当的性能。
-
----
-
-## 🗣️ 对话系统 (1) { #dialogue }
-
-**[BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation](dialogue/bi-mdrg_bridging_image_history_in_multimodal_dialogue_response_generation.md)**
-
-:   提出 BI-MDRG 框架，通过桥接图像历史信息来增强多模态对话中文本回复的图像 grounding 能力和连续图像回复中物体的一致性。
-
----
-
-## 🔍 信息检索/RAG (3) { #information_retrieval }
-
-**[Multi-Label Cluster Discrimination for Visual Representation Learning](information_retrieval/multi-label_cluster_discrimination_for_visual_representation_learning.md)**
-
-:   提出多标签聚类判别方法 MLCD，通过为每张图像分配多个聚类伪标签并设计消歧多标签分类损失，在 LAION-400M 上预训练的 ViT 在 linear probe、zero-shot 分类和检索任务上全面超越 OpenCLIP、FLIP 和 UNICOM。
-
-**[OneRestore: A Universal Restoration Framework for Composite Degradation](information_retrieval/onerestore_a_universal_restoration_framework_for_composite_degradation.md)**
-
-:   提出 OneRestore，一种基于 Transformer 的通用图像复原框架，通过场景描述符引导的交叉注意力机制和复合退化复原损失，能在单一模型中自适应地处理低光照、雾、雨、雪及其任意组合的复合退化场景，并支持文本/视觉双模式的可控复原。
-
-**[Towards Open-Ended Visual Recognition with Large Language Model](information_retrieval/towards_open-ended_visual_recognition_with_large_language_models.md)**
-
-:   提出 OmniScient Model (OSM)——一个基于冻结 CLIP-ViT + 可训练 MaskQ-Former + 冻结 LLM (Vicuna-7B) 的生成式 mask 分类器，将视觉识别从"从预定义词表中选择类别"转变为"直接生成类别名称"，消除了训练和测试时对预定义词表的依赖，在 COCO 全景分割上超越 DaTaSeg +4.3 PQ。
-
----
-
-## 💻 代码智能 (1) { #code_intelligence }
-
-**[DreamStruct: Understanding Slides and User Interfaces via Synthetic Data Generation](code_intelligence/dreamstruct_understanding_slides_and_user_interfaces_via_synthetic_data_generati.md)**
-
-:   提出利用代码生成合成结构化视觉数据（幻灯片和UI），用于训练理解模型，减少人工标注需求。
-
----
-
-## 📐 优化/理论 (2) { #optimization }
-
-**[Fine-Grained Scene Graph Generation via Sample-Level Bias Prediction](optimization/fine-grained_scene_graph_generation_via_sample-level_bias_prediction.md)**
-
-:   提出样本级偏置预测方法 SBP，通过 Bias-Oriented GAN 利用物体对 union region 的上下文信息预测样本特异性纠偏向量，将粗粒度关系修正为细粒度关系，在 VG/GQA/VG-1800 上相比数据集级纠偏方法平均提升 5.6%/3.9%/3.2% 的 Average@K。
-
-**[Handling the Non-smooth Challenge in Tensor SVD: A Multi-objective Tensor Recovery Framework](optimization/handling_the_non-smooth_challenge_in_tensor_svd_a_multi-objective_tensor_recover.md)**
-
-:   提出基于可学习张量核范数的多目标张量恢复框架 (MOTC)，通过引入可学习酉矩阵替代固定变换来解决 t-SVD 方法在非光滑张量数据上的性能退化问题，并通过多目标优化有效利用张量各维度的低秩性。
-
----
-
-## 🔗 因果推理 (4) { #causal_inference }
-
-**[Distill Gold from Massive Ores: Bi-level Data Pruning towards Efficient Dataset Distillation](causal_inference/distill_gold_from_massive_ores_bi-level_data_pruning_towards_efficient_dataset_d.md)**
-
-:   提出双层数据剪枝策略 BiLP，通过经验损失静态剪枝和基于因果效应 (ITE) 的动态剪枝，高效选择对数据集蒸馏最有价值的真实样本，以即插即用方式一致性提升现有蒸馏方法性能并降低计算开销。
-
-**[Integrating Markov Blanket Discovery into Causal Representation Learning for Domain Generalization](causal_inference/integrating_markov_blanket_discovery_into_causal_representation_learning_for_dom.md)**
-
-:   提出 CMBRL 框架，在隐空间中发现马尔可夫毯（Markov Blanket）特征——目标变量的最小充分统计量——代替现有方法中仅选择因果/反因果变量的做法，构建不变预测机制实现跨域泛化。
-
-**[Learning Chain of Counterfactual Thought for Bias-Robust Vision-Language Reasoning](causal_inference/learning_chain_of_counterfactual_thought_for_bias-robust_vision-language_reasoni.md)**
-
-:   本文提出了反事实偏差鲁棒推理数据集（CoBRa）和反事实思维链方法（CoCT），通过构造编辑后的知识图谱和图像内容来评估和缓解大型视觉语言模型（LVLM）中的知识偏差，使模型能够逐步推理而非依赖偏见知识，在需要知识偏差下推理的任务上显著优于现有方法。
-
-**[Understanding Physical Dynamics with Counterfactual World Modeling](causal_inference/understanding_physical_dynamics_with_counterfactual_world_modeling.md)**
-
-:   本文提出反事实世界建模（Counterfactual World Modeling, CWM），通过时序分解的遮蔽策略训练视频掩码预测器，并设计"反事实提示"机制从单一预训练模型中无需微调即可提取光流、分割、关键点等多种视觉结构，在物理动力学理解任务Physion基准上达到最优性能。
-
----
-
-## 🕸️ 图学习 (4) { #graph_learning }
-
-**[Confidence Self-Calibration for Multi-Label Class-Incremental Learning](graph_learning/confidence_self-calibration_for_multi-label_class-incremental_learning.md)**
-
-:   针对多标签类增量学习(MLCIL)中部分标签导致的过度自信预测和假阳性错误问题，提出 Confidence Self-Calibration (CSC) 框架，通过类增量图卷积网络(CI-GCN)校准标签关系 + 最大熵正则化校准置信度，在 MS-COCO 和 VOC 上大幅超越 SOTA。
-
-**[GKGNet: Group K-Nearest Neighbor Based Graph Convolutional Network for Multi-Label Image Recognition](graph_learning/gkgnet_group_k-nearest_neighbor_based_graph_convolutional_network_for_multi-labe.md)**
-
-:   提出首个全图卷积多标签识别模型 GKGNet，通过 Group KNN 机制动态构建标签与图像区域间的图结构，在 MS-COCO 和 VOC2007 上以更低计算量取得 SOTA。
-
-**[SENC: Handling Self-collision in Neural Cloth Simulation](graph_learning/senc_handling_self-collision_in_neural_cloth_simulation.md)**
-
-:   提出 SENC，通过基于 Global Intersection Analysis (GIA) 的自碰撞损失和自碰撞感知图神经网络，首次在自监督神经布料模拟中有效解决布料自碰撞问题。
-
-**[Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching](graph_learning/synchronous_diffusion_for_unsupervised_smooth_non-rigid_3d_shape_matching.md)**
-
-:   提出同步扩散正则化方法用于无监督非刚性3D形状匹配，核心思想是"在两个形状上同步地扩散同一函数应产生一致输出"，通过这一简单而高效的正则化可以显著提升现有深度功能映射方法的匹配平滑性，在FAUST、SCAPE、TOPKIDS等多个数据集上达到SOTA。
-
----
-
-## 📈 时间序列 (3) { #time_series }
-
-**[Multi-person Pose Forecasting with Individual Interaction Perceptron and Prior Learning](time_series/multi-person_pose_forecasting_with_individual_interaction_perceptron_and_prior_l.md)**
-
-:   本文提出 IAFormer（Interaction-Aware Pose Forecasting Transformer），通过设计交互感知模块（IPM）来评估每个人与事件的交互程度，并引入交互先验学习模块（IPLM）来积累高频交互模式的先验知识，从而实现语义层面的多人姿态预测，在多个多人场景数据集上显著超越现有方法。
-
-**[OmniSat: Self-Supervised Modality Fusion for Earth Observation](time_series/omnisat_self-supervised_modality_fusion_for_earth_observation.md)**
-
-:   提出OmniSat统一框架，通过模态特异编码器+跨模态对比自监督预训练，将多光谱时序（S2）、SAR时序（S1）、高分辨率单时相（SPOT/Aerial）等异构遥感数据融合为统一表示，在语义分割和作物分类上超越所有单模态和多模态基线。
-
-**[Semantically Guided Representation Learning For Action Anticipation](time_series/semantically_guided_representation_learning_for_action_anticipation.md)**
-
-:   提出 S-GEAR 框架，通过学习视觉动作原型并利用语言模型的语义关联来引导原型之间的几何关系，使模型理解动作间的语义互联性，从而提升动作预测性能，在 Epic-Kitchens 55/100、EGTEA Gaze+、50 Salads 四个基准上取得 SOTA 或极具竞争力的结果。
-
----
-
-## ⚛️ 物理/科学计算 (1) { #physics }
-
-**[Robust Fitting on a Gate Quantum Computer](physics/robust_fitting_on_a_gate_quantum_computer.md)**
-
-:   首次在真实门量子计算机（IonQ Aria）上实现鲁棒拟合：提出用于一维 $\ell_\infty$ 可行性检验的量子电路，填补了 Bernstein-Vazirani（BV）电路计算 Boolean influence 的关键空缺，并展示如何将一维 influence 累积到高维非线性模型（如基础矩阵估计）。
-
----
-
-## 🌍 地球科学 (1) { #earth_science }
-
-**[Semi-supervised Video Desnowing Network via Temporal Decoupling Experts and Distribution-Driven Contrastive Regularization](earth_science/semi-supervised_video_desnowing_network_via_temporal_decoupling_experts_and_dist.md)**
-
-:   提出首个半监督视频去雪框架 SemiVDN，通过物理先验引导的时序解耦专家模块和分布驱动的对比正则化，利用无标签真实雪景视频缩小合成-真实域差距，在合成与真实数据集上均超越现有方法。
-
----
-
-## 👥 社会计算 (2) { #social_computing }
-
-**[Distribution-Aware Robust Learning from Long-Tailed Data with Noisy Labels](social_computing/distribution-aware_robust_learning_from_long-tailed_data_with_noisy_labels.md)**
-
-:   提出 DaSC 框架，通过分布感知的类中心估计（DaCC）和置信度感知的对比学习（SBCL + MIDL），同时解决长尾分布和噪声标签的联合问题，在 CIFAR 和真实噪声数据集上达到 SOTA。
-
-**[GRACE: Graph-Based Contextual Debiasing for Fair Visual Question Answering](social_computing/grace_graph-based_contextual_debiasing_for_fair_visual_question_answering.md)**
-
-:   提出 GRACE（GRAph-based Contextual DEbiasing），一种基于图结构的上下文去偏方法，通过无监督上下文图学习和基于图的多样化 in-context example 选择，解决知识增强 VQA 系统中大语言模型继承的数据偏差问题。
 
 </div>

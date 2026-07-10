@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Multi-modality Image Fusion under Adverse Weather: Mask-Guided Feature Restoration and Interaction
+description: >-
+  [ECCV 2026][多模态VLM][多模态图像融合] AMG-Fuse 提出掩码引导的恶劣天气多模态图像融合框架，通过从"伪真值"（Pseudo Ground Truth）中解耦模态贡献掩码，结合掩码引导特征提取模块（MFEM）中的跨模态交叉注意力（MCCA）、掩码引导学习策略（MGLS）和任务耦合退化感知学习策略（TDAS），在统一网络中同时完成特征恢复与跨模态交互，在雪/雨/雾三类恶劣天气及真实场景下全面超越 SOTA，并在下游目标检测任务中取得最优 mAP。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "多模态图像融合"
+  - "红外可见光融合"
+  - "恶劣天气图像恢复"
+  - "掩码引导学习"
+  - "跨模态注意力"
+---
+
 # Multi-modality Image Fusion under Adverse Weather: Mask-Guided Feature Restoration and Interaction
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.26812](https://arxiv.org/abs/2606.26812)  
-**代码**: https://github.com/ixilai/AMG-Fuse (有)  
+**代码**: [https://github.com/ixilai/AMG-Fuse](https://github.com/ixilai/AMG-Fuse) (有)  
 **领域**: 多模态VLM  
 **关键词**: 多模态图像融合, 红外可见光融合, 恶劣天气图像恢复, 掩码引导学习, 跨模态注意力
 
@@ -138,3 +153,19 @@ $$\mathcal{L}_{TDAS} = \frac{1}{H \times W} \|VI_F - \mathcal{R}(VI_F)\|_1$$
 - 实验充分度: 四颗星。三类恶劣天气+真实数据+干净场景+下游检测，对比 7 个 SOTA，消融覆盖三个核心组件，且额外验证了伪真值不限制上界；但缺少对混合退化的实验和对不同伪真值生成器的对比。
 - 写作质量: 四颗星。公式推导步步递进（从式(1)→式(2)→式(3-5)的逻辑链清晰），问题引出自然（伪真值的双面性），Figure 1-2 直观；消融部分略有些"按场景分散"，每个组件只在一种天气下消融，不利于横向比较各组件的相对重要性。
 - 价值: 四颗星。掩码解耦的思路具有通用性，可推广到其他多模态融合场景；代码已开源，对恶劣天气下的图像融合研究和应用有直接参考价值；但计算开销较大，离实际部署还有距离。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Multi-Modal Image Fusion via Intervention-Stable Feature Learning](../../CVPR2026/multimodal_vlm/multi-modal_image_fusion_via_intervention-stable_feature_learning.md)
+- [\[ECCV 2024\] Towards Real-World Adverse Weather Image Restoration: Enhancing Clearness and Semantics with Vision-Language Models](../../ECCV2024/multimodal_vlm/towards_real-world_adverse_weather_image_restoration_enhancing_clearness_and_sem.md)
+- [\[CVPR 2026\] ReCoFuse: Ultra-Robust Image Fusion via Restorative Multi-Modal Diffusion Reciprocal Coupling](../../CVPR2026/multimodal_vlm/recofuse_ultra-robust_image_fusion_via_restorative_multi-modal_diffusion_recipro.md)
+- [\[CVPR 2026\] Is the Modality Gap a Bug or a Feature? A Robustness Perspective](../../CVPR2026/multimodal_vlm/is_the_modality_gap_a_bug_or_a_feature_a_robustness_perspective.md)
+- [\[CVPR 2026\] Multi-speaker Attention Alignment for Multimodal Social Interaction](../../CVPR2026/multimodal_vlm/multi-speaker_attention_alignment_for_multimodal_social_interaction.md)
+
+</div>
+
+<!-- RELATED:END -->

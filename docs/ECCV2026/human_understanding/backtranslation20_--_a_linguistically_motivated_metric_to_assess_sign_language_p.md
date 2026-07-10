@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] BackTranslation2.0 -- A Linguistically Motivated Metric to Assess Sign Language Production
+description: >-
+  [ECCV 2026][人体理解][手语生成评估] 提出 BackTranslation2.0，一个语言学驱动的文本到手语翻译评估指标，通过两阶段智能体框架（10 个专用工具提取证据 + 4 个 LLM 交叉比对模块）在语法正确性、音系准确性、运动流畅度和生成保真度四个维度上给出确定性评分，在已知损坏和合成数据上与人类判断达到 Pearson r=1.00 / Spearman ρ=1.00，远超现有反向翻译和运动相似度基线。
+tags:
+  - "ECCV 2026"
+  - "人体理解"
+  - "手语生成评估"
+  - "反向翻译指标"
+  - "语言学驱动评估"
+  - "多维度评分"
+  - "LLM智能体"
+---
+
 # BackTranslation2.0 -- A Linguistically Motivated Metric to Assess Sign Language Production
 
 **会议**: ECCV 2026  
@@ -124,3 +139,19 @@ BT2 本身是一个评估指标而非生成模型，不涉及端到端训练。�
 - 实验充分度: ⭐⭐⭐⭐⭐ 四个互补基准子集、20 人用户研究、七种消融变体、大规模合成损坏敏感度分析（900 对）、定性工具行为可视化——实验覆盖面和深度均非常扎实
 - 写作质量: ⭐⭐⭐⭐ 方法部分公式完整、工具定义清晰，但部分 Phase 1 工具的训练细节和校准过程被推至补充材料，评委在审稿阶段可能无法完整评估
 - 价值: ⭐⭐⭐⭐⭐ 手语生成评估是一个长期被忽视但极为重要的基础问题，BT2 提供了一个可规模化、可解释、与聋人社区需求对齐的评估范式，且可审计记忆轨迹的设计解决了 LLM-agent 系统可复现性的通用痛点
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] SignPR: A Progressive Vector-Quantized Diffusion Framework for Sign Language Production](../../CVPR2026/human_understanding/signpr_a_progressive_vector-quantized_diffusion_framework_for_sign_language_prod.md)
+- [\[CVPR 2026\] Focal–General Diffusion Model with Semantic Consistent Guidance for Sign Language Production](../../CVPR2026/human_understanding/focal-general_diffusion_model_with_semantic_consistent_guidance_for_sign_languag.md)
+- [\[ECCV 2026\] SIGNET: Motion-Level Knowledge Transfer for Cross-Language Sign Language Translation](signet_motion-level_knowledge_transfer_for_cross-language_sign_language_translat.md)
+- [\[ECCV 2026\] SIGNER: Temporally Grounded Sign Language Generation via Time-Resolved Conditioning](signer_temporally_grounded_sign_language_generation_via_time-resolved_conditioni.md)
+- [\[ECCV 2026\] SignNet-1M: Large-Scale Multilingual Sign Language Video Dataset with Downstream Benchmarks](signnet-1m_large-scale_multilingual_sign_language_video_dataset_with_downstream_.md)
+
+</div>
+
+<!-- RELATED:END -->

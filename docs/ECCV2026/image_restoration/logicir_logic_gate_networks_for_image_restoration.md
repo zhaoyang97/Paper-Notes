@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] LogicIR: Logic Gate Networks for Image Restoration
+description: >-
+  [ECCV2026][图像恢复][逻辑门网络] LogicIR 是首个专为图像恢复设计的逻辑门网络（LGN），通过全逻辑门 UNet 架构、可微比特解码层和 Index Shuffling 跨组通信机制，在去噪、去块、去雨任务上以远低于 BNN 和 LUT 方法的运算量（BOPs）达到竞争性恢复质量，证明了纯逻辑门计算在图像恢复中的可行性。
+tags:
+  - "ECCV2026"
+  - "图像恢复"
+  - "逻辑门网络"
+  - "二值神经网络"
+  - "轻量化推理"
+  - "比特解码"
+---
+
 # LogicIR: Logic Gate Networks for Image Restoration
 
 **会议**: ECCV2026  
 **arXiv**: [2606.26609](https://arxiv.org/abs/2606.26609)  
-**代码**: https://github.com/jimmy9704/LogicIR  
+**代码**: [https://github.com/jimmy9704/LogicIR](https://github.com/jimmy9704/LogicIR)  
 **领域**: 图像恢复 / 模型压缩  
 **关键词**: 逻辑门网络, 图像恢复, 二值神经网络, 轻量化推理, 比特解码  
 
@@ -164,3 +178,19 @@ $$\mathbf{A}_{out}(n,:,:) = \mathcal{F}^{(n)}(\mathbf{A}_{in}^{g_{cyc}}), \quad 
 - 实验充分度: 4/5 — 覆盖去噪、去块、去雨三个任务，消融实验逐组件叠加、分组策略对比、颜色处理策略对比齐全，硬件实测（FPGA runtime/能耗/面积）加分；但与其他轻量化方法（如知识蒸馏、剪枝）的直接对比不足
 - 写作质量: 4/5 — 动机清晰（对比 BNN 和 LUT 的局限性引出 LGN 的必要性），方法描述结构清楚，图表（BOPs-PSNR 气泡图、特征图可视化）有说服力；但训练细节（STE 微调的超参、旋转增强的具体设置）需查补充材料
 - 价值: 4/5 — 为"纯离散逻辑计算做稠密像素预测"提供了完整的技术范本，对边缘设备上的图像恢复有实际部署价值；FPGA 实测数据有力支撑了硬件亲和性主张，但超分辨率等上采样任务的扩展性是影响其长期影响力的关键瓶颈
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Divergence-Free Neural Networks with Application to Image Denoising](../../ICLR2026/image_restoration/divergence-free_neural_networks_with_application_to_image_denoising.md)
+- [\[ECCV 2024\] Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks](../../ECCV2024/image_restoration/overcoming_distribution_mismatch_in_quantizing_image_super-resolution_networks.md)
+- [\[ECCV 2026\] TaskTok: Delving into Task Tokens for Task-driven Image Restoration](tasktok_delving_into_task_tokens_for_task-driven_image_restoration.md)
+- [\[ECCV 2024\] Accelerating Image Super-Resolution Networks with Pixel-Level Classification](../../ECCV2024/image_restoration/accelerating_image_super-resolution_networks_with_pixel-level_classification.md)
+- [\[ICCV 2025\] IDF: Iterative Dynamic Filtering Networks for Generalizable Image Denoising](../../ICCV2025/image_restoration/idf_iterative_dynamic_filtering_networks_for_generalizable_image_denoising.md)
+
+</div>
+
+<!-- RELATED:END -->

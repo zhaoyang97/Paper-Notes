@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] NGPS: Structure-Preserving Self-Supervised Denoising via Neighbor-Guided Patch Sampling
+description: >-
+  [ECCV 2026][医学图像][自监督去噪] NGPS 提出一种轻量级邻片自监督去噪框架：对层间错位区域，在噪声衰减引导图上做局部 patch 匹配，但训练目标从原始噪声邻片的匹配坐标取像素值，从而实现"结构匹配与信号检索解耦"，无需密集形变场估计，在低剂量 CT 和 MRI 上一致提升保真度与结构敏感指标。
+tags:
+  - "ECCV 2026"
+  - "医学图像"
+  - "自监督去噪"
+  - "邻片监督"
+  - "医学影像"
+  - "错位处理"
+  - "patch匹配"
+---
+
 # NGPS: Structure-Preserving Self-Supervised Denoising via Neighbor-Guided Patch Sampling
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.23200](https://arxiv.org/abs/2606.23200)  
-**代码**: https://github.com/cv-cho/NGPS (有)  
+**代码**: [https://github.com/cv-cho/NGPS](https://github.com/cv-cho/NGPS) (有)  
 **领域**: 医学图像 / 自监督学习  
 **关键词**: 自监督去噪, 邻片监督, 医学影像, 错位处理, patch匹配
 
@@ -156,3 +171,19 @@ AAPM 上 NGPS 五项指标全最优，PSNR 领先 NS-N2N 0.77 dB。LIDC-IDRI 上
 - 实验充分度: ⭐⭐⭐⭐ 三个数据集（真实剂量 CT、模拟超低剂量 CT、合成 Rician MRI）、12 个基线、五指标评估、多维度消融（loss 组件、层厚、引导滤波器、空间超参、K 值、大 gap 压力测试），跨 seed 方差和 volume-level CI 分析加分
 - 写作质量: ⭐⭐⭐⭐ 问题陈述清晰（Fig.1 的丢弃像素分布分析直接量化了 mask 方法的代价），方法-公式-算法伪代码三者对得上，实验分析有 nuance（如实报 LIDC 上 SSIM 提升不显著、GMSD 略差）
 - 价值: ⭐⭐⭐ 对医学影像去噪社区有明确实用价值（轻量、不改架构、现成管线即插即用），通用性局限在满足切片独立噪声假设的体积数据，对 2D 自然图像去噪不直接适用
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling](../../ICLR2026/medical_imaging/prior-aware_and_context-guided_group_sampling_for_active_probabilistic_subsampli.md)
+- [\[NeurIPS 2025\] Self-Supervised Learning via Flow-Guided Neural Operator on Time-Series Data](../../NeurIPS2025/medical_imaging/self-supervised_learning_via_flow-guided_neural_operator_on_time-series_data.md)
+- [\[CVPR 2026\] Active Inference for Micro-Gesture Recognition: EFE-Guided Temporal Sampling and Adaptive Learning](../../CVPR2026/medical_imaging/active_inference_for_micro-gesture_recognition_efe-guided_temporal_sampling_and_.md)
+- [\[CVPR 2025\] Multiscale Structure-Guided Latent Diffusion for Multimodal MRI Translation](../../CVPR2025/medical_imaging/multiscale_structure-guided_latent_diffusion_for_multimodal_mri_translation.md)
+- [\[AAAI 2026\] Self-supervised Multiplex Consensus Mamba for General Image Fusion](../../AAAI2026/medical_imaging/self-supervised_multiplex_consensus_mamba_for_general_image_fusion.md)
+
+</div>
+
+<!-- RELATED:END -->

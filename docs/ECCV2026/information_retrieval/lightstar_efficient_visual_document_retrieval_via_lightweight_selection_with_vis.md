@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.23539](https://arxiv.org/abs/2606.23539)  
-**代码**: https://github.com/bokufa/LightSTAR  
+**代码**: [https://github.com/bokufa/LightSTAR](https://github.com/bokufa/LightSTAR)  
 **领域**: 信息检索/RAG  
 **关键词**: 视觉文档检索, 多模态RAG, 候选筛选, 视觉重排序, 高效检索
 
@@ -145,3 +145,19 @@ Visual Selection 使用 InternViT-300M，batch size 32，训练 10 epochs，学�
 - 实验充分度: ★★★★☆ 主结果、延迟曲线、召回和消融完整；还缺真实端到端 RAG 任务验证。
 - 写作质量: ★★★★☆ 动机清楚，表格直接；方法公式略密，但系统逻辑很好跟。
 - 价值: ★★★★★ 对视觉文档检索部署价值很高，尤其适合大规模文档库和多模态 RAG。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ACL 2025\] Hierarchical Document Refinement for Long-context Retrieval-augmented Generation](../../ACL2025/information_retrieval/hierarchical_document_refinement_for_long-context_retrieval-augmented_generation.md)
+- [\[ICLR 2026\] SmartChunk Retrieval: Query-Aware Chunk Compression with Planning for Efficient Document RAG](../../ICLR2026/information_retrieval/smartchunk_retrieval_query-aware_chunk_compression_with_planning_for_efficient_d.md)
+- [\[ICLR 2026\] AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving](../../ICLR2026/information_retrieval/adacache_adaptive_caching_and_context_augmentation_for_efficient_llm_serving.md)
+- [\[ICLR 2026\] ELViS: Efficient Visual Similarity from Local Descriptors that Generalizes Across Domains](../../ICLR2026/information_retrieval/elvis_efficient_visual_similarity_from_local_descriptors_that_generalizes_across.md)
+- [\[ACL 2026\] A Picture is Worth a Thousand Words? An Empirical Study of Aggregation Strategies for Visual Financial Document Retrieval](../../ACL2026/information_retrieval/a_picture_is_worth_a_thousand_words_an_empirical_study_of_aggregation_strategies.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Learn Once, Edit Anywhere: Visual Direction Transfer for Diffusion Models
+description: >-
+  [ECCV 2026][图像生成][扩散模型] ViDiT 提出一种"学一次，到处编"的框架：从少量图像编辑对（before/after）中优化一个连续的潜在方向 d，将该方向注入扩散模型的 CFG 推理过程，实现对任意图像零样本、解耦、强度可控的细粒度属性编辑，无需微调基座模型也无需逐图像优化。 扩散模型在文本到图像生成上…
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "扩散模型"
+  - "图像编辑"
+  - "视觉方向迁移"
+  - "解耦编辑"
+  - "零样本编辑"
+---
+
 # Learn Once, Edit Anywhere: Visual Direction Transfer for Diffusion Models
 
 **会议**: ECCV 2026  
@@ -107,3 +122,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐⭐ 消融实验覆盖样本量、损失项、推理时间步、反演方法；与两类方法（文本驱动和视觉条件）全面对比；用户研究和 rescoring 分析补充了感知和定量解耦证据
 - 写作质量: ⭐⭐⭐⭐☆ 动机清晰（文本描述瓶颈→视觉 delta 迁移），方法逻辑自洽，图表丰富；附录提供了充分的补充实验和失败案例分析
 - 价值: ⭐⭐⭐⭐☆ 框架源无关、即插即用、无需微调、推理极快，实用性强；"视觉 delta 迁移"范式为扩散模型编辑打开了新的思路空间，可能启发后续将更多结构化生成模型的语义能力引入扩散模型的工作
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] Let EEG Models Learn EEG](../../ICML2026/image_generation/let_eeg_models_learn_eeg.md)
+- [\[ICLR 2026\] Learn to Guide Your Diffusion Model](../../ICLR2026/image_generation/learn_to_guide_your_diffusion_model.md)
+- [\[CVPR 2026\] Visual Diffusion Models are Geometric Solvers](../../CVPR2026/image_generation/visual_diffusion_models_are_geometric_solvers.md)
+- [\[AAAI 2026\] DogFit: Domain-guided Fine-tuning for Efficient Transfer Learning of Diffusion Models](../../AAAI2026/image_generation/dogfit_domain-guided_fine-tuning_for_efficient_transfer_learning_of_diffusion_mo.md)
+- [\[CVPR 2026\] RegionRoute: Regional Style Transfer with Diffusion Model](../../CVPR2026/image_generation/regionroute_regional_style_transfer_with_diffusion_model.md)
+
+</div>
+
+<!-- RELATED:END -->

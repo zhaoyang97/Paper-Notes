@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] FeVOS: Foresight Expression Video Object Segmentation
+description: >-
+  [ECCV 2026][语义分割][视频目标分割] 提出FeVOS（Foresight Expression Video Object Segmentation）任务——根据观察帧中的视觉线索预测未来事件并分割相关目标，构建包含968视频和14525条预测性表达的数据集并附带2904条合成思维链标注，设计FeVOS-R1两阶段训练框架（CoT监督微调冷启动 + GRPO强化学习纯IoU奖励精炼推理），在FeVOS上达到42.3 J&F，较微调Sa2VA基线提升6.5个点，同时在ReVOS（60.3）和MeViS（49.5）上展现出强零样本泛化能力。
+tags:
+  - "ECCV 2026"
+  - "语义分割"
+  - "视频目标分割"
+  - "预测推理"
+  - "指代表达"
+  - "强化学习"
+  - "思维链"
+---
+
 # FeVOS: Foresight Expression Video Object Segmentation
 
 **会议**: ECCV 2026  
@@ -150,3 +165,19 @@ $$\mathcal{J}(\theta) = \mathbb{E}_G\left[\frac{1}{|G|}\sum_{i\in G}\left(\min\l
 - 实验充分度: ⭐⭐⭐⭐☆ 主实验覆盖8个零样本基线和2个微调基线，泛化实验覆盖ReVOS和MeViS两个基准，消融实验系统拆解了训练阶段和奖励设计两个关键变量。缺少对CoT标注质量的独立评估（如人工评审准确率）和对不同CoT生成策略（如不同MLLM、不同提示方式）的对比。
 - 写作质量: ⭐⭐⭐⭐☆ 问题动机阐述清晰，图1（任务对比）和图2（CoT示例）非常直观地展示了预测性vs观察性推理的区别。数据构建管线和两阶段训练图示有助于理解。部分表格排版可以优化。
 - 价值: ⭐⭐⭐⭐⭐ 预测性视频理解是通往主动智能（proactive intelligence）的关键一步。该工作不仅提供了一个高质量基准，还展示了思维链推理+RL在这个方向上的有效性，为后续工作（如机器人规划中的预测性感知、自动驾驶中的意图预测、具身智能中的动作前预判等）开辟了明确的研究路径。42.3 J&F的上限也意味着大量提升空间，有望吸引社区跟进。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Efficient Video Object Segmentation and Tracking with Recurrent Dynamic Submodel](../../CVPR2026/segmentation/efficient_video_object_segmentation_and_tracking_with_recurrent_dynamic_submodel.md)
+- [\[ICLR 2026\] Advancing Complex Video Object Segmentation via Progressive Concept Construction](../../ICLR2026/segmentation/advancing_complex_video_object_segmentation_via_progressive_concept_construction.md)
+- [\[ICCV 2025\] Latent Expression Generation for Referring Image Segmentation and Grounding](../../ICCV2025/segmentation/latent_expression_generation_for_referring_image_segmentation_and_grounding.md)
+- [\[ECCV 2024\] ActionVOS: Actions as Prompts for Video Object Segmentation](../../ECCV2024/segmentation/actionvos_actions_as_prompts_for_video_object_segmentation.md)
+- [\[CVPR 2025\] M3-VOS: Multi-Phase, Multi-Transition, and Multi-Scenery Video Object Segmentation](../../CVPR2025/segmentation/m3-vos_multi-phase_multi-transition_and_multi-scenery_video_object_segmentation.md)
+
+</div>
+
+<!-- RELATED:END -->

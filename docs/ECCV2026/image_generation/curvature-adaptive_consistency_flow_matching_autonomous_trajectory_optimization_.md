@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Curvature-Adaptive Consistency Flow Matching: Autonomous Trajectory Optimization via Reinforcement Learning
+description: >-
+  [ECCV 2026][图像生成][一致性蒸馏] CACFM 将一致性蒸馏重新建模为动态决策过程，用轻量 RL agent 自动探测 PF-ODE 轨迹上的高曲率瓶颈段并优先训练，结合 Flow 适配的 DMD 和对抗一致性损失，在 FLUX 和 SDXL 上以 4 步推理达到 SOTA，FID 比 FLUX-schnell 低 2 个点以上。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "一致性蒸馏"
+  - "流匹配"
+  - "强化学习"
+  - "轨迹优化"
+  - "课程学习"
+---
+
 # Curvature-Adaptive Consistency Flow Matching: Autonomous Trajectory Optimization via Reinforcement Learning
 
 **会议**: ECCV 2026  
@@ -150,3 +165,19 @@ SDXL 上同样全步数 SOTA，4 步 FID 比最强的 PCM 低 1.97。值得注�
 - 实验充分度: ⭐⭐⭐⭐⭐ 双 backbone（FLUX + SDXL）、多步数（4/8/16）、多指标（FID + HPS + Aesthetic + PickScore）、wall-clock 效率分析、RL 策略可视化（难度分布 + 课程涌现热力图）、消融 + 采样策略对比（Loss-Aware / MAB baseline），附录还补充了 M 敏感性和 Q-learning 收敛性分析。
 - 写作质量: ⭐⭐⭐⭐ 核心 insight（U 形难度 vs Logit-Normal 钟形）贯穿全文，Figure 6 的策略可视化很有说服力。DMD score 推导较技术化但论证完备。不足是部分竞争方法的 FID 在不同表中差异较大（如 SDXL 上 Turbo 的 16 步 FID 达 77），未做充分讨论。
 - 价值: ⭐⭐⭐⭐⭐ 「自适应训练调度」的思路有很强的可迁移性——任何有离散阶段选择和动态难度变化的学习过程（多任务学习、课程学习、RLHF multi-stage training）都可能受益。方法本身计算开销极小，实用性强。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data](../../NeurIPS2025/image_generation/composite_flow_matching_for_reinforcement_learning_with_shifted-dynamics_data.md)
+- [\[ICML 2025\] Multidimensional Adaptive Coefficient for Inference Trajectory Optimization in Flow and Diffusion](../../ICML2025/image_generation/multidimensional_adaptive_coefficient_for_inference_trajectory_optimization_in_f.md)
+- [\[ECCV 2026\] SONIC: Spectral Optimization of Noise for Inpainting with Consistency](sonic_spectral_optimization_of_noise_for_inpainting_with_consistency.md)
+- [\[ICLR 2026\] Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning](../../ICLR2026/image_generation/flow_matching_with_injected_noise_for_offline-to-online_reinforcement_learning.md)
+- [\[ECCV 2026\] Edit in 2D, Verify in 3D: Reinforcement Learning for Multi-view Consistent Scene Editing](edit_in_2d_verify_in_3d_reinforcement_learning_for_multi-view_consistent_scene_e.md)
+
+</div>
+
+<!-- RELATED:END -->

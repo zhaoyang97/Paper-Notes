@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Generation
+description: >-
+  [ECCV 2026][视频生成][统一视频生成] Lumos-Nexus 提出一种训练高效的两阶段统一视频生成框架：训练时仅微调轻量生成器吸收 VLM 语义，推理时通过统一渐进频率桥接（UPFB）将生成责任从轻量生成器逐步移交给大容量预训练生成器，在共享同质潜空间中实现粗到细的视频合成，兼顾推理驱动的语义准确性与高保真视觉质量。
+tags:
+  - "ECCV 2026"
+  - "视频生成"
+  - "统一视频生成"
+  - "频率桥接"
+  - "同质潜空间"
+  - "推理驱动生成"
+  - "训练高效"
+---
+
 # Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Generation
 
 **会议**: ECCV 2026  
@@ -176,3 +191,19 @@ RMS 对齐带来的提升稳定但幅度较小（Total +0.05），主要作用�
 - 实验充分度: ⭐⭐⭐⭐⭐ 实验设计非常充分：VBench + VR-Bench + GenEval 三个 benchmark、消融覆盖所有超参数（$\gamma_w$、带宽、RMS、直接相加对比）、直接升级 14B 骨干做容量控制实验、换 Wan2.2 验证扩展性、换评判模型验证鲁棒性、人类评估验证一致性、MMD 量化潜空间对齐程度、推理/训练效率对比——几乎覆盖了所有合理的质疑角度。
 - 写作质量: ⭐⭐⭐⭐ 方法部分逻辑清晰，公式严谨完整，消融分析有深度（特别是区分了模型容量贡献和桥接机制贡献）。但 VR-Bench 的 8 个维度描述偏抽象，缺少具体的 prompt 示例让读者直观感受评测粒度。
 - 价值: ⭐⭐⭐⭐ 在统一视频生成这一竞争激烈的方向上，提供了一个实用性强、训练成本低的方案。VR-Bench 填补了推理驱动视频生成评测的空白，有成为社区标准基准的潜力。方法本身的可迁移性（扩展到任何同质潜空间的模型对）增加了其实践影响力。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](../../ICLR2026/video_generation/lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)
+- [\[ICML 2026\] LuVe: Latent-Cascaded Ultra-High-Resolution Video Generation with Dual Frequency Experts](../../ICML2026/video_generation/luve_latent-cascaded_ultra-high-resolution_video_generation_with_dual_frequency_.md)
+- [\[CVPR 2026\] AdapTok: Learning Adaptive and Temporally Causal Video Tokenization in a 1D Latent Space](../../CVPR2026/video_generation/adaptok_learning_adaptive_and_temporally_causal_video_tokenization_in_a_1d_laten.md)
+- [\[ECCV 2026\] AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation](avtok_1d_unified_tokenization_for_holistic_audio-video_generation.md)
+- [\[ECCV 2026\] MMControl: Unified Multi-Modal Control for Joint Audio-Video Generation](mmcontrol_unified_multi-modal_control_for_joint_audio-video_generation.md)
+
+</div>
+
+<!-- RELATED:END -->

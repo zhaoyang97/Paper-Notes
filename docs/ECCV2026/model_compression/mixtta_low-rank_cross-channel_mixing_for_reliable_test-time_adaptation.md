@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] MixTTA: Low-Rank Cross-Channel Mixing for Reliable Test-Time Adaptation
+description: >-
+  [ECCV 2026][模型压缩][测试时自适应] MixTTA 在归一化层的逐通道仿射变换基础上，插入一个低秩残差跨通道混合模块，使测试时自适应（TTA）能够纠正分布偏移引起的通道间相关结构变化，配合解耦投影和谱投影两个正则手段防止对角泄露与秩一坍缩，在标准与 wild TTA 场景下即插即用地提升 Tent / EATA / SAR / DeYO / ReCAP 五大基线的精度和稳定性。
+tags:
+  - "ECCV 2026"
+  - "模型压缩"
+  - "测试时自适应"
+  - "低秩分解"
+  - "跨通道混合"
+  - "分布偏移"
+  - "归一化层"
+---
+
 # MixTTA: Low-Rank Cross-Channel Mixing for Reliable Test-Time Adaptation
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.28142](https://arxiv.org/abs/2606.28142)  
-**代码**: https://github.com/delta6189/MixTTA  
+**代码**: [https://github.com/delta6189/MixTTA](https://github.com/delta6189/MixTTA)  
 **领域**: 模型压缩 / 测试时自适应  
 **关键词**: 测试时自适应, 低秩分解, 跨通道混合, 分布偏移, 归一化层
 
@@ -135,3 +150,19 @@ r=4 在五个基线上同时达到最优，说明适度的低秩足以捕获主�
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 5 个基线 x 4 种场景 x 两个数据集，消融覆盖秩敏感性、DP/SP 各自贡献、参数开销、层间相关性分析、谱结构分析，非常扎实
 - 写作质量: ⭐⭐⭐⭐☆ 动机（相关距离分析）→ 方法（三个组件层层递进）→ 实验（主表 + wild + 消融 + 分析）逻辑清晰，梯度动力学分析解释 rank-1 坍缩的形成机制尤为出彩
 - 价值: ⭐⭐⭐⭐☆ 即插即用、所有基线上一致提升、4% 运行时开销，实用性强；打开 TTA 参数化结构设计的新方向，后续工作可能围绕"归一化层内还能做什么结构化变换"展开
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Cross-Architecture Adaptation: Cloud-Edge Continual Test-Time Adaptation with Dynamic Sampling and Heterogeneous Distillation](../../CVPR2026/model_compression/cross-architecture_adaptation_cloud-edge_continual_test-time_adaptation_with_dyn.md)
+- [\[ECCV 2026\] Distill Once, Adapt Life-Long: Exploring Dataset Distillation for Continual Test-Time Adaptation](distill_once_adapt_life-long_exploring_dataset_distillation_for_continual_test-t.md)
+- [\[CVPR 2026\] Back to Source: Open-Set Continual Test-Time Adaptation via Domain Compensation](../../CVPR2026/model_compression/back_to_source_open-set_continual_test-time_adaptation_via_domain_compensation.md)
+- [\[CVPR 2026\] FOZO: Forward-Only Zeroth-Order Prompt Optimization for Test-Time Adaptation](../../CVPR2026/model_compression/fozo_forward-only_zeroth-order_prompt_optimization_for_test-time_adaptation.md)
+- [\[NeurIPS 2025\] Mingle: Mixture of Null-Space Gated Low-Rank Experts for Test-Time Continual Model Merging](../../NeurIPS2025/model_compression/mingle_mixture_of_null-space_gated_low-rank_experts_for_test-time_continual_mode.md)
+
+</div>
+
+<!-- RELATED:END -->

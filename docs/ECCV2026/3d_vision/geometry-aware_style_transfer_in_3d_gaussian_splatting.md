@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Geometry-Aware Style Transfer in 3D Gaussian Splatting
+description: >-
+  [ECCV 2026][3D视觉][3D 高斯泼溅] 本文提出一种几何感知的 3DGS 风格迁移框架，通过解耦优化交替更新颜色和几何参数，并引入多模态（RGB + 深度 + 边缘）对比特征匹配损失 GCFM 来引导风格结构和几何纹理的迁移，在风格保真度和多视图一致性上显著优于现有 3DGS 风格迁移方法。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D 高斯泼溅"
+  - "风格迁移"
+  - "解耦优化"
+  - "对比学习"
+  - "几何感知"
+---
+
 # Geometry-Aware Style Transfer in 3D Gaussian Splatting
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.24144](https://arxiv.org/abs/2606.24144)  
-**代码**: https://github.com/oweixx/gast  
+**代码**: [https://github.com/oweixx/gast](https://github.com/oweixx/gast)  
 **领域**: 3D 视觉  
 **关键词**: 3D 高斯泼溅, 风格迁移, 解耦优化, 对比学习, 几何感知
 
@@ -157,3 +172,19 @@ $$\mathcal{L} = \lambda_{\text{GC}} \mathcal{L}_{\text{GC}} + \lambda_{\text{con
 - 实验充分度: ⭐⭐⭐⭐⭐ 72 组场景-风格组合、5 个 baselines、SIFID + 多视图一致性 + 用户研究 + 推理时间 + GCFM 消融 + 优化策略消融 + 更新比例消融 + 超参敏感性，覆盖全面且深入。
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，Fig. 3 联合 vs 解耦的可视化对比非常直观地说明了核心动机。supplementary 丰富（算法伪代码 + 逐场景效率 + 用户研究细节 + 额外定性对比）。部分公式符号偏多但可读性尚可。
 - 价值: ⭐⭐⭐⭐ 打开 3DGS 几何风格化这个被社区回避的方向，为后续工作（如可控几何风格化、text-to-3D 几何引导）提供了扎实的 baseline 和技术路线。代码已开源，实用性强。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] GT2-GS: Geometry-aware Texture Transfer for Gaussian Splatting](../../AAAI2026/3d_vision/gt2-gs_geometry-aware_texture_transfer_for_gaussian_splatting.md)
+- [\[ICCV 2025\] Tune-Your-Style: Intensity-Tunable 3D Style Transfer with Gaussian Splatting](../../ICCV2025/3d_vision/tune-your-style_intensity-tunable_3d_style_transfer_with_gaussian_splatting.md)
+- [\[NeurIPS 2025\] CLIPGaussian: Universal and Multimodal Style Transfer Based on Gaussian Splatting](../../NeurIPS2025/3d_vision/clipgaussian_universal_and_multimodal_style_transfer_based_on_gaussian_splatting.md)
+- [\[ECCV 2026\] DefenseSplat: Enhancing the Robustness of 3D Gaussian Splatting via Frequency-Aware Filtering](defensesplat_enhancing_the_robustness_of_3d_gaussian_splatting_via_frequency-awa.md)
+- [\[ECCV 2026\] Capacity-Controlled Multi-View Stylization of 3D Gaussian Splatting](capacity-controlled_multi-view_stylization_of_3d_gaussian_splatting.md)
+
+</div>
+
+<!-- RELATED:END -->

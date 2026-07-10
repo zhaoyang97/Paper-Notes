@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] SciIR: A Large-scale Training Dataset and Benchmark for Scientific Image Reasoning Generation
+description: >-
+  [ECCV 2026][VLM Reasoning][科学图像生成] 本文以皮尔士符号学三分法（Icon/Index/Symbol）为理论框架，构建了 SciIR-82k（80k+ 科学图文对 + 逆向推理链标注）和 SciIR-Bench（原子检查表驱动的细粒度评估基准），并通过微调得到 Qwen-Image-SciIR，将 SciIR-Bench 最终得分从 35% 提升至 43%，系统性地揭示了当前 T2I 模型在科学推理上的严重缺陷。
+tags:
+  - "ECCV 2026"
+  - "VLM Reasoning"
+  - "科学图像生成"
+  - "符号学三分法"
+  - "推理链"
+  - "原子检查表"
+  - "基准测试"
+---
+
 # SciIR: A Large-scale Training Dataset and Benchmark for Scientific Image Reasoning Generation
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.30124](https://arxiv.org/abs/2606.30124)  
-**代码**: https://github.com/MAIR-Lab-HUST/SciIR (有)  
+**代码**: [https://github.com/MAIR-Lab-HUST/SciIR](https://github.com/MAIR-Lab-HUST/SciIR) (有)  
 **领域**: 多模态VLM / 图像生成  
 **关键词**: 科学图像生成, 符号学三分法, 推理链, 原子检查表, 基准测试  
 
@@ -143,3 +158,19 @@ Qwen-Image-SciIR 采用两阶段 LoRA 微调，显式解耦推理与生成。推
 - 实验充分度: ⭐⭐⭐⭐⭐ 12 个模型的系统对比、消融实验、评估稳定性分析（换 judge/换标准/换措辞）、human correlation、human validation of annotations，覆盖非常全面
 - 写作质量: ⭐⭐⭐⭐☆ 理论框架阐述清晰，实验分析有洞察（如 IR vs IF 的反直觉发现解释到位）；部分细节依赖附录且 Appendix 较长
 - 价值: ⭐⭐⭐⭐⭐ 80k+ 推理标注的科学图文对 + 一个填补空白的三维度 benchmark + 强 baseline 模型，对科学图像生成方向的推动力是实质性的；开源完整，可直接作为后续工作的标准测试平台
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] RMIR: A Benchmark Dataset for Reasoning-Intensive Multimodal Image Retrieval](../../CVPR2026/vlm_reasoning/rmir_a_benchmark_dataset_for_reasoning-intensive_multimodal_image_retrieval.md)
+- [\[ICLR 2026\] VisualPRM400K: An Effective Dataset for Training Multimodal Process Reward Models](../../ICLR2026/vlm_reasoning/visualprm400k_an_effective_dataset_for_training_multimodal_process_reward_models.md)
+- [\[ECCV 2026\] ScAle: Attention Head Scaling as a Minimal Adapter for Spatial Reasoning in Vision–Language Models](scale_attention_head_scaling_as_a_minimal_adapter_for_spatial_reasoning_in_visio.md)
+- [\[ACL 2026\] Decoding Scientific Experimental Images: The SPUR Benchmark for Perception, Understanding, and Reasoning](../../ACL2026/vlm_reasoning/decoding_scientific_experimental_images_the_spur_benchmark_for_perception_unders.md)
+- [\[ICLR 2026\] IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs](../../ICLR2026/vlm_reasoning/iv-bench_a_benchmark_for_image-grounded_video_perception_and_reasoning_in_multim.md)
+
+</div>
+
+<!-- RELATED:END -->

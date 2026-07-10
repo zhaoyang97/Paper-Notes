@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] On the Faithfulness of Post-Hoc Concept Bottleneck Models
+description: >-
+  [ECCV 2026][可解释性][事后概念瓶颈模型] 这篇论文系统分析了 post-hoc CBM 中概念投影（concept projection）的忠实性（faithfulness）问题，证明了分类器准确率不能作为瓶颈层质量的代理指标（随机投影也能达到竞争性能），识别出两个导致不忠实的根本原因——辅助数据集的协变量偏移和 VLM 代理标签的系统性错误——并提出了对应的诊断指标（$\mathcal{H}\Delta\mathcal{H}$-散度 和 误差-激活相关性）。
+tags:
+  - "ECCV 2026"
+  - "可解释性"
+  - "事后概念瓶颈模型"
+  - "概念忠实性"
+  - "协变量偏移"
+  - "代理标签噪声"
+  - "可解释AI"
+---
+
 # On the Faithfulness of Post-Hoc Concept Bottleneck Models
 
 **会议**: ECCV 2026  
@@ -119,3 +134,19 @@ $\hat{d}_{\mathcal{H}\Delta\mathcal{H}}$ 估计值与实际跨域泛化误差的
 - 实验充分度: ⭐⭐⭐⭐ (Elements+CUB+CIFAR 三维度验证，但真值概念仅在 Elements 上可用)
 - 写作质量: ⭐⭐⭐⭐⭐ (论证链条清晰，从"准确率不够" → "为什么不够"→"两种不忠实机制"→"诊断指标"一气呵成)
 - 价值: ⭐⭐⭐⭐⭐ (对 post-hoc CBM 领域的评估实践有直接指导意义，提出的诊断指标可立即被社区采用)
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations](../../AAAI2026/interpretability/concepts_from_representations_post-hoc_concept_bottleneck_models_via_sparse_deco.md)
+- [\[ICLR 2026\] There Was Never a Bottleneck in Concept Bottleneck Models](../../ICLR2026/interpretability/there_was_never_a_bottleneck_in_concept_bottleneck_models.md)
+- [\[AAAI 2026\] Partially Shared Concept Bottleneck Models](../../AAAI2026/interpretability/partially_shared_concept_bottleneck_models.md)
+- [\[CVPR 2026\] Measuring the (Un)Faithfulness of Concept-Based Explanations](../../CVPR2026/interpretability/measuring_the_unfaithfulness_of_concept-based_explanations.md)
+- [\[CVPR 2026\] Rethinking Concept Bottleneck Models: From Pitfalls to Solutions](../../CVPR2026/interpretability/rethinking_concept_bottleneck_models_from_pitfalls_to_solutions.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Physics Question Scene Graph: Fine-grained Evaluation of Physical Plausibility in Text-to-Video Generation
+description: >-
+  [ECCV 2026][视频生成][物理合理性评估] PQSG 将视频物理合理性评估分解为三层层次化问题图（Object -> Action -> Physics），由 VLM 自动生成带依赖关系的问题并逐节点回答，在 FinePhyEval 数据集上实现了比现有指标更高的人类判断相关性，且能精确定位视频在哪一维度（对象/动作/物理）违反物理规律。
+tags:
+  - "ECCV 2026"
+  - "视频生成"
+  - "物理合理性评估"
+  - "场景图"
+  - "细粒度评估"
+  - "文本到视频生成"
+  - "VLM评估"
+---
+
 # Physics Question Scene Graph: Fine-grained Evaluation of Physical Plausibility in Text-to-Video Generation
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.25306](https://arxiv.org/abs/2606.25306)  
-**代码**: https://github.com/atinpothiraj/pqsg  
+**代码**: [https://github.com/atinpothiraj/pqsg](https://github.com/atinpothiraj/pqsg)  
 **领域**: 视频生成  
 **关键词**: 物理合理性评估, 场景图, 细粒度评估, 文本到视频生成, VLM评估  
 
@@ -131,3 +146,19 @@ PQSG 在所有三个相关系数上均优于现有方法。值得注意的是，
 - 实验充分度: 四颗星——人类判断相关性、多模型对比、消融实验、外部数据集泛化、子任务（QG/QA）独立评估、迭代优化实验，六组实验覆盖全面；扣一星在于 Physics 类别分布不均且未对更多开源 VLM 做系统对比
 - 写作质量: 四颗星——动机链条清晰（为什么需要细粒度 -> 为什么之前没有 -> 为什么现在能做），方法描述结构良好，每个设计选择都有对应的消融验证；Figure 2 的运行示例非常直观
 - 价值: 四颗星——对视频生成领域的评估实践有直接指导意义，依赖图+层次化分解的设计模式可迁移到其他生成任务的评估（图像编辑、3D 生成、语音合成等）；FinePhyEval 本身也有独立的数据集价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICCV 2025\] ETVA: Evaluation of Text-to-Video Alignment via Fine-Grained Question Generation and Answering](../../ICCV2025/video_generation/etva_evaluation_of_text-to-video_alignment_via_fine-grained_question_generation_.md)
+- [\[ECCV 2026\] PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation](phygdpo_physics-aware_groupwise_direct_preference_optimization_for_physically_co.md)
+- [\[ICLR 2026\] $PhyWorldBench$: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models](../../ICLR2026/video_generation/phyworldbench_a_comprehensive_evaluation_of_physical_realism_in_text-to-video_mo.md)
+- [\[ECCV 2026\] Your Data Manifold is Secretly a Reward Model: Shell-LCC for Text-to-Video Generation](your_data_manifold_is_secretly_a_reward_model_shell-lcc_for_text-to-video_genera.md)
+- [\[ECCV 2026\] PhysRAG: Enhancing Physics-Awareness in Video Generation via Retrieval-Augmented Generation](physrag_enhancing_physics-awareness_in_video_generation_via_retrieval-augmented_.md)
+
+</div>
+
+<!-- RELATED:END -->

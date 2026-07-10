@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Render-FM: Feedforward Model for Real-time Photorealistic Volumetric Rendering
+description: >-
+  [ECCV 2026][医学图像][体积渲染] Render-FM 提出一个基于 nnU-Net 风格 3D U-Net 的前馈模型，在单次 2.8 秒前向传播中直接从 CT 体数据回归 6D 高斯泼溅（6DGS）参数，消除逐扫描优化瓶颈（约 500 倍加速），并通过解剖引导初始化（AGP）将分割掩码和传递函数作为结构与外观先验，桥接自然场景重建与医学体积渲染的领域鸿沟，支持实时交互渲染（328+ FPS）和零额外开销的器官组合可视化。
+tags:
+  - "ECCV 2026"
+  - "医学图像"
+  - "体积渲染"
+  - "6D高斯泼溅"
+  - "前馈模型"
+  - "CT可视化"
+  - "解剖引导初始化"
+---
+
 # Render-FM: Feedforward Model for Real-time Photorealistic Volumetric Rendering
 
 **会议**: ECCV 2026  
@@ -148,3 +163,19 @@ $$\mathcal{L} = \lambda_{L1} \mathcal{L}_{L1} + \lambda_{\text{SSIM}} \mathcal{L
 - 实验充分度: ⭐⭐⭐⭐⭐ 三数据集 × 三条件 × 四方法的全矩阵对比设计严密；消融实验明确证实 AGP 的必要性（去掉即不收敛）；附录包含额外跨数据集验证和完整传递函数定义，可复现性高
 - 写作质量: ⭐⭐⭐⭐ 方法部分逻辑清晰，6DGS 的协方差切片公式和 AGP 的先验-残差融合都给出了精确的数学定义；定性图有效展示了噪声伪影差异；部分细节（如输出半分辨率的原因、37 通道的具体排列）在正文中未充分展开
 - 价值: ⭐⭐⭐⭐⭐ 将体积渲染准备时间从小时级降至秒级且维持逼真质量，对临床实时 3D 可视化有直接实用价值；前馈 + 可选微调的两阶段设计灵活适配不同临床场景；器官组合可视化的零额外开销特性是临床工作流的独特增益
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] Generalizable, Real-Time Neural Decoding with Hybrid State-Space Models](../../NeurIPS2025/medical_imaging/generalizable_real-time_neural_decoding_with_hybrid_state-space_models.md)
+- [\[AAAI 2026\] PulseMind: A Multi-Modal Medical Model for Real-World Clinical Diagnosis](../../AAAI2026/medical_imaging/pulsemind_a_multi-modal_medical_model_for_real-world_clinical_diagnosis.md)
+- [\[ECCV 2026\] 3D Field of Junctions: A Noise-Robust, Training-Free Structural Prior for Volumetric Inverse Problems](3d_field_of_junctions_a_noise-robust_training-free_structural_prior_for_volumetr.md)
+- [\[ICLR 2026\] MedGMAE: Gaussian Masked Autoencoders for Medical Volumetric Representation Learning](../../ICLR2026/medical_imaging/medgmae_gaussian_masked_autoencoders_for_medical_volumetric_representation_learn.md)
+- [\[ECCV 2026\] BrainFIBRE: A Foundation Model via Information Decomposition for Brain Microstructure](brainfibre_a_foundation_model_via_information_decomposition_for_brain_microstruc.md)
+
+</div>
+
+<!-- RELATED:END -->

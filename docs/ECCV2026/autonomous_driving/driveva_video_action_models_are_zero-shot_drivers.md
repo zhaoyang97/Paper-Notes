@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] DriveVA: Video Action Models are Zero-Shot Drivers
+description: >-
+  [ECCV 2026][自动驾驶][视频动作模型] DriveVA 提出一种统一的视频-动作世界模型，将未来视频预测与轨迹规划放在同一个 DiT 扩散生成过程中联合解码，利用大规模视频生成模型（Wan2.2-TI2V-5B）的时空先验实现强零样本跨域泛化，在 NAVSIM 上达到 90.9 PDMS，并在 nuScenes 和 Bench2Drive 上分别降低 78.9% 和 52.5% 的平均 L2 误差与 83.3% 和 52.4% 的碰撞率。
+tags:
+  - "ECCV 2026"
+  - "自动驾驶"
+  - "视频动作模型"
+  - "端到端自动驾驶"
+  - "世界模型"
+  - "零样本泛化"
+  - "流匹配"
+---
+
 # DriveVA: Video Action Models are Zero-Shot Drivers
 
 **会议**: ECCV 2026  
@@ -144,3 +159,19 @@ $$\mathcal{L}_{\text{FM}} = \mathbb{E}_{l, s, \mathbf{Y}_0^{(l)}, \boldsymbol{\e
 - 实验充分度: ⭐⭐⭐⭐⭐ NAVSIM + nuScenes + Bench2Drive 三基准跨域零样本评测、多维度消融（视频监督/续写/Carla 混合/采样步数/预测帧数/训练策略/模型规模/掩码策略）、DPVO 外部一致性验证，实验设计全面且有说服力。
 - 写作质量: ⭐⭐⭐⭐⭐ 问题动机清晰、方法描述翔实、实验逻辑严密、图表丰富，矛盾驱动型叙事让读者对"为什么这样做"有清晰的理解。
 - 价值: ⭐⭐⭐⭐⭐ 视频预测不是辅助输出而是规划锚定这一核心发现、极低采样步数使生成式规划实用化、强零样本泛化能力，对自动驾驶世界模型方向有重要推动价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation](frozendrive_zero-shot_text-guided_driving_scene_generation_and_data_augmentation.md)
+- [\[CVPR 2025\] Zero-Shot 4D Lidar Panoptic Segmentation](../../CVPR2025/autonomous_driving/zero-shot_4d_lidar_panoptic_segmentation.md)
+- [\[ECCV 2026\] OmniNWM: Omniscient Driving Navigation World Models](omninwm_omniscient_driving_navigation_world_models.md)
+- [\[ICLR 2026\] Discrete Diffusion for Reflective Vision-Language-Action Models in Autonomous Driving](../../ICLR2026/autonomous_driving/discrete_diffusion_for_reflective_vision-language-action_models_in_autonomous_dr.md)
+- [\[ECCV 2026\] DriveWeaver: Point-Conditioned Video Inpainting for Controllable Vehicle Insertion in Autonomous Driving Simulation](driveweaver_point-conditioned_video_inpainting_for_controllable_vehicle_insertio.md)
+
+</div>
+
+<!-- RELATED:END -->

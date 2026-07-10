@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] 3D Field of Junctions: A Noise-Robust, Training-Free Structural Prior for Volumetric Inverse Problems
+description: >-
+  [ECCV 2026][医学图像][3D去噪] 提出 3D Field of Junctions (3D FoJ)，将 2D FoJ (ICCV 2021) 的显式几何参数化推广到三维体积——用三平面交于顶点的 junction 对每个 3D patch 建模，逐 patch 离散坐标下降初始化后全局联合梯度精炼，无需任何训练数据即可在极低 SNR 下保留锐利边角，并可作即插即用的近端正则项嵌入任意体积逆问题（低剂量 CT、冷冻电镜、点云去噪均验证有效）。
+tags:
+  - "ECCV 2026"
+  - "医学图像"
+  - "3D去噪"
+  - "体积重建"
+  - "结构先验"
+  - "无训练优化"
+  - "逆问题"
+---
+
 # 3D Field of Junctions: A Noise-Robust, Training-Free Structural Prior for Volumetric Inverse Problems
 
 **会议**: ECCV 2026  
 **arXiv**: [2603.02149](https://arxiv.org/abs/2603.02149)  
-**代码**: https://github.com/voilalab/3D-Field-of-Junctions  
+**代码**: [https://github.com/voilalab/3D-Field-of-Junctions](https://github.com/voilalab/3D-Field-of-Junctions)  
 **领域**: 医学图像 / 3D视觉 / 图像恢复  
 **关键词**: 3D去噪, 体积重建, 结构先验, 无训练优化, 逆问题
 
@@ -129,3 +144,19 @@ junction 优化需要对区域归属做梯度反传，但"某体素属于第 j �
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖三类截然不同的成像任务（CT 重建、冷冻电镜、点云去噪），含合成数据+真实数据，噪声水平跨度大，对比方法与评估指标完备，消融实验细致（patch/stride/区域数/迭代次数/曲率），并给出了 runtime 和 memory 的实际测量。
 - 写作质量: ⭐⭐⭐⭐☆ 方法描述清晰，从局部参数化到全局目标到优化算法再到逆问题嵌入逐层展开，逻辑连贯；大量定性切片对比增强说服力。部分公式编号与正文描述的对应关系可更明确（如 $M=3$ 时式 7 只激活 3 个区域的动机解释略简）。
 - 价值: ⭐⭐⭐⭐☆ 为"无训练体积去噪"提供了一个新的强 baseline，尤其适合训练数据稀缺的医学和科学成像场景；即插即用的近端接口降低了方法复用门槛。主要价值不在绝对性能（P1000 下 PSNR 被 3D-TV 微弱超越），而在于证明了"显式几何先验在极低 SNR 下可以匹敌甚至超越神经网络先验"这一方法论价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Efficient Unrolled Networks for Large-Scale 3D Inverse Problems](../../CVPR2026/medical_imaging/efficient_unrolled_networks_for_large-scale_3d_inverse_problems.md)
+- [\[ICLR 2026\] Distributional Consistency Loss: Beyond Pointwise Data Terms in Inverse Problems](../../ICLR2026/medical_imaging/distributional_consistency_loss_beyond_pointwise_data_terms_in_inverse_problems.md)
+- [\[CVPR 2026\] KLIP: localized distribution shift detection via KL-divergence with diffusion priors in Inverse Problems](../../CVPR2026/medical_imaging/klip_localized_distribution_shift_detection_via_kl-divergence_with_diffusion_pri.md)
+- [\[ECCV 2026\] Render-FM: Feedforward Model for Real-time Photorealistic Volumetric Rendering](render-fm_feedforward_model_for_real-time_photorealistic_volumetric_rendering.md)
+- [\[ECCV 2026\] Dual-Prior Guided Null-Space Learning with Mixture-of-Splines for Arbitrary Medical Slice Super-Resolution](dual-prior_guided_null-space_learning_with_mixture-of-splines_for_arbitrary_medi.md)
+
+</div>
+
+<!-- RELATED:END -->

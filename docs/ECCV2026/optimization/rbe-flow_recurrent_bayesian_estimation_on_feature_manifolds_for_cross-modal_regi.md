@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] RBE-Flow: Recurrent Bayesian Estimation on Feature Manifolds for Cross-Modal Registration
+description: >-
+  [ECCV 2026][优化/理论][跨模态配准] 将跨模态密集光流估计重新建模为特征流形上的闭环递归贝叶斯状态估计问题，通过 RMO（递归流形优化）生成带不确定性的流观测、UAPU（不确定性自适应概率更新）用 Sigma 点投影进行 MMSE 最优贝叶斯融合并将后验协方差反馈调节下一次优化，在 OSdataset、WHU-OPT-SAR 和 RoadScene 三个跨模态数据集上一致达到 SOTA，AEPE 相比此前最佳方法降低 45.4%。
+tags:
+  - "ECCV 2026"
+  - "优化/理论"
+  - "跨模态配准"
+  - "贝叶斯估计"
+  - "光流估计"
+  - "特征流形"
+  - "不确定性建模"
+---
+
 # RBE-Flow: Recurrent Bayesian Estimation on Feature Manifolds for Cross-Modal Registration
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.30492](https://arxiv.org/abs/2606.30492)  
-**代码**: https://github.com/NEU-Liuxuecong/RBE-Flow  
+**代码**: [https://github.com/NEU-Liuxuecong/RBE-Flow](https://github.com/NEU-Liuxuecong/RBE-Flow)  
 **领域**: 图像配准 / 多模态感知  
 **关键词**: 跨模态配准, 贝叶斯估计, 光流估计, 特征流形, 不确定性建模
 
@@ -133,3 +148,19 @@ RBE-Flow 在所有三个数据集上均达到最优 AEPE。在 OSdataset 上将 
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 3 个跨模态数据集（光学-SAR 和 RGB-IR），对比 9 个代表性方法跨越手工/稀疏/半稠密/稠密四个范式，消融实验逐步验证每个组件的贡献，且专门分析了效率（时间/内存开销）。
 - 写作质量: ⭐⭐⭐⭐ 方法论部分推导清晰，从 MFE 到 GFI 到 RMO 到 UAPU 到 Loss 的链条完整，数学定义齐备。SGCF 的设计动机和机制略有压缩，对不熟悉谱熵概念的读者可能需要额外上下文。
 - 价值: ⭐⭐⭐⭐⭐ 闭环不确定性反馈的范式不仅适用于跨模态配准，对任何需要迭代细化且在模糊区域容易出错的视觉任务（如立体匹配、多帧融合、视频目标跟踪）都有迁移潜力。Rectified NLL 的方差下界设计也是训练概率模型时防止方差崩溃的实用技巧。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Riemannian Zeroth-Order Gradient Estimation with Structure-Preserving Metrics for Geodesically Incomplete Manifolds](../../ICLR2026/optimization/riemannian_zeroth-order_gradient_estimation_with_structure-preserving_metrics_fo.md)
+- [\[ICLR 2026\] Strongly Convex Sets in Riemannian Manifolds](../../ICLR2026/optimization/strongly_convex_sets_in_riemannian_manifolds.md)
+- [\[ICML 2025\] Random Feature Representation Boosting](../../ICML2025/optimization/random_feature_representation_boosting.md)
+- [\[ICLR 2026\] Constraint Matters: Multi-Modal Representation for Reducing Mixed-Integer Linear programming](../../ICLR2026/optimization/constraint_matters_multi-modal_representation_for_reducing_mixed-integer_linear_.md)
+- [\[ICLR 2026\] Never Saddle for Reparameterized Steepest Descent as Mirror Flow](../../ICLR2026/optimization/never_saddle_for_reparameterized_steepest_descent_as_mirror_flow.md)
+
+</div>
+
+<!-- RELATED:END -->

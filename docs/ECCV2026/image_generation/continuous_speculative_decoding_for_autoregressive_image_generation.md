@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Continuous Speculative Decoding for Autoregressive Image Generation
+description: >-
+  [ECCV 2026][图像生成][推测解码] 本文首次将推测解码从离散分布扩展到连续分布，通过去噪轨迹对齐（denoising trajectory alignment）提升 draft-target 接受率，再配合接受-拒绝采样（acceptance-rejection sampling）解决修正分布无解析表达式的采样难题，在 MAR、xAR、Harmon 等多个连续视觉 AR 模型上实现超过 2 倍墙钟加速且保持生成质量不变，全程无需额外训练。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "推测解码"
+  - "自回归图像生成"
+  - "扩散模型"
+  - "推理加速"
+  - "连续分布"
+---
+
 # Continuous Speculative Decoding for Autoregressive Image Generation
 
 **会议**: ECCV 2026  
@@ -167,3 +182,19 @@ Token 预填充比例的消融（MAR-H + MAR-B, $\gamma=32$, bs=256）：
 - 实验充分度: ⭐⭐⭐⭐⭐ 在 3 个模型（MAR/xAR/Harmon）、2 个分辨率（256/512）、4 种 draft 长度、多 batch size 下做了详尽墙钟和 FID/IS/CLIPScore/Geneval 评测，消融覆盖对齐、预填充、温度、CFG、DDIM、mask generation 对比等多个维度，附录还补充了 bias 理论分析和可视化热力图。
 - 写作质量: ⭐⭐⭐⭐☆ 问题定义清晰、离散/连续对比直观（Fig. 2）、理论推导完整（定理+推论均在附录给出完整证明）、算法以伪代码呈现；正文实验表格较多阅读流畅度略受影响，但整体结构合理。
 - 价值: ⭐⭐⭐⭐⭐ 连续视觉 AR 模型的推理速度是落地的关键瓶颈，本文提供的免训练 2×+ 加速方案有直接实用价值。框架对连续域自回归生成任务（图像/音频/视频/分子）有通用性，去噪轨迹对齐的「共享噪声」思路也可启发其他连续生成模型的加速研究。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Annealed Relaxation of Speculative Decoding for Faster Autoregressive Image Generation](../../AAAI2026/image_generation/annealed_relaxation_of_speculative_decoding_for_faster_autor.md)
+- [\[ICCV 2025\] Grouped Speculative Decoding for Autoregressive Image Generation](../../ICCV2025/image_generation/grouped_speculative_decoding_for_autoregressive_image_generation.md)
+- [\[CVPR 2026\] SJD-PAC: Accelerating Speculative Jacobi Decoding via Proactive Drafting and Adaptive Continuation](../../CVPR2026/image_generation/sjd-pac_accelerating_speculative_jacobi_decoding_via_proactive_drafting_and_adap.md)
+- [\[CVPR 2026\] Multi-Scale Local Speculative Decoding for Image Generation](../../CVPR2026/image_generation/multi-scale_local_speculative_decoding_for_image_generation.md)
+- [\[ICML 2026\] Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation](../../ICML2026/image_generation/speculative_coupled_decoding_for_training-free_lossless_acceleration_of_autoregr.md)
+
+</div>
+
+<!-- RELATED:END -->

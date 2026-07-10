@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] GRAFT: Geometric Refinement and Fitting Transformer for Human Scene Reconstruction
+description: >-
+  [ECCV 2026][3D视觉][人体-场景交互重建] GRAFT 是一个学习到的"人体-场景交互先验"，它将基于优化的物理合理性拟合过程"摊销"进一个前馈 Transformer 中——通过几何探针将人体-场景的相对关系编码为 24 个紧凑 token，在循环迭代中预测"交互梯度"纠正漂浮和穿透，最终以 0.2s 的前馈速度达到优化方法级别的交互质量，且可作为即插即用先验提升任何前馈方法。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "人体-场景交互重建"
+  - "几何探针"
+  - "迭代细化"
+  - "Transformer"
+  - "物理合理性"
+---
+
 # GRAFT: Geometric Refinement and Fitting Transformer for Human Scene Reconstruction
 
 **会议**: ECCV 2026  
@@ -157,3 +172,19 @@ GRAFT 在两个数据集上全面超越所有前馈基线：在 PROX-test 上 F1
 - 实验充分度: ⭐⭐⭐⭐⭐ 双数据集、多基线（优化+前馈+几何纯叠加）、消融全面（6 个设计选择 + 2 种额外损失）、用户调研 n=53、噪声鲁棒性分析、可视化丰富，实验设计相当扎实
 - 写作质量: ⭐⭐⭐⭐⭐ 结构清晰（Method 按 3.1/3.2 分步讲，Experiment 消融逻辑递进），图表质量高（Fig 2 框架图、Table 2 主结果、Table 3 消融含热力图），补充材料详尽（9 个 Appendix 含推导、算法伪代码、超参）
 - 价值: ⭐⭐⭐⭐☆ 即插即用的几何纯模式是最大实用价值——任何 HSI 方法都可零成本接入获得提升；0.2s 的速度使实时应用成为可能；但伪标签训练和刚性假设限制了当前的上限，需要有更好的训练数据才能完全释放潜力
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] FUSER: Feed-Forward Multiview 3D Registration Transformer and SE(3)$^N$ Diffusion Refinement](../../CVPR2026/3d_vision/fuser_feed-forward_multiview_3d_registration_transformer_and_se3n_diffusion_refi.md)
+- [\[CVPR 2026\] SMVRT: Implicit Human 3D Modeling Using Sparse Multi-View Volumetric Reconstruction with Transformer Fusion](../../CVPR2026/3d_vision/smvrt_implicit_human_3d_modeling.md)
+- [\[CVPR 2026\] ART: Articulated Reconstruction Transformer](../../CVPR2026/3d_vision/art_articulated_reconstruction_transformer.md)
+- [\[CVPR 2026\] VIAFormer: Voxel-Image Alignment Transformer for High-Fidelity Voxel Refinement](../../CVPR2026/3d_vision/viaformer_voxel-image_alignment_transformer_for_high-fidelity_voxel_refinement.md)
+- [\[CVPR 2026\] Complet4R: Geometric Complete 4D Reconstruction](../../CVPR2026/3d_vision/complet4r_geometric_complete_4d_reconstruction.md)
+
+</div>
+
+<!-- RELATED:END -->

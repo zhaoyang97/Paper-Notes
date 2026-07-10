@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Affogato: Open-Vocabulary Affordance Grounding with Automated Data Generation at Scale
+description: >-
+  [ECCV 2026][机器人][affordance定位] Affogato通过串联Gemma3、Molmo、MobileSAM三个基础模型构建全自动标注管线，从Objaverse的15万3D资产中生成了750K规模的开放词汇affordance热力图数据集（Affogato-750K），并设计跨模态统一架构Espresso-3D/2D验证了该数据集作为通用监督信号的有效性——预训练后在3D和2D affordance grounding基准上一致提升，尤其在unseen类别上增益最大。
+tags:
+  - "ECCV 2026"
+  - "机器人"
+  - "affordance定位"
+  - "开放词汇标注"
+  - "自动数据生成"
+  - "3D视觉理解"
+  - "具身智能"
+---
+
 # Affogato: Open-Vocabulary Affordance Grounding with Automated Data Generation at Scale
 
 **会议**: ECCV 2026  
@@ -136,3 +151,19 @@ flowchart TD
 - 实验充分度: 5/5 [3D+2D双模态、seen+unseen+跨域三设置、zero-shot+weak/1-shot/full四监督级别、多baseline+预训练增益、数据规模/留出过滤/CoT/SAM掩码尺寸/背景增强五项消融、合成→真实泛化，覆盖极其全面且附录补充了分辨率/跨域不对称/失败案例等深层分析]
 - 写作质量: 4/5 [结构清晰、图表质量高、实验分析深入，但主实验结果表格密集、附录篇幅较长（18页），阅读负担偏重]
 - 价值: 5/5 [750K规模的开放词汇affordance数据集填补了该领域的核心空白——在此之前所有数据集的总和都远不及这个量级和多样性；预训练增益跨模态跨架构一致验证了对整个embodied AI社区的实用价值，HuggingFace公开发布进一步降低了使用门槛]
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Affordance-Guided Coarse-to-Fine Exploration for Base Placement in Open-Vocabulary Mobile Manipulation](../../AAAI2026/robotics/affordance-guided_coarse-to-fine_exploration_for_base_placem.md)
+- [\[AAAI 2026\] Realistic Synthetic Household Data Generation at Scale](../../AAAI2026/robotics/realistic_synthetic_household_data_generation_at_scale.md)
+- [\[CVPR 2026\] IGen: Scalable Data Generation for Robot Learning from Open-World Images](../../CVPR2026/robotics/igen_scalable_data_generation_for_robot_learning_from_open-world_images.md)
+- [\[ECCV 2026\] MuSix: Multi-scale Mixture of World Models for Embodied Agents in Evolving Environments](empathic_robots_exploring_the_role_of-empathy_in_vision-language_action_models.md)
+- [\[ICCV 2025\] Selective Contrastive Learning for Weakly Supervised Affordance Grounding](../../ICCV2025/robotics/selective_contrastive_learning_for_weakly_supervised_affordance_grounding.md)
+
+</div>
+
+<!-- RELATED:END -->

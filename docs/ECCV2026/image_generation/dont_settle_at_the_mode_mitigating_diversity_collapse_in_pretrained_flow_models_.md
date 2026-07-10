@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance
+description: >-
+  [ECCV 2026][图像生成][流匹配模型] 本文发现预训练流匹配模型（如 FLUX）在相同条件输入下生成多样本时会出现内部 MMDiT 特征坍塌，进而导致输出多样性坍塌；提出一种免训练的推理时特征自引导（Feature Self-Guidance）机制——对 batch 内样本的中间特征做迭代分散后，再通过同一 MMDiT block 重投影回流形，以极小的推理开销显著提升生成多样性，同时保持 prompt 对齐度。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "流匹配模型"
+  - "多样性坍塌"
+  - "特征自引导"
+  - "流形正则化"
+  - "免训练推理"
+---
+
 # Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance
 
 **会议**: ECCV 2026  
@@ -145,3 +160,19 @@ $B_2$ 是多样性与对齐度的最佳平衡点。$B_1$ 多样性最高但 CLIP
 - 实验充分度: ⭐⭐⭐⭐⭐ 在 4 个模型（FLUX.1-dev, FLUX.1-Depth, FLUX.1-Kontext, FLUX.2-Klein）+ 2 个额外 T2I 模型（QwenImage, Sana1.5）+ UNet DDPM 上验证，block/timestep/$\beta$/batch size 消融完整，有计算分析和用户研究
 - 写作质量: ⭐⭐⭐⭐ 行文清晰，诊断实验（Fig. 2）为整个方法提供了直观动机，但附录超参表（Table C/D）的组织方式略显冗余
 - 价值: ⭐⭐⭐⭐ 实际部署价值高（即插即用、免训练、低开销），为后续研究（视频/3D/分子生成的多样性增强）打开了特征空间干预这一新方向
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] DiverseGRPO: Mitigating Mode Collapse in Image Generation via Diversity-Aware GRPO](../../CVPR2026/image_generation/diversegrpo_mitigating_mode_collapse_in_image_generation_via_diversity-aware_grp.md)
+- [\[ICML 2026\] Escaping Mode Collapse in LLM Generation via Geometric Regulation](../../ICML2026/image_generation/escaping_mode_collapse_in_llm_generation_via_geometric_regulation.md)
+- [\[ECCV 2026\] Semantic Browsing: Controllable Diversity for Image Generation](semantic_browsing_controllable_diversity_for_image_generation.md)
+- [\[ECCV 2026\] Rethinking Garment Conditioning in Diffusion-based Virtual Try-On: Decouple, Don't Denoise](rethinking_garment_conditioning_in_diffusion-based_virtual_try-on_decouple_dont_.md)
+- [\[ECCV 2026\] Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution](diffusion_integrated_gradients_controllable_path_generation_for_flexible_feature.md)
+
+</div>
+
+<!-- RELATED:END -->

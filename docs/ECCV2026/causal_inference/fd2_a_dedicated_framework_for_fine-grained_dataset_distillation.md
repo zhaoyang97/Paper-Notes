@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] FD$^2$: A Dedicated Framework for Fine-Grained Dataset Distillation
+description: >-
+  [ECCV 2026][因果推理][数据集蒸馏] FD$^2$ 针对现有解耦式数据集蒸馏方法在细粒度数据集上忽略了判别性局部区域的问题，通过引入反事实注意力学习（CAL）提取判别性注意力图和类别原型，并在蒸馏阶段加入细粒度特征约束和同类样本相似度约束，作为即插即用模块显著提升 SRe2L++ 和 FADRM+ 在 CUB-200-2011、FGVC-Aircraft、Stanford Cars 等细粒度数据集上的蒸馏质量，IPC=1 时最大提升 +15.1%。
+tags:
+  - "ECCV 2026"
+  - "因果推理"
+  - "数据集蒸馏"
+  - "细粒度识别"
+  - "反事实注意力学习"
+  - "解耦蒸馏"
+  - "类别原型"
+---
+
 # FD$^2$: A Dedicated Framework for Fine-Grained Dataset Distillation
 
 **会议**: ECCV 2026  
 **arXiv**: [2603.25144](https://arxiv.org/abs/2603.25144)  
-**代码**: https://github.com/Guang000/FD2  
+**代码**: [https://github.com/Guang000/FD2](https://github.com/Guang000/FD2)  
 **领域**: 数据蒸馏 / 细粒度识别  
 **关键词**: 数据集蒸馏, 细粒度识别, 反事实注意力学习, 解耦蒸馏, 类别原型
 
@@ -150,3 +165,19 @@ FD$^2$ 在三个细粒度数据集（CUB-200-2011、FGVC-Aircraft、Stanford Car
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 3 个细粒度 + 2 个通用数据集、2 个底层蒸馏方法、5 种学生架构、多组 IPC 设置，消融实验覆盖 CAL 比例、$\beta$、$N_S$、约束组合、$\lambda$、$\mathcal{L}_{\text{cls}}$ 等全部关键超参，配有 t-SNE、注意力热图、MPCS 等多维度可视化分析，补充材料还提供了理论证明和效率对比。
 - 写作质量: ⭐⭐⭐⭐ 问题动机通过 Fig.1 的定量可视化（类内离散度 + 类间距离）和图注意力热图引出，方法描述清晰且配有完整算法伪代码，补充材料的理论分析为两个约束的有效性提供了严谨的数学支持。
 - 价值: ⭐⭐⭐⭐ 细粒度数据集蒸馏是一个有意义但此前被忽视的问题，FD$^2$ 作为首个针对性框架，且设计为即插即用模块可直接增强现有解耦方法，对需要高效处理细粒度数据的实际应用场景（如物种识别、车型识别）有直接价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] FG-VCE: Towards Fine-Grained Interpretability — Counterfactual Explanations for Misclassification with Saliency Partition](../../CVPR2025/causal_inference/towards_fine-grained_interpretability_counterfactual_explanations_for_misclassif.md)
+- [\[ECCV 2024\] Distill Gold from Massive Ores: Bi-level Data Pruning towards Efficient Dataset Distillation](../../ECCV2024/causal_inference/distill_gold_from_massive_ores_bi-level_data_pruning_towards_efficient_dataset_d.md)
+- [\[ICLR 2026\] Coarse-to-Fine Learning of Dynamic Causal Structures](../../ICLR2026/causal_inference/coarse-to-fine_learning_of_dynamic_causal_structures.md)
+- [\[ICLR 2026\] Counterfactual LLM-based Framework for Measuring Rhetorical Style](../../ICLR2026/causal_inference/counterfactual_llm-based_framework_for_measuring_rhetorical_style.md)
+- [\[CVPR 2026\] A Polynomial Chaos Framework for Causal Discovery in Nonlinear Uncertain Systems](../../CVPR2026/causal_inference/a_polynomial_chaos_framework_for_causal_discovery_in_nonlinear_uncertain_systems.md)
+
+</div>
+
+<!-- RELATED:END -->

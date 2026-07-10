@@ -1,8 +1,24 @@
+---
+title: >-
+  [论文解读] Revisiting Parameter Redundancy in Vision-Language-Action Models: Insights from VLM-to-VLA Adaptation
+description: >-
+  [ECCV 2026][机器人][VLA模型] 本文重新审视VLA模型的参数冗余问题，发现现有"剪枝后微调恢复"的范式掩盖了对关键参数的误删；作者提出以VLM到VLA adaption过程中的参数变化量(ΔW)作为冗余判据，通过受控剪枝诊断实验揭示不同模块的ΔW信号具有强烈异质性，据此设计多模块联合剪枝方案，在OpenVLA和π0.5上实现12%-30%参数量缩减且无需任何后剪枝恢复即保持约90%原始性能。
+tags:
+  - "ECCV 2026"
+  - "机器人"
+  - "VLA模型"
+  - "参数冗余"
+  - "剪枝"
+  - "VLM-to-VLA adaption"
+  - "模块异质性"
+  - "无需恢复剪枝"
+---
+
 # Revisiting Parameter Redundancy in Vision-Language-Action Models: Insights from VLM-to-VLA Adaptation
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.31382](https://arxiv.org/abs/2606.31382)  
-**代码**: https://github.com/Niannnnnn/VLA_Parameter_Redundancy_VLM2VLA  
+**代码**: [https://github.com/Niannnnnn/VLA_Parameter_Redundancy_VLM2VLA](https://github.com/Niannnnnn/VLA_Parameter_Redundancy_VLM2VLA)  
 **领域**: 机器人/具身智能 / 模型压缩  
 **关键词**: VLA模型, 参数冗余, 剪枝, VLM-to-VLA adaption, 模块异质性, 无需恢复剪枝
 
@@ -157,3 +173,19 @@ DINOv2的"灵敏度反转"（Attn High-diff崩溃1.6%/FFN Low-diff崩溃0.0%）�
 - 实验充分度: ⭐⭐⭐⭐ 实验设计严谨——四个假设逐层验证、两组VLA架构交叉校验、多benchmark泛化测试(RoboTwin2.0)、与多种剪枝基线的无恢复对比。略有不足的是仅覆盖两个VLA模型对，缺少对更多架构和更大规模模型的验证。
 - 写作质量: ⭐⭐⭐⭐⭐ 逻辑链极其清晰——从现象(剪枝敏感)到质疑(恢复掩盖误删)到假设(ΔW含结构化信号)到验证(受控诊断实验)到应用(多模块联合剪枝)，四假设推进结构让读者始终知道当前在哪一步、下一步要证明什么。
 - 价值: ⭐⭐⭐⭐⭐ 发现本身(模块异质性、灵敏度反转)对VLA理解和设计有深远启发；方法论(诊断先于设计)可迁移到所有涉及adapt过程的模型压缩场景；实用价值(12-30%压缩且无需恢复)直接推动VLA在资源受限设备上的部署可行性。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models](../../ICLR2026/robotics/vlm4vla_revisiting_vision-language-models_in_vision-language-action_models.md)
+- [\[ECCV 2026\] E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes](e-vla_event-augmented_vision-language-action_model_for_dark_and_blurred_scenes.md)
+- [\[ECCV 2026\] PolicyTrim: Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models](policytrim_boosting_intrinsic_policy_efficiency_of_vision-language-action_models.md)
+- [\[CVPR 2026\] AVA-VLA: Improving Vision-Language-Action models with Active Visual Attention](../../CVPR2026/robotics/ava_vla_improving_vision_language_action_models_with_active_visual_attention.md)
+- [\[CVPR 2026\] ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models](../../CVPR2026/robotics/acot-vla_action_chain-of-thought_for_vision-language-action_models.md)
+
+</div>
+
+<!-- RELATED:END -->

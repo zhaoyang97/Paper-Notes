@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Focusing on What Matters: Saliency-Harnessing Accurate Routing for Diffusion MoE
+description: >-
+  [ECCV 2026][图像生成][Mixture-of-Experts] SharpMoE 提出一种即插即用的后训练框架，利用前一步去噪预测的干净潜变量 x̂₀ 替代噪声潜变量作为路由器输入，解决扩散 MoE 中"噪声路由"导致显著性 token 识别失败的核心问题，并辅以轨迹路由损失全局对齐累积计算分配，仅需 100K 步后训练即可显著提升多种已收敛预训练扩散 MoE 模型的生成质量。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "Mixture-of-Experts"
+  - "扩散模型"
+  - "显著性感知路由"
+  - "后训练"
+  - "视觉生成"
+---
+
 # Focusing on What Matters: Saliency-Harnessing Accurate Routing for Diffusion MoE
 
 **会议**: ECCV 2026  
@@ -107,3 +122,19 @@ SharpMoE 在所有基线（TC-DiT、EC-DiT、DiffMoE）和所有模型规模（S
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 3 种 MoE 架构 × 3 个模型规模，消融实验、鲁棒性分析、专家分配可视化齐全，但缺少文本到图像生成和更多数据集的评估
 - 写作质量: ⭐⭐⭐⭐ 问题阐述清晰，Fig. 1 和 Fig. 5 的可视化直观有说服力，动机链完整，技术细节交代清楚
 - 价值: ⭐⭐⭐⭐ 即插即用的后训练框架实用性强，100K 步即可提升已收敛模型，对工业界部署扩散 MoE 有直接参考价值；干净路由的洞察可能影响后续扩散 MoE 路由器设计
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Routing Matters in MoE: Scaling Diffusion Transformers with Explicit Routing Guidance](../../ICLR2026/image_generation/routing_matters_in_moe_scaling_diffusion_transformers_with_explicit_routing_guid.md)
+- [\[ECCV 2026\] Symbiotic-MoE: Unlocking the Synergy between Generation and Understanding](symbiotic-moe_unlocking_the_synergy_between_generation_and_understanding.md)
+- [\[ICLR 2026\] What Matters for Representation Alignment: Global Information or Spatial Structure?](../../ICLR2026/image_generation/what_matters_for_representation_alignment_global_information_or_spatial_structur.md)
+- [\[CVPR 2026\] Seeing What Matters: Visual Preference Policy Optimization for Visual Generation](../../CVPR2026/image_generation/seeing_what_matters_visual_preference_policy_optimization_for_visual_generation.md)
+- [\[ECCV 2026\] Accelerated Likelihood Maximization for Diffusion-based Versatile Content Generation](accelerated_likelihood_maximization_for_diffusion-based_versatile_content_genera.md)
+
+</div>
+
+<!-- RELATED:END -->

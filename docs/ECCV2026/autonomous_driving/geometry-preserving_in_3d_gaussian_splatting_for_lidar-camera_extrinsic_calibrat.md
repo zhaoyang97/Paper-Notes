@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Geometry-Preserving in 3D Gaussian Splatting for LiDAR-Camera Extrinsic Calibration
+description: >-
+  [ECCV 2026][自动驾驶][3D高斯泼溅] 提出 GeoP-Calib，通过稠密深度锚定（DDA，多视角 LiDAR 点云累积构建稠密深度先验）和梯度解耦（GD，阻断光度损失对高斯空间参数的反传）两条设计，缓解 3DGS 标定中的"几何衰退"问题，在 KITTI-360 和 KITTI 上平移误差显著优于现有无目标标定方法。
+tags:
+  - "ECCV 2026"
+  - "自动驾驶"
+  - "3D高斯泼溅"
+  - "激光雷达-相机外参标定"
+  - "无目标标定"
+  - "几何保持"
+  - "梯度解耦"
+---
+
 # Geometry-Preserving in 3D Gaussian Splatting for LiDAR-Camera Extrinsic Calibration
 
 **会议**: ECCV 2026  
@@ -137,3 +152,19 @@ Base → +DDA：平移从 0.077 降至 0.068（降 0.009 m），旋转微降至 
 - 实验充分度: ⭐⭐⭐⭐ — 双数据集 10 条序列 + 完整消融 + 噪声鲁棒性 + 渲染质量 vs 标定质量 + 深度 MAE，覆盖全面
 - 写作质量: ⭐⭐⭐⭐ — 问题定义（Sec 3）递进清晰，Fig. 1 对几何衰退的演示直观有效，方法描述公式与直觉互相支撑
 - 价值: ⭐⭐⭐⭐ — 解决 3DGS 标定中真实存在的痛点，GD 和 DDA 均可独立复用到其他以 3DGS/NeRF 为几何代理的位姿优化任务上
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] ParkGaussian: Surround-view 3D Gaussian Splatting for Autonomous Parking](../../CVPR2026/autonomous_driving/parkgaussian_surround-view_3d_gaussian_splatting_for_autonomous_parking.md)
+- [\[ECCV 2026\] 2K Retrofit: Entropy-Guided Efficient Sparse Refinement for High-Resolution 3D Geometry Prediction](2k_retrofit_entropy-guided_efficient_sparse_refinement_for_high-resolution_3d_ge.md)
+- [\[ICCV 2025\] Splat-LOAM: Gaussian Splatting LiDAR Odometry and Mapping](../../ICCV2025/autonomous_driving/splat-loam_gaussian_splatting_lidar_odometry_and_mapping.md)
+- [\[CVPR 2026\] Generalizing Visual Geometry Priors to Sparse Gaussian Occupancy Prediction](../../CVPR2026/autonomous_driving/generalizing_visual_geometry_priors_to_sparse_gaussian_occupancy_prediction.md)
+- [\[CVPR 2025\] RC-AutoCalib: An End-to-End Radar-Camera Automatic Calibration Network](../../CVPR2025/autonomous_driving/rc-autocalib_an_end-to-end_radar-camera_automatic_calibration_network.md)
+
+</div>
+
+<!-- RELATED:END -->

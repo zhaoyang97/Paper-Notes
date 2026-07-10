@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] SemCityLoc: Aerial 6DoF Localization Using Semantic 3D City Models
+description: >-
+  [ECCV 2026][3D视觉][空中定位] SemCityLoc 将无人机空中 6DoF 位姿估计重新定义为「基础模型视觉先验（语义分割 + 单目深度）与标准化语义 3D 城市模型之间的结构化表面配准」问题，通过「4D 语义代价体积粗定位 → 粒子滤波联合语义-深度精对齐」的两阶段管线，在无需稠密辐射重建的前提下，将城市峡谷场景的定位召回率从 35.11% 提升至 69.15%（2m-2度阈值），位置误差从 9.89m 降至 2.62m，并同步发布首个厘米级精度真实无人机定位基准 SemCityLockeD。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "空中定位"
+  - "6DoF位姿估计"
+  - "语义3D城市模型"
+  - "语义-几何对齐"
+  - "无人机定位"
+---
+
 # SemCityLoc: Aerial 6DoF Localization Using Semantic 3D City Models  
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.27444](https://arxiv.org/abs/2606.27444)  
-**代码**: https://albertchen98.github.io/SemCityLoc  
+**代码**: [https://albertchen98.github.io/SemCityLoc](https://albertchen98.github.io/SemCityLoc)  
 **领域**: 3D视觉  
 **关键词**: 空中定位, 6DoF位姿估计, 语义3D城市模型, 语义-几何对齐, 无人机定位  
 
@@ -159,3 +174,19 @@ SemCityLoc 的定位管线（代价体积搜索 + 粒子滤波）本身是无参
 - 实验充分度: ⭐⭐⭐⭐⭐ 在 3 个数据集、多个 LoD 级别、不同先验噪声幅度、不同分割质量下做了全面评估；消融实验清晰拆解了两阶段的各自贡献；包含效率分析和定性对比。
 - 写作质量: ⭐⭐⭐⭐ 问题定义清晰，方法流程逻辑自洽，实验设计完整覆盖关键维度。LoD 分析与语义表面配准概念的呼应尤其出色。
 - 价值: ⭐⭐⭐⭐ 为「用公开可用的结构化地图替代稠密重建做定位」这条路线提供了强有力的实证支撑；SemCityLockeD 基准填补了领域空白；亚秒级推理使其具备直接落地潜力。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision](airzoo_a_unified_large-scale_dataset_for_grounding_aerial_geometric_3d_vision.md)
+- [\[CVPR 2026\] VGA: Empowering Aerial-Ground Localization by Visual Geometry Alignment](../../CVPR2026/3d_vision/vga_empowering_aerial-ground_localization_by_visual_geometry_alignment.md)
+- [\[CVPR 2026\] Yo'City: Personalized and Boundless 3D Realistic City Scene Generation via Self-Critic Expansion](../../CVPR2026/3d_vision/yocity_personalized_and_boundless_3d_realistic_city_scene_generation_via_self-cr.md)
+- [\[ECCV 2026\] EPO: Boosting 3D Foundation Models with Edge-based Pose Optimization](epo_boosting_3d_foundation_models_with_edge-based_pose_optimization.md)
+- [\[ECCV 2026\] Hierarchical 3D Scene Graph Construction and Belief-based Planning for Semantic Navigation](hierarchical_3d_scene_graph_construction_and_belief-based_planning_for_semantic_.md)
+
+</div>
+
+<!-- RELATED:END -->

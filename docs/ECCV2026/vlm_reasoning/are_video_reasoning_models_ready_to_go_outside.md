@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ROVA: Are Video Reasoning Models Ready to Go Outside?
+description: >-
+  [ECCV 2026][VLM Reasoning][视频推理鲁棒性] ROVA 提出了一套鲁棒视频推理训练框架，通过结构化时空扰动生成、自反思难度感知在线课程、以及基于 GRPO 的双分支对齐来提升 VLM 在真实世界扰动（天气、遮挡、光照、相机抖动）下的推理鲁棒性。同时提出 PVRBench——首个系统性注入真实扰动的具身视频推理 benchmark，覆盖 9K+ 视频和 51K+ 问答对。
+tags:
+  - "ECCV 2026"
+  - "VLM Reasoning"
+  - "视频推理鲁棒性"
+  - "扰动鲁棒训练"
+  - "自适应课程学习"
+  - "GRPO"
+  - "Benchmark"
+---
+
 # ROVA: Are Video Reasoning Models Ready to Go Outside?
 
 **会议**: ECCV 2026  
@@ -99,3 +114,19 @@ PVRBench 引入 Fragility(↓)、Consistency、Belief、Recovery、Attention 五
 - 实验充分度: ⭐⭐⭐⭐⭐ (3 个 benchmark + 5 推理指标 + 多模型规模 + 消融)
 - 写作质量: ⭐⭐⭐⭐ (motivation 强，方法清晰)
 - 价值: ⭐⭐⭐⭐⭐ (真实部署刚需，PVRBench 有潜力成为社区标准)
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] EgoVITA: Learning to Plan and Verify for Egocentric Video Reasoning](egovita_learning_to_plan_and_verify_for_egocentric_video_reasoning.md)
+- [\[ECCV 2026\] VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement](videosearch-r1_iterative_video_retrieval_and_reasoning_via_soft_query_refinement.md)
+- [\[CVPR 2026\] VAST: Video Ability-Stratified Taxonomy for Data-Efficient Video Reasoning](../../CVPR2026/vlm_reasoning/vast_video_ability-stratified_taxonomy_for_data-efficient_video_reasoning.md)
+- [\[NeurIPS 2025\] Video-R1: Reinforcing Video Reasoning in MLLMs](../../NeurIPS2025/vlm_reasoning/video-r1_reinforcing_video_reasoning_in_mllms.md)
+- [\[CVPR 2026\] Towards Sparse Video Understanding and Reasoning](../../CVPR2026/vlm_reasoning/towards_sparse_video_understanding_and_reasoning.md)
+
+</div>
+
+<!-- RELATED:END -->

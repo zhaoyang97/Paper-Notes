@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Accelerating Multimodal Large Language Models with Prior-Corrected Token Reduction
+description: >-
+  [ECCV 2026][VLM Efficiency][视觉token剪枝] PriorTR 是一种无需训练的视觉 token 剪枝方法，通过用 null token（分隔符）估计模型固有的注意力先验，再用 V-可用信息 $P \cdot \log(P/Q)$ 替代原始注意力分数进行 token 排序，在单次前向传播中完成先验校正与物理剪枝，在激进 token 预算下显著提升了 MLLM 的精度-效率权衡。
+tags:
+  - "ECCV 2026"
+  - "VLM Efficiency"
+  - "视觉token剪枝"
+  - "注意力先验校正"
+  - "V-可用信息"
+  - "无需训练推理加速"
+  - "多模态大语言模型"
+---
+
 # Accelerating Multimodal Large Language Models with Prior-Corrected Token Reduction
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.24156](https://arxiv.org/abs/2606.24156)  
-**代码**: https://github.com/CodeChildCZJ/PriorTR (有)  
+**代码**: [https://github.com/CodeChildCZJ/PriorTR](https://github.com/CodeChildCZJ/PriorTR) (有)  
 **领域**: 多模态VLM / LLM效率  
 **关键词**: 视觉token剪枝, 注意力先验校正, V-可用信息, 无需训练推理加速, 多模态大语言模型
 
@@ -153,3 +168,19 @@ PriorTR 在所有预算下均取得最高平均分。与 FastV 的差距在最�
 - 实验充分度: ⭐⭐⭐⭐⭐ 12 个图像 benchmark + 4 个视频 benchmark，覆盖 5 个 baseline 和 5 个 MLLM 架构（7B/13B scale、固定/动态分辨率、图像/视频），消融覆盖评分函数、null token 选择、剪枝层位置，效率分析包含延迟、KV cache、FLOPs、吞吐量四个维度，附录还有更多模型和失败案例分析。实验设计全面且诚实（标注了 TextVQA 的弱点）。
 - 写作质量: ⭐⭐⭐⭐☆ 问题动机通过 Fig. 1 可视化非常直观，数学推导从分解到充分条件到闭式解逻辑清晰。方法部分 Algorithm 1 简洁完整。略微不足之处是部分公式符号在纯文本版本中有格式损失。
 - 价值: ⭐⭐⭐⭐⭐ 训练无关、零额外开销、即插即用、可与其他方法正交叠加——这些特性使得 PriorTR 具有极高的实用价值。先验-后验解耦的分析框架本身也可能启发其他需要区分"模型固有偏好"和"输入驱动信号"的任务（如 KV cache 压缩、长文本注意力稀疏化）。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Spectral Evolution-Guided Token Pruning in Multimodal Large Language Models](spectral_evolution-guided_token_pruning_in_multimodal_large_language_models.md)
+- [\[CVPR 2026\] Rethinking Token Reduction for Large Vision-Language Models](../../CVPR2026/vlm_efficiency/rethinking_token_reduction_for_large_vision-language_models.md)
+- [\[CVPR 2026\] CoIn: Coverage and Informativeness-Guided Token Reduction for Efficient Large Multimodal Models](../../CVPR2026/vlm_efficiency/coin_coverage_and_informativeness-guided_token_reduction_for_efficient_large_mul.md)
+- [\[CVPR 2026\] MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](../../CVPR2026/vlm_efficiency/modes_accelerating_mixture-of-experts_multimodal_large_language_models_via_dynam.md)
+- [\[CVPR 2026\] Accelerating Streaming Video Large Language Models via Hierarchical Token Compression](../../CVPR2026/vlm_efficiency/accelerating_streaming_video_large_language_models_via_hierarchical_token_compre.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Identifying and Resolving Pitfalls of Knowledge-Based VQA Benchmarks: Auditing, Repairing, and Augmenting
+description: >-
+  [ECCV 2026][多模态VLM][KB-VQA] 对知识驱动视觉问答（KB-VQA）基准 InfoSeek 和 E-VQA 进行系统性审计，揭示答案-证据错位、问题欠指定和单实体视觉捷径三类普遍缺陷，提出四阶段修复协议和受控多实体增强协议，实验表明修复后模型排名反转、增强后检索召回和 QA 精度大幅下降，说明当前 KB-VQA 评估对知识接地推理能力的衡量严重失真。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "KB-VQA"
+  - "基准测试审计"
+  - "答案-证据对齐"
+  - "接地消歧"
+  - "多实体增强"
+---
+
 # Identifying and Resolving Pitfalls of Knowledge-Based VQA Benchmarks: Auditing, Repairing, and Augmenting
 
 **会议**: ECCV 2026  
@@ -128,3 +143,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 2 个数据集、5 个 SOTA 基线、2 种语言模型主干、多种数据变体（未修复/修复/锚点/类内/类间/Blank/Double），人工评估 10% 修复集和 200 个增强样本，细粒度归因分析区分问题修复和答案修复的贡献，实验设计严谨且自洽。
 - 写作质量: ⭐⭐⭐⭐☆ 结构清晰，三个假设贯穿全文，修复和增强协议步骤明确，附录提供大量定性案例；部分表格数据密集、排版可读性有限，Method 与 Experiment 之间缺少一个桥接的总览段落。
 - 价值: ⭐⭐⭐⭐⭐ 对 KB-VQA 社区的警示意义重大——证明 benchmark 质量直接影响方法排序和资源分配决策，修复和增强协议可直接应用到其他知识密集推理基准，提出的"先审计再评估"范式有望成为基准驱动研究的标准前置步骤。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] CC-VQA: Conflict- and Correlation-Aware Method for Mitigating Knowledge Conflict in Knowledge-Based Visual Question Answering](../../CVPR2026/multimodal_vlm/cc-vqa_conflict-_and_correlation-aware_method_for_mitigating_knowledge_conflict_.md)
+- [\[ACL 2025\] MAGIC-VQA: Multimodal and Grounded Inference with Commonsense Knowledge for Visual Question Answering](../../ACL2025/multimodal_vlm/magic-vqa_multimodal_and_grounded_inference_with_commonsense_knowledge_for_visua.md)
+- [\[ICML 2025\] SK-VQA: Synthetic Knowledge Generation at Scale for Training Context-Augmented Multimodal LLMs](../../ICML2025/multimodal_vlm/sk-vqa_synthetic_knowledge_generation_at_scale_for_training_context-augmented_mu.md)
+- [\[ACL 2025\] Redundancy Principles for MLLMs Benchmarks](../../ACL2025/multimodal_vlm/redundancy_principles_for_mllms_benchmarks.md)
+- [\[CVPR 2026\] Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](../../CVPR2026/multimodal_vlm/differences_that_matter_auditing_models_for_capability_gap_discovery_and_rectifi.md)
+
+</div>
+
+<!-- RELATED:END -->

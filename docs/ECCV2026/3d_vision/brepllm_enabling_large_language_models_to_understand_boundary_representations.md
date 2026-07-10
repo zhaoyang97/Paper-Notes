@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] BrepLLM: Enabling Large Language Models to Understand Boundary Representations
+description: >-
+  [ECCV 2026][3D视觉][B-rep] BrepLLM 是首个让大语言模型直接解析和推理原生 B-rep（边界表示）CAD 模型的框架：通过自适应 UV 采样将 B-rep 转为面-边拓扑图，用层级化 BrepEncoder 提取面/边/拓扑三支解耦特征，再经 CLIP 对比预训练和两阶段渐进式 LLM 微调，最终在 3D 物体描述和分类任务上全面超越基于点云和图像的基线模型。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "B-rep"
+  - "CAD理解"
+  - "大语言模型"
+  - "跨模态对齐"
+---
+
 # BrepLLM: Enabling Large Language Models to Understand Boundary Representations
 
 **会议**: ECCV 2026  
@@ -160,3 +174,19 @@ Stage II（3D-语言对齐精调）：在 Stage I 的基础上，用 LoRA 联合
 - 实验充分度: ⭐⭐⭐⭐ 覆盖描述和分类两个任务，多个基线和评估协议（LLM 评判 + 传统指标 + 人类评估），消融实验覆盖三个核心组件和一个训练策略，定性对比详实；缺少更大规模 LLM（8B+ 变体）的 scaling 实验
 - 写作质量: ⭐⭐⭐⭐ 整体清晰，方法部分图文对应好，附录数据生成流程和评估 prompt 透明可复现；部分公式排版有微小问题（LaTeX 转纯文本时丢失了一些下标/上标格式）
 - 价值: ⭐⭐⭐⭐ 为工业 CAD 场景下 LLM 的应用开辟了新路径，Brep2Text 数据集可作为该方向的标准化 benchmark；层级化编码和渐进式对齐的策略对 3D MLLM 社区有方法论参考价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Do 3D Large Language Models Really Understand 3D Spatial Relationships?](../../ICLR2026/3d_vision/do_3d_large_language_models_really_understand_3d_spatial_relationships.md)
+- [\[ECCV 2024\] PointLLM: Empowering Large Language Models to Understand Point Clouds](../../ECCV2024/3d_vision/pointllm_empowering_large_language_models_to_understand_point_clouds.md)
+- [\[CVPR 2026\] Scalable Object Relation Encoding for Better 3D Spatial Reasoning in Large Language Models](../../CVPR2026/3d_vision/scalable_object_relation_encoding_for_better_3d_spatial_reasoning_in_large_langu.md)
+- [\[ECCV 2026\] G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Segmentation](g2p_gaussian-to-point_attribute_alignment_for_boundary-aware_3d_segmentation.md)
+- [\[ICCV 2025\] 3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding](../../ICCV2025/3d_vision/3dgraphllm_combining_semantic_graphs_and_large_language_models_for_3d_scene_unde.md)
+
+</div>
+
+<!-- RELATED:END -->

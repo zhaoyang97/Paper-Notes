@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] QuantV2X: A Fully Quantized Multi-Agent System for Cooperative Perception
+description: >-
+  [ECCV 2026][多智能体][V2X协作感知] QuantV2X 提出首个全量化多智能体 V2X 协作感知系统，通过端到端量化神经网络模型和通信消息表征，在 INT4/INT8 低比特下保持全精度模型 99.8% 的感知精度，同时将系统端到端延迟降低 3.2 倍，在 V2X-Real 数据集上 mAP30 反超全精度基线 +9.5。
+tags:
+  - "ECCV 2026"
+  - "多智能体"
+  - "V2X协作感知"
+  - "模型量化"
+  - "多智能体系统"
+  - "后训练量化"
+  - "码本通信"
+---
+
 # QuantV2X: A Fully Quantized Multi-Agent System for Cooperative Perception
 
 **会议**: ECCV 2026  
 **arXiv**: [2509.03704](https://arxiv.org/abs/2509.03704)  
-**代码**: https://github.com/ucla-mobility/QuantV2X (有)  
+**代码**: [https://github.com/ucla-mobility/QuantV2X](https://github.com/ucla-mobility/QuantV2X) (有)  
 **领域**: 多智能体协作感知 / 模型量化  
 **关键词**: V2X协作感知, 模型量化, 多智能体系统, 后训练量化, 码本通信
 
@@ -72,8 +87,8 @@ flowchart TD
 
 - **阶段 1（全精度预训练）**：标准检测损失 $\mathcal{L}_{\text{det}}$ 训练 FP32 中间融合模型，40 epoch，选最优 checkpoint。
 - **阶段 2（码本学习）**：
-  - 子阶段 1（冻结编码器，20 epoch）：$\min_{\Theta_{\mathrm{cb}}} \sum_{(h,w)} \|F - \hat{F}\|_2^2$，纯重建损失训练码本；
-  - 子阶段 2（联合微调，10 epoch）：$\min_{\theta, \mathcal{D}} \mathcal{L}_{\text{det}}(\hat{B}, B^{\text{gt}}) + \lambda_{\text{rec}} \sum_{(h,w)} \|F - \hat{F}\|_2^2$，检测损失 + 重建损失联合优化，使编码器适配码本。
+    - 子阶段 1（冻结编码器，20 epoch）：$\min_{\Theta_{\mathrm{cb}}} \sum_{(h,w)} \|F - \hat{F}\|_2^2$，纯重建损失训练码本；
+    - 子阶段 2（联合微调，10 epoch）：$\min_{\theta, \mathcal{D}} \mathcal{L}_{\text{det}}(\hat{B}, B^{\text{gt}}) + \lambda_{\text{rec}} \sum_{(h,w)} \|F - \hat{F}\|_2^2$，检测损失 + 重建损失联合优化，使编码器适配码本。
 - **阶段 3（PTQ 校准，5000 步）**：对每块用式 (8) 的 Frobenius 重建误差优化量化参数，融合层额外施加 $\mathcal{L}_{\text{hetero}}$ 和 $\mathcal{L}_{\text{spatial}}$。校准集以多智能体随机采样构造，大小仅为训练集的 0.5%。
 
 ## 实验关键数据
@@ -156,3 +171,19 @@ CNN 类融合方法（Pyramid Fusion、Who2com）对量化最鲁棒；V2X-ViT �
 - 实验充分度: ⭐⭐⭐⭐⭐ 在两个真实数据集（DAIR-V2X、V2X-Real）+ 一个仿真数据集（OPV2V）+ 真实 ROS 测试平台（V2X-ReaLO）上全面评估，覆盖模型级和系统级两类指标，消融实验、鲁棒性分析、延迟分解、扩展性实验、功耗测量一应俱全。
 - 写作质量: ⭐⭐⭐⭐⭐ 问题陈述清晰，motivation 图（Fig.1）直观，方法分三阶段叙述有条理，实验设计针对三个研究问题（RQ1/RQ2/RQ3）一一回答，附录 QA 式讨论量化与 LLM 方法的区别很有帮助。
 - 价值: ⭐⭐⭐⭐⭐ 直击 V2X 协作感知从研究到部署的 gap，提供了完整的工程方案和开源代码，为领域树立了"系统效率优先于纯精度"的评估范式，实用价值很高。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] More Capable, Less Cooperative? When LLMs Fail At Zero-Cost Collaboration](../../ICML2026/multi_agent/more_capable_less_cooperative_when_llms_fail_at_zero-cost_collaboration.md)
+- [\[ICML 2026\] EngiAgent: Fully Connected Coordination of LLM Agents for Solving Open-ended Engineering Problems with Feasible Solutions](../../ICML2026/multi_agent/engiagent_fully_connected_coordination_of_llm_agents_for_solving_open-ended_engi.md)
+- [\[AAAI 2026\] AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation](../../AAAI2026/multi_agent/agentodrl_a_large_language_model-based_multi-agent_system_fo.md)
+- [\[ACL 2026\] Efficient Multi-Agent System Training with Data Influence-Oriented Tree Search](../../ACL2026/multi_agent/efficient_multi-agent_system_training_with_data_influence-oriented_tree_search.md)
+- [\[ICLR 2026\] CoAct-1: Computer-using Multi-agent System with Coding Actions](../../ICLR2026/multi_agent/coact-1_computer-using_multi-agent_system_with_coding_actions.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution
+description: >-
+  [ECCV 2026][图像生成][积分梯度] DiffIG 将积分梯度（IG）中的归因路径生成重铸为条件生成建模问题——用扩散模型学习 Stick-Breaking Process 生成的路径分布，推理时通过忠实度与复杂度双重引导采样，生成自适应的非线性积分路径，在 Oxford-IIIT Pet 和 Mini-ImageNet 上 DiffID 指标大幅超越现有路径归因方法。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "积分梯度"
+  - "扩散模型"
+  - "路径归因"
+  - "可解释AI"
+  - "引导采样"
+---
+
 # Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution
 
 **会议**: ECCV 2026  
@@ -137,3 +152,19 @@ DiffIG 在 Oxford-IIIT Pet 上全面大幅领先：ResNet18 上 DiffID 从 0.348
 - 实验充分度: ⭐⭐⭐⭐ 两个数据集、三种 CNN 架构 + ViT、七个 baseline、多维度消融（N/引导/VAE骨干/SBP alpha/基线选择）、独立指标验证（Quantus）、runtime 分析、失败案例分析，附录极为详尽。扣一星是因为最优超参数配置在不同设置下差异大，统一配置（Table 1）的性能并非各设置的最优
 - 写作质量: ⭐⭐⭐⭐⭐ 结构清晰（动机→方法→实验→分析层层递进），公式规范，图表丰富且制作精良（Figure 1 和 Figure 2 的信息密度很高），附录含完整的公理证明和超参数分析，可复现性强
 - 价值: ⭐⭐⭐⭐ 为 XAI 领域引入了一个有潜力的生成式框架，推理时可控性的设计理念有较广的迁移空间。但训练成本（每对数据集+模型需重新训练）和推理速度（N=50 时比 IG 慢 50 倍）限制了即时实用性，更适合需要高质量归因的离线分析场景而非实时部署
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Semantic Browsing: Controllable Diversity for Image Generation](semantic_browsing_controllable_diversity_for_image_generation.md)
+- [\[ECCV 2024\] Linearly Controllable GAN: Unsupervised Feature Categorization and Decomposition for Image Generation and Manipulation](../../ECCV2024/image_generation/linearly_controllable_gan_unsupervised_feature_categorization_and_decomposition_.md)
+- [\[CVPR 2025\] RoomPainter: View-Integrated Diffusion for Consistent Indoor Scene Texturing](../../CVPR2025/image_generation/roompainter_view-integrated_diffusion_for_consistent_indoor_scene_texturing.md)
+- [\[CVPR 2026\] Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution](../../CVPR2026/image_generation/attribution_as_retrieval_modelagnostic_aigenerated.md)
+- [\[ECCV 2026\] Few-Shot Synthetic Image Attribution: Identifying Unseen Generators with Limited Samples](few-shot_synthetic_image_attribution_identifying_unseen_generators_with_limited_.md)
+
+</div>
+
+<!-- RELATED:END -->

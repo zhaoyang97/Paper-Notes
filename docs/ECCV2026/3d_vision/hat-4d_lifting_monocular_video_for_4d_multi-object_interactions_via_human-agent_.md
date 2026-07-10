@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration
+description: >-
+  [ECCV 2026][3D视觉][4D重建] HAT-4D 提出首个面向单目视频 4D 多物体交互重建的 agentic 框架：以交互知识图谱（IKG）为因果引擎驱动 3D 生成、空间组合和记忆增强 4D 传播，并通过多层级人在回路（HITL）协同解决深度歧义和遮挡难题，在 MVOIK-4D 基准上全面超越现有单目 4D 基线，且少量人工反馈即可显著提升交互重建质量。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "4D重建"
+  - "人机协同"
+  - "多智能体"
+  - "单目视频"
+  - "物体交互"
+---
+
 # HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration
 
 **会议**: ECCV 2026  
@@ -137,3 +152,19 @@ HAT-4D 在 LPIPS 和所有交互/记忆指标上取得最优，FVD 仅次于消�
 - 实验充分度: ⭐⭐⭐⭐ 主实验覆盖 5 个基线、7 项指标，消融涵盖模块移除、人类干预预算、精炼算子、挑战子集和下游微调，缺 VLM 替换消融
 - 写作质量: ⭐⭐⭐⭐ 方法部分图文对应清晰，IKG 形式化定义和评估协议描述详尽；评估指标的动机说明可更直观
 - 价值: ⭐⭐⭐⭐⭐ 为单目 4D 交互重建建立了一个可扩展的"agent + HITL"范式，MVOIK-4D 和多维评估协议填补了该方向的基准空白，对具身智能数据 scaling 有直接推动作用
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] One Video, One World: Turning Monocular Video into Physical 4D Scenes](one_video_one_world_turning_monocular_video_into_physical_4d_scenes.md)
+- [\[ECCV 2026\] Progressive Pose-Guided 4D Animal Reconstruction from Monocular Video](progressive_pose-guided_4d_animal_reconstruction_from_monocular_video.md)
+- [\[ICCV 2025\] Vivid4D: Improving 4D Reconstruction from Monocular Video by Video Inpainting](../../ICCV2025/3d_vision/vivid4d_improving_4d_reconstruction_from_monocular_video_by_video_inpainting.md)
+- [\[CVPR 2026\] Recovering Physically Plausible Human-Object Interactions from Monocular Videos](../../CVPR2026/3d_vision/recovering_physically_plausible_human-object_interactions_from_monocular_videos.md)
+- [\[CVPR 2026\] ArtHOI: Taming Foundation Models for Monocular 4D Reconstruction of Hand-Articulated-Object Interactions](../../CVPR2026/3d_vision/arthoi_taming_foundation_models_for_monocular_4d_reconstruction_of_hand-articula.md)
+
+</div>
+
+<!-- RELATED:END -->

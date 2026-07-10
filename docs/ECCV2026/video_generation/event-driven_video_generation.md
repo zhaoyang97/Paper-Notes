@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2026  
 **arXiv**: [2603.13402](https://arxiv.org/abs/2603.13402)  
-**代码**: 未公开；项目页: https://evd-project-website.pages.dev  
+**代码**: 未公开；项目页: [https://evd-project-website.pages.dev](https://evd-project-website.pages.dev)  
 **领域**: 视频生成  
 **关键词**: 文本到视频, Diffusion Transformer, 事件门控, 交互动态, Flow Matching
 
@@ -156,3 +156,19 @@ DiT-4B 上的 ablation 能看出：训练损失、推理门控和 schedule 都�
 - 实验充分度: ★★★★☆ 有专门 EVD-Bench、人评、自动指标、开销和消融；长视频和复杂多事件覆盖还不够。
 - 写作质量: ★★★★☆ 方法讲得清楚，附录非常详细；主文表格的 human preference 读法需要小心。
 - 价值: ★★★★☆ 对解决视频生成交互动态很有实际价值，尤其适合接触、支撑和状态保持类 prompt。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] Mind the Time: Temporally-Controlled Multi-Event Video Generation](../../CVPR2025/video_generation/mind_the_time_temporally-controlled_multi-event_video_generation.md)
+- [\[CVPR 2026\] SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls](../../CVPR2026/video_generation/switchcraft_training-free_multi-event_video_generation_with_attention_controls.md)
+- [\[CVPR 2026\] Chain of Event-Centric Causal Thought for Physically Plausible Video Generation](../../CVPR2026/video_generation/chain_of_event-centric_causal_thought_for_physically_plausible_video_generation.md)
+- [\[AAAI 2026\] Seeing the Unseen: Zooming in the Dark with Event Cameras](../../AAAI2026/video_generation/seeing_the_unseen_zooming_in_the_dark_with_event_cameras.md)
+- [\[CVPR 2026\] The Devil is in the Details: Enhancing Video Virtual Try-On via Keyframe-Driven Details Injection](../../CVPR2026/video_generation/the_devil_is_in_the_details_enhancing_video_virtual_try-on_via_keyframe-driven_d.md)
+
+</div>
+
+<!-- RELATED:END -->

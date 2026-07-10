@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures
+description: >-
+  [ECCV 2026][3D视觉][3D高斯泼溅] HeadsUp 提出一种可扩展的前馈式方法，将多相机捕捉的多视图图像通过跨注意力 Transformer 压缩为紧凑 2D 潜变量，再解码到锚定于中性头部模板的 UV 参数化 3D 高斯上，从而将输出高斯数量与输入图像分辨率和视角数解耦，在 10,000+ 人的内部数据集上达到 SOTA 重建质量，且无需测试时优化。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "头部重建"
+  - "多视图"
+  - "UV参数化"
+  - "前馈网络"
+---
+
 # Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures
 
 **会议**: ECCV 2026  
@@ -172,3 +187,19 @@ Inference speed comparison (single A100):
 - 实验充分度: ⭐⭐⭐⭐⭐ 10,000 人规模训练、系统 scaling law 分析（身份数/视角数/容量/监督密度/Transformer 层数共 7 个维度的消融）、两个数据集、推理速度对比、下游应用展示（文本生成身份 + blendshape 动画），实验维度全面且结论清晰。
 - 写作质量: ⭐⭐⭐⭐⭐ 结构清晰，动机链路完整（从三种路线各自的局限推导出本文需求），方法描述详实，消融实验按维度组织且每个有独立小结，补充材料详尽（完整超参表、架构细节、基线复现细节）。
 - 价值: ⭐⭐⭐⭐☆ 对需要大规模棚拍头部重建的工业场景（电影、游戏、远程呈现）有直接实用价值；scaling law 分析对后续工作有参考意义。但方法对棚拍设备和内部数据的依赖限制了学术界的直接跟进。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] HRAvatar: High-Quality and Relightable Gaussian Head Avatar](../../CVPR2025/3d_vision/hravatar_high-quality_and_relightable_gaussian_head_avatar.md)
+- [\[ECCV 2026\] AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images](anymatch_supercharging_universal_multi-modal_image_matching_with_large-scale_sin.md)
+- [\[ECCV 2026\] Capacity-Controlled Multi-View Stylization of 3D Gaussian Splatting](capacity-controlled_multi-view_stylization_of_3d_gaussian_splatting.md)
+- [\[CVPR 2026\] Confidence-Guided Multi-Scale Aggregation for Sparse-View High-Resolution 3D Gaussian Splatting](../../CVPR2026/3d_vision/confidence-guided_multi-scale_aggregation_for_sparse-view_high-resolution_3d_gau.md)
+- [\[CVPR 2026\] Skullptor: High Fidelity 3D Head Reconstruction in Seconds with Multi-View Normal Prediction](../../CVPR2026/3d_vision/skullptor_high_fidelity_3d_head_reconstruction_in_seconds_with_multi-view_normal.md)
+
+</div>
+
+<!-- RELATED:END -->

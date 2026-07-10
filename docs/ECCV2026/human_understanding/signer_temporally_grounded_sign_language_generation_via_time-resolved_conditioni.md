@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SIGNER: Temporally Grounded Sign Language Generation via Time-Resolved Conditioning
+description: >-
+  [ECCV 2026][人体理解][手语生成] SIGNER 提出时序化解码条件（time-resolved conditioning）框架，通过构造时序化 Gloss 条件序列并在扩散去噪中以局部时序融合（LTF）将其注入，显式保留下游手语片段的时序对应关系（temporal grounding），从而解决现有手语生成方法中词序错乱和语义不准的核心问题，在 CSL-Daily 和 Phoenix-2014T 上大幅超越此前 SOTA。
+tags:
+  - "ECCV 2026"
+  - "人体理解"
+  - "手语生成"
+  - "时序Gloss条件"
+  - "局部时序融合"
+  - "离散扩散"
+  - "运动生成"
+---
+
 # SIGNER: Temporally Grounded Sign Language Generation via Time-Resolved Conditioning
 
 **会议**: ECCV 2026  
@@ -138,3 +153,19 @@ SIGNER 的峰值速度和峰值加速度（jerk）均为最低，表明生成动
 - 实验充分度: ⭐⭐⭐⭐⭐ 主实验覆盖两个数据集和 7 个 baseline，消融覆盖 LTF、IPA、text-to-gloss 模型选择、时长扰动四个维度，额外包含运动平滑度分析和定性可视化，实验设计周密
 - 写作质量: ⭐⭐⭐⭐ 核心矛盾（全局融合 vs 时序对应）表述清晰，Figure 2 和 Figure 5 的概念对比图直观传达了设计动机，方法部分的公式和架构描述准确
 - 价值: ⭐⭐⭐⭐ 首次在 SLG 领域系统论证了条件注入的时空结构对词序和语义准确性的关键作用，LTF 作为一种轻量级条件注入范式有潜力推广到其他时序条件生成任务
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] SIGNET: Motion-Level Knowledge Transfer for Cross-Language Sign Language Translation](signet_motion-level_knowledge_transfer_for_cross-language_sign_language_translat.md)
+- [\[ECCV 2026\] BackTranslation2.0 -- A Linguistically Motivated Metric to Assess Sign Language Production](backtranslation20_--_a_linguistically_motivated_metric_to_assess_sign_language_p.md)
+- [\[CVPR 2026\] SignPR: A Progressive Vector-Quantized Diffusion Framework for Sign Language Production](../../CVPR2026/human_understanding/signpr_a_progressive_vector-quantized_diffusion_framework_for_sign_language_prod.md)
+- [\[CVPR 2026\] Learning Effective Sign Features without Text for Gloss-free Sign Language Translation](../../CVPR2026/human_understanding/learning_effective_sign_features_without_text_for_gloss-free_sign_language_trans.md)
+- [\[CVPR 2026\] Focal–General Diffusion Model with Semantic Consistent Guidance for Sign Language Production](../../CVPR2026/human_understanding/focal-general_diffusion_model_with_semantic_consistent_guidance_for_sign_languag.md)
+
+</div>
+
+<!-- RELATED:END -->

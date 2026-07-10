@@ -163,6 +163,22 @@ item_total: 1818
 
 ---
 
+## 👥 Multi-Agent (3) { #multi_agent }
+
+**[Collaborative Tree Search for Enhancing Embodied Multi-Agent Collaboration](multi_agent/collaborative_tree_search_for_enhancing_embodied_multi-agent_collaboration.md)**
+
+:   提出 Cooperative Tree Search (CoTS) 框架，将修改版蒙特卡洛树搜索与 LLM 驱动的奖励函数结合，引导多个具身智能体进行长期战略规划和高效协作，并通过计划评估模块避免频繁计划更新带来的行为混乱，在 CWAH 和 TDW-MAT 环境上显著超越现有方法。
+
+**[ComfyBench: Benchmarking LLM-based Agents in ComfyUI for Autonomously Designing Collaborative AI Systems](multi_agent/comfybench_benchmarking_llm-based_agents_in_comfyui_for_autonomously_designing_c.md)**
+
+:   ComfyBench 提出了首个评估LLM Agent在ComfyUI中自主设计协作AI系统能力的综合性Benchmark（200个任务、3205个节点文档、20个课程工作流），并提出ComfyAgent框架通过代码化工作流表示和多Agent协作，达到了与o1-preview相当的解决率，但在创意任务上仅解决15%，揭示了LLM Agent在自主系统设计上的巨大差距。
+
+**[NADER: Neural Architecture Design via Multi-Agent Collaboration](multi_agent/nader_neural_architecture_design_via_multi-agent_collaboration.md)**
+
+:   NADER 将神经架构设计建模为多 LLM Agent 协作任务——Reader 读论文提炼知识、Proposer 生成改进方案、Modifier 用 DAG 图实现修改、Reflector 从失败中学习经验，仅 10 次试验即突破 NAS-Bench-201 搜索空间的准确率上限，在 CIFAR-100 上达 74.51%（搜索空间最优 73.51%）。
+
+---
+
 ## ⚖️ 对齐 / RLHF (5) { #llm_alignment }
 
 **[Bases of Steerable Kernels for Equivariant CNNs: From 2D Rotations to the Lorentz Group](llm_alignment/bases_of_steerable_kernels_for_equivariant_cnns_from_2d_rotations_to_the_lorentz.md)**
@@ -273,6 +289,26 @@ item_total: 1818
 
 ---
 
+## 📊 LLM 评测 (4) { #llm_evaluation }
+
+**[Erase Diffusion: Empowering Object Removal Through Calibrating Diffusion Pathways (EraDiff)](llm_evaluation/erase_diffusion_empowering_object_removal_through_calibrating_diffusion_pathways.md)**
+
+:   本文提出EraDiff，通过链式校正优化范式（CRO）建立从"含物体"到"纯背景"的渐进扩散路径，并用自校正注意力机制（SRA）在采样时抑制伪影，使扩散模型真正理解"擦除意图"，在OpenImages V5上取得SOTA的Local FID（3.799），在复杂真实场景中显著优于SD2-Inpaint和LaMa。
+
+**[PosterO: Structuring Layout Trees to Enable Language Models in Generalized Content-Aware Layout Generation](llm_evaluation/postero_structuring_layout_trees_to_enable_language_models_in_generalized_conten.md)**
+
+:   提出 PosterO，将海报版面结构化为 SVG 布局树，通过设计意图向量化和层次节点表示实现与 LLM 的对接，利用意图对齐的上下文学习生成高质量内容感知版面，在多个基准上达到 SOTA 并引入首个支持多用途和多形状元素的 PStylish7 数据集。
+
+**[RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives](llm_evaluation/roadsocial_a_diverse_videoqa_dataset_and_benchmark_for_road_event_understanding_.md)**
+
+:   本文提出RoadSocial，一个来源于社交媒体的大规模多样化VideoQA数据集（13.2K视频、260K问答对），覆盖全球多地域多视角的道路事件场景，通过半自动标注框架和12类QA任务系统性评测了18种Video LLM的道路事件理解能力。
+
+**[UniGoal: Towards Universal Zero-shot Goal-oriented Navigation](llm_evaluation/unigoal_towards_universal_zero-shot_goal-oriented_navigation.md)**
+
+:   提出 UniGoal 统一零样本目标导航框架，通过将场景和目标统一表示为图结构，结合图匹配驱动的多阶段探索策略，在单一模型中实现对象类别、实例图像和文本描述三种目标类型的零样本导航，性能超越任务专用方法。
+
+---
+
 ## ⚡ LLM 效率 (5) { #llm_efficiency }
 
 **[Associative Transformer](llm_efficiency/associative_transformer.md)**
@@ -343,6 +379,14 @@ item_total: 1818
 
 ---
 
+## ✏️ 知识编辑 (1) { #knowledge_editing }
+
+**[MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](knowledge_editing/mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md)**
+
+:   提出 MoKus 框架，发现并利用"跨模态知识迁移"现象——在 LLM 文本编码器中更新知识会自动传递到视觉生成端——实现知识感知的概念定制，两阶段设计：先学视觉锚点表示，再秒级更新文本知识绑定。
+
+---
+
 ## 💬 LLM 其他 (15) { #llm_nlp }
 
 **[Building Vision Models upon Heat Conduction](llm_nlp/building_vision_models_upon_heat_conduction.md)**
@@ -386,6 +430,72 @@ item_total: 1818
 :   本文深入分析了点积在脉冲查询-键对中因大量"非脉冲事件"导致相似度度量失效的根本原因，提出专为脉冲序列设计的a-XNOR相似度度量，将非脉冲对的相关性重定义为特定值a，在多种脉冲Transformer架构和数据集上显著提升性能。
 
 [查看全部15篇「LLM 其他」论文 →](llm_nlp/)
+
+---
+
+## ✍️ 文本生成 (2) { #nlp_generation }
+
+**[ArtFormer: Controllable Generation of Diverse 3D Articulated Objects](nlp_generation/artformer_controllable_generation_of_diverse_3d_articulated_objects.md)**
+
+:   提出ArtFormer框架，通过树结构参数化和条件扩散Shape Prior，从文本/图像描述生成高质量、多样化且运动学关系准确的3D关节物体，在生成质量和多样性上显著超越现有方法。
+
+**[Dense Match Summarization for Faster Two-view Estimation](nlp_generation/dense_match_summarization_for_faster_two-view_estimation.md)**
+
+:   本文提出一种稠密匹配摘要方案，通过聚类和代表性匹配选取将10000+稠密匹配压缩为约1%的代表匹配，并用9×9矩阵编码每个簇的几何约束，实现RANSAC鲁棒估计10-100倍加速且精度损失极小。
+
+---
+
+## 🌐 多语言/翻译 (1) { #multilingual_mt }
+
+**[SMTPD: A New Benchmark for Temporal Prediction of Social Media Popularity](multilingual_mt/smtpd_a_new_benchmark_for_temporal_prediction_of_social_media_popularity.md)**
+
+:   构建首个时间对齐的社交媒体流行度时序预测基准SMTPD（282K YouTube样本，30天连续观测），并提出基于多模态特征提取+LSTM时序回归的baseline框架，发现早期流行度（EP）是准确预测后续流行度的关键。
+
+---
+
+## 🔍 信息检索/RAG (12) { #information_retrieval }
+
+**[Advancing Myopia To Holism: Fully Contrastive Language-Image Pre-training](information_retrieval/advancing_myopia_to_holism_fully_contrastive_language-image_pre-training.md)**
+
+:   将CLIP从传统的一对一(image, text)对比学习升级为多对多(multi-image-embeddings, multi-texts)对比学习范式，通过VLM生成多视角多层次的描述文本、多分支视觉编码器输出多种视觉embedding，实现更全面的视觉语言对齐，在检索/分类/密集任务上大幅超越baseline。
+
+**[ChatHuman: Chatting about 3D Humans with Tools](information_retrieval/chathuman_chatting_about_3d_humans_with_tools.md)**
+
+:   提出 ChatHuman，一个基于 LLM 的语言驱动系统，通过自动选择和集成专门的 3D 人体分析工具（3D 姿态估计、形状恢复、接触检测、人物交互分析、情感识别等），利用学术论文作为工具使用说明和 RAG（检索增强生成）创建 in-context 示例以管理新工具，在工具选择准确率和整体 3D 人体任务性能上超越现有 LLM 模型。
+
+**[COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation](information_retrieval/cobra_combinatorial_retrieval_augmentation_for_few-shot_adaptation.md)**
+
+:   提出 COBRA——基于组合互信息（CMI）的检索增强少样本适配方法，通过同时考虑检索样本与目标任务的相似性和样本间的多样性，从 LAION-2B 中检索高质量辅助数据，在多个图像分类基准上一致性超越传统最近邻检索方法，且计算开销可忽略。
+
+**[EZSR: Event-based Zero-Shot Recognition](information_retrieval/ezsr_event-based_zero-shot_recognition.md)**
+
+:   提出 EZSR 框架用于事件相机数据的零样本物体识别，通过标量级调制（scalar-wise modulation）策略解决事件嵌入与 CLIP 文本嵌入之间的语义错位问题，并通过从静态 RGB 图像大规模合成事件数据来突破训练数据稀缺限制，在 N-ImageNet 上以 ViT-B/16 达到 47.84% 零样本准确率。
+
+**[Few-Shot Recognition via Stage-Wise Retrieval-Augmented Finetuning](information_retrieval/few-shot_recognition_via_stage-wise_retrieval-augmented_finetuning.md)**
+
+:   本文首次将检索增强学习（RAL）扩展到少样本识别（FSR），揭示了检索数据的分布不平衡和域差距两大挑战，提出两阶段方法 SWAT（先在混合数据上微调视觉编码器、再在少量标注数据上重训分类器），在 9 个基准上以 >6% 的优势超越所有先前方法。
+
+**[GOAL: Global-Local Object Alignment Learning](information_retrieval/goal_global-local_object_alignment_learning.md)**
+
+:   提出GOAL方法，通过局部图-句匹配（LISM）和Token相似性学习（TSL）两个模块增强CLIP对长文本描述的理解能力，在全局对齐的基础上引入局部语义对齐，大幅提升图文检索性能。
+
+**[LotusFilter: Fast Diverse Nearest Neighbor Search via a Learned Cutoff Table](information_retrieval/lotusfilter_fast_diverse_nearest_neighbor_search_via_a_learned_cutoff_table.md)**
+
+:   提出LotusFilter，通过离线预计算每个向量的邻近关系构建截断表(cutoff table)，在线阶段用贪心集合删除实现多样化过滤，将传统 $O(DS^2)$ 的多样化搜索降至 $O(T+S+KL)$，过滤仅需0.02ms/query，内存仅为传统方法的1/40。
+
+**[Preserving Clusters in Prompt Learning for Unsupervised Domain Adaptation](information_retrieval/preserving_clusters_in_prompt_learning_for_unsupervised_domain_adaptation.md)**
+
+:   提出 CRPL 框架，通过源域增强的伪标签和基于最优传输的聚类保持策略，改进 CLIP 在无监督域适应（UDA）中的 prompt 学习，使得目标域 prompt 的文本嵌入能更好地覆盖视觉嵌入的聚类结构。
+
+**[RANGE: Retrieval Augmented Neural Fields for Multi-Resolution Geo-Embeddings](information_retrieval/range_retrieval_augmented_neural_fields_for_multi-resolution_geo-embeddings.md)**
+
+:   提出RANGE，通过检索增强策略将高分辨率视觉信息近似注入地理位置嵌入，解决了对比学习（如SatCLIP）丢弃模态特有信息的问题，在分类任务上提升高达13.1%，回归任务上提升0.145 $R^2$。
+
+**[Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis](information_retrieval/retrieving_semantics_from_the_deep_an_rag_solution_for_gesture_synthesis.md)**
+
+:   RAG-Gesture 提出了一种基于检索增强生成（RAG）的手势合成框架，利用显式语言学知识从手势数据库中检索语义相关的示例动作，并通过 DDIM 反演和检索引导在推理时注入扩散模型生成过程，无需训练即可产生语义丰富且自然的共语手势。
+
+[查看全部12篇「信息检索/RAG」论文 →](information_retrieval/)
 
 ---
 
@@ -1159,6 +1269,26 @@ item_total: 1818
 
 ---
 
+## 🔗 因果推理 (4) { #causal_inference }
+
+**[Adventurer: Optimizing Vision Mamba Architecture Designs for Efficiency](causal_inference/adventurer_optimizing_vision_mamba_architecture_designs_for_efficiency.md)**
+
+:   提出 Adventurer 系列视觉模型，通过"头部平均池化 token"和"层间翻转"两个简单设计将图像输入适配到单向因果扫描框架中，使 Mamba 架构在视觉任务上实现 4-6 倍于现有 Vision Mamba 的训练速度，同时保持与 ViT 相当甚至更优的精度。
+
+**[Image Quality Assessment: Investigating Causal Perceptual Effects with Abductive Counterfactual Inference](causal_inference/image_quality_assessment_investigating_causal_perceptual_effects_with_abductive_.md)**
+
+:   将全参考图像质量评估（FR-IQA）形式化为反事实推断问题，通过结构因果模型（SCM）区分深度特征中与感知质量因果相关的成分和噪声成分，实现无需训练、可跨骨干网络的鲁棒质量预测，在多个基准数据集上取得竞争性性能。
+
+**[Joint Scheduling of Causal Prompts and Tasks for Multi-Task Learning](causal_inference/joint_scheduling_of_causal_prompts_and_tasks_for_multi-task_learning.md)**
+
+:   提出 JSCPT（Joint Scheduling of Causal Prompts and Tasks）框架，首先设计多任务视觉语言提示（MTVLP）并通过因果干预消除提示中的虚假相关特征，然后通过自适应任务调度器根据训练过程中任务关系的动态变化调整学习顺序和权重，在多个多任务视觉识别基准上取得显著提升。
+
+**[FG-VCE: Towards Fine-Grained Interpretability — Counterfactual Explanations for Misclassification with Saliency Partition](causal_inference/towards_fine-grained_interpretability_counterfactual_explanations_for_misclassif.md)**
+
+:   提出 FG-VCE（Fine-Grained Visual Contrastive Explanation）框架，通过 Shapley 值计算特征点贡献度、显著性分区模块隔离局部特征、以及迭代反事实生成策略，首次实现了对象级和部件级的细粒度反事实解释，揭示模型误分类的具体原因——"哪些细粒度特征导致了错误"以及"哪些局部区域主导了预测改变"。
+
+---
+
 ## 🔬 可解释性 (21) { #interpretability }
 
 **[Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck Model with Better Interpretability and Scalability](interpretability/albm_attribute_concept_space.md)**
@@ -1413,6 +1543,14 @@ item_total: 1818
 
 ---
 
+## 🌍 地球科学 (1) { #earth_science }
+
+**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](earth_science/geochemad_benchmarking_unsupervised_geochemical_anomaly_detection_for_mineral_ex.md)**
+
+:   提出 GeoChemAD 开源基准数据集（8 个子集，覆盖多区域/多采样源/多目标元素）和 GeoChemFormer 框架，通过空间上下文自监督预训练和元素依赖建模实现无监督地球化学异常检测，在所有子集上取得最优 AUC。
+
+---
+
 ## 📡 信号/通信 (5) { #signal_comm }
 
 **[ABC-Former: Auxiliary Bimodal Cross-domain Transformer with Interactive Channel Attention](signal_comm/abc-former_auxiliary_bimodal_cross-domain_transformer_with_interactive_channel_a.md)**
@@ -1548,147 +1686,5 @@ item_total: 1818
 :   提出EVOS方法，通过进化选择范式（稀疏适应度评估+频率引导交叉+增强无偏变异）对INR训练样本进行智能稀疏采样，在保持甚至提升重建质量（PSNR 37.81 vs 标准37.10）的同时将训练时间减少48-66%（180秒→97秒）。
 
 [查看全部58篇「其他」论文 →](others/)
-
----
-
-## 🗂 其他方向 (28)
-
----
-
-## 👥 Multi-Agent (3) { #multi_agent }
-
-**[Collaborative Tree Search for Enhancing Embodied Multi-Agent Collaboration](multi_agent/collaborative_tree_search_for_enhancing_embodied_multi-agent_collaboration.md)**
-
-:   提出 Cooperative Tree Search (CoTS) 框架，将修改版蒙特卡洛树搜索与 LLM 驱动的奖励函数结合，引导多个具身智能体进行长期战略规划和高效协作，并通过计划评估模块避免频繁计划更新带来的行为混乱，在 CWAH 和 TDW-MAT 环境上显著超越现有方法。
-
-**[ComfyBench: Benchmarking LLM-based Agents in ComfyUI for Autonomously Designing Collaborative AI Systems](multi_agent/comfybench_benchmarking_llm-based_agents_in_comfyui_for_autonomously_designing_c.md)**
-
-:   ComfyBench 提出了首个评估LLM Agent在ComfyUI中自主设计协作AI系统能力的综合性Benchmark（200个任务、3205个节点文档、20个课程工作流），并提出ComfyAgent框架通过代码化工作流表示和多Agent协作，达到了与o1-preview相当的解决率，但在创意任务上仅解决15%，揭示了LLM Agent在自主系统设计上的巨大差距。
-
-**[NADER: Neural Architecture Design via Multi-Agent Collaboration](multi_agent/nader_neural_architecture_design_via_multi-agent_collaboration.md)**
-
-:   NADER 将神经架构设计建模为多 LLM Agent 协作任务——Reader 读论文提炼知识、Proposer 生成改进方案、Modifier 用 DAG 图实现修改、Reflector 从失败中学习经验，仅 10 次试验即突破 NAS-Bench-201 搜索空间的准确率上限，在 CIFAR-100 上达 74.51%（搜索空间最优 73.51%）。
-
----
-
-## 📊 LLM 评测 (4) { #llm_evaluation }
-
-**[Erase Diffusion: Empowering Object Removal Through Calibrating Diffusion Pathways (EraDiff)](llm_evaluation/erase_diffusion_empowering_object_removal_through_calibrating_diffusion_pathways.md)**
-
-:   本文提出EraDiff，通过链式校正优化范式（CRO）建立从"含物体"到"纯背景"的渐进扩散路径，并用自校正注意力机制（SRA）在采样时抑制伪影，使扩散模型真正理解"擦除意图"，在OpenImages V5上取得SOTA的Local FID（3.799），在复杂真实场景中显著优于SD2-Inpaint和LaMa。
-
-**[PosterO: Structuring Layout Trees to Enable Language Models in Generalized Content-Aware Layout Generation](llm_evaluation/postero_structuring_layout_trees_to_enable_language_models_in_generalized_conten.md)**
-
-:   提出 PosterO，将海报版面结构化为 SVG 布局树，通过设计意图向量化和层次节点表示实现与 LLM 的对接，利用意图对齐的上下文学习生成高质量内容感知版面，在多个基准上达到 SOTA 并引入首个支持多用途和多形状元素的 PStylish7 数据集。
-
-**[RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives](llm_evaluation/roadsocial_a_diverse_videoqa_dataset_and_benchmark_for_road_event_understanding_.md)**
-
-:   本文提出RoadSocial，一个来源于社交媒体的大规模多样化VideoQA数据集（13.2K视频、260K问答对），覆盖全球多地域多视角的道路事件场景，通过半自动标注框架和12类QA任务系统性评测了18种Video LLM的道路事件理解能力。
-
-**[UniGoal: Towards Universal Zero-shot Goal-oriented Navigation](llm_evaluation/unigoal_towards_universal_zero-shot_goal-oriented_navigation.md)**
-
-:   提出 UniGoal 统一零样本目标导航框架，通过将场景和目标统一表示为图结构，结合图匹配驱动的多阶段探索策略，在单一模型中实现对象类别、实例图像和文本描述三种目标类型的零样本导航，性能超越任务专用方法。
-
----
-
-## ✏️ 知识编辑 (1) { #knowledge_editing }
-
-**[MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](knowledge_editing/mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md)**
-
-:   提出 MoKus 框架，发现并利用"跨模态知识迁移"现象——在 LLM 文本编码器中更新知识会自动传递到视觉生成端——实现知识感知的概念定制，两阶段设计：先学视觉锚点表示，再秒级更新文本知识绑定。
-
----
-
-## ✍️ 文本生成 (2) { #nlp_generation }
-
-**[ArtFormer: Controllable Generation of Diverse 3D Articulated Objects](nlp_generation/artformer_controllable_generation_of_diverse_3d_articulated_objects.md)**
-
-:   提出ArtFormer框架，通过树结构参数化和条件扩散Shape Prior，从文本/图像描述生成高质量、多样化且运动学关系准确的3D关节物体，在生成质量和多样性上显著超越现有方法。
-
-**[Dense Match Summarization for Faster Two-view Estimation](nlp_generation/dense_match_summarization_for_faster_two-view_estimation.md)**
-
-:   本文提出一种稠密匹配摘要方案，通过聚类和代表性匹配选取将10000+稠密匹配压缩为约1%的代表匹配，并用9×9矩阵编码每个簇的几何约束，实现RANSAC鲁棒估计10-100倍加速且精度损失极小。
-
----
-
-## 🌐 多语言/翻译 (1) { #multilingual_mt }
-
-**[SMTPD: A New Benchmark for Temporal Prediction of Social Media Popularity](multilingual_mt/smtpd_a_new_benchmark_for_temporal_prediction_of_social_media_popularity.md)**
-
-:   构建首个时间对齐的社交媒体流行度时序预测基准SMTPD（282K YouTube样本，30天连续观测），并提出基于多模态特征提取+LSTM时序回归的baseline框架，发现早期流行度（EP）是准确预测后续流行度的关键。
-
----
-
-## 🔍 信息检索/RAG (12) { #information_retrieval }
-
-**[Advancing Myopia To Holism: Fully Contrastive Language-Image Pre-training](information_retrieval/advancing_myopia_to_holism_fully_contrastive_language-image_pre-training.md)**
-
-:   将CLIP从传统的一对一(image, text)对比学习升级为多对多(multi-image-embeddings, multi-texts)对比学习范式，通过VLM生成多视角多层次的描述文本、多分支视觉编码器输出多种视觉embedding，实现更全面的视觉语言对齐，在检索/分类/密集任务上大幅超越baseline。
-
-**[ChatHuman: Chatting about 3D Humans with Tools](information_retrieval/chathuman_chatting_about_3d_humans_with_tools.md)**
-
-:   提出 ChatHuman，一个基于 LLM 的语言驱动系统，通过自动选择和集成专门的 3D 人体分析工具（3D 姿态估计、形状恢复、接触检测、人物交互分析、情感识别等），利用学术论文作为工具使用说明和 RAG（检索增强生成）创建 in-context 示例以管理新工具，在工具选择准确率和整体 3D 人体任务性能上超越现有 LLM 模型。
-
-**[COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation](information_retrieval/cobra_combinatorial_retrieval_augmentation_for_few-shot_adaptation.md)**
-
-:   提出 COBRA——基于组合互信息（CMI）的检索增强少样本适配方法，通过同时考虑检索样本与目标任务的相似性和样本间的多样性，从 LAION-2B 中检索高质量辅助数据，在多个图像分类基准上一致性超越传统最近邻检索方法，且计算开销可忽略。
-
-**[EZSR: Event-based Zero-Shot Recognition](information_retrieval/ezsr_event-based_zero-shot_recognition.md)**
-
-:   提出 EZSR 框架用于事件相机数据的零样本物体识别，通过标量级调制（scalar-wise modulation）策略解决事件嵌入与 CLIP 文本嵌入之间的语义错位问题，并通过从静态 RGB 图像大规模合成事件数据来突破训练数据稀缺限制，在 N-ImageNet 上以 ViT-B/16 达到 47.84% 零样本准确率。
-
-**[Few-Shot Recognition via Stage-Wise Retrieval-Augmented Finetuning](information_retrieval/few-shot_recognition_via_stage-wise_retrieval-augmented_finetuning.md)**
-
-:   本文首次将检索增强学习（RAL）扩展到少样本识别（FSR），揭示了检索数据的分布不平衡和域差距两大挑战，提出两阶段方法 SWAT（先在混合数据上微调视觉编码器、再在少量标注数据上重训分类器），在 9 个基准上以 >6% 的优势超越所有先前方法。
-
-**[GOAL: Global-Local Object Alignment Learning](information_retrieval/goal_global-local_object_alignment_learning.md)**
-
-:   提出GOAL方法，通过局部图-句匹配（LISM）和Token相似性学习（TSL）两个模块增强CLIP对长文本描述的理解能力，在全局对齐的基础上引入局部语义对齐，大幅提升图文检索性能。
-
-**[LotusFilter: Fast Diverse Nearest Neighbor Search via a Learned Cutoff Table](information_retrieval/lotusfilter_fast_diverse_nearest_neighbor_search_via_a_learned_cutoff_table.md)**
-
-:   提出LotusFilter，通过离线预计算每个向量的邻近关系构建截断表(cutoff table)，在线阶段用贪心集合删除实现多样化过滤，将传统 $O(DS^2)$ 的多样化搜索降至 $O(T+S+KL)$，过滤仅需0.02ms/query，内存仅为传统方法的1/40。
-
-**[Preserving Clusters in Prompt Learning for Unsupervised Domain Adaptation](information_retrieval/preserving_clusters_in_prompt_learning_for_unsupervised_domain_adaptation.md)**
-
-:   提出 CRPL 框架，通过源域增强的伪标签和基于最优传输的聚类保持策略，改进 CLIP 在无监督域适应（UDA）中的 prompt 学习，使得目标域 prompt 的文本嵌入能更好地覆盖视觉嵌入的聚类结构。
-
-**[RANGE: Retrieval Augmented Neural Fields for Multi-Resolution Geo-Embeddings](information_retrieval/range_retrieval_augmented_neural_fields_for_multi-resolution_geo-embeddings.md)**
-
-:   提出RANGE，通过检索增强策略将高分辨率视觉信息近似注入地理位置嵌入，解决了对比学习（如SatCLIP）丢弃模态特有信息的问题，在分类任务上提升高达13.1%，回归任务上提升0.145 $R^2$。
-
-**[Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis](information_retrieval/retrieving_semantics_from_the_deep_an_rag_solution_for_gesture_synthesis.md)**
-
-:   RAG-Gesture 提出了一种基于检索增强生成（RAG）的手势合成框架，利用显式语言学知识从手势数据库中检索语义相关的示例动作，并通过 DDIM 反演和检索引导在推理时注入扩散模型生成过程，无需训练即可产生语义丰富且自然的共语手势。
-
-[查看全部12篇「信息检索/RAG」论文 →](information_retrieval/)
-
----
-
-## 🔗 因果推理 (4) { #causal_inference }
-
-**[Adventurer: Optimizing Vision Mamba Architecture Designs for Efficiency](causal_inference/adventurer_optimizing_vision_mamba_architecture_designs_for_efficiency.md)**
-
-:   提出 Adventurer 系列视觉模型，通过"头部平均池化 token"和"层间翻转"两个简单设计将图像输入适配到单向因果扫描框架中，使 Mamba 架构在视觉任务上实现 4-6 倍于现有 Vision Mamba 的训练速度，同时保持与 ViT 相当甚至更优的精度。
-
-**[Image Quality Assessment: Investigating Causal Perceptual Effects with Abductive Counterfactual Inference](causal_inference/image_quality_assessment_investigating_causal_perceptual_effects_with_abductive_.md)**
-
-:   将全参考图像质量评估（FR-IQA）形式化为反事实推断问题，通过结构因果模型（SCM）区分深度特征中与感知质量因果相关的成分和噪声成分，实现无需训练、可跨骨干网络的鲁棒质量预测，在多个基准数据集上取得竞争性性能。
-
-**[Joint Scheduling of Causal Prompts and Tasks for Multi-Task Learning](causal_inference/joint_scheduling_of_causal_prompts_and_tasks_for_multi-task_learning.md)**
-
-:   提出 JSCPT（Joint Scheduling of Causal Prompts and Tasks）框架，首先设计多任务视觉语言提示（MTVLP）并通过因果干预消除提示中的虚假相关特征，然后通过自适应任务调度器根据训练过程中任务关系的动态变化调整学习顺序和权重，在多个多任务视觉识别基准上取得显著提升。
-
-**[FG-VCE: Towards Fine-Grained Interpretability — Counterfactual Explanations for Misclassification with Saliency Partition](causal_inference/towards_fine-grained_interpretability_counterfactual_explanations_for_misclassif.md)**
-
-:   提出 FG-VCE（Fine-Grained Visual Contrastive Explanation）框架，通过 Shapley 值计算特征点贡献度、显著性分区模块隔离局部特征、以及迭代反事实生成策略，首次实现了对象级和部件级的细粒度反事实解释，揭示模型误分类的具体原因——"哪些细粒度特征导致了错误"以及"哪些局部区域主导了预测改变"。
-
----
-
-## 🌍 地球科学 (1) { #earth_science }
-
-**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](earth_science/geochemad_benchmarking_unsupervised_geochemical_anomaly_detection_for_mineral_ex.md)**
-
-:   提出 GeoChemAD 开源基准数据集（8 个子集，覆盖多区域/多采样源/多目标元素）和 GeoChemFormer 框架，通过空间上下文自监督预训练和元素依赖建模实现无监督地球化学异常检测，在所有子集上取得最优 AUC。
 
 </div>

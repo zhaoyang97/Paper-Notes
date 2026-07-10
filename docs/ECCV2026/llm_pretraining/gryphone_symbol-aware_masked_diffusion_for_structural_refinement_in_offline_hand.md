@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] GryphOne: Symbol-Aware Masked Diffusion for Structural Refinement in Offline Handwritten Mathematical Expression Recognition
+description: >-
+  [ECCV 2026][预训练][手写数学表达式识别] GryphOne 将手写数学表达式识别（HMER）从自回归序列生成重新定义为离散掩码扩散的迭代符号精炼过程，通过符号感知分词（SAT）保持局部编辑的语法一致性，并用随机掩码互学习（RMML）提升精炼稳定性，在 MathWriting 上以 5.51% CER 和 59.9% ExpRate 全面超越重实现的自回归基线及商用 HMER 系统。
+tags:
+  - "ECCV 2026"
+  - "预训练"
+  - "手写数学表达式识别"
+  - "掩码扩散模型"
+  - "符号感知分词"
+  - "互学习"
+  - "迭代精炼"
+---
+
 # GryphOne: Symbol-Aware Masked Diffusion for Structural Refinement in Offline Handwritten Mathematical Expression Recognition
 
 **会议**: ECCV 2026  
@@ -120,3 +135,19 @@ SAT 和 RMML 在不同扩散深度 $T$ 下的消融结果（MathWriting 验证�
 - 实验充分度: ⭐⭐⭐⭐ 在 MathWriting + CROHME 双基准上全面对比 AR/NAR 基线，消融覆盖 SAT×RMML×T 三维度，步进分析和错误恢复实验深入；但缺少与大型 VLM（如 Uni-MuMER）的直接对比，且未探索不同编码器 backbone
 - 写作质量: ⭐⭐⭐⭐⭐ 结构清晰，从 AR/NAR 的各自缺陷自然引出扩散的必要性，算法伪代码与公式配合得当，实验分析有因果推理而非堆砌数字
 - 价值: ⭐⭐⭐⭐ 为 HMER 开辟了扩散范式的新方向，"精炼而非生成"的思想可迁移到其他结构化识别任务；实用部署上推理延迟仍是障碍，但截断调度提供了可操作的折中方案
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Soft-Masked Diffusion Language Models](../../ICLR2026/llm_pretraining/soft-masked_diffusion_language_models.md)
+- [\[ICML 2026\] Tuning the Implicit Regularizer of Masked Diffusion Language Models: Enhancing Generalization via Insights from k-Parity](../../ICML2026/llm_pretraining/tuning_the_implicit_regularizer_of_masked_diffusion_language_models_enhancing_ge.md)
+- [\[ICML 2026\] Beyond Structural Symmetries: Linear Mode Connectivity via Neuron Identifiability](../../ICML2026/llm_pretraining/beyond_structural_symmetries_linear_mode_connectivity_via_neuron_identifiability.md)
+- [\[ICML 2026\] Names Don't Matter: Symbol-Invariant Transformer for Open-Vocabulary Learning](../../ICML2026/llm_pretraining/names_dont_matter_symbol-invariant_transformer_for_open-vocabulary_learning.md)
+- [\[ICLR 2026\] Should We Still Pretrain Encoders with Masked Language Modeling?](../../ICLR2026/llm_pretraining/should_we_still_pretrain_encoders_with_masked_language_modeling.md)
+
+</div>
+
+<!-- RELATED:END -->

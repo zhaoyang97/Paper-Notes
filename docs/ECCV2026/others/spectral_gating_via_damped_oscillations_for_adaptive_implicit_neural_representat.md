@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] Spectral Gating via Damped Oscillations for Adaptive Implicit Neural Representations
+description: >-
+  [ECCV 2026][隐式神经表示] 本文从受迫阻尼谐振子的稳态响应出发，推导出一种物理驱动的激活函数 FDHO，将激活幅度与频率通过二阶传递函数耦合，产生隐式频谱门控机制：阻尼因子梯度的自交互项始终关闭频谱门，而信号项仅在目标存在相干频率分量时打开频谱门，从而实现自动区分信号与噪声、无需任何显式正则化或任务特化超参数调优，在信号拟合、去噪、CT 重建、超分辨率等任务上全面达到 SOTA 或竞品水平。
+tags:
+  - "ECCV 2026"
+  - "隐式神经表示"
+  - "频谱门控"
+  - "阻尼振荡器"
+  - "激活函数设计"
+  - "粗到细学习"
+---
+
 # Spectral Gating via Damped Oscillations for Adaptive Implicit Neural Representations
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.23129](https://arxiv.org/abs/2606.23129)  
-**代码**: https://alex-costanzino.github.io/fdho/ (有)  
+**代码**: [https://alex-costanzino.github.io/fdho/](https://alex-costanzino.github.io/fdho/) (有)  
 **领域**: 3D视觉 / 神经表示  
 **关键词**: 隐式神经表示, 频谱门控, 阻尼振荡器, 激活函数设计, 粗到细学习
 
@@ -145,3 +159,19 @@ FDHO 在 5 张图像上取得 4 张的 Final 和 Peak PSNR 最优，领先第二
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 1D/2D/3D/音频 8 种任务 + 9 个 baseline + 对照研究 + 消融 + 计算开销分析，但缺少大规模 NeRF 场景验证
 - 写作质量: ⭐⭐⭐⭐⭐ 理论推导清晰（从定义到性质到门控到多层组成到 NTK，逻辑链完整），实验分析细致（每种设置的讨论都落到 Corollary 的预测上），附录完整
 - 价值: ⭐⭐⭐⭐⭐ 提出了一个不依赖显式正则化的自适应频谱控制机制，原理通用、代码轻量（仅增加 24 个参数）、与现有 INR 框架兼容，具有直接的实际应用价值，也为物理驱动深度学习提供了方法论参考
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Beyond Uniformity: Regularizing Implicit Neural Representations through a Lipschitz Lens](../../ICLR2026/others/beyond_uniformity_regularizing_implicit_neural_representations_through_a_lipschi.md)
+- [\[ICLR 2026\] SONIC: Spectral Oriented Neural Invariant Convolutions](../../ICLR2026/others/sonic_spectral_oriented_neural_invariant_convolutions.md)
+- [\[ICLR 2026\] Exploring State-Space Models for Data-Specific Neural Representations](../../ICLR2026/others/exploring_state-space_models_for_data-specific_neural_representations.md)
+- [\[ICLR 2026\] A Brain-Inspired Gating Mechanism Unlocks Robust Computation in Spiking Neural Networks](../../ICLR2026/others/a_brain-inspired_gating_mechanism_unlocks_robust_computation_in_spiking_neural_n.md)
+- [\[CVPR 2025\] EVOS: Efficient Implicit Neural Training via EVOlutionary Selector](../../CVPR2025/others/evos_efficient_implicit_neural_training_via_evolutionary_selector.md)
+
+</div>
+
+<!-- RELATED:END -->

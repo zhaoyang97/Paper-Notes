@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] ET-SAM: Efficient Point Prompt Prediction in SAM for Unified Scene Text Detection and Layout Analysis
+description: >-
+  [ECCV 2026][语义分割][场景文本检测] ET-SAM 用轻量 Point Decoder 预测词级热力图以提取稀疏前景点，替代 Hi-SAM 从像素级分割中随机采样上千个点的做法，配合可学习任务提示和联合训练策略统一利用多粒度异构标注数据，在 HierText 上以约 3 倍推理加速达到有竞争力性能，并在 Total-Text/CTW1500/ICDAR2015 上平均 F-score 提升 11.0%。
+tags:
+  - "ECCV 2026"
+  - "语义分割"
+  - "场景文本检测"
+  - "SAM"
+  - "点提示预测"
+  - "布局分析"
+  - "联合训练"
+---
+
 # ET-SAM: Efficient Point Prompt Prediction in SAM for Unified Scene Text Detection and Layout Analysis
 
 **会议**: ECCV 2026  
@@ -174,3 +189,19 @@ $$\mathcal{L} = 50 \times \mathcal{L}_{point} + \mathcal{L}_{word} + \mathcal{L}
 - 实验充分度: ⭐⭐⭐⭐⭐ 主实验、消融、阈值敏感性、数据规模分析、附录中与 DPText-DETR 的公平对比一应俱全，推理速度有逐阶段的详细拆解
 - 写作质量: ⭐⭐⭐⭐ 结构清晰、动机充分、消融逻辑完整，但部分公式细节（如热力图 σ_w 的自适应计算方式）未给出完整表达式
 - 价值: ⭐⭐⭐⭐ 为 SAM-based 文本检测提供了明确的效率优化路径，任务提示 + 联合训练的策略可直接推广到其他 prompt-based 分割任务和多数据集联合训练场景
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] SAM-Veteran: An MLLM-based Human-like SAM Agent for Reasoning Segmentation](../../ICLR2026/segmentation/sam-veteran_an_mllm-based_human-like_sam_agent_for_reasoning_segmentation.md)
+- [\[CVPR 2025\] HFP-SAM: Hierarchical Frequency Prompted SAM for Efficient Marine Animal Segmentation](../../CVPR2025/segmentation/hfp-sam_hierarchical_frequency_prompted_sam_for_efficient_marine_animal_segmenta.md)
+- [\[ICML 2026\] Beyond Detection: A Structure-Aware Framework for Scene Text Tracking](../../ICML2026/segmentation/beyond_detection_a_structure-aware_framework_for_scene_text_tracking.md)
+- [\[CVPR 2026\] V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence](../../CVPR2026/segmentation/v2-sam_marrying_sam2_with_multi-prompt_experts_for_cross-view_object_corresponde.md)
+- [\[NeurIPS 2025\] SAM-R1: Leveraging SAM for Reward Feedback in Multimodal Segmentation via Reinforcement Learning](../../NeurIPS2025/segmentation/sam-r1_leveraging_sam_for_reward_feedback_in_multimodal_segmentation_via_reinfor.md)
+
+</div>
+
+<!-- RELATED:END -->

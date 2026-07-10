@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving
+description: >-
+  [ECCV 2026][自动驾驶][雷达-相机融合] Horizon3D 提出一种面向长距离自动驾驶感知的稀疏雷达-相机融合框架，用高斯原语（Gaussian primitives）捕捉目标级细节、稀疏 BEV 特征编码场景级上下文，并通过双路径时序融合（BEV 路径做多帧累积 + Gaussian 路径做逐目标运动传播）同时解决远距离稀疏性和高速大位移两难问题，在 TruckScenes 上以 +3.0 NDS / +1.6 mAP 超过此前最优雷达-相机融合方法，且推理速度快于现有 BEV 融合方法。
+tags:
+  - "ECCV 2026"
+  - "自动驾驶"
+  - "雷达-相机融合"
+  - "3D目标检测"
+  - "长距离感知"
+  - "高斯原语"
+  - "稀疏BEV"
+---
+
 # Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving
 
 **会议**: ECCV 2026  
@@ -163,3 +178,19 @@ Horizon3D 以 V2-99 超过此前最优 SpaRC +3.0 NDS / +1.6 mAP，且 mAVE（�
 - 实验充分度: 4/5 主实验覆盖 6 个 baseline + 2 种 backbone + val/test 双集，消融覆盖组件分析、初始化策略、扩框 margin、双路径分解、速度补偿、采样策略、时序自注意力、编码器层数、延迟分解、距离分段、逐类 AP，相当详尽。唯一欠缺是对 TruckScenes 以外的数据集和不同雷达型号的泛化性验证。
 - 写作质量: 4/5 动机链条从"BEV vs query 各缺一半"的矛盾出发逐步引出三个模块，逻辑流畅。图表清晰（Fig. 2 整体架构、Fig. 3 Splatting 与时序对齐细节）。supplementary 对 loss 和网络细节交代充分。
 - 价值: 4/5 长距离雷达-相机融合是自动驾驶落地的真需求，Horizon3D 在精度和效率两个维度同时超过此前最优方法，且稀疏表征的设计哲学（不构建稠密 BEV、用高斯替代查询、双路径分工）对后续工作有启发性。静态类别和雷达缺失场景的短板也指明了后续改进方向。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICCV 2025\] Self-Supervised Sparse Sensor Fusion for Long Range Perception](../../ICCV2025/autonomous_driving/self-supervised_sparse_sensor_fusion_for_long_range_perception.md)
+- [\[CVPR 2026\] R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection](../../CVPR2026/autonomous_driving/r4det_4d_radar-camera_fusion_for_high-performance_3d_object_detection.md)
+- [\[CVPR 2025\] RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion](../../CVPR2025/autonomous_driving/racformer_towards_high-quality_3d_object_detection_via_query-based_radar-camera_.md)
+- [\[CVPR 2026\] TruckDrive: Long-Range Autonomous Highway Driving Dataset](../../CVPR2026/autonomous_driving/truckdrive_long-range_autonomous_highway_driving_dataset.md)
+- [\[CVPR 2026\] RPGFusion: 4D Radar Prior-Guided Multi-Modal Fusion for 3D Detection](../../CVPR2026/autonomous_driving/rpgfusion_4d_radar_prior-guided_multi-modal_fusion_for_3d_detection.md)
+
+</div>
+
+<!-- RELATED:END -->

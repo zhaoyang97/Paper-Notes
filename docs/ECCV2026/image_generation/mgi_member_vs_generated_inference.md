@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MGI: Member vs Generated Inference
+description: >-
+  [ECCV 2026][图像生成][成员推理攻击] 本文提出一个新任务 MGI（Member vs Generated Inference）：给定一个样本和一个生成模型，判断该样本是模型的训练成员还是模型自己生成的输出；并设计了三阶段级联方法 DCB，利用自编码器重建/量化误差过滤生成样本、再用潜空间生成器做成员推理、最后跨生成器比较条件概率做溯源，在 IAR 和扩散模型上均显著超越现有 MIA 和归属方法。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "成员推理攻击"
+  - "生成内容归属"
+  - "隐私审计"
+  - "数据溯源"
+  - "自编码器一致性"
+---
+
 # MGI: Member vs Generated Inference
 
 **会议**: ECCV 2026  
@@ -146,3 +161,19 @@ DM 上 PRADA 几乎完全失效（Avg 仅 0.5），因为它仅基于潜空间�
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 3 种 IAR + 2 种 DM + 2 种 SOTA DM，直接训练 + 模型衍生 + 记忆样本 + 强 MIA 影子模型对比，附录有 AUC/TPR@5%FPR/跨架构/鲁棒性/超参/计算开销分析；DM 上 NM/NN 区分受限于基线 MIA 是本任务固有难点而非实验不足。
 - 写作质量: ⭐⭐⭐⭐⭐ 问题定义清晰（Figure 1 的符号图示极好），从 MIA/归属方法的失效分析到 DCB 三阶段设计逻辑自洽，每阶段「为什么需要、解决了什么、为什么不能跳过」交代透彻。
 - 价值: ⭐⭐⭐⭐⭐ MGI 作为一个新推理任务有实际意义——检测合成数据污染训练集、阻断数据回路防止模型退化、审计模型训练数据来源；DCB 的自编码器自洽性思想可能推广到其他生成模态（音频、视频、文本）。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Diversity over Uniformity: Rethinking Representation in Generated Image Detection](../../CVPR2026/image_generation/diversity_over_uniformity_rethinking_representation_in_generated_image_detection.md)
+- [\[NeurIPS 2025\] Epistemic Uncertainty for Generated Image Detection](../../NeurIPS2025/image_generation/epistemic_uncertainty_for_generated_image_detection.md)
+- [\[ICLR 2026\] Secure Inference for Diffusion Models via Unconditional Scores](../../ICLR2026/image_generation/secure_inference_for_diffusion_models_via_unconditional_scores.md)
+- [\[NeurIPS 2025\] Detecting Generated Images by Fitting Natural Image Distributions](../../NeurIPS2025/image_generation/detecting_generated_images_by_fitting_natural_image_distributions.md)
+- [\[CVPR 2026\] Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution](../../CVPR2026/image_generation/attribution_as_retrieval_modelagnostic_aigenerated.md)
+
+</div>
+
+<!-- RELATED:END -->

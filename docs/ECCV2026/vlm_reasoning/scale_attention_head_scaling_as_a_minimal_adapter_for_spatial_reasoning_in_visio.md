@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] ScAle: Attention Head Scaling as a Minimal Adapter for Spatial Reasoning in Vision–Language Models
+description: >-
+  [ECCV 2026][VLM Reasoning][空间推理] ScAle提出一种极轻量的VLM空间推理适配方法：在完全冻结的backbone中，为每层每个注意力头和MLP输出学习一个bounded scalar（通过tanh约束在(1-s_max, 1+s_max)范围内），仅对last token的激活值做乘法缩放，以约1K可训练参数在SpatialEval上实现最高134.1%的相对精度提升，参数效率比LoRA高2500倍以上。
+tags:
+  - "ECCV 2026"
+  - "VLM Reasoning"
+  - "空间推理"
+  - "参数高效微调"
+  - "激活缩放"
+  - "注意力头"
+  - "VLM"
+---
+
 # ScAle: Attention Head Scaling as a Minimal Adapter for Spatial Reasoning in Vision–Language Models
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.29579](https://arxiv.org/abs/2606.29579)  
-**代码**: https://github.com/rchowdhubnor/ScAle.git  
+**代码**: [https://github.com/rchowdhubnor/ScAle.git](https://github.com/rchowdhubnor/ScAle.git)  
 **领域**: 多模态VLM / LLM效率  
 **关键词**: 空间推理, 参数高效微调, 激活缩放, 注意力头, VLM
 
@@ -143,3 +158,19 @@ ScAle在真实空间VQA上带来35-36个绝对百分点的提升，在POPE幻觉
 - 实验充分度: ⭐⭐⭐⭐ 覆盖4个模型、2种架构家族、3个SpatialEval子任务、2个真实VQA、POPE幻觉基准、GLUE语言理解、交叉任务迁移、LoRA混合方案——实验矩阵相当全面。缺少$s_{max}$消融和对Spatial-Map弱点的深入诊断是两个遗憾。WhatsUp-VLM和POPE上的表现有效缓解了对"只在合成benchmark上有效"的质疑。
 - 写作质量: ⭐⭐⭐⭐ 从preliminary experiment引出motivation的叙事逻辑清晰，hotspot热力图非常有说服力。方法描述公式完整、notation一致。实验分析有insight（如"spatial reasoning failures arise from mis-calibrated token interactions"）。第4.5节Advantages略显重复，可精简。
 - 价值: ⭐⭐⭐⭐⭐ 在边缘部署、多任务适配、联邦学习等参数/带宽受限场景中，1K参数的适配器有极强的实用价值。即使作为LoRA的补充（混合方案），也能以36%的参数超越全量LoRA。这种"先诊断再微调"的工作流（用ScAle快速找到关键模块→针对性加更大容量adapter）可能成为新的best practice。论文揭示的"模型能力挖掘而非能力注入"范式，对理解VLM的内部机制也有深远启发。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] On Test-Time Scaling for Vision-Language Models](on_test-time_scaling_for_vision-language_models.md)
+- [\[ECCV 2026\] Towards Spatial Trace with Reasoning in Vision-Language Models for Robotics](towards_spatial_trace_with_reasoning_in_vision-language_models_for_robotics.md)
+- [\[ICLR 2026\] Pursuing Minimal Sufficiency in Spatial Reasoning](../../ICLR2026/vlm_reasoning/pursuing_minimal_sufficiency_in_spatial_reasoning.md)
+- [\[ICLR 2026\] InternSpatial: A Comprehensive Dataset for Spatial Reasoning in Vision-Language Models](../../ICLR2026/vlm_reasoning/internspatial_a_comprehensive_dataset_for_spatial_reasoning_in_vision-language_m.md)
+- [\[ICLR 2026\] OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](../../ICLR2026/vlm_reasoning/omnispatial_towards_comprehensive_spatial_reasoning_benchmark_for_vision_languag.md)
+
+</div>
+
+<!-- RELATED:END -->

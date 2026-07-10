@@ -1,9 +1,24 @@
+---
+title: >-
+  [论文解读] LIBERO-Safety: A Comprehensive Benchmark for Physical and Semantic Safety in Vision-Language-Action Models
+description: >-
+  [ECCV 2026][机器人][VLA安全] 本文提出 LIBERO-Safety，一个通过参数化场景定义语言（UBDDL）程序化生成安全性关键场景、以 keypose 驱动的大规模无碰撞演示数据管线（19664 条）、以及五维安全任务分类体系（75 个任务）来系统评估 VLA 模型物理安全与语义安全的全面基准，揭示了当前 VLA 模型在泛化能力与安全执行之间存在根本性张力——高多样性训练虽能提升安全轨迹质量，但任务成功率仍受制于次优轨迹合成与语义错配。
+tags:
+  - "ECCV 2026"
+  - "机器人"
+  - "VLA安全"
+  - "机器人基准测试"
+  - "碰撞避免"
+  - "语义安全"
+  - "数据生成管线"
+---
+
 # LIBERO-Safety: A Comprehensive Benchmark for Physical and Semantic Safety in Vision-Language-Action Models
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.23686](https://arxiv.org/abs/2606.23686)  
 **论文**: [Project Page](https://libero-safety.github.io/)  
-**代码**: https://github.com/LIBERO-SAFETY/LIBERO-Safety  
+**代码**: [https://github.com/LIBERO-SAFETY/LIBERO-Safety](https://github.com/LIBERO-SAFETY/LIBERO-Safety)  
 **领域**: robotics  
 **关键词**: VLA安全, 机器人基准测试, 碰撞避免, 语义安全, 数据生成管线
 
@@ -159,3 +174,19 @@ $$\text{LDLJ} = -\ln\left(\frac{T^{3}}{v_{\text{peak}}^{2}}\int_{0}^{T}\left\|\f
 - 实验充分度: ⭐⭐⭐⭐⭐ 评测了 10 个模型覆盖 4 种架构范式、75 个任务 × 3 个级别的全矩阵结果，包含数据规模消融、环境扰动消融、zero-shot 基线、obstacle-free SFT 基线和真实世界验证，实验设计和分析深度都很扎实。
 - 写作质量: ⭐⭐⭐⭐ 论文结构清晰，5 个套件的递进设计和 8 个 key finding 的组织使大量实验结果易于理解；Appendix 详尽，包含完整的 UBDDL 定义、任务配置和超参表。略有不足的是部分长句信息密度过高。
 - 价值: ⭐⭐⭐⭐⭐ 为 VLA 安全评测提供了目前最系统、最可复现的基准框架和数据管线。揭示的泛化-安全张力（sub-optimal trajectory synthesis 和 semantic misalignment 两个核心失败模式）为后续研究指明了具体方向，数据集和评估协议有望成为该领域的标准测试平台。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] LIBERO-Plus: A Progressive Robustness Benchmark for Visual-Language-Action Models](../../CVPR2026/robotics/libero-plus_a_progressive_robustness_benchmark_for_visual-language-action_models.md)
+- [\[NeurIPS 2025\] SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning](../../NeurIPS2025/robotics/safevla_towards_safety_alignment_of_vision-language-action_model_via_constrained.md)
+- [\[AAAI 2026\] Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning](../../AAAI2026/robotics/continuous_vision-language-action_co-learning_with_semantic-.md)
+- [\[CVPR 2026\] AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions](../../CVPR2026/robotics/agentsafe_benchmarking_the_safety_of_embodied_agents_on_hazardous_instructions.md)
+- [\[ECCV 2026\] PolicyTrim: Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models](policytrim_boosting_intrinsic_policy_efficiency_of_vision-language-action_models.md)
+
+</div>
+
+<!-- RELATED:END -->

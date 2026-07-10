@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising
+description: >-
+  [ECCV 2026][图像恢复][幻灯片个性化] Spire 将页面级幻灯片个性化（PSP）建模为逆规划问题，通过对黄金幻灯片施加离散结构扰动构建自监督"去噪"信号，训练 Critic 和 Planner 两个 7B 级智能体在 RL 下协同迭代修正设计方案，无需依赖特定执行器即可推断用户的隐式设计意图，在视觉相似度和 VLM-as-Judge 评分上均显著优于基于 GPT 的强基线。
+tags:
+  - "ECCV 2026"
+  - "图像恢复"
+  - "幻灯片个性化"
+  - "逆规划"
+  - "结构去噪"
+  - "强化学习"
+  - "多智能体"
+---
+
 # Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising
 
 **会议**: ECCV 2026  
@@ -149,3 +164,19 @@ Spire 以两个 7B 模型的规模，在 Judge 综合评分上超越所有 GPT �
 - 实验充分度: ⭐⭐⭐⭐ 主实验覆盖 5 个基线、两种测试场景、两类评估指标，消融覆盖训练、迭代、Critic 三个维度。缺少对扰动强度、参考数量的敏感性分析。
 - 写作质量: ⭐⭐⭐⭐⭐ 问题形式化清晰、方法动机充分、理论分析严格、实验解读到位。结构扰动和双智能体训练的描述环环相扣，逻辑链完整。
 - 价值: ⭐⭐⭐⭐⭐ 提出的"逆规划 + 结构去噪"范式具有跨任务迁移潜力，双智能体解耦训练的方差降低理论为类似黑盒优化场景提供了可复用的分析框架。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Zero-Shot Image Denoising via Hybrid Prior-Guided Pseudo Sample Generation](../../CVPR2026/image_restoration/zero-shot_image_denoising_via_hybrid_prior-guided_pseudo_sample_generation.md)
+- [\[ICML 2026\] Measurement-Consistent Langevin Corrector for Stabilizing Latent Diffusion Inverse Problem Solvers](../../ICML2026/image_restoration/measurement-consistent_langevin_corrector_for_stabilizing_latent_diffusion_inver.md)
+- [\[ICML 2026\] Learning Normalized Energy Models for Linear Inverse Problems](../../ICML2026/image_restoration/learning_normalized_energy_models_for_linear_inverse_problems.md)
+- [\[CVPR 2026\] PNG: Diffusion-Based sRGB Real Noise Generation via Prompt-Driven Noise Representation Learning](../../CVPR2026/image_restoration/diffusion-based_srgb_real_noise_generation_via_prompt-driven_noise_representatio.md)
+- [\[CVPR 2026\] FastGaMer: Efficient GainMap Learning for Practical Inverse Tone Mapping](../../CVPR2026/image_restoration/fastgamer_efficient_gainmap_learning_for_practical_inverse_tone_mapping.md)
+
+</div>
+
+<!-- RELATED:END -->

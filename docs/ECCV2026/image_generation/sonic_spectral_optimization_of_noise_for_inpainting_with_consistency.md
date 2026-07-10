@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] SONIC: Spectral Optimization of Noise for Inpainting with Consistency
+description: >-
+  [ECCV 2026][图像生成][图像修复] SONIC 提出一种免训练的扩散模型图像修复方法，核心思想是优化初始噪声样本使其经过去噪后能忠实重建未遮挡区域，通过去噪轨迹线性化绕过昂贵的反向传播，并在频谱域中用 Adam 做预条件优化以实现稳定收敛，在三个标准修复数据集上全面超越现有方法（包括需要专门训练的 BrushNet）。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "图像修复"
+  - "初始噪声优化"
+  - "频谱预条件"
+  - "免训练"
+  - "线性近似"
+---
+
 # SONIC: Spectral Optimization of Noise for Inpainting with Consistency
 
 **会议**: ECCV 2026  
 **arXiv**: [2511.19985](https://arxiv.org/abs/2511.19985)  
-**代码**: https://ubc-vision.github.io/sonic/ (项目页)  
+**代码**: [https://ubc-vision.github.io/sonic/](https://ubc-vision.github.io/sonic/) (项目页)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 图像修复, 初始噪声优化, 频谱预条件, 免训练, 线性近似
 
@@ -133,3 +148,19 @@ SONIC 在三个数据集的 SSIM、LPIPS、FID 上均取得最优。FID 优势�
 - 实验充分度: ⭐⭐⭐⭐⭐ 三个标准数据集 + 五类基线 + 八项指标 + 消融 + 用户研究 + 补充材料中包含对非流模型、视频模型、额外噪声优化基线的实验，覆盖面广且结论自洽。
 - 写作质量: ⭐⭐⭐⭐☆ 方法和实验描述清晰，公式推导完整，补充材料中对线性化假设的实证验证和频谱优化的理论分析很加分。略有不足是 PSNR/CLIP 指标不如 baseline 时的辩解略显啰嗦。
 - 价值: ⭐⭐⭐⭐☆ 为免训练扩散模型修复提供了一个新范式——专注于输入端的初始噪声优化而非输出端的去噪过程修改。这种"输入端优化"的思路可以迁移到其他生成式逆问题任务，有潜在的广泛影响力。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Curvature-Adaptive Consistency Flow Matching: Autonomous Trajectory Optimization via Reinforcement Learning](curvature-adaptive_consistency_flow_matching_autonomous_trajectory_optimization_.md)
+- [\[ICLR 2026\] Diverse Text-to-Image Generation via Contrastive Noise Optimization](../../ICLR2026/image_generation/diverse_text-to-image_generation_via_contrastive_noise_optimization.md)
+- [\[ECCV 2026\] Dual-End Consistency Model](dual-end_consistency_model.md)
+- [\[ICML 2026\] Offline Preference Optimization for Rectified Flow with Noise-Tracked Pairs](../../ICML2026/image_generation/offline_preference_optimization_for_rectified_flow_with_noise-tracked_pairs.md)
+- [\[CVPR 2026\] From Inpainting to Layer Decomposition: Repurposing Generative Inpainting Models for Image Layer Decomposition](../../CVPR2026/image_generation/from_inpainting_to_layer_decomposition_repurposing_generative_inpainting_models_.md)
+
+</div>
+
+<!-- RELATED:END -->

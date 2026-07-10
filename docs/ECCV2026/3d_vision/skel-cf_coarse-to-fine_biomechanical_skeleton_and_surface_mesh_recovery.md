@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SKEL-CF: Coarse-to-Fine Biomechanical Skeleton and Surface Mesh Recovery
+description: >-
+  [ECCV 2026][3D视觉][3D人体重建] SKEL-CF 提出了一种从单张 RGB 图像恢复生物力学骨骼和表面网格的粗到细框架：先用高质量 HMR-SKEL 数据集训练，再用显式相机内参建模消除深度歧义，最后通过编码器粗预测 + 解码器逐层迭代优化的策略，在 MOYO 等挑战性数据集上大幅超越此前 SKEL 方法 HSMR（MPJPE 降低 18.6%），同时达到与 SMPL 方法相当甚至更优的数值精度，且输出解剖学上更合理的姿态。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D人体重建"
+  - "SKEL生物力学模型"
+  - "粗到细估计"
+  - "相机内参建模"
+  - "迭代优化"
+---
+
 # SKEL-CF: Coarse-to-Fine Biomechanical Skeleton and Surface Mesh Recovery
 
 **会议**: ECCV 2026  
@@ -141,3 +156,19 @@ $\mathcal{L}_{\text{refine}}$ 是对中间解码器层的辅助姿态损失 $\su
 - 实验充分度: 5/5 [5 个数据集、与 10+ 方法对比、完整消融（含数据、相机、C2F、Refine 四维度）、迭代优化子消融（稀疏 vs 全监督 vs 循环解码器）、相机外参分析、逐层注意力可视化、2D 指标讨论——实验设计几乎无可挑剔]
 - 写作质量: 4/5 [结构清晰、方法描述细致、公式完整、消融分析有理有据；Fig.5 关于 COCO PCK 钝化的讨论体现了诚实的数据解读态度；可改进之处是 MOYO-HARD 构造逻辑的论证不够充分]
 - 价值: 4/5 [为 SKEL 生态提供了一个强大的基线方法，数据集 HMR-SKEL 本身具有独立贡献价值；对将 DETR 式精修引入回归任务有示范意义；但受限于 SKEL 目前的覆盖范围（无手部/面部），应用场景仍较窄]
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Animator-Centric Skeleton Generation on Objects with Fine-Grained Details](../../CVPR2026/3d_vision/animator-centric_skeleton_generation_on_objects_with_fine-grained_details.md)
+- [\[ICLR 2026\] Generalizable Coarse-to-Fine Robot Manipulation via Language-Aligned 3D Keypoints](../../ICLR2026/3d_vision/generalizable_coarse-to-fine_robot_manipulation_via_language-aligned_3d_keypoint.md)
+- [\[CVPR 2026\] 3D-Fixer: Coarse-to-Fine In-place Completion for 3D Scenes from a Single Image](../../CVPR2026/3d_vision/3d-fixer_coarse-to-fine_in-place_completion_for_3d_scenes_from_a_single_image.md)
+- [\[NeurIPS 2025\] Mesh-RFT: Enhancing Mesh Generation via Fine-Grained Reinforcement Fine-Tuning](../../NeurIPS2025/3d_vision/mesh-rft_enhancing_mesh_generation_via_fine-grained_reinforcement_fine-tuning.md)
+- [\[CVPR 2025\] PromptHMR: Promptable Human Mesh Recovery](../../CVPR2025/3d_vision/prompthmr_promptable_human_mesh_recovery.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,9 +1,24 @@
+---
+title: >-
+  [论文解读] SICAGE: Speaker-Independent Culture-Aware Gesture Generation using TED4C-L Dataset
+description: >-
+  [ECCV 2026][人体理解][手势生成] SICAGE 将文化感知的共语手势生成建模为领域泛化问题：把每位说话人视为一个域，用 Fishr 正则化或对抗学习从音视频和文本中提取说话人无关的文化表征，再以此条件一个实时扩散生成器 ALaDiT，在自建的 106 小时四文化 TED4C-L 数据集上显著提升手势的真实性、多样性、节拍同步和文化一致性。
+tags:
+  - "ECCV 2026"
+  - "人体理解"
+  - "手势生成"
+  - "文化感知"
+  - "领域泛化"
+  - "扩散模型"
+  - "说话人无关"
+---
+
 # SICAGE: Speaker-Independent Culture-Aware Gesture Generation using TED4C-L Dataset
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.30001](https://arxiv.org/abs/2606.30001)  
 **论文**: [Project Page](https://arielgjaci.com/sicage)  
-**代码**: https://arielgjaci.com/sicage (含数据集与源码)  
+**代码**: [https://arielgjaci.com/sicage](https://arielgjaci.com/sicage) (含数据集与源码)  
 **领域**: 人体理解 / 手势生成  
 **关键词**: 手势生成, 文化感知, 领域泛化, 扩散模型, 说话人无关
 
@@ -127,3 +142,19 @@ ALaDiT/FI 在 FGD（运动真实性）上以 1.03 显著优于所有变体和基
 - 实验充分度: ⭐⭐⭐⭐⭐ 消融全面（6 种 ALaDiT 变体 + 2 种基线 × 3 种条件），客观指标（FGD/CE F1/BAS/SRGR/Diversity）+ 用户研究（20 人 × 7 问）+ 定性可视化 + 逐文化分析，证据链完整
 - 写作质量: ⭐⭐⭐⭐ 方法部分清晰，实验设置详细，补充材料丰富（VQVAE 架构、数据分布、逐文化结果），但 Introduction 行文略冗长
 - 价值: ⭐⭐⭐⭐⭐ 将领域泛化工具引入共语手势生成开辟了新的研究方向，TED4C-L 作为基准数据集有独立生态价值，说话人不变性视角可推广到情感手势、个性化手势等其他风格感知生成任务
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICCV 2025\] SemGes: Semantics-aware Co-Speech Gesture Generation using Semantic Coherence and Relevance Learning](../../ICCV2025/human_understanding/semges_semantics-aware_co-speech_gesture_generation_using_semantic_coherence_and.md)
+- [\[CVPR 2026\] CoordSpeaker: Exploiting Gesture Captioning for Coordinated Caption-Empowered Co-Speech Gesture Generation](../../CVPR2026/human_understanding/coordspeaker_exploiting_gesture_captioning_for_coordinated_caption-empowered_co-.md)
+- [\[CVPR 2026\] LiveGesture: Streamable Co-Speech Gesture Generation Model](../../CVPR2026/human_understanding/livegesture_streamable_co-speech_gesture_generation_model.md)
+- [\[AAAI 2026\] ReAlign: Text-to-Motion Generation via Step-Aware Reward-Guided Alignment](../../AAAI2026/human_understanding/realign_text-to-motion_generation_via_step-aware_reward-guided_alignment.md)
+- [\[CVPR 2026\] PAMotion: Physics-Aware Motion Generation for Full-Body Interaction with Multiple Objects](../../CVPR2026/human_understanding/pamotion_physics-aware_motion_generation_for_full-body_interaction_with_multiple.md)
+
+</div>
+
+<!-- RELATED:END -->

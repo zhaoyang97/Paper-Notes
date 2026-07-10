@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Paying More Attention to Visual Tokens in Self-Evolving Large Multimodal Models
+description: >-
+  [ECCV 2026][VLM Efficiency][自演化] VISE 提出纯无监督的单模型自演化框架，用几何不变性和语义不变性两种奖励信号直接正则化解码器的视觉条件化策略（而非优化答案一致性），在 Qwen3-VL-2B 上 COCO CIDEr 提升 +16.85、TextCaps CIDEr 提升 +19.66、幻觉 Chair-I 降低 5.0 点，且跨 4 个模型规模（2B/4B/8B/32B）与 4 种架构主干一致有效，无任何任务间的 tradeoff。
+tags:
+  - "ECCV 2026"
+  - "VLM Efficiency"
+  - "自演化"
+  - "视觉欠条件化"
+  - "不变性奖励"
+  - "多模态大模型"
+  - "幻觉抑制"
+---
+
 # Paying More Attention to Visual Tokens in Self-Evolving Large Multimodal Models
 
 **会议**: ECCV 2026  
@@ -146,3 +161,19 @@ VISE 在 COCO 上的提升是最强 baseline（VisionZero-RW）的 4.2 倍，且
 - 实验充分度: ⭐⭐⭐⭐⭐ 18 个 benchmark、4 个模型规模、4 种架构、随机奖励对照、超参敏感性、LoRA vs FFT、训练域分离（COCO vs Objects365），消融覆盖全面且每个结论都有数据支撑
 - 写作质量: ⭐⭐⭐⭐⭐ 问题定义清晰（visual under-conditioning 有操作化定义和可观测指标），方法动机链完整，论文结构紧密，CKA 和可视注意力分析为机制提供了行为层面的直接证据
 - 价值: ⭐⭐⭐⭐⭐ 核心思路（用不变性约束替代答案一致性奖励）对自演化 LMM 领域有方法论级别的启示意义，Ghosting 和自适应 KL 都是可单独复用的设计，且方法极简（单模型、无标注、无外部奖励模型）
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] What Do Visual Tokens Really Encode? Uncovering Sparsity and Redundancy in Multimodal Large Language Models](../../CVPR2026/vlm_efficiency/what_do_visual_tokens_really_encode_uncovering_sparsity_and_redundancy_in_multim.md)
+- [\[ICLR 2026\] iLLaVA: An Image is Worth Fewer Than 1/3 Input Tokens in Large Multimodal Models](../../ICLR2026/vlm_efficiency/illava_an_image_is_worth_fewer_than_13_input_tokens_in_large_multimodal_models.md)
+- [\[ICCV 2025\] ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers](../../ICCV2025/vlm_efficiency/shortv_efficient_multimodal_large_language_models_by_freezing_visual_tokens_in_i.md)
+- [\[CVPR 2026\] MM-SeR: Multimodal Self-Refinement for Lightweight Image Captioning](../../CVPR2026/vlm_efficiency/mm-ser_multimodal_self-refinement_for_lightweight_image_captioning.md)
+- [\[ECCV 2026\] Accelerating Multimodal Large Language Models with Prior-Corrected Token Reduction](accelerating_multimodal_large_language_models_with_prior-corrected_token_reducti.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Learning to Compose: Revisiting Proxy Task Design for Zero-Shot Composed Image Retrieval
+description: >-
+  [ECCV 2026][LLM安全][零样本组合图像检索] FoCo（Focus-then-Complete）将零样本组合图像检索（ZS-CIR）中的视觉-文本组合建模为可学习的"先聚焦后补全"两阶段过程，通过文本锚定的视觉聚合和上下文条件化的语义补全两个代理任务联合训练，配合跨实例对比损失防止捷径学习，在四个 ZS-CIR 基准上全面超越已有方法，且推理时不依赖 LLM。
+tags:
+  - "ECCV 2026"
+  - "LLM安全"
+  - "零样本组合图像检索"
+  - "代理任务设计"
+  - "视觉-文本组合"
+  - "可学习组合机制"
+  - "跨实例对比学习"
+---
+
 # Learning to Compose: Revisiting Proxy Task Design for Zero-Shot Composed Image Retrieval
 
 **会议**: ECCV 2026  
@@ -156,3 +171,19 @@ CIRR 包含自然场景复杂图像，R@1 提升 3.6 点（vs SlerpTAT），证�
 - 实验充分度: ⭐⭐⭐⭐⭐ 四个基准全覆盖、两种骨干、15+ 消融配置、Caption 粒度曲线、额外数据 fair comparison、可视化分析，实验设计严谨，排除了多个替代解释。
 - 写作质量: ⭐⭐⭐⭐ 动机交代清晰（从两种范式的共同局限切入），方法部分公式完整，可视化（Fig. 5 的热力图）直观展示了聚焦-补全的实际效果，消融表因列数限制拆成两栏略有不便于一次性对比。
 - 价值: ⭐⭐⭐⭐ 指出了 ZS-CIR 领域的根本问题——组合规则应该可学习而不应固定——对后续工作的方向引导价值大于单篇性能提升本身；跨实例负样本设计可作为通用训练技巧迁移到其他多正例对比学习场景。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2025\] Visual Language Models as Zero-Shot Deepfake Detectors](../../ICML2025/llm_safety/visual_language_models_as_zero-shot_deepfake_detectors.md)
+- [\[NeurIPS 2025\] Zero-Shot Robustness of Vision Language Models Via Confidence-Aware Weighting](../../NeurIPS2025/llm_safety/zero-shot_robustness_of_vision_language_models_via_confidence-aware_weighting.md)
+- [\[ACL 2026\] Modeling LLM Unlearning as an Asymmetric Two-Task Learning Problem](../../ACL2026/llm_safety/modeling_llm_unlearning_as_an_asymmetric_two-task_learning_problem.md)
+- [\[CVPR 2026\] Revisiting Learning with Noisy Labels: Active Forgetting and Noise Suppression](../../CVPR2026/llm_safety/revisiting_learning_with_noisy_labels_active_forgetting_and_noise_suppression.md)
+- [\[CVPR 2026\] ⊘ Source Models Leak What They Shouldn't ↛: Unlearning Zero-Shot Transfer in Domain Adaptation Through Adversarial Optimization](../../CVPR2026/llm_safety/oslash_source_models_leak_what_they_shouldnt_nrightarrow_unlearning_zero-shot_tr.md)
+
+</div>
+
+<!-- RELATED:END -->

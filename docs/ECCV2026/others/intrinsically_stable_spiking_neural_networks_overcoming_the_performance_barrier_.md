@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] Intrinsically Stable Spiking Neural Networks: Overcoming the Performance Barrier in the Absence of Batch Normalization
+description: >-
+  [ECCV 2026][脉冲神经网络] IS-SNN 通过拓扑感知的权重标准化和改进的残差连接，在完全移除激活归一化层（Batch Normalization）的情况下，使深度脉冲神经网络的发放率保持稳定，训练完成后将标准化操作折叠进静态权重，推理时零归一化开销，在 ImageNet 上达到 68.05% 精度且 FPGA LUT 资源消耗降低 96.4%。
+tags:
+  - "ECCV 2026"
+  - "脉冲神经网络"
+  - "无批归一化训练"
+  - "权重标准化"
+  - "发放率稳定性"
+  - "离线重参数化"
+---
+
 # Intrinsically Stable Spiking Neural Networks: Overcoming the Performance Barrier in the Absence of Batch Normalization
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.31695](https://arxiv.org/abs/2606.31695)  
-**代码**: https://github.com/Ruichen0424/IS-SNN  
+**代码**: [https://github.com/Ruichen0424/IS-SNN](https://github.com/Ruichen0424/IS-SNN)  
 **领域**: 神经形态计算 / 模型压缩  
 **关键词**: 脉冲神经网络, 无批归一化训练, 权重标准化, 发放率稳定性, 离线重参数化
 
@@ -123,3 +137,19 @@ IS-SNN 在静态数据集（CIFAR-10/100、ImageNet）和神经形态数据集�
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 5 个数据集、3 种架构（VGG/ResNet/Transformer）、深层缩放验证（ResNet-152）、硬件实测（FPGA LUT + GPU 吞吐量）、多维度消融（γ_ℓ / α / transition block 数量 / Dropout / σ_g 扰动），实验设计全面且自洽
 - 写作质量: ⭐⭐⭐⭐ 从发放率衰减的诊断出发，到 WS 机制、拓扑推导、经验估计的递进逻辑清晰，硬件分析部分理论与实测相互印证；但部分段落密度较高，初次阅读可能需要反复对照公式
 - 价值: ⭐⭐⭐⭐⭐ 解决了深度 SNN 领域一个实际且紧迫的工程矛盾（高性能 vs 硬件效率），提供了可复现的完整方案并有开源代码，对推动 SNN 从学术 benchmark 走向实际神经形态部署具有明确的实践意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Training Deep Normalization-Free Spiking Neural Networks with Lateral Inhibition](../../ICLR2026/others/training_deep_normalization-free_spiking_neural_networks_with_lateral_inhibition.md)
+- [\[AAAI 2026\] I2E: Real-Time Image-to-Event Conversion for High-Performance Spiking Neural Networks](../../AAAI2026/others/i2e_real-time_image-to-event_conversion_for_high-performance_spiking_neural_netw.md)
+- [\[ICLR 2026\] Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks](../../ICLR2026/others/breaking_gradient_temporal_collinearity_for_robust_spiking_neural_networks.md)
+- [\[ICML 2026\] Bullet Trains: Parallelizing Training of Temporally Precise Spiking Neural Networks](../../ICML2026/others/bullet_trains_parallelizing_training_of_temporally_precise_spiking_neural_networ.md)
+- [\[ICLR 2026\] Beyond Linear Processing: Dendritic Bilinear Integration in Spiking Neural Networks](../../ICLR2026/others/beyond_linear_processing_dendritic_bilinear_integration_in_spiking_neural_networ.md)
+
+</div>
+
+<!-- RELATED:END -->

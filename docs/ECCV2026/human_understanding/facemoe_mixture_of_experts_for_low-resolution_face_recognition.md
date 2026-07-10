@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] FaceMoE: Mixture of Experts for Low-Resolution Face Recognition
+description: >-
+  [ECCV 2026][人体理解][低分辨率人脸识别] FaceMoE 将 Transformer 中单一 FFN 替换为多个稀疏激活的 MoE 专家加 Top-k 路由器，使不同专家自动特化于人脸不同语义区域（高频纹理/低频平滑/关键点），实现分辨率感知的特征提取；在 BRIAR、IJB-S、TinyFace 三个低分辨率基准上全面超越 SOTA，同时几乎不损失 HR 预训练性能。
+tags:
+  - "ECCV 2026"
+  - "人体理解"
+  - "低分辨率人脸识别"
+  - "混合专家模型"
+  - "Transformer"
+  - "灾难性遗忘"
+  - "分辨率感知特征提取"
+---
+
 # FaceMoE: Mixture of Experts for Low-Resolution Face Recognition
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.32040](https://arxiv.org/abs/2606.32040)  
-**代码**: https://github.com/Kartik-3004/FaceMoE  
+**代码**: [https://github.com/Kartik-3004/FaceMoE](https://github.com/Kartik-3004/FaceMoE)  
 **领域**: 人体理解 / 人脸识别  
 **关键词**: 低分辨率人脸识别, 混合专家模型, Transformer, 灾难性遗忘, 分辨率感知特征提取
 
@@ -139,3 +154,19 @@ FaceMoE (N=3, k=2) 相比标准 Swin-B（15.88 GFLOPs）计算量仅增至 26.29
 - 实验充分度: ⭐⭐⭐⭐⭐ 11 个数据集（HR/混合/LR 全覆盖）、两个协议、丰富的消融（组件/专家数/骨干/数据规模/分辨率/退化鲁棒性/路由稳定性/偏差分析/CKA 选择性漂移/推理效率），实验设计全面且说服力强。
 - 写作质量: ⭐⭐⭐⭐ 三个挑战的提出清晰有力，方法描述公式完整，激活图可视化直观。但部分段落略有重复（数据规模分析在正文和附录中几乎写了两遍相同内容）。
 - 价值: ⭐⭐⭐⭐ 在 LR-FR 任务上取得显著提升（BRIAR 1% FAR 提升 12%+），同时提供了一条可复用的技术路径：稀疏 MoE 作为"抗遗忘适配器"的思路可推广到其他需要域适应的视觉任务。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction](../../AAAI2026/human_understanding/spatiotemporal-untrammelled_mixture_of_experts_for_multi-person_motion_predictio.md)
+- [\[CVPR 2025\] MoEE: Mixture of Emotion Experts for Audio-Driven Portrait Animation](../../CVPR2025/human_understanding/moee_mixture_of_emotion_experts_for_audio-driven_portrait_animation.md)
+- [\[CVPR 2025\] CryptoFace: End-to-End Encrypted Face Recognition](../../CVPR2025/human_understanding/cryptoface_end-to-end_encrypted_face_recognition.md)
+- [\[ICCV 2025\] LVFace: Progressive Cluster Optimization for Large Vision Models in Face Recognition](../../ICCV2025/human_understanding/lvface_progressive_cluster_optimization_for_large_vision_models_in_face_recognit.md)
+- [\[ICML 2026\] Efficient, Validation-Free Intrinsic Quality Estimation for Large-Scale Face Recognition Datasets](../../ICML2026/human_understanding/efficient_validation-free_intrinsic_quality_estimation_for_large-scale_face_reco.md)
+
+</div>
+
+<!-- RELATED:END -->

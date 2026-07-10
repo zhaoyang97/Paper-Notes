@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation
+description: >-
+  [ECCV 2026][VLM Reasoning][测试时缩放] E-TTS 是一个即插即用的具身测试时缩放框架，在推理时对 VLA 模型的推理过程和动作进行联合采样、历史感知验证和反馈引导迭代精炼，无需额外训练或数据即可将多种基座模型在仿真和真实场景中的成功率最高提升 33.14%。 测试时缩放（Test-Time Sc…
+tags:
+  - "ECCV 2026"
+  - "VLM Reasoning"
+  - "测试时缩放"
+  - "具身智能"
+  - "VLA模型"
+  - "推理-动作联合采样"
+  - "闭环迭代精炼"
+---
+
 # E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation
 
 **会议**: ECCV 2026  
@@ -144,3 +159,19 @@ E-TTS 在 4 个基座模型（E-CoT, MolmoAct, $\pi_{0.5}$, Embodied-R1）、6 �
 - 实验充分度: ⭐⭐⭐⭐⭐ 4 模型 × 6 环境 × 3 形态 × 真实世界 + 5 项消融 + 超参数扫描 + 效率对比 + 定性可视化，实验量远超顶会平均水准
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，方法到实验的论证链条完整，伪代码和附录详实；但主表归一化不足（不同基座/环境/任务无法合并成一个统一表格），部分结果仅放附录
 - 价值: ⭐⭐⭐⭐ 即插即用 + 无需重训 + 一致提升 4 个基座模型，实用性和泛化性都很好；对具身 TTS 方向有较强的 push 作用，但诊断性分析偏弱（如「为什么推理验证器需要是 VLM 而非文本 LLM」未充分消融）
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] On Test-Time Scaling for Vision-Language Models](on_test-time_scaling_for_vision-language_models.md)
+- [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](../../CVPR2026/vlm_reasoning/scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
+- [\[CVPR 2026\] dMLLM-TTS: Self-Verified and Efficient Test-Time Scaling for Diffusion Multi-Modal Large Language Models](../../CVPR2026/vlm_reasoning/dmllm-tts_self-verified_and_efficient_test-time_scaling_for_diffusion_multi-moda.md)
+- [\[ECCV 2026\] GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models](gaia_a_data_flywheel_system_for_training_gui_test-time_scaling_critic_models.md)
+- [\[CVPR 2026\] UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](../../CVPR2026/vlm_reasoning/unit_unified_multimodal_chain-of-thought_test-time_scaling.md)
+
+</div>
+
+<!-- RELATED:END -->

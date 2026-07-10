@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] PhysRAG: Enhancing Physics-Awareness in Video Generation via Retrieval-Augmented Generation
+description: >-
+  [ECCV 2026][视频生成][物理感知视频生成] PhysRAG 将检索增强生成（RAG）引入视频扩散模型：先从手工构建的物理视频数据库中检索与输入 prompt 物理属性最相关的参考视频，再用 VideoMAE V2 编码其时空特征，最后通过一组可学习查询（learnable queries）作为信息瓶颈选择性提取物理先验并注入 DiT 去噪过程，在 PhyGenBench 物理常识基准上以平均分 0.58 达到 SOTA，同时推理开销仅增加 1.24%。
+tags:
+  - "ECCV 2026"
+  - "视频生成"
+  - "物理感知视频生成"
+  - "检索增强生成"
+  - "视频扩散模型"
+  - "物理先验注入"
+  - "可学习查询"
+---
+
 # PhysRAG: Enhancing Physics-Awareness in Video Generation via Retrieval-Augmented Generation
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.26916](https://arxiv.org/abs/2606.26916)  
-**代码**: https://github.com/sediment1024/PhysRAG  
+**代码**: [https://github.com/sediment1024/PhysRAG](https://github.com/sediment1024/PhysRAG)  
 **领域**: 视频生成  
 **关键词**: 物理感知视频生成, 检索增强生成, 视频扩散模型, 物理先验注入, 可学习查询
 
@@ -144,3 +159,19 @@ PhysRAG 基于 Wan2.2-5B 进行微调，使用标准扩散损失（噪声预测 
 - 实验充分度: ⭐⭐⭐⭐ 主实验覆盖 PhyGenBench + VBench 双基准、消融涵盖注入方式/训练策略/数据质量/注入层/计算开销 5 个维度，但缺乏除 Wan2.2 外的多主干验证和更细粒度的物理指标
 - 写作质量: ⭐⭐⭐⭐ 动机的认知类比写得很好，方法公式清晰，但部分表格引用有 LaTeX 残留（LABEL:tab:physgenbench），物理数据库构建的 17 类分类依据交代不够详细
 - 价值: ⭐⭐⭐⭐⭐ 物理感知是视频生成从"看起来真"到"动得对"的关键瓶颈，RAG 路线避开了显式物理建模的泛化困境和隐式方法的控制难题，是一条有潜力的中间道路，信息瓶颈设计也是检索增强领域的通用贡献
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] DreamRunner: Fine-Grained Compositional Story-to-Video Generation with Retrieval-Augmented Motion Adaptation](../../AAAI2026/video_generation/dreamrunner_fine-grained_compositional_story-to-video_genera.md)
+- [\[CVPR 2025\] The Devil is in the Prompts: Retrieval-Augmented Prompt Optimization for Text-to-Video Generation](../../CVPR2025/video_generation/the_devil_is_in_the_prompts_retrieval-augmented_prompt_optimization_for_text-to-.md)
+- [\[ECCV 2026\] PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation](phygdpo_physics-aware_groupwise_direct_preference_optimization_for_physically_co.md)
+- [\[ECCV 2026\] Physics Question Scene Graph: Fine-grained Evaluation of Physical Plausibility in Text-to-Video Generation](physics_question_scene_graph_fine-grained_evaluation_of_physical_plausibility_in.md)
+- [\[ICML 2026\] Enhancing Train-Free Infinite-Frame Generation for Consistent Long Videos](../../ICML2026/video_generation/enhancing_train-free_infinite-frame_generation_for_consistent_long_videos.md)
+
+</div>
+
+<!-- RELATED:END -->

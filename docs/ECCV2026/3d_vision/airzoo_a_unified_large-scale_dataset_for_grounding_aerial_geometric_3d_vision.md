@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision
+description: >-
+  [ECCV 2026][3D视觉][航空3D视觉] AirZoo 构建了一个百万级航空合成数据集，通过 AirSim-Cesium-Unreal 三位一体仿真管线从 Google 3D Tiles 自动渲染出带像素级深度和 6-DoF 地理参考位姿的无人机航拍序列，覆盖 22 个国家 377 条多天气轨迹，在航空图像检索、跨视角匹配和多视图三维重建三个任务上微调现有 SOTA 模型均取得显著提升，尤其是真实场景零样本泛化能力大幅增强。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "航空3D视觉"
+  - "合成数据集"
+  - "跨视角匹配"
+  - "多视图重建"
+  - "无人机定位"
+---
+
 # AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision
 
 **会议**: ECCV 2026  
@@ -116,3 +131,19 @@ AirZoo 微调对 VGGT 和 DA3 在所有测试集上均有提升，最惊人的�
 - 实验充分度: ⭐⭐⭐⭐⭐ 在三个代表性任务（检索/匹配/重建）上、四个真实基准（UAV-VisLoc/AerialExtreMatch/UAVScenes/UrbanScene3D）加上自采 AirZoo-Real 上对多个 SOTA 模型做了系统对比，实验覆盖面广、结论有说服力。每项任务都汇报了场景级细粒度结果和失败分析。
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，图表丰富（框架图、统计图、定性对比图），附录详尽记录了实现细节和各个评估基准的构造过程。英文表述通顺，但部分段落的论述节奏略拖沓。
 - 价值: ⭐⭐⭐⭐⭐ 航空 3D 视觉社区长期受数据匮乏之苦，AirZoo 作为首个大规模、多任务、带稠密几何真值的公开航空基准，有潜力成为该领域的"ImageNet 时刻"。其流水线的可扩展性（任何有 Google 3D Tiles 覆盖的区域均可生成新数据）也使其具备超越静态数据集的长期价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Ego-1K: A Large-Scale Multiview Video Dataset for Egocentric Vision](../../CVPR2026/3d_vision/ego-1k_--_a_large-scale_multiview_video_dataset_for_egocentric_vision.md)
+- [\[CVPR 2026\] SceneScribe-1M: A Large-Scale Video Dataset with Comprehensive Geometric and Semantic Annotations](../../CVPR2026/3d_vision/scenescribe-1m_a_large-scale_video_dataset_with_comprehensive_geometric_and_sema.md)
+- [\[ECCV 2026\] SemCityLoc: Aerial 6DoF Localization Using Semantic 3D City Models](semcityloc_aerial_6dof_localization_using_semantic_3d_city_models.md)
+- [\[CVPR 2025\] Horizon-GS: Unified 3D Gaussian Splatting for Large-Scale Aerial-to-Ground Scenes](../../CVPR2025/3d_vision/horizon-gs_unified_3d_gaussian_splatting_for_large-scale_aerial-to-ground_scenes.md)
+- [\[CVPR 2026\] SpatialVID: A Large-Scale Video Dataset with Spatial Annotations](../../CVPR2026/3d_vision/spatialvid_a_large-scale_video_dataset_with_spatial_annotations.md)
+
+</div>
+
+<!-- RELATED:END -->

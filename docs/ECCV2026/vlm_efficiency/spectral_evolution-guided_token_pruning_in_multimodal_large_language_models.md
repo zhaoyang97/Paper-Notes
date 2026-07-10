@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Spectral Evolution-Guided Token Pruning in Multimodal Large Language Models
+description: >-
+  [ECCV 2026][VLM Efficiency][视觉 token 剪枝] 本文提出 CLSE(Cross-Layer Spectral Evolution),一个 training-free 的视觉 token 剪枝框架:不再用单层 attention 或特征幅值判断 token 重要性,而是把每层视觉 token 变换到频域、经高通滤波后度量其高频结构能量在相邻 LLM 层之间的相对变化量,变化剧烈的 token 被判为语义活跃并保留;在 LLaVA/Qwen2-VL/Video-LLaVA 等多个 MLLM、剪到 11%~33% token 的激进压缩下,精度保持显著优于 FastV、SparseVLM、PDrop 等。
+tags:
+  - "ECCV 2026"
+  - "VLM Efficiency"
+  - "视觉 token 剪枝"
+  - "跨层谱演化"
+  - "频域高通滤波"
+  - "training-free 加速"
+  - "MLLM 推理"
+---
+
 # Spectral Evolution-Guided Token Pruning in Multimodal Large Language Models
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.24165](https://arxiv.org/abs/2606.24165)  
-**代码**: <https://github.com/zjubinchen/CLSE>  
+**代码**: <[https://github.com/zjubinchen/CLSE>](https://github.com/zjubinchen/CLSE>)  
 **领域**: LLM效率 / 多模态VLM  
 **关键词**: 视觉 token 剪枝, 跨层谱演化, 频域高通滤波, training-free 加速, MLLM 推理
 
@@ -145,3 +160,19 @@ LLaVA-1.5-7B(576 token 剪到 192/128/64),9 个图像 benchmark 的平均保持�
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 5+ 图像/视频 MLLM(含 72B、InternVL、量化)、3 档压缩率、9+ benchmark,消融把每个组件、剪枝层、2D/3D FFT 都拆开验证,罕见地完整。
 - 写作质量: ⭐⭐⭐⭐ 动机链条清晰、图示到位;但主表配置与附录完整管线的口径差异会让复现者困惑,理论一节略显硬凑。
 - 价值: ⭐⭐⭐⭐⭐ Training-free、plug-and-play、打分开销可忽略、正交于 merging,几乎零成本可接入现有 MLLM,实用价值高。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Accelerating Multimodal Large Language Models with Prior-Corrected Token Reduction](accelerating_multimodal_large_language_models_with_prior-corrected_token_reducti.md)
+- [\[CVPR 2026\] IF-Prune: Information-Flow Guided Token Pruning for Efficient Vision-Language Models](../../CVPR2026/vlm_efficiency/if-prune_information-flow_guided_token_pruning_for_efficient_vision-language_mod.md)
+- [\[CVPR 2026\] CoIn: Coverage and Informativeness-Guided Token Reduction for Efficient Large Multimodal Models](../../CVPR2026/vlm_efficiency/coin_coverage_and_informativeness-guided_token_reduction_for_efficient_large_mul.md)
+- [\[CVPR 2026\] EvoComp: Learning Visual Token Compression for Multimodal Large Language Models via Semantic-Guided Evolutionary Labeling](../../CVPR2026/vlm_efficiency/evocomp_learning_visual_token_compression_for_multimodal_large_language_models_v.md)
+- [\[CVPR 2026\] OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models](../../CVPR2026/vlm_efficiency/omnizip_audio-guided_dynamic_token_compression_for_fast_omnimodal_large_language.md)
+
+</div>
+
+<!-- RELATED:END -->

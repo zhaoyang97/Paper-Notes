@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Capacity-Controlled Multi-View Stylization of 3D Gaussian Splatting
+description: >-
+  [ECCV 2026][3D视觉][3D高斯泼溅] 本文提出基于容量控制最优传输的3D高斯泼溅多视角风格化框架：用半平衡最优传输替代贪心最近邻匹配，通过列容量约束抑制many-to-one问题，同时引入跨视角匹配引导保证相邻视角的风格一致性，辅以几何正则化增强重建质量，在风格质量、内容保真和多视角一致性上全面超越现有方法。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "风格迁移"
+  - "最优传输"
+  - "多视角一致性"
+  - "神经风格迁移"
+---
+
 # Capacity-Controlled Multi-View Stylization of 3D Gaussian Splatting
 
 **会议**: ECCV 2026  
@@ -142,3 +157,19 @@ $$\mathrm{Distance}(x_i^{(v)}, y_j) = \mathrm{Sim}(x_i^{(v)}, y_j) + \lambda_{\m
 - 实验充分度: ⭐⭐⭐⭐☆ 主实验覆盖5种baseline、3个数据集、60个测试用例，消融涵盖损失函数/容量控制/引导强度/几何正则化/参数优化策略/视角顺序6个维度，用户调研25人450次排名——唯独缺少对不同VGG层和backbone的分析
 - 写作质量: ⭐⭐⭐⭐☆ 问题陈述清晰、动机链完整（many-to-one + 跨视角不一致 → 两个根因 → 两个机制对应解决），方法推导扎实，附录有完整算法伪代码；唯一不足是OT理论基础部分篇幅较长，与核心贡献的衔接可以更紧密
 - 价值: ⭐⭐⭐⭐⭐ 3DGS风格化的多视角一致性是该领域公认的核心痛点，本文首次在匹配机制层面给出系统解法，CCFT损失+跨视角引导+增强重建的三件套组合对后续工作有明确的参考价值和迁移潜力
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](../../ICLR2026/3d_vision/stylos_multi-view_3d_stylization_with_single-forward_gaussian_splatting.md)
+- [\[ECCV 2026\] Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures](large-scale_high-quality_3d_gaussian_head_reconstruction_from_multi-view_capture.md)
+- [\[ECCV 2026\] ViewSplat: View-Adaptive 3D Gaussian Splatting for Feed-Forward Synthesis](viewsplat_view-adaptive_3d_gaussian_splatting_for_feed-forward_synthesis.md)
+- [\[ECCV 2026\] Geometry-Aware Style Transfer in 3D Gaussian Splatting](geometry-aware_style_transfer_in_3d_gaussian_splatting.md)
+- [\[ECCV 2026\] Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting](monte_carlo_energy_aggregation_for_mobile_3d_gaussian_splatting.md)
+
+</div>
+
+<!-- RELATED:END -->

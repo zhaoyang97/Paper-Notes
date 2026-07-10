@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Explicit Logic Channel for Validation and Enhancement of MLLMs on Zero-Shot Tasks
+description: >-
+  [ECCV 2026][多模态VLM][显式逻辑推理] 提出显式逻辑通道（ELC），与 MLLM 黑箱通道（ILC）并行运行，通过 LLM 提取语义事实、VFM 视觉接地、概率逻辑推理三步产生可解释的决策；定义一致性率 CR 作为无标注下的模型质量代理指标，并通过跨通道对齐融合提升零样本 VLC 任务性能，在 3 个 benchmark 上对 11 个 MLLM 验证有效。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "显式逻辑推理"
+  - "MLLM验证"
+  - "零样本学习"
+  - "一致性检验"
+  - "视觉接地"
+---
+
 # Explicit Logic Channel for Validation and Enhancement of MLLMs on Zero-Shot Tasks
 
 **会议**: ECCV 2026  
@@ -161,3 +176,19 @@ ELC 的处理流程如下：（1）LLM 提取 pos 名词 {"dining table", "plate
 - 实验充分度: ⭐⭐⭐⭐⭐ 3 个 benchmark、11 个 MLLM（4 家族）、3 种相关系数、CI 手工检查、误差级联分析、对抗鲁棒性测试、LLM/VLM 消融——覆盖全面且每个实验都回答了具体问题。
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，Figure 1-4 按任务分别展示双通道设计，数学公式定义完整。部分消融实验（VLM 对比、完整混淆矩阵）因篇幅放在附录，虽不影响主线但主体内容稍显密集。
 - 价值: ⭐⭐⭐⭐⭐ 零样本 MLLM 验证是产业落地的真实痛点——部署方无法为每个新任务都标注验证集。CR 提供了一种"零成本"的模型筛选方案，对齐融合则以极低的工程代价（几次前向推理）换取一致性的性能提升。思路可泛化到其他模态和任务。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Generating a Paracosm for Training-Free Zero-Shot Composed Image Retrieval](generating_a_paracosm_for_training-free_zero-shot_composed_image_retrieval.md)
+- [\[CVPR 2026\] G-MIXER: Geodesic Mixup-based Implicit Semantic Expansion and Explicit Semantic Re-ranking for Zero-Shot Composed Image Retrieval](../../CVPR2026/multimodal_vlm/g_mixer_geodesic_mixup_based_implicit_semantic_expansion_for_zero_shot_cir.md)
+- [\[ACL 2025\] RATE-Nav: Region-Aware Termination Enhancement for Zero-shot Object Navigation with Vision-Language Models](../../ACL2025/multimodal_vlm/rate-nav_region-aware_termination_enhancement_for_zero-shot_object_navigation_wi.md)
+- [\[CVPR 2026\] FlowComposer: Composable Flows for Compositional Zero-Shot Learning](../../CVPR2026/multimodal_vlm/flowcomposer_composable_flows_for_compositional_zeroshot_learning.md)
+- [\[CVPR 2026\] Explaining CLIP Zero-shot Predictions Through Concepts](../../CVPR2026/multimodal_vlm/explaining_clip_zero-shot_predictions_through_concepts.md)
+
+</div>
+
+<!-- RELATED:END -->

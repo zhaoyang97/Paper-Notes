@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Residual-Guided Expert Specialization for Incomplete Multimodal Learning
+description: >-
+  [ECCV 2026][语义分割][不完备多模态学习] MARS 提出一种混合专家（MoE）框架，通过计算完整模态与缺失模态表征之间的残差来捕获模态缺失导致的表征偏移模式，以此引导专家特化；同时引入双路由器蒸馏和差异感知噪声正则化解决训练-推理路由不一致问题，在不完备多模态分类和分割四个数据集上全面超越 SOTA。
+tags:
+  - "ECCV 2026"
+  - "语义分割"
+  - "不完备多模态学习"
+  - "混合专家模型"
+  - "残差路由"
+  - "模态缺失"
+  - "表征偏移"
+---
+
 # Residual-Guided Expert Specialization for Incomplete Multimodal Learning
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.30355](https://arxiv.org/abs/2606.30355)  
-**代码**: https://github.com/seunghub/MARS  
+**代码**: [https://github.com/seunghub/MARS](https://github.com/seunghub/MARS)  
 **领域**: 多模态VLM / 语义分割  
 **关键词**: 不完备多模态学习, 混合专家模型, 残差路由, 模态缺失, 表征偏移
 
@@ -159,3 +174,19 @@ MARS 在所有 7 种模态组合下均取得最低 ACER，平均 ACER 比最强�
 - 实验充分度: ⭐⭐⭐⭐⭐ — 四个数据集覆盖分类与分割、视觉与音频文本，消融实验逐模块验证、专家停用实验验证特化结构、路由分布和 Grad-CAM 可视化提供定性分析，附录还包含残差替代方案的对比实验。
 - 写作质量: ⭐⭐⭐⭐ — 方法逻辑清晰，Fig. 1 的动机图有效传达了残差视角的直觉。附录对残差合理性做了深入论证（Word2Vec/GAN 类比等）。略有不足是公式编号在缓存文本中格式较乱，部分符号表述依赖读者对 MoE 的熟悉程度。
 - 价值: ⭐⭐⭐⭐⭐ — 残差路由 + 双路由器蒸馏 + 噪声正则化的组合是一套可迁移的通用框架，适用于任何"训练时有完整信息、推理时不完整"的场景。论文还证明了这套框架在参数和计算开销极低（与 DMRNet 同级）的前提下实现显著性能提升，具有实际部署价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] SGMA: Semantic-Guided Modality-Aware Segmentation for Remote Sensing with Incomplete Multimodal Data](../../CVPR2025/segmentation/sgma_semantic-guided_modality-aware_segmentation_for_remote_sensing_with_incompl.md)
+- [\[CVPR 2026\] ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization](../../CVPR2026/segmentation/conceptprism_concept_disentanglement_in_personalized_diffusion_models_via_residu.md)
+- [\[NeurIPS 2025\] SAM-R1: Leveraging SAM for Reward Feedback in Multimodal Segmentation via Reinforcement Learning](../../NeurIPS2025/segmentation/sam-r1_leveraging_sam_for_reward_feedback_in_multimodal_segmentation_via_reinfor.md)
+- [\[ICCV 2025\] HiMTok: Learning Hierarchical Mask Tokens for Image Segmentation with Large Multimodal Model](../../ICCV2025/segmentation/himtok_learning_hierarchical_mask_tokens_for_image_segmentation_with_large_multi.md)
+- [\[CVPR 2026\] PixDLM: A Dual-Path Multimodal Language Model for UAV Reasoning Segmentation](../../CVPR2026/segmentation/pixdlm_uav_reasoning_segmentation.md)
+
+</div>
+
+<!-- RELATED:END -->

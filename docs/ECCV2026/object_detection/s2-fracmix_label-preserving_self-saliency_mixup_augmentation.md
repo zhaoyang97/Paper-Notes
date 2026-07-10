@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] $S^{2}$-FracMix: Label-Preserving Self-Saliency Mixup Augmentation
+description: >-
+  [ECCV 2026][目标检测][数据增强] S²-FracMix 提出一种保标签的自显著性混合增强框架：在同一张图像内提取多尺度显著性 patch，经旋转、模糊、分形纹理注入后重新混合回原图，避免跨样本语义干扰；搭配多模式高层混合策略，在分类、检测、鲁棒性等 7 个 benchmark 上全面超越 AdAutoMix 等 SOTA 方法，同时训练开销极低。
+tags:
+  - "ECCV 2026"
+  - "目标检测"
+  - "数据增强"
+  - "Mixup"
+  - "显著性引导"
+  - "分形混合"
+  - "自监督增强"
+---
+
 # $S^{2}$-FracMix: Label-Preserving Self-Saliency Mixup Augmentation
 
 **会议**: ECCV 2026  
@@ -146,3 +161,19 @@ S²-FracMix 在 CIFAR-100、Tiny-ImageNet、ImageNet-1K 三个基准上全面超
 - 实验充分度: ⭐⭐⭐⭐⭐ 7 个数据集、9 个 baseline、5 种下游任务（分类/细粒度/检测/迁移/对比学习）+ 理论分析 + 消融 + 可视化 + 安全 benchmark，实验覆盖面极广
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，理论分析一节将增强过程分解为变换+扰动并在 VRM 框架下推导出 Hessian 正则项的解释很有说服力；不足之处是部分消融表的符号说明略简省（$M_m$、$M_c$ 等需对照正文才能理解）
 - 价值: ⭐⭐⭐⭐ 作为一个即插即用的数据增强模块，S²-FracMix 的训练开销极低（不需要在线优化、不需要额外网络、分形库预计算一次即可复用），且在不同架构（CNN/Transformer）和任务上表现一致，实用性强；最大价值是提供了一个可迁移的设计原则——正则化信号应集中在信息密度最高的区域
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] The Label Imitation Game: Turing Test Network for Zero-Shot Pseudo-Label Pruning](the_label_imitation_game_turing_test_network_for_zero-shot_pseudo-label_pruning.md)
+- [\[ICLR 2026\] Point2RBox-v3: Self-Bootstrapping from Point Annotations via Integrated Pseudo-Label Refinement and Utilization](../../ICLR2026/object_detection/point2rbox-v3_self-bootstrapping_from_point_annotations_via_integrated_pseudo-la.md)
+- [\[CVPR 2026\] Saliency-R1: Enforcing Interpretable and Faithful Vision-language Reasoning via Saliency-map Alignment Reward](../../CVPR2026/object_detection/saliency-r1_enforcing_interpretable_and_faithful_vision-language_reasoning_via_s.md)
+- [\[NeurIPS 2025\] ReCon: Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection](../../NeurIPS2025/object_detection/recon_region-controllable_data_augmentation_with_rectification_and_alignment_for.md)
+- [\[CVPR 2026\] Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection](../../CVPR2026/object_detection/parameter-efficient_semantic_augmentation_for_enhancing_open-vocabulary_object_d.md)
+
+</div>
+
+<!-- RELATED:END -->

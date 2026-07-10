@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Intermediate Text Representation Guided Text-to-Image Generation for Enhancing One-and-Only Alignment
+description: >-
+  [ECCV 2026][图像生成][文本到图像生成] 本文通过信息论分析证明文本编码器中间层比最终嵌入保留更多概念互信息，提出 IR-guided diffusion——在去噪早期将中间隐藏状态注入条件信号以恢复被强先验压制的属性，无需训练或外部模型，在 OAO-AttackBench 上 VQAScore 最高提升 19.1 个百分点，同时保持生成质量与人类偏好。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "文本到图像生成"
+  - "概念关联偏置"
+  - "中间表示引导"
+  - "信息论"
+  - "免训练方法"
+---
+
 # Intermediate Text Representation Guided Text-to-Image Generation for Enhancing One-and-Only Alignment
 
 **会议**: ECCV 2026  
@@ -172,3 +187,19 @@ IR-guided diffusion 是完全免训练的方法。没有损失函数，没有梯
 - 实验充分度: ⭐⭐⭐⭐⭐ 四个 benchmark（含新提出的 OAO-AttackBench）、两个 backbone（SD2.1/SD3.0）、七类指标（VQA/CLIP/KID/HPSv2/HPSv2.1/CHAIR/图结构评估）、全面的消融（层选择/注入强度/调度策略/四种后处理/与固定调度对比/计算开销），实验设计严谨且覆盖面广。
 - 写作质量: ⭐⭐⭐⭐ 信息论部分的论证清晰且有完整证明（含补充材料中的 Lemma 1 证明演算），方法描述结构分明、公式完整；部分定量结果分散在多张表格中（Table 1-4 + Table S4 等），集中呈现会更清晰。
 - 价值: ⭐⭐⭐⭐ 对于需要精确文本对齐的 T2I 应用（创意设计、教育可视化、反事实推理等）有直接实用价值；免训练特性使其易于集成到现有管线——任何部署了 SD 的推理服务都可以零成本接入；OAO-AttackBench 为概念关联偏置研究提供了新的标准测试场景。主要限制在于依赖白盒访问，无法直接惠及闭源 API 用户。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation](../../CVPR2026/image_generation/emf_meanflow_text_to_image.md)
+- [\[ICML 2026\] Alignment-Guided Score Matching for Text-to-Image Alignment in Diffusion Models](../../ICML2026/image_generation/alignment-guided_score_matching_for_text-to-image_alignment_in_diffusion_models.md)
+- [\[ECCV 2026\] The Illusion of High Utility in Safety Alignment of Text-to-Image Diffusion Models](the_illusion_of_high_utility_in_safety_alignment_of_text-to-image_diffusion_mode.md)
+- [\[CVPR 2025\] A Comprehensive Study of Decoder-Only LLMs for Text-to-Image Generation](../../CVPR2025/image_generation/a_comprehensive_study_of_decoder-only_llms_for_text-to-image_generation.md)
+- [\[AAAI 2026\] Unleashing the Potential of Large Language Models for Text-to-Image Generation through Autoregressive Representation Alignment](../../AAAI2026/image_generation/unleashing_the_potential_of_large_language_models_for_text-to-image_generation_t.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Ink3D: Sculpting 3D Assets with Extremely Complex Textures via Video Generative Models
+description: >-
+  [ECCV 2026][3D视觉][3D纹理生成] Ink3D将3D纹理生成解耦为"几何优先、纹理其次"的两阶段管线：先用现成3D模型生成白模几何，再通过条件视频生成模型OrbitPainter合成密集轨道扫描视频，最后用TextureOptimizer神经烘焙模块将多视图纹理融合到几何体上，从而借助大规模预训练视频先验实现现有3D生成方法难以企及的极复杂纹理合成。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D纹理生成"
+  - "视频生成模型"
+  - "几何感知注意力"
+  - "神经纹理烘焙"
+  - "多视图一致性"
+---
+
 # Ink3D: Sculpting 3D Assets with Extremely Complex Textures via Video Generative Models
 
 **会议**: ECCV 2026  
 **arXiv**: [2607.01222](https://arxiv.org/abs/2607.01222)  
-**代码**: https://github.com/YueHan99/Ink3D.TextureGen  
+**代码**: [https://github.com/YueHan99/Ink3D.TextureGen](https://github.com/YueHan99/Ink3D.TextureGen)  
 **领域**: 3D视觉 / 扩散模型  
 **关键词**: 3D纹理生成, 视频生成模型, 几何感知注意力, 神经纹理烘焙, 多视图一致性
 
@@ -138,3 +153,19 @@ Ink3D在全部四项指标上显著优于所有对比方法。相比最强基线
 - 实验充分度: ⭐⭐⭐⭐ 主实验对比充分（4个baseline+4项指标），消融覆盖三个关键维度（几何先验、GASA、烘焙策略），但缺少用户研究，定性结果主要集中在附录
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，动机阐述充分，两张系统图有效辅助理解；部分公式符号较密集，Training Data Pre-Processing节与Architecture节之间存在轻微重复
 - 价值: ⭐⭐⭐⭐⭐ 为3D纹理生成开辟了"视频生成模型即纹理引擎"的新路线，OrbitPainter和TextureOptimizer的设计思路可被后续工作广泛复用，具有较高的方法论迁移价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] GenSP: Consistent Spherical Parameterization via Learning Shape Generative Models](gensp_consistent_spherical_parameterization_via_learning_shape_generative_models.md)
+- [\[CVPR 2026\] TeHOR: Text-Guided 3D Human and Object Reconstruction with Textures](../../CVPR2026/3d_vision/tehor_text-guided_3d_human_and_object_reconstruction_with_textures.md)
+- [\[CVPR 2025\] Video Depth Without Video Models](../../CVPR2025/3d_vision/video_depth_without_video_models.md)
+- [\[CVPR 2026\] GenMatter: Perceiving Physical Objects with Generative Matter Models](../../CVPR2026/3d_vision/genmatter_perceiving_physical_objects_with_generative_matter_models.md)
+- [\[ECCV 2026\] GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence](gena3d_generative_amodal_3d_modeling_by_bridging_2d_priors_and_3d_coherence.md)
+
+</div>
+
+<!-- RELATED:END -->

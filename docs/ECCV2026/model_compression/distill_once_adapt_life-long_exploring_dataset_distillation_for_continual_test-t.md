@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Distill Once, Adapt Life-Long: Exploring Dataset Distillation for Continual Test-Time Adaptation
+description: >-
+  [ECCV 2026][模型压缩][数据集蒸馏] DO-ALL 在部署前用数据集蒸馏（DD）将源域压缩为一小组合成锚点（每个锚点包含合成样本、源模型软标签和潜在特征），测试时通过特征空间余弦相似度为每个目标样本匹配语义最近的锚点，用锚点回放、目标-锚点 MixUp 正则化和多层 MMD 特征对齐稳定模型更新，并辅以有害自适应混合机制按参数组梯度有害程度选择性回退到源模型初始化，以即插即用方式一致提升 EATA、RMT、ROID、ASR 等多种 CTTA 方法在 ImageNet-C 和 CCC 基准上的长期鲁棒性。
+tags:
+  - "ECCV 2026"
+  - "模型压缩"
+  - "数据集蒸馏"
+  - "持续测试时适应"
+  - "灾难性遗忘"
+  - "源域锚点"
+  - "即插即用"
+---
+
 # Distill Once, Adapt Life-Long: Exploring Dataset Distillation for Continual Test-Time Adaptation
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.20196](https://arxiv.org/abs/2606.20196)  
-**代码**: https://github.com/blue-531/DOALL  
+**代码**: [https://github.com/blue-531/DOALL](https://github.com/blue-531/DOALL)  
 **领域**: 模型压缩  
 **关键词**: 数据集蒸馏, 持续测试时适应, 灾难性遗忘, 源域锚点, 即插即用  
 
@@ -179,3 +194,19 @@ CCC 基准（750 万张图像持续漂移流，分类准确率 %，越高越好�
 - 实验充分度: 五星 — 覆盖 3 个基准（CIFAR100-C、ImageNet-C、CCC）、4 种 CTTA 基线的即插即用验证、组件消融、关联策略消融、IPC 敏感性、3 种 DD 方法对比、跨架构实验（ResNet/ResNet、ViT/CNN 双向）、效率分析（FPS/显存/存储/步长）。Fig. 3 的锚点质量-CTTA 增益正相关分析是加分项，给出了深度机制层面的证据。
 - 写作质量: 四星 — 结构清晰（部署前蒸馏 $\to$ 部署后关联 $\to$ 适应损失 $\to$ 有害混合，四阶段线性推进），Figure 2 的框架图信息密度高。不足之处是 Harm-Adaptive Blending 的 Eq.(13) 分数解释稍显简略，$\hat{h}$ 的滑动平均细节不够充分。
 - 价值: 五星 — 直面 CTTA 的核心现实矛盾（没源数据但要稳定），提出了一条可行的实践路径（离线 DD + 在线轻量锚定），且设计了真正的即插即用接口（不改动已有 CTTA 方法）。正相关曲线暗示了 DD 社区的进步可持续为 CTTA 社区输送收益，这是更高层面的方法论价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Cross-Architecture Adaptation: Cloud-Edge Continual Test-Time Adaptation with Dynamic Sampling and Heterogeneous Distillation](../../CVPR2026/model_compression/cross-architecture_adaptation_cloud-edge_continual_test-time_adaptation_with_dyn.md)
+- [\[ECCV 2026\] MixTTA: Low-Rank Cross-Channel Mixing for Reliable Test-Time Adaptation](mixtta_low-rank_cross-channel_mixing_for_reliable_test-time_adaptation.md)
+- [\[CVPR 2026\] Back to Source: Open-Set Continual Test-Time Adaptation via Domain Compensation](../../CVPR2026/model_compression/back_to_source_open-set_continual_test-time_adaptation_via_domain_compensation.md)
+- [\[ECCV 2026\] Structural Assessment for Understanding and Guiding Dataset Distillation in Discrete Token Space](structural_assessment_for_understanding_and_guiding_dataset_distillation_in_disc.md)
+- [\[ECCV 2026\] Distill on a Diet: Efficient Knowledge Distillation via Learnable Data Pruning](distill_on_a_diet_efficient_knowledge_distillation_via_learnable_data_pruning.md)
+
+</div>
+
+<!-- RELATED:END -->

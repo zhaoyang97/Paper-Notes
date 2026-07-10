@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] FreqOrtho-SR: Frequency-Guided Orthogonal Expert Learning for Real-World Image Super-Resolution
+description: >-
+  [ECCV 2026][图像恢复][图像超分辨率] FreqOrtho-SR 提出频域引导的 LoRA 专家混合（FreqMoE）和正交梯度投影（OGP）两个核心模块，通过 FFT 退化特征驱动的自适应专家路由和像素-语义子空间正交约束，在单步扩散模型框架下实现退化自适应的真实世界图像超分辨率，在多个基准上取得最优或次优的保真度-感知质量平衡。
+tags:
+  - "ECCV 2026"
+  - "图像恢复"
+  - "图像超分辨率"
+  - "频域引导"
+  - "正交梯度投影"
+  - "LoRA专家混合"
+  - "扩散模型先验"
+---
+
 # FreqOrtho-SR: Frequency-Guided Orthogonal Expert Learning for Real-World Image Super-Resolution
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.28745](https://arxiv.org/abs/2606.28745)  
-**代码**: https://github.com/sonhm3029/FreqOrtho-SR  
+**代码**: [https://github.com/sonhm3029/FreqOrtho-SR](https://github.com/sonhm3029/FreqOrtho-SR)  
 **领域**: 图像恢复  
 **关键词**: 图像超分辨率, 频域引导, 正交梯度投影, LoRA专家混合, 扩散模型先验
 
@@ -134,3 +149,19 @@ FreqOrtho-SR 在 PSNR、LPIPS、DISTS、FID、NIQE、MANIQA 六项指标上取�
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 4 个数据集（含 OOD）、6 个对比方法、消融 + 复杂度 + 子空间分析 + 补充材料，实验设计全面；但缺少 MOS 用户主观研究和多放大倍数验证
 - 写作质量: ⭐⭐⭐⭐ 问题表述清晰（明确指出子空间重叠缺陷并用 Fig.5 直观验证）、方法动机链条完整（频域指纹 → 频域路由 → 子空间正交 → OGP）、图示质量高；部分实验细节推到补充材料，消融表缺少完整的空白对照基线
 - 价值: ⭐⭐⭐⭐ 为单步扩散 SR 提供了退化自适应 + 子空间解耦的完整方案，FreqMoE 和 OGP 可分别迁移到其他恢复任务（去模糊、去雨、JPEG 去伪影）或任何多 LoRA 协同训练场景，实用性强且方法复用门槛低
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] HDW-SR: High-Frequency Guided Diffusion Model based on Wavelet Decomposition for Image Super-Resolution](../../CVPR2026/image_restoration/hdw-sr_high-frequency_guided_diffusion_model_based_on_wavelet_decomposition_for_.md)
+- [\[NeurIPS 2025\] DP²O-SR: Direct Perceptual Preference Optimization for Real-World Image Super-Resolution](../../NeurIPS2025/image_restoration/dp2o-sr_direct_perceptual_preference_optimization_for_real-world_image_super-res.md)
+- [\[ICLR 2026\] Learning Heterogeneous Degradation Representation for Real-World Super-Resolution](../../ICLR2026/image_restoration/learning_heterogeneous_degradation_representation_for_real-world_super-resolutio.md)
+- [\[CVPR 2026\] TextOVSR: Text-Guided Real-World Opera Video Super-Resolution](../../CVPR2026/image_restoration/textovsr_text-guided_real-world_opera_video_super-resolution.md)
+- [\[CVPR 2026\] DNF-SR: Dual-Input and Negative-Aware Feature Fine-Tuning for Real-World Image Super-Resolution](../../CVPR2026/image_restoration/dnf-sr_dual-input_and_negative-aware_feature_fine-tuning_for_real-world_image_su.md)
+
+</div>
+
+<!-- RELATED:END -->

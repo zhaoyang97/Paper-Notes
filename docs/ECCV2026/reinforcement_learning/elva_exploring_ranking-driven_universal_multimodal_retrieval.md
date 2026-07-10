@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] ELVA: Exploring Ranking-Driven Universal Multimodal Retrieval
+description: >-
+  [ECCV 2026][强化学习][通用多模态检索] ELVA 提出基于规则的可验证奖励 RL 框架，通过排序奖励和间隔奖励联合优化 MLLM 的检索排序能力，解决对比学习适配检索任务时产生的"粒度盲区"（grain blindness）问题，在 M-BEIR 和自建多粒度基准 MRBench 上均取得 SOTA，其中 MRBench 提升 13.1%。
+tags:
+  - "ECCV 2026"
+  - "强化学习"
+  - "通用多模态检索"
+  - "粒度盲区"
+  - "排序驱动"
+  - "可验证奖励"
+---
+
 # ELVA: Exploring Ranking-Driven Universal Multimodal Retrieval
 
 **会议**: ECCV 2026  
@@ -136,3 +150,19 @@ ELVA 在 M-BEIR 测试集的 16 个子任务上评估，覆盖 8 种查询-候�
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 M-BEIR 16 个子任务、未见数据集、未见任务（held-out）、MRBench 多粒度基准、零样本视频检索、消融实验、奖励权重分析、框架通用性验证，实验设计全面且严谨
 - 写作质量: ⭐⭐⭐⭐ 概念定义清晰（粒度的数学定义、梯度饥饿的因果链）、方法动机链条完整，但 Table 编号存在不一致（文本内写 Table 5 但实际数据可能对应 Table 6，建议以原文为准核对）
 - 价值: ⭐⭐⭐⭐ 提出的 RLVR 排序框架可作为通用检索增强模块（已证 plug-and-play），粒度盲区分析和连续排序奖励设计对其他检索/排序任务有迁移价值，但 MLLM 推理成本限制实际部署范围
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] UME-R1: Exploring Reasoning-Driven Generative Multimodal Embeddings](../../ICLR2026/reinforcement_learning/ume-r1_exploring_reasoning-driven_generative_multimodal_embeddings.md)
+- [\[ICLR 2026\] Universal Value-Function Uncertainties](../../ICLR2026/reinforcement_learning/universal_value-function_uncertainties.md)
+- [\[NeurIPS 2025\] Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering](../../NeurIPS2025/reinforcement_learning/knowledge-based_visual_question_answer_with_multimodal_processing_retrieval_and_.md)
+- [\[ICML 2026\] Offline Reinforcement Learning with Universal Horizon Models](../../ICML2026/reinforcement_learning/offline_reinforcement_learning_with_universal_horizon_models.md)
+- [\[ACL 2026\] From Isolated Scoring to Collaborative Ranking: A Comparison-Native Framework for LLM-Based Paper Evaluation](../../ACL2026/reinforcement_learning/from_isolated_scoring_to_collaborative_ranking_a_comparison-native_framework_for.md)
+
+</div>
+
+<!-- RELATED:END -->

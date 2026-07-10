@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Real-Time Source-Free Object Detection
+description: >-
+  [ECCV 2026][自动驾驶][无源域适应] 本文在 YOLOv10（首个 NMS-free 双头检测器）上构建了实时无源域适应目标检测框架 RT-SFOD，提出双头伪标签融合（DHF）恢复 O2O 头漏检物体同时保持高精度，以及多尺度自适应表征多样化损失（MARD）对抗域偏移导致的特征秩退化，在四个域偏移基准上以 1.3 倍推理速度、~2 倍参数压缩实现 1.4-3.5% mAP 提升。
+tags:
+  - "ECCV 2026"
+  - "自动驾驶"
+  - "无源域适应"
+  - "实时目标检测"
+  - "YOLO"
+  - "双头检测器"
+  - "伪标签融合"
+---
+
 # Real-Time Source-Free Object Detection
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.31834](https://arxiv.org/abs/2606.31834)  
-**代码**: https://github.com/Sairam13001/RT-SFOD/  
+**代码**: [https://github.com/Sairam13001/RT-SFOD/](https://github.com/Sairam13001/RT-SFOD/)  
 **领域**: 自动驾驶 / 无源域适应目标检测  
 **关键词**: 无源域适应, 实时目标检测, YOLO, 双头检测器, 伪标签融合  
 
@@ -137,3 +152,19 @@ MARD 子组件消融（以 MT(O2O)+DHF 为基线）：方差项单独贡献最�
 - 实验充分度: ⭐⭐⭐⭐⭐ 四个域偏移基准 + 四种模型尺度 + 五种额外双头检测器验证泛化性 + 详尽的消融/超参数敏感性/训练开销分析，实验设计全面，FPS/参数量/延迟的效率三指标评估在 SFOD 论文中少见且值得推广。
 - 写作质量: ⭐⭐⭐⭐⭐ 动机清晰（Fig.2 直观展示了两个瓶颈的量化证据），方法描述严密（公式、阈值、采样策略均有定义），实验分析有洞察（不仅报告数字还解释为什么），补充材料详实（失效分析、冷启动鲁棒性、跨架构迁移均覆盖）。
 - 价值: ⭐⭐⭐⭐ 为实时 SFOD 提供了一个在精度-速度-大小三个维度上同时推进帕累托前沿的方案，方法简洁可泛化，代码开源，对自动驾驶等实时部署场景有直接实用价值；两模块均训练时使用，部署零代价，工程落地友好。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] LeAD-M3D: Leveraging Asymmetric Distillation for Real-Time Monocular 3D Detection](lead-m3d_leveraging_asymmetric_distillation_for_real-time_monocular_3d_detection.md)
+- [\[ECCV 2026\] PLOT: Pseudo-Labeling via Object Tracking for Monocular 3D Object Detection](plot_pseudo-labeling_via_object_tracking_for_monocular_3d_object_detection.md)
+- [\[ICCV 2025\] RTMap: Real-Time Recursive Mapping with Change Detection and Localization](../../ICCV2025/autonomous_driving/rtmap_real-time_recursive_mapping_with_change_detection_and_localization.md)
+- [\[ICLR 2026\] SimULi: Real-Time LiDAR and Camera Simulation with Unscented Transforms](../../ICLR2026/autonomous_driving/simuli_real-time_lidar_and_camera_simulation_with_unscented_transforms.md)
+- [\[ICCV 2025\] DuET: Dual Incremental Object Detection via Exemplar-Free Task Arithmetic](../../ICCV2025/autonomous_driving/duet_dual_incremental_object_detection_via_exemplar-free_task_arithmetic.md)
+
+</div>
+
+<!-- RELATED:END -->

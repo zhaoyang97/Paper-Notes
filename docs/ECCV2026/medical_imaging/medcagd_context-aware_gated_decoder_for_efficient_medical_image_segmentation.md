@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] MedCAGD: Context-Aware Gated Decoder for Efficient Medical Image Segmentation
+description: >-
+  [ECCV 2026][医学图像][医学图像分割] MedCAGD 提出一种以解码器为中心的医学图像分割框架，通过上下文感知门控解码器系统性地调控跳跃连接融合和多尺度上下文聚合，在 11 个医学图像分割基准上以 30.60M 参数和 5.0 GFLOPs 的轻量计算代价，一致超越 CNN、Transformer、Mamba 及 SOTA 解码器方法。
+tags:
+  - "ECCV 2026"
+  - "医学图像"
+  - "医学图像分割"
+  - "解码器设计"
+  - "门控跳跃连接"
+  - "上下文聚合"
+  - "通道注意力"
+---
+
 # MedCAGD: Context-Aware Gated Decoder for Efficient Medical Image Segmentation
 
 **会议**: ECCV 2026  
 **arXiv**: [2607.00409](https://arxiv.org/abs/2607.00409)  
-**代码**: https://github.com/saadwazir/MedCAGD  
+**代码**: [https://github.com/saadwazir/MedCAGD](https://github.com/saadwazir/MedCAGD)  
 **领域**: 医学图像  
 **关键词**: 医学图像分割, 解码器设计, 门控跳跃连接, 上下文聚合, 通道注意力
 
@@ -178,3 +193,19 @@ Stage 2（$28\times28$）和 Stage 1（$56\times56$）重复相同流程。最�
 - 实验充分度: ⭐⭐⭐⭐⭐ — 11 个数据集覆盖 7 种成像模态、2D 和 3D（ACDC 是 3D MRI 的 2D 切片）、二分类和多分类；逐组件嵌套消融 + 跳跃注意力独立对比 + 编码器替换 + 分辨率分析 + DS/ES 监督信号消融，实验矩阵几乎无死角。
 - 写作质量: ⭐⭐⭐⭐ — 方法描述清晰，公式与图示齐全，每个模块都有对应的消融支撑；Related Work 稍显冗长但覆盖全面。
 - 价值: ⭐⭐⭐⭐ — 以 30.60M / 5.0G 的轻量配置在 11 个基准上一致达到 SOTA，实用价值高；SCA-Gate 和 ECA-MSP 作为即插即用模块可迁移到其他视觉任务，有较强的复用潜力。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] Decoding Matters: Efficient Mamba-Based Decoder with Distribution-Aware Deep Supervision for Medical Image Segmentation](../../CVPR2025/medical_imaging/decoding_matters_efficient_mamba-based_decoder_with_distribution-aware_deep_supe.md)
+- [\[CVPR 2025\] Show and Segment: Universal Medical Image Segmentation via In-Context Learning](../../CVPR2025/medical_imaging/show_and_segment_universal_medical_image_segmentation_via_in-context_learning.md)
+- [\[AAAI 2026\] Towards Effective and Efficient Context-aware Nucleus Detection in Histopathology Whole Slide Images](../../AAAI2026/medical_imaging/towards_effective_and_efficient_context-aware_nucleus_detection_in_histopatholog.md)
+- [\[CVPR 2026\] MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation](../../CVPR2026/medical_imaging/medclipseg_probabilistic_vision-language_adaptation_for_data-efficient_and_gener.md)
+- [\[AAAI 2026\] Decoding with Structured Awareness: Integrating Directional, Frequency-Spatial, and Structural Attention for Medical Image Segmentation](../../AAAI2026/medical_imaging/decoding_with_structured_awareness_integrating_directional_frequency-spatial_and.md)
+
+</div>
+
+<!-- RELATED:END -->

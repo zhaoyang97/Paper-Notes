@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] EgoVITA: Learning to Plan and Verify for Egocentric Video Reasoning
+description: >-
+  [ECCV 2026][VLM Reasoning][第一人称视频推理] EgoVITA 将第一人称视频推理显式分解为"自我规划 + 外部视角验证"两阶段推理，用 GRPO 强化学习配合两个密集奖励信号（ACMG 预测性跨模态对齐 + 置信度验证偏好优化）训练，在仅 52k 样本下 EgoBlind 超 Qwen2.5-VL-7B +7.7 点，同时外部视角视频理解性能零退化。
+tags:
+  - "ECCV 2026"
+  - "VLM Reasoning"
+  - "第一人称视频推理"
+  - "计划-验证框架"
+  - "跨视角对齐"
+  - "GRPO"
+  - "密集奖励"
+---
+
 # EgoVITA: Learning to Plan and Verify for Egocentric Video Reasoning
 
 **会议**: ECCV 2026  
@@ -144,3 +159,19 @@ EgoVITA 在三个基座模型家族上均取得一致的 egocentric 提升，且
 - 实验充分度: 5/5 —— 三个基座模型家族、九个 benchmark（ego+exo）、多维度消融（奖励组件、推理分解、窗口大小、池化策略、教师预热、视觉组件训练、正则化强度）、EAGLE 可视化、t-SNE 分析、静态偏差检验、rollout 失败分类、clause 位置分析，覆盖面极广
 - 写作质量: 4/5 —— 结构清晰、公式完整、图文有效支撑论述，但消融表格分散在主文和补充材料之间增加了阅读负担，部分段落密度偏高
 - 价值: 4/5 —— 在仅 52k 样本下实现 SOTA 且不牺牲 exocentric 性能，对数据稀缺的学术研究和辅助技术部署有实际意义；plan-verify 分解 + 密集奖励的训练范式可迁移到其他需要多步推理验证的视觉任务
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Learning Transferable Temporal Primitives for Video Reasoning via Synthetic Videos](../../CVPR2026/vlm_reasoning/learning_transferable_temporal_primitives_for_video_reasoning_via_synthetic_vide.md)
+- [\[CVPR 2026\] Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](../../CVPR2026/vlm_reasoning/incentivizing_versatile_video_reasoning_in_mllms_via_data-efficient_reinforcemen.md)
+- [\[CVPR 2026\] Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](../../CVPR2026/vlm_reasoning/thinking_with_videos_multimodal_tool-augmented_reinforcement_learning_for_long_v.md)
+- [\[ECCV 2026\] ROVA: Are Video Reasoning Models Ready to Go Outside?](are_video_reasoning_models_ready_to_go_outside.md)
+- [\[ECCV 2026\] VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement](videosearch-r1_iterative_video_retrieval_and_reasoning_via_soft_query_refinement.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] HSDF-Lane: Height-Aligned Signed Distance Field with Semantic Lane Prior for 3D Lane Detection
+description: >-
+  [ECCV 2026][自动驾驶][3D车道检测] HSDF-Lane 用垂直方向对齐的有符号距离场（HSDF）替代传统稀疏斜率锚点来隐式建模道路表面，通过可微渲染同时输出精确高度图和表面对齐特征，并引入车道感知语义位置编码（LSPE）将车道存在先验注入 Transformer 查询，在 OpenLane 基准上取得 3D 车道检测和高度估计双项 SOTA。
+tags:
+  - "ECCV 2026"
+  - "自动驾驶"
+  - "3D车道检测"
+  - "有符号距离场"
+  - "高度估计"
+  - "单目视觉"
+  - "语义位置编码"
+---
+
 # HSDF-Lane: Height-Aligned Signed Distance Field with Semantic Lane Prior for 3D Lane Detection
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.31172](https://arxiv.org/abs/2606.31172)  
-**代码**: https://github.com/JiyongBoo/HSDF-Lane  
+**代码**: [https://github.com/JiyongBoo/HSDF-Lane](https://github.com/JiyongBoo/HSDF-Lane)  
 **领域**: 自动驾驶  
 **关键词**: 3D车道检测, 有符号距离场, 高度估计, 单目视觉, 语义位置编码
 
@@ -176,3 +191,19 @@ A→B：仅靠 Eikonal 正则化而缺乏显式高度监督时，高度估计几
 - 实验充分度: ⭐⭐⭐⭐⭐ 主实验覆盖 OpenLane + Apollo 两个数据集、按场景细分、高度估计独立评估；消融逐组件拆解且额外补充了 LSPE 设计空间对比、监督源泛化性测试、效率分析（FPS/FLOPs/参数量）、超参数 $\theta$ 敏感性分析，非常全面。
 - 写作质量: ⭐⭐⭐⭐ 方法动机清晰（Fig.1 锚点 vs HSDF 对比直击痛点），公式完备，Fig.3 可微渲染示意图和 Fig.4 LSPE 可视化让关键机制一目了然；补充材料提供了充分的实现细节和额外实验。
 - 价值: ⭐⭐⭐⭐ 3D 车道检测是自动驾驶核心感知任务，HSDF-Lane 实现 SOTA 精度（F1=66.9）同时参数量大幅降低（28M vs 70M+），部署价值高。HSDF 的 2.5D 隐式建模和 LSPE 的门控注入思路对其他几何感知任务（如路面重建、路沿检测）也有直接启发。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] ReManNet: A Riemannian Manifold Network for Monocular 3D Lane Detection](../../CVPR2026/autonomous_driving/remannet_a_riemannian_manifold_network_for_monocular_3d_lane_detection.md)
+- [\[CVPR 2025\] Rethinking Lanes and Points in Complex Scenarios for Monocular 3D Lane Detection](../../CVPR2025/autonomous_driving/rethinking_lanes_and_points_in_complex_scenarios_for_monocular_3d_lane_detection.md)
+- [\[AAAI 2026\] Fine-Grained Representation for Lane Topology Reasoning](../../AAAI2026/autonomous_driving/fine-grained_representation_for_lane_topology_reasoning.md)
+- [\[CVPR 2026\] HG-Lane: High-Fidelity Generation of Lane Scenes under Adverse Weather and Lighting Conditions without Re-annotation](../../CVPR2026/autonomous_driving/hg-lane_high-fidelity_generation_of_lane_scenes_under_adverse_weather_and_lighti.md)
+- [\[ICCV 2025\] SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions](../../ICCV2025/autonomous_driving/seqgrowgraph_learning_lane_topology_as_a_chain_of_graph_expansions.md)
+
+</div>
+
+<!-- RELATED:END -->

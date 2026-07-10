@@ -283,6 +283,18 @@
   background: rgba(167, 139, 250, 0.22);
 }
 
+/* ── Sidebar: 大类 group headers act as dividers between area blocks ── */
+.md-sidebar--primary .md-nav__item--section .md-nav__item--section {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-sidebar--primary .md-nav__item--section .md-nav__item--section > .md-nav__link {
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+}
+
 /* ── Paper metadata: make arXiv/code links stand out ── */
 .md-content a[href*="arxiv.org"],
 .md-content a[href*="github.com"],

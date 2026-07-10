@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Spanning the Visual Analogy Space with a Weight Basis of LoRAs
+description: >-
+  [ECCV 2026][图像生成][视觉类比] LoRWeB 用一组可学习的 LoRA 基（basis）替代单 LoRA 做视觉类比编辑：一个轻量 CLIP 编码器根据输入类比样本对动态计算 attention 权重，将 N 个基 LoRA 加权组合成任务专属的混合 LoRA 注入 Flux.1-Kontext，在推理仅比单 LoRA 慢 3% 的前提下实现了对未见变换类型的显著泛化提升。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "视觉类比"
+  - "LoRA基分解"
+  - "图像编辑"
+  - "动态路由"
+  - "流匹配"
+---
+
 # Spanning the Visual Analogy Space with a Weight Basis of LoRAs
 
 **会议**: ECCV 2026  
@@ -145,3 +160,19 @@ LoRWeB 在编辑准确性和内容保留之间推进了 Pareto 前沿：Acc 超�
 - 实验充分度: ⭐⭐⭐⭐⭐ 消融覆盖容量/激活函数/编码布局/编码器选择/VLM+人类双评估/prompt 敏感性/非对齐输入/非 Flux 图/失败案例，附录 30+ 页，几乎是 ECCV 顶配
 - 写作质量: ⭐⭐⭐⭐ 逻辑清晰，图表丰富，method 部分的动机-方案-分析链条完整，附录详实但定性图偏多
 - 价值: ⭐⭐⭐⭐ LoRA 基分解是低成本、高收益的泛化增强策略，可直接嵌入任何用 LoRA 做任务适配的扩散模型管线，实用性强；方法本身也为理解 LoRA 权重空间的结构提供了新的经验证据
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] BAR: Refactor the Basis of Autoregressive Visual Generation](../../ICLR2026/image_generation/bar_refactor_the_basis_of_autoregressive_visual_generation.md)
+- [\[ICML 2026\] DynaDiff: Generative Adaptation of Dynamics to Environmental Shifts via Weight-space Diffusion](../../ICML2026/image_generation/generative_adaptation_of_dynamics_to_environmental_shifts_via_weight-space_diffu.md)
+- [\[ECCV 2026\] Learn Once, Edit Anywhere: Visual Direction Transfer for Diffusion Models](learn_once_edit_anywhere_visual_direction_transfer_for_diffusion_models.md)
+- [\[ICLR 2026\] Exploring the Design Space of Transition Matching](../../ICLR2026/image_generation/exploring_the_design_space_of_transition_matching.md)
+- [\[ECCV 2026\] MEPA: Multi-Scale Representation Alignment for Visual Autoregressive Modeling with Mixture of Experts](mepa_multi-scale_representation_alignment_for_visual_autoregressive_modeling_wit.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images
+description: >-
+  [ECCV 2026][3D视觉][多模态图像匹配] AnyMatch 提出一种从海量单视图图像零成本合成多模态多视角匹配数据的框架，通过单目深度估计+3D重投影+扩散补全实现几何一致的视角变换，结合跨模态图像翻译实现红外/深度/法向/事件四种模态生成，并用样本级几何一致性验证（SGCV）过滤生成瑕疵；在 Any-syn 合成数据集上微调 LoFTR/EDM/RoMa 后，跨模态匹配性能大幅超越 MINIMA 等现有合成方法，且在未见医学/遥感模态上展现出强零样本泛化能力。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "多模态图像匹配"
+  - "合成数据生成"
+  - "3D几何一致性"
+  - "视角变换"
+  - "模态变换"
+---
+
 # AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images
 
 **会议**: ECCV 2026  
@@ -172,3 +187,19 @@ SGCV 阈值消融（η 从 0.7 到 0 即不过滤）：
 - 实验充分度: ⭐⭐⭐⭐⭐ 在 3 个匹配 backbone、4 种模态组合、5 个数据集（合成+真实、域内+零样本）上详尽评估，消融覆盖模态数量、SGCV 阈值、训练策略、2D vs 3D、相机参数敏感性，附录补了 RoMa 消融和 LoFTR 退化分析。
 - 写作质量: ⭐⭐⭐⭐ 方法描述清晰，公式与图示配合得当，附录内容充实。部分消融分析可更深入（如 η=0.6 最优的理论解释欠缺），LoFTR 退化分析放在附录而非正文略显回避。
 - 价值: ⭐⭐⭐⭐⭐ 解决了多模态匹配领域最根本的数据瓶颈问题，管线简单可扩展，任何新模态只需加一条翻译管线即可接入，对推动通用多模态匹配模型的发展有重要实用价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures](large-scale_high-quality_3d_gaussian_head_reconstruction_from_multi-view_capture.md)
+- [\[ICCV 2025\] ZeroStereo: Zero-shot Stereo Matching from Single Images](../../ICCV2025/3d_vision/zerostereo_zero-shot_stereo_matching_from_single_images.md)
+- [\[ECCV 2026\] AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision](airzoo_a_unified_large-scale_dataset_for_grounding_aerial_geometric_3d_vision.md)
+- [\[CVPR 2026\] HumanNOVA: Photorealistic, Universal and Rapid 3D Human Avatar Modeling from a Single Image](../../CVPR2026/3d_vision/humannova_photorealistic_universal_and_rapid_3d_human_avatar_modeling_from_a_sin.md)
+- [\[CVPR 2026\] FISHuman: Fine-grained Single-image 3D Human Reconstruction via Multi-view 4D Remeshing](../../CVPR2026/3d_vision/fishuman_fine-grained_single-image_3d_human_reconstruction_via_multi-view_4d_rem.md)
+
+</div>
+
+<!-- RELATED:END -->

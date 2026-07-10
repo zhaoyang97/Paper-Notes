@@ -1,3 +1,17 @@
+---
+title: >-
+  [论文解读] Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints
+description: >-
+  [ECCV 2026][铰接物体重建] Articulat3D 提出一个两阶段优化框架，从单目随意拍摄视频中重建铰接物体的可交互数字孪生：第一阶段用低维运动基（motion bases）对 3D 点轨迹做结构化部分级运动分解，第二阶段用显式运动学基元（旋转/平移关节的轴、枢轴、逐帧标量）约束运动使其满足物理刚体规律，在合成和真实数据上均达到 SOTA 精度且无需静态预扫描。
+tags:
+  - "ECCV 2026"
+  - "铰接物体重建"
+  - "数字孪生"
+  - "单目视频"
+  - "运动学约束"
+  - "3D高斯溅射"
+---
+
 # Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints
 
 **会议**: ECCV 2026  
@@ -158,3 +172,19 @@ Articulat3D 在所有数据集的所有指标上一致领先。在最具挑战�
 - 实验充分度: ⭐⭐⭐⭐⭐ 三个数据集覆盖合成简单/合成复杂/真实场景，四项评估维度，完整消融（每个组件都有"去掉它会发生什么"的测试），外加噪声鲁棒性、数据稀疏性、超参敏感度、运行时间对比，附录扎实。
 - 写作质量: ⭐⭐⭐⭐⭐ 结构清晰（动机-方法-实验线性推进），核心矛盾表述有力，方法细节完整（含数学推导和技术动机），图表丰富且视觉对比有说服力。
 - 价值: ⭐⭐⭐⭐ 将铰接物体数字孪生的创建门槛从受控多视角降到随手单目视频，有显著的规模化意义。当前价值主要在学术推进和方法框架层面，产业落地还需解决层次化运动学链和物理参数估计。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] A2GC: Asymmetric Aggregation with Geometric Constraints for Locally Aggregated Descriptors](../../CVPR2026/others/a2gc_asymmetric_aggregation_with_geometric_constraints_for_locally_aggregated_de.md)
+- [\[ICLR 2026\] Articulation in Motion: Prior-Free Part Mobility Analysis for Articulated Objects](../../ICLR2026/others/articulation_in_motion_prior-free_part_mobility_analysis_for_articulated_objects.md)
+- [\[ECCV 2026\] Seeing Touch from Motion: A Unified Modality-Aware Visuo-Tactile Policy with Tactile Motion Correlation](seeing_touch_from_motion_a_unified_modality-aware_visuo-tactile_policy_with_tact.md)
+- [\[CVPR 2025\] LATTE-MV: Learning to Anticipate Table Tennis Hits from Monocular Videos](../../CVPR2025/others/latte-mv_learning_to_anticipate_table_tennis_hits_from_monocular_videos.md)
+- [\[ECCV 2026\] Geometric Gradient Rectification for Safe Open-Set Semi-Supervised Learning](geometric_gradient_rectification_for_safe_open-set_semi-supervised_learning.md)
+
+</div>
+
+<!-- RELATED:END -->

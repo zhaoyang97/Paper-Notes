@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] PoseShield: Neural Collision Fields for Human Self-Collision Resolution
+description: >-
+  [ECCV 2026][3D视觉][SMPL自碰撞消除] PoseShield 在 SMPL 姿态空间内学习一个带 Eikonal 正则化的神经碰撞场（近似姿态空间 SDF），将其作为可微约束函数嵌入 SLSQP 等梯度约束优化器中，实现从自穿透姿态到最近无碰撞姿态的后处理修正；该方法无需重训下游运动生成模型即可扩展到运动序列碰撞修正，在自建 HwC 数据集上达到 95.8% 的成功率，远超 COAP（44.6%）。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "SMPL自碰撞消除"
+  - "神经碰撞场"
+  - "Eikonal正则化"
+  - "约束优化"
+  - "人体运动生成"
+---
+
 # PoseShield: Neural Collision Fields for Human Self-Collision Resolution
 
 **会议**: ECCV 2026  
@@ -144,3 +159,19 @@ PoseShield 在 HwC 上将 SCC 从 44.6% 提升到 95.8%，同时 MVD 更低（0.
 - 实验充分度: ⭐⭐⭐⭐ 主实验覆盖 2 个数据集 + 5 个基线，消融分析到位（损失项、距离度量、阈值折中、运动扩展），但 HwC 测试子集仅 500 个略小，且未与 N-Penetrate 原版对比
 - 写作质量: ⭐⭐⭐⭐⭐ 问题定义清晰、理论-实践-实验的逻辑链完整，定理陈述严谨（有完整证明在补充材料），图表的 SCC-MVD 折中曲线清楚传达了关键信息
 - 价值: ⭐⭐⭐⭐⭐ 对 SMPL 相关应用（姿态估计、运动生成、数字人动画）有直接实用价值，Eikonal-LICQ 的设计范式可迁移到其他需要用神经网络替代离散约束的场景
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] Structure from Collision](../../CVPR2025/3d_vision/structure_from_collision.md)
+- [\[CVPR 2026\] InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields](../../CVPR2026/3d_vision/infinidepth_arbitrary-resolution_and_fine-grained_depth_estimation_with_neural_i.md)
+- [\[ECCV 2026\] GRAFT: Geometric Refinement and Fitting Transformer for Human Scene Reconstruction](graft_geometric_refinement_and_fitting_transformer_for_human_scene_reconstructio.md)
+- [\[ECCV 2026\] LUNA: Learning Universal 3D Human Animation Beyond Skinning](luna_learning_universal_3d_human_animation_beyond_skinning.md)
+- [\[ECCV 2024\] MeshFeat: Multi-Resolution Features for Neural Fields on Meshes](../../ECCV2024/3d_vision/meshfeat_multi-resolution_features_for_neural_fields_on_meshes.md)
+
+</div>
+
+<!-- RELATED:END -->

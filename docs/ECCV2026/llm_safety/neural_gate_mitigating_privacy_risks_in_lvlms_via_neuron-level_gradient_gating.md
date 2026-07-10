@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating
+description: >-
+  [ECCV 2026][LLM安全][LVLM隐私保护] 本文提出 Neural Gate，一种神经元级梯度门控的 LVLM 隐私风险缓解方法。核心思路是先通过可学习向量在隐私主体特征上测量各神经元对隐私目标的贡献一致性，将神经元分为强激活、弱激活、非激活三类，再在模型编辑时仅对强激活隐私神经元的梯度做参数更新，其余神经元梯度被截断。在 MiniGPT 和 LLaVA 上，Neural Gate 在敏感查询拒绝率超过 94% 的同时几乎不损失通用任务性能，且在分布外隐私类别上展现出强泛化能力。
+tags:
+  - "ECCV 2026"
+  - "LLM安全"
+  - "LVLM隐私保护"
+  - "神经元级模型编辑"
+  - "梯度门控"
+  - "隐私风险缓解"
+  - "多模态大模型"
+---
+
 # Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating
 
 **会议**: ECCV 2026  
 **arXiv**: [2603.12598](https://arxiv.org/abs/2603.12598)  
-**代码**: https://github.com/Xiangkui-Cao/Neural-Gate  
+**代码**: [https://github.com/Xiangkui-Cao/Neural-Gate](https://github.com/Xiangkui-Cao/Neural-Gate)  
 **领域**: LLM安全 / 多模态VLM  
 **关键词**: LVLM隐私保护, 神经元级模型编辑, 梯度门控, 隐私风险缓解, 多模态大模型
 
@@ -152,3 +167,19 @@ $$\mathcal{L} = \mathcal{L}_{LM}(\theta, f_v(I(S)), E(T_{sen}(S)), r_{safe}) + \
 - 实验充分度: ⭐⭐⭐⭐ 在两个主流 LVLM 上对比了 6 个基线，包含安全+效用双维度评估、消融实验、超参数敏感性分析、泛化性分析和 case study；不足在于仅在 7B 模型上实验，缺少更大规模模型的验证
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，动机链完整（痛点→机制→效果），PrivacyPair 的设计和分析部分的"特征测量→三层分类→门控构造"逻辑推进自然；附录补充了充分的实验细节
 - 价值: ⭐⭐⭐⭐ 为 LVLM 安全对齐提供了一个分析驱动的定位式编辑范式——先测量再编辑而非直接编辑，这种思路可推广到幻觉抑制、偏见消除等更多安全场景；代码开源、PrivacyPair 数据集公开，实用价值高
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Towards Benign Memory Forgetting for Selective Multimodal Large Language Model Unlearning](towards_benign_memory_forgetting_for_selective_multimodal_large_language_model_u.md)
+- [\[ECCV 2026\] ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision-Language Models](reshift_aha-moment-driven_reasoning-level_backdoor_attacks_on_vision-language_mo.md)
+- [\[ECCV 2026\] Learning to Compose: Revisiting Proxy Task Design for Zero-Shot Composed Image Retrieval](learning_to_compose_revisiting_proxy_task_design_for_zero-shot_composed_image_re.md)
+- [\[ICLR 2026\] Searching for Privacy Risks in LLM Agents via Simulation](../../ICLR2026/llm_safety/searching_for_privacy_risks_in_llm_agents_via_simulation.md)
+- [\[ECCV 2026\] SlowBA: An efficiency backdoor attack towards VLM-based GUI agents](slowba_an_efficiency_backdoor_attack_towards_vlm-based_gui_agents.md)
+
+</div>
+
+<!-- RELATED:END -->

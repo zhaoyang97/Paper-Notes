@@ -1,9 +1,24 @@
+---
+title: >-
+  [论文解读] SENTRY: SAM2-Enhanced Neighbor-Aware and Temporally Reasoned Memory for Visual Tracking
+description: >-
+  [ECCV 2026][VLM Reasoning][视觉目标跟踪] SENTRY是一个免训练、即插即用的"写前精炼"(refine-before-write)模块，在SAM2系列跟踪器写入记忆前用短时域循环一致性验证每个候选掩码的时序合理性，替代原有基于置信度的记忆更新机制，集成到五个强基线后在九个benchmark上一致提点，在LaSOT/LaSOText/GOT-10k/VOT20/VOT22/DiDi上达到零样本新SOTA，且SAM2-L版本在A100上仍保持32.8 FPS的实时速度。
+tags:
+  - "ECCV 2026"
+  - "VLM Reasoning"
+  - "视觉目标跟踪"
+  - "SAM2"
+  - "记忆机制"
+  - "时序一致性"
+  - "零样本跟踪"
+---
+
 # SENTRY: SAM2-Enhanced Neighbor-Aware and Temporally Reasoned Memory for Visual Tracking
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.24449](https://arxiv.org/abs/2606.24449)  
 **论文**: [Project Page](https://hamadya.github.io/SENTRY/)  
-**代码**: 有 (https://github.com/hamadya/SENTRY)  
+**代码**: 有 ([https://github.com/hamadya/SENTRY](https://github.com/hamadya/SENTRY))  
 **领域**: 视频理解  
 **关键词**: 视觉目标跟踪, SAM2, 记忆机制, 时序一致性, 零样本跟踪
 
@@ -152,3 +167,19 @@ SENTRY-D4S-L在所有box和VOT基准上取得新的零样本SOTA。收益模式�
 - 实验充分度: 5星 —— 5个基线x4个尺度x9个benchmark的全面评估，消融覆盖所有组件和超参数，记忆写入诊断分析和恢复能力分析提供了深入的机制验证，附录还有VOS和跨架构泛化实验
 - 写作质量: 4星 —— 核心思路清晰，"refine-before-write"的概念贯穿全文，实验组织有条理。但附录篇幅极长（A-L共12个），部分内容可精简
 - 价值: 5星 —— 实用价值高：免训练即插即用，0.4-0.6 GB显存、25% FPS开销换一致的性能提升，可直接部署到现有SAM2跟踪器。方法论价值：将"记忆质量控制"作为独立设计维度，启发了记忆增强系统的通用设计思路
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Visual-Aware CoT: Achieving High-Fidelity Visual Consistency in Unified Models](../../CVPR2026/vlm_reasoning/visual-aware_cot_achieving_high-fidelity_visual_consistency_in_unified_models.md)
+- [\[CVPR 2026\] Mimic Human Cognition, Master Multi-Image Reasoning: A Meta-Action Framework for Enhanced Visual Understanding](../../CVPR2026/vlm_reasoning/mimic_human_cognition_master_multi-image_reasoning_a_meta-action_framework_for_e.md)
+- [\[CVPR 2026\] CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization](../../CVPR2026/vlm_reasoning/codev_code_with_images_for_faithful_visual_reasoning_via_tool-aware_policy_optim.md)
+- [\[CVPR 2026\] OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning](../../CVPR2026/vlm_reasoning/oasis_on-demand_hierarchical_event_memory_for_streaming_video_reasoning.md)
+- [\[ICML 2026\] MET-Bench: Multimodal Entity Tracking for Evaluating the Limitations of Vision-Language and Reasoning Models](../../ICML2026/vlm_reasoning/met-bench_multimodal_entity_tracking_for_evaluating_the_limitations_of_vision-la.md)
+
+</div>
+
+<!-- RELATED:END -->

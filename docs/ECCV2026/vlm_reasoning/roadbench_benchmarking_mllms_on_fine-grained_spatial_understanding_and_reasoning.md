@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] RoadBench: Benchmarking MLLMs on Fine-Grained Spatial Understanding and Reasoning under Urban Road Scenarios
+description: >-
+  [ECCV 2026][VLM Reasoning][MLLM评估] RoadBench提出首个以道路标线为核心的城市场景细粒度空间理解与推理基准，包含BEV卫星图和FPV车载图双视角下的8个分级任务共3040个人工核验测试用例；对20个主流MLLM的系统评估表明，现有模型在细粒度空间理解上严重不足——最佳模型在BEV车道计数上F1仅0.355，在车道方向识别上甚至不敌基于交通常识的规则基线，揭示了MLLM从"看见"到"推理"之间的巨大能力鸿沟。
+tags:
+  - "ECCV 2026"
+  - "VLM Reasoning"
+  - "MLLM评估"
+  - "细粒度空间理解"
+  - "道路标线推理"
+  - "BEV/FPV双视角基准"
+  - "城市场景"
+---
+
 # RoadBench: Benchmarking MLLMs on Fine-Grained Spatial Understanding and Reasoning under Urban Road Scenarios
 
 **会议**: ECCV 2026  
 **arXiv**: [2511.18011](https://arxiv.org/abs/2511.18011)  
-**代码**: https://github.com/tsinghua-fib-lab/RoadBench  
+**代码**: [https://github.com/tsinghua-fib-lab/RoadBench](https://github.com/tsinghua-fib-lab/RoadBench)  
 **领域**: 多模态VLM / 空间推理 / 自动驾驶  
 **关键词**: MLLM评估, 细粒度空间理解, 道路标线推理, BEV/FPV双视角基准, 城市场景
 
@@ -106,3 +121,19 @@ RoadBench评估了20个主流MLLM，包括开源（LLaMA-3.2-Vision 11B/90B、Qw
 - 实验充分度: ⭐⭐⭐⭐⭐ 20个主流MLLM全覆盖评估、微调实验、提示消融、环境条件分析、3次重复评估、附录完整数据——benchmark论文的实验标准做到位了
 - 写作质量: ⭐⭐⭐⭐☆ 任务定义和评估指标的选择理由交代清楚，核心结论（不敌规则基线、FPV>BEV不对称性）反复强化；但部分任务描述较简略（如Cross-View的prompt设计细节在正文中被压缩到附录）
 - 价值: ⭐⭐⭐⭐☆ 对MLLM空间理解研究有明确的诊断价值——不是又一个"跑分的benchmark"，而是揭示了当前模型在细粒度感知上系统性不足的具体证据；对自动驾驶和HD地图领域的MLLM应用也有直接的指导意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] HandVQA: Diagnosing and Improving Fine-Grained Spatial Reasoning about Hands in Vision-Language Models](../../CVPR2026/vlm_reasoning/handvqa_diagnosing_and_improving_fine-grained_spatial_reasoning_about_hands_in_v.md)
+- [\[CVPR 2026\] ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps](../../CVPR2026/vlm_reasoning/reasonmap_towards_fine-grained_visual_reasoning_from_transit_maps.md)
+- [\[CVPR 2026\] Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts](../../CVPR2026/vlm_reasoning/chart-fr1_visual_focus-driven_fine-grained_reasoning_on_dense_charts.md)
+- [\[CVPR 2026\] Thinking Beyond Labels: Vocabulary-Free Fine-Grained Recognition using Reasoning-Augmented LMMs](../../CVPR2026/vlm_reasoning/thinking_beyond_labels_vocabulary-free_fine-grained_recognition_using_reasoning-.md)
+- [\[ACL 2026\] TableVista: Benchmarking Multimodal Table Reasoning under Visual and Structural Complexity](../../ACL2026/vlm_reasoning/tablevista_benchmarking_multimodal_table_reasoning_under_visual_and_structural_c.md)
+
+</div>
+
+<!-- RELATED:END -->

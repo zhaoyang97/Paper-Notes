@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Advancing WordArt-Oriented Scene Text Recognition: Datasets and Methods
+description: >-
+  [ECCV 2026][图像生成][艺术字识别] 本文从数据和模型两个维度系统推进艺术字场景文本识别（WATER）：数据侧构建了 2M 规模的合成艺术字数据集 WATER-S（渲染子集 WATER-T + 生成模型子集 WATER-Z），模型侧提出支持任意形状输入 + 自回归解码的 WATERec，首次在 WordArt-Bench 上突破 90% 准确率（90.40%），显著超越通用 VLM 和 OCR 专用 VLM。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "艺术字识别"
+  - "场景文本识别"
+  - "合成数据"
+  - "任意形状编码"
+  - "自回归解码"
+---
+
 # Advancing WordArt-Oriented Scene Text Recognition: Datasets and Methods
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.24484](https://arxiv.org/abs/2606.24484)  
-**代码**: https://github.com/YesianRohn/WATER  
+**代码**: [https://github.com/YesianRohn/WATER](https://github.com/YesianRohn/WATER)  
 **领域**: 场景文本识别 / 图像生成  
 **关键词**: 艺术字识别, 场景文本识别, 合成数据, 任意形状编码, 自回归解码
 
@@ -131,3 +146,19 @@ WATERec 使用标准交叉熵损失进行端到端训练。优化器为 AdamW，
 - 实验充分度: ⭐⭐⭐⭐⭐ 涵盖 3 类 STR 范式（CTC/PD/AR）、4 种模型架构的交叉验证、合成数据规模的边际收益分析、位置编码和 token 范围的消融、与通用/OCR 专用 VLM 的对比、跨语言验证、推理效率对比，实验设计非常扎实。
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，动机充分（数据瓶颈 + 架构瓶颈两条线并行），附录细节完整（含提示词模板、中文验证、效率对比），但部分实验分析可以更深入（如不同噪声水平下模型鲁棒性的定量刻画）。
 - 价值: ⭐⭐⭐⭐⭐ 首次将 WordArt-Bench 推到 90%+，数据和代码全面开源，为 WATER 子领域建立了强基线；合成数据的"适度规模"结论和 VLM vs 专家模型的对比分析对社区有直接参考价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] MDiff4STR: Mask Diffusion Model for Scene Text Recognition](../../AAAI2026/image_generation/mdiff4str_mask_diffusion_model_for_scene_text_recognition.md)
+- [\[NeurIPS 2025\] SceneDecorator: Towards Scene-Oriented Story Generation with Scene Planning and Scene Consistency](../../NeurIPS2025/image_generation/scenedecorator_towards_scene-oriented_story_generation_with_scene_planning_and_s.md)
+- [\[ECCV 2026\] Gen2Balance: Generative Balancing for Long-Tailed Video Action Recognition](gen2balance_generative_balancing_for_long-tailed_video_action_recognition.md)
+- [\[ECCV 2026\] Edit in 2D, Verify in 3D: Reinforcement Learning for Multi-view Consistent Scene Editing](edit_in_2d_verify_in_3d_reinforcement_learning_for_multi-view_consistent_scene_e.md)
+- [\[CVPR 2026\] StyleTextGen: Style-Conditioned Multilingual Scene Text Generation](../../CVPR2026/image_generation/styletextgen_style-conditioned_multilingual_scene_text_generation.md)
+
+</div>
+
+<!-- RELATED:END -->

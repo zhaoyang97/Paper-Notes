@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] A Mechanism-Driven Theory of Phase Transitions in Active Learning
+description: >-
+  [ECCV 2026][医学图像][主动学习] 本文提出一种机制驱动的主动学习相变理论：将 PAC 泛化界的四个分量（经验风险、分布差异、模型复杂度、置信项）重新解释为动态交互项，证明其主导地位沿标注轨迹必然发生切换，并用可测代理指标和分段回归识别出"数据驱动—过渡—模型驱动"三阶段分类法，解释了为什么代表性、覆盖性、不确定性策略在不同预算阶段各擅胜场。
+tags:
+  - "ECCV 2026"
+  - "医学图像"
+  - "主动学习"
+  - "相变"
+  - "泛化界"
+  - "采样策略"
+  - "医学图像分析"
+---
+
 # A Mechanism-Driven Theory of Phase Transitions in Active Learning
 
 **会议**: ECCV 2026  
 **arXiv**: [2607.00144](https://arxiv.org/abs/2607.00144)  
-**代码**: https://github.com/juliamachnio/PALM (有)  
+**代码**: [https://github.com/juliamachnio/PALM](https://github.com/juliamachnio/PALM) (有)  
 **领域**: 医学图像  
 **关键词**: 主动学习, 相变, 泛化界, 采样策略, 医学图像分析
 
@@ -136,3 +151,19 @@ $$Z_k(t) = \beta_{k,0} + \beta_{k,1} t + \sum_{j=1}^{J} \gamma_{k,j} (t - \tau_j
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 4 个数据集、多组表示条件、多种 baseline，消融全面（K 的选择、代理重要性、运行时分析）
 - 写作质量: ⭐⭐⭐⭐⭐ 理论-代理-实验三层递进，Theorem-Lemma 链完整，图示丰富且与文字高度自洽
 - 价值: ⭐⭐⭐⭐⭐ 为 AL 领域提供了缺失的"理论地图"，不仅解释了过去为什么各类方法在不同预算下有效，也为未来 transition-aware AL 算法设计奠定了原则性基础
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICCV 2025\] AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images](../../ICCV2025/medical_imaging/aczerots_active_learning_for_zeroshot_tissue_segmentation_in.md)
+- [\[CVPR 2026\] Active Inference for Micro-Gesture Recognition: EFE-Guided Temporal Sampling and Adaptive Learning](../../CVPR2026/medical_imaging/active_inference_for_micro-gesture_recognition_efe-guided_temporal_sampling_and_.md)
+- [\[CVPR 2026\] Multimodal Causality-Driven Representation Learning for Generalizable Medical Image Segmentation](../../CVPR2026/medical_imaging/multimodal_causal-driven_representation_learning_for_generalizable_medical_image.md)
+- [\[NeurIPS 2025\] SMMILE: An Expert-Driven Benchmark for Multimodal Medical In-Context Learning](../../NeurIPS2025/medical_imaging/smmile_an_expert-driven_benchmark_for_multimodal_medical_in-context_learning.md)
+- [\[CVPR 2026\] InvCoSS: Inversion-driven Continual Self-supervised Learning in Medical Multi-modal Image Pre-training](../../CVPR2026/medical_imaging/invcoss_inversion-driven_continual_self-supervised_learning_in_medical_multi-mod.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MMControl: Unified Multi-Modal Control for Joint Audio-Video Generation
+description: >-
+  [ECCV 2026][视频生成][联合音视频生成] MMControl 提出首个面向联合音视频生成的多模态统一控制框架，通过 MMCU 将参考图像、参考音频、深度图和姿态序列等异构控制信号统一编码，经双流旁路架构非侵入式注入冻结的 Joint DiT 骨干，并在推理时以模态专属引导缩放因子独立调节视觉与声学控制强度，在身份一致性、音色保真度和结构对齐上全面超越现有单模态控制方法。
+tags:
+  - "ECCV 2026"
+  - "视频生成"
+  - "联合音视频生成"
+  - "多模态控制"
+  - "Transformer"
+  - "可控生成"
+  - "音视频同步"
+---
+
 # MMControl: Unified Multi-Modal Control for Joint Audio-Video Generation
 
 **会议**: ECCV 2026  
@@ -81,6 +96,7 @@ $$ \mathbf{x}_{\text{main}}^{(l)} = \text{MainBlock}^{(l)}(\mathbf{x}_{\text{mai
 **结构控制**：深度控制上 MMControl 取得 Mean MAE (x100) 4.52，远优于 VideoComposer 的 15.41 和 VACE 的 5.35；姿态控制上取得 MAE 3.07，优于 VACE 的 3.29。同时在这两项任务中均保持了最优的 Subject DINO 相似度和运动平滑度，说明 MMCU 在精确跟随结构信号的同时不牺牲视觉语义一致性。人类评估中 MMControl 获得 3.58 的总分（4 分制），涵盖唇形同步、表情自然度、动作自然度、文本对齐、主体对齐和视觉质量六项指标，全面超越 Hallo3 的 3.22。
 
 ### 消融实验
+
 | 配置 | Sync-C ↑ | SIM-o ↑ | Depth MAE (x0.01) ↓ | Pose MAE (x0.01) ↓ | 关键发现 |
 |------|----------|---------|---------------------|--------------------|----------|
 | Full model | 2.73 | 0.22 | 4.65 | 3.78 | 完整模型 |
@@ -120,3 +136,19 @@ $$ \mathbf{x}_{\text{main}}^{(l)} = \text{MainBlock}^{(l)}(\mathbf{x}_{\text{mai
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 4 种控制信号组合，对比 7 个基线方法，包含自动指标、人类评估和音频质量三类评测，消融实验拆解了 7 个变体并分析了 γ 因子的敏感性曲线，附录还与同期工作 AVControl 做了头对头比较
 - 写作质量: ⭐⭐⭐⭐☆ 问题定义清晰、方法描述结构化、图示质量高（teaser + 架构图 + 双阶段推理图 + 解耦控制图 + 定性对比图共 7 张），但部分实验表格标注不够具体（如未说明测试集样本量）
 - 价值: ⭐⭐⭐⭐☆ 为联合音视频生成领域的可控性研究建立了一个可复用的 baseline 框架，12 小时训练即可在冻结 19B 模型上获得 SOTA 控制效果，工程实用性高；但当前控制模态有限且限于单人场景，距离"任意模态、任意场景"的通用可控生成仍有距离
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation](avtok_1d_unified_tokenization_for_holistic_audio-video_generation.md)
+- [\[CVPR 2026\] UnityVideo: Unified Multi-Modal Multi-Task Learning for Enhancing World-Aware Video Generation](../../CVPR2026/video_generation/unityvideo_unified_multi-modal_multi-task_learning_for_enhancing_world-aware_vid.md)
+- [\[ICLR 2026\] JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation](../../ICLR2026/video_generation/javisdit_unified_modeling_and_optimization_for_joint_audio-video_generation.md)
+- [\[CVPR 2026\] UniAVGen: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions](../../CVPR2026/video_generation/uniavgen_unified_audio_and_video_generation_with_asymmetric_cross-modal_interact.md)
+- [\[ICLR 2026\] Video-As-Prompt: Unified Semantic Control for Video Generation](../../ICLR2026/video_generation/video-as-prompt_unified_semantic_control_for_video_generation.md)
+
+</div>
+
+<!-- RELATED:END -->

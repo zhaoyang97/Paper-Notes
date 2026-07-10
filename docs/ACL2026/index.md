@@ -1265,6 +1265,14 @@ item_total: 1409
 
 ---
 
+## 🔄 自监督/表示学习 (1) { #self_supervised }
+
+**[LLMSurgeon: Diagnosing Data Mixture of Large Language Models](self_supervised/llmsurgeon_diagnosing_data_mixture_of_large_language_models.md)**
+
+:   LLMSurgeon 把“这个 LLM 到底训练在什么数据上”形式化为 Data Mixture Surgery，并用代理分类器的软混淆矩阵反演生成文本中的领域分布，从而在只访问模型输出的条件下估计预训练数据混合比例。
+
+---
+
 ## 🔗 因果推理 (7) { #causal_inference }
 
 **[Better and Worse with Scale: How Contextual Entrainment Diverges with Model Size](causal_inference/better_and_worse_with_scale_how_contextual_entrainment_diverges_with_model_size.md)**
@@ -1608,18 +1616,6 @@ item_total: 1409
 **[UniVid: 统一视频审核的视觉语言模型](ai_safety/univid_unified_vision-language_model_for_video_moderation.md)**
 
 :   UniVid 通过用统一的策略感知字幕 VLM 替代 1000+ 个黑盒分类器，将视频审核系统从不可维护的"碎片化"架构演进为可解释、可复用的"端到端"审核系统，在 ByteDance 平台生产部署中相比传统方案违规泄漏率下降 42.7%。
-
----
-
-## 🗂 其他方向 (4)
-
----
-
-## 🔄 自监督/表示学习 (1) { #self_supervised }
-
-**[LLMSurgeon: Diagnosing Data Mixture of Large Language Models](self_supervised/llmsurgeon_diagnosing_data_mixture_of_large_language_models.md)**
-
-:   LLMSurgeon 把“这个 LLM 到底训练在什么数据上”形式化为 Data Mixture Surgery，并用代理分类器的软混淆矩阵反演生成文本中的领域分布，从而在只访问模型输出的条件下估计预训练数据混合比例。
 
 ---
 

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation
+description: >-
+  [ECCV 2026][视频生成][音视频生成] AVTok 提出首个统一的音视频 tokenizer，用双流 Transformer 架构（共享编解码器 + 模态特定可学习查询）将音视频对联合编码到单个 1D 离散隐空间，配合 VFAL 分层训练策略和表示对齐学习，在重建质量和下游自回归生成任务（A2V / V2A / 联合生成）上均达到领先水平，且参数量和计算量远小于主流双分支方案。
+tags:
+  - "ECCV 2026"
+  - "视频生成"
+  - "音视频生成"
+  - "统一tokenization"
+  - "1D离散隐空间"
+  - "Transformer"
+  - "自回归生成"
+---
+
 # AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation
 
 **会议**: ECCV 2026  
@@ -154,3 +169,19 @@ $$\mathcal{L} = \lambda_1 \mathcal{L}_{rec}^v + \lambda_2 \mathcal{L}_{rec}^a + 
 - 实验充分度: ⭐⭐⭐⭐ 重建和三个下游生成任务都做了充分对比，消融覆盖架构和训练组件，附录还补充了效率、缩放、token 数量、外部模型选择等分析；扣一分是因为主实验缺乏直接可比的统一 tokenizer 基线（确实是领域空白，非作者之过）
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，动机和图解（Fig.2 表示鸿沟、Fig.3 方法总览）让读者很快抓住核心；附录细节充分，可复现性好
 - 价值: ⭐⭐⭐⭐⭐ 为「统一多模态 tokenization → 统一多模态生成模型」这条路线提供了第一个可行方案，概念简洁、效果扎实、效率优势显著，有潜力影响后续音视频生成乃至通用多模态大模型的研究方向
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] MMControl: Unified Multi-Modal Control for Joint Audio-Video Generation](mmcontrol_unified_multi-modal_control_for_joint_audio-video_generation.md)
+- [\[CVPR 2026\] AdapTok: Learning Adaptive and Temporally Causal Video Tokenization in a 1D Latent Space](../../CVPR2026/video_generation/adaptok_learning_adaptive_and_temporally_causal_video_tokenization_in_a_1d_laten.md)
+- [\[CVPR 2026\] Archon: A Unified Multimodal Model for Holistic Digital Human Generation](../../CVPR2026/video_generation/archon_a_unified_multimodal_model_for_holistic_digital_human_generation.md)
+- [\[ICLR 2026\] JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation](../../ICLR2026/video_generation/javisdit_unified_modeling_and_optimization_for_joint_audio-video_generation.md)
+- [\[ICML 2026\] T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation](../../ICML2026/video_generation/t2av-compass_towards_unified_evaluation_for_text-to-audio-video_generation.md)
+
+</div>
+
+<!-- RELATED:END -->

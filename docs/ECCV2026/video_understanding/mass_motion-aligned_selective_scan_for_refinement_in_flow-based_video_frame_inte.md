@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MASS: Motion-Aligned Selective Scan for Refinement in Flow-Based Video Frame Interpolation
+description: >-
+  [ECCV 2026][视频理解][视频帧插值] MASS 将视频帧插值中 SSM 的特征扫描从静态空间网格重新定义为沿光流轨迹的动态序列建模，通过可学习非线性路径积分和速度感知自适应扫描，在保持高效计算的同时显著提升大位移和复杂遮挡场景下的插值质量，在 SNU-FILM Extreme 子集上以 26.04 dB PSNR 超越此前最优方法 0.38 dB。
+tags:
+  - "ECCV 2026"
+  - "视频理解"
+  - "视频帧插值"
+  - "状态空间模型"
+  - "运动轨迹"
+  - "光流引导扫描"
+  - "Mamba"
+---
+
 # MASS: Motion-Aligned Selective Scan for Refinement in Flow-Based Video Frame Interpolation
 
 **会议**: ECCV 2026  
@@ -169,3 +184,19 @@ VA-SSM 在所有基准上精度最高，且 FLOPs 与最简单的 1D 卷积持�
 - 实验充分度: ⭐⭐⭐⭐⭐ (5/5) 六个基准全覆盖，四组消融（组件/积分器/尺度迭代/轨迹方向扰动）、细化内部机制定量分析（warp error 随尺度变化、高低运动区域对比）、可视化（轨迹修正、细化过程）一应俱全，几乎无可挑剔。
 - 写作质量: ⭐⭐⭐⭐☆ (4/5) Method 逻辑清晰，公式与图示配合到位；Fig. 1 扫描方式对比、Fig. 6 细化机制可视化对理解帮助很大。但部分实现细节推给补充材料（变长序列批量计算的具体掩码策略），正文交代不够完整。
 - 价值: ⭐⭐⭐⭐☆ (4/5) 解决了 VFI 中实际存在的大位移/遮挡难题，SOTA 性能在 Extreme 场景有实质提升（0.38 dB）；轨迹对齐扫描的核心思想对视频理解诸任务有迁移潜力；但粗光流依赖构成实用部署的结构性风险点。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] BIMBA: Selective-Scan Compression for Long-Range Video Question Answering](../../CVPR2025/video_understanding/bimba_selective-scan_compression_for_long-range_video_question_answering.md)
+- [\[AAAI 2026\] VTinker: Guided Flow Upsampling and Texture Mapping for High-Resolution Video Frame Interpolation](../../AAAI2026/video_understanding/vtinker_guided_flow_upsampling_and_texture_mapping_for_high-resolution_video_fra.md)
+- [\[ECCV 2024\] IAM-VFI: Interpolate Any Motion for Video Frame Interpolation with Motion Complexity Map](../../ECCV2024/video_understanding/iam-vfi_interpolate_any_motion_for_video_frame_interpolation_with_motion_complex.md)
+- [\[CVPR 2026\] One-Shot Flow, Any-Time Frame: A Bidirectional Warping Framework for Event-Based Video Frame Interpolation](../../CVPR2026/video_understanding/one-shot_flow_any-time_frame_a_bidirectional_warping_framework_for_event-based_v.md)
+- [\[CVPR 2025\] FRAME: Floor-aligned Representation for Avatar Motion from Egocentric Video](../../CVPR2025/video_understanding/frame_floor-aligned_representation_for_avatar_motion_from_egocentric_video.md)
+
+</div>
+
+<!-- RELATED:END -->

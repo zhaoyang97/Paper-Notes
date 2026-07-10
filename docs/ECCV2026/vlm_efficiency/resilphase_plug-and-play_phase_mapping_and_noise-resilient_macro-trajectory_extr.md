@@ -1,8 +1,24 @@
+---
+title: >-
+  [论文解读] ResilPhase: Plug-and-Play Phase Mapping and Noise-Resilient Macro-Trajectory Extrapolation for Diffusion Acceleration
+description: >-
+  [ECCV 2026][VLM Efficiency][扩散模型加速] ResilPhase 将 DiT 免训练加速从逐层导数外推范式重构为 ODE 空间中的宏观轨迹外推：用端到端 Global Drift 消除逐层误差级联，用无导数 Barycentric Lagrange 插值绕过导数混沌噪声，再用 Chebyshev/Balanced 相位映射将离散时间步投影到有界相位空间以抑制 Runge 现象，在 FLUX.1-dev 上以约 5 倍加速仍保持 SOTA 画质。
+tags:
+  - "ECCV 2026"
+  - "VLM Efficiency"
+  - "扩散模型加速"
+  - "DiT"
+  - "免训练缓存"
+  - "Barycentric Lagrange 外推"
+  - "相位映射"
+  - "Runge 现象"
+---
+
 # ResilPhase: Plug-and-Play Phase Mapping and Noise-Resilient Macro-Trajectory Extrapolation for Diffusion Acceleration
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.26769](https://arxiv.org/abs/2606.26769)  
-**代码**: https://github.com/zqc214/ResilPhase  
+**代码**: [https://github.com/zqc214/ResilPhase](https://github.com/zqc214/ResilPhase)  
 **领域**: 扩散模型加速  
 **关键词**: 扩散模型加速, DiT, 免训练缓存, Barycentric Lagrange 外推, 相位映射, Runge 现象
 
@@ -180,3 +196,19 @@ ResilPhase 在视频任务上同样稳定——最快加速（4.98x）下 LPIPS 
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 4 个模型、3 类任务、与 10 种基线对比，消融设计合理；缺 U-Net 验证和与量化/剪枝的组合实验
 - 写作质量: ⭐⭐⭐⭐⭐ 从"现象→根因→三个瓶颈→三个组件"的逻辑链清晰，误差分析到 $O(1)$ vs $O((1+L_f)^L)$ 的对比极具说服力
 - 价值: ⭐⭐⭐⭐⭐ 免训练 + 即插即用的性质极其实用；Phase Mapping 作为通用稳定器可接入任何现有加速器，生态价值大
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models](../../AAAI2026/vlm_efficiency/global_compression_commander_plug-and-play_inference_acceler.md)
+- [\[CVPR 2026\] Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving](../../CVPR2026/vlm_efficiency/prune2drive_a_plug-and-play_framework_for_accelerating_vision-language_models_in.md)
+- [\[CVPR 2026\] SODA: Sensitivity-Oriented Dynamic Acceleration for Diffusion Transformer](../../CVPR2026/vlm_efficiency/soda_sensitivity-oriented_dynamic_acceleration_for_diffusion_transformer.md)
+- [\[ECCV 2026\] HSD: Training-Free Acceleration for Document Parsing Vision-Language Models with Hierarchical Speculative Decoding](hsd_training-free_acceleration_for_document_parsing_vision-language_models_with_.md)
+- [\[CVPR 2026\] PS-SR: Pseudo-Single-Step Video Super-Resolution via Speculative Diffusion](../../CVPR2026/vlm_efficiency/ps-sr_pseudo-single-step_video_super-resolution_via_speculative_diffusion.md)
+
+</div>
+
+<!-- RELATED:END -->

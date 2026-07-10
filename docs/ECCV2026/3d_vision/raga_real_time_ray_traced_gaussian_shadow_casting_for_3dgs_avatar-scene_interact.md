@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction
+description: >-
+  [ECCV 2026][3D视觉][3D高斯泼溅] RAGA 提出了一种完全在高斯空间中计算阴影的射线追踪方法——对每条阴影射线做精确的高斯线积分并归一化，得到描述光线"穿过多少"遮挡体的厚度因子，以此驱动阴影透射率；同时引入化身代理（avatar proxy）消除动画中的时序抖动，在 NVIDIA OptiX 上实现约 50 FPS 的交互式阴影投射。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "阴影投射"
+  - "光线追踪"
+  - "化身-场景交互"
+  - "时序稳定性"
+---
+
 # RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction
 
 **会议**: ECCV 2026  
@@ -176,3 +191,19 @@ TSC（Temporal Shadow Consistency）为连续帧间阴影图的平均逐像素�
 - 实验充分度: ⭐⭐⭐⭐☆ 主实验有定量（ScanNet++ 三项指标 + TSC）和定性（多场景渲染图），消融覆盖衰减模型/归一化/代理三方面，感知研究补充了主观偏好。但缺少与纯基于网格的经典阴影映射在更多指标上的系统对比，且伪真值协议本身的质量依赖网格重建精度。
 - 写作质量: ⭐⭐⭐⭐⭐ 方法推导清晰，从问题定位（表格对比 gap）到数学公式（封闭形式求解）到工程实现（OptiX CUDA）层次分明；图 1 将六种射线-高斯处理策略的对比浓缩在一张图上，信息密度高。
 - 价值: ⭐⭐⭐⭐☆ 3DGS 化身-场景交互是内容创作、虚拟制作、仿真等应用的核心需求，RAGA 提供的实时阴影能力直接提升了 3DGS 在这些场景下的可用性。方法本身对训练无依赖、纯推理管线，易于集成到现有 3DGS 管线中。局限在于光源类型和自动光源估计的缺失，短期内限制了完全自动化的场景。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICCV 2025\] Radiant Foam: Real-Time Differentiable Ray Tracing](../../ICCV2025/3d_vision/radiant_foam_real-time_differentiable_ray_tracing.md)
+- [\[ICLR 2026\] Joint Shadow Generation and Relighting via Light-Geometry Interaction Maps](../../ICLR2026/3d_vision/joint_shadow_generation_and_relighting_via_light-geometry_interaction_maps.md)
+- [\[ECCV 2026\] GaussLite: Online Task-Conditioned 3D Gaussian Splatting for Real-Time Robotic Mapping](gausslite_task_conditioned_3dgs_mapping.md)
+- [\[CVPR 2026\] Stochastic Ray Tracing for the Reconstruction of 3D Gaussian Splatting](../../CVPR2026/3d_vision/stochastic_ray_tracing_for_the_reconstruction_of_3d_gaussian_splatting.md)
+- [\[ECCV 2026\] Improving Sparse-View 3DGS Generalization via Flat Minima Optimization](improving_sparse-view_3dgs_generalization_via_flat_minima_optimization.md)
+
+</div>
+
+<!-- RELATED:END -->

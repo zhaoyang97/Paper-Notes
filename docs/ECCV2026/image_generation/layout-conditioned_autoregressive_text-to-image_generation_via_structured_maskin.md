@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Layout-Conditioned Autoregressive Text-to-Image Generation via Structured Masking
+description: >-
+  [ECCV 2026][图像生成][自回归图像生成] SMARLI 提出结构化掩码策略，通过显式控制自回归 Transformer 中文本提示词、布局和图像三类 token 之间的注意力交互，在无需修改模型架构的前提下实现 AR 模型的布局可控图像生成；并首次将 GRPO 后训练引入 AR 布局到图像生成，设计包含 VQA、mIoU、precision 的复合布局奖励，在 LayoutSAM-Eval 和 OverLayBench 上以 1.3B 参数超越多数扩散模型 SOTA。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "自回归图像生成"
+  - "布局可控生成"
+  - "结构化掩码"
+  - "GRPO 后训练"
+  - "文本到图像"
+---
+
 # Layout-Conditioned Autoregressive Text-to-Image Generation via Structured Masking
 
 **会议**: ECCV 2026  
@@ -150,3 +165,19 @@ GRPO 后训练阶段，组数 $G=4$，生成步数 10，batch size 28，学习�
 - 实验充分度: ⭐⭐⭐⭐⭐ 两个 L2I 基准 + T2I-CompBench + 丰富的消融（掩码策略各组件、GRPO 奖励各子项、布局分词器设计、权重超参），覆盖全面
 - 写作质量: ⭐⭐⭐⭐ 方法动机链条清晰，结构化掩码的四原则表述精炼，GRPO 对 next-set 的适配说明到位；部分实验细节放在补充材料，主文消融实验较多但条理清楚
 - 价值: ⭐⭐⭐⭐ 为 AR 模型在可控图像生成领域打开了一个简洁有效的入口，结构化掩码和复合布局奖励的设计思路有较好的可迁移性；代码未开源是目前的主要不足
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Continuous Speculative Decoding for Autoregressive Image Generation](continuous_speculative_decoding_for_autoregressive_image_generation.md)
+- [\[ECCV 2026\] Text-Conditioned Background Generation for Editable Multi-Layer Documents](text-conditioned_background_generation_for_editable_multi-layer_documents.md)
+- [\[ECCV 2026\] Obliviate: Erasing Concepts from Autoregressive Image Generation Models](obliviate_erasing_concepts_from_autoregressive_image_generation_models.md)
+- [\[AAAI 2026\] LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-structured Annotations](../../AAAI2026/image_generation/longt2ibench_a_benchmark_for_evaluating_long_text-to-image_generation_with_graph.md)
+- [\[CVPR 2026\] LumiX: Structured and Coherent Text-to-Intrinsic Generation](../../CVPR2026/image_generation/lumix_structured_and_coherent_text-to-intrinsic_generation.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Evaluating and Enhancing Negation Comprehension in Remote Sensing MLLMs
+description: >-
+  [ECCV 2026][多模态VLM][否定理解] 针对遥感 MLLM 在否定查询下性能严重退化的问题，本文构建首个遥感否定理解基准 RS-Neg（22K 样本，覆盖区域级到场景级四类任务），并提出测试时自适应方法 NeFo，将否定的逻辑角色（真值翻转算子）显式建模为优化目标，仅用约 5% 无标签测试样本即可显著提升多个基座模型的否定理解能力，并在未见任务上展现强泛化性。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "否定理解"
+  - "遥感多模态大模型"
+  - "测试时自适应"
+  - "基准数据集"
+  - "真值翻转"
+---
+
 # Evaluating and Enhancing Negation Comprehension in Remote Sensing MLLMs
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.20177](https://arxiv.org/abs/2606.20177)  
-**代码**: https://hhc1997.github.io/RS-Neg-and-NeFo/  
+**代码**: [https://hhc1997.github.io/RS-Neg-and-NeFo/](https://hhc1997.github.io/RS-Neg-and-NeFo/)  
 **领域**: 多模态VLM  
 **关键词**: 否定理解, 遥感多模态大模型, 测试时自适应, 基准数据集, 真值翻转
 
@@ -146,3 +161,19 @@ $$\mathcal{L}_{ret} = \beta \mathbb{D}_{\text{KL}}[\mathcal{P}_{\Theta^o}(y|v,q^
 - 实验充分度: ⭐⭐⭐⭐⭐ 四个基座模型、三种 TTA 基线、完整消融（逐组件 + 超参数）、跨模型规模扩展（2B-32B）、数据规模扩展分析、三类零样本泛化测试，覆盖全面，结论可信。
 - 写作质量: ⭐⭐⭐⭐ 动机清晰（18 个月婴儿的否定理解切入点有感染力），结构合理，核心公式定义明确；部分方法细节（如 DyFo 搜索的具体分支策略）在正文中不够详尽，需查附录。
 - 价值: ⭐⭐⭐⭐⭐ 否定的准确理解是遥感 MLLM 走向真实部署（灾害响应、军事侦察、城市规划）的安全关键瓶颈，本文提供了可操作的基准工具和实用的轻量解决方案，5% 数据 + 2.5M 参数的 TTA 方案对资源受限场景极具吸引力。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] RSICCLLM: A Multimodal Large Language Model for Remote Sensing Image Change Captioning](rsiccllm_a_multimodal_large_language_model_for_remote_sensing_image_change_capti.md)
+- [\[CVPR 2026\] VLM4RSDet: Collaborative Optimization with Vision-Language Model for Enhancing Remote Sensing Object Detection](../../CVPR2026/multimodal_vlm/vlm4rsdet_collaborative_optimization_with_vision-language_model_for_enhancing_re.md)
+- [\[ICLR 2026\] PhysLLM: Harnessing Large Language Models for Cross-Modal Remote Physiological Sensing](../../ICLR2026/multimodal_vlm/physllm_harnessing_large_language_models_for_cross-modal_remote_physiological_se.md)
+- [\[ICLR 2026\] CityLens: Evaluating Large Vision-Language Models for Urban Socioeconomic Sensing](../../ICLR2026/multimodal_vlm/citylens_evaluating_large_vision-language_models_for_urban_socioeconomic_sensing.md)
+- [\[NeurIPS 2025\] CHOICE: Benchmarking the Remote Sensing Capabilities of Large Vision-Language Models](../../NeurIPS2025/multimodal_vlm/choice_benchmarking_the_remote_sensing_capabilities_of_large_vision-language_mod.md)
+
+</div>
+
+<!-- RELATED:END -->

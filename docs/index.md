@@ -1,6 +1,6 @@
 ---
 title: "23000+篇AI顶会论文解读 · 每篇5分钟读懂核心思想"
-description: "23000+篇 AI、LLM、NLP、CV 顶会论文解读，每篇5分钟读懂核心思想。覆盖 ACL、CVPR、ICLR、AAAI、NeurIPS、ICCV、ICML、ECCV 等11大会议55个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。"
+description: "23000+篇 AI、LLM、NLP、CV 顶会论文解读，每篇5分钟读懂核心思想。覆盖 ACL、CVPR、ICLR、AAAI、NeurIPS、ICCV、ICML、ECCV 等12大会议55个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。"
 tags:
   - "AI论文解读"
   - "顶会论文"
@@ -26,8 +26,8 @@ hide:
 <p class="hero-subtitle">AI · LLM · NLP · CV 顶会论文解读，每篇 5 分钟读懂核心思想。<br>覆盖 ACL · CVPR · ICLR · AAAI · NeurIPS · ICCV · ICML · ECCV 等会议<br>持续更新中</p>
 
 <div class="hero-stats">
-<div class="stat"><span class="stat-number">23447</span><span class="stat-label">篇笔记</span></div>
-<div class="stat"><span class="stat-number">11</span><span class="stat-label">个会议</span></div>
+<div class="stat"><span class="stat-number">23867</span><span class="stat-label">篇笔记</span></div>
+<div class="stat"><span class="stat-number">12</span><span class="stat-label">个会议</span></div>
 <div class="stat"><span class="stat-number">55</span><span class="stat-label">个领域</span></div>
 </div>
 
@@ -153,7 +153,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="ICLR2026/nlp_understanding/">NLP 理解 2</a>
 <a class="area-tag" href="ICLR2026/nlp_generation/">文本生成 12</a>
@@ -235,6 +235,89 @@ hide:
 
 <div class="conf-card" markdown>
 
+### 🎞️ [ECCV2026](ECCV2026/index.md)
+
+<div class="conf-count">420 篇 · 32 个领域</div>
+
+<div class="area-groups">
+<div class="area-group">
+<div class="area-group-label">LLM</div>
+<div class="area-tags">
+<a class="area-tag" href="ECCV2026/llm_agent/">LLM Agent 4</a>
+<a class="area-tag" href="ECCV2026/multi_agent/">Multi-Agent 1</a>
+<a class="area-tag" href="ECCV2026/llm_safety/">LLM 安全 5</a>
+<a class="area-tag" href="ECCV2026/hallucination/">幻觉检测 2</a>
+<a class="area-tag" href="ECCV2026/llm_pretraining/">预训练 2</a>
+<a class="area-tag" href="ECCV2026/llm_nlp/">LLM 其他 1</a>
+</div>
+</div>
+<div class="area-group">
+<div class="area-group-label">LLM 应用</div>
+<div class="area-tags">
+<a class="area-tag" href="ECCV2026/information_retrieval/">信息检索/RAG 2</a>
+</div>
+</div>
+<div class="area-group">
+<div class="area-group-label">生成与多模态</div>
+<div class="area-tags">
+<a class="area-tag" href="ECCV2026/image_generation/">图像生成 56</a>
+<a class="area-tag" href="ECCV2026/video_generation/">视频生成 24</a>
+<a class="area-tag" href="ECCV2026/multimodal_vlm/">多模态 VLM 39</a>
+<a class="area-tag" href="ECCV2026/vlm_reasoning/">VLM Reasoning 18</a>
+<a class="area-tag" href="ECCV2026/vlm_efficiency/">VLM Efficiency 8</a>
+<a class="area-tag" href="ECCV2026/audio_speech/">音频/语音 7</a>
+<a class="area-tag" href="ECCV2026/aigc_detection/">AIGC 检测 3</a>
+</div>
+</div>
+<div class="area-group">
+<div class="area-group-label">视觉感知</div>
+<div class="area-tags">
+<a class="area-tag" href="ECCV2026/3d_vision/">3D 视觉 67</a>
+<a class="area-tag" href="ECCV2026/object_detection/">目标检测 18</a>
+<a class="area-tag" href="ECCV2026/segmentation/">语义分割 14</a>
+<a class="area-tag" href="ECCV2026/image_restoration/">图像恢复 12</a>
+<a class="area-tag" href="ECCV2026/remote_sensing/">遥感 1</a>
+<a class="area-tag" href="ECCV2026/human_understanding/">人体理解 18</a>
+<a class="area-tag" href="ECCV2026/video_understanding/">视频理解 12</a>
+</div>
+</div>
+<div class="area-group">
+<div class="area-group-label">决策与具身</div>
+<div class="area-tags">
+<a class="area-tag" href="ECCV2026/autonomous_driving/">自动驾驶 33</a>
+<a class="area-tag" href="ECCV2026/robotics/">机器人/具身智能 15</a>
+<a class="area-tag" href="ECCV2026/reinforcement_learning/">强化学习 1</a>
+</div>
+</div>
+<div class="area-group">
+<div class="area-group-label">基础与理论</div>
+<div class="area-tags">
+<a class="area-tag" href="ECCV2026/self_supervised/">自监督/表示学习 3</a>
+<a class="area-tag" href="ECCV2026/optimization/">优化/理论 2</a>
+<a class="area-tag" href="ECCV2026/causal_inference/">因果推理 1</a>
+<a class="area-tag" href="ECCV2026/interpretability/">可解释性 2</a>
+<a class="area-tag" href="ECCV2026/model_compression/">模型压缩 11</a>
+</div>
+</div>
+<div class="area-group">
+<div class="area-group-label">科学与跨学科</div>
+<div class="area-tags">
+<a class="area-tag" href="ECCV2026/medical_imaging/">医学图像 14</a>
+<a class="area-tag" href="ECCV2026/ai_safety/">AI 安全 7</a>
+</div>
+</div>
+<div class="area-group">
+<div class="area-group-label">其他</div>
+<div class="area-tags">
+<a class="area-tag" href="ECCV2026/others/">其他 17</a>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="conf-card" markdown>
+
 ### 💬 [ACL2026](ACL2026/index.md)
 
 <div class="conf-count">1409 篇 · 38 个领域</div>
@@ -257,7 +340,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="ACL2026/nlp_understanding/">NLP 理解 34</a>
 <a class="area-tag" href="ACL2026/nlp_generation/">文本生成 17</a>
@@ -340,7 +423,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="ICML2026/nlp_understanding/">NLP 理解 2</a>
 <a class="area-tag" href="ICML2026/nlp_generation/">文本生成 2</a>
@@ -443,7 +526,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="AAAI2026/nlp_understanding/">NLP 理解 1</a>
 <a class="area-tag" href="AAAI2026/nlp_generation/">文本生成 3</a>
@@ -546,7 +629,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="NeurIPS2025/nlp_understanding/">NLP 理解 3</a>
 <a class="area-tag" href="NeurIPS2025/dialogue/">对话系统 8</a>
@@ -646,7 +729,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="ICCV2025/nlp_understanding/">NLP 理解 1</a>
 <a class="area-tag" href="ICCV2025/nlp_generation/">文本生成 1</a>
@@ -743,7 +826,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="ICML2025/nlp_understanding/">NLP 理解 1</a>
 <a class="area-tag" href="ICML2025/nlp_generation/">文本生成 1</a>
@@ -844,7 +927,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="ACL2025/nlp_understanding/">NLP 理解 30</a>
 <a class="area-tag" href="ACL2025/nlp_generation/">文本生成 27</a>
@@ -942,7 +1025,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="CVPR2025/nlp_generation/">文本生成 2</a>
 <a class="area-tag" href="CVPR2025/multilingual_mt/">多语言/翻译 1</a>
@@ -1036,7 +1119,7 @@ hide:
 </div>
 </div>
 <div class="area-group">
-<div class="area-group-label">NLP 应用</div>
+<div class="area-group-label">LLM 应用</div>
 <div class="area-tags">
 <a class="area-tag" href="ECCV2024/nlp_understanding/">NLP 理解 1</a>
 <a class="area-tag" href="ECCV2024/dialogue/">对话系统 1</a>

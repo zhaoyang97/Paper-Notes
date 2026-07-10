@@ -1,8 +1,22 @@
+---
+title: >-
+  [论文解读] Geometric Gradient Rectification for Safe Open-Set Semi-Supervised Learning
+description: >-
+  [ECCV 2026][开放集半监督学习] 本文提出 GGR（Geometric Gradient Rectification），一种即插即用的梯度空间校正框架：以有监督梯度为锚点，将与之冲突的无监督辅助梯度投影到安全半空间内，使辅助更新在所选参数块上与有监督方向保持一阶非对抗，从而在不依赖精确 OOD 检测的前提下同时提升闭集泛化与开集鲁棒性。
+tags:
+  - "ECCV 2026"
+  - "开放集半监督学习"
+  - "梯度校正"
+  - "优化几何"
+  - "伪标签噪声"
+  - "非对抗更新"
+---
+
 # Geometric Gradient Rectification for Safe Open-Set Semi-Supervised Learning
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.26973](https://arxiv.org/abs/2606.26973)  
-**代码**: https://github.com/JiaheChen2002/GGR (有)  
+**代码**: [https://github.com/JiaheChen2002/GGR](https://github.com/JiaheChen2002/GGR) (有)  
 **领域**: 自监督 / 表示学习  
 **关键词**: 开放集半监督学习、梯度校正、优化几何、伪标签噪声、非对抗更新
 
@@ -128,3 +142,19 @@ GGR 不修改基方法的损失函数定义，只在梯度聚合阶段介入。�
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 CIFAR-10/100 和 ImageNet-30、多种 split 和标签预算、三类基方法、通用对比控制、效率分析，但缺少更大规模数据集的验证
 - 写作质量: ⭐⭐⭐⭐⭐ 动机清晰（Figure 1 梯度几何分析极具说服力），数学推导严谨（附录给出完整证明），理论-实验对照紧密（冲突诊断、累积遗憾等 metric 设计精巧）
 - 价值: ⭐⭐⭐⭐⭐ 即插即用、零超参（VLR）、不改前向传播，实用性强；梯度空间几何控制的思路可迁移到多任务学习、持续学习、鲁棒优化等更广泛的场景
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Sampling Control for Imbalanced Calibration in Semi-Supervised Learning](../../AAAI2026/others/sampling_control_for_imbalanced_calibration_in_semi-supervised_learning.md)
+- [\[ECCV 2024\] Bidirectional Uncertainty-Based Active Learning for Open-Set Annotation](../../ECCV2024/others/bidirectional_uncertainty-based_active_learning_for_open-set_annotation.md)
+- [\[ICML 2026\] Target-Agnostic Calibration under Distribution Shift with Frequency-Aware Gradient Rectification](../../ICML2026/others/target-agnostic_calibration_under_distribution_shift_with_frequency-aware_gradie.md)
+- [\[NeurIPS 2025\] Semi-Supervised Regression with Heteroscedastic Pseudo-Labels](../../NeurIPS2025/others/semi-supervised_regression_with_heteroscedastic_pseudo-labels.md)
+- [\[ECCV 2026\] Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints](articulat3d_reconstructing_articulated_digital_twins_from_monocular_videos_with_.md)
+
+</div>
+
+<!-- RELATED:END -->

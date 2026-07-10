@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Long-term Traffic Simulation via Structured Autoregressive Modeling
+description: >-
+  [ECCV 2026][自动驾驶][交通仿真] RosettaSim 将长时多智能体交通仿真建模为结构化自回归序列生成问题，利用冻结/部分冻结的 LLM（Qwen2.5-0.5B）作为结构先验，将场景拓扑、智能体状态和生成意图投影到变长 token 序列中统一处理运动预测与智能体种群动态；同时提出检索式交通评估框架 RTE，用语义相似的真实场景作为参考锚点替代全局分布匹配，在 WOSAC 短时和长时仿真上均达到 SOTA。
+tags:
+  - "ECCV 2026"
+  - "自动驾驶"
+  - "交通仿真"
+  - "自回归建模"
+  - "大语言模型"
+  - "长时仿真"
+  - "检索式评估"
+---
+
 # Long-term Traffic Simulation via Structured Autoregressive Modeling
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.31209](https://arxiv.org/abs/2606.31209)  
-**代码**: https://sephirex-x.github.io/rosettasim/ (有)  
+**代码**: [https://sephirex-x.github.io/rosettasim/](https://sephirex-x.github.io/rosettasim/) (有)  
 **领域**: 自动驾驶  
 **关键词**: 交通仿真, 自回归建模, 大语言模型, 长时仿真, 检索式评估
 
@@ -127,3 +142,19 @@ flowchart TD
 - 实验充分度: ⭐⭐⭐⭐⭐ 涵盖短时/长时双场景、5 种 LLM 对比、冻结层数消融、Zipf 分布破坏实验、注意力 locality 探针、模型缩放、RTE 参数消融和检索忠实度验证，实验设计全面且有因果推断深度
 - 写作质量: ⭐⭐⭐⭐⭐ 动机链条清晰（矛盾 → 探测实验 → 方法 → 评估），附录包含数学证明（NLL 悖论、$D_{enter}/D_{exit}$ 缺陷）和详细伪代码，整体论证自洽
 - 价值: ⭐⭐⭐⭐⭐ 为 LLM 在非语言结构化序列建模中的应用提供了方法论范式（探测实验 + 结构先验适配），RTE 可独立作为长时生成任务的通用评估框架，单阶段训练的高效率对工业部署也有实际意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICCV 2025\] Long-term Traffic Simulation with Interleaved Autoregressive Motion and Scenario Generation](../../ICCV2025/autonomous_driving/long-term_traffic_simulation_with_interleaved_autoregressive_motion_and_scenario.md)
+- [\[ECCV 2026\] LaGen: Towards Autoregressive LiDAR Scene Generation](lagen_towards_autoregressive_lidar_scene_generation.md)
+- [\[ECCV 2026\] Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving](horizon3d_sparse_radar-camera_fusion_for_long-range_3d_perception_in_autonomous_.md)
+- [\[ECCV 2026\] Driver-WM: A Driver-Centric Traffic-Conditioned Latent World Model for In-Cabin Dynamics Rollout](driver-wm_a_driver-centric_traffic-conditioned_latent_world_model_for_in-cabin_d.md)
+- [\[ECCV 2026\] ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving](explorevla_dense_world_modeling_and_exploration_for_end-to-end_autonomous_drivin.md)
+
+</div>
+
+<!-- RELATED:END -->

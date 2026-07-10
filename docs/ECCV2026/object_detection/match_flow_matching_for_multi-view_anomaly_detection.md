@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] MATCH: Flow Matching for Multi-View Anomaly Detection
+description: >-
+  [ECCV 2026][目标检测][多视图异常检测] MATCH 是首个基于 Flow Matching 的多视图异常检测方法，用 ODE 形式的连续归一化流在预训练特征空间上做密度估计，通过省略散度项实现实时推理（18.77 FPS），在 Real-IAD 和 MANTA-Tiny 两个基准上均取得 SOTA 的检测和分割性能。
+tags:
+  - "ECCV 2026"
+  - "目标检测"
+  - "多视图异常检测"
+  - "Flow Matching"
+  - "归一化流"
+  - "密度估计"
+  - "工业缺陷检测"
+---
+
 # MATCH: Flow Matching for Multi-View Anomaly Detection
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.24375](https://arxiv.org/abs/2606.24375)  
-**代码**: https://github.com/m-kruse98/MATCH  
+**代码**: [https://github.com/m-kruse98/MATCH](https://github.com/m-kruse98/MATCH)  
 **领域**: 异常检测 / 多视图视觉  
 **关键词**: 多视图异常检测, Flow Matching, 归一化流, 密度估计, 工业缺陷检测
 
@@ -154,3 +169,19 @@ Euler 方法以大步长（0.2，仅需 5 步）在速度和精度上双赢。�
 - 实验充分度: ⭐⭐⭐⭐⭐ 两个大数据集的全面评估 + 10 个 baseline 对比 + 散度/求解器/宽度三类消融 + toy experiment + 多类别分报告 + 失败案例分析 + 附录中补充了 MVTec AD、多类 AD、DINOv3 骨干等多组实验，非常扎实。
 - 写作质量: ⭐⭐⭐⭐⭐ 动机清晰（从 RealNVP 的局限到 FM 的适配，有 toy example 可视化），方法描述完整（架构图 + 每步公式），实验逻辑严密（主结果→消融→分析→失败案例），补充材料丰富。
 - 价值: ⭐⭐⭐⭐ 为多视图异常检测提供了一个实用的实时方案（18.77 FPS on consumer GPU），在核心 benchmark 上取得 SOTA，散度项可省略的发现对后续 Flow Matching 在异常检测中的应用有指导意义。但多视图优于单视图的场景目前仍相对有限，实际工业部署价值还需验证。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection](../../ICML2026/object_detection/mixture_prototype_flow_matching_for_open-set_supervised_anomaly_detection.md)
+- [\[NeurIPS 2025\] Scalable, Explainable and Provably Robust Anomaly Detection with One-Step Flow Matching](../../NeurIPS2025/object_detection/scalable_explainable_and_provably_robust_anomaly_detection_with_one-step_flow_ma.md)
+- [\[CVPR 2026\] GPFlow: Gaussian Prototype Probability Flow for Unsupervised Multi-Modal Anomaly Detection](../../CVPR2026/object_detection/gpflow_gaussian_prototype_probability_flow_for_unsupervised_multi-modal_anomaly_.md)
+- [\[ECCV 2026\] M4-SAR: A Multi-Resolution, Multi-Polarization, Multi-Scene, Multi-Source Dataset and Benchmark for optical-SAR Object Detection](m4-sar_a_multi-resolution_multi-polarization_multi-scene_multi-source_dataset_an.md)
+- [\[AAAI 2026\] REXO: Indoor Multi-View Radar Object Detection via 3D Bounding Box Diffusion](../../AAAI2026/object_detection/rexo_indoor_multi-view_radar_object_detection_via_3d_bounding_box_diffusion.md)
+
+</div>
+
+<!-- RELATED:END -->

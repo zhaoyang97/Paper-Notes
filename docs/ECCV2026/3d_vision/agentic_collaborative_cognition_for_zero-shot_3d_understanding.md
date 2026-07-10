@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.24649](https://arxiv.org/abs/2606.24649)  
-**代码**: 未公开；项目页: https://zhangbo135.github.io/agentic-collaborative-cognition/  
+**代码**: 未公开；项目页: [https://zhangbo135.github.io/agentic-collaborative-cognition/](https://zhangbo135.github.io/agentic-collaborative-cognition/)  
 **领域**: 3D视觉  
 **关键词**: 零样本3D理解, 多智能体协作, 视角规划, 3D视觉定位, 场景认知图
 
@@ -135,3 +135,19 @@ Perception Agent 接收的是带候选实例 ID 的图像集合 $I^t$，它不�
 - 实验充分度: ★★★★★ 覆盖 6 个基准，主结果、效率、组件、视角策略和 MLLM 选择都有消融。
 - 写作质量: ★★★★☆ 主线清楚，系统图和算法完整；部分表格很长，读者需要自己抓重点。
 - 价值: ★★★★☆ 对 3D VLM 和具身感知都很有参考价值，实际落地还受 detector 与 MLLM 延迟限制。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Zero-Shot Depth from Defocus: 从对焦堆栈零样本估计度量深度](zero-shot_depth_from_defocus.md)
+- [\[ECCV 2026\] JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising](janusmesh_fast_and_zero-shot_3d_visual_illusion_generation_via_cross-space_denoi.md)
+- [\[CVPR 2026\] Zoo3D: Zero-Shot 3D Object Detection at Scene Level](../../CVPR2026/3d_vision/zoo3d_zero-shot_3d_object_detection_at_scene_level.md)
+- [\[CVPR 2026\] Zero-Shot Depth Completion with Vision-Language Model](../../CVPR2026/3d_vision/zero-shot_depth_completion_with_vision-language_model.md)
+- [\[ICLR 2026\] pySpatial: Generating 3D Visual Programs for Zero-Shot Spatial Reasoning](../../ICLR2026/3d_vision/pyspatial_generating_3d_visual_programs_for_zero-shot_spatial_reasoning.md)
+
+</div>
+
+<!-- RELATED:END -->

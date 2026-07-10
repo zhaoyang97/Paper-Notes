@@ -1,8 +1,25 @@
+---
+title: >-
+  [论文解读] EraseLoRA: MLLM-Driven Foreground Exclusion and Background Subtype Aggregation for Dataset-Free Object Removal
+description: >-
+  [ECCV 2026][多模态VLM][物体移除] EraseLoRA 提出一种无数据集的物体移除框架：先用 MLLM 对单张图像做三路分割（目标前景 / 非目标前景 / 背景子类型），再通过测试时 LoRA 自适应优化将多个背景子类型聚合重建到 mask 区域，全程不需要任何训练数据、不做 self-attention 的显式遮挡或重定向，在背景保真度上比此前 dataset-free 方法提升至少 23%、前景再生率近乎减半，且超越所有 dataset-driven 方法。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "物体移除"
+  - "背景感知推理"
+  - "MLLM"
+  - "测试时自适应"
+  - "LoRA"
+  - "扩散模型"
+  - "无数据集"
+---
+
 # EraseLoRA: MLLM-Driven Foreground Exclusion and Background Subtype Aggregation for Dataset-Free Object Removal
 
 **会议**: ECCV 2026  
 **arXiv**: [2512.21545](https://arxiv.org/abs/2512.21545)  
-**代码**: https://shjo-april.github.io/EraseLoRA (有)  
+**代码**: [https://shjo-april.github.io/EraseLoRA](https://shjo-april.github.io/EraseLoRA) (有)  
 **领域**: 多模态VLM / 图像恢复  
 **关键词**: 物体移除, 背景感知推理, MLLM, 测试时自适应, LoRA, 扩散模型, 无数据集
 
@@ -129,3 +146,19 @@ EraseLoRA 在 BG Sim. 上相对 baseline 提升 +0.14（OpenImages，约 23%）�
 - 实验充分度: ⭐⭐⭐⭐⭐ 两个 benchmark + 配对 benchmark + GPT-Metric、跨 4 个 diffusion backbone + 4 个 MLLM + 4 个 Tag2Mask 的灵活性实验、损失消融、即插即用验证、LoRA rank/迭代数超参搜索、early stopping 效率分析、视频扩展初步验证，非常全面
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，图表示意到位，对 attention surgery 缺陷的分析（附录 B.2）很有说服力；附录篇幅较长，部分内容可精简
 - 价值: ⭐⭐⭐⭐⭐ 即插即用、模型无关、超越 dataset-driven 方法——这三个属性意味着 EraseLoRA 可以迅速被社区 adopt 并整合到各种下游应用中；BFE 的三路分割思想对相关任务的通用启发价值也很高
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] Detached Skip-Links and $R$-Probe: Decoupling Feature Aggregation from Gradient Propagation for MLLM OCR](../../ICML2026/multimodal_vlm/detached_skip-links_and_r-probe_decoupling_feature_aggregation_from_gradient_pro.md)
+- [\[CVPR 2026\] HAMMER: Harnessing MLLM via Cross-Modal Integration for Intention-Driven 3D Affordance Grounding](../../CVPR2026/multimodal_vlm/hammer_harnessing_mllm_via_cross-modal_integration_for_intention-driven_3d_affor.md)
+- [\[ECCV 2024\] Elysium: Exploring Object-level Perception in Videos via MLLM](../../ECCV2024/multimodal_vlm/elysium_exploring_object-level_perception_in_videos_via_mllm.md)
+- [\[CVPR 2026\] MODIX: A Training-Free Multimodal Information-Driven Positional Index Scaling for Vision-Language Models](../../CVPR2026/multimodal_vlm/modix_a_training-free_multimodal_information-driven_positional_index_scaling_for.md)
+- [\[ECCV 2026\] Rank-Aware Hyperbolic Alignment for Vision–Language Dataset Distillation](rank-aware_hyperbolic_alignment_for_vision-language_dataset_distillation.md)
+
+</div>
+
+<!-- RELATED:END -->

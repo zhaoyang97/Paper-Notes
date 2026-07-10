@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation
+description: >-
+  [ECCV 2026][3D视觉][3D高斯溅射] GaussianGPT 将 3D 高斯场景压缩为离散 token 序列，用带 3D 旋转位置编码的因果 Transformer 做逐 token 自回归预测，首次在 3D 高斯场景生成上实现纯自回归范式，在形状合成和场景生成上达到或超越扩散模型 SOTA，并天然支持场景补全和外扩。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "自回归生成"
+  - "场景生成"
+  - "向量量化"
+  - "Transformer"
+---
+
 # GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation
 
 **会议**: ECCV 2026  
@@ -147,3 +162,19 @@ $$\mathcal{L} = \underbrace{\lambda_{RGB}\mathcal{L}_{RGB} + \lambda_{perc}\math
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖形状合成 + 场景生成 + 补全 + 大型外扩四个任务，对比多个基线，消融序列化策略和核心组件，附录补充推理效率、真实数据、自编码器消融，非常扎实
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，动机充分，方法描述详细，附录信息量大；但部分缩写的首次定义不够醒目，表格排版因 LaTeX 转纯文本有些凌乱
 - 价值: ⭐⭐⭐⭐ 为 3D 场景生成开辟了一条与扩散互补的技术路线，补全和可控生成的本征优势可能在实际应用中更具吸引力；工程方案（LFQ、分离词汇表、3D RoPE）对其他 3D tokenization 工作有参考意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Repurposing 3D Generative Model for Autoregressive Layout Generation](../../CVPR2026/3d_vision/repurposing_3d_generative_model_for_autoregressive_layout_generation.md)
+- [\[ICLR 2026\] AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer](../../ICLR2026/3d_vision/assetformer_modular_3d_assets_generation_with_autoregressive_transformer.md)
+- [\[CVPR 2026\] ARMFlow: AutoRegressive MeanFlow for Online 3D Human Reaction Generation](../../CVPR2026/3d_vision/armflow_autoregressive_meanflow_for_online_3d_human_reaction_generation.md)
+- [\[ICLR 2026\] QuadGPT: Native Quadrilateral Mesh Generation with Autoregressive Models](../../ICLR2026/3d_vision/quadgpt_native_quadrilateral_mesh_generation_with_autoregressive_models.md)
+- [\[CVPR 2026\] AutoRegressive Generation with B-rep Holistic Token Sequence Representation](../../CVPR2026/3d_vision/autoregressive_generation_with_b-rep_holistic_token_sequence_representation.md)
+
+</div>
+
+<!-- RELATED:END -->

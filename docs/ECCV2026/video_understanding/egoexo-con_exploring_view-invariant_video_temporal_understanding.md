@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] EgoExo-Con: Exploring View-Invariant Video Temporal Understanding
+description: >-
+  [ECCV 2026][视频理解][视角不变性] 本文提出 EgoExo-Con 基准（1,148 对同步 ego-exo 视频 + 2,269 条人工精炼的时序查询），首次系统评估 Video-LLM 在不同视角下时序理解的一致性，发现现有模型跨视角一致性仅勉强达到单视角性能的一半；并提出 View-GRPO 强化学习框架，通过语义对齐与结构一致性双重推理奖励，显著提升跨视角时序理解的鲁棒性和一致性。
+tags:
+  - "ECCV 2026"
+  - "视频理解"
+  - "视角不变性"
+  - "时序定位"
+  - "强化学习"
+  - "跨视角一致性"
+  - "ego-exo"
+---
+
 # EgoExo-Con: Exploring View-Invariant Video Temporal Understanding
 
 **会议**: ECCV 2026  
 **arXiv**: [2510.26113](https://arxiv.org/abs/2510.26113)  
-**代码**: https://github.com/mjjung/EgoExo-Con  
+**代码**: [https://github.com/mjjung/EgoExo-Con](https://github.com/mjjung/EgoExo-Con)  
 **领域**: 视频理解  
 **关键词**: 视频理解, 视角不变性, 时序定位, 强化学习, 跨视角一致性, ego-exo
 
@@ -148,3 +163,19 @@ View-GRPO 在三个 backbone 上均显著超过 SFT 和朴素 GRPO 基线。以 
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 8 个开源模型 + 2 个闭源模型 + 人类基准，3 个 backbone 的 View-GRPO 实验，消融、Judge 分析、推理长度分析均完备，但缺少在更大规模模型上的验证
 - 写作质量: ⭐⭐⭐⭐⭐ 问题定义清晰，动机链条完整，从基准分析到方法提出的逻辑自洽，附录详尽
 - 价值: ⭐⭐⭐⭐⭐ 揭示了当前 Video-LLM "强性能"背后的视角偏差问题，为领域提供了新的评估范式和改进方向，EgoExo-Con 基准和 View-GRPO 方法均有独立价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] Bootstrap Your Own Views: Masked Ego-Exo Modeling for Fine-Grained View-Invariant Video Representations](../../CVPR2025/video_understanding/bootstrap_your_own_views_masked_ego-exo_modeling_for_fine-grained_view-invariant.md)
+- [\[ECCV 2026\] Towards Long-Form Spatio-Temporal Video Grounding](towards_long-form_spatio-temporal_video_grounding.md)
+- [\[AAAI 2026\] TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding](../../AAAI2026/video_understanding/tspo_temporal_sampling_policy_optimization_for_long-form_video_language_understa.md)
+- [\[CVPR 2026\] SAVA-X: Ego-to-Exo Imitation Error Detection via Scene-Adaptive View Alignment and Bidirectional Cross View Fusion](../../CVPR2026/video_understanding/savax_egotoexo_imitation_error_detection_via_scene.md)
+- [\[ICLR 2026\] Invert4TVG: A Temporal Video Grounding Framework with Inversion Tasks Preserving Action Understanding Ability](../../ICLR2026/video_understanding/invert4tvg_a_temporal_video_grounding_framework_with_inversion_tasks_preserving_.md)
+
+</div>
+
+<!-- RELATED:END -->

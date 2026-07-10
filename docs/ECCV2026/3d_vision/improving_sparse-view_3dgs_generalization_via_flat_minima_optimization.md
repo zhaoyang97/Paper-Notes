@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Improving Sparse-View 3DGS Generalization via Flat Minima Optimization
+description: >-
+  [ECCV 2026][3D视觉][3D高斯泼溅] 本文从平坦极小值（Flat Minima）优化的视角解决稀疏视图 3DGS 的过拟合问题：通过尺度自适应的位置扰动（SAP）+ 随机施加 + 幅度调度 + 周期性非位置参数重初始化，在不改变网络架构的前提下使 3DGS 收敛到更平坦的损失景观区域，在 LLFF 和 Mip-NeRF360 上稀疏视图设定下取得 SOTA 或接近 SOTA 的渲染质量。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "稀疏视图新视角合成"
+  - "平坦极小值优化"
+  - "尺度自适应扰动"
+  - "参数重初始化"
+---
+
 # Improving Sparse-View 3DGS Generalization via Flat Minima Optimization
 
 **会议**: ECCV 2026  
@@ -162,3 +177,19 @@ RWP 类方法的常见做法是每轮渲染扰动和未扰动两个模型后混�
 - 实验充分度: ⭐⭐⭐⭐⭐ 主实验覆盖两个标准 benchmark 多视图设定，消融覆盖噪声分布/扰动参数/训练策略三个维度，另有即插即用兼容性验证、扰动鲁棒性分析、训练曲线分析、SfM 质量鲁棒性测试、增视图实验，附录还有额外 benchmark
 - 写作质量: ⭐⭐⭐⭐ 方法论清晰，动机链完整，flat minima 视角的论证有说服力；Fig.4 扰动鲁棒性曲线是亮点；但缺少与 SAM 类方法的直接对比讨论
 - 价值: ⭐⭐⭐⭐ 零架构改动、零外部先验、即插即用的轻量设计使其具有很高的实用价值；平坦极小值视角为 3DGS 优化提供了新的理解框架，可能启发后续在 3D 表示学习中更系统的泛化理论研究
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] GenSplat: Bridging the Generalization Gap in 3DGS Language Comprehension](../../CVPR2026/3d_vision/gensplat_bridging_the_generalization_gap_in_3dgs_language_comprehension.md)
+- [\[CVPR 2026\] Faster-GS: Analyzing and Improving Gaussian Splatting Optimization](../../CVPR2026/3d_vision/faster-gs_analyzing_and_improving_gaussian_splatting_optimization.md)
+- [\[ICLR 2026\] A Step to Decouple Optimization in 3DGS](../../ICLR2026/3d_vision/a_step_to_decouple_optimization_in_3dgs.md)
+- [\[CVPR 2026\] Intrinsic Geometry-Appearance Consistency Optimization for Sparse-View Gaussian Splatting](../../CVPR2026/3d_vision/intrinsic_geometry-appearance_consistency_optimization_for_sparse-view_gaussian_.md)
+- [\[CVPR 2026\] SparseOIT: Improving Order-Independent Transparency 3DGS via Active Set Method](../../CVPR2026/3d_vision/sparseoit_improving_order-independent_transparency_3dgs_via_active_set_method.md)
+
+</div>
+
+<!-- RELATED:END -->

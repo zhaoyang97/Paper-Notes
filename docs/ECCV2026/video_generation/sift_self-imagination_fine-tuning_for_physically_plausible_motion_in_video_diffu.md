@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SIFT: Self-Imagination Fine-Tuning for Physically Plausible Motion in Video Diffusion Models
+description: >-
+  [ECCV 2026][视频生成][视频扩散模型] SIFT 提出自想象微调范式，抛弃真实视频输入、从纯高斯噪声出发让扩散模型仅凭 LLM 生成的文本提示"想象"并生成视频，结合双分类器运动感知判别监督和渐进式困难样本回放策略，在不依赖运动解耦标注数据的情况下，显著提升 Wan 和 CogVideoX 两个主干模型生成视频的物理合理性与运动解耦能力，VLM 和人类评估均一致优于 SFT 和 VideoREPA 等基线。
+tags:
+  - "ECCV 2026"
+  - "视频生成"
+  - "视频扩散模型"
+  - "运动解耦"
+  - "自想象微调"
+  - "物理合理性"
+  - "运动纠缠"
+---
+
 # SIFT: Self-Imagination Fine-Tuning for Physically Plausible Motion in Video Diffusion Models
 
 **会议**: ECCV 2026  
@@ -148,3 +163,19 @@ SIFT 在两个主干模型的所有 VLM 和人类评估指标上均取得最优�
 - 实验充分度: ⭐⭐⭐⭐ 双主干模型、多基线对比（SFT、VideoREPA、CameraCtrl、Wan-Move）、VLM+人类双重评估、三项泛化测试、完整的三向消融，实验设计扎实；但消融仅在 Wan 上做且样本量 40 条偏小，缺乏对分类器准确率上限如何影响最终性能的分析。
 - 写作质量: ⭐⭐⭐⭐ 问题定义清晰（Fig. 1 运动纠缠示例直观），动机链路完整（数据偏差→重建捷径→诊断实验→SFT 无效→SIFT 方案），方法部分图文对照（Fig. 3 流程对比 + Algorithm 1 伪代码），逻辑自洽；附录中补充了 LLM/VLM 提示细节和失败案例分析。
 - 价值: ⭐⭐⭐⭐ 运动纠缠是 VDM 中高度可见的失败模式，SIFT 提供了实用且低成本的解决方案（无需特殊数据，仅需文本提示和分类器），对视频生成社区有直接的工程参考价值；"想象驱动训练"的范式可能启发后续在扩散模型中注入更多维度的推理能力。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] MoAlign: Motion-Centric Representation Alignment for Video Diffusion Models](../../ICLR2026/video_generation/moalign_motion-centric_representation_alignment_for_video_diffusion_models.md)
+- [\[CVPR 2026\] Chain of Event-Centric Causal Thought for Physically Plausible Video Generation](../../CVPR2026/video_generation/chain_of_event-centric_causal_thought_for_physically_plausible_video_generation.md)
+- [\[CVPR 2026\] IP-Adapter Is All You Need: Towards Fine-Tuning-Free Diffusion-Based Talking Face Generation](../../CVPR2026/video_generation/ip-adapter_is_all_you_need_towards_fine-tuning-free_diffusion-based_talking_face.md)
+- [\[ICLR 2026\] Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning](../../ICLR2026/video_generation/controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine-tuning.md)
+- [\[ECCV 2026\] PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation](phygdpo_physics-aware_groupwise_direct_preference_optimization_for_physically_co.md)
+
+</div>
+
+<!-- RELATED:END -->

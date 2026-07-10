@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] AutoSpeed: Annotation-Free Stage-Adaptive Motion Speed Learning for Robot Manipulation
+description: >-
+  [ECCV 2026][机器人][模仿学习] AutoSpeed 提出一种模型无关的训练框架，在不需要阶段或速度标注的情况下，通过将不同速度下的未来轨迹作为候选优化目标、用复合代价函数（预测误差 vs 预测时域）选择最优候选，让视觉运动策略端到端地学会在简单阶段加速执行、在精细阶段减速执行，在多个仿真和真实机器人任务上同时提升成功率和执行效率。
+tags:
+  - "ECCV 2026"
+  - "机器人"
+  - "模仿学习"
+  - "运动速度自适应"
+  - "机器人操作"
+  - "视觉运动策略"
+  - "阶段感知"
+---
+
 # AutoSpeed: Annotation-Free Stage-Adaptive Motion Speed Learning for Robot Manipulation
 
 **会议**: ECCV 2026  
 **arXiv**: [2607.01051](https://arxiv.org/abs/2607.01051)  
-**代码**: https://github.com/tinda24/autospeed  
+**代码**: [https://github.com/tinda24/autospeed](https://github.com/tinda24/autospeed)  
 **领域**: 机器人 / 具身智能  
 **关键词**: 模仿学习, 运动速度自适应, 机器人操作, 视觉运动策略, 阶段感知
 
@@ -153,3 +168,19 @@ NTA 的解决方案是：在推理的每个控制步 $s$，收集所有历史预
 - 实验充分度: 四星半。覆盖 62 个仿真任务 + 4 个真机任务，跨非生成式和生成式（扩散/flow）三类策略架构，消融分析了速度范围和 $w$，附录还有失败模式分析和动作熵对比。真机实验规模可更大（每个任务 20 次试运行略少）。
 - 写作质量: 四星。结构清晰、公式规范、图表与正文对应好。三段式训练策略和 NTA 的细节放在附录而非主线中稍微增加了理解跳跃。
 - 价值: 五星。解决了机器人操作中一个真实且普遍的问题（演示速度次优），框架模型无关、标注零成本、即插即用，对所有使用模仿学习的机器人任务都有直接实用价值。在工业部署中缩短节拍时间的意义尤其大。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation](../../ICLR2026/robotics/sarm_stage-aware_reward_modeling_for_long_horizon_robot_manipulation.md)
+- [\[ICCV 2025\] Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos](../../ICCV2025/robotics/moto_latent_motion_token_as_the_bridging_language_for_learning_robot_manipulatio.md)
+- [\[ECCV 2026\] VLA Knows Its Limits: Adaptive Execution Horizons for Robot Policies](vla_knows_its_limits_adaptive_execution_horizons_for_robot_policies.md)
+- [\[ICLR 2026\] From Language to Locomotion: Retargeting-free Humanoid Control via Motion Latent Guidance](../../ICLR2026/robotics/from_language_to_locomotion_retargeting-free_humanoid_control_via_motion_latent_.md)
+- [\[CVPR 2026\] CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning](../../CVPR2026/robotics/como_learning_continuous_latent_motion_from_internet_videos_for_scalable_robot_l.md)
+
+</div>
+
+<!-- RELATED:END -->

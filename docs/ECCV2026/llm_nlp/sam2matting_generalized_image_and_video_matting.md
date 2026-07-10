@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SAM2Matting: Generalized Image and Video Matting
+description: >-
+  [ECCV 2026][LLM 其他][视频抠图] SAM2Matting 提出一种解耦的"跟踪器到抠图"框架，将视频抠图拆分为高层跟踪（冻结的 VOS 跟踪器如 SAM2/SAM3 负责时序一致性）和低层抠图（可训练的 ROI 检测器 + 渐进式 Alpha 预测器负责细粒度透明度估计），仅用图像抠图数据训练就在视频抠图基准上以 zero-shot 方式达到 SOTA，同时支持多种 prompt 类型、维持强时序一致性、在人类和开放场景下均泛化良好。
+tags:
+  - "ECCV 2026"
+  - "LLM 其他"
+  - "视频抠图"
+  - "图像抠图"
+  - "SAM2"
+  - "解耦架构"
+  - "ROI检测"
+---
+
 # SAM2Matting: Generalized Image and Video Matting
 
 **会议**: ECCV 2026  
@@ -157,3 +172,19 @@ ROI Detector 相比形态学操作的 MAD 从 29.82 降至 18.20，降幅约 39%
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 3 个图像基准 + 3 个视频基准，与 10+ 基线对比，消融覆盖 ROI 策略、架构监督设计、公平对照（控制数据/backbone）、微调分析、效率分析、定性比较，实验设计极为全面
 - 写作质量: ⭐⭐⭐⭐☆ 结构清晰，动机阐述充分，方法描述详实，图表丰富（14 张图 + 7 张表），但部分公式变量定义分散在不同段落，阅读时需要来回对照
 - 价值: ⭐⭐⭐⭐⭐ 对视频抠图社区有重要的范式启发——证明了解耦策略可以消除对昂贵视频抠图标注的依赖，同时 40 FPS 的实时性能和 5 GB 以下的显存开销使其具备直接部署到实际产品（如直播背景替换、影视后期）的工程价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2025\] Generalized Interpolating Discrete Diffusion](../../ICML2025/llm_nlp/generalized_interpolating_discrete_diffusion.md)
+- [\[ECCV 2024\] FunQA: Towards Surprising Video Comprehension](../../ECCV2024/llm_nlp/funqa_towards_surprising_video_comprehension.md)
+- [\[CVPR 2026\] Single-step Diffusion-based Video Coding with Semantic-Temporal Guidance](../../CVPR2026/llm_nlp/single-step_diffusion-based_video_coding_with_semantic-temporal_guidance.md)
+- [\[ACL 2025\] COSMIC: Generalized Refusal Direction Identification in LLM Activations](../../ACL2025/llm_nlp/cosmic_generalized_refusal_direction_identification_in_llm_activations.md)
+- [\[AAAI 2026\] Soft Filtering: Guiding Zero-Shot Composed Image Retrieval with Prescriptive and Proscriptive Prompts](../../AAAI2026/llm_nlp/soft_filtering_guiding_zero-shot_composed_image_retrieval_with_prescriptive_and_.md)
+
+</div>
+
+<!-- RELATED:END -->

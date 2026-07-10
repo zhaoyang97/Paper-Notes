@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] M4-SAR: A Multi-Resolution, Multi-Polarization, Multi-Scene, Multi-Source Dataset and Benchmark for optical-SAR Object Detection
+description: >-
+  [ECCV 2026][目标检测][光学-SAR融合] 本文提出 M4-SAR——首个大规模光学-SAR 配对旋转目标检测数据集（112,174 对图像、981,862 实例、6 类），配套统一评测工具 MSRODet 和端到端融合检测框架 E2E-OSDet（FAM + CMIM + AFM），融合后 mAP 比最优单源提升 5.1%，复杂环境下增益尤为显著。
+tags:
+  - "ECCV 2026"
+  - "目标检测"
+  - "光学-SAR融合"
+  - "旋转目标检测"
+  - "多源遥感数据集"
+  - "Mamba跨模态交互"
+  - "半监督标注"
+---
+
 # M4-SAR: A Multi-Resolution, Multi-Polarization, Multi-Scene, Multi-Source Dataset and Benchmark for optical-SAR Object Detection
 
 **会议**: ECCV 2026  
 **arXiv**: [2505.10931](https://arxiv.org/abs/2505.10931)  
-**代码**: https://github.com/wchao0601/M4-SAR  
+**代码**: [https://github.com/wchao0601/M4-SAR](https://github.com/wchao0601/M4-SAR)  
 **领域**: 目标检测 / 遥感多源融合  
 **关键词**: 光学-SAR融合, 旋转目标检测, 多源遥感数据集, Mamba跨模态交互, 半监督标注  
 
@@ -148,3 +163,19 @@ $$\mathcal{L}_{total} = \mathcal{L}_{reg} + \mathcal{L}_{dfl} + \mathcal{L}_{cls
 - 实验充分度: ⭐⭐⭐⭐⭐ — 单源 15+ 方法 + 融合 7 方法 + MSRODet 统一框架 + 3 模块逐一消融 + 手工特征类型对比 + 扫描策略对比 + OGSOD 跨数据集泛化 + 混合数据实验 + 人工标注质量评估（8 人），覆盖极其全面
 - 写作质量: ⭐⭐⭐⭐ — 结构清晰，图表丰富（10+ 张配图），附录翔实；部分技术细节（如 FAM 五滤波器的选择依据、CMIM 扫描方向的消融逻辑）可交代得更透彻
 - 价值: ⭐⭐⭐⭐⭐ — M4-SAR 数据集和 MSRODet 工具将对遥感多源融合社区产生长期影响，填补"有需求、没数据"的基础设施空白；E2E-OSDet 作为首个针对性基线为后续方法提供公平参照点
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] MATCH: Flow Matching for Multi-View Anomaly Detection](match_flow_matching_for_multi-view_anomaly_detection.md)
+- [\[CVPR 2026\] MRD: Multi-resolution Retrieval-Detection Fusion for High-Resolution Image Understanding](../../CVPR2026/object_detection/mrd_multi-resolution_retrieval-detection_fusion_for_high-resolution_image_unders.md)
+- [\[ECCV 2026\] MSPL: Multi-Step Pseudo-Labeling for Open-Vocabulary Object Detection](mspl_multi-step_pseudo-labeling_for_open-vocabulary_object_detection.md)
+- [\[ECCV 2026\] PS-MOT: Cultivating Instance Awareness from Point Seeds for Multi-Object Tracking](ps-mot_cultivating_instance_awareness_from_point_seeds_for_multi-object_tracking.md)
+- [\[CVPR 2026\] GMT: Effective Global Framework for Multi-Camera Multi-Target Tracking](../../CVPR2026/object_detection/gmt_effective_global_framework_for_multi-camera_multi-target_tracking.md)
+
+</div>
+
+<!-- RELATED:END -->

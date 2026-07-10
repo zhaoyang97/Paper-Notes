@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] SkelEM: Training-Signal Decoupling of Skeleton and Diffusion for Self-supervised Axial Super-Resolution in Volume Microscopy
+description: >-
+  [ECCV 2026][语义分割][轴向超分辨率] SkelEM 提出一种自监督轴向超分辨率框架，通过将拓扑骨架网络与扩散精炼器的训练信号完全解耦（无共享梯度），以冻结的确定性骨架锚定结构拓扑、再用截断扩散在不超过 5 步内恢复高频生物纹理，在保真度-感知质量-推理速度的三难困境中取得自监督方法中最优的平衡，并在膜分割下游任务上达到 SOTA。
+tags:
+  - "ECCV 2026"
+  - "语义分割"
+  - "轴向超分辨率"
+  - "体电子显微学"
+  - "训练信号解耦"
+  - "截断扩散"
+  - "自监督学习"
+---
+
 # SkelEM: Training-Signal Decoupling of Skeleton and Diffusion for Self-supervised Axial Super-Resolution in Volume Microscopy
 
 **会议**: ECCV 2026  
@@ -171,3 +186,19 @@ BRAVE-ASR 零样本跨仪器迁移实验（EPFL 训练、BRAVE-ASR 直接测试�
 - 实验充分度: ⭐⭐⭐⭐⭐ 三个公开数据集 + 自建 BRAVE-ASR、零样本跨仪器迁移、下游膜分割、VLM 跨模态验证、计算效率对比、残差注入强度与步数的联合消融、25 指标归一化排名热力图——实验设计几乎覆盖了所有可能的质疑角度
 - 写作质量: ⭐⭐⭐⭐ 动机链清晰（trilemma → root cause → decoupling solution），方法部分公式与文字配合紧密，图 2 的框架概览和图 9 的排名热力图直观有力；方法部分公式密度偏高，缺少一些直觉性解释
 - 价值: ⭐⭐⭐⭐ 将自监督 ASR 从"三难全败"推进到"三难平衡"，推理速度从秒级压缩到毫秒级，使方法实际可用；BRAVE-ASR 数据集为跨仪器泛化设立了标准化基准，对领域有推动作用；但方法依赖伪 HR 体积质量，对训练数据有隐性要求
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] AFFMAE: Scalable Vision Pre-Training for High-Resolution Microscopy Segmentation on Desktop Hardware](affmae_scalable_vision_pre-training_for_high-resolution_microscopy_segmentation_.md)
+- [\[ECCV 2026\] ModuSeg: Decoupling Object Discovery and Semantic Retrieval for Training-Free Weakly Supervised Segmentation](moduseg_decoupling_object_discovery_and_semantic_retrieval_for_training-free_wea.md)
+- [\[CVPR 2025\] The Power of Context: How Multimodality Improves Image Super-Resolution](../../CVPR2025/segmentation/the_power_of_context_how_multimodality_improves_image_super-resolution.md)
+- [\[ICCV 2025\] Joint Self-Supervised Video Alignment and Action Segmentation](../../ICCV2025/segmentation/joint_self-supervised_video_alignment_and_action_segmentation.md)
+- [\[NeurIPS 2025\] Exploring Structural Degradation in Dense Representations for Self-supervised Learning](../../NeurIPS2025/segmentation/exploring_structural_degradation_in_dense_representations_for_self-supervised_le.md)
+
+</div>
+
+<!-- RELATED:END -->

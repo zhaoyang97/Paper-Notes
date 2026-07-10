@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Robust Zero-shot Anomaly Detection under Limited Auxiliary Anomaly Priors
+description: >-
+  [ECCV 2026][目标检测][零样本异常检测] DIVE 首次研究辅助数据中异常先验有限场景下的零样本异常检测问题，通过浅层+深层文本嵌入注入策略让视觉编码器从有限的辅助异常模式中抽象出跨域通用的异常概念，并引入解耦机制消除物体语义对视觉嵌入的干扰；在使用纹理数据集 DTD 作为辅助数据时，DIVE 在 12 个目标数据集上的分类和分割性能最高超越 SOTA 基线 28.5%（AP）和 47.0%（AUPRO），同时将辅助数据多样性不足导致的性能退化幅度压缩约 46.5%-77.3%。
+tags:
+  - "ECCV 2026"
+  - "目标检测"
+  - "零样本异常检测"
+  - "CLIP"
+  - "视觉语言模型"
+  - "提示学习"
+  - "解耦表征"
+---
+
 # Robust Zero-shot Anomaly Detection under Limited Auxiliary Anomaly Priors
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.29428](https://arxiv.org/abs/2606.29428)  
-**代码**: https://github.com/ZhouF-ECNU/DIVE (有)  
+**代码**: [https://github.com/ZhouF-ECNU/DIVE](https://github.com/ZhouF-ECNU/DIVE) (有)  
 **领域**: 异常检测  
 **关键词**: 零样本异常检测, CLIP, 视觉语言模型, 提示学习, 解耦表征
 
@@ -151,3 +166,19 @@ DIVE 的总损失函数由五部分组成：$\mathcal{L} = \mathcal{L}_{state} +
 - 实验充分度: 5/5 —— 12 个数据集、两种辅助数据设置、5 个 SOTA 基线、完整的消融和超参数敏感性分析、可视化对比异常图和注意力图，实验设计无死角
 - 写作质量: 4/5 —— 逻辑清晰，两个 Challenge 驱动全文结构；公式和算法描述完整可复现；Fig.1 的左右联动（定量曲线+定性案例）很有说服力。小瑕疵是部分公式排版在缓存文本中有截断
 - 价值: 5/5 —— 定义了 ZSAD 的一个新子问题，提出的浅层+深层注入范式和解耦模块可被后续 ZSAD 工作直接复用；RCPRO 有潜力成为领域标准指标；在辅助数据不足时 16%-47% 的性能提升具有实际部署意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] MoECLIP: Patch-Specialized Experts for Zero-shot Anomaly Detection](../../CVPR2026/object_detection/moeclip_patch-specialized_experts_for_zero-shot_anomaly_detection.md)
+- [\[AAAI 2026\] PromptMoE: Generalizable Zero-Shot Anomaly Detection via Visually-Guided Prompt Mixing of Experts](../../AAAI2026/object_detection/promptmoe_generalizable_zero-shot_anomaly_detection_via_visually-guided_prompt_m.md)
+- [\[CVPR 2026\] FB-CLIP: Fine-Grained Zero-Shot Anomaly Detection with Foreground-Background Disentanglement](../../CVPR2026/object_detection/fb-clip_fine-grained_zero-shot_anomaly_detection_with_foreground-background_dise.md)
+- [\[CVPR 2026\] DLVP-CLIP: Enhancing Fine-Grained Zero-Shot Anomaly Detection via Dynamic Local Visual Prompting](../../CVPR2026/object_detection/dlvp-clip_enhancing_fine-grained_zero-shot_anomaly_detection_via_dynamic_local_v.md)
+- [\[CVPR 2026\] VisualAD: Language-Free Zero-Shot Anomaly Detection via Vision Transformer](../../CVPR2026/object_detection/visualad_language-free_zero-shot_anomaly_detection_via_vision_transformer.md)
+
+</div>
+
+<!-- RELATED:END -->

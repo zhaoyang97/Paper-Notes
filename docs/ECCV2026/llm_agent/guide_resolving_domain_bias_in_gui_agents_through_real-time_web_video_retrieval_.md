@@ -1,9 +1,24 @@
+---
+title: >-
+  [论文解读] GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation
+description: >-
+  [ECCV 2026][LLM Agent][GUI Agent] GUIDE 是一个免训练、即插即用的框架，通过从 YouTube 教程视频中自动检索并提取领域专用的规划知识（Planning）和定位知识（Grounding），注入 GUI Agent 的对应模块来消除领域偏置（domain bias），在 OSWorld 上为三种不同架构的 agent 带来 +4.47 到 +7.48 个百分点的提升。
+tags:
+  - "ECCV 2026"
+  - "LLM Agent"
+  - "GUI Agent"
+  - "领域偏置"
+  - "Video-RAG"
+  - "即插即用"
+  - "网络视频检索"
+---
+
 # GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation
 
 **会议**: ECCV 2026  
 **arXiv**: [2603.26266](https://arxiv.org/abs/2603.26266)  
 **论文**: [Project Page](https://sharryXR.github.io/GUIDE/)  
-**代码**: https://github.com/sharryXR/GUIDE (有)  
+**代码**: [https://github.com/sharryXR/GUIDE](https://github.com/sharryXR/GUIDE) (有)  
 **领域**: LLM Agent / 多模态VLM  
 **关键词**: GUI Agent, 领域偏置, Video-RAG, 即插即用, 网络视频检索
 
@@ -147,3 +162,19 @@ OSWorld 基准（361 个任务，10 个应用领域）上，GUIDE 作为即插�
 - 实验充分度: ⭐⭐⭐⭐⭐ 三种 agent 架构（单模型两个 + 多 Agent 一个）、两个基准（OSWorld + WAA 跨 OS 迁移）、丰富的消融（知识通道分解、标注管线组件、检索视频数、检索方式对比、标注器对比、同骨架 Watch & Learn 对照）、人工评估（检索/标注质量 300 视频三人标注）、完整成本分析，实验设计严密
 - 写作质量: ⭐⭐⭐⭐⭐ 问题动机阐述透彻（两个偏置层面的具体例子清晰），方法描述层次分明，实验呈现规范，补充材料详尽（提示模板、失败案例、成本分析、Meaningful 过滤人工评估）
 - 价值: ⭐⭐⭐⭐ 提供了一个实用的免训练 GUI Agent 增强方案，检索-标注-注入的框架可迁移到其他需要过程性知识的领域；但检索覆盖率和检索噪声问题在长尾场景下是实际部署的显著障碍
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Real-Time Reasoning Agents in Evolving Environments](../../ICLR2026/llm_agent/real-time_reasoning_agents_in_evolving_environments.md)
+- [\[CVPR 2026\] BAMI: Training-Free Bias Mitigation in GUI Grounding](../../CVPR2026/llm_agent/bami_training-free_bias_mitigation_in_gui_grounding.md)
+- [\[ICLR 2026\] GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning](../../ICLR2026/llm_agent/gui-shift_enhancing_vlm-based_gui_agents_through_self-supervised_reinforcement_l.md)
+- [\[ICLR 2026\] GTA1: GUI Test-time Scaling Agent](../../ICLR2026/llm_agent/gta1_gui_test-time_scaling_agent.md)
+- [\[ACL 2026\] IntrAgent: An LLM Agent for Content-Grounded Information Retrieval through Literature Review](../../ACL2026/llm_agent/intragent_an_llm_agent_for_content-grounded_information_retrieval_through_litera.md)
+
+</div>
+
+<!-- RELATED:END -->

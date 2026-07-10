@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Revisiting Autoregressive Models for Generative Image Classification
+description: >-
+  [ECCV 2026][图像生成][生成式分类器] 本文重新审视自回归（AR）模型在生成式图像分类中的潜力，发现固定token序是限制AR分类器性能的关键瓶颈，提出用任意序AR模型（RandAR）对多个随机token序的类别条件对数似然取Jensen下界平均（序边际化），在ImageNet及多个OOD基准上全面超越扩散分类器且推理快25倍，并首次使生成式分类器达到与DINOv2可竞争的水平。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "生成式分类器"
+  - "自回归模型"
+  - "任意序建模"
+  - "序边际化"
+  - "扩散模型"
+---
+
 # Revisiting Autoregressive Models for Generative Image Classification
 
 **会议**: ECCV 2026  
 **arXiv**: [2603.19122](https://arxiv.org/abs/2603.19122)  
-**代码**: https://github.com/yandex-research/ar-classifier  
+**代码**: [https://github.com/yandex-research/ar-classifier](https://github.com/yandex-research/ar-classifier)  
 **领域**: 图像生成  
 **关键词**: 生成式分类器, 自回归模型, 任意序建模, 序边际化, 扩散模型  
 
@@ -140,3 +155,19 @@ Jensen下界随K增大持续带来显著增益（K=1→20提升10.1个百分点�
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖6个ImageNet变体、3个WILDS真实偏移数据集、3种模型规模（B/L/XL）、8类基线（判别/SSL/扩散/AR/JEM/MD/ResNet/REPA变体）、多分词器消融、似然估计策略消融、效率全景分析、误差分析、与MD等价性理论验证——实验设计极为全面且消融环环相扣。
 - 写作质量: ⭐⭐⭐⭐⭐ 结构清晰，动机→分析→方法→实验→扩展的逻辑链完整，图7张+主表7张+附录丰富的可视化（per-token分析、误差案例、更多消融），分析深入且每个实验结论都有明确的"为什么"。
 - 价值: ⭐⭐⭐⭐ 将AR生成式分类器推至新SOTA并首次使之与DINOv2可竞争，25倍加速使GC实用化迈进一大步；序边际化思路可启发AR模型在图像分割、异常检测等更多判别式任务中的应用；但蒸馏的必要性暗示纯GC的绝对效率仍有瓶颈。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICML 2026\] A Diffusive Classification Loss for Learning Energy-based Generative Models](../../ICML2026/image_generation/a_diffusive_classification_loss_for_learning_energy-based_generative_models.md)
+- [\[ECCV 2026\] Continuous Speculative Decoding for Autoregressive Image Generation](continuous_speculative_decoding_for_autoregressive_image_generation.md)
+- [\[ECCV 2026\] Obliviate: Erasing Concepts from Autoregressive Image Generation Models](obliviate_erasing_concepts_from_autoregressive_image_generation_models.md)
+- [\[AAAI 2026\] Symmetrical Flow Matching: Unified Image Generation, Segmentation, and Classification with Score-Based Generative Models](../../AAAI2026/image_generation/symmetrical_flow_matching_unified_image_generation_segmentation_and_classificati.md)
+- [\[CVPR 2026\] Advancing Image Classification with Discrete Diffusion Classification Modeling](../../CVPR2026/image_generation/advancing_image_classification_with_discrete_diffusion_classification_modeling.md)
+
+</div>
+
+<!-- RELATED:END -->

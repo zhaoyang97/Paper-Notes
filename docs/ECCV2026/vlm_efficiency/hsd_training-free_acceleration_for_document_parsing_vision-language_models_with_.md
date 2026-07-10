@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] HSD: Training-Free Acceleration for Document Parsing Vision-Language Models with Hierarchical Speculative Decoding
+description: >-
+  [ECCV 2026][VLM Efficiency][层次化推测解码] 本文提出层次化推测解码（HSD），一种免训练的端到端文档解析加速方法：先用轻量级 pipeline 为每个区域生成粗草稿，再分两阶段验证——Stage 1 在裁切区域上并行做局部验证以获得高吞吐，Stage 2 在全页上做全局验证以恢复跨区域连贯性；在 HunyuanOCR 上实现 2.78 倍端到端加速且精度近乎无损，长文档场景最高加速 7.04 倍。
+tags:
+  - "ECCV 2026"
+  - "VLM Efficiency"
+  - "层次化推测解码"
+  - "文档解析"
+  - "视觉语言模型"
+  - "推理加速"
+  - "免训练"
+---
+
 # HSD: Training-Free Acceleration for Document Parsing Vision-Language Models with Hierarchical Speculative Decoding
 
 **会议**: ECCV 2026  
 **arXiv**: [2602.12957](https://arxiv.org/abs/2602.12957)  
-**代码**: https://github.com/whlscut/HSD  
+**代码**: [https://github.com/whlscut/HSD](https://github.com/whlscut/HSD)  
 **领域**: 多模态VLM / LLM效率  
 **关键词**: 层次化推测解码, 文档解析, 视觉语言模型, 推理加速, 免训练
 
@@ -138,3 +153,19 @@ HSD 在 OmniDocBench v1.5（1,355 页，9 种文档类型）、olmOCR-Bench（1,
 - 实验充分度: ⭐⭐⭐⭐⭐ 6 个模型、3 个基准、多文档类型、消融/超参/对比/叠加实验齐全，对比了 10 个推测解码基线 + 4 类文档解析范式，附录有定性分析和 Roofline 模型分析。
 - 写作质量: ⭐⭐⭐⭐⭐ 方法论从范式到算子层层递进，notation 清晰，公式与文字对应紧密；实验分组合理，关键发现明确点出；图 2 对 DSV 机制的可视化到位。
 - 价值: ⭐⭐⭐⭐☆ 文档解析是 VLMs 落地的核心场景，免训练即插即用 + 近无损 2-3x 加速有强工程价值；层次化验证+解耦推测解码的设计思路对其他结构化长序列生成任务（表格理解、图表解析、代码生成）有迁移潜力。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration](../../ICLR2026/vlm_efficiency/visiontrim_unified_vision_token_compression_for_training-free_mllm_acceleration.md)
+- [\[CVPR 2026\] Attention-aware Inference Optimizations for Large Vision-Language Models with Memory-efficient Decoding](../../CVPR2026/vlm_efficiency/attention-aware_inference_optimizations_for_large_vision-language_models_with_me.md)
+- [\[NeurIPS 2025\] ViSpec: Accelerating Vision-Language Models with Vision-Aware Speculative Decoding](../../NeurIPS2025/vlm_efficiency/vispec_accelerating_vision-language_models_with_vision-aware_speculative_decodin.md)
+- [\[CVPR 2026\] VVS: Accelerating Speculative Decoding for Visual Autoregressive Generation via Partial Verification Skipping](../../CVPR2026/vlm_efficiency/vvs_accelerating_speculative_decoding_for_visual_autoregressive_generation_via_p.md)
+- [\[CVPR 2026\] ZOO-Prune: Training-Free Token Pruning via Zeroth-Order Gradient Estimation in Vision-Language Models](../../CVPR2026/vlm_efficiency/zoo-prune_training-free_token_pruning_via_zeroth-order_gradient_estimation_in_vi.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -24,6 +24,7 @@ Paper Notes 交流群: `1094559400`
 
 ## 🎉 版本发布
 
+- **v1.5.0**（2026-07-11）：新增 ECCV 2026 论文解读
 - **v1.4.0**（2026-06-20）：补全 ICLR 2026 全部约 5,000 篇论文解读
 - **v1.3.0**（2026-06-13）：补全 CVPR 2026 全部约 4,000 篇论文解读
 - **v1.2.0**（2026-05-23）：新增 ICML 2026 论文解读
@@ -34,15 +35,16 @@ Paper Notes 交流群: `1094559400`
 
 | 会议 | 笔记数 | 完整论文清单 |
 |------|-------:|:-------------|
+| [ECCV 2026](https://papernotes.org/ECCV2026/) | 420 | [ECCV2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ECCV2026-Papers.md) |
+| [ICML 2026](https://papernotes.org/ICML2026/) | 1,846 | [ICML2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICML2026-Papers.md) |
+| [ACL 2026](https://papernotes.org/ACL2026/) | 1,419 | [ACL2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ACL2026-Papers.md) |
 | [CVPR 2026](https://papernotes.org/CVPR2026/) | 4,067 | [CVPR2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/CVPR2026-Papers.md) |
 | [ICLR 2026](https://papernotes.org/ICLR2026/) | 5,342 | [ICLR2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICLR2026-Papers.md) |
-| [ACL 2026](https://papernotes.org/ACL2026/) | 1,419 | [ACL2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ACL2026-Papers.md) |
-| [ICML 2026](https://papernotes.org/ICML2026/) | 1,846 | [ICML2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICML2026-Papers.md) |
 | [AAAI 2026](https://papernotes.org/AAAI2026/) | 1,381 | [AAAI2026-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/AAAI2026-Papers.md) |
 | [NeurIPS 2025](https://papernotes.org/NeurIPS2025/) | 2,530 | [NeurIPS2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/NeurIPS2025-Papers.md) |
 | [ICCV 2025](https://papernotes.org/ICCV2025/) | 1,315 | [ICCV2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICCV2025-Papers.md) |
-| [ICML 2025](https://papernotes.org/ICML2025/) | 1,063 | [ICML2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICML2025-Papers.md) |
 | [ACL 2025](https://papernotes.org/ACL2025/) | 1,855 | [ACL2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ACL2025-Papers.md) |
+| [ICML 2025](https://papernotes.org/ICML2025/) | 1,063 | [ICML2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICML2025-Papers.md) |
 | [CVPR 2025](https://papernotes.org/CVPR2025/) | 1,820 | [CVPR2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/CVPR2025-Papers.md) |
 | [ECCV 2024](https://papernotes.org/ECCV2024/) | 869 | [ECCV2024-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ECCV2024-Papers.md) |
 

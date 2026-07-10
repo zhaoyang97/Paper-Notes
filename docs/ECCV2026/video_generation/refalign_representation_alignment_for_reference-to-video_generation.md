@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] RefAlign: Representation Alignment for Reference-to-Video Generation
+description: >-
+  [ECCV 2026][视频生成][参考-to-视频生成] RefAlign 提出参考对齐损失（RA loss），在训练时将 DiT 参考分支的中间特征显式对齐到视觉基础模型（VFM）的语义空间——正项拉近同主体特征保证身份一致性，负项推远不同主体特征增强语义判别力——推理时移除对齐模块实现零额外开销，在 OpenS2V-Eval 上 TotalScore 达到 SOTA（60.42%），有效缓解了参考-to-视频生成中的 copy-paste 伪影和多主体混淆。
+tags:
+  - "ECCV 2026"
+  - "视频生成"
+  - "参考-to-视频生成"
+  - "表示对齐"
+  - "Transformer"
+  - "视觉基础模型"
+  - "多模态条件"
+---
+
 # RefAlign: Representation Alignment for Reference-to-Video Generation
 
 **会议**: ECCV 2026  
 **arXiv**: [2603.25743](https://arxiv.org/abs/2603.25743)  
-**代码**: https://github.com/gudaochangsheng/RefAlign (有)  
+**代码**: [https://github.com/gudaochangsheng/RefAlign](https://github.com/gudaochangsheng/RefAlign) (有)  
 **领域**: 视频生成 / 扩散模型  
 **关键词**: 参考-to-视频生成, 表示对齐, 扩散Transformer, 视觉基础模型, 多模态条件
 
@@ -115,3 +130,19 @@ RA loss 设计消融（1800 iterations 统一设置，表 2）。Baseline（配�
 - 实验充分度: ⭐⭐⭐⭐⭐ 主实验覆盖闭源+开源共 12 个基线、2 个模型规模，消融覆盖损失设计（4 配置）、对齐深度（8 个深度值）、编码器规模/类型（6 种编码器），外加用户研究——系统性很强。
 - 写作质量: ⭐⭐⭐⭐☆ 动机清晰（t-SNE 可视化直观支撑）、方法描述完整、与 REPA 的对比辨析透彻（4 点差异逐条说明）；但部分公式符号嵌套较深，附录与正文之间有些重复内容。
 - 价值: ⭐⭐⭐⭐☆ "对齐即蒸馏、推理零开销"的设计为 R2V 的落地提供了实用方案，方法简洁可复现；但 81 帧限制和 360K 数据规模制约了直接实用价值，更多是开辟了条件表示对齐这一研究方向。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] SMRABooth: Subject and Motion Representation Alignment for Customized Video Generation](../../CVPR2026/video_generation/smrabooth_subject_and_motion_representation_alignment_for_customized_video_gener.md)
+- [\[ICLR 2026\] MoAlign: Motion-Centric Representation Alignment for Video Diffusion Models](../../ICLR2026/video_generation/moalign_motion-centric_representation_alignment_for_video_diffusion_models.md)
+- [\[ICLR 2026\] MATRIX: Mask Track Alignment for Interaction-aware Video Generation](../../ICLR2026/video_generation/matrix_mask_track_alignment_for_interaction-aware_video_generation.md)
+- [\[CVPR 2026\] Scaling Zero-Shot Reference-to-Video Generation](../../CVPR2026/video_generation/scaling_zero-shot_reference-to-video_generation.md)
+- [\[CVPR 2026\] Open-world Hand-Object Interaction Video Generation Based on Structure and Contact-aware Representation](../../CVPR2026/video_generation/open-world_hand-object_interaction_video_generation_based_on_structure_and_conta.md)
+
+</div>
+
+<!-- RELATED:END -->

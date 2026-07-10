@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding
+description: >-
+  [ECCV 2026][多模态VLM][第一人称视频理解] EgoSAT 是首个面向第一人称（egocentric）流式交互理解的系统性基准，将过去（回顾）、现在（实时）、未来（前瞻）三类推理统一在严格的在线协议下，通过可回答性量化与置信度诊断揭示当前 VLM 不仅在时序推理上表现薄弱，更存在严重的"自信地犯错"（confidently wrong）校准失效问题。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "第一人称视频理解"
+  - "流式推理"
+  - "VLM基准测试"
+  - "可回答性评估"
+  - "置信度校准"
+---
+
 # EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding
 
 **会议**: ECCV 2026  
@@ -88,9 +103,9 @@ $$\text{Conf} = \max_{k \in C} p(k), \quad \text{Ent} = -\sum_{k \in C} p(k) \lo
 1. **视频源**：从 Ego4D 中取一段厨房场景的第一人称视频，佩戴者正在切菜（$t$ 时刻）。Ego4D 已标注切菜交互段的时间区间。
 2. **查询时刻确定**：锚定 $t$ 为切菜交互段内的一个时刻，$\tau = 8\text{s}$ 后佩戴者将"拿起锅铲"。
 3. **可回答性计算**：
-   - 取 $A = [t-\tau, t)$ 作为上下文窗口，$B = [t, t+h]$ 为目标窗口。计算 $s_v = \cos(v_{\text{切菜}}, v_{\text{拿锅铲}})$ 和 $s_t$（基于"切菜"和"拿锅铲"的文本语义相似度），经 probit 变换后得到 surprise 分。
-   - 查 Ego4D 中"切菜"的后继分布 $p(A \mid \text{切菜})$，计算 branchiness：若常见后继有"拿锅铲""洗手""拿盘子"等多个语义分散的动作，branchiness 高；若几乎是"拿下一颗菜"，branchiness 低。
-   - 综合判定该查询为 predictable 或 unpredictable。
+    - 取 $A = [t-\tau, t)$ 作为上下文窗口，$B = [t, t+h]$ 为目标窗口。计算 $s_v = \cos(v_{\text{切菜}}, v_{\text{拿锅铲}})$ 和 $s_t$（基于"切菜"和"拿锅铲"的文本语义相似度），经 probit 变换后得到 surprise 分。
+    - 查 Ego4D 中"切菜"的后继分布 $p(A \mid \text{切菜})$，计算 branchiness：若常见后继有"拿锅铲""洗手""拿盘子"等多个语义分散的动作，branchiness 高；若几乎是"拿下一颗菜"，branchiness 低。
+    - 综合判定该查询为 predictable 或 unpredictable。
 4. **MCQ 构造**：正确答案为"拿起锅铲"，hard negative 从切菜段前后邻近交互中采样（如"拿起菜刀""打开水龙头"），absurd negative 从跨场景候选池中按 CLIP 距离最远选取（如"翻书"），四选项随机打乱。
 5. **模型评估**：给模型输入 $X_{1:t}$ 的帧序列 + MCQ 文本，要求输出选项字母。记录准确率和置信度 $Conf$。
 6. **诊断**：该查询若被标记为 predictable，但模型 $Conf < 0.5$ 且答错，说明模型缺乏时序推理能力；若被标记为 unpredictable，但模型 $Conf > 0.9$ 且答错，则暴露 confidently wrong 行为——模型对自己的错误毫无自知。
@@ -171,3 +186,19 @@ EgoSAT 评估了三组模型：(1) 离线商用模型（Gemini 2.5 Pro, Claude S
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 14+ 模型（商用+开源+流式+SFT+ROI变体+人类）、6 类任务、多张诊断表（准确率/置信度斜率/可预测性分层/记忆代理敏感性/选项分析/blind baseline/open-ended），附录实验极详尽
 - 写作质量: ⭐⭐⭐⭐ 问题形式化和可回答性定义非常清晰，实验分析层次分明，但主表列数偏多、附录中某些表（如选项重排验证）的叙事稍显松散
 - 价值: ⭐⭐⭐⭐⭐ 为流式 egocentric VLM 评估设立了新标准，calibration 诊断揭示的问题具有广泛的安全性和可靠性意义，可回答性双指标可作为未来基准设计的参考范式
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] MME-Unify: A Comprehensive Benchmark for Unified Multimodal Understanding and Generation Models](../../ICLR2026/multimodal_vlm/mme-unify_a_comprehensive_benchmark_for_unified_multimodal_understanding_and_gen.md)
+- [\[CVPR 2026\] Beyond Single Images: A Comprehensive Benchmark for Album-Level Vision-Language Understanding](../../CVPR2026/multimodal_vlm/beyond_single_images_a_comprehensive_benchmark_for_album-level_vision-language_u.md)
+- [\[CVPR 2026\] EgoAVU: Egocentric Audio-Visual Understanding](../../CVPR2026/multimodal_vlm/egoavu_egocentric_audio-visual_understanding.md)
+- [\[ICLR 2026\] UrbanFeel：A Comprehensive Benchmark for Temporal and Perceptual Understanding of City Scenes through Human Perspective](../../ICLR2026/multimodal_vlm/urbanfeela_comprehensive_benchmark_for_temporal_and_perceptual_understanding_of_.md)
+- [\[AAAI 2026\] Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding](../../AAAI2026/multimodal_vlm/exo2ego_exocentric_knowledge_guided_mllm_for_egocentric_vide.md)
+
+</div>
+
+<!-- RELATED:END -->

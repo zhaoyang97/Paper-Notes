@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Entropy-Controlled Flow Matching
+description: >-
+  [ECCV 2026][图像生成][Flow Matching] ECFM（Entropy-Controlled Flow Matching）在标准 flow matching 目标上增加了一个熵率约束 $\frac{d}{dt}\mathcal{H}(\mu_t) \geq -\lambda$，从理论上证明了该约束等价于 Schrödinger Bridge，能提供可证明的模式覆盖保证（mode-coverage certificates），并在 $\lambda \to 0$ 时 $\Gamma$-收敛到经典最优传输。这是 flow matching 方向一篇纯理论论文，建立了约束变分原理与熵控传输的数学基础。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "Flow Matching"
+  - "熵控制"
+  - "模式坍塌"
+  - "Schrödinger Bridge"
+  - "最优传输"
+---
+
 # Entropy-Controlled Flow Matching
 
 **会议**: ECCV 2026  
@@ -100,3 +115,19 @@ ECFM 在 toy 任务上保留了所有 8 个模式并满足 96% 时间 bin 的熵
 - 实验充分度: ⭐⭐ (仅 toy 实验，无大规模生成验证)
 - 写作质量: ⭐⭐⭐⭐⭐ (数学严谨，证明完整，结构清晰)
 - 价值: ⭐⭐⭐⭐ (为 flow matching 提供了重要的理论基础和反坍塌保证，但离实用有距离)
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Source-Guided Flow Matching](../../ICLR2026/image_generation/source-guided_flow_matching.md)
+- [\[NeurIPS 2025\] Entropy Rectifying Guidance for Diffusion and Flow Models](../../NeurIPS2025/image_generation/entropy_rectifying_guidance_for_diffusion_and_flow_models.md)
+- [\[ICLR 2026\] Delay Flow Matching](../../ICLR2026/image_generation/delay_flow_matching.md)
+- [\[ICLR 2026\] Flow Matching with Semidiscrete Couplings](../../ICLR2026/image_generation/flow_matching_with_semidiscrete_couplings.md)
+- [\[ICML 2026\] A Kinetic Energy Perspective of Flow Matching](../../ICML2026/image_generation/a_kinetic_energy_perspective_of_flow_matching.md)
+
+</div>
+
+<!-- RELATED:END -->

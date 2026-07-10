@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] PhyEditBench: A Real-World Multi-Stage Benchmark for Physics-Aware Image Editing
+description: >-
+  [ECCV 2026][图像生成][物理感知图像编辑] PhyEditBench 是首个专门评估指令式图像编辑模型物理推理能力的基准，包含 4 大类 12 子类的真实世界物理场景和反物理实例；同时提出训练无关的 PhyWorld 方法，将视频生成模型作为物理推理引擎，配合测试时扩展与 latent 压缩策略，在 5B 参数下超越多数开源编辑模型。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "物理感知图像编辑"
+  - "基准测试"
+  - "视频生成模型"
+  - "测试时扩展"
+  - "反事实推理"
+---
+
 # PhyEditBench: A Real-World Multi-Stage Benchmark for Physics-Aware Image Editing
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.26551](https://arxiv.org/abs/2606.26551)  
-**代码**: https://github.com/Previsior/PhyEditBench (有)  
+**代码**: [https://github.com/Previsior/PhyEditBench](https://github.com/Previsior/PhyEditBench) (有)  
 **领域**: 图像生成  
 **关键词**: 物理感知图像编辑, 基准测试, 视频生成模型, 测试时扩展, 反事实推理
 
@@ -142,3 +157,19 @@ PhyWorld 以仅 5B 参数取得与 BAGEL-Think（~19B）同等综合均分，在
 - 实验充分度: ⭐⭐⭐⭐ 覆盖 13 个模型、4 个物理大类、5 种评测类型、正常 + 反物理两个子集，消融维度清晰；缺少 PhyWorld 内部各组件的独立消融（如去掉 TTS、去掉 latent reduction 后的单独性能），也未对比不同 I2V 主干的差异
 - 写作质量: ⭐⭐⭐⭐⭐ 结构清晰，层次分明，物理分类体系的定义、数据构造流程、评测流水线、方法解析都有明确交代，图表丰富且与正文高度对应
 - 价值: ⭐⭐⭐⭐ 填补了图像编辑领域物理推理评测的空白，对后续研究有明确的导向作用（把注意力从「改了什么」拉到「怎么改的」），PhyWorld 证明了小模型 + 训练无关路线在物理编辑上的可行性，为资源受限场景提供了实用基线
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] VTEdit-Bench: A Comprehensive Benchmark for Multi-Reference Image Editing Models in Virtual Try-On](vtedit-bench_a_comprehensive_benchmark_for_multi-reference_image_editing_models_.md)
+- [\[ICLR 2026\] WorldEdit: Towards Open-World Image Editing with a Knowledge-Informed Benchmark](../../ICLR2026/image_generation/worldedit_towards_open-world_image_editing_with_a_knowledge-informed_benchmark.md)
+- [\[ECCV 2026\] C3-Bench: A Context-Aware Change Captioning Benchmark](c3-bench_a_context-aware_change_captioning_benchmark.md)
+- [\[AAAI 2026\] Mixture of Ranks with Degradation-Aware Routing for One-Step Real-World Image Super-Resolution](../../AAAI2026/image_generation/mixture_of_ranks_with_degradation-aware_routing_for_one-step_real-world_image_su.md)
+- [\[CVPR 2025\] UniReal: Universal Image Generation and Editing via Learning Real-world Dynamics](../../CVPR2025/image_generation/unireal_universal_image_generation_and_editing_via_learning_real-world_dynamics.md)
+
+</div>
+
+<!-- RELATED:END -->

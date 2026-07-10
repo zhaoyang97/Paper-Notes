@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] OnPoint: Offline-to-Online Multi-Level Distillation for Point-Supervised Online Temporal Action Localization
+description: >-
+  [ECCV 2026][视频理解][点监督时序动作定位] OnPoint 提出离线到在线的多级蒸馏框架，用仅需单帧点标注的离线教师模型生成伪段标签、帧级类激活序列（CAS）和窗口级动作预期信号，通过实例级、帧级、窗口级三层蒸馏注入严格在线的学生模型，辅以动作性校准注意力解码和锚点级原始点监督来稳定训练，在五个数据集上一致超越强基线（THUMOS 上平均 mAP 提升 4.8%，最高 +7.0%），首次打通了点监督在线时序动作定位（POTAL）这一新任务。
+tags:
+  - "ECCV 2026"
+  - "视频理解"
+  - "点监督时序动作定位"
+  - "在线学习"
+  - "离线到在线蒸馏"
+  - "动作性校准注意力"
+  - "滑动窗口检测"
+---
+
 # OnPoint: Offline-to-Online Multi-Level Distillation for Point-Supervised Online Temporal Action Localization
 
 **会议**: ECCV 2026  
@@ -180,3 +195,19 @@ OnPoint 在所有 tIoU 阈值上一致超越蒸馏基线，AVG[0.1:0.7] 比最�
 - 实验充分度: ⭐⭐⭐⭐⭐ 五个数据集、三个蒸馏组件消融、注意力校准变体消融、点监督消融、教师噪声鲁棒性分析、损失函数对比（6 种 CASS loss）、超参敏感性、推理效率、在线后处理对比、预期策略对比——实验设计全面且深入
 - 写作质量: ⭐⭐⭐⭐ 任务定义清晰、方法流程图配合公式讲得比较清楚；但部分关键细节（如离线教师的后处理流程、伪段质量的具体指标）被放在补充材料中，主干对有经验的读者可能需要跳转查阅
 - 价值: ⭐⭐⭐⭐ POTAL 是一个务实的问题设定（标注成本低 + 可流式部署），OnPoint 的性能虽未超越全监督方法，但在标签效率和在线推理之间找到了一个可工作的平衡点，为后续研究建立了可靠的基线和框架
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2024\] Online Temporal Action Localization with Memory-Augmented Transformer](../../ECCV2024/video_understanding/online_temporal_action_localization_with_memory-augmented_transformer.md)
+- [\[ECCV 2024\] HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization](../../ECCV2024/video_understanding/hat_history-augmented_anchor_transformer_for_online_temporal_action_localization.md)
+- [\[ICCV 2025\] Online Dense Point Tracking with Streaming Memory](../../ICCV2025/video_understanding/online_dense_point_tracking_with_streaming_memory.md)
+- [\[ECCV 2024\] Bayesian Evidential Deep Learning for Online Action Detection](../../ECCV2024/video_understanding/bayesian_evidential_deep_learning_for_online_action_detection.md)
+- [\[ECCV 2026\] HieDG: A Hierarchical Discrete Geometry-Guided Framework for Multi-Animal Tracking](hiedg_a_hierarchical_discrete_geometry-guided_framework_for_multi-animal_trackin.md)
+
+</div>
+
+<!-- RELATED:END -->

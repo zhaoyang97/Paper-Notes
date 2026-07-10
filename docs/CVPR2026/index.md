@@ -183,6 +183,18 @@ item_total: 4062
 
 ---
 
+## 👥 Multi-Agent (2) { #multi_agent }
+
+**[AgentDet: A Shared-Blackboard Multi-Agent Framework for Zero-/Few-Shot Object Detection](multi_agent/agentdet_a_shared-blackboard_multi-agent_framework_for_zero-few-shot_object_dete.md)**
+
+:   AgentDet 把零/少样本目标检测拆成 Scout / Pinner / Curator / Judge 四个 LLM 智能体，通过一块"共享黑板"+一个 patch 级"知识库"协作：把视觉证据碎片化存进知识库、组合成整体文本线索喂给 LLM 做框预测，并且只训练 Judge 一个智能体，就在 PASCAL VOC / COCO 的 ZSOD/FSOD 上做到了与 SOTA 强竞争的结果。
+
+**[Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling](multi_agent/visual_document_understanding_and_reasoning_a_multi-agent_collaboration_framewor.md)**
+
+:   MACT 把"单模型一把梭"的视觉文档问答拆成规划、执行、判断、回答四个分工明确的智能体，并按每个智能体的认知负荷自适应分配测试时算力（而非统一堆参数），在 15 个基准上以 <30B 参数稳进前三、平均比基座模型提升 9.9–11.5%。
+
+---
+
 ## ⚖️ 对齐 / RLHF (12) { #llm_alignment }
 
 **[Anchoring the Mind of Multimodal Reasoners: Cognitive Bias as a Vector for Jailbreak Attacks](llm_alignment/anchoring_the_mind_of_multimodal_reasoners_cognitive_bias_as_a_vector_for_jailbr.md)**
@@ -378,6 +390,34 @@ item_total: 4062
 **[Watch and Learn: Learning to Use Computers from Online Videos](llm_pretraining/watch_and_learn_learning_to_use_computers_from_online_videos.md)**
 
 :   提出 Watch & Learn (W&L) 框架，通过逆动力学模型 (IDM) 将互联网上的人类计算机操作视频自动转化为可执行的 UI 轨迹数据，生成 53K+ 高质量轨迹，作为 ICL 示例或 SFT 训练数据显著提升各类 CUA 性能。
+
+---
+
+## ✏️ 知识编辑 (2) { #knowledge_editing }
+
+**[Attribution-Guided Model Rectification of Unreliable Neural Network Behaviors](knowledge_editing/attribution-guided_model_rectification_of_unreliable_neural_network_behaviors.md)**
+
+:   提出归因引导的动态模型纠正框架，将rank-one model editing从领域适配重定位为行为纠正，通过Integrated Gradients量化各层可编辑性自动定位嫌疑层，仅需1个清洁样本即可修复后门攻击、虚假相关和特征泄漏三类不可靠行为。
+
+**[SAME: Sparse and Anchored Model Editing for Heterogeneous Incremental Learning under Limited Data](knowledge_editing/same_sparse_and_anchored_model_editing_for_heterogeneous_incremental_learning_un.md)**
+
+:   把大语言模型里的「定位—编辑 FFN 键值对」思路搬到 CLIP 这类视觉语言模型上，提出在无任务标识、跨域、少样本的「异构增量学习（HIL）」新设定下，用稀疏微调 + 双锚约束 + 闭式求解把每个新任务的知识直接写进 FFN 输出投影矩阵，不加任何额外参数，平均精度比现有持续学习方法高 6.8%、保留 oracle 性能的 95.8%。
+
+---
+
+## 💬 LLM 其他 (3) { #llm_nlp }
+
+**[LLM-Guided Probabilistic Fusion for Label-Efficient Document Layout Analysis](llm_nlp/llm-guided_probabilistic_fusion_for_label-efficient_document_layout_analysis.md)**
+
+:   本文把文本预训练 LLM 当作"结构先验生成器"塞进半监督版面检测的伪标签精化环节——用 OCR+LLM 推断文档层级区域，再和教师检测器输出做逆方差概率融合（含可学习的实例自适应门控），仅用 5% 标注就在 PubLayNet 上达到 88.2 AP（轻量骨干）/89.7 AP（LayoutLMv3），并对标题/页眉等稀有版面元素提升最大。
+
+**[OmniDocLayout: Towards Diverse Document Layout Generation via Coarse-to-Fine LLM Learning](llm_nlp/omnidoclayout_towards_diverse_document_layout_generation_via_coarse-to-fine_llm_.md)**
+
+:   针对现有文档版面生成数据「只有学术论文、样式单一」的痛点，作者先造了首个百万级、覆盖六类文档的多样化版面数据集 OmniDocLayout-1M，再用一个 0.5B 的小 LLM 通过「先在多域粗标签上学版面通则、再用少量细标签适配具体领域」的由粗到精范式，在 M6Doc 上同时超过专用版面生成模型和 GPT-4o/Gemini/Claude 等通用大模型。
+
+**[Single-step Diffusion-based Video Coding with Semantic-Temporal Guidance](llm_nlp/single-step_diffusion-based_video_coding_with_semantic-temporal_guidance.md)**
+
+:   S2VC 把一个**单步扩散生成器**塞进条件视频编码框架，用从解码特征缓冲里抽取的「上下文语义引导（CSG）」替代文本 prompt、再用插进 U-Net 的「时序一致性引导（TCG）」做跨帧对齐，在 0.02 bpp 以下的极低码率下拿到 SOTA 感知质量，相比上一代感知编解码器平均省 51.62% 码率（DISTS BD-Rate）。
 
 ---
 
@@ -1285,6 +1325,26 @@ item_total: 4062
 
 ---
 
+## 🔗 因果推理 (4) { #causal_inference }
+
+**[A Polynomial Chaos Framework for Causal Discovery in Nonlinear Uncertain Systems](causal_inference/a_polynomial_chaos_framework_for_causal_discovery_in_nonlinear_uncertain_systems.md)**
+
+:   把噪声项用多项式混沌展开（PCE）嵌进结构方程，得到 PCE-LiNGAM，证明在轻度稀疏条件下因果 DAG 可唯一辨识，并用「PCE 签名污染检验 + 递归找 sink」的多项式时间算法在极端非高斯工业数据上把平均 F1 从 0.50 提到 0.756，同时顺手给出基于 Sobol 指数的不确定性量化。
+
+**[CGU-Bayes: Causal Graph Uncertainty-Guided Bayesian Inference for Domain Generalization](causal_inference/cgu-bayes_causal_graph_uncertainty-guided_bayesian_inference_for_domain_generali.md)**
+
+:   针对"用结构因果模型（SCM）做领域泛化时、因果图在数据稀缺/含噪下估不准"的问题，本文不再点估计单一因果图，而是**对因果图的后验做贝叶斯推断**，从采样出的多张图里各选一套因果马尔可夫毯（CMB）特征训练预测器，再用每张图与测试样本的"对齐不确定性"当权重做加权集成，在 BLT、CMNIST 等强分布偏移数据集上拿到 SOTA。
+
+**[MaskDiME: Adaptive Masked Diffusion for Precise and Efficient Visual Counterfactual Explanations](causal_inference/maskdime_adaptive_masked_diffusion_for_precise_and_efficient_visual_counterfactu.md)**
+
+:   提出 MaskDiME，一个免训练的扩散框架，通过自适应双掩码机制将全局分类器引导转化为决策驱动的局部编辑，实现精确高效的视觉反事实解释，推理速度比 DiME 快 30 倍以上，GPU 内存仅为 ACE/RCSB 的十分之一。
+
+**[Retrieving Counterfactuals Improves Visual In-Context Learning](causal_inference/retrieving_counterfactuals_improves_visual_in-context_learning.md)**
+
+:   提出 CIRCLES 框架，通过属性引导的 composed image retrieval 检索反事实示例，构建因果+相关性双通道 in-context demonstration，显著提升 VLM 的细粒度视觉推理能力。
+
+---
+
 ## 🔬 可解释性 (34) { #interpretability }
 
 **[Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers](interpretability/align_once_to_explain_feature_alignment_for_scalable_b-cosification_of_foundatio.md)**
@@ -1537,6 +1597,14 @@ item_total: 4062
 
 ---
 
+## 🩺 医疗 LLM (1) { #medical_nlp }
+
+**[Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data](medical_nlp/towards_efficient_medical_reasoning_with_minimal_fine-tuning_data.md)**
+
+:   提出 Difficulty-Influence Quadrant (DIQ) 数据选择策略，联合考量样本难度和梯度影响力，使 VLM 语言骨干仅用 1% 精选数据即可匹配全量 SFT 性能，10% 数据则可超越全量训练。
+
+---
+
 ## 🧬 计算生物 (21) { #computational_biology }
 
 **[HINGE: Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images](computational_biology/adapting_a_pre-trained_single-cell_foundation_model_to_spatial_gene_expression_g.md)**
@@ -1580,6 +1648,74 @@ item_total: 4062
 :   提出 cryoSENSE，首个冷冻电镜压缩成像的计算框架，证明蛋白质 cryo-EM 图像在稀疏先验（DCT/小波/TV）和生成先验（扩散模型）下均可从欠采样测量中高保真重建，在保持 3D 分辨率的同时实现最高 2.5× 通量提升。
 
 [查看全部21篇「计算生物」论文 →](computational_biology/)
+
+---
+
+## ⚛️ 物理/科学计算 (2) { #physics }
+
+**[AviaSafe: A Physics-Informed Data-Driven Model for Aviation Safety-Critical Cloud Forecasts](physics/aviasafe_a_physics-informed_data-driven_model_for_aviation_safety-critical_cloud.md)**
+
+:   AviaSafe 把"先用掩码定位云在哪、再回归云有多浓"的层级化思路和航空气象里验证多年的"结冰条件指数(IC)"嵌进一个 Swin Transformer 预报骨干里，第一次实现了全球、逐 6 小时、可分相态（冰/液/雨/雪）的云微物理量预报，在 93.7% 的变量-时效组合上优于 FuXi 基线，并在 7 天时效的关键背景变量上追平甚至超过业务级数值预报 ECMWF HRES。
+
+**[Spatial-Spectral Residuals Informed Diffusion Neural Operator for Pan-sharpening](physics/spatial-spectral_residuals_informed_diffusion_neural_operator_for_pan-sharpening.md)**
+
+:   SRINO 把全色锐化的扩散去噪骨干从注意力换成 Galerkin 型神经算子（把生成过程搬到连续函数空间、显著省 FLOPs 和显存），再在每一步反向采样里直接把像素级的空间/光谱一致性残差当条件喂进去做闭环引导，在 WV3/GF2/QB 三个数据集上既超过现有 SOTA 又比注意力扩散省好几倍算力。
+
+---
+
+## 🧮 科学计算 (3) { #scientific_computing }
+
+**[Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis](scientific_computing/continuous_exposure-time_modeling_for_realistic_atmospheric_turbulence_synthesis.md)**
+
+:   提出曝光时间依赖的调制传递函数（ET-MTF），将曝光时间建模为连续变量，构建了大规模合成湍流数据集 ET-Turb（5083视频、200万帧），显著提升湍流复原模型在真实数据上的泛化能力。
+
+**[EHETM: High-Quality and Efficient Turbulence Mitigation with Events](scientific_computing/high-quality_and_efficient_turbulence_mitigation_with_events.md)**
+
+:   提出EHETM，首次利用事件相机的微秒时间分辨率突破传统多帧湍流缓解(TM)方法的精度-效率瓶颈，发现两个关键物理现象——湍流诱导事件的极性交替与清晰梯度相关、动态物体形成时空相干"事件管"——设计极性加权梯度和事件管约束两个互补模块，数据开销降低77.3%、系统延迟降低89.5%，尤其在动态物体场景显著超越SOTA。
+
+**[NESTOR: A Nested MOE-based Neural Operator for Large-Scale PDE Pre-Training](scientific_computing/nestor_a_nested_moe-based_neural_operator_for_large-scale_pde_pre-training.md)**
+
+:   提出嵌套式 MoE 神经算子 NESTOR，通过 image-level MoE 捕获不同 PDE 类型的全局特征 + token-level Sub-MoE 捕获物理场内局部相关性，在 12 个 PDE 数据集上实现大规模预训练并有效迁移到下游任务。
+
+---
+
+## 🌍 地球科学 (2) { #earth_science }
+
+**[PhyOceanCast: Global Ocean Forecasting with Physics-Informed Diffusion](earth_science/phyoceancast_global_ocean_forecasting_with_physics-informed_diffusion.md)**
+
+:   PhyOceanCast 把全球海洋预报建模成一个**残差扩散**问题，用球面图注意力网络（SGAN-MOC）解决"高纬投影畸变 + 变量耦合"、用物理小波时序模块（PWTC）解决"多尺度动力学 + 守恒约束"，一次预报 145 个海洋变量、36 个深度层，30 天预报 RMSE 相对最优 baseline 降低约 13.7%。
+
+**[SIGMA: A Physics-Based Benchmark for Gas Chimney Understanding in Seismic Images](earth_science/sigma_a_physics-based_benchmark_for_gas_chimney_understanding_in_seismic_images.md)**
+
+:   本文提出首个带真值标注的物理合成地震图像数据集 SIGMA——用波动方程正演+逆时偏移把含气烟囱的速度模型转成地震图像，同时给出像素级气烟囱掩码（用于检测）和"退化—干净"配对图（用于增强），并在两类任务上 benchmark 多个基线，揭示现有方法在该数据上集体吃力。
+
+---
+
+## 📡 信号/通信 (2) { #signal_comm }
+
+**[AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation](signal_comm/actta_rethinking_test-time_adaptation_via_dynamic_activation.md)**
+
+:   本文提出 AcTTA，一种基于动态激活函数调制的测试时自适应框架，通过将传统固定激活函数重参数化为可学习形式（包含激活中心偏移和非对称梯度斜率），在推理时自适应调整激活行为以应对分布偏移，在 CIFAR10-C/CIFAR100-C/ImageNet-C 上一致超越基于归一化层的 TTA 方法。
+
+**[CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space](signal_comm/clay_conditional_visual_similarity.md)**
+
+:   CLAY 提出免训练的条件视觉相似度计算方法，通过在 VLM 嵌入空间中构建文本条件子空间来调制相似度，无需重新计算数据库特征即可适应不同检索条件，并支持多条件检索。
+
+---
+
+## 👥 社会计算 (3) { #social_computing }
+
+**[Bridging Pixels and Words: Mask-Aware Local Semantic Fusion for Multimodal Media Verification](social_computing/bridging_pixels_and_words_mask-aware_local_semantic_fusion_for_multimodal_media_.md)**
+
+:   提出 MaLSF 框架，利用掩码-标签对作为语义锚点，通过双向跨模态验证（BCV）和层级语义聚合（HSA）模块实现主动式局部语义冲突检测，在 DGM4 和假新闻检测任务上取得 SOTA。
+
+**[Instance-level Visual Active Tracking with Occlusion-Aware Planning](social_computing/instance-level_visual_active_tracking_with_occlusion-aware_planning.md)**
+
+:   OA-VAT 用一张参考图离线构建判别性"实例原型"来对抗相似干扰物，在线 EMA 增强原型 + 置信度自适应卡尔曼滤波保持稳定跟踪，并训练一个以目标框为条件的扩散轨迹规划器在目标被遮挡时主动绕障找回——在 UnrealCV 上平均 SR 0.93、真实图像平均 CAR 90.8%、真机无人机 TSR 81.6%，且 RTX 3090 上 35 FPS 实时。
+
+**[Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning](social_computing/revisiting_unknowns_towards_effective_and_efficient_open-set_active_learning.md)**
+
+:   提出 E2OAL，一个无需额外检测器的开放集主动学习框架，通过标签引导聚类发现未知类潜在结构、Dirichlet 校准辅助头联合建模已知/未知类别，并设计两阶段自适应查询策略，在多个基准上同时实现高准确率、高查询纯度和高训练效率。
 
 ---
 
@@ -1672,145 +1808,5 @@ item_total: 4062
 :   ARVFI 把视频插帧从"一次性生成所有中间帧"改成"从两端输入帧向中间逐帧自回归生成"，并用 DINOv3 特征替代光流作为运动表征，在大幅复杂运动下既显著提升插帧精度（FID 全面领先）又把采样步数压到 15 步、比 backbone Wan 快约 3 倍。
 
 [查看全部105篇「其他」论文 →](others/)
-
----
-
-## 🗂 其他方向 (24)
-
----
-
-## 👥 Multi-Agent (2) { #multi_agent }
-
-**[AgentDet: A Shared-Blackboard Multi-Agent Framework for Zero-/Few-Shot Object Detection](multi_agent/agentdet_a_shared-blackboard_multi-agent_framework_for_zero-few-shot_object_dete.md)**
-
-:   AgentDet 把零/少样本目标检测拆成 Scout / Pinner / Curator / Judge 四个 LLM 智能体，通过一块"共享黑板"+一个 patch 级"知识库"协作：把视觉证据碎片化存进知识库、组合成整体文本线索喂给 LLM 做框预测，并且只训练 Judge 一个智能体，就在 PASCAL VOC / COCO 的 ZSOD/FSOD 上做到了与 SOTA 强竞争的结果。
-
-**[Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling](multi_agent/visual_document_understanding_and_reasoning_a_multi-agent_collaboration_framewor.md)**
-
-:   MACT 把"单模型一把梭"的视觉文档问答拆成规划、执行、判断、回答四个分工明确的智能体，并按每个智能体的认知负荷自适应分配测试时算力（而非统一堆参数），在 15 个基准上以 <30B 参数稳进前三、平均比基座模型提升 9.9–11.5%。
-
----
-
-## ✏️ 知识编辑 (2) { #knowledge_editing }
-
-**[Attribution-Guided Model Rectification of Unreliable Neural Network Behaviors](knowledge_editing/attribution-guided_model_rectification_of_unreliable_neural_network_behaviors.md)**
-
-:   提出归因引导的动态模型纠正框架，将rank-one model editing从领域适配重定位为行为纠正，通过Integrated Gradients量化各层可编辑性自动定位嫌疑层，仅需1个清洁样本即可修复后门攻击、虚假相关和特征泄漏三类不可靠行为。
-
-**[SAME: Sparse and Anchored Model Editing for Heterogeneous Incremental Learning under Limited Data](knowledge_editing/same_sparse_and_anchored_model_editing_for_heterogeneous_incremental_learning_un.md)**
-
-:   把大语言模型里的「定位—编辑 FFN 键值对」思路搬到 CLIP 这类视觉语言模型上，提出在无任务标识、跨域、少样本的「异构增量学习（HIL）」新设定下，用稀疏微调 + 双锚约束 + 闭式求解把每个新任务的知识直接写进 FFN 输出投影矩阵，不加任何额外参数，平均精度比现有持续学习方法高 6.8%、保留 oracle 性能的 95.8%。
-
----
-
-## 💬 LLM 其他 (3) { #llm_nlp }
-
-**[LLM-Guided Probabilistic Fusion for Label-Efficient Document Layout Analysis](llm_nlp/llm-guided_probabilistic_fusion_for_label-efficient_document_layout_analysis.md)**
-
-:   本文把文本预训练 LLM 当作"结构先验生成器"塞进半监督版面检测的伪标签精化环节——用 OCR+LLM 推断文档层级区域，再和教师检测器输出做逆方差概率融合（含可学习的实例自适应门控），仅用 5% 标注就在 PubLayNet 上达到 88.2 AP（轻量骨干）/89.7 AP（LayoutLMv3），并对标题/页眉等稀有版面元素提升最大。
-
-**[OmniDocLayout: Towards Diverse Document Layout Generation via Coarse-to-Fine LLM Learning](llm_nlp/omnidoclayout_towards_diverse_document_layout_generation_via_coarse-to-fine_llm_.md)**
-
-:   针对现有文档版面生成数据「只有学术论文、样式单一」的痛点，作者先造了首个百万级、覆盖六类文档的多样化版面数据集 OmniDocLayout-1M，再用一个 0.5B 的小 LLM 通过「先在多域粗标签上学版面通则、再用少量细标签适配具体领域」的由粗到精范式，在 M6Doc 上同时超过专用版面生成模型和 GPT-4o/Gemini/Claude 等通用大模型。
-
-**[Single-step Diffusion-based Video Coding with Semantic-Temporal Guidance](llm_nlp/single-step_diffusion-based_video_coding_with_semantic-temporal_guidance.md)**
-
-:   S2VC 把一个**单步扩散生成器**塞进条件视频编码框架，用从解码特征缓冲里抽取的「上下文语义引导（CSG）」替代文本 prompt、再用插进 U-Net 的「时序一致性引导（TCG）」做跨帧对齐，在 0.02 bpp 以下的极低码率下拿到 SOTA 感知质量，相比上一代感知编解码器平均省 51.62% 码率（DISTS BD-Rate）。
-
----
-
-## 🔗 因果推理 (4) { #causal_inference }
-
-**[A Polynomial Chaos Framework for Causal Discovery in Nonlinear Uncertain Systems](causal_inference/a_polynomial_chaos_framework_for_causal_discovery_in_nonlinear_uncertain_systems.md)**
-
-:   把噪声项用多项式混沌展开（PCE）嵌进结构方程，得到 PCE-LiNGAM，证明在轻度稀疏条件下因果 DAG 可唯一辨识，并用「PCE 签名污染检验 + 递归找 sink」的多项式时间算法在极端非高斯工业数据上把平均 F1 从 0.50 提到 0.756，同时顺手给出基于 Sobol 指数的不确定性量化。
-
-**[CGU-Bayes: Causal Graph Uncertainty-Guided Bayesian Inference for Domain Generalization](causal_inference/cgu-bayes_causal_graph_uncertainty-guided_bayesian_inference_for_domain_generali.md)**
-
-:   针对"用结构因果模型（SCM）做领域泛化时、因果图在数据稀缺/含噪下估不准"的问题，本文不再点估计单一因果图，而是**对因果图的后验做贝叶斯推断**，从采样出的多张图里各选一套因果马尔可夫毯（CMB）特征训练预测器，再用每张图与测试样本的"对齐不确定性"当权重做加权集成，在 BLT、CMNIST 等强分布偏移数据集上拿到 SOTA。
-
-**[MaskDiME: Adaptive Masked Diffusion for Precise and Efficient Visual Counterfactual Explanations](causal_inference/maskdime_adaptive_masked_diffusion_for_precise_and_efficient_visual_counterfactu.md)**
-
-:   提出 MaskDiME，一个免训练的扩散框架，通过自适应双掩码机制将全局分类器引导转化为决策驱动的局部编辑，实现精确高效的视觉反事实解释，推理速度比 DiME 快 30 倍以上，GPU 内存仅为 ACE/RCSB 的十分之一。
-
-**[Retrieving Counterfactuals Improves Visual In-Context Learning](causal_inference/retrieving_counterfactuals_improves_visual_in-context_learning.md)**
-
-:   提出 CIRCLES 框架，通过属性引导的 composed image retrieval 检索反事实示例，构建因果+相关性双通道 in-context demonstration，显著提升 VLM 的细粒度视觉推理能力。
-
----
-
-## 🩺 医疗 LLM (1) { #medical_nlp }
-
-**[Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data](medical_nlp/towards_efficient_medical_reasoning_with_minimal_fine-tuning_data.md)**
-
-:   提出 Difficulty-Influence Quadrant (DIQ) 数据选择策略，联合考量样本难度和梯度影响力，使 VLM 语言骨干仅用 1% 精选数据即可匹配全量 SFT 性能，10% 数据则可超越全量训练。
-
----
-
-## ⚛️ 物理/科学计算 (2) { #physics }
-
-**[AviaSafe: A Physics-Informed Data-Driven Model for Aviation Safety-Critical Cloud Forecasts](physics/aviasafe_a_physics-informed_data-driven_model_for_aviation_safety-critical_cloud.md)**
-
-:   AviaSafe 把"先用掩码定位云在哪、再回归云有多浓"的层级化思路和航空气象里验证多年的"结冰条件指数(IC)"嵌进一个 Swin Transformer 预报骨干里，第一次实现了全球、逐 6 小时、可分相态（冰/液/雨/雪）的云微物理量预报，在 93.7% 的变量-时效组合上优于 FuXi 基线，并在 7 天时效的关键背景变量上追平甚至超过业务级数值预报 ECMWF HRES。
-
-**[Spatial-Spectral Residuals Informed Diffusion Neural Operator for Pan-sharpening](physics/spatial-spectral_residuals_informed_diffusion_neural_operator_for_pan-sharpening.md)**
-
-:   SRINO 把全色锐化的扩散去噪骨干从注意力换成 Galerkin 型神经算子（把生成过程搬到连续函数空间、显著省 FLOPs 和显存），再在每一步反向采样里直接把像素级的空间/光谱一致性残差当条件喂进去做闭环引导，在 WV3/GF2/QB 三个数据集上既超过现有 SOTA 又比注意力扩散省好几倍算力。
-
----
-
-## 🧮 科学计算 (3) { #scientific_computing }
-
-**[Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis](scientific_computing/continuous_exposure-time_modeling_for_realistic_atmospheric_turbulence_synthesis.md)**
-
-:   提出曝光时间依赖的调制传递函数（ET-MTF），将曝光时间建模为连续变量，构建了大规模合成湍流数据集 ET-Turb（5083视频、200万帧），显著提升湍流复原模型在真实数据上的泛化能力。
-
-**[EHETM: High-Quality and Efficient Turbulence Mitigation with Events](scientific_computing/high-quality_and_efficient_turbulence_mitigation_with_events.md)**
-
-:   提出EHETM，首次利用事件相机的微秒时间分辨率突破传统多帧湍流缓解(TM)方法的精度-效率瓶颈，发现两个关键物理现象——湍流诱导事件的极性交替与清晰梯度相关、动态物体形成时空相干"事件管"——设计极性加权梯度和事件管约束两个互补模块，数据开销降低77.3%、系统延迟降低89.5%，尤其在动态物体场景显著超越SOTA。
-
-**[NESTOR: A Nested MOE-based Neural Operator for Large-Scale PDE Pre-Training](scientific_computing/nestor_a_nested_moe-based_neural_operator_for_large-scale_pde_pre-training.md)**
-
-:   提出嵌套式 MoE 神经算子 NESTOR，通过 image-level MoE 捕获不同 PDE 类型的全局特征 + token-level Sub-MoE 捕获物理场内局部相关性，在 12 个 PDE 数据集上实现大规模预训练并有效迁移到下游任务。
-
----
-
-## 🌍 地球科学 (2) { #earth_science }
-
-**[PhyOceanCast: Global Ocean Forecasting with Physics-Informed Diffusion](earth_science/phyoceancast_global_ocean_forecasting_with_physics-informed_diffusion.md)**
-
-:   PhyOceanCast 把全球海洋预报建模成一个**残差扩散**问题，用球面图注意力网络（SGAN-MOC）解决"高纬投影畸变 + 变量耦合"、用物理小波时序模块（PWTC）解决"多尺度动力学 + 守恒约束"，一次预报 145 个海洋变量、36 个深度层，30 天预报 RMSE 相对最优 baseline 降低约 13.7%。
-
-**[SIGMA: A Physics-Based Benchmark for Gas Chimney Understanding in Seismic Images](earth_science/sigma_a_physics-based_benchmark_for_gas_chimney_understanding_in_seismic_images.md)**
-
-:   本文提出首个带真值标注的物理合成地震图像数据集 SIGMA——用波动方程正演+逆时偏移把含气烟囱的速度模型转成地震图像，同时给出像素级气烟囱掩码（用于检测）和"退化—干净"配对图（用于增强），并在两类任务上 benchmark 多个基线，揭示现有方法在该数据上集体吃力。
-
----
-
-## 📡 信号/通信 (2) { #signal_comm }
-
-**[AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation](signal_comm/actta_rethinking_test-time_adaptation_via_dynamic_activation.md)**
-
-:   本文提出 AcTTA，一种基于动态激活函数调制的测试时自适应框架，通过将传统固定激活函数重参数化为可学习形式（包含激活中心偏移和非对称梯度斜率），在推理时自适应调整激活行为以应对分布偏移，在 CIFAR10-C/CIFAR100-C/ImageNet-C 上一致超越基于归一化层的 TTA 方法。
-
-**[CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space](signal_comm/clay_conditional_visual_similarity.md)**
-
-:   CLAY 提出免训练的条件视觉相似度计算方法，通过在 VLM 嵌入空间中构建文本条件子空间来调制相似度，无需重新计算数据库特征即可适应不同检索条件，并支持多条件检索。
-
----
-
-## 👥 社会计算 (3) { #social_computing }
-
-**[Bridging Pixels and Words: Mask-Aware Local Semantic Fusion for Multimodal Media Verification](social_computing/bridging_pixels_and_words_mask-aware_local_semantic_fusion_for_multimodal_media_.md)**
-
-:   提出 MaLSF 框架，利用掩码-标签对作为语义锚点，通过双向跨模态验证（BCV）和层级语义聚合（HSA）模块实现主动式局部语义冲突检测，在 DGM4 和假新闻检测任务上取得 SOTA。
-
-**[Instance-level Visual Active Tracking with Occlusion-Aware Planning](social_computing/instance-level_visual_active_tracking_with_occlusion-aware_planning.md)**
-
-:   OA-VAT 用一张参考图离线构建判别性"实例原型"来对抗相似干扰物，在线 EMA 增强原型 + 置信度自适应卡尔曼滤波保持稳定跟踪，并训练一个以目标框为条件的扩散轨迹规划器在目标被遮挡时主动绕障找回——在 UnrealCV 上平均 SR 0.93、真实图像平均 CAR 90.8%、真机无人机 TSR 81.6%，且 RTX 3090 上 35 FPS 实时。
-
-**[Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning](social_computing/revisiting_unknowns_towards_effective_and_efficient_open-set_active_learning.md)**
-
-:   提出 E2OAL，一个无需额外检测器的开放集主动学习框架，通过标签引导聚类发现未知类潜在结构、Dirichlet 校准辅助头联合建模已知/未知类别，并设计两阶段自适应查询策略，在多个基准上同时实现高准确率、高查询纯度和高训练效率。
 
 </div>

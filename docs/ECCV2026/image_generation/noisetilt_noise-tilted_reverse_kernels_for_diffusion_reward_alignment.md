@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] NoiseTilt: Noise-Tilted Reverse Kernels for Diffusion Reward Alignment
+description: >-
+  [ECCV 2026][图像生成][噪声倾斜反向核] 本文提出 NTRK(Noise-Tilted Reverse Kernel):在扩散推理时**不改反向核的均值**,而是把奖励梯度经一个「白化算子」变成一个合法的高斯噪声方向后注入到噪声项里,从而在每步只采一个样本的前提下同时拿到「梯度引导」和「噪声兼容性」;在美学图像生成上仅用 25 NFE 就超过了最强基线在 500 NFE 下的奖励,算力降低 20 倍。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "噪声倾斜反向核"
+  - "白化算子"
+  - "推理时奖励对齐"
+  - "置信区间投影"
+  - "无训练引导"
+---
+
 # NoiseTilt: Noise-Tilted Reverse Kernels for Diffusion Reward Alignment
 
 **会议**: ECCV 2026  
@@ -140,3 +155,19 @@ VideoReward 从基线的 -0.399 / DPS 的 -0.130 直接拉到 **3.465**,量级�
 - 实验充分度: ⭐⭐⭐⭐ 覆盖美学/文图/视频/微调叠加多任务、target 与 held-out 双评,但缺白化算子各组件的定量消融和计算开销对比。
 - 写作质量: ⭐⭐⭐⭐ 四种核用统一的「标准化扰动是否高斯」框架讲得非常清晰,Table 1 / Figure 3 一图胜千言;白化算子细节压到附录,正文略需回查。
 - 价值: ⭐⭐⭐⭐⭐ drop-in、无训练、与微调正交、20× 提效,几乎可无痛叠到任何预训练/已对齐扩散模型上,实用价值很高。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Flowing Backwards: Improving Normalizing Flows via Reverse Representation Alignment](../../AAAI2026/image_generation/flowing_backwards_improving_normalizing_flows_via_reverse_representation_alignme.md)
+- [\[CVPR 2026\] Resolving Endpoint Underfitting in Diffusion Bridges via Noise Alignment](../../CVPR2026/image_generation/resolving_endpoint_underfitting_in_diffusion_bridges_via_noise_alignment.md)
+- [\[ICML 2026\] Pareto-Guided Optimal Transport for Multi-Reward Alignment](../../ICML2026/image_generation/pareto-guided_optimal_transport_for_multi-reward_alignment.md)
+- [\[ICLR 2026\] GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models](../../ICLR2026/image_generation/glass_flows_reward_alignment_diffusion.md)
+- [\[ECCV 2026\] SONIC: Spectral Optimization of Noise for Inpainting with Consistency](sonic_spectral_optimization_of_noise_for_inpainting_with_consistency.md)
+
+</div>
+
+<!-- RELATED:END -->

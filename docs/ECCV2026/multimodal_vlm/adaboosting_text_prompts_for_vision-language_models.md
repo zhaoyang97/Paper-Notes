@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] AdaBoosting Text Prompts for Vision-Language Models
+description: >-
+  [ECCV 2026][多模态VLM][文本提示增强] 本文提出 Text Prompt Boosting (TPB)，将 AdaBoost 框架引入 VLM 的文本提示构造中——把每个类别的提示词集合视为一个弱分类器，通过迭代重加权困难样本、逐轮构造新的提示弱分类器并集成为强分类器，从而在少样本场景下实现样本数驱动的性能持续提升（shot scalability），且该自然语言提示集成可在异构 VLM 间直接重嵌入迁移，保持跨模型迁移后的性能增益。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "文本提示增强"
+  - "AdaBoost"
+  - "少样本分类"
+  - "跨模型迁移"
+  - "提示集成"
+---
+
 # AdaBoosting Text Prompts for Vision-Language Models
 
 **会议**: ECCV 2026  
 **arXiv**: [2607.00684](https://arxiv.org/abs/2607.00684)  
-**代码**: https://sung0503.github.io/TPB  
+**代码**: [https://sung0503.github.io/TPB](https://sung0503.github.io/TPB)  
 **领域**: 多模态VLM  
 **关键词**: 文本提示增强, AdaBoost, 少样本分类, 跨模型迁移, 提示集成
 
@@ -161,3 +176,19 @@ ProAPO 迁移后 shot 增益几乎为零（ViT-L 上 +0.42 pp，ViT-H 上 +0.32 
 - 实验充分度: ⭐⭐⭐⭐⭐ 11 个数据集、6 种目标 VLM、1-16 shot、跨模型双向迁移、曝光预算隔离分析、定性可视化，消融覆盖全面且每项都在回答一个明确问题。
 - 写作质量: ⭐⭐⭐⭐☆ 方法动机清晰（从 ProAPO 饱和问题直接推导出 AdaBoost 方案），实验逻辑严密，PEZ 的失败案例分析尤其出彩。图 1 的概览图有效传达了核心概念。
 - 价值: ⭐⭐⭐⭐☆ 为硬提示方法的 shot scalability 问题提供了简洁有效的解决方案，提示集成的跨模型迁移特性有实际部署价值。提示池是静态的这一限制也为后续工作留下了明确的改进空间。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Mostly Text, Smart Visuals: Asymmetric Text-Visual Pruning for Large Vision-Language Models](../../CVPR2026/multimodal_vlm/mostly_text_smart_visuals_asymmetric_text-visual_pruning_for_large_vision-langua.md)
+- [\[ICML 2026\] TGV-KV: Text-Grounded KV Eviction for Vision-Language Models](../../ICML2026/multimodal_vlm/tgv-kv_text-grounded_kv_eviction_for_vision-language_models.md)
+- [\[CVPR 2025\] Words or Vision: Do Vision-Language Models Have Blind Faith in Text?](../../CVPR2025/multimodal_vlm/words_or_vision_do_vision-language_models_have_blind_faith_in_text.md)
+- [\[CVPR 2026\] TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment](../../CVPR2026/multimodal_vlm/tipsv2_patch_text_alignment.md)
+- [\[CVPR 2026\] TANGO: Text-Anchored Guided Optimization for Robust Fine-tuning Vision-Language Models under Label Noise](../../CVPR2026/multimodal_vlm/tango_text-anchored_guided_optimization_for_robust_fine-tuning_vision-language_m.md)
+
+</div>
+
+<!-- RELATED:END -->

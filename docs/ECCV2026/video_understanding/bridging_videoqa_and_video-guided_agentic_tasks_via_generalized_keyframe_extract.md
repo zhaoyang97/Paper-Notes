@@ -1,9 +1,24 @@
+---
+title: >-
+  [论文解读] Bridging VideoQA and Video-Guided Agentic Tasks via Generalized Keyframe Extraction
+description: >-
+  [ECCV 2026][视频理解][关键帧提取] 本文提出 TASKER，一种将关键帧提取形式化为图搜索问题的通用算法——MLLM 同时评估任务相关性（缺什么信息）和场景动态（哪里变化大）来指导搜索方向，配合双路置信度投票决定何时终止，在 EgoSchema 和 NExT-QA 上分别以仅约 15% 的帧数超越此前最佳基线 2.0% 和 1.8%，并配套发布 VG-GUI-Bench 基准以评估模型从视频教程中学习操作步骤并迁移到 GUI agent 任务的能力。
+tags:
+  - "ECCV 2026"
+  - "视频理解"
+  - "关键帧提取"
+  - "视频问答"
+  - "GUI Agent"
+  - "图搜索"
+  - "多模态大语言模型"
+---
+
 # Bridging VideoQA and Video-Guided Agentic Tasks via Generalized Keyframe Extraction
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.29445](https://arxiv.org/abs/2606.29445)  
 **项目**: [https://vg-gui-tasker.github.io/](https://vg-gui-tasker.github.io/)  
-**代码**: https://github.com/VG-GUI-TASKER/VG-GUI-TASKER (有)  
+**代码**: [https://github.com/VG-GUI-TASKER/VG-GUI-TASKER](https://github.com/VG-GUI-TASKER/VG-GUI-TASKER) (有)  
 **领域**: 视频理解  
 **关键词**: 关键帧提取, 视频问答, GUI Agent, 图搜索, 多模态大语言模型  
 
@@ -164,3 +179,19 @@ A\* 以 3.3 个点优势超过 BFS，同时帧数反而更少（27.9 vs 31.2）�
 - 实验充分度: 四颗星 覆盖两个 VideoQA 基准和自建 GUI agent 基准，消融了搜索策略、终止条件、基座 LLM，帧效率也有定量对比；但缺少超参数灵敏度分析和失败案例分析
 - 写作质量: 五颗星 结构清晰，方法论部分对搜索算法到 TASKER 的映射讲得透彻，伪代码和示意图配合到位，附录提供了完整的 prompt 和实施细节
 - 价值: 四颗星 同时推进了基准（VG-GUI-Bench）和方法（TASKER）两条线，训练无关的特性使其可即插即用地服务于各类视频理解 pipeline，但视频引导式 agent 任务的绝对准确率仍低，离实用有距离
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] VidBridge-R1: Bridging QA and Captioning for RL-based Video Understanding Models with Intermediate Proxy Tasks](../../ICLR2026/video_understanding/vidbridge-r1_bridging_qa_and_captioning_for_rl-based_video_understanding_models_.md)
+- [\[ICLR 2026\] FOCUS: Efficient Keyframe Selection for Long Video Understanding](../../ICLR2026/video_understanding/focus_efficient_keyframe_selection_for_long_video_understanding.md)
+- [\[ECCV 2026\] SFDATrack: Generalized Source-Free Domain Adaptive Tracking Under Adverse Weather Conditions](sfdatrack_generalized_source-free_domain_adaptive_tracking_under_adverse_weather.md)
+- [\[ECCV 2026\] HoliDubber: Holistic Video Dubbing for Complex Acoustic Scenes via Text-Guided Audio Synthesis](visual_dubbing_pipeline_with_diffusion_models_for_video_dubbing.md)
+- [\[ECCV 2026\] HieDG: A Hierarchical Discrete Geometry-Guided Framework for Multi-Animal Tracking](hiedg_a_hierarchical_discrete_geometry-guided_framework_for_multi-animal_trackin.md)
+
+</div>
+
+<!-- RELATED:END -->

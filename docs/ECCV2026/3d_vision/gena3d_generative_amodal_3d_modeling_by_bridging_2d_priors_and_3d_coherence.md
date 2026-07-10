@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence
+description: >-
+  [ECCV 2026][3D视觉][非模态3D生成] GENA3D 提出一种生成式非模态 3D 建模框架，通过 View-Wise Cross Attention 并行融合多视图 2D 补全特征、Stereo-Conditioned Cross Attention 将 MVS 点云作为几何门控注入注意力 logits，在稀疏遮挡输入下同时实现生成多样性与几何一致性，在 GSO 数据集上 FID 达 30.73（4视图），相比 Amodal3R 提升 4.4，且可见区域 SSIM 达到 0.838。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "非模态3D生成"
+  - "2D先验与3D一致性"
+  - "多视图融合"
+  - "立体几何条件"
+  - "稀疏视图重建"
+---
+
 # GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence
 
 **会议**: ECCV 2026  
@@ -147,3 +162,19 @@ PCS（Perceptual Coherence Score）是本文提出的 VLM 评估指标：将生�
 - 实验充分度: 五星——主实验覆盖 6 个指标 x 3 种视图数 x 5+ 个基线，消融覆盖模块移除、视图数扩展、2D 前端替换、MVS 误差注入、融合策略对比、遮挡度分析、人类偏好评估，加上 in-the-wild 和 in-the-scene 的定性结果，实验设计全面且有说服力。
 - 写作质量: 四星——问题陈述清晰（"想象力 vs. 结构纪律"的矛盾提炼得好），方法部分公式与图示配合得当，但部分实验表格（Table 1）因对比方法多、指标多而信息密度过高，可读性有提升空间。
 - 价值: 四星——非模态 3D 生成是机器人抓取、AR/VR 内容创建、具身 AI 感知等应用的关键使能技术。本文提供了一个模块化、可分别升级的框架（2D 补全、MVS、生成核心各自独立），实践价值高于单点改进。主要扣分点在于未见区域的"合理性 vs. 准确性"歧义未得到评估，可能限制在精度敏感场景下的应用。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] HoloPart: Generative 3D Part Amodal Segmentation](../../ICLR2026/3d_vision/holopart_generative_3d_part_amodal_segmentation.md)
+- [\[ICCV 2025\] Amodal3R: Amodal 3D Reconstruction from Occluded 2D Images](../../ICCV2025/3d_vision/amodal3r_amodal_3d_reconstruction_from_occluded_2d_images.md)
+- [\[CVPR 2026\] Generative Diffusion Priors for 3D Mapping of the Dark Universe](../../CVPR2026/3d_vision/generative_diffusion_priors_for_3d_mapping_of_the_dark_universe.md)
+- [\[ICML 2026\] SplAttN: Bridging 2D and 3D with Gaussian Soft Splatting and Attention for Point Cloud Completion](../../ICML2026/3d_vision/splattn_bridging_2d_and_3d_with_gaussian_soft_splatting_and_attention_for_point_.md)
+- [\[CVPR 2026\] CUPID: Generative 3D Reconstruction via Joint Object and Pose Modeling](../../CVPR2026/3d_vision/cupid_generative_3d_reconstruction_via_joint_object_and_pose_modeling.md)
+
+</div>
+
+<!-- RELATED:END -->

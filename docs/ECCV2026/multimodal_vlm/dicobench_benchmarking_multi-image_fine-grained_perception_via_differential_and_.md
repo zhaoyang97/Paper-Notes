@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] DiCoBench: Benchmarking Multi-Image Fine-Grained Perception via Differential and Commonality Visual Cues
+description: >-
+  [ECCV 2026][多模态VLM][多图像细粒度感知] DiCoBench 提出首个以隐式视觉线索（差分与共性）驱动的高分辨率多图像细粒度感知 benchmark，包含 765 个高质样本、8 种任务，用 MCQ 范式消除 n-gram 评测偏差；18 个 MLLM 中最好的 Gemini-3-Pro 仅 58.1%（人类 98.3%），揭示了现有模型在自主视觉线索发现上的严重不足。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "多图像细粒度感知"
+  - "视觉线索引导"
+  - "benchmark"
+  - "高分辨率"
+  - "MLLM评测"
+---
+
 # DiCoBench: Benchmarking Multi-Image Fine-Grained Perception via Differential and Commonality Visual Cues
 
 **会议**: ECCV 2026  
@@ -142,3 +157,19 @@ DiCoBench 是评测 benchmark，不涉及模型训练。但其构建管线中的
 - 实验充分度: ⭐⭐⭐⭐⭐ 18 个模型全面评测，涵盖闭源/开源/微调专用三类；分辨率消融、人类时变实验、错误分类分析三个分析实验都提供了超越主表分数的洞见。
 - 写作质量: ⭐⭐⭐⭐⭐ 动机链条清晰（三条痛点 → 三条设计），任务定义用具体例子代替抽象描述极好懂，实验分析有层次而非罗列数字。
 - 价值: ⭐⭐⭐⭐⭐ 揭示了一个被社区系统性忽视的能力缺口——模型 40 分 vs 人类 98 分，这个 58 分的鸿沟足以驱动未来数年 MLLM 在自主视觉线索发现方向的研究。benchmark 设计本身也提供了可复用的评测框架（E 选项、MCQ、双轨）。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] DiG: Differential Grounding for Enhancing Fine-Grained Perception in Multimodal Large Language Models](../../CVPR2026/multimodal_vlm/dig_differential_grounding_for_enhancing_fine-grained_perception_in_multimodal_l.md)
+- [\[ECCV 2026\] VisReflect: Latent Visual Reflection for Fine-Grained Perception in Long Visual Context](visreflect_latent_visual_reflection_for_fine-grained_perception_in_long_visual_c.md)
+- [\[ICLR 2026\] Catching the Details: Self-Distilled RoI Predictors for Fine-Grained MLLM Perception](../../ICLR2026/multimodal_vlm/catching_the_details_self-distilled_roi_predictors_for_fine-grained_mllm_percept.md)
+- [\[ICLR 2026\] Benchmarking Large Vision-Language Models on Fine-Grained Image Tasks: A Comprehensive Evaluation](../../ICLR2026/multimodal_vlm/benchmarking_large_vision-language_models_on_fine-grained_image_tasks_a_comprehe.md)
+- [\[ECCV 2026\] ProactiveBench: Benchmarking Proactiveness in Multimodal Large Language Models](proactivebench_benchmarking_proactiveness_in_multimodal_large_language_models.md)
+
+</div>
+
+<!-- RELATED:END -->

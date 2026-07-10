@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Interact3D: Compositional 3D Generation of Interactive Objects
+description: >-
+  [ECCV 2026][3D视觉][3D组合生成] Interact3D 提出无需训练的"先生成再组合"框架，利用 2D/3D 生成模型的空间先验将 3D 组合生成转化为结构化配准问题，通过两阶段组合管线（全局到局部几何对齐锚定主物体 + SDF 碰撞感知优化放置剩余物体）和 VLM 驱动的智能体闭环迭代修正，从单张图像和文本提示自动生成物理合理、无碰撞的交互式 3D 组合场景，并发布 8,000+ 对交互式 3D 数据集。
+tags:
+  - "ECCV 2026"
+  - "3D视觉"
+  - "3D组合生成"
+  - "物理感知组合"
+  - "碰撞避免"
+  - "SDF优化"
+  - "VLM智能体优化"
+---
+
 # Interact3D: Compositional 3D Generation of Interactive Objects
 
 **会议**: ECCV 2026  
 **arXiv**: [2603.16085](https://arxiv.org/abs/2603.16085)  
-**代码**: https://github.com/SII-Hui/Interact3D  
+**代码**: [https://github.com/SII-Hui/Interact3D](https://github.com/SII-Hui/Interact3D)  
 **领域**: 3D视觉  
 **关键词**: 3D组合生成, 物理感知组合, 碰撞避免, SDF优化, VLM智能体优化
 
@@ -138,3 +153,19 @@ Stage 2：花朵作为 M_remain，OBB + GeoTransformer 提供初始位姿，SDF 
 - 实验充分度: ⭐⭐⭐⭐⭐ 150 样例 × 5 baseline × 3 类基线 + 6 指标（含 CLIP、人工评分、VLM 评分、面/体碰撞率）+ 6 行消融表 + 140 额外定性结果 + 多部件扩展实验，评估维度全面
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，Figure 3 概览图 + Figure 4 修正流程图定位准确，方法和实验细节完整；局限部分诚实地讨论了失败案例
 - 价值: ⭐⭐⭐⭐ 解决 Sim2Real 机器人训练的资产瓶颈真问题，发布 8,000+ 对数据集可直接惠及社区；training-free 设计使其可随底层生成模型（TRELLIS2→3→...）进化而自动受益
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] IAAO: Interactive Affordance Learning for Articulated Objects in 3D Environments](../../CVPR2025/3d_vision/iaao_interactive_affordance_learning_for_articulated_objects_in_3d_environments.md)
+- [\[ICML 2026\] PhyScene3D: Physically Consistent Interactive 3D Tabletop Scene Generation](../../ICML2026/3d_vision/physcene3d_physically_consistent_interactive_3d_tabletop_scene_generation.md)
+- [\[CVPR 2026\] Pano3DComposer: Feed-Forward Compositional 3D Scene Generation from Single Panoramic Image](../../CVPR2026/3d_vision/pano3dcomposer_feed-forward_compositional_3d_scene_generation_from_single_panora.md)
+- [\[ECCV 2026\] Walking in the Implicit: Interactive World Exploration via Neural Scene Representation](walking_in_the_implicit_interactive_world_exploration_via_neural_scene_represent.md)
+- [\[ICCV 2025\] REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment](../../ICCV2025/3d_vision/reparo_compositional_3d_assets_generation_with_differentiable_3d_layout_alignmen.md)
+
+</div>
+
+<!-- RELATED:END -->

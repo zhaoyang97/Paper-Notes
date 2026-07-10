@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts
+description: >-
+  [ECCV 2026][多模态VLM][VLA适配] DART 提出一种基于权重空间类比运算的 VLA 模型 one-shot 域适配方法：用单个源域+目标域 demonstration 分别微调，通过子空间对齐过滤后相减提取纯域向量，再将其加回基座模型，在 LIBERO 多视角、视觉扰动、跨实体和真实机器人场景下，仅用 1 条 demonstrations 就显著超越现有适配基线。
+tags:
+  - "ECCV 2026"
+  - "多模态VLM"
+  - "VLA适配"
+  - "权重算术"
+  - "域迁移"
+  - "one-shot学习"
+  - "子空间对齐"
+---
+
 # Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts
 
 **会议**: ECCV 2026  
 **arXiv**: [2607.00666](https://arxiv.org/abs/2607.00666)  
-**代码**: https://github.com/snumprlab/dart  
+**代码**: [https://github.com/snumprlab/dart](https://github.com/snumprlab/dart)  
 **领域**: 多模态VLM / 机器人  
 **关键词**: VLA适配, 权重算术, 域迁移, one-shot学习, 子空间对齐
 
@@ -122,3 +137,19 @@ LIBERO 三视角平均成功率消融（π₀.₅）：
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖两个 VLA 架构、模拟+真实机器人、视觉偏移+跨实体、消融+超参分析+层选择+域向量合并+源域遗忘检查，实验设计周全
 - 写作质量: ⭐⭐⭐⭐⭐ 从第 4 节实证分析（为什么 one-shot FT 失败）到第 5 节方法设计（基于分析发现提出 DART），逻辑链条紧密，动机充分自洽
 - 价值: ⭐⭐⭐⭐⭐ one-shot VLA 适配是机器人部署的核心痛点，DART 数据效率极高（1 条 demo per environment）、架构无关、即插即用，实用价值突出
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2025\] COUNTS: Benchmarking Object Detectors and Multimodal Large Language Models under Distribution Shifts](../../CVPR2025/multimodal_vlm/counts_benchmarking_object_detectors_and_multimodal_large_language_models_under_.md)
+- [\[CVPR 2026\] Vision-Language Model Guided Source-Free Domain Adaptation via Optimal Transport](../../CVPR2026/multimodal_vlm/vision-language_model_guided_source-free_domain_adaptation_via_optimal_transport.md)
+- [\[CVPR 2026\] One Patch to Caption Them All: A Unified Zero-Shot Captioning Framework](../../CVPR2026/multimodal_vlm/one_patch_to_caption_them_all_a_unified_zero-shot_captioning_framework.md)
+- [\[CVPR 2026\] Addressing Exacerbated Attention Sink for Source-Free Cross-Domain Few-Shot Learning](../../CVPR2026/multimodal_vlm/addressing_exacerbated_attention_sink_for_source-free_cross-domain_few-shot_lear.md)
+- [\[ICML 2026\] VLANeXt：构建强大 VLA 模型的配方](../../ICML2026/multimodal_vlm/vlanext_recipes_for_building_strong_vla_models.md)
+
+</div>
+
+<!-- RELATED:END -->

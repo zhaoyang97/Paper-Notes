@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] FlowDec: Temporal Conditional Flow Decorruptor for Robust Continuous Vision-Language Navigation
+description: >-
+  [ECCV 2026][图像恢复][视觉语言导航] FlowDec 提出一种基于条件流匹配的图像去损坏框架，通过混合时序条件策略和动作质心引导过滤，在不修改 VLN 导航骨架的前提下增强其对多种视觉损坏的鲁棒性，在 R2R-CE 和 RxR-CE 上相对导航成功率分别提升 25.33% 和 9.38%，推理速度比扩散类 TTA 方法快 3-8 倍。
+tags:
+  - "ECCV 2026"
+  - "图像恢复"
+  - "视觉语言导航"
+  - "图像去损坏"
+  - "条件流匹配"
+  - "时序一致性"
+  - "具身智能"
+---
+
 # FlowDec: Temporal Conditional Flow Decorruptor for Robust Continuous Vision-Language Navigation
 
 **会议**: ECCV 2026  
@@ -115,3 +130,19 @@ FlowDec 的优化目标为条件流匹配损失：$\mathcal{L}_{\text{CFM}}(\the
 - 实验充分度: ⭐⭐⭐⭐⭐ 6 种损坏类型 x 2 个数据集 x 2 种 backbone + 消融（训练策略/起始点/阈值/步数）+ warp error + 推理延迟 + 干净图像对照 + 真实机器人部署，实验链路极其完整
 - 写作质量: ⭐⭐⭐⭐ 动机充分，方法描述清晰，消融分析有理有据；部分公式推导段落可精简，图表编号在正文中偶有跳跃（Table 6 被正文两处引用分别指代推理延迟和真机结果）
 - 价值: ⭐⭐⭐⭐ 对 VLN 系统的真实部署有直接工程价值，即插即用设计降低了集成门槛；方法对损坏类型的泛化边界（是否对所有未见损坏都有效）和动作空间变化的鲁棒性还需进一步验证
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] Spatio-Temporal Difference Guided Motion Deblurring with the Complementary Vision Sensor](../../CVPR2026/image_restoration/spatio-temporal_difference_guided_motion_deblurring_with_the_complementary_visio.md)
+- [\[CVPR 2026\] EVLF: Early Vision-Language Fusion for Generative Dataset Distillation](../../CVPR2026/image_restoration/evlf_early_vision-language_fusion_for_generative_dataset_distillation.md)
+- [\[ICML 2026\] Coevolutionary Continuous Discrete Diffusion: Make Your Diffusion Language Model a Latent Reasoner](../../ICML2026/image_restoration/coevolutionary_continuous_discrete_diffusion_make_your_diffusion_language_model_.md)
+- [\[CVPR 2026\] White-Balance First, Adjust Later: Cross-Camera Color Constancy via Vision-Language Evaluation](../../CVPR2026/image_restoration/white-balance_first_adjust_later_cross-camera_color_constancy_via_vision-languag.md)
+- [\[CVPR 2025\] Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks](../../CVPR2025/image_restoration/vision-language_gradient_descent-driven_all-in-one_deep_unfolding_networks.md)
+
+</div>
+
+<!-- RELATED:END -->

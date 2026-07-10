@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] PIAvatar: Physically Interactive Avatars via Deformation Gradient Decoupling
+description: >-
+  [ECCV 2026][人体理解][物理仿真] PIAvatar 提出基于 MPM 的物理可交互 3D 人体化身框架，通过将用户定义的 kinematic velocity 从变形梯度更新中显式解耦，消除运动驱动时产生的非预期内部应力，并嵌入骨骼结构以闭式优化实现形变后姿态的实时追踪，首次在统一 MPM 仿真框架内同时支持人-人、人-物的双向物理交互与非刚性表面形变。
+tags:
+  - "ECCV 2026"
+  - "人体理解"
+  - "物理仿真"
+  - "3D人体化身"
+  - "变形梯度解耦"
+  - "MPM"
+  - "骨骼姿态估计"
+---
+
 # PIAvatar: Physically Interactive Avatars via Deformation Gradient Decoupling
 
 **会议**: ECCV 2026  
@@ -174,3 +189,19 @@ PIAvatar 与标准 MPM baseline 在姿态跟随精度上的定量对比。实验
 - 实验充分度: ⭐⭐⭐⭐ 定量对比（baseline MPM 姿态跟随精度）、姿态追踪精度验证、运行时分析完备；定性展示覆盖人-物交互、人-人交互、非刚性形变、软组织、异构材质、多物体交互、松垮衣物等多个维度
 - 写作质量: ⭐⭐⭐⭐ 问题阐述清晰（Fig. 3 和 Fig. 11 直观说明寄生应力问题），方法逻辑链完整（问题 -> 解耦 -> 骨骼追踪 -> 工程完善），补充材料对实现细节（Kabsch 伪代码、速度计算伪代码、接触处理）交代充分
 - 价值: ⭐⭐⭐⭐ 解决了 3D 化身领域"有视觉无物理"的结构性缺口，对 AR/VR 中的物理化身交互、游戏物理仿真、数字人仿真等应用方向有直接推动，且方法零训练、可实时，工程落地门槛低
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICCV 2025\] NGD: Neural Gradient Based Deformation for Monocular Garment Reconstruction](../../ICCV2025/human_understanding/ngd_neural_gradient_based_deformation_for_monocular_garment_reconstruction.md)
+- [\[CVPR 2026\] DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation](../../CVPR2026/human_understanding/decovln_decoupling_observation_reasoning_and_correction_for_vision-and-language_.md)
+- [\[ICLR 2026\] KinemaDiff: Towards Diffusion for Coherent and Physically Plausible Human Motion Prediction](../../ICLR2026/human_understanding/kinemadiff_towards_diffusion_for_coherent_and_physically_plausible_human_motion_.md)
+- [\[CVPR 2026\] Miburi: Towards Expressive Interactive Gesture Synthesis](../../CVPR2026/human_understanding/miburi_towards_expressive_interactive_gesture_synthesis.md)
+- [\[CVPR 2026\] FlowPalm: Optical Flow Driven Non-Rigid Deformation for Geometrically Diverse Palmprint Generation](../../CVPR2026/human_understanding/flowpalm_optical_flow_driven_non-rigid_deformation_for_geometrically_diverse_pal.md)
+
+</div>
+
+<!-- RELATED:END -->

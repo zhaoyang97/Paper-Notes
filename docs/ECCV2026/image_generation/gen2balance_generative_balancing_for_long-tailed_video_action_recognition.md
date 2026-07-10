@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Gen2Balance: Generative Balancing for Long-Tailed Video Action Recognition
+description: >-
+  [ECCV 2026][图像生成][长尾学习] Gen2Balance 用文生视频模型（WAN 2.1）为长尾视频动作识别合成尾部类样本，通过 VLM（Gemini 2.5 Pro）驱动的三层提示管线（多样化 + Action Profile 消歧 + In-Context Exemplars 锚定）保证生成视频的多样性和语义正确性，再配合两阶段训练策略（合成+真实数据学特征，纯真实数据校准），在 K100-LT 和 UCF-LT 上分别超越最强长尾基线 7.0% 和 5.1%，在 RareAct 稀有动作上提升 31.9%。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "长尾学习"
+  - "视频动作识别"
+  - "生成式数据增强"
+  - "文生视频"
+  - "两阶段训练"
+---
+
 # Gen2Balance: Generative Balancing for Long-Tailed Video Action Recognition
 
 **会议**: ECCV 2026  
@@ -136,3 +151,19 @@ K100-LT 是由 Kinetics-400 中精选 100 个时序依赖类构造的长尾版�
 - 实验充分度: ⭐⭐⭐⭐⭐ 两个主基准 + 稀有动作外推 + 6 组消融（训练策略/生成管线/数据源/填充量 scaling/backbone 泛化/VLM 泛化/Web 重排序/测试集泄露检查/用户研究），覆盖全面且每项都有明确的因果结论
 - 写作质量: ⭐⭐⭐⭐⭐ 图 2 的"Robot Dancing 消歧过程"是最出彩的 Fig. 1 型图示——用一个贯穿全文的例子逐列展示每层管线的效果；方法部分公式精确、实验表格式清晰；supp 材料充实（用户研究界面、失败案例、prompt 全文均有附录）
 - 价值: ⭐⭐⭐⭐⭐ 开源 140K 合成视频数据集（覆盖 223 个类、三个基准），为后续视频长尾和生成增强研究提供了可直接使用的公共资源；部分平衡的性价比分析和"真实频率做 BSCE prior"的 trick 有直接的工业落地指导意义
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] CORAL: Disentangling Latent Representations in Long-Tailed Diffusion](../../NeurIPS2025/image_generation/coral_disentangling_latent_representations_in_longtailed_dif.md)
+- [\[ECCV 2024\] Idempotent Unsupervised Representation Learning for Skeleton-Based Action Recognition](../../ECCV2024/image_generation/idempotent_unsupervised_representation_learning_for_skeleton-based_action_recogn.md)
+- [\[ECCV 2026\] Advancing WordArt-Oriented Scene Text Recognition: Datasets and Methods](advancing_wordart-oriented_scene_text_recognition_datasets_and_methods.md)
+- [\[ICLR 2026\] Mirror Flow Matching with Heavy-Tailed Priors for Generative Modeling on Convex Domains](../../ICLR2026/image_generation/mirror_flow_matching_with_heavy-tailed_priors_for_generative_modeling_on_convex_.md)
+- [\[ECCV 2026\] DTI: Dynamic Trajectory Initialization for Generative Face Video Super-Resolution](dti_dynamic_trajectory_initialization_for_generative_face_video_super-resolution.md)
+
+</div>
+
+<!-- RELATED:END -->

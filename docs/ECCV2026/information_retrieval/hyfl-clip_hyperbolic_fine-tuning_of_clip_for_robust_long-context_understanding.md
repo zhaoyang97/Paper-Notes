@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] HyFL-CLIP: Hyperbolic Fine-Tuning of CLIP for Robust Long-Context Understanding
+description: >-
+  [ECCV 2026][信息检索/RAG][双曲空间微调] HyFL-CLIP 将预训练 CLIP 的欧氏图文对齐蒸馏到双曲空间（Lorentz 模型），通过爱因斯坦中点聚合建模"全局描述--局部成分"的层次蕴涵关系，使模型在长文本被扰动（重排、删除、丢词）时仍能稳定检索正确图像，在扰动词下比最强基线提升最高 19.5%。
+tags:
+  - "ECCV 2026"
+  - "信息检索/RAG"
+  - "双曲空间微调"
+  - "长上下文图文对齐"
+  - "CLIP微调"
+  - "层次蕴涵关系"
+  - "跨流形蒸馏"
+---
+
 # HyFL-CLIP: Hyperbolic Fine-Tuning of CLIP for Robust Long-Context Understanding
 
 **会议**: ECCV 2026  
@@ -140,3 +155,19 @@ CLIP 在短图文对上已经学到了很好的相似度结构，直接丢弃这
 - 实验充分度: ⭐⭐⭐⭐⭐ 四个任务场景、六种扰动类型、两种架构、两类消融、VQA 验证、SDXL 生成实验，且与 7+ 个同期基线全面对比，实验极其扎实
 - 写作质量: ⭐⭐⭐⭐ 核心动机和机制表述清晰，但部分公式推导衔接略跳（如爱因斯坦中点的 Klein 坐标转换对不熟悉微分几何的读者不够友好）
 - 价值: ⭐⭐⭐⭐⭐ 解决的问题（长文本鲁棒性）是 CLIP 实际部署中的真实痛点，提出的"锥包含代替点匹配"思路可能启发后续工作在更多场景中使用双曲几何
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] SuperCLIP: CLIP with Simple Classification Supervision](../../NeurIPS2025/information_retrieval/superclip_clip_with_simple_classification_supervision.md)
+- [\[ICML 2026\] ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs](../../ICML2026/information_retrieval/pariskv_fast_and_drift-robust_kv-cache_retrieval_for_long-context_llms.md)
+- [\[ICCV 2025\] External Knowledge Injection for CLIP-Based Class-Incremental Learning](../../ICCV2025/information_retrieval/external_knowledge_injection_for_clip-based_class-incremental_learning.md)
+- [\[ICLR 2026\] Supervised Fine-Tuning or Contrastive Learning? Towards Better Multimodal LLM Reranking](../../ICLR2026/information_retrieval/supervised_fine-tuning_or_contrastive_learning_towards_better_multimodal_llm_rer.md)
+- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/information_retrieval/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
+
+</div>
+
+<!-- RELATED:END -->

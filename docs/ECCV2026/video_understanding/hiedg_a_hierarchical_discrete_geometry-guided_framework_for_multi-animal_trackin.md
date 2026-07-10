@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] HieDG: A Hierarchical Discrete Geometry-Guided Framework for Multi-Animal Tracking
+description: >-
+  [ECCV 2026][视频理解][多动物追踪] HieDG 将多动物追踪中不稳定的连续几何信号（位置、尺度、速度）通过两级残差码本离散化为结构化 token，再与视觉特征融合注入 query-based 追踪器，在 AnimalTrack / BFT / BuckTales 三个动物追踪基准上取得 SOTA 关联性能（HOTA、AssA、IDF1 显著提升），并在 DanceTrack / SportsMOT 上验证了泛化性。
+tags:
+  - "ECCV 2026"
+  - "视频理解"
+  - "多动物追踪"
+  - "离散几何表示"
+  - "残差向量量化"
+  - "查询式多目标追踪"
+  - "身份关联"
+---
+
 # HieDG: A Hierarchical Discrete Geometry-Guided Framework for Multi-Animal Tracking
 
 **会议**: ECCV 2026  
@@ -142,3 +157,19 @@ BuckTales 无人机场景下 HieDG 同样最优（HOTA 52.4, AssA 64.0, IDF1 69.
 - 实验充分度: ⭐⭐⭐⭐⭐ 五个数据集（3 动物 + 2 通用）、多组消融（几何分量 / 量化策略 / 码本维度 / 匈牙利匹配 / 极坐标）、t-SNE 可视化、推理速度估计的专门设计，实验覆盖全面
 - 写作质量: ⭐⭐⭐⭐ 动机链清晰（外观不足 → 加几何 → 连续几何有害 → 离散化解决），HieDG* 对照实验让核心论点非常有说服力；部分段落略啰嗦
 - 价值: ⭐⭐⭐⭐ 为多动物追踪提供了有效的几何建模方案，连续几何有害的实证对领域有警示价值；离散几何表示的思路可迁移到其他跟踪任务（行人、车辆、细胞追踪）
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking](../../CVPR2026/video_understanding/spiketrack_a_spike-driven_framework_for_efficient_visual_tracking.md)
+- [\[CVPR 2026\] An Efficient Token Compression Framework for Visual Object Tracking](../../CVPR2026/video_understanding/an_efficient_token_compression_framework_for_visual_object_tracking.md)
+- [\[CVPR 2026\] EthoCLIP: Ontology-Enhanced Video-Language Pretraining for Animal Behavior Understanding](../../CVPR2026/video_understanding/ethoclip_ontology-enhanced_video-language_pretraining_for_animal_behavior_unders.md)
+- [\[CVPR 2026\] UETrack: A Unified and Efficient Framework for Single Object Tracking](../../CVPR2026/video_understanding/uetrack_a_unified_and_efficient_framework_for_single_object_tracking.md)
+- [\[CVPR 2026\] Real-World Point Tracking with Verifier-Guided Pseudo-Labeling](../../CVPR2026/video_understanding/realworld_point_tracking_with_verifierguided_pseud.md)
+
+</div>
+
+<!-- RELATED:END -->

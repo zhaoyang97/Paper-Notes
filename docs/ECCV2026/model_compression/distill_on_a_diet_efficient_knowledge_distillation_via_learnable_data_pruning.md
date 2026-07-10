@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Distill on a Diet: Efficient Knowledge Distillation via Learnable Data Pruning
+description: >-
+  [ECCV 2026][模型压缩][知识蒸馏] 本文提出 IF-Beta 框架, 用影响力函数(IF)作为无需重训的样本重要性评分器, 配合可学习的 Beta 分布采样策略, 通过特征空间双层优化高效搜索最优剪枝子集, 使学生在更少数据和算力下超越全量数据蒸馏的性能. 领域现状： 知识蒸馏(KD)是模型压缩的主流手段…
+tags:
+  - "ECCV 2026"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "数据剪枝"
+  - "影响力函数"
+  - "Beta 分布"
+  - "双层优化"
+---
+
 # Distill on a Diet: Efficient Knowledge Distillation via Learnable Data Pruning
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.25488](https://arxiv.org/abs/2606.25488)  
-**代码**: https://github.com/yifanwu-victor/Distill-on-a-Diet (有)  
+**代码**: [https://github.com/yifanwu-victor/Distill-on-a-Diet](https://github.com/yifanwu-victor/Distill-on-a-Diet) (有)  
 **领域**: 模型压缩  
 **关键词**: 知识蒸馏, 数据剪枝, 影响力函数, Beta 分布, 双层优化
 
@@ -156,3 +171,19 @@ IF-Beta 在所有剪枝比和数据集上均为最优. 最引人注目的是, CI
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖 CIFAR-10/100 和 ImageNet, 多种剪枝比(10%-90%)、多种师生架构(同构和异构)、多种 KD loss, 含充分消融和效率分析, 非 KD 场景也做了完整验证
 - 写作质量: ⭐⭐⭐⭐ 结构清晰, 动机链条完整(从痛点→核心矛盾→本文方案), 方法描述公式与直觉并重, 关键图表(IF 相关性验证、启发式策略局限性分析)有效支撑论点
 - 价值: ⭐⭐⭐⭐⭐ 为 KD 效率研究开辟了"数据策展"这一新维度, IF-FVM 评分 + Beta Policy 的配方可迁移到主动学习、课程学习等场景, 实验有力地证明"数据质量可能重于算法设计"
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[AAAI 2026\] Condensed Data Expansion Using Model Inversion for Knowledge Distillation](../../AAAI2026/model_compression/condensed_data_expansion_using_model_inversion_for_knowledge_distillation.md)
+- [\[ICLR 2026\] Pedagogically-Inspired Data Synthesis for Language Model Knowledge Distillation](../../ICLR2026/model_compression/pedagogically-inspired_data_synthesis_for_language_model_knowledge_distillation.md)
+- [\[ICLR 2026\] Knowledge Distillation as Decontamination? Revisiting the "Data Laundering" Concern in Classification Tasks](../../ICLR2026/model_compression/knowledge_distillation_as_decontamination_revisiting_the_data_laundering_concern.md)
+- [\[CVPR 2026\] LoPrune: Efficient Data Pruning for LoRA-Based Fine-Tuning of Vision Transformer](../../CVPR2026/model_compression/loprune_efficient_data_pruning_for_lora-based_fine-tuning_of_vision_transformer.md)
+- [\[NeurIPS 2025\] PPG-Distill: Efficient Photoplethysmography Signals Analysis via Foundation Model Distillation](../../NeurIPS2025/model_compression/ppg-distill_efficient_photoplethysmography_signals_analysis_via_foundation_model.md)
+
+</div>
+
+<!-- RELATED:END -->

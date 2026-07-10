@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] MemLearner: Learning to Query Context Memory for Video World Models
+description: >-
+  [ECCV 2026][视频生成][视频世界模型] MemLearner 提出一种基于可学习查询令牌（Q tokens）的自适应上下文记忆机制，让视频世界模型在生成长视频时能端到端地学会"从历史帧里查什么信息有用"，而非依赖人工规则检索关键帧。Q tokens 作为 C（context）和 P（predicted）之间的信息桥，在预训练 Video DiT 内部通过 3D 注意力完成上下文查询，配合浅层查询+深层生成的分层策略和注意力裁剪大幅降低计算开销；在遮挡和动态物体场景下，PSNR 比 CaM 提升 1.38 dB，LPIPS 降低 0.057。
+tags:
+  - "ECCV 2026"
+  - "视频生成"
+  - "视频世界模型"
+  - "上下文记忆"
+  - "可学习查询令牌"
+  - "Transformer"
+  - "长视频生成"
+---
+
 # MemLearner: Learning to Query Context Memory for Video World Models
 
 **会议**: ECCV 2026  
@@ -142,3 +157,19 @@ Query Layers 从 1 增加到 5 时性能快速提升，5 之后趋于饱和但 f
 - 实验充分度: ⭐⭐⭐⭐⭐ 主表、多数据集消融、架构消融（注意力模式/Query Layer 数量/相机嵌入/Q 初始化）、跨模型泛化（Wan2.1）、跨数据集评估（自收集/CaM/SpatialVid/Epic-Kitchens）、用户研究、VBench 质量评估，覆盖面广且无关键遗漏
 - 写作质量: ⭐⭐⭐⭐ 核心动机（遮挡+动态物体的规则失效）清晰，方法部分层次分明，失败设计（独立模块）的分析增强了论证力；附录中注意力可视化和伪代码对复现有帮助
 - 价值: ⭐⭐⭐⭐ 视频世界模型的记忆问题是一个有实际需求的方向，本文提出的"在预训练模型内部做查询"范式和数据集/训练策略为后续工作提供了明确基线和工程指导
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ECCV 2026\] Learning Transferable Dynamics Priors from Action to World Modeling](learning_transferable_dynamics_priors_from_action_to_world_modeling.md)
+- [\[ICCV 2025\] Long-Context State-Space Video World Models](../../ICCV2025/video_generation/long-context_state-space_video_world_models.md)
+- [\[ICLR 2026\] EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning](../../ICLR2026/video_generation/editverse_unifying_image_and_video_editing_and_generation_with_in-context_learni.md)
+- [\[ECCV 2026\] CustomX: Unified Character, Action, and Scene Customization in Video World Models](customx_unified_character_action_and_scene_customization_in_video_world_models.md)
+- [\[CVPR 2026\] Captain Safari: A World Engine with Pose-Aligned 3D Memory](../../CVPR2026/video_generation/captain_safari_a_world_engine_with_pose-aligned_3d_memory.md)
+
+</div>
+
+<!-- RELATED:END -->

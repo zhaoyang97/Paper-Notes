@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] In-context Region-based Drag: Drag Any Region to Any Shape
+description: >-
+  [ECCV 2026][图像生成][区域拖拽编辑] ICRDrag 将区域拖拽（region-based drag）建模为上下文学习（in-context learning）任务，以源图像、源区域掩码、目标区域掩码作为统一条件输入 DiT，通过图像-掩码注意力一致性（IMAC）和源-目标注意力对应性（STAC）两个新颖的正则化损失引导生成目标图像，并配套构建了 28.7 万样本的 Paired Region Dataset（PRD），在编辑精度、视觉保真度和用户偏好上显著超越已有方法。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "区域拖拽编辑"
+  - "上下文学习"
+  - "注意力正则化"
+  - "Transformer"
+  - "课程学习"
+---
+
 # In-context Region-based Drag: Drag Any Region to Any Shape
 
 **会议**: ECCV 2026  
 **arXiv**: [2606.25907](https://arxiv.org/abs/2606.25907)  
-**代码**: https://github.com/bcmi/ICRDrag-Region-Drag-Editing  
+**代码**: [https://github.com/bcmi/ICRDrag-Region-Drag-Editing](https://github.com/bcmi/ICRDrag-Region-Drag-Editing)  
 **领域**: 图像生成 / 扩散模型  
 **关键词**: 区域拖拽编辑, 上下文学习, 注意力正则化, 扩散Transformer, 课程学习
 
@@ -153,3 +168,19 @@ ICRDrag 以压倒性优势胜出：真实感是第二名的 1.6 倍，保真度�
 - 实验充分度: ⭐⭐⭐⭐ 在 PRD benchmark 和 DragBench 上做了全面的定量/定性/用户研究对比，覆盖了点拖拽和区域拖拽两大类基线，还有困难案例分析和跨数据集迁移测试；但消融实验的完整定量数据留在了补充材料中，主文中仅有定性展示。
 - 写作质量: ⭐⭐⭐⭐ 问题定义清晰（第 3 节专门定义符号和任务），方法逐层展开（框架→IMAC→STAC→课程训练），图表充分（Figure 2 三子图覆盖框架/IMAC/STAC）；但 PRD 数据集构建的细节穿插在方法和实验之间，阅读时略有跳跃感。
 - 价值: ⭐⭐⭐⭐ 为区域拖拽建立了新的性能标杆（全面超越 RegionDrag 和所有点拖拽方法），28.7 万样本的 PRD 数据集对社区有独立贡献，IMAC/STAC 的注意力正则化思想具有跨任务迁移潜力；实际应用受限于用户需要提供区域掩码的额外成本。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] DragFlow: Unleashing DiT Priors with Region Based Supervision for Drag Editing](../../ICLR2026/image_generation/dragflow_unleashing_dit_priors_with_region_based_supervision_for_drag_editing.md)
+- [\[ICLR 2026\] Follow-Your-Shape: Shape-Aware Image Editing via Trajectory-Guided Region Control](../../ICLR2026/image_generation/follow-your-shape_shape-aware_image_editing_via_trajectory-guided_region_control.md)
+- [\[CVPR 2026\] Region-Adaptive Sampling for Diffusion Transformers](../../CVPR2026/image_generation/region-adaptive_sampling_for_diffusion_transformers.md)
+- [\[CVPR 2026\] SpotEdit: Selective Region Editing in Diffusion Transformers](../../CVPR2026/image_generation/spotedit_selective_region_editing_in_diffusion_transformers.md)
+- [\[ECCV 2024\] ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs](../../ECCV2024/image_generation/ziplora_any_subject_in_any_style_by_effectively_merging_loras.md)
+
+</div>
+
+<!-- RELATED:END -->

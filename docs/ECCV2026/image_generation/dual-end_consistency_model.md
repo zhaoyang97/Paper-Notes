@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Dual-End Consistency Model
+description: >-
+  [ECCV 2026][图像生成][一致性模型] DE-CM 通过从 PF-ODE 整条轨迹中挑选三条关键子轨迹（一致性轨迹 + 瞬时速度轨迹 + 噪声到噪声轨迹）作为优化目标，用流匹配做边界正则化稳定训练，用 N2N 映射缓解误差累积，在 ImageNet 256 上以一步生成达到 FID 1.70 的 SOTA 水平。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "一致性模型"
+  - "扩散蒸馏"
+  - "少步生成"
+  - "流匹配"
+  - "PF-ODE"
+---
+
 # Dual-End Consistency Model
 
 **会议**: ECCV 2026  
@@ -79,9 +94,9 @@ N2N 映射的核心思想是将左端点从 t 换为 r→0（即纯噪声 x_0）
 2. 构造加噪样本：z_t = (1−t)·z + t·z_ref；z_r = (1−r)·z + r·z_ref
 3. 教师模型计算 CFG 速度：v_t^cond = F_tea(z_t, t; y_ref)，v_t^uncond = F_tea(z_t, t; ∅)，v_t = v_t^uncond + 1.75·(v_t^cond − v_t^uncond)（经速度归一化）；同理计算 v_r
 4. **三个损失并行计算**：
-   - CD 损失：`L_cm = ‖F_θ(z_t, t, 1; y_ref) − v_cm^tar‖²`，其中 v_cm^tar 是 v_φ 和 F_θ⁻ 的加权组合
-   - FM 损失：`L_fm = ‖F_θ(z_t, t, t; y_ref) − v_t‖² + L_cos(F_θ, v_t)`
-   - N2N 损失：通过 JVP 计算 F_θ(x_r, r, t; y_ref) 的时变导数 Ḟ_θ⁻，构造 g_n2n 和 v_n2n^tar，`L_n2n = ‖F_n2n − v_n2n^tar‖²`
+    - CD 损失：`L_cm = ‖F_θ(z_t, t, 1; y_ref) − v_cm^tar‖²`，其中 v_cm^tar 是 v_φ 和 F_θ⁻ 的加权组合
+    - FM 损失：`L_fm = ‖F_θ(z_t, t, t; y_ref) − v_t‖² + L_cos(F_θ, v_t)`
+    - N2N 损失：通过 JVP 计算 F_θ(x_r, r, t; y_ref) 的时变导数 Ḟ_θ⁻，构造 g_n2n 和 v_n2n^tar，`L_n2n = ‖F_n2n − v_n2n^tar‖²`
 5. 总损失 L = L_cm + L_fm + L_n2n，更新在线模型 F_θ 和 EMA 模型 F_ema
 
 ### 损失函数 / 训练策略
@@ -164,3 +179,19 @@ T2I 方面，DE-CM 在所有 NFE 设定下 BLIP 得分均为最优，1 NFE 下 I
 - 实验充分度: ⭐⭐⭐⭐⭐ C2I + T2I 双任务验证，表 1/2/4 + 附录 4 个消融表覆盖消融/超参/设计选择/GAN 结合，效率对比（图 5b/8）、定性对比（图 6/7/9）、附录大量可视化，消融结论干净有力，各组件职责分明。
 - 写作质量: ⭐⭐⭐⭐☆ 核心贡献和动机分析清晰，公式推导完整（正文 + 附录 0.A），算法伪代码可复现。但 Sec 4.2 N2N 推导部分公式密度较高，部分符号切换（v_φ vs v_ψ vs v_tea）可能造成读者困惑。
 - 价值: ⭐⭐⭐⭐⭐ 1.70 FID@1 NFE 是 CMs 蒸馏路线上新的 SOTA，方法核心直觉（选轨迹做减法 + FM 当边界条件）简洁可迁移，适用面广（C2I/T2I 均已验证），对少步生成模型部署有实际推动价值。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[NeurIPS 2025\] Riemannian Consistency Model](../../NeurIPS2025/image_generation/riemannian_consistency_model.md)
+- [\[CVPR 2025\] See Further When Clear: Curriculum Consistency Model](../../CVPR2025/image_generation/see_further_when_clear_curriculum_consistency_model.md)
+- [\[ECCV 2026\] UniTranslator: A Unified Multi-modal Framework for End-to-end In-Image Machine Translation](unitranslator_a_unified_multi-modal_framework_for_end-to-end_in-image_machine_tr.md)
+- [\[CVPR 2026\] SpeeDiff: Scalable Pixel-Anchored End-to-End Latent Diffusion Model](../../CVPR2026/image_generation/speediff_scalable_pixel-anchored_end-to-end_latent_diffusion_model.md)
+- [\[ECCV 2026\] MIMFlow: Integrating Masked Image Modeling with Normalizing Flows for End-to-End Image Generation](mimflow_integrating_masked_image_modeling_with_normalizing_flows_for_end-to-end_.md)
+
+</div>
+
+<!-- RELATED:END -->

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] NavWM: A Unified Navigation World Model for Foresight-Driven Planning
+description: >-
+  [ECCV 2026][机器人][世界模型] NavWM 提出一个统一导航世界模型，在共享的双向 Mamba 主干上联合学习潜在世界推理（深度/语义场景抽象）、锚点式多模态轨迹预测和 Flow Matching 条件视觉生成，使得世界模型本身能充当"视觉预见"闭环规划器——对每条候选轨迹模拟未来观测并选出最优路径——在五个机器人数据集上离线生成质量（PSNR 14.17→17.34）和零样本导航成功率（44%）均达到 SOTA。
+tags:
+  - "ECCV 2026"
+  - "机器人"
+  - "世界模型"
+  - "视觉导航"
+  - "多模态轨迹预测"
+  - "视觉预见规划"
+  - "潜在世界推理"
+---
+
 # NavWM: A Unified Navigation World Model for Foresight-Driven Planning
 
 **会议**: ECCV 2026  
@@ -151,3 +166,19 @@ Flow Matching 相较于 DDPM 的优势在于采样轨迹更直、推理步数更
 - 实验充分度: ⭐⭐⭐⭐⭐ 五个数据集、离线+在线双评测维度、模块级消融、多模态方法横向对比、候选数敏感度分析、零样本泛化测试——实验链条完整且结论有力
 - 写作质量: ⭐⭐⭐⭐ 动机链条清晰（三痛点→三设计→三协同），方法部分公式与文字配合得当，但 1.5B 参数量的训练细节（如第二阶段冻结哪些层）交代略显简略
 - 价值: ⭐⭐⭐⭐ 为视觉导航世界模型建立了"统一主干 + 结构化先验 + 多模态动作 + 视觉预见规划"的完整范式，多模态轨迹的规划增益分析（Table 4）对相关领域有直接参考价值
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[CVPR 2026\] NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction](../../CVPR2026/robotics/navforesee_a_unified_vision-language_world_model_for_hierarchical_planning_and_d.md)
+- [\[ECCV 2026\] Pondering the Way: Spatial-perceiving World Action Model for Embodied Navigation](pondering_the_way_spatial-perceiving_world_action_model_for_embodied_navigation.md)
+- [\[CVPR 2026\] Motus: A Unified Latent Action World Model](../../CVPR2026/robotics/motus_a_unified_latent_action_world_model.md)
+- [\[CVPR 2026\] ForeAct: Steering Your VLA with Efficient Visual Foresight Planning](../../CVPR2026/robotics/foreact_steering_your_vla_with_efficient_visual_foresight_planning.md)
+- [\[ICLR 2026\] Sparse Imagination for Efficient Visual World Model Planning](../../ICLR2026/robotics/sparse_imagination_for_efficient_visual_world_model_planning.md)
+
+</div>
+
+<!-- RELATED:END -->

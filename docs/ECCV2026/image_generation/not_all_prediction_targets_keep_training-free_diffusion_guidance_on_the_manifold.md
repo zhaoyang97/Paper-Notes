@@ -1,8 +1,23 @@
+---
+title: >-
+  [论文解读] Not All Prediction Targets Keep Training-Free Diffusion Guidance on the Manifold
+description: >-
+  [ECCV 2026][图像生成][训练免引导] 本文从理论上证明扩散模型的预测目标（$\epsilon$-prediction / $v$-prediction / $x$-prediction）在训练免引导（training-free guidance）下形成严格的误差放大层级，$\epsilon$-prediction 因恢复公式中 $1/t$ 因子在高噪声步发散而导致样本脱离数据流形，而 $x$-prediction 直接输出干净图像、无误差放大；实验通过 crossed-lines 控制消融、143 种鸟类细粒度基准和风格迁移三个维度验证了该层级，并引入 Child FID 作为流形感知评估指标。
+tags:
+  - "ECCV 2026"
+  - "图像生成"
+  - "训练免引导"
+  - "预测目标"
+  - "扩散模型"
+  - "流匹配"
+  - "流形保持"
+---
+
 # Not All Prediction Targets Keep Training-Free Diffusion Guidance on the Manifold
 
 **会议**: ECCV 2026  
 **arXiv**: [2607.00647](https://arxiv.org/abs/2607.00647)  
-**代码**: https://github.com/ManLuML/on-manifold-tfg  
+**代码**: [https://github.com/ManLuML/on-manifold-tfg](https://github.com/ManLuML/on-manifold-tfg)  
 **领域**: 扩散模型  
 **关键词**: 训练免引导, 预测目标, 扩散模型, 流匹配, 流形保持
 
@@ -156,3 +171,19 @@ Remark 1 从 Score 分解角度进一步解释了这一现象：Score $\nabla_{z
 - **风格迁移完整数据**：Table 7 覆盖 DiT/SiT/PixelFlow/JiT-B/L/H 六模型，Gram Distance 和 Content Accuracy，$\rho$ 范围 0 到 50。
 - **逆问题完整数据**：Table 8（高斯去模糊）和 Table 9（4x 超分）覆盖六模型的 LPIPS/PSNR/SSIM 全扫描。
 - **文献评估习惯调查**：附录 0.D 三张表汇总 17 篇 TFG 方法论文在 FID 样本量、流形感知指标、引导强度扫描三轴上的完整对比。
+
+<!-- RELATED:START -->
+
+<div class="related-papers" markdown="1">
+
+## 相关论文
+
+- [\[ICLR 2026\] Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models](../../ICLR2026/image_generation/stochastic_self-guidance_for_training-free_enhancement_of_diffusion_models.md)
+- [\[CVPR 2025\] Not All Parameters Matter: Masking Diffusion Models for Enhancing Generation Ability](../../CVPR2025/image_generation/not_all_parameters_matter_masking_diffusion_models_for_enhancing_generation_abil.md)
+- [\[ECCV 2026\] ISAC: Training-Free Instance-to-Semantic Attention Control for Multi-Instance Generation](isac_training_free_instance_to_semantic_attention.md)
+- [\[CVPR 2026\] Not All Birds Look The Same: Identity-Preserving Generation For Birds](../../CVPR2026/image_generation/not_all_birds_look_the_same_identity-preserving_generation_for_birds.md)
+- [\[CVPR 2025\] Derivative-Free Diffusion Manifold-Constrained Gradient for Unified XAI](../../CVPR2025/image_generation/derivative-free_diffusion_manifold-constrained_gradient_for_unified_xai.md)
+
+</div>
+
+<!-- RELATED:END -->
