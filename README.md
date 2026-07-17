@@ -1,8 +1,8 @@
 # 📚 AI Paper Notes
 <!-- [![Stars](https://img.shields.io/github/stars/zhaoyang97/Paper-Notes?style=social)](https://github.com/zhaoyang97/Paper-Notes/stargazers)
-[![Notes](https://img.shields.io/badge/笔记-13%2C628%20篇-blue)](https://zhaoyang97.github.io/Paper-Notes/)
+[![Notes](https://img.shields.io/badge/笔记-13%2C628%20篇-blue)](https://papernotes.org/)
 [![Conferences](https://img.shields.io/badge/学术会议-9%20个-orange)](#-会议覆盖)
-[![Site](https://img.shields.io/badge/在线阅读-Paper--Notes-brightgreen)](https://zhaoyang97.github.io/Paper-Notes/)
+[![Site](https://img.shields.io/badge/在线阅读-Paper--Notes-brightgreen)](https://papernotes.org/)
 [![Last Commit](https://img.shields.io/github/last-commit/zhaoyang97/Paper-Notes?label=最近更新)](https://github.com/zhaoyang97/Paper-Notes/commits) -->
 
 **5分钟读懂一篇顶会论文，一个仓库读懂最新 AI 进展。**

@@ -34,6 +34,18 @@ jobs:
       - run: mkdocs build
       - name: Optimize search index for mobile
         run: python scripts/trim_search_index.py
+      - name: Verify canonical deployment
+        run: |
+          test "$(tr -d '\r\n' < site/CNAME)" = "papernotes.org"
+          grep -Fq '<link rel="canonical" href="https://papernotes.org/">' site/index.html
+          grep -Fq 'Sitemap: https://papernotes.org/sitemap.xml' site/robots.txt
+          grep -Fq '<loc>https://papernotes.org/</loc>' site/sitemap.xml
+          grep -Fq 'data-site-url="https://papernotes.org/"' site/index.html
+          grep -Fq 'window.location.hostname !== canonicalHost' site/index.html
+          if grep -R -Fq --include='*.html' 'zhaoyang97.github.io/Paper-Notes' site; then
+            echo "Legacy GitHub Pages URL found in generated site"
+            exit 1
+          fi
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site

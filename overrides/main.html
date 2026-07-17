@@ -20,10 +20,24 @@
 {% endif %}
 
 {# Cloudflare Web Analytics — cookieless, no consent banner needed.
-   Token set in mkdocs.yml extra.cloudflare_analytics_token; empty = no script. #}
+   Load only on the canonical host so legacy GitHub Pages copies and previews
+   cannot contaminate production analytics. #}
 {% if config.extra.cloudflare_analytics_token %}
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"token": "{{ config.extra.cloudflare_analytics_token }}"}'></script>
+<script data-site-url="{{ config.site_url | e }}"
+        data-analytics-token="{{ config.extra.cloudflare_analytics_token | e }}">
+(function() {
+  var analyticsConfig = document.currentScript.dataset;
+  var canonicalHost = new URL(analyticsConfig.siteUrl).hostname;
+  if (window.location.hostname !== canonicalHost) return;
+
+  var beacon = document.createElement('script');
+  beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+  beacon.dataset.cfBeacon = JSON.stringify({
+    token: analyticsConfig.analyticsToken
+  });
+  document.head.appendChild(beacon);
+})();
+</script>
 {% endif %}
 
 {% if page and page.url == 'search/' %}
