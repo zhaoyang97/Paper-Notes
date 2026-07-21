@@ -36,7 +36,8 @@
       },
       failed: "搜索索引加载失败，请稍后重试。",
       prev: "上一页",
-      next: "下一页"
+      next: "下一页",
+      allConferences: "全部会议"
     },
     en: {
       placeholder: "Search paper notes…",
@@ -53,13 +54,15 @@
       },
       failed: "Failed to load the search index. Please try again later.",
       prev: "Previous",
-      next: "Next"
+      next: "Next",
+      allConferences: "All conferences"
     }
   }[LANG];
 
   var PAGE_SIZE = 50;
   var MAX_PAGE_LINKS = 7;
   var docsCache = null; // pre-tokenised docs, built once per page load
+  var conferenceNames = [];
   var building = false;
   var waiters = [];
 
@@ -126,6 +129,122 @@
     });
   }
 
+  function prettyConference(conference) {
+    return conference.replace(/(\D)(\d{4})$/, "$1 $2");
+  }
+
+  function conferenceParts(conference) {
+    var match = /^(.*?)(\d{4})$/.exec(conference);
+    return {
+      name: match ? match[1] : conference,
+      year: match ? parseInt(match[2], 10) : 0
+    };
+  }
+
+  function siteConferenceOrder() {
+    // Homepage cards and primary navigation share the same generated order.
+    var links = document.querySelectorAll(".md-sidebar--primary a[href]");
+    var siteBase = base();
+    var seen = Object.create(null);
+    var order = [];
+    for (var i = 0; i < links.length; i++) {
+      try {
+        var pathname = new URL(links[i].href, location.href).pathname;
+        if (pathname.indexOf(siteBase) !== 0) continue;
+        var conference = pathname.slice(siteBase.length).replace(/\/+$/, "");
+        if (!/^[a-z]+\d{4}$/i.test(conference) || seen[conference]) continue;
+        seen[conference] = true;
+        order.push(conference);
+      } catch (e) {}
+    }
+    return order;
+  }
+
+  function conferenceInputs(filter) {
+    return filter.querySelectorAll("input[data-conference]");
+  }
+
+  function selectedConferences(filter) {
+    var inputs = conferenceInputs(filter);
+    var selected = [];
+    for (var i = 0; i < inputs.length; i++) {
+      if (inputs[i].checked) selected.push(inputs[i].getAttribute("data-conference"));
+    }
+    return selected;
+  }
+
+  function syncAllConferences(filter) {
+    var all = filter.querySelector("#pn-search-all-conferences");
+    var inputs = conferenceInputs(filter);
+    var checked = 0;
+    for (var i = 0; i < inputs.length; i++) {
+      if (inputs[i].checked) checked++;
+    }
+    all.checked = checked === inputs.length;
+    all.indeterminate = checked > 0 && checked < inputs.length;
+  }
+
+  function applyConferenceSelection(filter, selected) {
+    var wanted = null;
+    if (selected !== null) {
+      wanted = Object.create(null);
+      for (var i = 0; i < selected.length; i++) wanted[selected[i]] = true;
+    }
+    var inputs = conferenceInputs(filter);
+    for (var j = 0; j < inputs.length; j++) {
+      inputs[j].checked = wanted === null || !!wanted[inputs[j].getAttribute("data-conference")];
+    }
+    syncAllConferences(filter);
+    return selectedConferences(filter);
+  }
+
+  function appendConferenceOption(container, conference, labelText, isAll) {
+    var label = document.createElement("label");
+    label.className = "pn-conference-option" + (isAll ? " pn-conference-all" : "");
+    var input = document.createElement("input");
+    input.type = "checkbox";
+    if (isAll) input.id = "pn-search-all-conferences";
+    else input.setAttribute("data-conference", conference);
+    var text = document.createElement("span");
+    text.textContent = labelText;
+    label.appendChild(input);
+    label.appendChild(text);
+    container.appendChild(label);
+  }
+
+  function populateConferences(filter, selected) {
+    var seen = Object.create(null);
+    var conferences = [];
+    for (var i = 0; i < docsCache.length; i++) {
+      var conference = docsCache[i].venue;
+      if (!seen[conference]) {
+        seen[conference] = true;
+        conferences.push(conference);
+      }
+    }
+    var siteOrder = siteConferenceOrder();
+    conferences.sort(function (a, b) {
+      var ai = siteOrder.indexOf(a);
+      var bi = siteOrder.indexOf(b);
+      if (ai !== bi) {
+        return (ai < 0 ? siteOrder.length : ai) - (bi < 0 ? siteOrder.length : bi);
+      }
+      var ap = conferenceParts(a);
+      var bp = conferenceParts(b);
+      return ap.name.localeCompare(bp.name) || bp.year - ap.year || a.localeCompare(b);
+    });
+
+    conferenceNames = conferences;
+    var container = filter.querySelector("#pn-search-conferences");
+    container.innerHTML = "";
+    appendConferenceOption(container, "", T.allConferences, true);
+    for (var j = 0; j < conferences.length; j++) {
+      appendConferenceOption(container, conferences[j], prettyConference(conferences[j]), false);
+    }
+    filter.disabled = false;
+    return applyConferenceSelection(filter, selected);
+  }
+
   function buildDocs(raw) {
     var docs = [];
     for (var i = 0; i < raw.length; i++) {
@@ -186,7 +305,7 @@
     }
   }
 
-  function runSearch(q) {
+  function runSearch(q, conferences) {
     var qn = q.toLowerCase().replace(/\s+/g, " ").trim();
     var qToks = [];
     var seen = Object.create(null);
@@ -198,9 +317,15 @@
       }
     }
     if (!qToks.length) return [];
+    var conferenceSet = null;
+    if (conferences !== null) {
+      conferenceSet = Object.create(null);
+      for (var c = 0; c < conferences.length; c++) conferenceSet[conferences[c]] = true;
+    }
     var hits = [];
     for (var d = 0; d < docsCache.length; d++) {
       var doc = docsCache[d];
+      if (conferenceSet && !conferenceSet[doc.venue]) continue;
       var s = 0,
         matched = 0;
       for (var k = 0; k < qToks.length; k++) {
@@ -323,17 +448,33 @@
     return p > 0 ? p : 1;
   }
 
-  function searchUrl(q, page) {
-    var nq = (q || "").trim();
-    if (!nq) return base() + "search/";
-    var url = base() + "search/?q=" + encodeURIComponent(nq);
-    if (page && page > 1) url += "&page=" + page;
-    return url;
+  function getConferences() {
+    var m = /[?&]conference=([^&]*)/.exec(location.search);
+    if (!m) return null;
+    try {
+      var value = decodeURIComponent(m[1].replace(/\+/g, " "));
+      return value === "none" ? [] : value.split(",").filter(Boolean);
+    } catch (e) {
+      return null;
+    }
   }
 
-  function replaceSearchUrl(q, page) {
+  function searchUrl(q, page, conferences) {
+    var nq = (q || "").trim();
+    var params = [];
+    if (nq) params.push("q=" + encodeURIComponent(nq));
+    if (conferences !== null && conferences.length !== conferenceNames.length) {
+      params.push(
+        "conference=" + encodeURIComponent(conferences.length ? conferences.join(",") : "none")
+      );
+    }
+    if (nq && page && page > 1) params.push("page=" + page);
+    return base() + "search/" + (params.length ? "?" + params.join("&") : "");
+  }
+
+  function replaceSearchUrl(q, page, conferences) {
     try {
-      history.replaceState(null, "", searchUrl(q, page));
+      history.replaceState(null, "", searchUrl(q, page, conferences));
     } catch (e) {}
   }
 
@@ -349,11 +490,7 @@
     return pager;
   }
 
-  function pageHref(q, page) {
-    return searchUrl(q, page).replace(/&/g, "&amp;");
-  }
-
-  function pageAnchor(q, page, label, className) {
+  function pageAnchor(q, conferences, page, label, className) {
     return (
       '<button type="button" class="pn-page ' +
       className +
@@ -361,13 +498,15 @@
       page +
       '" data-query="' +
       encodeURIComponent(q) +
+      '" data-conferences="' +
+      encodeURIComponent((conferences || []).join(",")) +
       '">' +
       esc(label) +
       "</button>"
     );
   }
 
-  function renderPager(pager, q, page, totalPages) {
+  function renderPager(pager, q, conferences, page, totalPages) {
     if (!pager) return;
     if (!q || totalPages <= 1) {
       pager.innerHTML = "";
@@ -382,11 +521,11 @@
     var html = "";
     html +=
       page > 1
-        ? pageAnchor(q, page - 1, T.prev, "pn-prev")
+        ? pageAnchor(q, conferences, page - 1, T.prev, "pn-prev")
         : '<span class="pn-page pn-prev pn-disabled">' + esc(T.prev) + "</span>";
 
     if (start > 1) {
-      html += pageAnchor(q, 1, "1", "pn-number");
+      html += pageAnchor(q, conferences, 1, "1", "pn-number");
       if (start > 2) html += '<span class="pn-page pn-ellipsis">…</span>';
     }
 
@@ -394,46 +533,47 @@
       html +=
         p === page
           ? '<span class="pn-page pn-number pn-current" aria-current="page">' + p + "</span>"
-          : pageAnchor(q, p, String(p), "pn-number");
+          : pageAnchor(q, conferences, p, String(p), "pn-number");
     }
 
     if (end < totalPages) {
       if (end < totalPages - 1) html += '<span class="pn-page pn-ellipsis">…</span>';
-      html += pageAnchor(q, totalPages, String(totalPages), "pn-number");
+      html += pageAnchor(q, conferences, totalPages, String(totalPages), "pn-number");
     }
 
     html +=
       page < totalPages
-        ? pageAnchor(q, page + 1, T.next, "pn-next")
+        ? pageAnchor(q, conferences, page + 1, T.next, "pn-next")
         : '<span class="pn-page pn-next pn-disabled">' + esc(T.next) + "</span>";
 
     pager.innerHTML = html;
   }
 
-  function render(status, list, pager, q, page) {
+  function render(status, list, pager, q, page, conferences) {
     q = (q || "").trim();
     if (!q) {
       status.textContent = T.empty;
       list.innerHTML = "";
-      renderPager(pager, q, 1, 0);
+      renderPager(pager, q, conferences, 1, 0);
       return;
     }
     status.textContent = T.loading;
     list.innerHTML = "";
-    renderPager(pager, q, 1, 0);
+    renderPager(pager, q, conferences, 1, 0);
     ensureIndex(function (err) {
       if (err) {
         status.textContent = T.failed;
         return;
       }
-      var hits = runSearch(q);
+      var hits = runSearch(q, conferences);
       if (!hits.length) {
+        replaceSearchUrl(q, 1, conferences);
         status.innerHTML = esc(T.none) + " · " + deepLink(q);
         return;
       }
       var totalPages = Math.ceil(hits.length / PAGE_SIZE);
       page = Math.min(Math.max(page || 1, 1), totalPages);
-      replaceSearchUrl(q, page);
+      replaceSearchUrl(q, page, conferences);
       var start = (page - 1) * PAGE_SIZE;
       var end = Math.min(start + PAGE_SIZE, hits.length);
       status.innerHTML = T.count(hits.length, start + 1, end, page, totalPages) + " · " + deepLink(q);
@@ -467,7 +607,7 @@
           "</li>";
       }
       list.innerHTML = html;
-      renderPager(pager, q, page, totalPages);
+      renderPager(pager, q, conferences, page, totalPages);
     });
   }
 
@@ -477,9 +617,17 @@
     styleInjected = true;
     var css =
       "#pn-search-root{max-width:46rem;margin:0 auto}" +
-      "#pn-search-box{display:flex;gap:.5rem;margin:.4rem 0 1rem}" +
-      "#pn-search-input{flex:1;font-size:1rem;padding:.6rem .8rem;border:1px solid var(--md-default-fg-color--lighter);border-radius:.4rem;background:var(--md-default-bg-color);color:var(--md-default-fg-color)}" +
+      "#pn-search-box{margin:.4rem 0 1rem}" +
+      "#pn-search-input{box-sizing:border-box;width:100%;min-width:0;font-size:1rem;padding:.6rem .8rem;border:1px solid var(--md-default-fg-color--lighter);border-radius:.4rem;background:var(--md-default-bg-color);color:var(--md-default-fg-color)}" +
       "#pn-search-input:focus{outline:none;border-color:var(--md-accent-fg-color)}" +
+      "#pn-search-conference-filter{min-width:0;border:0;padding:0;margin:.65rem 0 0}" +
+      "#pn-search-conference-filter legend{padding:0;color:var(--md-default-fg-color--light);font-size:.78rem;line-height:1.5}" +
+      "#pn-search-conferences{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.3rem}" +
+      ".pn-conference-option{display:inline-flex;align-items:center;gap:.28rem;padding:.25rem .48rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:.35rem;background:var(--md-default-bg-color);font-size:.76rem;line-height:1.45;white-space:nowrap;cursor:pointer}" +
+      ".pn-conference-option:hover{border-color:var(--md-accent-fg-color)}" +
+      ".pn-conference-option input{width:.85rem;height:.85rem;margin:0;accent-color:var(--md-accent-fg-color)}" +
+      ".pn-conference-option input:checked+span{color:var(--md-typeset-a-color);font-weight:600}" +
+      "#pn-search-conference-filter:disabled{opacity:.6}" +
       "#pn-search-status{color:var(--md-default-fg-color--light);font-size:.8rem;margin-bottom:.4rem}" +
       "#pn-search-results{list-style:none;margin:0;padding:0}" +
       ".pn-hit{padding:.7rem 0;border-bottom:1px solid var(--md-default-fg-color--lightest)}" +
@@ -524,33 +672,38 @@
     if (!root) return; // not the search page
     injectStyle();
     var input = document.getElementById("pn-search-input");
+    var conferenceFilter = document.getElementById("pn-search-conference-filter");
     var status = document.getElementById("pn-search-status");
     var list = document.getElementById("pn-search-results");
-    if (!input || !status || !list) return;
+    if (!input || !conferenceFilter || !status || !list) return;
     var pager = ensurePager(list);
 
     input.placeholder = T.placeholder;
 
     var initialQ = getQ();
     var initialPage = getPage();
+    var initialConferences = getConferences();
     if (initialQ) input.value = initialQ;
 
     var timer = null;
-    function update(immediate, page, queryOverride) {
+    function update(immediate, page, queryOverride, conferencesOverride) {
       var q = typeof queryOverride === "string" ? queryOverride : input.value;
       if (typeof queryOverride === "string" && input.value !== q) input.value = q;
+      var conferences = Array.isArray(conferencesOverride)
+        ? applyConferenceSelection(conferenceFilter, conferencesOverride)
+        : selectedConferences(conferenceFilter);
       var nq = q.trim();
       page = nq ? page || 1 : 1;
-      replaceSearchUrl(nq, page);
+      replaceSearchUrl(nq, page, conferences);
       if (timer) {
         clearTimeout(timer);
         timer = null;
       }
       if (immediate) {
-        render(status, list, pager, q, page);
+        render(status, list, pager, q, page, conferences);
       } else {
         timer = setTimeout(function () {
-          render(status, list, pager, q, page);
+          render(status, list, pager, q, page, conferences);
         }, 180);
       }
     }
@@ -563,6 +716,14 @@
         e.preventDefault();
         update(true, 1);
       }
+    });
+    conferenceFilter.addEventListener("change", function (e) {
+      if (e.target && e.target.id === "pn-search-all-conferences") {
+        var inputs = conferenceInputs(conferenceFilter);
+        for (var i = 0; i < inputs.length; i++) inputs[i].checked = e.target.checked;
+      }
+      syncAllConferences(conferenceFilter);
+      update(true, 1);
     });
     pager.addEventListener("click", function (e) {
       var target = e.target.closest("[data-page]");
@@ -577,13 +738,31 @@
         var hrefQuery = href ? new URL(href, location.href).searchParams.get("q") : "";
         if (hrefQuery) query = hrefQuery;
       } catch (err) {}
-      update(true, parseInt(target.getAttribute("data-page"), 10) || 1, query || input.value || getQ());
+      var conferences = [];
+      try {
+        var encoded = decodeURIComponent(target.getAttribute("data-conferences") || "");
+        conferences = encoded ? encoded.split(",") : [];
+      } catch (err) {}
+      update(
+        true,
+        parseInt(target.getAttribute("data-page"), 10) || 1,
+        query || input.value || getQ(),
+        conferences
+      );
       try {
         status.scrollIntoView({ block: "start" });
       } catch (err) {}
     });
 
-    render(status, list, pager, initialQ, initialPage);
+    status.textContent = T.loading;
+    ensureIndex(function (err) {
+      if (err) {
+        status.textContent = T.failed;
+        return;
+      }
+      initialConferences = populateConferences(conferenceFilter, initialConferences);
+      render(status, list, pager, initialQ, initialPage, initialConferences);
+    });
     try {
       input.focus();
     } catch (e) {}
