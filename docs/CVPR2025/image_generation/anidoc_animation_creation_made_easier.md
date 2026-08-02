@@ -59,9 +59,9 @@ AniDoc 建立在视频扩散模型之上，核心流程为：给定一组彩色�
 
 训练时，对输入线稿进行随机二值化处理，模拟不同风格和质量的线稿：
 
-$$I_{bin} = egin{cases} 1, & I_{gray} > 	au + \epsilon \ 0, & 	ext{otherwise} \end{cases}$$
+$$I_{bin} = \begin{cases} 1, & I_{gray} > \tau + \epsilon \ 0, & \text{otherwise} \end{cases}$$
 
-其中 $	au$ 为自适应阈值，$\epsilon \sim \mathcal{U}(-\delta, \delta)$ 为随机扰动。
+其中 $\tau$ 为自适应阈值，$\epsilon \sim \mathcal{U}(-\delta, \delta)$ 为随机扰动。
 
 #### 背景增强 (Background Augmentation)
 

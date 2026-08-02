@@ -35,7 +35,7 @@ BiM 描述子 $[R, \Phi]$ 由两个分量组成：
 
 #### 幅度比 $R$ (Magnitude Ratio)
 
-$$R = rac{\|\mathbf{f}_{0 \to 1}\|}{\|\mathbf{f}_{1 \to 0}\|}$$
+$$R = \frac{\|\mathbf{f}_{0 \to 1}\|}{\|\mathbf{f}_{1 \to 0}\|}$$
 
 其中 $\mathbf{f}_{0 \to 1}$ 和 $\mathbf{f}_{1 \to 0}$ 分别是前向和后向光流。$R$ 捕获了运动的相对速度信息。
 
@@ -57,7 +57,7 @@ $\Phi$ 衡量前向和后向光流方向的偏差。对于严格的线性运动�
 
 BiM 描述子作为额外输入通道注入光流估计网络：
 
-$$\mathbf{f}_{t} = 	ext{FlowNet}(I_0, I_1, t, R, \Phi)$$
+$$\mathbf{f}_{t} = \text{FlowNet}(I_0, I_1, t, R, \Phi)$$
 
 与传统方法直接估计中间帧光流不同，BiM-guided FlowNet 利用双向运动的全局约束信息，显著提高了运动不均匀区域的光流精度。
 

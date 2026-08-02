@@ -45,9 +45,9 @@ CheXWorld基于I-JEPA框架，使用ViT作为编码器，设计了三个互补�
 - 用预测器从可见patch的表征预测被掩码patch的表征
 - 损失函数：被掩码patch的预测表征与目标编码器输出的L2距离
 
-$$\mathcal{L}_{	ext{local}} = rac{1}{|M|} \sum_{i \in M} \|f_{	ext{pred}}(z_{	ext{ctx}}) - 	ext{sg}(f_{	ext{target}}(x_i))\|_2^2$$
+$$\mathcal{L}_{\text{local}} = \frac{1}{|M|} \sum_{i \in M} \|f_{\text{pred}}(z_{\text{ctx}}) - \text{sg}(f_{\text{target}}(x_i))\|_2^2$$
 
-其中 $M$ 是掩码位置集合，$	ext{sg}$ 表示停止梯度。
+其中 $M$ 是掩码位置集合，$\text{sg}$ 表示停止梯度。
 
 ### 任务2：全局布局建模（Global Layout）
 
@@ -58,9 +58,9 @@ $$\mathcal{L}_{	ext{local}} = rac{1}{|M|} \sum_{i \in M} \|f_{	ext{pred}}(z_{	e
 - 用crop A的特征预测crop B中对应位置的表征
 - **关键创新**：将两个crop的相对空间位置作为条件输入预测器
 
-$$\mathcal{L}_{	ext{global}} = \|f_{	ext{pred}}(z_A, \Delta_{	ext{pos}}) - 	ext{sg}(f_{	ext{target}}(x_B))\|_2^2$$
+$$\mathcal{L}_{\text{global}} = \|f_{\text{pred}}(z_A, \Delta_{\text{pos}}) - \text{sg}(f_{\text{target}}(x_B))\|_2^2$$
 
-其中 $\Delta_{	ext{pos}}$ 编码了crop A和crop B的相对位置。这迫使模型理解"如果心脏在左下裁剪中可见，那么右侧裁剪中应该出现什么？"
+其中 $\Delta_{\text{pos}}$ 编码了crop A和crop B的相对位置。这迫使模型理解"如果心脏在左下裁剪中可见，那么右侧裁剪中应该出现什么？"
 
 ### 任务3：域变化建模（Domain Variation）
 
@@ -70,17 +70,17 @@ $$\mathcal{L}_{	ext{global}} = \|f_{	ext{pred}}(z_A, \Delta_{	ext{pos}}) - 	ext{
 - 对同一图像施加不同的数据增广（亮度、对比度、噪声等，模拟不同设备参数）
 - 将增广参数作为条件，预测增广后图像的表征
 
-$$\mathcal{L}_{	ext{domain}} = \|f_{	ext{pred}}(z_{	ext{orig}}, c_{	ext{aug}}) - 	ext{sg}(f_{	ext{target}}(T(x)))\|_2^2$$
+$$\mathcal{L}_{\text{domain}} = \|f_{\text{pred}}(z_{\text{orig}}, c_{\text{aug}}) - \text{sg}(f_{\text{target}}(T(x)))\|_2^2$$
 
-其中 $c_{	ext{aug}}$ 编码了增广类型和强度，$T(x)$ 是增广后的图像。
+其中 $c_{\text{aug}}$ 编码了增广类型和强度，$T(x)$ 是增广后的图像。
 
 ### 统一训练
 
 四个损失函数联合优化：
 
-$$\mathcal{L} = \lambda_1 \mathcal{L}_{	ext{local}} + \lambda_2 \mathcal{L}_{	ext{global}} + \lambda_3 \mathcal{L}_{	ext{domain}} + \lambda_4 \mathcal{L}_{	ext{reg}}$$
+$$\mathcal{L} = \lambda_1 \mathcal{L}_{\text{local}} + \lambda_2 \mathcal{L}_{\text{global}} + \lambda_3 \mathcal{L}_{\text{domain}} + \lambda_4 \mathcal{L}_{\text{reg}}$$
 
-其中 $\mathcal{L}_{	ext{reg}}$ 是方差-不变性-协方差（VICReg）正则化项，防止表征坍缩。
+其中 $\mathcal{L}_{\text{reg}}$ 是方差-不变性-协方差（VICReg）正则化项，防止表征坍缩。
 
 ## 实验结果
 

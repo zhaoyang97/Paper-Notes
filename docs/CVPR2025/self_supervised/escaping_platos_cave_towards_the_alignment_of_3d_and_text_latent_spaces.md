@@ -35,15 +35,15 @@ tags:
 
 给定3D编码器 $f_{3D}$ 和文本编码器 $f_{text}$，对配对数据 $\{(x_i^{3D}, x_i^{text})\}_{i=1}^N$ 分别提取特征：
 
-$$Z^{3D} = f_{3D}(X^{3D}) \in \mathbb{R}^{N 	imes d_1}, \quad Z^{text} = f_{text}(X^{text}) \in \mathbb{R}^{N 	imes d_2}$$
+$$Z^{3D} = f_{3D}(X^{3D}) \in \mathbb{R}^{N \times d_1}, \quad Z^{text} = f_{text}(X^{text}) \in \mathbb{R}^{N \times d_2}$$
 
 CCA求解以下优化问题，找到投影方向 $w_1, w_2$ 使得投影后的相关性最大化：
 
-$$\max_{w_1, w_2} 	ext{corr}(Z^{3D} w_1, Z^{text} w_2)$$
+$$\max_{w_1, w_2} \text{corr}(Z^{3D} w_1, Z^{text} w_2)$$
 
-取前 $k$ 个典型相关方向，构成投影矩阵 $W_1 \in \mathbb{R}^{d_1 	imes k}$ 和 $W_2 \in \mathbb{R}^{d_2 	imes k}$。
+取前 $k$ 个典型相关方向，构成投影矩阵 $W_1 \in \mathbb{R}^{d_1 \times k}$ 和 $W_2 \in \mathbb{R}^{d_2 \times k}$。
 
-关键发现：当 $k pprox 50$ 时，子空间内的CKA从全空间的0.12显著提升，表明对齐信息确实集中在少数维度中。
+关键发现：当 $k \approx 50$ 时，子空间内的CKA从全空间的0.12显著提升，表明对齐信息确实集中在少数维度中。
 
 ### Step 2: 子空间内的对齐方法
 
@@ -53,11 +53,11 @@ $$\max_{w_1, w_2} 	ext{corr}(Z^{3D} w_1, Z^{text} w_2)$$
 
 $$\hat{z}^{text} = A \cdot (W_1^T z^{3D}) + b$$
 
-其中 $A \in \mathbb{R}^{k 	imes k}$, $b \in \mathbb{R}^k$。使用MSE损失进行优化。
+其中 $A \in \mathbb{R}^{k \times k}$, $b \in \mathbb{R}^k$。使用MSE损失进行优化。
 
 **LocalCKA对齐**：考虑到全局仿射变换可能不够灵活，LocalCKA在局部邻域内计算CKA并优化：
 
-$$\mathcal{L}_{LocalCKA} = -\sum_i 	ext{CKA}(\mathcal{N}_k(z_i^{3D}), \mathcal{N}_k(z_i^{text}))$$
+$$\mathcal{L}_{LocalCKA} = -\sum_i \text{CKA}(\mathcal{N}_k(z_i^{3D}), \mathcal{N}_k(z_i^{text}))$$
 
 其中 $\mathcal{N}_k(z_i)$ 是样本 $z_i$ 的k近邻集合。
 

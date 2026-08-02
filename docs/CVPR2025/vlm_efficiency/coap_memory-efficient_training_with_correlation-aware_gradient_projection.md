@@ -29,11 +29,11 @@ code: "https://byteaigc.github.io/coap/"
 
 ### 问题形式化
 
-标准低秩梯度投影将 $m 	imes n$ 的梯度矩阵 $G_t$ 投影到秩-$r$ 子空间：
+标准低秩梯度投影将 $m \times n$ 的梯度矩阵 $G_t$ 投影到秩-$r$ 子空间：
 
-$$	ilde{G}_t = P_t P_t^T G_t$$
+$$\tilde{G}_t = P_t P_t^T G_t$$
 
-其中 $P_t \in \mathbb{R}^{m 	imes r}$ 是投影矩阵。优化器状态（momentum, variance）维护在低秩空间 $\mathbb{R}^{r 	imes n}$ 中，内存从 $O(mn)$ 降至 $O(rn + mr)$。
+其中 $P_t \in \mathbb{R}^{m \times r}$ 是投影矩阵。优化器状态（momentum, variance）维护在低秩空间 $\mathbb{R}^{r \times n}$ 中，内存从 $O(mn)$ 降至 $O(rn + mr)$。
 
 ### 相关性感知投影更新
 
@@ -62,7 +62,7 @@ abla_{P} \mathcal{L}$$
 
 本文通过实验验证了相邻投影矩阵间的高相关性：
 
-$$	ext{sim}(P_t, P_{t+T}) = rac{\|P_t^T P_{t+T}\|_F}{\|P_t\|_F \|P_{t+T}\|_F} > 0.95$$
+$$\text{sim}(P_t, P_{t+T}) = \frac{\|P_t^T P_{t+T}\|_F}{\|P_t\|_F \|P_{t+T}\|_F} > 0.95$$
 
 这一观察为SGD增量更新提供了理论基础：投影空间变化缓慢，小步增量更新即可跟踪最优子空间。
 

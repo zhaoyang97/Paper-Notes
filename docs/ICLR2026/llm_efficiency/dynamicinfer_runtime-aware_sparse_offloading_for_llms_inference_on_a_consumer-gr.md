@@ -62,7 +62,7 @@ flowchart TD
 
 **1. 跨层稀疏预测：把“未来层会用哪些神经元”提前变成调度信号**
 
-PowerInfer 的稀疏预测发生在 FFN 计算附近，如果这时才决定要不要迁移神经元，PCIe 传输很容易直接阻塞当前计算。DynamicInfer 利用一个观察：相邻层甚至隔若干层的 hidden states 变化相对平滑，论文附录中不同模型相邻层隐藏状态平均 cosine similarity 超过 88%。因此，对第 $i+k$ 层的稀疏预测器 $	ext{MLP}_{i+k}$，可以提前使用第 $i$ 层 attention 输出的 hidden state $h_i$ 作为输入，得到未来层的预测向量 $z_{i+k}\in\mathbb{R}^d$。
+PowerInfer 的稀疏预测发生在 FFN 计算附近，如果这时才决定要不要迁移神经元，PCIe 传输很容易直接阻塞当前计算。DynamicInfer 利用一个观察：相邻层甚至隔若干层的 hidden states 变化相对平滑，论文附录中不同模型相邻层隐藏状态平均 cosine similarity 超过 88%。因此，对第 $i+k$ 层的稀疏预测器 $\text{MLP}_{i+k}$，可以提前使用第 $i$ 层 attention 输出的 hidden state $h_i$ 作为输入，得到未来层的预测向量 $z_{i+k}\in\mathbb{R}^d$。
 
 这个设计的价值不只是“预测激活”，而是把调度从同步路径里挪出来。第 $i$ 层 attention 完成后，系统启动一个调度子线程做稀疏预测和神经元迁移；主线程继续执行第 $i$ 层 FFN。只要预测提前量 $k$ 和当前计算窗口足够，未来层需要的冷神经元就可以在真正执行该 FFN 之前完成 CPU-to-GPU 预取。
 

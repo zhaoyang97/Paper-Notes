@@ -89,7 +89,7 @@ TagRouter 由三个顺序执行的模块组成：TagGenerator、TagScorer 和 Ta
 论文里给出的核心公式可以概括为：
 
 $$
-	ext{score}(M_i,t)=w_t \sum_{r\in\{win,tie,loss\}} \text{count}_{t,M_i}(r)\cdot s_r
+\text{score}(M_i,t)=w_t \sum_{r\in\{win,tie,loss\}} \text{count}_{t,M_i}(r)\cdot s_r
 $$
 
 这里 $w_t$ 是标签权重，和标签频次相关；$s_r$ 是 win、tie、loss 对应的收益系数。直观理解就是，如果某个模型在某个标签上经常赢或者打平大模型，它在这个标签上的分数就高。

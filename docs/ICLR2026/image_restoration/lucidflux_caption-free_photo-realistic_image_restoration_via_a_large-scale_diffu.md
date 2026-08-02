@@ -77,8 +77,8 @@ $$
 随后对两个分支分别做 AdaptiveLN 风格的调制：
 
 $$
-	ilde{\phi}^{t,l}_{LQ}=\alpha^{t,l}_{LQ}\odot\phi_{LQ}+\beta^{t,l}_{LQ}, \quad
-	ilde{\phi}^{t,l}_{LRP}=\alpha^{t,l}_{LRP}\odot\phi_{LRP}+\beta^{t,l}_{LRP},
+\tilde{\phi}^{t,l}_{LQ}=\alpha^{t,l}_{LQ}\odot\phi_{LQ}+\beta^{t,l}_{LQ}, \quad
+\tilde{\phi}^{t,l}_{LRP}=\alpha^{t,l}_{LRP}\odot\phi_{LRP}+\beta^{t,l}_{LRP},
 $$
 
 并融合为 $Cond^{t,l}=\tilde{\phi}^{t,l}_{LQ}+\tilde{\phi}^{t,l}_{LRP}$。这个设计把“何时看什么”显式交给调制器：在更需要全局布局的阶段，可以更多依赖干净代理；在需要补高频纹理的阶段，可以让低质量输入中的原始细节重新发挥作用。它不是简单加一个门控，而是同时按采样时间和网络深度调整条件，因此更贴合大 DiT 的层级角色。

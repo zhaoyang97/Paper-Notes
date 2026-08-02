@@ -40,9 +40,9 @@ tags:
 ### 整体框架
 ASAP构建在CLIP双编码器架构之上，包含三个核心模块，总损失函数为：
 
-35714L = L_{DGM} + L_{LMA} + lpha \cdot L_{MGCA} + \lambda \cdot L_{PMM}35714
+35714L = L_{DGM} + L_{LMA} + \alpha \cdot L_{MGCA} + \lambda \cdot L_{PMM}35714
 
-其中 $lpha=0.1$，$\lambda=0.01$。{DGM}$ 是基础的DGM4多任务损失。
+其中 $\alpha=0.1$，$\lambda=0.01$。{DGM}$ 是基础的DGM4多任务损失。
 
 ### 模块一：大模型辅助对齐 (LMA)
 LMA模块利用预训练大模型生成丰富的文本描述，增强视觉-语言对齐学习：
@@ -66,7 +66,7 @@ MGCA模块通过显式的篡改区域引导，增强跨模态注意力对篡改�
 1. **引导掩码生成**：根据图像篡改标注生成二值引导掩码 $，标记哪些patch被篡改
 2. **掩码增强注意力**：在标准交叉注意力基础上，通过引导掩码调制注意力权重，使模型更多关注篡改相关的区域：
 
-35714Attn_{MGCA} = 	ext{softmax}(rac{QK^T}{\sqrt{d}} + eta \cdot M_g)35714
+35714Attn_{MGCA} = \text{softmax}(\frac{QK^T}{\sqrt{d}} + \beta \cdot M_g)35714
 
 3. **辅助损失**：额外的交叉注意力对齐损失 {MGCA}$ 鼓励注意力权重集中在实际篡改区域
 
@@ -77,7 +77,7 @@ PMM模块通过难负例补丁选择策略提升区域级篡改定位精度：
 2. **对比学习**：在patch级别构建对比学习目标，拉近同一篡改区域的patch表示、推远与难负例的表示
 3. **区域定位增强**：通过HNP策略，模型学习区分视觉相似但语义不同的patch，从而提升定位精度
 
-35714L_{PMM} = -\log rac{\exp(sim(z_i^+, z_i) / 	au)}{\exp(sim(z_i^+, z_i) / 	au) + \sum_j \exp(sim(z_j^-, z_i) / 	au)}35714
+35714L_{PMM} = -\log \frac{\exp(sim(z_i^+, z_i) / \tau)}{\exp(sim(z_i^+, z_i) / \tau) + \sum_j \exp(sim(z_j^-, z_i) / \tau)}35714
 
 ## 实验结果
 

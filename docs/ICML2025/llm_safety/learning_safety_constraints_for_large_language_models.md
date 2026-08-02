@@ -84,7 +84,7 @@ SaP 的高层流程可概括为三步：
 可写作（论文核心几何表达）：
 
 $$
-	ilde{\mathcal{Q}} = \{\tilde{\mathbf{f}} \mid \phi^{\top}\tilde{\mathbf{f}} \le \tilde{\xi}\}
+\tilde{\mathcal{Q}} = \{\tilde{\mathbf{f}} \mid \phi^{\top}\tilde{\mathbf{f}} \le \tilde{\xi}\}
 $$
 
 其中：

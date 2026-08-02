@@ -120,7 +120,7 @@ AutoJudge 自动化了 Judge Decoding 中"重要 token"的标注——通过半�
 - 价值: ⭐⭐⭐⭐ 使 Judge Decoding 从理论走向实践
 
 ### 方法补充说明
-- **半贪心搜索的复杂度**：对长度 $L$ 的序列有 $M$ 个不匹配 token，搜索复杂度 $O(M 	imes T_{gen})$（$T_{gen}$ 是单次生成时间）。实际中 $M pprox L/3$（约 1/3 token 不匹配），单次搜索 ~1-2 分钟/样本
+- **半贪心搜索的复杂度**：对长度 $L$ 的序列有 $M$ 个不匹配 token，搜索复杂度 $O(M \times T_{gen})$（$T_{gen}$ 是单次生成时间）。实际中 $M \approx L/3$（约 1/3 token 不匹配），单次搜索 ~1-2 分钟/样本
 - **分类器特征选择**：拼接 draft 和 target 的隐藏状态（而非只用一个）效果更好——两个模型的不一致本身就是 token 重要性的强信号
 - **与 speculative decoding 理论的关系**：标准 speculative decoding 保证与 target 分布完全一致（无损），AutoJudge 允许 <2% 的准确率损失换取 2× 加速——这是精度-速度的显式权衡
 

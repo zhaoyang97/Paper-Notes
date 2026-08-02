@@ -58,7 +58,7 @@ SAIL的核心思路是在两个冻结的单模态编码器之间插入轻量级�
 
 损失函数形式：
 
-$$\mathcal{L} = -rac{1}{N}\sum_{i=1}^{N}\sum_{j \in P(i)} \log \sigma(s_{ij}) + \sum_{j 
+$$\mathcal{L} = -\frac{1}{N}\sum_{i=1}^{N}\sum_{j \in P(i)} \log \sigma(s_{ij}) + \sum_{j 
 otin P(i)} \log \sigma(-s_{ij})$$
 
 其中 $P(i)$ 是样本 $i$ 的所有正样本集合，$s_{ij}$ 是cosine相似度。
@@ -67,7 +67,7 @@ otin P(i)} \log \sigma(-s_{ij})$$
 
 GLU的核心是门控机制：
 
-$$	ext{GLU}(x) = (W_1 x + b_1) \odot \sigma(W_2 x + b_2)$$
+$$\text{GLU}(x) = (W_1 x + b_1) \odot \sigma(W_2 x + b_2)$$
 
 使用8层GLU而非简单的MLP，是因为门控结构能更好地选择性传递信息，在冻结编码器的约束下实现更灵活的空间变换。每层后接LayerNorm和残差连接。
 

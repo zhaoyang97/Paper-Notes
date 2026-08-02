@@ -67,11 +67,11 @@ AVISM (Audio-Visual Instance Segmentation and tracking Model) 由两个核心模
 FLSL 负责在每一帧中定位发声物体：
 
 - **音频特征提取**：使用预训练的 AudioSet 模型提取音频嵌入 $\mathbf{a}_t \in \mathbb{R}^{d}$
-- **视觉特征提取**：使用 ResNet-50 / Swin-T 提取视觉特征图 $\mathbf{V}_t \in \mathbb{R}^{d 	imes H 	imes W}$
+- **视觉特征提取**：使用 ResNet-50 / Swin-T 提取视觉特征图 $\mathbf{V}_t \in \mathbb{R}^{d \times H \times W}$
 - **跨模态注意力**：
 
-$$\mathbf{A}_{t} = 	ext{softmax}\left(rac{\mathbf{a}_t \mathbf{V}_t^T}{\sqrt{d}}
-ight) \mathbf{V}_t$$
+$$\mathbf{A}_{t} = \text{softmax}\left(\frac{\mathbf{a}_t \mathbf{V}_t^T}{\sqrt{d}}
+\right) \mathbf{V}_t$$
 
 - **实例预测**：基于注意力增强的特征，使用 Mask2Former 风格的解码器预测实例掩码和类别
 
@@ -83,7 +83,7 @@ VLST 负责跨帧的实例关联和追踪：
 - **音频一致性约束**：确保同一实例在不同帧中与对应音频的相关性一致
 - **匹配策略**：结合外观相似度和音频相关性的二部图匹配
 
-$$	ext{cost}(i, j) = lpha \cdot 	ext{IoU}(m_i^t, m_j^{t+1}) + eta \cdot \cos(\mathbf{e}_i^t, \mathbf{e}_j^{t+1}) + \gamma \cdot 	ext{audio\_sim}(i, j)$$
+$$\text{cost}(i, j) = \alpha \cdot \text{IoU}(m_i^t, m_j^{t+1}) + \beta \cdot \cos(\mathbf{e}_i^t, \mathbf{e}_j^{t+1}) + \gamma \cdot \text{audio\_sim}(i, j)$$
 
 ### 评估指标
 

@@ -39,7 +39,7 @@ Anomize采用文本增强的双流架构，将视频异常检测分解为两个�
 
 传统方法直接在CLIP帧特征上做分类，丢失了时序信息。Anomize引入双向LSTM对帧序列进行编码：
 
-$$h_t = 	ext{BiLSTM}([\overrightarrow{h_t}; \overleftarrow{h_t}]) = 	ext{BiLSTM}(f_{	ext{CLIP}}(I_t), h_{t-1})$$
+$$h_t = \text{BiLSTM}([\overrightarrow{h_t}; \overleftarrow{h_t}]) = \text{BiLSTM}(f_{\text{CLIP}}(I_t), h_{t-1})$$
 
 LSTM的隐状态积累了历史信息，使模型能理解"正常行走→突然奔跑→撞击"这样的时序模式。
 
@@ -61,14 +61,14 @@ LSTM的隐状态积累了历史信息，使模型能理解"正常行走→突然
 
 **动态流**：LSTM编码的时序特征 + Text Augmenter模块
 - Text Augmenter通过交叉注意力将文本描述信息注入视频特征
-- 输出动态异常分数：$s_{	ext{dyn}} = 	ext{MLP}(	ext{CrossAttn}(h_t, T_{	ext{desc}}))$
+- 输出动态异常分数：$s_{\text{dyn}} = \text{MLP}(\text{CrossAttn}(h_t, T_{\text{desc}}))$
 
 **静态流**：概念库 + TopK匹配
 - 预构建异常概念库（每个异常类别的多个描述特征）
 - 对每帧特征，计算与概念库中所有特征的余弦相似度
 - 取TopK最高相似度的平均作为静态异常分数
 
-最终分数：$s = lpha \cdot s_{	ext{dyn}} + (1-lpha) \cdot s_{	ext{static}}$
+最终分数：$s = \alpha \cdot s_{\text{dyn}} + (1-\alpha) \cdot s_{\text{static}}$
 
 ### 两阶段训练
 

@@ -32,15 +32,15 @@ HOI-IDiff的核心创新在于：**将HOI三元组重新编码为一种"图像"�
 
 ### 核心创新1：HOI Image构造
 
-将每个场景的所有HOI关系编码为一张 $H 	imes W 	imes 2$ 的概率图像：
+将每个场景的所有HOI关系编码为一张 $H \times W \times 2$ 的概率图像：
 
-$$I_{	ext{HOI}}[h, w, :] = v_{	ext{obj}}(h) \otimes m_{	ext{int}}(w)$$
+$$I_{\text{HOI}}[h, w, :] = v_{\text{obj}}(h) \otimes m_{\text{int}}(w)$$
 
 其中：
 - $H$ = 场景中的人-物对数量
 - $W$ = 交互类别数量（HICO-DET为117类）
-- 通道0：物体类别概率 $v_{	ext{obj}} \in \Delta^{|\mathcal{O}|}$（单纯形上的概率分布）
-- 通道1：交互类型概率 $m_{	ext{int}} \in \{0, 1\}^{|\mathcal{A}|}$（多标签二进制指示）
+- 通道0：物体类别概率 $v_{\text{obj}} \in \Delta^{|\mathcal{O}|}$（单纯形上的概率分布）
+- 通道1：交互类型概率 $m_{\text{int}} \in \{0, 1\}^{|\mathcal{A}|}$（多标签二进制指示）
 
 **直觉理解**：HOI Image的每一行对应一个人-物对，每一列对应一种交互，像素值表示该交互发生的概率。这种表示将结构化预测转换为了图像生成问题。
 
@@ -50,10 +50,10 @@ $$I_{	ext{HOI}}[h, w, :] = v_{	ext{obj}}(h) \otimes m_{	ext{int}}(w)$$
 
 **多项式扩散**的前向过程：
 
-$$q(x_t | x_{t-1}) = 	ext{Cat}(x_t; (1 - eta_t) x_{t-1} + eta_t / K)$$
+$$q(x_t | x_{t-1}) = \text{Cat}(x_t; (1 - \beta_t) x_{t-1} + \beta_t / K)$$
 
 其中 $K$ 是类别数。关键差异：
-- 系数是 $(1-eta_k)$ 而不是 $\sqrt{1-eta_k}$
+- 系数是 $(1-\beta_k)$ 而不是 $\sqrt{1-\beta_k}$
 - 噪声项是均匀分布 $1/K$ 而不是高斯分布
 - 始终保持概率和为1
 
@@ -61,7 +61,7 @@ $$q(x_t | x_{t-1}) = 	ext{Cat}(x_t; (1 - eta_t) x_{t-1} + eta_t / K)$$
 |------|---------|----------|
 | 数据类型 | 连续值 | 概率分布 |
 | 噪声类型 | 高斯 $\mathcal{N}(0,1)$ | 均匀 $1/K$ |
-| 前向系数 | $\sqrt{1-eta_t}$ | $(1-eta_t)$ |
+| 前向系数 | $\sqrt{1-\beta_t}$ | $(1-\beta_t)$ |
 | 概率约束 | 无 | 始终满足 $\sum=1$ |
 | 终态 | $\mathcal{N}(0,I)$ | 均匀分布 |
 
@@ -79,7 +79,7 @@ $$q(x_t | x_{t-1}) = 	ext{Cat}(x_t; (1 - eta_t) x_{t-1} + eta_t / K)$$
 
 标准扩散从纯噪声开始去噪，但HOI检测可以利用目标检测器（如DETR）的输出作为先验：
 
-$$x_T = (1 - lpha) \cdot 	ext{Uniform} + lpha \cdot 	ext{DetectorPrior}$$
+$$x_T = (1 - \alpha) \cdot \text{Uniform} + \alpha \cdot \text{DetectorPrior}$$
 
 检测器先验提供了初始的人-物配对猜测，大幅减少了去噪步数。
 

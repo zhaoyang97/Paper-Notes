@@ -39,12 +39,12 @@ tags:
 
 1. **基于UI状态变化的功能推断**:
     - 功能：利用交互前后的UI AXTree差异推断元素功能
-    - 核心思路：paper_notes/docs/ACL2025/multilingual_mt/cosmmic_commentsensitive_multimodal_multilingual_indian_corpus.md = 	ext{LLM}(p_{	ext{anno}}, s_t, s_{t+1})$，用difflib生成AXTree前后的行级差异（增/删/移位/属性更新），LLM通过Chain-of-Thought分析变化并总结功能
+    - 核心思路：paper_notes/docs/ACL2025/multilingual_mt/cosmmic_commentsensitive_multimodal_multilingual_indian_corpus.md = \text{LLM}(p_{\text{anno}}, s_t, s_{t+1})$，用difflib生成AXTree前后的行级差异（增/删/移位/属性更新），LLM通过Chain-of-Thought分析变化并总结功能
     - 设计动机：不是看元素外观而是看"点击后发生什么"——一个放大镜如果点击后出现搜索框就是搜索，出现缩放滑块就是缩放
 
 2. **LLM-aided rejection（无效样本过滤）**:
     - 功能：LLM评估交互产生的状态变化是否足以推断功能
-    - 核心思路：$	ext{score} = 	ext{LLM}(p_{	ext{reject}}, e, s_t, s_{t+1})$，按3个标准打分（变化明确度/相关性/可预测性），丢弃底部30%
+    - 核心思路：$\text{score} = \text{LLM}(p_{\text{reject}}, e, s_t, s_{t+1})$，按3个标准打分（变化明确度/相关性/可预测性），丢弃底部30%
     - 设计动机：非所有交互都产生有意义的状态变化——如未完全加载的页面或需要登录的重定向
 
 3. **双LLM验证（标注质量控制）**:

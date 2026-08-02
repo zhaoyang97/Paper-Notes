@@ -41,13 +41,13 @@ code: "https://github.com/NVlabs/catk"
 ### Token化交通模型基础
 
 SMART 等模型的工作流程：
-1. 将每个交通参与者的轨迹点 $(x, y, 	heta)$ 量化为离散 token
+1. 将每个交通参与者的轨迹点 $(x, y, \theta)$ 量化为离散 token
 2. 使用 VQ-VAE 学习 token codebook
 3. 以 GPT 风格的自回归模型预测下一个 token
 
 标准训练使用交叉熵损失：
 
-$$\mathcal{L}_{BC} = -\sum_t \log p_	heta(z_t^* | z_{<t}^*)$$
+$$\mathcal{L}_{BC} = -\sum_t \log p_\theta(z_t^* | z_{<t}^*)$$
 
 其中 $z_t^*$ 是专家轨迹对应的真实 token。
 
@@ -57,15 +57,15 @@ CAT-K（Closest-Among-Top-K）是 CLSFT 的核心创新。在生成训练数据�
 
 #### 步骤1：Top-K 采样
 
-在每个时间步，模型预测 token 的概率分布 $p_	heta(z_t | z_{<t})$，取概率最高的 $K$ 个候选 token：
+在每个时间步，模型预测 token 的概率分布 $p_\theta(z_t | z_{<t})$，取概率最高的 $K$ 个候选 token：
 
-$$	ext{Top-K}(p_	heta) = \{z_t^{(1)}, z_t^{(2)}, ..., z_t^{(K)}\}$$
+$$\text{Top-K}(p_\theta) = \{z_t^{(1)}, z_t^{(2)}, ..., z_t^{(K)}\}$$
 
 #### 步骤2：选择最接近专家的 token
 
 在 $K$ 个候选中，选择与专家 token 最接近的那个：
 
-$$z_t^{CAT} = rg\min_{z \in 	ext{Top-K}(p_	heta)} d(z, z_t^*)$$
+$$z_t^{CAT} = \arg\min_{z \in \text{Top-K}(p_\theta)} d(z, z_t^*)$$
 
 其中 $d(\cdot)$ 是 token 空间中的距离度量（通常是对应轨迹点的欧氏距离）。
 
@@ -85,7 +85,7 @@ CAT-K 的关键优势：
 
 1. **受控偏离**：CAT-K 产生的轨迹与专家轨迹接近但不完全相同，模型在训练中接触到轻微偏离的输入分布
 2. **稳定性**：由于每步选择最接近专家的 token，偏离不会失控地累积
-3. **多样性**：$K$ 的选择控制了偏离程度，$K=1$ 退化为贪心解码，$K 	o \infty$ 接近随机采样
+3. **多样性**：$K$ 的选择控制了偏离程度，$K=1$ 退化为贪心解码，$K \to \infty$ 接近随机采样
 
 ### CLSFT 训练流程
 
@@ -93,7 +93,7 @@ CAT-K 的关键优势：
 2. 收集 (CAT-K轨迹, 专家标签) 对
 3. 以标准交叉熵损失进行微调
 
-$$\mathcal{L}_{CLSFT} = -\sum_t \log p_	heta(z_t^* | z_{<t}^{CAT})$$
+$$\mathcal{L}_{CLSFT} = -\sum_t \log p_\theta(z_t^* | z_{<t}^{CAT})$$
 
 ## 实验结果
 

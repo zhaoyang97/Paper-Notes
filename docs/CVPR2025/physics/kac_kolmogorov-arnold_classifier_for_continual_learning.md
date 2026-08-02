@@ -55,8 +55,8 @@ KAC 以即插即用方式替换现有持续学习方法中的线性分类头。�
 2. **KAC 架构设计**
 
     - 功能：将 RBF-KAN 具体化为分类器
-    - 核心思路：输入经 LayerNorm → N=4 个高斯 RBF 映射 → $	ext{Diag}(W_C \cdot \Phi(	ext{LN}(F(x))) \cdot W_q)$
-    -  \in \mathbb{R}^{C 	imes n}$ 为输出权重， \in \mathbb{R}^{N 	imes C}$ 为类别特定 RBF 权重
+    - 核心思路：输入经 LayerNorm → N=4 个高斯 RBF 映射 → $\text{Diag}(W_C \cdot \Phi(\text{LN}(F(x))) \cdot W_q)$
+    -  \in \mathbb{R}^{C \times n}$ 为输出权重， \in \mathbb{R}^{N \times C}$ 为类别特定 RBF 权重
     - 设计动机：对角化确保每个类别有独立激活模式，仅增加 0.23M 参数（vs ViT-B/16 的 86M）
 
 ### 损失函数 / 训练策略

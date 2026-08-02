@@ -49,7 +49,7 @@ ASAP包含三个核心模块：LMA（大模型辅助对齐）、MGCA（操控引
 2. **LLM解释生成**：使用LLM分析原始文本和MLLM描述之间的差异，生成解释性文本
 3. **VLC对比损失**：将三种文本（原始文本、MLLM描述、LLM解释）与图像进行多路对比学习
 
-$$\mathcal{L}_{	ext{VLC}} = -\log rac{\exp(	ext{sim}(v, t^+) / 	au)}{\sum_j \exp(	ext{sim}(v, t_j) / 	au)}$$
+$$\mathcal{L}_{\text{VLC}} = -\log \frac{\exp(\text{sim}(v, t^+) / \tau)}{\sum_j \exp(\text{sim}(v, t_j) / \tau)}$$
 
 其中正样本对包括：匹配的图文对、图像与其MLLM描述，负样本包括不匹配的文本和篡改样本。
 
@@ -60,11 +60,11 @@ $$\mathcal{L}_{	ext{VLC}} = -\log rac{\exp(	ext{sim}(v, t^+) / 	au)}{\sum_j \ex
 **动机**：标准的交叉注意力平等对待所有patch和token，但篡改区域通常只占少部分，需要引导注意力聚焦。
 
 **设计**：
-- 引入**引导掩码** $G \in \{0, 1\}^{N_v 	imes N_t}$，标记疑似篡改的图文对应区域
+- 引入**引导掩码** $G \in \{0, 1\}^{N_v \times N_t}$，标记疑似篡改的图文对应区域
 - 交叉注意力计算时，引导掩码调制注意力权重：
 
-$$	ext{Attn}(Q, K, V) = 	ext{softmax}\left(rac{QK^T}{\sqrt{d}} + \lambda \cdot G
-ight) V$$
+$$\text{Attn}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d}} + \lambda \cdot G
+\right) V$$
 
 | 组件 | 输入 | 输出 | 作用 |
 |------|------|------|------|
@@ -84,15 +84,15 @@ ight) V$$
 2. **patch级分类**：对每个图像patch预测"真实/篡改"的二分类标签
 3. **对比增强**：拉近同一图像中真实patch之间的距离，推远真实与篡改patch
 
-$$\mathcal{L}_{	ext{PMM}} = 	ext{BCE}(p_{	ext{patch}}, y_{	ext{patch}}) + \lambda \cdot \mathcal{L}_{	ext{contrast}}$$
+$$\mathcal{L}_{\text{PMM}} = \text{BCE}(p_{\text{patch}}, y_{\text{patch}}) + \lambda \cdot \mathcal{L}_{\text{contrast}}$$
 
 **难负样本选择策略**：选择与当前patch特征最相似的其他图像patch进行替换，而非随机替换。这迫使模型学习更细微的篡改线索。
 
 ### 总损失函数
 
-$$\mathcal{L} = \mathcal{L}_{	ext{cls}} + lpha \mathcal{L}_{	ext{VLC}} + eta \mathcal{L}_{	ext{grounding}} + \gamma \mathcal{L}_{	ext{PMM}}$$
+$$\mathcal{L} = \mathcal{L}_{\text{cls}} + \alpha \mathcal{L}_{\text{VLC}} + \beta \mathcal{L}_{\text{grounding}} + \gamma \mathcal{L}_{\text{PMM}}$$
 
-其中 $\mathcal{L}_{	ext{cls}}$ 是全局篡改分类损失，$\mathcal{L}_{	ext{grounding}}$ 是像素/token级定位损失。
+其中 $\mathcal{L}_{\text{cls}}$ 是全局篡改分类损失，$\mathcal{L}_{\text{grounding}}$ 是像素/token级定位损失。
 
 ## 实验结果
 

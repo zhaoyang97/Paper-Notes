@@ -103,7 +103,7 @@ $$
 真实模型还包含二阶项、三阶项等：
 
 $$
-F(\theta_0+\Delta\theta)=F(\theta_0)+\nabla F(\theta_0)\Delta\theta+rac{1}{2}\nabla^2F(\theta_0)[\Delta\theta,\Delta\theta]+\cdots.
+F(\theta_0+\Delta\theta)=F(\theta_0)+\nabla F(\theta_0)\Delta\theta+\frac{1}{2}\nabla^2F(\theta_0)[\Delta\theta,\Delta\theta]+\cdots.
 $$
 
 由于 $\Delta\theta$ 本身由 $\nabla F$ 决定，二阶项本质上会变成 $\nabla^2F$ 与两个一阶导数方向的收缩。若这个收缩对应的 $C_{0,2}$ 随宽度变大而趋近于 $0$，二阶项就不会显著改变函数值；若更高阶 $C_{0,3},C_{0,4},\dots$ 也按幂次衰减，整条 Taylor 尾项都会被压低。于是网络参数仍然可以更新，但函数演化看起来像固定 Jacobian 的线性系统。

@@ -29,11 +29,11 @@ code: "https://github.com/nv-tlabs/3dgrut"
 
 Unscented Transform 是一种用于非线性变换下概率分布传播的技术。其核心思想是通过一组精心选择的 **sigma points** 来捕获分布的统计特性，而非对变换函数本身进行线性化。
 
-对于一个 $n$ 维高斯分布 $\mathcal{N}(oldsymbol{\mu}, oldsymbol{\Sigma})$，UT 选取 $2n+1$ 个 sigma points：
+对于一个 $n$ 维高斯分布 $\mathcal{N}(\boldsymbol{\mu}, \boldsymbol{\Sigma})$，UT 选取 $2n+1$ 个 sigma points：
 
-$$oldsymbol{\chi}_0 = oldsymbol{\mu}, \quad oldsymbol{\chi}_i = oldsymbol{\mu} + \sqrt{(n+\lambda)} \cdot oldsymbol{L}_i, \quad oldsymbol{\chi}_{n+i} = oldsymbol{\mu} - \sqrt{(n+\lambda)} \cdot oldsymbol{L}_i$$
+$$\boldsymbol{\chi}_0 = \boldsymbol{\mu}, \quad \boldsymbol{\chi}_i = \boldsymbol{\mu} + \sqrt{(n+\lambda)} \cdot \boldsymbol{L}_i, \quad \boldsymbol{\chi}_{n+i} = \boldsymbol{\mu} - \sqrt{(n+\lambda)} \cdot \boldsymbol{L}_i$$
 
-其中 $oldsymbol{L}$ 是 $oldsymbol{\Sigma}$ 的 Cholesky 分解，$\lambda = lpha^2(n+\kappa) - n$ 是缩放参数。
+其中 $\boldsymbol{L}$ 是 $\boldsymbol{\Sigma}$ 的 Cholesky 分解，$\lambda = \alpha^2(n+\kappa) - n$ 是缩放参数。
 
 ### 3DGUT Splatting 管线
 
@@ -49,15 +49,15 @@ $$oldsymbol{\chi}_0 = oldsymbol{\mu}, \quad oldsymbol{\chi}_i = oldsymbol{\m
 
 #### Sigma Points 生成
 
-对每个3D高斯 $\mathcal{G}(oldsymbol{\mu}_{3D}, oldsymbol{\Sigma}_{3D})$，生成7个sigma points（3D空间中 $n=3$）：
-- 中心点 $oldsymbol{\chi}_0 = oldsymbol{\mu}_{3D}$
+对每个3D高斯 $\mathcal{G}(\boldsymbol{\mu}_{3D}, \boldsymbol{\Sigma}_{3D})$，生成7个sigma points（3D空间中 $n=3$）：
+- 中心点 $\boldsymbol{\chi}_0 = \boldsymbol{\mu}_{3D}$
 - 沿协方差矩阵主轴方向的6个采样点
 
 #### 非线性投影
 
 将所有sigma points通过完整的非线性相机投影函数 $\mathbf{h}(\cdot)$：
 
-$$oldsymbol{\mathcal{Y}}_i = \mathbf{h}(oldsymbol{\chi}_i)$$
+$$\boldsymbol{\mathcal{Y}}_i = \mathbf{h}(\boldsymbol{\chi}_i)$$
 
 这里 $\mathbf{h}$ 可以是任意可微的投影函数，包括包含畸变系数的鱼眼模型或rolling shutter模型。
 
@@ -65,15 +65,15 @@ $$oldsymbol{\mathcal{Y}}_i = \mathbf{h}(oldsymbol{\chi}_i)$$
 
 从投影后的sigma points恢复2D高斯参数：
 
-$$oldsymbol{\mu}_{2D} = \sum_i w_i^{(m)} oldsymbol{\mathcal{Y}}_i, \quad oldsymbol{\Sigma}_{2D} = \sum_i w_i^{(c)} (oldsymbol{\mathcal{Y}}_i - oldsymbol{\mu}_{2D})(oldsymbol{\mathcal{Y}}_i - oldsymbol{\mu}_{2D})^T$$
+$$\boldsymbol{\mu}_{2D} = \sum_i w_i^{(m)} \boldsymbol{\mathcal{Y}}_i, \quad \boldsymbol{\Sigma}_{2D} = \sum_i w_i^{(c)} (\boldsymbol{\mathcal{Y}}_i - \boldsymbol{\mu}_{2D})(\boldsymbol{\mathcal{Y}}_i - \boldsymbol{\mu}_{2D})^T$$
 
 ### 滚动快门支持
 
 Rolling shutter 相机的每行像素在不同时刻曝光，导致运动物体出现果冻效应。3DGUT 将时间维度纳入投影函数：
 
-$$\mathbf{h}_{RS}(oldsymbol{x}, t) = \pi(oldsymbol{T}(t) \cdot oldsymbol{x})$$
+$$\mathbf{h}_{RS}(\boldsymbol{x}, t) = \pi(\boldsymbol{T}(t) \cdot \boldsymbol{x})$$
 
-其中 $oldsymbol{T}(t)$ 是随时间变化的相机姿态。UT 可以自然地处理这种时空耦合的非线性投影。
+其中 $\boldsymbol{T}(t)$ 是随时间变化的相机姿态。UT 可以自然地处理这种时空耦合的非线性投影。
 
 ### 二次光线追踪
 

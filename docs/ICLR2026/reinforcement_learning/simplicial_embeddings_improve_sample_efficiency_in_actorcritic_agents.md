@@ -60,7 +60,7 @@ flowchart TD
 普通 MLP 隐藏层在非平稳 RL 中容易出现两个问题：某些方向的激活不断放大，另一些神经元长期接近零，最后协方差矩阵变得病态，TD 更新和 policy gradient 都会被噪声放大。SEM 的做法很直接：假设编码器输出可看作 $z\in\mathbb{R}^{L\times V}$，把它按组切开，并在每组内计算
 
 $$
-	ilde z_{\ell,v}=\frac{\exp(z_{\ell,v}/\tau)}{\sum_{v'=1}^{V}\exp(z_{\ell,v'}/\tau)}.
+\tilde z_{\ell,v}=\frac{\exp(z_{\ell,v}/\tau)}{\sum_{v'=1}^{V}\exp(z_{\ell,v'}/\tau)}.
 $$
 
 每个组输出都是一个 $V$ 维概率分布，因此整体表示位于 $\Delta^{V-1}\times\cdots\times\Delta^{V-1}$。这带来三个直接效果：每组质量和为 1，特征范数不会无限漂移；组内 softmax 形成竞争，低温度时更接近稀疏 one-hot；多个组并行提供容量，避免单个离散瓶颈过窄。它像 activation function 一样工作，不需要 reconstruction loss、contrastive loss 或额外训练阶段。

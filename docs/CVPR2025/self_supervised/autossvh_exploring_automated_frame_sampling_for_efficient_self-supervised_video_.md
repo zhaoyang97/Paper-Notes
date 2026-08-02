@@ -40,7 +40,7 @@ AutoSSVH由三个主要组件构成：(1) Grade-Net帧评分网络，(2) Gumbel-
 
 Grade-Net是一个轻量级MLP，为视频中的每一帧分配一个重要性分数：
 
-$$g_i = 	ext{MLP}(f_i), \quad f_i = 	ext{ResNet}(I_i)$$
+$$g_i = \text{MLP}(f_i), \quad f_i = \text{ResNet}(I_i)$$
 
 其中 $f_i$ 是第 $i$ 帧的预提取CNN特征，$g_i \in \mathbb{R}$ 是标量重要性分数。
 
@@ -50,19 +50,19 @@ $$g_i = 	ext{MLP}(f_i), \quad f_i = 	ext{ResNet}(I_i)$$
 
 标准的TopK操作是不可微分的，无法进行梯度传播。AutoSSVH使用Gumbel-Softmax技巧实现可微分的离散采样：
 
-$$y_i = rac{\exp((g_i + G_i) / 	au)}{\sum_j \exp((g_j + G_j) / 	au)}$$
+$$y_i = \frac{\exp((g_i + G_i) / \tau)}{\sum_j \exp((g_j + G_j) / \tau)}$$
 
-其中 $G_i \sim 	ext{Gumbel}(0, 1)$ 是Gumbel噪声，$	au$ 是温度参数。
+其中 $G_i \sim \text{Gumbel}(0, 1)$ 是Gumbel噪声，$\tau$ 是温度参数。
 
 在训练时，使用Straight-Through Estimator：前向传播取硬TopK（离散选择），反向传播使用软Gumbel-Softmax权重（连续梯度）。
 
-温度 $	au$ 随训练进行逐步退火：$	au_t = \max(	au_{\min}, 	au_0 \cdot \exp(-\gamma t))$。
+温度 $\tau$ 随训练进行逐步退火：$\tau_t = \max(\tau_{\min}, \tau_0 \cdot \exp(-\gamma t))$。
 
 ### 梯度反转层（GRL）
 
 为防止Grade-Net退化为简单的帧特征差异度量（可能与哈希目标不一致），AutoSSVH引入梯度反转层进行对抗训练：
 
-$$	ext{GRL}(x) = x \quad (	ext{前向}), \quad rac{\partial 	ext{GRL}}{\partial x} = -\lambda I \quad (	ext{反向})$$
+$$\text{GRL}(x) = x \quad (\text{前向}), \quad \frac{\partial \text{GRL}}{\partial x} = -\lambda I \quad (\text{反向})$$
 
 GRL放置在Grade-Net和一个判别器之间。判别器试图从采样的帧中恢复视频语义，而Grade-Net在GRL作用下反向优化——选择能让判别器困惑的帧，迫使哈希网络不能依赖简单的帧选择策略，从而学到更鲁棒的表征。
 
@@ -76,7 +76,7 @@ GRL放置在Grade-Net和一个判别器之间。判别器试图从采样的帧�
 
 **P2Set对比损失**：每个视频生成多个哈希码（通过不同采样），使用组件投票法确定哈希中心，然后拉近同视频的不同采样结果、推远不同视频的哈希码：
 
-$$\mathcal{L}_{	ext{P2Set}} = -\log rac{\exp(	ext{sim}(h, c^+) / 	au)}{\exp(	ext{sim}(h, c^+) / 	au) + \sum_j \exp(	ext{sim}(h, c_j^-) / 	au)}$$
+$$\mathcal{L}_{\text{P2Set}} = -\log \frac{\exp(\text{sim}(h, c^+) / \tau)}{\exp(\text{sim}(h, c^+) / \tau) + \sum_j \exp(\text{sim}(h, c_j^-) / \tau)}$$
 
 ## 实验结果
 

@@ -63,7 +63,7 @@ $$
 p_t(x \mid x_1)=\mathrm{softmax}(-\beta_t d(x,x_1)).
 $$
 
-当 $t=0$ 时，$eta_0=0$，所有 token 概率相同，相当于均匀类别噪声；当 $t \rightarrow 1$ 时，$eta_t \rightarrow \infty$，概率集中到距离目标最近、也就是目标 token 自身。中间时间步的 token 则按照 embedding 距离逐渐偏向真实 token。作者进一步把调度器写成 $eta_t=c(\frac{t}{1-t})^\alpha$，通过 $c$ 和 $\alpha$ 控制 $t$ 与平均扰动距离 $d(x_t,x_1)$ 之间的关系。
+当 $t=0$ 时，$\beta_0=0$，所有 token 概率相同，相当于均匀类别噪声；当 $t \rightarrow 1$ 时，$\beta_t \rightarrow \infty$，概率集中到距离目标最近、也就是目标 token 自身。中间时间步的 token 则按照 embedding 距离逐渐偏向真实 token。作者进一步把调度器写成 $\beta_t=c(\frac{t}{1-t})^\alpha$，通过 $c$ 和 $\alpha$ 控制 $t$ 与平均扰动距离 $d(x_t,x_1)$ 之间的关系。
 
 这个设计的关键不是“换一个 softmax 公式”，而是让离散扩散获得类似连续扩散里噪声强度的连续刻度。论文发现，当 $t$ 和 noisy token 到 clean token 的 embedding 距离近似线性相关时，模型更容易学习从粗语义到细节的层级恢复；如果路径太弯或太集中，训练时间的大量区间会对应过强或过弱的扰动，模型看到的难度分布就会失衡。
 

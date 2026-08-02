@@ -59,7 +59,7 @@ tags:
 常用的 Hill 估计器给出：
 
 $$
-	ext{PL\_Alpha\_Hill}=1+\frac{k}{\sum_{i=1}^{k}\ln\frac{\lambda_{n-i+1}}{\lambda_{n-k}}}
+\text{PL\_Alpha\_Hill}=1+\frac{k}{\sum_{i=1}^{k}\ln\frac{\lambda_{n-i+1}}{\lambda_{n-k}}}
 $$
 
 经验上，PL_Alpha 越大常被解读为该层训练不充分。

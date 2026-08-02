@@ -62,7 +62,7 @@ SAIL 分两部分。第一部分（Part I）是**对齐评估**：通过 alignme
 
 3. **Sigmoid 损失（替代 InfoNCE）**:
     - 做什么：用二分类 Sigmoid 损失替代 CLIP 的 InfoNCE 对比损失
-    - 核心公式：$\mathcal{L} = -rac{1}{|\mathcal{B}|} \sum_i \sum_j \log rac{1}{1 + e^{z_{ij}(-t\hat{\mathbf{x}}_i \cdot \hat{\mathbf{y}}_j + b)}}$，其中 {ij}=1$ 当 =j$，否则 569XZgilms1$
+    - 核心公式：$\mathcal{L} = -\frac{1}{|\mathcal{B}|} \sum_i \sum_j \log \frac{1}{1 + e^{z_{ij}(-t\hat{\mathbf{x}}_i \cdot \hat{\mathbf{y}}_j + b)}}$，其中 {ij}=1$ 当 =j$，否则 569XZgilms1$
     - 效果：相比 InfoNCE，ImageNet +5.3%，T2I +9.3%，I2T +13.5%
     - 进一步优化：用 $|\mathcal{B}|^2$（所有对）替代 $|\mathcal{B}|$（仅正对）做归一化，让正负样本贡献更均衡，再提升约 1%
     - 设计动机：Sigmoid 损失去掉了 softmax 归一化的计算开销，对困难负样本更敏感

@@ -50,7 +50,7 @@ ClimbingCap 由三个阶段组成：(1) 分离坐标解码（SCD）——RGB 估
 
 1. **分离坐标解码（Separate Coordinate Decoding）**:
     - 做什么：分别在相机坐标和全局坐标系中预测人体运动参数
-    - 核心思路：点云通过外参矩阵 $\mathcal{P}_c = \Omega_{w2c} \cdot \mathcal{P}_w$ 从世界坐标转到相机坐标。RGB 图像通过 ViT 提取视觉特征，点云通过 PointNet++ 提取几何特征。Camera Coordinate Decoder 迭代更新 SMPL 姿态 $	heta$、体型 $eta$ 和相机平移 $\Delta c$；Global Coordinate Decoder 迭代更新全局平移 $\Gamma^{trans}$
+    - 核心思路：点云通过外参矩阵 $\mathcal{P}_c = \Omega_{w2c} \cdot \mathcal{P}_w$ 从世界坐标转到相机坐标。RGB 图像通过 ViT 提取视觉特征，点云通过 PointNet++ 提取几何特征。Camera Coordinate Decoder 迭代更新 SMPL 姿态 $\theta$、体型 $\beta$ 和相机平移 $\Delta c$；Global Coordinate Decoder 迭代更新全局平移 $\Gamma^{trans}$
     - 设计动机：相机坐标和全局坐标的信息来源不同（RGB 擅长姿态，LiDAR 擅长定位），分开解码可各取所长
 
 2. **后处理优化（三个损失函数）**:
@@ -67,7 +67,7 @@ ClimbingCap 由三个阶段组成：(1) 分离坐标解码（SCD）——RGB 估
 
 ### 损失函数 / 训练策略
 
-- SCD 阶段总损失：$\mathcal{L} = \mathcal{L}_{kp3d} + \mathcal{L}_{kp2d} + \mathcal{L}_	heta^{smpl} + \mathcal{L}_eta^{smpl} + \mathcal{L}_{traj}$
+- SCD 阶段总损失：$\mathcal{L} = \mathcal{L}_{kp3d} + \mathcal{L}_{kp2d} + \mathcal{L}_\theta^{smpl} + \mathcal{L}_\beta^{smpl} + \mathcal{L}_{traj}$
 - 后处理阶段用 Adam 优化器优化全局姿态
 - 半监督阶段使用教师-学生框架
 
