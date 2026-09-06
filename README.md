@@ -19,8 +19,7 @@
 
 ## 💬 问题反馈
 
-Paper Notes 交流群: `1094559400`  
-<img src="docs/assets/qq-group-qr.png" width="180" alt="Paper Notes QQ 群二维码">
+欢迎提issue.
 
 ## 🎉 版本发布
 
