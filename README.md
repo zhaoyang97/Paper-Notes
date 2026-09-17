@@ -1,6 +1,8 @@
 <p>
-  <img src="docs/assets/papernotes-logo-horizontal.svg"
-       alt="PaperNotes" width="100%">
+  <a href="https://papernotes.org/">
+    <img src="docs/assets/papernotes-logo-horizontal.svg"
+         alt="papernotes.org · AI论文笔记" width="100%">
+  </a>
 </p>
 
 # 📚 AI Paper Notes
