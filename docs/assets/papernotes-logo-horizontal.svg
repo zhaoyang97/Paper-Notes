@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200">
+  <style>
+    .background { fill: #fff; }
+    .wordmark { fill: #26304A; }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #0D1117; }
+      .wordmark { fill: #F0F3FA; }
+    }
+  </style>
+  <rect class="background" width="1000" height="200"/>
+  <g transform="translate(24 20) scale(2.5)">
+    <defs>
+      <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#7C4DFF"/>
+        <stop offset="100%" stop-color="#448AFF"/>
+      </linearGradient>
+    </defs>
+    <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#g)"/>
+    <path d="M32 16 C32 16 22 14 14 16 L14 42 C22 40 32 42 32 42 C32 42 42 40 50 42 L50 16 C42 14 32 16 32 16Z" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="32" y1="16" x2="32" y2="42" stroke="#fff" stroke-width="2"/>
+    <g stroke="#fff" stroke-width="1.2" opacity="0.6">
+      <path d="M19 23H27 M19 29H27 M19 35H27 M37 23H45 M37 29H45 M37 35H45"/>
+    </g>
+    <text x="32" y="56" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="11" fill="#fff" letter-spacing="1">AI</text>
+  </g>
+  <text class="wordmark" x="210" y="131" font-family="Arial,sans-serif" font-size="104" font-weight="bold">papernotes.org</text>
+</svg>

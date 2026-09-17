@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="docs/assets/papernotes-logo-horizontal.svg" alt="PaperNotes" width="720">
+</p>
+
 # 📚 AI Paper Notes
 <!-- [![Stars](https://img.shields.io/github/stars/zhaoyang97/Paper-Notes?style=social)](https://github.com/zhaoyang97/Paper-Notes/stargazers)
 [![Notes](https://img.shields.io/badge/笔记-13%2C628%20篇-blue)](https://papernotes.org/)
