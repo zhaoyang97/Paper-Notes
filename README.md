@@ -1,5 +1,6 @@
-<p align="center">
-	<img src="docs/assets/papernotes-logo-horizontal.svg" alt="PaperNotes" width="720">
+<p>
+  <img src="docs/assets/papernotes-logo-horizontal.svg"
+       alt="PaperNotes" width="100%">
 </p>
 
 # 📚 AI Paper Notes
