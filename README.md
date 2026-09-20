@@ -26,7 +26,10 @@
 
 ## 💬 问题反馈
 
-欢迎提issue.
+欢迎反馈站点使用与内容问题。如果您希望自己的论文被本站收录或从本站下架、修改相关论文解读，或有其他意见与建议，可通过以下两种方式联系我们：
+
+- 提交 Issue
+- 发送邮件至 [contact@papernotes.org](mailto:contact@papernotes.org)
 
 ## 🎉 版本发布
 
