@@ -30,6 +30,8 @@
 
 - 提交 [Issue](https://github.com/zhaoyang97/Paper-Notes/issues)
 - 发送邮件至 [contact@papernotes.org](mailto:contact@papernotes.org)
+- 加入 Paper Notes 交流群: `1094559400`  
+<img src="docs/assets/qq-group-qr.png" width="180" alt="Paper Notes QQ  群二维码">
 
 ## 🎉 版本发布
 
