@@ -266,8 +266,6 @@
 <!-- Desktop: create search worker lazily only when user focuses on search input -->
 <script>
 (function() {
-  var isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
   // ── Bilingual query expansion mapping (中↔英) ──
   var P = [
     "上下文学习|in-context learning","持续学习|continual learning","课程学习|curriculum learning",
@@ -317,42 +315,8 @@
   }
   window.__pnExpand = expand;
 
-  // ── Press Enter in the header search box → open the full /search/ results page ──
-  document.addEventListener('keydown', function(e) {
-    if (e.key !== 'Enter') return;
-    var t = e.target;
-    if (!t || !t.classList || !t.classList.contains('md-search__input')) return;
-    e.preventDefault(); e.stopPropagation();
-    var i = location.pathname.indexOf('/search/');
-    var b = i >= 0 ? location.pathname.slice(0, i + 1) : '/';
-    var v = t.value.trim();
-    location.href = b + 'search/' + (v ? '?q=' + encodeURIComponent(v) : '');
-  }, true);
-
-  // ── Mobile: disable search worker entirely, use Bing ──
-  if (isMobile) {
-    if (window.Worker) {
-      var origWorkerMobile = window.Worker;
-      window.Worker = function(url) {
-        if (typeof url === 'string' && url.indexOf('search') !== -1) {
-          return { postMessage: function(){}, terminate: function(){}, onmessage: null };
-        }
-        return new origWorkerMobile(url);
-      };
-    }
-    document.addEventListener('click', function(e) {
-      var el = e.target.closest('label[for="__search"], .md-search__icon, .md-header__button[data-md-component="search"]');
-      if (!el) return;
-      e.preventDefault(); e.stopPropagation();
-      var q = prompt('搜索论文笔记');
-      if (q && q.trim()) {
-        window.open('https://www.bing.com/search?q=site:papernotes.org+' + encodeURIComponent(q.trim()), '_blank');
-      }
-    }, true);
-    return;
-  }
-
-  // ── Desktop: lazy-load search worker (only download index when user opens search) ──
+  // The global-search.js extra script owns the header search UI. Keep Material's
+  // worker lazy, but do not redirect to a separate empty search page.
   if (window.Worker) {
     var OrigWorker = window.Worker;
     window.Worker = function(url, opts) {

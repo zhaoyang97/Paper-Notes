@@ -20,8 +20,8 @@ Strategy
      is tagged so) while costing only ~1.8 MB over title-only, vs the ~250 MB
      a full-body index would weigh.
   4. Preserve the first doc's `tags` so tag-based filtering still works.
-  5. Filter low-frequency tags (freq < MIN_TAG_FREQ) — long-tail paper-specific
-     tags explode the lunr token table without aiding discoverability.
+  5. Preserve all non-conference tags, including low-frequency tags, so a
+     user can search for a paper-specific term.
   6. Drop conference-name tags (the conference is already in the URL path and
      the location field is indexed separately).
   7. Skip conference-root / section-index stubs (they have huge nav-derived
@@ -31,14 +31,18 @@ Strategy
 import json
 import os
 import re
-from collections import Counter, OrderedDict
+import sys
+from collections import OrderedDict
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from scripts.tag_aliases import load_registry, load_rules, normalize
 
 _CONF_PATTERN = re.compile(
-    r"^(ICLR|CVPR|ACL|NeurIPS|AAAI|ECCV|ICCV|ICML|EMNLP|NAACL)\s*\d{4}$",
+    r"^(ICLR|CVPR|ACL|NeurIPS|AAAI|ECCV|ICCV|ICML|EMNLP|NAACL)\s*\d{4}"
+    r"(?:\s*(?:\([^)]*\)|\*{0,2}(?:oral|spotlight|highlight|findings)\*{0,2}))?$",
     re.IGNORECASE,
 )
-
-MIN_TAG_FREQ = 5
 
 # Body metadata line listing a paper's keywords, e.g.
 #   **关键词**: diffusion model, image editing      (zh notes)
@@ -99,6 +103,9 @@ def on_post_build(config, **kwargs):
     original_size = os.path.getsize(index_path)
 
     docs_dir = config["docs_dir"]
+    alias_rules = load_rules(docs_dir)
+    print(f"[slim_search_index] validated {len(alias_rules)} tag alias rules")
+    registry, registry_terms = load_registry(docs_dir)
 
     # ── Pass 1: collapse section entries, keep only the base page title ──
     pages: "OrderedDict[str, dict]" = OrderedDict()
@@ -122,31 +129,34 @@ def on_post_build(config, **kwargs):
             if tags:
                 pages[base]["_tags"].update(tags)
 
-    # ── Pass 2: tag frequency filtering ──
-    tag_freq: "Counter[str]" = Counter()
-    for page in pages.values():
-        for tag in page["_tags"]:
-            if _CONF_PATTERN.match(tag.strip()):
-                continue
-            tag_freq[tag] += 1
-    keep_tags = {t for t, c in tag_freq.items() if c >= MIN_TAG_FREQ}
-
     conf_removed = 0
-    rare_removed = 0
     for page in pages.values():
         raw_tags = page.pop("_tags")
         kept = []
         for tag in raw_tags:
             if _CONF_PATTERN.match(tag.strip()):
                 conf_removed += 1
-            elif tag not in keep_tags:
-                rare_removed += 1
             else:
                 kept.append(tag)
         if kept:
             page["tags"] = kept
 
     slim_docs = list(pages.values())
+    observed_terms = {
+        normalize(tag)
+        for page in slim_docs
+        for tag in page.get("tags", [])
+    }
+    missing = sorted(observed_terms - registry_terms)
+    if missing:
+        raise ValueError(
+            "tag_registry.json is stale; run scripts/build_tag_registry.py. "
+            f"Missing {len(missing)} tags, first values: {missing[:10]}"
+        )
+    print(
+        f"[slim_search_index] tag registry covers {len(registry.get('tags', []))} "
+        f"non-conference tag spellings with {len(registry.get('rules', []))} rules"
+    )
     data["docs"] = slim_docs
 
     kw_pages = sum(1 for p in slim_docs if p.get("text"))
@@ -159,5 +169,5 @@ def on_post_build(config, **kwargs):
         f"[slim_search_index] {original_count} -> {len(slim_docs)} docs "
         f"({kw_pages} with keywords), "
         f"{original_size / 1024 / 1024:.1f} MB -> {new_size / 1024 / 1024:.1f} MB; "
-        f"tags kept={len(keep_tags)} (dropped {rare_removed} rare, {conf_removed} conf)"
+        f"tags preserved={sum(len(p.get('tags', [])) for p in slim_docs)} (dropped {conf_removed} conf)"
     )

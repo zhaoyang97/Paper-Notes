@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "rules": [
+    {"canonical": "JEPA", "aliases": ["jepa", "Joint Embedding Predictive Architecture", "Joint Embedding Predictive Architectures", "joint-embedding predictive architecture", "joint-embedding predictive architectures", "联合嵌入预测架构"], "relation": "abbreviation", "modes": ["exact"], "note": "缩写/全称仅用于精细搜索；不将 I-JEPA、V-JEPA 等具体变体直接归并为同义词。"},
+    {"canonical": "self-supervised learning", "aliases": ["Self-Supervised Learning", "自监督学习"]},
+    {"canonical": "contrastive learning", "aliases": ["Contrastive Learning", "对比学习"]},
+    {"canonical": "knowledge distillation", "aliases": ["Knowledge Distillation", "知识蒸馏"]},
+    {"canonical": "fine-tuning", "aliases": ["fine tuning", "Fine-Tuning", "微调"]},
+    {"canonical": "pre-training", "aliases": ["pretraining", "Pre-Training", "预训练"]},
+    {"canonical": "reinforcement learning", "aliases": ["Reinforcement Learning", "强化学习"]},
+    {"canonical": "diffusion model", "aliases": ["diffusion models", "Diffusion Model", "扩散模型"]},
+    {"canonical": "object detection", "aliases": ["Object Detection", "目标检测"]},
+    {"canonical": "semantic segmentation", "aliases": ["Semantic Segmentation", "语义分割"]},
+    {"canonical": "image generation", "aliases": ["Image Generation", "图像生成"]},
+    {"canonical": "multimodal", "aliases": ["multi-modal", "Multi-Modal", "多模态"]},
+    {"canonical": "world model", "aliases": ["world models", "World Model", "世界模型"]},
+    {"canonical": "knowledge graph", "aliases": ["Knowledge Graph", "知识图谱"]},
+    {"canonical": "部分信息分解", "aliases": ["偏信息分解", "Partial Information Decomposition"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "分布匹配蒸馏", "aliases": ["Distribution Matching Distillation"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "同时矩阵对角化", "aliases": ["Simultaneous Matrix Diagonalization"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "向量符号架构", "aliases": ["Vector Symbolic Architecture"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "因果语言建模", "aliases": ["Causal Language Modeling"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "图结构学习", "aliases": ["Graph Structure Learning"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "多平面图像", "aliases": ["Multiplane Image"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "多项式混沌展开", "aliases": ["Polynomial Chaos Expansion"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "对比敏感度函数", "aliases": ["Contrast Sensitivity Function"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "局部内在维度", "aliases": ["Local Intrinsic Dimensionality"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "稀疏自编码器", "aliases": ["Sparse Autoencoder"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "脉冲神经网络", "aliases": ["Spiking Neural Network"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "药物-药物相互作用", "aliases": ["药物相互作用", "Drug-Drug Interaction"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "基于草图的图像检索", "aliases": ["草图检索", "Sketch-Based Image Retrieval"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "预测增强推断", "aliases": ["Prediction-Powered Inference"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "高斯差分隐私", "aliases": ["Gaussian Differential Privacy"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "模型预测控制", "aliases": ["Model Predictive Control"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "正交微调", "aliases": ["Orthogonal Fine-Tuning"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "混沌边缘", "aliases": ["Edge of Chaos"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "物质点法", "aliases": ["Material Point Method"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "生成式奖励模型", "aliases": ["Generative Reward Model"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "电子设计自动化", "aliases": ["Electronic Design Automation"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "直接反馈对齐", "aliases": ["Direct Feedback Alignment"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "边归因修补", "aliases": ["边归因", "Edge Attribution Patching"], "relation": "translation", "modes": ["rough", "exact"]},
+    {"canonical": "逆向光刻技术", "aliases": ["逆光刻", "Inverse Lithography Technology"], "relation": "translation", "modes": ["rough", "exact"]}
+    ,{"canonical": "假阴性率", "aliases": ["假阴率", "False Negative Rate"], "relation": "translation", "modes": ["rough", "exact"]}
+    ,{"canonical": "假阴性率", "aliases": ["FNR"], "relation": "abbreviation", "modes": ["exact"]}
+    ,{"canonical": "分布外", "aliases": ["分布外问题", "Out-of-Distribution"], "relation": "translation", "modes": ["rough", "exact"]}
+    ,{"canonical": "分布外", "aliases": ["OOD"], "relation": "abbreviation", "modes": ["exact"]}
+    ,{"canonical": "证据下界", "aliases": ["变分下界", "Evidence Lower Bound"], "relation": "translation", "modes": ["rough", "exact"]}
+    ,{"canonical": "证据下界", "aliases": ["ELBO"], "relation": "abbreviation", "modes": ["exact"]}
+    ,{"canonical": "人-物交互", "aliases": ["人物交互", "Human-Object Interaction"], "relation": "translation", "modes": ["rough", "exact"]}
+    ,{"canonical": "人-物交互", "aliases": ["HOI"], "relation": "abbreviation", "modes": ["exact"]}
+    ,{"canonical": "直接偏好优化", "aliases": ["Direct Preference Optimization"], "relation": "translation", "modes": ["rough", "exact"]}
+    ,{"canonical": "直接偏好优化", "aliases": ["DPO"], "relation": "abbreviation", "modes": ["exact"]}
+    ,{"canonical": "真实世界图像超分辨率", "aliases": ["真实图像超分", "Real-World Image Super-Resolution"], "relation": "translation", "modes": ["rough", "exact"]}
+    ,{"canonical": "真实世界图像超分辨率", "aliases": ["Real-ISR"], "relation": "abbreviation", "modes": ["exact"]}
+  ]
+}

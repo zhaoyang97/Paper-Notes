@@ -24,13 +24,13 @@ Usage: python scripts/trim_search_index.py [site_dir]
 import json
 import re
 import sys
-from collections import Counter
 from pathlib import Path
 
 # Conference name pattern. These tags are removed because the conference is
 # already encoded in the URL path, so indexing them again is redundant.
 _CONF_PATTERN = re.compile(
-    r'^(ICLR|CVPR|ACL|NeurIPS|AAAI|ECCV|ICCV|ICML|EMNLP|NAACL)\s*\d{4}$',
+    r'^(ICLR|CVPR|ACL|NeurIPS|AAAI|ECCV|ICCV|ICML|EMNLP|NAACL)\s*\d{4}'
+    r'(?:\s*(?:\([^)]*\)|\*{0,2}(?:oral|spotlight|highlight|findings)\*{0,2}))?$',
     re.IGNORECASE,
 )
 
@@ -38,8 +38,6 @@ _CONF_PATTERN = re.compile(
 # discarded. In a 13K-paper corpus the long tail of single-paper tags adds
 # zero discoverability value but balloons the lunr inverted index from ~2K
 # tokens to 34K, which freezes the desktop search worker on init.
-MIN_TAG_FREQ = 5
-
 # Body metadata line listing a paper's keywords, e.g.
 #   **关键词**: diffusion model, image editing      (zh notes)
 #   **Keywords**: diffusion model, image editing    (en notes)
@@ -117,26 +115,14 @@ def main():
     # (30K+ unique tags would blow up the inverted index). Bilingual search is
     # handled client-side.
 
-    # Compute global tag frequency first, used to drop rare (paper-specific)
-    # noise tags.
-    tag_freq: Counter[str] = Counter()
-    for doc in pages.values():
-        for tag in doc["_tags"]:
-            if not _CONF_PATTERN.match(tag.strip()):
-                tag_freq[tag] += 1
-    keep_tags = {t for t, c in tag_freq.items() if c >= MIN_TAG_FREQ}
-
     conf_removed = 0
-    rare_removed = 0
     for doc in pages.values():
         all_tags = list(doc.pop("_tags"))
-        # Filter out conference-name tags and rare tags.
+        # Filter out conference-name tags only; preserve every other tag.
         filtered_tags = []
         for tag in all_tags:
             if _CONF_PATTERN.match(tag.strip()):
                 conf_removed += 1
-            elif tag not in keep_tags:
-                rare_removed += 1
             else:
                 filtered_tags.append(tag)
 
@@ -153,9 +139,8 @@ def main():
     print(f"  ✓ search_index.json: {original_size/1024/1024:.2f} MB → {new_size/1024/1024:.2f} MB")
     print(f"    merged sections: {original_count} → {len(data['docs'])} docs")
     print(f"    removed {conf_removed} conference name tags (redundant with URL)")
-    print(f"    removed {rare_removed} rare tag occurrences (freq < {MIN_TAG_FREQ})")
-    print(f"    unique tags kept: {len(keep_tags)} (was {len(tag_freq)})")
-    print(f"    bilingual search: handled client-side (no synonyms in index)")
+    print(f"    preserved all non-conference tags; removed {conf_removed} conference tags")
+    print(f"    alias expansion: handled client-side")
 
 
 if __name__ == "__main__":

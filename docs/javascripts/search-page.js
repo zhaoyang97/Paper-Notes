@@ -24,7 +24,7 @@
     zh: {
       placeholder: "搜索论文笔记…",
       loading: "正在加载搜索索引…",
-      empty: "输入关键词开始搜索（匹配标题 + 关键词）",
+      empty: "输入关键词开始搜索（多个词条用 # 分隔，例如：扩散模型#图像生成）",
       none: "没有找到匹配的笔记。",
       count: function (n, from, to, page, pages) {
         return pages > 1
@@ -42,7 +42,7 @@
     en: {
       placeholder: "Search paper notes…",
       loading: "Loading search index…",
-      empty: "Type a keyword to search (matches title + keywords)",
+      empty: "Type a keyword to search (use # between terms, e.g. diffusion#image generation)",
       none: "No matching notes found.",
       count: function (n, from, to, page, pages) {
         return pages > 1
@@ -65,6 +65,9 @@
   var conferenceNames = [];
   var building = false;
   var waiters = [];
+  var aliasGroups = null;
+  var aliasLoading = false;
+  var aliasWaiters = [];
 
   function base() {
     var i = location.pathname.indexOf("/search/");
@@ -75,10 +78,68 @@
     // Reuse the bilingual (中↔英) expansion dictionary from overrides/main.html
     // when available, so the full page matches the dropdown's recall.
     try {
-      return typeof window.__pnExpand === "function" ? window.__pnExpand(q) : q;
+      var expanded = typeof window.__pnExpand === "function" ? window.__pnExpand(q) : q;
+      if (!aliasGroups) return expanded;
+      var normalized = q.toLowerCase().replace(/[‐‑]/g, "-").replace(/\s+/g, " ").trim();
+      var additions = [];
+      for (var i = 0; i < aliasGroups.length; i++) {
+        var group = aliasGroups[i];
+        if (group.modes && group.modes.indexOf("rough") < 0) continue;
+        var terms = [group.canonical].concat(group.aliases || []);
+        for (var j = 0; j < terms.length; j++) {
+          var alias = terms[j].toLowerCase().replace(/[‐‑]/g, "-").replace(/\s+/g, " ").trim();
+          if (normalized === alias || normalized.indexOf(alias) >= 0) {
+            additions.push(group.canonical);
+            additions = additions.concat(group.aliases);
+            break;
+          }
+        }
+      }
+      return expanded + (additions.length ? " " + additions.join(" ") : "");
     } catch (e) {
       return q;
     }
+  }
+
+  function normalizePhrase(s) {
+    return String(s || "")
+      .toLowerCase()
+      .replace(/[‐‑]/g, "-")
+      .replace(/[^a-z0-9\u4e00-\u9fff]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function aliasVariants(text, mode) {
+    if (!aliasGroups) return [];
+    var q = normalizePhrase(text);
+    var out = [];
+    var seen = Object.create(null);
+    for (var i = 0; i < aliasGroups.length; i++) {
+      var group = aliasGroups[i];
+      if (group.modes && group.modes.indexOf(mode) < 0) continue;
+      var terms = [group.canonical].concat(group.aliases || []);
+      for (var j = 0; j < terms.length; j++) {
+        if (q !== normalizePhrase(terms[j])) continue;
+        for (var k = 0; k < terms.length; k++) {
+          var key = normalizePhrase(terms[k]);
+          if (!seen[key]) {
+            seen[key] = true;
+            out.push(terms[k]);
+          }
+        }
+        break;
+      }
+    }
+    return out;
+  }
+
+  function phraseInText(text, phrase) {
+    var haystack = " " + normalizePhrase(text) + " ";
+    var needle = normalizePhrase(phrase);
+    if (!needle) return false;
+    if (haystack.indexOf(" " + needle + " ") >= 0) return true;
+    return /[\u4e00-\u9fff]/.test(needle) && haystack.indexOf(needle) >= 0;
   }
 
   // CJK-aware tokenizer: Latin tokens (len >= 2) + CJK unigrams & bigrams.
@@ -247,6 +308,11 @@
 
   function buildDocs(raw) {
     var docs = [];
+    var tagFreq = Object.create(null);
+    for (var r = 0; r < raw.length; r++) {
+      var rawTags = raw[r].tags || [];
+      for (var t = 0; t < rawTags.length; t++) tagFreq[rawTags[t]] = (tagFreq[rawTags[t]] || 0) + 1;
+    }
     for (var i = 0; i < raw.length; i++) {
       var d = raw[i];
       var loc = d.location || "";
@@ -257,11 +323,13 @@
       if (!title) continue;
       var kw = d.text || "";
       var kwList = kw ? kw.split(/[,\u3001]\s*/).filter(Boolean) : [];
-      var tags = (d.tags || []).join(" ");
-      var map = Object.create(null);
-      addTokens(map, title, 3);
-      addTokens(map, kw, 2);
-      addTokens(map, tags, 2);
+      var allTags = d.tags || [];
+      var tags = allTags.join(" ");
+      var roughTags = allTags.filter(function (tag) { return tagFreq[tag] >= 5; }).join(" ");
+      var roughMap = Object.create(null);
+      addTokens(roughMap, title, 3);
+      addTokens(roughMap, kw, 2);
+      addTokens(roughMap, roughTags, 2);
       docs.push({
         loc: loc,
         title: title,
@@ -269,7 +337,8 @@
         area: prettyArea(segs[1]),
         kw: kw,
         kwList: kwList,
-        map: map,
+        roughMap: roughMap,
+        searchText: title + " " + kw + " " + tags,
         titleNorm: title.toLowerCase(),
         kwNorm: kw.toLowerCase(),
         tlen: title.length
@@ -286,17 +355,38 @@
     waiters.push(cb);
     if (building) return;
     building = true;
-    fetch(base() + "search/search_index.json")
-      .then(function (r) {
-        return r.json();
-      })
-      .then(function (data) {
-        docsCache = buildDocs(data.docs || []);
-        flush(null);
-      })
-      .catch(function (err) {
-        flush(err);
-      });
+    function loadAliases(done) {
+      if (aliasGroups) {
+        done();
+        return;
+      }
+      aliasWaiters.push(done);
+      if (aliasLoading) return;
+      aliasLoading = true;
+      fetch(base() + "tag_search_rules.json")
+        .then(function (r) {
+          return r.ok ? r.json() : fetch(base() + "tag_aliases.json").then(function (fallback) {
+            return fallback.ok ? fallback.json() : { rules: [] };
+          });
+        })
+        .then(function (data) { aliasGroups = data.rules || []; })
+        .catch(function () { aliasGroups = []; })
+        .finally(function () {
+          aliasLoading = false;
+          var aw = aliasWaiters;
+          aliasWaiters = [];
+          for (var ai = 0; ai < aw.length; ai++) aw[ai]();
+        });
+    }
+    loadAliases(function () {
+      fetch(base() + "search/search_index.json")
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          docsCache = buildDocs(data.docs || []);
+          flush(null);
+        })
+        .catch(function (err) { flush(err); });
+    });
     function flush(err) {
       building = false;
       var ws = waiters;
@@ -305,18 +395,33 @@
     }
   }
 
-  function runSearch(q, conferences) {
+  function runSearch(q, conferences, mode) {
     var qn = q.toLowerCase().replace(/\s+/g, " ").trim();
-    var qToks = [];
-    var seen = Object.create(null);
-    var raw = tokenize(expand(q));
-    for (var i = 0; i < raw.length; i++) {
-      if (!seen[raw[i]]) {
-        seen[raw[i]] = 1;
-        qToks.push(raw[i]);
-      }
-    }
-    if (!qToks.length) return [];
+    // A#B means AND in both modes. Rough mode uses token overlap; exact mode
+    // requires one complete normalized alias phrase per group.
+    var groups = q
+      .split("#")
+      .map(function (part) {
+        return part.trim();
+      })
+      .filter(Boolean)
+      .map(function (part) {
+        var seen = Object.create(null);
+        var tokens = tokenize(expand(part));
+        return {
+          text: part,
+          aliases: aliasVariants(part, "exact"),
+          tokens: tokens.filter(function (token) {
+            if (seen[token]) return false;
+            seen[token] = true;
+            return true;
+          })
+        };
+      })
+      .filter(function (group) {
+        return group.tokens.length > 0;
+      });
+    if (!groups.length) return [];
     var conferenceSet = null;
     if (conferences !== null) {
       conferenceSet = Object.create(null);
@@ -326,20 +431,48 @@
     for (var d = 0; d < docsCache.length; d++) {
       var doc = docsCache[d];
       if (conferenceSet && !conferenceSet[doc.venue]) continue;
-      var s = 0,
-        matched = 0;
-      for (var k = 0; k < qToks.length; k++) {
-        var w = doc.map[qToks[k]];
-        if (w) {
-          s += w;
-          matched++;
+      var s = 0;
+      var matchedGroups = 0;
+      for (var g = 0; g < groups.length; g++) {
+        var groupScore = 0;
+        var groupMatched = 0;
+        if (mode === "exact") {
+          var variants = groups[g].aliases.length ? groups[g].aliases : [groups[g].text];
+          for (var v = 0; v < variants.length; v++) {
+            if (phraseInText(doc.searchText, variants[v])) {
+              groupScore = 10 + tokenize(variants[v]).length;
+              groupMatched = 1;
+              break;
+            }
+          }
+        } else {
+          var map = doc.roughMap;
+          for (var k = 0; k < groups[g].tokens.length; k++) {
+            var w = map[groups[g].tokens[k]];
+            if (w) {
+              groupScore += w;
+              groupMatched++;
+            }
+          }
         }
+        // Every # group is required to match this document.
+        if (!groupMatched) {
+          s = 0;
+          break;
+        }
+        s += groupScore * (0.7 + 0.3 * (groupMatched / groups[g].tokens.length));
+        matchedGroups++;
       }
-      if (s <= 0) continue;
-      s *= 0.4 + 0.6 * (matched / qToks.length); // favour matching all terms
-      if (qn.length >= 2) {
+      if (s <= 0 || matchedGroups !== groups.length) continue;
+      if (groups.length === 1 && qn.length >= 2) {
         if (doc.titleNorm.indexOf(qn) >= 0) s += 12; // near-exact title match
         else if (doc.kwNorm.indexOf(qn) >= 0) s += 4;
+      } else {
+        for (var b = 0; b < groups.length; b++) {
+          var groupNorm = groups[b].text.toLowerCase().replace(/\s+/g, " ");
+          if (groupNorm.length >= 2 && doc.titleNorm.indexOf(groupNorm) >= 0) s += 6;
+          else if (groupNorm.length >= 2 && doc.kwNorm.indexOf(groupNorm) >= 0) s += 2;
+        }
       }
       hits.push({ doc: doc, s: s });
     }
@@ -362,16 +495,19 @@
   // avoid highlighting one stray character everywhere). Longest first so
   // "\u56fe\u50cf\u62fc\u8d34" wins over its "\u56fe\u50cf" sub-bigram during range marking.
   function highlightTerms(q) {
-    var ex = expand(q);
     var set = Object.create(null);
-    var phrases = ex.toLowerCase().split(/\s+/);
-    for (var i = 0; i < phrases.length; i++) {
-      var p = phrases[i].replace(/[^a-z0-9\u4e00-\u9fff]+/g, "");
-      if (p.length >= 2) set[p] = 1;
-    }
-    var toks = tokenize(ex);
-    for (var j = 0; j < toks.length; j++) {
-      if (toks[j].length >= 2) set[toks[j]] = 1;
+    var expansions = q.split("#").map(function (part) { return expand(part.trim()); });
+    for (var i = 0; i < expansions.length; i++) {
+      var ex = expansions[i];
+      var phrases = ex.toLowerCase().split(/\s+/);
+      for (var p = 0; p < phrases.length; p++) {
+        var phrase = phrases[p].replace(/[^a-z0-9\u4e00-\u9fff]+/g, "");
+        if (phrase.length >= 2) set[phrase] = 1;
+      }
+      var toks = tokenize(ex);
+      for (var j = 0; j < toks.length; j++) {
+        if (toks[j].length >= 2) set[toks[j]] = 1;
+      }
     }
     var out = [];
     for (var k in set) out.push(k);
@@ -459,10 +595,15 @@
     }
   }
 
-  function searchUrl(q, page, conferences) {
+  function getMode() {
+    return /[?&]mode=exact(?:&|$)/.test(location.search) ? "exact" : "rough";
+  }
+
+  function searchUrl(q, page, conferences, mode) {
     var nq = (q || "").trim();
     var params = [];
     if (nq) params.push("q=" + encodeURIComponent(nq));
+    if (mode === "exact") params.push("mode=exact");
     if (conferences !== null && conferences.length !== conferenceNames.length) {
       params.push(
         "conference=" + encodeURIComponent(conferences.length ? conferences.join(",") : "none")
@@ -472,9 +613,9 @@
     return base() + "search/" + (params.length ? "?" + params.join("&") : "");
   }
 
-  function replaceSearchUrl(q, page, conferences) {
+  function replaceSearchUrl(q, page, conferences, mode) {
     try {
-      history.replaceState(null, "", searchUrl(q, page, conferences));
+      history.replaceState(null, "", searchUrl(q, page, conferences, mode));
     } catch (e) {}
   }
 
@@ -490,7 +631,7 @@
     return pager;
   }
 
-  function pageAnchor(q, conferences, page, label, className) {
+  function pageAnchor(q, conferences, page, label, className, mode) {
     return (
       '<button type="button" class="pn-page ' +
       className +
@@ -500,13 +641,15 @@
       encodeURIComponent(q) +
       '" data-conferences="' +
       encodeURIComponent((conferences || []).join(",")) +
+      '" data-mode="' +
+      encodeURIComponent(mode || "rough") +
       '">' +
       esc(label) +
       "</button>"
     );
   }
 
-  function renderPager(pager, q, conferences, page, totalPages) {
+  function renderPager(pager, q, conferences, page, totalPages, mode) {
     if (!pager) return;
     if (!q || totalPages <= 1) {
       pager.innerHTML = "";
@@ -521,11 +664,11 @@
     var html = "";
     html +=
       page > 1
-        ? pageAnchor(q, conferences, page - 1, T.prev, "pn-prev")
+        ? pageAnchor(q, conferences, page - 1, T.prev, "pn-prev", mode)
         : '<span class="pn-page pn-prev pn-disabled">' + esc(T.prev) + "</span>";
 
     if (start > 1) {
-      html += pageAnchor(q, conferences, 1, "1", "pn-number");
+      html += pageAnchor(q, conferences, 1, "1", "pn-number", mode);
       if (start > 2) html += '<span class="pn-page pn-ellipsis">…</span>';
     }
 
@@ -533,47 +676,47 @@
       html +=
         p === page
           ? '<span class="pn-page pn-number pn-current" aria-current="page">' + p + "</span>"
-          : pageAnchor(q, conferences, p, String(p), "pn-number");
+          : pageAnchor(q, conferences, p, String(p), "pn-number", mode);
     }
 
     if (end < totalPages) {
       if (end < totalPages - 1) html += '<span class="pn-page pn-ellipsis">…</span>';
-      html += pageAnchor(q, conferences, totalPages, String(totalPages), "pn-number");
+      html += pageAnchor(q, conferences, totalPages, String(totalPages), "pn-number", mode);
     }
 
     html +=
       page < totalPages
-        ? pageAnchor(q, conferences, page + 1, T.next, "pn-next")
+        ? pageAnchor(q, conferences, page + 1, T.next, "pn-next", mode)
         : '<span class="pn-page pn-next pn-disabled">' + esc(T.next) + "</span>";
 
     pager.innerHTML = html;
   }
 
-  function render(status, list, pager, q, page, conferences) {
+  function render(status, list, pager, q, page, conferences, mode) {
     q = (q || "").trim();
     if (!q) {
       status.textContent = T.empty;
       list.innerHTML = "";
-      renderPager(pager, q, conferences, 1, 0);
+      renderPager(pager, q, conferences, 1, 0, mode);
       return;
     }
     status.textContent = T.loading;
     list.innerHTML = "";
-    renderPager(pager, q, conferences, 1, 0);
+    renderPager(pager, q, conferences, 1, 0, mode);
     ensureIndex(function (err) {
       if (err) {
         status.textContent = T.failed;
         return;
       }
-      var hits = runSearch(q, conferences);
+      var hits = runSearch(q, conferences, mode);
       if (!hits.length) {
-        replaceSearchUrl(q, 1, conferences);
+        replaceSearchUrl(q, 1, conferences, mode);
         status.innerHTML = esc(T.none) + " · " + deepLink(q);
         return;
       }
       var totalPages = Math.ceil(hits.length / PAGE_SIZE);
       page = Math.min(Math.max(page || 1, 1), totalPages);
-      replaceSearchUrl(q, page, conferences);
+      replaceSearchUrl(q, page, conferences, mode);
       var start = (page - 1) * PAGE_SIZE;
       var end = Math.min(start + PAGE_SIZE, hits.length);
       status.innerHTML = T.count(hits.length, start + 1, end, page, totalPages) + " · " + deepLink(q);
@@ -620,6 +763,10 @@
       "#pn-search-box{margin:.4rem 0 1rem}" +
       "#pn-search-input{box-sizing:border-box;width:100%;min-width:0;font-size:1rem;padding:.6rem .8rem;border:1px solid var(--md-default-fg-color--lighter);border-radius:.4rem;background:var(--md-default-bg-color);color:var(--md-default-fg-color)}" +
       "#pn-search-input:focus{outline:none;border-color:var(--md-accent-fg-color)}" +
+      ".pn-search-mode{display:none;align-items:center;gap:.35rem;margin-top:.55rem;font-size:.8rem;color:var(--md-default-fg-color--light)}" +
+      "#pn-search-box:focus-within .pn-search-mode{display:inline-flex}" +
+      ".pn-search-mode.pn-search-mode-open{display:inline-flex}" +
+      "#pn-search-mode{padding:.25rem .4rem;font:inherit;color:inherit;background:var(--md-default-bg-color);border:1px solid var(--md-default-fg-color--lighter);border-radius:.3rem}" +
       "#pn-search-conference-filter{min-width:0;border:0;padding:0;margin:.65rem 0 0}" +
       "#pn-search-conference-filter legend{padding:0;color:var(--md-default-fg-color--light);font-size:.78rem;line-height:1.5}" +
       "#pn-search-conferences{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.3rem}" +
@@ -672,6 +819,8 @@
     if (!root) return; // not the search page
     injectStyle();
     var input = document.getElementById("pn-search-input");
+    var modeSelect = document.getElementById("pn-search-mode");
+    var modePicker = modeSelect ? modeSelect.closest(".pn-search-mode") : null;
     var conferenceFilter = document.getElementById("pn-search-conference-filter");
     var status = document.getElementById("pn-search-status");
     var list = document.getElementById("pn-search-results");
@@ -680,30 +829,42 @@
 
     input.placeholder = T.placeholder;
 
+    // Keep the search box visually clean until the user asks to choose a mode.
+    // The picker stays open while the user searches or changes the selection.
+    if (modePicker) {
+      input.addEventListener("click", function () {
+        modePicker.classList.add("pn-search-mode-open");
+      });
+    }
+
     var initialQ = getQ();
     var initialPage = getPage();
     var initialConferences = getConferences();
+    var initialMode = getMode();
+    if (modeSelect) modeSelect.value = initialMode;
     if (initialQ) input.value = initialQ;
 
     var timer = null;
-    function update(immediate, page, queryOverride, conferencesOverride) {
+    function update(immediate, page, queryOverride, conferencesOverride, modeOverride) {
       var q = typeof queryOverride === "string" ? queryOverride : input.value;
       if (typeof queryOverride === "string" && input.value !== q) input.value = q;
       var conferences = Array.isArray(conferencesOverride)
         ? applyConferenceSelection(conferenceFilter, conferencesOverride)
         : selectedConferences(conferenceFilter);
+      var mode = modeOverride || (modeSelect ? modeSelect.value : initialMode);
+      if (modeSelect && modeSelect.value !== mode) modeSelect.value = mode;
       var nq = q.trim();
       page = nq ? page || 1 : 1;
-      replaceSearchUrl(nq, page, conferences);
+      replaceSearchUrl(nq, page, conferences, mode);
       if (timer) {
         clearTimeout(timer);
         timer = null;
       }
       if (immediate) {
-        render(status, list, pager, q, page, conferences);
+        render(status, list, pager, q, page, conferences, mode);
       } else {
         timer = setTimeout(function () {
-          render(status, list, pager, q, page, conferences);
+          render(status, list, pager, q, page, conferences, mode);
         }, 180);
       }
     }
@@ -717,6 +878,7 @@
         update(true, 1);
       }
     });
+    if (modeSelect) modeSelect.addEventListener("change", function () { update(true, 1); });
     conferenceFilter.addEventListener("change", function (e) {
       if (e.target && e.target.id === "pn-search-all-conferences") {
         var inputs = conferenceInputs(conferenceFilter);
@@ -743,11 +905,13 @@
         var encoded = decodeURIComponent(target.getAttribute("data-conferences") || "");
         conferences = encoded ? encoded.split(",") : [];
       } catch (err) {}
+      var mode = target.getAttribute("data-mode") || getMode();
       update(
         true,
         parseInt(target.getAttribute("data-page"), 10) || 1,
         query || input.value || getQ(),
-        conferences
+        conferences,
+        mode
       );
       try {
         status.scrollIntoView({ block: "start" });
@@ -761,7 +925,7 @@
         return;
       }
       initialConferences = populateConferences(conferenceFilter, initialConferences);
-      render(status, list, pager, initialQ, initialPage, initialConferences);
+      render(status, list, pager, initialQ, initialPage, initialConferences, initialMode);
     });
     try {
       input.focus();
